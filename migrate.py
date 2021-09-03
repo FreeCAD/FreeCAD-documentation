@@ -32,7 +32,7 @@ Basic command-line usage:
 -------------------------
 
     migrate.py --init
-    
+
     See bottom of file for available functions
 
 Basic Python usage:
@@ -107,7 +107,7 @@ class MediaWiki:
 
 
     def init(self):
-        
+
         """init():
         Performs an initial import of the pages and images.
         If a cache already exists, it will be fully overwritten."""
@@ -513,20 +513,31 @@ class MediaWiki:
         result = re.sub("\!\[(.*?)\]\(",r"![\1]("+imagepath+"/",result) # add /image to image paths
         result = re.sub(" \"wikilink\"",".md",result) # add .md to wiki page links
 
-        # template fixes
-        result = re.sub("\`.*?\`\{\=html\}","",result) # remove html tags
-        result = re.sub("<!--.*?-->","",result,flags=flags) # remove html comments
-        result = re.sub("{{Docnav.*?}}","",result,flags=flags) # remove {{Docnav}} templates
-        result = re.sub("{{Caption\|(.*?)}}",r"*\1*",result,flags=flags) # replace {{Caption}} templates
-        result = re.sub("{{KEY\|(.*?)}}",r"**\1**",result,flags=flags) # replace {{KEY}} templates
-        result = re.sub("{{Button\|(.*?)}}",r"**\1**",result,flags=flags) # replace {{Button}} templates
-        result = re.sub("{{PropertyData\|(.*?)}}",r"**\1**",result,flags=flags) # replace property templates
-        result = re.sub("{{PropertyView\|(.*?)}}",r"**\1**",result,flags=flags) # replace property templates
-        result = re.sub("{{Version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags) # replace {{Version}} templates
-        result = re.sub("{{version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags) # replace {{Version}} templates
-        result = re.sub("{{VersionPlus\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags) # replace {{Version}} templates
-        result = re.sub("{{Emphasis\|(.*?)}}",r"**\1**",result,flags=flags) # replace {{Emphasis}} templates
-        result = re.sub("{{\#translation\:}}","",result,flags=flags) # replace {{translation}} templates
+        # template that are simply removed
+        result = re.sub("\`.*?\`\{\=html\}","",result)
+        result = re.sub("<!--.*?-->","",result,flags=flags)
+        result = re.sub("{{Docnav.*?}}","",result,flags=flags)
+        result = re.sub("{{Page in progress}}","",result,flags=flags)
+        result = re.sub("{{\#translation\:}}","",result,flags=flags)
+
+        # templates that get turned into bold text
+        result = re.sub("{{Caption\|(.*?)}}",r"*\1*",result,flags=flags)
+        result = re.sub("{{KEY\|(.*?)}}",r"**\1**",result,flags=flags)
+        result = re.sub("{{Button\|(.*?)}}",r"**\1**",result,flags=flags)
+        result = re.sub("{{MenuCommand\|(.*?)}}",r"**\1**",result,flags=flags)
+        result = re.sub("{{PropertyData\|(.*?)}}",r"**\1**",result,flags=flags)
+        result = re.sub("{{PropertyView\|(.*?)}}",r"**\1**",result,flags=flags)
+        result = re.sub("{{Emphasis\|(.*?)}}",r"**\1**",result,flags=flags)
+
+        # templates that get turned into <small> text
+        result = re.sub("{{Version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
+        result = re.sub("{{version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
+        result = re.sub("{{VersionPlus\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
+
+        # templates that get turned into a newline char
+        result = re.sub("{{Clear}}",r"\n",result,flags=flags)
+
+        # all other templates are simply converted to normal text (see below)
 
         # turning GuiCommand block into YAML
         if "{{GuiCommand" in result:
@@ -557,7 +568,7 @@ class MediaWiki:
             l2 = "<img src=\""+imagepath+"/"+iml1.replace(" ","_")+"\" width="+iml2+"px>"
             result = result.replace(l1,l2)
         result = re.sub("\[\[Image\:(.*?)\|(.*?)\]\]",r"![]("+imagepath+"/\1)",result)
-        result = re.sub("\[\[(.*?)\|(.*?)\]\]",r"[\2](\1.md)",result)    
+        result = re.sub("\[\[(.*?)\|(.*?)\]\]",r"[\2](\1.md)",result)
         result = re.sub(r"\]\(.*?\.",lambda x:x.group().replace(" ","_"),result) # replace spaces by underscores in all remaining links
         result = re.sub("!\[(.*?)\]\((.*?)\){width=\"(.*?)\"}",r'<img alt="\1" src=\2 style="width:\3px;">',result) # fix img sizes
         #for l in re.findall("\[.*?\]\(.*?\)",result):
@@ -572,7 +583,10 @@ class MediaWiki:
         result = re.sub("(<img.*?>.*?)(\*.*?\*\n)",r"\1\n\2",result) # put captions on a newline
         result = re.sub("\[(.*?)\]\(image:(.*?)\.md\)",r"![\1]("+imagepath+r"/\2)",result) # fix image: links
         result = re.sub("\[(.*?)px\]\(File:(.*?)\.md\)",r'<img src='+imagepath+r'/\2 style="width:\1px">',result) # fix File: links
-        
+
+        # removing other leftovers
+        result = re.sub("\\_\\_NOTOC\\_\\_","",result,flags=flags) # removing __NOTOC__ entries
+        result = re.sub("\{\#.*?\}","",result,flags=flags) # removing {#...} tags
 
         # removing all remaining templates
         for template in re.findall("{{.*?}}",result,flags=flags):
@@ -691,7 +705,7 @@ def test():
 
 
 def writepages():
-    
+
     """writes all pages to .md files"""
 
     wiki = MediaWiki()
@@ -717,9 +731,9 @@ def writeimages():
 
 
 if __name__ == "__main__":
-    
+
     args = sys.argv[1:]
-    
+
     # execute function
     if len(args) == 1:
         arg = args[0]
