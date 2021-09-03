@@ -23,7 +23,7 @@ Further goals:
 
 
 
-Read on to the [Documentation home page](wiki/main_page.md)
+Read on to the [Documentation home page](wiki/Main_Page.md)
 
 
 
