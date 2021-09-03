@@ -1,0 +1,51 @@
+---
+- GuiCommand:/de
+   Name:Draft ShowSnapBar
+   Name/de:Entwurf ZeigeFangLeiste
+   MenuLocation:Entwurf → Dienstprogramme → Zeige Fang Leiste
+   Workbenches:[Entwurdf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_ToggleSnap/de.md)
+---
+
+
+</div>
+
+## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
+
+Dieser Befehl zeigt die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste, die die **<img src="images/Draft_Grid.svg" width=16px> [Draft UmschaltenGitter](Draft_ToggleGrid/de.md)** und **<img src="images/Snap_Lock.svg" width=16px> [Draft UmschaltenFang](Draft_ToggleSnap/de».md)** Schaltflächen sowie die unterschiedlichen [Fangmethoden](Draft_Snap/de.md). enthält.
+
+
+</div>
+
+## Anwendung
+
+
+<div class="mw-translate-fuzzy">
+
+-   Rechtsklicke auf ein Entwurfsobjekt und wähle die {{MenuCommand|Dienstprogramme → <img src="images/Draft_Snap.svg" width=16px> [Entwurf Zeige Fang Leiste](Draft_ShowSnapBar/de.md)}}.
+-   Oder rechtsklicke auf einen leeren Platz auf einer Werkzeugleiste und klicke auf das [Entwurf Fang](Draft_Snap/de.md) Ankreuzkästchen.
+-   Oder gehe zum Menü {{MenuCommand|Ansicht → Werkzeugleisten}} und klicke auf das [Entwurf Fang](Draft_Snap/de.md) Ankreuzkästchen.
+
+
+</div>
+
+## Hinweise
+
+-   Like any toolbar the Draft Snap toolbar can be toggled using these methods:
+    -   Select the {{MenuCommand|View → Toolbars → Draft Snap}} option from the menu.
+    -   Right-click an empty space in the [toolbar area](Interface.md) and select the {{MenuCommand|Draft Snap}} option from the menu that appears.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+ 

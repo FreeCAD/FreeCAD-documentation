@@ -1,0 +1,63 @@
+ {{VeryImportantMessage|(Октябрь 2019) Не редактируйте эту страницу. Информация является неполной и устаревшей. Для получения последней версии API см.[https://www.freecadweb.org/api автосгенерированную API документацию], или вы можете сгенерировать документацию самостоятельно, смотрите [Исходня документация](Source_documentation.md).}}
+
+This is the principal (root) module of FreeCAD. It can also be called by \"App\" from the FreeCAD interpreter. It contains everything that is needed to manipulate documents and their contents (objects).
+
+Example: 
+```python
+import FreeCAD
+print FreeCAD.listDocuments()
+mydoc = FreeCAD.activeDocument()
+```
+
+
+{{APIFunction|ConfigDump| |Prints a dictionary containing all the FreeCAD configuration environment.| }}
+
+
+{{APIFunction|ConfigGet|[string]|Returns the value of the given key. If no key is given, the complete configuration is returned|A string.}}
+
+
+{{APIFunction|ConfigSet|string, string|Set the given key (first string) to the given value (second string).| }}
+
+
+{{APIFunction|Version| |Prints the FreeCAD version.| }}
+
+
+{{APIFunction|activeDocument| |Return the active document or None if there is no active document.|A FreeCAD Document.}}
+
+
+{{APIFunction|addExportType|string, string|Adds a new export file type to FreeCAD. The first string must be formatted like this example: "Word Document (*.doc)". The second string is the name of a python script/module containing an export() function.| }}
+
+
+{{APIFunction|addImportType|string, string|Adds a new import file type to FreeCAD, works the same way as addExportType, the handling python module must contain an open() and/or an import() function.| }}
+
+
+{{APIFunction|closeDocument|Document name|Closes the given document| }}
+
+
+{{APIFunction|getDocument|Document name|Returns a document or raise an exception if there is no document with the given name.| }}
+
+
+{{APIFunction|getExportType|string|Returns the name of the module that can export the specified filetype.| A string.}}
+
+
+{{APIFunction|getImportType|string|Returns the name of the module that can import the specified filetype.|A string.}}
+
+
+{{APIFunction|listDocuments| |Returns a dictionary of names and object pointers of all documents.|A dictionary of names and object pointers.}}
+
+
+{{APIFunction|newDocument|[string], [hidden<nowiki>=</nowiki>False]|Creates and returns a new document with a given name. The document name must be unique, which is checked automatically. If no name is supplied, the document will be named "Untitled". If <tt>hidden<nowiki>=</nowiki>True</tt> is passed, then FreeCAD in GUI mode won't display the document and won't show a tab for the document; this allows performing automatic operations on a temporary document (or create a document and save it) without disrupting the user interface.|The newly created document.}}
+
+
+{{APIFunction|open|string|See openDocument| }}
+
+
+{{APIFunction|openDocument|filepath, [hidden]|Creates and returns a document and load a project file into the document. The string argument must point to an existing file. If the file doesn't exist or the file cannot be loaded an I/O exception is thrown. In this case the created document is kept, but will be empty. If <tt>hidden<nowiki>=</nowiki>True</tt> is passed, then FreeCAD in GUI mode won't display the document and won't show a tab for the document; this allows performing automatic operations on a document and close it without disrupting the user interface.|The opened FreeCAD Document.}}
+
+
+{{APIFunction|setActiveDocument|Document name|Set the active document by its name.| }}
+
+
+ 
+
+[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)

@@ -1,0 +1,30 @@
+---
+- GuiCommand:/de
+   Name/de:Std neue Ansicht
+   Name:Std ViewCreate
+   MenuLocation:[Ansichtsmenü](Std_View_Menu/de.md) → Neue Ansicht‏‎
+   Workbenches:Alle
+   SeeAlso:[[Std ViewDockUndockFullscreen/de]]
+---
+
+## Beschreibung
+
+Der Befehl **Std Neue Ansicht** erstellt eine neue [3D-Ansicht für](3D_view/de.md) das aktive Dokument. Mit 3D-Ansichten kann man auch sein Modell aus verschiedenen Blickrichtungen oder mit unterschiedlicher Ansichtsgröße (zoom) ansehen.
+
+![](images/ViewCreate1.png ) *Die FreeCAD-Ansicht mit mehreren 3D-Ansichten*
+
+## Anwendung
+
+1.  Den {{MenuCommand|Ansicht → <img src="images/Std_ViewCreate.svg" width=16px> Neue Ansicht}} Menüpunkt aus dem Menü wählen.
+
+## Optionen
+
+-   Den {{MenuCommand|Windows → Cascade}} oder {{MenuCommand|Windows → Tile}}-Menüpunkt aus dem Menü wählen, um die 3D-Ansicht neu zu aufzubauen.
+
+
+
+
+
+{{Std Base navi
+
+}}  

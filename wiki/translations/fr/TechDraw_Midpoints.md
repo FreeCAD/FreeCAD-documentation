@@ -1,0 +1,61 @@
+---
+- GuiCommand:/fr
+   Name:TechDraw Midpoints
+   Name/fr:TechDraw Points médians
+   MenuLocation:TechDraw → Ajouter des sommets → Ajouter des sommets de points médians
+   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
+   Version:0.19
+   SeeAlso:[TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDraw Sommets quadrants](TechDraw_Quadrants/fr.md)
+---
+
+
+</div>
+
+## Description
+
+L\'outil Points médians ajoute des [Vertices](Glossary/fr#V.md) (sommets) cosmétiques au milieu d\'une ou plusieurs arêtes.
+
+<img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width:250px;"> 
+*Points cosmétiques au milieu d'arêtes*
+
+## Utilisation
+
+1.  Sélectionnez une ou plusieurs arêtes dans une vue.
+2.  Appuyez sur le bouton **<img src="images/TechDraw_Midpoints.svg" width=16px> Ajouter des sommets de points médians**.
+3.  Les sommets cosmétiques seront ajoutés au point milieu du ou des bords.
+
+Pour supprimer un point médian, sélectionnez-le et utilisez le bouton de la barre d\'outils **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)**.
+
+## Propriétés
+
+Les points cosmétiques n\'ont pas de propriétés propres car ils ne sont pas des objets de document. Ils partagent les paramètres de couleur et de taille avec des points de géométrie réguliers.
+
+## Script
+
+
+**Voir aussi:**
+
+[TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+
+Les points cosmétiques ne sont pas accessibles par [macros](Macros/fr.md) ni par la console [Python](Python/fr.md) pour le moment. Ce bout de code supprimera tous les points cosmétiques de la vue.
+
+
+```python
+>>> v = App.ActiveDocument.View
+>>> v.clearCV()
+>>> App.activeDocument().recompute()
+```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{TechDraw Tools navi
+
+}}  

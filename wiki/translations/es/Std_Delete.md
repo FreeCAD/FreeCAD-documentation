@@ -1,0 +1,66 @@
+---
+- GuiCommand:/es
+   Name:Std_Delete
+   Name/es:Delete
+   Workbenches:Todos
+   MenuLocation:Editar → Borrar
+---
+
+
+</div>
+
+## Descriptivo
+
+
+<div class="mw-translate-fuzzy">
+
+Este comando borra los objetos seleccionados. Si no está seleccionado ningún objeto, no hace nada.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+## Use
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Los objetos seleccionados se pueden eliminar del documento presionando **DEL**, desde el menú {{MenuCommand|Editar → Borrar}}, o desde el menú contextual de la [vista en árbol](tree_view/es.md) . Todas las operaciones de borrado se pueden deshacer y rehacer.
+
+
+</div>
+
+## Scripting
+
+
+**See also:**
+
+[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+To delete an object use the `removeObject` method of the document object.
+
+
+```python
+import FreeCAD
+
+FreeCAD.ActiveDocument.removeObject("myObjectName")
+```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Std Base navi
+
+}}  

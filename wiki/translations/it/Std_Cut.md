@@ -1,0 +1,45 @@
+---
+- GuiCommand:/it
+   Name:Std_Cut
+   Name/it:Taglia
+   MenuLocation:Modifica → Taglia
+   Workbenches:Tutti
+   SeeAlso:[Copia](Std_Copy/it.md), [Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
+---
+
+## Descrizione
+
+Il comando **Taglia** è limitato: può essere utilizzato solo per le [celle dei foglio di calcolo](Spreadsheet_Workbench/it.md). Il comando copia il contenuto e le proprietà delle celle negli Appunti e quindi le cancella.
+
+Per tagliare altri oggetti è possibile utilizzare il comando [Std Copy](Std_Copy/it.md) (Copia) seguito da un\'operazione di eliminazione.
+
+## Utilizzo
+
+1.  Selezionare una o più celle nel foglio di calcolo.
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Std_Cut.svg" width=16px> [Taglia](Std_Cut/it.md)**.
+    -   Selezionare l\'opzione {{MenuCommand|Modifica → <img src="images/Std_Cut.svg" width=16px> Taglia}} dal menu.
+
+## Note
+
+
+<div class="mw-translate-fuzzy">
+
+-   La scorciatoia standard da tastiera **Ctrl** + **X** non richiama questo comando **Std Cut** ma utilizza invece la funzione Taglia del sistema operativo. È possibile utilizzare questo collegamento nella maggior parte delle finestre di testo e delle caselle di input di FreeCAD. Il collegamento funziona anche per le celle del foglio di calcolo.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Std Base navi
+
+}}  

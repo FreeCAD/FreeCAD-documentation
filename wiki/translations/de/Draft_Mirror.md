@@ -1,0 +1,143 @@
+---
+- GuiCommand:/de
+   Name:Draft Mirror
+   Name/de:Entwurf Spiegeln
+   MenuLocation:Änderung → Spiegeln
+   Workbenches:[Entwurf](Draft_Module/de.md), [Architektur](Arch_Module/de.md)
+   Shortcut:**M** **I**
+   SeeAlso:[Entwurf Klonen](Draft_Clone/de.md)
+---
+
+
+</div>
+
+## Beschreibung
+
+Der <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Entwurf Spiegeln** Befehl erstellt gespiegelte Kopien, [Part Spiegeln](Part_Mirror/de.md) Objekte, von ausgewählten Objekten. Ein [Part Spiegeln](Part_Mirror/de.md) Objekt ist parametrisch, d.h. es aktualisiert sich, wenn sich sein Quellobjekt ändert.
+
+
+<div class="mw-translate-fuzzy">
+
+Der Befehl kann auf 2D Objekte angewendet werden, die mit dem [Entwurf Arbeitsbereich](Draft_Module/de.md) oder [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md), erstellt wurden, aber auch auf viele 3D Objekte, wie z.B. solche, die mit dem [Part Arbeitsbereich](Part_Workbench/de.md), [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder [Architektur Arbeitsbereich](Arch_Module/de.md) erstellt wurden.
+
+
+</div>
+
+<img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;"> 
+* Ein Objekt Spiegeln*
+
+## Anwendung
+
+Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Constrain/de.md).
+
+1.  Wähle optional ein oder mehrere Objekte aus.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Drücke die **<img src="images/Draft_Mirror.svg" width=16px> [Entwurf Spiegeln](Draft_Mirror/de.md)** Schaltfläche.
+    -   Wählen die Option {{MenuCommand|Änderung → <img src="images/Draft_Mirror.svg" width=16px> Spiegeln}} aus dem Menü.
+    -   Verwende das Tastaturkürzel: **M** und dann **I**.
+3.  Wenn du noch kein Objekt ausgewählt hast: Wähle ein Objekt in der [3D-Ansicht](3D_view/de.md).
+4.  Das Aufgabenfeld {{MenuCommand|Spiegeln}} öffnet sich. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+5.  Wähle den ersten Punkt der Spiegelebene in der [3D-Ansicht](3D_view/de.md), oder gib die Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
+6.  Wähle den zweiten Punkt der Spiegelebene in der [3D Ansicht](3D_view/de.md), oder gib die Koordinaten ein und drücke die**<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
+7.  Die Spiegelebene wird durch die ausgewählten Punkte und die Normale der [Entwurf Arbeitsebene](Draft_SelectPlane/de.md) definiert.
+
+## Options
+
+The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+
+-   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
+-   Press **R** or click the {{MenuCommand|Relative}} checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
+-   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   The {{MenuCommand|Continue}} checkbox has no purpose for this command.
+-   The {{MenuCommand|Modify subelements}} checkbox has no purpose for this command.
+-   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
+-   Press **Esc** or the **Close** button to abort the command.
+
+## Notes
+
+-   Mirrored copies of [Draft Lines](Draft_Line.md), [Draft Wires](Draft_Wire.md), [Draft Arcs](Draft_Arc.md) and [Draft Circles](Draft_Circle.md) can be turned into independent editable Draft objects by using [Draft Downgrade](Draft_Downgrade.md) and then [Draft Upgrade](Draft_Upgrade.md).
+-   The [Part SimpleCopy](Part_SimpleCopy.md) command can be used to create a copy of a mirrored object that is not linked to its source object.
+
+## Einstellungen
+
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+
+-   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
+
+## Eigenschaften
+
+See also: [Property editor](property_editor.md).
+
+A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+### Daten
+
+
+{{TitleProperty|Base}}
+
+-    **Source|Link**: specifies the object that is mirrored.
+
+
+{{TitleProperty|Plane}}
+
+-    **Base|Vector**: specifies the base point of the mirror plane.
+
+-    **Normal|Vector**: specifies the normal direction of the mirror plane.
+
+## Skripten
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+To mirror objects use the `mirror` method of the Draft module.
+
+
+```python
+mirrored_list = mirror(objlist, p1, p2)
+```
+
+-    `objlist`contains the objects to be mirrored. It is either a single object or a list of objects.
+
+-    `p1`is the first point of the mirror plane.
+
+-    `p2`is the second point of the mirror plane.
+
+-   If the [Draft working plane](Draft_SelectPlane.md) is available the alignment of the mirror plane is determined by its normal, else the view direction of the camera in the active [3D view](3D_view.md) is used. If the graphical interface is not available the Z axis is used.
+
+-    `mirrored_list`is returned with the new `Part::Mirroring` objects. It is either a single object or a list of objects, depending on `objlist`.
+
+Beispiel:
+
+
+```python
+import FreeCAD as App
+import Draft
+
+doc = App.newDocument()
+
+place = App.Placement(FreeCAD.Vector(1000, 0, 0), App.Rotation())
+polygon1 = Draft.make_polygon(3, 750)
+polygon2 = Draft.make_polygon(5, 750, placement=place)
+
+p1 = App.Vector(2000, -1000, 0)
+p2 = App.Vector(2000, 1000, 0)
+
+line1 = Draft.make_line(p1, p2)
+mirrored1 = Draft.mirror(polygon1, p1, p2)
+
+Line2 = Draft.make_line(-p1, -p2)
+mirrored2 = Draft.mirror([polygon1, polygon2], -p1, -p2)
+
+doc.recompute()
+```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+ 

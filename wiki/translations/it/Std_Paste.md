@@ -1,0 +1,56 @@
+---
+- GuiCommand:/it
+   Name:Std_Paste
+   Name/it:Incolla
+   MenuLocation:Modifica → Incolla
+   Shortcut:**Ctrl**+**V**
+   Workbenches:Tutti
+   SeeAlso:[Taglia](Std_Cut/it.md), [Copia](Std_Copy/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
+---
+
+## Descrizione
+
+Il comando **Incolla** incolla gli oggetti dagli Appunti nel documento attivo.
+
+## Utilizzo
+
+1.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Std_Paste.svg" width=16px> Incolla**.
+    -   Selezionare l\'opzione {{MenuCommand|Modifica → <img src="images/Std_Paste.svg" width=16px> Incolla}} dal menu.
+    -   Selezionare l\'opzione {{MenuCommand|<img src="images/Std_Paste.svg" width=16px> Incolla}} dal menu contestuale della [vista ad albero](Tree_view/it.md). Questa opzione è disponibile solo quando è stato selezionato un oggetto esistente.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**V**.
+
+## Note
+
+-   FreeCAD cambia automaticamente i nomi interni e, a seconda delle preferenze, le etichette degli oggetti per evitare conflitti di nomi.
+-   Un alias di cella di foglio di calcolo già esistente nel foglio di calcolo non viene incollato.
+-   Quando si lavora in una finestra di testo di FreeCAD, in una casella di input o in un foglio di calcolo, la scorciatoia da tastiera standard **Ctrl** + **V**, in quasi tutti i casi, non chiama questo comando *\'Std Paste* \'ma utilizza invece la funzione Incolla dal sistema operativo.
+-   Non è possibile copiare e incollare oggetti nativi tra FreeCAD e altre applicazioni.
+
+## Preferenze
+
+-   Le etichette duplicate sono consentite se {{MenuCommand|Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → DuplicateLabels}} è impostato su `True`. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
+
+## Scripting
+
+The **Std Paste** command can be applied only after running the **[Std Copy](Std_Copy.md)** command:
+
+
+```python
+FreeCADGui.runCommand('Std_Copy')
+FreeCADGui.runCommand('Std_Paste')
+```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Std Base navi
+
+}}  

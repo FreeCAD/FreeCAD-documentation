@@ -1,0 +1,42 @@
+---
+- GuiCommand:/pl
+   Name:Draft ToggleConstructionMode
+   Name/pl:Rysunek Roboczy: Przełącz tryb konstrukcyjny
+   MenuLocation:Kreślenie → Przybory → Przełącz tryb konstrukcyjny
+   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso:[Dodaj do grupy konstrukcyjnej](Draft_AddConstruction/pl.md), [Grupowanie automatyczne](Draft_AutoGroup/pl.md)
+---
+
+## Opis
+
+Polecenie <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"> **Rysunek Roboczy: Przełącz tryb konstrukcyjny** włącza lub wyłącza tryb konstrukcyjny. Jeśli tryb konstrukcji jest włączony, nowe obiekty [Rysunku Roboczego](Draft_Workbench/pl.md), z wyjątkiem [Punktu](Draft_Point/pl.md), są umieszczane w dedykowanej grupie i otrzymują predefiniowany kolor. Ta funkcja jest przeznaczona dla, często tymczasowej, geometrii konstrukcyjnej używanej do tworzenia nowych [punktów przyciągania](Draft_Snap/pl.md) do tworzenia innych obiektów. Gdy geometria konstrukcyjna nie jest już potrzebna, grupa konstrukcyjna może być łatwo [ukryta](Std_HideSelection/pl.md) lub [usunięta](Std_Delete/pl.md).
+
+<img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;"> 
+*Geometria konstrukcyjna, w kolorze niebieskim, używana do wyznaczania środka i promienia okręgu*
+
+## Błędy w wersji 0.19 {#błędy_w_wersji_0.19}
+
+W wersji programu FreeCAD 0.19 to polecenie i polecenie [Dodaj do grupy konstrukcyjnej](Draft_AddConstruction/pl.md) zazwyczaj korzysta z różnych grup. Aby tego uniknąć należy zmienić {{MenuCommand|Nazwa grupy konstrukcyjnej}} w preferencjach na {{Value|Draft_Construction}}: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Geometria konstrukcji → Nazwa grupy konstrukcyjnej}}. W wersji 0.20 {{MenuCommand|Nazwa grupy konstrukcyjnej}} jest używane dla etykiety grupy konstrukcyjnej, nazwa grupy to zawsze {{Value|Draft_Construction}}.
+
+## Użycie
+
+1.  Istnieje kilka sposobów na wywołanie tej komendy:
+    -   Naciśnij przycisk **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Przełącz tryb konstrukcyjny](Draft_ToggleConstructionMode/pl.md)** na [Tacce narzędziowej](Draft_Tray/pl.md). Ten przycisk jest aktywny, jeśli włączony jest tryb konstrukcji w wersji roboczej.
+    -   Wybierz opcję z menu {{MenuCommand|Przybory → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Przełącz tryb konstrukcji}}.
+    -   Użyj skrótu klawiaturowego: **C** a następnie **M**.
+2.  Przycisk w [Tacce narzędziowej](Draft_Tray/pl.md) zostanie zaktualizowany.
+
+## Uwagi
+
+-   Jeżeli włączony jest tryb konstrukcji Rysunku Roboczego, to aktywna [warstwa](Draft_Layer/pl.md) jest ignorowana.
+
+## Ustawienia
+
+-   Aby zmienić etykietę ({{Version/pl|0.20}}) grupy konstrukcyjnej, użyj opcji: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Geometria konstrukcyjna → Nazwa grupy konstrukcyjnej}}.
+-   Aby zmienić używany kolor, uyj opcji: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Geometria konstrukcyjna → Kolor geometrii konstrukcji}}.
+
+
+
+
+
+ 

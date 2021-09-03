@@ -1,0 +1,26 @@
+---
+- GuiCommand:/pl
+   Name:Sketcher MergeSketches
+   Name/pl:Szkicownik: Łączenie szkiców
+   MenuLocation:Sketch → Połącz szkice
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Version:0.15
+---
+
+## Opis
+
+Połącz dwa lub więcej szkiców w jeden.
+
+## Użycie
+
+1.  Wybierz dwa lub więcej szkiców,
+2.  Kliknij na przycisk **<img src="images/Sketcher_MergeSketches.svg" width=16px> [Połącz szkice](Sketcher_MergeSketches/pl.md)** lub wybierz {{MenuCommand|Szkic → <img src="images/Sketcher_MergeSketches.svg" width=16px> [Połącz szkice](Sketcher_MergeSketches/pl.md)}} z menu głównego.
+3.  Szkic wynikowy zostanie utworzony jako oddzielny nowy obiekt.
+
+
+
+
+
+{{Sketcher Tools navi
+
+}} 

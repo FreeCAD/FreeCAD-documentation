@@ -1,0 +1,61 @@
+---
+- GuiCommand:   Name:Draft ToggleConstructionMode   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Utilities → Toggle construction mode   SeeAlso:[[Draft_AddConstruction]]---
+
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
+## Descriere
+
+Atelierul Draft prezintă un mod de construcție ( ToggleConstructionMode) care permite desenarea anumitor obiecte într-un grup special, cu o culoare definită, astfel încât este ușor să le separați de celelalte obiecte și să le dezactivați atunci când nu aveți nevoie sau să le ștergeți după ce nu mai aveți nevoie de ele.
+
+
+</div>
+
+<img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
+<img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;">
+
+
+</div>
+
+## Bug in version 0.19 {#bug_in_version_0.19}
+
+In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddConstruction.md) command will typically use different groups. To avoid this change the {{MenuCommand|Construction group name}} in the preferences to {{Value|Draft_Construction}}: {{MenuCommand|Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name}}. In version 0.20 the {{MenuCommand|Construction group name}} is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
+## Cum se folosește {#cum_se_folosește}
+
+1.  Apăsați butonul **<img src="images/Draft_ToggleConstructionMode.png" width=16px> [Toggle construction mode](Draft_ToggleConstructionMode.md)
+**
+2.  Desenați niște obiecte
+3.  Apăsați încă o dată butonul **<img src="images/Draft_ToggleConstructionMode.png" width=16px> [Toggle construction mode](Draft_ToggleConstructionMode.md)**pentru a reveni la modul normal
+
+
+</div>
+
+## Notes
+
+-   If Draft construction mode is switched on the active [layer](Draft_Layer.md) is ignored.
+
+## Preferences
+
+-   To change the label (<small>(v0.20)</small> ) of the construction group: {{MenuCommand|Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name}}.
+-   To change the color that is used: {{MenuCommand|Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color}}.
+
+
+
+
+
+ 

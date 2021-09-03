@@ -1,0 +1,94 @@
+ {{VeryImportantMessage|(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation].}}
+
+Das Part-Modul ist die direkte Verbindung zwischen FreeCAD und dem OpenCasCade-Kern. Es bietet im Wesentlichen \[TopoShape\_API/de\|TopoShapes\], welches der von OpenCasCade hauptsächlich verwendete Objekttyp ist. Das Part-Modul enthält außerdem verschiedene nützliche Funktionen zur Erzeugung und Behandlung von topoShapes. Beispiel: 
+```python
+import Part
+mycube = Part.makeBox(2,2,2)
+Part.show(mycube)
+```
+
+
+{{APIFunction|__fromPythonOCC__|OCC.Object|Helper method to convert a pythonocc shape to an internal shape|A Part.Shape}}
+
+
+{{APIFunction|__sortEdges__|list of edges|Helper method to sort an unsorted list of edges so that afterwards the start and end vertex of two consecutive edges are geometrically coincident. It returns a single list of edges and the algorithm stops after the first set of connected edges which means that the output list can be smaller than the input list. The sorted list can be used to create a Wire.|a list of edges}}
+
+
+{{APIFunction|__toPythonOCC__|Part.Shape|Helper method to convert an internal shape to pythonocc shape|an OCC.Shape}}
+
+
+{{APIFunction|cast_to_shape|Part.Shape|Cast to the actual shape type| }}
+
+
+{{APIFunction|export|list,string|Export a list of objects into a single file.| }}
+
+
+{{APIFunction|getSortedClusters|list of edges|Helper method to sort and cluster a variety of edges| }}
+
+
+{{APIFunction|insert|string,string|Insert the file (path given as first argument) into the given document (second argument).| }}
+
+
+{{APIFunction|makeBox|length,width,height,[pnt,dir]|Makes a box located at pnt with the dimensions (length,width,height). By default pnt is Vector(0,0,0) and dir is Vector(0,0,1)|the created shape}}
+
+
+{{APIFunction|makeCircle|radius,[pnt,dir,angle1,angle2]|Makes a circle with a given radius. By default pnt is Vector(0,0,0), dir is Vector(0,0,1), angle1 is 0 and angle2 is 360|the created shape}}
+
+
+{{APIFunction|makeCompound|list|Creates a compound out of a list of shapes.|the created shape}}
+
+
+{{APIFunction|makeCone|radius1,radius2,height,[pnt,dir,angle]|Makes a cone with given radii and height. By default pnt is Vector(0,0,0), dir is Vector(0,0,1) and angle is 360|the created shape}}
+
+
+{{APIFunction|makeCylinder|radius,height,[pnt,dir,angle]|Makes a cylinder with a given radius and height. By default pnt is Vector(0,0,0),dir is Vector(0,0,1) and angle is 360|the created shape}}
+
+
+{{APIFunction|makeHelix|pitch,height,radius,[angle,lefthand,heightstyle]|Makes a helix shape with a given pitch, height and radius. Defaults to right-handed cylindrical helix. Non-zero angle parameter produces a conical helix.  Lefthand True produces left handed helix.  Heightstyle applies only to conical helices. Heightstyle False (default) will cause the height parameter to be interpreted as the length of the side of the underlying frustum.  Heightstyle True will cause the height parameter to be interpreted as the vertical height of the helix.  Pitch is "metric pitch" (advance/revolution). For conical helix, radius is the minor radius.|the created shape}}
+
+
+{{APIFunction|makeLine|(x1,y1,z1),(x2,y2,z2)|Makes a line of two points|the created shape}}
+
+
+{{APIFunction|makeLoft|shapelist<profiles>,[boolean<solid>,boolean<ruled>]|Creates a loft shape using the list of profiles. Optionally make result a solid (vs surface/shell) or make result a ruled surface.|the created shape}}
+
+
+{{APIFunction|makePlane|length,width,[pnt,dir]|Makes a plane. By default pnt is Vector(0,0,0) and dir is Vector(0,0,1)|the created shape}}
+
+
+{{APIFunction|makePolygon|list|Makes a polygon of a list of Vectors|the created shape}}
+
+
+{{APIFunction|makeRevolution|Curve,[vmin,vmax,angle,pnt,dir]|Makes a revolved shape by rotating the curve or a portion of it around an axis given by (pnt,dir). By default vmin/vmax are set to bounds of the curve,angle is 360,pnt is Vector(0,0,0) and dir is Vector(0,0,1)|the created shape}}
+
+
+{{APIFunction|makeRuledSurface|Edge or Wire,Edge or Wire|Creates a ruled surface out of two edges or wires. If wires are used then these must have the same number of edges.|the created shape}}
+
+
+{{APIFunction|makeShell|list|Creates a shell out of a list of faces.    Note: Resulting shell should be manifold.   Non-manifold shells are not well supported.|the created shape}}
+
+
+{{APIFunction|makeSolid|Part.Shape|Creates a solid out of the shells inside a shape.|the created shape}}
+
+
+{{APIFunction|makeSphere|radius,[center_pnt, axis_dir, V_startAngle, V_endAngle, U_angle]|Makes a sphere (or partial sphere) with a given radius. By default center_pnt is Vector(0,0,0), axis_dir is Vector(0,0,1), V_startAngle is 0, V_endAngle is 90 and U_angle is 360|the created shape}}
+
+
+{{APIFunction|makeTorus|radius1,radius2,[pnt,dir,angle1,angle2,angle]|Makes a torus with a given radii and angles. By default pnt is Vector(0,0,0),dir is Vector(0,0,1),angle1 is 0,angle2 is 360 and angle is 360|the created shape}}
+
+
+{{APIFunction|makeTube|edge,float|Creates a tube.|the created shape}}
+
+
+{{APIFunction|open|string|Creates a new document and load the file into the document.| }}
+
+
+{{APIFunction|read|string|Loads the file and return the shape.|a shape}}
+
+
+{{APIFunction|show|shape|Adds the shape to the active document or create one if no document exists.| }}
+
+
+ 
+
+[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)

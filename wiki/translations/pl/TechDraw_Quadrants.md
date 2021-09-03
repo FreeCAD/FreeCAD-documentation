@@ -1,0 +1,53 @@
+---
+- GuiCommand:
+   Name:TechDraw Quadrants
+   MenuLocation:TechDraw → Add Vertices → Add Quadrant Vertices
+   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Version:0.19
+   SeeAlso:[TechDraw Cosmetic Vertex](TechDraw_CosmeticVertex.md), [TechDraw Midpoint](TechDraw_Midpoints.md)
+---
+
+## Description
+
+The Quadrant tool adds [Cosmetic Vertices](TechDraw_CosmeticVertex.md) at the 90/180/270° points of a circular edge. The 0° vertex should already be there as a geometric vertex.
+
+<img alt="" src=images/TechDraw_CosmeticQuadrant_Sample.png  style="width:250px;"> 
+*Cosmetic vertices at quadrant points of a circle*
+
+## Usage
+
+1.  Select one or more (circular) Edges in a View.
+2.  Press the **<img src="images/TechDraw_Quadrants.svg" width=16px> Add Quadrant Vertices** button.
+3.  Cosmetic vertices will be added at the quarter-points of the edges.
+
+**Note:** This tool can be used on any edge, not just circles.
+
+To delete a Quadrant Vertex, select it and use the toolbar button **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md)**.
+
+## Properties
+
+Cosmetic Vertices have no properties of their own, as they are not Document Objects. They share color and size settings with regular geometry vertices.
+
+## Scripting
+
+
+**See also:**
+
+[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+Cosmetic Vertices are not accessible from [macros](Macros.md) or the [Python](Python.md) console at this time. This snippet will remove all Cosmetic Vertices from the View.
+
+
+```python
+>>> v = App.ActiveDocument.View
+>>> v.clearCV()
+>>> App.activeDocument().recompute()
+```
+
+
+
+
+
+{{TechDraw Tools navi
+
+}}  

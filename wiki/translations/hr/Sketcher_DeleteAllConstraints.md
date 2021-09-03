@@ -1,0 +1,31 @@
+---
+- GuiCommand:
+   Name:Sketcher DeleteAllConstraints
+   MenuLocation:Sketch → Sketcher tools → Delete All Constraints
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Version:0.18
+   SeeAlso:[Sketcher Delete All Geometry](Sketcher_DeleteAllGeometry.md)
+---
+
+## Opis
+
+This tool deletes all constraints from the sketch being edited, and leaves the geometry intact.
+
+
+<div class="mw-translate-fuzzy">
+
+## Kako koristiti {#kako_koristiti}
+
+
+</div>
+
+1.  Go to the {{MenuCommand|Sketch → Sketcher tools → <img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Delete All Constraints}} menu.
+2.  Reply **Yes** to the dialog pop up.
+
+
+
+
+
+{{Sketcher Tools navi
+
+}}  

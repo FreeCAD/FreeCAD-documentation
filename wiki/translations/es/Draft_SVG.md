@@ -1,0 +1,163 @@
+
+{{Page in progress}}
+
+
+
+
+
+
+
+{{TOCright}}
+
+## Description
+
+Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Open](Std_Open.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Import](Std_Import.md) and <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export.md) commands to handle the [SVG](SVG.md) file format.
+
+![](images/Screenshot_inkscape.jpg ) *Inkscape drawing exported to SVG, which is subsequently opened in FreeCAD*
+
+
+<div class="mw-translate-fuzzy">
+
+### Apertura
+
+Esta función importa archivos SVG como objetos 2D con los que se puede trabajar, en contra al modulo de dibujo que importa archivos SVG como hojas de dibujo. Los siguientes objetos SVG son importados de momento:
+
+-   Objetos PATH
+-   Objetos LINE
+-   Objetos RECT
+-   Objetos CIRCLE
+-   Objetos ELLIPSE
+-   Objetos POLYGON
+-   Objetos POLYLINE
+
+
+</div>
+
+The following SVG objects can be imported:
+
+-   PATH objects
+-   LINE objects
+-   RECT objects
+-   CIRCLE objects
+-   ELLIPSE objects
+-   POLYGON objects
+-   POLYLINE objects
+
+### Limitations
+
+FreeCAD will not import path objects that have only one point ([forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
+
+
+<div class="mw-translate-fuzzy">
+
+### Exportación
+
+Los siguientes objetos se pueden exportar a archivos SVG:
+
+-   Líneas y wires (polilíneas)
+-   Arcos y circunferencias
+-   Caras
+-   Textos
+-   Cotas
+
+
+</div>
+
+The following FreeCAD objects can be exported:
+
+-   Lines and wires (polylines)
+-   Arcs and circles
+-   Faces
+-   Texts
+-   Dimensions
+
+
+<div class="mw-translate-fuzzy">
+
+Recuerda que SVG es un formato 2D, de modo que toda la información de Z será desagregada (todos los objetos se aplanarán).
+
+
+</div>
+
+SVG is a 2D format, so all Z information will be disregarded (all objects will be flattened).
+
+
+<div class="mw-translate-fuzzy">
+
+### Manejando unidades {#manejando_unidades}
+
+Cuando se exporta, una unidad de usuario por ejemplo igual a un milímetro.
+
+
+</div>
+
+When exporting, a User Unit (px) equals one millimeter.
+
+Cuando se importa, los atributos de ancho, altura y viewBox se respetan. Todos los elementos se escalan a su tamaño en milímetros, que es la unidad interna de FreeCAD. Si el SVG no contiene información de su tamaño físico, se asume que tiene una resolución de 90 DPI. Utilizar unidades absolutas en los atributos dentro del SVG no debería permitirse. Las unidades relativas como em,ex y % no son soportadas actualmente.
+
+
+<div class="mw-translate-fuzzy">
+
+El editor de SVG Inkscape actualmente trabaja sólo con documentos con 90 DPI. Sin importar que unidad se seleccione en Inkscape. Todas las salidas tienen que considerar convertirse a 90 DPI y **redondeadas** a 6 decimales. Como FreeCAD (y el estándar de SVG) es agnóstico con la precisión de los redondeos realizados en Inkscape dichos valores no serán redondeados en la entrada. Y permanecerán otros valores en milímetros.
+
+Si necesitas que el SVG importado no se redondee, trabaja en unidades de usuario (px) en Inkscape. Se puede realizar un escalado después de importar a FreeCAD o cambiando los atributos de ancho, alto y viewBox.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+### Preferencias
+
+Los siguientes parámetros se pueden especificar en la pestaña [Preferencias de Croquizado](Draft_Preferences/es.md) (menú Editar -\> Preferencias -\> Croquis):
+
+-   Importar/exportar -\> Importar estilo: Esto permite seleccionar el modo que los objetos del archivo SVG se dibujarán en FreeCAD. Puedes escoger entre:
+    -   Ninguno: Este es el método más rápido, no se realiza ninguna conversión, todos los objetos serán negros con un espesor de línea de 2px (por defecto en FreeCAD)
+    -   Utilizar color y espesor de línea por defecto: Todos los objetos importados cogerán el color y espesor de línea actuales de la barra de comandos de Croquis
+    -   Color original y espesor de línea: Los objetos mantendrán el color y espesor de línea (si estaba especificado) que tenían en el archivo SVG
+-   Importar/exportar -\> Exportar estilo:
+    -   Traducidos: Todos los elementos están traducidos de modo que sus coordenadas son positivas. Esto debería ayudar en la visualización e impresión. El sistema de coordenadas de salida no es consistente entre elementos exportados individualmente.
+    -   Sin refinar: La posición de todos los elementos preservada. Está pensado para el uso de CAM por ejemplo en PyCAM. Las capas o rodajas exportadas individualmente coincidirán.
+-   Ajustes generales -\> Nivel de precisión interno:
+    -   Este valor se utiliza para comprobar si un segmento de curva de bezier tiene que considerarse como una línea recta. Si importas caminos detallados, como texto renderizado, podrías querer incrementar este valor por encima de 6.
+
+
+</div>
+
+For more information see: [Import Export Preferences](Import_Export_Preferences.md).
+
+## Scripting
+
+
+**See also:**
+
+[Draft API](Draft_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+You can export elements to SVG by using the following function: 
+```python
+importSVG.export(exportList, filename)
+```
+
+Example: 
+```python
+import Draft, importSVG
+
+Polygon1 = Draft.makePolygon(3, radius=500)
+Polygon2 = Draft.makePolygon(5, radius=1500)
+
+objects = [Polygon1, Polygon2]
+
+importSVG.export(objects, "/home/user/Pictures/myfile.svg")
+```
+
+
+<div class="mw-translate-fuzzy">
+
+
+</div>
+
+
+ 
+
+[Category:User Documentation/es](Category:User_Documentation/es.md) [Category:File Formats{{\#translation:}}](Category:File_Formats.md)

@@ -1,0 +1,22 @@
+---
+- GuiCommand:
+   Name:Std FreeCADForum
+   MenuLocation:Help → FreeCAD Forum
+   Workbenches:All
+   SeeAlso:[Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
+---
+
+## Description
+
+The **Std FreeCADForum** command opens the FreeCAD forum website in the system\'s default Internet browser. The command requires a working Internet connection.
+
+Currently the command points to [<https://forum.freecadweb.org>](https://forum.freecadweb.org).
+
+## Usage
+
+1.  Select the {{MenuCommand|Help → <img src="images/Std_FreeCADForum.svg" width=16px> FreeCAD Forum}} option from the menu.
+
+
+
+
+ {{Std Base navi}}  

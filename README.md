@@ -10,5 +10,20 @@ The general idea is to keep allowing users to use the wiki to edit and add conte
 4. Better versioning and matching to FreeCAD versions
 5. Better handling of translations
 
+Further goals:
+
+* Create a Help workbench with a md viewer
+    * [QTextDocument](https://doc.qt.io/qtforpython-5/PySide2/QtGui/QTextDocument.html#PySide2.QtGui.PySide2.QtGui.QTextDocument.setMarkdown) supports markdown (but might be problems with online images)
+    * Maybe better to use an HTML viewer and convert the markdown content?
+* Allow the help workbench to access both online or offline (local files) versions
+* Allow the help workbench to access any translated version
+* Tie the FreeCAD help system to the Help workbench
+* Tie the FreeCAD what's this system to the Help workbench
+* Allow to export parts of the documentation to other formats (PDF, ePub,...)
+
+
+
 Read on to the [Documentation home page](wiki/main_page.md)
+
+
 

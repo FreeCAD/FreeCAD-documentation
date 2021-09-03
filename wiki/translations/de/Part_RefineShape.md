@@ -1,0 +1,118 @@
+---
+- GuiCommand:/de
+   Name:Part RefineShape
+   Name/de:Part FormVerfeinern
+   MenuLocation:Formteil → Erstelle eine Kopie → Form verfeinern
+   Workbenches:[Part Arbeitsbereich](Part_Workbench/de.md)
+   SeeAlso:[Einfache Kopie](Part_SimpleCopy/de.md), [Part UmgewandelteKopie](Part_TransformedCopy/de.md), [Part ElementKopie](Part_ElementCopy/de.md), [OpenSCAD VerfeinereFormFunktion](OpenSCAD_RefineShapeFeature/de.md)
+---
+
+
+</div>
+
+## Beschreibung
+
+Die **<img src="images/Part_RefineShape.svg" width=16px> [Part FormVerfeinern](Part_RefineShape/de.md)** erzeugt eine nichtparametrische Kopie mit verfeinerter Form, also mit bereinigten Kanten und Flächen.
+
+Nach bestimmten booleschen Operationen, wie [Part Verschmelzen](Part_Fuse/de.md), bleiben einige Linien aus den vorherigen Formen sichtbar. Dieses Werkzeug erzeugt eine Kopie dieses booleschen Ergebnisses und bereinigt diese Nähte.
+
+**Alternativ**, um andere nicht-parametrische Kopien zu erstellen, verwende **<img src="images/Part_SimpleCopy.svg" width=16px> [Einfache Kopie](Part_SimpleCopy/de.md)
+**, **<img src="images/Part_TransformedCopy.svg" width=16px>[TransformierteKopie](Part_TransformedCopy/de.md)**, und **<img src="images/Part_ElementCopy.svg" width=16px> [ElementKopie](Part_ElementCopy/de.md)**
+
+![](images/PartRefineShape_it.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
+*Ursprüngliches boolesches Ergebnis (links) und verfeinerte Formenkopie (rechts).*
+
+
+</div>
+
+## Anwendung
+
+1.  Wähle ein Objekt aus, das Du bereinigen und kopieren möchtest.
+2.  Gehe zum Menü {{MenuCommand/de|Part → Erzeuge eine Kopie → <img src="images/Part_RefineShape.svg" width=16px> Form verfeinern}}.
+3.  Eine bereinigte, unabhängige Kopie des Originalobjekts wird erstellt; das Originalobjekt wird ausgeblendet.
+
+Ab <small>(v0.19)</small>  ist das Ergebnis standardmäßig eine parametrische (verknüpfte) Kopie.
+
+
+<div class="mw-translate-fuzzy">
+
+Dieses Verhalten kann im **<img src="images/Std_DlgParameter.svg" width=16px> [Parametereditor](Std_DlgParameter.md)** geändert werden:
+
+1.  Gehe zur Untergruppe: `BaseApp/Preferences/Mod/Part`
+
+-   Ändere `ParametricRefine` vom Typ `Boolean` in `False`, um das alte Verhalten (unabhängige Kopie) zu erhalten.
+
+
+</div>
+
+Siehe weitere Parameter unter [Feinabstimmung](Fine-tuning/de.md).
+
+
+<div class="mw-translate-fuzzy">
+
+### Hinweise
+
+
+</div>
+
+-   Diese Funktion kann als letzter Schritt in der Modellierungsarbeit verwendet werden, um Formen in einem herkömmlichen [konstruktive Solidgeometrie](constructive_solid_geometry/de.md) Arbeitsablauf zu bereinigen.
+-   Diese Funktion kann helfen, das Modell zu bereinigen, bevor andere Funktionen wie z.B. ein [Part Verrundung](Part_Fillet/de.md) angewendet werden.
+-   Diese Bereinigung kann 3D Drucker davon abhalten, unerwünschte Kanten zu drucken, sobald das Volumenmodell in ein Mesh Format exportiert wird.
+-   Diese Funktion kann auch nach der Umwandlung eines Netzes in eine Form ([ShapeFromMesh](Part_ShapeFromMesh/de.md)) verwendet werden, um die Restkanten auf ebenen Flächen zu bereinigen.
+
+
+<div class="mw-translate-fuzzy">
+
+### Einschränkungen
+
+
+</div>
+
+-   Der Verfeinerungsalgorithmus funktioniert nur bei Schalen. Daher iteriert er über die Schalen der Eingabeform und erzeugt dann für jede Schale eine neue Schale mit verbundenen Flächen, wo immer möglich. Das bedeutet, dass der Algorithmus nichts tut, wenn Ihre Eingabeform nur eine Fläche, ein Draht, eine Kante oder ein Knoten ist.
+-   Im Gegensatz zum <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md) Befehl
+
+<img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part FormVerfeinern](Part_RefineShape/de.md) wird nicht aktualisiert, wenn die vorhergehenden Formen geändert werden.
+
+
+<div class="mw-translate-fuzzy">
+
+## Skripten
+
+Der Python Befehl zum Verfeinern einer Form lautet wie folgt:
+
+
+</div>
+
+The Python command for refining a shape is the following:
+
+
+```python
+shape.removeSplitter()
+```
+
+The **Part RefineShape** command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
+
+
+```python
+FreeCADGui.runCommand('Part_RefineShape')
+```
+
+The selection can be manual (by using the mouse), or via the [Python console](Python_console.md).
+To know more about selecting objects programmatically, refer to [Selection methods](Selection_methods.md).
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+ 

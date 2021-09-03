@@ -1,0 +1,59 @@
+---
+- GuiCommand:/sv   Name:Draft_Apply   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Apply style---
+
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
+#### Beskrivning
+
+Detta verktyg applicerar nuvarande färg och linjestil från kommandolådan till de markerade objekten
+
+
+</div>
+
+This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
+
+-    {{MenuCommand|Line color}}
+    
+
+-    {{MenuCommand|Line width}}
+    
+
+-    {{MenuCommand|Shape color}}
+    
+
+-    {{MenuCommand|Text size}}
+    
+
+-    {{MenuCommand|Text color}}
+    
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
+#### Bruk
+
+-   Markera ett eller fler objekt
+-   Klicka på \"Applicera stil\" knappen intill färg och linjebredd knapparna
+-   Alternativt, ändra med färg eller linjebreddsknapparna, den nya inställningen kommer att tillämpas på de valda objekten
+-   Att applicera nuvarande stil kan också göras genom att högerklicka på ett objekt i trädvyn
+
+
+</div>
+
+## Notes
+
+-   In FreeCAD version 0.20 the [Draft SetStyle](Draft_SetStyle.md) command can also apply the settings.
+
+
+
+
+
+ 

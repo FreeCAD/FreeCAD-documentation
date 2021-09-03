@@ -1,0 +1,33 @@
+---
+- GuiCommand:/ro   Name:Draft ShowSnapBar   Name/ro:Draft ShowSnapBar   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Utilities → Show Snap Bar---
+
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
+## Descriere
+
+Această comandă afișează/ascunde bara de instrumente [ snapping](Draft_Snap.md).
+
+
+</div>
+
+## Usage
+
+1.  Select the {{MenuCommand|Utilities → <img src="images/Draft_ShowSnapBar.svg" width=16px> Show snap toolbar}} option from the menu.
+
+## Notes
+
+-   Like any toolbar the Draft Snap toolbar can be toggled using these methods:
+    -   Select the {{MenuCommand|View → Toolbars → Draft Snap}} option from the menu.
+    -   Right-click an empty space in the [toolbar area](Interface.md) and select the {{MenuCommand|Draft Snap}} option from the menu that appears.
+
+
+
+
+
+ 

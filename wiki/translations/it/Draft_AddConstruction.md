@@ -1,0 +1,65 @@
+---
+- GuiCommand:/it
+   Name:Draft AddConstruction
+   Name/it:Aggiungi al gruppo Costruzione
+   MenuLocation:Draft → Utilità → Aggiungi al gruppo Costruzione
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version:0.17
+   SeeAlso:[Modalità costruzione](Draft_ToggleConstructionMode/it.md), [Aggiungi al gruppo](Draft_AddToGroup/it.md)
+---
+
+
+</div>
+
+## Descrizione
+
+
+<div class="mw-translate-fuzzy">
+
+Questo comando aggiunge gli oggetti selezionati al [Gruppo costruzione](Draft_ToggleConstructionMode/it.md).
+
+
+</div>
+
+## Bug in version 0.19 {#bug_in_version_0.19}
+
+In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draft_ToggleConstructionMode.md) command will typically use different groups. To avoid this change the {{MenuCommand|Construction group name}} in the preferences to {{Value|Draft_Construction}}: {{MenuCommand|Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name}}. In version 0.20 the {{MenuCommand|Construction group name}} is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
+
+## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
+
+1.  Selezionare gli oggetti che si desidera spostare nel gruppo Costruzione.
+2.  Andare nel menu {{MenuCommand|Draft → Utilità → <img src="images/Draft_ToggleConstructionMode.png" width=16px> [Aggiungi al gruppo costruzione](Draft_AddConstruction/it.md)}}.
+
+
+</div>
+
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
+È anche possibile aggiungere oggetti usando **<img src="images/Draft_AddToGroup.svg" width=16px> [Aggiungi al gruppo](Draft_AddToGroup/it.md)** a un:
+
+-    **<img src="images/Std_Group.svg" width=16px> [Gruppo standard](Std_Group/it.md)
+**
+    
+
+-    **<img src="images/Draft_VisGroup.svg" width=16px> [VisGrouppo di Draft](Draft_VisGroup/it.md)**{{Obsolete/it|0.19}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+ 

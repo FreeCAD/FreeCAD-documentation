@@ -1,0 +1,80 @@
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Icona di base" src=images/Freecad.svg  style="width:128px;">
+
+
+{{TOCright}}
+
+## Introduzione
+
+Il **Menu di base** non è un vero ambiente di lavoro, ma piuttosto una categoria di comandi e strumenti \'standard\' che possono essere utilizzati in tutti gli ambienti di lavoro.
+
+## Strumenti
+
+La maggior parte degli strumenti di **base** sono accessibili dai [menu di base](Standard_Menu/it.md) e dalle barre degli strumenti standard. Quelli che sono disponibili solo tramite una barra degli strumenti o un menu contestuale sono elencati sotto [Strumenti aggiuntivi](#Additional_tools/it.md).
+
+### Strumenti del menu standard {#strumenti_del_menu_standard}
+
+Il menu standard è composto da 7 sotto-menu. Ogni sotto-menu ha una pagina dedicata. Basta cliccare su uno dei nomi qui sotto.
+
+
+{{StdMenu
+|
+[File](Std_File_Menu/it.md)
+&nbsp;&nbsp;&nbsp;
+[Modifica](Std_Edit_Menu/it.md)
+&nbsp;&nbsp;&nbsp;
+[Visualizza](Std_View_Menu/it.md)
+&nbsp;&nbsp;&nbsp;
+[Strumenti](Std_Tools_Menu/it.md)
+&nbsp;&nbsp;&nbsp;
+[Macro](Std_Macro_Menu/it.md)
+&nbsp;&nbsp;&nbsp;
+[Finestre](Std_Windows_Menu/it.md)
+&nbsp;&nbsp;&nbsp;
+[Aiuto](Std_Help_Menu/it.md)
+}}
+
+### Strumenti aggiuntivi {#strumenti_aggiuntivi}
+
+-   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Parte](Std_Part/it.md): Crea una nuova parte e la rende attiva.
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppo](Std_Group/it.md): Crea un nuovo gruppo.
+-   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Crea link](Std_LinkMake/it.md): Crea un link. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:32px;"> [Crea link relativo](Std_LinkMakeRelative/it.md): Crea un collegamento di sotto-oggetto o sotto-elemento. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkReplace.svg  style="width:32px;"> [Sostituisci con il link](Std_LinkReplace/it.md): Sostituisce l\'oggetto(i) con un nuovo collegamento(i). {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkUnlink.svg  style="width:32px;"> [Annulla il link](Std_LinkUnlink/it.md): Sostituisce i link con i loro oggetti collegati. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkImport.svg  style="width:32px;"> [Importa un link](Std_LinkImport/it.md): Importa i link esterni selezionati. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkImportAll.svg  style="width:32px;"> [Importa tutti i link](Std_LinkImportAll/it.md): Importa tutti i link esterni. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkMakeGroup.svg  style="width:32px;"> [Std LinkMakeGroup](Std_LinkMakeGroup/it.md): Crea un gruppo di collegamenti. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Collega i link selezionati](Std_LinkSelectLinked/it.md): Seleziona l\'oggetto collegato e passa al suo documento. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal/it.md): Seleziona l\'oggetto collegato più profondo e passa al suo documento. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/it.md): Seleziona tutti i collegamenti ad un oggetto. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width:32px;"> [Std TreeSelectAllInstances](Std_TreeSelectAllInstances/it.md): Seleziona tutte le istanze di un oggetto. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Std SelBack](Std_SelBack/it.md): Ripristina la precedente selezione salvata. {{Version/it|0.19}}
+-   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Std SelForward](Std_SelForward/it.md): Ripristina la successiva selezione salvata. {{Version/it|0.19}}
+-   [Std Expressions](Std_Expressions/it.md): Azioni di espressione. {{Version/it|0.19}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Std Base navi
+
+}} 
+
+[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)

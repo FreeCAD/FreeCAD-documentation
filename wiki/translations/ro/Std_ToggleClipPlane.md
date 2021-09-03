@@ -1,0 +1,47 @@
+---
+- GuiCommand:/ro   Name:Std ClippingPlane   Name/ro:Std ClippingPlane   MenuLocation:[[Std View Menu/ro   View]] → Clipping plane‏‎||Workbenches:All   Shortcut:   SeeAlso:---
+
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
+Un \'\'\'plan de secționare \'\'\' este un plan care împarte volumul obiectului în două jumătăți. Toate părțile obiectului dintr-un jumătate de spațiu sunt vizibile, părțile din celălalt spațiu al jumătății sunt invizibile. Obiectele arată ca niște felii și detaliile interiorului devin vizibile. Planul de tăiere este activat de meniul [ View](Std_View_Menu.md) → **Clipping plane**.
+
+
+</div>
+
+![](images/Std_ToggleClipPlane_example.png ) *A clipped hollow object*
+
+![](images/Std_ToggleClipPlane_taskpanel.png ) *The Clipping task panel*
+
+## Usage
+
+1.  Select the {{MenuCommand|View → <img src="images/Std_ToggleClipPlane.svg" width=16px> Clipping plane}} option from the menu.
+2.  In the Clipping task panel do one of the following:
+    -   Check one or more of the {{CheckBox|TRUE|Clipping X}} to {{CheckBox|TRUE|Clipping Z}} checkboxes.
+        -   Optionally change the offset distance(s).
+        -   Optionally press the **Flip** button(s) to change the side of the clipping plane objects are hidden on.
+    -   Check the {{CheckBox|TRUE|Clipping custom direction}} checkbox.
+        -   Optionally change the offset distance.
+        -   Do one of the following:
+            -   Press the **View** button to use the direction of the current view.
+            -   Check the {{CheckBox|TRUE|Adjust to view direction}} checkbox for a direction that dynamically adepts to view changes.
+            -   Specify the direction by entering the X, Y and Z coordinates of a normal vector.
+3.  Optionally change the view to inspect the model.
+4.  Press the **Close** button to close the task panel and finish the command.
+
+## Notes
+
+-   To clearly distinguish the interior of partially clipped objects change their **Lighting** property to \'One side\'. The color of the interior side of their faces will then depend on the backlight settings: {{MenuCommand|Edit → Preferences... → Display → 3D View → Backlight color - Intensity}}. See [Preferences Editor](Preferences_Editor#3D_View.md).
+
+
+
+
+
+{{Std Base navi
+
+}}  

@@ -1,0 +1,93 @@
+ Dieses Seite zeigt die Vorlagen entsprechend dem American National Standards Institute [ANSI](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard
+
+### Arch A {#arch_a}
+
+#### Arch\_A\_Querformat
+
+<img alt="" src=images/Arch_A_Landscape.svg  style="width:800px;">
+
+#### Arch\_A\_Hochformat
+
+<img alt="" src=images/Arch_A_Portrait.svg  style="width:800px;">
+
+### Arch B {#arch_b}
+
+#### Arch\_B\_Querformat
+
+<img alt="" src=images/Arch_B_Landscape.svg  style="width:800px;">
+
+#### Arch\_B\_Hochformat
+
+<img alt="" src=images/Arch_B_Portrait.svg  style="width:800px;">
+
+### Arch C {#arch_c}
+
+#### Arch\_C\_Querformat
+
+<img alt="" src=images/Arch_C_Landscape.svg  style="width:800px;">
+
+#### Arch\_C\_Hochformat
+
+<img alt="" src=images/Arch_C_Portrait.svg  style="width:800px;">
+
+### Arch D {#arch_d}
+
+#### Arch\_D\_Querformat
+
+<img alt="" src=images/Arch_D_Landscape.svg  style="width:800px;">
+
+#### Arch\_D\_Hochformat
+
+<img alt="" src=images/Arch_D_Portrait.svg  style="width:800px;">
+
+### Arch E {#arch_e}
+
+#### Arch\_E\_Querformat
+
+<img alt="" src=images/Arch_E_Landscape.svg  style="width:800px;">
+
+#### Arch\_E\_Hochformat
+
+<img alt="" src=images/Arch_E_Portrait.svg  style="width:800px;">
+
+### Arch E1 {#arch_e1}
+
+#### Arch\_E1\_Querformat
+
+<img alt="" src=images/Arch_E1_Landscape.svg  style="width:800px;">
+
+#### Arch\_E1\_Hochformat
+
+<img alt="" src=images/Arch_E1_Portrait.svg  style="width:800px;">
+
+### Arch E2 {#arch_e2}
+
+#### Arch\_E2\_Querformat
+
+<img alt="" src=images/Arch_E2_Landscape.svg  style="width:800px;">
+
+#### Arch\_E2\_Hochformat
+
+<img alt="" src=images/Arch_E2_Portrait.svg  style="width:800px;">
+
+### Arch E3 {#arch_e3}
+
+#### Arch\_E3\_Querformat
+
+<img alt="" src=images/Arch_E3_Landscape.svg  style="width:800px;">
+
+#### Arch\_E3\_Hochformat
+
+<img alt="" src=images/Arch_E3_Portrait.svg  style="width:800px;">
+
+## Andere verfügbare Standards {#andere_verfügbare_standards}
+
+-   [Zeichnung-Vorlagen](Drawing_templates/de.md): Standard-FreeCAD-Vorlagen
+-   [ANSI-Vorlagen](ANSI_templates/de.md): entsprechend dem American National Standards Institute [ANSI](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard
+-   [Verschiedene Vorlagen](Misc_templates/de.md): Verschiedene Vorlagen
+
+## Abspann
+
+Die Vorlagen wurden erstellt durch [Quick61](User:Quick61.md) und aufgelistet in [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
+
+[Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Drawing{{\#translation:}}](Category:Drawing.md)

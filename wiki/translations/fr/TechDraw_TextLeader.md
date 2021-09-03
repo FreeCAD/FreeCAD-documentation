@@ -1,0 +1,73 @@
+---
+- GuiCommand:/fr
+   Name:TechDraw RichTextAnnotation
+   Name/fr:TechDraw Annotation texte enrichi
+   MenuLocation:TechDraw → Annotations → Insérer une annotation de texte enrichi
+   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
+   Version:0.19
+   SeeAlso:[TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md), [TechDraw Ligne de référence](TechDraw_LeaderLine/fr.md)
+---
+
+
+</div>
+
+## Description
+
+L\'outil Insérer une annotation de texte enrichi ajoute un bloc d\'annotation formaté à une [Ligne de référence](TechDraw_LeaderLine/fr.md) ou à une vue.
+
+<img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width:220px;"> 
+*Bloc de texte d'une annotation de texte enrichi*
+
+## Utilisation
+
+1.  Appuyez sur le bouton **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> [Insérer une annotation de texte enrichi](TechDraw_RichTextAnnotation/fr.md)**.
+2.  Une boîte de dialogue de tâche s\'ouvre. La boîte de dialogue permet une saisie rapide du texte.
+3.  Le bouton **démarrer l'éditeur de texte enrichi** ouvre un éditeur complet. Appuyez sur l'icône Sauvegarder pour enregistrer vos modifications.
+4.  Une fois le bloc créé, vous pouvez le modifier en double-cliquant sur RichTextBlock dans l\'arborescence.
+5.  Pour attacher le bloc à une [Ligne de référence](TechDraw_LeaderLine/fr.md), sélectionnez la ligne avant de démarrer l\'outil Insérer une annotation de texte enrichi.
+
+## Propriétés
+
+-    {{PropertyData/fr|X, Y}}: l\'emplacement du bloc. Par rapport à la fin de la ligne si elle est attachée à un [Ligne de référence](TechDraw_LeaderLine/fr.md), sinon c\'est la position sur la page.
+
+-    {{PropertyData/fr|ShowFrame}}: Dessine un contour autour du bloc.
+
+-    {{PropertyData/fr|MaxWidth}}: Limite la taille horizontale du bloc. Une valeur de -1 correspond à une largeur illimitée.
+
+-    {{PropertyData/fr|AnnoText}}: Le texte au format HTML du bloc.
+
+## Script
+
+
+**Voir aussi:**
+
+[TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+
+L\'outil RichTextBlock peut être utilisé dans une [macro](Macros/fr.md) ou dans la console [Python](Python/fr.md). 
+```python
+myPage = FreeCAD.ActiveDocument().Page
+myBase = FreeCAD.ActiveDocument().View
+blockObj = FreeCAD.ActiveDocument.addObject('TechDraw::DrawRichAnno','DrawRichAnno')
+FreeCAD.activeDocument().myPage.addView(blockObj)
+blockObj.X = 5
+blockObj.Y = 5
+blockObj.AnnoText = myHTMLText
+```
+
+## Notes
+
+-   Vous pouvez modifier votre Annotation en texte enrichi en double-cliquant dessus dans la vue arborescente. Un double clic dans la zone graphique n'est pas encore supporté.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{TechDraw Tools navi
+
+}}  

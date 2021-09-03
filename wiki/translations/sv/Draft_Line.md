@@ -1,0 +1,136 @@
+---
+- GuiCommand:/sv   Name:Draft Line   Workbenches:[MenuLocation:Draft → Line   Shortcut:L I   SeeAlso:[[Draft Wire/sv|Draft Wire](Draft_Workbench/sv___Skiss]].md)---
+
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
+#### Beskrivning
+
+Detta verktyg ber användaren om 2 punkter och ritar en linje mellan dem. Punkterna kan väljas med musen i 3d vyn eller genom att mata in koordinater med tangentbordet.
+
+
+</div>
+
+A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
+
+<img alt="" src=images/Draft_Line_example.jpg  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
+<img alt="" src=images/Draft_Line_example.jpg  style="width:400px;">
+
+
+</div>
+
+## Usage
+
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+
+
+<div class="mw-translate-fuzzy">
+
+#### Bruk
+
+-   Markera punkter i ett tomt område i 3d vyn, eller på ett existerande objekt.
+-   Nedtryckning av **CTRL** kommer att [snäppa](Draft_Snap/sv.md) din punkt till tillgängliga snäpp-punkter.
+-   Nedtryckning av **SKIFT** kommer att [begränsa](Draft_Constrain/sv.md) din nya punkt i relation till föregående punkt.
+-   Skriv in siffror för att [manuellt mata in en koordinat](Draft_Coordinates/sv.md).
+-   Nedtryckning av **CTRL**+**Z** eller klickning på \"Undo\" knappen kommer att ångra den sista punkten.
+-   Om du trycker på **ESC** så avbryts funktionen.
+-   Den skapade cirkeln kommer att ha nuvarande [linjestil](Draft_Linestyle/sv.md).
+
+
+</div>
+
+## Options
+
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+
+-   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
+-   To use polar coordinates enter a value for the {{MenuCommand|Length}} and a value for the {{MenuCommand|Angle}}, and press **Enter** after each.
+-   Check the {{MenuCommand|Angle}} checkbox to constrain the pointer to the specified angle.
+-   Press **H** to change the focus from the {{MenuCommand|X}} input box to the {{MenuCommand|Length}} input box and back. Depending on the input box that receives the focus the {{MenuCommand|Angle}} checkbox is checked or unchecked.
+-   Press **R** or click the {{MenuCommand|Relative}} checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
+-   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **T** or click the {{MenuCommand|Continue}} checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating lines.
+-   The {{button|<img src="images/Draft_UndoLine.svg" width=16px> Undo}} button has no purpose for this command.
+-   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
+-   Press **Esc** or the **Close** button to abort the command.
+
+## Notes
+
+-   A Draft Line can be edited with the [Draft Edit](Draft_Edit.md) command.
+-   Draft Lines and [Draft Wires](Draft_Wire.md) can be joined with the [Draft Wire](Draft_Wire.md) command, the [Draft Join](Draft_Join.md) command or the [Draft Upgrade](Draft_Upgrade.md) command.
+
+## Preferences
+
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+
+-   To change the number of decimals used for the input of coordinates, lengths and angles: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
+-   To change the initial focus of the task panel to the {{MenuCommand|Length}} input box: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate}}. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   If the {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available}} option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
+
+## Properties
+
+
+<div class="mw-translate-fuzzy">
+
+## Egenskaper
+
+-    {{PropertyData/sv|Start}}: Startpunkten
+
+-    {{PropertyData/sv|End}}: Slutpunkten
+
+-    {{PropertyData/sv|Subdivisions}}: Delar linjen med det angivna antalet underavdelningar <small>(v0.16)</small> 
+
+
+</div>
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+To create a Draft Line use the `make_line` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeLine` method.
+
+
+```python
+line = make_line(p1, p2)
+line = make_line(LineSegment)
+line = make_line(Shape)
+```
+
+-   Creates a `Line` object between points `p1` and `p2`, each defined by its `FreeCAD.Vector`, with units in millimeters.
+-   Creates a `Line` object from a `Part.LineSegment`.
+-   Creates a `Line` object from the first vertex to the last vertex of the given `Shape`.
+
+Example:
+
+
+```python
+import FreeCAD as App
+import Draft
+
+doc = App.newDocument()
+
+p1 = App.Vector(0, 0, 0)
+p2 = App.Vector(1000, 500, 0)
+p3 = App.Vector(-250, -500, 0)
+p4 = App.Vector(500, 1000, 0)
+
+line1 = Draft.make_line(p1, p2)
+line2 = Draft.make_line(p3, p4)
+
+doc.recompute()
+```
+
+
+
+
+
+ 
