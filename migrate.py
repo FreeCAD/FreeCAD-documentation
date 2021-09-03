@@ -346,12 +346,12 @@ class MediaWiki:
         return images
 
 
-    def getImage(self,name,override=False,basepath=None):
+    def getImage(self,name,overwrite=False,basepath=None):
 
-        """getImage(name,[override,basepath]):
+        """getImage(name,[overwrite,basepath]):
         Downloads and saves the given image in an images subfolder.
         If no basepath is given, the current dir is used.
-        If override is True, file is downloaded again"""
+        If overwrite is True, file is downloaded again"""
 
         if not basepath:
             basepath = self.output
@@ -359,18 +359,18 @@ class MediaWiki:
         if not os.path.isdir(basedir):
             os.mkdir(basedir)
         filename = os.path.join(basedir,name)
-        if override or (not os.path.exists(filename)):
+        if overwrite or (not os.path.exists(filename)):
             filecontents = requests.get(self.images[name])
             with open(filename,"wb") as imagefile:
                 imagefile.write(filecontents.content)
 
 
-    def getAllImages(self,override=False,basepath=None):
+    def getAllImages(self,overwrite=False,basepath=None):
 
-        """getAllImages([override]):
+        """getAllImages([overwrite]):
         Saves all images to disk.
         If no basepath is given, the current dir is used.
-        If override is True, file is downloaded again"""
+        If overwrite is True, file is downloaded again"""
 
         if not basepath:
             basepath = self.output
@@ -379,7 +379,7 @@ class MediaWiki:
         count = 1
         for name in self.images.keys():
             self.printProgress(count,self.imagecount,"Downloading "+name+"...")
-            self.getImage(name,override,basepath)
+            self.getImage(name,overwrite,basepath)
             count += 1
 
 
@@ -584,12 +584,12 @@ class MediaWiki:
         return result
 
 
-    def writeMarkdown(self,page,override=True,basepath=None,clean=True):
+    def writeMarkdown(self,page,overwrite=True,basepath=None,clean=True):
 
-        """writeMarkdown(page,[override,basepath,clean]):
+        """writeMarkdown(page,[overwrite,basepath,clean]):
         Writes the given page as a .md file. If basepath is
         not given, file is written in the current dir.
-        If override is False, existing files are skipped.
+        If overwrite is False, existing files are skipped.
         If clean is false, raw pandoc output is returned"""
 
         if not basepath:
@@ -623,19 +623,20 @@ class MediaWiki:
                     os.mkdir(transpath)
             filename += ".md"
             filename = os.path.join(basepath,filename)
-            if override or (not os.file.exists(filename)):
+            filename = filename.replace(" ","_")
+            if overwrite or (not os.file.exists(filename)):
                 with open(filename,"w") as mdfile:
                     mdfile.write(result)
             return None
 
 
-    def writeAllPages(self,override=True,basepath=None):
+    def writeAllPages(self,overwrite=True,basepath=None):
 
-        """writeAllPages([override]):
+        """writeAllPages([overwrite]):
         Writes all pages to markdown files. Returns
         a list of pages which couldn't be written for some reason.
         If basepath is not given, file is written in the current dir.
-        If override is False, existing files are skipped"""
+        If overwrite is False, existing files are skipped"""
 
         errors = []
         count = 1
@@ -643,7 +644,7 @@ class MediaWiki:
             basepath = self.output
         for page in self.pagenames:
             self.printProgress(count,len(self.pagenames),"Saving page "+page+"...")
-            r = self.writeMarkdown(page,override,basepath)
+            r = self.writeMarkdown(page,overwrite,basepath)
             if r:
                 errors.append(r)
             count += 1
