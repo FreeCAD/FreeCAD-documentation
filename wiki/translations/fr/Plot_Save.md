@@ -11,7 +11,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Description {#description_1}
+## Description 
 
 Cet outil active l\'enregistrement du fichier **Plot** à l\'endroit désiré.
 
@@ -41,7 +41,7 @@ Cliquez sur l\'onglet du tracé que vous souhaitez enregistrer, et, exécuter su
 
 <div class="mw-translate-fuzzy">
 
-## Options {#options_1}
+## Options 
 
 -   **File path**: Vous pouvez définir le chemin de l\'image de sortie (y compris l\'extension du format) sur la ligne de texte.
 -   **Size**: Vous pouvez spécifier, la largeur, et, la hauteur de l\'image.

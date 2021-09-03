@@ -6,7 +6,7 @@ Une [propriété](Property/fr.md) est une information, telle qu\'un nombre ou un
 
 Les propriétés jouent un rôle très important dans FreeCAD. Comme les objets dans FreeCAD sont \"paramétriques\", cela signifie que leur comportement est défini par leurs propriétés et par la manière dont ces propriétés sont utilisées comme entrée pour leurs méthodes de classe. Voir aussi [PropertyLink:\_InList\_and\_OutList](PropertyLink:_InList_and_OutList/fr.md)
 
-## Tous les types de propriétés {#tous_les_types_de_propriétés}
+## Tous les types de propriétés 
 
 Les [Objets créés par script](scripted_objects/fr.md) personnalisés dans FreeCAD peuvent avoir des propriétés des types suivants : 
 ```python
@@ -94,7 +94,7 @@ Néanmoins, les propriétés **View** peuvent également être affectées à l\'
 obj.ViewObject.addProperty("App::PropertyBool", "SuperVisibility", "Base", "Make the object glow")
 ```
 
-## Code source {#code_source}
+## Code source 
 
 Dans le code source, les propriétés se trouvent dans divers fichiers {{FileName|src/App/Property*}} .
 

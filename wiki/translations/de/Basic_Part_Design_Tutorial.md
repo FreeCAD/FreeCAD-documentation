@@ -14,17 +14,17 @@ Ein Video der gesamten Konstruktion ist hier: <https://youtu.be/geIrH1cOCzc>
 
 ( jeder Abschnitt hat sein eigenes separates Video unten )
 
-## Bevor du anfängst {#bevor_du_anfängst}
+## Bevor du anfängst 
 
-## Die Aufgabe {#die_aufgabe}
+## Die Aufgabe 
 
 In diesem Tutorium erstellst du mit dem Part Design Arbeitsbereich ein 3D Volumenmodell des Teils, das in der [Zeichnung](Drawing_Workbench/de.md) unten gezeigt wird. Alle für diese Aufgabe erforderlichen Maße sind vorhanden. Du fängst an mit der Erstellung einer Kernform aus einer Basisskizze und baust dann auf dieser Form auf, indem du so genannte Formelemente hinzufügst. Diese Funktionen fügen dem Festkörper entweder Material hinzu oder entfernen Material aus ihm, indem sie zusätzliche Skizzen und begleitende Formelemente Operationen verwenden. In diesem Tutorium werden nicht alle Funktionen und Werkzeuge verwendet, die im Part Design Arbeitsbereich zur Verfügung stehen, sondern es werden so viele verwendet, dass der Benutzer dieses Tutoriums eine grundlegende Basis erhält, auf der er sein Wissen und seine Fähigkeiten aufbauen kann.
 
-## Das Bauteil {#das_bauteil}
+## Das Bauteil 
 
 ![](images/Tutorial_Drawing_Sheet.png )
 
-## Konstruieren des Teils {#konstruieren_des_teils}
+## Konstruieren des Teils 
 
 ### Beginn
 
@@ -42,7 +42,7 @@ um einen neuen Körper Container zu erstellen und zu aktivieren. *Hinweis: Diese
 
 Sobald du auf OK klickst, wechselt FreeCAD automatisch in den [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) und öffnet die Skizze im Bearbeitungsmodus: ![](images/Tut17_sketcherempty.png )
 
-### Die Skizze erstellen {#die_skizze_erstellen}
+### Die Skizze erstellen 
 
 Als nächstes das ![ 32px](images/_Sketcher_CreatePolyline.svg )[Polylinie](Sketcher_CreatePolyline/de.md) Werkzeug verwenden und eine Form ähnlich der im nächsten Bild erstellen. Es muss nicht perfekt sein, da die endgültige Form durch Einschränkungen erzeugt wird. Sobald die Grundform erstellt ist, werden die Einschränkungen angewandt. Wenn die automatischen Einschränkungen aktiviert sind, werden einige dieser Einschränkungen automatisch angewendet, andernfalls fügt man die folgenden Schritte aus. Doch zuerst muss das Polylinien-Werkzeug durch einen Rechtsklick oder zweimaliges Drücken der **Esc**-Taste verlassen worden sein; der Maus-Cursor sollte von einem Fadenkreuz zurück zum Standard-Pfeil-Cursor gewechselt sein. (Drücken Sie die **Esc**Taste \_nicht\_ ein drittes Mal, sonst wird der Skizzeneditiermodus verlassen. Falls das passiert, auf den Modell-Reiter klicken, dann doppelt auf das Skizzenelement im Baum klicken oder rechts klicken und **Skizze editieren** im Kontextmenü wählen).
 
@@ -58,7 +58,7 @@ An diesem Punkt sollten Sie eine vollständig eingeschränkte Skizze haben, wie 
 
 Ein Video der Schritte in diesem Teil des Tutorials ist hier: <https://youtu.be/cUyPnCMeTgg>
 
-### Formelement *Tasche* und externe Geometrie {#formelement_tasche_und_externe_geometrie}
+### Formelement *Tasche* und externe Geometrie 
 
 Mit der Maus oder den Ansichtssymbolen drehen Sie das Modell um, so dass Sie seine Rückseite sehen können. Sobald die Rückseite des Teils sichtbar ist, wählen Sie die Rückseite aus, indem Sie darauf klicken, wie im nächsten Bild zu sehen ist. ![](images/PD_WB_Tutorial003.png ) Nachdem die Oberfläche ausgewählt wurde, auf das Symbol **Neue Skizze** in der PartDesign-Menüleiste klicken. Dies wird unsere nächste Skizze auf die Rückseite des Teils positionieren. Nun das Werkzeug ![ 32px](images/Sketcher_CreateRectangle.svg ) **Rechteck** wählen und ein Rechteck auf die Rückseite des Teils auf ähnliche Weise positionieren, wie unten gezeigt. Nun den aufgeführten Schritten folgen und die Skizze einschränken.
 
@@ -77,7 +77,7 @@ Für den nächsten Schritt muß \"Pocket\" im Modell Tab der Combo-Ansicht ausge
 
 Ein Video der Schritte in diesem Teil des Tutorials ist hier: <https://youtu.be/wiGXV9G7mrM>
 
-### Features mit Pad und externer Geometrie {#features_mit_pad_und_externer_geometrie}
+### Features mit Pad und externer Geometrie 
 
 Sehen Sie sich das Bauteil aus allen Richtungen einmal an und wählen Sie wieder die Rückseite des Teils aus, um die nächste Skizze zuzuordnen. ![](images/tut17_profilewithslotsrearplane.png ) Wählen Sie **Neue Skizze** und erstellen Sie ein neues Rechteck in dieser, ähnlich wie im folgenden Bild gezeigt. Fahren Sie dann fort, diesem Rechteck dimensionale Einschränkungen hinzuzufügen.
 
@@ -93,7 +93,7 @@ Als nächstes beenden wird diese Skizze und klicken auf *Block* . Im Block-Dialo
 
 Ein Video der Schritte in diesem Teil des Tutorials ist hier: <https://youtu.be/Ido1owp8ubc>
 
-### Feature mit Taschen- und Außengeometrie {#feature_mit_taschen__und_außengeometrie}
+### Feature mit Taschen- und Außengeometrie 
 
 An diesem Punkt drehen wir das Teil in der Ansicht nach vorne, wir können sehen, dass unser Teil nun wie das Teil in der bemaßten Zeichnung am Anfang dieses Tutorials aussieht. Sobald Sie die Ansicht der Vorderseite haben, klicken Sie mit der Maus auf die geneigte Oberfläche, um diese auszuwählen, da wir diese für die nächste Skizze verwenden werden. ![](images/tut17_innerplane.png ) Hier werden wir wieder das Rechteck-Werkzeug verwenden und ein Rechteck in unsere Skizze einfügen, und nachdem Sie dies getan haben, wenden Sie die folgenden Bedingungen an.
 
@@ -139,7 +139,7 @@ Ein Video zu diesen Schritten des Tutoriums sind hier: <https://youtu.be/UYI0gvx
 
 Dieses Tutorium und dein Modell sind vollständig.
 
-## Zusätzliche Quellen {#zusätzliche_quellen}
+## Zusätzliche Quellen 
 
 -   FreeCAD Datei zum Vergleich (mit 0.17 erstellt) [Herunterladen](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
 

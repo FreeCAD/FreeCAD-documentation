@@ -48,7 +48,7 @@ Der Befehl \"DB\" **erzeugt eine Binärverteilung** des aktuellen Quellcodebaums
 
 Der Befehl \"DI\" **erstellt eine Einrichtungsverteilung** des aktuellen Quellcodebaums.
 
-### DistEinstellung {#disteinstellung_1}
+### DistEinstellung 
 
 Der Befehl \"DUI\" **erstellt eine Benutzer Einstellverteilung** des aktuellen Quellcodebaums.
 

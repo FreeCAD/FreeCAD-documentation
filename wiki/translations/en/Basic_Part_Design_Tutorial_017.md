@@ -14,17 +14,17 @@ A video of the whole construction is here: <https://youtu.be/geIrH1cOCzc>
 
 ( each section has its own split Video below )
 
-## Before You Begin {#before_you_begin}
+## Before You Begin 
 
-## The Task {#the_task}
+## The Task 
 
 In this tutorial, you will be using the Part Design Workbench to create a 3D solid model of the part shown in the [Drawing](Drawing_Workbench.md) below. All of the necessary dimensions to complete this task are given. You will start by creating a core shape from a base Sketch and then build on that shape, adding what is known as Features. These features will either add material to, or remove material from the solid by use of additional sketches and accompanying feature operations. This Tutorial will not use every feature and tool available within the Part Design Workbench, but should use enough to give the user of this tutorial a basic foundation upon which to build their knowledge and skills.
 
-## The Part {#the_part}
+## The Part 
 
 ![](images/Tutorial_Drawing_Sheet.png )
 
-## Constructing The Part {#constructing_the_part}
+## Constructing The Part 
 
 ### Startup
 
@@ -43,7 +43,7 @@ All work in Part Design begins with a [Body](Glossary#Body.md). Then we will bui
 
 Once you click OK, FreeCAD automatically switches to the [Sketcher workbench](Sketcher_Workbench.md) and opens the sketch in editing mode: ![](images/Tut17_sketcherempty.png )
 
-### Create the sketch {#create_the_sketch}
+### Create the sketch 
 
 Next you will want to use the <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyline](Sketcher_CreatePolyline.md) tool and make a shape roughly like that in the next image. It does not need to be perfect as the final shape is done with constraints. Once you have the basic shape, we will start applying the constraints. If you had Auto constraints on, some of these constraints will have been applied automatically, if not, do the following. But first make sure that you have exited the polyline tool by right-clicking or pressing **ESC** twice; the mouse cursor should turn back from a cross-hair to the standard arrow cursor. (Don\'t press **ESC** a third time or you will exit the sketch editing mode; if this happens, click on the Model tab, then double-click the Sketch element in the tree, or right-click and select **Edit sketch** in the contextual menu.)
 
@@ -59,7 +59,7 @@ At this point you should have a fully constrained sketch as indicated by it chan
 
 A video of the steps used in this portion of the tutorial is here: <https://youtu.be/cUyPnCMeTgg>
 
-### Features with pocket and external geometry {#features_with_pocket_and_external_geometry}
+### Features with pocket and external geometry 
 
 Using the mouse or the view icons turn the model around so you can see its back. Once the back of the part is visible, select the back face by clicking on it as seen in the next image. <img alt="" src=images/PD_WB_Tutorial003.png ) After the face is selected, click on the New sketch icon in the toolbar or from the Part Design menu and that will map our next sketch to the back face of the part. Now select ![](images/Sketcher_CreateRectangle.svg  style="width:32px;"> rectangle tool and place a rectangle on the rear face of the part in a similar fashion as shown below. Now following the steps listed, constrain the sketch.
 
@@ -78,7 +78,7 @@ For the next operation, make sure that "Pocket" is selected in the Model tree vi
 
 A video of the steps used in this portion of the tutorial is here: <https://youtu.be/wiGXV9G7mrM>
 
-### Features with pad and external geometry {#features_with_pad_and_external_geometry}
+### Features with pad and external geometry 
 
 After taking a look, orbit back around and once again select the back face of the part and select that face to map the next sketch to. ![](images/tut17_profilewithslotsrearplane.png ) Select New sketch and make a new rectangle in the manner similar to what is shown below in the next image. Then proceed to add dimensional constraints to the rectangle.
 
@@ -94,7 +94,7 @@ Next we will click on the Pad feature and in the Pad dialog in the Combo View we
 
 A video of the steps used in this portion of the tutorial is here: <https://youtu.be/Ido1owp8ubc>
 
-### Feature with pocket and external geometry {#feature_with_pocket_and_external_geometry}
+### Feature with pocket and external geometry 
 
 At this point orbiting the part around to the front, we can see that our part is now starting to look like the part in the dimensioned drawing at the beginning of this tutorial. Once you have the view of the front, click on the sloped face with your mouse to select the face we will use for the next sketch. ![](images/tut17_innerplane.png ) Here we will use the rectangle tool and place a rectangle in our sketch and once having done so, apply the following constraints.
 
@@ -140,7 +140,7 @@ A video of these steps of the tutorial is here: <https://youtu.be/UYI0gvxCYeI>
 
 This tutorial and your model are complete.
 
-## Additional Resources {#additional_resources}
+## Additional Resources 
 
 -   FreeCAD file for comparison (made with 0.17) [Download](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
 

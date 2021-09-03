@@ -45,17 +45,17 @@ If the shape is a line, the coordinate will be the center of the line.
 
 :   Creates the circle in the view of right on the form chosen, 1, 2 or 3
 
-### Alignement sur : {#alignement_sur}
+### Alignement sur : 
 
 **Forme 1, 2, 3**
 
 :   Forms, in the order of their selections.
 
-### Afficher le centre : {#afficher_le_centre}
+### Afficher le centre : 
 
 :   If this box is checked, a point on the centre of the built circle will be created
 
-### Associer les couleurs {#associer_les_couleurs}
+### Associer les couleurs 
 
 :   If this box is checked, the circle will take the colour of the relevant view,
 

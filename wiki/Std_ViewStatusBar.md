@@ -12,7 +12,7 @@ The **Std ViewStatusBar** command toggles the display of the [Status bar](Status
 
 ## Usage
 
-1.  Select the {{MenuCommand|View → Status bar}} option from the menu.
+1.  Select the **View → Status bar** option from the menu.
 
 
 

@@ -6,7 +6,7 @@ Dans un système CAO ou CAE il est très important de garder une trace de l\'uni
 
 C\'est pour cela que la FreeCAD Quantity framework a été créé. Il comprend le code et les objets à traiter avec les unités, calculs d\'unités, entrées utilisateurs, conversion dans d\'autres systèmes d\'unités et affichage des unités et des valeurs. À long terme, aucun paramètre ne devrait être dans FreeCAD, juste un nombre.
 
-### Unités supportées {#unités_supportées}
+### Unités supportées 
 
 L\'analyseur de FreeCAD prend en charge un tas d\'unités et d\'unités-systme. Nous utilisons la lettre grecque pour micro **\" µ \"** mais peut être substituée par la lettre **\" u \"**. Une liste complète de toutes les unités prises en charge peut être [trouvée ici](Expressions/fr#Unités.md).
 
@@ -15,7 +15,7 @@ Vous pouvez trouver plus de détails dans le code :
 -   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/QuantityLexer.c)
 -   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/Quantity.cpp#l167)
 
-## Représentation interne {#représentation_interne}
+## Représentation interne 
 
 Toutes les unités physiques peuvent être exprimées dans sept combinaisons [SI-Units](http://en.wikipedia.org/wiki/International_System_of_Units):
 <img alt="" src=images/SI-Derived-Units.jpg  style="width:750px;">
@@ -38,7 +38,7 @@ De ces 7 unités, nous sommes alors en mesure d\'exprimer toutes les unités dé
 
 Puisque l\'angle est sans dimension physiquement, mais néanmoins important dans un système de CAO, nous ajouterons une unité plus virtuelle pour Angle. Ce qui rend le vecteur à 8 dans la signature d\'unité de FreeCAD.
 
-## Conversion d\'unités {#conversion_dunités}
+## Conversion d\'unités 
 
 Souvent, vous avez besoin de convertir des unités d\'un système à un autre. Par exemple, vous avez un vieux tableau de paramètres avec des unités filaires. Dans ce cas FreeCAD offre un outil de conversion appelé Units-Calculator qui vous aide à traduire les unités.
 
@@ -46,7 +46,7 @@ Sa description est détaillée ici :
 
 [Std\_Convertisseur d\'unités](Std_UnitsCalculator/fr.md)
 
-## Champ a entrer {#champ_a_entrer}
+## Champ a entrer 
 
 InputField est un QLineEdit dérivé Qt widget pour gérer tous les types d\'interaction de l\'utilisateur avec les paramètres et les quantités. Il dispose à la suite des propriétés :
 
@@ -68,7 +68,7 @@ Code:
 -   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
 -   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp)
 
-## Script Python {#script_python}
+## Script Python 
 
 Les système Unit et Quantity sont entièrement accessibles via Python dans (presque tout) FreeCAD.
 
@@ -172,7 +172,7 @@ Units.Quantity('1 MPa').getValueAs(Units.Quantity('N/m^2')) # a quantity
           
 ```
 
-### Valeurs face vers l\'utilisateur {#valeurs_face_vers_lutilisateur}
+### Valeurs face vers l\'utilisateur 
 
 Normalement, dans un script, vous pouvez utiliser Quantity pour tout genre de calcul et vérification, mais il peut mettre un certain temps pour afficher les informations à l\'utilisateur. Vous pouvez utiliser getValueAs() pour forcer une certaine unité, mais normalement l\'utilisateur définit son schéma-unité préféré dans les préférences. Ce schéma-unité donne toutes les représentations de la conversions que l\'utilisateur veut voir. À l\'heure actuelle, il y a 3 schémas mis en place :
 
@@ -220,7 +220,7 @@ params.GetInt('Decimals') # returns an int
 
 ## Appendice
 
-### Analyseur de prise en charge des unités {#analyseur_de_prise_en_charge_des_unités}
+### Analyseur de prise en charge des unités 
 
 Bien que toutes les unités physiques peuvent être décrite avec les sept unités du SI, la plupart des unités utilisées dans le domaine technique sont combinées (comme Pa = N/m\^2 Pascal). L\'analyseur d\'unités dans FreeCAD supporte la combinaison des unités des systèmes SI et Imperial. Ces unités sont définies dans le fichier **src/Base/QuantityParser.l** et peut être étendu dans le futur.
 

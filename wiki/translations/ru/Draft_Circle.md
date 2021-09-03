@@ -42,7 +42,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 <div class="mw-translate-fuzzy">
 
-## Как использовать {#как_использовать}
+## Как использовать 
 
 1.  Нажмите кнопку **<img src="images/Draft_Circle.png" width=16px> [Draft Circle](Draft_Circle.md)** или нажмите {{KEY | C}}, затем клавиши {{KEY | I}}
 2.  Щелкните первую точку на трехмерном изображении или введите [coordinate](Draft_Coordinates.md)
@@ -56,10 +56,10 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter the coordinates for the center enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   The {{MenuCommand|Relative}} checkbox has no purpose for this command.
--   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **L** or click the {{MenuCommand|Filled}} checkbox to toggle filled mode. If filled mode is on, the created circle will have **Make Face** set to `True` and will have a filled face.
--   Press **T** or click the {{MenuCommand|Continue}} checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating circles.
+-   The **Relative** checkbox has no purpose for this command.
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **L** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created circle will have **Make Face** set to `True` and will have a filled face.
+-   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating circles.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
@@ -71,9 +71,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the initial value of filled mode: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible}}. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
--   If the {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available}} option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
+-   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 

@@ -13,7 +13,7 @@ Acest instrument vă permite să exportați sau să faceți upload de obiecte pe
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Creați-vă un cont în [SketchFab](http://www.sketchfab.com)dacă nu aveți încă. Conturile gratuite sunt suficiente, cele plătite au mai multe funcționalități ca de ex. posibilitatea de a avea șabloane private și dimensiune maximală mai mare la upload
 2.  Prepare a model you wish to upload

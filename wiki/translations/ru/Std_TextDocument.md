@@ -14,7 +14,7 @@ The **Std TextDocument** command creates an object capable of holding arbitrary 
 
 ## Применение
 
-1.  Select the {{MenuCommand|Tools → Add text document}} option from the menu.
+1.  Select the **Tools → Add text document** option from the menu.
 2.  Double-click the newly created object in the [tree view](tree_view.md) to open a tab in which to write text.
 3.  Add text.
 4.  Close the tab and save the file when asked.

@@ -15,7 +15,7 @@ Applique une contrainte de pression sur une face.
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintPressure.svg" width=16px> [Creates a FEM constraint for a pressure cting on a face](FEM_ConstraintPressure/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Model → Mechanical Constraints → <img src="images/FEM_ConstraintPressure.svg" width=16px> Constraint pressure}} dans le menu.
+    -   Sélectionnez l\'option **Model → Mechanical Constraints → <img src="images/FEM_ConstraintPressure.svg" width=16px> Constraint pressure** dans le menu.
 2.  Cliquez sur **Add reference** et sélectionnez la face dans la [vue 3D](3D_view/fr.md).
 3.  Modifiez la fenêtre appropriée pour spécifier la charge de pression en MPa.
 4.  Cochez la case pour inverser la direction si nécessaire.

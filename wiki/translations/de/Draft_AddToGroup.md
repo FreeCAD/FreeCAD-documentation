@@ -19,11 +19,11 @@ In FreeCAD v0.20 kann der Befehl auch gruppenähnliche [Arch](Arch_Workbench/de.
 2.  Wähle ein oder mehrere Objekte.
 3.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_AddToGroup.svg" width=16px> [Draft Zur ](Draft_AddToGroup/de.md)**-Schaltfläche.
-    -   Wähle die {{MenuCommand|Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...}}-Option aus dem Menü.
-    -   Wähle die {{MenuCommand|Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...}}-Option aus der [Baumansicht](Tree_view/de.md) oder dem [3D-Ansicht](3D_view/de.md)-Kontextmenü.
+    -   Wähle die **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...**-Option aus dem Menü.
+    -   Wähle die **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...**-Option aus der [Baumansicht](Tree_view/de.md) oder dem [3D-Ansicht](3D_view/de.md)-Kontextmenü.
 4.  Ein Menü wird neben dem Cursor angezeigt. Tue eins der folgenden Dinge:
     -   Wähle die Gruppe, in die Objekte verschoben werden sollen.
-    -   Wähle {{MenuCommand|Ungroup}}, um die Objekte aus der/den Gruppe/n zu verschieben, in denen sie sich befinden.
+    -   Wähle **Ungroup**, um die Objekte aus der/den Gruppe/n zu verschieben, in denen sie sich befinden.
 
 ## Hinweise
 

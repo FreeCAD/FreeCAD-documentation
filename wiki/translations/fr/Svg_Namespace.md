@@ -87,11 +87,11 @@ Définit le point d\'un objet [Draft Dimension](Draft_Dimension/fr.md) par leque
 
 Exemple: voir [freecad:basepoint1](#freecad:basepoint1.md)
 
-### Exemple de code freecad:EditableText {#exemple_de_code_freecadeditabletext}
+### Exemple de code freecad:EditableText 
 
 Cet exemple provient du cartouche de la feuille [A3 Paysage](Misc_templates/fr#A3_paysage_texte_US_complet_avec_convention_US.md)
 
-#### 1 : Titre sans textedit {#titre_sans_textedit}
+#### 1 : Titre sans textedit 
 
 <img alt="" src=images/Svg_Namespace_01.png  style="width:300px;">
 
@@ -111,7 +111,7 @@ Cet exemple provient du cartouche de la feuille [A3 Paysage](Misc_templates/fr#A
          sodipodi:role="line">AUTHOR NAME :</tspan></text>
 
 
-#### 2 : Titre avec textedit {#titre_avec_textedit}
+#### 2 : Titre avec textedit 
 
 <img alt="" src=images/Svg_Namespace_02.png  style="width:300px;">
 
@@ -214,7 +214,7 @@ Exemple:
 -   **editable** = \"AuthorName\"
 -   replacer par **freecad:editable** = \"AuthorName\"
 
-## Autres attributs disponibles {#autres_attributs_disponibles}
+## Autres attributs disponibles 
 
 Voir [Drawing Modèles](Drawing_templates/fr.md)
 

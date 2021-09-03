@@ -32,7 +32,7 @@ También puede utilizar la herramienta de muro cortina sin ningún objeto selecc
 
 ## Utilización
 
-### Dibujar un muro cortina desde cero {#dibujar_un_muro_cortina_desde_cero}
+### Dibujar un muro cortina desde cero 
 
 1.  Make sure nothing is selected
 2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall]]** button, or press **C** then **W** keys.
@@ -40,7 +40,7 @@ También puede utilizar la herramienta de muro cortina sin ningún objeto selecc
 4.  Click a second point on the 3D view, or type coordinates.
 5.  Adjust needed properties.
 
-### Creating a curtain wall from a selected object {#creating_a_curtain_wall_from_a_selected_object}
+### Creating a curtain wall from a selected object 
 
 1.  Select one or more base geometry objects (Draft object, sketch, etc).
 2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall]]** button, or press the **C** then **W** keys.
@@ -103,7 +103,7 @@ Curtain wall objects inherit the properties of [Arch Components](Arch_Component.
 
 -    **Host**: The host of this curtain wall. The curtain wall will appear embedded in its host object in the tree view (no other action is performed)
 
-## Hacer paredes con marco {#hacer_paredes_con_marco}
+## Hacer paredes con marco 
 
 Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete of brick).
 

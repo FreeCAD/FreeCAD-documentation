@@ -38,21 +38,21 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 ## Requisiti
 
 -   Una versione di FreeCAD compatibile con quella utilizzata per il tutorial.
--   La versione installata può essere verificata nel menu {{MenuCommand|Aiuto → Informazioni su FreeCAD}}.
+-   La versione installata può essere verificata nel menu **Aiuto → Informazioni su FreeCAD**.
 -   Per caricare il file di esempio non è necessario nessun altro software esterno, e neppure per visualizzare la mesh o la geometria, o per visualizzare i risultati.
 -   Per poter rieseguire l\'analisi FEA è necessario che il software risolutore Calculix sia installato. Probabilmente il risolutore è già stato installato con FreeCAD. Se non è installato vedere la pagina [Installare FEM](FEM_Install/it.md).
 
 
 </div>
 
-## Impostare il file di esempio {#impostare_il_file_di_esempio}
+## Impostare il file di esempio 
 
-### Load Start Workbench {#load_start_workbench}
+### Load Start Workbench 
 
 
 <div class="mw-translate-fuzzy">
 
-### Caricare l\'ambiente Start {#caricare_lambiente_start}
+### Caricare l\'ambiente Start 
 
 -   Avviare FreeCAD
 -   L\'ambiente Start dovrebbe essere caricato
@@ -60,12 +60,12 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 </div>
 
-### Load the example file {#load_the_example_file}
+### Load the example file 
 
 
 <div class="mw-translate-fuzzy">
 
-### Caricare il file di esempio {#caricare_il_file_di_esempio}
+### Caricare il file di esempio 
 
 -   Andare ai progetti di esempio e fare clic su \"Carica un esempio di analisi FEM\"
 -   Se con le operazioni successive succede di rovinare o eliminare alcune geometrie, vincoli, o risultati, basta ripetere semplicemente i passaggi precedenti.
@@ -75,12 +75,12 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 <img alt="" src=images/FEM_example01_pic01.jpg  style="width:700px;">
 
-### Activate the analysis container {#activate_the_analysis_container}
+### Activate the analysis container 
 
 
 <div class="mw-translate-fuzzy">
 
-### Attivare il contenitore delle analisi {#attivare_il_contenitore_delle_analisi}
+### Attivare il contenitore delle analisi 
 
 -   Per lavorare con una analisi, prima si deve attivarla.
 -   Nella vista ad albero fare clic destro su <img alt="" src=images/Fem_Analysis.png  style="width:32px;"> Analisi meccanica → Attiva analisi
@@ -90,12 +90,12 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 <img alt="" src=images/FEM_example01_pic02.jpg  style="width:700px;">
 
-### Analysis container and its objects {#analysis_container_and_its_objects}
+### Analysis container and its objects 
 
 
 <div class="mw-translate-fuzzy">
 
-### Il contenitore Analisi e suoi oggetti {#il_contenitore_analisi_e_suoi_oggetti}
+### Il contenitore Analisi e suoi oggetti 
 
 -   Se viene attivata l\'analisi FreeCAD cambia l\'ambiente corrente in FEM.
 -   Per eseguire un\'analisi meccanica statica sono necessari almeno 5 oggetti.
@@ -112,12 +112,12 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 </div>
 
-### Visualizing Results {#visualizing_results}
+### Visualizing Results 
 
 
 <div class="mw-translate-fuzzy">
 
-### Visualizzare i risultati {#visualizzare_i_risultati}
+### Visualizzare i risultati 
 
 -   Assicurarsi che l\'analisi sia attivata.
 -   Assicurarsi che l\'analisi contenga ancora l\'oggetto risultato, altrimenti basta ricaricare il file di esempio.
@@ -133,12 +133,12 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 <img alt="" src=images/FEM_example01_pic03.jpg  style="width:400px;">
 
-### Purging Results {#purging_results}
+### Purging Results 
 
 
 <div class="mw-translate-fuzzy">
 
-### Eliminare i risultati {#eliminare_i_risultati}
+### Eliminare i risultati 
 
 -   Assicurarsi che l\'analisi sia attivata.
 -   Per rimuovere i risultati selezionare nella barra l\'icona <img alt="" src=images/FEM_PurgeResults.png  style="width:32px;"> [Elimina risultati](FEM_ResultsPurge/it.md)
@@ -146,12 +146,12 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 </div>
 
-### Running the FEA {#running_the_fea}
+### Running the FEA 
 
 
 <div class="mw-translate-fuzzy">
 
-### Eseguire la FEA {#eseguire_la_fea}
+### Eseguire la FEA 
 
 -   Nella vista ad albero fare doppio click sull\'oggetto solver <img alt="" src=images/FEM_Solver.png  style="width:32px;">.
 -   Nella finestra Azioni dell\'oggetto risolutore accertarsi che sia selezionata l\'analisi statica.
@@ -168,12 +168,12 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 <img alt="" src=images/FEM_example01_pic04.jpg  style="width:400px;">
 
-### Running the FEA the fast Way {#running_the_fea_the_fast_way}
+### Running the FEA the fast Way 
 
 
 <div class="mw-translate-fuzzy">
 
-### Eseguire velocemente la FEA {#eseguire_velocemente_la_fea}
+### Eseguire velocemente la FEA 
 
 -   Nella vista ad albero selezionare l\'oggetto risolutore <img alt="" src=images/FEM_Solver.png  style="width:32px;"> dell\'analisi <img alt="" src=images/FEM_Analysis.png  style="width:32px;">.
 -   Nella barra degli strumenti cliccare sull\'icona <img alt="" src=images/FEM_RunCalculiXccx.png  style="width:32px;"> [Analisi rapida](FEM_SolverRun/it.md).
@@ -182,12 +182,12 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 </div>
 
-### Changing Load Direction and Load Value {#changing_load_direction_and_load_value}
+### Changing Load Direction and Load Value 
 
 
 <div class="mw-translate-fuzzy">
 
-### Modificare la Direzione e il Valore del carico {#modificare_la_direzione_e_il_valore_del_carico}
+### Modificare la Direzione e il Valore del carico 
 
 -   Nella vista ad albero selezionare l\'oggetto mesh FEM <img alt="" src=images/FEM_Create.png  style="width:32px;"> e premere il tasto spazio.
     -   **Risultato:** L\'oggetto mesh FEM viene nascosto, e rimane visibile solo il modello geometrico.
@@ -217,7 +217,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 <img alt="" src=images/FEM_example01_pic06.jpg  style="width:400px;">
 
-## What next? {#what_next}
+## What next? 
 
 
 <div class="mw-translate-fuzzy">

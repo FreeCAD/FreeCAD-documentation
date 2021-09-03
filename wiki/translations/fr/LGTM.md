@@ -1,6 +1,6 @@
 
 
-## Vue d\'ensemble {#vue_densemble}
+## Vue d\'ensemble 
 
 
 {{TOCright}}
@@ -23,7 +23,7 @@ Pour visualiser les résultats, vous devez simplement vous connecter à votre ta
 
 Probablement, le moyen le plus utile et immédiat de gérer les résultats de votre analyse de code consiste simplement à filtrer les fichiers de votre projet que vous ne souhaitez pas analyser. En d'autres termes, supposons que vous développiez un nouveau code incomplet, conserviez du code hérité qui n'était par ailleurs pas utilisé ou que vous disposiez d'une bonne partie du code de test qui n'a pas besoin d'être analysée. LGTM fournit [file classification](https://lgtm.com/help/lgtm/file-classification) un moyen facile de filtrer ces fichiers afin qu\'ils ne polluent pas les résultats de votre analyse.
 
-### Création d\'un fichier .lgtm.yml {#création_dun_fichier_.lgtm.yml}
+### Création d\'un fichier .lgtm.yml 
 
 Pour activer la classification de fichier, commencez par créer un fichier nommé \".lgtm.yml\" dans le répertoire le plus haut de votre projet. Ensuite, dans ce fichier, ajoutez quelques classifications.
 
@@ -54,7 +54,7 @@ Notez que les niveaux d\'indentation sont importants dans LGTM. Un retrait incor
 
 En outre, certaines classifications (telles que \"modèle\" et \"test\") sont utilisées par LGTM pour les requêtes et autres composants d\'analyse. Vous pouvez également définir vos propres balises personnalisées, qui filtreront le code et fourniront des résultats interrogeables supplémentaires.
 
-## Liens pertinents {#liens_pertinents}
+## Liens pertinents 
 
 -   [Intégration Continue](Continuous_Integration/fr.md)
 -   LGTM [FreeCAD Sujet du forum de discussion](https://www.forum.freecadweb.org/viewtopic.php?f=10&t=40228)

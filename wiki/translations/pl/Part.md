@@ -11,7 +11,7 @@ Zobacz stronę <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std: C
 
 ## Użycie
 
-Narzędzie Std: Część nie jest definiowane przez konkretne środowisko pracy, ale przez system bazowy, dlatego znajduje się w {{MenuCommand|pasku narzędzi struktury}}, który jest dostępny we wszystkich [środowiskach pracy](Workbenches/pl.md).
+Narzędzie Std: Część nie jest definiowane przez konkretne środowisko pracy, ale przez system bazowy, dlatego znajduje się w **pasku narzędzi struktury**, który jest dostępny we wszystkich [środowiskach pracy](Workbenches/pl.md).
 
 1.  Naciśnij przycisk **<img src=images/Std_Part.svg style="width:16px"> [Stwórz nową część](Std_Part/pl.md)**. Pusta część jest tworzona i automatycznie staje się ona *[aktywna](Std_Part/pl#Status_aktywno.C5.9Bci.md)*.
 

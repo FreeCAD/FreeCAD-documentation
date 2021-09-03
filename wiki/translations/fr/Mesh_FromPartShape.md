@@ -17,8 +17,8 @@ L\'opération inverse est [Part Forme à partir du maillage](Part_ShapeFromMesh/
 1.  Sélectionnez éventuellement un ou plusieurs objets.
 2.  Il existe plusieurs manières d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/_Mesh_FromPartShape.svg" width=16px> [Mesh Tesselation de la forme](Mesh_FromPartShape/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → <img src="images/_Mesh_FromPartShape.svg" width=16px> Créer un maillage à partir de la forme...}} dans le menu.
-3.  Le panneau des tâches {{MenuCommand|Tessellation}} s\'ouvre.
+    -   Sélectionnez l\'option **Maillages → <img src="images/_Mesh_FromPartShape.svg" width=16px> Créer un maillage à partir de la forme...** dans le menu.
+3.  Le panneau des tâches **Tessellation** s\'ouvre.
 4.  Lorsque le panneau des tâches est ouvert, vous pouvez créer une nouvelle sélection ou modifier une sélection existante.
 5.  Sélectionnez l\'onglet du mailleur que vous souhaitez utiliser.
 6.  Spécifiez les paramètres requis. Voir [Mailleurs](#Mailleurs.md).
@@ -28,118 +28,118 @@ L\'opération inverse est [Part Forme à partir du maillage](Part_ShapeFromMesh/
 
 Voici les mailleurs disponibles et leurs paramètres:
 
-### Mailleur standard {#mailleur_standard}
+### Mailleur standard 
 
--    {{MenuCommand|Déviation de surface}}: la [déviation linéaire](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage par rapport à la surface de l\'objet.
+-    **Déviation de surface**: la [déviation linéaire](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage par rapport à la surface de l\'objet.
 
--    {{MenuCommand|Déviation angulaire}}: la [déviation angulaire](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage à la suivante . Ce paramètre est utilisé lors du maillage de surfaces courbes.
+-    **Déviation angulaire**: la [déviation angulaire](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage à la suivante . Ce paramètre est utilisé lors du maillage de surfaces courbes.
 
--    {{MenuCommand|Ecart relatif de surface}}: si cochée, la déviation linéaire maximale d\'un segment de maillage sera la {{MenuCommand|Déviation de surface}} multipliée par la longueur du segment de maillage courant (bord).
+-    **Ecart relatif de surface**: si cochée, la déviation linéaire maximale d\'un segment de maillage sera la **Déviation de surface** multipliée par la longueur du segment de maillage courant (bord).
 
--    {{MenuCommand|Appliquer les couleurs de face au maillage}}: si coché, le maillage obtiendra les couleurs de face de l\'objet.
+-    **Appliquer les couleurs de face au maillage**: si coché, le maillage obtiendra les couleurs de face de l\'objet.
 
--    {{MenuCommand|Définir les segments par couleurs de face}}: si coché, les segments de maillage seront regroupés en fonction des couleurs des faces de l\'objet. Ces groupes seront exportés pour les formats de sortie de maillage prenant en charge cette fonctionnalité (le format [OBJ](https://fr.wikipedia.org/wiki/Objet_3D_(format_de_fichier)) par exemple).
+-    **Définir les segments par couleurs de face**: si coché, les segments de maillage seront regroupés en fonction des couleurs des faces de l\'objet. Ces groupes seront exportés pour les formats de sortie de maillage prenant en charge cette fonctionnalité (le format [OBJ](https://fr.wikipedia.org/wiki/Objet_3D_(format_de_fichier)) par exemple).
 
-### Mailleur Mefisto {#mailleur_mefisto}
+### Mailleur Mefisto 
 
--    {{MenuCommand|Longueur maximale d'arêtes}}: la longueur maximale du bord du maillage. Une valeur plus petite donne un maillage plus fin. Si vous spécifiez {{Value|0}} ou décochez la case, vous obtenez un maillage très grossier.
+-    **Longueur maximale d'arêtes**: la longueur maximale du bord du maillage. Une valeur plus petite donne un maillage plus fin. Si vous spécifiez {{Value|0}} ou décochez la case, vous obtenez un maillage très grossier.
 
-    -   Si vous appuyez sur le bouton **Estimation**, le mailleur entrera une valeur estimée pour {{MenuCommand|Longueur maximale d'arêtes}}. Cette valeur n\'est pas très fiable si plusieurs objets ont été sélectionnés.
+    -   Si vous appuyez sur le bouton **Estimation**, le mailleur entrera une valeur estimée pour **Longueur maximale d'arêtes**. Cette valeur n\'est pas très fiable si plusieurs objets ont été sélectionnés.
 
-### Mailleur Netgen {#mailleur_netgen}
+### Mailleur Netgen 
 
--    {{MenuCommand|Fineness}}: sélectionnez une option pour la finesse du maillage:
+-    **Fineness**: sélectionnez une option pour la finesse du maillage:
 
     -   
-        {{MenuCommand|Très grossier}}
+        **Très grossier**
         
 
     -   
-        {{MenuCommand|Coarse}}
+        **Coarse**
         
 
     -   
-        {{MenuCommand|Modéré}}
+        **Modéré**
         
 
     -   
-        {{MenuCommand|Fine}}
+        **Fine**
         
 
     -   
-        {{MenuCommand|Très bien}}
+        **Très bien**
         
 
     -   
-        {{MenuCommand|User defined}}
+        **User defined**
         
         : pour cette option, les paramètres suivants peuvent être spécifiés:
 
         -   
-            {{MenuCommand|Graduation de la taille du maillage}}
+            **Graduation de la taille du maillage**
             
             : une valeur plus petite donne un maillage plus fin. La valeur doit être comprise dans la plage {{Value|0.1}} - {{Value|1.0}}.
 
         -   
-            {{MenuCommand|Elément par arête}}
+            **Elément par arête**
             
             : une valeur plus grande donne un maillage plus fin. La valeur doit être comprise dans la plage {{Value|0.2}} - {{Value|10.0}}.
 
         -   
-            {{MenuCommand|Elément par rayon de courbure}}
+            **Elément par rayon de courbure**
             
             : une valeur plus grande donne un maillage plus fin. La valeur doit être comprise dans la plage {{Value|0.2}} - {{Value|10}}.
 
--    {{MenuCommand|Optimiser la surface}}: si coché, la forme de la surface sera optimisée.
+-    **Optimiser la surface**: si coché, la forme de la surface sera optimisée.
 
--    {{MenuCommand|Eléments du second ordre}}: si coché, les éléments du second ordre seront générés résultant en un maillage plus fin.
+-    **Eléments du second ordre**: si coché, les éléments du second ordre seront générés résultant en un maillage plus fin.
 
--    {{MenuCommand|Quad dominé}}: si coché, le maillage utilisera de préférence [quadrilateral faces](https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional).
+-    **Quad dominé**: si coché, le maillage utilisera de préférence [quadrilateral faces](https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional).
 
-### Mailleur Gmsh {#mailleur_gmsh}
+### Mailleur Gmsh 
 
 
 {{Version/fr|0.19}}
 
 Pour les utilisateurs Linux: le module externe [Gmsh](https://gmsh.info/) est requis.
 
--    {{MenuCommand|Maillage}}: sélectionnez une option de maillage:
+-    **Maillage**: sélectionnez une option de maillage:
 
     -   
-        {{MenuCommand|Automatique}}
+        **Automatique**
         
 
     -   
-        {{MenuCommand|Adaptatif}}
+        **Adaptatif**
         
 
     -   
-        {{MenuCommand|Delaunay}}
+        **Delaunay**
         
 
     -   
-        {{MenuCommand|Frontal}}
+        **Frontal**
         
 
     -   
-        {{MenuCommand|BAMG}}
+        **BAMG**
         
 
     -   
-        {{MenuCommand|Quadrangle frontal}}
+        **Quadrangle frontal**
         
 
     -   
-        {{MenuCommand|Parallélogrammes}}
+        **Parallélogrammes**
         
 
--    {{MenuCommand|Taille maximale de l'élément}}: une valeur plus petite donne un maillage plus fin. Spécifiez {{Value|0}} pour que cette taille soit automatiquement déterminée.
+-    **Taille maximale de l'élément**: une valeur plus petite donne un maillage plus fin. Spécifiez {{Value|0}} pour que cette taille soit automatiquement déterminée.
 
--    {{MenuCommand|Taille minimale de l'élément}}: une valeur plus petite donne un maillage plus fin. La valeur doit être inférieure à {{MenuCommand|Max. taille de l'élément}}. Spécifiez {{Value|0}} pour que cette taille soit automatiquement déterminée.
+-    **Taille minimale de l'élément**: une valeur plus petite donne un maillage plus fin. La valeur doit être inférieure à **Max. taille de l'élément**. Spécifiez {{Value|0}} pour que cette taille soit automatiquement déterminée.
 
--    {{MenuCommand|Angle}}: semble ne pas être pris en charge pour le moment.
+-    **Angle**: semble ne pas être pris en charge pour le moment.
 
--    {{MenuCommand|Path}}: appuyez sur le bouton **...** et allez jusqu\'au chemin {{FileName|gmsh.exe}}.
+-    **Path**: appuyez sur le bouton **...** et allez jusqu\'au chemin {{FileName|gmsh.exe}}.
 
 -   Si le processus de maillage prend trop de temps, vous pouvez appuyer sur le bouton **Kill** pour l\'abandonner.
 
@@ -153,15 +153,15 @@ Pour les utilisateurs Linux: le module externe [Gmsh](https://gmsh.info/) est re
 
 ## Préférences
 
-### Mailleur standard {#mailleur_standard_1}
+### Mailleur standard 
 
--   Le paramètre {{MenuCommand|Surface déviation}} est stocké: {{MenuCommand|Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → LinearDeflection}}.
--   Le paramètre {{MenuCommand|Déviation angulaire}} est stocké: {{MenuCommand|Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection}}.
--   Le paramètre {{MenuCommand|Ecart relatif de surface}} est stocké: {{MenuCommand|Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection}}.
+-   Le paramètre **Surface déviation** est stocké: **Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → LinearDeflection**.
+-   Le paramètre **Déviation angulaire** est stocké: **Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection**.
+-   Le paramètre **Ecart relatif de surface** est stocké: **Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection**.
 
-### Mailleur Gmsh {#mailleur_gmsh_1}
+### Mailleur Gmsh 
 
--   Le {{MenuCommand|Parcours}} est stocké: {{MenuCommand|Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → gmshExe}}.
+-   Le **Parcours** est stocké: **Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → gmshExe**.
 
 ## Propriétés
 

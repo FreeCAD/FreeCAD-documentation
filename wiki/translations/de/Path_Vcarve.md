@@ -24,14 +24,14 @@ The V-carve algorithm calculates a path down the center-line of a region using a
 
 ## Anwendung
 
-### Prepare the shapes to engrave {#prepare_the_shapes_to_engrave}
+### Prepare the shapes to engrave 
 
 -    **<img src=images/Draft_ShapeString.svg style="width:24px"> [Draft ShapeStrings](Draft_ShapeString.md)**are usable out of the box
 
 -   SVG files require some massaging, both in the editor and in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md):
     -   In the editor (e.g. [inkscape](https://www.inkscape.org)): make sure the file only contains paths and that the paths are ungrouped; make sure there are no self-intersecting paths, (in inkscape) use Path → Simplify and union to join paths that overlap.
     -   Switch to the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) in [workbench dropdown list](Std_Workbench.md)
-    -   Import the SVG using {{MenuCommand|File → Import → select "SVG as geometry"}}
+    -   Import the SVG using **File → Import → select "SVG as geometry"**
     -   The result should look similar to this:
 
         :   ![](images/Svgimport.png )
@@ -46,22 +46,22 @@ The V-carve algorithm calculates a path down the center-line of a region using a
 -   -   In order to get the 2D faces, [Path Vcarve](Path_Vcarve.md) needs:
         -   For paths without holes:
             1.  Select the path
-            2.  Choose {{MenuCommand|Modification → ![](images/)_[Upgrade](Draft_Upgrade.md)}}
-            3.  Followed by {{MenuCommand|Modification → ![](images/)_[Downgrade](Draft_Downgrade.md)}}
+            2.  Choose **Modification → ![](images/)_[Upgrade](Draft_Upgrade.md)**
+            3.  Followed by **Modification → ![](images/)_[Downgrade](Draft_Downgrade.md)**
         -   For paths with holes:
             1.  Select the outer path, then the inner path
-            2.  Choose {{MenuCommand|Modification → ![](images/)_[Downgrade](Draft_Downgrade.md)}} **twice**
+            2.  Choose **Modification → ![](images/)_[Downgrade](Draft_Downgrade.md)** **twice**
 
         :   Some paths will behave differently, so you may need to play with **<img src="images/Draft_Upgrade.svg" width=16px> Upgrade** and **<img src="images/Draft_Downgrade.svg" width=16px> Downgrade** until you get something named: `Face<number>`
         :   The end result should look like this:
         :   ![](images/Svgfaces.png )
 
-### Create the Vcarve operation {#create_the_vcarve_operation}
+### Create the Vcarve operation 
 
 -   Switch to the **<img src=images/Workbench_Path.svg style="width:16px"> [Path Workbench](Path_Workbench.md)** in the [workbench dropdown menu](Std_Workbench.md)
 -   Add a job, use the objects named `Face<number>` (or the ShapeString) as a base, add a v-bit tool controller, set feeds, speeds, etc.
 -   The operation only supports one object (either a single Face object, or a ShapeString) so for each object:
-    -   Select {{MenuCommand|Path  →  <img src="images/Path_Vcarve.svg" width=24px> Vcarve}} from the top menu. This opens the configuration panel.
+    -   Select **Path  →  <img src="images/Path_Vcarve.svg" width=24px> Vcarve** from the top menu. This opens the configuration panel.
     -   Open the **Base Geometry** tab and add all faces of the ShapeString, or the face of a single Face object obtained above
     -   Press **Apply** and inspect the generated path; if necessary, adjust operation parameters (Threshold can be set higher in most situations)
     -   Press **OK** to finish
@@ -92,7 +92,7 @@ Empty
 
 -    **StepDown**: -
 
-#### Op Values {#op_values}
+#### Op Values 
 
 -    **OpFinalDepth**: -
 

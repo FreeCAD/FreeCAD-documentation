@@ -65,7 +65,7 @@ Tyto nástroje slouží pro vytváření architektonických objektů.
     -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Material](Arch_MultiMaterial.md): Creates a multi-material and attributes it to selected objects, if any <small>(v0.17)</small> 
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Schedule](Arch_Schedule.md): Creates different types of schedules
 
-### Modification tools {#modification_tools}
+### Modification tools 
 
 These are tools for modifying architectural objects.
 
@@ -98,7 +98,7 @@ These are additional tools to help you in specific tasks.
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferences](Arch_Preferences.md): preferences for the default appearance of walls, structures, rebars, windows, stairs, panels, pipes, grids and axes.
 
-### Souborové formáty {#souborové_formáty}
+### Souborové formáty 
 
 -   [IFC](Arch_IFC/cs.md) : Industry foundation Classes (pouze import)
 -   [DAE](Arch_DAE/cs.md) : Síťový formát Collada
@@ -108,7 +108,7 @@ These are additional tools to help you in specific tasks.
 
 Modul Architektura může být použit v pythonovských skriptech a [makrech](macros/cs.md) použitím funkcí [Arch Python API](http://www.freecadweb.org/api/Arch.html).
 
-## Výukový program {#výukový_program}
+## Výukový program 
 
 -   [Výukový program architektura](Arch_tutorial/cs.md)
 -   [Architektonický výukový program v Yorikově blogu](http://yorik.uncreated.net/guestblog.php?2012=180)

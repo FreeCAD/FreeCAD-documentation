@@ -112,7 +112,7 @@ Aufgrund ihrer Popularität und Stabilität wurden viele Boost Bibliotheken für
 
 Um Effizienz und Flexibilität zu gewährleisten, macht Boost umfangreichen Gebrauch von Vorlagen. Boost hat umfangreiche Arbeiten und Forschungen zur generischen Programmierung und Metaprogrammierung in C++ durchgeführt. Lies mehr über Boost, indem Du die [Boost Homepage](http://www.boost.org/) besuchst.
 
-### OpenCASCADE Technologie {#opencascade_technologie}
+### OpenCASCADE Technologie 
 
 **Version:** 6.7 oder höher
 
@@ -142,7 +142,7 @@ Qt ist eines der populärsten Werkzeugsätze für grafische Benutzeroberflächen
 
 Weitere Informationen zu den Qt-Bibliotheken und deren Programmierdokumentation findest Du unter [Qt-Dokumentation](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
 
-##### Shiboken2 und Pyside2 {#shiboken2_und_pyside2}
+##### Shiboken2 und Pyside2 
 
 Shiboken ist der Python Bindungsgenerator, den Qt für Python zur Erstellung des PySide Moduls verwendet, d.h. es ist das System, das verwendet wird, um die Qt C++ API der Sprache Python auszusetzen.
 
@@ -166,7 +166,7 @@ Coin3D (Open Inventor) wird als 3D Betrachter in FreeCAD verwendet, da der OpenC
 
 Coin3D ist über eine Vielzahl von Plattformen anwendbar: UNIX, Linux, BSD, MacOS X und Microsoft Windows Betriebssysteme. Um mehr über diese Bibliothek zu lesen, besuche [Coin3D homepage](https://github.com/coin3d/coin).
 
-#### SoQt (veraltet) {#soqt_veraltet}
+#### SoQt (veraltet) 
 
 **Version:** 1.2.0 oder höher
 
@@ -204,7 +204,7 @@ Ply ist der Python-Lex-Yacc Parser. Er wird als Laufzeitabhängigkeit von der [O
 
 Für weitere Informationen siehe [Ply homepage](https://www.dabeaz.com/ply/).
 
-### Xerces-C++ {#xerces_c}
+### Xerces-C++ 
 
 **Version:** 3.0 oder höher
 
@@ -266,7 +266,7 @@ LibPack ist ein praktisches Paket mit den gesammelten Bau Abhängigkeiten von Fr
 
 Wenn du unter Linux arbeitest, brauchst du das LibPack nicht, da du die Abhängigkeiten aus den Repositorien deiner Distribution beziehen kannst, wie auf der [Kompilieren unter Linux](Compile_on_Linux/de.md)-Seite erwähnt.
 
-### FreeCAD 12.1.2 {#freecad_12.1.2}
+### FreeCAD 12.1.2 
 
 Siehe die Ankündigung im Forum: [Neue Libpacks für Windows mit Qt5.12, OCC7.3 und Python 3.6 von apeltauer](https://forum.freecadweb.org/viewtopic.php?f=4&t=35789)
 

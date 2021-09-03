@@ -1,12 +1,12 @@
 \-\--Questa pagina è disponibile solo in italiano. Deve essere aggiornata, penso di farlo dopo il rilascio della v0.16\-\--
 
-### Tipi di proprietà {#tipi_di_proprietà}
+### Tipi di proprietà 
 
 Ci sono due tipi di proprietà delle operazioni e sono contenuti nelle corrispondenti schede.
 
 Quando si seleziona un oggetto, nella Vista combinata viene visualizzata una finestra di dialogo. Selezionare la scheda desiderata cliccando sulle linguette che si trovano nella parte inferiore della tabella Proprietà.
 
-### Proprietà Vista {#proprietà_vista}
+### Proprietà Vista 
 
 Le Proprieta Vista riguardano la **Visualizzazione** delle caratteristiche dell\'oggetto selezionato.
 
@@ -172,7 +172,7 @@ Esempio di proprietà vista per un oggetto di Draft:
 |                                                      |     : Griglia solo intorno all\'oggetto o su tutta l\'area                                                                                                |
 +------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-### Proprietà Dati {#proprietà_dati}
+### Proprietà Dati 
 
 Le Proprieta Dati riguardano i dati **Fisici** dell\'oggetto selezionato.
 

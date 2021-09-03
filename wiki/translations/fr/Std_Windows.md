@@ -15,7 +15,7 @@ La commande **Std Fenêtres** ouvre une boîte de dialogue avec une liste de fen
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Fenêtres → <img src="images/Std_Windows.svg" width=16px> Fenêtres...}} dans le menu.
+1.  Sélectionnez l\'option **Fenêtres → <img src="images/Std_Windows.svg" width=16px> Fenêtres...** dans le menu.
 2.  La boîte de dialogue Choisir une fenêtre s\'ouvre.
 3.  Effectuez l\'une des actions suivantes:
     -   Sélectionnez une fenêtre dans la liste et appuyez sur le bouton **Activer**.
@@ -29,7 +29,7 @@ La commande **Std Fenêtres** ouvre une boîte de dialogue avec une liste de fen
 
 ## Remarques
 
--   Les fenêtres de la [Zone de vue principale](Main_view_area.md) sont également répertoriées dans le menu {{MenuCommand|Fenêtre}} et peuvent être activées à partir de là.
+-   Les fenêtres de la [Zone de vue principale](Main_view_area.md) sont également répertoriées dans le menu **Fenêtre** et peuvent être activées à partir de là.
 
 
 

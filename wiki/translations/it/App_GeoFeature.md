@@ -33,7 +33,7 @@ Oltre alle proprietà descritte in [App DocumentObject](App_DocumentObject/it.md
 
 Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono avere gli oggetti con script.
 
-Queste sono le proprietà disponibili nell\'[editor delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando {{MenuCommand|Mostra tutto}} nel menu contestuale dell\'[editor delle proprietà](property_editor/it.md).
+Queste sono le proprietà disponibili nell\'[editor delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell\'[editor delle proprietà](property_editor/it.md).
 
 ### Dati
 
@@ -59,7 +59,7 @@ Queste sono le proprietà disponibili nell\'[editor delle proprietà](property_e
 
 -    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string.
 
-#### Hidden properties Data {#hidden_properties_data}
+#### Hidden properties Data 
 
 -    **Proxy|PythonObject|Hidden**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](App_GeoFeature#Scripting.md).
 
@@ -125,7 +125,7 @@ obj = App.ActiveDocument.addObject("App::GeoFeature", "Name")
 obj.Label = "Custom label"
 ```
 
-This basic `App::GeoFeature` doesn\'t have a default view provider, so no icon will be displayed on the [tree view](tree_view.md), and no {{MenuCommand|View}} properties will be available.
+This basic `App::GeoFeature` doesn\'t have a default view provider, so no icon will be displayed on the [tree view](tree_view.md), and no **View** properties will be available.
 
 Therefore, for [Python](Python.md) subclassing, you should create the `App::GeometryPython` object.
 

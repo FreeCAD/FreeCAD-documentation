@@ -18,16 +18,16 @@ The GSoC project aims at laying the foundation to solve this issue and to prove 
 4.  Integrate the identifier class into the Topology data structue and port a few first algorithms to use it. Also extend the Topology class python interface to allow the use of the identifiers for extracting subshapes.
 5.  Create a set of test cases to show the effectiveness of the implementation.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  A first implementation within FreeCAD to show the working algorithm
 2.  A set of test cases integrated into the available test system which show major cases of the topological naming problem and how they are resolved by the prototype implementation
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 If this project is finished successfully a full integration into the FreeCAD source can be part of further contribution or even a own GSoC project
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -40,7 +40,7 @@ If this project is finished successfully a full integration into the FreeCAD sou
 
 Hard
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 
 

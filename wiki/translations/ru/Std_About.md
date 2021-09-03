@@ -11,7 +11,8 @@
 
 The **Std About** command opens a dialog box that shows information about the FreeCAD program.
 
-![](images/Help-About-Dropdown-screenshot.png ) *Activate the About dialog via {{MenuCommand|Help → <img src="images/Std_About.svg" width=16px> About FreeCAD*}}
+![](images/Help-About-Dropdown-screenshot.png ) *Activate the About dialog via **Help → <img src="images/Std_About.svg" width=16px> About FreeCAD
+***
 
 ![](images/Std_About_example.png ) *The About FreeCAD dialog box*
 
@@ -20,10 +21,10 @@ The **Std About** command opens a dialog box that shows information about the Fr
 
 ## Применение
 
-1.  Select the {{MenuCommand|Help → <img src="images/Std_About.svg" width=16px> About FreeCAD}} option from the menu.
-2.  Select one of the tabs: {{MenuCommand|About}}, {{MenuCommand|Credits}}, {{MenuCommand|License}} or {{MenuCommand|Libraries}}.
+1.  Select the **Help → <img src="images/Std_About.svg" width=16px> About FreeCAD** option from the menu.
+2.  Select one of the tabs: **About**, **Credits**, **License** or **Libraries**.
 3.  Whenever you need to provide FreeCAD version information do the following:
-    -   Press the **Copy to clipboard** button on the {{MenuCommand|About}} tab.
+    -   Press the **Copy to clipboard** button on the **About** tab.
     -   Paste this information in your help request.
     -   Do not include a screenshot of the dialog box.
 4.  Press **Esc** or the **OK** button to close the dialog.

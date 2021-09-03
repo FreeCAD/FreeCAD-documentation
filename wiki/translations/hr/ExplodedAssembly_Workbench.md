@@ -25,11 +25,11 @@ Features:
 
 ## Installation
 
-### Automatska instalacija {#automatska_instalacija}
+### Automatska instalacija 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 **Ubuntu & Mint**
 
@@ -48,7 +48,7 @@ That\'s all, the next time you launch FreeCAD the workbench should be incorporat
 
 ![](images/ExplodedAnimation-menu-vert.png )
 
-## Links to ExplodedAnimation WB {#links_to_explodedanimation_wb}
+## Links to ExplodedAnimation WB 
 
 -   Workbench Wiki:
 -   FreeCAD Wiki:
@@ -58,7 +58,7 @@ That\'s all, the next time you launch FreeCAD the workbench should be incorporat
 -   Files:
 -   Report bugs: Please report bugs at
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)

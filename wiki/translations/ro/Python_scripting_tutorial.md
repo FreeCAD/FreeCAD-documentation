@@ -49,12 +49,12 @@ Există, de asemenea, mai multe moduri diferite de a folosi Python în FreeCAD:
 
 <div class="mw-translate-fuzzy">
 
-**Important!** Înainte de a continua scriptul Python, mergeți la fereastra {{MenuCommand|Edit->Prefences->General->Output}} și bifați 2 căsuțe:
+**Important!** Înainte de a continua scriptul Python, mergeți la fereastra **Edit->Prefences->General->Output** și bifați 2 căsuțe:
 
 -   Redirecționați ieșirea internă Python către vizualizarea raportului
 -   Redirecționați erorile interne Python către vizualizarea raportului
 
-Then go to {{MenuCommand|View->Panels}} and check:
+Then go to **View->Panels** and check:
 
 -   Report view
 
@@ -66,14 +66,14 @@ Acest lucru vă va feri de o mulțime de probleme grave!
 
 <div class="mw-translate-fuzzy">
 
-## Scrierea codului python {#scrierea_codului_python}
+## Scrierea codului python 
 
 Există două modalități ușoare de a scrie codul python în FreeCAD: Din consola python (disponibilă din View -\> Panels -\> Python console menu) ori din Macro editor (Tools -\> Macros). In consolă, scrieți comenzi python una câte una, care sunt executate atunci când apăsați retur de car (Enter), în timp ce macrocomenzile pot conține un script mai complex compus din mai multe linii care se execută numai când macro-ul este executat.
 
 
 </div>
 
-There are two ways to write Python code in FreeCAD. In the [Python console](Python_console.md) (select {{MenuCommand|View → Panels → Python console}} from the menu) or in the [Macro editor](Std_DlgMacroExecute.md) (select {{MenuCommand|Macro → Macros...}} from the menu). In the console you write Python commands one by one, executing them by pressing **Enter**, while macros can contain more complex code made up of several lines, executed only when the macro is executed.
+There are two ways to write Python code in FreeCAD. In the [Python console](Python_console.md) (select **View → Panels → Python console** from the menu) or in the [Macro editor](Std_DlgMacroExecute.md) (select **Macro → Macros...** from the menu). In the console you write Python commands one by one, executing them by pressing **Enter**, while macros can contain more complex code made up of several lines, executed only when the macro is executed.
 
 ![](images/Screenshot_pythoninterpreter.jpg )
 
@@ -98,7 +98,7 @@ There are two ways to write Python code in FreeCAD. In the [Python console](Pyth
 
 <div class="mw-translate-fuzzy">
 
-## Explorând FreeCAD {#explorând_freecad}
+## Explorând FreeCAD 
 
 Hai să începem prin crearea unui nou document vid:
 
@@ -133,7 +133,7 @@ Dacă introduceți acest lucru în consola Python FreeCAD, veți observa că, de
 
 <div class="mw-translate-fuzzy">
 
-Acum, noul nostru document va fi creat. Acest lucru este similar cu apăsarea butonului \"document nou\" de pe bara de instrumente. De fapt, majoritatea butoanelor din FreeCAD nu fac decât să execute o linie sau două coduri Python. Chiar mai bine, puteți seta o opțiune în {{MenuCommand|Edit->Preferences->General->Macro}} pentru a \"show script commands in python console\". Aceasta va afișa în consolă tot codul python executat când apăsați butoanele. Foarte util pentru a afla cum să reproduceți acțiunile în Python.
+Acum, noul nostru document va fi creat. Acest lucru este similar cu apăsarea butonului \"document nou\" de pe bara de instrumente. De fapt, majoritatea butoanelor din FreeCAD nu fac decât să execute o linie sau două coduri Python. Chiar mai bine, puteți seta o opțiune în **Edit->Preferences->General->Macro** pentru a \"show script commands in python console\". Aceasta va afișa în consolă tot codul python executat când apăsați butoanele. Foarte util pentru a afla cum să reproduceți acțiunile în Python.
 
 
 </div>
@@ -219,7 +219,7 @@ Dacă selectați o casetă cu mouse-ul, veți vedea că în panoul proprietăți
 
 <div class="mw-translate-fuzzy">
 
-## Vectori și Plasamente {#vectori_și_plasamente}
+## Vectori și Plasamente 
 
 [Vectors](http://en.wikipedia.org/wiki/Euclidean_vector) sunt un concept foarte fundamental în orice aplicație 3D. Este o listă cu 3 numere (x, y și z), care descriu un punct sau o poziție în spațiul 3D. O mulțime de lucruri se pot face cu vectori, cum ar fi adăugiri, scăderi, proiecții și [much more](http://en.wikipedia.org/wiki/Vector_space). In FreeCAD vectorii lucrează cam așa:
 
@@ -262,7 +262,7 @@ Acum trebuie să înțelegeți câteva concepte importante înainte de a ajunge 
 
 <div class="mw-translate-fuzzy">
 
-## Apicații și Interfață grafică {#apicații_și_interfață_grafică}
+## Apicații și Interfață grafică 
 
 FreeCAD de la început a fost conceput pentru a funcționa ca o aplicație pe linie de comandă, fără interfața sa de utilizator. Ca rezultat, aproape totul este separat între o componentă \"geometrie\" și o componentă \"vizuală\". Când lucrați în modul de comandă, partea de geometrie este prezentă, dar toată partea vizuală este pur și simplu dezactivată. Aproape orice obiect din FreeCAD este compus din două părți, an Object and a ViewObject.
 
@@ -478,7 +478,7 @@ Prin explorarea conținutului myshape, veți observa multe subcomponente interes
 
 <div class="mw-translate-fuzzy">
 
-## Desen 2 D {#desen_2_d}
+## Desen 2 D 
 
 Careacteristicile FreeCAD features sunt în multe module, ca de exemplu [Sketcher](Sketcher_Workbench.md) ori [Draft](Draft_Workbench.md), care creează, de asemenea, obiecte Piese, dar adaugă parametri sau chiar abordează o nouă modalitate de a gestiona geometria pieselor în ele. Exemplul casetei de mai sus este un exemplu perfect de obiect parametric. Tot ce aveți nevoie, pentru a defini caseta, este să specificați câțiva parametri, cum ar fi înălțimea, lățimea și lungimea. Pe baza acestora, obiectul va calcula automat forma piesei sale. FreeCAD vă permite să [create such objects in python](Scripted_objects.md).
 
@@ -547,14 +547,14 @@ Qt este un sistem de interfață foarte puternic, care vă permite să faceți l
 
 <div class="mw-translate-fuzzy">
 
-## Macro-uri {#macro_uri}
+## Macro-uri 
 
 Acum, că aveți o bună înțelegere a principiilor de bază, unde vom păstra scripturile noastre Python și cum le vom lansa cu ușurință de pe FreeCAD? Există un mecanism ușor pentru acesta, numit [Macros](Macros.md). O macrocomandă este pur și simplu un script python, care poate fi apoi adăugat la o bară de instrumente și poate fi lansat printr-un simplu click de mouse. FreeCAD vă oferă un editor simplu de text (Macro -\> Macros -\> Creare) unde puteți scrie sau lipi scripturi. După ce s-a terminat, Instrumentele -\> Customize -\> Macro-urile vă permit să definiți un buton pentru acesta, care poate fi adăugat la barele de instrumente.
 
 
 </div>
 
-Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor ({{MenuCommand|Macro → Macros... → Create}}) where you can write or paste scripts. Once the script is done, use {{MenuCommand|Tools → Customize... → Macros}} to define a button for it that can be added to toolbars.
+Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor (**Macro → Macros... → Create**) where you can write or paste scripts. Once the script is done, use **Tools → Customize... → Macros** to define a button for it that can be added to toolbars.
 
 
 <div class="mw-translate-fuzzy">

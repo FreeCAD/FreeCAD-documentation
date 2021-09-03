@@ -14,7 +14,7 @@ Acest instrument creează racordări/rotunjiri pe muchiile selectate al unui obi
 
 </div>
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -33,7 +33,7 @@ Acest instrument creează racordări/rotunjiri pe muchiile selectate al unui obi
 
 <div class="mw-translate-fuzzy">
 
-#### PartDesign Fillet VS. Part Fillet {#partdesign_fillet_vs._part_fillet}
+#### PartDesign Fillet VS. Part Fillet 
 
 **PartDesign Fillet nu trebuie confundat cu contrapartida sa [Part workbench counterpart](Part_Fillet.md)**. Deși împărt aceeași pictogramă, ele nu sunt aceleași și nu sunt utilizate în același mod. Iată cum diferă acestea unul de celălalt:
 
@@ -58,7 +58,7 @@ Here is how they differ from each other:
 -   The PartDesign Fillet offers a live preview of the fillet applied to the object before validating the function.
 -   The Part Fillet supports variable radii (with a start radius and an end radius). The PartDesign fillet doesn\'t.
 
-## Probleme cunoscute {#probleme_cunoscute}
+## Probleme cunoscute 
 
 
 <div class="mw-translate-fuzzy">
@@ -123,13 +123,13 @@ See the forum threads for more information:
 
 Utilizatorul este, de asemenea, responsabil pentru integritatea propriului model. În funcție de model, ar putea fi imposibil să efectuați o racordare sau o șanfrenare dacă corpul nu este suficient de mare pentru a susține acea operație. De exemplu, nu ar fi posibil să creați o racordare de 10 mm dacă o margine este separată la numai 5 mm de suprafața următoare. În acest caz, raza maximă pentru un filet ar fi de 5 mm; încercarea de a utiliza o valoare mai mare poate avea ca rezultat o formă care nu calculează sau chiar un crash/accident. Dacă utilizarea limitei exacte de 5 mm nu funcționează, este posibil să se utilizeze o apropiere foarte apropiată, ca de exemplu 4,9999 mm, pentru a produce același rezultat vizibil.
 
-### Topological naming {#topological_naming}
+### Topological naming 
 
 Numerele de margine nu sunt complet stabile, prin urmare este recomandat să finalizați lucrarea principală de proiectare a corpului dvs solid înainte de a aplica funcții cum ar fi racordări și șanfren, în caz contrar arginile ar putea schimba numele și margini racordate ar deveni probabil nevalabile.
 
 Read more in [topological naming problem](topological_naming_problem.md).
 
-## Programare-Script {#programare_script}
+## Programare-Script 
 
 
 <div class="mw-translate-fuzzy">

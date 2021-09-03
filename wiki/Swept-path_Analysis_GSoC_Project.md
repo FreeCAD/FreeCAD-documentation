@@ -14,15 +14,15 @@ Commercial packages exist which do this. The industry standard in the US is Auto
 4.  Import a data file (DXF) which contains the roadway gemetry on which to run the analysis.
 5.  Choose lines from the imported file which act as boundaries for the analysis collision detection.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  Accomplishing these items would provide the basis for performing swept path analyses in FreeCAD.
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 This work will provide exposure to highway design techniques.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -33,7 +33,7 @@ This work will provide exposure to highway design techniques.
 
 Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [FreeCAD Civil Engineering Thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=22277&start=250)
 

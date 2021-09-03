@@ -34,7 +34,7 @@ La vista Dettaglio può essere visualizzata in una casella rotonda o quadrata. Q
 
 ## Proprietà
 
-### Vista dettaglio {#vista_dettaglio}
+### Vista dettaglio 
 
 -    **BaseView**: la vista su cui si basa questa vista di dettaglio.
 
@@ -52,7 +52,7 @@ La vista Dettaglio può essere visualizzata in una casella rotonda o quadrata. Q
 
 -    **Reference**: un identificatore per indicare l\'area di **BaseView** che viene visualizzata.
 
-### Vista base {#vista_base}
+### Vista base 
 
 Una vista Dettaglio eredita tutte le proprietà applicabili della vista specificata come **BaseView**. Nelle proprietà di questa vista è possibile modificare l\'aspetto del contorno del dettaglio:
 

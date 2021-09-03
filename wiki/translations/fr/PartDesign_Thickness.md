@@ -63,7 +63,7 @@ Alors
 
 Résultat : ![](images/Brga-spessore.png )
 
-## Erreurs connues {#erreurs_connues}
+## Erreurs connues 
 
 -   BRep\_API : commande non effectuée
 -   BRep\_Tool : aucun paramètre sur le bord

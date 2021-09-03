@@ -30,7 +30,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Select the shape(s) in the 3D view or in the Model tree
 2.  Click on the **<img src="images/Part_Extrude.png" width=16px> '''Extrude'''** icon in the toolbar, or go to the Part → Extrude menu
@@ -98,7 +98,7 @@ Forma Extrude este definită de următorii parametri, care pot fi editați după
 
 </div>
 
-## Task dialog {#task_dialog}
+## Task dialog 
 
 ![](images/Part_Extrude_dialog.png )
 
@@ -165,7 +165,7 @@ Forma Extrude este definită de următorii parametri, care pot fi editați după
 
 <div class="mw-translate-fuzzy">
 
-## Contra intuitive/Gotchas {#contra_intuitivegotchas}
+## Contra intuitive/Gotchas 
 
 Dialogul Extrude Parts nu are încă o previzualizare. \"Aplicați\" creează un obiect de extrudare de fiecare dată când faceți clic pe el, ceea ce poate fi util ca previzualizare. Cu toate acestea, acestea vor rămâne și un altul va fi creat când faceți clic pe OK.[Undo](Std_Undo.md) can be useful to clean them up before clicking OK.
 
@@ -191,7 +191,7 @@ Extrusion with taper angle does not support holes. It also may give bogus result
 
 <div class="mw-translate-fuzzy">
 
-## Comparison with [PartDesign Pad](PartDesign_Pad.md) {#comparison_with_partdesign_pad}
+## Comparison with [PartDesign Pad](PartDesign_Pad.md) 
 
 
 </div>

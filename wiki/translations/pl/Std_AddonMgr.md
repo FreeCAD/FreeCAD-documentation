@@ -20,7 +20,7 @@ Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa 
 
 ## Użycie
 
-1.  Wybierz opcję z menu {{MenuCommand|Narzędzia → <img src="images/Std_AddonMgr.svg" width=16px> Menedżer dodatków}}.
+1.  Wybierz opcję z menu **Narzędzia → <img src="images/Std_AddonMgr.svg" width=16px> Menedżer dodatków**.
 2.  Jeśli używasz menedżera dodatków po raz pierwszy, zostanie otwarte okienko informacyjne z ostrzeżeniem, że rozszerzenia w menedżerze dodatków nie są oficjalnie częścią programu FreeCAD. Naciśnij przycisk **OK**, aby potwierdzić zapoznanie się z tą informacją i kontynuować.
 3.  Otworzy się okno dialogowe Menadżer Dodatków. Więcej informacji znajdziesz w rozdziale [Opcje](#Opcje.md).
 4.  Przycisk **<img src="images/Button_valid.svg" width=16px>Aktualizuj wszystko** nie działa w tym momencie.
@@ -36,7 +36,7 @@ Okno dialogowe Menadżer dodatków ma dwie zakładki po lewej stronie, jedna z n
 1.  Wybierz zainstalowany dodatek w zakładce <img alt="" src=images/Folder.svg  style="width:16px;"> **Środowiska pracy** lub <img alt="" src=images/Applications-python.svg  style="width:16px;"> **Makrodefinicje**.
 2.  Naciśnij przycisk **<img src="images/Delete.svg" width=16px> Odinstaluj wybrane**.
 
-### Instalacja / aktualizacja {#instalacja_aktualizacja}
+### Instalacja / aktualizacja 
 
 1.  Wybierz dodatek w zakładce <img alt="" src=images/Folder.svg  style="width:16px;"> **Środowiska pracy** lub <img alt="" src=images/Applications-python.svg  style="width:16px;"> **Makrodefinicje**.
 2.  Wciśnij przycisk **<img src="images/Edit_OK.svg" width=16px> Zainstaluj/zaktualizuj wybrane**.
@@ -61,15 +61,15 @@ Okno dialogowe Menadżer dodatków ma dwie zakładki po lewej stronie, jedna z n
 -   Jeśli pakiet [GitPython](https://github.com/gitpython-developers/GitPython) jest zainstalowany na Twoim komputerze, menedżer dodatków będzie z niego korzystał, dzięki czemu pobieranie będzie szybsze.
 -   Możesz również zainstalować dodatki ręcznie. Zobacz artykuł [Jak zainstalować dodatkowe Środowiska pracy](How_to_install_additional_workbenches/pl.md) oraz [Jak zainstalować makrodefinicje](How_to_install_macros/pl.md).
 
-## Informacja dla programistów {#informacja_dla_programistów}
+## Informacja dla programistów 
 
 Jeśli opracowałeś Środowisko pracy lub makrodefinicję i chcesz zobaczyć je w Menedżerze dodatków, przeczytaj jak to zrobić na stronach repozytorium: ([FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) i [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). Jeśli dodasz swoje makro do strony [Przepisy na makropolecenia](Macros_recipes/pl.md), nie będziesz miał już nic innego do zrobienia, zostanie ono automatycznie przechwycone przez Menadżer dodatków.
 
-### Python i środowiska pracy {#python_i_środowiska_pracy}
+### Python i środowiska pracy 
 
 Aby dodać swoje Środowisko pracy do menedżera dodatków, nie potrzebujesz żadnej konkretnej zgody, a będąc poza kodem źródłowym FreeCAD, możesz wybrać licencję, którą chcesz. Jeśli poprosisz o dodanie swojego Środowiska pracy do listy *(nie dodamy żadnego nowego stanowiska pracy bez prośby jego autorów)*, albo prosząc o to na forum, albo otwierając sprawę w repozytorium [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/), Twój kod pozostanie w Twoim własnym repozytorium git, po prostu dodamy go jako dodatkowy moduł do repozytorium [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/). Oczywiście, przed dodaniem twojego Środowiska pracy, przyjrzymy się mu i upewnimy się, że nie ma z nim nic potencjalnie problematycznego.
 
-### C++ i środowiska pracy {#c_i_środowiska_pracy}
+### C++ i środowiska pracy 
 
 Jeśli tworzysz własne środowisko pracy w C++, nie może ono być uruchamiane bezpośrednio przez użytkowników i musi być najpierw skompilowane. Masz wtedy dwie opcje, albo sam dostarczysz prekompilowane wersje swojego Środowiska pracy, dla różnych systemów operacyjnych, albo powinieneś poprosić o połączenie swojego kodu z kodem źródłowym FreeCAD. W tym celu należy skorzystać z licencji LGPL *(lub w pełni kompatybilnej licencji jak MIT lub BSD)*, a nowe narzędzia należy przedstawić społeczności na forum [FreeCAD](https://forum.freecadweb.org) do wglądu. Po przetestowaniu i zatwierdzeniu kodu, powinieneś rozwidlić repozytorium FreeCAD, jeśli jeszcze tego nie zrobiłeś, stworzyć nową gałąź, wcisnąć do niej swój kod i otworzyć polecenie \"pull\", aby Twoja gałąź została połączona z głównym repozytorium.
 

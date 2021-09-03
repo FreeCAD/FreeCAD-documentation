@@ -26,7 +26,7 @@ download the file and save it in macro directory:
 
  <https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/Section/MacroSection.py> 
 
-## How to use: {#how_to_use}
+## How to use: 
 
 1.  Select two shapes to compute section between
 2.  In FreeCAD menu: Macro → Macros\... → double-click MacroSection.py . A new object will be created.

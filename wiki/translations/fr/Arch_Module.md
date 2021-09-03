@@ -79,7 +79,7 @@ Ces outils permettent la création d\'objets architecturaux.
     -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Matériaux](Arch_MultiMaterial/fr.md) : crée un objet multi-matériaux (couches) et l\'attribue aux objets sélectionnés, le cas échéant {{Version/fr|0.17}}
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Feuille de données](Arch_Schedule/fr.md) : permet de collecter dans une feuille de calcul toutes sortes de données.
 
-### Outils de transformation {#outils_de_transformation}
+### Outils de transformation 
 
 Ce sont des outils de modification d\'objets architecturaux.
 
@@ -112,7 +112,7 @@ Ce sont des outils supplémentaires, pour vous aider dans des tâches spécifiqu
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Arch Préférences](Arch_Preferences/fr.md) : préférences pour l\'aspect par défaut des murs, des structures, des barres d\'armature, des fenêtres, des escaliers, des panneaux, des tuyaux, des grilles et axes.
 
-### Formats de fichiers {#formats_de_fichiers}
+### Formats de fichiers 
 
 -   [IFC](Arch_IFC/fr.md) : Industry Foundation Classes
 -   [DAE](Arch_DAE/fr.md) : Format de maillage Collada

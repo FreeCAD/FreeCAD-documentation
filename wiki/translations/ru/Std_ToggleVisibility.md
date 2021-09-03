@@ -23,10 +23,10 @@
     -   Будьте осторожны при использовании **Ctrl**+**A** для выделения всех объектов в древе проекта. Так как эта комбинация выделяет подэлементы [тел PartDesign](PartDesign_Body/ru.md) и объекты, используемые для [булевых операций в Part](Part_Boolean/ru.md). В большинстве случаев их надо оставлять невидимыми.
     -   Объекты, используемые для [булевых операций в Part](Part_Boolean/ru.md) так же выделяются при использовании **Ctrl**+**A** в окне трёхмерного вида.
 2.  Есть несколько способов вызвать команду:
-    -   Выбрать {{MenuCommand|Вид → <img src="images/Std_ToggleVisibility.svg" width=16px> Видимость}} из меню.
-    -   Выбрать {{MenuCommand|Вид → Видимость → <img src="images/Std_ToggleVisibility.svg" width=16px> Видимость}} из меню.
-    -   Выбрать {{MenuCommand|<img src="images/Std_ToggleVisibility.svg" width=16px> Видимость}} из контекстного меню в древе проекта. Эта опция не доступна в [верстаке PartDesign](PartDesign_Workbench/ru.md).
-    -   Выбрать {{MenuCommand|<img src="images/Std_ToggleVisibility.svg" width=16px> Видимость}} из контекстного меню окна трёхмерного вида.
+    -   Выбрать **Вид → <img src="images/Std_ToggleVisibility.svg" width=16px> Видимость** из меню.
+    -   Выбрать **Вид → Видимость → <img src="images/Std_ToggleVisibility.svg" width=16px> Видимость** из меню.
+    -   Выбрать **<img src="images/Std_ToggleVisibility.svg" width=16px> Видимость** из контекстного меню в древе проекта. Эта опция не доступна в [верстаке PartDesign](PartDesign_Workbench/ru.md).
+    -   Выбрать **<img src="images/Std_ToggleVisibility.svg" width=16px> Видимость** из контекстного меню окна трёхмерного вида.
     -   Используя **пробел** на клавиатуре.
 
 ## Примечания

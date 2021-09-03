@@ -15,7 +15,7 @@ The command only works for point clouds whose points, when viewed from a certain
 
 1.  The command assumes that the view direction of the point cloud is parallel to the Z axis of the global coordinate system. If this is not the case: adjust the point cloud object\'s **Placement** accordingly.
 2.  Select the point cloud object.
-3.  Select the {{MenuCommand|Points → Structured point cloud}} option from the menu.
+3.  Select the **Points → Structured point cloud** option from the menu.
 
 ## Proprietà
 

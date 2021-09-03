@@ -7,7 +7,7 @@
 
 Diese Seite zeigt, wie erweiterte Funktionalität in Python einfach erstellt werden kann. In dieser Übung werden wir ein neues Werkzeug bauen, das eine Linie zeichnet. Dieses Werkzeug kann dann mit einem FreeCAD Befehl verknüpft werden, und dieser Befehl kann von jedem Element in der Oberfläche, wie z.B. einem Menüpunkt oder einer Werkzeugleistenschaltfläche, aufgerufen werden.
 
-## Das Hauptskript {#das_hauptskript}
+## Das Hauptskript 
 
 Zuerst werden wir ein Skript schreiben, das unsere gesamte Funktionalität enthält. Dann werden wir dieses in einer Datei speichern und in FreeCAD importieren, so dass alle von uns geschriebenen Klassen und Funktionen in FreeCAD zur Verfügung stehen. Starte deinen bevorzugten Codeeditor und gib die folgenden Zeilen ein:
 
@@ -41,7 +41,7 @@ class line:
 
 {{Top}}
 
-## Detaillierte Erklärung {#detaillierte_erklärung}
+## Detaillierte Erklärung 
 
 
 ```python
@@ -163,7 +163,7 @@ self.view.removeEventCallbackPivy(SoMouseButtonEvent.getClassTypeId(), self.call
 
 Da wir mit unserer Linie fertig sind, entfernen wir den Rückrufmechanismus hier. {{Top}}
 
-## Testen des Skripts {#testen_des_skripts}
+## Testen des Skripts 
 
 Nun speichern wir unser Skript an einem Ort, an dem der FreeCAD Python Interpreter es finden kann. Beim Import von Modulen wird der Interpreter an folgenden Stellen suchen: die Python Installationspfade, das FreeCAD bin Verzeichnis und alle FreeCAD Modulverzeichnisse. Die beste Lösung ist also, ein neues Verzeichnis in einem der FreeCAD [Mod Verzeichnisse](Installing_more_workbenches/de.md) anzulegen und unser Skript darin zu speichern. Erstellen wir zum Beispiel ein Verzeichnis \"MyScripts\" und speichern unser Skript als \"exercise.py\".
 
@@ -197,7 +197,7 @@ exercise.line()
 
 Klicke zwei Mal in der 3D Ansicht, und Bingo, hier ist unsere Linie! Um es zu wiederholen, tippe einfach nochmal `exercise.line()`. {{Top}}
 
-## Registrierung des Skripts {#registrierung_des_skripts}
+## Registrierung des Skripts 
 
 Nun, damit unser neues Linienwerkzeug wirklich cool ist, sollte es einen Knopf auf der Oberfläche haben, damit wir nicht immer all dieses Zeug tippen müssen. Am einfachsten ist es, unser neues MyScripts Verzeichnis in einen vollständige FreeCAD Arbeitsbereich zu verwandeln. Es ist einfach, alles was benötigt wird ist eine Datei namens **InitGui.py** in deinem MyScripts Verzeichnis zu speichern. Die Datei InitGui.py enthält die Anweisungen zum Erstellen eines neuen Arbeitsbereichs und fügt unser neues Werkzeug hinzu. Außerdem müssen wir auch unseren Übungscode ein wenig umwandeln, damit das line()-Werkzeug als offizieller FreeCAD Befehl erkannt wird. Beginnen wir damit, eine InitGui.py-Datei zu erstellen, und schreiben wir den folgenden Code hinein:
 
@@ -255,7 +255,7 @@ Was wir hier gemacht haben, ist die Umwandlung unserer `__init__()` Funktion in 
 
 Das war\'s, anschließend müssen wir nur noch FreeCAD neu starten und schon haben wir einen schönen neuen Arbeitsbereich mit unserem brandneuen Linienwerkzeug! {{Top}}
 
-## Also willst du mehr? {#also_willst_du_mehr}
+## Also willst du mehr? 
 
 Wenn Dir diese Übung gefallen hat, warum versuchst Du nicht, dieses kleine Werkzeug zu verbessern? Es gibt viele Dinge, die man tun kann, wie zum Beispiel
 

@@ -14,7 +14,7 @@ The GuiCommand is named in a standard way: *ModuleName\_CommandName* e.g., \"[Ba
 
 If the documentation is not finished use [Template:UnfinishedDocu](Template:UnfinishedDocu.md).
 
-## Help page {#help_page}
+## Help page 
 
 Every GuiCommand has to have a help page. The help page is hosted on the FreeCAD documentation wiki. The article has the same name as the GuiCommand, e.g. [Draft ShapeString](Draft_ShapeString.md).
 
@@ -33,13 +33,13 @@ Every GuiCommand has to have an icon. We use the [Tango icon set](http://tango-p
 
 All icons should be created in [SVG](SVG.md) format with a vector image application, such as [Inkscape](http://inkscape.org). This makes it easier to apply changes and derive additional icons in the same application space.
 
-### Icons color coding chart {#icons_color_coding_chart}
+### Icons color coding chart 
 
 <img alt="" src=images/Colorchart.png  style="width:200px;">
 
 We try as much as possible to respect this chart, so the color of the icons has a direct meaning.
 
-## Quality requirements {#quality_requirements}
+## Quality requirements 
 
 
 {{VeryImportantMessage|The [Complete Workbench](Complete_Workbench.md) is deprecated, it no longer holds each of the commands in FreeCAD.}}

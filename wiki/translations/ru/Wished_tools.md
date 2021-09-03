@@ -2,7 +2,7 @@
 
 Если вы являетесь пользователем САПР и хотели бы добавить что-то здесь, не стесняйтесь редактировать, мы будем рады узнать ваше мнение здесь.
 
-## 2D drawing {#d_drawing}
+## 2D drawing 
 
 -   ~~**Line**: Draws a line~~ - see [Draft Line](Draft_Line.md).
 -   **Construction Line**: Draws a line at any angle infinitely - should be easy if possible in coin. To be investigated
@@ -45,7 +45,7 @@
 -   **Thread** - normative correct simplified presentation of cross section in Techdraw according to ISO 6410--1 standard
 -   ~~**Fillet** - PartDesign workbench: elimination of rounding problems~~
 
-## Mesh modeling {#mesh_modeling}
+## Mesh modeling 
 
 -   **Primitives**: Cubes, spheres etc. - present but no toolbar button
 -   **Convert Part objects into meshes** - present but no toolbar button
@@ -54,7 +54,7 @@
 -   **Remove faces of meshes** - present but no toolbar button
 -   **Boolean operations**: Union, subtract and intersect meshes - present but no toolbar button
 
-## Part modeling {#part_modeling}
+## Part modeling 
 
 -   ~~**Primitives**~~
 -   **Mesh conversion** to Part shapes
@@ -62,12 +62,12 @@
 -   ~~**Extrude flat shapes**~~
 -   ~~**Fillet edges of shapes**~~
 
-## Parametric modeling {#parametric_modeling}
+## Parametric modeling 
 
 -   **Custom properties for all objects**: so scripts and exporting to other software can carry additional information
 -   ~~**Python objects**~~: 100% python-scripted objects - see [Scripted objects](Scripted_objects.md).
 
-## Architecture modeling {#architecture_modeling}
+## Architecture modeling 
 
 -   Wall
 -   Window

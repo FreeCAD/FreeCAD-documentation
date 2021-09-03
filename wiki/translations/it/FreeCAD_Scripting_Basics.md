@@ -3,7 +3,7 @@
 
 {{TOCright}}
 
-## Script Python in FreeCAD {#script_python_in_freecad}
+## Script Python in FreeCAD 
 
 FreeCAD è stato costruito fin dall\'inizio per essere totalmente controllato tramite gli script Python.
 
@@ -15,7 +15,7 @@ Se non conoscete ancora Python, vi consigliamo di cercare qualche tutorial su in
 
 Python è un linguaggio molto facile da imparare, soprattutto perché può essere eseguito all\'interno di un interprete, dove sia i comandi semplici come i programmi completi, possono essere eseguiti \"al volo\", cioè senza bisogno di compilare nulla.
 
-FreeCAD incorpora un interprete Python. Se non vedete la finestra denominata \"Console Python\" della figura successiva, potete attivarla con {{MenuCommand|Visualizza → Pannelli → Console Python}} e mostrare l\'interprete.
+FreeCAD incorpora un interprete Python. Se non vedete la finestra denominata \"Console Python\" della figura successiva, potete attivarla con **Visualizza → Pannelli → Console Python** e mostrare l\'interprete.
 
 ### L\'interprete
 
@@ -52,7 +52,7 @@ Cliccando col tasto destro nella finestra dell\'interprete, si rendono disponibi
 
 <div class="mw-translate-fuzzy">
 
-### Aiuti di Python {#aiuti_di_python}
+### Aiuti di Python 
 
 Nel menu *Aiuto* di FreeCAD, trovate una voce denominata *Documentazione automatica per i moduli Python*, essa apre una finestra del browser contenente una documentazione completa, generata in tempo reale, di tutti i moduli Python a disposizione dell\'interprete di FreeCAD, compreso Python e i moduli interni di FreeCAD, i moduli installati dal sistema e i moduli aggiuntivi di FreeCAD.
 
@@ -63,14 +63,14 @@ La voce \"Python Help\" fornisce un collegamento rapido alla sezione wiki \"User
 
 </div>
 
-In the FreeCAD {{MenuCommand|Help}} menu, you\'ll find an entry labeled {{MenuCommand|Automatic python modules documentation}}, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry {{MenuCommand|Python scripting documentation}} will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section.
+In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python modules documentation**, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry **Python scripting documentation** will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section.
 
 [top](#top.md)
 
 
 <div class="mw-translate-fuzzy">
 
-## Moduli incorporati (Built-in) {#moduli_incorporati_built_in}
+## Moduli incorporati (Built-in) 
 
 Dato che FreeCAD è stato progettato per essere eseguito senza una interfaccia grafica (GUI), quasi tutte le sue funzionalità sono divise in due parti: la funzionalità di base, denominata *App*, e la funzionalità grafica, denominata *Gui*. Per questo motivo i due principali moduli incorporati nel nostro FreeCAD sono chiamati App e Gui. Questi due moduli sono accessibili, rispettivamente con il nome \"FreeCAD\" e \"FreeCADGui\", anche tramite script eseguiti al di fuori dell\'interprete.
 
@@ -110,7 +110,7 @@ I due strumenti di esplorazione disponibili (il browser delle classi e l\'aiuto 
 
 <div class="mw-translate-fuzzy">
 
-### Gli oggetti App e gli oggetti GUI {#gli_oggetti_app_e_gli_oggetti_gui}
+### Gli oggetti App e gli oggetti GUI 
 
 Come abbiamo detto, in FreeCAD, tutto viene separato tra nucleo e rappresentazione. Ciò vale anche per gli oggetti 3D.
 
@@ -206,7 +206,7 @@ Se non abbiamo GUI (ad esempio, siamo in modalità riga di comando), l\'ultima r
 
 <div class="mw-translate-fuzzy">
 
-### Gli oggetti del documento {#gli_oggetti_del_documento}
+### Gli oggetti del documento 
 
 In FreeCAD tutto il vostro lavoro si trova all\'interno dei documenti.
 
@@ -266,7 +266,7 @@ myView = Gui.ActiveDocument.ActiveView
 
 <div class="mw-translate-fuzzy">
 
-## Utilizzo di moduli aggiuntivi {#utilizzo_di_moduli_aggiuntivi}
+## Utilizzo di moduli aggiuntivi 
 
 I moduli FreeCAD e FreeCADGui sono responsabili esclusivamente della creazione e della gestione degli oggetti nel documento di FreeCAD.
 
@@ -290,7 +290,7 @@ The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and man
 
 <div class="mw-translate-fuzzy">
 
-#### Creare degli oggetti {#creare_degli_oggetti}
+#### Creare degli oggetti 
 
 Ogni modulo tratta la propria geometria in un modo specifico, però in genere tutti i moduli possono creare degli oggetti nel documento.
 
@@ -363,7 +363,7 @@ Part.show(cube)
 
 <div class="mw-translate-fuzzy">
 
-### Modificare gli oggetti {#modificare_gli_oggetti}
+### Modificare gli oggetti 
 
 La modifica di un oggetto si esegue nello stesso modo:
 
@@ -392,7 +392,7 @@ myPart.Shape = biggercube
 
 <div class="mw-translate-fuzzy">
 
-### Interrogare gli oggetti {#interrogare_gli_oggetti}
+### Interrogare gli oggetti 
 
 È sempre possibile sapere di che tipo è un oggetto con:
 

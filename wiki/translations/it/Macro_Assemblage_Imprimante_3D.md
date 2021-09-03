@@ -24,7 +24,7 @@ Copiare la macro e incollarla nella console Python
 
 Per interrompere l\'animazione digitare: **animation.stop()**
 
-## Il File {#il_file}
+## Il File 
 
 [00\_assemblage\_total.fcstd](http://blog.passion-tarn-et-garonne.info/public/3D/pb-avec-freecad/00-assemblage-total.fcstd)
 

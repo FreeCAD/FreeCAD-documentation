@@ -17,7 +17,7 @@ Narzędzie **<img src="images/PartDesign_Pad.svg" width=16px> [Projekt Części:
 
 **Note:** {{VersionMinus/pl|0.16}} Jeśli wybrany szkic jest przyporządkowany do powierzchni czołowej istniejącej bryły lub innej funkcji projektowania części, wyciągnięcie zostanie do niej połączone.
 
-## Jak używać {#jak_używać}
+## Jak używać 
 
 1.  Wybierz szkic do wyciągnięcia. **Note:** W wersji {{VersionPlus/pl|0.17}} i wyższej można alternatywnie użyć powierzchni czołowej na istniejącej bryle.
 2.  Naciśnij przycisk**<img src="images/PartDesign_Pad.svg" width=16px> '''Wyciągnij przez obrót'''**.
@@ -38,46 +38,46 @@ Opcja **Typ** pozwala na wybranie pięciu różnych wariantów wyciągnięcia.
 
 Podaj długość wyciągnięcia. Domyślnie, kształt wyciągany jest poza bryłę, ale może to zostać zmienione wybierając opcje **Odwrócony**. Wytłoczenia występują [normalnie](http://en.wikipedia.org/wiki/Surface_normal) do płaszczyzny szkicu definiującego. Za pomocą opcji **Symmetryczna do płaszczyzny** wyciągnięcie zostanie przemieszczone tak, aby płaszczyzna szkicu znajdowała się pośrodku zadanej długości. Wymiary poprzedzone znakiem minus nie są akceptowalne. Zamiast tego należy użyć opcji \"Odwrócony\".
 
-#### Dwa wymiary {#dwa_wymiary}
+#### Dwa wymiary 
 
 Pozwala na podanie drugiej długości, odpowiadającej wyciągnięciu obiektu w przeciwnym kierunku. Parametr może zostać ponownie modyfikowany gdy zaznaczysz opcję **Odwrócony**.
 
-#### Do ostatniego {#do_ostatniego}
+#### Do ostatniego 
 
 Wyciągnięcie będzie wytłaczane aż do ostatniej ściany podparcia w kierunku wytłaczania. Jeśli podparcie nie wystąpi, pojawi się komunikat o błędzie.
 
-#### Do pierwszego {#do_pierwszego}
+#### Do pierwszego 
 
 Wyciągnięcie będzie wytłaczane aż do pierwszej ściany podparcia w kierunku wytłaczania. Jeśli podparcie nie wystąpi, pojawi się komunikat o błędzie.
 
-#### Do powierzchni {#do_powierzchni}
+#### Do powierzchni 
 
 Wyciągnięcie będzie wytłaczane do powierzchni, którą można wybrać klikając. Jeśli podpora nie wystąpi, żaden wybór nie zostanie zaakceptowany.
 
-### Długość {#długość_1}
+### Długość 
 
 Określa długość wyciągnięcia. Może być używanych wiele jednostek, niezależnie od ustawionych w programie preferencji użytkownika (m, cm, mm, nm, ft lub \', in lub \").
 
-### Użyj określonego kierunku {#użyj_określonego_kierunku}
+### Użyj określonego kierunku 
 
 
 {{Version/pl|0.19}}
 
 Jeśli opcja ta jest zaznaczona, kierunek wyciągnięcia nie będzie normalnym wektorem szkicu, ale wektorem podanym. Długość wyciągnięcia jest jednak ustawiona zgodnie z kierunkiem wektora normalnego.
 
-### Długość wzdłuż wektora normalnego szkicu {#długość_wzdłuż_wektora_normalnego_szkicu}
+### Długość wzdłuż wektora normalnego szkicu 
 
 Jeśli opcja jest zaznaczona, długość wyciągnięcia jest mierzona wzdłuż kierunku wektora normalnego szkicu, w przeciwnym razie wzdłuż kierunku niestandardowego. {{Version/pl|0.20}}
 
-### Odsunięcie od ściany {#odsunięcie_od_ściany}
+### Odsunięcie od ściany 
 
 Odsunięcie od powierzchni, na której ma się kończyć wyciągnięcie. Opcja ta jest dostępna tylko gdy **Typ** jest ustawiony na **Do ostatniego**, **Do pierwszego** lub *\'Do ściany*.
 
-### Symetrycznie do płaszczyzny {#symetrycznie_do_płaszczyzny}
+### Symetrycznie do płaszczyzny 
 
 Zaznacz pole wyboru, aby rozmieścić pośrodku zadaną długość wyciągnięcia, po obu stronach płaszczyzny szkicu.
 
-### W kierunku przeciwnym {#w_kierunku_przeciwnym}
+### W kierunku przeciwnym 
 
 Opcja Reversed odwraca kierunek wyciągnięcia.
 

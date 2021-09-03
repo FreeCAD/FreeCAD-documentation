@@ -6,7 +6,7 @@ Exemple de [création de boîte de dialogue](Dialog_creation/fr.md) avec [PySide
 
 Dans cet exemple, l\'interface entière est définie en [Python](Python/fr.md). Bien que cela soit possible pour les petites interfaces, pour les interfaces plus importantes, la recommandation est de charger les fichiers {{FileName|.ui}} créés directement dans le programme. Voir [Création d\'une interface avec des fichiers UI](Interface_creation_with_UI_files/fr.md) pour plus d\'informations.
 
-## Méthode 1 {#méthode_1}
+## Méthode 1 
 
 Un exemple d\'une boîte de dialogue complète avec ses connections.
 
@@ -274,7 +274,7 @@ La commande **UserAppData** donne le chemin utilisateur **AppHomePath** donne le
 self.pushButton.setLayoutDirection(QtCore.Qt.RightToLeft) # This command reverses the direction of the button
 ```
 
-## Méthode 2 {#méthode_2}
+## Méthode 2 
 
 Une autre méthode pour afficher une fenêtre, ici en créant un fichier **QtForm.py** qui renferme l\'entête du programme (module appelé avec **import QtForm**), et d\'un deuxième module qui renferme le code de la fenêtre tous ces accessoires, et votre code (le module appelant).
 

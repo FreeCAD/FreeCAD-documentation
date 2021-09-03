@@ -10,7 +10,7 @@
 
 Un ensemble de divers outils composés.
 
-## Types de composés {#types_de_composés}
+## Types de composés 
 
 -   <img alt="" src=images/Part_Compound.svg  style="width:32px;"> [Créer un composé](Part_Compound/fr.md) : Crée un composé avec les objets sélectionnés.
 -   <img alt="" src=images/Part_ExplodeCompound.svg  style="width:32px;"> [Eclater le composé](Part_ExplodeCompound/fr.md) : Outil pour décomposer un objet composé.

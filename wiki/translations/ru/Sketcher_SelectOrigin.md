@@ -17,7 +17,7 @@ Selects the origin of a sketch.
 ## Usage
 
 1.  Enter edit mode of sketch.
-2.  Choose {{MenuCommand|Sketch → Sketcher tools → <img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Select origin}} from the top menu.
+2.  Choose **Sketch → Sketcher tools → <img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Select origin** from the top menu.
 3.  The origin of the sketch will be selected.
 
 

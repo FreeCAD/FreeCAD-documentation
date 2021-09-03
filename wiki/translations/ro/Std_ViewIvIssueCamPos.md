@@ -35,7 +35,7 @@ Exemplu de locație a camerei în vizualizarea Raport:
 
 ## Usage
 
-1.  Select the {{MenuCommand|View → Stereo → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Issue camera position}} option from the menu.
+1.  Select the **View → Stereo → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Issue camera position** option from the menu.
 
 ## Notes
 

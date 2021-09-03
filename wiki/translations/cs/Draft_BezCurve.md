@@ -38,8 +38,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_BezCurve.svg" width=16px> [Draft BezCurve](Draft_BezCurve.md)** button.
-    -   Select the {{MenuCommand|Drafting → Bézier tools → <img src="images/Draft_BezCurve.svg" width=16px> Bézier curve}} option from the menu.
-2.  The {{MenuCommand|Bézier curve}} task panel opens. See [Options](#Options.md) for more information.
+    -   Select the **Drafting → Bézier tools → <img src="images/Draft_BezCurve.svg" width=16px> Bézier curve** option from the menu.
+2.  The **Bézier curve** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 4.  Pick additional points in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 5.  Press **Esc** or the **Close** button to finish the command.
@@ -98,8 +98,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the initial value of filled mode: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible}}. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Vlastnosti
 

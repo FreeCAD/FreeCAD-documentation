@@ -10,7 +10,7 @@ for Linux : \"\"
 
  
 
-## English template {#english_template}
+## English template 
 
  
 

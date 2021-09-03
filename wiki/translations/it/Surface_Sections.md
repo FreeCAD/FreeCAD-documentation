@@ -38,7 +38,7 @@ Lo strumento <img alt="" src=images/Surface_Sections.svg  style="width:16px;"> [
 
 -    **Right mouse button**: open the context menu and select **Remove**, or press **Del** in the keyboard, to remove the currently selected edge in the list.
 
--    {{MenuCommand|Drag}}: drag the currently selected element in the list in order to change the order in which it will be processed; the list is processed from top to bottom.
+-    **Drag**: drag the currently selected element in the list in order to change the order in which it will be processed; the list is processed from top to bottom.
 
 -   Press **Cancel** or **Esc** to abort the current operation.
 
@@ -68,7 +68,7 @@ Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), Surface S
 
 -    **Control Points|Bool**: il valore predefinito è `FALSE`; se impostato su `TRUE`, mostrerà una sovrapposizione con i punti di controllo della superficie.
 
-## Twisting of the surface {#twisting_of_the_surface}
+## Twisting of the surface 
 
 The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that \"twists\" on itself, one of the edges may need its list of vertices in the reverse order. See the information in **<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [GeomFillSurface](Surface_GeomFillSurface.md)** for a more complete explanation.
 

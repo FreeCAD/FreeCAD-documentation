@@ -20,20 +20,20 @@ Un solutore dei vincoli calcola la quantità di vincoli applicati alla geometria
 
 *Uno schizzo base, completamente vincolato‎.*
 
-## Nozioni di base sugli schizzi vincolati {#nozioni_di_base_sugli_schizzi_vincolati}
+## Nozioni di base sugli schizzi vincolati 
 
 Per spiegare come funziona il modulo Sketcher, è utile fare un confronto con il **modo tradizionale** di disegnare.
 
-##### Disegno tradizionale {#disegno_tradizionale}
+##### Disegno tradizionale 
 
 Il modo tradizionale di disegno CAD è derivato dal vecchio [tavolo da disegno](http://en.wikipedia.org/wiki/Drawing_board).
 [Le viste ortogonali 2D](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) sono disegnate manualmente e finalizzate alla produzione di disegni tecnici (noti anche come dettagli o particolari). Gli oggetti sono disegnati esattamente con le loro forme, misure o dimensioni previste. Per tracciare una linea orizzontale lunga 100 mm a partire dal punto (0,0), si attiva lo strumento linea, si fa clic sullo schermo o si inserisce le coordinate (0,0) per il primo punto, poi si fa un secondo clic o si inserisce il secondo punto di coordinate (100,0). Oppure, si costruisce una linea base senza riguardo alla sua posizione e in seguito la si sposta. Dopo aver disegnato le geometrie si aggiungono le dimensioni.
 
-##### Schizzo vincolato {#schizzo_vincolato}
+##### Schizzo vincolato 
 
 Lo strumento Sketcher si allontana da questa logica. Non è più necessario disegnare gli oggetti esattamente come sono desiderati, perché è possibile ridefinirli in seguito tramite i vincoli. È possibile disegnare liberamente gli oggetti e dopo, fintanto che non vengono vincolati, modificarli. Sostanzialmente, essi sono **flottanti**, quindi si possono spostare, allungare, scalare, e così via. Questo permette una grande flessibilità nel processo di progettazione.
 
-#### Cosa sono i vincoli? {#cosa_sono_i_vincoli}
+#### Cosa sono i vincoli? 
 
 Invece delle dimensioni, i vincoli vengono utilizzati per limitare i gradi di libertà di un oggetto. Ad esempio, una linea senza vincoli ha **4 gradi di libertà** (DOF Degrees Of Freedom): essa può essere spostata orizzontalmente o verticalmente, può essere allungata, e può essere ruotata.
 
@@ -45,7 +45,7 @@ Ci sono due tipi di vincoli: geometrici e dimensionali. Essi sono descritti nell
 
 I vincoli sono controllati dal [solutore](#Il_solutore_dei_vincoli.md)
 
-#### Uso corretto dell\'ambiente Sketcher {#uso_corretto_dellambiente_sketcher}
+#### Uso corretto dell\'ambiente Sketcher 
 
 Il modulo Sketcher non è pensato per produrre disegni dettagliati in 2D.
 Dopo che gli schizzi sono stati utilizzati per generare una forma solida vengono automaticamente nascosti. I vincoli (la quotatura dei vincoli e i segni grafici di vincolo) sono visibili solo in modalità **Modifica sketch**.
@@ -58,7 +58,7 @@ Se serve solo produrre delle viste 2D per la stampa e non si intende creare dei 
 
 </div>
 
-## Flusso di lavoro per gli schizzi {#flusso_di_lavoro_per_gli_schizzi}
+## Flusso di lavoro per gli schizzi 
 
 Uno Sketch è sempre in 2 dimensioni (2D). Per creare un solido, viene creato prima lo schizzo 2D di una singola area chiusa e poi essa viene estrusa o rivoluzionata per aggiungere la terza dimensione, creando un solido 3D dallo schizzo 2D.
 
@@ -74,7 +74,7 @@ Quando uno schizzo è completamente vincolato, le funzioni dello schizzo diventa
 
 </div>
 
-## Gli strumenti {#gli_strumenti}
+## Gli strumenti 
 
 Gli strumenti dell\'Ambiente Sketcher si trovano nel menu che appare quando si carica questo ambiente.
 
@@ -188,11 +188,11 @@ Gli strumenti per creare gli oggetti.
 
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Costruzione](Sketcher_ToggleConstruction.md): Attiva o disattiva la geometria dello schizzo dalla o nella modalità di costruzione. La geometria di costruzione è mostrata in blu e viene presa in considerazione solo nella modalità di modifica dello schizzo.
 
-### Vincoli dello Schizzo {#vincoli_dello_schizzo}
+### Vincoli dello Schizzo 
 
 I vincoli sono utilizzati per stabilire le relazioni tra gli elementi del disegno, e per bloccare il disegno lungo l\'asse verticale e l\'asse orizzontale. Alcuni vincoli richiedono dei [Vincoli di supporto](Sketcher_helper_constraint/it.md).
 
-#### Vincoli geometrici {#vincoli_geometrici}
+#### Vincoli geometrici 
 
 Questi vincoli non sono associati a valori numerici.
 
@@ -216,7 +216,7 @@ Questi vincoli non sono associati a valori numerici.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Fissa](Sketcher_ConstrainBlock/it.md): blocca il movimento di un bordo, ovvero impedisce ai suoi vertici di cambiare la loro posizione corrente. Dovrebbe essere particolarmente utile per fissare la posizione delle B-Splines. Vedere la [discussione su Block Constraint nel forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
-#### Vincoli dimensionali {#vincoli_dimensionali}
+#### Vincoli dimensionali 
 
 Vincoli associati a dati. Per questi vincoli si possono usare le [espressioni](Expressions/it.md). I dati possono essere prelevati da un [foglio di calcolo](Spreadsheet_Workbench/it.md).
 
@@ -240,13 +240,13 @@ Le icone blu di questi vincoli si riferiscono alle funzioni introdotte nella ver
 
 </div>
 
-#### Vincoli speciali {#vincoli_speciali}
+#### Vincoli speciali 
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Rifrazione](Sketcher_ConstrainSnellsLaw/it.md): Crea un vincolo di rifrazione tra due linee per simulare secondo la Legge di Snell un raggio di luce che attraversa un\'interfaccia.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Allineamento interno](Sketcher_ConstrainInternalAlignment/it.md): Allinea gli elementi selezionati alla forma selezionata, ad esempio una linea da convertire in asse maggiore di una ellisse.
 
-#### Strumenti per i vincoli {#strumenti_per_i_vincoli}
+#### Strumenti per i vincoli 
 
 I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vincoli:
 
@@ -254,7 +254,7 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Attiva/disattiva il vincolo](Sketcher_ToggleActiveConstraint/it.md): Abilita o disabilita un vincolo già inserito. {{Version/it|0.19}}
 
-### Strumenti dello Sketcher {#strumenti_dello_sketcher}
+### Strumenti dello Sketcher 
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Seleziona il risolutore DOFs](Sketcher_SelectElementsWithDoFs/it.md): Evidenzia in verde la geometria con gradi di libertà (DOFs), cioè non completamente vincolata.
 
@@ -294,7 +294,7 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Elimina tutti i vincoli](Sketcher_DeleteAllConstraints/it.md): Elimina tutti i vincoli dallo schizzo.
 
-### Strumenti Sketcher B-spline {#strumenti_sketcher_b_spline}
+### Strumenti Sketcher B-spline 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Mostra/nascondi i gradi della B-spline](Sketcher_BSplineDegree/it.md)
 
@@ -316,7 +316,7 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Diminuisci la molteplicità](Sketcher_BSplineDecreaseKnotMultiplicity/it.md)
 
-### Spazio virtuale dello Sketcher {#spazio_virtuale_dello_sketcher}
+### Spazio virtuale dello Sketcher 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg‎  style="width:32px;"> [Cambia spazio virtuale](Sketcher_SwitchVirtualSpace/it.md): Permette di nascondere i vincoli e renderli nuovamente visibili.
 
@@ -324,7 +324,7 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferences\...](Sketcher_Preferences/it.md): Preferenze disponibili per l\'ambiente Sketcher.
 
-## Migliori pratiche {#migliori_pratiche}
+## Migliori pratiche 
 
 Ogni utente CAD, nel corso del tempo, sviluppa un proprio modo di lavorare, ma ci sono alcuni criteri generali che è utile seguire.
 

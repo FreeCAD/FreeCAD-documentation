@@ -18,7 +18,7 @@ Ce guide est une liste de raccourcis pour faire rapidement faire fonctionner un 
 -   [PySide/PyQt Tutorial](http://www.pythoncentral.io/series/python-pyside-pyqt-tutorial/) at PythonCentral.io
 -   [PySide 1.0.7 Reference](http://srinikom.github.io/) at Srinikom.github.io (note this is a reference, not a tutorial)
 
-## Déclaration d\'importation {#déclaration_dimportation}
+## Déclaration d\'importation 
 
 PySide n\'est pas chargé avec Python par défaut, il doit être importé avant de l\'utiliser. La commande suivante: 
 ```python
@@ -28,7 +28,7 @@ from PySide import QtGui
 
 Les déclarations d\'importation ne sont pas répétées dans les extraits ci-dessous. On suppose que cela se fait au début dans chaque cas.
 
-## Exemple simple {#exemple_simple}
+## Exemple simple 
 
 L\'interaction la plus simple avec PySide est de présenter à l\'utilisateur un message qu\'il ne peut que accepter : 
 ```python
@@ -37,7 +37,7 @@ reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 
 ![](images/PySideScreenSnapshot5.jpg )
 
-## Oui ou Non {#oui_ou_non}
+## Oui ou Non 
 
 L\'interaction simple suivante consiste à demander de répondre oui ou non : 
 ```python
@@ -56,7 +56,7 @@ if reply == QtGui.QMessageBox.No:
 
 ![](images/PySideScreenSnapshot6.jpg )
 
-## Zone de texte {#zone_de_texte}
+## Zone de texte 
 
 L\'extrait de code suivant demande à l\'utilisateur un texte - notez qu\'il peut s\'agir de n\'importe quelle touche du clavier : 
 ```python
@@ -78,7 +78,7 @@ anInteger = int(userInput) # to convert to an integer from a string representati
 aFloat = float(userInput) # to convert to a float from a string representation
 ```
 
-## Plus de 2 boutons {#plus_de_2_boutons}
+## Plus de 2 boutons 
 
 L\'exemple final du niveau débutant est de savoir comment construire une boîte de dialogue avec un nombre arbitraire de boutons. Cet exemple est trop complexe par programme pour pouvoir être invoqué à partir d\'une seule instruction Python. Par conséquent, il devrait être à la page suivante, qui est un exemple de PySide Intermédiaire. Mais d\'un autre côté, c\'est souvent tout ce qui est nécessaire sans entrer dans des définitions d\'interface graphique complexes, donc le code est placé à la fin de cette page PySide Débutant plutôt que le début de la page PySide Intermédiaire suivante. 
 ```python

@@ -21,15 +21,15 @@ La commande Draft Formes à partir de texte n\'est pas destinée aux annotations
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_ShapeString.svg" width=16px> [Créer une forme à partir d'une chaîne de texte...](Draft_ShapeString/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Forme à partir de texte}} dans le menu.
+    -   Sélectionnez l\'option **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Forme à partir de texte** dans le menu.
     -   Utilisez le raccourci clavier : **S** puis **S**.
-2.  Le panneau de tâches {{MenuCommand|ShapeString}} s\'ouvre.
+2.  Le panneau de tâches **ShapeString** s\'ouvre.
 3.  Cliquez sur un point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées.
 4.  Vous pouvez également appuyer sur le bouton **Réinitialiser le point** pour réinitialiser le point à l\'origine.
-5.  Saisissez une {{MenuCommand|Chaîne}}.
-6.  Spécifiez la {{MenuCommand|Hauteur}}.
+5.  Saisissez une **Chaîne**.
+6.  Spécifiez la **Hauteur**.
 7.  Pour sélectionner une police, effectuez l\'une des opérations suivantes :
-    -   Saisissez un chemin de fichier dans la zone de saisie {{MenuCommand|Fichier de police}}.
+    -   Saisissez un chemin de fichier dans la zone de saisie **Fichier de police**.
     -   Appuyez sur le bouton **...** et sélectionnez un fichier.
     -   Appuyez sur le bouton **OK** pour terminer la commande.
 
@@ -55,7 +55,7 @@ La commande Draft Formes à partir de texte n\'est pas destinée aux annotations
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Le fichier de police par défaut peut être modifié dans les préférences : {{MenuCommand|Édition → Préférences... → Draft → Textes et cotes → Fichier de police par défaut de Forme de texte}}. Voir [Draft Préférences](Draft_Preferences/fr.md).
+-   Le fichier de police par défaut peut être modifié dans les préférences : **Édition → Préférences... → Draft → Textes et cotes → Fichier de police par défaut de Forme de texte**. Voir [Draft Préférences](Draft_Preferences/fr.md).
 
 ## Propriétés
 

@@ -23,7 +23,7 @@ A parametric Ellipsoid solid is available from the Create Primitives dialogue in
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
 2.  Access the Ellipsoid command several ways:
     -   Through the Create Primitives dialogue, pressing the <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Primitives](Part_Primitives.md) button located in the Part toolbar
-    -   Using the {{MenuCommand|Part → [Create primitives](Part_Primitives.md) → Ellipsoid}} entry in the Part menu
+    -   Using the **Part → [Create primitives](Part_Primitives.md) → Ellipsoid** entry in the Part menu
 
 ## Properties
 

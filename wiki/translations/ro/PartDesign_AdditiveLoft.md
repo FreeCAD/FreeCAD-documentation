@@ -20,12 +20,12 @@
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
 
-### Dialog-based workflow {#dialog_based_workflow}
+### Dialog-based workflow 
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +40,7 @@
 
 </div>
 
-### Selection-based workflow {#selection_based_workflow}
+### Selection-based workflow 
 
 
 <small>(v0.19)</small> 
@@ -98,7 +98,7 @@
 
 </div>
 
-## Known Issues {#known_issues}
+## Known Issues 
 
 -   Some failure modes will turn the part black
 

@@ -50,7 +50,7 @@ Remember that thread shapes take a lot of memory, and having just one thread in 
 
 <div class="mw-translate-fuzzy">
 
-### Metodo 0. Procurarsi una filettatura dalla libreria delle parti {#metodo_0._procurarsi_una_filettatura_dalla_libreria_delle_parti}
+### Metodo 0. Procurarsi una filettatura dalla libreria delle parti 
 
 Utilizzare i modelli prodotti da altri utenti è semplice e fa risparmiare tempo. Consultare la [Macro BOLTS](Macro_BOLTS/it.md), che è un\'interfaccia per l\'inserimento di parti standard dalla libreria BOLTS.
 
@@ -70,7 +70,7 @@ In particular, two resources are recommended that can be installed from the [Add
 
 <div class="mw-translate-fuzzy">
 
-### Metodo 1. Usare le macro {#metodo_1._usare_le_macro}
+### Metodo 1. Usare le macro 
 
 C\'è la famosa [macro Screw Maker](Macro_screw_maker1_2/it.md), creata da ulrich1a, e un intero [Fasteners Workbench](http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/) creato da shaise ([link to GitHub](https://github.com/shaise/FreeCAD_FastenersWB)). Queste macro hanno la possibilità di generare un filetto. Esse creano dei profili di filettatura standard (triangolare-ish).
 
@@ -81,14 +81,14 @@ C\'è la famosa [macro Screw Maker](Macro_screw_maker1_2/it.md), creata da ulric
 
 -   In the past the stand-alone [Screw Maker macro](Macro_screw_maker1_2.md), by ulrich1a, was used to create individual bolts, screws, and washers. This is now deprecated. The Fasteners workbench, by shaise, includes the screw maker macro completely, together with a toolbar to select the right component.
 
-## Method 2. Fasteners Workbench {#method_2._fasteners_workbench}
+## Method 2. Fasteners Workbench 
 
 Use the external [Fasteners workbench](Fasteners_Workbench.md) to add/attach various fasteners to parts. This workbench can be installed with the [Addon manager](Std_AddonMgr.md).
 
 
 <div class="mw-translate-fuzzy">
 
-### Metodo 2. Simulare accatastando dei dischi {#metodo_2._simulare_accatastando_dei_dischi}
+### Metodo 2. Simulare accatastando dei dischi 
 
 Questo è un ottimo modo per visualizzare le filettature, pur mantenendo semplice la geometria.
 
@@ -108,7 +108,7 @@ L\'idea è quella di creare una filettatura non elicoidale (cioè che sia solo l
 <img alt="" src=images/T13_01_Threads_comparison_fake_real.png  style="width:" height="300px;"> 
 *Left: simple bolt with a fake, non-helical thread. Right: simple bolt with a real helical thread. When 3D printing is not needed, a simulated thread is often sufficient for visualization.*
 
-### Revolving sawtooth profile {#revolving_sawtooth_profile}
+### Revolving sawtooth profile 
 
 1.  Click on **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
 2.  Click on **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign New sketch](PartDesign_NewSketch.md)**. Select {{Value|XZ_Plane}}.
@@ -121,15 +121,15 @@ L\'idea è quella di creare una filettatura non elicoidale (cioè che sia solo l
 <img alt="" src=images/T13_03_Threads_Sawtooth_revolution_1.png  style="width:" height="300px;"> <img alt="" src=images/T13_04_Threads_Sawtooth_revolution_2.png  style="width:" height="300px;"> 
 *Sectional view of the resulting non-helical thread produced by revolving the sawtooth profile around the vertical axis.*
 
-### Stacking discs {#stacking_discs}
+### Stacking discs 
 
 1.  Repeat the first two steps from the previous section.
 2.  Draw a closed sketch with the required inner diameter {{Value|10 mm}}, outer diameter around {{Value|12.6 mm}}, and pitch {{Value|3 mm}}, but draw only a single tooth of the sawtooth.
 3.  Select the sketch, then click on **<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Revolution](PartDesign_Revolution.md)**. Select {{Value|Vertical sketch axis}}, and press **OK**.
-4.  Select the {{Value|Revolution}}, then click on **<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Linear pattern](PartDesign_LinearPattern.md)**. Select {{Value|Vertical sketch axis}}. For a fake thread with a pitch of {{Value|3 mm}}, set the {{MenuCommand|Length}} to {{Value|3}}, and {{MenuCommand|Occurrences}} to {{Value|2}}, then press **OK**. This will create two discs, one on top of the other.
-5.  You can add more discs by increasing the value of {{MenuCommand|Occurrences}} in the linear pattern, and by raising the {{MenuCommand|Length}}, which is the total length of the fake thread.
+4.  Select the {{Value|Revolution}}, then click on **<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Linear pattern](PartDesign_LinearPattern.md)**. Select {{Value|Vertical sketch axis}}. For a fake thread with a pitch of {{Value|3 mm}}, set the **Length** to {{Value|3}}, and **Occurrences** to {{Value|2}}, then press **OK**. This will create two discs, one on top of the other.
+5.  You can add more discs by increasing the value of **Occurrences** in the linear pattern, and by raising the **Length**, which is the total length of the fake thread.
 
-The {{MenuCommand|Length}} and {{MenuCommand|Occurrences}} are related. If the length is too large, but the number of occurrences is not high enough, you will have disconnected discs, and the Body computation will fail, as the resulting object must always be a [single contiguous solid](PartDesign_Body.md). For example, to get a total height of {{Value|30 mm}}, set {{MenuCommand|Length}} to {{Value|27 mm}} and {{MenuCommand|Occurrences}} to {{Value|10}}.
+The **Length** and **Occurrences** are related. If the length is too large, but the number of occurrences is not high enough, you will have disconnected discs, and the Body computation will fail, as the resulting object must always be a [single contiguous solid](PartDesign_Body.md). For example, to get a total height of {{Value|30 mm}}, set **Length** to {{Value|27 mm}} and **Occurrences** to {{Value|10}}.
 
 If you wish, you may add a **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)** with a diameter equal to the inner diameter of the discs, and as high as the total thread height. This will join all discs into a single solid, thus guaranteeing that there will not be disconnected discs.
 
@@ -142,7 +142,7 @@ If you wish, you may add a **<img src=images/PartDesign_AdditiveCylinder.svg sty
 
 <div class="mw-translate-fuzzy">
 
-### Metodo 3. Sweep di un profilo verticale. {#metodo_3._sweep_di_un_profilo_verticale.}
+### Metodo 3. Sweep di un profilo verticale. 
 
 #### Idea
 
@@ -155,14 +155,14 @@ L\'idea è piuttosto semplice: disegnare il profilo del filetto, e quindi esegui
 
 A true thread consists of a closed profile sweeping a solid along a helical path.
 
-1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Part Workbench](Part_Workbench.md), click on **[16px"> <img src=images/Part_Helix.svg style="width:Part Primitives](Part_Primitives.md)** to create a **[16px"> [Part Helix](Part_Helix.md)**. Give it the appropriate values for {{MenuCommand|Pitch}} {{Value|3 mm}}, {{MenuCommand|Height}} {{Value|23 mm}}, and {{MenuCommand|Radius}} {{Value|10 mm}}.
+1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Part Workbench](Part_Workbench.md), click on **[16px"> <img src=images/Part_Helix.svg style="width:Part Primitives](Part_Primitives.md)** to create a **[16px"> [Part Helix](Part_Helix.md)**. Give it the appropriate values for **Pitch** {{Value|3 mm}}, **Height** {{Value|23 mm}}, and **Radius** {{Value|10 mm}}.
 2.  Move to the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:PartDesign Workbench](PartDesign_Workbench.md), and click on **[16px"> [PartDesign Body](PartDesign_Body.md)**.
 3.  Click on **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign New sketch](PartDesign_NewSketch.md)**. Select {{Value|XZ_Plane}}.
 4.  Draw a closed sketch with the required profile for the thread teeth, normally a triangular shape. In this case we will use a height of {{Value|2.9 mm}}, which is slightly smaller than the {{Value|3.0 mm}} pitch used for the helix path. The profile must not create any self intersections when moved along the helix, neither between the turns nor in the middle, thus the sketch as shown for stacking disks cannot be used.
-5.  Select the sketch, then click on **<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additive pipe](PartDesign_AdditivePipe.md)**. In {{MenuCommand|Path to sweep along}}, click on {{MenuCommand|Object}}, and choose the helix object previously created. Then change {{MenuCommand|Orientation mode}} to {{Value|Frenet}} so that the profile sweeps the path without twisting; then press **OK**.
+5.  Select the sketch, then click on **<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additive pipe](PartDesign_AdditivePipe.md)**. In **Path to sweep along**, click on **Object**, and choose the helix object previously created. Then change **Orientation mode** to {{Value|Frenet}} so that the profile sweeps the path without twisting; then press **OK**.
 6.  When the dialog asks for a reference, choose {{Value|Create cross-reference}}.
 7.  The helical coil is created, but there is no central body or shaft.
-8.  Click on **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)** with the appropriate {{MenuCommand|Radius}} {{Value|10 mm}} and {{MenuCommand|Height}} {{Value|29.9 mm}} to touch the rest of the helical thread and automatically fuse to it.
+8.  Click on **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)** with the appropriate **Radius** {{Value|10 mm}} and **Height** {{Value|29.9 mm}} to touch the rest of the helical thread and automatically fuse to it.
 9.  Additional boolean operations are needed to shape up the abrupt ends of the coil. For example, you can use additive features to provide a head to the screw, and a tip.
 
 <img alt="" src=images/T13_08_Threads_Helical_thread_profile.png  style="width:" height="300px;"> <img alt="" src=images/T13_09_Threads_Helical_thread_path.png  style="width:" height="300px;"> 
@@ -178,10 +178,10 @@ A true thread consists of a closed profile sweeping a solid along a helical path
 
 This process can also be done with the tools of the [Part Workbench](Part_Workbench.md).
 
-1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Part Workbench](Part_Workbench.md), click on **[16px"> <img src=images/Part_Helix.svg style="width:Part Primitives](Part_Primitives.md)** to create a **[16px"> [Part Helix](Part_Helix.md)**. Give it the appropriate values for {{MenuCommand|Pitch}} {{Value|3 mm}}, {{MenuCommand|Height}} {{Value|23 mm}}, and {{MenuCommand|Radius}} {{Value|10 mm}}.
+1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Part Workbench](Part_Workbench.md), click on **[16px"> <img src=images/Part_Helix.svg style="width:Part Primitives](Part_Primitives.md)** to create a **[16px"> [Part Helix](Part_Helix.md)**. Give it the appropriate values for **Pitch** {{Value|3 mm}}, **Height** {{Value|23 mm}}, and **Radius** {{Value|10 mm}}.
 2.  In this case, you don\'t need a **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Sketcher_NewSketch.svg style="width:PartDesign Body](PartDesign_Body.md)**. Switch to the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md), then click **[16px"> [Sketcher New sketch](Sketcher_NewSketch.md)**, and choose the global XZ plane.
 3.  Then return to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Sweep.svg style="width:Part Workbench](Part_Workbench.md), and use **[16px"> [Part sweep](Part_Sweep.md)**.
-4.  Select the appropriate sketch from {{MenuCommand|Available profile}} and click the arrow to pass it to {{MenuCommand|Selected profiles}}.
+4.  Select the appropriate sketch from **Available profile** and click the arrow to pass it to **Selected profiles**.
 5.  Click **Sweep path**, and choose all edges of the existing helix in the [3D view](3D_view.md). Click **Done**.
 6.  Make sure to tick {{CheckBox|TRUE|Create solid}} and {{CheckBox|TRUE|Frenet}}. Obtaining a solid is the key to be able to perform [Part Boolean](Part_Boolean.md) operations with the resulting coil, otherwise only a surface will be produced.
 7.  Click **OK** to exit the dialog and create the coil.
@@ -207,7 +207,7 @@ Questo genera la spira del filetto, senza il supporto o il foro. Per effettuare 
 
 <div class="mw-translate-fuzzy">
 
-#### Trucchi per avere successo {#trucchi_per_avere_successo}
+#### Trucchi per avere successo 
 
 
 </div>
@@ -263,7 +263,7 @@ Suggerimento 2. Mantenere il filetto corto (pochi giri). I filetti lunghi tendon
 
 <div class="mw-translate-fuzzy">
 
-#### Pro e contro {#pro_e_contro}
+#### Pro e contro 
 
 \+ Modo molto naturale di definire il profilo di una filettatura
 
@@ -289,9 +289,9 @@ Suggerimento 2. Mantenere il filetto corto (pochi giri). I filetti lunghi tendon
 
 <div class="mw-translate-fuzzy">
 
-### Metodo 4. Sweep di un profilo orizzontale {#metodo_4._sweep_di_un_profilo_orizzontale}
+### Metodo 4. Sweep di un profilo orizzontale 
 
-#### Idea {#idea_1}
+#### Idea 
 
 
 </div>
@@ -327,7 +327,7 @@ Per ottenere un profilo standard a dente di sega, si devono fondere in un wire u
 
 <div class="mw-translate-fuzzy">
 
-#### Generare il profilo {#generare_il_profilo}
+#### Generare il profilo 
 
 Non è facile capire qual è il profilo orizzontale necessario per ottenere un determinato profilo verticale. Per i casi semplici, come quello triangolare o trapezoidale, può essere costruito manualmente. In alternativa, può essere costruito creando un filetto corto con il metodo 3, e poi ricavando una sua sezione con una operazione [Parte comune](Part_Common/it.md) tra una faccia piana orizzontale e il filetto.
 
@@ -339,7 +339,7 @@ Figuring out the horizontal profile to obtain a certain vertical profile is not 
 
 <div class="mw-translate-fuzzy">
 
-##### Profilo per filetti triangolari {#profilo_per_filetti_triangolari}
+##### Profilo per filetti triangolari 
 
 1.  Creare una spirale di Archimede nel piano XY.
     1.  Impostare il numero di giri a 0.5,
@@ -361,7 +361,7 @@ Figuring out the horizontal profile to obtain a certain vertical profile is not 
 
 <div class="mw-translate-fuzzy">
 
-##### Profilo per una sezione arbitraria {#profilo_per_una_sezione_arbitraria}
+##### Profilo per una sezione arbitraria 
 
 <img alt="" src=images/thread-by-horz-profile-profileMake.png  style="width:1000px;">
 
@@ -408,7 +408,7 @@ I passaggi sono anche mostrati in azione in questo video di Gaurav Prabhudesai: 
 
 <div class="mw-translate-fuzzy">
 
-#### Pro e contro {#pro_e_contro_1}
+#### Pro e contro 
 
 \+ Lo sweep crea la filettatura pronta per l\'uso direttamente su una forma solida.
 
@@ -432,7 +432,7 @@ I passaggi sono anche mostrati in azione in questo video di Gaurav Prabhudesai: 
 
 <div class="mw-translate-fuzzy">
 
-### Metodo 5. Loft tra facce elicoidali estruse {#metodo_5._loft_tra_facce_elicoidali_estruse}
+### Metodo 5. Loft tra facce elicoidali estruse 
 
 
 </div>
@@ -440,7 +440,7 @@ I passaggi sono anche mostrati in azione in questo video di Gaurav Prabhudesai: 
 
 <div class="mw-translate-fuzzy">
 
-#### Idea {#idea_2}
+#### Idea 
 
 
 </div>

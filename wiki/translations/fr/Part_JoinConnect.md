@@ -23,7 +23,7 @@ Outil de connexion pour joindre deux objets creux (par exemple deux tuyaux). Peu
     L\'ordre de sélection n\'est pas important car l\'action de l\'outil est symétrique. Il suffit de sélectionner un élément de chaque objet (par ex. leurs faces). Vous pouvez également sélectionner un composé contenant toutes les formes à connecter, par ex. [Draft Réseau orthogonal](Draft_OrthoArray/fr.md).
 2.  Lancez la commande Part Connecter des objets de plusieurs manières:
     -   Appuyez sur le bouton <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Connecter des objets](Part_JoinConnect/fr.md) dans la barre d\'outils Part
-    -   Utilisez l\'entrée {{MenuCommand|Pièce → Joindre → Connecter des objets}} dans le menu Part
+    -   Utilisez l\'entrée **Pièce → Joindre → Connecter des objets** dans le menu Part
 
 Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et le résultat de l\'intersection est affiché dans la [vue 3D](3D_view/fr.md).
 

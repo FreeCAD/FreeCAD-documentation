@@ -9,9 +9,9 @@
 
 L\'ambiente <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> Ship serve per creare strutture comuni di navi.
 
-## Gli strumenti {#gli_strumenti}
+## Gli strumenti 
 
-### Progettazione navale {#progettazione_navale}
+### Progettazione navale 
 
 
 <div class="mw-translate-fuzzy">

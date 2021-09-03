@@ -1,13 +1,13 @@
 
 
-## A propos {#a_propos}
+## A propos 
 
 
 {{TOCright}}
 
 Doxygen est un outil populaire pour générer de la documentation à partir de sources C ++ annotées. Il prend également en charge d\'autres langages de programmation populaires tels que C\#, PHP, Java et Python. Visitez le [site Web Doxygen](http://www.doxygen.nl/) pour en savoir plus sur le système et consultez le [Manuel Doxygen](http://www.doxygen.nl/manual/index.html) pour plus d\'informations.
 
-## Doxygen et FreeCAD {#doxygen_et_freecad}
+## Doxygen et FreeCAD 
 
 Ce document fournit une brève introduction à Doxygen, en particulier comment il est utilisé dans FreeCAD pour documenter ses sources. Consultez la page [Documentation du code source](source_documentation/fr.md) pour obtenir des instructions sur la construction de la documentation FreeCAD, également hébergée en ligne sur le site Web [FreeCAD API](https://www.freecadweb.org/api/).
 
@@ -16,7 +16,7 @@ Ce document fournit une brève introduction à Doxygen, en particulier comment i
 
 *Flux général de travail pour produire une documentation du code source avec Doxygen.*
 
-## Doxygen avec du code C++ {#doxygen_avec_du_code_c}
+## Doxygen avec du code C++ 
 
 La section [Mise en route (étape 3)](http://www.doxygen.nl/manual/starting.html) du manuel Doxygen mentionne les méthodes de base pour documenter les sources.
 
@@ -30,7 +30,7 @@ Remarque:
 -   L\'avantage de la première option est qu\'il n\'est pas nécessaire de répéter le nom de l\'entité (fonction, membre, variable, classe ou espace de nom) car Doxygen analysera le code et extraira les informations pertinentes.
 -   Les fichiers ne peuvent être documentés qu\'en utilisant la deuxième option car il n\'y a aucun moyen de mettre un bloc de documentation avant un fichier. Bien sûr, les membres de fichiers (fonctions, variables, typedefs, définit) n\'ont pas besoin d\'une commande structurelle explicite. il suffit de mettre un bloc de documentation avant ou après eux fonctionnera très bien.
 
-### Premier style: bloc de documentation avant le code {#premier_style_bloc_de_documentation_avant_le_code}
+### Premier style: bloc de documentation avant le code 
 
 Généralement, vous souhaiterez documenter le code dans le fichier d\'en-tête, juste avant la déclaration de classe ou le prototype de fonction. Ceci permet de garder la déclaration et la documentation proches les unes des autres, il est donc facile de mettre à jour la dernière si le premier change.
 
@@ -50,7 +50,7 @@ void setName(const std::string&);
 void removeTaskWatcher(void);
 ```
 
-### Deuxième style: bloc de documentation ailleurs {#deuxième_style_bloc_de_documentation_ailleurs}
+### Deuxième style: bloc de documentation ailleurs 
 
 Sinon, la documentation peut être placée dans un autre fichier (ou dans le même fichier en haut ou en bas, ou ailleurs) à l\'écart de la déclaration de classe ou du prototype de fonction. Dans ce cas, vous aurez des informations dupliquées, une fois dans le fichier source réel et une fois dans le fichier de documentation.
 
@@ -197,7 +197,7 @@ Exemple `src/Gui/Command.cpp`
 
 </div>
 
-### Exemple du projet VTK {#exemple_du_projet_vtk}
+### Exemple du projet VTK 
 
 Ceci est un exemple tiré de [VTK](https://vtk.org/), une bibliothèque de visualisation 3D utilisée pour présenter des données scientifiques, telles que des résultats d\'éléments finis et des informations de nuage de points.
 
@@ -206,7 +206,7 @@ Une classe pour stocker une collection de coordonnées est définie dans un fich
 -   Code source de [vtkArrayCoordinates.h](https://github.com/Kitware/VTK/blob/master/Common/Core/vtkArrayCoordinates.h).
 -   Doxygen a produit de la documentation pour la classe [vtkArrayCoordinates](http://www.vtk.org/doc/nightly/html/classvtkArrayCoordinates.html).
 
-## Compiler la documentation {#compiler_la_documentation}
+## Compiler la documentation 
 
 <img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width:800px;">
 
@@ -288,7 +288,7 @@ Si vous écrivez de nouvelles classes, fonctions ou un tout nouveau atelier, il 
 
 Lorsque vous générez la documentation complète de FreeCAD, vous n'exécutez pas directement `doxygen`. Au lieu de cela, le projet utilise `cmake` pour configurer l\'environnement de construction, puis `make` déclenche la compilation des sources FreeCAD et de la documentation Doxygen; ceci est expliqué dans la page [Documentation du code source](source_documentation/fr.md).
 
-## Balisage Doxygen {#balisage_doxygen}
+## Balisage Doxygen 
 
 Toutes les commandes Doxygen [documentation des commandes](http://www.doxygen.nl/manual/commands.html) commencent par une barre oblique inversée `\` ou un symbole at `@`, selon vos préférences. Normalement, la barre oblique inversée `\` est utilisée mais il arrive que `@` soit utilisée pour améliorer la lisibilité.
 
@@ -333,7 +333,7 @@ Certains des mots-clés les plus couramment utilisés dans la documentation Free
 
 </div>
 
-## Support de Markdown {#support_de_markdown}
+## Support de Markdown 
 
 Depuis Doxygen 1.8, la syntaxe de Markdown est reconnue dans les blocs de documentation. Markdown est un langage de formatage minimaliste inspiré du courrier électronique en texte brut qui, semblable à la syntaxe wiki, se veut simple et lisible sans nécessiter un code compliqué comme celui que l\'on trouve dans les commandes HTML, LaTeX ou Doxygen. Markdown a gagné en popularité avec les logiciels libres, en particulier sur les plates-formes en ligne telles que Github, car il permet de créer de la documentation sans utiliser de code compliqué. Consultez la section [Markdown support](http://www.doxygen.nl/manual/markdown.html) du manuel Doxygen pour en savoir plus. Visitez le [site Web de Markdown](https://daringfireball.net/projects/markdown/) pour en savoir plus sur l\'origine et la philosophie de Markdown.
 
@@ -428,7 +428,7 @@ int func(int a, int b) { return a*b; }
 
 </div>
 
-## Analyse des blocs de documentation {#analyse_des_blocs_de_documentation}
+## Analyse des blocs de documentation 
 
 Le texte contenu dans un bloc de documentation spécial est analysé avant d'être écrit dans les fichiers de sortie HTML et LaTeX. Pendant l\'analyse, les étapes suivantes ont lieu:
 
@@ -440,7 +440,7 @@ Le texte contenu dans un bloc de documentation spécial est analysé avant d'êt
 -   Les liens sont créés lorsque certains motifs se trouvent dans le texte. Voir la section [Automatic link generation](http://www.doxygen.nl/manual/autolink.html) dans le manuel pour plus d\'informations.
 -   Les balises HTML figurant dans la documentation sont interprétées et converties en équivalents LaTeX pour la sortie LaTeX. Voir la section [HTML Commands](http://www.doxygen.nl/manual/htmlcmds.html) du manuel pour une explication de chaque balise HTML prise en charge.
 
-## Doxygen avec du code Python {#doxygen_avec_du_code_python}
+## Doxygen avec du code Python 
 
 Doxygen fonctionne mieux pour les langages de type statique tel que le C++. Cependant, il peut également créer une [documentation for Python files](http://www.doxygen.nl/manual/docblocks.html#pythonblocks).
 
@@ -454,7 +454,7 @@ Remarque:
 -   La première option est préférable pour se conformer à [PEP8](https://www.python.org/dev/peps/pep-0008/#documentation-strings), [PEP257](https://www.python.org/dev/peps/pep-0257/) et la plupart des directives de style pour l\'écriture de Python (voir [1](https://realpython.com/python-pep8/), [2](https://realpython.com/documenting-python-code/)). Il est recommandé d\'utiliser ce style si vous souhaitez produire des sources documentées à l\'aide de [Sphinx](https://www.sphinx-doc.org/en/master/) qui est un outil très courant pour documenter le code Python. Si vous utilisez ce style, Doxygen pourra extraire les commentaires textuellement mais les commandes spéciales Doxygen commençant par `\` ou `@` ne fonctionneront pas.
 -   La deuxième option n\'est pas dans le style Python traditionnel mais vous permet d\'utiliser les commandes spéciales de Doxygen telles que `\param` et `\var`.
 
-### Premier style: documentation de Python {#premier_style_documentation_de_python}
+### Premier style: documentation de Python 
 
 Dans l\'exemple suivant, une docstring est au début pour expliquer le contenu général de ce module (fichier). Ensuite, les docstrings apparaissent dans les définitions de méthode, de classe et de méthode. De cette façon, Doxygen extraira les commentaires et les présentera tels quels, sans modification.
 
@@ -487,7 +487,7 @@ class PyClass:
         pass
 ```
 
-### Deuxième style: bloc de documentation avant le code {#deuxième_style_bloc_de_documentation_avant_le_code}
+### Deuxième style: bloc de documentation avant le code 
 
 Dans l\'exemple suivant, les blocs de documentation commencent par un double signe de hachage `##`. On apparaît au début pour expliquer le contenu général de ce module (fichier). Ensuite, il y a des blocs avant les définitions de méthode, de classe et de méthode de classe, et un bloc après une variable de classe. De cette manière, Doxygen extraira la documentation, reconnaîtra les commandes spéciales `@package`, `@param` et `@var` et formatera le texte en conséquence. 
 ```python
@@ -524,7 +524,7 @@ class PyClass:
     #  a member variable
 ```
 
-## Compiler la documentation {#compiler_la_documentation_1}
+## Compiler la documentation 
 
 La compilation de la documentation se déroule de la même manière que [pour des sources C++](#Compiler_la_documentation.md). Si les deux fichiers Python, `pyexample_a.py` et `pyexample_b.py`, avec un style de commentaire distinct se trouvent dans le même répertoire, ils seront tous deux traités. 
 ```python
@@ -546,7 +546,7 @@ N  pyexample_b  Documentation for this module
    C  PyClass   Documentation for a class
 ```
 
-### Convertir du style à la Python en style à la Doxygen {#convertir_du_style_à_la_python_en_style_à_la_doxygen}
+### Convertir du style à la Python en style à la Doxygen 
 
 Dans l\'exemple précédent, le fichier Python commenté dans un [style à la Doxygen](#Deuxième_style:_bloc_de_documentation_avant_le_code.md) affiche des informations plus détaillées et un formatage pour ses classes, fonctions et variables. La raison en est que ce style permet à Doxygen d\'extraire les commandes spéciales commençant par `\` ou `@`, contrairement au [style à la Python](#Premier_style:_documentation_de_Python.md). Par conséquent, il serait souhaitable de convertir le style Pythonic en style Doxygen avant de compiler la documentation. Ceci est possible avec un programme auxiliaire Python appelé [doxypypy](https://github.com/Feneric/doxypypy). Ce programme est inspiré d'un programme plus ancien appelé [doxypy](https://github.com/Feneric/doxypy), qui prendrait le '''docstrings''' de Pythonic et les convertir en blocs de commentaires Doxygen commençant par un double hachage `##`. Doxypypy va plus loin que cela en analysant les docstrings et en extrayant des éléments d'intérêt tels que des variables et des arguments, voire des doctests (exemple de code dans les docstrings).
 
@@ -759,7 +759,7 @@ Here is a list of all documented namespaces with brief descriptions:
  N  pyexample_pythonic  
 ```
 
-### Convertir le style commentaire à la volée {#convertir_le_style_commentaire_à_la_volée}
+### Convertir le style commentaire à la volée 
 
 Dans l\'exemple précédent, la conversion des blocs de documentation a été effectuée manuellement avec un seul fichier source. Idéalement, nous souhaitons que cette conversion se fasse automatiquement, à la volée, avec un nombre quelconque de fichiers Python. Pour ce faire, la configuration Doxygen doit être modifiée en conséquence.
 
@@ -864,7 +864,7 @@ Utilisez-le également avec `find` pour effectuer des vérifications de docstrin
 find toplevel-source/ -name '*.py' -exec pydocstyle {} '+'
 ```
 
-## Documentation source avec Sphinx {#documentation_source_avec_sphinx}
+## Documentation source avec Sphinx 
 
 [Sphinx](https://www.sphinx-doc.org/en/master/) est le système le plus populaire pour documenter le code source Python. Cependant, étant donné que les fonctions principales et les ateliers de FreeCAD sont écrits en C++, il a été jugé que Doxygen est un meilleur outil de documentation pour ce projet.
 
@@ -874,7 +874,7 @@ Consultez le [Guide de démarrage rapide](https://breathe.readthedocs.io/en/late
 
 Voir cette réponse dans [Stackoverflow](https://stackoverflow.com/a/35377654) pour d\'autres alternatives permettant de documenter le code C++ et Python ensemble dans le même projet.
 
-## En relation {#en_relation}
+## En relation 
 
 -   [Documentation du code source](Source_Documentation/fr.md)
 -   [FreeCAD API website](https://www.freecadweb.org/api/)

@@ -28,8 +28,8 @@ La fermeture et l'ouverture des balises de traduction doivent entourer les image
 
 1.  Il existe plusieurs façons de lancer la commande:
     -   Appuyez sur le bouton **<img src="images/Std_Open.svg" width=16px> [Base ExampleCommandModel](GuiCommand_model/fr.md)**. (*Note de l\'éditeur:* Ceci utilise le modèle [Template:Button](Template:Button.md), il est nécessaire de créer un lien vers la commande comme indiqué dans cet exemple)
-    -   Sélectionnez l\'option {{MenuCommand|Menu → Sous-menu → <img src="images/Std_Open.svg" width=16px> Texte du menu de la commande}} dans le menu. (*Note de l\'éditeur:* Ceci utilise le modèle [Template: MenuCommand](Template:_MenuCommand.md))
-    -   Sélectionnez l\'option {{MenuCommand|Submenu → <img src="images/Std_Open.svg" width=16px> Texte du menu de la commande}} dans le menu contextuel [Vue en arborescence](Tree_view/fr.md) ou [Vue 3D](3D_view/fr.md). (*Note de l\'éditeur:* Ceci utilise également le modèle [Template:MenuCommand](Template:MenuCommand.md), toutes les commandes ne sont pas accessibles à partir d\'un menu contextuel)
+    -   Sélectionnez l\'option **Menu → Sous-menu → <img src="images/Std_Open.svg" width=16px> Texte du menu de la commande** dans le menu. (*Note de l\'éditeur:* Ceci utilise le modèle [Template: MenuCommand](Template:_MenuCommand.md))
+    -   Sélectionnez l\'option **Submenu → <img src="images/Std_Open.svg" width=16px> Texte du menu de la commande** dans le menu contextuel [Vue en arborescence](Tree_view/fr.md) ou [Vue 3D](3D_view/fr.md). (*Note de l\'éditeur:* Ceci utilise également le modèle [Template:MenuCommand](Template:MenuCommand.md), toutes les commandes ne sont pas accessibles à partir d\'un menu contextuel)
     -   Utilisez le raccourci clavier **F** puis **C** ou **Ctrl** + **Z**. (*Note de l\'éditeur:* Ceci utilise le modèle [Template:KEY](Template:KEY.md), toutes les commandes n\'ont pas de raccourci clavier)
 2.  Étapes détaillées au besoin. Certaines étapes peuvent nécessiter **Keyboard** pressions tandis que d\'autres peuvent nécessiter l\'utilisation de la souris pour cliquer sur un **Button**.
 3.  D\'autres commandes peuvent devoir être référencées / utilisées. Pensez à créer un lien vers leurs pages wiki avec leurs icônes **<img src="images/Draft_Line.svg" width=16px> [Draft Line](Draft_Line.md)** ou **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
@@ -89,7 +89,7 @@ Model = Base.makeExampleCommandModel(FreeCAD.Data1, FreeCAD.Data2)
 
 Optionnel.
 
-## Bloc sélectionnable {#bloc_sélectionnable}
+## Bloc sélectionnable 
 
 
 <languages/>
@@ -130,8 +130,8 @@ Closing and opening translate tags should surround images, and other f
 
 # There are several ways to invoke the command: 
 #* Press the **<img src="images/Std_Open.svg" width=16px> [Base ExampleCommandModel](GuiCommand_model.md)** button. (''Editor note:'' This uses the [[Template:Button]] template, it is necessary to link to the command as shown in this example)
-#* Select the {{MenuCommand|Menu → Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command}} option from the menu. (''Editor note:'' This uses the [[Template:MenuCommand]] template)
-#* Select the {{MenuCommand|Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command}} option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu. (''Editor note:'' This also uses the [[Template:MenuCommand]] template, not all commands can be accessed from a context menu)
+#* Select the **Menu → Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command** option from the menu. (''Editor note:'' This uses the [[Template:MenuCommand]] template)
+#* Select the **Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu. (''Editor note:'' This also uses the [[Template:MenuCommand]] template, not all commands can be accessed from a context menu)
 #* Use the keyboard shortcut **F** then **C** or **Ctrl**+**Z**. (''Editor note:'' This uses the [[Template:KEY]] template, not all commands have a keyboard shortcut)
 # Detailed steps as needed. Some steps may need **Keyboard** presses while others may require using the mouse to click on a **Button**.
 # Other commands may need to be referenced/used. Consider linking to their wiki pages along with their icons **<img src="images/Draft_Line.svg" width=16px> [Draft Line](Draft_Line.md)** or **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Pad](PartDesign_Pad.md)**.

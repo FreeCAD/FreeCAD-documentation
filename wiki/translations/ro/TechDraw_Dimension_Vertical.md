@@ -29,7 +29,7 @@ The Dimension Vertical tool adds a vertical dimension to a View. The dimension m
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați punctele sau muchiile care definesc măsurarea dvs.
 2.  Apăsați butonul **<img src="images/Dimension_Vertical.png" width=24px> [Dimension Vertical](TechDraw_Dimension_Vertical.md)

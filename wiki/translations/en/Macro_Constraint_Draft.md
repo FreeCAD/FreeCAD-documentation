@@ -61,7 +61,7 @@ else:
 
 }}
 
-## Rotation with FreeCAD tools {#rotation_with_freecad_tools}
+## Rotation with FreeCAD tools 
 
 ![Rotation with FreeCAD tools](images/Constraint_Draft01.gif )
 

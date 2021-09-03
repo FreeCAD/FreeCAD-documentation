@@ -10,15 +10,15 @@
 
 Après avoir installé FreeCAD sur votre système d\'exploitation ([Windows](Installing_on_Windows/fr.md), [Linux](Installing_on_Linux/fr.md) ou [Mac](Installing_on_Mac/fr.md)), vous pouvez envisager d\'installer un ou plusieurs des composants supplémentaires suivants.
 
-# Fichiers d\'aide {#fichiers_daide}
+# Fichiers d\'aide 
 
 La documentation hors ligne n\'est pas fournie avec tous les programmes d\'installation mais elle est disponible sous forme de package distinct. Consultez la page [Installation du fichier d\'aide](Installing_Helpfile/fr.md) pour plus d\'informations.
 
-# Ateliers externes {#ateliers_externes}
+# Ateliers externes 
 
 Outre les [ateliers](Workbenches/fr.md) par défaut fournis avec FreeCAD, il existe un bon nombre collection d\'[ateliers externes](External_workbenches/fr.md) utiles créés par les membres de la communauté.
 
-# Logiciels tiers {#logiciels_tiers}
+# Logiciels tiers 
 
 FreeCAD prend en charge plusieurs progiciels tiers prêts à l\'emploi. Dans de nombreux cas, tout ce que vous avez à faire est d\'installer le logiciel et une fois FreeCAD redémarré, il le trouvera automatiquement et pourra l\'utiliser. Cette section vise à fournir une liste de ces logiciels, ainsi que des informations sur leur utilisation dans FreeCAD et sur les sites de téléchargement.
 
@@ -40,7 +40,7 @@ FreeCAD prend en charge plusieurs progiciels tiers prêts à l\'emploi. Dans de 
 
 [OpenSCAD](https://www.openscad.org) est un modeleur 3D solide. L\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md) dépend de ce logiciel et l\'[atelier Mesh](Mesh_Workbench/fr.md) l\'utilise pour ses outils booléens. Il est également nécessaire pour l\'importation de fichiers SCAD avec l\'outil [Std Importer](Std_Import/fr.md).
 
-## Format des fichiers {#format_des_fichiers}
+## Format des fichiers 
 
 Tous les logiciels de cette section seront utilisés par les outils [Std Importer](Std_Import/fr.md) ou [Std Exporter](Std_Export/fr.md).
 
@@ -48,7 +48,7 @@ Tous les logiciels de cette section seront utilisés par les outils [Std Importe
 
 [CADExchanger](https://cadexchanger.com) est une application commerciale permettant d\'échanger divers formats de fichiers CAO. Il existe un [atelier externe](https://github.com/yorikvanhavre/CADExchanger) pour utiliser cette application dans FreeCAD.
 
-### Importateur de DXF {#importateur_de_dxf}
+### Importateur de DXF 
 
 FreeCAD a un importateur et un exportateur natifs pour les fichiers DXF, programmés en C ++. Actuellement, ils n\'implémentent pas toutes les fonctionnalités du format DXF. Pour ces fonctionnalités, l\'importateur et l\'exportateur Python hérités sont toujours disponibles. Ceux-ci nécessitent la bibliothèque Python [Draft-dxf-importer](https://github.com/yorikvanhavre/Draft-dxf-importer). Voir la page [FreeCAD et importation DXF](FreeCAD_and_DXF_Import/fr.md) pour plus d\'informations.
 
@@ -64,7 +64,7 @@ FreeCAD a un importateur et un exportateur natifs pour les fichiers DXF, program
 
 Le support de [LibreDWG](https://www.gnu.org/software/libredwg) est encore expérimental. Comme le convertisseur de fichiers ODA, il peut convertir des fichiers DWG en fichiers DXF que FreeCAD peut ensuite importer. Voir la page [FreeCAD et l\'importation DWG](FreeCAD_and_DWG_Import/fr.md) pour plus d\'informations.
 
-### Convertisseur de fichier ODA {#convertisseur_de_fichier_oda}
+### Convertisseur de fichier ODA 
 
 Le [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) est une application gratuite permettant de convertir entre plusieurs versions de fichiers DWG et DXF. FreeCAD nécessite ce convertisseur, ou LibreDWG, pour importer des fichiers DWG. Voir la page [FreeCAD et l\'importation DWG](FreeCAD_and_DWG_Import/fr.md) pour plus d\'informations.
 
@@ -82,11 +82,11 @@ Le [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter
 
 [LuxRender](https://luxcorerender.org/history/) est l\'un des deux moteurs de rendu supportés par l\'[atelier Raytracing](Raytracing_Workbench.md). En 2013, le projet a été redémarré pour devenir [LuxCoreRender](LuxCoreRender/fr.md) avec une réécriture majeure du code et des changements de compatibilité. Officiellement, l\'atelier Raytracing ne supporte que la version abandonnée de [LuxRender](LuxRender/fr.md). (la dernière version est la 1.6, 2017-12-28), tandis que le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render](https://github.com/FreeCAD/FreeCAD-render_atelier_Render.md) (prévu comme un futur remplacement de l\'atelier Raytracing) supporte plutôt LuxCoreRender et a abandonné le support de LuxRender. Quoi qu\'il en soit, même s\'il n\'est pas officiellement supporté, [LuxCoreRender](LuxCoreRender/fr.md) peut fonctionner avec l\'atelier Raytracing, il peut être intéressant de l\'essayer. Voir la page [LuxRender](LuxRender/fr.md) pour plus d\'informations et les instructions d\'installation et la page [LuxCoreRender](LuxCoreRender/fr.md) si vous voulez essayer un logiciel plus moderne.
 
-### POV-Ray {#pov_ray}
+### POV-Ray 
 
 [POV-Ray](https://www.povray.org) est un traceur de rayons bien connu qui peut rendre des images photoréalistes. Il s\'agit de l\'un des deux moteurs de rendu actuellement pris en charge par l\'[atelier Raytracing](Raytracing_Workbench/fr.md). Voir la page [POV-Ray](POV-Ray/fr.md) pour plus d\'informations et les instructions d\'installation.
 
-## Eléments finis {#eléments_finis}
+## Eléments finis 
 
 ### CalculiX
 
@@ -112,7 +112,7 @@ Le [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter
 
 [OpenFOAM](https://openfoam.org) est une collection de bibliothèques pour les simulations en dynamique des fluides (Computational Fluid Dynamics = CFD). OpenFOAM est utilisé par [atelier Cfd](Cfd_Workbench/fr.md) et [CfdOF](https://github.com/jaheyns/CfdOF) [ateliers externes](external_workbenches/fr.md).
 
-# Pages en relation {#pages_en_relation}
+# Pages en relation 
 
 -   [Import Export](Import_Export/fr.md)
 -   [Préférences d\'Import Export](Import_Export_Preferences/fr.md)

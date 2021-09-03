@@ -18,7 +18,7 @@ Instrumentul **Linear pattern** creează copii uniform distanțate dintr-o func�
 
 *Deasupra: Un bosaj în formă de L (B), realizat după un bosaj de bază (A, denumit și \"suport\"), este utilizat pentru un model repetitiv liniar. Rezultatul (C) este afișat în partea dreaptă.*
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -62,15 +62,15 @@ When creating a linear pattern feature, the **LinearPattern parameters** dialogu
 
 Atunci când creați o funcție de model repetitiv liniar, dialogul **LinearPattern parameters** oferă diferite modalități de specificare a direcției de repetare a modelului.
 
-#### Schița Axa Orizontală {#schița_axa_orizontală}
+#### Schița Axa Orizontală 
 
 Utilizează axa orizontală a schiței pentru direcție.
 
-#### Schiță Axa Verticală {#schiță_axa_verticală}
+#### Schiță Axa Verticală 
 
 Utilizează axa vertical a schiței pentru direcție.
 
-#### Schița Axa Normală {#schița_axa_normală}
+#### Schița Axa Normală 
 
 
 <div class="mw-translate-fuzzy">
@@ -80,15 +80,15 @@ v0.17 and above Uses the normal axis of the sketch for direction.
 
 </div>
 
-#### Selectare referințe\... {#selectare_referințe...}
+#### Selectare referințe\... 
 
 Vă permite să selectați fie o linie de referință, fie o margine a unui obiect, sau o linie din schiță care să fie utilizată pentru direcție.
 
-#### Schiță Axă Personalizată {#schiță_axă_personalizată}
+#### Schiță Axă Personalizată 
 
 Dacă schița care definește funcția care urmează să fie modelată conține, de asemenea, o linie de construcție (sau linii), atunci lista derulantă/contextuală va conține o axă de schiță personalizată pentru fiecare linie de construcție. Prima linie de construcție va fi etichetă \"Axă de schiță 0\".
 
-#### Baza (X/Y/Z) axa {#baza_xyz_axa}
+#### Baza (X/Y/Z) axa 
 
 
 <div class="mw-translate-fuzzy">

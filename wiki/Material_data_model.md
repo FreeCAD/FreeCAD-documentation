@@ -9,7 +9,7 @@ If you are not involved with the development discussed here:<br>
 
  
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 By storing material properties in an unified data structure, one aims to ease data retrieval that can be carried out in different contexts:
 
@@ -38,7 +38,7 @@ Through this material data model, it is proposed to offer a tool to manage easil
 
 Different kinds of data need to be managed to describe a material. A material data model is proposed below. Some examples of the data that can be stored within this structure are given as well.
 
-### Material data model {#material_data_model}
+### Material data model 
 
 In addition to classical \"string\" attributes like a name, and a family, 3 different specific kinds of information need to be managed to describe a material in FreeCAD.
 
@@ -116,7 +116,7 @@ Below is proposed the dictionary of standard properties. Feel free to add new on
 
  Notes: \"Mean Lankford coefficient is representative of the anisotropy of a thin metal sheet.\" \"The Hardening coefficient is representative of the hardening capacity of a metal. It appears in Hollomon formula that can relates cumulated plastic strain to stress.\"
 
-##### Example 1: Cost per tonne {#example_1_cost_per_tonne}
+##### Example 1: Cost per tonne 
 
 A first example is given below to show how a *Cost per tonne* property can be stored.
 
@@ -132,7 +132,7 @@ A first example is given below to show how a *Cost per tonne* property can be st
     -   meaning m\^(-3) (more details about unit & unit system specifications in [Units](Units.md) page)
 -   direction: not applicable
 
-##### Example 2: Yield strength {#example_2_yield_strength}
+##### Example 2: Yield strength 
 
 A second example is given below to show how the *Yield strength* property can be stored.
 
@@ -149,7 +149,7 @@ A second example is given below to show how the *Yield strength* property can be
 -   direction: \[ 1, 0, 0\] in global coordinate system
     -   given a steel sheet, this means that the *Yield strength* given is expressed in *x* direction, that can be for instance the rolling direction
 
-##### Example 3: Strain hardening {#example_3_strain_hardening}
+##### Example 3: Strain hardening 
 
 A third example is given below to show how the *Strain hardening* property can be stored. This is a more complex example because *Strain hardening* is represented by a serie of curves. The curves represent the stress evolution with respect to plastic strain. 3 curves have been obtained at different strain rates. All curves have been obtained at room temperature.
 
@@ -172,7 +172,7 @@ A third example is given below to show how the *Strain hardening* property can b
     -   meaning Pa (more details about unit & unit system specifications in [Units](Units.md) page)
 -   direction: not applicable
 
-#### Chemical composition {#chemical_composition}
+#### Chemical composition 
 
 \[Yet to be filled up\]
 
@@ -184,19 +184,19 @@ A third example is given below to show how the *Strain hardening* property can b
 
 A string where the user can add its own comments about the material.
 
-### Material data model applications: some examples {#material_data_model_applications_some_examples}
+### Material data model applications: some examples 
 
-##### Example 1: Brick masonry {#example_1_brick_masonry}
+##### Example 1: Brick masonry 
 
-###### Name {#name_1}
+###### Name 
 
 Brick masonry
 
-###### Family {#family_1}
+###### Family 
 
 ?string?
 
-###### Properties {#properties_1}
+###### Properties 
 
 -   *Weight*: 1kg/m³
 -   *Cost per cubic meter*: 1€/m³
@@ -207,21 +207,21 @@ Brick masonry
 -   *Fire resistance class*: ?string?
 -   *Thermal conductivity*: 1 W/mK
 
-###### Manufacturer {#manufacturer_1}
+###### Manufacturer 
 
 ?string?
 
-###### URL {#url_1}
+###### URL 
 
 ?string?
 
-###### Notes {#notes_1}
+###### Notes 
 
 Notes about maintainance, special cares to be taken, etc\...
 
 CSI/MasterFormat code (as there are several systems used in the industry which give to all material a special code, I propose to enter it in the notes, because it doesn\'t appear to me relevant create a specific properties that we won\'t be able to name exactly).
 
-## Next actions {#next_actions}
+## Next actions 
 
 -   Define a set of names for classical properties, that we can define in a dictionary (FreeCAD configuration file). These properties will most notably be re-used in other contexts like the FEM module.
 -   Fill up *Chemical composition* section.

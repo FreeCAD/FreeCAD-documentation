@@ -16,7 +16,7 @@ Esta herramienta crea chaflanes en los bordes seleccionados de un objeto. Se cre
 
 ## Utilización
 
--   Select a single edge, multiple edges or a face on an object, then start the tool either by clicking the button **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chamfer'''** or using the menu {{MenuCommand|PartDesign → Apply a dress-up feature → Chamfer}}. In case you selected a face all its edges are respected for chamfering.
+-   Select a single edge, multiple edges or a face on an object, then start the tool either by clicking the button **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chamfer'''** or using the menu **PartDesign → Apply a dress-up feature → Chamfer**. In case you selected a face all its edges are respected for chamfering.
 -   In the appearing [Task panel](Task_panel.md) you can define the chamber in 3 ways:
     -   **Equal distance**: The chamfer edges are equally distanced from the body edge.
     -   **Two distances**: The distances of the chamfer edge to the body edge are specified. The distance direction can be flipped. <small>(v0.19)</small> 
@@ -32,7 +32,7 @@ Esta herramienta crea chaflanes en los bordes seleccionados de un objeto. Se cre
 
 <div class="mw-translate-fuzzy">
 
-## DiseñoPieza Chaflán VS. Pieza Chaflán {#diseñopieza_chaflán_vs._pieza_chaflán}
+## DiseñoPieza Chaflán VS. Pieza Chaflán 
 
 \"El DiseñoPiezas chaflán no debe confundirse con su [Ambiente de trabajo piezas contraparte](Part_Chamfer/de.md)\". Aunque comparten el mismo icono, no son lo mismo, y no se usan de la misma manera. La principal diferencia es que DiseñoPiezas Chaflán crea una entrada de chaflán separada (seguida de un número secuencial si ya existen chaflanes) en el árbol de proyecto para el cuerpo actual. El Piezas chaflán se convierte en el padre del objeto al que se aplicó.
 

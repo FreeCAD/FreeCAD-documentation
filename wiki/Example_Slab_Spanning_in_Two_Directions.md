@@ -11,7 +11,7 @@
 
 The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 In this example we will create Slab Reinforcement for Slab spanning in two directions as shown in below figure.
 
@@ -101,7 +101,7 @@ In this example we will create Slab Reinforcement for Slab spanning in two direc
 
 The Slab Reinforcement tool can be used from the [Python](Python.md) console by using the following function:
 
-### Create Slab Reinforcementof Slab Spanning in Two directions {#create_slab_reinforcementof_slab_spanning_in_two_directions}
+### Create Slab Reinforcementof Slab Spanning in Two directions 
 
 To create Slab reinforcement spanning two direction as shown in above figures you can use makeSlabReinforcement function as follows:- 
 ```python
@@ -232,7 +232,7 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **facename**: selected face of structure. Default is None
 
-### Edition of Slab Reinforcement of Slab Spanning in Two directions {#edition_of_slab_reinforcement_of_slab_spanning_in_two_directions}
+### Edition of Slab Reinforcement of Slab Spanning in Two directions 
 
 You can change the properties of the Slab Reinforcement for slab spanning in two direction by using editSlabReinforcement function as follows
 

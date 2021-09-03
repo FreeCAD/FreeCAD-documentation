@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## 사용자 허브 {#사용자_허브}
+## 사용자 허브 
 
 
 </div>
@@ -24,9 +24,12 @@
 <img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Users hub](User_hub.md): 이 페이지는 FreeCAD 사용자에게 유용한 문서를 포함합니다 : 모든 workbench 목록, FreeCAD 응용 프로그램 설치 및 사용법, 자습서 및 시작하기에 필요한 자세한 명령 그리고 시작하는 데 필요한 모든 것.
 
 
-{{Clear}}
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub.md): 이 페이지는 고급 사용자와 Python 스크립트 작성에 관심있는 사람들을 위한 문서를 모읍니다. 또한 매크로 저장소, 설치 및 사용 방법에 대한 지침, 특정 요구 사항에 맞게 FreeCAD를 사용자 정의하는 방법에 대한 자세한 정보를 찾을 수 있습니다. {{Clear}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Developers hub](Developer_hub.md): 이 절은 개발자를 위한 재료를 포함합니다: FreeCAD를 직접 컴파일하는 방법, FreeCAD 소스 코드가 어떻게 구조화되고 어떻게 탐색하는지, 새로운 작업대를 개발하는 방법, 또는 자신의 응용 프로그램에 FreeCAD를 임베드하는 방법. {{Clear}}
+
+
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub.md): 이 페이지는 고급 사용자와 Python 스크립트 작성에 관심있는 사람들을 위한 문서를 모읍니다. 또한 매크로 저장소, 설치 및 사용 방법에 대한 지침, 특정 요구 사항에 맞게 FreeCAD를 사용자 정의하는 방법에 대한 자세한 정보를 찾을 수 있습니다. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Developers hub](Developer_hub.md): 이 절은 개발자를 위한 재료를 포함합니다: FreeCAD를 직접 컴파일하는 방법, FreeCAD 소스 코드가 어떻게 구조화되고 어떻게 탐색하는지, 새로운 작업대를 개발하는 방법, 또는 자신의 응용 프로그램에 FreeCAD를 임베드하는 방법. 
+
 
 
 </div>
@@ -36,7 +39,8 @@
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual은](Manual:Introduction.md) 또다른 이 위키에 보함된 정보를 나타내는 좀더 직선적인 방법입니다. 그것은 책처럼 읽도록 만들어졌으며 위의 허브에서 다른 많은 페이지로 부드럽게 소개 할 것입니다. 전자 책 버전뿐만 아니라 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) 형식으로 번역 사용할 수 있습니다. {{Clear}}
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual은](Manual:Introduction.md) 또다른 이 위키에 보함된 정보를 나타내는 좀더 직선적인 방법입니다. 그것은 책처럼 읽도록 만들어졌으며 위의 허브에서 다른 많은 페이지로 부드럽게 소개 할 것입니다. 전자 책 버전뿐만 아니라 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) 형식으로 번역 사용할 수 있습니다. 
+
 
 
 </div>
@@ -58,7 +62,7 @@
 
 ## 참여
 
-### 참여 방법 {#참여_방법}
+### 참여 방법 
 
 
 <div class="mw-translate-fuzzy">
@@ -76,7 +80,7 @@
 
 [도움 FreeCAD](Special:MyLanguage/help_FreeCAD.md) 페이지는 더 자세히 설명합니다. 2016년부터, FreeCAD는 [Google Summer of Code에](Google_Summer_of_Code.md) 참여합니다. [Contributors hub](Contributors_hub/ko.md) 페이지는 FreeCAD 프로젝트를 돕고 기여할 수있는 방법을 모으기위한 또 다른 노력입니다.
 
-### 소스 코드 {#소스_코드}
+### 소스 코드 
 
 
 <div class="mw-translate-fuzzy">
@@ -86,7 +90,7 @@ FreeCAD는 모든 플랫폼에서 [CMake](https://cmake.org/)를 사용하여 �
 
 </div>
 
-### 개발에 대하여 {#개발에_대하여}
+### 개발에 대하여 
 
 계획 중인 뉴스에 대한 [Development roadmap](Development_roadmap.md), [FreeCAD tracker](http://www.freecadweb.org/tracker)의 [Changelog](http://www.freecadweb.org/tracker/changelog_page.php) 및 [Roadmap](http://www.freecadweb.org/tracker/roadmap_page.php) 페이지, FreeCAD 코드베이스에 대한 더 많은 정보를 보려면 [Project statistics](http://www.ohloh.net/p/freecad)를 확인하십시오. 모든 개발 커뮤니케이션은 [forum](http://forum.freecadweb.org)에서 이루어지므로, 참여에 관심이 있으면 반드시 방문하세요.
 

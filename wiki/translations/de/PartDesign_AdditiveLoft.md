@@ -19,7 +19,7 @@
 
 ## Anwendung
 
-### Dialogbasierter Arbeitsablauf {#dialogbasierter_arbeitsablauf}
+### Dialogbasierter Arbeitsablauf 
 
 1.  Drücke die **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive Ausformung](PartDesign_AdditiveLoft/de.md)** Schaltfläche
 2.  Wähle im **Funktion auswählen** Dialogfeld eine Skizze, die als Basisprofilobjekt verwendet werden soll, und klicke auf {{Schaltfläche|OK}}.
@@ -28,7 +28,7 @@
 4.  Wähle die nächste Skizze in der [3D Ansicht](3D_view/de.md). Wiederhole diesen Vorgang, um weitere Skizzen in der Reihenfolge auszuwählen, in der sie eingefügt werden sollen. (Du kannst die Schnittreihenfolge jederzeit später im Ausformungs Dialogfeld ändern, indem du die Schnitte in der Liste an die gewünschte Position ziehst.<small>(v0.19)</small> )
 5.  Lege Optionen wenn notwendig fest und klicke auf **OK**.
 
-### Auswahlbasierter Arbeitsablauf {#auswahlbasierter_arbeitsablauf}
+### Auswahlbasierter Arbeitsablauf 
 
 
 <small>(v0.19)</small> 
@@ -87,7 +87,7 @@
 -   Die Ausformung wird in der Reihenfolge erzeugt, in der die Querschnitte hinzugefügt wurden.
 -   Wenn die Skizze eine innere Geometrie hat, d. h. die Ausformung soll Löcher haben, dann sollte die Reihenfolge, in der die Skizzengeometrie erstellt wird, für alle Schnitte gleich sein: Entweder beginnen alle Schnitte mit der inneren Geometrie oder sie beginnen alle mit der äußeren. Andernfalls kann ein ungültiger Ausformung erzeugt werden, bei dem sich Innen- und Außenwände kreuzen.
 
-## Bekannte Probleme {#bekannte_probleme}
+## Bekannte Probleme 
 
 -   Einige Fehlersituationen lassen das Teil schwarz werden
 

@@ -50,7 +50,7 @@ Para más información acerca de la compatibilidad de FreeCAD, hecha un vistazo 
 
 </div>
 
-### Acerca del proyecto FreeCAD {#acerca_del_proyecto_freecad}
+### Acerca del proyecto FreeCAD 
 
 El proyecto FreeCAD se inició en 2001, como se describe en su página [historia](history/es.md).
 

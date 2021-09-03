@@ -20,7 +20,7 @@ There might be other way to put the vertices on the plane but you get the idea h
 
 1.  Invoke the Fasteners BOM tool several ways:
     -   Press the <img alt="" src=images/Design456_3Point.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Design456 → 3Point}} entry in the Design456 menu
+    -   Use the **Design456 → 3Point** entry in the Design456 menu
 2.  When invoked the 3Point tool \....
 
 ## Limitations

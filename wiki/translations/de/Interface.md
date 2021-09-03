@@ -33,7 +33,7 @@ Wie viele andere Programmstücke enthält FreeCAD eine Standardmenüleiste und d
 
 ### Menüs
 
-Die [Standard Menüs](Standard_Menu/de.md) sind: {{StdMenu|[{{MenuCommand|Datei}}](Std_File_Menu/de.md)}}, {{StdMenu|[{{MenuCommand|Bearbeiten}}](Std_Edit_Menu/de.md)}}, {{StdMenu|[{{MenuCommand|Ansicht}}](Std_View_Menu/de.md)}}, {{StdMenu|[{{MenuCommand|Werkzeuge}}](Std_Tools_Menu/de.md)}}, {{StdMenu|[{{MenuCommand|Makro}}](Std_Macro_Menu/de.md)}}, {{StdMenu|[{{MenuCommand|Fenster}}](Std_Windows_Menu/de.md)}}, {{StdMenu|[{{MenuCommand|Hilfe}}](Std_Help_Menu/de.md)}}.
+Die [Standard Menüs](Standard_Menu/de.md) sind: {{StdMenu|[**Datei**](Std_File_Menu/de.md)}}, {{StdMenu|[**Bearbeiten**](Std_Edit_Menu/de.md)}}, {{StdMenu|[**Ansicht**](Std_View_Menu/de.md)}}, {{StdMenu|[**Werkzeuge**](Std_Tools_Menu/de.md)}}, {{StdMenu|[**Makro**](Std_Macro_Menu/de.md)}}, {{StdMenu|[**Fenster**](Std_Windows_Menu/de.md)}}, {{StdMenu|[**Hilfe**](Std_Help_Menu/de.md)}}.
 
 ### Werkzeugleisten
 

@@ -11,13 +11,13 @@
 
 Pour une analyse par éléments finis, la géométrie doit être discrétisée en [FEM Mesh](FEM_Mesh/fr.md). Cette commande utilise le programme [Gmsh](https://fr.wikipedia.org/wiki/Gmsh) (qui doit être installé sur le système) pour calculer le maillage.
 
-Gmsh est fourni avec les binaires d\'installation de FreeCAD. Sinon, vous pouvez l\'installer séparément de FreeCAD et ensuite utiliser le menu {{MenuCommand|Édition → Préférences → FEM → Gmsh}} pour définir le chemin vers le *gmsh.exe*.
+Gmsh est fourni avec les binaires d\'installation de FreeCAD. Sinon, vous pouvez l\'installer séparément de FreeCAD et ensuite utiliser le menu **Édition → Préférences → FEM → Gmsh** pour définir le chemin vers le *gmsh.exe*.
 
 ## utilisation
 
 1.  Sélectionnez la forme que vous souhaitez analyser. Pour le volume FEM, il doit s\'agir d\'un solide ou d\'un solide. Un compsolid est nécessaire si votre pièce est composée de plusieurs matériaux. (Un compsolid peut être créé avec la commande [Part Fragments booléens](Part_BooleanFragments/fr.md).)
     -   Appuyez sur le bouton **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [Créer un maillage MEF à partir de la forme avec le mailleur Gmsh](FEM_MeshGmshFromShape/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Maillage MEF à partir d'une forme avec Gmsh}} dans le menu.
+    -   Sélectionnez l\'option **Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Maillage MEF à partir d'une forme avec Gmsh** dans le menu.
 2.  Vous pouvez éventuellement modifier la taille minimale et maximale de l\'élément. (La détection automatique fonctionne correctement, sauf si vous appliquez des conditions aux limites compliquées.)
 3.  Cliquez sur le bouton **Apply** et attendez que le calcul du maillage soit terminé.
 4.  Ferme la tâche. Vous devriez maintenant voir un nouvel objet FEMMeshGMSH dans votre conteneur d\'analyse active.
@@ -78,7 +78,7 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
 ## Remarques
 
-### Jacobiens non positifs {#jacobiens_non_positifs}
+### Jacobiens non positifs 
 
 Lorsque vous obtenez une erreur de maillage à cause de Jacobiens non positifs, vous pouvez essayer les stratégies suivantes :
 
@@ -87,7 +87,7 @@ Lorsque vous obtenez une erreur de maillage à cause de Jacobiens non positifs, 
 -   Utilisez une taille d\'élément plus petite en réduisant {{PropertyData/fr|Characteristic Length Max}}.
 -   Si le solveur ccxtools est utilisé et que le bouton d\'exécution est utilisé (pas le panneau des tâches), les nœuds des éléments jacobiens non positifs seront verts.
 
-### Croissance du maillage {#croissance_du_maillage}
+### Croissance du maillage 
 
 Aux bords et aux petites entités géométriques, le maillage doit être plus petit que dans les zones sans bords. Ainsi, la taille des éléments du maillage augmente en s\'éloignant des bords. La stratégie de croissance de Gmsh consiste à croître entre des arêtes de tailles différentes. La croissance échoue donc lorsqu\'une zone a des arêtes de même taille, comme par exemple ce tube :
 
@@ -99,7 +99,7 @@ Pour permettre une croissance raisonnable du maillage, vous devez dans ce cas aj
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width:400px;"> 
 *Croissance notable du maillage grâce à l'arête supplémentaire au milieu de l'arête cylindrique.*
 
-### Recombinaison d\'éléments {#recombinaison_déléments}
+### Recombinaison d\'éléments 
 
 Les éléments peuvent être recombinés de deux manières, à la surface des objets de sorte que les triangles seront recombinés en quadrangles si possible et dans le volume des objets de sorte que les tétraèdres seront recombinés en prismes, hexaèdres ou pyramides si possible. En réfléchissant à la géométrie, il devient clair que le résultat de la recombinaison dépend fortement de la géométrie du corps et que la recombinaison d\'un corps 3D uniquement à la surface conduira le plus souvent à des résultats étranges.
 

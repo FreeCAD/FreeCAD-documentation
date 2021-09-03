@@ -23,7 +23,7 @@ Draft command set in a small macro for the 2D wire example: work with the DXF fi
 
 -    **<img src="images/Part_Compound.svg" width=16px> Compound II**Type II \[1 + 1 = A (1 + 1)\] : Create one compound of all objects selected with history of all objects. Same \"**Menu → Part → Make compound**\".
 
-### {{CheckBox}} Option color {#option_color}
+### {{CheckBox}} Option color 
 
 If it {{CheckBox}} checked the colour to object to work are coloured (edge, vertex)
 
@@ -59,7 +59,7 @@ If it {{CheckBox}} checked the colour to object to work are coloured (edge, vert
 
 -    **<img src=images/Draft_Downgrade.svg style="width:16px"> DownGrade**: DownGrade
 
-### For Compound I and Convert Edge {#for_compound_i_and_convert_edge}
+### For Compound I and Convert Edge 
 
 This section work only with the tools **<img src="images/Part_Compound.svg" width=16px> Compound I
 **, **<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)** and **<img src=images/Draft_Line.svg style="width:16px"> Convert Wire (A)**
@@ -70,7 +70,7 @@ This section work only with the tools **<img src="images/Part_Compound.svg" widt
 
 -    {{RadioButton|Delete original objest(s)}}: Delete the originals objest(s).
 
-### Force on a form : Line {#force_on_a_form_line}
+### Force on a form : Line 
 
 If the object line, arc or circle is not reconized (as form in a volume 3D object), this section force the creation of Line, Arc or Circle.
 

@@ -18,17 +18,17 @@ The goal of this specific project is to implement all necessary objects to handl
 8.  All mesh related definitions is done using existing tools in FreeCAD's FEM-workbench. For use with ElmerSolver is the mesh exported as .unv and processed with ElmerGrid.
 9.  The evaluation of the simulation output in done in Paraview.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  A easy to use solver-object and self-explaining dialogs for handling all Elmer-related settings related to mechanical simulations including boundary conditions and material definitions
 2.  Test runs ensuring the functionality
 3.  Documentation and tutorials for the workflow
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 Since the integration of external solvers is a huge area in constant evolution, the work done in this GSoC will only cover a small part of it. But if the bases are done right, extending them will be easy and could develop very far.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -41,6 +41,6 @@ Since the integration of external solvers is a huge area in constant evolution, 
 
 Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

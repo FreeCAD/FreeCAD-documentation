@@ -19,7 +19,7 @@
 
 Makro Skrzydło samolotu można pobrać za pomocą wbudowany w program FreeCAD [Menadżer dodatków](Std_AddonMgr/pl.md).
 
-####  Główne cechy {#główne_cechy}
+####  Główne cechy 
 
 -   Dopracowanie punktów profilu lotniczego.
 -   Generowanie wielu kopii profilu lotniczego.
@@ -33,7 +33,7 @@ Makro Skrzydło samolotu można pobrać za pomocą wbudowany w program FreeCAD [
 -   Parser danych z plików tekstowych DAT i arkuszy kalkulacyjnych CSV.
 -   Wprowadzanie długości cięciwy w mm, cm, m, in, ft i yards.
 
-####  Dodatkowe właściwości {{VersionPlus/pl|0.19}} {#dodatkowe_właściwości}
+####  Dodatkowe właściwości {{VersionPlus/pl|0.19}} 
 
 Właściwości obiektu Skrzydło samolotu *(tylko do odczytu)* :
 {{Properties Title/pl|Podstawowe}}
@@ -100,7 +100,7 @@ C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
 \"Skrzydło samolotu\" można załadować, wykonując następujące czynności:
 
 1.  Uruchom aplikację **FreeCAD**.
-2.  Przejdź do menu {{MenuCommand|Makrodefinicje → Makrodefinicje ...}}.
+2.  Przejdź do menu **Makrodefinicje → Makrodefinicje ...**.
 3.  Kliknij na zakładkę **Makra użytkownika** w wyskakującym oknie dialogowym.
 4.  Wybierz {{FileName|AeroFoil.FCMacro}}.
 5.  Kliknij na przycisk **Wykonaj makro**.
@@ -115,7 +115,7 @@ Po załadowaniu makra Skrzydło samolotu postępuj zgodnie z instrukcjami w posz
           
   ------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-####  Wskazówki, o których należy pamiętać podczas pracy: {#wskazówki_o_których_należy_pamiętać_podczas_pracy}
+####  Wskazówki, o których należy pamiętać podczas pracy: 
 
 1.  Dla profili NACA, dwie ostatnie cyfry *(łącznie)* nie mogą mieć wartości zero; grubość nie może być wartością zerową.
 2.  Pięciocyfrowe profile NACA są ograniczone do następujących modeli *(\"XX\" oznacza dwie ostatnie cyfry, grubość, profilu lotniczego)*:
@@ -151,7 +151,7 @@ Podpis: Wstępnie zdefiniowane znaki i funkcje
 
 \]\]
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 {{MacroCode|code=
@@ -217,7 +217,7 @@ __Files__         = "AeroFoil_UI_Files/AeroFoil_Initial_Dialog.ui, "\
 
 {{Codeextralink|https://raw.githubusercontent.com/melwyncarlo/AeroFoil/main/AeroFoil.FCMacro}}
 
-## Odnośniki internetowe {#odnośniki_internetowe}
+## Odnośniki internetowe 
 
 \[1\] [repozytorium Github dla AeroFoil](https://github.com/melwyncarlo/AeroFoil)
 \[2\] [FreeCAD Macros Github Repository - AeroFoil](https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation)

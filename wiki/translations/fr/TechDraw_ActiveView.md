@@ -34,7 +34,7 @@ L\'outil Vue active insère une copie d\'une fenêtre 3D dans une page de dessin
 
 Voir <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [TechDrawSymbol](TechDraw_Symbol/fr.md)
 
-### Champs de dialogue {#champs_de_dialogue}
+### Champs de dialogue 
 
 -    {{PropertyData/fr|Width}}: La largeur de la vue générée.
 

@@ -31,7 +31,7 @@ Questo ambiente può essere facilmente installato e aggiornato dal <img alt="" s
 -   Codice sorgente ospitato su GitHub: [github.com](https://github.com/mwganson/DynamicData)
 -   [Documentazione ufficiale completa](https://github.com/mwganson/DynamicData/blob/master/README.md)
 
-## Ambienti esterni {#ambienti_esterni}
+## Ambienti esterni 
 
 Gli ambienti di FreeCAD sono facili da programmare in [Python](Python.md), quindi ci sono molte persone che sviluppano ambienti aggiuntivi al di fuori degli sviluppatori principali di FreeCAD.
 

@@ -21,9 +21,9 @@ I corpi creati con PartDesign sono spesso soggetti al [Problema di denominazione
 
 ## Strumenti
 
-Gli strumenti di Part Design si trovano tutti nel menu di {{MenuCommand|Part Design}} e nella barra degli strumenti di PartDesign che appare quando si carica l\'ambiente Part Design.
+Gli strumenti di Part Design si trovano tutti nel menu di **Part Design** e nella barra degli strumenti di PartDesign che appare quando si carica l\'ambiente Part Design.
 
-### Strumenti struttura {#strumenti_struttura}
+### Strumenti struttura 
 
 Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al sistema [Standard di Base](Std_Base/it.md). Sono stati sviluppati nella v0.17 con l\'intenzione di essere utili per organizzare un modello e creare [assemblaggi](Assembly/it.md); come tali, sono molto utili quando si lavora con corpi creati con questo ambiente di lavoro.
 
@@ -31,7 +31,7 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppo](Std_Group/it.md): aggiunge un contenitore Gruppo nel documento attivo, che consente di organizzare gli oggetti nella [vista ad albero](Tree_view/it.md).
 
-### Strumenti di supporto di Part Design {#strumenti_di_supporto_di_part_design}
+### Strumenti di supporto di Part Design 
 
 -   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Crea corpo](PartDesign_Body/it.md): crea un oggetto [Corpo](Body/it.md) nel documento attivo e lo rende attivo.
 
@@ -41,9 +41,9 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg‎  style="width:32px;"> [Mappa schizzo su faccia](Sketcher_MapSketch/it.md): mappa uno schizzo su un piano precedentemente selezionato o su una faccia del corpo attivo.
 
-### Strumenti di modellazione di Part Design {#strumenti_di_modellazione_di_part_design}
+### Strumenti di modellazione di Part Design 
 
-#### Strumenti di riferimento {#strumenti_di_riferimento}
+#### Strumenti di riferimento 
 
 -   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Crea un punto di riferimento](PartDesign_Point/it.md): crea un punto di riferimento nel corpo attivo.
 
@@ -59,7 +59,7 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Crea un clone](PartDesign_Clone/it.md): crea un clone del corpo selezionato.
 
-#### Strumenti Additivi {#strumenti_additivi}
+#### Strumenti Additivi 
 
 Questi sono gli strumenti per creare funzioni di base o per aggiungere del materiale a un corpo solido esistente.
 
@@ -91,7 +91,7 @@ Questi sono gli strumenti per creare funzioni di base o per aggiungere del mater
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Cuneo additivo](PartDesign_AdditiveWedge/it.md): crea un cuneo additivo.
 
-#### Strumenti sottrattivi {#strumenti_sottrattivi}
+#### Strumenti sottrattivi 
 
 Questi sono gli strumenti per sottrarre del materiale da un corpo esistente.
 
@@ -125,7 +125,7 @@ Questi sono gli strumenti per sottrarre del materiale da un corpo esistente.
 
 :\* <img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Cuneo sottrattivo](PartDesign_SubtractiveWedge/it.md): aggiunge un cuneo sottrattivo al corpo attivo.
 
-#### Strumenti di trasformazione {#strumenti_di_trasformazione}
+#### Strumenti di trasformazione 
 
 Questi sono gli strumenti per trasformare le funzioni esistenti. Permetteranno di scegliere quali funzioni trasformare.
 
@@ -137,7 +137,7 @@ Questi sono gli strumenti per trasformare le funzioni esistenti. Permetteranno d
 
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Multitrasformazione](PartDesign_MultiTransform/it.md): crea una serie con qualsiasi combinazione delle altre trasformazioni.
 
-#### Strumenti di abbellimento {#strumenti_di_abbellimento}
+#### Strumenti di abbellimento 
 
 Questi strumenti applicano un trattamento ai bordi o alle facce selezionate.
 
@@ -165,7 +165,7 @@ Alcune funzionalità aggiuntive che si trovano nel menu di Part Design:
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Procedura guidata per alberi](PartDesign_WizardShaft/it.md): genera un albero da una tabella di valori e consente di analizzare forze e momenti. L\'albero è realizzato con uno schizzo ruotato che può essere modificato.
 
-### Elementi del menu contestuale {#elementi_del_menu_contestuale}
+### Elementi del menu contestuale 
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Imposta punta](PartDesign_MoveTip/it.md): ridefinisce la punta, che è la caratteristica esposta all\'esterno del corpo.
 
@@ -173,7 +173,7 @@ Alcune funzionalità aggiuntive che si trovano nel menu di Part Design:
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Sposta l\'oggetto dopo un altro oggetto](PartDesign_MoveFeatureInTree/it.md): consente il riordino del corpo dell\'albero spostando lo schizzo selezionato, la geometria di riferimento o la funzione in un\'altra posizione nell\'elenco delle funzioni.
 
-#### Elementi condivisi con l\'ambiente Part {#elementi_condivisi_con_lambiente_part}
+#### Elementi condivisi con l\'ambiente Part 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;">[Aspetto](Std_SetAppearance/it.md): determina l\'aspetto dell\'intera parte (trasparenza del colore ecc.).
 

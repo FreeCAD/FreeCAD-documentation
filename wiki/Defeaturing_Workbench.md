@@ -17,9 +17,9 @@ Note: More advance Defeaturing tools can be used if [OCC7.3](OpenCASCADE.md) is 
 
 ## Installation
 
-### Automatic (recommended) {#automatic_recommended}
+### Automatic (recommended) 
 
-Using the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) available in v0.17+ via {{MenuCommand|Tools → Addon Manager}}. Search for the <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> Defeaturing workbench icon. The Addon Manager also notifies the user when a new version of this Addon is available.
+Using the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) available in v0.17+ via **Tools → Addon Manager**. Search for the <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> Defeaturing workbench icon. The Addon Manager also notifies the user when a new version of this Addon is available.
 
 ### Manually
 
@@ -79,7 +79,7 @@ See [How to install additional workbenches](How_to_install_additional_workbenche
 -   <img alt="" src=images/DefeatWB_Tools_Fuzzy_Union.png  style="width:32px;"> [Fuzzy Union](DefeatWB_Tools_Fuzzy_Union.md): Fuzzy Union
 -   <img alt="" src=images/DefeatWB_Tools_Fuzzy_Common.png  style="width:32px;"> [Fuzzy Common](DefeatWB_Tools_Fuzzy_Common.md): Fuzzy Common
 
-## Video Tutorials {#video_tutorials}
+## Video Tutorials 
 
 ### Defeaturing
 
@@ -105,7 +105,7 @@ Removing Features using OCC7.3 new tools
 -   Read or Change Tolerance
 -   make Fuzzy Boolean operations
 
-## External workbenches {#external_workbenches}
+## External workbenches 
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
 

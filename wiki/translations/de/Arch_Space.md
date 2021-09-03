@@ -21,7 +21,7 @@ Mit dem Raum Werkzeug kannst du ein leeres Volumen festlegen, entweder indem du 
 2.  Rufe den Arch Raum Befehl mit mehreren Methoden auf:
     -   Drücken der **<img src="images/Arch_Space.svg" width=16px> [Arch Raum](Arch_Space/de.md)** Schaltfläche in der Werkzeugleiste.
     -   Verwenden der **S**, dann **P** Tastaturkürzel
-    -   Verwenden des {{MenuCommand|Arch → Raum}} Eintrags aus dem oberen Menü
+    -   Verwenden des **Arch → Raum** Eintrags aus dem oberen Menü
 
 ### Begrenzungen
 

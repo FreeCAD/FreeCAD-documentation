@@ -16,7 +16,7 @@ For example, a bolt, a washer and a nut are three separate bodies that when put 
 
 ## Usage
 
-### Manual assembly {#manual_assembly}
+### Manual assembly 
 
 In general terms, you don\'t need special tools to create assemblies, you just need to have many different [bodies](Body.md) arranged in some way.
 
@@ -30,7 +30,7 @@ You may use one of the pseudo-assembly [external workbenches](external_workbench
 
 In general, the **<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** object was designed to serve as the basic building block to create assemblies. This object is used to group several [bodies](body.md) and move them together as a unit, that is, as a sub-assembly. Then this sub-assembly can be placed next to, or used inside of other sub-assemblies in order to create the final assembly.
 
-### Constrained assembly {#constrained_assembly}
+### Constrained assembly 
 
 You can also use a dedicated assembly workbench, like <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md), or <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench.md). Please note that [Assembly2](Assembly2_Workbench.md) is unmaintained, so it is not recommended for new models.
 

@@ -39,7 +39,7 @@ Ship sign criteria
 
 <div class="mw-translate-fuzzy">
 
-## Încărcarea geometriei pentru nave din seria 60 {#încărcarea_geometriei_pentru_nave_din_seria_60}
+## Încărcarea geometriei pentru nave din seria 60 
 
 Pentru a ajuta utilizatorii noi, nava include un exemplu de încărcător de geometrie, cu următoarele opțiuni:
 

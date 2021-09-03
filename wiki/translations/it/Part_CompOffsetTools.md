@@ -13,7 +13,7 @@
 
 Gli strumenti di Offset
 
-## Tipi di offset {#tipi_di_offset}
+## Tipi di offset 
 
 
 <div class="mw-translate-fuzzy">

@@ -30,18 +30,18 @@ These edges created on top of the mesh may be further used to re-create the surf
 2.  Press **<img src=images/Surface_CurveOnMesh.svg style="width:16px"> [Curve on mesh](Surface_CurveOnMesh.md)**.
 3.  Press **Start**.
 4.  Using the mouse pointer, pick points on the surface of the mesh in the [3D view](3D_view.md); pick as many points as necessary to draw a smooth preview line.
-5.  When enough points have been added, right click on the [3D view](3D_view.md) to open the context menu, and select {{MenuCommand|Create}}. Depending on how smooth the original mesh is, one spline or multiple splines will be created in the [tree view](tree_view.md).
-6.  Repeat the sequence **Start** → Pick → {{MenuCommand|Create}}, to add more approximated splines.
-7.  The new spline will be created, and will appear in the [tree view](Tree_view.md), immediately after choosing {{MenuCommand|Create}}; the [task panel](Task_panel.md) will remain active.
+5.  When enough points have been added, right click on the [3D view](3D_view.md) to open the context menu, and select **Create**. Depending on how smooth the original mesh is, one spline or multiple splines will be created in the [tree view](tree_view.md).
+6.  Repeat the sequence **Start** → Pick → **Create**, to add more approximated splines.
+7.  The new spline will be created, and will appear in the [tree view](Tree_view.md), immediately after choosing **Create**; the [task panel](Task_panel.md) will remain active.
 8.  Press **Close** to close the [task panel](Task_panel.md), and terminate the command completely.
 
-After pressing **Start**, the context menu (right-click) in the [3D view](3D_view.md) shows various options beside {{MenuCommand|Create}}.
+After pressing **Start**, the context menu (right-click) in the [3D view](3D_view.md) shows various options beside **Create**.
 
--    {{MenuCommand|Close wire}}: if at least three points have been picked, this option will be available to join the last point to the first point with a line.
+-    **Close wire**: if at least three points have been picked, this option will be available to join the last point to the first point with a line.
 
--    {{MenuCommand|Clear}}: it will erase the tentative points that have been picked on the mesh, and will allow you to pick new ones.
+-    **Clear**: it will erase the tentative points that have been picked on the mesh, and will allow you to pick new ones.
 
--    {{MenuCommand|Cancel}}: it will erase the tentative points that have been picked, and will stop the picking operation. Press **Start** again to pick points once more.
+-    **Cancel**: it will erase the tentative points that have been picked, and will stop the picking operation. Press **Start** again to pick points once more.
 
 ## Optionen
 
@@ -49,24 +49,24 @@ After pressing **Start**, the context menu (right-click) in the [3D view](3D_vie
 **(Editor: this information must be verified)**
 
 
-{{MenuCommand|Wire}}
+**Wire**
 
 section:
 
--    {{MenuCommand|Snap tolerances to vertices}}: it defaults to {{Value|10 px}}; it indicates the minimum distance between one point and another when picking with the pointer.
+-    **Snap tolerances to vertices**: it defaults to {{Value|10 px}}; it indicates the minimum distance between one point and another when picking with the pointer.
 
--    {{MenuCommand|Split threshold}}: it defaults to {{Value|45 deg}}; it indicates the angular deviation from one point in the mesh to another point necessary to create a new spline instead of extending the previous spline.
+-    **Split threshold**: it defaults to {{Value|45 deg}}; it indicates the angular deviation from one point in the mesh to another point necessary to create a new spline instead of extending the previous spline.
 
 
-{{MenuCommand|Spline approximation}}
+**Spline approximation**
 
 , if it is {{CheckBox|TRUE|checked}}, it will create spline objects, otherwise, it will create simple straight line objects (polyline).
 
--    {{MenuCommand|Tolerance to mesh}}: it defaults to {{Value|0.2}}. It is a parameter that takes into account the imperfections of the mesh; the smaller this number the more precise it will consider the mesh, particularly if it is a very fine mesh.
+-    **Tolerance to mesh**: it defaults to {{Value|0.2}}. It is a parameter that takes into account the imperfections of the mesh; the smaller this number the more precise it will consider the mesh, particularly if it is a very fine mesh.
 
--    {{MenuCommand|Continuity}}: it defaults to {{Value|C2}}. It determines the continuity of the spline; it can be {{Value|C0}} (touching), {{Value|C1}} (tangent), {{Value|C2}} (curvature), and {{Value|C3}} (acceleration curvature).
+-    **Continuity**: it defaults to {{Value|C2}}. It determines the continuity of the spline; it can be {{Value|C0}} (touching), {{Value|C1}} (tangent), {{Value|C2}} (curvature), and {{Value|C3}} (acceleration curvature).
 
--    {{MenuCommand|Maximum curve degree}}: it defaults to {{Value|5}}. It determines the maximum degree of the spline to approximate the surface; it can be a value from {{Value|1}} to {{Value|8}}.
+-    **Maximum curve degree**: it defaults to {{Value|5}}. It determines the maximum degree of the spline to approximate the surface; it can be a value from {{Value|1}} to {{Value|8}}.
 
 ## Eigenschaften
 

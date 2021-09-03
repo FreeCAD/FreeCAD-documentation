@@ -27,7 +27,7 @@ Wähle **Datei** → **<img src="images/Std_SaveAs.png" width=32px> Speichern un
 
 </div>
 
-1.  Select the {{MenuCommand|File → <img src="images/Std_SaveAs.svg" width=16px> Save As...}} option from the menu.
+1.  Select the **File → <img src="images/Std_SaveAs.svg" width=16px> Save As...** option from the menu.
 2.  Enter a filename in the dialog box.
 3.  Press the **Save** button.
 
@@ -41,7 +41,7 @@ Wähle **Datei** → **<img src="images/Std_SaveAs.png" width=32px> Speichern un
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 

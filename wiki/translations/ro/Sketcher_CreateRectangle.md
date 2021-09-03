@@ -21,7 +21,7 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

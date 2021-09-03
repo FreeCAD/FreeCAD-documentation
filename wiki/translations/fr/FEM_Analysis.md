@@ -20,7 +20,7 @@ Le module FEM ([Méthode d\'éléments finis](https://fr.wikipedia.org/wiki/M%C3
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_Analysis.svg" width=16px> [Créer un conteneur d'analyse...](FEM_Analysis/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Model → <img src="images/FEM_Analysis.svg" width=16px> Conteneur d'analyse}} dans le menu.
+    -   Sélectionnez l\'option **Model → <img src="images/FEM_Analysis.svg" width=16px> Conteneur d'analyse** dans le menu.
     -   Utilisez le raccourci clavier: **S** puis **A**.
 2.  Une nouvelle analyse est créée et définie sur active.
 3.  D\'autres objets peuvent être ajoutés ou retirés du conteneur d\'analyse par glisser-déposer.

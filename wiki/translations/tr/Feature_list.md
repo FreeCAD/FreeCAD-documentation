@@ -11,7 +11,7 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 
 {{TOCright}}
 
-## Sürüm Notları {#sürüm_notları}
+## Sürüm Notları 
 
 
 <div class="mw-translate-fuzzy">
@@ -27,9 +27,9 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 
 </div>
 
-## Genel Özellikler {#genel_özellikler}
+## Genel Özellikler 
 
-### Temel Uygulama {#temel_uygulama}
+### Temel Uygulama 
 
 
 <div class="mw-translate-fuzzy">
@@ -52,7 +52,7 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 
 <div class="mw-translate-fuzzy">
 
-## Genel Özellikler: {#genel_özellikler_1}
+## Genel Özellikler: 
 
 
 </div>
@@ -257,7 +257,7 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 
 </div>
 
-## Geliştirme aşamasında {#geliştirme_aşamasında}
+## Geliştirme aşamasında 
 
 
 <div class="mw-translate-fuzzy">
@@ -270,7 +270,7 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 
 <div class="mw-translate-fuzzy">
 
-## Ekstra Tezgahlar {#ekstra_tezgahlar}
+## Ekstra Tezgahlar 
 
 Uzman kullanıcılar, çeşitli özel [dış tezgahlar](external_workbenches.md) oluşturuyorlar.
 

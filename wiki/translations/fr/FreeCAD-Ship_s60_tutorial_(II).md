@@ -43,7 +43,7 @@ Dans ce didacticiel, nous allons définir des poids et des réservoirs pour notr
 
 </div>
 
-## Poids des navires {#poids_des_navires}
+## Poids des navires 
 
 Afin de pouvoir calculer la courbe GZ, nous devons connaître les poids des navires et leur position à chaque angle de roulis. Les poids seront donc divisés en deux catégories:
 
@@ -120,7 +120,7 @@ Les réservoirs doivent être créés au-dessus de la géométrie solide, comme 
 
 </div>
 
-### Génération de la géométrie {#génération_de_la_géométrie}
+### Génération de la géométrie 
 
 Afin de générer des réservoirs, nous chargeons [l\'atelier Part](Part_Workbench/fr.md) et créons un solide.
 
@@ -153,7 +153,7 @@ Afin de convertir la géométrie en une forme solide habituelle de nos réservoi
 
 Nous pouvons supprimer la boîte créée, dont nous n'avons plus besoin.
 
-### Génération d\'intances de réservoir {#génération_dintances_de_réservoir}
+### Génération d\'intances de réservoir 
 
 Si vous rechargez [l\'atelier FreeCAD-Ship](Ship_Workbench/fr.md) une autre fois, nous pouvons trouver un outil générateur d\'instances de réservoir.
 
@@ -192,7 +192,7 @@ La figure montre le résultat de notre navire que nous allons calculer.
 
 <div class="mw-translate-fuzzy">
 
-### Calcul de la courbe GZ {#calcul_de_la_courbe_gz}
+### Calcul de la courbe GZ 
 
 FreeCAD-Ship fournit un outil permettant de calculer facilement une courbe \"GZ\".
 

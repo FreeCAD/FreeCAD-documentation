@@ -26,7 +26,7 @@ Bitte beachte, daß dieses Werkzeug nicht zum Erstellen neuer Skizzen verwendet 
 -   Im **Skizze auswählen**Dialogfenster, das sich öffnet, wähle aus der Liste die Skizze aus, die der Fläche zugeordnet werden soll, und klicke OK.
 -   Die Skizze wird automatisch im Bearbeitungsmodus geöffnet.
 
-## Anwendung beim Reparieren eines kaputten Modells {#anwendung_beim_reparieren_eines_kaputten_modells}
+## Anwendung beim Reparieren eines kaputten Modells 
 
 Skizzierer ZuordnenSkizze wird häufig bei der Reparatur eines kaputten Modells verwendet.
 

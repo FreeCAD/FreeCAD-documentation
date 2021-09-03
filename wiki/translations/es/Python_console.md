@@ -55,23 +55,23 @@ estos módulos y alias precargados sólo están disponibles desde la consola de 
 
 Right click on the Python console shows some commands:
 
--    {{MenuCommand|Copy}}: stores the selected text in the clipboard for later pasting; it is disabled if nothing is selected.
+-    **Copy**: stores the selected text in the clipboard for later pasting; it is disabled if nothing is selected.
 
--    {{MenuCommand|Copy command}}: stores the selected command in the clipboard for later pasting; it is disabled if nothing is selected.
+-    **Copy command**: stores the selected command in the clipboard for later pasting; it is disabled if nothing is selected.
 
--    {{MenuCommand|Copy history}}: copy the entire history of Python commands entered in this session.
+-    **Copy history**: copy the entire history of Python commands entered in this session.
 
--    {{MenuCommand|Save history as}}: save the entire history of Python commands entered in this session to a text file.
+-    **Save history as**: save the entire history of Python commands entered in this session to a text file.
 
--    {{MenuCommand|Paste}}: paste previously copied text in the clipboard to the Python console.
+-    **Paste**: paste previously copied text in the clipboard to the Python console.
 
--    {{MenuCommand|Select all}}: selects all text in the Python console.
+-    **Select all**: selects all text in the Python console.
 
--    {{MenuCommand|Clear console}}: erases all commands entered into the Python console. This is useful if the Python console is full of messages and previously entered commands that may be distracting when testing a new function. This is merely aesthetic, as this command doesn\'t delete existing variables nor clears the imported modules in the session.
+-    **Clear console**: erases all commands entered into the Python console. This is useful if the Python console is full of messages and previously entered commands that may be distracting when testing a new function. This is merely aesthetic, as this command doesn\'t delete existing variables nor clears the imported modules in the session.
 
--    {{MenuCommand|Insert file name}}: opens a dialog to search for a file in the system, then it inserts the full path of the file. This is useful to test functions that process an input file, without having to write the entire name in the console, which is error prone. This command does not run the file, and does not import it as a Python module, it just returns the full path of that file.
+-    **Insert file name**: opens a dialog to search for a file in the system, then it inserts the full path of the file. This is useful to test functions that process an input file, without having to write the entire name in the console, which is error prone. This command does not run the file, and does not import it as a Python module, it just returns the full path of that file.
 
--    {{MenuCommand|Word wrap}}: wrap very long lines that exceed the horizontal dimension of the Python console.
+-    **Word wrap**: wrap very long lines that exceed the horizontal dimension of the Python console.
 
 ## Notas
 

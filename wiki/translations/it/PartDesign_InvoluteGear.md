@@ -18,7 +18,7 @@ Per informazioni più dettagliate consultare le voci di Wikipedia per: [Gear](ht
 
 ## Utilizzo
 
-1.  Andare nel menu {{MenuCommand|Part Design → <img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Involute gear...}}.
+1.  Andare nel menu **Part Design → <img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Involute gear...**.
 2.  Impostare i parametri dell\'evolvente
 3.  Cliccare su **OK**.
 4.  L\'evolvente dell\'ingranaggio viene creato al di fuori del corpo attivo. Trascinalo e rilascialo in un corpo per applicarvi ulteriori funzioni, come il riempimento.

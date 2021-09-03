@@ -14,7 +14,7 @@ Przyciąganie jest dostępne z większością poleceń środowisk [Rysunek Roboc
 
 ![](images/Draft_Snap_Endpoint_example.png ) *Przyciąganie do punktu końcowego krawędzi*
 
-## Narzędzia przyciągania {#narzędzia_przyciągania}
+## Narzędzia przyciągania 
 
 Narzędzia te są dostępne na pasku narzędzi *Rysunek Roboczy - Przyciąganie* oraz w [Widżet przyciągania](Draft_snap_widget/pl.md) środowiska Rysunek Roboczy.
 
@@ -52,7 +52,7 @@ Zauważ, że koliste krawędzie nie muszą być pełnymi okręgami.
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md): włącza lub wyłącza widoczność siatki.
 
-## Przyciąganie zaawansowane {#przyciąganie_zaawansowane}
+## Przyciąganie zaawansowane 
 
 -   Dodatkowe punkty przyciągania można uzyskać poprzez połączenie dwóch metod przyciągania, takich jak np [Ortho](Draft_Snap_Ortho/pl.md) i [Extension](Draft_Snap_Extension/pl.md), które dadzą Ci punkt przyciągania na przecięciu ich umownych linii.
 -   Przyciąganie może być połączone z [wiązaniami](Draft_Constrain/pl.md).
@@ -74,16 +74,16 @@ Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek
 
 Należy pamiętać, że po zmianie niektórych preferencji należy ponownie uruchomić program FreeCAD.
 
--   Gdy aktywne jest środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md) wymagające wprowadzenia punktu, maksymalna odległość, przy której narzędzie [przyciągnij do siatki](Draft_Snap_Grid/pl.md) wykrywa przecięcia linii siatki, może być zmieniana w locie przez naciśnięcie klawisza **[** *(klawisz zwiększania)* lub klawisza **]** *(klawisz zmniejszania)*. To ustawienie jest zapisywane w: {{MenuCommand|Przybory → Edycja parametrów → BaseApp → Preferences → Mod → Draft → snapRange}}. Można je również zmienić w panelu zadań polecenia [Wybór płaszczyzny](Draft_SelectPlane/pl.md).
--   Aby przyciągać tylko wtedy, gdy przytrzymany jest klawisz {{MenuCommand|modyfikator przyciągania}}:
-    -   Odznacz opcję: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Zawsze przyciągaj ''(wyłącz modyfikator przyciągania)''}}.
-    -   Domyślny klawisz {{MenuCommand|modyfikatora przyciągania}}, **Ctrl**, można zmienić w opcji: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Modyfikator ograniczania}}.
+-   Gdy aktywne jest środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md) wymagające wprowadzenia punktu, maksymalna odległość, przy której narzędzie [przyciągnij do siatki](Draft_Snap_Grid/pl.md) wykrywa przecięcia linii siatki, może być zmieniana w locie przez naciśnięcie klawisza **[** *(klawisz zwiększania)* lub klawisza **]** *(klawisz zmniejszania)*. To ustawienie jest zapisywane w: **Przybory → Edycja parametrów → BaseApp → Preferences → Mod → Draft → snapRange**. Można je również zmienić w panelu zadań polecenia [Wybór płaszczyzny](Draft_SelectPlane/pl.md).
+-   Aby przyciągać tylko wtedy, gdy przytrzymany jest klawisz **modyfikator przyciągania**:
+    -   Odznacz opcję: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Zawsze przyciągaj ''(wyłącz modyfikator przyciągania)''**.
+    -   Domyślny klawisz **modyfikatora przyciągania**, **Ctrl**, można zmienić w opcji: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Modyfikator ograniczania**.
 -   Aby pokazać pasek narzędzi Przyciągania tylko wtedy, gdy polecenie jest aktywne:
-    -   Wybierz: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy→ Siatka i przyciąganie → Przyciąganie → Pokaż pasek narzędzi Przyciągania środowiska Rysunek Roboczy}}.
-    -   Wybierz: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Ukryj pasek narzędzi Przyciągania środowiska Rysunek Roboczy po użyciu}}.
--   Symbole przyciągania można zmienić w: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia wyglądu → Styl symboli przyciągania}}.
--   Kolor symboli przyciągania oraz rozmiar [Draft Snap Dimensions](Draft_Snap_Dimensions.md) można zmienić w: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia wyglądu → Kolor}}
--   Wspomniane skróty klawiaturowe dla pojedynczych znaków można zmienić w: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia interfejsu użytkownika → Skróty klawiszowe}}.
+    -   Wybierz: **Edycja → Preferencje → Rysunek Roboczy→ Siatka i przyciąganie → Przyciąganie → Pokaż pasek narzędzi Przyciągania środowiska Rysunek Roboczy**.
+    -   Wybierz: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Ukryj pasek narzędzi Przyciągania środowiska Rysunek Roboczy po użyciu**.
+-   Symbole przyciągania można zmienić w: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia wyglądu → Styl symboli przyciągania**.
+-   Kolor symboli przyciągania oraz rozmiar [Draft Snap Dimensions](Draft_Snap_Dimensions.md) można zmienić w: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia wyglądu → Kolor**
+-   Wspomniane skróty klawiaturowe dla pojedynczych znaków można zmienić w: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia interfejsu użytkownika → Skróty klawiszowe**.
 
 
 

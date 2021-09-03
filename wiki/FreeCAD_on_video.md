@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 ## Introduction
 
@@ -13,7 +13,7 @@ Let us know if you find other or better references to this topic.
 
 So far just YouTube but other outlets are welcome.
 
-### See Also {#see_also}
+### See Also 
 
 I believe this is the most comprehensive page on videos, but is not the only Wiki page or the most detailed one:
 
@@ -24,7 +24,7 @@ I believe this is the most comprehensive page on videos, but is not the only Wik
 -   **[Category:Tutorials - FreeCAD Documentation](https://wiki.FreeCADweb.org/Category:Tutorials)** \-- The category on Tutorials links to tutorials that may or may not be videos.
 -   Searching the forum **[FreeCAD Forum - Index page](https://forum.FreeCADweb.org/index.php)** will also locate a lot of material, in a not very organized way.
 
-### Support FreeCAD {#support_freecad}
+### Support FreeCAD 
 
 FreeCAD is free, but you might consider supporting in not just going for a free ride ( but if you do that is ok too ). There are a variety of ways. We mention this briefly here because without documentation software is useless so:
 
@@ -38,13 +38,13 @@ But there are other routes as well:
 
 Lots of this covered in [Help FreeCAD](Help_FreeCAD.md)
 
-## Video Channels {#video_channels}
+## Video Channels 
 
 So far, for convenience of editing the links on this page are broken into separate sections, and so far, ordering is arbitrary.
 
 Discussion tab has some info. on source of column contents and meaning of column headers.
 
-### Quality of Content {#quality_of_content}
+### Quality of Content 
 
 The videos here are not judged by quality of content, version of FreeCad, or even continued existence of the channel ( but known dead links will be removed ). The list may not even be maintained to keep it really up to date. But here are some ways to judge these things for yourself.
 
@@ -58,7 +58,7 @@ The videos here are not judged by quality of content, version of FreeCad, or eve
     -   Check out the tab \"View History\" and the column \"Last Tracked Video\"
     -   You could of course do some work on updating the page yourself.
 
-### Section 1 {#section_1}
+### Section 1 
 
 +-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Name/Link                                                                                             | Author Says                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Last Tracked Video                        | Narration/Subtitles\...                                  | Comments                                                                                                    | Related Links                                                                                                                                                |
@@ -143,7 +143,7 @@ The videos here are not judged by quality of content, version of FreeCad, or eve
 | Name/Link                                                                                             | Author Says                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Last Tracked Video                        | Naration/Subtitles\...                                   | comment                                                                                                     | Related Links                                                                                                                                                |
 +-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-### Section 2 {#section_2}
+### Section 2 
 
 +--------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Name/Link                                                                                                                | Author Says                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Last Tracked Video                                 | Narration/Subtitles\...                                                | Comments                                                                                                  | Related Links                                                                                                                                                            |
@@ -205,11 +205,11 @@ The videos here are not judged by quality of content, version of FreeCad, or eve
 |                                                                                                                          | On my channel workflows, as well as tips & tricks are explained in a short form easy and understandable. The tutorial videos are economical in file size, so that even with a slow Internet connection should be a reasonable loading time. I have therefore also dispensed with sound recordings. In addition, the clips are optimized for viewing on a smartphone. I work as a technical writer and illustrator, as well as 3D CAD designer. Location: Germany                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                    |                                                                        |                                                                                                           |                                                                                                                                                                          |
 +--------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-#### In Process, Drafts {#in_process_drafts}
+#### In Process, Drafts 
 
 No drafts currently in process\....
 
-## Issues for Video Creators {#issues_for_video_creators}
+## Issues for Video Creators 
 
 Consider: (This content is mostly from the Forum)
 
@@ -226,7 +226,7 @@ Consider: (This content is mostly from the Forum)
 -   Captions or subtitles can be useful, especially if available in multiple languages. You might pass this on to your viewers: \***[How to Translate a Foreign Language Video on YouTube • Jenni Wiltz](https://jenniwiltz.com/how-to-translate-a-foreign-language-video-on-youtube/)** and you might want to look up translation features that YouTube (or other platform) can support.
 -   Some users like to know where a model is going at the beginning of a video. Should you show the end product or something similar at the beginning of the video?
 
-## More Links {#more_links}
+## More Links 
 
 -   **[Guidelines for videos and tutorials - FreeCAD Forum](https://forum.FreeCADweb.org/viewtopic.php?t=36205)**
 -   **[Community knowledgebase: getting started with tutorial and video contribution - FreeCAD Forum](https://www.forum.FreeCADweb.org/viewtopic.php?f=36&t=23173)**

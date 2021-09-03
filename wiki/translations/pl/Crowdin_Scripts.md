@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Zarządzanie Tłumaczeniami w programie FreeCAD {#zarządzanie_tłumaczeniami_w_programie_freecad}
+## Zarządzanie Tłumaczeniami w programie FreeCAD 
 
 FreeCAD do zarządzania tłumaczeniami używa zewnętrznego serwisu nazywanego [Crowdin.](https://crowdin.com/project/freecad)
 
@@ -35,7 +35,7 @@ Skrypt updatecrowdin.py ładuje zmiany do Crowdin (zewnętrznego serwisu tłumac
 
 Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katalogu FreeCAD/.
 
-## By wysłać najnowsze zwroty do Crowdin {#by_wysłać_najnowsze_zwroty_do_crowdin}
+## By wysłać najnowsze zwroty do Crowdin 
 
 -   Przetestowane tylko na Linuksie
 -   Potrzebujesz pliku .credentials w twoim katalogu /home/TwójUżytkownik. Plik ten jest prostym plikiem tekstowym zawierającym tylko jedną linię, którą jest klucz API otrzymywany na <https://crowdin.com/project/freecad/settings#api> (tylko dla administratorów)
@@ -46,7 +46,7 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 -   cd ../.. (idź z powrotem go głównego katalogu źródeł)
 -   git checkout . (cofnij wszystkie zmiany w plikach .ts, nie ma powodu by wprowadzać je już teraz gdy są wciąż nieprzetłumaczone)
 
-## By scalić najnowsze tłumaczenia z Crowdin {#by_scalić_najnowsze_tłumaczenia_z_crowdin}
+## By scalić najnowsze tłumaczenia z Crowdin 
 
 -   Przetestowane tylko w systemie Linuks,
 -   Potrzebujesz pliku .credentials w katalogu /home/TwójUżytkownik. Plik ten jest zwykłym plikiem tekstowym zawierającym tylko jeden wiersz, jest to klucz API otrzymywany na <https://crowdin.com/project/freecad/settings#api> *(tylko dla administratorów)*,
@@ -62,14 +62,14 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 -   jeśli wszystko wygląda w porządku *(git status)*, wprowadź zmiany używając git add . && git commit,
 -   Utwórz prośbę o połączenie *(PR)* dla FreeCAD.
 
-## By utworzyć plik tłumaczenia ze strony internetowej {#by_utworzyć_plik_tłumaczenia_ze_strony_internetowej}
+## By utworzyć plik tłumaczenia ze strony internetowej 
 
 -   Sklonuj stronę domową
 -   cd /path/to/FreeCAD-homepage
 -   xgettext \--from-code=UTF-8 -o lang/homepage.pot \*.php
 -   Zaktualizuj ręcznie \"homepage.po\" na stronie internetowej Crowdin, korzystając z pliku lang/homepage.pot
 
-## By zaktualizować tłumaczenia na stronie internetowej {#by_zaktualizować_tłumaczenia_na_stronie_internetowej}
+## By zaktualizować tłumaczenia na stronie internetowej 
 
 -   Pozyskaj plik freecad.zip przez pobranie go ze strony internetowej Crowdin albo korzystając z instrukcji powyżej *(python updatecrowdin.py download)*,
 -   cd /path/to/FreeCAD-homepage,

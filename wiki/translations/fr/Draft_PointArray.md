@@ -23,11 +23,11 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 2.  Ajoutez l\'objet [composé de points](#Compos.C3.A9_de_points.md) à la sélection.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_PointArray.svg" width=16px> [Réseau de points](Draft_PointArray/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → Array tools → <img src="images/Draft_PointArray.svg" width=16px> Réseau de points}} dans le menu.
+    -   Sélectionnez l\'option **Modification → Array tools → <img src="images/Draft_PointArray.svg" width=16px> Réseau de points** dans le menu.
 4.  Le réseau est créé.
 5.  Vous pouvez éventuellement modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
-## Composé de points {#composé_de_points}
+## Composé de points 
 
 Un composé de points est un objet qui contient un ou plusieurs points. Voici les composés de points pris en charge et la façon dont ils peuvent être créés :
 

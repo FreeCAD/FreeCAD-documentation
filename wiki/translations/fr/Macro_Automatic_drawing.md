@@ -23,7 +23,7 @@ Un objet doit être sélectionné avant de lancer la macro.
 -   Le script ne fonctionne qu\'avec un seul objet à la fois (ceci est une limitation de l\'atelier de Mise en plan)
 -   Nécessite des modifications afin de générer une [projection américaine](http://fr.wikipedia.org/wiki/Dessin_technique#Correspondance_des_vues) telle qu\'utilisé aux États-Unis et au Canada.
 
-## Le script {#le_script}
+## Le script 
 
 ToolBar icon ![](images/Macro_Automatic_drawing.png )
 

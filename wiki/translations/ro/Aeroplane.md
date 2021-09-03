@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Primii Pași {#primii_pași}
+## Primii Pași 
 
 Vom lucra în Atelierul Piese [Part Workbench](Part_Workbench.md) - selectați-l din meniu via View-\>Workbench-\>Part sau din selectorul de Ateliere.
 
@@ -67,7 +67,7 @@ If you are unfamiliar with the XYZ axes then have a play with the numbers in the
 
 </div>
 
-## Pașii Second {#pașii_second}
+## Pașii Second 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
 

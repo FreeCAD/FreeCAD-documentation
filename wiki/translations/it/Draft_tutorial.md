@@ -30,14 +30,14 @@ This tutorial uses the notation {{Value|(x, y, z)}} to denote the coordinates re
 
 ## Setup
 
-1\. Open FreeCAD, create a new empty document with {{MenuCommand|File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)}}.
+1\. Open FreeCAD, create a new empty document with **File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
 
-:   1.1. Switch to the <img src=images/Workbench_Draft.svg style="width:Draft Workbench](Draft_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu {{MenuCommand|View → Workbench → [16px"> Draft}}.
-:   1.2. Make sure you understand how to use the [property editor](property_editor.md), particularly the {{MenuCommand|Data}} and {{MenuCommand|View}} tabs to change the properties. When changing properties, you may have to do a **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** action to see the result in the [3D view](3D_view.md).
+:   1.1. Switch to the <img src=images/Workbench_Draft.svg style="width:Draft Workbench](Draft_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **View → Workbench → [16px"> Draft**.
+:   1.2. Make sure you understand how to use the [property editor](property_editor.md), particularly the **Data** and **View** tabs to change the properties. When changing properties, you may have to do a **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** action to see the result in the [3D view](3D_view.md).
 :   1.3. Since the Draft objects are planar shapes, they are better viewed from the top. Use **<img src=images/Std_ViewTop.svg style="width:16px"> [View top](Std_ViewTop.md)** to set the [3D view](3D_view.md).
 :   1.4. Although it is not used in this tutorial, the Draft grid is helpful to position geometrical elements. Use **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_ToggleGrid.svg style="width:SelectPlane](Draft_SelectPlane.md)** to set both the working plane and the grid, and then show and hide the grid with **[16px"> [Toggle grid](Draft_ToggleGrid.md)**.
 
-## Barra degli strumenti di snap {#barra_degli_strumenti_di_snap}
+## Barra degli strumenti di snap 
 
 
 <div class="mw-translate-fuzzy">
@@ -64,7 +64,7 @@ Notare che in questo menu è possibile modificare la visibilità della **griglia
 
 <div class="mw-translate-fuzzy">
 
-### Usare i piani {#usare_i_piani}
+### Usare i piani 
 
 I piani sono usati per limitare l\'azione degli strumenti Draft ad un piano specifico, evitando problemi con la posizione dei punti e delle curve nei pezzi complessi. I piani possono fare riferimento agli assi del sistema di coordinate **(XY, YZ, \...)** oppure possono utilizzare come riferimento una superficie planare del documento.
 
@@ -87,7 +87,7 @@ Before pressing the button, you can also change the value of the offset in milli
 
 <div class="mw-translate-fuzzy">
 
-#### Linee e Archi {#linee_e_archi}
+#### Linee e Archi 
 
 1.  Selezionare ![](images/Draft_Arc.png ) [Arco](Draft_Arc/it.md).
 2.  Impostare il **centro** a **(0, 0, 0)**
@@ -120,7 +120,7 @@ Ripetere la stessa procedura per un secondo arco con raggio di 25 mm, e con le a
 <img alt="" src=images/01_Dr01_Draft_Arc_profile.png  style="width:" height="400px;"> 
 *Closed profile created by two arcs and two lines.*
 
-## Fusing or compounding {#fusing_or_compounding}
+## Fusing or compounding 
 
 
 <div class="mw-translate-fuzzy">
@@ -147,7 +147,7 @@ Ora ci sono diverse curve che definiscono il profilo, ma esse non sono ancora ri
 
 <div class="mw-translate-fuzzy">
 
-#### Piani, Rettangoli e Cerchi {#piani_rettangoli_e_cerchi}
+#### Piani, Rettangoli e Cerchi 
 
 1.  Cliccare ![](images/Draft_Rectangle.png ) [Rettangolo](Draft_Rectangle/it.md)
 2.  Impostare il primo punto a **(-100, -60, 0)**. (Se dopo aver impostato questo punto Relativo appare attivato, deselezionarlo prima di impostare il secondo punto).
@@ -160,7 +160,7 @@ Ora ci sono diverse curve che definiscono il profilo, ma esse non sono ancora ri
 
 :   7.1. Press **<img src=images/Draft_Rectangle.svg style="width:16px"> [Rectangle](Draft_Rectangle.md)**.
 :   7.2. Enter the values of the first point {{Value|(-100, -60, 0)}}, and press **Enter**.
-:   7.3. Make sure the {{MenuCommand|Relative}} option is unchecked, as we will use absolute units. You may press **R** in the keyboard to quickly toggle this option on and off.
+:   7.3. Make sure the **Relative** option is unchecked, as we will use absolute units. You may press **R** in the keyboard to quickly toggle this option on and off.
 :   7.4. Enter the values for the second point {{Value|(140, 90, 0)}}, and press **Enter**.
 
 
@@ -234,7 +234,7 @@ The array object shows copies of the object around the origin.
 
 <div class="mw-translate-fuzzy">
 
-### Aggiungere le dimensioni {#aggiungere_le_dimensioni}
+### Aggiungere le dimensioni 
 
 Le Dimensioni richiedono un uso costante di **Snap** per selezionare correttamente i punti che si vogliono quotare. La **Barra degli strumenti Snap** serve per cambiare i punti che è possibile selezionare.
 
@@ -273,7 +273,7 @@ Remember to adjust the **Font Size**, and other properties to see the dimension 
 
 <div class="mw-translate-fuzzy">
 
-### Annotazioni e Testi {#annotazioni_e_testi}
+### Annotazioni e Testi 
 
 Sono due cose leggermente diverse: per eseguire delle operazioni 3D è possibile usare solo i testi come profilo.
 
@@ -316,7 +316,7 @@ To extrude letters and engrave them on to solids, see the [Draft ShapeString tut
 
 <div class="mw-translate-fuzzy">
 
-### Creare le proiezioni {#creare_le_proiezioni}
+### Creare le proiezioni 
 
 Per creare le proiezioni, è necessario creare un **Disegno** con gli elementi che si desidera utilizzare. Si prega di leggere il [Tutorial di Drawing](Drawing_tutorial/it.md) per avere una descrizione dettagliata.
 

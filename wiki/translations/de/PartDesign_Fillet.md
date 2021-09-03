@@ -25,7 +25,7 @@ Dieses Werkzeug erstellt Verrundungen (Rundungen) an den ausgewählten Kanten ei
 -   Bei einer Kette von Kanten, die tangential zueinander verlaufen, kann eine einzelne Kante ausgewählt werden; die Verrundung erstreckt sich entlang der Kette.
 -   Um die Verrundung nach der Validierung der Funktion zu bearbeiten, doppelklicke entweder auf das Label Verrundung im Projektbaum oder klicke mit der rechten Maustaste darauf und wähle **Verrundung bearbeiten**.
 
-## PartDesign Verrundung vs. Part Verrundung {#partdesign_verrundung_vs._part_verrundung}
+## PartDesign Verrundung vs. Part Verrundung 
 
 <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Verrundung](PartDesign_Fillet/de.md) ist nicht zu verwechseln mit **<img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Abrunden](Part_Fillet/de.md)** des [Part Arbeitsbereich](Part_Workbench/de.md). Obwohl sie den gleichen Namen tragen, sind sie nicht gleich und werden nicht auf die gleiche Weise verwendet.
 
@@ -36,7 +36,7 @@ Hier ist, wie sie sich voneinander unterscheiden:
 -   Die PartDesign Verrundung bietet eine Live Vorschau der Verrundung, die auf das Objekt angewendet wurde, bevor die Funktion bestätigt wird.
 -   Die Part Verrundung unterstützt variable Radien (mit einem Start- und einem Endradius). Die Verrundung von PartDesign unterstützt keine Radien.
 
-## Bekannte Probleme {#bekannte_probleme}
+## Bekannte Probleme 
 
 Verrundungen, Fasen und andere Funktionen, die auf Festkörpern arbeiten, hängen vom zugrunde liegenden OpenCASCADE Technology (OCCT) Kernel ab, den FreeCAD verwendet. Der OCCT Kernel hat gelegentlich Schwierigkeiten, mit zufälligen scharfen Kanten umzugehen, wenn sich zwei Seiten treffen. Wenn dies der Fall ist, kann FreeCAD ohne Erklärung abstürzen.
 
@@ -61,7 +61,7 @@ Siehe die Forenbeiträge für weitere Informationen:
 
 Der Anwender ist auch für die Integrität seines eigenen Modells verantwortlich. Je nach Modell kann es unmöglich sein, eine Verrundung oder Fase durchzuführen, wenn der Körper nicht groß genug ist, um diesen Vorgang zu unterstützen. So wäre es beispielsweise nicht möglich, eine 10 mm Verrundung zu erzeugen, wenn eine Kante nur 5 mm von der nächsten Oberfläche entfernt ist. In diesem Fall wäre der maximale Radius für eine Verrundung 5 mm; der Versuch, einen größeren Wert zu verwenden, kann zu einer Form führen, die nicht berechnet wird, oder sogar zu einem Crash. Wenn die Verwendung der genauen Grenze von 5 mm nicht funktioniert, kann es möglich sein, eine sehr enge Annäherung, wie z.B. 4,9999 mm, zu verwenden, um das gleiche sichtbare Ergebnis zu erzielen.
 
-### Topologische Benennung {#topologische_benennung}
+### Topologische Benennung 
 
 Kantennummern sind nicht vollständig stabil, daher ist es ratsam, dass Du die Hauptkonstruktionsarbeiten Deines Festkörpers abschließt, bevor Du Funktionen wie Verrundungen und Fasen anwendest, da sonst Kanten den Namen ändern könnten und abgerundete Kanten wahrscheinlich ungültig werden würden.
 

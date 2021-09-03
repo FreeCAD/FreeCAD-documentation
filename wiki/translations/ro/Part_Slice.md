@@ -69,7 +69,7 @@ The overall action of the tool is very similar to [Boolean Fragments](Part_Boole
 
 <div class="mw-translate-fuzzy">
 
-## Cu se folosește {#cu_se_folosește}
+## Cu se folosește 
 
 1.  Select the object to be sliced, first, and then some objects to slice with.
     The order of selection is important. Compounds with self-intersections are not allowed (self-intersections sometimes can be accounted for by passing the compound through [BooleanFragments](Part_BooleanFragments.md))
@@ -88,7 +88,7 @@ A Slice parametric object is created. Original objects are hidden, and the resul
 
 </div>
 
-### Tree structure of Slice {#tree_structure_of_slice}
+### Tree structure of Slice 
 
 The Slice command creates a sliced object. In the following example a cube is sliced by a face.
 
@@ -122,7 +122,7 @@ The slice is created and each piece of it is united in a Compound.
 
 <div class="mw-translate-fuzzy">
 
-## Exemple: making puzzle {#exemple_making_puzzle}
+## Exemple: making puzzle 
 
 1.  Switch to [Sketcher Workbench](Sketcher_Workbench.md), create an new sketch. Draw a rectangle that will outline the overall shape of the puzzle. Close the sketch.
     ![320px](images/slice_example_step1.png)
@@ -140,7 +140,7 @@ The slice is created and each piece of it is united in a Compound.
 
 </div>
 
-### Creating a Puzzle {#creating_a_puzzle}
+### Creating a Puzzle 
 
 1.  Switch to <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md)
     -   Create a new sketch.
@@ -148,7 +148,7 @@ The slice is created and each piece of it is united in a Compound.
     -   Close the sketch.
         ![320px](images/slice_example_step1.png)
 2.  Switch to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part workbench](Part_Workbench.md).
-    -   Select the sketch, and pick {{MenuCommand|Part → Create face from sketch}} .
+    -   Select the sketch, and pick **Part → Create face from sketch** .
         ![320px](images/slice_example_step2.png)
 3.  Switch back to <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md)
     -   Create another sketch on the same plane.
@@ -175,7 +175,7 @@ Acest instrument a fost introdus în FreeCAD v0.17.8053. FreeCAD și necesită c
 
 </div>
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 <div class="mw-translate-fuzzy">

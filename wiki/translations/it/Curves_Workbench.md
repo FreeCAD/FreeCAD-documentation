@@ -8,7 +8,8 @@ The Curves workbench is an [External workbench](external_workbenches.md) that is
 
 ## Installation
 
-Download the Curves workbench via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) {{MenuCommand|Tools → Addon Manager}}
+Download the Curves workbench via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) 
+**Tools → Addon Manager**
 
 ## References
 

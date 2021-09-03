@@ -47,7 +47,7 @@ Lo strumento Vista di sezione crea una vista in sezione trasversale basata sulla
 
 </div>
 
-#### Formato della superficie della sezione {#formato_della_superficie_della_sezione}
+#### Formato della superficie della sezione 
 
 -    **Cut Surface Display**: Aspetto della superficie tagliata. Opzioni:
 
@@ -68,17 +68,17 @@ Lo strumento Vista di sezione crea una vista in sezione trasversale basata sulla
 
 ### Vista
 
-#### Superficie della sezione {#superficie_della_sezione}
+#### Superficie della sezione 
 
 -    **Cut Surface Color**: tinta unita per l\'evidenziazione della superficie. Usato se **Cut Surface Display** è impostata su *Color*.
 
-#### Tratteggio della superficie {#tratteggio_della_superficie}
+#### Tratteggio della superficie 
 
 -    **Hatch Color**: Colore per le linee di tratteggio della superficie.
 
 -    **Weight Pattern**: Spessore di linea per le linee di tratteggio della superficie.
 
-### Base View {#base_view}
+### Base View 
 
 Una vista in sezione eredita tutte le proprietà applicabili della vista specificata come **BaseView**. Nelle proprietà della vista è possibile modificare l\'aspetto della linea di sezione:
 

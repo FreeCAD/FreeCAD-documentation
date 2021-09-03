@@ -30,7 +30,7 @@ Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les 
 
 Un [Part Part2DObject](Part_Part2DObject/fr.md) (de classe `Part::Part2DObject`) est dérivé d\'un [Part Feature](Part_Feature/fr.md) (de classe `Part::Feature`) de fait, il partage toutes les propriétés de cette dernière.
 
-Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), le corps de PartDesign a les propriétés suivantes dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande {{MenuCommand|Show all}} dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
+Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), le corps de PartDesign a les propriétés suivantes dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
 
 ### Données
 
@@ -47,7 +47,7 @@ Les deux propriétés suivantes sont normalement masquées. Ils deviennent visib
 
 -    {{PropertyData/fr|Attachment Offset|Placement}}: la position de l\'objet dans la [vue 3D](3D_view/fr.md) par rapport au placement de l\'objet attaché. Le placement est défini par un point `Base` (vecteur) et `Rotation` (axe et angle). Voir [Positionnement](Placement/fr.md).
 
-##### Propriétés cachées de Données {#propriétés_cachées_de_données}
+##### Propriétés cachées de Données 
 
 
 {{TitleProperty|Base}}
@@ -78,7 +78,7 @@ Les deux propriétés suivantes sont normalement masquées. Ils deviennent visib
 
 -    {{PropertyView/fr|Tight Grid|Bool}}: si mis à `True`, valeur par defaut, la grille locale sera localisée autour de l\'origine de la forme, sinon elle se prolongera davantage.
 
-##### Propriétés cachées de Données {#propriétés_cachées_de_données_1}
+##### Propriétés cachées de Données 
 
 
 {{TitleProperty/fr|Base}}

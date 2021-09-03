@@ -191,7 +191,7 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 The BeamReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
-### Create Two Legged Stirrups {#create_two_legged_stirrups}
+### Create Two Legged Stirrups 
 
 
 ```python

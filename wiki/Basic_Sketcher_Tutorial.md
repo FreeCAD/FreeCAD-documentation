@@ -32,9 +32,9 @@ For a more in depth description of the sketcher, read the [Sketcher reference](S
 
 ## Setup
 
-1\. Open FreeCAD, create a new empty document with {{MenuCommand|File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)}}.
+1\. Open FreeCAD, create a new empty document with **File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
 
-:   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu {{MenuCommand|[View](Std_View_Menu.md) → Workbench → Sketcher}}.
+:   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **[View](Std_View_Menu.md) → Workbench → Sketcher**.
 
 Some actions to remember:
 
@@ -42,7 +42,7 @@ Some actions to remember:
 -   To exit the sketch edit mode, press the **Close** button in the [task panel](task_panel.md), or press **Esc** twice in the keyboard.
 -   To enter again edit mode, double click on the sketch in the <img src=images/Sketcher_EditSketch.svg style="width:tree view](tree_view.md), or select it, and then click on **[16px"> [Edit sketch](Sketcher_EditSketch.md)**.
 
-## Create a sketch {#create_a_sketch}
+## Create a sketch 
 
 2\. Click on **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [New sketch](Sketcher_NewSketch.md)**.
 
@@ -55,18 +55,18 @@ We are now inside the sketch edit mode. Within it, we\'re able to make use of th
 
 **Note:**
 
-the [tree view](tree_view.md) will switch to the [task panel](task_panel.md); in this interface expand the {{MenuCommand|Edit controls}} section, and make sure the {{MenuCommand|Auto constraints}} option is enabled. Other options can be changed including the size of the visible grid, and whether we want to snap to it; in this tutorial we will not snap to the grid and we will also hide it. In other sections of the [task panel](task_panel.md) you can also see which geometrical elements and constraints have been defined.
+the [tree view](tree_view.md) will switch to the [task panel](task_panel.md); in this interface expand the **Edit controls** section, and make sure the **Auto constraints** option is enabled. Other options can be changed including the size of the visible grid, and whether we want to snap to it; in this tutorial we will not snap to the grid and we will also hide it. In other sections of the [task panel](task_panel.md) you can also see which geometrical elements and constraints have been defined.
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
 
 
 *Upper part of the [task panel](task_panel.md) of the sketcher.*
 
-## Construction geometry {#construction_geometry}
+## Construction geometry 
 
 3\. Construction geometry is used to guide the creation of \"real\" geometry. Real geometry will be the one shown outside of the sketch edit mode, while construction geometry will only be shown inside the edit mode. Therefore, you can use as much construction geometry as you need to build real shapes.
 
-:   3.1. Click on **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Toggle construction](Sketcher_ToggleConstruction.md)**. Now geometrical elements will be drawn in {{MenuCommand|Construction mode}}.
+:   3.1. Click on **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Toggle construction](Sketcher_ToggleConstruction.md)**. Now geometrical elements will be drawn in **Construction mode**.
 :   3.2. Click on **<img src="images/Sketcher_Line.svg" width=16px> [Create line](Sketcher_CreateLine.md)**.
 :   3.3. Approach the **origin** of the sketch, the point should highlight and near your cursor the <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [coincident constraint](Sketcher_ConstrainCoincident.md) icon will appear.
 :   3.4. Click on the point, then move the pointer to start drawing a new line from it. Move the pointer so that the line has a length to around {{Value|30 mm}}. You don\'t have to be very precise in this step; later we will set the correct dimension.
@@ -83,22 +83,22 @@ up to this point the [line tool](Sketcher_CreateLine.md) is still active. This m
 
 do not press **Esc** a second time as this will exit the sketch edit mode. If you do this, re-enter the edit mode by double clicking on the sketch in the [tree view](tree_view.md).
 
-Take a look at the [task panel](task_panel.md) again. The {{MenuCommand|Solver messages}} section already indicates that the sketch is under-constrained, and it mentions the number of **degrees of freedom**.
+Take a look at the [task panel](task_panel.md) again. The **Solver messages** section already indicates that the sketch is under-constrained, and it mentions the number of **degrees of freedom**.
 
-Look at the {{MenuCommand|Constraints}} and {{MenuCommand|Elements}} sections to see the new listed constraints and lines. Once your sketches have many elements, it may be difficult to select them in the [3D view](3D_view.md), so you can use these lists to select the object that you wish exactly.
+Look at the **Constraints** and **Elements** sections to see the new listed constraints and lines. Once your sketches have many elements, it may be difficult to select them in the [3D view](3D_view.md), so you can use these lists to select the object that you wish exactly.
 
  <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;"> 
 
 
 *Construction lines forming a star shape with its center in the origin.*
 
-## Real geometry {#real_geometry}
+## Real geometry 
 
 Real geometry must make a closed shape if it is to be used as a profile that can be extruded by tools such as **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)**.
 
 Make sure you are not in construction mode by clicking on **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction](Sketcher_ToggleConstruction.md)**, if you have not previously exited this mode.
 
-### Outer arcs {#outer_arcs}
+### Outer arcs 
 
 4\. Create a circle.
 
@@ -119,7 +119,7 @@ Make sure you are not in construction mode by clicking on **<img src=images/Sket
 
 *Circular arcs added at the endpoints of the construction lines. Also a central circle.*
 
-### Inner arcs {#inner_arcs}
+### Inner arcs 
 
 6\. Create an arc between each pair of the previous O-arcs.
 
@@ -136,7 +136,7 @@ To summarize, the O-arcs should have their curvature pointing outwards, and thei
 
 ## Constraints
 
-Take a look at the [task panel](task_panel.md) again. Due to the new geometrical elements that we have drawn, the {{MenuCommand|Solver messages}} section indicates even more **degrees of freedom**. A **degree of freedom** (DOF) indicates a possible movement of one element. For example, a point can be moved both in horizontal and vertical directions, so it has two degrees of freedom. A line is defined by two points, therefore in total it has four degrees of freedom. If we fix one of those points, then the entire system has only two degrees of freedom available; if we additionally fix the horizontal movement of the remaining point, we only have one degree of freedom left; and if we also fix the vertical movement of this point, then the last degree of freedom disappears, and the line cannot move from its position any more.
+Take a look at the [task panel](task_panel.md) again. Due to the new geometrical elements that we have drawn, the **Solver messages** section indicates even more **degrees of freedom**. A **degree of freedom** (DOF) indicates a possible movement of one element. For example, a point can be moved both in horizontal and vertical directions, so it has two degrees of freedom. A line is defined by two points, therefore in total it has four degrees of freedom. If we fix one of those points, then the entire system has only two degrees of freedom available; if we additionally fix the horizontal movement of the remaining point, we only have one degree of freedom left; and if we also fix the vertical movement of this point, then the last degree of freedom disappears, and the line cannot move from its position any more.
 
 Up to now when we have drawn lines and curves, the sketcher has added automatic constraints for us, those that keep the lines tied to the origin, and the O-arcs tied to the construction lines. But we haven\'t added other explicit constraints so the geometrical shapes can still be moved in many directions. **Constraints are \"rules\" that tell us under which conditions a geometrical object can move and by how much.** They are used to eliminate the degrees of freedom so that the sketch has a stable shape. If we eliminate all degrees of freedom, then the sketch is **fully constrained**, and has a fixed shape, that is, its points cannot move at all. In general, it is a good idea to fully constrain sketches because this will result in stable models.
 
@@ -146,9 +146,9 @@ There are two principal types of constraints:
 
 -    **Datum constraints**define characteristics of the shapes by specifying dimensions, for example, a numeric length or an angle.
 
-## Geometric constraints {#geometric_constraints}
+## Geometric constraints 
 
-### Equal length and radius {#equal_length_and_radius}
+### Equal length and radius 
 
 7\. Geometrically constrain the lines and arcs.
 
@@ -211,11 +211,11 @@ As of this step, we have now created a closed profile, as all arcs have been tie
 
 *Sketch with tangential constraints applied to the arcs, which closes the shape.*
 
-## Datum constraints {#datum_constraints}
+## Datum constraints 
 
 These constraints specify the numerical distances between two points, and angles between two lines.
 
-### Distances and angles {#distances_and_angles}
+### Distances and angles 
 
 9\. Adjust the size of the construction lines.
 
@@ -277,7 +277,7 @@ We should end up with a fully constrained sketch. It can be confirmed by noticin
 
 *Left: fully constrained sketch with only the most important constraints showing. Right: solid extrusion produced with [PartDesign Pad](PartDesign_Pad.md).*
 
-## Additional information {#additional_information}
+## Additional information 
 
 For a more in depth description of the sketcher, visit the [Sketcher Workbench](Sketcher_Workbench.md) documentation and also read the [Sketcher reference](Sketcher_reference.md).
 

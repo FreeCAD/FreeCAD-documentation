@@ -8,23 +8,23 @@ Then, if you cannot find an answer for your specific question, head to the FreeC
 
 {{TOCright}}
 
-## Import 2D/3D Data {#import_2d3d_data}
+## Import 2D/3D Data 
 
-### Autodesk DWG {#autodesk_dwg}
+### Autodesk DWG 
 
 Please refer to the Page [FreeCAD and DWG-Import](FreeCAD_and_DWG_Import.md)
 
-### Autodesk DXF {#autodesk_dxf}
+### Autodesk DXF 
 
 Please refer to the Page [FreeCAD and DXF Import](FreeCAD_and_DXF_Import.md)
 
 Tutorial: [DXF Importer Install](Dxf_Importer_Install.md)
 
-### BREP Format {#brep_format}
+### BREP Format 
 
 Todo
 
-### Calculix Result {#calculix_result}
+### Calculix Result 
 
 Todo
 
@@ -34,7 +34,7 @@ Importing Collada files requires an external Python module to be installed on yo
 
 See also: [Importing From Sketchup](Importing_From_Sketchup.md)
 
-### Common Airfoil Data {#common_airfoil_data}
+### Common Airfoil Data 
 
 Please refer to the Page [Common Airfoil Data Import](Common_Airfoil_Data_Import.md)
 
@@ -42,17 +42,17 @@ Please refer to the Page [Common Airfoil Data Import](Common_Airfoil_Data_Import
 
 Todo
 
-### FEM Formats {#fem_formats}
+### FEM Formats 
 
 Todo
 
-### FreeCAD Material Cards {#freecad_material_cards}
+### FreeCAD Material Cards 
 
 Is intended to import Material Cards for use in FreeCAD itself and in the [FEM-Workbench](FEM_Workbench.md).
 
 **Not functional at the moment.**
 
-### IDF emn file {#idf_emn_file}
+### IDF emn file 
 
 Todo
 
@@ -60,39 +60,39 @@ Todo
 
 Currently there is no support for text or annotation import with the IGES format due to lack of support with FreeCAD\'s geometric CAD kernel.
 
-### Image Formats {#image_formats}
+### Image Formats 
 
 Todo
 
-### Industry Foundation Classes IFC {#industry_foundation_classes_ifc}
+### Industry Foundation Classes IFC 
 
 -   [Export IFC - compiling IfcOpenShell](Export_IFC_-_compiling_IfcOpenShell.md)
 
-### Inventor V2.1 {#inventor_v2.1}
+### Inventor V2.1 
 
 Todo
 
-### Mesh Formats {#mesh_formats}
+### Mesh Formats 
 
 Please refer to the Page [FreeCAD and Mesh Import](FreeCAD_and_Mesh_Import.md)
 
-### Open CAD Format {#open_cad_format}
+### Open CAD Format 
 
 Todo
 
-### OpenSCAD CSG Format {#openscad_csg_format}
+### OpenSCAD CSG Format 
 
 Todo
 
-### OpenSCAD Format {#openscad_format}
+### OpenSCAD Format 
 
 See [Import OpenSCAD code](Import_OpenSCAD_code.md)
 
-### Point Formats {#point_formats}
+### Point Formats 
 
 Todo
 
-### POVRay Format {#povray_format}
+### POVRay Format 
 
 Todo
 
@@ -100,7 +100,7 @@ Todo
 
 Todo
 
-### Step with Colors {#step_with_colors}
+### Step with Colors 
 
 Currently there is no support for text or annotation import with the STEP format due to lack of support with FreeCAD\'s geometric CAD kernel.
 
@@ -112,53 +112,53 @@ See [Arch SHP](Arch_SHP.md)
 
 Todo
 
-### SVG as geometry {#svg_as_geometry}
+### SVG as geometry 
 
 Todo
 
-### VRML 2.0 {#vrml_2.0}
+### VRML 2.0 
 
 Todo
 
-## Export 2D/3D Data {#export_2d3d_data}
+## Export 2D/3D Data 
 
-### 3D View (SVG) {#d_view_svg}
-
-Todo
-
-### Autodesk DWG {#autodesk_dwg_1}
+### 3D View (SVG) 
 
 Todo
 
-### Asymptote ASY {#asymptote_asy}
+### Autodesk DWG 
+
+Todo
+
+### Asymptote ASY 
 
 [Export meshes to Asymptote code.](Asymptote.md)
 
-### BREP Format {#brep_format_1}
+### BREP Format 
 
 Todo
 
-### Collada {#collada_1}
+### Collada 
 
 Todo
 
-### Drawing {#drawing_1}
+### Drawing 
 
 Todo
 
-### FEM Formats {#fem_formats_1}
+### FEM Formats 
 
 Todo
 
-### Flattened SVG {#flattened_svg}
+### Flattened SVG 
 
 Todo
 
-### GL Transmission Format gITF {#gl_transmission_format_gitf}
+### GL Transmission Format gITF 
 
 -   [glTF](glTF.md)
 
-### IGES Format {#iges_format}
+### IGES Format 
 
 -   From the 3D-View simply select (in the tree-view) the solid(s) to export and select \"File -\> Export\".
 -   Then select your file type (IGES). No need to type in the file extension. FreeCAD will append a \".iges\" automatically
@@ -168,15 +168,15 @@ Pressing CTRL-A will select ALL solids in the tree view, even the invisible ones
 Make sure to manually select all the solids you want to export.
 Currently there is no support for text or annotation export with the IGES format due to lack of support with FreeCAD\'s geometric CAD kernel.
 
-### Industry Foundation Classes IFC {#industry_foundation_classes_ifc_1}
+### Industry Foundation Classes IFC 
 
 -   [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell.md)
 
-### Inventor V2.1 {#inventor_v2.1_1}
+### Inventor V2.1 
 
 Todo
 
-### Mesh Formats {#mesh_formats_1}
+### Mesh Formats 
 
 -   From the 3D-View simply select (in the tree-view) the solid(s) to export and select \"File -\> Export\".
 -   Then select your file type. Be sure to type in also the file extension. Since these formats are mesh formats, the solids will be exported with a \"standard\" mesh quality.
@@ -186,23 +186,23 @@ Todo
 Pressing CTRL-A will select ALL solids in the tree view, even the invisible ones.
 Make sure to manually select all the solids you want to export.
 
-### Open CAD Format {#open_cad_format_1}
+### Open CAD Format 
 
 Todo
 
-### OpenSCAD CSG Format {#openscad_csg_format_1}
+### OpenSCAD CSG Format 
 
 Todo
 
-### OpenSCAD Format {#openscad_format_1}
+### OpenSCAD Format 
 
 Todo
 
-### Portable Document Format {#portable_document_format}
+### Portable Document Format 
 
 Todo
 
-### Step with Colors {#step_with_colors_1}
+### Step with Colors 
 
 From the 3D-View simply select (in the tree-view) the solid(s) to export and select \"File -\> Export\".
 
@@ -210,29 +210,29 @@ In FreeCAD 0.15 and above, by selecting \"Edit -\> Preferences\" and then \"Impo
 
 Currently there is no support for text or annotation export with the STEP format due to lack of support with FreeCAD\'s geometric CAD kernel.
 
-### Spreadsheet {#spreadsheet_1}
+### Spreadsheet 
 
 Todo
 
-### TetGen File {#tetgen_file}
+### TetGen File 
 
 Todo
 
-### VRML 2.0 {#vrml_2.0_1}
+### VRML 2.0 
 
 Todo
 
-### Wavefront OBJ - Arch Workbench {#wavefront_obj___arch_workbench}
+### Wavefront OBJ - Arch Workbench 
 
 Todo
 
 -   Convert STL to OBJ [forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=43543&p=372030#p370843)
 
-### WebGL File {#webgl_file}
+### WebGL File 
 
 Todo
 
-## Export Data from third-party programs for import into FreeCAD {#export_data_from_third_party_programs_for_import_into_freecad}
+## Export Data from third-party programs for import into FreeCAD 
 
 Tips and Tricks with using Third-Party Software
 

@@ -26,7 +26,7 @@ Narzędzie 2PointCosmeticLine dodaje linię kosmetyczną pomiędzy dwoma wierzch
 
 Aby usunąć linię kosmetyczną należy wybrać linię do usunięcia i użyć przycisku z paska narzędzi **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md)**.
 
-## Edycja linii kosmetycznej {#edycja_linii_kosmetycznej}
+## Edycja linii kosmetycznej 
 
 Aby zmienić punkty końcowe linii kosmetycznej, użyj narzędzia **<img src="images/TechDraw-line2points.svg" width=16px> Dodaj linię kosmetyczną wytyczoną przez dwa punkty
 **
@@ -42,7 +42,7 @@ Aby pozbyć się linii kosmetycznej, użyj narzędzia [Usuń obiekt kosmetyczny]
 
 Linie kosmetyczne nie mają własnych właściwości, ponieważ nie są obiektami dokumentu.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Zobacz również:**

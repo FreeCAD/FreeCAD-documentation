@@ -25,7 +25,7 @@ Il comando Cubo dell\'ambiente [Part](Part_Workbench/it.md) inserisce nel docume
 1.  Passare nell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Parte](Part_Workbench/it.md)
 2.  Si può invocare il comando in diversi modi:
     -   Premere il pulsante **<img src="images/Part_Box.svg" width=24px>** sulla barra degli strumenti
-    -   Selezionare {{MenuCommand|Parte → Primitive → Cubo}} nella barra dei menù.
+    -   Selezionare **Parte → Primitive → Cubo** nella barra dei menù.
 
 
 </div>

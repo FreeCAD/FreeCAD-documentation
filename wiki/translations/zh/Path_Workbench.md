@@ -34,7 +34,7 @@ FreeCAD刀路工作台按如下工作流程创建这些机器指令：
 
 </div>
 
-## General concepts {#general_concepts}
+## General concepts 
 
 
 <div class="mw-translate-fuzzy">
@@ -61,10 +61,10 @@ The G-code is generated from directives and Operations contained in a Path Job. 
 
 刀路工作台的外部依赖包括：
 
-1.  在 {{MenuCommand|编辑 → 首选项 → General → 单位标签的单位设定}}中设置的FreeCAD的3D数模尺寸单位。前置处理程序设置定义了最终的G-code尺寸单位。
-2.  宏文件路径和几何公差在{{MenuCommand|编辑 → 首选项 → 刀路 → 作业偏好设定}}标签中设置.
-3.  颜色在{{MenuCommand|编辑 → 首选项 → 刀路 → 刀路颜色}}标签中设置.
-4.  持有标记参数在{{MenuCommand|编辑 → 首选项 → 刀路 → 修剪}}标签中设置.
+1.  在 **编辑 → 首选项 → General → 单位标签的单位设定**中设置的FreeCAD的3D数模尺寸单位。前置处理程序设置定义了最终的G-code尺寸单位。
+2.  宏文件路径和几何公差在**编辑 → 首选项 → 刀路 → 作业偏好设定**标签中设置.
+3.  颜色在**编辑 → 首选项 → 刀路 → 刀路颜色**标签中设置.
+4.  持有标记参数在**编辑 → 首选项 → 刀路 → 修剪**标签中设置.
 5.  基础3D数模品质支持刀路WB需求，通过几何体检查。
 
 
@@ -104,7 +104,7 @@ Some current limitations of which you should be aware are:
 
 1.  如果你使用刀路检查工具查看G-code，你将在其中看到\'mm/s\'，应为它还没有被进行后置处理。
 
-## Heights and depths {#heights_and_depths}
+## Heights and depths 
 
 
 <div class="mw-translate-fuzzy">
@@ -121,7 +121,7 @@ Some current limitations of which you should be aware are:
 
 Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
 
-### Project Commands {#project_commands}
+### Project Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -155,7 +155,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### Tool Commands {#tool_commands}
+### Tool Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -187,7 +187,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
 
-### Basic Operations {#basic_operations}
+### Basic Operations 
 
 -   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Creates a profile operation of the entire model, or from one or more selected faces or edges. <small>(v0.19)</small> 
 
@@ -243,7 +243,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### 3D Operations {#d_operations}
+### 3D Operations 
 
 
 <div class="mw-translate-fuzzy">
@@ -263,7 +263,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
-### Path Dressup {#path_dressup}
+### Path Dressup 
 
 -   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Boundary Dressup](Path_DressupPathBoundary.md): Adds a boundary dressup modification to a selected path.
 
@@ -307,7 +307,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### Supplemental Commands {#supplemental_commands}
+### Supplemental Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -409,7 +409,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-## ToolBit architecture {#toolbit_architecture}
+## ToolBit architecture 
 
 Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
 

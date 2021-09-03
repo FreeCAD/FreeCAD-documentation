@@ -38,18 +38,18 @@ Per essere utilizzato, questo vincolo richiede più impegno di quanto ne richied
 
 </div>
 
-## Operation on Ellipse {#operation_on_ellipse}
+## Operation on Ellipse 
 
 
 <div class="mw-translate-fuzzy">
 
-## Operazioni su Ellisse {#operazioni_su_ellisse}
+## Operazioni su Ellisse 
 
 1.  Selezionare gli elementi da allineare e un\'ellisse. L\'ellisse deve essere selezionato per ultimo. Sono accettate fino a due linee e fino a due punti.
 2.  Richiamare il vincolo in uno di questi modi:
     -   Cliccare sull\'icona **<img src="images/Constraint_InternalAlignment.svg" width=16px>** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **Ctrl** + **A**.
-    -   Usare la voce {{MenuCommand|Sketch → Vincoli → Allineamento interno}} dal menu principale.
+    -   Usare la voce **Sketch → Vincoli → Allineamento interno** dal menu principale.
 
 
 </div>

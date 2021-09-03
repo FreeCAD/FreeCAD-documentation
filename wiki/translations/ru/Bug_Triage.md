@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Для чего {#для_чего}
+## Для чего 
 
 
 {{ColoredParagraph|Triageː
@@ -20,9 +20,9 @@
 
 Сортировка ошибок важна для организации и приоритизации ошибок / функций/исправлений по сравнению с FreeCAD Bug Tracker. Если эта задача игнорируется, проект может пострадать от так называемого \"Bloat Bugtracker\", который в основном состоит из накопления и разложения пропущенных билетов. Сортировка также помогает идентифицировать дубликаты билетов, которые, как правило, накапливаются, особенно если существует давняя нерешенная проблема, о которой команда FC знает, но не имеет необходимых ресурсов, независимо от причины.
 
-## Как происходит сортировка {#как_происходит_сортировка}
+## Как происходит сортировка 
 
-### Статус Тикета {#статус_тикета}
+### Статус Тикета 
 
 #### New
 
@@ -38,7 +38,7 @@ All current [open FreeCAD tickets with **NEW** status](https://freecadweb.org/tr
 
 #### Подтвержден
 
-#### Обратная связь {#обратная_связь}
+#### Обратная связь 
 
 Тикеты обозначаются в этом состоянии, когда OP просит предоставить дополнительную информацию.
 
@@ -73,7 +73,7 @@ All current [open FreeCAD tickets with **ASSIGNED** status](https://freecadweb.o
 
 ------------------------------------------------------------------------
 
-### Ticket Resolutioɲ {#ticket_resolutioɲ}
+### Ticket Resolutioɲ 
 
 #### Open
 
@@ -83,7 +83,7 @@ Self-explanatory, all tickets remain as \'open\' if they are still relevant at t
 
 Tickets that have been fixed.
 
-#### Unable to reproduce {#unable_to_reproduce}
+#### Unable to reproduce 
 
 Tickets deemed un-reproducible
 
@@ -91,15 +91,15 @@ Tickets deemed un-reproducible
 
 Tickets that are or have a duplicate ticket.
 
-#### No change required {#no_change_required}
+#### No change required 
 
 Tickets were it has been ascertained that no modifications are necessary.
 
-#### Won\'t fix {#wont_fix}
+#### Won\'t fix 
 
 FC team has rejected the ticket request for whatever reason stated.
 
-#### Not fixable {#not_fixable}
+#### Not fixable 
 
 #### Reopened
 
@@ -107,7 +107,7 @@ Tickets that have been closed me then re-opened for a relevant reason. Most like
 
 #### Suspended
 
-### Приоритет Тикета {#приоритет_тикета}
+### Приоритет Тикета 
 
 #### Immediatə
 
@@ -121,15 +121,15 @@ Tickets that have been closed me then re-opened for a relevant reason. Most like
 
 #### None
 
-### Степень важности Тикета {#степень_важности_тикета}
+### Степень важности Тикета 
 
 #### Block
 
 #### Crash
 
-#### Major (Важный) {#major_важный}
+#### Major (Важный) 
 
-#### Minor (Незначительный) {#minor_незначительный}
+#### Minor (Незначительный) 
 
 #### Tweak
 
@@ -139,7 +139,7 @@ Tickets that have been closed me then re-opened for a relevant reason. Most like
 
 #### Feature
 
-## Tagging Tickets {#tagging_tickets}
+## Tagging Tickets 
 
 An important methodology to track tickets by a certain subject/theme/category. It\'s important that **Existing Tags** be used to tag issues **before** new tags are created. If duplicate or superfluous tags are created the bug tracker admin is responsible to remove them and if possible retag said tickets.
 

@@ -7,7 +7,7 @@
 
 This page serves as a reference for the available overridable methods on [Create a FeaturePython object part I](Create_a_FeaturePython_object_part_I.md) or [Scripted objects](Scripted_objects.md).
 
-## Primary reference {#primary_reference}
+## Primary reference 
 
 The below methods account for \~99% of the use-cases power-users may have for Python proxy classes.
 
@@ -33,7 +33,7 @@ The below methods account for \~99% of the use-cases power-users may have for Py
 
 It is not uncommon to encounter a situation where the Python callbacks are not being triggered as they should. Beginners in this area can rest assured that the FeaturePython callback system is not fragile or broken. Invariably when callbacks fail to run it is because a reference is lost or undefined in the underlying code. If, however, callbacks appear to be breaking with no explanation, providing object/proxy references in the `onDocumentRestored()` callback (as noted in the first table above) may alleviate these problems. Until you are comfortable with the callback system, it may be useful to add print statements in each callback to print messages to the console during development.
 
-## Additional methods {#additional_methods}
+## Additional methods 
 
 The below methods are for **advanced** usage of Python proxy classes and you won\'t have a need for them most of the time.
 
@@ -50,7 +50,7 @@ The below methods are for **advanced** usage of Python proxy classes and you won
 -   canLoadPartial
 -   onBeforeChangeLabel
 
-## Determining available Python methods {#determining_available_python_methods}
+## Determining available Python methods 
 
 Within the [FeaturePython Template Class](https://github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L161-L351) exists various () calls.
 
@@ -60,7 +60,7 @@ For example, imp->execute() [on line 193](https://github.com/FreeCAD/FreeCAD/blo
 
 Note, getPyObject() and init() are special-cases and don\'t follow the above heuristic.
 
-## See also {#see_also}
+## See also 
 
 -   [FreeCAD GitHub: FeaturePython.h - public API](https://github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L44-L86)
 -   [FreeCAD GitHub: FeaturePythonT template class](https://github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L167)

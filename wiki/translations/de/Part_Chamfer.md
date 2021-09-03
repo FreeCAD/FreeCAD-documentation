@@ -31,7 +31,7 @@ Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, w
 
 1.  Rufe den Befehl Fase auf mehrere Arten im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Formteil Arbeitsbereich](Part_Workbench/de.md)
     -   Drücke die **<img src="images/Part_Chamfer.svg" width=30px>** Schaltfläche in der Formteil Werkzeugleiste
-    -   Verwende den {{MenuCommand|Part → Fase}} Eintrag im Formteil Menü
+    -   Verwende den **Part → Fase** Eintrag im Formteil Menü
 2.  Wähle die anzufasende Form aus dem Dialogfeld aus.
 3.  Wähle die anzufasenden Kanten aus, indem du das entsprechende Kästchen im Dialogfeld für Fasen anhakst oder indem du sie direkt am Modell auswählst.
 4.  Bearbeite Fasenparameter.

@@ -19,7 +19,7 @@
 1.  Переключитесь на <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [верстак Part](Part_Workbench/ru.md)
 2.  Получить доступ к команде Правильный Многоугольник можно несколькими способами:
     -   Через диалог Создание Примитивов, нажав кнопку <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Примитивы](Part_Primitives/ru.md) расположенную на панели Part
-    -   Через главное меню {{MenuCommand|Деталь → [Создать примитивы](Part_Primitives/ru.md)→ Правильный Многоугольник}}
+    -   Через главное меню **Деталь → [Создать примитивы](Part_Primitives/ru.md)→ Правильный Многоугольник**
 
 ## Параметры
 

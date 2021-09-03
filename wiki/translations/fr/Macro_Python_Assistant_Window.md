@@ -94,7 +94,7 @@ La plupart des fonctionnalités du PAW sont fournies par le menu contextuel. Les
     - la fenêtre PAW est fermée et le contenu est enregistré dans le fichier de stockage persistant
      Remarque : il n\'y a pas de boîte de dialogue demandant de sauvegarder, cela se fait automatiquement
 
-## Interface utilisateur {#interface_utilisateur}
+## Interface utilisateur 
 
 L'interface utilisateur est un simple éditeur de texte, un bouton permet de démarrer le PAW et un menu contextuel d'options pour afficher le texte dans la fenêtre d'édition. Les options sont décrites dans la section Utilisation.
 

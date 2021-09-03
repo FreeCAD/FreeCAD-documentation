@@ -26,7 +26,7 @@ Pour appliquer la contrainte perpendiculaire, suivre les étapes suivantes :
 -   Sélectionnez deux ou trois entités dans l\'esquisse.
 -   Appelez la contrainte en cliquant sur son icône sur la barre d\'outils, ou en sélectionnant l\'option de menu, ou en utilisant le raccourci clavier.
 
-### Entre deux courbes (directement perpendiculaire) {#entre_deux_courbes_directement_perpendiculaire}
+### Entre deux courbes (directement perpendiculaire) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:600px;">
 
@@ -41,7 +41,7 @@ Si la perpendicularité direct entre les courbes sélectionnées n\'est pas pris
 
 Contrairement aux tangences, il est parfaitement bien de reconstruire le point de perpendicularité en créant un point et le contraindre d\'être sur les deux courbes (Contraignant ainsi le point à l\'intersection).
 
-### Entre deux points terminaux (perpendicularité point-à-point) {#entre_deux_points_terminaux_perpendicularité_point_à_point}
+### Entre deux points terminaux (perpendicularité point-à-point) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
 
@@ -51,7 +51,7 @@ Dans ce mode, les extrémités sont confondues et le joint est fait pour être �
 
 -   point extrémité de ligne/arc/arc d\'ellipse + extrémité de ligne/arc/arc d\'ellipse (soit, deux points de deux courbes)
 
-### Entre courbe et extrémité (Perpendicularité de point-à-courbe) {#entre_courbe_et_extrémité_perpendicularité_de_point_à_courbe}
+### Entre courbe et extrémité (Perpendicularité de point-à-courbe) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
 
@@ -61,7 +61,7 @@ Dans ce mode, une extrémité d\'une courbe est contraint de se trouver sur l\'a
 
 -   ligne, cercle, arc, ellipse, arc-d\'ellipse + extrémité de ligne/arc/arc-d\'ellipse (soit., courbe + extrémité de courbe)
 
-### Entre deux courbes en un point (perpendiculaire-par-point) (v0.15) {#entre_deux_courbes_en_un_point_perpendiculaire_par_point_v0.15}
+### Entre deux courbes en un point (perpendiculaire-par-point) (v0.15) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:600px;">
 

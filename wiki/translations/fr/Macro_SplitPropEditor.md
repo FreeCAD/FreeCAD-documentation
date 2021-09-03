@@ -35,7 +35,7 @@ Pour des explications plus détaillées, consultez la page [Comment installer un
 
 ## Script
 
-### Discussion du forum {#discussion_du_forum}
+### Discussion du forum 
 
 Pour tout commentaire (bug, demande de fonctionnalité, commentaires, \...), merci d\'utiliser ce fil de discussion: <https://forum.freecadweb.org/viewtopic.php?f=22&t=39345>
 

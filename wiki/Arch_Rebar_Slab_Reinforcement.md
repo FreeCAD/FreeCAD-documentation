@@ -10,7 +10,7 @@
 
 The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="inline" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
 *A Example of Slab Reinforcement inside a Slab [Arch Structure](Arch_Structure.md)*
@@ -98,7 +98,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 The Slab Reinforcement tool can be used from the [Python](Python.md) console by using the following function:
 
-### Create Slab Reinforcement {#create_slab_reinforcement}
+### Create Slab Reinforcement 
 
  
 ```python
@@ -233,7 +233,7 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **facename**: selected face of structure. Default is None
 
-### Edition of Slab Reinforcement {#edition_of_slab_reinforcement}
+### Edition of Slab Reinforcement 
 
 You can change the properties of the Slab Reinforcement with the following function
 
@@ -288,7 +288,7 @@ slabReinforcementGroup = editSlabReinforcement(
 
 -   The other parameters are the same as required by the `makeSlabReinforcement()` function.
 
-### Examples for Slab Reinforcement {#examples_for_slab_reinforcement}
+### Examples for Slab Reinforcement 
 
 -   [Slab Spanning in Two Directions](Example_Slab_Spanning_in_Two_Directions.md)
 

@@ -55,13 +55,13 @@ Dieses Werkzeug kann für jedes Objekt verwendet werden, das eine [Part TopoForm
 
 ## Optionen
 
--   Enter the {{MenuCommand|Number of elements}} for the X, Y and Z directions. This number must be at least {{Value|1}} for every direction.
--   Enter the {{MenuCommand|X intervals}} to specify the displacement for the elements in the X direction. For a rectangular array the Y and Z values must be {{Value|0}}.
--   Enter the {{MenuCommand|Y intervals}} to specify the displacement for the elements in the Y direction. For a rectangular array the X and Z values must be {{Value|0}}.
--   Enter the {{MenuCommand|Z intervals}} to specify the displacement for the elements in the Z direction. For a rectangular array the X and Y values must be {{Value|0}}.
--   Press the {{MenuCommand|Reset X, Y or Z}} button to reset the displacement in the given direction to the default values.
--   If the {{MenuCommand|Fuse}} checkbox is checked overlapping elements in the array are fused. This does not work for Link arrays.
--   If the {{MenuCommand|Link array}} checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
+-   Enter the **Number of elements** for the X, Y and Z directions. This number must be at least {{Value|1}} for every direction.
+-   Enter the **X intervals** to specify the displacement for the elements in the X direction. For a rectangular array the Y and Z values must be {{Value|0}}.
+-   Enter the **Y intervals** to specify the displacement for the elements in the Y direction. For a rectangular array the X and Z values must be {{Value|0}}.
+-   Enter the **Z intervals** to specify the displacement for the elements in the Z direction. For a rectangular array the X and Y values must be {{Value|0}}.
+-   Press the **Reset X, Y or Z** button to reset the displacement in the given direction to the default values.
+-   If the **Fuse** checkbox is checked overlapping elements in the array are fused. This does not work for Link arrays.
+-   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
 -   Press **Esc** or the **Cancel** button to abort the command.
 
 ## Notes
@@ -79,7 +79,7 @@ Dieses Werkzeug kann für jedes Objekt verwendet werden, das eine [Part TopoForm
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Eigenschaften
 
@@ -272,7 +272,7 @@ The properties in this group are not inherited by Link arrays.
 
 </div>
 
-### Parametric array {#parametric_array}
+### Parametric array 
 
 
 <div class="mw-translate-fuzzy">
@@ -354,7 +354,7 @@ array = Draft.make_ortho_array2d(rect, v_x, v_y, 3, 4)
 doc.recompute()
 ```
 
-### Non-parametric array {#non_parametric_array}
+### Non-parametric array 
 
 
 <div class="mw-translate-fuzzy">

@@ -16,7 +16,7 @@ Da fare
 
 Plots the ship hull outline draw
 
-## Disegno delle linee {#disegno_delle_linee}
+## Disegno delle linee 
 
 Ship fornisce uno strumento che rende semplice ottenere un Piano delle linee dal disegno delle linee della nave
 
@@ -45,7 +45,7 @@ Il disegno delle linee è un insieme di sezione sui 3 assi, che alla fine mostre
 
 <div class="mw-translate-fuzzy">
 
-### Sezioni trasversali {#sezioni_trasversali}
+### Sezioni trasversali 
 
 Di solito devono essere eseguite 21 sezioni trasversali equidistanti tra le perpendicolari. Per eseguire questa operazione FreeCAD-Ship fornisce uno strumento automatico, è sufficiente selezionare **Transversal** come tipo di sezione, andare nel dialogo **Auto create** e impostare **21** nel campo delle sezioni, poi premere **Create sections**.
 
@@ -72,7 +72,7 @@ Secondo la complessità della geometria dello scafo, l\'anteprima delle sezioni 
 
 <div class="mw-translate-fuzzy">
 
-### Sezioni longitudinali {#sezioni_longitudinali}
+### Sezioni longitudinali 
 
 Devono essere aggiunte due sezioni longitudinali, quindi selezionare **Longitudinal** come tipo di sezione, andare nel dialogo **Auto create** e impostare **2** nel campo delle sezioni, poi premere **Create sections**. Viene compilata la tabella delle sezioni e viene aggiornata l\'anteprima.
 
@@ -82,7 +82,7 @@ Devono essere aggiunte due sezioni longitudinali, quindi selezionare **Longitudi
 
 <div class="mw-translate-fuzzy">
 
-### Linee d\'acqua {#linee_dacqua}
+### Linee d\'acqua 
 
 Di solito servono 6 linee d\'acqua tra la linea di base e la linea di galleggiamento, quindi selezionare **Waterlines** come tipo di sezione, andare nel dialogo **Auto create** e impostare **5** nel campo delle sezioni (La linea d\'acqua Z = 0 m non è inclusa automaticamente, se è necessaria può essere aggiunta manualmente in un secondo momento), quindi premere **Create sections**. Viene compilata la tabella delle sezioni e viene aggiornata l\'anteprima.
 
@@ -100,7 +100,7 @@ Devono essere aggiunte diverse linee d\'acqua supplementari:
 
 <div class="mw-translate-fuzzy">
 
-### Tracciare il piano di costruzione {#tracciare_il_piano_di_costruzione}
+### Tracciare il piano di costruzione 
 
 Selezionare una scala **1:100** e premere **Accept** per fare in modo che lo strumento generi le sezioni 3D in un nuovo oggetto.
 

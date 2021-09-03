@@ -14,7 +14,7 @@ Questo è il progetto di sviluppo dell\'ambiente Schizzo di FreeCAD.
 Il progetto segue le regole del processo \[<http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology>\| Getting things done\] (metodo per l\'organizzazione delle proprie azioni, per la gestione del tempo e dei progetti per *fare in modo che le cose vengano fatte*).
 I progetti sono raccolti nel [Piano di sviluppo](Development_roadmap/it.md) ([Development roadmap](Development_roadmap.md)).
 
-## Finalità e principi {#finalità_e_principi}
+## Finalità e principi 
 
 Questo è un progetto di sviluppo del software che mira a implementare la funzionalità dei vincoli in Sketcher. Si tratta di implementare alcuni elementi GUI (dell\'interfaccia grafica) e di collegarli al solutore dei vincoli.
 
@@ -34,7 +34,7 @@ Facendo un passo in avanti, possono essere rilevate le sotto-parti rigide di un 
 
 ## Organizzazione
 
-## Prossime Azioni {#prossime_azioni}
+## Prossime Azioni 
 
 Per 0.14:
 

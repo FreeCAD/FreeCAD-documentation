@@ -15,7 +15,7 @@ Ten poradnik wyjaśnia, jak tworzyć środkowe linie otworów przy pomocy środo
 
 Tworząc kąty dla otworów, nie jest możliwe użycie pionowych lub poziomych linii środkowych *(fałsz / prawda)* we właściwościach widoku. W związku z tą koniecznością tworzone są linie pomocnicze i / lub punkty pomocnicze.
 
-## Sposób postępowania {#sposób_postępowania}
+## Sposób postępowania 
 
 1\. Ustawianie linii osi otworu:
 

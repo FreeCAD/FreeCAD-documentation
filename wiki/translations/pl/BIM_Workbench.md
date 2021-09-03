@@ -22,7 +22,7 @@ Twórcy środowisk Rysunek Roboczy, Architektura i BIM współpracują również
 
 ## Instalacja
 
-Środowisko pracy BIM nie jest dołączone do domyślnego pakietu FreeCAD, ale może być łatwo zainstalowane poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md). Wywołaj go z menu {{MenuCommand|Przybory → [Menadżer dodatków](Std_AddonMgr/pl.md)}}. Kod środowiska pracy BIM jest [hostowany i rozwijany na Github](https://github.com/yorikvanhavre/BIM_Workbench) i może być również zainstalowany ręcznie poprzez skopiowanie go do katalogu {{FileName|MOD}} programu FreeCAD.
+Środowisko pracy BIM nie jest dołączone do domyślnego pakietu FreeCAD, ale może być łatwo zainstalowane poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md). Wywołaj go z menu **Przybory → [Menadżer dodatków](Std_AddonMgr/pl.md)**. Kod środowiska pracy BIM jest [hostowany i rozwijany na Github](https://github.com/yorikvanhavre/BIM_Workbench) i może być również zainstalowany ręcznie poprzez skopiowanie go do katalogu {{FileName|MOD}} programu FreeCAD.
 
 **Uwaga**
 
@@ -30,7 +30,7 @@ Twórcy środowisk Rysunek Roboczy, Architektura i BIM współpracują również
 
 Narzędzia wymienione poniżej mogą również nie być wszystkie obecne, jeśli Twoja wersja FreeCAD nie jest w pełni aktualna. Środowisko pracy BIM powinno jednak działać bezproblemowo na wszystkich wersjach FreeCAD, będzie tylko pomijać narzędzia, które nie są dostępne.
 
-## Rozpoczęcie pracy {#rozpoczęcie_pracy}
+## Rozpoczęcie pracy 
 
 <img alt="" src=images/BIM_welcome_screen.png  style="width:800px;">
 
@@ -52,7 +52,7 @@ Dodatkowo, jeżeli są zainstalowane [dodatki](External_workbenches/pl.md), narz
 
 Środowisko pracy BIM dodaje również serię pozycji w *pasku statusu* programu FreeCAD, oraz kilka pozycji *menu kontekstowego*, dostępnych po kliknięciu prawym przyciskiem myszy w widoku 3D lub w widoku drzewa.
 
-### Rysunki 2D {#rysunki_2d}
+### Rysunki 2D 
 
 Obiekty 2D są powszechnie używane jako pomoce kreślarskie, lub do rysowania linii bazowych i profili, na których można budować obiekty BIM. Mogą być również używane do kreślenia symboli i adnotacji w modelu. Oprócz szkiców, które używają swojego własnego układu współrzędnych, obiekty 2D będą rysowane na bieżącej [płaszczyżnie roboczej](Draft_SelectPlane/pl.md).
 
@@ -85,7 +85,7 @@ Adnotacje są wizualnymi obiektami pomocniczymi, które mogą być umieszczone w
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Strona](TechDraw_PageDefault/pl.md): Tworzy nową stronę [Rysunku Technicznego](TechDraw_Workbench/pl.md) z [szablonu SVG](TechDraw_Templates/pl.md).
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Widok](TechDraw_ArchView/pl.md): Wstawia widok płaszczyzny przekroju na stronie.
 
-### Modelowanie 3D / BIM {#modelowanie_3d_bim}
+### Modelowanie 3D / BIM 
 
 Obiekty 3D i BIM są elementami świata rzeczywistego, które składają się na Twój projekt BIM.
 
@@ -125,7 +125,7 @@ Obiekty 3D i BIM są elementami świata rzeczywistego, które składają się na
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Konstruktor kształtu](Part_Builder/pl.md): Narzędzie do tworzenia bardziej złożonych kształtów z różnych parametrycznych brył pierwotnych.
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Łącznik ścian](Draft_Facebinder/pl.md): Tworzy nowy obiekt z wybranych ścian na istniejących obiektach.
 
-### Narzędzia do modyfikacji {#narzędzia_do_modyfikacji}
+### Narzędzia do modyfikacji 
 
 -   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Przesuń](Draft_Move/pl.md): Przenosi obiekty z jednej lokalizacji do drugiej.
 -   <img alt="" src=images/BIM_Copy.png  style="width:32px;"> [Kopiuj](BIM_Copy/pl.md): Kopiuje obiekty z jednej lokalizacji do drugiej.
@@ -153,7 +153,7 @@ Obiekty 3D i BIM są elementami świata rzeczywistego, które składają się na
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Dodaj komponentt](Arch_Add/pl.md): Dodaje obiekty do komponentu.
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Usuń komponent](Arch_Remove/pl.md): Odejmuje lub usuwa obiekty z komponentu.
 
-### Narzędzia do zarządzania {#narzędzia_do_zarządzania}
+### Narzędzia do zarządzania 
 
 -   <img alt="" src=images/BIM_Setup.png  style="width:32px;"> [Konfiguracja środowiska BIM](BIM_Setup/pl.md): Konfiguruje niektóre z preferencji FreeCAD najczęściej używane dla BIM.
 -   <img alt="" src=images/BIM_Project.png  style="width:32px;"> [Projekt](BIM_Project/pl.md): Pozwala na tworzenie podstawowych obiektów takich jak [Teren](Arch_Site/pl.md), [Budowla](Arch_Building/pl.md) i [Osie](Arch_Axis/pl.md) poprzez wypełnienie podstawowych informacji o projekcie.
@@ -169,14 +169,14 @@ Obiekty 3D i BIM są elementami świata rzeczywistego, które składają się na
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Kontrola wstępna](BIM_Preflight/pl.md): Wykonaj różne testy modelu przed wyeksportowaniem do IFC.
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Edytor stylów adnotacji](Draft_AnnotationStyleEditor/pl.md): Zarządza stylami adnotacji używanymi przez teksty i wymiary.
 
-## Poradniki i nauka {#poradniki_i_nauka}
+## Poradniki i nauka 
 
 -   [Poradniki Wiki - Arch & BIM](Tutorials/pl#Architektura_i_BIM/pl.md)
 -   [\"BIM with FreeCAD\" seria wideo przygotowana przez Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD tutorials\" seria wideo przygotowana przez Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" seria wideo przygotowana przez by Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
 
-## Zewnętrzne Środowiska pracy {#zewnętrzne_środowiska_pracy}
+## Zewnętrzne Środowiska pracy 
 
 Środowiska pracy FreeCAD są łatwe do zaprogramowania w środowisku [Python](Python/pl.md). Dlatego też, wiele osób opracowuje dodatkowe \"przestrzenie robocze\" wykraczające poza główny obszar rozwoju programu FreeCAD.
 

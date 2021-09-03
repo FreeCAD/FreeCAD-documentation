@@ -1,3 +1,3 @@
-## Render Workbench Quick Start Guide {#render_workbench_quick_start_guide}
+## Render Workbench Quick Start Guide 
 
 This is a place holder for this WIP.

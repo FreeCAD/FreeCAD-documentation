@@ -24,7 +24,7 @@ La forme de sortie occupe le même espace que l\'original. Mais il est divisé l
 
 Veuillez visiter la page [Part Scinder](Part_Slice/fr.md) pour plus d\'informations.
 
-### Arborescence de Séparer/exploser {#arborescence_de_séparerexploser}
+### Arborescence de Séparer/exploser 
 
 La commande Séparer/exploser crée plus que l\'objet tranché. Dans l\'exemple suivant, un cube est découpé en tranches par une face.
 
@@ -63,7 +63,7 @@ L\'outil lui-même est implémenté en Python, voir {{FileName|/Mod/Part/BOPTool
 
 Séparer/exploser a été introduit dans FreeCAD v0.18.15506. FreeCAD doit être compilé avec OCC 6.9.0 ou une version ultérieure sinon, l\'outil n\'est pas disponible.
 
-## Tutoriels vidéo {#tutoriels_vidéo}
+## Tutoriels vidéo 
 
 -   <https://www.youtube.com/watch?v=tzHkQaHgrfQ> : FreeCad 0.18 PART WB using SLICE and SLICE APART (en anglais), auteur: Ha Gei
 

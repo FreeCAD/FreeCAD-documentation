@@ -10,7 +10,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-## Scop și principii {#scop_și_principii}
+## Scop și principii 
 
 Prin stocarea proprietăților materialelor într-o structură de date unificată, se urmărește facilitarea recuperării datelor care pot fi efectuate în diferite contexte:
 
@@ -39,7 +39,7 @@ Prin acest model de date material, se propune să ofere un instrument pentru a g
 
 Diferitele tipuri de date trebuie gestionate pentru a descrie un material. Un model de date despre material este propus mai jos. Sunt date și câteva exemple de date care pot fi stocate în cadrul acestei structuri.
 
-### Material data model {#material_data_model}
+### Material data model 
 
 În plus față de atributele clasice de \"înlănțuite\" cum ar fi un nume și o familie, 3 tipuri diferite de informații specifice trebuie gestionate pentru a descrie un material în FreeCAD.
 
@@ -117,7 +117,7 @@ Mai jos, o propunere pentru o bibliotecă standard de proprietăți. Nu ezitați
 
 Note: \"Coeficientul Mean Lankford este reprezentativ pentru anizotropia unei foi metalice subțiri\". \"Coeficientul de întărire este reprezentativ pentru capacitatea de durificare a unui metal\". Apare în formula Hollomon care poate conectată cu alungirea la rupere.\"
 
-##### Examplul 1: Cost per tonne {#examplul_1_cost_per_tonne}
+##### Examplul 1: Cost per tonne 
 
 Un prim exemplu este dat mai jos care arată cum o proprietate *Cost per tonne* poate fi stocată.
 
@@ -133,7 +133,7 @@ Un prim exemplu este dat mai jos care arată cum o proprietate *Cost per tonne* 
     -   meaning m\^(-3) (more details about unit & unit system specifications in [Units](Units.md) page)
 -   direction: not applicable
 
-##### Examplul 2: Yield strength {#examplul_2_yield_strength}
+##### Examplul 2: Yield strength 
 
 Un al doilea exemplu este dat mai jos pentru a arăta cum poate fi stocată proprietatea \'Yield strength\'\' (limita de elasticitate).
 
@@ -150,7 +150,7 @@ Un al doilea exemplu este dat mai jos pentru a arăta cum poate fi stocată prop
 -   direction: \[ 1, 0, 0\] in global coordinate system
     -   given a steel sheet, this means that the *Yield strength* given is expressed in *x* direction, that can be for instance the rolling direction
 
-##### Examplul 3: Durificarea {#examplul_3_durificarea}
+##### Examplul 3: Durificarea 
 
 Un al treilea exemplu este prezentat mai jos, pentru a arăta cum poate fi stocată proprietatea de durificare *Strain hardening*. Acesta este un exemplu mai complex, deoarece durificarea este reprezentată de o serie de curbe. Curbele reprezintă evoluția stresului în raport cu epruveta de plastic. 3 curbe au fost obținute la rate diferite de tensiune. Toate curbele au fost obținute la temperatura camerei.
 
@@ -173,7 +173,7 @@ Un al treilea exemplu este prezentat mai jos, pentru a arăta cum poate fi stoca
     -   meaning Pa (more details about unit & unit system specifications in [Units](Units.md) page)
 -   direction: not applicable
 
-#### compoziția Chimică {#compoziția_chimică}
+#### compoziția Chimică 
 
 \[Yet to be filled up\]
 
@@ -185,11 +185,11 @@ Un al treilea exemplu este prezentat mai jos, pentru a arăta cum poate fi stoca
 
 Un șir în care utilizatorul poate adăuga propriile comentarii despre material.
 
-### Aplicarea datelor modelului hard: câteva exemple {#aplicarea_datelor_modelului_hard_câteva_exemple}
+### Aplicarea datelor modelului hard: câteva exemple 
 
-##### Example 1: Cărămidă de zidar {#example_1_cărămidă_de_zidar}
+##### Example 1: Cărămidă de zidar 
 
-###### Nume {#nume_1}
+###### Nume 
 
 Cărămidă de zidarie
 
@@ -212,17 +212,17 @@ Cărămidă de zidarie
 
 ?string?
 
-###### URL {#url_1}
+###### URL 
 
 ?string?
 
-###### Note {#note_1}
+###### Note 
 
 Note despre întreținere, precauții speciale de luat etc.
 
 codul CSI/MasterFormat (întrucât există mai multe sisteme utilizate în industrie care dau tuturor materialelor un cod special, propun să le introducem în note, deoarece nu mi se pare relevant să se creeze anumite proprietăți pe care nu le vom putea numi exact).
 
-## Următoarele acțiuni {#următoarele_acțiuni}
+## Următoarele acțiuni 
 
 -   Definiți un set de nume pentru proprietățile clasice, pe care le putem defini într-un dicționar (fișier de configurare FreeCAD). Aceste proprietăți vor fi reutilizate în mod special în alte contexte, cum ar fi modulul FEM.
 -   Completați secțiunea *Chemical composition*.

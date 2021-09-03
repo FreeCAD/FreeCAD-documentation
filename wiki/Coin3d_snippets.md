@@ -2,7 +2,7 @@
 
  
 
-## Description of this list {#description_of_this_list}
+## Description of this list 
 
 Complex libraries like [COIN3D](https://en.wikipedia.org/wiki/Coin3D) need good documentation and good tutorials. Unfortunately, there aren\'t many tutorials for the COIN library. After a long search, the code examples listed below were found. They have been modified so that they can be loaded in FreeCAD. But some code may fail as these examples were created for other environments. You will find warnings to that effect in the code.
 
@@ -10,7 +10,7 @@ Users can run these scripts either as a [macro](Macro.md) or directly in the [Py
 
 These files are also mentioned in the [Inventor Mentor tutorial](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/pr01.html) for the C language.
 
-## List of the files and their screenshot (Python scripts) {#list_of_the_files_and_their_screenshot_python_scripts}
+## List of the files and their screenshot (Python scripts) 
 
 -   [02.1.HelloCone.py](https://github.com/MariwanJ/COIN3D_Examples/blob/main/screenShots/02.1.HelloCone.py.jpg)
 -   [02.2.EngineSpin.py](https://github.com/MariwanJ/COIN3D_Examples/blob/main/screenShots/02.2.EngineSpin.py.jpg)
@@ -79,11 +79,11 @@ These files are also mentioned in the [Inventor Mentor tutorial](http://www-evas
 -   17.2.GLCallback.py
 -   17.3.GLFloor.py
 
-## Source code {#source_code}
+## Source code 
 
 You can find the source code of these scripts on GitHub: [COIN3D examples](https://github.com/MariwanJ/COIN3D_Examples).
 
-## Software for learning COIN3D library {#software_for_learning_coin3d_library}
+## Software for learning COIN3D library 
 
 [CoinDesigner](http://coindesigner.sourceforge.net/), although old, is a useful program if you want to understand how the Coin3D library can be used, and how you can write your own code both in the Inventor 2.x format or for FreeCAD.
 

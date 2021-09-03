@@ -25,13 +25,13 @@ L\'opération Waterline a deux algorithmes : OCL Drop Cutter et Experimental.
 
 1.  Installer correctement [OpenCamLib](OpenCamLib/fr.md).
 2.  Activez [Fonctions expérimentales Path](Path_experimental/fr.md) de l\'atelier Path.
-3.  Vérifiez {{MenuCommand|Édition → Préférences... → Path → Advanced → Enable OCL dependent features}}.
+3.  Vérifiez **Édition → Préférences... → Path → Advanced → Enable OCL dependent features**.
 
 ## Utilisation
 
 Les instructions d\'utilisation pour plusieurs variantes de [Path Waterline](Path_Waterline/fr.md) sont présentées ici.
 
-#### Opération de base {#opération_de_base}
+#### Opération de base 
 
 1.  Appuyez sur l\'icône **<img src="images/Path_Waterline.svg" width=24px> [Waterline](Path_Waterline/fr.md)** ou sélectionnez l\'outil [Waterline](Path_Waterline/fr.md) dans le **Path menu**.
 2.  Sélectionnez le contrôleur d\'outil pour l\'opération dans la fenêtre contextuelle de dialogue du contrôleur d\'outil.
@@ -52,14 +52,14 @@ Les instructions d\'utilisation pour plusieurs variantes de [Path Waterline](Pat
 
 Pour obtenir des effets différents ou plus complexes, définissez des propriétés d\'opération supplémentaires dans l\'onglet Data de la vue Propriétés pour l\'opération.
 
-##### Remarques sur l\'algorithme expérimental {#remarques_sur_lalgorithme_expérimental}
+##### Remarques sur l\'algorithme expérimental 
 
 -   Il ne gère pas correctement les surplombs.
 -   Il ne renvoie que les chemins pour une fraise de type fraise en bout (outil).
 -   Il peut ne pas capturer correctement toutes les caractéristiques intérieures.
 -   C\'est juste ça, expérimental, et pas prêt pour l\'intégration grand public. Veuillez inspecter les chemins avec le **<img src="images/Path_Simulator.svg" width=16px> [Path Simulateur d'usinage](Path_Simulator/fr.md)** ou d\'autres outils d\'inspection g-code tiers, avant de couper avec votre machine.
 
-#### Formes d\'outils (de coupe) disponibles {#formes_doutils_de_coupe_disponibles}
+#### Formes d\'outils (de coupe) disponibles 
 
 =
 
@@ -79,7 +79,7 @@ Lorsque vous utilisez l\'algorithme \'\'\' *OCL Dropcutter* \'\'\', l\'opératio
 
 </div>
 
-## Remarques additionnelles {#remarques_additionnelles}
+## Remarques additionnelles 
 
 -   Si vous choisissez d\'exécuter le simulateur de chemin, **<img src="images/_Path_Simulator.svg" width=16px> [Path Simulateur d'usinage](Path_Simulator/fr.md)** dans l\'atelier Path, vous pourriez ne pas voir d\'enlèvement de matière spécifique à la forme de l\'outil. Prudence donc. Un petit travail d\'essai utilisant de la mousse ou un autre matériau très peu dense est recommandé pour vérifier que les chemins sont corrects avec le contrôleur d\'outil sélectionné.
 -   À compter de mai 2020, seule la fraise en bout dispose de tout type de test pour déterminer l\'exactitude de la traduction des paramètres de l\'outil FreeCAD vers OCL. Veuillez publier tout commentaire concernant une utilisation non-finale dans la section [Path/CAM](https://forum.freecadweb.org/viewforum.php?f=15) des forums FreeCAD.
@@ -141,7 +141,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 -    {{PropertyData/fr|Label}}: nom de l\'objet fourni par l\'utilisateur (UTF-8)
 
-#### Options d\'évitement {#options_dévitement}
+#### Options d\'évitement 
 
 -    {{PropertyData/fr|Algorithm}}: bibliothèque à utiliser pour générer le chemin
 
@@ -189,7 +189,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 -    {{PropertyData/fr|User Label}}: étiquette attribuée par l\'utilisateur.
 
-#### Point de départ {#point_de_départ}
+#### Point de départ 
 
 -    {{PropertyData/fr|Start Point}}: point de départ personnalisé pour le chemin de cette opération.
 
@@ -210,11 +210,11 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 -    {{PropertyData/fr|Use Start Point}}: Mis à True, si vous spécifiez manuellement un point de départ.
 
-## Disposition de l\'éditeur de fenêtre de tâches {#disposition_de_léditeur_de_fenêtre_de_tâches}
+## Disposition de l\'éditeur de fenêtre de tâches 
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-##### Localisation de la base {#localisation_de_la_base}
+##### Localisation de la base 
 
 -   **Add** : ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
 -   **Remove** : supprime le ou les éléments sélectionnés dans la liste emplacement de base.

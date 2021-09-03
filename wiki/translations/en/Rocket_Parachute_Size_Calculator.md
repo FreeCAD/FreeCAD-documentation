@@ -21,7 +21,7 @@ A key value for determining the descent rate is the coefficient of drag ($C_D$).
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_Calculator.svg" width=16px> [Parachute Size Calculator](Rocket_Parachute_Size_Calculator.md)** button.
-    -   Select the {{MenuCommand|Rocket → Calculators → <img src="images/Rocket_Calculator.svg" width=16px> Parachute Size Calculator}} option from the menu.
+    -   Select the **Rocket → Calculators → <img src="images/Rocket_Calculator.svg" width=16px> Parachute Size Calculator** option from the menu.
 2.  Enter the weight of your rocket and parameters for your parachute.
 
 ## Calculation

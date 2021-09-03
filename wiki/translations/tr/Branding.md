@@ -64,7 +64,7 @@ into the main() function. Alternatively, if you have an image in XPM format you 
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Branding XML {#branding_xml}
+### Branding XML 
 
 In FreeCAD there is also a method supported without writing a customized main() function. For this method you must write a file name called {{FileName|branding.xml}} and put it into the installation directory of FreeCAD. Here is an example with all supported tags:
 

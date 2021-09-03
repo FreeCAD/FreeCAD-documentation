@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Voici le plan du projet pour **PartDesign** dans le cadre de la feuille de route de développement ([feuille de route](Development_roadmap/fr.md)).
 
-## But et principes {#but_et_principes}
+## But et principes 
 
 Il s\'agit d\'un projet de développement logiciel, visant à mettre en oeuvre les capacités de Part Design. La mise en oeuvre de certaines fonctions des caractéristiques de base dans les modules de CAO de FreeCAD, **Part, PartDesign et Assembly**.
 
@@ -38,19 +38,19 @@ Le montage d\'entités (Méthodologie d\'édition d\'opérations) est une réali
 
 ### PartDesign
 
-#### Fonction Corps (Body) {#fonction_corps_body}
+#### Fonction Corps (Body) 
 
 Une modélisation peut avoir beaucoup d\'étapes pour arriver à sa forme finale, alors un historique est nécessaire. Le résultat final obtenu de la modélisation est le **corps** et constitue un groupe avec l\'historique des opérations.
 
-#### Fonction **Pad feature** {#fonction_pad_feature}
+#### Fonction **Pad feature** 
 
 L\'outil **Pad feature** a pour fonctionnalité d\'extruder une esquisse (ou tout **Object Part2D**) dans sa direction normale. Garantit toujours la création d\'un solide ou échoue.
 
-#### Fonction **Pocket feature** {#fonction_pocket_feature}
+#### Fonction **Pocket feature** 
 
 L\'outil **Pocket feature** crée une cavité dans un solide de base, de la forme de l'esquisse, avec une profondeur définie, ou débouchant. Garantit aussi toujours la création d\'un solide.
 
-#### Fonction d\'alésage {#fonction_dalésage}
+#### Fonction d\'alésage 
 
 Une très bonne définition des paramètres d\'alésage à partir de la spécification NaroCad:
 
@@ -64,25 +64,25 @@ Une très bonne définition des paramètres d\'alésage à partir de la spécifi
 
 Répliquer un des modèles ci-dessus
 
-##### **Modèle rectangulaire** {#modèle_rectangulaire}
+##### **Modèle rectangulaire** 
 
 Répliquer une des caractéristiques ci-dessus, le long d\'un modèle x, y
 
-##### **Modèle circulaire** {#modèle_circulaire}
+##### **Modèle circulaire** 
 
 Répliquer une des caractéristiques ci-dessus, le long d\'un modèle en coordonnées polaires
 
-##### **Modèle en script** {#modèle_en_script}
+##### **Modèle en script** 
 
 Répliquer une des caractéristiques ci-dessus, selon une règle générale fourni sous la forme d\'un script.
 
-## Des idées {#des_idées}
+## Des idées 
 
-### Ce que font les autres {#ce_que_font_les_autres}
+### Ce que font les autres 
 
 -   [SolidWorks examples](http://www.youtube.com/watch?v=cVXQmDStHus)
 
-### Implémentation de modèles {#implémentation_de_modèles}
+### Implémentation de modèles 
 
 **Pattern feature class** peut être mis en oeuvre avec un modèle de tableaux et, servir de classe de base pour les fonctions, modèles rectangulaires, circulaires et scriptés.
 
@@ -94,7 +94,7 @@ En outre, nous pourrions avoir comme option, des règles de transformation comme
 
 ## Organisation
 
-### Hiérarchie des modèles d\'objets {#hiérarchie_des_modèles_dobjets}
+### Hiérarchie des modèles d\'objets 
 
 Cette [UML](http://fr.wikipedia.org/wiki/Unified_Modeling_Language) graphique montre la hiérarchie d\'objets et de ses relations.
 Le **jaune** est une classe de base abstraite, le **bleu** et le **gris**, sont ceux qui sont prévu.
@@ -107,7 +107,7 @@ Le **jaune** est une classe de base abstraite, le **bleu** et le **gris**, sont 
 
 [PartDesign Bearingholder Tutorial II](PartDesign_Bearingholder_Tutorial_II/fr.md)
 
-## Actions suivantes {#actions_suivantes}
+## Actions suivantes 
 
 Les actions suivantes sont définies dans **[Mantis roadmap entry for PartDesign](http://www.freecadweb.org/tracker/roadmap_page.php)**
 
@@ -115,7 +115,7 @@ Les actions suivantes sont définies dans **[Mantis roadmap entry for PartDesign
 
 Vu la nature paramétrique/associative de la **PartDesign**, nous avons enfin un **corps** (ensemble), qui regroupe, et, organise un historique de la construction. Il contient le résultat final comme une forme, et, a regroupé comme une hiérarchie (parents enfants) les caractéristiques de **PartDesign**. Il définit également l\'entête de l\'historique de la modélisation. Il est aussi liée au [Projet Assemblage](Assembly_project/fr.md) qui est le bloc de construction pour les produits et les composants.
 
-### Opérations additionnelles {#opérations_additionnelles}
+### Opérations additionnelles 
 
 Les fonctions **extrusion** (Pad) et **cavités** (Pocket), sont les outils les plus intéressants de PartDesign. Il ya encore beaucoup de travail à faire, surtout pour la visibilité et le contrôle des manipulateurs visuels. Mais, des fonctionnalités supplémentaires sont nécessaires.
 
@@ -136,7 +136,7 @@ Balaie une esquisse le long d\'une courbe en vue de créer un solide.
 
 Faire pivoter une esquisse sur un axe et un angle défini.
 
-## Liste des fonctions à faire {#liste_des_fonctions_à_faire}
+## Liste des fonctions à faire 
 
 1.  **Pièce de congé/chanfrein**
     1.  Appliquer l\'opération de congé/chanfrein à différents types de sélection (face/paire de faces/corps entier)\*

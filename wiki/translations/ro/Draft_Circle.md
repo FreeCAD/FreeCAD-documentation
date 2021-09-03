@@ -35,7 +35,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Apăsați butonul **<img src="images/Draft_Circle.png" width=16px> [Draft Circle](Draft_Circle/ro.md)
 ** sau apăsați tastele **L** apoi **I**
@@ -76,9 +76,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the initial value of filled mode: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible}}. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
--   If the {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available}} option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
+-   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 
@@ -115,7 +115,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
-## Script-Programre {#script_programre}
+## Script-Programre 
 
 Unealta Cerc poate fi folosită în [macro-uri](macros/ro.md) şi de la consola Python cu ajutorul funcţiei următoare:
 

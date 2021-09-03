@@ -15,8 +15,8 @@ La commande **Std Rotation à gauche** fait pivoter la caméra dans la [vue 3D](
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Vues standards → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotation à gauche}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Vues standards → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotation à gauche}} dans le menu contextuel de la [vue 3D](3D_view/fr.md).
+    -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotation à gauche** dans le menu.
+    -   Sélectionnez l\'option **Vues standards → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotation à gauche** dans le menu contextuel de la [vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier: **Maj**+**Gauche**.
 
 ## Script

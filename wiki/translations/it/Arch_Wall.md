@@ -39,7 +39,7 @@ Quando più muri devono essere intersecati, è necessario inserirli in un [piano
 
 ## Utilizzo
 
-### Disegnare un muro dall\'inizio {#disegnare_un_muro_dallinizio}
+### Disegnare un muro dall\'inizio 
 
 
 <div class="mw-translate-fuzzy">
@@ -51,7 +51,7 @@ Quando più muri devono essere intersecati, è necessario inserirli in un [piano
 
 </div>
 
-### Disegnare un muro su un oggetto selezionato {#disegnare_un_muro_su_un_oggetto_selezionato}
+### Disegnare un muro su un oggetto selezionato 
 
 1.  Selezionare uno o più oggetti per la geometria di base (oggetti Draft, schizzi, etc)
 2.  Premere il pulsante **<img src="images/Arch_Wall.svg" width=16px> [Muro](Arch_Wall/it.md)

@@ -42,7 +42,7 @@ Depending on the parameters selected in the first window, the report will be dis
 -   unexpected object Placements (when the Show Positions option is selected)
 -   unexpected segments in the Sketch Geometry (when the Show Sketcher Segments option is selected)
 
-## User Interface {#user_interface}
+## User Interface 
 
 The first window will take input which configures the Object Dump:
 

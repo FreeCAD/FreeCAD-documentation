@@ -13,7 +13,7 @@ Acest instrument desenează un cerc prin selectarea a două puncte: centrul și 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

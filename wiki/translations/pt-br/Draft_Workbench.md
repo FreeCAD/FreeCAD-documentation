@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
  
 
@@ -18,7 +18,7 @@ O FreeCAD é principalmente uma aplicação de modelagem 3D, e assim suas ferram
 
 <img alt="Draft Workbench Example" src=images/Draft_Workbench_Example.png  style="width:400px;">
 
-## Ferramentas para desenhar objetos {#ferramentas_para_desenhar_objetos}
+## Ferramentas para desenhar objetos 
 
 Estas são ferramentas para criar objetos.
 
@@ -38,14 +38,14 @@ Estas são ferramentas para criar objetos.
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Ligar Faces](Draft_Facebinder/pt-br.md): cria um objeto a partir de faces selecionadas em objetos existentes.
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Formato de texto](Draft_ShapeString/pt-br.md): insere uma forma composta que representa uma cadeia de texto em um determinado ponto.
 
-## Objetos de anotação {#objetos_de_anotação}
+## Objetos de anotação 
 
 -   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Texto](Draft_Text/pt-br.md): desenha uma anotação de texto com várias linhas.
 -   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Dimensão](Draft_Dimension/pt-br.md): desenha uma anotação dimensional.
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Etiqueta](Draft_Label/pt-br.md): coloca uma etiqueta com uma seta apontando para um elemento selecionado. <small>(v0.17)</small> 
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Editor de estilo de anotação](Draft_AnnotationStyleEditor/pt-br.md): abre um editor para mudar o estilo de anotação desses objetos. <small>(v0.19)</small> 
 
-## Modificador de objetos {#modificador_de_objetos}
+## Modificador de objetos 
 
 Estas são ferramentas para modificar objetos existentes. Elas trabalham em objetos selecionados, mas se nenhum objeto for selecionado, você será convidado a selecionar um.
 
@@ -84,13 +84,13 @@ Muitas ferramentas de operação (mover, girar, matriz, etc.) também trabalham 
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Visão 2D de uma forma](Draft_Shape2DView/pt-br.md): cria um objeto 2D que é uma visão 2D achatada de um objeto 3D.
 
-## Barra de ferramentas da bandeja de rascunho {#barra_de_ferramentas_da_bandeja_de_rascunho}
+## Barra de ferramentas da bandeja de rascunho 
 
 A barra de ferramentas [Bandeja de rascunho](Draft_Tray/pt-br.md) aparece quando a bancada de trabalho é iniciada, e permite selecionar o plano de trabalho, com algumas propriedades visuais como a cor da linha, cor da forma, largura da linha, tamanho do texto e grupo automático.
 
 ![](images/Draft_tray_default.png )
 
-Its tools are also available in the {{MenuCommand|Draft → Utilities}} menu:
+Its tools are also available in the **Draft → Utilities** menu:
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Plano de trabalho](Draft_SelectPlane/pt-br.md): define um plano de trabalho a partir de uma vista padrão ou de uma face selecionada.
 -   <img alt="" src=images/Draft_SetStyle.svg  style="width:32px;"> [Estilo de conjunto](Draft_SetStyle/pt-br.md): define o estilo padrão para novos objetos, e opcionalmente aplica o estilo a objetos e grupos selecionados.
@@ -103,19 +103,19 @@ Its tools are also available in the {{MenuCommand|Draft → Utilities}} menu:
 
 -   <img alt="" src=images/Draft_AutoGroup.svg  style="width:32px;"> [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
 
-## Draft annotation scale widget {#draft_annotation_scale_widget}
+## Draft annotation scale widget 
 
 Com o [Widget de escala de anotação](Draft_annotation_scale_widget/pt-br.md) a escala de anotação Draft pode ser especificada. O widget está localizado na [Barra de status](Status_bar/pt-br.md).
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
-## Draft snap widget {#draft_snap_widget}
+## Draft snap widget 
 
 O [Widget de ancoragem](Draft_snap_widget/pt-br.md) pode ser usado como uma alternativa para a [Barra de ferramentas Rascunho de pressão](#Barra_de_ferramentas_Rascunho_de_pressão.md). O widget está localizado na [Barra de status](Status_bar/pt-br.md).
 
 ![](images/Draft_snap_widget_button.png )
 
-## Barra de ferramentas Rascunho de pressão {#barra_de_ferramentas_rascunho_de_pressão}
+## Barra de ferramentas Rascunho de pressão 
 
 A barra de ferramentas [Captura](Draft_Snap/pt-br.md) permite selecionar o modo de precisão atual. Seu botão se mantém pressionado quando um modo está ativo.
 
@@ -136,7 +136,7 @@ A barra de ferramentas [Captura](Draft_Snap/pt-br.md) permite selecionar o modo 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Dimensões](Draft_Snap_Dimensions/pt-br.md): mostra as dimensões temporárias X e Y enquanto se encaixa.
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Grade de comutação](Draft_ToggleGrid/pt-br.md): ativa ou desativa a visibilidade da grade.
 
-## Draft utility tools toolbar {#draft_utility_tools_toolbar}
+## Draft utility tools toolbar 
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Camada](Draft_Layer/pt-br.md): cria uma camada no documento atual, à qual os objetos podem ser adicionados para controlar a visibilidade e a cor do objeto. Ele substitui o Draft VisGroup. <small>(v0.19)</small> 
 -   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> [Proxy de plano de trabalho](Draft_WorkingPlaneProxy/pt-br.md): criar um objeto proxy para armazenar a posição atual no [Plano de trabalho](Draft_SelectPlane/pt-br.md). <small>(v0.17)</small> 
@@ -146,15 +146,15 @@ A barra de ferramentas [Captura](Draft_Snap/pt-br.md) permite selecionar o modo 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Adicionar ao grupo Construção](Draft_AddConstruction/pt-br.md): adicionar objetos selecionados ao grupo Construção. <small>(v0.17)</small> 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Curar](Draft_Heal/pt-br.md): cura objetos de rascunho problemáticos encontrados em arquivos muito antigos.
 
-## Ferramentas adicionais {#ferramentas_adicionais}
+## Ferramentas adicionais 
 
-The {{MenuCommand|Draft → Utilities}} menu contains several tools. Most of them can also be accessed from toolbars or the [Draft Tray](Draft_Tray.md) and have already been mentioned above. For the following tools this is not the case:
+The **Draft → Utilities** menu contains several tools. Most of them can also be accessed from toolbars or the [Draft Tray](Draft_Tray.md) and have already been mentioned above. For the following tools this is not the case:
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Alternar modo continuar](Draft_ToggleContinueMode/pt-br.md): ativa ou desativa o modo de continuação do Draft.
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Aplicar o estilo atual](Draft_ApplyStyle/pt-br.md): aplica o estilo atual a objetos e grupos selecionados.
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Mostrar barra de acoragem](Draft_ShowSnapBar/pt-br.md): mostra a barra de ferramentas [Rascunho de pressão](Draft_Snap/pt-br.md).
 
-## Características adicionais {#características_adicionais}
+## Características adicionais 
 
 -   [Restrições](Draft_Constrain/pt-br.md): limitar o ponteiro a movimentos horizontais ou verticais em relação a um ponto anterior.
 -   [Captura](Draft_Snap/pt-br.md): colocar novos pontos em lugares especiais sobre objetos existentes ou sobre a grade.
@@ -162,23 +162,23 @@ The {{MenuCommand|Draft → Utilities}} menu contains several tools. Most of the
 -   [Modo de construção](Draft_ToggleConstructionMode/pt-br.md): Permite criar geometrias separadas das demais, simplesmente ligando e desligando-as.
 -   [Plano de trabalho](Draft_SelectPlane/pt-br.md): permite selecionar uma superfície sobre a qual você pode construir suas formas.
 
-## Tree view context menu {#tree_view_context_menu}
+## Tree view context menu 
 
 The following additional options are available in the [Tree view](Tree_view.md) context menu:
 
-### Selection options {#selection_options}
+### Selection options 
 
 If there is a selection the context menu contains one additional sub-menu:
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
-### Wire options {#wire_options}
+### Wire options 
 
 For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md) and [Draft BezCurve](Draft_BezCurve.md) this additional option is available:
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Flatten this wire: flattens the wire based on its internal geometry. This option currently does not work properly.
 
-### Layer container options {#layer_container_options}
+### Layer container options 
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
 
@@ -186,7 +186,7 @@ For a [Draft LayerContainer](Draft_Layer.md) these additional options are availa
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer.md): adds a new layer to the current document.
 
-### Layer options {#layer_options}
+### Layer options 
 
 For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
@@ -194,7 +194,7 @@ For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select layer contents](Draft_SelectGroup.md): selects the objects inside the selected layer.
 
-### Working plane proxy options {#working_plane_proxy_options}
+### Working plane proxy options 
 
 For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional options are available:
 
@@ -202,25 +202,25 @@ For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional opt
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Write objects state](Draft_WorkingPlaneProxy#Tree_view_context_menu.md): updates the visibility state of objects stored in the working plane proxy.
 
-## 3D view context menu {#d_view_context_menu}
+## 3D view context menu 
 
 The following additional options are available in the [3D view](3D_view.md) context menu:
 
-### No-selection options {#no_selection_options}
+### No-selection options 
 
 If there is no selection the context menu contains one additional sub-menu:
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
-### Selection options {#selection_options_1}
+### Selection options 
 
 If there is a selection the context menu contains two additional sub-menus:
 
--    {{MenuCommand|Draft}}: tools for [drawing objects](#Drawing_objects.md) and [modifying objects](#Modifying_objects.md).
+-    **Draft**: tools for [drawing objects](#Drawing_objects.md) and [modifying objects](#Modifying_objects.md).
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
-## Ferramentas obsoletas {#ferramentas_obsoletas}
+## Ferramentas obsoletas 
 
 Estes comandos são obsoletos, mas ainda estão disponíveis.
 
@@ -245,7 +245,7 @@ These [3D view](3D_view.md) context menu options are still available when the [D
 -   <img alt="" src=images/Preferences-draft.svg  style="width:32px;"> [Preferências](Draft_Preferences/pt-br.md): preferências gerais para o plano de trabalho e para as ferramentas de desenho.
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Preferências de exportação de importação](Import_Export_Preferences/pt-br.md): preferências disponíveis para importação e exportação de e para diferentes formatos de arquivo.
 
-## Formatos de arquivo {#formatos_de_arquivo}
+## Formatos de arquivo 
 
 These are functions for opening, importing or exporting other file formats. Opening will open a new document with the contents of the file, while importing will append the contents of the file to the current document. Export will save the selected objects to a file. If nothing is selected, all objects will be exported. Be aware that the purpose of the Draft Workbench is to work with 2D objects, so those import routines focus only on 2D objects, and although DXF and OCA formats also support object definitions in 3D space (objects are not necessarily flat), they will not import volumetric objects such as meshes, 3D surfaces, etc., but rather lines, circles, texts or flat shapes. Currently supported file formats are: The Draft Workbench provides FreeCAD with importers and exporters for the following file formats:
 
@@ -255,12 +255,12 @@ These are functions for opening, importing or exporting other file formats. Open
 -   [Open Cad format .OCA](Draft_OCA/pt-br.md): importa e exporta arquivos OCA/GCAD, um formato de arquivo CAD potencialmente novo [abrir arquivo CAD](http://groups.google.com/group/open_cad_format).
 -   [Airfoil Data Format .DAT](Draft_DAT/pt-br.md): importa arquivos DAT descrevendo [Airfoil profiles](http://www.ae.illinois.edu/m-selig/ads/coord_database.html).
 
-### Instalar importadores {#instalar_importadores}
+### Instalar importadores 
 
 -   [Importação FreeCAD e DWG](FreeCAD_and_DWG_Import/pt-br.md): Importação e exportação de arquivos DWG
 -   [Importação FreeCAD e DXF](FreeCAD_and_DXF_Import/pt-br.md): Importação e exportação de arquivos DXF
 
-## Testes unitários {#testes_unitários}
+## Testes unitários 
 
 
 **Veja também:**

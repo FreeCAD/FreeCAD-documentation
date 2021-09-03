@@ -39,7 +39,7 @@ The general installation in all platforms can be done from the Python package in
 pip3 install --user ply
 ```
 
-## Limbajul OpenSCAD și formatul fișierului {#limbajul_openscad_și_formatul_fișierului}
+## Limbajul OpenSCAD și formatul fișierului 
 
 Limbajul OpenSCAD permite utilizarea variabilelor și a buclelor. Vă permite să specificați submodulele pentru a reutiliza geometria și codul. Acest grad ridicat de flexibilitate face analiza foarte complexă. În prezent, modulul OpenSCAD din FreeCAD nu poate suporta limbajul OpenSCAD nativ. În schimb, dacă este instalat OpenSCAD, acesta poate fi folosit pentru a converti intrarea într-un format de ieșire numit \"CSG\". Este un subset al limbajului OpenSCAD și poate fi folosit ca intrare în OpenSCAD pentru prelucrare ulterioară. În timpul conversiei, toate comportamentele parametrice sunt pierdute - toate numele variabilelor sunt aruncate, buclele extinse și expresiile matematice evaluate.
 
@@ -74,7 +74,7 @@ OpenSCAD funcționează intern pe ochiuri de plasă. Unele operațiuni care sunt
 
 Atunci când importați [DXF](DXF.md) , setați precizia Proiectului la o valoare sensibilă, deoarece aceasta va afecta detectarea marginilor conectate.
 
-Dacă FreeCAD se blochează atunci când importați CSG, este recomandat să activați \"verificarea automată a modelului după operarea booleană\" din {{MenuCommand|Menu → Edit → Preferences → Part Design → Model setting}}.
+Dacă FreeCAD se blochează atunci când importați CSG, este recomandat să activați \"verificarea automată a modelului după operarea booleană\" din **Menu → Edit → Preferences → Part Design → Model setting**.
 
 ## Tutorials
 

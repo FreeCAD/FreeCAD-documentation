@@ -53,7 +53,7 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 
 <div class="mw-translate-fuzzy">
 
-### Il modello {#il_modello}
+### Il modello 
 
 In questo esempio viene utilizzato un cubo come oggetto di studio, ma al suo posto si posssono usare i modelli creati con Parte o PartDesign.
 
@@ -76,16 +76,16 @@ In questo esempio viene utilizzato un cubo come oggetto di studio, ma al suo pos
 
 Ora abbiamo un modello con il quale lavorare.
 
-### Creating the Analysis {#creating_the_analysis}
+### Creating the Analysis 
 
 #### Netgen
 
 
 <div class="mw-translate-fuzzy">
 
-### Creare l\'analisi {#creare_lanalisi}
+### Creare l\'analisi 
 
-#### Netgen {#netgen_1}
+#### Netgen 
 
 1.  Selezionare il modello
 2.  Dal menu cliccare su <img alt="" src=images/FEM_Analysis.png  style="width:16px;"> [Nuova analisi](FEM_Analysis/it.md) per creare un\'analisi dall\'oggetto selezionato.
@@ -107,7 +107,7 @@ Ora abbiamo un modello con il quale lavorare.
 
 <div class="mw-translate-fuzzy">
 
-#### GMSH {#gmsh_1}
+#### GMSH 
 
 Si consiglia l\'utilizzo della macro di psicofil che viene utilizzata per questo esempio.
 
@@ -121,12 +121,12 @@ Si consiglia l\'utilizzo della macro di psicofil che viene utilizzata per questo
 
 Ora abbiamo reso mesh il nostro oggetto e siamo pronti ad aggiungere i vincoli e le forze.
 
-### Constraints and Forces {#constraints_and_forces}
+### Constraints and Forces 
 
 
 <div class="mw-translate-fuzzy">
 
-### Vincoli e Forze {#vincoli_e_forze}
+### Vincoli e Forze 
 
 1.  Nascondere la mesh dalla Vista ad albero.
 2.  Visualizzare il modello originale
@@ -142,12 +142,12 @@ Ora abbiamo reso mesh il nostro oggetto e siamo pronti ad aggiungere i vincoli e
 
 Con questo abbiamo stabilito i vincoli e le forze per lo studio statico.
 
-### Final preparations {#final_preparations}
+### Final preparations 
 
 
 <div class="mw-translate-fuzzy">
 
-### Ultimi preparativi {#ultimi_preparativi}
+### Ultimi preparativi 
 
 1.  Selezionare <img alt="" src=images/FEM_Material.png  style="width:16px;"> [Materiale FEM per solidi](FEM_MaterialSolid/it.md) e scegliere Calculix
 2.  Cliccare su **OK**
@@ -155,16 +155,16 @@ Con questo abbiamo stabilito i vincoli e le forze per lo studio statico.
 
 </div>
 
-### Running the Solver {#running_the_solver}
+### Running the Solver 
 
-#### Standard Procedure {#standard_procedure}
+#### Standard Procedure 
 
 
 <div class="mw-translate-fuzzy">
 
-### Avviare il Solver {#avviare_il_solver}
+### Avviare il Solver 
 
-#### Procedura Standard {#procedura_standard}
+#### Procedura Standard 
 
 1.  Selezionare l\'oggetto solver <img alt="" src=images/FEM_Solver.png  style="width:16px;"> contenuto in 
 **Mechanical Analysis**
@@ -176,12 +176,12 @@ Con questo abbiamo stabilito i vincoli e le forze per lo studio statico.
 
 </div>
 
-#### Quick Procedure {#quick_procedure}
+#### Quick Procedure 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Procedura veloce {#procedura_veloce}
+#### Procedura veloce 
 
 1.  Selezionare l\'oggetto solver <img alt="" src=images/FEM_Solver.png  style="width:16px;"> contenuto in 
 **Mechanical Analysis**
@@ -190,12 +190,12 @@ Con questo abbiamo stabilito i vincoli e le forze per lo studio statico.
 
 </div>
 
-### Analyzing Results {#analyzing_results}
+### Analyzing Results 
 
 
 <div class="mw-translate-fuzzy">
 
-### Risultati delle analisi {#risultati_delle_analisi}
+### Risultati delle analisi 
 
 1.  Selezionare l\'oggetto **Risultati** nell**\'albero degli oggetti**
 2.  Selezionare <img alt="" src=images/FEM_ShowResult.png  style="width:16px;"> [Mostra risultati](FEM_ResultShow/it.md)

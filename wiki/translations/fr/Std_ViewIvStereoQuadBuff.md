@@ -13,11 +13,11 @@ La commande **Std Tampon stéréo quadruple** change le mode actif de la [vue 3D
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → Stéréo → <img src="images/Std_ViewIvStereoQuadBuff.svg" width=16px> Tampon stéréo quadruple}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → Stéréo → <img src="images/Std_ViewIvStereoQuadBuff.svg" width=16px> Tampon stéréo quadruple** dans le menu.
 
 ## Préférences
 
--   La distance entre les yeux peut être modifiée dans les préférences: {{MenuCommand|Édition → Préférences... → Affichage → Vue 3D → Eye to eye distance for stereo modes}}. Voir l\'[Editeur de préférences](Preferences_Editor#3D_View/fr.md).
+-   La distance entre les yeux peut être modifiée dans les préférences: **Édition → Préférences... → Affichage → Vue 3D → Eye to eye distance for stereo modes**. Voir l\'[Editeur de préférences](Preferences_Editor#3D_View/fr.md).
 
 ## Script
 

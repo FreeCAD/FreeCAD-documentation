@@ -13,7 +13,7 @@ La commande **Std Préférences** ouvre le [Réglage des préférences](Preferen
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Edition → <img src="images/Std_DlgPreferences.svg" width=16px> Préférences...}} dans le menu.
+1.  Sélectionnez l\'option **Edition → <img src="images/Std_DlgPreferences.svg" width=16px> Préférences...** dans le menu.
 
 ## Remarques
 

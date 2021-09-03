@@ -49,7 +49,7 @@ Parça Tasarım tezgahının araçlarının tümü , Parça tasarım tezgahını
 
 </div>
 
-### Yapı araçları {#yapı_araçları}
+### Yapı araçları 
 
 
 <div class="mw-translate-fuzzy">
@@ -70,7 +70,7 @@ Bu araçlar, Model ağacını düzenlemek için kullanılan araçlardır.
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Group](Std_Group.md): adds a Group container in the active document, which allows organizing the objects in the [tree view](Tree_view.md).
 
-### Parça Tasarım Yardım Araçları {#parça_tasarım_yardım_araçları}
+### Parça Tasarım Yardım Araçları 
 
 
 <div class="mw-translate-fuzzy">
@@ -104,9 +104,9 @@ Bu araçlar, Model ağacını düzenlemek için kullanılan araçlardır.
 
 </div>
 
-### Parça Tasarım modelleme araçları {#parça_tasarım_modelleme_araçları}
+### Parça Tasarım modelleme araçları 
 
-#### Referans araçları {#referans_araçları}
+#### Referans araçları 
 
 
 <div class="mw-translate-fuzzy">
@@ -158,7 +158,7 @@ Bu araçlar, Model ağacını düzenlemek için kullanılan araçlardır.
 
 </div>
 
-#### Ekleme araçları {#ekleme_araçları}
+#### Ekleme araçları 
 
 Bunlar, temel özellikler oluşturmak veya mevcut bir katı gövdeye malzeme eklemek için kullanılan araçlardır.
 
@@ -268,7 +268,7 @@ Bunlar, temel özellikler oluşturmak veya mevcut bir katı gövdeye malzeme ekl
 
 </div>
 
-#### Çıkarma araçları {#çıkarma_araçları}
+#### Çıkarma araçları 
 
 Bunlar, mevcut bir gövdeden materyal çıkarmak için kullanılan araçlardır.
 
@@ -386,7 +386,7 @@ Bunlar, mevcut bir gövdeden materyal çıkarmak için kullanılan araçlardır.
 
 </div>
 
-#### Dönüştürme araçları {#dönüştürme_araçları}
+#### Dönüştürme araçları 
 
 Bunlar mevcut özellikleri dönüştürmek için kullanılan araçlardır. Hangi özellikleri dönüştüreceğinizi seçmenize izin vereceklerdir.
 
@@ -422,7 +422,7 @@ Bunlar mevcut özellikleri dönüştürmek için kullanılan araçlardır. Hangi
 
 </div>
 
-#### Süsleme araçları {#süsleme_araçları}
+#### Süsleme araçları 
 
 Bu araçlar seçilen kenarlara veya yüzlere bir işlem uygular.
 
@@ -501,7 +501,7 @@ Parça Tasarım menüsünde bulunan bazı ek işlevler:
 
 <div class="mw-translate-fuzzy">
 
-### Bağlamsal menü araçları {#bağlamsal_menü_araçları}
+### Bağlamsal menü araçları 
 
 
 </div>

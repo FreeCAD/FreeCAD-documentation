@@ -14,7 +14,7 @@ The Dimension Horizontal Extent tool adds a linear dimension to a View. The dime
 <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
 *Horizontal Extent dimension of BSpline Face*
 
-## How to use {#how_to_use}
+## How to use 
 
 1.  Select a View or a collection of Edges in a View.
 2.  Press the **<img src="images/TechDraw_Dimension_Horizontal_Extent.svg" width=16px> [Dimension Horizontal Extent](TechDraw_Dimension_Horizontal_Extent.md)** button

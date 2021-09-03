@@ -36,7 +36,7 @@ Examples of use would be to build a box with fitting cover in two different bodi
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

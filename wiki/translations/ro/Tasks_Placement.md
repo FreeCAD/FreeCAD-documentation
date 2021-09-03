@@ -24,7 +24,7 @@ Funcția **Placement** poate fi accesată în mai multe feluri:
 
 </div>
 
-### Activarea Placement în fereastra de afișare {#activarea_placement_în_fereastra_de_afișare}
+### Activarea Placement în fereastra de afișare 
 
 
 <div class="mw-translate-fuzzy">
@@ -134,7 +134,7 @@ Girația, tangajul și ruliu se referă la atitudinea unui obiect într-un spaț
 
 -   Apăsarea tastei {{KEY | Reset}} aduce toate valorile la **0,0,0**.
 
-## Legături și Exemple {#legături_și_exemple}
+## Legături și Exemple 
 
 Un exemplu practic de utilizare a acestei comenzi în tutorial [ Aeroplane](Aeroplane.md).
 

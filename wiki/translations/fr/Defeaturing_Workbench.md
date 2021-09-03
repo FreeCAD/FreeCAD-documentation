@@ -18,15 +18,15 @@ Remarque: davantage d\'outils avancés de Defeaturing pourront être utilisés s
 
 ## Installation
 
-### Installation automatique (recommandé) {#installation_automatique_recommandé}
+### Installation automatique (recommandé) 
 
-Utilisation de FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) disponible dans v0.17 + via {{MenuCommand|Outils → Gestionnaire d'Addon}}. Recherchez l\'icône <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> Defeaturing workbench. Le Gestionnaire d\'Addon complémentaires informe également l\'utilisateur lorsqu\'une nouvelle version de cet Addon complémentaire est disponible.
+Utilisation de FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) disponible dans v0.17 + via **Outils → Gestionnaire d'Addon**. Recherchez l\'icône <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> Defeaturing workbench. Le Gestionnaire d\'Addon complémentaires informe également l\'utilisateur lorsqu\'une nouvelle version de cet Addon complémentaire est disponible.
 
 ### Manuellement
 
 Voir [Comment installer un atelier supplémentaire](How_to_install_additional_workbenches/fr.md)
 
-### Versions supportées {#versions_supportées}
+### Versions supportées 
 
 -   FreeCAD v0.15 4671
 -   FreeCAD v0.16 \>= 6712
@@ -80,7 +80,7 @@ Voir [Comment installer un atelier supplémentaire](How_to_install_additional_wo
 -   <img alt="" src=images/DefeatWB_Tools_Fuzzy_Union.png  style="width:32px;"> [Fuzzy Union](DefeatWB_Tools_Fuzzy_Union.md): Union approximative
 -   <img alt="" src=images/DefeatWB_Tools_Fuzzy_Common.png  style="width:32px;"> [Fuzzy Common](DefeatWB_Tools_Fuzzy_Common.md): Intersection approximative
 
-## Tutoriels vidéo {#tutoriels_vidéo}
+## Tutoriels vidéo 
 
 ### Déconstruction
 
@@ -106,7 +106,7 @@ Fonction enlèvement utilisant le nouvel outil OCC7.3
 -   Lire ou modifier la tolérance
 -   Faire des opérations booléennes approximatives
 
-## Ateliers externes {#ateliers_externes}
+## Ateliers externes 
 
 Les ateliers FreeCAD sont faciles à programmer en [ Python](Python/fr.md), de ce fait, beaucoup de personnes développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
 

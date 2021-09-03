@@ -22,11 +22,11 @@ Per eseguire la macro aprire in FreeCAD i 2 file (20140908b\_Hinge-1.FCMacro e 2
 
 <img alt="" src=images/Hing_01.png  style="width:300px;">
 
-## Il File {#il_file}
+## Il File 
 
 [20140908b\_Hinge-1.fcstd](http://forum.freecadweb.org/download/file.php?id=7628)
 
-## Lo Script {#lo_script}
+## Lo Script 
 
 ToolBar Icon ![](images/Macro_hinge.png )
 

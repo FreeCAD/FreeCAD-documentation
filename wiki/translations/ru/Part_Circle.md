@@ -20,7 +20,7 @@
 1.  Переключитесь на <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [верстак Part (Деталь)](Part_Workbench/ru.md)
 2.  Есть несколько способов чтобы получить доступ к диалогу Создания Примитивов:
     -   Нажмите кнопку <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Создать Примитивы\...](Part_Primitives/ru.md), расположенную на панели инструментов верстака Part
-    -   Используйте меню {{MenuCommand|Деталь → [Создать Примитивы...](Part_Primitives/ru.md) → Окружность}}
+    -   Используйте меню **Деталь → [Создать Примитивы...](Part_Primitives/ru.md) → Окружность**
 
 ## Свойства
 

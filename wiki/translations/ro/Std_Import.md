@@ -37,8 +37,8 @@ Când este încărcat, fișierul este adăugat la proiectul curent(de asemenea d
 ## Preferences
 
 -   See: [Import Export Preferences](Import_Export_Preferences.md).
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   The last used import filter is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileImportFilter}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used import filter is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileImportFilter**.
 
 
 

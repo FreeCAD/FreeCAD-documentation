@@ -61,7 +61,7 @@
     Порядок выбора важен. Соединения с самопересечениями не допускаются (самопересечения иногда можно учесть, передав соединение через <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [BooleanFragments](Part_BooleanFragments/ru.md))
 2.  Вызвать команду Part Slice одним из способов:
     -   Нажмите кнопку <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Slice](Part_Slice/ru.md) на панели инструментов Part
-    -   Используйте пункт {{MenuCommand|Деталь → Разделить → Slice apart}} в меню Деталь
+    -   Используйте пункт **Деталь → Разделить → Slice apart** в меню Деталь
 
 
 </div>
@@ -79,7 +79,7 @@
 
 <div class="mw-translate-fuzzy">
 
-### Древовидная структура Slice {#древовидная_структура_slice}
+### Древовидная структура Slice 
 
 Команда Slice создаёт нарезанный объект. В следующем примере куб разрезается гранью.
 
@@ -107,7 +107,7 @@
 
 ## Пример
 
-### Создание головоломки {#создание_головоломки}
+### Создание головоломки 
 
 
 <div class="mw-translate-fuzzy">
@@ -118,7 +118,7 @@
     -   Закройте эскиз.
         ![320px](images/slice_example_step1.png)
 2.  Переключитесь на <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Верстак Part](Part_Workbench/ru.md).
-    -   Выберите эскиз и выберите {{MenuCommand|Деталь → Create face from sketch}}.
+    -   Выберите эскиз и выберите **Деталь → Create face from sketch**.
         ![320px](images/slice_example_step2.png)
 3.  Вернитесь к <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [верстаку Sketcher](Sketcher_Workbench/ru.md)
     -   Создайте еще один эскиз на той же плоскости.

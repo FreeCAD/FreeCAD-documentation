@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -84,7 +84,7 @@ SVG is a 2D format, so all Z information will be disregarded (all objects will b
 
 <div class="mw-translate-fuzzy">
 
-### Manejando unidades {#manejando_unidades}
+### Manejando unidades 
 
 Cuando se exporta, una unidad de usuario por ejemplo igual a un milímetro.
 

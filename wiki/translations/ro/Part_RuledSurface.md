@@ -27,7 +27,7 @@ Create ruled surface
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați două linii sau două margini
 2.  Rulați instrumentul
@@ -45,7 +45,7 @@ Macro [Sviluppa superfici rigate](Macro_Unroll_Ruled_Surface/it.md) permite crea
 
 1.  Invoke the Ruled Surface command several waysː
     -   Press the <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Part RuledSurface](Part_RuledSurface.md) button
-    -   Use the {{MenuCommand|Part → RuledSurface}} entry in the Part menu
+    -   Use the **Part → RuledSurface** entry in the Part menu
 
 
 

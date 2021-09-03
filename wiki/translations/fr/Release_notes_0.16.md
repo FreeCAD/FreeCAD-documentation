@@ -11,7 +11,7 @@ Satnogs Rotator (https://satnogs.org/)
 
 </center>
 
-## Nouveautés Principales {#nouveautés_principales}
+## Nouveautés Principales 
 
 **Le support d\'expression** a été introduit, ce qui permet de définir des relations entre des objets par des formules. Le support d\'expression est une avancée majeur pour créer de meilleurs modèles paramétrique avec FreeCAD. Le support d\'expressions offre une interface simple pour créer des modèle pilotable avec une feuille de tableur.
 
@@ -36,12 +36,12 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 -   Nouvelles options de sauvegarde (Rétablir, Enregistrer une copie)
 -   Nouvelle page d\'accueil
 
-## Atelier Part {#atelier_part}
+## Atelier Part 
 
 -   Nouvel outils pour fusionner des objets creux (ex: des tuyaux) : [Connect](Part_JoinConnect/fr.md), [Embed](Part_JoinEmbed/fr.md) and [Cutout](Part_JoinCutout/fr.md)
 -   Nouvelle fonction: Créer une face à partir d\'une esquisse (paramétrique)
 
-## Ateliers Part Design & Sketcher {#ateliers_part_design_sketcher}
+## Ateliers Part Design & Sketcher 
 
 -   Nouvelle fonction : Bascule entre les [ contraintes Référence et Pilote](Sketcher_ToggleDrivingConstraint/fr.md)
 -   Nouvelle fonction : Mode création continue (l\'outil reste actif)
@@ -51,11 +51,11 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 -   Nouvelles fonctions : outils pour copier, faire un miroir et un réseau rectangulaire.
 -   Support des [expressions/formules](Expressions/fr.md) dans les contraintes et les propriétés.
 
-## Atelier Tableur {#atelier_tableur}
+## Atelier Tableur 
 
 -   Ajout des fonctions : round, trunc, ceil, et floor.
 
-## Atelier Draft {#atelier_draft}
+## Atelier Draft 
 
 -   **Nouveau importer DXF**: L\'atelier Draft dispose d\'un tout nouveau importer DXF, codé entièrement en C++, hérité de [HeeksCad](https://github.com/Heeks/heekscad), qui n\'a plus besoin d\'être téléchargé sur Internet et qui est plus rapide et robuste avec les gros fichiers. Une option dans les préférence DXF permet de basculer sur l\'ancien importer si besoin.
 -   Un nouvel **[outil Miroir](Draft_Mirror/fr.md)** permet de faire une symétrie \"à la Draft\"
@@ -67,7 +67,7 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 
 <div class="mw-translate-fuzzy">
 
-## Atelier Drawing {#atelier_drawing}
+## Atelier Drawing 
 
 -   Un nouvel objet **[Vue tableur](Drawing_SpreadsheetView/fr.md)** permet de placer une région de cellules d\'un [tableur](Spreadsheet_Workbench/fr.md) dans une page de dessin.
 
@@ -76,7 +76,7 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 
 <img alt="" src=images/Drawing_spreadsheetview.jpg  style="width:1024px;">
 
-## Atelier Arch {#atelier_arch}
+## Atelier Arch 
 
 -   **[Support des Materiaux](Arch_SetMaterial/fr.md)**: Un objet Arch peut maintenant avoir un [matériau](material/fr.md) associé, qui utilise le framework des matériaux intégré à FreeCAD. Ces matériaux sont partagés entre les ateliers. Ils sont pleinement supporté lors de l\'import et l\'export IFC.
 -   La **[Section plane](Arch_SectionPlane/fr.md)** peut maintenant faire une coupe dans la vue 3D montrant en temps réel la section.
@@ -88,7 +88,7 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 -   Un nouvel outil [Arch Schedule/fr](Arch_Schedule/fr.md) permet de créer différent type de liste de matériaux à partir d\'une maquette BIM.
 -   **Les attributs IFC** peuvent maintenant être importés, édités et exportés. Il s\'agit d\'un objet Tableur attaché à un objet Arch.
 
-## Atelier FEM {#atelier_fem}
+## Atelier FEM 
 
 -   Les commandes dans **l\'interface** FEM ont maintenant des raccourcis clavier. Une page de préférence FEM à été ajoutée. Le chemin de l'exécutable CalculiX fait partie de ces préférences.
 -   **Conteneurs d\'analyse dans l\'interface** Les membres d\'une analyse utilise le glisser/déposer. Ils peuvent être déplacer dans ou en dehors d\'un conteneur d\'analyse. Depuis qu\'il y a le support de multiples analyses, les membres peuvent être déplacés dans une autre analyse. Les contraintes multiple peuvent être créées dans une analyse.
@@ -108,7 +108,7 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 -   **Macro GMSH** La [Macro\_GMSH](Macro_GMSH.md) est un développement externe interessant qui rend possible le maillage avec GMSH. C\'est très pratique pour ceux qui ne peuvent pas installé ou compiler Netgen ou pour le maillage de coques et d\'arêtes.
 -   **Améliorations générales** En raison de la forte augmentation du développement, il y a eu des tonnes d\'améliorations sur la base du code du module FEM.
 
-## Atelier Path {#atelier_path}
+## Atelier Path 
 
 ![](images/Exercise_path_02.jpg )
 
@@ -122,7 +122,7 @@ Dans son état actuel, l\'atelier permet de créer des profiles et des poches au
 
 </div>
 
-## Modules Additionnels {#modules_additionnels}
+## Modules Additionnels 
 
 Plusieurs nouveaux [ateliers complémentaires](https://github.com/FreeCAD/FreeCAD-addons) ont été créés par des membres de la communauté. Ces ateliers s\'installe très facilement sur une installation existante de FreeCAD. Parmi eux on trouve :
 

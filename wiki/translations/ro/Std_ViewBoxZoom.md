@@ -28,7 +28,7 @@ Meniul instrumentului Zoom: ![](images/ZoomMenu.png )
 Alegeți ** View** → ** Zoom** → **<img src="images/Std_ViewBoxZoom.png" width=32px> Box zoom** din meniul principalo.
 Apoi specificați caseta pentru zoom în vizualizarea 3D .
 
-#### Din meniul principal {#din_meniul_principal}
+#### Din meniul principal 
 
 -   din meniul \'\'\'Visualizza → Zoom → \'\'\' clic pe funcția dorită. Vizualizarea va fi scalată funcție de **pasul** impus.
 -   Repetați **<img src=images/View-zoom-in.svg style="width:16px"> Zoom in** sau **<img src=images/View-zoom-out.svg style="width:16px"> Zoom out** până la obținerea scalării dorite.
@@ -39,15 +39,15 @@ Apoi specificați caseta pentru zoom în vizualizarea 3D .
 
 Cu ajutorul opțiunii **Zoom al cursore**, puteți utiliza și cursorul pentru a seta centrul scalării.
 
-#### De la tastatură {#de_la_tastatură}
+#### De la tastatură 
 
 -   Utilizați și comandați viteza: Ctrl ++ pentru fiecare margine, Ctrl + - pentru fiecare curea Ctrl + B pentru fiecare selecție.
 
-#### De la mouse {#de_la_mouse}
+#### De la mouse 
 
 Vedere la pagina [Tipi di mouse](Mouse_Model/it.md) de pagina de navigare și pagina de pornire [Impostare le preferenze](Preferences_Editor/it.md) pentru modificare.
 
-#### Cu mouse, selectarea unei porțiuni {#cu_mouse_selectarea_unei_porțiuni}
+#### Cu mouse, selectarea unei porțiuni 
 
 -   Porniți funcția din meniu \'\'\'Visualizza → Zoom → \'\'\' cliccando sulla funzione **<img src=images/View-zoom-border.svg style="width:16px"> [Finestra](Std_ViewBoxZoom/it.md)**.
 -   Poziționarea mouse-ului în nell\'area di lavoro, în primul rând el tasto sinistro e selezionare una zona. Rilasciare el tasto.

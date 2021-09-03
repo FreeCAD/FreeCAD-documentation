@@ -27,7 +27,7 @@ ToolBar Icon ![](images/Macro_GMSH.png )
 
 **GMSHMesh.FCMacro GMSH Macro.FCMacro**
 
-## Installation additionnelle {#installation_additionnelle}
+## Installation additionnelle 
 
 Quand GMSH est installé, voir [gmsh.info](http://gmsh.info/). La macro fonctionne dans les systèmes d\'exploitation Linux, OSX et Windows. Le chemin du binaire gmsh.exe doit être modifié dans le code de la macro (voir ligne 9).
 

@@ -18,7 +18,7 @@ Creați un plan de referință **datum plane** care poate fi folosit ca referin�
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

@@ -29,7 +29,7 @@ Prima di iniziare, bisogna considerare le seguenti cose :
 
 <div class="mw-translate-fuzzy">
 
-# Come fare {#come_fare}
+# Come fare 
 
 
 </div>
@@ -37,7 +37,7 @@ Prima di iniziare, bisogna considerare le seguenti cose :
 
 <div class="mw-translate-fuzzy">
 
-## Preparare la macro {#preparare_la_macro}
+## Preparare la macro 
 
 
 </div>
@@ -95,7 +95,7 @@ Ovviamente se la funzione \'run()\' esiste già nella macro, si può usare quals
 
 <div class="mw-translate-fuzzy">
 
-## Integrare la macro nell\'avvio di FreeCAD {#integrare_la_macro_nellavvio_di_freecad}
+## Integrare la macro nell\'avvio di FreeCAD 
 
 
 </div>
@@ -142,7 +142,7 @@ Il lavoro è finito. La macro dovrebbe essere eseguita automaticamente al prossi
 
 Notare che se la macro originale è stata scaricata tramite Addon Manager, nel caso di aggiornamento essa viene sovrascritta e quindi è necessario eseguire di nuovo questi passaggi.
 
-## General Notes {#general_notes}
+## General Notes 
 
 -   In the example \'InitGui.py\' script above, the function named \'runStartupMacros()\' may be changed, so long as you also change the other four references to it, so they all match.
 -   This script will be run prior to the auto loading of your desired startup workbench in the FreeCAD Preferences, [Preferences\_Editor\#General\_settings](Preferences_Editor#General_settings.md).

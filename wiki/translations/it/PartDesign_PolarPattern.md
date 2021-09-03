@@ -20,7 +20,7 @@ Lo strumento **Serie polare** prende una funzione selezionata e ne crea una seri
 
 ## Utilizzo
 
-#### To create a pattern {#to_create_a_pattern}
+#### To create a pattern 
 
 
 <div class="mw-translate-fuzzy">
@@ -44,7 +44,7 @@ Lo strumento **Serie polare** prende una funzione selezionata e ne crea una seri
 
 </div>
 
-#### Ordering features {#ordering_features}
+#### Ordering features 
 
 ![](images/PartDesign_feature-order.gif ) *Effect of the feature order*
 
@@ -53,7 +53,7 @@ Lo strumento **Serie polare** prende una funzione selezionata e ne crea una seri
 
 You can change the order by dragging the feature in the list and you will see the result immediately as preview.
 
-#### Adding features {#adding_features}
+#### Adding features 
 
 ###### v0.18
 
@@ -71,13 +71,13 @@ You can change the order by dragging the feature in the list and you will see th
 3.  Select in the tree the feature to be added.
 4.  Repeat to add other features.
 
-#### Removing features {#removing_features}
+#### Removing features 
 
 -   Right-click on the feature in the list and select *Remove*.
 
 or
 
-###### v0.18 {#v0.18_1}
+###### v0.18 
 
 1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md):
 2.  Switch to the Model tree;
@@ -86,7 +86,7 @@ or
 5.  Select the feature in the 3D view; it will have been removed from the list.
 6.  Repeat to remove other features.
 
-###### v0.19 {#v0.19_1}
+###### v0.19 
 
 1.  Press **Remove feature** to remove a feature from the list.
 2.  Switch to the Model tree;
@@ -101,34 +101,35 @@ or
 
 Durante la creazione di una funzione di serie polare, il dialogo \'Parametri serie polare\' offre modi diversi per specificare l\'asse di rotazione del modello.
 
-#### Asse normale dello schizzo {#asse_normale_dello_schizzo}
+#### Asse normale dello schizzo 
 
 Come asse della serie viene preso un asse essendo perpendicolare al disegno e posto nell\'origine del disegno.
 La direzione della schiera può essere invertita barrando \'direzione inversa\'.
 
-#### Asse orizzontale dello schizzo {#asse_orizzontale_dello_schizzo}
+#### Asse orizzontale dello schizzo 
 
 Usa l\'asse orizzontale dello schizzo per l\'asse.
 
-#### Asse verticale dello schizzo {#asse_verticale_dello_schizzo}
+#### Asse verticale dello schizzo 
 
 Usa l\'asse verticale dello schizzo per l\'asse.
 
-#### Asse di schizzo personalizzato {#asse_di_schizzo_personalizzato}
+#### Asse di schizzo personalizzato 
 
 Se lo schizzo che definisce la funzione da modellare contiene anche una linea di costruzione (o linee), l\'elenco a discesa contiene un asse dello schizzo personalizzato per ogni linea di costruzione. La prima linea di costruzione è etichettata come \"Schizzo asse 0\".
 
-#### Asse Base (X/Y/Z) {#asse_base_xyz}
+#### Asse Base (X/Y/Z) 
 
 v0.17 e superiore Seleziona uno degli assi standard di Origine del Corpo (X, Y o Z) come asse.
 
-#### Seleziona riferimento\... {#seleziona_riferimento...}
+#### Seleziona riferimento\... 
 
 Consente di selezionare una linea di riferimento, DatumLine, o un bordo di un oggetto o una linea di uno schizzo da utilizzare per l\'asse.
 
-### Angolo e numero di duplicati {#angolo_e_numero_di_duplicati}
+### Angolo e numero di duplicati 
 
-Specifica l\'angolo da coprire con la schiera e il numero totale di forme della schiera (inclusa la forma originale). Per esempio, la combinazione quattro copie in un angolo di 180 gradi produce una spaziatura di 60 gradi tra ogni copia. C\'è una eccezione: quando l\'angolo è di 360 gradi e la prima e l\'ultima copia sono identiche, vengono prodotte quattro copie distanziate 90 gradi. {{Clear}}
+Specifica l\'angolo da coprire con la schiera e il numero totale di forme della schiera (inclusa la forma originale). Per esempio, la combinazione quattro copie in un angolo di 180 gradi produce una spaziatura di 60 gradi tra ogni copia. C\'è una eccezione: quando l\'angolo è di 360 gradi e la prima e l\'ultima copia sono identiche, vengono prodotte quattro copie distanziate 90 gradi. 
+
 
 ## Limitazioni
 

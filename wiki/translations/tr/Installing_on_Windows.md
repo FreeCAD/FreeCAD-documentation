@@ -21,7 +21,7 @@ FreeCAD\'i Windows\'a kurmanın en kolay yolu aşağıdaki kurulum dosyalarında
 
 Aşağıda kurulum hakkında daha fazla bilgi bulunmaktadır. Size zor gibi görünüyorsa, endişelenmeyin! Çoğu Windows kullanıcısı, FreeCAD\'i kurmak ve çalışmaya başlamak için .msi\'den daha fazlasına ihtiyaç duymaz !
 
-### Basit Microsoft Yükleyici Kurulumu {#basit_microsoft_yükleyici_kurulumu}
+### Basit Microsoft Yükleyici Kurulumu 
 
 FreeCAD\'i Windows\'a kurmanın en kolay yolu yukarıda indirebileceğiniz kurulum dosyasıdır. Bu sayfada, daha fazla kurulum seçeneği için Microsoft Installer\'ın kullanımı ve özellikleri açıklanmaktadır.
 
@@ -47,13 +47,13 @@ choco upgrade freecad
 
 to get the latest version available on Chocolatey repository. If there are any issues with the chocolatey package, you may contact maintainers on [this page](https://chocolatey.org/packages/freecad).
 
-### Komut Satırı Kurulumu {#komut_satırı_kurulumu}
+### Komut Satırı Kurulumu 
 
 msiexec.exe komut satırı yardımcı programı ile birlikte ek özellikler, etkileşimsiz kurulum ve Yönetici yüklemesi gibi özellikler bulunur.Aşağıdaki örneklere bakınız.
 
 With the *msiexec.exe* command line utility, additional features such as non-interactive installation and administrative installation are available. See examples below.
 
-### Etkileşimsiz Kurulum {#etkileşimsiz_kurulum}
+### Etkileşimsiz Kurulum 
 
 Komut satırı ile
 
@@ -71,7 +71,7 @@ Kurulum programlı olarak başlatılabilir. Bu komut satırının sonunda ek par
 msiexec /i FreeCAD-2.5.msi TARGETDIR=R:\FreeCAD25
 ```
 
-#### Sınırlı kullanıcı arayüzü {#sınırlı_kullanıcı_arayüzü}
+#### Sınırlı kullanıcı arayüzü 
 
 Yükleyici tarafından izin verilen kullanıcı kontrolü miktarı / q seçenekleriyle kontrol edilebilir:
 
@@ -93,7 +93,7 @@ The amount of user control permitted by the installer can be controlled with /q 
 
 </div>
 
-#### Hedef dizin {#hedef_dizin}
+#### Hedef dizin 
 
 TARGETDIR özelliği, FreeCAD kurulumunun kök dizinini belirler. Örneğin, farklı bir yükleme sürücüsü ile belirtilebilir.
 
@@ -106,7 +106,7 @@ TARGETDIR=R:\FreeCAD25
 
 Varsayılan TARGETDIR \[WindowsVolume \\ Programm Files \\\] FreeCAD \<sürümdür.
 
-#### Tüm Kullanıcılar için Kurulum {#tüm_kullanıcılar_için_kurulum}
+#### Tüm Kullanıcılar için Kurulum 
 
 Eklenen
 
@@ -119,7 +119,7 @@ ALLUSERS=1
 
 Tüm kullanıcılar tarafından kullanılabilen bir yüklemeye neden olur. Varsayılan olarak, etkileşimli olmayan (/i) bir yükleme, paketi geçerli kullanıcı (yalnızca yükleme işlemini gerçekleştiren) tarafından kullanılabilir hale getirir; Etkileşimli bir kurulum, kurulumu gerçekleştiren kullanıcı yeterince ayrıcalıklıysa, \"tüm kullanıcılar\" için varsayılan olan bir iletişim kutusu sunar.
 
-#### Özellik Seçimi {#özellik_seçimi}
+#### Özellik Seçimi 
 
 Bazı özellikler, özelliklerin kurulmasına, yeniden kurulmasına veya kaldırılmasına olanak sağlar. FreeCAD yükleyici için bir dizi özellik;
 
@@ -160,7 +160,7 @@ msiexec /x FreeCAD<version>.msi
 
 Bu komutla, FreeCAD kaldırılabilir.MSI dosyasının kaldırma için bulunması gerekmez; alternatif olarak, paket veya ürün kodu da belirtilebilir. Ürün kodunu, FreeCAD\'in başlat menüsünde yüklediği Kaldır kısayolunun özelliklerine bakarak bulabilirsiniz.
 
-### Yetkili Kurulum {#yetkili_kurulum}
+### Yetkili Kurulum 
 
 With
 
@@ -188,7 +188,7 @@ Prensipte, FreeCAD\'i bir makineye \"tanıtmak\" mümkün olacaktır (bir kullan
 
 FreeCAD yükleyicisi şu anda,sadece başlangıç ​​menüsüne eklemeleri destekliyor, ancak kısayolları desteklemiyor.
 
-### Makine gruplarına otomatik kurulum {#makine_gruplarına_otomatik_kurulum}
+### Makine gruplarına otomatik kurulum 
 
 Windows Grup İlkesi ile, FreeCAD\'i bir grup makineye otomatik olarak kurmak mümkündür. Bunu yapmak için aşağıdaki adımları izleyin:
 
@@ -218,7 +218,7 @@ With Windows Group Policy, it is possible to automatically install FreeCAD on a 
 
 Grup ilkesi yayılması genellikle biraz zaman alır - paketi güvenilir bir şekilde dağıtmak için tüm makineler yeniden başlatılmalıdır.
 
-### Crossover Office kullanarak Linux\'ta kurulum {#crossover_office_kullanarak_linuxta_kurulum}
+### Crossover Office kullanarak Linux\'ta kurulum 
 
 FreeCAD\'in Windows sürümünü CXOffice 5.0.1 kullanarak bir Linux sistemine kurabilirsiniz . Yükleme paketinin \"Y:\" sürücü harfiyle eşlenen \"yazılım\" dizinine yerleştirildiğini varsayarak, CXOffice komut satırından msiexec komutunu çalıştırın : 
 ```pythonmsiexec /i Y:\\software\\FreeCAD<version>.msi

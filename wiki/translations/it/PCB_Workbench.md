@@ -36,11 +36,11 @@ Menu a discesa
 
 ## Installazione
 
-### Installazione automatica {#installazione_automatica}
+### Installazione automatica 
 
 Questo ambiente può essere installato dal [Addon Manager](Std_AddonMgr/it.md).
 
-### Da GitHub {#da_github}
+### Da GitHub 
 
 **Prerequisiti**
 
@@ -90,7 +90,7 @@ Security → Edit → Users and mark all checkboxes under \'Allow\' option.
 
 **Istruzioni per l\'installazione di MacOS** (Da GitHub)
 
-## Riferimento a FreeCAD-PCB Ambiente {#riferimento_a_freecad_pcb_ambiente}
+## Riferimento a FreeCAD-PCB Ambiente 
 
 -   Wiki del Ambiente: [Ambienti esterni](https://wiki.freecadweb.org/External_workbenches)
 -   Wiki di FreeCAD: [Pagina principale Wiki](https://wiki.freecadweb.org/Main_Page)
@@ -100,7 +100,7 @@ Security → Edit → Users and mark all checkboxes under \'Allow\' option.
 -   Archivio: [PCB biblioteca](https://github.com/marmni/FreeCAD-PCB-library)
 -   Segnalazione di bug: Si prega di segnalare i bug a <https://github.com/marmni/FreeCAD-PCB/issues>
 
-## Altri riferimento utili {#altri_riferimento_utili}
+## Altri riferimento utili 
 
 -   [EaglePCB su sourceforge](https://sourceforge.net/projects/eaglepcb2freecad/)
 -   [Ricette macro](Macros_recipes/it.md)

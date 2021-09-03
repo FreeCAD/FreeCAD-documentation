@@ -17,7 +17,7 @@ Die Motivation für den Einsatz von Conda ist vielfältig, ebenso wie der Zweck 
 
 Lasse es uns aufschlüsseln.
 
-### Conda als Paketverwalter {#conda_als_paketverwalter}
+### Conda als Paketverwalter 
 
 Zuerst ist Conda ein Paketmanager - ähnlich wie apt oder pip.
 
@@ -25,7 +25,7 @@ Das bedeutet, dass wir **Pakete** mit einem einfachen conda install von verschie
 
 Conda Forge ist analog zu [the Python Paket Index (PyPI)](https://pypi.org/), einem Gemeinschaftskanal, der aus Tausenden von Mitwirkenden besteht, und dient [Freecad](https://anaconda.org/conda-forge/freecad) als Conda Paket.
 
-### Conda als ein Abhängigkeitsverwalter {#conda_als_ein_abhängigkeitsverwalter}
+### Conda als ein Abhängigkeitsverwalter 
 
 Als nächstes ist Conda ein Abhängigkeitsverwalter, ebenfalls ähnlich wie apt oder pip.
 
@@ -35,7 +35,7 @@ Warum nicht einfach pip verwenden? pip funktioniert wirklich gut für die Verwal
 
 Conda arbeitet für mehrere Sprachen und ist daher besser geeignet, um die Abhängigkeiten von Projekten wie FreeCAD zu verwalten, die Abhängigkeiten über eine Vielzahl von Sprachen wie C / C++ und Python haben.
 
-### Conda als ein Umgebungsverwalter {#conda_als_ein_umgebungsverwalter}
+### Conda als ein Umgebungsverwalter 
 
 Conda hat das Konzept einer [Umgebung](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html), die die einzigartige Kombination von Paketen und Versionen darstellt, die zum Betrieb einer Software benötigt wird. Zum Beispiel ein FreeCAD Arbeitsbereich.
 
@@ -47,13 +47,13 @@ Conda Umgebungen ermöglichen es dir, dieselbe exakte Umgebung auf verschiedenen
 
 Zum Beispiel mehrere lokale Entwicklerrechner oder ein entfernter Build Server, der von Travis CI bereitgestellt wird.
 
-## Conda einrichten {#conda_einrichten}
+## Conda einrichten 
 
 1\. [Miniconda einrichten](https://docs.conda.io/en/latest/miniconda.html).
 
 2\. Überprüfe, ob deine Installation erfolgreich war und machen dich mit dem conda **CLI**\' vertraut. $ conda --help
 
-## Einrichtung von FreeCAD mit Conda {#einrichtung_von_freecad_mit_conda}
+## Einrichtung von FreeCAD mit Conda 
 
 Zuerst musst du entscheiden, ob du eine **stabile** Version von FreeCAD installierst oder mit dem neuesten **instabilen** Code von FreeCAD master experimentieren willst.
 
@@ -77,13 +77,13 @@ conda config --add channels conda-forge
 conda create --name fcenv-dev --channel freecad/label/dev freecad
 ```
 
-## FreeCAD Forum Diskussion {#freecad_forum_diskussion}
+## FreeCAD Forum Diskussion 
 
 -   [Lasse uns über Conda sprechen](https://forum.freecadweb.org/viewtopic.php?t=39656)
 -   [Verpackungslösung: (ana)conda](https://forum.freecadweb.org/viewtopic.php?f=10&t=15197)
 -   [FreeCAD Conda Verteilung](https://forum.freecadweb.org/viewtopic.php?f=8&t=45582)
 
-## Siehe Auch {#siehe_auch}
+## Siehe Auch 
 
 -   <https://docs.conda.io/en/latest/>
 -   <https://conda-forge.org/docs/>

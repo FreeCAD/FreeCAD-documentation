@@ -26,7 +26,7 @@ Konstruktionslinien können mit der Funktion **<img src=images/PartDesign_Revolu
 1.  Wähle eine oder mehrere Skizzengeometrien in der [3D Ansicht](3D_view/de.md) aus
 2.  Rufe das Skizzierer UmschaltenKonstruktionswerkzeug auf verschiedene Weise auf:
     -   Klicke auf die **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Umschalten Konstruktion](Sketcher_ToggleConstruction/de.md)**.
-    -   Verwendung des {{MenuCommand|Skizze → Skizzierergeometrien → <img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> Konstruktionsgeometrie umschalten}} Eintrags im Skizzierermenü
+    -   Verwendung des **Skizze → Skizzierergeometrien → <img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> Konstruktionsgeometrie umschalten** Eintrags im Skizzierermenü
 
 
 </div>

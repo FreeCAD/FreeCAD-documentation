@@ -43,7 +43,7 @@ Eines der Endziele dieser Software ist es, mit der Entwurf Arbeitsbereich einige
 
 Zur Zeit gibt es kein wirkliches Einheiten Handhabungssystem in FreeCAD, aber natürlich braucht ein Bootsbauer oder Modellbauer ein genaues Bemaßungssystem. Um dieses Makro zu verwenden, entscheide dich, die FreeCAD Rastergröße auf das einzustellen, was immer für deine Arbeit angemessen ist (z.B. mm, cm, Zoll, Fuß). FreeCAD ist konsistent, eine FreeCAD Einheit wird immer gleich einer FreeCAD Einheit sein. Und wenn du dich entschieden hast, dass eine FreeCAD Einheit einer bestimmten physikalischen Länge entspricht, dann werden deine Zeichnungen konsistent bemaßt bleiben. Zur Zeit wird an einem Einheitensystem für FreeCAD gearbeitet, so dass sich diese Situation bald ändern könnte.
 
-## Beschreibung {#beschreibung_1}
+## Beschreibung 
 
 Für dieses Makro werden die Rumpfformen durch ein Minimum von 3 FreeCAD Skizzen definiert: eine in der YZ Ebene, eine oder mehrere in der XZ Ebene, eine in der XY Ebene. Hier ist der minimale Rumpf, der von diesem Makro unterstützt wird, er hat nur 3 Skizzen:
 
@@ -231,7 +231,7 @@ The following instructions refer to the quadrants of the XY graph, this refers t
 
 The very first thing is to create a new document in FreeCAD <img alt="" src=images/Document-new.svg  style="width:24px;">. This document will hold all the Sketches that make up your hull definition.
 
-### Create the Stemline {#create_the_stemline}
+### Create the Stemline 
 
 The first step is one of creating data for the hull model to be made from. The data is supplied in the form of Sketches within FreeCAD. After the hull model is generated, if changes are to be made then the Sketches are simply edited, and the second step of running the macro repeatedly.
 
@@ -243,7 +243,7 @@ The first step is one of creating data for the hull model to be made from. The d
 5.  save sketch <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:24px;">
 6.  for ease of identification it is probably worth naming the Sketch something like \"stemline sketch\"
 
-### Create the Cross-section Sketch(es) {#create_the_cross_section_sketches}
+### Create the Cross-section Sketch(es) 
 
 1.  create a new sketch <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;">, in the XZ-Plane
 2.  the following dialog will appear:
@@ -257,7 +257,7 @@ The first step is one of creating data for the hull model to be made from. The d
 6.  repeat as this step necessary, it may be quicker to copy this sketch and then space the copies on the Y-axis, modifications may be made to the individual Sketches as required
 7.  for naming, it will make things easier to give some sort of sequence to the cross-sections, starting at the bow (i.e. the stemline) and increasing towards the stern (i.e. the transom)
 
-### Create the Transom Sketch in the XY Plane {#create_the_transom_sketch_in_the_xy_plane}
+### Create the Transom Sketch in the XY Plane 
 
 1.  create a new sketch <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;">, in the XY-Plane
 2.  start on the Y axis between quadrant III and IV, and draw upwards into Quadrant IV so that the end point is coincident with the rightmost point of the lowest cross-section Sketch in the YZ-plane
@@ -281,7 +281,7 @@ The principal limitations for constructing the model are:
 
 This concludes the first step which is one of creating the data which the macro will use to create both half-hulls and complete-hulls. The second step is described in the following section which is titled User Interface
 
-## User Interface {#user_interface}
+## User Interface 
 
 In this step the macro will gather some information from the user and then process the input Sketches to generate the desired hull models. This is the only GUI image for the macro and is primarily configuration details for the production of the hull models from the Sketches:
 
@@ -498,7 +498,7 @@ Although not seen very frequently in the last 2 millenia, this was once the defi
 
 -   in order for the bow to be correct the poly-line for the stemline needs to be drawn from the bottom to the top which will mean right to left in the Sketcher
 
-## Sample Files {#sample_files}
+## Sample Files 
 
 These files are samples of Sketch data to use with the macro, mainly they are the models for the screen snapshots in the Options section above. The files work with the Macro and so can be downloaded and played with to adapt to your specific requirements. The prefix of 5x3 (for example) means the model has 5 cross-sections and 3 line segments per cross-section (i.e. sketch)
 
@@ -521,7 +521,7 @@ To use one of the example files, right-click on the file link and select Save Fi
 -   doesn\'t do square bows like push-boats or towed barges
 -   doesn\'t do submarines (although it will do the lower half of a submarine)
 
-## Known Problems {#known_problems}
+## Known Problems 
 
 The \'Ruled Surface\' feature of FreeCAD is used to generate the hull sections from the Sketches. It can sometimes generate the wrong result and display a grater like surface instead of a smooth planar one. This will typically occur when the Sketches are rotated such as when a Sugar Scoop stern is modeled. Also angling a Sheer Transom stern can cause this. If it occurs then typically it will do so in either the half-hull models or the complete hull model - it never seems to occur in all three models for the same hull. Also it usually only happens at the extreme bow or stern. If it happens to section in the middle of the boat then most likely one of the Sketches was drawn in the wrong direction (i.e. either random sequence or top-down where as all lines should be drawn bottom-up)
 
@@ -536,7 +536,7 @@ The following screen snapshot shows the relevant portion of the screen:
 
 ![](images/Macro_Half-Hull_ModelKnownProblems1.jpg )
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 -   replace line segments of cross-sections with curved lines
     - this is just at the idea stage but would give a much smoother surface in the vertical dimension, however the horizontal surface would still be faceted as it is now

@@ -26,7 +26,7 @@ Cet outil permet l\'inspection du G-code interne FreeCAD d\'une opération Path.
 2.  Appelez la commande Path Inspect de plusieurs manières:
     -   Appuyez sur le bouton **<img src="images/Path_Inspect.svg" width=16px> [Inspecter le G-code](Path_Inspect.md)
 **
-    -   Utilisez l\'entrée {{MenuCommand|Path → Inspecter le G-code}} dans le menu Path
+    -   Utilisez l\'entrée **Path → Inspecter le G-code** dans le menu Path
     -   Vous pouvez également cliquer avec le bouton droit sur un objet Path → Inspecter
 
 
@@ -34,7 +34,7 @@ Cet outil permet l\'inspection du G-code interne FreeCAD d\'une opération Path.
 
 ## Options
 
--   La police et les couleurs de la fenêtre d\'édition suivent les paramètres de {{MenuCommand|Édition → Préférences → Éditeur}}
+-   La police et les couleurs de la fenêtre d\'édition suivent les paramètres de **Édition → Préférences → Éditeur**
 
 
 <div class="mw-translate-fuzzy">

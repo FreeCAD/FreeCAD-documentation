@@ -104,7 +104,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 
 -   Crea una nuova pagina nel documento corrente
 
-### Campi di testo modificabili {#campi_di_testo_modificabili}
+### Campi di testo modificabili 
 
 
 <div class="mw-translate-fuzzy">

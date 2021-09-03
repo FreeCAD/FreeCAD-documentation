@@ -26,7 +26,7 @@ Esta herramienta crea redondeos en las aristas seleccionadas de un objeto. Se cr
 -   Para una cadena de aristas tangentes entre sí, se puede seleccionar una única arista; el redondeo se propagará a lo largo de la cadena.
 -   Para editar el redondeo después de que la función ha sido validada, haz doble clic en la etiqueta del redondeo en el árbol del proyecto o pulsa con el botón derecho sobre ella y selecciona **Editar Redondeo**.
 
-## Redondeo DiseñoPiezas VS. Redondeo Piezas {#redondeo_diseñopiezas_vs._redondeo_piezas}
+## Redondeo DiseñoPiezas VS. Redondeo Piezas 
 
 <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [Redondeo DiseñoPiezas](PartDesign_Fillet/es.md) no debe confundirse con el **<img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Redondeo Piezas](Part_Fillet/es.md)** de la [Ambiente de trabajo Piezas](Part_Workbench/es.md). Aunque comparten el mismo nombre, no son iguales y no se usan de la misma manera.
 
@@ -38,7 +38,7 @@ Aquí puedes ver las diferencias entre ambos:
 -   El Redondeo de DiseñoPiezas ofrece una previsualización en tiempo real del redondeo a aplicar a los objetos antes de validar la función.
 -   El redondeo de Pieza soporta radios variables (con un de inicio y un radio final). El Redondeo de DiseñoPiezas no.
 
-## Temas conocidos {#temas_conocidos}
+## Temas conocidos 
 
 Fillets, chamfers, and other features that operate on solid bodies depend on the underlying OpenCASCADE Technology (OCCT) kernel that FreeCAD uses. The OCCT kernel occasionally has difficulty handling coincident sharp edges, where two faces meet. If this is the case FreeCAD may crash without an explanation.
 
@@ -63,7 +63,7 @@ See the forum threads for more information:
 
 The user is also responsible for the integrity of his or her own model. Depending on the model, it may be impossible to perform a fillet or chamfer if the body is not big enough to support that operation. For example, it wouldn\'t be possible to create a 10 mm fillet if an edge is separated only 5 mm from the next surface. In that case, the maximum radius for a fillet would be 5 mm; trying to use a larger value may result in a shape that doesn\'t compute, or even a crash. If using the exact limit of 5 mm doesn\'t work, it may be possible to use a very close approximation, like 4.9999 mm, to produce the same visible result.
 
-### Denominación topológica {#denominación_topológica}
+### Denominación topológica 
 
 Los números de los bordes no son completamente estables, por lo tanto es aconsejable que termine el trabajo de diseño principal de su cuerpo sólido antes de aplicar características como filetes y chaflanes, de lo contrario los bordes podrían cambiar de nombre y los bordes fileteados probablemente quedarían inválidos.
 

@@ -19,7 +19,7 @@ Simulate assembly .
 
 Download the files in FreeCAD and run the macro
 
-## The File {#the_file}
+## The File 
 
 [Assy.fcstd](http://forum.freecadweb.org/download/file.php?id=6740)
 

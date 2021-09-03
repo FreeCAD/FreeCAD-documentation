@@ -11,7 +11,7 @@ If you are not involved with the development discussed here:<br>
 
 This is the project plan for the FreeCAD resource framework as part of the [Development roadmap](Development_roadmap.md).
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 This is a software development project aimed to implement [Product Data Management (PDM)](http://en.wikipedia.org/wiki/Product_Data_Management) capabilities. It\'s about implementing the bits and pieces needed.
 
@@ -25,14 +25,14 @@ The development steps are planned here and tracked in the Mantis issue tracking 
 
 ## Brainstorming
 
-### What the others do {#what_the_others_do}
+### What the others do 
 
 Here some links on comparable commercial products:
 
 -   PTC\'s [PDMLink](http://www.ptc.com/product/windchill/pdmlink) - *\"\...when all product stakeholders are accessing a single, trusted, central data repository, manufacturers have the power to expertly manage all forms of digital product development data \... PDMLink is the ideal solution. Web-based for easy enterprise-wide access, this industry-proven product data management (PDM) system supports geographically dispersed teams while managing critical processes such as change/configuration management, and detailed design.\"*
 -   Aras Corp. [Aras PLM Software](http://www.aras.com/) - They appear to offer Open Source solutions, this may be worth investigating further\...
 
-### Use Cases {#use_cases}
+### Use Cases 
 
 *Provided by Charles:*
 
@@ -46,7 +46,7 @@ Of course there will different sorts of people using this software for different
 
 -   More rigid hierarchical project - there may be some projects where the teams prefer this arrangement but I can only see this as being popular within companies.
 
-#### The Blendswap website {#the_blendswap_website}
+#### The Blendswap website 
 
 [Blendswap](http://www.blendswap.com/) - in thier own words - is *\"\...the place to find and share blends with the entire world. You make awesome blends, share them in the biggest repository of open source 3D models made with the awesome Open Source 3D suite Blender.\"*
 
@@ -59,7 +59,7 @@ Blendswap is an excellent example of an **online** repository. It\'s key feature
 -   Provides detailed thumbnail images on the website. This allows people to freely browse and find content quickly.
 -   The models (blend files) come with clear license details (these details are also quicky viewable at a glance from the thumbnail, via a Creative Commons logo).
 
-### Possible revision control systems {#possible_revision_control_systems}
+### Possible revision control systems 
 
 It\'s only a small step to think of revision control the same way it\'s used in modern software development. There are basicly two different approaches to that matter:
 
@@ -72,11 +72,11 @@ Although the Use Cases demand a distributed revision control system, all the nam
 
 In a distributed internet project its needed that every document carries a clear license. Its even more importand if you think of catalogs. Catalog parts get used in projects (free and non free) and need there fore a clear license to make it usage clear. Since there different licensing systems out there, here a set of possible licenses for CAD files:
 
-#### Creative Commons {#creative_commons}
+#### Creative Commons 
 
 The CC licenses are very popular for creative material, you can find the description here: <http://creativecommons.org>
 
-#### ISO 16016 {#iso_16016}
+#### ISO 16016 
 
 fraganaut01 give us a plug to another licensing system for CAD:
 
@@ -109,11 +109,11 @@ Thad leads to following scenario:
 
 First of all the different alternatives of revision control systems have to be tested. To get hard numbers on how they behave on CAD data.
 
-### Design {#design_1}
+### Design 
 
 A class design for the Resource framwork.
 
-## Next actions {#next_actions}
+## Next actions 
 
 -   Build up test repositories on the Server and two local machines
 -   Test different use cases

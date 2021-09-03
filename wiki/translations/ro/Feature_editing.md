@@ -12,7 +12,7 @@ This page explains the way the <img alt="" src=images/Workbench_PartDesign.svg  
 
 </div>
 
-## Metodologia de editare a funcțiilor {#metodologia_de_editare_a_funcțiilor}
+## Metodologia de editare a funcțiilor 
 
 Prima caracteristică este în mod obișnuit numită **caracteristică de bază**. La adăugarea mai multor caracteristici la model, fiecare caracteristică ia forma celei anterioare și adaugă sau înlătură materialul, creând dependențe liniare de la o caracteristică la alta. De fapt, această metodologie imită un proces de fabricație obișnuit: un bloc este tăiat pe o parte, apoi pe altă parte, se adaugă găuri, apoi arce de cerc etc.
 
@@ -66,7 +66,7 @@ Atunci când un model necesită mai multe corpuri, cum ar fi exemplul precedent 
 
 </div>
 
-### Managementul Vizibilității Corpului {#managementul_vizibilității_corpului}
+### Managementul Vizibilității Corpului 
 
 Un corp va prezenta implicit caracteristica cea mai recentă spre exterior. Această caracteristică este definită în mod prestabilit ca vârf. O bună analogie este expresia \"vârful aisbergului\": numai vârful este vizibil deasupra apei, cea mai mare parte a masei aisbergului (celelalte caracteristici) este ascunsă. Când o caracteristică nouă este adăugată corpului, vizibilitatea caracteristicii anterioare este dezactivată, iar noua caracteristică devine sfat.
 
@@ -78,15 +78,15 @@ Nu poate exista decât o funcție vizibilă la un moment dat. Este posibil să c
 
 </div>
 
-### Originea corpului {#originea_corpului}
+### Originea corpului 
 
 Corpul are o origine care constă din planuri de referință (XY, XZ, YZ) și axe (X, Y, Z) care pot fi folosite de către schițe și caracteristici. Schițele pot fi atașate la planurile de origine și nu mai trebuie să fie cartografiate pe fețe plane pentru ca elementele bazate pe ele să fie adăugate sau scăzute din model.
 
-### Mișcarea și Reorientarea Obiectelor {#mișcarea_și_reorientarea_obiectelor}
+### Mișcarea și Reorientarea Obiectelor 
 
 Este posibilă redefinirea temporară a vârfului la o caracteristică din mijlocul arborelui Corpului pentru a insera obiecte noi (caracteristici, schițe sau geometrie de origine). De asemenea, este posibilă reordonarea funcțiilor sub un Corp sau mutarea acestora într-un alt Corp. Selectați obiectul și faceți clic dreapta pentru a obține un meniu contextual care va oferi ambele opțiuni. Operația poate fi împiedicată dacă obiectul are dependențe în corpul sursă, cum ar fi atașarea la o față. Pentru a muta o schiță într-un alt corp, nu ar trebui să conțină legături către geometria exterioară.
 
-### Difference with other CAD systems {#difference_with_other_cad_systems}
+### Difference with other CAD systems 
 
 A fundamental difference between FreeCAD and other programs, like Catia, is that FreeCAD doesn\'t allow you to have many disconnected solids in the same <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> **[PartDesign Body](PartDesign_Body.md)**. That is, a new feature should always be built on top of the previous one. Or said in a different way, the newer feature should \"touch\" the previous feature, so that both features are fused together and become a single solid. You cannot have \"floating\" solids.
 
@@ -95,7 +95,7 @@ A fundamental difference between FreeCAD and other programs, like Catia, is that
 
 *Difference between Catia and FreeCAD. Left: Catia allows disconnected bodies from the previous features of the body. In FreeCAD this causes an error; Right: the newer feature should always contact or intersect the previous feature so that it is fused to it, and becomes a single contiguous solid.*
 
-## Geometria de referință {#geometria_de_referință}
+## Geometria de referință 
 
 
 <div class="mw-translate-fuzzy">
@@ -122,7 +122,7 @@ Even if not used for supporting sketches, datum objects are still helpful as vis
 
 *Difference between Catia and FreeCAD. Left: Catia allows disconnected bodies from the previous features of the body. In FreeCAD this causes an error; Right: the newer feature should always contact or intersect the previous feature, so that it is fused to it, and becomes a single contiguous solid. In this example, the new solid is based on a datum plane that is rotated around the Y axis.*
 
-## Referințe încrușișate {#referințe_încrușișate}
+## Referințe încrușișate 
 
 
 <div class="mw-translate-fuzzy">
@@ -144,7 +144,7 @@ Informații suplimentare pot fi găsite la [Attachment](Part_Attachment/ro.md) p
 
 </div>
 
-## Sfat pentru crearea de modele stabile {#sfat_pentru_crearea_de_modele_stabile}
+## Sfat pentru crearea de modele stabile 
 
 
 <div class="mw-translate-fuzzy">
@@ -165,23 +165,23 @@ Ideea de modelare parametrică implică faptul că puteți modifica valorile anu
 
 </div>
 
-## Body building workflow {#body_building_workflow}
+## Body building workflow 
 
 There are several workflows that are possible with the [PartDesign Workbench](PartDesign_Workbench.md). What should always be noticed is that all the features created inside a [PartDesign Body](PartDesign_Body.md) will be fused together to obtain the final object.
 
-### Different sketches {#different_sketches}
+### Different sketches 
 
 Sketches need to be supported by a plane. This plane can be one of the main planes (XY, XZ, or YZ) defined by the Origin of the Body. A sketch is either extruded into a positive solid (additive), with a tool like <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Pad](PartDesign_Pad.md), or into a negative solid (subtractive), with a tool like <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Pocket](PartDesign_Pocket.md). The first adds volume to the final shape of the body, while the latter cuts volume from the final shape. Any number of sketches and partial solids can be created in this way; the final shape (tip) is the result of fusing these operations together. Naturally, the Body can\'t consist of only subtractive operations, as the final shape should be a solid with a positive, non-zero volume.
 
 <img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
-### Sequential features {#sequential_features}
+### Sequential features 
 
 Sketches can be supported by the faces of previous solid operations. This may be necessary if you need to access a face that is only available after a certain feature has been created. However, this workflow isn\'t recommended since, if the original feature is modified, the following features in the sequence may break. This is the [topological naming problem](topological_naming_problem.md).
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 
-### Use of datum planes for support {#use_of_datum_planes_for_support}
+### Use of datum planes for support 
 
 Datum planes are useful to support the sketches. These auxiliary planes should be attached to the base planes of the body.
 

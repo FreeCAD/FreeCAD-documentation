@@ -38,26 +38,26 @@ Při vytváření kapsy nabízí dialogové okno \'parametrů kapsy\' čtyři r�
 
 Zadání číselné hodnoty pro hloubku kapsy. Defaultní směr pro vysunutí je do podkladu. Vysunutí je ve směru [kolmém](http://en.wikipedia.org/wiki/Surface_normal) k definované rovině náčrtu. Záporné hodnoty nejsou možné.
 
-### Do první {#do_první}
+### Do první 
 
 Kapsa bude vysunuta až do první plochy podkladu ve směru vysunutí. Jinými slovy odebírá všechen materiál až dokud nenarazí na prázdný prostor.
 
-### Skrz celý {#skrz_celý}
+### Skrz celý 
 
 Kapsa vyseká všechen materiál ve směru vysunutí. S volbou **Symetricky k rovině** bude kapsa vysekána celým materiálem v obou směrech.
 
-### Až k ploše {#až_k_ploše}
+### Až k ploše 
 
 Kapsa bude vysunuta až k ploše podkladu, která může být vybrána kliknutím na ni.
 
 
 </div>
 
-### Up to face {#up_to_face}
+### Up to face 
 
 The pocket will extrude up to a face in the support that can be chosen by clicking on it.
 
-### Two dimensions {#two_dimensions}
+### Two dimensions 
 
 This allows to enter a second length in which the pocket should extend in the opposite direction (into the support). Again can be changed by ticking the **Reversed** option. <small>(v0.17)</small> 
 
@@ -66,7 +66,7 @@ This allows to enter a second length in which the pocket should extend in the op
 -   Použijte **Rozměr** nebo **Skrz vše** kdykoliv je to možné, protože s ostatními typy jsou někdy problémy, když jsou vzorkovány
 -   Jinak objekt kapsa má stejná [omezení](PartDesign_Pad/cs#Limitations.md) jako objekt Deska.
 
-## Užitečné odkazy {#užitečné_odkazy}
+## Užitečné odkazy 
 
 [Příklad](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=10) na fóru.
 

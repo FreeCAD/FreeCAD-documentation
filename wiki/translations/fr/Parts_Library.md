@@ -23,17 +23,17 @@ Sélecteur de la bibliothèque de pièces
 
 ## Installation
 
-### Installation Automatique {#installation_automatique}
+### Installation Automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-### Depuis GitHub {#depuis_github}
+### Depuis GitHub 
 
 Comment faire [ici](https://github.com/FreeCAD/FreeCAD-library)
 
 La bibliothèque est un simple conteneur pour les fichiers FreeCAD (.fcstd) et STEP (.stp). Vous pouvez le télécharger n\'importe où et importer ses fichiers dans vos projets FreeCAD. À l\'intérieur de la bibliothèque, il y a aussi une macro FreeCAD (PartsLibrary.FCMacro) que vous pouvez placer dans votre dossier de macros FreeCAD. Cette macro crée une fenêtre de navigateur dans FreeCAD, à partir de laquelle vous pouvez facilement ajouter les pièces en double-cliquant dessus.
 
-## Liens vers l\'atelier PartsLibrary {#liens_vers_latelier_partslibrary}
+## Liens vers l\'atelier PartsLibrary 
 
 -   Atelier Wiki:
 -   FreeCAD Wiki: [Macro PartsLibrary](http://www.freecadweb.org/wiki/index.php?title=Macro_PartsLibrary)
@@ -44,7 +44,7 @@ La bibliothèque est un simple conteneur pour les fichiers FreeCAD (.fcstd) et S
 -   Liste des pièces, organismes auteur et normalisation: [sharing your models from the macro](https://github.com/FreeCAD/FreeCAD-library#sharing-your-models-from-the-macro)
 -   Signaler les bogues: veuillez signaler les bogues sur <https://github.com/FreeCAD/FreeCAD-library/issues>
 
-## Autres liens intéressants {#autres_liens_intéressants}
+## Autres liens intéressants 
 
 -   [Atelier BOLTSFC](BOLTSFC_Workbench/fr.md)
 -   [Atelier Fasteners](Fasteners_Workbench/fr.md)

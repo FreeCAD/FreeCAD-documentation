@@ -24,7 +24,7 @@ Proszę zauważyć, że narzędzie to nie jest używane do tworzenia nowych szki
 -   Wybierz powierzchnię elementu Part Design lub bryły.
 -   Kliknij na ikonę **<img src="images/Sketcher_MapSketch.svg" width=16px> [Mapuj szkic na powierzchnię](Sketcher_MapSketch.md)** na pasku narzędzi *(lub przejdź do menu PartDesign lub Sketch w zależności od tego, które Środowisko pracy jest aktywne)*.
 
-## Stosować przy naprawie uszkodzonego modelu {#stosować_przy_naprawie_uszkodzonego_modelu}
+## Stosować przy naprawie uszkodzonego modelu 
 
 Funkcja Sketcher: MapSketch jest często używana przy naprawie uszkodzonego modelu.
 

@@ -32,7 +32,7 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 
 ## Uso
 
-### Images options {#images_options}
+### Images options 
 
 #### Definition
 
@@ -83,7 +83,7 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
     {{RadioButton|1024x768 (XGA)}}
     
 
-#### Format image {#format_image}
+#### Format image 
 
 1.  
     {{SpinBox|600 px}}Length (Impostato: 600 px)
@@ -99,7 +99,7 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 2.  
     {{RadioButton|TRUE|Screen 3D}}: La vista 3D di FreeCAD
 
-#### BackGround Color {#background_color}
+#### BackGround Color 
 
 1.  
     {{RadioButton|TRUE|Current}}(Default)
@@ -147,9 +147,9 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
     1.  ![](images/Macro_Screen_Wiki_ToolBar_01.png )![](images/Macro_Screen_Wiki_ToolBar_02.png )![](images/Macro_Screen_Wiki_ToolBar_03.png )![](images/Macro_Screen_Wiki_ToolBar_04.png )
     2.  The button **[[Image:Macro_Screen_Wiki_ToolBar_04_6.png]]** Flip/Flop S/N la mini barra degli strumenti ![](images/Macro_Screen_Wiki_ToolBar_Mini.png )
 
-### Rotation options {#rotation_options}
+### Rotation options 
 
-#### Rotation on {#rotation_on}
+#### Rotation on 
 
 1.  
     {{RadioButton|3D View}}: La vista completa viene ruotata
@@ -171,7 +171,7 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 :   
     {{RadioButton| {{ColoredText||#995500|'''D'''}}}}: Rotazione su una direzione, per utilizzare questa opzione, selezionare prima l\'oggetto, secondo: la linea guida del filo. Se {{RadioButton|TRUE|{{ColoredText||#995500|'''D'''}}}} è selezionato e nessun filo è selezionato, la direzione è `Vector(0, 0, 0)`
 
-#### Point Rotation BoundBox {#point_rotation_boundbox}
+#### Point Rotation BoundBox 
 
 1.  Object : Rotazione sul centro BoundBox dell\'oggetto selezionato
 2.  Sub Object : Rotazione sul centro BoundBox dell\' secondo oggetto selezionato
@@ -228,7 +228,7 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 4.  
     **Save the animation**: Salva l\'animazione
 
-## Esempio immagini {#esempio_immagini}
+## Esempio immagini 
 
 ![](images/Macro_Screen_Wiki_03_Set_Screen.png )
 

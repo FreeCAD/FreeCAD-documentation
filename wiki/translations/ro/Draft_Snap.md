@@ -11,7 +11,8 @@
 
 <div class="mw-translate-fuzzy">
 
-Ancorarea(Snapping) înseamnă \"lipirea\" următorului punct 3D pe un punct existent. Snapping este disponibil cu majoritatea instrumentelor [Draft Workbench](Draft_Workbench.md) and [Arch Workbench](Arch_Workbench.md) și poate fi activat și dezactivat la nivel global cu <img alt="" src=images/Snap_Lock.png  style="width:32px;"> [Draft ToggleSnap](#Options.md) . Fiecare locație de tip snap de mai jos poate fi activată sau dezactivată individual făcând clic pe butonul corespunzător din bara de instrumente snap. {{MenuCommand|View → Toolbars → Draft Snap}}
+Ancorarea(Snapping) înseamnă \"lipirea\" următorului punct 3D pe un punct existent. Snapping este disponibil cu majoritatea instrumentelor [Draft Workbench](Draft_Workbench.md) and [Arch Workbench](Arch_Workbench.md) și poate fi activat și dezactivat la nivel global cu <img alt="" src=images/Snap_Lock.png  style="width:32px;"> [Draft ToggleSnap](#Options.md) . Fiecare locație de tip snap de mai jos poate fi activată sau dezactivată individual făcând clic pe butonul corespunzător din bara de instrumente snap. 
+**View → Toolbars → Draft Snap**
 
 
 </div>
@@ -28,7 +29,7 @@ Snapping is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Work
 
 </div>
 
-## Snap tools {#snap_tools}
+## Snap tools 
 
 These tools are available in the Draft Snap toolbar and in the [Draft snap widget](Draft_snap_widget.md).
 
@@ -66,7 +67,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle Grid](Draft_ToggleGrid.md): switches the grid on or off.
 
-## Advanced snapping {#advanced_snapping}
+## Advanced snapping 
 
 -   Additional snap points can be obtained by combining two snap options. For example combining [Draft Snap Ortho](Draft_Snap_Ortho.md) and [Draft Snap Extension](Draft_Snap_Extension.md) will give you a snap point at the intersection of their imaginary lines.
 -   Snapping can be combined with [constraining](Draft_Constrain.md).

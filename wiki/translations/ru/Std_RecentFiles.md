@@ -14,7 +14,7 @@ The **Std RecentFiles** menu option displays a list of recent files which can be
 
 ## Применение
 
-1.  Select the {{MenuCommand|File → Recent files}} option from the menu to display the recent files list.
+1.  Select the **File → Recent files** option from the menu to display the recent files list.
 2.  Select a file from the list to open it.
 
 ## Опции
@@ -23,8 +23,8 @@ The **Std RecentFiles** menu option displays a list of recent files which can be
 
 ## Настройки
 
--   The maximum number of files in the recent files list is determined by the {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → RecentFiles → RecentFiles}} setting. This setting can also be changed in the [Preferences Editor](Preferences_Editor#General.md).
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The maximum number of files in the recent files list is determined by the **Tools → Edit parameters... → BaseApp → Preferences → RecentFiles → RecentFiles** setting. This setting can also be changed in the [Preferences Editor](Preferences_Editor#General.md).
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

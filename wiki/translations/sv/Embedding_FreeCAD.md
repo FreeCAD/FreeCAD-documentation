@@ -16,7 +16,7 @@ FreeCAD har den fantastiska förmågan att kunna importeras som en python modul 
 
 <div class="mw-translate-fuzzy">
 
-### Använda FreeCAD utan gränssnitt {#använda_freecad_utan_gränssnitt}
+### Använda FreeCAD utan gränssnitt 
 
 
 </div>
@@ -134,7 +134,7 @@ checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the
 
 <div class="mw-translate-fuzzy">
 
-### Använda FreeCAD med gränssnitt {#använda_freecad_med_gränssnitt}
+### Använda FreeCAD med gränssnitt 
 
 
 </div>

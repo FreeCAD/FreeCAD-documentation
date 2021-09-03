@@ -15,7 +15,7 @@ A common usage for the helix primitive is for <img src=images/PartDesign_Additiv
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md).
 2.  The Create Primitives dialogue can be accessed several ways:
     -   Pressing the **<img src=images/Part_Primitives.svg style="width:16px"> [Primitives](Part_Primitives.md)** button located in the Part toolbar.
-    -   Using the {{MenuCommand|Part → <img src=images/Part_Primitives.svg style="width:16px"> [Create primitives](Part_Primitives.md) → Helix}} entry in the Part menu.
+    -   Using the **Part → <img src=images/Part_Primitives.svg style="width:16px"> [Create primitives](Part_Primitives.md) → Helix** entry in the Part menu.
 
 ![](images/PartHelixPrimitivesOptions_en.png )
 

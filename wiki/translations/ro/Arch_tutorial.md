@@ -111,7 +111,7 @@ Iată, de exemplu, câteva caracteristici interesante ale programului [Arch Work
 
 </div>
 
-## Typical workflows {#typical_workflows}
+## Typical workflows 
 
 
 <div class="mw-translate-fuzzy">
@@ -151,7 +151,7 @@ This is how the file looks after being opened in FreeCAD. I also changed the thi
 
 The [DXF importer](Draft_DXF.md) (which also takes care of DWG files, since when importing DWG files, they are simply converted to DXF first), groups the imported objects by layer. There is no layer in FreeCAD, but there are [groups](Std_Group.md). [Groups](Std_Group.md) offer a similar way to organize the objects of your files, but don\'t have specific properties, like AutoCAD layers, that apply to their contents. But they can be placed inside other groups, which is very handy. The first thing we might want to do here, is to create a new [group](Std_Group.md) in the [tree view](Document_structure.md), right-click on the document icon, add a group, right click on it to rename it as \"base 2D plans\", and drag and drop all the other objects into it.
 
-## Construirea pereților {#construirea_pereților}
+## Construirea pereților 
 
 
 <div class="mw-translate-fuzzy">
@@ -221,7 +221,7 @@ Now let\'s move our walls horizontally, to their correct location. Since we have
 
 Finally, I changed the color of some walls to a brick-like color (so it\'s easier to differentiate), and made a small correction: Some walls don\'t go up to the roof, but stop at a height of 2.60m. I corrected the height of those walls.
 
-## Ridicarea structurii {#ridicarea_structurii}
+## Ridicarea structurii 
 
 Acum, deoarece va trebui să ne tăiem zidurile cu un volum de substracție, am putea vedea și dacă nu există alte obiecte care vor trebui să fie tăiate în acest fel. Există câteva coloane. Aceasta este o bună ocazie de a introduce un al doilea obiect arch(itectural): [Arch Structure](Arch_Structure.md). Obiectele structurale se comportă mai mult sau mai puțin ca pereții, dar nu sunt făcute să urmeze o linie de referință. Mai degrabă, preferă să lucreze dintr-un profil, care este extrudat (de-a lungul unei linii de profil sau nu). Orice obiect plat poate fi un profil pentru o structură, cu o singură cerință: trebuie să formeze o formă închisă.
 
@@ -264,7 +264,7 @@ Remember that for both [Arch Add](Arch_Add.md) and [Arch Remove](Arch_Remove.md)
 
 {{Note|A note about additions and subtractions|Arch objects that support such additions and subtractions (all of them except the "visual" helper objects such as the axes) keep track of such objects by having two properties, respectively "Additions" and "Subtractions", that contain a list of links to other objects to be subtracted or added. A same object can be in the lists of several other objects, as it is the case of our subtraction volume here. Each of the fathers will want to swallow it in the tree view, though, so it will usually "live" in the last one. But you can always edit those lists for any object, by double-clicking it in the tree view, which in FreeCAD enters edit mode. Pressing the escape key exits edit mode.}}
 
-## Realizarea acoperișului {#realizarea_acoperișului}
+## Realizarea acoperișului 
 
 Acum, tot ce trebuie să facem pentru a finaliza structura, este de a face acoperișul și plăcile de gresie interioare mai mici.Din nou, cea mai ușoară cale este de a atrage profilurile pe partea superioară a secțiunii, cu instrumentul [Draft Wire](Draft_Wire.md). Aici am desenat 3 profile unul peste celălalt (le-am mutat separat în imaginea de mai jos pentru a se vedea mai bine). Cel verde va fi folosit pentru marginea laterală a dalei/plăcii de acoperiș, apoi cea albastră pentru părțile laterale și cele roșii pentru partea centrală care se află deasupra blocului de baie:
 
@@ -284,7 +284,7 @@ Now one last thing must be fixed, there is a small slab in the bathroom, that in
 
 <img alt="" src=images/Arch_tutorial_16.jpg  style="width:1024px;">
 
-## Podele, scări și coșul {#podele_scări_și_coșul}
+## Podele, scări și coșul 
 
 Acum, structura noastră este completă, avem doar câteva obiecte mai mici de făcut.
 
@@ -326,7 +326,7 @@ Don\'t forget also to cut the column that crosses the stairs, because in BIM it\
 
 Right! All the hard work is now done, let\'s go on with the very hard work!
 
-## Uși și Ferestre {#uși_și_ferestre}
+## Uși și Ferestre 
 
 [Arch Windows](Arch_Window.md) sunt obiecte destul de complexe. Ele sunt folosite pentru a face tot felul de obiecte \"introduse\", cum ar fi ferestrele sau ușile. Da, în FreeCAD, ușile sunt doar o fereastră specială. Și în viața reală este la fel, dacă te gândești mai bine, nu? Instrumentul [Arch Window](Arch_Window.md) poate fi în continuare un pic greu de folosit astăzi, însă considerați acest lucru drept un compromis, deoarece a fost construit pentru o putere de calcul maximă. Aproape orice fel de fereastră pe care imaginația ta o poate produce se poate face cu ea. Dar, deoarece instrumentul va câștiga mai multe presetări, această situație va deveni cu siguranță mai bună în viitor.
 
@@ -340,7 +340,7 @@ The [Arch Window](Arch_Window.md) object works like this: It is based on a 2D la
 
 There are two ways to create such objects in FreeCAD: By using a preset, or drawing the window layout from scratch. We\'ll look at both methods here. But remember that the preset method does nothing else than creating the layout object and defining the necessary extrusions for you.
 
-### Utilizarea setărilor prealabile {#utilizarea_setărilor_prealabile}
+### Utilizarea setărilor prealabile 
 
 Când apăsați instrumentul [Arch Window](Arch_Window.md) fără selectarea obiectului, sunteți invitat să alegeți un aspect 2D sau să utilizați una dintre presetări. Să folosim presetarea \"ușă simplă\" pentru a plasa ușa principală de intrare a modelului nostru. Dați-i o lățime de 1m, o înălțime de 2,45m, o dimensiune W1 de 0,15m și lăsați ceilalți parametri la 0,05m. Apoi faceți clic pe colțul din stânga jos al peretelui și noua ușă este creată:
 
@@ -354,7 +354,7 @@ We have a second door, exactly the same as this one, a bit on the left. Instead 
 
 So all we need to do now is select the door, press the [Draft Clone](Draft_Clone.md) tool, then move the clone to its correct position with the [Draft Move](Draft_Move.md) tool.
 
-### Organizarea modelului dvs {#organizarea_modelului_dvs}
+### Organizarea modelului dvs 
 
 <img alt="" src=images/Arch_tutorial_24.jpg  style="width:400px;">
 
@@ -387,7 +387,7 @@ After a closer look at the elevation view, I now detected another error: The top
 
 Now we can look at the really interesting stuff: How to design your own custom windows.
 
-### Crearea de ferestre personalizate {#crearea_de_ferestre_personalizate}
+### Crearea de ferestre personalizate 
 
 
 <div class="mw-translate-fuzzy">
@@ -431,7 +431,7 @@ Last missing piece, there is a segment of wall that didn\'t appear on the plan v
 
 Ready? Not quite. Look at the image above, we did our doors with a 5cm frame, remember (it was the default from the preset). But the other windows have 2.5cm frames. This needs to be fixed.
 
-### Editarea ferestrelor {#editarea_ferestrelor}
+### Editarea ferestrelor 
 
 Am văzut deja cum să construim și să actualizăm componentele ferestrei, prin modul de editare al ferestrei, dar putem de asemenea să editați schița care stă la baza. Ferestrele prestabilite nu diferă de ferestrele personalizate, instrumentul [Arch Window](Arch_Window.md) a creat doar schița de bază. Selectați obiectul de ușă (originalul, nu copia, amintiți-vă, am făcut o clonă) și l-ați extins în vizualizarea arborescentă. Există schița noastră. Faceți dublu clic pe acesta pentru a intra în modul de editare.
 
@@ -449,7 +449,7 @@ When we edit our door sketch, we can see that it is made on a fully constrained 
 
 Now all we need to do is edit the 5cm distances between the outer line and the inner line, by double-clicking them, and changing their value to 2.5cm (Remember, the units are still not fully functional at the time I\'m writing this). After clicking the \"OK\" button, our door (and its clone) have been updated.
 
-## Lucrul fără sprijin 2D {#lucrul_fără_sprijin_2d}
+## Lucrul fără sprijin 2D 
 
 Pana acum munca noastra a fost relativ usoara, pentru ca am avut desenele 2D subiacente care ne-au pus bazele lucrarii. Dar acum trebuie să facem fațada opusă și atriul de sticlă și lucrurile devin din ce în ce mai complicate: desenul fațadei opuse are multe lucruri greșite, nu reprezintă deloc atriul și pur și simplu nu avem desen pentru interiorul pereții din atrium. Așadar, va trebui să inventăm câteva lucruri noi înșine. Asigurați-vă că ați aruncat o privire la [imagini de referință](http://www.pedrokok.com.br/2010/02/residencia-artigas-sao-paulo-sp/img_8265-533px/) pentru a afla cum se fac lucrurile. Sau faceți așa cum doriți!
 
@@ -495,7 +495,7 @@ After the window is rotated and moved into place, the atrium is complete:
 
 <img alt="" src=images/Arch_tutorial_40.jpg  style="width:1024px;">
 
-## Editări și rezolvări {#editări_și_rezolvări}
+## Editări și rezolvări 
 
 Acum, când ne uităm la elevația noastră din spate și o comparăm cu planul, vedem că există unele diferențe care trebuie rezolvate. Și anume, ferestrele dormitorului sunt mai mici decât am crezut prima dată și va trebui să adăugăm niște pereți. Pentru a face acest lucru în mod corespunzător, unele etaje trebuie să fie tăiate:
 
@@ -530,7 +530,7 @@ Acum, după toată munca grea prin care am trecut pentru a construi acest model,
 
 <img alt="" src=images/Arch_tutorial_44.jpg  style="width:1024px;">
 
-### Exportul fișierelor IFC și alte aplicații {#exportul_fișierelor_ifc_și_alte_aplicații}
+### Exportul fișierelor IFC și alte aplicații 
 
 <img alt="" src=images/Arch_tutorial_45.jpg  style="width:400px;">
 
@@ -565,7 +565,7 @@ But, for a quick rendering, the Raytracing workbench can already do a good job, 
 
 The Raytracing workbench still offers you very limited control over materials, but lighting and environments are defined in templates, so they can be fully customized.
 
-### Desene 2D {#desene_2d}
+### Desene 2D 
 
 Desigur, cea mai importantă utilizare a BIM este să producă automat desene 2D. Acest lucru se face în FreeCAD cu instrumentul [Arch SectionPlane](Arch_SectionPlane.md). Acest instrument vă permite să plasați un obiect plan de secțiune în vizualizarea 3D, pe care îl puteți orienta pentru a produce planuri, secțiuni și elevații. Planurile de secțiune trebuie să știe ce obiecte trebuie să ia în considerare, așa că odată ce le-ați creat, trebuie să adăugați obiecte cu ajutorul instrumentului [Arch Add](Arch_Add.md). Puteți adăuga obiecte individuale sau, mai convenabil, un grup, un podea sau o clădire întreagă. Acest lucru vă permite să modificați cu ușurință domeniul de aplicare a unui anumit plan de secțiune mai târziu, adăugând sau eliminând obiecte în / din grupul respectiv. Orice modificare a acestor obiecte se reflectă în vizualizările produse de planul secțiunii.
 
@@ -615,7 +615,7 @@ On the other hand, the final output being easier to manipulate, and the graphica
 
 On the image above, the geometry is the direct output of the section plane, but some other Draft objects have been added, such as dimensions and hatched polygons, and another view object with same scale and offset values has been produced from them with the [Draft Drawing](Draft_Drawing.md) tool. In the future, such operations will be done directly on the Drawing page, leaving your model totally clean.
 
-### Extragerea cantităților {#extragerea_cantităților}
+### Extragerea cantităților 
 
 
 <div class="mw-translate-fuzzy">

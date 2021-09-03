@@ -23,7 +23,7 @@ L\'atelier PartDesign dans FreeCAD V0.17 introduit de nouveaux outils et éléme
 
 ## Limitations
 
--   Avant de commencer le processus de migration, vérifier si le modèle a été construit avec les options d\'affinage automatique activées ({{MenuCommand|Édition → Préférences → Conception de pièces → Général}}) et définir vos préférences en conséquence. Cela peut être facilement déterminé en basculant successivement la visibilité des entités dans l\'arborescence du modèle. Si aucun bord résiduel n\'est laissé entre les fonctions telles que des protrusions et des cavités, les options d\'affinage automatique ont été désactivées.
+-   Avant de commencer le processus de migration, vérifier si le modèle a été construit avec les options d\'affinage automatique activées (**Édition → Préférences → Conception de pièces → Général**) et définir vos préférences en conséquence. Cela peut être facilement déterminé en basculant successivement la visibilité des entités dans l\'arborescence du modèle. Si aucun bord résiduel n\'est laissé entre les fonctions telles que des protrusions et des cavités, les options d\'affinage automatique ont été désactivées.
 -   Si un document à migrer ne contient que des esquisses et des fonctions PartDesign, le processus de migration peut réussir. Certaines fonctionnalités telles que les chanfreins et les filets peuvent nécessiter une reconstruction.
 -   Si le document à migrer a un flux mixte de production Part/Part Design/Draft, la conversion échouera très probablement ou au mieux produira des résultats inattendus et devra être migrée manuellement.
 

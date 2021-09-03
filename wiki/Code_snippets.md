@@ -8,7 +8,7 @@ This page contains examples, pieces, chunks of FreeCAD python code collected fro
 
 ## Snippets
 
-### A typical InitGui.py file {#a_typical_initgui.py_file}
+### A typical InitGui.py file 
 
 Every module must contain, besides your main module file, an InitGui.py file, responsible for inserting the module in the main Gui. This is an example of a simple one.
 
@@ -26,7 +26,7 @@ Gui.addWorkbench(ScriptWorkbench())
 
 
 
-### A typical module file {#a_typical_module_file}
+### A typical module file 
 
 This is an example of a main module file, containing everything your module does. It is the Scripts.py file invoked by the previous example. You can have all your custom commands here.
 
@@ -46,7 +46,7 @@ FreeCADGui.addCommand('Script_Cmd', ScriptCmd())
 
 
 
-### Import a new filetype {#import_a_new_filetype}
+### Import a new filetype 
 
 Making an importer for a new filetype in FreeCAD is easy. FreeCAD doesn\'t consider that you import data in an opened document, but rather that you simply can directly open the new filetype. So what you need to do is to add the new file extension to FreeCAD\'s list of known extensions, and write the code that will read the file and create the FreeCAD objects you want:
 
@@ -74,7 +74,7 @@ FreeCAD.addExportType("Your new File Type (*.ext)","Export_Ext")
 
 
 
-### Add a line {#add_a_line}
+### Add a line 
 
 A line simply has 2 points.
 
@@ -93,7 +93,7 @@ doc.recompute()
 
 
 
-### Add a polygon {#add_a_polygon}
+### Add a polygon 
 
 A polygon is simply a set of connected line segments (a polyline in AutoCAD). It doesn\'t need to be closed.
 
@@ -118,7 +118,7 @@ doc.recompute()
 
 
 
-### Add and remove an object to/from a group {#add_and_remove_an_object_tofrom_a_group}
+### Add and remove an object to/from a group 
 
  
 ```python
@@ -133,7 +133,7 @@ Note: You can even add other groups to a group\...
 
 
 
-### Add a Mesh {#add_a_mesh}
+### Add a Mesh 
 
  
 ```python
@@ -163,7 +163,7 @@ me.Mesh=m
 
 
 
-### Add an arc or a circle {#add_an_arc_or_a_circle}
+### Add an arc or a circle 
 
  
 ```python
@@ -178,7 +178,7 @@ doc.recompute()
 
 
 
-### Access and change the representation of an object {#access_and_change_the_representation_of_an_object}
+### Access and change the representation of an object 
 
 Each object in a FreeCAD document has an associated view representation object that stores all the parameters that define how that object appears: i.e. color, linewidth, etc\... See also [List the components of an object](#List_the_components_of_an_object.md) snippet below
 
@@ -195,7 +195,7 @@ v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
 
 
 
-### Replace the form of mouse with one image {#replace_the_form_of_mouse_with_one_image}
+### Replace the form of mouse with one image 
 
  
 ```python
@@ -213,7 +213,7 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 
 
-### Replace the form of mouse with one image (cross) include {#replace_the_form_of_mouse_with_one_image_cross_include}
+### Replace the form of mouse with one image (cross) include 
 
 The image is created by Gimp exported in a .XPM file. Copy and use the code between the bracket **\"{\"** code to copy **\"}\"**
 
@@ -271,7 +271,7 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 
 
-### Observe camera change in the 3D viewer via Python {#observe_camera_change_in_the_3d_viewer_via_python}
+### Observe camera change in the 3D viewer via Python 
 
 This can be done adding a Node sensor to the camera. from pivy import coin
 
@@ -289,7 +289,7 @@ node_sensor.attach(camera_node)```
 
 
 
-### Observe mouse events in the 3D viewer via Python {#observe_mouse_events_in_the_3d_viewer_via_python}
+### Observe mouse events in the 3D viewer via Python 
 
 The Inventor framework allows to add one or more callback nodes to the scenegraph of the viewer. By default in FreeCAD one callback node is installed per viewer which allows to add global or static C++ functions. In the appropriate Python binding some methods are provided to make use of this technique from within Python code.
 
@@ -362,7 +362,7 @@ And finally motion events:
 
 
 
-### Display keys pressed and Events command {#display_keys_pressed_and_events_command}
+### Display keys pressed and Events command 
 
 This macro displays in the report view the keys pressed and all events command
 
@@ -388,7 +388,7 @@ c = v.addEventCallback("SoEvent",o.logPosition)
 
 
 
-### Manipulate the scenegraph in Python {#manipulate_the_scenegraph_in_python}
+### Manipulate the scenegraph in Python 
 
 It is also possible to get and change the scenegraph in Python, with the \'pivy\' module \-- a Python binding for Coin.
 
@@ -411,7 +411,7 @@ node = type.createInstance()
 
 
 
-### Add and remove objects to/from the scenegraph {#add_and_remove_objects_tofrom_the_scenegraph}
+### Add and remove objects to/from the scenegraph 
 
 Adding new nodes to the scenegraph can be done this way. Take care of always adding a SoSeparator to contain the geometry, coordinates and material info of a same object. The following example adds a red line from (0,0,0) to (10,0,0):
 
@@ -447,7 +447,7 @@ sg.removeChild(no)
 
 
 
-### Save the sceneGraph in 3 series of 36 files {#save_the_scenegraph_in_3_series_of_36_files}
+### Save the sceneGraph in 3 series of 36 files 
 
 View the code snippet by expanding this section
 
@@ -544,7 +544,7 @@ for i in range(steps):
 
 
 
-### Add custom widgets to the interface {#add_custom_widgets_to_the_interface}
+### Add custom widgets to the interface 
 
 You can create custom widgets with Qt designer, transform them into a python script, and then load them into the FreeCAD interface with PySide.
 
@@ -581,7 +581,7 @@ FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the w
 
 
 
-### Add a Tab to the Combo View {#add_a_tab_to_the_combo_view}
+### Add a Tab to the Combo View 
 
 The following code allows you to add a tab to the [Combo view](Combo_view.md), separate from the preexisting \"Model\" and \"Tasks\" tabs. It also uses the `uic` module to load an UI file directly in that tab.
 
@@ -624,7 +624,7 @@ tab2.show()
 
 
 
-### Enable or disable a window {#enable_or_disable_a_window}
+### Enable or disable a window 
 
 This script give the ability to manipulate the UI from the [Python console](Python_console.md) to show/hide different components in the FreeCAD [interface](interface.md) such as:
 
@@ -663,7 +663,7 @@ dw.setVisible(True)        # True or False
 
 
 
-### Open a custom webpage {#open_a_custom_webpage}
+### Open a custom webpage 
 
  
 ```python
@@ -673,7 +673,7 @@ WebGui.openBrowser("http://www.example.com")
 
 
 
-### Get the HTML contents of an opened webpage {#get_the_html_contents_of_an_opened_webpage}
+### Get the HTML contents of an opened webpage 
 
  
 ```python
@@ -687,7 +687,7 @@ print( html)
 
 
 
-### Retrieve the coordinates of 3 selected points or objects {#retrieve_the_coordinates_of_3_selected_points_or_objects}
+### Retrieve the coordinates of 3 selected points or objects 
 
  
 ```python
@@ -718,7 +718,7 @@ else :
 
 
 
-### List all objects {#list_all_objects}
+### List all objects 
 
  
 ```python
@@ -744,7 +744,7 @@ for obj in objs:
 
 
 
-### List the dimensions of an object, given its name {#list_the_dimensions_of_an_object_given_its_name}
+### List the dimensions of an object, given its name 
 
  
 ```python
@@ -754,7 +754,7 @@ for edge in FreeCAD.ActiveDocument.MyObjectName.Shape.Edges: # replace "MyObject
 
 
 
-### Function resident with the mouse click action {#function_resident_with_the_mouse_click_action}
+### Function resident with the mouse click action 
 
 Here with **SelObserver** on a object select
 
@@ -819,7 +819,7 @@ c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
 
 
 
-### Find/select all elements below the cursor {#findselect_all_elements_below_the_cursor}
+### Find/select all elements below the cursor 
 
  
 ```python
@@ -869,7 +869,7 @@ mouse_over = view.addEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), 
 
 
 
-### List the components of an object {#list_the_components_of_an_object}
+### List the components of an object 
 
 This function list the components of an object and extracts:
 
@@ -994,7 +994,7 @@ detail()
 
 
 
-### List the PropertiesList {#list_the_propertieslist}
+### List the PropertiesList 
 
  
 ```python
@@ -1008,7 +1008,7 @@ for p in op:
 
 
 
-### Add a single Property Comment {#add_a_single_property_comment}
+### Add a single Property Comment 
 
  
 ```python
@@ -1023,7 +1023,7 @@ App.activeDocument().recompute()
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Search and data extraction {#search_and_data_extraction}
+### Search and data extraction 
 
 Examples of research and decoding information on an object.
 
@@ -1312,7 +1312,7 @@ Draft.makePoint(vecteur)
 
 
 
-### Manual search of an element with label {#manual_search_of_an_element_with_label}
+### Manual search of an element with label 
 
  
 ```python
@@ -1336,7 +1336,7 @@ App.Console.PrintMessage("Base.Angle   : "+str(FreeCAD.ActiveDocument.getObjects
 
 
 
-### Cartesian coordinates {#cartesian_coordinates}
+### Cartesian coordinates 
 
 This code displays the Cartesian coordinates of the selected item.
 
@@ -1414,7 +1414,7 @@ Draft.makeWire(p2,closed=False,face=False,support=None)  # to see the difference
 
 
 
-### Select all objects in the document {#select_all_objects_in_the_document}
+### Select all objects in the document 
 
  
 ```python
@@ -1428,7 +1428,7 @@ for obj in FreeCAD.ActiveDocument.Objects:
 
 
 
-### Select a face of an object by Name object and Face number {#select_a_face_of_an_object_by_name_object_and_face_number}
+### Select a face of an object by Name object and Face number 
 
  
 ```python
@@ -1446,7 +1446,7 @@ s = Gui.Selection.getSelectionEx()
 
 
 
-### Get the normal vector of a face of an object by Name object and number Face (r.Q) {#get_the_normal_vector_of_a_face_of_an_object_by_name_object_and_number_face_r.q}
+### Get the normal vector of a face of an object by Name object and number Face (r.Q) 
 
  
 ```python
@@ -1471,7 +1471,7 @@ print("Rotation Q : ", r.Q)
 
 
 
-### Get the normal vector of a face of an object by Name object and number of Face {#get_the_normal_vector_of_a_face_of_an_object_by_name_object_and_number_of_face}
+### Get the normal vector of a face of an object by Name object and number of Face 
 
  
 ```python
@@ -1484,7 +1484,7 @@ print("Face"+str(numero_Face), " : ", normal)
 
 
 
-### Get the normal vector of an object selected and number of Face {#get_the_normal_vector_of_an_object_selected_and_number_of_face}
+### Get the normal vector of an object selected and number of Face 
 
  
 ```python
@@ -1500,7 +1500,7 @@ Gui.Selection.addSelection(selectionObjects[0],"Face"+str(numero_Face))
 
 
 
-### Get the normal vector on the surface {#get_the_normal_vector_on_the_surface}
+### Get the normal vector on the surface 
 
 This example show how to find normal vector on the surface by find the u,v parameters of one point on the surface and use u,v parameters to find normal vector
 
@@ -1525,7 +1525,7 @@ def normal(self):
 
 
 
-### Get the normal vector of a surface from a STL file {#get_the_normal_vector_of_a_surface_from_a_stl_file}
+### Get the normal vector of a surface from a STL file 
 
  
 ```python
@@ -1550,7 +1550,7 @@ Gui.ActiveDocument.ActiveView.removeEventCallbackPivy(coin.SoMouseButtonEvent.ge
 
 
 
-### Create one object to the position of the Camera {#create_one_object_to_the_position_of_the_camera}
+### Create one object to the position of the Camera 
 
  
 ```python
@@ -1601,7 +1601,7 @@ rec = Draft.makeRectangle(length=10.0,height=10.0,placement=pl,face=False,suppor
 
 
 
-### Read And write one Expression {#read_and_write_one_expression}
+### Read And write one Expression 
 
  
 ```python
@@ -1630,7 +1630,7 @@ for i in expressions:                                                      # lis
 
 
 
-### Create a Sketch on a Surface in PartDesign {#create_a_sketch_on_a_surface_in_partdesign}
+### Create a Sketch on a Surface in PartDesign 
 
 This snippet can be useful, if you want to create a sketch on a surface in PartDesign from inside a macro. Note, that body might be None, if no active body is selected and that the Selection might be empty.
 
@@ -1652,7 +1652,7 @@ App.ActiveDocument.recompute()
 
 
 
-### How to Simulate a Mouse Click at a given Coordinate {#how_to_simulate_a_mouse_click_at_a_given_coordinate}
+### How to Simulate a Mouse Click at a given Coordinate 
 
 The position is relative to the GL widget. See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=44008).
 
@@ -1693,7 +1693,7 @@ me = QtGui.QMouseEvent(QtCore.QEvent.MouseButtonRelease, QtCore.QPoint(coordX,co
 
 
 
-### How to create a face with holes using Python API {#how_to_create_a_face_with_holes_using_python_api}
+### How to create a face with holes using Python API 
 
 This snippet demonstrates how to create a face with internal holes through the Python API. See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=56308).
 

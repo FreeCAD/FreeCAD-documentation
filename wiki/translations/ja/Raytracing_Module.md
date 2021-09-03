@@ -56,7 +56,7 @@ Currently, two renderers are supported: [POV-Ray](POV-Ray.md) and [LuxRender](Lu
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
-## Typical workflow {#typical_workflow}
+## Typical workflow 
 
 1.  Create or open a FreeCAD project, add some solid objects ([Part-based](Part_Workbench.md) or [PartDesign-based](PartDesign_Workbench.md)); meshes are currently not supported.
 2.  Create a Raytracing project (povray or luxrender).
@@ -70,7 +70,7 @@ Currently, two renderers are supported: [POV-Ray](POV-Ray.md) and [LuxRender](Lu
 
 ## 構築用ツール
 
-### Project tools {#project_tools}
+### Project tools 
 
 These are the main tools for exporting your 3D work to external renderers.
 
@@ -98,7 +98,7 @@ These are helper tools to perform specific tasks manually.
 -   [Basic Raytracing tutorial](Raytracing_tutorial.md)
 -   [Intermediate Raytracing tutorial](Tutorial_FreeCAD_POV_ray.md)
 
-## Creating a povray file manually {#creating_a_povray_file_manually}
+## Creating a povray file manually 
 
 The utility tools described above allow you to export the current 3D view and all of its content to a [Povray](http://www.povray.org/) file. First, you must load or create your CAD data and position the 3D View orientation as you wish. Then choose \"Utilities → Export View\...\" from the raytracing menu.
 
@@ -108,13 +108,13 @@ You will be asked for a location to save the resulting \*.pov file. After that y
 
 As usual in a renderer you can make big and nice pictures: <img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
 
-## スクリプト処理 {#スクリプト処理_1}
+## スクリプト処理 
 
 See the [Raytracing API example](Raytracing_API_example.md) for information on writing scenes programmatically.
 
 ## リンク
 
-### POV-Rayについて： {#pov_rayについて}
+### POV-Rayについて： 
 
 -   <http://www.spiritone.com/~english/cyclopedia/>
 -   <http://www.povray.org/>
@@ -133,7 +133,7 @@ See the [Raytracing API example](Raytracing_API_example.md) for information on w
 -   <http://www.kerkythea.net/>
 -   <http://www.artofillusion.org/>
 
-## Exporting to Kerkythea {#exporting_to_kerkythea}
+## Exporting to Kerkythea 
 
 Although direct export to the Kerkythea XML-File-Format is not supported yet, you can export your Objects as Mesh-Files (.obj) and then import them in Kerkythea.
 
@@ -157,7 +157,7 @@ Although direct export to the Kerkythea XML-File-Format is not supported yet, yo
 
 -   if importing multiple objects in Kerkythea you can use the \"File → Merge\" command in Kerkythea
 
-## リンク {#リンク_1}
+## リンク 
 
 -   [Render project](Render_project.md)
 -   [Raytracing tutorial](Raytracing_tutorial.md)

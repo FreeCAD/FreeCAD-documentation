@@ -17,9 +17,9 @@ The <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:24px;">
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md)** button.
-    -   Select the {{MenuCommand|Annotation → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Annotation styles...}} option from the menu.
-2.  The {{MenuCommand|Annotation Styles Editor}} dialog box opens.
-3.  Select a style from the {{MenuCommand|Style name}} dropdown list, or choose {{Value|Add new...}} to define a new style.
+    -   Select the **Annotation → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Annotation styles...** option from the menu.
+2.  The **Annotation Styles Editor** dialog box opens.
+3.  Select a style from the **Style name** dropdown list, or choose {{Value|Add new...}} to define a new style.
 4.  Optionally adjust the properties of the style.
 5.  Optionally press the **<img src=images/Accessories-text-editor.svg style="width:16px"> Rename** button to rename the style.
 6.  Optionally press the **<img src=images/Edit_Cancel.svg style="width:16px"> Delete** button to delete the style.

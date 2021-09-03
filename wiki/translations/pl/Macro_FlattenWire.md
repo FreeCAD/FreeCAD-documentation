@@ -13,7 +13,7 @@
 
 To makro dokonuje spłaszczenia projektów polilinii, które nie są płaskie względem ich środkowej współrzędnej Z.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 ToolBar Icon ![](images/Macro_FlattenWire.png )
 

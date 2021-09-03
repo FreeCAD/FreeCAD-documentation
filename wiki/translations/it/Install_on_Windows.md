@@ -22,7 +22,7 @@ Dopo aver scaricato il file .exe (NSIS Installer), fare doppio clic su di esso p
 Più avanti sono riportate ulteriori informazioni sul alcune opzioni tecniche.
 Tuttavia, la maggior parte degli utenti ha solo bisogno dei precedenti file .exe. Al termine dell\'installazione leggere la pagina [Per iniziare](Getting_started/it.md).
 
-## Semplice installazione con NSIS Installer {#semplice_installazione_con_nsis_installer}
+## Semplice installazione con NSIS Installer 
 
 Il modo più semplice per **installare FreeCAD su Windows** è utilizzare il pacchetto di installazione scaricabile sopra. Questa pagina descrive l\'utilizzo e le funzionalità di \"NSIS Installer\" per ulteriori opzioni di installazione.
 
@@ -46,11 +46,11 @@ choco upgrade freecad
 
 per ottenere l\'ultima versione disponibile sul repository Chocolatey. In caso di problemi con il pacchetto chocolatey, è possibile contattare i manutentori su [questa pagina](https://chocolatey.org/packages/freecad).
 
-## Installazione da riga di comando {#installazione_da_riga_di_comando}
+## Installazione da riga di comando 
 
 Con l\'utilità da riga di comando *msiexec.exe*, sono disponibili funzionalità aggiuntive come l\'installazione non interattiva e l\'installazione amministrativa. Vedere sotto gli esempi.
 
-### Installazione non interattiva {#installazione_non_interattiva}
+### Installazione non interattiva 
 
 L\'installazione si avvia con il comando:
 
@@ -66,7 +66,7 @@ L\'installazione può essere avviata a livello di programmazione. Ulteriori para
 msiexec /i FreeCAD-2.5.msi TARGETDIR=R:\FreeCAD25
 ```
 
-### Limitazione dell\'interfaccia utente {#limitazione_dellinterfaccia_utente}
+### Limitazione dell\'interfaccia utente 
 
 Il livello di interfaccia visualizzabile dall\'installatore può essere impostato con le opzioni /q
 
@@ -83,7 +83,7 @@ Il livello di interfaccia visualizzabile dall\'installatore può essere impostat
 
 </div>
 
-### Directory di destinazione {#directory_di_destinazione}
+### Directory di destinazione 
 
 La proprietà TARGETDIR determina la directory principale di installazione di FreeCAD.
 
@@ -96,7 +96,7 @@ TARGETDIR=R:\FreeCAD25
 
 La cartella di destinazione predefinita (TARGETDIR di default) è \[WindowsVolume\\Programm Files\\\]FreeCAD.
 
-### Installazione per tutti gli utenti {#installazione_per_tutti_gli_utenti}
+### Installazione per tutti gli utenti 
 
 Aggiungendo
 
@@ -107,7 +107,7 @@ ALLUSERS=1
 
 si realizza una installazione usabile da tutti gli utenti. Per impostazione predefinita, un\'installazione non interattiva (/i) rende il pacchetto utilizzabile solo dall\'utente corrente (quello che esegue l\'installazione); un\'installazione interattiva presenta una finestra di dialogo che assume come valore predefinito \"tutti gli utenti\" se l\'utente che esegue l\'installazione ha i permessi necessari.
 
-### Selezione delle funzioni {#selezione_delle_funzioni}
+### Selezione delle funzioni 
 
 Varie proprietà permettono la selezione delle funzioni da installare, reinstallare, o rimuovere.
 
@@ -154,7 +154,7 @@ Per la disinstallazione, non è necessario disporre del file MSI; in alternativa
 
 Per trovare il codice del prodotto, esplorare le proprietà del collegamento per la disinstallazione che FreeCAD installa nel menu di Avvio.
 
-## Installazione Amministrativa {#installazione_amministrativa}
+## Installazione Amministrativa 
 
 Si può iniziare una installazione \"amministrativa\" (da rete) con:
 
@@ -173,7 +173,7 @@ La directory di destinazione deve essere specificata nella riga di comando.
 
 Non esiste una specifica procedura di disinstallazione, basta cancellare la directory di destinazione se non è più utilizzata da nessun client.
 
-## Advertisement - Annunciare FreeCAD {#advertisement___annunciare_freecad}
+## Advertisement - Annunciare FreeCAD 
 
 Con
 
@@ -190,7 +190,7 @@ Il primo uso di una funzione provoca l\'installazione della funzione stessa.
 
 L\'installatore di FreeCAD attualmente supporta solo l\'annuncio per le voci del menu di avvio, ma non supporta l\'annuncio per i comandi di avvio veloce.
 
-## Installazione automatica su un gruppo di macchine {#installazione_automatica_su_un_gruppo_di_macchine}
+## Installazione automatica su un gruppo di macchine 
 
 Utilizzando i criteri di gruppo di Windows, è possibile automatizzare l\'installazione di FreeCAD su un gruppo di macchine.
 
@@ -209,7 +209,7 @@ Per effettuare questa operazione, attenersi alla seguente procedura:
 
 La propagazione dei criteri di gruppo richiede in genere un po \'di tempo - per distribuire in modo affidabile il pacchetto, tutte le macchine dovrebbero essere riavviate.
 
-## Installazione su Linux con Crossover Office {#installazione_su_linux_con_crossover_office}
+## Installazione su Linux con Crossover Office 
 
 È possibile installare la versione Windows di FreeCAD su un sistema Linux utilizzando *CXOffice 5.0.1*.
 

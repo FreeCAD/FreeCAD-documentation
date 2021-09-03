@@ -23,7 +23,7 @@ La herramienta de guardado de gráficos le permite salvar los gráficos creados 
 
 <div class="mw-translate-fuzzy">
 
-## Cómo usar ésta herramienta {#cómo_usar_ésta_herramienta}
+## Cómo usar ésta herramienta 
 
 Selecciona el gráfico que deseas salvar mediante las pestañas de la vista principal y ejecuta esta herramienta. Puede usar el botón de selección de rutas para que se muestre un cuadro de diálogo de selección de archivo donde podrá especificar la ruta de la imagen a szalvar y su formato.
 

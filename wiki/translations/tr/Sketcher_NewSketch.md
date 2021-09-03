@@ -25,7 +25,7 @@ Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 
 </div>

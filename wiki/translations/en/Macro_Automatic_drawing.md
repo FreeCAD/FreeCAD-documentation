@@ -24,7 +24,7 @@ An object needs to be selected before launching the macro.
 -   It only works with a single object (this is a limitation from the Drawing Workbench)
 -   Needs to be modified to work for [third-angle projection](http://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection) used in the US and Canada.
 
-## The script {#the_script}
+## The script 
 
 ToolBar icon ![](images/Macro_Automatic_drawing.png )
 

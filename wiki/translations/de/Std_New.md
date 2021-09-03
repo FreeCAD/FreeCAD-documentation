@@ -16,12 +16,12 @@ Der Befehl **Std Neu** erzeugt ein neues leeres Dokument und macht es zum aktive
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_New.svg" width=16px> [Std New](Std_New.md)** button.
-    -   Select the {{MenuCommand|File → <img src="images/Std_New.svg" width=16px> New}} option from the menu.
+    -   Select the **File → <img src="images/Std_New.svg" width=16px> New** option from the menu.
     -   Use the keyboard shortcut: **Ctrl**+**N**.
 
 ## Einstellungen
 
--   FreeCAD will create a new document at start up if {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Document → CreateNewDoc}} is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   FreeCAD will create a new document at start up if **Tools → Edit parameters... → BaseApp → Preferences → Document → CreateNewDoc** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 -   Some document properties: author names, company name and license information, can be preset in the [Preferences Editor](Preferences_Editor#Document.md).
 
 ## Eigenschaften

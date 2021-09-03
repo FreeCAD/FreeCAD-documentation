@@ -1,12 +1,12 @@
  <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> {{TOCright}}
 
-## Instalación de controladores {#instalación_de_controladores}
+## Instalación de controladores 
 
 ### Linux
 
 FreeCAD soporta los drivers del proyecto [Spacenav](http://spacenav.sourceforge.net/). Este es un proyecto que pretende crear un controlador de código abierto que sea compatible con los controladores propietarios de 3Dconnexion.
 
-#### Instalar desde un repositorio {#instalar_desde_un_repositorio}
+#### Instalar desde un repositorio 
 
 ##### Ubuntu
 
@@ -72,7 +72,7 @@ apt-get install spacenavd libspnav-dev
 sudo zypper install spacenavd
 ```
 
-#### Compilar Spacenav desde el código fuente {#compilar_spacenav_desde_el_código_fuente}
+#### Compilar Spacenav desde el código fuente 
 
 Esto se recomienda si su distribución puede proporcionar una versión obsoleta.
 
@@ -175,7 +175,7 @@ Esto se recomienda si su distribución puede proporcionar una versión obsoleta.
 
 -   Sigue el mismo patrón para compilar e instalar spnavcfg. Asegúrate de ejecutar spnavcfg como root, o no se guardará la configuración!
 
-#### Starting spacenavd as a systemd service at boot {#starting_spacenavd_as_a_systemd_service_at_boot}
+#### Starting spacenavd as a systemd service at boot 
 
 If you want to start spacenavd at boot using systemd, do the following:
 
@@ -186,7 +186,7 @@ If you want to start spacenavd at boot using systemd, do the following:
 
 This is only necessary for the installation from source.
 
-#### Reinicio spacenavd {#reinicio_spacenavd}
+#### Reinicio spacenavd 
 
 Si a veces el navegador deja de funcionar, es bueno reiniciar el controlador. Para reiniciarlo, vaya al Terminal y ejecute:
 
@@ -198,7 +198,7 @@ sudo /etc/init.d/spacenavd restart
 
 Después reinicia FreeCAD. En algunas distribuciones esto es necesario en cada reinicio.
 
-### Problemas conocidos {#problemas_conocidos}
+### Problemas conocidos 
 
 Un usuario informó en el [foro](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) que vio lo siguiente:
 
@@ -227,7 +227,7 @@ Los dispositivos de entrada de 3Dconnexion son compatibles con OS X, siempre que
 
 A partir de la versión 0.13, el ratón 3D es compatible con Windows. Es necesario tener instalados los controladores de 3Dconnexion.
 
-#### Problemas conocidos {#problemas_conocidos_1}
+#### Problemas conocidos 
 
 Hay un problema en el que 3Dconnexion envía eventos de desplazamiento duplicados a FreeCAD, lo que hace que la vista salte. Para solucionarlo:
 
@@ -239,13 +239,13 @@ Hay un problema en el que 3Dconnexion envía eventos de desplazamiento duplicado
 
 ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
-## Configuración en FreeCAD {#configuración_en_freecad}
+## Configuración en FreeCAD 
 
 El soporte del ratón 3D se hizo con el proyecto spnav en Linux, y a bajo nivel en Windows. Esto significa que no existe soporte para cualquier configuración para un dispositivo, ya que en Linux no existe un buen soporte, y en Windows se sobreescribe. Este es el motivo de añadir dos páginas adicionales al letrero de diálogo \"Personalización\".
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
 
-### Movimiento Bola Espacial {#movimiento_bola_espacial}
+### Movimiento Bola Espacial 
 
 En esta pestaña podrás configurar alguno de los aspectos generales del space mouse. Incluido:
 
@@ -263,7 +263,7 @@ Otras, para cada eje tienes la posibilidad de:
 -   Invertir - Invertir el movimiento en un eje
 -   Sensibilidad - Establecer la sensibilidad
 
-### Botones Bola Espacial {#botones_bola_espacial}
+### Botones Bola Espacial 
 
 Cuando abres esta pestaña por primera vez, estará vacía y no disponible. Para activarla, presiona uno de los botones del space mouse. De este modo, una lista de botones aparecerá en la izquierdaq, y una lista de comandos estará disponible a la derecha.
 

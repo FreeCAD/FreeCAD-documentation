@@ -55,7 +55,7 @@ Schematic detail of spring configuration
 
  ![](images/Macro_FCSpring_Helix_Variable_02.png ) 
 
-#### Type line {#type_line}
+#### Type line 
 
 -    {{RadioButton|TRUE|<img src="images/Draft_BSpline.svg" width=24px> Bspline}}**BSpline** : Type line BSpline.
 
@@ -95,7 +95,7 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little r
 
  ![](images/Macro_FCSpring_Helix_Variable_02_1.png ) 
 
-#### Position (0)(xx) {#position_0xx}
+#### Position (0)(xx) 
 
 (0)(xx) : Number selection(s), length in mm of axis created x 10, equal number of points for shifting the spring of the axis
 
@@ -111,7 +111,7 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little r
 
  ![](images/Macro_FCSpring_Helix_Variable_02_2.png ) 
 
-#### Coil special dimension {#coil_special_dimension}
+#### Coil special dimension 
 
 -    {{SpinBox|Num: 2}}**Numbering of coil** : Numbering of coil to modify. (Default : none)
 
@@ -155,19 +155,19 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little r
 
  ![](images/Macro_FCSpring_Helix_Variable_05.png ) 
 
-## Report view {#report_view}
+## Report view 
 
 The window report view displayed all value modified.
 
  ![](images/Macro_FCSpring_Helix_Variable_06.png ) 
 
-## Example spring {#example_spring}
+## Example spring 
 
 Example to spring modified
 
  ![](images/Macro_FCSpring_Helix_Variable_07.png ) 
 
-## Example Report view {#example_report_view}
+## Example Report view 
 
 When the macro is launched full list of turns is displayed in tabular form.
 

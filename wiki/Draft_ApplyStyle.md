@@ -12,26 +12,26 @@ The <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Draft Ap
 
 This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
 
--    {{MenuCommand|Line color}}
+-    **Line color**
     
 
--    {{MenuCommand|Line width}}
+-    **Line width**
     
 
--    {{MenuCommand|Shape color}}
+-    **Shape color**
     
 
--    {{MenuCommand|Text size}}
+-    **Text size**
     
 
--    {{MenuCommand|Text color}}
+-    **Text color**
     
 
 ## Usage
 
 1.  Optionally change the style settings with the [Draft SetStyle](Draft_SetStyle.md) command.
 2.  Select one or more objects.
-3.  Select the {{MenuCommand|Utilities → <img src="images/Draft_ApplyStyle.svg" width=16px> Apply current style}} option from the menu.
+3.  Select the **Utilities → <img src="images/Draft_ApplyStyle.svg" width=16px> Apply current style** option from the menu.
 
 ## Notes
 

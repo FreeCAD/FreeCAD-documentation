@@ -33,7 +33,7 @@ Na vybrané přímce nebo lomené čáře vytvoří vazbu svislosti. Může být
 2.  To invoke the vertical constraint command:
     -   Press the **<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Constrain vertical](Sketcher_ConstrainVertical.md)**.
     -   Use the **V** keyboard shortcut
-    -   Use the {{MenuCommand|Sketch → Sketcher constraints → Constrain vertically}} entry in the Sketch dropdown menu
+    -   Use the **Sketch → Sketcher constraints → Constrain vertically** entry in the Sketch dropdown menu
 3.  Alternatively, the tool can be started without prior selection, and it will expect a selection; but only lines will be selectable.
 4.  Right-click or press **Esc** once, to exit the tool.
 

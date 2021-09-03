@@ -23,11 +23,11 @@ Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDra
 2.  Optionally select one or more objects.
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Shape2DView.svg" width=16px> [Draft Shape2DView](Draft_Shape2DView.md)** button.
-    -   Select the {{MenuCommand|Modification → <img src="images/Draft_Shape2DView.svg" width=16px> Shape 2D view}} option from the menu.
+    -   Select the **Modification → <img src="images/Draft_Shape2DView.svg" width=16px> Shape 2D view** option from the menu.
 4.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 5.  The projected objects are created on the XY plane.
 
-## How to produce plans and sections with different linewidths {#how_to_produce_plans_and_sections_with_different_linewidths}
+## How to produce plans and sections with different linewidths 
 
 <img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 

@@ -37,14 +37,14 @@ Pour tous ces concepts [Kicad](https://kicad-pcb.org/), on peut trouver une fonc
 
 ## Installation
 
-KicadStepUp fait partie des [ateliers externes](external_workbenches/fr.md) et peut être installé automatiquement à l\'aide de <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) fourni avec FreeCAD 0.17 dans le menu {{MenuCommand|Outils → Gestionnaire d'Addon}}.
+KicadStepUp fait partie des [ateliers externes](external_workbenches/fr.md) et peut être installé automatiquement à l\'aide de <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) fourni avec FreeCAD 0.17 dans le menu **Outils → Gestionnaire d'Addon**.
 
 ## Utilisation
 
 
 {{emphasis|En cours}}
 
-### Approche générale {#approche_générale}
+### Approche générale 
 
 L\'idée de base de KicadStepUp est de synchroniser les données entre les deux applications. Pour un usage domestique, vous pouvez avoir ouvert FreeCAD et Kicad en même temps. Une utilisation professionnelle travaille sur les mêmes fichiers (par exemple sur un serveur central) et dispose de spécialistes en CAO mécanique (MCAD) travaillant dans FreeCAD et d\'experts en électronique en CAO électrique (ECAD).
 
@@ -53,7 +53,7 @@ KicadStepUp convertira les fichiers FreeCAD standard en fichiers Kicad et vice v
 Comprendre les petits détails du flux de travail, il est utile de noter que les différences entre les deux programmes imposent des difficultés pour un échange de données complet.
 Un exemple est que le Sketcher utilisé dans Kicad pour définir le contour du tableau est beaucoup plus limité que FreeCAD Sketcher, afin de synchroniser les aller-retours, le contenu du modèle ne peut pas être plus complexe que ce que Kicad Sketcher peut gérer. D\'un point de vue FreeCAD, cela signifie que vous risquez de perdre des données. KicadStepUp propose des solutions de contournement qui pourraient être plus difficiles à comprendre si vous n\'avez pas ce contexte.
 
-### Processus de base {#processus_de_base}
+### Processus de base 
 
 Une collaboration peut être démarrée avec un projet nouveau ou existant. Nous considérons ici un nouveau projet pour garder les choses simples:
 
@@ -120,7 +120,7 @@ Cela ne montre que le fonctionnement très basique de KicadStepUp. Il vous manqu
 -   Auteur: Github: [\@easyw](https://github.com/easyw) \| FreeCAD Forums: [kicad StepUp: ECAD MCAD bidirectional collaboration](https://forum.freecadweb.org/viewtopic.php?f=24&t=14276)
 -   Code source sur GitHub: <https://github.com/easyw/kicadStepUpMod>
 
-## Remarque annexe et ateliers externes {#remarque_annexe_et_ateliers_externes}
+## Remarque annexe et ateliers externes 
 
 Les ateliers FreeCAD sont faciles à programmer en [Python](Python/fr.md), de ce fait, beaucoup de personnes développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
 

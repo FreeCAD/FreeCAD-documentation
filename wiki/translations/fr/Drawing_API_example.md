@@ -4,7 +4,7 @@
 
 Le flux de travail de l\'interface utilisateur graphique pour l\' [atelier Drawing](Drawing_Workbench/fr.md) est limité. Utiliser un script pour l\'interface est plus intéressante.
 
-## Exemple simple {#exemple_simple}
+## Exemple simple 
 
 Vous devez en premier lieu charger les modules Pièce (Part) et Mise en plan (Drawing): 
 ```python
@@ -41,7 +41,7 @@ resultSVG = Drawing.projectToSVG(Shape,App.Vector(1,1,1))
 print resultSVG
 ```
 
-## Exemple paramétrique {#exemple_paramétrique}
+## Exemple paramétrique 
 
 Créer le corps 
 ```python
@@ -137,7 +137,7 @@ App.ActiveDocument.View.Scale = 1.5
 App.ActiveDocument.recompute()
 ```
 
-### Accéder aux objets et détails {#accéder_aux_objets_et_détails}
+### Accéder aux objets et détails 
 
 Obtenir des fragments SVG d\'une vue. 
 ```python
@@ -181,7 +181,7 @@ Ce qui donne le résultat suivant:
 
 ![](images/DrawingScriptResult.jpg )
 
-### Généralités sur les dimensions et les tolérances {#généralités_sur_les_dimensions_et_les_tolérances}
+### Généralités sur les dimensions et les tolérances 
 
 
 **Voir aussi:**

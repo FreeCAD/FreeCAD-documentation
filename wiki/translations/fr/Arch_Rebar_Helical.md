@@ -14,7 +14,7 @@ L\'outil [Armature hélicoïdale](Arch_Rebar_Helical/fr.md) permet à l\'utilisa
 
 L\'outil [Helical Rebar](Arch_Rebar_BentShape/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 :   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
@@ -97,7 +97,7 @@ FreeCAD.ActiveDocument.recompute()
 Rebar = HelicalRebar.makeHelicalRebar(10, 50, 8, 50, 50, structure, "Face2")
 ```
 
-### Édition de la barre d'armement {#édition_de_la_barre_darmement}
+### Édition de la barre d'armement 
 
 Vous pouvez changer les propriétés de la barre d'armement avec la fonction suivante.
 

@@ -14,7 +14,7 @@ La contrainte est disponible avec la plupart des commandes de [Draft](Draft_Work
 
 ![](images/Draft_Constrain_taskpanel_example.png ) *Lorsque le curseur est contraint, le panneau de tâches verrouille les valeurs qui ne sont pas modifiées.*
 
-## Utilisation des contraintes horizontales et verticales {#utilisation_des_contraintes_horizontales_et_verticales}
+## Utilisation des contraintes horizontales et verticales 
 
 1.  Choisissez une commande de [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
 2.  Choisissez un premier point. Un point précédent est nécessaire.
@@ -27,7 +27,7 @@ La contrainte est disponible avec la plupart des commandes de [Draft](Draft_Work
 7.  Si la commande est toujours active : relâchez éventuellement **Shift** pour désactiver la contrainte.
 8.  Relâchez toujours **Shift** lorsque la commande est terminée.
 
-## Utilisation des contraintes X, Y et Z {#utilisation_des_contraintes_x_y_et_z}
+## Utilisation des contraintes X, Y et Z 
 
 1.  Choisissez une commande de [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
 2.  Choisissez un premier point. Un point précédent est nécessaire.
@@ -48,8 +48,8 @@ La contrainte est disponible avec la plupart des commandes de [Draft](Draft_Work
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   La touche par défaut {{MenuCommand|Constrain mod}}, **Shift**, peut être modifiée : {{MenuCommand|Edition → Préférences.... → Draft → Grille et aimantation → Accrochage → Mode de contrainte}}.
--   Les raccourcis {{MenuCommand|X}}, {{MenuCommand|Y}} et {{MenuCommand|Z}} peuvent être modifiés : {{MenuCommand|Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Raccourcis de commandes}}.
+-   La touche par défaut **Constrain mod**, **Shift**, peut être modifiée : **Edition → Préférences.... → Draft → Grille et aimantation → Accrochage → Mode de contrainte**.
+-   Les raccourcis **X**, **Y** et **Z** peuvent être modifiés : **Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Raccourcis de commandes**.
 
 
 

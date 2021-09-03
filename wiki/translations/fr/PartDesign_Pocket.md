@@ -32,19 +32,19 @@ L\'outil **Cavité** découpe un solide en extrudant une esquisse (ou une face d
 
 Permet de saisir une valeur numérique pour la profondeur de la cavité. La direction par défaut de la cavité est vers le haut du plan d\'esquisse. L\'extrusion s\'effectue [normale](http://fr.wikipedia.org/wiki/Normale_%C3%A0_une_surface) au plan de l\'esquisse. Les valeurs numériques négatives ne sont pas allouées.
 
-### Au premier {#au_premier}
+### Au premier 
 
 La cavité sera prolongée jusqu\'à la première face rencontrée dans la direction d\'extrusion. Autrement dit, elle coupera à travers le solide jusqu\'à ce qu\'elle atteigne un espace vide.
 
-### À travers tout {#à_travers_tout}
+### À travers tout 
 
 La cavité coupera à travers tout le solide dans la direction d\'extrusion. Avec l\'option **Symétrique au plan**, la cavité coupera à travers tout dans les deux directions.**Remarque :** Pour des raisons techniques, *À travers tout* est en fait une cavité de 10 mètres de profondeur. Si vous avez besoin de cavités plus profondes, utilisez *Dimension*.
 
-### Jusqu\'à la face {#jusquà_la_face}
+### Jusqu\'à la face 
 
 La cavité sera extrudée jusqu\'à une face dans le support qui peut être choisie en cliquant dessus.
 
-### Deux dimensions {#deux_dimensions}
+### Deux dimensions 
 
 Permet de saisir une seconde valeur de longueur pour prolonger la poche dans la direction opposée (dans le support). La direction peut également être changée avec l\'option **Inversé**. {{VersionPlus/fr|0.17}}
 
@@ -53,7 +53,7 @@ Permet de saisir une seconde valeur de longueur pour prolonger la poche dans la 
 -   Utilisez le type **Dimension** ou **À travers tout** dans la mesure du possible, car les autres types peuvent parfois causer problème quand la cavité est utilisée pour une répétition linéaire ou circulaire.
 -   Autrement, la fonction cavité partage les mêmes [limitations](PartDesign_Pad/fr#Limitations.md) que la fonction protrusion.
 
-## Liens utiles {#liens_utiles}
+## Liens utiles 
 
 Un [exemple pratique](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=10) sur le forum (en anglais).
 

@@ -24,13 +24,13 @@ The task can be split into four parts:
 -   **Create a new command class**. Modification needed to 
 -   **Add new command to workbench**. Modification needed to 
 
-## Create a new icon file {#create_a_new_icon_file}
+## Create a new icon file 
 
 For the button we need an icon file. You can use any of your favorite tools to create it, but it must be in the SVG format. Here we will use the {{FileName|FEM_testButton.svg}} file as an example.
 
 It must be placed in: `src/Mod/Fem/Gui/Resources/icons/`.
 
-## Register the new icon file {#register_the_new_icon_file}
+## Register the new icon file 
 
 The new SVG icon file has to be registered for the GUI-button by inserting it in `src/Mod/Fem/Gui/Resources/Fem.qrc`:
 
@@ -38,7 +38,7 @@ The new SVG icon file has to be registered for the GUI-button by inserting it in
      <file>icons/FEM_testButton.svg</file>
 }}
 
-## Create a new command class {#create_a_new_command_class}
+## Create a new command class 
 
 A new command class has to be added to the `src/Mod/Fem/femcommands/commands.py` module.
 
@@ -67,7 +67,7 @@ FreeCADGui.addCommand(
 
 **Note**: Please see this [discussion thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=46693&start=10#p402004) in the forum if icons are involved.
 
-## Add new command to workbench {#add_new_command_to_workbench}
+## Add new command to workbench 
 
 We will add the new command to both the **solve** toolbar and the **solve** menu.
 

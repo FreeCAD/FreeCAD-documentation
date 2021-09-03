@@ -43,7 +43,7 @@ There are two approaches to specifying Product and Manufacturing Information (PM
   Multiple files                                        Single data model
   Manual synchronization between CMM/CAM/CAI software   Single source of truth
 
-## Existing software {#existing_software}
+## Existing software 
 
 -   [Adding geometric tolerance with feature control frame in AutoCAD](https://www.youtube.com/watch?v=C4c_kJtwtxc)
 -   [Working with Drawing Symbols in Fusion 360](https://www.youtube.com/watch?v=sVxuIgLgsKk)
@@ -51,14 +51,14 @@ There are two approaches to specifying Product and Manufacturing Information (PM
 -   [CATIA V5 - FUNCTIONAL TOLERANCING & ANNOTATION](https://www.youtube.com/watch?v=WQUjodi7Izs)
 -   [SmartProfile GD&T Analysis Software](https://www.youtube.com/watch?v=0z7IoDiVYMY)
 
-## Implementation so far {#implementation_so_far}
+## Implementation so far 
 
 -   [TechDraw symbols SVG files](https://github.com/FreeCAD/FreeCAD/commits/master/src/Mod/TechDraw/Symbols/gd-and-t)
 -   [GDT workbench](https://github.com/juanvanyo/FreeCAD-GDT)
 -   [TechDraw balloon macro](https://github.com/reox/FreeCAD_macros/blob/b6731feb10573e2d21781ce161c8ec7e894d1b73/TDCustomFormat.FCMacro)
 -   [A branch that introduced a new type of DocumentObject: DrawViewGDTReference](https://github.com/lidiriel/FreeCAD/commits/gdt-reference2)
 
-## Forum threads {#forum_threads}
+## Forum threads 
 
 -   [Enhancing TechDraw with geometric tolerances and surface finishings](https://forum.freecadweb.org/viewtopic.php?f=35&t=41726) - Developer discussion (2019)
 
@@ -68,7 +68,7 @@ There are two approaches to specifying Product and Manufacturing Information (PM
 -   [ISO 1101: 2017 Geometric Tolerancing Standard](https://forum.freecadweb.org/viewtopic.php?f=35&t=35887) - A link to the ISO 1101:2017 PDF file (2019)
 -   [Geometric Dimensioning & Tolerancing](https://forum.freecadweb.org/viewtopic.php?t=42426) - Developer proposing contributions (2019)
 
-## Tutorials and learning materials on GD&T {#tutorials_and_learning_materials_on_gdt}
+## Tutorials and learning materials on GD&T 
 
 -   [Brief introduction (Video)](https://www.youtube.com/watch?v=P5GT9ZSRYl0)
 -   [How Precise Is That Part? Know Your GD&T](https://hackaday.com/2018/10/04/how-precise-is-that-part-know-your-gdt/)

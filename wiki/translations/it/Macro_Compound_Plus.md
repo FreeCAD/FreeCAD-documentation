@@ -57,7 +57,7 @@ Macro utility che riunisce numerosi comandi di Draft per lavorare con gli oggett
 
 </div>
 
-### {{CheckBox}} Option color {#option_color}
+### {{CheckBox}} Option color 
 
 If it {{CheckBox}} checked the colour to object to work are coloured (edge, vertex)
 
@@ -115,7 +115,7 @@ Questa sezione lavora solo con i menu **Compound I**, **Convert (A)** e **Conver
 
 </div>
 
-### Force on a form : Line {#force_on_a_form_line}
+### Force on a form : Line 
 
 If the object line, arc or circle is not reconized (as form in a volume 3D object), this section force the creation of Line, Arc or Circle.
 

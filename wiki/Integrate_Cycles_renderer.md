@@ -15,15 +15,15 @@ As the [Raytracing Workbench](Raytracing_Workbench.md) of FreeCAD is already mad
 4.  Create basic functionality in FreeCAD to create such XML files
 5.  Create a new render object by adapting the luxrender object
 
-## Expected outcome {#expected_outcome}
+## Expected outcome 
 
 1.  A new available renderer added to the [Raytracing Workbench](Raytracing_Workbench.md)
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 Since direct modeling is a huge area in constant evolution, the work done in this GSoC will only cover a small part of it. But if the bases are done right, extending them will be easy and could develop very far.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -35,6 +35,6 @@ Since direct modeling is a huge area in constant evolution, the work done in thi
 
 Medium
 
-## Additional Information {#additional_information}
+## Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

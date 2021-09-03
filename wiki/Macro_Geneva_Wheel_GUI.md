@@ -13,7 +13,7 @@
 
 A GUI front end that allows the user to create a Geneva wheel mechanism from scratch. Based on drei\'s [Macro Geneva Wheel](Macro_Geneva_Wheel.md)
 
-## How To Use {#how_to_use}
+## How To Use 
 
 To use this Macro, copy it to your FreeCAD Macro directory and include the icon graphic in the same directory as the Macro.
 

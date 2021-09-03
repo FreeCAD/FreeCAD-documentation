@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD può memorizzare le impostazioni della fotocamera in un massimo di 50 \"viste bloccate\". Le opzioni di menu che si occupano delle viste bloccate sono disponibili nel sottomenu {{MenuCommand|Visualizza → Viste bloccate}}. Le viste bloccate non vengono memorizzate nel documento e, se non salvate con l\'opzione **[Salva le viste\...](#Salva_le_viste....md)** del menu, andranno perse alla chiusura di FreeCAD.
+FreeCAD può memorizzare le impostazioni della fotocamera in un massimo di 50 \"viste bloccate\". Le opzioni di menu che si occupano delle viste bloccate sono disponibili nel sottomenu **Visualizza → Viste bloccate**. Le viste bloccate non vengono memorizzate nel documento e, se non salvate con l\'opzione **[Salva le viste\...](#Salva_le_viste....md)** del menu, andranno perse alla chiusura di FreeCAD.
 
 
 </div>
@@ -14,7 +14,7 @@ FreeCAD può memorizzare le impostazioni della fotocamera in un massimo di 50 \"
 
 <div class="mw-translate-fuzzy">
 
-## Salva le viste\... {#salva_le_viste...}
+## Salva le viste\... 
 
 
 </div>
@@ -26,7 +26,7 @@ L\'opzione di menu **Salva le viste \...** salva tutte le viste bloccate esisten
 ### Utilizzo
 
 1.  Per utilizzare questa opzione devono esistere una o più viste bloccate. Una vista bloccata viene creata con l\'opzione **[Fissa la vista](#Fissa_la_vista.md)** del menu.
-2.  Selezionare l\'opzione {{MenuCommand|Visualizza → Viste bloccate → Salva le viste...}} dal menu.
+2.  Selezionare l\'opzione **Visualizza → Viste bloccate → Salva le viste...** dal menu.
 3.  Immettere un nome file nella finestra di dialogo.
 4.  Premere il pulsante **Salva**.
 
@@ -37,30 +37,30 @@ L\'opzione di menu **Salva le viste \...** salva tutte le viste bloccate esisten
 
 <div class="mw-translate-fuzzy">
 
-## Carica le viste\... {#carica_le_viste...}
+## Carica le viste\... 
 
 
 </div>
 
-### Descrizione {#descrizione_1}
+### Descrizione 
 
 L\'opzione del menu **Carica le viste\...** carica le viste bloccate da un file con l\'estensione \*.cam. Tutte le viste bloccate esistenti vengono eliminate.
 
-### Utilizzo {#utilizzo_1}
+### Utilizzo 
 
-1.  Selezionare l\'opzione {{MenuCommand|Visualizza → Viste blocate → Carica le viste...}} dal menu.
+1.  Selezionare l\'opzione **Visualizza → Viste blocate → Carica le viste...** dal menu.
 2.  Premere il pulsante **Si** nella finestra di dialogo Ripristina viste per confermare che si desidera perdere tutte le viste congelate esistenti.
 3.  Selezionare un file.
 4.  Premere il pulsante **Apri**.
 
-### Opzioni {#opzioni_1}
+### Opzioni 
 
 -   Se viene visualizzata la finestra di dialogo Ripristina le viste: premere **Esc** o il pulsante **No** per interrompere il comando.
 -   Se viene visualizzata la finestra di dialogo del file: premere **Esc** o il pulsante **Annulla** per interrompere il comando.
 
-## Fissa la vista {#fissa_la_vista}
+## Fissa la vista 
 
-### Descrizione {#descrizione_2}
+### Descrizione 
 
 
 <div class="mw-translate-fuzzy">
@@ -70,33 +70,33 @@ L\'opzione del menu **Fissa la vista** memorizza le impostazioni correnti della 
 
 </div>
 
-### Utilizzo {#utilizzo_2}
+### Utilizzo 
 
 1.  There are several ways to invoke this option:
-    -   Select the {{MenuCommand|View → Freeze display → Freeze view}} option from the menu.
+    -   Select the **View → Freeze display → Freeze view** option from the menu.
     -   Use the keyboard shortcut: **Shift**+**F**.
-2.  The new frozen view can be selected in the {{MenuCommand|View → Freeze display}} submenu.
+2.  The new frozen view can be selected in the **View → Freeze display** submenu.
 
-## Pulisci le viste {#pulisci_le_viste}
+## Pulisci le viste 
 
-### Descrizione {#descrizione_3}
+### Descrizione 
 
 The **Clear views** menu option deletes all existing frozen views.
 
-### Utilizzo {#utilizzo_3}
+### Utilizzo 
 
-1.  Select the {{MenuCommand|View → Freeze display → Clear views}} option from the menu.
+1.  Select the **View → Freeze display → Clear views** option from the menu.
 
-## Ripristina la vista {#ripristina_la_vista}
+## Ripristina la vista 
 
-### Descrizione {#descrizione_4}
+### Descrizione 
 
 For each frozen view a **Restore view** option is added with which it can be restored. The options are numbered: **Restore view 1** - **Restore view 50**.
 
-### Utilizzo {#utilizzo_4}
+### Utilizzo 
 
 1.  There are several ways to invoke this option:
-    -   Select the correct {{MenuCommand|View → Freeze display → Restore view}} option from the menu.
+    -   Select the correct **View → Freeze display → Restore view** option from the menu.
     -   For the first 9 frozen views: use the keyboard shortcut: **Ctrl**+**1** - **Ctrl**+**9**.
 
 

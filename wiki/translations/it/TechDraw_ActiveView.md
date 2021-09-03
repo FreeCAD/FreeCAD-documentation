@@ -50,7 +50,7 @@ Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Simbolo
 
 </div>
 
-### Campi di dialogo {#campi_di_dialogo}
+### Campi di dialogo 
 
 -    **Width**: la larghezza della vista generata.
 

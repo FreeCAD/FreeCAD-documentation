@@ -38,12 +38,12 @@ Crearea unui Șablon
 
 ## Opţiuni
 
-## Post Processing {#post_processing}
+## Post Processing 
 
 
 <div class="mw-translate-fuzzy">
 
-## Post Procesare {#post_procesare}
+## Post Procesare 
 
 -   Selectarea Postprocessorului
 -   Argumentele Postprocesorului
@@ -57,7 +57,7 @@ Crearea unui Șablon
 
 <div class="mw-translate-fuzzy">
 
-## Stock {#stock_1}
+## Stock 
 
 -   Extent: Stock Size
 -   Placement: Stock Location
@@ -65,12 +65,12 @@ Crearea unui Șablon
 
 </div>
 
-## Setup Sheet {#setup_sheet}
+## Setup Sheet 
 
 
 <div class="mw-translate-fuzzy">
 
-## Setare Foaie {#setare_foaie}
+## Setare Foaie 
 
 -   Operation Heights
 -   Operation Depths
@@ -79,12 +79,12 @@ Crearea unui Șablon
 
 </div>
 
-## Tool controllers {#tool_controllers}
+## Tool controllers 
 
 
 <div class="mw-translate-fuzzy">
 
-## Controlerele de instrumente {#controlerele_de_instrumente}
+## Controlerele de instrumente 
 
 -   Controlere de scule selectate.
 

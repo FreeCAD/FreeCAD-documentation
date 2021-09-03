@@ -111,7 +111,7 @@ cutCircle(5, 1)  # here with 5 arcs and coloured
 cutCircle(4)     #
 ```
 
-## In progetto {#in_progetto}
+## In progetto 
 
 Applicare la suddivisione a un cilindro
 

@@ -11,7 +11,7 @@ Not supported by CalculiX Interface!
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

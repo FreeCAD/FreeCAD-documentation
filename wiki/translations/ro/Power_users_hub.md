@@ -34,7 +34,7 @@ Aceste pagini sunt în stadiu incipient de dezvoltare. Dacă nu găsiți informa
 
 </div>
 
-## personalizare FreeCAD {#personalizare_freecad}
+## personalizare FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -50,14 +50,14 @@ Aceste pagini sunt în stadiu incipient de dezvoltare. Dacă nu găsiți informa
 
 </div>
 
-## Scripting in FreeCAD {#scripting_in_freecad}
+## Scripting in FreeCAD 
 
 ### General
 
 
 <div class="mw-translate-fuzzy">
 
-### General {#general_1}
+### General 
 
 -   [Introduction to Python](Introduction_to_Python.md) - Vezi și alte tutoriale Python din partea de jos a acestei pagini.
 -   [FreeCAD scripting tutorial](Python_scripting_tutorial.md) - O privire generală asupra scripting-ului Python în FreeCAD
@@ -87,24 +87,24 @@ Deoarece funcționalitatea FreeCAD este separată în module care se ocupă cu t
 
 </div>
 
-#### Working with Meshes {#working_with_meshes}
+#### Working with Meshes 
 
 
 <div class="mw-translate-fuzzy">
 
-### Working with Meshes {#working_with_meshes_1}
+### Working with Meshes 
 
 -   [Mesh Scripting](Mesh_Scripting.md): Cum se interacționează cu [Mesh Workbench](Mesh_Workbench.md)
 
 
 </div>
 
-#### Working with Parts {#working_with_parts}
+#### Working with Parts 
 
 
 <div class="mw-translate-fuzzy">
 
-### Lucrul cu formele geometrice Part {#lucrul_cu_formele_geometrice_part}
+### Lucrul cu formele geometrice Part 
 
 -   [The Part Workbench](Part_Workbench.md): How [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE) instrumente și structuri utilizate în în FreeCAD
 -   [Topological data scripting](Topological_data_scripting.md): Cum să interacționați cu Part Workbench
@@ -114,12 +114,12 @@ Deoarece funcționalitatea FreeCAD este separată în module care se ocupă cu t
 
 </div>
 
-#### Accessing the Coin scenegraph {#accessing_the_coin_scenegraph}
+#### Accessing the Coin scenegraph 
 
 
 <div class="mw-translate-fuzzy">
 
-### Accesul la scene grafice cu Coin {#accesul_la_scene_grafice_cu_coin}
+### Accesul la scene grafice cu Coin 
 
 -   Poți cu FreeCad să reprezinte scene de lucru datorită [The Coin/Inventor scenegraph](Scenegraph.md)
 -   [Pivy](Pivy.md) Accesați și modificați scena grafică mulțumită lui Pivy, care este poarta de acces pentru a accesa Coin
@@ -127,12 +127,12 @@ Deoarece funcționalitatea FreeCAD este separată în module care se ocupă cu t
 
 </div>
 
-### Controlling the Qt interface {#controlling_the_qt_interface}
+### Controlling the Qt interface 
 
 
 <div class="mw-translate-fuzzy">
 
-### Controlarea interfeței Qt {#controlarea_interfeței_qt}
+### Controlarea interfeței Qt 
 
 -   [PySide](PySide.md): Dispune de instrumentele necesare pentru a construi, a accesa și a modifica conținutul unei interfețe de utilizator
 -   [Using the FreeCAD GUI](Embedding_FreeCADGui.md) într-o altă aplicație Qt cu PyQt
@@ -143,7 +143,7 @@ Deoarece funcționalitatea FreeCAD este separată în module care se ocupă cu t
 
 <div class="mw-translate-fuzzy">
 
-### Lucrul cu obiecte parametrice {#lucrul_cu_obiecte_parametrice}
+### Lucrul cu obiecte parametrice 
 
 -   [Scripted objects](Scripted_objects.md): Cum se fac obiecte 100% Python scripted în FreeCAD
 -   [Drawing Workbench](Drawing_Workbench.md): Automatizarea procesului 3D-la-2D
@@ -173,13 +173,13 @@ Deoarece funcționalitatea FreeCAD este separată în module care se ocupă cu t
 
 </div>
 
-## API Functions {#api_functions}
+## API Functions 
 
 Descrierea completă a API-urilor FreeCad se află pe această pagină <http://www.freecadweb.org/api/> . Pagina conține atât C++ și Python APIs, și nu este încă bine formatat, ceea ce poate fi confuz atunci când cauți cod de tip Python. O versiune mai ușor de navigat poate fi găsită la [here](:Category:API.md). Rețineți că este posibil să fie incompletă, dar nu am găsit încă o modalitate de a include în mod automat pe acest wiki. Pentru mai multe informații, răsfoiți modulele direct în FreeCad.
 
 Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
-## Advanced modification {#advanced_modification}
+## Advanced modification 
 
 
 <div class="mw-translate-fuzzy">
@@ -193,7 +193,7 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 </div>
 
-## Python tutorials {#python_tutorials}
+## Python tutorials 
 
 Acestea sunt tutoriale generice bune, nu specifice aplicației FreeCAD, care ar putea fi interesante pentru dvs. dacă sunteți complet nou în Python.
 
@@ -240,7 +240,7 @@ Următoarele două referințe sunt PyQt specifice (nu PySide), dar pot oferi une
 
 </div>
 
-## Community projects {#community_projects}
+## Community projects 
 
 
 <div class="mw-translate-fuzzy">

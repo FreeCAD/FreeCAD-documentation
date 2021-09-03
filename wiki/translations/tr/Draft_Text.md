@@ -48,7 +48,7 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 1.  
     **<img src="images/_Draft_Text.png" width=16px> [Metin](Draft_Text/tr.md)**düğmesine basın veya **T** ardından **E** tuşları.

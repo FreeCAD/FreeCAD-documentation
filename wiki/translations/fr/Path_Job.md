@@ -30,12 +30,12 @@ L\'outil Travail (Tâche) crée un nouvel objet Travail dans le document actif. 
 1.  Appelez la commande Tâche en utilisant plusieurs méthodes:
     -   Appuyez sur le bouton **<img src="images/Path_Job.svg" width=16px> [Tâche](Path_Job/fr.md)** dans la barre d\'outils.
     -   Utilisation du raccourci clavier **P** puis **F**.
-    -   Utilisation de l\'entrée {{MenuCommand|Path → Tâche}} dans le menu supérieur.
+    -   Utilisation de l\'entrée **Path → Tâche** dans le menu supérieur.
 
 
 </div>
 
-La boîte de dialogue GUI de la Tâche comporte cinq onglets alignés horizontalement: {{MenuCommand|General}}, {{MenuCommand|Output}}, {{MenuCommand|Setup}}, {{MenuCommand|Tools}} et {{MenuCommand|Workplan}}. L\'utilisateur peut à tout moment utiliser les options **OK** ou **Cancel** dans la boîte de dialogue.
+La boîte de dialogue GUI de la Tâche comporte cinq onglets alignés horizontalement: **General**, **Output**, **Setup**, **Tools** et **Workplan**. L\'utilisateur peut à tout moment utiliser les options **OK** ou **Cancel** dans la boîte de dialogue.
 
 ## Généralités
 
@@ -58,7 +58,7 @@ La boîte de dialogue GUI de la Tâche comporte cinq onglets alignés horizontal
 -   **Processor**: Sélectionnez le post-processeur pour votre machine.
 -   **Arguments**: Ajoutez des arguments pour le post-processeur si nécessaire.
 
-## Conditions initiales {#conditions_initiales}
+## Conditions initiales 
 
 ![](images/Job_3.jpg )
 
@@ -76,7 +76,7 @@ Après avoir ajouté un outil, vous pouvez définir / modifier l\'avance et la v
 
 L\'outil par défaut que vous pouvez supprimer si vous avez ajouté un outil personnel.
 
-## Plan de travail {#plan_de_travail}
+## Plan de travail 
 
 ![](images/Job_5.jpg )
 

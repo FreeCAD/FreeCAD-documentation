@@ -14,12 +14,12 @@ Intensivnutzer haben FreeCAD um verschiedene kundenspezifische [externe Arbeitsb
 
 **Hinweis:**
 
-Ab Version 0.17 verfügt FreeCAD über einen <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalter](Addon_Manager/de.md) im {{MenuCommand|Werkzeuge → Erweiterungsverwalter}} Menü, das die Installation sowohl von Makros als auch von Workbenches erlaubt. Die folgenden Anweisungen sind nur erforderlich, wenn du einen Arbeitsbereich manuell installieren möchtest. Dies könnte notwendig sein, wenn aus irgendeinem Grund der Erweiterungsverwalter nicht funktioniert, du aber Zugriff auf den als {{FileName|.zip}} Paket heruntergeladenen Arbeitsbereich hast.
+Ab Version 0.17 verfügt FreeCAD über einen <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalter](Addon_Manager/de.md) im **Werkzeuge → Erweiterungsverwalter** Menü, das die Installation sowohl von Makros als auch von Workbenches erlaubt. Die folgenden Anweisungen sind nur erforderlich, wenn du einen Arbeitsbereich manuell installieren möchtest. Dies könnte notwendig sein, wenn aus irgendeinem Grund der Erweiterungsverwalter nicht funktioniert, du aber Zugriff auf den als {{FileName|.zip}} Paket heruntergeladenen Arbeitsbereich hast.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Installation unter Windows {#installation_unter_windows}
+## Installation unter Windows 
 
 Wie man zusätzliche Arbeitsbereiche und Erweiterungen unter Windows installiert
 
@@ -37,7 +37,7 @@ Benutze den [addons-installer von Github](https://github.com/FreeCAD/FreeCAD-add
 
 Während des Google Summer of Code 2016 begann der Student Mandeep Singh mit der Arbeit an einer verbesserten Version ([hier verfügbar](https://github.com/mandeeps708/PluginManager)), die jedoch noch weitere Bearbeitung benötigt, bevor sie vollständig in FreeCAD integriert werden kann.
 
-### Manuelle Installation {#manuelle_installation}
+### Manuelle Installation 
 
 
 **Hinweis:**
@@ -46,7 +46,7 @@ Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Addon_Manager
 
 -   Lade den Arbeitsbereich von github herunter, durch anklicken auf die Schaltfläche **Clone** oder **Download** auf der github Seite (obere rechte Ecke) klickest und \"Download ZIP\" wählst
 -   Entpacke das heruntergeladene Archiv auf deiner lokalen Festplatte
--   Suche innerhalb von FreeCAD den Makropfad, durch Wahl von {{MenuCommand|Bearbeiten → Einstellungen → Allgemein→ Makro}} und nach dem \"Makropfad\" suchen.
+-   Suche innerhalb von FreeCAD den Makropfad, durch Wahl von **Bearbeiten → Einstellungen → Allgemein→ Makro** und nach dem \"Makropfad\" suchen.
 -   Angenommen, dein Windows-Login ist \"*Benutzername*\", dann ist der Standard Makropfad {{FileName|%APPDATA%\FreeCAD\}}, der normalerweise {{FileName|C:\Users\''username''\Appdata\Roaming\FreeCAD}} ist.
 -   Erstelle innerhalb des Makro-Verzeichnisses einen Ordner (falls nicht bereits vorhanden) namens \"{{FileName|Mod}}\"
 -   Lege innerhalb des Ordners Mod einen Ordner mit dem Namen des Arbeitsbereichs an, z.B. \"Curves\".
@@ -66,14 +66,14 @@ Unter Windows behält Windows beim Aktualisieren eines bereits installierten Arb
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Installation unter Linux {#installation_unter_linux}
+## Installation unter Linux 
 
 Wie man zusätzliche Arbeitsbereiche und Erweiterungen unter Linux installiert
 
 
 <div class="mw-collapsible-content">
 
-### Benutzung von git {#benutzung_von_git}
+### Benutzung von git 
 
 Hinzufügen der [community-ppa](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) innerhalb des ppa-manager.
 Installation der Arbeitsbereiche über synaptische Paketmanager.
@@ -95,7 +95,7 @@ $ git pull
 $ rm *.pyc
 ```
 
-### Manuelle Installation {#manuelle_installation_1}
+### Manuelle Installation 
 
 
 **Hinweis:**
@@ -104,8 +104,8 @@ Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Addon_Manager
 
 -   Lade den Arbeitsbereich von github durch Klicken auf die Schaltfläche **Clone** oder **Download** auf der github Seite (obere rechte Ecke) und Auswahl von \"Download ZIP\"
 -   Entpacke das heruntergeladene Archiv auf deiner lokalen Festplatte
--   Ermittle innerhalb von FreeCAD den Makropfad,durch wählen von {{MenuCommand|Bearbeiten→ Einstellungen → Allgemein → Makro}} und schau nach dem "Makropfad"
--   Standardmäßig ist das Makro Verzeichnis das (versteckte) {{MenuCommand|./.FreeCAD/}} Verzeichnis in deinem Home-Verzeichnis
+-   Ermittle innerhalb von FreeCAD den Makropfad,durch wählen von **Bearbeiten→ Einstellungen → Allgemein → Makro** und schau nach dem "Makropfad"
+-   Standardmäßig ist das Makro Verzeichnis das (versteckte) **./.FreeCAD/** Verzeichnis in deinem Home-Verzeichnis
 -   Erstelle innerhalb des Makro-Verzeichnisses (falls nicht bereits vorhanden) einen Ordner namens \"{{FileName|Mod}}\"
 -   Erstelle innerhalb des Mod/ Ordners einen Ordner mit dem Namen des Arbeitsbereichs, zum Beispiel \"Curves\"
 -   Verschiebe nun die entpackten Dateien und Unterordner des Arbeitsbereichs in den soeben erstellten Arbeitsbereichs-Ordner
@@ -120,14 +120,14 @@ Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Addon_Manager
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Installation auf Mac {#installation_auf_mac}
+## Installation auf Mac 
 
 Wie man zusätzliche Arbeitsbereiche und Erweiterungen auf MacOS installiert
 
 
 <div class="mw-collapsible-content">
 
-### Manuelle Installation {#manuelle_installation_2}
+### Manuelle Installation 
 
 
 **Hinweis:**
@@ -156,11 +156,11 @@ Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Ku
 
 </div>
 
-## Allgemeine Fehlerbehebung {#allgemeine_fehlerbehebung}
+## Allgemeine Fehlerbehebung 
 
 -   Verwende keine Sonderzeichen (z.B. deutsche Umlaute) in deinem Windows Benutzernamen, da FreeCAD sonst Dateien und Ordner im Makropfad nicht erkennt.
 -   Wenn Du bereits einen Benutzernamen mit Sonderzeichen eingerichtet hast, erstelle entweder einen neuen Benutzernamen oder zeige den Makropfad auf ein Verzeichnis ohne Sonderzeichen.
--   Gehe zu {{MenuCommand|Werkzeuge → Anpassen → Arbeitsbereiche}} und stelle sicher, dass der Arbeitsbereich nicht auf ausgeblendet gesetzt ist.
+-   Gehe zu **Werkzeuge → Anpassen → Arbeitsbereiche** und stelle sicher, dass der Arbeitsbereich nicht auf ausgeblendet gesetzt ist.
 -   Mit 32-Bit System und FreeCAD 0.16.6706, nach dem Versuch der Installation sind die zusätzlichen Arbeitsbereiche möglicherweise nicht verfügbar. In diesem Fall
     -   Halte beim Start von FreeCAD das [Berichtsfenster](report_view/de.md) geöffnet und lies den Fehler.
     -   siehe diesen Forumsbeitrag: [Assembly2 in Version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)

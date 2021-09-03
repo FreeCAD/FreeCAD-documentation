@@ -41,7 +41,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 1.  
     {{Button | <img src="images/_Draft_BSpline.png_" width= 16px> [BSpline](Draft_BSpline/tr.md)}}düğmesine basın veya {{KEY | B}} ardından {{KEY | S}} tuşuna basın
@@ -107,8 +107,8 @@ BSpline aracı [Tel](Draft_Wire/tr.md) aracı gibi davranır, ancak bölümlerin
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the initial value of filled mode: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible}}. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Özellikler
 

@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Description {#description_1}
+## Description 
 
 Crée un tore paramétrique simple avec les paramètres position angle1, angle2, angle3, rayon1 et rayon2.
 
@@ -29,7 +29,7 @@ Crée un tore paramétrique simple avec les paramètres position angle1, angle2,
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Atelier PArt](Part_Workbench/fr.md)
 2.  Lancez la commande de plusieurs manières:
     -   Appuyez sur le bouton **<img src="images/Part_Torus.svg" width=16px> Créer un solide toroïdal** dans la barre d\'outils.
-    -   Sélectionnez {{MenuCommand|Pièce → Primitives → <img src="images/Part_Torus.svg" width=16px> Tore}} dans la barre de menus.
+    -   Sélectionnez **Pièce → Primitives → <img src="images/Part_Torus.svg" width=16px> Tore** dans la barre de menus.
 
 **Résultat:** Le tore sera positionné à l\'origine (point 0,0,0) lors de la création.
 Les paramètres d\'angle (angle1, angle2, angle3) ainsi que les paramètres de paramètre de rayon (radius1, radius2) permettent de paramétrer le tore, voir section suivante.

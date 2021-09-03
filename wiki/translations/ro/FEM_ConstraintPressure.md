@@ -11,7 +11,7 @@ Aplică o constrângere de presiune pe o fațetă.
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

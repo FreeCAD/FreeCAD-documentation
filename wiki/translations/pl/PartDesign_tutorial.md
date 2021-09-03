@@ -20,7 +20,7 @@ Ten poradnik ma na celu zapoznanie czytelnika z podstawowym przepływem pracy w 
 
 ### Procedura
 
-#### Tworzenie geometrii 3D {#tworzenie_geometrii_3d}
+#### Tworzenie geometrii 3D 
 
 Celem środowiska roboczego **Projekt Części** jest umożliwienie użytkownikowi tworzenia geometrii w przestrzeni 3D. W związku z tym jest ono wyposażone w narzędzia do wykorzystania szkiców i przekształcania ich w obiekty 3D.
 
@@ -42,7 +42,7 @@ Innym sposobem na tworzenie geometrii 3D jest narzędzie <img alt="" src=images/
 4.  Ustaw parametr **Oś** na wartość {{ComboBox|Pozioma oś szkicu}}.
 5.  Ustaw kąt na 360°.
 
-#### Cechy odejmujące {#cechy_odejmujące}
+#### Cechy odejmujące 
 
 Zaczniemy od utworzenia szkicu z kształtem, który chcemy odjąć.
 
@@ -69,7 +69,7 @@ Następnie przejdziemy do zastosowania funkcji **Kieszeń**.
 2.  Wybierz narzędzie <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;">. [Kieszeń](PartDesign_Pocket/pl.md).
 3.  Ustaw parametr **Typ** na wartość {{ComboBox|Przez wszystkie}}.
 
-#### Cechy tworzone wzorami {#cechy_tworzone_wzorami}
+#### Cechy tworzone wzorami 
 
 Przypomnij sobie profil wyciągany, który został utworzony na początku tego poradnika.
 

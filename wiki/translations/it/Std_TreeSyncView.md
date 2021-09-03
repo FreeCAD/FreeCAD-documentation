@@ -17,8 +17,8 @@ Il comando **Sincronizza la vista** attiva o disattiva la modalità SyncView del
 ## Utilizzo
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Fare clic sulla freccia nera verso il basso a destra del pulsante **<img src="images/_Std_TreeSyncView.svg" width=16px>** e selezionare l\'opzione {{MenuCommand|Sincronizza la vista}} dal riquadro a scomparsa. Nota: l\'immagine del pulsante cambia in base all\'opzione selezionata.
-    -   Selezionare l\'opzione {{MenuCommand|Visualizza → Azioni della vista ad albero → <img src="images/Std_TreeSyncView.svg" width=16px> Sincronizza la vista}} dal menu.
+    -   Fare clic sulla freccia nera verso il basso a destra del pulsante **<img src="images/_Std_TreeSyncView.svg" width=16px>** e selezionare l\'opzione **Sincronizza la vista** dal riquadro a scomparsa. Nota: l\'immagine del pulsante cambia in base all\'opzione selezionata.
+    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → <img src="images/Std_TreeSyncView.svg" width=16px> Sincronizza la vista** dal menu.
     -   Usare la scorciatoia da tastiera: **T** e poi **1**.
 
 ## Preferenze
@@ -26,7 +26,7 @@ Il comando **Sincronizza la vista** attiva o disattiva la modalità SyncView del
 
 <div class="mw-translate-fuzzy">
 
-La modalità Sincronizza la vista SyncView è memorizzata in: {{MenuCommand|Strumenti → Modifica parametri ... → BaseApp → Preferenze → TreeView → SyncView}}. È un valore booleano, il valore predefinito è `True`.
+La modalità Sincronizza la vista SyncView è memorizzata in: **Strumenti → Modifica parametri ... → BaseApp → Preferenze → TreeView → SyncView**. È un valore booleano, il valore predefinito è `True`.
 
 
 </div>

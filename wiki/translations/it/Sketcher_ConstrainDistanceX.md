@@ -25,7 +25,7 @@ Fissa una distanza orizzontale tra due punti. È applicabile tra tutti i punti d
 2.  Richiamare il comando in uno di questi modi:
     -   Cliccare sull\'icona **<img src=images/Sketcher_ConstrainDistanceX.png style="width:24px"> '''Distanza orizzontale'''** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **Maiusc** + **H**.
-    -   Usare la voce {{MenuCommand|Sketch → Vincoli → Distanza orizzontale}} dal menu principale.
+    -   Usare la voce **Sketch → Vincoli → Distanza orizzontale** dal menu principale.
 3.  Si apre una finestra di dialogo per modificare o confermare il valore. Premere **OK** per confermare.
 
 

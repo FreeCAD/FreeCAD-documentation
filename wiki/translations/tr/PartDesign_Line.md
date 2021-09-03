@@ -24,7 +24,7 @@ Eskizler, diğer referans geometrisi veya özellikleri için referans olarak kul
 
 </div>
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 
 <div class="mw-translate-fuzzy">

@@ -16,7 +16,7 @@ La commande **Std Positionnement** affiche le [Panneau des tâches](Task_Panel/f
 ## Utilisation
 
 1.  Sélectionnez un seul objet ayant une propriété {{PropertyData/fr|Placement}} dans l\'[Éditeur de propriétés](Property_editor/fr.md).
-2.  Sélectionnez l\'option {{MenuCommand|Edition → Positionnement...}} dans le menu.
+2.  Sélectionnez l\'option **Edition → Positionnement...** dans le menu.
 3.  Modifiez un ou plusieurs paramètres de translation et de rotation.
 4.  Effectuez l\'une des actions suivantes:
     -   Appuyez sur le bouton **OK** pour appliquer les modifications et fermer le panneau des tâches.

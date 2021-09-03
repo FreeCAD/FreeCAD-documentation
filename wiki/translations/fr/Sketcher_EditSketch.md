@@ -16,7 +16,7 @@ Cette commande permet de modifier une esquisse existante. Cela ouvre la [boite d
 Il existe plusieurs façons d\'appeler la commande Modifier l\'esquisse:
 
 -   Faites un clic droit sur une esquisse dans la [vue en arborescence](Tree_view/fr.md) et choisissez *Modifier l\'esquisse*
--   Sélectionnez l\'esquisse dans la [vue en arborescence](Tree_view/fr.md) et choisissez {{MenuCommand|Sketch → Modifier l'esquisse}} dans le menu déroulant.
+-   Sélectionnez l\'esquisse dans la [vue en arborescence](Tree_view/fr.md) et choisissez **Sketch → Modifier l'esquisse** dans le menu déroulant.
 -   Double-cliquez simplement sur l\'esquisse
 -   Cliquer sur le bouton <img alt="" src=images/Sketcher_EditSketch.svg  style="width:24px;"> dans la barre d\'outils Sketcher.
 

@@ -21,15 +21,15 @@ Il est maintenu par la communauté des utilisateurs de FreeCAD et ne fait pas pa
 
 ## Installation
 
-### Installation Automatique {#installation_automatique}
+### Installation Automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-### Depuis GitHub {#depuis_github}
+### Depuis GitHub 
 
 La bibliothèque est un simple conteneur pour les fichiers SVG. Vous pouvez le télécharger n\'importe où et importer ses fichiers dans vos projets FreeCAD. Dans la bibliothèque, il y a aussi une macro FreeCAD (SymbolsLibrary.FCMacro) que vous pouvez modifier (vous devez changer le chemin de votre bibliothèque) et placer dans votre dossier de macros FreeCAD. Cette macro crée une fenêtre de navigateur dans FreeCAD, à partir de laquelle vous pouvez facilement ajouter les symboles à une page de dessin sélectionnée (ou, si aucun n\'est sélectionné, la première trouvée dans le document actif) en double-cliquant dessus.
 
-## Liens avec Symbols Library {#liens_avec_symbols_library}
+## Liens avec Symbols Library 
 
 -   Atelier Wiki:
 -   Wiki FreeCAD:
@@ -39,7 +39,7 @@ La bibliothèque est un simple conteneur pour les fichiers SVG. Vous pouvez le t
 -   Des dossiers:
 -   Signaler les bogues: veuillez signaler les bogues sur [forum FreeCAD](http://forum.freecadweb.org/index.php) ou <https://github.com/FreeCAD/FreeCAD-symbols/issues>
 
-## Autres liens intéressants {#autres_liens_intéressants}
+## Autres liens intéressants 
 
 -   [Parts Library](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Parts_Library), [Bolts](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts), [Fasteners](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners), [FCGear](http://www.freecadweb.org/wiki/index.php?title=Sandbox:FCGear)
 -   [Ateliers externes](External_workbenches/fr.md)

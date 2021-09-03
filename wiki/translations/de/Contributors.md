@@ -48,7 +48,7 @@ Personen, die regelmäßig am FreeCAD Quellcode arbeiten (abgerufen von <https:/
 -   [Victor Titov (DeepSOIC)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
 -   [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375)
 
-#### Weitere Programmierer {#weitere_programmierer}
+#### Weitere Programmierer 
 
 Weitere Personen, die etwas zum FreeCAD-Projekt beigetragen haben:
 
@@ -225,7 +225,7 @@ Personen, die bei der Übersetzung der FreeCAD-Anwendung geholfen haben (abgeruf
 -   [Николай Матвеев](User:Николай_Матвеев.md)
 -   [Федір](User:Федір.md)
 
-### Addon-Entwickler {#addon_entwickler}
+### Addon-Entwickler 
 
 Entwickler von FreeCAD-Addons (abgerufen von <https://github.com/FreeCAD/FreeCAD-addons>):
 

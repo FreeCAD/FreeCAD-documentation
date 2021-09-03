@@ -29,12 +29,12 @@ Două lucruri importante sunt necesare pentru a ști:
 
 <div class="mw-translate-fuzzy">
 
-1.  Recalcualrea nu este întotdeauna automată. Operațiile dificile, care pot modifica o mare parte a documentului dvs. și, prin urmare, necesită ceva timp, nu sunt efectuate automat. În schimb, obiectul (și toate obiectele care depind de el) vor fi marcate pentru recalculare (pe afișarea arborescentă va apărea o iconiță albastră mică). Apoi trebuie să apăsați butonul de recalculare (or {{MenuCommand|Edit->Refresh}}) pentru a avea recalcularea tuturor obiectelor marcate.
+1.  Recalcualrea nu este întotdeauna automată. Operațiile dificile, care pot modifica o mare parte a documentului dvs. și, prin urmare, necesită ceva timp, nu sunt efectuate automat. În schimb, obiectul (și toate obiectele care depind de el) vor fi marcate pentru recalculare (pe afișarea arborescentă va apărea o iconiță albastră mică). Apoi trebuie să apăsați butonul de recalculare (or **Edit->Refresh**) pentru a avea recalcularea tuturor obiectelor marcate.
 
 
 
 
-1.  The dependency tree must always flow in the same direction. Loops are forbidden. ([See DAG](Glossary#Directed_Acyclic_Graph.md)) Puteți avea obiectul A care depinde de obiectul B care depinde de obiectul C. Dar că nu puteți avea un obiect A care depinde de obiectul B care depinde de obiectul A. Aceasta ar fi o dependență circulară. Cu toate acestea, puteți avea mai multe obiecte care depind de același obiect, de exemplu, obiectele B și C depind de A. Meniu{{MenuCommand|Tools -> Dependency graph}} vă arată o diagrama de dependență ca în imaginea de mai sus. Poate fi utilă detectarea problemelor.
+1.  The dependency tree must always flow in the same direction. Loops are forbidden. ([See DAG](Glossary#Directed_Acyclic_Graph.md)) Puteți avea obiectul A care depinde de obiectul B care depinde de obiectul C. Dar că nu puteți avea un obiect A care depinde de obiectul B care depinde de obiectul A. Aceasta ar fi o dependență circulară. Cu toate acestea, puteți avea mai multe obiecte care depind de același obiect, de exemplu, obiectele B și C depind de A. Meniu**Tools -> Dependency graph** vă arată o diagrama de dependență ca în imaginea de mai sus. Poate fi utilă detectarea problemelor.
 
 
 </div>

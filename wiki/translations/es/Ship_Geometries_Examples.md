@@ -28,7 +28,7 @@ In order to help new users, Ship includes a geometries examples loader, with the
 
 1.  Invoke the Ship Geometries Example Loader by either
     -   pressing on the <img alt="" src=images/Ship_Load.svg  style="width:24px;"> icon in the toolbar
-    -   select the {{MenuCommand|Ship design → Load‏‎ an example ship geometry}} from the drop down menu
+    -   select the **Ship design → Load‏‎ an example ship geometry** from the drop down menu
 2.  A task dialog will display, prompting to choose one of the example ship geometries.
 3.  Select **Series 60 from Iowa University** and press **Accept**
 4.  Result: Tool loads new document with the **s60\_IowaUniversity** geometry.

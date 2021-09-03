@@ -25,7 +25,7 @@ Vous trouverez ci-dessous quelques indices et informations utiles pour vous mett
     -   **Doc**: contient principalement un fichier d\'aide Qt tout-en-un généré à partir de ce wiki.
     -   **Mod**: contient tous les modules, eux-mêmes séparés en App et Gui (à l\'exception des modules python, qui ne suivent pas toujours cette règle aussi clairement).
 
-### En relation {#en_relation}
+### En relation 
 
 -   [Gestion du code source](Source_code_management/fr.md)
 -   La [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md) contient beaucoup de documentation sur les modules, OpenCascade et Coin3D, principalement pour le programmeur Python. Cependant, comme la fonctionnalité est similaire, ces pages intéresseront également le programmeur C++.

@@ -15,7 +15,7 @@ Il codice produrrà un nuovo documento di FreeCAD con 12 forme (anello interno, 
 Esso sarà simile a questo:
 <img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
 
-### Flusso di lavoro {#flusso_di_lavoro}
+### Flusso di lavoro 
 
 Il flusso di lavoro è quasi identico a quello che si dovrebbe usare per creare la parte nell\'ambiente PartDesign. Solo alcune piccole differenze.
 
@@ -43,7 +43,7 @@ Il flusso di lavoro è quasi identico a quello che si dovrebbe usare per creare 
 -   Impostare la vista assonometrica
 -   Zoom per adattare la vista alla finestra
 
-### Creare la scanalatura {#creare_la_scanalatura}
+### Creare la scanalatura 
 
 Per disegnare un arco servono tre punti o un angolo iniziale ed un angolo finale.
 In uno schizzo si potrebbero usare i vincoli per definire il punto iniziale e il punto finale dell\'arco.
@@ -51,7 +51,7 @@ Dato che in uno script questo non è possibile, si disegna un rettangolo arroton
 Poi si disegna un cerchio e lo si ruota per ottenere la geometria della scanalatura.
 Infine si applica un taglio booleano tra le due forme rivoluzionate e per ottenere la forma completa dell\'anello interno e di quello esterno.
 
-### Inserire le sfere {#inserire_le_sfere}
+### Inserire le sfere 
 
 Il corretto flusso di lavoro basato su Sketcher per inserire le sfere sarebbe:
 \*Disegnare un arco (semicerchio) con il centro coincidente con l\'origine e tracciare una linea di chiusura del lato \"aperto\" dell\'arco

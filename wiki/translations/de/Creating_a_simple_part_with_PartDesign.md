@@ -24,7 +24,7 @@ Dieses Tutorial soll FreeCAD Anfängern anhand eines Beispiels einige grundlegen
 -   Bearbeiten einer oder mehrerer Abmessungen.
 -   Verwenden von äußeren Geometrie Formelementen und Verwendung einer Referenzebene zum Zentrieren einer Bohrung.
 
-### Verwenden des [Part Design Arbeitsbereich](PartDesign_Workbench/de.md) nachverfolgen der Skizze {#verwenden_des_part_design_arbeitsbereich_nachverfolgen_der_skizze}
+### Verwenden des [Part Design Arbeitsbereich](PartDesign_Workbench/de.md) nachverfolgen der Skizze 
 
 Erstelle ein neues Dokument und wechsle in den **<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design Arbeitsbereich'''** entweder mit dem [Arbeitsbereich Wahlschalter](Getting_started#Exploring_the_interface/de.md) (im verknüpften Bild mit 10 beschriftet) oder über das Menü *Ansicht → Arbeitsbereich*. FreeCAD startet mit den Werkzeugleisten oben, die Comboansicht links und der 3D Ansicht rechts.
 
@@ -122,7 +122,7 @@ Gehe bei allen Punkten auf die gleiche Weise vor.
 
 Wenn deine Skizze immer noch nicht grün ist, überprüfe, ob alle Linien (außer der schrägen) entweder ein <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal.md) oder <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertikal](Sketcher_ConstrainVertical.md) und füge, wenn nötig, eine Beschränkung hinzu.
 
-### Verwendung der Polster- und Taschen Formelemente {#verwendung_der_polster__und_taschen_formelemente}
+### Verwendung der Polster- und Taschen Formelemente 
 
 Klicke auf **Close** in der Aufgaben Registerkarte oben links in der Ecke. Wir verlassen automatisch den Skizzierer Arbeitsbereich, und den Part Design Arbeitsbereich wird wieder aktiviert. Die Combo Ansicht schaltet wieder auf die Modell Registerkarte um. Wenn Du dein *Körper Teil1* aufgeklappt gelassen hast, siehst Du ein neues **Skizzen**-Element unter *Ursprung* und unter dem Körper verschachtelt.
 
@@ -156,7 +156,7 @@ Schließe die Skizze; im Modellbaum ist unter Pad ein neues **Sketch001** Objekt
 
 Pocket ist ein Formelement \"subtraktiv\" genannt, es entfernt Material von unserem Teil, hier in der Form eines Zylinders, da die Skizze ein Kreis ist. Stelle \"Durch alles\" ein, um das Teil vollständig auszuschneiden. Drücke **OK**, um den Vorgang abzuschließen. Im Modellbaum erscheint ein neues Element mit der Bezeichnung **Pocket** am unteren Ende des Körper Teil1 und belegt Sketch001.
 
-### Ändern von Farbe und Transparenz {#ändern_von_farbe_und_transparenz}
+### Ändern von Farbe und Transparenz 
 
 Es ist möglich, die Farbe des Teils zu ändern, es ist oft nützlich, ein Teil unter anderen zu unterscheiden. Auch die Transparenz des Teils kann verändert werden, was für die Anzeige seines Inneren nützlich ist.
 
@@ -166,7 +166,7 @@ Die Bohrung ist nun im Inneren des Teils sichtbar. Dies ist oft nützlich, um di
 
 Du kannst auch \"Linienfarbe\" und \"Linienbreite\" variieren, um die Linienstärke und die Farbe der Teilekontur zu ändern.
 
-### Manuelles Bewegen des Teils {#manuelles_bewegen_des_teils}
+### Manuelles Bewegen des Teils 
 
 Gehe in das Menü *Ansicht* und wähle *Achsenkreuz umschalten*. Dies sind die absoluten Achsen. Du solltest in der 3D Ansicht die 3 Achsen X, Y, Z in rot, grün und blau sehen. Diese Orientierungsmarke wird uns helfen, uns im Raum zu orientieren. Diese Orientierungsmarke ist fest und unveränderlich, es ist entweder die Ansicht, die sich dreht oder das Objekt, das sich in diesem Raum dreht.
 
@@ -184,7 +184,7 @@ Halte und ziehe die Kegel entlang der Achsen oder der Kugeln, um den Körper in 
 
 Bestätige. Dann setze Winkel und Koordinaten auf 0 zurück.
 
-### Anzeigen der Referenzmaße in der Skizze {#anzeigen_der_referenzmaße_in_der_skizze}
+### Anzeigen der Referenzmaße in der Skizze 
 
 Es kann nützlich sein, die Abmessungen einiger Teile der Skizze aus der internen Berechnung von FreeCAD zu kennen. Sie können nur als Referenz verwendet werden, oder sie später z.B. für andere Bemaßungen verwenden.
 
@@ -198,7 +198,7 @@ Wir können zum Beispiel sehen, dass der Bogen eine Länge von 20 hat, da er tan
 
 Wir können auch sehen, dass FreeCAD die linke Fläche (50-50xTAN 30 °) berechnet, sowie das Abstandsmaß der Achse des Bogens zum Ursprung.
 
-### Bearbeitung einer oder mehrerer Abmessungen {#bearbeitung_einer_oder_mehrerer_abmessungen}
+### Bearbeitung einer oder mehrerer Abmessungen 
 
 Während der Modellierung kannst Du die Abmessungen des Modells variieren. Es ist sehr einfach: Für die Dicke des Teils doppelklicke auf Pad und gib dann einen neuen Wert ein, z.B. 40mm. Im unteren Teil der Combo Ansicht kannst Du diesen Wert ebenfalls ändern. Überprüfe, die Form des Objekts hat sich geändert.
 
@@ -206,7 +206,7 @@ Mache dasselbe für die Gesamtlänge des Stücks: Doppelklicke auf Skizze, dann 
 
 Wir können sehen, dass das Stück vergrößert wurde, aber die Bohrung nicht mehr in der Mitte der Oberseite zentriert ist. Das liegt daran, dass es auf den Skizzenursprung beschränkt wurde. Was nicht unbedingt dem entspricht, was man sich wünscht, die Bohrung sollte in der Mitte bleiben, unabhängig von der Größe der Fläche.
 
-### Zentrieren der Bohrung {#zentrieren_der_bohrung}
+### Zentrieren der Bohrung 
 
 **Erste Methode mit externer Geometrie.**
 

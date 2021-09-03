@@ -14,7 +14,7 @@ Lo strumento [Armatura di pilastro con due staffe e sei barre](Arch_Rebar_Column
 
 The [Column Reinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width:400px;">
 
@@ -101,7 +101,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 Lo strumento Armatura di pilastro può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
-### Create Two Ties Six Rebars {#create_two_ties_six_rebars}
+### Create Two Ties Six Rebars 
 
 
 ```python
@@ -259,7 +259,7 @@ RebarGroup = TwoTiesSixRebars.makeTwoTiesSixRebars(
 
 ```
 
-### Edition of Two Ties Six Rebars {#edition_of_two_ties_six_rebars}
+### Edition of Two Ties Six Rebars 
 
 You can change the properties of the ties and rebars with the following function
 
@@ -298,7 +298,7 @@ rebar_group = editTwoTiesSixRebars(
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
-#### Esempio {#esempio_1}
+#### Esempio 
 
 
 ```python

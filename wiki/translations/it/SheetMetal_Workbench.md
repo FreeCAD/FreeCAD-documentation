@@ -55,13 +55,13 @@ Questo ambiente di lavoro può essere installato da [Addon Manager](Std_AddonMgr
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Make Forming in Wall](SheetMetal_Forming/it.md): Crea lo strumento di formatura.
 
-## Due strumenti complementari {#due_strumenti_complementari}
+## Due strumenti complementari 
 
-### Crea un profilo di base {#crea_un_profilo_di_base}
+### Crea un profilo di base 
 
 Strumento a forma di omega: permette di realizzare una parte da una semplice multilinea creata in Sketcher o Draf, dargli altezza e spessore centrati, a sinistra o a destra di questa linea, fare attenzione a non creare autointersezione in pieghe chiuse di spazio minore dello spessore del materiale.
 
-### Piega lungo una linea {#piega_lungo_una_linea}
+### Piega lungo una linea 
 
 Piega una piastra di base \"piatta\" lungo una linea (icona formata da un rettangolo barrato da una linea): selezionare la faccia, poi la linea e lo strumento, scegliere l\'angolo, il raggio, il lato; notare che la posizione della piega rispetto alla linea è non molto ben definita; sembra che la linea sia il bordo di intersezione all\'estensione delle 2 facce.
 
@@ -76,25 +76,25 @@ Piega una piastra di base \"piatta\" lungo una linea (icona formata da un rettan
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:800px">
 
-### Sheet Metal Tutorial by meme2704 {#sheet_metal_tutorial_by_meme2704}
+### Sheet Metal Tutorial by meme2704 
 
 Il seguente tutorial è riprodotto dal tutorial in PDF menzionato nei [Link](SheetMetal_Workbench/it#Link.md).
 
 
 <div class="mw-collapsible-content">
 
-#### Presentazione dell\'ambiente di lavoro {#presentazione_dellambiente_di_lavoro}
+#### Presentazione dell\'ambiente di lavoro 
 
 Dopo aver scaricato e installato l\'estensione, aprirla. ![](images/sm1.png )
 
-#### Prima operazione {#prima_operazione}
+#### Prima operazione 
 
 -   Creare la base: usare gli ambienti \"Part\" o \"Draft\", creare uno schizzo che contenga tutti i fori e qualsiasi taglio, estrudere questa base allo spessore corrispondente allo spessore del foglio di lamiera.
 -   Tenere presente che i bordi saranno sempre delle aggiunte, così come i raggi di piegatura.
 
 ![](images/sm2.png )
 
-#### Seconda operazione {#seconda_operazione}
+#### Seconda operazione 
 
 -   Aprire l\'ambiente Sheet Metal.
 -   Selezionare uno spessore del bordo (un bordo) della piastra di base e fare clic sullo strumento \"Piegatura\" (Bend). L\'angolo di piegatura predefinito è di 90°, ma può essere modificato da 0° a 90°.
@@ -126,7 +126,7 @@ Scegliere una faccia di riferimento (qui la faccia arancione) e fare clic sul pu
 Si ottiene la parte blu in cui è sufficiente modificare i valori X, Y o Z per vederla completamente.
 ![](images/sm6.png )
 
-#### Tagliare i lembi a 45° {#tagliare_i_lembi_a_45}
+#### Tagliare i lembi a 45° 
 
 Dopo aver piegato i lembi senza averne ritratto nessuno, la forma appare così. ![](images/sm7a.png ) Per poter fare ciò, si deve dividere i lembi a 45° (o seguendo le bisettrici per larghezze non uguali).
 \* Creare un nuovo schizzo correlato alla parte comune dei due lembi.
@@ -136,23 +136,23 @@ Dopo aver piegato i lembi senza averne ritratto nessuno, la forma appare così. 
 
 Fare attenzione a non graffiare la \"cerniera\" dove la nudità lega la punta del triangolo al bordo della linea di piegatura. ![](images/sm8a.png ) Dispiegatura ![](images/sm9.png )
 
-#### Perforazione di bordi e lembi {#perforazione_di_bordi_e_lembi}
+#### Perforazione di bordi e lembi 
 
 Realizzare questi fori e tagli dopo la piegatura e prima della dispiegatura.
 Fare sempre attenzione a non \"graffiare\" le linee di piegatura.
 ![](images/sm10.png )
 
-#### Creare dei lembi tangenti {#creare_dei_lembi_tangenti}
+#### Creare dei lembi tangenti 
 
 Fare una piega sul bordo del lato, a 45° di 0,1 mm di lunghezza, poi un\'altra piega reversa a 45° della lunghezza del lembo contiguo, quindi estendere il lato opposto, un limbo passa sopra all\'altro e non vengono uniti.
 ![](images/sm11.png )
 
-#### Caso speciale di questo stesso bordo forato {#caso_speciale_di_questo_stesso_bordo_forato}
+#### Caso speciale di questo stesso bordo forato 
 
 In questo caso particolare, il dispiegamento funziona solo scegliendo la faccia gialla come riferimento.
 ![](images/sm12.png )
 
-#### Caso speciale di foro a cavallo delle pieghe {#caso_speciale_di_foro_a_cavallo_delle_pieghe}
+#### Caso speciale di foro a cavallo delle pieghe 
 
 In precedenza si è detto più volte che non bisogna tagliare le linee di piegatura.
 Come fare ?
@@ -191,7 +191,7 @@ Come fare ?
 -   Blog ufficiale: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Codice sorgente su github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
-## Ambienti esterni {#ambienti_esterni}
+## Ambienti esterni 
 
 Gli ambienti di FreeCAD sono facili da programmare in [Python](Python/it.md), quindi ci sono molte persone che sviluppano ambienti aggiuntivi al di fuori degli sviluppatori principali di FreeCAD.
 

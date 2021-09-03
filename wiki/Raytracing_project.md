@@ -18,7 +18,7 @@ New development is happening in the [https://github.com/FreeCAD/FreeCAD-render R
 
 This is the FreeCAD Raytracing development project. It follows the rules of the [Getting things done](https://en.wikipedia.org/wiki/Getting_Things_Done) process. The projects are collected in the [Development roadmap](Development_roadmap.md).
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 This project is to update the current render module [Raytracing](Raytracing_Workbench.md) that currently uses povray, a biased renderer which gives satisfactory results and allow more modern renderers such as Lux Render, Yafaray, Indigo renderers to be used.
 
@@ -48,7 +48,7 @@ The generic inteface is currently being created and to test the integration [Lux
 
 Featured is a part that was creating using PartDesign/Sketcher then rendered using the new render workbench being developed in Lux Render. Lux Render allows nice effects such as DOF to be created to improve realism.
 
-## Next actions {#next_actions}
+## Next actions 
 
 -   Create the Abstraction to provide the interface between renderers **(Done)**
 -   Implement an interface for describing generic materials and collecting these **(Done)**

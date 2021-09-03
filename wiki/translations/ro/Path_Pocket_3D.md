@@ -54,7 +54,7 @@ Acest instrument crează o operație tip un buzunar 3D. Un buzunare 3 D ia în c
 
 ## Properties
 
-### Data Tab {#data_tab}
+### Data Tab 
 
 #### Base
 
@@ -173,7 +173,7 @@ Note: Rotation is not available for 3D Pocket as of 0.19.
 
 -    **Enable Rotation**: Enable rotation to gain access to pockets or areas not normal to Z axis.
 
-#### Start Point {#start_point}
+#### Start Point 
 
 -    **Start Point**: The custom start point for the path of this operation.
 

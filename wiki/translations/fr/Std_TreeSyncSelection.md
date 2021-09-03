@@ -15,13 +15,13 @@ La commande **Std Synchroniser la sélection** bascule le mode SyncSelection de 
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option {{MenuCommand|Sync selection}} dans le menu déroulant. Remarque: l\'image du bouton changera en fonction de l\'option sélectionnée.
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Configuration de l'arborescence → <img src="images/Std_TreeSyncSelection.svg" width=16px> Synchroniser la sélection}} dans le menu.
+    -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **Sync selection** dans le menu déroulant. Remarque: l\'image du bouton changera en fonction de l\'option sélectionnée.
+    -   Sélectionnez l\'option **Affichage → Configuration de l'arborescence → <img src="images/Std_TreeSyncSelection.svg" width=16px> Synchroniser la sélection** dans le menu.
     -   Utilisez le raccourci clavier: **T** puis **2**.
 
 ## Préférences
 
-Le mode Expansion synchrone de l\'arborescence peut également être défini dans le [Réglage des préférences](Preferences_Editor/fr#Sélection.md): {{MenuCommand|Edition → Préférences → Général → Sélection}}.
+Le mode Expansion synchrone de l\'arborescence peut également être défini dans le [Réglage des préférences](Preferences_Editor/fr#Sélection.md): **Edition → Préférences → Général → Sélection**.
 
 
 

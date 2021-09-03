@@ -34,12 +34,12 @@ Der Arbeitsbereich \"FEM\" hat ebenfalls viele Verbesserungen erhalten. Er hat s
 -   Neue Speicherungs-Optionen(Rückgängig, Speichern einer Kopie)
 -   Neugestaltung der Homepage
 
-## Arbeitsbereich \"Part\" (Formteil) {#arbeitsbereich_part_formteil}
+## Arbeitsbereich \"Part\" (Formteil) 
 
 -   Neue Werkzeuge um Objekte mit einer Wandstärke (z.B. Rohre) zu verbinden: [Connect](Part_JoinConnect.md), [Embed](Part_JoinEmbed.md) und [Cutout](Part_JoinCutout.md)
 -   Neues Werkzeug: Erstelle Fläche von Skizze (parametrisch)
 
-## Arbeitsbereiche \"Part Design\" und \"Sketcher\" {#arbeitsbereiche_part_design_und_sketcher}
+## Arbeitsbereiche \"Part Design\" und \"Sketcher\" 
 
 -   Neues Werkzeug: Umschalt-Modus für [Reference/Driving constraints](Sketcher_ToggleDrivingConstraint/de.md)
 -   Neues Merkmal: Continous creation mode
@@ -49,11 +49,11 @@ Der Arbeitsbereich \"FEM\" hat ebenfalls viele Verbesserungen erhalten. Er hat s
 -   Neue Merkmale: Werkzeuge für Duplizieren, Spiegeln und Orthogonales Array
 -   Unterstützung für [expressions/formulas](Expressions.md) in Beschränkungen und Eigenschaften
 
-## Spreadsheet Workbench {#spreadsheet_workbench}
+## Spreadsheet Workbench 
 
 -   Neue Funktionen: round (runden), trunc (kürzen), ceil (Decke) und floor (Boden)
 
-## Draft Workbench {#draft_workbench}
+## Draft Workbench 
 
 -   **Neuer DXF importer**: Der Arbeitsbereich \"Draft\" hat nun einen brandneuen DXF-Importer, komplett in C++ programmiert, übernommen von [HeeksCad](https://github.com/Heeks/heekscad), welcher nun nicht mehr externe Komponenten herunterzuladen braucht, und ist nun viel schneller und kann auch viel größere DXF-Dateien laden. Eine Option in den DXF-Einstellungen erlaubt nun, falls nötig, die Umschaltung zum alten Import.
 -   Ein neues **[Mirror tool](Draft_Mirror.md)** erlaubt ein Spiegeln von Objekten \"auf Draft Art\".
@@ -62,13 +62,13 @@ Der Arbeitsbereich \"FEM\" hat ebenfalls viele Verbesserungen erhalten. Er hat s
 
 <img alt="" src=images/Draft_subdivisions.jpg  style="width:1024px;">
 
-## Arbeitsbereich \"Drawing\" {#arbeitsbereich_drawing}
+## Arbeitsbereich \"Drawing\" 
 
 -   Ein neues Werkzeug namens **[spreadsheet view](Drawing_SpreadsheetView/de.md)** erlaubt es nun, einen Bereich von Zellen eines [Tabellenblatts](Spreadsheet_Workbench/de.md) auf ein Zeichnungsblatt zu platzieren.
 
 <img alt="" src=images/Drawing_spreadsheetview.jpg  style="width:1024px;">
 
-## Arbeitsbereich \"Arch\" {#arbeitsbereich_arch}
+## Arbeitsbereich \"Arch\" 
 
 -   **[Materials support](Arch_SetMaterial.md)**: Arch Objekte können nun mit [material](material.md) versehen werden, welches das FreeCAD-interne Materialschema benutzt. Diese Materialien werden auch in anderen Arbeitsbereichen benutzt. Diese Materialien unterstützen komplett den IFC Im- und Export.
 -   Das Werkzeug **[Section plane](Arch_SectionPlane.md)** kann nun Schnitte in 3D durchführen und den Bereich in Echtzeit anzeigen.
@@ -80,7 +80,7 @@ Der Arbeitsbereich \"FEM\" hat ebenfalls viele Verbesserungen erhalten. Er hat s
 -   Ein neues Werkzeug [Arch Schedule/de](Arch_Schedule/de.md) erlaubt es verschiedene Arten von Stücklisten von einem BIM-Modell zu erstellen.
 -   **IFC attributes** können nun importiert, editiert und exportiert werden. Dies ist im Wesentlichen ein Spreadsheet-Objekt angehängt an ein Arch-Objekt.
 
-## Arbeitsbereich FEM {#arbeitsbereich_fem}
+## Arbeitsbereich FEM 
 
 -   **GUI** FEM Befehle haben nun Tastaturkürzel. Ein Einstellungen-Dialog für FEM wurde eingeführt. Der Pfad zur Calculix-Exe ist eine der Benutzer-Einstellungen
 -   **GUI analysis container** Unterpunkte der Analyse unterstützen nun Drag & Drop. Sie können in einen Container und aus einem Container heraus bewegt werden. Da es nun Unterstützung von mehreren Analysen gibt, können die Unterpunkte zu einer anderen Analyse verschoben werden. Mehrere Beschränkungen können nun in einer einzigen Studie erstellt werden.
@@ -100,7 +100,7 @@ Der Arbeitsbereich \"FEM\" hat ebenfalls viele Verbesserungen erhalten. Er hat s
 -   **GMSH Macro** Eine interessante externe Entwicklung ist das [Macro\_GMSH](Macro_GMSH.md), welches es ermöglicht, GMSH zur Vernetzung zu benutzen. Sehr nützlich für alle, denen es nicht möglich ist, FreeCAD mit Netgen zu kompilieren, um Schalen oder Kanten vernetzen zu können.
 -   **General Improvements** Aufgrund der starken Entwicklungsaktivitäten konnten sehr viele Verbesserungen am Basis-Code des FEM-Modules eingebracht werden.
 
-## Arbeitsbereich \"Path\" {#arbeitsbereich_path}
+## Arbeitsbereich \"Path\" 
 
 ![](images/Exercise_path_02.jpg )
 
@@ -108,7 +108,7 @@ Ein neuer [Path Workbench/Path-Arbeitsbereich](Path_Workbench/Path-Arbeitsbereic
 
 In seinem momentanen Zustand erlaubt es der Arbeitsbereich, Profile und Taschen mit Objekten aus dem [Part](Part_Workbench/de.md)-Arbeitsbereich zu erstellen, komplexe Pfade zu erstellen durch Aneinanderfügen mehrerer Teilpfade, den Inhalt der G-Code Programme der Pfade zu betrachten und editieren, eine Werkzeugliste zu verwalten und beim Im- und Export von G-Code zwischen verschiedenen pre-processing- und post-processing-Skripten zu wählen. Es stellt bereits eine komplette [python API](Path_scripting/de.md) zur Verfügung.
 
-## Zusätzliche Module {#zusätzliche_module}
+## Zusätzliche Module 
 
 Eine Reihe neuer [addons workbenches](https://github.com/FreeCAD/FreeCAD-addons) wurde von Community-Mitgliedern zur Verfügung gestellt. Diese Arbeitsbereiche sind sehr leicht in eine bestehende FreeCAD-Installation einzubinden. Unter den neuen Arbeitsbereichen sind z.B.:
 

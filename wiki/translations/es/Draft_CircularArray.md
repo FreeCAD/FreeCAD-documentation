@@ -33,25 +33,25 @@ Ver también: [Borrador Atrapar](Draft_Snap/es.md)
 1.  Opcionalmente selecciona un objeto.
 2.  Hay varias formas de invocar el comando:
     -   Pulsar el **<img src="images/Draft_CircularArray.svg" width=16px> [Borrador ArregloCircular](Draft_CircularArray/es.md)**.
-    -   Selecciona la opción {{MenuCommand|Modificación → Herramientas de arreglo →<img src="images/Draft_CircularArray.svg" width=16px> Arreglo circular}} opción del menú.
-3.  Se abre el panel de tareas {{MenuCommand|Arreglo circular}}. Ver [Opciones](#Opciones.md) para más información.
+    -   Selecciona la opción **Modificación → Herramientas de arreglo →<img src="images/Draft_CircularArray.svg" width=16px> Arreglo circular** opción del menú.
+3.  Se abre el panel de tareas **Arreglo circular**. Ver [Opciones](#Opciones.md) para más información.
 4.  Si aún no ha seleccionado ningún objeto: seleccione un objeto.
 5.  Introduzca los parámetros necesarios en el panel de tareas.
 6.  Para terminar el comando haga una de las siguientes cosas:
-    -   Elija un punto en la [Vista 3D](3D_view/es.md) para el {{MenuCommand|Centro de rotación}}.
+    -   Elija un punto en la [Vista 3D](3D_view/es.md) para el **Centro de rotación**.
     -   Pulsa **Enter**.
     -   Pulsar el botón **Aceptar**.
 
 ## Opciones
 
--   Enter the {{MenuCommand|Radial distance}} to specify the distance between the circular layers, and between the center and the first circular layer.
--   Enter the {{MenuCommand|Tangential distance}} to specify the distance between the elements on the same circular layer. Must be larger than zero.
--   Enter the {{MenuCommand|Number of circular layers}}. The element at the center counts as one layer. Must be at least {{Value|2}}. The maximum that can be entered in the task panel is {{Value|99}}, but higher values are possible by changing the **Number Circles** property of the array.
--   Enter the {{MenuCommand|Symmetry}} value. This number determines how the elements are distributed. A value of {{Value|3}}, for example, results in a pattern with three equal 120° pie segments. Larger values for the {{MenuCommand|Symmetry}} and the {{MenuCommand|Tangential distance}} result in fewer or even no elements on the inner layers.
--   Pick a point in the [3D view](3D_view.md), note that this will also finish the command, or type coordinates for the {{MenuCommand|Center of rotation}}. The rotation axis of the array will pass through this point. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press the {{MenuCommand|Reset point}} button to reset the {{MenuCommand|Center of rotation}} to the origin.
--   If the {{MenuCommand|Fuse}} checkbox is checked overlapping elements in the array are fused. This does not work for Link arrays.
--   If the {{MenuCommand|Link array}} checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
+-   Enter the **Radial distance** to specify the distance between the circular layers, and between the center and the first circular layer.
+-   Enter the **Tangential distance** to specify the distance between the elements on the same circular layer. Must be larger than zero.
+-   Enter the **Number of circular layers**. The element at the center counts as one layer. Must be at least {{Value|2}}. The maximum that can be entered in the task panel is {{Value|99}}, but higher values are possible by changing the **Number Circles** property of the array.
+-   Enter the **Symmetry** value. This number determines how the elements are distributed. A value of {{Value|3}}, for example, results in a pattern with three equal 120° pie segments. Larger values for the **Symmetry** and the **Tangential distance** result in fewer or even no elements on the inner layers.
+-   Pick a point in the [3D view](3D_view.md), note that this will also finish the command, or type coordinates for the **Center of rotation**. The rotation axis of the array will pass through this point. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
+-   Press the **Reset point** button to reset the **Center of rotation** to the origin.
+-   If the **Fuse** checkbox is checked overlapping elements in the array are fused. This does not work for Link arrays.
+-   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
 -   Press **Esc** or the **Cancel** button to abort the command.
 
 ## Notas
@@ -64,7 +64,7 @@ Ver también: [Borrador Atrapar](Draft_Snap/es.md)
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and distances: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
+-   To change the number of decimals used for the input of coordinates and distances: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Propiedades
 

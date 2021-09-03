@@ -23,7 +23,7 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 2.  Ajoutez l\'objet courbe à la sélection. Il est également possible de sélectionner des arêtes à la place. Les arêtes doivent appartenir au même objet. Elles doivent être connectées et doivent être sélectionnées dans le bon ordre.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Draft_PathArray.svg" width=16px> [Réseau selon une courbe](Draft_PathArray/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → Array tools → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe}} dans le menu.
+    -   Sélectionnez l\'option **Modification → Array tools → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** dans le menu.
 4.  Le réseau est créé.
 5.  Vous pouvez éventuellement modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
@@ -33,7 +33,7 @@ L\'alignement des éléments d\'un Draft Réseau selon une courbe dépend des pr
 
 <img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> *3 réseaux basés sur la même courbe non planaire. De gauche à droite : Align est false, Align à true pour Align Mode Original et Align à true pour Align Mode Frenet.*.
 
-### Mode d\'alignement {#mode_dalignement}
+### Mode d\'alignement 
 
 Trois modes sont disponibles :
 
@@ -49,7 +49,7 @@ Ce mode utilise le vecteur normal local dérivé de la trajectoire à chaque pla
 
 Ce mode est similaire à {{PropertyData/fr|Align Mode}}. {{Value|Original}} mais offre la possibilité de pré-rotation de l\'objet source en spécifiant un {{PropertyData/fr|Tangent Vector}}.
 
-### Force Vertical et Vertical Vector {#force_vertical_et_vertical_vector}
+### Force Vertical et Vertical Vector 
 
 Ces propriétés ne sont disponibles que si {{PropertyData/fr|Align Mode}} est {{Value|Original}} ou {{Value|Tangent}}. Si {{PropertyData/fr|Force Vertical}} est défini sur `True`, le système de coordonnées local est calculé d\'une manière différente. **Vertical Vector** est utilisé comme vecteur normal fixe. Un produit vectoriel est à nouveau calculé à partir de ce vecteur normal et du vecteur tangent local (l\'axe X local). Mais ce vecteur est maintenant utilisé comme l\'axe Y local. L\'orientation de l\'axe Z local est déterminée à partir des axes X et Y locaux.
 

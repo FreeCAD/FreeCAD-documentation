@@ -49,7 +49,7 @@ Le workflow général est
 
 Le fichier de données contenant à la fois des définitions Nexi et Flow est basé sur du texte. Il peut être utilisé dans n\'importe quel éditeur de texte ou par tout autre programme souhaitant accéder aux données.
 
-### Modes de navigation {#modes_de_navigation}
+### Modes de navigation 
 
 Comme une grande partie du travail avec ces macros dépend de la manipulation de l\'affichage du modèle pour placer et vérifier le placement du point dans 3 espaces, il est essentiel d\'être à l\'aise avec les modes de navigation de FreeCAD qui sont documentés sur la page [Navigation par la souris](Mouse_navigation/fr.md). Il est essentiel de pouvoir faire pivoter le modèle dans la 3-D puis d\'effectuer des opérations sur un modèle stationnaire.
 
@@ -75,7 +75,7 @@ Il existe d\'autres façons d\'effectuer certaines des tâches décrites ci-dess
 
 et attend l\'installation d\'eau froide et d\'électricité. Pour des raisons d\'explication, tous les éléments électriques sont en jaune et l\'eau en bleu (à l\'exception des 2 lavabos).
 
-### Définir les Nexi {#définir_les_nexi}
+### Définir les Nexi 
 
 La première étape consiste à créer des points dans l\'espace 3-D (appelés «nexus» ou «nexi» au pluriel). Ces points seront utilisés dans l\'étape suivante pour définir un réseau ou Flow. Nous créons ces points en cliquant sur (c\'est-à-dire en sélectionnant ) une surface et en donnant ensuite un nom au nexi. Cette description consiste à définir le nexi pour le débit d\'eau.
 
@@ -101,7 +101,7 @@ La première étape consiste à créer des points dans l\'espace 3-D (appelés �
 
 Remarque: à tout moment vous pouvez fusionner un projet existant afin d\'avoir un contexte visuel
 
-### Définir le Flow {#définir_le_flow}
+### Définir le Flow 
 
 Une fois que les nexi ont été définis, ils peuvent être utilisés pour définir un Flow (réseau). Notre maison ressemble maintenant à ceci:
 
@@ -130,7 +130,7 @@ Cela vous demande si vous sélectionnez le nexi dans l\'ordre dans lequel vous s
 
 ![](images/Macro_Wiring_And_HosesFlowsOnly.jpg )
 
-### Modification de Nexi et des Flows {#modification_de_nexi_et_des_flows}
+### Modification de Nexi et des Flows 
 
 Il existe 3 façons différentes de modifier nexi. Comme les réseaux sont définis en termes de nexi, la modification de nexi affectera tout flux qui les inclut. Pour les attributs de flux descriptifs comme la couleur et le nom, il existe un moyen d\'effectuer des modifications.
 
@@ -142,7 +142,7 @@ Jusqu\'à présent, dans cet exemple, nous avons généré le tableau suivant:
 
 
 
-## Interface utilisateur {#interface_utilisateur}
+## Interface utilisateur 
 
 L\'interface utilisateur est une combinaison d\'écrans personnalisés et de parties standard de l\'interface graphique FreeCAD.
 
@@ -158,7 +158,7 @@ L\'interface utilisateur est une combinaison d\'écrans personnalisés et de par
 
 À l\'heure actuelle, il n\'y a pas vraiment d\'options pour le câblage et les tuyaux.
 
-## Exemples de fichiers {#exemples_de_fichiers}
+## Exemples de fichiers 
 
 bla bla bla
 
@@ -166,11 +166,11 @@ bla bla bla
 
 blah blah blah
 
-## Problèmes connus {#problèmes_connus}
+## Problèmes connus 
 
 bla bla bla
 
-## Possibilités futures {#possibilités_futures}
+## Possibilités futures 
 
 bla bla bla
 

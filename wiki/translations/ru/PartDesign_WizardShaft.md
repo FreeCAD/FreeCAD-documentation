@@ -60,7 +60,7 @@ To add a new shaft segment, right-click into the empty space to the right of the
 
 -   It is not possible to have adjacent shaft segments with the same diameter.
 
-## Planned functionality {#planned_functionality}
+## Planned functionality 
 
 -   Table-driven chamfers and rounds on the shaft edges
 -   Recognize a previously created shaft wizard part and initialize the table values from it

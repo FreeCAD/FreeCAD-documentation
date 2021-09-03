@@ -16,7 +16,7 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
 
 ## Uso
 
-#### Para crear un patrón {#para_crear_un_patrón}
+#### Para crear un patrón 
 
 1.  (Opcional) Seleccionar la operación (u operaciones {{Version/es|0.19}}) que se han de repetir.
 2.  Presionar el botón **<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **PatrónPolar** .
@@ -27,7 +27,7 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
 6.  Si hay varias operaciones en el patrón, su orden puede ser importante, ver la imagen inferior.
 7.  Aceptar con **OK**.
 
-#### Ordenar operaciones {#ordenar_operaciones}
+#### Ordenar operaciones 
 
 ![](images/PartDesign_feature-order.gif ) *Efecto del orden de operaciones*
 
@@ -36,7 +36,7 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
 
 Se puede cambiar el orden arrastrando la forma deseada en la lista e inmediatamente se puede apreciar el resultado como vista previa.
 
-#### Añadir operaciones {#añadir_operaciones}
+#### Añadir operaciones 
 
 ###### v0.18
 
@@ -54,13 +54,13 @@ Se puede cambiar el orden arrastrando la forma deseada en la lista e inmediatame
     2.  Seleccionar en el árbol la operación que se tiene que añadir.
     3.  Repetir para añadir más operaciones.
 
-#### Eliminar operaciones {#eliminar_operaciones}
+#### Eliminar operaciones 
 
 -   Pinchar con botón derecho del ratón sobre la operación en la lista y seleccionar *Eliminar*.
 
 o
 
-###### v0.18 {#v0.18_1}
+###### v0.18 
 
 1.  Pulsar el botón **Eliminar operación** para eliminar una operación de la lista, la cual debe ser visible en la [vista 3D](3D_view/es.md).
     1.  Ir al árbol de dependencias de la pestaña Modelo.
@@ -69,7 +69,7 @@ o
     4.  Seleccionar la operación en la vista 3D; habrá sido eliminada la lista.
     5.  Repetir para eliminar más operaciones.
 
-###### v0.19 {#v0.19_1}
+###### v0.19 
 
 1.  Presionar **Eliminar operación** para eliminar una operación de la lista.
 2.  Ir al árbol de dependencias de la pestaña Modelo.
@@ -84,37 +84,38 @@ o
 
 Cuando se crea una operación de patrón polar, la ventana de diálogo *PolarPattern parameters* ofrece diferentes maneras de especificar el eje de rotación del patrón.
 
-#### Eje normal del boceto {#eje_normal_del_boceto}
+#### Eje normal del boceto 
 
 Se toma como eje para el patrón polar un eje que es normal al boceto y que comienza en el origen del boceto de la operación.
 La dirección del patrón puede invertirse pinchando la casilla \'Reverse direction\'.
 
-#### Eje horizontal del boceto {#eje_horizontal_del_boceto}
+#### Eje horizontal del boceto 
 
 Usa el eje horizontal del boceto como eje.
 
-#### Eje vertical del boceto {#eje_vertical_del_boceto}
+#### Eje vertical del boceto 
 
 Usa el eje vertical del boceto como eje.
 
-#### Eje del boceto personalizado {#eje_del_boceto_personalizado}
+#### Eje del boceto personalizado 
 
 Si el boceto que define la operación a copiar contiene también una línea o líneas de construcción, la lista desplegable contendrá un eje de boceto personalizado por cada línea de construcción. La primera línea de construcción se llamará \'Línea de construcción 1\'.
 
-#### Eje base (X/Y/Z) {#eje_base_xyz}
+#### Eje base (X/Y/Z) 
 
 
 {{Version/es|0.17 o posteriores}}
 
 Seleccionar uno de los ejes estándar de Origen del Body (cuerpo) (X, Y o Z) como eje.
 
-#### Seleccione referencia\... {#seleccione_referencia...}
+#### Seleccione referencia\... 
 
 Permite al usuario seleccionar una Línea de referencia o una arista de un objeto, o una línea de un boceto para usarla como eje.
 
-### Ángulo y repeticiones {#ángulo_y_repeticiones}
+### Ángulo y repeticiones 
 
-Especifica el ángulo a ser cubierto por el patrón, y el número total de formas repetidas (incluyendo la operación original). Por ejemplo, cuatro repeticiones en un ángulo de 280 grados dará un espaciado de 60 grados entre repeticiones. Excepción: Si el ángulo es de 360 grados, como la primera y la última repetición son idénticas, 4 repeticiones quedarán separadas 90 grados. {{Clear}}
+Especifica el ángulo a ser cubierto por el patrón, y el número total de formas repetidas (incluyendo la operación original). Por ejemplo, cuatro repeticiones en un ángulo de 280 grados dará un espaciado de 60 grados entre repeticiones. Excepción: Si el ángulo es de 360 grados, como la primera y la última repetición son idénticas, 4 repeticiones quedarán separadas 90 grados. 
+
 
 ## Limitaciones
 

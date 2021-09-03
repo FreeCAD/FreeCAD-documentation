@@ -14,7 +14,7 @@ Un prisma di Parte è un solido definito da una sezione trasversale poligonale r
 <div class="mw-translate-fuzzy">
 
 1.  Attivare l\'ambiente **<img src="images/Workbench_Part.svg" width=16px> [Parte](Part_Workbench/it.md)**.
-2.  Premere il pulsante **<img src="images/Part_CreatePrimitives.svg" width=24px> [Crea primitive](Part_CreatePrimitives/it.md)**, o usare {{MenuCommand|Parte → [Crea primitive](Part_CreatePrimitives/it.md) → Prisma}} dal menu principale.
+2.  Premere il pulsante **<img src="images/Part_CreatePrimitives.svg" width=24px> [Crea primitive](Part_CreatePrimitives/it.md)**, o usare **Parte → [Crea primitive](Part_CreatePrimitives/it.md) → Prisma** dal menu principale.
 
 
 </div>

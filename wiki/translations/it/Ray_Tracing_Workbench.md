@@ -26,7 +26,7 @@ L\'ambiente Raytracing è essenzialmente obsoleto. Nuovi sviluppi stanno avvenen
 
 <div class="mw-translate-fuzzy">
 
-## Flusso di lavoro tipico {#flusso_di_lavoro_tipico}
+## Flusso di lavoro tipico 
 
 1.  Creare o aprire un progetto di FreeCAD, aggiungere alcuni oggetti solidi sul modulo [Part](Part_Workbench/it.md) o [PartDesign-based](PartDesign_Workbench/it.md); i mesh non sono ancora supportati
 2.  Creare un progetto Raytracing (luxrender o povray)
@@ -43,7 +43,7 @@ L\'ambiente Raytracing è essenzialmente obsoleto. Nuovi sviluppi stanno avvenen
 
 ## Strumenti
 
-### Strumenti di progetto {#strumenti_di_progetto}
+### Strumenti di progetto 
 
 Questi sono gli strumenti principali per esportare il proprio lavoro 3D su renderer esterni.
 
@@ -71,7 +71,7 @@ Questi sono degli strumenti di supporto per eseguire manualmente azioni specific
 -   [Basic Raytracing tutorial](Raytracing_tutorial/fr.md)
 -   [Intermediate Raytracing tutorial](Tutorial_FreeCAD_POV_ray/fr.md)
 
-### Creare manualmente un file povray {#creare_manualmente_un_file_povray}
+### Creare manualmente un file povray 
 
 Gli strumenti di utilità descritti prima consentono di esportare la corrente vista 3D e tutto il suo contenuto in un file [Povray](http://www.povray.org/). In primo luogo, è necessario caricare un documento o crearne uno e poi orientare la vista 3D come si desidera. Dopo, scegliere **Utilità → Esporta la vista \...** nel menu di Raytracing.
 
@@ -87,7 +87,7 @@ Vedere [Esempio di API Raytracing](Raytracing_API_example/it.md) per informazion
 
 ### Link
 
-### POV-Ray {#pov_ray}
+### POV-Ray 
 
 -   [Pagina POV-Ray in questa wiki](POV-Ray.md)
 -   <http://www.spiritone.com/~english/cyclopedia/>
@@ -99,14 +99,14 @@ Vedere [Esempio di API Raytracing](Raytracing_API_example/it.md) per informazion
 -   [Pagina LuxRender in questa wiki](LuxRender.md)
 -   <http://www.luxrender.net/>
 
-### Render per future implementazioni {#render_per_future_implementazioni}
+### Render per future implementazioni 
 
 -   <http://www.yafaray.org/>
 -   <http://www.mitsuba-renderer.org/>
 -   <http://www.kerkythea.net/>
 -   <http://www.artofillusion.org/>
 
-## Esportare in Kerkythea {#esportare_in_kerkythea}
+## Esportare in Kerkythea 
 
 Sebbene l\'esportazione diretta nel formato XML di Kerkythea non sia ancora supportata, è possibile esportare gli oggetti come file Mesh (.obj) e poi importarli in Kerkythea.
 

@@ -36,7 +36,7 @@ FreeCAD-Schiff Vorzeichenkriterien
 
 </center>
 
-### Laden der Serie 60 Geometrie {#laden_der_serie_60_geometrie}
+### Laden der Serie 60 Geometrie 
 
 Um neue Anwender zu unterstützen, enthält der Arbeitsbereich Schiff einen Geometrie Beispiel Lader mit den folgenden Auswahlmöglichkeiten:
 
@@ -62,7 +62,7 @@ Beim Ausführen des Werkzeugs (Schiffskonstruktion/Laden einer Beispielschiffsge
 Du arbeitest jetzt mit der originalen Beispieldatei.
 Um das unbearbeitete Originalbeispiel zu erhalten, '''musst du es zuerst als neue Datei speichern, bevor du irgendetwas bearbeitest.'''}}
 
-## Schiffsinstanz erstellen {#schiffsinstanz_erstellen}
+## Schiffsinstanz erstellen 
 
 Um eine **Schiffsinstanz** zu erstellen, wähle die Geometrie s60 und führe das *\'Schiffserstellungswerkzeug* (Schiffsentwurf/Erstellen eines neuen Schiffes) aus.
 
@@ -146,7 +146,7 @@ Das Linienzeichen ist ein Satz von Linien aus Schnitten in allen 3 Achsen, die s
 -   Längsriss (unter Verwendung der Längsschnitte)
 -   Wasserlinienriss (unter Verwendung der Wasserlinienkürzungen)
 
-### Transversale Schnitte {#transversale_schnitte}
+### Transversale Schnitte 
 
 Normalerweise müssen 21 transversale äquidistante Schnitte zwischen den Senkrechten durchgeführt werden. Um dies zu tun, stellt FreeCAD ein automatisches Werkzeug zur Verfügung, wähle einfach den **Transversal** Typ der Schnitte, gehe in das **Auto erstellen** Feld und setze **21** Schnitte, dann drücke **Schnitte erstellen**.
 
@@ -189,7 +189,7 @@ Weitere zusätzliche Wasserlinien müssen hinzugefügt werden:
 -   Z~9~ = 1.8 m
 -   Z~10~ = 2.0 m
 
-### Plot ausführen {#plot_ausführen}
+### Plot ausführen 
 
 Wähle den Maßstab **1:100** und drücke **Annehmen**, damit das Werkzeug die 3D Schnitte in einem neuen Objekt erzeugt.
 
@@ -215,7 +215,7 @@ Umrisszeichnungsplot.
 
 </center>
 
-## Transversale Flächen Kurve {#transversale_flächen_kurve}
+## Transversale Flächen Kurve 
 
 Ein typischer hydrodynamischer Parameter des Schiffsentwurfs ist die Kurve der transversalen Flächen, die einige Indikatoren über das Verhalten des Schiffsrumpfes (Schleppwiderstand, Seeverhalten, \...) liefert. Der Schiffs Arbeitsbereich stellt ein einfaches Werkzeug zur Verfügung, um die transversale Flächenkurve auszuführen.
 
@@ -300,7 +300,7 @@ Hydrostatik Kurven.
 
 </center>
 
-## Weiter lernen {#weiter_lernen}
+## Weiter lernen 
 
 Das [FreeCAD Schiff s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md) ist das zweite Kapitel der Series 60 von der Iowa Universität Schiff.
 

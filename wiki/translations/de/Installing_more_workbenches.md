@@ -6,7 +6,7 @@ Seit v0.17 ist es einfach, [externe Arbeitsbereiche](external_workbenches/de.md)
 
 Lies weiter, um weitere Informationen zur Installation von Arbeitsbereichen zu erhalten.
 
-## Allgemeine Beschreibung {#allgemeine_beschreibung}
+## Allgemeine Beschreibung 
 
 Arbeitsbereiche sind nichts anderes als Sammlungen von Dateien, die in einem Ordner abgelegt sind. Dieser Ordner ist in der Regel in einem Zip Archiv komprimiert. Bei der Installation wird dieser Ordner einfach dekomprimiert und nach 
 ```python
@@ -15,7 +15,7 @@ $ROOT_DIR/Mod/
 
 Die `Mod/` Verzeichnisse werden bei jedem Start von FreeCAD eingelesen und die verfügbaren Arbeitsbereiche werden automatisch hinzugefügt.
 
-## Systemweites Installieren {#systemweites_installieren}
+## Systemweites Installieren 
 
 Auf diese Weise installierte Arbeitsbereiche sind für alle Benutzer verfügbar. Abhängig von deinem System benötigst du möglicherweise Administratorrechte, um auf das Installationsverzeichnis zuzugreifen.
 
@@ -25,7 +25,7 @@ Kopiere den Arbeitsbereichsordner in `$INSTALL_DIR/Mod/`, wobei `$INSTALL_DIR` d
 -   Unter Windows ist es normalerweise `C:\Programmdateien\FreeCAD\Mod\`
 -   Unter macOS ist es normalerweise `/Anwendungen/FreeCAD/Mod/`
 
-## Installation für einen einzelnen Anwender {#installation_für_einen_einzelnen_anwender}
+## Installation für einen einzelnen Anwender 
 
 Auf diese Weise installierte Arbeitsbereiche stehen nur einem Benutzer zur Verfügung, erfordern aber keine Administratorrechte.
 
@@ -35,7 +35,7 @@ Kopiere den Arbeitsbereichsordner nach `$USER_DIR/Mod/`, wobei `$USER_DIR` das F
 -   Unter Windows ist es `%APPDATA%\FreeCAD\Mod\`, das ist normalerweise `C:\Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
 -   Unter macOS ist es normalerweise `/Users/username/Library/Preferences/FreeCAD/Mod/`. Eine Möglichkeit, in das Einstellungsverzeichnis zu gelangen, besteht darin, den \"Finder\" Menüeintrag {{MenuCommand/de|Gehe → Gehe zu Ordner}} zu benutzen und `~/Library/Preferences/FreeCAD` einzugeben.
 
-## Zusätzliche Informationen {#zusätzliche_informationen}
+## Zusätzliche Informationen 
 
 Weitere Informationen zur Erstellung eines benutzerdefinierten Arbeitsbereichs findest du im [Verteiler für Erfahrene Anwender](Power_users_hub/de.md) und im [Verteiler für Entwickler](Developer_hub/de.md).
 

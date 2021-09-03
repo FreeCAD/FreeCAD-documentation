@@ -15,7 +15,7 @@ Allows the user to create a Geneva wheel mechanism from scratch. Must edit value
 
 ![](images/Geneva.png )
 
-## How To Use {#how_to_use}
+## How To Use 
 
 This Macro creates the main parts of a Geneva Wheel Mechanism. It depends on six values that must be altered in the code, read the comments in the code. The variables are:
 

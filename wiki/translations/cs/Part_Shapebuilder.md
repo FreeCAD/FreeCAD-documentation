@@ -12,21 +12,21 @@ A tool to create more complex shapes from various parametric geometric primitive
 
 This tool can create the following objects:
 
-### Edge from two vertices {#edge_from_two_vertices}
+### Edge from two vertices 
 
 1.  Select two vertices
 2.  Click on **Create**
 
 ![](images/Edge_from_verts-1.gif )
 
-### Wire from edges {#wire_from_edges}
+### Wire from edges 
 
 1.  Select a set of adjacent edges in the [3D view](3D_view.md)
 2.  Click on **Create**
 
 ![](images/Wire_from_edges-1.gif )
 
-### Face from vertices {#face_from_vertices}
+### Face from vertices 
 
 1.  Select vertices bounding the face in the [3D view](3D_view.md)
 2.  Select if face should be planar
@@ -35,7 +35,7 @@ This tool can create the following objects:
 
 ![](images/Face_from_verts.gif )
 
-### Face from edges {#face_from_edges}
+### Face from edges 
 
 1.  Select a closed set of edges bounding the face in the [3D view](3D_view.md)
 2.  Select if face should be planar
@@ -44,7 +44,7 @@ This tool can create the following objects:
 
 ![](images/Face_from_edges.gif )
 
-### Shell from faces {#shell_from_faces}
+### Shell from faces 
 
 1.  Select faces in the [3D view](3D_view.md)
 2.  Select if the shape should be refined
@@ -52,7 +52,7 @@ This tool can create the following objects:
 4.  Click on **Create**
 5.  Object will be created in [3D view](3D_view.md) and will be listed in [tree view](Tree_view.md)
 
-### Solid from shell {#solid_from_shell}
+### Solid from shell 
 
 1.  Select if the shape should be refined
 2.  Click on **Create**

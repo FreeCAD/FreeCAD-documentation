@@ -34,19 +34,19 @@ When creating a pocket, the **Pocket parameters** dialogue offers five different
 
 Enter a numeric value for the depth of the pocket. The default direction for extrusion is into the support. Extrusions occur [normal](http://en.wikipedia.org/wiki/Surface_normal) to the defining sketch plane. Negative dimensions are not possible. Use the **Reversed** option instead.
 
-### To first {#to_first}
+### To first 
 
 The pocket will extrude up to the first face of the support in the extrusion direction. In other words, it will cut through all material until it reaches an empty space.
 
-### Through all {#through_all}
+### Through all 
 
 The pocket will cut through all material in the extrusion direction. With the option **Symmetric to plane** the pad will cut through all material in both directions.**Note:** For technical reasons, *Through All* is actually a 10 meter deep pocket. If you need deeper pockets, use *Dimension*.
 
-### Up to face {#up_to_face}
+### Up to face 
 
 The pocket will extrude up to a face in the support that can be chosen by clicking on it.
 
-### Two dimensions {#two_dimensions}
+### Two dimensions 
 
 This allows to enter a second length in which the pocket should extend in the opposite direction (into the support). Again can be changed by ticking the **Reversed** option. <small>(v0.17)</small> 
 
@@ -55,7 +55,7 @@ This allows to enter a second length in which the pocket should extend in the op
 -   Use the type **Dimension** or **Through All** wherever possible because the other types sometimes give trouble when they are being patterned
 -   Otherwise, the pocket feature has the same [limitations](PartDesign_Pad#Limitations.md) as the pad feature.
 
-## Useful links {#useful_links}
+## Useful links 
 
 An [example](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=10) with the practice on the forum.
 

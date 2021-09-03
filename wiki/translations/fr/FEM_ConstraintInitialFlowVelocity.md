@@ -15,7 +15,7 @@ Applique une condition aux limites de vitesse d\'écoulement à une face en 3D o
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> [Créer une contrainte FEM une vitesse initiale d'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Model → Fluid Constraints → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Contrainte vitesse initiale d'écoulement}} dans le menu.
+    -   Sélectionnez l\'option **Model → Fluid Constraints → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Contrainte vitesse initiale d'écoulement** dans le menu.
 2.  Entrez une valeur de vitesse d\'écoulement initiale pour l\'analyse.
 3.  La valeur est entrée comme une combinaison des 3 principales composantes des vecteurs cartésiens (X, Y, Z).
 

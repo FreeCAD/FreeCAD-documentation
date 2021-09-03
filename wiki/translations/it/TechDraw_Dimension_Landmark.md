@@ -47,7 +47,7 @@ La quota da punti di riferimento generalmente si comporta come qualsiasi altra q
 
 1.  Selezionare 2 oggetti Punto nella [vista ad albero](tree_view/it.md) o nella [Vista 3D](3D_view/it.md).
 2.  Selezionare anche la vista a cui aggiungere la dimensione.
-3.  Premere il pulsante **<img src="images/Techdraw-landmarkdistance.svg" width=20px> [Quota da punti di riferimento](TechDraw_Dimension_Landmark/it.md)** o usare {{MenuCommand|TechDraw → Dimensioni → Quota da punti di riferimento}}.
+3.  Premere il pulsante **<img src="images/Techdraw-landmarkdistance.svg" width=20px> [Quota da punti di riferimento](TechDraw_Dimension_Landmark/it.md)** o usare **TechDraw → Dimensioni → Quota da punti di riferimento**.
 4.  Alla vista viene aggiunta una dimensione. Il testo della quota può essere trascinato nella posizione desiderata.
 
 

@@ -38,7 +38,7 @@ che dovrebbe includere il primo esempio (example001.scad), noto anche come l\'ic
 
 <div class="mw-translate-fuzzy">
 
-### Impostazione iniziale di OpenSCAD all\'interno di FreeCAD {#impostazione_iniziale_di_openscad_allinterno_di_freecad}
+### Impostazione iniziale di OpenSCAD all\'interno di FreeCAD 
 
 -   Affinché FreeCAD possieda questa funzionalità è necessario che OpenSCAD sia installato sul computer.
     -   Installare la versione di OpenSCAD adatta al proprio sistema operativo. Vedere il sito di [OpenSCAD](http://www.openscad.org/) per maggiori informazioni.
@@ -64,11 +64,12 @@ L\'icona di **Aggiungi elemento OpenSCAD**:
 
 FreeCAD needs to be told where to find the OpenSCAD executable
 
--   Switch to the <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) via {{MenuCommand|Menu → View Workbench → OpenSCAD}}
--   Open the preferences dialog {{MenuCommand|Menu  
-    → Edit → Preferences}}
+-   Switch to the <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) via 
+**Menu → View Workbench → OpenSCAD**
+-   Open the preferences dialog **Menu  
+    → Edit → Preferences**
 -   Click on \"OpenSCAD\" on the left plane
--   Click on the button labled **...** in {{MenuCommand|General Settings → General OpenSCAD Settings → OpenSCAD executable}} to browse the directory or enter the path (e.g. Ubuntu based Linux distributions `/usr/bin/openscad`) directly into the line input right to the button
+-   Click on the button labled **...** in **General Settings → General OpenSCAD Settings → OpenSCAD executable** to browse the directory or enter the path (e.g. Ubuntu based Linux distributions `/usr/bin/openscad`) directly into the line input right to the button
 -   Close and restart FreeCAD
 
 :   **Result:** A new OpenSCAD icon will appear on the tool bar, and in the OpenSCAD menu, in the FreeCAD OpenSCAD workbench

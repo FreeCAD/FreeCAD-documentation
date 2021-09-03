@@ -26,13 +26,13 @@ Passando il puntatore del mouse su una funzione del cubo di navigazione, la funz
 
 ![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
 
-## Frecce direzionali {#frecce_direzionali}
+## Frecce direzionali 
 
 Ci sono sei frecce direzionali: quattro punte di freccia triangolari, una in alto, in basso, a sinistra e a destra; e due frecce curve, una su ciascun lato della freccia in alto.
 
 Facendo clic sulle frecce triangolari si ruota la vista 3D di 45 gradi attorno a una linea perpendicolare alla direzione della freccia. Facendo clic sulle frecce curve si ruota la vista 3D attorno a una linea che punta verso l\'osservatore.
 
-## Parte principale del Cubo di navigazione {#parte_principale_del_cubo_di_navigazione}
+## Parte principale del Cubo di navigazione 
 
 La parte principale del cubo di navigazione (\"nav cubo\" nel resto di questa sezione), segue l\'orientamento dell\'oggetto principale della vista 3D. Qualsiasi operazione che riorienta la vista 3D principale riorienta anche il nav cubo.
 
@@ -52,26 +52,26 @@ Non è possibile vedere:
 
 Nota: al momento della scrittura (v 0.18), ci sono alcuni problemi con il cubo di navigazione; non tutte le funzioni sono attualmente selezionabili. In particolare, i bordi non sono selezionabili, e neppure i quattro angoli della faccia frontale.
 
-### Selezione delle facce {#selezione_delle_facce}
+### Selezione delle facce 
 
 Cliccando su una faccia si orienta la vista 3D con quella particolare faccia rivolta frontalmente. Da una vista frontale sono disponibili altri punti di selezione, come indicato sopra. Ci sono quattro \"barre\" sottili su ciascuno dei bordi esterni, che rappresentano le quattro facce adiacenti; facendo clic su di essi si seleziona la vista corrispondente alla faccia adiacente. Ci sono quattro angoli arrotondati che possono essere usati per impostare la corrispondente vista assonometrica. C\'è anche un insieme interno di spigoli e angoli, che al momento non sono funzionali.
 
-### Selezione dei bordi {#selezione_dei_bordi}
+### Selezione dei bordi 
 
 Sfortunatamente, la selezione dei bordi è attualmente interrotta. Il tentativo di selezionare un bordo seleziona la faccia che si trova dietro ad esso. Facendo clic su un bordo si dovrebbe centrare quel bordo in modo che sia rivolto verso l\'osservatore.
 
-### Selezione degli angoli {#selezione_degli_angoli}
+### Selezione degli angoli 
 
 Facendo clic su uno degli angoli si ottiene una vista assonometrica vista da quell\'angolo. Come notato sopra, attualmente quando una faccia è rivolta frontalmente, gli angoli di quella faccia non sono selezionabili.
 
-## Menu del mini-cubo {#menu_del_mini_cubo}
+## Menu del mini-cubo 
 
 Nell\'angolo in basso a destra del cubo di navigazione c\'è un piccolo cubo. Cliccando su questo cubo si apre un menu per cambiare il tipo di vista (ortografica, prospettiva, isometrica) e fare uno \"Zoom per adattare la vista\".
 
 
 <div class="mw-translate-fuzzy">
 
-## Spostare il cubo di navigazione {#spostare_il_cubo_di_navigazione}
+## Spostare il cubo di navigazione 
 
 È possibile spostare l\'intera struttura di controllo del cubo di navigazione in un\'altra posizione nella visualizzazione 3D premendo il mouse in qualsiasi punto del cubo di navigazione principale e trascinando. Al momento della scrittura (v 0.18), la struttura non inizia a muoversi finché il puntatore del mouse non viene spostato oltre il bordo del cubo di navigazione principale.
 
@@ -80,7 +80,7 @@ Nell\'angolo in basso a destra del cubo di navigazione c\'è un piccolo cubo. Cl
 
 ## Configuration
 
-The navigation cube is configurable, including adjusting its size: {{MenuCommand|Edit → Preferences... → Display → Navigation → Navigation cube}} <small>(v0.19)</small> .
+The navigation cube is configurable, including adjusting its size: **Edit → Preferences... → Display → Navigation → Navigation cube** <small>(v0.19)</small> .
 
 For more advanced configuration, refer to the [CubeMenu](Interface_Customization#CubeMenu.md) [external workbench](External_workbenches.md).
 

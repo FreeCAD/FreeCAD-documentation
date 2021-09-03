@@ -26,7 +26,7 @@ L\'outil Ligne centrale entre 2 points ajoute une ligne centrale entre deux somm
 
 Pour supprimer une ligne centrale, sélectionnez-la et utilisez le bouton de la barre d\'outils **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)**.
 
-## Modification des lignes centrales {#modification_des_lignes_centrales}
+## Modification des lignes centrales 
 
 N\'importe quel bouton de commande de la ligne centrale (**<img src="images/TechDraw_FaceCenterLine.svg" width=16px> [Ajouter une ligne centrale à des faces](TechDraw_FaceCenterLine/fr.md)**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Ajouter une ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> Ajouter une ligne centrale entre 2 points**) peut être utilisé pour éditer n\'importe quelle ligne centrale.
 

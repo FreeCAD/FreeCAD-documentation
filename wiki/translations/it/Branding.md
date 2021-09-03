@@ -98,12 +98,12 @@ nella funzione main(). In alternativa, se si dispone di un\'immagine in formato 
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Branding XML {#branding_xml}
+### Branding XML 
 
 
 <div class="mw-translate-fuzzy">
 
-### Branding XML {#branding_xml_1}
+### Branding XML 
 
 In FreeCAD c\'è anche un metodo supportato senza scrivere una funzione main() personalizzata. Per questo metodo basta scrivere un file chiamato {{FileName|branding.xml}} e metterlo nella directory di installazione di FreeCAD. Ecco un esempio con tutti i tag supportati:
 

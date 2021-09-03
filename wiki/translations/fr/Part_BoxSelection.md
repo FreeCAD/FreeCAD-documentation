@@ -16,7 +16,7 @@ L\'outil **<img src="images/Part_BoxSelection.svg" width=16px> [Part Sélection 
 
 ## Utilisation
 
-1.  Allez dans {{MenuCommand|Pièce → <img src="images/Part_BoxSelection.svg" width=16px> Sélection par boîte}}.
+1.  Allez dans **Pièce → <img src="images/Part_BoxSelection.svg" width=16px> Sélection par boîte**.
 2.  Cliquez et faites glisser le pointeur dans la fenêtre pour créer un rectangle qui touche une ou plusieurs formes..
 
 ## Remarques

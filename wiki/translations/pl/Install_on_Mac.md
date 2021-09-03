@@ -30,7 +30,7 @@ W przypadku wystąpienia jakichkolwiek problemów dotyczących HomeBrew Cask lub
 
 Ta strona opisuje użycie i funkcje instalatora FreeCAD. Zawiera również instrukcje dezinstalacji. Po zainstalowaniu, możesz przejść do podręcznika [Jak zacząć](Getting_started/pl.md)!
 
-## Łatwa instalacja {#łatwa_instalacja}
+## Łatwa instalacja 
 
 Instalator FreeCAD jest dostarczany jako pakiet aplikacji (.app), umieszczony w pliku obrazu dysku.
 
@@ -41,7 +41,7 @@ Najnowszy instalator można pobrać ze strony [Download](Download/pl.md). Po pob
 To wszystko.
 Teraz wystarczy kliknąć na ikone aplikacji, aby uruchomić FreeCAD. Jeśli ukaże się informacja \"FreeCAD nie może być otwarty, ponieważ pochodzi od niezidentyfikowanego wydawcy.\" otwórz folder aplikacji i kliknij prawym przyciskiem myszki na ikonie aplikacji, kolejnie otwórz i zaakceptuj otwieranie aplikacji.
 
-## De-instalacja {#de_instalacja}
+## De-instalacja 
 
 Obecnie nie ma dezinstalatora dla FreeCAD zainstalowanego z pakietem dmg. Aby całkowicie usunąć FreeCAD i wszystkie zainstalowane komponenty, przeciągnij następujące pliki i foldery do kosza:
 

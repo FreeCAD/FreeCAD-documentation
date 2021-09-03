@@ -29,7 +29,7 @@ This tool creates fillets (rounds) on the selected edges of an object. A new sep
 -   Pro více zaoblení, která se vzájemně dotýkají (řetězec), může být vybrána jedna hrana; zaoblení se protáhne přes celý řetězec.
 -   Chcete-li zaoblení po potvrzení dodatečně upravit, buď dvojklikněte na položku zaoblení ve stromu projektu nebo klikněte pravým tlačítkem na zaoblení a vyberte **Edit Fillet** (Úprava zaoblení).
 
-#### Návrh dílu Zaoblení VS. Zaoblení dílu {#návrh_dílu_zaoblení_vs._zaoblení_dílu}
+#### Návrh dílu Zaoblení VS. Zaoblení dílu 
 
 **Návrh dílu Zaoblení nelze zaměňovat s jeho [Protějškem na pracovní ploše Díl](Part_Fillet.md)**. Ačkoliv používají stejnou ikonu, není to to samé a ani nejsou stejně používány. Zde je uvedeno čím se vzájemně liší:
 
@@ -55,7 +55,7 @@ This tool creates fillets (rounds) on the selected edges of an object. A new sep
 -   For a chain of edges tangential to one another, one single edge can be selected; the fillet will propagate along the chain.
 -   To edit the fillet after the function has been validated, either double-click on the Fillet label in the Project tree, or right-click on it and select **Edit Fillet**.
 
-## PartDesign Fillet vs. Part Fillet {#partdesign_fillet_vs._part_fillet}
+## PartDesign Fillet vs. Part Fillet 
 
 <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Fillet](PartDesign_Fillet.md) is not to be confused with **<img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md)** of the [Part Workbench](Part_Workbench.md). Although they share the same name, they are not the same, and are not used the same way.
 
@@ -66,7 +66,7 @@ Here is how they differ from each other:
 -   The PartDesign Fillet offers a live preview of the fillet applied to the object before validating the function.
 -   The Part Fillet supports variable radii (with a start radius and an end radius). The PartDesign fillet doesn\'t.
 
-## Known Issues {#known_issues}
+## Known Issues 
 
 Fillets, chamfers, and other features that operate on solid bodies depend on the underlying OpenCASCADE Technology (OCCT) kernel that FreeCAD uses. The OCCT kernel occasionally has difficulty handling coincident sharp edges, where two faces meet. If this is the case FreeCAD may crash without an explanation.
 
@@ -91,7 +91,7 @@ See the forum threads for more information:
 
 The user is also responsible for the integrity of his or her own model. Depending on the model, it may be impossible to perform a fillet or chamfer if the body is not big enough to support that operation. For example, it wouldn\'t be possible to create a 10 mm fillet if an edge is separated only 5 mm from the next surface. In that case, the maximum radius for a fillet would be 5 mm; trying to use a larger value may result in a shape that doesn\'t compute, or even a crash. If using the exact limit of 5 mm doesn\'t work, it may be possible to use a very close approximation, like 4.9999 mm, to produce the same visible result.
 
-### Topological naming {#topological_naming}
+### Topological naming 
 
 Edge numbers are not completely stable, therefore it is advisable that you finish the main design work of your solid body before applying features like fillets and chamfers, otherwise edges could change name and filleted edges would likely become invalid.
 

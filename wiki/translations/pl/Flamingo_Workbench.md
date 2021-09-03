@@ -43,7 +43,7 @@ For convenience Flamingo/Dodo tools are grouped in three toolbars/menus + one ut
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 
-## Frame Tools {#frame_tools}
+## Frame Tools 
 
 
 <div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
@@ -207,7 +207,7 @@ If entities are preselected before calling this command, the first entity is aut
 
 Tool to adjust the beams at square angles of frames. To understand at best how it works, refer to the previous tutorial.
 
-## Pype Tools {#pype_tools}
+## Pype Tools 
 
 
 <div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
@@ -495,13 +495,13 @@ Opens one dialog to calculate the pressure losses across the pype-parts selected
     -   [Flamingo GitHub issue queue](https://github.com/oddtopus/flamingo/issues)
     -   [Dodo GitHub issue queue](https://github.com/oddtopus/dodo/issues)
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)
 -   [OSE-Piping-Workbench: to create extra pipe fittings](https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench)
 
-## External workbenches {#external_workbenches}
+## External workbenches 
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
 

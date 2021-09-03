@@ -9,12 +9,12 @@
 
 # Installation
 
-## Raytracing Workbench {#raytracing_workbench}
+## Raytracing Workbench 
 
 
 {{VeryImportantMessage|The [Raytracing Workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench}}
 
-### Stable Version {#stable_version}
+### Stable Version 
 
 The latest stable version is [LuxRender 1.6 (2017-12-28)](https://github.com/LuxCoreRender/LuxCore/releases/tag/luxrender_v1.6).
 
@@ -50,11 +50,11 @@ After installing LuxRender, launch FreeCAD, open the [Preferences Editor](Prefer
 
 Set the Luxrender executable path to point to your installation of LuxRender, usually it is *C:/Program Files/LuxRender/luxrender.exe*, and apply.
 
-### Development Version {#development_version}
+### Development Version 
 
 There is no development version of LuxRender, as development has been halted in favor of the reboot [LuxCoreRender](LuxCoreRender.md).
 
-## Render Workbench {#render_workbench}
+## Render Workbench 
 
 The [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) has dropped support for LuxRender, as it is outdated. It supports instead the modern reboot [LuxCoreRender](LuxCoreRender.md).
 

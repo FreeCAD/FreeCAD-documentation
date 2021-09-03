@@ -15,21 +15,21 @@
 
 <div class="mw-translate-fuzzy">
 
-**지역화**는 일반적으로 다중 언어 사용자 인터페이스를 가진 소프트웨어 제공 절차입니다. In FreeCAD you can set the language of the user interface under {{MenuCommand|Edit → Preferences → Application}}. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
+**지역화**는 일반적으로 다중 언어 사용자 인터페이스를 가진 소프트웨어 제공 절차입니다. In FreeCAD you can set the language of the user interface under **Edit → Preferences → Application**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
 
 
 </div>
 
-**Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under {{MenuCommand|Edit → Preferences → General}}. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
+**Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under **Edit → Preferences → General**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
 
-## FreeCAD 번역 도움 {#freecad_번역_도움}
+## FreeCAD 번역 도움 
 
 One of the very important things users can contribute to FreeCAD (if for example they don\'t have programming skills) is to help translate its different aspects (source code, wiki, website, documentation etc\...) in to another language. Here are the ways to do that
 
 
 <div class="mw-translate-fuzzy">
 
-## FreeCAD 소스 코드 번역 {#freecad_소스_코드_번역}
+## FreeCAD 소스 코드 번역 
 
 FreeCAD utilizes a third party collaborative on-line translation system called [Crowdin](https://crowdin.net). It is proprietary software but free to FOSS projects. Below are instructions on how to use it:
 
@@ -55,11 +55,11 @@ It is proprietary software but free to FOSS projects. Below are instructions on 
 
 Details on how to use crowdin can be found on the [Crowdin Administration](Crowdin_Administration.md) page.
 
-## Translating external workbenches {#translating_external_workbenches}
+## Translating external workbenches 
 
 Visit [Translating an external workbench](Translating_an_external_workbench.md).
 
-## FreeCAD 위키 번역 {#freecad_위키_번역}
+## FreeCAD 위키 번역 
 
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +79,7 @@ Visit [Translating an external workbench](Translating_an_external_workbench.md).
 
 You should also have enough knowledge of wiki markup and follow the general styling guidelines described on [WikiPages](WikiPages.md).
 
-### Mediawiki 번역 확장 {#mediawiki_번역_확장}
+### Mediawiki 번역 확장 
 
 When the wiki moved away from SourceForge, [Yorik](User:Yorik.md) installed [MediaWiki\'s Translation extension](http://www.mediawiki.org/wiki/Help:Extension:Translate) which facilitates translating pages. Advantages of the translation extension are that the page title can now be translated, it keeps track of translations, it notifies if the original page has been updated, and it maintains translations in sync with the original English page.
 
@@ -99,7 +99,7 @@ When adding new content, the English page should be created first, then translat
 
 If you are unsure on how to proceed with the translations, don\'t hesitate to ask for help in the [Development → Wiki subforum](https://forum.freecadweb.org/viewforum.php?f=21) or in the [specific language subforum](https://forum.freecadweb.org/viewforum.php?f=11) in the [FreeCAD forum](http://forum.freecadweb.org).
 
-### 중요한 노트 {#중요한_노트}
+### 중요한 노트 
 
 Every wiki user that has \"Editor\" permissions is able to launch the translate utility to write, save and review translations.
 
@@ -112,14 +112,14 @@ The first time you switch a page to the new translation system, it loses all its
 
 <div class="mw-translate-fuzzy">
 
-## FreeCAD 문서 번역 {#freecad_문서_번역}
+## FreeCAD 문서 번역 
 
 
 </div>
 
 As per general consensus, the reference page in the wiki is the English page, which should be created first. If you want to change or add content to a page, you should do it to the English page first, and only once the update is completed, port the modification to the translated page.
 
-### 옛 번역 명령 {#옛_번역_명령}
+### 옛 번역 명령 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | These instructions are for historical background only. Translations should use the new system with the [\#Mediawiki Translation Extension](#Mediawiki_Translation_Extension.md) described above.                                                                                                                                                                                                                                                                                                                                                                 |
@@ -156,7 +156,7 @@ As per general consensus, the reference page in the wiki is the English page, wh
 
 <div class="mw-translate-fuzzy">
 
-## FreeCAD 웹사이트 번역 {#freecad_웹사이트_번역}
+## FreeCAD 웹사이트 번역 
 
 Translation of the FreeCAD website is now done through [Crowdin](https://crowdin.com/translate/freecad/561/en-en). The file is named {{FileName|homepage.po}}.
 
@@ -165,11 +165,11 @@ Translation of the FreeCAD website is now done through [Crowdin](https://crowdin
 
 Translation of the FreeCAD website is now done through [Crowdin](https://crowdin.com/translate/freecad/561/en-en). The file is named {{FileName|homepage.po}}.
 
-## Development - How to Add Localisation {#development___how_to_add_localisation}
+## Development - How to Add Localisation 
 
 This section is for developers who want to add localisation to their code.
 
-### Preparing your FreeCAD/master modules for translation {#preparing_your_freecadmaster_modules_for_translation}
+### Preparing your FreeCAD/master modules for translation 
 
 These are the parts to the FreeCAD translation process:
 
@@ -189,21 +189,21 @@ This creates an empty translation file. Once this is done, you need to ensure th
 
 Everything after this is automatic as far as a developer is concerned. The administrator will extract the text strings, the translators will translate them, then the administrator will extract the translations and update FreeCAD/master.
 
-### Preparing your 3rd party module or macro for translation {#preparing_your_3rd_party_module_or_macro_for_translation}
+### Preparing your 3rd party module or macro for translation 
 
 3rd party modules or macros are translated in much the same fashion, except that you must do some of the work yourself. This [forum discussion](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) describes the details.
 
 Update: see [Translating an external workbench](Translating_an_external_workbench.md)
 
-### Older module translation techniques {#older_module_translation_techniques}
+### Older module translation techniques 
 
 [Localization Older Methods](Localization_Older_Methods.md) describes the use of translation tools such as Qt Linguist, lupdate, lrelease, pylupdate4, etc in detail. Most of this is no longer required for FreeCAD/master modules, but may be helpful preparing and updating 3rd party modules.
 
-## Automating Crowdin Translation Updates {#automating_crowdin_translation_updates}
+## Automating Crowdin Translation Updates 
 
 Currently FreeCAD maintainers use the Crowdin API via [Crowdin Scripts](Crowdin_Scripts.md) to pull and push translations in to Crowdin and back in to the Github repo. The Crowdin API gives FreeCAD maintainers the ability to automate aspects of the project\'s translation workflow, for more info refer to the [Crowdin API documentation](https://support.crowdin.com/api/api-integration-setup/).
 
-## Related Pages {#related_pages}
+## Related Pages 
 
 -   [Crowdin Administration](Crowdin_Administration.md)
 -   [Crowdin Scripts](Crowdin_Scripts.md)

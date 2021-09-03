@@ -18,9 +18,9 @@ Nota: è possibile utilizzare gli strumenti di Defeaturing più avanzati se è d
 
 ## Installazione
 
-### Automatica (consigliata) {#automatica_consigliata}
+### Automatica (consigliata) 
 
-Using the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) available in v0.17+ via {{MenuCommand|Tools → Addon Manager}}. Search for the <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> Defeaturing workbench icon. The Addon Manager also notifies the user when a new version of this Addon is available.
+Using the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) available in v0.17+ via **Tools → Addon Manager**. Search for the <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> Defeaturing workbench icon. The Addon Manager also notifies the user when a new version of this Addon is available.
 
 ### Manuale
 
@@ -86,7 +86,7 @@ Vedere [Come installare ambienti di lavoro aggiuntivi](How_to_install_additional
 -   <img alt="" src=images/DefeatWB_Tools_Fuzzy_Union.png  style="width:32px;"> [Fuzzy Union](DefeatWB_Tools_Fuzzy_Union.md): unione approssimativa
 -   <img alt="" src=images/DefeatWB_Tools_Fuzzy_Common.png  style="width:32px;"> [Fuzzy Common](DefeatWB_Tools_Fuzzy_Common.md): intersezione approssimativa
 
-## Tutorial video {#tutorial_video}
+## Tutorial video 
 
 ### Defeaturing
 
@@ -112,7 +112,7 @@ Rimozione delle funzioni mediante i nuovi strumenti OCC7.3
 -   Leggere o modificare la tolleranza
 -   effettuare operazioni booleane
 
-## Ambienti esterni {#ambienti_esterni}
+## Ambienti esterni 
 
 Gli ambienti di lavoro per FreeCAD sono facilmente programmabili in [Python](Python/it.md), quindi ci sono molte persone che stanno sviluppando degli ambienti aggiuntivi al di fuori del codice di base di FreeCAD.
 

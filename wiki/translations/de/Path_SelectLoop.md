@@ -24,7 +24,7 @@ Der Befehl WähleSchleife vervollständigt eine Auswahl von Kanten, die eine Sch
 1.  Select two edges that share a common vertex.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_SelectLoop.svg" width=16px> [Path SelectLoop](Path_SelectLoop.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_SelectLoop.svg" width=16px> Finish Selecting Loop}} option from the menu.
+    -   Select the **Path → <img src="images/Path_SelectLoop.svg" width=16px> Finish Selecting Loop** option from the menu.
     -   Use the keyboard shortcut: **P** then **L**.
 3.  The remaining edges of the loop are added to the selection.
 

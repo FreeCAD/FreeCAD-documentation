@@ -51,14 +51,14 @@ Nell\'immagine precedente si può vedere il risultato che si intende ottenere. Q
 
 </div>
 
-## Tracciare i dati {#tracciare_i_dati}
+## Tracciare i dati 
 
 Per tracciare i dati non è necessario creare un nuovo documento di FreeCAD, è sufficiente visualizzare la console Python e iniziare a inviare i comandi, o usare le [macro](Macros/it.md).
 
 
 <div class="mw-translate-fuzzy">
 
-### Creare un documento di grafico {#creare_un_documento_di_grafico}
+### Creare un documento di grafico 
 
 I grafici sono documenti speciali che possono essere creati manualmente per inserire i dati in seguito, oppure si può consentire al modulo di crearli automaticamente quando si avvia la stampa dei dati.
 Creare un documento personale per il grafico dà 2 vantaggi:
@@ -83,7 +83,7 @@ Il nuovo documento appena creato possiede già di un sistema di assi. Ogni docum
 
 <div class="mw-translate-fuzzy">
 
-### Tracciare le funzioni {#tracciare_le_funzioni}
+### Tracciare le funzioni 
 
 Dato che il comando **Plot** avvia un nuovo documento, a questo punto è possibile iniziare a lavorare.
 Bisogna ricordare che ogni comando del modulo Grafico che viene eseguito aggiunge una serie al grafico creato, questo fino a quando non si crea un nuovo documento, quindi, come regola generale, è bene controllare quali documenti sono aperti.
@@ -118,9 +118,9 @@ Plot.plot(t,c)
 
 Questi comandi tracciano le funzioni. Il comando **plot** ammette anche l\'etichetta della serie come terzo argomento, ma dato che si intende modificare questi dati in un momento successivo, utilizzando gli strumenti del modulo Grafico, non li passiamo ancora.
 
-## Configurazione del grafico {#configurazione_del_grafico}
+## Configurazione del grafico 
 
-### Mostrare la griglia e la legenda {#mostrare_la_griglia_e_la_legenda}
+### Mostrare la griglia e la legenda 
 
 Avviare l\'ambiente di lavoro [Grafico](Plot_Module/it.md) di FreeCAD nel menu Visualizza / Ambiente /. Quando il modulo è stato caricato, utilizzare lo strumento **Griglia** per mostrarla.
 
@@ -169,7 +169,7 @@ Nel modulo [Grafico](Plot_Module/it.md) le serie senza una etichetta assegnata n
 
 </div>
 
-### Impostare l\'etichetta della serie {#impostare_letichetta_della_serie}
+### Impostare l\'etichetta della serie 
 
 Con lo strumento **Serie** è possibile modificare alcuni parametri della serie.
 
@@ -205,12 +205,12 @@ Impostare la seguente etichetta per la seconda serie:
 $y = \cos \left( 2 \pi t \right)$
 ```
 
-### Impostare lo stile della serie {#impostare_lo_stile_della_serie}
+### Impostare lo stile della serie 
 
 Lo strumento **Serie** consente di impostare diverse proprietà della serie.
 Provare a impostare le proprietà di visualizzazione per ottenere delle curve come quelle dell\'esempio, cambiare i colori della serie e lo stile di disegno della seconda curva.
 
-### Impostare le etichette degli assi {#impostare_le_etichette_degli_assi}
+### Impostare le etichette degli assi 
 
 Con lo strumento **Etichette** è possibile impostare le etichette associate a ogni asse creato.
 
@@ -238,7 +238,7 @@ Impostare i seguenti titoli:
 
 Inoltre impostare le dimensioni di tutti i titoli a 20.
 
-## Salvare il grafico {#salvare_il_grafico}
+## Salvare il grafico 
 
 Con lo strumento **Salva grafico** è possibile salvare il grafico come file di immagine in diversi formati.
 

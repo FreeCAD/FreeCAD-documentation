@@ -6,7 +6,7 @@
 
 ## Installation
 
-Recommended install is via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) found under the {{MenuCommand|Tools → Addon Manager}} menu.
+Recommended install is via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) found under the **Tools → Addon Manager** menu.
 
 ## References
 

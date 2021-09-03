@@ -21,7 +21,7 @@ Este es el proyecto de desarrollo de la implementación de un módulo de Raytrac
 
 <div class="mw-translate-fuzzy">
 
-## Propósito y principios {#propósito_y_principios}
+## Propósito y principios 
 
 Este proyecto pretende actualizar el \[Raytracing\_Module/es\|módulo de renderizado\] que actualmente utiliza Povray, un renderizador parcial que proporciona unos resultados satisfactorios y permitir utilizar renderizadores más modernos como Lux Render, Yafaray o Indigo.
 
@@ -40,7 +40,7 @@ Excelentes visualizaciones!!! Producir resultados de alta calidad de piezas con 
 
 La interfaz de usuario debería permitir situaciones más complejas y posiblemente previsualizar sus cambios tales como el modificar los parámetros de iluminación, luces y sus posiciones. Sin embargo, la intención no es proporcionar una suite de renderizado repleta de características.
 
-## Tormenta de ideas {#tormenta_de_ideas}
+## Tormenta de ideas 
 
 \'Debe\' crearse una biblioteca de materiales para cada plugin de renderizado con parámetros por defecto. Las propiedades de los materiales se podrán cambiar. Los parámetros por defecto de la escena deberían permitir a los usuarios con poca experiencia con los renderizadores producir buenas visualizaciones en poco tiempo.
 
@@ -54,7 +54,7 @@ La interfaz genérica se está creando actualmente y para comprobar la integraci
 
 Se muestra una pieza creada utilizando Diseño de Piezas / Croquizador y luego renderizada utilizando el nuevo módulo de renderizado siendo desarrollado en Lux Render. Lux Render permite excelentes efectos como DOF que pueden crearse para incrementar el realismo.
 
-## Siguientes acciones {#siguientes_acciones}
+## Siguientes acciones 
 
 -   Crear la Abstracción para proporcionar la interfaz entre renderizaadores **(Terminado)**
 

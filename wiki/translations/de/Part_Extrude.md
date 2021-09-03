@@ -116,7 +116,7 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 <div class="mw-translate-fuzzy">
 
-## Hab Dichs {#hab_dichs}
+## Hab Dichs 
 
 Der Part Extrudieren Dialog bietet noch keine Vorschau. **Anwenden** erzeugt jedes Mal, wenn du darauf klickst, ein Extrusionsobjekt, das als Vorschau nützlich sein kann; sie bleiben jedoch erhalten und ein weiteres wird erzeugt, wenn du auf **OK** klickst. [Rückgängig](Std_Undo/de.md) kann nützlich sein, um sie vor dem **OK** Klicken zu bereinigen.
 
@@ -142,7 +142,7 @@ Extrusion mit Neigungswinkel unterstützt keine Bohrungen. Es kann auch zu falsc
 
 <div class="mw-translate-fuzzy">
 
-## Vergleich mit [PartDesign Polster](PartDesign_Pad/de.md) {#vergleich_mit_partdesign_polster}
+## Vergleich mit [PartDesign Polster](PartDesign_Pad/de.md) 
 
 
 </div>

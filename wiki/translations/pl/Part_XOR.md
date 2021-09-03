@@ -15,7 +15,7 @@
 
 ## Przykład
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 

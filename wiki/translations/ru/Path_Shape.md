@@ -72,12 +72,12 @@ Empty
 
 </div>
 
-#### DocString Info {#docstring_info}
+#### DocString Info 
 
 
 <div class="mw-translate-fuzzy">
 
-#### DocString Info {#docstring_info_1}
+#### DocString Info 
 
 Возвращает объект Path из списка фигур.
 

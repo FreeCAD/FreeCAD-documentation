@@ -9,7 +9,7 @@ Tous les objets du programme ont un [object name](Object_name/fr.md) qui les ide
 
 Ces informations s\'appliquent à tous les objets dérivés de [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`), qui comprend essentiellement tous les objets qu\'il est possible de créer dans un document.
 
-## Les Names {#les_names}
+## Les Names 
 
 Il existe différentes propriétés pour les noms:
 
@@ -22,15 +22,15 @@ Il existe différentes propriétés pour les noms:
 
 En résumé, `Name` agit essentiellement comme un identifiant unique (UID) pour un objet. Puisqu\'un `Name` unique est très restrictif, tous les objets ont également une propriété `Label` qui permet de \"renommer\" l\'objet en quelque chose de plus descriptif. Le `Name` interne reste en fait fixe, mais le `Label` modifiable par l\'utilisateur peut être utilisé dans la plupart des situations où le `Name` serait utilisé. Dans l\'utilisation courante dans le programme et la documentation, \"renommer\" signifie changer le `Label` et non le `Name` réel de l\'objet.
 
-## Les Labels {#les_labels}
+## Les Labels 
 
 Il existe différentes propriétés pour les étiquettes:
 
 -   Le `Label` peut accepter n\'importe quelle chaîne UTF8, y compris les accents et les espaces.
--   La [vue en arborescence](tree_view/fr.md) affiche en fait le `Label` de l\'objet et pas le `Name`. Par conséquent, chaque fois qu\'un nouvel objet est créé, il est recommandé de remplacer `Label` par une chaîne plus descriptive. Pour renommer l\'objet, sélectionnez-le dans l\'arborescence et appuyez sur **F2**, ou ouvrez le menu contextuel (clic droit) et choisissez {{MenuCommand|Rename}}.
+-   La [vue en arborescence](tree_view/fr.md) affiche en fait le `Label` de l\'objet et pas le `Name`. Par conséquent, chaque fois qu\'un nouvel objet est créé, il est recommandé de remplacer `Label` par une chaîne plus descriptive. Pour renommer l\'objet, sélectionnez-le dans l\'arborescence et appuyez sur **F2**, ou ouvrez le menu contextuel (clic droit) et choisissez **Rename**.
 -   Même après qu\'un objet a été renommé (ré-étiqueté), le `Name` interne sera toujours déclaré à de nombreux endroits, par exemple, dans la [Barre d\'état](status_bar/fr.md) ou dans la [Fenêtre de sélection](Selection_view/fr.md) lorsque l\'objet est sélectionné.
 -   Étant donné que les fonctions internes du programme font référence aux objets par `Name`, de nombreuses boîtes de dialogue affichent le `Name` en premier suivi de l\'étiquette `Label` modifiable par l\'utilisateur entre parenthèses, par exemple, `Box (Extruded piece)`.
--   Par défaut, le `Label` est unique, tout comme le `Name`. Cependant, ce comportement peut être modifié dans [éditeur de préférences](Preferences_Editor.md), {{MenuCommand|Edition → Préférences → Général → Document → Autoriser la duplication des étiquettes dans un document}}. Cela signifie qu\'en général, `Label` n\'est pas unique dans le document et peut en fait être répété. Cependant, la recommandation est de garder le `Label` unique, car c\'est probablement ce qui est le plus utile pour identifier différents objets. Lors de l\'écriture de fonctions personnalisées qui manipulent des objets, les méthodes doivent utiliser le `Name` de l\'objet plutôt que son `Label` pour garantir que l\'objet correct est utilisé.
+-   Par défaut, le `Label` est unique, tout comme le `Name`. Cependant, ce comportement peut être modifié dans [éditeur de préférences](Preferences_Editor.md), **Edition → Préférences → Général → Document → Autoriser la duplication des étiquettes dans un document**. Cela signifie qu\'en général, `Label` n\'est pas unique dans le document et peut en fait être répété. Cependant, la recommandation est de garder le `Label` unique, car c\'est probablement ce qui est le plus utile pour identifier différents objets. Lors de l\'écriture de fonctions personnalisées qui manipulent des objets, les méthodes doivent utiliser le `Name` de l\'objet plutôt que son `Label` pour garantir que l\'objet correct est utilisé.
 -   Lors de l\'utilisation des [expressions](expressions/fr.md), par exemple, dans l\'[Éditeur de propriétés](Property_editor/fr.md) ou dans une [feuille de calcul](spreadsheet/fr.md), l\'étiquette peut être référencé à l\'aide de doubles crochets constitués de symboles \"moins que\" et \"plus que\".
 
 
@@ -45,7 +45,7 @@ Cette propriété a été introduite dans la version 0.19. Il s\'agit d\'une cha
 
 -   Dans la [vue en arborescence](tree_view/fr.md), modifiez le champ à côté de l\'icône, sous \"Description\", en cliquant dessus et en appuyant sur **F2**.
 -   Vous pouvez également modifier cette propriété en modifiant l\'attribut `Label2` à partir de la [console Python](Python_console/fr.md).
--   L\'attribut **Label2** est normalement masqué dans [Éditeur de propriétés](Property_editor/fr.md) mais peut être rendu visible en ouvrant le menu contextuel (clic droit) et en sélectionnant {{MenuCommand|Show all}}.
+-   L\'attribut **Label2** est normalement masqué dans [Éditeur de propriétés](Property_editor/fr.md) mais peut être rendu visible en ouvrant le menu contextuel (clic droit) et en sélectionnant **Show all**.
 
 ## Script
 
@@ -65,7 +65,7 @@ obj = doc.addObject("Part::Box", "Name")
 obj.Label = "Custom label"
 ```
 
-### Name (Nom) {#name_nom}
+### Name (Nom) 
 
 La fonction `addObject` a deux arguments de chaîne de base.
 

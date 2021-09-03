@@ -11,7 +11,7 @@ Refining the mesh has the advantage of enabling accurate simulation where needed
 
 1.  To enable the function a mesh must be first provided <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md).
     -   Select the Mesh object in the Model Tree and press the <img alt="" src=images/FEM_MeshRegion.svg  style="width:32px;"> button.
-    -   Select the Mesh object in the Model Tree and select the {{MenuCommand|Mesh → <img src="images/FEM_MeshRegion.svg" width=32px> FEM mesh region}} option from the menu.
+    -   Select the Mesh object in the Model Tree and select the **Mesh → <img src="images/FEM_MeshRegion.svg" width=32px> FEM mesh region** option from the menu.
 2.  Edit the maximal element size for the region.
 3.  Click the **OK** button.
 4.  Close the task.
@@ -24,7 +24,7 @@ After the mesh has been crated you can change its properties using the [property
 
 You can create as many different mesh regions as needed.
 
-## Visual examples {#visual_examples}
+## Visual examples 
 
 <img alt="" src=images/FEMMeshRegion_Example1.png  style="width:300px;"> 
 *Example 1: The initial coarse FEMMeshGMSH*

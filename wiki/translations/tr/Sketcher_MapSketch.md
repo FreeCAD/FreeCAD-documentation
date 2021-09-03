@@ -21,7 +21,7 @@ Lütfen bu aracın yeni eskizler oluşturmak için kullanılmadığını unutmay
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 -   Bir parça tasarım özelliğinin veya bir katının yüzünü seçin.
 
@@ -34,14 +34,14 @@ Lütfen bu aracın yeni eskizler oluşturmak için kullanılmadığını unutmay
 
 </div>
 
-## Bozuk bir modeli onarmak için kullanın {#bozuk_bir_modeli_onarmak_için_kullanın}
+## Bozuk bir modeli onarmak için kullanın 
 
 Ezkizi yüze eşle, bozuk bir modeli onarmak için sıklıkla kullanılır.
 
 
 <div class="mw-translate-fuzzy">
 
-Yaygın kullanım durumlarından biri bağımlılık grafiğinin kırıldığı durumdur. (Bağımlılık grafiğini {{MenuCommand|Araçlar -> Bağımlılık grafiği}} ile görüntüleyebilirsiniz.) Bu, model ağacınızın ortasındaki bir özelliği sildiğinizde olabilir. Aşağıdaki örnekte bir modeli kıracağız ve onaracağız.
+Yaygın kullanım durumlarından biri bağımlılık grafiğinin kırıldığı durumdur. (Bağımlılık grafiğini **Araçlar -> Bağımlılık grafiği** ile görüntüleyebilirsiniz.) Bu, model ağacınızın ortasındaki bir özelliği sildiğinizde olabilir. Aşağıdaki örnekte bir modeli kıracağız ve onaracağız.
 
 
 </div>

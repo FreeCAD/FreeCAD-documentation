@@ -49,7 +49,7 @@ Instrumentele de proiectare a componentelor sunt amplasate în meniul *\' Design
 
 </div>
 
-### Structure tools {#structure_tools}
+### Structure tools 
 
 
 <div class="mw-translate-fuzzy">
@@ -70,7 +70,7 @@ These are tools to organize the Model tree.
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Group](Std_Group.md): adds a Group container in the active document, which allows organizing the objects in the [tree view](Tree_view.md).
 
-### Instrumente Help pentru Part Design {#instrumente_help_pentru_part_design}
+### Instrumente Help pentru Part Design 
 
 
 <div class="mw-translate-fuzzy">
@@ -104,9 +104,9 @@ These are tools to organize the Model tree.
 
 </div>
 
-### Part Design Modeling tools {#part_design_modeling_tools}
+### Part Design Modeling tools 
 
-#### Instrumente de referință {#instrumente_de_referință}
+#### Instrumente de referință 
 
 
 <div class="mw-translate-fuzzy">
@@ -158,7 +158,7 @@ These are tools to organize the Model tree.
 
 </div>
 
-#### Instrumente Aditive {#instrumente_aditive}
+#### Instrumente Aditive 
 
 Acestea sunt instrumente pentru crearea de caracteristici de bază sau adăugarea de materiale unui corp solid existent.
 
@@ -268,7 +268,7 @@ Acestea sunt instrumente pentru crearea de caracteristici de bază sau adăugare
 
 </div>
 
-#### Instrumente substractive {#instrumente_substractive}
+#### Instrumente substractive 
 
 Acestea sunt instrumente pentru îndepărtarea materialului dintr-un corp existent.
 
@@ -388,7 +388,7 @@ creează o formă solidă făcând o tranziție/extrudere între două sau mai m
 
 </div>
 
-#### instrumente de Transformare {#instrumente_de_transformare}
+#### instrumente de Transformare 
 
 Acestea sunt instrumente pentru transformarea caracteristicilor existente. Acestea vă vor permite să alegeți caracteristicile care trebuie transformate.
 
@@ -424,7 +424,7 @@ Acestea sunt instrumente pentru transformarea caracteristicilor existente. Acest
 
 </div>
 
-#### Instrumente pentru traiectorie suplimentară {#instrumente_pentru_traiectorie_suplimentară}
+#### Instrumente pentru traiectorie suplimentară 
 
 Aceste instrumente se aplică tratării marginilor sau fațetelor selectate.
 
@@ -505,7 +505,7 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 
 <div class="mw-translate-fuzzy">
 
-### Meniu Contextual de Instrumente {#meniu_contextual_de_instrumente}
+### Meniu Contextual de Instrumente 
 
 
 </div>

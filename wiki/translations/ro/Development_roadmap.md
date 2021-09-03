@@ -33,7 +33,7 @@ Această secțiune oferă o imagine de ansamblu a ceea ce este planificat și v�
   **[Artwork project](Artwork_project.md)**                                       A project to update logo and icons                                                                                                GUI                                                                 Current
                                                                                                                                                                                                                                                                                                 
 
-## Program de lansare a edițiilor {#program_de_lansare_a_edițiilor}
+## Program de lansare a edițiilor 
 
 Ca și în cele mai multe proiecte [FLOSS](http://en.wikipedia.org/wiki/FLOSS) un program de lansare este foarte dur. Nu vor exista date fixe și **\"Sa terminat, când s-a terminat!\"**
 

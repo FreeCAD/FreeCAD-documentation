@@ -17,7 +17,7 @@ Der Befehl **Std PerspectivKamera** schaltet die Kamera in der aktiven [3D Ansic
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Wähle die Option {{MenuCommand|Ansicht → <img src="images/Std_PerspectiveCamera.svg" width=16px> Perspektiv Ansicht}} aus dem Menü.
+    -   Wähle die Option **Ansicht → <img src="images/Std_PerspectiveCamera.svg" width=16px> Perspektiv Ansicht** aus dem Menü.
     -   Verwende das Tastaturkürzel: **V** dann **P**.
 
 ## Hinweise
@@ -26,7 +26,7 @@ Der Befehl **Std PerspectivKamera** schaltet die Kamera in der aktiven [3D Ansic
 
 ## Einstellungen
 
--   Der Kameratyp kann in den Einstellungen geändert werden: {{MenuCommand|Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Kameratyp}}. Der gewählte Typ wird für alle 3D Ansichten aller geöffneten Dokumente und auch für neue Dokumente verwendet. Siehe [Einstellungseditor](Preferences_Editor/de#3D_Ansicht.md).
+-   Der Kameratyp kann in den Einstellungen geändert werden: **Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Kameratyp**. Der gewählte Typ wird für alle 3D Ansichten aller geöffneten Dokumente und auch für neue Dokumente verwendet. Siehe [Einstellungseditor](Preferences_Editor/de#3D_Ansicht.md).
 
 ## Skripten
 

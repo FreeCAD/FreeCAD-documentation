@@ -15,7 +15,7 @@ The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Pa
 
 ## Usage
 
-1.  Go to {{MenuCommand|Part → <img src="images/Part_BoxSelection.svg" width=16px> Box selection}}.
+1.  Go to **Part → <img src="images/Part_BoxSelection.svg" width=16px> Box selection**.
 2.  Click and drag the pointer in the viewport creating a rectangle that touches one or more shapes.
 
 ## Notes

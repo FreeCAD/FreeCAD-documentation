@@ -21,11 +21,11 @@ Les principales caractéristiques de l\'atelier Assembly3 sont :
 
 [En haut](#top.md)
 
-### Barres d\'outils {#barres_doutils}
+### Barres d\'outils 
 
 À partir de 2020, l\'atelier Assembly3 comprend les barres d\'outils suivantes.
 
-#### Barre d\'outils principale {#barre_doutils_principale}
+#### Barre d\'outils principale 
 
 :   <img alt="" src=images/Assembly3_ToolbarMain.png  style="width:700px;">
 
@@ -111,7 +111,7 @@ La **Barre d\'outils principale** contient des outils qui couvrent les fonctions
 
 </div>
 
-#### Barre d\'outils des contraintes principales {#barre_doutils_des_contraintes_principales}
+#### Barre d\'outils des contraintes principales 
 
 :   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:28px;">
 
@@ -197,7 +197,7 @@ Certains outils sont en fait un menu pour d\'autres outils.
 
 </div>
 
-#### Barres d\'outils des contraintes supplémentaires {#barres_doutils_des_contraintes_supplémentaires}
+#### Barres d\'outils des contraintes supplémentaires 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
 
@@ -285,7 +285,7 @@ Vous pouvez les activer en sélectionnant le bouton **<img src="images/Assembly_
 
 Une description détaillée peut être trouvée dans le wiki Github.
 
-#### Barre d\'outils de navigation {#barre_doutils_de_navigation}
+#### Barre d\'outils de navigation 
 
 :   <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelect.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelectFinal.svg‎‎  style="width:28px;">
 
@@ -310,7 +310,7 @@ Une description détaillée peut être trouvée dans le wiki Github.
 
 </div>
 
-#### Barre d\'outils de mesure {#barre_doutils_de_mesure}
+#### Barre d\'outils de mesure 
 
 :   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasureAngle.svg‎‎  style="width:28px;">
 
@@ -494,7 +494,7 @@ Si vous le souhaitez, vous pouvez déplacer la contrainte *Verrouillé* vers le 
 
 [En haut](#top.md)
 
-### Ajouter un décalage {#ajouter_un_décalage}
+### Ajouter un décalage 
 
 Assembly3 n\'offre pas de décalage avec les contraintes comme le font l\'[atelier A2plus](A2plus_Workbench/fr.md) ou d\'autres outils de CAO. Au lieu de cela, il offre un système plus général et plus flexible pour ajouter des traductions de décalages mais aussi des angles.
 
@@ -513,7 +513,7 @@ Exemple :
 
 [En haut](#top.md)
 
-### Résoudre un échec du solveur {#résoudre_un_échec_du_solveur}
+### Résoudre un échec du solveur 
 
 Cela se produit souvent lorsque les pièces sont sur-contraintes, c\'est-à-dire que plus de 6 DOF sont verrouillés.
 
@@ -523,7 +523,7 @@ Remarque : comme Assembly3 essaie de compenser les pièces de sur-contrainte dan
 
 [En haut](#top.md)
 
-### Remplacer une pièce ou renommer un nom de fichier {#remplacer_une_pièce_ou_renommer_un_nom_de_fichier}
+### Remplacer une pièce ou renommer un nom de fichier 
 
 Lorsqu\'une pièce est supprimée ou lorsqu\'un nom de fichier change, l\'assemblage se casse. Il ne peut plus être résolu et le solveur émettra le message \"Inconsistent constraints\". Le solveur marque les éléments et les contraintes non valides avec un point d\'interrogation dans l\'arborescence.
 
@@ -564,7 +564,7 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 
 [En haut](#top.md)
 
-### Trucs et astuces {#trucs_et_astuces}
+### Trucs et astuces 
 
 -   L\'utilisation d\'assemblages hiérarchiques permet d\'éviter les problèmes de solveur et de maintenir la fluidité du modèle. Vous pouvez figer un sous-assemblage en un seul clic et enregistrer facilement les ressources CPU (utilisez le menu contextuel dans l\'arborescence). Lors du chargement d\'un assemblage, Assembly3 n\'a pas besoin d\'ouvrir les fichiers externes pour les sous-assemblages figés, ce qui maintient l\'arborescence compacte.
 -   Il est très utile de prendre l\'habitude de nommer les éléments et les contraintes. Utilisez la touche **F2** pour le faire rapidement dans l\'arborescence. Vous trouverez les outils de tri d\'arbre dans la barre d\'outils principale très utiles. Un assemblage avec des contraintes et des éléments entièrement nommés est très facile à comprendre pour d\'autres personnes ou pour soi-même lorsque l\'on regarde un fichier plus ancien.

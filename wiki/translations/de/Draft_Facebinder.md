@@ -22,7 +22,7 @@ Er kann verwendet werden, um eine Extrusion aus einer Sammlung von Flächen aus 
 1.  Wähle eine oder mehrere Flächen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_Facebinder.svg" width=16px> [Entwurf Flächenbinder](Draft_Facebinder/de.md)** Taste.
-    -   Wähle die Option {{MenuCommand|Entwerfen → <img src="images/Draft_Facebinder.svg" width=16px> Flächenbinder}} Option aus dem Menü.
+    -   Wähle die Option **Entwerfen → <img src="images/Draft_Facebinder.svg" width=16px> Flächenbinder** Option aus dem Menü.
     -   Verwende den Tastaturkürzel: **F** und dann **F**.
 
 ## Eigenschaften

@@ -13,7 +13,7 @@ Narzędzie to rysuje okrąg, wybierając dwa punkty: środek i punkt wzdłuż pr
 
 ![](images/Sketcher_CircleExample1.png‎ )
 
-## Jak używać {#jak_używać}
+## Jak używać 
 
 -   Zaznacz punkty na pustym obszarze w oknie widoku 3D lub na istniejącym obiekcie *(automatyczne wiązania muszą być aktywne w widoku zadań)*.
 -   Wciśnięcie klawisza **Esc** lub kliknięcie prawym klawiszem myszy dezaktywuje tę funkcję.

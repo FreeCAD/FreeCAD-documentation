@@ -3,7 +3,7 @@
 
 {{TOCright}}
 
-## Beschreibung dieser Liste {#beschreibung_dieser_liste}
+## Beschreibung dieser Liste 
 
 Komplexe Bibliotheken wie [COIN3D](https://en.wikipedia.org/wiki/Coin3D) brauchen eine gute Dokumentation und gute Tutorien. Leider gibt es nicht viele Tutorien für die COIN Bibliothek. Nach langer Suche wurden die unten aufgeführten Code Beispiele gefunden. Sie wurden so modifiziert, dass sie in FreeCAD geladen werden können. Einige Codes können jedoch fehlschlagen, da diese Beispiele für andere Umgebungen erstellt wurden. Du wirst im Code entsprechende Warnungen finden.
 
@@ -11,7 +11,7 @@ Anwender können diese Skripte entweder als [Makro](Macro/de.md) oder direkt in 
 
 Diese Dateien werden auch in der [Inventor Mentor Tutorium](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/pr01.html) für die C Sprache erwähnt.
 
-## Liste der Dateien und ihr Bildschirmfoto (Python Scripte) {#liste_der_dateien_und_ihr_bildschirmfoto_python_scripte}
+## Liste der Dateien und ihr Bildschirmfoto (Python Scripte) 
 
 -   [02.1.HelloCone.py](https://github.com/MariwanJ/COIN3D_Examples/blob/main/screenShots/02.1.HelloCone.py.jpg)
 -   [02.2.EngineSpin.py](https://github.com/MariwanJ/COIN3D_Examples/blob/main/screenShots/02.2.EngineSpin.py.jpg)
@@ -84,7 +84,7 @@ Diese Dateien werden auch in der [Inventor Mentor Tutorium](http://www-evasion.i
 
 Du kannst den Quellcode dieser Skripte auf GitHub finden: [COIN3D Beispiele](https://github.com/MariwanJ/COIN3D_Examples).
 
-## Software zum Erlernen der COIN3D Bibliothek {#software_zum_erlernen_der_coin3d_bibliothek}
+## Software zum Erlernen der COIN3D Bibliothek 
 
 [CoinDesigner](http://coindesigner.sourceforge.net/), obwohl alt, ist ein nützliches Programm, wenn du verstehen willst, wie die Coin3D Bibliothek verwendet werden kann und wie du deinen eigenen Code sowohl im Inventor 2.x Format als auch für FreeCAD schreiben kannst.
 

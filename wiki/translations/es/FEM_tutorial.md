@@ -82,16 +82,16 @@ En este ejemplo un Cubo es utilizado como objeto de estudio, pero modelos creado
 
 Ahora tenemos un modelo con el que se puede trabajar.
 
-### Creating the Analysis {#creating_the_analysis}
+### Creating the Analysis 
 
 #### Netgen
 
 
 <div class="mw-translate-fuzzy">
 
-#### Creando el análisis {#creando_el_análisis}
+#### Creando el análisis 
 
-##### Netgen {#netgen_1}
+##### Netgen 
 
 1.  Seleccione el modelo
 2.  Clic en <img alt="" src=images/FEM_Analysis.png  style="width:32px;"> [Nuevo Análisis Mecánico](Fem_Analysis/es.md) desde el menú para crear un análisis con el objeto seleccionado
@@ -113,7 +113,7 @@ También es posible arrastrar y depositar una malla a un Análisis Mecánico que
 
 <div class="mw-translate-fuzzy">
 
-##### GMSH {#gmsh_1}
+##### GMSH 
 
 El uso del macro de psicofil es recomendado, y es usado para este ejemplo.
 
@@ -127,12 +127,12 @@ El uso del macro de psicofil es recomendado, y es usado para este ejemplo.
 
 Hemos mallado nuestro objeto y estamos listos para agregar restricciones y fuerzas.
 
-### Constraints and Forces {#constraints_and_forces}
+### Constraints and Forces 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Restricciones y Fuerzas {#restricciones_y_fuerzas}
+#### Restricciones y Fuerzas 
 
 1.  Oculte la malla desde la Vista de Árbol
 2.  Muestre el modelo original
@@ -148,12 +148,12 @@ Hemos mallado nuestro objeto y estamos listos para agregar restricciones y fuerz
 
 Hemos establecido las restricciones y fuerzas para nuestro estudio estático.
 
-### Final preparations {#final_preparations}
+### Final preparations 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Preparaciones finales {#preparaciones_finales}
+#### Preparaciones finales 
 
 1.  Seleccione <img alt="" src=images/FEM_Material.png  style="width:32px;"> [Material Mecánico\...](Fem_MechanicalMaterial/es.md) y seleccione Calculix como el material
 2.  Clic **OK**
@@ -161,9 +161,9 @@ Hemos establecido las restricciones y fuerzas para nuestro estudio estático.
 
 </div>
 
-### Running the Solver {#running_the_solver}
+### Running the Solver 
 
-#### Standard Procedure {#standard_procedure}
+#### Standard Procedure 
 
 1.  Select the solver object <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> contained in the 
 **Mechanical Analysis**
@@ -172,13 +172,13 @@ Hemos establecido las restricciones y fuerzas para nuestro estudio estático.
 4.  Select **Run Calculix**
 5.  Click **Close**
 
-#### Quick Procedure {#quick_procedure}
+#### Quick Procedure 
 
 1.  Select the solver object <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> contained in the 
 **Mechanical Analysis**
 2.  Click on <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Quick Analysis](FEM_SolverRun.md).
 
-### Analyzing Results {#analyzing_results}
+### Analyzing Results 
 
 1.  From the **Object Tree**, select the **Results** object
 2.  Select <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> [Show result](FEM_ResultShow.md)

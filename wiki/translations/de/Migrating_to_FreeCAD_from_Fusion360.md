@@ -4,7 +4,7 @@
 
 Diese Seite ist für Anwender gedacht, die aus der Fusion 360 Welt nach FreeCAD umsteigen möchten.
 
-## Was muss ich tun? {#was_muss_ich_tun}
+## Was muss ich tun? 
 
 1.  Das erste, was du tun musst, ist, deine Dateien aus proprietären Formaten und Speichern herauszuholen. Beginne mit dem Exportieren deiner Modelle aus der Cloud auf deinen lokalen Rechner.
     -   Eine beliebte Methode ist die Verwendung dieses [Fusion360 total exporter](https://github.com/Jnesselr/fusion-360-total-exporter) Skripts.
@@ -22,7 +22,7 @@ Verweise auf die [Glossar](Glossary/de.md) Seite im Allgemeinen, aber hier ist e
 -   Topobenennung - Kurz für [Topologisches Benennungsproblem](Topological_naming_problem/de.md). Wird sehr gut in [Brodie Fairhall\'s Youtube Kurzvideo](https://www.youtube.com/watch?v=6p2vqEEmWq4)\] behandelt.
 --   
 
-## Häufig Gestellte Fragen (HGF) {#häufig_gestellte_fragen_hgf}
+## Häufig Gestellte Fragen (HGF) 
 
 \#\* Welche Formate werden in FreeCAD unterstützt?
 

@@ -79,7 +79,7 @@ Estas son herramientas para crear objetos arquitectónicos.
     -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Material](Arch_MultiMaterial/es.md): Crea un multi-material y lo atribuye a objetos seleccionados, si hay alguno <small>(v0.17/es)</small> 
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Lista](Arch_Schedule/es.md): Crea diferentes tipos de listas
 
-### Herramientas de modificación {#herramientas_de_modificación}
+### Herramientas de modificación 
 
 Estas son herramientas para modificar objetos de arquitectura.
 
@@ -113,7 +113,7 @@ Estas son herramientas adicionales para ayudarte en tareas específicas.
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferencias](Arch_Preferences/es.md): preferencias por el aspecto predeterminado de los muros, estructuras, armaduras, ventanas, escaleras, paneles, tuberías, rejillas y hachas.
 
-### Formatos de archivo {#formatos_de_archivo}
+### Formatos de archivo 
 
 -   [IFC](Arch_IFC/es.md) : Industry foundation Classes
 -   [DAE](Arch_DAE/es.md) : Formato de malla de Collada

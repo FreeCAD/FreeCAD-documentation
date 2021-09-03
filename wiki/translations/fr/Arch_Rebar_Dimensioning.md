@@ -17,7 +17,7 @@ Remarque: le travail ci-dessous est présent dans la branche de développement d
 
 L\'outil [Dimensionnement des armatures](Arch_Rebar_Dimensioning/fr.md) permet à l\'utilisateur de créer des cotations pour les armatures dans [Dessin d\'armatures](Arch_Rebar_Drawing/fr.md).
 
-Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:1000px;">
 
@@ -53,7 +53,7 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 ```
 
-## L\'objet ReinforcementDimensioning {#lobjet_reinforcementdimensioning}
+## L\'objet ReinforcementDimensioning 
 
 Un objet de la vue SVG Dimensionnement des barres d\'armature.
 
@@ -128,7 +128,7 @@ Un objet de la vue SVG Dimensionnement des barres d\'armature.
 
 L\'outil [Dimensionnement des armatures](Arch_Rebar_Dimensioning/fr.md) peut être utilisé dans [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
 
-### Créer un objet de dimension d\'armature {#créer_un_objet_de_dimension_darmature}
+### Créer un objet de dimension d\'armature 
 
 
 ```python

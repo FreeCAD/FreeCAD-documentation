@@ -11,7 +11,7 @@ Aceasta pagina prezinta o mare parte dintre funcționalitățile FreeCAD. Daca d
 
 {{TOCright}}
 
-## Descrierea versiunilor {#descrierea_versiunilor}
+## Descrierea versiunilor 
 
 
 <div class="mw-translate-fuzzy">
@@ -27,7 +27,7 @@ Aceasta pagina prezinta o mare parte dintre funcționalitățile FreeCAD. Daca d
 
 </div>
 
-## Funcționalități importante {#funcționalități_importante}
+## Funcționalități importante 
 
 
 <div class="mw-translate-fuzzy">
@@ -52,7 +52,7 @@ Aceasta pagina prezinta o mare parte dintre funcționalitățile FreeCAD. Daca d
 
 <div class="mw-translate-fuzzy">
 
-## Funcționalități generale: {#funcționalități_generale}
+## Funcționalități generale: 
 
 
 </div>
@@ -259,7 +259,7 @@ este nedisponibilă, dar uneltele geometrice sunt accesibile.
 
 </div>
 
-## In lucru {#in_lucru}
+## In lucru 
 
 
 <div class="mw-translate-fuzzy">
@@ -272,7 +272,7 @@ este nedisponibilă, dar uneltele geometrice sunt accesibile.
 
 <div class="mw-translate-fuzzy">
 
-## Extra Workbenches {#extra_workbenches}
+## Extra Workbenches 
 
 Power users have created various custom [external workbenches](external_workbenches.md).
 

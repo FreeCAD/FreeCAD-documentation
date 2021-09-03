@@ -17,7 +17,7 @@ Il comando **Sezione da mesh e piano** crea una sezione trasversale attraverso u
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un singolo oggetto mesh e un singolo [piano di Part](Part_Primitives/it.md). Il piano (esteso) deve intersecare l\'oggetto mesh.
-2.  Selezionare l\'opzione {{MenuCommand|Mesh → Taglio → <img src="images/Mesh_SectionByPlane.svg" width=16px> Sezione da mesh e piano}} dal menu.
+2.  Selezionare l\'opzione **Mesh → Taglio → <img src="images/Mesh_SectionByPlane.svg" width=16px> Sezione da mesh e piano** dal menu.
 
 
 </div>

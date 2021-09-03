@@ -3,7 +3,7 @@
 
 {{TOCright}}
 
-## Descripción de esta lista {#descripción_de_esta_lista}
+## Descripción de esta lista 
 
 Bibliotecas complejas como [COIN3D](https://en.wikipedia.org/wiki/Coin3D) necesitan una buena documentación y buenos tutoriales. Por desgracia, no hay muchos tutoriales para la biblioteca COIN. Después de una larga búsqueda, se encontraron los ejemplos de código que aparecen a continuación. Han sido modificados para que puedan ser cargados en FreeCAD. Pero algún código puede fallar ya que estos ejemplos fueron creados para otros entornos. Encontrarás advertencias a tal efecto en el código.
 
@@ -11,7 +11,7 @@ Usuarios pueden ejecutar estos scripts como una [macro](Macro/es.md) o directame
 
 Estos archivos también se mencionan en el [Inventor Mentor tutorial](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/pr01.html) para el lenguaje C.
 
-## Lista de los archivos y sus capturas de pantalla (scripts de Python) {#lista_de_los_archivos_y_sus_capturas_de_pantalla_scripts_de_python}
+## Lista de los archivos y sus capturas de pantalla (scripts de Python) 
 
 -   [02.1.HelloCone.py](https://github.com/MariwanJ/COIN3D_Examples/blob/main/screenShots/02.1.HelloCone.py.jpg)
 -   [02.2.EngineSpin.py](https://github.com/MariwanJ/COIN3D_Examples/blob/main/screenShots/02.2.EngineSpin.py.jpg)
@@ -80,11 +80,11 @@ Estos archivos también se mencionan en el [Inventor Mentor tutorial](http://www
 -   17.2.GLCallback.py
 -   17.3.GLFloor.py
 
-## Código fuente {#código_fuente}
+## Código fuente 
 
 Puede encontrar el código fuente de estos scripts en GitHub: [COIN3D ejemplos](https://github.com/MariwanJ/COIN3D_Examples).
 
-## Software para el aprendizaje de la biblioteca COIN3D {#software_para_el_aprendizaje_de_la_biblioteca_coin3d}
+## Software para el aprendizaje de la biblioteca COIN3D 
 
 [CoinDesigner](http://coindesigner.sourceforge.net/), aunque antiguo, es un programa útil si quieres entender cómo se puede utilizar la biblioteca Coin3D, y cómo puedes escribir tu propio código tanto en el formato de Inventor 2.x como para FreeCAD.
 

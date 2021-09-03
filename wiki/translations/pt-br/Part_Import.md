@@ -13,7 +13,7 @@ The **<img src="images/Part_Import.svg" width=16px> [Part Import](Part_Import.md
 ## Usage
 
 1.  Set up the [Import Export Preferences](Import_Export_Preferences.md) in the [Preferences Editor](Preferences_Editor.md).
-2.  Go to the menu {{MenuCommand|Part →  <img src=images/Part_Import.svg style="width:16px"> Import CAD}}.
+2.  Go to the menu **Part →  <img src=images/Part_Import.svg style="width:16px"> Import CAD**.
 3.  Select the file to be imported.
 
 

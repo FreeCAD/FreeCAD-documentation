@@ -27,7 +27,7 @@ Gli [24px](Immagine:Workbench_Draft.svg.md)\] [Ambiente Bozza](Draft_Module/it.m
 
 L\'ancoraggio è disponibile con la maggior parte degli strumenti di [Draft](Draft_Workbench/it.md) e di [Architettura](Arch_Workbench/‭it.md), e può essere attivato o disattivato globalmente con il pulsante **<img src="images/Snap_Lock.svg" width=16px> [Aggancia](Draft_ToggleSnap/it.md)**.
 
-Ogni funzione, può essere attivata o disattivata singolarmente facendo clic sul corrispondente pulsante nella barra di questi strumenti, {{MenuCommand|Visualizza → Barre degli strumenti → Snap}}.
+Ogni funzione, può essere attivata o disattivata singolarmente facendo clic sul corrispondente pulsante nella barra di questi strumenti, **Visualizza → Barre degli strumenti → Snap**.
 
 
 </div>
@@ -43,7 +43,7 @@ Ogni funzione, può essere attivata o disattivata singolarmente facendo clic sul
 
 </div>
 
-## Snap tools {#snap_tools}
+## Snap tools 
 
 These tools are available in the Draft Snap toolbar and in the [Draft snap widget](Draft_snap_widget.md).
 
@@ -84,7 +84,7 @@ Note that circular edges do not have to be full circles.
 
 <div class="mw-translate-fuzzy">
 
-### Aggancio avanzato {#aggancio_avanzato}
+### Aggancio avanzato 
 
 
 </div>

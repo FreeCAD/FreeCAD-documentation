@@ -27,10 +27,10 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 1.  Düzenlemek istediğiniz nesneleri seçin.
-2.  Sağ tıklayın ve {{MenuCommand|Araçlar → <img src="images/Draft_AddToGroup.png" width=16px> [Gruba taşı](Draft_AddToGroup.md)}} yı seçin.
+2.  Sağ tıklayın ve **Araçlar → <img src="images/Draft_AddToGroup.png" width=16px> [Gruba taşı](Draft_AddToGroup.md)** yı seçin.
 3.  İstediğiniz grubu seçin veya \"Grubu Çöz\" ü tıklayın
 
 

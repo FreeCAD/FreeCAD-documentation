@@ -20,7 +20,7 @@ Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggett
 1.  Premere il pulsante **<img src="images/BIM_Library.png" width=16px> '''Libreria BIM'''
 **
 
-    :   Risultato: nella [vista combinata](Combo_view/it.md) → [pannello delle azioni](Task_panel/it.md) viene visualizzata una finestra di dialogo denominata {{MenuCommand|Browser della libreria}}
+    :   Risultato: nella [vista combinata](Combo_view/it.md) → [pannello delle azioni](Task_panel/it.md) viene visualizzata una finestra di dialogo denominata **Browser della libreria**
 2.  Fare clic su un file del Browser della libreria
 3.  Fare doppio clic su di esso o premere il pulsante **Inserisci**
 4.  Fare clic su un punto nella [vista 3D](3D_view/it.md) o inserire manualmente una coordinata per posizionare l\'oggetto

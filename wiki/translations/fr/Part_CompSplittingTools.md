@@ -10,7 +10,7 @@
 
 Une collection d\'outils pour séparer.
 
-## Types de fractionnement {#types_de_fractionnement}
+## Types de fractionnement 
 
 -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Fragments booléens](Part_BooleanFragments/fr.md) : crée toutes les pièces pouvant être obtenues par des opérations booléennes entre objets.
 -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Séparer/exploser](Part_SliceApart/fr.md) : outil pour séparer des formes par intersection avec d\'autres formes.

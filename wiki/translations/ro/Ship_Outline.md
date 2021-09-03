@@ -16,7 +16,7 @@ De făcut
 
 Plots the ship hull outline draw
 
-## Desenarea Liniilor {#desenarea_liniilor}
+## Desenarea Liniilor 
 
 FreeCAD-Ship furnizează un instrument care facilitează obținerea unui Line Plan de la desenul liniilor navei
 
@@ -44,7 +44,7 @@ Linia de desen este un set de linii din secțiuni tăiate în toate cele trei ax
 
 <div class="mw-translate-fuzzy">
 
-### Secțiuni transversale {#secțiuni_transversale}
+### Secțiuni transversale 
 
 De obicei, trebuie efectuate 21 de secțiuni transversale echidistante între perpendiculare. pentru a face acest lucru, FreeCAD oferă un instrument automat pentru a face acest lucru, pur și simplu selectați tipul de secțiune transversală, mergeți la caseta \"Creare automată\" și setați secțiunile \"21\" , apoi apăsați \'\' \'Creare secțiuni\' \'\'.
 
@@ -71,7 +71,7 @@ Tabelul secțiunilor este umplut, iar previzualizarea secțiunilor numit **Outli
 
 <div class="mw-translate-fuzzy">
 
-### Secțiunile Longitudinale {#secțiunile_longitudinale}
+### Secțiunile Longitudinale 
 
 Două secțiuni longitudinale trebuie adăugate, așa că selectați **Longitudinal** ca tip de secțiune, mergeți la caseta *Auto create*\' și setați **2** secțiuni, apoi apăsăsați **Create sections**. Tabela secțiunii este completată și previzualizarea secțiunilor este actualizată.
 
@@ -81,7 +81,7 @@ Două secțiuni longitudinale trebuie adăugate, așa că selectați **Longitudi
 
 <div class="mw-translate-fuzzy">
 
-### Linii de plutire {#linii_de_plutire}
+### Linii de plutire 
 
 6 Linii de plutire Trebuie să adăugați între linia de bază și schița de proiectare, deci selectați tipul secțiunilor \"Waterlines\" \"\", mergeți la caseta \"Creare automată\" și setați \"5\" (Z = 0 m nu va fi luată în considerare, adăugați-o manual dacă aveți nevoie de ea), apoi apăsați \'\' \'Creare secțiuni\' \'\'. Tabelul secțiunilor este umplut și previzualizarea secțiunilor este actualizată.
 
@@ -99,7 +99,7 @@ Several additional waterlines must be added:
 
 <div class="mw-translate-fuzzy">
 
-### Perform plot {#perform_plot}
+### Perform plot 
 
 Select **1:100** scale and press **Accept** to let the tool to generate the 3D sections in a new object.
 

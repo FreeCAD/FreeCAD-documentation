@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 {{TutorialInfo
@@ -26,7 +26,7 @@ Come indicato nell\'avviso a inizio pagina, questo **tutorial non funziona se no
 
 </div>
 
-## Purpose in Brief {#purpose_in_brief}
+## Purpose in Brief 
 
 The purpose of the tutorial is to introduce you to two different work flows for creating a cast part with drafts and fillets. Depending on what other CAD programs you have been using, one or the other might be familiar to you. As a working example we will be modeling a simple bearing holder.
 
@@ -36,17 +36,17 @@ Ovviamente, per seguire questo tutorial è necessario attivare l\'ambiente PartD
 
 ~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 questo link](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_questo_link.md)~~ *Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento*.
 
-## Dati di progetto {#dati_di_progetto}
+## Dati di progetto 
 
 Il supporto deve essere in grado di contenere un cuscinetto di 90 mm di diametro con una larghezza fino a 33 mm (ad esempio, DIN 630 tipo 2308). Il cuscinetto richiede una spalla alta almeno 4,5 mm nel supporto (e sull\'albero). La parte superiore del supporto è imbullonata al fondo con due bulloni di 12 mm. A fianco del cuscinetto ci deve essere una scanalatura su entrambi i lati capace di contenere un anello di tenuta standard sull\'albero DIN 3760: 38x55x7 o 40x55x7 su un lato e 50x68x8 sull\'altro lato.
 
 Il supporto sarà prodotto con un getto in sabbia con uno spessore minimo della parete di 5 mm, un angolo di sforno con di 2 gradi e un raggio di raccordo minimo di 3 mm .
 
-## Impostazione della geometria di scheletro {#impostazione_della_geometria_di_scheletro}
+## Impostazione della geometria di scheletro 
 
 ![Sketch della geometria scheletro\|thumb\|right\|400px](images/HolderTop2-2.png ) Creare una nuova parte nell\'ambiente PartDesign. Rinominare il corpo da come viene creato per impostazione predefinita in \"Skeleton\". Questo corpo probabilmente è già attivato, cosa che si può vedere dallo sfondo blu nell\'albero delle proprietà. Creare un nuovo schizzo sul piano YZ contenente il contorno dell\'albero, i cuscinetti e gli anelli di tenuta. Dopo aver terminato lo schizzo, eseguire con esso una operazione di rivoluzione. Questa funzione \"Scheletro\" sarà utilizzata successivamente come riferimento per la geometria reale. In questo modo se si desidera modificare le dimensioni, basta regolare le dimensioni della funzione scheletro e il resto della parte viene aggiornato di conseguenza. ![La geometria scheletro\|thumb\|right\|400px](images/HolderTop2-2-1.jpg )
 
-## Il corpo principale {#il_corpo_principale}
+## Il corpo principale 
 
 ![Schizzo della prima estrusione\|thumb\|right\|400px](images/HolderTop2-3.jpg ) Creare un nuovo corpo e renderlo attivo. Lo schizzo della prima estrusione è mostrato a destra. Esso è posto su un piano di riferimento, con un offset di 5 mm (lo spessore della parete) dalla faccia che nello scheletro definisce un fianco (esterno) di uno degli anelli di tenuta del cuscinetto. Poiché tutte le dimensioni importanti sono prese dallo scheletro, ci sono solo tre dimensioni: l\'entità della lavorazione (3 mm) alla base come offset per il piano XY, lo spessore della parete 5 mm dal diametro esterno dello scheletro, e i 2 gradi dell\'angolo di sformo. Per creare la dimensione 5 mm, è necessario prima selezionare il cerchio esterno (raggio 45 mm) della geometria scheletro come \"geometria esterna\" dello schizzo, e poi aggiungere una linea di costruzione tangente e vincolata a questo cerchio con un angolo di due gradi.
 
@@ -57,7 +57,7 @@ Probabilmente vi starete chiedendo perché c\'è questo piccolo segmento dritto 
 ![Piano neutro per applicare lo sformo\|thumb\|right\|400px](images/HolderTop2-7.jpg ) Ora è il momento di creare gli sformi e i raccordi. L\'operazione di sformo richiede un piano neutro, questo significa che la geometria che è tagliata da questo piano rimarrà al suo posto, mentre il resto della faccia viene inclinato secondo l\'angolo di sformo. Usare il piano della base del Pad come piano neutro non è una buona idea poiché lo spessore della parete nella parte superiore del supporto diventerebbe meno di 5 mm. Quindi per questa operazione creiamo un piano di Riferimento con un offset di circa 35 mm da XY. Attivare il corpo Scheletro e creare lì il piano, perché ne avremo ancora bisogno per applicare degli sformi ad altri corpi.
 ![Primo corpo con sformi e raccordi\|thumb\|right\|400px](images/HolderTop2-8.jpg ) L\'immagine a destra mostra il primo corpo finito con gli sformi e i raccordi applicati. Notare che i bordi esterni (concavo) hanno un raggio di raccordo maggiore di 5 mm, sempre con lo scopo di creare uno spessore della parete il più uniforme possibile (più di 5 mm non è possibile perché altrimenti dopo la lavorazione interna del supporto lo spessore della parete diventa inferiore a 5 mm).
 
-## Aggiungere i corpi per i bulloni {#aggiungere_i_corpi_per_i_bulloni}
+## Aggiungere i corpi per i bulloni 
 
 ![Sketch con il disegno della parte per i bulloni\|thumb\|right\|400px](images/HolderTop2-13.jpg ) I bulloni hanno bisogno di due corpi cilindrici su entrambi i lati del corpo principale. E\' meglio inserire lo sformo di 2 gradi nel disegno. Ho provato a creare un cilindro con una rotazione e applicarvi successivamente uno sformo, ma dopo il mirroring sono successe delle strane cose e non ho potuto applicarvi i raccordi, perché la superficie era in qualche modo deformata.
 
@@ -66,7 +66,7 @@ Lo schizzo è dimensionato in modo che l\'asse di rotazione sia distante 12 mm d
 ![I corpi per i bulloni\|thumb\|right\|400px](images/HolderTop2-14.jpg ) Creare una rivoluzione dallo schizzo e applicare un raccordo di 4 mm al bordo superiore. In questo modo, dopo la lavorazione in cui si asportano 3 mm, rimane ancora un lieve raccordo che permette di evitare che il bordo sia tagliente e che qualcuno possa ferirsi durante il serraggio dei bulloni.
 ![Il corpo principale con i due corpi per i bulloni\|thumb\|right\|400px](images/HolderTop2-16.jpg ) Creare una funzione booleana per fondere il corpo principale con il corpo per il bullone. Quindi creare un nuovo corpo per l\'altro lato. Duplicare lo schizzo della rivoluzione, spostarlo in questo corpo e creare il secondo corpo per i bulloni (il mirroring di un corpo non è ancora supportato, quindi è necessario rifarlo per la maggior parte). Poi fondere anche questo secondo corpo nel corpo principale. Infine applicare un grande raccordo sul bordo creato con l\'operazione di fusione booleana, il bordo tra il corpo principale e il corpo per i bulloni. Il più grande che ho potuto ottenere è di 4 mm.
 
-## Scavare il corpo principale {#scavare_il_corpo_principale}
+## Scavare il corpo principale 
 
 ![Il primo Pad del corpo dello scavo all\'interno del corpo principale\|thumb\|right\|300px](images/HolderTop2-9.jpg ) Passare ora a lavorare sulla parte interna del supporto e scavare per creare lo spazio per il cuscinetto e per gli anelli di tenuta. Nel fare questo, naturalmente, bisogna tenere a mente il sovrametallo di 3 mm. Dal momento che questo tutorial insegna il metodo \"multi-corpo\", prima si crea la geometria interna come un corpo separato e poi la si aporta dal corpo principale con una operazione booleana.
 
@@ -87,7 +87,7 @@ Per il resto della lavorazione, creare un nuovo corpo. La parte inferiore del su
 ![Il corpo della lavorazione\|thumb\|right\|400px](images/HolderTop2-18.jpg ) È possibile eseguire il mirroring della rivoluzione sugli assi YZ. L\'immagine a destra mostra il \"Corpo lavorazione\". Naturalmente, la maggior parte delle dimensioni dei Pad e delle Rivoluzioni non sono importanti finché vi è abbondanza di sovrapposizione.
 ![Il supporto finito con le lavorazioni\|thumb\|right\|400px](images/HolderTop2-19.jpg ) Infine, creare una operazione booleana per asportare il Corpo lavorazione dal Corpo principale. Se si desidera un piacevole effetto visivo, è possibile colorare le superfici lavorate in modo diverso dal resto del pezzo. Questo costituisce anche un utile controllo visivo per individuare eventuali lavorazioni dimenticate.
 
-## Parte Uno {#parte_uno}
+## Parte Uno 
 
 [PartDesign Bearingholder Tutorial I](PartDesign_Bearingholder_Tutorial_I/it.md)
 

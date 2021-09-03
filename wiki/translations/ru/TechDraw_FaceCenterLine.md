@@ -23,7 +23,7 @@ The FaceCenterLine tool adds a centerline to selected faces.
 
 To delete a Centerline, select it and use the toolbar button **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md)**.
 
-## Правка Осевой Линии {#правка_осевой_линии}
+## Правка Осевой Линии 
 
 Any of the centerline command buttons (**<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Add Centerline to Face(s)**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Add Centerline between 2 Lines](TechDraw_2LineCenterLine.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Add Centerline between 2 Points](TechDraw_2PointCenterLine.md)**) can be used to edit any centerline.
 

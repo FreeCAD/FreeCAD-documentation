@@ -16,7 +16,7 @@ The body tube tool can be used to create many components other than body tubes, 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_BodyTube.svg" width=16px> [Body Tube](Rocket_BodyTube.md)** button.
-    -   Select the {{MenuCommand|Rocket → <img src="images/Rocket_BodyTube.svg" width=16px> Body Tube}} option from the menu.
+    -   Select the **Rocket → <img src="images/Rocket_BodyTube.svg" width=16px> Body Tube** option from the menu.
     -   Double click on a Body Tube object in the model view.
 2.  Set options and press **OK**.
 
@@ -50,7 +50,7 @@ See also: [:Category:API](:Category:API.md) and [FreeCAD Scripting Basics](FreeC
 
 TBD
 
-## Tutorials and Learning {#tutorials_and_learning}
+## Tutorials and Learning 
 
 [Rocket Workbench Body Tubes, Bulkheads, and Centering Rings](https://youtu.be/xi7acpw3eDA) Tutorial on YouTube
 

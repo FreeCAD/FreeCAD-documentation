@@ -27,11 +27,11 @@ Vous avez besoin du [compilateur Asymptote](https://sourceforge.net/projects/asy
 Le compilateur est un outil de ligne de commande. Pour convertir en PDF, vous pouvez utiliser cette syntaxe: 
 ```pythonPathToAsyExecutable/asy -f pdf AsymptoteFileName.asy```
 
-## En relation {#en_relation}
+## En relation 
 
 -   [Import Export](Import_Export/fr.md)
 
-## Tutoriels vidéo {#tutoriels_vidéo}
+## Tutoriels vidéo 
 
 Les vidéos suivantes sont en espagnol :
 

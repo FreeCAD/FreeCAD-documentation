@@ -78,11 +78,11 @@ Other
 
 ## Installation
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 To use this workbench clone this git repository under your FreeCAD Mod directory, and install the pyside and numpy python libraries. On a Linux Debian based system such as Ubuntu, installation can be done through BASH as follows
 
@@ -135,7 +135,7 @@ To update to the latest version, delete the assembly2 folder and redownload the 
 -   Files:
 -   Report bugs: Please report bugs at <https://github.com/hamish2014/FreeCAD_assembly2/issues>
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [Animation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Animation): This Workbench can be used to create sequences of pictures.
 -   [ExplodedAnimation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:ExplodedAnimation): FreeCAD workbench to create exploded views and animations of assemblies.

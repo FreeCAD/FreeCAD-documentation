@@ -15,7 +15,7 @@ Der Befehl funktioniert nur für Punktwolken, deren Punkte, aus einer bestimmten
 
 1.  Der Befehl geht davon aus, dass die Blickrichtung der Punktwolke parallel zur Z Achse des globalen Koordinatensystems ist. Wenn dies nicht der Fall ist: Passe die **Platzierung** des Punktwolkenobjekts entsprechend an.
 2.  Wähle das Punktwolkenobjekt.
-3.  Wähle die {{MenuCommand|Punkte → Strukturierte Punktwolke}} Option aus dem Menü.
+3.  Wähle die **Punkte → Strukturierte Punktwolke** Option aus dem Menü.
 
 ## Eigenschaften
 

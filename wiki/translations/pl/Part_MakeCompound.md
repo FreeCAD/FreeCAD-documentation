@@ -17,13 +17,13 @@ Złożenie jest zbiorem kształtów zgrupowanych w jednym obiekcie.
 ## Użycie
 
 1.  Zaznacz w [widoku drzewa](Tree_view/pl.md) drzewa kształty topologiczne, które mają zostać dodane do złożenia,
-2.  Wybierz z menu {{MenuCommand|Część → Złożenie → Utwórz kształt złożony}} lub kliknij na przycisk <img alt="" src=images/Part_Compound.svg  style="width:24px;">
+2.  Wybierz z menu **Część → Złożenie → Utwórz kształt złożony** lub kliknij na przycisk <img alt="" src=images/Part_Compound.svg  style="width:24px;">
 
 ## Uwagi
 
 Złożenie zawierające elementy, które przecinają się lub dotykają, jest **nieprawidłowy** dla operacji logicznych. Ze względu na problemy z wydajnością, sprawdzanie czy elementy się przecinają nie jest wykonywane domyślnie. Automatyczne sprawdzanie geometrii *(dostępne dla operacji logicznych)* jest również wyłączone dla operacji złożenia części.
 
-Aby uaktywnić tę kontrolę, przejdź do {{MenuCommand|Narzędzia → Edycja Parametrów → Preferences... → Mod → Part → CheckGeometry → RunBOPCheck}} i ustaw parametr na `true`.
+Aby uaktywnić tę kontrolę, przejdź do **Narzędzia → Edycja Parametrów → Preferences... → Mod → Part → CheckGeometry → RunBOPCheck** i ustaw parametr na `true`.
 
 
 

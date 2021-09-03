@@ -24,7 +24,7 @@ OpenCASCADE est un composant central de FreeCAD, donc si vous installez FreeCAD 
 
 Cependant, si vous souhaitez développer des applications qui utilisent OCCT ou si vous souhaitez contribuer au code C ++ à FreeCAD, vous devez installer les fichiers de développement d\'OCCT. Dans ce cas, la procédure est expliquée dans [Compilation](Compiling/fr.md) pour chacun des principaux systèmes, Linux, Windows et MacOS.
 
-## Édition communautaire {#édition_communautaire}
+## Édition communautaire 
 
 Une \"édition communautaire\" d\'OpenCASCADE, abrégée OCE, a été publiée en 2011, basée sur les sources officielles d\'OpenCASCADE (OCCT) de la version 6.5. En théorie, l\'édition communautaire OCE devrait être compatible avec la version principale OCCT dans la plupart des aspects, tout en ayant du code supplémentaire fourni par la communauté.
 
@@ -38,7 +38,7 @@ Le noyau géométrique Cas.CADE était à l\'origine fermé, mais il est devenu 
 
 La version 6.6 d\'OpenCASCADE et les versions antérieures étaient régies par sa propre \"licence publique OCCT\", ce qui en faisait un \"logiciel libre\". Ce problème a été résolu avec la sortie d\'OCCT 6.7 (2013), lors de l\'adoption de la licence LGPL2.
 
-## OCCT concepts géométriques {#occt_concepts_géométriques}
+## OCCT concepts géométriques 
 
 Dans la terminologie OpenCascade, nous faisons la distinction entre les primitives géométriques et les formes (topologiques). Une primitive géométrique peut être un point, une ligne, un cercle, un plan, etc. ou même certains types plus complexes, comme une courbe B-Spline ou une surface. Une forme (shape en anglais) peut être un sommet, une arête, un fil, une face, un solide ou un composé d\'autres formes. Les primitives géométriques ne sont pas faites pour être affichées directement sur la scène 3D, mais plutôt pour être utilisées comme géométrie de construction des formes. Par exemple, une arête peut être construite à partir d\'une ligne ou d\'une partie de cercle.
 
@@ -70,7 +70,7 @@ Ainsi, à partir de formes, vous pouvez créer des pièces très complexes ou, i
 
 *La classe `Part::TopoShape* est l'objet géométrique visible à l'écran. Essentiellement, tous les ateliers utilisent ces [TopoShapes](Part_TopoShape/fr.md) en interne pour créer et afficher des arêtes, des faces et des solides.`
 
-## En relation {#en_relation}
+## En relation 
 
 -   OpenCASCADE Technology (OCCT) [site principale](http://www.opencascade.com)
 -   OCCT [portail de développement](https://dev.opencascade.org/)

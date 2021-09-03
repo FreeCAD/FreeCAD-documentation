@@ -17,7 +17,7 @@ Lo strumento [Armatura sagomata](Arch_Rebar_BentShape/it.md) consente all\'utent
 
 Lo strumento **Armatura sagomata** è anche integrato in [BIM](BIM_Workbench/it.md).
 
-Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}.
+Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;"> 
 *Due serie di barre di rinforzo piegate all'interno di una [Struttura](Arch_Structure/it.md)*
@@ -121,7 +121,7 @@ Rebar2 = BentShapeRebar.makeBentShapeRebar(50, 40, 20, 20,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9) 
 ```
 
-### Modifica delle barre {#modifica_delle_barre}
+### Modifica delle barre 
 
 È possibile modificare le proprietà dell\'armatura con la seguente funzione:
 

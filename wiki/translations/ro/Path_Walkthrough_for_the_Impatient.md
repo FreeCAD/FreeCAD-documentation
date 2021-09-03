@@ -26,7 +26,7 @@ Iată o demonstrație care arată modul de creare a unei sarcini WB Path plecân
 
 </div>
 
-## Modelul 3D {#modelul_3d}
+## Modelul 3D 
 
 
 <div class="mw-translate-fuzzy">
@@ -63,7 +63,7 @@ With the 3D Model completed, the Path Workbench is selected.
 
 <div class="mw-translate-fuzzy">
 
-## Sarcina de lucru {#sarcina_de_lucru}
+## Sarcina de lucru 
 
 The <img alt="" src=images/Path-Job.png  style="width:32px;"> [Job](Path_Job.md) is created.
 
@@ -86,7 +86,7 @@ The <img alt="" src=images/Path-Job.png  style="width:32px;"> [Job](Path_Job.md)
 
 </div>
 
-### Definirea Sarcinii de lucru {#definirea_sarcinii_de_lucru}
+### Definirea Sarcinii de lucru 
 
 
 <div class="mw-translate-fuzzy">
@@ -96,7 +96,7 @@ Fereastra Edit Job se deschide în fereastra Task și fereastra Model afișează
 
 </div>
 
-### REzultatul sarcinii de lucru {#rezultatul_sarcinii_de_lucru}
+### REzultatul sarcinii de lucru 
 
 
 <div class="mw-translate-fuzzy">
@@ -114,7 +114,7 @@ Tab-ul Output definește calea spre fișierul rezultat, numele și extensia fiș
 
 </div>
 
-### Instrumentele Sarcinii de lucru {#instrumentele_sarcinii_de_lucru}
+### Instrumentele Sarcinii de lucru 
 
 
 <div class="mw-translate-fuzzy">
@@ -180,7 +180,7 @@ Pentru accesul facil, toate instrumentele pot fi predefinite [Tool manager](Path
 
 </div>
 
-### Planul de lucru al Sarcinii de Lucru {#planul_de_lucru_al_sarcinii_de_lucru}
+### Planul de lucru al Sarcinii de Lucru 
 
 
 <div class="mw-translate-fuzzy">
@@ -200,7 +200,7 @@ Această arborescență este afișată după configurarea Sarcinii de lucru odat
 
 </div>
 
-## Operații cu Traiectoria {#operații_cu_traiectoria}
+## Operații cu Traiectoria 
 
 
 <div class="mw-translate-fuzzy">
@@ -254,7 +254,7 @@ The result is a model with two paths:
 
 </div>
 
-## Verificarea Traiectoriei {#verificarea_traiectoriei}
+## Verificarea Traiectoriei 
 
 Există două modalități de verificare a traiectoriilor create. Codul G poate fi inspectat, incluzând evidențierea segmentelor de cale corespunzătoare. Procesul de frezare a traiectoriei de lucru poate fi, de asemenea, simulat pentru a demonstra traiectoriile de unelte idealizate, necesare pentru ca geometria uneltelor să frezeze Semifabricatul.
 
@@ -300,7 +300,7 @@ If you want to end the simulation click the Cancel button, it will remove the st
 
 </div>
 
-## Postprocess the Job {#postprocess_the_job}
+## Postprocess the Job 
 
 Ultimul pas în generarea Codului G pentru mașina de frezare țintă este post-procesarea sarcinii de lucru. Aceasta generează codurile G într-un fișier care poate fi încărcat la controlerul de mașinii țintă CNC. Pentru a apela postprocesorul:
 

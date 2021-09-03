@@ -79,7 +79,7 @@ Der Skizzierer Arbeitsbereich enthält Werkzeuge zum Erstellen und Bearbeiten ko
   <img alt="" src=images/Constraint_InternalAlignment.svg  style="width:32px;"> [Innenausrichtung](Sketcher_ConstrainInternalAlignment/de.md)   Richtet ausgewählte Elemente an ausgewählten Form aus (z.B. eine Linie, die zur Hauptachse einer Ellipse wird)                                                                            <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Skizze zuweisen](Sketcher_MapSketch/de.md)                                     Weist eine Skizze der zuvor ausgewählten Seite eines Volumenkörpers zu
   <img alt="" src=images/Sketcher_MergeSketch.svg  style="width:32px;"> [Zusammenführen](Sketcher_MergeSketches/de.md)                                  Zwei oder mehrere Skizzen zusammenführen                                                                                                                                                  <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Spiegeln](Sketcher_MirrorSketch/de.md)                                   Spiegelt ausgewählte Elemente einer Skizze
 
-### Part Design {#part_design}
+### Part Design 
 
 Der Part Design Arbeitsbereich enthält fortgeschrittene Werkzeuge zum Erstellen von Volumenteilen. Sie enthält auch alle Werkzeuge aus dem Skizzierer. Da sie nur feste Formen erzeugen kann (die Regel Nummer eins der Teilekonstruktion), ist sie die Hauptarbeitsstation, die bei der Konstruktion von Teilen, die hergestellt oder in 3D ausgedruckt werden sollen, verwendet wird, da Sie immer ein druckbares Objekt erhalten.
 
@@ -126,7 +126,7 @@ Der Arbeitsbereich Zeichnung übernimmt die Erstellung und Bearbeitung von 2D Ze
   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> [Symbol](Drawing_Symbol/de.md)                          Fügt den Inhalt einer SVG Datei als Symbol auf dem aktuellen Zeichnungsblatt hinzu   <img alt="" src=images/Drawing_DraftView.png  style="width:32px;"> [Entwurfsansicht](Drawing_DraftView/de.md)               Fügt eine spezielle Entwurfsansicht des ausgewählten Objekts in das aktuelle Zeichnungsblatt ein
   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Speichern](Drawing_Save/de.md)                             Speichert das aktuelle Blatt als SVG Datei                                                                                                                                                                               
 
-### Andere eingebaute Arbeitsbereiche {#andere_eingebaute_arbeitsbereiche}
+### Andere eingebaute Arbeitsbereiche 
 
 Obwohl das oben genannte die wichtigsten Werkzeuge von FreeCAD zusammenfasst, sind viele weitere Arbeitsbereiche verfügbar, darunter:
 
@@ -138,7 +138,7 @@ Der Polygonnetz Arbeitsbereich bietet auch eine Reihe von Teil-zu-Netz und Netz-
 -   Der [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md) gestattet die Erstellung und Veränderung von Tabellenkalkulationsdaten, die aus FreeCAD Modellen extrahiert werden können. Tabellenkalkulationszellen können auch in vielen Bereichen von FreeCAD referenziert werden, so dass sie als Stammdatenstrukturen verwendet werden können.
 -   Der [FEM Arbeitsbereich](FEM_Workbench/de.md) beschäftigt sich mit [Finite-Elemente-Methode](https://de.wikipedia.org/wiki/Finite-Elemente-Methode) und gestattet die Durchführung von Vor- und Nach-Bearbeitung von FEM Berechnungen und die grafische Darstellung der Ergebnisse.
 
-### Externe Arbeitsbereiche {#externe_arbeitsbereiche}
+### Externe Arbeitsbereiche 
 
 Es gibt auch eine Reihe anderer sehr nützlicher Arbeitsbereiche, die von Mitgliedern der FreeCAD Gemeinschaft hergestellt wurden. Obwohl sie nicht in einer Standard FreeCAD Installation enthalten sind, lassen sie sich als Plug-Ins einfach installieren. Sie sind alle im [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) Repositorium referenziert. Zu den am weitesten entwickelten gehören:
 

@@ -12,7 +12,7 @@ La **Draft Barre** permet de sélectionner le plan de travail, de définir les p
 
 ![](images/Draft_tray_default.png ) *La Draft Barre*
 
-## Outils disponibles {#outils_disponibles}
+## Outils disponibles 
 
 -   ![](images/Draft_tray_button_plane.png ) [Plan de travail](Draft_SelectPlane/fr.md): sélectionne le plan de travail en cours de Draft.
 

@@ -20,7 +20,7 @@
     -   Utilisez la touche **Ctrl** pour sélectionner plusieurs visages. Les visages doivent être fermés ensemble. L\'image ci-dessus montre 4 faces qui constituaient la seule aile solide.
 3.  Pour appeler la commande, effectuez l\'une des opérations suivantes:
     -   Appuyez sur le bouton <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;">
-    -   Utilisez l\'entrée {{MenuCommand|Misc. → Parametric solid}} dans le menu Curves
+    -   Utilisez l\'entrée **Misc. → Parametric solid** dans le menu Curves
 4.  La forme créée peut être utilisée comme solide dans un autre atelier (c.-à-d. <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) ou <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md)). Il a du volume et du poids.
 
 ## Remarques

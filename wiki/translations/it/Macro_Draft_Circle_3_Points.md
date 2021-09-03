@@ -105,7 +105,7 @@ else:
 
 }}
 
-## Versione migliorata {#versione_migliorata}
+## Versione migliorata 
 
 In aggiunta alle caratteristiche precedenti, questo esempio serve per costruire un cerchio in posizione ortogonale su ciascuna forme selezionate, e sul piano **XY, YZ, XZ** scelto.
 Il cerchio assume il colore dell\'asse a cui si riferisce, indipendentemente dal colore corrente, e può essere disegnato il centro del cerchio (opzione O/N).

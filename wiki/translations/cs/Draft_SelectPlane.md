@@ -24,7 +24,7 @@ Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelsk
 <img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
 *Shapes created on different working planes*
 
-## Usage with pre-selection {#usage_with_pre_selection}
+## Usage with pre-selection 
 
 1.  Do one of the following:
     -   Select a single object. The following objects are supported:
@@ -42,17 +42,17 @@ Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelsk
         -   A straight edge and a vertex that does not lie on the (extended) edge.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the {{MenuCommand|Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane}} option from the menu.
+    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
     -   Use the keyboard shortcut: **W** then **P**.
 3.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
-## Usage with post-selection {#usage_with_post_selection}
+## Usage with post-selection 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the {{MenuCommand|Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane}} option from the menu.
+    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
     -   Use the keyboard shortcut: **W** then **P**.
-2.  The {{MenuCommand|Working plane setup}} task panel opens. See [Options](#Options.md) for more information.
+2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
 3.  Do one of the following:
     -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md) for the supported objects.
     -   Select one or more subelements. You can select:
@@ -61,13 +61,13 @@ Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelsk
 4.  Click anywhere in the [3D view](3D_view.md) to confirm the selection and finish the command.
 5.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
-## Usage with presets {#usage_with_presets}
+## Usage with presets 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the {{MenuCommand|Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane}} option from the menu.
+    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
     -   Use the keyboard shortcut: **W** then **P**.
-2.  The {{MenuCommand|Working plane setup}} task panel opens. See [Options](#Options.md) for more information.
+2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
 3.  Press any of the buttons to finish the command.
 4.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
@@ -97,9 +97,9 @@ Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelsk
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The grid settings in the task panel as well as several other grid settings are available as preferences: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Grid}}.
--   To use the grid the {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid}} option must be selected. After changing this preference you must restart FreeCAD.
--   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange}}.
+-   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   To use the grid the **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid** option must be selected. After changing this preference you must restart FreeCAD.
+-   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
 ## Scripting
 

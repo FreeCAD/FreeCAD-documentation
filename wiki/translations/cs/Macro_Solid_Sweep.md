@@ -34,7 +34,7 @@ Musí být podotknuto, že výsledné těleso **nebude** parametrické. Jestliž
 
 <div class="mw-translate-fuzzy">
 
-## Podporované 2D prvky {#podporované_2d_prvky}
+## Podporované 2D prvky 
 
 -   Dráty
 -   <img alt="" src=images/Sketcher_NewSketch.png  style="width:32px;"> [Náčrty](Sketcher_Workbench.md)

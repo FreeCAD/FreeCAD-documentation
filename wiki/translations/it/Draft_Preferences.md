@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -9,17 +9,17 @@
 
 {{TOCright}}
 
-La scheda delle preferenze del modulo [Draft](Draft_Workbench/it.md) si trova nella finestra delle [Preferenze](Preferences_Editor/it.md), nel menu {{MenuCommand|Modifica → Preferenze → Draft}}.
+La scheda delle preferenze del modulo [Draft](Draft_Workbench/it.md) si trova nella finestra delle [Preferenze](Preferences_Editor/it.md), nel menu **Modifica → Preferenze → Draft**.
 
 Sono disponibili quattro schede: Impostazioni generali, Griglia e snap, Impostazioni visive e Testi e dimensioni.
 
-## Impostazioni generali {#impostazioni_generali}
+## Impostazioni generali 
 
 Impostazioni generali consente di impostare alcune proprietà di base come il [Piano di lavoro](Draft_SelectPlane/it.md), il nome e il colore del [Gruppo costruzione](Draft_ToggleConstructionMode/it.md), un prefisso da usare per i [Cloni](Draft_Clone/it.md), e la precisione interna dei calcoli.
 
 ![](images/Preference_Draft_Tab_01.png )
 
-## Griglia e snap {#griglia_e_snap}
+## Griglia e snap 
 
 Griglia e snap consente di impostare le proprietà della **<img src="images/Draft_ToggleGrid.svg" width=16px> [griglia visibile](Draft_ToggleGrid/it.md)**, che può essere utilizzata con i metodi di [aggancio](Draft_Snap/it.md).
 
@@ -40,7 +40,7 @@ Si possono impostare tre tasti modificatori:
 
 <div class="mw-translate-fuzzy">
 
-## Impostazioni di visualizzazione {#impostazioni_di_visualizzazione}
+## Impostazioni di visualizzazione 
 
 
 </div>
@@ -49,7 +49,7 @@ Le impostazioni visuali consentono di specificare il colore e la larghezza della
 
 ![](images/Preference_Draft_Tab_03.png )
 
-## Testi e quotature {#testi_e_quotature}
+## Testi e quotature 
 
 Testi e quotature consente di impostare le proprietà predefinite per gli strumenti [Testo](Draft_Text/it.md), [Dimensione](Draft_Dimension/it.md) e [Forma da testo](Draft_ShapeString/it.md), inclusi il carattere e le dimensioni predefinite, lo stile e le dimensioni delle linee di quota. Queste proprietà possono essere modificate anche nei singoli oggetti di testo.
 

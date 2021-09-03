@@ -24,22 +24,22 @@ Les résultats de la plupart des tests fournis par cet outil sont facultatifs, c
 -   Appuyez sur le bouton **Test All** pour effectuer tous les tests ou uniquement les boutons correspondant aux tests individuels.
 -   Une fois les tests terminés, appuyer sur un bouton **Failed** vous donnera des informations supplémentaires pour vous aider à décider si cela vous concerne ou non.
 
-## Tests intégrés {#tests_intégrés}
+## Tests intégrés 
 
 -   **Run all tests**: Exécute tous les tests les uns après les autres
 
-### Tests d\'installation de FreeCAD {#tests_dinstallation_de_freecad}
+### Tests d\'installation de FreeCAD 
 
 -   **IFC4 support**: Teste si le système d\'importation/exportation IFC de FreeCAD fonctionne correctement et si le format IFC4 est disponible (nécessite une version à jour de [IfcOpenShell](Arch_IFC/fr.md)) et activé dans les préférences.
 
-### Tests d\'organisation du projet {#tests_dorganisation_du_projet}
+### Tests d\'organisation du projet 
 
 -   **Project hierarchy**: Le format IFC nécessite au moins un [Bâtiment](Arch_Building/fr.md) et il est également courant d\'avoir un [site](Arch_Site/fr.md) et au moins un [Etage](Arch_BuildingPart/fr.md). Ce test vérifie s\'ils sont présents dans le modèle
 -   **Buildings**: vérifie que tous les bâtiments trouvés dans le modèle font partie d\'un [site](Arch_Site/fr.md)
 -   **Levels**: vérifie que tous les [Etages](Arch_BuildingPart/fr.md) (étages du bâtiment) trouvés dans le modèle sont bien d\'un bâtiment
 -   **Objects structure**: Vérifie que tous les objets trouvés dans le modèle font partie d\'un niveau
 
-### Objets et tests de propriétés {#objets_et_tests_de_propriétés}
+### Objets et tests de propriétés 
 
 -   **Undefined objects**: vérifie s\'il y a des objets dans le modèle qui ne sont pas des objets BIM et seront donc exportés sans les propriétés BIM complètes
 -   **Solids**: vérifie que tous les objets du modèle ont une géométrie solide valide
@@ -49,14 +49,14 @@ Les résultats de la plupart des tests fournis par cet outil sont facultatifs, c
 -   **Materials**: vérifie que tous les objets BIM ont un matériau
 -   **Standards**: vérifie que tous les objets BIM ont un [code standard](BIM_Classification/fr.md)
 
-### Tests de compatibilité {#tests_de_compatibilité}
+### Tests de compatibilité 
 
 -   **Extrusions**: vérifie que tous les objets BIM sont des extrusions linéaires
 -   **Standard cases**: vérifie que tous les [murs](Arch_Wall/fr.md) et [éléments de structure](Arch_Structure/fr.md) sont des cas standard, tels que définis par le schéma IFC
 -   **Tiny lines**: vérifie qu\'aucun segment de ligne dans le modèle n\'est inférieur à 1/32\", la longueur minimale que Revit est capable de gérer\...
 -   **IfcRectangleProfileDef**: vérifie que l\'option d\'exporter des profils rectangulaires en tant que IfcRectangleProfileDef est désactivée, car Revit (oui, encore une fois) ne peut pas importer cette entité.
 
-## Tests personnalisés {#tests_personnalisés}
+## Tests personnalisés 
 
 L\'outil de contrôle en amont vous permet également d\'écrire des tests personnalisés, qui seront ajoutés après les outils intégrés dans la boîte de dialogue Contrôle en amont, et exécutés lorsque vous utilisez le bouton **Run all tests**. Ces tests sont écrits en Python. Ils se composent de fonctions simples dans un ou plusieurs fichiers Python. Vous pouvez effectuer toutes les opérations que vous souhaitez à l\'intérieur de ces fonctions, elles doivent simplement réussir ou échouer, et en cas d\'échec, afficher un message informant l\'utilisateur de ce qui a échoué.
 

@@ -31,11 +31,11 @@ De la FreeCAD 0.15, această funcție nu este valabilă direct, dar este inclus�
 +----------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 | ![](images/Scaled_parameters.png ) | When creating a scaled feature, the \'scaled parameters\' dialogue offers the following options:                                             |
 |                                                    |                                                                                                                                              |
-|                                                    | ### Select originals {#select_originals}                                                                                                     |
+|                                                    | ### Select originals                                                                                                      |
 |                                                    |                                                                                                                                              |
 |                                                    | The list view shows the \'originals\', the features that are to be scaled. Clicking on any feature will add it to the list.                  |
 |                                                    |                                                                                                                                              |
-|                                                    | ### Factor and Occurrences {#factor_and_occurrences}                                                                                         |
+|                                                    | ### Factor and Occurrences                                                                                          |
 |                                                    |                                                                                                                                              |
 |                                                    | Specifies the maximum factor which the features are to be scaled to, and the total number of scaled shapes (including the original feature). |
 +----------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+

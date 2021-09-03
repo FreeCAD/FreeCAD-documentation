@@ -22,7 +22,7 @@ Acest instrument convertește un obiect selectat [ Mesh](Mesh_Workbench.md) înt
 
 This tool is optimized for objects with flat faces (no curves). The corresponding tool **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +40,7 @@ This tool is optimized for objects with flat faces (no curves). The correspondin
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

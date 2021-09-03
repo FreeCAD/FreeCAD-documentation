@@ -24,7 +24,7 @@ L\'installation copiez le code dans le répertoire Macro approprié. Il est pré
 
 Sélectionnez un objet, puis cliquez sur le bouton associé sur votre barre d\'outils , ou appeler la à partir du menu Macro. Le Style d\'affichage de l\'objet sélectionné basculera entre les deux modes d\'affichage des deux Styles d\'affichage spécifiés dans le code de macro (voir liste de code ci-dessous). **Remarque**: Le cahier des charges pour chaque DrawStyle est listé dans le code, en modifiant le code (qui est documenté dans le code de macro), l\'utilisateur peut sélectionner 2 Style d\'affichage et basculer entre eux.
 
-## Interface utilisateur {#interface_utilisateur}
+## Interface utilisateur 
 
 L\'objet sélectionné sera redessiné dans le deuxième Style spécifié dans la macro.
 

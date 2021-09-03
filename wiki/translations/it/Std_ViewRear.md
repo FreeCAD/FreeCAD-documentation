@@ -18,8 +18,8 @@ Il comando **Vista da dietro** orienta la camera della [Vista 3D](3D_view/it.md)
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_ViewRear.svg" width=16px> Da dietro**.
-    -   Selezionare l\'opzione {{MenuCommand|Visualizza → Viste standard → <img src="images/Std_ViewRear.svg" width=16px> Da dietro}} del menu.
-    -   Selezionare l\'opzione {{MenuCommand|Viste standard → <img src="images/Std_ViewRear.svg" width=16px> Da dietro}} dal menu contestuale della [vista 3D](3D_view/it.md).
+    -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewRear.svg" width=16px> Da dietro** del menu.
+    -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewRear.svg" width=16px> Da dietro** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **4**.
 
 ## Script

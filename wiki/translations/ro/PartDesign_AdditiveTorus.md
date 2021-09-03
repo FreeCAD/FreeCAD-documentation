@@ -13,7 +13,7 @@ Inserează o primitivă geometrică tip tor în Corpul activ ca prima funcție(o
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

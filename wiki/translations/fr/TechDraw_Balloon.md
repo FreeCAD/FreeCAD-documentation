@@ -24,7 +24,7 @@ L\'outil Annotation bulle peut ajouter des bulles avec une ligne de repère dans
 
 **Remarque:** La position de la bulle est relative à la vue et utilise le même facteur d\'échelle que la vue.
 
-## Utiliser les séparateurs {#utiliser_les_séparateurs}
+## Utiliser les séparateurs 
 
 Lorsque vous utilisez une forme de rectangle, vous pouvez ajouter des séparateurs en utilisant \"\|\" dans le texte. Par exemple \"AAA\|TEST\|111\" donne:
 

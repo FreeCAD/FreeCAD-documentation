@@ -19,7 +19,7 @@ L\'outil <img alt="" src=images/Path_Adaptive.svg  style="width:24px;"> [Path Ad
 
 Les instructions d\'utilisation pour l\'opération [Adaptation](Path_Adaptive/fr.md) sont présentés ici.
 
-#### Opération de base {#opération_de_base}
+#### Opération de base 
 
 1.  Appuyez sur l\'icône **<img src="images/Path_Adaptive.svg" width=16px> [Adaptive](Path_Adaptive/fr.md)** ou sélectionnez l\'outil **Path** → **<img src="images/Path_Adaptive.svg" width=24px> [Adaptive](Path_Adaptive/fr.md)** à partir du menu **Path**.
 2.  Sélectionnez le contrôleur d\'outil pour l\'opération dans la fenêtre contextuelle du contrôleur d\'outil, si vous y êtes invité.
@@ -31,7 +31,7 @@ Les instructions d\'utilisation pour l\'opération [Adaptation](Path_Adaptive/fr
 6.  Si vous souhaitez prévisualiser le résultat avant d\'accepter les paramètres, cliquez sur **Apply**.
 7.  Cliquez sur le bouton **OK** pour confirmer et générer les chemins.
 
-##### Remarques préliminaires sur la compensation adaptative {#remarques_préliminaires_sur_la_compensation_adaptative}
+##### Remarques préliminaires sur la compensation adaptative 
 
 -   En fonction de la taille et de la complexité de la zone pour l\'opération, il peut être préférable de ne pas recalculer l\'opération après chaque changement de propriété; considérez plutôt:
     -   Désactivez l\'opération avec l\'outil **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activation de l'opération](Path_OpActiveToggle/fr.md)**, apportez vos modifications aux propriétés de l\'opération puis cliquez sur le **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activation de l'opération](Path_OpActiveToggle/fr.md)** à nouveau pour réactiver l\'opération, ce qui déclenche un recalcul en interne.
@@ -162,13 +162,13 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 *Les descriptions de ces paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-#### Géométrie de base {#géométrie_de_base}
+#### Géométrie de base 
 
 -   **Add**: ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
 -   **Remove**: supprime le ou les éléments sélectionnés dans la liste emplacement de base.
 -   **Edit**: efface tous les éléments de la liste d\'emplacement de base.
 
-#### Profondeur {#profondeur_1}
+#### Profondeur 
 
 -    {{PropertyData/fr|Start Depth}}
     

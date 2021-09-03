@@ -19,7 +19,7 @@ Mit dem BIM Bibliothek Werkzeug kannst du im aktuellen Modell ein Objekt aus der
 
 1.  Drücke die **<img src="images/BIM_Library.png" width=16px> [BIM Bibliothek](BIM_Library/de.md)** Taste
 
-    :   Ergebnis: In der [Combo Ansicht](Combo_view/de.md) → [Aufgabenpaneel](Task_panel/de.md) wird ein Dialog mit dem Titel {{MenuCommand|Bibliotheksbrowser}} angezeigt
+    :   Ergebnis: In der [Combo Ansicht](Combo_view/de.md) → [Aufgabenpaneel](Task_panel/de.md) wird ein Dialog mit dem Titel **Bibliotheksbrowser** angezeigt
 2.  Klicke im Bibliotheksbrowser auf eine Datei
 3.  Doppelklicke darauf oder drücke die Taste **Einfügen** Taste
 4.  Klicke auf einen Punkt in der [3D Ansicht](3D_view/de.md) oder gib eine Koordinate manuell ein, um das Objekt zu platzieren

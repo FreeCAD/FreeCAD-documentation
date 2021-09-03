@@ -23,22 +23,22 @@ The results of most of the tests provided by this tool are optional, which means
 -   Press the **Test All** button to perform all the tests, or only buttons corresponding to individual tests.
 -   When the tests have finished, pressing a **Failed** button will give you additional information to help you decide if this is relevant to you or not.
 
-## Builtin tests {#builtin_tests}
+## Builtin tests 
 
 -   **Run all tests**: Runs all the tests one after the other
 
-### FreeCAD setup tests {#freecad_setup_tests}
+### FreeCAD setup tests 
 
 -   **IFC4 support**: Tests if the IFC import/export system of FreeCAD is working correctly, and if the IFC4 format is available (which requires an up-to-date version of [IfcOpenShell](Arch_IFC.md) and enabled in the preferences.
 
-### Project organization tests {#project_organization_tests}
+### Project organization tests 
 
 -   **Project hierarchy**: The IFC format requires at least one [building](Arch_Building.md) and it is also a common practice to have one [site](Arch_Site.md) and at least one [level (storey)](Arch_BuildingPart.md). This test checks if these are present in the model
 -   **Buildings**: Checks that all buildings found in the model are part of a [site](Arch_Site.md)
 -   **Levels**: Checks that all [levels](Arch_BuildingPart.md) (building storeys) found in the model are prt of a building
 -   **Objects structure**: Checks that all objects found in the model are part of a level
 
-### Objects & property tests {#objects_property_tests}
+### Objects & property tests 
 
 -   **Undefined objects**: Checks if there are objects in the model that are not BIM objects, and will therefore be exported without full BIM properties
 -   **Solids**: Checks that all objects in the model have valid solid geometry
@@ -48,14 +48,14 @@ The results of most of the tests provided by this tool are optional, which means
 -   **Materials**: Checks that all BIM objects have a material
 -   **Standards**: Checks that all BIM objects have a [standard code](BIM_Classification.md)
 
-### Compatibility tests {#compatibility_tests}
+### Compatibility tests 
 
 -   **Extrusions**: Checks that all BIM objects are linear extrusions
 -   **Standard cases**: Checks that all [walls](Arch_Wall.md) and [structural elements](Arch_Structure.md) are standard cases, as defined by the IFC schema
 -   **Tiny lines**: Checks that no line segment in the model is smaller than 1/32\", the minimum length that Revit is able to manage\...
 -   **IfcRectangleProfileDef**: Checks that the option to export rectangular profiles as IfcRectangleProfileDef is disabled, because Revit (yes, them again) is unable to import that entity.
 
-## Custom tests {#custom_tests}
+## Custom tests 
 
 The Preflight tool also allows you to write custom tests, that will be appended after the built-in tools in the Preflight dialog, and run when using the **Run all tests** button. These tests are written in Python. They consists of simple functions inside one or more Python files. You can perform any operation you want inside those functions, they must just pass or fail, and in case they fail, show a message informing the user of what failed.
 

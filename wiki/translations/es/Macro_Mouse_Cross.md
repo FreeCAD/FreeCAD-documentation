@@ -18,7 +18,7 @@ Esta pequeña macro gira la flecha del mouse en una cruz de precisión.
 <img alt="Macro\_Mouse\_Cross" src=images/Macro_Mouse_Cross_00.png  style="width:480px;"> 
 *Pequeño ejemplo de uso de la clase '''ViewObserver()''' y el uso del teclado con '''[SoKeyboardEvent](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)'''*
 
-## Cómo usar {#cómo_usar}
+## Cómo usar 
 
 1.  Presione el botón **C** para activar la cruz.
 2.  Presione el botón **A** para activar la flecha.
@@ -200,7 +200,7 @@ except Exception:
 
 }}
 
-### Cursores que pueden ser utilizados. {#cursores_que_pueden_ser_utilizados.}
+### Cursores que pueden ser utilizados. 
 
 ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor, SizeHorCursor SizeBDiagCursor, SizeFDiagCursor, SizeAllCursor, BlankCursor, SplitVCursor, SplitHCursor PointingHandCursor, ForbiddenCursor, OpenHandCursor, ClosedHandCursor, WhatsThisCursor, BusyCursor, BitmapCursor
 

@@ -42,7 +42,7 @@ L\'outil Coupe crée une vue en coupe en fonction d\'une vue existante d\'une pi
 
 -    {{PropertyData/fr|Fuse Before Cut}}: Fusionne les formes source avant d\'effectuer la coupe.
 
-#### Format de surface coupée {#format_de_surface_coupée}
+#### Format de surface coupée 
 
 -    {{PropertyData/fr|Cut Surface Display}}: apparence de la surface de coupe. Options:
 
@@ -63,17 +63,17 @@ L\'outil Coupe crée une vue en coupe en fonction d\'une vue existante d\'une pi
 
 ### Vue
 
-#### Surface de section {#surface_de_section}
+#### Surface de section 
 
 -    {{PropertyView/fr|Cut Surface Color}}: couleur unie pour la mise en évidence de la surface. Utilisé si **Cut Surface Display** est réglé sur *Color*.
 
-#### Surface hachurée {#surface_hachurée}
+#### Surface hachurée 
 
 -    **Hatch Color**: couleur des lignes de hachures de surface.
 
 -    **Weight Pattern**: épaisseur de ligne pour les lignes de hachures de surface.
 
-### Base View {#base_view}
+### Base View 
 
 Une vue de section hérite de toutes les propriétés applicables de la vue spécifiée comme {{PropertyData/fr|BaseView}}. Dans les propriétés de la vue, vous pouvez modifier l\'apparence de la ligne de coupe:
 

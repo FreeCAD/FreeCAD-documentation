@@ -13,7 +13,7 @@
 
 ## 용법
 
-1.  메뉴에서 {{MenuCommand|편집 → <img src="images/Std_SelectAll.svg" width=16px> 모두 선택}} 옵션을 선택합니다.
+1.  메뉴에서 **편집 → <img src="images/Std_SelectAll.svg" width=16px> 모두 선택** 옵션을 선택합니다.
 
 ## 비고
 

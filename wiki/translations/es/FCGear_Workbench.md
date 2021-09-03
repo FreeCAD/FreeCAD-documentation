@@ -18,51 +18,51 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
     *The FCGear Drop down menu*
     
 
-## Tipos de engranajes {#tipos_de_engranajes}
+## Tipos de engranajes 
 
-### Engranaje envolvente {#engranaje_envolvente}
+### Engranaje envolvente 
 
 :   ![](images/Involute-Gear_example.png )
 :   
     *From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
     
 
-### Involute Rack {#involute_rack}
+### Involute Rack 
 
 :   ![](images/Involute-Rack_example.png )
 :   
     *From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
     
 
-### Engranaje cicloide {#engranaje_cicloide}
+### Engranaje cicloide 
 
 :   ![](images/Cycloid-Gear_example_1.png )
 :   
     *From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear CycloideGear](FCGear_CycloideGear.md))*
     
 
-### Engranaje cónico {#engranaje_cónico}
+### Engranaje cónico 
 
 :   ![](images/Bevel-Gear_example.png )
 :   
     *From left to right: Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
     
 
-### Engranaje sinfín {#engranaje_sinfín}
+### Engranaje sinfín 
 
 :   ![](images/Worm-Gear_example.png )
 :   
     *Above: Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
     
 
-### Engranaje de la corona {#engranaje_de_la_corona}
+### Engranaje de la corona 
 
 :   ![](images/Crown-Gear_example.png )
 :   
     *Above: Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
     
 
-### Timing Gear and Lantern Gear {#timing_gear_and_lantern_gear}
+### Timing Gear and Lantern Gear 
 
 :   ![](images/Timing+Latern-gear_example.png )
 :   
@@ -77,7 +77,7 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 
 ## Herramientas
 
-### Barra Herramienta {#barra_herramienta}
+### Barra Herramienta 
 
 -   <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:32px;"> [FCGear InvoluteGear](FCGear_InvoluteGear.md) Creates an Involute gear
 -   <img alt="" src=images/FCGear_InvoluteRack.svg  style="width:32px;"> [FCGear InvoluteRack](FCGear_InvoluteRack.md) Creates an Involute rack
@@ -90,14 +90,15 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 
 ## Instalación
 
-### Instalación automática {#instalación_automática}
+### Instalación automática 
 
-The recommended method of installation as of v0.17 is via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md). It can be found in the {{MenuCommand|Tools → Addon Manager}}
+The recommended method of installation as of v0.17 is via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md). It can be found in the 
+**Tools → Addon Manager**
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:700px">
 
-### Instalación manual {#instalación_manual}
+### Instalación manual 
 
 If there is a necessity to manually install this workbench the following instructions are provided to do so:
 
@@ -140,7 +141,7 @@ Vea las instrucciones para Linux arriba
 
 </div>
 
-## Enlaces a la WB de engranajes {#enlaces_a_la_wb_de_engranajes}
+## Enlaces a la WB de engranajes 
 
 -   Wiki de Ambiente de trabajo: <https://github.com/looooo/FCGear/wiki>
 -   Wiki de FreeCAD: [Macro\_FCGear](http://www.freecadweb.org/wiki/index.php?title=Macro_FCGear) y [Engranaje cónico](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878)
@@ -150,7 +151,7 @@ Vea las instrucciones para Linux arriba
 -   Archivos:
 -   Reportar errores: Por favor, informa de los errores en <https://github.com/looooo/FCGear/issues>
 
-## Otros enlaces útiles {#otros_enlaces_útiles}
+## Otros enlaces útiles 
 
 
 <div class="mw-translate-fuzzy">

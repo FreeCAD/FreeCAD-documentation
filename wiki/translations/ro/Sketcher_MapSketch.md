@@ -21,7 +21,7 @@ Rețineți că acest instrument nu este utilizat pentru a crea schițe noi. It o
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 -   Select the face of a PartDesign feature or a solid.
 -   Click on the **![](images/)_[Map_sketch_to_face](Sketcher_MapSketch.md)** icon in the toolbar (or go to the PartDesign or Sketch menu depending on which workbench is active)
@@ -31,14 +31,14 @@ Rețineți că acest instrument nu este utilizat pentru a crea schițe noi. It o
 
 </div>
 
-## Utilizarea când se repară un model distrus {#utilizarea_când_se_repară_un_model_distrus}
+## Utilizarea când se repară un model distrus 
 
 Sketcher MapSketch este adesea utilizat pentru a repara un model distrus.
 
 
 <div class="mw-translate-fuzzy">
 
-One common use case is when the dependency graph has been broken. (You can view the dependency graph by {{MenuCommand|Tools->Dependency graph}}.) This can happen when you delete a feature in the middle of your model tree. In the following example we will break and repair a model.
+One common use case is when the dependency graph has been broken. (You can view the dependency graph by **Tools->Dependency graph**.) This can happen when you delete a feature in the middle of your model tree. In the following example we will break and repair a model.
 
 
 </div>

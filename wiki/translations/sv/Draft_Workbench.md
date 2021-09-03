@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
  
 
@@ -18,7 +18,7 @@ FreeCAD is primarily a 3D modelling application, and thus its 2D tools aren\'t a
 
 <img alt="Draft Workbench Example" src=images/Draft_Workbench_Example.png  style="width:400px;">
 
-### Rita objekt {#rita_objekt}
+### Rita objekt 
 
 Detta är verktyg för att rita objekt.
 
@@ -38,14 +38,14 @@ Detta är verktyg för att rita objekt.
 -   <img alt="" src=images/Draft_BezCurve.png  style="width:32px;"> [Bezier Curve](Draft_BezCurve/sv.md): Draws a Bezier curve from a series of points
 -   <img alt="" src=images/Draft_Label.png  style="width:32px;"> [Label](Draft_Label/sv.md): Places a label with an arrow pointing to a selected element {{Version/sv|0.17}}
 
-## Annotation objects {#annotation_objects}
+## Annotation objects 
 
 -   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Text](Draft_Text.md): draws a multi-line text annotation.
 -   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Dimension](Draft_Dimension.md): draws a dimension annotation.
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Label](Draft_Label.md): places a label with an arrow pointing to a selected element.
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation style editor](Draft_AnnotationStyleEditor.md): opens an editor to change the annotation style of these objects. <small>(v0.19)</small> 
 
-### Förändra objekt {#förändra_objekt}
+### Förändra objekt 
 
 Detta är verktyg för att förändra existerande objekt. De arbetar med valda objekt, men om inget objekt är valt, så ombes du att välja ett.
 
@@ -96,13 +96,13 @@ Many operation tools (move, rotate, array, etc.) also work on solid objects ([Pa
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Shape 2D View](Draft_Shape2DView.md): creates a 2D object which is a flattened 2D view of a 3D object.
 
-## Draft Tray {#draft_tray}
+## Draft Tray 
 
 The [Draft Tray](Draft_Tray.md) allows selecting the working plane, defining style settings, toggling construction mode, and specifying the active layer or group.
 
 ![](images/Draft_tray_default.png )
 
-Its tools are also available in the {{MenuCommand|Draft → Utilities}} menu:
+Its tools are also available in the **Draft → Utilities** menu:
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Select Plane](Draft_SelectPlane.md): selects the current Draft working plane.
 
@@ -112,19 +112,19 @@ Its tools are also available in the {{MenuCommand|Draft → Utilities}} menu:
 
 -   <img alt="" src=images/Draft_AutoGroup.svg  style="width:32px;"> [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
 
-## Draft annotation scale widget {#draft_annotation_scale_widget}
+## Draft annotation scale widget 
 
 With the [Draft annotation scale widget](Draft_annotation_scale_widget.md) the Draft annotation scale can be specified. <small>(v0.19)</small> 
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
-## Draft snap widget {#draft_snap_widget}
+## Draft snap widget 
 
 The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for the [Draft Snap toolbar](#Draft_snap_toolbar.md). <small>(v0.19)</small> 
 
 ![](images/Draft_snap_widget_button.png )
 
-## Draft Snap toolbar {#draft_snap_toolbar}
+## Draft Snap toolbar 
 
 The Draft Snap toolbar allows selecting the active snap options. The buttons belonging to active options stay depressed. For general information about snapping see: [Draft Snap](Draft_Snap.md).
 
@@ -145,7 +145,7 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions while snapping.
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle grid](Draft_ToggleGrid.md): toggles the visibility of the grid on or off.
 
-## Draft utility tools toolbar {#draft_utility_tools_toolbar}
+## Draft utility tools toolbar 
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer.md): creates a Layer in the current document, to which objects can be added to control object visibility and color. It replaces Draft VisGroup. <small>(v0.19)</small> 
 -   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> [Working Plane Proxy](Draft_WorkingPlaneProxy.md): create a proxy object to store the current [Working Plane](Draft_SelectPlane.md) position.
@@ -155,15 +155,15 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to Construction group](Draft_AddConstruction.md): add selected objects to the Construction group.
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal.md): heals problematic Draft objects found in very old files.
 
-## Additional tools {#additional_tools}
+## Additional tools 
 
-The {{MenuCommand|Draft → Utilities}} menu contains several tools. Most of them can also be accessed from toolbars or the [Draft Tray](Draft_Tray.md) and have already been mentioned above. For the following tools this is not the case:
+The **Draft → Utilities** menu contains several tools. Most of them can also be accessed from toolbars or the [Draft Tray](Draft_Tray.md) and have already been mentioned above. For the following tools this is not the case:
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): toggles the Draft continue mode on or off.
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Apply current style](Draft_ApplyStyle.md): applies the current style to selected objects and groups.
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Show snap bar](Draft_ShowSnapBar.md): shows the [Draft Snap toolbar](#Draft_Snap_toolbar.md).
 
-### Gemensamt beteende {#gemensamt_beteende}
+### Gemensamt beteende 
 
 !!FUZZY!!
 
@@ -181,23 +181,23 @@ The {{MenuCommand|Draft → Utilities}} menu contains several tools. Most of the
 
 -   Alla nyligen skapade objekt kommer att anta gällande Rit [färg och bredd](Draft_Linestyle/sv.md)
 
-## Tree view context menu {#tree_view_context_menu}
+## Tree view context menu 
 
 The following additional options are available in the [Tree view](Tree_view.md) context menu:
 
-### Selection options {#selection_options}
+### Selection options 
 
 If there is a selection the context menu contains one additional sub-menu:
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
-### Wire options {#wire_options}
+### Wire options 
 
 For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md) and [Draft BezCurve](Draft_BezCurve.md) this additional option is available:
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Flatten this wire: flattens the wire based on its internal geometry. This option currently does not work properly.
 
-### Layer container options {#layer_container_options}
+### Layer container options 
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
 
@@ -205,7 +205,7 @@ For a [Draft LayerContainer](Draft_Layer.md) these additional options are availa
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer.md): adds a new layer to the current document.
 
-### Layer options {#layer_options}
+### Layer options 
 
 For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
@@ -213,7 +213,7 @@ For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select layer contents](Draft_SelectGroup.md): selects the objects inside the selected layer.
 
-### Working plane proxy options {#working_plane_proxy_options}
+### Working plane proxy options 
 
 For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional options are available:
 
@@ -221,25 +221,25 @@ For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional opt
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Write objects state](Draft_WorkingPlaneProxy#Tree_view_context_menu.md): updates the visibility state of objects stored in the working plane proxy.
 
-## 3D view context menu {#d_view_context_menu}
+## 3D view context menu 
 
 The following additional options are available in the [3D view](3D_view.md) context menu:
 
-### No-selection options {#no_selection_options}
+### No-selection options 
 
 If there is no selection the context menu contains one additional sub-menu:
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
-### Selection options {#selection_options_1}
+### Selection options 
 
 If there is a selection the context menu contains two additional sub-menus:
 
--    {{MenuCommand|Draft}}: tools for [drawing objects](#Drawing_objects.md) and [modifying objects](#Modifying_objects.md).
+-    **Draft**: tools for [drawing objects](#Drawing_objects.md) and [modifying objects](#Modifying_objects.md).
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
-## Obsolete tools {#obsolete_tools}
+## Obsolete tools 
 
 These commands are obsolete but still available:
 
@@ -260,7 +260,7 @@ These [3D view](3D_view.md) context menu options are still available when the [D
 -   <img alt="" src=images/Preferences-draft.svg  style="width:32px;"> [Preferences](Draft_Preferences.md): general preferences for the working plane and the drawing tools.
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import Export Preferences](Import_Export_Preferences.md): preferences available for importing from and exporting to different file formats.
 
-### Import & export {#import_export}
+### Import & export 
 
 Detta är funktioner för att öppna, importera eller exportera andra filformat. Öppna kommet att öppna ett nytt dokument med filens innehåll, medan importera kommer att lägga till filinnehållet till det nuvarande dokumentet. Exportera kommer att spara de valda objekten till en fil. Om inget är valt, så kommer alla objekt att exporteras. Var uppmärksam på att eftersom tanken med Ritmodulen är att arbeta med 2d objekt, så fokuserar dessa importerare endast på 2d objekt, och, fastän DXF och OCA formaten stödjer objektdefinitioner i 3D rymden (objekt är inte nödvändigtvis platta), så kommer de inte att importera volymetriska objekt som nät, 3D ytor, etc, utan snarare linjer, cirklar, text eller flata former. För närvarande så stöds följande filformat:
 
@@ -272,12 +272,12 @@ Detta är funktioner för att öppna, importera eller exportera andra filformat.
 
 -   [Airfoil Data Format .DAT](Draft_DAT.md) Importerar DAT filer som beskriver [Vingprofiler](http://www.ae.illinois.edu/m-selig/ads/coord_database.html)
 
-### Install importers {#install_importers}
+### Install importers 
 
 -   [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md): Imports and exports DWG files
 -   [FreeCAD and DXF Import](FreeCAD_and_DXF_Import.md): Imports and exports DXF files
 
-## Unit tests {#unit_tests}
+## Unit tests 
 
 
 **See also:**

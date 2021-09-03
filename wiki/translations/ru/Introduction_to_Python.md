@@ -22,7 +22,7 @@ In Python that whole process can be done transparently inside the Python interpr
 
 ![](images/FreeCAD_Python_console.png ) *The FreeCAD Python console*
 
-If you don\'t see it, click on {{MenuCommand|View → Panels → Python console}}. The Python console can be resized and also undocked.
+If you don\'t see it, click on **View → Panels → Python console**. The Python console can be resized and also undocked.
 
 The interpreter shows the Python version, then a `>>>` symbol which is the command prompt. Writing code in the interpreter is simple: one line is one instruction. When you press **Enter**, your line of code will be executed (after being instantly and invisibly compiled). For example, try writing this:
 
@@ -476,7 +476,7 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 [наверх](#top.md)
 
-## Starting with FreeCAD {#starting_with_freecad}
+## Starting with FreeCAD 
 
 Hopefully you now have a good idea of how Python works, and you can start exploring what FreeCAD has to offer. FreeCAD\'s Python functions are all well organized in different modules. Some of them are already loaded (imported) when you start FreeCAD. Just try:
 

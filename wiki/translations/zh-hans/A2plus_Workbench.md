@@ -23,7 +23,7 @@ A2plus工作台是[外部工作台](External_workbenches/zh-hans.md)，用于在
 
 ## 安装
 
-A2plus工作台是FreeCAD的插件。 可以通过菜单{{MenuCommand|工具→[插件管理器](Std_AddonMg.md)}}轻松安装。 A2plus正在积极开发中，并将经常获得新功能。 因此，您还应该使用菜单{{MenuCommand|工具→[插件管理器](Std_AddonMg.md)}}定期对其进行更新。 A2plus代码是在GitHub上托管和开发的[1](https://github.com/kbwbe/A2plus)，也可以通过将其复制到FreeCAD的MOD目录中进行手动安装。
+A2plus工作台是FreeCAD的插件。 可以通过菜单**工具→[插件管理器](Std_AddonMg.md)**轻松安装。 A2plus正在积极开发中，并将经常获得新功能。 因此，您还应该使用菜单**工具→[插件管理器](Std_AddonMg.md)**定期对其进行更新。 A2plus代码是在GitHub上托管和开发的[1](https://github.com/kbwbe/A2plus)，也可以通过将其复制到FreeCAD的MOD目录中进行手动安装。
 
 ## 入门
 
@@ -140,7 +140,7 @@ A2plus提供下列约束:
 
 在一个零件上选择圆柱[面或线性](Glossary＃Face.md)[边](Glossary＃Edge.md)，在另一零件选择一个平面。 工具栏按钮<img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width:24px;">添加{{Variable|轴与面法线平行}}约束。 约束将使轴或线垂直于平面。
 
-#### Axis on Plane angle {#axis_on_plane_angle}
+#### Axis on Plane angle 
 
 Select either a cylindrical [face](Glossary#Face.md) or a linear [edge](Glossary#Edge.md) on one part and a plane on the other part. The toolbar button <img alt="" src=images/A2p_AxisPlaneAngleConstraint.svg  style="width:24px;"> adds the constraint {{Variable|axisPlaneAngle}}. The constraint will at first make the axis parallel to the plane. Then you can adjust the angle for the axis in the appearing constraint settings dialog.
 
@@ -228,7 +228,7 @@ The quantity (QTY) is automatically calculated from the assembly. If a parts is 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="A2p_DOFs.svg" src=images/A2p_DOFs.svg  style="width:24px;">按钮用其自由度标记部件的每个零件。 此外，它的输出包含所有零件及其依存关系的列表。 该列表输出到FreeCAD的小程序“报告视图”中。 如果当前不可见此小程序，则可以通过右键单击FreeCAD工具栏区域的空白部分，然后在出现的上下文菜单中或通过菜单 {{MenuCommand|View → [Panels](Std_Panels.md) → Report view}}。
+<img alt="A2p_DOFs.svg" src=images/A2p_DOFs.svg  style="width:24px;">按钮用其自由度标记部件的每个零件。 此外，它的输出包含所有零件及其依存关系的列表。 该列表输出到FreeCAD的小程序“报告视图”中。 如果当前不可见此小程序，则可以通过右键单击FreeCAD工具栏区域的空白部分，然后在出现的上下文菜单中或通过菜单 **View → [Panels](Std_Panels.md) → Report view**。
 再次单击按钮<img alt="A2p_DOFs.svg" src=images/A2p_DOFs.svg  style="width:24px;">可以删除自由度标签。
 
 
@@ -250,13 +250,13 @@ The degrees of freedom labels can be removed by clicking the button <img alt="" 
 
 </div>
 
-### Convert absolute Paths to relative Ones {#convert_absolute_paths_to_relative_ones}
+### Convert absolute Paths to relative Ones 
 
-With the menu {{MenuCommand|A2plus → Misc → <img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones}} you can convert absolute paths of imported parts to relative ones.
+With the menu **A2plus → Misc → <img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** you can convert absolute paths of imported parts to relative ones.
 
 ## 参考
 
-可以通过FreeCAD的菜单{{MenuCommand|Edit → [Preferences](Preferences_Editor.md)}}访问A2plus首选项，并在" A2plus"部分中进行访问。 您可以设置以下选项：
+可以通过FreeCAD的菜单**Edit → [Preferences](Preferences_Editor.md)**访问A2plus首选项，并在" A2plus"部分中进行访问。 您可以设置以下选项：
 
 ### 默认解析方法
 
@@ -384,11 +384,11 @@ Solve automatically if a constraint property is changed : The solver will automa
 
 迟早您会遇到A2plus无法解决您设置的约束的问题。 为了克服这个问题，有不同的策略：
 
-### Using the Conflict Finder Tool {#using_the_conflict_finder_tool}
+### Using the Conflict Finder Tool 
 
 This is the safest method when you have several constraints because this tool attempts to solve one constraint after another until it finds the conflicting constraint. Then you can go on with the other strategies to resolve the identified constraint. The tool is called using the toolbar button <img alt="" src=images/A2p_SearchConstraintConflicts.svg  style="width:24px;">.
 
-### Checking Constraint Direction {#checking_constraint_direction}
+### Checking Constraint Direction 
 
 有时似乎总是定义了约束，但仍然无法解决。 一个示例：假设为两个平面设置了{{Variable|[面平行](#Plane_Parallel.md)}}约束。 现在，您想为相同的平面设置 {{Variable|[面重合](#Plane_on_Plane.md)}}约束，而A2plus无法解决该约束。 然后{{Variable|面平行}} 和 {{Variable|面重合}} 的约束方向是不同的。 对两个约束使用相同的方向来解决此问题。
 
@@ -414,20 +414,20 @@ A2plus offers to automatically check the right direction for **all** constraints
 <div class="mw-translate-fuzzy">
 
 如果在导入到A2plus部件后错过了零件的某些特征，请检查属性**[提示](PartDesign_MoveTip.md)**。
-A2plus会导入具有所有特征的零件实体特征。 这是明智的，因为将提示设置为某个特征意味着提示背后的所有特征都不应出现在最终零件中。 因此，如果您丢失了A2plus中的零件特征，请通过工具栏按钮<img alt="" src=images/A2p_EditPart.svg  style="width:24px;">打开零件，然后选择一个实体并查看其属性 **Tip**。 如果提示不在所需的功能上，请右键单击该提示应位于的特征，然后选择{{MenuCommand|<img src=images/PartDesign_MoveTip.png style="width:24px">设置提示}}。 最后，保存零件并使用工具栏按钮 <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">重新加载部件。
+A2plus会导入具有所有特征的零件实体特征。 这是明智的，因为将提示设置为某个特征意味着提示背后的所有特征都不应出现在最终零件中。 因此，如果您丢失了A2plus中的零件特征，请通过工具栏按钮<img alt="" src=images/A2p_EditPart.svg  style="width:24px;">打开零件，然后选择一个实体并查看其属性 **Tip**。 如果提示不在所需的功能上，请右键单击该提示应位于的特征，然后选择**<img src=images/PartDesign_MoveTip.png style="width:24px">设置提示**。 最后，保存零件并使用工具栏按钮 <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">重新加载部件。
 
 
 </div>
 
-A2plus imports bodies of parts with all their features up to the tip feature. This is sensible because setting the tip to a certain feature means that all features behind the tip should not appear in the final part. So if you miss a part feature in A2plus, open the part via the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, then select a body and look at its property **Tip**. If the tip is not at the feature where you want it, right-click on the feature where the tip should be and choose {{MenuCommand|<img src=images/PartDesign_MoveTip.svg style="width:24px"> Set tip}}. Finally save the part and reload the assembly using the toolbar button <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
+A2plus imports bodies of parts with all their features up to the tip feature. This is sensible because setting the tip to a certain feature means that all features behind the tip should not appear in the final part. So if you miss a part feature in A2plus, open the part via the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, then select a body and look at its property **Tip**. If the tip is not at the feature where you want it, right-click on the feature where the tip should be and choose **<img src=images/PartDesign_MoveTip.svg style="width:24px"> Set tip**. Finally save the part and reload the assembly using the toolbar button <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
 
 ### 修复部件树
 
 如果您看不到无法解决某些约束的明确原因，则可以尝试使用工具栏按钮<img alt="" src=images/A2p_RepairTree.svg  style="width:24px;">。 这将解析所有约束，然后在不同零件下重新分组。
 
-### Migrating old A2plus assemblies {#migrating_old_a2plus_assemblies}
+### Migrating old A2plus assemblies 
 
-Assemblies created with A2plus older than March 2019 do not show the correct icons for imported parts and have obsolete properties. These assemblies can be migrated to A2plus version 0.4.35 and newer using the menu {{MenuCommand|A2plus → Misc → <img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts}}. After doing this, you must save and reopen your assembly file.
+Assemblies created with A2plus older than March 2019 do not show the correct icons for imported parts and have obsolete properties. These assemblies can be migrated to A2plus version 0.4.35 and newer using the menu **A2plus → Misc → <img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts**. After doing this, you must save and reopen your assembly file.
 
 ### 避免使用重音符号
 
@@ -449,7 +449,7 @@ Assemblies created with A2plus older than March 2019 do not show the correct ico
 
 *\'使用A2plus 0.4.0或更高版本创建的装配体不再需要此策略，因为A2plus现在会在后台自动旋转零件一点以为求解器获得足够的起始角度。*
 
-如果两个选定平面当前的角度为0°或180°，则求解器通常由于约束 {{Variable|斜面}}而失败。（零件不会相应移动，在FreeCAD的"报告视图"小部件中，您会看到"*REACHED POS-ACCURACY：0.0*"。）一种解决方案是使用FreeCAD将零件旋转几度。 变换功能（右键单击模型树中的零件，然后在上下文菜单{{MenuCommand|变换}}中进行选择）。
+如果两个选定平面当前的角度为0°或180°，则求解器通常由于约束 {{Variable|斜面}}而失败。（零件不会相应移动，在FreeCAD的"报告视图"小部件中，您会看到"*REACHED POS-ACCURACY：0.0*"。）一种解决方案是使用FreeCAD将零件旋转几度。 变换功能（右键单击模型树中的零件，然后在上下文菜单**变换**中进行选择）。
 
 *注意：*确保约束的至少一部分将属性**fixed Position**设置为*false*。
 

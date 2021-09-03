@@ -19,7 +19,7 @@ Image:Arch\_Rebar\_Straight\_example.png\|[Прямая арматура](Arch_R
 
 ## Установка
 
-The Reinforcement workbench is not bundled with the default FreeCAD package, but can easily be installed via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). Install it from {{MenuCommand|Tools → Addon manager → Reinforcement}}. The Reinforcement workbench code is [hosted and developed on github](https://github.com/amrit3701/FreeCAD-Reinforcement) and can also be installed manually by copying it into FreeCAD\'s {{FileName|MOD}} directory.
+The Reinforcement workbench is not bundled with the default FreeCAD package, but can easily be installed via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). Install it from **Tools → Addon manager → Reinforcement**. The Reinforcement workbench code is [hosted and developed on github](https://github.com/amrit3701/FreeCAD-Reinforcement) and can also be installed manually by copying it into FreeCAD\'s {{FileName|MOD}} directory.
 
 ## Инструменты
 
@@ -49,7 +49,7 @@ The Reinforcement workbench is not bundled with the default FreeCAD package, but
 
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch
 
-### Детализация Армирования {#детализация_армирования}
+### Детализация Армирования 
 
 -   <img alt="" src=images/Arch_Rebar_BOM.svg  style="width:32px;"> [Bill Of Material](Arch_Rebar_BOM.md): Creates bill of material of reinforcing bars
 

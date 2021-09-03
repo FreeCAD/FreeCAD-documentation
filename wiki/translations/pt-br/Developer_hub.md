@@ -6,11 +6,11 @@ Este é o lugar para vir se você quiser contribuir para o desenvolvimento do pr
 
 These pages are in the early stage of development. If you can\'t find the information you are looking for, or have found useful information somewhere we have not linked to, then please leave a comment on the [forum](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) and someone will look into it (or, if you are feeling bold, why not edit this page directly!).
 
-## Developer Documentation {#developer_documentation}
+## Developer Documentation 
 
 The developer documentation comprises the following sections:
 
-### Compilação do FreeCAD {#compilação_do_freecad}
+### Compilação do FreeCAD 
 
 -   [Github repo](https://github.com/FreeCAD/FreeCAD). If you are new to git, read [Source code management](Source_code_management.md)
 -   [Compile with Docker](Compile_on_Docker.md)
@@ -35,7 +35,7 @@ The developer documentation comprises the following sections:
 -   [Windows packaging](Windows_packaging.md)
 -   [MacOS packaging](MacOS_packaging.md)
 
-### Build Support Tools {#build_support_tools}
+### Build Support Tools 
 
 -   The [FreeCAD Build Tool](FreeCAD_Build_Tool.md)
     -   [Adding an application module](Workbench_creation.md) to FreeCAD
@@ -44,7 +44,7 @@ The developer documentation comprises the following sections:
 -   [Compiling (Speeding up)](Compiling_(Speeding_up).md) FreeCAD
 -   [Continuous Integration](Continuous_Integration.md)
 
-### Modifying FreeCAD {#modifying_freecad}
+### Modifying FreeCAD 
 
 -   Understanding [The FreeCAD source code](The_FreeCAD_source_code.md)
 -   [Submitting patches](Tracker#Submitting_patches.md)
@@ -60,7 +60,7 @@ The developer documentation comprises the following sections:
 
 -   [Translating an external workbench](Translating_an_external_workbench.md)
 
-### Module developer\'s guide {#module_developers_guide}
+### Module developer\'s guide 
 
 [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): This is an ebook under writing on github, please fork and send pull request to contribute.
 
@@ -81,7 +81,7 @@ Latest pdf preview can be downoaded from [pdf folder](https://github.com/qingfen
 
 ### Internals
 
-#### OpenCascade Documentation {#opencascade_documentation}
+#### OpenCascade Documentation 
 
 OpenCascade is a software development platform for 3D surface and solid modeling, CAD data exchange, and visualization, mostly in the form of C++ libraries.
 
@@ -90,11 +90,11 @@ OpenCascade is a software development platform for 3D surface and solid modeling
 -   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
 -   [The openCascade wiki](http://opencascade.wikidot.com) (currently containing ?? Chinese spam)
 
-#### File format {#file_format}
+#### File format 
 
 [File Format FCStd](File_Format_FCStd.md). The files created with FreeCAD are `.zip` files that include the [BREP](https://en.wikipedia.org/wiki/Boundary_representation) geometry, as well as XML data that describes the document.
 
-#### Sketcher solver {#sketcher_solver}
+#### Sketcher solver 
 
 -   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
 -   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).

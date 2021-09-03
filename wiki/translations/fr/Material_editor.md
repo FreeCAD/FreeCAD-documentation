@@ -21,10 +21,10 @@ L\'éditeur de matériau est accessible soit par:
 
 1.  <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Atelier Arch](Arch_Workbench/fr.md)
     -   Le bouton <img alt="" src=images/Arch_SetMaterial.svg  style="width:16px;"> [Matériaux](Arch_SetMaterial/fr.md) du panneau de création [Nouveau matériaux](Arch_SetMaterial/fr.md) du panneau de l\'[Atelier Arch](Arch_Workbench/fr.md)
-    -   L\'entrée du menu {{MenuCommand|Arch → Outils matériaux...}}
+    -   L\'entrée du menu **Arch → Outils matériaux...**
 2.  <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [Atelier FEM](FEM_Workbench/fr.md)
     -   L\'icône <img alt="" src=images/Arch_Material_Group.svg  style="width:16px;"> [Editeur de matériaux](Material_editor/fr.md)
-    -   L\'entrée du menu {{MenuCommand|Models → Materials → Material editor}}
+    -   L\'entrée du menu **Models → Materials → Material editor**
 3.  Via Python (voir la section [Script](#Script.md) ci-dessous)
 
 ## Options

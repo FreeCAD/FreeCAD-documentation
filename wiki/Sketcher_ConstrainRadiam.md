@@ -28,7 +28,7 @@ If more than one circle or arc is selected before launching the command :
 
 NB : B-spline poles can\'t be mixed with other object type in the selection
 
-## How to use {#how_to_use}
+## How to use 
 
 1.  Pick one or more circles or arcs.
 2.  Press the **<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Constrain auto radius/diameter](Sketcher_ConstrainRadiam.md)** button.

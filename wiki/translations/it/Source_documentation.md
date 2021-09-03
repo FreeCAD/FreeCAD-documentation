@@ -35,9 +35,9 @@ Compiling the API documentation follows the same general steps as compiling the 
 
 *General workflow to compile FreeCAD's programming documentation. The Doxygen and Graphviz packages must be in the system, as well as the FreeCAD source code itself. CMake configures the system so that with a single make instruction the documentation for the the entire project is compiled into many HTML files with diagrams.*
 
-## Costruire la documentazione del codice sorgente {#costruire_la_documentazione_del_codice_sorgente}
+## Costruire la documentazione del codice sorgente 
 
-### Complete documentation {#complete_documentation}
+### Complete documentation 
 
 
 <div class="mw-translate-fuzzy">
@@ -98,7 +98,7 @@ La DevDoc è molto ingombrante, se graphviz è installato sul sistema, genera un
 
 </div>
 
-### Reduced documentation {#reduced_documentation}
+### Reduced documentation 
 
 The complete documentation uses around 3Gb of disk space. An alternative, smaller version of the documentation which takes only around 600 MB can be generated with a different target. This is the version displayed on the [FreeCAD API website](https://freecad.github.io/SourceDoc/). 
 ```python
@@ -137,7 +137,7 @@ In alternativa, la documentazione viene generata di volta in volta ed è accessi
 
 </div>
 
-## Integrare la documentazione di Coin3D {#integrare_la_documentazione_di_coin3d}
+## Integrare la documentazione di Coin3D 
 
 Sui sistemi Unix, è possibile collegare la documentazione del codice sorgente di Coin3D con quella di FreeCAD. Questo consente una navigazione più agevole e diagrammi di ereditarietà completi per le classi derivate da Coin.
 
@@ -162,7 +162,7 @@ Sui sistemi Unix, è possibile collegare la documentazione del codice sorgente d
 
 </div>
 
-## Usare Doxygen {#usare_doxygen}
+## Usare Doxygen 
 
 See the [Doxygen](Doxygen.md) page for an extensive explanation on how to comment C++ and Python source code so that it can be processed by Doxygen to automatically create the documentation.
 

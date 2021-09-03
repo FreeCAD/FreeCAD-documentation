@@ -82,9 +82,9 @@ Il Rettangolo può essere modificato facendo doppio clic sull\'elemento nella vi
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the initial value of filled mode: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible}}. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
--   If the {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available}} option is checked, the command will create a [Part Plane](Part_Plane.md) instead of a Draft Rectangle.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Plane](Part_Plane.md) instead of a Draft Rectangle.
 
 ## Proprietà
 
@@ -127,7 +127,7 @@ A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject
 
 <div class="mw-translate-fuzzy">
 
-### View {#view_1}
+### View 
 
 -    **Pattern**: specifica un [Modello](Draft_Pattern/it.md) di disegno con cui riempire la faccia della forma. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
 

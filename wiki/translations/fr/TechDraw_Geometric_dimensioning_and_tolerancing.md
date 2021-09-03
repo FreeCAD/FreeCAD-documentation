@@ -44,7 +44,7 @@ TechDraw fournit plusieurs outils pour créer différents types de cotations. Ve
 
 </div>
 
-### Mise en forme {#mise_en_forme}
+### Mise en forme 
 
 La police par défaut pour la nouvelle dimension est déterminée par le paramètre **Label Font** des [préférences](TechDraw_Preferences/fr#.C3.89tiquettes.md). La taille de police par défaut est spécifiée par le paramètre **Font Size** des [préférences](TechDraw_Workbench/fr#Cotations.md).**Note:** Il est recommandé d\'utiliser une police où le signe moins a la même largeur que le signe plus, car cela garantit que les tolérances seront formatées comme proposé par les normes GD&T. Une telle police est par exemple *osifont* qui fait partie de toutes les installations FreeCAD.
 
@@ -89,7 +89,7 @@ Avec les propriétés {{PropertyData/fr|X}} et {{PropertyData/fr|Y}}, vous pouve
 
 Pour se débarrasser d\'une tolérance, remplacez *Surtolérance* et *Sous-tolérance* par zéro.
 
-#### Mise en forme {#mise_en_forme_1}
+#### Mise en forme 
 
 La police par défaut pour les nouvelles tolérances est la même que pour les cotes. La taille de police par défaut est spécifiée par le paramètre **Tolerance Text Scale** des [préférences](TechDraw_Preferences/fr#Dimensions_2.md). Cette échelle est un facteur de la taille de police utilisée pour la dimension.
 
@@ -97,11 +97,11 @@ Le format des nombres par défaut pour les nouvelles tolérances est par défaut
 
 Vous pouvez également utiliser votre propre texte au lieu d\'un nombre formaté en cochant l\'option **Arbitrary Tolerance Text** dans la boîte de dialogue de dimension. Ensuite, le contenu de **Tolerance Format Specifier** sera utilisé comme texte de tolérance.
 
-## Tolérance géométrique {#tolérance_géométrique}
+## Tolérance géométrique 
 
 Les tolérances sont créées à l\'aide de la fonction [Annotation bulle](TechDraw_Balloon/fr.md) de TechDraw. Comme pour la plupart des fonctionnalités, un cadre est requis, il est utile de changer dans les [TechDraw Préférences](TechDraw_Preferences/fr#Annotation.md), la **forme de la bulle** en **rectangle**.
 
-### Indicateur de tolérance {#indicateur_de_tolérance}
+### Indicateur de tolérance 
 
 <img alt="Exemple d\'une tige tolérancée. (Le décentrement définit déjà la rectitude, il n\'est là qu\'à titre d\'exemple.)" src=images/TechDraw_GD%26T-Toleranced-rod.png  style="width:280px;">
 
@@ -118,7 +118,7 @@ Aucune règle ne définit si ou comment l\'indicateur de tolérance doit avoir u
 
 L\'exemple sur le côté droit montre les deux dispositions d\'indicateur de tolérance possibles.
 
-### Points de référence {#points_de_référence}
+### Points de référence 
 
 Les points de référence au sens de la GD&T sont des surfaces auxquelles votre tolérance est relative. Ils sont créés comme des ballons :
 
@@ -129,7 +129,7 @@ Les points de référence au sens de la GD&T sont des surfaces auxquelles votre 
 
 ![Exemple de référence dans un dessin](images/TechDraw_GD&T-Datum.png ) 
 
-### Référencement de symboles {#référencement_de_symboles}
+### Référencement de symboles 
 
 À titre de référence, voici des listes de caractères à utiliser pour le tolérancement géométrique:
 

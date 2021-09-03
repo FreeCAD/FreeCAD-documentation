@@ -19,7 +19,7 @@ Dieses Werkzeug ermöglicht es, Rohre von Grund auf oder aus ausgewählten Objek
 2.  Rufe diesen Befehl mit mehreren Methoden auf:
     -   Drücken der **<img src="images/Arch_Pipe.svg" width=16px> [Arch Rohr](Arch_Pipe/de.md)** Schaltfläche auf der Werkzeugleiste.
     -   Drücken der **P** dann **I** Tastaturkürzel.
-    -   Drücken der {{MenuCommand|Arch → Rohrwerkzeuge → Rohr}} Eintrag aus dem oberen Menü.
+    -   Drücken der **Arch → Rohrwerkzeuge → Rohr** Eintrag aus dem oberen Menü.
 
 ## Optionen
 
@@ -35,7 +35,7 @@ Dieses Werkzeug ermöglicht es, Rohre von Grund auf oder aus ausgewählten Objek
 
 -    **Profil**: Das Basisprofil dieses Rohres. Wenn nicht angegeben, ist das Rohr zylindrisch.
 
-## Typischer Arbeitsablauf {#typischer_arbeitsablauf}
+## Typischer Arbeitsablauf 
 
 -   Beginne mit der Platzierung von Sanitär-/Hydraulikgeräten (unten ist eine importierte step datei). Du verwandelst diese Objekte in Arch Ausstattungen, indem du sie auswählst und die Schaltfläche [Arch Ausstattung](Arch_Equipment/de.md) drückst.
 

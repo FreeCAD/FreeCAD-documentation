@@ -1,6 +1,6 @@
 
 
-## This is a list of OpenSCAD files that can not be opened in FreeCAD {#this_is_a_list_of_openscad_files_that_can_not_be_opened_in_freecad}
+## This is a list of OpenSCAD files that can not be opened in FreeCAD 
 
   ------------------- ------------------------------------------ -------------------------------------------------------- ----------------------------------------------------------- ------------------------------------------
   **Description**     **Source**                                 **Reason**                                               **Interactive repair known**                                **Fixed version available**
@@ -11,7 +11,7 @@
   Screw Library       <http://www.thingiverse.com/thing:8793>    returns meshes with duplicate vertices                   no                                                          no
   ------------------- ------------------------------------------ -------------------------------------------------------- ----------------------------------------------------------- ------------------------------------------
 
-## This is a list of OpenSCAD files that can be opened in FreeCAD without any problem {#this_is_a_list_of_openscad_files_that_can_be_opened_in_freecad_without_any_problem}
+## This is a list of OpenSCAD files that can be opened in FreeCAD without any problem 
 
   ------------- ------------------------------------------
   Description   Source

@@ -19,7 +19,7 @@ The Material tools allows to add [materials](Material.md) to the active document
 2.  Invoke the command several ways:
     -   Press the **<img src="images/Arch_SetMaterial.svg" width=16px> [Material](Arch_SetMaterial.md)** button in the toolbar.
     -   Use the **M** then **T** keyboard shortcut.
-    -   Use the {{MenuCommand|Arch → Material Tools → Material}} entry from the top menu.
+    -   Use the **Arch → Material Tools → Material** entry from the top menu.
 3.  Load a preset material, or create a new one by filling the fields.
 4.  Press **OK**.
 
@@ -40,7 +40,7 @@ The Material tools allows to add [materials](Material.md) to the active document
 -   **URL**: An URL where more information about the material can be found
 -   **URL button**:Opens the URL in a web browser
 
-## Relation to IFC {#relation_to_ifc}
+## Relation to IFC 
 
 This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 

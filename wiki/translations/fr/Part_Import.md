@@ -17,7 +17,7 @@ L\'outil **<img src="images/Part_Import.svg" width=16px> [Part Importation](Part
 ## Utilisation
 
 1.  Configurez les [Préférences d\'Import Export](Import_Export_Preferences/fr.md) dans l\'[Éditeur de préférences](Preferences_Editor/fr.md).
-2.  Aller dans le menu {{MenuCommand|Pièce →  <img src=images/Part_Import.svg style="width:16px"> Importation CAO...}}.
+2.  Aller dans le menu **Pièce →  <img src=images/Part_Import.svg style="width:16px"> Importation CAO...**.
 3.  Sélectionnez le fichier à importer.
 
 

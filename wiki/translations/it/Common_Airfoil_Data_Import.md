@@ -1,6 +1,6 @@
 
 
-## Importare Dati Airfoil {#importare_dati_airfoil}
+## Importare Dati Airfoil 
 
 FreeCAD può importare i dati di un profilo alare, come quello trovato in [UIUC Airfoil Coordinates Database](http://m-selig.ae.illinois.edu/ads/coord_database.html) o file prodotti con software per la creazione e l\'analisi di un profilo alare come [XFLR5](http://www.xflr5.com/xflr5.htm)
 
@@ -29,7 +29,7 @@ AG35
      1.000001    0.000000
 ```
 
-## Importazione avanzata {#importazione_avanzata}
+## Importazione avanzata 
 
 È disponibile una macro che consente di importare il profilo aerodinamico con una lunghezza della corda definita dall\'utente. Questa macro consente all\'utente di selezionare prima il file di dati da importare e poi anche di definire la lunghezza della corda. Quindi scala correttamente il profilo. La macro si trova nella sezione [Macros recipes](Macros_recipes/it.md) di questo Wiki sotto il nome di [Macro Airfoil Import & Scale](Macro_Airfoil_Import_&_Scale/it.md).
 

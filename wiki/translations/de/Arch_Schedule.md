@@ -93,9 +93,9 @@ Durch doppelklicken des Zeitplan-Objekt kommst du zurück zum Aufgaben-Panell un
 
 Die Kalkulationstabelle kann dann ganz normal von der Arbeitsbereich Tabellenkalkulations aus nach csv exportiert werden.
 
-## Dynamische Eigenschaften {#dynamische_eigenschaften}
+## Dynamische Eigenschaften 
 
-Es ist möglich, eigene Eigenschaften zu Objekten hinzuzufügen. Diese werden [Dynamische Eigenschaften](Property_editor/de#Maßnahmen.md) genannt. Falls sie mit der {{MenuCommand|Prefix group name}}-Option ausgewählt wurden, beginnen ihre Namen tatsächlich mit dem Gruppennamen, aber dieser Präfix wird nicht im [Eigenschafteneditor](Property_editor/de.md) angezeigt. Ihre Namen haben die Form: `NameOfGroup_NameOfProperty`. Um sie in einem Zeitplan zu referenzieren muss dieser vollständige Name verwendet werden.
+Es ist möglich, eigene Eigenschaften zu Objekten hinzuzufügen. Diese werden [Dynamische Eigenschaften](Property_editor/de#Maßnahmen.md) genannt. Falls sie mit der **Prefix group name**-Option ausgewählt wurden, beginnen ihre Namen tatsächlich mit dem Gruppennamen, aber dieser Präfix wird nicht im [Eigenschafteneditor](Property_editor/de.md) angezeigt. Ihre Namen haben die Form: `NameOfGroup_NameOfProperty`. Um sie in einem Zeitplan zu referenzieren muss dieser vollständige Name verwendet werden.
 
 
 

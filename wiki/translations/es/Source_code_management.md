@@ -8,7 +8,7 @@ While Git is primarily a terminal application, there are many graphical clients 
 
 Note: if any of this is starting to make you dizzy, there is a very good non-technical series on how to use git and Github called \'[Git and Github for Poets](https://youtu.be/BCQHnlnPusY)\'
 
-## Source code access {#source_code_access}
+## Source code access 
 
 Everybody can access and get a copy of the FreeCAD source code, but only the FreeCAD project managers have write access to it. You can get a copy of the code, study it and modify it as you wish, but if you want your changes to be included in the official source code, you need to perform a \"pull request\" against the master repository so that your modifications can be reviewed by the managers. This style of development is known as the [Dictator and lieutenants workflow](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows), as the core developers (dictators) and trusted developers (lieutenants) filter the code that is submitted by independent developers and users.
 
@@ -17,7 +17,7 @@ If your source code changes are significant, you are advised to explain them in 
 <img alt="" src=images/FreeCAD_git_workflow.svg  style="width:600px;"> 
 *Generic workflow to develop code for FreeCAD; everybody can get the code from the main repository, but the main developers have the exclusive right to review and merge submissions by other developers.*
 
-### Official GitHub repository {#official_github_repository}
+### Official GitHub repository 
 
 The FreeCAD source code is hosted on Github, {{URL|https://github.com/FreeCAD/FreeCAD}}
 
@@ -30,7 +30,7 @@ In the past, the source code was hosted as an SVN repository, {{URL|https://free
 
 <div class="mw-translate-fuzzy">
 
-### Configurando tu nombre de usuario en Git {#configurando_tu_nombre_de_usuario_en_git}
+### Configurando tu nombre de usuario en Git 
 
 Los usuarios deberían enviar a sus repositorios de proyecto utilizando sus nombres de usuario de SourceForge.net. Si no está definido globalmente, lo puedes definir localmente para el repositorio de Gir actual así:
 
@@ -45,7 +45,7 @@ git config user.email GITHUB_USERNAME@users.noreply.github.com
 
 Where `"YOUR_NAME"` represents your full name or nickname, used to identify the author of a particular commit, and `GITHUB_USERNAME` indicates the name of your account on GitHub.
 
-### Remote repositories {#remote_repositories}
+### Remote repositories 
 
 Please read [What is the difference between origin and upstream on GitHub?](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github#9257901) (Stackoverflow) to help you understand the difference between `origin` and `upstream` in the context of Git. This section explains how to set the correct repositories for development. Essentially:
 
@@ -65,7 +65,7 @@ We recommend the 1st method because it\'s one step faster.
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-#### 1st Method: Fork on GitHub and clone your fork locally {#st_method_fork_on_github_and_clone_your_fork_locally}
+#### 1st Method: Fork on GitHub and clone your fork locally 
 
 
 <div class="mw-collapsible-content">
@@ -111,7 +111,7 @@ upstream    https://github.com/FreeCAD/FreeCAD.git (push)
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-#### 2nd Method: Clone FreeCAD directly to your local machine {#nd_method_clone_freecad_directly_to_your_local_machine}
+#### 2nd Method: Clone FreeCAD directly to your local machine 
 
 
 <div class="mw-collapsible-content">
@@ -181,7 +181,7 @@ git remote show upstream
 
 <div class="mw-translate-fuzzy">
 
-## En desarrollo {#en_desarrollo}
+## En desarrollo 
 
 Antes de nada \'\'\'nunca desarrolles en el **ramal principal**! Crea un ramal local para el desarrollo. Puedes aprender a hacer esto [aquí](http://book.git-scm.com/3_basic_branching_and_merging.html).
 
@@ -258,7 +258,7 @@ git commit -a
 
 Where `path` can be any directory or file.
 
-### Escribiendo buenos mensajes de envío {#escribiendo_buenos_mensajes_de_envío}
+### Escribiendo buenos mensajes de envío 
 
 Deberías tratar de trabajar en pedazos pequeños. Si no puedes resumir tus cambios en una frase, entonces posiblemente ha pasado pasado demasiado tiempo desde que hiciste un envío. También es importante que ofrezcas descripciones de tu trabajo que sean útiles y ayuden. Para los mensajes de envío, FreeCAD ha adoptado un formato mencionado en el libro Pro Git (mira [\#Otras lecturas](#Otras_lecturas.md)).
 
@@ -295,7 +295,7 @@ to see the individual commit messages. Then you can write a high quality message
 
 When you merge to master use the `--squash` option and commit with your quality commit message. This will allow you to be very liberal with your commits and help to provide a good level of detail in commit messages without so many distinct descriptions.
 
-### Squashing commits {#squashing_commits}
+### Squashing commits 
 
 Squashing refers to the process of combining various consecutive commits into one. This may be desirable if you made many small commits that you want to present as a single commit, for example, when changing a single variable, correcting spelling mistakes, and adjusting the spacing of the code. You should squash only small commits to a single file; big changes to the code across multiple files should contain the full commit history.
 
@@ -348,7 +348,7 @@ c83d67 OK, feature B is fully implemented now, with proper module setup, and cle
 
 <div class="mw-translate-fuzzy">
 
-### Publicación de tu trabajo en el repositorio de sourceforge {#publicación_de_tu_trabajo_en_el_repositorio_de_sourceforge}
+### Publicación de tu trabajo en el repositorio de sourceforge 
 
 Después de hacer algunos cambios en tu ramal local y enviarlos (es decir, enviarlos \"localmente\") puedes enviar tu repositorio al servidor. Esto abre tu ramal al público y permite que los desarrolladores principales revisen e integren tu ramal en el *principal*.
 
@@ -380,7 +380,7 @@ git push -f origin myNewBranch
 
 The regular developer doesn\'t have write access to the `upstream` repository {{URL|https://github.com/FreeCAD/FreeCAD}}, therefore, you should never push code to this remote server.
 
-### Rebasing from upstream {#rebasing_from_upstream}
+### Rebasing from upstream 
 
 While you work on your own branch, the official FreeCAD code keeps \"moving forward\" with commits from other developers, and thus starts diverging from the code that you have in your personal fork.
 
@@ -429,7 +429,7 @@ git fetch upstream
 git rebase master
 ```
 
-### Merging the branch (pull request) {#merging_the_branch_pull_request}
+### Merging the branch (pull request) 
 
 Once you have committed your changes locally, rebased your branch from the upstream repository, and pushed your branch online, you can initiate a \"pull request\". A [pull request](https://help.github.com/articles/about-pull-requests/) tells the administrators of the official FreeCAD repository that you want to merge the new code in your branch with the official code.
 
@@ -487,7 +487,7 @@ base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <----  head repos
 base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <----  head repository: GITHUB_USERNAME/FreeCAD        compare: fix-many-bugs-branch
 ```
 
-### Keeping the GitHub repository up to date {#keeping_the_github_repository_up_to_date}
+### Keeping the GitHub repository up to date 
 
 Once you\'ve forked FreeCAD, your personal repository exists independently from the original. When the original repository has new commits, GitHub will inform you that your personal repository is behind in number of commits:
 
@@ -577,13 +577,13 @@ git push -f origin myNewBranch
 
 Hard resetting a branch like this is usually not needed. In most cases, you want to follow the sequence of creating a new branch, committing changes, pushing those changes, merging the branch, and then deleting the branch.
 
-## Advanced Git operations {#advanced_git_operations}
+## Advanced Git operations 
 
 ### Searching
 
 Some handy tools to help you find what you\'re looking for:
 
-#### Search filenames {#search_filenames}
+#### Search filenames 
 
 Use `git ls-files` to search the repository for file that contains a certain string in a filename. The example below will return all instances of the files that contain the \'dxf\' in their filenames.
 
@@ -592,7 +592,7 @@ Use `git ls-files` to search the repository for file that contains a certain str
 git ls-files *dxf*
 ```
 
-#### Search for a string {#search_for_a_string}
+#### Search for a string 
 
 Use `git grep` to search the repository for file that contains a certain string with the files themselves. The example below will return all instances of the files that contain the \'dxf\' within each and every file.
 
@@ -601,7 +601,7 @@ Use `git grep` to search the repository for file that contains a certain string 
 git grep dxf
 ```
 
-### Resolving merge conflicts {#resolving_merge_conflicts}
+### Resolving merge conflicts 
 
 Merging branches with `git merge`, or rebasing your branch with `git rebase`, will occasionally present conflicts, as files may have been modified by another author at the same time. If this happens you should see the changes of both sides, the other author\'s, and your own, and then make a decision on how to include both sets of changes in the best way possible. This is normally a manual process that cannot be automated; the programmer must understand the code, and decide what code to move, re-write, or drop to solve the conflict.
 
@@ -636,7 +636,7 @@ For more information on merging and solving conflicts see:
 -   [Resolving a merge conflict using the command line](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
 -   [External merge and diff tools](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_external_merge_tools) to use when you encounter a Git conflict.
 
-### Inspect changes {#inspect_changes}
+### Inspect changes 
 
 Inspect the history of a single file through various commits with the `log` operation:
 
@@ -647,7 +647,7 @@ git log --patch path
 
 Where `path` can be any directory or file. Instead of `--patch`, also the shorthands `-p` or `-u` can be used.
 
-### Inspect changes between two branches {#inspect_changes_between_two_branches}
+### Inspect changes between two branches 
 
 Inspect the changes between two branches with the `log` and `diff` operations with the names of the branches:
 
@@ -659,7 +659,7 @@ git diff master..myBranch
 
 The `log` operation shows the commits, while `diff` shows the actual changes in the files.
 
-### Reset files and directories {#reset_files_and_directories}
+### Reset files and directories 
 
 If you accidentally made modifications to a file or directory, you may want to completely revert these changes, to get the previous state of the source code.
 
@@ -694,7 +694,7 @@ Where `FETCH_HEAD` is the the tip of the `upstream` repository. Another commit c
 
 The `revert` operation also reverts changes. However, this command does this by adding another commit to the history; in many cases this is not desired.
 
-### Pruning old branches {#pruning_old_branches}
+### Pruning old branches 
 
 If you have committed many branches to the `upstream` repository, you may wish to remove these branches from your local system as they have already been merged. The branch in the `origin` repository online can be deleted immediately after merging. Then you can remove the local references to that branch, using the `--prune` or `prune` options to the `fetch` and `remote` operations.
 
@@ -718,11 +718,11 @@ It is also a good practice to do garbage collection after a while, by using the 
 git gc
 ```
 
-### Working with patches {#working_with_patches}
+### Working with patches 
 
 Although Git allows you to merge different branches of code with `git merge` (in your computer) or a pull request (remote repository), there are times when it may be desirable to create a traditional \"patch\", which can be sent as an attachment through email. The following workflow explains how to do this.
 
-#### Creating patches {#creating_patches}
+#### Creating patches 
 
 -   You should be developing your new code in a secondary branch of your repository, and not in the master branch. So the first step is to make sure you are in the correct branch.
 
@@ -768,7 +768,7 @@ where `XXXX` is a number from `0000` to `9999`, and the commit message forms the
 0001-fix-ViewProjMatrix-getProjectionMatrix.patch
 ```
 
-#### Applying patches {#applying_patches}
+#### Applying patches 
 
 Git can merge patches or diffs. To know more about this process read [Applying patches with Git](https://www.drupal.org/node/1399218).
 
@@ -797,7 +797,7 @@ You can point `curl` to a particular commit patch in the repository, and pipe it
 
     curl https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.patch | git apply -
 
-#### Reversing a patch {#reversing_a_patch}
+#### Reversing a patch 
 
 When you apply a patch you modify some files. However, these modifications aren\'t permanent until you commit the changes. Therefore, if you want to revert a patch use the following instructions.
 
@@ -815,7 +815,7 @@ Alternatively, this will remove non-committed changes to the branch.
 git checkout -f
 ```
 
-### Stashing git commits {#stashing_git_commits}
+### Stashing git commits 
 
 Say that you\'re working on a branch and you find yourself making some modifications to the source that are out of the scope of your current branch; in other words, those changes would be better in another branch instead of the current one. The `git stash` command can be used to temporarily store those uncommitted local changes.
 
@@ -847,7 +847,7 @@ git stash list
 
 To learn more, read [Useful tricks you might not know about Git stash](https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a).
 
-### Check out GitHub requests locally {#check_out_github_requests_locally}
+### Check out GitHub requests locally 
 
 [Checkout GitHub pull requests locally](https://gist.github.com/piscisaureus/3342247)
 
@@ -858,7 +858,7 @@ To learn more, read [Useful tricks you might not know about Git stash](https://m
 
 Add content from <https://forum.freecadweb.org/viewtopic.php?f=23&t=55943&p=481483#p481287>
 
-## FreeCAD revision number {#freecad_revision_number}
+## FreeCAD revision number 
 
 In contrast to subversion, which uses a consecutive number for its revisions, Git produces [SHA-1 hash values](https://en.wikipedia.org/wiki/SHA-1) with every commit. A hash value is a long alphanumeric string that looks like this
 
@@ -867,7 +867,7 @@ In contrast to subversion, which uses a consecutive number for its revisions, Gi
 9b3ffef570596e184006287434fba54a4b03ccc3
 ```
 
-### Latest revision number {#latest_revision_number}
+### Latest revision number 
 
 To find the latest revision number of a particular branch use the `rev-list` operation with the `--count` option. Give the name of the branch, remote repository, tag, or a special pointer like `HEAD`, to indicate the last commit in that particular object.
 
@@ -880,7 +880,7 @@ git rev-list --count origin
 
 Or browse [the repository on GitHub](https://github.com/FreeCAD/FreeCAD), and read the amount of commits reported in the particular branch.
 
-### Revision number of a specific commit hash {#revision_number_of_a_specific_commit_hash}
+### Revision number of a specific commit hash 
 
 Since the hash is an alphanumeric string it is not very useful to decide if a certain commit is older or newer than another hash. To find the revision number of a particular hash, again use the `rev-list` operation; the input can be the full hash, or a partial hash that is unique, usually the first 7 digits are enough.
 
@@ -890,7 +890,7 @@ git rev-list --count ab1520b872821414c6ce4a15fb85d471ac2a2b03
 git rev-list --count 9948ee4
 ```
 
-### Revision hash of a specific commit number {#revision_hash_of_a_specific_commit_number}
+### Revision hash of a specific commit number 
 
 If we have the commit number, say, 15000, and we want to find the corresponding hash, we need to calculate the number of commits since this point until the last commit (`HEAD`). First, get the latest commit number.
 
@@ -928,11 +928,11 @@ git rev-list --count 44c2f19e38
 -   [Finding the revision number of the commit](https://forum.freecadweb.org/viewtopic.php?f=18&t=12883&p=103207#p103203)
 -   [Finding the corresponding hash value to a particular commit number](https://forum.freecadweb.org/viewtopic.php?f=10&t=31118)
 
-### Revision number in FreeCAD\'s interface {#revision_number_in_freecads_interface}
+### Revision number in FreeCAD\'s interface 
 
 The version number that appears with the [Std About](Std_About.md) tool is defined in `src/Build/Version.h`, which is created at compile time when the `cmake` tool is run. Read [Extract version number from git source](https://forum.freecadweb.org/viewtopic.php?f=4&t=3025) for more information.
 
-## Adding other repositories (remotes) {#adding_other_repositories_remotes}
+## Adding other repositories (remotes) 
 
 Several collaborators of the FreeCAD project have their own Git repositories where they build up their work or where they experiment new ideas before they are ready to be included in the official source code. You may want to get their sources in order to test their code yourself when they make a pull request.
 
@@ -975,7 +975,7 @@ The new branch is ready to be modified and compiled as described in [Compiling](
 
 Head to the development section of the [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=6) to discuss more about development.
 
-## Otras lecturas {#otras_lecturas}
+## Otras lecturas 
 
 
 <div class="mw-translate-fuzzy">

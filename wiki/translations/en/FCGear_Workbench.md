@@ -18,51 +18,51 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
     *The FCGear Drop down menu*
     
 
-## Types of gears {#types_of_gears}
+## Types of gears 
 
-### Involute Gear {#involute_gear}
+### Involute Gear 
 
 :   ![](images/Involute-Gear_example.png )
 :   
     *From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
     
 
-### Involute Rack {#involute_rack}
+### Involute Rack 
 
 :   ![](images/Involute-Rack_example.png )
 :   
     *From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
     
 
-### Cycloide Gear {#cycloide_gear}
+### Cycloide Gear 
 
 :   ![](images/Cycloid-Gear_example_1.png )
 :   
     *From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear CycloideGear](FCGear_CycloideGear.md))*
     
 
-### Bevel Gear {#bevel_gear}
+### Bevel Gear 
 
 :   ![](images/Bevel-Gear_example.png )
 :   
     *From left to right: Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
     
 
-### Worm Gear {#worm_gear}
+### Worm Gear 
 
 :   ![](images/Worm-Gear_example.png )
 :   
     *Above: Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
     
 
-### Crown Gear {#crown_gear}
+### Crown Gear 
 
 :   ![](images/Crown-Gear_example.png )
 :   
     *Above: Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
     
 
-### Timing Gear and Lantern Gear {#timing_gear_and_lantern_gear}
+### Timing Gear and Lantern Gear 
 
 :   ![](images/Timing+Latern-gear_example.png )
 :   
@@ -90,14 +90,15 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 
 ## Installation
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
-The recommended method of installation as of v0.17 is via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md). It can be found in the {{MenuCommand|Tools → Addon Manager}}
+The recommended method of installation as of v0.17 is via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md). It can be found in the 
+**Tools → Addon Manager**
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:700px">
 
-### Manual installation {#manual_installation}
+### Manual installation 
 
 If there is a necessity to manually install this workbench the following instructions are provided to do so:
 
@@ -140,7 +141,7 @@ See instructions for Linux above
 
 </div>
 
-## Links to Gear WB {#links_to_gear_wb}
+## Links to Gear WB 
 
 -   Workbench Wiki: <https://github.com/looooo/FCGear/wiki>
 -   FreeCAD Wiki: [Macro\_FCGear](http://www.freecadweb.org/wiki/index.php?title=Macro_FCGear) and [Bevel gear](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878)
@@ -150,7 +151,7 @@ See instructions for Linux above
 -   Files:
 -   Report bugs: Please report bugs at <https://github.com/looooo/FCGear/issues>
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [PartDesign InvoluteGear](PartDesign_InvoluteGear.md): This tool allows for the creation of a 2D profile of an Involute gear. This 2D profile is fully parametric, and can be padded with the [PartDesign Pad](PartDesign_Pad.md) feature.
 -   [External Workbenches](External_workbenches.md): A list of all current external workbenches of FreeCAD

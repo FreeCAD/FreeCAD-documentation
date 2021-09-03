@@ -35,13 +35,13 @@ This project proposes to remedy to the main problems by:
 -   Work on the wiki documentation
 -   Explore and document available open-source documentation systems
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 -   A better documentation system inside FreeCAD
 -   Documentation. Like all open-source projects, it is of uttermost importance to document a lot everything you do. This allows for other people to take on and extend your work more easily.
 -   Proposals of migration to a better documentation system that would still keep FreeCAD users happy and eager to write and translate
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -52,7 +52,7 @@ This project proposes to remedy to the main problems by:
 
 Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 -   Potential mentors: [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
 

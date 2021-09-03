@@ -84,7 +84,7 @@ Git è uno strumento complesso, prima di utilizzare questo strumento considerare
 
 <div class="mw-translate-fuzzy">
 
-## Attivare la leggibilità delle differenze per i file FCStd {#attivare_la_leggibilità_delle_differenze_per_i_file_fcstd}
+## Attivare la leggibilità delle differenze per i file FCStd 
 
 
 </div>

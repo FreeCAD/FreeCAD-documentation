@@ -1,11 +1,11 @@
 
 
-## Domande frequenti su Path {#domande_frequenti_su_path}
+## Domande frequenti su Path 
 
 
 <div class="mw-translate-fuzzy">
 
-### Quanti assi può gestire l\'ambiente Path? {#quanti_assi_può_gestire_lambiente_path}
+### Quanti assi può gestire l\'ambiente Path? 
 
 
 </div>
@@ -17,7 +17,7 @@ Al momento, per la versione 0.18, Path Workbench può gestire fino a 3 assi di f
 
 <div class="mw-translate-fuzzy">
 
-### Perché sembra che, in alcuni casi, il workbench Path offra più di un modo per specificare un\'operazione? {#perché_sembra_che_in_alcuni_casi_il_workbench_path_offra_più_di_un_modo_per_specificare_unoperazione}
+### Perché sembra che, in alcuni casi, il workbench Path offra più di un modo per specificare un\'operazione? 
 
 
 </div>
@@ -33,7 +33,7 @@ Un esempio comune è, ad esempio, il taglio di contornatura può essere generato
 
 <div class="mw-translate-fuzzy">
 
-### Perché la modifica di un\'operazione di Ottimizzazione cambia la posizione nel flusso di lavoro della lavorazione mostrato nell\'elenco delle operazioni? {#perché_la_modifica_di_unoperazione_di_ottimizzazione_cambia_la_posizione_nel_flusso_di_lavoro_della_lavorazione_mostrato_nellelenco_delle_operazioni}
+### Perché la modifica di un\'operazione di Ottimizzazione cambia la posizione nel flusso di lavoro della lavorazione mostrato nell\'elenco delle operazioni? 
 
 
 </div>
@@ -45,7 +45,7 @@ Tutte le aggiunte alla lavorazione, comprese le modifiche e le copie di operazio
 
 <div class="mw-translate-fuzzy">
 
-### Qual è la differenza tra altezza libera e altezza di sicurezza? {#qual_è_la_differenza_tra_altezza_libera_e_altezza_di_sicurezza}
+### Qual è la differenza tra altezza libera e altezza di sicurezza? 
 
 
 </div>
@@ -57,7 +57,7 @@ Informazioni dettagliate sono disponibili in [ Profondità e Altezze](Template:D
 
 <div class="mw-translate-fuzzy">
 
-### Qual è l\'uso tipico del foglio di lavorazione? {#qual_è_luso_tipico_del_foglio_di_lavorazione}
+### Qual è l\'uso tipico del foglio di lavorazione? 
 
 
 </div>
@@ -83,7 +83,7 @@ Questo fornisce flessibilità. Ad esempio, le espressioni sono fornite predefini
 
 <div class="mw-translate-fuzzy">
 
-### Qual è l\'uso tipico dei modelli di lavorazione? {#qual_è_luso_tipico_dei_modelli_di_lavorazione}
+### Qual è l\'uso tipico dei modelli di lavorazione? 
 
 
 </div>
@@ -95,7 +95,7 @@ I modelli di lavorazione consentono di salvare da una lavorazione le definizioni
 
 <div class="mw-translate-fuzzy">
 
-### Quanti oggetti di base supporta il workbench Path? {#quanti_oggetti_di_base_supporta_il_workbench_path}
+### Quanti oggetti di base supporta il workbench Path? 
 
 
 </div>
@@ -107,7 +107,7 @@ Esiste solo il supporto per un singolo oggetto Base. Per creare percorsi per pi�
 
 <div class="mw-translate-fuzzy">
 
-### Perché un\'operazione non produce output utilizzabili? {#perché_unoperazione_non_produce_output_utilizzabili}
+### Perché un\'operazione non produce output utilizzabili? 
 
 
 </div>
@@ -125,7 +125,7 @@ Another common misunderstanding is that a Contour Operation is not outputting pa
 
 <div class="mw-translate-fuzzy">
 
-### Path Workbench può eseguire la fresatura 3D della superficie? {#path_workbench_può_eseguire_la_fresatura_3d_della_superficie}
+### Path Workbench può eseguire la fresatura 3D della superficie? 
 
 
 </div>
@@ -139,7 +139,7 @@ OpenCamLibrary non è integrato in FreeCAD per garantire che non si verifichino 
 
 <div class="mw-translate-fuzzy">
 
-### Cosa devo fare se le strategie delle operazioni predefinite non soddisfano le mie esigenze? {#cosa_devo_fare_se_le_strategie_delle_operazioni_predefinite_non_soddisfano_le_mie_esigenze}
+### Cosa devo fare se le strategie delle operazioni predefinite non soddisfano le mie esigenze? 
 
 
 </div>
@@ -172,7 +172,7 @@ Questi input sono preziosi, consentendo funzionalità tra cui:
 
 <div class="mw-translate-fuzzy">
 
-### Cosa faccio se un\'operazione genera più movimenti verticali di quelli che la lavorazione può tollerare? {#cosa_faccio_se_unoperazione_genera_più_movimenti_verticali_di_quelli_che_la_lavorazione_può_tollerare}
+### Cosa faccio se un\'operazione genera più movimenti verticali di quelli che la lavorazione può tollerare? 
 
 
 </div>
@@ -181,7 +181,7 @@ Le operazioni Tasca 3D, Tasca e Sfacciatura, *ma non l\'operazione Contornatura*
 
 [top](#top.md)
 
-## How can I leave tabs to clamp my milled work? {#how_can_i_leave_tabs_to_clamp_my_milled_work}
+## How can I leave tabs to clamp my milled work? 
 
 Path workbench provides a Tag dressup for just this purpose.
 
@@ -190,7 +190,7 @@ Path workbench provides a Tag dressup for just this purpose.
 
 <div class="mw-translate-fuzzy">
 
-### Cos\'è un postprocessore? {#cosè_un_postprocessore}
+### Cos\'è un postprocessore? 
 
 
 </div>
@@ -202,7 +202,7 @@ Il Postprocessore viene utilizzato per personalizzare il codice di output per i 
 
 <div class="mw-translate-fuzzy">
 
-### Posso modificare un postprocessore esistente o crearne uno mio? {#posso_modificare_un_postprocessore_esistente_o_crearne_uno_mio}
+### Posso modificare un postprocessore esistente o crearne uno mio? 
 
 
 </div>
@@ -214,7 +214,7 @@ I postprocessori sono degli script Python e vengono salvati nel percorso dei fil
 
 <div class="mw-translate-fuzzy">
 
-### Voglio solo usare un solo Postprocessore, posso renderlo predefinito o nascondere le altre opzioni? {#voglio_solo_usare_un_solo_postprocessore_posso_renderlo_predefinito_o_nascondere_le_altre_opzioni}
+### Voglio solo usare un solo Postprocessore, posso renderlo predefinito o nascondere le altre opzioni? 
 
 Si.
 
@@ -228,7 +228,7 @@ Yes, The path preferences has a section for post processors where you can select
 
 <div class="mw-translate-fuzzy">
 
-### Come posso impostare unità metriche o imperiali per il mio oggetto percorso? {#come_posso_impostare_unità_metriche_o_imperiali_per_il_mio_oggetto_percorso}
+### Come posso impostare unità metriche o imperiali per il mio oggetto percorso? 
 
 
 </div>
@@ -246,7 +246,7 @@ La mancata corrispondenza tra il modello 3D e le impostazioni del Postprocessore
 
 <div class="mw-translate-fuzzy">
 
-### Come posso simulare le mie strategie di fresatura? {#come_posso_simulare_le_mie_strategie_di_fresatura}
+### Come posso simulare le mie strategie di fresatura? 
 
 
 </div>
@@ -260,7 +260,7 @@ Se le linee del percorso oscurano il risultato della simulazione, la loro visibi
 
 <div class="mw-translate-fuzzy">
 
-### Qual è il significato dei colori delle linee del percorso? {#qual_è_il_significato_dei_colori_delle_linee_del_percorso}
+### Qual è il significato dei colori delle linee del percorso? 
 
 
 </div>
@@ -276,7 +276,7 @@ I colori delle linee del percorso sono definiti nella tabella dei colori in Modi
 
 <div class="mw-translate-fuzzy">
 
-### Come abilitare o disabilitare la visibilità delle linee del percorso? {#come_abilitare_o_disabilitare_la_visibilità_delle_linee_del_percorso}
+### Come abilitare o disabilitare la visibilità delle linee del percorso? 
 
 
 </div>
@@ -288,7 +288,7 @@ Path consente il controllo della visualizzazione delle linee del percorso commut
 
 <div class="mw-translate-fuzzy">
 
-### Come posso verificare se la sequenza del mio codice G è corretta? {#come_posso_verificare_se_la_sequenza_del_mio_codice_g_è_corretta}
+### Come posso verificare se la sequenza del mio codice G è corretta? 
 
 
 </div>
@@ -302,7 +302,7 @@ L\'elenco delle Operazioni nel pannello Vista combinata mostra la sequenza in cu
 
 <div class="mw-translate-fuzzy">
 
-### Perché non riesco a ottenere l\'output G-Code corretto dal mio Postprocessore per le operazioni inserito utilizzando Comando parziale-\> Comando personalizzato? {#perché_non_riesco_a_ottenere_loutput_g_code_corretto_dal_mio_postprocessore_per_le_operazioni_inserito_utilizzando_comando_parziale__comando_personalizzato}
+### Perché non riesco a ottenere l\'output G-Code corretto dal mio Postprocessore per le operazioni inserito utilizzando Comando parziale-\> Comando personalizzato? 
 
 
 </div>
@@ -314,7 +314,7 @@ Frequentemente, poiché il formato del comando G-Code personalizzato è sempre i
 
 <div class="mw-translate-fuzzy">
 
-### Perché le modifiche ai valori di posizionamento nelle Proprietà vista sembrano non funzionare correttamente nel workbench Path? {#perché_le_modifiche_ai_valori_di_posizionamento_nelle_proprietà_vista_sembrano_non_funzionare_correttamente_nel_workbench_path}
+### Perché le modifiche ai valori di posizionamento nelle Proprietà vista sembrano non funzionare correttamente nel workbench Path? 
 
 
 </div>
@@ -330,7 +330,7 @@ Tuttavia, i Path Compounds possono usufruire del Placement (posizionamento) dei 
 
 <div class="mw-translate-fuzzy">
 
-### Perché il workbench Path sul mio computer sembra perdere delle funzionalità che vedo nei post di altri utenti del forum? {#perché_il_workbench_path_sul_mio_computer_sembra_perdere_delle_funzionalità_che_vedo_nei_post_di_altri_utenti_del_forum}
+### Perché il workbench Path sul mio computer sembra perdere delle funzionalità che vedo nei post di altri utenti del forum? 
 
 
 </div>
@@ -342,7 +342,7 @@ Per impostazione predefinita, nell\'ambiente Path la funzionalità sperimentale 
 
 <div class="mw-translate-fuzzy">
 
-### Perché i video di YouTube pubblicati dagli sviluppatori del workbench Path non sono sincronizzati con il workbench Path? {#perché_i_video_di_youtube_pubblicati_dagli_sviluppatori_del_workbench_path_non_sono_sincronizzati_con_il_workbench_path}
+### Perché i video di YouTube pubblicati dagli sviluppatori del workbench Path non sono sincronizzati con il workbench Path? 
 
 
 </div>
@@ -351,7 +351,7 @@ Il workbench Path è stato modificato drasticamente da FreeCAD v0.16 a v0.17, e 
 
 [top](#top.md)
 
-## Why are arcs not round, but are made of a set of straight lines? {#why_are_arcs_not_round_but_are_made_of_a_set_of_straight_lines}
+## Why are arcs not round, but are made of a set of straight lines? 
 
 This is only a matter of displaying the path. You can change this in the preferences: Load Path workbench.
 

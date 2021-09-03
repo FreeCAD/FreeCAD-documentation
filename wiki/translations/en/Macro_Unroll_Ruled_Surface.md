@@ -33,7 +33,7 @@ Cf [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewtopic.ph
 
 ![Macro\_unrollRuledSurface](images/Macro_unrollRuledSurface_01.png )
 
-## Instruction for use {#instruction_for_use}
+## Instruction for use 
 
 1.  Select ruled surfaces
 2.  Explode them (cf Draft menu)

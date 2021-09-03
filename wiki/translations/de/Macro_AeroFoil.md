@@ -105,7 +105,7 @@ C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
 AeroFoil can be loaded by performing the following steps :-
 
 1.  Launch the **FreeCAD** application.
-2.  Go to {{MenuCommand|Macro → Macros ...}}.
+2.  Go to **Macro → Macros ...**.
 3.  Click on the **User macros** tab in the pop-up dialog box.
 4.  Select {{FileName|AeroFoil.FCMacro}}.
 5.  Click on **Execute**.
@@ -120,7 +120,7 @@ Once the AeroFoil macro has been loaded, follow the instructions in the respecti
           
   ------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-####  Hints to keep in mind during usage : {#hints_to_keep_in_mind_during_usage}
+####  Hints to keep in mind during usage : 
 
 1.  For the NACA airfoils, the last two digits (combined) cannot have a value of zero; thickness cannot be a zero value.
 2.  The NACA 5-digit airfoils are limited to the following models (\'XX\' denotes the last two digits, thickness, of the airfoil) :

@@ -12,7 +12,7 @@
 
 Tworzy pierwotną bryłę addytywną w aktywnej bryle jako pierwszy element lub łączy ją z istniejącymi elementami. Jeżeli w dokumencie nie ma bryły, zostanie ona automatycznie utworzona.
 
-## Rodzaje brył pierwotnych {#rodzaje_brył_pierwotnych}
+## Rodzaje brył pierwotnych 
 
 -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Addytywny sześcian](PartDesign_AdditiveBox/pl.md)
 -   <img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Addytywny stożek](PartDesign_AdditiveCone/pl.md)

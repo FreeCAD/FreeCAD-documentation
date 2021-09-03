@@ -14,12 +14,12 @@ Miba je způsob jak vložit informace o 3D prostoru do 2D obrázku. Často se to
 
 Detailnější specifikaci můžete nalézt zde: <http://miba.juergen-riegel.net/>
 
-## Miba in FreeCAD {#miba_in_freecad}
+## Miba in FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-## Miba ve FreeCADu {#miba_ve_freecadu}
+## Miba ve FreeCADu 
 
 Jestliže si vyberete souborový formát, který umožňuje komentáře ( JPG and PNG), můžete do komentářových polí zapsat komentář nebo vložit MIBA informace (default):
 
@@ -28,7 +28,7 @@ Jestliže si vyberete souborový formát, který umožňuje komentáře ( JPG an
 
 <img alt="" src=images/Save_picture.png  style="width:600px;">
 
-## Vytváření Miba obrázků skriptem {#vytváření_miba_obrázků_skriptem}
+## Vytváření Miba obrázků skriptem 
 
 
 ```python

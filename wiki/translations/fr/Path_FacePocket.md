@@ -43,7 +43,7 @@ L\'objet forme de poche ou Path Pocket Shape est fait pour travailler avec <img 
 
 <div class="mw-translate-fuzzy">
 
-#### Base {#base_1}
+#### Base 
 
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
@@ -173,25 +173,25 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Reverse Direction}}: inverse l\'orientation de l\'opération de 180 degrés.
 
-#### Point de départ {#point_de_départ}
+#### Point de départ 
 
 -    {{PropertyData/fr|Start Point}}: le point de départ de ce chemin.
 
 -    {{PropertyData/fr|Use Start Point}}: en position True, si vous spécifiez manuellement un point de départ, saisissez Points de départ dans le champ Points de départ des données de la propriété.
 
-## Tasks Window Editor Layout {#tasks_window_editor_layout}
+## Tasks Window Editor Layout 
 
 
 <div class="mw-translate-fuzzy">
 
-## Disposition de l\'éditeur de fenêtre de tâches {#disposition_de_léditeur_de_fenêtre_de_tâches}
+## Disposition de l\'éditeur de fenêtre de tâches 
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
 
 </div>
 
-#### Géométrie de base {#géométrie_de_base}
+#### Géométrie de base 
 
 -   **Add**: ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
 -   **Remove**: supprime le ou les éléments sélectionnés dans la liste emplacement de base.
@@ -213,7 +213,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -   **Clear**
 
-#### Profondeur {#profondeur_1}
+#### Profondeur 
 
 -    {{PropertyData/fr|Start Depth}}
     

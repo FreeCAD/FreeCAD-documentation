@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Vue d\'ensemble {#vue_densemble}
+## Vue d\'ensemble 
 
 Ce sont des bibliothèques que FreeCAD utilise comme dépendances tierces lors de la compilation. Ils sont généralement [bibliothèques liées dynamiquement](https://en.wikipedia.org/wiki/Dynamic_loading) et ont une extension `.so` sous Linux/MacOS et `.dll` sous Windows, et sont accompagnés de leurs fichiers d'en-tête `.h` ou `.hpp` ou similaire. Si une bibliothèque modifiée est nécessaire, ou si une classe wrapper est nécessaire, le code de la bibliothèque modifiée, ou du wrapper, doit faire partie du code source de FreeCAD et être compilé avec ce dernier.
 
@@ -114,7 +114,7 @@ En raison de leur popularité et de leur stabilité, de nombreuses bibliothèque
 
 Afin d\'assurer l\'efficacité et la flexibilité, Boost fait un usage intensif de modèles (templates). Boost a été une source de travail, et, de recherches approfondies dans la programmation générique, et, méta-données en C++. Vous en saurez plus sur Boost en visitant la page [Boost homepage](http://www.boost.org/).
 
-### OpenCasCade Technologie {#opencascade_technologie}
+### OpenCasCade Technologie 
 
 **Version :** 6.7 ou plus
 
@@ -144,7 +144,7 @@ Qt est l\'une des boîtes à outils d\'interface graphique (GUI) les plus popula
 
 Vous trouverez de plus amples informations sur la librairie Qt et une très bonne documentation en ligne sur la documentation [Qt](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
 
-#### Shiboken2 and Pyside2 {#shiboken2_and_pyside2}
+#### Shiboken2 and Pyside2 
 
 Shiboken est le générateur de liaison Python utilisé par Qt pour créer le module PySide pour être utilisé par Python. En d\'autres termes, c\'est le système utilisé pour exposer l\'API Qt C++ au langage Python.
 
@@ -168,7 +168,7 @@ Coin3D (Open Inventor) est utilisé comme visualiseur 3D dans FreeCAD car le vis
 
 Coin3D est portable sur une large gamme de plates-formes : systèmes d\'exploitation UNIX, Linux, BSD, MacOS X et Microsoft Windows. Pour en savoir plus sur cette bibliothèque, visitez [Coin3D homepage](https://github.com/coin3d/coin).
 
-#### SoQt (déprécié) {#soqt_déprécié}
+#### SoQt (déprécié) 
 
 **Version :** 1.2.0 ou plus
 
@@ -206,7 +206,7 @@ Ply est l\'analyseur Python-Lex-Yacc. Il est utilisé comme dépendance d\'exéc
 
 Pour plus d\'informations, voir [Ply homepage](https://www.dabeaz.com/ply/)
 
-### Xerces-C++ {#xerces_c}
+### Xerces-C++ 
 
 **Version :** 3.0 ou plus
 
@@ -268,7 +268,7 @@ LibPack est un paquet pratique qui regroupe les dépendances de construction de 
 
 Si vous travaillez sous Linux, vous n'avez pas besoin de LibPack, car vous pouvez obtenir les dépendances dans les dépôts de votre distribution, comme indiqué à la page [Compiler sous Linux](Compile_on_Linux/fr.md).
 
-### FreeCAD 12.1.2 {#freecad_12.1.2}
+### FreeCAD 12.1.2 
 
 Voir l\'annonce dans le forum : [New libpacks for Windows with Qt5.12, OCC7.3 and Python 3.6 by apeltauer](https://forum.freecadweb.org/viewtopic.php?f=4&t=35789)
 

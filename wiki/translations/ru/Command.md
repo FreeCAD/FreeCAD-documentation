@@ -28,7 +28,7 @@ FreeCADGui.runCommand("my_Command_Name")
 
 Команды могут быть назначены как на языке C++, так и посредством Python.
 
-## Назначение команд в C++ {#назначение_команд_в_c}
+## Назначение команд в C++ 
 
 Пример назначения команды на языке C++, назначение производится по следующей структре {{FileName|Mod/ModuleName/Gui/Command.cpp}}.
 
@@ -63,7 +63,7 @@ CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
-## Назначение команд в Python {#назначение_команд_в_python}
+## Назначение команд в Python 
 
 Пример назначения команды на языке Python. Данный код может быть размещен в папке по адрессу вроде этого: {{FileName|Mod/ModuleName/tools/commands.py}}. 
 ```python

@@ -29,7 +29,7 @@ If you would like to know how FreeCAD started years ago visit the [History](Hist
 
 A máte-li nějaké poznatky, které byste rádi viděli i zde, není důvod abyste nepřispěli a nepomohli nám tento manuál vylepšit. Přejděte na stránku [Nápověda FreeCADu](Help_FreeCAD/cs.md) , která Vám s tím pomůže začít. \_\_NOTOC\_\_
 
-## Použití FreeCADu {#použití_freecadu}
+## Použití FreeCADu 
 
 
 </div>
@@ -54,7 +54,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-### Základy aplikace {#základy_aplikace}
+### Základy aplikace 
 
 
 </div>
@@ -75,7 +75,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-### Pracovní plochy {#pracovní_plochy}
+### Pracovní plochy 
 
 
 </div>
@@ -134,7 +134,7 @@ Power users have written various [macros](macros.md) to enhance FreeCAD with mor
 
 Since FreeCAD 0.17, many macros can be installed using the [Addon Manager](Std_AddonMgr.md). For a list of the macros refer to the [Macros recipes](Macros_recipes.md) page. For manual installation see [How to install macros](How_to_install_macros.md).
 
-### External workbenches {#external_workbenches}
+### External workbenches 
 
 When many macros or functions are developed together, and are organized in toolbars and menus, they can become a new workbench.
 
@@ -152,7 +152,7 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 </div>
 
-## Online nápověda {#online_nápověda}
+## Online nápověda 
 
 
 <div class="mw-translate-fuzzy">

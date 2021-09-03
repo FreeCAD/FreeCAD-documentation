@@ -6,24 +6,24 @@ Toto je místo kam jít, jestliže se chcete zúčastnit vývoje software FreeCA
 
 Tyto stránky jsou zatím v ranném vývoji. Nemůžete-li najít informace, které hledáte nebo jste našli informace, na které zatím nemáme odkazy, přidejte prosím komentář na [forum](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) a někdo se na to podívá (nebo jste-li dost smělí, můžete upravit tyto stránky přímo sami!).
 
-## Developer Documentation {#developer_documentation}
+## Developer Documentation 
 
 
 <div class="mw-translate-fuzzy">
 
-## Dokumentace pro vývojáře {#dokumentace_pro_vývojáře}
+## Dokumentace pro vývojáře 
 
 Dokumentace pro vývojáře zahrnuje následující sekce:
 
 
 </div>
 
-### Compiling FreeCAD {#compiling_freecad}
+### Compiling FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-### Udělejte sami: Kompilace FreeCADu {#udělejte_sami_kompilace_freecadu}
+### Udělejte sami: Kompilace FreeCADu 
 
 -   [Správa zdrojového kódu](Source_code_management.md)
 -   [Vyledání podpory](Tracker.md) máte-li problém nebo si myslíte, že jste odhalili chybu
@@ -50,12 +50,12 @@ Dokumentace pro vývojáře zahrnuje následující sekce:
 -   [Windows packaging](Windows_packaging.md)
 -   [MacOS packaging](MacOS_packaging.md)
 
-### Build Support Tools {#build_support_tools}
+### Build Support Tools 
 
 
 <div class="mw-translate-fuzzy">
 
-### Nástroje pro podporu buildu {#nástroje_pro_podporu_buildu}
+### Nástroje pro podporu buildu 
 
 -   [Nástroj pro build FreeCADu](FreeCAD_Build_Tool.md)
     -   [Přidávání aplikačního modulu](Module_Creation.md) do FreeCADu
@@ -65,12 +65,12 @@ Dokumentace pro vývojáře zahrnuje následující sekce:
 
 </div>
 
-### Modifying FreeCAD {#modifying_freecad}
+### Modifying FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-### Modifikace FreeCADu {#modifikace_freecadu}
+### Modifikace FreeCADu 
 
 -   Vylepšování [vzhledu](Gui_Command.md) FreeCADu nebo pracovní plochy
 -   [Branding](Branding.md) aneb *jak dát FreeCADu unikátní vzhled*
@@ -83,7 +83,7 @@ Dokumentace pro vývojáře zahrnuje následující sekce:
 
 -   [Translating an external workbench](Translating_an_external_workbench.md)
 
-### Module developer\'s guide {#module_developers_guide}
+### Module developer\'s guide 
 
 [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): This is an ebook under writing on github, please fork and send pull request to contribute.
 
@@ -107,7 +107,7 @@ Latest pdf preview can be downoaded from [pdf folder](https://github.com/qingfen
 
 <div class="mw-translate-fuzzy">
 
-### Dokumentace OpenCascade {#dokumentace_opencascade}
+### Dokumentace OpenCascade 
 
 -   [Roman Lygin\'s tutorials](http://opencascade.wikidot.com/romansarticles)
 -   [Online class reference](http://opencascade.sourcearchive.com/documentation/6.3.0.dfsg.1-1/classes.html). Poslední verze online nápovědy která je dostupná tímto způsobem, je sice už trochu zastaralá, ale stále ještě odpovídající. Je to asi výhodnější než muset stahovat jeden veliký soubor, což byste museli udělat, pokud byste chtěli nejnovější verzi.
@@ -123,11 +123,11 @@ OpenCascade is a software development platform for 3D surface and solid modeling
 -   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
 -   [The openCascade wiki](http://opencascade.wikidot.com) (currently containing ?? Chinese spam)
 
-#### File format {#file_format}
+#### File format 
 
 [File Format FCStd](File_Format_FCStd.md). The files created with FreeCAD are `.zip` files that include the [BREP](https://en.wikipedia.org/wiki/Boundary_representation) geometry, as well as XML data that describes the document.
 
-#### Sketcher solver {#sketcher_solver}
+#### Sketcher solver 
 
 -   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
 -   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
@@ -142,7 +142,7 @@ The development of a new solver architecture could improve the way the solver is
 
 <div class="mw-translate-fuzzy">
 
-## Plány FreeCADu {#plány_freecadu}
+## Plány FreeCADu 
 
 FreeCAD, ačkoli už je použitelný v určité oblasti, je na začátku dlouhé cesty mezi významné CADy. Je toho potřeba ještě mnoho udělat pro dosažení stavu kdy bychom se mohli srovnávat s komerčními softwary.
 

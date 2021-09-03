@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Dies ist der Projektplan für den FreeCAD Teil der [Development roadmap/de](Development_roadmap/de.md).
 
-## Zweck und Grundsätze {#zweck_und_grundsätze}
+## Zweck und Grundsätze 
 
 Verbesserung der Mehrsprachigkeit in FreeCAD durch die Implementierung der Unterstützung von UTF Zeichen innerhalb der Coin3D Schnittstelle.
 
@@ -27,7 +27,7 @@ Ungeachtet dessen, dass Coin3D nun auf eine offenere Entwicklungsplattform umzie
 -   Umstellen von Modulen auf die Nutzung der neuen textuellen Knoten
 -   Gründliche Tests.
 
-## Nächste Aktionen {#nächste_aktionen}
+## Nächste Aktionen 
 
 -   Implementieren der UTF-Zeichenketten-Behandlungsklassen **(in Arbeit)**
 -   Behandlung von Schriftarten und Glyphen

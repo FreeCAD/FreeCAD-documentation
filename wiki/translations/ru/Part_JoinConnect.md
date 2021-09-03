@@ -19,7 +19,7 @@ Connect tool connects interiors of two walled objects (e.g., pipes). It can also
     The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g., faces). You can also select a compound containing all the shapes to be connected, e.g. [Draft OrthoArray](Draft_OrthoArray.md).
 2.  Invoke the Part JoinConnect command using several ways:
     -   Press the <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Part JoinConnect](Part_JoinConnect.md) button in the Part toolbar
-    -   Use the {{MenuCommand|Part → Join → Connect objects}} entry in the Part menu
+    -   Use the **Part → Join → Connect objects** entry in the Part menu
 
 A Connect parametric object is created. Original objects are hidden, and the result of connecting is shown in [3D view](3D_view.md).
 

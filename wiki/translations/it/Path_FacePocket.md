@@ -156,17 +156,17 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
 
-#### Start Point {#start_point}
+#### Start Point 
 
 -    **Start Point**: The start point of this path
 
 -    **Use Start Point**: make True, if manually specifying a Start Point, then enter Start Points in the property data Start Points field
 
-## Tasks Window Editor Layout {#tasks_window_editor_layout}
+## Tasks Window Editor Layout 
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Geometry {#base_geometry}
+#### Base Geometry 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: delete the selected item(s) in the Base Geometry list
@@ -188,7 +188,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -   **Clear**
 
-#### Depth {#depth_1}
+#### Depth 
 
 -    **Start Depth**
     

@@ -13,7 +13,7 @@ Elementele bidimensionale din plasa FEM nu sunt luate în considerare. Dacă tre
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -33,7 +33,7 @@ Elementele bidimensionale din plasa FEM nu sunt luate în considerare. Dacă tre
 
 <div class="mw-translate-fuzzy">
 
-## Script-Programare {#script_programare}
+## Script-Programare 
 
 Exemplu:
 
@@ -52,12 +52,12 @@ import Mesh
 Mesh.show(Mesh.Mesh(out_mesh))
 ```
 
-## Converting 2D elements {#converting_2d_elements}
+## Converting 2D elements 
 
 
 <div class="mw-translate-fuzzy">
 
-## Conversia elementelor 2D {#conversia_elementelor_2d}
+## Conversia elementelor 2D 
 
 Selectați o plasă și rulați următorul script python
 

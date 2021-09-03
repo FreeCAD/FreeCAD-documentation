@@ -22,7 +22,7 @@ Questo strumento permette di creare delle tubazioni partendo da zero, o dagli og
 2.  Richiamare questo comando utilizzando uno di questi metodi:
     -   Premere il pulsante **<img src="images/Arch_Pipe.svg" width=16px> [Tubo](Arch_Pipe/it.md)** nella barra degli strumenti.
     -   Premere i tasti **P** e poi **I** da tastiera.
-    -   Usare la voce {{MenuCommand|Arch → Strumenti tubazioni → Tubo}} del menu principale.
+    -   Usare la voce **Arch → Strumenti tubazioni → Tubo** del menu principale.
 
 ## Opzioni
 
@@ -38,7 +38,7 @@ Questo strumento permette di creare delle tubazioni partendo da zero, o dagli og
 
 -    {{PropertyData/it|Profile}}: Il profilo di base del tubo. Se non è dato, il tubo è di forma cilindrica.
 
-## Flusso di lavoro tipico {#flusso_di_lavoro_tipico}
+## Flusso di lavoro tipico 
 
 -   Iniziare collocando degli apparecchi sanitari o idraulici (il wc della figura sottostante è un file step importato). Commutare questi oggetti in Arch Equipment selezionandoli e premendo il tasto [Arredo](Arch_Equipment/it.md).
 

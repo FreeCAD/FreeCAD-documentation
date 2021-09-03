@@ -61,29 +61,29 @@ To add or remove features from an existing mirroring:
 
 </div>
 
-### Selezione del piano di riflessione {#selezione_del_piano_di_riflessione}
+### Selezione del piano di riflessione 
 
 Quando si crea una operazione Simmetria, la finestra di dialogo **Mirrored parameters** (Parametri della simmetria) offre diversi modi per specificare la linea o il piano di riflessione.
 
-#### Asse orizzontale dello sketch {#asse_orizzontale_dello_sketch}
+#### Asse orizzontale dello sketch 
 
 Utilizza l\'asse orizzontale dello schizzo come asse di simmetria.
 
-#### Asse verticale dello sketch {#asse_verticale_dello_sketch}
+#### Asse verticale dello sketch 
 
 Utilizza l\'asse verticale dello schizzo come asse di simmetria.
 
-#### Seleziona riferimento\... {#seleziona_riferimento...}
+#### Seleziona riferimento\... 
 
 Consente di selezionare un piano (ad esempio una faccia di un oggetto) da utilizzare come piano di riflessione.
 
-#### Asse creato nello Schizzo {#asse_creato_nello_schizzo}
+#### Asse creato nello Schizzo 
 
 Se lo schizzo che definisce la caratteristica da rispecchiare contiene anche una linea di costruzione (o più linee) l\'elenco a discesa contiene un asse personalizzato per ognuna delle linee di costruzione presenti nello schizzo. La prima linea di costruzione è etichettata \'Sketch axis 0\'.
 
 ![](images/PartDesign_Mirrored_axis_fromconstructionlines.jpg )
 
-#### Piano di base XY/XZ/YZ {#piano_di_base_xyxzyz}
+#### Piano di base XY/XZ/YZ 
 
 
 <div class="mw-translate-fuzzy">

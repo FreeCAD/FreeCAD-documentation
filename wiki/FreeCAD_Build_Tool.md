@@ -47,7 +47,7 @@ The command \"DB\" **creates a binary distribution** of the current source tree.
 
 The command \"DI\" **creates a setup distribution** of the current source tree.
 
-### DistSetup {#distsetup_1}
+### DistSetup 
 
 The command \"DUI\" **creates a user setup distribution** of the current source tree.
 

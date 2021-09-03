@@ -11,7 +11,7 @@ If you are not involved with the development discussed here:<br>
 
 This is the project plan for the FreeCAD part of the [Development roadmap](Development_roadmap.md).
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 To improve multi-language capabilities in FreeCAD by implementing support for UTF characters within the Coin3D interface.
 
@@ -26,7 +26,7 @@ Despite Coin3D now moving to a more open development platform, it\'s still very 
 -   Migrate modules over to use the new textual nodes.
 -   Rigorous testing
 
-## Next actions {#next_actions}
+## Next actions 
 
 -   Implement the UTF String Handling Class **(WIP)**
 -   Handling of fonts and glyphs.

@@ -16,7 +16,7 @@ Der **Std FensterAnordnen**-Befehl ordnet die Fenster im [Hauptansichtsbereich](
 ## Anwendung
 
 1.  Der Hauptansichtsbereich muss wenigstens zwei Fenster enthalten.
-    -   Wähle die {{MenuCommand|Fenster → <img src="images/Std_TileWindows.svg" width=16px> Anordnen}}-Option aus dem Menü.
+    -   Wähle die **Fenster → <img src="images/Std_TileWindows.svg" width=16px> Anordnen**-Option aus dem Menü.
 
 
 

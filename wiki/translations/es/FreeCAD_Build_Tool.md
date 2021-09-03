@@ -64,7 +64,7 @@ El comando \"DB\" **crea una distribución binaria** del árbol de código fuent
 
 El comando \"DI\" **crea una distribución de setup** del árbol de código fuente actual.
 
-### DistSetup {#distsetup_1}
+### DistSetup 
 
 El comando \"DUI\" **crea una distribución de setup de usuario** del árbol de código fuente actual.
 

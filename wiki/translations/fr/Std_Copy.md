@@ -17,8 +17,8 @@ La commande **Std Copie** copie les objets dans le presse-papiers.
 1.  Sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_Copy.svg" width=16px> [Opération de copie](Std_Copy/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Edition → <img src="images/Std_Copy.svg" width=16px> Copier}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/Std_Copy.svg" width=16px> Copier}} dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md).
+    -   Sélectionnez l\'option **Edition → <img src="images/Std_Copy.svg" width=16px> Copier** dans le menu.
+    -   Sélectionnez l\'option **<img src="images/Std_Copy.svg" width=16px> Copier** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md).
     -   Utilisez le raccourci clavier: **Ctrl**+**C**.
 3.  Si les objets ont des dépendances qui n\'ont pas été sélectionnées, une boîte de dialogue vous demandera de spécifier ceux qui doivent être inclus.
 

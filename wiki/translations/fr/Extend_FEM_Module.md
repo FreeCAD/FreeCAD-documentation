@@ -21,7 +21,7 @@ Ajouter de nouvelles contraintes, équations ou solveurs est généralement un t
 -   Une bonne compréhension du solveur auquel il faut ajouter de nouveaux objets (par exemple calculix ou Elmer) est importante.
 -   Un peu de connaissances sur les systèmes de compilation, en particulier cmake (le système de compilation utilisé par FreeCAD)
 
-## Le moteur de production (cmake) {#le_moteur_de_production_cmake}
+## Le moteur de production (cmake) 
 
 Le système de build (construction) doit être modifié quels que soient les objets à ajouter sur le plan de travail FEM. Chaque module (fichier) Python doit être enregistré. L\'atelier FEM requiert que chaque nouveau module Python soit enregistré dans `Mod/Fem/CMakeLists.txt`. Cela est vrai quel que soit le type du module Python (GUI ou non GUI). L\'endroit où le module doit être inséré dépend du rôle du module. Le solveur, les équations et les contraintes utilisent tous des listes différentes. La recherche de fichiers similaires et l\'insertion du nouveau fichier dans la même liste fonctionnent la plupart du temps.
 
@@ -70,7 +70,7 @@ SET(FemGuiViewProvider_SRCS
 )
 }}
 
-## Organisation des sources {#organisation_des_sources}
+## Organisation des sources 
 
 Pour organiser le code Python, le module FEM utilise l\'approche suivante. Le module est divisé en les packages suivants:
 
@@ -94,7 +94,7 @@ Un paquet ne suit pas ce modèle: `femsolver`. Il a sa place au même niveau que
     .femsolver.z88
     .femsolver.z88.equations
 
-## Le solveur {#le_solveur}
+## Le solveur 
 
 Dans FreeCAD, un solveur peut être divisé en deux parties:
 

@@ -10,16 +10,16 @@
 
 Cette page montre les différentes façons de lancer FreeCAD et ses éléments de configuration les plus importants.
 
-## Démarrer FreeCAD en ligne de commande {#démarrer_freecad_en_ligne_de_commande}
+## Démarrer FreeCAD en ligne de commande 
 
 FreeCAD peut être lancé normalement en double-cliquant sur son icône qui est sur le bureau, ou en le sélectionnant dans le menu de démarrage, mais il peut également être lancé directement à partir de la ligne de commande. Cela vous permet de changer les options de démarrage par défaut.
 
-### Utilisation des options en ligne de commande sans utiliser le shell {#utilisation_des_options_en_ligne_de_commande_sans_utiliser_le_shell}
+### Utilisation des options en ligne de commande sans utiliser le shell 
 
 -   Sur Ubuntu, vous pouvez créer une icône de bureau et modifier leurs propriétés. Ajoutez les options de ligne de commande séparées par des espaces derrière le nom du programme dans le champ \"Commande\".
 -   Sous Windows, créez un raccourci et modifiez ses propriétés. Ajoutez les options de ligne de commande séparées par des espaces dans le champ \"Cible\".
 
-### Options disponibles en ligne de commande {#options_disponibles_en_ligne_de_commande}
+### Options disponibles en ligne de commande 
 
 Les options en ligne de commande sont l\'objet de fréquents changements. Il est donc sage de vérifier les options de votre version courante en tapant :
 
@@ -71,7 +71,7 @@ Dans le tableau suivant, les options sélectionnées sont décrites plus en dét
 
 Les options peuvent être rédigées sous deux formes : `--long-option arg` et `--long-option<nowiki>=</nowiki>arg`.
 
-### Fichiers de configuration et réponse {#fichiers_de_configuration_et_réponse}
+### Fichiers de configuration et réponse 
 
 Vous pouvez lire certaines options de FreeCAD à partir d\'un fichier de configuration. Ce fichier doit être dans le répertoire {{FileName|/bin}} et doit être nommé {{FileName|FreeCAD.cfg}}. Notez que les options spécifiées en ligne de commande remplacent le fichier de configuration !
 
@@ -87,7 +87,7 @@ ou :
 
     FreeCAD --response-file ResponseFile.txt
 
-### Options cachées {#options_cachées}
+### Options cachées 
 
 Il y a des options qui sont invisibles à l\'utilisateur. Ces options sont, par exemple, les paramètres X-Window analysés par le système Windows :
 
@@ -103,7 +103,7 @@ Il y a des options qui sont invisibles à l\'utilisateur. Ces options sont, par 
 -   **-ncols count**, limite le nombre de couleurs allouées dans le cube de couleur sur un écran 8-bits, si l\'application utilise la spécification de couleur QApplication::ManyColor. Si le nombre est 216, un cube 6x6x6 couleurs est utilisé (soit 6 niveaux de rouge, 6 de vert, et 6 de bleu); pour d\'autres valeurs un cube à peu près proportionnel à un cube 2x3x1 couleurs est utilisé.
 -   **-cmap**, provoque l\'installation d\'une carte de couleurs réservée à l\'application, sur un affichage 8-bits.
 
-### Executer FreeCAD sans interface graphique utilisateur {#executer_freecad_sans_interface_graphique_utilisateur}
+### Executer FreeCAD sans interface graphique utilisateur 
 
 FreeCAD est généralement compilé avec deux exécutables : un exécutable compatible avec l\'interface graphique, appelé {{FileName|FreeCAD}} ou {{FileName|freecad}}, et un exécutable sans tête, appelé {{FileName|FreeCADCmd}} ou {{FileName|freecadcmd}}. FreeCAD peut être utilisé en mode console en utilisant le commutateur `--console` (qui est le comportement par défaut de {{FileName|FreeCADCmd}}) :
 
@@ -113,7 +113,7 @@ En mode console, aucune interface utilisateur graphique ne sera affichée et vou
 
 Pour en savoir plus sur le mode console ou le mode sans tête, consultez [Headless FreeCAD](Headless_FreeCAD/fr.md).
 
-### Exécution de modules, macros et scripts {#exécution_de_modules_macros_et_scripts}
+### Exécution de modules, macros et scripts 
 
 +-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Type de fichier | Système          | Exemple en lignes de commande                                                                                                      |
@@ -147,7 +147,7 @@ Pour en savoir plus sur le mode console ou le mode sans tête, consultez [Headle
 
 Voir [Macro at Startup](Macro_at_Startup/fr.md) pour savoir comment configurer une macro pour qu\'elle s\'exécute automatiquement au démarrage de FreeCAD.
 
-## Variables d\'environnement {#variables_denvironnement}
+## Variables d\'environnement 
 
 FreeCAD prend en charge les variables d\'environnement suivantes, qui peuvent être utilisées pour configurer les répertoires: {{Version/fr|0.19}}
 
@@ -177,7 +177,7 @@ FreeCAD utilise [Qt](Third_Party_Libraries/fr#Qt.md), qui respecte la variable d
 
 FreeCad lui-même ne respecte pas la variable d\'environnement `HOME` (car cela détermine le répertoire personnel de l\'utilisateur à partir d\'une API système de niveau inférieur). Utilisez `FREECAD_USER_HOME` pour cela.
 
-### `TMPDIR` {#section_1}
+### `TMPDIR` 
 
 Le répertoire temporaire par défaut est {{FileName|/tmp/}}. La variable d\'environnement `TMPDIR` peut être utilisée pour remplacer la valeur par défaut. (*Editeur:priorité?*).
 
@@ -211,7 +211,7 @@ Certaines bibliothèques doivent appeler des variables d\'environnement système
 
 A chaque démarrage, FreeCAD examine son environnement, ainsi que les paramètres en ligne de commande. Il construit un **ensemble de configuration** qui détient le cœur des informations d\'exécution. Ces informations sont ensuite utilisées pour déterminer l'emplacement où enregistrer les données des utilisateurs ou des fichiers journaux. Il est également très important pour les analyses post-mortem. Par conséquent, il est enregistré dans le fichier journal (log file).
 
-### Informations relatives à l\'utilisateur {#informations_relatives_à_lutilisateur}
+### Informations relatives à l\'utilisateur 
 
 L\'appel se fait de la manière suivante :
 
@@ -255,7 +255,7 @@ path = FreeCAD.ConfigGet("UserAppData")
 
 Remarque: pour les distributions Linux, un fichier de configuration supplémentaire lié à [Qt](Third_Party_Libraries/fr#Qt.md) peut exister au chemin {{FileName|/home/username/.config/FreeCAD/FreeCAD.conf}}.
 
-### Paramètres en ligne de commande {#paramètres_en_ligne_de_commande}
+### Paramètres en ligne de commande 
 
 +-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
 | Nom de la variable de configuration | Synopsis                                                                                                                                                                                                                                                                                                                               | Exemple                                                                     |
@@ -279,7 +279,7 @@ Remarque: pour les distributions Linux, un fichier de configuration supplémenta
 | AdditionalModulePaths               | Contient les chemins des modules supplémentaires donnés dans la ligne de commande                                                                                                                                                                                                                                                      | \"extraModules/\"                                                           |
 +-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
 
-### Relatif au système {#relatif_au_système}
+### Relatif au système 
 
 +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+---------------------------+
 | Nom de la variable de configuration | Synopsis                                                                                                                                                                                                                                                                                                                                                           | Exemple Windows                           | Exemple Linux             |
@@ -290,13 +290,13 @@ Remarque: pour les distributions Linux, un fichier de configuration supplémenta
 +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+---------------------------+
 | PythonSearchPath                    | Donne une liste de chemins que les modules Python recherchent. S\'effectue au démarrage, et peut changer en cours d\'exécution                                                                                                                                                                                                                                     |                                           |                           |
 +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+---------------------------+
-| AppTempPath                         | Chemin du répertoire temporaire. Peut être donné avec la variable d\'environnement `TMPDIR` ou avec l\'<img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Editeur des paramètres](Std_DlgParameter/fr.md): {{MenuCommand|Outils → Editer paramètres ... → BaseApp → Préférences → Général → TempPath}} |                                           |            |
+| AppTempPath                         | Chemin du répertoire temporaire. Peut être donné avec la variable d\'environnement `TMPDIR` ou avec l\'<img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Editeur des paramètres](Std_DlgParameter/fr.md): **Outils → Editer paramètres ... → BaseApp → Préférences → Général → TempPath** |                                           |            |
 |                                     |                                                                                                                                                                                                                                                                                                                                                                    |                                           | {{FileName|/tmp/}}        |
 |                                     |                                                                                                                                                                                                                                                                                                                                                                    |                                           |                        |
 |                                     |                                                                                                                                                                                                                                                                                                                                                                    |                                           | (par défaut)              |
 +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+---------------------------+
 
-### Informations relatives à la version {#informations_relatives_à_la_version}
+### Informations relatives à la version 
 
 Le tableau ci-dessous montre les informations générées par la version disponible. La plupart proviennent du dépôt de sous-version. Cette astuce est nécessaire pour reconstruire exactement une version !
 
@@ -311,7 +311,7 @@ Le tableau ci-dessous montre les informations générées par la version disponi
   BuildScrClean                         Indique si la source a été modifiée après la dernière construction                                             Src modifié
   BuildScrMixed                                                                                                                                        Src non mixé
 
-### Identité liée à la marque {#identité_liée_à_la_marque}
+### Identité liée à la marque 
 
 Ces entrées de configuration sont liées au dispositif d\'identification à la marque FreeCAD. Voir [Branding](Branding/fr.md) pour plus de renseignements.
 
@@ -339,7 +339,7 @@ Ces entrées de configuration sont liées au dispositif d\'identification à la 
 | HiddenDockWindow                    | Liste des dockwindows (séparés par un point-virgule) qui seront désactivés                                                                       | \"Property editor\"      |
 +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+
 
-### Interrogation de la configuration {#interrogation_de_la_configuration}
+### Interrogation de la configuration 
 
 **Depuis la console Python de FreeCAD**
 
@@ -376,9 +376,9 @@ Pour Linux (shell bash), vous pouvez modifier la ligne de commande suivante en f
  exit()
  EOF
 
-## Démarrage de FreeCAD à partir du bureau {#démarrage_de_freecad_à_partir_du_bureau}
+## Démarrage de FreeCAD à partir du bureau 
 
-### Linux: création d\'une option de démarrage supplémentaire {#linux_création_dune_option_de_démarrage_supplémentaire}
+### Linux: création d\'une option de démarrage supplémentaire 
 
 Ce qui suit suppose que votre bureau est configuré de telle sorte que vous puissiez lancer FreeCAD à partir de celui-ci. En fonction de votre distribution Linux et de votre environnement de bureau, vous devrez peut-être adapter les étapes suivantes:
 
@@ -387,7 +387,7 @@ Ce qui suit suppose que votre bureau est configuré de telle sorte que vous puis
 3.  Ouvrez le fichier avec un éditeur de texte et changez la façon dont FreeCAD est appelé en modifiant la ligne commençant par `Exec`.
 4.  Pour résultat, une entrée supplémentaire dans votre menu Démarrer/lanceur d\'application est disponible. De cette façon, vous pouvez avoir plusieurs entrées FreeCAD avec différentes options de lancement.
 
-## Démarrage de FreeCAD à partir d\'un medium USB {#démarrage_de_freecad_à_partir_dun_medium_usb}
+## Démarrage de FreeCAD à partir d\'un medium USB 
 
 
 {{Version/fr|0.19}}

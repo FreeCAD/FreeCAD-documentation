@@ -18,7 +18,7 @@ Das ermutigt:
 
 Auf dieser Seite werden wir ein funktionierendes Beispiel für eine benutzerdefinierte FunktionsPython Klasse konstruieren, wobei wir alle wichtigen Komponenten identifizieren und ein Verständnis dafür gewinnen, wie alles funktioniert, während wir vorankommen.
 
-## Wie funktioniert es? {#wie_funktioniert_es}
+## Wie funktioniert es? 
 
 FreeCAD wird mit einer Reihe von Standard Objekttypen zur Verwaltung verschiedener Arten von Geometrie ausgeliefert. Einige von ihnen haben \"FeaturePython\" Alternativen, die eine Anpassung mit einer benutzerdefinierten Python Klasse ermöglichen.
 
@@ -28,7 +28,7 @@ Bei der Arbeit mit benutzerdefinierten Klassen und FunktionsPython Objekten ist 
 
 [Anfang](#top.md)
 
-## Einrichten der Dinge {#einrichten_der_dinge}
+## Einrichten der Dinge 
 
 FunktionsPython Objektklassen müssen in FreeCAD als importierbare Module fungieren. Das bedeutet, dass du sie in einem Pfad platzieren musst, der in deiner Python Umgebung existiert (oder füge ihn speziell hinzu). Für die Zwecke dieses Tutoriums werden wir den FreeCAD Benutzerordner Macro verwenden. Aber wenn du eine andere Idee im Kopf hast, kannst du diese stattdessen verwenden.
 
@@ -59,14 +59,14 @@ The {{FileName|fpo}} folder provides a nice place to play with new FeaturePython
 With our module paths and files created, let\'s make sure FreeCAD is set up properly:
 
 -   Start FreeCAD (if you haven\'t done so already).
--   Enable the [Report view](Report_view.md) ({{MenuCommand|View → Panels → Report view}}).
--   Enable the [Python console](Python_console.md) ({{MenuCommand|View → Panels → Python console}}) see [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+-   Enable the [Report view](Report_view.md) (**View → Panels → Report view**).
+-   Enable the [Python console](Python_console.md) (**View → Panels → Python console**) see [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 Finally, navigate to the {{FileName|Macro/fpo/box}} folder and open {{FileName|box.py}} in your favorite code editor. We will only edit that file.
 
 [Anfang](#top.md)
 
-## A FeaturePython object {#a_featurepython_object}
+## A FeaturePython object 
 
 Let\'s get started by writing our class and its constructor:
 
@@ -142,9 +142,9 @@ The `create()` method is not required, but it provides a nice way to encapsulate
 
 [Anfang](#top.md)
 
-### Testen des Codes {#testen_des_codes}
+### Testen des Codes 
 
-Now we can test our new object. Save your code and return to FreeCAD. Make sure you have opened a new document, you can do this by pressing **Ctrl**+**N** or selecting {{MenuCommand|File → New}}.
+Now we can test our new object. Save your code and return to FreeCAD. Make sure you have opened a new document, you can do this by pressing **Ctrl**+**N** or selecting **File → New**.
 
 In the Python console type the following:
 
@@ -164,7 +164,8 @@ mybox = box.create('my_box')
 
 Note that the icon is gray. FreeCAD is telling us that the object is not able to display anything in the [3D view](3D_view.md). Click on the object and look at its properties in the [Property editor](Property_editor.md). There is not much there, just the name of the object.
 
-Also note that there is a small blue check mark next to the FeaturePython object in the Tree view. That is because when an object is created or changed it is \"touched\" and needs to be recomputed. Pressing the **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** button will accomplish this. We will add some code to automate this later. {{Clear}}
+Also note that there is a small blue check mark next to the FeaturePython object in the Tree view. That is because when an object is created or changed it is \"touched\" and needs to be recomputed. Pressing the **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** button will accomplish this. We will add some code to automate this later. 
+
 
 Let\'s look at our object\'s attributes: 
 ```python
@@ -218,7 +219,7 @@ Now let\'s see if we can make our class a little more interesting, and maybe mor
 
 [top](#top.md)
 
-### Hinzufügen von Eigenschaften {#hinzufügen_von_eigenschaften}
+### Hinzufügen von Eigenschaften 
 
 Properties are the lifeblood of a FeaturePython class. Fortunately, FreeCAD supports [a number of property types](FeaturePython_Custom_Properties.md) for FeaturePython classes. These properties are attached directly to the FeaturePython object and are fully serialized when the file is saved. To avoid having to serialize data yourself, it is advisable to only use these property types.
 
@@ -296,13 +297,14 @@ Once the box is created and you\'ve checked to make sure it has been recomputed,
 -   A new property group: *Dimensions*.
 -   Three new properties: *Height*, *Length* and *Width*.
 
-Note also how the properties have units. More specifically, they have taken on the linear units set in the user preferences ({{MenuCommand|Edit → Preference... → General → Units}}). {{Clear}}
+Note also how the properties have units. More specifically, they have taken on the linear units set in the user preferences (**Edit → Preference... → General → Units**). 
+
 
 No doubt you noticed that three different values were entered for the dimensions: a floating-point value (`10.0`) and two different strings (`'10 mm'` and `'1 cm'`). The `App::PropertyLength` type assumes floating-point values are in millimeters, string values are parsed according to the units specified, and in the GUI all values are converted to the units specified in the user preferences (`mm` in the image). This built-in behavior makes the `App::PropertyLength` type ideal for dimensions.
 
 [Anfang](#top.md)
 
-### Trapping events {#trapping_events}
+### Trapping events 
 
 The last element required for a basic FeaturePython object is event trapping. A FeaturePython object can react to events with callback functions. In our case we want the object to react whenever it is recomputed. In other words we want to trap recomputes. To accomplish this we need to add a function with a specific name, `execute()`, to the object class. There are several other events that can be trapped, both in the FeaturePython object itself and in the [ViewProvider](Viewprovider.md), which we\'ll cover in [Create a FeaturePython object part II](Create_a_FeaturePython_object_part_II.md).
 
@@ -332,7 +334,7 @@ That\'s it, you now know how to build a basic, functional FeaturePython object!
 
 [Anfang](#top.md)
 
-### Vollständiger Code {#vollständiger_code}
+### Vollständiger Code 
 
 
 ```python

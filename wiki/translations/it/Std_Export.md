@@ -28,7 +28,7 @@ Il comando **Esporta** esporta gli oggetti selezionati in un formato file divers
     -   Non utilizzare il comando [Seleziona tutto](Std_SelectAll/it.md) in quanto selezionerà anche i sotto-elementi dei corpi di PartDesign.
     -   Per lo stesso motivo, il comando [Box di selezione](Std_BoxSelection/it.md) dovrebbe essere evitato nelle versioni 0.18 e precedenti di FreeCAD.
 2.  Esistono diversi modi per invocare il comando:
-    -   Selezionare l\'opzione {{MenuCommand|File → Esporta...}} dal menu.
+    -   Selezionare l\'opzione **File → Esporta...** dal menu.
     -   Usare la scorciatoia da tastiera: **Ctrl**+**E**.
 3.  Selezionare il formato file corretto nella finestra di dialogo.
 4.  Inserire un nome file.

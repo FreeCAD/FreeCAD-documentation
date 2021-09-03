@@ -7,7 +7,7 @@
 
 *\' Placement*\' (Posizionamento) è la funzione utilizzata da FreeCAD per specificare la localizzazione (dove si trova) e l\'assetto (orientamento) di un oggetto nello spazio. Placement può essere specificato in diversi modi e manipolato tramite [script](Python_scripting_tutorial/it#Vettori_e_posizionamenti.md), tramite la scheda delle Proprietà oppure il dialogo **Placement** del menu **Modifica**.
 
-### Accedere agli attributi di Placement {#accedere_agli_attributi_di_placement}
+### Accedere agli attributi di Placement 
 
 Gli attributi di Posizionamento di un oggetto sono accessibili in tre modi:
 
@@ -39,14 +39,14 @@ Il menu Modifica Posizionamento <img alt="Il menu Modifica Posizionamento" src=i
 
 che apre e mostra lo strumento **Azioni di Posizionamento**. ![La finestra di dialogo di Placement Rotazione con angolo](images/PlacementDialogv10.png ) 
 
-## Tipi di posizionamento {#tipi_di_posizionamento}
+## Tipi di posizionamento 
 
 Internamente il posizionamento viene memorizzato come una posizione, e una rotazione (asse di rotazione e angolo trasformati in un quaternione [1](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). Sebbene ci siano diversi modi di specificare una rotazione, per esempio con un centro di rotazione, questo è usato solo per influenzare il calcolo della rotazione e non viene memorizzato per le operazioni successive. Allo stesso modo, se viene specificato un asse di rotazione (1,1,1), esso può essere normalizzato se conservato nel quaternione e in seguito apparire nella forma (0.58, 0.58, 0.58) durante l\'esplorazione dell\'oggetto
 
 
 </div>
 
-### Angolo, Assi e Posizione {#angolo_assi_e_posizione}
+### Angolo, Assi e Posizione 
 
 **Placement=\[Angle, Axis, Position\]**
 
@@ -82,7 +82,7 @@ Notare che è anche possibile traslare (spostare) un oggetto lungo questo asse d
 
 <div class="mw-translate-fuzzy">
 
-#### Posizione con Imbardata, Beccheggio e Rollio {#posizione_con_imbardata_beccheggio_e_rollio}
+#### Posizione con Imbardata, Beccheggio e Rollio 
 
 ![Placement Dialogo per gli Angoli di Eulero](images/PlacementDialogv10b.png ) 
 
@@ -139,7 +139,7 @@ La terza forma di **Placement** descrive la posizione dell\'oggetto e l\'orienta
 
 
 
-### La finestra di dialogo Posizionamento {#la_finestra_di_dialogo_posizionamento}
+### La finestra di dialogo Posizionamento 
 
 La finestra di dialogo Posizionamento viene richiamata dal menu **Modifica**. E\' utilizzata per ruotare o traslare con precisione gli oggetti. E\' anche usata quando si deve creare uno schizzo su un piano \"non standard\" o per modificare l\'orientamento di un disegno in un nuovo piano.
 
@@ -211,7 +211,7 @@ Image:RotationEulerBefore.png\|Prima della rotazione Image:RotationEulerAfter.pn
 
 </center>
 
-### Placement.Base vs Shape Definition {#placement.base_vs_shape_definition}
+### Placement.Base vs Shape Definition 
 
 Placement non è l\'unico modo per posizionare una forma nello spazio. Notare la console Python in questa immagine:
 
@@ -247,7 +247,7 @@ I Vertices (o Vectors) che definiscono la forma usano gli attributi Placement.Ba
 
 Quindi, se si desidera spostare una forma di 10 unità lungo l\'asse **X**, si può aggiungere 10 alla coordinata **X** di tutti i Vertices oppure è possibile impostare Placement.Base a (10,0,0).
 
-### Controllare l\'asse di rotazione con **Centro** di **Posizionamento** {#controllare_lasse_di_rotazione_con_centro_di_posizionamento}
+### Controllare l\'asse di rotazione con **Centro** di **Posizionamento** 
 
 Per impostazione predefinita, l\'asse di rotazione non è effettivamente l\'asse x, y o z. Si tratta di una linea parallela all\'asse selezionato che passa per il punto definito da **Placement.Base** dell\'oggetto da ruotare. Questa impostazione può essere modificata utilizzando i campi **Centro** della finestra di dialogo **Posizionamento** oppure, negli script, utilizzando il parametro **centre** nella costruzione di **FreeCAD.Placement**.
 
@@ -275,7 +275,7 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
-## Using Placement in expressions {#using_placement_in_expressions}
+## Using Placement in expressions 
 
 In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\": 
 ```python
@@ -325,7 +325,7 @@ Pertanto, il posizionamento di un solido creato in PartDesign da uno schizzo pu�
 
 </div>
 
-## Per saperne di più {#per_saperne_di_più}
+## Per saperne di più 
 
 
 <div class="mw-translate-fuzzy">

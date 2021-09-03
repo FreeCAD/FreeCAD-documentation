@@ -38,17 +38,17 @@ Install with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [
 
 ## Examples
 
-The CadQuery workbench includes sample scripts that are available at {{MenuCommand|CadQuery → Examples → ...}} entries from the top menu.
+The CadQuery workbench includes sample scripts that are available at **CadQuery → Examples → ...** entries from the top menu.
 
 Other examples:
 
 -   Prusa i3 extruder support (directly available as workbench sample script **Ex032\_3D\_Printer\_Extruder\_Support**): <https://github.com/adam-urbanczyk/cadquery-models>
 
-## Latest CadQuery {#latest_cadquery}
+## Latest CadQuery 
 
 The latest version of CadQuery is no longer using FreeCAD and is not compatible with the CadQuery workbench. If you are interested in the latest version have a look at the [CadQuery Python module](https://github.com/CadQuery/cadquery) and the [CadQuery graphical editor](https://github.com/CadQuery/CQ-editor).
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   <https://github.com/easyw/kicad-3d-models-in-freecad>
 -   [Macros recipes](Macros_recipes.md)

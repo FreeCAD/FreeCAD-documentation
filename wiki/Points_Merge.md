@@ -12,7 +12,7 @@ The **Points Merge** command creates a point cloud by combining the points of tw
 ## Usage
 
 1.  Select two or more point clouds.
-2.  Select the {{MenuCommand|Points → Merge point clouds}} option from the menu.
+2.  Select the **Points → Merge point clouds** option from the menu.
 
 ## Properties
 

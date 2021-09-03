@@ -21,7 +21,7 @@ Gli oggetti Armature sono basati su profili 2D come gli [schizzi](Sketcher_Workb
 <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;"> 
 *Oggetto strutturale con due schizzi disegnati sulle sue facce, che vengono poi trasformati in due serie di oggetti armature*
 
-## Estensione disponibile {#estensione_disponibile}
+## Estensione disponibile 
 
 Lo strumento Armatura è potenziato dall\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), che viene installato dal [Addon Manager](Addon_Manager/it.md). I tipi di barre di armatura aggiuntivi disponibili con l\'addon sono:
 

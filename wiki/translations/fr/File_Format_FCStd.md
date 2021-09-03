@@ -4,7 +4,7 @@
 
 Le **format de fichier {{FileName|.FCStd}}** est le format de fichier principal de FreeCAD. Il s'agit d'un format conteneur prenant en charge la compression et l'incorporation de différents types de données.
 
-## Contenu d\'un fichier .FCStd {#contenu_dun_fichier_.fcstd}
+## Contenu d\'un fichier .FCStd 
 
 FCStd est un [ fichier zip standard contenant un ou plusieurs fichiers](#Contenu_du_fichier_.fcstd.md) dans une [ structure spécifique](#Structure.md). En tant que tel, il est possible de décompresser un fichier {{FileName|.FCStd}} à l\'aide d\'un outil de décompression zip, mais des précautions doivent être prises lors de la reconstruction du fichier {{FileName|.FCStd}}. FreeCAD possède un \"Utilitaire de Projet\" pour reconstruire les fichiers {{FileName|.FCStd}}, dont l\'utilisation est décrite dans [Modifier le code source du fichier .FCStd](#Modifier_le_code_source_du_fichier_.FCStd.md) ci-dessous.
 
@@ -12,7 +12,7 @@ FCStd est un [ fichier zip standard contenant un ou plusieurs fichiers](#Contenu
 
 C\'est le fichier {{FileName|.xml}} principal, décrivant tous les objets à l\'intérieur d\'un document FreeCAD, c\'est-à-dire la définition géométrique et les paramètres des objets, mais pas leur représentation visuelle. Si FreeCAD est exécuté en mode console (sans l\'interface graphique), c\'est ce {{FileName|Document.xml}} qui sera utilisé.
 
-#### Exemple de Document.xml {#exemple_de_document.xml}
+#### Exemple de Document.xml 
 
 
 {{Code|lang=xml|code=
@@ -123,7 +123,7 @@ Ce sont les formes [B-Rep](wikipedia:fr:B-Rep.md) de tous les objets, qui ont un
 
 Ce sont les fichiers svg modèles utilisés dans les pages de [TechDraw](TechDraw_Workbench/fr.md).
 
-### Structure typique {#structure_typique}
+### Structure typique 
 
 Structure typique d\'un fichier {{FileName|.FCStd}}. L\'extension peut être modifiée en {{FileName|.zip}} pour l\'explorer comme un répertoire normal. Les {{FileName|Document.xml}} et {{FileName|GuiDocument.xml}} sont à la racine de l\'archive, avec un nombre illimité de fichiers {{FileName|.brp}} (BREP). Un sous-répertoire peut contenir la miniature et un autre les modèles SVG utilisés par [TechDraw](TechDraw_Workbench/fr.md).
 
@@ -140,7 +140,7 @@ Structure typique d\'un fichier {{FileName|.FCStd}}. L\'extension peut être mod
       :--MyPage.svg
       :--etc.
 
-## Incorporation d\'autres fichiers {#incorporation_dautres_fichiers}
+## Incorporation d\'autres fichiers 
 
 Afin d\'incorporer d\'autres types de fichiers dans un fichier FCStd, vous devez d\'abord créer un [objet scripté](Scripted_objects/fr.md) à partir de la [console Python](Python_console/fr.md) et lui donner une propriété `App::PropertyFileIncluded`.
 
@@ -154,7 +154,7 @@ custom_obj.addProperty("App::PropertyFileIncluded", "AttachedFile")
 
 Voir le fil du forum [PDF inside the project](https://forum.freecadweb.org/viewtopic.php?t=38201).
 
-## Modifier le code source du fichier .FCStd {#modifier_le_code_source_du_fichier_.fcstd}
+## Modifier le code source du fichier .FCStd 
 
 -   See [Std ProjectUtil](Std_ProjectUtil.md).
 

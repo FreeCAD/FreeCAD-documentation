@@ -16,7 +16,7 @@ Par exemple, un boulon, une rondelle et un écrou sont trois corps distincts qui
 
 ## Utilisation
 
-### Assemblage manuel {#assemblage_manuel}
+### Assemblage manuel 
 
 De manière générale, vous n\'avez pas besoin d\'outils spéciaux pour créer des assemblages, vous avez juste besoin de disposer de nombreux [Corps](Body/fr.md) (Bodies) différents d\'une manière ou d\'une autre.
 
@@ -30,7 +30,7 @@ Vous pouvez utiliser l\'un des pseudo-assemblages faits par un des [ateliers ext
 
 En général, l\'objet **<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** a été conçu pour servir de bloc de construction de base pour créer des assemblages. Cet objet est utilisé pour regrouper plusieurs [Corps](body/fr.md) et les déplacer ensemble en tant qu\'unité, c\'est-à-dire en tant que sous-ensemble. Ensuite, ce sous-assemblage peut être placé à côté ou utilisé à l\'intérieur d\'autres sous-assemblages afin de créer l\'assemblage final.
 
-### Assemblage contraint {#assemblage_contraint}
+### Assemblage contraint 
 
 Vous pouvez également utiliser un atelier d\'assemblage dédié, comme <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/fr.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/fr.md) ou <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/fr.md). Veuillez noter que [Assembly2](Assembly2_Workbench/fr.md) n\'est pas maintenu, il n\'est donc pas recommandé pour les nouveaux modèles.
 

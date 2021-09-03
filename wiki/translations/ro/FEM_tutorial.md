@@ -82,16 +82,16 @@ Acest tutorial are rolul de a introduce cititorul în fluxul de lucru de bază a
 
 Acum avem un model cu care să lucrăm.
 
-### Creating the Analysis {#creating_the_analysis}
+### Creating the Analysis 
 
 #### Netgen
 
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea Analizei {#crearea_analizei}
+#### Crearea Analizei 
 
-##### Netgen {#netgen_1}
+##### Netgen 
 
 1.  Selectați modelull
 2.  Click pe <img alt="" src=images/FEM_Analysis.png  style="width:16px;"> [New mechanical analysis](FEM_Analysis.md) din meniu pentru a crea o analiză a obiectului care a fost selectat
@@ -113,7 +113,7 @@ Puteți, de asemenea, să glisați și să plasați o plasă într-o Analiză Me
 
 <div class="mw-translate-fuzzy">
 
-##### GMSH {#gmsh_1}
+##### GMSH 
 
 Gmsh este finite-element mesh generator folosirea macromenzii psicofil\'s este recomandată, și este folosită în acest exemplu.
 
@@ -127,12 +127,12 @@ Gmsh este finite-element mesh generator folosirea macromenzii psicofil\'s este r
 
 Ne-am discretizat într-o plasă cu ochiuri acum obiectul și suntem gata să adăugăm constrângeri și forțe.
 
-### Constraints and Forces {#constraints_and_forces}
+### Constraints and Forces 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Constrângeri și Forțe {#constrângeri_și_forțe}
+#### Constrângeri și Forțe 
 
 1.  Ascundeți plasa din vederea arorescentă Tree View.
 2.  Arătați modelul original
@@ -148,12 +148,12 @@ Ne-am discretizat într-o plasă cu ochiuri acum obiectul și suntem gata să ad
 
 Am stabilit restricțiile și forțele pentru studiul nostru static.
 
-### Final preparations {#final_preparations}
+### Final preparations 
 
 
 <div class="mw-translate-fuzzy">
 
-#### finalul Pregătirilor {#finalul_pregătirilor}
+#### finalul Pregătirilor 
 
 1.  Select <img alt="" src=images/FEM_Material.png  style="width:16px;"> [Mechanical material\...](FEM_MaterialSolid.md) and choose Calculix as the material
 2.  Click **OK**
@@ -161,16 +161,16 @@ Am stabilit restricțiile și forțele pentru studiul nostru static.
 
 </div>
 
-### Running the Solver {#running_the_solver}
+### Running the Solver 
 
-#### Standard Procedure {#standard_procedure}
+#### Standard Procedure 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Rularea Rezolvitorului {#rularea_rezolvitorului}
+#### Rularea Rezolvitorului 
 
-##### Procedura Standard {#procedura_standard}
+##### Procedura Standard 
 
 1.  Selectați obiectul rezolvitor <img alt="" src=images/FEM_Solver.png  style="width:16px;"> contained in the 
 **Mechanical Analysis**
@@ -182,12 +182,12 @@ Am stabilit restricțiile și forțele pentru studiul nostru static.
 
 </div>
 
-#### Quick Procedure {#quick_procedure}
+#### Quick Procedure 
 
 
 <div class="mw-translate-fuzzy">
 
-##### Procedură rapidă {#procedură_rapidă}
+##### Procedură rapidă 
 
 1.  Selectați obeictul rezolvitor <img alt="" src=images/FEM_Solver.png  style="width:16px;"> conținut în 
 **Mechanical Analysis**
@@ -196,12 +196,12 @@ Am stabilit restricțiile și forțele pentru studiul nostru static.
 
 </div>
 
-### Analyzing Results {#analyzing_results}
+### Analyzing Results 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Analizarea Rezultatelor {#analizarea_rezultatelor}
+#### Analizarea Rezultatelor 
 
 1.  Din arborescența obiect **Object Tree**, selectați obeictul **Results**
 2.  Selectați <img alt="" src=images/FEM_ShowResult.png  style="width:16px;"> [Show result](FEM_ResultShow.md)

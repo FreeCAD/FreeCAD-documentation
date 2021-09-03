@@ -14,7 +14,7 @@ La commande **Std Mappage de textures** applique temporairement une texture sur 
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → <img src="images/Std_TextureMapping.svg" width=16px> Mappage de texture...}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → <img src="images/Std_TextureMapping.svg" width=16px> Mappage de texture...** dans le menu.
 2.  Dans le panneau des tâches Texture, cochez éventuellement la case {{CheckBox|TRUE|Environment}}.
 3.  Appuyez sur le bouton **...**.
 4.  Sélectionnez un fichier image dans la boîte de dialogue.

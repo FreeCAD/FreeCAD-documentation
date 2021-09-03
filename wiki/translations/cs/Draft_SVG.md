@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -84,7 +84,7 @@ SVG is a 2D format, so all Z information will be disregarded (all objects will b
 
 <div class="mw-translate-fuzzy">
 
-### Práce s jednotkami {#práce_s_jednotkami}
+### Práce s jednotkami 
 
 Při exportu se jedna User Unit (px) rovná jednomu milimetru.
 

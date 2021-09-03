@@ -20,7 +20,7 @@ Ensuite, mettez en surbrillance les deux blocs dans l\'arborescence et créez de
 
 <img alt="" src=images/Pic2.png  style="width:700px;">
 
-## Maille et Régions de Maille {#maille_et_régions_de_maille}
+## Maille et Régions de Maille 
 
 À partir de l\'atelier FEM, nous créons un conteneur Analysis. Celui-ci contiendra toutes les définitions requises pour l\'analyse CalculiX et ses résultats. Notez que ce conteneur Analysis doit être activé (cliquez avec le bouton droit de la souris et sélectionnez \"Activate analysis\") chaque fois que vous rechargez le fichier ou après être passé d\'une autre analyse à une autre. Pour démarrer le processus de maillage, mettez en évidence le CompoundFilter dans l\'arborscence des objets et activez le dialogue de maillage \"Mesh → Maillage FEM à partir d\'une forme avec Gmsh\". Quittez la boîte de dialogue en cliquant sur OK.
 
@@ -36,7 +36,7 @@ Remarque2 : si vous avez des difficultés à choisir \"CompoundFilter:Solid2\" c
 
 <img alt="" src=images/Pic4.png  style="width:700px;">
 
-## Affectation des matériaux {#affectation_des_matériaux}
+## Affectation des matériaux 
 
 Un matériau est attribué aux régions Mesh via un objet SolidMaterial. Dans ce tutoriel, nous affectons deux matériaux : un pour la matrice et un pour le noyau.
 
@@ -46,25 +46,25 @@ Commencez par sélectionner le CompoundFilter dans l\'arborescence des objets. C
 
 Répétez la procédure ci-dessus pour le noyau (\"CompoundFilter:Solid2\") à l\'aide de la macro de sélection. Cette fois, nous assignons l\'acier CalculiX-Steel, qui est beaucoup plus rigide que le matériau ABS pour la matrice.
 
-## Support coulissant {#support_coulissant}
+## Support coulissant 
 
 Pour créer une condition de \"cisaillement simple\" pour le bloc composite, les déformations aux limites ne doivent pas être contraintes. Pour ce faire, le bloc est placé sur un support coulissant. Cela laisse trois degrés de liberté dans le plan du support (2 translations et une rotation) et ceux-ci seront contraints plus tard. (Remarque : comme le plan empêche la déformation de la face, il induit toujours une contrainte mineure, qui pourrait être éliminée par un choix différent des conditions limites). Pour créer une condition limite de glissement, ajoutez un objet FemConstraintDisplacement (Model → Mechanical Constraints → Constraint displacement). La boîte de dialogue étant ouverte, sélectionnez d\'abord la face à laquelle les conditions limites doivent être appliquées, puis cliquez sur le bouton Ajouter. Comme le bloc est autorisé à glisser dans le plan x-y, seul le bouton radio \"Fixe\" pour \"Displacement z\" est sélectionné et les autres boutons radio sont tous laissés à \"Libre\".
 
 <img alt="" src=images/Pic6.png  style="width:700px;">
 
-## Noeuds fixes {#noeuds_fixes}
+## Noeuds fixes 
 
 Pour empêcher le mouvement du corps rigide dans le plan de glissement, il faut éliminer trois degrés de liberté indépendants. Pour cela, un sommet du plan de glissement est contraint dans les directions x et y (éliminant 2 degrés de liberté) et un sommet est fixé dans la direction x (éliminant le dernier degré de liberté). Pour ce faire, deux objets FemConstraintDisplacement supplémentaires sont créés et le résultat est illustré ci-dessous.
 
 <img alt="" src=images/Pic7.png  style="width:700px;">
 
-## Forces de cisaillement {#forces_de_cisaillement}
+## Forces de cisaillement 
 
 L\'étape finale de la définition de l\'analyse est l\'application des charges. Pour créer une condition de cisaillement simple, un ensemble de charges de cisaillement est appliqué comme indiqué ci-dessous. Chaque charge est choisie comme étant de 1000 N et en considérant les directions d\'application, l\'équilibre des forces et des moments est atteint pour tous les degrés de liberté de translation et de rotation. Dans FC, cela nécessite l\'ajout de quatre objets FemConstraintForce (Model → Mechanical Constraints → Constraint force) - un pour chaque face. La boîte de dialogue étant ouverte, appuyez d\'abord sur le bouton Ajouter une référence, puis sélectionnez la face à laquelle la condition limite doit être appliquée (Remarque : cette séquence est différente de celle utilisée avec FemConstraintDisplacement). Par défaut, cela crée un ensemble de forces perpendiculaires à la face (c\'est-à-dire une force normale). Pour changer cela en une force de cisaillement, appuyez sur le bouton de direction et sélectionnez une arête du cube qui va dans la direction souhaitée. Si la force résultante pointe dans la direction opposée à celle requise, sélectionnez le bouton radio pour \"Reverse direction\".
 
 <img alt="" src=images/Pic8.png  style="width:700px;">
 
-## Analyse CalculiX {#analyse_calculix}
+## Analyse CalculiX 
 
 Maintenant que toutes les régions maillées, le matériau et les conditions aux limites ont été définis, nous sommes prêts à analyser la déformation du bloc avec CalculiX. Activez l\'analyse en faisant un clic droit sur \"Activate analysis\", ouvrez la boîte de dialogue de CalculiX en double-cliquant sur l\'objet CalculiXccxTools et sélectionnez un répertoire pour les fichiers temporaires créés par FC et CCX. Écrivez le fichier d\'entrée CCX et vérifiez s\'il y a des messages d\'avertissement ou d\'erreur.
 
@@ -74,7 +74,7 @@ Ensuite, l\'analyse peut être lancée en appuyant sur le bouton RunCalculiX. Si
 
 <img alt="" src=images/Pic10.png  style="width:700px;">
 
-## Résultats CalculiX {#résultats_calculix}
+## Résultats CalculiX 
 
 Une fois l\'analyse terminée, double-cliquez sur l\'objet \"CalculiX\_static\_results\" et sélectionnez l\'option \"Abs displacement\". Le déplacement maximal de \~ 0,08 mm apparaîtra dans la boîte de sortie correspondante. Comme le déplacement maximal est relativement faible par rapport aux dimensions du bloc (\<1% de la taille du bloc), les déplacements doivent être mis à l\'échelle. Cela peut être fait sous la rubrique \"Displacement\" en cochant le bouton radio \"Show\" et en mettant à l\'échelle le déplacement par un facteur de - disons - 20. Le déplacement maximum sera maintenant exagéré à environ 20% de la taille de la boîte. Après avoir fermé la fenêtre de dialogue, le maillage déformé peut être rendu à nouveau visible en mettant en surbrillance l\'objet Result\_mesh et en appuyant sur la barre d\'espacement.
 
@@ -86,7 +86,7 @@ Pour étudier la déformation du noyau, nous devons découper le bloc. Ceci peut
 
 D\'après le résultat, il est clair que le noyau reste largement indéformé et aide à résister à la déformation de la matrice souple (comparez l\'angle de cisaillement de la partie colorée en bleu à celui de la partie colorée en vert). Ce qui est également mis en évidence, c\'est que dans des conditions de cisaillement simple, les faces du bloc composite se déforment, ce qui implique que la condition de limite de glissement à la base du cube fournit une contrainte excessive.
 
-## Travaux complémentaires {#travaux_complémentaires}
+## Travaux complémentaires 
 
 Les défis suivants peuvent être intéressants à relever à titre d\'exercice supplémentaire :
 

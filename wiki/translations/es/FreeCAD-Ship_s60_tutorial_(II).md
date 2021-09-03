@@ -49,7 +49,7 @@ Trabajaremos en este tutorial sobre nuestro serie 60, generando una distribució
 
 </div>
 
-## Pesos del buque {#pesos_del_buque}
+## Pesos del buque 
 
 De cara a poder calcular la curva de GZ se necesita conocer el peso del buque, y la posición del centro de gravedad para cada ángulo de escora. de tal forma que los pesos se pueden dividir en dos categorías:
 
@@ -126,7 +126,7 @@ Los tanques se generan a partir de geometrías solidas, de una forma similar a c
 
 </div>
 
-### Creación de la geometría {#creación_de_la_geometría}
+### Creación de la geometría 
 
 Para generar la geometría nos cambiados al [modulo de piezas](Part_Workbench/es.md), y creamos una caja sólida.
 
@@ -162,7 +162,7 @@ También podemos borrar la caja, pues no la necesitaremos más.
 
 <div class="mw-translate-fuzzy">
 
-### Creación de las instancias de tanque. {#creación_de_las_instancias_de_tanque.}
+### Creación de las instancias de tanque. 
 
 Recuperando nuestro [módulo FreeCAD-Ship](FreeCADShip_Workbench/es.md), podremos encontrar la herramienta de generación de tanques.
 
@@ -204,7 +204,7 @@ En la figura anterior se muestra el buque al que vamos a calcular su curva de GZ
 
 <div class="mw-translate-fuzzy">
 
-### Curva de GZ {#curva_de_gz}
+### Curva de GZ 
 
 FreeCAD-Ship dispone una herramienta sencilla para el cálculo de la curva GZ.
 

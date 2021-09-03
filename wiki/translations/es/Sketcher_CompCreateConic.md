@@ -11,7 +11,7 @@
 
 **Crear un cónico** es un botón de icono <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:64px;"> en la barra de herramientas de geometrías de croquizador que agrupa herramientas para crear curvas basadas en una sección de un cono. Haz clic en la flecha hacia abajo a su derecha para expandir los iconos que se encuentran debajo y selecciona una herramienta.
 
-## Tipos de cónicas {#tipos_de_cónicas}
+## Tipos de cónicas 
 
 -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse por centro](Sketcher_CreateEllipseByCenter/es.md) : Dibuja una elipse por punto central, punto de radio mayor y punto de radio menor.
 -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Ellipse por 3 puntos](Sketcher_CreateEllipseBy3Points/es.md) : Dibuja una elipse por diámetro mayor (2 puntos) y punto de radio menor.

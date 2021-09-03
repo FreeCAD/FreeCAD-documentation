@@ -22,7 +22,7 @@ Les développeurs de Draft, Arch et BIM collaborent également avec la [communau
 
 ## Installation
 
-L\'atelier BIM n\'est pas fourni avec le package FreeCAD par défaut, mais peut être facilement installé via l\'<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour le lancer, faire {{MenuCommand|Outils → [Gestionnaire d'Addon](Std_AddonMgr/fr.md)}}. Le code de l\'atelier BIM est [hébergé et développé sur github](https://github.com/yorikvanhavre/BIM_Workbench) et peut également être installé manuellement en le copiant dans le répertoire {{FileName|MOD}} de FreeCAD.
+L\'atelier BIM n\'est pas fourni avec le package FreeCAD par défaut, mais peut être facilement installé via l\'<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour le lancer, faire **Outils → [Gestionnaire d'Addon](Std_AddonMgr/fr.md)**. Le code de l\'atelier BIM est [hébergé et développé sur github](https://github.com/yorikvanhavre/BIM_Workbench) et peut également être installé manuellement en le copiant dans le répertoire {{FileName|MOD}} de FreeCAD.
 
 **Remarque**
 
@@ -52,7 +52,7 @@ De plus, si de tels [Ateliers externes](External_workbenches/fr.md) sont install
 
 L\'atelier BIM ajoute également une série d\'éléments dans la **barre d\'état** de FreeCAD et quelques **éléments de menu contextuel**, accessibles en cliquant avec le bouton droit de la souris dans la vue 3D ou dans l\'arborescence.
 
-### Dessin 2D {#dessin_2d}
+### Dessin 2D 
 
 Les objets 2D sont couramment utilisés comme aide à la rédaction ou pour tracer des lignes de base et des profils sur lesquels construire des objets BIM. Ils peuvent également être utilisés pour dessiner des symboles et des annotations dans votre modèle. En plus des esquisses, qui utilisent leur propre système de coordonnées, des objets 2D seront dessinés sur le [plan de travail](Draft_SelectPlane/fr.md) sélectionné.
 
@@ -85,7 +85,7 @@ Les annotations sont des objets d\'aide visuels pouvant être placés dans votre
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Page](TechDraw_PageDefault/fr.md): crée une nouvelle page [TechDraw](TechDraw_Workbench/fr.md) à partir d\'un [modèle SVG](TechDraw_Templates/fr.md)
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vue architecturale](TechDraw_ArchView/fr.md): insère une vue d\'un plan de coupe sur une page
 
-### 3D / modélisation BIM {#d_modélisation_bim}
+### 3D / modélisation BIM 
 
 Les objets 3D et BIM sont les éléments du monde réel qui composeront votre projet BIM.
 
@@ -125,7 +125,7 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Générateur de formes](Part_Builder/fr.md): outil avancé de création de formes complexes à partir de diverses primitives géométriques paramétriques.
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Faces liées](Draft_Facebinder/fr.md): crée un nouvel objet à partir de faces sélectionnées sur des objets existants.
 
-### Outils de modification {#outils_de_modification}
+### Outils de modification 
 
 -   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Déplacer](Draft_Move/fr.md) : Déplace l\'objet (ou des objets) d\'un emplacement à un autre.
 -   <img alt="" src=images/BIM_Copy.png  style="width:32px;"> [Copier](BIM_Copy/fr.md): Copie l\'objet (ou des objets) d\'un emplacement à un autre.
@@ -153,7 +153,7 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add](Arch_Add/fr.md) : Ajouter un objet à un composant.
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove](Arch_Remove/fr.md) : Soustraire ou effacer un ou des objets d\'un composant.
 
-### Outils de gestion {#outils_de_gestion}
+### Outils de gestion 
 
 -   <img alt="" src=images/BIM_Setup.png  style="width:32px;"> [Configuration BIM](BIM_Setup/fr.md): configure certaines des préférences FreeCAD les plus couramment utilisées pour le BIM.
 -   <img alt="" src=images/BIM_Project.png  style="width:32px;"> [Configuration du Projet](BIM_Project/fr.md): permet de créer des objets de base tels qu\'un [site](Arch_Site/fr.md), un [bâtiment](Arch_Building/fr.md) et des [axes](Arch_Axis/fr.md) en remplissant les informations de base du projet.
@@ -169,14 +169,14 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Vérifications préalables](BIM_Preflight/fr.md): effectue différentes vérifications sur votre modèle avant d\'exporter vers IFC.
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Editeur styles d\'annotations](Draft_AnnotationStyleEditor/fr.md): gère les styles des annotations utilisés par les textes et les cotes.
 
-## Tutoriels et apprentissage {#tutoriels_et_apprentissage}
+## Tutoriels et apprentissage 
 
 -   [Tutoriels sur ce wiki Arch & BIM](Tutorials/fr#Architecture_et_BIM.md)
 -   [\"BIM with FreeCAD\" série de vidéos de Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD tutorials\" série de vidéos de Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" série de vidéos de Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
 
-## Ateliers externes {#ateliers_externes}
+## Ateliers externes 
 
 Les ateliers FreeCAD sont faciles à programmer en [ Python](Python/fr.md), de ce fait de nombreuses personnes développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
 

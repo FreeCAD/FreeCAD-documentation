@@ -28,7 +28,7 @@ To insert a text element without an arrow use the [Draft Text](Draft_Text.md) co
 
 </div>
 
-## How to use {#how_to_use}
+## How to use 
 
 See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
@@ -129,7 +129,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 <div class="mw-translate-fuzzy">
 
-## Tipuri de etichete {#tipuri_de_etichete}
+## Tipuri de etichete 
 
 
 </div>
@@ -201,7 +201,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 <div class="mw-translate-fuzzy">
 
-## Script-Programare {#script_programare}
+## Script-Programare 
 
 Instrumentul Text poate fi utilizat în [macros](macros.md) și din consola python utilizând următoarea funcție:
 

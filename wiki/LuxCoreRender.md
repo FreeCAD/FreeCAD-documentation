@@ -9,12 +9,12 @@
 
 # Installation
 
-## Raytracing Workbench {#raytracing_workbench}
+## Raytracing Workbench 
 
 
 {{VeryImportantMessage|Officially the [Raytracing workbench](Raytracing_Workbench.md) does not work with LuxCoreRender, only with the outdated [LuxRender](LuxRender.md). Also the [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench}}
 
-### Stable Version {#stable_version}
+### Stable Version 
 
 LuxCoreRender is under active development, so to know which is the [latest stable version check on GitHub](https://github.com/LuxCoreRender/LuxCore/releases/latest).
 
@@ -52,11 +52,11 @@ After installing LuxCoreRender, launch FreeCAD, open the [Preferences Editor](Pr
 
 Set the Luxrender executable path to point to your installation of LuxCoreRender, that will be something like *C:/Tools/LuxCoreRender/luxcoreui.exe*, and apply.
 
-### Development Version {#development_version}
+### Development Version 
 
 LuxCoreRender is under active development, so to know which is the [latest development version](https://github.com/LuxCoreRender/LuxCore/releases) you have to manually check on GitHub for the latest marked as Pre-release.
 
-#### Linux {#linux_1}
+#### Linux 
 
 ***Compiled binaries***
 
@@ -74,11 +74,11 @@ After installing LuxCoreRender, launch FreeCAD, open the [Preferences Editor](Pr
 
 Set the Luxrender executable path to point to your installation of LuxCoreRender, usually it is */usr/bin/luxcoreui* (or if you installed it manually something like *\~/LuxCoreRender/luxcoreui*), and apply.
 
-#### macOS {#macos_1}
+#### macOS 
 
 [Check on GitHub for the latest development version](https://github.com/LuxCoreRender/LuxCore/releases), marked as Pre-release, scroll down to the *Assets* section (expand it if needed) and download the Windows file. It will be something like *luxcorerender-{version number}-mac64.dmg* or *luxcorerender-latest-mac64.dmg*.
 
-#### Windows {#windows_1}
+#### Windows 
 
 [Check on GitHub for the latest development version](https://github.com/LuxCoreRender/LuxCore/releases), marked as Pre-release, scroll down to the *Assets* section (expand it if needed) and download the Windows file. It will be something like *luxcorerender-{version number}-win64.zip* or *luxcorerender-latest-win64.zip*.
 
@@ -90,19 +90,19 @@ After installing LuxCoreRender, launch FreeCAD, open the [Preferences Editor](Pr
 
 Set the Luxrender executable path to point to your installation of LuxCoreRender, that will be something like *C:/Tools/LuxCoreRender/luxcoreui.exe*, and apply.
 
-## Render Workbench {#render_workbench}
+## Render Workbench 
 
 As of now there are no significant differences between the Raytracing Workbench and the Render Workbench in the part regarding the installation of the external software, so refer to the [Raytracing Workbench section](LuxCoreRender#Raytracing_Workbench.md) to install LuxCoreRender and to this section for the Render Workbench configuration.
 
 First of all install the Render Workbench through the [Addon Manager](Std_AddonMgr.md) and restart FreeCAD.
 
-#### Linux {#linux_2}
+#### Linux 
 
 After installing the Render Workbench and LuxCoreRender, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Render Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the Render Preferences.
 
 Set the LuxCore UI path to point to your installation of LuxCoreRender, usually it is */usr/bin/luxcoreui* (or if you installed it manually something like *\~/LuxCoreRender/luxcoreui*), and apply.
 
-#### Windows {#windows_2}
+#### Windows 
 
 After installing the Render Workbench and LuxCoreRender, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Render Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the Render Preferences.
 

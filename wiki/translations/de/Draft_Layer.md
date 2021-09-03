@@ -39,23 +39,23 @@ Dieses Werkzeug ersetzt [Draft VisGroup](Draft_VisGroup/de.md) ab FreeCAD 0.19.
 
 </div>
 
-## Context menu {#context_menu}
+## Context menu 
 
-### Layer container options {#layer_container_options}
+### Layer container options 
 
 For a Draft LayerContainer these additional options are available in the [Tree view](Tree_view.md) context menu:
 
--    {{MenuCommand|<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates}}: this option currently does not work.
+-    **<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates**: this option currently does not work.
 
--    {{MenuCommand|<img src="images/Draft_NewLayer.svg" width=16px> Add new layer}}: adds a new layer to the current document.
+-    **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer**: adds a new layer to the current document.
 
-### Layer options {#layer_options}
+### Layer options 
 
 For a Draft Layer these additional options are available in the [Tree view](Tree_view.md) context menu:
 
--    {{MenuCommand|<img src="images/button_right.svg" width=16px> [Activate this layer](Draft_AutoGroup.md)}}: activates the selected layer.
+-    **<img src="images/button_right.svg" width=16px> [Activate this layer](Draft_AutoGroup.md)**: activates the selected layer.
 
--    {{MenuCommand|<img src="images/Draft_SelectGroup.svg" width=16px> [Select layer contents](Draft_SelectGroup.md)}}: selects the objects inside the selected layer.
+-    **<img src="images/Draft_SelectGroup.svg" width=16px> [Select layer contents](Draft_SelectGroup.md)**: selects the objects inside the selected layer.
 
 ## Notes
 

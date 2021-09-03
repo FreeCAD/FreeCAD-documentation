@@ -1,6 +1,6 @@
  Dieses Seite zeigt die Vorlagen entsprechend dem American National Standards Institute [ANSI](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard
 
-### ANSI A {#ansi_a}
+### ANSI A 
 
 #### ANSI\_A\_Querformat
 
@@ -10,7 +10,7 @@
 
 <img alt="" src=images/ANSI_A_Portrait.svg  style="width:800px;">
 
-### ANSI B {#ansi_b}
+### ANSI B 
 
 #### ANSI\_B\_Querformat
 
@@ -20,7 +20,7 @@
 
 <img alt="" src=images/ANSI_B_Portrait.svg  style="width:800px;">
 
-### ANSI C {#ansi_c}
+### ANSI C 
 
 #### ANSI\_C\_Querformat
 
@@ -30,7 +30,7 @@
 
 <img alt="" src=images/ANSI_C_Portrait.svg  style="width:800px;">
 
-### ANSI D {#ansi_d}
+### ANSI D 
 
 #### ANSI\_D\_Querformat
 
@@ -40,7 +40,7 @@
 
 <img alt="" src=images/ANSI_D_Portrait.svg  style="width:800px;">
 
-### ANSI E {#ansi_e}
+### ANSI E 
 
 #### ANSI\_E\_Querformat
 
@@ -50,7 +50,7 @@
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width:800px;">
 
-## Andere verfügbare Standards {#andere_verfügbare_standards}
+## Andere verfügbare Standards 
 
 -   [Zeichnung-Vorlagen](Drawing_templates/de.md): Standard-FreeCAD-Vorlagen
 -   [Architektur-Vorlagen](Arch_templates/de.md): entsprechend dem American National Standards Institute [Architektur](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard

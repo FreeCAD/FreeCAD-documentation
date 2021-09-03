@@ -30,7 +30,7 @@ Die Standardebene wird erstellt mit der linken unteren Ecke im Ursprung (0,0,0).
 
 <div class="mw-translate-fuzzy">
 
-Die Eigenschaften können später in {{MenuCommand|Combo Ansicht → Daten}} nach der Auswahl des Elements verändert werden.
+Die Eigenschaften können später in **Combo Ansicht → Daten** nach der Auswahl des Elements verändert werden.
 
 
 </div>

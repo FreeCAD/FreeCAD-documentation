@@ -17,25 +17,25 @@ Un video de todo el proceso esta aquí: <https://youtu.be/geIrH1cOCzc>
 
 (cada sección tiene su propio video dividido a continuación)
 
-## Antes de comenzar {#antes_de_comenzar}
+## Antes de comenzar 
 
 
 <div class="mw-translate-fuzzy">
 
-## La tarea {#la_tarea}
+## La tarea 
 
 En este tutorial, utilizará el Ambiente de trabajo Part Design para crear un modelo sólido 3D de la pieza que se muestra en [ Drawing](Drawing_Workbench.md) a continuación. Se dan todas las dimensiones necesarias para completar esta tarea. Comenzarás por crear una forma central a partir de un boceto base y luego construir sobre esa forma, agregando lo que se conoce como \"Características\". Estas características agregarán material o eliminarán material del sólido mediante el uso de sketches adicionales y las operaciones de funciones que lo acompañan. Este tutorial no usará todas las características y herramientas disponibles dentro del Ambiente de trabajo Part Design, pero debe usar lo suficiente para brindar al usuario de este tutorial una base mínima sobre la cual desarrollar sus conocimientos y habilidades.
 
 
 </div>
 
-## La Pieza {#la_pieza}
+## La Pieza 
 
 ![](images/Tutorial_Drawing_Sheet.png )
 
-## Construyendo la pieza {#construyendo_la_pieza}
+## Construyendo la pieza 
 
-### Puesta en marcha {#puesta_en_marcha}
+### Puesta en marcha 
 
 Primero, asegúrese de estar en el Anbiente de trabajo Part Design. Una vez allí, querrá crear un nuevo documento si aún no lo ha hecho. Es un buen hábito guardar su trabajo a menudo, así que antes de nada guarde el nuevo documento, dándole el nombre que guste.
 
@@ -50,7 +50,7 @@ Todo el trabajo en Part Design comienza con un [Body](Glossary#Body.md). Luego c
 
 Una vez que hace clic en Aceptar, FreeCAD cambia automáticamente a [ Sketcher workbench](Sketcher_Workbench.md) y abre el boceto/sketch en modo de edición: ![](images/Tut17_sketcherempty.png )
 
-### Crear el Sketch {#crear_el_sketch}
+### Crear el Sketch 
 
 A continuación, deberá usar la herramienta ![ 32px](images/_Sketcher_CreatePolyline.png ) [Polyline](Sketcher_CreatePolyline.md) y hacer una forma más o menos así en la imagen siguiente. No necesita ser perfecto ya que la forma final se hace con restricciones. Una vez que tenga la forma básica, comenzaremos a aplicar las restricciones. Si tenía restricciones automáticas activadas, algunas de estas restricciones se aplicarán automáticamente, de lo contrario, haga lo siguiente.
 
@@ -72,7 +72,7 @@ En este punto, debe tener un boceto totalmente restringido, tal como lo indica e
 
 Un video de los pasos utilizados en esta parte del tutorial está aquí: <https://youtu.be/cUyPnCMeTgg>
 
-### Funciones con hueco y geometría externa {#funciones_con_hueco_y_geometría_externa}
+### Funciones con hueco y geometría externa 
 
 Con el mouse o los iconos de la vista, gire el modelo para que pueda ver su parte posterior. Una vez que la parte posterior de la parte esté visible, seleccione la cara posterior haciendo clic en ella como se ve en la siguiente imagen. ![](images/PD_WB_Tutorial003.png ) Después de seleccionar la cara, haga clic en el ícono Nuevo boceto en la barra de herramientas o en el menú Part Design y eso correlacionará nuestro siguiente boceto con la cara posterior de la pieza. Ahora seleccione la herramienta de rectángulo ![ 32px](images/_Sketcher_CreateRectangle.png ) y coloque un rectángulo en la cara posterior de la pieza de forma similar a la que se muestra a continuación. Ahora, siguiendo los pasos enumerados, restrinja el boceto.
 
@@ -90,7 +90,7 @@ Para la próxima operación, asegúrese de que esté seleccionado \"Pocket/hueco
 
 Un video de los pasos utilizados en esta parte del tutorial está aquí: <https://youtu.be/wiGXV9G7mrM>
 
-### Funciones con pad y geometría externa {#funciones_con_pad_y_geometría_externa}
+### Funciones con pad y geometría externa 
 
 Después de echar un vistazo, orbitar alrededor y una vez más seleccionar la cara posterior de la pieza y seleccionar esa cara para mapear el siguiente boceto. ![](images/tut17_profilewithslotsrearplane.png ) Seleccione Nuevo boceto y haga un nuevo rectángulo de similar manera a la que se muestra a continuación en la siguiente imagen. Luego proceda a agregar restricciones dimensionales al rectángulo.
 
@@ -106,7 +106,7 @@ A continuación, haremos clic en la función Pad y en el cuadro de diálogo Pad,
 
 Un video de los pasos utilizados en esta parte del tutorial está aquí: <https://youtu.be/Ido1owp8ubc>
 
-### Detalles con pocket/hueco y geometría externa {#detalles_con_pockethueco_y_geometría_externa}
+### Detalles con pocket/hueco y geometría externa 
 
 En este punto, orbitando la parte que está al frente, podemos ver que nuestra parte ahora está empezando a parecerse a la parte del dibujo acotado al comienzo de este tutorial. Una vez que tenga la vista del frente, haga clic en la cara inclinada con el mouse para seleccionar la cara que usaremos para el siguiente boceto. ![](images/tut17_innerplane.png ) Aquí utilizaremos la herramienta rectangular y colocaremos un rectángulo en nuestro boceto y, una vez hecho esto, aplicaremos las siguientes restricciones.
 
@@ -152,7 +152,7 @@ Un video de estos pasos del tutorial está aquí: <https://youtu.be/UYI0gvxCYeI>
 
 Este tutorial y tu modelo están completos.
 
-## Recursos Adicionales {#recursos_adicionales}
+## Recursos Adicionales 
 
 -   Archivo de FreeCAD para comparación (hecho con 0.17) [Descarga](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
 

@@ -8,7 +8,7 @@ Această comandă vă permite să plasați un dreptunghi de tăiere pe un ecran 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

@@ -41,9 +41,9 @@ Acest exemplu este menit a arăta cât de simplă este Metoda Elementelor Finite
 
 </div>
 
-## Să începem {#să_începem}
+## Să începem 
 
-### Nou document și piesă pentru analiză {#nou_document_și_piesă_pentru_analiză}
+### Nou document și piesă pentru analiză 
 
 
 ```python
@@ -64,7 +64,7 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 #
 ```
 
-### Analiza și analiza obiectelor {#analiza_și_analiza_obiectelor}
+### Analiza și analiza obiectelor 
 
 
 ```python
@@ -115,7 +115,7 @@ analysis_object.addObject(force_constraint)
 
 <div class="mw-translate-fuzzy">
 
-### Plase MEF {#plase_mef}
+### Plase MEF 
 
 Vedeți informații Additionale despre cum să realizați script-programarea de generare de ochiuri de plasă cu obiect mesh GMSH sau Netgen.
 
@@ -458,7 +458,7 @@ analysis_object.addObject(femmesh_obj)
 
 </div>
 
-### FEM mesh (gmsh) {#fem_mesh_gmsh}
+### FEM mesh (gmsh) 
 
 
 ```python
@@ -475,7 +475,7 @@ print(error)
 analysis_object.addObject(femmesh_obj)
 ```
 
-### FEM mesh (netgen) {#fem_mesh_netgen}
+### FEM mesh (netgen) 
 
 
 ```python
@@ -500,7 +500,7 @@ doc.recompute()
 ###
 ```
 
-## Run the analysis {#run_the_analysis}
+## Run the analysis 
 
 To run the analysis using Python, an instance of the `ccxtools` module class `FemToolsCcx` needs to be created. Once this instance has been created, we have two choices when running the analysis:
 
@@ -523,7 +523,7 @@ FemGui.setActiveAnalysis(doc.Analysis)
 
 <div class="mw-translate-fuzzy">
 
-### Rularea analizei {#rularea_analizei}
+### Rularea analizei 
 
 
 </div>
@@ -539,7 +539,7 @@ fea.run()
 ###
 ```
 
-#### Step by step {#step_by_step}
+#### Step by step 
 
 
 ```python
@@ -568,7 +568,7 @@ else:
 
 <div class="mw-translate-fuzzy">
 
-### Prezentarea rezultatelor {#prezentarea_rezultatelor}
+### Prezentarea rezultatelor 
 
 
 </div>
@@ -587,12 +587,12 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 ###
 ```
 
-### Informații suplimentere {#informații_suplimentere}
+### Informații suplimentere 
 
 
 <div class="mw-translate-fuzzy">
 
-##### Script MEF obiecte tip plasă {#script_mef_obiecte_tip_plasă}
+##### Script MEF obiecte tip plasă 
 
 Scrierea obiectului de rețea Netgen a fost încercată aici: <http://forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519> , dar prezintă unele limitări. Din contră obiectul plasă GMSH suportă pe deplin scriptul în python. Urmăriți pe forum topicul : <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
 
@@ -613,7 +613,7 @@ On the contrary, the GMSH mesh object fully supports python scripting. See the f
 
 <div class="mw-translate-fuzzy">
 
-##### Script analiză multiplă {#script_analiză_multiplă}
+##### Script analiză multiplă 
 
 Urmăriți postările de pe forum: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
@@ -623,7 +623,7 @@ Urmăriți postările de pe forum: <http://forum.freecadweb.org/viewtopic.php?f=
 
 <div class="mw-translate-fuzzy">
 
-##### Rezultate la Script {#rezultate_la_script}
+##### Rezultate la Script 
 
 Urmăriți postările de pe forum: \*<http://forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=20#p148982> and \*<http://forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=30#p149043> and \*<http://forum.freecadweb.org/viewtopic.php?t=18415#p144028>
 
@@ -632,7 +632,7 @@ Urmăriți postările de pe forum: \*<http://forum.freecadweb.org/viewtopic.php?
 
 </div>
 
-##### Vtk result object {#vtk_result_object}
+##### Vtk result object 
 
 See forum posts:
 
@@ -641,7 +641,7 @@ See forum posts:
 
 <div class="mw-translate-fuzzy">
 
-##### Modul Consolă {#modul_consolă}
+##### Modul Consolă 
 
 Scrierea fișierului de intrare în modul consola FreeCAD (fără GUI) se poate face în modul de testare. Vedeți postarea pe forum în această privință:
 

@@ -23,7 +23,7 @@ El <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> comando \'\'
 1.  Opcionalmente selecciona uno o más objetos.
 2.  Hay varias vías para invocar el comando:
     -   Pulsar el **<img src="images/Draft_Downgrade.svg" width=16px> [Borrador Rebajar](Draft_Downgrade/es.md)**.
-    -   Seleccione la opción {{MenuCommand|Modificación → <img src="images/Draft_Downgrade.svg" width=16px> Rebajar}} en el menú.
+    -   Seleccione la opción **Modificación → <img src="images/Draft_Downgrade.svg" width=16px> Rebajar** en el menú.
     -   Utilice el atajo de teclado: **D** y luego **N**.
 3.  Si aún no ha seleccionado un objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
 

@@ -31,7 +31,7 @@ from pivy import coin
 
 <div class="mw-translate-fuzzy">
 
-## Acceso y modificación de la escena gráfica {#acceso_y_modificación_de_la_escena_gráfica}
+## Acceso y modificación de la escena gráfica 
 
 
 </div>
@@ -162,7 +162,7 @@ sg.removeChild(myCustomNode)
 
 <div class="mw-translate-fuzzy">
 
-## La utilización de mecanismos de devolución de llamada {#la_utilización_de_mecanismos_de_devolución_de_llamada}
+## La utilización de mecanismos de devolución de llamada 
 
 
 </div>

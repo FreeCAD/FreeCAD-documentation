@@ -10,7 +10,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-## Buts et principes {#buts_et_principes}
+## Buts et principes 
 
 En stockant les propriétés des matériaux dans une structure de données unifiées, l\'un vise à faciliter la récupération des données, qui peuvent être réalisées dans des contextes différents :
 
@@ -39,7 +39,7 @@ Grâce à ce modèle de données de matériau, il est proposé d\'offrir un outi
 
 Différents types de données, doivent être gérées pour décrire un matériau. Un modèle de données matérielles est proposé ci-dessous. Quelques exemples de données, qui peuvent être stockées au sein de cette structure, sont aussi bien données.
 
-### Modèle de données Matérielles {#modèle_de_données_matérielles}
+### Modèle de données Matérielles 
 
 En plus des classiques \"chaînes\" d\'attributs telles que le nom, et, une famille, 3 différents types d\'informations spécifiques, doivent être gérées, pour décrire un matériau dans FreeCAD.
 
@@ -117,7 +117,7 @@ Ci-dessous, une proposition de bibliothèque standard de propriétés. N\'hésit
 
 Notes: \"Le coefficient de Lankford moyen est représentatif de l\'anisotropie d\'une tôle mince.\" \"Le coefficient de durcissement est représentatif de la capacité de durcissement d\'un métal. Il apparaît dans la formule de Hollomon qui permet de relier la déformation plastique cumulée à la contrainte.\"
 
-##### Exemple 1 : Coût par tonne {#exemple_1_coût_par_tonne}
+##### Exemple 1 : Coût par tonne 
 
 Ci-dessous, un premier exemple est donné, pour montrer, comment un **coût par tonne**, de biens peut être stocké.
 
@@ -133,7 +133,7 @@ Ci-dessous, un premier exemple est donné, pour montrer, comment un **coût par 
     -   meaning m\^(-3) (plus de détails sur les unités et système d\'unités sur la page [unités](Units/fr.md))
 -   **direction** : non applicable
 
-##### Exemple 2 : Limite d\'élasticité {#exemple_2_limite_délasticité}
+##### Exemple 2 : Limite d\'élasticité 
 
 Ci-dessous, un second exemple est donné, pour montrer, comment la propriété de la limite d\'élasticitéé peut être stockée.
 
@@ -150,7 +150,7 @@ Ci-dessous, un second exemple est donné, pour montrer, comment la propriété d
 -   **direction** : \[ 1, 0, 0\] dans le système de coordonnées global
     -   données d\'une tôle d\'acier, ce qui signifie que la **limite d\'élasticité** donnée, est exprimée dans une direction **x**, qui peut être par exemple, la direction du laminage
 
-##### Exemple 3 : écrouissage {#exemple_3_écrouissage}
+##### Exemple 3 : écrouissage 
 
 Un troisième exemple est donné ci-dessous, pour montrer comment la propriété d\'écrouissage peut être stockée. Il s\'agit d\'un exemple plus complexe, car l\'écrouissage est représenté par une série de courbes. Les courbes représentent l\'évolution de la contrainte à l\'égard de la déformation plastique. 3 courbes ont été obtenues à des vitesses de déformation différentes. Toutes les courbes ont été obtenues à température ambiante.
 
@@ -186,7 +186,7 @@ Un troisième exemple est donné ci-dessous, pour montrer comment la propriété
 
 **direction** : non applicable
 
-#### Composition chimique {#composition_chimique}
+#### Composition chimique 
 
 \[à documenter\]
 
@@ -198,15 +198,15 @@ Un troisième exemple est donné ci-dessous, pour montrer comment la propriété
 
 Une chaîne où l\'utilisateur peut ajouter ses propres commentaires sur le matériel.
 
-### Application des données de modèle de matériel : quelques exemples {#application_des_données_de_modèle_de_matériel_quelques_exemples}
+### Application des données de modèle de matériel : quelques exemples 
 
-##### Exemple 1 : briques de maçonnerie {#exemple_1_briques_de_maçonnerie}
+##### Exemple 1 : briques de maçonnerie 
 
-###### Nom {#nom_1}
+###### Nom 
 
 Briques de maçonnerie.
 
-###### Famille {#famille_1}
+###### Famille 
 
 ? chaîne de caractères ?
 
@@ -225,17 +225,17 @@ Briques de maçonnerie.
 
 ? chaîne de caractères ?
 
-###### URL {#url_1}
+###### URL 
 
 ? Une adresse Web ?
 
-###### Notes {#notes_1}
+###### Notes 
 
 Remarques sur la maintenance, précautions spéciale à prendre, etc ..
 
 Code CSI/[MasterFormat](http://en.wikipedia.org/wiki/MasterFormat) (comme il existe plusieurs systèmes utilisés dans l\'industrie, qui donnent des documents spécialements codés, je propose d\'en prendre note, car il ne me semble pas pertinent, de créer des propriétés spécifiques, que nous ne sommes pas en mesure, de bien nommer).
 
-## Actions suivantes {#actions_suivantes}
+## Actions suivantes 
 
 -   Définir un ensemble de noms pour les propriétés classiques, que nous pouvons définir dans une bibliothèque (fichier de configuration FreeCAD). Ces propriétés peuvent notamment être réutilisées dans d\'autres contextes, tels que le module [FEM](FEM_project/fr.md).
 

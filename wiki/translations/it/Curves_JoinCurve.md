@@ -18,7 +18,7 @@ The <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [Curves Jo
 3.  Edges must be added in a consecutive order. And be selected from sketch, any shape\'s edge.
 4.  Invoke the Curves JoinCurve command several ways
     -   Press the <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Curves → Join Curves}}
+    -   Use the **Curves → Join Curves**
 5.  All edges are merged to a single one Bspline.
 
 ## Notes

@@ -11,13 +11,13 @@
 
 L\'addon Renforcement augmente les fonctionnalités de l\'[atelier Arch](Arch_Workbench/fr.md) en fournissant de nouvelles interfaces et de nouveaux préréglages pour la création de types de barres d\'armature courants à utiliser avec [Arch Structures](Arch_Structure/fr.md). Il est également intégré à l\'atelier externe [BIM](BIM_Workbench/fr.md).
 
-Les outils peuvent être installés avec [Addon Manager](Addon_Manager/fr.md) via le menu {{MenuCommand|Tools → Addon Manager → Reinforcement}}. FreeCAD doit être redémarré pour que les nouveaux outils apparaissent sous le bouton Rebar Straight **<img src="images/Arch_CompRebarStraight.png" width=24px>**.
+Les outils peuvent être installés avec [Addon Manager](Addon_Manager/fr.md) via le menu **Tools → Addon Manager → Reinforcement**. FreeCAD doit être redémarré pour que les nouveaux outils apparaissent sous le bouton Rebar Straight **<img src="images/Arch_CompRebarStraight.png" width=24px>**.
 
 Cet addon a été développé au cours du [Google Summer of Code](Google_Summer_of_Code.md) 2017 et est hébergé dans le dépôt [FreeCAD-Reinforcement](https://github.com/amrit3701/FreeCAD-Reinforcement), distinct du dépôt principal FreeCAD.
 
 Voir sur [Ateliers](Workbenches/fr#Ateliers_externes.md)/[Ateliers externes](External_workbenches/fr#Générales.md)
 
-## Types de renforcements {#types_de_renforcements}
+## Types de renforcements 
 
 -   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Armature droite](Arch_Rebar_Straight/fr.md) : Crée une barre de ferraillage droite dans un élément de structure sélectionné.
 

@@ -97,7 +97,7 @@ else:
 
 }}
 
-## Improved version {#improved_version}
+## Improved version 
 
 In addition to the previous features, this example is used to align an orthogonal circle on each shape in the selection, and the plan \"\'XY, YZ, XZ \' \' chosen.
 The circle takes the color of the axis dedicated regardless of current color, and the center point of the circle is drawn (option O/N).

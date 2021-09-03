@@ -13,8 +13,8 @@ The **Std RandomColor** command applies a random **Shape Color** to selected obj
 
 1.  Select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|View → <img src="images/Std_RandomColor.svg" width=16px> Random color}} option from the menu.
-    -   Select the {{MenuCommand|<img src="images/Std_RandomColor.svg" width=16px> Random color}} option from the [Tree view](Tree_view.md) context menu (see screenshot) or [3D view](3D_view.md) context menu.
+    -   Select the **View → <img src="images/Std_RandomColor.svg" width=16px> Random color** option from the menu.
+    -   Select the **<img src="images/Std_RandomColor.svg" width=16px> Random color** option from the [Tree view](Tree_view.md) context menu (see screenshot) or [3D view](3D_view.md) context menu.
 
 ## Notes
 

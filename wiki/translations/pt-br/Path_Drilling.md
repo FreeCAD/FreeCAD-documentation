@@ -16,28 +16,28 @@ The Drilling command generates a drilling Operation in the Job.
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_Drilling.svg" width=16px> [Path Drilling](Path_Drilling.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_Drilling.svg" width=16px> Drilling}} option from the menu.
-2.  In the {{MenuCommand|Operation}} section:
-    -   Select a {{MenuCommand|ToolController}}.
-    -   Select a {{MenuCommand|Coolant Mode}}.
+    -   Select the **Path → <img src="images/Path_Drilling.svg" width=16px> Drilling** option from the menu.
+2.  In the **Operation** section:
+    -   Select a **ToolController**.
+    -   Select a **Coolant Mode**.
     -   Optionally enable and adjust the following:
         -   
-            {{MenuCommand|Peck}}
+            **Peck**
             
-            set the {{MenuCommand|Depth}}.
+            set the **Depth**.
 
         -   
-            {{MenuCommand|Dwell}}
+            **Dwell**
             
-            set the {{MenuCommand|Time}} in seconds.
+            set the **Time** in seconds.
 
         -   
-            {{MenuCommand|Extended Depth}}
+            **Extended Depth**
             
             .
-3.  In the {{MenuCommand|Base Geometry}} section confirm that the list matches the holes that are intended for processing, and adjust add, enable, or disable, as necessary. Holes can be added by selecting the wall faces of the Holes.
-4.  In the {{MenuCommand|Depths}} section check, and if required adjust, the {{MenuCommand|Start Depth}} and {{MenuCommand|Final Depth}}.
-5.  In the {{MenuCommand|Heights}} section check, and if required adjust, the {{MenuCommand|Safe Height}} and the {{MenuCommand|Clearance Height}}.
+3.  In the **Base Geometry** section confirm that the list matches the holes that are intended for processing, and adjust add, enable, or disable, as necessary. Holes can be added by selecting the wall faces of the Holes.
+4.  In the **Depths** section check, and if required adjust, the **Start Depth** and **Final Depth**.
+5.  In the **Heights** section check, and if required adjust, the **Safe Height** and the **Clearance Height**.
 6.  Press the **OK** button to generate the drilling path(s).
 
 ## Notes
@@ -142,7 +142,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Tool Controller**: Defines the Tool controller used in the Operation
 
-#### Rotation (*when available*) {#rotation_when_available}
+#### Rotation (*when available*) 
 
 -    **Attempt Inverse Angle**: Automatically attempt Inverse Angle if initial rotation is incorrect.
 
@@ -153,23 +153,23 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
 
-## Tasks Window Editor Layout {#tasks_window_editor_layout}
+## Tasks Window Editor Layout 
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Geometry {#base_geometry}
+#### Base Geometry 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: delete the selected item(s) in the Base Geometry list
 -   **Clear**: clear all items in the Base Geometry list
 
-#### Base Location {#base_location}
+#### Base Location 
 
 -   **Add**: add an (X,Y) coordinate location to the current drilling operation.
 -   **Remove**: remove the selected location item(s) from the Base Location list
 -   **Edit**: edit the selected location item
 
-#### Depth {#depth_1}
+#### Depth 
 
 -    **Start Depth**
     

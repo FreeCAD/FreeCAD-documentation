@@ -17,7 +17,7 @@ La couche limite présente l\'avantage de créer des maillages anisotropes haute
 
 1.  Pour activer la fonction, un maillage doit d\'abord être fourni <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM Maillage MEF à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md).
     -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et cliquez sur le bouton <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;">.
-    -   Sélectionnez l\'objet Mesh dans l\'arborescence du modèle et sélectionnez l\'option {{MenuCommand|Mesh → <img src="images/FEM_MeshBoundaryLayer.svg" width=32px> Couche limite de maillage FEM}} dans le menu.
+    -   Sélectionnez l\'objet Mesh dans l\'arborescence du modèle et sélectionnez l\'option **Mesh → <img src="images/FEM_MeshBoundaryLayer.svg" width=32px> Couche limite de maillage FEM** dans le menu.
 2.  Modifiez la taille de l\'élément de départ, le taux de croissance et le nombre de couches de croissance.
 3.  Sélectionnez un sommet, une arête, une face.
 4.  Cliquez sur le bouton **OK**.
@@ -31,7 +31,7 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
 Vous pouvez créer autant de couches limites de maillage différentes que nécessaire.
 
-## Exemples visuels {#exemples_visuels}
+## Exemples visuels 
 
 <img alt="" src=images/FEMMeshBoundaryLayer_Example1.png.png  style="width:300px;"> 
 *Exemple 1 : le maillage grossier initial de FEMMeshGMSH sur un cas 2D*
@@ -44,7 +44,7 @@ Vous pouvez créer autant de couches limites de maillage différentes que néces
 
 ## Remarques
 
-## En relation {#en_relation}
+## En relation 
 
 
 

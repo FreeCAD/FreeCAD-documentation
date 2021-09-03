@@ -19,7 +19,7 @@ The <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;"> [Cur
     -   Use **Ctrl** key to select several faces. The whole faces must be closed together. The picture above show 4 faces that comprised the one solid wing.
 3.  To invoke the command, do one of the following:
     -   Press the <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Misc. → Parametric solid}} entry in the Curves menu
+    -   Use the **Misc. → Parametric solid** entry in the Curves menu
 4.  The shape created can be use as a solid in other workbench (i.e. <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) or <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) workbenches). It has volume and weight.
 
 ## Notes

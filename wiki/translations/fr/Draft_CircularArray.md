@@ -24,25 +24,25 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md).
 1.  Optionnellement, sélectionnez un objet.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_CircularArray.svg" width=16px> [Circular Array](Draft_CircularArray/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → Array tools → <img src="images/Draft_CircularArray.svg" width=16px> Circular array}} dans le menu.
-3.  Le panneau de tâches {{MenuCommand|Réseau circulaire}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+    -   Sélectionnez l\'option **Modification → Array tools → <img src="images/Draft_CircularArray.svg" width=16px> Circular array** dans le menu.
+3.  Le panneau de tâches **Réseau circulaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez en un.
 5.  Saisissez les paramètres requis dans le panneau des tâches.
 6.  Pour terminer la commande, effectuez l\'une des opérations suivantes :
-    -   Choisissez un point dans la [Vue 3D](3D_view/fr.md) pour le {{MenuCommand|Centre de rotation}}.
+    -   Choisissez un point dans la [Vue 3D](3D_view/fr.md) pour le **Centre de rotation**.
     -   Appuyez sur **Entrée**.
     -   Appuyez sur le bouton **OK**.
 
 ## Options
 
--   Entrez la {{MenuCommand|Distance radiale}} pour spécifier la distance entre les couches circulaires et entre le centre et la première couche circulaire.
--   Entrez la {{MenuCommand|Distance tangentielle}} pour spécifier la distance entre les éléments d\'une même couche circulaire. Elle doit être supérieure à zéro.
--   Entrez le {{MenuCommand|Nombre de couches circulaires}}. L\'élément au centre compte pour une couche. Doit être au moins {{Value|2}}. Le maximum pouvant être saisi dans le panneau de tâches est {{Value|99}}, mais des valeurs plus élevées sont possibles en modifiant la propriété {{PropertyData/fr|Number Circles}} du tableau.
--   Saisissez la valeur {{MenuCommand|Symétrie}}. Ce nombre détermine la façon dont les éléments sont répartis. Une valeur de {{Value|3}}, par exemple, donne un motif comportant trois secteurs égaux de 120°. Des valeurs plus élevées pour la {{MenuCommand|Symétrie}} et la {{MenuCommand|Distance tangentielle}} permettent d\'obtenir moins d\'éléments, voire aucun, sur les couches internes.
--   Choisissez un point dans la [Vue 3D](3D_view/fr.md), notez que cela terminera également la commande ou rentrez des coordonnées pour le {{MenuCommand|Centre de rotation}}. L\'axe de rotation du réseau passera par ce point. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur le bouton {{MenuCommand|Réinitialiser le point}} pour réinitialiser le {{MenuCommand|Centre de rotation}} à l\'origine.
--   Si la case {{MenuCommand|Union}} est cochée, les éléments qui se chevauchent dans le réseau seront fusionnés. Cela ne fonctionne pas pour les réseaux de liens.
--   Si la case {{MenuCommand|Réseau de liens}} est cochée, un réseau de liens est créé au lieu d\'un réseau normal. Un réseau de liens est plus performant car ses éléments sont des objets [App Link](App_Link/fr.md).
+-   Entrez la **Distance radiale** pour spécifier la distance entre les couches circulaires et entre le centre et la première couche circulaire.
+-   Entrez la **Distance tangentielle** pour spécifier la distance entre les éléments d\'une même couche circulaire. Elle doit être supérieure à zéro.
+-   Entrez le **Nombre de couches circulaires**. L\'élément au centre compte pour une couche. Doit être au moins {{Value|2}}. Le maximum pouvant être saisi dans le panneau de tâches est {{Value|99}}, mais des valeurs plus élevées sont possibles en modifiant la propriété {{PropertyData/fr|Number Circles}} du tableau.
+-   Saisissez la valeur **Symétrie**. Ce nombre détermine la façon dont les éléments sont répartis. Une valeur de {{Value|3}}, par exemple, donne un motif comportant trois secteurs égaux de 120°. Des valeurs plus élevées pour la **Symétrie** et la **Distance tangentielle** permettent d\'obtenir moins d\'éléments, voire aucun, sur les couches internes.
+-   Choisissez un point dans la [Vue 3D](3D_view/fr.md), notez que cela terminera également la commande ou rentrez des coordonnées pour le **Centre de rotation**. L\'axe de rotation du réseau passera par ce point. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Appuyez sur le bouton **Réinitialiser le point** pour réinitialiser le **Centre de rotation** à l\'origine.
+-   Si la case **Union** est cochée, les éléments qui se chevauchent dans le réseau seront fusionnés. Cela ne fonctionne pas pour les réseaux de liens.
+-   Si la case **Réseau de liens** est cochée, un réseau de liens est créé au lieu d\'un réseau normal. Un réseau de liens est plus performant car ses éléments sont des objets [App Link](App_Link/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner la commande.
 
 ## Remarques
@@ -55,7 +55,7 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md).
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées et des distances : {{MenuCommand|Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales}}.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées et des distances : **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
 
 ## Propriétés
 

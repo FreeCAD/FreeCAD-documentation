@@ -11,7 +11,8 @@
 
 Der Befehl **Std Über** öffnet ein Dialogfenster, das Informationen über das FreeCAD Programm anzeigt.
 
-![](images/Help-About-Dropdown-screenshot.png ) *Aktiviere den Über Dialog über {{MenuCommand|Hilfe → <img src="images/Std_About.svg" width=16px> Über FreeCAD*}}
+![](images/Help-About-Dropdown-screenshot.png ) *Aktiviere den Über Dialog über **Hilfe → <img src="images/Std_About.svg" width=16px> Über FreeCAD
+***
 
 ![](images/Std_About_example.png ) *Das Über FreeCAD Dialogfeld*
 
@@ -20,10 +21,10 @@ Der Befehl **Std Über** öffnet ein Dialogfenster, das Informationen über das 
 
 ## Anwendung
 
-1.  Wähle die Option {{MenuCommand|Hilfe → <img src="images/Std_About.svg" width=16px> Über FreeCAD}} aus dem Menü.
-2.  Wähle eine der Reiter: {{MenuCommand|Über}}, {{MenuCommand|Credits}}, {{MenuCommand|Lizenz}} oder {{MenuCommand|Bibliotheken}}.
+1.  Wähle die Option **Hilfe → <img src="images/Std_About.svg" width=16px> Über FreeCAD** aus dem Menü.
+2.  Wähle eine der Reiter: **Über**, **Credits**, **Lizenz** oder **Bibliotheken**.
 3.  Wann immer du FreeCAD Versionsinformationen angeben musst, gehe wie folgt vor:
-    -   Drücke die Schaltfläche **In die Zwischenablage kopieren** auf dem Reiter {{MenuCommand|Über}}.
+    -   Drücke die Schaltfläche **In die Zwischenablage kopieren** auf dem Reiter **Über**.
     -   Füge diese Informationen in deine Hilfeanfrage ein.
     -   Füge kein Bildschirmfoto des Dialogfelds ein.
 4.  Drücke **Esc** oder die Schaltfläche **OK**, um das Dialogfeld zu schließen.

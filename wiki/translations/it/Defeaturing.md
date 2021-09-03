@@ -8,7 +8,7 @@ Permette la rimodellazione anche quando la cronologia delle operazioni non è di
 
 Il modo più semplice per usare defeaturing è usare l\'ambiente [Defeaturing](Defeaturing_Workbench/it.md)
 
-## Esempio di codice {#esempio_di_codice}
+## Esempio di codice 
 
 Defeaturing può essere utilizzato anche con Python: 
 ```python

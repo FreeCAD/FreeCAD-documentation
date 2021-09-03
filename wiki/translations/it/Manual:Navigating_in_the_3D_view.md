@@ -12,7 +12,7 @@
 
 {{Manual:TOC/it}}
 
-### Alcune parole sullo spazio 3D {#alcune_parole_sullo_spazio_3d}
+### Alcune parole sullo spazio 3D 
 
 Se questo è il primo contatto con un\'applicazione 3D, prima è necessario familiarizzare con alcuni concetti. In caso contrario, si può tranquillamente saltare questa sezione.
 
@@ -26,9 +26,9 @@ Il punto in cui i tre assi si incontrano è l\'origine. È il punto in cui il va
 
 Si può guardare la scena da qualsiasi angolazione, come se si fosse in possesso di una fotocamera. Questa camera può essere spostata a sinistra, a destra, in alto e in basso (Sposta), oppure ruotata attorno a ciò che si sta guardando (Ruota) e portata più vicino o più lontano dalla scena (Zoom).
 
-### La vista 3D di FreeCAD {#la_vista_3d_di_freecad}
+### La vista 3D di FreeCAD 
 
-#### Navigazione con il mouse {#navigazione_con_il_mouse}
+#### Navigazione con il mouse 
 
 
 <div class="mw-translate-fuzzy">
@@ -57,7 +57,7 @@ Ognuna di queste modalità attribuisce per queste quattro operazioni pulsanti di
 
 </div>
 
-#### Navigazione da tastiera {#navigazione_da_tastiera}
+#### Navigazione da tastiera 
 
 In alternativa, sono sempre disponibili alcuni comandi da tastiera, a prescindere dalla modalità di navigazione:
 
@@ -83,7 +83,7 @@ Questi controlli sono anche disponibili dal menu Visualizza e alcuni dalla barra
 
 </div>
 
-#### Utilizzo del cubo di navigazione {#utilizzo_del_cubo_di_navigazione}
+#### Utilizzo del cubo di navigazione 
 
 Nella configurazione predefinita, compare un [cubo di navigazione](Navigation_Cube/it.md) nell\'angolo in alto a destra della finestra 3D. Può essere utilizzato per ruotare l\'oggetto visualizzato di un valore prestabilito, ripristinare la visualizzazione su una delle diverse viste standard e cambiare la modalità di visualizzazione.
 
@@ -105,7 +105,7 @@ Il cubo di navigazione può essere spostato in qualsiasi parte dell\'area 3D tra
 
 C\'è un cubo più piccolo, nella parte inferiore destra del cubo, che attiva un menu a discesa per cambiare la modalità di visualizzazione.
 
-### Selezionare gli oggetti {#selezionare_gli_oggetti}
+### Selezionare gli oggetti 
 
 Gli oggetti nella vista 3D possono essere selezionati cliccandoli con il corrispondente tasto del mouse, secondo la modalità di navigazione descritte sopra. Un singolo clic seleziona l\'oggetto, e una delle sue sotto-componenti (bordo, faccia, vertice). Facendo doppio click si seleziona l\'oggetto e tutte le sue sotto-componenti. Premendo il tasto CTRL è possibile selezionare più di un sotto-componente, o anche diversi sotto-componenti da diversi oggetti. Facendo clic con il pulsante di selezione su una parte vuota della visualizzazione 3D si deseleziona tutto.
 

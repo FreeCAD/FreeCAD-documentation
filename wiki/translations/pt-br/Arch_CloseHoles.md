@@ -13,7 +13,7 @@ This tool identifies holes (circular sequence of open edges) in a [Shape](Part_W
 ## Utilização
 
 1.  Select a [Shape](Part_Workbench.md) object.
-2.  Press the **<img src="images/Arch_CloseHoles.svg" width=16px> [Close Holes](Arch_CloseHoles.md)** entry in {{MenuCommand|Arch → Utilities → Close Holes}}.
+2.  Press the **<img src="images/Arch_CloseHoles.svg" width=16px> [Close Holes](Arch_CloseHoles.md)** entry in **Arch → Utilities → Close Holes**.
 
 ## Scripting
 

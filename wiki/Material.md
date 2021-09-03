@@ -38,7 +38,7 @@ There are some good resources out there handle materials more easy:
 -   [Units calculator](http://www.dimensionengine.com/) to get your material information in the Unit needed for FreeCAD
 -   [<http://www.matweb.com/>](http://www.matweb.com/) [free of charge](http://matweb.com/reference/terms.aspx) Material database with thousands of material values
 
-## Material Database {#material_database}
+## Material Database 
 
 Given that above standard is implemented, it would be stupid to store all the properties again and again to objects. Basically we can build up a Material DB with the Name as a primary key. So if you have no special needs for your material, you just define e.g. Name=Steel and FreeCAD can retrieve all properties from that DB. Every additional property you set in the map overrides the one from the DB.
 
@@ -57,13 +57,13 @@ Since handling material-properties is a tedious work we should implement a Pytho
 
 The module should be implemented that way it can run in FreeCAD or stand alone on the command line (material-property-map has be given as python map).
 
-## The FreeCAD material card file format {#the_freecad_material_card_file_format}
+## The FreeCAD material card file format 
 
 Working with materials means often import/export material-definitions. Therefore a file format is needed. Since we have only key/value form, we can use a simple and easy to read and parse file format. Therefore the [ini-file](http://en.wikipedia.org/wiki/INI_file) format is chosen. Its standardized and there are already parser available. E.g the [Config parser module in python](http://docs.python.org/2/library/configparser.html).
 
 Each material definition resides in a file with the ending {{FileName|.FCMat}}. Some of these files are part of the FreeCAD source and get compiled into the binary. This is to save overhead in distribution and access. But also files can be placed and searched on different places to allow additional non-standard material definitions.
 
-### Example .FCMat file {#example_.fcmat_file}
+### Example .FCMat file 
 
 
 ```python
@@ -81,7 +81,7 @@ Each material definition resides in a file with the ending {{FileName|.FCMat}}. 
  EmissiveColor = 255,255,255
 ```
 
-## Material properties {#material_properties}
+## Material properties 
 
 Here now the description of agreed material-properties. Feel free to add a subsection for the material-properties of you field of expertise.
 
@@ -147,7 +147,7 @@ This section defines material-properties which are related to the visual appeara
 
   : Thermal properties
 
-### Architecture and BIM {#architecture_and_bim}
+### Architecture and BIM 
 
   property name       Description                                                                                                                                                                                                                                                                                                                                                 Unit/Data-Type
   ------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------

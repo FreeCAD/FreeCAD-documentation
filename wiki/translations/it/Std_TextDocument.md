@@ -14,7 +14,7 @@ Il comando **Aggiungi un documento di testo** crea un oggetto in grado di conten
 
 ## Utilizzo
 
-1.  Andare nel menu {{MenuCommand|Strumenti → Aggiungi un documento di testo}}.
+1.  Andare nel menu **Strumenti → Aggiungi un documento di testo**.
 2.  Fare doppio clic sul nuovo oggetto creato nella [vista ad albero](tree_view/it.md) per aprire una scheda in cui scrivere il testo.
 3.  Aggiungere il testo.
 4.  Chiudere la scheda e salvare il file quando viene richiesto.

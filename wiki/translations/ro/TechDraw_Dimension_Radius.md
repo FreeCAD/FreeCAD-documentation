@@ -22,7 +22,7 @@ The Dimension Radius tool adds a radius dimension to a View. The dimension may b
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați un cerc sau un arc circular în desen. (Notați că anumite arce de cerc apar ca fiind circulare dar de fapt sunt elipse sau curbe BSplines. Nu puteți realiza radius dimension în aceste cazuri)
 2.  Apăsați butonul **<img src="images/Dimension_Radius.png" width=24px> [Dimension Radius](TechDraw_Dimension_Radius.md)

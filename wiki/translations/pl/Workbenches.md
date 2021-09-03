@@ -11,7 +11,7 @@ Kiedy przełączasz się z jednego Środowiska pracy na drugie, zmieniają się 
 
 Należy pamiętać, że czasami środowisko pracy jest nazywane **modułem**. Jednak środowiska pracy i moduły są różnymi częściami składowymi. Moduł to dowolne rozszerzenie FreeCAD, natomiast Środowisko pracy to specjalna konfiguracja GUI *(moduł)* grupująca niektóre paski narzędzi i menu.
 
-## Wbudowane Środowiska pracy {#wbudowane_środowiska_pracy}
+## Wbudowane Środowiska pracy 
 
 Poniższe środowiska pracy są dostępne w każdej instalacji FreeCAD:
 
@@ -67,11 +67,11 @@ Następujące środowiska pracy są nadal objęte zakresem instalacji podstawowe
 
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> [Kreślenie](Drawing_Workbench/pl.md) został stworzony do prezentacji projektów 3D na kartce papieru, ale teraz został usunięty. Jednak nadal konieczne jest odczytanie starych plików FreeCAD, które zawierają obiekt rysunkowy wykonany pierwotnie w tym Środowisku pracy. Zobacz [Rysunek Techniczny](TechDraw_Workbench/pl.md), który jest bardziej zaawansowanym zamiennikiem. *\' {{Obsolete/pl|0.17}}*\'
 
-## Zewnętrzne Środowiska pracy {#zewnętrzne_środowiska_pracy}
+## Zewnętrzne Środowiska pracy 
 
 Środowiska pracy FreeCAD są łatwe do zaprogramowania w [Python](Python.md). Dlatego też, wiele osób opracowuje dodatkowe stoły robocze wykraczające poza główny obszar rozwoju programu FreeCAD.
 
-Strona [zewnętrzne Środowiska pracy](external_workbenches.md) zawiera listę wszystkich, które są znane tej społeczności. Większość z nich można łatwo zainstalować z poziomu FreeCAD, używając [Menadżera dodatków](Std_AddonMgr/pl.md), znajdującego się w menu {{MenuCommand|Narzędzia → <img src="images/AddonManager.svg" width=24px> Menadżer dodatków}}.
+Strona [zewnętrzne Środowiska pracy](external_workbenches.md) zawiera listę wszystkich, które są znane tej społeczności. Większość z nich można łatwo zainstalować z poziomu FreeCAD, używając [Menadżera dodatków](Std_AddonMgr/pl.md), znajdującego się w menu **Narzędzia → <img src="images/AddonManager.svg" width=24px> Menadżer dodatków**.
 
 Wciąż powstają kolejne środowiska pacy, obserwuj zmiany i bądź na bieżąco!
 

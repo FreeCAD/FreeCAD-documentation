@@ -24,9 +24,9 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/f
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Wire.svg" width=16px> [Créer une ligne à plusieurs points...](Draft_Wire/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyligne}} dans le menu.
+    -   Sélectionnez l\'option **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **L**.
-2.  Le panneau de tâches {{MenuCommand|Polyline}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+2.  Le panneau de tâches **Polyline** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 4.  Choisissez des points supplémentaires dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 5.  Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
@@ -36,10 +36,10 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/f
 Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
 
 -   Pour saisir manuellement des coordonnées, entrez les valuers X, Y et Z, et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous savez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur **R** ou cochez la case {{MenuCommand|Relative}} pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyez sur **G** ou cochez la case {{MenuCommand|Global}} pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **L** ou cochez la case {{MenuCommand|Rempli}} pour activer le mode de remplissage. Si le mode rempli est activé, la ligne créée aura la valeur {{PropertyData/fr|Make Face}} `True` et aura une face remplie, à condition qu\'elle soit fermée et qu\'elle ne s\'auto-intersecte pas. Notez qu\'une ligne qui s\'auto-intersecte avec une face ne s\'affichera pas correctement. Pour une telle ligne, {{PropertyData/fr|Make Face}} doit être défini sur `False`.
--   Appuyez sur **T** ou cochez la case {{MenuCommand|Continuer}} pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une ligne fermée en s\'accrochant au premier point de la ligne, ce qui vous permet de continuer à créer des lignes.
+-   Appuyez sur **R** ou cochez la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
+-   Appuyez sur **G** ou cochez la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Appuyez sur **L** ou cochez la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, la ligne créée aura la valeur {{PropertyData/fr|Make Face}} `True` et aura une face remplie, à condition qu\'elle soit fermée et qu\'elle ne s\'auto-intersecte pas. Notez qu\'une ligne qui s\'auto-intersecte avec une face ne s\'affichera pas correctement. Pour une telle ligne, {{PropertyData/fr|Make Face}} doit être défini sur `False`.
+-   Appuyez sur **T** ou cochez la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une ligne fermée en s\'accrochant au premier point de la ligne, ce qui vous permet de continuer à créer des lignes.
 -   Appuyez sur le bouton **<img src="images/Draft_UndoLine.svg" width=16px> Annuler** pour annuler le dernier point. Le raccourci clavier **Ctrl**+**Z** ne fonctionne pas actuellement comme attendu.
 -   Appuyez sur **A** ou sur le bouton **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** pour terminer la commande et laisser la ligne ouverte.
 -   Appuyez sur **O** ou sur le bouton **<img src="images/Draft_CloseLine.svg" width=16px> Fermer** pour terminer la commande et fermer la ligne. Une ligne fermée peut également être créée en s\'accrochant au premier point de la ligne.
@@ -50,13 +50,13 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ## Joindre
 
-### Utilisation {#utilisation_1}
+### Utilisation 
 
 1.  Les extrémité des [Draft Lignes](Draft_Line/fr.md) et/ou des Draft Polylignes à joindre doivent coïncider exactement. Si nécessaire, ajustez d\'abord les points pour vous assurer que c\'est le cas.
 2.  Sélectionnez deux ou plusieurs [Draft Lignes](Draft_Line/fr.md) et/ou des Draft Polylignes.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Wire.svg" width=16px> [Créer une ligne à plusieurs points...](Draft_Wire/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyligne}} dans le menu.
+    -   Sélectionnez l\'option **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **L**.
 
 ## Remarques
@@ -69,8 +69,8 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : {{MenuCommand|Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales}}.
--   Pour modifier la valeur initiale du mode rempli : {{MenuCommand|Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible}}. La modification du mode rempli dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
+-   Pour modifier la valeur initiale du mode rempli : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode rempli dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
 
 ## Propriétés
 

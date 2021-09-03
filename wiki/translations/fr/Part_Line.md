@@ -14,7 +14,7 @@
 
 ## Utilisation
 
-### Primitives géometriques {#primitives_géometriques}
+### Primitives géometriques 
 
 +--------------------------------------------------------------------------+-----------------------------------+
 | ![](images/PartLinePrimitivesOptions_it.png ) | Ligne                             |

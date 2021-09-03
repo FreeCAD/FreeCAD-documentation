@@ -58,7 +58,7 @@ Remarque: \"libboost-program-options-dev\" peut être remplacé par \"libboost-a
 
 Si vous rencontrez des difficultés, examinez attentivement tous les messages d\'erreur que vous obtenez pendant le cmake et effectuez les phases car vous devrez peut-être installer des packages supplémentaires.
 
-#### Python 3 {#python_3}
+#### Python 3 
 
 Identifiez la version de cmake que vous avez installée avec cmake --version
 
@@ -99,7 +99,7 @@ Voir le forum FreeCAD sur [Re: Comment activer openCamLib après l\'avoir compil
 
 (Pas d\'entrée)
 
-## Plus d\'aide {#plus_daide}
+## Plus d\'aide 
 
 Si vous rencontrez des difficultés, vous pouvez trouver de l\'aide supplémentaire sur ces messages du forum :
 

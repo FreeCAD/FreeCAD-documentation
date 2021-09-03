@@ -18,21 +18,21 @@ Ein Werkzeug zur Erstellung von komplexeren Formen aus verschiedenen parametrisc
 
 Dieses Werkzeug kann die folgenden Objekte erstellen:
 
-### Kante aus zwei Knoten {#kante_aus_zwei_knoten}
+### Kante aus zwei Knoten 
 
 1.  Wähle zwei Knoten aus
 2.  Klicke auf **Erstellen**
 
 ![](images/Edge_from_verts-1.gif )
 
-### Draht aus Kanten {#draht_aus_kanten}
+### Draht aus Kanten 
 
 1.  Wählein der [3D Ansicht](3D_view/de.md) eine Reihe von benachbarten Kanten aus.
 2.  Klicke auf **Erstellen**
 
 ![](images/Wire_from_edges-1.gif )
 
-### Fläche aus Knoten {#fläche_aus_knoten}
+### Fläche aus Knoten 
 
 1.  Wähle Knoten, die die Fläche in der [3D Ansicht](3D_view/de.md) umschließen.
 2.  Wähle, ob die Fläche planar sein soll.
@@ -41,7 +41,7 @@ Dieses Werkzeug kann die folgenden Objekte erstellen:
 
 ![](images/Face_from_verts.gif )
 
-### Fläche aus Kanten {#fläche_aus_kanten}
+### Fläche aus Kanten 
 
 1.  Wähle eine geschlossene Satz von Kanten, die die Fläche in der [3D Ansicht](3D_view/de.md) umschließen.
 2.  Wähle ob die Fläche planar sein soll.
@@ -50,7 +50,7 @@ Dieses Werkzeug kann die folgenden Objekte erstellen:
 
 ![](images/Face_from_edges.gif )
 
-### Hülle aus Flächen {#hülle_aus_flächen}
+### Hülle aus Flächen 
 
 1.  Flächen in der [3D Ansicht](3D_view/de.md) auswählen
 2.  Wähle ob die Form verfeinert werden soll.
@@ -58,7 +58,7 @@ Dieses Werkzeug kann die folgenden Objekte erstellen:
 4.  Klicke auf **Erstellen**
 5.  Objekt wird in der [3D Ansicht](3D_view/de.md) erstellt und in der [Baumansicht](Tree_view/de.md) aufgelistet
 
-### Festkörper aus Hülle {#festkörper_aus_hülle}
+### Festkörper aus Hülle 
 
 1.  Wähle es, wenn die Form verfeinert werden soll.
 2.  Klicke auf **Erstellen**

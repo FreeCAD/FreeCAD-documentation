@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Acesta este un proiect în FreeCAD. Aceasta respectă regulile din \[<http://en.wikipedia.org/wiki/GTD#GTD_methodology>\| Getting things done\] . Proiectele sunt colectate în [Development roadmap](Development_roadmap.md).
 
-## Scopuri și principii {#scopuri_și_principii}
+## Scopuri și principii 
 
 Acesta este un cadru de dezvoltare software pentru FreeCAD.
 
@@ -30,7 +30,7 @@ O mulțime de discuții au fost făcute aici: <http://forum.freecadweb.org/viewt
 
 ## Organizare
 
-### Actualizarea analizorului sintatic (parser) de unități de măsură {#actualizarea_analizorului_sintatic_parser_de_unități_de_măsură}
+### Actualizarea analizorului sintatic (parser) de unități de măsură 
 
 Actualizarea parserului pentru a gestiona și a genera semnături așa cum este discutat în articolul [ Units](Units.md).
 
@@ -45,7 +45,7 @@ Schimbați proprietățile de ex din PropertyLength în PropertyUntit cu o semn�
 -   Actualizarea Atelierelor de lucru pentru a utiliza cadrul unităților de măsură. Aș începe cu Sketcher și PartDesign și du-te mai departe \...
 -   Documentarea procesului de actualizare, astfel încât alți oameni să poată face același lucru cu alte ateliere de lucru -[Yorikvanhavre](User:Yorikvanhavre.md) 13:13, 28 November 2011 (UTC)
 
-## Umătorii pași {#umătorii_pași}
+## Umătorii pași 
 
 -   Upgradarea analizorului sintactic (parser) a unităților de măsură (jriegel)
 

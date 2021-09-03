@@ -25,7 +25,7 @@ In addition to the properties described in [App DocumentObject](App_DocumentObje
 
 See [Property](Property.md) for all property types that scripted objects can have.
 
-These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the {{MenuCommand|Show all}} command in the context menu of the [property editor](property_editor.md).
+These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
 ### Data
 

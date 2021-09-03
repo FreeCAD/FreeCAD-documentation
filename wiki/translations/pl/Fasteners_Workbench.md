@@ -18,9 +18,9 @@ Użycie jest całkiem proste:
 3.  Wybierz środowisko <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Elementów Złącznych](Fasteners_Workbench/pl.md) z [listy menu rozwijanego](Std_Workbench/pl.md).
 4.  Na pasku narzędzi pojawi się seria śrub *(patrz [Pasek narzędzi Elementów złącznych](#Pasek_narz.C4.99dzi_Element.C3.B3w_z.C5.82.C4.85cznych.md) poniżej)*.
 
-Proste użycie: Kliknięcie na dowolną śrubę spowoduje utworzenie tej śruby w punkcie odniesienie położenia z domyślnymi właściwościami. Aby zmienić rozmiar / długość wybierz nowo utworzoną śrubę, następnie przejdź do zakładki {{MenuCommand|Dane}} w [panelu właściwości](Property_editor/pl.md).
+Proste użycie: Kliknięcie na dowolną śrubę spowoduje utworzenie tej śruby w punkcie odniesienie położenia z domyślnymi właściwościami. Aby zmienić rozmiar / długość wybierz nowo utworzoną śrubę, następnie przejdź do zakładki **Dane** w [panelu właściwości](Property_editor/pl.md).
 
-## Znane problemy {#znane_problemy}
+## Znane problemy 
 
 -   Inne problemy / prośby o funkcje można znaleźć na stronie [Fastener Workbench GitHub issue queue](https://github.com/shaise/FreeCAD_FastenersWB/issues?utf8=✓&q=is%3Aissue)
 
@@ -36,9 +36,9 @@ Proste użycie: Kliknięcie na dowolną śrubę spowoduje utworzenie tej śruby 
 
 To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;">. [Menadżera dodatków](Std_AddonMgr.md). Aby zainstalować go ręcznie zobacz stronę [Instalacja zewnętrznych środowisk pracy](Installing_more_workbenches/pl.md).
 
-### Pasek narzędzi {#pasek_narzędzi}
+### Pasek narzędzi 
 
-Środowisko pracy Elementy Złączne posiada dwa paski narzędzi. Pasek narzędzi {{MenuCommand|FS Screws}} zawiera wiele narzędzi. W razie potrzeby można go rozwinąć, naciskając przycisk **&gt;&gt;**.
+Środowisko pracy Elementy Złączne posiada dwa paski narzędzi. Pasek narzędzi **FS Screws** zawiera wiele narzędzi. W razie potrzeby można go rozwinąć, naciskając przycisk **&gt;&gt;**.
 
 ![](images/Fasteners_toolbars.png ) *Paski narzędzi środowiska Element złączne*
 
@@ -66,7 +66,7 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Zmiana parametrów](Fasteners_ChangeParameters/pl.md): umożliwia dokonanie zmian parametrów wybranych elementów złącznych.
 
-### Elementy złączne PEM oraz PCB {#elementy_złączne_pem_oraz_pcb}
+### Elementy złączne PEM oraz PCB 
 
 -   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> **PEM** Nakrętka metryczna samokontrująca.
 
@@ -78,7 +78,7 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 
 -   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **PCB** Przekładka metryczna.
 
-### Elementy złączne DIN, EN oraz ISO {#elementy_złączne_din_en_oraz_iso}
+### Elementy złączne DIN, EN oraz ISO 
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> **ISO 4017** Śruba z łbem sześciokątnym. Klasy produktów A i B.
 
@@ -164,7 +164,7 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Nakrętka Nyloc.
 
-### Elementy złączne ASME {#elementy_złączne_asme}
+### Elementy złączne ASME 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Śruba z łbem sześciokątnym.
 
@@ -202,7 +202,7 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN podkładka, seria szeroka.
 
-### Elementy złączne różne {#elementy_złączne_różne}
+### Elementy złączne różne 
 
 -   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Pręt gwintowany o dowolnej długości do gwintowania otworów *(metryczny)*.
 
@@ -223,7 +223,7 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 -   <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:32px;"> 
 **ikonka środowiska Elementy złączne**
 
-## Odnośniki internetowe dla środowiska {#odnośniki_internetowe_dla_środowiska}
+## Odnośniki internetowe dla środowiska 
 
 -   Wiki na temat tego środowiska pracy: <http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/>
 -   Wiki dla FreeCAD: <https://www.freecadweb.org/wiki/Fasteners_Workbench>
@@ -234,7 +234,7 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 -   Zgłaszanie błędów: Proszę zgłaszać błędy na <https://github.com/shaise/FreeCAD_FastenersWB/issues>
 -   Instalacja: <http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/>
 
-## Inne użyteczne odnośniki {#inne_użyteczne_odnośniki}
+## Inne użyteczne odnośniki 
 
 -   [Generowanie otworów pod wkręty z łbem stożkowym z użyciem programu FreeCAD.](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/)
 -   [ŚRUBY](https://github.com/jreinhardt/BOLTS): Otwarta biblioteka dla specyfikacji technicznych

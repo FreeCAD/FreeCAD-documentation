@@ -78,7 +78,7 @@ Los archivos IFC se exportan como IFC2x3 o IFC4 dependiendo de su versión de If
 
 Si la forma de los objetos exportados se basa en una extrusión o en una operación booleana, la operación y los componentes se exportarán correctamente a IFC. En caso contrario, la forma del objeto se exportará como [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4x1/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm). Si la forma contiene curvas, éstas serán trianguladas. Sin embargo, IfcOpenShell v0.5 o superior cuenta con un serializador, que debe ser habilitado en las preferencias de Importación/Exportación → IFC. Si está habilitado, este serializador es capaz de exportar objetos curvos muy complejos, como los basados en NURBS, y así evitar las caras trianguladas. Sin embargo, en el momento de escribir este artículo, pocas aplicaciones BIM admiten objetos IFC NURBS, por lo que se aconseja hacer algunas pruebas.
 
-## Más información {#más_información}
+## Más información 
 
 -   [IfcOpenShell](IfcOpenShell/es.md), más información sobre la instalación de esta biblioteca.
 

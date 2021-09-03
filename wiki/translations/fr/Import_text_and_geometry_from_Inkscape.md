@@ -12,7 +12,7 @@
 Ce tutoriel est censé montrer comment importer du texte ou de la géométrie créé avec inkscape via svg-format dans FreeCAD.
 Inkscape 0.91 et FreeCAD 0.16.6704 sur Windows sont utilisés pour ces opérations.
 
-## Conseils généraux pour l\'importation à partir de inkscape {#conseils_généraux_pour_limportation_à_partir_de_inkscape}
+## Conseils généraux pour l\'importation à partir de inkscape 
 
 -   l\'import svg dans FreeCAD ne peut pas gérer un fichier svg avec une résolution de plus de 45 dpi, alors vérifiez les paramètres dans inkscape
 -   lors de l\'importation d\'objets chemin qui n\'apparaissent pas très lisses dans la vue 3D dans FreeCAD , cela peut être dû aux paramètres de FreeCAD pour la vue de la forme.
@@ -22,7 +22,7 @@ Inkscape 0.91 et FreeCAD 0.16.6704 sur Windows sont utilisés pour ces opératio
     -   n\'utilisez pas de valeurs inférieures à \"0,01%\", cela entraînera probablement un crash de FreeCAD
     -   dans ce cas, la suppression des fichiers \"system.cfg\" et \"user.cfg\" dans votre répertoire FreeCAD-user résoudra ce problème
 
-## Importation de texte à partir de inkscape {#importation_de_texte_à_partir_de_inkscape}
+## Importation de texte à partir de inkscape 
 
 -   Dans inkscape, après avoir inséré du texte (et peut-être en appliquant des effets comme plier ou autre chose), assurez-vous de
     -   sélectionnez votre texte et choisissez {{KEY | Chemin}} → {{KEY | Objet en chemin}}
@@ -34,7 +34,7 @@ Inkscape 0.91 et FreeCAD 0.16.6704 sur Windows sont utilisés pour ces opératio
 -   Utilisez les outils pad ou [Part](Part_Workbench/fr.md) [extrusion](Part_Extrude/fr.md) sur les faces pour obtenir des solides
 -   vous pouvez fusionner vos objets ou utiliser des composés sur eux en fonction de vos travaux prévus
 
-## Importation de géométrie à partir de inkscape {#importation_de_géométrie_à_partir_de_inkscape}
+## Importation de géométrie à partir de inkscape 
 
 Puisque inkscape et FreeCAD semblent avoir des approches différentes sur la façon d\'appliquer des dimensions sur l\'objet svg, le flux de travail recommandé semble être :
 

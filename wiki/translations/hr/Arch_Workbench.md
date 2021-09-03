@@ -79,7 +79,7 @@ These are tools for creating architectural objects.
     -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Material](Arch_MultiMaterial.md): Creates a multi-material and attributes it to selected objects, if any <small>(v0.17)</small> 
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Schedule](Arch_Schedule.md): Creates different types of schedules
 
-### Alati za izmjene {#alati_za_izmjene}
+### Alati za izmjene 
 
 These are tools for modifying architectural objects.
 
@@ -89,7 +89,7 @@ These are tools for modifying architectural objects.
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Survey](Arch_Survey.md): Enters or leaves surveying mode
 
-### Uslužni programi {#uslužni_programi}
+### Uslužni programi 
 
 These are additional tools to help you in specific tasks.
 
@@ -112,7 +112,7 @@ These are additional tools to help you in specific tasks.
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferences](Arch_Preferences.md): preferences for the default appearance of walls, structures, rebars, windows, stairs, panels, pipes, grids and axes.
 
-### File formats {#file_formats}
+### File formats 
 
 -   [IFC](Arch_IFC.md): industry foundation classes
 -   [DAE](Arch_DAE.md): Collada mesh format

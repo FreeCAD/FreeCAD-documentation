@@ -135,7 +135,7 @@ Cette commande remplacera tous les liens sécurisés vers l\'ancien forum Source
 
 {{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecadweb.org"}}
 
-## Commandes liées au Wiki FreeCAD {#commandes_liées_au_wiki_freecad}
+## Commandes liées au Wiki FreeCAD 
 
 Compter toutes les pages dans lesquelles un modèle wiki spécifique est utilisé
 

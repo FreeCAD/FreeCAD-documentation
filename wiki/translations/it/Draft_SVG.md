@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -57,7 +57,7 @@ FreeCAD non importerà oggetti tracciato che hanno un solo punto ([forum discuss
 
 Ricordare che il formato SVG è un formato 2D, quindi si perdono tutte le informazioni sull\'asse Z (tutti gli oggetti risultano appiattiti).
 
-## Gestione delle Unità {#gestione_delle_unità}
+## Gestione delle Unità 
 
 Quando si esporta, una Unità utente (px) equivale a un millimetro.
 

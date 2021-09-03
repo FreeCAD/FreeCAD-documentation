@@ -40,7 +40,7 @@ Lo strumento profilo è anche integrato nello strumento [Struttura](Arch_Structu
 
 -    **Flange Thickness**: Lo spessore della flangia o ala del profilo (solo per i profili H e I)
 
-## Aggiungere dei profili personalizzati {#aggiungere_dei_profili_personalizzati}
+## Aggiungere dei profili personalizzati 
 
 L\'utente può creare un file CSV aggiuntivo, contenente le definizioni del profilo personalizzato. Deve essere denominato `profiles.csv` e inserito in 
 ```python

@@ -18,7 +18,7 @@ Der **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbetsbereich](Workben
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Wähle einen Arbeitsbereich aus der **Arbeitsbereichs Auswahlliste** in der Arbeitsbereich Werkzeugleiste. Diese Option ist nicht verfügbar, wenn der aktuelle Arbeitsbereich ist `<none>` (kein Arbeitsbereich).
-    -   Wähle einen Arbeitsbereich aus dem {{MenuCommand|Ansicht → Arbeitsbereich}} Untermenü.
+    -   Wähle einen Arbeitsbereich aus dem **Ansicht → Arbeitsbereich** Untermenü.
 
 ## Hinweise
 
@@ -26,7 +26,7 @@ Der **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbetsbereich](Workben
 
 ## Einstellungen
 
--   Der Startarbeitsbereich kann in den Einstellungen geändert werden: {{MenuCommand|Bearbeiten → Einstellungen... → Allgemein → Allgemein → Hochfahren}}. Siehe [Einstellungseditor](Preferences_Editor/de#General.md).
+-   Der Startarbeitsbereich kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Allgemein → Allgemein → Hochfahren**. Siehe [Einstellungseditor](Preferences_Editor/de#General.md).
 
 ## Skripten
 

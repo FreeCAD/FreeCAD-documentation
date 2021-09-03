@@ -10,7 +10,7 @@
 
 FreeCAD utiliza como representación interna para las trayectorias generadas, los llamados G-codes. Pueden describir cosas como: la velocidad y el avance, la parada del motor, etc\... Pero lo más importante son los movimientos que describen. Estos movimientos son bastante simples: Pueden ser líneas rectas o arcos circulares. Curvas más sofisticadas como las B-splines ya son aproximadas por el <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> de FreeCAD. [Ambiente de trabajo Trayectoria](Path_Workbench/es.md).
 
-## Lo que el postprocesador puede hacer por ti {#lo_que_el_postprocesador_puede_hacer_por_ti}
+## Lo que el postprocesador puede hacer por ti 
 
 
 <div class="mw-translate-fuzzy">
@@ -35,7 +35,7 @@ Además, existen otros lenguajes para controlar un fresadora, como HPGL, DXF u o
 
 El postprocesador es un programa que traduce los códigos internos en un archivo completo, que puede ser cargado en su máquina.
 
-## Preparación para escribir su propio postprocesador {#preparación_para_escribir_su_propio_postprocesador}
+## Preparación para escribir su propio postprocesador 
 
 Puede empezar con un modelo muy sencillo que muestre cómo su máquina lee las líneas rectas y los arcos. Prepárelo con cualquier programa adecuado para su máquina.
 
@@ -49,7 +49,7 @@ La trayectoria en FreeCAD tendría este aspecto. Tenga en cuenta la pequeña fle
 
 A continuación, puede echar un vistazo al archivo y compararlo con la salida de los postprocesadores existentes como {{FileName|linux_cnc_post.py}} o {{FileName|grbl_post.py}} y tratar de adaptarlos usted mismo o subir el suyo al foro Path <https://forum.freecadweb.org/viewforum.php?f=15> para obtener ayuda.
 
-## Convención de denominación {#convención_de_denominación}
+## Convención de denominación 
 
 
 <div class="mw-translate-fuzzy">
@@ -61,7 +61,7 @@ Para un formato de archivo {{FileName|<filename>}} el postprocesador debe obtene
 
 Si estás probando, colócalo en tu directorio de macros. Si funciona bien, por favor, considera proporcionarla para que otros se beneficien (publícala en el FreeCAD Path foro) para que pueda ser incluida en la distribución de FreeCAD en el futuro.
 
-## Otros postprocesadores existentes {#otros_postprocesadores_existentes}
+## Otros postprocesadores existentes 
 
 
 <div class="mw-translate-fuzzy">
@@ -73,7 +73,7 @@ Para comparar puedes mirar los postprocesadores que vienen con tu instalación d
 
 </div>
 
-## Programación de tu propio postprocesador {#programación_de_tu_propio_postprocesador}
+## Programación de tu propio postprocesador 
 
 Este post discute algunos aspectos internos de los postprocesadores linuxcnc. La misma estructura se utiliza en otros postprocesadores también.
 

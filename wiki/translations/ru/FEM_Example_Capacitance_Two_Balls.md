@@ -20,29 +20,29 @@ This example is meant to show how to simulate the 6th example of [Elmer GUI Tuto
 
 -   A compatible version of FreeCAD designated in the tutorial overview.
 
-    :   Use the {{MenuCommand|Help → About FreeCAD}} to see the version of FreeCAD installed
+    :   Use the **Help → About FreeCAD** to see the version of FreeCAD installed
 -   No external software is needed for loading the example, viewing the mesh and geometry as well as for visualizing the results.
 -   For solving the FEA, the solver software Elmer must be installed on your computer. See [Elmer Solver](FEM_SolverElmer.md) for how to install Elmer.
 
-## Set up the example {#set_up_the_example}
+## Set up the example 
 
-### Load FEM Workbench {#load_fem_workbench}
+### Load FEM Workbench 
 
 -   Start FreeCAD, the Start Workbench should be loaded
 -   Switch to <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM workbench](FEM_Workbench.md).
 
-### Load the example {#load_the_example}
+### Load the example 
 
--   Go to {{MenuCommand|Utilities → <img src=images/FEM_Examples.svg style="width:24px"> Open FEM examples}}.
--   When the GUI opens, find and open \"Electrostatics Capacitance Two Balls\". You can easily find the example in {{MenuCommand|All}} or in {{MenuCommand|Solvers → Elmer}}. For opening the example, either double click on it or select it and click **Setup**.
+-   Go to **Utilities → <img src=images/FEM_Examples.svg style="width:24px"> Open FEM examples**.
+-   When the GUI opens, find and open \"Electrostatics Capacitance Two Balls\". You can easily find the example in **All** or in **Solvers → Elmer**. For opening the example, either double click on it or select it and click **Setup**.
 
 <img alt="" src=images/Two_balls_selection.png  style="width:300px;">
 
-## Understanding the Simulation Case {#understanding_the_simulation_case}
+## Understanding the Simulation Case 
 
 This case presents the solution of the capacitance of perfectly conducting balls in free space. A voltage difference between the balls results to electric charge being introduced to the system. The balls have also self-capacitance that comes from the voltage difference with the far field. Therefore a symmetric capacitance matrix with of size 2 × 2 needs to be solved. The capacitances may be computed from two different voltage configurations.
 
-## Understanding the Model {#understanding_the_model}
+## Understanding the Model 
 
 -   The model contains three spheres.
 
@@ -53,7 +53,7 @@ This case presents the solution of the capacitance of perfectly conducting balls
 
 ![ 1200px](images/Two_balls_model_full.png )
 
-## Analysis container and its objects {#analysis_container_and_its_objects}
+## Analysis container and its objects 
 
 -   There are at least the 7 objects needed to make this electrostatic analysis.
 -   <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> analysis container
@@ -68,7 +68,7 @@ This case presents the solution of the capacitance of perfectly conducting balls
 
 <img alt="" src=images/Two_balls_analysis.png  style="width:300px;">
 
-## Running the FEA {#running_the_fea}
+## Running the FEA 
 
 -   In [Tree view](Tree_view.md) double click on the solver object <img alt="" src=images/FEM_SolverElmer.svg  style="width:24px;">.
 -   Click on **Write** file in the same task window. Watch the log window until it prints \"write completed.\"
@@ -77,7 +77,7 @@ This case presents the solution of the capacitance of perfectly conducting balls
 -   Two new result objects should be created, <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult and <img alt="" src=images/TextDocument.svg  style="width:24px;"> SolverElmerOutput.
 -   If you get an error message on solver binary or similar when triggering the analysis check installation of [Elmer Solver](FEM_SolverElmer.md).
 
-## Visualizing Results {#visualizing_results}
+## Visualizing Results 
 
 -   Be sure the analysis is activated.
 -   Be sure the analysis still contains the result object, if not just re-run the solver.
@@ -88,7 +88,7 @@ This case presents the solution of the capacitance of perfectly conducting balls
 
 <img alt="" src=images/Two_balls_potential.png  style="width:1200px;">
 
-## Post Processing the Result {#post_processing_the_result}
+## Post Processing the Result 
 
 -   While we have successfully visualised the potential result, currently we are only seeing the zero potential in the air surrounding the two balls. To view the potential on the balls we need to apply a clip filter.
 -   In the [tree view](Tree_view.md) select the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult and then from the tool bar click on the <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:24px;"> Post Create Clip Filter.
@@ -102,7 +102,7 @@ This case presents the solution of the capacitance of perfectly conducting balls
 
 -   Now we can clearly see that potential distribution in and around the balls.
 
-## Finding the Capacitance {#finding_the_capacitance}
+## Finding the Capacitance 
 
 -   Our actual focus is to find the capacitance which is contained in the <img alt="" src=images/TextDocument.svg  style="width:24px;"> SolverElmerOutput.
 -   Double click on <img alt="" src=images/TextDocument.svg  style="width:32px;"> SolverElmerOutput to open it. Scroll down till you find:

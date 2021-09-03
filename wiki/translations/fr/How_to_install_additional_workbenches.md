@@ -14,12 +14,12 @@ Les utilisateurs expérimentés ont étendu FreeCAD avec divers [ateliers extern
 
 **Remarque:**
 
-à partir de la version 0.17, FreeCAD propose un <img alt="" src=images/_AddonManager.svg  style="width:24px;"> [Gestionnaire des addons](Std_AddonMgr/fr.md) dans le menu {{MenuCommand|Outils → Gestionnaire d'Addon}}. Il permet d\'installer à la fois des macros et des ateliers. Les instructions ci-dessous ne sont nécessaires que si vous souhaitez installer manuellement un atelier. Cela peut être nécessaire si, pour une raison quelconque, le Gestionnaire d\'Addon ne fonctionne pas mais que vous avez accès à l\'atelier téléchargé en tant que package {{FileName|.zip}}.
+à partir de la version 0.17, FreeCAD propose un <img alt="" src=images/_AddonManager.svg  style="width:24px;"> [Gestionnaire des addons](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire d'Addon**. Il permet d\'installer à la fois des macros et des ateliers. Les instructions ci-dessous ne sont nécessaires que si vous souhaitez installer manuellement un atelier. Cela peut être nécessaire si, pour une raison quelconque, le Gestionnaire d\'Addon ne fonctionne pas mais que vous avez accès à l\'atelier téléchargé en tant que package {{FileName|.zip}}.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Installation sous Windows {#installation_sous_windows}
+## Installation sous Windows 
 
 Comment installer des ateliers et des modules complémentaires supplémentaires sous Windows
 
@@ -37,7 +37,7 @@ Utilisez [addons-installer from Github](https://github.com/FreeCAD/FreeCAD-addon
 
 Au cours de Google Summer of Code 2016, l\'étudiant Mandeep Singh a commencé à travailler sur une version améliorée ([disponible ici](https://github.com/mandeeps708/PluginManager)) mais cette version doit encore être améliorée avant de pouvoir être pleinement intégrée à FreeCAD.
 
-### Installation manuelle {#installation_manuelle}
+### Installation manuelle 
 
 
 **Remarque:**
@@ -46,7 +46,7 @@ cette méthode est possible mais pas nécessaire avec l\'introduction de [Gestio
 
 -   Téléchargez l\'atelier depuis github en cliquant sur le bouton **Clone** ou **Download** sur la page github (coin supérieur droit) et en choisissant \"Télécharger ZIP\"
 -   Dézippez l\'archive téléchargée sur votre disque dur local
--   Dans FreeCAD, localisez le chemin de la macro en choisissant {{MenuCommand|Édition → Préférences → Général → Macro}} et recherchez le «Chemin de la macro»
+-   Dans FreeCAD, localisez le chemin de la macro en choisissant **Édition → Préférences → Général → Macro** et recherchez le «Chemin de la macro»
 -   Supposons que votre connexion Windows est «*nom\_utilisateur*», le chemin par défaut de la macro est {{FileName|%APPDATA%\FreeCAD\}} qui est couramment {{FileName|C:\Users\''nom_utilisateur''\Appdata\Roaming\FreeCAD}}
 -   Dans le répertoire-macro, créez (s\'il n\'est pas déjà présent) un dossier appelé \"{{FileName|Mod}}\"
 -   Dans le dossier Mod, créez un dossier avec le nom de l\'atelier, par exemple "Curves"
@@ -66,14 +66,14 @@ Sur Windows, lors de la mise à jour d\'un atelier déjà installé, Windows con
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Installation sous Linux {#installation_sous_linux}
+## Installation sous Linux 
 
 Comment installer des ateliers et des modules complémentaires supplémentaires sous Linux
 
 
 <div class="mw-collapsible-content">
 
-### Utiliser git {#utiliser_git}
+### Utiliser git 
 
 Ajout de [community-ppa](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) dans le gestionnaire ppa.
 Installation des ateliers via le gestionnaire de paquets synaptique.
@@ -95,7 +95,7 @@ $ git pull
 $ rm *.pyc
 ```
 
-### Installation manuelle {#installation_manuelle_1}
+### Installation manuelle 
 
 
 **Remarque:**
@@ -104,8 +104,8 @@ cette méthode est possible mais pas nécessaire avec l\'introduction de [Gestio
 
 -   Téléchargez le plan de travail depuis github en cliquant sur le bouton **Clone** ou **Download** sur la page github (coin supérieur droit) et en choisissant \"Télécharger ZIP\"
 -   Dézippez l\'archive téléchargée sur votre disque dur local
--   Dans FreeCAD, localisez le chemin de la macro en choisissant {{MenuCommand|Édition → Préférences → Général → Macro}} et recherchez le «Chemin de la macro»
--   Par défaut, le répertoire des macros est le répertoire {{MenuCommand|./.FreeCAD/}} (masqué) de votre répertoire personnel
+-   Dans FreeCAD, localisez le chemin de la macro en choisissant **Édition → Préférences → Général → Macro** et recherchez le «Chemin de la macro»
+-   Par défaut, le répertoire des macros est le répertoire **./.FreeCAD/** (masqué) de votre répertoire personnel
 -   Dans le macro-répertoire, créez (s\'il n\'est pas déjà présent) un dossier appelé "{{FileName|Mod}}"
 -   Dans le dossier Mod/, créez un dossier avec le nom du plan de travail, par exemple "Curves"
 -   Déplacez maintenant les fichiers et sous-dossiers décompressés du plan de travail dans le dossier du plan de travail qui vient d\'être créé.
@@ -120,14 +120,14 @@ cette méthode est possible mais pas nécessaire avec l\'introduction de [Gestio
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Installation sur Mac {#installation_sur_mac}
+## Installation sur Mac 
 
 Comment installer des ateliers et des modules complémentaires supplémentaires sous MacOS
 
 
 <div class="mw-collapsible-content">
 
-### Installation manuelle {#installation_manuelle_2}
+### Installation manuelle 
 
 
 **Remarque:**
@@ -155,11 +155,11 @@ Pour cet exemple, supposons que vous ayez choisi l\'[Atelier Courbes](Curves_Wor
 
 </div>
 
-## Dysfonctionnement généralités {#dysfonctionnement_généralités}
+## Dysfonctionnement généralités 
 
 -   N\'utilisez pas de caractères spéciaux (par exemple des trémas allemands) dans votre nom d\'utilisateur Windows, sinon FreeCAD ne reconnaîtra pas les fichiers et dossiers dans le chemin de la macro.
 -   Si vous avez déjà configuré un nom d\'utilisateur avec des caractères spéciaux, créez un nouveau nom d\'utilisateur ou pointez le chemin de la macro vers un répertoire n\'utilisant pas de caractères spéciaux.
--   Allez dans {{MenuCommand|Outils → Personnaliser... → Ateliers}} et assurez-vous que l\'atelier n\'est pas défini sur invisible.
+-   Allez dans **Outils → Personnaliser... → Ateliers** et assurez-vous que l\'atelier n\'est pas défini sur invisible.
 -   Avec les systèmes 32 bits et FreeCAD 0.16.6706, après les tentatives d\'installation, les ateliers supplémentaires peuvent ne pas être disponibles. Dans ce cas
     -   gardez la [Vue rapport](Report_view/fr.md) ouverte lors du démarrage de FreeCAD et lisez l\'erreur,
     -   voir ce fil de discussion du forum [Assembly2 dans la version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)

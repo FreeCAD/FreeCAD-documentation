@@ -34,7 +34,7 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

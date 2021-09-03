@@ -22,7 +22,7 @@ The PartDesign workbench in FreeCAD v0.17 introduces new tools and elements that
 
 ## Limitations
 
--   Before starting the migration process, check if the model was built with automatic refine options enabled (in {{MenuCommand|Edit → Preferences → Part design → General}}), and set your preferences accordingly. This can be easily determined by successively toggling the visibility of the features in the Model tree. If no residual edges are left between features such as Pads and Pockets, the automatic refine options were disabled.
+-   Before starting the migration process, check if the model was built with automatic refine options enabled (in **Edit → Preferences → Part design → General**), and set your preferences accordingly. This can be easily determined by successively toggling the visibility of the features in the Model tree. If no residual edges are left between features such as Pads and Pockets, the automatic refine options were disabled.
 -   If a document to migrate only contains sketches and PartDesign features, the migration process may likely succeed. Some features such as chamfers and fillets may require rebuilding.
 -   If the document to migrate has a mixed Part/Part Design/Draft workflow, the conversion will most likely fail or at best produce unexpected results, and will need to be migrated manually.
 

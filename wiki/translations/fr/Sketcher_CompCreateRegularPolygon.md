@@ -11,7 +11,7 @@
 
 **Créer un polygone régulier** est un bouton d\'icône de la barre d\'outils Géométries d\'esquisse qui regroupe les outils de création de polygones réguliers. Cliquer sur la flèche vers le bas à sa droite pour dérouler les icônes se trouvant dessous et sélectionner un outil.
 
-## Types de polygones réguliers {#types_de_polygones_réguliers}
+## Types de polygones réguliers 
 
 -   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Créer un triangle équilateral](Sketcher_CreateTriangle.md) : Trace un triangle équilateral en cliquant deux points, le centre et un sommet.
 -   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> [Créer un carré](Sketcher_CreateSquare.md) : Trace un carré équilateral en cliquant deux points, le centre et un sommet.

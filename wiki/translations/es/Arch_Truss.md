@@ -24,14 +24,14 @@ La herramienta [Arquitectura Armadura](Arch_Truss/es.md) construye un objeto [1]
 
 ## Utilización
 
-### Crear a partir de un objeto seleccionado {#crear_a_partir_de_un_objeto_seleccionado}
+### Crear a partir de un objeto seleccionado 
 
 1.  Use a workbench of your choice to create a single line
 2.  Select that line
 3.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button
 4.  Adjust the truss properties to your liking
 
-### Crear desde cero {#crear_desde_cero}
+### Crear desde cero 
 
 1.  Make sure nothing is selected
 2.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button
@@ -73,7 +73,7 @@ La herramienta [Arquitectura Armadura](Arch_Truss/es.md) construye un objeto [1]
 
 -    **RodMode**: How to draw the rods
 
-## Archivos de guión {#archivos_de_guión}
+## Archivos de guión 
 
 The Truss tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 

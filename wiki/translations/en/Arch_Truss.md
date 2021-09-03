@@ -14,14 +14,14 @@ The [Arch Truss](Arch_Truss.md) tool builds a [truss](https://en.wikipedia.org/w
 
 ## Usage
 
-### Creating from a selected object {#creating_from_a_selected_object}
+### Creating from a selected object 
 
 1.  Use a workbench of your choice to create a single line
 2.  Select that line
 3.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button
 4.  Adjust the truss properties to your liking
 
-### Creating from scratch {#creating_from_scratch}
+### Creating from scratch 
 
 1.  Make sure nothing is selected
 2.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button

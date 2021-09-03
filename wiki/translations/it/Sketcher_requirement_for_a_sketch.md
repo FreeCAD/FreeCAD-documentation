@@ -9,7 +9,7 @@
 |FCVersion=Tutte
 }}
 
-## Requisito minimo per uno schizzo {#requisito_minimo_per_uno_schizzo}
+## Requisito minimo per uno schizzo 
 
 Per creare un Corpo nell\'ambiente PartDesign è possibile utilizzare un profilo *solo* quando esso è chiuso. Non è necessario che siano definite tutte le sue dimensioni e proprietà ovvero che lo schizzo sia *completamente vincolato*.
 
@@ -22,7 +22,7 @@ Se un profilo è chiuso o aperto non è evidente e non riconoscibile. Ad esempio
 
 Un funzionamento parametrico coerente significa che lo schizzo è completamente determinato.
 
-## Definire completamente uno schizzo {#definire_completamente_uno_schizzo}
+## Definire completamente uno schizzo 
 
 Anche uno schizzo relativamente semplice può contenere numerose indeterminazioni, indicate nella vista combinata come numero di \"gradi di libertà\". Eliminarle tutte insieme alla fine è un compito abbastanza complicato.
 

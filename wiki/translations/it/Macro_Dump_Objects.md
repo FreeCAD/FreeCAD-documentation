@@ -43,7 +43,7 @@ A seconda dei parametri selezionati nella prima finestra, il rapporto viene visu
 -   posizionamenti inattesi di oggetti (quando è selezionata l\'opzione Show Positions)
 -   segmenti inattesi nella geometria dello schizzo (quando è selezionata l\'opzione Show Sketcher Segments)
 
-## Interfaccia utente {#interfaccia_utente}
+## Interfaccia utente 
 
 La prima finestra è quella che serve per configurare Object Dump:
 

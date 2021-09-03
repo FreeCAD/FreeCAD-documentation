@@ -2,9 +2,9 @@
 
 ## Introduction
 
-La [Vue rapport](Report_view/fr.md) est un panneau qui affiche les messages texte des processus FreeCAD. Il est disponible dans {{MenuCommand|Affichage → Panneaux → Vue rapport}}.
+La [Vue rapport](Report_view/fr.md) est un panneau qui affiche les messages texte des processus FreeCAD. Il est disponible dans **Affichage → Panneaux → Vue rapport**.
 
-Certaines propriétés de la vue, telles que la couleur du texte et son affichage automatiqueOpérations Booléenne en cas d'avertissements ou d'erreurs, peuvent être configurées dans l'onglet {{MenuCommand|Général → Fenêtre de sortie}} de l\'[Éditeur des préférences](Preferences_Editor/fr.md).
+Certaines propriétés de la vue, telles que la couleur du texte et son affichage automatiqueOpérations Booléenne en cas d'avertissements ou d'erreurs, peuvent être configurées dans l'onglet **Général → Fenêtre de sortie** de l\'[Éditeur des préférences](Preferences_Editor/fr.md).
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
@@ -39,15 +39,15 @@ Ces fonctions peuvent être utilisées à partir de la console [Python](Python_c
 
 Un clic droit sur la vue du rapport montre quelques commandes:
 
--    {{MenuCommand|Options}}: journalisation, avertissement, erreur, redirection de la sortie Python, redirection des erreurs Python, fin de session.
+-    **Options**: journalisation, avertissement, erreur, redirection de la sortie Python, redirection des erreurs Python, fin de session.
 
--    {{MenuCommand|Copy}}: stocke le texte sélectionné dans le presse-papiers pour un collage ultérieur; il est désactivé si rien n\'est sélectionné.
+-    **Copy**: stocke le texte sélectionné dans le presse-papiers pour un collage ultérieur; il est désactivé si rien n\'est sélectionné.
 
--    {{MenuCommand|Select all}}: sélectionne tout le texte de la vue du rapport.
+-    **Select all**: sélectionne tout le texte de la vue du rapport.
 
--    {{MenuCommand|Clear}}: efface tous les messages de la vue du rapport. Cela est utile si vous souhaitez dépanner un outil qui imprime des messages dans la vue du rapport et vous assurer qu\'il n\'y a pas d\'anciens messages d\'anciens outils.
+-    **Clear**: efface tous les messages de la vue du rapport. Cela est utile si vous souhaitez dépanner un outil qui imprime des messages dans la vue du rapport et vous assurer qu\'il n\'y a pas d\'anciens messages d\'anciens outils.
 
--    {{MenuCommand|Save as}}: enregistre les messages dans la vue du rapport dans un fichier texte.
+-    **Save as**: enregistre les messages dans la vue du rapport dans un fichier texte.
 
 
 {{Interface navi

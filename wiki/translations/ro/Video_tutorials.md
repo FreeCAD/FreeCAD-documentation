@@ -26,7 +26,7 @@ If you\'d like to contribute with writing wiki documentation and tutorials, see 
 
 <div class="mw-translate-fuzzy">
 
-## Designul pieselor {#designul_pieselor}
+## Designul pieselor 
 
 
 </div>
@@ -50,13 +50,13 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 -   [Go further with Asm 3 WB](http://help-freecad-jpg87.fr/025c_ass_ex_creat.php) by jpg87 is website with step by step instructions and videos to demonstrate usage of the [Assembly3 Workbench](Assembly3_Workbench.md).
 -   [FreeCAD Tutorial - Assembly 4 Workbench](https://www.youtube.com/watch?v=n04M6nFvdxs) by Martham Engineering. It showcases the [Assembly4 Workbench](Assembly4_Workbench.md).
 
-## Technical drawings {#technical_drawings}
+## Technical drawings 
 
 -   [TechDraw](https://www.youtube.com/watch?v=7LbOmSGW9F0&list=PLEuOia-QxyFKQnmM1U9yVo7eNrK_Mcln8): a series of 5 videos describing the [TechDraw Workbench](TechDraw_Workbench.md), by sliptonic; [1 (Basics)](https://www.youtube.com/watch?v=7LbOmSGW9F0), [2 (Dimensions)](https://www.youtube.com/watch?v=z3w84RfvqaE), [3 (Multiview)](https://www.youtube.com/watch?v=uNjXg-m38aI), [4 (Sections and Detail)](https://www.youtube.com/watch?v=3zSdeFV6I5o), and [5 (Customizing templates)](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
 
 -   [Introduction to the FreeCAD TechDraw Workbench](https://www.youtube.com/watch?v=TnYMfpdNQoo) by Glasson Design Studio. This is particularly aimed at woodworkers but can be used for general solids.
 
-## Computer-Aided Manufacturing (CAM) {#computer_aided_manufacturing_cam}
+## Computer-Aided Manufacturing (CAM) 
 
 
 <div class="mw-translate-fuzzy">
@@ -66,18 +66,18 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 </div>
 
-## Visualization and rendering {#visualization_and_rendering}
+## Visualization and rendering 
 
 -   [Joko Engineeringhelp playlists](https://www.youtube.com/channel/UC-CubOaooNwC-3RBKUoAOQQ/playlists): many videos on 3D modelling with tools like FreeCAD and Blender.
     -   [Blender Render Solidworks and FreeCAD Parts with AllVisuals4U](https://www.youtube.com/watch?v=a__w8eMRx-U&list=PL7eiW2bt21YUfOTUvzA3jtQqF4Vpz21Ut): a series of 11 videos that is a collaboration between Joko Engineeringhelp and AllVisuals4U. In these videos they demonstrate how to model a glass bottle in FreeCAD, and then how to prepare a scene and render it in Blender: [3D Bottle Design - FreeCAD To Blender Export](https://www.youtube.com/watch?v=a__w8eMRx-U&list=PL7eiW2bt21YUfOTUvzA3jtQqF4Vpz21Ut), [Part 1: Import](https://www.youtube.com/watch?v=U7e6-Wfv2b0), [Part 2: Arrange](https://www.youtube.com/watch?v=fAvDd7SY-T0), [Part 3: Assign Materials](https://www.youtube.com/watch?v=J8TuRgaBNBU), [Part 4: Lighting and UV Maps](https://www.youtube.com/watch?v=0dsvaQVN1VQ), [Part 5: Node Options](https://www.youtube.com/watch?v=zx0Qvsl6gzw), [Part 6: Create Renders](https://www.youtube.com/watch?v=TRVLZeJ6f28), [Part 7: Smooth STL Meshes](https://www.youtube.com/watch?v=foTUw3qM13c).
 
-## Design Architectural {#design_architectural}
+## Design Architectural 
 
 Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md), and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
 
 Since there are many videos that deal with this topic, please visit [Video tutorials for architectural design](Video_tutorials_for_architectural_design.md).
 
-## Finite element (FEM) simulation {#finite_element_fem_simulation}
+## Finite element (FEM) simulation 
 
 -   [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Introduction](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16, and introduction that builds a simple structure of pillars and beams, and analyzes them with the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md), by Eklavya Self Learning Tutorials.
 
@@ -108,7 +108,7 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 <div class="mw-translate-fuzzy">
 
-## Videouri mai vechi {#videouri_mai_vechi}
+## Videouri mai vechi 
 
 
 </div>

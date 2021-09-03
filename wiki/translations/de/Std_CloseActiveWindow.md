@@ -15,7 +15,7 @@ Der **Std Schließen**-Befehl schließt das aktive Fenster. Um ein Dokument zu s
 ## Anwendung
 
 1.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Wähle die {{MenuCommand|Datei → <img src="images/Std_CloseActiveWindow.svg" width=16px> Schließen}}-Option aus dem Menü.
+    -   Wähle die **Datei → <img src="images/Std_CloseActiveWindow.svg" width=16px> Schließen**-Option aus dem Menü.
     -   Benutze den Tastaturkurzbefehl: **Ctrl**+**F4**.
 2.  Um ein Dokument zu schließen: wiederhole dies für alle dazugehörigen Fenster..
 3.  Beim Schließen des letzten Fensters eines nicht gesicherten Dokument öffnet sich eine Dialog-Box, die zum Sichern auffordert:
@@ -29,11 +29,11 @@ Der **Std Schließen**-Befehl schließt das aktive Fenster. Um ein Dokument zu s
 ## Hinweise
 
 -   Der Befehl kann nur [docked](Std_ViewDockUndockFullscreen.md)-Fenster schließen.
--   \* Ein Dokument kann auch geschlossen werden, indem es in der [Baumansicht](Tree_View/de.md) mit einem Rechtsklick ausgewählt und {{MenuCommand|Dokument schließen}} aus dem Kontextmenü benutzt wird.
+-   \* Ein Dokument kann auch geschlossen werden, indem es in der [Baumansicht](Tree_View/de.md) mit einem Rechtsklick ausgewählt und **Dokument schließen** aus dem Kontextmenü benutzt wird.
 
 ## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: {{MenuCommand|Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath}}.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
 
 ## Scripting
 

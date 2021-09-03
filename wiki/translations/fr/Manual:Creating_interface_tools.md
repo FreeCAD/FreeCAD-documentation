@@ -113,7 +113,7 @@ Ceci est très utile pour les tests.
 
 Enfin, n\'oubliez pas qu\'il existe beaucoup plus de documentation sur l\'utilisation des widgets Qt dans le Wiki FreeCAD, dans la section [Python Scripting](Power_users_hub.md), qui contient un didacticiel de création de dialogue ([dialog creation tutorial](Dialog_creation.md)), un tutoriel spécial en 3 parties de PySide ([PySide tutorial](PySide.md)) qui couvre le sujet en profondeur.
 
-## Liens pertinents {#liens_pertinents}
+## Liens pertinents 
 
 -   [Qt Creator Documentation](https://fr.wikipedia.org/wiki/Qt_Creator)
 -   [Installing Qt Creator](https://www.qt.io/qt-features-libraries-apis-tools-and-ide/)

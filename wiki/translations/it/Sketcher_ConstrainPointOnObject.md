@@ -26,7 +26,7 @@ Appone un punto su un altro oggetto, ad esempio, su una linea, un arco o un asse
 3.  Invocare il vincolo in uno di questi modi:
     -   Cliccare sull\'icona **<img src=images/Constraint_PointOnObject.svg style="width:24px">** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **Maiusc** + **O**.
-    -   Usare la voce {{MenuCommand|Sketch → Vincoli → Punto su oggetto}} dal menu principale.
+    -   Usare la voce **Sketch → Vincoli → Punto su oggetto** dal menu principale.
 
 
 </div>

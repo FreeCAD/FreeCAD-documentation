@@ -22,7 +22,7 @@ Construction lines can be used as rotation axis by the **<img src=images/PartDes
 There are two ways of using this tool:
 
 1.  Without having anything selected in the [3D view](3D_view.md):
-    -   Invoke construction mode by clicking on the **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> <img src=images/Sketcher_ToggleConstruction.svg style="width:Toggle construction](Sketcher_ToggleConstruction.md)** or by using the {{MenuCommand|Sketch → Sketcher geometries → [16px"> Toggle construction geometry}} entry in the Sketcher menu.
+    -   Invoke construction mode by clicking on the **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> <img src=images/Sketcher_ToggleConstruction.svg style="width:Toggle construction](Sketcher_ToggleConstruction.md)** or by using the **Sketch → Sketcher geometries → [16px"> Toggle construction geometry** entry in the Sketcher menu.
     -   This will change the color for creating new geometric elements to blue.
     -   Newly created geometric elements will now be created in construction mode.
 2.  With one or more geometric elements selected in the [3D view](3D_view.md)

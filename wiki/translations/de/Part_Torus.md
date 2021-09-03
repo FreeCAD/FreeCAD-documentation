@@ -43,7 +43,7 @@ Im Arbeitsbereich Körper (workbench Part) auf das Symbol <img alt="" src=images
 **Result:** The torus will be positioned at origin (point 0,0,0) on creation.
 The angle parameters (angle1, angle2, angle3), as well as the radius parameters (radius1, radius2) permit to parametrize the torus, see next section.
 
-## Werte wählen {#werte_wählen}
+## Werte wählen 
 
 Die gewünschten geometrischen Größen (parametrische Werte) werden als \"Eigenschaften\" in der \"Combo-Ansicht\" eingestellt. Die Erst-Werte lassen sich in der Spalte \"Werte\" überschreiben.
 
@@ -57,7 +57,7 @@ Ein Torus-förmiger Raum wird von einer z.B. in der x-z-Ebene positionierten dü
 
 -    {{Parameter|Angle3:}}Winkel eines Torus-Sektors (im abgebildeten Beispiel wurde der Erst-Wert 360° auf 270° verändert, 1/4-Sektor wurde entfernt). Die Winkelvermaßung beginnt bei der positiven x-Achse und erfolgt mathematisch positiv im Gegenuhrzeiger-Sinn.
 
-### Die Winkel Angle2 und Angle3 {#die_winkel_angle2_und_angle3}
+### Die Winkel Angle2 und Angle3 
 
 Ein Torus als Volumenkörper liegt nur vor, wenn die Erst-Werte dieser beiden Winkel beibehalten werden. Durch Verändern wird der Torus entlang seines größten Durchmessers aufgeschnitten und je ein mehr oder weniger breiter Gurt weggeschnitten. Übrig bleibt lediglich eine masselose Rest-Hülle.
 

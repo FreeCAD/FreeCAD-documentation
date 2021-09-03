@@ -16,12 +16,12 @@ Una primitiva geometrica Punto (vertice).
 1.  Attivare l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Parte](Part_Workbench/it.md)
 2.  Aprire il dialogo Crea primitive in uno di questi modi:
     -   Cliccare sull\'icona <img alt="" src=images/Part_CreatePrimitives.svg  style="width:24px;"> [Crea primitive](Part_CreatePrimitives/it.md) nella barra degli strumenti di Parte
-    -   Usare il menu {{MenuCommand|Parte → [Crea primitive](Part_CreatePrimitives/it.md) → Punto}}
+    -   Usare il menu **Parte → [Crea primitive](Part_CreatePrimitives/it.md) → Punto**
 
 
 </div>
 
-### Primitive geometriche {#primitive_geometriche}
+### Primitive geometriche 
 
 +------------------------------------------------------------------------------+---------------------+
 | ![](images/PartVertexPrimitivesOptions_it.png ) | Point               |

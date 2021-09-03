@@ -13,7 +13,7 @@ Der **Std DemoModus** Befehl dreht die Kamera kontinuierlich in einer [3D Ansich
 
 ## Anwendung
 
-1.  Select the {{MenuCommand|Tools → <img src="images/Std_DemoMode.svg" width=16px> View turntable...}} option from the menu.
+1.  Select the **Tools → <img src="images/Std_DemoMode.svg" width=16px> View turntable...** option from the menu.
 2.  The View Turntable dialog box opens.
 3.  Move the **Angle** slider to tilt the camera\'s virtual turn table.
 4.  Move the **Speed** slider to adjust the rotation speed of the camera.

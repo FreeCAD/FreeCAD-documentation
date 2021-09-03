@@ -28,7 +28,7 @@ Aggiungere nuovi vincoli, equazioni o solutori è per lo più un lavoro di routi
 -   Una solida conoscenza del risolutore per il quale devono essere aggiunti nuovi oggetti (ad es. CalculiX o Elmer) è importante.
 -   Una conoscenza di base dei sistemi di compilazione, in particolare cmake (sistema di compilazione utilizzato da FreeCAD).
 
-## Sistema di costruzione (cmake) {#sistema_di_costruzione_cmake}
+## Sistema di costruzione (cmake) 
 
 The build system must be modified regardless of which objects shall be added o the FEM workbench. Every python module (file) must be registered. The FEM workbench requires every new python module to be registered in `Mod/Fem/CMakeLists.txt`. This is true regardless of the type of the python module (GUI or non-GUI). Where exactly the module must be inserted depends on the role of the module. Solver, equations and constraints all use different lists. Searching for similar files and inserting the new file in the same list works most of the time.
 
@@ -73,7 +73,7 @@ SET(FemGuiViewProvider_SRCS
 )
 }}
 
-## Organizzazione del codice sorgente {#organizzazione_del_codice_sorgente}
+## Organizzazione del codice sorgente 
 
 
 <div class="mw-translate-fuzzy">

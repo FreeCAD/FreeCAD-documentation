@@ -18,7 +18,7 @@
 
 1.  Lancez la commande de plusieurs manières :
     -   Appuyez sur le bouton **<img src=images/Part_Measure_Refresh.svg style="width:16px"> [Rafraîchir les mesures](Part_Measure_Refresh/fr.md)**.
-    -   Allez dans le menu, {{MenuCommand|Mesure → <img src=images/Part_Measure_Refresh.svg style="width:16px"> Rafraîchir les mesures}}.
+    -   Allez dans le menu, **Mesure → <img src=images/Part_Measure_Refresh.svg style="width:16px"> Rafraîchir les mesures**.
 
 
 

@@ -70,7 +70,7 @@ doc.recompute()
 
 Comme notre `box` dépend de l\'objet `dim`, il sera recalculé.
 
-# InList et OutList {#inlist_et_outlist}
+# InList et OutList 
 
 On peut accéder aux objets `PropertyLink` à l\'aide d\'une propriété Python en utilisant le nom avec lequel ils sont enregistrés à l\'aide de `.addObject()`. Cependant, il existe un autre moyen. Chaque fonction possède une double liste générée simplement appelée `InList` et `OutList`, qui décrit les arêtes sortantes et entrantes du DAG, respectivement :
 

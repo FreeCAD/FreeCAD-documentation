@@ -16,7 +16,7 @@
 
 ## Применение
 
-1.  Выберите пункт меню {{MenuCommand|Вид → Видимость → <img src="images/Std_SelectVisibleObjects.svg" width=16px> Выбрать видимые объекты}}.
+1.  Выберите пункт меню **Вид → Видимость → <img src="images/Std_SelectVisibleObjects.svg" width=16px> Выбрать видимые объекты**.
 
 
 

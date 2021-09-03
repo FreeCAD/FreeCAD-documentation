@@ -24,7 +24,7 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

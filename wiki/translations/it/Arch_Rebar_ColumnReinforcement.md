@@ -17,7 +17,7 @@ Lo strumento [Armatura di pilastro](Arch_Rebar_ColumnReinforcement/it.md) consen
 
 The [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
 *Armatura di pilastro all'interno di un [Struttura](Arch_Structure/it.md) pilastro*
@@ -133,7 +133,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 Lo strumento Armatura di pilastro può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
-### Creare una singola staffa e quattro barre {#creare_una_singola_staffa_e_quattro_barre}
+### Creare una singola staffa e quattro barre 
 
 
 ```python
@@ -283,7 +283,7 @@ RebarGroup = SingleTie.makeSingleTieFourRebars(
 
 ```
 
-### Creare una singola staffa e multiple barre {#creare_una_singola_staffa_e_multiple_barre}
+### Creare una singola staffa e multiple barre 
 
 
 ```python
@@ -360,7 +360,7 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `sec_hook_extension`is a tuple (xdir\_hook\_extension, ydir\_hook\_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
 
-#### Esempio {#esempio_1}
+#### Esempio 
 
 
 ```python
@@ -407,7 +407,7 @@ RebarGroup = SingleTieMultipleRebars.makeSingleTieMultipleRebars(
 
 ```
 
-### Modifica di una singola staffa e quattro barre {#modifica_di_una_singola_staffa_e_quattro_barre}
+### Modifica di una singola staffa e quattro barre 
 
 È possibile modificare le proprietà della staffa e delle barre con la seguente funzione:
 
@@ -445,7 +445,7 @@ rebar_group = editSingleTieFourRebars(
 
 -    `structure`e `facename` possono essere omesse in modo che l\'armatura rimanga nella struttura originale..
 
-#### Esempio {#esempio_2}
+#### Esempio 
 
 
 ```python
@@ -477,7 +477,7 @@ rebar_group = SingleTie.editSingleTieFourRebars(
 
 ```
 
-### Modifica di una singola staffa e multiple barre {#modifica_di_una_singola_staffa_e_multiple_barre}
+### Modifica di una singola staffa e multiple barre 
 
 È possibile modificare le proprietà della staffa e delle barre con la seguente funzione:
 
@@ -522,7 +522,7 @@ rebar_group = editSingleTieMultipleRebars(
 
 -    `structure`e `facename` possono essere omesse in modo che l\'armatura rimanga nella struttura originale.
 
-#### Esempio {#esempio_3}
+#### Esempio 
 
 
 ```python

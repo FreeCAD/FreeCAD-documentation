@@ -20,7 +20,7 @@ Internally, Doors and Windows are the same type of object: a base sketch extrude
 
 <div class="mw-translate-fuzzy">
 
-## Tijek radnje {#tijek_radnje}
+## Tijek radnje 
 
 
 </div>

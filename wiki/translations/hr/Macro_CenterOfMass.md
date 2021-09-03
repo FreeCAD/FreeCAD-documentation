@@ -29,7 +29,7 @@ Vrijednosti (masa i središte mase) mogu se spremiti u proračunskoj tablici ![]
 
 <div class="mw-translate-fuzzy">
 
-## Kako koristiti {#kako_koristiti}
+## Kako koristiti 
 
 
 </div>

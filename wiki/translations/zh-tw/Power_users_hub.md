@@ -34,7 +34,7 @@ FreeCAD有一個最棒的特色就是你可以藉由腳本來擴充功能並且�
 
 </div>
 
-## 客製化 FreeCAD {#客製化_freecad}
+## 客製化 FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -81,16 +81,16 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 </div>
 
-#### Working with Meshes {#working_with_meshes}
+#### Working with Meshes 
 
 -   [Mesh Scripting](Mesh_Scripting.md): How to interact with the [Mesh Workbench](Mesh_Workbench.md)
 
-#### Working with Parts {#working_with_parts}
+#### Working with Parts 
 
 
 <div class="mw-translate-fuzzy">
 
-### Working with Parts {#working_with_parts_1}
+### Working with Parts 
 
 -   [零件模組](Part_Workbench.md): How [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE) tools and structure is used in FreeCAD
 -   [寫腳本來操作拓樸資料](Topological_data_scripting.md): How to interact with the Part Workbench
@@ -100,12 +100,12 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 </div>
 
-#### Accessing the Coin scenegraph {#accessing_the_coin_scenegraph}
+#### Accessing the Coin scenegraph 
 
 -   [The Coin/Inventor scenegraph](Scenegraph.md): How the FreeCAD scene representation works
 -   [Pivy](Pivy.md): How to access and modify the scenegraph
 
-### Controlling the Qt interface {#controlling_the_qt_interface}
+### Controlling the Qt interface 
 
 
 <div class="mw-translate-fuzzy">
@@ -121,7 +121,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 <div class="mw-translate-fuzzy">
 
-### Working with parametric objects {#working_with_parametric_objects}
+### Working with parametric objects 
 
 -   [Scripted objects](Scripted_objects.md): How to make 100% Python-scripted objects in FreeCAD
 -   [工程圖模組](Drawing_Workbench.md): Automating the 3D-to-2D process
@@ -139,7 +139,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 <div class="mw-translate-fuzzy">
 
-### Examples {#examples_1}
+### Examples 
 
 -   [範例小程式](Code_snippets.md) : A collection of pieces of FreeCAD Python code, to serve as ingredients in your scripts\...
 -   [Line drawing function](Line_drawing_function.md): How to build a simple tool to draw lines
@@ -151,13 +151,13 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 </div>
 
-## API Functions {#api_functions}
+## API Functions 
 
 The complete API documentation of FreeCAD is located at <http://www.freecadweb.org/api/> . It contains both C++ and Python APIs, and is not totally well formatted yet, which can be confusing when looking for python-only code. An easier to browse version can be found [here](:Category:API.md). Note that it can be incomplete, since it is updated manually. For more accurate information, browse the modules directly from FreeCAD\'s Python console.
 
 Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
-## Advanced modification {#advanced_modification}
+## Advanced modification 
 
 -   [Start up and Configuration](Start_up_and_Configuration.md): Startup and command line options
 -   [Installing on Windows](Installing_on_Windows.md): Using the windows installer
@@ -165,7 +165,7 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 -   [Branding](Branding.md): Simple modifications you can do to the source code to change some aspects of FreeCAD
 -   [Extra python modules](Extra_python_modules.md) : Extend the FreeCAD python interpreter with these powerful modules!
 
-## Python tutorials {#python_tutorials}
+## Python tutorials 
 
 These are good generic tutorials, not specific to FreeCAD, that might interest you if you are totally new to python.
 
@@ -195,7 +195,7 @@ The following two references are PyQt specific (not PySide) but may offer some i
 -   [High Level 3D Graphics Programming in Python](http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/) : Pivy example from Pycon 2004
 -   [Introducing Pivy into studierstube](https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [(Mirror)](https://www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42) : A paper that is not really a tutorial, but that illustrates well how Pivy works (requires an academic account)
 
-## Community projects {#community_projects}
+## Community projects 
 
 On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeCAD-based projects run by the FreeCAD users community. If you are starting a new FreeCAD project, be sure to list it there! We also have a page with things you can do if you would like to [Help FreeCAD](Help_FreeCAD.md).
 

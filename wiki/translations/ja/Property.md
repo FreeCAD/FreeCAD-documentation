@@ -13,7 +13,7 @@
 
 Properties play a very important role in FreeCAD. As objects in FreeCAD are \"parametric\", this means that their behavior is defined by their properties, and how these properties are used as input for their class methods. See also [PropertyLink:\_InList\_and\_OutList](PropertyLink:_InList_and_OutList.md)
 
-## All property types {#all_property_types}
+## All property types 
 
 Custom [scripted objects](scripted_objects.md) can use any of the property types defined in the base system: 
 ```python
@@ -101,7 +101,7 @@ Nevertheless, **View** properties can also be assigned using the view provider o
 obj.ViewObject.addProperty("App::PropertyBool", "SuperVisibility", "Base", "Make the object glow")
 ```
 
-## Source code {#source_code}
+## Source code 
 
 In the source code, properties are located in various {{FileName|src/App/Property*}} files.
 

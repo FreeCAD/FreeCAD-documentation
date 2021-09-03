@@ -22,17 +22,17 @@ This GSoC project aims at throwing the bases of the necessary feature(s) to hold
 5.  Throw the bases of a feature, or a family of features, that can hold the necessary information, and perform the transformations. This can be done in either C++ or Python, or, ideally, a C++ core extensible in Python.
 6.  Throw the bases of a manipulator, or family of manipulators, to allow the user to perform transformations by pushing and dragging on-screen, and experiment with ergonomy and usability. This can be done in either C++ or Python.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  A documentation of the various possible and useful direct modeling operations that should be performable in FreeCAD, and how each of them would translate into parametric objects (features).
 2.  An implementation of a base feature, or family of features in FreeCAD, that can perform basic operations (proof of concept), that can be easily extended to support more operations in the future
 3.  Experiments and/or implementation of a Coin manipulation system, that would provide the FreeCAD user with nice and ergonomic ways to interact with the geometry and perform transformations. This could also benefit other areas of FreeCAD.
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 Since direct modeling is a huge area in constant evolution, the work done in this GSoC will only cover a small part of it. But if the bases are done right, extending them will be easy and could develop very far.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -44,7 +44,7 @@ Since direct modeling is a huge area in constant evolution, the work done in thi
 
 Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 -   Ticket [\#3353: Direct modeling tools](https://tracker.freecadweb.org/view.php?id=3353) tracking efforts to implement this feature
 -   Ticket [\#1367: Extend Draft Edit mode to work with 3D shapes](https://tracker.freecadweb.org/view.php?id=1367)

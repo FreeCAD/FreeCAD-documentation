@@ -19,7 +19,7 @@ Un cône paramétrique tronqué est une primitive disponible sur la barre d\'out
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Atelier Part](Part_Workbench/fr.md)
 2.  Lancez la commande de deux manières:
     -   Appuyez sur le bouton **<img src="images/Part_Cone.svg" width=16px> Créer un solide conique** dans la barre d\'outils.
-    -   Sélectionnez {{MenuCommand|Pièce → Primitives → <img src="images/Part_Cone.svg" width=16px> Cône}} dans la barre de menus.
+    -   Sélectionnez **Pièce → Primitives → <img src="images/Part_Cone.svg" width=16px> Cône** dans la barre de menus.
 
 **Résultat:** les valeurs par défaut créent un cône paramétrique tronqué qui est positionné à l\'origine (point 0,0,0) et attaché au plan xy global. Sa hauteur de 10 mm se situe le long de l\'axe z global. Le rayon inférieur {{PropertyData/fr|Radius 1}} est de 2 mm, le rayon supérieur {{PropertyData/fr|Radius 2}} est de 4 mm.
 

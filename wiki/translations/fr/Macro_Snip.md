@@ -41,7 +41,7 @@ Si la macro ne fonctionne pas sur votre système pour capturer des captures d\'�
 
 ## Paramètres
 
-La macro prend en charge les paramètres utilisateur qui peuvent être définis à l\'aide de {{MenuCommand|Outils → Editer paramètres... → Plugins → Snip_Macro}}
+La macro prend en charge les paramètres utilisateur qui peuvent être définis à l\'aide de **Outils → Editer paramètres... → Plugins → Snip_Macro**
 
 :   
     `LastX`, `LastY`, `LastWidth`, `LastHeight`: emplacement et taille de la dernière utilisation de la zone de capture

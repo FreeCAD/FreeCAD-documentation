@@ -46,7 +46,7 @@ Questi strumenti permettono di creare, configurare e esportare le proiezioni dei
 
 -    **Nota:**lo strumento [Drawing di Draft](Draft_Drawing/it.md) è usabile con oggetti [Draft](Draft_Workbench/it.md). Ha alcune funzionalità aggiuntive rispetto agli strumenti di disegno e supporta oggetti specifici come le [dimensioni di Draft](Draft_Dimension/it.md).
 
-## Flusso di lavoro {#flusso_di_lavoro}
+## Flusso di lavoro 
 
 Il documento contiene un oggetto di forma 3D (Schenkel) da si vuole produrre un disegno. Pertanto viene creata una \"Pagina\". Una pagina è istanziata da un modello, ad esempio il modello \"A3\_Landscape\". Il modello è un documento [SVG](SVG/i.md) che può contenere una cornice di pagina, un logo e altri elementi.
 
@@ -60,11 +60,11 @@ Vedere la pagina [Esempi dell\'API di Drawing](Drawing_API_example/it.md) per un
 
 Lo script [Macro\_CartoucheFC](Macro_CartoucheFC/it.md) permette di compilare agevolmente la tabella del modello di tavola FreeCAD A3\_Landscape.
 
-## Modelli di squadrature {#modelli_di_squadrature}
+## Modelli di squadrature 
 
 FreeCAD viene fornito con una serie di modelli di pagina predefiniti, ma si possono trovare altri modelli in [Modelli di squadrature](Drawing_templates/it.md).
 
-## Estendere il modulo Drawing {#estendere_il_modulo_drawing}
+## Estendere il modulo Drawing 
 
 Alcune ulteriori note sulla programmazione del Modulo Disegno sono contenute nella pagina [Drawing Documentation (en)](Drawing_Documentation.md) [Drawing Documentation (it)](Drawing_Documentation/it.md). Dette note aiutano a capire rapidamente come lavora questo modulo e permettono ai programmatori di avviare rapidamente la programmazione per esso.
 
@@ -72,7 +72,7 @@ Alcune ulteriori note sulla programmazione del Modulo Disegno sono contenute nel
 
 -   [Drawing tutorial](Drawing_tutorial/it.md)
 
-## Link esterni {#link_esterni}
+## Link esterni 
 
 -   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 

@@ -115,13 +115,13 @@ house.FCStd
 house.ifc
 ```
 
-12.3 Open {{FileName|house.FCStd}}, select the root \"Building\" object and export it ({{MenuCommand|File → Export}}) setting the File type to \"Industry Foundation Classes (\*.ifc)\". Press **Save** and if it works and it doesn\'t throw an error in the [Report view](Report_view.md) then it\'s working.
+12.3 Open {{FileName|house.FCStd}}, select the root \"Building\" object and export it (**File → Export**) setting the File type to \"Industry Foundation Classes (\*.ifc)\". Press **Save** and if it works and it doesn\'t throw an error in the [Report view](Report_view.md) then it\'s working.
 
 12.4 Final test, import {{FileName|house.ifc}} into a new file so open a new file and import that file\... it will take a while.
 
 13\. Enjoy BIM with FreeCAD!
 
-## Final thoughts {#final_thoughts}
+## Final thoughts 
 
 My opinion is that FreeCAD itself should have precompiled versions of IfcOpenShell bundled with the distribution because building it by yourself is a total pain and average user won\'t do it (they don\'t know how to compile, manage GitHub, etc), but well, maybe in the future.
 

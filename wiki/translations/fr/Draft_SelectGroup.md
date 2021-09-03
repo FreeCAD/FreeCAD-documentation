@@ -19,8 +19,8 @@ Actuellement, la commande ne fonctionne pas bien avec les calques et peut produi
 2.  Sélectionnez un ou plusieurs objets, la sélection peut inclure des groupes sélectionnés dans la [Vue en arborescence](Tree_view/fr.md).
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_SelectGroup.svg" width=16px> [Draft Si la sélection est un groupe...](Draft_SelectGroup/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_SelectGroup.svg" width=16px> Sélectionner le groupe }} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_SelectGroup.svg" width=16px> Sélectionner un groupe}} dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) ou de la [Vue 3D](3D_view/fr.md).
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SelectGroup.svg" width=16px> Sélectionner le groupe ** dans le menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SelectGroup.svg" width=16px> Sélectionner un groupe** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) ou de la [Vue 3D](3D_view/fr.md).
 4.  Les résultats de la commande dépendent de la sélection fournie :
     -   Pour un objet imbriqué simple, le groupe ou le calque dans lequel se trouve l\'objet, et son autre contenu, les objets apparentés de l\'objet donné, sont sélectionnés. Les objets apparentés peuvent inclure des groupes, mais le contenu de ces groupes imbriqués n\'est pas sélectionné.
     -   Pour un groupe donné, le groupe lui-même, le contenu du groupe et le contenu de tous les groupes imbriqués, quel que soit leur niveau d\'imbrication, sont sélectionnés, mais les groupes imbriqués eux-mêmes ne le sont pas.

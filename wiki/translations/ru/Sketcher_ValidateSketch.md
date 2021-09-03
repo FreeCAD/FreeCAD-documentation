@@ -30,7 +30,7 @@
 
     :   **Примечание:** эскиз не должен быть в режиме редактирования. Если вы находитесь в режиме редактирования эскиза, вам нужно использовать кнопку **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Покинуть эскиз](Sketcher_LeaveSketch/ru.md)**, или кнопку **Close** наверху панели задач.
 2.  Откройте утилиту проверки эскиза либо:
-    -   из ниспадающего меню {{MenuCommand|Sketch → Проверить набросок}}
+    -   из ниспадающего меню **Sketch → Проверить набросок**
     -   нажав кнопку <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:24px;"> в <img alt="Sketcher\_Workbench" src=images/Workbench_Sketcher.svg  style="width:16px;"> [верстаке Sketcher](Sketcher_Workbench/ru.md).
 3.  Ознакомьтесь с [Параметрами](#Options/ru.md) для работы, ниже.
 4.  Нажмите кнопку **Закрыть** когда закончите.
@@ -40,7 +40,7 @@
 
 ## Опции
 
-### Пропавшие совпадения {#пропавшие_совпадения}
+### Пропавшие совпадения 
 
 Обнаружение пропущенных совпадений для перекрывающихся вершин и добавление их. Нажмите кнопку **Найти**; появится всплывающее диалоговое окно, с сообщением, сколько пропущенных совпадений было найдено; они будут показаны в 3D виде желтыми крестиками. Нажмите кнопку **OK** что бы закрыть диалог, потом нажмите кнопку **Исправить** что бы добавить недостающие совпадения.
 
@@ -52,12 +52,12 @@ This tolerance is also used by the **Find**/**Fix** process.
 
 Установите флажок \"Игнорировать вспомогательную геометрию\", чтобы игнорировать вспомогательную геометрию при анализе.
 
-### Invalid constraints {#invalid_constraints}
+### Invalid constraints 
 
 
 <div class="mw-translate-fuzzy">
 
-### Неверные ограничения {#неверные_ограничения}
+### Неверные ограничения 
 
 Проверяет наличие некорректных ограничений.
 
@@ -70,7 +70,7 @@ For example, if there is a Circle-Line-Tangent constraint, but it references two
 
 It also does other checks, such as for empty links.
 
-### Degenerated geometry {#degenerated_geometry}
+### Degenerated geometry 
 
 Degenerated geometry can result from solver actions in a sketch.
 
@@ -78,12 +78,12 @@ For instance, if a line is forced to shorten to become almost a point.
 
 Other examples: a zero length line or zero radius circle/arc.
 
-### Reversed external geometry {#reversed_external_geometry}
+### Reversed external geometry 
 
 
 <div class="mw-translate-fuzzy">
 
-### Перевернутая внешняя геометрия {#перевернутая_внешняя_геометрия}
+### Перевернутая внешняя геометрия 
 
 Перевернутая внешняя геометрия может произойти из-за того, что обработка перевернутой геометрии была изменена около версии 0.15.
 
@@ -92,12 +92,12 @@ Other examples: a zero length line or zero radius circle/arc.
 
 This process might be helpful if sketches with external-geometry fail to solve because of these changes.
 
-### Constraint orientation locking {#constraint_orientation_locking}
+### Constraint orientation locking 
 
 
 <div class="mw-translate-fuzzy">
 
-### Блокировка ориентации ограничений {#блокировка_ориентации_ограничений}
+### Блокировка ориентации ограничений 
 
 Реализованы касательные и перпендикулярные ограничения (через точку).
 

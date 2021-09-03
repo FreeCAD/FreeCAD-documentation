@@ -34,7 +34,7 @@ On peut voir que la spline de multiplicité de nœud 1 est complètement modifi�
 
 1.  Sélectionnez un nœud B-spline, soit:
     -   par le bouton **<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:16px"> [Augmenter la multiplicité des nœuds](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md)**.
-    -   par le menu {{MenuCommand|Sketch → Sketcher B-spline tools → <img src=images/_Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> Augmenter la multiplicité des nœuds}}.
+    -   par le menu **Sketch → Sketcher B-spline tools → <img src=images/_Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> Augmenter la multiplicité des nœuds**.
 
 
 

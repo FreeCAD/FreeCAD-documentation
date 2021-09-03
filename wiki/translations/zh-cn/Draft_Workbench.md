@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
  
 
@@ -42,7 +42,7 @@ FreeCAD是一款以3D建模为主的应用软件，这使它的2D工具并非如
 -   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:32px;"> [三次贝塞尔曲线（Cubic Bezier Curve）](Draft_CubicBezCurve.md): 通过拖动两个点来绘制一条三次贝塞尔曲线。<small>(v0.19)</small> 
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [标签（Label）](Draft_Label.md): 设置一个箭头指向选定元素的标签。 <small>(v0.17)</small> 
 
-## Annotation objects {#annotation_objects}
+## Annotation objects 
 
 -   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Text](Draft_Text.md): draws a multi-line text annotation.
 -   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Dimension](Draft_Dimension.md): draws a dimension annotation.
@@ -104,13 +104,13 @@ FreeCAD是一款以3D建模为主的应用软件，这使它的2D工具并非如
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Shape 2D View](Draft_Shape2DView.md): creates a 2D object which is a flattened 2D view of a 3D object.
 
-## Draft Tray {#draft_tray}
+## Draft Tray 
 
 The [Draft Tray](Draft_Tray.md) allows selecting the working plane, defining style settings, toggling construction mode, and specifying the active layer or group.
 
 ![](images/Draft_tray_default.png )
 
-Its tools are also available in the {{MenuCommand|Draft → Utilities}} menu:
+Its tools are also available in the **Draft → Utilities** menu:
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Select Plane](Draft_SelectPlane.md): selects the current Draft working plane.
 
@@ -120,19 +120,19 @@ Its tools are also available in the {{MenuCommand|Draft → Utilities}} menu:
 
 -   <img alt="" src=images/Draft_AutoGroup.svg  style="width:32px;"> [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
 
-## Draft annotation scale widget {#draft_annotation_scale_widget}
+## Draft annotation scale widget 
 
 With the [Draft annotation scale widget](Draft_annotation_scale_widget.md) the Draft annotation scale can be specified. <small>(v0.19)</small> 
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
-## Draft snap widget {#draft_snap_widget}
+## Draft snap widget 
 
 The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for the [Draft Snap toolbar](#Draft_snap_toolbar.md). <small>(v0.19)</small> 
 
 ![](images/Draft_snap_widget_button.png )
 
-## Draft Snap toolbar {#draft_snap_toolbar}
+## Draft Snap toolbar 
 
 The Draft Snap toolbar allows selecting the active snap options. The buttons belonging to active options stay depressed. For general information about snapping see: [Draft Snap](Draft_Snap.md).
 
@@ -163,9 +163,9 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to Construction group](Draft_AddConstruction.md): add selected objects to the Construction group.
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal.md): heals problematic Draft objects found in very old files.
 
-## Additional tools {#additional_tools}
+## Additional tools 
 
-其他工具可从{{MenuCommand|Draft → Utilities}}菜单处找到。或者右击当前的环境菜单（context menu），具体可用工具取决于当前所选对象。
+其他工具可从**Draft → Utilities**菜单处找到。或者右击当前的环境菜单（context menu），具体可用工具取决于当前所选对象。
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): toggles the Draft continue mode on or off.
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Apply current style](Draft_ApplyStyle.md): applies the current style to selected objects and groups.
@@ -177,23 +177,23 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 -   [底图约束（Constraining）](Draft_Constrain.md): 限制鼠标指针在相对于前一个点的水平方向或垂直方向上移动。
 -   [底图捕捉（Snapping）](Draft_Snap.md): 将新添加的点定位于已存在对象上的特定位置或网格上。
 
-## Tree view context menu {#tree_view_context_menu}
+## Tree view context menu 
 
 The following additional options are available in the [Tree view](Tree_view.md) context menu:
 
-### Selection options {#selection_options}
+### Selection options 
 
 If there is a selection the context menu contains one additional sub-menu:
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
-### Wire options {#wire_options}
+### Wire options 
 
 For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md) and [Draft BezCurve](Draft_BezCurve.md) this additional option is available:
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Flatten this wire: flattens the wire based on its internal geometry. This option currently does not work properly.
 
-### Layer container options {#layer_container_options}
+### Layer container options 
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
 
@@ -201,7 +201,7 @@ For a [Draft LayerContainer](Draft_Layer.md) these additional options are availa
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer.md): adds a new layer to the current document.
 
-### Layer options {#layer_options}
+### Layer options 
 
 For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
@@ -209,7 +209,7 @@ For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select layer contents](Draft_SelectGroup.md): selects the objects inside the selected layer.
 
-### Working plane proxy options {#working_plane_proxy_options}
+### Working plane proxy options 
 
 For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional options are available:
 
@@ -217,25 +217,25 @@ For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional opt
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Write objects state](Draft_WorkingPlaneProxy#Tree_view_context_menu.md): updates the visibility state of objects stored in the working plane proxy.
 
-## 3D view context menu {#d_view_context_menu}
+## 3D view context menu 
 
 The following additional options are available in the [3D view](3D_view.md) context menu:
 
-### No-selection options {#no_selection_options}
+### No-selection options 
 
 If there is no selection the context menu contains one additional sub-menu:
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
-### Selection options {#selection_options_1}
+### Selection options 
 
 If there is a selection the context menu contains two additional sub-menus:
 
--    {{MenuCommand|Draft}}: tools for [drawing objects](#Drawing_objects.md) and [modifying objects](#Modifying_objects.md).
+-    **Draft**: tools for [drawing objects](#Drawing_objects.md) and [modifying objects](#Modifying_objects.md).
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
-## Obsolete tools {#obsolete_tools}
+## Obsolete tools 
 
 These commands are obsolete but still available:
 
@@ -266,12 +266,12 @@ These [3D view](3D_view.md) context menu options are still available when the [D
 -   [Open Cad format .OCA](Draft_OCA.md): 导入或导出OCA/GCAD文件，这是一种潜在的新式[开放CAD文件格式](http://groups.google.com/group/open_cad_format)。
 -   [Airfoil Data Format .DAT](Draft_DAT.md): 导入DAT文件，此格式详情可参见[Airfoil profiles](http://www.ae.illinois.edu/m-selig/ads/coord_database.html)。
 
-### Install importers {#install_importers}
+### Install importers 
 
 -   [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md): Imports and exports DWG files
 -   [FreeCAD and DXF Import](FreeCAD_and_DXF_Import.md): Imports and exports DXF files
 
-## Unit tests {#unit_tests}
+## Unit tests 
 
 
 **See also:**

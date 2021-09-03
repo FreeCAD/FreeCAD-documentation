@@ -16,13 +16,13 @@ Jeśli byłeś ostrożny podczas modelowania, większość trudności, które mo
 
 Poniżej założymy, że pierwsze dwa kryteria są spełnione i że jesteś już w stanie tworzyć obiekty bryłowe o prawidłowych wymiarach. Zobaczymy teraz, jak rozwiązać trzeci punkt.
 
-### Eksport do krajalnicy {#eksport_do_krajalnicy}
+### Eksport do krajalnicy 
 
 Jest to technika najczęściej stosowana w druku 3D. Obiekt 3D jest eksportowany do innego programu *(slicera)*, który wygeneruje G-kod z obiektu, poprzez pocięcie go na cienkie warstwy (stąd nazwa), które będą odtwarzać ruchy, jakie wykona drukarka 3D. Ponieważ wiele z tych drukarek jest budowanych domowym sposobem, często występują niewielkie różnice pomiędzy nimi. Programy te zazwyczaj oferują zaawansowane możliwości konfiguracyjne, które pozwalają na dostosowanie wydruku dokładnie do możliwości Twojej drukarki 3D.
 
 Rzeczywiste drukowanie 3D jest jednak zbyt obszernym tematem dla tego podręcznika. Zobaczymy jednak jak wyeksportować i użyć tych slicerów, aby sprawdzić czy dane wyjściowe są poprawne.
 
-### Konwersja obiektów do siatek {#konwersja_obiektów_do_siatek}
+### Konwersja obiektów do siatek 
 
 Żaden ze slicerów nie będzie, w tym momencie, bezpośrednio przyjmował geometrii bryłowej, jaką produkujemy w FreeCAD. Będziemy więc musieli najpierw przekonwertować każdy obiekt, który chcemy wydrukować na drukarce 3D do postaci [siatki](https://en.wikipedia.org/wiki/Polygon_mesh), którą slicer może otworzyć. Na szczęście, o ile konwersja siatki na bryłę jest skomplikowaną operacją, o tyle konwersja bryły na siatkę jest bardzo prosta. Jedyne na co musimy uważać, to fakt, że to właśnie tutaj nastąpi pogorszenie, o którym wspomnieliśmy powyżej. Musimy sprawdzić, czy utrzymuje się ona w akceptowalnych granicach.
 
@@ -46,11 +46,11 @@ Cała obsługa siatek w programie FreeCAD jest wykonywana przez inne, specyficzn
 
 Niemniej jednak w większości przypadków wartości domyślne dadzą zadowalający rezultat.
 
--   Możemy teraz wyeksportować naszą siatkę do formatu siatek, takiego jak [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29), który jest obecnie najczęściej używanym formatem w druku 3D, poprzez użycie menu {{MenuCommand|Plik → Eksportuj}} i wybranie formatu pliku STL.
+-   Możemy teraz wyeksportować naszą siatkę do formatu siatek, takiego jak [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29), który jest obecnie najczęściej używanym formatem w druku 3D, poprzez użycie menu **Plik → Eksportuj** i wybranie formatu pliku STL.
 
 Jeśli nie posiadasz drukarki 3D, zazwyczaj bardzo łatwo jest znaleźć komercyjne serwisy, które wydrukują i wyślą Ci wydrukowane obiekty pocztą. Do najbardziej znanych należą [Shapeways](http://www.shapeways.com/) i [Sculpteo](http://www.sculpteo.com/), ale zazwyczaj znajdziesz wiele innych w swoim mieście. We wszystkich większych miastach można obecnie znaleźć [Fab labs](https://en.wikipedia.org/wiki/Fab_lab), czyli warsztaty wyposażone w szereg maszyn do produkcji 3D, w tym prawie zawsze w co najmniej jedną drukarkę 3D. Fab laboratoria są zazwyczaj przestrzeniami społecznymi, które pozwolą Ci korzystać z ich maszyn, za opłatą lub za darmo, w zależności od Fab laboratorium, ale także nauczą Cię jak z nich korzystać i będą promować inne działania wokół produkcji 3D.
 
-### Użycie Slic3r {#użycie_slic3r}
+### Użycie Slic3r 
 
 [Slic3r](http://slic3r.org/) to aplikacja, która konwertuje obiekty STL na G-code, który może być wysłany bezpośrednio do drukarek 3D. Podobnie jak FreeCAD, jest darmowy, open source\'owy i działa na systemach Linux, Mac OS i Windows. Poprawne skonfigurowanie rzeczy do druku 3D jest skomplikowanym procesem, w którym musisz mieć dobrą znajomość swojej drukarki 3D, więc generowanie G-kodu przed faktycznym wydrukiem nie jest zbyt użyteczne *(Twój plik G-code może nie działać dobrze na innej drukarce)*, ale i tak jest to dla nas użyteczne, aby sprawdzić czy nasz plik STL będzie można bez problemu wydrukować.
 
@@ -58,7 +58,7 @@ To jest nasz wyeksportowany plik STL otwarty w programie Slic3r. Używając zak�
 
 ![](images/Exercise_meshing_03.jpg )
 
-### Używanie dodatku Cura {#używanie_dodatku_cura}
+### Używanie dodatku Cura 
 
 [Cura](https://ultimaker.com/en/products/cura-software) jest kolejną darmową i otwartoźródłową aplikacją dla Linuksa, Mac i Windows, utrzymywaną przez producenta drukarek 3D [Ultimaker](https://ultimaker.com). Niektórzy użytkownicy programu FreeCAD stworzyli środowisko pracy [Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin), które wewnętrznie korzysta z Cury. Środowisko robocze Cura jest dostępne w repozytorium [dodatków do FreeCAD](https://github.com/FreeCAD/FreeCAD-addons). Aby korzystać z środowiska Cura, musisz również zainstalować samą Curę, która nie jest dołączona.
 
@@ -75,7 +75,7 @@ Po zainstalowaniu zarówno programu Cura, jak i środowiska pracy Cura, będzies
 
 -   Wygenerowany G-code może być również ponownie zaimportowany do FreeCAD *(przy użyciu preprocesora slic3r)* w celu sprawdzenia.
 
-## Generowanie G-kodu {#generowanie_g_kodu}
+## Generowanie G-kodu 
 
 
 {{VeryImportantMessage|'''Ostrzeżenie:''' Ta sekcja została stworzona dla FreeCAD v0.16. Zostały wprowadzone znaczące zmiany w tworzeniu ścieżek. Proszę zapoznać się z dokumentacją środowiska pracy [Path](Path_Workbench/pl.md) ogólnie lub z poradnikiem na przykład [przejście po ścieżce](Path_Walkthrough_for_the_Impatient/pl.md)!}}

@@ -18,7 +18,7 @@
 
 1.  Impostare le [Preferenze di importazione esportazione](Import_Export_Preferences/it.md) nell\'[Editor delle preferenze](Preferences_Editor/it.md).
 2.  Selezionare le forme nella [vista ad albero](tree_view/it.md) o nella the [vista 3D](3D_view/it.md).
-3.  Andare nel menu {{MenuCommand|Parte →  <img src=images/Part_Export.svg style="width:16px"> Esporta CAD}}.
+3.  Andare nel menu **Parte →  <img src=images/Part_Export.svg style="width:16px"> Esporta CAD**.
 4.  Selezionare il formato del file e il percorso
 
 

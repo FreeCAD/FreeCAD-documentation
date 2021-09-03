@@ -13,7 +13,7 @@ La commande **Std Tout Sélectionner** sélectionne tous les objets dans la [vue
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Édition  → <img src="images/Std_SelectAll.svg" width=16px> Tout sélectionner}} dans le menu.
+1.  Sélectionnez l\'option **Édition  → <img src="images/Std_SelectAll.svg" width=16px> Tout sélectionner** dans le menu.
 
 ## Remarques
 

@@ -16,7 +16,7 @@ Este comando le permitirá editar un boceto existente. Abrirá el [Diálogo de b
 Hay varias formas de invocar el comando Editar croquis:
 
 -   Hacer clic con el botón derecho del ratón en un croquis en la [vista de árbol](Tree_view/es.md) y elegir *Editar croquis*
--   Seleccionar el croquis en la [vista de árbol](Tree_view/es.md) y elegir {{MenuCommand|Croquis → Editar croquis}} en el menú desplegable.
+-   Seleccionar el croquis en la [vista de árbol](Tree_view/es.md) y elegir **Croquis → Editar croquis** en el menú desplegable.
 -   Simplemente haciendo doble clic en el croquis.
 -   Haciendo clic en el botón <img alt="" src=images/Sketcher_EditSketch.svg  style="width:24px;"> de la barra de herramientas del Croquizador.
 

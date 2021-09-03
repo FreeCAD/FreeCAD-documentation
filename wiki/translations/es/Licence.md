@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-### Licencias utilizadas {#licencias_utilizadas}
+### Licencias utilizadas 
 
 He aquí las tres licencias bajo las que se publica FreeCAD:
 
@@ -42,7 +42,7 @@ Mira el archivo [debian copyright file](http://free-cad.git.sourceforge.net/git/
 
 <div class="mw-translate-fuzzy">
 
-### Alcance de las licencias {#alcance_de_las_licencias}
+### Alcance de las licencias 
 
 
 </div>
@@ -52,7 +52,7 @@ Below is a friendlier explanation of what the LGPL license means for you:
 
 <div class="mw-translate-fuzzy">
 
-#### Usuarios particulares {#usuarios_particulares}
+#### Usuarios particulares 
 
 Los usuarios particulares pueden utilizar FreeCAD de manera gratuita y pueden hacer básicamente cualquier cosa que quieran hacer con él \....
 
@@ -62,7 +62,7 @@ Los usuarios particulares pueden utilizar FreeCAD de manera gratuita y pueden ha
 
 <div class="mw-translate-fuzzy">
 
-#### Usuarios profesionales {#usuarios_profesionales}
+#### Usuarios profesionales 
 
 Pueden usar libremente FreeCAD para cualquier tipo de trabajo particular o profesional. Se puede personalizar la aplicación como lo deseen. Pueden escribir extensiones para FreeCAD en código abierto o cerrado. Son siempre dueños de sus datos, no están obligados a actualizar FreeCAD, ni cambiar el uso que hacen de FreeCAD. El uso de FreeCAD no les vincula a ningún tipo de contrato u obligación.
 
@@ -72,7 +72,7 @@ Pueden usar libremente FreeCAD para cualquier tipo de trabajo particular o profe
 
 <div class="mw-translate-fuzzy">
 
-#### Desarrolladores de código abierto (Open Source) {#desarrolladores_de_código_abierto_open_source}
+#### Desarrolladores de código abierto (Open Source) 
 
 Puede utilizar FreeCAD como base para sus propios módulos de extensión para usos especiales. Pueden elegir entre GPL o LGPL para permitir, o no, el uso de su trabajo en software propietario.
 
@@ -82,7 +82,7 @@ Puede utilizar FreeCAD como base para sus propios módulos de extensión para us
 
 <div class="mw-translate-fuzzy">
 
-#### Desarrolladores profesionales {#desarrolladores_profesionales}
+#### Desarrolladores profesionales 
 
 Los desarrolladores profesionales pueden utilizar FreeCAD como base para sus propios módulos de extensión para propósitos especiales y no están obligados a hacer sus módulos en código abierto. Pueden utilizar todos los módulos que utilizan LGPL. Se les permite distribuir FreeCAD junto con su software propietario. Se dará todo el apoyo del autor(es) siempre y cuando exista una actitud de correspondencia recíproca. Si quieres vender tu módulo necesitas una licencia de Coin3d, de lo contrario estás obligado por esta biblioteca a que tu módulo sea de código abierto.
 
@@ -96,7 +96,7 @@ The models and other files produced with FreeCAD are not subject to any license 
 
 <div class="mw-translate-fuzzy">
 
-### Declaración del conservador/mantenedor {#declaración_del_conservadormantenedor}
+### Declaración del conservador/mantenedor 
 
 Sé que el debate sobre la licencia *\"adecuada\"* para el código abierto ocupa una parte importante del ancho de banda de Internet y esa es la razón por la que, en mi opinión, también FreeCAD debería tener aquí algo sobre el tema.
 

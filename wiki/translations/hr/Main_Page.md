@@ -13,7 +13,7 @@ Ovdje se nalazi wiki dokumentacija programa [FreeCAD](https://www.freecadweb.org
 
 <div class="mw-translate-fuzzy">
 
-## Korisnička okruženja {#korisnička_okruženja}
+## Korisnička okruženja 
 
 
 </div>
@@ -24,9 +24,12 @@ Ovdje se nalazi wiki dokumentacija programa [FreeCAD](https://www.freecadweb.org
 <img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Korisničko okruženje](User_hub/hr.md): Ova stranica sadrži dokumentaciju korisnu za korisnike FreeCAD-a: lista radnih površina programa, detaljne upute kako instalirati i koristiti FreeCAD aplikacije, vježbe, i sve što trebate za početi sa radom u programu FreeCAD.
 
 
-{{Clear}}
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Napredno korisničko okruženje](Power_users_hub/hr.md):Ova stranica prikuplja dokumentaciju za napredne korisnike i ljude zainteresirane za pisanje python skripti. Tamo ćete naći i spremište makronaredbi, upute o tome kako ih instalirati i koristiti te više informacija o prilagodbi FreeCAD-a prema vašim specifičnim potrebama. {{Clear}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Programersko okruženje](Developer_hub/hr.md):Ovaj odjeljak sadrži materijal za programere: Kako sastaviti FreeCAD, kako je strukturiran izvorni kod FreeCAD-a i kako se kretati u njemu, i kako razviti nove radne površine, ili kako ugraditi FreeCAD u svoj program. {{Clear}}
+
+
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Napredno korisničko okruženje](Power_users_hub/hr.md):Ova stranica prikuplja dokumentaciju za napredne korisnike i ljude zainteresirane za pisanje python skripti. Tamo ćete naći i spremište makronaredbi, upute o tome kako ih instalirati i koristiti te više informacija o prilagodbi FreeCAD-a prema vašim specifičnim potrebama. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Programersko okruženje](Developer_hub/hr.md):Ovaj odjeljak sadrži materijal za programere: Kako sastaviti FreeCAD, kako je strukturiran izvorni kod FreeCAD-a i kako se kretati u njemu, i kako razviti nove radne površine, ili kako ugraditi FreeCAD u svoj program. 
+
 
 
 </div>
@@ -36,7 +39,8 @@ Ovdje se nalazi wiki dokumentacija programa [FreeCAD](https://www.freecadweb.org
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD priručnik](Manual:Introduction/hr.md) je još jedan, linearniji način prikazivanja informacija sadržanih na ovoj wiki stranici. Napravljen je za čitanje poput knjige i upoznaje vas s mnogim drugim stranicama iz okruženja gore. Također su dostupne i [ebook verzija](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), kao i [nekoliko prijevoda u pdf formatu](https://www.freecadweb.org/manual/). {{Clear}}
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD priručnik](Manual:Introduction/hr.md) je još jedan, linearniji način prikazivanja informacija sadržanih na ovoj wiki stranici. Napravljen je za čitanje poput knjige i upoznaje vas s mnogim drugim stranicama iz okruženja gore. Također su dostupne i [ebook verzija](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), kao i [nekoliko prijevoda u pdf formatu](https://www.freecadweb.org/manual/). 
+
 
 
 </div>
@@ -56,9 +60,9 @@ Slijedeća tabela lista sve artikle kostura wiki stranice izvan-mrežne (offline
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
 +----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
-## Uključite se {#uključite_se}
+## Uključite se 
 
-### Kako sudjelovati {#kako_sudjelovati}
+### Kako sudjelovati 
 
 Dosta je toga za napraviti unutar projekta FreeCAD, ako ste zainteresirani za pomoć. Naravno, postoje programski zadatci za C + + ili Python programere, ali postoje i mnoge stvari koje možete učiniti čak i ako ne možete kodirati, kao što je
 
@@ -70,7 +74,7 @@ Dosta je toga za napraviti unutar projekta FreeCAD, ako ste zainteresirani za po
 
 Stranica[help FreeCAD](Special:MyLanguage/help_FreeCAD/hr.md) opisuje sve to s više pojedinosti. Od 2016. godine, FreeCAD također sudjeluje u [Google Summer of Code](Google_Summer_of_Code.md). Stranica [Suradničko okruženje](Contributors_hub.md) još je jedan napor od mogućih načina prikupljanja pomoći i doprinosa projektu FreeCAD.
 
-### Izvorni kod {#izvorni_kod}
+### Izvorni kod 
 
 
 <div class="mw-translate-fuzzy">
@@ -80,7 +84,7 @@ FreeCAD može biti kompiliran na svim platformama koristeći [CMake](https://cma
 
 </div>
 
-### O razvoju {#o_razvoju}
+### O razvoju 
 
 Provjerite [Development roadmap](Development_roadmap.md) za vijesti o onom što se planira, [Ispis promjena](http://www.freecadweb.org/tracker/changelog_page.php) i [Mape puta](http://www.freecadweb.org/tracker/roadmap_page.php) na [FreeCAD trackeru](http://www.freecadweb.org/tracker) kako biste vidjeli napredak ususret sljedećem izdanju ili [Statistika projekta](http://www.ohloh.net/p/freecad) za još više informacija o FreeCAD bazi koda. Sva razvojna komunikacija događa se na [Forumu](http://forum.freecadweb.org/), stoga ga svakako posjetite ako ste zainteresirani za sudjelovanje.
 

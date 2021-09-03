@@ -41,7 +41,7 @@ L\'outil Profilé est également intégré à l\'outil [Arch Structure](Arch_Str
 
 -    {{PropertyData/fr|Flange Thickness}}: épaisseur de la semelle du profilé (profilés H et I uniquement)
 
-## Ajouter des profilés personnalisés {#ajouter_des_profilés_personnalisés}
+## Ajouter des profilés personnalisés 
 
 Un fichier CSV supplémentaire peut être créé par l\'utilisateur contenant des définitions des profilés personnalisés. Il doit être nommé `profiles.csv` et placé dans 
 ```python

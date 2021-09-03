@@ -8,7 +8,7 @@ Na této stránce je seznam šablon podle standardů American National Standards
 
 </div>
 
-### Arch A {#arch_a}
+### Arch A 
 
 #### Arch\_A\_Landscape
 
@@ -18,7 +18,7 @@ Na této stránce je seznam šablon podle standardů American National Standards
 
 <img alt="" src=images/Arch_A_Portrait.svg  style="width:800px;">
 
-### Arch B {#arch_b}
+### Arch B 
 
 #### Arch\_B\_Landscape
 
@@ -28,7 +28,7 @@ Na této stránce je seznam šablon podle standardů American National Standards
 
 <img alt="" src=images/Arch_B_Portrait.svg  style="width:800px;">
 
-### Arch C {#arch_c}
+### Arch C 
 
 #### Arch\_C\_Landscape
 
@@ -38,7 +38,7 @@ Na této stránce je seznam šablon podle standardů American National Standards
 
 <img alt="" src=images/Arch_C_Portrait.svg  style="width:800px;">
 
-### Arch D {#arch_d}
+### Arch D 
 
 #### Arch\_D\_Landscape
 
@@ -48,7 +48,7 @@ Na této stránce je seznam šablon podle standardů American National Standards
 
 <img alt="" src=images/Arch_D_Portrait.svg  style="width:800px;">
 
-### Arch E {#arch_e}
+### Arch E 
 
 #### Arch\_E\_Landscape
 
@@ -58,7 +58,7 @@ Na této stránce je seznam šablon podle standardů American National Standards
 
 <img alt="" src=images/Arch_E_Portrait.svg  style="width:800px;">
 
-### Arch E1 {#arch_e1}
+### Arch E1 
 
 #### Arch\_E1\_Landscape
 
@@ -68,7 +68,7 @@ Na této stránce je seznam šablon podle standardů American National Standards
 
 <img alt="" src=images/Arch_E1_Portrait.svg  style="width:800px;">
 
-### Arch E2 {#arch_e2}
+### Arch E2 
 
 #### Arch\_E2\_Landscape
 
@@ -78,7 +78,7 @@ Na této stránce je seznam šablon podle standardů American National Standards
 
 <img alt="" src=images/Arch_E2_Portrait.svg  style="width:800px;">
 
-### Arch E3 {#arch_e3}
+### Arch E3 
 
 #### Arch\_E3\_Landscape
 
@@ -88,7 +88,7 @@ Na této stránce je seznam šablon podle standardů American National Standards
 
 <img alt="" src=images/Arch_E3_Portrait.svg  style="width:800px;">
 
-## Další dostupné šablony {#další_dostupné_šablony}
+## Další dostupné šablony 
 
 -   [Výkresové šablony](Drawing_templates.md): default šablony FreeCADu
 -   [ANSI šablony](ANSI_templates.md): podle standardů American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)

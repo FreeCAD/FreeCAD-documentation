@@ -38,7 +38,7 @@ Tout fichier manquant est imprimé sur la vue Rapport. Tout répertoire manquant
 
 Un nouveau document est créé et chaque projet est un \"Projet fusionné\" dans ce nouveau document vide. Une fois terminé le document n\'est pas enregistré, libre à l\'utilisateur de le sauvegarder s\'il le souhaite. Si le fichier n\'existe pas, le nom du fichier est Imprimé dans la vue Rapport.
 
-## Interface utilisateur {#interface_utilisateur}
+## Interface utilisateur 
 
 Il n\'y a pas vraiment d\'interface graphique pour cette macro. La macro lit un fichier texte qui a été préparé avec un éditeur de texte et génère un modèle dans un document de sortie. En dehors du fait de cliquer sur le bouton de la barre d'outils pour lancer le processus, il n'y a pas d'interaction de la part de l'utilisateur.
 

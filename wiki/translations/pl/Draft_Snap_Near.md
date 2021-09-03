@@ -19,7 +19,7 @@ Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąg
 1.  Upewnij się, że przyciąganie jest włączone. Zobacz <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md).
 2.  Jeśli opcja **Przyciągnij do najbliższego** nie jest aktywna, wykonaj jedną z poniższych czynności:
     -   Naciśnij przycisk **<img src="images/Draft_Snap_Near.svg" width=16px>** Przyciągania na pasku narzędzi.
-    -   Naciśnij przycisk **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** w [widżecie przyciągania](Draft_snap_widget/pl.md) i w menu wybierz opcję {{MenuCommand|<img src="images/Draft_Snap_Near.svg" width=16px> Przyciąganie do najbliższego}}.
+    -   Naciśnij przycisk **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** w [widżecie przyciągania](Draft_snap_widget/pl.md) i w menu wybierz opcję **<img src="images/Draft_Snap_Near.svg" width=16px> Przyciąganie do najbliższego**.
 3.  Wybierz polecenie [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), aby utworzyć geometrię.
 4.  Uwaga: opcje przyciągania można zmieniać także wtedy, gdy polecenie jest aktywne.
 5.  Przesuń kursor na ścianę lub krawędź.

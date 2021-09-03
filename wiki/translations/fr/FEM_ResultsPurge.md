@@ -18,7 +18,7 @@ A faire : Ajouter une capture d\'écran avant et après
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_ResultsPurge.svg" width=16px> [Purger les résultats de l'analyse active (R,P)](FEM_ResultsPurge/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Results → <img src="images/FEM_ResultsPurge.svg" width=16px> Purger les résultats}} dans le menu.
+    -   Sélectionnez l\'option **Results → <img src="images/FEM_ResultsPurge.svg" width=16px> Purger les résultats** dans le menu.
     -   Utilisez le raccourci clavier: **R** puis **P**.
 
 

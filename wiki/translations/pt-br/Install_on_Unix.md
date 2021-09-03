@@ -3,7 +3,7 @@
 
 
 
-## Visão geral {#visão_geral}
+## Visão geral 
 
 
 {{TOCright}}
@@ -16,7 +16,7 @@ A instalação do FreeCAD nos sistemas Linux mais populares já foi aprovada pel
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Sistemas baseados em Ubuntu e Ubuntu {#sistemas_baseados_em_ubuntu_e_ubuntu}
+## Sistemas baseados em Ubuntu e Ubuntu 
 
 Muitas distribuições Linux são baseadas no Ubuntu e compartilham seus repositórios. Além das variantes oficiais (Kubuntu, Lubuntu e Xubuntu), existem derivados não oficiais como Linux Mint, Voyager e outros. As opções de instalação abaixo devem ser compatíveis com estes sistemas.
 
@@ -31,7 +31,7 @@ Muitas distribuições Linux são baseadas no Ubuntu e compartilham seus reposit
 
 </div>
 
-O FreeCAD está disponível no repositório Ubuntu Universo, e pode ser instalado através do {{MenuCommand|Software Center}} ou a partir do terminal:
+O FreeCAD está disponível no repositório Ubuntu Universo, e pode ser instalado através do **Software Center** ou a partir do terminal:
 
 
 ```python
@@ -46,7 +46,7 @@ O repositório Ubuntu pode estar desatualizado. O pacote pode ficar desatualizad
 
 <div class="mw-translate-fuzzy">
 
-### PPA Estável {#ppa_estável}
+### PPA Estável 
 
 
 </div>
@@ -57,7 +57,7 @@ O arquivo de pacotes pessoais (PPA) para a versão estável do FreeCAD é mantid
 
 Instalar o PPA estável através da Interface Gráfica de Usuário (GUI):
 
-:   1\. Navegue até {{{MenuCommand|Software Ubuntu → Software e atualizações → Fontes de software → Outros softwares.}}}
+:   1\. Navegue até {**Software Ubuntu → Software e atualizações → Fontes de software → Outros softwares.**}
 :   2\. Clique em **Adicionar**, depois copie e cole a seguinte linha
 
     :   
@@ -74,7 +74,7 @@ Instalar o PPA estável através da Interface Gráfica de Usuário (GUI):
 
 :   3\. Adicione a fonte, feche o diálogo, e recarregue suas fontes de software, se solicitado
 
-Agora você pode encontrar e instalar a última versão estável do FreeCAD a partir do {{MenuCommand|Ubuntu Software Center}}.
+Agora você pode encontrar e instalar a última versão estável do FreeCAD a partir do **Ubuntu Software Center**.
 
 #### CLI
 
@@ -123,7 +123,7 @@ Instalar o PPA estável através da Interface de Linha de Comando (CLI):
 
 Devido a problemas de empacotamento, em certas versões do Ubuntu o pacote `freecad-doc` colidiu com a instalação do FreeCAD ou de uma de suas dependências; se este for o caso, remova o pacote `freecad-doc` e instale apenas o pacote `freecad`. Se o pacote `freecad-doc` não existir, então ignore-o.
 
-#### Verificação da instalação {#verificação_da_instalação}
+#### Verificação da instalação 
 
 :   4\. Uma vez que você tenha o PPA estável adicionado a seus fontes usando um dos métodos acima, o pacote `freecad` instalará esta versão do PPA sobre a fornecida pelo repositório Ubuntu Universo. Você pode ver as versões disponíveis com o seguinte comando `apt-cache`:
 :   
@@ -157,7 +157,7 @@ ubuntu@ubuntu:~$ apt-cache policy freecad-doc
 ```
     
 
-### Desenvolvimento PPA (Diário) {#desenvolvimento_ppa_diário}
+### Desenvolvimento PPA (Diário) 
 
 Como o FreeCAD está em constante desenvolvimento, você pode querer instalar o pacote **diário** para se manter atualizado com as últimas melhorias e correções de bugs. O repositório também é hospedado no Launchpad e é chamado de [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/freecad-daily)..
 
@@ -202,7 +202,7 @@ Execute a versão diária (PPA) do FreeCAD
 
 </div>
 
-## Debian e outros sistemas baseados no Debian {#debian_e_outros_sistemas_baseados_no_debian}
+## Debian e outros sistemas baseados no Debian 
 
 =
 
@@ -248,7 +248,7 @@ A versão estável do pacote: [Repositórios estáveis no openSUSE](https://soft
 
 Nota: o openSUSE oferece várias opções ao fazer o download do FreeCAD. Para ver estas opções, visite a [Visão Geral de repositórios estáveis no openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD).
 
-### Em desenvolvimento {#em_desenvolvimento}
+### Em desenvolvimento 
 
 Últimos lançamentos de desenvolvimento AKA **instável**: [Lista de repositórios instáveis no openSUSE](https://software.opensuse.org/download.html?project=science%3Aunstable&package=FreeCAD)
 
@@ -341,7 +341,7 @@ Se sua distribuição Linux oferece FreeCAD mas não está documentada nesta pá
 
 Muitos pacotes FreeCAD alternativos e não-oficiais estão disponíveis na rede, por exemplo, para sistemas como slackware ou fedora. Uma busca na rede pode lhe dar rapidamente alguns resultados.
 
-### Instalação manual em sistemas baseados em .deb {#instalação_manual_em_sistemas_baseados_em_.deb}
+### Instalação manual em sistemas baseados em .deb 
 
 Se por algum motivo você não puder usar nenhum dos métodos acima, você pode baixar um dos pacotes .deb disponíveis na página de [Download](Download/pt-br.md).
 {{DownloadUnixStable}}
@@ -357,7 +357,7 @@ mudando Nome\_do\_seu\_pacote\_FreeCAD.deb pelo nome do arquivo que você baixou
 
 Após instalar o FreeCAD, um ícone de inicialização será adicionado na seção \"Gráfico\" do seu Menu Iniciar.
 
-### Instalando em outros sistemas Linux/Unix {#instalando_em_outros_sistemas_linuxunix}
+### Instalando em outros sistemas Linux/Unix 
 
 Muitas distros Linux comuns incluem agora um FreeCAD pré-compilado como parte dos pacotes padrão. Isto está freqüentemente desatualizado, mas é um lugar para se começar. Verifique os gerentes de pacotes padrão para o seu sistema. Uma das seguintes listas (parciais) de comandos poderia instalar a versão oficial do FreeCAD para sua distro do terminal. Estes provavelmente precisam de privilégios de administrador.
 
@@ -381,11 +381,11 @@ Se isso ainda não for suficiente, e você não puder localizar outra fonte de u
 
 </div>
 
-### Instalando a versão Windows no Linux {#instalando_a_versão_windows_no_linux}
+### Instalando a versão Windows no Linux 
 
 Veja a página [Instalando no Windows](Installing_on_Windows/pt-br.md).
 
-## Próximo Passo {#próximo_passo}
+## Próximo Passo 
 
 Uma vez que você tenha o FreeCAD instalado, é hora de [Começar a usar](Getting_started/pt-br.md)!
 

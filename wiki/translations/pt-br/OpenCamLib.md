@@ -58,7 +58,7 @@ Note: the \"libboost-program-options-dev\" may be substituted with \"libboost-al
 
 If you are struggling, carefully review any error messages you get during the cmake and make phases as you may need to install additional packages.
 
-#### Python 3 {#python_3}
+#### Python 3 
 
 Identify the version of cmake you have installed with cmake --version
 
@@ -99,7 +99,7 @@ See the FreeCAD forum at [Re: How to activate openCamLib after compiling it](htt
 
 (No entry)
 
-## More help {#more_help}
+## More help 
 
 In case you run into difficulties, you may find additional help at these forum posts:
 

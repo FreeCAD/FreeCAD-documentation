@@ -24,11 +24,11 @@ Standard Parts Selector
 
 ## Installation
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 How to [here](http://www.bolts-library.org/en/docs/0.3/freecad/installation.html)
 
@@ -49,7 +49,7 @@ is required.
 
 **Mac Installation Instructions** (From GitHub)
 
-## Links to BOLTS workbench {#links_to_bolts_workbench}
+## Links to BOLTS workbench 
 
 -   Workbench Wiki: <http://www.bolts-library.org/en/docs/0.3/index.html>
 -   FreeCAD Wiki:

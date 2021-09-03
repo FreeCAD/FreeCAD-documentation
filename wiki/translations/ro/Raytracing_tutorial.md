@@ -1,6 +1,6 @@
 
 
-## Raytracing Workbench {#raytracing_workbench}
+## Raytracing Workbench 
 
 
 {{VeryImportantMessage|The [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench, and because the new module should basically work in the same way}}
@@ -47,14 +47,14 @@ In this example a Cube is used as the study object, but models created in the Pa
 
 Now we have a model with which to work.
 
-### Preparing for the render {#preparing_for_the_render}
+### Preparing for the render 
 
 1.  Switch to the Raytracing Workbench
 2.  Change your View to **Perspective**. Go to **View** menu and select **Perspective**.
 3.  Set the location for the renderer. Go to the **Edit** menu and select **Preferences**. Click on **Raytracing** and set the location to the executable.
 4.  Set the size of the rendered image. Go to the **Edit** menu and select **Preferences**. Click on **Raytracing** and set the desired image size.
 
-#### POV-Ray {#pov_ray}
+#### POV-Ray 
 
 1.  Select <img alt="" src=images/Raytrace_New.svg  style="width:32px;"> [New PovRay project](Raytracing_New.md). From the dropdown menu pick 
 **RadiosityNormal**
@@ -64,13 +64,13 @@ Now we have a model with which to work.
 1.  Select <img alt="" src=images/Raytrace_Lux.svg  style="width:32px;"> [New LuxRender project](Raytracing_Lux.md). From the dropdown menu pick 
 **LuxClassic**
 
-### Setting the camera position {#setting_the_camera_position}
+### Setting the camera position 
 
 1.  Position the **3D View** to the desired location and distance from the model. In this case we will use the **Axonometric View**.
 2.  Select the **Project Folder** from the **Tree View**
 3.  Select <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:32px;"> [Reset camera](Raytracing_ResetCamera.md)
 
-### Importing the model {#importing_the_model}
+### Importing the model 
 
 1.  Select the model to render.
 2.  Select <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width:32px;"> [Insert part](Raytracing_InsertPart.md)
@@ -78,7 +78,7 @@ Now we have a model with which to work.
 
 <div class="mw-translate-fuzzy">
 
-#### Running the Renderer {#running_the_renderer}
+#### Running the Renderer 
 
 1.  Select <img alt="" src=images/Raytracing_Render.png  style="width:32px;"> [Render](Raytracing_Render.md).
 2.  Set the path to which the image will be stored.
@@ -90,7 +90,7 @@ Now we have a model with which to work.
 
 <div class="mw-translate-fuzzy">
 
-#### Viewing the results {#viewing_the_results}
+#### Viewing the results 
 
 FreeCAD will immediately open the image after the render is finished.
 

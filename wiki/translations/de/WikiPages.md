@@ -2,7 +2,7 @@
 
 Diese Seite ist eine Erweiterung der [Hilfe:Editieren](Help:Editing.md) Seite und gibt allgemeine Richtlinien für das Schreiben und Aktualisieren der FreeCAD Wiki Dokumentation. Es fasst mehrere Diskussionen und Ideenfindungssitzungen zusammen
 
-## Vor dem Beginn {#vor_dem_beginn}
+## Vor dem Beginn 
 
 
 <div class="mw-translate-fuzzy">
@@ -18,9 +18,9 @@ Diese Seite ist eine Erweiterung der [Hilfe:Editieren](Help:Editing.md) Seite un
 
 </div>
 
-## Allgemeine Richtlinien {#allgemeine_richtlinien}
+## Allgemeine Richtlinien 
 
-### Präzise Beschreibungen {#präzise_beschreibungen}
+### Präzise Beschreibungen 
 
 Versuche bei der Beschreibung der FreeCAD Funktionalität prägnant und auf den Punkt zu kommen. Beschreibe, was FreeCAD *tut*, nicht was FreeCAD *nicht tut*. Es könnte Ausnahmen geben, um zu rechtfertigen, warum FreeCAD eine bestimmte Funktionalität nicht unterstützt, z.B. zu klären wie sich FreeCAD von anderen CAD Systemen unterscheidet.
 
@@ -35,7 +35,7 @@ Gute Beschreibung
 
 [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md): zielt darauf ab, Werkzeuge für die Modellierung komplexer Festkörperteile bereitzustellen.
 
-### Zentralisierte Informationen {#zentralisierte_informationen}
+### Zentralisierte Informationen 
 
 Vermeide es, die gleichen Informationen an verschiedenen Orten zu duplizieren. Füge die Informationen in eine neue Seite ein und verknüpfe diese Seite von anderen Seiten aus, die diese Informationen benötigen.
 
@@ -43,9 +43,9 @@ Verwende keine Transklusion von Seiten ([Hilfe:Bearbeiten\#Vorlagen und Transklu
 
 ### Formgestaltung
 
-Vorlagen werden zum Gestalten der Hilfeseiten verwendet. Sie geben der Dokumentation ein einheitliches Aussehen und Gefühl. Es gibt eine Vorlage für Menübefehle, wie {{MenuCommand|Datei → Speichern}}, eine Vorlage zum Gestalten von zu drückenden Tasten, wie **Shift**, eine weitere Vorlage zum Anzeigen eines booleschen Wertes `True` usw. Bitte mache dich mit dem Abschnitt [\#Templates](#Templates.md) vertraut, vor dem Schreiben von Hilfeseiten.
+Vorlagen werden zum Gestalten der Hilfeseiten verwendet. Sie geben der Dokumentation ein einheitliches Aussehen und Gefühl. Es gibt eine Vorlage für Menübefehle, wie **Datei → Speichern**, eine Vorlage zum Gestalten von zu drückenden Tasten, wie **Shift**, eine weitere Vorlage zum Anzeigen eines booleschen Wertes `True` usw. Bitte mache dich mit dem Abschnitt [\#Templates](#Templates.md) vertraut, vor dem Schreiben von Hilfeseiten.
 
-### Temporäre Merker {#temporäre_merker}
+### Temporäre Merker 
 
 Wenn man an einer großen Seite arbeitet, empfiehlt es sich, die Seite entweder als In-Arbeit oder als Unfertig zu kennzeichnen. Dadurch wird sichergestellt, dass die Wiki Administratoren die Seite nicht als Fertig zur Übersetzung markieren, während sie noch häufig geändert wird.
 
@@ -194,7 +194,7 @@ Das Gestalten der FreeCAD Wiki Seiten wird durch die Verwendung von Vorlagen ([H
 
 Klicke auf den Vorlagenverweis, um die Gebrauchsanweisungen für eine Vorlage und ihre Einführung zu sehen. Vorlagen sind eine leistungsstarke Funktion der MediaWiki Software; Du solltest ein erfahrener Wiki Benutzer sein, wenn du Ergänzungen und Änderungen an bestehenden Vorlagen vorschlagen möchtest. Wenn Vorlagen falsch implementiert sind, erschweren sie die Übersetzung von Seiten in andere Sprachen, so dass ihre Verwendung auf die Textformatierung beschränkt werden sollte; Seitentransklusion sollte vermieden werden. Siehe [MediaWiki Hilfe:Vorlagen](https://www.mediawiki.org/wiki/Help:Templates), um mehr zu erfahren.
 
-### Einfache Vorlagen {#einfache_vorlagen}
+### Einfache Vorlagen 
 
 Diese Vorlagen akzeptieren einen einfachen Textparameter und formatieren es mit einem bestimmten Stil.
 
@@ -248,7 +248,7 @@ Diese Vorlagen akzeptieren einen einfachen Textparameter und formatieren es mit 
 |                                                                                                               | , {{true}}             |                                                                                                                                                                                                                                                                                                                |
 +---------------------------------------------------------------------------------------------------------------+--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | [MenuCommand](Template:MenuCommand.md)                                                                |                       | Verwende es, um die Lage eines Befehls innerhalb eines bestimmten Menüs anzugeben.                                                                                                                                                                                                                             |
-|                                                                                                               | {{MenuCommand|Datei → Speichern}}    |                                                                                                                                                                                                                                                                                                                |
+|                                                                                                               | **Datei → Speichern**    |                                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                   |                                                                                                                                                                                                                                                                                                                |
 +---------------------------------------------------------------------------------------------------------------+--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | [FileName](Template:FileName.md)                                                                      |                       | Verwende es, um den Namen einer Datei oder eines Verzeichnisses anzugeben.                                                                                                                                                                                                                                     |
@@ -304,7 +304,7 @@ Diese Vorlagen akzeptieren einen einfachen Textparameter und formatieren es mit 
 |                                                                                                               |                                   |                                                                                                                                                                                                                                                                                                                |
 +---------------------------------------------------------------------------------------------------------------+--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-### Komplexere Vorlagen {#komplexere_vorlagen}
+### Komplexere Vorlagen 
 
 Diese Vorlagen erfordern mehr Eingabeparameter oder erzeugen einen Textblock mit einem bestimmten Format.
 
@@ -415,7 +415,7 @@ Um einen Bildschirmphoto zu erstellen, kannst du die von deinem Betriebssystem b
 
 Um die Übersetzung der Dokumentation zu erleichtern, machen Sie separate Bilder von der Benutzeroberfläche und dem 3D-Modell-Viewport. Das Bild des 3D-Modells kann bei jeder Übersetzung wiederverwendet werden, während ein Übersetzer bei Bedarf ein Bild der lokalisierten Oberfläche machen kann.
 
-### Symbole und Grafiken {#symbole_und_grafiken}
+### Symbole und Grafiken 
 
 Verweise auf die [Illustrationen](Artwork/de.md) Seite für alle Illustrationen und Symbole, die für FreeCAD erstellt wurden und die sofort in den Dokumentationsseiten wiederverwendet werden können. Wenn du mit Symbolen beitragen möchtest, lies bitte die [Richtlinien für Illustrationen](Artwork_Guidelines/de.md).
 
@@ -443,9 +443,9 @@ Weitere hilfreiche Quellen sind:
 -   [Google Translate](http://translate.google.com/): zur Hilfe beim Übersetzen.
 -   [Deepl translator](https://www.deepl.com/translator): zur Hilfe beim Übersetzen.
 
-## Einige Hinweise für Übersetzer {#einige_hinweise_für_übersetzer}
+## Einige Hinweise für Übersetzer 
 
-### GUIBefehl Übersetzen {#guibefehl_übersetzen}
+### GUIBefehl Übersetzen 
 
     {{GuiCommand
     |Name=FEM EquationFluxsolver
@@ -468,7 +468,7 @@ Weitere hilfreiche Quellen sind:
     |SeeAlso=[FEM tutoriel](FEM_tutorial/fr.md)
     }}
 
-### Navi Übersetzen {#navi_übersetzen}
+### Navi Übersetzen 
 
     {{FEM_Tools_navi}}
 
@@ -476,7 +476,7 @@ Weitere hilfreiche Quellen sind:
 
     {{FEM_Tools_navi/fr}}
 
-### Verweis Übersetzen {#verweis_übersetzen}
+### Verweis Übersetzen 
 
     [Part Module](Part_Module.md)
 
@@ -484,7 +484,7 @@ Weitere hilfreiche Quellen sind:
 
     [Atelier Pièces](Part_Module/fr.md)
 
-### Docnav Übersetzen {#docnav_übersetzen}
+### Docnav Übersetzen 
 
     
 
@@ -506,9 +506,9 @@ Beispiel mit Symbolen:
 
 </div>
 
-## Erstellen, umbenennen und löschen von Seiten {#erstellen_umbenennen_und_löschen_von_seiten}
+## Erstellen, umbenennen und löschen von Seiten 
 
-### Seiten erstellen {#seiten_erstellen}
+### Seiten erstellen 
 
 Vor dem Erstellen einer neuen Seiten solltest du zuerst prüfen, ob bereits eine ähnliche Seite existiert. Sollte das der Fall sein, ist es meist besser, die vorhandene Seite zu ändern. Im Zweifel öffne bitte zuerst ein neues Thema im [Wiki-Forum](https://forum.freecadweb.org/viewforum.php?f=21).
 
@@ -517,7 +517,7 @@ Um eine neue Seite zu erstellen, tue eins der folgenden Dinge:
 -   Besuche die URL mit dem gewünschten Seitennamen, z.B.: https://wiki.freecadweb.org/MeineNeueSeite/de, und klicke auf \'Erstellen\'.
 -   Führe eine Wiki-Suche nach dem Seitennamen durch und klicke auf den roten Text in \'Erstelle die Seite \"MeineneueSeite\" in diesem Wiki.\'.
 
-### Seiten umbenennen {#seiten_umbenennen}
+### Seiten umbenennen 
 
 Da FreeCAD ein Projekt ist, das ständig weiterentwickelt wird, ist es manchmal notwendig, den Inhalt des Wikis zu überarbeiten. Wenn die Namen von Befehlen im Quellcode geändert werden, müssen die Wiki Seiten, die sie dokumentieren, ebenfalls umbenannt werden. Dies kann nur von den Wiki Administratoren durchgeführt werden. Um diese zu informieren, eröffne ein Thema im [Wiki Forum](https://forum.freecadweb.org/viewforum.php?f=21) und liste den notwendigen Umbenennungsvorgang in diesem Formular auf:
 
@@ -526,7 +526,7 @@ Da FreeCAD ein Projekt ist, das ständig weiterentwickelt wird, ist es manchmal 
     Old_page_name_2  New_page_name_2
     ...
 
-### Löschen von Dateien und Seiten {#löschen_von_dateien_und_seiten}
+### Löschen von Dateien und Seiten 
 
 Falls du eine Datei löschen musst, gehe auf seine Seite (https://www.freecadweb.org/wiki/File:***.***) und bearbeite sie. Unabhängig davon, ob die Seite leer ist oder nicht, füge diesen Befehl als erstes Element der Seite hinzu: {{Delete}} und beschreibe unmittelbar darunter, warum die Seite gelöscht werden soll. Zusätzlich eröffne ein Thema im [Wiki Forum](https://forum.freecadweb.org/viewforum.php?f=21).
 
@@ -536,13 +536,13 @@ Für Seiten ist das Verfahren dasselbe.
 
 Das [Entwicklung/Wiki Unterforum](http://forum.freecadweb.org/viewforum.php?f=21) im [FreeCAD Forum](https://forum.freecadweb.org) bietet einen speziellen Raum für die Diskussion von Verbesserungen der Wiki Themen und des Erscheinungsbildes. Dort kann man Fragen stellen und Vorschläge anbringen.
 
-## Terminologie - Benennungspolitik {#terminologie___benennungspolitik}
+## Terminologie - Benennungspolitik 
 
 ### Englisch
 
 Siehe [Glossar](Glossary/de.md)
 
-### Andere Sprachen {#andere_sprachen}
+### Andere Sprachen 
 
 -   [Italienisch](Italian_Translation.md)
 -   [Französisch](French_Translation.md)

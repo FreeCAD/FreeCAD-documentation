@@ -1,9 +1,9 @@
 
 {{VeryImportantMessage|pagina in costruzione}}
 
-## Costruzione di contorno completamente vincolato {#costruzione_di_contorno_completamente_vincolato}
+## Costruzione di contorno completamente vincolato 
 
-## Preparare l\'ambiente {#preparare_lambiente}
+## Preparare l\'ambiente 
 
 Come per il caso precedente:
 
@@ -17,7 +17,7 @@ Come per il caso precedente:
 -   Attivare **Snap alla griglia**
 -   Attivare **Vincoli automatici**
 
-## Disegnare le linee di costruzione {#disegnare_le_linee_di_costruzione}
+## Disegnare le linee di costruzione 
 
 -   Selezionare lo strumento **Polilinea** e tracciare un rombo
 -   Con lo strumento **Linea** tracciare la diagonale minore
@@ -31,14 +31,14 @@ Come per il caso precedente:
 
 ![Rombo come linee di Costruzione](images/RomboCostruzione.png )
 
-## Disegnare il contorno {#disegnare_il_contorno}
+## Disegnare il contorno 
 
 -   Avviare lo strumento **arco** e, con centro nei vertici del poligono, tracciare gli archi del contorno utilizzando come limiti i lati del rombo
     -   Notare il prodursi dei **vincoli automatici**
 
 ![Sagoma della Maglia](images/SagomaMaglia.png )
 
-## Stabilire i vincoli {#stabilire_i_vincoli}
+## Stabilire i vincoli 
 
 Come si può vedere nell\'immagine precedente, alcuni vincoli sono attribuiti automaticamente. Ora si tratta di **vincolare completamente** lo schizzo:
 

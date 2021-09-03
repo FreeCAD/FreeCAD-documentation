@@ -18,9 +18,9 @@ Voir [Introduction à Python](Introduction_to_Python/fr.md) pour en savoir plus 
 
 Ici une video sur l\'installation [installing FreeCAD macros in Ubuntu](https://wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
 
-## Le menu Macro et sa barre d\'outils {#le_menu_macro_et_sa_barre_doutils}
+## Le menu Macro et sa barre d\'outils 
 
-### Barre d\'outils {#barre_doutils}
+### Barre d\'outils 
 
 -   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Enregistrement de macro\...](Std_DlgMacroRecord/fr.md)
 -   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Arrêter l\'enregistrement de la macro](Std_MacroStopRecord/fr.md)
@@ -29,7 +29,7 @@ Ici une video sur l\'installation [installing FreeCAD macros in Ubuntu](https://
 
 ### Menu
 
-Outre les outils de la barre d\'outils, les fonctions suivantes sont également disponibles dans le menu {{MenuCommand|Macro}}.
+Outre les outils de la barre d\'outils, les fonctions suivantes sont également disponibles dans le menu **Macro**.
 
 -   [Attach to remote debugger\...](Std_MacroAttachDebugger/fr.md)
 -   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Déboguer la macro](Std_MacroStartDebug/fr.md)
@@ -38,19 +38,19 @@ Outre les outils de la barre d\'outils, les fonctions suivantes sont également 
 -   [Pénétrer dans](Std_MacroStepInto/fr.md)
 -   [Basculer le point d\'arrêt](Std_ToggleBreakpoint/fr.md)
 
-## Répertoires des macros {#répertoires_des_macros}
+## Répertoires des macros 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Les macros sont créées dans un dossier spécifique du répertoire FreeCAD de l\'utilisateur. Ce répertoire peut être configuré dans la [boîte d\'exécution des macros](Std_DlgMacroExecute/fr.md), ou dans [Editeur de préférences](Preferences_Editor/fr.md), via le menu {{MenuCommand|Édition → Préférences → Général → Macro → Paramètres d'enregistrement des macros}}. .
+Les macros sont créées dans un dossier spécifique du répertoire FreeCAD de l\'utilisateur. Ce répertoire peut être configuré dans la [boîte d\'exécution des macros](Std_DlgMacroExecute/fr.md), ou dans [Editeur de préférences](Preferences_Editor/fr.md), via le menu **Édition → Préférences → Général → Macro → Paramètres d'enregistrement des macros**. .
 
 Les macros téléchargées doivent également être placées dans ce répertoire.
 
 
 <div class="mw-collapsible-content">
 
-### Répertoire par défaut {#répertoire_par_défaut}
+### Répertoire par défaut 
 
 Les macros peuvent être simplement copiées dans
 
@@ -73,9 +73,9 @@ Le `$ROOT_DIR` pourrait être le répertoire d\'un utilisateur particulier.
 -   Sous Windows, il s'agit généralement de `C:\Users\username\Application Data\FreeCAD\`.
 -   Sous Mac OSX, il s'agit généralement de `/Users/username/Library/Preferences/FreeCAD/`.
 
-### Configuration du répertoire utilisateur {#configuration_du_répertoire_utilisateur}
+### Configuration du répertoire utilisateur 
 
-1\. Ouvrez le menu {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute/fr.md)}} pour ouvrir la [boîte d\'exécution des macros](Std_DlgMacroExecute/fr.md).
+1\. Ouvrez le menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute/fr.md)** pour ouvrir la [boîte d\'exécution des macros](Std_DlgMacroExecute/fr.md).
 
 ![](images/Dxf_Importer_Install_01.png ) *align=center|Ouverture de la boîte de dialogue de lancement des macro*
 
@@ -112,14 +112,14 @@ Le `$ROOT_DIR` pourrait être le répertoire d\'un utilisateur particulier.
 
 </div>
 
-## Installation de macros {#installation_de_macros}
+## Installation de macros 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Méthode automatique {#méthode_automatique}
+### Méthode automatique 
 
-À partir de FreeCAD 0.17, utilisez le [Addon Manager](Addon_Manager/fr.md) dans {{MenuCommand|Outils → Addon manager}} pour installer une macro incluse dans le répertoire [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros).
+À partir de FreeCAD 0.17, utilisez le [Addon Manager](Addon_Manager/fr.md) dans **Outils → Addon manager** pour installer une macro incluse dans le répertoire [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros).
 
 
 <div class="mw-collapsible-content">
@@ -140,7 +140,7 @@ La méthode recommandée pour installer des addons, c\'est-à-dire [Ateliers ext
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Méthode manuelle 1. Copiez le code dans l\'éditeur de macro {#méthode_manuelle_1._copiez_le_code_dans_léditeur_de_macro}
+### Méthode manuelle 1. Copiez le code dans l\'éditeur de macro 
 
 Pour les macros relativement petites, 300 lignes ou moins, le code peut être copié et collé directement dans l\'éditeur de macros FreeCAD.
 
@@ -157,7 +157,7 @@ S\'il y a une icône personnalisée, téléchargez-la. Cliquez dessus avec le bo
 
 2\. Dans la page macro, sélectionnez le code dans les sections **Script** ou **Macro** et copiez-le.
 
-3\. Dans FreeCAD, ouvrez le menu {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute/fr.md)}} pour ouvrir la [boîte d\'exécution des macros](Std_DlgMacroExecute/fr.md).
+3\. Dans FreeCAD, ouvrez le menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute/fr.md)** pour ouvrir la [boîte d\'exécution des macros](Std_DlgMacroExecute/fr.md).
 
 ![](images/Dxf_Importer_Install_01.png ) *align=center|Ouverture de la boîte de dialogue de lancement des macro*
 
@@ -183,7 +183,7 @@ Redémarrez FreeCAD pour enregistrer correctement la nouvelle macro.
 
 ![](images/Macro_Install_HowTo_27.png ) *align=center|Fenêtre pour confirmer la sauvegarde*
 
-9\. Ouvrez à nouveau le menu, {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute/fr.md)}}, sélectionnez la nouvelle macro et appuyez sur **Exécuter**.
+9\. Ouvrez à nouveau le menu, **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute/fr.md)**, sélectionnez la nouvelle macro et appuyez sur **Exécuter**.
 
 ![](images/Macro_Install_HowTo_21.png ) *align=center|Cliquez sur votre macro pour la jouer*
 
@@ -193,7 +193,7 @@ Redémarrez FreeCAD pour enregistrer correctement la nouvelle macro.
 
 11\. Cette macro doit renvoyer une erreur si aucun document n\'est actif. Les autres macros ouvrent un nouveau document s\'il n\'en existe pas.
 
-Créez un nouveau document avec {{MenuCommand|Fichier → <img src="images/Std_New.svg" width=16px> [Nouveau](Std_New/fr.md)}} puis répétez les étapes précédentes pour exécuter la macro.
+Créez un nouveau document avec **Fichier → <img src="images/Std_New.svg" width=16px> [Nouveau](Std_New/fr.md)** puis répétez les étapes précédentes pour exécuter la macro.
 
 ![](images/Macro_Install_HowTo_23.png ) *align=center|La macro renvoyant une erreur si aucun document n'est actif*
 
@@ -201,11 +201,11 @@ Créez un nouveau document avec {{MenuCommand|Fichier → <img src="images/Std_N
 
 ![](images/Macro_Install_HowTo_24.png ) *align=center|Objet crée par la macro*
 
-13\. Vous pouvez ouvrir à nouveau la macro dans l\'éditeur pour l\'exécuter ou la modifier. Accédez à {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute/fr.md)}}, sélectionnez la macro et appuyez sur **Modifier**.
+13\. Vous pouvez ouvrir à nouveau la macro dans l\'éditeur pour l\'exécuter ou la modifier. Accédez à **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute/fr.md)**, sélectionnez la macro et appuyez sur **Modifier**.
 
 ![](images/Macro_Install_HowTo_25.png ) *align=center|Ouverture de la macro dans l'éditeur*
 
-14\. La macro peut maintenant être exécutée avec {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Lancer la macro](Std_DlgMacroExecuteDirect/fr.md)}} ou en cliquant sur le **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Lancer la macro](Std_DlgMacroExecuteDirect/fr.md)** dans la barre d\'outils.
+14\. La macro peut maintenant être exécutée avec **Macro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Lancer la macro](Std_DlgMacroExecuteDirect/fr.md)** ou en cliquant sur le **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Lancer la macro](Std_DlgMacroExecuteDirect/fr.md)** dans la barre d\'outils.
 
 ![](images/Macro_Install_HowTo_26.png ) *align=center|Exécution de la macro chargée dans l'éditeur*
 
@@ -218,7 +218,7 @@ Créez un nouveau document avec {{MenuCommand|Fichier → <img src="images/Std_N
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Méthode manuelle 2. Ajouter un fichier de macro à partir d\'un fichier .zip compressé {#méthode_manuelle_2._ajouter_un_fichier_de_macro_à_partir_dun_fichier_.zip_compressé}
+### Méthode manuelle 2. Ajouter un fichier de macro à partir d\'un fichier .zip compressé 
 
 Certaines macros sont trop importantes pour être copier-coller dans l\'éditeur de macros être hébergées sur le wiki. Dans ce cas, le code peut être hébergé ailleurs, dans un répertoir Github ou sur le [Forum FreeCAD](https://forum.freecadweb.org/). Le code peut également être compressé dans un fichier `.zip`, tarball `.tar.xz` ou dans un autre type d\'archive s\'il contient plusieurs fichiers. Si le code est distribué de cette manière, l\'archive doit être extraite et les fichiers placés dans le répertoire macros.
 
@@ -259,7 +259,7 @@ unzip your_file.zip -d your_directory
 
 ![](images/Macro_Install_HowTo_05.png ) *align=center|Placer le fichier macro dans le répertoire macro*
 
-7\. Dans FreeCAD, ouvrez le menu {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute/fr.md)}} pour ouvrir la [boîte d\'exécution des macros](Std_DlgMacroExecute/fr.md).
+7\. Dans FreeCAD, ouvrez le menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute/fr.md)** pour ouvrir la [boîte d\'exécution des macros](Std_DlgMacroExecute/fr.md).
 
 ![](images/Macro_Install_HowTo_06.png ) *align=center|Ouverture de la boîte de dialogue de lancement des macro*
 
@@ -280,7 +280,7 @@ unzip your_file.zip -d your_directory
 
 </div>
 
-## Exécuter une macro en ligne de commande {#exécuter_une_macro_en_ligne_de_commande}
+## Exécuter une macro en ligne de commande 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -310,12 +310,12 @@ todo
 
 </div>
 
-## Erreurs dans les macros {#erreurs_dans_les_macros}
+## Erreurs dans les macros 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Exemples de code erroné dû à des erreurs d\'indentation {#exemples_de_code_erroné_dû_à_des_erreurs_dindentation}
+### Exemples de code erroné dû à des erreurs d\'indentation 
 
 L\'espace blanc au début des lignes (indentation) dans le langage de programmation [Python](Python/fr.md) est très important et fait partie intégrante du code. Un espace inapproprié peut empêcher le code de s\'exécuter ou présenter des erreurs.
 
@@ -331,7 +331,7 @@ Une erreur d'indentation typique ressemble à ceci:
 <unknown exception traceback><type 'exceptions.IndentationError'>: ('expected an indented block', ('C:/Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro', 21, 3, 'def priSm(self):\n'))
 ```
 
-#### Exemple 1 {#exemple_1}
+#### Exemple 1 
 
 Si le code manque d\'indentation, le code ne fonctionnera pas. Les définitions de classe (`class`) et de fonction (`def ()`) ainsi que les structures de contrôle (`if`, `while`, `for`) doivent être suivies d\'un bloc de code en retrait.
 
@@ -347,13 +347,13 @@ Si le code est sélectionné, toutes les lignes doivent être mises en surbrilla
 
 ![](images/Macro_Install_HowTo_11.png ) *align=center|Code Python en surbrillance indiquant que toutes les lignes commencent au bord gauche*
 
-#### Exemple 2 {#exemple_2}
+#### Exemple 2 
 
 Si un espace supplémentaire est introduit au début de toutes les lignes, l\'interpréteur Python échouera et se plaindra de l\'indentation inutile. Dans ce cas, toutes les lignes nécessitent la suppression de l\'espace initial.
 
 ![](images/Macro_Install_HowTo_12.png ) *align=center|Code Python avec espace supplémentaire sur chaque ligne*
 
-#### Exemple 3 {#exemple_3}
+#### Exemple 3 
 
 Ici, le code a été copié depuis un fil de forum en utilisant le bouton **Select all**. Apparemment, le choix est bon.
 
@@ -365,17 +365,17 @@ Cependant, lorsque la sélection est collée dans l\'éditeur de macro, une inde
 
 Dans ce cas, les espaces initiaux doivent être supprimés. Cela peut être fait avec un éditeur de texte spécialisé pour réduire rapidement l\'indentation des lignes.
 
-Sous Windows, [++](http://notepad-plus-plus.org/Notepad) peut effectuer une sélection avec **Alt** et le déplacement de la souris, puis utiliser {{MenuCommand|Edit → Indent → Diminuer l'indentation}}.
+Sous Windows, [++](http://notepad-plus-plus.org/Notepad) peut effectuer une sélection avec **Alt** et le déplacement de la souris, puis utiliser **Edit → Indent → Diminuer l'indentation**.
 
 ![](images/Macro_Install_HowTo_16.png ) *align=center|Code Python avec l'indentation correcte*
 
-#### Exemple 4 {#exemple_4}
+#### Exemple 4 
 
 Ici, la sélection sélectionne également les numéros de ligne dans l\'exemple de code. Si cette sélection est collée dans l\'éditeur de macro, cela ne fonctionnera pas. Tous les numéros de ligne doivent être supprimés et les espaces ajustés de manière à ce que le code Python présente l\'indentation appropriée.
 
 ![](images/Macro_Install_HowTo_29.png ) *align=center|Sélection qui sélectionne également les numéros de ligne; si ce code est collé dans l'éditeur de macro, cela ne fonctionnera pas*
 
-#### Bon code {#bon_code}
+#### Bon code 
 
 ![](images/Macro_Install_HowTo_13.png ) *align=center|Code Python avec l'indentation correcte*
 
@@ -388,7 +388,7 @@ Ici, la sélection sélectionne également les numéros de ligne dans l\'exemple
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Pour ceux qui ne voient aucune information s\'afficher {#pour_ceux_qui_ne_voient_aucune_information_safficher}
+### Pour ceux qui ne voient aucune information s\'afficher 
 
 Les macros peuvent générer des informations dans la vue du rapport afin de détailler l\'action du code en cours d\'exécution.
 
@@ -397,7 +397,7 @@ Si aucune information n\'est affichée, assurez-vous que la vue du rapport et la
 
 <div class="mw-collapsible-content">
 
-#### Informations sur l\'impression {#informations_sur_limpression}
+#### Informations sur l\'impression 
 
 Les macros FreeCAD ont deux méthodes pour imprimer des informations dans la vue du rapport.
 
@@ -417,11 +417,11 @@ La simple fonction Python
 print("Hello World!")
 ```
 
-#### Activer l\'affichage du rapport {#activer_laffichage_du_rapport}
+#### Activer l\'affichage du rapport 
 
 Pour voir les informations affichées dans la console, vous devez:
 
-1\. Accédez au menu {{MenuCommand|Affichage → Panneaux}}.
+1\. Accédez au menu **Affichage → Panneaux**.
 
 ![](images/Macro_Install_HowTo_31.png )
 
@@ -435,17 +435,17 @@ Pour voir les informations affichées dans la console, vous devez:
 
 ![](images/Macro_Install_HowTo_34.png ) *align=center|Fenêtre principale de FreeCAD avec la vue Rapport et la console Python*
 
-#### Activer la commande print() {#activer_la_commande_print}
+#### Activer la commande print() 
 
 FreeCAD devra peut-être être configuré pour que la fonction `print()` de [Python](Python/fr.md) redirige correctement sa sortie vers la vue du rapport.
 
 **1 :** cliquez sur le menu **Édition** puis **Préférences**
 
-1\. Allez dans [Editeur de Préférences](Preferences_Editor/fr.md) avec le menu {{MenuCommand|Édition → Préférences}}.
+1\. Allez dans [Editeur de Préférences](Preferences_Editor/fr.md) avec le menu **Édition → Préférences**.
 
 ![](images/Macro_Install_HowTo_35.png ) *align=center|Entrer dans l'éditeur de préférences*
 
-2\. Accédez à la section {{MenuCommand|General}}, puis à {{MenuCommand | Fenêtre de sortie → Interpréteur Python}}.
+2\. Accédez à la section **General**, puis à {{MenuCommand | Fenêtre de sortie → Interpréteur Python}}.
 
 ![](images/Macro_Install_HowTo_36.png ) *align=center|Préférences de la fenêtre de sortie*
 

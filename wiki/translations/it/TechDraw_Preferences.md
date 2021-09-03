@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Le preferenze per l\'ambiente [TechDraw](TechDraw_Workbench/it.md) si trovano nel [Editor delle preferenze](Preferences_Editor/it.md), nel menu {{MenuCommand|Modifica → Preferenze → TechDraw}}.
+Le preferenze per l\'ambiente [TechDraw](TechDraw_Workbench/it.md) si trovano nel [Editor delle preferenze](Preferences_Editor/it.md), nel menu **Modifica → Preferenze → TechDraw**.
 
 
 </div>
@@ -28,7 +28,7 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 <img alt="Preferenze generali" src=images/TechDraw_PreferencesGeneral.png  style="width:350px;">
 
-### Aggiornamento del disegno {#aggiornamento_del_disegno}
+### Aggiornamento del disegno 
 
 
 {{Version/it|0.19}}
@@ -74,7 +74,7 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 -   **Scala delle viste**: Scala predefinita per le nuove viste.
 -   **Scala personalizzata delle viste**: Scala predefinita per le viste se **Scala delle viste** è *Personalizzata*.
 
-### Regolazioni delle dimensioni {#regolazioni_delle_dimensioni}
+### Regolazioni delle dimensioni 
 
 
 <div class="mw-translate-fuzzy">
@@ -92,7 +92,7 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 <img alt="Preferenze per le dimensioni" src=images/TechDraw_PreferencesDimensions.png  style="width:350px;">
 
-### Dimensioni {#dimensioni_1}
+### Dimensioni 
 
 
 <div class="mw-translate-fuzzy">
@@ -195,14 +195,14 @@ HLR sta per *hidden line removal* (rimozione della linea nascosta).
 
 </div>
 
-## Impostazioni nascoste {#impostazioni_nascoste}
+## Impostazioni nascoste 
 
 \'\'\'Note: \'\'\' Da FreeCAD 0.19, tutte le impostazioni sono disponibili nelle finestre di dialogo delle Preferenze. Quanto segue vale solo per le versioni di FreeCAD precedenti alla 0.19:
 
 
 <div class="mw-translate-fuzzy">
 
-Alcune impostazioni delle preferenze sono accessibili solo tramite [Editor dei parametri](Std_DlgParameter/it.md), dal menu {{MenuCommand|Strumenti → Modifica parametri}}.
+Alcune impostazioni delle preferenze sono accessibili solo tramite [Editor dei parametri](Std_DlgParameter/it.md), dal menu **Strumenti → Modifica parametri**.
 
 
 </div>

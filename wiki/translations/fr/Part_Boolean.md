@@ -41,9 +41,9 @@ Voir les commandes individuelles :
 **
     
 
-Voi aussi {{MenuCommand|Part → Create a copy → [Affiner la forme](Part_RefineShape/fr.md)}}.
+Voi aussi **Part → Create a copy → [Affiner la forme](Part_RefineShape/fr.md)**.
 
-## Problèmes coplanaires {#problèmes_coplanaires}
+## Problèmes coplanaires 
 
 Les opérations booléennes sont effectuées par le noyau de géométrie interne, [OpenCASCADE Technology](OpenCASCADE/fr.md) (OCCT). Cette bibliothèque a parfois des problèmes pour produire des résultats booléens lorsque les objets d\'entrée partagent une arête ou une face. Pour être sûr que l\'opération booléenne est réussie, la recommandation est que les formes se croisent clairement. Cela signifie que dans la plupart des cas, une forme doit dépasser ou être plus grande que l\'autre forme.
 

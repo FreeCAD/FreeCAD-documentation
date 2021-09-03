@@ -87,7 +87,7 @@ App.activeDocument().DrawTileWeld001.RightText = "right text"
 App.activeDocument().DrawTileWeld001.CenterText = "center text"
 ```
 
-## Svg Symbol Kacheln {#svg_symbol_kacheln}
+## Svg Symbol Kacheln 
 
 -   Einzelne Symbole werden durch 64x64 Pixel Svg Dateien gebildet. Zusätzliche Symbole können in einem SVG Programm wie z.B. Inkscape [Inkscape](https://en.wikipedia.org/wiki/Inkscape) aus einem der mitgelieferten Symbole als Vorlage erstellt werden.
 

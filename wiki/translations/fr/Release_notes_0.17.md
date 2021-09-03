@@ -15,7 +15,7 @@ Les anciennes notes de publication de FreeCAD peuvent être trouvées dans [List
 <img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
 *Garden Railway Coach O & K (par l\'utilisateur de FreeCAD \"Garden Railway Coach O & K\", voir [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
 
-## Points forts {#points_forts}
+## Points forts 
 
 Deux années se sont écoulées depuis la sortie de la version 0.16 précédente, mais l\'équipe FreeCAD n\'est pas restée inactive pendant ce temps. Plus de 6 800 révisions ont été ajoutées au code source de FreeCAD. A titre de comparaison, c\'est plus de trois fois le travail effectué entre les v0.16 et 0.15! La plupart des ateliers existants ont bénéficié d\'améliorations et deux nouveaux ateliers ont été ajoutés. De nouveaux modules supplémentaires ont également été développés par la communauté. Quelques-uns des points forts :
 
@@ -44,7 +44,7 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
 
 <img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;">
 
-## Atelier Arch (architecture) {#atelier_arch_architecture}
+## Atelier Arch (architecture) 
 
 -   Nouvel outil [Tableur](Arch_Schedule/fr.md): Cet outil a été complètement réécrit et offre maintenant un moyen beaucoup plus flexible de rassembler les données du document dans une feuille de calcul, en utilisant différents types de requêtes, comme compter tous les objets d\'un certain type, ou additionner le volume total d\'une certaine catégorie d\'objets.
 
@@ -74,7 +74,7 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
 
 -   Le support d\'importation pour le format [3DS](Arch_3DS/fr.md) a été ajouté.
 
-## L\'atelier Draft (Planche à dessin) {#latelier_draft_planche_à_dessin}
+## L\'atelier Draft (Planche à dessin) 
 
 -   [Système de groupage Automatique](Draft_AutoGroup/fr.md): L\'atelier Draft dispose désormais d\'un bouton de regroupement automatique dans sa barre d\'outils principale. Une fois activé, tous les objets Draft et Arch nouvellement créés seront automatiquement placés dans ce groupe.
 
@@ -90,7 +90,7 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
 
 <img alt="" src=images/Draft_Label_Preview.png  style="width:640px;">
 
-## Atelier FEM {#atelier_fem}
+## Atelier FEM 
 
 -   FEM Mesh
     -   **L\'objet Gmsh** est un objet maillé qui permet d\'utiliser l\'outil de maillage [Gmsh](http://gmsh.info/) à l\'intérieur de FreeCAD. Diverses options de Gmesh sont supportées.
@@ -159,7 +159,7 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
 
 Quelques images <img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;">
 
-## Atelier Part {#atelier_part}
+## Atelier Part 
 
 -   Le noyau de modélisation géométrique Open Cascade a été mis à jour de la version 6.8.0 à la version 7.2.0 (la version actuelle de l\'OCC peut dépendre de la plateforme / distribution). Cette version apporte beaucoup de corrections de bogues dans les opérations booléennes, l\'algorithme de suppression de ligne cachée, ainsi que l\'ajout de nouvelles fonctionnalités à l\'atelier Part.
 
@@ -179,7 +179,7 @@ Quelques images <img alt="" src=images/bridge-all.png  style="width:640px;"> <im
 
 -   Le nouveau [conteneur Part](Std_Part/fr.md) peut être utilisé pour regrouper la plupart des types de formes et pour les déplacer comme une unité. Il contient également des plans et des axes standard auxquels attacher des objets. Il servira de base pour le futur atelier d\'assemblage en fournissant un moyen de déplacer les pièces. Il est disponible dans tous les ateliers à partir d\'une barre d\'outils avec [Groupe](Std_Group/fr.md).
 
-## Atelier PartDesign (Conception de pièces) {#atelier_partdesign_conception_de_pièces}
+## Atelier PartDesign (Conception de pièces) 
 
 L\'atelier PartDesign a connu d\'importants changements, fruit des efforts conjugués de plusieurs développeurs sur une période de 5 ans. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width:800px;">
 
@@ -191,7 +191,7 @@ L\'atelier PartDesign a connu d\'importants changements, fruit des efforts conju
 
 -   Nouvelle commutation automatique entre PartDesign et Sketcher. Lorsque vous créez une nouvelle esquisse à partir de l\'atelier PartDesign, une fois le support d\'esquisse défini, l\'interface utilisateur bascule automatiquement vers l\'atelier Esquisse et ses outils en mode d\'édition. Lorsque l\'esquisse est fermée, l\'interface utilisateur revient à l\'atelier PartDesign et restaure la vue à son état précédent. Ainsi, les outils Sketcher ont été supprimés des barres d\'outils PartDesign pour libérer de l\'espace pour les nouvelles fonctionnalités PartDesign.
 
-## Atelier Path {#atelier_path}
+## Atelier Path 
 
 L\'atelier Path a été massivement révisé en version 0.17. La révision a vu la suppression de tout le code HeeksCNC plus ancien et le remplacement du wrapper python libarea avec le nouveau module Path-Area. En conséquence, les opérations sont devenues beaucoup plus puissantes, plus rapides, avec une base de code simplifiée.
 
@@ -215,7 +215,7 @@ L\'atelier Path a été massivement révisé en version 0.17. La révision a vu 
 
 -   Les opérations d\'habillage peuvent être utilisées pour affiner les opérations de base et ajouter de la complexité. Des déguisements existent pour les coins [\'dogbone\'](Path_DressupDogbone/fr.md), [balises d\'attente](Path_DressupTag/fr.md), [rampe d\'entrée d\'usinage](Path_DressupRampEntry/fr.md), et [découpage au cutter](Path_DressupDragKnife/fr.md) \'actions de coin\'
 
-## Atelier Sketcher (esquisseur) {#atelier_sketcher_esquisseur}
+## Atelier Sketcher (esquisseur) 
 
 -   Les esquisses peuvent maintenant être attachées de différentes manières, pas seulement aux faces planes comme c\'était le cas auparavant. L\'accrochage perpendiculaire aux bords est particulièrement important, ce qui est utile pour créer des profils pour la fonction [Balayage ](Part_Sweep/fr.md).
 
@@ -253,15 +253,15 @@ L\'atelier Path a été massivement révisé en version 0.17. La révision a vu 
 
 -   Les contraintes horizontales et verticales peuvent être utilisées pour aligner les points sélectionnés.
 
-## Atelier Spreadsheet (Feuille de calcul ou tableur) {#atelier_spreadsheet_feuille_de_calcul_ou_tableur}
+## Atelier Spreadsheet (Feuille de calcul ou tableur) 
 
 -   Un importateur de fichier Excel a été ajouté.
 
-## Atelier Surface {#atelier_surface}
+## Atelier Surface 
 
 -   Une nouvelle addition dans la v0.17, l\'atelier Surface propose (pour l\'instant) 4 commandes fonctionnelles de création de surface.
 
-## Atelier TechDraw (Mise en plan) {#atelier_techdraw_mise_en_plan}
+## Atelier TechDraw (Mise en plan) 
 
 
 <div class="mw-translate-fuzzy">
@@ -279,7 +279,7 @@ L\'atelier Path a été massivement révisé en version 0.17. La révision a vu 
 -   Le dimensionnement est maintenant supporté par de multiples outils de dimensionnement: horizontal, vertical, longueur, radial, diamètre, angulaire.
 -   Outils de décoration: hachures, hachures compatibles avec les spécifications Autodesk PAT, symboles, images.
 
-## Modules Additionnels {#modules_additionnels}
+## Modules Additionnels 
 
 Certains des nouveaux modules de la communauté qui ont été créés.
 

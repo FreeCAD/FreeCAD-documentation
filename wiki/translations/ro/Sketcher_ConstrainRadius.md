@@ -37,7 +37,7 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

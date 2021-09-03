@@ -18,12 +18,12 @@ Polecenie **Mesh CurvatureInfo** wyświetla krzywiznę absolutną [obiektu krzyw
 3.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Mesh_CurvatureInfo.svg" width=16px> [Informacje na temat krzywizny](Mesh_CurvatureInfo.md)
 **
-    -   Wybierz z menu opcję {{MenuCommand|Siatki → Analizuj → <img src="images/Mesh_CurvatureInfo.svg" width=16px> Informacje o krzywiznach}}.
+    -   Wybierz z menu opcję **Siatki → Analizuj → <img src="images/Mesh_CurvatureInfo.svg" width=16px> Informacje o krzywiznach**.
 4.  Kursor zmieni wygląd na ikonę pipety: <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width:20px;">.
 5.  Wybierz punkt na obiekcie krzywizny.
-6.  Opcjonalnie przełącz opcję {{MenuCommand|Adnotacja}} z menu kontekstowego widoku 3D, aby przejść z etykiet tymczasowych na stałe.
+6.  Opcjonalnie przełącz opcję **Adnotacja** z menu kontekstowego widoku 3D, aby przejść z etykiet tymczasowych na stałe.
 7.  Opcjonalnie wybierz więcej punktów na obiektach krzywoliniowych.
-8.  Wybierz opcję {{MenuCommand|Opuść tryb informacyjny}} z menu kontekstowego widoku 3D, aby zakończyć wykonywanie polecenia.
+8.  Wybierz opcję **Opuść tryb informacyjny** z menu kontekstowego widoku 3D, aby zakończyć wykonywanie polecenia.
 
 
 

@@ -24,7 +24,7 @@ Questo tutorial ha lo scopo di insegnare ai principianti di FreeCAD alcune funzi
 -   Modificare una o più dimensioni.
 -   Usare della geometria esterna e usare un piano di riferimento per centrare un foro.
 
-### Usare l\'ambiente [Part Design](PartDesign_Workbench/it.md) per disegnare degli schizzi. {#usare_lambiente_part_design_per_disegnare_degli_schizzi.}
+### Usare l\'ambiente [Part Design](PartDesign_Workbench/it.md) per disegnare degli schizzi. 
 
 Creare un nuovo documento e passare all\'ambiente **<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design'''** usando il [selettore degli ambienti](Getting_started/it#Esplorare_FreeCAD.md) (etichettato con il numero 10 nell\'immagine collegata) o andando al menu *Visualizza → Ambienti*. FreeCAD si avvia con le barre degli strumenti in alto, la vista combinata a sinistra e la vista 3D a destra.
 
@@ -123,7 +123,7 @@ Procedere allo stesso modo con tutti i punti.
 
 Se ancora lo schizzo non diventa verde, verificare che tutte le linee (tranne quella inclinata) abbiano un vincolo <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Orizzontale](Sketcher_ConstrainHorizontal/it.md) o <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Verticale](Sketcher_ConstrainVertical/it.md), e aggiungerlo se manca.
 
-### Usare le funzioni Estrusione e Tasca {#usare_le_funzioni_estrusione_e_tasca}
+### Usare le funzioni Estrusione e Tasca 
 
 Fare clic su **Chiudi** nella scheda Azioni, nell\'angolo in alto a sinistra. Con questo comando si esce automaticamente dall\'ambiente Sketcher e viene di nuovo attivato l\'ambiente Part Design . La vista combinata torna alla scheda Modello. Se *Body part1* era rimasto espanso, ora si vede il nuovo elemento **Schizzo** sotto *Origine*, e annidato sotto il Corpo.
 
@@ -157,7 +157,7 @@ Chiudere lo schizzo; nell\'albero del modello, sotto Pad viene visualizzato il n
 
 Tasca è una funzione chiamata \"sottrattiva\", rimuove il materiale dalla parte, qui sotto forma di un cilindro poiché lo schizzo è un cerchio. Impostare \"Attraverso tutto\" per tagliare completamente la parte. Premere **OK** per completare. Nell\'albero del modello, sotto Body part1 viene visualizzato un nuovo elemento con l\'etichetta **Pocket** che si basa su Sketch001.
 
-### Cambiare colore e trasparenza {#cambiare_colore_e_trasparenza}
+### Cambiare colore e trasparenza 
 
 È possibile cambiare il colore della parte, spesso è utile distinguere una parte tra le altre. Può anche essere modificata la trasparenza del pezzo, il che è utile per visualizzare i suoi interni.
 
@@ -167,7 +167,7 @@ Ora, all\'interno della parte è visibile il foro. Questo spesso è utile per ve
 
 È inoltre possibile variare \"Colore linea\" e \"Larghezza linea\" per modificare lo spessore della linea e il colore del contorno della parte.
 
-### Muovere manualmente la parte {#muovere_manualmente_la_parte}
+### Muovere manualmente la parte 
 
 Andare al menu *Visualizza* e selezionare *Origine degli assi*. Questi sono gli assi assoluti. Nella vista 3D appaiono i 3 assi X, Y e Z in rosso, verde e blu. Questo punto di riferimento aiuta l\'orientamento nello spazio. Questo punto di riferimento è fisso e immutabile, è la vista che ruota o l\'oggetto che ruota in questo spazio.
 
@@ -185,7 +185,7 @@ Afferrare e trascinare i coni lungo gli assi o le sfere per muovere il corpo in 
 
 Convalidare. Quindi reimpostare gli angoli e le coordinate su 0.
 
-### Visualizzare quote di riferimento nello schizzo {#visualizzare_quote_di_riferimento_nello_schizzo}
+### Visualizzare quote di riferimento nello schizzo 
 
 Potrebbe essere utile conoscere le dimensioni di alcune parti dello schizzo, dal calcolo interno di FreeCAD. Può essere utilizzato solo come riferimento o, ad esempio, utilizzato in seguito per impostare altre dimensioni.
 
@@ -199,7 +199,7 @@ Ad esempio si può vedere che l\'arco ha una lunghezza di 20 poiché è tangente
 
 Si può anche vedere che FreeCAD calcola la faccia sinistra (50-50xTAN 30 °), così come la dimensione della distanza dell\'asse dell\'arco con l\'origine.
 
-### Modificare una o più dimensioni {#modificare_una_o_più_dimensioni}
+### Modificare una o più dimensioni 
 
 Durante la modellazione, è possibile variare le dimensioni del modello. È molto semplice: per lo spessore del pezzo, fare doppio clic su Pad, quindi inserire un nuovo valore, ad esempio 40 mm. È possibile modificare anche questo valore anche nella parte inferiore della vista combinata. Convalidare e la forma dell\'oggetto viene cambiata.
 
@@ -207,7 +207,7 @@ Fare lo stesso per la lunghezza totale del pezzo: fare doppio clic su Schizzo, q
 
 Si vede che il pezzo è stato ingrandito, ma il foro non è più centrato nel centro della faccia superiore. Questo perché il foro è stato vincolato all\'origine dello schizzo. Il che non corrisponde necessariamente a ciò che si vorrebbe, il foro dovrebbe rimanere al centro, qualunque sia la dimensione della faccia.
 
-### Centra il foro {#centra_il_foro}
+### Centra il foro 
 
 **Primo metodo che utilizza la geometria esterna.**
 

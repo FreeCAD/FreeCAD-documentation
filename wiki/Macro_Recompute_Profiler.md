@@ -160,7 +160,7 @@ run()
 
 
 
-## Post-processing results {#post_processing_results}
+## Post-processing results 
 
 The output of the macro will be interleaved with general messages produced by recomputing features. It generally looks like this:  {{code|code=
 Recomputing... (time in seconds, label)
@@ -197,7 +197,7 @@ Sketcher::Solve()-DogLeg-T:0
 ...
 }} (For MS-Excel, pasting right after copying text from report view doesn\'t split it into columns, don\'t know why\... pasting the text to Notepad and re-copying it from Notepad and pasting to excel helps.)
 
-## FC version {#fc_version}
+## FC version 
 
 This macro requires FreeCAD no less than 0.17.10644, which was the version where App.ActiveDocument.RecomputesFrozen became available. It might be functional with a bit older FreeCAD, but certainly won\'t work with v0.16.
 

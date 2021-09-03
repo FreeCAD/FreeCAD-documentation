@@ -61,7 +61,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 
 -   Erstellt eine neue Seite im aktuellen Dokument
 
-### Editierbare Textfelder {#editierbare_textfelder}
+### Editierbare Textfelder 
 
 
 **Siehe auch:**

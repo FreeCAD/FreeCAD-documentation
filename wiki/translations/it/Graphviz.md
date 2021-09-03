@@ -61,7 +61,7 @@ brew install graphviz
 
 <div class="mw-translate-fuzzy">
 
-Questo installa i binari graphviz in /usr/local/bin. Purtroppo non è possibile esplorare quella posizione direttamente dalla finestra di dialogo sui file che si apre con {{MenuCommand|Strumenti → Grafico delle dipendenze...}}.
+Questo installa i binari graphviz in /usr/local/bin. Purtroppo non è possibile esplorare quella posizione direttamente dalla finestra di dialogo sui file che si apre con **Strumenti → Grafico delle dipendenze...**.
 
 Quando si ottiene la finestra di selezione dei file utilizzare i tasti Cmd+Shift+G per ottenere un campo di input per il percorso. Inserire
 
@@ -98,7 +98,7 @@ dot is /usr/local/bin/dot
 
 <div class="mw-translate-fuzzy">
 
-1.  Andare nel menu {{MenuCommand|Strumenti → Grafico delle dipendenze...}}.
+1.  Andare nel menu **Strumenti → Grafico delle dipendenze...**.
 2.  Nella [vista principale](Main_view_area/it.md) si apre una nuova finestra dal titolo **Grafico delle dipendenze**.
 3.  Utilizzare la rotellina del mouse per ingrandire o rimpicciolire il grafico.
 4.  Utilizzare il dispositivo di scorrimento orizzontale nella parte inferiore dello schermo per scorrere la vista lateralmente.
@@ -111,11 +111,11 @@ dot is /usr/local/bin/dot
 È possibile salvare un grafico delle dipendenze:
 
 1.  Assicurarsi che la scheda del grafico delle dipendenze sia in primo piano.
-2.  Selezionare l\'opzione {{MenuCommand|File → [Salva](Std_Save/it.md)}} o {{MenuCommand|File → [Salva con nome](Std_SaveAs/it.md)}} dal menu.
+2.  Selezionare l\'opzione **File → [Salva](Std_Save/it.md)** o **File → [Salva con nome](Std_SaveAs/it.md)** dal menu.
 3.  Immettere un nome per il file e selezionare il tipo di file (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg or \*.pdf).
 4.  Premere il pulsante **Salva**.
 
-## Principi generali {#principi_generali}
+## Principi generali 
 
 
 <div class="mw-translate-fuzzy">

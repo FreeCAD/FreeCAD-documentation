@@ -21,7 +21,7 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 1.  Optionally select one or more objects.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Clone.svg" width=16px> [Draft Clone](Draft_Clone.md)** button.
-    -   Select the {{MenuCommand|Modification → <img src="images/Draft_Clone.svg" width=16px> Clone}} option from the menu.
+    -   Select the **Modification → <img src="images/Draft_Clone.svg" width=16px> Clone** option from the menu.
     -   Use the keyboard shortcut: **C** then **L**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 

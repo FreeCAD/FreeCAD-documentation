@@ -8,7 +8,7 @@ Ci sono state molte discussioni nel corso degli anni sulle differenze e le ramif
 
 Parliamo di queste differenze.
 
-## Concetti dell\'ambiente Part {#concetti_dellambiente_part}
+## Concetti dell\'ambiente Part 
 
 L\'ambiente Part è essenzialmente un modellatore di [Geometrie solide](Constructive_solid_geometry/it.md). L\'operatore combina varie primitive per finire con una rappresentazione della forma desiderata. (In effetti, l\'ambiente Part va un passo oltre le primitive e permette all\'operatore di usare un\'operazione di schizzo+estrusione (o schizzo+rivoluzione, loft, sweep\...) per creare anche forme casuali). Quando ogni primitiva o forma viene creata, non ha alcuna relazione con gli altri oggetti creati (tranne gli schizzi e i loro allegati), è un singolo solido isolato.
 
@@ -18,7 +18,7 @@ Questa condizione rimane tale fino a quando l\'operatore usa delle operazioni pe
 
 Il risultato è la parte solida singola e la combinazione delle parti.
 
-## Concetti dell\'ambiente PartDesign {#concetti_dellambiente_partdesign}
+## Concetti dell\'ambiente PartDesign 
 
 Nell\'ambiente PartDesign l\'oggetto Body è costruito direttamente come un singolo solido cumulativo isolato.
 
@@ -48,7 +48,7 @@ Se Tip su *Pad*, il solido estruso può esistere separatamente, ma se Tip su *Co
 
 (Un\'altra cosa menzionata spesso è che un Corpo **\'\' DEVE**\'\' essere un singolo solido contiguo. Questo significa che tutta la geometria creata da una caratteristica nel Corpo *deve* toccare il suo predecessore).
 
-## Le conseguenze {#le_conseguenze}
+## Le conseguenze 
 
 Anche se non è raccomandato ai nuovi utenti, è possibile combinare gli strumenti di Part WB e PartDesign WB, purché si sappia cosa si sta facendo. Per esempio :
 
@@ -58,7 +58,7 @@ In un certo senso, dal punto di vista dell\'ambiente Part, il corpo rappresenta 
 
 E può diventare ancora più complicato. Se si crea un nuovo corpo e vi si trascina il risultato del paragrafo precedente, si crea un BaseObject. E su questo si può andare ad usare gli strumenti dell\'ambiente PartDesign.
 
-## Le avvertenze {#le_avvertenze}
+## Le avvertenze 
 
 C\'è un\'avvertenza con la Punta (ultima funzione sul solido) e la sua rappresentazione del singolo solido nel Corpo. Se la punta è una caratteristica sottrattiva ed è usata in un\'operazione estetica, per esempio uno Specchio, lo Specchio sta operando sulla caratteristica sottostante (una tasca per esempio). Così il solido cumulativo non viene specchiato, ma la caratteristica sottrattiva sì. Il risultato di questo deve creare un unico solido.
 

@@ -28,12 +28,12 @@ L\'outil de balayage est similaire à l\'outil <img alt="" src=images/Part_Loft.
 4.  Définir les options [Solide](#Solide.md) et [Frenet](#Frenet.md).
 5.  Cliquer sur **OK**.
 
-### Accepted geometry {#accepted_geometry}
+### Accepted geometry 
 
 
 <div class="mw-translate-fuzzy">
 
-### Géométries acceptées {#géométries_acceptées}
+### Géométries acceptées 
 
 -   **Profils** : peuvent être un point (sommet), ligne (Arête), filaire ou une face. Arêtes et filaires peuvent être soit ouverts ou fermés. Il existe différentes [Limitations et complications du profil](Part_Sweep/fr#Profil:_Limitations_et_complications.md), voir ci-dessous, les profils peuvent provenir des primitives de l\'atelier Part, d\'une représentation de l\'atelier Draft (planche à dessin) et d\'un Sketch (Esquisse).
 
@@ -65,7 +65,7 @@ Si \"Solide\" est défini à \"true\" (vrai), FreeCAD crée un solide, pourvu qu
 
 <div class="mw-translate-fuzzy">
 
-### Frenet {#frenet_1}
+### Frenet 
 
 <img alt="Sweep Frenet" src=images/Sweep-frenet-comp.png  style="width:500px;"> Les propriétés \"Frenet\" contrôlent la façon dont l\'orientation du profil change quand il suit la trajectoire de balayage. Si \"Frenet\" est \"false\" (faux), l\'orientation du profil est maintenu cohérent point à point. La déformation minimum a la torsion. Non intuitivement, lorsqu\'un profil est balayé le long d\'une hélice, il en résulte une orientation du profil glissant lentement (en rotation), quand il suit l\'hélice. Régler \"Frenet\" a \"true\", on évite ce genre de dérive.
 
@@ -79,19 +79,19 @@ Si \"Frenet\" est à \"true\", l\'orientation du profil est calculée à partir 
 
 <div class="mw-translate-fuzzy">
 
-### Transition {#transition_1}
+### Transition 
 
 \"Transition\" définit le style de transition du Balayage joint dans le chemin, si le chemin ne définit pas la transition d\'angle (par exemple, lorsque le chemin est un fil). La propriété n\'est pas indiquée dans le [Panneau des tâches](Task_panel/fr.md) et peut être trouvée dans les propriétés après que le Balayage a été créé.
 
 
 </div>
 
-## Profile limitations and complications {#profile_limitations_and_complications}
+## Profile limitations and complications 
 
 
 <div class="mw-translate-fuzzy">
 
-## Profil: Limitations et complications {#profil_limitations_et_complications}
+## Profil: Limitations et complications 
 
 -   Un sommet ou un point
     -   Un sommet ou un point ne peuvent être utilisés comme le premier et / ou le dernier profil dans la liste des profils.
@@ -129,7 +129,7 @@ Si \"Frenet\" est à \"true\", l\'orientation du profil est calculée à partir 
 
 <div class="mw-translate-fuzzy">
 
-## Links {#links_1}
+## Links 
 
 -   Puisque la fonction Balayage est souvent utilisée pour créer des filets de vis, nous vous suggérons la lecture du [Tutoriel création de vis](Thread_for_Screw_Tutorial/fr.md).
 

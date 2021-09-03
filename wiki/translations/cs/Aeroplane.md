@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## První kroky {#první_kroky}
+## První kroky 
 
 Budeme pracovat v [pracovní ploše Díl](Part_Workbench/cs.md) - vyberte ji z menu Pohled-\>Pracovní plocha-\>Díl nebo ze selektoru pracovních ploch.
 
@@ -67,7 +67,7 @@ Pokud nejste obeznámeni s prací s osami XYZ pak si pohrajte s čísly v poli P
 
 </div>
 
-## Další kroky {#další_kroky}
+## Další kroky 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
 

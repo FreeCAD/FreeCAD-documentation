@@ -15,15 +15,15 @@ Toutes les opérations créent des objets qui font partie d\'une **<img src="ima
 
 Voici les opérations disponibles:
 
-### Opération de contour {#opération_de_contour}
+### Opération de contour 
 
 Une opération **Contour** est la valeur par défaut. Elle crée une simple découpe de contour externe d\'objets 3D complexes basés sur <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md). Le modèle entier de la Tâche sert d\'entrée pour l\'opération, que la géométrie du corps soit sélectionnée ou non lorsque la commande Contour est appelée.
 
-### Opération Profile Face {#opération_profile_face}
+### Opération Profile Face 
 
 Une opération **Profile Face** crée un tracé de contour simple à partir d\'une ou plusieurs faces sélectionnées d\'un objet.
 
-### Opération Profile Edges {#opération_profile_edges}
+### Opération Profile Edges 
 
 Une opération **Profile Edges** crée un tracé de contour simple à partir des arêtes sélectionnées.
 
@@ -37,7 +37,7 @@ Une opération **Profile Edges** crée un tracé de contour simple à partir des
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Path_Profile.svg" width=16px> [Profile](Path_Profile/fr.md)
 **
-    -   Utilisez l\'entrée {{MenuCommand|Path → Profile}} dans le menu Path
+    -   Utilisez l\'entrée **Path → Profile** dans le menu Path
 2.  Activez la section Géométrie de base en cliquant sur son onglet et sélectionnez des entités dans le modèle de tâche.
     -   Si aucune caractéristique n\'est sélectionnée, l\'outil **<img src="images/Path_Profile.svg" width=16px> [Profile](Path_Profile/fr.md)** utilise par défaut une opération **Contour**, contourant l\'ensemble modèle.
     -   Si des faces sont sélectionnées, le résultat est une opération **Profile Face**.
@@ -52,11 +52,11 @@ Une opération **Profile Edges** crée un tracé de contour simple à partir des
 
 **Remarque importante: Path Profilage ne prend pas en charge les autres détails de l\'objet. Vous devez ajuster les propriétés, en particulier la profondeur finale, avec soin, une erreur pourrait endommager votre pièce**.
 
-Un point de départ peut être activé à partir de l\'onglet Opération dans l\'éditeur de fenêtre de tâches, en utilisant un emplacement défini dans {{MenuCommand|Property View → Data → Start Point}}.
+Un point de départ peut être activé à partir de l\'onglet Opération dans l\'éditeur de fenêtre de tâches, en utilisant un emplacement défini dans **Property View → Data → Start Point**.
 
 Apportez des ajustements supplémentaires à l\'opération en modifiant les propriétés de l\'opération dans l\'onglet Données de la vue des propriétés. Les propriétés avancées seront situées ici, le cas échéant.
 
-## Remarques d\'utilisation {#remarques_dutilisation}
+## Remarques d\'utilisation 
 
 -   L\'opération **<img src="images/Path_Profile.svg" width=16px> [Profil](Path_Profile/fr.md)** est capable de profiler **bords ouverts** (une ou plusieurs arêtes continues qui ne forme une boucle vue de la *vue de dessus*)
     -   Il est préférable de sélectionner les bords supérieurs (bords les plus hauts) pour la sélection. Après cela, vous devrez définir manuellement la profondeur finale de l\'opération. La sélection des bords inférieurs uniquement est imprévisible et renverra probablement des trajectoires indésirables dans de nombreuses situations ; cependant, elle renverra des trajectoires correctes dans certaines situations.
@@ -190,7 +190,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Reverse Direction}}: inverse l\'orientation de l\'opération de 180 degrés.
 
-#### Point de départ {#point_de_départ}
+#### Point de départ 
 
 -    {{PropertyData/fr|Start Point}}: point de départ personnalisé pour le chemin de cette opération.
 
@@ -211,11 +211,11 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Use Start Point}}: Mis à True, si vous spécifiez manuellement un point de départ. Définissez le point de départ dans le champ Point de départ des données de propriété.
 
-## Présentation de l\'éditeur de fenêtre de tâches {#présentation_de_léditeur_de_fenêtre_de_tâches}
+## Présentation de l\'éditeur de fenêtre de tâches 
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-#### Géométrie de base {#géométrie_de_base}
+#### Géométrie de base 
 
 -   **Add**: ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
 -   **Delete**: supprime le ou les éléments sélectionnés dans la liste emplacement de base.

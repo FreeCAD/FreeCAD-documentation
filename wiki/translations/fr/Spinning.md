@@ -14,7 +14,7 @@ La commande **Std Vue en rotation** fera tourner la caméra en continu dans une 
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Outils → <img src="images/Std_DemoMode.svg" width=16px> Vue en rotation...}} dans le menu.
+1.  Sélectionnez l\'option **Outils → <img src="images/Std_DemoMode.svg" width=16px> Vue en rotation...** dans le menu.
 2.  La boîte de dialogue View Turntable s\'ouvre.
 3.  Déplacez le curseur **Angle** pour incliner le plateau tournant virtuel de la caméra.
 4.  Déplacez le curseur **Vitesse** pour régler la vitesse de rotation de la caméra.

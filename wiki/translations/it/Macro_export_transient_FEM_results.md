@@ -16,11 +16,11 @@ This macro exports multiple FEM result objects from a transient analysis to the 
 
 A transient analysis in FreeCAD ends up with a bunch of FEM result objects, one for each timestamp. The individual results can be investigated directly in FreeCAD and be post-processed using [pipelines](FEM_PostPipelineFromResult.md). However, the possibilities within FreeCAD are still limited, especially for transient analyses. A better tool for post-processing and visualisation is ParaView. You can export single FEM result objects from FreeCAD as a .vtk or .vtu file, which can then be opened with ParaView. Unfortunately, the FEM workbench doesn\'t support the export of multiple .vtk files at one time (yet). That\'s where this macro comes into play.
 
-## How to use (experienced users) {#how_to_use_experienced_users}
+## How to use (experienced users) 
 
 Run the macro on a FreeCAD project that includes several FEM result objects from a transient analysis. Besides the .FCStd file, a new folder \'vtk-export\' will be created, containing the individual results (.vtu files), and a .pvu file that can be opened from ParaView.
 
-## How to use (step-by-step with example) {#how_to_use_step_by_step_with_example}
+## How to use (step-by-step with example) 
 
 As an example, the bending of a aluminium/steel bimetal strip is used. A step-by-step guide to create the sample file is given [here](Transient_FEM_analysis.md), or you can download the file from the [downloads section](#Downloads.md) of this page. Save the FCMacro file in the FreeCAD macro folder, which can be found via Edit → Preferences → General → Macro.
 

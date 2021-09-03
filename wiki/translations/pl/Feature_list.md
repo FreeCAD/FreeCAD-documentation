@@ -5,7 +5,7 @@ Jest to obszerną, ale nie kompletna lista funkcji, realizowanych przez program 
 
 {{TOCright}}
 
-## Informacje o wydaniu {#informacje_o_wydaniu}
+## Informacje o wydaniu 
 
 -   [Wydanie 0.11](Release_notes_011.md) - Marzec 2011
 -   [Wydanie 0.12](Release_notes_012.md) - Grudzień 2011
@@ -18,7 +18,7 @@ Jest to obszerną, ale nie kompletna lista funkcji, realizowanych przez program 
 -   [Wydanie 0.19](Release_notes_0.19/pl.md) - Marzec 2021
 -   [Wydanie 0.20](Release_notes_0.20.md) -
 
-## Główne cechy {#główne_cechy}
+## Główne cechy 
 
 -   ![](images/Feature1.jpg ) Kompletne **jądro geometrii** bazujące na [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE) umożliwiający kompleksowe operacje 3D na złożonych typach kształtów, z natywnym wsparciem dla koncepcji takich jak [Boundary Representation](https://en.wikipedia.org/wiki/Boundary_representation) *(BREP)*, [Non-uniform rational basis spline](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) *(NURBS)* krzywe i powierzchnie, szeroki zakres kształtów geometrycznych, operacje boolean [fillets](https://en.wikipedia.org/wiki/Fillet_(mechanics)), oraz wbudowana obsługa formatów [STEP](https://en.wikipedia.org/wiki/ISO_10303) i [IGES](https://en.wikipedia.org/wiki/IGES).
 -   ![](images/Feature3.jpg ) Pełny **model parametryczny**. Wszystkie obiekty FreeCAD są naturalnie parametryczne, co oznacza, że ich kształt może być oparty na [właściwości](Property/pl.md) lub nawet zależny od innych obiektów. Wszystkie zmiany są przeliczane na żądanie i rejestrowane przez stos cofnij/przywróć. Nowe typy obiektów mogą być dodawane w prosty sposób, a nawet mogą być [w pełni oprogramowane w środowisku Python](Scripted_objects/pl.md).
@@ -32,7 +32,7 @@ Jest to obszerną, ale nie kompletna lista funkcji, realizowanych przez program 
 -   ![](images/Feature-CAM.jpg ) Środowisko pracy [Path](Path_Workbench/pl.md) dedykowane do obróbki mechanicznej dla [Computer Aided Manufacturing](https://en.wikipedia.org/wiki/Computer-aided_manufacturing) *(CAM)*. Korzystając z modułu Ścieżka, można tworzyć, wyświetlać i modyfikować [G-code](http://en.wikipedia.org/wiki/G-code) używany do sterowania maszyną docelową.
 -   ![](images/Feature_spreadsheet.png ) Środowisko pracy [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md) oraz [parser wyrażeń](Expressions/pl.md), które można wykorzystać do obsługi modeli danych opartych na formułach i organizowania danych modelu w centralnej lokalizacji.
 
-## Cechy ogólne {#cechy_ogólne}
+## Cechy ogólne 
 
 -   **Wieloplatformowość**. FreeCAD działa i zachowuje się dokładnie tak samo na platformach takich jak Linux, MacOS, Windows i innych.
 
@@ -84,11 +84,11 @@ Jest to obszerną, ale nie kompletna lista funkcji, realizowanych przez program 
 
 -   **modułowy instalator MSI**. Instalator FreeCAD umożliwia elastyczną instalację w systemach Windows. Utrzymywane są również pakiety dla systemów Ubuntu.
 
-## W rozwoju {#w_rozwoju}
+## W rozwoju 
 
 -   ![](images/Feature-assembly.jpg ) Środowisko pracy [Złożenie](Assembly_project/pl.md) które umożliwia pracę z wieloma projektami, wieloma kształtami, wieloma dokumentami, wieloma plikami, wieloma powiązaniami\... Moduł ten jest obecnie w stanie planowania.
 
-## Dodatkowe Środowiska pracy {#dodatkowe_środowiska_pracy}
+## Dodatkowe Środowiska pracy 
 
 Power użytkownicy stworzyli różne niestandardowe [zewnętrzne środowiska pracy](External_workbenches/pl.md).
 

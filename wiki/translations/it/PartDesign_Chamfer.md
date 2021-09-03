@@ -37,7 +37,7 @@ Questo strumento applica degli smussi ai bordi di un oggetto selezionato. All\'a
 
 <div class="mw-translate-fuzzy">
 
-## Lo smusso di PartDesign e smusso di Parte {#lo_smusso_di_partdesign_e_smusso_di_parte}
+## Lo smusso di PartDesign e smusso di Parte 
 
 **Lo smusso di PartDesign non deve essere confuso con lo [smusso di Part](Part_Chamfer/it.md)**. Anche se condividono la stessa icona, questi strumenti sono diversi e si utilizzano in modo diverso. La differenza principale è che lo smusso di PartDesign crea una voce smusso separata (seguita da un numero sequenziale se esistono già smussi) nella struttura del progetto per il corpo corrente. Lo smusso di Part diventa il genitore dell\'oggetto a cui è stato applicato.
 

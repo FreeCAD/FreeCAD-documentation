@@ -18,7 +18,7 @@
 
 The AeroFoil Macro can be downloaded using the in-built [Addon Manager](Std_AddonMgr.md) within the FreeCAD software.
 
-####  Key Features {#key_features}
+####  Key Features 
 
 -   Airfoil points refinement
 -   Multiple airfoil copy generation
@@ -32,7 +32,7 @@ The AeroFoil Macro can be downloaded using the in-built [Addon Manager](Std_Addo
 -   DAT text file and CSV spreadsheet data parser
 -   Chord length input in mm, cm, m, in., ft, and yards
 
-####  Additional Features <small>(v0.19)</small>  {#additional_features}
+####  Additional Features <small>(v0.19)</small>  
 
 AeroFoil object properties *(read-only)* :
 {{Properties Title|Base}}
@@ -99,7 +99,7 @@ By default, the FreeCAD User Macro directory should be located at :
 AeroFoil can be loaded by performing the following steps :-
 
 1.  Launch the **FreeCAD** application.
-2.  Go to {{MenuCommand|Macro → Macros ...}}.
+2.  Go to **Macro → Macros ...**.
 3.  Click on the **User macros** tab in the pop-up dialog box.
 4.  Select {{FileName|AeroFoil.FCMacro}}.
 5.  Click on **Execute**.
@@ -114,7 +114,7 @@ Once the AeroFoil macro has been loaded, follow the instructions in the respecti
           
   ------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-####  Hints to keep in mind during usage : {#hints_to_keep_in_mind_during_usage}
+####  Hints to keep in mind during usage : 
 
 1.  For the NACA airfoils, the last two digits (combined) cannot have a value of zero; thickness cannot be a zero value.
 2.  The NACA 5-digit airfoils are limited to the following models (\'XX\' denotes the last two digits, thickness, of the airfoil) :

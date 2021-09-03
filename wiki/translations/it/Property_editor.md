@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-L\'[editore delle proprietà](property_editor/it.md) appare quando è attiva la scheda {{MenuCommand|Modello}} della vista combinata; consente di gestire le proprietà degli oggetti nel documento.
+L\'[editore delle proprietà](property_editor/it.md) appare quando è attiva la scheda **Modello** della vista combinata; consente di gestire le proprietà degli oggetti nel documento.
 
 
 </div>
@@ -43,7 +43,7 @@ Non tutte le proprietà possono sempre essere modificate; a seconda dello stato 
 
 *Editore delle proprietà vuoto, quando nessun oggetto è selezionato.*
 
-## Tipi di proprietà {#tipi_di_proprietà}
+## Tipi di proprietà 
 
 Una proprietà è un\'informazione come un numero o una stringa di testo allegata a un documento di FreeCAD o ad un oggetto del documento.
 
@@ -64,27 +64,27 @@ App::PropertyPlacement
 
 Oggetti diversi possono avere tipi di proprietà diverse. Tuttavia, molti oggetti hanno gli stessi tipi perché sono derivati dalla stessa classe interna. Ad esempio, la maggior parte degli oggetti che descrivono le forme geometriche (linee, cerchi, rettangoli, corpi solidi, parti importate, ecc.) hanno la proprietà \"Posizionamento\" che definisce la loro posizione nella [Vista 3D](3D_view/it.md).
 
-## Proprietà Vista e Dati {#proprietà_vista_e_dati}
+## Proprietà Vista e Dati 
 
 Ci sono due classi di proprietà delle funzioni accessibili tramite le schede nell\'editore delle proprietà:
 
--   Proprietà {{MenuCommand|Vista}} relative all\'aspetto \"visivo\" dell\'oggetto. Le proprietà {{MenuCommand|Vista}} sono legate all\'attributo **ViewProvider** (`ViewObject`) dell\'oggetto e sono accessibili solo quando viene caricata l\'interfaccia utente grafica (GUI). Non sono accessibili quando si utilizza FreeCAD in modalità console o come libreria senza testa.
--   Proprietà {{MenuCommand|Dati}} relative ai parametri \"fisici\" dell\'oggetto. Le proprietà {{MenuCommand|Dati}} definiscono le caratteristiche essenziali dell\'oggetto; esistono sempre, anche quando FreeCAD viene utilizzato in modalità console o come libreria. Ciò significa che se si carica un documento in modalità console, è possibile modificare il raggio di un cerchio o la lunghezza di una linea, anche se non è possibile visualizzare il risultato sullo schermo.
+-   Proprietà **Vista** relative all\'aspetto \"visivo\" dell\'oggetto. Le proprietà **Vista** sono legate all\'attributo **ViewProvider** (`ViewObject`) dell\'oggetto e sono accessibili solo quando viene caricata l\'interfaccia utente grafica (GUI). Non sono accessibili quando si utilizza FreeCAD in modalità console o come libreria senza testa.
+-   Proprietà **Dati** relative ai parametri \"fisici\" dell\'oggetto. Le proprietà **Dati** definiscono le caratteristiche essenziali dell\'oggetto; esistono sempre, anche quando FreeCAD viene utilizzato in modalità console o come libreria. Ciò significa che se si carica un documento in modalità console, è possibile modificare il raggio di un cerchio o la lunghezza di una linea, anche se non è possibile visualizzare il risultato sullo schermo.
 
 
 <div class="mw-translate-fuzzy">
 
-Per questo motivo, le proprietà {{MenuCommand|Dati}} sono considerate più \"reali\", in quanto definiscono veramente la geometria di una forma. Invece le proprietà {{MenuCommand|Vista}} sono meno importanti perché influenzano solo l\'aspetto della geometria. Ad esempio, un cerchio di raggio di 10 mm è diverso da un cerchio di raggio di 5 mm; il colore del cerchio (proprietà vista) non influisce sulla sua forma, ma il raggio (proprietà dati) sì. In molti casi in questa documentazione, si intende che la parola \"proprietà\" si riferisce a una \"proprietà dati\".
+Per questo motivo, le proprietà **Dati** sono considerate più \"reali\", in quanto definiscono veramente la geometria di una forma. Invece le proprietà **Vista** sono meno importanti perché influenzano solo l\'aspetto della geometria. Ad esempio, un cerchio di raggio di 10 mm è diverso da un cerchio di raggio di 5 mm; il colore del cerchio (proprietà vista) non influisce sulla sua forma, ma il raggio (proprietà dati) sì. In molti casi in questa documentazione, si intende che la parola \"proprietà\" si riferisce a una \"proprietà dati\".
 
 
 </div>
 
-### Proprietà di base {#proprietà_di_base}
+### Proprietà di base 
 
 
 **See also: [Object name](Object_name.md)**
 
-L\'oggetto [script](scripted_objects/it.md) più semplice non mostra alcuna proprietà {{MenuCommand|Dati}} nell\'editore delle proprietà, ad eccezione dell\'attributo `Label`. {{Incode|Label}} è una stringa modificabile dall\'utente che identifica l\'oggetto nella [vista ad albero](tree_view/it.md). Invece, l\'attributo `Name` di un oggetto viene assegnato al momento della sua creazione e non può essere modificato; questo attributo è di sola lettura e non viene nemmeno visualizzato nell\'editor delle proprietà.
+L\'oggetto [script](scripted_objects/it.md) più semplice non mostra alcuna proprietà **Dati** nell\'editore delle proprietà, ad eccezione dell\'attributo `Label`. {{Incode|Label}} è una stringa modificabile dall\'utente che identifica l\'oggetto nella [vista ad albero](tree_view/it.md). Invece, l\'attributo `Name` di un oggetto viene assegnato al momento della sua creazione e non può essere modificato; questo attributo è di sola lettura e non viene nemmeno visualizzato nell\'editor delle proprietà.
 
 Un oggetto parametrico di base viene creato nel modo seguente:
 
@@ -129,7 +129,7 @@ Le azioni nelle proprietà vista sono state implementate nella versione 0.19.
 
 Facendo clic con il tasto destro in uno spazio vuoto della vista o con una proprietà selezionata, viene visualizzato solo un comando:
 
--    {{MenuCommand|Mostra tutto}}: se attivo, oltre alle proprietà standard che appaiono già, mostra tutti i dati nascosti e visualizza le proprietà nelle rispettive schede.
+-    **Mostra tutto**: se attivo, oltre alle proprietà standard che appaiono già, mostra tutti i dati nascosti e visualizza le proprietà nelle rispettive schede.
 
     -   Dati: \"Proxy\", \"Label2\", \"Expression Engine\", and \"Visibility\".
     -   Vista: \"Proxy\".
@@ -137,32 +137,32 @@ Facendo clic con il tasto destro in uno spazio vuoto della vista o con una propr
 
 <div class="mw-translate-fuzzy">
 
-Quando l\'opzione {{MenuCommand|Mostra tutto}} è attiva e viene selezionata una proprietà, facendo un secondo clic con il tasto destro sono disponibili altre azioni:
+Quando l\'opzione **Mostra tutto** è attiva e viene selezionata una proprietà, facendo un secondo clic con il tasto destro sono disponibili altre azioni:
 
--    {{MenuCommand|Mostra tutto}}: disattiva il comando {{MenuCommand|Mostra tutto}} e nasconde le proprietà aggiuntive di Dati e Vista.
+-    **Mostra tutto**: disattiva il comando **Mostra tutto** e nasconde le proprietà aggiuntive di Dati e Vista.
 
--    {{MenuCommand|Add Property}}: aggiunge una proprietà dinamica all\'oggetto; funziona con oggetti di [script](scripted_objects/it.md) C++ e Python.
+-    **Add Property**: aggiunge una proprietà dinamica all\'oggetto; funziona con oggetti di [script](scripted_objects/it.md) C++ e Python.
 
--    {{MenuCommand|Expression}}: visualizza l\'editor delle formule, che consente di utilizzare le [espressioni](Expressions/it.md) nel valore della proprietà.
+-    **Expression**: visualizza l\'editor delle formule, che consente di utilizzare le [espressioni](Expressions/it.md) nel valore della proprietà.
 
--    {{MenuCommand|Hidden}}: se attivo, imposta la proprietà come nascosta, il che significa che verrà visualizzata solo se {{MenuCommand|Mostra tutto}} è attivo.
+-    **Hidden**: se attivo, imposta la proprietà come nascosta, il che significa che verrà visualizzata solo se **Mostra tutto** è attivo.
 
--    {{MenuCommand|Output}}: se attivo, imposta la proprietà come output.
+-    **Output**: se attivo, imposta la proprietà come output.
 
--    {{MenuCommand|NoRecompute}}: se attivo, imposta la proprietà come non ricalcolata quandi il documento viene ricalcolato; è utile quando una proprietà non deve essere influenzata da altri aggiornamenti.
+-    **NoRecompute**: se attivo, imposta la proprietà come non ricalcolata quandi il documento viene ricalcolato; è utile quando una proprietà non deve essere influenzata da altri aggiornamenti.
 
--    {{MenuCommand|ReadOnly}}: se attivo, imposta la proprietà in sola lettura; non sarà più modificabile fino a quando questo interruttore non viene disattivato.
+-    **ReadOnly**: se attivo, imposta la proprietà in sola lettura; non sarà più modificabile fino a quando questo interruttore non viene disattivato.
 
--    {{MenuCommand|Transient}}: se attivo, imposta la proprietà come transitoria.
+-    **Transient**: se attivo, imposta la proprietà come transitoria.
 
--    {{MenuCommand|Touched}}: se attivo, viene toccato e pronto per il ricalcolo.
+-    **Touched**: se attivo, viene toccato e pronto per il ricalcolo.
 
--    {{MenuCommand|EvalOnRestore}}: se attivo, viene valutato al ripristino del documento.
+-    **EvalOnRestore**: se attivo, viene valutato al ripristino del documento.
 
 
 </div>
 
-## Esempio di proprietà di un oggetto PartDesign {#esempio_di_proprietà_di_un_oggetto_partdesign}
+## Esempio di proprietà di un oggetto PartDesign 
 
 In this section we show some common properties that are visible for a [PartDesign Body](PartDesign_Body.md), and one [PartDesign Feature](PartDesign_Feature.md). The specific properties of an object can found in the specific documentation page of that object.
 
@@ -318,7 +318,7 @@ print(obj.CustomCamelProperty)
 
 ![](images/FreeCAD_Property_editor_Custom.png ) *Property editor showing the Data properties of a [PartDesign Body](PartDesign_Body.md), with two additional properties, "Custom" and "Custom Camel Property".*
 
-In similar way the {{MenuCommand|View}} properties are added, not to the base object, but to its `ViewObject`. Then, it follows that properties like **Angular Deflection**, **Bounding Box**, **Display Mode**, **Display Mode Body**, **Line Color**, and others, can be examined and changed from the [Python console](Python_console.md).
+In similar way the **View** properties are added, not to the base object, but to its `ViewObject`. Then, it follows that properties like **Angular Deflection**, **Bounding Box**, **Display Mode**, **Display Mode Body**, **Line Color**, and others, can be examined and changed from the [Python console](Python_console.md).
 
 
 ```python

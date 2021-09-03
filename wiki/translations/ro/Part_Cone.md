@@ -38,7 +38,7 @@ Imaginea de mai jos prezintă un Cone Part cu parametrul \"Unghi\" setat la 270 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 În atelierul Part click pe iconița <img alt="" src=images/Part_Cone.png  style="width:32px;">.
 
@@ -50,11 +50,11 @@ Imaginea de mai jos prezintă un Cone Part cu parametrul \"Unghi\" setat la 270 
 
 Valorile implicite creează un con parametric trunchiat, definit de parametrii: raza1, raza2 înălțime și unghi. La creare Conul implicit va fi poziționat la origine (punctul 0,0,0). Parametrul unghi permite crearea unei porțiuni de con (este setată implicit la 360 °), iar raza 1 și 2 corespund razei de bază și respectiv razei vârfului conului trunchiat.
 
-### Prima metodă {#prima_metodă}
+### Prima metodă 
 
 Faceți clic direct pe butonul {{KEY/it|<img src="images/Part_Cone.png" width=16px>Cono}} din bara de instrumente. Creează un con standard cu raza bazei de 2 mm, raza superioară de 4 mm, înălțimea de 10 mm și centrul cercului inferior poziționat la origine (punctul 0,0,0). Parametrii pot fi modificați în fila Date din vizualizarea combinată.
 
-### A doua metodă {#a_doua_metodă}
+### A doua metodă 
 
 Această a doua modalitate este disponibilă și în [OpenSCAD](OpenSCAD_Workbench/it.md) Utilizați meniul {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16px> Creați primitive ... → Cone}}. Se deschide un dialog care vă permite să setați:
 
@@ -66,7 +66,7 @@ The cone properties can later be edited, either in the [Property editor](Propert
 
 <div class="mw-translate-fuzzy">
 
-### Primitive Geometriche {#primitive_geometriche}
+### Primitive Geometriche 
 
 +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | ![](images/PartConePrimitivesOptions_it.png ) | Cono                                                                                                                                               |

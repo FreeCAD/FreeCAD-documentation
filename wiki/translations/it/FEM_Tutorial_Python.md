@@ -28,7 +28,7 @@ Questo tutorial ha lo scopo di mostrare come tramite Python è possibile eseguir
 ### Requisiti
 
 -   La versione compatibile di FreeCAD indicata nella presentazione del tutorial.
--   La versione installata può essere verificata nel menu {{MenuCommand|Aiuto → Informazioni su FreeCAD}}.
+-   La versione installata può essere verificata nel menu **Aiuto → Informazioni su FreeCAD**.
 -   Dati i continui sviluppi del modulo FEM si consiglia di utilizzare l\'ultima versione di sviluppo di FreeCAD in particolare per le analisi FEM con script Python..
 -   Un ambiente FEM funzionante. Eseguire l\'analisi [FEM CalculiX Trave a sbalzo 3D](FEM_CalculiX_Cantilever_3D/it.md) per verificarlo.
 
@@ -37,7 +37,7 @@ Questo tutorial ha lo scopo di mostrare come tramite Python è possibile eseguir
 
 ## Iniziamo
 
-### Il nuovo documento e la parte da analizzare {#il_nuovo_documento_e_la_parte_da_analizzare}
+### Il nuovo documento e la parte da analizzare 
 
 
 ```python
@@ -58,7 +58,7 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 #
 ```
 
-### Analisi e analisi degli oggetti {#analisi_e_analisi_degli_oggetti}
+### Analisi e analisi degli oggetti 
 
 
 ```python
@@ -109,7 +109,7 @@ analysis_object.addObject(force_constraint)
 
 <div class="mw-translate-fuzzy">
 
-### Mesh FEM {#mesh_fem}
+### Mesh FEM 
 
 Questa sezione contiene il codice mesh FEM. Espanderla per visualizzare i contenuti.
 
@@ -452,7 +452,7 @@ analysis_object.addObject(femmesh_obj)
 
 </div>
 
-### FEM mesh (gmsh) {#fem_mesh_gmsh}
+### FEM mesh (gmsh) 
 
 
 ```python
@@ -469,7 +469,7 @@ print(error)
 analysis_object.addObject(femmesh_obj)
 ```
 
-### FEM mesh (netgen) {#fem_mesh_netgen}
+### FEM mesh (netgen) 
 
 
 ```python
@@ -494,7 +494,7 @@ doc.recompute()
 ###
 ```
 
-## Eseguire l\'analisi {#eseguire_lanalisi}
+## Eseguire l\'analisi 
 
 
 <div class="mw-translate-fuzzy">
@@ -520,7 +520,7 @@ FemGui.setActiveAnalysis(doc.Analysis)
 ###
 ```
 
-#### Eseguire l\'analisi tutto in uno {#eseguire_lanalisi_tutto_in_uno}
+#### Eseguire l\'analisi tutto in uno 
 
 
 ```python
@@ -533,7 +533,7 @@ fea.run()
 ###
 ```
 
-#### Passo a passo {#passo_a_passo}
+#### Passo a passo 
 
 
 ```python
@@ -559,7 +559,7 @@ else:
 ###
 ```
 
-## Mostrare i risultati {#mostrare_i_risultati}
+## Mostrare i risultati 
 
 
 ```python
@@ -575,9 +575,9 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 ###
 ```
 
-### Informazioni aggiuntive {#informazioni_aggiuntive}
+### Informazioni aggiuntive 
 
-#### Script FEM per oggetti mesh {#script_fem_per_oggetti_mesh}
+#### Script FEM per oggetti mesh 
 
 ##### Netgen
 
@@ -590,11 +590,11 @@ Al contrario l\'oggetto mesh GMSH supporta pienamente lo script Python. Vedere n
 -   <https://forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
 -   <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
 
-#### Script per analisi multipla {#script_per_analisi_multipla}
+#### Script per analisi multipla 
 
 Vedere nel forum il post: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
-##### Script per i risultati {#script_per_i_risultati}
+##### Script per i risultati 
 
 Vedere nel forum i post:
 
@@ -605,13 +605,13 @@ Vedere nel forum i post:
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → colorare solo un elemento
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → resettare tutti i risultati, mostrare la grandezza dello spostamento colorato
 
-##### Oggetto del risultato Vtk {#oggetto_del_risultato_vtk}
+##### Oggetto del risultato Vtk 
 
 Vedere il post nel forum:
 
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
 
-##### Modalità console {#modalità_console}
+##### Modalità console 
 
 La scrittura del file di input in modalità console di FreeCAD (senza Gui) può essere eseguita in modalità test. A questo proposito vedere questo [post nel forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897) per maggiori dettagli e sperimentazione.
 

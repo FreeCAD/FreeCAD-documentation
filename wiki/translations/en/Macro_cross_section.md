@@ -645,7 +645,7 @@ myWidget = CrossSectionWindow()
 
 ![](images/Macro_Cross_Section_03.gif )
 
-## Links {#links_1}
+## Links 
 
 The forum discussion [Posting a new macro](http://forum.freecadweb.org/viewtopic.php?f=22&t=14049)
 

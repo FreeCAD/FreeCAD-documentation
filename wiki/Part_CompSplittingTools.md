@@ -10,7 +10,7 @@
 
 A collection of splitting tools.
 
-## Types of Splitting {#types_of_splitting}
+## Types of Splitting 
 
 -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Boolean fragments](Part_BooleanFragments.md): makes all the pieces that can be obtained by Boolean operations between objects.
 -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Slice apart](Part_SliceApart.md): tool to split shapes by intersection with other shapes.

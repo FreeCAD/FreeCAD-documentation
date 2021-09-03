@@ -4,7 +4,7 @@
 
 Cette page est destinée aux utilisateurs qui souhaitent migrer vers FreeCAD depuis l\'univers Fusion 360.
 
-## Que dois-je faire ? {#que_dois_je_faire}
+## Que dois-je faire ? 
 
 1.  La première chose que vous voulez faire est de sortir vos fichiers des formats et du stockage propriétaires. Commencez par exporter vos modèles du cloud vers votre machine locale.
     -   Une méthode populaire consiste à utiliser ce script [Fusion360 total exporter](https://github.com/Jnesselr/fusion-360-total-exporter).
@@ -35,7 +35,7 @@ Reportez-vous à la page [glossaire](Glossary/fr.md) en général. Ici une court
 
 -   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) recommande d\'installer [ModernUI Workbench](ModernUI_Workbench/fr.md) de HakanSeven12
 
-## Ressources de formation {#ressources_de_formation}
+## Ressources de formation 
 
 -   [Introduction Fusion360 vers FreeCAD - Introduction](https://www.youtube.com/watch?v=_GxJkB23ZHM), vidéo de Brodie Fairhall.
 -   [Fusion360 to FreeCAD - Part 2](https://www.youtube.com/watch?v=IESZD4QS3P8), vidéo de Brodie Fairhall.
@@ -43,7 +43,7 @@ Reportez-vous à la page [glossaire](Glossary/fr.md) en général. Ici une court
 -   [Tutoriel écrit pour débutants : de la première partie au dessin technique](https://github.com/macdroid53/LearningFreeCAD) par macdroid53.
 -   [Une ressource en ligne pour nous, utilisateurs réguliers de FreeCAD](https://www.freecad.info/).
 
-## Vidéos comparatives {#vidéos_comparatives}
+## Vidéos comparatives 
 
 -   [Modéliser une turbine de compresseur dans FreeCAD et Fusion360](https://www.youtube.com/watch?v=kirDbZd0dvI&feature=youtu.be)
 
@@ -51,7 +51,7 @@ Reportez-vous à la page [glossaire](Glossary/fr.md) en général. Ici une court
 
 Cette page wiki manque-t-elle quelque chose? Veuillez faire une demande de [permissions wiki](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) sur le forum pour éditer cette page.
 
-## En relation {#en_relation}
+## En relation 
 
 -   [Migrer de OnShape vers FreeCAD](Migrating_to_FreeCAD_from_OnShape/fr.md)
 

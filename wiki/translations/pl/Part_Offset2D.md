@@ -64,7 +64,7 @@ A 2D Offset parametric object is created. Original objects are switched to wiref
 
 :   ![600px](images/Part_Offset2D_Fill.png)
 
-## Known issues {#known_issues}
+## Known issues 
 
 -   Most of non-default modes will only work with OCC 7.0.0 or later.
 

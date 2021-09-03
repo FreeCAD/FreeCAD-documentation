@@ -15,7 +15,7 @@ The inverse operation is **<img src=images/Mesh_FromPartShape.svg style="width:1
 ## Usage
 
 1.  Select the mesh object in the [tree view](tree_view.md).
-2.  Go to the menu, {{MenuCommand|Part → <img src=images/Part_ShapeFromMesh.svg style="width:16px"> Create shape from mesh}}.
+2.  Go to the menu, **Part → <img src=images/Part_ShapeFromMesh.svg style="width:16px"> Create shape from mesh**.
 3.  A popup-menu will ask for the tolerance for sewing shape; the default value is {{Value|0.1}}.
 4.  A [shape](Shape.md) from the mesh object is created as a separate new object.
 

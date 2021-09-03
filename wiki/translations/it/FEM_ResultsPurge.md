@@ -18,7 +18,7 @@ TODO: Add Before and After screenshot
 1.  I diversi modi per richiamare il comando Azzera risultati:
     -   Premere il pulsante <img alt="" src=images/FEM_PurgeResults.png  style="width:24px;">
     -   Usare la scorciatoia da tastiera **S** **S**
-    -   Usare {{MenuCommand|Risultati → Azzera risultati}}
+    -   Usare **Risultati → Azzera risultati**
 
 
 </div>

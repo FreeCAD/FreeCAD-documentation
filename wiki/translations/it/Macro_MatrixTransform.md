@@ -45,15 +45,15 @@ La matrice è definita da tre vettori:
 
 Quì, v1,v2,v3 sono vettori che possono essere definiti nelle proprietà. essi corrispondono alle nuove direzioni di quelle che erano gli assi X, Y, Z originali
 
-### Esempi di matrici {#esempi_di_matrici}
+### Esempi di matrici 
 
-#### Nessuna trasformazione {#nessuna_trasformazione}
+#### Nessuna trasformazione 
 
    1  0  0
    0  1  0
    0  0  1
 
-#### Scalatura non uniforme {#scalatura_non_uniforme}
+#### Scalatura non uniforme 
 
    scaleX    0      0
       0   scaleY    0
@@ -71,7 +71,7 @@ Quì, v1,v2,v3 sono vettori che possono essere definiti nelle proprietà. essi c
 
 Avvertimento. Tutta la geometria viene convertita in B-spline, anche se non deve. Ciò può causare ogni sorta di guai. Utilizzare solo se assolutamente necessaria.
 
-## Lo Script {#lo_script}
+## Lo Script 
 
 ToolBar Icon ![](images/Macro_MatrixTransform.png )
 

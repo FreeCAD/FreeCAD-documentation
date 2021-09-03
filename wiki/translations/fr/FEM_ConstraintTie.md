@@ -16,7 +16,7 @@ Définit une contrainte de liaison qui relie les deux surfaces sélectionnées d
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintTie.svg" width=16px> [FEM Contrainte de liaison](FEM_ConstraintTie/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintTie.svg" width=16px> Lien de contrainte}} dans le menu.
+    -   Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintTie.svg" width=16px> Lien de contrainte** dans le menu.
 2.  Appuyez sur le bouton **Ajouter** dans le panneau des tâches, puis cliquez sur la face que vous souhaitez ajouter à la définition de la contrainte de liaison. Deux faces exactement doivent être ajoutées, l\'une après l\'autre.
 3.  En option, définissez Tolerance - la contrainte de lien sera appliquée uniquement aux noeuds séparés de la surface opposée par une distance qui ne sera pas supérieure à celle spécifiée ici.
 

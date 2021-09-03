@@ -19,7 +19,7 @@ Der <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Entwu
 1.  Wähle einen [Entwurf Draht](Draft_Wire/de.md) oder einen [Entwurf BSpline](Draft_BSpline/de.md).
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_WireToBSpline.svg" width=16px> [Entwurf DrahtZuBSpline](Draft_WireToBSpline/de.md)** Schaltfläche.
-    -   Wähle den {{MenuCommand|Änderung → <img src="images/Draft_WireToBSpline.svg" width=16px> Draht zu Bspline}} aus dem Menü.
+    -   Wähle den **Änderung → <img src="images/Draft_WireToBSpline.svg" width=16px> Draht zu Bspline** aus dem Menü.
 3.  Ein neues Objekt wird erstellt.
 
 ## Hinweise

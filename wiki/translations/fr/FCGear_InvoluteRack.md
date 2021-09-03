@@ -28,7 +28,7 @@ Les crémaillères sont utilisées pour convertir un mouvement rotatif en un mou
 1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
 2.  Lancez la commande d\'une de ces manières :
     -   Appuyez sur le bouton <img alt="" src=images/FCGear_InvoluteRack.svg  style="width:22px;"> [Create an Involute rack](FCGear_InvoluteRack/fr.md) dans la barre d\'outils.
-    -   Utilisez {{MenuCommand|Gear Menu → Involute rack}}.
+    -   Utilisez **Gear Menu → Involute rack**.
 3.  Modifiez le paramètre de démultiplication aux conditions requises (voir **Propriétés → Données** ci-dessous).
 
 ## Propriétés
@@ -97,7 +97,7 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 Aucune limitation n\'est connue.
 
-## Formules utiles {#formules_utiles}
+## Formules utiles 
 
 Pour plus d\'informations, voir <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:22px;"> [Engrenage à développante](FCGear_InvoluteGear/fr.md).
 

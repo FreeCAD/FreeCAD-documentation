@@ -32,7 +32,7 @@ Niektóre z najważniejszych obiektów Kształtu topologicznego środowiska Czę
 -   Każdy [szkic](Sketch/pl.md), czyli obiekt środowiska Szkicownik [SketchObject](Sketcher_SketchObject/pl.md), utworzony za pomocą środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md).
 -   Dowolny obiekt utworzony przez import plików w formacie STEP, BREP i podobnych formatach bryłowych.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Zobacz również:**

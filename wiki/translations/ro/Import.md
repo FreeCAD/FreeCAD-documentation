@@ -28,7 +28,7 @@ A fost o anchetă foarte dificilă până am obținut o copie de lucru a IfcOpen
 
 <div class="mw-translate-fuzzy">
 
-## Pași de urmat {#pași_de_urmat}
+## Pași de urmat 
 
 1\. Descărcați sau clonați întregul proiect GitHub de la <https://github.com/IfcOpenShell/IfcOpenShell> (va conține întotdeauna cea mai nouă versiune)
 
@@ -170,7 +170,7 @@ house.ifc
 
 13\. Bucurați-vă de Atelierul Construcții/BIM cu FreeCAD!
 
-## Gânduri de sfârșit {#gânduri_de_sfârșit}
+## Gânduri de sfârșit 
 
 În opinia mea FreeCAD în sine ar trebui să aibă versiuni precompilate ale IfcOpenShell incluse în distribuție, deoarece construirea de către dvs. este o durere totală și utilizatorul mediu nu o va face (ei nu știu cum să compileze, să gestioneze GitHub, etc), în fine, poate în viitor.
 

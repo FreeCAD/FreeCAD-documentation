@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Tool Page {#tool_page}
+## Tool Page 
 
 
 <div class="mw-translate-fuzzy">
@@ -18,16 +18,16 @@ För allt seriös mjukvaruutveckling så behöver du verktyg. Här är en lista 
 
 </div>
 
-### Platform independent tools {#platform_independent_tools}
+### Platform independent tools 
 
-#### Qt-Toolkit {#qt_toolkit}
+#### Qt-Toolkit 
 
 
 <div class="mw-translate-fuzzy">
 
-### Plattformsoberoende verktyg {#plattformsoberoende_verktyg}
+### Plattformsoberoende verktyg 
 
-#### Qt-Toolkit {#qt_toolkit_1}
+#### Qt-Toolkit 
 
 Qt-toolkit är en fantastisk, plattformsoberoende designverktyg för att skapa gränssnitt. den finns i FreeCAD\'s [LibPack](Third_Party_Libraries/sv.md), men kan också laddas ned på [Qt project](http://qt-project.org/downloads).
 
@@ -39,7 +39,7 @@ Qt-toolkit är en fantastisk, plattformsoberoende designverktyg för att skapa g
 
 <div class="mw-translate-fuzzy">
 
-#### InkScape {#inkscape_1}
+#### InkScape 
 
 Bra vektorritningsprogram. Följer SVG standarden och används till att rita ikoner och bilder. Hämta det på [www.inkscape.org](http://www.inkscape.org).
 
@@ -51,19 +51,19 @@ Bra vektorritningsprogram. Följer SVG standarden och används till att rita iko
 
 <div class="mw-translate-fuzzy">
 
-#### Doxygen {#doxygen_1}
+#### Doxygen 
 
 Ett mycket bra och stabilt verktyg för att generera källdokumentation från .h och .cpp filerna.
 
 
 </div>
 
-#### The Gimp {#the_gimp}
+#### The Gimp 
 
 
 <div class="mw-translate-fuzzy">
 
-#### The Gimp {#the_gimp_1}
+#### The Gimp 
 
 Inte mycket att säga om Gnu Image Manipulation Program. Förutom att det kan hantera .xpm filer vilket är en mycket smidigt sätt att hantera Ikoner i QT Program. XPM är egentligen C-kod som kan kompileras in i ett program.
 
@@ -79,7 +79,7 @@ This is a proprietary git GUI that is very helpful to learn how git works if you
 -   [Gitkraken](Gitkraken.md)
 -   [Github](Github.md)
 
-#### OBS Studio {#obs_studio}
+#### OBS Studio 
 
 Free and open source software for video recording and live streaming. More details on official website : [obsproject.com](https://obsproject.com/)
 
@@ -92,7 +92,7 @@ Free and open source software for video recording and live streaming. More detai
 
 <div class="mw-translate-fuzzy">
 
-#### StarUML {#staruml_1}
+#### StarUML 
 
 Ett helt öppen källkod UML program. Det har många funktioner från de stora, inkluvive reverse engineering C++ källkod\....
 
@@ -107,14 +107,14 @@ Ladda ned här: [staruml.sourceforge.net](http://staruml.sourceforge.net/en/)
 
 </div>
 
-### Verktyg på Windows {#verktyg_på_windows}
+### Verktyg på Windows 
 
-#### Visual Studio Community {#visual_studio_community}
+#### Visual Studio Community 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Visual Studio 8 Express {#visual_studio_8_express}
+#### Visual Studio 8 Express 
 
 Fastän VC8 är för C++ utveckling, så är det inte något stort steg från VisualStudio 6 (enligt min åsikt ett stort steg bakåt), det är ett fritt utvecklingssystem på Windows. För nativa Win32 applikationer såbehöver du ladda ned PlatformSDK från M\$.
 
@@ -134,7 +134,7 @@ Så Express varianten är svår att hitta. Men du kan försöka med [denna länk
 
 <div class="mw-translate-fuzzy">
 
-#### CamStudio {#camstudio_1}
+#### CamStudio 
 
 Är ett öppen källkodsverktyg för att spela in skärmfilmer (Webfilmer). Det är ett mycket bra verktyg för att skapa övningar genom att spela in dem. Det är inte alls så tråkigt som att skriva dokumentation.
 
@@ -143,7 +143,7 @@ Så Express varianten är svår att hitta. Men du kan försöka med [denna länk
 
 Se [camstudio.org](http://camstudio.org/) för detaljer.
 
-### Verktyg på Linux {#verktyg_på_linux}
+### Verktyg på Linux 
 
 ATTGÖRA
 

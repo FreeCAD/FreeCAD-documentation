@@ -15,7 +15,7 @@
 ## Utilizzo
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Selezionare {{MenuCommand|Modifica → <img src="images/Std_BoxSelection.svg" width=16px> Box di selezione}} dal menu.
+    -   Selezionare **Modifica → <img src="images/Std_BoxSelection.svg" width=16px> Box di selezione** dal menu.
     -   Usare la scorciatoia da tastiera: **Maiusc**+**B**.
 2.  Effettuare una delle seguenti operazioni:
     -   Trascinare un rettangolo da sinistra a destra per selezionare le facce il cui centro geometrico si trova all\'interno del rettangolo.

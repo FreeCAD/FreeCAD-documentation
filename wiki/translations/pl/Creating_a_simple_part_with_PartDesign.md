@@ -24,7 +24,7 @@ Ten samouczek ma na celu nauczenie początkujących użytkowników FreeCAD kilku
 -   Edycja jednego lub wielu wymiarów.
 -   Korzystanie z funkcji geometrii zewnętrznej i użycie płaszczyzny odniesienia do wyśrodkowania otworu.
 
-### Używanie [Środowiska pracy Part Design](PartDesign_Workbench/pl.md), rysowanie szkicu {#używanie_środowiska_pracy_part_design_rysowanie_szkicu}
+### Używanie [Środowiska pracy Part Design](PartDesign_Workbench/pl.md), rysowanie szkicu 
 
 Stwórz nowy dokument i wybierz Środowisko pracy **<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design'''** używając [okienka wyboru](Getting_started/pl#Poznawaj_interfejs_użytkownika.md) *(numer 10 na obrazku)* lub przez menu *Widok → Środowiska pracy*. FreeCAD uruchamia się z paskami narzędzi u góry, \"widokiem łączonym\" po lewej, i widokiem 3d po prawej.
 
@@ -122,7 +122,7 @@ Czynności należy przeprowadzić w ten sam sposób w odniesieniu do wszystkich 
 
 Jeśli Twój szkic nadal nie jest wyświetlany na zielono, sprawdź, czy wszystkie linie *(z wyjątkiem ukośnej)* mają zdefiniowane albo <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [wiązania poziome](Sketcher_ConstrainHorizontal/pl.md) lub <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [wiązania pionowe](Sketcher_ConstrainVertical/pl.md). W razie potrzeby dodaj je.
 
-### Używanie funkcji wyciągnięcia i kieszeni {#używanie_funkcji_wyciągnięcia_i_kieszeni}
+### Używanie funkcji wyciągnięcia i kieszeni 
 
 Kliknij w przycisk **Close** w zakładce **zadania**. Środowisko pracy Sketcher zostanie automatycznie zamknięte, a Part Design ponownie wybrane. **Widok złozony** powróci do zakładki **Model**. Jeśli zostawiłeś element \"Body part1\" rozwinięty na drzewku, to zobaczysz nowy element obok **Origin**, zagnieżdżony w elemencie **Body**.
 
@@ -136,7 +136,7 @@ Zauważ, że utworzony kształt jest bryłą.
 
 ![](images/GGTuto1_5.PNG )
 
-### Tworzenie otworu {#tworzenie_otworu}
+### Tworzenie otworu 
 
 Ustaw kursor myszki na górnej powierzchni elementu i kliknij, kolejnie użyj narzędzia <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> **Utwórz nowy szkic**. FreeCAD automatycznie stworzy szkic związany do tej powierzchni. Znajdujemy się więc na płaszczyźnie równoległej do płaszczyzny bezwzględnej XY, ale z przesunięciem wysokości o wysokość elementu, tj. 50mm.
 
@@ -156,7 +156,7 @@ Zamknij szkic, w drzewie modelu pojawił się nowy o obiekt o nazwie **Sketch001
 
 Kieszeń jest właściwością zwaną \"substrakcyjną\", usuwa materiał z naszej części, tutaj w formie cylindra, ponieważ szkic jest kołem. Ustaw jako Typ wartość **Przez wszystkie**, aby całkowicie wyciąć część. Wciśnij przycisk **OK**, aby zakończyć operację. W drzewie modelu na dole części Body1 pojawia się nowy element oznaczony **Pocket** i wskazuje Sketch001.
 
-### Zmiana koloru i przezroczystości {#zmiana_koloru_i_przezroczystości}
+### Zmiana koloru i przezroczystości 
 
 Istnieje możliwość zmiany koloru części, często przydatne jest wyróżnienie części spośród innych. Również można modyfikować przeźroczystość detalu, co jest pomocne przy prezentacji jego wnętrza.
 
@@ -167,7 +167,7 @@ Otwór jest teraz widoczny wewnątrz części. Jest to często przydatne przy og
 
 Można również zmieniać kolor linii i szerokość linii, aby zmienić grubość i kolor konturu części.
 
-### Ręczne przesuwanie części {#ręczne_przesuwanie_części}
+### Ręczne przesuwanie części 
 
 Przejdź do zakładki menu głównego **Widok** i wybierz pozycję **Przełącz oś przekroju**
 To są osie absolutne. Powinieneś teraz zobaczyć w oknie widoku 3D trzy osie X, Y i Z w kolorach czerwonym, zielonym i niebieskim.
@@ -188,7 +188,7 @@ Przytrzymaj i przeciągnij wierzchołek na osi lub kulę, aby bryłą ciałem w 
 Potwierdź.
 Następnie zresetuj kąty i współrzędne do wartości 0.
 
-### Wyświetlanie wymiarów w szkicu {#wyświetlanie_wymiarów_w_szkicu}
+### Wyświetlanie wymiarów w szkicu 
 
 Przydatna może okazać się znajomość wymiarów niektórych fragmentów szkicu, na podstawie wewnętrznych obliczeń FreeCAD. Informacje te mogą być użyte tylko do celów poglądowych lub można wykorzystać je później np. do zdefiniowania innych wymiarów.
 
@@ -202,7 +202,7 @@ Widzimy na przykład, że długość łuku wynosi 20, ponieważ jest on styczny 
 
 Widzimy również, że FreeCAD dokonuje obliczeń lewego boku *(50-50xTAN 30°)*, jak również wymiaru odległości osi łuku wraz z jego początkiem.
 
-### Edycja jednego lub wielu wymiarów {#edycja_jednego_lub_wielu_wymiarów}
+### Edycja jednego lub wielu wymiarów 
 
 Podczas modelowania można dowolnie modyfikować wymiary detalu. Jest to bardzo proste: w przypadku grubości elementu kliknij dwukrotnie ikonę **Wyciągnięcia**, a następnie wprowadź nową wartość, na przykład 40mm. W dolnej części **widoku złożonego** możesz również zmienić daną wartość. Zatwierdź ją, kształt bryły obiektu zostanie zmieniony.
 
@@ -210,9 +210,9 @@ To samo dotyczy całkowitej długości elementu: kliknij dwukrotnie na **Szkic**
 
 Widzimy, że fragment ten został powiększony, ale otwór nie jest już wyśrodkowany na górze ściany. Dzieje się tak dlatego, że został on związany z pochodzeniem szkicu. Co niekoniecznie odpowiada temu, co chcielibyśmy osiągnąć. Otwór powinien pozostać po środku, niezależnie od wielkości ściany.
 
-### Wyśrodkowanie otworu {#wyśrodkowanie_otworu}
+### Wyśrodkowanie otworu 
 
-#### Metoda pierwsza, z wykorzystaniem geometrii zewnętrznej. {#metoda_pierwsza_z_wykorzystaniem_geometrii_zewnętrznej.}
+#### Metoda pierwsza, z wykorzystaniem geometrii zewnętrznej. 
 
 Edytuj ponownie szkic otworu i usuń jego poziome i pionowe wiązania odległości.
 
@@ -237,7 +237,7 @@ Proszę zauważyć, że oprócz przełączenia paska narzędzi w tryb konstruowa
 
 Opuść ten szkic, przekonamy się, że krąg jest prawidłowo wyśrodkowany. *(Funkcja kieszeni nie została usunięta, ale zmodyfikowana)*. Jeśli ponownie zmienisz wymiary części, grubość lub długość, okrąg będzie pozostawał na środku ściany.
 
-#### Unikaj linii konstrukcyjnych: {#unikaj_linii_konstrukcyjnych}
+#### Unikaj linii konstrukcyjnych: 
 
 Często można uniknąć tworzenia linii konstrukcyjnych. Możesz ponownie edytować szkic, i usunąć linie konstrukcyjne. Następnie należy posłużyć się funkcją <img alt="" src=images/Constraint_Symmetric.svg  style="width:24px;"> [Utwórz wiązanie symetrii \...](Sketcher_ConstrainSymmetric/pl.md) pomiędzy dwoma przeciwległymi wierzchołkami zewnętrznych linii geometrii, a środkiem okręgu *(punkty należy wybrać w tej kolejności)*:
 
@@ -246,7 +246,7 @@ Często można uniknąć tworzenia linii konstrukcyjnych. Możesz ponownie edyto
 Uzyskamy identyczny wynik dla położenia środka otworu. W rzeczywistości, dzięki dostępnym wiązaniom w Środowisku pracy Sketcher, istnieje wiele możliwych dróg postępowania.
 /Ten przykład pokazuje, że często lepiej jest wybrać najprostszą metodę, ograniczając w ten sposób liczbę utworzonych obiektów oraz liczbę błędów, które mogą się pojawić.
 
-#### Metoda druga z płaszczyzną odniesienia {#metoda_druga_z_płaszczyzną_odniesienia}
+#### Metoda druga z płaszczyzną odniesienia 
 
 Oto kolejna, szybsza metoda, możliwa do zastosowania od wersji **0.17**.
 Użycie płaszczyzny odniesienia i jej dołączenie.

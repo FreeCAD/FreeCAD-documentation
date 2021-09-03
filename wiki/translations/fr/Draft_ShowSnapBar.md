@@ -13,13 +13,13 @@ La commande <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> *
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_ShowSnapBar.svg" width=16px> Afficher la barre d'outils d'aimantation }} dans le menu.
+1.  Sélectionnez l\'option **Utilitaires → <img src="images/Draft_ShowSnapBar.svg" width=16px> Afficher la barre d'outils d'aimantation ** dans le menu.
 
 ## Remarques
 
 -   Comme toute barre d\'outils, la Draft barre d\'outils Barre d\'aimantation peut être basculée en utilisant ces méthodes :
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Barres d'outils → Draft Aimantation}} dans le menu.
-    -   Cliquez le bouton droit de la souris sur un espace vide dans la [zone de la barre d\'outils](Interface/fr.md) et sélectionnez l\'option {{MenuCommand|Draft Aimantation}} dans le menu qui apparaît.
+    -   Sélectionnez l\'option **Affichage → Barres d'outils → Draft Aimantation** dans le menu.
+    -   Cliquez le bouton droit de la souris sur un espace vide dans la [zone de la barre d\'outils](Interface/fr.md) et sélectionnez l\'option **Draft Aimantation** dans le menu qui apparaît.
 
 
 

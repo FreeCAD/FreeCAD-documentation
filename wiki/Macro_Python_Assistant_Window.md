@@ -94,7 +94,7 @@ Most of the functionality for the PAW is provided by the contextual menu, the op
     - the PAW window is closed and the contents written out to the persistent storage file
     Note: there is no Dialog asking about saving, it is done automatically
 
-## User Interface {#user_interface}
+## User Interface 
 
 The user interface is a simple text editing window, there is one button to start the PAW and a contextual menu of options to perform on the text in the text editing window. The options are described in the Usage section.
 

@@ -8,7 +8,7 @@
 |Files=
 }}
 
-# Goal of this document {#goal_of_this_document}
+# Goal of this document 
 
 Try to investigate:
 
@@ -18,7 +18,7 @@ Try to investigate:
 
 Currently this document is **WORK in Progress** . Participation is always welcome.
 
-## Project description {#project_description}
+## Project description 
 
 Creating a simple freestanding annex to a country summerhouse.
 
@@ -26,7 +26,7 @@ Existing and proposed
 
 ![caption\|640px](images/At03_01.jpg )
 
-### Functional requirements {#functional_requirements}
+### Functional requirements 
 
 Designed as three (possibly Four) adjoining \'buildings\', from left to right in below images and sketches.
 
@@ -40,17 +40,17 @@ Designed as three (possibly Four) adjoining \'buildings\', from left to right in
     -   Eavaluating
     -   Maybe Storing of firewood and Garden Utensils
 
-### Initial Sketches {#initial_sketches}
+### Initial Sketches 
 
 <img alt="" src=images/At03_02.jpg  style="width:640px;">
 
-# Modeling approach {#modeling_approach}
+# Modeling approach 
 
 This is a minor project, but large enough to investigate and document different approaches.
 
 Some main initial thoughts
 
-#### Project should {#project_should}
+#### Project should 
 
 -   Use OpenBIM, IFC4
 -   Validated
@@ -59,7 +59,7 @@ Some main initial thoughts
 -   Documentation
 -   Produce qty Takeoff
 
-#### Divide project files by discipline {#divide_project_files_by_discipline}
+#### Divide project files by discipline 
 
 -   Landscape
     -   Terrain
@@ -71,7 +71,7 @@ Some main initial thoughts
     -   Plumbing
 -   Interior
 
-## BIM Project {#bim_project}
+## BIM Project 
 
 Must Contain, [ref BuildingSmart](https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/FINAL/HTML/ifckernel/lexical/ifcproject.htm)
 
@@ -106,11 +106,11 @@ Modeling the project with BlenderBIM
 -   [BlenderBIM documentation](https://blenderbim.org/docs/index.html)
 -   [Builds](https://blenderbim.org/builds/)
 
-## BlenderBIM Modeling {#blenderbim_modeling}
+## BlenderBIM Modeling 
 
-### Modeling Tips {#modeling_tips}
+### Modeling Tips 
 
-#### Show number of objects selected in Python Console {#show_number_of_objects_selected_in_python_console}
+#### Show number of objects selected in Python Console 
 
 <img alt="" src=images/At3Stats.png  style="width:640px;">
 
@@ -128,7 +128,7 @@ DoubleDoor Opening
 
 If we assume 20mm Clearance each side, this gives L = 2210 H = 2060
 
-## BlenderBIM Project Setup {#blenderbim_project_setup}
+## BlenderBIM Project Setup 
 
 We need to beware that project setup refers to to separate setups. The Blender Project setup, and the BlenderBim project setup. These are basically totally separated, and serve different functions.
 
@@ -137,13 +137,13 @@ We need to beware that project setup refers to to separate setups. The Blender P
 -   BlendeBIM project setup
     -   organizes IFC structure, internal to file.
 
-## Useful links {#useful_links}
+## Useful links 
 
 -   [blender-collection-instances-ifc-export](https://community.osarch.org/discussion/162/blender-collection-instances-ifc-export#latest)
 
-# Blender Tips {#blender_tips}
+# Blender Tips 
 
-### Project Setup {#project_setup}
+### Project Setup 
 
 Organizing files soon comes vital, plan ahead, avoid spaghetti syndrome
 
@@ -153,7 +153,7 @@ Some links
 -   [How-to-organize-your-blender-files](https://cgcookie.com/articles/how-to-organize-your-blender-files)
 -   [Blender in Architecture](https://download.blender.org/documentation/bc2011/justas_ingelevicius.pdf)
 
-### Linked Models {#linked_models}
+### Linked Models 
 
 In order to produce a multidisciplinary approach, containing several model. Model should for BIM purposes be linked, not appended
 
@@ -171,7 +171,7 @@ As a resource: there is an excellent explanation on - [Jason\'s Blog](https://jt
 
 -   [Blender-2-8-technical-drawing-architecture-ebook (Amazon)](https://www.amazon.co.uk/Blender-2-8-technical-drawing-architecture-ebook/dp/B081PV8PC2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1598342983&sr=8-2)
 
-# Harvesting from IFC {#harvesting_from_ifc}
+# Harvesting from IFC 
 
 [IfcOpenShell\_code\_examples](https://wiki.osarch.org/index.php?title=IfcOpenShell_code_examples)
 

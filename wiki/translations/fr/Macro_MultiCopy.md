@@ -18,7 +18,7 @@
 
 La macro MultiCopy peut être téléchargée en utilisant le [Gestionnaire d\'addons](Std_AddonMgr/fr.md) intégré au logiciel FreeCAD.
 
-####  Caractéristiques principales {#caractéristiques_principales}
+####  Caractéristiques principales 
 
 -   Deux méthodes de saisie : par la souris ou par le clavier (commandes de collage de code).
 -   Méthodes de copie standard et de copie simple prises en charge
@@ -64,23 +64,23 @@ Par défaut, le répertoire de la macro utilisateur de FreeCAD doit être situé
 
 C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
 
-##  Utilisation - Méthode GUI {#utilisation___méthode_gui}
+##  Utilisation - Méthode GUI 
 
 MultiCopy peut être chargé en effectuant les étapes suivantes :
 
 1.  Lancez l\'application **FreeCAD**.
-2.  Allez dans {{MenuCommand|Macro → Macros ...}}.
+2.  Allez dans **Macro → Macros ...**.
 3.  Cliquez sur l\'onglet **Macros utilisateur** dans la boîte de dialogue contextuelle.
 4.  Sélectionnez {{FileName|MultiCopy.FCMacro}}.
 5.  Cliquez sur **Execute**.
 
 Avant de charger la macro MultiCopy, sélectionnez d\'abord un ou plusieurs objets dans le doccument FreeCAD actif, puis chargez la macro. Ensuite, suivez les instructions de la boîte de dialogue, remplissez les entrées requises, et cliquez sur le bouton \'Paste\'. En cas d\'erreur ou d\'avertissement, vous en serez automatiquement informé. Si vous rencontrez une erreur inattendue, communiquez-la en mentionnant la version de FreeCAD, en retraçant les étapes suivies et en précisant si un résultat a été généré (et dans quelle mesure).
 
-##  Utilisation - Méthode CUI (console Python) {#utilisation___méthode_cui_console_python}
+##  Utilisation - Méthode CUI (console Python) 
 
 Avant d\'exécuter l\'opération MultiCopy, sélectionnez d\'abord un ou plusieurs objets dans le document FreeCAD actif.
 
-###  Pour lancer la boîte de dialogue GUI: {#pour_lancer_la_boîte_de_dialogue_gui}
+###  Pour lancer la boîte de dialogue GUI: 
 
 
 ```python
@@ -89,7 +89,7 @@ import MultiCopy
 MultiCopy.Launch()
 ```
 
-###  Pour effectuer l\'opération sur le terminal: {#pour_effectuer_lopération_sur_le_terminal}
+###  Pour effectuer l\'opération sur le terminal: 
 
 La commande MultiCopy est la suivante :
 
@@ -130,7 +130,7 @@ Les paramètres de la commande MultiCopy sont les suivants :
                            or the document object itself.
        Default Value     : FreeCAD.ActiveDocument
 
-####  Exemple 1: {#exemple_1}
+####  Exemple 1: 
 
 Pour coller les objets sélectionnés dans le document actuellement actif comme une copie standard, et pour ne pas supprimer les sélections après l\'opération.
 
@@ -142,7 +142,7 @@ some_paste_code_commands = 'from 1 to 2 :\n\t[1] = SomeName_{n#}'
 MultiCopy.Run(some_paste_code_commands)
 ```
 
-####  Exemple 2: {#exemple_2}
+####  Exemple 2: 
 
 Pour coller les objets sélectionnés dans un autre document comme une simple copie, et pour supprimer les sélections après l\'opération.
 
@@ -154,7 +154,7 @@ some_paste_code_commands = 'from 1 to 2 :\n\t[1] = SomeName_{n#}'
 MultiCopy.Run(some_paste_code_commands, True, True, 'SomeDocumentLabel')
 ```
 
-##  Commandes de collage de code {#commandes_de_collage_de_code}
+##  Commandes de collage de code 
 
 \[\[<File:Macro_MultiCopy_Commands.png%7Cframe%7Ccenter%7Calt=Macro_MultiCopy_Commands.png>\|
 
@@ -179,7 +179,7 @@ Pendant la saisie des Commandes de code de collage dans la zone de texte de sais
 2.  **Rouge** indique que la zone de texte est en dehors de la focalisation, et que les commandes entrées par l\'utilisateur sont SYNTAXIQUEMENT INCORRECTES.
 3.  **Vert** indique que la zone de texte est hors focus et que les commandes saisies par l\'utilisateur sont SYNTAXIQUEMENT CORRECTES.
 
-####  Exemple 1 {#exemple_1_1}
+####  Exemple 1 
 
     from 1 to 3 :
          [1] = {1}-Something_{n#}
@@ -200,14 +200,14 @@ Laissons le nom de l\'étiquette originale du premier objet être **Corps**. Ens
     Body-Something_2
     Body-Something_3
 
-####  Représentation de l\'objet {#représentation_de_lobjet}
+####  Représentation de l\'objet 
 
 Soit **i** un i-ème objet arbitraire d\'une liste supposée d\'objets sélectionnés par l\'utilisateur.
 [i] représente le **i-ième objet** sans dépendances (par défaut).
 [i|0] représente le **i-ième objet** sans dépendances (autre forme).
 [i|1] représente le **i-ième objet** AVEC des dépendances incluses.
 
-####  Les étiquettes de numérotation {#les_étiquettes_de_numérotation}
+####  Les étiquettes de numérotation 
 
 code\>{n\#} ou {N#} sont du type \"Chiffres ordinaires\".
 {R#} ou {ru#} ou {RU#} sont du type \"Chiffres romains majuscules\".
@@ -225,7 +225,7 @@ Dans le cas d\'une affectation de niveau de boucle imbriquée SANS remplissage, 
 1.  {n#0|i1} OU
 2.  {n#|i1}
 
-####  Exemple 2 {#exemple_2_1}
+####  Exemple 2 
 
     from 1 to 2 : i1 :
          from a to b : i2 :

@@ -21,7 +21,7 @@ TODO: Add Before and After screenshot
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ResultsPurge.svg" width=16px> [FEM ResultsPurge](FEM_ResultsPurge.md)** button.
-    -   Select the {{MenuCommand|Results → <img src="images/FEM_ResultsPurge.svg" width=16px> Purge results}} option from the menu.
+    -   Select the **Results → <img src="images/FEM_ResultsPurge.svg" width=16px> Purge results** option from the menu.
     -   Use the keyboard shortcut: **R** then **P**.
 
 

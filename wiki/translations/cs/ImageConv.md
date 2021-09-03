@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Building {#building_1}
+## Building 
 
 ImageConv je umístěn ve zdrojovém stromu FreeCADu:
 

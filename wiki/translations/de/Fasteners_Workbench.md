@@ -18,9 +18,9 @@ Die Verwendung ist ziemlich unkompliziert:
 3.  Wähle den <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Arbeitsbereich Verbindungselemente](Fasteners_Workbench/de.md) aus der [Arbeitsbereich Aufklappliste](Std_Workbench/de.md) aus.
 4.  Die zum Arbeitsbereich gehörenden [Werkzeugleisten](#Toolbars/de.md) werden angezeigt.
 
-Einfache Anwendung: Wenn Du auf eine der Verbindungselemente klickst, wird dieses Verbindungselement an der Ursprungsposition mit den Standardeigenschaften erstellt. Um die Eigenschaften eines Verbindungselements zu ändern, wähle es und gehe dann zum {{MenuCommand|Daten}} Reiter des [Eigenschaftseditors](Property_editor/de.md).
+Einfache Anwendung: Wenn Du auf eine der Verbindungselemente klickst, wird dieses Verbindungselement an der Ursprungsposition mit den Standardeigenschaften erstellt. Um die Eigenschaften eines Verbindungselements zu ändern, wähle es und gehe dann zum **Daten** Reiter des [Eigenschaftseditors](Property_editor/de.md).
 
-## Bekannte Probleme {#bekannte_probleme}
+## Bekannte Probleme 
 
 -   Andere Probleme/Funktionsanforderungen findest Du unter [Fastener Workbench GitHub issue queue](https://github.com/shaise/FreeCAD_FastenersWB/issues?utf8=✓&q=is%3Aissue)
 
@@ -38,7 +38,7 @@ Dieser Arbeitsbereich kann über den <img alt="" src=images/AddonManager.svg  st
 
 ## Werkzeugleisten
 
-Der Arbeitsbereich Verbindungselemente hat zwei Werkzeugleisten. Die {{MenuCommand|FS Schauben}} Werkzeugleiste hat viele Werkzeuge. Falls erforderlich kann sie durch drücken der **&gt;&gt;** Schaltfläche erweitert werden.
+Der Arbeitsbereich Verbindungselemente hat zwei Werkzeugleisten. Die **FS Schauben** Werkzeugleiste hat viele Werkzeuge. Falls erforderlich kann sie durch drücken der **&gt;&gt;** Schaltfläche erweitert werden.
 
 ![](images/Fasteners_toolbars.png ) *Die Werkzeugleisten des Arbeitsbereichs Verbindungselemente*
 
@@ -66,7 +66,7 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Parameter der Verbindungselemente ändern](Fasteners_ChangeParameters/de.md): Parameter der ausgewählten Verbindungselemente ändern.
 
-### Befestigungselemente PEM und Leiterplatte {#befestigungselemente_pem_und_leiterplatte}
+### Befestigungselemente PEM und Leiterplatte 
 
 -   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> **PEM** Einpressmutter metrisch.
 
@@ -78,7 +78,7 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 -   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **Leiterplatte** Abstandshalter Innen/Innen Metrisch.
 
-### Verbindungselemente DIN, EN und ISO {#verbindungselemente_din_en_und_iso}
+### Verbindungselemente DIN, EN und ISO 
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Sechskantschrauben. *Produktklassen A und B.*
@@ -177,7 +177,7 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Sechskantsicherungsmuttern mit Kunststoffring.
 
-### Fasteners ASME {#fasteners_asme}
+### Fasteners ASME 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Hex head screw.
 
@@ -215,7 +215,7 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN washer, wide series.
 
-### Sonstige Befestigungselemente {#sonstige_befestigungselemente}
+### Sonstige Befestigungselemente 
 
 -   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Arbitrary length threaded rod for tapping holes (metric).
 
@@ -235,7 +235,7 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 **Verbindungselemente Einstellungen**
 -   <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:32px;"> \'\'\'Symbol Arbeitsbereich Verbindungselemente \'\'\'
 
-## Arbeitsbereichverwandte Verweise {#arbeitsbereichverwandte_verweise}
+## Arbeitsbereichverwandte Verweise 
 
 -   Arbeitsbereich Wiki: <http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/>
 -   FreeCAD Wiki: <https://www.freecadweb.org/wiki/Fasteners_Workbench>
@@ -246,7 +246,7 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 -   Fehler berichten: Bitte melde Fehler unter <https://github.com/shaise/FreeCAD_FastenersWB/issues>
 -   Installation: <http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/>
 
-## Andere Verweise {#andere_verweise}
+## Andere Verweise 
 
 -   [Generating holes for countersunk screws in freecad](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/)
 -   [BOLTS](https://github.com/jreinhardt/BOLTS): An Open Library for Technical Specifications

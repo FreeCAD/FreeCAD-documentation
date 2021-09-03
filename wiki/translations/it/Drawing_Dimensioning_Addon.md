@@ -8,7 +8,7 @@ Il [modulo Drawing dimensioning](https://github.com/hamish2014/FreeCAD_drawing_d
 
 Drawing dimensioning workbench for FreeCAD v0.15 or later. Take note that this workbench is experimental and still contains bugs.
 
-### Intended work-flow: {#intended_work_flow}
+### Intended work-flow: 
 
 -   create a drawing page and a drawing of the part using the drawing workbench
 -   switch to the drawing dimensioning workbench to add dimensions to that drawing
@@ -36,17 +36,17 @@ Drawing dimensioning workbench for FreeCAD v0.15 or later. Take note that this w
 
 ## Installazione
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 
-#### Linux Installation Instructions (From GitHub) {#linux_installation_instructions_from_github}
+#### Linux Installation Instructions (From GitHub) 
 
 To use this workbench clone this git repository under your FreeCAD MyScripts directory, and install the pyside and numpy python libraries. On a Linux Debian based system such as Ubuntu, installation can be done through BASH as follows \$ sudo apt-get install git python-numpy python-pyside \$ mkdir \~/.FreeCAD/Mod \$ cd \~/.FreeCAD/Mod \$ git clone <https://github.com/hamish2014/FreeCAD_drawing_dimensioning.git>
 
 Once installed, use git to easily update to the latest version: \$ cd \~/.FreeCAD/Mod/FreeCAD\_drawing\_dimensioning \$ git pull \$ rm \*.pyc
 
-#### Windows Installation Instructions (From GitHub) {#windows_installation_instructions_from_github}
+#### Windows Installation Instructions (From GitHub) 
 
 Tested with 015.4415 Development Snapshot on a Windows 7 64bit-System (thanks BPLRFE )
 
@@ -61,13 +61,13 @@ Pyside and Numpy are integrated in the FreeCAD dev-Snapshots 0.15, so these Pyth
 
 To update to the latest version, delete the DrawingDimensioning folder and redownload the git repository.
 
-#### Mac Installation Instructions (From GitHub) {#mac_installation_instructions_from_github}
+#### Mac Installation Instructions (From GitHub) 
 
 Copy or unzip the drawing dimensioning folder to the directory FreeCAD.app/Contents/Mod
 
 where FreeCAD.app is the folder where FreeCAD is installed. (thanks PLChris)
 
-## Setting your dimensioning preferences {#setting_your_dimensioning_preferences}
+## Setting your dimensioning preferences 
 
 Unit preferences are taken from the General unit preferences (excluding number of decimal places!). To set unit preferences goto edit → preferences → general → units
 
@@ -138,7 +138,7 @@ Symbols
 
 ![](images/Drawing-Dimensioning-symbol.png )
 
-## Linear dimensions {#linear_dimensions}
+## Linear dimensions 
 
 Linear dimensions / Linear dimension stack
 
@@ -200,7 +200,7 @@ Tipps:
 
 -   changing the dimension to a half linear dimension ca be done by selecting the dimension in the tree view and setting the value for \"half Dimension\_linear\" to true. The dimension will be using the half towrds the second click point
 
-## Links to Drawing Dimensioning WB {#links_to_drawing_dimensioning_wb}
+## Links to Drawing Dimensioning WB 
 
 -   Workbench Wiki: <https://github.com/hamish2014/FreeCAD_drawing_dimensioning/wiki>
 -   FreeCAD Wiki:
@@ -210,7 +210,7 @@ Tipps:
 -   Files:
 -   Report bugs: Please report bugs at <https://github.com/hamish2014/FreeCAD_drawing_dimensioning/issues>
 
-## Altri link utili {#altri_link_utili}
+## Altri link utili 
 
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)

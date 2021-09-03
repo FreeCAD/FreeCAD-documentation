@@ -29,7 +29,7 @@ Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden.
 
 ## Anwendung
 
-### Zeichnung einer Vorhangwand von Grund auf {#zeichnung_einer_vorhangwand_von_grund_auf}
+### Zeichnung einer Vorhangwand von Grund auf 
 
 1.  Stelle sicher, dass nichts ausgewählt ist
 2.  Drücke die Schaltfläche **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall/de]]
@@ -38,7 +38,7 @@ Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden.
 4.  Klicke auf einen zweiten Punkt in der 3D Ansicht oder gib eine Koordinate ein
 5.  Stelle die benötigten Eigenschaften ein
 
-### Erstellung einer Vorhangwand aus einem gewählten Objekt {#erstellung_einer_vorhangwand_aus_einem_gewählten_objekt}
+### Erstellung einer Vorhangwand aus einem gewählten Objekt 
 
 1.  Wähle ein oder mehrere Basisgeometrieobjekte (Entwurfsobjekt, Skizze, usw.).
 2.  Drücke die **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall/de]]**, oder drücke die Tasten **C** und dann **W**.
@@ -101,7 +101,7 @@ Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de
 
 -    **Host**: The host of this curtain wall. The curtain wall will appear embedded in its host object in the tree view (no other action is performed)
 
-## Making frame walls {#making_frame_walls}
+## Making frame walls 
 
 Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete of brick).
 

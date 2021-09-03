@@ -85,7 +85,7 @@ Wire = make_wire(pointslist, closed=True, face=True)
 Window = make_window(Wire, name="Big window")
 ```
 
-## Применение \"Import\" {#применение_import}
+## Применение \"Import\" 
 
 Функции Python хранятся в файлах, называемых модулями. Перед использованием любой функции вызываемой из модуля, модуль должен быть включен в код инструкцией `import`.
 

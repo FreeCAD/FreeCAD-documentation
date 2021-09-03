@@ -14,7 +14,7 @@ The **<img src="images/Part_Export.svg" width=16px> [Part Export](Part_Export.md
 
 1.  Set up the [Import Export Preferences](Import_Export_Preferences.md) in the [Preferences Editor](Preferences_Editor.md).
 2.  Select shapes in [tree view](tree_view.md) or in the [3D view](3D_view.md).
-3.  Go to the menu {{MenuCommand|Part →  <img src=images/Part_Export.svg style="width:16px"> Export CAD}}.
+3.  Go to the menu **Part →  <img src=images/Part_Export.svg style="width:16px"> Export CAD**.
 4.  Select the file format and the output path.
 
 

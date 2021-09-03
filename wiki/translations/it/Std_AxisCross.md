@@ -29,14 +29,14 @@ Il sistema di assi è composto da tre frecce che rappresentano gli assi X, Y e Z
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare {{MenuCommand|Visualizza → Origine degli assi}}.
+1.  Selezionare **Visualizza → Origine degli assi**.
 
 
 </div>
 
 ## Note
 
--   FreeCAD può visualizzare un indicatore di sistema di coordinate più piccolo nell\'angolo in basso a destra delle viste 3D: {{MenuCommand|Modifica → Preferenze... → Display → Vista 3D → Mostra il sistema di coordinate nell'angolo}}. Vedere [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
+-   FreeCAD può visualizzare un indicatore di sistema di coordinate più piccolo nell\'angolo in basso a destra delle viste 3D: **Modifica → Preferenze... → Display → Vista 3D → Mostra il sistema di coordinate nell'angolo**. Vedere [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
 -   Anche il [cubo di navigazione](Navigation_Cube/it.md) include un indicatore del sistema di coordinate.
 
 ## Preferenze
@@ -44,7 +44,7 @@ Il sistema di assi è composto da tre frecce che rappresentano gli assi X, Y e Z
 
 <div class="mw-translate-fuzzy">
 
--   L\'impostazione del sistema di assi è memorizzata in: {{MenuCommand|Strumenti → Modifica parametri... → BaseApp → Preferences → View → ShowAxisCross}}.
+-   L\'impostazione del sistema di assi è memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → View → ShowAxisCross**.
 
 
 </div>

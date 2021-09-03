@@ -27,7 +27,7 @@ Pentru a face un profil elicoidală, acesta trebuie extrudat cu ajutorul instrum
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Go to the **Part Design → <img alt="" src=images/PartDesign_InvoluteGear.png  style="width:16px;"> Involute gear\...** menu.
 2.  Set the Involute parameters.

@@ -18,7 +18,7 @@ IFC Eigenschaften können benutzerdefiniert sein, d. h., du kannst einen eigenen
 
 Du kannst deine eigenen Eigenschaften und Eigenschaftssätze erstellen und sie jedem Objekt zuweisen. Es gibt im IFC Schema keine Vorgabe, vordefinierte Psets für gängige Typen hinzuzufügen, und auch keine Begrenzung für das Hinzufügen eigener Eigenschaften. Dies ist eine Entscheidung, die den Benutzern überlassen wird. Normalerweise werden diese Dinge bei der Arbeit im Team zusammen mit anderen BIM Anforderungen entschieden, um sicherzustellen, dass alle produzierten BIM Modelle die gleichen Anforderungen erfüllen.
 
-### Eigene Eigenschaftssätze definieren {#eigene_eigenschaftssätze_definieren}
+### Eigene Eigenschaftssätze definieren 
 
 Die verfügbaren Eigenschaftssätze, die im IFC Standard vordefiniert sind, werden in einer [csv Datei, die mit FreeCAD gebündelt ist](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/pset_definitions.csv) gespeichert. Du kannst auch eine benutzerdefinierte csv Datei mit deinen eigenen Eigenschaftssätzen hinzufügen. Diese Datei muss CustomPsets.csv heißen und in \$USERAPPDATA/BIM abgelegt werden.
 

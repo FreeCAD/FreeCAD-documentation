@@ -29,7 +29,7 @@ Pour appliquer la contrainte tangente, suivre les étapes suivantes :
 -   Sélectionnez deux ou trois entités dans l\'esquisse.
 -   Appelez la contrainte en cliquant sur son icône sur la barre d\'outils, ou en sélectionnant l\'option de menu, ou en utilisant le raccourci clavier.
 
-### Entre deux courbes (tangence directe) {#entre_deux_courbes_tangence_directe}
+### Entre deux courbes (tangence directe) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
 
@@ -44,7 +44,7 @@ Si la tangence direct entre les courbes sélectionnées n\'est pas prise en char
 
 Il n\'est pas recommandé de reconstruire le point de tangence en créant un point et le contraindre à se positionner sur les deux courbes. Il fonctionnera, mais la convergence sera sérieusement plus lente et il faudra environ deux fois plus d\'itérations pour converger par rapport à la normale. Utiliser d\'autres méthodes pour cette contrainte si le point de tangence est nécessaire.
 
-### Entre deux points de terminaison (tangence point à point) {#entre_deux_points_de_terminaison_tangence_point_à_point}
+### Entre deux points de terminaison (tangence point à point) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
@@ -54,7 +54,7 @@ Dans ce mode, les extrémités sont rendues coïncidentes et le joint est rendu 
 
 -   point extrémité de ligne/arc/arc d\'ellipse + extrémité de ligne/arc/arc d\'ellipse (soit deux points de terminaison de deux courbes quelconques)
 
-### Entre une courbe et un point de terminaison (tangence point à courbe) {#entre_une_courbe_et_un_point_de_terminaison_tangence_point_à_courbe}
+### Entre une courbe et un point de terminaison (tangence point à courbe) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
 
@@ -64,7 +64,7 @@ Dans ce mode, une extrémité d\'une courbe est contraint de se trouver sur l\'a
 
 -   ligne, cercle, arc, ellipse, arc d\'ellipse + extrémité de ligne/arc/arc d\'ellipse (soit une courbe + une extrémité de courbe)
 
-### Entre deux courbes au point (tangent-via-point) (v0.15) {#entre_deux_courbes_au_point_tangent_via_point_v0.15}
+### Entre deux courbes au point (tangent-via-point) (v0.15) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
 
@@ -82,7 +82,7 @@ Comparée à la tangence directe, cette contrainte est plus lente, car il ya des
 
 Le placement du point avant que la contrainte soit appliquée est une indication pour le calculateur pour savoir où doit se trouver la tangence. Avec cette contrainte, on peut forcer deux ellipses à se toucher en deux endroits.
 
-### Entre deux lignes (colinéaire) {#entre_deux_lignes_colinéaire}
+### Entre deux lignes (colinéaire) 
 
 <img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
 

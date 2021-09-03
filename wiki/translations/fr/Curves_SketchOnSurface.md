@@ -25,14 +25,14 @@ Cet outil mappe une esquisse sur une face comme une étiquette sur une bouteille
     3.  Quittez le mode d\'édition.
     4.  Sélectionnez l\'esquisse et activez Esquisse sur une surface soit:
         1.  En appuyant sur le bouton <img alt="" src=images/Curves_SketchOnSurface.svg  style="width:24px;">
-        2.  Utilisation de l\'entrée {{MenuCommand|Surfaces → Sketch on Surface}} dans le menu Curves
+        2.  Utilisation de l\'entrée **Surfaces → Sketch on Surface** dans le menu Curves
 
     Vous n\'avez pas encore de croquis à cartographier:
 
     1.  Sélectionnez la face cible dans la [vue 3D](3D_view/fr.md)
     2.  Activez Esquisse sur une surface soit :
         1.  En appuyant sur le bouton <img alt="" src=images/Curves_SketchOnSurface.svg  style="width:24px;">
-        2.  Utilisation de l\'entrée {{MenuCommand|Surfaces → Sketch on Surface}} dans le menu Curves
+        2.  Utilisation de l\'entrée **Surfaces → Sketch on Surface** dans le menu Curves
 
         :   Un objet \"Sketch on surface\" apparaît dans la [Vue Combinée](Combo_view/fr.md).
         :   Cliquez sur cet objet pour faire apparaître \"Mapped sketch\" dessous.

@@ -43,25 +43,25 @@ Pour ajouter ou supprimer des fonctionnalités d\'un modèle existant :
 
 Lors de la création d\'une fonction symétrique, la boîte de dialogue **Paramètres de symétrie** propose différentes manières de spécifier la ligne ou le plan symétrique.
 
-#### Axe d\'esquisse horizontal {#axe_desquisse_horizontal}
+#### Axe d\'esquisse horizontal 
 
 Utilise l\'axe horizontal de l\'esquisse comme axe de symétrie.
 
-#### Axe d\'esquisse vertical {#axe_desquisse_vertical}
+#### Axe d\'esquisse vertical 
 
 Utilise l\'axe vertical de l\'esquisse comme axe de symétrie.
 
-#### Sélectionnez une référence \... {#sélectionnez_une_référence_...}
+#### Sélectionnez une référence \... 
 
 Vous permet de sélectionner un plan (comme une face d\'un objet) pour l\'utiliser comme plan de symétrie.
 
-#### Axe personnalisé d\'esquisse {#axe_personnalisé_desquisse}
+#### Axe personnalisé d\'esquisse 
 
 Si l\'esquisse qui définit la fonction à symétriser contient également une ou plusieurs ligne(s) de construction, alors la liste déroulante contiendra un axe d\'esquisse personnalisé pour chaque ligne de construction. La première ligne de la construction sera étiquetée *Sketch axis 0*. L\'image ci-dessous est un exemple avec l\'esquisse en mode d\'édition affichant une ligne de construction utilisée comme axe de symétrie.
 
 ![](images/PartDesign_Mirrored_axis_fromconstructionlines.jpg )
 
-#### Plan (XY/XZ/YZ) {#plan_xyxzyz}
+#### Plan (XY/XZ/YZ) 
 
 Sélectionnez l\'un des plans standards de l\'origine du Corps (XY, XZ ou YZ).
 

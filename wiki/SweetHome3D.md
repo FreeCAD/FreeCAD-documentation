@@ -4,7 +4,7 @@
 
 **Sweet Home 3D** is a free interior design application that helps you draw the plan of your house, arrange furniture on it and visit the results in 3D. Watch [video](http://www.sweethome3d.com/videos/SweetHome3D-720p-music.mp4)
 
-### Related links {#related_links}
+### Related links 
 
 -   [Ticket \#2584](https://freecadweb.org/tracker/view.php?id=2584) - Support for SweetHome3D xml-based files
 -   [How to quickly create your floor plan in Sweet Home 3D](https://www.youtube.com/watch?v=QAAYHTuqm9M)

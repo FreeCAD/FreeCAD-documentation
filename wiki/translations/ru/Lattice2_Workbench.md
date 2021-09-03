@@ -27,7 +27,7 @@
 
 Детальное описание на [Lattice2 Github wiki](https://github.com/DeepSOIC/Lattice2/wiki)
 
-### Панель инструментов {#панель_инструментов}
+### Панель инструментов 
 
 ![](images/Lattice2-menu-orizz.png ) *Панель инструментов Lattice2*
 
@@ -115,11 +115,11 @@ Other
 
 **Prerequisites** Lattice2 WB requires FreeCAD \>= v0.16.5155.
 
-### Автоматическая установка {#автоматическая_установка}
+### Автоматическая установка 
 
 Начиная с v0.17 можно использовать для установки <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> верстака Lattice2 <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/ru.md). Используйте {MenuCommand\|инструменты → Addon Manager}}
 
-### Ручная установка {#ручная_установка}
+### Ручная установка 
 
 -   Scroll to the top of the page, and click \'download zip\' button
 -   Unpack the contents into a \"Lattice2\" folder created in \\Path\\to\\FreeCAD\\Mod, and restart FreeCAD.
@@ -135,7 +135,7 @@ After you install the workbench, it should appear at the bottom of list of workb
 -   [Making a Cogset](https://github.com/DeepSOIC/Lattice2/wiki/Cogset-Tutorial)
 -   [Feature Patterns in Lattice2 Workbench](https://www.youtube.com/watch?v=BXmeEGnhszo) by \@sliptonic
 
-## Links to Lattice2 WB {#links_to_lattice2_wb}
+## Links to Lattice2 WB 
 
 -   Lattice2 Wiki: <https://github.com/DeepSOIC/Lattice2/wiki>
 -   FreeCAD Wiki: <https://www.freecadweb.org/wiki/Lattice2_Workbench>
@@ -143,7 +143,7 @@ After you install the workbench, it should appear at the bottom of list of workb
 -   Gallery: <https://github.com/DeepSOIC/Lattice2/wiki/Gallery>
 -   Report bugs: Please report bugs at <https://github.com/DeepSOIC/Lattice2/issues>
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [Lattice aka Lattice1 Workbench (obsolete)](https://github.com/DeepSOIC/Lattice)
 -   [Внешние верстаки](External_Workbenches/ru.md): Список верстаков FreeCAD.

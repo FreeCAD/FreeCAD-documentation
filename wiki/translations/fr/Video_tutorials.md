@@ -8,7 +8,7 @@ Consultez la page [didacticiels externes](offsite_tutorials/fr.md) pour avoir un
 
 Si vous souhaitez contribuer à la rédaction de la documentation et des didacticiels du wiki, voir [Aider FreeCAD](Help_FreeCAD/fr.md), reportez-vous aux instructions générales du wiki dans [WikiPages (en)](WikiPages.md) et suivez les [recommandations pour didacticiel (en)](tutorial_guidelines.md).
 
-## Conception de produit {#conception_de_produit}
+## Conception de produit 
 
 Les vidéos qui passent par la modélisation de divers objets solides à l\'aide d\'ateliers tels que <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign ](PartDesign_Workbench/fr.md) et <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md).
 
@@ -23,31 +23,31 @@ Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous r
 -   [Allez plus loin avec Asm 3 WB](http://help-freecad-jpg87.fr/025c_ass_ex_creat.php) de jpg87 est un site Web avec des instructions étape par étape et des vidéos pour démontrer l\'utilisation de l\'[atelier Assembly3](Assembly3_Workbench/fr.md).
 -   [FreeCAD Tutorial - atelier Assembly 4](https://www.youtube.com/watch?v=n04M6nFvdxs) par Martham Engineering. Il présente l\'[atelier Assembly4](Assembly4_Workbench/fr.md).
 
-## Dessins techniques {#dessins_techniques}
+## Dessins techniques 
 
 -   [TechDraw](https://www.youtube.com/watch?v=7LbOmSGW9F0&list=PLEuOia-QxyFKQnmM1U9yVo7eNrK_Mcln8): une série de 5 vidéos décrivant le [atelier TechDraw](TechDraw_Workbench/fr.md), par sliptonic; [1 (Principes de base)](https://www.youtube.com/watch?v=7LbOmSGW9F0), [2 (Dimensions)](https://www.youtube.com/watch?v=z3w84RfvqaE), [3 (Multivue)](https://www.youtube.com/watch?v=uNjXg-m38aI), [4 (Sections et détails)](https://www.youtube.com/watch?v=3zSdeFV6I5o) et [5 (Personnalisation des modèles)](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
 
 -   [Introduction à l\'atelier FreeCAD TechDraw](https://www.youtube.com/watch?v=TnYMfpdNQoo) par Glasson Design Studio. Ceci est particulièrement destiné aux menuisiers mais peut être utilisé pour les solides généraux.
 
-## Fabrication assistée par ordinateur (FAO) {#fabrication_assistée_par_ordinateur_fao}
+## Fabrication assistée par ordinateur (FAO) 
 
 -   [playlists de sliptonic](https://www.youtube.com/user/sliptonic/playlists): diverses vidéos sur l\'utilisation de FreeCAD, travailler avec TechDraw et en particulier l\'[atelier Path](Path_Workbench/fr.md), par sliptonic, l\'un des principaux développeurs de ce dernier.
     -   [Using FreeCAD version 0.17 Path Workbench](https://www.youtube.com/playlist?list=PLEuOia-QxyFJZSpqb0xOHc9t7MLdCO3io): une série de 9 vidéos expliquant comment utiliser l\'atelier Path y compris les outils et les contrôleurs, la configuration des tâches, visualisation, opérations, habillages, unités et préférences.
 -   [Vidéos Coder Musashi](https://www.youtube.com/channel/UCtNnYMVWGkG-aemOrCtGjCA/videos): diverses vidéos sur l\'utilisation du [atelier Path](Path_Workbench/fr.md).
     -   [PathWorkbench créant des chemins avec FeatureArea et d\'autres outils freecad](https://www.youtube.com/watch?v=MsDIRIkeNJ4)
 
-## Visualisation et Rendu {#visualisation_et_rendu}
+## Visualisation et Rendu 
 
 -   [playlists de Joko Engineeringhelp](https://www.youtube.com/channel/UC-CubOaooNwC-3RBKUoAOQQ/playlists): de nombreuses vidéos sur la modélisation 3D avec des outils comme FreeCAD et Blender.
     -   [Blender Render Solidworks and FreeCAD Parts with AllVisuals4U](https://www.youtube.com/watch?v=a__w8eMRx-U&list=PL7eiW2bt21YUfOTUvzA3jtQqF4Vpz21Ut): une série de 11 vidéos. Collaboration entre Joko Engineeringhelp et AllVisual. Dans ces vidéos, ils montrent comment modéliser une bouteille en verre dans FreeCAD puis comment préparer une scène et la rendre dans Blender: [3D Bottle Design - FreeCAD To Blender Export](https://www.youtube.com/watch?v=a__w8eMRx-U&list=PL7eiW2bt21YUfOTUvzA3jtQqF4Vpz21Ut), [Partie 1: Importation](https://www.youtube.com/watch?v=U7e6-Wfv2b0), [Partie 2: Organiser](https://www.youtube.com/watch?v=fAvDd7SY-T0), [Partie 3: Attribuer des matériaux](https://www.youtube.com/watch?v=J8TuRgaBNBU), [Partie 4: Éclairage et UV Maps](https://www.youtube.com/watch?v=0dsvaQVN1VQ), [Partie 5: Options des nœuds](https://www.youtube.com/watch?v=zx0Qvsl6gzw), [Partie 6: Créer des rendus](https://www.youtube.com/watch?v=TRVLZeJ6f28), \[ <https://www.youtube.com/watch?v=foTUw3qM13c> Partie 7: Maillages STL lisses\].
 
-## Conception architecturale {#conception_architecturale}
+## Conception architecturale 
 
 Vidéos qui passent par la modélisation de pièces, de maisons, d\'immeubles de bureaux et de structures similaires, et de dessin de plans d\'étage, à l\'aide des ateliers tels que <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/fr.md) et <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/fr.md).
 
 Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous rendres sur [Tutoriels vidéo pour la conception en architecture](Video_tutorials_for_architectural_design/fr.md).
 
-## Simulation par les éléments finis (FEM) {#simulation_par_les_éléments_finis_fem}
+## Simulation par les éléments finis (FEM) 
 
 -   [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Introduction](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16, une introduction pour construire une structure simple de piliers et de poutres ainsi que des analyses avec l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md), par Eklavya Self Learning Tutorials.
 
@@ -63,7 +63,7 @@ Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous r
 
 -   [flowwie\'s corner](https://www.youtube.com/c/flowwiescorner/videos) par flowwie en allemand : une belle série de 62 courtes vidéos concernant FreeCAD 0.18 et 0.19, du niveau de base au niveau intermédiaire.
 
-## Anciennes vidéos {#anciennes_vidéos}
+## Anciennes vidéos 
 
 
 {{VeryImportantMessage|Dans FreeCAD 0.17, l'[atelier PartDesign](PartDesign_Workbench/fr.md) a reçu des mises à jour importantes qui modifient la façon dont les solides sont créés par rapport aux versions précédentes. Les nouveaux utilisateurs doivent regarder des vidéos pour les versions 0.17 et supérieures pour comprendre le concept de travail avec un [PartDesign Coprs](PartDesign_Body/fr.md) et des objets de référence.}}

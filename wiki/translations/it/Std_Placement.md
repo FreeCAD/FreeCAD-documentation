@@ -22,7 +22,7 @@ Il comando **Posizionamento** visualizza la [scheda azioni](Task_panel/it.md) pe
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un singolo oggetto. L\'oggetto deve avere una [proprietà](Property_editor/it.md) **Placement**.
-2.  Selezionare l\'opzione {{MenuCommand|Modifica → Posizionamento...}} dal menu.
+2.  Selezionare l\'opzione **Modifica → Posizionamento...** dal menu.
 3.  Modificare uno o più parametri di traslazione e rotazione.
 4.  Effettuare una delle seguenti operazioni:
     -   Premere il pulsante **OK** per applicare le modifiche e chiudere il pannello delle azioni.

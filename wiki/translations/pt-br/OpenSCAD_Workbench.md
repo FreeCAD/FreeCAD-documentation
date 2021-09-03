@@ -43,7 +43,7 @@ The general installation in all platforms can be done from the Python package in
 pip3 install --user ply
 ```
 
-## A linguagem OpenSCAD e formato de arquivo {#a_linguagem_openscad_e_formato_de_arquivo}
+## A linguagem OpenSCAD e formato de arquivo 
 
 A linguagem OpenSCAD permite o uso de variáveis e laços de repetição. Permite que você especifique submódulos para reutilizar geometria e código. Este alto grau de flexibilidade torna a análise muito complexa. Atualmente a bancada OpenSCAD não pode manipular a linguagem OpenSCAD nativamente. Em vez disso, se o OpenSCAD estiver instalado, pode ser usado para converter a entrada em formato CSG, o qual é um subconjunto da linguagem OpenSCAD e pode ser utilizada como entrada para o OpenSCAD para processamento adicional.
 

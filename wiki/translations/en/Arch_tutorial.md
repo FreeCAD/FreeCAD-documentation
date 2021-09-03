@@ -43,7 +43,7 @@ At the time I\'m writing this, though, the [Arch Workbench](Arch_Workbench.md), 
 
 {{Note|FreeCAD version 0.14 required|This tutorial was written using [FreeCAD version 0.14](Release_notes_0.14.md). You will need at least this version number in order to follow it. Earlier versions might not contain all the needed tools, or they could lack options presented here.}}
 
-## Typical workflows {#typical_workflows}
+## Typical workflows 
 
 The [Arch Workbench](Arch_Workbench.md) is mainly made for two kinds of workflows:
 
@@ -69,7 +69,7 @@ This is how the file looks after being opened in FreeCAD. I also changed the thi
 
 The [DXF importer](Draft_DXF.md) (which also takes care of DWG files, since when importing DWG files, they are simply converted to DXF first), groups the imported objects by layer. There is no layer in FreeCAD, but there are [groups](Std_Group.md). [Groups](Std_Group.md) offer a similar way to organize the objects of your files, but don\'t have specific properties, like AutoCAD layers, that apply to their contents. But they can be placed inside other groups, which is very handy. The first thing we might want to do here, is to create a new [group](Std_Group.md) in the [tree view](Document_structure.md), right-click on the document icon, add a group, right click on it to rename it as \"base 2D plans\", and drag and drop all the other objects into it.
 
-## Building the walls {#building_the_walls}
+## Building the walls 
 
 Like most [Arch](Arch_Workbench.md) objects, [walls](Arch_Wall.md) can be built upon a big variety of other objects: [lines](Draft_Line.md), [wires](Draft_Wire.md) (polylines), [sketches](Sketcher_Workbench.md), faces or solid (or even on nothing at all, in which case they are defined by height, width and length). The resulting geometry of the wall depends on that base geometry, and the properties you fill in, such as width and height. As you might guess, a wall based on a line will use that line as its alignment line, while a wall based on a face will use that face as its base footprint, and a wall based on a solid will simply adopt the shape of that solid. This allows about any shape imaginable to become a wall.
 
@@ -115,7 +115,7 @@ Now let\'s move our walls horizontally, to their correct location. Since we have
 
 Finally, I changed the color of some walls to a brick-like color (so it\'s easier to differentiate), and made a small correction: Some walls don\'t go up to the roof, but stop at a height of 2.60m. I corrected the height of those walls.
 
-## Raising the structure {#raising_the_structure}
+## Raising the structure 
 
 Now, since we\'ll have to cut our walls with a subtraction volume, we might as well see if there aren\'t other objects that will need to be cut that way. There are, some of the columns. This is a good opportunity to introduce a second arch object: the [Arch Structure](Arch_Structure.md). Structure objects behave more or less like walls, but they aren\'t made to follow a baseline. Rather, they prefer to work from a profile, that gets extruded (along a profile line or not). Any flat object can be a profile for a structure, with only one requirement: they must form a closed shape.
 
@@ -158,7 +158,7 @@ Remember that for both [Arch Add](Arch_Add.md) and [Arch Remove](Arch_Remove.md)
 
 {{Note|A note about additions and subtractions|Arch objects that support such additions and subtractions (all of them except the "visual" helper objects such as the axes) keep track of such objects by having two properties, respectively "Additions" and "Subtractions", that contain a list of links to other objects to be subtracted or added. A same object can be in the lists of several other objects, as it is the case of our subtraction volume here. Each of the fathers will want to swallow it in the tree view, though, so it will usually "live" in the last one. But you can always edit those lists for any object, by double-clicking it in the tree view, which in FreeCAD enters edit mode. Pressing the escape key exits edit mode.}}
 
-## Making the roofs {#making_the_roofs}
+## Making the roofs 
 
 Now, all we have to do to complete the structure, is to make the roof and the smaller inner slabs. Again, the easiest way is to draw their profiles on top of the section, with the [Draft Wire](Draft_Wire.md) tool. Here I drew 3 profiles on top of each other (I moved them apart in the image below so you see better). The green one will be used for the lateral borders of the roof slab, then the blue one for the side parts, and the red ones for the central part, that sits above the bathroom block:
 
@@ -178,17 +178,17 @@ Now one last thing must be fixed, there is a small slab in the bathroom, that in
 
 <img alt="" src=images/Arch_tutorial_16.jpg  style="width:1024px;">
 
-## Floors, stairs and chimney {#floors_stairs_and_chimney}
+## Floors, stairs and chimney 
 
 Now, our structure is complete, we just have a couple of smaller objects to do.
 
-### The chimney {#the_chimney}
+### The chimney 
 
 Let\'s start with the chimney. Now you already know how it works, right? Draw a couple of closed [wires](Draft_Wire.md), move them up at their correct height with the [Draft Move](Draft_Move.md) tool, extrude them with the [Draft Trimex](Draft_Trimex.md) tool, turn the bigger one into a [structure](Arch_Structure.md), and subtract the smaller ones. Notice how the chimney tube wasn\'t drawn on the plan view, but I found its position by dragging blue lines from the section views.
 
 <img alt="" src=images/Arch_tutorial_17.jpg  style="width:1024px;">
 
-### The floors {#the_floors}
+### The floors 
 
 The floors are not well represented in the base drawings. When looking at the sections, you cannot know where and how thick the floor slabs are. So I will suppose that the walls are sitting on top of foundation blocks, at level 0.00, and that there are floor slabs, also sitting on those blocks, 15cm thick. So the floor slabs don\'t run under the walls, but around them. We could do that by creating a big rectangular slab then subtracting the walls, but remember, subtraction operations cost us. Better do it in smaller pieces, it will be \"cheaper\" in terms of calculation, and also if we do it intelligently, room by room, these will also be useful to calculate floor areas later:
 
@@ -198,7 +198,7 @@ Once the wires are drawn, just turn them into [structures](Arch_Structure.md), a
 
 <img alt="" src=images/Arch_tutorial_19.jpg  style="width:1024px;">
 
-### The stairs {#the_stairs}
+### The stairs 
 
 Now the stairs. Meet the next of the Arch tools, the [Arch Stairs](Arch_Stairs.md). This tool is still in a very early stage of development, at the time I\'m writing, so don\'t expect too much of it. But it is already pretty useful to make simple, straight stairs. One concept is important to know, the stairs tool is thought to build stairs from a flat floor up to a wall. In other words, when viewed from the top, the stairs object occupies exactly the space that it occupies on the plan view, so the last riser is not drawn (but it is of course taken into account when calculating heights).
 
@@ -220,7 +220,7 @@ Don\'t forget also to cut the column that crosses the stairs, because in BIM it\
 
 Right! All the hard work is now done, let\'s go on with the very hard work!
 
-## Doors and windows {#doors_and_windows}
+## Doors and windows 
 
 [Arch Windows](Arch_Window.md) are pretty complex objects. They are used to make all kinds of \"inserted\" objects, such as windows or doors. Yes, in FreeCAD, doors are just a special kind of window. In real life too, if you think of it, no? The [Arch Window](Arch_Window.md) tool can still be a bit hard to use today, but consider this as a tradeoff, as it was built for maximum power. Almost any kind of window your imagination can produce can be done with it. But as the tool will gain more presets, this situation will certainly become better in the future.
 
@@ -228,7 +228,7 @@ The [Arch Window](Arch_Window.md) object works like this: It is based on a 2D la
 
 There are two ways to create such objects in FreeCAD: By using a preset, or drawing the window layout from scratch. We\'ll look at both methods here. But remember that the preset method does nothing else than creating the layout object and defining the necessary extrusions for you.
 
-### Using presets {#using_presets}
+### Using presets 
 
 When pressing the [Arch Window](Arch_Window.md) tool with no object selected, you are invited either to pick a 2D layout, or to use one of the presets. Let\'s use the \"Simple Door\" preset to place the main entrance door of our model. Give it a width of 1m, a height of 2.45m, a W1 size of 0.15m, and leave the other parameters to 0.05m. Then click the lower left corner of the wall, and your new door is created:
 
@@ -242,7 +242,7 @@ We have a second door, exactly the same as this one, a bit on the left. Instead 
 
 So all we need to do now is select the door, press the [Draft Clone](Draft_Clone.md) tool, then move the clone to its correct position with the [Draft Move](Draft_Move.md) tool.
 
-### Organizing your model {#organizing_your_model}
+### Organizing your model 
 
 <img alt="" src=images/Arch_tutorial_24.jpg  style="width:400px;">
 
@@ -269,7 +269,7 @@ After a closer look at the elevation view, I now detected another error: The top
 
 Now we can look at the really interesting stuff: How to design your own custom windows.
 
-### Creating custom windows {#creating_custom_windows}
+### Creating custom windows 
 
 As I explained above, [Arch Window](Arch_Window.md) objects are created from 2D layouts, made of closed elements (wires (polylines), circles, rectangles, anything). Since [Draft](Draft_Workbench.md) objects cannot hold more than one of these elements, the preferred tool to draw window layouts is the [Sketcher](Sketcher_Workbench.md). Unfortunately, with the sketcher, it is not possible to snap to external objects like with the Draft workbench, which would be useful here, since our elevations are drawn already. Fortunately, a tool exists to convert Draft objects to a sketch: The [Draft To Sketch](Draft_Draft2Sketch.md) tool.
 
@@ -307,7 +307,7 @@ Last missing piece, there is a segment of wall that didn\'t appear on the plan v
 
 Ready? Not quite. Look at the image above, we did our doors with a 5cm frame, remember (it was the default from the preset). But the other windows have 2.5cm frames. This needs to be fixed.
 
-### Editing windows {#editing_windows}
+### Editing windows 
 
 We already saw how to build and update window components, via the window\'s edit mode, but we can also edit the underlying sketch. Preset windows are not different than custom windows, the [Arch Window](Arch_Window.md) tool only created the underlying sketch fo you. Select our door object (the original, not the copy, remember, we made a clone), and expand it in the tree view. There is our sketch. Double-click it to enter edit mode.
 
@@ -319,7 +319,7 @@ When we edit our door sketch, we can see that it is made on a fully constrained 
 
 Now all we need to do is edit the 5cm distances between the outer line and the inner line, by double-clicking them, and changing their value to 2.5cm (Remember, the units are still not fully functional at the time I\'m writing this). After clicking the \"OK\" button, our door (and its clone) have been updated.
 
-## Working without 2D support {#working_without_2d_support}
+## Working without 2D support 
 
 Until now our work has been relatively easy, because we had the underlying 2D drawings to base our work upon. But now, we must do the opposite facade and the glass atrium, and things are getting more complicated: The opposite facade drawing has a lot of wrong things, doesn\'t represent the atrium at all, and we have simply no drawing for the inner walls of the atrium. So we will need to invent a couple of things ourselves. Be sure to have a look at [reference pictures](http://www.pedrokok.com.br/2010/02/residencia-artigas-sao-paulo-sp/img_8265-533px/) to figure out how things are made. Or do it as you wish!
 
@@ -359,7 +359,7 @@ After the window is rotated and moved into place, the atrium is complete:
 
 <img alt="" src=images/Arch_tutorial_40.jpg  style="width:1024px;">
 
-## Edits and fixes {#edits_and_fixes}
+## Edits and fixes 
 
 Now when we look at our back elevation, and compare it with the plan, we see that there are some differences that need to be fixed. Namely, the bedroom windows are smaller than I first thought, and we\'ll need to add some more walls. In order to do that properly, some floors need to be cut:
 
@@ -388,7 +388,7 @@ Before starting to export stuff, one consideration is interesting to do: As you 
 
 <img alt="" src=images/Arch_tutorial_44.jpg  style="width:1024px;">
 
-### Exporting to IFC and other applications {#exporting_to_ifc_and_other_applications}
+### Exporting to IFC and other applications 
 
 <img alt="" src=images/Arch_tutorial_45.jpg  style="width:400px;">
 
@@ -417,7 +417,7 @@ But, for a quick rendering, the Raytracing workbench can already do a good job, 
 
 The Raytracing workbench still offers you very limited control over materials, but lighting and environments are defined in templates, so they can be fully customized.
 
-### 2D drawings {#d_drawings}
+### 2D drawings 
 
 Certainly the most important use of BIM is to produce 2D drawings automatically. This is done in FreeCAD with the [Arch SectionPlane](Arch_SectionPlane.md) tool. This tool allows you to place a section plane object in the 3D view, that you can orient to produce plans, sections and elevations. Section planes must know what objects they must consider, so once you have created one, you must add objects to it with the [Arch Add](Arch_Add.md) tool. You can add individual objects, or, more conveniently, a group, a floor or a whole building. This allows you to easily change the scope of a certain section plane later, by adding or removing objects to/from that group. Any change to these objects gets reflected in the views produced by the section plane.
 
@@ -449,7 +449,7 @@ On the other hand, the final output being easier to manipulate, and the graphica
 
 On the image above, the geometry is the direct output of the section plane, but some other Draft objects have been added, such as dimensions and hatched polygons, and another view object with same scale and offset values has been produced from them with the [Draft Drawing](Draft_Drawing.md) tool. In the future, such operations will be done directly on the Drawing page, leaving your model totally clean.
 
-### Quantities extraction {#quantities_extraction}
+### Quantities extraction 
 
 This is another very important task to be performed on BIM models. In FreeCAD, things look good right from the start, since the OpenCasCade kernel of FreeCAD already takes care of calculating lengths, areas and volumes for all the shapes it produces. Since all [Arch](Arch_Workbench.md) objects are solids, you are always guaranteed to be able to obtain a volume from them.
 

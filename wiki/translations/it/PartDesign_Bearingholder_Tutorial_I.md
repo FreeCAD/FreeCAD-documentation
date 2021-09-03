@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 {{TutorialInfo
@@ -24,7 +24,7 @@ Come indicato nell\'avviso a inizio pagina, questo **tutorial non funziona se no
 
 </div>
 
-## Seconda parte del tutorial {#seconda_parte_del_tutorial}
+## Seconda parte del tutorial 
 
 [PartDesign Bearingholder Tutorial II](PartDesign_Bearingholder_Tutorial_II/it.md)
 
@@ -34,13 +34,13 @@ Ovviamente, per seguire questo tutorial è necessario attivare l\'ambiente PartD
 
 ~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a [http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa questo link](http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_questo_link.md).~~ \'\' Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento \'\'.
 
-## Dati di progetto {#dati_di_progetto}
+## Dati di progetto 
 
 Il supporto deve essere in grado di contenere un cuscinetto di 90 mm di diametro con una larghezza fino a 33 mm (ad esempio, DIN 630 tipo 2308). Il cuscinetto richiede una spalla alta almeno 4,5 mm nel supporto (e sull\'albero). La parte superiore del supporto è imbullonata al fondo con due bulloni di 12 mm. A fianco del cuscinetto ci deve essere una scanalatura su entrambi i lati capace di contenere un anello di tenuta standard sull\'albero DIN 3760: 38x55x7 o 40x55x7 su un lato e 50x68x8 sull\'altro lato.
 
 Il supporto sarà prodotto con un getto in sabbia con uno spessore minimo della parete di 5 mm, un angolo di sforno con di 2 gradi e un raggio di raccordo minimo di 3 mm .
 
-## Impostazione della geometria di scheletro {#impostazione_della_geometria_di_scheletro}
+## Impostazione della geometria di scheletro 
 
 ![Supporto per cuscinetto con i due più importanti piani dello scheletro\|thumb\|right\|text-top\|400px](images/HolderTop1-2.jpg )
 
@@ -59,7 +59,7 @@ Per comodità, possono essere creati due ulteriori piani di riferimento per rifl
 
 Si consiglia di dare dei nomi esplicativi alle geometrie dello scheletro. Spesso si vuole disattivare la visibilità dei piani di riferimento perché ingombrano lo schermo, e se i piani hanno nomi auto-esplicativi si possono semplicemente selezionare nell\'albero tramite il nome invece che dallo schermo.
 
-## La geometria del solido {#la_geometria_del_solido}
+## La geometria del solido 
 
 <img alt="Sketch del primo pad" src=images/HolderTop1-4.jpg  style="width:400px;"> Ora è il momento di iniziare a creare un po\' di geometria reale. Lo schizzo del primo pad (estrusione) è mostrato a destra. Esso è posizionato sul piano XY. Ci sono solo tre dimensioni: il raggio interno (22,5 mm), il sovrametallo alla base con un offset di 3 mm dal piano XZ e la distanza di 7 mm dal piano di riferimento che rappresenta l\'asse del bullone. In questo modo, se in seguito si sposta il piano di riferimento, il pad (l\'estrusione) setta automaticamente il proprio raggio esterno. Ricordare che prima di poter utilizzare il piano di riferimento per il dimensionamento, è necessario inserirlo nello schizzo come geometria esterna.
 
@@ -80,14 +80,14 @@ Dopo aver creato gli schizzi, usarli per creare uno scavo: simmetricamente di 28
 Anche qui piani scheletro tornano utili. Servono il piano dell\'asse del bullone e il piano della testa del bullone come geometrie esterne. Perciò, creare una linea retta per l\'asse di rotazione e assicurarsi che sia vincolata al piano di riferimento dell\'asse del bullone. Commutarla in geometria di costruzione. Poi, definire il resto del contorno. Le dimensioni importanti sono il sovrametallo in alto e in basso e il raggio di 12 mm: 7mm per il raggio del foro + 5 mm di spessore.
 <img alt="Geometria finita della parte superiore del supporto (senza sformi e raccordi)" src=images/HolderTop1-9.jpg  style="width:400px;"> Creare una funzione di rivoluzione dal disegno e poi rifletterla sul piano YZ. Questa è tutta la geometria solida che si deve modellare. Il resto sono sformi e raccordi.
 
-## Applicare uno sformo alla faccia laterale {#applicare_uno_sformo_alla_faccia_laterale}
+## Applicare uno sformo alla faccia laterale 
 
 <img alt="Il piano neutro per creare gli sformi" src=images/HolderTop1-10.jpg  style="width:400px;"> Il passo successivo è quello di applicare gli sformi su tutte le facce. È importante considerare la posizione del piano neutro, cioè il piano intorno al quale la faccia è \"ruotata\". Se scegliamo come piano neutro il fondo del supporto avremo un problema con lo spessore della parete nella parte superiore del supporto. Quindi, creiamo un piano di riferimento con un offset di 40 mm dal piano XZ come compromesso tra la parte superiore del supporto che diventa più sottile e il fondo che diventa più spesso.
 <img alt="Applicare uno sformo alla faccia laterale del supporto" src=images/HolderTop1-11.jpg  style="width:400px;"> Per applicare uno sformo su una faccia, selezionare la faccia e creare la funzione di sformo. È anche possibile selezionare più facce su cui applicare contemporaneamente lo sformo. Se si tratta una parte grande, è meglio applicare lo sformo solo su una faccia alla volta. Questo perchè se si modifica la geometria e uno sformo fallisce, fallisce solo questa funzione, mentre se si inseriscono tutte le facce in una unica funzione di sformo, può fallire l\'intera funzione a causa del fallimento di una sola faccia. Per una parte piccola come è il supporto del cuscinetto, è sufficiente creare due funzioni di sformo: una per le quattro facce esterne, e una per le facce interne.
 
 La finestra di dialogo costringe a scegliere un piano neutro prima di completare l\'operazione. È possibile lasciare il campo della direzione di estrazione vuoto, in questo caso la direzione sarà normale al piano neutro. Non dimenticare di impostare l\'angolo di sformo pari a 2 gradi.
 
-## Raccordare gli spigoli del supporto {#raccordare_gli_spigoli_del_supporto}
+## Raccordare gli spigoli del supporto 
 
 <img alt="Racccordo della parte che deve contenere i bulloni" src=images/HolderTop1-13.jpg  style="width:400px;"> Ora si possono raccordare gli spigoli della parte. L\'immagine mostra la prima serie di raccordi. Iniziare con i raccordi circolari piccoli e crearli con un raggio di 4 mm. Anche se secondo le specifiche 3 mm sono sufficienti, usando un raggio di 4 mm dopo la lavorazione rimane ancora 1 mm di raccordo e il bordo prodotto dalla lavorazione risulta meno tagliente. I raccordi grandi hanno un raggio di 6 mm per contribuire a distribuire la forza dai bulloni al resto della parte. Sarebbe bene usare un raggio ancora più grande, ma purtroppo OpenCascade non può ancora gestire i raccordi sovrapposti.
 
@@ -110,11 +110,11 @@ Prima di iniziare a lavorare sulla geometria di lavorazione, mi piace mettere un
 Per lavorare il fondo del supporto, disegnare semplicemente un grande rettangolo nel piano XZ e con esso eseguire uno scavo. Per la parte superiore, disegnare un cerchio sul piano di riferimento che definisce la posizione della testa del bullone, con esso eseguire uno scavo e quindi rispecchiare lo scavo sul piano YZ. Nello stesso modo, creare uno scavo per il foro attraverso cui passerà il bullone e poi rifletterlo. Per la lavorazione all\'interno del supporto, creare uno schizzo sul piano YZ e con esso eseguire una scanalatura.
 <img alt="La parte finita" src=images/HolderTop1-1.jpg  style="width:400px;"> Dopo aver concluso la lavorazione, si può ottenere un piacevole effetto visivo colorando tutte le superfici lavorate in modo che si possa vedere a colpo d\'occhio quali parti sono getto grezzo e quali sono lavorate dopo la fusione.
 
-## Note finali {#note_finali}
+## Note finali 
 
 Abbiamo modellato la parte superiore del supporto per cuscinetto con le dimensioni che avrà dopo la fusione. Per creare lo stampo di colata, è necessario applicare il ritiro alla propria parte, perché dopo la fusione, quando il metallo caldo si raffredda, esso si riduce di qualche punto percentuale (a seconda del materiale). Di solito è meglio lasciare l\'applicazione del ritiro alla fonderia che costruisce la parte perché essi hanno le conoscenze specifiche. Essi dovrebbero anche dirvi se la vostra parte ha aree problematiche, come ad esempio pareti molto spesse che improvvisamente si uniscono a sezioni molto sottili senza che tra di esse ci sia una sezione rastremata correttamente.
 
-## Seconda parte del tutorial {#seconda_parte_del_tutorial_1}
+## Seconda parte del tutorial 
 
 [PartDesign Bearingholder Tutorial II](PartDesign_Bearingholder_Tutorial_II/it.md)
 

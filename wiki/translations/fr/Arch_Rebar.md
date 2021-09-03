@@ -22,7 +22,7 @@ Les objets Armatures sont basés sur des profils 2D comme les [esquisses](Sketch
 <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;"> 
 *L'image ci dessus montre un objet structurel, sur lequel deux esquisses sont dessinées, qui définissent le chemin des barre de fer. Ces deux esquisses sont ensuite transformées en objet Armature.*
 
-## Extension disponible {#extension_disponible}
+## Extension disponible 
 
 L\'outil Armature a été amélioré dans l\'[Atelier Barres de renfort](Reinforcement_Workbench/fr.md) et peut être installé avec [Gestionnaire d\'Addon](Addon_Manager/fr.md). Les types de barres supplémentaires disponibles avec l\'addon sont :
 

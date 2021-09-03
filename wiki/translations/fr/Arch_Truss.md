@@ -18,7 +18,7 @@ L\'outil [Arch Ferme](Arch_Truss/fr.md) crée un objet [Treillis](https://fr.wik
 
 ## Utilisation
 
-### Création à partir d\'un objet sélectionné {#création_à_partir_dun_objet_sélectionné}
+### Création à partir d\'un objet sélectionné 
 
 1.  Utilisez un atelier de votre choix pour créer une seule ligne
 2.  Sélectionnez cette ligne
@@ -26,7 +26,7 @@ L\'outil [Arch Ferme](Arch_Truss/fr.md) crée un objet [Treillis](https://fr.wik
 **
 4.  Ajustez les propriétés de la ferme à votre convenance
 
-### Création à partir de zéro {#création_à_partir_de_zéro}
+### Création à partir de zéro 
 
 1.  Assurez-vous que rien n\'est sélectionné
 2.  Appuyez sur le bouton **<img src="images/Arch_Truss.svg" width=16px> [Crée un objet ferme...](Arch_Truss/fr.md)

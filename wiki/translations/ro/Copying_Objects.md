@@ -7,7 +7,7 @@
 
 Este o aplicație de duplicare a obiectelor (paragrafe, celule de calcul tabelar, imagini etc.) fiind prezentă în majoritatea aplicațiilor. FreeCAD nu este o excepție. [Document](Document_structure.md) pot fi copiate în mod liber într-un document sau între documente folosind comenzile [Copy](Std_Copy.md), [Paste](Std_Paste.md) și comenzile [Duplicate Selection](Std_DuplicateSelection.md) .
 
-## Copierea Obiectelor legate între ele {#copierea_obiectelor_legate_între_ele}
+## Copierea Obiectelor legate între ele 
 
 Obiectele [Document](Document_structure.md) pot fi legate de alte obiecte (de exemplu, o funcție Pad este legată de Sketch-ul său și o funcționalitate Fusion este legată de obiectele componente ale acestuia). Aceasta înseamnă că trebuie să fii atent atunci când alegi obiecte de copiat.
 
@@ -18,7 +18,7 @@ Obiectele [Document](Document_structure.md) pot fi legate de alte obiecte (de ex
 
 Please consider that the copy-pasted objects are not dependent on the original. If You want dependant clones please use <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [ Draft Workbench\'s Clone](Draft_Clone.md) or <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;"> [ Part Design Workbench\'s Clone](PartDesign_Clone.md). If you need a dependant clone nor a parametric replica, you may also use <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [ Part Workbench\'s Simple Copy](Part_SimpleCopy.md). For patterned clones, please look into the [ Other Methods section](Copying_Objects#Other_Methods.md) of this page.
 
-## Copying Linked Objects {#copying_linked_objects}
+## Copying Linked Objects 
 
 [Document](Document_structure.md) objects may be linked to other objects (for example, a Pad feature is linked to its Sketch, and a Fusion feature is linked to its component objects). This means that some care must be exercised in selecting objects to copy.
 
@@ -37,7 +37,7 @@ In general, recommended practice is to select all dependent objects when copying
 
 În general, practica recomandată este selectarea tuturor obiectelor dependente/copii atunci când se copiază un obiect părinte.
 
-## Găsirea și Poziționarea Obiect(ului)elor Pasted {#găsirea_și_poziționarea_obiectuluielor_pasted}
+## Găsirea și Poziționarea Obiect(ului)elor Pasted 
 
 After the Copy/Paste operation, it may not be obvious where the new object(s) are located in the Document window. That is because the new object has the same [Placement](Placement.md) property as the original. comutați proprietatea Vizibilitate (bara de spațiu) pentru a ascunde originalul. Apoi utilizați dialogul de plasare pentru a muta copia în poziția corectă.
 
@@ -47,7 +47,7 @@ After the Copy/Paste operation, it may not be obvious where the new object(s) ar
 
 <div class="mw-translate-fuzzy">
 
-## Alte Metode {#alte_metode}
+## Alte Metode 
 
 Ca multe lucruri în FreeCAD, există multe modalități de a face o copie. Pentru mai multe idei, uitați-vă la:
 

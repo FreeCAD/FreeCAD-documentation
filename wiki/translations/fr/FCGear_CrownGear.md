@@ -29,7 +29,7 @@ Champ d\'application connu des couronnes:
 1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
 2.  Lancez la commande d\'une de ces manières :
     -   Appuyez sur le bouton <img alt="" src=images/FCGear_CrownGear.svg  style="width:22px;"> [Create a Crown gear](FCGear_CrownGear/fr.md) dans la barre d\'outils.
-    -   Utilisez le {{MenuCommand|Menu → Crown gear}}.
+    -   Utilisez le **Menu → Crown gear**.
 3.  Modifier le paramètre d\'engrenage selon les conditions requises (voir **Propriétés → Données** ci-dessous).
 
 ## Propriétés
@@ -90,7 +90,7 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 Aucune limitation n\'est connue.
 
-## Vue d\'ensemble de l\'ensemble couronne et pignon droit {#vue_densemble_de_lensemble_couronne_et_pignon_droit}
+## Vue d\'ensemble de l\'ensemble couronne et pignon droit 
 
 :   ![](images/Crown-spur-gear-set_example.png )
 
@@ -100,7 +100,7 @@ Aucune limitation n\'est connue.
 -   \(4\) Diamètre intérieur
 -   \(5\) Diamètre extérieur
 
-## Formules utiles {#formules_utiles}
+## Formules utiles 
 
 -   **Diamètre intérieur (4)**
     -   

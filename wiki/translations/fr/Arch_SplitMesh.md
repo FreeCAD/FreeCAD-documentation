@@ -17,7 +17,7 @@ Cet outil sépare les composants d\'un objet [Mesh](Mesh_Workbench/fr.md) sélec
 ## Utilisation
 
 1.  Sélectionnez un objet mesh.
-2.  Cliquez sur le bouton **<img src="images/Arch_SplitMesh.svg" width=16px>  [Diviser une maille](Arch_SplitMesh/fr.md)** dans {{MenuCommand|Arch → Utilitaires → Diviser une maille}}.
+2.  Cliquez sur le bouton **<img src="images/Arch_SplitMesh.svg" width=16px>  [Diviser une maille](Arch_SplitMesh/fr.md)** dans **Arch → Utilitaires → Diviser une maille**.
 
 ## Script
 

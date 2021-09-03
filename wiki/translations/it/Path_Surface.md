@@ -16,13 +16,13 @@ Lo strumento Sfacciatura 3D si interfaccia con OCL.pyd, un modulo Open Source di
 
 1.  Properly install [OpenCamLib](OpenCamLib.md).
 2.  Enable [Experimental Features](Path_experimental.md) for the Path Workbench.
-3.  Check {{MenuCommand|Edit → Preferences... → Path → Advanced → Enable OCL dependent features}}.
+3.  Check **Edit → Preferences... → Path → Advanced → Enable OCL dependent features**.
 
 ## Usage
 
 Usage instructions for multiple variations of the [3D Surface](Path_3DSurface.md) operation are presented here.
 
-#### Basic Operation {#basic_operation}
+#### Basic Operation 
 
 1.  Premere il pulsante **<img src="images/Path_3DSurface.png" width=16px> [Sfacciatura 3D](Path_3DSurface.md)**.
 2.  Selezionare il controller dello strumento l\'operazione dalla finestra pop up di dialogo del controller dello strumento.
@@ -32,7 +32,7 @@ Usage instructions for multiple variations of the [3D Surface](Path_3DSurface.md
 
 To achieve different, or more complex, effects, adjust additional operation properties within the Data tab of the Properties View for the operation.
 
-#### Rotational Scans (4th-axis) {#rotational_scans_4th_axis}
+#### Rotational Scans (4th-axis) 
 
 1.  Initiate a [Basic Operation](#Basic_Operation.md) as described above and set the **Scan Type** to **Rotational**.
 2.  **Note:** Face selection is unavailable for Rotational scans, so changes to Base Geometry are ignored.
@@ -48,7 +48,7 @@ To achieve different, or more complex, effects, adjust additional operation prop
 5.  Click the **<img src=images/View-refresh.svg style="width:16px"> Recompute** icon in the tool bar.
 6.  Wait for the results\...
 
-##### Notes About Rotational Scans {#notes_about_rotational_scans}
+##### Notes About Rotational Scans 
 
 -   **Rotational** scans require much more time and processing than **Planar** scans. Factors affecting processing time include: Sample Interval, Step Over, tool diameter, and model size. Again, rotational scans can take a long time. Some might take 3, 5 or 10 minutes or longer.
 -   For time purposes, it is better that you not recompute a rotational scan after every property change; rather, consider one of the following:
@@ -58,7 +58,7 @@ To achieve different, or more complex, effects, adjust additional operation prop
 -   The built in **<img src="images/Path_Simulator.svg" width=16px> [CAM Simulator](Path_Simulator.md)** does NOT support 4th-axis simulation. You will need to use a third party simulator to inspect or verify paths visually. See the [Resources](#Resources.md) section below for suggestions.
 -   You will likely see red rotational lines around your model in the viewport. This is normal in FreeCAD for the time being.
 
-##### Notes About Scans of complex models {#notes_about_scans_of_complex_models}
+##### Notes About Scans of complex models 
 
 Excessively long processing times (longer than 10 minutes) can occur when processing large complex models. In addition to the factors already mentioned the following steps could help identify potential causes and solutions.
 
@@ -72,7 +72,7 @@ To confirm this \...
 4.  Click **OK** button to confirm and generate paths.
 
 To make this value the default for all new **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operations, change the **GeometryTolerance** parameter.
-{{MenuCommand|Tools → Edit Parameters ... → Preferences → Mod → Path → GeometryTolerance }}.
+**Tools → Edit Parameters ... → Preferences → Mod → Path → GeometryTolerance **.
 Note as of version 0.19 the **Linear Deflection** default = GeometryTolerance / 4
 
 ***Invalid Geometry***
@@ -80,13 +80,13 @@ If a model contains invalid geometry the scanning time can increase significantl
 To run the tool:
 
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;">**Part Workbench** and select the model to check
-2.  Click on the **<img src="images/Part_CheckGeometry.svg" width=16px>** button available in the Part workbench toolbar OR use the {{MenuCommand|Part → <img src="images/Part_CheckGeometry.svg" width=16px> Check geometry}} entry from the top menu.
+2.  Click on the **<img src="images/Part_CheckGeometry.svg" width=16px>** button available in the Part workbench toolbar OR use the **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Check geometry** entry from the top menu.
 3.  Click the **Run Check** button and review the results.
 
 If the results includes items like *BOPAlgo SelfIntersect* then the geometry is invalid and should be corrected by adjusting the model.
 (Hint: Boolean operations and Loft commands can sometimes introduce *Self Intersections*)
 
-#### Available Tool (Cutter) Shapes {#available_tool_cutter_shapes}
+#### Available Tool (Cutter) Shapes 
 
 This 3D Surface op currently uses [OpenCamLib](OpenCamLib.md) \[OCL\|OCL\] to extract paths from the part base. As such, a tool setting translation is required between the FreeCAD tool controller and OCL in order to complete the scan with your chosen tool(cutter) shape.
 
@@ -102,7 +102,7 @@ Should you choose to run the path simulator in the Path Workbench, it only uses 
 
 NOTE: As of May 2019, only the End Mill has any type of testing to determine accuracy of the FreeCAD-to-OCL tool settings translation. Please post any feedback for non-end-mill usage to the [Path/CAM](https://forum.freecadweb.org/viewforum.php?f=15) section in the FreeCAD forums.
 
-## Properties: Version 0.19 {#properties_version_0.19}
+## Properties: Version 0.19 
 
 \'\'\' *Note* \'\'\': Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
@@ -159,7 +159,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Label**: User-provided name of the object (UTF-8)
 
-#### Clearing Options {#clearing_options}
+#### Clearing Options 
 
 -    **Bound Box**: Should the operation be limited by the stock object or by the bounding box of the base object
 
@@ -195,7 +195,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Step Down**: Incremental Step Down of Tool
 
-#### Mesh Conversion {#mesh_conversion}
+#### Mesh Conversion 
 
 -    **Angular Deflection**: Smaller values yield a finer, more accurate mesh. Smaller values increase processing time a lot
 
@@ -258,7 +258,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Stop Index**: Stop index(angle) for rotation
 
-#### Selected Geometry Settings {#selected_geometry_settings}
+#### Selected Geometry Settings 
 
 -    **Avoid Last X Faces**: Avoid cutting the last \'N\' faces in the Base Geometry list of selected faces
 
@@ -274,7 +274,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Internal Features Cut**: Cut internal feature areas within a larger selected face
 
-#### Start Point {#start_point}
+#### Start Point 
 
 -    **Start Point**: The custom start point for the path of this operation, set in sub-properties: x, y, z
 
@@ -307,11 +307,11 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Release From Waste**: Cut through waste to depth at model edge, releasing the model.
 
-## Tasks Window Editor Layout {#tasks_window_editor_layout}
+## Tasks Window Editor Layout 
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Location {#base_location}
+#### Base Location 
 
 -   **Base Geometry import selection**: Use this list to select Base Geometry to be imported from the selected, existing operation
 -   **Import**: imports the selected operation\'s Base Geometry into the current operations Base Geometry list
@@ -320,7 +320,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -   **Remove**: remove the selected item(s) in the Base Location list
 -   **Edit**: clear all items in the Base Location list
 
-#### Depth {#depth_1}
+#### Depth 
 
 -    **Start Depth**
     

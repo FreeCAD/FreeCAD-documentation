@@ -83,7 +83,7 @@ Other
 -   <img alt="" src=images/Animation_Icon2.png  style="width:32px;"> **Icon2**:
 -   <img alt="" src=images/Animation_Icon3.png  style="width:32px;"> **Icon3**:
 
-## Links to Animation WB {#links_to_animation_wb}
+## Links to Animation WB 
 
 -   Workbench Wiki: [www.freecadbuch.de](http://freecadbuch.de/doku.php?id=Animation%20Wokbench)
 -   FreeCAD Wiki:
@@ -93,7 +93,7 @@ Other
 -   Files: [Examples](https://github.com/microelly2/Animation-WB-Examples)
 -   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php), or at [Animation issues](https://github.com/microelly2/Animation/issues)
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [ExplodedAnimation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:ExplodedAnimation): FreeCAD workbench to create exploded views and animations of assemblies.
 -   [Assembly2](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Assembly2): Assembly workbench for FreeCAD with support for importing parts from external files.

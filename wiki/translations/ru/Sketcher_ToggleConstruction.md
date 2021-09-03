@@ -38,7 +38,7 @@
 1.  Выберите один или несколько элементов эскиза в [трёхмерном виде](3D_view/ru.md)
 2.  Вызовите инструмент Sketcher ToggleConstruction одним из способов:
     -   Нажав кнопку <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> button
-    -   Используя пункт меню Sketcher {{MenuCommand|Sketch → Геометрия эскиза → Переключить построительную геометрию}}
+    -   Используя пункт меню Sketcher **Sketch → Геометрия эскиза → Переключить построительную геометрию**
 
 
 </div>

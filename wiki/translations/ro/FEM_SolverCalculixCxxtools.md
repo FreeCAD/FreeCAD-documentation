@@ -21,7 +21,7 @@ CalculiXccxTools permit utilizarea calculatorului [CalculiX](http://dhondt.de/).
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -202,7 +202,7 @@ When running a CalculiX, you might end up with **error 4294977295**. This means 
 
 Documentația originală CalculiX poate fi găsită la <http://dhondt.de/> in the \"ccx\" paragraph.
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 

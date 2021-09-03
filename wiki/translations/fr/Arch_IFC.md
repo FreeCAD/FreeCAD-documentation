@@ -63,7 +63,7 @@ Les fichiers IFC sont exportés au format IFC2x3 ou IFC4, selon votre version d\
 
 Si la forme des objets exportés est basée sur une extrusion ou une opération booléenne, l\'opération et les composants seront correctement exportés au format IFC. Dans le cas contraire, la forme de l\'objet est exportée sous la forme [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4x1/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm). Si la forme contient des courbes, celles-ci seront triangulées. Toutefois, IfcOpenShell version 0.5 ou ultérieure comporte un sérialiseur qui doit être activé dans les préférences Import/Export → IFC. S\'il est activé, ce sérialiseur est capable d\'exporter des objets courbes très complexes tels que ceux basés sur NURBS et d\'éviter ainsi les faces triangulées. Au moment de la rédaction de ce document, cependant, rares sont les autres applications BIM qui prennent en charge les objets IFC NURBS. Il est donc conseillé d\'effectuer quelques tests.
 
-## Plus d\'informations {#plus_dinformations}
+## Plus d\'informations 
 
 -   [IfcOpenShell](IfcOpenShell/fr.md), plus d\'informations sur l\'installation de cette bibliothèque.
 

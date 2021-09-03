@@ -18,9 +18,9 @@ La commande <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Manage or create annotation styles](Draft_AnnotationStyleEditor/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Annotation → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Éditeur de styles d'annotation...}} dans le menu.
-2.  La boîte de dialogue {{MenuCommand|Éditeur de styles d'annotation}} s\'ouvre.
-3.  Sélectionnez un style dans la liste déroulante {{MenuCommand|Nom du style}} ou choisissez {{Value|Ajouter nouveau...}} pour définir un nouveau style.
+    -   Sélectionnez l\'option **Annotation → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Éditeur de styles d'annotation...** dans le menu.
+2.  La boîte de dialogue **Éditeur de styles d'annotation** s\'ouvre.
+3.  Sélectionnez un style dans la liste déroulante **Nom du style** ou choisissez {{Value|Ajouter nouveau...}} pour définir un nouveau style.
 4.  Vous pouvez également ajuster les propriétés du style.
 5.  Vous pouvez également appuyer sur le bouton **<img src=images/Accessories-text-editor.svg style="width:16px"> Renommer** pour renommer le style.
 6.  Vous pouvez également appuyer sur le bouton **<img src=images/Edit_Cancel.svg style="width:16px"> Supprimer** pour supprimer le style.

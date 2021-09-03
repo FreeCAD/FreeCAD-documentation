@@ -15,7 +15,7 @@ The classifications manager allows you to attribute a standard class to a BIM ob
 
 <div class="mw-translate-fuzzy">
 
-## Kako koristiti {#kako_koristiti}
+## Kako koristiti 
 
 
 </div>

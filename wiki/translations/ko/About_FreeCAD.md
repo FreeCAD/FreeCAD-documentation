@@ -35,7 +35,7 @@ FreeCAD 는 [multi-platform](http://en.wikipedia.org/wiki/Cross-platform)이며,
 
 For more information about FreeCAD\'s capabilities, take a look at the [feature list](feature_list.md), the [latest release notes](Feature_list#Release_notes.md), and the [getting started](getting_started.md) articles, or see more [screenshots](screenshots.md).
 
-### FreeCAD 프로젝트에 대해 {#freecad_프로젝트에_대해}
+### FreeCAD 프로젝트에 대해 
 
 FreeCAD 프로젝트는 2001에 시작했으며, [history](history.md) 페이지에 설명합니다.
 

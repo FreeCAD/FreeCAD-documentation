@@ -37,7 +37,7 @@
 2.  Invoke this command using several methods:
     -   Pressing the **<img src="images/Arch_Pipe.svg" width=16px> [Arch Pipe](Arch_Pipe.md)** button on the toolbar.
     -   Pressing the **P** then **I** keyboard shortcut.
-    -   Pressing the {{MenuCommand|Arch → Pipe Tools → Pipe}} entry from the top menu.
+    -   Pressing the **Arch → Pipe Tools → Pipe** entry from the top menu.
 
 ## オプション
 

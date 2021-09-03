@@ -11,7 +11,7 @@ Toto je wiki dokumentace [FreeCADu](http://www.freecadweb.org). Informace obsaž
 
 <div class="mw-translate-fuzzy">
 
-## Uživatelské centrum {#uživatelské_centrum}
+## Uživatelské centrum 
 
 
 </div>
@@ -33,9 +33,10 @@ Dále jsou tři hlavní vstupní body do dokumentace, pro tři velké kategorie 
 <img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual:Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
 
 
-{{Clear}}
 
-## Table of contents {#table_of_contents}
+
+
+## Table of contents 
 
 
 <div class="mw-translate-fuzzy">
@@ -56,9 +57,9 @@ Manuál FreeCADu je druhý, mnohem přímější, způsob prezentace textů obsa
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
 +----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
-## Zúčastněte se {#zúčastněte_se}
+## Zúčastněte se 
 
-### Jak se zúčastnit a přispět {#jak_se_zúčastnit_a_přispět}
+### Jak se zúčastnit a přispět 
 
 
 <div class="mw-translate-fuzzy">
@@ -70,7 +71,7 @@ Je ještě spousta práce na projektu FreeCADu, máte-li zájem pomoci nám. Jso
 
 The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
-### Zdrojový kód {#zdrojový_kód}
+### Zdrojový kód 
 
 
 <div class="mw-translate-fuzzy">
@@ -80,7 +81,7 @@ FreeCAD může být kompilován použitím cMake nebo autotools, odkaz na GIT je
 
 </div>
 
-### O vývoji {#o_vývoji}
+### O vývoji 
 
 
 <div class="mw-translate-fuzzy">

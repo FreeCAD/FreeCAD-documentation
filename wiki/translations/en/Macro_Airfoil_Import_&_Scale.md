@@ -17,15 +17,15 @@ See also [Common Airfoil Data Import](Common_Airfoil_Data_Import.md)
 
 <img alt="" src=images/Macro_Airfoil_Import_&_Scale_00.png  style="width:480px;">
 
-## How To Use - Version 1.5 {#how_to_use___version_1.5}
+## How To Use - Version 1.5 
 
-### Select The File {#select_the_file}
+### Select The File 
 
 Running the Macro will first present the user with a file browser that will allow you to select the desired airfoil .dat file. Browse to where you have saved the airfoil file, select it and press Open.
 
 ![File browser window for importing .dat airfoil files](images/File_browser.png )
 
-### Enter Chord Length {#enter_chord_length}
+### Enter Chord Length 
 
 Once the airfoil file has been selected, a new dialog will appear asking for a chord length. Any length may be entered, in millimeters. Once your desired length is entered, the Macro will produce a Draft Wire (DWire) following the points described in the previously selected .dat airfoil file at the scale you entered for the chord length.
 
@@ -33,19 +33,19 @@ Once the airfoil file has been selected, a new dialog will appear asking for a c
 
 The Airfoil, properly scaled, should now be ready for use in your project.
 
-## How To Use - Version 2 {#how_to_use___version_2}
+## How To Use - Version 2 
 
 File selection is the same as version 1.5. With version 2 you now have the choice to either have the resulting airfoil made with a Draft Wire (DWire) or a Basic Spline (BSpline). As with version 1.5, you enter the desired chord length. Additionally you can now select which type of foil you want. Simply click on the BSpline radio button or leave as is for for the default DWire.
 
 ![Version 2 Airfoil Import and scale dialog with choice of DWire or BSpline](images/V2_scale.png )
 
-## The Macros {#the_macros}
+## The Macros 
 
 ### Latest
 
 The latest version of the macro is to be found at [AirfoilImportAndScale.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/AirfoilImportAndScale.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Addon_Manager.md).
 
-### Version 2.1.2 {#version_2.1.2}
+### Version 2.1.2 
 
 ToolBar icon ![](images/Macro_Airfoil_Import_&_Scale.png )
 
@@ -204,7 +204,7 @@ AirfoilImporterAndScaler()
 </nowiki>
 }}
 
-### Version 1.5 {#version_1.5}
+### Version 1.5 
 
 **Macro\_Airfoil\_Import\_&\_Scale.FCMacro**
 
@@ -290,7 +290,7 @@ p()
 
 }}
 
-## Editing The Default Selection {#editing_the_default_selection}
+## Editing The Default Selection 
 
 If you primarily wish to have your imported and scaled airfoils made with BSplines rather than DWires, the Marco may be edited to default to the Bspline. This is done by editing the line - {{ExampleCode|example=
 self.radio1.setChecked(True)
@@ -301,7 +301,7 @@ self.radio2.setChecked(True)
 }}
 A note on this is included within the text of the macro.
 
-## Version 2 {#version_2}
+## Version 2 
 
 
 {{VeryImportantMessage|'''Warning - Using this Macro with versions of FreeCAD lesser than 0.14, revision 3077 will not produce the expected results when using the BSpline option and can result in FreeCAD crashing and loss of unsaved data!'''}}
@@ -415,7 +415,7 @@ p()
 </nowiki>
 }}
 
-### Version 2.1 {#version_2.1}
+### Version 2.1 
 
 Updated by mangtronix to use PySide instead of PyQt (used in older versions of FreeCAD)
 

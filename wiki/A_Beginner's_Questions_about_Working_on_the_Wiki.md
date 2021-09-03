@@ -1,6 +1,6 @@
 {{UnfinishedDocu}}
 
-## Purpose of this Page {#purpose_of_this_page}
+## Purpose of this Page 
 
 This is a page that is a one person\'s perspective, put out for discussion of the Wiki process.
 
@@ -18,7 +18,7 @@ So to get on with it: this page is not a discussion of how to improve the docume
 
 To make my version of this discussion concrete I will write it as if I were writing a Wiki page about the Wiki. The content is not intended to answer questions, but instead, link to the answers. In what follow I will fill in links as I discover them, else I will use Link(s) required, and if I have a link, but suspect more information would be desirable use Enough info? I have not really written this in a proposed format, just proposed content. Additionally I have written a reader\'s guide to using the wiki, I have this here because the way we write the wiki has, of course, a big impact on how it should be read.
 
-## Possible Content for a new Meta Wiki Page {#possible_content_for_a_new_meta_wiki_page}
+## Possible Content for a new Meta Wiki Page 
 
 If you are here you probably have some question about how to contribute to this Wiki, the answers of course, are in this Wiki, here is a guide: ( In the form of questions and links to the answers )
 
@@ -83,17 +83,17 @@ If you are here you probably have some question about how to contribute to this 
 -   and standard for
     -   in page toc place on right with show hide ??
 
-## A Reader\'s Guide to this Wiki {#a_readers_guide_to_this_wiki}
+## A Reader\'s Guide to this Wiki 
 
 The plan for this is to extract to a different wiki page ( is it a page, a document, topic\.....? ). I include it here so as not to prolliferate too many sandbox pages, and because how we manage the wiki has a direct impact on how it should be read.
 
-### A General Note on Navigation {#a_general_note_on_navigation}
+### A General Note on Navigation 
 
 Wikis can be hard to read, they are a thicket of information cross linked in many directions. They are also an ever moving target as they evolve through additions, deletions, and edits. Typically a Wiki does not have a beginning or an end. There is no through line. You will have to find your way through on your own.
 
 Fortunately Wikis do have some aids to navigation, aids that are not completely obvious. This little guide may inform you of some navigation features that you were not aware of but that can be very useful.
 
-### Wiki Menu {#wiki_menu}
+### Wiki Menu 
 
 At the left of every wiki page is the master menu for the Wiki. If you have a question, check it out. It is however a bit limited, there are no subheading, but each page you go to will have more links ( or hyper links ) to related topics. We are going to assume here that you know how to use links, you have made it this far.
 
@@ -101,7 +101,7 @@ At the left of every wiki page is the master menu for the Wiki. If you have a qu
 
 The Wiki has a pretty good search feature, this sort of thing should be familiar. Just remember to use it. You can also use external engines like Google Advanced Search <https://www.google.com/advanced_search> to search this or any other specific site.
 
-### Collapsed Sections {#collapsed_sections}
+### Collapsed Sections 
 
 A section of a wiki page can be collapsed, much like code folding. Make it look like an empty section header, expand it to see the content.
 
@@ -117,15 +117,15 @@ Most pages have been classified into categories, these are listed at the bottom 
 
 When you are reading a page on a topic, and still need more information you can try clicking ( at the bottom of the page ) on the categories to find what you want.
 
-### What Links Here {#what_links_here}
+### What Links Here 
 
 On every page, at the left, is a menu choice, \"What links here\", try it out. If you are reading a topic that seems useful the page that links to it may also be useful or link to other content that is.
 
-### Table of Contents Pages {#table_of_contents_pages}
+### Table of Contents Pages 
 
 These are pages which gather a bunch of other pages together by links to give a more linear trip thrught the Wiki. One example might be: [User hub](User_hub.md) This is the main help area for newcomers to FreeCAD
 
-### Scratch Notes, to be Deleted {#scratch_notes_to_be_deleted}
+### Scratch Notes, to be Deleted 
 
 -   If you find an error \..... dead link, language, content
 

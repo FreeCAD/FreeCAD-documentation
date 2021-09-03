@@ -10,11 +10,11 @@
 
 Applique une somme de Minkowski aux formes sélectionnées.
 
-### Définition mathématique {#définition_mathématique}
+### Définition mathématique 
 
 Ajoute chaque élément du sous-ensemble A à chaque élément du sous-ensemble B pour obtenir la somme de Minkowski.
 
-### Définition géométrique {#définition_géométrique}
+### Définition géométrique 
 
 Balaie l\'élément A le long de toutes les limites de l\'élément B. L\'espace résultant qui est occupé par les deux éléments est la somme de Minkowski.
 

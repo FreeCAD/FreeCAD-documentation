@@ -17,7 +17,7 @@ Please Note: The below work is present in develop branch of Reinforcement workbe
 
 The [Reinforcement Dimensioning](Arch_Rebar_Dimensioning.md) tool allows the user to create dimensioning for reinforcing bars in [Reinforcement Drawing](Arch_Rebar_Drawing.md).
 
-This command is part of the [Reinforcement Addon](Reinforcement_Addon.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Addon](Reinforcement_Addon.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:1000px;">
 
@@ -53,7 +53,7 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 ```
 
-## ReinforcementDimensioning Object {#reinforcementdimensioning_object}
+## ReinforcementDimensioning Object 
 
 A Rebar Dimensioning SVG View object.
 
@@ -128,7 +128,7 @@ A Rebar Dimensioning SVG View object.
 
 The [Reinforcement Dimensioning](Arch_Rebar_Dimensioning.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions:
 
-### Create Reinforcement Dimensioning Object {#create_reinforcement_dimensioning_object}
+### Create Reinforcement Dimensioning Object 
 
 
 ```python

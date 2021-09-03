@@ -97,7 +97,7 @@ After adding a tool, you can set/change the feedrate and spindle speed if you ne
 
 The default tool you can delete if you have a own tool added.
 
-## Plan de lucru {#plan_de_lucru}
+## Plan de lucru 
 
 ![](images/Job_5.jpg )
 

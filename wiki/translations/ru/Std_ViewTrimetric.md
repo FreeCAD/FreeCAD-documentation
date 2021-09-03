@@ -19,7 +19,7 @@ The **Std ViewTrimetric** command realigns the camera in the active [3D view](3D
 
 ## Применение
 
-1.  Select the {{MenuCommand|View → Standard views → Axonometric → <img src="images/Std_ViewTrimetric.svg" width=16px> Trimetric}} option from the menu.
+1.  Select the **View → Standard views → Axonometric → <img src="images/Std_ViewTrimetric.svg" width=16px> Trimetric** option from the menu.
 
 ## Scripting
 

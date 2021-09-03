@@ -27,7 +27,7 @@ Für dieses Tutorium kannst Du Deine eigene STL Datei verwenden oder auf diese W
 
 Um eine STL oder OBJ Datei in FreeCAD zu importieren, erstelle ein neues FreeCAD Dokument und wähle **Datei** → **Import** aus dem oberen Menü aus.
 
-## Bereinigen und Reparieren der STL/OBJ-Datei um den Import vorzubereiten {#bereinigen_und_reparieren_der_stlobj_datei_um_den_import_vorzubereiten}
+## Bereinigen und Reparieren der STL/OBJ-Datei um den Import vorzubereiten 
 
 Grunsätzlich importiert FreeCAD jede STL/OBJ-Datei. Aber unser Ziel ist es, einen Volumenkörper zu haben, der vermessen und verändert (Polster, Taschen hinzufügen) werden kann. Für eine erfolgreiche Umwandlung von Netz zu Volumenkörper müssen wir sicherstellen, daß das Netz \"wasserdicht\" ist (keine Löcher enthält) oder andere Fehler und Probleme vorliegen.
 FreeCAD strebt nicht danach ein guter Netz Modellierer zu sein, es will ein guter Volumen Modellierer sein. FreeCAD verfügt über einige Funktionen für den Netzeinsatz im Netz Arbeitsbereich und dem OpenSCAD Arbeitsbereich (für einige Operationen muss OpenSCAD installiert und in den FreeCAD Einstellungen konfiguriert sein).
@@ -38,7 +38,7 @@ Einige Benutzer verwenden gerne Software von Drittanbietern für die Bereinigung
 
 In diesem Tutorium werden wir den Netz Arbeitsbereich in FreeCAD benutzen, um das Netz unserer Musterdatei zu bereinigen/reparieren/überprüfen.
 
-### Automatisches Testen und Reparieren {#automatisches_testen_und_reparieren}
+### Automatisches Testen und Reparieren 
 
 -   Öffne FreeCAD und die FreeCAD-Musterdatei, die das Netzobjekt enthält
 -   Wechsle in den Netz-Arbeitsbereich
@@ -50,7 +50,7 @@ In diesem Tutorium werden wir den Netz Arbeitsbereich in FreeCAD benutzen, um da
 -   Wenn Fehler entdeckt wurden, werden die entsprechenden Kontrollkästchen angekreuzt und du kannst **Reparieren** auswählen
 -   Wähle **Schließen**, um das Menü zu beenden
 
-### Normalen harmonisieren {#normalen_harmonisieren}
+### Normalen harmonisieren 
 
 Die Harmonisierung der Normalen eines Netzobjekts kann wie folgt durchgeführt werden
 
@@ -59,7 +59,7 @@ Die Harmonisierung der Normalen eines Netzobjekts kann wie folgt durchgeführt w
 
 Tip: Durch Wahl des Netzobjekts in der Baumansicht, zum Ansichtsreiter in der Eigenschaftsansicht gehen und \"Beleuchtung\" von \"Zwei Seiten\" auf \"Eine Seite\" wechseln, kannst du Dreiecke mit umgeklappten Normalen identifizieren. Wenn die Normalen in das Netz zeigen, wird das Dreieck schwarz dargestellt.
 
-### Löcher schließen {#löcher_schließen}
+### Löcher schließen 
 
 Du kannst Löcher in deinem Netzobjekt auch manuell schließen, durch
 
@@ -75,7 +75,7 @@ Eine andere Methode, Löcher in deinem Netzobjekt manuell zu schließen, wäre
 -   Wähle eine der Kanten des Lochs im Netzobjekt in der 3D Ansicht
 -   Rechtsklicke in der 3D Ansicht und wähle **Verlassen des Lochfüllmodus**, um den Befehl zu beenden
 
-## Umwandlung Netz zu Volumenkörper {#umwandlung_netz_zu_volumenkörper}
+## Umwandlung Netz zu Volumenkörper 
 
 -   Wechsle zu <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md)
 -   Stelle sicher, dass dein Netzobjekt in der Baumansicht ausgewählt ist, ansonsten wähle es

@@ -2,7 +2,7 @@
 
 Здесь находятся несколько скриншотов, показывающих различные части FreeCAD. Они не упорядочены по времени, так что изображения могут отличаться от вашей реальной версии. Смотрите другие скриншоты, присылаемые пользователями FreeCAD, в [теме скриншотов форума](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) и на[\"Show your project here!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
 
-### Выпуск 0.17 {#выпуск_0.17}
+### Выпуск 0.17 
 
 <img alt="" src=images/6DPLEQ2.jpg  style="width:1024px;">
 
@@ -30,7 +30,7 @@
 
 <img alt="" src=images/freeCAD-guitar.jpg  style="width:1024px;">
 
-### Выпуск 0.16 {#выпуск_0.16}
+### Выпуск 0.16 
 
 <img alt="" src=images/Hhassey.png  style="width:1024px;">
 
@@ -44,7 +44,7 @@
 
 <img alt="" src=images/R_tec.jpeg  style="width:1024px;">
 
-### Выпуск 0.15 {#выпуск_0.15}
+### Выпуск 0.15 
 
 <img alt="" src=images/Obijuan.png  style="width:1024px;">
 
@@ -56,7 +56,7 @@
 
 <img alt="" src=images/Lou_papet.png  style="width:1024px;">
 
-### выпуск 0.14 {#выпуск_0.14}
+### выпуск 0.14 
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -88,21 +88,21 @@
 
 Экспорт во внешние приложения с помощью макросов python.
 
-### Выпуск 0.12 {#выпуск_0.12}
+### Выпуск 0.12 
 
 ![Сборка нескольких объектов\|1024px](images/FreeCAD_aeroponic_system.jpg )
 
 ![Создание секции обода велосипеда путём вытягивания по кругу замкнутого эскиза\|1024px](images/rim_bling.png )
 
-### Выпуск 0.11 {#выпуск_0.11}
+### Выпуск 0.11 
 
 <img alt="" src=images/FreeCAD011.png  style="width:1024px;">
 
-### Выпуск 0.10 {#выпуск_0.10}
+### Выпуск 0.10 
 
 ![](images/Freecad010.png )
 
-### Выпуск 0.9 {#выпуск_0.9}
+### Выпуск 0.9 
 
 ![](images/Freecad09.jpg )
 
@@ -116,19 +116,19 @@
 
 Скриншот, показывающий импорт и отрисовку FreeCADом модели STEP из gCAD.
 
-### Данные STEP {#данные_step}
+### Данные STEP 
 
 <img alt="" src=images/TaskPanel.jpg  style="width:800px;">
 
 С загруженынм захватом робота
 
-### Захват робота {#захват_робота}
+### Захват робота 
 
 ![](images/FreeCAD_Screenshot.png )
 
 На XP с Schenkel
 
-### Двоичные операции над Shapes {#двоичные_операции_над_shapes}
+### Двоичные операции над Shapes 
 
 <img alt="" src=images/Part_BooleanOperations.png  style="width:800px;">
 
@@ -146,7 +146,7 @@ FreeCAD на Windows Vista с моделью IGES, загруженной из [
 
 Можно настроить множество аспектов FreeCAD!
 
-### Двоичные операции над сетями {#двоичные_операции_над_сетями}
+### Двоичные операции над сетями 
 
 ![](images/Screenshot_mesh.jpg )
 
@@ -158,19 +158,19 @@ FreeCAD на Windows Vista с моделью IGES, загруженной из [
 
 В Blender есть [скрипт](http://yorik.orgfree.com/guestblog.php?2009=105) для импорта файлов FreeCAD.
 
-### Извлечение чертежей {#извлечение_чертежей}
+### Извлечение чертежей 
 
 <img alt="" src=images/Drawing_extraction.png  style="width:800px;">
 
 Вытаскивание объёмных частей (STEP в данном случае) в SVG **Drawing Extraction** View. Полная параметризация, изменение детали изменяет вид.
 
-### FreeCAD vs. QCad {#freecad_vs._qcad}
+### FreeCAD vs. QCad 
 
 ![](images/Screenshot_qcad.jpg )
 
 Скриншот, показывающий, как одни и те же файлы отрисовываются в FreeCAD и qCAD.
 
-### FreeCAD vs. Inkscape {#freecad_vs._inkscape}
+### FreeCAD vs. Inkscape 
 
 ![](images/Screenshot_inkscape.jpg )
 
@@ -179,7 +179,7 @@ FreeCAD на Windows Vista с моделью IGES, загруженной из [
 
 <div class="mw-translate-fuzzy">
 
-### Модуль Draft {#модуль_draft}
+### Модуль Draft 
 
 ![](images/Screenshot_draft.jpg )
 
@@ -200,25 +200,25 @@ Freecad с импортированным чертежом dxf и загруже
 
 Окно настроек
 
-### В Ubuntu {#в_ubuntu}
+### В Ubuntu 
 
 ![](images/Interface_screenshot.jpg )
 
 Интерфейс FreeCAD при первом запуске в Ubuntu.
 
-### Установщик Windows {#установщик_windows}
+### Установщик Windows 
 
 ![](images/Screenshot_installer.jpg )
 
 Установщик Windows в работе
 
-### Консольный режим {#консольный_режим}
+### Консольный режим 
 
 ![](images/Screenshot_console.jpg )
 
 FreeCAD, запущенный в консольном режиме (без графического интерфейса)
 
-### Сохранение картинки {#сохранение_картинки}
+### Сохранение картинки 
 
 ![](images/Save_picture.png )
 

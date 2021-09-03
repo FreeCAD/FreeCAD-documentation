@@ -15,13 +15,13 @@ La commande **Std Pré-sélection** active ou pas le mode Préselection de la [v
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-2.  \* Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option {{MenuCommand|Pre-selection}} dans le menu déroulant. Remarque: l\'image du bouton changera en fonction de l\'option sélectionnée.
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Configuration de l'arborescence  → <img src="images/Std_TreeSyncView.svg" width=16px> Pré-sélection}} dans le menu.
+2.  \* Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **Pre-selection** dans le menu déroulant. Remarque: l\'image du bouton changera en fonction de l\'option sélectionnée.
+    -   Sélectionnez l\'option **Affichage → Configuration de l'arborescence  → <img src="images/Std_TreeSyncView.svg" width=16px> Pré-sélection** dans le menu.
     -   Utilisez le raccourci clavier: **T** puis **4**.
 
 ## Préférences
 
-Le mode de présélection de l\'arborescence peut également être défini dans le [Réglage des préférences](Preferences_Editor/fr#Sélection.md): {{MenuCommand|Edition → Préférences → Général → Sélection}}.
+Le mode de présélection de l\'arborescence peut également être défini dans le [Réglage des préférences](Preferences_Editor/fr#Sélection.md): **Edition → Préférences → Général → Sélection**.
 
 
 

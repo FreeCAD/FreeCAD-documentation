@@ -23,7 +23,7 @@ Exista două moduri de a schimba stilul de navigare:
 -   In dialogul pentru [preferinte](Preferences_Editor/ro.md), secțiunea Afișare, tab-ul *Vizualizare 3D*;
 -   Click-dreapta în spațiul liber în zona de vizualizare 3D, selectând *Stil de navigare* în meniul contextual.
 
-### Navigare CAD (implicita) {#navigare_cad_implicita}
+### Navigare CAD (implicita) 
 
 Acesta este modul de navigare implicit și permite utilizatorului un control simplu al vizualizării; nu este nevoie de folosirea tastaturii decât pentru selecție multiplă. {{CAD Navigation/ro}}
 
@@ -89,7 +89,7 @@ With this method the middle mouse button may be released after the right mouse b
 Users who use the mouse with their right hand may find this method easier than the first method.
 }}
 
-### Navigare Tip Inventor {#navigare_tip_inventor}
+### Navigare Tip Inventor 
 
 In acest tip de navigare modelată după [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) (a nu se confunda cu Autodesk Inventor) nu exista selectie cu mouse-ul. Pentru selectare trebuie apasată tasta **CTRL**. {{Inventor Navigation/ro}}
 
@@ -125,7 +125,7 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
-### Navigare Tip Blender {#navigare_tip_blender}
+### Navigare Tip Blender 
 
 Blender Navigation a fost modelat după [Blender](http://www.blender.org). Anterior nu a existat o panoramare cu mouse-ul și a fost necesară utilizarea tastei {{KEY | SHIFT}} pentru a panorama vederea. Acest lucru s-a schimbat în 2016, cu o adăugare de caracteristici. Pentru a panorama vizualizarea, puteți apăsa acum butoanele mouse-ului stânga și dreapta și trageți în vizualizare. {{Blender Navigation
 |Select_name=Select
@@ -143,7 +143,7 @@ Alternatively, hold both left and right mouse buttons, and then move the pointer
 
 Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold the middle mouse button, then move the pointer. }}
 
-### Navigarea cu Touchpad-ul {#navigarea_cu_touchpad_ul}
+### Navigarea cu Touchpad-ul 
 
 În Navigatorul cu touchpad, nici panningul, nici zoom-ul, nici rotirea vizualizării nu sunt operații numai pentru mouse (sau doar touchpad). {{Touchpad Navigation
 |Select_name=Select
@@ -163,7 +163,7 @@ Alternatively, hold both left and right mouse buttons, and then move the pointer
 |Rotate_view_alt_text=Alternatively, hold **Shift** and the left button, then move the pointer.
 }}
 
-### Navigarea prin Gesturi(v0.16) {#navigarea_prin_gesturiv0.16}
+### Navigarea prin Gesturi(v0.16) 
 
 Acest stil de navigare a fost adaptat pentru utilizarea cu touchscreen și stiloul, dar este foarte ușor de utilizat cu mouse-ul. {{Gesture Navigation
 |Select_name=Select
@@ -189,7 +189,7 @@ Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md).
 |Tilt_view_text=Hold both left and right mouse buttons, and then move the pointer sideways. 
 |Tilt_view_gesture_text=Rotate the imaginary line formed by two touch points.
 
-On v0.18 this method is disabled by default. To enable, go to {{MenuCommand|Edit → Preferences → Display}}, and untick "Disable touchscreen tilt gesture" checkbox.
+On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick "Disable touchscreen tilt gesture" checkbox.
 }}
 
 Alternatively, tap and hold, then drag. This simulates the pan with the right mouse button. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Zoom\_gesture\_text=Drag two fingers (pinch) closer or farther apart. \|Rotate\_view\_text=Hold the left mouse button, then move the pointer. In [Sketcher](Sketcher_Workbench.md) and other edit modes, this behavior is disabled. Hold **Alt** when pressing the mouse button to enter rotation mode.
@@ -198,9 +198,9 @@ To set the camera\'s focus point for rotation, click a point with the middle mou
 
 Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt\_view\_text=Hold both left and right mouse buttons, then move the pointer sideways. \|Tilt\_view\_gesture\_text=Rotate the imaginary line formed by two touch points.
 
-On v0.18 this method is disabled by default. To enable, go to {{MenuCommand|Edit → Preferences → Display}}, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
+On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
 
-### Navigare tip Maya {#navigare_tip_maya}
+### Navigare tip Maya 
 
 
 <div class="mw-translate-fuzzy">
@@ -224,7 +224,7 @@ Alternatively, use the mouse wheel to zoom in and out.
 
 Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold **Alt** and the left mouse button, then move the pointer. }}
 
-### Revit Navigation {#revit_navigation}
+### Revit Navigation 
 
 This style was introduced in version 0.18.
 
@@ -265,9 +265,9 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 |Rotate_view_text=Hold **Ctrl** and the right mouse button, then move the pointer.
 }}
 
-## Selectarea Obiectelor {#selectarea_obiectelor}
+## Selectarea Obiectelor 
 
-### Selecția Simplă {#selecția_simplă}
+### Selecția Simplă 
 
 Obiectele se selectează cu click-stânga în vizualizarea 3D sau selectare în vizualizarea arborescentă.
 
@@ -275,15 +275,15 @@ Obiectele se selectează cu click-stânga în vizualizarea 3D sau selectare în 
 
 Există, de asemenea, și un mecanism de preselecție care evidențiază obiectele și prezintă informații despre ele înainte de a fi selectate, doar prin mișcarea mouse-ului deasupra lor. Dacă nu agreați acest comportament sau calculatorul este lent puteți să-l suprimați din dialogul pentru preferințe.
 
-## Manipularea Obiectelor {#manipularea_obiectelor}
+## Manipularea Obiectelor 
 
 FreeCAD oferă [manipulatori](manipulator/ro.md) ce pot fi folosiți pentru a schimba aparența sau proprietățile obiectului.
 
-## Suport Hardware {#suport_hardware}
+## Suport Hardware 
 
 FreeCAD suportă și un număr de [dispozitive 3D](3D_input_devices/ro.md).
 
-## Probleme la Mac OS X {#probleme_la_mac_os_x}
+## Probleme la Mac OS X 
 
 Recent am primit rapoarte [pe forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) de la utilizatorii de Mac la care acele combinații de taste și butoane de mouse nu funcționează conform așteptărilor. Din păcate, niciunul dintre dezvoltatori nu deține un Mac, nici ceilalți contributori obișnuiți. Avem nevoie de ajutorul tău pentru a determina ce butoane și combinații de taste ale mouse-ului funcționează astfel încât să putem actualiza acest
 

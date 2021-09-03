@@ -21,7 +21,7 @@ En lui-même, l\'objet <img src=images/Draft_OrthoArray.svg style="width:Link](A
 
 Lorsqu\'ils sont utilisés avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:atelier PartDesign](PartDesign_Workbench/fr.md), les liens sont destinés à être utilisés avec **[16px"> <img src=images/PartDesign_LinearPattern.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)**. Il est donc recommandé de définir {{PropertyView/fr|Display Mode Body}} sur {{Value|Tip}} pour sélectionner les caractéristiques du corps entier et non les fonctions individuelles. Pour créer des tableaux des [PartDesign Features](PartDesign_Feature/fr.md) internes, utilisez **[16px"> <img src=images/PartDesign_PolarPattern.svg style="width:PartDesign Répétition linéaire](PartDesign_LinearPattern/fr.md)**, **[16px"> <img src=images/PartDesign_MultiTransform.svg style="width:PartDesign Répétition circulaire](PartDesign_PolarPattern/fr.md)** et **[16px"> [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)**.
 
-L\'outil **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Std Créer un lien](Std_LinkMake/fr.md)** n\'est pas défini par un atelier particulier mais par le système de base. De ce fait il se trouve donc dans {{MenuCommand|Barre d'outils Structure}} qui est disponible dans tous les [ateliers](Workbenches/fr.md). L\'objet Link, utilisé en conjonction avec **[16px"> [Std Part](Std_Part/fr.md)** pour regrouper divers objets, constitue la base des ateliers <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/fr.md) et <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/fr.md).
+L\'outil **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Std Créer un lien](Std_LinkMake/fr.md)** n\'est pas défini par un atelier particulier mais par le système de base. De ce fait il se trouve donc dans **Barre d'outils Structure** qui est disponible dans tous les [ateliers](Workbenches/fr.md). L\'objet Link, utilisé en conjonction avec **[16px"> [Std Part](Std_Part/fr.md)** pour regrouper divers objets, constitue la base des ateliers <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/fr.md) et <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/fr.md).
 
 ## Utilisation
 
@@ -41,7 +41,7 @@ Sans sélection :
 
 *(1) Un objet, (2) un lien vide, (3) un lien complet vers le premier objet (avec un matériau de remplacement), et (4) un lien vers seulement quelques sous-éléments de l'objet. Le lien vide n'est pas lié à l'objet réel et n'est donc pas affiché dans la [vue 3D](3D_view/fr.md).*
 
-## Utilisation : documents externes {#utilisation_documents_externes}
+## Utilisation : documents externes 
 
 1.  Commencez par un document contenant au moins un objet qui sera la source du lien.
 2.  Ouvrez un nouveau document ou un document existant. Pour une manipulation plus facile, utilisez **<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std Arborescence plusieurs documents](Std_TreeMultiDocument/fr.md)** pour afficher les deux documents dans la [Vue en arborescence](Tree_view/fr.md). Avant de continuer, [sauvegarder](Std_Save/fr.md) les deux documents. Le lien ne pourra pas trouver sa source et sa cible à moins que les deux documents ne soient enregistrés sur le disque.
@@ -62,7 +62,7 @@ Sans sélection :
 
 *(1, 2) Deux objets d'un document source liés à un document cible, (3) un lien vers le deuxième lien (avec un matériau de remplacement) et (4) un lien vers les sous-éléments du deuxième lien.*
 
-### Glisser-déposer {#glisser_déposer}
+### Glisser-déposer 
 
 Au lieu de changer d\'onglet de document, vous pouvez créer des liens en effectuant une opération de glisser-déposer dans la [Vue en arborescence](Tree_view/fr.md): sélectionnez l\'objet source dans le premier document, faites-le glisser, puis déposez-le dans le nom du second document tout en maintenant la touche **Alt** du clavier.
 
@@ -100,7 +100,7 @@ Un lien vers un **<img src=images/Std_Part.svg style="width:16px"> <img src=imag
 
 *À gauche : [Std Part](Std_Part/fr.md) avec deux objets et deux liens vers la pièce; la visibilité des objets est synchronisée. À droite : [Std Group](Std_Group/fr.md) avec deux objets et deux liens vers le groupe. La visibilité des objets est contrôlée indépendamment dans chaque groupe.*
 
-## Apparence de remplacement {#apparence_de_remplacement}
+## Apparence de remplacement 
 
 Lorsqu\'un lien est créé, par défaut {{PropertyView/fr|Override Material}} est `False`, donc le lien aura la même apparence que l\'original {{PropertyData/fr|Linked Object}}.
 
@@ -108,7 +108,7 @@ Lorsque {{PropertyView/fr|Override Material}} est défini sur `True`, la propri�
 
 Quel que soit l\'état de {{PropertyView/fr|Override Material}}, il est possible de définir individuellement l\'apparence des sous-éléments (sommets, arêtes, faces) d\'un lien.
 
-1.  Sélectionnez le lien dans la [Vue en arborescence](Tree_view/fr.md). Ouvrez le menu contextuel (clic droit) et choisissez {{MenuCommand|Override colors}}.
+1.  Sélectionnez le lien dans la [Vue en arborescence](Tree_view/fr.md). Ouvrez le menu contextuel (clic droit) et choisissez **Override colors**.
 2.  Choisissez maintenant les sous-éléments individuels que vous voulez dans la [Vue 3D](3D_view/fr.md), appuyez sur **Edit** et modifiez les propriétés, y compris la transparence.
 3.  Pour supprimer les attributs personnalisés, sélectionnez les éléments dans la liste et appuyez sur **Remove**.
 4.  Lorsque vous êtes satisfait du résultat, appuyez sur **OK** pour fermer la boîte de dialogue.
@@ -123,7 +123,7 @@ Quel que soit l\'état de {{PropertyView/fr|Override Material}}, il est possible
 
 *(1) Un objet original, (2) un lien avec un matériau de remplacement et (3) un deuxième lien avec des sous-éléments modifiés individuels.*
 
-### Réseau lien {#réseau_lien}
+### Réseau lien 
 
 
 **Voir aussi :**
@@ -134,7 +134,7 @@ Lorsqu\'un lien est créé, par défaut, son {{PropertyData/fr|Element Count}} e
 
 Étant donné que {{PropertyData/fr|Show Element}} est `True` par défaut, lorsque {{PropertyData/fr|Element Count}} est défini sur {{Value|1}} ou plus, automatiquement plus de liens seront créés sous le premier. Chaque nouveau lien peut être placé à la position souhaitée en modifiant sa propre propriété {{PropertyData/fr|Placement}}.
 
-De la même manière, chaque élément du réseau peut avoir sa propre apparence modifiée, soit par les propriétés {{PropertyView/fr|Override Material}} et {{PropertyView/fr|Shape Material}}, soit en utilisant le menu {{MenuCommand|Override colors}} sur l\'ensemble du réseau puis en sélectionnant des faces une par une. Ceci est décrit dans [Apparence de remplacement](#Apparence_de_remplacement.md).
+De la même manière, chaque élément du réseau peut avoir sa propre apparence modifiée, soit par les propriétés {{PropertyView/fr|Override Material}} et {{PropertyView/fr|Shape Material}}, soit en utilisant le menu **Override colors** sur l\'ensemble du réseau puis en sélectionnant des faces une par une. Ceci est décrit dans [Apparence de remplacement](#Apparence_de_remplacement.md).
 
 <img alt="" src=images/Std_Link_tree_array_example.png ) ![](images/Std_Link_array_example.png  style="width:500px;">
 
@@ -149,9 +149,9 @@ Lors de la création de ce type de réseau de liens, vous devez placer chacun de
 
 Lorsque {{PropertyData/fr|Show Element}} est `True` et que des éléments individuels sont répertoriés dans la [Vue en arborescence](Tree_view/fr.md) dans un [Réseau lien](#R.C3.A9seau_lien.md), chaque lien peut être affiché ou masqué par en appuyant sur la barre **Espace** du clavier.
 
-Une autre façon de masquer les éléments individuels consiste à utiliser le menu {{MenuCommand|Override colors}}.
+Une autre façon de masquer les éléments individuels consiste à utiliser le menu **Override colors**.
 
-1.  Sélectionnez le tableau, ouvrez le menu {{MenuCommand|Override colors}} (clic droit).
+1.  Sélectionnez le tableau, ouvrez le menu **Override colors** (clic droit).
 2.  Dans la [Vue 3D](3D_view/fr.md), choisissez n\'importe quel sous-élément à partir de n\'importe quel lien du réseau.
 3.  Appuyez sur **Hide**. Une icône représentant un œil <img alt="" src=images/Invisible.svg  style="width:24px;"> devrait apparaître, indiquant que cet élément a été masqué de la [Vue 3D](3D_view/fr.md). L\'objet s\'affichera temporairement lorsque le curseur survolera l\'icône <img alt="" src=images/Invisible.svg  style="width:24px;">.
 4.  Vous pouvez cliquer sur **OK** pour confirmer l\'opération et fermer la boîte de dialogue. Le lien restera caché même s\'il est affiché comme visible dans la [Vue en arborescence](Tree_view/fr.md).
@@ -163,7 +163,7 @@ Une autre façon de masquer les éléments individuels consiste à utiliser le m
 
 Si vous souhaitez restaurer la visibilité de cet élément du réseau, entrez à nouveau dans la boîte de dialogue, choisissez l\'icône en forme d\'œil, puis cliquez sur **Remove** pour supprimer l\'état caché et cliquez sur **OK** pour confirmer et fermez la boîte de dialogue. L\'élément sera à nouveau visible dans [Vue 3D](3D_view/fr.md).
 
-Lorsque le lien est pour un **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part/fr.md)** ou un **[16px"> [Std Groupe](_Std_Part/fr.md)**, le menu {{MenuCommand|Override colors}} fonctionne de la même manière qu\'avec les réseaux. Il permet de contrôler la couleur de la face, la couleur de l\'objet entier et la visibilité des objets du groupe.
+Lorsque le lien est pour un **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part/fr.md)** ou un **[16px"> [Std Groupe](_Std_Part/fr.md)**, le menu **Override colors** fonctionne de la même manière qu\'avec les réseaux. Il permet de contrôler la couleur de la face, la couleur de l\'objet entier et la visibilité des objets du groupe.
 
 ![](images/Std_Link_Std_Part_visibility_example.png ) ![](images/Std_Link_Std_Part_visibility_example_3D.png )
 
@@ -174,7 +174,7 @@ Lorsque le lien est pour un **<img src=images/Std_Part.svg style="width:16px"> <
 
 Un [App Link](App_Link/fr.md) (classe `App::Link`) est dérivé de [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`). Il a donc les propriétés de base de ce dernier comme {{PropertyData/fr|Label}} et {{PropertyData/fr|Label2}}.
 
-Voici les propriétés spécifiques disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande {{MenuCommand|Afficher tout}} dans le menu contextuel de l\'[Éditeur de propriétés](Property_editor/fr.md).
+Voici les propriétés spécifiques disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Afficher tout** dans le menu contextuel de l\'[Éditeur de propriétés](Property_editor/fr.md).
 
 ### Données
 
@@ -348,7 +348,7 @@ obj = App.ActiveDocument.addObject("App::LinkPython", "Link")
 obj.Label = "Custom label"
 ```
 
-## Lecture complémentaire {#lecture_complémentaire}
+## Lecture complémentaire 
 
 L\'objet [App Link](App_Link/fr.md) a été introduit après 2 ans de développement et de prototypage. Ce composant a été pensé et développé presque seul par l\'utilisateur **realthunder**. Les motivations et les implémentations de conception derrière ce projet sont décrites dans sa page GitHub, [Link](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link). Afin d\'accomplir cette fonctionnalité, plusieurs modifications fondamentales de FreeCAD ont été apportées; ceux-ci ont également été largement documentés dans [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes).
 

@@ -29,7 +29,7 @@ La herramienta **<img src="images/Part_CheckGeometry.svg" width=16px> [Pieza Com
 1.  Seleccione una pieza (tenga cuidado de seleccionar toda la pieza y no sólo una cara para comprobar que el sólido es válido)
 2.  Invocar la herramienta ya sea:
     -   Haciendo clic en el botón **<img src="images/Part_CheckGeometry.svg" width=16px>** disponible en la barra de herramientas de la mesa de trabajo de la pieza.
-    -   Utilizando la entrada {{MenuCommand|Pieza → <img src="images/Part_CheckGeometry.svg" width=16px> Comprobar geometría}} en el menú superior.
+    -   Utilizando la entrada **Pieza → <img src="images/Part_CheckGeometry.svg" width=16px> Comprobar geometría** en el menú superior.
 
 
 </div>
@@ -46,11 +46,11 @@ Resultados se informarán en el [Panel de tareas](Task_panel/es.md).
 
 ## Options
 
-### Skip settings page {#skip_settings_page}
+### Skip settings page 
 
-If ticked, subsequent invocations of the tool skip showing the {{MenuCommand|Settings}} task panel.
+If ticked, subsequent invocations of the tool skip showing the **Settings** task panel.
 
-### Run BOP check {#run_bop_check}
+### Run BOP check 
 
 
 <div class="mw-translate-fuzzy">
@@ -60,7 +60,7 @@ La función ComprobarGeometría comprueba si la [Representación del límite](ht
 
 </div>
 
-### Log errors {#log_errors}
+### Log errors 
 
 If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
 

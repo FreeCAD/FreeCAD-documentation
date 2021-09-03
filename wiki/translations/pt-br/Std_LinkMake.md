@@ -20,7 +20,7 @@ By itself the <img src=images/Draft_OrthoArray.svg style="width:Link](App_Link.m
 
 When used with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:PartDesign Workbench](PartDesign_Workbench.md), Links are intended to be used with **[16px"> <img src=images/PartDesign_LinearPattern.svg style="width:PartDesign Bodies](PartDesign_Body.md)**, so it is recommended to set **Display Mode Body** to {{Value|Tip}} to select the features of the entire Body, and not the individual features. To create arrays of the internal [PartDesign Features](PartDesign_Feature.md), use **[16px"> <img src=images/PartDesign_PolarPattern.svg style="width:PartDesign LinearPattern](PartDesign_LinearPattern.md)**, **[16px"> <img src=images/PartDesign_MultiTransform.svg style="width:PartDesign PolarPattern](PartDesign_PolarPattern.md)**, and **[16px"> [PartDesign MultiTransform](PartDesign_MultiTransform.md)**.
 
-The **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Std LinkMake](Std_LinkMake.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the {{MenuCommand|structure toolbar}} that is available in all [workbenches](Workbenches.md). The Link object, used in conjunction with **[16px"> [Std Part](Std_Part.md)** to group various objects, forms the basis of the <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md) and <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench.md).
+The **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Std LinkMake](Std_LinkMake.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](Workbenches.md). The Link object, used in conjunction with **[16px"> [Std Part](Std_Part.md)** to group various objects, forms the basis of the <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md) and <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench.md).
 
 ## Utilização
 
@@ -40,7 +40,7 @@ Without selection:
 
 *(1) An object, (2) an empty Link, (3) a full Link to the first object (with overriding material), and (4) a Link to only some subelements of the object. The empty Link is not tied to the real object so it is not displayed in the [3D view](3D_view.md).*
 
-## Usage: external documents {#usage_external_documents}
+## Usage: external documents 
 
 1.  Start with a document that has at least one object which will be the source of the Link.
 2.  Open a new document or an existing document. For easier handling, use **<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std TreeMultiDocument](Std_TreeMultiDocument.md)** to show both documents in the [tree view](tree_view.md). Before you proceed, [save](Std_Save.md) both documents. The Link won\'t be able to find its source and target unless both documents are saved on disk.
@@ -61,7 +61,7 @@ Without selection:
 
 *(1, 2) Two objects from a source document linked into a target document, (3) a Link to the second Link (with overriding material), and (4) a Link to the subelements of the second Link.*
 
-### Dragging and dropping {#dragging_and_dropping}
+### Dragging and dropping 
 
 Instead of switching document tabs, you can create Links by performing a drag and drop operation in the [tree view](Tree_view.md): select the source object from the first document, drag it, then drop it into the second document\'s name while holding the **Alt** key in the keyboard.
 
@@ -99,7 +99,7 @@ A Link to a **<img src=images/Std_Part.svg style="width:16px"> <img src=images/S
 
 *Left: [Std Part](Std_Part.md) with two objects, and two Links to the Part; the visibility of the objects is synchronized. Right: [Std Group](Std_Group.md) with two objects, and two Links to the Group; the visibility of the objects is independently controlled in each group.*
 
-## Overriding appearance {#overriding_appearance}
+## Overriding appearance 
 
 When a Link is created, by default the **Override Material** is `False`, so the Link will have the same appearance as the original **Linked Object**.
 
@@ -107,7 +107,7 @@ When **Override Material** is set to `True`, the **Shape Material** property wil
 
 Regardless of the state of **Override Material**, it is possible to individually set the appearance of the subelements (vertices, edges, faces) of a Link.
 
-1.  Select the Link in the [tree view](tree_view.md). Open the context menu (right-click), and pick {{MenuCommand|Override colors}}.
+1.  Select the Link in the [tree view](tree_view.md). Open the context menu (right-click), and pick **Override colors**.
 2.  Now pick the individual subelements that you want in the [3D view](3D_view.md), press **Edit**, and change the properties including transparency.
 3.  To remove the custom attributes, select the elements in the list, and press **Remove**.
 4.  When you are satisfied with the result, press **OK** to close the dialog.
@@ -122,7 +122,7 @@ as of v0.19, the coloring of the subelements is subject to the [topological nami
 
 *(1) An original object, (2) a Link with overriding material, and (3) a second Link with individual modified subelements.*
 
-## Link Array {#link_array}
+## Link Array 
 
 
 **See also:**
@@ -133,7 +133,7 @@ When a Link is created, by default its **Element Count** is {{Value|0}}, so only
 
 Given that **Show Element** is `True` by default, when **Element Count** is set to {{Value|1}} or more, automatically more Links will be created below the first one; each new Link can be placed in the desired position by changing its own **Placement** property.
 
-In similar way, each element of the array can have its own appearance changed, either by the **Override Material** and **Shape Material** properties, or by using the {{MenuCommand|Override colors}} menu on the entire array and then selecting individual faces; this is described in [Overriding appearance](#Overriding_appearance.md).
+In similar way, each element of the array can have its own appearance changed, either by the **Override Material** and **Shape Material** properties, or by using the **Override colors** menu on the entire array and then selecting individual faces; this is described in [Overriding appearance](#Overriding_appearance.md).
 
 <img alt="" src=images/Std_Link_tree_array_example.png ) ![](images/Std_Link_array_example.png  style="width:500px;">
 
@@ -148,9 +148,9 @@ When creating this type of Link array, you must place each of the elements manua
 
 When **Show Element** is `True` and individual elements are listed in the [tree view](Tree_view.md) in a [Link Array](#Link_Array.md), each Link can be shown or hidden by pressing the **Space** bar in the keyboard.
 
-Another way to hide the individual elements is using the {{MenuCommand|Override colors}} menu.
+Another way to hide the individual elements is using the **Override colors** menu.
 
-1.  Select the array, open the {{MenuCommand|Override colors}} menu (right click).
+1.  Select the array, open the **Override colors** menu (right click).
 2.  In the [3D view](3D_view.md), pick any subelement from any Link in the array.
 3.  Press **Hide**. An icon of an eye <img alt="" src=images/Invisible.svg  style="width:24px;"> should appear, indicating that this element has been hidden from the [3D view](3D_view.md). The object will temporarily show itself when the cursor hovers over the <img alt="" src=images/Invisible.svg  style="width:24px;"> icon.
 4.  You can click **OK** to confirm the operation and close the dialog. The Link will remain hidden even if it is shown as visible in the [tree view](tree_view.md).
@@ -162,7 +162,7 @@ Another way to hide the individual elements is using the {{MenuCommand|Override 
 
 If you wish to restore the visibility of this array element, enter the dialog once more, pick the eye icon, then click on **Remove** to remove the hidden status, and click **OK** to confirm and close the dialog. The element will be visible in the [3D view](3D_view.md) again.
 
-When the Link is for a **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part.md)** or a **[16px"> [Std Group](Std_Part.md)**, the {{MenuCommand|Override colors}} menu works in similar way as with arrays; it allows controlling the face color, entire object color, and visibility of the objects in the group.
+When the Link is for a **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part.md)** or a **[16px"> [Std Group](Std_Part.md)**, the **Override colors** menu works in similar way as with arrays; it allows controlling the face color, entire object color, and visibility of the objects in the group.
 
 ![](images/Std_Link_Std_Part_visibility_example.png ) ![](images/Std_Link_Std_Part_visibility_example_3D.png )
 
@@ -173,7 +173,7 @@ When the Link is for a **<img src=images/Std_Part.svg style="width:16px"> <img s
 
 An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it has the latter\'s basic properties like **Label** and **Label2**.
 
-The following are the specific properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the {{MenuCommand|Show all}} command in the context menu of the [property editor](Property_editor.md).
+The following are the specific properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
 
 ### Data
 
@@ -347,7 +347,7 @@ obj = App.ActiveDocument.addObject("App::LinkPython", "Link")
 obj.Label = "Custom label"
 ```
 
-## Further reading {#further_reading}
+## Further reading 
 
 The [App Link](App_Link.md) object was introduced after 2 years of development and prototyping. This component was thought and developed almost single-handedly by user **realthunder**. The motivations and design implementations behind this project are described in his GitHub page, [Link](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link). In order to accomplish this feature, several core changes to FreeCAD were made; these were also extensively documented in [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes).
 

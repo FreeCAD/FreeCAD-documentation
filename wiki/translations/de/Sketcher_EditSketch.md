@@ -27,7 +27,7 @@ Mit diesem Befehl kannst Du eine vorhandene Skizze bearbeiten. Er öffnet die [S
 Es gibt verschiedene Wege den Befehl Skizze bearbeiten aufzurufen:
 
 -   Rechtsklicke auf eine Skizze in der [Baumansicht](tree_view/de.md) und wähle *Skizze bearbeiten*.
--   Wähle Skizze in der [Baumansicht](tree_view/de.md) und wähle {{MenuCommand|Skizze → Skizze bearbeiten}} aus dem Aufklappmenü.
+-   Wähle Skizze in der [Baumansicht](tree_view/de.md) und wähle **Skizze → Skizze bearbeiten** aus dem Aufklappmenü.
 -   Doppelklicke einfach auf die Skizze
 -   Klicke auf die <img alt="" src=images/Sketcher_EditSketch.svg  style="width:24px;"> Schaltfläche in der Skizzierer Werkzeugleiste.
 

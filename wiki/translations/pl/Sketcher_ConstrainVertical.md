@@ -18,11 +18,11 @@ Tworzy wiązanie pionowe dla wybranych linii lub elementów polilinii. Zaczynaj�
 2.  Aby uruchomić komendę wiązania pionowego:
     -   Naciśnij przycisk **<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Wiązanie pionowe](Sketcher_ConstrainVertical.md)**.
     -   Użyj skrótu na klawiaturze **V**.
-    -   Użyj pozycji {{MenuCommand|Sketch → Wiązania szkicownika → Wiązanie pionowe}} , znajdującej się w menu rozwijanym Szkicu
+    -   Użyj pozycji **Sketch → Wiązania szkicownika → Wiązanie pionowe** , znajdującej się w menu rozwijanym Szkicu
 3.  Alternatywnie, narzędzie może być uruchomione bez wcześniejszego zaznaczenia i będzie oczekiwało zaznaczenia, ale tylko linie będą mogły być zaznaczone.
 4.  Kliknij prawym przyciskiem myszy, lub wciśnij raz klawisz **Esc** aby zakończyć działanie narzędzia.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Vertical', Line))```

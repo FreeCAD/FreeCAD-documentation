@@ -43,7 +43,7 @@ Mehr Einzelheiten zum Replizieren von Objekten gibt es auf der [Objekte kopieren
 
 ## Preferences
 
--   Duplicate labels are allowed if {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels}} is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 
 ## Scripting
 

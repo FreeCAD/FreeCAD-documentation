@@ -23,7 +23,7 @@ Niniejszy poradnik ma na celu zapoznanie czytelnika z podstawowym tokiem pracy �
 -   [Calculix](http://www.calculix.de/) który jest zainstalowany w systemie.
 -   Czytelnik powinien posiadać podstawową wiedzę na temat korzystania z Środowisk pracy [Część](Part_Workbench/pl.md) oraz [Projekt Części](PartDesign_Workbench/pl.md).
 
-## Sposób postępowania {#sposób_postępowania}
+## Sposób postępowania 
 
 ### Modelowanie
 
@@ -39,7 +39,7 @@ W tym przykładzie jako obiekt badania używany jest sześcian, ale zamiast nieg
 
 Teraz mamy model, z którym możemy pracować.
 
-### Tworzenie analizy {#tworzenie_analizy}
+### Tworzenie analizy 
 
 #### Netgen
 
@@ -60,7 +60,7 @@ Zaleca się korzystanie z makra użytkownika **psicofil** i jest ono stosowane w
 
 Obecnie mamy do czynienia z siatką naszego obiektu i jesteśmy gotowi do dodania wiązań i sił.
 
-### Wiązania i siły {#wiązania_i_siły}
+### Wiązania i siły 
 
 1.  Ukryj siatkę z widoku drzewa.
 2.  Wyświetl oryginalny model.
@@ -73,14 +73,14 @@ Obecnie mamy do czynienia z siatką naszego obiektu i jesteśmy gotowi do dodani
 
 Ustaliliśmy teraz ograniczenia i siły dla naszych badań statycznych.
 
-### Przygotowania końcowe {#przygotowania_końcowe}
+### Przygotowania końcowe 
 
 1.  Wybierz <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> [Materiał bryły\...](FEM_MaterialSolid/pl.md) i wybierz Calculix jako materiał.
 2.  Kliknij na przycisk **OK**.
 
-### Uruchomienie silnika Rozwiązującego {#uruchomienie_silnika_rozwiązującego}
+### Uruchomienie silnika Rozwiązującego 
 
-#### Procedura typowa {#procedura_typowa}
+#### Procedura typowa 
 
 1.  Wybierz obiekt solvera <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> zawarty w **Analizie mechanicznej**.
 2.  Wybierz z menu <img alt="" src=images/FEM_SolverControl.svg  style="width:24px;"> [Rozpoczęcie obliczeń](FEM_SolverControl/pl.md)
@@ -88,12 +88,12 @@ Ustaliliśmy teraz ograniczenia i siły dla naszych badań statycznych.
 4.  Wybierz **Uruchom Calculix**.
 5.  Kliknij w przycisk **Zamknij**.
 
-#### Procedura skrócona {#procedura_skrócona}
+#### Procedura skrócona 
 
 1.  Wybierz obiekt solvera <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> zawarty w **Analizie mechanicznej**.
 2.  Kliknij w przycisk <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Uruchom analizę](FEM_SolverRun/pl.md).
 
-### Analizowanie wyników {#analizowanie_wyników}
+### Analizowanie wyników 
 
 1.  W widoku drzewa wybierz obiekt **Wyniki**.
 2.  Wybierz <img alt="Pokaż wyniki" src=images/FEM_ResultShow.svg  style="width:24px;"> [Pokaż wyniki](FEM_ResultShow/pl.md).

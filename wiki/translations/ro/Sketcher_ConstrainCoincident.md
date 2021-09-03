@@ -32,7 +32,7 @@ Acest instrument de constrângere ia două puncte ca argument pentru a face ca c
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 După cum sa menționat mai sus, acest instrument are două argumente - ambele sunt puncte.
 
@@ -53,7 +53,7 @@ NOTĂ: Pentru a face două puncte coincide, FreeCAD trebuie să se mute în mod 
 
 </div>
 
-## Alternatives to Coincident constraint {#alternatives_to_coincident_constraint}
+## Alternatives to Coincident constraint 
 
 The two constrained items of a [Coincident](Sketcher_ConstrainCoincident.md) constraint must be start point or end point vertices, or center points of arcs, circles or ellipses. Some combinations which are not possible with a coincident constraint can be emulated using other constraints:
 
@@ -67,7 +67,7 @@ The two constrained items of a [Coincident](Sketcher_ConstrainCoincident.md) con
 
 <div class="mw-translate-fuzzy">
 
-### General scripting {#general_scripting}
+### General scripting 
 
 Constrângerea poate fi creată din macrocomenzi și din consola Python folosind următoarea comandă:
 

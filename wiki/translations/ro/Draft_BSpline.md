@@ -35,7 +35,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Apăsați butonul **<img src="images/Draft_BSpline.png" width=16px> [Draft BSpline](Draft_BSpline/ro.md)
 **, sau apăsați tastele **B** apoi **S**
@@ -81,8 +81,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the initial value of filled mode: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible}}. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 
 <div class="mw-translate-fuzzy">
@@ -141,7 +141,7 @@ A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 <div class="mw-translate-fuzzy">
 
-## Script-Programre {#script_programre}
+## Script-Programre 
 
 Unealta BSpline poate fi folosită în [macro-uri](macros/ro.md) şi de la consola Python cu ajutorul funcţiei următoare:
 

@@ -25,8 +25,8 @@ The **Std SendToPythonConsole** command creates a variable in the [Python consol
 
 1.  Select a single object.
 2.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|Edit → <img src="images/Std_SendToPythonConsole.svg" width=16px> Send to Python Console}} option from the menu.
-    -   Select the {{MenuCommand|<img src="images/Std_SendToPythonConsole.svg" width=16px> Send to Python Console}} option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
+    -   Select the **Edit → <img src="images/Std_SendToPythonConsole.svg" width=16px> Send to Python Console** option from the menu.
+    -   Select the **<img src="images/Std_SendToPythonConsole.svg" width=16px> Send to Python Console** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **Ctrl**+**Shift**+**P**.
 
 

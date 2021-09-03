@@ -25,7 +25,7 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 
 [480px\|left\|Part Cut](IMAGE:Part_Cut_01.png.md) 
 
-### Cum se utilizează {#cum_se_utilizează}
+### Cum se utilizează 
 
 1.  Select two shapes
 2.  Press the **<img src="images/Part_Cut.png" width=16px> '''Part Cut'''** button.
@@ -36,12 +36,12 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 1.  Select two shapes
 2.  Invoke the Part Cut command several ways:
     -   Press the **![](images/) '''Cut'''** button in the Part toolbar
-    -   Use the {{MenuCommand|Part → Boolean → Cut}} entry from the Part menu
+    -   Use the **Part → Boolean → Cut** entry from the Part menu
 
 
 <div class="mw-translate-fuzzy">
 
-### Intrări suportate {#intrări_suportate}
+### Intrări suportate 
 
 
 </div>

@@ -38,19 +38,19 @@ Typ bietet fünf verschiedene Möglichkeiten zum Festlegen der Länge, auf welch
 
 Gib einen numerischen Wert für die Länge des Polsters ein. Die Standardrichtung für die Extrusion ist in Richtung positiver Normale des extrudierten Objekts, dies kann geändert werden, indem Sie die Option \'\' \'Umgekehrt\' \'\' ankreuzen. Extrusionen erfolgen [normal](http://en.wikipedia.org/wiki/Surface_normal) zur definierenden Ebene. Mit der Option \'Symmetrisch zu Ebene\' \'wird die Fläche um die Hälfte der gegebenen Länge auf jede Seite der Ebene verlängert. Negative Dimensionen sind nicht möglich. Verwenden Sie stattdessen die Option \'\' \'Umgekehrt\' \'\'.
 
-#### Zwei Abmessungen {#zwei_abmessungen}
+#### Zwei Abmessungen 
 
 Dies ermöglicht die Eingabe einer zweiten Länge, in der sich das Polster in die entgegengesetzte Richtung (in die Halterung) erstrecken soll. Auch hier kann die Länge durch anhaken der **Umgekehrt** Option geändert werden.
 
-#### Zur letzten {#zur_letzten}
+#### Zur letzten 
 
 Das Pad extrudiert bis zur letzten Fläche des Ausgangskörpers in Extrusionsrichtung. Wenn keine solche Fläche vorhanden ist, wird eine Fehlermeldung angezeigt.
 
-#### Zur ersten {#zur_ersten}
+#### Zur ersten 
 
 Die Aufpolsterung wird in Extrusionsrichtung bis zur ersten Seite des tragenden Objekts extrudiert. Wenn keine Fläche vorhanden ist, wird eine Fehlermeldung angezeigt.
 
-#### Bis zur Fläche {#bis_zur_fläche}
+#### Bis zur Fläche 
 
 Die Aufpolsterung wird zu einer Fläche im Ausgangskörper extrudiert, welche durch Klicken ausgewählt werden kann. Wenn keine Fläche vorhanden ist, werden keine Auswahlmöglichkeiten akzeptiert.
 
@@ -58,22 +58,22 @@ Die Aufpolsterung wird zu einer Fläche im Ausgangskörper extrudiert, welche du
 
 Definiert die Länge der Extrusion(m, cm, mm, nm, ft oder \', in oder \"). Einheiten können unabhängig von der gewählten Standardeinheit angegeben werden.
 
-### Verwende benutzerdefinierte Richtung {#verwende_benutzerdefinierte_richtung}
+### Verwende benutzerdefinierte Richtung 
 
 
 <small>(v0.19)</small> 
 
 Wenn angehakt, ist die Polster Richtung nicht der Normalenvektor der Skizze, sondern der vorgegebene Vektor. Die Polster Länge wird jedoch entsprechend der Richtung des Normalenvektors festgelegt.
 
-### Länge entlang der Skizzennormalen {#länge_entlang_der_skizzennormalen}
+### Länge entlang der Skizzennormalen 
 
 Wenn angehakt, wird die Polsterlänge entlang der Skizzen Normalen gemessen, sonst entlang der benutzerdefinierten Richtung. {{Version/de|0.20}}
 
-### Versatz zur Fläche {#versatz_zur_fläche}
+### Versatz zur Fläche 
 
 Versatz von der Fläche, in der das Polster enden soll. Diese Option ist nur verfügbar, wenn **Typ** entweder **Zur letzten**, **Zur ersten** oder **Bis zur Fläche** ist.
 
-### Symmetrisch zur Ebene {#symmetrisch_zur_ebene}
+### Symmetrisch zur Ebene 
 
 Diese Option extrudiert die Gesamtlänge exakt hälftig in beide Richtungen.
 

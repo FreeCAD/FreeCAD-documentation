@@ -19,7 +19,7 @@ The <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinC
     The order of selection is important. It is enough to select one sub-shape of each object (e.g., faces).
 2.  Invoke the Part JoinCutout command several ways:
     -   Pressing on the <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinCutout](Part_JoinCutout.md) button in the Part toolbar
-    -   Using the {{MenuCommand|Part → Join → Cutout for Object}} entry in the Part menu
+    -   Using the **Part → Join → Cutout for Object** entry in the Part menu
 
 A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original objects are hidden, and the result of cutting is shown in [3D view](3D_view.md).
 

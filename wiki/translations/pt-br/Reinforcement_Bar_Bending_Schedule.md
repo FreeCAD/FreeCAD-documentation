@@ -11,7 +11,7 @@
 
 The [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md) tool allows the user to create the bar bending schedule of reinforcing bars.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="" src=images/Reinforcement_Bar_Bending_Schedule_example.svg  style="width:1300px;">
 
@@ -96,7 +96,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 The [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
-### Create Bar Bending Schedule {#create_bar_bending_schedule}
+### Create Bar Bending Schedule 
 
 
 ```python

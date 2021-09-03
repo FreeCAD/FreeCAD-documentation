@@ -15,7 +15,7 @@ If you are not involved with the development discussed here:<br>
 
 This page lists the requirements and implementation for a new workbench usable in the field of [Land Survey](http://en.wikipedia.org/wiki/Land_survey). The page is a bit outdated. Find the latest informations for FreeCAD in this regard on a HUGE forum thread: <http://forum.freecadweb.org/viewtopic.php?f=8&t=6973>
 
-## Rectangle selection {#rectangle_selection}
+## Rectangle selection 
 
 > A new mouse mode may be required:
 >
@@ -37,7 +37,7 @@ Blocks are objects that behave in most circumstances as a single object. The obj
 
 > Since there is a Upgrade/Downgrade, this functionality may already be present.
 
-### Dynamic attributes {#dynamic_attributes}
+### Dynamic attributes 
 
 Variables. Components of the block that may be changed without changing the definition of the block. Position inside the block is one such attribute.
 
@@ -49,11 +49,11 @@ In land survey the points are usually associated with numbers, description and o
 
 > The blocks with dynamic properties should do it.
 
-## Querry tools for 2 and a half system {#querry_tools_for_2_and_a_half_system}
+## Querry tools for 2 and a half system 
 
 The planar position is usually decoupled (especially in cadastre applications) from the height. When you want to know the distance between two points you actually want to know the distance in horizontal projection. The horizontal plane is XY, with Y pointing toward north. Z points upward (positive altitude).
 
-## Rich text; Tables {#rich_text_tables}
+## Rich text; Tables 
 
 General support for rich text.
 

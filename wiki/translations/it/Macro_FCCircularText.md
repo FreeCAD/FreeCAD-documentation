@@ -43,13 +43,13 @@ Fatta eccezione per la casella **Z** di Placement per Clock che è attiva e che 
 
 Le opzioni che sono facoltative per la funzione selezionata sono inattive e quindi non utilizzabili.
 
-## L\'interfaccia grafica di Circular Text {#linterfaccia_grafica_di_circular_text}
+## L\'interfaccia grafica di Circular Text 
 
 Panoramica
 
 ![GUI](images/FCCircularText_06.png ) 
 
-### Prima sezione {#prima_sezione}
+### Prima sezione 
 
 ![](images/FCCircularText_07.png ) 
 
@@ -66,7 +66,7 @@ Panoramica
 -   ComboView per il font scelto
     -   ARIAL.TTF è il font di default
 
-#### Opzioni disponibili {#opzioni_disponibili}
+#### Opzioni disponibili 
 
 Dopo il primo utilizzo, è possibile modificare i parametri vedere:
 
@@ -146,13 +146,13 @@ setFontByDefault
 
 
 
-## Seconda sezione {#seconda_sezione}
+## Seconda sezione 
 
 Configurare i caratteri in FCCircularText
 
 ![](images/FCCircularText_08.png ) 
 
-#### Prima zona {#prima_zona}
+#### Prima zona 
 
 Scegliere:
 
@@ -192,7 +192,7 @@ Image:FCCircularText 39.png\|**Mode Flat** **Indoor** Il testo è orizzontale, l
 
 </center>
 
-#### Seconda zona {#seconda_zona}
+#### Seconda zona 
 
 Questa sezione permette di configurare il comportamento complessivo dei caratteri in tutte le scelte disponibili, ma con qualche variazione. I comandi non utilizzabili con l\'opzione scelta sono visualizzati in grigio.
 
@@ -330,7 +330,7 @@ Image:FCCircularText 23.png\|**Clock** Image:FCCircularText 35.png\|**Axial** Im
 
 -    **Axial**: I dati sono scritti assialmente.
 
-### Path section {#path_section}
+### Path section 
 
 ![](images/FCCircularText_06_Path.png ) 
 
@@ -358,7 +358,7 @@ Se selezioni un filo, un arco, un cerchio, una linea e un bordo, il percorso del
 
 l\'ultimo pulsante di opzione utilizzato viene salvato nel parametro di FreeCAD
 
-### Sezione comandi {#sezione_comandi}
+### Sezione comandi 
 
 ![](images/FCCircularText_13.png ) 
 
@@ -370,9 +370,9 @@ l\'ultimo pulsante di opzione utilizzato viene salvato nel parametro di FreeCAD
 
 -    **Run**: Lancia la macro
 
-### Parametri disponibili {#parametri_disponibili}
+### Parametri disponibili 
 
-Alcuni parametri sono disponibili nei parametri di FreeCAD vedere:{{MenuCommand|Menu → Tools → Edit parameters...}}
+Alcuni parametri sono disponibili nei parametri di FreeCAD vedere:**Menu → Tools → Edit parameters...**
 
 -   User parameter: BaseApp/Preferences/Macros/FCMmacros/FCCircularText
 
@@ -488,7 +488,7 @@ Per maggiori informazioni vedere [Personalizzare la barra degli strumenti](Custo
 
 <div class="mw-translate-fuzzy">
 
-### Vedi il Codice {#vedi_il_codice}
+### Vedi il Codice 
 
 
 </div>
@@ -668,7 +668,7 @@ Image:FCCircularText 59.png\|Selezionare Ellisse estruso e il Cut (testo) e poi 
 </center>
 
 
-## Example section path {#example_section_path}
+## Example section path 
 
 
 <center>
@@ -712,7 +712,7 @@ In projetto :
 
 Scrivere un testo circolare posizionato su un oggetto selezionato
 
-## Registro delle modifiche: {#registro_delle_modifiche}
+## Registro delle modifiche: 
 
 -   ver 0.20 2021/04/05 : adding icone in macro, Tab for diminish the heigth of the macro, remove all dimensions of widgets now fully compatible with the stylesheet, revisite the search version for compatibility and other little change.
 

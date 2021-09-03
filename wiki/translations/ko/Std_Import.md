@@ -15,7 +15,7 @@
 ## 용법
 
 1.  이 명령을 수행하는 방법은 여러 가지입니다:
-    -   메뉴에서 {{MenuCommand|파일 → <img src="images/Std_Import.svg" width=16px> 가져오기...}} 옵션을 선택합니다.
+    -   메뉴에서 **파일 → <img src="images/Std_Import.svg" width=16px> 가져오기...** 옵션을 선택합니다.
     -   단축키를 사용합니다: **Ctrl**+**I**.
 
 2.  필요하다면 대화 상자에서 알맞는 파일 형식을 선택합니다.
@@ -25,7 +25,7 @@
 4.  
     **열기**버튼을 누릅니다.
 
-## 선택 사항 {#선택_사항}
+## 선택 사항 
 
 -   명령을 중지하려면 **Esc** 키나 **취소** 버튼을 누릅니다.
 
@@ -35,11 +35,11 @@
 -   새 문서로 가져오려면 [표준 열기](Std_Open/ko.md) 명령을 사용할 수 있습니다.
 -   일부 작업대에는 추가적인 가져오기 명령이 있습니다. 참조: [가져오기 내보내기](Import_Export/ko.md).
 
-## 환경 설정 {#환경_설정}
+## 환경 설정 
 
 -   참조: [가져오기 내보내기 환경 설정](Import_Export_Preferences/ko.md).
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: {{MenuCommand|도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   마지막으로 가져온 파일의 위치가 다음에 저장됩니다: {{MenuCommand|도구 → 파라미터 편집... → BaseApp → Preferences → General → FileImportFilter}}.
+-   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   마지막으로 가져온 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileImportFilter**.
 
 
 

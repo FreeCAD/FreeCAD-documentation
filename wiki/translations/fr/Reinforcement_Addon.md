@@ -30,7 +30,7 @@ New tools with graphical interface to enter values
 -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Arch Armature 2 cadres 6 barres](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md)
 -   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Arch Poutre](Arch_Rebar_BeamReinforcement/fr.md)
 
-## Ateliers externes {#ateliers_externes}
+## Ateliers externes 
 
 Les ateliers FreeCAD sont faciles à programmer en [ Python](Python/fr.md), de ce fait, beaucoup de personnes développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
 

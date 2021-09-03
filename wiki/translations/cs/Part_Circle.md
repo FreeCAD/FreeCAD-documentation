@@ -17,12 +17,12 @@ A Circle geometric primitive is available from the Create Primitives dialogue in
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md)
 2.  There are several ways to access the Create Primitives dialogue:
     -   Press the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Primitives](Part_Primitives.md) button located in the Part toolbar
-    -   Use the {{MenuCommand|Part → [Create primitives](Part_Primitives.md) → Circle}}
+    -   Use the **Part → [Create primitives](Part_Primitives.md) → Circle**
 
 
 <div class="mw-translate-fuzzy">
 
-### Základní geometrické tvary {#základní_geometrické_tvary}
+### Základní geometrické tvary 
 
 +------------------------------------------------------------------------------+-------------------------------+
 | ![](images/PartCirclePrimitivesOptions_it.png ) | Kružnice                      |

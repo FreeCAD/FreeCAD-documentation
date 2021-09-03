@@ -1,6 +1,6 @@
 
 
-## Raytracing Workbench {#raytracing_workbench}
+## Raytracing Workbench 
 
 
 {{VeryImportantMessage|The [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench, and because the new module should basically work in the same way}}
@@ -52,7 +52,7 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 
 <div class="mw-translate-fuzzy">
 
-#### Il modello {#il_modello}
+#### Il modello 
 
 In questo esempio viene utilizzato un cubo come oggetto di studio, ma al suo posto si possono usare i modelli creati con Parte o PartDesign.
 
@@ -68,7 +68,7 @@ Ora abbiamo un modello con il quale lavorare.
 
 <div class="mw-translate-fuzzy">
 
-#### Preparativi per il render {#preparativi_per_il_render}
+#### Preparativi per il render 
 
 1.  Passare all\'ambiente Raytracing
 2.  Cambiare la Vista in **Prospettiva**. Andare nel menu **Vista** e selezionare **Prospettiva**.
@@ -81,7 +81,7 @@ Ora abbiamo un modello con il quale lavorare.
 
 <div class="mw-translate-fuzzy">
 
-##### POV-Ray {#pov_ray}
+##### POV-Ray 
 
 1.  Selezionare <img alt="" src=images/Raytracing_New.png  style="width:32px;"> [Nuovo progetto PovRay](Raytracing_New.md). Nel menu a discesa impostare 
 **RadiosityNormal**
@@ -103,7 +103,7 @@ Ora abbiamo un modello con il quale lavorare.
 
 <div class="mw-translate-fuzzy">
 
-#### Impostare la posizione della camera {#impostare_la_posizione_della_camera}
+#### Impostare la posizione della camera 
 
 1.  Posizionare la **Vista 3D** nella posizione e alla distanza desiderata dal modello. In questo caso, useremo la **Vista assonometrica**.
 2.  Selezionare il **Project Folder** nella **Vista ad albero**
@@ -115,7 +115,7 @@ Ora abbiamo un modello con il quale lavorare.
 
 <div class="mw-translate-fuzzy">
 
-#### Importare il modello {#importare_il_modello}
+#### Importare il modello 
 
 1.  Selezionare il modello per il rendering.
 2.  Selezionare <img alt="" src=images/Raytracing_InsertPart.png  style="width:32px;"> [Inserisci parte](Raytracing_InsertPart/it.md)
@@ -126,7 +126,7 @@ Ora abbiamo un modello con il quale lavorare.
 
 <div class="mw-translate-fuzzy">
 
-#### Eseguire il renderer {#eseguire_il_renderer}
+#### Eseguire il renderer 
 
 1.  Selezionare <img alt="" src=images/Raytracing_Render.png  style="width:32px;"> [Render](Raytracing_Render/it.md).
 2.  Impostare il percorso in cui memorizzare l\'immagine.
@@ -138,7 +138,7 @@ Ora abbiamo un modello con il quale lavorare.
 
 <div class="mw-translate-fuzzy">
 
-#### Visualizzare i risultati {#visualizzare_i_risultati}
+#### Visualizzare i risultati 
 
 Appena il rendering è finito FreeCAD apre immediatamente l\'immagine.
 

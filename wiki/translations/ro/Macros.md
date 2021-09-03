@@ -24,14 +24,14 @@ See the [Power users hub](Power_users_hub.md) to learn more about the [Python](P
 
 <div class="mw-translate-fuzzy">
 
-### Cum funcționează {#cum_funcționează}
+### Cum funcționează 
 
 Dacă activați consola de ieșire (Meniu Editare -\> Preferences -\> General -\> Macros -\> Afișează comenzi script în consola python), veți vedea că în FreeCAD, fiecare acțiune pe care o faceți, de exemplu apăsând un buton generează o comandă python. Aceste comenzi sunt ceea ce poate fi înregistrat într-o macrocomandă. Instrumentul principal pentru realizarea macrocomenzilor este bara de scule a macroco-urilor: ![](images/_Macros_toolbar.jpg ). Pe bara aveți 4 butoane: Înregistrare, oprire înregistrarea, editare și rularea macro-ul curent.
 
 
 </div>
 
-Enable the console output in the menu {{MenuCommand|Edit → Preferences → General → Macro → Show scripts commands in python console}}. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +79,7 @@ Desigur, nu este practic să încărcați o macrocomandă în editor pentru a o 
 
 </div>
 
-Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the {{MenuCommand|Tools → Customize}} menu.
+Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the **Tools → Customize** menu.
 
 ![](images/Macros_config.jpg )
 
@@ -96,7 +96,7 @@ See [Customize Toolbars](Customize_Toolbars.md) for a more detailed description.
 
 <div class="mw-translate-fuzzy">
 
-### Crearea de macrocomenzi fără înregistrare {#crearea_de_macrocomenzi_fără_înregistrare}
+### Crearea de macrocomenzi fără înregistrare 
 
 [How to install macros](How_to_install_macros.md) De asemenea, puteți copia / lipi direct codul python într-o macrocomandă, fără a înregistra acțiunea GUI. Pur și simplu creați o macrocomandă nouă, editați-o și inserați-vă codul. Apoi puteți salva macro-ul dvs. în același mod în care salvați un document FreeCAD. Data viitoare când porniți FreeCAD, macroul va apărea sub elementul \"Macro instalat\" din meniul Macro.
 
@@ -110,7 +110,7 @@ See [How to install macros](How_to_install_macros.md) for a more detailed descri
 
 <div class="mw-translate-fuzzy">
 
-### Depozitul de Macrocomenzi {#depozitul_de_macrocomenzi}
+### Depozitul de Macrocomenzi 
 
 Vizitați pagina [Macros recipes](Macros_recipes.md) pentru a alege unele macrocomenzi utile pentru a adăuga instalarea FreeCAD.
 
@@ -122,7 +122,7 @@ There are two main places for macros. The first one is the official peer-reviewe
 
 <div class="mw-translate-fuzzy">
 
-### Link-uri {#link_uri}
+### Link-uri 
 
 [Installing more workbenches](Installing_more_workbenches.md)
 

@@ -8,7 +8,7 @@
 
 Ceci est un regroupement d\'anciennes méthodes de localisation utilisées par FreeCAD par le passé. Elles montrent une partie des processus internes, **mais les techniques de la page [Localisation](Localisation/fr.md) doivent être utilisées à partir de maintenant.**
 
-### Translation avec Qt-Linguist (ancienne voie) {#translation_avec_qt_linguist_ancienne_voie}
+### Translation avec Qt-Linguist (ancienne voie) 
 
 Les informations suivantes ne doivent plus être utilisées et deviendront probablement obsolètes. Ces informations sont conservées ici afin que les programmeurs puissent se familiariser avec leur fonctionnement. -
 
@@ -44,7 +44,7 @@ Les informations suivantes ne doivent plus être utilisées et deviendront proba
 -   [MeshPart Workbench](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/MeshPart/Gui/Resources/translations/)
 -   Voici un très bon article du Forum sur l'ancien mode de traduction, mais il est en allemand. Voir <http://forum.freecadweb.org/viewtopic.php?f=13&t=19496&start=60#p152655>
 
-## Préparer vos propres modules/applications pour la traduction {#préparer_vos_propres_modulesapplications_pour_la_traduction}
+## Préparer vos propres modules/applications pour la traduction 
 
 ### Prérequis
 
@@ -54,7 +54,7 @@ qmake: génère des fichiers de projet.
 lupdate: extrait ou met à jour les textes originaux de votre projet en scannant le code source.
 Qt-Linguist: Le *Qt-Linguist* est très facile à utiliser et vous aide à traduire avec de jolies fonctionnalités telles qu\'un livre de phrases pour les phrases courantes.
 
-### Projet Setup {#projet_setup}
+### Projet Setup 
 
 Pour démarrer la localisation de votre projet, allez à la partie graphique de votre module et tapez sur la ligne de commande:
 
@@ -107,7 +107,7 @@ new Gui::LanguageProducer("Deutsch", <Modul>_de_h_data, <Modul>_de_h_len);
 
 publier votre traduction dans l\'application.
 
-### Configuration des fichiers Python pour la traduction {#configuration_des_fichiers_python_pour_la_traduction}
+### Configuration des fichiers Python pour la traduction 
 
 Pour faciliter la localisation des fichiers py, vous pouvez utiliser l\'outil \"pylupdate4\" qui accepte un ou plusieurs fichiers py. Avec l\'option -ts, vous pouvez préparer/mettre à jour un ou plusieurs fichiers .ts. Par exemple, pour préparer un fichier .ts en français, entrez simplement dans la ligne de commande:
 

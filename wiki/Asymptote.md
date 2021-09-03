@@ -30,7 +30,7 @@ The compiler is a command line tool. To covert to PDF you can use this syntax:
 
 -   [Import Export](Import_Export.md)
 
-## Video tutorials {#video_tutorials}
+## Video tutorials 
 
 The following videos are in Spanish:
 

@@ -23,11 +23,11 @@
 
 Makro za popis svih objekata u projektu na jednom popisu bez hijerarhije, opcije sortiranja po imenu, oznaci, vidljivosti, grupi, po duljini opcije pretraživanja po nazivu, naljepnici \.... bez velikih i malih slova ili s osjetljivim i velikim slovima i odabir svih objekata prikazanih u makro prozor. {{Codeextralink|https://gist.githubusercontent.com/mario52a/67517ef758ff20005d0a6adcfd8c9190/raw/59bc2028978c82744c83c6b138ab3ef30e0bf6f3/Macro_FCTreeView.FCMacro}}
 
-## Kako koristiti {#kako_koristiti}
+## Kako koristiti 
 
 ![Macro FCTreeView](images/FCTreeView.gif ) *Macro FCTreeView window*
 
-### Odjeljak **Window** {#odjeljak_window}
+### Odjeljak **Window** 
 
 Naslov prikazuje opciju, broj i vrstu prikazanih objekata
 
@@ -54,7 +54,7 @@ Ako je odabran jedan objekt: prikazuje se baza položaja, rotacija i središte m
 
 ![Ikona korištena za prikaz pojedinačnog objekta (ne grupe)](images/Macro_FCTreeView_04.png ) Ikona korištena za prikaz pojedinačnog objekta (ne grupe)
 
-### Odjeljak **Sort by :** {#odjeljak_sort_by}
+### Odjeljak **Sort by :** 
 
 
 **<img src=images/Macro_FCTreeView_10.png style="width:18px"> Name**
@@ -140,7 +140,7 @@ vizualizirajte je li objekt skriven
 
 Izbrišite uređivanje retka pretraživanja
 
-#### Mogućnosti radio gumba **Search**: {#mogućnosti_radio_gumba_search}
+#### Mogućnosti radio gumba **Search**: 
 
 -   **(\"NLwc\")** : Pretraživanje po nazivu i oznaci **W**ithout respecting the sensitive **C**ase
 
@@ -169,7 +169,7 @@ flip/flop Unselected svi objekti
 
 pristup u opcijama proračunske tablice
 
-### Opcije raspoređivanja: {#opcije_raspoređivanja}
+### Opcije raspoređivanja: 
 
 ![Macro FCTreeView](images/TreeView_SpeadSheet.gif ) 
 
@@ -255,7 +255,7 @@ The icon ToolBar ![Macro FCTreeView](images/Macro_FCTreeView.png )
 
 {{CodeDownload|https://gist.github.com/mario52a/67517ef758ff20005d0a6adcfd8c9190|Macro_FCTreeView.FCMacro}}
 
-## Za napraviti {#za_napraviti}
+## Za napraviti 
 
 ~~Docked the macro~~
 

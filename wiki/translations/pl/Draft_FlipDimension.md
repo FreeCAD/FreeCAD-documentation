@@ -16,14 +16,14 @@ Narzędzie <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> 
 1.  Wybierz jeden lub więcej [wymiarów](Draft_Dimension/pl.md).
 2.  Istnieje kilka sposobów, aby wywołać to polecenie:
     -   Naciśnij przycisk **<img src="images/Draft_FlipDimension.svg" width=16px> [Odwróć wymiar](Draft_FlipDimension/pl.md)**.
-    -   Wybierz z menu opcję {{MenuCommand|Modyfikacja → <img src="images/Draft_FlipDimension.svg" width=16px> Odwróć wymiar}}.
-    -   Wybierz z menu opcję {{MenuCommand|Przybory → <img src="images/Draft_FlipDimension.svg" width=16px> Odwróć wymiar}}.
+    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_FlipDimension.svg" width=16px> Odwróć wymiar**.
+    -   Wybierz z menu opcję **Przybory → <img src="images/Draft_FlipDimension.svg" width=16px> Odwróć wymiar**.
 
 ## Uwagi
 
 [Tekst wymiarów](Draft_Dimension/pl.md) posiada również właściwość **Flip Text** która, gdy ma wartość `True`, obraca tekst o 180 stopni względem normalnego kierunku. Można to połączyć z działaniem tej komendy.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 

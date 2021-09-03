@@ -20,7 +20,7 @@ Crea un array e ridimensiona gli elementi all\'interno di una o più curve limit
 2.  Step 2: Invoke the command several way:
     -   Using the <img alt="" src=images/WorkbenchName_Command.svg  style="width:24px;"> [ WorkbenchName Command](WorkbenchName_Command.md) button
     -   Using the {{KEY}} {{KEY}} keyboard shortcut
-    -   Using the {{MenuCommand|Menu → Command}} in the Menu dropdown
+    -   Using the **Menu → Command** in the Menu dropdown
 3.  Step 3
 
 ## Notes

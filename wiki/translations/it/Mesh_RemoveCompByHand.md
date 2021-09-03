@@ -17,12 +17,12 @@ Il comando **Rimuovi componenti a mano** rimuove i componenti dagli oggetti mesh
 2.  Il comando utilizza il colore rosso per contrassegnare le facce selezionate. Per vederle correttamente:
     -   La **Modalità di visualizzazione** degli oggetti mesh idealmente dovrebbe essere {{Value|Flat lines}}, ma dovrebbe almeno mostrare le facce. Se necessario, utilizzare il comando [Stile di disegno](Std_DrawStyle/it.md) per sovrascrivere questa proprietà.
     -   Il **Shape Color** degli oggetti mesh non dovrebbe essere rosso.
-3.  Selezionare l\'opzione {{MenuCommand|Mesh → <img src="images/Mesh_RemoveCompByHand.svg" width=16px> Rimuovi componenti a mano...}} dal menu.
+3.  Selezionare l\'opzione **Mesh → <img src="images/Mesh_RemoveCompByHand.svg" width=16px> Rimuovi componenti a mano...** dal menu.
 4.  Il cursore si trasforma in un\'icona mano.
 5.  Selezionare i componenti che si desidera eliminare nella [vista 3D](3D_view/it.md).
-6.  Se necessario selezionare {{MenuCommand|Cancella facce selezionate}} dal menu contestuale della vista 3D per deselezionare tutti i componenti.
-7.  Selezionare {{MenuCommand|Elimina le facce selezionate}} dal menu contestuale della vista 3D per eliminare i componenti selezionati.
-8.  Selezionare {{MenuCommand|Esci dalla modalità di rimozione}} dal menu contestuale della vista 3D per terminare il comando.
+6.  Se necessario selezionare **Cancella facce selezionate** dal menu contestuale della vista 3D per deselezionare tutti i componenti.
+7.  Selezionare **Elimina le facce selezionate** dal menu contestuale della vista 3D per eliminare i componenti selezionati.
+8.  Selezionare **Esci dalla modalità di rimozione** dal menu contestuale della vista 3D per terminare il comando.
 
 
 <div class="mw-translate-fuzzy">

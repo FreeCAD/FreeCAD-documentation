@@ -27,7 +27,7 @@ Il comando **Esporta PDF** ha principalmente lo scopo di creare dei file [PDF](P
 <div class="mw-translate-fuzzy">
 
 1.  Se necessario, attivare la pagina TechDraw corretta o modificare la vista 3D.
-2.  Selezionare l\'opzione {{MenuCommand|File → Esporta PDF...}} dal menu.
+2.  Selezionare l\'opzione **File → Esporta PDF...** dal menu.
 3.  Immettere un nome file nella finestra di dialogo.
 4.  Premere il pulsante **Salva**.
 
@@ -40,12 +40,12 @@ Il comando **Esporta PDF** ha principalmente lo scopo di creare dei file [PDF](P
 
 ## Note
 
--   Per creare un PDF da una pagina TechDraw è anche possibile utilizzare l\'opzione {{MenuCommand|File → Esporta → Technical Drawing (*.svg *.dxf *.pdf)}} dal menu. Oppure fare clic con il pulsante destro del mouse sulla pagina TechDraw nella [vista principale](Main_view_area/it.md) e selezionare {{MenuCommand|Esporta PDF}} dal menu contestuale.
+-   Per creare un PDF da una pagina TechDraw è anche possibile utilizzare l\'opzione **File → Esporta → Technical Drawing (*.svg *.dxf *.pdf)** dal menu. Oppure fare clic con il pulsante destro del mouse sulla pagina TechDraw nella [vista principale](Main_view_area/it.md) e selezionare **Esporta PDF** dal menu contestuale.
 -   Un file PDF creato da na [vista 3D](3D_view/it.md) contiene un\'immagine bitmap, uno screenshot.
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: {{MenuCommand|Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 <div class="mw-translate-fuzzy">

@@ -27,7 +27,7 @@ However, in the field of engineering meshes present a big limitation: they canno
 
 <div class="mw-translate-fuzzy">
 
-## A háló modul használata {#a_háló_modul_használata}
+## A háló modul használata 
 
 
 </div>

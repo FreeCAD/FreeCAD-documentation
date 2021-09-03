@@ -29,7 +29,7 @@ Known field of application of crown gears:
 1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
 2.  Invoke the command several way:
     -   Press the <img alt="" src=images/FCGear_CrownGear.svg  style="width:22px;"> [Create a Crown gear](FCGear_CrownGear.md) button in the tool bar.
-    -   Using the {{MenuCommand|Menu → Crown gear}}.
+    -   Using the **Menu → Crown gear**.
 3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
 
 ## Properties
@@ -90,7 +90,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 No limitations are known.
 
-## Crown and spur gear set overview {#crown_and_spur_gear_set_overview}
+## Crown and spur gear set overview 
 
 :   ![](images/Crown-spur-gear-set_example.png )
 
@@ -100,7 +100,7 @@ No limitations are known.
 -   \(4\) Inner diameter
 -   \(5\) Outer diameter
 
-## Useful formulas {#useful_formulas}
+## Useful formulas 
 
 -   **Inner diameter (4)**
     -   

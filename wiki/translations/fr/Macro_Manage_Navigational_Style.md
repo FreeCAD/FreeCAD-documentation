@@ -24,7 +24,7 @@ Il existe deux extraits de code, chaque code est une macro distincte. L\'install
 
 Cliquez sur le bouton de la barre d\'outils associée ou appelez-le dans le menu Macro. Il n\'y a aucune confirmation visible de leur exécution, à part que le style de navigation va changer.
 
-## Interface utilisateur {#interface_utilisateur}
+## Interface utilisateur 
 
 Il n\'y a vraiment aucune interface utilisateur, même pas la confirmation que le style de navigation a été modifié. La confirmation sera visible lors de la prochaine manipulation de la vue, les mouvements de votre souris seront interprétés dans le style de navigation que vous aurez sélectionné.
 

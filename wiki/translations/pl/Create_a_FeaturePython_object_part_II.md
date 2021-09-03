@@ -10,7 +10,7 @@
 
 On the [Create a FeaturePython object part I](Create_a_FeaturePython_object_part_I.md) page we\'ve focused on the internal aspects of a Python class built around a FeaturePython object, specifically an `App::FeaturePython` object. We\'ve created the object, defined some properties, and added a document-level event callback that allows our object to respond to a document recompute with the `execute()` method. But our object still lacks a presence in the [3D view](3D_view.md). Let\'s remedy that by adding a box.
 
-## Adding a box {#adding_a_box}
+## Adding a box 
 
 First at the top of the {{FileName|box.py}} file, below the existing import, add:
 
@@ -39,7 +39,7 @@ At first glance the result may look fine but there are some problems. The most o
 
 [top](#top.md)
 
-## Fixing the code {#fixing_the_code}
+## Fixing the code 
 
 To solve these problems we have to make a number of changes. Until now we\'ve been using a `App::FeaturePython` object which is actually not intended to have a visual representation in the 3D view. We have to use a `Part::FeaturePython` object instead. In `create()` change the following line:
 
@@ -75,7 +75,7 @@ Save your changes, switch back to FreeCAD, delete any existing objects, reload t
 
 [top](#top.md)
 
-## Writing a ViewProvider {#writing_a_viewprovider}
+## Writing a ViewProvider 
 
 A View Provider is the component of an object which allows it to have a visual representation in the 3D view. FreeCAD uses an application structure which is designed to separate the data (the \"model\") from it\'s visual representation (the \"view\"). If you\'ve spent any time working with FreeCAD in Python, you are likely already aware of this through the use of the two core Python modules: `FreeCAD` and `FreeCADGui` (often aliased as `App` and `Gui` repectively).
 
@@ -201,7 +201,7 @@ Now, save the changes and return to FreeCAD. Import or reload the box module and
 
 [top](#top.md)
 
-## Trapping events {#trapping_events}
+## Trapping events 
 
 We have already discussed event trapping. Nearly every method of a FeaturePython class serves as a callback accessible to the FeaturePython object (which gets access to our class instance through the `Proxy` attribute).
 
@@ -251,7 +251,7 @@ It is not uncommon to encounter a situation where the Python callbacks are not b
 
 [top](#top.md)
 
-## Complete code {#complete_code}
+## Complete code 
 
 
 ```python

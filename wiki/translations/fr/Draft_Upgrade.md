@@ -20,7 +20,7 @@ La commande <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Dra
 1.  En option, sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Upgrade.svg" width=16px> [Met à niveau les objets sélectionnés...](Draft_Upgrade/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → <img src="images/Draft_Upgrade.svg" width=16px> Mettre à niveau}} dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Upgrade.svg" width=16px> Mettre à niveau** dans le menu.
     -   Utilisez le raccourci clavier : **U** puis **P**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 

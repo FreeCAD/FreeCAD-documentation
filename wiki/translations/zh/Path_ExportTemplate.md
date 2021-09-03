@@ -38,7 +38,7 @@
 
 ## 可选项
 
-## Post Processing {#post_processing}
+## Post Processing 
 
 
 <div class="mw-translate-fuzzy">
@@ -65,7 +65,7 @@
 
 </div>
 
-## Setup Sheet {#setup_sheet}
+## Setup Sheet 
 
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +79,7 @@
 
 </div>
 
-## Tool controllers {#tool_controllers}
+## Tool controllers 
 
 
 <div class="mw-translate-fuzzy">

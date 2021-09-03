@@ -21,13 +21,13 @@
         
         버튼을 누릅니다.
 
-    -   메뉴에서 {{MenuCommand|파일 → <img src="images/Std_New.svg" width=16px> 새 파일}} 옵션을 선택합니다.
+    -   메뉴에서 **파일 → <img src="images/Std_New.svg" width=16px> 새 파일** 옵션을 선택합니다.
 
     -   단축키를 사용합니다: **Ctrl**+**N**.
 
-## 환경 설정 {#환경_설정}
+## 환경 설정 
 
--    {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Document → CreateNewDoc}}를 `True`로 설정한 경우 FreeCAD를 시작할 때 새 문서가 생성됩니다. 이 설정은 [환경설정 편집기에서도](Preferences_Editor/ko#문서.md) 변경할 수 있습니다.
+-    **Tools → Edit parameters... → BaseApp → Preferences → Document → CreateNewDoc**를 `True`로 설정한 경우 FreeCAD를 시작할 때 새 문서가 생성됩니다. 이 설정은 [환경설정 편집기에서도](Preferences_Editor/ko#문서.md) 변경할 수 있습니다.
 
 -   작성자 이름, 회사 이름, 라이센스 정보와 같은 일부 문서 속성은 [환경설정 편집기에서](Preferences_Editor/ko#문서.md) 미리 설정할 수 있습니다.
 

@@ -15,7 +15,7 @@ Creați un obiect parametric Pană/Wedge. Valoarea implicită pentru această re
 
 ## Usage
 
-### Dimensiuni și Plasamente implicite {#dimensiuni_și_plasamente_implicite}
+### Dimensiuni și Plasamente implicite 
 
 **Plasament:** Orientarea implicită plasează baza în planul XZ, iar partea superioară în direcția axei Y. Colțul de bază implicit este originea 0,0,0.
 
@@ -35,7 +35,7 @@ Creați un obiect parametric Pană/Wedge. Valoarea implicită pentru această re
 
 ![](images/PartWedgeProperty.png ) 
 
-### Intrări Parametrice {#intrări_parametrice}
+### Intrări Parametrice 
 
 +------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
 | ![](images/PartWedgeProperty_Inputs.png ) | Utilizând destinația de plasare prestabilită, intrările de mai jos sunt:                                                        |
@@ -145,7 +145,7 @@ Creați un obiect parametric Pană/Wedge. Valoarea implicită pentru această re
 |                                                          |     : coordonată (valoarea predefinită e 0 mm).                                            |
 +----------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
-### Mai multe exemple de pene {#mai_multe_exemple_de_pene}
+### Mai multe exemple de pene 
 
 ![](images/Wedge_examples.png )
 

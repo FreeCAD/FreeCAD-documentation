@@ -15,7 +15,7 @@ Lo strumento **Rivoluzione** crea un solido ruotando uno schizzo selezionato o u
 3.  Impostare i parametri Rivoluzione (vedere la sezione successiva).
 4.  Premere **OK**.
 
-## Opzioni in Parametri rivoluzione {#opzioni_in_parametri_rivoluzione}
+## Opzioni in Parametri rivoluzione 
 
 Durante la creazione di una rivoluzione, il dialogo **Parametri rivoluzione** permette di specificare diversi parametri per stabilire come deve essere ruotato il disegno.
 
@@ -35,7 +35,7 @@ Durante la creazione di una rivoluzione, il dialogo **Parametri rivoluzione** pe
 |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                               |
 |                                                                                        | Questa opzione specifica l\'angolo di rivoluzione dello schizzo. Per ottenere una rivoluzione completa occorre impostare un angolo di 360°. Le immagini della sezione [esempi](#Examples/it.md) documentano alcune delle possibilità utilizzando diversi angoli di rotazione. Non è possibile specificare angoli negativi (se è necessario usare l\'opzione **Invertita**) o angoli maggiori di 360°. |
 |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                               |
-|                                                                                        | ### Simmetrica al piano {#simmetrica_al_piano}                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                        | ### Simmetrica al piano                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                               |
 |                                                                                        | Se selezionato, la rivoluzione si estende per metà dell\'angolo specificato in entrambe le direzioni rispetto al piano di schizzo.                                                                                                                                                                                                                                                                            |
 |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -65,7 +65,7 @@ Sotto sono riportate le proprietà che possono essere definite dopo la creazione
 
 ![Esempio di Rivoluzione creata utilizzando una linea di costruzione come asse di rivoluzione: In questa immagine l\'angolo è di 75° e la rivoluzione è attorno alla linea di costruzione (Sketch axis 0)](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg ) 
 
-## Link utili {#link_utili}
+## Link utili 
 
 Un [esempio](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) dettagliato di utlizzo disponibile nel forum.
 

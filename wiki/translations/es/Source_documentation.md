@@ -12,7 +12,7 @@
 
 {{TOCright}}
 
-## Vista general {#vista_general}
+## Vista general 
 
 El código fuente de FreeCAD se comenta para permitir la generación automática de documentación de programación usando [Doxygen](Doxygen/es.md), un popular sistema de documentación de código fuente. Doxygen puede documentar tanto la parte C++ como la parte Python de FreeCAD, dando como resultado páginas HTML con hipervínculos a cada función y clase documentada.
 
@@ -31,9 +31,9 @@ La compilación de la documentación de la API sigue los mismos pasos generales 
 
 *Flujo de trabajo general para compilar la documentación de programación de FreeCAD. Los paquetes Doxygen y Graphviz deben estar en el sistema, así como el propio código fuente de FreeCAD. CMake configura el sistema de manera que con una sola instrucción de fabricación la documentación de todo el proyecto se compila en muchos archivos HTML con diagramas.*
 
-## Construcción de la documentación del código fuente {#construcción_de_la_documentación_del_código_fuente}
+## Construcción de la documentación del código fuente 
 
-### Complete documentation {#complete_documentation}
+### Complete documentation 
 
 Si tienes Doxygen instalado, es muy fácil construir la documentación. También instala [Graphviz](https://www.graphviz.org/) para poder producir diagramas que muestren las relaciones entre las diferentes clases y bibliotecas en el código de FreeCAD. Graphviz también es utilizado por [Gráfico de dependencia](Std_DependencyGraph/es.md) de FreeCAD para mostrar las relaciones entre diferentes objetos. 
 ```python
@@ -70,7 +70,7 @@ xdg-open freecad-build/doc/SourceDocu/html/index.html
 
 El objetivo `DevDoc` generará una cantidad significativa de datos, alrededor de 5 GB de nuevos archivos, particularmente debido a los diagramas creados por Graphviz.
 
-### Reduced documentation {#reduced_documentation}
+### Reduced documentation 
 
 
 <div class="mw-translate-fuzzy">
@@ -112,14 +112,14 @@ git push
 
 <div class="mw-translate-fuzzy">
 
-## Otras versiones {#otras_versiones}
+## Otras versiones 
 
 [FreeCAD 0.12](http://free-cad.sf.net/SrcDocu/index.html) documentación alojada en Sourceforge.
 
 
 </div>
 
-## Integrar la documentación de Coin3D {#integrar_la_documentación_de_coin3d}
+## Integrar la documentación de Coin3D 
 
 En los sistemas Unix es posible vincular la documentación de origen de Coin3D con la de FreeCAD. Esto permite una navegación más fácil y diagramas de herencia completos para las clases derivadas de Coin.
 
@@ -129,7 +129,7 @@ En los sistemas Unix es posible vincular la documentación de origen de Coin3D c
 
 Si no instalas el paquete de documentación de Coin, se generarán los enlaces para acceder a la documentación en línea en [BitBucket](https://coin3d.bitbucket.io/Coin/). Esto sucederá si un archivo de etiquetas de Doxygen puede ser descargado en tiempo de configuración con `wget`.
 
-## Usando Doxygen {#usando_doxygen}
+## Usando Doxygen 
 
 Vea la página [Doxygen](Doxygen/es.md) para una extensa explicación sobre cómo comentar el código fuente de C++ y Python para que pueda ser procesado por Doxygen para crear automáticamente la documentación.
 

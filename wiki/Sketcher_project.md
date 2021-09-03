@@ -11,7 +11,7 @@ If you are not involved with the development discussed here:<br>
 
 This is the FreeCAD Sketcher development project. It follows the rules of the \[<http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology>\| Getting things done\] process. The projects are collected in the [Development roadmap](Development_roadmap.md).
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 This is a software development project aimed to implement a Constraint Sketcher capabilities. Its about implementing some Gui elements and the binding to the constraint solver.
 
@@ -31,7 +31,7 @@ Going one step further, rigid sub-parts of a sketch could be detected and reduce
 
 ## Organizing
 
-## Next actions {#next_actions}
+## Next actions 
 
 For 0.14:
 

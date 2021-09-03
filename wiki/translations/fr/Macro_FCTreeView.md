@@ -13,11 +13,11 @@
 
 Cette macro affiche tous les objets du projet dans une liste avec des options de tri avancées, rcherche par nom, label, type, majuscule \... une option permet de sauver dans un tableur les valeurs ou données au choix relatives à l\'objet avec l\'unité de grandeur sélectionnée, ou sous forme d\'une liste des objets avec différenciation du volume (pour les objets ayants le même label et volumes différents) {{Codeextralink|https://gist.githubusercontent.com/mario52a/67517ef758ff20005d0a6adcfd8c9190/raw/59bc2028978c82744c83c6b138ab3ef30e0bf6f3/Macro_FCTreeView.FCMacro}}
 
-## Comment l\'utiliser {#comment_lutiliser}
+## Comment l\'utiliser 
 
 ![Macro FCTreeView](images/FCTreeView.gif ) 
 
-### Section **Window** {#section_window}
+### Section **Window** 
 
 Le titre affiche les options, nombre et type d\'objet(s) affiché
 
@@ -45,7 +45,7 @@ Si un objet est sélectionné: le placement de base, la rotation et le centre ma
 
 ![Icon used for displayed the single object (not group)](images/Macro_FCTreeView_04.png ) Icône utilisé pour un simple objet (pas un groupe)
 
-### Section **Sort by :** {#section_sort_by}
+### Section **Sort by :** 
 
 
 **<img src=images/Macro_FCTreeView_10.png style="width:18px"> Name**
@@ -72,7 +72,7 @@ Icône utilisé pour lister les objets par Groupe/Simple objet (flip/flop normal
 
 Si cette case à cocher est activée le tri se fera sur la longueur du nom affiché de la fonction active (Name, Label \...)
 
-### Section **Global** {#section_global}
+### Section **Global** 
 
 
 **<img src=images/Macro_FCTreeView_21.png style="width:18px"> Split**
@@ -124,14 +124,14 @@ visualise si l\'objet est de status Visible
 
 visualise si l\'objet est de statut Hidden
 
-### Section **Search** {#section_search}
+### Section **Search** 
 
 
 **<img src=images/Macro_FCTreeView_20.png style="width:18px"> Clear**
 
 Efface la ligne de recherche
 
-#### Les radioButton de recherche **Search**: {#les_radiobutton_de_recherche_search}
+#### Les radioButton de recherche **Search**: 
 
 -   **(\"NLwc\")** : Recherche par Name et Label **W**ithout sans respecter la **C**ase sensitive
 
@@ -160,7 +160,7 @@ flip/flop désélectionner tous les objets
 
 accès aux options du tableur (Spreadsheet)
 
-### The SpreadSheet options: {#the_spreadsheet_options}
+### The SpreadSheet options: 
 
 ![Macro FCTreeView](images/TreeView_SpeadSheet.gif ) 
 
@@ -246,7 +246,7 @@ The icon ToolBar ![Macro FCTreeView](images/Macro_FCTreeView.png )
 
 {{CodeDownload|https://gist.github.com/mario52a/67517ef758ff20005d0a6adcfd8c9190|Macro_FCTreeView.FCMacro}}
 
-## A faire {#a_faire}
+## A faire 
 
 ~~Docked the macro~~
 

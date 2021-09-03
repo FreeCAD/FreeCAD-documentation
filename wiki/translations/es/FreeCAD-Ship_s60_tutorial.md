@@ -16,7 +16,7 @@ En este tutorial trabajaremos con un nave de la Serie 60, de la Universidad de I
 
 Más información sobre <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ambiente de trabajo de naves](Ship_Workbench/es.md).
 
-## Cargando geometría {#cargando_geometría}
+## Cargando geometría 
 
 ### Fondo
 
@@ -36,7 +36,7 @@ Criterio de signos de FreeCAD-Ship.
 
 </center>
 
-### Cargando la geometría del Serie 60 {#cargando_la_geometría_del_serie_60}
+### Cargando la geometría del Serie 60 
 
 Para ayudar a los nuevos usuarios, el banco de trabajo Ship incluye un cargador de ejemplos de geometrías, con los siguientes para elegir:
 
@@ -64,7 +64,7 @@ Para preservar el ejemplo original sin editar, '''debes guardarlo primero como u
 
 .
 
-## Crear instancia del barco {#crear_instancia_del_barco}
+## Crear instancia del barco 
 
 Para crear una **Instancia de barco** selecciona la geometría s60 y ejecuta la **herramienta de creación de barco** (Diseño de buques/Crear un nuevo barco).
 
@@ -82,7 +82,7 @@ Se mostrará el diálogo de la tarea de creación de una nave y algunas anotacio
 
 Se deben introducir los datos más relevantes del barco (el <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> El ambiente de trabajo de barcos utiliza un sistema de introducción de datos progresivo, por lo que las operaciones básicas pueden realizarse conociendo sólo los datos básicos del barco, siendo necesaria más información a medida que las operaciones se hacen más complejas).
 
-### Datos del barco {#datos_del_barco}
+### Datos del barco 
 
 Las principales dimensiones deben ser introducidas aquí:
 
@@ -128,7 +128,7 @@ Icono de las instancias Buque.
 
 A partir de aquí, debes tener seleccionada la opción **Nave** antes de ejecutar cualquiera de las herramientas del ambiente de trabajo nave.
 
-## Dibujo de líneas {#dibujo_de_líneas}
+## Dibujo de líneas 
 
 El ambiente de trabajo del nave ofrece una herramienta que facilita la obtención de un plano de líneas a partir del dibujo de líneas del nave
 
@@ -148,7 +148,7 @@ El dibujo de líneas es un conjunto de líneas de cortes de sección en los 3 ej
 -   Plano de la carena (usando los cortes longitudinales)
 -   Plano de media manga (usando los cortes de líneas de agua)
 
-### Cortes transversales {#cortes_transversales}
+### Cortes transversales 
 
 Normalmente se deben realizar 21 secciones transversales equidistantes entre perpendiculares. para ello FreeCAD proporciona una herramienta automática para poder hacerlo, simplemente selecciona el tipo de secciones **Transversales**, ve a la casilla **Auto crear** y pon **21** secciones, luego pulsa {{Bitton|Crear secciones}}
 
@@ -175,11 +175,11 @@ Se rellena la tabla de secciones y se muestra la vista previa de secciones llama
 
 Dependiendo de la complejidad de la geometría, la previsualización puede llevar algún tiempo.
 
-### Cortes longitudinales {#cortes_longitudinales}
+### Cortes longitudinales 
 
 Hay que añadir dos cortes longitudinales, por lo que hay que seleccionar el tipo de secciones **Longitudinales**, ir a la casilla **Creación automática**\' y poner **2** secciones, luego pulsar **Crear secciones**. Tabla de secciones se llena, y la vista previa de las secciones actualizadas.
 
-### Líneas de agua {#líneas_de_agua}
+### Líneas de agua 
 
 6 Líneas de agua entre la línea de base y el proyecto de diseño debe ser añadido, así que seleccione **Líneas de agua** tipo de secciones, vaya a **Auto crear**\' caja y establecer **5**\' (Z = 0 m no se considerará, añadir manualmente si lo necesita) secciones, a continuación, pulse **Crear secciones**. La tabla de secciones se llena, y la vista previa de las secciones se actualiza.
 
@@ -191,7 +191,7 @@ Hay que añadir varias líneas de agua adicionales:
 -   Z~9~ = 1.8 m
 -   Z~10~ = 2.0 m
 
-### Perform plot {#perform_plot}
+### Perform plot 
 
 Select **1:100** scale and press **Accept** to let the tool to generate the 3D sections in a new object.
 
@@ -217,7 +217,7 @@ Seccioens resultantes.
 
 </center>
 
-## Curva de áreas transversales {#curva_de_áreas_transversales}
+## Curva de áreas transversales 
 
 Uno de los parámetros hidrodinámicos típicos en el diseño de buques es la curva de áreas transversales, que permite obtener algunos indicadores sobre el comportamiento del casco (resistencia al remolque, comportamiento en el mar, \...). El ambiente de trabajo nave proporciona una herramienta sencilla para realizar la curva de áreas transversales.
 
@@ -233,7 +233,7 @@ Icono de la herramienta de trazado de curvas de áreas.
 
 Cuando se ejecuta la herramienta se muestra un diálogo de tarea, y se crea una vista previa de la superficie libre en la [vista 3D](3D_view/es.md) (La vista previa de la superficie libre se eliminará cuando la herramienta termine, así que no se preocupe por esto). En el diálogo de la tarea están presentes los datos de entrada y salida.
 
-### Datos de entrada {#datos_de_entrada}
+### Datos de entrada 
 
 El calado y el trimado (ángulo de rotación del *borde y* del casco, positivo si el calado de popa puede aumentar) deben ser proporcionados. Se pueden realizar varias curvas de áreas, dependiendo de las situaciones de carga del buque, pero se deben realizar dos trazados típicos:
 
@@ -243,7 +243,7 @@ El calado y el trimado (ángulo de rotación del *borde y* del casco, positivo s
 
 <div class="mw-translate-fuzzy">
 
-### Datos de salida {#datos_de_salida}
+### Datos de salida 
 
 FreeCAD-Ship muestra un informe de salida que se actualiza en tiempo real, que incluye los siguientes datos:
 
@@ -308,7 +308,7 @@ Curvas hidrostáticas.
 
 </center>
 
-## Seguir aprendiendo {#seguir_aprendiendo}
+## Seguir aprendiendo 
 
 El [Tutorial de FreeCAD-Nave s60 (II)](FreeCAD-Ship_s60_tutorial_(II)/es.md) es el segundo capítulo de la serie 60 de la nave universitaria de Iowa.
 

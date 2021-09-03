@@ -23,7 +23,7 @@ Această pagină afișează câteva module suplimentare de tip python sau alte p
 
 </div>
 
-## PySide (previously PyQt4) {#pyside_previously_pyqt4}
+## PySide (previously PyQt4) 
 
 -   homepage (PySide): [<http://qt-project.org/wiki/PySide>](http://qt-project.org/wiki/PySide)
 -   license: LGPL
@@ -96,7 +96,7 @@ path = FreeCAD.ConfigGet("AppHomePath")
 SaveName, Filter = PySide.QtGui.QFileDialog.getSaveFileName(None, "Save a file txt", path, "*.txt")
 ```
 
-### Example of transition from PyQt4 and PySide {#example_of_transition_from_pyqt4_and_pyside}
+### Example of transition from PyQt4 and PySide 
 
 PS: Aceste exemple de erori au fost găsite în tranziția de la PyQt4 la PySide și aceste corecții au fost făcute, alte soluții sunt cu siguranță disponibile cu exemplele de mai sus
 
@@ -217,7 +217,7 @@ ori :
 self.doubleSpinBox.setToolTip(u"Coordinate placement Axis Y.")# PySide
 ```
 
-### Documentație Suplimentară {#documentație_suplimentară}
+### Documentație Suplimentară 
 
 Some pyQt4 tutorials (including how to build interfaces with Qt Designer to use with python):
 
@@ -235,7 +235,7 @@ Pivy is a needed by several modules to access the 3D view of FreeCAD. On windows
 
 ### Instalare
 
-#### Cerințe preliminare {#cerințe_preliminare}
+#### Cerințe preliminare 
 
 Cred că înainte de a compila Pivy, veți dori să instalați Coin și SoQt.
 
@@ -245,7 +245,7 @@ For Fedora I found an RPM with Coin3.
 
 SoQt compiled from [source](http://www.coin3d.org/lib/soqt/releases/1.5.0) fine on Mac and Linux.
 
-#### Debian & Ubuntu {#debian_ubuntu}
+#### Debian & Ubuntu 
 
 Începând cu Debian Squeeze și Ubuntu Lucid, pivy va fi disponibil direct din depozitele oficiale, economisind astfel o mulțime de bătăi de cap. Între timp, puteți să descărcați unul dintre pachetele pe care le-am făcut (pentru debian și karmic ubuntu) disponibile în paginile [Download](Download.md) sau să le compilați singur.
 
@@ -265,7 +265,7 @@ debuild
 
 to have pivy properly built into an official installable package. Then, just install the package with gdebi.
 
-#### Alte distribuții linux {#alte_distribuții_linux}
+#### Alte distribuții linux 
 
 First get the latest sources from the [project\'s repository](http://pivy.coin3d.org/mercurial/):
 
@@ -309,7 +309,7 @@ python setup.py install (or checkinstall python setup.py install)
 
 Et voila, pivy este instalat.
 
-#### Mac OS {#mac_os}
+#### Mac OS 
 
 Este posibil ca aceste instrucțiuni să nu fie complete. Ceva aproape de acest lucru a funcționat pentru OS 10.7 în martie 2012. Eu folosesc MacPorts pentru depozite, dar ar trebui să funcționeze și alte opțiuni.
 
@@ -351,7 +351,7 @@ python setup.py build
 sudo python setup.py install
 ```
 
-#### Windows {#windows_1}
+#### Windows 
 
 Presupunând că utilizați Visual Studio 2005 sau o versiune ulterioară, ar trebui să deschideți un prompt de comandă cu \"Visual Studio 2005 Command prompt\" din meniul Instrumente. Dacă interpretul Python nu este încă în calea sistemului, faceți acest lucru
 
@@ -473,7 +473,7 @@ set MSSDK=1
 
 Acum, puteți întâlni o eroare de compilator în care un \'const char \*\' nu poate fi convertit într-un \'char \*\'. Pentru a repara că trebuie doar să scrieți un \"const\" înainte în liniile corespunzătoare. Există șase linii de rezolvat. Dupa ce copiați directorul generat pivy într-un loc in care interpretul python din FreeCAD îl poate gasi.
 
-### Utilizare {#utilizare_1}
+### Utilizare 
 
 Pentru a verifica dacă Pivy este instalat corect:
 
@@ -495,7 +495,7 @@ FCSceneGraph.addChild(coin.SoCube()) # add a box to scene
 
 You can now explore the FCSceneGraph with the dir() command.
 
-### Documentație suplimentară {#documentație_suplimentară_1}
+### Documentație suplimentară 
 
 Din păcate, documentația despre pivu este încă aproape inexistentă pe net. Dar s-ar putea să găsiți documentația Coin utilă, deoarece pivy pur și simplu traduce funcții de coin, noduri și metode în Python, totul păstrează același nume și proprietăți, ținând cont de diferența de sintaxă dintre C și python:
 
@@ -512,11 +512,11 @@ You can also look at the Draft.py file in the FreeCAD Mod/Draft folder, since it
 
 pyCollada is a python library that allow programs to read and write [Collada (\*.DAE)](http://en.wikipedia.org/wiki/COLLADA) files. When pyCollada is installed on your system, FreeCAD will be able to handle importing and exporting in the Collada file format.
 
-### Instalare {#instalare_1}
+### Instalare 
 
 Pycollada, de obicei, nu este încă disponibilă în arhivele distribuțiilor linux, dar deoarece este făcută numai din fișiere Python, nu necesită compilare și este ușor de instalat. Aveți 2 moduri sau direct de la depozitul oficial pycollada git sau cu instrumentul easy\_install.
 
-#### Linux {#linux_1}
+#### Linux 
 
 În ambele cazuri, veți avea nevoie de următoarele pachete deja instalate în sistemul dvs.:
 
@@ -527,7 +527,7 @@ python-numpy
 python-dateutil
 ```
 
-##### From the git repository {#from_the_git_repository}
+##### From the git repository 
 
 
 ```python
@@ -536,7 +536,7 @@ cd pycollada
 sudo python setup.py install
 ```
 
-##### With easy\_install {#with_easy_install}
+##### With easy\_install 
 
 Presupunând că aveți deja o instalare python completă, utilitarul easy\_install ar trebui să fie deja prezent:
 
@@ -554,11 +554,11 @@ import collada
 
 If it returns nothing (no error message), then all is OK
 
-#### Windows {#windows_2}
+#### Windows 
 
 Pe Windows, de la 0.15 pycollada este inclus atât în versiunea FreeCAD, cât și în versiunea dezvoltatorului, deci nu sunt necesare pași suplimentari.
 
-#### Mac OS {#mac_os_1}
+#### Mac OS 
 
 Dacă utilizați buildul Homebrew al FreeCAD, puteți instala pycollada în sistemul dvs. Python folosind pip.
 
@@ -605,11 +605,11 @@ IFCOpenShell este o bibliotecă în curs de dezvoltare, care permite importul fi
 
 </div>
 
-### Instalare {#instalare_2}
+### Instalare 
 
 Din moment ce ifcopenshell este destul de nou, probabil că va trebui să-l compilați singur.
 
-#### Linux {#linux_2}
+#### Linux 
 
 Veți avea nevoie de câteva pachete de dezvoltare instalate pe sistemul dvs. pentru a compila ifcopenshell:
 
@@ -669,7 +669,7 @@ import ifcopenshell
 
 If it returns nothing (no error message), then all is OK
 
-#### Windows {#windows_3}
+#### Windows 
 
 **Notă**: Instalatorii oficiali FreeCAD obținuți de pe pagina web/github a FreeCAD conțin acum ifcopenshell.
 
@@ -683,7 +683,7 @@ Pentru a construi învelișul IfcPython, trebuie instalat SWIG. Descărcați cea
 
 Tutorial [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell.md)
 
-## ODA Converter (în prealabil Teigha Converter) {#oda_converter_în_prealabil_teigha_converter}
+## ODA Converter (în prealabil Teigha Converter) 
 
 -   homepage: <https://www.opendesign.com/guestfiles/oda_file_converter>
 -   license: freeware
@@ -691,7 +691,7 @@ Tutorial [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compil
 
 ODA Converter este un mic utilitar disponibil gratuit, care permite conversia între mai multe versiuni ale fișierelor DWG și DXF. FreeCAD îl poate folosi pentru a oferi import și export DWG, transformând fișierele DWG în formatul DXF "sub capotă", apoi utilizând importatorul DXF standard pentru a importa conținutul fișierului. Se aplică restricțiile aplicabile importatorului [DXF](Draft_DXF/ro.md).
 
-### Instalare {#instalare_3}
+### Instalare 
 
 Pe toate platformele, numai prin instalarea pachetului corespunzător de la <https://www.opendesign.com/guestfiles/oda_file_converter>. După instalare, dacă utilitarul nu este găsit automat de FreeCAD, poate fi necesar să setați manual calea spre executabilul convertorului, Schimbați tabelul de lucru la \"Draft\", numai în meniul Editare → Preferinţe → Import-Export → DWG completați \"Calea către Teigha File Converter\" corespunzător.
 
@@ -725,7 +725,7 @@ You can also import a module from a package.
 utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 ``` You can\'t import individual functions, just entire modules.
 
-### Links {#links_1}
+### Links 
 
 -   Original source: <https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/util/lazy_loader.py>
 -   Further explanation: <https://wil.yegelwel.com/lazily-importing-python-modules/>

@@ -27,7 +27,7 @@ Bir klonun, klonunun bir Eskiz Kopyası haline geldiğine dikkat edin. Bağlant�
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl Kullanılır {#nasıl_kullanılır}
+## Nasıl Kullanılır 
 
 
 </div>

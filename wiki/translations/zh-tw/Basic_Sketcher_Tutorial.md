@@ -32,9 +32,9 @@
 
 ## 設定
 
-1\. 開啟FreeCAD, 使用{{MenuCommand|檔案 → <img src=images/Std_New.svg style="width:16px"> [開新檔案](Std_New.md)}}新增一空白文件.
+1\. 開啟FreeCAD, 使用**檔案 → <img src=images/Std_New.svg style="width:16px"> [開新檔案](Std_New.md)**新增一空白文件.
 
-:   1.1. 使用 [工作台之間切換](Std_Workbench.md)，切換到[草圖工作台](Sketcher_Workbench.md), 或者從功能表 {{MenuCommand|[檢視](Std_View_Menu.md) → 工作台 → 草圖}}.
+:   1.1. 使用 [工作台之間切換](Std_Workbench.md)，切換到[草圖工作台](Sketcher_Workbench.md), 或者從功能表 **[檢視](Std_View_Menu.md) → 工作台 → 草圖**.
 
 需要記住的一些動作:
 
@@ -55,7 +55,7 @@
 
 **註:**
 
-[樹狀檢視將會切換至](tree_view.md)[任務面板](task_panel.md); 在此界面中將{{MenuCommand|「Edit controls」}}區塊展開，並確認{{MenuCommand|「自動拘束」}}已勾選。其他選項可以更改，包括網格的大小，以及是否要「格點快選」；本教學中我們將不使用「格點快選」並將格點顯示關閉。 在[任務面板的其他區塊](task_panel.md)，您可看到有哪些圖元及哪種拘束被套用。
+[樹狀檢視將會切換至](tree_view.md)[任務面板](task_panel.md); 在此界面中將**「Edit controls」**區塊展開，並確認**「自動拘束」**已勾選。其他選項可以更改，包括網格的大小，以及是否要「格點快選」；本教學中我們將不使用「格點快選」並將格點顯示關閉。 在[任務面板的其他區塊](task_panel.md)，您可看到有哪些圖元及哪種拘束被套用。
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
 
@@ -68,7 +68,7 @@
 
 輪廓圖就是由(一般)線段、圓弧等圖元所構成的外型圖，如果要用於形成實體零件，此外型圖必須為封閉(圖形中沒有空白段)，所以將具有封閉外型的草圖稱為輪廓圖。
 
-:   3.1. 按下**<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Toggle construction](Sketcher_ToggleConstruction.md)**，進入{{MenuCommand|建構線模式}}。
+:   3.1. 按下**<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Toggle construction](Sketcher_ToggleConstruction.md)**，進入**建構線模式**。
 :   註：建構線模式中，工具列圖示中的線條為深藍色，在草圖中建構線圖元也是深藍色，一般模式中，工具列圖示中的線條為白色，在草圖中一般圖元也是白色。
 :   3.2. 按下 **<img src="images/Sketcher_Line.svg" width=16px> [於草圖中建立線](Sketcher_CreateLine.md)**。
 :   3.3. 在草圖中將滑鼠游標靠近**原點**，該點將高亮顯示並且在游標的右方將顯示<img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [共點(重疊)拘束](Sketcher_ConstrainCoincident.md)。
@@ -86,22 +86,22 @@
 
 do not press **Esc** a second time as this will exit the sketch edit mode. If you do this, re-enter the edit mode by double clicking on the sketch in the [tree view](tree_view.md).
 
-Take a look at the [task panel](task_panel.md) again. The {{MenuCommand|Solver messages}} section already indicates that the sketch is under-constrained, and it mentions the number of **degrees of freedom**.
+Take a look at the [task panel](task_panel.md) again. The **Solver messages** section already indicates that the sketch is under-constrained, and it mentions the number of **degrees of freedom**.
 
-Look at the {{MenuCommand|Constraints}} and {{MenuCommand|Elements}} sections to see the new listed constraints and lines. Once your sketches have many elements, it may be difficult to select them in the [3D view](3D_view.md), so you can use these lists to select the object that you wish exactly.
+Look at the **Constraints** and **Elements** sections to see the new listed constraints and lines. Once your sketches have many elements, it may be difficult to select them in the [3D view](3D_view.md), so you can use these lists to select the object that you wish exactly.
 
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
 
 *以原點為中心呈星型的建構線*
 
-## Real geometry {#real_geometry}
+## Real geometry 
 
 Real geometry must make a closed shape if it is to be used as a profile that can be extruded by tools such as **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)**.
 
 Make sure you are not in construction mode by clicking on **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction](Sketcher_ToggleConstruction.md)**, if you have not previously exited this mode.
 
-### Outer arcs {#outer_arcs}
+### Outer arcs 
 
 4\. Create a circle.
 
@@ -122,7 +122,7 @@ Make sure you are not in construction mode by clicking on **<img src=images/Sket
 
 *Circular arcs added at the endpoints of the construction lines. Also a central circle.*
 
-### Inner arcs {#inner_arcs}
+### Inner arcs 
 
 6\. Create an arc between each pair of the previous O-arcs.
 
@@ -139,7 +139,7 @@ To summarize, the O-arcs should have their curvature pointing outwards, and thei
 
 ## Constraints
 
-Take a look at the [task panel](task_panel.md) again. Due to the new geometrical elements that we have drawn, the {{MenuCommand|Solver messages}} section indicates even more **degrees of freedom**. A **degree of freedom** (DOF) indicates a possible movement of one element. For example, a point can be moved both in horizontal and vertical directions, so it has two degrees of freedom. A line is defined by two points, therefore in total it has four degrees of freedom. If we fix one of those points, then the entire system has only two degrees of freedom available; if we additionally fix the horizontal movement of the remaining point, we only have one degree of freedom left; and if we also fix the vertical movement of this point, then the last degree of freedom disappears, and the line cannot move from its position any more.
+Take a look at the [task panel](task_panel.md) again. Due to the new geometrical elements that we have drawn, the **Solver messages** section indicates even more **degrees of freedom**. A **degree of freedom** (DOF) indicates a possible movement of one element. For example, a point can be moved both in horizontal and vertical directions, so it has two degrees of freedom. A line is defined by two points, therefore in total it has four degrees of freedom. If we fix one of those points, then the entire system has only two degrees of freedom available; if we additionally fix the horizontal movement of the remaining point, we only have one degree of freedom left; and if we also fix the vertical movement of this point, then the last degree of freedom disappears, and the line cannot move from its position any more.
 
 Up to now when we have drawn lines and curves, the sketcher has added automatic constraints for us, those that keep the lines tied to the origin, and the O-arcs tied to the construction lines. But we haven\'t added other explicit constraints so the geometrical shapes can still be moved in many directions. **Constraints are \"rules\" that tell us under which conditions a geometrical object can move and by how much.** They are used to eliminate the degrees of freedom so that the sketch has a stable shape. If we eliminate all degrees of freedom, then the sketch is **fully constrained**, and has a fixed shape, that is, its points cannot move at all. In general, it is a good idea to fully constrain sketches because this will result in stable models.
 
@@ -149,9 +149,9 @@ There are two principal types of constraints:
 
 -    **Datum constraints**define characteristics of the shapes by specifying dimensions, for example, a numeric length or an angle.
 
-## Geometric constraints {#geometric_constraints}
+## Geometric constraints 
 
-### Equal length and radius {#equal_length_and_radius}
+### Equal length and radius 
 
 7\. Geometrically constrain the lines and arcs.
 
@@ -214,11 +214,11 @@ As of this step, we have now created a closed profile, as all arcs have been tie
 
 *Sketch with tangential constraints applied to the arcs, which closes the shape.*
 
-## Datum constraints {#datum_constraints}
+## Datum constraints 
 
 These constraints specify the numerical distances between two points, and angles between two lines.
 
-### Distances and angles {#distances_and_angles}
+### Distances and angles 
 
 9\. Adjust the size of the construction lines.
 
@@ -280,7 +280,7 @@ We should end up with a fully constrained sketch. It can be confirmed by noticin
 
 *Left: fully constrained sketch with only the most important constraints showing. Right: solid extrusion produced with [PartDesign Pad](PartDesign_Pad.md).*
 
-## Additional information {#additional_information}
+## Additional information 
 
 For a more in depth description of the sketcher, visit the [Sketcher Workbench](Sketcher_Workbench.md) documentation and also read the [Sketcher reference](Sketcher_reference.md).
 

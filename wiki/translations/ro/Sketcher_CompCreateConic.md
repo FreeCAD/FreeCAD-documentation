@@ -19,7 +19,7 @@
 
 </div>
 
-## Tipuri de conice {#tipuri_de_conice}
+## Tipuri de conice 
 
 
 <div class="mw-translate-fuzzy">

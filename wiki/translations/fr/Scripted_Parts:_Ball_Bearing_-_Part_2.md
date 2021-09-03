@@ -15,7 +15,7 @@ Le code produira un nouveau document FreeCAD avec 12 formes (anneau intérieur, 
 Cela ressemblera à ceci :
 <img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
 
-### Workflow ou flux de travail {#workflow_ou_flux_de_travail}
+### Workflow ou flux de travail 
 
 Le flux de travail est plus ou moins identique à la façon dont vous créeriez la pièce dans l\'atelier Part Design
 Juste quelques petites differences.
@@ -44,7 +44,7 @@ Juste quelques petites differences.
 -   Définir la vue sur axonométrique
 -   Zoomez pour une vue d\'ensemble
 
-### Concevoir la rainure {#concevoir_la_rainure}
+### Concevoir la rainure 
 
 Dessiner un arc nécessite trois points ou un angle de départ et un angle de fin.
 Dans sketcher (l\'esquisseur), nous pourrions utiliser des contraintes pour définir le point de départ et le point final de l\'arc.
@@ -52,7 +52,7 @@ Comme nous ne pouvons pas faire cela dans les scripts, nous dessinons un rectang
 Ensuite, nous dessinons un cercle et le faisons tourner pour obtenir la géométrie de la rainure.
 Ensuite, nous appliquons une coupe booléenne aux deux figures de révolution et nous avons la forme complète de l\'anneau intérieur / extérieur.
 
-### Insérez les billes {#insérez_les_billes}
+### Insérez les billes 
 
 Le flux de travail approprié basé sur sketcher (l\'esquisseur) pour insérer les billes serait :
 \*Tracez un arc (demi-cercle) dont le centre est identique à l\'origine et tracez un segment fermant le côté \"ouvert\" de l\'arc

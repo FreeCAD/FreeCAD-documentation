@@ -115,11 +115,11 @@ Other
 
 **Prerequisites** Lattice2 WB requires FreeCAD \>= v0.16.5155.
 
-### Automatische Installation {#automatische_installation}
+### Automatische Installation 
 
 As of v0.17 one can use the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) to install the <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> Lattice2 Workbench. Use {MenuCommand\|Tools → Addon Manager}}
 
-### Manuelles Einrichten {#manuelles_einrichten}
+### Manuelles Einrichten 
 
 -   Scroll to the top of the page, and click \'download zip\' button
 -   Unpack the contents into a \"Lattice2\" folder created in \\Path\\to\\FreeCAD\\Mod, and restart FreeCAD.
@@ -135,7 +135,7 @@ After you install the workbench, it should appear at the bottom of list of workb
 -   [Making a Cogset](https://github.com/DeepSOIC/Lattice2/wiki/Cogset-Tutorial)
 -   [Feature Patterns in Lattice2 Workbench](https://www.youtube.com/watch?v=BXmeEGnhszo) by \@sliptonic
 
-## Verknüpfungen zum Lattice2 Arbeitsbereich {#verknüpfungen_zum_lattice2_arbeitsbereich}
+## Verknüpfungen zum Lattice2 Arbeitsbereich 
 
 -   Lattice2 Wiki: <https://github.com/DeepSOIC/Lattice2/wiki>
 -   FreeCAD Wiki: <https://www.freecadweb.org/wiki/Lattice2_Workbench>
@@ -143,7 +143,7 @@ After you install the workbench, it should appear at the bottom of list of workb
 -   Gallery: <https://github.com/DeepSOIC/Lattice2/wiki/Gallery>
 -   Report bugs: Please report bugs at <https://github.com/DeepSOIC/Lattice2/issues>
 
-## Andere nützliche Verknüpfungen {#andere_nützliche_verknüpfungen}
+## Andere nützliche Verknüpfungen 
 
 -   [Lattice aka Lattice1 Workbench (obsolete)](https://github.com/DeepSOIC/Lattice)
 -   [External Workbenches](External_Workbenches.md): List of FreeCAD workbenches.

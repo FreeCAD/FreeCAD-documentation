@@ -18,15 +18,15 @@ Certains messages et tutoriels sur le forum utilisent Paraview pour examiner et 
     -   Ce tutoriel est basé sur la version Paraview 5.8.0 pour Windows, qui était la version la plus récente au moment de la rédaction du tutoriel.
 -   Les fichiers FreeCAD utilisés pour ce tutoriel sont disponibles dans [ici](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734) et [ici](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&p=368315#p368315), fil de discussion FreeCAD.
 
-## Transfert de données depuis l\'atelier FEM {#transfert_de_données_depuis_latelier_fem}
+## Transfert de données depuis l\'atelier FEM 
 
-Dans l\'atelier FEM, mettez en surbrillance l\'objet CCX\_Results. Ensuite, utilisez l\'option de menu {{MenuCommand|Fichier> Exporter> FEM result VTK (*.vtk *.vtu)}} pour exporter les données VTK.
+Dans l\'atelier FEM, mettez en surbrillance l\'objet CCX\_Results. Ensuite, utilisez l\'option de menu **Fichier> Exporter> FEM result VTK (*.vtk *.vtu)** pour exporter les données VTK.
 
-## Importation de données dans Paraview {#importation_de_données_dans_paraview}
+## Importation de données dans Paraview 
 
 L\'écran de démarrage affiche un navigateur de pipeline vide. C\'est là que les objets de données VTK importés et les objets de filtre appliqués (pour la géométrie ou les données) seront visibles. <img alt="" src=images/PVPic1.png  style="width:500px;">
 
-Utilisez l\'option de menu {{MenuCommand|File> Open> *.vtk}} pour ouvrir le fichier VTK généré avec l\'atelier FEM.
+Utilisez l\'option de menu **File> Open> *.vtk** pour ouvrir le fichier VTK généré avec l\'atelier FEM.
 
 <img alt="" src=images/PVPic2.png  style="width:500px;">
 
@@ -38,17 +38,17 @@ La géométrie grise peut être inspectée en faisant pivoter la vue. Le bouton 
 
 <img alt="" src=images/PVPic5.png  style="width:500px;">
 
-## Sauvegarde/état de chargement {#sauvegardeétat_de_chargement}
+## Sauvegarde/état de chargement 
 
-Plutôt que d\'enregistrer des données, Paraview stocke le statut (état) des actions effectuées sur l\'objet VTK importé. Par conséquent, pour enregistrer votre travail, utilisez l\'option de menu {{MenuCommand|File > Save State}}. **REMARQUE**: il n\'y aura pas d\'avertissement lorsque vous quittez Paraview pour enregistrer l\'état et tout le travail peut être perdu à la sortie du programme.
+Plutôt que d\'enregistrer des données, Paraview stocke le statut (état) des actions effectuées sur l\'objet VTK importé. Par conséquent, pour enregistrer votre travail, utilisez l\'option de menu **File > Save State**. **REMARQUE**: il n\'y aura pas d\'avertissement lorsque vous quittez Paraview pour enregistrer l\'état et tout le travail peut être perdu à la sortie du programme.
 
-Pour continuer là où vous vous étiez arrêté lors de la session précédente, utilisez {{MenuCommand|File > Load State}}. Cela invite l\'utilisateur à spécifier un fichier VTK, ce qui signifie que les actions effectuées dans la dernière session peuvent également être appliquées à un nouveau fichier VTK. De cette façon, les données de différentes analyses de l\'atelier FEM peuvent être affichées exactement de la même manière, sans effort supplémentaire.
+Pour continuer là où vous vous étiez arrêté lors de la session précédente, utilisez **File > Load State**. Cela invite l\'utilisateur à spécifier un fichier VTK, ce qui signifie que les actions effectuées dans la dernière session peuvent également être appliquées à un nouveau fichier VTK. De cette façon, les données de différentes analyses de l\'atelier FEM peuvent être affichées exactement de la même manière, sans effort supplémentaire.
 
-## Visualiser les résultats de l\'atelier FEM {#visualiser_les_résultats_de_latelier_fem}
+## Visualiser les résultats de l\'atelier FEM 
 
 Paraview propose de nombreuses options et paramètres pour afficher les résultats. Nous allons d\'abord regarder l\'affichage des données d\'importation de base sur la géométrie d\'origine et voir ensuite comment appliquer des filtres pour modifier la géométrie. Enfin, nous utiliserons la calculatrice et les filtres d\'intégration pour dériver de nouveaux résultats en combinant les données d\'importation de base.
 
-## Données de base affichées sur la géométrie d\'origine {#données_de_base_affichées_sur_la_géométrie_dorigine}
+## Données de base affichées sur la géométrie d\'origine 
 
 Étant donné que le navigateur de pipeline peut contenir plusieurs objets VTK et objets de filtre, vérifiez d\'abord que l\'objet VTK de droite est mis en surbrillance dans le navigateur de pipeline. Les sélections et les paramètres d\'affichage de cet objet VTK se trouvent désormais dans l\'onglet Propriétés. Pour vous assurer que tous les paramètres sont visibles et alignés avec ce didacticiel, appuyez sur le bouton Paramètres avancés (l\'icône de la roue dentée sur l\'image ci-dessous).
 
@@ -90,7 +90,7 @@ Le paramètre de discrétisation des couleurs est utile pour limiter le nombre d
 
 <img alt="" src=images/PVPic16.png  style="width:700px;">
 
-## Application de filtres aux résultats de l\'atelier FEM {#application_de_filtres_aux_résultats_de_latelier_fem}
+## Application de filtres aux résultats de l\'atelier FEM 
 
 Pour modifier les données de base ou la géométrie importée de l\'atelier FEM, des filtres peuvent être appliqués.
 
@@ -120,7 +120,7 @@ Pour afficher la géométrie déformée superposée à la géométrie non défor
 
 **REMARQUE**: à mesure que davantage d\'objets sont ajoutés au Pipeline Browser et que davantage de fenêtres d\'affichage sont ouvertes, il devient de plus en plus important de s\'assurer que le bon objet est sélectionné dans le Pipeline Browser et que la fenêtre de droite est mise au point lors de la modification de l\'onglet Propriétés. Sinon, beaucoup de temps peut être consacré à la recherche de la bonne propriété ou les modifications apportées aux propriétés peuvent ne pas prendre effet.
 
-## Application de filtres pour dériver les résultats composés des données d\'importation de base {#application_de_filtres_pour_dériver_les_résultats_composés_des_données_dimportation_de_base}
+## Application de filtres pour dériver les résultats composés des données d\'importation de base 
 
 Si nous voulons connaître la quantité d\'acier d\'armature dans la poutre dans son ensemble ou la quantité passant à travers une section particulière, nous devons effectuer l\'intégration (sommation sur la géométrie) des données de base.
 
@@ -172,7 +172,7 @@ Par exemple, nous pouvons maintenant appliquer le filtre d\'intégration à la n
 
 Cela montre comment l\'exigence d\'armature totale se compare à celles des directions de coordonnées individuelles.
 
-## Intégration sur une tranche {#intégration_sur_une_tranche}
+## Intégration sur une tranche 
 
 Dans la section précédente, nous avons discuté du filtre d\'intégration et de son application à l\'ensemble de l\'objet VTK. Pour démontrer l\'intégration sur une tranche, nous allons dans cette section déterminer le besoin total de ferraillage et son centre de gravité pour la section centrale de la poutre. Le résultat final est illustré dans l\'image ci-dessous. L\'interaction de divers objets peut être inspectée dans le Pipeline Browser. Le filtre de tranche est appliqué à l\'objet poutre VTK et deux filtres Calculator sont appliqués au filtre de tranche pour dériver les nouvelles variables \"Reinforcement\_ratio\_x \* z\" et \"Reinforcement\_ratio\_x \* y\" des données de base. Ces variables doivent être intégrées pour déterminer le centre de gravité de l\'armature. Enfin, des filtres d\'intégration sont appliqués à chaque Calculator pour intégrer les résultats sur la tranche. Veuillez vous référer à la section précédente pour une présentation générale du filtre d\'intégration et de ses paramètres.
 
@@ -226,7 +226,7 @@ CoG\_y = 55744,2 / 556,277 = 100,2 mm (valeur exacte: 100 mm)
 
 CoG\_z = 187144 / 556,277 = 336,4 mm (valeur exacte: 5/6 \* 400 mm)
 
-## Intégration sur une ligne {#intégration_sur_une_ligne}
+## Intégration sur une ligne 
 
 Pour démontrer la visualisation et l\'intégration des résultats sur une ligne, nous utilisons l\'exemple 2D d\'un mur épais tel qu\'introduit dans [ce fil de discussion FC](https://forum.freecadweb.org/viewtopic.php?f=18&t=33049). Le fichier FreeCAD pour cet exemple peut être téléchargé depuis [ce fil de discussion FC](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734). Le but consiste à visualiser le rapport de ferraillage sur différentes sections verticales et à déterminer la zone requise d\'acier à partir de l\'intégration de ces résultats.
 
@@ -304,7 +304,7 @@ Le résultat pour les 400 mm supérieurs du mur est ainsi de 8,436 mm2 / mm. Les
 
 Cette procédure pourrait être répétée pour diviser le mur en zones de renforcement constant.
 
-## Représentation des résultats vectoriels avec le filtre Glyph 3D {#représentation_des_résultats_vectoriels_avec_le_filtre_glyph_3d}
+## Représentation des résultats vectoriels avec le filtre Glyph 3D 
 
 Jusqu\'à présent, nous n\'avons traité que des valeurs scalaires, comme le taux de renforcement et l\'amplitude du déplacement. La visualisation des résultats vectoriels, comme les vecteurs de contrainte principale, se fait avec Glyphs.
 
@@ -348,6 +348,6 @@ Ajoutez ensuite un autre filtre Glyph avec les paramètres suivants pour la cont
 
 Le résultat final montre les vecteurs de contrainte principaux majeurs et mineurs superposés à la poutre avec ReinforcementRatio\_x.
 
-## Exportation des résultats graphiques {#exportation_des_résultats_graphiques}
+## Exportation des résultats graphiques 
 
-Pour exporter une fenêtre RenderView, mettez-la en surbrillance et utilisez l\'option de menu {{MenuCommand|File > Save Screenshot}} {{Tutorials navi}} {{FEM Tools navi}} 
+Pour exporter une fenêtre RenderView, mettez-la en surbrillance et utilisez l\'option de menu **File > Save Screenshot** {{Tutorials navi}} {{FEM Tools navi}} 

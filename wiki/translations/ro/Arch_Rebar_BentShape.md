@@ -19,7 +19,7 @@ Instrumentul **<img src="images/Arch_Rebar_BentShape.png" width=16px> Bent Shape
 
 The [BentShape Rebar](Arch_Rebar_BentShape.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;">
 
@@ -31,7 +31,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -82,7 +82,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>
@@ -137,7 +137,7 @@ Rebar2 = BentShapeRebar.makeBentShapeRebar(50, 40, 20, 20,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9) 
 ```
 
-### Edition of the rebar {#edition_of_the_rebar}
+### Edition of the rebar 
 
 You can change the properties of the rebar with the following function
 

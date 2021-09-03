@@ -29,7 +29,7 @@ Depending on which selection is made, some fields will activate or stay disabled
 
 ![](images/PartDesign_Hole_parameters.png )
 
-### Threading and size {#threading_and_size}
+### Threading and size 
 
 -   **Profile**: if set to *None*, no threading info is defined. [ISO](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) and [UTS](https://en.wikipedia.org/wiki/Unified_Thread_Standard) thread profiles enable the *Size* fields.
 -   **Threaded**: if checked threading data will be added to the Hole feature and the hole minor diameter is used. If left unchecked, the hole is considered non-threaded, and the nominal major diameter with defined *Clearance* is chosen.
@@ -41,14 +41,14 @@ Depending on which selection is made, some fields will activate or stay disabled
 -   **Diameter**: defines the hole diameter if the *Profile* is set to *None*.
 -   **Depth**: depth of the hole from the sketch plane. *Dimension* enables a field to type a value. *Through All* will cut the hole through the whole Body. **Note:** For technical reasons, *Through All* is actually a 10 meter deep hole. If you need deeper holes, use *Dimension*.
 
-### Hole cut {#hole_cut}
+### Hole cut 
 
 -   **Type**: sets type of hole cut: *None* means no cut, other types are different norms for screws (<small>(v0.19)</small> ) and the two generic types *Counterbore* and *Countersink*.
 -   **Diameter**: sets the upper diameter (at the sketch plane) for the hole cut.
 -   **Depth**: depth of the hole cut, measured from the sketch plane.
 -   **Countersink angle**: angle of the conical hole cut. Only applicable for countersinks.
 
-### Drill point {#drill_point}
+### Drill point 
 
 -   **Type**: defines the ending of the hole if *Depth* is set to *Dimension*.
     -   **Flat** produces a flat bottom
@@ -73,7 +73,7 @@ Much of the Data properties are the same as those shown in [Options](#Options.md
 -   By default, the hole feature extrudes below the sketch plane. If the solid lies on the XY\_Plane, and the hole sketch is attached to the XY\_Plane, it will try to extrude away from the solid and seemingly produce no result. In such a case, the option *Reversed* needs to be set; alternatively the sketch can be mapped to the bottom face of the solid.
 -   Model Thread works only if Reversed is not set.
 
-## Cut Type Definitions {#cut_type_definitions}
+## Cut Type Definitions 
 
 Cut types (screw-types) are defined in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) files since version 0.19. There is a set of files distributed with FreeCAD, but users can create their own definitions. Files are searched in <UserAppDataDir>/PartDesign/Hole. The `UserAppDataDir` can be found by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md).
 

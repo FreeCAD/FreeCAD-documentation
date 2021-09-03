@@ -24,7 +24,7 @@ OpenCASCADE es un componente básico de FreeCAD, por lo que si obtiene FreeCAD d
 
 Sin embargo, si quieres desarrollar aplicaciones que utilicen OCCT, o quieres contribuir con código C++ a FreeCAD, entonces necesitas instalar los archivos de desarrollo de OCCT. En este caso, el procedimiento se explica en [Compilación](Compiling/es.md) para cada uno de los sistemas principales, Linux, Windows y MacOS.
 
-## Edición comunitaria {#edición_comunitaria}
+## Edición comunitaria 
 
 En 2011 se publicó una \"edición comunitaria\" de OpenCASCADE, abreviada OCE, basada en las fuentes oficiales de OpenCASCADE (OCCT) de la versión 6.5. En teoría, la edición comunitaria OCE debería ser compatible con la versión principal OCCT en la mayoría de los aspectos, al tiempo que cuenta con algún código adicional aportado por la comunidad.
 
@@ -38,7 +38,7 @@ El núcleo geométrico Cas.CADE era originalmente de código cerrado, pero se co
 
 La versión 6.6 de OpenCASCADE y las anteriores se regían por su propia \"licencia pública OCCT\", lo que hacía que no fuera del todo \"software libre\". Esto se solucionó con el lanzamiento de OCCT 6.7 (2013), cuando adoptó la licencia LGPL2.
 
-## OCCT Conceptos geométricos {#occt_conceptos_geométricos}
+## OCCT Conceptos geométricos 
 
 En la terminología de OpenCascade, distinguimos entre primitivas geométricas y formas topológicas. Una primitiva geométrica puede ser un punto, una línea, un círculo, un plano, etc. o incluso algunos tipos más complejos como una curva B-Spline o una superficie. Una forma puede ser un vértice, una arista, un hilo, una cara, un sólido o un compuesto de otras formas. Las primitivas geométricas no están hechas para ser mostradas directamente en la escena 3D, sino para ser utilizadas como geometría de construcción para las formas. Por ejemplo, una arista puede construirse a partir de una línea o de una porción de un círculo.
 

@@ -31,7 +31,7 @@ El Plano estándar es creado con su esquina inferior izquierda en el punto de or
 
 <div class="mw-translate-fuzzy">
 
-Las propiedades pueden ser cambiadas posteriormente en la pestaña {{MenuCommand|Vista combinada → Datos}}, tras seleccionar el objeto.
+Las propiedades pueden ser cambiadas posteriormente en la pestaña **Vista combinada → Datos**, tras seleccionar el objeto.
 
 
 </div>

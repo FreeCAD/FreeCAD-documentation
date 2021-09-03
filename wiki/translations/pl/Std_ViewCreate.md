@@ -14,11 +14,11 @@ The **Std ViewCreate** command creates a new [3D view](3D_view.md) for the activ
 
 ## Usage
 
-1.  Select the {{MenuCommand|View → <img src="images/Std_ViewCreate.svg" width=16px> Create new view}} option from the menu.
+1.  Select the **View → <img src="images/Std_ViewCreate.svg" width=16px> Create new view** option from the menu.
 
 ## Options
 
--   Select the {{MenuCommand|Windows → Cascade}} or {{MenuCommand|Windows → Tile}} option from the menu to rearrange the 3D views.
+-   Select the **Windows → Cascade** or **Windows → Tile** option from the menu to rearrange the 3D views.
 
 
 

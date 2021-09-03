@@ -12,7 +12,7 @@ PROSZĘ NIE EDYTOWAĆ ANI NIE TŁUMACZYĆ !!!
 
 Ten projekt ma na celu wdrożenie porządnego systemu jednostek w programie FreeCAD. Jest on zgodny z zasadami procesu \[<http://en.wikipedia.org/wiki/GTD#GTD_methodology>\| Realizacja zadań\]. Projekty są zebrane w [Planie rozwoju](Development_roadmap/pl.md).
 
-## Cel i zasady {#cel_i_zasady}
+## Cel i zasady 
 
 Jest to projekt programistyczny mający na celu zaimplementowanie systemu jednostek do programu FreeCAD.
 
@@ -22,7 +22,7 @@ Kroki rozwoju *(następne działania)* są zaplanowane tutaj, i śledzone w syst
 
 Umożliwi to programowi FreeCAD obsługę połączonych systemów miar, takich jak system imperialny i złożone jednostki [SI](http://en.wikipedia.org/wiki/International_System_of_Units). Obsłuży również formaty importu/eksportu, które są w stanie transportować jednostki *(jak STEP)*. I pozwoli na skalowanie w oparciu o założenia jednostek *(mm-\>m, m-\>in)*.
 
-## Burza mózgów {#burza_mózgów}
+## Burza mózgów 
 
 Dużo dyskusji odbyło się tutaj: <http://forum.freecadweb.org/viewtopic.php?f=10&t=1616>
 
@@ -30,7 +30,7 @@ A wiele informacji znajdziesz w artykule [Jednostki](Units/pl.md).
 
 ## Organizowanie
 
-### Uaktualnienie parsera jednostek {#uaktualnienie_parsera_jednostek}
+### Uaktualnienie parsera jednostek 
 
 Uaktualnienie parsera do obsługi i generowania podpisów, jak to zostało omówione w artykule [Jednostki](Units/pl.md).
 
@@ -40,12 +40,12 @@ Zmiana formy właściwości np. \"Właściwości długości\" na \"Właściwośc
 
 Ostatecznie edytor właściwości dla \"Właściwości jednostek\".
 
-### Środowiska pracy {#środowiska_pracy}
+### Środowiska pracy 
 
 -   Ulepszanie środowisk pracy, aby używać frameworka Jednostek. Zacząłbym od środowiska Szkicownika i Projekt Części, a następnie poszedł dalej\...
 -   Dokumentując proces aktualizacji, aby inni ludzie mogli zrobić to samo z innymi środowiskami \--[Yorikvanhavre](User:Yorikvanhavre.md). 13:13, 28 listopad 2011 (UTC)
 
-## Następne działania {#następne_działania}
+## Następne działania 
 
 -   Uaktualnienie parsera jednostek *(jriegel)*
 

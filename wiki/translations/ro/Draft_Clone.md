@@ -33,7 +33,7 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați obiectele pe care doriți să le clonați
 2.  Apăsați butonul **<img src="images/Draft_Clone.png" width=16px> [[Draft Clone]]
@@ -74,7 +74,7 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 
 <div class="mw-translate-fuzzy">
 
-## Script-Programre {#script_programre}
+## Script-Programre 
 
 Instrumentul Clone poate fi folosită în [macro-uri](macros/ro.md) şi de la consola Python cu ajutorul funcţiei următoare:
 

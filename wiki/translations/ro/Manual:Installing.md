@@ -42,7 +42,7 @@ Dacă instalați FreeCAD într-o mașină virtuală, vă rugăm să fiți conșt
 
 </div>
 
-### Instalarea pe Windows {#instalarea_pe_windows}
+### Instalarea pe Windows 
 
 1.  Descărcați un pachet executabil (.exe) corespunzător la vesiunea dvs de Windows (32bit or 64bit) de la [download page](https://github.com/FreeCAD/FreeCAD/releases). Executabilul FreeCAD ar trebui să funcționeze pe orice versiune windows începând Windows 7.
 2.  Double-click pe executabilul descărcat.
@@ -62,7 +62,7 @@ Realizarea pachetelor FreeCAD și crearea unui program de instalare necesită ti
 
 </div>
 
-### Instalare sub Linux {#instalare_sub_linux}
+### Instalare sub Linux 
 
 
 <div class="mw-translate-fuzzy">
@@ -85,7 +85,7 @@ Pe cele mai moderne distribuții Linux (Ubuntu, Fedora, OpenSUSE, Debian, Mint, 
 
 Una dintre bucuriile mari de a utiliza Linux este multitudinea de posibilități de a personaliza software-ul dvs., așa că nu vă abțineți. Sub Ubuntu și derivatele sale, FreeCAD poate fi de asemenea instalat de la [PPA](https://launchpad.net/~freecad-maintainers) fiind menținut de către comunitatea FreeCAD (conține și ambele versiuni și cea stabilă și cea în curs de dezvoltare) . În Fedora, versiunile recente de dezoltare a FreeCAD pot fi instalate de pe [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/), și deoarece acest lucru este un software open source, puteți, de asemenea, cu ușurință [compile FreeCAD yourself](Compiling.md).
 
-### Instalaarea pe Mac OS {#instalaarea_pe_mac_os}
+### Instalaarea pe Mac OS 
 
 
 <div class="mw-translate-fuzzy">
@@ -118,7 +118,7 @@ Sperăm că nu veți dori să faceți acest lucru, dar este bine să-l știți o
 
 </div>
 
-### Definirea preferințelor de bază {#definirea_preferințelor_de_bază}
+### Definirea preferințelor de bază 
 
 
 <div class="mw-translate-fuzzy">
@@ -145,7 +145,7 @@ Aceste două opțiuni sunt întotdeauna bune pentru a fi marcate, deoarece acest
 
 </div>
 
-### Instalarea de conținut adițional {#instalarea_de_conținut_adițional}
+### Instalarea de conținut adițional 
 
 
 <div class="mw-translate-fuzzy">

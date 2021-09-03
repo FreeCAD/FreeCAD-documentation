@@ -12,7 +12,7 @@
 
 [Standard Gruppe](Std_Group.md), intern [Anwendung DokumentObjektGruppe](App_DocumentObjectGroup/de.md) genannt, ist ein allgemein verwendeter Behälter für die Gruppierung unterschiedlicher Objekttypen in der [Baumansicht](tree_view.md), unabhängig von ihrem Datentyp. Er wird als einfacher Ordner zur Kategoriesierung und Organisation der Objekte im Modell verwendet, um eine logische Struktur zu erhalten. Std Gruppen kann in anderen Std Gruppen eingebettet werden.
 
-Das Std Group Werkzeug ist nicht durch einen speziellen Arbeitbereich definiert, sondern durch das Basissystem. Daher befindet es sich in der {{MenuCommand|Strukturwerkzeugleiste}}, die in allen [Arbeitsbereichen](Workbenches/de.md) zugänglich ist.
+Das Std Group Werkzeug ist nicht durch einen speziellen Arbeitbereich definiert, sondern durch das Basissystem. Daher befindet es sich in der **Strukturwerkzeugleiste**, die in allen [Arbeitsbereichen](Workbenches/de.md) zugänglich ist.
 
 Um 3D-Objekte zu einer einzelnen Einheit zu gruppieren, um Baugruppen zu erzeugen, sollte stattdessen [Standard Teil](Std_Part/de.md) verwendet werden.
 
@@ -39,7 +39,7 @@ Eine [Standard Gruppe](Std_Group/de.md) wird intern [Anwendung DokumentObjektGru
 
 Zusätzlich zu den Eigenschaften, die in [App FeaturePython](App_FeaturePython.md), einer wesentlichen Instanz des [DokumentObjektes](App_DocumentObject/de.md), hat die App DocumentObjectGroup die {{PropertyData/de|Group}} Eigenschaft.
 
-Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Verfügung. Versteckte Eigenschaften werden durch den Befehl {{MenuCommand|Alle anzeigen}} im Kontextmenü des [Eigenschaftseditors](property_editor/de.md) angezeigt.
+Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Verfügung. Versteckte Eigenschaften werden durch den Befehl **Alle anzeigen** im Kontextmenü des [Eigenschaftseditors](property_editor/de.md) angezeigt.
 
 ### Daten
 
@@ -50,7 +50,7 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 
 -    **Gruppe|LinkList**: eine Liste referenzierter Objekte. Ein leerer Wert {{value|[]}} ist vorgegeben.
 
-#### Ausgeblendete Dateneigenschaften {#ausgeblendete_dateneigenschaften}
+#### Ausgeblendete Dateneigenschaften 
 
 -    {{PropertyView/de|Proxy|PythonObject}}: eine benutzerdefinierte Klasse, die mit diesem Objekt verknüpft ist. Das gibt es nur für die [Python](Python/de.md) Version. Siehe [Skripten](Std_Group/de#Skripten.md).
 
@@ -61,7 +61,7 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 
 Siehe [App FeaturePython](App_FeaturePython.md) zu grundlegenden Ansichtseigenschaften.
 
-#### Ansicht ausgeblendeter Eigenschaften {#ansicht_ausgeblendeter_eigenschaften}
+#### Ansicht ausgeblendeter Eigenschaften 
 
 -    **Proxy|PythonObject**: eine benutzerdefinierte Providerklasse, die mit diesem Objekt verknüpft ist. Das gibt es nur für die [Python](Python/de.md) Version. Siehe [Skripten](Std_Group/de#Skripten.md).
 

@@ -19,7 +19,7 @@ import Part
 
 Here we will explain to you how to control the [Part](Part_Workbench.md) module directly from the FreeCAD Python interpreter, or from any external script. Be sure to browse the [Scripting](Scripting.md) section and the [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) pages if you need more information about how Python scripting works in FreeCAD. If you are new to Python, it is a good idea to first read the [Introduction to Python](Introduction_to_Python.md).
 
-### See also {#see_also}
+### See also 
 
 -   [Part scripting](Part_scripting.md)
 -   [OpenCASCADE](OpenCASCADE.md)
@@ -27,7 +27,7 @@ Here we will explain to you how to control the [Part](Part_Workbench.md) module 
 
 <div class="mw-translate-fuzzy">
 
-### Klass Diagram {#klass_diagram}
+### Klass Diagram 
 
 Detta är en UML översikt över de viktigaste klasserna i Del modulen:
 
@@ -106,7 +106,7 @@ The following topological data types are available:
 
 ## Exempel
 
-### Skapa simpel topologi {#skapa_simpel_topologi}
+### Skapa simpel topologi 
 
 
 </div>
@@ -133,7 +133,7 @@ Vi ska nu skapa en topologi genom att konstruera den utifrån enklare geometri. 
 
 <div class="mw-translate-fuzzy">
 
-#### Skapa Geometri {#skapa_geometri}
+#### Skapa Geometri 
 
 Först så måste vi skapa de distinkt geometriska delarna av denna tråd. Och vi måste ta hänsyn till att hörnen på de geometriska delarna är på **samma** position. Annars kanske vi inte kan koppla ihop de geometriska delarna till en topologi!
 
@@ -234,7 +234,7 @@ L2 = Part.LineSegment(V3, V4)
 
 <div class="mw-translate-fuzzy">
 
-#### Sätta ihop allt {#sätta_ihop_allt}
+#### Sätta ihop allt 
 
 Det sista steget är att sätta ihop den geometriska grundelementen och baka en topologisk form:
 
@@ -254,7 +254,7 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 <div class="mw-translate-fuzzy">
 
-#### Skapa ett prisma {#skapa_ett_prisma}
+#### Skapa ett prisma 
 
 Extrudera nu tråden i en riktning och skapa en äkta 3D form:
 
@@ -272,7 +272,7 @@ P = W.extrude(Base.Vector(0, 0, 10))
 
 {{Top}}
 
-### Show it all {#show_it_all}
+### Show it all 
 
 
 ```python
@@ -285,9 +285,9 @@ Part.show(P)
 
 <div class="mw-translate-fuzzy">
 
-## Skapa grundtyper {#skapa_grundtyper}
+## Skapa grundtyper 
 
-### Kort beskrivning {#kort_beskrivning}
+### Kort beskrivning 
 
 Du kan lätt skapa enkla topologiska objekt med \"make\...()\" metoden från Del Modulen:
 
@@ -329,7 +329,7 @@ See the [Part API](Part_API.md) page for a complete list of available methods of
 
 <div class="mw-translate-fuzzy">
 
-### Detaljerade förklaringar {#detaljerade_förklaringar}
+### Detaljerade förklaringar 
 
 Importera först följande:
 
@@ -347,7 +347,7 @@ from FreeCAD import Base
 
 {{Top}}
 
-### Create a vector {#create_a_vector}
+### Create a vector 
 
 [Vectors](http://en.wikipedia.org/wiki/Euclidean_vector) are one of the most important pieces of information when building shapes. They usually contain three numbers (but not necessarily always): the X, Y and Z cartesian coordinates. You create a vector like this:
 
@@ -371,7 +371,7 @@ print(myVertex.Point)
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man en kant? {#hur_skapar_man_en_kant}
+#### Hur skapar man en kant? 
 
 En kant är inget annat än en linje med två hörn:
 
@@ -410,7 +410,7 @@ edge.CenterOfMass
 
 {{Top}}
 
-### Put the shape on screen {#put_the_shape_on_screen}
+### Put the shape on screen 
 
 So far we created an edge object, but it doesn\'t appear anywhere on the screen. This is because the FreeCAD 3D scene only displays what you tell it to display. To do that, we use this simple method:
 
@@ -424,7 +424,7 @@ The show function creates an object in our FreeCAD document and assigns our \"ed
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man en tråd? {#hur_skapar_man_en_tråd}
+#### Hur skapar man en tråd? 
 
 en tråd kan skapas från en lista med kanter eller en lista med trådar:
 
@@ -473,7 +473,7 @@ wire2.isClosed()
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man en yta? {#hur_skapar_man_en_yta}
+#### Hur skapar man en yta? 
 
 Endast ytor som skapats av stängda trådar är giltiga.
 
@@ -514,7 +514,7 @@ Endast ytor har en area, inte trådar eller kanter.
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man en cirkel? {#hur_skapar_man_en_cirkel}
+#### Hur skapar man en cirkel? 
 
 circle = Part.makeCircle(radius,\[center,dir\_normal,angle1,angle2\]) \-- Skapa en cirkel med en given radie
 
@@ -596,7 +596,7 @@ degrees = math.degrees(radians)
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man en cirkelbåge längs punkter? {#hur_skapar_man_en_cirkelbåge_längs_punkter}
+#### Hur skapar man en cirkelbåge längs punkter? 
 
 Olyckligtvis så finns det ingen makeArc funktion men vi har Part.Arc funktionen för att skapa en cirkelbåge längs tre punkter.
 
@@ -644,7 +644,7 @@ Arcs are valid edges like lines, so they can be used in wires also. {{Top}}
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man en polygon eller linje längs punkter? {#hur_skapar_man_en_polygon_eller_linje_längs_punkter}
+#### Hur skapar man en polygon eller linje längs punkter? 
 
 En linje längs multipla punkter är inget annat än att skapa en tråd med multipla kanter.
 
@@ -663,7 +663,7 @@ lshape_wire = Part.makePolygon([Base.Vector(0, 5, 0), Base.Vector(0, 0, 0), Base
 
 {{Top}}
 
-### Create a bézier curve {#create_a_bézier_curve}
+### Create a bézier curve 
 
 Bézier curves are used to model smooth curves using a series of poles (points) and optional weights. The function below makes a `Part.BezierCurve()` from a series of `FreeCAD.Vector()` points. Note: when \"getting\" and \"setting\" a single pole or weight, indices start at 1, not 0.
 
@@ -682,7 +682,7 @@ def makeBCurveEdge(Points):
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man ett plan? {#hur_skapar_man_ett_plan}
+#### Hur skapar man ett plan? 
 
 Ett plan är en platt yta, alltså en yta i 2D
 
@@ -733,7 +733,7 @@ Notera: makePlane accepterar endast Base.Vector() för start\_pnt och dir\_norma
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man en ellips? {#hur_skapar_man_en_ellips}
+#### Hur skapar man en ellips? 
 
 För att skapa en ellips så finns det flera sätt:
 
@@ -838,7 +838,7 @@ För Ellipse konstruktören ovan så har vi gett center, MajorRadius och MinorRa
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man en Torus? {#hur_skapar_man_en_torus}
+#### Hur skapar man en Torus? 
 
 makeTorus(radius1,radius2,\[pnt,dir,angle1,angle2,angle\]) \-- Skapa en torus med given radie och vinklar.
 
@@ -900,7 +900,7 @@ Genom att ge vinkeln 180 så kommer en halvtorus att skapas
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man en låda eller en kub? {#hur_skapar_man_en_låda_eller_en_kub}
+#### Hur skapar man en låda eller en kub? 
 
 makeBox(length,width,height,\[pnt,dir\]) \-- Skapar en låda placerad i pnt med dimensionerna (längd,bredd,höjd)
 
@@ -924,7 +924,7 @@ len(box.Vertexes)
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man en sfär? {#hur_skapar_man_en_sfär}
+#### Hur skapar man en sfär? 
 
 makeSphere(radius,\[pnt, dir, angle1,angle2,angle3\]) \-- Skapa en sför med given radie.
 
@@ -951,7 +951,7 @@ hemisphere = Part.makeSphere(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), -90
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar men en Cylinder? {#hur_skapar_men_en_cylinder}
+#### Hur skapar men en Cylinder? 
 
 makeCylinder(radius,height,\[pnt,dir,angle\]) \-- skapa en cylinder med given radie och höjd
 
@@ -969,7 +969,7 @@ partCylinder = Part.makeCylinder(5, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0,
 
 <div class="mw-translate-fuzzy">
 
-#### Hur skapar man en Kon? {#hur_skapar_man_en_kon}
+#### Hur skapar man en Kon? 
 
 makeCone(radius1,radius2,height,\[pnt,dir,angle\]) \-- skapa en kon med given radie och höjd
 
@@ -984,13 +984,13 @@ cone = Part.makeCone(10, 0, 20)
 semicone = Part.makeCone(10, 0, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0, 1), 180)
 ```{{Top}}
 
-## Modify shapes {#modify_shapes}
+## Modify shapes 
 
 There are several ways to modify shapes. Some are simple transformation operations such as moving or rotating shapes, others are more complex, such as unioning and subtracting one shape from another. {{Top}}
 
-## Transform operations {#transform_operations}
+## Transform operations 
 
-### Translate a shape {#translate_a_shape}
+### Translate a shape 
 
 Translating is the act of moving a shape from one place to another. Any shape (edge, face, cube, etc\...) can be translated the same way: 
 ```python
@@ -998,14 +998,14 @@ myShape = Part.makeBox(2, 2, 2)
 myShape.translate(Base.Vector(2, 0, 0))
 ``` This will move our shape \"myShape\" 2 units in the X direction. {{Top}}
 
-### Rotate a shape {#rotate_a_shape}
+### Rotate a shape 
 
 To rotate a shape, you need to specify the rotation center, the axis, and the rotation angle: 
 ```python
 myShape.rotate(Base.Vector(0, 0, 0),Base.Vector(0, 0, 1), 180)
 ``` The above code will rotate the shape 180 degrees around the Z Axis. {{Top}}
 
-### Matrix transformations {#matrix_transformations}
+### Matrix transformations 
 
 A matrix is a very convenient way to store transformations in the 3D world. In a single matrix, you can set translation, rotation and scaling values to be applied to an object. For example: 
 ```python
@@ -1024,7 +1024,7 @@ myShape.transformShape(myMat)
 myShape.transformGeometry(myMat)
 ```{{Top}}
 
-### Scale a shape {#scale_a_shape}
+### Scale a shape 
 
 Scaling a shape is a more dangerous operation because, unlike translation or rotation, scaling non-uniformly (with different values for X, Y and Z) can modify the structure of the shape. For example, scaling a circle with a higher value horizontally than vertically will transform it into an ellipse, which behaves mathematically very differently. For scaling, we cannot use the `transformShape()`, we must use `transformGeometry()`: 
 ```python
@@ -1036,7 +1036,7 @@ myShape=myShape.transformGeometry(myMat)
 
 <div class="mw-translate-fuzzy">
 
-### Booleska Operationer {#booleska_operationer}
+### Booleska Operationer 
 
 
 </div>
@@ -1044,7 +1044,7 @@ myShape=myShape.transformGeometry(myMat)
 
 <div class="mw-translate-fuzzy">
 
-#### Hur klipper man ut en form från en annan? {#hur_klipper_man_ut_en_form_från_en_annan}
+#### Hur klipper man ut en form från en annan? 
 
 cut(\...)
 
@@ -1063,7 +1063,7 @@ diff = cylinder.cut(sphere)
 
 <div class="mw-translate-fuzzy">
 
-#### Hur får man det gemensamma mellan två former? {#hur_får_man_det_gemensamma_mellan_två_former}
+#### Hur får man det gemensamma mellan två former? 
 
 common(\...)
 
@@ -1082,7 +1082,7 @@ common = cylinder1.common(cylinder2)
 
 <div class="mw-translate-fuzzy">
 
-#### Hur förenar man två former? {#hur_förenar_man_två_former}
+#### Hur förenar man två former? 
 
 fuse(\...)
 
@@ -1101,7 +1101,7 @@ fuse = cylinder1.fuse(cylinder2)
 
 <div class="mw-translate-fuzzy">
 
-#### Hur man sektionerar en solid med given form? {#hur_man_sektionerar_en_solid_med_given_form}
+#### Hur man sektionerar en solid med given form? 
 
 section(\...)
 
@@ -1141,7 +1141,7 @@ cylinder = disc.extrude(Base.Vector(0, 0, 2))
 
 <div class="mw-translate-fuzzy">
 
-## Utforska former {#utforska_former}
+## Utforska former 
 
 du kan lätt utforska den topologiska datastrukturen:
 
@@ -1179,7 +1179,7 @@ Genom att skriva in ovanstående rader i python tolken, kommer du att få en god
 
 <div class="mw-translate-fuzzy">
 
-### Utforska Kanter {#utforska_kanter}
+### Utforska Kanter 
 
 I fallet Kanter, vilken är en godtycklig kurva, så är det mycket troligt att du vill göra en diskretisering. I FreeCAD så är kanterna parametriserade av dess längder. Det innebär att du kan gå en kant/kurva genom dess längd:
 
@@ -1223,7 +1223,7 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 <div class="mw-translate-fuzzy">
 
-## Använda valet {#använda_valet}
+## Använda valet 
 
 Här ser vi nu hur vi kan använda det val som användaren gjorde i visaren.
 
@@ -1272,7 +1272,7 @@ print("Length of the selected edges: ", length)
 
 <div class="mw-translate-fuzzy">
 
-### OCC flaskan {#occ_flaskan}
+### OCC flaskan 
 
 Ett typiskt exempel som finns på [OpenCasCade Startsida](http://www.opencascade.org/org/gettingstarted/appli/) är hur man bygger en flaska.
 
@@ -1294,7 +1294,7 @@ Part.show(bottle)
 
 <div class="mw-translate-fuzzy">
 
-#### Det kompletta skriptet {#det_kompletta_skriptet}
+#### Det kompletta skriptet 
 
 Här är det kompletta MakeBottle skriptet:
 
@@ -1352,7 +1352,7 @@ Part.show(el)
 
 <div class="mw-translate-fuzzy">
 
-#### Detaljerad förklaring {#detaljerad_förklaring}
+#### Detaljerad förklaring 
 
 
 </div>
@@ -1523,7 +1523,7 @@ eller, mer enkelt:
 
 {{Top}}
 
-## Example: Pierced box {#example_pierced_box}
+## Example: Pierced box 
 
 Here is a complete example of building a pierced box.
 
@@ -1578,7 +1578,7 @@ Part.show(cut_part)
 
 <div class="mw-translate-fuzzy">
 
-## Ladda och spara {#ladda_och_spara}
+## Ladda och spara 
 
 Det finns flera sätt att spara ditt arbetet i Del modulen. Du kan förstås spara ditt FreeCAD dokument, men du kan också spara Del objekt direkt till vanliga CAD format, som BREP, IGS, STEP och STL.
 

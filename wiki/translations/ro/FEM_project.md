@@ -1,6 +1,6 @@
  Acesta este planul proiectului pentru integrarea MEF FreeCAD ca parte a foii de parcurs [Development roadmap](Development_roadmap.md).
 
-## Unități de măsură {#unități_de_măsură}
+## Unități de măsură 
 
   Length   Time   Mass             Force            Pressure           Velocity   Density      Energy    Gravity
   -------- ------ ---------------- ---------------- ------------------ ---------- ------------ --------- ---------
@@ -28,7 +28,7 @@
 
 <div class="mw-translate-fuzzy">
 
-### Potențialul ochiurilor de Plasă {#potențialul_ochiurilor_de_plasă}
+### Potențialul ochiurilor de Plasă 
 
 <img alt="" src=images/Netgen.jpg  style="width:300px;">
 
@@ -50,7 +50,7 @@ Câteva administratori de ochiuri de plasă:
 
 <div class="mw-translate-fuzzy">
 
-### Rezolvitori Potențial {#rezolvitori_potențial}
+### Rezolvitori Potențial 
 
 unii solver sunt
 

@@ -13,7 +13,7 @@ Esta é a documentação wiki do [FreeCAD](http://www.freecadweb.org). Existem d
 
 <div class="mw-translate-fuzzy">
 
-## Tópicos dos utilizadores {#tópicos_dos_utilizadores}
+## Tópicos dos utilizadores 
 
 
 </div>
@@ -35,7 +35,8 @@ Esta página contém documentação útil para utilizadores do FreeCAD em geral:
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Manual do FreeCAD](Manual:Introduction.md) é outra forma, mais linear de apresentar a informação contida nesta wiki. Foi feita para ser lida como um livro, e poderá levar-nos de forma suave a muitas páginas dos assuntos acima. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) também disponível como [algumas traduções em formato pdf](https://www.freecadweb.org/manual/). {{Clear}}
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Manual do FreeCAD](Manual:Introduction.md) é outra forma, mais linear de apresentar a informação contida nesta wiki. Foi feita para ser lida como um livro, e poderá levar-nos de forma suave a muitas páginas dos assuntos acima. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) também disponível como [algumas traduções em formato pdf](https://www.freecadweb.org/manual/). 
+
 
 
 </div>
@@ -57,7 +58,7 @@ A seguinte tabela lista todos os artigos desta wiki que formam a espinha dorsal 
 
 ## Participe
 
-### Como participar {#como_participar}
+### Como participar 
 
 
 <div class="mw-translate-fuzzy">
@@ -81,7 +82,7 @@ A página [Ajuda o FreeCAD](help_FreeCAD/pt.md) descreve tudo com mais detalhes.
 
 </div>
 
-### Código fonte {#código_fonte}
+### Código fonte 
 
 
 <div class="mw-translate-fuzzy">
@@ -91,7 +92,7 @@ O FreeCAD pode ser compilado em todas as plataformas usando [CMake](https://cmak
 
 </div>
 
-### Sobre o desenvolvimento {#sobre_o_desenvolvimento}
+### Sobre o desenvolvimento 
 
 
 <div class="mw-translate-fuzzy">

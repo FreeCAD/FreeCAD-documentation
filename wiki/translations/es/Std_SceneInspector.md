@@ -12,7 +12,7 @@ El comando **Std InspectorEscenas** abre un cuadro de diálogo que muestra una v
 
 ## Utilización
 
-1.  Seleccione la opción {{MenuCommand|Hierramientas → <img src="images/Std_SceneInspector.svg" width=16px> Inspector Escenas...}} en el menú.
+1.  Seleccione la opción **Hierramientas → <img src="images/Std_SceneInspector.svg" width=16px> Inspector Escenas...** en el menú.
 2.  Se abre el cuadro de diálogo del inspector de escenas.
 3.  El cuadro de diálogo no tiene modelo, lo que significa que puede permanecer abierto mientras sigues trabajando en FreeCAD.
 4.  Opcionalmente pulsa el **Refrescar** para actualizar la vista general.

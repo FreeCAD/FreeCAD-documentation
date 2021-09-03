@@ -6,7 +6,7 @@ Dies ist ein Beispiel für [Dialogerstellung](Dialog_creation/de.md) mit [PySide
 
 In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definiert. Obwohl dies für kleine Oberflächen möglich ist, wird für größere Oberflächen empfohlen, {{FileName|.ui}} Dateien mit Qt Designer zu erstellen und diese in das Programm zu laden. Siehe [Oberflächenerstellung mit UI Dateien](Interface_creation_with_UI_files.md).
 
-## Dialog mit Bild (QLabel) und animiertem GIF (QMovie) {#dialog_mit_bild_qlabel_und_animiertem_gif_qmovie}
+## Dialog mit Bild (QLabel) und animiertem GIF (QMovie) 
 
 
 ```python

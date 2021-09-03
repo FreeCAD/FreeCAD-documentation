@@ -29,14 +29,14 @@ Einheitenrechner Der Einheitenrechnerdialog ermöglicht es, Mengen in verschiede
 
 ## Usage
 
-1.  Select the {{MenuCommand|Tools → <img src="images/Std_UnitsCalculator.svg" width=16px> Units calculator...}} option from the menu.
+1.  Select the **Tools → <img src="images/Std_UnitsCalculator.svg" width=16px> Units calculator...** option from the menu.
 2.  The Units calculator dialog box opens. For more information see [Options](#Options.md).
 3.  The dialog box is modeless, meaning it can stay open while you continue working in FreeCAD.
 4.  Press the **Close** button to close the dialog box.
 
 ## Options
 
-### Top row {#top_row}
+### Top row 
 
 1.  Enter a value with units in the first input box. For example {{Value|10 mm}}.
     -   Units with exponents should be entered using the {{Value|^}} notation. For example {{Value|1 m^2}}.
@@ -47,7 +47,7 @@ Einheitenrechner Der Einheitenrechnerdialog ermöglicht es, Mengen in verschiede
 3.  If there are no input errors the **=\>** box will immediately show the result. For the example values the result is {{Value|0,394 in}}.
 4.  Optionally press the **Copy** button to copy the content of the **=\>** box to the clipboard. The value can then for example be pasted in a FreeCAD task panel or dialog box.
 
-### Text area {#text_area}
+### Text area 
 
 1.  The conversion performed in the top row can be copied to the text area by pressing **Enter** in the first or second input box.
 2.  The text area can contain multiple conversions and its content can be selected and copied to the clipboard with **Ctrl+C** and used in other programs.
@@ -55,7 +55,7 @@ Einheitenrechner Der Einheitenrechnerdialog ermöglicht es, Mengen in verschiede
 ### Quantity
 
 
-**This new part (<small>(v0.19)</small> ) of the Units calculator still suffers from some bugs.**
+**This new part (<small>(v0.19**) of the Units calculator still suffers from some bugs.)</small> 
 
 1.  Select an option from the **Unit system** dropdown list. This will be the target unit system. Select **Preference system** to use the unit system defined in the [Preferences](Preferences_Editor#Units.md).
 2.  Select an option from the **Unit category** dropdown list.

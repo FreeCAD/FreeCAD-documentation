@@ -21,7 +21,7 @@ Une fois que POV-Ray ou LuxRender est installé, nous devons définir le chemin 
 
 Dans cet écran de préférences, nous pouvons également définir la taille de l\'image que nous voulons produire.
 
-### Rendu avec PovRay {#rendu_avec_povray}
+### Rendu avec PovRay 
 
 Nous allons utiliser la table que nous avons modélisée dans le chapitre sur la [Modélisation traditionnelle](Manual:Traditional_modeling,_the_CSG_way/fr.md) pour produire des rendus avec PovRay et LuxRender.
 
@@ -50,7 +50,7 @@ Nous allons utiliser la table que nous avons modélisée dans le chapitre sur la
 
 ![](images/Exercise_raytracing_04.jpg )
 
-### Rendu avec LuxRender {#rendu_avec_luxrender}
+### Rendu avec LuxRender 
 
 -   Le rendu avec LuxRender fonctionne presque de la même manière. Nous pouvons laisser notre dossier ouvert et créer un nouveau projet Luxrender dans le même fichier ou le recharger pour démarrer à partir de zéro.
 -   Appuyez sur la petite flèche vers le bas à côté du bouton <img alt="" src=images/Raytrace_Lux.svg  style="width:16px;"> [New Luxrender project](Raytracing_Lux/fr.md) et choisissez le modèle **LuxOutdoor**.

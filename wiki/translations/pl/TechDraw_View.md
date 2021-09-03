@@ -108,7 +108,7 @@ Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Mo�
 
 -    {{PropertyView/pl|PokażLinięPrzekroju}}: Pokaż / ukryj linię przekroju, jeśli dotyczy.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Zobacz również:**

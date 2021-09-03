@@ -26,7 +26,7 @@ After certain boolean operations, like [Part Fuse](Part_Fuse.md), some lines fro
 ## Usage
 
 1.  Select an object that you wish to clean and copy.
-2.  Go to the menu {{MenuCommand|Part → Create a copy → <img src="images/Part_RefineShape.svg" width=16px> Refine shape}}.
+2.  Go to the menu **Part → Create a copy → <img src="images/Part_RefineShape.svg" width=16px> Refine shape**.
 3.  A cleaned, independent copy of the original object is created; the original object is hidden.
 
 As of <small>(v0.19)</small>  the result defaults to a parametric (linked) copy.

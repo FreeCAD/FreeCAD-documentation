@@ -20,7 +20,7 @@ Al desarrollar FreeCAD, uno necesita construir desde la fuente y la fase de comp
 
 Install `ccache` to cache builds.
 
-## Disable modules {#disable_modules}
+## Disable modules 
 
 When using `cmake` to configure the build, you can disable the compilation of certain workbenches that you may not need at the moment. This is useful if you only need to test a few workbenches.
 
@@ -33,7 +33,7 @@ cmake -DBUILD_FEM=OFF -DBUILD_MESH=OFF ../freecad-source
 
 Use `cmake-gui`, `cmake-curses-gui`, or `cmake-qt-gui` to display all the possible variables that can be edited in the configuration; using these interfaces you can easily switch on or off different workbenches.
 
-## Number of jobs in parallel {#number_of_jobs_in_parallel}
+## Number of jobs in parallel 
 
 After configuring with `cmake`, the `make` program launches the actual C++ compiler to work on the source code files. You can speed up compilation by working on various files at the same time. This is achieved with the `-j` option of `make`, which denotes the number of \"jobs\" or compilation commands that are run simultaneously. This option is an integer number.
 

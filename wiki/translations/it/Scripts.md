@@ -13,9 +13,9 @@ Per Scripting si intende l\'uso dell\'interprete Python interno di FreeCAD per g
 
 Le informazioni sullo scripting sono però sparse nella documentazione di FreeCAD, non c\'è una uniformità di \"scritture\" e alcune cose sono spiegate in maniera complicata per chi comincia.
 
-## Primo assaggio {#primo_assaggio}
+## Primo assaggio 
 
-Il primo ostacolo ad un semplice approccio allo scripting deriva dal fatto che non esiste un modo per accedere direttamente all\'editor Python interno a FreeCAD, con un comando di menu od un\'icona nella barra degli strumenti, sapendo però che FreeCAD apre un file con estensione `.py` nell\'editor Python interno, il trucco più semplice è quello di creare usando il proprio editor di testo preferito, un file e poi aprirlo in FreeCAD con {{MenuCommand|File → Apri}}.
+Il primo ostacolo ad un semplice approccio allo scripting deriva dal fatto che non esiste un modo per accedere direttamente all\'editor Python interno a FreeCAD, con un comando di menu od un\'icona nella barra degli strumenti, sapendo però che FreeCAD apre un file con estensione `.py` nell\'editor Python interno, il trucco più semplice è quello di creare usando il proprio editor di testo preferito, un file e poi aprirlo in FreeCAD con **File → Apri**.
 
 
 <div class="mw-translate-fuzzy">
@@ -35,7 +35,7 @@ Per fare le cose con un minimo di stile, lo script deve essere scritto con un ce
 
 ```
 
-Salvatele con un nome significativo e con estensione `.py` e caricate il file ottenuto in FreeCAD, con il comando {{MenuCommand|File → Apri}}.
+Salvatele con un nome significativo e con estensione `.py` e caricate il file ottenuto in FreeCAD, con il comando **File → Apri**.
 
 Un esempio minimale ma che contiene tutto quanto necessario per uno script è mostrato in questa porzione di codice, che potete usare come modello per quasi ogni vostro futuro script:
 
@@ -124,7 +124,7 @@ Accadranno alcune magie, si apre un nuovo documento chiamato \"Pippo\" e si visu
 
 ![Test Cube](images/Cubo.png )
 
-## Qualcosa di più\... {#qualcosa_di_più...}
+## Qualcosa di più\... 
 
 Niente di eccezionale? Vero, ma da qualcosa dobbiamo pure incominciare, possiamo fare la stessa cosa con un [Cilindro](Part_Cylinder/it.md), aggiungete queste linee dopo il metodo `cubo(` e prima della riga `# objects definition`.
 

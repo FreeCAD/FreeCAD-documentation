@@ -6,7 +6,7 @@ Diese Seite erklärt, die Art und Weise wie der <img alt="" src=images/Workbench
 
 Während der <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) und andere Arbeitsbereiche Modelle konstruieren, indem sie Formen miteinander kombinieren (siehe [Konstruktive Volumenkörpergeometrie](Constructive_solid_geometry/de.md)), verwendet der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench.md) **[Formelemente](PartDesign_Feature/de.md)**. Ein [Formelement](https://en.wikipedia.org/wiki/Feature_recognition) ist ein Vorgang, die die Form eines Modells verändert.
 
-## Formelement Bearbeitungsmethodik {#formelement_bearbeitungsmethodik}
+## Formelement Bearbeitungsmethodik 
 
 Das erste Formelement wird allgemein als **Basisformelement** bezeichnet. Wenn dem Modell weitere Formelemente hinzugefügt werden, nimmt jedes Formelement die Form des vorherigen an und fügt Inhalte hinzu oder entfernt sie, wodurch lineare Abhängigkeiten von einem Formelement zum nächsten entstehen. In der Tat imitiert diese Methodik einen gemeinsamen Herstellungsprozess: Ein Block wird auf der einen Seite geschnitten, dann auf der anderen Seite, werden Löcher hinzugefügt, dann Rundungen, usw.
 
@@ -54,11 +54,11 @@ Es kann immer nur ein Formelement gleichzeitig sichtbar sein. Es ist möglich, d
 
 Der Körper hat einen Ursprung, der aus Bezugsebenen (XY, XZ, YZ) und Achsen (X, Y, Z) besteht, die von Skizzen und Formelementen verwendet werden können. Skizzen können an Ursprungsebenen angehängt werden, und sie müssen nicht mehr auf ebene Flächen abgebildet werden, damit darauf basierende Formelementen hinzugefügt oder vom Modell abgezogen werden können.
 
-### Objekte verschieben und neu ordnen {#objekte_verschieben_und_neu_ordnen}
+### Objekte verschieben und neu ordnen 
 
 Es ist möglich, die Spitze eines Formelementes in der Mitte des Körperbaums vorübergehend neu zu definieren, um neue Objekte (Formelemente, Skizzen oder Bezugsgeometrie) einzufügen. Es ist auch möglich, Formelemente unter einem Körper neu zu ordnen oder sie in einen anderen Körper zu verschieben. Wähle das Objekt aus und rechtsklicke, um ein Kontextmenü zu sehen, das beide Optionen anbietet. Die Operation kann verhindert werden, wenn das Objekt Abhängigkeiten im Quellkörper aufweist, z.B. wenn es an einer Fläche befestigt ist. Um eine Skizze in einen anderen Körper zu verschieben, sollte sie keine Verknüpfungen zur externen Geometrie enthalten.
 
-### Unterschied zu anderen CAD Systemen {#unterschied_zu_anderen_cad_systemen}
+### Unterschied zu anderen CAD Systemen 
 
 Ein grundlegender Unterschied zwischen FreeCAD und anderen Programmen, wie Catia, besteht darin, dass FreeCAD es Ihnen nicht erlaubt, viele nicht verbundene Festkörper in einem einzigen <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> \'\'\'[Konstruktionskörper](PartDesign_Body/de.md) zu haben. Das heißt, ein neues Formelement sollte immer auf dem vorherigen aufbauen. Oder anders ausgedrückt, das neuere Formelement sollte das vorherige Formelement \"berühren\", so dass beide Formelement miteinander verschmolzen werden und zu einem einzigen Festkörper werden. Du kannst keine \"schwebenden\" Festkörper haben.
 
@@ -104,7 +104,7 @@ Das Anhängen von Objekten ist kein besonderes PartDesign Werkzeug, sondern viel
 
 Weitere Information findet man in der [Anhängen](Part_Attachment/de.md)-Seite und dem [Basic Attachment Tutorial](Basic_Attachment_Tutorial/de.md).
 
-## Ratschläge zur Erstellung stabiler Modelle {#ratschläge_zur_erstellung_stabiler_modelle}
+## Ratschläge zur Erstellung stabiler Modelle 
 
 Die Idee der parametrischen Modellierung beinhaltet, dass du die Werte bestimmter Parameter ändern kannst und die nachfolgenden Schritte entsprechend den neuen Werten geändert werden. Bei schwerwiegenden Änderungen kann das Modell jedoch aufgrund des in FreeCAD noch ungelösten [topologischen Namensproblems](topological_naming_problem/de.md) brechen. Der Bruch kann minimiert werden, wenn du die folgenden Konstruktionsprinzipien einhältst:
 
@@ -133,23 +133,23 @@ Die Idee der parametrischen Modellierung beinhaltet, dass du die Werte bestimmte
 
 </div>
 
-## Körperbau Arbeitsablauf {#körperbau_arbeitsablauf}
+## Körperbau Arbeitsablauf 
 
 Es gibt mehrere Arbeitsabläufe, die mit der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) möglich sind. Was immer zu beachten ist, ist, dass alle in einem [PartDesign Körper](PartDesign_Body/de.md) erstellten Formelemente miteinander verschmolzen werden, um das endgültige Objekt zu erhalten.
 
-### Verschiedene Skizzen {#verschiedene_skizzen}
+### Verschiedene Skizzen 
 
 Skizzen müssen von einer Ebene unterstützt werden. Diese Ebene kann eine der Hauptebenen (XY, XZ oder YZ) sein, die durch den Ursprung des Körpers definiert sind. Eine Skizze wird entweder mit einem Werkzeug wie <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Polster](PartDesign_Pad/de.md) zu einem positiven Festkörper (Additiv) oder zu einem negativen Festkörper (subtraktiv) mit einem Werkzeug wie <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Tasche](PartDesign_Pocket/de.md) ausgeformt. Der erste fügt der endgültigen Form des Körpers Volumen hinzu, während der zweite das Volumen aus der endgültigen Form schneidet. Auf diese Weise können beliebig viele Skizzen und Teilkörper erzeugt werden; die endgültige Form (Spitze) ergibt sich aus der Verschmelzung dieser Vorgänge. Natürlich kann der Körper nicht nur aus subtraktiven Operationen bestehen, da die endgültige Form ein Körper mit einem Volumen größer Null sein sollte.
 
 <img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
-### Fortlaufende Merkmale {#fortlaufende_merkmale}
+### Fortlaufende Merkmale 
 
 Skizzen können an Flächen früherer Festkörperoperationen befestigt werden. Dies kann notwendig sein, wenn man auf eine Fläche zugreifen muss, die erst nach der Erstellung eines bestimmten Merkmals verfügbar ist. Dieser Arbeitsablauf ist jedoch nicht besonders empfehlenswert, da bei einer Änderung des ursprünglichen Merkmals die folgenden Merkmale in der Sequenz ungültig werden können. Siehe [Topologisches Benennungsproblem](topological_naming_problem/de.md).
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 
-### Verwendung von Bezugsebenen zur Unterstützung {#verwendung_von_bezugsebenen_zur_unterstützung}
+### Verwendung von Bezugsebenen zur Unterstützung 
 
 
 <div class="mw-translate-fuzzy">

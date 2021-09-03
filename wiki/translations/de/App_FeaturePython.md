@@ -25,7 +25,7 @@ Zusätzlich zu den in [Anwendung DokumentObjekt](App_DocumentObject/de.md) besch
 
 Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete Objekte haben können.
 
-Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Verfügung. Versteckte Eigenschaften werden durch den Befehl {{MenuCommand|Alle anzeigen}} im Kontextmenü des [Eigenschaftseditors](property_editor/de.md) angezeigt.
+Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Verfügung. Versteckte Eigenschaften werden durch den Befehl **Alle anzeigen** im Kontextmenü des [Eigenschaftseditors](property_editor/de.md) angezeigt.
 
 ### Daten
 

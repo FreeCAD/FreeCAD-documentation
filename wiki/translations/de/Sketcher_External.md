@@ -37,21 +37,21 @@ Das bedeutet, dass du nicht auf Taschen verweisen kannst, die mit dieser Skizze 
 
 Die Skizze muss sich nicht auf einer Fläche befinden, um dieses Werkzeug zu nutzen. Direkte Verbindungen zwischen Skizzen sind möglich und erwünscht, da sie zuverlässiger sind.
 
-### Erscheinen bei erfolgreicher Verknüpfung {#erscheinen_bei_erfolgreicher_verknüpfung}
+### Erscheinen bei erfolgreicher Verknüpfung 
 
 Eine (standardmäßig magentafarbene) farbige Linie wird überlagert, wenn eine Kante erfolgreich verknüpft ist (die Knoten sind rot), und ist in deiner Skizze nur sichtbar, wenn sich deine Skizze im Bearbeitungsmodus befindet.
 
-### Ähnlichkeit mit Konstruktionslinien {#ähnlichkeit_mit_konstruktionslinien}
+### Ähnlichkeit mit Konstruktionslinien 
 
 Äußere Geometrielinien (Standardfarbe Magenta) sind ähnlich (Standardfarbe Blau) [Konstruktionslinien](Sketcher_ToggleConstruction/de.md), mit der Ausnahme, dass die äußeren Geometrielinien Magentalinien parametrisch mit einem Element des Körpers verknüpft sind, auf den die Skizze abgebildet ist. Konstruktionsgeometrie sind Linien, die sich innerhalb der Skizze befinden, nur sichtbar sind, wenn sich die Skizze im Bearbeitungsmodus befindet, und nur für Zwangsbeschränkte Referenzen verwendet werden, und nicht direkt für spätere Körperoperationen, wie Polster oder Tasche.
 
-### Verwendung externer Geometrie in einem PartDesign Arbeitsbereich Arbeitsablauf {#verwendung_externer_geometrie_in_einem_partdesign_arbeitsbereich_arbeitsablauf}
+### Verwendung externer Geometrie in einem PartDesign Arbeitsbereich Arbeitsablauf 
 
 Im Arbeitsablauf des PartDesign Arbeitsbereichs wird das Werkzeug Externe Geometrie verwendet, um die Positionierung eines Aspekts des von Dir konstruierten Körpers im Vergleich zum vorherigen Schritt in seiner Konstruktion zu unterstützen. PartDesign Arbeitsbereich ist für die Herstellung eines einzelnen Körpers vorgesehen, daher werden diese Skizzen mit externer Geometrie verwendet, um ein neues Merkmal dieses einen Körpers zu erzeugen.
 
 Die Außengeometrie kann beispielsweise als Referenz für eine Zwangsbeschränkung verwendet werden, mit der ein Loch in einem Objekt an einer bestimmten Stelle relativ zu einer Kante oder einem Scheitelpunkt positioniert wird.
 
-### Verwendung der externen Geometrie in einem Teil Arbeitsbereich Arbeitsablauf {#verwendung_der_externen_geometrie_in_einem_teil_arbeitsbereich_arbeitsablauf}
+### Verwendung der externen Geometrie in einem Teil Arbeitsbereich Arbeitsablauf 
 
 Du kannst jede beliebige Teilegeometrie verwenden, die sich im Koordinatensystem der Skizze befindet. Es wird empfohlen, auf das nächstmögliche Merkmal zu verknüpfen, da es eine stabilere Verbindung bildet.
 

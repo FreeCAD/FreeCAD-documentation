@@ -143,7 +143,7 @@ This command will replace all the secure links to the old SourceForge Forum with
 
 {{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecadweb.org"}}
 
-## FreeCAD Wiki Related Commands {#freecad_wiki_related_commands}
+## FreeCAD Wiki Related Commands 
 
 Count all pages that a specific wiki templates is used in
 

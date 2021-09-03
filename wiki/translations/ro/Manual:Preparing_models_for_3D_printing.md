@@ -22,7 +22,7 @@ Dacă ați fost prudenți în timpul modelării, cea mai mare parte a dificultă
 
 Mai jos, vom presupune că sunt îndeplinite primele două criterii și că până acum puteți produce obiecte solide cu dimensiuni corecte. Vom vedea acum cum să abordăm al treilea punct.
 
-### Exportarea feliilor {#exportarea_feliilor}
+### Exportarea feliilor 
 
 Aceasta este metoda cea mai frecvent utilizată pentru tipărirea 3D. Obiectul 3D este exportat către un alt program (dispozitivul de feliere), care va genera codul G de la obiect, prin împărțirea acestuia în straturi subțiri (de aici numele), care vor reproduce mișcările pe care le va face imprimanta 3D. Deoarece multe dintre aceste imprimante sunt construite acasă, există adesea diferențe mici de la una la alta. Aceste programe oferă de obicei posibilități avansate de configurare care vă permit să adaptați ieșirea exact pentru caracteristicile imprimantei 3D.
 
@@ -80,7 +80,7 @@ Toate manipulările cu plase, în FreeCAD, sunt realizate de un alt atelier de l
 
 Dacă nu dețineți o imprimantă, este de obicei foarte ușor să găsiți servicii comerciale care vă vor tipări și trimite prin poștă. Printre cele celebre sunt [Shapeways](http://www.shapeways.com/) și [Sculpteo](http://www.sculpteo.com/), dar veți găsi, de obicei, alții în orașul dvs. În toate orașele mari, veți găsi astăzi [Fab labs](https://en.wikipedia.org/wiki/Fab_lab), care sunt ateliere echipate cu o gamă de mașini de producție 3D, aproape întotdeauna au cel puțin o imprimantă 3D. Laboratoarele Fab sunt, de obicei, spații comunitare, care vor fi utilizate pentru mașinile lor, contra cost sau gratuit, în funcție de laboratorul Fab, dar vă vor învăța cum să utilizați și să promovați alte activități în jurul producției 3D.
 
-### Utilizare Slic3r {#utilizare_slic3r}
+### Utilizare Slic3r 
 
 [Slic3r](http://slic3r.org/) este o aplicație care convertește obiectele STL în cod G care poate fi trimise direct la imprimante 3D. Ca și FreeCAD, acesta este gratuit, open source și rulează pe Windows, Mac OS și Linux. Configurarea corectă a lucrurilor pentru imprimarea 3D este un proces complicat, în care trebuie să aveți o bună cunoaștere a imprimantei dvs. 3D, deci nu este foarte util să generați codul G înainte de a merge la printat (codul dvs G ar putea să nu meargă pe o altă imprimantă), dar este oricum util pentru a verifica dacă fișierul nostru va fi printabil fără probleme.
 
@@ -91,7 +91,7 @@ Acesta este fișierul nostru exportat STL deschis în Slic3r. Prin utilizarea fu
 
 <div class="mw-translate-fuzzy">
 
-### Utilizarea addon Cura {#utilizarea_addon_cura}
+### Utilizarea addon Cura 
 
 Atenție: addon Cura nu este deocamdată funcțional pentru FreeCAD 0.17!
 
@@ -122,7 +122,7 @@ Odată ce ați instalat atât Cura, cât și atelierul Cura, le veți putea util
 
 <div class="mw-translate-fuzzy">
 
-### Generarea codulului G-code {#generarea_codulului_g_code}
+### Generarea codulului G-code 
 
  Atenție:Această secțiune a fost făcută pentru FreeCAD 0.16. Au fost făcute schimbări semnificative în crearea căii. Consultați documentația [Path workbench](Path_Workbench.md) in general sau tutorialul ca [path walk-through](Path_Walkthrough_for_the_Impatient.md)!
 

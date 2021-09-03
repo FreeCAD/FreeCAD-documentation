@@ -11,7 +11,7 @@ L\'atelier <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontI
 
 <img alt="" src=images/FEM_FrontISTR_bikeframe_screenshot.png  style="width:512px;">
 
-### Déroulement des tâches {#déroulement_des_tâches}
+### Déroulement des tâches 
 
 1.  Configurer un modèle d\'analyse par l\'atelier FEM (de la même manière que calculiX).
 2.  Passer à l\'atelier **FrontISTR** et créer un objet solveur FrontISTR en cliquant sur le bouton de la barre d\'outils <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
@@ -35,7 +35,7 @@ L\'atelier <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontI
     -   direct : MUMPS
 -   Format du fichier de sortie : AVS, VTK (paraview requis)
 
-### Fonctions prévues à l\'avenir {#fonctions_prévues_à_lavenir}
+### Fonctions prévues à l\'avenir 
 
 -   Analyse : transfert thermique, dynamique, propre, fréquence
 -   Matériaux (mécanique) : élastoplastique, hyper élastique, fluage, visco élastique.
@@ -49,15 +49,15 @@ L\'atelier <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontI
 -   Le banc d\'essai FEM FrontISTR ne supporte pas encore les analyses thermiques. FISTR lui-même peut effectuer des analyses thermiques et le support pour ceci est prévu dans un futur proche.
 -   Les analyses mécaniques pour différents matériaux dans un modèle ne sont pas encore possibles.
 
-### Résultats de comparaison {#résultats_de_comparaison}
+### Résultats de comparaison 
 
 Voir <https://github.com/FrontISTR/FEM_FrontISTR/tree/master/sample/benchmarks>.
 
 ## Installation
 
-### Gestionnaire d\'Addon {#gestionnaire_daddon}
+### Gestionnaire d\'Addon 
 
-FEM\_FrontISTR peut facilement être installé via le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) à partir du menu {{MenuCommand|Outils → Gestionnaire d'Addon}}. FEM\_FrontISTR est en cours de développement actif et reçoit de nouvelles fonctionnalités fréquemment. Vous devez donc le mettre à jour régulièrement en utilisant également le menu {{MenuCommand|Outils → Gestionnaire d'Addon}}. Le code de FEM\_FrontISTR est hébergé et développé [sur GitHub](https://github.com/FrontISTR/FEM_FrontISTR).
+FEM\_FrontISTR peut facilement être installé via le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) à partir du menu **Outils → Gestionnaire d'Addon**. FEM\_FrontISTR est en cours de développement actif et reçoit de nouvelles fonctionnalités fréquemment. Vous devez donc le mettre à jour régulièrement en utilisant également le menu **Outils → Gestionnaire d'Addon**. Le code de FEM\_FrontISTR est hébergé et développé [sur GitHub](https://github.com/FrontISTR/FEM_FrontISTR).
 
 ### Manuellement
 
@@ -68,7 +68,7 @@ Voir [Comment installer des ateliers supplémentaires](How_to_install_additional
 -   FreeCAD v0.19 ou plus récent
 -   [Paraview](https://www.paraview.org/) (optionnel)
 
-### Installation du solveur FrontISTR {#installation_du_solveur_frontistr}
+### Installation du solveur FrontISTR 
 
 Les binaires de FrontISTR seront automatiquement téléchargés et installés lors de la première exécution. Si le téléchargement ne se fait pas, veuillez suivre les étapes ci-dessous pour installer le solveur.
 

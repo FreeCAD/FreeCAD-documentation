@@ -15,7 +15,7 @@ La commande **Std Vue trimétrique** réaligne la caméra dans la [vue 3D](3D_vi
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → Vues standards → Axonometric → <img src="images/Std_ViewTrimetric.svg" width=16px> Trimétrique}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → Vues standards → Axonometric → <img src="images/Std_ViewTrimetric.svg" width=16px> Trimétrique** dans le menu.
 
 ## Script
 

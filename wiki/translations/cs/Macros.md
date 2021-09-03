@@ -24,14 +24,14 @@ See the [Power users hub](Power_users_hub.md) to learn more about the [Python](P
 
 <div class="mw-translate-fuzzy">
 
-### Jak to funguje {#jak_to_funguje}
+### Jak to funguje 
 
 Když povolíte výstup na konzolu (Menu Úpravy -\> Předvolby -\> Obecné -\> Makra -\> Zobraz skriptovací příkazy v konzole Pythonu), uvidíte ve FreeCADu, že každá operace, kterou provedete, jako je stisk tlačítka, zobrazí na výstupu příslušný příkaz Pythonu. Tyto příkazy jsou to, co se ukládá v makru. Hlavní nástroj pro vytváření maker je pruh nástrojů maker: ![](images/Macros_toolbar.jpg ). Na něm jsou 4 tlačítka: Spustit záznam, Zastavit záznam, Upravit makro a Spustit aktuální makro.
 
 
 </div>
 
-Enable the console output in the menu {{MenuCommand|Edit → Preferences → General → Macro → Show scripts commands in python console}}. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 
 <div class="mw-translate-fuzzy">
@@ -73,7 +73,7 @@ Samozřejmě, že není praktické natahovat makro do editoru vždy, když je ch
 
 </div>
 
-Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the {{MenuCommand|Tools → Customize}} menu.
+Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the **Tools → Customize** menu.
 
 ![](images/Macros_config.jpg )
 
@@ -90,7 +90,7 @@ See [Customize Toolbars](Customize_Toolbars.md) for a more detailed description.
 
 <div class="mw-translate-fuzzy">
 
-### Vytváření maker bez záznamu {#vytváření_maker_bez_záznamu}
+### Vytváření maker bez záznamu 
 
 Můžete také přímo kopírovat/vkládat kód Pythonu do makra, bez zaznamenávání operací z okna. Jednoduše vytvořte nové makro, upravte jej a vložte Váš kód. Makro můžete uložit stejným způsobem jako ukládáte dokument FreeCADu. Při příštím spuštění FreeCADu se makro objeví pod položkou \"Instalovaná makra\" v menu Makro.
 
@@ -104,7 +104,7 @@ See [How to install macros](How_to_install_macros.md) for a more detailed descri
 
 <div class="mw-translate-fuzzy">
 
-### Repozitář maker {#repozitář_maker}
+### Repozitář maker 
 
 Podívejte se na stránku [Návody pro makra](Macros_recipes/cs.md), kde najdete několik užitečných maker, která jsou přiložena k instalaci FreeCAD.
 
@@ -113,7 +113,7 @@ Podívejte se na stránku [Návody pro makra](Macros_recipes/cs.md), kde najdete
 
 There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https://github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
 
-## Additional information {#additional_information}
+## Additional information 
 
 -   [Automatically run macro at startup](Macro_at_Startup.md)
 -   [Installing more workbenches](Installing_more_workbenches.md)

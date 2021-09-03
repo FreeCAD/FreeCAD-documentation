@@ -2,9 +2,9 @@
 
 ## Introduzione
 
-La [Vista report](Report_view/it.md) è un pannello che mostra i messaggi di testo dei processi e degli strumenti di FreeCAD. È disponibile nel menu {{MenuCommand|{{StdMenu|[Visualizza](Std_View_Menu/it.md)}} → Pannelli → Vista report}}.
+La [Vista report](Report_view/it.md) è un pannello che mostra i messaggi di testo dei processi e degli strumenti di FreeCAD. È disponibile nel menu **{{StdMenu|[Visualizza](Std_View_Menu/it.md)** → Pannelli → Vista report}}.
 
-Alcune proprietà di questo pannello, come il colore del testo e se visualizzarlo automaticamente in caso di avvisi o di errori, possono essere configurate nella scheda {{MenuCommand|Generali → Output}} nell\'[editor delle preferenze](Preferences_Editor/it.md).
+Alcune proprietà di questo pannello, come il colore del testo e se visualizzarlo automaticamente in caso di avvisi o di errori, possono essere configurate nella scheda **Generali → Output** nell\'[editor delle preferenze](Preferences_Editor/it.md).
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
@@ -39,15 +39,15 @@ Queste funzioni possono essere utilizzate direttamente dalla [console Python](Py
 
 Fare clic con il tasto destro sulla vista del report per mostrare alcuni comandi:
 
--    {{MenuCommand|Opzioni}}: registro, avviso, errore, reindirizza l\'output Python, reindirizza gli errori di Python, vai alla fine.
+-    **Opzioni**: registro, avviso, errore, reindirizza l\'output Python, reindirizza gli errori di Python, vai alla fine.
 
--    {{MenuCommand|Copia}}: memorizza il testo selezionato negli appunti per un successivo incollaggio; è disabilitato se non è selezionato nulla.
+-    **Copia**: memorizza il testo selezionato negli appunti per un successivo incollaggio; è disabilitato se non è selezionato nulla.
 
--    {{MenuCommand|Seleziona tutto}}: seleziona tutto il testo della vista report.
+-    **Seleziona tutto**: seleziona tutto il testo della vista report.
 
--    {{MenuCommand|Pulisci}}: cancella tutti i messaggi nella vista report. Ciò è utile se si desidera risolvere uno problema che stampa i messaggi nella vista report e si desidera assicurarsi che non vi siano vecchi messaggi di problemi precedenti.
+-    **Pulisci**: cancella tutti i messaggi nella vista report. Ciò è utile se si desidera risolvere uno problema che stampa i messaggi nella vista report e si desidera assicurarsi che non vi siano vecchi messaggi di problemi precedenti.
 
--    {{MenuCommand|Salva con nome}}: salva i messaggi della vista report in un file di testo.
+-    **Salva con nome**: salva i messaggi della vista report in un file di testo.
 
 
 {{Interface navi

@@ -35,7 +35,7 @@ est utilisé pour créer une surface à partir d\'arêtes qui représentent des 
 
 -    **Bouton droit de la souris**: ouvrez le menu contextuel et sélectionnez **Remove** ou appuyez sur **Suppr** au clavier pour supprimer le bord actuellement sélectionné dans la liste.
 
--    {{MenuCommand|Drag}}: faites glisser l\'élément actuellement sélectionné dans la liste afin de changer l\'ordre dans lequel il sera traité. La liste est traitée de haut en bas.
+-    **Drag**: faites glisser l\'élément actuellement sélectionné dans la liste afin de changer l\'ordre dans lequel il sera traité. La liste est traitée de haut en bas.
 
 -   Appuyez sur **Cancel** ou **Echap** pour abandonner l\'opération en cours.
 
@@ -59,7 +59,7 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 -    {{PropertyView/fr|Control Points|Bool}}: la valeur par défaut est `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
 
-## Torsion de la surface {#torsion_de_la_surface}
+## Torsion de la surface 
 
 La forme de la surface dépend de la direction des arêtes choisies. Si des arêtes sont sélectionnées et que le résultat est une surface qui \"se tord\" sur elle-même, l\'une des arêtes peut avoir besoin de sa liste de sommets dans l\'ordre inverse. Voir les informations dans **<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Surface Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md)** pour une explication plus complète.
 

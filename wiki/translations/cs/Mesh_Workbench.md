@@ -39,7 +39,7 @@ Na poli inženýringu však sítě představují jeden velký problém: Jsou to 
 
 <div class="mw-translate-fuzzy">
 
-### Použití modulu Síť {#použití_modulu_síť}
+### Použití modulu Síť 
 
 
 </div>

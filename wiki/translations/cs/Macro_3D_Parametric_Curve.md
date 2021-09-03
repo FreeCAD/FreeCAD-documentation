@@ -17,11 +17,11 @@ Toto makro vytváří křivku popsanou parametrickými rovnicemi x(t), y(t) a z(
 <img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
 *Example Epicycloid curve‎*
 
-## Původní skript {#původní_skript}
+## Původní skript 
 
 Aktualizovaný kód (13/05/2015) najdete na následujícím úložišti Github: [Get the code here!](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
 
-## Upravený skript {#upravený_skript}
+## Upravený skript 
 
 <img alt="Example Epicycloid curve‎" src=images/Macro_3D_Parametric_Curve00.png  style="width:600px;">
 

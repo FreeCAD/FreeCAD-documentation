@@ -20,7 +20,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Această funcție oprește înregistrarea unei macrocomenzi. Ea este accesibilă via {{MenuCommand|Macro → Macro Stop}}, sau prin click pe **<img src=images/Std_DlgMacroStop.png style="width:16px"> Stop the macro recording session** în macros toolbar <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
+Această funcție oprește înregistrarea unei macrocomenzi. Ea este accesibilă via **Macro → Macro Stop**, sau prin click pe **<img src=images/Std_DlgMacroStop.png style="width:16px"> Stop the macro recording session** în macros toolbar <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
 
 
 </div>

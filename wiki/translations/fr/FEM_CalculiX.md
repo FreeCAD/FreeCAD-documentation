@@ -8,7 +8,7 @@ Le solveur est capable de faire des calculs linéaires et non linéaires pour de
 
 CalculiX est conçu pour fonctionner sur les plates-formes Unix telles que les ordinateurs Linux et Irix mais également sur MS-Windows. CalculiX a été développé par des ingénieurs de MTU Aero Engines, Munich, Allemagne, pour les aider à concevoir des machines telles que des turbines à jet. Le logiciel est actuellement disponible au public selon les termes de la GPL version 2.
 
-## Intégration à FreeCAD {#intégration_à_freecad}
+## Intégration à FreeCAD 
 
 L\'interaction entre l\'[atelier FEM](FEM_Workbench/fr.md) et CalculiX s\'effectue par l\'écriture et la lecture de fichiers texte. La séquence des opérations est la suivante:
 
@@ -19,7 +19,7 @@ L\'interaction entre l\'[atelier FEM](FEM_Workbench/fr.md) et CalculiX s\'effect
 
 L\'outil [FEM Réglage du solveur](FEM_SolverControl/fr.md) gère l\'ensemble du processus. L\'interaction de l\'utilisateur dans le processus est possible.
 
-## L\'interface de post-traitement {#linterface_de_post_traitement}
+## L\'interface de post-traitement 
 
 Le fichier d\'entrée utilisé par CalculiX peut être préparé et édité avant le démarrage du solveur. Les unités utilisées dans le fichier d\'entrée sont indépendantes des unités définies dans FreeCAD; ils seront toujours millimètres (mm) et Newton (N).
 
@@ -28,7 +28,7 @@ Le fichier d\'entrée utilisé par CalculiX peut être préparé et édité avan
 
 L\'interface CalculiX prend en charge les objets suivants:
 
-### Eléments MEF {#eléments_mef}
+### Eléments MEF 
 
 -   Tet4 et Tet10
 -   S3 et S6
@@ -46,7 +46,7 @@ L\'interface CalculiX prend en charge les objets suivants:
 -   un matériau élastique linéaire isotrope (uniformité dans toutes les directions)
 -   plusieurs matériaux sont en développement
 
-## Interface de post-traitement {#interface_de_post_traitement}
+## Interface de post-traitement 
 
 Le FEM Workbench charge les résultats de CalculiX dans l\'objet résultat qui contiendra :
 
@@ -60,7 +60,7 @@ FreeCAD lit les résultats du fichier \*.frd qui a été créé par CaluliX. Si 
 
 Les forces de réaction se trouvent dans le fichier ccx\_dat\_file qui contient les composantes des forces de réaction (fx, fy, fz) pour chaque contrainte fixée et pour chaque déplacement de contrainte qui contraint les degrés de liberté de déplacement.
 
-## En relation {#en_relation}
+## En relation 
 
 -   [FEM Maillage avec Calculix](FEM_Mesh_CalculiX/fr.md)
 -   [Préférences de CalculiX](FEM_Preferences/fr#CalculiX.md) dans le menu des préférences de l\'atelier FEM.

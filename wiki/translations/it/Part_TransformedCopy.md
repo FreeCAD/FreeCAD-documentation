@@ -20,7 +20,7 @@ Per produrre altre copie non parametriche utilizzare **<img src="images/Part_Sim
 ## Utilizzo
 
 1.  Selezionare un oggetto del quale si desidera effettuare una copia.
-2.  Andare nel menu {{MenuCommand|Part → Crea una copia → <img src=images/Part_TransformedCopy.svg style="width:16px"> [Copia modificata](Part_TransformedCopy/it.md)}}.
+2.  Andare nel menu **Part → Crea una copia → <img src=images/Part_TransformedCopy.svg style="width:16px"> [Copia modificata](Part_TransformedCopy/it.md)**.
 
 ## Proprietà
 

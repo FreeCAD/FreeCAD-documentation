@@ -38,7 +38,7 @@ Ground testing should start at the low end of the recommended range to prevent d
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_Calculator.svg" width=16px> [Ejection Charge Calculator](Rocket_Ejection_Charge_Calculator.md)** button.
-    -   Select the {{MenuCommand|Rocket → Calculators → <img src="images/Rocket_Calculator.svg" width=16px> Ejection Charge Calculator}} option from the menu.
+    -   Select the **Rocket → Calculators → <img src="images/Rocket_Calculator.svg" width=16px> Ejection Charge Calculator** option from the menu.
 2.  Enter the weight of your rocket and parameters for your parachute.
 
 ## Calculation

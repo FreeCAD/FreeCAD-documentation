@@ -6,7 +6,7 @@
 
 {{Manual:TOC/fr}}
 
-### Un mot sur l\'espace 3D {#un_mot_sur_lespace_3d}
+### Un mot sur l\'espace 3D 
 
 Si c\'est votre premier contact avec une application 3D, vous devez d\'abord saisir certains concepts. Dans le cas contraire, vous pouvez sauter cette section sans problème.
 
@@ -20,9 +20,9 @@ Chaque point de chaque objet de cet espace peut être repéré par ses coordonn�
 
 Vous pouvez regarder cette scène sous n\'importe quel angle comme si vous teniez une caméra. Cette caméra peut être déplacée à gauche, à droite, en haut et en bas (panoramique), tourner autour de ce que vous regardez (rotation) et vous rapprocher ou vous éloigner de la scène (zoom).
 
-### La vue 3D FreeCAD {#la_vue_3d_freecad}
+### La vue 3D FreeCAD 
 
-#### Navigation à la souris {#navigation_à_la_souris}
+#### Navigation à la souris 
 
 La navigation dans la [vue 3D](3D_view/fr.md) FreeCAD peut se faire avec une souris, un périphérique Navigateur spacial, le clavier, un pavé tactile ou une combinaison de ceux-ci. FreeCAD propose plusieurs [modes de navigation](Mouse_navigation/fr.md) qui déterminent comment les trois opérations de manipulation de la vue de base (panoramique, rotation et zoom) sont effectuées, ainsi que la façon de sélectionner des objets sur l\'écran. Les modes de navigation sont accessibles à partir de l\'écran Préférences ou directement en cliquant avec le bouton droit n\'importe où sur la [vue 3D](3D_view/fr.md):
 
@@ -49,7 +49,7 @@ Chacun de ces modes attribue différentes actions aux boutons de la souris ou bo
 | OpenCascade      | ![Clic sur le bouton central de la souris](images/Pan-mouse.svg )                                                                                                                                                                                            | ![Enfoncer le bouton central puis droit de la souris](images/Rotate-mouse-MMB+RMB.svg )                                                                                                                                                               | ![Rotation dubouton central de la souris](images/Zoom-mouse.svg )                                                                                                                                                                                              | ![Clic sur le bouton gauche de la souris](images/Select-mouse.svg )                                                    |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-#### Navigation par le clavier {#navigation_par_le_clavier}
+#### Navigation par le clavier 
 
 Certaines commandes du clavier sont toujours disponibles et ce, quel que soit le mode de navigation :
 
@@ -72,7 +72,7 @@ Certaines commandes du clavier sont toujours disponibles et ce, quel que soit le
 
 Ces contrôles sont également disponibles dans le [menu Affichage](Std_View_Menu/fr.md) et certains dans la barre d\'outils Affichage.
 
-#### Utilisation du cube de navigation {#utilisation_du_cube_de_navigation}
+#### Utilisation du cube de navigation 
 
 Dans la configuration par défaut, un [Cube de navigation](Navigation_Cube/fr.md) se trouve dans le coin supérieur droit de l\'écran 3D. Il peut être utilisé pour faire pivoter l\'objet affiché d\'un angle défini, réinitialiser l\'affichage vers une des vues standard ou changer le mode d\'affichage.
 
@@ -88,7 +88,7 @@ Le cube de navigation peut être déplacé vers n'importe quelle partie de l'aff
 
 Un petit mini-cube, situé dans le coin inférieur droit de la zone, active un menu déroulant vous permettant de changer de mode de visualisation.
 
-### Sélection d\'objets {#sélection_dobjets}
+### Sélection d\'objets 
 
 Les objets dans la vue 3D peuvent être sélectionnés en cliquant dessus avec la souris (voir détails au-dessus) en fonction du mode de navigation. Un seul clic sélectionnera l\'objet et l\'un de ses sous-composants (arête, face, sommet). Double-cliquer sélectionnera l\'objet et tous ses sous-composants. Vous pouvez sélectionner plus d\'un sous-composant voire différents sous-composants de différents objets en appuyant sur la touche CTRL. Cliquer avec le bouton de sélection sur une partie vide de la vue 3D désélectionnera tout.
 

@@ -18,7 +18,7 @@ De completat
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ElementRotation1D.svg" width=16px> [FEM ElementRotation1D](FEM_ElementRotation1D.md)** button.
-    -   Select the {{MenuCommand|Model → Element Geometry → <img src="images/FEM_ElementRotation1D.svg" width=16px> Beam rotation}} option from the menu.
+    -   Select the **Model → Element Geometry → <img src="images/FEM_ElementRotation1D.svg" width=16px> Beam rotation** option from the menu.
 2.  Specify the angle by which the beam profile is to be rotated.
 
 ## Options

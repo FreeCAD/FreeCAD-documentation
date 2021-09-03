@@ -66,13 +66,13 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 ## Verbinden
 
-### Anwendung {#anwendung_1}
+### Anwendung 
 
 1.  The end points of the [Draft Lines](Draft_Line.md) and/or Draft Wires to be joined must be exactly coincident. If required first adjust points to ensure that this is the case.
 2.  Select two or more [Draft Lines](Draft_Line.md) and/or Draft Wires.
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Wire.svg" width=16px> [Draft Wire](Draft_Wire.md)** button.
-    -   Select the {{MenuCommand|Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline}} option from the menu.
+    -   Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
     -   Use the keyboard shortcut: **P** then **L**.
 
 ## Hinweise
@@ -89,8 +89,8 @@ Der Draht kann nach doppelklicken auf das Element in der Baumansicht oder durch 
 
 Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
--   Um die Anzahl der Dezimalstellen zu ändern, die bei der Eingabe von Koordinaten verwendet werden: {{MenuCommand|Bearbeiten → Einstellungen... → Allgemein → Einheiten → Einheiteneinstellungen → Anzahl der Dezimalstellen}}.
--   Um den Anfangswert des Füllmodus zu ändern: {{MenuCommand|Bearbeiten → Einstellungen... → Entwurf → Allgemeine Einstellungen → Entwurf Werkzeuge Optionen → Objekte mit Flächen füllen, wann immer möglich}}. Ändern des Füllmodus in einem Aufgabenpaneel, wird diese Voreinstellung für die aktuelle FreeCAD Sitzung überschreiben.
+-   Um die Anzahl der Dezimalstellen zu ändern, die bei der Eingabe von Koordinaten verwendet werden: **Bearbeiten → Einstellungen... → Allgemein → Einheiten → Einheiteneinstellungen → Anzahl der Dezimalstellen**.
+-   Um den Anfangswert des Füllmodus zu ändern: **Bearbeiten → Einstellungen... → Entwurf → Allgemeine Einstellungen → Entwurf Werkzeuge Optionen → Objekte mit Flächen füllen, wann immer möglich**. Ändern des Füllmodus in einem Aufgabenpaneel, wird diese Voreinstellung für die aktuelle FreeCAD Sitzung überschreiben.
 
 ## Eigenschaften
 

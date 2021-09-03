@@ -4,7 +4,7 @@
 
 Esta página está dirigida a los usuarios interesados en migrar a FreeCAD desde el mundo de Fusion 360.
 
-## ¿Qué hago? {#qué_hago}
+## ¿Qué hago? 
 
 1.  Lo primero que debes hacer es sacar tus archivos de los formatos y almacenamientos propietarios. Empieza por exportar tus modelos desde la nube a tu máquina local.
     -   Un método popular es usar este script [Exportador total Fusion360](https://github.com/Jnesselr/fusion-360-total-exporter).
@@ -22,7 +22,7 @@ Consulte la página [Glossary](Glossary/es.md) en general, pero aquí hay una br
 -   Topodenominación - Abreviatura de [Problema de denominación topológica](Topological_naming_problem/es.md). Cubierto muy bien en [Brodie Fairhall\'s youtube clip](https://www.youtube.com/watch?v=6p2vqEEmWq4)\].
 --   
 
-## PREGUNTAS MÁS FRECUENTES {#preguntas_más_frecuentes}
+## PREGUNTAS MÁS FRECUENTES 
 
 1.  ¿Qué formatos soporta FreeCAD?
     -   El formato de archivo nativo en FreeCAD es BREP, [representación de límites](https://en.wikipedia.org/wiki/Boundary_representation), proporcionado por el núcleo de geometría interno [OpenCASCADE (OCCT)](OpenCASCADE/es.md).
@@ -35,7 +35,7 @@ Consulte la página [Glossary](Glossary/es.md) en general, pero aquí hay una br
 
 -   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) recomienda instalar el programa de HakanSeven12 [Ambiente de trabajo ModernUI](ModernUI_Workbench/es.md)
 
-## Recursos de aprendizaje {#recursos_de_aprendizaje}
+## Recursos de aprendizaje 
 
 -   [Fusion360 a FreeCAD - Introducción](https://www.youtube.com/watch?v=_GxJkB23ZHM), video par Brodie Fairhall.
 -   [Fusion360 a FreeCAD - Parte 2](https://www.youtube.com/watch?v=IESZD4QS3P8), vídeo de Brodie Fairhall.
@@ -43,7 +43,7 @@ Consulte la página [Glossary](Glossary/es.md) en general, pero aquí hay una br
 -   [Tutorial escrito para principiantes: desde la primera parte hasta el dibujo técnico](https://github.com/macdroid53/LearningFreeCAD) par macdroid53.
 -   [Un recurso online para nosotros, usuarios habituales de FreeCAD](https://www.freecad.info/).
 
-## Vídeos de comparación {#vídeos_de_comparación}
+## Vídeos de comparación 
 
 -   [Modelar una turbina de compresor en FreeCAD y Fusion360](https://www.youtube.com/watch?v=kirDbZd0dvI&feature=youtu.be)
 

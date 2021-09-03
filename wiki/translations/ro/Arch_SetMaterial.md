@@ -24,7 +24,7 @@ Instrumentul Material permite să se adauge [materials](Material.md) la document
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -63,7 +63,7 @@ Instrumentul Material permite să se adauge [materials](Material.md) la document
 
 </div>
 
-## Relation to IFC {#relation_to_ifc}
+## Relation to IFC 
 
 This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 

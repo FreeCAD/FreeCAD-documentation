@@ -64,7 +64,7 @@ Kommandot \"DB\" **skapar en binär distribution** från det gällande källträ
 
 Kommandot \"DI\" **skapar en setup distribution** från det gällande källträdet.
 
-### DistSetup {#distsetup_1}
+### DistSetup 
 
 Kommandot \"DUI\" \'\'\'skapar en användar setup distribution från det gällande källträdet.
 

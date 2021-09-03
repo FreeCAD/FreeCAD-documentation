@@ -11,7 +11,7 @@
 
 Create axis.
 
-## Types of axis {#types_of_axis}
+## Types of axis 
 
 -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Axis](Arch_Axis.md): Adds a 1-direction array of axes to the document
 -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Axes system](Arch_AxisSystem.md): Adds an axes system composed of several axes to the document

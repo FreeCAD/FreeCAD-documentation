@@ -18,7 +18,7 @@ The [ModernUI Workbench](ModernUI_Workbench.md) is an [external workbench](Exter
 -   Author: Hakan Seven
 -   Source code on github: <https://github.com/HakanSeven12/Modern-UI>
 
-## Limitations and Troubleshooting {#limitations_and_troubleshooting}
+## Limitations and Troubleshooting 
 
 -   If you experience unexpected behavior, always first try to uninstall and then reinstall the ModernUI workbench.
 -   The workbench is primarily tested with English and may exhibit unexpected behavior in other languages.
@@ -30,7 +30,7 @@ Install with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [
 
 Note: To uninstall, you have to create a macro and execute it. If you do not feel confident about this, consider to not install.
 
-### Running Modern UI in a self-contained directory {#running_modern_ui_in_a_self_contained_directory}
+### Running Modern UI in a self-contained directory 
 
 To easily test Modern UI without interfering with your standard configuration, you can contain it in a separate directory. Uninstalling Modern UI is then simply accomplished by deleting the directory. <small>(v0.19)</small> 
 

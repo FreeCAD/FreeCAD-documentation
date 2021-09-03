@@ -43,7 +43,7 @@ Wood Frame comes with the following tools:
 -   Add view to a container for export.
 -   Export views to DXF: Export container views in a DXF file.
 
-## Further resources {#further_resources}
+## Further resources 
 
 -   [Workbench documentation and demonstration videos](https://github.com/JeromeL63/Wood-Frame/blob/master/README.md).
 -   [Help: forum discussion](https://forum.freecadweb.org/viewtopic.php?t=40458).

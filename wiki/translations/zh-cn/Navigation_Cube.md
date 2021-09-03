@@ -80,7 +80,7 @@
 
 ## Configuration
 
-The navigation cube is configurable, including adjusting its size: {{MenuCommand|Edit → Preferences... → Display → Navigation → Navigation cube}} <small>(v0.19)</small> .
+The navigation cube is configurable, including adjusting its size: **Edit → Preferences... → Display → Navigation → Navigation cube** <small>(v0.19)</small> .
 
 For more advanced configuration, refer to the [CubeMenu](Interface_Customization#CubeMenu.md) [external workbench](External_workbenches.md).
 

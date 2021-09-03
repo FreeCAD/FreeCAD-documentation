@@ -20,7 +20,7 @@ Debido a los cambios en la plataforma GitHub en el año 2020 el gestor de Addons
 
 ## Utilización
 
-1.  Seleccione la opción {{MenuCommand|Herramientas → <img src="images/Std_AddonMgr.svg" width=16px> Gestor complementos}} en el menú.
+1.  Seleccione la opción **Herramientas → <img src="images/Std_AddonMgr.svg" width=16px> Gestor complementos** en el menú.
 2.  Si es la primera vez que utiliza el gestor complementos, se abrirá un cuadro de diálogo advirtiéndole de que los complementos del gestor de complementos no forman parte oficialmente de FreeCAD. Pulsa el botón **OK** para confirmar y continuar.
 3.  Se abre el cuadro de diálogo del Gestor complementos. Para más información ver [Opciones](#Opciones.md).
 4.  El botón **<img src="images/Button_valid.svg" width=16px> Actualizar todo** no funciona en este momento.
@@ -60,15 +60,15 @@ El cuadro diálogo del gestor complementos tiene dos pestañas a la izquierda, u
 -   Si el paquete [GitPython](https://github.com/gitpython-developers/GitPython) está instalado en tu ordenador, el gestor complementos lo utilizará, haciendo que las descargas sean más rápidas.
 -   También puedes instalar complementos manualmente. Ver [Cómo instalar ambientes de trabajo adicionales](How_to_install_additional_workbenches/es.md) y [Cómo instalar macros](How_to_install_macros/es.md).
 
-## Información para desarrolladores {#información_para_desarrolladores}
+## Información para desarrolladores 
 
 Si has desarrollado un ambiente de trabajo o macro, y quieres verlo incluido en el gestor complementos, lee cómo hacerlo en las páginas del repositorio: ([FreeCAD-complementos](https://github.com/FreeCAD/FreeCAD-addons/) y [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). Si añades tu macro a la página [Recetas de macros](Macros_recipes/es.md), no hay nada más que hacer, será automáticamente recogida por el gestor complementos.
 
-### Ambientes de trabajo Python {#ambientes_de_trabajo_python}
+### Ambientes de trabajo Python 
 
 Para las ambientes de trabajo en python, no necesitas ninguna aprobación específica para que tu ambientes de trabajo sea añadido al gestor de complementos y, al estar fuera del código fuente de FreeCAD, puedes elegir la licencia que quieras. Si solicitas que tu ambiente de trabajo sea añadido a la lista (no añadiremos ningún nuevo ambiente de trabajo sin una petición de sus autores), ya sea pidiéndolo en el foro o abriendo una incidencia en el repositorio [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/), tu código permanecerá en tu propio repositorio git, sólo lo añadiremos como un submódulo al repositorio [FreeCAD-complementos](https://github.com/FreeCAD/FreeCAD-addons/). Por supuesto, antes de añadir tu ambiente de trabajo, le echaremos un vistazo y nos aseguraremos de que no hay nada potencialmente problemático en él.
 
-### Ambientes de trabajo C++ {#ambientes_de_trabajo_c}
+### Ambientes de trabajo C++ 
 
 Si desarrollas un ambiente de trabajo en C++, no puede ser ejecutado directamente por los usuarios y debe ser compilado primero. Entonces tienes dos opciones, o proporcionas versiones precompiladas de tu ambiente de trabajo tú mismo, para los diferentes sistemas operativos, o debes solicitar que tu código se fusione con el código fuente de FreeCAD. Para ello, debes utilizar la licencia LGPL (o una licencia totalmente compatible como MIT o BSD), y debes presentar tus nuevas herramientas a la comunidad en el [FreeCAD forum](https://forum.freecadweb.org) para su revisión. Una vez que tu código ha sido probado y aprobado, debes hacer un fork del repositorio de FreeCAD, si no lo has hecho todavía, crear una nueva rama, empujar tu código a ella, y abrir una solicitud de pull para que tu rama se fusione con el repositorio principal.
 

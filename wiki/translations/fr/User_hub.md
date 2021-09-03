@@ -12,7 +12,7 @@ Si vous voulez apporter votre contribution à FreeCAD, vous pouvez [faire un don
 
 Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il y a des années, rendez vous à la page [Histoire](History/fr.md).
 
-## Utiliser FreeCAD {#utiliser_freecad}
+## Utiliser FreeCAD 
 
 ### Introduction
 
@@ -28,7 +28,7 @@ Voir aussi :
 
 -   [Migrer vers FreeCAD depuis Fusion360](Migrating_to_FreeCAD_from_Fusion360/fr.md)
 
-### Concepts de base de l\'application {#concepts_de_base_de_lapplication}
+### Concepts de base de l\'application 
 
 -   [Interface](Interface/fr.md) : l\'interface FreeCAD est composée de divers éléments graphiques à l\'écran, y compris la [Vue 3D](3D_view/fr.md), la [vue d\'arborescence](tree_view/fr.md), l\'[éditeur de propriétés](property_editor/fr.md), le [panneau de tâches](task_panel/fr.md) et la [console Python](Python_console/fr.md).
 -   [Navigation par la souris](Mouse_navigation/fr.md) : les différents types d\'utilisation de la souris ou du trackpad pour naviguer dans la vue 3D.
@@ -93,7 +93,7 @@ Des utilisateurs avertis ont écrit différentes [macros](macros/fr.md) pour am�
 
 Depuis FreeCAD 0.17, de nombreuses macros peuvent être installées à l\'aide du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour une liste des macros, reportez-vous à la page [Liste des macros](Macros_recipes/fr.md). Pour une installation manuelle, voir [Comment installer des macros](How_to_install_macros/fr.md).
 
-### Ateliers Externes {#ateliers_externes}
+### Ateliers Externes 
 
 Lorsque de nombreuses macros ou fonctions sont développées ensemble et organisées dans des barres d'outils et des menus, elles peuvent devenir un nouvel atelier.
 
@@ -105,7 +105,7 @@ Depuis FreeCAD 0.17, beaucoup d\'ateliers peuvent être installés à l'aide du 
 
 [Liste des commandes](List_of_Commands/fr.md) : Une liste complète des commandes disponibles dans FreeCAD.
 
-## Aide en ligne {#aide_en_ligne}
+## Aide en ligne 
 
 Il s\'agit de l\'aide en ligne officielle de FreeCAD. Veuillez noter que l\'ensemble du système d\'aide en ligne est actuellement retravaillé. Il sera utilisé pour générer un fichier .CHM, qui sera inclus avec les paquets d\'installation de FreeCAD. Actuellement, l\'aide en ligne recense quelques uns des articles les plus complets de ce wiki.
 

@@ -38,7 +38,7 @@ Alguns programadores poderão fazer uma tarefa específica por dinheiro ou podem
 -   Pode haver outros programadores interessados em fazer um trabalho específico para o projeto; se quiser acelerar o desenvolvimento de uma ideia ou característica, considere a possibilidade de contratar um desenvolvedor. Cabe-lhe elaborar uma ideia, discuti-la no fórum, e encontrar programadores interessados em realizá-la. Você pode oferecer um emprego no [subfórum de ofertas de emprego](https://forum.freecadweb.org/viewforum.php?f=31).
 -   Os trabalhos de modelagem também são bem-vindos. Nem todos os usuários experientes do FreeCAD são desenvolvedores. Usuários experientes podem ajudá-lo a migrar os seus projetos para o FreeCAD, o que contribui para a popularização do 'software' nas instituições. Ver [FreeCAD used in production](FreeCAD_used_in_production.md).
 
-## A situação {#a_situação}
+## A situação 
 
 =
 

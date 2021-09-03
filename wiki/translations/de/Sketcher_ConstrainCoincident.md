@@ -23,12 +23,12 @@ Wie oben erwähnt, benötigt dieses Werkzeug zwei Argumente - beides sind Punkte
 1.  Zunächst ist es notwendig, zwei verschiedene Punkte zu markieren. (**Hinweis:** Dies funktioniert nicht, wenn du z. B. versuchst, den Start- und Endpunkt derselben Geraden zu markieren; das Markieren des Anfangs- und Endpunkts eines Bogens erzeugt einen geschlossenen Kreis oder eine Ellipse, zwingt aber die Lage der Naht auf diesen Punkt).
 2.  Das Markieren eines Zeichenelements wird erreicht, indem man die Maus über das Element bewegt und die linke Maustaste drückt.
 3.  Es ist auch möglich, alle Elemente innerhalb eines Rechtecks durch Klicken und Ziehen zu markieren. Beim Ziehen von links nach rechts (mit einer beliebigen vertikalen Bewegung) werden nur die Formen markiert, die sich vollständig innerhalb des Rechtecks befinden; in der anderen Richtung werden alle Formen markiert, die sich mit dem Auswahlrechteck schneiden. Dies kann verwendet werden, um nur die Knoten auszuwählen, ohne die Kanten auszuwählen, indem man ein kleines Auswahlrechteck um einige Knoten von links nach rechts zieht, solange es keine Kanten gibt, die vollständig im Rechteck enthalten sind.
-4.  Ein markiertes Element ändert seine Farbe in grün. (Diese Farbe kann in {{MenuCommand|Bearbeiten → Einstellungen → Anzeige → Farben → Auswahl}} angepasst werden)
+4.  Ein markiertes Element ändert seine Farbe in grün. (Diese Farbe kann in **Bearbeiten → Einstellungen → Anzeige → Farben → Auswahl** angepasst werden)
 5.  Nachfolgende Elemente können durch Wiederholung der obigen Prozedur(en) markiert werden. **Hinweis:** Es ist nicht notwendig, eine spezielle Taste wie **Strg** gedrückt zu halten, um die Auswahl mehrerer Punkte in einer Zeichnung zu erreichen.
 6.  Sobald du zwei Punkte markiert hast, kannst du den Befehl mit verschiedenen Methoden aufrufen:
     -   Drücken auf den **<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [BeschränkeDeckungsgleich](Sketcher_ConstrainCoincident/de.md)** Beschränkungsschaltfläche in der Werkzeugleiste.
     -   Verwendung des Tastaturkürzels **C**.
-    -   Verwendung des {{MenuCommand|Skizze → Skizzierer Beschränkungen → Beschränkung deckungsgleich}} Eintrags im oberen Menü.
+    -   Verwendung des **Skizze → Skizzierer Beschränkungen → Beschränkung deckungsgleich** Eintrags im oberen Menü.
 
 
 **Ergebnis:**
@@ -40,7 +40,7 @@ Der Befehl bewirkt, dass die beiden Punkte *deckungsgleich* werden und durch ein
 
 Um zwei Punkte deckungsgleich zu machen, muss FreeCAD unbedingt einen oder beide der ursprünglichen Punkte verschieben.
 
-## Alternativen zur Deckungsgleich Beschränkung {#alternativen_zur_deckungsgleich_beschränkung}
+## Alternativen zur Deckungsgleich Beschränkung 
 
 Die beiden beschränkten Elemente einer [Deckunsgleich](Sketcher_ConstrainCoincident/de.md) Beschränkung müssen Startpunkt- oder Endpunkt Knoten oder Mittelpunkte von Bögen, Kreisen oder Ellipsen sein. Einige Kombinationen, die mit einer Deckunsgleich Beschränkung nicht möglich sind, können mit anderen Beschränkung emuliert werden:
 

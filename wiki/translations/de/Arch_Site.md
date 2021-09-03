@@ -73,7 +73,7 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 
 -    **Windrose**: Zeigt das Windrosendiagramm an oder blendet es aus (erfordert die **EPW Datei** Dateneigenschaft ausgefüllt und das Ladybug Python Modul installiert (siehe unten)
 
-## Typischer Arbeitsablauf {#typischer_arbeitsablauf}
+## Typischer Arbeitsablauf 
 
 Beginne damit, ein Objekt zu erstellen, das dein Gelände repräsentiert. Es muss eine offene Fläche sein, kein Festkörper. Es ist z.B. einfach, Netzdaten zu importieren, die über das Menü {{MenuCommand/de|Teil → Form aus Netz erstellen}} in eine Teilform umgewandelt werden können. Erstelle dann ein Baustellenobjekt, und setze dessen Eigenschaft {{PropertyData/de|Gelände}} auf das gerade erstellte Teil:
 
@@ -87,7 +87,7 @@ Die Baustellengeometrie wird neu berechnet und die Flächen, der Umfang und die 
 
 ![](images/Arch_site_example_03.jpg )
 
-## Solar- und Winddiagramme {#solar__und_winddiagramme}
+## Solar- und Winddiagramme 
 
 Wenn [Ladybug](https://www.ladybug.tools/ladybug.html) auf deinem System installiert ist, kann [Arch Standort](Arch_Site/de.md) ein Solardiagramm und/oder eine Windrose anzeigen. Dazu werden **Längengrad**, **Breitengrad** und **Deklination** (previously **Nordabweichung**) müssen korrekt eingestellt und **Solardiagramm** oder **Windrose** auf `True` gesetzt sein. Betrifft <small>(v0.17)</small>  und <small>(v0.19)</small> 
 
@@ -146,7 +146,7 @@ Site.ViewObject.SolarDiagramScale = 10000
 FreeCAD.ActiveDocument.recompute()
 ```
 
-### Sonnendiagramm unabhängig von der Baustelle {#sonnendiagramm_unabhängig_von_der_baustelle}
+### Sonnendiagramm unabhängig von der Baustelle 
 
 Ein Solardiagramm kann unabhängig von einem beliebigen Standort mit der folgenden Funktion erstellt werden. 
 ```python

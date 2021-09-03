@@ -26,7 +26,7 @@ Lantern gear wheel with roller chains are a cost-effective and robust alternativ
 1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
 2.  Invoke the command several way:
     -   Press the <img alt="" src=images/FCGear_LaternGear.svg  style="width:22px;"> [Create a Lantern gear](FCGear_LanternGear.md) button in the tool bar.
-    -   Using the {{MenuCommand|Gear Menu → Lantern gear}}.
+    -   Using the **Gear Menu → Lantern gear**.
 3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
 
 ## Properties
@@ -68,7 +68,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 Limitations are not known yet.
 
-## Useful formulas {#useful_formulas}
+## Useful formulas 
 
 -    **addendum diameter**= **module** \* **(teeth +2)**
 

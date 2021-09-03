@@ -20,7 +20,7 @@ FreeCAD também é [Multiplataformaa](https://pt.wikipedia.org/wiki/Multiplatafo
 
 Para mais informações sobre as capacidades do FreeCAD, dê uma olhada nos artigos [lista de recursos](feature_list/pt-br.md), [notas de versão](Feature_list/pt-br#Notas_de_Versão.md), e os artigos [introdução](getting_started/pt-br.md), ou veja mais [capturas de tela](screenshots/pt-br.md).
 
-### Sobre o projeto FreeCAD {#sobre_o_projeto_freecad}
+### Sobre o projeto FreeCAD 
 
 O projeto FreeCAD foi iniciado já em 2001, como descrito na página [história](history/pt-br.md).
 

@@ -14,7 +14,7 @@ Der **Std AnsichtDimetrisch**-Befehl richtet die Kamera in der aktiven [3D-Ansic
 
 ## Anwendung
 
-1.  Wähle die {{MenuCommand|Ansicht → Standardansichten → Axonometric → <img src="images/Std_ViewDimetric.svg" width=16px> Dimetrisch}}-Option aus dem Menü.
+1.  Wähle die **Ansicht → Standardansichten → Axonometric → <img src="images/Std_ViewDimetric.svg" width=16px> Dimetrisch**-Option aus dem Menü.
 
 ## Skripten
 

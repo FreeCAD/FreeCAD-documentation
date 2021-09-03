@@ -13,7 +13,7 @@ La commande **Std Édition** active ou désactive le mode d\'édition d\'un obje
 ## Utilisation
 
 1.  Si aucun objet n\'est en mode édition : sélectionnez un seul objet.
-2.  Sélectionnez l\'option {{MenuCommand|Édition → <img src="images/Std_Edit.svg" width=16px> Basculer le mode d'édition}} dans le menu.
+2.  Sélectionnez l\'option **Édition → <img src="images/Std_Edit.svg" width=16px> Basculer le mode d'édition** dans le menu.
 3.  Le mode d\'édition de l\'objet sélectionné est activé ou le mode d\'édition existant est désactivé.
 
 ## Remarques

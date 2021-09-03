@@ -21,7 +21,7 @@ Un prisme dans Part est un solide délimité par une section transversale polygo
 <div class="mw-translate-fuzzy">
 
 1.  Allez dans l\'**<img src="images/Workbench_Part.svg" width=16px> [atelier Part](Part_Workbench/fr.md)**.
-2.  Appuyez sur le bouton **<img src="images/Part_Primitives.svg" width=24px> [Création de primitives géométriques...](Part_Primitives/fr.md)** ou utilisez le {{MenuCommand|Pièce → [Créer des primitives...](Part_Primitives/fr.md) → Prisme}} dans le menu supérieur.
+2.  Appuyez sur le bouton **<img src="images/Part_Primitives.svg" width=24px> [Création de primitives géométriques...](Part_Primitives/fr.md)** ou utilisez le **Pièce → [Créer des primitives...](Part_Primitives/fr.md) → Prisme** dans le menu supérieur.
 3.  Sélectionnez **Prisme** dans la boite de dialogue et définissez les paramètres.
 
 

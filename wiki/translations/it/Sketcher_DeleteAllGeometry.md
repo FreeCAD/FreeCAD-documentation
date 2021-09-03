@@ -21,7 +21,7 @@ Questo strumento cancella tutta la geometria dallo schizzo che si sta modificand
 
 <div class="mw-translate-fuzzy">
 
-1.  Andare nel menu {{MenuCommand|Sketch → Strumenti → Cancella tutta la geometria}}.
+1.  Andare nel menu **Sketch → Strumenti → Cancella tutta la geometria**.
 2.  Rispondere **Yes** alla finestra di dialogo pop-up.
 
 

@@ -20,7 +20,7 @@ Questo strumento può essere collegato a un comando di FreeCAD, e tale comando p
 
 <div class="mw-translate-fuzzy">
 
-### Lo script principale {#lo_script_principale}
+### Lo script principale 
 
 Per prima cosa scriviamo uno script che contenga tutta la nostra funzionalità.
 
@@ -63,7 +63,7 @@ class line:
 
 {{Top}}
 
-### Spiegazione dettagliata {#spiegazione_dettagliata}
+### Spiegazione dettagliata 
 
 
 ```python
@@ -306,7 +306,7 @@ Siccome con la nostra linea abbiamo finito, terminiamo il meccanismo di callback
 
 <div class="mw-translate-fuzzy">
 
-### Test e Utilizzo dello script {#test_e_utilizzo_dello_script}
+### Test e Utilizzo dello script 
 
 Ora, salviamo il nostro script in qualche posizione in cui l\'interprete Python di FreeCAD possa trovarlo.
 
@@ -381,7 +381,7 @@ Poi, clicchiamo due volte nella vista 3D, e bingo, ecco la nostra linea! Per far
 
 <div class="mw-translate-fuzzy">
 
-### Includere lo script nell\'interfaccia di FreeCAD {#includere_lo_script_nellinterfaccia_di_freecad}
+### Includere lo script nell\'interfaccia di FreeCAD 
 
 Per essere davvero efficace il nostro nuovo strumento linea (line) dovrebbe avere un suo pulsante sull\'interfaccia, in modo da non dover digitare ogni volta tutte queste cose.
 
@@ -493,7 +493,7 @@ Questo è tutto, ora basta riavviare FreeCAD e avremo un bell\'ambiente di lavor
 
 {{Top}}
 
-### Cosa si può aggiungere? {#cosa_si_può_aggiungere}
+### Cosa si può aggiungere? 
 
 
 <div class="mw-translate-fuzzy">

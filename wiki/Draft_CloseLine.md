@@ -23,9 +23,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Wire.svg" width=16px> [Draft Wire](Draft_Wire.md)** button.
-    -   Select the {{MenuCommand|Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline}} option from the menu.
+    -   Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
     -   Use the keyboard shortcut: **P** then **L**.
-2.  The {{MenuCommand|Polyline}} task panel opens. See [Options](#Options.md) for more information.
+2.  The **Polyline** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 4.  Pick additional points in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 5.  Press **Esc** or the **Close** button to finish the command.
@@ -35,10 +35,10 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the {{MenuCommand|Relative}} checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **L** or click the {{MenuCommand|Filled}} checkbox to toggle filled mode. If filled mode is on, the created wire will have **Make Face** set to `True` and will have a filled face, provided it is closed and does not self-intersect. Note that a self-intersecting wire with a face will not display properly, for such a wire **Make Face** must be set to `False`.
--   Press **T** or click the {{MenuCommand|Continue}} checkbox to toggle continue mode. If continue mode is on, the command will restart after using **<img src="images/Draft_FinishLine.svg" width=16px> Finish** or **<img src="images/Draft_CloseLine.svg" width=16px> Close**, or after creating a closed wire by snapping to the first point of the wire, allowing you to continue creating wires.
+-   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **L** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created wire will have **Make Face** set to `True` and will have a filled face, provided it is closed and does not self-intersect. Note that a self-intersecting wire with a face will not display properly, for such a wire **Make Face** must be set to `False`.
+-   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after using **<img src="images/Draft_FinishLine.svg" width=16px> Finish** or **<img src="images/Draft_CloseLine.svg" width=16px> Close**, or after creating a closed wire by snapping to the first point of the wire, allowing you to continue creating wires.
 -   Press the {{button|<img src="images/Draft_UndoLine.svg" width=16px> Undo}} button to undo the last point. The **Ctrl**+**Z** keyboard shortcut currently does not work as expected.
 -   Press **A** or the **<img src="images/Draft_FinishLine.svg" width=16px> Finish** button to finish the command and leave the wire open.
 -   Press **O** or the **<img src="images/Draft_CloseLine.svg" width=16px> Close** button to finish the command and close the wire. A closed wire can also be created by snapping to the first point of the wire.
@@ -49,13 +49,13 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Join
 
-### Usage {#usage_1}
+### Usage 
 
 1.  The end points of the [Draft Lines](Draft_Line.md) and/or Draft Wires to be joined must be exactly coincident. If required first adjust points to ensure that this is the case.
 2.  Select two or more [Draft Lines](Draft_Line.md) and/or Draft Wires.
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Wire.svg" width=16px> [Draft Wire](Draft_Wire.md)** button.
-    -   Select the {{MenuCommand|Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline}} option from the menu.
+    -   Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
     -   Use the keyboard shortcut: **P** then **L**.
 
 ## Notes
@@ -68,8 +68,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the initial value of filled mode: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible}}. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Properties
 

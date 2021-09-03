@@ -15,7 +15,7 @@ La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> *
 <img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
 *Formes créées sur différents plans de travail*
 
-## Utilisation avec présélection {#utilisation_avec_présélection}
+## Utilisation avec présélection 
 
 1.  Faites l\'une des choses suivantes :
     -   Sélectionnez un seul objet. Les objets suivants sont pris en charge :
@@ -33,17 +33,17 @@ La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> *
         -   Une arête droite et un sommet qui ne se trouve pas sur l\'arête (étendue).
 2.  Il existe plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft Plan de travail](Draft_SelectPlane/fr.md)** de [Draft La barre](Draft_Tray/fr.md). En fonction du plan de travail actuel, ce bouton peut avoir un aspect différent.
-    -   Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionnez un plan}} dans le menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionnez un plan** dans le menu.
     -   Utilisez le raccourci clavier : **W** puis **P**.
 3.  Le plan de travail et le bouton de [Draft La barre](Draft_Tray/fr.md) sont mis à jour.
 
-## Utilisation avec post-sélection {#utilisation_avec_post_sélection}
+## Utilisation avec post-sélection 
 
 1.  Il y a plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft Plan de travail](Draft_SelectPlane/fr.md)** de [Draft La barre](Draft_Tray/fr.md). En fonction du plan de travail actuel, ce bouton peut avoir un aspect différent.
-    -   Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionnez le plan}} dans le menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionnez le plan** dans le menu.
     -   Utilisez le raccourci clavier : **W** puis **P**.
-2.  Le panneau de tâches {{MenuCommand|Préparation du plan}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+2.  Le panneau de tâches **Préparation du plan** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Effectuez l\'une des opérations suivantes :
     -   Sélectionnez un seul objet. Voir le [paragraphe précédent](#Utilisation_avec_présélection.md) pour les objets pris en charge.
     -   Sélectionner un ou plusieurs sous-éléments. Vous pouvez sélectionner :
@@ -52,13 +52,13 @@ La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> *
 4.  Cliquez n\'importe où dans la [Vue 3D](3D_view/fr.md) pour confirmer la sélection et terminer la commande.
 5.  Le plan de travail et le bouton de [Draft La barre](Draft_Tray/fr.md) sont mis à jour.
 
-## Utilisation avec les présélections {#utilisation_avec_les_présélections}
+## Utilisation avec les présélections 
 
 1.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft Plan de travail](Draft_SelectPlane/fr.md)** de [Draft La barre](Draft_Tray/fr.md). En fonction du plan de travail actuel, ce bouton peut avoir un aspect différent.
-    -   Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionnez le plan}} dans le menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionnez le plan** dans le menu.
     -   Utilisez le raccourci clavier : **W** puis **P**.
-2.  Le panneau de tâches {{MenuCommand|Préparation du plan}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+2.  Le panneau de tâches **Préparation du plan** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Appuyez sur l\'un des boutons pour terminer la commande.
 4.  Le plan de travail et le bouton de [Draft La barre](Draft_Tray/fr.md) sont mis à jour.
 
@@ -70,23 +70,23 @@ La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> *
 
 -   Appuyez sur le bouton **<img src="images/View-right.svg" width=16px> Côté (YZ)** pour aligner le plan de travail sur le plan YZ du système de coordonnées global.
 
--   Appuyez sur le bouton **<img src="images/View-isometric.svg" width=16px> Aligner selon la vue** pour aligner le plan de travail sur la [Vue 3D](3D_view/fr.md) actuelle. Si la case {{MenuCommand|Centrer le plan dans la vue}} n\'est pas cochée, l\'origine du plan de travail correspondra à l\'origine du système de coordonnées global, sinon elle correspondra au centre de la vue [3D](3D_view.md) actuelle.
+-   Appuyez sur le bouton **<img src="images/View-isometric.svg" width=16px> Aligner selon la vue** pour aligner le plan de travail sur la [Vue 3D](3D_view/fr.md) actuelle. Si la case **Centrer le plan dans la vue** n\'est pas cochée, l\'origine du plan de travail correspondra à l\'origine du système de coordonnées global, sinon elle correspondra au centre de la vue [3D](3D_view.md) actuelle.
 
 -   Appuyez sur le bouton **<img src="images/View-axonometric.svg" width=16px> Automatique** pour aligner automatiquement le plan de travail sur la [Vue 3D](3D_view/fr.md) en cours chaque fois qu\'une commande Draft ou [Arch](Arch_Workbench/fr.md) nécessitant la saisie de points est lancée. Cela équivaut à appuyer sur le bouton **<img src="images/View-isometric.svg" width=16px> Aligner selon la vue** avant d\'utiliser la commande.
 
 -    {{MenuCommand/fr|Décalage}}définit la distance perpendiculaire entre le plan calculé et le plan de travail réel en cours.
 
--   Cochez la case {{MenuCommand|Centrer le plan dans la vue}} pour placer l\'origine du plan de travail au centre de la [Vue 3D](3D_view/fr.md) actuelle. Cette option n\'a vraiment de sens que si le bouton **<img src="images/View-isometric.svg" width=16px> Aligner selon la vue** est utilisé.
+-   Cochez la case **Centrer le plan dans la vue** pour placer l\'origine du plan de travail au centre de la [Vue 3D](3D_view/fr.md) actuelle. Cette option n\'a vraiment de sens que si le bouton **<img src="images/View-isometric.svg" width=16px> Aligner selon la vue** est utilisé.
 
 -   Sélectionnez un sommet dans la [Vue 3D](3D_view/fr.md) et appuyez sur le bouton **<img src="images/Draft_Move.svg" width=16px> Déplacer le plan de travail** pour déplacer le plan de travail afin que son origine corresponde à la position du sommet sélectionné.
 
--    {{MenuCommand|Grid spacing}}définit la distance entre les lignes de la grille.
+-    **Grid spacing**définit la distance entre les lignes de la grille.
 
--   La valeur de {{MenuCommand|Ligne principale tous les}} détermine l\'endroit où les lignes de grille principales sont dessinées. Les lignes de grille principales sont légèrement plus épaisses que les lignes de grille normales. Par exemple, si l\'espacement de la grille est de {{Value|0.5 m}} et qu\'une ligne principale est tracée toutes les {{Value|10 lignes}}, une telle ligne sera tracée tous les {{Value|5 m}}.
+-   La valeur de **Ligne principale tous les** détermine l\'endroit où les lignes de grille principales sont dessinées. Les lignes de grille principales sont légèrement plus épaisses que les lignes de grille normales. Par exemple, si l\'espacement de la grille est de {{Value|0.5 m}} et qu\'une ligne principale est tracée toutes les {{Value|10 lignes}}, une telle ligne sera tracée tous les {{Value|5 m}}.
 
--   La valeur de {{MenuCommand|Extension de la grille}} détermine le nombre de lignes de grille dans les directions X et Y de la grille.
+-   La valeur de **Extension de la grille** détermine le nombre de lignes de grille dans les directions X et Y de la grille.
 
--    {{MenuCommand|Rayon d'aimantation}}est la distance maximale à laquelle [Draft Accrochage Grille](Draft_Snap_Grid/fr.md) détecte les intersections des lignes de la grille.
+-    **Rayon d'aimantation**est la distance maximale à laquelle [Draft Accrochage Grille](Draft_Snap_Grid/fr.md) détecte les intersections des lignes de la grille.
 
 -   Appuyez sur le bouton **<img src="images/view-fullscreen.svg" width=16px> Vue centrale** pour utiliser l\'origine du plan de travail en cours comme centre de la [Vue 3D](3D_view/fr.md).
 
@@ -104,9 +104,9 @@ La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> *
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Les paramètres de la grille dans le panneau des tâches ainsi que plusieurs autres paramètres de la grille sont disponibles en tant que préférences : {{MenuCommand|Edition → Préférences... → Draft → Grille et aimantation → Grille}}.
--   Pour utiliser la grille, {{MenuCommand|Edition → Préférences... → Draft → Grille et aimantation → Grille → Activer la grille}} doit être sélectionnée. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
--   Le rayon d\'aimantation peut également être modifié à la volée (voir [Draft Accrochage](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)) ou en modifiant : {{MenuCommand|Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → snapRange}}.
+-   Les paramètres de la grille dans le panneau des tâches ainsi que plusieurs autres paramètres de la grille sont disponibles en tant que préférences : **Edition → Préférences... → Draft → Grille et aimantation → Grille**.
+-   Pour utiliser la grille, **Edition → Préférences... → Draft → Grille et aimantation → Grille → Activer la grille** doit être sélectionnée. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
+-   Le rayon d\'aimantation peut également être modifié à la volée (voir [Draft Accrochage](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)) ou en modifiant : **Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
 ## Script
 

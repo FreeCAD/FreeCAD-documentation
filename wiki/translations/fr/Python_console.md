@@ -11,7 +11,7 @@ La console Python de FreeCAD a une coloration syntaxique de base, capable de dif
 
 *La console Python affichant des messages lorsque FreeCAD vient de démarrer.*
 
-## Création de scripts {#création_de_scripts}
+## Création de scripts 
 
 
 **Pour les débutants complets, voir :**
@@ -55,23 +55,23 @@ ces modules et alias pré-chargés ne sont disponibles qu\'à partir de la conso
 
 Un clic droit sur la console Python affiche certaines commandes:
 
--    {{MenuCommand|Copy}}: stocke le texte sélectionné dans le presse-papiers pour un collage ultérieur ; il est désactivé si rien n\'est sélectionné.
+-    **Copy**: stocke le texte sélectionné dans le presse-papiers pour un collage ultérieur ; il est désactivé si rien n\'est sélectionné.
 
--    {{MenuCommand|Copy command}}: stocke la commande sélectionnée dans le presse-papiers pour le coller ultérieurement ; il est désactivé si rien n\'est sélectionné.
+-    **Copy command**: stocke la commande sélectionnée dans le presse-papiers pour le coller ultérieurement ; il est désactivé si rien n\'est sélectionné.
 
--    {{MenuCommand|Copy history}}: copie l\'intégralité de l\'historique des commandes Python entrées dans cette session.
+-    **Copy history**: copie l\'intégralité de l\'historique des commandes Python entrées dans cette session.
 
--    {{MenuCommand|Save history as}}: enregistre l\'intégralité de l\'historique des commandes Python entrées dans cette session dans un fichier texte.
+-    **Save history as**: enregistre l\'intégralité de l\'historique des commandes Python entrées dans cette session dans un fichier texte.
 
--    {{MenuCommand|Paste}}: colle le texte précédemment copié dans le presse-papiers dans la console Python.
+-    **Paste**: colle le texte précédemment copié dans le presse-papiers dans la console Python.
 
--    {{MenuCommand|Select all}}: sélectionne tout le texte de la console Python.
+-    **Select all**: sélectionne tout le texte de la console Python.
 
--    {{MenuCommand|Clear console}}: efface toutes les commandes entrées dans la console Python. Ceci est utile si la console Python est pleine de messages et de commandes entrées précédemment qui pourraient gêner lors du test d'une nouvelle fonction. Ceci est simplement esthétique, car cette commande ne supprime pas les variables existantes ni les modules importés dans la session.
+-    **Clear console**: efface toutes les commandes entrées dans la console Python. Ceci est utile si la console Python est pleine de messages et de commandes entrées précédemment qui pourraient gêner lors du test d'une nouvelle fonction. Ceci est simplement esthétique, car cette commande ne supprime pas les variables existantes ni les modules importés dans la session.
 
--    {{MenuCommand|Insert file name}}: ouvre une boîte de dialogue pour rechercher un fichier dans le système, puis insère le chemin complet du fichier. Ceci est utile pour tester les fonctions qui traitent un fichier d\'entrée sans avoir à écrire le nom complet dans la console, ce qui est sujet aux erreurs. Cette commande n\'exécute pas le fichier et ne l\'importe pas en tant que module Python. Elle renvoie simplement le chemin complet de ce fichier.
+-    **Insert file name**: ouvre une boîte de dialogue pour rechercher un fichier dans le système, puis insère le chemin complet du fichier. Ceci est utile pour tester les fonctions qui traitent un fichier d\'entrée sans avoir à écrire le nom complet dans la console, ce qui est sujet aux erreurs. Cette commande n\'exécute pas le fichier et ne l\'importe pas en tant que module Python. Elle renvoie simplement le chemin complet de ce fichier.
 
--    {{MenuCommand|Word wrap}}: enveloppe les très longues lignes qui dépassent la dimension horizontale de la console Python.
+-    **Word wrap**: enveloppe les très longues lignes qui dépassent la dimension horizontale de la console Python.
 
 ## Remarques
 

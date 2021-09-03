@@ -12,7 +12,7 @@ Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
 
 Ce projet cherche à mettre en œuvre un système décent d\'unités dans FreeCAD. Il suit les règles de la \[<http://en.wikipedia.org/wiki/GTD#GTD_methodology>\| Getting things done\]. Les projets sont collectées dans la feuille de [route](Development_roadmap/fr.md).
 
-## But et principes {#but_et_principes}
+## But et principes 
 
 Il s\'agit d\'un projet de développement logiciel visant à mettre en œuvre un [système unitaire](units/fr.md) dans FreeCAD.
 
@@ -32,7 +32,7 @@ Et vous trouverez beaucoup d\'informations dans l\'article dédié aux [Unités]
 
 ## Organisation
 
-### Mise à jour de l\'analyse des unités {#mise_à_jour_de_lanalyse_des_unités}
+### Mise à jour de l\'analyse des unités 
 
 Mise à jour de l\'analyseur, pour gérer, et, générer des **signatures** comme nous l\'expliquons dans l\'article **[Unités](Units/fr.md)**.
 
@@ -42,12 +42,12 @@ Modification des propriétés, former des propriétés de Grandeur, par exemple 
 
 Finalement, créer un éditeur de propriétés pour **PropertyUntit** gérable par l\'utilisateur.
 
-### Établi (boîte à outils) {#établi_boîte_à_outils}
+### Établi (boîte à outils) 
 
 -   Mise à jour de la boîte à outils pour l\'utiliser dans le cadre des unités. Je voudrais commencer par, **[Sketcher](Sketcher_Workbench/fr.md)** et **[PartDesign](PartDesign_project/fr.md)** et aller ensuite plus loin \...
 -   Documenter le processus de mise à jour, pour que les autres développeurs puissent faire de même avec d\'autres ateliers - [Yorikvanhavre](User:Yorikvanhavre.md) 13:13, 28 Novembre 2011 (UTC)
 
-## Actions suivantes {#actions_suivantes}
+## Actions suivantes 
 
 -   Mise à niveau des analyseurs d\'unités ([jriegel](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=67)).
 

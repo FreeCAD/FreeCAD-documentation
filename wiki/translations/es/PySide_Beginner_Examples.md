@@ -18,7 +18,7 @@ Esta guía es una lista de atajos para hacer que un programa PySide funcione rá
 -   [Tutorial de PySide/PyQt](http://www.pythoncentral.io/series/python-pyside-pyqt-tutorial/) en PythonCentral.io
 -   [Referencia PySide 1.0.7](http://srinikom.github.io/) en Srinikom.github.io (note que esto es una referencia, no un tutorial)
 
-## Declaración de importación {#declaración_de_importación}
+## Declaración de importación 
 
 PySide no está cargado con Python por defecto, debe ser solicitado antes de usarlo. El siguiente comando: 
 ```python
@@ -28,7 +28,7 @@ from PySide import QtGui
 
 Las declaraciones de importación no se repiten en los fragmentos que figuran a continuación; se supone que se hace al principio en cada caso.
 
-## Ejemplo simple {#ejemplo_simple}
+## Ejemplo simple 
 
 La interacción más simple con PySide es presentar un mensaje al usuario que sólo puede aceptar: 
 ```python
@@ -37,7 +37,7 @@ reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 
 ![](images/PySideScreenSnapshot5.jpg )
 
-## Sí o no consulta {#sí_o_no_consulta}
+## Sí o no consulta 
 
 La siguiente interacción más simple es pedir una respuesta de sí/no: 
 ```python
@@ -56,7 +56,7 @@ if reply == QtGui.QMessageBox.No:
 
 ![](images/PySideScreenSnapshot6.jpg )
 
-## Introducir consulta de texto {#introducir_consulta_de_texto}
+## Introducir consulta de texto 
 
 El siguiente fragmento de código le pide al usuario un trozo de texto: 
 ```python
@@ -78,7 +78,7 @@ anInteger = int(userInput) # to convert to an integer from a string representati
 aFloat = float(userInput) # to convert to a float from a string representation
 ```
 
-## Más de 2 botones {#más_de_2_botones}
+## Más de 2 botones 
 
 El último ejemplo del Nivel de Principiantes es de cómo construir un diálogo con un número arbitrario de botones. Este ejemplo es programáticamente demasiado complejo para ser invocado desde una sola sentencia Python, así que de alguna manera debería estar en la siguiente página que son ejemplos de PySide Medium. Pero por otro lado esto es a menudo todo lo que se necesita sin entrar en definiciones complejas de GUI, así que el código se coloca al final de la página de esta página de PySide Principiante en lugar de al principio de la siguiente página de PySide Medio. 
 ```python

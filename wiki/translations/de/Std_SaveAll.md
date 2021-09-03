@@ -12,7 +12,7 @@ The **Std SaveAll** command saves all open documents.
 
 ## Anwendung
 
-1.  Select the {{MenuCommand|File → <img src="images/Std_SaveAll.svg" width=16px> Save All}} option from the menu.
+1.  Select the **File → <img src="images/Std_SaveAll.svg" width=16px> Save All** option from the menu.
 2.  For new documents: enter a filename in the dialog box and press the **Save** button.
 
 ## Optionen
@@ -21,7 +21,7 @@ The **Std SaveAll** command saves all open documents.
 
 ## Einstellungen
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Skripten
 

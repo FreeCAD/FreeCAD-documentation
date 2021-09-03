@@ -111,7 +111,7 @@ V době, kdy je psán tento text, [Pracovní ploch Architektura](Arch_Workbench/
 
 </div>
 
-## Typický pracovní postup {#typický_pracovní_postup}
+## Typický pracovní postup 
 
 
 <div class="mw-translate-fuzzy">
@@ -149,7 +149,7 @@ Takto vypadá soubor po otevření ve FreeCADu. Změnil jsem taky tloušťku zd�
 
 [DXF importer](Draft_DXF/cs.md) (který se také umí postarat o DWG soubory, protože při importu DWG souborů jsou nejdříve jednoduše zkonvertovány do DXF) seskupuje importované objekty podle vrstev. Ve FreeCADu nejsou vrstvy, ale [skupiny](Std_CreateGroup/cs.md). [Skupiny](Std_CreateGroup/cs.md) nabízejí jednoduchý způsob organizace objektů v souborech, ale nemají specifické vlastnosti jako vrstvy v AutoCADu, které se aplikují na jejich obsah. Ale mohou být umístěny uvnitř jiných skupin což je velmi šikovné. První věc, kterou zde budeme chtít udělat je vytvořit novou [skupinu](Std_CreateGroup/cs.md) (v [okně stromu](Document_structure/cs.md)), klikněte pravým tlačítkem myši na ikonu dokumentu, přidejte skupinu, klikněte na ni pravým tlačítkem myši a přejmenujte ji na \"base 2D plans\" a přetáhněte do ní všechny ostatní objekty .
 
-## Výstavba zdí {#výstavba_zdí}
+## Výstavba zdí 
 
 
 <div class="mw-translate-fuzzy">
@@ -219,7 +219,7 @@ Teď posuňme naše zdi vodorovně na jejich správnou pozici. Protože máme za
 
 Nakonec jsem změnil barvu některých zdí na cihlovou (je to snadnější pro odlišení) a udělal malou korekci: Některé zdi nejdou až ke střeše, ale skončí na výšce 2.60m. Upravil jsem výšku těchto zdí.
 
-## Zvednutí struktury {#zvednutí_struktury}
+## Zvednutí struktury 
 
 Nyní, protože musíme snížit zdi odebráním objektu, mohli bychom se podívat jestli tam nejsou další objekty, které budou potřebovat tímto způsobem snížit. Jsou tam, některé ze sloupů. To je dobrá příležitost představit další z objektů architektury: [Strukturu](Arch_Structure/cs.md). Objekty struktury se víceméně chovají jako zdi, ale nejsou vytvořeny ze základové přímky. Spíše preferují práci z profilu, který se vysune (podél přímky profilu nebo ne) Jakýkoliv plochý objekt může sloužit jako profil pro strukturu, s jediným požadavkem: musí tvořit uzavřený tvar.
 
@@ -262,7 +262,7 @@ Pamatujte si, že pro oba nástroje [Přidat](Arch_Add/cs.md) i [Odebrat](Arch_R
 
 {{Note|Poznámka k přidávání a odebírání|Architektonické objekty které podporují takovéto přidávání a odebírání (všechny kromě pomocných "visual" objektů jako jsou osy) sledují takové objekty pomocí dvou vlastností , resp. "Přídavky" a "Odběry", které obsahují seznam odkazů na jiné objekty, které jsou odebrány nebo přidány.Nějaký objekt může být na seznamech některých jiných objektů, stejně jako náš odebíraný objem zde. Každý z "otců" jej bude chtít hodit do sebe v okně stromu, nicméně obyčejně zůstane v posledním objektu. Ale vždy můžete tento seznam pro každý objekt upravit, dvojklikem v okně stromu, což ve FreeCADu znamená, že se přechází do editačního módu. Editační mód ukončíte stisknutím klávesy ESC.}}
 
-## Vytvoření střech {#vytvoření_střech}
+## Vytvoření střech 
 
 Nyní co nám zbývá k dokompletování struktur je vytvoření střech a menších vnitřních desek. Opět nejjednodušší cestou je nakreslit jejich profil nad řezem pomocí nástroje [Drát](Draft_Wire/cs.md). Tady jsem nakreslil 3 profily jeden nad druhým (odsunul jsem je od sebe, v pohledu dole to můžeme vidět lépe). Zelený bude použit pro pozdější ohraničení desky střechy, potom modrý pro boční části a červený pro střední část, které je nad blokem koupelny:
 
@@ -282,7 +282,7 @@ A ještě musí být opravena jedna věc, v koupelně je malá betonová deska, 
 
 <img alt="" src=images/Arch_tutorial_16.jpg  style="width:1024px;">
 
-## Podlahy, schodiště a komín {#podlahy_schodiště_a_komín}
+## Podlahy, schodiště a komín 
 
 Teď je naše struktura kompletní a zbývá už jen dodělat pár měnších objektů.
 
@@ -324,7 +324,7 @@ Také nezapomeňte snížit sloup, který protíná schodiště, protože v BIM 
 
 Výborně! Všechna těžká práce je nyní udělána a nyní se dejme do mnohem těžší práce!
 
-## Dveře a okna {#dveře_a_okna}
+## Dveře a okna 
 
 Nástroj [Architektura Okno](Arch_Window/cs.md) je pěkně složitá záležitost. Používá se pro vytvoření všech druhů \"vložených\" objektů jako jsou okna nebo dveře. Ano, ve FreeCADu jsou dveře speciálním druhem okna. Ve skutečném životě taky, nemyslíte? Nástroj [Architektura Okno](Arch_Window/cs.md) může být stále ještě poněkud obtížnější na používání , ale to je za to, že byl sestaven pro maximální výkon. Může s ním být vytvořen téměř jakýkoliv druh okna podle vašich představ. Ale až tento nástroj bude mít v budoucnosti víc předvoleb, situace bude lepší.
 
@@ -338,7 +338,7 @@ Objekt [Architektura Okno](Arch_Window/cs.md) funguje následovně: Je založen 
 
 Ve FreeCADu jsou dva způsoby jak vytvořit takové objekty: Použitím předvoleb nebo nakreslením plánu okna od začátku. Zde se podíváme na oba způsoby. Ale pamatujte, že metoda s předvolbami nedělá nic jiného, než že vytvoří objekt plánu a definuje potřebná vysunutí.
 
-### Použití předvoleb {#použití_předvoleb}
+### Použití předvoleb 
 
 Při stisknutí nástroje [Architektura Okno](Arch_Window/cs.md) bez vybrání objektu, jste požádáni o zadání 2D plánu nebo zadání předvoleb. Použijme předvolbu \"Jednoduché dveře\" pro umístění hlavních vchodových dveří našeho modelu. Zadáme šířku 1m, výšku 2.45m a rozměr W1 0.15m, ostatní parametry ponechte na 0.05m. Když pak kliknete na levý spodní roh zdi, vytvoří se nové dveře:
 
@@ -352,7 +352,7 @@ Máme druhé dveře, přesně stejné jako ty první, trochu vlevo. Místo vytv�
 
 Takže všechno co musíme udělat je vybrat dveře, stisknout nástroj [Kreslení Klon](Draft_Clone/cs.md) a potom přesunot klon na jeho správnou pozici pomocí nástroje [Kreslení Posun](Draft_Move/cs.md).
 
-### Organizace modelu {#organizace_modelu}
+### Organizace modelu 
 
 <img alt="" src=images/Arch_tutorial_24.jpg  style="width:400px;">
 
@@ -391,7 +391,7 @@ Při bližším pohledu na bokorys, najdeme další chybu: Vrchol cihlové zdi n
 
 A teď je podívejme na opravdu zajímavou věc: Jak navrhnout naše vlastní uživatelské okno.
 
-### Vytváření uživatelských oken {#vytváření_uživatelských_oken}
+### Vytváření uživatelských oken 
 
 
 <div class="mw-translate-fuzzy">
@@ -435,7 +435,7 @@ Poslední chybějící část je segment zdi, který není vidět na půdorysu a
 
 Hotovo? Zatím ne. Podívejte se na obrázek nahoře, naše dveře jsme udělali s 5cm rámečkem, vzpomínáte (to bylo defaultní v předvolbě). Ale ostatní okna mají rámečky 2.5cm. To také musí být opraveno.
 
-### Úpravy oken {#úpravy_oken}
+### Úpravy oken 
 
 Už jsme si ukázali jak vytvářet a upravovat komponenty oken, pomocí editačního módu oken, ale můžeme i editovat podkladový náčrt. Předvolby oken se neliší od uživatelských oken, nástroj [Okno](Arch_Window/cs.md) pouze vytváří podkladový náčrt. Vyberte náš objekt dveří (původní, ne kopii, pamatujte, že je to klon) a rozbalte jej v okně stromu. Tam je náš náčrt. Dvojklikněte na něj a přejdete do editačního módu.
 
@@ -453,7 +453,7 @@ Když upravujeme náčrt našich dveří, vidíme, že je proveden na plně vazb
 
 Všechno co teď musíme udělat je upravit vzdálenost 5cm mezi vnější a vnitřní linkou dvojklikem na ně a změnou jejich hodnoty na 2.5cm (Pamatujte, že jednotky stále ještě nejsou plně funkční v době, kdy to píšu). Po kliknutí na tlačítko \"OK\", jsou dveře (a jejich klon) aktualizovány.
 
-## Práce bez 2D podpory {#práce_bez_2d_podpory}
+## Práce bez 2D podpory 
 
 Naše práce byla až doteď relativně snadná, protože jsme měli podkladový 2D výkres jako základ, nad kterým jsme pracovali. Ale teď musíme udělat protější průčelí a skleněné atrium a věci se začínají komplikovat: Výkres protějšího průčelí má spoustu chyb, nepředstavuje atrium celé a jednoduše také nemáme výkres vnitřníh zdí atria. Proto si musíme pár věcí vymyslet sami. Určitě se podívejte na [odkazované obrázky](http://www.pedrokok.com.br/2010/02/residencia-artigas-sao-paulo-sp/img_8265-533px/) pro představu jak je to uděláno. A nebo si to udělejte podle sebe!
 
@@ -499,7 +499,7 @@ Po tom co okno otočíme a posuneme na místo, je atrium kompletní:
 
 <img alt="" src=images/Arch_tutorial_40.jpg  style="width:1024px;">
 
-## Úpravy a opravy {#úpravy_a_opravy}
+## Úpravy a opravy 
 
 Když se nyní podíváme na zadní průčelí a porovnáme je s plánem , vidíme, že jsou tam nějaké rozdíly, které musejí být opraveny. A to, že ložnicová okna jsou menší než jsem si prvně myslel a budeme muset přidat nějaké další zdi. Aby to bylo uděláno správně, některá podlaží musejí být snížena:
 
@@ -528,13 +528,13 @@ Všimněte si, že komínové trubice, která je vytvořena z kružnice, kterou 
 
 A teď, když jsme prošli tou těžkou prací při budování našeho modelu, přichází odměna: Co s tím můžeme dělat? V základě je to velká výhoda, pracovat s BIM, všechny naše tradiční architektonické požadavky, jako jsou 2D výkrasy (plány, řezy, atd.) vykreslování ve 3D a výpočty (výkaz výměr - seznam množství) mohou být získány z tohoto modelu. A ještě lépe, zregenerují se vždy, když je model upraven. Zde Vám ukážu jak získat tyto různé dokumenty.
 
-## Příprava {#příprava_1}
+## Příprava 
 
 Před začátkem exportu je zajímavé udělat zajímavou úvahu: Jak jste viděli, náš model se stává čím dál tím víc složitý, se spoustou vztahů mezi objekty. To vyžaduje následné výpočtové operace, které jsou náročné, jako je prořezání skrz model. Jeden způsob jak kouzelně \"zjednodušit\" drasticky Váš model je vyjmutí celé této složitosti tak, že model exportujete do formátu [STEP](http://en.wikipedia.org/wiki/ISO_10303-21). Tento formát zachová celou Vaši konstrukci, ale vypustí všechny vztahy a parametrické konstrukce a podrží pouze konečný tvar. Když tento STEP soubor potom znovu naimportujete do FreeCADu, získáte model, který nemá žádné vztahy a má mnohem menší velikost souboru. Představte si ho jako \"výstupní\" soubor, který můžete kdykoliv regenerovat z \"hlavního\" souboru:
 
 <img alt="" src=images/Arch_tutorial_44.jpg  style="width:1024px;">
 
-### Exportování do IFC a dalších aplikací {#exportování_do_ifc_a_dalších_aplikací}
+### Exportování do IFC a dalších aplikací 
 
 <img alt="" src=images/Arch_tutorial_45.jpg  style="width:400px;">
 
@@ -569,7 +569,7 @@ Ale pro rychlé renderování Vám pracovní plocha Raytracing poskytne už doce
 
 Pracovní plocha Raytracing zatím nabízí velmi omezenou správu materiálů, ale osvětlení a prostředí jsou definovány v šablonách a proto mohou být plně uživatelsky upravovány.
 
-### 2D výkresy {#d_výkresy}
+### 2D výkresy 
 
 Nejdůležitějším použití BIM je určitě automatická výroba 2D výkresů. Ve FreeCADu se to dělá nástrojem [Architektura Rovina řezu](Arch_SectionPlane/cs.md). Tento nástroj umožňuje umístit objekt roviny řezu ve 3D pohledu, kterým můžete orientovat výrobu plánů, řezů a nárysů. Roviny řezů musí znát objekty, které musí obsahovat, proto jakmile nějaký vytvoříte, musíte jej přidat nástrojem [Přidat](Arch_Add/cs.md). Můžete přidat jednotlivé objekty nebo ještě výhodněji skupinu, podlaží nebo celou budovu. To Vám umožní snadno později změnit rozsah určité roviny řezu přidáním nebo odebráním objektů z nebo do takové skupiny. Jakákoliv změna těchto objektů se odrazí v pohledech vytvořených rovinou řezu.
 
@@ -619,7 +619,7 @@ Na druhou stranu může být finálný výstup snadněji manipulovatelný a graf
 
 Na obrázku nahoře, konstrukce je přímý výstup z roviny řazu, ale byly přidány další objekty Kreslení jako jsou kóty a šrafované víceúhelníky. Další objekt pohledu se stejným měřítkem a hodnotami odsunutí byl vytvořen nástrojem [Výkres](Draft_Drawing/cs.md). V budoucnosti bude taková operace dělána přímo na výkresové stránce, ponechávajíc model zcela čistý.
 
-### Zjišťování množství {#zjišťování_množství}
+### Zjišťování množství 
 
 
 <div class="mw-translate-fuzzy">

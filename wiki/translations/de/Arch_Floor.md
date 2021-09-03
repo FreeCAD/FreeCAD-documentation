@@ -20,7 +20,7 @@ Beginnend mit <small>(v0.18)</small>  wird das Arch Geschoss komplett aus dem [A
 2.  Rufe den Befehl Architektur Geschoss auf mehrere Arten auf:
     -   Drücken der **<img src="images/Arch_Floor.svg" width=16px> [Arch Geschoss](Arch_Floor/de.md)** Schaltfläche in der Werkzeugleiste.
     -   Verwendung der **L**, dann **V** Tastaturkürzel.
-    -   Verwendung des {{MenuCommand|Architektur → Geschoss}} Eintrags im oberen Menü.
+    -   Verwendung des **Architektur → Geschoss** Eintrags im oberen Menü.
 
 ## Optionen
 

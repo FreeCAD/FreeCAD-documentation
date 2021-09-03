@@ -12,7 +12,7 @@
 
 以下是有关技术选项的更多信息。如果它看起来令人生畏，不要担心！大多数Windows用户不需要上述.msi以外的任何东西来完成安装并**[入门](Getting_started.md)**FreeCAD！
 
-### 简单的Microsoft Installer安装 {#简单的microsoft_installer安装}
+### 简单的Microsoft Installer安装 
 
 在Windows上安装FreeCAD的最简单方法是使用上面的可下载安装程序包。本页介绍了Microsoft Installer的用法和功能，以获取更多安装选项。
 
@@ -81,7 +81,7 @@ The amount of user control permitted by the installer can be controlled with /q 
 
 </div>
 
-### Target directory {#target_directory}
+### Target directory 
 
 The property TARGETDIR determines the root directory of the FreeCAD installation. For example, a different installation drive can be specified with
 
@@ -92,7 +92,7 @@ TARGETDIR=R:\FreeCAD25
 
 The default TARGETDIR is \[WindowsVolume\\Programm Files\\\]FreeCAD.
 
-### Installation for All Users {#installation_for_all_users}
+### Installation for All Users 
 
 Adding
 
@@ -144,7 +144,7 @@ msiexec /x FreeCAD<version>.msi
 
 FreeCAD can be uninstalled. It is not necessary to have the MSI file available for uninstallation; alternatively, the package or product code can also be specified. You can find the product code by looking at the properties of the Uninstall shortcut that FreeCAD installs in the start menu.
 
-## Administrative installation {#administrative_installation}
+## Administrative installation 
 
 With
 
@@ -172,7 +172,7 @@ it would be possible, in principle, to \"advertise\" FreeCAD to a machine (with 
 
 The FreeCAD installer currently only supports advertisement of start menu entries, but no advertisement of shortcuts.
 
-## Automatic installation on a group of machines {#automatic_installation_on_a_group_of_machines}
+## Automatic installation on a group of machines 
 
 With Windows Group Policy, it is possible to automatically install FreeCAD on a group of machines. To do so, perform the following steps:
 
@@ -189,7 +189,7 @@ With Windows Group Policy, it is possible to automatically install FreeCAD on a 
 
 Group policy propagation typically takes some time - to reliably deploy the package, all machines should be rebooted.
 
-## Installation on Linux using Crossover Office {#installation_on_linux_using_crossover_office}
+## Installation on Linux using Crossover Office 
 
 You can install the windows version of FreeCAD on a Linux system using *CXOffice 5.0.1*. Run *msiexec* from the CXOffice command line. Assuming the install package is in the \"software\" directory on drive \"Y:\":
 

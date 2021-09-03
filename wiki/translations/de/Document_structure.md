@@ -14,7 +14,7 @@ Die Objekte innerhalb eines FreeCAD Dokuments können unterschiedlichen Typs sei
 
 Wenn mindestens ein Dokument in FreeCAD geöffnet ist, gibt es immer **ein** und **nur ein** aktives Dokument. Das ist das Dokument, das in der aktuellen 3D-Ansicht angezeigt wird, das Dokument, an welchem Sie derzeit arbeiten.
 
-## Anwendungs- und Benutzeroberfläche {#anwendungs__und_benutzeroberfläche}
+## Anwendungs- und Benutzeroberfläche 
 
 Wie fast alles andere in FreeCAD ist der Teil der grafischen Benutzeroberfläche (GUI) vom Teil der Basisanwendung (App) getrennt. Dies gilt auch für Dokumente. Die Dokumente bestehen ebenfalls aus zwei Teilen: dem Anwendungsdokument, das unsere Objekte enthält, und dem Ansichtsdokument, das die Darstellung unserer Objekte auf dem Bildschirm enthält.
 

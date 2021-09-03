@@ -15,9 +15,9 @@ Siehe [Anlaufstelle für Intensivnutzer](Power_users_hub/de.md) um mehr über di
 -   [Python Tutorium Skripten](Python_scripting_tutorial/de.md)
 -   [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md)
 
-## Wie es funktioniert {#wie_es_funktioniert}
+## Wie es funktioniert 
 
-Aktiviere die Konsolenausgabe im Menü {{MenuCommand|Bearbeiten → Einstellungen → Allgemein→ Makro → Skript Befehle in Python Konsole anzeigen}}. Du wirst sehen, dass in FreeCAD jede Aktion, die du ausführst, wie z.B. das Drücken einer Schaltfläche, einen Python Befehl ausgibt. Diese Befehle sind das, was in einem Makro aufgezeichnet werden kann. Das Hauptwerkzeug zum Erstellen von Makros ist die Makro Werkzeugleiste: ![](images/Macros_toolbar.jpg ). Auf ihr hast du 4 Schaltflächen: Aufnahme, Aufnahme stoppen, Bearbeiten und Abspielen des aktuellen Makros.
+Aktiviere die Konsolenausgabe im Menü **Bearbeiten → Einstellungen → Allgemein→ Makro → Skript Befehle in Python Konsole anzeigen**. Du wirst sehen, dass in FreeCAD jede Aktion, die du ausführst, wie z.B. das Drücken einer Schaltfläche, einen Python Befehl ausgibt. Diese Befehle sind das, was in einem Makro aufgezeichnet werden kann. Das Hauptwerkzeug zum Erstellen von Makros ist die Makro Werkzeugleiste: ![](images/Macros_toolbar.jpg ). Auf ihr hast du 4 Schaltflächen: Aufnahme, Aufnahme stoppen, Bearbeiten und Abspielen des aktuellen Makros.
 
 Es ist sehr einfach zu bedienen: Drücke die Aufnahmetaste, du wirst aufgefordert, deinem Makro einen Namen zu geben und dann einige Aktionen durchzuführen. Wenn du fertig bist, klicke auf die Schaltfläche Aufzeichnung stoppen, und deine Aktionen werden gespeichert. Du kannst nun mit der Schaltfläche Bearbeiten auf den Makro Dialog zugreifen.
 
@@ -31,7 +31,7 @@ Drücken die Aufnahmetaste, gib einen Namen an, sagen wir \"Zylinder 10x10\", un
 
 ## Anpassung
 
-Natürlich ist es nicht praktisch vor dem Benutzen immer erst ein Makro in den Editor zu laden. FreeCAD bietet deutlich bessere Möglichkeiten um dein Makro zu verwenden, wie das Zuweisen einer Tastenkombination oder einen Eintrag im Menü erstellen. Sobald dein Makro erstellt wurde, kannst du dies im Menü {{MenuCommand|Werkzeuge → Benutzerdefiniert}} erledigen.
+Natürlich ist es nicht praktisch vor dem Benutzen immer erst ein Makro in den Editor zu laden. FreeCAD bietet deutlich bessere Möglichkeiten um dein Makro zu verwenden, wie das Zuweisen einer Tastenkombination oder einen Eintrag im Menü erstellen. Sobald dein Makro erstellt wurde, kannst du dies im Menü **Werkzeuge → Benutzerdefiniert** erledigen.
 
 ![](images/Macros-config-DE.png )
 
@@ -39,17 +39,17 @@ Auf diese Weise kannst du dein Makro zu einem echten Werkzeug machen, genau wie 
 
 Siehe [Werkzeugleisten anpassen](Customize_Toolbars/de.md) für eine ausführlichere Beschreibung.
 
-## Erstellen von Makros ohne Aufzeichnung {#erstellen_von_makros_ohne_aufzeichnung}
+## Erstellen von Makros ohne Aufzeichnung 
 
 Du kannst Python Code auch direkt in ein Makro kopieren/einfügen, ohne die GUI Aktion aufzuzeichnen. Erstelle einfach ein neues Makro, bearbeite es und füge deinen Code ein. Du kannst dein Makro dann auf die gleiche Weise speichern, wie du ein FreeCAD Dokument speicherst. Wenn du FreeCAD das nächste Mal startest, erscheint das Makro unter dem Punkt \"Installierte Makros\" des Makro Menüs.
 
 Siehe [Wie Makros installieren](How_to_install_macros/de.md) für eine ausführlichere Beschreibung.
 
-## Makro Repositorien {#makro_repositorien}
+## Makro Repositorien 
 
 Es gibt zwei wichtige Anlaufstellen für Makros. Die erste ist das offiziell geprüfte Makro Repository unter [GitHub](https://github.com/FreeCAD/FreeCAD-macros). Die zweite ist die [Makrorezepte](Macros_recipes/de.md) Seite Dort kannst du einige nützliche Makros finden, die du zu deiner FreeCAD Installation hinzufügen kannst. Makros aus beiden Repositorien können über den [Addon Manager](Std_AddonMgr.md) direkt in FreeCAD installiert werden.
 
-## Zusätzliche Informationen {#zusätzliche_informationen}
+## Zusätzliche Informationen 
 
 -   [Automatisches Makroausführen beim Start](Macro_at_Startup/de.md)
 -   [Installieren weiterer Arbeitsbereiche](Installing_more_workbenches/de.md)

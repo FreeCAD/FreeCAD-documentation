@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 This is the project plan of the Quality project as part of the [Development roadmap](Development_roadmap.md).
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 This project is partial a software development and a documentation project. It aims to raise the quality of the main components of FreeCAD and delivers a better experience to the first FreeCAD contact.
 
@@ -32,7 +32,7 @@ Another important outcome is a complete **help system** for all Commands and Fea
 
 ## Organizing
 
-## Next actions {#next_actions}
+## Next actions 
 
 Work through all the unfinished commands and make a documentation:
 

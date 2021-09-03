@@ -22,7 +22,7 @@ génère une copie sans l\'historique paramétrique. Les étapes et opérations 
 ## Utilisation
 
 1.  Sélectionnez un objet pour lequel vous souhaitez faire une copie.
-2.  Aller au menu {{MenuCommand|Part → Create a copy → ![](images/)__[Créer_une_simple_copie](Part_SimpleCopy/fr.md)}}.
+2.  Aller au menu **Part → Create a copy → ![](images/)__[Créer_une_simple_copie](Part_SimpleCopy/fr.md)**.
 
 ## Propriétés
 

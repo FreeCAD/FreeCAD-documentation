@@ -21,7 +21,7 @@ A common usage for the helix primitive is for <img src=images/PartDesign_Additiv
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -114,7 +114,7 @@ Sub Linux "Helix"
 
 -    {{Parameter|Right-handed or Left-handed:}}This parameter specifies the [handedness](https://en.wikipedia.org/wiki/Screw_thread) of the helix.
 
-#### Location {#location_1}
+#### Location 
 
 -    {{Parameter|X:}}The main axis of the helix will be translated along the x axis of the value you indicate in this field.
 

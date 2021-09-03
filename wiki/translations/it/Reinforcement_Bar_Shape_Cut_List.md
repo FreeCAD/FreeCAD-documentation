@@ -15,7 +15,7 @@
 
 Lo strumento **Sagomatura dei ferri** consente all\'utente di creare una lista per il taglio e la piega delle barre d\'armatura.
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 <img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
 
@@ -92,7 +92,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 The [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
-### Create Rebar Shape SVG {#create_rebar_shape_svg}
+### Create Rebar Shape SVG 
 
 
 ```python
@@ -215,7 +215,7 @@ with open(output_file, "w", encoding="utf-8") as f:
 
 ```
 
-### Create Rebar Shape Cut List SVG {#create_rebar_shape_cut_list_svg}
+### Create Rebar Shape Cut List SVG 
 
 
 ```python
@@ -296,7 +296,7 @@ getRebarShapeCutList(
 
 -    `output_file`specifies the output file to write generated rebar shape cut list SVG.
 
-#### Example {#example_1}
+#### Example 
 
 
 ```python

@@ -30,11 +30,11 @@ Die **Angedockt** Menüoption koppelt die aktive [3D Ansicht](3D_view/de.md) inn
 
 ## Abgekoppelt
 
-### Beschreibung {#beschreibung_1}
+### Beschreibung 
 
 Die **Abgekoppelt** Menüoption koppelt die aktive [3D Ansicht](3D_view/de.md) innerhalb der FreeCAD Hauptoberfläche an.
 
-### Verwendung {#verwendung_1}
+### Verwendung 
 
 1.  Aktiviere eine angekoppelte 3D Ansicht.
 2.  Es gibt mehrere Wege, die Option aufzurufen:

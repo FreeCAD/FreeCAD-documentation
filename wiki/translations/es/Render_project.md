@@ -13,7 +13,7 @@ Despite this page mentioning the "Render module", this is not the same project a
 
 <div class="mw-translate-fuzzy">
 
-## Módulo de Render {#módulo_de_render}
+## Módulo de Render 
 
 El módulo de render proporciona un modo sencillo y conciso para realizar trabajos de renderizado de las piezas de FreeCAD. Su filosofía está basada en un sistema de plantillas de modo que puedas ver tu trabajo de un modo más eficiente. El módulo de Render trata de ocultar el complicado proceso de renderizado al usuario, de modo que sólo tengas que preocuparte del diseño de las piezas.
 
@@ -30,11 +30,11 @@ El módulo de render está diseñado para trabajar con múltiples motores de ren
 
 Una breve explicaciónde las partes en el módulo de Render:
 
-### Operación de Render {#operación_de_render}
+### Operación de Render 
 
 La operación de Render contiene la información que será pasada al programa de Render como la configuración de la cámara y del renderizado, y materiales además del plugin de renderizado a utlizar. Esto quiere decir que puedes crear diversas operaciones de renderizado diferentes con diferentes materiales, configuraciones de cámara que sean independientes unas de las otras. La operación también toma control sobre el proceso de renderizado.
 
-### Material de Renderizado {#material_de_renderizado}
+### Material de Renderizado 
 
 Cada material de renderizado está basado en una biblioteca de materiales que está almacenada en archivos .XML independientes. Dichos materiales de renderizado pueden tener asignadas propiedades como el color o brillo y otros parámetros. Dichos materiales se adjuntan a un objeto en el documento.
 
@@ -47,7 +47,7 @@ Cada material de renderizado está basado en una biblioteca de materiales que es
 
 <div class="mw-translate-fuzzy">
 
-### Utilizando el módulo de Render: {#utilizando_el_módulo_de_render}
+### Utilizando el módulo de Render: 
 
 Primero comprueba el siguiente repositorio <https://github.com/mrlukeparry/freecad/tree/render> y comprueba el ramal de \'render\'. Después asegúrate de poder construirlo.
 
@@ -74,15 +74,15 @@ Cuando creas una operación de Render almacenará la posición actual y el tipo 
 
 Puedes establecer otros preajustes de render:
 
-#### Preajustes de Render {#preajustes_de_render}
+#### Preajustes de Render 
 
 Los preajustes de Render se especifican al plugin de renderizado que se está utilizando. Cambian el proceso de render para mejorar la calidad del resultado o la velocidad a la que dicho resultado es generado. Con Lux Render, \'MLT Unbiased\' produce resultados de buena calidad en un tiempo razonable. \'Direct Lighting Preview\' produce un resultado más rápido pero de por calidad.
 
-#### Plantilla de Render {#plantilla_de_render}
+#### Plantilla de Render 
 
 Las plantillas de Render son actualmente específicas del plugin de render. Mediante la selección de una plantilla, se generarán una escena predefinida en cuanto a iluminación, geometría con tus piezas. Actualmente \'Lux Classic\' trabaja correctamente y produce resultados satisfactorios. Intenta calcular la escena basada en tu posición de cámara y el tamaño completo de las piezas visibles.
 
-### Iniciar un renderizado {#iniciar_un_renderizado}
+### Iniciar un renderizado 
 
 Una vez se han establecido los parámetros de la operación, puedes renderizar la escena. Por ejemplo, esta es la escena de ejemplo. Cualquier parte que no sea visible en el documento no será incluida en el renderizado.
 
@@ -100,7 +100,7 @@ Si el proceso de renderizado es satisfactorio, el resultado se mostrará automá
 
 ![](images/sceneOutput.png )
 
-### Renderizados imparciales {#renderizados_imparciales}
+### Renderizados imparciales 
 
 Esencialmente el programa de render simulará rayos de luz \'rebotando\' a través de una escena. Cuando esta luz golpea a una cámara será visible en el resultado. A medida que más rayos golpean la cámara la imagen se va construyendo. Al principio la imagen parecerá distorsionada cuando la luz no alcanza a la cámara.
 
@@ -108,11 +108,11 @@ Cuando estés satisfecho con el resultado, presiona \'Detener renderizado\'. Pod
 
 ![](images/unbiasedRendering.png )
 
-#### Velocidad de renderizado {#velocidad_de_renderizado}
+#### Velocidad de renderizado 
 
 Los procesos de renderizado son típicamente ejecutados por la CPU. El tiempo tomado para obtener un resultado satisfactorio depende del tamaño del resultado, de la escena, del número y complejidad de materiales utilizados, las luces y el rendimiento global del sistema. Una simple previsualización para una pieza simple puede llevar un minuto, mientras que un resultado de calidad alta puede llevar varias horas.
 
-### Adjuntando materiales {#adjuntando_materiales}
+### Adjuntando materiales 
 
 Asegúrate de estar en modo de edición para la operación de Render. Pulsa Añadir material en la barra de herramientas. Una lista de bibliotecas de materiales se mostrará en la vista de tareas. Puedes a través de ellas arrastrando la lista o utilizando la rueda del ratón.
 

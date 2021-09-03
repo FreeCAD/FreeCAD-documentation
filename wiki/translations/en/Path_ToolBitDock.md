@@ -26,11 +26,11 @@ A manager button at the top right (4) allows the user to launch the library mana
 
 ## Usage
 
-### Create Tool Controllers {#create_tool_controllers}
+### Create Tool Controllers 
 
 1.  There are several ways to open the Toolbit Dock:
     -   Press the **<img src="images/Path_ToolBitDock.svg" width=16px> [Path ToolBitDock](Path_ToolBitDock.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_ToolBitDock.svg" width=16px> ToolBit Dock}} option from the menu.
+    -   Select the **Path → <img src="images/Path_ToolBitDock.svg" width=16px> ToolBit Dock** option from the menu.
     -   Use the keyboard shortcut: **P** then **T**.
 2.  Use the dock to add tool controllers to a Path Job
     -   Doubleclick on a toolbit node (2) to create a toolcontroller for that toolbit.

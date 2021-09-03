@@ -4,7 +4,7 @@ This is an extensive, but not complete, list of features which FreeCAD implement
 
  
 
-## Release notes {#release_notes}
+## Release notes 
 
 -   [Release 0.11](Release_notes_0.11.md) - March 2011
 -   [Release 0.12](Release_notes_0.12.md) - December 2011
@@ -17,7 +17,7 @@ This is an extensive, but not complete, list of features which FreeCAD implement
 -   [Release 0.19](Release_notes_0.19.md) - March 2021
 -   [Release 0.20](Release_notes_0.20.md) - TBD
 
-## Key features {#key_features}
+## Key features 
 
 -   ![](images/Feature1.jpg ) A complete [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE)-based **geometry kernel** allowing complex 3D operations on complex shape types, with native support for concepts like [Boundary Representation](https://en.wikipedia.org/wiki/Boundary_representation) (BREP), [Non-uniform rational basis spline](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) (NURBS) curves and surfaces, a wide range of geometric entities, boolean operations and [fillets](https://en.wikipedia.org/wiki/Fillet_(mechanics)), and built-in support of [STEP](https://en.wikipedia.org/wiki/ISO_10303) and [IGES](https://en.wikipedia.org/wiki/IGES) formats 
 -   ![](images/Feature3.jpg ) A full **parametric model**. All FreeCAD objects are natively parametric, meaning their shape can be based on [properties](Property.md) or even depend on other objects. All changes are recalculated on demand, and recorded by an undo/redo stack. New object types can be added easily, and can even be [fully programmed in Python](Scripted_objects.md).
@@ -31,7 +31,7 @@ This is an extensive, but not complete, list of features which FreeCAD implement
 -   ![](images/Feature-CAM.jpg ) A [Path module](Path_Workbench.md) dedicated to mechanical machining for [Computer Aided Manufacturing](https://en.wikipedia.org/wiki/Computer-aided_manufacturing) (CAM). Using the Path module you may output, display and adjust the [G code](http://en.wikipedia.org/wiki/G-code) used to control the target machine.
 -   ![](images/Feature_spreadsheet.png ) An [Integrated Spreadsheet](Spreadsheet_Workbench.md) and an [expression parser](Expressions.md) which may be used to drive formula-based models and organize model data in a central location.
 
-## General features {#general_features}
+## General features 
 
 -   **multi-platform**. FreeCAD runs and behaves exactly the same way on Windows, Linux, macOS and other platforms.
 
@@ -83,11 +83,11 @@ This is an extensive, but not complete, list of features which FreeCAD implement
 
 -   **modular MSI installer**. FreeCAD\'s installer allows flexible installations on Windows systems. Packages for Ubuntu systems are also maintained.
 
-## In development {#in_development}
+## In development 
 
 -   ![](images/Feature-assembly.jpg ) An [Assembly](Assembly_project.md) module that allows one to work with multiple projects, multiple shapes, multiple documents, multiple files, multiple relationships\... This module is currently in the planning state.
 
-## Extra Workbenches {#extra_workbenches}
+## Extra Workbenches 
 
 Power users have created various custom [external workbenches](external_workbenches.md).
 

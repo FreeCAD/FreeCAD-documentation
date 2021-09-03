@@ -31,7 +31,7 @@ See the [Power users hub](Power_users_hub.md) to learn more about the [Python](P
 
 </div>
 
-Enable the console output in the menu {{MenuCommand|Edit → Preferences → General → Macro → Show scripts commands in python console}}. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +79,7 @@ Press the record button, give a name, let\'s say \"cylinder 10x10\", then, in th
 
 </div>
 
-Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the {{MenuCommand|Tools → Customize}} menu.
+Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the **Tools → Customize** menu.
 
 ![](images/Macros_config.jpg )
 

@@ -22,7 +22,7 @@ Dies ist ähnlich wie das Drücken der **Esc** Taste.
 
 **<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> <img src=images/Sketcher_Move.svg style="width:Abstand Y beschränken](Sketcher_ConstrainDistanceY/de.md)**, oder **[16px"> [Verschieben](Sketcher_Move/de.md)**.
 
-1.  Klicke auf **<img src=images/Sketcher_StopOperation.svg style="width:16px"> <img src=images/Sketcher_StopOperation.svg style="width:Vorgang Beenden](Sketcher_StopOperation/de.md)** oder wähle {{MenuCommand|Skizze → [16px"> [Vorgang Beenden](Sketcher_StopOperation/de.md)}} aus dem oberen Menü.
+1.  Klicke auf **<img src=images/Sketcher_StopOperation.svg style="width:16px"> <img src=images/Sketcher_StopOperation.svg style="width:Vorgang Beenden](Sketcher_StopOperation/de.md)** oder wähle **Skizze → [16px"> [Vorgang Beenden](Sketcher_StopOperation/de.md)** aus dem oberen Menü.
 2.  Das Werkzeug wird deaktiviert und der Zeiger wird wieder zu einem einfachen Zeiger.
 
 

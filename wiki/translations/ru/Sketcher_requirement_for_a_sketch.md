@@ -9,7 +9,7 @@
 |FCVersion=
 }}
 
-## Minimum requirement for a sketch {#minimum_requirement_for_a_sketch}
+## Minimum requirement for a sketch 
 
 The creation of a body in the workspace PartDesign is already possible and *only* with the help of a closed curve (profile). The complete determination of all their dimensions and properties (*fully constrained*) is not yet required.
 
@@ -25,7 +25,7 @@ Right: Curve closed at remaining four places (green)*
 
 However, consistent parametric working means that the sketch is completely determined.
 
-## Defining a sketch completely {#defining_a_sketch_completely}
+## Defining a sketch completely 
 
 Even a relatively simple sketch may contain dozens of indeterminacies (indicated in the combo view as a \"degrees of freedom\" number). To eliminate them together at the end is a relatively confusing task.
 

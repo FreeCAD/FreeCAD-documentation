@@ -14,7 +14,7 @@
 
 *Crear un polígono regular* es un botón de icono en la barra de herramientas de Geometrías de Croquizador que agrupa herramientas para crear un polígono regular. Haz clic en la flecha hacia abajo a su derecha para expandir los iconos que están debajo y selecciona una herramienta.
 
-## Tipos de polígonos regulares {#tipos_de_polígonos_regulares}
+## Tipos de polígonos regulares 
 
 -   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Crear un triángulo equilátero](Sketcher_CreateTriangle/es.md): Dibuja un triángulo equilátero escogiendo dos puntos, el centro y una esquina.
 -   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> [Crear un cuadrado](Sketcher_CreateSquare/es.md): Dibuja un cuadrado escogiendo dos puntos, el centro y una esquina.

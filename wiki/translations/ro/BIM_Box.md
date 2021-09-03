@@ -16,7 +16,7 @@ Instrumentul BIM Box vă permite să creați un [Part Box](Part_Box.md) standard
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

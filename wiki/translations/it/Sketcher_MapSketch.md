@@ -28,7 +28,7 @@ Notare che questo strumento non serve per creare i nuovi disegni. Mappa o rimapp
 
 </div>
 
-## Uso per riparare un modello rovinato {#uso_per_riparare_un_modello_rovinato}
+## Uso per riparare un modello rovinato 
 
 Mappa schizzo viene spesso utilizzato durante la riparazione di un modello danneggiato.
 

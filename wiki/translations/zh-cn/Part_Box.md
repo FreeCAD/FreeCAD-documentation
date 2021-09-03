@@ -18,7 +18,7 @@
 ## 如何使用
 
 -   在零件工作台中点选立方体图标**<img src="images/Part_Box.png" width=30px>**。
--   或者，您也可以从菜单栏中选择{{MenuCommand|Part → Primitives → Cube}}。
+-   或者，您也可以从菜单栏中选择**Part → Primitives → Cube**。
 
 
 </div>

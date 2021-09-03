@@ -21,7 +21,7 @@ La commande **Mesh Union** crée un nouvel objet maillé non paramétrique, un [
 2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_Union.svg" width=16px> [Union](Mesh_Union/fr.md)
 **
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → Opération booléenne → <img src="images/Mesh_Union.svg" width=16px> Union}} dans le menu.
+    -   Sélectionnez l\'option **Maillages → Opération booléenne → <img src="images/Mesh_Union.svg" width=16px> Union** dans le menu.
 
 ## Propriétés
 

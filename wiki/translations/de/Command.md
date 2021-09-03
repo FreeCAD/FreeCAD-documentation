@@ -22,7 +22,7 @@ Da die meisten von ihnen Benutzeraktionen erfordern, sind FreeCAD Befehle nur im
 
 Befehle können entweder in C++ oder Python festgelegt werden.
 
-## In C++ definierte Befehle {#in_c_definierte_befehle}
+## In C++ definierte Befehle 
 
 Beispiel einer C++ Befehlsdefinition, in der Regel definiert nach der Struktur {{FileName|Mod/ModuleName/Gui/Command.cpp}}.
 
@@ -57,7 +57,7 @@ CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
-## In Python definierte Befehle {#in_python_definierte_befehle}
+## In Python definierte Befehle 
 
 Beispiel für eine Python Befehlsdefinition, sie kann in einem Verzeichnis wie {{FileName|Mod/ModuleName/tools/commands.py}} abgelegt werden. 
 ```python

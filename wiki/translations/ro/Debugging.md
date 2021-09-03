@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Testează mai întâi {#testează_mai_întâi}
+## Testează mai întâi 
 
 Înainte de a trece prin durerea de a depana utilizați [Test framework](Testing/ro.md) pentru a verifica dacă testele standard funcționează corect. Dacă acestea nu se execută complet, este posibil să fie o instalare defectuoasă.
 
@@ -27,7 +27,7 @@ Before you go through the pain of debugging use the [Test framework](Testing.md)
 
 <div class="mw-translate-fuzzy">
 
-## Linie de Commandă {#linie_de_commandă}
+## Linie de Commandă 
 
 Depanarea *debugging* în FreeCAD este susținută de câteva mecanisme interne. Versiunea liniei de comandă a FreeCAD oferă câteva opțiuni pentru suportul de depanare.
 
@@ -78,7 +78,7 @@ Configuration:
 
 <div class="mw-translate-fuzzy">
 
-## Generarea unei Backtrace {#generarea_unei_backtrace}
+## Generarea unei Backtrace 
 
 Dacă rulați o versiune experimentală de FreeCAD care este încă în curs de dezvoltare, aceasta poate \"îngheța\". Vă puteți ajuta să rezolvați astfel de probleme furnizând dezvoltatorilor o \"backtrace\". Pentru a face acest lucru, trebuie să executați o \"Debug build\" a software-ului. \"Debug build\" este un parametru care este setat în timpul compilării, deci va trebui fie să compilați FreeCAD dvs înșivă, fie să obțineți o versiune \"debug\" precompilată.
 
@@ -87,7 +87,7 @@ Dacă rulați o versiune experimentală de FreeCAD care este încă în curs de 
 
 If you are running a version of FreeCAD from the bleeding edge of the development curve, it may \"crash\". You can help solve such problems by providing the developers with a \"backtrace\". To do this, you need to be running a \"debug build\" of the software. \"Debug build\" is a parameter that is set at compile time, so you\'ll either need to compile FreeCAD yourself, or obtain a pre-compiled \"debug\" version.
 
-### For Linux {#for_linux}
+### For Linux 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -155,7 +155,7 @@ Print the values of the local variables also. This can be combined with a number
 
 <div class="mw-translate-fuzzy">
 
-### For MacOSX {#for_macosx}
+### For MacOSX 
 
 
 </div>
@@ -210,7 +210,7 @@ Aceasta va genera o listă lungă a exact ceea ce a făcut programul atunci cân
 
 </div>
 
-## List Libraries Loaded by FreeCAD {#list_libraries_loaded_by_freecad}
+## List Libraries Loaded by FreeCAD 
 
 (Applicable to Linux and macOS)
 
@@ -232,7 +232,7 @@ This prints a long list of loaded resources. So for example, if trying to ascert
 
 <div class="mw-translate-fuzzy">
 
-## Python Debugging {#python_debugging}
+## Python Debugging 
 
 Pentru o abordare mai modernă a depanării Python, cel puțin în Windows, a se vedea asta
 
@@ -323,7 +323,7 @@ Draft.makeWire(points,closed=False,face=False,support=None)
 
 </div>
 
-### Visual Studio Code (VS Code) {#visual_studio_code_vs_code}
+### Visual Studio Code (VS Code) 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -359,7 +359,7 @@ ptvsd.enable_attach(address=('localhost', 5678), redirect_output=True)
 ptvsd.wait_for_attach()
 ```
 
--   Add a debug configuration in Visual Studio Code {{MenuCommand|Debug → Add Configurations…}}. It should looks like this :
+-   Add a debug configuration in Visual Studio Code **Debug → Add Configurations…**. It should looks like this :
 
 
 
@@ -412,7 +412,7 @@ print(sys.executable)
 
 </div>
 
-## Debugging OpenCasCade {#debugging_opencascade}
+## Debugging OpenCasCade 
 
 For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdullah has created a [thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=47017) orientation discussing how to do so.
 

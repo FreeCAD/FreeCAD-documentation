@@ -32,7 +32,7 @@
 11. Continuez à maintenir la touche Ctrl enfoncée et sélectionnez les lignes d\'étendue. (Lignes jaunes dans l\'exemple ci-dessus.)
 12. Pour appeler la commande, effectuez l\'une des opérations suivantes:
     -   Appuyez sur le bouton <img alt="" src=images/Curves_GordonSurface.svg  style="width:24px;">
-    -   Utilisez {{MenuCommand|Surfaces → Gordon surface}}
+    -   Utilisez **Surfaces → Gordon surface**
 
 ## Propriétés
 

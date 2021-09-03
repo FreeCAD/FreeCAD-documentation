@@ -3,7 +3,7 @@
 
 
 
-## Przegląd stron ze skryptami Python {#przegląd_stron_ze_skryptami_python}
+## Przegląd stron ze skryptami Python 
 
 -   Strony związane z tematem podręcznik dla środowiska Python:
     -   [Łagodny wstęp](Manual:A_gentle_introduction/pl.md)

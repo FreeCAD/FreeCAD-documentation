@@ -26,27 +26,27 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Optionally select one or more objects, or one or more subelements of [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Rotate.svg" width=16px> [Draft Rotate](Draft_Rotate.md)** button.
-    -   Select the {{MenuCommand|Modification → <img src="images/Draft_Rotate.svg" width=16px> Rotate}} option from the menu.
+    -   Select the **Modification → <img src="images/Draft_Rotate.svg" width=16px> Rotate** option from the menu.
     -   Use the keyboard shortcut: **R** then **O**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
-4.  The {{MenuCommand|Rotate}} task panel opens. See [Options](#Options.md) for more information.
-5.  If subelements have been selected: check the {{MenuCommand|Modify subelements}} checkbox to switch on subelement mode.
+4.  The **Rotate** task panel opens. See [Options](#Options.md) for more information.
+5.  If subelements have been selected: check the **Modify subelements** checkbox to switch on subelement mode.
 6.  Pick the first point, the center of rotation, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-7.  Pick the second point in the [3D view](3D_view.md), or enter a {{MenuCommand|Base angle}}.
-8.  Pick the third point in the [3D view](3D_view.md), or enter a {{MenuCommand|Rotation}}.
+7.  Pick the second point in the [3D view](3D_view.md), or enter a **Base angle**.
+8.  Pick the third point in the [3D view](3D_view.md), or enter a **Rotation**.
 
 ## Options
 
 The single character keyboard shortcuts and the modifier key mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
 -   To manually enter the coordinates for the center of rotation enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   The {{MenuCommand|Relative}} checkbox has no purpose for this command.
--   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the {{MenuCommand|Continue}} checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing. This mode really only makes sense if copy mode is switched on. Depending on the {{MenuCommand|Select base objects after copying}} preference, either the original objects are selected for the next command call or the copies that were created last. See [Preferences](#Preferences.md).
--   Press **P** or click the {{MenuCommand|Copy}} checkbox to toggle copy mode. If copy mode is on, the command will create rotated copies instead of rotating the original objects.
--   Press **D** or click the {{MenuCommand|Modify subelements}} checkbox to toggle subelement mode. If subelement mode is on, the command will use the selected subelements instead of the whole objects. The subelements must belong to [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
+-   The **Relative** checkbox has no purpose for this command.
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing. This mode really only makes sense if copy mode is switched on. Depending on the **Select base objects after copying** preference, either the original objects are selected for the next command call or the copies that were created last. See [Preferences](#Preferences.md).
+-   Press **P** or click the **Copy** checkbox to toggle copy mode. If copy mode is on, the command will create rotated copies instead of rotating the original objects.
+-   Press **D** or click the **Modify subelements** checkbox to toggle subelement mode. If subelement mode is on, the command will use the selected subelements instead of the whole objects. The subelements must belong to [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
 -   If copy mode and subelement mode are both on, and edges of [Draft Wires](Draft_Wire.md) are selected, new wires will be created from those edges.
--   Holding down **Alt** after entering the {{MenuCommand|Base angle}} will also toggle copy mode. While **Alt** is held down multiple points can be picked for the {{MenuCommand|Rotation}}. Release **Alt** to finish the command and see the created copies.
+-   Holding down **Alt** after entering the **Base angle** will also toggle copy mode. While **Alt** is held down multiple points can be picked for the **Rotation**. Release **Alt** to finish the command and see the created copies.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
@@ -58,9 +58,9 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and angles: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To store and reuse the same copy mode setting across commands: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode}}.
--   To reselect the base objects after copying objects: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying}}.
+-   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
+-   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting
 

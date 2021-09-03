@@ -12,7 +12,7 @@
 
 {{TOCright}}
 
-## Vue d\'ensemble {#vue_densemble}
+## Vue d\'ensemble 
 
 Chaque page TechDraw est basée sur un objet Modèle. Le modèle contrôle la taille du papier et contient des graphiques et du texte fixes, par exemple un cadre de page ou une bordure.
 
@@ -32,7 +32,7 @@ Les modèles sont des fichiers [SVG](SVG.md) qui peuvent être créés et modifi
 
 -    {{PropertyData/fr|Template}}: a) Un pointeur vers la copie du fichier modèle original incorporé dans ce fichier \*.FCSTD, ou b) un chemin de fichier vers un modèle accessible sur la machine actuelle. Utilisez le bouton de sélection de fichier (\...) pour changer de modèle.
 
-## Modification du fichier de modèle {#modification_du_fichier_de_modèle}
+## Modification du fichier de modèle 
 
 Pour modifier le gabarit d\'un dessin
 
@@ -46,7 +46,7 @@ Le nouveau fichier sera ouvert directement.
 
 Lorsque vous souhaitez mettre à jour un fichier de modèle modifié, notez que vous devez charger un autre fichier avant de pouvoir sélectionner à nouveau le même fichier. En effet, la sélection du même fichier est ignorée.
 
-## Modèles personnalisés {#modèles_personnalisés}
+## Modèles personnalisés 
 
 Un nombre limité de modèles pré-formatés dans différentes tailles de page sont inclus avec FreeCAD. Ils se trouvent dans
 

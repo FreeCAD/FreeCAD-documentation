@@ -12,7 +12,7 @@
 
 Ceci est un message d\'un [tutoriel](http://opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) originalement écrit pour [Open-Source Ecology](http://opensourceecology.org).
 
-## Presentation de FreeCAD {#presentation_de_freecad}
+## Presentation de FreeCAD 
 
 <img alt="" src=images/Arch_panel_tutorial_01.jpg  style="width:800px;">
 
@@ -25,7 +25,7 @@ FreeCAD est un modélisateur 3D paramétrique. La modélisation paramétrique vo
 -   Getting started with FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Getting_started>
 -   Architecture tutorial: <http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial>
 
-## Installation de FreeCAD {#installation_de_freecad}
+## Installation de FreeCAD 
 
 Vous avez le choix d\'installer la dernière version stable (version 0.16) ou une version de développement (actuellement 0.17). En fait, les versions de développement de FreeCAD sont généralement assez stables, et vous êtes fortement encouragé à essayer une version de développement, sauf si vous avez une raison spécifique de ne pas le faire. Puisque le développement FreeCAD est assez rapide, assurez-vous, si vous téléchargez manuellement, de vérifier de temps en temps et de réinstaller / mettre à jour pour bénéficier des dernières améliorations.
 
@@ -34,13 +34,13 @@ Vous avez le choix d\'installer la dernière version stable (version 0.16) ou un
 -   Sur Ubuntu: La version de FreeCAD fournie par Ubuntu est généralement obsolète, il est donc conseillé d\'utiliser le PPA géré par la communauté FreeCAD à la place. Pour l\'installer, ouvrez l\'application \"Sources logicielles\" d\'Ubuntu, et ajoutez soit ppa: freecad-maintainers / freecad-stable pour la version stable, soit ppa: freecad-maintainers / freecad-daily pour la version de développement aux sources logicielles.
 -   Sur d\'autres plateformes: Sur la plupart des distributions Linux classiques (Debian, Fedora, etc.), FreeCAD est inclus dans les dépôts de logiciels officiels. Cependant, il se peut que ce ne soit pas toujours la version la plus à jour. Si la version dont vous avez besoin n\'est pas disponible, votre seule option est de compiler vous-même FreeCAD (instructions sur le site FreeCAD)
 
-## Contenus optionnels supplémentaires {#contenus_optionnels_supplémentaires}
+## Contenus optionnels supplémentaires 
 
 -   Activation de l\'importation / exportation IFC: Pour importer et exporter des projets vers / depuis le format de fichier IFC, FreeCAD s\'appuie sur l\'importateur IfcOpenShell, que vous devez installer séparément à partir de <http://ifcopenshell.org/python.html>. Veillez à choisir une version basée sur python2.7, qui est la même version python utilisée par FreeCAD.
 -   Drawing dimensioning workbench: Un plan de travail supplémentaire pour FreeCAD, qui offre de nombreux outils pratiques pour ajouter des cotes et des annotations aux feuilles de dessin 2D de FreeCAD: <https://github.com/hamish2014/FreeCAD_drawing_dimensioning> (Instructions d\'installation sur la page Web)
 -   Assembly2 workbench: Un workbench supplémentaire pour FreeCAD, qui offre une série d\'outils d\'assemblage de base: <https://github.com/hamish2014/FreeCAD_assembly2> (Instructions d\'installation sur la page Web)
 
-## Conseils de démarrage rapide {#conseils_de_démarrage_rapide}
+## Conseils de démarrage rapide 
 
 La collection de tutoriels disponibles sur le wiki FreeCAD est encore très éparse. Cependant, de nombreux membres de la communauté FreeCAD utilisent youtube pour publier des didacticiels vidéo. Assurez-vous de rechercher des contenus relatifs à FreeCAD sur youtube, qui est certainement la meilleure source de matériel d\'apprentissage.
 
@@ -60,59 +60,59 @@ Une liste très approximative de choses que vous devez savoir
 
 -   FreeCAD a différentes façons, ou modes, d\'utiliser les boutons de la souris. Ces modes peuvent être définis dans les préférences ou les modifications à la volée en cliquant avec le bouton droit sur l\'arrière-plan de la vue 3D. Ils sont décrits sur <http://www.freecadweb.org/wiki/ind>
 
-## Exercice: modélisation d\'un panneau de toit {#exercice_modélisation_dun_panneau_de_toit}
+## Exercice: modélisation d\'un panneau de toit 
 
 Pour présenter un flux de travail typique dans FreeCAD, modélisons un panneau de toit comme décrit sur <http://opensourceecology.org/wiki/MicroHouse_4_Roof_-_Module_-_Build_Instructions>. Pour ce faire, nous allons commencer à dessiner les différentes pièces dans une esquisse contrainte 2D, puis nous tirerons parti de l\'objet Arch Window spécial, qui est capable de construire des objets 3D complexes à partir d\'une esquisse 2D contenant les contours de plusieurs pièces. Enfin, puisque ce dont nous avons besoin n\'est pas une fenêtre, mais un panneau de toit, nous allons simplement convertir notre objet fenêtre en un autre type Arc
 
-### 1. Ouvrez FreeCAD, puis définissez vos unités préférées sur \"impérial\" {#ouvrez_freecad_puis_définissez_vos_unités_préférées_sur_impérial}
+### 1. Ouvrez FreeCAD, puis définissez vos unités préférées sur \"impérial\" 
 
 A part pour les US, traduire \"pieds\" par mètre et \"in\" par cm (note du traducteur)
 
 Dans le menu Edition → Préférences → Général → Unités
 
-### 2. Passez à l\'atelier de dessin et créez une nouvelle esquisse dans le plan XY. {#passez_à_latelier_de_dessin_et_créez_une_nouvelle_esquisse_dans_le_plan_xy.}
+### 2. Passez à l\'atelier de dessin et créez une nouvelle esquisse dans le plan XY. 
 
 ![](images/Arch_panel_tutorial_02.jpg )
 
 Habituellement, à moins d\'une raison spécifique de ne pas le faire, vous devrez toujours commencer à dessiner vos esquisses 2D sur le plan du sol, autour du point d\'origine (0,0). Ensuite, c\'est l\'objet 3D généré à partir de cela, qui sera déplacé / tourné en position.
 
-### 3. Dessinez deux rectangles. Sur chacune d\'entre elles, placez une contrainte verticale de 16 pieds et une contrainte horizontale de 2 pouce {#dessinez_deux_rectangles._sur_chacune_dentre_elles_placez_une_contrainte_verticale_de_16_pieds_et_une_contrainte_horizontale_de_2_pouce}
+### 3. Dessinez deux rectangles. Sur chacune d\'entre elles, placez une contrainte verticale de 16 pieds et une contrainte horizontale de 2 pouce 
 
 ![](images/Arch_panel_tutorial_03.jpg )
 
 Ne vous inquiétez pas des dimensions de vos pièces lorsque vous les dessinez, les contraintes les redimensionneront en conséquence. Pour ajouter une contrainte de cote (verticale ou horizontale), vous pouvez sélectionner une ligne ou deux points (en appuyant sur la touche CTRL).
 
-### 4.Une fois que vos deux rectangles ont la taille correcte, placez une contrainte verticale de 0 entre leurs points d\'angle, et une contrainte horizontale de 4 pieds. {#une_fois_que_vos_deux_rectangles_ont_la_taille_correcte_placez_une_contrainte_verticale_de_0_entre_leurs_points_dangle_et_une_contrainte_horizontale_de_4_pieds.}
+### 4.Une fois que vos deux rectangles ont la taille correcte, placez une contrainte verticale de 0 entre leurs points d\'angle, et une contrainte horizontale de 4 pieds. 
 
 ![](images/Arch_panel_tutorial_04.jpg )
 
 Cela garantit que nos deux rectangles sont correctement positionnés l\'un par rapport à l\'autre.
 
-### 5. Ajouter les deux pièces supplémentaires de 2 in x 6 in {#ajouter_les_deux_pièces_supplémentaires_de_2_in_x_6_in}
+### 5. Ajouter les deux pièces supplémentaires de 2 in x 6 in 
 
 ![](images/Arch_panel_tutorial_05.jpg )
 
 Ajoutez deux autres rectangles et répétez le processus. Notez que dans l\'exemple ci-dessus, nous n\'avons pas spécifié la longueur de ces pièces, mais plutôt placé une contrainte de distance entre leurs extrémités et les pièces verticales longues, et nous laissons un petit écart de 0,05 pouces entre eux. En effet, si nous faisons que les rectangles se touchent, FreeCAD pourrait déduire les boucles à tort, et nous pourrions obtenir des résultats étranges avec l\'outil de fenêtre Arch. Cette petite astuce garantit que chaque rectangle sera reconnu comme une boucle indépendante par l\'outil de fenêtre Arch.
 
-### 6. Ajouter les pièces de renfort d\'angle {#ajouter_les_pièces_de_renfort_dangle}
+### 6. Ajouter les pièces de renfort d\'angle 
 
 ![](images/Arch_panel_tutorial_06.jpg )
 
 Même chose. Faites-en 6 pouces de large, et les séparer des autres rectangles par 0,05 pouces.
 
-### 7. Dessiner 7 pièces de renfort intermédiaires, définir leur largeur à 2 pouces, et contraindre leurs extrémités gauche et droite à 0,05 pouces des rectangles verticaux (ou à 0 pouce des extrémités des autres rectangles horizontaux) {#dessiner_7_pièces_de_renfort_intermédiaires_définir_leur_largeur_à_2_pouces_et_contraindre_leurs_extrémités_gauche_et_droite_à_005_pouces_des_rectangles_verticaux_ou_à_0_pouce_des_extrémités_des_autres_rectangles_horizontaux}
+### 7. Dessiner 7 pièces de renfort intermédiaires, définir leur largeur à 2 pouces, et contraindre leurs extrémités gauche et droite à 0,05 pouces des rectangles verticaux (ou à 0 pouce des extrémités des autres rectangles horizontaux) 
 
 ![](images/Arch_panel_tutorial_07.jpg )
 
 Selon votre système, FreeCAD peut commencer à être lent à traiter de nouvelles contraintes. C\'est l\'inconvénient d\'utiliser des objets contraints, ils avalent rapidement beaucoup de ressources système. Vous devez toujours considérer si vous en avez absolument besoin. Vous pouvez également supprimer les contraintes quand ils ont fait leur travail. Ces dimensions ne seront plus corrigées, mais à moins de déplacer les pièces, elles ne changeront pas. Si nécessaire, vous pouvez toujours rajouter des contraintes plus tard.
 
-### 8. Calculez l\'espacement entre les 7 pièces de renforcement et réglez les contraintes verticales entre elles. {#calculez_lespacement_entre_les_7_pièces_de_renforcement_et_réglez_les_contraintes_verticales_entre_elles.}
+### 8. Calculez l\'espacement entre les 7 pièces de renforcement et réglez les contraintes verticales entre elles. 
 
 Dans notre cas, notre longueur totale est de 192 pouces, moins les deux embouts (2 x 2 pouces) et les deux renforts d\'angle (2 x 6 pouces), = 192 - (4 + 12) = 176. Démontage des 7 pièces de renfort (7 x 2) = 162. Diviser ceci par 8 nous donne l\'espace entre chaque renfort: 20.25.
 
 ![](images/Arch_panel_tutorial_08.jpg )
 
-### 9. Obtention d\'un esquisseur entièrement contraint {#obtention_dun_esquisseur_entièrement_contraint}
+### 9. Obtention d\'un esquisseur entièrement contraint 
 
 Sur le panneau de droite (Onglet Tâches de la vue combinée -\> Messages du solveur), vous pouvez voir le message \"\...2 degrés de liberté\". Cela signifie que notre croquis n\'est pas entièrement contraint (il a encore deux \"manières\" d\'être déformé). C\'est parce que, bien qu\'aucun morceau de celui-ci ne puisse maintenant se déplacer par rapport aux autres, l\'esquisse entière peut encore se déplacer verticalement et horizontalement. Pour éviter cela, nous pouvons simplement prendre l\'un de ses points d\'angle, sélectionner le point d\'origine de la grille (où les axes vert et rouge se croisent) et appuyer sur le bouton Point Constraint. Cela rend notre croquis vert, ce qui signifie qu\'il est entièrement contraint, aucune partie ne peut plus bouger.
 
@@ -124,7 +124,7 @@ Nous pouvons maintenant appuyer sur le bouton \"fermer\" et notre croquis de bas
 
 ![](images/Arch_panel_tutorial_10.jpg )
 
-### 10. Passez à l\'atelier Arch et, avec l\'esquisse sélectionnée, appuyez sur le bouton \"window\" {#passez_à_latelier_arch_et_avec_lesquisse_sélectionnée_appuyez_sur_le_bouton_window}
+### 10. Passez à l\'atelier Arch et, avec l\'esquisse sélectionnée, appuyez sur le bouton \"window\" 
 
 Notre croquis a maintenant disparu et un de ses rectangles a été légèrement extrudé en une pièce solide:
 
@@ -132,7 +132,7 @@ Notre croquis a maintenant disparu et un de ses rectangles a été légèrement 
 
 Bien que cela semble faux, c\'est simplement parce que l\'outil Arch Window a créé une pièce par défaut à partir de la plus grande boucle qu\'il pourrait trouver dans l\'esquisse de base. Nous allons réparer cela bientôt. Notez également que l\'esquisse n\'a pas disparu, elle a simplement été désactivée et \"avalée\" par son nouvel objet parent. Vous pouvez toujours le trouver dans l\'arborescence, en développant l\'objet fenêtre, et activer / désactiver son affichage en appuyant sur la touche ESPACE.
 
-### 11. Modifiez les composants de la fenêtre en double-cliquant dessus dans l\'arborescence {#modifiez_les_composants_de_la_fenêtre_en_double_cliquant_dessus_dans_larborescence}
+### 11. Modifiez les composants de la fenêtre en double-cliquant dessus dans l\'arborescence 
 
 ![](images/Arch_panel_tutorial_12.jpg )
 
@@ -154,7 +154,7 @@ Répétez ceci pour toutes les pièces nécessaires:
 
 Lorsque vous fermez le panneau d\'édition, nous obtenons l\'objet ci-dessus. Notez que par défaut, les objets fenêtre sont représentés semi-transparents. Comme il ne s\'agira pas d\'une fenêtre, nous pouvons simplement l\'éteindre en définissant sa valeur de transparence à 0 dans ses propriétés de vue.
 
-### 12. Ajouter le panneau de couverture {#ajouter_le_panneau_de_couverture}
+### 12. Ajouter le panneau de couverture 
 
 Nous avons maintenant notre cadre de panneau, mais pas le panneau de base lui-même. Pour ce faire, le meilleur moyen est d\'ouvrir notre esquisse de base et d\'ajouter un nouveau rectangle. Souvenez-vous cependant de ne pas faire coïncider les coins de ce rectangle avec les coins d\'autres rectangles, afin de ne pas confondre notre objet window, ce qui pourrait nous obliger à refaire toute la série de composants si l\'ordre des boucles change
 
@@ -168,7 +168,7 @@ Nous pouvons maintenant créer un autre composant basé sur le même fil, afin d
 
 ![](images/Arch_panel_tutorial_16.jpg )
 
-### 13. Transforme la fenêtre en un autre type de composant Arch {#transforme_la_fenêtre_en_un_autre_type_de_composant_arch}
+### 13. Transforme la fenêtre en un autre type de composant Arch 
 
 Ce n\'est pas vraiment nécessaire pour le moment, mais cela pourrait devenir important plus tard quand nous exportons ou travaillons à d\'autres applications orientées construction, par exemple via IFC, nous ne voulons pas que notre panneau soit identifié comme une fenêtre.
 
@@ -178,7 +178,7 @@ Le Workbench Arch de FreeCAD fournit un moyen facile de gérer cela, c\'est-à-d
 
 Notez que la couleur du panneau résultant a changé, c\'est parce que le support des matériaux dans FreeCAD et le module Arch est encore incomplet. Quand c\'est fini, ceci sera correctement géré
 
-### 14. Dupliquer le panneau {#dupliquer_le_panneau}
+### 14. Dupliquer le panneau 
 
 Notre panneau peut ensuite être dupliqué et copié de plusieurs façons, par exemple en utilisant le copier / coller. Mais un moyen plus intéressant est d\'utiliser l\'outil Draft Clone (également présent sur l\'Arb Workbench, comme tous les autres outils Draft). L\'outil Cloner conserve la relation entre l\'objet de base et son clone, de sorte que toute modification apportée à l\'objet de base se reflète dans tous ses clones.
 
@@ -186,7 +186,7 @@ Notre panneau peut ensuite être dupliqué et copié de plusieurs façons, par e
 
 Dans la version de développement actuelle de FreeCAD, les clones d\'objets Arch sont maintenant eux aussi des objets Arch.
 
-### 15. Rotation et positionnement des panneaux. {#rotation_et_positionnement_des_panneaux.}
+### 15. Rotation et positionnement des panneaux. 
 
 Bien que l\'atelier d\'assemblage de FreeCAD ne soit pas encore prêt, nous devons positionner nos pièces manuellement, soit en manipulant leur propriété Placement, soit en utilisant les outils Draft Move et Rotate, qui ne sont en réalité que des moyens visuels de modifier le placement des objets.
 

@@ -30,7 +30,7 @@ FreeCAD is also [multi-platform](http://en.wikipedia.org/wiki/Cross-platform), a
 
 For more information about FreeCAD\'s capabilities, take a look at the [feature list](feature_list.md), the [latest release notes](Feature_list#Release_notes.md), and the [getting started](getting_started.md) articles, or see more [screenshots](screenshots.md).
 
-### About the FreeCAD project {#about_the_freecad_project}
+### About the FreeCAD project 
 
 The FreeCAD project was started as far back as 2001, as described in its [history](history.md) page.
 

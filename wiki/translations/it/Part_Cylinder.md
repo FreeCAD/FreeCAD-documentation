@@ -25,7 +25,7 @@ Crea un cilindro parametrico. Attualmente, nell\'ambiente Parte, ci sono due mod
 2.  Richiamare il comando Cilindro in uno di questi modi:
     -   Premere il pulsante **<img src="images/Part_Cylinder.svg" width=24px>
 **
-    -   Usare {{MenuCommand|Part → Primitive → Cilindro}} dal menu principale.
+    -   Usare **Part → Primitive → Cilindro** dal menu principale.
 
 
 </div>

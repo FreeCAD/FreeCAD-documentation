@@ -15,9 +15,9 @@ Zobacz [Centrum Power użytkownika](Power_users_hub/pl.md), aby dowiedzieć się
 -   [Poradnik: Tworzenie skryptów Python](Python_scripting_tutorial/pl.md)
 -   [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md)
 
-## Jak to działa {#jak_to_działa}
+## Jak to działa 
 
-Włącz obsługę wyjścia konsoli w menu {{MenuCommand|Edcja → Preferencje → Ogólne → Makro → Pokaż polecenia skryptów w konsoli python}}. Zobaczysz, że w programie FreeCAD każda wykonywana czynność, taka jak naciśnięcie przycisku, wysyła polecenie Pythona. To właśnie te polecenia mogą być nagrywane w makrze. Głównym narzędziem do tworzenia makr jest pasek narzędzi makr: ![](images/Macros_toolbar.jpg ). Na nim znajdują się 4 przyciski: Rejestrowanie makr, Zatrzymaj nagrywanie makra, Wykonaj makro.
+Włącz obsługę wyjścia konsoli w menu **Edcja → Preferencje → Ogólne → Makro → Pokaż polecenia skryptów w konsoli python**. Zobaczysz, że w programie FreeCAD każda wykonywana czynność, taka jak naciśnięcie przycisku, wysyła polecenie Pythona. To właśnie te polecenia mogą być nagrywane w makrze. Głównym narzędziem do tworzenia makr jest pasek narzędzi makr: ![](images/Macros_toolbar.jpg ). Na nim znajdują się 4 przyciski: Rejestrowanie makr, Zatrzymaj nagrywanie makra, Wykonaj makro.
 
 Jest to bardzo łatwe w użyciu:
 Naciśnij przycisk {{button|Rejestrowanie makr}}, zostaniesz poproszony o podanie nazwy dla swojego makra, a następnie wykonaj kilka czynności. Kiedy skończysz, kliknij przycisk **Zatrzymaj nagrywanie makra**, a Twoje działania zostaną zapisane. Teraz możesz uzyskać dostęp do okna dialogowego makra za pomocą przycisku {{button|Edycja}}.
@@ -32,7 +32,7 @@ Naciśnij przycisk nagrywania, podaj nazwę, powiedzmy \"cylinder 10x10\", a nas
 
 ## Dostosowywanie
 
-Oczywiście nie jest praktyczne ładowanie makra w edytorze, aby móc z niego korzystać. FreeCAD zapewnia znacznie lepsze sposoby korzystania z makra, takie jak przypisanie do niego skrótu klawiaturowego lub umieszczenie jego pozycji w menu. Po utworzeniu makra, wszystko to można zrobić poprzez menu {{MenuCommand|Narzędzia → Dostosuj}}.
+Oczywiście nie jest praktyczne ładowanie makra w edytorze, aby móc z niego korzystać. FreeCAD zapewnia znacznie lepsze sposoby korzystania z makra, takie jak przypisanie do niego skrótu klawiaturowego lub umieszczenie jego pozycji w menu. Po utworzeniu makra, wszystko to można zrobić poprzez menu **Narzędzia → Dostosuj**.
 
 ![](images/Macros_config.jpg )
 
@@ -40,17 +40,17 @@ W ten sposób możesz sprawić, że Twoje makro stanie się prawdziwym narzędzi
 
 Aby uzyskać bardziej szczegółowy opis, zobacz artykuł [dostosowanie pasków narzędzi](Customize_Toolbars.md).
 
-## Tworzenie makr bez nagrywania {#tworzenie_makr_bez_nagrywania}
+## Tworzenie makr bez nagrywania 
 
-Możesz również bezpośrednio skopiować/wkleić kod pytona do makra, bez nagrywania akcji w GUI. Po prostu utwórz nowe makro, edytuj je i wklej swój kod. Następnie możesz zapisać swoje makro w ten sam sposób, w jaki zapisujesz dokument FreeCAD. Następnym razem, gdy uruchomisz FreeCAD, makro pojawi się pod pozycją {{MenuCommand|Zainstalowane makra}} w menu Makro.
+Możesz również bezpośrednio skopiować/wkleić kod pytona do makra, bez nagrywania akcji w GUI. Po prostu utwórz nowe makro, edytuj je i wklej swój kod. Następnie możesz zapisać swoje makro w ten sam sposób, w jaki zapisujesz dokument FreeCAD. Następnym razem, gdy uruchomisz FreeCAD, makro pojawi się pod pozycją **Zainstalowane makra** w menu Makro.
 
 Zobacz prezentacje [jak zainstalować makrodefinicje](How_to_install_macros/pl.md), aby uzyskać bardziej szczegółowy opis.
 
-## Repozytorium makrodefinicji {#repozytorium_makrodefinicji}
+## Repozytorium makrodefinicji 
 
 Istnieją dwa główne miejsca, w których można znaleźć makra. Pierwszym z nich jest oficjalne repozytorium makrodefinicji na [GitHub](https://github.com/FreeCAD/FreeCAD-macros). Drugim jest strona [Przepisy na makrodefinicje](Macros_recipes/pl.md), z której możesz wybrać kilka użytecznych makrodefinicji do dodania do swojej instalacji FreeCAD. Makrodefinicje z obu repozytoriów mogą być instalowane poprzez [Menadżer dodatków](Std_AddonMgr/pl.md) bezpośrednio z programu FreeCAD.
 
-## Informacje dodatkowe {#informacje_dodatkowe}
+## Informacje dodatkowe 
 
 -   [Automatyczne uruchamianie makra podczas startu programu](Macro_at_Startup.md)
 -   [Instalacja dodatkowych Środowisk pracy](Installing_more_workbenches.md).

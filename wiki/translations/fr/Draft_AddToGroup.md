@@ -19,11 +19,11 @@ Dans la version 0.20 de FreeCAD, la commande peut également gérer les objets d
 2.  Sélectionnez un ou plusieurs objets.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_AddToGroup.svg" width=16px> [Draft Déplace les objets sélectionnés vers un groupe...](Draft_AddToGroup/fr.md)**.
-    -   Sélectionnez le bouton {{MenuCommand|Utilitaires → <img src="images/Draft_AddToGroup.svg" width=16px> [Draft Déplacer vers le groupe...](Draft_AddToGroup/fr.md)}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_AddToGroup.svg" width=16px> Déplacer vers le groupe... }} dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) ou de la [Vue 3D](3D_view/fr.md).
+    -   Sélectionnez le bouton **Utilitaires → <img src="images/Draft_AddToGroup.svg" width=16px> [Draft Déplacer vers le groupe...](Draft_AddToGroup/fr.md)** dans le menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_AddToGroup.svg" width=16px> Déplacer vers le groupe... ** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) ou de la [Vue 3D](3D_view/fr.md).
 4.  Un menu s\'affiche près du curseur. Effectuez l\'une des opérations suivantes :
     -   Sélectionnez le groupe dans lequel vous souhaitez déplacer les objets.
-    -   Sélectionnez {{MenuCommand|Dégrouper}} pour déplacer les objets hors du ou des groupes dans lesquels ils se trouvent.
+    -   Sélectionnez **Dégrouper** pour déplacer les objets hors du ou des groupes dans lesquels ils se trouvent.
 
 ## Remarques
 

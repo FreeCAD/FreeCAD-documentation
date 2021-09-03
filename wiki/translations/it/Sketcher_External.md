@@ -34,7 +34,7 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 
 <div class="mw-translate-fuzzy">
 
-### Regole di selezione {#regole_di_selezione}
+### Regole di selezione 
 
 Le regole per selezione gli oggetti che possono essere importati differiscono drasticamente tra FC v0.16 e FC v0.17.
 
@@ -63,21 +63,21 @@ A differenza della v0.16, per poter utilizzare questo strumento lo schizzo non d
 
 </div>
 
-### Come capire se la linea è stata tratta {#come_capire_se_la_linea_è_stata_tratta}
+### Come capire se la linea è stata tratta 
 
 Se la linea è tratta con successo diventa di colore magenta. Se non viene tratta, rimane verde.
 
-### Analogia con le Linee di costruzione {#analogia_con_le_linee_di_costruzione}
+### Analogia con le Linee di costruzione 
 
 Le linee magenta di geometria esterna possono essere usate come [Linee di costruzione](Sketcher_ToggleConstruction/it.md). Le linee di costruzione sono linee che sono interne al disegno e sono utilizzate per la costruzione della geometria, ma non per le successive operazioni di modellazione di solidi, quali ad es. le estrusioni.
 
-### I due principali utilizzi delle linee geometria esterna {#i_due_principali_utilizzi_delle_linee_geometria_esterna}
+### I due principali utilizzi delle linee geometria esterna 
 
 Nel flusso di lavoro dell\'ambiente PartDesign, lo strumento geometria esterna viene utilizzato per supportare il posizionamento di un aspetto del solido che si sta costruendo, relativo alla fase precedente nella sua costruzione. L\'ambiente PartDesign è destinato a produrre un unico solido, quindi questi schizzi con geometria esterna vengono utilizzati per creare una nuova funzionalità di un singolo solido.
 
 Lo strumento Geometria esterna può, per esempio, essere utilizzato come riferimento per un vincolo utilizzato per posizionare un foro in un oggetto, in una data posizione con riferimento a un bordo o ad un vertice.
 
-### Uso della geometria esterna in un flusso di lavoro di Part {#uso_della_geometria_esterna_in_un_flusso_di_lavoro_di_part}
+### Uso della geometria esterna in un flusso di lavoro di Part 
 
 È possibile utilizzare qualsiasi geometria della parte che si trova nel sistema di coordinate dello schizzo. Si consiglia di collegarsi alla prima caratteristica possibile, in quanto forma un collegamento più stabile.
 

@@ -13,12 +13,12 @@ Siehe [Skizzierer SkizziererObjekt](Sketcher_SketchObject/de.md) für weitere In
 
 Es gibt zwei gängige Möglichkeiten, eine Skizze zu erstellen: mit der [Arbeitsbereich Skizze](Sketcher_Workbench/de.md) direkt oder über die [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md).
 
-### Skizzierer Arbeitsbereich {#skizzierer_arbeitsbereich}
+### Skizzierer Arbeitsbereich 
 
 1.  Wechsle zur <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md).
 2.  Drücke **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Skizzierer NeueSkizze](Sketcher_NewSketch/de.md)**.
 
-### Arbeitsbereich PartDesign {#arbeitsbereich_partdesign}
+### Arbeitsbereich PartDesign 
 
 1.  Wechsle zur <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md).
 2.  Drücke **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**.

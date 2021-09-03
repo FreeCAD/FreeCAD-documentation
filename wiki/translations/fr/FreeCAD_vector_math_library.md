@@ -11,7 +11,7 @@ Veuillez noter que ce module a été créé il y a longtemps lorsque la classe `
 
 Bien que le module `DraftVecUtils` existe toujours, et qu\'il soit toujours utilisé dans l\'[atelier Draft](Draft_Workbench/fr.md), il est probablement préférable d\'utiliser les méthodes `Vector` directement pour les nouveaux développements.
 
-## Les Fonctions {#les_fonctions}
+## Les Fonctions 
 
 Les vecteurs sont les fondations de pratiquement toutes les formes géométriques 3D, il est donc utile de connaître un peu plus et comprendre comment ces fonctions peuvent vous être utiles. Une série de bonnes adresses pour apprendre les bases des vecteur mathématiques :
 

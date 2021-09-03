@@ -27,7 +27,7 @@ The **Std BoxSelection** command selects objects from a user defined rectangular
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 -   Alegeți ** Edit** → **<img src="images/Std_BoxSelection.png" width=24px> Box selection** din meniul principal.
 -   Plasați cursorul mouse-ului în zona de lucru și desenați un dreptunghi din STÂNGA spre dreapta pentru a selecta numai obiectele aflate INTEGRAL din interiorul dreptunghiului.

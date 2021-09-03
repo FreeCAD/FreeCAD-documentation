@@ -24,14 +24,14 @@ Les Draft Dimensions peuvent être affichées sur une page de l\'[Atelier Techdr
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
-### Utilisation pour une dimension linéaire {#utilisation_pour_une_dimension_linéaire}
+### Utilisation pour une dimension linéaire 
 
 1.  Sélectionnez éventuellement une règle dans la [Vue 3D](3D_view/fr.md).
 2.  Il existe plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Dimension.svg" width=16px> [Créer une cote](Draft_Dimension/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension}} dans le menu.
+    -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** dans le menu.
     -   Utilisez les raccourcis clavier : **D** puis **I**.
-3.  Le panneau de tâches {{MenuCommand|Dimension}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+3.  Le panneau de tâches **Dimension** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'arête, effectuez l\'une des opérations suivantes :
     -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> sélection d'un bord** et sélectionnez une arête droite dans la [Vue 3D](3D_view/fr.md).
     -   Maintenez la touche **Alt** enfoncée, sélectionnez une arête droite dans la [Vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
@@ -48,14 +48,14 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/f
         -   Déplacez le pointeur à gauche ou à droite de l\'arête ou des points.
         -   Maintenez la touche **Shift** enfoncée, déplacez le pointeur et choisissez un point dans la [Vue 3D](3D_view/fr.md).
 
-### Utilisation pour une dimension radiale {#utilisation_pour_une_dimension_radiale}
+### Utilisation pour une dimension radiale 
 
 1.  Sélectionnez éventuellement un bord circulaire dans la [Vue 3D](3D_view/fr.md).
 2.  Il existe plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Dimension.svg" width=16px> [Créer une cote](Draft_Dimension/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension}} dans le menu.
+    -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **I**.
-3.  Le panneau de tâches {{MenuCommand|Dimension}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+3.  Le panneau de tâches **Dimension** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'arête, effectuez l\'une des opérations suivantes :
     -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> sélection d'un bord** et sélectionnez une arête circulaire dans la [Vue 3D](3D_view/fr.md).
     -   Maintenez la touche **Alt** enfoncée, sélectionnez une arête circulaire dans la [Vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
@@ -65,13 +65,13 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/f
     -   Pour une dimension radiale :
         -   Maintenez la touche **Shift** et choisissez un point dans la [Vue 3D](3D_view/fr.md).
 
-### Utilisation pour une dimension angulaire {#utilisation_pour_une_dimension_angulaire}
+### Utilisation pour une dimension angulaire 
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Dimension.svg" width=16px> [Créer une cote](Draft_Dimension/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension}} dans le menu.
+    -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **I**.
-2.  Le panneau de tâches {{MenuCommand|Dimension}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+2.  Le panneau de tâches **Dimension** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Maintenez la touche **Alt** enfoncée, sélectionnez deux arêtes droites dans la [Vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
 4.  Pour positionner l\'arc de cotes, sélectionnez un point dans la [Vue 3D](3D_view/fr.md).
 5.  Selon les bords et le point choisi, l\'angle affiché sera l\'angle aigu (pointu) ou obtus (émoussé) entre les bords, ou l\'angle d\'un des bords avec l\'horizontale. Dans certains cas, vous devrez d\'abord ajouter une géométrie auxiliaire ([Draft Lignes](Draft_Line/fr.md) par exemple) pour obtenir un angle particulier.
@@ -81,9 +81,9 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/f
 Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
 
 -   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur **R** ou cliquez sur la case {{MenuCommand|Relative}} pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyez sur **G** ou cliquez sur la case {{MenuCommand|Global}} pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **T** ou cliquez sur la case {{MenuCommand|Continue}} pour activer le mode continu. Ce mode ne fonctionne que pour les dimensions linéaires. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des dimensions. Toutes les dimensions suivantes commenceront à partir du point final de la dimension précédente, et utiliseront la même ligne de base que la première dimension. Notez que la sélection des bords n\'est pas possible pour les dimensions suivantes.
+-   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Appuyez sur **T** ou cliquez sur la case **Continue** pour activer le mode continu. Ce mode ne fonctionne que pour les dimensions linéaires. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des dimensions. Toutes les dimensions suivantes commenceront à partir du point final de la dimension précédente, et utiliseront la même ligne de base que la première dimension. Notez que la sélection des bords n\'est pas possible pour les dimensions suivantes.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
 
@@ -94,7 +94,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 1.  Sélectionnez un ou plusieurs objets [Std Mesurer une distance](Std_MeasureDistance/fr.md).
 2.  Il existe plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le **<img src="images/Draft_Dimension.svg" width=16px> [Créer une cote](Draft_Dimension/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension}} dans le menu.
+    -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **I**.
 3.  Chaque objet sélectionné est remplacé par une Draft Dimension linéaire non paramétrique.
 
@@ -108,7 +108,7 @@ Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_FeaturePython/fr.md) et hérite de toutes ses propriétés. Les propriétés suivantes sont supplémentaires, sauf indication contraire :
 
-### Données dimension linéaire et radiale {#données_dimension_linéaire_et_radiale}
+### Données dimension linéaire et radiale 
 
 
 {{TitleProperty|Dimension}}
@@ -137,7 +137,7 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    {{PropertyData/fr|Diameter|Bool}}: spécifie si une dimension radiale est affichée comme une dimension de diamètre. Si cela change, le symbole utilisé dans {{PropertyView/fr|Override}} doit être mis à jour manuellement (de {{Value|Ø}} à {{Value|R}} ou vice versa). Non utilisé pour les dimensions linéaires.
 
-### Données dimension angulaire {#données_dimension_angulaire}
+### Données dimension angulaire 
 
 
 {{TitleProperty|Angular dimension}}

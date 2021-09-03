@@ -21,7 +21,7 @@ X = wartość początkowa x,
 :   Z = funkcja wyrażona przez x
 :   ZZ = funkcja wyrażona przez xx
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 ToolBar Icon ![](images/Macro_Draw_2D_Function.png )
 

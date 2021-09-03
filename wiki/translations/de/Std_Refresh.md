@@ -39,8 +39,8 @@ Drücke **F5** oder **Ctrl**+**R** oder klicke auf das Symbol **<img src=images/
 
 ## Options
 
--   To force a recompute select the document or one or more objects in the [Tree view](Tree_view.md), choose the {{MenuCommand|<img src="images/Std_MarkToRecompute.svg" width=16px> Mark to recompute}} option from the context menu, and invoke the command.
--   For objects, but not for documents, you can also choose {{MenuCommand|Recompute object}} from the same context menu (<small>(v0.19)</small> ).
+-   To force a recompute select the document or one or more objects in the [Tree view](Tree_view.md), choose the **<img src="images/Std_MarkToRecompute.svg" width=16px> Mark to recompute** option from the context menu, and invoke the command.
+-   For objects, but not for documents, you can also choose **Recompute object** from the same context menu (<small>(v0.19)</small> ).
 
 ## Notes
 

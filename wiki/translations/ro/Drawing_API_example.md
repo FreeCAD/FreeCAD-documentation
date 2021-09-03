@@ -4,7 +4,7 @@
 
 Fluxul de lucru pentru interfața grafică pentru [Drawing Workbench](Drawing_Workbench.md) este limitat, astfel încât API-ul de scripting este mai interesant.
 
-## Exemplu Simplu {#exemplu_simplu}
+## Exemplu Simplu 
 
 Mai întâi aveți nevoie de modulul Parte și de desen: 
 ```python
@@ -41,7 +41,7 @@ resultSVG = Drawing.projectToSVG(Shape,App.Vector(1,1,1))
 print resultSVG
 ```
 
-## Parametric example {#parametric_example}
+## Parametric example 
 
 Create the body 
 ```python
@@ -137,7 +137,7 @@ App.ActiveDocument.View.Scale = 1.5
 App.ActiveDocument.recompute()
 ```
 
-## Accessing the bits and pieces {#accessing_the_bits_and_pieces}
+## Accessing the bits and pieces 
 
 Get the SVG fragment of a single view 
 ```python
@@ -181,7 +181,7 @@ That leads to the following result:
 
 ![](images/DrawingScriptResult.jpg )
 
-## General dimensioning and tolerancing {#general_dimensioning_and_tolerancing}
+## General dimensioning and tolerancing 
 
 
 **See also:**

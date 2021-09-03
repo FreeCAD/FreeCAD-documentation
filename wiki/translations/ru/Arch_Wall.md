@@ -34,7 +34,7 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 ## Использование
 
-### Рисование стены с нуля {#рисование_стены_с_нуля}
+### Рисование стены с нуля 
 
 
 <div class="mw-translate-fuzzy">
@@ -47,7 +47,7 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 </div>
 
-### Drawing a wall on top of a selected object {#drawing_a_wall_on_top_of_a_selected_object}
+### Drawing a wall on top of a selected object 
 
 1.  Select one or more base geometry objects (Draft object, sketch, etc)
 2.  Press the **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)** button, or press the **W** then **A** keys

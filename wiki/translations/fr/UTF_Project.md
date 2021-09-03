@@ -12,7 +12,7 @@ Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
 
 C\'est le plan de projet pour la partie FreeCAD du Guide de la [route de développement](Development_roadmap/fr.md).
 
-## But et principes {#but_et_principes}
+## But et principes 
 
 Pour améliorer les capacités multilingues de FreeCAD, mettant en œuvre la prise en charge des caractères [UTF](http://fr.wikipedia.org/wiki/UTF-8) dans l\'interface [Coin3D](https://bitbucket.org/Coin3D/coin/wiki/Home).
 
@@ -30,7 +30,7 @@ Malgré que Coin3D passe maintenant à une plate-forme de développement plus ou
 
 -   tests rigoureux.
 
-## Actions suivantes {#actions_suivantes}
+## Actions suivantes 
 
 -   Misee en place de la chaîne UTF de classe **(WIP)**.
 

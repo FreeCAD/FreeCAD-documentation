@@ -18,17 +18,17 @@ Les ailerons sont utilisés pour contrôler aérodynamiquement la direction du v
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_Fin.svg" width=16px> [Fin](Rocket_Fin/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Rocket  → <img src="images/Rocket_Fin.svg" width=16px> Fin}} dans le menu.
+    -   Sélectionnez l\'option **Rocket  → <img src="images/Rocket_Fin.svg" width=16px> Fin** dans le menu.
     -   Double-cliquez sur un objet Fin dans la vue du modèle.
 2.  Définissez les options et appuyez sur **OK**.
 
 ## Options
 
-### Type d\'aileron {#type_daileron}
+### Type d\'aileron 
 
 Pour le moment, seules les ailettes de forme \"trapézoïdale\" sont supportées. Cela changera au fur et à mesure du développement de l\'atelier.
 
-### Section transversale {#section_transversale}
+### Section transversale 
 
 La forme en coupe d\'un aileron peut grandement affecter ses performances à différentes vitesses, ainsi que l\'apparence de la fusée. Diverses sections transversales des ailettes ont été mises en œuvre. Les ailettes sont créées en lissant la section transversale de la base jusqu\'à la section transversale de la pointe, de sorte que toutes les combinaisons de **Section transversale de la base** et **Section transversale de pointe** ne produiront pas d\'ailerons utiles.
 
@@ -72,7 +72,7 @@ La forme en coupe d\'un aileron peut grandement affecter ses performances à dif
 <img alt="" src=images/CS_Taper.png  style="width:128px;"> 
 *Section transversale biseautée*
 
-### Attaches à travers le mur (TTW) {#attaches_à_travers_le_mur_ttw}
+### Attaches à travers le mur (TTW) 
 
 À travers la paroi, les ailerons ajoutent une résistance structurelle en s\'étendant à travers le tube du corps externe jusqu\'à un tube du corps interne tel qu\'un support de moteur. Au lieu de se fixer uniquement à l\'extérieur du tube du corps extérieur, il peut être fixé en plusieurs points. En tant que telle, la hauteur de l\'attache serait la distance entre le diamètre extérieur du tube de corps interne et le diamètre externe du tube de corps externe. Les autres paramètres varient en fonction des besoins.
 ![](images/TTWx4.png ) *4 ailerons TTW fixées à un support du moteur central à l'intérieur du tube du corps externe*
@@ -143,7 +143,7 @@ Voir aussi : [:Category:API/fr](:Category:API/fr.md) et [Débuter avec les scrip
 
 A définir
 
-## Tutoriels et apprentissage {#tutoriels_et_apprentissage}
+## Tutoriels et apprentissage 
 
 [Aileron atelier Rocket](https://youtu.be/8MmEVyGkA0I) Tutoriel sur YouTube
 

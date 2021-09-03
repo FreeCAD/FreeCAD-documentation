@@ -21,7 +21,7 @@ Bien qu\'elle soit principalement destinée aux corps solides, Std Part peut êt
 
 Ne pas confondre **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)** avec **[16px"> [Std Part](Std_Part/fr.md)**. Le premier est un objet spécifique utilisé dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md), destiné à modéliser un [solide contigu unique](PartDesign_Body/fr#Solide_contigu_unique.md) au moyen de [PartDesign Features](PartDesign_Feature/fr.md). En revanche, [Std Part](Std_Part.md) n\'est pas utilisée pour la modélisation, juste pour arranger différents objets dans l\'espace, avec l\'intention de créer des [assemblages](assembly/fr.md).
 
-L\'outil **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part/fr.md)** n\'est pas défini par un atelier particulier mais par le système de base. Il se trouve donc dans la {{MenuCommand|structure toolbar}} qui est disponible dans tous les [ateliers](Workbenches/fr.md). Pour grouper des objets arbitrairement sans tenir compte de leur position, utilisez **[16px"> [Std Groupe](Std_Group/fr.md)**. Cet objet n\'affecte pas les placements des éléments qu\'il contient, c\'est essentiellement juste un dossier qui sert à garder la [Vue en arborescence](Tree_view/fr.md) organisée.
+L\'outil **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part/fr.md)** n\'est pas défini par un atelier particulier mais par le système de base. Il se trouve donc dans la **structure toolbar** qui est disponible dans tous les [ateliers](Workbenches/fr.md). Pour grouper des objets arbitrairement sans tenir compte de leur position, utilisez **[16px"> [Std Groupe](Std_Group/fr.md)**. Cet objet n\'affecte pas les placements des éléments qu\'il contient, c\'est essentiellement juste un dossier qui sert à garder la [Vue en arborescence](Tree_view/fr.md) organisée.
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
@@ -37,7 +37,7 @@ L\'outil **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_
 ### Remarques
 
 -   Depuis la v0.19, un objet donné ne peut appartenir qu\'à un seul Part.
--   Double-cliquez sur Part dans la [vue en arborescence](tree_view/fr.md) ou ouvrez le menu contextuel (clic droit) et sélectionnez {{MenuCommand|Toggle active part}} pour activer ou désactiver Part. Si un autre Part est actif, il sera désactivé. Voir [status actif](Std_Part/fr#Statut_actif.md) pour plus d\'informations.
+-   Double-cliquez sur Part dans la [vue en arborescence](tree_view/fr.md) ou ouvrez le menu contextuel (clic droit) et sélectionnez **Toggle active part** pour activer ou désactiver Part. Si un autre Part est actif, il sera désactivé. Voir [status actif](Std_Part/fr#Statut_actif.md) pour plus d\'informations.
 
 ### Limitations
 
@@ -51,7 +51,7 @@ L\'outil **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_
 
 En plus des propriétés décrites dans [App GeoFeature](App_GeoFeature/fr.md), la classe App Part possède des propriétés qui l\'aident à gérer les informations dans le contexte d\'un assemblage, par exemple, **Type**, **Id**, **License**, **LicenseURL**, **Color** et **Group**.
 
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande {{MenuCommand|Show all}} dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
 
 ### Données
 
@@ -89,7 +89,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property
 
 -    {{PropertyData/fr|Group|LinkList}}: une liste d\'objets référencés. Par défaut, il est vide {{value|[]}}.
 
-##### Propriétés cachées de Données {#propriétés_cachées_de_données}
+##### Propriétés cachées de Données 
 
 -    {{PropertyData/fr|Material|Map}}: carte avec les propriétés du matériau. Par défaut, il est {}.
 
@@ -124,7 +124,7 @@ App Part n\'a que les cinq propriétés de la base [App FeaturePython](App_Featu
 
 -    {{PropertyView/fr|Visibility|Bool}}: s\'il s\'agit de `True`, l\'objet apparaît dans la [vue 3D](3D_view/fr.md) ; sinon il est invisible. Par défaut, cette propriété peut être activée et désactivée en appuyant sur la barre **Espace** du clavier.
 
-## Concept d\'assemblage {#concept_dassemblage}
+## Concept d\'assemblage 
 
 Std Part est destiné à être le bloc de construction de base pour créer des assemblages. Contrairement à un [PartDesign Corps](PartDesign_Body/fr.md), un assemblage est censé être une collection d\'éléments distincts et distinctifs qui sont connectés d\'une manière ou d\'une autre dans le monde physique, par exemple par pression, vis ou colle.
 
@@ -139,16 +139,16 @@ Exemples qui pourraient être des Parts :
 
 De manière générale, lors de l\'importation d\'un fichier STEP dans le programme, l\'assemblage principal et ses sous-assemblages seront importés en tant que conteneurs de Parts, chacun d\'eux contenant une simple [Part Feature](Part_Feature/fr.md).
 
-## Explications détaillées {#explications_détaillées}
+## Explications détaillées 
 
-### Statut actif {#statut_actif}
+### Statut actif 
 
-Un document ouvert peut contenir plusieurs Part. Un Part actif sera affiché dans la [vue en arborescence](Tree_view/fr.md) avec la couleur d\'arrière-plan spécifiée par la valeur {{MenuCommand|Conteneur actif}} dans [éditeur de préférences](Preferences_Editor/fr#Couleurs.md) (par défaut, clair bleu). Une partie active sera également affichée en gras.
+Un document ouvert peut contenir plusieurs Part. Un Part actif sera affiché dans la [vue en arborescence](Tree_view/fr.md) avec la couleur d\'arrière-plan spécifiée par la valeur **Conteneur actif** dans [éditeur de préférences](Preferences_Editor/fr#Couleurs.md) (par défaut, clair bleu). Une partie active sera également affichée en gras.
 
 Pour activer ou désactiver un Part :
 
 -   Double-cliquez dessus dans l\'[arborescence](Tree_view/fr.md) ou
--   Ouvrez le menu contextuel (clic droit) et sélectionnez {{MenuCommand|Toggle active part}}.
+-   Ouvrez le menu contextuel (clic droit) et sélectionnez **Toggle active part**.
 
 
 **Remarques :**
@@ -183,7 +183,7 @@ L\'origine est un [App Origin](App_Origin/fr.md) objet (de classe `App::Origin`)
 
 tous les éléments à l\'intérieur du Part sont référencés à l\'origine du Part, ce qui signifie que le Part peut être déplacé et tourné en référence au système de coordonnées global sans affecter le placement des éléments à l\'intérieur.
 
-### Gestion de la visibilité {#gestion_de_la_visibilité}
+### Gestion de la visibilité 
 
 La visibilité d\'un Part remplace la visibilité de tout objet qu\'elle contient. Si Part est masqué, les objets qu\'il contient seront également masqués, même si leur propriété individuelle **Visibility** est définie sur `True`. Si Part est visible, la **Visibility** de chaque objet détermine si l\'objet est affiché ou non.
 

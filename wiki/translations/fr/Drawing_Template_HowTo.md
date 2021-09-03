@@ -22,9 +22,9 @@ Ce didacticiel commence avec la mise en place d\'une page dans Inkscape et crée
 
 Ce tutoriel suppose que vous connaissez les base sur l\'utilisation de Inkscape et d\'un éditeur de texte.
 
-## Les Bases {#les_bases}
+## Les Bases 
 
-### Mise en page {#mise_en_page}
+### Mise en page 
 
 Commençons avec un nouveau document dans Inkscape. En se référant sur la page du Wiki de FreeCAD sur la construction de feuilles de dessin (Template), un pixel = un millimètre. Ce qui signifie que si vous souhaitez créer une feuille de format ANSI A la taille de la page, (format lettre), est de 216 mm X 279 mm, notre feuille devra avoir une taille 216px X 279px. Si vous souhaitez que la feuille ait une orientation paysage, ces chiffres doivent être inversés. Pour ce tutoriel, l\'orientation paysage sera utilisée. La feuille est définie comme ayant 279px de large et 216px de haut.
 
@@ -34,7 +34,7 @@ Après avoir exécuté Inkscape, déroulez le menu fichier et sélectionnez **Pr
 
 Vous devriez maintenant avoir un document Inkscape qui est de 279px large et haute de 216px. Maintenant procédons pour ajouter une bordure.
 
-### Le Cadre {#le_cadre}
+### Le Cadre 
 
 Ensuite, faites le cadre. Quoique non nécessaire pour ce tutoriel, il est référencé plus tard.
 
@@ -44,7 +44,7 @@ En utilisant les coordonnées horizontales et verticales des paramètres de sél
 
 ![](images/Inkscape_Template_tut_2.png )
 
-### Le Cartouche {#le_cartouche}
+### Le Cartouche 
 
 Maintenant, vous aller faire le cartouche. C\'est là où le texte modifiable dans le dessin sera entré lorsqu\'il sera utilisé avec FreeCAD. Ce didacticiel utilise un simple exemple. Le cartouche peut être aussi simple ou complexe que l\'on veut.
 
@@ -54,7 +54,7 @@ Vous allez tout d\'abord faire un rectangle quelque part à l\'intérieur du doc
 
 ![](images/Inkscape_Template_tut_3.png )
 
-### Fixer le Texte {#fixer_le_texte}
+### Fixer le Texte 
 
 Maintenant nous allons ajouter les blocs de texte qui seront solidaires du cartouche. Ceux-ci seront Project Name, Date, Scale, et Author. Pour ce faire, sélectionnez l\'outil texte et cliquez quelque part dans le document. Ensuite il suffit de taper le texte, un nom pour chaque case. Cliquez sur l\'outil texte dans le document et après avoir sélectionné la taille de police appropriée, (pour cet exemple taille 6), tapez Project Name. Puis, déplacez le pointeur vers un nouvel emplacement et cliquez encore une fois sur un nouveau bloc de texte pour la Date. Faites de même pour Scale et Author. Maintenant à l\'aide de l\'outil \"Sélectionner les blocs de texte individuels\" peut être déplacé en faisant glisser ou en utilisant les touches de direction pour les placer aux endroits désirés.
 
@@ -62,15 +62,15 @@ Après avoir mis les blocs de texte, sélectionnez les tous ainsi que le cartouc
 
 ![](images/Inkscape_Template_tut_4.png )
 
-### Textes Éditables {#textes_éditables}
+### Textes Éditables 
 
 Maintenant, vous allez ajouter les blocs de texte qui seront modifiables à partir de FreeCAD. De la même manière que les textes fixes ont été fait, les textes modifiables seront adaptés et placés à leurs positions respectives, vous utiliserez le texte comme suit, NAME, DATE, SCALE, AUTHOR et leurs donner une hauteur de police de 8 px. Une fois que les textes sont placés, sélectionnez les 4 textes qui seront modifiables et faites-en un groupe distinct. Ne les mettez pas dans le même groupe que le cartouche ou du cadre. Pour l\'instant, vous avez terminé avec le texte modifiable. Une fois la partie graphique de la feuille terminée, vous achèverez la finition de ces textes modifiables à partir de FreeCAD. Pour l\'instant, nous allons terminer cette partie avec l\'ajout d\'un petit logo dans notre feuille.
 
 ![](images/Inkscape_Template_tut_5.png )
 
-## Mode avancé {#mode_avancé}
+## Mode avancé 
 
-### Ajouter un logo {#ajouter_un_logo}
+### Ajouter un logo 
 
 Maintenant que la feuille de base est faite, vous pouvez lui ajouter un logo. Ce peut être n\'importe quelle image. Le logo d\'une firme ou un logo personnel, une photo ou un rendu de votre projet, etc\... Pour ce tutoriel le logo de FreeCAD, trouvé dans la section [Artwork](Artwork/fr.md) du Wiki FreeCAD sera utilisé. Choisissez votre image et vous pouvez tout simplement faire clic droit sur l\'image et sélectionnez \"Enregistrer l\'image sous\". Une fois l\'image enregistrée, importez-la dans Inkscape. Avec l\'image importée dans votre feuille, elle peut être de n\'importe quelle taille et placée où vous voulez. Ajouter une image à votre feuille est aussi simple que ça.
 
@@ -78,9 +78,9 @@ Maintenant que la feuille de base est faite, vous pouvez lui ajouter un logo. Ce
 
 ![](images/Inkscape_Template_tut_6.png )
 
-## Une fois la feuille finie {#une_fois_la_feuille_finie}
+## Une fois la feuille finie 
 
-### Ouvrir le fichier dans un éditeur de texte {#ouvrir_le_fichier_dans_un_éditeur_de_texte}
+### Ouvrir le fichier dans un éditeur de texte 
 
 Une fois votre feuille enregistrée, ouvrez-la avec votre éditeur de texte favori. Cela peut être quelque chose d\'aussi simple que le bloc-notes ou un éditeur plus complet comme Kate ou (Notepad++ pour Windows). Dans ce tutoriel, Kate est utilisé et toutes les captures d\'écran sont faites sur de cet éditeur.
 
@@ -88,7 +88,7 @@ Ouvrez le fichier SVG avec votre éditeur de texte, vous verrez le texte suivant
 
 ![](images/Kate1.png )
 
-### Le Tag \"xmlns:freecad\" {#le_tag_xmlnsfreecad}
+### Le Tag \"xmlns:freecad\" 
 
 La première chose à faire est d\'insérer la ligne suivante dans le document. Cette ligne est la déclaration **SVG\_namespace** et doit être fournie afin que tous les éléments SVG soient identifiés comme appartenant à **SVG\_namespace**
 
@@ -105,7 +105,7 @@ Cette ligne est ajoutée immédiatement après la première balise
 
 ![](images/Kate2.png )
 
-### Taille de la page {#taille_de_la_page}
+### Taille de la page 
 
 Afin de permettre l\'impression du dessin final dans la bonne échelle, la page doit contenir ses dimensions en unités réelles 1/1. Sinon la page de dessin entière serait imprimée à une échelle plus basse avec un facteur de 3.54 (90 (px/in) / 25.4 (mm/po)). A l\'intérieur de la feuille \<SVG\>-Tag l\'unité \"mm\" est ajoutée aux champs de width et height. Et un attribut viewBox doit être ajouté. Les données dans viewBox varient de 0 0 à width et height (largeur et hauteur) de la feuille. De cette façon, l\'unité utilisée par la feuille SVG qui est le (px) est redéfini pour être 1 mm de longueur. Dans les programmes comme Inkscape pourront imprimer une élaboration résultante à l\'échelle. Les versions actuelles de Inkscape gèrent très mal cette information. Inkscape redimensionne efficacement l\'ensemble du document à 90dpi. Ce n\'est pas vraiment un problème pour un dessin final, mais impose des difficultés pour l\'édition de modèles de dessin. Après modification d\'une feuille dans Inkscape, elle aurait la même taille de format sur Inkscape mais les éléments du dessin seraient réduits d\'un facteur de 3.54. (Parce que le modèle serait créé en 90dpi mais FreeCAD l\'interprète comme 1px/mm.) Par conséquent, il est recommandé de retirer le \"mm\" de la largeur et la hauteur des attributs avant d\'ouvrir une feuille existante dans Inkscape et après de recréer les unités et attribut dans la balise viewBox.
 
@@ -117,7 +117,7 @@ viewBox="0 0 279 216"
 
 ![](images/Kate2a.png )
 
-### Working space et la balise Title block {#working_space_et_la_balise_title_block}
+### Working space et la balise Title block 
 
 Dans les lignes suivantes nous ajouterons un espace de travail et une balise pour le bloc de textes. Ces balises et leurs utilisations sont définis dans la feuille de dessin. Même si ces balises ne sont pas nécessaires, les versions plus récentes de l\'atelier Draw de FreeCAD les utilisent et n\'affectent pas les anciennes versions.
 
@@ -127,7 +127,7 @@ La balise **Title block** est utilisée pour définir où le cartouche se situe 
 
 Si les deux balises sont utilisées, la balise **Working space** doit être placée en premier et être immédiatement suivie par la balise **Title block**. Les deux balises doivent également se trouver avant la première balise **metadata**. Ces balises peuvent être placées dans la partie supérieure (entête du fichier), suite à la balise **xml** ou immédiatement avant la balise **metadata**. Pour ce tutoriel, nous les placerons en haut.
 
-#### La balise Working space {#la_balise_working_space}
+#### La balise Working space 
 
 La première balise est la balise **Working space** et est formatée comme suit.
 
@@ -148,7 +148,7 @@ Donc pour la feuille de ce tutoriel, la balise sera **Working space**.
 
 
 
-#### La balise Title block {#la_balise_title_block}
+#### La balise Title block 
 
 La balise suivante est la balise **Title block** et est formatée comme suit :
 
@@ -174,7 +174,7 @@ La position des deux balises, dans l\'ordre et en haut du document ressemble à 
 
 ![](images/Kate3.png )
 
-### La balise freecad:editable {#la_balise_freecadeditable}
+### La balise freecad:editable 
 
 Ajouter la balise **freecad:editable** permet à FreeCAD d\'accéder aux blocs de textes modifiables définis pour l\'édition dans le document SVG. Pour modifier les blocs de textes que vous souhaitez modifier à partir de FreeCAD, procédez comme suit.
 
@@ -182,7 +182,7 @@ Cherchez vers le bas dans le document SVG jusqu\'à trouver la section qui conti
 
 ![](images/Kate4.png )
 
-### La balise DrawingContent {#la_balise_drawingcontent}
+### La balise DrawingContent 
 
 La dernière balise qui est nécessaire dans la feuille est la balise **DrawingContent**. Sans elle, FreeCAD ne peut pas accéder à notre feuille de dessin. Cette balise informe FreeCAD où il peut écrire ses projections et autres attributs dans le document SVG. Cette balise doit être située dans le document SVG pour que FreeCAD puisse travailler avec elle.
 
@@ -201,13 +201,13 @@ Cette balise est formatée comme suit et est insérée juste avant la dernière 
 
 C\'est terminé. Le document SVG peut maintenant être enregistré et utilisé avec FreeCAD.
 
-## Exemple Complet de la feuille {#exemple_complet_de_la_feuille}
+## Exemple Complet de la feuille 
 
 Voici la feuille SVG finie. Elle est au format SVG, vous pouvez l\'enregistrer et l\'ouvrir dans votre éditeur de texte pour l\'examiner comme référence à ce tutoriel et la création de vos propres feuilles.
 
 ![](images/TemplateExample.svg )
 
-## Les outils {#les_outils}
+## Les outils 
 
 Les deux outils utilisés dans ce tutoriel sont Inkscape et Kate. Ils peuvent être trouvés en cliquant sur les liens ci-dessous.
 

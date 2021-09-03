@@ -3,7 +3,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Sürücü kurulumu {#sürücü_kurulumu}
+## Sürücü kurulumu 
 
 ### Linux
 
@@ -12,21 +12,21 @@ FreeCAD [Spacenav](http://spacenav.sourceforge.net/) projesinden sürücüleri d
 
 </div>
 
-### Linux {#linux_1}
+### Linux 
 
 FreeCAD supports drivers from project [Spacenav](http://spacenav.sourceforge.net/). This is a project aiming to create an open-sourced driver which is compatible with the proprietary drivers from 3Dconnexion.
 
 
 <div class="mw-translate-fuzzy">
 
-#### Depodan yükleyin {#depodan_yükleyin}
+#### Depodan yükleyin 
 
 ##### Ubuntu
 
 
 </div>
 
-##### Ubuntu {#ubuntu_1}
+##### Ubuntu 
 
 
 ```python
@@ -93,7 +93,7 @@ sudo zypper install spacenavd
 
 <div class="mw-translate-fuzzy">
 
-#### Spacenav\'ı kaynaktan derle {#spacenavı_kaynaktan_derle}
+#### Spacenav\'ı kaynaktan derle 
 
 Dağıtımınız eski bir sürüm sağlayabilirse, bu önerilir.
 
@@ -231,7 +231,7 @@ Aşağıdaki dosyaları indirin:
 
 -   Spnavcfg\'yi derlemek ve kurmak için aynı işlemleri takip edin. Spnavcfg dosyasını root olarak çalıştırdığınızdan emin olun, aksi takdirde hiçbir ayar kaydedilmez!
 
-#### Starting spacenavd as a systemd service at boot {#starting_spacenavd_as_a_systemd_service_at_boot}
+#### Starting spacenavd as a systemd service at boot 
 
 If you want to start spacenavd at boot using systemd, do the following:
 
@@ -245,7 +245,7 @@ This is only necessary for the installation from source.
 
 <div class="mw-translate-fuzzy">
 
-#### Yeniden başlatın {#yeniden_başlatın}
+#### Yeniden başlatın 
 
 Bazen navigatör çalışmayı durdurursa, sürücüyü yeniden başlatmak iyidir. Yeniden başlatmak için Terminal\'e gidin ve yürütün:
 
@@ -262,7 +262,7 @@ sudo /etc/init.d/spacenavd restart
 
 Bundan sonra FreeCAD\'i yeniden başlatın. Bazı dağıtımlarda, her açılışta bu gereklidir.
 
-### Known Issues {#known_issues}
+### Known Issues 
 
 A user reported on the [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) they saw the following:
 
@@ -307,7 +307,7 @@ sudo systemctl restart spacenavd
 
 As of version 0.13, 3D mouse is supported under Windows. You need to have 3Dconnexion drivers installed.
 
-#### Known Issue {#known_issue}
+#### Known Issue 
 
 There is an issue where 3Dconnexion sends duplicate scroll events to FreeCAD, which causes the view to jump. To fix it:
 
@@ -322,7 +322,7 @@ ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
 <div class="mw-translate-fuzzy">
 
-## FreeCAD\'i kurma {#freecadi_kurma}
+## FreeCAD\'i kurma 
 
 Linux\'ta spnav projesiyle ve Windows\'ta çok düşük düzeyde 3D fare desteği verildi. Bu, bir aygıt için herhangi bir ayar için destek olmadığı, çünkü Linux\'ta bunun için iyi bir destek olmadığı ve Windows\'ta geçersiz kılındığı anlamına gelir. Bu nedenle \"Özelleştir\" iletişim kutusuna iki ek sayfa eklendi.
 
@@ -336,7 +336,7 @@ Linux\'ta spnav projesiyle ve Windows\'ta çok düşük düzeyde 3D fare desteğ
 
 <div class="mw-translate-fuzzy">
 
-### Spaceball Hareketi {#spaceball_hareketi}
+### Spaceball Hareketi 
 
 Bu sekmede, bazı genel uzay fare ayarlarının kurulumunu yapabilirsiniz. İçeriği:
 
@@ -370,7 +370,7 @@ Bunun dışında, her eksen için ayarlayabileceğiniz yetenekler:
 
 <div class="mw-translate-fuzzy">
 
-### Spaceball Düğmeleri {#spaceball_düğmeleri}
+### Spaceball Düğmeleri 
 
 Bu sekmeyi ilk kez açtığınızda, boş ve kullanılamayacak. Etkinleştirmek için boşluk fare düğmelerinden birine basmanız gerekir. Bunu yaptıktan sonra, sol tarafta düğmelerin listesi görünecek ve sağ tarafta komutların listesi bulunacaktır.
 

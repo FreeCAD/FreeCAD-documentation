@@ -18,24 +18,24 @@ This command was originally intended for groups, hence its name, but was redesig
 2.  Optionally select the layer you want to make active in the [Tree view](Tree_view.md).
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/button_invalid.svg" width=16px> [None](Draft_AutoGroup.md)** button in the [Draft Tray](Draft_Tray.md). This button can look different. If there is an active layer it will show the name of the layer and a layer icon with the **Line Color** and **Shape Color** of the layer.
-    -   Select the {{MenuCommand|Utilities → <img src="images/Draft_AutoGroup.svg" width=16px> AutoGroup}} option from the menu.
-    -   If you have selected a layer: select the {{MenuCommand|<img src="images/button_right.svg" width=16px> Activate this layer}} option from the [Tree view](Tree_view.md) context menu.
+    -   Select the **Utilities → <img src="images/Draft_AutoGroup.svg" width=16px> AutoGroup** option from the menu.
+    -   If you have selected a layer: select the **<img src="images/button_right.svg" width=16px> Activate this layer** option from the [Tree view](Tree_view.md) context menu.
 4.  If you have not yet selected a layer the layer menu opens. Do one of the following:
-    -   Select {{MenuCommand|None}} to work without an active layer.
+    -   Select **None** to work without an active layer.
     -   Select an existing layer to make active.
-    -   Select {{MenuCommand|Add new Layer}} to create a new layer. Selecting this option will not change the active layer.
+    -   Select **Add new Layer** to create a new layer. Selecting this option will not change the active layer.
 5.  If the active layer was changed the button in the [Draft Tray](Draft_Tray.md) is updated.
 
 ## Notes
 
--   A new [layer](Draft_Layer.md) can also be created by right-clicking the layer container in the [Tree view](Tree_view.md) and selecting the {{MenuCommand|<img src="images/Draft_NewLayer.svg" width=16px> Add new layer}} option from the context menu.
+-   A new [layer](Draft_Layer.md) can also be created by right-clicking the layer container in the [Tree view](Tree_view.md) and selecting the **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer** option from the context menu.
 -   If [Draft construction mode](Draft_ToggleConstructionMode.md) is switched on the active [layer](Draft_Layer.md) is ignored.
 
 ## Preferences
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   This command can optionally also handle groups: {{MenuCommand|Edit → Preferences... → Draft → General settings → General Draft Settings → Show groups in layers list drop-down button}}.
+-   This command can optionally also handle groups: **Edit → Preferences... → Draft → General settings → General Draft Settings → Show groups in layers list drop-down button**.
 
 ## Scripting
 

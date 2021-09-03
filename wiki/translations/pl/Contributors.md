@@ -10,9 +10,9 @@
 
 FreeCAD nie byłby tym, czym jest bez hojnego wkładu wielu ludzi. Oto przegląd osób i firm, które przyczyniły się do powstania FreeCAD na przestrzeni czasu. Informacje na temat zasobów dla bibliotek zewnętrznych znajdują się na stronie [Biblioteki zewnętrzne](Third_Party_Libraries/pl.md).
 
-### Opracowanie i rozwój {#opracowanie_i_rozwój}
+### Opracowanie i rozwój 
 
-#### Menadżerowie projektu {#menadżerowie_projektu}
+#### Menadżerowie projektu 
 
 Główni twórcy projektu FreeCAD:
 
@@ -20,7 +20,7 @@ Główni twórcy projektu FreeCAD:
 -   [Werner Mayer](User:Wmayer.md)
 -   [Yorik van Havre](User:Yorikvanhavre.md)
 
-#### Główni programiści {#główni_programiści}
+#### Główni programiści 
 
 Osoby, które regularnie pracują nad kodem FreeCAD *(otrzymano z <https://github.com/FreeCAD/FreeCAD/graphs/contributors>)*:
 
@@ -48,7 +48,7 @@ Osoby, które regularnie pracują nad kodem FreeCAD *(otrzymano z <https://githu
 -   [Victor Titov (DeepSOIC)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
 -   [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375)
 
-#### Inni koderzy {#inni_koderzy}
+#### Inni koderzy 
 
 Inne osoby, które przyczyniły się do budowy kodu w projekcie FreeCAD:
 
@@ -96,7 +96,7 @@ Firmy, które przekazały kod, zasoby lub udostępniły czas pracy developera:
 -   [KiCad Services Corporation](https://www.kipro-pcb.com/)
 -   [OpeningDesign](https://openingdesign.com)
 
-### Moderatorzy Forum {#moderatorzy_forum}
+### Moderatorzy Forum 
 
 Osoby odpowiedzialne za [forum FreeCAD](http://forum.freecadweb.org) *(otrzymano z <http://forum.freecadweb.org/memberlist.php?mode=team>)*:
 
@@ -144,7 +144,7 @@ Ludzie pochodzący ze społeczności, którzy włożyli wiele wysiłku w pomoc p
 -   [triplus](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=782)
 -   [ulrich1a](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1928)
 
-### Twórcy dokumentacji {#twórcy_dokumentacji}
+### Twórcy dokumentacji 
 
 Ludzie, którzy napisali dokumentację na tej [Wiki](Main_Page/pl.md):
 
@@ -225,7 +225,7 @@ Osoby, które pomogły w tłumaczeniu aplikacji FreeCAD *(otrzymano z <https://c
 -   [Николай Матвеев](User:Николай_Матвеев.md)
 -   [Федір](User:Федір.md)
 
-### Programiści tworzący dodatki {#programiści_tworzący_dodatki}
+### Programiści tworzący dodatki 
 
 Programiści tworzący dodatki do FreeCAD *(dostępne na stronie <https://github.com/FreeCAD/FreeCAD-addons>)*:
 

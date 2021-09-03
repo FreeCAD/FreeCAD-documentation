@@ -27,7 +27,7 @@ Pour plus d\'informations sur la façon dont les profils sont réunis, consultez
 
 ![centre\|Part\_Loft. À partir de trois profils qui sont deux Part Cercles et une Part Ellipse. Les paramètres sont Solide \"True\" et Surface réglée \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
 
-## Limitations et complications {#limitations_et_complications}
+## Limitations et complications 
 
 -   Un sommet ou un point
     -   Un sommet ou un point ne peuvent être utilisés que dans le premier et/ou le dernier profil dans la liste des profils.
@@ -60,7 +60,7 @@ Pour plus d\'informations sur la façon dont les profils sont réunis, consultez
 -   Lissages fermés
     -   Les résultats de lissages fermés peuvent être inattendus - le lissage peut développer des torsions ou déformations. Le Lissage est très sensible au placement des profils et àla complexité des courbes nécessaires pour connecter les sommets correspondant à tous les profils.
 
-## Un exemple de Lissage {#un_exemple_de_lissage}
+## Un exemple de Lissage 
 
 L\'outil Lissage est dans le l\'Atelier Part, menu Pièce -\> Lissage\... ou via l\'icône dans la barre d\'outils.
 
@@ -70,7 +70,7 @@ Dans les \"Tâches\", il y aura deux listes : \"Profils disponibles\" et \"Profi
 
 ![](images/Part_Loft_Liste3.png )
 
-### Sélection des sections {#sélection_des_sections}
+### Sélection des sections 
 
 Dans la liste \"Profils disponibles\", les éléments disponibles sont affichés. Deux sections doivent être sélectionnés l\'un après l\'autre dans cette liste.
 
@@ -84,7 +84,7 @@ Les éléments sélectionnés doivent être du même type.
 
 Astuce : les éléments actif/sélectionnés dans la liste sont affichés dans la zone 3D comme actif/sélectionné.
 
-### Appliquer la commande {#appliquer_la_commande}
+### Appliquer la commande 
 
 Si les deux sections sont sélectionnés, la commande peut être appliquée avec le bouton \"OK\".
 
@@ -100,7 +100,7 @@ Si en effet un solide doit être créé, cocher la case \"Créer le solide\" ou 
 
 La procédure est analogue pour les polylignes ouverts.
 
-### Modification de la sélection des sections {#modification_de_la_sélection_des_sections}
+### Modification de la sélection des sections 
 
 Si vous souhaitez modifier la sélection des sections après la création du loft, vous pouvez sélectionner le champ Sections dans l\'onglet Données et cliquer sur le bouton représentant des points de suspension. La liste de toutes les sections sélectionnables apparaît. La sélection actuelle est mise en surbrillance. Vous pouvez supprimer ou ajouter des sections supplémentaires.
 

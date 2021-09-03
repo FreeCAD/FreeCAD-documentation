@@ -14,13 +14,13 @@ Nose cones come in a variety of shapes and sizes, most of which are difficult to
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_NoseCone.svg" width=16px> [Nose Cone](Rocket_NoseCone.md)** button.
-    -   Select the {{MenuCommand|Rocket → <img src="images/Rocket_NoseCone.svg" width=16px> Nose Cone}} option from the menu.
+    -   Select the **Rocket → <img src="images/Rocket_NoseCone.svg" width=16px> Nose Cone** option from the menu.
     -   Double click on a Nose Cone object in the model view.
 2.  Set options and press **OK**.
 
 ## Options
 
-### Nose Cone Types {#nose_cone_types}
+### Nose Cone Types 
 
 The theory behind the various nose cone shapes is explained here: [Nose cone design](https://en.wikipedia.org/wiki/Nose_cone_design)
 
@@ -54,7 +54,7 @@ Supported nose cone types include:
 
 ![](images/NC_Haack_0.33_small.png ) *Haack series with coefficient 1/3* ![](images/NC_Haack_2_small.png ) *Haack series with coefficient 2*
 
-### Nose Cone Styles {#nose_cone_styles}
+### Nose Cone Styles 
 
 Nose cones can be drawn in one of 3 styles
 
@@ -121,7 +121,7 @@ See also: [:Category:API](:Category:API.md) and [FreeCAD Scripting Basics](FreeC
 
 TBD
 
-## Tutorials and Learning {#tutorials_and_learning}
+## Tutorials and Learning 
 
 [Rocket Workbench Nose Cones](https://youtu.be/zwLgie2E4Ts) Tutorial on YouTube
 

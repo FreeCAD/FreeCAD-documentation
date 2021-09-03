@@ -48,7 +48,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 
 -   Creates a new Page in the current document
 
-### Editable text fields {#editable_text_fields}
+### Editable text fields 
 
 
 **See also:**

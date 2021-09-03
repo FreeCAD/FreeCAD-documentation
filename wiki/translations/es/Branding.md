@@ -21,7 +21,7 @@ Este artículo describe el **Marcado** de FreeCAD. Marcado significa comenzar tu
 
 <div class="mw-translate-fuzzy">
 
-### General {#general_1}
+### General 
 
 La mayoría del marcado se realiza en *\'MainCmd.cpp* o *MainGui.cpp*\'. Estos proyectos generan los archivos ejecutables de FreeCAD. Para crear tu propia Marca simplemente copia los proyectos Main o MainGui y dale al ejecutable un nombre diferente, e.g. FooApp.exe. La configuración más importante para una nueva apariencia puede realizarse en una lugar de la función main(). Aquí está la sección de código que controla el marcado:
 
@@ -78,7 +78,7 @@ into the main() function. Alternatively, if you have an image in XPM format you 
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Branding XML {#branding_xml}
+### Branding XML 
 
 In FreeCAD there is also a method supported without writing a customized main() function. For this method you must write a file name called {{FileName|branding.xml}} and put it into the installation directory of FreeCAD. Here is an example with all supported tags:
 

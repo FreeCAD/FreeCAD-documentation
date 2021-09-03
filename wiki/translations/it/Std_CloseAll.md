@@ -20,7 +20,7 @@ Il comando **Chiudi tutto** chiude tutte le finestre, chiudendo così tutti i do
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare {{MenuCommand|File → Chiudi tutto}} dal menu.
+1.  Selezionare **File → Chiudi tutto** dal menu.
 2.  Se il documento attivo non è stato salvato, una finestra di dialogo richiederà di salvarlo:
     -   Premere il pulsante **Salva** Se necessario, inserire prima un nome per il file.
     -   Premere il pulsante **Tralascia** per eliminare il documento e perdere tutte le modifiche.
@@ -35,11 +35,11 @@ Il comando **Chiudi tutto** chiude tutte le finestre, chiudendo così tutti i do
 
 ## Note
 
--   Un documento può anche essere chiuso facendo clic con il pulsante destro del mouse nella [Vista ad albero](Tree_view/it.md) e selezionando {{MenuCommand|Chiudi il documento}} dal menu di scelta rapida.
+-   Un documento può anche essere chiuso facendo clic con il pulsante destro del mouse nella [Vista ad albero](Tree_view/it.md) e selezionando **Chiudi il documento** dal menu di scelta rapida.
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: {{MenuCommand|Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

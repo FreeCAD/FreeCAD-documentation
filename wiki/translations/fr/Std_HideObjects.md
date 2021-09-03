@@ -13,7 +13,7 @@ La commande **Std Masquer tous les objets** masque tous les objets appartenant a
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → Visibilité → <img src="images/Std_HideObjects.svg" width=16px> Masquer tous les objets}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_HideObjects.svg" width=16px> Masquer tous les objets** dans le menu.
 
 ## Remarques
 

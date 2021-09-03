@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Versione stabile attuale {#versione_stabile_attuale}
+## Versione stabile attuale 
 
 
 <div class="mw-translate-fuzzy">
@@ -31,7 +31,7 @@ Previous versions can be downloaded from the [releases](https://github.com/FreeC
 
 <div class="mw-translate-fuzzy">
 
-### Note per gli utenti di Windows {#note_per_gli_utenti_di_windows}
+### Note per gli utenti di Windows 
 
 -   L\'installatore 32-bit (x86) supporta le seguenti versioni di Windows: 7/8/10.
 -   L\'installatore 64-bit (x64) supporta le seguenti versioni di Windows: 7/8/10.
@@ -44,14 +44,14 @@ Previous versions can be downloaded from the [releases](https://github.com/FreeC
 
 <div class="mw-translate-fuzzy">
 
-### Note per gli utenti di Mac {#note_per_gli_utenti_di_mac}
+### Note per gli utenti di Mac 
 
 Mac OS X 10.11 *El Capitan* è la versione minima supportata.
 
 
 </div>
 
-### Note per gli utenti GNU/Linux {#note_per_gli_utenti_gnulinux}
+### Note per gli utenti GNU/Linux 
 
 La maggior parte delle distribuzioni contiene FreeCAD nei propri repository ufficiali, tuttavia, se la distribuzione non segue un modello di rilascio progressivo, la versione fornita potrebbe non essere aggiornata. Invece si può scaricare l\'AppImage sopra, contrassegnarla come eseguibile e avviarla senza installazione.
 
@@ -75,7 +75,7 @@ More information about FreeCAD\'s environment variables can be found on [the con
 
 <div class="mw-translate-fuzzy">
 
-## Versioni di sviluppo {#versioni_di_sviluppo}
+## Versioni di sviluppo 
 
 Lo sviluppo di FreeCAD è sempre attivo.
 
@@ -86,7 +86,7 @@ Lo sviluppo di FreeCAD è sempre attivo.
 
 </div>
 
-## Moduli aggiuntivi e macro {#moduli_aggiuntivi_e_macro}
+## Moduli aggiuntivi e macro 
 
 La comunità di FreeCAD offre numerosi moduli e macro aggiuntivi. Dalla versione 0.17 essi possono essere facilmente installati direttamente da FreeCAD usando il [Gestore delle estensioni (Addon manager)](Addon_Manager/it.md) <img alt="" src=images/AddonManager.svg  style="width:22px;">.
 

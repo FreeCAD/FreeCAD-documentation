@@ -79,7 +79,7 @@ Są to narzędzia służące do tworzenia obiektów architektonicznych.
     -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Material](Arch_MultiMaterial.md): tworzy wielość materiałów i przypisuje je do wybranych obiektów, jeśli istnieją. {{Version/pl|0.17}}
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Schedule](Arch_Schedule.md): tworzy różne rodzaje harmonogramów.
 
-### Narzędzia do modyfikacji {#narzędzia_do_modyfikacji}
+### Narzędzia do modyfikacji 
 
 Są to narzędzia służące do modyfikowania obiektów architektonicznych.
 
@@ -89,7 +89,7 @@ Są to narzędzia służące do modyfikowania obiektów architektonicznych.
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): odejmuje lub usuwa pozycje z elementu składowego.
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Survey](Arch_Survey.md): uruchamia lub zakańcza tryb pomiarowy.
 
-### Przydatne narzędzia {#przydatne_narzędzia}
+### Przydatne narzędzia 
 
 Są to dodatkowe narzędzia, które pomogą Ci w konkretnych zadaniach.
 
@@ -112,7 +112,7 @@ Są to dodatkowe narzędzia, które pomogą Ci w konkretnych zadaniach.
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferences](Arch_Preferences.md): preferencje dotyczące domyślnego wyglądu ścian, konstrukcji, zbrojenia, okien, schodów, paneli, rur, siatek i osi.
 
-### Formaty plików {#formaty_plików}
+### Formaty plików 
 
 -   [IFC](Arch_IFC.md) : Industry foundation Classes.
 -   [DAE](Arch_DAE.md) : format Collada dla siatek.

@@ -2,9 +2,9 @@
 
 ## Introducción
 
-**Placement o Ubicación** es el modo en que Freecad especifica la localización y la inclinación (orientación) de un objeto en el espacio. Placement puede ser especificado de múltiples formas y manipulado a través de [Código](Python_scripting_tutorial/es#Vectors_and_placements.md), del [Editor de propiedades](Property_editor/es.md) o seleccionando desde el menú {{MenuCommand|Editar → Ubicación...}} para abrir el [Panel de tareas de Ubicación](Std_Placement.md).
+**Placement o Ubicación** es el modo en que Freecad especifica la localización y la inclinación (orientación) de un objeto en el espacio. Placement puede ser especificado de múltiples formas y manipulado a través de [Código](Python_scripting_tutorial/es#Vectors_and_placements.md), del [Editor de propiedades](Property_editor/es.md) o seleccionando desde el menú **Editar → Ubicación...** para abrir el [Panel de tareas de Ubicación](Std_Placement.md).
 
-### Accediendo a los atributos de Placement {#accediendo_a_los_atributos_de_placement}
+### Accediendo a los atributos de Placement 
 
 Se puede acceder y modificar los atributos de Ubicación de un objeto de 3 maneras:
 
@@ -14,11 +14,11 @@ Se puede acceder y modificar los atributos de Ubicación de un objeto de 3 maner
 
 ![Panel de tareas de Placement o Ubicación](images/PlacementDialogv10.png ) 
 
-## Tipos de Ubicación {#tipos_de_ubicación}
+## Tipos de Ubicación 
 
 La ubicación es almacenada internamente como una posición y una rotación (el eje de rotación y el ángulo transformados en un cuaternión [quaternion](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). Mientras que hay diferentes formas de especificar una rotación, por ejemplo con un centro de rotación, esto se usa únicamente con fines de cálculo de rotación y no es almacenado para operaciones posteriores. De manera similar, si se especifica un eje de rotación de (1,1,1), puede ser normalizado cuando es almacenado en el cuaternión y aparece como (0.58, 0.58, 0.58) cuando se observa el objeto después.
 
-### Ángulo, Eje y Posición {#ángulo_eje_y_posición}
+### Ángulo, Eje y Posición 
 
 **Placement = \[Ángulo, Eje, Posición\]**
 
@@ -37,7 +37,7 @@ Se puede observar que también es posible trasladar (mover) un objeto a lo largo
 
 **Posición= (x,y,z)** Es un vector que describe el punto desde el que la geometría del objeto será calculada (de hecho, un \"origen local\" del objeto). Observe que en la programación, Placement.Base se usa para señalar el componente de Posición de un emplazamiento. El editor de propiedades llama a este valor **Position** y el panel de tareas de Placement o Ubicación lo llama **Traslación**.
 
-### Ángulos de Euler: Posición y Yaw (Guiñada), Pitch (Cabeceo) y Roll (Alabeo) {#ángulos_de_euler_posición_y_yaw_guiñada_pitch_cabeceo_y_roll_alabeo}
+### Ángulos de Euler: Posición y Yaw (Guiñada), Pitch (Cabeceo) y Roll (Alabeo) 
 
 Si en Rotación seleccionamos Ángulos de Euler aparecen estos campos: ![Placement task panel: {{ComboBox|Euler angles}} selected](images/PlacementDialogv10b.png )  **Rotación = \[Traslación, Guiñada-Cabeceo-Alabeo\]** Roll (Alabeo) o Ángulo de rotación alrededor del eje X. Pitch (Cabeceo) o Ángulo de rotación alrededor del eje Y. Yaw (Guiñada) o Ángulo de rotación alrededor del eje Z. Estos términos son usados en aviación.
 
@@ -83,7 +83,7 @@ La tercera forma de **Ubicación** describe la posición y orientación del obje
 
 
 
-## La ventana de diálogo Ubicación {#la_ventana_de_diálogo_ubicación}
+## La ventana de diálogo Ubicación 
 
 La ventana de diálogo Ubicación es invocada desde el menú **Editar**. Se usa para precisar la rotación/traslación de los objetos. También se usa cuando se necesita crear un boceto en un plano \"no estándar\" o para cambiar la orientación de un boceto a un nuevo plano.
 
@@ -133,7 +133,7 @@ Rotación usando ángulos de Euler:
 
 <img alt="After Rotation" src=images/RotationEulerAfter.png  style="width:600px;"> Después de Rotación 
 
-## Placement.Base versus Definición de forma {#placement.base_versus_definición_de_forma}
+## Placement.Base versus Definición de forma 
 
 Placement o Ubicación no es la única manera de posicionar una forma en el espacio. Observando la consola de Python en esta imagen:
 
@@ -168,7 +168,7 @@ Los dos cubos tienen el mismo valor de Ubicación, pero están en emplazamientos
 
 Los vértices (o vectores) que definen la forma usan el atributo de Placement.Base como orígen. Así pues, si se desea mover una forma 10 unidades a lo largo del eje **X** , se debería añadir 10 a las coordenadas de **X** de todos los vértices o se podría establecer el valor de Placement.Base como (10,0,0).
 
-## Uso de \"Centro\" para controlar el eje de rotación {#uso_de_centro_para_controlar_el_eje_de_rotación}
+## Uso de \"Centro\" para controlar el eje de rotación 
 
 Por defecto, el eje de rotación no es realmente el eje x/y/z , sino una línea paralela al eje seleccionado, pero que pasa por el punto de referencia (Placement.Base) del objeto a rotar. Esto se puede cambiar usando los campos de Centro de la ventana de diálogo de Ubicación o, en programación, usando el parámetro Centro del constructor FreeCAD.Placement.
 
@@ -198,7 +198,7 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
-## Uso de Placement en expresiones {#uso_de_placement_en_expresiones}
+## Uso de Placement en expresiones 
 
 En expresiones es posible usar los componentes de la ubicación, por ejemplo para acceder al componente x del objeto llamado \"Cubo\": 
 ```python

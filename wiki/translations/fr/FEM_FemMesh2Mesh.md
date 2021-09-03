@@ -19,7 +19,7 @@ Les éléments bidimensionnels du maillage FEM ne sont pas pris en compte. Si vo
 2.  En option, sélectionnez également les résultats FEM.
 3.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Convertir la surface maillage MEF en maillage](FEM_FemMesh2Mesh/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Mesh → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> MEF maillage à maillage}} dans le menu.
+    -   Sélectionnez l\'option **Mesh → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> MEF maillage à maillage** dans le menu.
 
 ## Script
 
@@ -35,7 +35,7 @@ import Mesh
 Mesh.show(Mesh.Mesh(out_mesh))
 ```
 
-## Convertir 2D éléments {#convertir_2d_éléments}
+## Convertir 2D éléments 
 
 Sélectionnez un maillage et lancez le code suivant dans la fenêtre Python de FreeCAD
 

@@ -59,7 +59,7 @@ Ci sono alcune buone risorse esterne per gestire più facilmente i materiali:
 -   [Units calculater](http://www.dimensionengine.com/) per informazioni sul materiale nell\'unità necessaria per FreeCAD
 -   [<http://www.matweb.com/>](http://www.matweb.com/) [free of charge](http://matweb.com/reference/terms.aspx) database gratuito con migliaia di dati sui materiali
 
-## Database dei materiali {#database_dei_materiali}
+## Database dei materiali 
 
 Dato per scontato che lo standard di cui sopra sia stato implementato, è sciocco ripetere la memorizzazione di tutte le proprietà per ogni oggetto. Fondamentalmente siamo in grado di costruire un DataBase dei Materiali con il nome come chiave primaria. Quindi, se non ci sono esigenze particolari, per un materiale è sufficiente definire, ad esempio, Name = Acciaio e FreeCAD può recuperare tutte le proprietà dal DB. Ogni ulteriore proprietà impostata nella mappa sovrascrive quella del DB.
 
@@ -87,7 +87,7 @@ Il modulo implementato in questo modo può essere eseguito in FreeCAD o indipend
 
 <div class="mw-translate-fuzzy">
 
-## Formato dei file della cartella dei materiali di FreeCAD {#formato_dei_file_della_cartella_dei_materiali_di_freecad}
+## Formato dei file della cartella dei materiali di FreeCAD 
 
 Lavorare con i materiali significa spesso importare o esportare delle definizioni-di-materiali. È quindi necessario stabilire un formato dei file. Dal momento che abbiamo solo la forma chiave o valore, possiamo utilizzare un formato di file semplice, facile da leggere e da analizzare. Quindi viene scelto il formato [ini-file](http://en.wikipedia.org/wiki/INI_file). È standardizzato e ci sono già dei parser disponibili. Ad esempio il [Config parser module in python](http://docs.python.org/2/library/configparser.html).
 
@@ -121,7 +121,7 @@ Color_Emissiv = 255,255,255
 
 </div>
 
-## Proprietà del materiale {#proprietà_del_materiale}
+## Proprietà del materiale 
 
 Ecco ora la descrizione delle proprietà-dei-materiali concordate. Sentitevi liberi di aggiungere una sottosezione per le proprietà-del-materiale del vostro campo di competenza.
 
@@ -198,7 +198,7 @@ Questa sezione definisce le proprietà relative all\'aspetto visivo del material
 
   : Proprietà termiche
 
-### Architettura e Modello di Informazioni di un Edificio [BIM](http://it.wikipedia.org/wiki/Building_Information_Modeling) {#architettura_e_modello_di_informazioni_di_un_edificio_bim}
+### Architettura e Modello di Informazioni di un Edificio [BIM](http://it.wikipedia.org/wiki/Building_Information_Modeling) 
 
 
 <div class="mw-translate-fuzzy">

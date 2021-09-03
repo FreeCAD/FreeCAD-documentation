@@ -2,7 +2,7 @@
 
 ## Importar
 
-### Elementos soportados {#elementos_soportados}
+### Elementos soportados 
 
 -   primitivas: cubo, esfera, cilindro, cuadrado, circunferencia, polígono, poliedro
 -   booleanas: unión, diferencia, intersección
@@ -11,7 +11,7 @@
 -   matriz múltiple
 -   color
 
-### Elementos no soportados {#elementos_no_soportados}
+### Elementos no soportados 
 
 -   proyección
 -   superficie
@@ -20,7 +20,7 @@
 
 ## Exportar
 
-### Elementos soportados {#elementos_soportados_1}
+### Elementos soportados 
 
 -   primitivas: Caja, cilindro, Cono, Toro
 -   booleanas: corte, fusión, común

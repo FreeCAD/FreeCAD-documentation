@@ -7,7 +7,7 @@
 
 <img alt="" src=images/FEM_FrontISTR_bikeframe_screenshot.png  style="width:512px;">
 
-### Intended work-flow: {#intended_work_flow}
+### Intended work-flow: 
 
 1.  Set up an analysis model by FEM module (in the same way as calculiX).
 2.  Switch module to \"FrontISTR\" and create a FrontISTR solver object.
@@ -31,7 +31,7 @@
     -   direct: MUMPS
 -   output file format: AVS, VTK(paraview required)
 
-### Features to be supported in the future {#features_to_be_supported_in_the_future}
+### Features to be supported in the future 
 
 -   analysis: thermal transfer, dynamic, eigen, frequency
 -   materials(mechanical): elastoplastic, hyper elastic, creep, visco elastic
@@ -58,7 +58,7 @@ See [How to install additional workbenches](How_to_install_additional_workbenche
 -   FreeCAD v0.19+
 -   [Paraview](https://www.paraview.org/) (optional)
 
-### FrontISTR Solver Installation {#frontistr_solver_installation}
+### FrontISTR Solver Installation 
 
 FrontISTR binaries will be automatically downloaded and installed on the first run. If the download does not proceed, please follow the steps below to install the solver.
 

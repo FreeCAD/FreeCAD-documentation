@@ -16,16 +16,16 @@ Le projet GSoC vise à jeter les bases pour résoudre ce problème et à prouver
 4.  Intégrez la classe d\'identifiant dans la structure de données Topologie et portez quelques premiers algorithmes pour l\'utiliser. Étendez également l\'interface python de la classe Topologie pour permettre l\'utilisation des identificateurs pour l\'extraction des sous-formes.
 5.  Créez un ensemble de cas de test pour montrer l\'efficacité de l\'implémentation.
 
-## Résultat attendu {#résultat_attendu}
+## Résultat attendu 
 
 1.  Une première implémentation dans FreeCAD pour montrer l\'algorithme de travail
 2.  Un ensemble de cas de test intégré au système de test disponible qui montre les cas majeurs du problème de nommage topologique et comment ils sont résolus par la mise en œuvre du prototype
 
-## Possibilités futures {#possibilités_futures}
+## Possibilités futures 
 
 Si ce projet est terminé avec succès, une intégration complète dans la source FreeCAD peut faire partie d\'une contribution supplémentaire ou même d\'un projet GSoC propre
 
-## Propriétés du projet {#propriétés_du_projet}
+## Propriétés du projet 
 
 ### Compétences
 
@@ -38,6 +38,6 @@ Si ce projet est terminé avec succès, une intégration complète dans la sourc
 
 Difficile
 
-### Information Supplémentaire {#information_supplémentaire}
+### Information Supplémentaire 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

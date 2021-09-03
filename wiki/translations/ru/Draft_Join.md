@@ -22,7 +22,7 @@ The <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft Join** c
 2.  Select two or more [Draft Lines](Draft_Line.md) and/or [Draft Wires](Draft_Wire.md).
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Join.svg" width=16px> [Draft Join](Draft_Join.md)** button.
-    -   Select the {{MenuCommand|Modification → <img src="images/Draft_Join.svg" width=16px> Join}} option from the menu.
+    -   Select the **Modification → <img src="images/Draft_Join.svg" width=16px> Join** option from the menu.
     -   Use the keyboard shortcut: **J** then **O**.
 
 ## Notes

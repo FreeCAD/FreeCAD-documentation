@@ -12,7 +12,7 @@ L\'intention de cette page est d\'aider à orienter les utilisateurs qui sont en
 
 ## Utilisation
 
-## En relation {#en_relation}
+## En relation 
 
 -   [Gestion du code source](Source_code_management/fr.md)
 -   [Développer FreeCAD avec GitKraken](Developing_FreeCAD_with_GitKraken/fr.md)

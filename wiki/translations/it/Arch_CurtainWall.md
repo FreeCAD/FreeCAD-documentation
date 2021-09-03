@@ -32,7 +32,7 @@ Si può anche usare lo strumento Facciata continua senza alcun oggetto seleziona
 
 ## Utilizzo
 
-### Disegnare una facciata continua dall\'inizio {#disegnare_una_facciata_continua_dallinizio}
+### Disegnare una facciata continua dall\'inizio 
 
 
 <div class="mw-translate-fuzzy">
@@ -47,7 +47,7 @@ Si può anche usare lo strumento Facciata continua senza alcun oggetto seleziona
 
 </div>
 
-### Creare una facciata continua da un oggetto selezionato {#creare_una_facciata_continua_da_un_oggetto_selezionato}
+### Creare una facciata continua da un oggetto selezionato 
 
 
 <div class="mw-translate-fuzzy">
@@ -117,7 +117,7 @@ Gli oggetti di facciata continua ereditano le proprietà dei [Componenti](Arch_C
 
 -    **Host**: L\'ospite di questa facciata continua. La facciata continua apparirà incorporata nel suo oggetto host nella vista ad albero (non viene eseguita nessun\'altra azione)
 
-## Making frame walls {#making_frame_walls}
+## Making frame walls 
 
 Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete of brick).
 

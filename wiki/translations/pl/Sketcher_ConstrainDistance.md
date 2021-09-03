@@ -20,7 +20,7 @@ Wiązanie odległości wyznacza długość linii, czyli odległość prostopadł
 2.  Wywołaj komendę na kilka sposobów:
     -   Naciśnij przycisk **<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md)** znajdujący się na pasku narzędzi Szkicownika.
     -   Użyj kombinacji klawiszy **Shift** + **D**. (**D** odnosi się do **D**istance).
-    -   Użyj pozycji menu głównego {{MenuCommand|Szkic → Wiązania szkicownika → <img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Wiązanie odległości}}.
+    -   Użyj pozycji menu głównego **Szkic → Wiązania szkicownika → <img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Wiązanie odległości**.
 3.  Otworzy się wyskakujące okno dialogowe do edycji z proponowaną wartością. Naciśnij **OK**, aby ją zatwierdzić.
 
 **Uwaga:** Narzędzie wiązania może być również uruchomione bez wcześniejszego zaznaczenia obiektów. Aby ustawić odległość prostopadłą pomiędzy punktem a prostą, należy najpierw zaznaczyć ten punkt. Domyślnie polecenie jest aktywne w trybie kontynuacji, by utworzyć nowe wiązanie; wciśnij raz prawy przycisk myszki lub klawisz **ESC**, by zakończyć działanie polecenia.
@@ -29,7 +29,7 @@ Wiązanie odległości wyznacza długość linii, czyli odległość prostopadł
 
 Ewentualnie proszę rozważyć użycie **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:Ustal poziomą odległość ...](Sketcher_ConstrainDistanceX/pl.md)** lub **[16px"> [Ustal pionową odległość ...](Sketcher_ConstrainDistanceY/pl.md)** zamiast tego wiązania. Wymienione wiązania są bardziej efektywne i szybsze do obliczenia niż to to prezentowane.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Odległość od odniesienia położenia:
 

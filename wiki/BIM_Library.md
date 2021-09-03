@@ -18,7 +18,7 @@ The BIM Library tool allows you to place, in the current model, an object from t
 
 1.  Press the **<img src="images/BIM_Library.png" width=16px> [[BIM Library]]** button
 
-    :   Result: In the [Combo view](Combo_view.md) → [Task panel](Task_panel.md) a dialog titled {{MenuCommand|Library browser}} will display
+    :   Result: In the [Combo view](Combo_view.md) → [Task panel](Task_panel.md) a dialog titled **Library browser** will display
 2.  Click a file from the Library browser
 3.  Double-click it or press the **Insert** button
 4.  Click a point in the [3D view](3D_view.md) or enter a coordinate manually to place the object

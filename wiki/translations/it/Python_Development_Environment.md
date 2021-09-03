@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Un semplicistico Ambiente di sviluppo per Python all\'interno di FreeCAD {#un_semplicistico_ambiente_di_sviluppo_per_python_allinterno_di_freecad}
+## Un semplicistico Ambiente di sviluppo per Python all\'interno di FreeCAD 
 
 [Python](wikipedia:Python_(programming_language).md) è l\'ambiente di programmazione che è stato incorporato nel sistema di [FreeCAD](http://www.freecadweb.org/). Usando Python molte delle operazioni offerte da FreeCAD sono accessibili tramite programmazione. Di solito i programmi in Python per FreeCAD sono sviluppati per essere eseguiti nella console Python o attraverso la facilitazione delle Macro di FreeCAD (vedere [Come installare le macro](How_to_install_macros/it.md)).
 
@@ -262,7 +262,7 @@ FreeCAD contiene incorporato un editor per Python, esso si avvia cliccando sul p
 
 Nota: Per i Macintosh l\'editor di testo [TextWrangler](http://www.barebones.com/products/textwrangler/) funziona bene. Ha l\'evidenziazione del codice ed eccellenti funzioni di ricerca. Ci sono opzioni per eseguire i lavori in Python, ma ovviamente non funzionano con l\'ambiente FreeCAD.
 
-### Directory del codice sorgente delle macro {#directory_del_codice_sorgente_delle_macro}
+### Directory del codice sorgente delle macro 
 
 FreeCAD utilizza due directory, di default sono la stessa directory ma sono puntate da differenti punti richiamabili in FreeCAD:
 
@@ -339,7 +339,7 @@ Assumendo che la stringa passata alla chiamata del breakpoint sia significativa 
 
 Per diventare produttivi con questi punti di interruzione, continuare con la sezione successiva.
 
-### Variable Inspection {#variable_inspection}
+### Variable Inspection 
 
 La seconda caratteristica principale di un debugger è quella di esaminare ed eventualmente modificare il contenuto delle variabili. Ancora una volta, fino a quando il debugger FreeCAD per Python non sarà pronto dobbiamo dipendere da soluzioni alternative.
 
@@ -457,15 +457,15 @@ def monthCounter():
 -   queste variabili possono essere utilizzate per passare dei dati tra due programmi che vengono eseguiti in tempi diversi
 -   (ripeto) queste variabili esistono solo per la durata della sessione di FreeCAD, quando si esce da FreeCAD le variabili sono perse
 
-### Variable Watcher {#variable_watcher}
+### Variable Watcher 
 
 La macro [Global Variable Watcher](Macro_Global_Variable_Watcher/it.md) aiuta a monitorare le variabili globali di FreeCAD. Si può visualizzare il contenuto di una variabile globale su richiesta o su base temporizzata.
 
-### Name Space Clash {#name_space_clash}
+### Name Space Clash 
 
 Una cosa da tenere presente è che non vi è la gestione di nomi delle variabili globali da parte di FreeCAD per cui è possibile cambiare una variabile o un altro pezzo di codice dal sistema. Di conseguenza, è una buona idea anteporre le variabili a qualcosa di unico come nome della routine. Ad esempio, per utilizzare una variabile da una routine chiamata \'alfa1\' il nome globale potrebbe essere \'FreeCAD.alpha1MyVariable\'.
 
-## Coding Framework {#coding_framework}
+## Coding Framework 
 
 Se si sviluppano piccole parti di codice Python in FreeCAD può essere sufficiente utilizzare la console, ma quando il numero di righe del codice cresce è meglio memorizzarle in un file. Python può essere contenuto in qualsiasi file con l\'estensione \".py\", ma FreeCAD fornisce anche un meccanismo chiamato Macro per memorizzare tali programmi e interagire con loro (ad esempio modificarli, eseguirli). Python in file regolari \".py\" può essere eseguito solo dalla console mentre Python nel file \'.FCMacro\' può essere eseguito anche dall\'interfaccia per le macro di FreeCAD. Siccome l\'interfaccia del menu di FreeCAD è composta da un menu basato su una finestra di controllo ha lo svantaggio di provocare potenzialmente qualche disordine sullo schermo GUI.
 
@@ -521,7 +521,7 @@ Per maggiori informazioni su PySide GUI c\'è la pagina [PySide](PySide/it.md)
 
 Per ulteriore assistenza con la codifica Python, esiste una macro scritta per facilitare lo sviluppo di codice Python, essa si trova in [Python Assistant Window](Macro_Python_Assistant_Window/it.md)
 
-## Mettere tutto insieme {#mettere_tutto_insieme}
+## Mettere tutto insieme 
 
 La gestione dello schermo può essere una sfida quando si sviluppa del codice che ha un output grafico complesso e dettagliato come fa FreeCAD. Il seguente sistema funziona bene:
 
@@ -538,7 +538,7 @@ Con il test stub azionato da una barra degli strumenti, e utilizzando un editor 
 
 \"tree\" nel diagramma si riferisce alla vista combinata o struttura a albero, la console Python e la vista Report sono riuniti nella finestra inferiore e selezionabili tramite i pulsanti. Quanto sopra è solo un idea, e può essere ottimizzato per un uso selettivo degli strumenti del flusso di sviluppo. Questo modello è stato confezionato a titolo personale.
 
-## Link vari {#link_vari}
+## Link vari 
 
 Alcuni altri link che riguardano le IDE per Python e che possono essere interessanti sono:
 

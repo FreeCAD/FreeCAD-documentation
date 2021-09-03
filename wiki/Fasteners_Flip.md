@@ -17,7 +17,7 @@ The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> [Fasteners F
 2.  Choose the inverted object (for example, a mis-orientated screw)
 3.  Invoke the Fasteners Flip tool several ways:
     -   Press the <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Fasteners → Flip}} entry in the Fasteners menu
+    -   Use the **Fasteners → Flip** entry in the Fasteners menu
 
 Result: object will invert/flip
 

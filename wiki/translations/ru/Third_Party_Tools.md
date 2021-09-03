@@ -6,28 +6,28 @@
 
 {{TOCright}}
 
-## Tool Page {#tool_page}
+## Tool Page 
 
 
 <div class="mw-translate-fuzzy">
 
-## Страница Инструментов {#страница_инструментов}
+## Страница Инструментов 
 
 В процессе разработки серьезного програмного обеспечения, вам нужны инструменты. Вот список инструментов, которые мы использовали для разработки FreeCAD:
 
 
 </div>
 
-### Platform independent tools {#platform_independent_tools}
+### Platform independent tools 
 
-#### Qt-Toolkit {#qt_toolkit}
+#### Qt-Toolkit 
 
 
 <div class="mw-translate-fuzzy">
 
-### Платформо независимые инструменты {#платформо_независимые_инструменты}
+### Платформо независимые инструменты 
 
-#### Qt-Toolkit {#qt_toolkit_1}
+#### Qt-Toolkit 
 
 Инструментарий Qt настоящее произведение искуссва, платформа независомый инструмент для проектирования пользовательского интерфейса. Он содержится в [LibPack](Third_Party_Libraries/ru.md) FreeCAD, а также его можно скачать с [Qt project](http://qt-project.org/downloads).
 
@@ -39,7 +39,7 @@
 
 <div class="mw-translate-fuzzy">
 
-#### InkScape {#inkscape_1}
+#### InkScape 
 
 Отличная программа для работы с векторной графикой. Соответствует стандарту SVG и используется для создания Иконок и Изображений. Установить можно с сайта [www.inkscape.org](http://www.inkscape.org).
 
@@ -51,14 +51,14 @@
 
 <div class="mw-translate-fuzzy">
 
-#### Doxygen {#doxygen_1}
+#### Doxygen 
 
 Отличный и стабильный инструмент для создания документации к исходному коду из .h и .cpp файлов.
 
 
 </div>
 
-#### The Gimp {#the_gimp}
+#### The Gimp 
 
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +79,7 @@ This is a proprietary git GUI that is very helpful to learn how git works if you
 -   [Gitkraken](Gitkraken.md)
 -   [Github](Github.md)
 
-#### OBS Studio {#obs_studio}
+#### OBS Studio 
 
 Free and open source software for video recording and live streaming. More details on official website : [obsproject.com](https://obsproject.com/)
 
@@ -92,7 +92,7 @@ Free and open source software for video recording and live streaming. More detai
 
 <div class="mw-translate-fuzzy">
 
-#### StarUML {#staruml_1}
+#### StarUML 
 
 полнофункциональная Open Source UML программа. Она обладает множеством особенностей , главная из них, включенный механизм обратной разработки C++ исходного кода\....
 
@@ -107,14 +107,14 @@ Free and open source software for video recording and live streaming. More detai
 
 </div>
 
-### Инструменты для Windows {#инструменты_для_windows}
+### Инструменты для Windows 
 
-#### Visual Studio Community {#visual_studio_community}
+#### Visual Studio Community 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Visual Studio 8 Express {#visual_studio_8_express}
+#### Visual Studio 8 Express 
 
 Хотя VC8 C++ для разработки не тог чтобы шаг вперед, поскольку VisualStudio 6 (ИМХО большой шаг назад), это бесплатная система разработки на Windows. Для родных Win32 приложений вам надо скачать PlatformSDK от M\$.
 
@@ -134,7 +134,7 @@ Free and open source software for video recording and live streaming. More detai
 
 <div class="mw-translate-fuzzy">
 
-#### CamStudio {#camstudio_1}
+#### CamStudio 
 
 Это инструмент с открытым исходным кодом для щаписи Screencasts (веб-трансляций). Это очень хороший инструмент для создания учебников, записаных им. Это не так скучно, как записывать документацию.
 
@@ -143,7 +143,7 @@ Free and open source software for video recording and live streaming. More detai
 
 Смотри [camstudio.org](http://camstudio.org/) для подробностей.
 
-### Инструменты для Linux {#инструменты_для_linux}
+### Инструменты для Linux 
 
 В разработке
 

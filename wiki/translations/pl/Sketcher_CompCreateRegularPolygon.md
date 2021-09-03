@@ -10,7 +10,7 @@
 
 **Create a regular polygon** is an icon button in the Sketcher geometries toolbar that groups tools to create a regular polygon. Click on the down arrow to its right to expand the icons below it and select a tool.
 
-## Types of regular polygons {#types_of_regular_polygons}
+## Types of regular polygons 
 
 -   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Create equilateral triangle](Sketcher_CreateTriangle.md): Draws a equilateral triangle by picking two points, the center and one corner.
 -   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> [Create square](Sketcher_CreateSquare.md): Draws a square by picking two points, the center and one corner.

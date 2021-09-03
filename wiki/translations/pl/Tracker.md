@@ -10,13 +10,13 @@
 
 [FreeCAD BugTracker](https://www.freecadweb.org/tracker) jest miejscem, na którym to możnaː zgłaszać błędy, przesyłać prośby o funkcje, poprawki lub prośby o połączenie oddziału, jeśli opracowałeś coś przy użyciu Gita. Tracker jest podzielony na Środowiska pracy, więc proszę być konkretnym i złożyć wniosek w odpowiedniej podsekcji. W razie wątpliwości należy pozostawić go w sekcji **FreeCAD**.
 
-## Zalecany przepływ pracy {#zalecany_przepływ_pracy}
+## Zalecany przepływ pracy 
 
 ![](images/Bugreport-workflow.png )
 
 Jak pokazano na powyższym schemacie, przed utworzeniem zgłoszenia należy zawsze najpierw przeszukać forum i bugtracker, aby dowiedzieć się, czy Twój problem jest znany. Oszczędza to mnóstwo czasu/ pracy dla programistów i wolontariuszy, którzy mogliby poświęcić ten czas czyniąc FreeCAD jeszcze bardziej niesamowitym.
 
-## Zgłaszanie błędów {#zgłaszanie_błędów}
+## Zgłaszanie błędów 
 
 Jeśli uważasz, że mogłeś znaleźć błąd, możesz go zgłosić, pod warunkiem, że postępowałeś zgodnie z naszymi zasadami krok po krokuː
 
@@ -35,7 +35,7 @@ Jeśli uważasz, że mogłeś znaleźć błąd, możesz go zgłosić, pod warunk
 -   Proszę złożyć jeden osobny raport dla każdego błędu.
 -   Jeśli twój błąd powoduje awarię programu FreeCAD i jesteś w systemie, który go obsługuje, możesz spróbować uruchomić **debug backtrace** i dołączyć ten ślad do zgłoszenia. To może zaoszczędzić programistom dużo czasu przez wskazywanie źródła błędu. Zobacz [Debugging](Debugging.md) po więcej szczegółów.
 
-## Oczekiwane funkcje {#oczekiwane_funkcje}
+## Oczekiwane funkcje 
 
 Jeśli chcesz, aby w FreeCAD pojawiło się coś, co nie jest jeszcze zaimplementowane, to nie jest błędem, ale żądaniem funkcji.
 
@@ -46,7 +46,7 @@ Jeśli chcesz, aby w FreeCAD pojawiło się coś, co nie jest jeszcze zaimplemen
 -   **UWAGA \#1** Aby zachować porządek, należy pamiętać o umieszczeniu adresu URL zgłoszenia w wątku forum, oraz numeru zgłoszenia *(jako linku)*.
 -   **UWAGA \#2** Pamiętaj, że nie ma gwarancji, że twoje życzenie zostanie spełnione. ![Strona z raportem FreeCAD Bugtracker - użyj rozwijanego menu, aby poprawnie określić, czym jest zgłoszenie.](images/MantisBT-setting-Feature-Request.jpg )
 
-## Przesyłanie łatek {#przesyłanie_łatek}
+## Przesyłanie łatek 
 
 Jeśli zaprogramowałeś poprawkę dotyczącą błędu, rozszerzenie lub coś innego, co może być użyteczne publicznie w programie FreeCADe, stwórz łatkę używając narzędzia Git diff i prześlij ją na tym samym trackerze *(zapisz ją jako **łatkę**)*.
 
@@ -59,15 +59,15 @@ Uzupełnienieː Rozwijanie programu FreeCAD zostało oparte na modelu [GitHub](h
 
 **UWAGA**:, społeczność FreeCAD zaleca, aby najpierw przedyskutować każdą dużą zmianę kodu źródłowego, w celu oszczędności czasu.
 
-## Wnioskowanie o połączenie {#wnioskowanie_o_połączenie}
+## Wnioskowanie o połączenie 
 
 *(Te same wytyczne co [Przesyłanie łatek](https://www.freecadweb.org/wiki/Tracker#Submitting_patches))*.
 
 Jeśli stworzyłeś gałąź gita zawierającą zmiany, które chciałbyś zobaczyć w kodzie FreeCAD, możesz tam poprosić o recenzję i połączenie swojej gałęzi, jeśli deweloperzy FreeCAD są wobec niej zgodni. Musisz najpierw opublikować swoją gałąź w publicznym repozytorium git *(github, gitlab, bitbucket, sourceforge itp\...)*, a następnie podać adres URL Twojej gałęzi w swoim wniosku o połączenie.
 
-## Wskazówki i sztuczki MantisBT {#wskazówki_i_sztuczki_mantisbt}
+## Wskazówki i sztuczki MantisBT 
 
-### Znacznik MantisBT {#znacznik_mantisbt}
+### Znacznik MantisBT 
 
 MantisBT (Mantis Bug Tracker) ma swój własny unikalny znacznik.
 
@@ -93,7 +93,7 @@ MantisBT (Mantis Bug Tracker) ma swój własny unikalny znacznik.
 
 <img alt="" src=images/mantisbt-colorized-code-example.jpg  style="width:600px;">
 
-### MantisBT BBCode {#mantisbt_bbcode}
+### MantisBT BBCode 
 
 Oprócz powyższego [Znaczniki MantisBT](Tracker/pl#Znacznik_MantisBT.md) istnieje również możliwość korzystania z formatu BBCode. Pełna lista znajduje się na stronie [BBCode plus strona z pluginami](https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags). Poniżej znajduje się lista obsługiwanych formatów BBCodeː 
 [img][/img] - obrazek
@@ -135,13 +135,13 @@ Oprócz powyższego [Znaczniki MantisBT](Tracker/pl#Znacznik_MantisBT.md) istnie
 
 <img alt="" src=images/mantisbt-source-integration-markup.jpg  style="width:600px;"> 
 
-## GitHub oraz MantisBT {#github_oraz_mantisbt}
+## GitHub oraz MantisBT 
 
 FreeCAD bugtracker posiada wtyczkę o nazwie [Source Integration](https://github.com/mantisbt-plugins/source-integration), która zasadniczo wiąże oba FreeCAD GitHub repo z naszym trackerem MantisBT. Ułatwia to śledzenie i kojarzenie zgłoszeń git z ich odpowiednimi zgłoszeniami do MantisBT. **Plugin Source Integration skanuje komunikaty git commit w poszukiwaniu konkretnych słów kluczowych w celu wykonania następujących działań:**.
 
 **Uwaga** Poniższe słowa kluczowe muszą być dodane w git commit message, a nie w temacie PR.
 
-### Zdalne odwoływanie się do zgłoszenia. {#zdalne_odwoływanie_się_do_zgłoszenia.}
+### Zdalne odwoływanie się do zgłoszenia. 
 
 Użycie tego wzorca automatycznie połączy git commit do zgłoszenia (**Uwaga:** to nie zamknie zgłoszenia). Format MantisBT rozpozna:
 
@@ -155,7 +155,7 @@ Użycie tego wzorca automatycznie połączy git commit do zgłoszenia (**Uwaga:*
 Dla dociekliwych tutaj jest wyrażenie regularne, którego używa MantisBT do tej operacji:
 
 
-### Rozwiązywanie zdalnie zgłoszeń {#rozwiązywanie_zdalnie_zgłoszeń}
+### Rozwiązywanie zdalnie zgłoszeń 
 
 Interfejs MantisBT rozpoznaje format:
 

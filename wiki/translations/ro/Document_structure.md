@@ -26,7 +26,7 @@ Obiectele din documentul FreeCAD pot avea diferite tipuri. Fiecare atelier poate
 
 Daca este cel putin un document deschis in FreeCAD, atunci exact un document este activ. Acesta este documentul care apare in vizualizarea 3D curenta, documentul cu care lucrati in mod curent.
 
-## Aplicatia si Interfata cu Utilizatorul {#aplicatia_si_interfata_cu_utilizatorul}
+## Aplicatia si Interfata cu Utilizatorul 
 
 Ca orice altceva in FreeCAD, partea de interfața grafică a utilizatorului (GUI) este separată de partea de aplicație (App). Acest lucru este adevărat și pentru documente. Acestea sunt și ele alcătuite din două părți: partea de aplicație, ce conține obiecte, și partea de vizualizare, ce conține reprezentarea grafica a obiectelor.
 

@@ -10,7 +10,7 @@ Voir le [Modèle GuiCommand](GuiCommand_model/fr.md) et les pages de macros comm
 
 Si une macro fournit une fonctionnalité bien définie et est bien documentée, elle pourrait éventuellement être incluse dans un [atelier](Workbenches/fr.md) nouveau ou déjà existant.
 
-## Nouvelle page pour une macro {#nouvelle_page_pour_une_macro}
+## Nouvelle page pour une macro 
 
 Créez une nouvelle page pour la macro en commençant par le mot `Macro_`, par exemple, `Macro_Excellent_Modification`. Le lien peut être utilisé sans trait de soulignement sous la forme `<nowiki>[Macro Site From Contours](Macro_Excellent_Modification/fr.md)</nowiki>`, ce qui s\'affiche [Macro Excellent Modification](Macro_Excellent_Modification/fr.md). Les espaces sont automatiquement convertis en traits de soulignement.
 
@@ -65,14 +65,14 @@ ou utilisez le champ `Translate`
 <img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width:200px;"> 
 *Les liens [Comment installer une macro](How_to_install_macros/fr.md) et [créer une barre d'outils](Customize_Toolbars/fr.md) se trouvent dans l'infobox de chaque page de macro*
 
-### Ajouter la documentation sur la macro {#ajouter_la_documentation_sur_la_macro}
+### Ajouter la documentation sur la macro 
 
 -   Tout comme une [Gui Command](Gui_Command/fr.md), expliquez ce que fait la macro, ses entrées, sorties, options et limitations, etc.
 -   Inclure une icône personnalisée au format [SVG](SVG/fr.md) ou PNG pour votre macro afin que les autres utilisateurs puissent l'inclure dans une barre d'outils personnalisée.
 -   Ajoutez une ou plusieurs images pour clarifier l\'utilisation de votre outil.
 -   Si la macro effectue une tâche complexe, envisagez d\'ajouter un fichier GIF animé pour présenter ses fonctionnalités. L\'image GIF doit avoir une taille maximale de 500 x 500 pixels. Si le GIF est plus grand, l\'animation peut ne pas fonctionner. Ne redimensionnez pas le GIF car le wiki ne lira pas les GIF redimensionnés.
 -   Mentionnez les macros et les ateliers associés qui complètent la fonction de cet outil.
--   Mentionnez la version de FreeCAD utilisée pour créer la macro. Ces informations peuvent être recueillies à partir de {{MenuCommand|Aide → À propos de FreeCAD → Copier dans le presse-papiers}}.
+-   Mentionnez la version de FreeCAD utilisée pour créer la macro. Ces informations peuvent être recueillies à partir de **Aide → À propos de FreeCAD → Copier dans le presse-papiers**.
 
 :   Lorsque cette information est collée, elle ressemble à ceci
 
@@ -94,7 +94,7 @@ Locale: English/UnitedStates (en_US)
 
 Envisagez d\'ajouter ces informations dans un bloc de commentaires à l\'intérieur du code de la macro.
 
-### Ajouter le code de la macro {#ajouter_le_code_de_la_macro}
+### Ajouter le code de la macro 
 
 Dans la section **Script**, utilisez [Template:MacroCode](Template:MacroCode.md) pour placer le code de la macro dans la page. Cela créera un bloc de texte utilisant la police de caractères monospace, qui préservera les espaces essentiels pour [Python](Python/fr.md).
 
@@ -148,7 +148,7 @@ __Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_
 
 À partir de FreeCAD 0.17, ces informations sont utilisées par le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) qui télécharge la macro à partir du dépôt [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros).
 
-### Ajouter le code d\'une macro en dehors du wiki {#ajouter_le_code_dune_macro_en_dehors_du_wiki}
+### Ajouter le code d\'une macro en dehors du wiki 
 
 Si votre macro est trop grosse et dépasse 64 Ko, elle ne pourra pas être hébergée sur le wiki. Dans ce cas, utilisez le [Template:Codeextralink](Template:Codeextralink.md) avec un lien vers l\'adresse Web de la page du code brut (page texte du code).
 
@@ -163,7 +163,7 @@ Ce modèle doit être placé au début de la page de macro, dans la section **De
 
 {{ColoredParagraph|'''PS:''' En cas de mise à jour dans GitHub le chemin du code brut est modifié, ne pas oublier de modifier le lien dans le modèle Codeextralink.}}
 
-## Ajouter une nouvelle macro au dépôt du wiki {#ajouter_une_nouvelle_macro_au_dépôt_du_wiki}
+## Ajouter une nouvelle macro au dépôt du wiki 
 
 Utilisez le template [Template:MacroLink](Template:MacroLink.md) pour inclure une ligne dans la catégorie appropriée de la [Liste des Macros](Macros_recipes/fr.md). Créez une nouvelle catégorie si nécessaire.
 
@@ -192,7 +192,7 @@ Pour localiser ce modèle, utilisez le lien de langue approprié dans le premier
 </nowiki>
 }}
 
-## Ajouter une nouvelle macro au dépôt central {#ajouter_une_nouvelle_macro_au_dépôt_central}
+## Ajouter une nouvelle macro au dépôt central 
 
 Pour rendre une macro installable à partir du [Gestionnaire d\'Addon](Addon_Manager/fr.md), elle doit être incluse dans le dépôt central [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros).
 

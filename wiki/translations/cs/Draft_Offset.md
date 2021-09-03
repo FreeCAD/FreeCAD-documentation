@@ -63,7 +63,7 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of the distance: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
+-   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 

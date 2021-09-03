@@ -29,7 +29,7 @@ Ce projet est le développement de **FreeCAD Raytracing**. Il suit les règles d
 
 <div class="mw-translate-fuzzy">
 
-## Buts et principes {#buts_et_principes}
+## Buts et principes 
 
 Ce projet vise à mettre à jour le [module de rendu](Raytracing_Workbench/fr.md) en cours, qui est actuellement utilisé par [povray](http://www.povray.org/), un moteur de rendu partiel qui donne des résultats satisfaisants, et, permettre l\'utilisation d\'un moteur de rendu plus moderne tel que [Lux Render](http://www.luxrender.net/en_GB/index), [Yafaray](http://www.yafaray.org/), [Indigo](http://www.indigorenderer.com/).
 
@@ -62,7 +62,7 @@ L\'intégration de rendu [Lux render](http://www.luxrender.net/en_GB/index) dans
 
 Ici en vedette, une pièce qui a été créée à l\'aide **PartDesign/Sketcher**, rendu à l\'aide du nouveau **render workbench**, en cours d\'élaboration dans **Lux Render**. Lux Render permet des effets sympas, comme la création de la profondeur de champ [DOF (Depth of Field)](http://wiki.blender.org/index.php/Doc:FR/2.4/Manual/Render/Camera/Depth_Of_Field), pour améliorer le réalisme.
 
-## Actions suivantes {#actions_suivantes}
+## Actions suivantes 
 
 -   Créer l\'abstraction pour assurer l\'interface entre les moteurs de rendu (Terminé)
 

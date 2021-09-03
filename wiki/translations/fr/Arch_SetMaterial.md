@@ -29,7 +29,7 @@ L\'outil Matériau permet d\'ajouter des [matériaux](Material/fr.md) dans le do
 2.  Appelez la commande de plusieurs manières:
     -   Appuyez sur le bouton **<img src="images/Arch_SetMaterial.svg" width=16px> [Matériau](Arch_SetMaterial/fr.md)** dans la barre d\'outils.
     -   Utilisez les raccourcis clavier **M** puis **T**.
-    -   Utilisez l\'entrée {{MenuCommand|Arch → Outils matériaux → Matériau}} dans le menu supérieur.
+    -   Utilisez l\'entrée **Arch → Outils matériaux → Matériau** dans le menu supérieur.
 3.  Chargez un matériau prédéfini ou créez-en un nouveau en remplissant les champs.
 4.  Cliquez sur le bouton **OK**.
 
@@ -56,7 +56,7 @@ L\'outil Matériau permet d\'ajouter des [matériaux](Material/fr.md) dans le do
 
 </div>
 
-## Relation avec IFC {#relation_avec_ifc}
+## Relation avec IFC 
 
 Cela correspond à peu près à [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 

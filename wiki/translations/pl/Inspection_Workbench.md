@@ -8,10 +8,10 @@
 
 <img alt="Zrzut ekranu" src=images/InspectionEx.png  style="width:500px;">
 
-## Przewidywany przepływ pracy {#przewidywany_przepływ_pracy}
+## Przewidywany przepływ pracy 
 
 -   Wybierz dwa kształty do porównania, najlepiej przecinające się ze sobą.
--   Następnie użyj menu {{MenuCommand|Inspection → Kontrola wzrokowa}}.
+-   Następnie użyj menu **Inspection → Kontrola wzrokowa**.
 -   Otrzymasz kolorowy obraz przedstawiający odchylenie między dwoma kształtami.
 
 Alternatywnie, użyj makra ![ 24px](images/_HighlightDifference.png ) [HighlightDifference](Macro_HighlightDifference/pl.md), aby porównać dwa kształty.

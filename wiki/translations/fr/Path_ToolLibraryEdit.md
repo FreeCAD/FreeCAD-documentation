@@ -40,7 +40,7 @@ La manipulation est simple:
 2.  Lancez le gestionnaire d\'outils en utilisant plusieurs méthodes :
     -   Appuyez sur le bouton **<img src="images/Path_ToolLibraryEdit.svg" width=16px> [Tool Manager](Path_ToolLibraryEdit/fr.md)** dans la barre d\'outils.
     -   En utilisant le raccourci clavier **P** puis **T**.
-    -   En utilisant l\'entrée {{MenuCommand|Path → Tool Manager}} du menu supérieur.
+    -   En utilisant l\'entrée **Path → Tool Manager** du menu supérieur.
 3.  Créez de nouveaux outils ou ajustez les propriétés des outils existants.
     Définissez au moins le diamètre, FreeCAD en a besoin pour calculer la compensation de rayon. Depuis {{VersionPlus/fr|0.17}}, c\'est la seule valeur utilisée pour la création de parcours d\'usinage. Cependant, si vous souhaitez utiliser l\'outil de simulation plus tard, ajoutez également l\'angle de coupe et la hauteur du tranchant.
     ![](images/Path-ToolAdd.gif )

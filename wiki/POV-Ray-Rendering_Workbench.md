@@ -13,13 +13,13 @@ The POV-Ray-Rendering Workbench is an [external workbench](external_workbenches.
 
 ## Features
 
-### Applying Textures {#applying_textures}
+### Applying Textures 
 
 There are more than 100 predefined textures you can apply easily or define your own materials.
 
 ![](images/POV-Ray-Rendering_Textures.png )
 
-#### Thumbnails and Live Preview {#thumbnails_and_live_preview}
+#### Thumbnails and Live Preview 
 
 You can check the appearance of the material/texture with the pre-rendered thumbnails of the textures. If you want to see the impact of changed options of the texture, you can use the live preview that renders the chosen texture and the options to fine tune the material.
 
@@ -29,19 +29,19 @@ With the three light types area light, point light, spot light and their differe
 
 ![](images/POV-Ray-Rendering_Lights.png )
 
-#### Indirect Lightning (GI) {#indirect_lightning_gi}
+#### Indirect Lightning (GI) 
 
 The workbench has the option to enable indirect lightning to create more realistic images.
 
 ![](images/POV-Ray-Rendering_IndirectLightning.png )
 
-### HDRI Environments {#hdri_environments}
+### HDRI Environments 
 
 With the support for HDRI environments, beautiful environments are simple to use:
 
 ![](images/POV-Ray-Rendering_HDRI.png )
 
-### User Inc File {#user_inc_file}
+### User Inc File 
 
 The user has the option to use an extra file what offers the option to use *all* options of the renderer. For more details, checkout our wiki: [Power User](https://gitlab.com/usbhub/exporttopovray/-/blob/master/doc/PowerUser.md)
 
@@ -77,14 +77,14 @@ Almost every setting, except the settings of the light objects, is done in the d
     -   DerUhrmacher: <https://gitlab.com/DerUhrmacher>
 -   Source code on GitHub: <https://github.com/TheRaytracers/freecad-povray-render>
 
-## Links to POV-Ray Workbench {#links_to_pov_ray_workbench}
+## Links to POV-Ray Workbench 
 
 -   Workbench Wiki: <https://gitlab.com/usbhub/exporttopovray/-/tree/master/doc>
 -   FreeCAD Wiki: XXX
 -   FreeCAD Forum: <https://forum.freecadweb.org/viewtopic.php?f=9&t=48629>
 -   Report bugs: Please report bugs at GitHub or FreeCAD Forum
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [External workbenches](External_workbenches.md)
 

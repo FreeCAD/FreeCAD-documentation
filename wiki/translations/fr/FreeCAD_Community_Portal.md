@@ -2,7 +2,7 @@
 
 C\'est l\'endroit où mettre toutes sortes de choses liées à FreeCAD! Si vous travaillez sur quelque chose lié à FreeCAD, veuillez l\'inclure ici!
 
-## Endroits où FreeCAD apparaît sur le net {#endroits_où_freecad_apparaît_sur_le_net}
+## Endroits où FreeCAD apparaît sur le net 
 
 -   [Wikipedia](https://en.wikipedia.org/wiki/FreeCAD)
 -   [Softpedia](http://linux.softpedia.com/get/Multimedia/Graphics/FreeCAD-31097.shtml)
@@ -12,11 +12,11 @@ C\'est l\'endroit où mettre toutes sortes de choses liées à FreeCAD! Si vous 
 -   [Freshports](http://www.freshports.org/cad/freecad/)
 -   [Packman](http://packman.links2linux.de/package/2776)
 
-## Projets liés à FreeCAD {#projets_liés_à_freecad}
+## Projets liés à FreeCAD 
 
 -   [Développement en architecture](http://yorik.uncreated.net/guestblog.php?tag=freecad): un exemple de la façon dont FreeCAD peut commencer à avoir sa place préliminaire dans un développement en architecture \...
 
-## Les Addons de la communauté FreeCAD {#les_addons_de_la_communauté_freecad}
+## Les Addons de la communauté FreeCAD 
 
 Ce sont des ateliers, scripts, macros et addons développés par la communauté FreeCAD pour FreeCAD. À partir de la v0.17, le gestionnaire d\'addon a été implémenté dans le noyau de FreeCAD, et il est extrêmement pratique d\'installer des addons approuvés par la communauté.
 
@@ -25,11 +25,11 @@ Ce sont des ateliers, scripts, macros et addons développés par la communauté 
 
 ## Publicité
 
-### Réseaux sociaux {#réseaux_sociaux}
+### Réseaux sociaux 
 
 -   [yorik](User:Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
-### Sites d\'information {#sites_dinformation}
+### Sites d\'information 
 
 -   <http://makezine.com/>
 -   <http://www.webupd8.org/>
@@ -42,7 +42,7 @@ Ce sont des ateliers, scripts, macros et addons développés par la communauté 
 -   <http://www.inside3dp.com/>
 -   <http://diy3dprinting.blogspot.com/>
 
-### Autres sites {#autres_sites}
+### Autres sites 
 
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
 -   <http://forum.diigiit.com/>
@@ -75,11 +75,11 @@ Ce sont des ateliers, scripts, macros et addons développés par la communauté 
 -   <http://wkupiesila.blogspot.com>
 -   <http://cadblog.pl>
 
-## Autres ressources {#autres_ressources}
+## Autres ressources 
 
 -   [Liens intéressants](Interesting_links/fr.md) contenant des liens peut-être utiles vers d\'autres ressources et projets FLOSS dans ce domaine.
 
-## Vous aussi! {#vous_aussi}
+## Vous aussi! 
 
 -   Voyez ce que vous pouvez faire pour [Contribuer à FreeCAD](Help_FreeCAD/.md)\...
 

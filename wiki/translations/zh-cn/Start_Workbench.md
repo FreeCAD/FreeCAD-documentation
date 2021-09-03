@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-启动中心允许您快速跳转到最常见的工作台之一, 打开最近的一个文件, 或看到来自 FreeCAD 世界的最新消息。您可以在菜单里的[首选项编辑器](Preferences_Editor.md)（{{MenuCommand|Edit → Preferences → Start}}）中更改默认工作台。
+启动中心允许您快速跳转到最常见的工作台之一, 打开最近的一个文件, 或看到来自 FreeCAD 世界的最新消息。您可以在菜单里的[首选项编辑器](Preferences_Editor.md)（**Edit → Preferences → Start**）中更改默认工作台。
 
 
 </div>

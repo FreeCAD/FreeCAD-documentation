@@ -22,17 +22,17 @@ También existen diversas formas de utilizar Python en FreeCAD:
 
 En este tutorial, trabajaremos en varios ejemplos básicos para que puedas iniciarte, pero existe mucha más documentación sobre los [documentación sobre el guión en Python](Power_users_hub/es.md) disponible en esta wiki. Si eres totalmente nuevo en Python y quieres comprender cómo funciona, también tenemos una básica [Introducción a Python](introduction_to_Python/es.md).
 
-Antes de proceder con la escritura en Python, vaya a {{MenuCommand|Editar → Preferencias → General → Ventana de salida}} y marque dos casillas:
+Antes de proceder con la escritura en Python, vaya a **Editar → Preferencias → General → Ventana de salida** y marque dos casillas:
 
--    {{MenuCommand|Redirigir salida Python interna a la vista de informe}}.
+-    **Redirigir salida Python interna a la vista de informe**.
 
--    {{MenuCommand|Redirigir errores Python internos a la vista de informe}}.
+-    **Redirigir errores Python internos a la vista de informe**.
 
-Luego vaya a {{MenuCommand|Vista → Paneles}} y compruebe:
+Luego vaya a **Vista → Paneles** y compruebe:
 
--    {{MenuCommand|Vista de informe}}.
+-    **Vista de informe**.
 
-## Escribiendo código en Python {#escribiendo_código_en_python}
+## Escribiendo código en Python 
 
 Existen dos modos sencillos de escribir código de Python en FreeCAD: Desde la consola de Python (disponible en el menú Vista -\> Vistas -\> Consola de Python) o desde el editor de macros (Herramientas -\> Macros). En la consola, escribes comandos de Python uno a uno, que son ejecutados al presionar Enter, mientras que las macros pueden contener archivos de guión más completos formados por varias líneas, que se ejecutan sólo cuando la macro es ejecutada.
 
@@ -42,7 +42,7 @@ En este tutorial se pueden utilizar ambos métodos. Puede copiar-pegar cada lín
 
 [inicio](#top.md)
 
-## Explorando FreeCAD {#explorando_freecad}
+## Explorando FreeCAD 
 
 Vamos a empezar creando un nuevo documento vacío:
 
@@ -78,7 +78,7 @@ No pasa nada. ¿Por qué? Porque FreeCAD está hecho para la gran imagen. Un dí
 doc.recompute()
 ```
 
-Ahora nuestra caja apareció. Muchos de los botones que añaden objetos en FreeCAD en realidad hacen dos cosas: añadir el objeto, y volver a calcular. Si activaste la opción {{MenuCommand|Mostrar comandos de script en la consola de python}} de arriba, intenta añadir una esfera con el botón de la GUI, verás las dos líneas de código Python ejecutándose una tras otra.
+Ahora nuestra caja apareció. Muchos de los botones que añaden objetos en FreeCAD en realidad hacen dos cosas: añadir el objeto, y volver a calcular. Si activaste la opción **Mostrar comandos de script en la consola de python** de arriba, intenta añadir una esfera con el botón de la GUI, verás las dos líneas de código Python ejecutándose una tras otra.
 
 Ahora vamos a explorar el contenido de nuestro cubo:
 
@@ -101,13 +101,13 @@ Esto mostrará la altura actual de nuestro cubo. Ahora vamos a intentar cambiarl
 box.Height = 5
 ```
 
-Si seleccionas tu caja con el ratón, verás que en el [Editor de propiedades](Property_editor/es.md), en la pestaña {{MenuCommand|Datos}}, aparece nuestra propiedad **Altura**. Todas las propiedades de un objeto de FreeCAD que aparecen ahí (y también en la pestaña {{MenuCommand|Vista}}, más adelante), son directamente accesibles por Python también, por sus nombres, como hicimos con la propiedad **Altura**. Prueba a cambiar las otras dimensiones de la caja.
+Si seleccionas tu caja con el ratón, verás que en el [Editor de propiedades](Property_editor/es.md), en la pestaña **Datos**, aparece nuestra propiedad **Altura**. Todas las propiedades de un objeto de FreeCAD que aparecen ahí (y también en la pestaña **Vista**, más adelante), son directamente accesibles por Python también, por sus nombres, como hicimos con la propiedad **Altura**. Prueba a cambiar las otras dimensiones de la caja.
 
 Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
 
 [inicio](#top.md)
 
-## Vectores y ubicaciones {#vectores_y_ubicaciones}
+## Vectores y ubicaciones 
 
 Los [vectores](http://es.wikipedia.org/wiki/Vector) son un concepto muy fundamental en cualquier aplicación 3D. Son una lista de 3 números (X, Y y Z), describiendo un punto o posición en el espacio 3D. Un montón de cosas se pueden hacer con los vectores, como sumas, restas, proyecciones y [mucho más](http://es.wikipedia.org/wiki/Espacio_vectorial). En FreeCAD los vectores funcionan así:
 
@@ -136,7 +136,7 @@ Ahora deberías comprender varios conceptos importantes antes de continuar avanz
 
 [inicio](#top.md)
 
-## App y Gui {#app_y_gui}
+## App y Gui 
 
 FreeCAD ha sido diseñado para que también pueda ser utilizado sin su interfaz de usuario, como una aplicación de línea de comandos. Por lo tanto, casi todos los objetos de FreeCAD constan de dos partes: un `Object`, su componente de \"geometría\", y un `ViewObject`, su componente \"visual\". Cuando trabajas en modo línea de comandos, la parte de geometría está presente, pero la parte visual está desactivada.
 

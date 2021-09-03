@@ -24,7 +24,7 @@ A template provides a background for the drawing tasks and its dimensions are us
 
 The templates are svg-files and so a macro has to compose some lines of svg code (which is a subset of xml code).
 
-## Structure of a simple blank page {#structure_of_a_simple_blank_page}
+## Structure of a simple blank page 
 
 The SVG format is a subset of the XML format. That is why an SVG file, like any XML file, consists of two parts:
 
@@ -79,7 +79,7 @@ For a blank page size DIN A3 in landscape orientation that\'s all.
 </svg>
 }}
 
-## Python code\... {#python_code...}
+## Python code\... 
 
 Before any code is generated a folder is needed to store the new template file.
 
@@ -97,7 +97,7 @@ template_file = os.path.join(template_path, template_name)
 
 Now the template name needs to be linked to the template path in a way that is compatible to unix based OSs and Windows. This is done with the \"os.path.join\" command and stored into the **template\_file**.
 
-### \... to create a blank page {#to_create_a_blank_page}
+### \... to create a blank page 
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -182,7 +182,7 @@ EndSvg(template_file)
 :   Additional functions could be inserted before the EndSvg function and the needed calls are put before the EndSvg() call.
 :   We need to have an eye on the number of spaces used with the write operations for a correct indentation.
 
-### \... to create a page with some ink {#to_create_a_page_with_some_ink}
+### \... to create a page with some ink 
 
 To make a drawing out of a blank page we need:
 
@@ -196,7 +196,7 @@ To make a drawing out of a blank page we need:
 
 Normally these graphical elements are used repeatedly and so the generating code is put into functions.
 
-### svgrect function {#svgrect_function}
+### svgrect function 
 
 To draw a rectangle we just need to call the **svgrect** function and hand over the values for width, height, and position of the upper left corner. That is better readable than the content of the svgline which had to be used instead.
 
@@ -207,7 +207,7 @@ def svgrect(width,height,x,y):
     return svgLine
 }}
 
-### svgpath function {#svgpath_function}
+### svgpath function 
 
 To draw a line we just need to call the **svgpath** function and hand over the coordinates of the start point and the endpoint of a line.
 
@@ -225,7 +225,7 @@ def svgpath(x1,y1,x2,y2):
     return svgLine
 }}
 
-### svgtext function {#svgtext_function}
+### svgtext function 
 
 To draw a piece of text we just need to call the **svgtext** function and hand over the coordinates of the text\'s anchor point and the text string itself.
 
@@ -238,7 +238,7 @@ def svgtext(posX,posY,strValue):
     return svgLine
 }}
 
-### FCeditext function {#fceditext_function}
+### FCeditext function 
 
 To draw a piece of editable text we just need to call the **FCeditext** function and hand over a name, the coordinates of the text\'s anchor point, and the text string itself.
 
@@ -254,7 +254,7 @@ def FCeditext(entryName,posX,posY,strValue):
     return svgLine
 }}
 
-### CreateXxxx functions {#createxxxx_functions}
+### CreateXxxx functions 
 
 These functions start with code to open a file in append mode and to write the group opening tag.
 
@@ -291,7 +291,7 @@ stroke-linecap:round\">\n")
     t.close
 }}
 
-### Resulting macro {#resulting_macro}
+### Resulting macro 
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

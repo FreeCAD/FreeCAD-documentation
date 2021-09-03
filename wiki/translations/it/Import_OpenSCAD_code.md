@@ -22,12 +22,12 @@ OpenSCAD è un programma open source di CAD 3D, come FreeCAD. Ma mentre FreeCAD 
 
 </div>
 
-## Installing OpenSCAD {#installing_openscad}
+## Installing OpenSCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-## Installare OpenSCAD {#installare_openscad}
+## Installare OpenSCAD 
 
 Gli utenti Mac possono scaricare i file binari da [OpenSCAD homepage](http://www.openscad.org/).
 Gli utenti Linux Ubuntu/Mint possono installarlo dai repository di sistema o da [OpenSCAD homepage](http://www.openscad.org/).
@@ -37,12 +37,12 @@ Dato che è necessario solo l\'eseguibile OpenSCAD, gli utenti Windows di FreeCA
 
 </div>
 
-## Configuring OpenSCAD workbench in FreeCAD {#configuring_openscad_workbench_in_freecad}
+## Configuring OpenSCAD workbench in FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-## Configurare l\'ambiente OpenSCAD in FreeCAD {#configurare_lambiente_openscad_in_freecad}
+## Configurare l\'ambiente OpenSCAD in FreeCAD 
 
 -   Avviare FreeCAD
 -   Passare all\'ambiente [OpenSCAD](OpenSCAD_Workbench/it.md)
@@ -53,12 +53,12 @@ Dato che è necessario solo l\'eseguibile OpenSCAD, gli utenti Windows di FreeCA
 
 </div>
 
-## The sample model {#the_sample_model}
+## The sample model 
 
 
 <div class="mw-translate-fuzzy">
 
-## Il modello di esempio {#il_modello_di_esempio}
+## Il modello di esempio 
 
 Qui viene usato il file example005.scad dai (vecchi) esempi OpenSCAD, ma si può utilizzare, a piacere, qualsiasi file scad.
 <img alt="" src=images/TutorialOpenSCAD_SampleFile.jpg  style="width:800px;">
@@ -68,12 +68,12 @@ Qui viene usato il file example005.scad dai (vecchi) esempi OpenSCAD, ma si può
 
 <img alt="" src=images/TutorialOpenSCAD_SampleFile.jpg  style="width:800px;">
 
-## Importing the model in FreeCAD {#importing_the_model_in_freecad}
+## Importing the model in FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-## Importare il modello in FreeCAD {#importare_il_modello_in_freecad}
+## Importare il modello in FreeCAD 
 
 -   In FreeCAD scegliere ** File** → ** Apri** e scegliere il file .scad che si desidera importare.
 -   Non è importante che l\'ambiente OpenSCAD sia attivato. L\'ambiente OpenSCAD è necessario solo quando si applicano specifiche funzioni al modello.

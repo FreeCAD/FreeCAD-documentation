@@ -25,17 +25,18 @@ Les bibliothèques devraient être accessibles comme d\'habitude, alors que l\'e
 include <../examples/example001.scad>;
 ``` inclurait le fichier **exemple001.scad** également connu sous le nom d\'icône [OpenSCAD](http://www.openscad.org/)
 
-## Installation OpenSCAD dans FreeCAD {#installation_openscad_dans_freecad}
+## Installation OpenSCAD dans FreeCAD 
 
 **Remarque:** OpenSCAD doit être installé sur votre ordinateur avant que FreeCAD ne dispose de cette fonctionnalité
 Installez OpenSCAD de la manière appropriée pour votre système d\'exploitation. Voir [le site Web d\'OpenSCAD](https://www.openscad.org/) pour plus d\'informations.
 
 FreeCAD doit savoir où trouver l\'exécutable OpenSCAD
 
--   Basculez vers l\'<img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [atelier OpenSCAD](OpenSCAD_Workbench/fr.md) via {{MenuCommand|Menu → Menu déroulant → OpenSCAD}}
--   Ouvrez la boîte de dialogue des préférences {{MenuCommand|Menu → Edition → Préférences}}
+-   Basculez vers l\'<img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [atelier OpenSCAD](OpenSCAD_Workbench/fr.md) via 
+**Menu → Menu déroulant → OpenSCAD**
+-   Ouvrez la boîte de dialogue des préférences **Menu → Edition → Préférences**
 -   Cliquez sur \"OpenSCAD\" dans le plan de gauche
--   Cliquez sur le bouton intitulé **...** dans {{MenuCommand|General Settings → General OpenSCAD Settings → OpenSCAD executable}} pour parcourir le répertoire ou entrer le chemin (par exemple, les distributions Linux basées sur Ubuntu `/usr/bin/openscad`) directement dans l\'entrée de ligne à droite du bouton
+-   Cliquez sur le bouton intitulé **...** dans **General Settings → General OpenSCAD Settings → OpenSCAD executable** pour parcourir le répertoire ou entrer le chemin (par exemple, les distributions Linux basées sur Ubuntu `/usr/bin/openscad`) directement dans l\'entrée de ligne à droite du bouton
 -   Fermez et redémarrez FreeCAD
 
 :   **Résultat:** une nouvelle icône OpenSCAD apparaîtra dans la barre d\'outils et dans le menu OpenSCAD, dans l\'atelier FreeCAD OpenSCAD.

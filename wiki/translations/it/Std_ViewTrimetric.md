@@ -23,7 +23,7 @@ Il comando **Vista trimetrica** orienta la camera della [vista 3D](3D_view/it.md
 
 <div class="mw-translate-fuzzy">
 
--   Selezionare l\'opzione {{MenuCommand|Visualizza → Viste standard → Assonometria → Trimetrica}} dal menu.
+-   Selezionare l\'opzione **Visualizza → Viste standard → Assonometria → Trimetrica** dal menu.
 
 
 </div>

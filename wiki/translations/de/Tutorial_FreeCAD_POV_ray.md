@@ -32,7 +32,7 @@ Folge dem grundlegenden Arbeitsablauf, der in der Dokumentation [Raytracing Work
 
 Damit das direkte Rendern funktioniert, muss die ausführbare Datei `povray` in {{MenuCommand/de|Bearbeiten → Einstellungen → Raytracing → Rendern → POV-Ray Programmdatei}}; setze sie auf deinem Speicherort in deinem System, z.B. `/usr/bin/povray`. Andere vom Renderer verwendete Optionen können hier ebenfalls definiert werden, einschließlich der Breite `+W` und Höhe `+H` des Bildes sowie die Verwendung von Antialiasing `+A`.
 
-## Einrichten der .pov Datei {#einrichten_der_.pov_datei}
+## Einrichten der .pov Datei 
 
 1\. Erstelle eine Baugruppe mit Körpern aus der [Part](Part_Workbench/de.md) oder [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder eines anderen Arbeitsbereichs, die Volumenkörper erzeugt, z.B. der [Arch\_Workbench](Arch_Workbench.md). Weise den einzelnen Körpern, aus denen die Baugruppe besteht, Farben oder Materialien zu, die ungefähr der Farbe entsprechen, die du in deinem Rendering wünschst.
 
@@ -100,7 +100,7 @@ Wenn das gerenderte Bild gut genug ist, dann kann es gespeichert werden, und es 
 
 In den folgenden Abschnitten bearbeiten wir die Basisdatei `.pov`, die mit der Vorlage `ProjectStd` erstellt wurde.
 
-## Bearbeiten der .pov Datei {#bearbeiten_der_.pov_datei}
+## Bearbeiten der .pov Datei 
 
 9\. Die von FreeCAD generierte `.pov` Datei ist eine einfache Textdatei, die mit jedem Editor geöffnet werden kann. Sie ähnelt grob einer C++ Quellcodedatei: Anweisungen beginnen mit einem Hash `#` und werden mit einem Semikolon `;` abgeschlossen. Geschweifte Klammern { } werden verwendet, um Abschnittsblöcke zu begrenzen, und die Einrückung ist ein beliebiger Weißraum. Kommentare werden mit einem doppelten Schrägstrich `//` angegeben; Blockkommentare können wie in C mit einem Paar `/* */` definiert werden.
 
@@ -210,7 +210,7 @@ light_source {
 
 </div>
 
-### Grundlegende Reorganisation {#grundlegende_reorganisation}
+### Grundlegende Reorganisation 
 
 10\. Öffne die Datei `.pov` mit einem Texteditor, gehe zum Ende der Datei, wähle den `light_source` Abschnitt aus, schneide ihn aus und füge ihn vor der ersten `//face number1` Zeile ein.
 
@@ -243,7 +243,7 @@ light_source {
 .
 ```
 
-### Lichter vorbereiten {#lichter_vorbereiten}
+### Lichter vorbereiten 
 
 11\. Standardmäßig wird in der Projektdatei eine Leuchte mit einer Position und einer Farbe definiert. 
 ```python
@@ -298,7 +298,7 @@ sky_sphere {
 
 *align=center|Ausgehend von der Standardvorlage, Rendern der Szene mit POV-Ray, wobei die Lichtquelle und die Himmelskugel eingerichtet werden.*
 
-### Bereite die Körpertexturen vor {#bereite_die_körpertexturen_vor}
+### Bereite die Körpertexturen vor 
 
 13\. Die Texturen der einzelnen Körper müssen angepasst werden. Dies ist die zeitaufwendigste Aufgabe dieses Prozesses.
 
@@ -351,7 +351,7 @@ Die Standardbibliotheken befinden sich im Installationsverzeichnis von POV-ray, 
 /usr/share/povray-3.7/include/
 ```
 
-#### Neue Texturen {#neue_texturen}
+#### Neue Texturen 
 
 15\. Um zum Beispiel eine Spiegeltextur zu erzeugen, wird dem `finish` ein hoher Wert von `reflection` zugewiesen. 
 ```python
@@ -418,7 +418,7 @@ object {Pov_Body001
 
 *align=center|Ausgehend von der Standardvorlage, Rendern der Szene mit POV-Ray, mit der Lichtquelle und der Himmelskugel eingerichtet und den Materialien zugeordnet.*
 
-### Ebenen vorbereiten {#ebenen_vorbereiten}
+### Ebenen vorbereiten 
 
 16\. Wenn das ursprüngliche 3D Modell nicht zur Verfügung steht, können Ebenen hinzugefügt werden, um einen Boden oder eine Tischplatte zu simulieren, auf der die Objekte stehen. Es können weitere Ebenen definiert werden, die als Wände oder andere Arten von Begrenzungen dienen.
 
@@ -517,7 +517,7 @@ plane {
 
 *align=center|Ausgehend von der Standardvorlage, Rendern der Szene mit POV-Ray, wobei die Lichtquelle und die Himmelskugel eingerichtet, die Materialien zugeordnet, eine Bodenebene mit einer Parketttextur und Rückwände mit Trockenbautexturen.*
 
-### Bereite die globalen Einstellungen vor, radiosity {#bereite_die_globalen_einstellungen_vor_radiosity}
+### Bereite die globalen Einstellungen vor, radiosity 
 
 19\. Die globalen Einstellungen definieren das Umgebungslicht.
 
@@ -652,7 +652,7 @@ Der [Raytracing Arbeitsbereich](Raytracing_Workbench/de.md) hat drei Standardvor
 
 -    `RadiosityOutdoorHQ.pov`, es verwendet die Voreinstellung `Radiosity_OutdoorHQ`.
 
-## Endgültiges Rendern {#endgültiges_rendern}
+## Endgültiges Rendern 
 
 21\. Die bearbeitete `.pov` Datei kann gespeichert werden, wenn alle Anpassungen vorgenommen wurden.
 

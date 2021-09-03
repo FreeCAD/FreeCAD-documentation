@@ -135,7 +135,7 @@ Dieser Befehl ersetzt alle sicheren Verweise auf das alte SourceForge Forum durc
 
 {{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecadweb.org"}}
 
-## FreeCAD Wiki Verwandte Befehle {#freecad_wiki_verwandte_befehle}
+## FreeCAD Wiki Verwandte Befehle 
 
 Zählt alle Seiten, in denen eine bestimmte Wiki Vorlage verwendet wird
 

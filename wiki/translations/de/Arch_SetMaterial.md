@@ -20,7 +20,7 @@ Die Material Werkzeuge erlauben dir [Materialien](Material/de.md) zum aktiven Do
 2.  Rufe den Befehl auf mehrere Arten auf:
     -   Drücke die **<img src="images/Arch_SetMaterial.svg" width=16px> [Material](Arch_SetMaterial/de.md)** Schaltfläche in dr Werkzeugleiste
     -   Verwende die **M** dann **T** Tastaturkürzel.
-    -   Verwende die {{MenuCommand|Arch → Material Werkzeuge → Material}} Eintrag aus dem oberen Menü.
+    -   Verwende die **Arch → Material Werkzeuge → Material** Eintrag aus dem oberen Menü.
 3.  Lade ein voreingestelltes Material, oder erstelle ein neues durch Ausfüllen der Felder .
 4.  Drücke {{Taste|OK}}.
 
@@ -44,7 +44,7 @@ Die Material Werkzeuge erlauben dir [Materialien](Material/de.md) zum aktiven Do
 -   **URL**-Schaltfläche: erlaubt das Öffnen der URL in einem Web-Browser
 -   **Vater**: ?
 
-## Bezug zu IFC {#bezug_zu_ifc}
+## Bezug zu IFC 
 
 Dies entspricht in etwa [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 

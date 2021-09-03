@@ -21,7 +21,7 @@ Bu komut, varolan bir eskizi düzenlemenizi sağlar.
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 
 </div>

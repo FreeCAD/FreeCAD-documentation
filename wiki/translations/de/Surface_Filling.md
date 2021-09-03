@@ -26,22 +26,22 @@ The surface can be modified by adding constraint edges and vertices which the su
     -   Optionally, curves can be drawn inside the closed contour, not necessarily touching the edges. These curves can be used to control the curvature of the resulting surface.
     -   Likewise, a number of vertices can be used with the same purpose to indicate where the surface must go through.
 2.  Press the **<img src=images/Surface_Filling.svg style="width:16px"> [Surface filling](Surface_Filling.md)** button.
-3.  Inside the {{MenuCommand|Boundary}} section, press **Add edge**.
+3.  Inside the **Boundary** section, press **Add edge**.
 4.  Use the pointer to pick the desired edges in the [3D view](3D_view.md); a preview of the final shape will be shown after selecting valid edges that form a closed contour.
-    -   Optionally, go to the {{MenuCommand|Curvature: non-boundary edges}} section, press **Add edge**, and pick the desired edges from the [3D view](3D_view.md).
-    -   Optionally, go to the {{MenuCommand|Curvature: non-boundary vertices}} section, press **Add vertex**, and pick the desired vertices from the [3D view](3D_view.md).
+    -   Optionally, go to the **Curvature: non-boundary edges** section, press **Add edge**, and pick the desired edges from the [3D view](3D_view.md).
+    -   Optionally, go to the **Curvature: non-boundary vertices** section, press **Add vertex**, and pick the desired vertices from the [3D view](3D_view.md).
 5.  Press **OK** to complete the operation.
 
 The base edges that form the closed contour, as well as the auxiliary vertices and edges, can belong to 2D curves from <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) or the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md), but can also belong to 3D solid objects such as those created with the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) or <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbenches](PartDesign_Workbench.md).
 
 ## Optionen
 
--    {{MenuCommand|Boundary}}section:
+-    **Boundary**section:
 
     -   
         **Add edge**
         
-        : press once to start picking {{MenuCommand|Boundary edges}} in the <img src=images/Draft_Wire.svg style="width:3D view](3D_view.md). Straight edges such as **[16px"> <img src=images/Sketcher_CreatePolyline.svg style="width:Draft Wires](Draft_Wire.md)** and **[16px"> <img src=images/Draft_BSpline.svg style="width:Sketcher Polylines](Sketcher_CreatePolyline.md)**, or curved edges such as **[16px"> <img src=images/Sketcher_CreateBSpline.svg style="width:Draft BSplines](Draft_BSpline.md)** and **[16px"> <img src=images/PartDesign_Body.svg style="width:Sketcher BSplines](Sketcher_CreateBSpline.md)** can be chosen, as well as any edge from solid objects, like those of **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Bodies](PartDesign_Body.md)** and **[16px"> [Part Primitives](Part_Primitives.md)**.
+        : press once to start picking **Boundary edges** in the <img src=images/Draft_Wire.svg style="width:3D view](3D_view.md). Straight edges such as **[16px"> <img src=images/Sketcher_CreatePolyline.svg style="width:Draft Wires](Draft_Wire.md)** and **[16px"> <img src=images/Draft_BSpline.svg style="width:Sketcher Polylines](Sketcher_CreatePolyline.md)**, or curved edges such as **[16px"> <img src=images/Sketcher_CreateBSpline.svg style="width:Draft BSplines](Draft_BSpline.md)** and **[16px"> <img src=images/PartDesign_Body.svg style="width:Sketcher BSplines](Sketcher_CreateBSpline.md)** can be chosen, as well as any edge from solid objects, like those of **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Bodies](PartDesign_Body.md)** and **[16px"> [Part Primitives](Part_Primitives.md)**.
 
     -   
         **Remove edge**
@@ -53,9 +53,9 @@ The base edges that form the closed contour, as well as the auxiliary vertices a
         
         : open the context menu and select **Remove**, or press **Del** in the keyboard, to remove the currently selected edge in the list.
 
--    {{MenuCommand|Curvature: non-boundary edges}}section; the **Add edge** button is available to pick auxiliary edges (straight lines or B-Splines) to control the curvature of the surface. The surface will be forced to pass through these auxiliary edges. This works best when the auxiliary edges lie inside the region delimited by the {{MenuCommand|Boundary edges}}.
+-    **Curvature: non-boundary edges**section; the **Add edge** button is available to pick auxiliary edges (straight lines or B-Splines) to control the curvature of the surface. The surface will be forced to pass through these auxiliary edges. This works best when the auxiliary edges lie inside the region delimited by the **Boundary edges**.
 
--    {{MenuCommand|Curvature: non-boundary vertices}}section; similar to the non-boundary edges, the user can pick auxiliary vertices to control the curvature. These vertices may be free standing **<img src=images/Draft_Point.svg style="width:16px"> <img src=images/Part_Point.svg style="width:Draft Points](Draft_Point.md)** or **[16px"> [Part Points](Part_Point.md)**, or may belong to any edge (straight lines or B-Splines), or be a corner vertex in a solid object. In this case, the surface will be constrained to pass through these auxiliary points.
+-    **Curvature: non-boundary vertices**section; similar to the non-boundary edges, the user can pick auxiliary vertices to control the curvature. These vertices may be free standing **<img src=images/Draft_Point.svg style="width:16px"> <img src=images/Part_Point.svg style="width:Draft Points](Draft_Point.md)** or **[16px"> [Part Points](Part_Point.md)**, or may belong to any edge (straight lines or B-Splines), or be a corner vertex in a solid object. In this case, the surface will be constrained to pass through these auxiliary points.
 
 -   Press **Cancel** or **Esc** to abort the current operation.
 

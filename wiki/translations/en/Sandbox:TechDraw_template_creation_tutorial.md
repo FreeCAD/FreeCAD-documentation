@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -30,11 +30,11 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 /usr/share/freecad/Mod/TechDraw/Templates/HowToExample.svg
 ```
 
-## Create the base document {#create_the_base_document}
+## Create the base document 
 
 1\. Open a new document in Inkscape. All of the following steps will be carried out within Inkscape. During this tutorial, FreeCAD and TechDraw are only useful for inspecting the state of your template by opening the TechDraw workbench, clicking <img alt="TechDraw PageTemplate\|link=TechDraw\_PageTemplate" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [TechDraw PageTemplate](TechDraw_PageTemplate.md) and selecting the template you are working on.
 
-2\. Use the built-in XML Editor {{MenuCommand|Edit → XML Editor...}} or **Shift**+**Ctrl**+**X**) to add a \"freecad\" namespace clause to the `<svg>` item.
+2\. Use the built-in XML Editor **Edit → XML Editor...** or **Shift**+**Ctrl**+**X**) to add a \"freecad\" namespace clause to the `<svg>` item.
 
 -   Select the topmost<svg>item and press the **+** located on the top left of the contents window to create a new entry
 -   In the **Name** field of the new item, paste xmlns:freecad
@@ -46,20 +46,20 @@ Note that your editable texts will *not* work if you use \"<https://>\...\", eve
 
 The finished template is likely to turn out irregular and messy if made without any references for the placement of lines, text and other items.
 
--   Open {{MenuCommand|File → Document Properties → Grids}} and click **New** to create a new grid.
+-   Open **File → Document Properties → Grids** and click **New** to create a new grid.
 -   A set of grid properties will shown, adjust these to your liking. For example, to get a 1 by 1 mm grid, set **Grid units:** to {{ComboBox|mm}} and both **Spacing X:** and **Spacing Y:** to {{SpinBox|1.0}}
 -   Also, you can set the interval of major grid lines for easier readability by changing the **Major grid line every:** parameter.
 
 4\. Set page size
 
-In Document Properties ({{MenuCommand|File → Document Properties}} or **Shift**+**Ctrl**+**D**)
+In Document Properties (**File → Document Properties** or **Shift**+**Ctrl**+**D**)
 
 -   Select page size \"US Letter\" or \"A4\" and orientation \"landscape\".
 -   Set default units to \"mm\". For US Letter, set the page size to width \"279.4\" and height \"215.9\". For A4 you would use \"210\" and \"297\".
 
 <img alt="" src=images/InkDocProp.png  style="width:800px;"> *align=center|Inkscape: document with page size and orientation* 
 
-## Create the template drawing {#create_the_template_drawing}
+## Create the template drawing 
 
 5\. Draw the template geometry
 
@@ -90,7 +90,7 @@ Here is some information that is almost universally written on drafts:
 
 8\. The finished template should look something like this: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> *align=center|Inkscape: tentative template layout* 
 
-## Create editable fields {#create_editable_fields}
+## Create editable fields 
 
 9\. Add tags to each text element
 
@@ -98,7 +98,7 @@ Here is some information that is almost universally written on drafts:
 
 <img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> *align=center|Inkscape: XML Editor adding the "freecad:editable" property to the desired <text> item* 
 
-## Adjust size of the SVG {#adjust_size_of_the_svg}
+## Adjust size of the SVG 
 
 10\. Use the XML editor to adjust the `viewBox` attribute to match your page size in millimeters.
 
@@ -110,7 +110,7 @@ Here is some information that is almost universally written on drafts:
 
 12\. We need to shrink it.
 
--    {{MenuCommand|Edit → Select All in All Layers}}, or box select and select all.
+-    **Edit → Select All in All Layers**, or box select and select all.
 
 -   Adjust the **W:** and **H:** spinboxes to match your artwork\'s size in millimeters.
 
@@ -120,17 +120,17 @@ Here is some information that is almost universally written on drafts:
 
 14\. Your template should now look right, just like it did in the finished artwork picture above.
 
-## Remove transformans on the SVG {#remove_transformans_on_the_svg}
+## Remove transformans on the SVG 
 
 15\. Ensure that all your editable texts are \"ungrouped\" with **Shift**+**Ctrl**+**g**.
 
-16\. Select everything on your page, {{MenuCommand|Edit → Select All}}, and then {{MenuCommand|Edit → Copy}} (**Ctrl**+**c**).
+16\. Select everything on your page, **Edit → Select All**, and then **Edit → Copy** (**Ctrl**+**c**).
 
-17\. Then delete the current layer, {{MenuCommand|Layer → Delete Current Layer}}.
+17\. Then delete the current layer, **Layer → Delete Current Layer**.
 
 :   Note: if you deleted the layer already (in your layer panel is no layer listed) this step is not required. In that case you should select all (**Ctrl**+**a**), cut the selection (**Ctrl**+**x**) and paste it with the command in the next step.
 
-18\. Then paste, {{MenuCommand|Edit → Paste in Place}}.
+18\. Then paste, **Edit → Paste in Place**.
 
 :   **Note:** This command prevents that the text positions are stored in transform tags. It\'s important that you do not use the normal paste command!
 

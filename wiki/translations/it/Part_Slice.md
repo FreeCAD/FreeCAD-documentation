@@ -82,7 +82,7 @@ Viene creato un oggetto parametrico Slice. Vengono nascosti gli oggetti original
 
 <div class="mw-translate-fuzzy">
 
-### Struttura ad albero di Slice {#struttura_ad_albero_di_slice}
+### Struttura ad albero di Slice 
 
 Il comando Affetta in composto crea un oggetto affettato. Nell\'esempio seguente un cubo viene affettato da una faccia.
 
@@ -110,7 +110,7 @@ Vengono create le fette e tutte le fette sono unite in un composto.
 
 ## Esempio
 
-## Creare un puzzle {#creare_un_puzzle}
+## Creare un puzzle 
 
 
 <div class="mw-translate-fuzzy">

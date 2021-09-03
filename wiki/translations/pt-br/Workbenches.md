@@ -17,7 +17,7 @@ Observe que às vezes uma bancada de trabalho é referida como sendo um *Módulo
 
 </div>
 
-## Bancadas de Trabalho Pré-instaladas {#bancadas_de_trabalho_pré_instaladas}
+## Bancadas de Trabalho Pré-instaladas 
 
 
 <div class="mw-translate-fuzzy">
@@ -88,11 +88,11 @@ As seguintes bancadas de trabalho ainda estão incluídas na instalação básic
 
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> The [Drawing Workbench](Drawing_Workbench.md) was used for producing technical drawings but has now been deprecated. It is still needed to read old FreeCAD files that contain objects created with this workbench. The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement. {{Obsolete|0.17}}
 
-## Bancadas de Trabalho Externas {#bancadas_de_trabalho_externas}
+## Bancadas de Trabalho Externas 
 
 As bancadas de trabalho do FreeCAD são fáceis de programar em [Python](Python/pt-br.md), portanto há muitas pessoas desenvolvendo bancadas de trabalho adicionais fora da área de desenvolvimento principal do FreeCAD.
 
-A página de bancadas de trabalho externas ([Bancadas de trabalho externas](external_workbenches/pt-br.md)) lista todas as que são conhecidas por esta comunidade. A maioria é facilmente instalável de dentro do FreeCAD, usando o [Gerenciador de Extensões](Addon_Manager/pt-br.md), encontrado no menu {{MenuCommand|Ferramentas → <img src="images/AddonManager.svg" width=24px> Addon manager}}.
+A página de bancadas de trabalho externas ([Bancadas de trabalho externas](external_workbenches/pt-br.md)) lista todas as que são conhecidas por esta comunidade. A maioria é facilmente instalável de dentro do FreeCAD, usando o [Gerenciador de Extensões](Addon_Manager/pt-br.md), encontrado no menu **Ferramentas → <img src="images/AddonManager.svg" width=24px> Addon manager**.
 
 Novas bancadas de trabalho estão sempre em desenvolvimento. Fique atento!
 

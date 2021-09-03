@@ -31,7 +31,7 @@ Lade das **graphviz-2.xx** Installationsprogramm von der [Graphviz Download Seit
 Du kannst graphviz mit [Homebrew](https://brew.sh/) installieren. (Werde bei der Installation von Homebrew nicht nervös, wenn MacOS dich auffordert, Updates zu installieren, z.B. für die Xcode Kommandozeilenprogramme. Diese Updates werden später durch den Installationsprozess durchgeführt). 
 ```python
 brew install graphviz
-``` Dadurch werden die Graphviz Binärdateien unter /usr/local/bin installiert. FreeCAD wird dort ganz von selbst suchen. Wenn das Programm dort nicht gefunden wird, wirst du aufgefordert, den Pfad einzugeben. Leider können wir vom Dateidialog aus, der aus {{MenuCommand|Werkzeuge → Abhängigkeitsdiagramm...}} aufgerufen wird, nicht direkt dorthin navigieren. Wenn du den Dateiauswahldialog erhälst, hast du zwei Möglichkeiten: Du kannst die Tastenkombination Cmd+Shift+. verwenden, die dir alle ausgeblendeten Elemente anzeigt. Oder du verwendest die Tastenkombination Cmd+Shift+G, um ein Eingabefeld für den Pfad zu erhalten. Eingabe von 
+``` Dadurch werden die Graphviz Binärdateien unter /usr/local/bin installiert. FreeCAD wird dort ganz von selbst suchen. Wenn das Programm dort nicht gefunden wird, wirst du aufgefordert, den Pfad einzugeben. Leider können wir vom Dateidialog aus, der aus **Werkzeuge → Abhängigkeitsdiagramm...** aufgerufen wird, nicht direkt dorthin navigieren. Wenn du den Dateiauswahldialog erhälst, hast du zwei Möglichkeiten: Du kannst die Tastenkombination Cmd+Shift+. verwenden, die dir alle ausgeblendeten Elemente anzeigt. Oder du verwendest die Tastenkombination Cmd+Shift+G, um ein Eingabefeld für den Pfad zu erhalten. Eingabe von 
 ```python
 /usr/local/bin
 ``` und bestätige das Eingabefeld und den Dateiauswahldialog.
@@ -56,7 +56,7 @@ dot is /usr/local/bin/dot
 
 ## Anwendung
 
-1.  Wähle die {{MenuCommand|Werkzeuge →  <img src="images/Std_DependencyGraph.svg" width=16px> Abhängigkeitsdiagramm...}} Option aus dem Menü.
+1.  Wähle die **Werkzeuge →  <img src="images/Std_DependencyGraph.svg" width=16px> Abhängigkeitsdiagramm...** Option aus dem Menü.
 2.  Ein neuer Reiter mit dem Titel **Abhängigkeitsdiagramm** wird im [Hauptansichtsbereich](Main_view_area/de.md) geöffnet.
 3.  Verwende zum Vergrößern oder Verkleinern das Scrollrad der Maus.
 4.  Verwende die Schieberegler unten und rechts auf dem Bildschirm, um die Ansicht zu verschieben.
@@ -72,7 +72,7 @@ Du kannst ein Abhängigkeitsdiagramm speichern:
 3.  Gib einen Dateinamen ein und wähle den Dateityp (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg oder \*.pdf).
 4.  Drücke die Taste **Save**.
 
-## Allgemeine Grundsätze {#allgemeine_grundsätze}
+## Allgemeine Grundsätze 
 
 -   Die Grafik zeigt die Objekte in umgekehrter chronologischer Reihenfolge.
 -   Die Richtung der Pfeile, die Abhängigkeiten anzeigen, sollte immer nach unten zeigen, vom untergeordneten Objekt zum übergeordneten Objekt. Ein Pfeil, der nach oben zeigt, weist auf eine zyklische Abhängigkeit hin, ein Problem, das gelöst werden muss.

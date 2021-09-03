@@ -31,19 +31,19 @@ Atelierul de lucru Sketcher pune pe primul loc "constrângerile" - permițând d
 
 *A fully constrained sketch*
 
-## Elementele de bază ale constrângerilor schiței {#elementele_de_bază_ale_constrângerilor_schiței}
+## Elementele de bază ale constrângerilor schiței 
 
 Pentru a explica cum funcționează Sketcher-ul, poate fi util să îl comparați cu modul tradițional de redactare.
 
-#### Schițarea tradițională {#schițarea_tradițională}
+#### Schițarea tradițională 
 
 Modul tradițional de schițare CAD moștenește de la vechea [drawing board](http://en.wikipedia.org/wiki/Drawing_board). [Vizualizări ortogonale (2D)](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) sunt desenate manual și sunt destinate pentru realizarea desenelor tehnice (cunoscute și sub denumirea de planuri). Obiectele sunt desenate exact la dimensiunea sau dimensiunea dorită. Dacă doriți să desenați o linie orizontală cu lungimea de 100 mm începând cu (0,0), activați instrumentul Linie, faceți clic pe ecran sau introduceți coordonatele (0,0) pentru primul punct, apoi efectuați un al doilea clic sau introduceți coordonatele celui de-al doilea punct la (100,0). Sau vă veți trage linia fără a ține seama de poziția sa și o veți muta ulterior. După ce ați terminat desenarea geometriei, adăugați dimensiuni acestora.
 
-#### Constrângeri în Sketching {#constrângeri_în_sketching}
+#### Constrângeri în Sketching 
 
 **Sketcherul** se îndepărtează de această logică. Obiectele nu trebuie să fie desenate exact așa cum intenționați, deoarece ele vor fi definite ulterior prin constrângeri. Obiectele pot fi desenate și, atâta timp cât ele nu sunt restricționate, pot fi modificate. Ele sunt în fapt \"plutitoare\" și pot fi mișcate, întinse, rotite, scalate și așa mai departe. Acest lucru oferă o mare flexibilitate în procesul de proiectare.
 
-#### Ce sunt constrângerile? {#ce_sunt_constrângerile}
+#### Ce sunt constrângerile? 
 
 În loc de dimensiuni, constrângerile sunt folosite pentru a limita gradul de libertate al unui obiect. De exemplu, o linie fără constrângeri are 4 [ Degrees of Freedom](#Degrees_of_Freedom.md) (abreviat ca \"DOF\"): poate fi mișcat orizontal sau vertical, poate fi întinsă și poate fi rotită.
 
@@ -59,7 +59,7 @@ Obiectele multiple pot fi constrânse între ele. Două linii pot fi unite prin 
 
 Există două tipuri de constrângeri: geometrice și dimensionale. Acestea sunt detaliate în secțiunea [ \'Instrumentele\'](#_Instrumente.md) de mai jos.
 
-#### La ce nu este bun Sketcher-ul {#la_ce_nu_este_bun_sketcher_ul}
+#### La ce nu este bun Sketcher-ul 
 
 Instrumentul Sketcher nu este destinat pentru realizarea planurilor 2D. Odată ce schițele sunt folosite pentru a genera o caracteristică solidă, ele sunt ascunse automat. Constrângerile sunt vizibile numai în modul Editare schiță.
 
@@ -71,12 +71,12 @@ Dacă doriți să creați numai vizualizări 2D pentru tipărire și nu doriți 
 
 </div>
 
-## Sketching Workflow {#sketching_workflow}
+## Sketching Workflow 
 
 
 <div class="mw-translate-fuzzy">
 
-## Schițarea fluxului de lucru {#schițarea_fluxului_de_lucru}
+## Schițarea fluxului de lucru 
 
 O schiță este întotdeauna bi-dimensională (2D). Pentru a crea un solid, se creează o schiță 2D a unei singure zone închise și apoi fie se aplică o extruziune sau o rotație/revoluție pentru a adăuga cea de-a treia dimensiune, creând un solid 3D din schița 2D.
 
@@ -183,7 +183,7 @@ Instrumentele Sketcher Workbench sunt toate localizate în meniul Sketch care ap
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): when in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
-### Sketcher geometries {#sketcher_geometries}
+### Sketcher geometries 
 
 Aceste unelte se folosesc la crearea obiectelor.
 
@@ -403,11 +403,11 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 </div>
 
-### Constrângeri Sketcher {#constrângeri_sketcher}
+### Constrângeri Sketcher 
 
 Constrângerile sunt folosite pentru a defini lungimile, a stabili reguli între elementele de schiță și pentru a bloca schița de-a lungul axelor verticale și orizontale. Unele constrângeri necesită utilizarea [Helper constraints](Sketcher_helper_constraint.md).
 
-#### Constrângeri geometrice {#constrângeri_geometrice}
+#### Constrângeri geometrice 
 
 Aceste constrângeri nu sunt asociate cu date numerice.
 
@@ -495,7 +495,7 @@ Practic permite blocarea unui element geometric în loc cu o singură constrâng
 
 </div>
 
-#### Constrângeri dimensionale {#constrângeri_dimensionale}
+#### Constrângeri dimensionale 
 
 Acestea sunt constrângeri asociate datelor numerice, pentru care puteți utiliza expresiile [expressions](Expressions.md). Datele pot fi preluate dintr-un [spreadsheet](Spreadsheet_Workbench.md).
 
@@ -551,7 +551,7 @@ Definește unghiul interior dintre două linii selectate.
 
 </div>
 
-#### Special constraints {#special_constraints}
+#### Special constraints 
 
 
 <div class="mw-translate-fuzzy">
@@ -569,7 +569,7 @@ Definește unghiul interior dintre două linii selectate.
 
 </div>
 
-#### Constraint tools {#constraint_tools}
+#### Constraint tools 
 
 The following tools can be used the change the effect of constraints:
 
@@ -583,7 +583,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/Deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
 
-### Instrumente Sketcher {#instrumente_sketcher}
+### Instrumente Sketcher 
 
 
 <div class="mw-translate-fuzzy">
@@ -731,7 +731,7 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
-### Instrumentele pentru Sketcher B-spline {#instrumentele_pentru_sketcher_b_spline}
+### Instrumentele pentru Sketcher B-spline 
 
 
 <div class="mw-translate-fuzzy">
@@ -783,7 +783,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)
 
-### Sketcher în spațiul virtual {#sketcher_în_spațiul_virtual}
+### Sketcher în spațiul virtual 
 
 
 <div class="mw-translate-fuzzy">
@@ -803,7 +803,7 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
-## Cele mai bune practici {#cele_mai_bune_practici}
+## Cele mai bune practici 
 
 Fiecare utilizator CAD își dezvoltă în timp propriul mod de a lucra, dar există câteva principii generale utile care trebuie urmate.
 

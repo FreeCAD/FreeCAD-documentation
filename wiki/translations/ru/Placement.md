@@ -7,7 +7,7 @@
 
 **Размещение** это как FreeCAD определяет положение и ориентацию объекта в пространстве. Размещение может быть определено в нескольких формах и управляется через [скрипты](Python_scripting_tutorial/ru#Vectors_and_Placements.md), панель Properties, или диалог **Расположение** (меню **Правка**).
 
-### Доступ к атрибутам расположения {#доступ_к_атрибутам_расположения}
+### Доступ к атрибутам расположения 
 
 Доступ и модификация атрибутов расположения объектов может быть получен тремя путями:
 
@@ -37,14 +37,14 @@
 
 ![Оси вращения с углами в диалоге расположения](images/PlacementDialogv10.png ) 
 
-## Формы размещения {#формы_размещения}
+## Формы размещения 
 
 Размещение хранится внутри как позиция и вращение (ось вращения и угол преобразуются в кватернион [и вращение пространства](https://ru.wikipedia.org/wiki/Кватернионы)). Хотя существует несколько форм для задания поворота, например, с центром вращения, это используется только для воздействия на вычисление поворота и не сохраняется для последующих операций. Аналогично, если указана ось вращения (1,1,1), она может быть при сохранении в кватернионе нормализована и при позднейшем просмотре объекта отображаться как (0,58, 0,58, 0,58).
 
 
 </div>
 
-### Угол, Ось и Положение {#угол_ось_и_положение}
+### Угол, Ось и Положение 
 
 **Placement = \[Угол, Ось, Положение\]**
 
@@ -69,7 +69,7 @@ Note that it is also possible to translate (move) an object along this axis of r
 
 **Position = (x,y,z)** is a Vector describing the point from which the object\'s geometry will be calculated (in effect, a \"local origin\" for the object). Note that in scripts, Placement.Base is used to denote the Position component of a placement. The property editor calls this value **Position** and the Placement task panel calls it **Translation**.
 
-### Position and Yaw, Pitch and Roll {#position_and_yaw_pitch_and_roll}
+### Position and Yaw, Pitch and Roll 
 
 ![Placement task panel: {{ComboBox|Euler angles}} selected](images/PlacementDialogv10b.png )  **Placement = \[Position, Yaw-Pitch-Roll\]**
 
@@ -115,7 +115,7 @@ The third form of **Placement** describes the object\'s position and orientation
 
 
 
-## The Placement Dialog {#the_placement_dialog}
+## The Placement Dialog 
 
 The Placement Dialog is invoked from the **Edit** menu. It is used to precisely rotate/translate objects. It is also used when we need to create a sketch on a \"non standard\" plane or change a sketch\'s orientation to a new plane.
 
@@ -165,7 +165,7 @@ Rotation using Euler angles:
 
 <img alt="After Rotation" src=images/RotationEulerAfter.png  style="width:600px;"> After Rotation 
 
-## Placement.Base vs Shape Definition {#placement.base_vs_shape_definition}
+## Placement.Base vs Shape Definition 
 
 Placement is not the only way to position a shape in space. Note the Python console in this image:
 
@@ -200,7 +200,7 @@ Both cubes have the same value for Placement, but are in different locations! Th
 
 The Vertices (or Vectors) that define the shape use the Placement.Base attribute as their origin. So if you want to move a shape 10 units along the **X** axis, you could add 10 to the **X** coordinates of all the Vertices or you could set Placement.Base to (10,0,0).
 
-## Using \"Center\" to Control Axis of Rotation {#using_center_to_control_axis_of_rotation}
+## Using \"Center\" to Control Axis of Rotation 
 
 By default, the axis of rotation isn\'t really the x/y/z axis. It is a line parallel to the selected axis, but passing through the reference point (Placement.Base) of the object to be rotated. This can be changed by using the Center fields in the Placement dialog or, in scripts, by using the Center parameter of the FreeCAD.Placement constructor.
 
@@ -230,7 +230,7 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
-## Using Placement in expressions {#using_placement_in_expressions}
+## Using Placement in expressions 
 
 In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\": 
 ```python

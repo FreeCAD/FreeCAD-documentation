@@ -113,7 +113,7 @@ w.BoxHeight.value()
 
 В итоге, не забудьте, что в FreeCAD Wiki гораздо больше документации об использовании виджетов Qt, в секции [Python Scripting](Power_users_hub/ru.md), которая содержит [руководство по созданию диалогов](Dialog_creation/ru.md), специальное [руководство по PySide](PySide/ru.md), которое шире описывает тему.
 
-## Связанные ссылки {#связанные_ссылки}
+## Связанные ссылки 
 
 -   [Документация Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator)
 -   [Установка Qt Creator](https://www.qt.io/ide/)

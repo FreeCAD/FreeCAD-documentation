@@ -14,7 +14,7 @@ Das [Arch Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)-Werkzeug erlaubt es
 
 Das [Arch Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
-Dieser Befehl ist Teil des [Reinforcement-Arbeitsbereich](Reinforcement_Workbench/de.md), einem [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon-Manager](Addon_Manager/de.md) über das Menü {{MenuCommand|Werkzeuge → Addon-Manager → Reinforcement}} installiert werden kann.
+Dieser Befehl ist Teil des [Reinforcement-Arbeitsbereich](Reinforcement_Workbench/de.md), einem [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon-Manager](Addon_Manager/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
 *Zwei Sätze von geraden Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*
@@ -104,7 +104,7 @@ Rebar = makeStraightRebar(f_cover, coverAlong, rt_cover, lb_cover,
 
 Abhängig von der Ausrichtung des Bewehrungsstabs kann die Funktion durch entsprechendes Setzen von {{Incode|coverAlong}} auf zwei allgemeine Weisen aufgerufen werden.
 
-### Der Bewehrungsstab ist horizontal {#der_bewehrungsstab_ist_horizontal}
+### Der Bewehrungsstab ist horizontal 
 
 
 ```python
@@ -116,7 +116,7 @@ Rebar = makeStraightRebar(f_cover, ("Bottom Side", value), right_cover, left_cov
 
 -   In diesem Fall bezieht sich `rt_cover` auf den `right_cover` (rechts Seite)-Abstand und `lb_cover` auf den `left_cover` (linke Seite)-Abstand.
 
-### Der Bewehrungsstab ist vertikal {#der_bewehrungsstab_ist_vertikal}
+### Der Bewehrungsstab ist vertikal 
 
 
 ```python
@@ -128,7 +128,7 @@ Rebar = makeStraightRebar(f_cover, ("Right Side", value), top_cover, bottom_cove
 
 -   In diesem Fall bezieht sich `rt_cover` auf den `top_cover` (Oberseite)-Abstand und `lb_cover` auf den `bottom_cover` (Unterseite)-Abstand.
 
-### Beispiel horizontal {#beispiel_horizontal}
+### Beispiel horizontal 
 
 
 ```python
@@ -147,7 +147,7 @@ Rebar2 = StraightRebar.makeStraightRebar(50, ("Bottom Side", 50), 100, 100,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
 
-### Beispiel vertikal {#beispiel_vertikal}
+### Beispiel vertikal 
 
 
 ```python
@@ -167,7 +167,7 @@ Rebar4 = StraightRebar.makeStraightRebar(50, ("Left Side", 50), 100, 100,
 Rebar4.ViewObject.ShapeColor = (0.0, 0.5, 0.5)
 ```
 
-### Anpassung des Bewehrungsstabs {#anpassung_des_bewehrungsstabs}
+### Anpassung des Bewehrungsstabs 
 
 Die Eigenschaften des Bewehrungsstabs lassen sich mit der folgenden Funktion verändern 
 ```python

@@ -1,6 +1,6 @@
  Эта страница перечисляет шаблоны, соответствующие стандартам Америка́нского национа́льного институ́та станда́ртов [ANSI](https://ru.wikipedia.org/wiki/Американский_национальный_институт_стандартов)
 
-### ANSI A {#ansi_a}
+### ANSI A 
 
 #### ANSI\_A\_Landscape
 
@@ -10,17 +10,17 @@
 
 <img alt="" src=images/ANSI_A_Portrait.svg  style="width:800px;">
 
-### ANSI A {#ansi_a_1}
+### ANSI A 
 
-#### ANSI\_A\_Landscape {#ansi_a_landscape_1}
+#### ANSI\_A\_Landscape 
 
 <img alt="" src=images/ANSI_B_Landscape.svg  style="width:800px;">
 
-#### ANSI\_A\_Portrait {#ansi_a_portrait_1}
+#### ANSI\_A\_Portrait 
 
 <img alt="" src=images/ANSI_B_Portrait.svg  style="width:800px;">
 
-### ANSI C {#ansi_c}
+### ANSI C 
 
 #### ANSI\_C\_Landscape
 
@@ -30,7 +30,7 @@
 
 <img alt="" src=images/ANSI_C_Portrait.svg  style="width:800px;">
 
-### ANSI D {#ansi_d}
+### ANSI D 
 
 #### ANSI\_D\_Landscape
 
@@ -40,7 +40,7 @@
 
 <img alt="" src=images/ANSI_D_Portrait.svg  style="width:800px;">
 
-### ANSI E {#ansi_e}
+### ANSI E 
 
 #### ANSI\_E\_Landscape
 
@@ -50,7 +50,7 @@
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width:800px;">
 
-## Другие доступные стандарты {#другие_доступные_стандарты}
+## Другие доступные стандарты 
 
 -   [Чертёжные шаблоны](Drawing_templates/ru.md): шаблоны FreeCAD по умолчанию
 -   [Архитектурные шаблоны](Arch_templates/ru.md): в соответствии с архитектурными стандартами [ANSI](https://ru.wikipedia.org/wiki/Американский_национальный_институт_стандартов)

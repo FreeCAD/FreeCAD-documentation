@@ -25,8 +25,8 @@ Voir aussi: [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/fr
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md)**.
-    -   Sélectionnez la {{MenuCommand|Drafting → Outils Bézier → <img src="images/Draft_CubicBezCurve.svg" width=16px> Courbe de Bézier cubique}} dans le menu.
-2.  Le panneau de tâches {{MenuCommand|Courbe cubique de Bézier}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+    -   Sélectionnez la **Drafting → Outils Bézier → <img src="images/Draft_CubicBezCurve.svg" width=16px> Courbe de Bézier cubique** dans le menu.
+2.  Le panneau de tâches **Courbe cubique de Bézier** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Il n\'est pas possible de saisir des points via le panneau de tâches.
 4.  Pour les [modes de navigation par la souris](Mouse_navigation/fr.md) suivants, une touche du clavier doit être maintenue enfoncée :
     -   Si vous utilisez le [Mode OpenInventor](Mouse_navigation/fr#Mode_OpenInventor.md), la touche **Ctrl** doit être maintenue enfoncée pendant toute la durée de la commande.

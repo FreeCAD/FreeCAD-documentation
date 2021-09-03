@@ -199,7 +199,7 @@ except Exception:
 
 }}
 
-### Курсоры, которые можно использовать {#курсоры_которые_можно_использовать}
+### Курсоры, которые можно использовать 
 
 ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor, SizeHorCursor SizeBDiagCursor, SizeFDiagCursor, SizeAllCursor, BlankCursor, SplitVCursor, SplitHCursor PointingHandCursor, ForbiddenCursor, OpenHandCursor, ClosedHandCursor, WhatsThisCursor, BusyCursor, BitmapCursor
 

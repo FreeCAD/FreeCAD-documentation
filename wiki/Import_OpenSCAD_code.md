@@ -14,13 +14,13 @@
 
 OpenSCAD, like FreeCAD, is an open source 3D CAD program. But while FreeCAD uses a visual approach, OpenSCAD uses a programming interface to perform 3D operations. The OpenSCAD workbench can be used to import OpenSCAD object code and to have access to some of the mesh operations possible with OpenSCAD.
 
-## Installing OpenSCAD {#installing_openscad}
+## Installing OpenSCAD 
 
 -   Linux users can install from the relevant distribution repositories, such as Debian, openSUSE, Mint, Unbuntu, etc. or from the [OpenSCAD homepage](http://www.openscad.org/).
 -   Mac Users can download the binaries from the [OpenSCAD homepage](http://www.openscad.org/).
 -   Windows users can download the program from the [OpenSCAD homepage](http://www.openscad.org/). Since only the OpenSCAD executable is needed by FreeCAD, Windows users can install the portable version if they like.
 
-## Configuring OpenSCAD workbench in FreeCAD {#configuring_openscad_workbench_in_freecad}
+## Configuring OpenSCAD workbench in FreeCAD 
 
 -   Open FreeCAD.
 -   Switch to [OpenSCAD workbench](OpenSCAD_Workbench.md).
@@ -28,13 +28,13 @@ OpenSCAD, like FreeCAD, is an open source 3D CAD program. But while FreeCAD uses
     -   Point FreeCAD to the OpenSCAD executable (section: General OpenSCAD settings).
     -   All the other values on the settings-page could be left at default.
 
-## The sample model {#the_sample_model}
+## The sample model 
 
 Here we will use the example005.scad file from the (old) OpenSCAD examples, but feel free to use any scad file of your liking.
 
  <img alt="" src=images/TutorialOpenSCAD_SampleFile.jpg  style="width:800px;"> 
 
-## Importing the model in FreeCAD {#importing_the_model_in_freecad}
+## Importing the model in FreeCAD 
 
 -   In FreeCAD just choose ** File** → ** Open** and choose the .scad file you want to import.
 -   It is not important which workbench is activated, the OpenSCAD workbench itself is only needed when applying special features to your model.

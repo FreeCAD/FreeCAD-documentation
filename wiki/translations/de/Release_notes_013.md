@@ -11,7 +11,7 @@
 -   **Color preferences** - **bevorzugte Farb-Einstellungen**: die guten alten grauen Oberflächen mit schwarzen Rändern aus der FreeCAD-Voreinstellung sind langweilig geworden? Nunmehr ist es möglich, diese Einstellungen in den Benutzer-Einstellungen (Display -\> Color / Anzeige -\> Farben) zu ändern, zusammen mit einigen anderen voreingestellten Farben.
 -   **Alignment** - **Ausrichtung**: zwei Oberflächen können mit diesem Werkzeug, das im Bearbeiten-Menü zu finden ist, unter Verwendung von bis zu drei Punkten zueinander ausgerichtet werden.
 
-## Arbeitsbereich Zeichnungsableitung {#arbeitsbereich_zeichnungsableitung}
+## Arbeitsbereich Zeichnungsableitung 
 
 -   **Clip feature** - **Schnitt - Werkzeug**: ein neues Objekt [Drawing Clip](Drawing_Clip.md) (Schnitt in Zeichnung) erlaubt, Objekt-Ansichten innerhalb rechteckiger Schnitte auf Zeichnungs-Seiten zu plazieren.
 -   **Editable titleblocks** - **bearbeitbare Überschriften** : beim Anlegen einer Zeichnungs-Vorlage [Drawing templates](Drawing_templates.md), ist es nun möglich, Text zu erstellen, der nachträglich geändert werden kann. Dieser Text ist dann direkt in FreeCAD änderbar.
@@ -21,7 +21,7 @@
 -   **DXF export** - **DXF-Ausgabe**: es ist nun möglich, eine Seitanansicht direkt als DXF-Datei auszugeben.
 -   Einige Fehler-Korrekturen erlauben nun das Verändern der Größe (Skalieren) beim Drucken von Seiten.
 
-## Arbeitsbereich parametrischer Entwurf {#arbeitsbereich_parametrischer_entwurf}
+## Arbeitsbereich parametrischer Entwurf 
 
 -   \'\'\'Punkt - Erzeugung \'\'\'
 
@@ -67,7 +67,7 @@ Geometrie-Elemente können mit einer rechteckigen Auswahl (Begrenzung) ausgewäh
     -   Wenn Geometrie erzeugt wird, werden Hilfe-Texte \"tool-tips\" in der Nähe des Cursers (Zeigers) angezeigt.
     -   **Sketch view** which sets the 3D view perpendicular to the sketch plane has now an icon in the Sketcher toolbar.
 
-## Modul freier Entwurf {#modul_freier_entwurf}
+## Modul freier Entwurf 
 
 -   **Zustand Aufgabe**: der Zustand \"Aufgabe-Ansicht\" des Arbeitsbereichs Entwurf ist nun die Voreinstellung.
 
@@ -103,7 +103,7 @@ Unterstützung für neue Elemente wie Ellipsen und abgerundete Rechtecke wurde h
 
 ![800px](images/013-draft-shape2dview.jpg)
 
-## Arbeitsbereich Architektur {#arbeitsbereich_architektur}
+## Arbeitsbereich Architektur 
 
 -   **Verbindung der Entwürfe**: Die Arbeitsbereiche Architaktur und freier Entwurf sind nun eng miteinander verbunden.
 
@@ -139,7 +139,7 @@ Der Arbeitsbereich Arch kann nun IfcOpenShell [IfcOpenShell](http://www.ifcopens
 
 -   **Arch-Objekte aus Netzen**: [Wände](Arch_Wall.md) and [Strukturen](Arch_Structure.md) können nun direkt aus Netzen erzeugt werden, vorausgesetzt, das Netz ist geschlossen, als Festkörper definiert und alle Kanten sind räumlich [manifold](http://doc.spatial.com/index.php/Manifold_and_Non-manifold_Objects). Das erlaubt die sehr schnelle Umwandlung von Geometrie, die von anderen Anwendungen wie [blender](http://www.blender.org) in gültige Arch-Objekte importiert wird.
 
-## Arbeitsbereich Part {#arbeitsbereich_part}
+## Arbeitsbereich Part 
 
 -   **Oberfläche verfeinern** ist ein neues Werkzeug, das Oberflächen nach einigen Operationen auf eine Fläche bereinigt. Das Werkzeug kann in den Benutzer-Einstellungen so eingestellt werden, dass es automatisch nach Booleschen Operationen aufgerufen wird
 
@@ -153,7 +153,7 @@ dieses Werkzeug ist in der Lage, einen komplexen Satz von Oberflächen oder Fest
 
 -   **Oberflächen-Assistent** und **Primitiv-Erzeugung** sind nun in der Werkzeugleiste Part für schnellen Zugriff verfügbar.
 
-## Arbeitsbereich Part Design {#arbeitsbereich_part_design}
+## Arbeitsbereich Part Design 
 
 -   **Aufdicken** und **Tasche** sind nun dank weiterer Parameter wie Dicke bis Nächstes/Letztes, bis zu Fläche, zwei Richtungen und symmetrisch zu Fläche leistungsfähiger.
 
@@ -167,12 +167,12 @@ dieses Werkzeug ist in der Lage, einen komplexen Satz von Oberflächen oder Fest
 
 -   *\' Ein Wellen-Assistent*\' hilft Ihnen, Wellen zu entwerfen.
 
-## Arbeitsbereich Schiffs-Entwurf {#arbeitsbereich_schiffs_entwurf}
+## Arbeitsbereich Schiffs-Entwurf 
 
 -   Neuer Arbeitsbereich Schiff
 -   New ship module
 
-## 3D Maus {#d_maus}
+## 3D Maus 
 
 -   Unterstützung für 3D Maus (Space-Ball und Space-Navigator) wurde der Windwos-Version zugefügt.
 
@@ -181,7 +181,7 @@ dieses Werkzeug ist in der Lage, einen komplexen Satz von Oberflächen oder Fest
 
 <div class="mw-translate-fuzzy">
 
-## Arbeitsbereich OpenSCAD {#arbeitsbereich_openscad}
+## Arbeitsbereich OpenSCAD 
 
 -   Dieser brandneue (experimentelle) Arbeitsbereich verschafft FreeCAD die Fähigkeit, OpenSCAD-Dateien zu importieren. Dieses Datei-Format ist sehr beliebt in der RepRap-Community und bei der digital designs sharing site (Webseite mit öffentlich verfügbaren 3D-Entwürfen) Thingiverse.
 

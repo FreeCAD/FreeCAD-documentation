@@ -19,15 +19,15 @@ Vedere anche la pagina [Importare Dati Airfoil ](Common_Airfoil_Data_Import/it.m
 
 <img alt="" src=images/Macro_Airfoil_Import_&_Scale_00.png  style="width:480px;">
 
-## Come utilizzare la Versione 1.5 {#come_utilizzare_la_versione_1.5}
+## Come utilizzare la Versione 1.5 
 
-### Selezionare il file. {#selezionare_il_file.}
+### Selezionare il file. 
 
 La Macro apre un eploratore di file che permette di selezionare il file di profilo **.dat** desiderato. Individuare il file di profilo alare, selezionarlo e premere **Open**.
 
 ![File browser window for importing .dat airfoil files](images/File_browser.png )
 
-### Immettere la lunghezza della corda {#immettere_la_lunghezza_della_corda}
+### Immettere la lunghezza della corda 
 
 Dopo aver selezionato il file di profilo alare, si apre la finestra per inserire la lunghezza di corda. Può essere inserita qualsiasi lunghezza, in millimetri. Alla conferma del valore, la Macro produce il contorno (DWire) seguendo i punti descritti nel file **.dat** del profilo alare precedentemente selezionato, secondo la scala che è stata immessa per la lunghezza della corda.
 
@@ -35,19 +35,19 @@ Dopo aver selezionato il file di profilo alare, si apre la finestra per inserire
 
 Ora il profilo alare, in scala corretta, dovrebbe essere pronto per essere utilizzato.
 
-## Come utilizzare la Versione 2 {#come_utilizzare_la_versione_2}
+## Come utilizzare la Versione 2 
 
 La selezione del file avviene come per la versione 1.5. Con la versione 2 si può scegliere se il contorno del profilo alare risultante deve essere una linea DWire o una BSpline. Come per la versione 1.5, inserire la lunghezza della corda desiderata e in più selezionare il tipo di contorno.
 
 ![Version 2 Airfoil Import and scale dialog with choice of DWire or BSpline](images/V2_scale.png )
 
-## La Macro {#la_macro}
+## La Macro 
 
-### Ultima versione {#ultima_versione}
+### Ultima versione 
 
 L\'ultima versione della macro si trova in [AirfoilImportAndScale.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/AirfoilImportAndScale.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](Addon_Manager/it.md).
 
-### Versione 2.1.2 {#versione_2.1.2}
+### Versione 2.1.2 
 
 ToolBar icon ![](images/Macro_Airfoil_Import_&_Scale.png )
 
@@ -206,7 +206,7 @@ AirfoilImporterAndScaler()
 </nowiki>
 }}
 
-### Version 1.5 {#version_1.5}
+### Version 1.5 
 
 **Macro\_Airfoil\_Import\_&\_Scale.FCMacro**
 
@@ -292,7 +292,7 @@ p()
 
 }}
 
-## Modificare la selezione predefinita {#modificare_la_selezione_predefinita}
+## Modificare la selezione predefinita 
 
 Per ottenere che di default tutti profili importati e in scala vengano creati con **BSplines** piuttosto che con **DWires**, basta modificare la Marco. Questo viene fatto modificando la seguente riga: {{ExampleCode|example=
 self.radio1.setChecked(True)
@@ -303,7 +303,7 @@ self.radio2.setChecked(True)
 }}
 Una nota su questo è inclusa nel testo della macro.
 
-## Version 2 {#version_2}
+## Version 2 
 
 
 {{VeryImportantMessage|'''Avvertenza - Usando questa Macro con versioni di FreeCAD inferiori a 0.14, la revisione 3077 non produrrà i risultati attesi quando si usa l'opzione BSpline e può causare arresti anomali di FreeCAD e perdita di dati non salvati!'''}}
@@ -417,7 +417,7 @@ p()
 </nowiki>
 }}
 
-### Version 2.1 {#version_2.1}
+### Version 2.1 
 
 Updated by mangtronix to use PySide instead of PyQt (used in older versions of FreeCAD)
 

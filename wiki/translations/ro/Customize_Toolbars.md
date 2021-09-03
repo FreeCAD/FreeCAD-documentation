@@ -24,7 +24,7 @@ Tutorialul acesta vă arată personalizarea barelor de instrumente. Uneltele (in
 
 </div>
 
--   Click {{MenuCommand|Main Menu → Tools → Customize}},
+-   Click **Main Menu → Tools → Customize**,
 
 <img alt="Customize" src=images/CustomizeToolBar_01.png  style="width:640px;"> 
 

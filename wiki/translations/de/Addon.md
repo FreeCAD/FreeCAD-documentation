@@ -4,7 +4,7 @@
 
 In FreeCAD und dieser Dokumentation ist eine [Erweiterung](addon/de.md) eine beliebige Komponente, die nicht Teil der Basisinstallation ist, die aber dem System durch bestimmte Methoden hinzugefügt werden kann.
 
-## Verschiedene Typen {#verschiedene_typen}
+## Verschiedene Typen 
 
 Es gibt zwei Arten von Erweiterungen:
 

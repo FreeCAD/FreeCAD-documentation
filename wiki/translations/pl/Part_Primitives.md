@@ -20,7 +20,7 @@ Aby stworzyć bryłę pierwotną:
 
 \#\* naciśnij przycisk na pasku narzędzi **<img src="images/Part_Primitives.svg" width=24px> '''Tworzenie pierwotnych brył parametrycznych'''**.
 
-\#\* wybierz z paska menu polecenie {{MenuCommand|Część → Utwórz bryły pierwotne ...}}.
+\#\* wybierz z paska menu polecenie **Część → Utwórz bryły pierwotne ...**.
 
 1.  W wyświetlonym oknie dialogowym wybierz typ bryły, ustaw jej parametry i położenie, a następnie naciśnij przycisk **Utwórz**.
 
@@ -39,7 +39,7 @@ Używając [edytora właściwości](Property_editor/pl.md):
 1.  Zaznacz bryłę pierwotną w [widoku drzewa](tree_view/pl.md).
 2.  Edytuj jej właściwości w tabeli Właściwości.
 
-## Geometryczne elementy pierwotne {#geometryczne_elementy_pierwotne}
+## Geometryczne elementy pierwotne 
 
 Można utworzyć następujące bryły pierwotne::
 
@@ -60,7 +60,7 @@ Można utworzyć następujące bryły pierwotne::
 :   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Line](Part_Line/pl.md): tworzy odcinek linii prostej *(krawędź)*.
 :   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Wielokąt foremny](Part_RegularPolygon/pl.md): tworzy wielokąt foremny.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Zobacz również:**

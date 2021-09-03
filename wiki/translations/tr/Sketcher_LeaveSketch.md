@@ -17,7 +17,7 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl Kullanılır {#nasıl_kullanılır}
+## Nasıl Kullanılır 
 
 
 </div>

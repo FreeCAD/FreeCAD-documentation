@@ -23,8 +23,8 @@ Erzeugt eine Anordnung ausgewählter Skizziererelemente.
 2.  Klicke auf **<img src=images/Sketcher_RectangularArray.svg style="width:16px"> [Rechteckige Anordnung](Sketcher_RectangularArray/de.md)** oder wähle
 
 
-{{MenuCommand|Skizze → Skizzierer Werkzeuge → 
-<img src=images/Sketcher_RectangularArray.svg style="width:16px"> Rechteckige Anordnung}}
+**Skizze → Skizzierer Werkzeuge → 
+<img src=images/Sketcher_RectangularArray.svg style="width:16px"> Rechteckige Anordnung**
 
 aus dem oberen Menü.
 

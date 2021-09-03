@@ -15,7 +15,7 @@ FreeCAD jest rozszerzalny o kod [Python](Python.md), który jest uruchamiany bez
 
 Jeśli chcesz dodać treść do tych stron, poproś o konto Wiki z uprawnieniami edytora [na forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), i przeczytaj [WikiPages](WikiPages.md), aby uzyskać ogólne wytyczne, których powinieneś przestrzegać. Aby dowiedzieć się więcej o innych sposobach pomocy w projekcie, zobacz stronę [Pomóż w rozwoju FreeCAD](Help_FreeCAD/pl.md).
 
-## Dostosowanie FreeCAD {#dostosowanie_freecad}
+## Dostosowanie FreeCAD 
 
 -   [Dostosowywanie interfejsu](Interface_Customization.md): zaczynając od początku: Paski narzędzi i skróty,
 -   [Praca z makrami](Macros.md): łatwe nagrywanie często powtarzanych zadań lub kodu Pythona,
@@ -23,9 +23,9 @@ Jeśli chcesz dodać treść do tych stron, poproś o konto Wiki z uprawnieniami
 -   [Dostosuj paski narzędzi](Customize_Toolbars.md),
 -   [Instalowanie większej liczby Środowisk pracy](Installing_more_workbenches.md),
 
-## Tworzenie skryptów dla FreeCAD {#tworzenie_skryptów_dla_freecad}
+## Tworzenie skryptów dla FreeCAD 
 
-### Informacje ogólne {#informacje_ogólne}
+### Informacje ogólne 
 
 -   [Wprowadzenie do Python](Introduction_to_Python/pl.md) - Zobacz także inne samouczki dotyczące języka Python na dole tej strony,
 -   [FreeCAD poradnik tworzenia skryptów](Python_scripting_tutorial/pl.md) - Ogólne spojrzenie na pisanie skryptów Pythona w programie FreeCAD,
@@ -41,28 +41,28 @@ Funkcjonalność FreeCAD została rozdzielona w Modułach, które zajmują się 
 -   [Moduły wbudowane](Builtin_modules.md) są głównymi modułami FreeCAD. Zawierają one narzędzia do manipulowania ogólnymi konfiguracjami FreeCAD, dokumentami i ich zawartością.
 -   [Tworzenie Środowiska pracy](Workbench_creation.md), pokaże Ci jak stworzyć własne stanowisko pracy.
 
-#### Praca z siatkami {#praca_z_siatkami}
+#### Praca z siatkami 
 
 -   [Skrypty siatek](Mesh_Scripting/pl.md): Jak wchodzić w interakcje z [Modułem siatek](Mesh_Workbench/pl.md).
 
-#### Praca przy użyciu środowiska Część {#praca_przy_użyciu_środowiska_część}
+#### Praca przy użyciu środowiska Część 
 
 -   Środowisko pracy [Część](Part_Workbench/pl.md): Jak narzędzia i struktura [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE) są używane w programie FreeCAD.
 -   [Tworzenie skryptów danych topologicznych](Topological_data_scripting/pl.md): Jak korzystać z Modułu Part.
 -   [PythonOCC](PythonOCC/pl.md): Jak wyzwolić całą moc Open CASCADE.
 -   [Siatka na Część](Mesh_to_Part/pl.md): Konwersja między typami obiektów.
 
-#### Dostęp do scenografii Coin {#dostęp_do_scenografii_coin}
+#### Dostęp do scenografii Coin 
 
 -   [Scenografia Coin/Inventor](Scenegraph/pl.md): Jak działa reprezentacja sceny FreeCAD.
 -   [Pivy](Pivy/pl.md): Jak uzyskać dostęp do scenografii i modyfikować ją.
 
-### Sterowanie interfejsem Qt {#sterowanie_interfejsem_qt}
+### Sterowanie interfejsem Qt 
 
 -   [PySide](PySide/pl.md) Jak uzyskać dostęp do interfejsu i zmodyfikować zawartość tego interfejsu.
 -   [Używanie GUI programu FreeCAD](Embedding_FreeCADGui/pl.md) w innej aplikacji Qt z PyQt.
 
-### Praca z obiektami parametrycznymi {#praca_z_obiektami_parametrycznymi}
+### Praca z obiektami parametrycznymi 
 
 -   [Obiekty skryptowe](Scripted_objects.md): Jak zrobić w FreeCAD 100% obiektów napisanych w Pythonie.
     -   [Obiekty utworzone skryptami z załącznikiem](Scripted_objects_with_attachment.md): Jak sprawić, by obiekty utworzone skryptami mogły być dołączane do innych obiektów w programie FreeCAD.
@@ -78,13 +78,13 @@ Funkcjonalność FreeCAD została rozdzielona w Modułach, które zajmują się 
 -   Środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md): dodaje podstawowe funkcje rysunkowe 2D do FreeCAD. Jest on napisany w całości w Pythonie, więc może być dobrym przykładem, jeśli chcesz napisać swoje własne moduły.
 -   [Biblioteka matematyki wektorowej FreeCAD](FreeCAD_vector_math_library/pl.md): kilka przydatnych funkcji do manipulowania wektorami we FreeCAD. Biblioteka ta jest również dołączona do modułu Draft.
 
-## Funkcje API {#funkcje_api}
+## Funkcje API 
 
 Pełna dokumentacja API FreeCAD znajduje się na stronie <http://www.freecadweb.org/api/> . Zawiera ona zarówno opis dla C++ jak i Python API, i nie jest jeszcze do końca dobrze sformatowana, co może być mylące przy szukaniu kodu tylko dla Pythona. Wersje łatwiejsze do przeglądania można znaleźć [tutaj](:Category:API.md). Zauważ, że może ona być niekompletna, ponieważ jest aktualizowana ręcznie. Aby uzyskać bardziej dokładne informacje, przeglądaj moduły bezpośrednio z konsoli Python we FreeCAD.
 
 Temat powiązany: [Udostępnianie języka C++ Pythonowi](Exposing_C%2B%2B_to_Python.md)
 
-## Zaawansowana modyfikacja {#zaawansowana_modyfikacja}
+## Zaawansowana modyfikacja 
 
 -   [Uruchomienie i konfiguracja](Start_up_and_Configuration.md): Uruchomienie i opcje wiersza poleceń.
 -   [Instalacja w systemie Windows](Install_on_Windows.md): Użycie instalatora Windows.
@@ -92,7 +92,7 @@ Temat powiązany: [Udostępnianie języka C++ Pythonowi](Exposing_C%2B%2B_to_Pyt
 -   [Kształtowanie marki](Branding.md): Proste modyfikacje, które możesz zrobić w kodzie źródłowym, aby zmienić niektóre cechy FreeCAD.
 -   [Dodatkowe moduły Python](Extra_python_modules/pl.md): Rozszerz interpreter FreeCAD Python o te potężne moduły!
 
-## Poradniki Python {#poradniki_python}
+## Poradniki Python 
 
 Są to dobre ogólne samouczki, nie specyficzne dla FreeCAD, które mogą cię zainteresować, jeśli jesteś zupełnie nowy w Pythonie.
 
@@ -122,7 +122,7 @@ Poniższe dwa odnośniki są specyficzne dla PyQt *(nie PySide)*, ale mogą ofer
 -   [Programowanie wysokiego poziomu, grafiki 3D w Pythonie](http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/) : Przykład Pivy z Pycon 2004.
 -   [Introducing Pivy into studierstube](https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [*(Mirror)*](https://www.researchgate.net/publication./228737136_Integrating_Pivy_into_Studierstube_42) : Artykuł, który tak naprawdę nie jest samouczkiem, ale dobrze ilustruje, jak działa Pivy *(wymaga konta akademickiego)*.
 
-## Projekty społeczności {#projekty_społeczności}
+## Projekty społeczności 
 
 Na [Portalu Społeczności](FreeCAD_Community_Portal.md) możesz znaleźć inne projekty oparte na FreeCAD prowadzone przez społeczność użytkowników FreeCAD. Jeśli rozpoczynasz nowy projekt FreeCAD, upewnij się, że możesz go tam wymienić! Mamy także stronę z rzeczami, które możesz zrobić, jeśli chciałbyś [Pomóc FreeCAD](Help_FreeCAD.md).
 

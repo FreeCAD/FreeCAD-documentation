@@ -21,15 +21,15 @@ Está mantenido por la comunidad de usuarios de FreeCAD y no forma parte del pro
 
 ## Instalación
 
-### Instalación automática {#instalación_automática}
+### Instalación automática 
 
 Este ambiente de trabajo se puede instalar desde el [Gestor de complementos](Std_AddonMgr/es.md).
 
-### Para GitHub {#para_github}
+### Para GitHub 
 
 La biblioteca es un simple contenedor de archivos SVG. Puedes descargarla en cualquier lugar e importar sus archivos en tus proyectos de FreeCAD. Dentro de la biblioteca, también hay una macro de FreeCAD (SymbolsLibrary.FCMacro) que puedes editar (debes cambiar la ruta a tu Biblioteca) y colocarla en tu carpeta de macros de FreeCAD. Esa macro crea una ventana del navegador dentro de FreeCAD, desde la que puedes añadir fácilmente los símbolos a una página de dibujo seleccionada (o, si no hay ninguna seleccionada, la primera que se encuentre en el documento activo) haciendo doble clic en ellos.
 
-## Enlaces a la biblioteca de símbolos {#enlaces_a_la_biblioteca_de_símbolos}
+## Enlaces a la biblioteca de símbolos 
 
 -   Wiki Ambientes de trabajo:
 -   Wiki FreeCAD:
@@ -39,7 +39,7 @@ La biblioteca es un simple contenedor de archivos SVG. Puedes descargarla en cua
 -   Archivos:
 -   Informe de errores: Por favor, informe de errores en [Foro de FreeCAD](http://forum.freecadweb.org/index.php) o <https://github.com/FreeCAD/FreeCAD-symbols/issues>
 
-## Otros enlaces útiles {#otros_enlaces_útiles}
+## Otros enlaces útiles 
 
 
 <div class="mw-translate-fuzzy">

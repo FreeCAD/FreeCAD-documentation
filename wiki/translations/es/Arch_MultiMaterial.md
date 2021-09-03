@@ -32,7 +32,7 @@ No todos los objetos Arch actualmente pueden hacer uso de múltiples materiales,
 
 </div>
 
-## Como utilizar {#como_utilizar}
+## Como utilizar 
 
 
 <div class="mw-translate-fuzzy">
@@ -66,7 +66,7 @@ Al crear o editar un material múltiple haciendo doble clic en el árbol, están
 
 </div>
 
-## Relation to IFC {#relation_to_ifc}
+## Relation to IFC 
 
 This roughly corresponds to a combination of [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) and [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 

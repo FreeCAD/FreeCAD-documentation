@@ -12,7 +12,7 @@ In FreeCAD le proprietà svolgono un ruolo molto importante. Dato che gli oggett
 
 </div>
 
-## Tutti i tipi di proprietà {#tutti_i_tipi_di_proprietà}
+## Tutti i tipi di proprietà 
 
 In FreeCAD gli oggetti [script personalizzati](scripted_objects/it.md) possono utilizzare uno qualsiasi dei tipi di proprietà definiti nel sistema di base: 
 ```python
@@ -100,7 +100,7 @@ Tuttavia, le proprietà **View** possono anche essere assegnate usando il metodo
 obj.ViewObject.addProperty("App::PropertyBool", "SuperVisibility", "Base", "Make the object glow")
 ```
 
-## Source code {#source_code}
+## Source code 
 
 In the source code, properties are located in various {{FileName|src/App/Property*}} files.
 

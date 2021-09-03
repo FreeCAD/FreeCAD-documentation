@@ -25,7 +25,7 @@ Gli ingranaggi di distribuzione sono collegati a una cinghia o catena di distrib
 1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
 2.  Invoke the command several way:
     -   Press the <img alt="" src=images/FCGear_TimingGear.svg  style="width:22px;"> [Create a Timing gear](FCGear_TimingGear.md) button in the tool bar.
-    -   Using the {{MenuCommand|Gear Menu → Timing gear}}.
+    -   Using the **Gear Menu → Timing gear**.
 3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
 
 ## Properties
@@ -77,7 +77,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 Limitations are not known yet.
 
-## Useful formulas {#useful_formulas}
+## Useful formulas 
 
 -    **addendum diameter**= **pitch diameter** + 2 \* **module**
 

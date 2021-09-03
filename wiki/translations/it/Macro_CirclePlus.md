@@ -78,7 +78,7 @@ Copiare il codice e incollarlo nella directory delle macro
 Scaricare l\'icona <img alt="" src=images/Macro_CirclePlus.png  style="width:64px;"> e inserirla nella stessa directory della macro (non cambiare il suo nome)
 {{CodeDownload|https://gist.github.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7|Ultima versione di Macro_CirclePlus e le icone alla fine della pagina}}
 
-## Promemoria sulle circonferenze {#promemoria_sulle_circonferenze}
+## Promemoria sulle circonferenze 
 
 **Esempi di codice**
 

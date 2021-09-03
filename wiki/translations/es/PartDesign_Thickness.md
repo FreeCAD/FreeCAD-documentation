@@ -63,7 +63,7 @@ Seguidamente:
 
 Resultado: ![](images/Brga-spessore.png )
 
-## Errores conocidos {#errores_conocidos}
+## Errores conocidos 
 
 -   BRep\_API: Operación no realizada.
 -   BRep\_Tool:: Ningún parámetro sobre el borde.

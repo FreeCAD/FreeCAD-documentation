@@ -4,7 +4,7 @@
 
 Il s\'agit d\'un exemple de modification de l\'icône d\'un [viewprovider](Viewprovider/fr.md) personnalisé qui est normalement ajouté aux [objets définis par script](scripted_objects/fr.md).
 
-## Icône personnalisée dans la vue combinée {#icône_personnalisée_dans_la_vue_combinée}
+## Icône personnalisée dans la vue combinée 
 
 Voici un exemple pour créer un objet avec des propriétés et une icône personnalisées dans la vue combinée (ComboView)
 

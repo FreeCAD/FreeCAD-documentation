@@ -13,7 +13,7 @@ Esta herramienta permite crear un perfil 2D de una rueda cadena. Se puede acolch
 
 ## Uso
 
-1.  Ir al menú {{MenuCommand|DiseñoPieza → <img src=images/PartDesign_Sprocket.svg style="width:24px"> Rueda cadena...}}.
+1.  Ir al menú **DiseñoPieza → <img src=images/PartDesign_Sprocket.svg style="width:24px"> Rueda cadena...**.
 2.  Establezca la **Número de dientes** y la **Referencia de la rueda cadena**.
 3.  Haga clic en **Aceptar**
 4.  Si la rueda cadena se crea fuera del cuerpo activo, arrástrela y suéltela en un cuerpo para aplicar otras características como el acolchado.

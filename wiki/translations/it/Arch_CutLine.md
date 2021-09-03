@@ -28,7 +28,7 @@ Lo strumento [Taglia con una linea](Arch_CutLine/it.md) consente di tagliare un 
 1.  Selezionare l\'oggetto da tagliare nella [vista ad albero](tree_view/it.md) o nella [vista 3D](3D_view/it.md).
 2.  Quindi selezionare il bordo da utilizzare per tagliare l\'oggetto, ad esempio una [polilinea di Draft](Draft_Wire/it.md). Questo oggetto deve essere selezionato solo nella [Vista 3D](3D_view/it.md).
 3.  Premere il pulsante **<img src="images/Arch_CutLine.svg" width=16px> [Taglia con una linea](Arch_CutLine/it.md)**.
-4.  Scegliere {{MenuCommand|Dietro}} o {{MenuCommand|Davanti}} per indicare quale parte del solido deve essere rimossa.
+4.  Scegliere **Dietro** o **Davanti** per indicare quale parte del solido deve essere rimossa.
 5.  Cliccare il pulsante **OK**.
 
 

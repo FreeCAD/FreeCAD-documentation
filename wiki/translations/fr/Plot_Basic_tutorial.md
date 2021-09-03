@@ -30,11 +30,11 @@ Dans l\'image précédente, vous pouvez voir le résultat que nous obtiendrons a
 -   Comment éditer les styles des séries.
 -   Comment sauvegarder votre tracé.
 
-## Créer les données Plot {#créer_les_données_plot}
+## Créer les données Plot 
 
 Pour tracer les données, vous n\'avez pas besoin de créer un nouveau document FreeCAD, il faut simplement aller dans la console **Python**, et, entrer les commandes, ou utilisez les [macros](Macros/fr.md).
 
-### Création d\'un document Plot {#création_dun_document_plot}
+### Création d\'un document Plot 
 
 Les documents **Plot**, sont des documents spéciaux, qui peuvent être créés manuellement, pour y ajouter des données, ou le module peut en crée un automatiquement, lorsque vous démarrez le traçage de données.
 
@@ -53,7 +53,7 @@ Plot.figure("TrigonometricTest")
 
 Cela va créer un nouvel onglet sur la fenêtre principale, appelée \'\'\'TrigonometricTest \'\'\'. Le nouveau document créé, a déjà un ensemble d\'axes. Chaque document **Plot** a au moins un jeu d\'axes, qui peut être supprimé, sans utiliser pleinement **matplotlib**.
 
-### Fonctions de dessin {#fonctions_de_dessin}
+### Fonctions de dessin 
 
 Vous pouvez commencer à travailler ici car la commande de tracé démarre un nouveau document, mais toutes les commandes de tracé que vous exécutez ajoutent des séries au tracé créé jusqu\'à ce que vous ne créiez pas de nouveau document, il est donc généralement préférable de contrôler les documents de tracé ouverts. La première chose que nous devons faire est de créer les données pour les fonctions sinus et cosinus que nous voulons tracer:
 
@@ -82,9 +82,9 @@ Plot.plot(t,c)
 
 Ces commandes vont tracer nos fonctions. La commande **Plot** permet d\'utiliser une **Series** d\'étiquettes, comme arguments, mais ultérieurement, nous allons modifier les données à l\'aide du module **Plot**, donc, nous ne transmettrons pas encore ces données.
 
-## Configurez **Plot** {#configurez_plot}
+## Configurez **Plot** 
 
-### Afficher la grille, et, les légendes {#afficher_la_grille_et_les_légendes}
+### Afficher la grille, et, les légendes 
 
 Pour modifier l\'outil **[module Plot](Plot_Module/fr.md)** de FreeCAD, allez dans le menu **Affichage -\> Workbench**. Lorsque vous avez activé, le module **Plot** utilisez l\'outil **Grid** afin de l\'afficher.
 
@@ -112,7 +112,7 @@ Afficher/masquer l\'icône de l\'outil légende.
 
 Comme vous pouvez le voir, la légende est vide car nous n\'avons pas encore défini d\'étiquette de série. Dans [Atelier Plot](Plot_Module/fr.md), les séries sans étiquette ne sont pas représentées dans la légende afin de vous permettre de tracer des lignes auxiliaires.
 
-### Définir les étiquettes des **Series** {#définir_les_étiquettes_des_series}
+### Définir les étiquettes des **Series** 
 
 Avec l\'outil **Series**, vous pouvez modifier certains paramètres de la **Series**.
 
@@ -144,11 +144,11 @@ Donnez l\'étiquette suivante à la deuxième **Series** :
 $y = \cos \left( 2 \pi t \right)$
 ```
 
-### Définition d\'un style à la **Series** {#définition_dun_style_à_la_series}
+### Définition d\'un style à la **Series** 
 
 L\'outils **Series**, vous permet de définir un grand nombre de propriétés à la **Series**. Essayez de définir les propriétés affichées dans l\'image exemple, modifiez les couleurs de la **Series**, et, le style de dessin en une seconde.
 
-### Définition des **Labels** des axes {#définition_des_labels_des_axes}
+### Définition des **Labels** des axes 
 
 Avec l\'outil **Labels**, vous pouvez définir des labels associées à tous les axes créés.
 
@@ -170,7 +170,7 @@ Définir ces données :
 
 Modifiez également la taille de chacun d\'eux à 20.
 
-## Sauvez **Plot** {#sauvez_plot}
+## Sauvez **Plot** 
 
 Sauvegardes avec l\'outil **Plot**, vous pouvez enregistrer votre **Plot**, dans un fichier image, dans plusieurs formats différents.
 

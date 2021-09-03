@@ -70,7 +70,7 @@ print viewprovider.toString()
 
 ``` А также мы обладаем модулем python открывает полный доступ к управлению чем угодно в Coin3D, такому как ваше дерево сцен в FreeCAD. Также читайте об этом на странице [Pivy](Pivy/ru.md).
 
-## Coding examples {#coding_examples}
+## Coding examples 
 
 See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>.
 

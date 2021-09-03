@@ -19,7 +19,7 @@ L\'outil <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24
 <img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;"> 
 *Mesurer l'angle entre deux lignes droites à l'aide de trois sommets; le deuxième sommet devrait être le sommet de l'angle*
 
-## Comment faire {#comment_faire}
+## Comment faire 
 
 1.  Sélectionnez les points ou les arêtes qui définissent votre mesure.
 2.  Appuyez sur le bouton **<img src="images/TechDraw_Dimension_Angle3Pt.png" width=16px> [Insérer une cote angulaire](TechDraw_Dimension_Angle3Pt/fr.md)**.

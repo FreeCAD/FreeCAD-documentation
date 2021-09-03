@@ -14,7 +14,7 @@ Das Beschränken ist mit den meisten [Entwurf](Draft_Workbench/de.md)- und [Arch
 
 ![](images/Draft_Constrain_taskpanel_example.png ) *Während der Mauszeiger beschränkt ist, sperrt das Aufgabenfeld die Werte, die nicht geändert werden*
 
-## Anwendung horizontaler und vertikaler Beschränkungen {#anwendung_horizontaler_und_vertikaler_beschränkungen}
+## Anwendung horizontaler und vertikaler Beschränkungen 
 
 1.  Wähle einen [Entwurf](Draft_Workbench/de.md) oder [Architektur](Arch_Workbench/de.md) Befehl, um deine Geometrie zu erstellen.
 2.  Nimm einen ersten Punkt. Ein vorheriger Punkt ist erforderlich.
@@ -27,7 +27,7 @@ Das Beschränken ist mit den meisten [Entwurf](Draft_Workbench/de.md)- und [Arch
 7.  Wenn der Befehl noch aktiv ist: Lasse wahlweise **Shift** los, um die Beschränkung zu deaktivieren.
 8.  Lasse **Shift** immer los, wenn der Befehl beendet ist.
 
-## Anwendung X, Y und Z Beschränkungen {#anwendung_x_y_und_z_beschränkungen}
+## Anwendung X, Y und Z Beschränkungen 
 
 1.  Wähle einen [Entwurf](Draft_Workbench/de.md) oder [Architektur](Arch_Workbench/de.md) Befehl, um deine Geometrie zu erstellen.
 2.  Nimm einen ersten Punkt. Ein vorheriger Punkt ist erforderlich.
@@ -48,8 +48,8 @@ Das Beschränken ist mit den meisten [Entwurf](Draft_Workbench/de.md)- und [Arch
 
 Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
--   Die Standardtaste {{MenuCommand|Beschränken mod}}, **Shift**, kann geändert werden: {{MenuCommand|Bearbeiten → Einstellungen... → Entwurf → Raster und Fang → Fangen → Beschränken mod}}.
--   Die Tastaturkürzel {{MenuCommand|X}}, {{MenuCommand|Y}} und {{MenuCommand|Z}} können geändert werden: {{MenuCommand|Bearbeiten → Einstellungen... → Entwurf → Benutzeroberflächeneinstellungen → Befehlsinterne Tastaturkürzel}}.
+-   Die Standardtaste **Beschränken mod**, **Shift**, kann geändert werden: **Bearbeiten → Einstellungen... → Entwurf → Raster und Fang → Fangen → Beschränken mod**.
+-   Die Tastaturkürzel **X**, **Y** und **Z** können geändert werden: **Bearbeiten → Einstellungen... → Entwurf → Benutzeroberflächeneinstellungen → Befehlsinterne Tastaturkürzel**.
 
 
 

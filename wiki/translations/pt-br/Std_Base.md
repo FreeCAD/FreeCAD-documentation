@@ -22,7 +22,7 @@ A Base Padrão não é uma bancada de trabalho, mas sim uma categoria de comando
 
 A maioria das ferramentas **Base Padrão** podem ser acessadas a partir do [menu padrão](Standard_Menu/pt-br.md). Aqueles que estão disponíveis apenas por meio de uma barra de ferramentas ou menu de contexto estão listados em [Ferramentas adicionais](#Additional_tools.md).
 
-### Ferramentas do menu padrão {#ferramentas_do_menu_padrão}
+### Ferramentas do menu padrão 
 
 O menu padrão é composto de 7 sub-menus. Cada sub-menu tem uma página dedicada. Basta clicar em qualquer um dos nomes abaixo.
 
@@ -44,7 +44,7 @@ O menu padrão é composto de 7 sub-menus. Cada sub-menu tem uma página dedicad
 [Ajuda](Std_Help_Menu/pt-br.md)
 }}
 
-### Ferramentas adicionais {#ferramentas_adicionais}
+### Ferramentas adicionais 
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std Part](Std_Part/pt-br.md): Cria uma nova peça e a torna ativa.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std Group](Std_Group/pt-br.md): Cria um novo grupo.

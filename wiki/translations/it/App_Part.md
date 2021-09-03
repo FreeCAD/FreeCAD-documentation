@@ -6,7 +6,7 @@
 
 Un oggetto [App Part](App_Part/it.md), o formalmente un `App::Part`, è un elemento che consente di raggruppare degli oggetti nello spazio 3D.
 
-È stato sviluppato per essere utilizzato negli assiemi, in quanto ha una {{MenuCommand|Origin}} che funge da riferimento posizionale per gli oggetti raggruppati.
+È stato sviluppato per essere utilizzato negli assiemi, in quanto ha una **Origin** che funge da riferimento posizionale per gli oggetti raggruppati.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

@@ -11,19 +11,19 @@ Attualmente, in FreeCAD sono rappresentati solo due componenti dell\'ingegneria 
 
 Gli strumenti Armatura attualmente sono parte dell\'ambiente [Architettura](Arch_Workbench/it.md)
 
-## Discussioni nel forum {#discussioni_nel_forum}
+## Discussioni nel forum 
 
 -   Civil engineering feature implementation (Transportation Engineering) [thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=22277)
 -   Civil Engineering Design functions [thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=6973)
 -   Thread tracking FreeCAD & QGIS integration [thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=22390)
 
-## Da fare {#da_fare}
+## Da fare 
 
 -   Screenshots
 -   Roadmap (pun not intended)
 -   Spruce up this wiki page
 
-## Link correlati {#link_correlati}
+## Link correlati 
 
 -   [Ambienti aggiuntivi](External_workbenches/it.md)
 -   [Ambienti](Workbenches/it.md)

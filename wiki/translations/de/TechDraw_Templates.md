@@ -26,7 +26,7 @@ Die Vorlagen sind [SVG](SVG.md)-Dateien, die außerhalb von FreeCAD erstellt und
 
 -    **Vorlage**: Eine Referenz auf die Kopie der ursprünglichen Vorlagendatei, die in dieser \*.FCSTD Datei eingebunden ist. Außerdem kann hier ein Dateipfad zu einem Vorlagenordner ausgewählt werden. Dazu auf das Dateiauswahl-Zeichen **\[\...\]** klicken, um zu einer anderen Vorlage zu wechseln.
 
-## Ändern der Vorlagendatei {#ändern_der_vorlagendatei}
+## Ändern der Vorlagendatei 
 
 Um die Vorlage einer Zeichnung zu ändern
 
@@ -40,7 +40,7 @@ Die neue Datei wird direkt geöffnet.
 
 Wenn du eine geänderte Vorlagendatei aktualisieren möchtest, beachte, dass du eine andere Datei laden musst, bevor du die gleiche Datei erneut auswählen kannst. Dies liegt daran, dass die Auswahl der gleichen Datei ignoriert wird.
 
-## Benutzerdefinierte Vorlagen {#benutzerdefinierte_vorlagen}
+## Benutzerdefinierte Vorlagen 
 
 Eine begrenzte Anzahl vorformatierter Vorlagen in verschiedenen Standardseitengrößen sind in FreeCAD enthalten. Diese sind zu finden in
 

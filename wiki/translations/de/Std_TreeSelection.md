@@ -18,9 +18,9 @@ Falls der Baumansicht [Sync-Auswahl](Std_TreeSyncSelection/de.md)-Modus ausgesch
 
 1.  Wähle ein oder mehrere Objekte in einer 3D-Ansicht.
 2.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Klicke auf den schwarzen Pfeil-nach-unten rechts neben der **<img src="images/Std_TreeSyncView.svg" width=16px>**-Schaltfläche und wähle die {{MenuCommand|<img src="images/Std_TreeSelection.svg" width=16px> Gehe zu Selektion}}-Option aus dem Flyout. Hinweis: Das Schaltflächensymbol ändert sich abhängig von der gewählten Option.
-    -   Wähle die {{MenuCommand|Ansicht → BaumAnsicht-Aktionen → <img src="images/Std_TreeSelection.svg" width=16px> Gehe zu Selektion}}-Option aus dem Menü.
-    -   Wähle die {{MenuCommand|<img src="images/Std_TreeSelection.svg" width=16px> Gehe zu Selektion}}-Option aus dem 3D-Ansicht-Kontext-Menü.
+    -   Klicke auf den schwarzen Pfeil-nach-unten rechts neben der **<img src="images/Std_TreeSyncView.svg" width=16px>**-Schaltfläche und wähle die **<img src="images/Std_TreeSelection.svg" width=16px> Gehe zu Selektion**-Option aus dem Flyout. Hinweis: Das Schaltflächensymbol ändert sich abhängig von der gewählten Option.
+    -   Wähle die **Ansicht → BaumAnsicht-Aktionen → <img src="images/Std_TreeSelection.svg" width=16px> Gehe zu Selektion**-Option aus dem Menü.
+    -   Wähle die **<img src="images/Std_TreeSelection.svg" width=16px> Gehe zu Selektion**-Option aus dem 3D-Ansicht-Kontext-Menü.
     -   Benutze den Tastaturkurzbefehl: **T**, dann **G**.
 
 

@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Kontinuierliche Integration {#kontinuierliche_integration}
+## Kontinuierliche Integration 
 
 Aktuell stößt das FreeCAD-Repository auf GitHub einen Build auf den beiden unten genannten [CI](https://de.wikipedia.org/wiki/Kontinuierliche_Integration)-Systemen an. Durch diese sind plattformübergreifend praktisch alle wichtigen Betriebssysteme (Linux, MacOSX und Windows) abgedeckt. CIs können auch für [Erprobung](Testing/de.md) verwendet werden.
 
@@ -22,7 +22,7 @@ Aktuell stößt das FreeCAD-Repository auf GitHub einen Build auf den beiden unt
 
 \- Durch Hinzufügen von [skip ci] oder [ci skip] zu einem git-Commit wird ein CI-Build abgebrochen.
 
-### Relevante Verweise {#relevante_verweise}
+### Relevante Verweise 
 
 -   [LGTM](LGTM.md)
 

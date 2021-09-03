@@ -33,7 +33,7 @@ Dessa sidor är i ett tidigt utvecklingsstadie. Om du inte kan hitta den informa
 
 </div>
 
-## Anpassa FreeCAD {#anpassa_freecad}
+## Anpassa FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -44,7 +44,7 @@ Dessa sidor är i ett tidigt utvecklingsstadie. Om du inte kan hitta den informa
 
 </div>
 
-## Skriptning i FreeCAD {#skriptning_i_freecad}
+## Skriptning i FreeCAD 
 
 ### General
 
@@ -70,7 +70,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 -   The [Builtin modules](Builtin_modules.md) are the principal FreeCAD modules. They contain tools for manipulating general FreeCAD configurations, documents and their contents.
 -   [Workbench creation](Workbench_creation.md) shows you how to create your own workbench
 
-#### Working with Meshes {#working_with_meshes}
+#### Working with Meshes 
 
 
 <div class="mw-translate-fuzzy">
@@ -82,7 +82,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 </div>
 
-#### Working with Parts {#working_with_parts}
+#### Working with Parts 
 
 
 <div class="mw-translate-fuzzy">
@@ -97,7 +97,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 </div>
 
-#### Accessing the Coin scenegraph {#accessing_the_coin_scenegraph}
+#### Accessing the Coin scenegraph 
 
 
 <div class="mw-translate-fuzzy">
@@ -110,7 +110,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 </div>
 
-### Controlling the Qt interface {#controlling_the_qt_interface}
+### Controlling the Qt interface 
 
 
 <div class="mw-translate-fuzzy">
@@ -156,7 +156,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 </div>
 
-## API funktioner {#api_funktioner}
+## API funktioner 
 
 
 <div class="mw-translate-fuzzy">
@@ -168,7 +168,7 @@ Den kompletta API beskrivningen hittas [här](:Category:API/sv.md). Notera att d
 
 Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
-## Avancerade ändringar {#avancerade_ändringar}
+## Avancerade ändringar 
 
 
 <div class="mw-translate-fuzzy">
@@ -182,7 +182,7 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 </div>
 
-## Python övningar {#python_övningar}
+## Python övningar 
 
 Dessa är bra allmänna övningar, inte specifika för FreeCAD, som kan vara intressanta för dig om du är helt ny på python.
 

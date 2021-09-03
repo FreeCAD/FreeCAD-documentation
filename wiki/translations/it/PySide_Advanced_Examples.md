@@ -19,12 +19,12 @@ Quindi, usando il modulo PySide all\'interno di FreeCAD, si ha il controllo comp
 -   Aggiungere o nascondere gli elementi nei pannelli già esistenti
 -   Modificare, reindirizzare o aggiungere connessioni tra tutti questi elementi
 
-## Create Reference for the Main Window {#create_reference_for_the_main_window}
+## Create Reference for the Main Window 
 
 
 <div class="mw-translate-fuzzy">
 
-## Creare un riferimento per la finestra principale {#creare_un_riferimento_per_la_finestra_principale}
+## Creare un riferimento per la finestra principale 
 
 Se si vuole lavorare sull\'interfaccia di FreeCAD, la prima cosa da fare è creare un riferimento alla finestra principale di FreeCAD:
 
@@ -39,12 +39,12 @@ app = QtGui.qApp
 mw = FreeCADGui.getMainWindow()
 ```
 
-## Browse the Children of the Main Window {#browse_the_children_of_the_main_window}
+## Browse the Children of the Main Window 
 
 
 <div class="mw-translate-fuzzy">
 
-## Esplorare gli elementi della finestra principale {#esplorare_gli_elementi_della_finestra_principale}
+## Esplorare gli elementi della finestra principale 
 
 Quindi, è possibile ad esempio esplorare tutti i widget dell\'interfaccia:
 
@@ -59,12 +59,12 @@ for child in mw.children():
 
 Di solito, in una interfaccia Qt, i widget sono annidati in widget \"contenitori\", in questo modo i figli della finestra principale possono contenere altri figli. Secondo il tipo di widget, si possono fare un sacco di cose. Controllare la documentazione delle API per vedere quello che è possibile fare.
 
-## Add New Widget Manually {#add_new_widget_manually}
+## Add New Widget Manually 
 
 
 <div class="mw-translate-fuzzy">
 
-## Aggiungere manualmente un nuovo widget {#aggiungere_manualmente_un_nuovo_widget}
+## Aggiungere manualmente un nuovo widget 
 
 Per aggiungere un nuovo widget, ad esempio un dockWidget (che può essere posizionato in uno dei pannelli laterali di FreeCAD), fare semplicemente:
 
@@ -88,12 +88,12 @@ label.setGeometry(QtCore.QRect(2,50,200,24))  # sets its size
 label.setObjectName("myLabel") # sets its name, so it can be found by name
 ```
 
-## Add New Widget by Creating UI Object {#add_new_widget_by_creating_ui_object}
+## Add New Widget by Creating UI Object 
 
 
 <div class="mw-translate-fuzzy">
 
-## Aggiungere un nuovo widget creando un oggetto UI {#aggiungere_un_nuovo_widget_creando_un_oggetto_ui}
+## Aggiungere un nuovo widget creando un oggetto UI 
 
 Di solito, il metodo preferito consiste nel creare un oggetto UI (interfaccia utente) che faccia tutta la configurazione del proprio widget in una sola volta. Il grande vantaggio è che tale oggetto dell\'interfaccia utente può essere [creato graficamente](Dialog_creation/it.md) con il programma Qt Designer. Un tipico oggetto generato da Qt Designer si presenta come questo:
 
@@ -128,7 +128,7 @@ myNewFreeCADWidget.ui.setupUi(myNewFreeCADWidget) # setup the ui
 FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
 ```
 
-## Loading the UI from a Qt Designer .ui File {#loading_the_ui_from_a_qt_designer_.ui_file}
+## Loading the UI from a Qt Designer .ui File 
 
 The key to loading a UI file successfully is to use the full path to the file. As an example, the [Addon Manager](Std_AddonMgr.md) does it like this:
 

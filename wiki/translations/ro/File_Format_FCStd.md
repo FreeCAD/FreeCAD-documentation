@@ -10,7 +10,7 @@
 
 </div>
 
-## Interiorul fișierelor .FCStd {#interiorul_fișierelor_.fcstd}
+## Interiorul fișierelor .FCStd 
 
 
 <div class="mw-translate-fuzzy">
@@ -37,7 +37,7 @@ This is the main {{FileName|.xml}} file describing all the objects inside a Free
 
 <div class="mw-translate-fuzzy">
 
-##### Exemplu de Document.xml {#exemplu_de_document.xml}
+##### Exemplu de Document.xml 
 
 
 </div>
@@ -208,7 +208,7 @@ Structure of a typical {{FileName|.FCStd}} file. The extension can be changed to
       :--MyPage.svg
       :--etc.
 
-## Embedding other files {#embedding_other_files}
+## Embedding other files 
 
 In order to embed other file types inside a FCStd file, you must first create a [scripted object](Scripted_objects.md) from the [Python console](Python_console.md), and give it an `App::PropertyFileIncluded` property.
 
@@ -225,7 +225,7 @@ See the forum thread, [PDF inside the project](https://forum.freecadweb.org/view
 
 <div class="mw-translate-fuzzy">
 
-## Schimbarea sursei fișierului .FCStd {#schimbarea_sursei_fișierului_.fcstd}
+## Schimbarea sursei fișierului .FCStd 
 
 
 {{VeryImportantMessage|'''ATTENTION ALWAYS WORK ON A COPY OF YOUR PROJECT !'''}}

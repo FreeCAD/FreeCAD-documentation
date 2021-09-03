@@ -1,12 +1,12 @@
  Quantity è la combinazione di un numero in virgola mobile e di una unità di misura.
 
-## Aspetti generali {#aspetti_generali}
+## Aspetti generali 
 
 In un sistema CAD o CAE ​​è molto importante mantenere la traccia dell\'unità di misura di un valore. Quando si mescolano le unità o si calcolano i risultati in diverse unità di misura possono sorgere un sacco di problemi. Un famoso disastro, causato da un disguido sulle unità di misura, è il [crash of the Mars Climate Orbiter](http://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure). Anche all\'interno di uno stesso Sistema di misura le unità possono essere disponibili in diversi formati, secondo il settore di utilizzo. Ad esempio, la velocità in km/h per le automobili, in m/s in robotica o in mm/min per la fresatura. Un sistema CAD deve conservare una traccia affidabile delle unità. Inoltre deve utilizzarle per eseguire i calcoli e deve verificare che per i parametri speciali sia adottata la giusta unità.
 
 Per questo motivo è stata creata la sezione Quantity di FreeCAD. Essa include tutto il codice e gli oggetti che servono per trattare le unità, i calcoli delle unità, i dati inseriti dall\'utente, la conversione tra i Sistemi e per fornire un corretto output delle unità e dei valori. In futuro, in FreeCAD, nessun parametro dovrebbe essere solo più un numero.
 
-### Unità supportate {#unità_supportate}
+### Unità supportate 
 
 Il parser dei dati in ingresso di FreeCAD supporta una serie di unità e di Sistemi di unità. FreeCAD supporta la lettera greca \'µ\' per micro ma accetta anche \'u\' in sostituzione. Un elenco completo di tutte le unità supportate [si trova quì](Expressions/it#Unità.md).
 
@@ -15,7 +15,7 @@ Le specifiche dettagliate si trovano nel codice:
 -   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/QuantityLexer.c)
 -   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/Quantity.cpp#l167)
 
-## Rappresentazione interna {#rappresentazione_interna}
+## Rappresentazione interna 
 
 Tutte le unità fisiche possono essere espresse come combinazione delle sette [Unità SI](http://en.wikipedia.org/wiki/International_System_of_Units) di base:
 
@@ -38,7 +38,7 @@ Usando queste 7 unità, siamo poi in grado di esprimere tutte le unità derivate
 
 Dato che l\'angolo è fisicamente adimensionale, ma in un sistema CAD non è meno importante, si è aggiunta una unità virtuale in più per Angle. Questo crea un vettore di 8 dati nella firma delle unità di FreeCAD.
 
-## Il convertitore delle unità {#il_convertitore_delle_unità}
+## Il convertitore delle unità 
 
 Sovente è necessario convertire le unità da un sistema a un altro. Per esempio, quando i parametri sono contenuti in vecchie tabelle e espressi in determinate unità. In questi casi FreeCAD offre uno strumento di conversione denominato Units-Calculator che aiuta a tradurre le unità.
 
@@ -66,7 +66,7 @@ Codice:
 -   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
 -   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp) <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Gui/InputField.cpp>
 
-## Script Python {#script_python}
+## Script Python 
 
 Come quasi tutto in FreeCAD, anche i sistemi Unit e Quantity sono totalmente accessibili tramite Python.
 
@@ -170,7 +170,7 @@ Units.Quantity('1 MPa').getValueAs(Units.Quantity('N/m^2')) # a quantity
           
 ```
 
-### I valori nell\'interfaccia utente {#i_valori_nellinterfaccia_utente}
+### I valori nell\'interfaccia utente 
 
 Normalmente negli script si può utilizzare Quantity per ogni tipo di calcolo e di verifica, ma può capitare che si debba attendere un po\' per ottenere l\'uscita dei risultati. Si può utilizzare getValueAs() per forzare una certa unità, ma di solito si definisce il proprio sistema di unità nelle preferenze. Il sistema di unità converte tutta la rappresentazione nel sistema impostato. Al momento sono implementati questi 3 sistemi di unità:
 
@@ -224,7 +224,7 @@ params.GetInt('Decimals') # returns an int
 
 ## Appendice
 
-### Unità supportate dal Parser {#unità_supportate_dal_parser}
+### Unità supportate dal Parser 
 
 Anche se tutte le unità fisiche possono essere descritte con le sette unità SI, la maggior parte delle unità utilizzate nelle aree tecniche sono delle combinazioni di unità comuni (come Pa = N/m\^2 Pascal ). Pertanto il parser delle unità di FreeCAD supporta molte combinazioni del SI e del Sistema Imperiale. Queste unità sono definite nel file src/Base/QuantityParser.l e in futuro potranno essere incrementate.
 

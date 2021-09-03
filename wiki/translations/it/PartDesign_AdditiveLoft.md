@@ -19,7 +19,7 @@
 
 ## Utilizzo
 
-### Dialog-based workflow {#dialog_based_workflow}
+### Dialog-based workflow 
 
 
 <div class="mw-translate-fuzzy">
@@ -34,7 +34,7 @@
 
 </div>
 
-### Selection-based workflow {#selection_based_workflow}
+### Selection-based workflow 
 
 
 <small>(v0.19)</small> 
@@ -93,7 +93,7 @@
 
 </div>
 
-## Problemi noti {#problemi_noti}
+## Problemi noti 
 
 -   Alcuni tipi di errore rendono la parte nera
 

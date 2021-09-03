@@ -19,7 +19,7 @@ Applies [Coincident constraints](Sketcher_ConstrainCoincident.md) to endpoints w
 2.  Invoke the command using several methods:
     -   Press the **<img src=images/Sketcher_ConnectLines.svg style="width:16px"> [Connect lines](Sketcher_ConnectLines.md)** button.
     -   Use the **Ctrl** + **Shift** + **K** keyboard shortcut.
-    -   Use the {{MenuCommand|Sketch → Sketcher tools → <img src=images/Sketcher_ConnectLines.svg style="width:16px"> Connect Edges}} entry from the top menu.
+    -   Use the **Sketch → Sketcher tools → <img src=images/Sketcher_ConnectLines.svg style="width:16px"> Connect Edges** entry from the top menu.
 
 ## Notes
 

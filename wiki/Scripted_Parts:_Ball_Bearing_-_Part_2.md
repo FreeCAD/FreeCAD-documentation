@@ -44,7 +44,7 @@ Just some small differences.
 -   Set view to axometric
 -   Zoom to fit all
 
-### Making the groove {#making_the_groove}
+### Making the groove 
 
 Drawing an arc needs either three points or a start angle and an end angle.
 In the sketcher we would use constraints to define the start point and the end point of the arc.
@@ -52,7 +52,7 @@ Since we can\'t do this in scripting, we draw a rounded rectangle and revolve it
 Then we draw a circle and revolve it to get the geometry of the groove.
 Then we apply a boolean cut to the two revolved shapes and we have the complete shape of the inner/outer ring.
 
-### Inserting the balls {#inserting_the_balls}
+### Inserting the balls 
 
 The correct sketcher-based workflow of inserting the balls would be:
 \*Draw an arc (semi-circle) with center being identical with the origin and draw a line closing the \"open\" side of the arc

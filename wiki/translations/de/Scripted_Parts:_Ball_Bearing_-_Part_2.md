@@ -44,7 +44,7 @@ Es gibt nur wenige Unterschiede.
 -   Wechsle in die axometrische Ansicht
 -   Zoom auf Alles
 
-### Erstellen der Rille {#erstellen_der_rille}
+### Erstellen der Rille 
 
 Das Zeichnen eines Kreibogen benötigt entweder drei Punkte oder eine Startwinkel und einen Endwinkel.
 Im Sketcher würden wir Beschränkungen verwenden um den Startpunkt und den Endpunkt des Kreisbogens zu bestimmen.
@@ -52,7 +52,7 @@ Da wir dies in scripting nicht möglich ist, werden wir ein abgerundetes Rechtec
 Dann zeichnen wir eine Kreis und rotieren ihn, um die Geometrie der Rille zu erhalten.
 Dann fügen wir eine boolsche Verschneidung hinzu und wir haben die komplette Form des inneren/äußeren Ringes.
 
-### Einfügen der Kugeln {#einfügen_der_kugeln}
+### Einfügen der Kugeln 
 
 Der korrekte skizzen-basierende Ablauf um die Kugeln einzufügen wäre wie folgt:
 \*Zeichne einen Halbkreis mit dem Zentrum im Nullpunkt und zeichne eine Linie, die die offene Seite des Halbkreises schließt.

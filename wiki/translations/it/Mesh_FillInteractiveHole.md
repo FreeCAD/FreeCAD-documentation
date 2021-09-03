@@ -16,13 +16,13 @@ Il comando **Chiudi il buco** permette di chiudere i fori nelle mesh selezionand
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare l\'opzione {{MenuCommand|Mesh → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Chiudi il buco}} dal menu.
+1.  Selezionare l\'opzione **Mesh → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Chiudi il buco** dal menu.
 2.  Il cursore si trasforma in un\'icona a triangolo.
 3.  Selezionare una faccia che condivide un bordo con il foro che si desidera chiudere.
 4.  Il buco è chiuso.
 5.  Eventualmente, ripetere l\'operazione per chiudere ulteriori buchi.
 6.  Se è necessario si può usare [Annulla](Std_Undo/it.md) per annullare l\'ultima azione del comando.
-7.  Selezionare l\'opzione {{MenuCommand|Esci dalla modalità di riempimento del buco}} dal menu di scelta rapida nella [vista 3D](3D_view/it.md) per terminare il comando.
+7.  Selezionare l\'opzione **Esci dalla modalità di riempimento del buco** dal menu di scelta rapida nella [vista 3D](3D_view/it.md) per terminare il comando.
 
 
 </div>

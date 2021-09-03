@@ -30,7 +30,7 @@ Veja também:
 
 Primeiramente, baixe e instale o FreeCAD. Consulte a página [Download](Download/pt-br.md) para obter informações sobre versões e atualizações atuais e a instruções de instalação para seu sistema operacional ([Windows](Installing_on_Windows/pt-br.md), [Linux](Installing_on_Linux/pt-br.md) ou [Mac](Installing_on_Mac/pt-br.md)). Existem pacotes de instalação prontos para Windows (.msi), Debian e Ubuntu (.deb), openSUSE (.rpm) e Mac OSX. O FreeCAD está disponível nos gerenciadores de pacotes de muitas outras distribuições Linux. Também está disponível um executável [AppImage](AppImage/pt-br.md) independente, que será executado nos sistemas Linux de 64 bits mais recentes. Como o FreeCAD é de código aberto, você também pode pegar o código-fonte e [compilá-lo](Compiling.md).
 
-## Explorando a interface {#explorando_a_interface}
+## Explorando a interface 
 
 =
 
@@ -90,7 +90,7 @@ O Start Center te permite saltar rapidamente para as bancadas de trabalho mais c
 
 </div>
 
-## Navegando no espaço 3D {#navegando_no_espaço_3d}
+## Navegando no espaço 3D 
 
 
 <div class="mw-translate-fuzzy">
@@ -133,7 +133,7 @@ Os usuários que usam o mouse com a mão direita podem achar este método mais f
 
 Você também tem várias predefinições de visualização (vista superior, vista frontal, etc.) disponíveis no menu Ver, na barra de ferramentas Ver, e por atalhos numéricos (**1**, **2**, etc\...). Clicando com o botão direito do mouse em um objeto ou em uma área vazia da visualização 3D, você tem acesso rápido a algumas operações comuns, tais como definir uma determinada visualização, ou localizar um objeto na visualização em árvore.
 
-## Primeiros passos com FreeCAD {#primeiros_passos_com_freecad}
+## Primeiros passos com FreeCAD 
 
 O foco do FreeCAD é permitir fazer modelos 3D de alta precisão, manter um controle rigoroso sobre esses modelos (poder voltar ao histórico de modelagem e alterar parâmetros), e eventualmente construir esses modelos (via impressão 3D, usinagem CNC ou mesmo canteiro de obras). Portanto, é muito diferente de algumas outras aplicações 3D feitas para outros fins, tais como filme de animação ou jogos. Sua curva de aprendizado pode ser íngreme, especialmente se este for seu primeiro contato com a modelagem 3D. Se você for atingido em algum momento, não se esqueça que a comunidade amigável de usuários no [FreeCAD forum](http://forum.freecadweb.org/index.php) pode ser capaz de tirá-lo de lá em pouco tempo.
 
@@ -153,7 +153,7 @@ Você pode trocar de bancada de trabalho a qualquer momento, e também [customiz
 
 </div>
 
-## Trabalhando com as bancadas PartDesign e Sketcher {#trabalhando_com_as_bancadas_partdesign_e_sketcher}
+## Trabalhando com as bancadas PartDesign e Sketcher 
 
 
 <div class="mw-translate-fuzzy">
@@ -189,7 +189,7 @@ O que lhe dá um objeto como este:
 
 A qualquer momento, você pode selecionar os esboços originais e modificá-los, ou alterar os parâmetros de extrusão das operações de bloco ou bolso, o que atualizará o objeto final.
 
-## Trabalhando com as bancadas Draft e Arch {#trabalhando_com_as_bancadas_draft_e_arch}
+## Trabalhando com as bancadas Draft e Arch 
 
 
 <div class="mw-translate-fuzzy">
@@ -231,7 +231,7 @@ O que lhe dará isto:
 
 Para mais informações, visite a página [Tutoriais](Tutorials.md) .
 
-## Addons, Macro e Bancadas Externas {#addons_macro_e_bancadas_externas}
+## Addons, Macro e Bancadas Externas 
 
 O Freecad, como um software de código aberto, oferece a possibilidade de complementar suas bancadas de trabalho com addons.
 

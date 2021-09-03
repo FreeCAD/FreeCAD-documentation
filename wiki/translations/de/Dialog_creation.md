@@ -11,7 +11,7 @@ In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definie
 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> *Zwei allgemeine Methoden zur Erstellung von Oberflächen, durch Einfügen der Schnittstelle in die Python Datei oder durch die Verwendung von `.ui* Dateien.`
 
-## Gestalten des Dialogs {#gestalten_des_dialogs}
+## Gestalten des Dialogs 
 
 In CAD Anwendungen ist es sehr wichtig, eine gute UI (Benutzeroberfläche) zu entwerfend. Beinahe alles, das der Benutzer tun wird, wird über ein Teil der Oberfläche passieren: das Lesen von Dialog Kästen, drücken von Knöpfen, die Auswahl zwischen Piktogrammen, usw. Es ist also sehr wichtig, sich genau zu überlegen, was du tun willst, wie der Benutzer sich verhalten soll und wie der Ablauf deiner Aktion aussehen soll.
 
@@ -29,7 +29,7 @@ Wir werden dann mit diesem Dialog in FreeCAD eine schöne rechteckige Ebene erze
 
 ![](images/Qtdesigner-screenshot.jpg )
 
-## Erstellen des Dialogs {#erstellen_des_dialogs}
+## Erstellen des Dialogs 
 
 Qt Designer ist sehr einfach zu benutzen. Auf der linken Leiste hast du Elemente, die auf dein Widget gezogen werden können. Auf der rechten Seite hast du Eigenschaftspaneels, die alle Arten von editierbaren Eigenschaften der ausgewählten Elemente anzeigen. Beginne also mit der Erstellung eines neuen Widgets.
 
@@ -47,7 +47,7 @@ Das ist soweit alles, was wir im Qt Designer tun müssen. Eine letzte Sache noch
 
 ![](images/Qtpropeditor.jpg )
 
-## Umwandeln unseres Dialogs zu Python {#umwandeln_unseres_dialogs_zu_python}
+## Umwandeln unseres Dialogs zu Python 
 
 Jetzt werden wir unser Widget irgendwo speichern. Er wird als .ui Datei gespeichert, die wir einfach mittels pyuic zu einem Python Skript wandeln werden. Unter Windows ist das pyuic Programm meistens mit pyqt gebündelt (zu überprüfen), auf Linux weirst du es wahrscheinlich extra mit deinem Paketmanager installieren müssen (auf Debian-basierten Systemen, ist es ein Teil des pyqt4-dev-tools Pakets). Für die Konvertierung musst du ein Terminalfenster (oder ein Fenster der Eingabeaufforderung unter Windows) öffnen, in welchem du zu deiner .ui Datei navigierst und dort dann folgendes eingibst: 
 ```python
@@ -123,7 +123,7 @@ d.show()
 d.hide()
 ```
 
-## Unseren Dialog etwas tun lassen {#unseren_dialog_etwas_tun_lassen}
+## Unseren Dialog etwas tun lassen 
 
 Nun, da wir unseren Dialog ein- und ausblenden können, müssen wir nur noch einen letzten Teil hinzufügen: Damit er etwas bewirkt! Wenn du ein wenig mit dem Qt Designer spielst, wirst du schnell einen ganzen Abschnitt namens \"Signals and Slots\" entdecken. Im Grunde funktioniert es so: Elemente auf deinen Widgets (in der Qt Terminologie sind diese Elemente selbst Widgets) können Signale senden. Diese Signale unterscheiden sich je nach Widget Typ. Zum Beispiel kann eine Taste ein Signal senden, wenn sie gedrückt wird und wenn sie losgelassen wird. Diese Signale können mit Slots verbunden werden, was eine spezielle Funktionalität anderer Widgets sein kann (z.B. hat ein Dialog einen \"Schließ\" Slot, mit dem du das Signal von einer Schaltfläche zum Schließen verbinden kannst), oder es können benutzerdefinierte Funktionen sein. Die [PyQt Referenzdokumentation](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html) listet alle qt Widgets auf, was sie können, welche Signale sie senden können, usw..
 
@@ -167,7 +167,7 @@ import mywidget
 myDialog = mywidget.plane()
 ``` Das ist alles, Leute\... Jetzt kannst du alle möglichen Dinge ausprobieren, wie z.B. dein Widget in die FreeCAD Oberfläche einzufügen (siehe die [Code Schnipsel](Code_snippets/de.md) Seite), oder viel fortgeschrittenere, eigene Werkzeuge zu erstellen, indem du andere Elemente auf deinem Widget verwendest.
 
-## Das komplette Skript {#das_komplette_skript}
+## Das komplette Skript 
 
 Dies ist das vollständige Skript, als Referenz: 
 ```python
@@ -242,7 +242,7 @@ class plane():
 
 ```
 
-## Weitere Beispiele {#weitere_beispiele}
+## Weitere Beispiele 
 
 -   [Dialogerstellung mit verschiedenen Widgets](Dialog_creation_with_various_widgets/de.md) mit `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton`, und anderen.
 -   [Dialogerstellung Lesen und Schreiben von Dateien](Dialog_creation_reading_and_writing_files/de.md) mit `QFileDialog`.
@@ -251,7 +251,7 @@ class plane():
 -   [PySide Verwendungsschnipsel](PySide_usage_snippets/de.md).
 -   [Qt Beispiel](Qt_Example/de.md)
 
-## Relevante Verweise {#relevante_verweise}
+## Relevante Verweise 
 
 -   [Handbuch:Erstellen von Oberflächenwerkzeugen](Manual:Creating_interface_tools/de.md)
 -   [Oberflächenerstellung mit UI Dateien](Interface_creation_with_UI_files/de.md)

@@ -73,7 +73,7 @@ Acestea sunt instrumente pentru crearea obiectelor arhitecturale.
     -   <img alt="" src=images/Arch_MultiMaterial.png  style="width:32px;"> [Multi-Material](Arch_MultiMaterial.md): Creează un multi-material și atribuiți-l obiectelor selectate, dacă există vreunul <small>(v0.17)</small> 
 -   <img alt="" src=images/Arch_Schedule.png  style="width:32px;"> [Schedule](Arch_Schedule.md): Creează diferite tipuri de schedules
 
-### Instrumente de Modificare {#instrumente_de_modificare}
+### Instrumente de Modificare 
 
 Acestea sunt instrumente pentru modificarea obiectelor arhitecturale.
 
@@ -106,7 +106,7 @@ Acestea sunt instrumente suplimentare care vă ajută în îndeplinirea unor sar
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferences](Arch_Preferences.md): preferințele pentru aspectul implicit al pereților, structurilor, barelor, ferestrelor, scărilor, panourilor, țevilor, grilelor și axelor.
 
-### Formate de fișier {#formate_de_fișier}
+### Formate de fișier 
 
 -   [IFC](Arch_IFC.md) : Industry foundation Classes
 -   [DAE](Arch_DAE.md) : Collada mesh format

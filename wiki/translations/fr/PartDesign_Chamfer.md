@@ -13,7 +13,7 @@ Cet outil crée des chanfreins sur les arêtes sélectionnées d\'un objet. Une 
 
 ## Utilisation
 
--   Sélectionnez une seule arête, plusieurs arêtes ou une face sur un objet, puis démarrez l\'outil en cliquant sur le **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chanfreiner les arêtes...'''** ou par le menu {{MenuCommand|Part Design → Apply a dress-up feature → Chanfrein}}. Si vous avez sélectionné une face, toutes ses arêtes sont respectées pour le chanfreinage.
+-   Sélectionnez une seule arête, plusieurs arêtes ou une face sur un objet, puis démarrez l\'outil en cliquant sur le **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chanfreiner les arêtes...'''** ou par le menu **Part Design → Apply a dress-up feature → Chanfrein**. Si vous avez sélectionné une face, toutes ses arêtes sont respectées pour le chanfreinage.
 -   Dans le [Panneau des tâches](Task_Panel/fr.md) qui apparaît, vous pouvez définir la chambre de 3 manières :
     -   **Equal distance** : les chanfreins sont également distants du bord du corps.
     -   **Two distances** : Les distances du bord de chanfrein au bord du corps sont spécifiées. La direction de la distance peut être inversée. {{Version/fr|0.19}}
@@ -26,7 +26,7 @@ Cet outil crée des chanfreins sur les arêtes sélectionnées d\'un objet. Une 
 -   Pour une chaîne d\'arêtes tangentes les unes aux autres, une seule arête peut être sélectionnée ; le chanfrein se propage le long de la chaîne.
 -   Pour modifier le chanfrein après la validation de la fonction, double-cliquez sur l\'étiquette du chanfrein dans l\'arborescence du projet, ou faites un clic droit dessus et sélectionnez **Modifier chanfrein**.
 
-## PartDesign Chanfrein versus Part Chanfrein {#partdesign_chanfrein_versus_part_chanfrein}
+## PartDesign Chanfrein versus Part Chanfrein 
 
 **Le PartDesign Chanfrein ne doit pas être confondu avec le [Part Chanfrein](Part_Chamfer/fr.md)**. Bien qu\'ils partagent la même icône, ils ne sont pas identiques et ne sont pas utilisés de la même manière. La principale différence est que le PartDesign Chanfrein crée une entrée de chanfrein distincte (suivie d\'un numéro séquentiel s\'il existe déjà des chanfreins) dans l\'arborescence du projet pour le corps en cours. Le Part Chanfrein devient le parent de l\'objet auquel il a été appliqué.
 

@@ -26,7 +26,7 @@ FreeCAD belgesindeki nesneler farklı türlerde olabilir. Her tezgah kendi nesne
 
 FreeCAD\'de en az bir açık belge varsa, her zaman bir ve sadece bir aktif belge vardır. Geçerli 3D görünümünde görünen, üzerinde çalışmakta olduğunuz belge budur.
 
-## Uygulama ve Kullanıcı Arayüzü {#uygulama_ve_kullanıcı_arayüzü}
+## Uygulama ve Kullanıcı Arayüzü 
 
 FreeCAD\'deki hemen hemen her şey gibi, grafiksel kullanıcı arabirimi kısmı (GUI), temel uygulama bölümünden (App) ayrılmıştır. Bu aynı zamanda belgeler için de geçerlidir. Belgeler ayrıca iki bölümden oluşur: nesnelerimizi içeren Uygulama belgesi ve nesnelerimizin ekrandaki gösterimi içeren Görünüm belgesi.
 

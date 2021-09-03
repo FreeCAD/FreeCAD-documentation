@@ -153,7 +153,7 @@ Les Boutons ![FCConvertLines](images/Macro_FCConvertLines_10.png )
 
 
 
-## Les fichiers images à télécharger {#les_fichiers_images_à_télécharger}
+## Les fichiers images à télécharger 
 
 Les fichiers sont à copier dans votre répertoire de macros (10 fichiers images)
 

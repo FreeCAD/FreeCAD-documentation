@@ -10,7 +10,8 @@
 
 La commande **A propos** ouvre une boîte de dialogue qui affiche des informations sur le programme FreeCAD.
 
-![](images/Help-About-Dropdown-screenshot.png ) *Activez la boîte de dialogue À propos via {{MenuCommand|Aide → <img src="images/Std_About.svg" width=16px> À propos de FreeCAD*}}
+![](images/Help-About-Dropdown-screenshot.png ) *Activez la boîte de dialogue À propos via **Aide → <img src="images/Std_About.svg" width=16px> À propos de FreeCAD
+***
 
 ![](images/Std_About_example.png ) *La boîte de dialogue À propos de FreeCAD*
 
@@ -19,15 +20,15 @@ La commande **A propos** ouvre une boîte de dialogue qui affiche des informatio
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Aide → <img src=images/Std_About.svg style="width:16px"> À propos de FreeCAD}} dans le menu.
-2.  Sélectionnez l\'un des onglets: {{MenuCommand|À propos}}, {{MenuCommand|Remerciements}}, {{MenuCommand|Licence}}, {{MenuCommand|Bibliothèques}}.
+1.  Sélectionnez l\'option **Aide → <img src=images/Std_About.svg style="width:16px"> À propos de FreeCAD** dans le menu.
+2.  Sélectionnez l\'un des onglets: **À propos**, **Remerciements**, **Licence**, **Bibliothèques**.
 3.  Chaque fois que vous devez fournir des informations sur la version de FreeCAD, procédez comme suit:
-    -   Appuyez sur le bouton **Copier dans le presse-papiers** dans l\'onglet {{MenuCommand|À propos}}.
+    -   Appuyez sur le bouton **Copier dans le presse-papiers** dans l\'onglet **À propos**.
     -   Collez ces informations dans votre demande d\'aide.
     -   N\'incluez pas de capture d\'écran de la boîte de dialogue.
 4.  Appuyez sur **Echap** ou sur le bouton **OK** pour fermer la boîte de dialogue.
 
-### A propos {#a_propos}
+### A propos 
 
 L\'onglet À propos affiche des informations sur la version de FreeCAD utilisée, le numéro de révision, le système d\'exploitation et quelques détails sur les bibliothèques de prise en charge, [Python](Python/fr.md), Qt, Coin et OCCT. Lorsque vous demandez de l\'aide sur les [forums FreeCAD](http://forum.freecadweb.org/viewtopic.php?f=3&t=2264) ou lorsque vous déposez des rapports de bogues, il est impératif de fournir ces informations.
 

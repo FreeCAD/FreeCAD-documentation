@@ -14,7 +14,7 @@ Este es un breve tutorial para los nuevos en [Python](http://es.wikipedia.org/wi
 
 o siguiente es una introducción muy básica, y de ninguna manera un tutorial completo. Pero esperamos que proporcione un buen punto de partida para una mayor exploración de FreeCAD y sus mecanismos. Te recomendamos encarecidamente que introduzcas los fragmentos de código de abajo en un intérprete de Python.
 
-## El intérprete {#el_intérprete}
+## El intérprete 
 
 Por lo general, cuando se escriben programas de ordenador, se abre un editor de texto o su entorno de programación especial (que es básicamente un editor de texto con algunas herramientas adicionales), se escribe el programa, luego se compila y se ejecuta. A menudo se cometieron uno o más errores durante la entrada, por lo que su programa no funcionará. Puede que incluso aparezca un mensaje de error indicando lo que ha fallado. Entonces vuelves a tu editor de texto, corriges los errores, ejecutas de nuevo, repitiendo hasta que tu programa funcione como es debido.
 
@@ -22,7 +22,7 @@ En Python todo ese proceso se puede hacer de forma transparente dentro del inté
 
 ![](images/FreeCAD_Python_console.png ) *La consola de FreeCAD Python*
 
-Si no la ve, haga clic en {{MenuCommand|Ver → Paneles → Consola de Python}}. La consola de Python puede cambiar de tamaño y también desacoplarse.
+Si no la ve, haga clic en **Ver → Paneles → Consola de Python**. La consola de Python puede cambiar de tamaño y también desacoplarse.
 
 El intérprete muestra la versión de Python, y luego un símbolo `>>` que es el prompt del comando. Escribir código en el intérprete es sencillo: una línea es una instrucción. Cuando pulses **Intro**, tu línea de código se ejecutará (después de haber sido compilada instantánea e invisiblemente). Por ejemplo, trata de escribir esto:
 
@@ -476,7 +476,7 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 [inicio](#top.md)
 
-## Empezando con FreeCAD {#empezando_con_freecad}
+## Empezando con FreeCAD 
 
 Esperemos que ahora tengas una buena idea de cómo funciona Python, y puedas empezar a explorar lo que FreeCAD tiene que ofrecer. Las funciones de Python de FreeCAD están todas bien organizadas en diferentes módulos. Algunas de ellas ya están cargadas (importadas) cuando inicias FreeCAD. Sólo tienes que probar:
 

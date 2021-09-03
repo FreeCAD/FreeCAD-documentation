@@ -29,7 +29,7 @@ As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch 
 2.  Invoke the Arch Floor command several ways:
     -   Pressing the **<img src="images/Arch_Floor.svg" width=16px> [Arch Floor](Arch_Floor.md)** button on the toolbar.
     -   Using the **L** then **V** keyboard keys.
-    -   Using the {{MenuCommand|Arch → Floor}} entry from the top menu.
+    -   Using the **Arch → Floor** entry from the top menu.
 
 ## Options
 

@@ -41,9 +41,9 @@ Wenn der Wert von module= oder class= auf dem installierten System nicht gefunde
 
 Ein triftiger Grund für die Verschiebung oder Umbenennung des Moduls oder der Klasse ist jedoch die Verbesserung der Struktur und Wartbarkeit des ursprünglichen Codes, z.B. bei der Umstrukturierung einer ganzen Werkbank. In diesem Fall gibt es verschiedene Strategien, um alte Objekte auf die Verwendung einer neuen Klasse zu migrieren. Dies geschieht aus Gründen der Abwärtskompatibilität, wenn ein völliges Aufbrechen alter Dokumente vermieden werden muss.
 
-## Altes Objekt und neues Objekt {#altes_objekt_und_neues_objekt}
+## Altes Objekt und neues Objekt 
 
-### Altes Objekt {#altes_objekt}
+### Altes Objekt 
 
 Ein altes Objekt wird in einem Baustein definiert, der sich an der Wurzel der Arbeitsbereichs befindet. 
 ```python
@@ -88,7 +88,7 @@ doc.save()
 <old_module.OldObject object at 0x7efc3c51c390>
 ```
 
-### Neues Objekt {#neues_objekt}
+### Neues Objekt 
 
 Nun betrachten wir, dass der Arbeitsbereich umstrukturiert wird, so dass sich die Klassen nicht nur im Stammverzeichnis, sondern stattdessen in einem {{FileName|objects}} Verzeichnis befinden. Komplexe Arbeitsbereiche, die viele verschiedene Arten von Objekten haben, sollten in Verzeichnissen strukturiert werden, die Objekte, [AnsichtBereitsteller](Viewprovider/de.md), [Gui Befehle](Command/de.md), [Aufgabenpaneel](task_panel/de.md) Schnittstellen usw. enthalten. 
 ```python
@@ -119,7 +119,7 @@ Wenn wir ein neues Objekt mit diesem neuen Modul erstellen, haben wir die folgen
 <objects.new_module.NewObject object at 0x7efc1cf68c50>
 ```
 
-## Methode 1. Migration durch Umleitung der Klasse {#methode_1._migration_durch_umleitung_der_klasse}
+## Methode 1. Migration durch Umleitung der Klasse 
 
 Wir werden das ältere Objekt migrieren, indem wir die alte Klasse umleiten. Die ursprüngliche Klasse wird gelöscht, und der Name der Klasse wird einfach umgeleitet, um auf die neue Klasse zu verweisen.
 
@@ -153,7 +153,7 @@ Wenn das Dokument nun gespeichert und wieder geöffnet wird, sucht es automatisc
 
 Wenn es realistischerweise nicht möglich ist, alle älteren Objekte zu migrieren, z.B. weil das alte Modul viele Jahre lang in einem Arbeitsbereich verwendet wurde, muss {{Dateiname|old_module.py}} so lange beibehalten werden, wie es für notwendig erachtet wird, um den Benutzern die Möglichkeit zu geben, ihre Objekte zu migrieren.
 
-### Vor- und Nachteile {#vor__und_nachteile}
+### Vor- und Nachteile 
 
 **Vorteile**
 
@@ -167,7 +167,7 @@ Wenn es realistischerweise nicht möglich ist, alle älteren Objekte zu migriere
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Neue Eigenschaften oder umbenannte Eigenschaften werden nicht behandelt, so dass das Objekt zwar geladen wird, aber möglicherweise nicht das korrekte Verhalten der neuen Klasse zeigt.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Das alte Modul muss möglicherweise auf unbestimmte Zeit aufbewahrt werden, um alle alten, in der Vergangenheit erstellten Objekte zu migrieren.
 
-## Methode 2. Migration beim Wiederherstellen des Dokuments {#methode_2._migration_beim_wiederherstellen_des_dokuments}
+## Methode 2. Migration beim Wiederherstellen des Dokuments 
 
 Wir werden das ältere Objekt migrieren, indem wir die alte Klasse modifizieren. Der Großteil der ursprünglichen Klasse wird gelöscht, und stattdessen wird die Methode `onDocumentRestored` implementiert. Wenn diese Methode vorhanden ist, wird sie ausgeführt, wenn das Dokument versucht, ein Objekt wiederherzustellen, das die Klasse verwendet. Dies ist also die Gelegenheit, eine neue Klasse zuzuweisen, die Informationen zu manipulieren oder Nachrichten zu drucken.
 
@@ -224,7 +224,7 @@ Die alten Eigenschaften waren `Area` und `Length`; die neuen Eigenschaften sind 
 
 Da die Klassen den gleichen Objekttyp behandeln sollen, wünschen wir uns eine Migration, bei der sich `Area` in `GeneralArea` verwandelt und `Length` einfach dem neuen `Length` zugewiesen wird und es keine doppelten Eigenschaften gibt.
 
-### Vor- und Nachteile {#vor__und_nachteile_1}
+### Vor- und Nachteile 
 
 **Vorteile**
 
@@ -238,7 +238,7 @@ Da die Klassen den gleichen Objekttyp behandeln sollen, wünschen wir uns eine M
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> It is more verbose than method 1 because we need to implement the `onDocumentRestored` method to migrate the object.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> It always adds the new properties, so it may create duplicated properties in case the new properties have the same name as the old properties. This has to be handled manually.
 
-## Methode 3. Migration beim Wiederherstellen des Dokuments, manuelle Handhabung der Eigenschaften {#methode_3._migration_beim_wiederherstellen_des_dokuments_manuelle_handhabung_der_eigenschaften}
+## Methode 3. Migration beim Wiederherstellen des Dokuments, manuelle Handhabung der Eigenschaften 
 
 This is an extension of method 2. In the `onDocumentRestored` method we need to save the values of the properties that we want, and then we can remove these original properties. This is done so that when the new class is used, it will assign the new properties without risking name collisions with the older properties.
 
@@ -296,7 +296,7 @@ Assuming that we already changed the old module in this way, if we open a docume
 
 Since in the old class the `Divisions` property didn\'t exist, nothing was done with it. It simply was created by the new `objects.new_module.NewObject` class.
 
-### Vor- und Nachteile {#vor__und_nachteile_2}
+### Vor- und Nachteile 
 
 **Vorteile**
 
@@ -308,7 +308,7 @@ Since in the old class the `Divisions` property didn\'t exist, nothing was done 
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> This method is very verbose compared to the previous ones, because we must implement the `onDocumentRestored` method, and handle each of the properties individually (save value, delete property, re-assign value). This is problematic if the object that we want to migrate has many properties, or their values need to be transformed in very special ways.
 
-## Zusatz A. Erstellen der Eigenschaften nur, wenn sie noch nicht vorhanden sind {#zusatz_a._erstellen_der_eigenschaften_nur_wenn_sie_noch_nicht_vorhanden_sind}
+## Zusatz A. Erstellen der Eigenschaften nur, wenn sie noch nicht vorhanden sind 
 
 One of the disadvantages of method 2 is that it will always try to add the new properties. If the older properties have the same name as the new properties, they will be duplicated with an incremental number, so `Length` will result in `Length1`, then `Length2`, and so on. This makes method 2 an unrealistic option in most cases, because the new class will only use one property anyway.
 
@@ -349,7 +349,7 @@ By using this method 2 + A, the result is similar to method 1 in that the object
 
 Method 3 does not need this addendum to the new class because the older properties are explicitly removed, so there won\'t be any conflicts when installing the new properties. Nevertheless, it is still a good practice that every class adds its required properties only if these don\'t already exist. This is helpful both in the case of creating new [scripted objects](scripted_objects.md) or in migrating them.
 
-### Vor- und Nachteile {#vor__und_nachteile_3}
+### Vor- und Nachteile 
 
 **Vorteile**
 
@@ -359,7 +359,7 @@ Method 3 does not need this addendum to the new class because the older properti
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Like method 2, it still doesn\'t deal with renamed properties. The old properties should be manually removed.
 
-## Zusatz B. Migrieren verschiedener Versionen des alten Objekts {#zusatz_b._migrieren_verschiedener_versionen_des_alten_objekts}
+## Zusatz B. Migrieren verschiedener Versionen des alten Objekts 
 
 Method 3 is the most complex method because the properties are handled individually. However, in this method we also have full flexibility in how we manipulate the data, and this is an advantage if we want to do complex operations.
 
@@ -418,7 +418,7 @@ def _migrate_from_019(obj):
 
 We don\'t save the `Version` value as we will set a new `Version` number when doing the migration. As shown in the example, we can implement various functions for each corresponding version of the object that we intend to migrate. We omit the migration of the [viewprovider](viewprovider.md) properties but it follows the same pattern.
 
-### Vor- und Nachteile {#vor__und_nachteile_4}
+### Vor- und Nachteile 
 
 **Vorteile**
 
@@ -429,7 +429,7 @@ We don\'t save the `Version` value as we will set a new `Version` number when do
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> This method is very verbose because we must have a clear idea on how to handle each of the properties of each \"version\" that we want to migrate. If our object has many different versions created over the years, we may have to prepare a long list of methods to migrate them to the newest object.
 
-## Zusatz B2. Verwendung interner Klassenattribute anstelle von Eigenschaften {#zusatz_b2._verwendung_interner_klassenattribute_anstelle_von_eigenschaften}
+## Zusatz B2. Verwendung interner Klassenattribute anstelle von Eigenschaften 
 
 Instead of using a [property](property.md) of the object to hold the version information, we can use an attribute of the class. In this way we \"hide\" the version information, because properties are normally public, and visible in the [property editor](property_editor.md), while class attributes can only be manipulated from the [Python console](Python_console.md). Class attributes can be saved and restored as explained in [Scripted objects saving attributes](Scripted_objects_saving_attributes.md). 
 ```python
@@ -485,7 +485,7 @@ def _migrate_from_018(obj):
 
 When we install the new class, this new class should set the new value of the version attribute, for example, self.ver = "0.20".
 
-## Zusatz C. Methode 3 ohne Entfernung alter Eigenschaften mit gleichem Namen {#zusatz_c._methode_3_ohne_entfernung_alter_eigenschaften_mit_gleichem_namen}
+## Zusatz C. Methode 3 ohne Entfernung alter Eigenschaften mit gleichem Namen 
 
 Like in Addendum A, we can write the new class to create properties only if they aren\'t already present. Using method 3, we save the values of the older properties, and subsequently delete the older properties. However, if the new properties are named the same as the older ones, we don\'t need to delete the older ones, we can just reuse the same property, as we know the property won\'t be duplicated. If we are using Addendum B, we have a way to query the version as well.
 
@@ -518,7 +518,7 @@ As we see in the example, the old `Area` property is deleted and migrated to the
 
 This should work like method 3, meaning that the old properties are removed and only the new properties remain in the new object. The only difference is that we omit removing and recreating the properties that are named the same. This process should work as long as the old [property](property.md) and the new [property](property.md) have the same type (for example, `App::PropertyLength` or `App::PropertyArea`), so the old property can pass its value directly. However, if the new property has a different type than the old property, then the old property should be removed, otherwise the old property will completely overwrite the new property, which is probably not what we want because the new class will be expecting the new type and not the old type.
 
-### Vor- und Nachteile {#vor__und_nachteile_5}
+### Vor- und Nachteile 
 
 **Vorteile**
 

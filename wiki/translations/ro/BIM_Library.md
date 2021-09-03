@@ -33,7 +33,7 @@ Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

@@ -65,7 +65,7 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Fluid section for 1D flow](FEM_ElementFluid1D.md): Creates a FEM fluid section element for pneumatic and hydraulic networks.
 
-### Electrostatic Constraints {#electrostatic_constraints}
+### Electrostatic Constraints 
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Constraint electrostatic potential](FEM_ConstraintElectrostaticPotential.md):
 
@@ -75,7 +75,7 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md): Used to define a flow velocity as a boundary condition at an edge (2D) or face (3D).
 
-### Geometrical Constraints {#geometrical_constraints}
+### Geometrical Constraints 
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Constraint plane rotation](FEM_ConstraintPlaneRotation.md): Used to define a plane rotation constraint on a planar face.
 
@@ -109,7 +109,7 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 -   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Constraint body heat source](FEM_ConstraintBodyHeatSource.md): Used to define an internally generated body heat.
 
-### Constraints without solver {#constraints_without_solver}
+### Constraints without solver 
 
 -   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary.md):
 
@@ -119,7 +119,7 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley.md): Used to define a pulley constraint.
 
-### Overwrite Constants {#overwrite_constants}
+### Overwrite Constants 
 
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md): <small>(v0.19)</small> 
 
@@ -253,7 +253,7 @@ Video tutorial 2: [FEM video for beginner](https://forum.freecadweb.org/viewtopi
 
 Many video tutorials: [anisim Open Source Engineering Software](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (in German)
 
-## Extending the FEM Workbench {#extending_the_fem_workbench}
+## Extending the FEM Workbench 
 
 The FEM Workbench is under constant development. An objective of the project is to find ways to easily interact with various FEM solvers, so that the end user can streamline the process of creating, meshing, simulating, and optimizing an engineering design problem, all within FreeCAD.
 
@@ -271,7 +271,7 @@ A developer\'s guide has been written to help power users in understanding the c
 -   [Early preview of ebook: Module developer\' guide to FreeCAD source](https://forum.freecadweb.org/viewtopic.php?t=17581) forum thread.
 -   [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) github repository.
 
-## Extending the FEM Workbench documentation {#extending_the_fem_workbench_documentation}
+## Extending the FEM Workbench documentation 
 
 -   More information regarding extending or missing FEM documentation can be found in the forum: [FEM documentation missing on the Wiki](https://forum.freecadweb.org/viewtopic.php?f=18&t=20823)
 

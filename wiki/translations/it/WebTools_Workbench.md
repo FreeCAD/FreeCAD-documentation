@@ -18,7 +18,7 @@ Questo ambiente può essere facilmente installato e aggiornato dal [Addon Manage
 
 </div>
 
-## Gli strumenti {#gli_strumenti}
+## Gli strumenti 
 
 
 <div class="mw-translate-fuzzy">

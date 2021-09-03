@@ -46,7 +46,7 @@ Pokud se má několik zdí protínat, musíte je umístit do [podlaží](Arch_Fl
 
 </div>
 
-### Kreslení zdi z náčrtu {#kreslení_zdi_z_náčrtu}
+### Kreslení zdi z náčrtu 
 
 
 <div class="mw-translate-fuzzy">
@@ -59,7 +59,7 @@ Pokud se má několik zdí protínat, musíte je umístit do [podlaží](Arch_Fl
 
 </div>
 
-### Nakreslení zdi na vybraném objektu {#nakreslení_zdi_na_vybraném_objektu}
+### Nakreslení zdi na vybraném objektu 
 
 
 <div class="mw-translate-fuzzy">

@@ -12,22 +12,22 @@
 
 ## Background
 
-## Creating the model {#creating_the_model}
+## Creating the model 
 
 1.  Starting with a blank FreeCAD project, we build our bimetal strip in the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
 2.  Draw a <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Cube](Part_Box.md) Solid and rename it to `aluminium`.
 3.  Give it the dimensions 100 x 10 x 2 mm (length x width x height).
 4.  Create a second [Cube](Part_Box.md) Solid \'steel\' with the same dimensions
-5.  Offset this part by 2 mm along the Z-axis (via {{MenuCommand|Placement → Position → z}}).
+5.  Offset this part by 2 mm along the Z-axis (via **Placement → Position → z**).
 6.  Select both solids (using the **Shift** key + mouse click) and create <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Boolean Fragments](Part_BooleanFragments.md) from them
 7.  Rename these Boolean Fragments to `bimetal strip`
 8.  In the [Property editor](Property_editor.md), we change the mode from **Standard** to **CompSolid**. (It should also work by using the [Part Compound](Part_Compound.md) command instead of <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Boolean Fragments](Part_BooleanFragments.md), however, with more complex intersecting shapes, there might be trouble with the FEM analysis later. So, better get used to using Boolean Fragments in the first place.) The result should look like this:
 
  <img alt="" src=images/Transient_FEM_Bimetal_(1).JPG  style="width:700px;"> 
 
-## Preparing and running the FEM analysis {#preparing_and_running_the_fem_analysis}
+## Preparing and running the FEM analysis 
 
-### Assigning the materials {#assigning_the_materials}
+### Assigning the materials 
 
 In the FEM workbench we create a new <img alt="" src=images/FEM_Analysis.svg  style="width:20px;"> analysis and add a new <img alt="" src=images/FEM_MaterialSolid.svg  style="width:20px;"> material to the analysis. In the upcoming task window, we select one of the predefined aluminium alloys. Under \'geometry reference selector\', we assign the material to the lower strip of our model by setting the selection mode to \'solid\', clicking \'add\' and selecting a face or an edge of the lower strip. In the list view, \'BooleanFragments:Solid1\' should show up.
 
@@ -35,7 +35,7 @@ In the FEM workbench we create a new <img alt="" src=images/FEM_Analysis.svg  st
 
 We close the task window and repeat the steps to create a second material \'Steel\' (material card \'CalculiX-Steel\') and assign it to the top strip (\'BooleanFragments:Solid2\').
 
-### Creating the mesh {#creating_the_mesh}
+### Creating the mesh 
 
 Since a Finite Element Analysis obviously needs elements to work with, we have to dissect our model into a so-called mesh. The FEM workbench offers two meshing tools: Netgen and GMSH. We will go with Netgen here: With the Boolean Fragments objects \'bimetal strip\' selected, we click on the <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:20px;"> Netgen icon in the FEM workbench. In the upcoming task window, we have to make different selections, starting from the top:
 
@@ -48,7 +48,7 @@ A click on \'Apply\' runs the mesher, and -- the time depending on your computer
 
  <img alt="" src=images/Transient_FEM_Bimetal_(3).JPG  style="width:700px;"> 
 
-### Assigning boundary conditions {#assigning_boundary_conditions}
+### Assigning boundary conditions 
 
 An FEM analysis now would result in nothing, because nothing is happening to our model yet. So let's add some temperature: Use the <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:20px;"> initial temperature from the FEM workbench and set the temperature to 300 K. Here, no parts of the model can be selected, since this setting applies to the complete model.
 
@@ -60,7 +60,7 @@ Before we can run the analysis, an additional boundary condition has to be set: 
 
  <img alt="" src=images/Transient_FEM_Bimetal_(5).JPG  style="width:700px;"> 
 
-### Running the analysis {#running_the_analysis}
+### Running the analysis 
 
 The analysis should already contain a solver object \'[CalculiXccx Tools](FEM_SolverCalculixCxxtools.md)\'. If not, we add one by using the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:20px;"> solver icon from the toolbar. (There are two identical icons, the experimental solver should also work.) The solver object has a list of properties below in the left section of the window. Here we select the following options (leave the ones unmentioned unchanged):
 
@@ -84,7 +84,7 @@ Within FreeCAD, we can use <img alt="" src=images/FEM_PostPipelineFromResult.svg
 
 -   [Example file with results (10 MB)](https://drive.google.com/file/d/157aIdVpIyfpVW9WxL-ReGz0FIsQebH_q/view?usp=sharing)
 
-## Other Example {#other_example}
+## Other Example 
 
 -   [Analytical bimetall example](https://forum.freecadweb.org/viewtopic.php?f=18&t=43040&start=10#p366664). The analytical example presented in the forum is included in FreeCAD FEM examples. It can be started by Python with
 

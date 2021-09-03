@@ -26,7 +26,7 @@ Actualmente existe un nuevo entorno de renderizado en desarrollo para soportar m
 
 <div class="mw-translate-fuzzy">
 
-## Flujo de trabajo típico {#flujo_de_trabajo_típico}
+## Flujo de trabajo típico 
 
 1.  Crea o abre un proyecto FreeCAD, agrega algunos objetos [basados en sólidos](Part_Workbench.md) (por el momento no se soportan mallas)
 2.  Crea un proyecto de trazado de rayos (luxrender o povray)
@@ -41,9 +41,9 @@ Actualmente existe un nuevo entorno de renderizado en desarrollo para soportar m
 
 *Workflow of the Raytracing Workbench; the workbench prepares a project file from a given template, and then calls an external program to produce the actual rendering of the scene. The external renderer can be used independently of FreeCAD.*
 
-### Herramientas GUI {#herramientas_gui}
+### Herramientas GUI 
 
-### Project tools {#project_tools}
+### Project tools 
 
 These are the main tools for exporting your 3D work to external renderers.
 
@@ -71,7 +71,7 @@ These are helper tools to perform specific tasks manually.
 -   [Basic Raytracing tutorial](Raytracing_tutorial.md)
 -   [Intermediate Raytracing tutorial](Tutorial_FreeCAD_POV_ray.md)
 
-## Creando el archivo povray manualmente {#creando_el_archivo_povray_manualmente}
+## Creando el archivo povray manualmente 
 
 Las herramientas descritas anteriormente te permiten exportar la vista 3D actual y todos sus contenidos a un archivo [Povray](http://www.povray.org/). Primero, debes de cargar o crear tu información de CAD y posicionar la orientación de vista 3D como desees. Después selecciona \"Utilidades-\>Exportar Vista\...\" del menu de trazado de rayos.
 
@@ -81,7 +81,7 @@ Se te solicitará la ubicación para guardar el archivo \*.pov resultante. Despu
 
 Como siempre, en un renderizador puedes hacer imágenes grandes y bonitas: <img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
 
-### Archivos de guión {#archivos_de_guión}
+### Archivos de guión 
 
 See the [Raytracing API example](Raytracing_API_example.md) for information on writing scenes programmatically.
 
@@ -98,14 +98,14 @@ Sobre POV-Ray:
 -   [LuxRender page on this wiki](LuxRender.md)
 -   <http://www.luxrender.net/>
 
-### Future possible renderers to implement {#future_possible_renderers_to_implement}
+### Future possible renderers to implement 
 
 -   <http://www.yafaray.org/>
 -   <http://www.mitsuba-renderer.org/>
 -   <http://www.kerkythea.net/>
 -   <http://www.artofillusion.org/>
 
-## Exporting to Kerkythea {#exporting_to_kerkythea}
+## Exporting to Kerkythea 
 
 Although direct export to the Kerkythea XML-File-Format is not supported yet, you can export your Objects as Mesh-Files (.obj) and then import them in Kerkythea.
 

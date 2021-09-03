@@ -13,12 +13,12 @@ See [Sketcher SketchObject](Sketcher_SketchObject.md) for more information about
 
 There are two common ways to create a Sketch: using the [Sketcher Workbench](Sketcher_Workbench.md) directly, or through the [PartDesign Workbench](PartDesign_Workbench.md).
 
-### Sketcher Workbench {#sketcher_workbench}
+### Sketcher Workbench 
 
 1.  Switch to the <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
 2.  Press **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**.
 
-### PartDesign Workbench {#partdesign_workbench}
+### PartDesign Workbench 
 
 1.  Switch to the <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign Workbench](PartDesign_Workbench.md).
 2.  Press **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.

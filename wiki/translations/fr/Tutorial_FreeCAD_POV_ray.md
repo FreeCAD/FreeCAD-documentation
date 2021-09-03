@@ -28,11 +28,11 @@ Ce tutoriel est basé sur le post de forum créé par schupin [FreeCAD / pov ray
 
 Les fichiers utilisés dans ce tutoriel sont au post \#8 [du fil en question](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
 
-## Configuration de base {#configuration_de_base}
+## Configuration de base 
 
 Suivez les étapes de base décrites dans la documentation du [Module Raytracing](Raytracing_Workbench/fr.md).
 
-Pour que le rendu direct fonctionne, l\'exécutable `povray` doit être défini dans {{MenuCommand|Edition → Préférences → Raytracing → Render → Exécutable POV-Ray}}. Définissez son emplacement dans votre système, par exemple `/usr/bin/povray`. D\'autres options utilisées par le renderer peuvent également être définies ici comprenant la largeur `+W` et la hauteur `+ H` de l\'image ainsi que l\'utilisation de l\'antialiasing `+ A} }.
+Pour que le rendu direct fonctionne, l\'exécutable `povray` doit être défini dans **Edition → Préférences → Raytracing → Render → Exécutable POV-Ray**. Définissez son emplacement dans votre système, par exemple `/usr/bin/povray`. D\'autres options utilisées par le renderer peuvent également être définies ici comprenant la largeur `+W` et la hauteur `+ H` de l\'image ainsi que l\'utilisation de l\'antialiasing `+ A} }.
 
 ==Mise en place du fichier .pov==
 
@@ -313,7 +313,7 @@ Comme indiqué dans le commentaire, la définition de `StdFinish` figure en haut
 
 En général, une `texture` est un conteneur qui décrit un matériau. Elle comprend des informations comme `pigment` (couleur ou graphique), `normal` (comment la couleur change avec la courbure de la surface), `finish` (interaction de la surface avec la lumière), `pattern` (agate, brique, bosses, léopard, radial, ondulations, mosaïque, vagues, bois, etc.) et d'autres propriétés. Il existe de nombreuses options qui peuvent être combinées pour produire une texture. Ce mélange n'est pas anodin, mais il existe de nombreux exemples en ligne pour obtenir l'aspect souhaité du matériau.
 
-#### Librairies de matériaux {#librairies_de_matériaux}
+#### Librairies de matériaux 
 
 14\. POV-Ray est livré avec une vaste bibliothèque de matétiaux pouvant être utilisés nommément. Par défaut, le modèle de projet rend disponibles certains matériaux en utilisant des instructions `#include` au début du fichier. Ces matériaux peuvent être encore modifiés à volonté. 
 ```python
@@ -328,7 +328,7 @@ Les bibliothèques standard sont situées dans le répertoire d\'installation de
 /usr/share/povray-3.7/include/
 ```
 
-#### Nouvelles textures {#nouvelles_textures}
+#### Nouvelles textures 
 
 15\. Par exemple, pour créer une texture miroir, `finish` reçoit une valeur élevée de `reflection`. 
 ```python
@@ -395,7 +395,7 @@ object {Pov_Body001
 
 *align=center|A partir du modèle standard, rendu de la scène avec POV-Ray avec la source de lumière et sky sphere configurées.*
 
-### Préparation des plans {#préparation_des_plans}
+### Préparation des plans 
 
 16\. S\'ils ne sont pas fournis par le modèle 3D d\'origine, des plans peuvent être ajoutés pour simuler un sol ou une table sur laquelle les objets se tiennent. Plusieurs plans peuvent être définis pour servir de murs ou d'autres types de limites.
 
@@ -494,7 +494,7 @@ plane {
 
 *align=center|A partir du modèle standard, le rendu de la scène avec POV-Ray, avec la source de lumière et sky sphere configurée, des matériaux assignés, un plan d'étage avec une texture de parquet et des murs arrière avec des textures de cloison sèche.*
 
-### Préparation des paramètres globaux, de la radiosité {#préparation_des_paramètres_globaux_de_la_radiosité}
+### Préparation des paramètres globaux, de la radiosité 
 
 19\. Les paramètres globaux définissent la lumière ambiante.
 
@@ -629,7 +629,7 @@ Le [Module Raytracing](Raytracing_Workbench/fr.md) a trois modèles par défaut:
 
 -    `RadiosityOutdoorHQ.pov`utilise le préréglage `Radiosity_OutdoorHQ`.
 
-## Rendu final {#rendu_final}
+## Rendu final 
 
 21\. Le fichier modifié `.pov` peut être sauvegardé lorsque tous les réglages ont été effectués.
 
@@ -821,7 +821,7 @@ light_source {
 
 </div>
 
-## Notes Finales {#notes_finales}
+## Notes Finales 
 
 POV-Ray est un logiciel relativement ancien, publié pour la première fois au début des années 90. Ses principaux avantages par rapport aux logiciels plus modernes:
 

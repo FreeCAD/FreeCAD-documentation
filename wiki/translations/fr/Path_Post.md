@@ -23,12 +23,12 @@ Le bouton **<img src="images/Path_PostProcess.svg" width=16px> [Post-traitement]
 
 **Chaque contrôleur CNC utilise un langage G-Code spécifique, nécessitant un Post-processeur correcteur de langage pour traduire la sortie finale du langage G-Code FreeCAD interne agnostique.**
 
-### Typical functions of the Postprocessor include {#typical_functions_of_the_postprocessor_include}
+### Typical functions of the Postprocessor include 
 
 
 <div class="mw-translate-fuzzy">
 
-### Les fonctions typiques du postprocesseur incluent {#les_fonctions_typiques_du_postprocesseur_incluent}
+### Les fonctions typiques du postprocesseur incluent 
 
 Les fonctions typiques du Post-processeur incluent:
 
@@ -44,12 +44,12 @@ Les fonctions typiques du Post-processeur incluent:
 
 </div>
 
-### Postprocessor Customization {#postprocessor_customization}
+### Postprocessor Customization 
 
 
 <div class="mw-translate-fuzzy">
 
-### Personnalisation du postprocessor {#personnalisation_du_postprocessor}
+### Personnalisation du postprocessor 
 
 Si vous souhaitez écrire votre propre postprocesseur, consultez la page [Path Personnalisation du postprocesseur](Path_Postprocessor_Customization/fr.md).
 
@@ -144,7 +144,7 @@ Les post-processeurs inclus sont enregistrés dans le fichier **FreeCAD.Mod.Path
 
 <div class="mw-translate-fuzzy">
 
-## Limitations {#limitations_1}
+## Limitations 
 
 N\'utilisez **pas** le menu **File** → **Export**\'\'\' pour exporter vers le G-code, cela produirait un G-code endommagé!
 

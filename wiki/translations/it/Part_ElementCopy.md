@@ -23,7 +23,7 @@ Per produrre copie complete non parametriche degli oggetti utilizzare **<img src
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un vertice, un bordo o una faccia di un oggetto di cui si desidera fare una copia.
-2.  Andare nel menu {{MenuCommand|Part → Crea una copia → <img src=images/Part_ElementCopy.svg style="width:16px"> [Copia un elemento](Part_ElementCopy/it.md)}}.
+2.  Andare nel menu **Part → Crea una copia → <img src=images/Part_ElementCopy.svg style="width:16px"> [Copia un elemento](Part_ElementCopy/it.md)**.
 
 
 </div>

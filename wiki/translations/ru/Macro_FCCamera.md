@@ -55,7 +55,7 @@ This macro can rotate the screen in a defined angle and the defined axis and cre
 
 -    ** <img src=images/FCCamera_08.png style="width:24px"> Quit.**: Quit FCCamera.
 
-## Section Photo {#section_photo}
+## Section Photo 
 
 ![FCCamera](images/Macro_FCCamera_00b.png ) 
 
@@ -128,7 +128,7 @@ Download the macro to Gist [**Macro FCCamera.FCMacro**](https://gist.github.com/
 
 ## Примеры
 
-### How to place an angle hole {#how_to_place_an_angle_hole}
+### How to place an angle hole 
 
 
 <center>

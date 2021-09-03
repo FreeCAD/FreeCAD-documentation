@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Questa è la pianificazione del progetto per la parte del [Piano di sviluppo](Development_roadmap/it.md) di FreeCAD.
 
-## Finalità e principi {#finalità_e_principi}
+## Finalità e principi 
 
 Migliorare la capacità di utilizzare più lingue in FreeCAD implementando il supporto per i caratteri UTF all\'interno dell\'interfaccia Coin3D.
 
@@ -30,7 +30,7 @@ Nonostante ora Coin3D sia passato a una piattaforma di sviluppo più aperta, è 
 
 -   Test rigorosi
 
-## Azioni successive {#azioni_successive}
+## Azioni successive 
 
 -   Implementare la classe di gestione delle stringhe UTF Classe (WIP)
 

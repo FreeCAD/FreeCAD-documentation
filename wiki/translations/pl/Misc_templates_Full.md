@@ -8,7 +8,7 @@ dla Windows: \"C:\\Program Files\\FreeCAD 0.16\\data\\Mod\\Drawing\\Templates\"
 
 dla Linux: \"\"
 
-## Wzór angielski {#wzór_angielski}
+## Wzór angielski 
 
 ### A3\_Landscape\_US
 

@@ -17,8 +17,8 @@ Der **Std AnsichtEinpassenAlles**-Befehl zoomt und schwenkt, bis alle sichtbaren
 
 1.  Es gibt mehrere Wege, den ViewFitAll Befehl aufzurufen:
     -   Drücke die **<img src="images/Std_ViewFitAll.svg" width=16px> [Std AnsichtEinpassenAlles](Std_ViewFitAll/de.md)**-Schaltfläche.
-    -   Wähle die {{MenuCommand|Ansicht → Standardansicht → <img src="images/Std_ViewFitAll.svg" width=16px> Alles einpassen}}-Option aus dem Menü.
-    -   Wähle die {{MenuCommand|Ansicht → Standardansichten → <img src="images/Std_ViewFitAll.svg" width=16px>Alles einpassen}}-Option aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü.
+    -   Wähle die **Ansicht → Standardansicht → <img src="images/Std_ViewFitAll.svg" width=16px> Alles einpassen**-Option aus dem Menü.
+    -   Wähle die **Ansicht → Standardansichten → <img src="images/Std_ViewFitAll.svg" width=16px>Alles einpassen**-Option aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü.
     -   Benutze den Tastaturkurzbefehl **V**, dann **F**.
 
 ## Hinweise

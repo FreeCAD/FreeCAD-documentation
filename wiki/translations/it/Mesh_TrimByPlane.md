@@ -18,12 +18,12 @@ Il comando **Rifila con un piano** taglia facce e parti di facce su un lato di u
 
 1.  Selezionare un singolo oggetto mesh e un singolo [piano di Part](Part_Primitives/it.md). Il piano (esteso) deve intersecare l\'oggetto mesh.
 
-2.  Selezionare l\'opzione {{MenuCommand|Mesh → Taglio → <img src="images/Mesh_TrimByPlane.svg" width=16px> Rifila con un piano}} dal menu.
+2.  Selezionare l\'opzione **Mesh → Taglio → <img src="images/Mesh_TrimByPlane.svg" width=16px> Rifila con un piano** dal menu.
 
-3.  Si apre la finestra di dialogo {{MenuCommand|Rifila con un piano}}.
+3.  Si apre la finestra di dialogo **Rifila con un piano**.
 
 4.  
-    {{MenuCommand|Selezionare il lato da mantenere}}premendo uno dei pulsanti:
+    **Selezionare il lato da mantenere**premendo uno dei pulsanti:
 
     -   
         {{button|Sopra}}

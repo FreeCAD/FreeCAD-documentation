@@ -18,9 +18,9 @@ Si le mode de la vue en arborescence [Synchroniser la sélection](Std_TreeSyncSe
 
 1.  Sélectionnez un ou plusieurs objets dans une vue 3D.
 2.  Il existe plusieurs façons d\'appeler la commande:
-3.  \* Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option {{MenuCommand|<img src="images/Std_TreeSelection.svg" width=16px> Aller à la sélection}} dans le menu déroulant. Remarque: l\'image du bouton changera en fonction de l\'option sélectionnée.
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Configuration de l'arborescence → <img src="images/Std_TreeSelection.svg" width=16px> Aller à la sélection}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/Std_TreeSelection.svg" width=16px> Aller à la sélection}} dans le menu contextuel de la vue 3D.
+3.  \* Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **<img src="images/Std_TreeSelection.svg" width=16px> Aller à la sélection** dans le menu déroulant. Remarque: l\'image du bouton changera en fonction de l\'option sélectionnée.
+    -   Sélectionnez l\'option **Affichage → Configuration de l'arborescence → <img src="images/Std_TreeSelection.svg" width=16px> Aller à la sélection** dans le menu.
+    -   Sélectionnez l\'option **<img src="images/Std_TreeSelection.svg" width=16px> Aller à la sélection** dans le menu contextuel de la vue 3D.
     -   Utilisez le raccourci clavier: **T** puis **G**.
 
 

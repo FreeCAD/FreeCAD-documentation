@@ -48,7 +48,7 @@ La commande \"DB\" **Créer une distribution binaire** de l\'arborescence source
 
 La commande \"DI\" **crée une distribution d\'installation** de l\'arborescence source en court.
 
-### DistSetup {#distsetup_1}
+### DistSetup 
 
 La commande \"DUI\" **crée une distribution de configuration utilisateur** de l\'arborescence source en court.
 

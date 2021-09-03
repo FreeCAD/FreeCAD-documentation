@@ -1,6 +1,6 @@
 
 
-## Ceci est une liste de fichiers OpenSCAD qui ne peuvent pas être ouverts dans FreeCAD {#ceci_est_une_liste_de_fichiers_openscad_qui_ne_peuvent_pas_être_ouverts_dans_freecad}
+## Ceci est une liste de fichiers OpenSCAD qui ne peuvent pas être ouverts dans FreeCAD 
 
   --------------------------------- ------------------------------------------ ------------------------------------------------------------------ --------------------------------------------------------------------------------- ------------------------------------------
   **Description**                   **Source**                                 **Raison**                                                         **Réparation interactive connue**                                                 **Version fixe disponible**
@@ -11,7 +11,7 @@
   Bibliothèque de vis               <http://www.thingiverse.com/thing:8793>    renvoie des maillages avec des sommets en double                   non                                                                               non
   --------------------------------- ------------------------------------------ ------------------------------------------------------------------ --------------------------------------------------------------------------------- ------------------------------------------
 
-## Ceci est une liste de fichiers OpenSCAD qui peuvent être ouverts dans FreeCAD sans aucun problème {#ceci_est_une_liste_de_fichiers_openscad_qui_peuvent_être_ouverts_dans_freecad_sans_aucun_problème}
+## Ceci est une liste de fichiers OpenSCAD qui peuvent être ouverts dans FreeCAD sans aucun problème 
 
   ------------- ------------------------------------------
   Description   Source

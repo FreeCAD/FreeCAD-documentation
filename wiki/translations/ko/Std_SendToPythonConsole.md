@@ -25,8 +25,8 @@
 
 1.  단일 개체를 선택합니다.
 2.  이 명령을 실행하는 방법은 여러 가지입니다:
-    -   메뉴에서 {{MenuCommand|편집 → <img src="images/Std_SendToPythonConsole.svg" width=16px> 파이썬 콘솔로 보내기}} 옵션을 선택합니다.
-    -   [트리 보기의](Tree_view/ko.md) 상황에 맞는 메뉴 혹은 [3D 보기의](3D_view/ko.md) 상황에 맞는 메뉴에서 {{MenuCommand|<img src="images/Std_SendToPythonConsole.svg" width=16px> 파이썬 콘솔로 보내기}} 옵션을 선택합니다.
+    -   메뉴에서 **편집 → <img src="images/Std_SendToPythonConsole.svg" width=16px> 파이썬 콘솔로 보내기** 옵션을 선택합니다.
+    -   [트리 보기의](Tree_view/ko.md) 상황에 맞는 메뉴 혹은 [3D 보기의](3D_view/ko.md) 상황에 맞는 메뉴에서 **<img src="images/Std_SendToPythonConsole.svg" width=16px> 파이썬 콘솔로 보내기** 옵션을 선택합니다.
     -   단축키를 사용합니다: **Ctrl**+**Shift**+**P**.
 
 

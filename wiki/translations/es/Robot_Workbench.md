@@ -48,7 +48,7 @@ Las herramientas para crear y manejar los robots de 6 ejes
 
 Herramientas para crear y manipular trayectorias. Existen dos tipos, las paramétricas y las no paramétricas.
 
-#### Trayectorias no paramétricas {#trayectorias_no_paramétricas}
+#### Trayectorias no paramétricas 
 
 -   <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:30px;"> [Crea una trayectoria](Robot_CreateTrajectory/es.md): Inserta una nuevo objeto de trayectoria vacía en la escena
 -   <img alt="" src=images/Robot_SetDefaultOrientation.svg  style="width:30px;"> [Establece la orientación por defecto](Robot_SetDefaultOrientation/es.md): Establece la orientación en los puntos de paso creados por defecto
@@ -56,13 +56,13 @@ Herramientas para crear y manipular trayectorias. Existen dos tipos, las paramé
 -   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:30px;"> [Inserta un punto de paso](Robot_InsertWaypoint/es.md): Inserta un punto de paso desde la posición actual del robot en una trayectoria
 -   <img alt="" src=images/Robot_InsertWaypointPre.svg  style="width:30px;"> [Inserta un punto de paso](Robot_InsertWaypointPre/es.md): Inserta un punto de paso desde las posición actual del ratón en una trayectoria
 
-#### Trayectorias Paramétricas {#trayectorias_paramétricas}
+#### Trayectorias Paramétricas 
 
 -   ![ 30px](images/Robot_Edge2Trac.svg ) [Create a trajectory out of edges](Robot_Edge2Trac/es.md): Inserta un nuevo objeto que descompone los bordes en una trayectoria
 -   ![ 30px](images/Robot_TrajectoryDressUp.svg ) [Dress-up a trajectory](Robot_TrajectoryDressUp/es.md): Le permite sobreescribir una o más propiedades de una trayectoria
 -   ![ 30px](images/Robot_TrajectoryCompound.svg ) [Trajectory compound](Robot_TrajectoryCompound/es.md): crea un compuesto a partir de algunas trayectorias individuales
 
-## Archivos de guión {#archivos_de_guión}
+## Archivos de guión 
 
 Ver el [Ejemplo de la API del Robot](Robot_API_example/es.md) para ver una descripción de las funciones utilizadas para modelar los desplazamientos del robot.
 

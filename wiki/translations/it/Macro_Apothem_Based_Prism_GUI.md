@@ -20,7 +20,7 @@ Copiare la macro nella propria directory delle Macro di FreeCAD. Poi eseguire la
 
 Quando viene eseguita, la Macro presenta all\'utente la finestra di dialogo che si vede nella figura sottostante. Per prima cosa inserire la distanza che si vuole avere tra le facce. Per la distanza si può usare qualsiasi valore, anche decimale, ma non una frazione. Dopo, inserire il numero di lati. Questo numero deve essere un numero intero e deve essere un numero pari e per ottenere dei risultati soddisfacenti. Infine, inserire l\'altezza del prisma. Di nuovo, si può usare qualsiasi valore, anche decimale. Fare clic su OK per creare il prisma nel documento. ![](images/ABP_Screenshot.png )
 
-## La Macro {#la_macro}
+## La Macro 
 
 ToolBar Icon ![](images/Part_Prism_Apothem.svg )
 

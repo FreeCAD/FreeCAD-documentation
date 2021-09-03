@@ -1,15 +1,15 @@
 Future home of the FreeCAD Dependency Matrix: Current preparation work happening in: <https://docs.google.com/spreadsheets/d/1ar6FyCoRdxFBgx5huSU9Zl655AHlbZpe8z9XLgtRMUE/edit#gid=0>
 
-## About Dependency Matrix {#about_dependency_matrix}
+## About Dependency Matrix 
 
 FreeCAD relies on many 3rd party libraries and applications. Integrating them and packaging them is a feat in itself. This page tries to ascertain which 3rd party versions work with specific versions of FC. This page right now is only relevant for FreeCAD 0.17 and higher
 
-### FreeCAD 0.17dev {#freecad_0.17dev}
+### FreeCAD 0.17dev 
 
 +------------------------+--------------------------------------+----------------------------------------+----------------------------------------+--------------------------------------+--------------------------------------+
 |                        | \'\'\'                               | \'\'\'                                 | \'\'\'                                 | \'\'\'                               | \'\'\'                               |
 |                        |                                      |                                        |                                        |                                      |                                      |
-|                        | ### Windows 7 X86 {#windows_7_x86}   | ### Windows 8.1 X86 {#windows_8.1_x86} | ### Windows 8.1 X64 {#windows_8.1_x64} | ### Windows 10 X86 {#windows_10_x86} | ### Windows 10 X64 {#windows_10_x64} |
+|                        | ### Windows 7 X86    | ### Windows 8.1 X86  | ### Windows 8.1 X64  | ### Windows 10 X86  | ### Windows 10 X64  |
 |                        |                                      |                                        |                                        |                                      |                                      |
 |                        | \'\'\'                               | \'\'\'                                 | \'\'\'                                 | \'\'\'                               | \'\'\'                               |
 +------------------------+--------------------------------------+----------------------------------------+----------------------------------------+--------------------------------------+--------------------------------------+
@@ -43,7 +43,7 @@ FreeCAD relies on many 3rd party libraries and applications. Integrating them an
 +------------------------+--------------------------------------+----------------------------------------+----------------------------------------+--------------------------------------+--------------------------------------+
 |                        | \'\'\'                               | \'\'\'                                 | \'\'\'                                 |                                      |                                      |
 |                        |                                      |                                        |                                        |                                      |                                      |
-|                        | ### OSX 10.10 {#osx_10.10}           | ### OSX 10.11 {#osx_10.11}             | ### macOS 10.12 {#macos_10.12}         |                                      |                                      |
+|                        | ### OSX 10.10            | ### OSX 10.11              | ### macOS 10.12          |                                      |                                      |
 |                        |                                      |                                        |                                        |                                      |                                      |
 |                        | \'\'\'                               | \'\'\'                                 | \'\'\'                                 |                                      |                                      |
 +------------------------+--------------------------------------+----------------------------------------+----------------------------------------+--------------------------------------+--------------------------------------+
@@ -67,7 +67,7 @@ FreeCAD relies on many 3rd party libraries and applications. Integrating them an
 +------------------------+--------------------------------------+----------------------------------------+----------------------------------------+--------------------------------------+--------------------------------------+
 |                        | \'\'\'                               | \'\'\'                                 | \'\'\'                                 | \'\'\'                               | \'\'\'                               |
 |                        |                                      |                                        |                                        |                                      |                                      |
-|                        | ### RedHat 6.6 x64 {#redhat_6.6_x64} | ### OpenSuse 42.1 {#opensuse_42.1}     | ### Ubuntu 14.04 {#ubuntu_14.04}       | ### RedHat 7.2 x64 {#redhat_7.2_x64} | ### Ubuntu 16.04 {#ubuntu_16.04}     |
+|                        | ### RedHat 6.6 x64  | ### OpenSuse 42.1      | ### Ubuntu 14.04        | ### RedHat 7.2 x64  | ### Ubuntu 16.04      |
 |                        |                                      |                                        |                                        |                                      |                                      |
 |                        | \'\'\'                               | \'\'\'                                 | \'\'\'                                 | \'\'\'                               | \'\'\'                               |
 +------------------------+--------------------------------------+----------------------------------------+----------------------------------------+--------------------------------------+--------------------------------------+
@@ -86,7 +86,7 @@ FreeCAD relies on many 3rd party libraries and applications. Integrating them an
 |                        |                                      |                                        |                                        |                                      |                                      |
 +------------------------+--------------------------------------+----------------------------------------+----------------------------------------+--------------------------------------+--------------------------------------+
 
-## List of dependencies {#list_of_dependencies}
+## List of dependencies 
 
 -   [CMake](https://gitlab.kitware.com/cmake/cmake) - a cross-platform, open-source build system.
 

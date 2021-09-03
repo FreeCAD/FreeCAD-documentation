@@ -39,17 +39,17 @@ Einrichten mit dem <img alt="" src=images/AddonManager.svg  style="width:24px;">
 
 ## Beispiele
 
-Der CadAbfrage Arbeitsbereich enthält Beispielskripte, die unter {{MenuCommand|CadAbfrage → Beispiele → ...}} Einträge im oberen Menü verfügbar sind.
+Der CadAbfrage Arbeitsbereich enthält Beispielskripte, die unter **CadAbfrage → Beispiele → ...** Einträge im oberen Menü verfügbar sind.
 
 Andere Beispiele:
 
 -   Prusa i3 Extruder Unterstützung (direkt verfügbar als Arbeitsbereichs Beispielskript **Ex032\_3D\_Printer\_Extruder\_Support**): <https://github.com/adam-urbanczyk/cadquery-models>
 
-## Neueste CadAbfrage {#neueste_cadabfrage}
+## Neueste CadAbfrage 
 
 Die neueste Version von CadAbfrage nutzt nicht mehr FreeCAD und ist nicht mit dem CadAbfrage Arbeitsbereich kompatibel. Wenn du an der neuesten Version interessiert bist, wirf einen Blick auf das [CadAbfrage Python Modul](https://github.com/CadQuery/cadquery) und den [CadAbfrage Grafischen Editor](https://github.com/CadQuery/CQ-editor).
 
-## Andere nützliche Verweise {#andere_nützliche_verweise}
+## Andere nützliche Verweise 
 
 -   <https://github.com/easyw/kicad-3d-models-in-freecad>
 -   [Makrorezepte](Macros_recipes/de.md)

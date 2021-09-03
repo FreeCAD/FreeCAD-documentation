@@ -6,11 +6,11 @@
 
 {{TOCright}}
 
-## SVG templates creation {#svg_templates_creation}
+## SVG templates creation 
 
 Creating templates for the Drawing module is very easy. See also the tutorial [Drawing Template HowTo](Drawing_Template_HowTo.md). Templates are svg files, created with any application capable of exporting svg files, such as [Inkscape](http://www.inkscape.org). However, you will often need to open the svg file in a text editor afterwards, to comply with the following rules. Only two rules must be followed:
 
-### Base rules {#base_rules}
+### Base rules 
 
 
 <div class="mw-translate-fuzzy">
@@ -55,7 +55,7 @@ This text above (which is actually an XML comment) must be on a separate line, a
 
 xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
-### Title block {#title_block}
+### Title block 
 
 In addition to these rules, since FreeCAD 0.14, information about the Border and Title block can be added to the template for use by the orthographic projection tool. This information defines where FreeCAD can, and can not place the projections.
 
@@ -119,7 +119,7 @@ viewBox="0 0 xxx yyy"
 
 </div>
 
-## DXF templates {#dxf_templates}
+## DXF templates 
 
 Since version 0.15, FreeCAD can reliably export a [Drawing](Drawing_Workbench.md) page to the DXF format. This system also uses templates. If a dxf file with the same name is found in the same folder as the SVG template used for a page, it will be used for export. If not, a default empty template is created on the fly.
 
@@ -165,7 +165,7 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-## A3 templates {#a3_templates}
+## A3 templates 
 
 
 </div>
@@ -223,7 +223,7 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-## Plantillas A4 {#plantillas_a4}
+## Plantillas A4 
 
 
 </div>
@@ -251,7 +251,7 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-## Plantillas US Letter {#plantillas_us_letter}
+## Plantillas US Letter 
 
 
 </div>
@@ -259,7 +259,7 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-### Apaisadas: {#apaisadas_1}
+### Apaisadas: 
 
 
 </div>
@@ -269,26 +269,26 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-### Vertical: {#vertical_1}
+### Vertical: 
 
 
 </div>
 
 <img alt="" src=images/US_Letter_portrait.svg  style="width:400px;">
 
-### US Letter ds Landscape: {#us_letter_ds_landscape}
+### US Letter ds Landscape: 
 
 <img alt="" src=images/US_Letter_ds_Landscape.svg  style="width:800px;">
 
-### US Legal ds Landscape: {#us_legal_ds_landscape}
+### US Legal ds Landscape: 
 
 <img alt="" src=images/US_Legal_ds_Landscape.svg  style="width:800px;">
 
-### US Ledger ds Landscape: {#us_ledger_ds_landscape}
+### US Ledger ds Landscape: 
 
 <img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width:800px;">
 
-## Other standards available {#other_standards_available}
+## Other standards available 
 
 -   [ANSI templates](ANSI_templates.md): according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
 -   [Arch templates](Arch_templates.md): according to American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard

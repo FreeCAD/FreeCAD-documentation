@@ -24,7 +24,7 @@ The Path Pocket Shape object is made to be part of a <img alt="" src=images/Path
 1.  Select the bottom or the wall(s) of a pocket. While it is usually easier to select the bottom, the walls have to be selected when a pocket goes through all.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_Pocket_Shape.svg" width=16px> [Path Pocket Shape](Path_Pocket_Shape.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_Pocket_Shape.svg" width=16px> Pocket Shape}} option from the menu.
+    -   Select the **Path → <img src="images/Path_Pocket_Shape.svg" width=16px> Pocket Shape** option from the menu.
 3.  Adjust the desired properties.
 
 ## Properties
@@ -150,17 +150,17 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
 
-#### Start Point {#start_point}
+#### Start Point 
 
 -    **Start Point**: The start point of this path
 
 -    **Use Start Point**: make True, if manually specifying a Start Point, then enter Start Points in the property data Start Points field
 
-## Tasks Window Editor Layout {#tasks_window_editor_layout}
+## Tasks Window Editor Layout 
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Geometry {#base_geometry}
+#### Base Geometry 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: delete the selected item(s) in the Base Geometry list
@@ -182,7 +182,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -   **Clear**
 
-#### Depth {#depth_1}
+#### Depth 
 
 -    **Start Depth**
     

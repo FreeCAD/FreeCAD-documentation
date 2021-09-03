@@ -12,7 +12,7 @@
 
 Crée une primitive d\'addition dans le corps actif en tant que première entité ou la fusionne avec la ou les entités existantes. Si aucun corps n\'est trouvé dans le document, un corps sera automatiquement créé.
 
-## Types de primitives {#types_de_primitives}
+## Types de primitives 
 
 -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Cube additif](PartDesign_AdditiveBox/fr.md)
 -   <img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Cône additif](PartDesign_AdditiveCone/fr.md)

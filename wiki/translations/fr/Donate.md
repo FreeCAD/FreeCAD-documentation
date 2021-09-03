@@ -10,7 +10,7 @@ Don rapide: <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [le 
 
 Voir les autre options pour [aider le projet](Help_FreeCAD/fr.md) (documentation, traduction).
 
-## Les options {#les_options}
+## Les options 
 
 -   FreeCAD dispose d\'un compte officiel [Compte de l\'équipe FreeCAD](https://liberapay.com/FreeCAD), sur lequel vous pouvez faire un don par carte de crédit, paypal ou virement bancaire SEPA. L\'argent reçu sur ce compte est réparti à parts égales entre tous les développeurs participants (une liste est affichée sur la page Liberapay). C\'est actuellement la meilleure option car elle permet d\'aider directement les développeurs.
 
@@ -37,7 +37,7 @@ Voir les autre options pour [aider le projet](Help_FreeCAD/fr.md) (documentation
 -   D\'autres développeurs pourraient être intéressés par un travail spécifique pour le projet; si vous souhaitez accélérer le développement d\'une idée ou d\'une fonctionnalité, envisagez d\'employer un développeur. C\'est à vous de développer une idée, d\'en discuter sur le forum et de trouver des développeurs intéressés par le projet. Vous pouvez proposer un emploi sur le [Sous-forum des offres d\'emploi](https://forum.freecadweb.org/viewforum.php?f=31).
 -   Les emplois de modélisation sont également les bienvenus. Tous les utilisateurs expérimentés de FreeCAD ne sont pas des développeurs. Les utilisateurs expérimentés peuvent vous aider à migrer vos projets vers FreeCAD, ce qui contribue à populariser le logiciel dans les organisations. Voir [FreeCAD used in production](FreeCAD_used_in_production.md).
 
-## La situation {#la_situation}
+## La situation 
 
 Pour l\'instant, FreeCAD est un très petit projet avec une équipe de développeurs limitée. La plupart d\'entre nous ont un travail quotidien, et travaillent sur FreeCAD pendant leur temps libre. Avoir plus d\'argent ne changerait pas cette situation de manière significative. Cependant, certains d\'entre nous ont un horaire de travail plus flexible où l\'argent peut faire la différence.
 

@@ -23,7 +23,7 @@
 2.  Appelez la commande Arch Niveau de plusieurs manières:
     -   En appuyant sur le bouton **<img src="images/Arch_Floor.svg" width=16px> [Crée un niveau, objet Part Construction...](Arch_Floor/fr.md)** dans la barre d\'outils.
     -   Utilisation des touches **L** puis **V**.
-    -   Utilisation de l\'entrée {{MenuCommand|Arch → Niveau}} dans le menu supérieur.
+    -   Utilisation de l\'entrée **Arch → Niveau** dans le menu supérieur.
 
 ## Options
 

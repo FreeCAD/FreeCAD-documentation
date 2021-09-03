@@ -11,7 +11,7 @@ Versioni precedenti: ([0.11 en](Release_notes_011.md)) - [0.12](Release_notes_01
 -   **Preferenze di colore**: siete stufi del tradizionale aspetto predefinito (forme-grige-con-linee-nere) di FreeCAD? Ora è modificabile nelle preferenze utente (menu **Modifica → Preferenze → Visualizzazione → Colori**), insieme a diversi altri colori predefiniti.
 -   **Allineamento**: con questo nuovo strumento disponibile nel menu Modifica si possono allineare tra loro due forme utilizzando fino a tre punti.
 
-## Modulo Drawing - Disegno in Proiezione {#modulo_drawing___disegno_in_proiezione}
+## Modulo Drawing - Disegno in Proiezione 
 
 -   **Operazione Ritaglio**: Un nuovo oggetto di [Ritaglio](Drawing_Clip/it.md) consente di posizionare le viste di oggetti all\'interno di rettangoli ritagliati nelle pagine di disegno.
 -   **Blocchi di titoli editabili**: Durante la progettazione dei [Modelli di squadrature](Drawing_templates/it.md), ora è possibile marcare i testi modificabili. Tali testi diventano quindi direttamente modificabili in FreeCAD.
@@ -21,7 +21,7 @@ Versioni precedenti: ([0.11 en](Release_notes_011.md)) - [0.12](Release_notes_01
 -   **Esportazione DXF**: ora è possibile esportare una vista di una pagina direttamente in un file DXF.
 -   Alcune correzioni di bug permettono ora di stampare le pagine in scala.
 
-## Modulo Schizzo {#modulo_schizzo}
+## Modulo Schizzo 
 
 -   **Creare dei punti**
 
@@ -67,7 +67,7 @@ Le geometrie (punti, linee e curve) possono essere selezionate trascinando il mo
     -   Quando si costruisce la geometria, accanto al cursore viene visualizzata la punta dell\'utensile con le relative informazioni.
     -   **Sketch view** which sets the 3D view perpendicular to the sketch plane has now an icon in the Sketcher toolbar.
 
-## Modulo Draft - Disegno 2D {#modulo_draft___disegno_2d}
+## Modulo Draft - Disegno 2D 
 
 -   **Modo di lavoro**: Ora, di default, nel modulo Draft è attiva la modalità Vista delle attività (Finestra attività). Se si preferisce la modalità Barra degli strumenti, essa è ancora disponibile nelle impostazioni delle preferenze di Draft (Modifica → Preferenze → Draft → Modalità interfaccia →).
 -   **Importatore DXF**: L\'importatore di file .DXF ora supporta i punti (tradotti come [punti di Draft](Draft_Point/it.md)) e le linee (tradotte come [spezzate di Draft](Draft_Wire/it.md))
@@ -87,7 +87,7 @@ Le geometrie (punti, linee e curve) possono essere selezionate trascinando il mo
 
 ![800px](images/013-draft-shape2dview.jpg)
 
-## Modulo Architettura {#modulo_architettura}
+## Modulo Architettura 
 
 -   **Integrazione con Draft**: I moduli **Architettura** e **Draft** ora sono strettamente integrati. Gli strumenti di Arch utilizzano il sistema di [ancoraggio](Draft_Snap/it.md) di Draft, e tutti gli strumenti di Draft sono presenti nell\'ambiente Architettura. Infatti, se si desidera, è possibile disattivare completamente il modulo Draft (Modifica → Preferenze → Draft → Nascondi l\'ambiente Draft).
 -   **Nuovo strumento Muro**: Lo strumento [Muro](Arch_Wall/it.md) è stato notevolmente migliorato. Ora dispone di una modalità di disegno diretta, che si attiva quando si preme il pulsante Muro senza alcun oggetto selezionato, questo consente di disegnare i muri come si disegnano semplici linee. Inoltre, ora, quando si aggancia un muro esistente, la connessione tra le pareti è automatica.
@@ -115,7 +115,7 @@ Le geometrie (punti, linee e curve) possono essere selezionate trascinando il mo
 
 -   **Oggetti Architettura da oggetti Meshes**: Ora [Muri](Arch_Wall/it.md) e [Strutture](Arch_Structure/it.md) possono essere creati direttamente da oggetti maglia, purché questi siano ​​chiusi, solidi e tutti i bordi siano [manifold](http://doc.spatial.com/index.php/Manifold_and_Non-manifold_Objects). Questo consente di trasformare molto rapidamente le geometrie importate da altre applicazioni, quali [Blender](http://www.blender.org), in oggetti Arch validi.
 
-## Modulo Parte {#modulo_parte}
+## Modulo Parte 
 
 -   **Affina la forma** è una nuova utility che pulisce le facce dopo l\'esecuzione di alcune operazioni su una forma. Può essere impostata per essere eseguita automaticamente dopo le operazioni booleane nelle Preferenze.
 -   **Nuovo strumento Loft** estrusione modellata, può estrudere un complesso insieme di superfici o una forma solida attraverso una serie di schizzi o oggetti Draft.
@@ -124,7 +124,7 @@ Le geometrie (punti, linee e curve) possono essere selezionate trascinando il mo
 -   **Nuovo strumento Thickness** può produrre una forma solida impostando uno spessore e creare aperture in una o più facce.
 -   **Costruzione di forme** e **Creazione di primitive** ora fanno parte della barra degli strumenti e sono rapidamente accessibili.
 
-## Modulo Progettazione Parte {#modulo_progettazione_parte}
+## Modulo Progettazione Parte 
 
 -   **Estrusione** e **Scavo** ora sono più potenti grazie alla disponibilità di maggiori parametri, come ad esempio estrusione fino al primo, fino all\'ultimo, fino alla faccia, 2 dimensioni, simmetrica al piano.
 -   **Smusso** e **Raccordo** sono stati aggiornati: ora è possibile selezionare una faccia e tutti i bordi esterni e interni della faccia vengono elaborati.
@@ -133,11 +133,11 @@ Le geometrie (punti, linee e curve) possono essere selezionate trascinando il mo
 -   **Linear pattern**, **Polar pattern** e **Multipattern** sono dei nuovi strumenti che consentono di creare e distribuire schiere di estrusioni o di scavi su una forma.
 -   **Shaft Wizard** che fornisce asssistenza nella progettazione di alberi.
 
-## Modulo Navale (Ship module) {#modulo_navale_ship_module}
+## Modulo Navale (Ship module) 
 
 -   Nuovo modulo navale ([tutorial](FreeCAD-Ship_s60_tutorial/it.md))
 
-## Mouse 3D {#mouse_3d}
+## Mouse 3D 
 
 -   Alla versione per Windows è stato aggiunto il supporto per i mouse 3D (Spaceball, Space Navigator).
 -   Nella finestra di dialogo per la personalizzazione la nuova scheda **Motion Spaceball** permette di regolare la precisione del mouse 3D ai parametri che si desidera, direttamente da FreeCAD.
@@ -145,7 +145,7 @@ Le geometrie (punti, linee e curve) possono essere selezionate trascinando il mo
 
 <div class="mw-translate-fuzzy">
 
-## Modulo OpenSCAD {#modulo_openscad}
+## Modulo OpenSCAD 
 
 -   Questo nuovo modulo (sperimentale) fornisce la capacità di importare file OpenSCAD in FreeCAD. Questo formato di file è molto popolare nella comunità RepRap e sul sito Thingiverse per condividere disegni digitali.
 

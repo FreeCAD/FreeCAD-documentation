@@ -33,7 +33,7 @@ For a more general solution, see the [Reporting Workbench](https://github.com/fu
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -49,7 +49,7 @@ For a more general solution, see the [Reporting Workbench](https://github.com/fu
 
 </div>
 
-## Plan de lucru {#plan_de_lucru}
+## Plan de lucru 
 
 First you need to have a model. For example, here is a document with a couple of objects. I did Arch stuff here, but it doesn\'t need to be Arch, it can be anything.
 
@@ -113,9 +113,9 @@ By double-clicking the Schedule object, you get back to the task panel and chang
 
 The spreadsheet can then be exported to csv normally, from the Spreadsheet workbench.
 
-## Dynamic properties {#dynamic_properties}
+## Dynamic properties 
 
-It is possible to add your own properties to objects. These are called [Dynamic properties](Property_editor#Actions.md). If they have been added with the {{MenuCommand|Prefix group name}} option selected, their names will indeed start with the group name, but this prefix is not displayed in the [Property editor](Property_editor.md). Their names have this form: `NameOfGroup_NameOfProperty`. To reference them in a schedule this full name must be used.
+It is possible to add your own properties to objects. These are called [Dynamic properties](Property_editor#Actions.md). If they have been added with the **Prefix group name** option selected, their names will indeed start with the group name, but this prefix is not displayed in the [Property editor](Property_editor.md). Their names have this form: `NameOfGroup_NameOfProperty`. To reference them in a schedule this full name must be used.
 
 
 

@@ -20,7 +20,8 @@ Polecenie <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Uleps
 1.  Opcjonalnie wybierz jeden lub więcej obiektów.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_Upgrade.svg" width=16px> [Ulepsza wybrane obiekty ...](Draft_Upgrade/pl.md)**,
-    -   Z menu wybierz opcję {{MenuCommand|Modyfikacja → <img src="images/Draft_Upgrade.svg" width=16px> Ulepsz kształt}}
+    -   Z menu wybierz opcję **Modyfikacja → <img src="images/Draft_Upgrade.svg" width=16px> Ulepsz kształt
+**
     -   Użyj skrótu klawiszowego **U**, a następnie **P**,
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 
@@ -28,7 +29,7 @@ Polecenie <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Uleps
 
 -   elementy środowiska pracy Rysunek Roboczy takie jak [linia](Draft_Line/pl.md) i [polilinia](Draft_Wire/pl.md) można łączyć za pomocą tego polecenia, ale także za pomocą polecenia [Połącz](Draft_Join/pl.md) lub [Polilinia](Draft_Wire/pl.md).
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 

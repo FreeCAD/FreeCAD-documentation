@@ -15,7 +15,7 @@
 
 Lo strumento **Distinta dei ferri** (BOM) consente all\'utente di creare una distinta delle barre di rinforzo.
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_BOM_example.png  style="width:1000px;">
 
@@ -101,7 +101,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 The [Bill Of Material](Arch_Rebar_BOM.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
-### Create Bill Of Material Spreadsheet {#create_bill_of_material_spreadsheet}
+### Create Bill Of Material Spreadsheet 
 
 
 ```python
@@ -276,7 +276,7 @@ BillOfMaterial_Spreadsheet.makeBillOfMaterial(
 
 ```
 
-### Create Bill Of Material SVG {#create_bill_of_material_svg}
+### Create Bill Of Material SVG 
 
 
 ```python
@@ -373,7 +373,7 @@ makeBillOfMaterialSVG(
 
 -    `return_svg_only`specifies if the `BOMContent` object is to be created or not. If `return_svg_only` is True, then neither `BOMContent` object is created nor SVG is written to `output_file`. And it returns the SVG element.
 
-#### Example {#example_1}
+#### Example 
 
 
 ```python

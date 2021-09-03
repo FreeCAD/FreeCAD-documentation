@@ -60,11 +60,11 @@ The height of the helix (center-center).
 
 The number of turns in the helix. Define as Height/Pitch
 
-### Cone Angle {#cone_angle}
+### Cone Angle 
 
 The rate at which the radius of the helix increase along the axis. Allowable range: \[-89°, +89°\].
 
-### Left handed {#left_handed}
+### Left handed 
 
 If checked, the turning direction of helix is reversed from default clockwise to counterclockwise.
 
@@ -72,13 +72,13 @@ If checked, the turning direction of helix is reversed from default clockwise to
 
 If checked, the axis direction of helix is reversed from default.
 
-### Update view {#update_view}
+### Update view 
 
 If checked, the helix will be shown in the view, and updated automatically on every change of the parameters.
 
 ## Preferences
 
--   An additive helix that does not intersect the body will be visible in the preview if {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview}} is set to `True`. The default for this preference is `False`. <small>(v0.20)</small> 
+-   An additive helix that does not intersect the body will be visible in the preview if **Tools → Edit parameters... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview** is set to `True`. The default for this preference is `False`. <small>(v0.20)</small> 
 
 ## Properties
 

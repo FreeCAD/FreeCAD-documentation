@@ -14,7 +14,7 @@ L\'outil [Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) p
 
 L\'outil [Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) est également intégré dans [atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md), un [Atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md), un [Atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width:400px;">
 
@@ -101,7 +101,7 @@ Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench
 
 L'outil ColumnReinforcement peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
-### Créer deux attaches Six Rebars {#créer_deux_attaches_six_rebars}
+### Créer deux attaches Six Rebars 
 
 
 ```python
@@ -259,7 +259,7 @@ RebarGroup = TwoTiesSixRebars.makeTwoTiesSixRebars(
 
 ```
 
-### Édition de Two Ties Six Rebars {#édition_de_two_ties_six_rebars}
+### Édition de Two Ties Six Rebars 
 
 Vous pouvez modifier les propriétés des liens et des barres d'arceau avec la fonction suivante
 
@@ -298,7 +298,7 @@ rebar_group = editTwoTiesSixRebars(
 
 -    `structure`et `facename` peuvent être omis afin que l\'armature reste dans la structure d\'origine.
 
-#### Exemple {#exemple_1}
+#### Exemple 
 
 
 ```python

@@ -20,7 +20,7 @@ See the following pages for additional information:
 -   [Import Export Preferences](Import_Export_Preferences.md)
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
 
-## Overview of file formats {#overview_of_file_formats}
+## Overview of file formats 
 
 
 <div class="mw-translate-fuzzy">

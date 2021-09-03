@@ -27,9 +27,9 @@ Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Sna
 
 1.  Hay varias formas de invocar el comando:
     -   Pulsar el **<img src="images/Draft_BSpline.svg" width=16px> [Borrador BSpline](Draft_BSpline/es.md)**.
-    -   Seleccione la opción {{MenuCommand|Borrador → <img src="images/Draft_BSpline.svg" width=16px> B-spline}} en el menú.
+    -   Seleccione la opción **Borrador → <img src="images/Draft_BSpline.svg" width=16px> B-spline** en el menú.
     -   Utilice el atajo de teclado: **B** y luego **S**.
-2.  Se abre el panel de tareas {{MenuCommand|B-spline}}. Ver [Opciones](#Opciones.md) para más información.
+2.  Se abre el panel de tareas **B-spline**. Ver [Opciones](#Opciones.md) para más información.
 3.  Elige el primer punto en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** botón.
 4.  Elige puntos adicionales en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el botón **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** botón.
 5.  Pulse **Esc** o el botón **Cerrar** para finalizar el comando.
@@ -39,10 +39,10 @@ Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Sna
 Los atajos de teclado de un solo carácter disponibles en el panel de tareas se pueden cambiar. Ver [Preferencias de Borrador](Draft_Preferences/rs.md). Los atajos mencionados aquí son los atajos por defecto.
 
 -   Para introducir manualmente las coordenadas introduzca el componente X, Y y Z, y pulse **Enter** después de cada una. O puede pulsar el **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** cuando tenga los valores deseados. Es aconsejable mover el puntero fuera de la [Vista 3D](3D_view/es.md) antes de introducir las coordenadas.
--   Pulse **R** o haga clic en la casilla {{MenuCommand|Relative}} para activar el modo relativo. Si el modo relativo está activado, las coordenadas son relativas al último punto, si está disponible, sino son relativas al origen del sistema de coordenadas.
--   Pulse **G** o haga clic en la casilla {{MenuCommand|Global}} para activar el modo global. Si el modo global está activado, las coordenadas son relativas al sistema de coordenadas global, sino son relativas al sistema de coordenadas del [plano de trabajo](Draft_SelectPlane/es.md). {{Version/es|0.20}}
--   Pulse **L** o haga clic en la casilla {{MenuCommand|Filled}} para activar el modo relleno. Si el modo de relleno está activado, la spline creada tendrá **Make Face** establecida en `True` y tendrá una cara rellena, siempre y cuando esté cerrada y no se auto-intersecte. Tenga en cuenta que una spline que se auto-interseque con una cara no se mostrará correctamente, para tal spline **Make Face** debe establecerse en `False`.
--   Pulse **T** o haga clic en la casilla {{MenuCommand|Continue}} para activar el modo de continuación. Si el modo de continuar está activado, el comando se reiniciará después de usar **<img src="images/Draft_FinishLine.svg" width=16px> Terminar** o **<img src="images/Draft_CloseLine.svg" width=16px> Cerrar**, o después de crear una spline cerrada ajustándose al primer punto de la spline, permitiéndole continuar creando splines.
+-   Pulse **R** o haga clic en la casilla **Relative** para activar el modo relativo. Si el modo relativo está activado, las coordenadas son relativas al último punto, si está disponible, sino son relativas al origen del sistema de coordenadas.
+-   Pulse **G** o haga clic en la casilla **Global** para activar el modo global. Si el modo global está activado, las coordenadas son relativas al sistema de coordenadas global, sino son relativas al sistema de coordenadas del [plano de trabajo](Draft_SelectPlane/es.md). {{Version/es|0.20}}
+-   Pulse **L** o haga clic en la casilla **Filled** para activar el modo relleno. Si el modo de relleno está activado, la spline creada tendrá **Make Face** establecida en `True` y tendrá una cara rellena, siempre y cuando esté cerrada y no se auto-intersecte. Tenga en cuenta que una spline que se auto-interseque con una cara no se mostrará correctamente, para tal spline **Make Face** debe establecerse en `False`.
+-   Pulse **T** o haga clic en la casilla **Continue** para activar el modo de continuación. Si el modo de continuar está activado, el comando se reiniciará después de usar **<img src="images/Draft_FinishLine.svg" width=16px> Terminar** o **<img src="images/Draft_CloseLine.svg" width=16px> Cerrar**, o después de crear una spline cerrada ajustándose al primer punto de la spline, permitiéndole continuar creando splines.
 -   Pulsar el **<img src="images/Draft_UndoLine.svg" width=16px> Deshacer** para deshacer el último punto. El atajo de teclado **Ctrl**+**Z** actualmente no funciona.
 -   Pulse **A** o el botón **<img src="images/Draft_FinishLine.svg" width=16px> Finalizar** para terminar el comando y dejar la spline abierta.
 -   Pulsar **O** o el botón **<img src="images/Draft_CloseLine.svg" width=16px> Cerrar** para terminar el comando y cerrar la spline. También se puede crear una spline cerrada ajustándose al primer punto de la spline.
@@ -60,8 +60,8 @@ Los atajos de teclado de un solo carácter disponibles en el panel de tareas se 
 
 Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Preferencias](Draft_Preferences/es.md).
 
--   Para cambiar el número de decimales utilizados para la entrada de coordenadas: {{MenuCommand|Edición → Preferencias... → General → Unidades → Configuración de unidades → Número de decimales}}.
--   Para cambiar el valor inicial del modo relleno: {{MenuCommand|Edición → Preferencias... → Borrador → Ajustes generales → Borrador Opciones de las herramientas → Rellenar objetos con caras siempre que sea posible}}. Cambiar el modo de relleno en un panel de tareas anulará esta preferencia para la sesión actual de FreeCAD.
+-   Para cambiar el número de decimales utilizados para la entrada de coordenadas: **Edición → Preferencias... → General → Unidades → Configuración de unidades → Número de decimales**.
+-   Para cambiar el valor inicial del modo relleno: **Edición → Preferencias... → Borrador → Ajustes generales → Borrador Opciones de las herramientas → Rellenar objetos con caras siempre que sea posible**. Cambiar el modo de relleno en un panel de tareas anulará esta preferencia para la sesión actual de FreeCAD.
 
 ## Propiedades
 

@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
  
 
@@ -16,11 +16,11 @@ Draft DXF is a software module used by the <img alt="" src=images/Std_Open.svg  
 
 ## Importing
 
-Two importers are available, which one is used can be specified under {{MenuCommand|Edit → Preferences... → Import-Export → DXF}}. One is built-in, C++-based and fast, the other is legacy, coded in Python, slower, and requires the installation of an add-on, but can handle some entities better and can create more refined FreeCAD objects. Both support all DXF versions starting from R12.
+Two importers are available, which one is used can be specified under **Edit → Preferences... → Import-Export → DXF**. One is built-in, C++-based and fast, the other is legacy, coded in Python, slower, and requires the installation of an add-on, but can handle some entities better and can create more refined FreeCAD objects. Both support all DXF versions starting from R12.
 
 3D solids inside a DXF file are stored under a binary ACIS/SAT blob, which at the moment cannot be read by FreeCAD.
 
-### C++ importer {#c_importer}
+### C++ importer 
 
 This importer can import the following DXF objects:
 
@@ -38,7 +38,7 @@ This importer can import the following DXF objects:
 -   layers
 -   paper space objects
 
-### Legacy importer {#legacy_importer}
+### Legacy importer 
 
 This importer can import the following DXF objects:
 
@@ -57,7 +57,7 @@ This importer can import the following DXF objects:
 
 There are also two exporters. The legacy exporter exports to the R12 DXF format, the C++ exporter to the R14 DXF format. Both formats can be handled by many applications.
 
-### C++ exporter {#c_exporter}
+### C++ exporter 
 
 Some of the features and limitations of this exporter are:
 
@@ -67,7 +67,7 @@ Some of the features and limitations of this exporter are:
 -   Colors are ignored.
 -   Layers are mapped from object names.
 
-### Legacy exporter {#legacy_exporter}
+### Legacy exporter 
 
 Some of the features and limitations of this exporter are:
 

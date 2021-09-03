@@ -13,7 +13,7 @@ Despite this page mentioning the "Render module", this is not the same project a
 
 <div class="mw-translate-fuzzy">
 
-## Il Modulo Render {#il_modulo_render}
+## Il Modulo Render 
 
 Il modulo di rendering fornisce un modo semplice e diretto per realizzare rapidamente le operazioni di rendering di parti create con FreeCAD. La sua filosofia si basa su un sistema di modello in modo da poter visualizzare il proprio lavoro in modo più efficiente. Il modulo Render si propone di nascondere all\'utente il complicato processo di rendering, in modo che egli debba preoccuparsi solo della progettazione delle parti.
 
@@ -30,11 +30,11 @@ Il flusso di lavoro è il seguente:
 
 Breve descrizione degli strumenti del Modulo Render:
 
-### Operazioni di rendering {#operazioni_di_rendering}
+### Operazioni di rendering 
 
 La funzione Render contiene le informazioni che verranno passate al programma di rendering, quali la configurazione della fotocamera, le opzioni di rendering, i materiali e anche quali plug-in usare. Questo significa che è possibile creare molte funzioni di rendering, con diversi materiali oppure con impostazioni della fotocamera indipendenti una dall\'altra. La funzione prende inoltre il controllo del processo di rendering.
 
-### Materiali di Rendering {#materiali_di_rendering}
+### Materiali di Rendering 
 
 Ogni materiale di rendering è basato su una libreria dei materiali che sono memorizzati in file .XML indipendenti. Ai materiali di rendering possono essere assegnate delle proprietà quali il colore, la lucentezza e altri parametri. I materiali vengono aggiunti (allegati) a un oggetto nel documento.
 
@@ -44,7 +44,7 @@ Ogni materiale di rendering è basato su una libreria dei materiali che sono mem
 
 {{VeryImportantMessage|Per utilizzare il nuovo Ambiente Render, attualmente è necessario essere in grado di compilarlo dal ramo di sviluppo.}}
 
-### Utilizzare il modulo Render: {#utilizzare_il_modulo_render}
+### Utilizzare il modulo Render: 
 
 Prima effettuare il checkout dal repository del ramo [raytracing](https://github.com/mrlukeparry/FreeCAD_sf_master/tree/raytracing). Assicurarsi quindi di poterlo compilare.
 
@@ -62,15 +62,15 @@ Quando si crea una operazione di rendering essa memorizza la posizione corrente 
 
 È possibile configurare altre impostazioni di rendering:
 
-#### Impostazioni di rendering predefinite {#impostazioni_di_rendering_predefinite}
+#### Impostazioni di rendering predefinite 
 
 Le impostazioni di rendering predefinite sono specificate nel plugin di rendering che viene utilizzato. Modificano il processo di rendering per migliorare la qualità del prodotto o la velocità con cui è generato. Lux Render, **MLT Unbiased** produce risultati di qualità in tempi ragionevoli. **Direct Lighting Preview** produce un risultato veloce, ma di bassa qualità.
 
-#### Render Template {#render_template}
+#### Render Template 
 
 Visualizza i modelli che sono attualmente disponibili per il plug-in di rendering. Selezionando un modello, si genera una scena predefinita, con l\'illuminazione, la geometria e con le parti al suo interno. Attualmente **Lux Classic** funziona correttamente e produce risultati soddisfacenti. Esso tenta di calcolare la scena in base alla posizione della telecamera e alla dimensione complessiva delle parti visibili.
 
-### Avviare un rendering {#avviare_un_rendering}
+### Avviare un rendering 
 
 Dopo che sono stati impostati i parametri della funzione, è possibile avviare il rendering della scena. Tutte le parti del documento che non sono visibili bella scena non sono incluse nell\'operazione di rendering. Quella successiva è la scena di esempio:
 
@@ -88,7 +88,7 @@ Se il processo di rendering ha successo, il risultato viene automaticamente visu
 
 ![](images/sceneOutput.png )
 
-### Unbiased Rendering - Rendering accurato {#unbiased_rendering___rendering_accurato}
+### Unbiased Rendering - Rendering accurato 
 
 Il programma di rendering simula sostanzialmente i \'riflessi\' dei raggi di luce che \'rimbalzano\' in una scena. Quando questi raggi di luce colpiscono la fotocamera essi diventano visibili nel risultato. Gradualmente più raggi colpiscono la fotocamera e l\'immagine viene costruita. All\'inizio l\'immagine è rumorosa (poco definita) dove la luce non raggiunge la fotocamera. I motori di rendering **Biased** imitano, tramite algoritmi, il comportamento della luce e producono velocemente una renderizzazione per approssimazione. I motori di rendering **Unbiased**, come [LuxRender](http://www.luxrender.net/en_GB/index), cercano invece di riprodurre esattamente gli effetti della luce reale, con un risultato molto più realistico e accurato.
 
@@ -96,11 +96,11 @@ L\'operazione è progressiva. Quando si è soddisfatti del risultato, premere il
 
 ![](images/unbiasedRendering.png )
 
-### Velocità di rendering {#velocità_di_rendering}
+### Velocità di rendering 
 
 I processi di rendering sono in genere eseguiti dalla CPU. Il tempo necessario per un risultato soddisfacente, dipende dalla dimensione del risultato, dalla scena, dal numero e dalla complessità dei materiali utilizzati, dalle luci e dalle prestazioni complessive del sistema. Una veloce anteprima di una parte semplice può richiedere un minuto, mentre un output di alta qualità può richiedere diverse ore.
 
-### Aggiungere i materiali {#aggiungere_i_materiali}
+### Aggiungere i materiali 
 
 Accertarsi di essere in modalità di modifica per la funzione di rendering. Fare clic su **Aggiungi materiali** nella barra degli strumenti. Nella finestra \'Azioni\' viene mostrato un elenco delle biblioteche dei materiali. È possibile scorrere l\'elenco trascinandolo o utilizzando la rotellina del mouse.
 

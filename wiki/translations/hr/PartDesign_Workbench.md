@@ -21,12 +21,12 @@ The bodies created with PartDesign are often subject to the [topological naming 
 
 ## Alati
 
-The Part Design tools are all located in the {{MenuCommand|Part Design}} menu and the PartDesign toolbar that appear when you load the Part Design workbench.
+The Part Design tools are all located in the **Part Design** menu and the PartDesign toolbar that appear when you load the Part Design workbench.
 
 
 <div class="mw-translate-fuzzy">
 
-### Structure tools {#structure_tools}
+### Structure tools 
 
 These are tools to organize the Model tree.
 
@@ -42,7 +42,7 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Group](Std_Group.md): adds a Group container in the active document, which allows organizing the objects in the [tree view](Tree_view.md).
 
-### Part Design Helper tools {#part_design_helper_tools}
+### Part Design Helper tools 
 
 -   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Create body](PartDesign_Body.md): creates a [Body](Body.md) object in the active document and makes it active.
 
@@ -52,9 +52,9 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Map sketch to face](Sketcher_MapSketch.md): Maps a sketch to a previously selected plane or a face of the active body.
 
-### Part Design Modeling tools {#part_design_modeling_tools}
+### Part Design Modeling tools 
 
-#### Datum tools {#datum_tools}
+#### Datum tools 
 
 -   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Create a datum point](PartDesign_Point.md): creates a datum point in the active body.
 
@@ -70,7 +70,7 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Create a clone](PartDesign_Clone.md): creates a clone of the selected body.
 
-#### Alati dodavanja {#alati_dodavanja}
+#### Alati dodavanja 
 
 These are tools for creating base features or adding material to an existing solid body.
 
@@ -102,7 +102,7 @@ These are tools for creating base features or adding material to an existing sol
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Additive wedge](PartDesign_AdditiveWedge.md): creates an additive wedge.
 
-#### Alati oduzimanja {#alati_oduzimanja}
+#### Alati oduzimanja 
 
 These are tools for subtracting material from an existing body.
 
@@ -136,7 +136,7 @@ These are tools for subtracting material from an existing body.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Subtractive wedge](PartDesign_SubtractiveWedge.md): adds a subtractive wedge to the active body.
 
-#### Alati transformacije {#alati_transformacije}
+#### Alati transformacije 
 
 These are tools for transforming existing features. They will allow you to choose which features to transform.
 
@@ -148,7 +148,7 @@ These are tools for transforming existing features. They will allow you to choos
 
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Create MultiTransform](PartDesign_MultiTransform.md): creates a pattern with any combination of the other transformations.
 
-#### Dress-up tools {#dress_up_tools}
+#### Dress-up tools 
 
 These tools apply a treatment to the selected edges or faces.
 
@@ -176,7 +176,7 @@ Some additional functionality found in the Part Design menu:
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Shaft design wizard](PartDesign_WizardShaft.md): Generates a shaft from a table of values and allows to analyze forces and moments. The shaft is made with a revolved sketch that can be edited.
 
-### Context Menu items {#context_menu_items}
+### Context Menu items 
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Set tip](PartDesign_MoveTip.md): redefines the tip, which is the feature exposed outside of the Body.
 
@@ -184,7 +184,7 @@ Some additional functionality found in the Part Design menu:
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Move object after other object](PartDesign_MoveFeatureInTree.md): allows reordering of the Body tree by moving the selected sketch, datum geometry or feature to another position in the list of features.
 
-#### Items shared with the Part workbench {#items_shared_with_the_part_workbench}
+#### Items shared with the Part workbench 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance](Std_SetAppearance.md): determines appearance of the whole part (color transparency etc.).
 

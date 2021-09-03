@@ -18,7 +18,7 @@ Für weitere Informationen siehe:
 
 ![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) *Mit PySide erstellte Beispiele. Links: ein einfacher Dialog. Rechts: ein komplexerer Dialog mit Diagrammen.*
 
-## PySide in FreeCAD mit Qt5 {#pyside_in_freecad_mit_qt5}
+## PySide in FreeCAD mit Qt5 
 
 FreeCAD wurde für die Verwendung mit Python 2 und Qt4 entwickelt. Als diese beiden Bibliotheken veraltet waren, wurde FreeCAD auf Python 3 und Qt5 umgestellt. In den meisten Fällen erfolgte dieser Übergang, ohne dass die Rückwärtskompatibilität unterbrochen werden musste.
 
@@ -44,7 +44,7 @@ PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
 
 [Anfang](#top.md)
 
-## Beispiele für PySide Verwendung {#beispiele_für_pyside_verwendung}
+## Beispiele für PySide Verwendung 
 
 -   [PySide Anfänger Beispiele](PySide_Beginner_Examples/de.md), Hallo Welt, Ankündigungen, Text eingeben, Nummer eingeben.
 -   [PySide Beispiele für Fortgeschrittene](PySide_Intermediate_Examples/de.md), Fenstergröße, Widgets ausblenden, Aufklappmenüs, Mausposition, Mausereignisse.

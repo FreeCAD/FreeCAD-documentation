@@ -19,7 +19,7 @@ Crée un composant [Arch](Arch_Workbench/fr.md) non-paramétrique à partir de n
     -   En utilisant le raccourci clavier **C** **M**.
     -   En faisant **Arch** → **Utilities** → **<img src="images/Arch_Component.svg" width=16px> [Composant](Arch_Component/fr.md)** depuis le menu supérieur.
 
-## Propriétés communes aux composants Arch {#propriétés_communes_aux_composants_arch}
+## Propriétés communes aux composants Arch 
 
 L\'objet Composant Arch est également une base partagée par tous les autres objets Arch (**<img src="images/Arch_Wall.svg" width=16px>[Mur](Arch_Wall/fr.md)**, **<img src="images/Arch_Structure.svg" width=16px>[Structure](Arch_Structure/fr.md)** etc.). Par conséquent, certaines de ses propriétés et comportements sont communs à tous les objets Arch (à l\'exception des outils qui ne produisent pas d\'objets solides, comme **<img src="images/Arch_SectionPlane.svg" width=16px>[Plan de section](Arch_SectionPlane/fr.md)** ou **<img src="images/Arch_Axis.svg" width=16px>[Axes](Arch_Axis/fr.md)**) :
 

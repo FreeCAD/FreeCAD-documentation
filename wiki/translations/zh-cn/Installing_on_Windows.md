@@ -205,7 +205,7 @@ With Windows Group Policy, it is possible to automatically install FreeCAD on a 
 
 组策略传播通常需要一段时间 - 可靠地部署包后，所有机器重新启动。
 
-### 使用 Crossover Office 把 Windows 版本的 FreeCAD 安装到 Linux {#使用_crossover_office_把_windows_版本的_freecad_安装到_linux}
+### 使用 Crossover Office 把 Windows 版本的 FreeCAD 安装到 Linux 
 
 （译者注：实际上，完全没有这样做的必要，因为有原生的 Linux 版本的 FreeCAD。）
 

@@ -21,7 +21,7 @@ With this tool, the internal subtracted objects will all become visible or hidde
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -46,7 +46,7 @@ Opțiunea preferinței **Edit -\> Preferences → Arch → Apply Construction st
 
 </div>
 
-The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in the [Draft Preferences](Draft_Preferences.md), in the menu {{MenuCommand|Preferences → Draft → General Draft}}.
+The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in the [Draft Preferences](Draft_Preferences.md), in the menu **Preferences → Draft → General Draft**.
 
 
 

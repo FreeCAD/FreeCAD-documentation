@@ -15,7 +15,7 @@ Selecciona el eje horizontal de un croquis.
 ## Utilización
 
 1.  Entre en el modo de edición del croquis.
-2.  Elige {{MenuCommand|Croquis → Croquizador Herramientas → <img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Seleccione Eje Horizontal}} en el menú superior.
+2.  Elige **Croquis → Croquizador Herramientas → <img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Seleccione Eje Horizontal** en el menú superior.
 3.  Se seleccionará el eje horizontal del croquis.
 
 

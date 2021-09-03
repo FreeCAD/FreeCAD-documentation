@@ -5,11 +5,11 @@
 
 Na tej stronie znajdują się różne ustawienia i parametry, które można wykorzystać do precyzyjnego skonfigurowania instalacji programu FreeCAD lub do rozwiązywania problemów.
 
-## Parametry opcjonalne {#parametry_opcjonalne}
+## Parametry opcjonalne 
 
-[Edytor preferencji](Preferences_Editor/pl.md) FreeCAD w menu {{MenuCommand|Edycja → Preferencje}} jest powszechnie używany do wprowadzania i edycji tabeli parametrów programu.
+[Edytor preferencji](Preferences_Editor/pl.md) FreeCAD w menu **Edycja → Preferencje** jest powszechnie używany do wprowadzania i edycji tabeli parametrów programu.
 
-Jednak możliwy jest również dostęp, modyfikacja i ręczne tworzenie parametrów za pomocą [Edytora parametrów](Std_DlgParameter/pl.md) znajdującego się w menu {{MenuCommand|Narzędzia → Edycja parameterów}}.
+Jednak możliwy jest również dostęp, modyfikacja i ręczne tworzenie parametrów za pomocą [Edytora parametrów](Std_DlgParameter/pl.md) znajdującego się w menu **Narzędzia → Edycja parameterów**.
 
 Poniższa lista przedstawia parametry, które nie są dostępne za pośrednictwem edytora preferencji, ale które można ustawić ręcznie *(w **BaseApp/Preferencje**)*:
 
@@ -32,7 +32,7 @@ Poniższa lista przedstawia parametry, które nie są dostępne za pośrednictwe
 -   **View/NavigationDebug** *(boolean)*: Udostępnia możliwość debugowania stylów nawigacji *(od v0.19, tylko styl nawigacji Gesture znajduje zastosowanie)*.
 -   **View/SavePicture** *(string)*: Ustaw wartość opcji na **FramebufferObject**, **PixelBuffer** lub **CoinOffscreenRenderer** dla różnych metod tworzenia obrazów w oknie widoku 3D.
 
-### Domyślna nazwa pliku eksportu {#domyślna_nazwa_pliku_eksportu}
+### Domyślna nazwa pliku eksportu 
 
 -   **General/ExportDefaultFilenameMultiple** *(string)*: Ustaw domyślną nazwę pliku, która będzie używana podczas eksportu wielu obiektów. Domyślną wartością jest \"**%F**\".
 -   **General/ExportDefaultFilenameSingle** *(string)*: Ustaw domyślną nazwę pliku, która będzie używana podczas eksportu pojedynczego obiektu. Domyślną wartością jest \"**%F-%P-**\".
@@ -47,24 +47,24 @@ Obie te opcje umożliwiają automatyczne wstawianie do nazwy pliku różnych inf
 
 Wszelkie inne znaki traktowane są dosłownie. Jeśli wynikowa nazwa pliku jest nieprawidłowa, zostanie zmieniona przy zapisie, a nieprawidłowe znaki zostaną zastąpione znakiem podkreślenia \'\' \' **\_** \' \'\'.
 
-## Powiązane z myszką {#powiązane_z_myszką}
+## Powiązane z myszką 
 
 -   **General/ComboBoxWheelEventFilter** *(boolean)*: Należy ustawić wartość `True`, aby widżety nie przechwytywały zdarzeń związanych z kółkiem myszy i uniemożliwiały przewijanie obszarów, które można przewijać.
 -   **View/GestureRollFwdCommand**, **View/GestureRollBackCommand** *(string)*: Komendy, które mają być wykonywane za pomocą gestów przewijania przycisków myszy w stylu nawigacji Gesture.
 -   **View/GestureMoveThreshold** *(integer)*: Odległość, jaką musi pokonać kursor myszy *(px)*, aby wejść w tryb obrotu lub przesuwania w stylu nawigacji Gesture. Wartość domyślna 5.
 -   **View/GestureTapHoldTimeout** *(integer)*: Określa jak długo trzeba czekać *(w milisekundach)*, aby wejść w tryb obrotu w stylu nawigacji Gesture. Pomocne może być zwiększenie wartości, jeśli przeciąganie geometrii w szkicowniku jest trudne. Domyślnie jest to wartość 700.
 
-## Skróty klawiaturowe {#skróty_klawiaturowe}
+## Skróty klawiaturowe 
 
-### Klawisz ESC {#klawisz_esc}
+### Klawisz ESC 
 
-### Klawisz ESC {#klawisz_esc_1}
+### Klawisz ESC 
 
 -   **General/TasksKeyEsc** *(boolean)*: Utwórz i ustaw wartość na `False`, aby wyłączyć wychodzenie klawiszem **ESC** z [Panelu zadań](Task_panel/pl.md) we wszystkich środowiskach pracy *(to znaczy, jeśli panel zadań jest aktywny)*. **Uwaga:** Zastąpiono przez [Preferencje szkicownika](Sketcher_Preferences/pl#Og.C3.B3lne.md).
 -   **Mod/Sketcher/ViewKeyEsc** *(boolean)*: Utwórz i ustaw wartość na `False`, aby wyłączyć problemy z klawiszami **ESC** przy naciskaniu od jednego do wielu razy, podczas wychodzenia z trybu kontynuacji tworzenia geometrii / wiązań szkicownika.
     -   Źródło: [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584)
 
-## Szczególne Środowiska pracy {#szczególne_środowiska_pracy}
+## Szczególne Środowiska pracy 
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:16px;"> [TechDraw](TechDraw_Workbench/pl.md) ma kilka ukrytych przełączników opisanych w \[\[TechDraw\_Preferences/pl\#
 

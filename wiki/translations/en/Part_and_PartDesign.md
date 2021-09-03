@@ -8,7 +8,7 @@ It is a good idea to use one or the other until the user is comfortable with one
 
 Let\'s talk about those ramifications.
 
-## Part Workbench Concepts {#part_workbench_concepts}
+## Part Workbench Concepts 
 
 Part Workbench is essentially [CSG style modeling](Constructive_solid_geometry.md). The operator combines various primitives to end up with a representation of the desired shape. (In fact, Part Workbench goes one step further than just primitives and allows the operator to use a sketch+extrude operation (or sketch+revolve, loft, sweep \...) to create random shapes as well.) When each primitive or shape is created, it has no relationship to other objects created (except sketches and their attachments), it is a single solitary solid.
 
@@ -18,7 +18,7 @@ This condition remains so, until, the operator uses some operation to combine th
 
 The take away is the single solitary solid bit and the combining them bit.
 
-## PartDesign Workbench Concepts {#partdesign_workbench_concepts}
+## PartDesign Workbench Concepts 
 
 In the PartDesign Workbench the Body object is constructed directly as a single solitary cumulative solid.
 
@@ -48,7 +48,7 @@ If Tip on **Pad**, the pad can exist separately, but if Tip on **Cone**, the con
 
 (Another thing mentioned often is a Body ***MUST*** be a single contiguous solid. This means all geometry created by a feature in the Body *must* touch it\'s predecessor.)
 
-## The Ramifications {#the_ramifications}
+## The Ramifications 
 
 Although not recommended for newcomers, it is possible to combine tools from Part WB and PartDesign WB, provided you know what you are doing. For example :
 
@@ -58,7 +58,7 @@ In a sense, from a Part Workbench standpoint, the Body represents another primit
 
 And, it can get even more complicated. If you create a new Body and drag the result from the previous paragraph into it, a BaseObject is created. And you can go off an use the PartDesign Workbench tools on it.
 
-## The Caveats {#the_caveats}
+## The Caveats 
 
 There is a caveat with the Tip and it\'s representation of the single solid in the Body. *If* the tip is a subtractive feature and is used in a dress up operation, for instance a Mirror, the Mirror is operating on the underlying feature (a pocket for example). Thus the cumulative solid is not mirrored, but the subtractive feature is. The result of this must create a single solid.
 

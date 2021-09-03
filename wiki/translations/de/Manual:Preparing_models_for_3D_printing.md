@@ -16,13 +16,13 @@ Wenn du beim Modellieren vorsichtig warst, sind die meisten Schwierigkeiten, auf
 
 Im Folgenden gehen wir davon aus, dass die ersten beiden Kriterien erfüllt sind und dass du von nun an in der Lage bist, feste Objekte mit korrekten Abmessungen herzustellen. Wir werden nun sehen, wie wir den dritten Punkt angehen können.
 
-### Exportieren zu Zerschneidern {#exportieren_zu_zerschneidern}
+### Exportieren zu Zerschneidern 
 
 Dies ist die Technik, die am häufigsten für den 3D-Druck verwendet wird. Das 3D Objekt wird in ein anderes Programm (den Zerschneider) (engl.: Slicer) exportiert, das den G-Code aus dem Objekt generiert, indem es es in dünne Schichten zerlegt (daher der Name), die die Bewegungen reproduzieren, die der 3D Drucker ausführen wird. Da viele dieser Drucker selbstgebaut sind, gibt es oft kleine Unterschiede von einem zum anderen. Diese Programme bieten in der Regel erweiterte Konfigurationsmöglichkeiten, die dir erlauben die Ausgabe genau auf die Funktionen deines 3D Druckers zuzuschneiden.
 
 Tatsächlich ist der 3D Druck jedoch ein zu umfangreiches Thema für dieses Handbuch. Aber wir werden sehen, wie diese Zerschneider exportiert und verwendet werden können, um zu überprüfen, ob die Ausgabe korrekt ist.
 
-### Umwandeln von Objekten in Polygonnetze {#umwandeln_von_objekten_in_polygonnetze}
+### Umwandeln von Objekten in Polygonnetze 
 
 Keiner der Zerschneider wird zu diesem Zeitpunkt direkt die Volumenkörpergeometrie übernehmen, wie wir sie in FreeCAD erzeugen. Daher müssen wir jedes Objekt, das wir in 3D drucken wollen, zuerst in ein [Polygonnetz](https://de.wikipedia.org/wiki/Polygonnetz) konvertieren, das der Zerschneider öffnen kann. Glücklicherweise ist die Konvertierung eines Netzes in einen Volumenkörper ein komplizierter Vorgang, während im Gegenteil die Konvertierung eines Volumenkörpers in ein Netz sehr einfach ist. Alles, worauf wir achten müssen, ist, dass genau hier die oben erwähnte Verschlechterung eintritt. Wir müssen überprüfen, ob die Verschlechterung innerhalb akzeptabler Grenzen bleibt.
 
@@ -50,7 +50,7 @@ In den meisten Fällen werden die Standardwerte jedoch ein zufriedenstellendes E
 
 Wenn du keinen 3D Drucker besitzt, ist es normalerweise sehr einfach, kommerzielle Dienste zu finden, die die gedruckten Objekte drucken und dir per Post zusenden. Zu den berühmten gehören [Shapeways](http://www.shapeways.com/) und [Sculpteo](http://www.sculpteo.com/), aber du wirst in deiner eigenen Stadt normalerweise viele andere finden. In allen größeren Städten findest du heute [Fab Labore](https://en.wikipedia.org/wiki/Fab_lab), das sind Werkstätten, die mit einer Reihe von 3D Fertigungsmaschinen ausgestattet sind, fast immer mit mindestens einem 3D Drucker. Fab Labore sind in der Regel Gemeinschaftsräume, in denen du deren Maschinen je nach Fab Labor kostenpflichtig oder kostenlos nutzen kannst, in denen du aber auch lernst, sie zu benutzen, und in denen du andere Aktivitäten rund um die 3D Fertigung fördern kannst.
 
-### Verwendung von Slic3r {#verwendung_von_slic3r}
+### Verwendung von Slic3r 
 
 [Slic3r](http://slic3r.org/) ist eine Anwendung, die STL Objekte in G-Code umwandelt, der direkt an 3D Drucker gesendet werden kann. Wie FreeCAD ist es kostenlos, quelloffen und läuft unter Windows, Mac OS und Linux. Die korrekte Konfiguration für den 3D Druck ist ein komplizierter Prozess, bei dem du gute Kenntnisse über deinen 3D Drucker haben musst. Daher ist es nicht sehr nützlich, G-Code zu erzeugen, bevor du tatsächlich druckst (Deine G-Code Datei funktioniert möglicherweise nicht gut auf einem anderen Drucker), aber es ist trotzdem nützlich für uns, zu überprüfen, ob unsere STL Datei problemlos gedruckt werden kann.
 
@@ -58,7 +58,7 @@ Dies ist unsere exportierte STL Datei, die in Slic3r geöffnet wurde. Durch verw
 
 ![](images/Exercise_meshing_03.jpg )
 
-### Verwendung der Cura Erweiterung {#verwendung_der_cura_erweiterung}
+### Verwendung der Cura Erweiterung 
 
 [Cura](https://ultimaker.com/en/products/cura-software) ist eine weitere freie und quelloffene Zerschneider Anwendung für Windows, Mac und Linux, die vom Hersteller des 3D Druckers [Ultimaker](https://ultimaker.com) gepflegt wird. Einige FreeCAD Benutzer haben einen [Cura Arbeitsbereich](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin) erstellt, der intern Cura verwendet. Der Cura Arbeitsbereich ist über das [FreeCAD Erweiterung](https://github.com/FreeCAD/FreeCAD-addons)s Repositorium verfügbar. Um den Cura Arbeitsbereich zu verwenden, musst du auch Cura selbst installieren, das nicht im Arbeitsbereich enthalten ist.
 
@@ -75,7 +75,7 @@ Sobald du sowohl Cura als auch den Cura Arbeitsbereich installiert hast, kannst 
 
 -   Der generierte G-Code kann zur Überprüfung auch wieder in FreeCAD importiert werden (unter Verwendung des slic3r Präprozessors).
 
-### Erzeugung von G-Code {#erzeugung_von_g_code}
+### Erzeugung von G-Code 
 
 
 {{VeryImportantMessage|'''Warnung:''' Dieser Abschnitt wurde für FreeCAD 0.16 erstellt. Es wurden erhebliche Änderungen bei der Pfaderstellung vorgenommen. Bitte beachte die Dokumentation der [Pfad Arbeitsbereich](Path_Workbench/de.md) im Allgemeinen oder das Tutorium wie [Pfadbegehung](Path_Walkthrough_for_the_Impatient/de.md)!}}

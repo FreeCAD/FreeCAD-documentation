@@ -37,7 +37,7 @@ El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrad
 1.  Opcionalmente selecciona uno o más objetos.
 2.  Hay varias formas de invocar el comando:
     -   Pulsar el **<img src="images/Draft_Clone.svg" width=16px> [Borrador Clon](Draft_Clone/es.md)**.
-    -   Seleccione la opción {{MenuCommand|Modificación → <img src="images/Draft_Clone.svg" width=16px> Clon}} en el menú.
+    -   Seleccione la opción **Modificación → <img src="images/Draft_Clone.svg" width=16px> Clon** en el menú.
     -   Utilice el atajo de teclado: **C** y luego **L**.
 3.  Si aún no ha seleccionado un objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
 

@@ -12,7 +12,7 @@ Se você gostaria de contribuir com o FreeCAD, por favor [doar](donate/pt-br.md)
 
 Se você gostaria de saber como o FreeCAD começou há anos, visite a página [História](History/pt-br.md).
 
-## Usando o FreeCAD {#usando_o_freecad}
+## Usando o FreeCAD 
 
 ### Introdução
 
@@ -28,7 +28,7 @@ Veja também:
 
 -   [Migrando para o FreeCAD do Fusion360](Migrating_to_FreeCAD_from_Fusion360/pt-br.md)
 
-### Conceitos Básicos do Software {#conceitos_básicos_do_software}
+### Conceitos Básicos do Software 
 
 -   [Interface](Interface/pt-br.md): a interface FreeCAD é composta de vários elementos gráficos na tela, incluindo o [Vista 3D](3D_view/pt-br.md), o [Vista em árvore](Tree_view/pt-br.md), o [Editor de propriedade](Property_editor/pt-br.md), o [Painel de tarefas](Task_panel/pt-br.md), e o [Console Python](Python_console/pt-br.md).
 -   [Estilos de Navegação](Mouse_navigation/pt-br.md): os diferentes tipos de uso do mouse ou trackpad para navegar na visualização 3D.
@@ -37,7 +37,7 @@ Veja também:
 -   [Editor de Preferências](Preferences_Editor/pt-br.md): o sistema que permite controlar muitas propriedades do sistema base e das bancadas de trabalho individuais.
 -   [Formatos de arquivo](Import_Export/pt-br.md): os diferentes formatos de arquivo que o FreeCAD pode ler e escrever.
 
-### Bancadas de trabalho {#bancadas_de_trabalho}
+### Bancadas de trabalho 
 
 [Bancadas de trabalho](Workbenches/pt-br.md) são coleções de ferramentas usadas para uma tarefa relativamente específica. Estas são as bancadas de trabalho de base agrupadas com cada instalação do FreeCAD:
 
@@ -93,7 +93,7 @@ Os usuários de avançados escreveram vários [macros](macros.md) para melhorar 
 
 Desde FreeCAD 0.17, muitas macros podem ser instaladas usando o [Gerenciador de Extensões](Std_AddonMgr/pt-br.md). Para uma lista das macros, consulte a página [receitas macro](Macros_recipes/pt-br.md). Para instalação manual veja [Como instalar macros](How_to_install_macros/pt-br.md).
 
-### Bancadas de Trabalho Externas {#bancadas_de_trabalho_externas}
+### Bancadas de Trabalho Externas 
 
 Quando muitas macros ou funções são desenvolvidas em conjunto e organizadas em barras de ferramentas e menus, elas podem se tornar uma nova bancada de trabalho.
 
@@ -105,13 +105,13 @@ Desde FreeCAD 0.17, muitas bancadas de trabalho podem ser instaladas usando o [G
 
 -   [Lista de Comandos](List_of_Commands/pt-br.md): Uma lista completa dos comandos do FreeCAD disponíveis
 
-## Ajuda Online {#ajuda_online}
+## Ajuda Online 
 
 Esta é a ajuda online oficial do FreeCAD. Note que o sistema de ajuda online está sendo refeito neste momento. Será usado para gerar um arquivo .CHM, que virá com as distribuições em binário do FreeCAD. Neste momento a ajuda online resume algumas das seções mais completas deste wiki.
 
 -   [Conteúdos da Ajuda Online](Online_Help_Toc/pt-br.md)
 
-## Mais Informações {#mais_informações}
+## Mais Informações 
 
 -   A [Área dos usuários experientes](Power_users_hub/pt-br.md) é para onde se deve dirigir se quiser ver utilizações mais avançadas do FreeCAD
 -   O [Portal da comunidade FreeCAD](FreeCAD_Community_Portal/pt-br.md) contém uma lista de projetos feitos por membros da comunidade com o FreeCAD.

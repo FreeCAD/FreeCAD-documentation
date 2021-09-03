@@ -31,7 +31,7 @@ Anyone is invited to borrow some code and develop similar or hopefully better to
 
 This sandbox is to start my documentation. At some further state it may be split into several pages for easier use.
 
-## Task list {#task_list}
+## Task list 
 
 To automatically generate a drawing page we need to know
 
@@ -43,7 +43,7 @@ To automatically generate a drawing page we need to know
 
 :\* how to manipulate editable texts
 
-## Insert a page and template {#insert_a_page_and_template}
+## Insert a page and template 
 
 Usually a template will be inserted into the active FreeCAD document which means a FreeCAD must be running and a file must be opened.
 
@@ -61,7 +61,7 @@ An object to address the active document is introduced and named activeDoc.
 
 And finally two variables are filled with the names of the generated page and template. (I prefer 2 digits for the numbers in contrast to FreeCAD)
 
-### Insert just one page and template {#insert_just_one_page_and_template}
+### Insert just one page and template 
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -127,7 +127,7 @@ activeDoc.getObject(newPage).ViewObject.doubleClicked()
 
 </div>
 
-### Insert more than just one page and template {#insert_more_than_just_one_page_and_template}
+### Insert more than just one page and template 
 
 The above code works for single pages only. It needs some extra lines to detect existing pages and to increment the page number.
 
@@ -208,13 +208,13 @@ activeDoc.getObject(newPage).ViewObject.doubleClicked()
 
 I recommend to save the file after each added page.
 
-## Generate a template {#generate_a_template}
+## Generate a template 
 
 A template provides a background for the drawing tasks. The template\'s dimensions are used by the printer drivers to scale the drawing correctly.
 
 The templates are svg-files and so the macro has to write lines of svg code (which is a subset of xml code).
 
-### Generate a simple blank page template {#generate_a_simple_blank_page_template}
+### Generate a simple blank page template 
 
 This macro shows the principle how an svg-file can be put together. (Format is A3)
 
@@ -313,7 +313,7 @@ EndSvg(templatePath+templateName)
 
 Now some ink will be added to the blank page:
 
-### Add code segments to\... {#add_code_segments_to...}
+### Add code segments to\... 
 
 The following code segments are to be added to the above code. They should placed between the svg-tags.
 
@@ -321,7 +321,7 @@ They are usually split in a part to collect data for parameter values and one pa
 
 All functions dealing with **formatWidth** and **formatHeight** can create svg-code to match each DIN format from A4 to A0.
 
-#### \... create frames {#create_frames}
+#### \... create frames 
 
 Code segments (to create the svg-instructions) to draw two rectangles, one for a sheet frame and one around the drawing area.
 
@@ -419,7 +419,7 @@ CreateFrame(templatePath+templateName, formatWidth, formatHeight)
 
 </div>
 
-#### \... to add index fields {#to_add_index_fields}
+#### \... to add index fields 
 
 Code segments to calculate a few parameters based on sheet dimensions and then create code to place the separator lines, index letters and numbers and a few lines to help folding this drawing and placing a puncher. Additional functions to create several path and text instructions for the svg-file.
 
@@ -648,7 +648,7 @@ CreateDecoration(templatePath+templateName, formatWidth, formatHeight)
 
 </div>
 
-#### \... create title block elements {#create_title_block_elements}
+#### \... create title block elements 
 
 Code segments (to create the svg-instructions) to draw
 
@@ -851,7 +851,7 @@ CreateEditableText(templatePath+templateName, formatWidth, formatHeight)
 
 </div>
 
-### The resulting macro {#the_resulting_macro}
+### The resulting macro 
 
 All sections put together give a macro like this:
 
@@ -1347,13 +1347,13 @@ And this is the resulting Page:
 
 <img alt="TechDraw page A3" src=images/TechDraw_TemplateHelper_A3.png  style="width:400px;">
 
-## Set up a user interface {#set_up_a_user_interface}
+## Set up a user interface 
 
 A single format template generator is a bit lame and so a way to choose a format is needed.
 
 As a user interface a pop-up window with a list to choose from would be nice, but let\'s start simple:
 
-### A simple user interface window {#a_simple_user_interface_window}
+### A simple user interface window 
 
 There are some changes in coming versions of Python or Qt and so some principles described in the FreeCAD wiki will not be supported anymore.
 
@@ -1407,7 +1407,7 @@ The action will take place within the initUI function in further steps. And the 
 
 </div>
 
-### A user interface window with buttons {#a_user_interface_window_with_buttons}
+### A user interface window with buttons 
 
 Like the one above plus OK and cancel buttons and adjusted window dimensions.
 
@@ -1489,7 +1489,7 @@ Each button launches a function setting a result value and closing the window.
 
 </div>
 
-### A user interface window with combo-box {#a_user_interface_window_with_combo_box}
+### A user interface window with combo-box 
 
 Like the one above plus a label and a combo-box to select a sheet format.
 
@@ -1591,7 +1591,7 @@ The combo-box is setting another result value without closing the window.
 
 </div>
 
-## Manipulate editable texts {#manipulate_editable_texts}
+## Manipulate editable texts 
 
 Whenever a new page is generated and inserted, default values are used for the editable texts.
 
@@ -1613,7 +1613,7 @@ Steps to achieve the goal:
 
 :\# distribute the values to all pages
 
-### Look for existing Pages {#look_for_existing_pages}
+### Look for existing Pages 
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -1657,7 +1657,7 @@ else:
 
 </div>
 
-### Read and write editable texts {#read_and_write_editable_texts}
+### Read and write editable texts 
 
 Now that we can be sure that there are pages in the active document it is time to read and write some editable texts.
 
@@ -1727,7 +1727,7 @@ else:
 
 </div>
 
-### Add a user interface {#add_a_user_interface}
+### Add a user interface 
 
 Between reading and writing there should be the opportunity to check and modify the values.
 
@@ -1932,9 +1932,9 @@ else:
 
 More results:
 
-## Combined code {#combined_code}
+## Combined code 
 
-### Generate A3 template and insert it {#generate_a3_template_and_insert_it}
+### Generate A3 template and insert it 
 
 Just copy this code and paste it into an empty \*.py file, edit the template path, save and start the macro from within FreeCAD:
 
@@ -2468,7 +2468,7 @@ activeDoc.getObject(newPage).ViewObject.doubleClicked()
 
 </div>
 
-### Select format and generate a template then insert it {#select_format_and_generate_a_template_then_insert_it}
+### Select format and generate a template then insert it 
 
 This combines the tasks to set up an input window to select the sheet format, to generate a template with the chosen dimensions, and to insert it into our active document.
 

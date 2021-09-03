@@ -16,7 +16,7 @@ La commande **Std Enregistrer** enregistre le document actif.
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_Save.svg" width=16px> [Std Enregistrer](Std_Save.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|File → <img src="images/Std_Save.svg" width=16px> Enregistrer}} dans le menu.
+    -   Sélectionnez l\'option **File → <img src="images/Std_Save.svg" width=16px> Enregistrer** dans le menu.
     -   Utilisez le raccourci clavier: **Ctrl**+**S**.
 2.  Pour les nouveaux documents: saisissez un nom de fichier dans la boîte de dialogue et appuyez sur le bouton **Enregistrer**.
 
@@ -30,7 +30,7 @@ La commande **Std Enregistrer** enregistre le document actif.
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

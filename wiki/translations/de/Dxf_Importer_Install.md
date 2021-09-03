@@ -13,7 +13,7 @@
 
 Diese Seite erklärt Dir Schritt für Schritt dem Rand für die Installation des Pakets Draft-dxf-import yorikvanhavre zu folgen, um Dateien im DXF Format in FreeCAD hochzuladen und DWG Dateien unter Verwendung des teighafileconverter Hilfsprogramms zu importieren. Diese Installation wurde in der Windows Vista Umgebung durchgeführt, aber das Prinzip des Systems ist für Linux das gleiche.
 
-#### Erster Schritt: {#erster_schritt}
+#### Erster Schritt: 
 
 den Makro Ordner in FreeCAD ermitteln
 
@@ -55,7 +55,7 @@ Wenn Du eine Version ab 0.15 hast, kannst Du das automatische Aktualisierungspak
 
 **7 :** Schließe FreeCAD
 
-#### Zweiter Schritt: {#zweiter_schritt}
+#### Zweiter Schritt: 
 
 Herunterladen der Dateien
 
@@ -121,7 +121,7 @@ import importDXF
 print importDXF.CURRENTDXFLIB
 ```
 
-#### Dritter Schritt: {#dritter_schritt}
+#### Dritter Schritt: 
 
 Herunterladen des Teigha Konverters zur Verwendung von DWG Dateien
 
@@ -161,7 +161,7 @@ Herunterladen des Teigha Konverters zur Verwendung von DWG Dateien
 
 ![directory Teigha File Converter 4.00.1](images/Dxf_Importer_Install_20.png ) 
 
-### Vierter Schritt: {#vierter_schritt}
+### Vierter Schritt: 
 
 Teigha verwenden. Teigha ist ein vollwertiges Programm und Du kannst es auch ohne FreeCAD verwenden
 

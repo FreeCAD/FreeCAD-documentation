@@ -6,7 +6,7 @@ Esta página explica la forma en que [Ambiente de trabajo Diseño de piezas](Par
 
 Mientras el [Ambiente de Trabajo de Pieza](Part_Workbench/es.md) y otros Ambientes de Trabajo de FreeCAD permiten crear piezas mediante la combinación de formas, el ambiente de trabajo de diseño de piezas se basa en **operaciones**. Una operación modifica la forma de una pieza.
 
-## Metodología de edición de operaciones {#metodología_de_edición_de_operaciones}
+## Metodología de edición de operaciones 
 
 La primera operación es conoce como **operación base**. A medida que se van añadiendo operaciones, cada operación toma la forma resultante de la operación anterior y añade o quita material, creando una dependencia lineal entre cada operación y la siguiente. Desde el punto de vista de las operaciones sustractivas, esta metodología se asemeja al proceso de fabricación. Por ejemplo, a un bloque se le hace un corte a un lado, posteriormente a otro lado, luego se perforan agujeros, a continuación se redondean bordes, etc.
 
@@ -42,21 +42,21 @@ Solo un cuerpo puede estar activo en un documento. El cuerpo activo obtiene las 
 
 Cuando una pieza requiere del empleo de varios cuerpos, estos pueden ser agrupados dentro de un contenedor de propósito general llamado <img alt="" src=images/Std_Part.svg  style="width:24px;"> [contenedor de Pieza](Std_Part/es.md). De esta forma todos los cuerpos se pueden trasladar de forma solidaria como si fueran un único objeto.
 
-### Gestión de visibilidad de un cuerpo {#gestión_de_visibilidad_de_un_cuerpo}
+### Gestión de visibilidad de un cuerpo 
 
 Un cuerpo queda representado por el resultado de la última operación en él contenida. Por defecto dicha operación es conoce como Punta. Un analogía es *la punta del iceberg*: sólo la punta es visible sobre el agua, mientras que la mayoría del iceberg permanece oculto bajo el agua. Cuando se añade una nueva operación a un cuerpo, la visibilidad de las anteriores operaciones queda deshabilitada, y la nueva operación se convierte en la punta del cuerpo.
 
 Sólo puede haber una característica visible a la vez. Es posible [cambiar la visibilidad](Std_ToggleVisibility/es.md) de cualquier característica en el cuerpo, seleccionándola en el árbol del Modelo y presionando la **Barra espaciadora**, en efecto retrocediendo en la historia del cuerpo.
 
-### Origen del cuerpo {#origen_del_cuerpo}
+### Origen del cuerpo 
 
 El cuerpo tiene un origen que consiste en planos de referencia (XY, XZ, YZ) y ejes (X, Y, Z). Dichos planos y ejes puede ser utilizados en los croquis y operaciones del mismo. Los croquis pueden ser fijados a uno de los planos del origen.
 
-### Moviendo y reordenando operaciones {#moviendo_y_reordenando_operaciones}
+### Moviendo y reordenando operaciones 
 
 Es posible cambiar la Punta a una operación anterior dentro del cuerpo a fin de insertar nuevas operaciones u objetos (como croquis o geometría de referencia). También es posible reordenar operaciones dentro de un cuerpo, o mover operaciones de un cuerpo a otro. Dichas operaciones son accesibles mediante el menú contextual que se despliega seleccionando un objeto u operación dentro del body y haciendo click con el botón derecho del ratón. Sin embargo cabe destacar que el programa puede evitar dicha operación si el objeto contiene dependencias en el cuerpo origen, como por ejemplo si está fijada a una cara del mismo. En el caso específico de un croquis es condición indispensable que el mismo no contenta enlaces a geometría externa.
 
-### Diferencia con otros sistemas de CAD {#diferencia_con_otros_sistemas_de_cad}
+### Diferencia con otros sistemas de CAD 
 
 Una diferencia fundamental entre FreeCAD y otros programas, como Catia, es que FreeCAD no permite tener muchos sólidos desconectados en el mismo <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> **[Diseño de piezas cuerpo](PartDesign_Body/es.md)**. Es decir, una nueva característica siempre debe ser construida sobre la anterior. O dicho de otra manera, la nueva característica debería \"tocar\" la característica anterior, de modo que ambas características se fusionen y se conviertan en un único sólido. No puedes tener sólidos \"flotantes\".
 
@@ -71,7 +71,7 @@ Una diferencia fundamental entre FreeCAD y otros programas, como Catia, es que F
 
 </div>
 
-## Geometría de referencia {#geometría_de_referencia}
+## Geometría de referencia 
 
 La geometría de referencia consiste en planos personalizados, lineas, puntos o formas externas enlazadas. Pueden ser creados para ser usados como referencia por bocetos y características. Hay una multitud de posibilidades de adjuntar objetos de referencia.
 
@@ -92,7 +92,7 @@ Even if not used for supporting sketches, datum objects are still helpful as vis
 
 *Difference between Catia and FreeCAD. Left: Catia allows disconnected bodies from the previous features of the body. In FreeCAD this causes an error; Right: the newer feature should always contact or intersect the previous feature, so that it is fused to it, and becomes a single contiguous solid. In this example, the new solid is based on a datum plane that is rotated around the Y axis.*
 
-## Referencia cruzada {#referencia_cruzada}
+## Referencia cruzada 
 
 
 <div class="mw-translate-fuzzy">
@@ -114,7 +114,7 @@ Para más información, ver la página de [Fijación](Part_Attachment/es.md).
 
 </div>
 
-## Consejos para la creación de modelos estables {#consejos_para_la_creación_de_modelos_estables}
+## Consejos para la creación de modelos estables 
 
 La idea de modelado paramétrico implica que el cambio de valores de ciertos parámetros provocan que el modelo cambie adaptándose a los nuevos valores. Sin embargo, cuando se hacen cambios severos, el modelo puede romperse debido al [problema de denominación topológica](topological_naming_problem/es.md) que aún no está resuelto en FreeCAD. La rotura puede minimizarse si se respetan los siguientes principios de diseño:
 
@@ -129,23 +129,23 @@ La idea de modelado paramétrico implica que el cambio de valores de ciertos par
 
 </div>
 
-## Flujo de trabajo de construcción del cuerpo {#flujo_de_trabajo_de_construcción_del_cuerpo}
+## Flujo de trabajo de construcción del cuerpo 
 
 There are several workflows that are possible with the [PartDesign Workbench](PartDesign_Workbench.md). What should always be noticed is that all the features created inside a [PartDesign Body](PartDesign_Body.md) will be fused together to obtain the final object.
 
-### Diferentes dibujos {#diferentes_dibujos}
+### Diferentes dibujos 
 
 Sketches need to be supported by a plane. This plane can be one of the main planes (XY, XZ, or YZ) defined by the Origin of the Body. A sketch is either extruded into a positive solid (additive), with a tool like <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Pad](PartDesign_Pad.md), or into a negative solid (subtractive), with a tool like <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Pocket](PartDesign_Pocket.md). The first adds volume to the final shape of the body, while the latter cuts volume from the final shape. Any number of sketches and partial solids can be created in this way; the final shape (tip) is the result of fusing these operations together. Naturally, the Body can\'t consist of only subtractive operations, as the final shape should be a solid with a positive, non-zero volume.
 
 <img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
-### Características secuenciales {#características_secuenciales}
+### Características secuenciales 
 
 Sketches can be supported by the faces of previous solid operations. This may be necessary if you need to access a face that is only available after a certain feature has been created. However, this workflow isn\'t recommended since, if the original feature is modified, the following features in the sequence may break. This is the [topological naming problem](topological_naming_problem.md).
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 
-### Uso de los planos de datos para el apoyo {#uso_de_los_planos_de_datos_para_el_apoyo}
+### Uso de los planos de datos para el apoyo 
 
 Datum planes are useful to support the sketches. These auxiliary planes should be attached to the base planes of the body.
 

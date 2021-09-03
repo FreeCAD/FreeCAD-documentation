@@ -78,7 +78,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
     -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Многослойный Материал](Arch_MultiMaterial/ru.md): Создает многослойный материал и привязывает его к выбранным объектам, если они есть <small>(v0.17)</small> 
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Список](Arch_Schedule/ru.md): Создает различные типы списков
 
-### Инструменты изменения {#инструменты_изменения}
+### Инструменты изменения 
 
 Эти инструменты предназначены для изменения архитектурных объектов.
 
@@ -113,7 +113,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 -   <img alt="" src=images/Std_DlgParameter.png  style="width:32px;"> [Настройки](Arch_Preferences/ru.md): предпочтения для стен, структур, арматуры, окон, лестниц, панелей, труб, сеток и осей.
 
-### Форматы файлов {#форматы_файлов}
+### Форматы файлов 
 
 -   [IFC](Arch_IFC/ru.md) : Классы строительной индустрии
 -   [DAE](Arch_DAE/ru.md) : Формат сеток Collada
@@ -122,7 +122,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 -   [3DS](Arch_3DS/ru.md) : Формат 3DS (только импорт)
 -   [SHP](Arch_SHP/ru.md): GIS Shapefiles (только импорт)
 
-## Программный интерфейс {#программный_интерфейс}
+## Программный интерфейс 
 
 В архитектурном модуле можно использовать скрипты [Python](Python.md) и [макросы](macros/ru.md), используя функции [Arch Python API](http://www.freecadweb.org/api/Arch.html).
 

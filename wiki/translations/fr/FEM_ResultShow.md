@@ -14,7 +14,7 @@
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_ResultShow.svg" width=16px> [Visualiser les données...](FEM_ResultShow/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Results → <img src="images/FEM_ResultShow.svg" width=16px> Afficher le résultat}} dans le menu.
+    -   Sélectionnez l\'option **Results → <img src="images/FEM_ResultShow.svg" width=16px> Afficher le résultat** dans le menu.
     -   Utilisez le raccourci clavier: **R** puis **S**.
 
 

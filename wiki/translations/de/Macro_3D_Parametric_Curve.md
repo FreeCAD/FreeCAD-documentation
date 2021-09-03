@@ -17,13 +17,13 @@ Dieses Makro erstellt eine Kurve, die durch die parametrischen Gleichungen x (t)
 <img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
 *Example Epicycloid curve‎*
 
-## Ursprüngliches Skript {#ursprüngliches_skript}
+## Ursprüngliches Skript 
 
 Den aktualisierten Code (13/05/2015) finden Sie in folgendem Github-Repository:
 
 [Den Code erhalten Sie hier!](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
 
-## Modifiziertes Skript {#modifiziertes_skript}
+## Modifiziertes Skript 
 
 <img alt="Example Epicycloid curve‎" src=images/Macro_3D_Parametric_Curve00.png  style="width:600px;">
 

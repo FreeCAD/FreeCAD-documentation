@@ -26,7 +26,7 @@ Das Dienstprogramm **Skizze validieren** kann verwendet werden, um eine Skizze z
 1.  Wähle die zu prüfende Skizze in der [Baumansicht](Tree_view/de.md) oder durch Klicken auf eine ihrer Kanten in der [3D Ansicht](3D_view/de.md) aus.
 2.  Führe einen der folgenden Schritte aus, um das Dienstprogramm \"Skizze validieren\" zu öffnen:
 
--   Wähle im Menü die Option {{MenuCommand|Skizze → Skizze validieren...}}.
+-   Wähle im Menü die Option **Skizze → Skizze validieren...**.
 
 \#\* Drücke den **<img src="images/Sketcher_ValidateSketch.svg" width=16px> [Skizze validieren](Sketcher_ValidateSketch/de.md)** (nicht verfügbar im [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)).
 
@@ -35,7 +35,7 @@ Das Dienstprogramm **Skizze validieren** kann verwendet werden, um eine Skizze z
 
 ## Optionen
 
-### Fehlende Deckungsgleichheit {#fehlende_deckungsgleichheit}
+### Fehlende Deckungsgleichheit 
 
 Findet fehlende Deckungsgleichheit für überlappende Knoten und fügt sie hinzu. Drücke die Taste **Find**; es erscheint ein Aufklappdialog, der anzeigt, wie viele fehlende zusammenfallende Punkte gefunden wurden; sie werden in der 3D Ansicht als gelbe Kreuze dargestellt. Drücke **OK**, um den Dialog zu schließen, und drücke dann die Taste **Fix**, um die fehlenden zusammenfallende Punkte hinzuzufügen.
 
@@ -47,7 +47,7 @@ Diese Toleranz wird auch von dem Prozess **Find**/**Fix** verwendet.
 
 Lasse das Kontrollkästchen \"Konstruktionsgeometrie ignorieren\" aktiviert, um die Konstruktionsgeometrie in der Analyse zu ignorieren.
 
-### Ungültige Beschränkungen {#ungültige_beschränkungen}
+### Ungültige Beschränkungen 
 
 Prüft auf fehlerhafte Beschränkungen.
 
@@ -57,7 +57,7 @@ Gibt es beispielsweise eine Kreis-Linie-Tangente Beschränkung, die sich aber au
 
 Es führt auch andere Prüfungen durch, z. B. auf leere Verweise.
 
-### Entartete Geometrie {#entartete_geometrie}
+### Entartete Geometrie 
 
 Entartete Geometrie kann durch Löseraktionen in einer Skizze entstehen.
 
@@ -65,7 +65,7 @@ Wenn zum Beispiel eine Linie gezwungen wird, sich zu verkürzen, um fast ein Pun
 
 Andere Beispiele: eine Linie der Länge Null oder ein Kreis/Bogen mit dem Radius Null.
 
-### Umgekehrte Äussere Geometrie {#umgekehrte_äussere_geometrie}
+### Umgekehrte Äussere Geometrie 
 
 Umgekehrte äußere Geometrie kann vorkommen, da die Behandlung von umgekehrter Geometrie in der Version 0.15 geändert wurde.
 

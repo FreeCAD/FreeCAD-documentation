@@ -140,7 +140,7 @@ Pozor: v závislosti na velikosti obrázku může být projekt velmi velký! pro
 
 <div class="mw-translate-fuzzy">
 
-#### Mode 8 Bits {#mode_8_bits}
+#### Mode 8 Bits 
 
 Začátek hodnoty operace se automaticky přizpůsobí zvolené funkci: 0, pokud je nastavení černé (**černé**) 255 nebo 20, je-li nastavení bílé (**bílá**).
 
@@ -166,7 +166,7 @@ Začátek hodnoty operace se automaticky přizpůsobí zvolené funkci: 0, pokud
 
 <div class="mw-translate-fuzzy">
 
-#### Mode 32 Bits {#mode_32_bits}
+#### Mode 32 Bits 
 
 -    {{RadioButton|TRUE|Photo}}: Režim foto je automaticky aktivován, když je detekován obraz **32 Bits**. (postup může být dlouhý)
 
@@ -190,7 +190,7 @@ Začátek hodnoty operace se automaticky přizpůsobí zvolené funkci: 0, pokud
 
 <div class="mw-translate-fuzzy">
 
-#### Capping (10mm) {#capping_10mm}
+#### Capping (10mm) 
 
 -   Slider: udávají výšku tvaru, výška je zobrazena v rámečku titulku.
 

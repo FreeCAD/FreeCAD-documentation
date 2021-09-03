@@ -14,9 +14,9 @@ Vous permet de détacher une esquisse d'une face et de la lier à l'un des plans
 ## Utilisation
 
 1.  Sélectionnez l\'esquisse à réorienter dans l\'arborescence
-2.  Choisir {{MenuCommand|Sketch → <img src=images/Sketcher_ReorientSketch.svg style="width:16px"> [Réorienter l'esquisse](Sketcher_ReorientSketch/fr.md)}} dans le menu supérieur
+2.  Choisir **Sketch → <img src=images/Sketcher_ReorientSketch.svg style="width:16px"> [Réorienter l'esquisse](Sketcher_ReorientSketch/fr.md)** dans le menu supérieur
 3.  Un menu apparaîtra et vous demandera si vous souhaitez détacher l\'esquisse de sa face
-4.  Sélectionnez **Oui** vous donnera le même menu que dans {{MenuCommand|Sketch → Nouvelle esquisse}}.
+4.  Sélectionnez **Oui** vous donnera le même menu que dans **Sketch → Nouvelle esquisse**.
 5.  Vous pouvez attacher l\'esquisse à l\'un des plans principaux.
 6.  Vous avez également la possibilité d\'ajouter un décalage positif ou négatif.
 

@@ -6,7 +6,7 @@
 
 {{Manual:TOC/fr}}
 
-FreeCAD utilise le [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) pour dessiner et gérer son interface. Ce framework est utilisé par un large éventail d\'applications. Ainsi l\'interface FreeCAD est alors très classique et ne présente pas de difficulté particulière à comprendre. La plupart des boutons sont standards et vous les trouverez où vous les attendez {{MenuCommand|Fichier → Ouvrir, Modifier → Coller, etc.}} Voici l\'apparence de FreeCAD lorsque vous l'ouvrez pour la première fois, juste après l\'installation :
+FreeCAD utilise le [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) pour dessiner et gérer son interface. Ce framework est utilisé par un large éventail d\'applications. Ainsi l\'interface FreeCAD est alors très classique et ne présente pas de difficulté particulière à comprendre. La plupart des boutons sont standards et vous les trouverez où vous les attendez **Fichier → Ouvrir, Modifier → Coller, etc.** Voici l\'apparence de FreeCAD lorsque vous l'ouvrez pour la première fois, juste après l\'installation :
 
 ![](images/FreeCAD-v0-18-FirstStart.png )
 
@@ -16,7 +16,7 @@ Après quelques temps, lorsque vous vous serez familiarisés avec FreeCAD, vous 
 
 ![](images/FreeCAD-v0-18-NewProject.png )
 
-### Les ateliers {#les_ateliers}
+### Les ateliers 
 
 Notez que certaines des icônes ont changé entre les deux captures d\'écran ci-dessus. C\'est là où le concept le plus important utilisé dans l\'interface FreeCAD entre en jeu : les ateliers.
 
@@ -38,7 +38,7 @@ Regardons mieux les différentes parties de l\'interface :
 
 -   **La vue 3D** est le composant principal de l\'interface. Il peut être séparé de la fenêtre principale, dans une fenêtre qui lui est dédiée. Vous pouvez avoir plusieurs vues du même document (ou des mêmes objets) ou plusieurs documents ouverts en même temps. Vous pouvez sélectionner des objets ou des parties d\'objets en cliquant dessus et vous pouvez obtenir une vue panoramique, zoomer et faire pivoter la vue avec les boutons de la souris. Ceci sera expliqué plus tard, dans le prochain chapitre.
 
-Outre le panneau de la vue 3D, les panneaux d'informations suivants sont disponibles. Ils peuvent être rendus visibles ou masqués en les sélectionnant depuis {{MenuCommand|Affichage → Panneaux}}. Le nom du panneau apparaît dans le coin supérieur gauche du panneau lorsqu\'il est affiché :
+Outre le panneau de la vue 3D, les panneaux d'informations suivants sont disponibles. Ils peuvent être rendus visibles ou masqués en les sélectionnant depuis **Affichage → Panneaux**. Le nom du panneau apparaît dans le coin supérieur gauche du panneau lorsqu\'il est affiché :
 
 -   **La vue combinée** *( ![en Anglais,](images/Flag-en.jpg ) Combo View)* comporte deux onglets :
     -   L\'onglet Modèle *( ![en Anglais,](images/Flag-en.jpg ) Model)* vous montre le contenu et la structure de votre document ci-dessus et les propriétés (ou les paramètres) des objets sélectionnés ci-dessous. Ces propriétés sont séparées en deux catégories :
@@ -55,11 +55,11 @@ Outre le panneau de la vue 3D, les panneaux d'informations suivants sont disponi
 
 ![](images/FreeCAD-v0-18-ExtrudeTask.png )
 
-### Personnalisation de l\'interface {#personnalisation_de_linterface}
+### Personnalisation de l\'interface 
 
 L\'interface de FreeCAD est hautement personnalisable. Tous les panneaux et barres d\'outils peuvent être déplacés à différents endroits ou empilés les uns sur les autres. Ils peuvent également être fermés et rouverts quand c'est nécessaire dans le menu Affichage ou en cliquant avec le bouton droit de la souris sur une zone vide de l\'interface. Il existe bien d\'autres options disponibles, telles que la création de barres d\'outils personnalisées avec des outils à partir de n\'importe quel atelier ou l'affectation et la modification des raccourcis clavier.
 
-Ces options de personnalisation avancées sont disponibles à partir du menu {{MenuCommand|Outils → Personnaliser...}} :
+Ces options de personnalisation avancées sont disponibles à partir du menu **Outils → Personnaliser...** :
 
 ![](images/FreeCAD-v0-18-CustomizeInterface.png )
 

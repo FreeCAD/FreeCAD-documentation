@@ -19,7 +19,7 @@ Il comando **Ispettore di scena** apre una finestra di dialogo che mostra una pa
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare l\'opzione {{MenuCommand|Strumenti → Ispettore di scena...}} dal menu.
+1.  Selezionare l\'opzione **Strumenti → Ispettore di scena...** dal menu.
 2.  Si apre la finestra di dialogo Ispettore di scena.
 3.  La finestra di dialogo non è modale, il che significa che può rimanere aperta mentre si continua a lavorare in FreeCAD.
 4.  Se lo si desidera, premere **Aggiorna** per aggiornare la panoramica.

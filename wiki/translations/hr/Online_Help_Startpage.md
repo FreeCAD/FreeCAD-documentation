@@ -11,7 +11,7 @@
 
 ![150](images/Crystal_Clear_app_tutorials.png )
 
-## Dobro došli na FreeCAD online Pomoć {#dobro_došli_na_freecad_online_pomoć}
+## Dobro došli na FreeCAD online Pomoć 
 
 
 <div class="mw-translate-fuzzy">
@@ -21,7 +21,7 @@ Ovaj je dokument automatski izrađen iz sadržaja službene FreeCAD wiki dokumen
 
 </div>
 
-### Kako koristiti {#kako_koristiti}
+### Kako koristiti 
 
 
 <div class="mw-translate-fuzzy">

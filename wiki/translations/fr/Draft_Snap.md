@@ -14,7 +14,7 @@ L\'aimantation est disponible avec la plupart des commandes de [Draft](Draft_Wor
 
 ![](images/Draft_Snap_Endpoint_example.png ) *Aimantation au point d'extrémité d'une arête*
 
-## Outils d\'aimantaion {#outils_daimantaion}
+## Outils d\'aimantaion 
 
 Ces outils sont disponibles dans la barre d\'outils Draft Aimantation et dans le [Draft widget aimantation](Draft_snap_widget/fr.md).
 
@@ -52,7 +52,7 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Basculer la grille](Draft_ToggleGrid/fr.md) : active ou désactive la grille.
 
-## Aimantation avancée {#aimantation_avancée}
+## Aimantation avancée 
 
 -   Des points d\'aimantation supplémentaires peuvent être obtenus en combinant deux options d\'aimantation. Par exemple, en combinant [Draft Aimantation Orthogonal](Draft_Snap_Ortho/fr.md) et [Draft Aimantation Extension](Draft_Snap_Extension/fr.md), vous obtiendrez un point d\'accrochage à l\'intersection de leurs lignes imaginaires.
 -   L\'aimantation peut être combinée avec des [constraintes](Draft_Constrain/fr.md).
@@ -74,16 +74,16 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 
 Remarquez qu\'après avoir modifié certaines préférences, vous devez redémarrer FreeCAD.
 
--   Lorsqu\'une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) nécessitant la saisie de points est active, la distance maximale à laquelle [Draft Aimantation Grille](Draft_Snap_Grid/fr.md) détecte les intersections des lignes de la grille peut être modifiée à la volée en appuyant sur **[** (touche d\'augmentation) ou **]** (touche de diminution). Ce réglage est enregistré : {{MenuCommand|Outils → Modifier les paramètres... → BaseApp → Preferences → Mod → Draft → snapRange}}. Elle peut également être modifiée dans le panneau des tâches de la commande [Draft Plan de travail](Draft_SelectPlane/fr.md).
--   Pour effectuer une aimantation uniquement lorsque la touche {{MenuCommand|Snap mod}} est maintenue enfoncée :
-    -   Désélectionner : {{MenuCommand|Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Toujours aimanter (désactiver le mode d'aimantation)}}.
-    -   La touche {{MenuCommand|Snap mod}} par défaut, **Ctrl**, peut être modifiée : {{MenuCommand|Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Mode d'accrochage}}.
+-   Lorsqu\'une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) nécessitant la saisie de points est active, la distance maximale à laquelle [Draft Aimantation Grille](Draft_Snap_Grid/fr.md) détecte les intersections des lignes de la grille peut être modifiée à la volée en appuyant sur **[** (touche d\'augmentation) ou **]** (touche de diminution). Ce réglage est enregistré : **Outils → Modifier les paramètres... → BaseApp → Preferences → Mod → Draft → snapRange**. Elle peut également être modifiée dans le panneau des tâches de la commande [Draft Plan de travail](Draft_SelectPlane/fr.md).
+-   Pour effectuer une aimantation uniquement lorsque la touche **Snap mod** est maintenue enfoncée :
+    -   Désélectionner : **Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Toujours aimanter (désactiver le mode d'aimantation)**.
+    -   La touche **Snap mod** par défaut, **Ctrl**, peut être modifiée : **Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Mode d'accrochage**.
 -   Pour afficher la barre d\'outils Aimantation de Draft uniquement lorsqu\'une commande est active :
-    -   Sélectionnez : {{MenuCommand|Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Afficher la barre d'outils d'accrochage}}.
-    -   Sélectionnez : {{MenuCommand|Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Masquer la barre d'outils d'accrochage après emploi}}.
--   Les symboles d\'aimantation peuvent être modifiés : {{MenuCommand|Edition → Préférences... → Draft → Paramètres visuels → Paramètres visuels → Style des symboles d'aimantation}}.
--   La couleur des symboles d\'accrochage et les dimensions de [Draft Aimantation Dimensions](Draft_Snap_Dimensions/fr.md) peuvent être modifiées : {{MenuCommand|Edition → Préférences... → Draft → Paramètres visuels → Paramètres visuels → Couleur}}.
--   Les raccourcis clavier à un seul caractère mentionnés peuvent être modifiés : {{MenuCommand|Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Raccourcis des commandes}}.
+    -   Sélectionnez : **Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Afficher la barre d'outils d'accrochage**.
+    -   Sélectionnez : **Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Masquer la barre d'outils d'accrochage après emploi**.
+-   Les symboles d\'aimantation peuvent être modifiés : **Edition → Préférences... → Draft → Paramètres visuels → Paramètres visuels → Style des symboles d'aimantation**.
+-   La couleur des symboles d\'accrochage et les dimensions de [Draft Aimantation Dimensions](Draft_Snap_Dimensions/fr.md) peuvent être modifiées : **Edition → Préférences... → Draft → Paramètres visuels → Paramètres visuels → Couleur**.
+-   Les raccourcis clavier à un seul caractère mentionnés peuvent être modifiés : **Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Raccourcis des commandes**.
 
 
 

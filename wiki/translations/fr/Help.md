@@ -10,7 +10,7 @@ Il existe différents sous-forums pour les utilisateurs et les développeurs Fre
 
 Si vous avez besoin d\'aide ou avez des questions relatives à une page particulière de cette documentation wiki, vous pouvez toujours laisser des idées ou des commentaires sur la page , un onglet **discussion** se trouve sur chaque page. Pour télécharger des fichiers pour Wiki, veuillez utiliser [this page](https://www.freecadweb.org/wiki/Special:Upload).
 
-## Internet Relay Chat (IRC) {#internet_relay_chat_irc}
+## Internet Relay Chat (IRC) 
 
 Il existe un forum de discussion IRC [IRC \#freecad chat room on Freenode](irc://chat.freenode.net/freecad). \#openFOAM-IRC est aussi sur Freenode.
 
@@ -18,7 +18,7 @@ Il existe un forum de discussion IRC [IRC \#freecad chat room on Freenode](irc:/
 
 Si vous êtes sur Reddit, vous pouvez utiliser [r/FreeCAD](https://www.reddit.com/r/FreeCAD/), ou [r/flossCAD](https://www.reddit.com/r/flossCAD/) en utilisant les talents de FreeCAD. Le sous-reddit r/flossCAD dispose également d\'un [salon de discussion](https://s.reddit.com/channel/300896_dfacaa912e069e3d3f7e55e5cedfb25483d8d68a) où vous pourrez peut-être poser vos questions. Il existe également [r/ElmerFEM](https://www.reddit.com/r/ElmerFEM/), [r/openscad](https://www.reddit.com/r/openscad/), [r/LibreCAD/](https://www.reddit.com/r/LibreCAD/) [r/OpenFOAM](https://www.reddit.com/r/OpenFOAM/), et le sous-reddit [r/Modelica](https://www.reddit.com/r/Modelica/).
 
-## Twitter et Mastodon {#twitter_et_mastodon}
+## Twitter et Mastodon 
 
 Vous pouvez également suivre le [compte officiel Twitter pour FreeCAD](https://twitter.com/FreeCADNews) et/ou [les développeurs](https://twitter.com/fsfarimani/lists/freecad). Il y a aussi le [FreeCAD\'s compte officiel Mastodon](https://fosstodon.org/@FreeCAD) que vous pouvez suivre.
 

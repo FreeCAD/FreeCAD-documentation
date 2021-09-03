@@ -2,9 +2,9 @@
 
 ## Einleitung
 
-Die [Berichtsansicht](Report_view/de.md) ist eine Konsole, die Textnachrichten von FreeCAD Prozessen und Werkzeugen anzeigt. Sie ist im Menü {{MenuCommand|{{StdMenu|[Ansicht](Std_View_Menu/de.md)}} verfügbar. → Konsole → Berichtsansicht}}.
+Die [Berichtsansicht](Report_view/de.md) ist eine Konsole, die Textnachrichten von FreeCAD Prozessen und Werkzeugen anzeigt. Sie ist im Menü **{{StdMenu|[Ansicht](Std_View_Menu/de.md)** verfügbar. → Konsole → Berichtsansicht}}.
 
-Bestimmte Eigenschaften dieser Konsole, wie die Farbe des Textes und ob er bei Warnungen oder Fehlern automatisch angezeigt werden soll, können im {{MenuCommand|Allgemein→ Ausgabefenster}} Reiter des [Einstellungseditor](Preferences_Editor/de.md) konfiguriert werden.
+Bestimmte Eigenschaften dieser Konsole, wie die Farbe des Textes und ob er bei Warnungen oder Fehlern automatisch angezeigt werden soll, können im **Allgemein→ Ausgabefenster** Reiter des [Einstellungseditor](Preferences_Editor/de.md) konfiguriert werden.
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
@@ -39,15 +39,15 @@ Diese Funktionen können direkt von der [Python Konsole](Python_console/de.md) o
 
 Rechtsklick auf die Berichtsansicht zeigt einige Befehle:
 
--    {{MenuCommand|Optionen}}: Protokollierung, Warnung, Fehler, Python Ausgabe umleiten, Python Fehler umleiten, zum Ende gehen.
+-    **Optionen**: Protokollierung, Warnung, Fehler, Python Ausgabe umleiten, Python Fehler umleiten, zum Ende gehen.
 
--    {{MenuCommand|Kopieren}}: speichert den markierten Text in der Zwischenablage zum späteren Einfügen; er ist deaktiviert, wenn nichts markiert ist.
+-    **Kopieren**: speichert den markierten Text in der Zwischenablage zum späteren Einfügen; er ist deaktiviert, wenn nichts markiert ist.
 
--    {{MenuCommand|Alles markieren}}: wählt den gesamten Text in der Berichtsansicht aus.
+-    **Alles markieren**: wählt den gesamten Text in der Berichtsansicht aus.
 
--    {{MenuCommand|Löschen}}: löscht alle Meldungen in der Berichtsansicht. Dies ist nützlich, wenn du eine Fehlersuche bei einem Werkzeug durchführen willst, das Meldungen in der Berichtsansicht ausgibt, und sicher sein willst, dass keine alten Meldungen von früheren Werkzeugen vorhanden sind.
+-    **Löschen**: löscht alle Meldungen in der Berichtsansicht. Dies ist nützlich, wenn du eine Fehlersuche bei einem Werkzeug durchführen willst, das Meldungen in der Berichtsansicht ausgibt, und sicher sein willst, dass keine alten Meldungen von früheren Werkzeugen vorhanden sind.
 
--    {{MenuCommand|Speichern als}}: speichert die Meldungen in der Berichtsansicht in einer Textdatei.
+-    **Speichern als**: speichert die Meldungen in der Berichtsansicht in einer Textdatei.
 
 
 {{Interface navi

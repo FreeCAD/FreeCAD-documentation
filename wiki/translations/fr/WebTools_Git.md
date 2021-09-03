@@ -23,7 +23,8 @@ Git est un outil complexe, considérez d\'en apprendre les bases avant d\'utilis
 
 1.  Assurez-vous que la [Vue rapport](Report_view/fr.md) est ouverte car les messages Git y seront affichés.
 2.  Enregistrez le document actif actuel en vous assurant que le fichier enregistré se trouve dans un dépôt git existant. Cela peut être dans un sous-répertoire.
-3.  Sélectionnez le menu {{MenuCommand|Web Tools → <img src="images/WebTools_Git.svg" width=16px> [Git](WebTools_Git/fr.md)}}
+3.  Sélectionnez le menu **Web Tools → <img src="images/WebTools_Git.svg" width=16px> [Git](WebTools_Git/fr.md)
+**
 4.  Ceci ouvre un [Panneau des tâches](Task_panel/fr.md) dans la [Vue combo](Combo_view/fr.md).
 
 ## Options
@@ -44,7 +45,7 @@ Git est un outil complexe, considérez d\'en apprendre les bases avant d\'utilis
 -   L\'outil ne peut pas créer de nouveaux dépôts pour l\'instant. Vous devez avoir créé au préalable un dépôt local. (FreeCAD vérifiera si le document courant est dans un dépôt Git.)
 -   L\'outil ne peut pas changer ou créer des branches. Vous devez le faire manuellement avec les outils Git standard.
 
-## Activation des différences lisibles par l\'homme pour les fichiers FCStd avec l\'utilitaire fcinfo {#activation_des_différences_lisibles_par_lhomme_pour_les_fichiers_fcstd_avec_lutilitaire_fcinfo}
+## Activation des différences lisibles par l\'homme pour les fichiers FCStd avec l\'utilitaire fcinfo 
 
 Le [format de fichier Fcstd](File_Format_FCStd/fr.md) de FreeCAD est un format binaire au format zip, pour lequel Git ne peut pas produire de diffs corrects. Cela signifie que vous ne pouvez pas voir ce qui a changé entre les versions et que chaque nouvelle version stockée dans le référentiel Git est une copie complète du fichier.
 

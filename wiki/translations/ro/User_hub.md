@@ -29,7 +29,7 @@ Dacă doriți să știți cum a început dezvoltarea FreeCAD cu ani în urmă vi
 
 \_\_NOTOC\_\_
 
-## Utilizare FreeCAD {#utilizare_freecad}
+## Utilizare FreeCAD 
 
 
 </div>
@@ -56,7 +56,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-### Basic Application {#basic_application}
+### Basic Application 
 
 
 </div>
@@ -150,7 +150,7 @@ Since FreeCAD 0.17, many macros can be installed using the [Addon Manager](Std_A
 
 <div class="mw-translate-fuzzy">
 
-### Ateliere Externes {#ateliere_externes}
+### Ateliere Externes 
 
 Utilizatorii cu experiență au extins FreeCAD cu diverse ateliere de lucru externe personalizate, care nu sunt integrate în codul sursă FreeCAD, dar sunt ușor de instalat pe o instalare FreeCAD deja existentă. [See here](External_workbenches.md) pentru o prezentare generală a bancilor de lucru disponibile deja.Pentru instrucțiuni despre instalarea acestor ateliere de lucru, consultați tutorialul[How to install additional workbenches](How_to_install_additional_workbenches.md).
 
@@ -173,7 +173,7 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 </div>
 
-## Online Help {#online_help}
+## Online Help 
 
 
 <div class="mw-translate-fuzzy">

@@ -289,6 +289,6 @@ Les deux premiers arguments, (**droit-300, 0**) (ligne 91) fournissent la positi
         self.setGeometry(right-300, 0, 300, 150)
 ```
 
-## Page de discussion {#page_de_discussion}
+## Page de discussion 
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)

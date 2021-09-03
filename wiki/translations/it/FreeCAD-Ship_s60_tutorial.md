@@ -28,7 +28,7 @@ Potete trovare altre informazioni nella pagina [FreeCAD-Ship](Ship_Workbench/it.
 
 </div>
 
-## Caricare la geometria {#caricare_la_geometria}
+## Caricare la geometria 
 
 
 <div class="mw-translate-fuzzy">
@@ -57,7 +57,7 @@ Descrizione dei requisiti della forma base
 
 <div class="mw-translate-fuzzy">
 
-### Caricare una geometria della Serie 60 {#caricare_una_geometria_della_serie_60}
+### Caricare una geometria della Serie 60 
 
 Per aiutare i nuovi utenti, Ship include una serie di esempi di geometrie, dove si può scegliere tra i seguenti elementi:
 
@@ -98,7 +98,7 @@ Eseguendo lo strumento (Caricare una geometria modello di nave) si apre una fine
 
 </div>
 
-## Creare un\'istanza barca {#creare_unistanza_barca}
+## Creare un\'istanza barca 
 
 Per creare una **Ship instance** (una istanza della barca) selezionare la geometria s60 ed eseguire lo strumento **ship creation** (disegna/crea una nuova barca).
 
@@ -134,7 +134,7 @@ Devono essere introdotti i dati principali della nave (FreeCAD-Ship utilizza un 
 
 </div>
 
-### Dati della nave {#dati_della_nave}
+### Dati della nave 
 
 Le dimensioni principali che devono essere introdotte qui:
 
@@ -195,7 +195,7 @@ Da questo punto in poi, è necessario che **Ship** sia sempre selezionata prima 
 
 <div class="mw-translate-fuzzy">
 
-## Disegno delle linee {#disegno_delle_linee}
+## Disegno delle linee 
 
 Ship fornisce uno strumento che rende semplice ottenere un Piano delle linee dal disegno delle linee della nave
 
@@ -227,7 +227,7 @@ Il disegno delle linee è un insieme di sezione sui 3 assi, che alla fine mostre
 
 <div class="mw-translate-fuzzy">
 
-### Sezioni trasversali {#sezioni_trasversali}
+### Sezioni trasversali 
 
 Di solito devono essere eseguite 21 sezioni trasversali equidistanti tra le perpendicolari. Per eseguire questa operazione FreeCAD-Ship fornisce uno strumento automatico, è sufficiente selezionare **Transversal** come tipo di sezione, andare nel dialogo **Auto create** e impostare **21** nel campo delle sezioni, poi premere **Create sections**.
 
@@ -266,7 +266,7 @@ Secondo la complessità della geometria dello scafo, l\'anteprima delle sezioni 
 
 <div class="mw-translate-fuzzy">
 
-### Sezioni longitudinali {#sezioni_longitudinali}
+### Sezioni longitudinali 
 
 Devono essere aggiunte due sezioni longitudinali, quindi selezionare **Longitudinal** come tipo di sezione, andare nel dialogo **Auto create** e impostare **2** nel campo delle sezioni, poi premere **Create sections**. Viene compilata la tabella delle sezioni e viene aggiornata l\'anteprima.
 
@@ -276,7 +276,7 @@ Devono essere aggiunte due sezioni longitudinali, quindi selezionare **Longitudi
 
 <div class="mw-translate-fuzzy">
 
-### Linee d\'acqua {#linee_dacqua}
+### Linee d\'acqua 
 
 Di solito servono 6 linee d\'acqua tra la linea di base e la linea di galleggiamento, quindi selezionare **Waterlines** come tipo di sezione, andare nel dialogo **Auto create** e impostare **5** nel campo delle sezioni (La linea d\'acqua Z = 0 m non è inclusa automaticamente, se è necessaria può essere aggiunta manualmente in un secondo momento), quindi premere **Create sections**. Viene compilata la tabella delle sezioni e viene aggiornata l\'anteprima.
 
@@ -294,7 +294,7 @@ Devono essere aggiunte diverse linee d\'acqua supplementari:
 
 <div class="mw-translate-fuzzy">
 
-### Tracciare il piano di costruzione {#tracciare_il_piano_di_costruzione}
+### Tracciare il piano di costruzione 
 
 Selezionare una scala **1:100** e premere **Accept** per fare in modo che lo strumento generi le sezioni 3D in un nuovo oggetto.
 
@@ -332,7 +332,7 @@ Proiezione dei piani.
 
 <div class="mw-translate-fuzzy">
 
-## Curva delle aree trasversali {#curva_delle_aree_trasversali}
+## Curva delle aree trasversali 
 
 Un parametro idrodinamico tipico della progettazione navale è la curva delle aree trasversali che fornisce alcuni indicatori sul comportamento della carena (resistenza all\'avanzamento, comportamento in mare, \...). FreeCAD-Ship offre uno strumento semplice per tracciare la curva delle aree trasversali.
 
@@ -360,7 +360,7 @@ Quando si esegue questo strumento appare la finestra di dialogo delle azioni e n
 
 <div class="mw-translate-fuzzy">
 
-### Dati in ingresso {#dati_in_ingresso}
+### Dati in ingresso 
 
 Devono essere forniti i valori di Draft e di Trim (Immersione e Assetto) (l\'angolo di rotazione dello scafo attorno a *y* è positivo se l\'immersione di poppa può aumentare). Si possono produrre le curve di diverse aree, a seconda delle condizioni di carico della nave, però si devono eseguire due grafici tipici:
 
@@ -374,7 +374,7 @@ Devono essere forniti i valori di Draft e di Trim (Immersione e Assetto) (l\'ang
 
 <div class="mw-translate-fuzzy">
 
-### Dati in uscita {#dati_in_uscita}
+### Dati in uscita 
 
 Alcuni dati rilevanti vengono visualizzati in tempo reale:
 
@@ -454,7 +454,7 @@ Curve Idrostatiche.
 
 <div class="mw-translate-fuzzy">
 
-## Approfondire le conoscenze su FreeCAD-Ship {#approfondire_le_conoscenze_su_freecad_ship}
+## Approfondire le conoscenze su FreeCAD-Ship 
 
 Ora si è pronti per continuare la lettura su [Ship](Ship_Workbench/it.md), [qui](FreeCAD-Ship_s60_tutorial_(II)/it.md) c\'è il secondo capitolo sulle barche della Serie 60, dell\'Università di Iowa.
 

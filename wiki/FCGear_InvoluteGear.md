@@ -23,7 +23,7 @@ Due to the favourable meshing ratio and the relatively simple production, involu
 1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
 2.  Invoke the command several way:
     -   Press the <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:22px;"> [Create an Involute gear](FCGear_InvoluteGear.md) button in the tool bar.
-    -   Using the {{MenuCommand|Gear Menu → Involute gear}}.
+    -   Using the **Gear Menu → Involute gear**.
 3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
 
 ## Properties
@@ -120,9 +120,9 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 Limitations are not known yet.
 
-## Useful formulas {#useful_formulas}
+## Useful formulas 
 
-### Standard Spur Gears {#standard_spur_gears}
+### Standard Spur Gears 
 
 Here "standard" refers to those spur gears with no profile shift coefficient ($x$).
 

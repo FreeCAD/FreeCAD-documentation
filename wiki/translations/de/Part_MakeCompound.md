@@ -23,7 +23,7 @@ Ein Verbund ist ein Satz von Formen gruppiert in einem Objekt.
 
 hinzugefügt werden sollen
 
-1.  Wähle den {{MenuCommand|Formteil → Verbund → Erzeuge Verbund}} Eintrag im Part Menü oder klicke auf die <img alt="" src=images/Part_Compound.svg  style="width:24px;"> Schaltfläche.
+1.  Wähle den **Formteil → Verbund → Erzeuge Verbund** Eintrag im Part Menü oder klicke auf die <img alt="" src=images/Part_Compound.svg  style="width:24px;"> Schaltfläche.
 
 ## Hinweise
 

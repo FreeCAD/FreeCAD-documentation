@@ -19,23 +19,23 @@ Commercial shops will often create a \'setup book\' which documents all these as
 
 [Path Sanity](Path_Sanity.md) is the tool in Path workbench to generate this kind of information. The output of the Path Sanity command is a stand-alone .html file with embedded images. <img alt="Above: Example of a Path Sanity generated report" src=images/Sanity.jpg  style="width:400" height="600px;">
 
-## About the Report {#about_the_report}
+## About the Report 
 
 As much as possible, the content is FreeCAD agnostic. The CNC Operator may never use FreeCAD so FreeCAD/Path specific terminology is confusing. The report has distinct sections and is formatted to make finding things easy and predictable.
 
-### Part Information {#part_information}
+### Part Information 
 
 This section gives an overview of what is being made. Ideally the image should show the base objects. If there are multiple base objects, the image should show how they nest.
 
-### Run Summary {#run_summary}
+### Run Summary 
 
 Gives a quick view of minimum and maximum heights and run times.
 
-### Rough Stock {#rough_stock}
+### Rough Stock 
 
 Details the Stock object from the Job. This is an area where Path would benefit from some improvement. A rudimentary material property for the stock would be useful here and could also be used to help suggest feeds/speeds.
 
-### Tool Data {#tool_data}
+### Tool Data 
 
 Has subsections for each tool number used in the job. It details what the programmer assumes the tool to be and which operations are using it. This section only works with the new Toolbit system. This is another area where Path needs improvement. Specifically, Toolbits need additional attributes about the tool like manufacturer/url/part number.
 
@@ -47,7 +47,7 @@ Gives details about where and when the G-code was post-processed. It also shows 
 
 Self-explanatory
 
-### Fixtures and Work-holding {#fixtures_and_work_holding}
+### Fixtures and Work-holding 
 
 Shows the parts in the context of the stock envelope and also shows the Part origin.
 
@@ -60,14 +60,14 @@ Warnings and errors detected by [Path Sanity](Path_Sanity.md). These may or may 
 1.  Select a <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Job](Path_Job.md) in the [Tree view](Tree_view.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_Sanity.svg" width=16px> [Path Sanity](Path_Sanity.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_Sanity.svg" width=16px> Check the path job for common errors}} option from the menu.
+    -   Select the **Path → <img src="images/Path_Sanity.svg" width=16px> Check the path job for common errors** option from the menu.
     -   Use the keyboard shortcut: **P** then **S**.
 3.  The relevant information is collected into a python dictionary and then formatted into asciidoc format.
 4.  The asciidoc file is written to disk in the same location as the file that will be post-processed.
 5.  An external process calls asciidoctor to read the asciidoc and generate the .html.
 6.  This will auto-launch the system web browser to view the generated standalone HTML report.
 
-## Note an ASCIIDOC and Asciidoctor {#note_an_asciidoc_and_asciidoctor}
+## Note an ASCIIDOC and Asciidoctor 
 
 Asciidoc is a lightweight markup format for authoring notes, articles, books ,etc. It is human-readable and easily translated into other formats.
 

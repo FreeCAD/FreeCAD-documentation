@@ -21,7 +21,7 @@ Acest instrument măsoară distanța dintre două elemente de topologie selectat
 
 <img alt="" src=images/MeasureLinear3D1.png  style="width:400px;"> <img alt="" src=images/MeasureLinearDelta1.PNG  style="width:400px;">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">

@@ -20,7 +20,7 @@ This macro creates a copy of each selected object and sets its properties to an 
 
 This clone is a copy of the original object, as in the **Edit** → **Duplicate selection** command. Then its properties are defined by expressions.
 
-### How would this \'explicit and editable clone\' differs from a Clone object? {#how_would_this_explicit_and_editable_clone_differs_from_a_clone_object}
+### How would this \'explicit and editable clone\' differs from a Clone object? 
 
 Explicit because all of the original object properties are here to see. In a Clone object of a Cube, can you see its Height for example? When you use an expression to a Clone object, can you easily access its parent properties?
 
@@ -211,7 +211,7 @@ For now, the macro is run with the mode parameter set to direct and no choice is
 
 Many docs to read!
 
-## Version history {#version_history}
+## Version history 
 
 -   0.1: first public release
 

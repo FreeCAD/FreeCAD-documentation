@@ -16,7 +16,7 @@ Cet outil est optimisé pour les objets à surfaces planes (pas de courbes). L\'
 ## Utilisation
 
 1.  Sélectionnez un objet mesh (maille)
-2.  Appuyez sur l\'entrée **<img src="images/Arch_MeshToShape.svg" width=16px> [Maillage vers forme](Arch_MeshToShape/fr.md)** dans {{MenuCommand|Arch → Utilitaires → Maillage vers forme}}.
+2.  Appuyez sur l\'entrée **<img src="images/Arch_MeshToShape.svg" width=16px> [Maillage vers forme](Arch_MeshToShape/fr.md)** dans **Arch → Utilitaires → Maillage vers forme**.
 
 ## Propriétés
 

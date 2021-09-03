@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 This project is toward the implementation of a decent Units system in FreeCAD. It follows the rules of the \[<http://en.wikipedia.org/wiki/GTD#GTD_methodology>\| Getting things done\] process. The projects are collected in the [Development roadmap](Development_roadmap.md).
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 This is a software development project aimed to implement a Unit-system framework into FreeCAD.
 
@@ -30,7 +30,7 @@ And lot of information you\'ll find in the [Units](Units.md) article.
 
 ## Organizing
 
-### Upgrading units parser {#upgrading_units_parser}
+### Upgrading units parser 
 
 Upgrading the parser to handle and generate signatures as discussed in the [Units](Units.md) article.
 
@@ -45,7 +45,7 @@ Eventually a property editor for the PropertyUntit.
 -   Upgrading workbenches to use the Units framework. I would start with Sketcher and PartDesign and go subsequently further\...
 -   Documenting that upgrade process so other people can do the same with other workbenches \--[Yorikvanhavre](User:Yorikvanhavre.md) 13:13, 28 November 2011 (UTC)
 
-## Next actions {#next_actions}
+## Next actions 
 
 -   Upgrading units parser (jriegel)
 

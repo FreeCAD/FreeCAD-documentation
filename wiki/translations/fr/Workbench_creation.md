@@ -10,7 +10,7 @@
 
 Cette page vous montrera comment ajouter un nouvel atelier à l\'interface FreeCAD. Les [ateliers](Workbenches/fr.md) sont des conteneurs pour les commandes FreeCAD. Ils peuvent être codés en Python, en C++ ou en un mélange des deux, ce qui a l'avantage d'allier la vitesse de C++ à la souplesse de Python. Dans tous les cas, cependant, votre atelier sera lancé par un ensemble de deux fichiers Python.
 
-## La structure Atelier {#la_structure_atelier}
+## La structure Atelier 
 
 Vous avez besoin d\'un dossier, avec le nom de votre choix, placé dans le répertoire Mod de l\'utilisateur, avec un fichier `Init.py` et, éventuellement, un fichier `InitGui.py`. Le fichier Init est exécuté au démarrage de FreeCAD et le fichier `InitGui.py` est exécuté immédiatement après, mais uniquement lorsque FreeCAD démarre en mode GUI. C\'est tout ce dont FreeCAD a besoin pour trouver votre atelier au démarrage et l\'ajouter à son interface.
 
@@ -38,7 +38,7 @@ Dans ces fichiers, vous pouvez faire ce que vous voulez. Ils sont généralement
 
 The structure and file content for a workbench described here is the classic way of creating a new workbench. One can use a slight variation in the structure of files when making a new Python workbench, that alternative way is best described as a \"namespaced workbench\", opening up the possibility to use pip to install the workbench. Both structures work, so it is more a question of preference when creating a new workbench. The style and structure for workbenches presented here are available in the global namespace of FreeCAD, whereas for the alternative style and structure the workbench resides in a dedicated namespace. For further readings on the topic see [Related](Workbench_creation#Related.md).
 
-### La structure d\'atelier en C++ {#la_structure_datelier_en_c}
+### La structure d\'atelier en C++ 
 
 Si vous voulez coder votre atelier en python, vous n\'avez pas besoin de faire très attention, vous pouvez simplement placer vos autres fichiers python avec vos fichiers Init.py et InitGui.py. Toutefois, lorsque vous travaillez avec C++, vous devez faire preuve d\'une plus grande prudence et commencer par respecter une règle fondamentale de FreeCAD : la séparation de votre atelier entre une partie d\'application (pouvant s\'exécuter en mode console, sans aucun élément d\'interface graphique) et une partie d\'interface graphique qui ne sera chargé que lorsque FreeCAD s'exécutera avec son environnement graphique complet. Ainsi, lorsque vous construirez un atelier C++, vous élaborerez probablement deux modules, une application et une interface graphique. Ces deux modules doivent bien entendu être appelables depuis python. Tout module FreeCAD (App ou Gui) consiste à minima en un fichier init de module. Voici un fichier typique AppMyModuleGui.cpp : 
 ```python
@@ -69,7 +69,7 @@ extern "C" {
 }
 ```
 
-### Le fichier Init.py {#le_fichier_init.py}
+### Le fichier Init.py 
 
 
 {{code|code=
@@ -113,7 +113,7 @@ Les fonctions `FreeCAD.addImportType()` et `addEXportType()` vous permettent de 
 
 </div>
 
-### Ateliers en Python {#ateliers_en_python}
+### Ateliers en Python 
 
 Ceci est le fichier InitGui.py: 
 ```python
@@ -204,7 +204,7 @@ Ajouter votre/vos page(s) de préférence :
 
 </div>
 
-### Ateliers en C++ {#ateliers_en_c}
+### Ateliers en C++ 
 
 
 <div class="mw-translate-fuzzy">
@@ -254,7 +254,7 @@ namespace MyModuleGui {
 }
 ```
 
-#### Préférences {#préférences_1}
+#### Préférences 
 
 
 <div class="mw-translate-fuzzy">
@@ -264,7 +264,7 @@ Vous pouvez également ajouter une page de préférences pour les ateliers C++. 
 
 </div>
 
-## Commandes FreeCAD {#commandes_freecad}
+## Commandes FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -274,7 +274,7 @@ Les commandes FreeCAD constituent le bloc de construction de base de l\'interfac
 
 </div>
 
-### Définition des commandes Python {#définition_des_commandes_python}
+### Définition des commandes Python 
 
 
 ```python
@@ -299,7 +299,7 @@ class My_Command_Class():
 FreeCADGui.addCommand('My_Command',My_Command_Class())
 ```
 
-### Définition des commandes en C++ {#définition_des_commandes_en_c}
+### Définition des commandes en C++ 
 
 De la même manière, vous pouvez coder vos commandes en C++. Vous avez généralement un fichier Commands.cpp dans votre module d\'interface graphique. Ceci est un fichier Commands.cpp typique : 
 ```pythonDEF_STD_CMD_A(CmdMyCommand);
@@ -339,7 +339,7 @@ void CreateMyModuleCommands(void)
 }
 ```
 
-## \"Compiler\" votre fichier ressources {#compiler_votre_fichier_ressources}
+## \"Compiler\" votre fichier ressources 
 
 compileA2pResources.py depuis l\'atelier A2Plus :
 
@@ -402,7 +402,7 @@ os.system(
 os.remove(qrc_filename)
 ```
 
-## En relation {#en_relation}
+## En relation 
 
 
 <div class="mw-translate-fuzzy">

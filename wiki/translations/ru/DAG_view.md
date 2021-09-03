@@ -25,7 +25,7 @@ A simple model will be seen with different views.
 
 *Relationships between the objects shown in the [dependency graph](Std_DependencyGraph.md).*
 
-## Activating the DAG view {#activating_the_dag_view}
+## Activating the DAG view 
 
 The DAG view was introduced in 0.17 as an experimental feature for power users and developers, so they could troubleshoot complex models; therefore, the DAG view is not available by default.
 
@@ -36,7 +36,7 @@ To use this view use the [parameter editor](Std_DlgParameter.md). Create the fol
 
 then add the parameter `Enabled` of type `Boolean`, and set it to `True`.
 
-Restart FreeCAD and activate DAG view: {{MenuCommand|{{StdMenu|[View](Std_View_Menu.md)}} → Panels → DAG view}}.
+Restart FreeCAD and activate DAG view: **{{StdMenu|[View](Std_View_Menu.md)** → Panels → DAG view}}.
 
 In the [parameter editor](Std_DlgParameter.md) you can also change some properties in the following subgroup
 

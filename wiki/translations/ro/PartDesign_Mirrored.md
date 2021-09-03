@@ -24,7 +24,7 @@ Instrumentul **Mirrored** simetrizează o funcție în plan. Începând cu v0.17
 
 </div>
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -76,25 +76,25 @@ When creating a mirrored feature, the **Mirrored parameters** dialogue offers di
 
 </div>
 
-#### Horizontal sketch axis {#horizontal_sketch_axis}
+#### Horizontal sketch axis 
 
 Uses the horizontal axis of the sketch as the axis of symmetry.
 
-#### Vertical sketch axis {#vertical_sketch_axis}
+#### Vertical sketch axis 
 
 Uses the vertical axis of the sketch as the axis of symmetry.
 
-#### Select reference\... {#select_reference...}
+#### Select reference\... 
 
 Allows you to select a plane (such as a face of an object) to use as a mirror plane .
 
-#### Custom Sketch Axis {#custom_sketch_axis}
+#### Custom Sketch Axis 
 
 If the sketch which defines the feature to be mirrored also contains a construction line (or lines), then the drop down list will contain one custom sketch axis for each construction line. The first construction line will be labelled \'Sketch axis 0\'. The image below is an example with the sketch in edit mode showing that it includes a construction line for use as the Mirrored axis.
 
 ![](images/PartDesign_Mirrored_axis_fromconstructionlines.jpg )
 
-#### Base (XY/XZ/YZ) plane {#base_xyxzyz_plane}
+#### Base (XY/XZ/YZ) plane 
 
 
 <div class="mw-translate-fuzzy">

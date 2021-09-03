@@ -20,7 +20,7 @@ The **Std ViewIvIssueCamPos** command prints the camera settings of the active [
 
 ## Применение
 
-1.  Выберите из меню опцию {{MenuCommand|Вид → Стерео → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Выводить положения камеры}}.
+1.  Выберите из меню опцию **Вид → Стерео → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Выводить положения камеры**.
 
 ## Примечания
 

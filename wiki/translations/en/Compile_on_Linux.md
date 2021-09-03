@@ -24,7 +24,7 @@ Below, you\'ll find detailed explanations of the whole process, some [build scri
 
 *General workflow to compile FreeCAD from source. The third party dependencies must be in the system, as well as the FreeCAD source code itself. CMake configures the system so that with a single make instruction the entire project is compiled.*
 
-## Getting the source {#getting_the_source}
+## Getting the source 
 
 ### Git
 
@@ -46,11 +46,11 @@ git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
 
 For more information on using Git and contributing code to the project, see [Source code management](Source_code_management.md).
 
-### Source archive {#source_archive}
+### Source archive 
 
 Alternatively you can download the source as an [archive](https://github.com/FreeCAD/FreeCAD/releases/latest), a `.zip` or `.tar.gz` file, and unpack it in the desired directory.
 
-## Getting the dependencies {#getting_the_dependencies}
+## Getting the dependencies 
 
 To compile FreeCAD you have to install the requisite dependencies mentioned in [Third Party Libraries](Third_Party_Libraries.md); the packages that contain these dependencies are listed below for different Linux distributions. Please note that the names and availability of the libraries will depend on your particular distribution; if your distribution is old, some packages may be unavailable of have a different name. In this case, look in the [older and non-conventional distributions](#Older_and_non-conventional_distributions.md) section below.
 
@@ -61,7 +61,7 @@ Please note that FreeCAD\'s source code is around 500 MB in size; it may be thre
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Debian and Ubuntu {#debian_and_ubuntu}
+### Debian and Ubuntu 
 
 
 <div class="mw-collapsible-content">
@@ -170,7 +170,7 @@ Several libraries that deal with mathematics, triangulated surfaces, sorting, me
 
 <div class="mw-collapsible mw-collapsed" style="background-color:#e0e0e0">
 
-#### Python 2 and Qt4 {#python_2_and_qt4}
+#### Python 2 and Qt4 
 
 This is not recommended for newer installations as both Python 2 and Qt4 are obsolete. As of version 0.20, FreeCAD no longer supports them.
 
@@ -221,7 +221,7 @@ To compile FreeCAD for Debian Jessie, Stretch, Ubuntu 16.04, using Python 2 and 
 
 </div>
 
-#### Python 3 and Qt5 {#python_3_and_qt5}
+#### Python 3 and Qt5 
 
 To compile FreeCAD for Debian Buster, Ubuntu 19.04 and newer, as well as Ubuntu 18.04/18.10 with the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md) added to your software sources, install the following dependencies.
 
@@ -286,7 +286,7 @@ To compile FreeCAD for Debian Buster, Ubuntu 19.04 and newer, as well as Ubuntu 
 -    `python3-pyside2uic`
     
 
-#### OpenCascade kernel {#opencascade_kernel}
+#### OpenCascade kernel 
 
 The OpenCascade kernel is the core graphics library to create 3D shapes. It exists in an official version OCCT, and a community version OCE. The community version is no longer recommended, as it\'s outdated.
 
@@ -355,7 +355,7 @@ You may install the libraries individually, or using asterisk expansion. Change 
 sudo apt install libocct*-dev
 ```
 
-#### Optional packages {#optional_packages}
+#### Optional packages 
 
 Optionally you can also install these extra packages:
 
@@ -367,7 +367,7 @@ Optionally you can also install these extra packages:
 
 -    `checkinstall`, if you intend to register your installed files into your system\'s package manager, so you can uninstall it later.
 
-#### Single command for Python 3 and Qt5 {#single_command_for_python_3_and_qt5}
+#### Single command for Python 3 and Qt5 
 
 Requires Pyside2 available in Debian buster and the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md).
 
@@ -381,7 +381,7 @@ NOTE: On some versions of Ubuntu and some versions of Qt, you will get an error 
 
 <div class="mw-collapsible mw-collapsed" style="background-color:#e0e0e0">
 
-#### Single command for Python 2 and Qt4 {#single_command_for_python_2_and_qt4}
+#### Single command for Python 2 and Qt4 
 
 This is not recommended for newer installations as both Python 2 and Qt4 are obsolete.
 
@@ -410,7 +410,7 @@ Ubuntu 16.04 users please see also the compilation discussion in the forum: [Com
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Raspberry Pi {#raspberry_pi}
+### Raspberry Pi 
 
 
 <div class="mw-collapsible-content">
@@ -576,7 +576,7 @@ See [piano\_jonas unofficial \"Compile On openSUSE\" guide](https://forum.freeca
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Arch Linux {#arch_linux}
+### Arch Linux 
 
 
 <div class="mw-collapsible-content">
@@ -625,7 +625,7 @@ sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp lib
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Older and non-conventional distributions {#older_and_non_conventional_distributions}
+### Older and non-conventional distributions 
 
 
 <div class="mw-collapsible-content">
@@ -648,13 +648,13 @@ FreeCAD requires the GNU g++ compiler version equal or above 3.0.0, as FreeCAD i
 
 By November 2015 the obsolete version of Pivy included with the FreeCAD source code will no longer compile on many systems. This isn\'t a big problem as normally you should get Pivy from your distribution\'s package manager; if you cannot find Pivy, you may have to compile it yourself, see [Pivy compilation instructions](Extra_python_modules#Pivy.md).
 
-### Debug symbols {#debug_symbols}
+### Debug symbols 
 
 In order to troubleshoot crashes in FreeCAD, it is useful to have the debug symbols of important dependency libraries such as Qt. For this, try installing the dependency packages that end with `-dbg`, `-dbgsym`, `-debuginfo` or similar, depending on your Linux distribution.
 
 For Ubuntu, you may have to enable special repositories to be able to see and install these debug packages with the package manager. See [Debug Symbol Packages](https://wiki.ubuntu.com/Debug_Symbol_Packages) for more information.
 
-## Compile FreeCAD {#compile_freecad}
+## Compile FreeCAD 
 
 
 {{VeryImportantMessage|Compiling against Python 2 and Qt4 is no longer well supported, and as of 0.20 is no longer supported at all. You should compile against Python 3 and Qt5. 0.20 requires at least Python3.6 and Qt 5.9.}}
@@ -668,7 +668,7 @@ Since FreeCAD is a large application, compiling the entire source code can take 
 
 You can build the code either in or out of the source directory. Out-of-source building is generally the best option.
 
-### Out-of-source build {#out_of_source_build}
+### Out-of-source build 
 
 Building in a separate folder is more convenient than building in the same directory where the source code is located as every time you update the source code CMake can intelligently determine which files have changed, and recompile only what is needed. This is very useful when testing different Git branches as you don\'t confuse the build system.
 
@@ -688,7 +688,7 @@ cmake ../freecad-source -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3
 
 The `-j` option of `make` controls how many jobs (files) are compiled in parallel. The `nproc` program prints the number of CPU cores in your system; by using it together with the `-j` option you can choose to process as many files as you have cores, in order to speed up overall compilation of the program. In the example above, it will use all cores in your system except two; this will keep your computer responsive for other uses while compilation proceeds in the background. The FreeCAD executable will eventually appear in the `freecad-build/bin` directory. See also [Compiling (speeding up)](Compiling_(Speeding_up).md) to improve compilation speed.
 
-### In-source building {#in_source_building}
+### In-source building 
 
 In-source builds are fine if you want to compile a version of FreeCAD quickly, and don\'t intend to update the source code often. In this case, you can remove the compiled program and the source just by deleting a single folder.
 
@@ -703,7 +703,7 @@ make -j$(nproc --ignore=2)
 
 The FreeCAD executable will then reside in the `freecad-source/bin` directory.
 
-### How to repair your source code directory {#how_to_repair_your_source_code_directory}
+### How to repair your source code directory 
 
 If you accidentally performed a compilation inside the source code directory, or added strange files, and would like to restore the contents to only the original source code, you can perform the following steps.
 
@@ -751,7 +751,7 @@ All possible variables are listed in the `InitializeFreeCADBuildOptions.cmake` f
 
 Alternatively, use the command `cmake -LH` to list the current configuration, and thus all variables that can be changed. You may also install and use `cmake-gui` to launch a graphical interface showing all the variables that can be modified. In the next sections we list some of the more relevant options that you may want to use.
 
-#### For a Debug build {#for_a_debug_build}
+#### For a Debug build 
 
 Create a `Debug` build to troubleshoot crashes in FreeCAD. Beware that with this build the [Sketcher](Sketcher_Workbench.md) becomes very slow with complex sketches.
 
@@ -760,7 +760,7 @@ Create a `Debug` build to troubleshoot crashes in FreeCAD. Beware that with this
 cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../freecad-source
 }}
 
-#### For a Release build {#for_a_release_build}
+#### For a Release build 
 
 Create a `Release` build to test code that doesn\'t crash. A `Release` build will run much faster than a `Debug` build.
 
@@ -769,7 +769,7 @@ Create a `Release` build to test code that doesn\'t crash. A `Release` build wil
 cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad-source
 }}
 
-#### Building against Python 3 and Qt5 {#building_against_python_3_and_qt5}
+#### Building against Python 3 and Qt5 
 
 By default, FreeCAD 0.19 and earlier build for Python 2 and Qt4. Since these two packages are obsolete, it is better to build for Python 3 and Qt5. Support for Python 2 and Qt4 has been removed in FreeCAD 0.20 and it is not necessary to explicitly enable Qt5 and Python 3 if compiling the latest development versions.
 
@@ -785,7 +785,7 @@ cmake ../freecad-source
 
 Note that when switching between 0.19 and the 0.20 builds, it may be necessary to delete CMakeCache.txt prior to running cmake.
 
-#### Building for a specific Python version {#building_for_a_specific_python_version}
+#### Building for a specific Python version 
 
 If the default `python` executable in your system is a symbolic link to Python 2, `cmake` will try to configure FreeCAD for this version. You can choose another version of Python by giving the path to a specific executable:
 
@@ -814,17 +814,17 @@ locate python3.6
 
 You may use `python3 -m site` in a terminal to determine the `site-packages` directory, or `dist-packages` for Debian systems.
 
-#### Building with Qt Creator against Python 3 and Qt5 {#building_with_qt_creator_against_python_3_and_qt5}
+#### Building with Qt Creator against Python 3 and Qt5 
 
 1\. Launch Qt Creator.
 
-2\. Click on {{MenuCommand|Open Project}}.
+2\. Click on **Open Project**.
 
 3\. Navigate to the directory where the source code is, `freecad-source/`, and choose the topmost `CMakeLists.txt` file.
 
 4\. By selecting the file, it will automatically run `cmake` on it, but it may fail if the appropriate options aren\'t correctly set.
 
-5\. Go to {{MenuCommand|Projects → Build & Run → Imported Kit → Build → Build Settings → CMake}}. Set the appropriate build directory, `freecad-build/`.
+5\. Go to **Projects → Build & Run → Imported Kit → Build → Build Settings → CMake**. Set the appropriate build directory, `freecad-build/`.
 
 6\. Set the appropriate variables in the Key-Value dialog, of types `String` and `Bool`. 
 ```python
@@ -832,7 +832,7 @@ PYTHON_EXECUTABLE=/usr/bin/python3
 BUILD_QT5=ON
 ```
 
-7\. If the variables do not load the project correctly, you may have to go to {{MenuCommand|Projects → Manage Kits → Kits → Default (or Imported Kit or similar) → CMake Configuration}}. Then press **Change**, and add the appropriate configuration as described above. You may have to add more variables about the Python paths, if the system Python is not found. 
+7\. If the variables do not load the project correctly, you may have to go to **Projects → Manage Kits → Kits → Default (or Imported Kit or similar) → CMake Configuration**. Then press **Change**, and add the appropriate configuration as described above. You may have to add more variables about the Python paths, if the system Python is not found. 
 ```python
 PYTHON_EXECUTABLE:STRING=/usr/bin/python3.7
 PYTHON_INCLUDE_DIR:STRING=/usr/include/python3.7m
@@ -843,17 +843,17 @@ BUILD_QT5:BOOL=ON
 
 7.1. Press **Apply**, then **OK**.
 
-7.2. Make sure the rest of the options are correctly set, for example, {{MenuCommand|Qt version}} should be a present version installed in the system, like `Qt 5.9.5 in PATH (qt5)`.
+7.2. Make sure the rest of the options are correctly set, for example, **Qt version** should be a present version installed in the system, like `Qt 5.9.5 in PATH (qt5)`.
 
 Press **Apply**, then **OK** to close the configuration.
 
 The `cmake` program should run automatically again, and it should fill the entire Key-Value dialog with all the variables that can be configured.
 
-8\. Go to {{MenuCommand|Projects → Build & Run → Imported Kit → Run → Run Settings → Run → Run Configuration}} and choose `FreeCADMain` to compile the graphical version of FreeCAD, or `FreeCADMainCMD` to compile only the command line version.
+8\. Go to **Projects → Build & Run → Imported Kit → Run → Run Settings → Run → Run Configuration** and choose `FreeCADMain` to compile the graphical version of FreeCAD, or `FreeCADMainCMD` to compile only the command line version.
 
-9\. Finally, go to the menu {{MenuCommand|Build → Build Project "FreeCAD"}}. If this is a new compilation, it should take several minutes, inclusive hours, depending on the number of processors that you have available.
+9\. Finally, go to the menu **Build → Build Project "FreeCAD"**. If this is a new compilation, it should take several minutes, inclusive hours, depending on the number of processors that you have available.
 
-#### Qt designer plugin {#qt_designer_plugin}
+#### Qt designer plugin 
 
 If you want to develop Qt code for FreeCAD, you\'ll need the Qt Designer plugin that provides all custom widgets of FreeCAD.
 
@@ -884,17 +884,17 @@ The library created is `libFreeCAD_widgets.so`, which needs to be copied to `$QT
 sudo cp libFreeCAD_widgets.so $QT_DIR/plugins/designer
 }}
 
-#### External or internal Pivy {#external_or_internal_pivy}
+#### External or internal Pivy 
 
 Previously, a version of Pivy was included in the source code of FreeCAD (internal). If you wanted to use your system\'s copy of Pivy (external), you needed to use -DFREECAD_USE_EXTERNAL_PIVY=1.
 
 Using external Pivy became the default during development of FreeCAD 0.16, therefore this option does not need to be set manually anymore.
 
-#### Doxygen documentation {#doxygen_documentation}
+#### Doxygen documentation 
 
 If you have Doxygen installed you can build the source code documentation. See [source documentation](source_documentation.md) for instructions.
 
-### Additional documentation {#additional_documentation}
+### Additional documentation 
 
 The source code of FreeCAD is very extensive, and with CMake it\'s possible to configure many options. Learning to use CMake fully may be useful to choose the right options for your particular needs.
 
@@ -902,7 +902,7 @@ The source code of FreeCAD is very extensive, and with CMake it\'s possible to c
 -   [How to Build a CMake-Based Project](https://preshing.com/20170511/how-to-build-a-cmake-based-project/) (blog) by Preshing on programming.
 -   [Learn CMake\'s Scripting Language in 15 Minutes](https://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/) (blog) by Preshing on programming.
 
-### Making a debian package {#making_a_debian_package}
+### Making a debian package 
 
 If you plan to build a Debian package out of the sources you need to install certain packages first:
 
@@ -925,7 +925,7 @@ Once the package is built, you can use `lintian` to check if the package contain
 lintian freecad-package.deb
 }}
 
-## Updating the source code {#updating_the_source_code}
+## Updating the source code 
 
 The CMake system allows you to intelligently update the source code, and only recompile what has changed, making subsequent compilations faster.
 
@@ -948,7 +948,7 @@ make -j$(nproc --ignore=2)
 
 ## Troubleshooting
 
-### For 64 bit systems {#for_64_bit_systems}
+### For 64 bit systems 
 
 When building FreeCAD for 64-bit there is a known issue with the OpenCASCADE (OCCT) 64-bit package. To get FreeCAD running properly you might need to run the `configure` script and set additional `CXXFLAGS`:
 
@@ -959,7 +959,7 @@ When building FreeCAD for 64-bit there is a known issue with the OpenCASCADE (OC
 
 For Debian based systems this option is not needed when using the pre-built OpenCASCADE packages because these ones set the proper `CXXFLAGS` internally.
 
-## Automatic build scripts {#automatic_build_scripts}
+## Automatic build scripts 
 
 Here is all what you need for a complete build of FreeCAD. It\'s a one-script-approach and works on a freshly installed Linux distribution. The commands will ask for the root password for installation of packages and new online repositories. These scripts should run on 32 and 64 bit versions. They are written for different versions, but are also likely to run on a later version with or without major changes.
 
@@ -1014,7 +1014,7 @@ Once you install the `freecad` package from the `freecad-stable` repository, it 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### openSUSE {#opensuse_1}
+### openSUSE 
 
 
 <div class="mw-collapsible-content">
@@ -1092,7 +1092,7 @@ cd bin
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Debian Squeeze {#debian_squeeze}
+### Debian Squeeze 
 
 
 <div class="mw-collapsible-content">
@@ -1136,7 +1136,7 @@ cd bin
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Fedora 27/28/29 {#fedora_272829}
+### Fedora 27/28/29 
 
 
 <div class="mw-collapsible-content">
@@ -1188,7 +1188,7 @@ make -j$(nproc)
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Arch using AUR {#arch_using_aur}
+### Arch using AUR 
 
 
 <div class="mw-collapsible-content">

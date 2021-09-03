@@ -22,7 +22,7 @@ The Symbol tool inserts an [SVG](SVG.md) file into the page. This symbol can be 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Apăsați butonul Press the **<img src="images/Symbol.png" width=24px> [Symbol](TechDraw_Symbol.md)
 **

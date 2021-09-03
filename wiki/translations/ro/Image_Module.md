@@ -33,7 +33,7 @@ Atelierul Imagine [Image Workbench](Image_Workbench.md) gestionează diferite ti
 -   Imaginea poate fi mutată prin editarea valorilor X/Y/Z-în [Property editor](Property_editor.md).
 -   Imaginea poate fi rotită în jurul unei axe utilizând [Property editor](Property_editor.md).
 
-## Flux de lucru {#flux_de_lucru}
+## Flux de lucru 
 
 O utilizare importantă a acestui atelier de lucru este urmărirea imaginii, cu ajutorul instrumentelor [ Draft](Draft_Workbench.md) sau [ Sketcher](Sketcher_Workbench.md), pentru a genera un corp solid bazat pe contururile imaginii.
 

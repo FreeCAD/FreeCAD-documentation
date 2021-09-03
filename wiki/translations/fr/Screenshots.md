@@ -2,7 +2,7 @@
 
 Vous trouverez ici des vues d\'écran montrant différentes parties de FreeCAD. Elles n\'ont pas d\'ordre particulier, donc les images peuvent être différentes de votre version actuelle. Voir d\'autre vues d\'écrans proposées par des utilisateurs de FreeCAD sur le [sujet call for screenshot](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) et sur le sujet [\"Show your project here!\" de la partie Users Showcase du forum](http://forum.freecadweb.org/viewforum.php?f=24).
 
-### La version 0.17 {#la_version_0.17}
+### La version 0.17 
 
 <img alt="" src=images/6DPLEQ2.jpg  style="width:1024px;">
 
@@ -30,7 +30,7 @@ Vous trouverez ici des vues d\'écran montrant différentes parties de FreeCAD. 
 
 <img alt="" src=images/freeCAD-guitar.jpg  style="width:1024px;">
 
-### La version 0.16 {#la_version_0.16}
+### La version 0.16 
 
 <img alt="" src=images/Hhassey.png  style="width:1024px;">
 
@@ -44,7 +44,7 @@ Vous trouverez ici des vues d\'écran montrant différentes parties de FreeCAD. 
 
 <img alt="" src=images/R_tec.jpeg  style="width:1024px;">
 
-### La version 0.15 {#la_version_0.15}
+### La version 0.15 
 
 <img alt="" src=images/Obijuan.png  style="width:1024px;">
 
@@ -56,7 +56,7 @@ Vous trouverez ici des vues d\'écran montrant différentes parties de FreeCAD. 
 
 <img alt="" src=images/Lou_papet.png  style="width:1024px;">
 
-### La version 0.14 {#la_version_0.14}
+### La version 0.14 
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -88,21 +88,21 @@ Analyse de la courbure du maillage avec l\'atelier Maillage.
 
 Export vers une application externe grâce aux macros python.
 
-### La version 0.12 {#la_version_0.12}
+### La version 0.12 
 
 ![Assembly of multiple objects\|1024px](images/FreeCAD_aeroponic_system.jpg )
 
 ![Un sketch parfaitement contraint révolutionné pour créer une section de jante de vélo\|1024px](images/rim_bling.png )
 
-### La version 0.11 {#la_version_0.11}
+### La version 0.11 
 
 <img alt="" src=images/FreeCAD011.png  style="width:1024px;">
 
-### La version 0.10 {#la_version_0.10}
+### La version 0.10 
 
 ![](images/Freecad010.png )
 
-### La version 0.9 {#la_version_0.9}
+### La version 0.9 
 
 ![](images/Freecad09.jpg )
 
@@ -116,19 +116,19 @@ Export vers une application externe grâce aux macros python.
 
 Une capture d\'écran montrant FreeCAD important et affichant un modèle STEP provenant de gCAD
 
-### Données STEP {#données_step}
+### Données STEP 
 
 <img alt="" src=images/TaskPanel.jpg  style="width:800px;">
 
 Avec le robot grippeur chargé
 
-### Robot grippeur {#robot_grippeur}
+### Robot grippeur 
 
 ![](images/FreeCAD_Screenshot.png )
 
 Sous XP avec Schenkel
 
-### Opérations booléennes sur des formes {#opérations_booléennes_sur_des_formes}
+### Opérations booléennes sur des formes 
 
 <img alt="" src=images/Part_BooleanOperations.png  style="width:800px;">
 
@@ -146,7 +146,7 @@ FreeCAD sous Windows Vista, avec un modèle IGES de [Rexroth](http://www13.bosch
 
 Vous pouvez personnaliser plusieurs aspects de FreeCAD!
 
-### Opérations booléennes sur maillages {#opérations_booléennes_sur_maillages}
+### Opérations booléennes sur maillages 
 
 ![](images/Screenshot_mesh.jpg )
 
@@ -158,19 +158,19 @@ Opérations booléennes sur maillage dans FreeCAD
 
 Blender est doté d\'un [script](http://yorik.orgfree.com/guestblog.php?2009=105) pour importer les fichiers FreeCAD.
 
-### Extraction de mise en plan {#extraction_de_mise_en_plan}
+### Extraction de mise en plan 
 
 <img alt="" src=images/Drawing_extraction.png  style="width:800px;">
 
 Extraction d\'une pièce 3D (STEP dans ce cas) vers une vue de **Mise en plan** SVG. Ceci est pleinement paramétrique, si la pièce change, la vue sera rafraichie.
 
-### FreeCAD vs. QCad {#freecad_vs._qcad}
+### FreeCAD vs. QCad 
 
 ![](images/Screenshot_qcad.jpg )
 
 Cette capture d\'écran montre comment le même fichier est affiché par FreeCAD et QCAD.
 
-### FreeCAD vs. Inkscape {#freecad_vs._inkscape}
+### FreeCAD vs. Inkscape 
 
 ![](images/Screenshot_inkscape.jpg )
 
@@ -179,7 +179,7 @@ Cette capture d\'écran montre comment le même fichier est affiché par FreeCAD
 
 <div class="mw-translate-fuzzy">
 
-### Mise en plan {#mise_en_plan}
+### Mise en plan 
 
 ![](images/Screenshot_draft.jpg )
 
@@ -200,25 +200,25 @@ Freecad avec le [module de mise en plan](Draft_Module/fr.md) chargé et un fichi
 
 La fenêtre des préférences
 
-### Sous Ubuntu {#sous_ubuntu}
+### Sous Ubuntu 
 
 ![](images/Interface_screenshot.jpg )
 
 L\'interface de FreeCAD lorsqu\'il est lancé la première fois, sous Ubuntu
 
-### Installateur Windows {#installateur_windows}
+### Installateur Windows 
 
 ![](images/Screenshot_installer.jpg )
 
 L\'installateur Windows au travail
 
-### Mode console {#mode_console}
+### Mode console 
 
 ![](images/Screenshot_console.jpg )
 
 FreeCAD s\'exécutant en mode console (sans interface graphique)
 
-### Save picture {#save_picture}
+### Save picture 
 
 ![](images/Save_picture.png )
 

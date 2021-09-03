@@ -16,7 +16,7 @@ Acest instrument comută între vizibilitatea măsurătorilor lineară (roșu) �
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Apăsați butonul **<img src=images/Part_Measure_Toggle_3d.png style="width:24px"> '''Toggle 3d'''** .
 

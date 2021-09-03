@@ -110,13 +110,13 @@ house.ifc
 
 </div>
 
-12.3 Abra {{FileName|house.FCStd}}, seleccione el objeto raíz \"Edificio\" y expórtelo ({{MenuCommand|Archivo → Exportar}}) estableciendo el Tipo de archivo como \"Industry Foundation Classes (\*.ifc)\". Pulsa **Guardar** y si funciona y no lanza un error en la [Report view/es](Report_view/es.md) entonces está funcionando.
+12.3 Abra {{FileName|house.FCStd}}, seleccione el objeto raíz \"Edificio\" y expórtelo (**Archivo → Exportar**) estableciendo el Tipo de archivo como \"Industry Foundation Classes (\*.ifc)\". Pulsa **Guardar** y si funciona y no lanza un error en la [Report view/es](Report_view/es.md) entonces está funcionando.
 
 12.4 Prueba final, importar {{FileName|house.ifc}} en un nuevo archivo, así que abre un nuevo archivo e importa ese archivo\... tardará un poco.
 
 13\. ¡Disfruta de BIM con FreeCAD!
 
-## Reflexiones finales {#reflexiones_finales}
+## Reflexiones finales 
 
 Mi opinión es que FreeCAD debería tener versiones precompiladas de IfcOpenShell junto con la distribución porque construirlo por ti mismo es un dolor total y el usuario medio no lo hará (no saben cómo compilar, gestionar GitHub, etc), pero bueno, tal vez en el futuro.
 

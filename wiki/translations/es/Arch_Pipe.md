@@ -28,7 +28,7 @@ Esta herramienta permite crear tuberías desde cero, o desde objetos seleccionad
 
 <div class="mw-translate-fuzzy">
 
-## Como utilizar {#como_utilizar}
+## Como utilizar 
 
 
 </div>
@@ -56,7 +56,7 @@ Esta herramienta permite crear tuberías desde cero, o desde objetos seleccionad
 
 -    **Profile**: The base profile of this pipe. If not given, the pipe is cylindrical.
 
-## Typical workflow {#typical_workflow}
+## Typical workflow 
 
 -   Start by placing sanitary/hydraulic appliance items (below is an imported step file). You turn these objects into Arch Equipments by selecting them, and pressing the [Arch Equipment](Arch_Equipment.md) button.
 

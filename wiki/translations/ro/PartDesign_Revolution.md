@@ -19,7 +19,7 @@ Instrumentul **Revolution** crează un solid prin rotirea schiței selectate sau
 
 <div class="mw-translate-fuzzy">
 
-## Cum se foloseste {#cum_se_foloseste}
+## Cum se foloseste 
 
 
 </div>
@@ -55,7 +55,7 @@ Atunci când este crrată o revoluție, dialogul privind **REveolution parameter
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                  | This controls the angle through which the revolution is to be formed, e.g. 360° would be a full, contiguous revolution. The images in the [examples](#Examples.md) section demonstrate some of the possibilities with specifying different angles. It is not possible to specify negative angles (use the **Reversed** option instead) or angles greater than 360° . |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                  | ### Simetric față de Plan {#simetric_față_de_plan}                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | ### Simetric față de Plan                                                                                                                                                                                                                                                                                                                            |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                  | If checked, the revolution will extend half of the specified angle in both directions from the sketch plane.                                                                                                                                                                                                                                                                 |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                              |
@@ -85,7 +85,7 @@ Mai jos sunt proprietăți care pot fi definite după crearea funcției. Proprie
 
 ![Example revolution using a construction line as the Revolution axis: In this image the angle is 75°, revolution is about the construction line (Sketch axis 0)](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg ) 
 
-## Link uri utile {#link_uri_utile}
+## Link uri utile 
 
 Un exemplu [detailed example of use](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) are partea practică pe forum.
 

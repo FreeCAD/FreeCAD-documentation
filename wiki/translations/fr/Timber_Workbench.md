@@ -42,15 +42,15 @@ Other
 
 ## Installation
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 See [How to install macros](How_to_install_macros.md)
 
-## Links to Timber WB {#links_to_timber_wb}
+## Links to Timber WB 
 
 -   Workbench Wiki:
 -   FreeCAD Wiki:
@@ -60,7 +60,7 @@ See [How to install macros](How_to_install_macros.md)
 -   Files:
 -   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php) or <https://github.com/wood-galaxy/FreeCAD-Timber/issues>
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [Wood Library](https://github.com/wood-galaxy/FC-Library)
 -   [Connectors Parts](https://github.com/FreeCAD/FreeCAD-library/tree/master/Wood%20Construction/Connectors/Ironsmith%20Parts)

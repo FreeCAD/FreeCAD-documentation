@@ -16,7 +16,7 @@ La commande ne fonctionne que pour les nuages de points dont les points, lorsqu\
 
 1.  La commande suppose que la direction de vue du nuage de points est parallèle à l\'axe Z du système de coordonnées global. Si ce n\'est pas le cas: ajustez {{PropertyData/fr|Placement}} de l\'objet nuage de points en conséquence.
 2.  Sélectionnez l\'objet nuage de points.
-3.  Sélectionnez l\'option {{MenuCommand|Points → Nuage de points structuré}} dans le menu.
+3.  Sélectionnez l\'option **Points → Nuage de points structuré** dans le menu.
 
 ## Propriétés
 

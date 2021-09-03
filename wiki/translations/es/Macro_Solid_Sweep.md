@@ -21,7 +21,7 @@ El sólido resultante no es paramétrico. Si cambias el perfil o la trayectoria,
 
 <div class="mw-translate-fuzzy">
 
-## Como se utiliza {#como_se_utiliza}
+## Como se utiliza 
 
 -   Crea dos elementos 2D, uno para la sección y otro para la trayectoria, de los tipos indicados abajo.
 -   Selecciona, en el árbol del Proyecto o en la vista 3D, primero la trayectoria y después el perfil. El orden es importante!
@@ -34,7 +34,7 @@ El sólido resultante no es paramétrico. Si cambias el perfil o la trayectoria,
 
 <div class="mw-translate-fuzzy">
 
-## Elementos 2D soportados {#elementos_2d_soportados}
+## Elementos 2D soportados 
 
 -   Contornos
 -   <img alt="" src=images/Sketcher_NewSketch.png  style="width:32px;"> [Croquis](Sketcher_Workbench/es.md)
@@ -52,7 +52,7 @@ El sólido resultante no es paramétrico. Si cambias el perfil o la trayectoria,
 -   Si el sólido se retuerce, edita la macro para cambiar el valor de *isFrenet* a cero y prueba de nuevo.
 -   Configurar la variable *makeSolid* a cero en la macro producirá una colección de superficies con finales abiertos.
 
-## La macro {#la_macro}
+## La macro 
 
 ToolBar Icon ![](images/Macro_Solid_Sweep.png )
 

@@ -7,7 +7,7 @@
 
 Additionally to the standard FreeCAD [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) exporter, the [Arch Workbench](Arch_Workbench.md) features an alternative exporter that exports coplanar faces as whole OBJ faces, instead of triangulating [Shape](Shape.md)-based objects, like the standard exporter does.
 
-## Exporting without GUI {#exporting_without_gui}
+## Exporting without GUI 
 
 Exporting without the graphical interface is possible from the command line, using the [Mesh Workbench](Mesh_Workbench.md) exporter only.
 
@@ -36,7 +36,7 @@ for i in range(mesh.countSegments()):
 mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 ```
 
-## More information {#more_information}
+## More information 
 
 -   [Convert STEP to Wavefront OBJ with colors of faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452)
 

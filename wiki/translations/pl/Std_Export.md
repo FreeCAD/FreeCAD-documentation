@@ -21,7 +21,7 @@ Polecenie **Std: Export** eksportuje wybrane obiekty do innego formatu pliku. Ob
     -   Nie używaj polecenia [Std: Zaznacz wszystko](Std_SelectAll/pl.md), ponieważ wybierze ono również podelementy PartDesign: Bodies.
     -   Z tego samego powodu należy unikać polecenia [Std BoxSelection](Std_BoxSelection.md) w wersji FreeCAD 0.18 i wcześniejszych.
 2.  Istnieje kilka sposobów na wywołanie tej komendy:
-    -   Wybierz z menu opcję {{MenuCommand|Plik → <img src="images/Std_Export.svg" width=16px> Eksport...}}.
+    -   Wybierz z menu opcję **Plik → <img src="images/Std_Export.svg" width=16px> Eksport...**.
     -   Użyj skrótu klawiszowego: **Ctrl**+**E**.
 3.  Wybierz odpowiedni format pliku w oknie dialogowym.
 4.  Wprowadź nazwę pliku.
@@ -39,8 +39,8 @@ Polecenie **Std: Export** eksportuje wybrane obiekty do innego formatu pliku. Ob
 ## Ustawienia
 
 -   Zobacz: [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md).
--   Zapamiętana jest ostatnio używana lokalizacja pliku: {{MenuCommand|Narzędzia → Edycja parametrów... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   Zapamiętany jest ostatni używany filtr eksportu: {{MenuCommand|Narzędzia → Edycja parametrów... → BaseApp → Preferences → General → FileExportFilter}}.
+-   Zapamiętana jest ostatnio używana lokalizacja pliku: **Narzędzia → Edycja parametrów... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Zapamiętany jest ostatni używany filtr eksportu: **Narzędzia → Edycja parametrów... → BaseApp → Preferences → General → FileExportFilter**.
 
 
 

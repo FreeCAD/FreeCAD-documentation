@@ -34,7 +34,7 @@ Los objetos dentro de un documento FreeCAD pueden ser de diferentes tipos. Cada 
 
 Si hay uno o más documentos abiertos en FreeCAD, siempre alguno de ellos, y sólo uno, será el *documento activo*. Ese es el documento que aparece en la vista 3D actual, el documento con el que se está trabajando actualmente.
 
-## Aplicación e interfaz de usuario {#aplicación_e_interfaz_de_usuario}
+## Aplicación e interfaz de usuario 
 
 
 <div class="mw-translate-fuzzy">
@@ -54,7 +54,7 @@ Piensa en ello como dos espacios, donde los objetos están definidos. Sus parám
 
 Otra cosa que está contenida en el *documento Vista* son las *vistas* 3D. Un documento puede tener varias vistas abiertas, así que puedes inspeccionar tu documento desde varios puntos de vista al mismo tiempo. Tal vez te gustaría ver una vista superior y una vista frontal de tu trabajo, al mismo tiempo. De ese modo, tendrías dos puntos de vista del mismo documento, ambos almacenados en el documento Vista. Crear puntos de vista nuevos o cerrar vistas se puede hacer desde el *menú* Vista o haciendo clic derecho en la *pestaña* de una vista.
 
-## Archivos de guión {#archivos_de_guión}
+## Archivos de guión 
 
 
 <div class="mw-translate-fuzzy">

@@ -18,17 +18,17 @@ The GSoC project aims to exactly do this. On pre processing side of FreeCAD a lo
 
 1.  Advanced: add the free-ware solver Z88Aurora (not OpenSource, but free of license fee) as another possibility in FreeCAD FEM in addition to Z88OS. Z88Aurora supports much more constraints and analysis types than Z88OS
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  Fully functional advanced postprocessing in FreeCAD based on VTK
 2.  Unit tests ensuring the functionality
 3.  Documentation and tutorials for post processing
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 If this project is finished successfully futher work on the FEM workbench can be done. Advancing the preprocessing with better control over the meshing process come to mind, or integrating different solvers for other analysis types. Also calulix implementation can be advanced, for example allowing nonelinear calculations.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -40,6 +40,6 @@ If this project is finished successfully futher work on the FEM workbench can be
 
 Easy-Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

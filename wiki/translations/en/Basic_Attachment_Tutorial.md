@@ -16,7 +16,7 @@ This tutorial should serve as an introduction to [Part:Attachment](Part_Attachme
 
 Attachment is a utility to attach an object to another one. This links the two objects\' placement properties, the attached object will then follow the original(if its placement is changed.) The focus is on Part Design workbench and attaching sketches to other sketches, this being a recommended method for making [*stable*](Feature_editing#Advice_for_creating_stable_models.md) models. Written for V0.19, but should be valid for any version 0.17 and later. However, things may differ in some details. The original model was designed by Md. Aminul Islam and downloaded from here:-https://grabcad.com/library/50-cad-exercise-drawing-1
 
-## Pre-requisites {#pre_requisites}
+## Pre-requisites 
 
 Before attempting this tutorial users should :-
 
@@ -64,7 +64,7 @@ Select the sketch, press **F2**, and rename it to \"BaseSketch\".
 
 [Top](#Top.md)
 
-### Attachment offset {#attachment_offset}
+### Attachment offset 
 
 If we leave the sketch where it is, the example would be too easy, so let\'s change the sketch\'s position by altering its attachment offset.
 
@@ -92,7 +92,7 @@ There should be two degrees of freedom remaining, they are the position with reg
 
 [Top](#Top.md)
 
-### Changing Attachment {#changing_attachment}
+### Changing Attachment 
 
 Close the sketch. Rename the sketch, call it \'IsoscelesSketch\'. The origin of the sketch is the point that will be attached in the future, so choosing how the sketch is constrained to the origin is important. The origin can be thought of as hook that catches onto the reference. We can adjust the position of the sketch using offsets, but it is better to choose wisely in the first place.
 
@@ -148,7 +148,7 @@ You can now pocket the sketch.
 
 [Top](#Top.md)
 
-### A Step Further {#a_step_further}
+### A Step Further 
 
 Create the next sketch, the dimensions should be expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") and it should be constrained to the origin at the vertex adjacent the hypotenuse and its shortest side. (In the empty sketch, if you are familiar with **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** you can use it to make a copy of the \'IsoscelesSketch\' sketch, and edit its parameters to suit.)
 
@@ -184,7 +184,7 @@ You can now pocket the sketch. This time use Symmetric to plane.
 
 [Top](#Top.md)
 
-### Manipulating Attachment {#manipulating_attachment}
+### Manipulating Attachment 
 
 In general it is better to position our sketches simply with attachment modes. But it is not always possible to position the sketches exactly where we need without modifying the attachment mode in some way.
 
@@ -230,7 +230,7 @@ So let\'s confirm and close the dialogue for now.
 
 [Top](#Top.md)
 
-### Map Path Parameter {#map_path_parameter}
+### Map Path Parameter 
 
 Select FinalSketch and look in the combo view, properties pane in the attachment section, just below the Map Mode property is the Map Path Parameter.
 
@@ -248,7 +248,7 @@ You can now pocket the sketch. Don\'t forget to use Symmetric to plane.
 
 [Top](#Top.md)
 
-### A Different Selection Mode {#a_different_selection_mode}
+### A Different Selection Mode 
 
 So far we have seen how to position sketches with attachment modes and offsets, but we could\'ve used Standard planes because the relative positioning was quite simple.
 
@@ -276,7 +276,7 @@ Confirm and close the Dialogue. We could now use the Datum Plane to create a Ske
 
 [Top](#Top.md)
 
-### Temporarily attaching to a generated plane {#temporarily_attaching_to_a_generated_plane}
+### Temporarily attaching to a generated plane 
 
 Sometimes it is difficult to work out how to align sketch or datum plane to generated face without actually attaching to it, which as noted above can be problematic. One solution is to attach to the generated geometry and then change the attachment to one of the coordinate planes. FreeCAD will retain the existing position and orientation intact but now reference it to stable planes, thus avoiding the topological renaming problems. However, the cost of doing this that the parametric linkage to the generated geometry is lost. If the underlying model is change, it will not all fall apart as often happens when attaching to generated geometry but attachment will not follow the changes and will need adjusting by repeating the temporary attachment trick.
 

@@ -19,7 +19,7 @@ La commande <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft 
 2.  Sélectionnez deux ou plusieurs [Draft Lignes](Draft_Line/fr.md) et/ou [Draft Polylignes](Draft_Wire/fr.md).
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Join.svg" width=16px> [Joint les lignes sélectionnées...](Draft_Join/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → <img src="images/Draft_Join.svg" width=16px> Joindre}} dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Join.svg" width=16px> Joindre** dans le menu.
     -   Utilisez le raccourci clavier : **J** puis **O**.
 
 ## Remarques

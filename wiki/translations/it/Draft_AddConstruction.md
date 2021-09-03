@@ -21,9 +21,9 @@ Questo comando aggiunge gli oggetti selezionati al [Gruppo costruzione](Draft_To
 
 </div>
 
-## Bug in version 0.19 {#bug_in_version_0.19}
+## Bug in version 0.19 
 
-In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draft_ToggleConstructionMode.md) command will typically use different groups. To avoid this change the {{MenuCommand|Construction group name}} in the preferences to {{Value|Draft_Construction}}: {{MenuCommand|Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name}}. In version 0.20 the {{MenuCommand|Construction group name}} is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
+In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draft_ToggleConstructionMode.md) command will typically use different groups. To avoid this change the **Construction group name** in the preferences to {{Value|Draft_Construction}}: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**. In version 0.20 the **Construction group name** is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
 
 ## Utilizzo
 
@@ -31,7 +31,7 @@ In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draf
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare gli oggetti che si desidera spostare nel gruppo Costruzione.
-2.  Andare nel menu {{MenuCommand|Draft → Utilità → <img src="images/Draft_ToggleConstructionMode.png" width=16px> [Aggiungi al gruppo costruzione](Draft_AddConstruction/it.md)}}.
+2.  Andare nel menu **Draft → Utilità → <img src="images/Draft_ToggleConstructionMode.png" width=16px> [Aggiungi al gruppo costruzione](Draft_AddConstruction/it.md)**.
 
 
 </div>

@@ -21,7 +21,7 @@ Il comando **Visualizza rotazione oggetti** ruota continuamente la telecamera in
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare l\'opzione {{MenuCommand|Strumenti → Visualizza rotazione oggetti...}} dal menu.
+1.  Selezionare l\'opzione **Strumenti → Visualizza rotazione oggetti...** dal menu.
 2.  Viene visualizzata la finestra di dialogo Visualizza rotazione oggetti.
 3.  Spostare il cursore **Angolo** per inclinare la rotazione virtuale della videocamera.
 4.  Spostare il cursore **Velocità** per regolare la velocità di rotazione della videocamera.

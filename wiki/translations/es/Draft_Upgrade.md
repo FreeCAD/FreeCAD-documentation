@@ -23,7 +23,7 @@ El <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> comando **Borr
 1.  Opcionalmente selecciona uno o más objetos.
 2.  Hay varias vías para invocar el comando:
     -   Pulsar el **<img src="images/Draft_Upgrade.svg" width=16px> [Borrador Elevar](Draft_Upgrade/es.md)**.
-    -   Seleccione la opción {{MenuCommand|Modification → <img src="images/Draft_Upgrade.svg" width=16px> Elevar}} en el menú.
+    -   Seleccione la opción **Modification → <img src="images/Draft_Upgrade.svg" width=16px> Elevar** en el menú.
     -   Utilice el atajo de teclado: **U** y luego **P**.
 3.  Si aún no ha seleccionado un objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
 

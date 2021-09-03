@@ -10,13 +10,13 @@
 
 -   **Настройки цветов**: Вам надоели старые добрые серые формы с черными контурами установленные в FreeCAD по умолчанию? Теперь вы можете менять пользовательские предпочтения в настройках (Отобразить -\> Цвета), вместе с другими настройками цветов по умолчанию.
 
-## Модуль создания проекций {#модуль_создания_проекций}
+## Модуль создания проекций 
 
 -   **Функция обрезки**: Новый инструмент [Обрезка изображения](Drawing_Clip.md) позволяет разместить проекции объектов внутри невидимого прямоугольника который обрежет границы изображения.
 -   **Редактируемый штамп чертежа**: При проектировании [Чертежных Шаблонов](Drawing_templates.md), теперь можно отметить текст который будет редактируемым. Этот текст будет редактироваться напрямую в FreeCAD.
 -   **Функция аннотации**: Новая функция [Аннотация](Drawing_Annotation.md) , простой инструмент для размещения блока текста на чертеже.
 
-## Эскизный модуль {#эскизный_модуль}
+## Эскизный модуль 
 
 **Улучшены Метки Данных и Отображение Ограничений:**
 
@@ -71,7 +71,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 
 <div class="mw-translate-fuzzy">
 
-## Чертежный модуль {#чертежный_модуль}
+## Чертежный модуль 
 
 -   **Режим задач**: Режим просмотра задач(Taskview) теперь по умолчанию установлен в Чертежном модуле. Не бойтесь, если вам больше нравится панель инструментовона по прежнему доступна в параметрах Чертежных настроек.
 -   **Импорт из DXF**: Импортировщик из DXF теперь поддерживает точки (преобразуя их [Точки Чертежного модуля](Draft_Point.md)) и пунктир (преобразует в Ломаную Кривую)
@@ -94,7 +94,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 
 ![800px](images/013-draft-shape2dview.jpg)
 
-## Архитектурный модуль {#архитектурный_модуль}
+## Архитектурный модуль 
 
 -   **Интеграция с Чертежным модулем**: Архитектурный и Чертежный модуль теперь тесно интегрированный друг с другом. Архитектурные инструменты используют [систему привязок Чертежного модуля](Draft_Snap.md) , а все чертежные инструменты представлены в Архитектурном модуле. На самом деле, если вы хотите вы можете теперь полностью скрыть Чертежный модуль (Настройки -\> Draft -\>Hide the Draft workbench)
 -   **Новый инструмент для создания стен**: [Инструмент создания стен](Arch_Wall.md) был значительно усовершенствован, теперь появился режим рисования напрямую, он активируется , при нажатии на кнопку Стены, если не выбрано ни одного объекта, это позволяет вам рисовать стены, как будто вы рисуете простые линии. В дополнение к этому, теперь стены автоматически присоединяются если вы привязываетесь к существующей стене.
@@ -122,7 +122,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 
 -   **Создание архитектурного объекта из полигионального**: Теперь, вы можете напрямую из полигиональных моделей создавать [стены](Arch_Wall.md) и [структуры](Arch_Structure.md), только если замкнуты а тела и ребра [многообразны](http://doc.spatial.com/index.php/Manifold_and_Non-manifold_Objects). Это позволяет быстро преобразовывать импортированную геометрию из других приложений, таких как [blender](http://www.blender.org) в объекты Архитектурного модуля.
 
-## Part module {#part_module}
+## Part module 
 
 -   **Refine shape** is a new utility that cleans up faces after a few operations on a shape. It can be set to run automatically after boolean operations in the Preferences.
 -   **New Loft tool** can extrude a complex set of surfaces or a solid shape through a series of sketches or Draft objects.
@@ -131,7 +131,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 -   **New Thickness tool** can hollow out a solid shape by setting a wall thickness and opening one or more faces.
 -   **Shape Builder** and **Create primitives** are now in the Part toolbar for quick access.
 
-## Part Design module {#part_design_module}
+## Part Design module 
 
 -   **Pad** and **Pocket** are now more powerful thanks to more parameters, such as extrude to first/to last, up to face, 2 dimensions, symmetric to plane.
 -   **Chamfer** and **Fillet** got an upgrade: selecting a face is now allowed, all the outer and inner edges of this face will be processed.
@@ -140,16 +140,16 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 -   **Linear pattern**, **Mirrored**, **Polar pattern** and **Multipattern** tools, that allow you to align and distribute pads and pockets on a feature.
 -   A **Shaft Wizard** to help you design shaft objects
 
-## Модуль проектирования кораблей {#модуль_проектирования_кораблей}
+## Модуль проектирования кораблей 
 
 -   Новый модуль для проектирования днищ кораблей
 
-## 3D mice {#d_mice}
+## 3D mice 
 
 -   Support for 3D mice (Spaceball, Space Navigator) has been added to the Windows version.
 -   A new **Spaceball Motion** tab in the Customize dialog allows for fine tuning your 3D mouse to the settings you want, directly from FreeCAD.
 
-## OpenSCAD module {#openscad_module}
+## OpenSCAD module 
 
 -   This brand new (experimental) module brings OpenSCAD files import capability into FreeCAD. This file format is wildly popular in the RepRap community and on digital designs sharing site Thingiverse.
 -   OpenSCAD script can be executed from within FreeCAD, by OpenSCAD (if installed on your computer), with the result appearing in your FreeCAD document.

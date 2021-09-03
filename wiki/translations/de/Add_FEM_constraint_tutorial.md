@@ -23,7 +23,7 @@ Dieses Tutorium umfasst nur die Implementierung von Beschränkungen in Python. I
 3.  **Erstelle ein Aufgabenpaneel:** Das Aufgabenpaneel ist erforderlich, um dem Anwender die Möglichkeit zu gewähren, die Grenzen festzulegen, an denen er die Geschwindigkeitsbeschränkung festlegen möchte. Es macht auch die Eingabe der Parameter etwas benutzerfreundlicher.
 4.  **Erweitere Elmers Schreiber:** Füge Unterstützung für die neue Beschränkung Elmer hinzu, durch erweitern seines sif Datei Exportierers.
 
-## Dokument-Objekt erstellen {#dokument_objekt_erstellen}
+## Dokument-Objekt erstellen 
 
 In diesem Schritt werden wir die folgenden Dateien modifizieren:
 
@@ -108,7 +108,7 @@ def makeConstraintFlowVelocity(name="FlowVelocity"):
     return obj
 ```
 
-## GUI Befehl erstellen {#gui_befehl_erstellen}
+## GUI Befehl erstellen 
 
 In diesem Schritt werden wir die folgenden Dateien modifizieren:
 
@@ -159,7 +159,7 @@ Füge die neue Befehlsdatei zum Bausystem hinzu, wie in [FEM Modul erweitern](ht
 
 Gib den Befehl in Gui/Workbench.cpp ein, um ihn der Symbolleiste und dem Menü hinzuzufügen. Suche nach einer vorhandenen Beschränkung der gleichen Kategorie wie die neue (z.B. Flow), kopiere und füge sie ein und passe die Befehls ID an. Dies sollte zweimal durchgeführt werden. Einmal für das Menü und noch einmal für die Werkzeugleiste.
 
-## Erstelle ein Aufgabenpaneel {#erstelle_ein_aufgabenpaneel}
+## Erstelle ein Aufgabenpaneel 
 
 In diesem Schritt werden wir die folgenden Dateien modifizieren:
 
@@ -281,7 +281,7 @@ class ViewProxy(FemConstraint.ViewProxy):
         return True
 ```
 
-## Elmers Schreiber erweitern {#elmers_schreiber_erweitern}
+## Elmers Schreiber erweitern 
 
 In diesem Schritt werden wir die folgenden Dateien modifizieren:
 

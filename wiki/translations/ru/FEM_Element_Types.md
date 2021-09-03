@@ -4,7 +4,7 @@
 
 Это описание основано на формате MED, описанном в \[<https://hammi.extra.cea.fr/static/MED/web_med/logiciels/med-2.3.1/doc/html/modele_de_donnees.html#3>. modele de donnes\].
 
-## Segment element {#segment_element}
+## Segment element 
 
 <img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
 
@@ -14,7 +14,7 @@
 
   : Edges of Seg2 and Seg3
 
-## Triangle element {#triangle_element}
+## Triangle element 
 
 <img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width:600px;">
 
@@ -44,7 +44,7 @@
 
   : Face by Nodes of Tria6
 
-## Quadrangle element {#quadrangle_element}
+## Quadrangle element 
 
 <img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
 
@@ -75,7 +75,7 @@
 
   : Face by Nodes of Quad8
 
-## Tetrahedron element {#tetrahedron_element}
+## Tetrahedron element 
 
 <img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width:600px;">
 
@@ -117,7 +117,7 @@
 
   : Faces by Nodes of Tetra10
 
-## Hexahedron element {#hexahedron_element}
+## Hexahedron element 
 
 <img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width:600px;">
 
@@ -171,7 +171,7 @@
 
   : Faces by Nodes of Hexa20
 
-## Pentahedron element (prism) {#pentahedron_element_prism}
+## Pentahedron element (prism) 
 
 <img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width:600px;">
 
@@ -219,7 +219,7 @@
 
   : Faces by Nodes of Penta15
 
-## Pyramid element {#pyramid_element}
+## Pyramid element 
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
 

@@ -31,7 +31,7 @@ Le tutoriel se concentre sur la création du fichier **VRML** utilisé pour la v
 
 </div>
 
-## Ouvrir un fichier, ou en créer un avec FreeCAD {#ouvrir_un_fichier_ou_en_créer_un_avec_freecad}
+## Ouvrir un fichier, ou en créer un avec FreeCAD 
 
 Le tutoriel est basé sur un **fichier-STEP** d\'un **[Stäubli TX40](http://www.staubli.com/fr/robotique/robots-4-et-6-axes/robots-petits-porteurs/tx40/)**, vous pouvez télécharger le fichier [fichier TX40-HB.stp](https://secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html), la méthode, devrait également s\'appliquer à un modèle entièrement réalisé dans FreeCAD, cependant, je n\'ai pas encore eu le temps de vérifier ce point.
 Après l\'ouverture du fichier, vous devriez obtenir ceci :
@@ -69,7 +69,7 @@ Masquer **TX40\_HB007** car il contient les axes de tous les joints et ne peut p
 
 </div>
 
-## Mesure des caractéristiques géométriques {#mesure_des_caractéristiques_géométriques}
+## Mesure des caractéristiques géométriques 
 
 Afin de construire la table [Denavit-Hartenberg](http://fr.wikipedia.org/wiki/Denavit-Hartenberg) (voir [6-Axis\_Robot](Robot_6-Axis/fr.md) ) et de préparer le fichier [VRML](http://fr.wikipedia.org/wiki/Virtual_Reality_Markup_Language), que vous avez besoin pour obtenir des caractéristiques du Robot. Pour l\'instant, l\'outil de mesure de FreeCAD n\'est pas prêt, vous pouvez utiliser les axes inclus dans **TX40\_HB007** (les coordonnées sont indiquées en bas à gauche lorsque vous pointez un objet avec la souris) ou vous devez utiliser la [console Python](Introduction_to_Python/fr.md) pour obtenir des informations sur la forme géométrique.
 Notez que, le **DH-tableau** n\'est nécessaire que si vous avez besoin d\'utiliser la cinématique inverse, c\'est à dire obtenir les coordonnées cartésiennes ou de commander le robot en coordonnées cartésiennes.
@@ -97,7 +97,7 @@ Le fichier **csv** est :
 
 <div class="mw-translate-fuzzy">
 
-## Exporter en VRML {#exporter_en_vrml}
+## Exporter en VRML 
 
 Exporter le document dans un fichier VRML.
 La structure du fichier VRML est la suivante :
@@ -153,7 +153,7 @@ Vous pouvez remarquer que nous avons 8 groupes indépendants, correspondants aux
 
 <div class="mw-translate-fuzzy">
 
-## Préparation du dossier de vrml {#préparation_du_dossier_de_vrml}
+## Préparation du dossier de vrml 
 
 Toutes les formes dans le fichier **vrml** sont exprimées dans le cadre de base, indépendamment les uns des autres. Pour le **Workbench Simulation Robot**, nous avons besoin de créer une structure où, un mouvement de formes induit un mouvement de toutes les formes qui se trouveront ensuite dans la structure. Le placement des formes sera relatif à la forme précédente, nous avons donc besoin d\'inclure quelques modifications à partir du système de référence absolu vers le système relatif.
 Les traductions sont décrites dans le tableau suivant :

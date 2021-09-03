@@ -11,7 +11,7 @@ Acest instrument creează o nouă vedere a obiectului selectat în foaia activă
 
 <div class="mw-translate-fuzzy">
 
-### Cum se utilizează {#cum_se_utilizează}
+### Cum se utilizează 
 
 Selectați un obiect în vizualizarea 3D sau în arborescența Proiect, apoi faceți clic pe instrumentul Vizualizare desene. În mod prestabilit, în partea stângă sus a paginii va fi afișată o vedere de sus scara la 1: 1 (scară reală). Este posibil să nu fie vizibil dacă este prea mic sau prea mare pentru pagină.
 
@@ -22,7 +22,7 @@ Un obiect \'\'\' View *\' se adaugă la obiectul*\' Page \'\'\' din arborescenț
 
 Dacă numai obiectul este selectat în Arborescența proiectului, vizualizarea este adăugată la prima pagină a proiectului. Dacă aveți mai multe pagini în proiect, selectați obiectul și pagina la care ar trebui adăugată. Apoi faceți clic pe pictograma pentru a adăuga vizualizarea la pagina selectată.
 
-### Modificați o vizualizare existentă {#modificați_o_vizualizare_existentă}
+### Modificați o vizualizare existentă 
 
 Deschideți obiectul Page din arborele Project și selectați View. Parametrii săi pot fi editați în fila Vizualizare proprietăți.
 
@@ -37,7 +37,7 @@ Deschideți obiectul Page din arborele Project și selectați View. Parametrii s
 -   **Afișează liniile ascunse**: comută sau dezactivează vizibilitatea liniilor ascunse selectând \'\' Adevărat \'\' sau \'\' Fals \'\'.
 -   **Afișează liniile netede**: comută sau dezactivează vizibilitatea liniilor netede prin selectarea*True*sau*False*. Liniile netede sunt de asemenea numite margini de tangență. Aceste margini indică schimbări de suprafață între suprafețele tangente.
 
-### Expertul vizualizării desenului {#expertul_vizualizării_desenului}
+### Expertul vizualizării desenului 
 
 Pentru a genera automat o foaie de desen cu vizualizări standard, utilizați [Automatic drawing Macro](Macro_Automatic_drawing.md). 
 

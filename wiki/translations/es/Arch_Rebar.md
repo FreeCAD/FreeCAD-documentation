@@ -37,7 +37,7 @@ La imagen de arriba muestra un objeto estructural, donde se dibujan dos bocetos,
 
 </div>
 
-## Extensión disponible {#extensión_disponible}
+## Extensión disponible 
 
 
 <div class="mw-translate-fuzzy">
@@ -50,7 +50,7 @@ La herramienta Rebar se ha mejorado mucho durante la edición 2017 de [Google Su
 
 <div class="mw-translate-fuzzy">
 
-## Como utilizar {#como_utilizar}
+## Como utilizar 
 
 
 </div>

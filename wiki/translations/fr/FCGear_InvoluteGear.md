@@ -23,7 +23,7 @@ En raison du rapport d\'engrènement favorable et de la production relativement 
 1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
 2.  Lancez la commande d\'une de ces manières :
     -   Appuyez sur le bouton <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:22px;"> [Create an Involute gear](FCGear_InvoluteGear/fr.md) dans la barre d\'outils.
-    -   Utilisez {{MenuCommand|Gear Menu → Involute gear}}.
+    -   Utilisez **Gear Menu → Involute gear**.
 3.  Modifiez le paramètre de démultiplication aux conditions requises (voir **Propriétés → Données** ci-dessous).
 
 ## Propriétés
@@ -122,9 +122,9 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 Les limitations ne sont pas encore connues.
 
-## Formules utiles {#formules_utiles}
+## Formules utiles 
 
-### Engrenages droits standard {#engrenages_droits_standard}
+### Engrenages droits standard 
 
 Le terme \"standard\" désigne ici les engrenages droits sans coefficient de décalage de profil ($x$).
 

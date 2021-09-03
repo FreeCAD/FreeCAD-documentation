@@ -20,7 +20,7 @@ Wenn die Taste **SHIFT** gedrückt wird, beginnt der Delta-Wert an der Koordinat
 
 Eine Option ist möglich, damit das Makro resident bleibt (fortlaufend). Drücken Sie dann **Q**, um das Makro zu beenden, und eine Option, um die Anzahl der Dezimalstellen festzulegen.
 
-## Wie verwende ich {#wie_verwende_ich}
+## Wie verwende ich 
 
 1.  Starten Sie das Makro
 2.  Wählen Sie den ersten Punkt in der 3D-Ansicht

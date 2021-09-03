@@ -23,7 +23,7 @@ Das Werkzeug Stücklistensymbol kann Stücklistensymbole mit Führungslinie eine
 
 *Hinweis:*\' Die Position des Ballons ist relativ zur Ansicht und verwendet den gleichen Maßstabsfaktor wie die Ansicht.
 
-## Verwendung von Trennzeichen {#verwendung_von_trennzeichen}
+## Verwendung von Trennzeichen 
 
 Bei Verwendung einer Rechteckform können Trennzeichen mit \"\|\" im Text hinzugefügt werden. Zum Beispiel \"AAA\|TEST\|111\" ergibt:
 

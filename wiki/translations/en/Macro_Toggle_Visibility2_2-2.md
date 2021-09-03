@@ -18,7 +18,7 @@
 
 This macro makes all objects visible respecting the original visible and hidden objects after use the [Macro Toggle Visibility2 1-2](Macro_Toggle_Visibility2_1-2.md)
 
-## How To Use {#how_to_use}
+## How To Use 
 
 Copy the macros and the icons in your folder macros and run (see [How to install macros](How_to_install_macros.md))
 

@@ -27,7 +27,7 @@
 
 [наверх](#top.md)
 
-### Панели инструментов {#панели_инструментов}
+### Панели инструментов 
 
 По состоянию на 2020 год верстак Assembly3 имеет следующие панели инструментов.
 
@@ -252,7 +252,7 @@
 
 </div>
 
-#### Additional Constraints Toolbars {#additional_constraints_toolbars}
+#### Additional Constraints Toolbars 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
 
@@ -622,7 +622,7 @@ If you like you can move the **Locked** constraint upwards in the tree. Use the 
 
 [наверх](#top.md)
 
-### Добавление смещения {#добавление_смещения}
+### Добавление смещения 
 
 Assembly3 не предлагает смещение с константами, как это делают [верстак A2plus](A2plus_Workbench/ru.md) или другие инструменты САПР. Вместо этого он предлагает более общую и гибкую систему для добавления сдвигов, а также углов.
 
@@ -644,7 +644,7 @@ Assembly3 не предлагает смещение с константами, 
 
 <div class="mw-translate-fuzzy">
 
-### Устранение сбоя решателя {#устранение_сбоя_решателя}
+### Устранение сбоя решателя 
 
 Это часто случается, когда детали чрезмерно ограничены, т.е. заблокировано более 6 степеней свободы.
 
@@ -657,7 +657,7 @@ Assembly3 не предлагает смещение с константами, 
 
 [наверх](#top.md)
 
-### Замена детали или переименование имени файла {#замена_детали_или_переименование_имени_файла}
+### Замена детали или переименование имени файла 
 
 Когда деталь удаляется или изменяется имя файла, сборка ломается, ее нельзя решить, и решатель выдаст сообщение \"Inconsistent constraints\" («Несогласованные ограничения»). Решатель помечает недопустимые элементы и ограничения в дереве знаком вопроса.
 
@@ -697,7 +697,7 @@ Assembly3 не предлагает смещение с константами, 
 
 [top](#top.md)
 
-### Советы и хитрости {#советы_и_хитрости}
+### Советы и хитрости 
 
 -   Использование иерархических сборок помогает избежать проблем с решателем и позволяет сохранить плавность моделирования. Вы можете заморозить подсистему одним щелчком мыши и сэкономите ресурсы процессора (используйте контекстное меню в дереве). При загрузке сборки Assembly3 не нужно открывать внешние файлы для замороженных подсистем, что сохраняет компактность дерева.
 -   Очень полезно выработать привычку именовать элементы и ограничения. Используйте клавишу **F2**, чтобы это делать быстро в дереве. Инструменты сортировки дерева в основной панели инструментов будут очень полезными. Сборка с полностью именованными ограничениями и элементами очень проста в понимании для других людей или для самого себя, по сравнению с предыдущими файлами.

@@ -18,9 +18,9 @@ Jeep modellata da Psicofil
 
 </center>
 
-## Aspetti generali {#aspetti_generali}
+## Aspetti generali 
 
-### Migrazione del sito {#migrazione_del_sito}
+### Migrazione del sito 
 
 Abbiamo finalmente spostato tutte le applicazioni web di FreeCAD da [SourceForge](http://www.sourceforge.net) al nostro [own domain](http://www.freecadweb.org). La nuova homepage di FreeCAD si trova all\'indirizzo <http://www.freecadweb.org>, il wiki ora è a <http://www.freecadweb.org/wiki>, il bug and features tracker a <http://www.freecadweb.org/tracker>, e il forum a <http://forum.freecadweb.org>. Se avevate un account per una di queste applicazioni quando eravamo su SourceForge, è possibile recuperarlo seguendo queste [istruzioni](http://forum.freecadweb.org/viewtopic.php?f=8&t=4942).
 
@@ -28,13 +28,13 @@ L\'unica parte di FreeCAD che rimane in SourceForge è il repository git princip
 
 Se non conosci ancora l\'incredibile comunità FreeCAD, facci visita sul forum, e sarai stupito dal suo talento, energia e disponibilità.
 
-### Passato a PySide, FreeCAD è ora pienamente LGPL {#passato_a_pyside_freecad_è_ora_pienamente_lgpl}
+### Passato a PySide, FreeCAD è ora pienamente LGPL 
 
 Date le molte complicazioni causate dal modello a doppia licenza di FreeCAD (LGPL & GPL), alcuni dei componenti di FreeCAD (cioè il kernel OpenCasCade) incompatibili con il codice GPL, abbiamo deciso di convertire tutte le restanti parti di codice GPL di FreeCAD in LGPL. Come risultato di questa operazione, [PyQt](http://en.wikipedia.org/wiki/PyQt) non più usato, ed è sostituito da [PySide](http://en.wikipedia.org/wiki/PySide). Non ci sono grosse conseguenze per gli autori di script python, PyQt può ancora essere utilizzato all\'interno FreeCAD.
 
 Dopo che abbiamo completato il passaggio a LGPL, anche OpenCascade è [passata a LGPL](http://www.opencascade.org/getocc/license/), cosa che avrebbe anche risolto tutti i nostri conflitti licenza. Ma ora abbiamo un modello di licenza molto più chiaro e unitario, che dovrebbe soddisfare tutte le distribuzioni linux più severe.
 
-### Plugins e progetti collaterali: Parts library, BOLTS, importatore Eagle {#plugins_e_progetti_collaterali_parts_library_bolts_importatore_eagle}
+### Plugins e progetti collaterali: Parts library, BOLTS, importatore Eagle 
 
 L\'ultimo anno ha visto emergere alcuni progetti collaterali interessanti a fianco di FreeCAD. È stato avviato dalla comunità e sta lentamente crescendo una [Parts library](http://github.com/yorikvanhavre/FreeCAD-library) costituita da un insieme di parti riutilizzabili da aggiungere ai propri modelli FreeCAD. Può essere avviata e utilizzata dall\'interno di FreeCAD con l\'uso di una macro.
 
@@ -44,31 +44,31 @@ Un altro progetto simile, ma più ambizioso è [BOLTS](http://bolts-library.org/
 
 Un altro progetto esterno interessante è [EAGLE importer](http://sourceforge.net/projects/eaglepcb2freecad/), che permette di importare in FreeCAD progetti di schede PCB realizzati da diverse applicazioni.
 
-### Esportazione WebGL {#esportazione_webgl}
+### Esportazione WebGL 
 
 Ora, da FreeCAD, è possibile esportare la scena come un file[WebGL](http://en.wikipedia.org/wiki/WebGL)-abilitato html. Questo file include un visualizzatore embedded [three.js](http://threejs.org/)-based che consente di ispezionare la scena dal web senza alcun plugin, purché lo si visualizzi con un browser WebGL-compatibile.
 
-### Sistema di unità di misura {#sistema_di_unità_di_misura}
+### Sistema di unità di misura 
 
 Infine, è stato implementato un sistema di [unità di misura](units/it.md) a livello di FreeCAD, quindi a disposizione di tutti i moduli. Ora è possibile scegliere uno schema unità dalle preferenze. Gli schemi attualmente disponibili includono millimetri, metri e misure imperiali, ma a breve dovrebbe diventare disponibile molto altro. Una volta che lo schema è impostato, la maggior parte delle proprietà e gli strumenti di FreeCAD utilizzano di preferenza questa unità. Ma il sistema è molto flessibile, e nella maggior parte dei casi, si possono mescolare le unità quanto si vuole, per esempio dando misure in pollici in un set di documenti in millimetri.
 
-### Style Sheets {#style_sheets}
+### Style Sheets 
 
 FreeCAD 0.14 diventa ancora più personalizzabile con l\'aggiunta di [Style Sheets](http://forum.freecadweb.org/viewtopic.php?f=8&t=4700&start=30) utilizzato per controllare l\'immagine di sfondo nella finestra principale. L\'utente non è più vincolato allo sfondo di pietra grigia. Quasi ogni tipo di immagine, o disegno personalizzato possono essere utilizzati per riempire lo sfondo della finestra principale di FreeCAD.
 
 <img alt="" src=images/Style_Sheets.png  style="width:1024px;">
 
-### Stile di visualizzazione {#stile_di_visualizzazione}
+### Stile di visualizzazione 
 
 La barra predefinita degli strumenti Vista è stato ampliato con un paio di nuovi pulsanti per commutare facilmente la visualizzazione di tutta la vista tra la modalità 3D wireframe, ombreggiata o linee.
 
-### Finestra 3D anti-aliasing {#finestra_3d_anti_aliasing}
+### Finestra 3D anti-aliasing 
 
 Nuove opzioni anti-aliasing, che si possono trovare nelle preferenze, sono state aggiunte al sistema vista 3D di FreeCAD. Se avete un buon chip grafico 3D, ora è possibile apprezzare FreeCAD con una elevata qualità anti-aliasing.
 
 ## Part
 
-### Loft e Sweep {#loft_e_sweep}
+### Loft e Sweep 
 
 Gli strumenti [Part Loft](Part_Loft/it.md) e [Part Sweep](Part_Sweep/it.md) è sono stati migliorati e ora è possibile utilizzare gli oggetti Draft come profili.
 
@@ -80,7 +80,7 @@ Il nuovo strumento [Part Offset](Part_Offset/it.md) crea copie di una forma sele
 
 Ora è disponibile un nuovo strumento [Part Thickness](Part_Thickness/it.md). Questo strumento funziona su una forma solida, e la trasforma in un oggetto cavo, dando a ciascuna delle sue facce un dato spessore.
 
-### Make Compound {#make_compound}
+### Make Compound 
 
 
 <div class="mw-translate-fuzzy">
@@ -90,13 +90,13 @@ Il modulo [Part](Part_Workbench/it.md) ora fornisce uno strumento [Make Compound
 
 </div>
 
-### Primitive Part {#primitive_part}
+### Primitive Part 
 
 Nuove Part primitive sono state aggiunte allo strumento [Crea primitive](Part_CreatePrimitives/it.md): Prismi, poligoni regolari e spirali ora sono facili da creare compilando un paio di parametri. Inoltre, alcuni strumenti del modulo [Draft](Draft_Workbench/it.md) ora possono usufruire di questa funzione e creare anche queste primitive, invece del loro regolare oggetto Draft, se l\'opzione corrispondente è impostata nelle impostazioni delle preferenze Draft.
 
 ![](images/Part_Create_Primitives1.jpeg )
 
-### Strumenti Misura {#strumenti_misura}
+### Strumenti Misura 
 
 
 <div class="mw-translate-fuzzy">
@@ -106,9 +106,9 @@ Un nuovo set di strumenti di misura è stato aggiunto a [Part](Part_Workbench/it
 
 </div>
 
-## PartDesign & Sketcher {#partdesign_sketcher}
+## PartDesign & Sketcher 
 
-### Validate sketch {#validate_sketch}
+### Validate sketch 
 
 
 <div class="mw-translate-fuzzy">
@@ -118,7 +118,7 @@ Ora l\'ambiente [Sketcher](Sketcher_Workbench/it.md) dispone del nuovo strumento
 
 </div>
 
-### Gear generator {#gear_generator}
+### Gear generator 
 
 
 <div class="mw-translate-fuzzy">
@@ -130,7 +130,7 @@ Uno strumento [involute gear generator](PartDesign_InvoluteGear/it.md) è stato 
 
 ## Drawing
 
-### Proiezioni automatiche {#proiezioni_automatiche}
+### Proiezioni automatiche 
 
 L\'ambiente Drawing continua ad essere migliorato con alcune nuove interessanti funzionalità. Proiezioni ortogonali ora permette di visualizzare tutte le viste, nonché un maggiore controllo sulle singole viste. Un\'altra caratteristica fondamentale, Drawing Templates ora può contenere i dati che definiscono la posizione di Bordo e Cartiglio il che limita automaticamente le proiezioni all\'interno del Bordo, e allo stesso tempo evita automaticamente di inserirle nello spazio occupato dal cartiglio.
 
@@ -142,7 +142,7 @@ Nell\'ambiente [Drawing](Drawing_Workbench/it.md) è disponibile un nuovo strume
 
 ## Raytracing
 
-### Nuovi strumenti di rendering {#nuovi_strumenti_di_rendering}
+### Nuovi strumenti di rendering 
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -164,7 +164,7 @@ Inoltre, il sistema di [modelli Raytracing](Raytracing_Workbench#Templates/it.md
 
 Gli script .pov prodotti da FreeCAD ora contengono il rapporto di auto-aspetto. Gli utenti non devono più mantenere un rapporto di aspetto 4:3 nelle impostazioni Raytracing o modificare manualmente l\'uscita e cambiare i rapporti, per ottenere un corretto rendering. Ora possono essere inseriti qualsiasi larghezza e altezza senza timore che gli oggetti vengano restituiti schiacciati o allungati.
 
-### Supporto Luxrender {#supporto_luxrender}
+### Supporto Luxrender 
 
 
 <div class="mw-translate-fuzzy">
@@ -174,7 +174,7 @@ Insieme al supporto esistente per [POV-Ray](http://en.wikipedia.org/wiki/POV-Ray
 
 </div>
 
-## Foglio di calcolo {#foglio_di_calcolo}
+## Foglio di calcolo 
 
 In FreeCAD è stato aggiunto un nuovo [ambiente Spreadsheet](Spreadsheet_Workbench/it.md). Esso consente di creare un oggetto [foglio di calcolo](Spreadsheet_Create/it.md), che contiene dati in un foglio bidimensionale. Dispone inoltre di un editor in modo da poter modificare il contenuto del foglio di calcolo (sono supportati testi, numeri e alcune formule di base), e uno speciale oggetto [cell controller](Spreadsheet_Controller/it.md), che può eseguire la scansione del documento per certi tipi di oggetti, estrarre da essi una certa proprietà, e compilare un determinato intervallo di celle con questi valori.
 
@@ -182,7 +182,7 @@ In FreeCAD è stato aggiunto un nuovo [ambiente Spreadsheet](Spreadsheet_Workben
 
 ## Draft
 
-### Importare e esportare DWG {#importare_e_esportare_dwg}
+### Importare e esportare DWG 
 
 
 <div class="mw-translate-fuzzy">
@@ -192,7 +192,7 @@ Ora FreeCAD è in grado di importare ed esportare verso il [formato DWG](http://
 
 </div>
 
-### Lavorare con i gruppi da Draft verso Drawing {#lavorare_con_i_gruppi_da_draft_verso_drawing}
+### Lavorare con i gruppi da Draft verso Drawing 
 
 
 <div class="mw-translate-fuzzy">
@@ -202,7 +202,7 @@ Lo strumento [Draft to Drawing](Draft_Drawing/it.md), utilizzato per posizionare
 
 </div>
 
-### Dimensioni ricodificate {#dimensioni_ricodificate}
+### Dimensioni ricodificate 
 
 
 <div class="mw-translate-fuzzy">
@@ -234,7 +234,7 @@ L\'ambiente [Draft](Draft_Module/it.md) dispone anche di un nuovo \"giocattolo\"
 
 Allo stesso modo dei raccordi, che erano apparsi nella [versione 0.13](Release_notes_013/it.md), ora i rettangoli, contorni e poligoni di Draft hanno una proprietà smusso, che smussa i loro angolo. Lo smusso viene applicato prima del raccordo, e entrambe le proprietà possono essere utilizzate insieme, questo consente di trasformare rapidamente un contorno molto semplice in un oggetto complesso fatto di molte sezioni.
 
-### Upgrade e Downgrade ricodificati {#upgrade_e_downgrade_ricodificati}
+### Upgrade e Downgrade ricodificati 
 
 Gli strumenti [Upgrade](Draft_Upgrade/it.md) e [Downgrade](Draft_Downgrade/it.md), prima ermetici pezzi di magia, di cui non si era mai troppo sicuri di quello che sarebbe stato il risultato, sono stati ricodificati, e ora appare un messaggio molto più amichevole che informa su quanto è stato fatto e perché. Ora sono disponibili anche per gli scripting Python, non solo il blocco, ma anche le loro singole operazioni interne, in modo da poter ordinare con precisione un determinato tipo di Upgrade da eseguire.
 
@@ -248,11 +248,11 @@ Gli strumenti [Upgrade](Draft_Upgrade/it.md) e [Downgrade](Draft_Downgrade/it.md
 
 </div>
 
-### Shape strings {#shape_strings}
+### Shape strings 
 
 Lo strumento [ShapeString](Draft_ShapeString/it.md) crea oggetti planari da un testo e un tipo di carattere TrueType. Questi oggetti, a differenza delle comuni annotazioni come sono i [Testi](Draft_Text/it.md), sono oggetti 3D reali, possono essere estrusi, e quindi possono essere usati per creare incisioni o altri tipi di oggetti 3D con il testo in rilievo.
 
-### Curve di Bezier {#curve_di_bezier}
+### Curve di Bezier 
 
 
 <div class="mw-translate-fuzzy">
@@ -264,7 +264,7 @@ Accanto alle curve [arco di circonferenza](Draft_Arc/it.md) e [B-spline](Draft_B
 
 ## Arch
 
-### Struttura Preset e profili {#struttura_preset_e_profili}
+### Struttura Preset e profili 
 
 
 <div class="mw-translate-fuzzy">
@@ -274,7 +274,7 @@ Lo strumento [Struttura](Arch_Structure/it.md) ha avuto diversi miglioramenti: o
 
 </div>
 
-### Finestre predefinite {#finestre_predefinite}
+### Finestre predefinite 
 
 Anche allo strumento [Finestra](Arch_Window/it.md) è stato aggiunto un sistema di finestre predefinite. Anche se ancora basate su schizzi, cosa che assicura la massima flessibilità (praticamente si può creare facilmente qualsiasi tipo di finestra), ora si possono costruire nuove finestre partendo da una serie predefinita. Basta scegliere un preset, inserire alcuni parametri, e posizionare la finestra in un muro esistente o in un elemento strutturale, se lo si desidera. A livello inferiore, verrà creato lo schizzo appropriato, che è modificabile in qualsiasi momento.
 
@@ -284,7 +284,7 @@ Anche allo strumento [Finestra](Arch_Window/it.md) è stato aggiunto un sistema 
 
 Ora è disponibile un nuovo oggetto [Spazio](Arch_Space/it.md) che consente di costruire, marcare e calcolare spazi ed aree del pavimento. Questi oggetti spazio comprendono sempre un volume solido, in modo da poter sempre conoscere il loro volume e superficie. Essi possono essere costruiti da una forma solida, o dalla serie delle facce di contorno.
 
-### Muri multistrato {#muri_multistrato}
+### Muri multistrato 
 
 Ora i [Muri](Arch_Wall/it.md) possono essere multistrato con un trucco molto semplice: più pareti possono essere basate su una stessa linea di base, specificando una distanza di spostamento dalla linea di base. Questo, combinato ad esempio con [Carpenteria](Arch_Frame/it.md), consente di realizzare complesse strutture di pareti, o pareti con strati isolamenti. Inoltre, questi muri sono consapevoli dei loro \"muri fratelli\" (le altre pareti basati sulla stessa linea di base), e qualsiasi finestra posta su una di queste pareti anche creare una apertura nei suoi fratelli.
 
@@ -312,7 +312,7 @@ Ora nell\'ambiente Arch è disponibile un altro strumento semplice, ma utile: la
 
 Un nuovo [tutorial](Arch_tutorial/it.md) di 35 pagine descrive l\'ambiente Arch in tutti i suoi dettagli, proponendo un esercizio completo.
 
-### Importare e esportare file IFC {#importare_e_esportare_file_ifc}
+### Importare e esportare file IFC 
 
 
 <div class="mw-translate-fuzzy">
@@ -322,7 +322,7 @@ Un nuovo [tutorial](Arch_tutorial/it.md) di 35 pagine descrive l\'ambiente Arch 
 
 </div>
 
-## Lista completa {#lista_completa}
+## Lista completa 
 
 L\'elenco completo delle correzioni e delle nuove funzionalità può essere letto suhttp://freecadweb.org/tracker/changelog\_page.php
 

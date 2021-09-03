@@ -15,11 +15,11 @@ Der Befehl **Std Neue Ansicht** erstellt eine neue [3D-Ansicht für](3D_view/de.
 
 ## Anwendung
 
-1.  Den {{MenuCommand|Ansicht → <img src="images/Std_ViewCreate.svg" width=16px> Neue Ansicht}} Menüpunkt aus dem Menü wählen.
+1.  Den **Ansicht → <img src="images/Std_ViewCreate.svg" width=16px> Neue Ansicht** Menüpunkt aus dem Menü wählen.
 
 ## Optionen
 
--   Den {{MenuCommand|Windows → Cascade}} oder {{MenuCommand|Windows → Tile}}-Menüpunkt aus dem Menü wählen, um die 3D-Ansicht neu zu aufzubauen.
+-   Den **Windows → Cascade** oder **Windows → Tile**-Menüpunkt aus dem Menü wählen, um die 3D-Ansicht neu zu aufzubauen.
 
 
 

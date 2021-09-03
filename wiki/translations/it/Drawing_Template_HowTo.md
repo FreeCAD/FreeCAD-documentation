@@ -30,9 +30,9 @@ Questo tutorial inizia con la creazione di una pagina in Inkscape e la costruzio
 
 Questo tutorial presuppone che il lettore abbia una conoscenza di base di Inkscape e sappia utilizzare un editor di testo.
 
-## Le Basi {#le_basi}
+## Le Basi 
 
-### Impostare la pagina {#impostare_la_pagina}
+### Impostare la pagina 
 
 Iniziare creando un nuovo documento in Inkscape. In riferimento alla pagina del Wiki di FreeCAD sul disegno di modelli: un pixel = un millimetro. Questo significa che per creare un modello adatto a una pagina con dimensioni ANSI A (letter size), che è di 216mm X 279mm, il modello deve avere le dimensioni di 216px X 279px. Per orientare la pagina in senso orizzontale, questi numeri devono essere invertiti. In questa esercitazione, viene utilizzato l\'orientamento orizzontale. La pagina è perciò definita con 279px per la larghezza e 216px per l\'altezza.
 
@@ -42,7 +42,7 @@ In Inkscape, aprire il menu \"File\" e selezionare \"Proprietà del documento\",
 
 Ora si dispone di un documento Inkscape che è largo 279px e alto 216px. Si può procedere e inserire il bordo.
 
-### Il bordo {#il_bordo}
+### Il bordo 
 
 Quindi, creare il bordo. Sebbene ai fini di questa esercitazione non sia indispensabile, sarà utilizzato in seguito.
 
@@ -52,7 +52,7 @@ Utilizzare le coordinate orizzontali e verticali di impostazione della selezione
 
 ![](images/Inkscape_Template_tut_2.png )
 
-### Il blocco del cartiglio {#il_blocco_del_cartiglio}
+### Il blocco del cartiglio 
 
 Ora è possibile costruire un riquadro delle iscrizioni o cartiglio. È la zona dove viene inserito il testo modificabile con Drawing quando il modello viene utilizzato in FreeCAD. Questo tutorial utilizza un esempio semplice. Il cartiglio può essere semplice o complesso quanto si vuole.
 
@@ -62,7 +62,7 @@ Iniziare tracciando un rettangolo qualsiasi entro i bordi del documento. Costrui
 
 ![](images/Inkscape_Template_tut_3.png )
 
-### Il testo fisso {#il_testo_fisso}
+### Il testo fisso 
 
 A questo punto si possono inserire nel cartiglio i blocchi di testo fissi. Sono: Nome del progetto, Data, Scala, e Autore. Per fare questo, basta selezionare lo strumento testo, fare clic da qualche parte nel documento e digitare il testo, usando un blocco diverso per ogni nome. Quindi, fare clic sullo strumento testo, poi nel documento, selezionare la dimensione appropriata del carattere, (la dimensione 6 per questo esempio) e digitare \"Nome del progetto\". Spostare il puntatore in una nuova posizione, fare di nuovo clic per iniziare un nuovo blocco di testo e digitare \"Data\". Fare la stessa cosa per Scala, e Autore. Ora, utilizzando lo strumento di selezione, spostare i singoli blocchi di testo, trascinandoli o utilizzando i tasti freccia, per sistemarli nelle posizioni desiderate.
 
@@ -70,7 +70,7 @@ Quando i blocchi di testo sono posizionati correttamente devono essere seleziona
 
 ![](images/Inkscape_Template_tut_4.png )
 
-### Il testo editabile {#il_testo_editabile}
+### Il testo editabile 
 
 Ora si possono aggiungere i blocchi di testo modificabili con FreeCAD. Creare e posizionare il testo modificabile nello stesso modo usato per il testo fisso. Si può digitare: NOME, DATA, SCALA, AUTORE, e impostare la dimensione 8. Quando il testo è inserito, selezionare i 4 campi di testo che si desidera siano modificabile e renderli un gruppo separato. Non includerli nel gruppo del cartiglio o del bordo. Con questa parte si è definito il testo modificabile, ma dopo aver aggiunto al modello anche la parte grafica, si deve poi completare il processo di creazione del testo modificabile con FreeCAD. Terminiamo aggiungendo al modello solo una piccola parte grafica.
 
@@ -78,7 +78,7 @@ Ora si possono aggiungere i blocchi di testo modificabili con FreeCAD. Creare e 
 
 ## Avanzamento
 
-### Aggiungere una parte grafica {#aggiungere_una_parte_grafica}
+### Aggiungere una parte grafica 
 
 Ora che il modello di base è pronto, si può aggiungere una piccola parte grafica. Può essere costituita da quello che si vuole. Il logo di una ditta o un logo grafico personale, una foto o un rendering del progetto, ecc. In questa esercitazione viene utilizzato il logo di FreeCAD, che si trova nella sezione [Artwork](Artwork/it.md) del Wiki di FreeCAD Wiki. Basta fare clic destro su di esso e selezionare Salva immagine, poi importarlo in Inkscape. L\'immagine importata nel modello può essere ridimensionata e posizionata dove si vuole. Aggiungere delle immagini al modello è facile così.
 
@@ -86,9 +86,9 @@ A questo punto, è possibile selezionare File, quindi Salva. In questo tutorial,
 
 ![](images/Inkscape_Template_tut_6.png )
 
-## Quando il modello è pronto {#quando_il_modello_è_pronto}
+## Quando il modello è pronto 
 
-### Aprire il file con un editor di testo {#aprire_il_file_con_un_editor_di_testo}
+### Aprire il file con un editor di testo 
 
 Dopo aver salvato il modello, aprirlo con l\'editor di testo preferito. Può essere un editor di base, come Blocco note di Windows, o un editor più completo, come Kate. In questo tutorial, viene utilizzato Kate e tutte le immagini sono di tale editor.
 
@@ -96,7 +96,7 @@ Aprendo il file SVG con l\'editor di testo si vede quanto segue.
 
 ![](images/Kate1.png )
 
-### Il tag "xmlns:freecad" {#il_tag_xmlnsfreecad}
+### Il tag "xmlns:freecad" 
 
 La prima cosa da fare è inserire nel documento la riga sottostante. Questa riga è la dichiarazione \"SVG namespace\" e deve essere fornita affinché tutti gli elementi SVG siano identificati come appartenenti a SVG namespace.
 
@@ -114,12 +114,12 @@ Questa riga deve essere aggiunta immediatamente dopo il primo tag \<svg, e con l
 
 ![](images/Kate2.png )
 
-### Page Size {#page_size}
+### Page Size 
 
 
 <div class="mw-translate-fuzzy">
 
-### Formato della pagina {#formato_della_pagina}
+### Formato della pagina 
 
 Per ottenere un disegno finale stampato correttamente in scala, il modello deve contenere le sue dimensioni in unità reali. Altrimenti l\'intera pagina di disegno viene stampata ridotta di un fattore di 3,54 (90(px/in)/25,4(in/mm)).
 
@@ -136,7 +136,7 @@ viewBox="0 0 279 216"
 
 ![](images/Kate2a.png )
 
-### I tag Working space e Title block {#i_tag_working_space_e_title_block}
+### I tag Working space e Title block 
 
 Le altre righe da aggiungere sono i tag Working space (area di lavoro) e Title block (cartiglio). Questi tag e il loro utilizzo sono definiti nella pagina dei Modelli di disegno. Anche se questi tag non sono indispensabili, le versioni più recenti del Modulo Drawing di FreeCAD li usano e non influenzano le versioni precedenti.
 
@@ -146,7 +146,7 @@ Il tag Title block è usato per definire la posizione del cartiglio nell\'area d
 
 Se si utilizzano entrambi i tag, il tag Working space deve apparire per primo e essere seguito immediatamente dal tag Title block. Entrambi i tag devono anche apparire prima del primo tag \<metadata. Questi tag possono essere posizionati sia nella parte superiore, dopo il tag \<? xml o immediatamente prima del tag \<metadata. In questo tutorial sono posti all\'inizio.
 
-#### Il tag Working space {#il_tag_working_space}
+#### Il tag Working space 
 
 Il primo tag è il tag Working space ed è formattato in questo modo:
 
@@ -167,7 +167,7 @@ Quindi, per questo modello di esercitazione, il tag Working space è:
 
 
 
-#### Il tag Title block {#il_tag_title_block}
+#### Il tag Title block 
 
 
 <div class="mw-translate-fuzzy">
@@ -200,7 +200,7 @@ Posizionando questi due tag, in modo corretto nella parte superiore il documento
 
 ![](images/Kate3.png )
 
-### Il tag freecad:editable {#il_tag_freecadeditable}
+### Il tag freecad:editable 
 
 Aggiungendo nel documento SVG il tag freecad:editable si permette a FreeCAD di accedere ai blocchi di testo definiti per editarli. Per i blocchi di testo che si desidera siano modificabile con FreeCAD, effettuare le seguenti operazioni.
 
@@ -208,7 +208,7 @@ Cercare nel documento SVG fino a trovare la sezione che contiene il testo che si
 
 ![](images/Kate4.png )
 
-### Il tag DrawingContent {#il_tag_drawingcontent}
+### Il tag DrawingContent 
 
 L\'ultimo tag necessario nel modello è il tag DrawingContent. Senza di esso, FreeCAD non può accedere al modello. Questo tag informa FreeCAD su dove, all\'interno del documento, può scrivere le proiezioni e gli altri attributi. È l\'unico tag indispensabile nel documento SVG affinché il modello funzioni con FreeCAD.
 
@@ -222,7 +222,7 @@ Questo tag è formattato come segue e si inserisce immediatamente prima dell\'ul
 
 Tutto qui. Ora il documento SVG può essere salvato e utilizzato con FreeCAD.
 
-## Esempio di modello completo {#esempio_di_modello_completo}
+## Esempio di modello completo 
 
 Sotto è riportato il modello SVG finito. Siccome è in formato SVG, è possibile salvarlo e aprirlo con il proprio editor di testo per la revisione come riferimento per questa esercitazione o per creare dei propri modelli.
 

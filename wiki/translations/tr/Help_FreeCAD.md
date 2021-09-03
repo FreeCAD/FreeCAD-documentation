@@ -16,7 +16,7 @@ FreeCAD\'den hoşlanıyorsanız ve gelişimine yardımcı olmak istiyorsanız, p
 
 <div class="mw-translate-fuzzy">
 
-### Belgeler üzerinde çalışın {#belgeler_üzerinde_çalışın}
+### Belgeler üzerinde çalışın 
 
 Bu belgeleri oluşturmamız, düzeltmemiz ve genişletmemize yardımcı olun. Hataları düzeltin, net olmayan sayfaları genişletin veya düzeltin, bir konu eksikse yeni sayfalar yaratın, vb. FreeCAD Wiki\'ye katkıda bulunmak kolaydır, [WikiPages](WikiPages.md) altında FreeCAD Wiki kurallarını ve katılabilmeniz için gereken yardımı bulabilirsiniz. Vikiyi düzenlemek için bir FreeCAD Wiki hesabına ihtiyacınız olacaktır (wiki spam önlemek için yazmaya karşı korumalıdır). Bir hesap isteyebilirsiniz \[forumda <http://forum.freecadweb.org/viewtopic.php?f=21&t=6830>\] veya [irc kanalı](irc://irc.freenode.net/freecad). Lütfen, IRC kanalının forum kadar duyarlı olamayacağını unutmayın.
 
@@ -40,7 +40,7 @@ Help us to build, correct and extend this documentation. Correct mistakes, exten
 
 <div class="mw-translate-fuzzy">
 
-### FreeCAD bilginizi paylaşın {#freecad_bilginizi_paylaşın}
+### FreeCAD bilginizi paylaşın 
 
 FreeCAD etrafındaki kullanıcılar topluluğu hala küçüktür, ancak yeni gelenlere yazılımı nasıl kullanacaklarını göstermek için çok önemli bir iş yapan birçok gelişmiş kullanıcı içermektedir. FreeCAD ile kendinizi rahat hissetmeye başlarsanız, bilginiz başkaları için çok değerli olabilir ve Aşağıdakiler gibi önemli paylaşımlarla katkıda bulunun:
 
@@ -64,7 +64,7 @@ The user community around FreeCAD is still small, but already includes several a
 
 <div class="mw-translate-fuzzy">
 
-### FreeCAD Çevirisini {#freecad_çevirisini}
+### FreeCAD Çevirisini 
 
 FreeCAD\'i kendi dilinizde çevirin. FreeCAD arayüzünün tüm metni diğer dillere kolayca çevrilebilir. Tek ihtiyacımız olan, diğer dili bilen ve yardım etmeye istekli biri! Tüm çeviriler çevrimiçi olarak [crowdin](http://crowdin.net/project/freecad) adresinde yapılır.
 
@@ -84,7 +84,7 @@ Translate FreeCAD to your own language. All text strings of the FreeCAD interfac
 
 <div class="mw-translate-fuzzy">
 
-### Belgeleri çevirin {#belgeleri_çevirin}
+### Belgeleri çevirin 
 
 Çeviri yapmak kolaydır, FreeCAD wiki, sayfalar arasında çevirileri yönetmeyi sağlayan bir Çeviri eklentisini destekler.
 
@@ -120,7 +120,7 @@ Lütfen iyi çeviriler için kurallar içeren [WikiPages](WikiPages.md) stil reh
 
 <div class="mw-translate-fuzzy">
 
-### FreeCAD\'i tanımak için başkalarına yardım edin {#freecadi_tanımak_için_başkalarına_yardım_edin}
+### FreeCAD\'i tanımak için başkalarına yardım edin 
 
 -   FreeCAD hakkında ilginizi çekebilecek diğer insanlarla konuşun
 -   FreeCAD için ilginç kullanımlar bulun ve örneğin ekran görüntüleri ile belgelendirin. FreeCAD çok yeni ve pek çok insan onunla neler yapabileceğini görmüyor. Eğer zaten bir FreeCAD hayranıysanız, kesinlikle FreeCAD\'le yapabileceğiniz harika işler olduğunu biliyorsunuzdur. Bunu başkalarına göstermemize yardım edin!
@@ -142,7 +142,7 @@ Lütfen iyi çeviriler için kurallar içeren [WikiPages](WikiPages.md) stil reh
 
 <div class="mw-translate-fuzzy">
 
-### Hataları raporla ve ilginç özellikler isteyin {#hataları_raporla_ve_ilginç_özellikler_isteyin}
+### Hataları raporla ve ilginç özellikler isteyin 
 
 ![](images/Bugreport-workflow.png ) Doğrulanmış hataları bildirmek ve yeni özellikler önermek için gereken yer sonunda **[ FreeCAD Tracker](tracker.md)** olsa da, lütfen her zaman ilk önce hata forumlarını ve özellik isteklerini Yardım forumuna gönderin. Geliştiricilerin zamanından tasarruf etmek için (hataları önem derecesine göre sıralamak ve çözmeye odaklanmak çok zaman alabilir) ve sorununuz istediğiniz şekilde ele alınmadığı için sıkıntılarınızı önlemek için lütfen aşağıdakileri okuyun:
 
@@ -172,7 +172,7 @@ Although the place to report confirmed bugs and suggest new features is eventual
 
 <div class="mw-translate-fuzzy">
 
-### Sanat Eseri Tasarımı {#sanat_eseri_tasarımı}
+### Sanat Eseri Tasarımı 
 
 FreeCAD için simgeler tasarlama hakkında yönergeler için [Sanat eseri](Artwork/tr.md) sayfasına bakın.
 

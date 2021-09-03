@@ -20,7 +20,7 @@ Crée un réseau et redimensionne les objets dans les limites d\'une ou plusieur
 2.  Étape 2: appelez la commande de plusieurs manières:
     -   Utilisation de <img alt="" src=images/WorkbenchName_Command.svg  style="width:24px;"> [Commande WorkbenchName](WorkbenchName_Command/fr.md)
     -   Utilisation du raccourci clavier {{KEY}} {{KEY}}
-    -   Utilisation de {{MenuCommand|Menu → Command}} dans la liste déroulante Menu
+    -   Utilisation de **Menu → Command** dans la liste déroulante Menu
 3.  Étape 3
 
 ## Remarques

@@ -14,14 +14,14 @@ Here a shape object refers any object with a **Shape** property. Objects created
 ## Usage
 
 1.  Select one or more objects.
-2.  Select the {{MenuCommand|Points → Convert to points...}} option from the menu.
-3.  The {{MenuCommand|Distance}} dialog box opens.
-4.  Enter the {{MenuCommand|maximum distance}}. The value must be in the {{Value|0.05}} - {{Value|10.0}} range.
+2.  Select the **Points → Convert to points...** option from the menu.
+3.  The **Distance** dialog box opens.
+4.  Enter the **maximum distance**. The value must be in the {{Value|0.05}} - {{Value|10.0}} range.
 5.  Press the **OK** button to close the dialog box and finish the command.
 
 ## Properties
 
-Point cloud objects are [App GeoFeature](App_GeoFeature.md) objects with the following additional properties. Select the {{MenuCommand|Show all}} option from the [Property editor](Property_editor.md) context menu to display the hidden properties.
+Point cloud objects are [App GeoFeature](App_GeoFeature.md) objects with the following additional properties. Select the **Show all** option from the [Property editor](Property_editor.md) context menu to display the hidden properties.
 
 ### Data
 
@@ -32,7 +32,7 @@ Point cloud objects are [App GeoFeature](App_GeoFeature.md) objects with the fol
 
 -    **Width|Integer**: the number of unique X coordinates in the point cloud. This property is only available for point clouds created with the [Points Structure](Points_Structure.md) command.
 
-#### Data hidden {#data_hidden}
+#### Data hidden 
 
 
 {{TitleProperty|Base}}

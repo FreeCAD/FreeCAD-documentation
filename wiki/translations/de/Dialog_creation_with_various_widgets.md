@@ -6,7 +6,7 @@ Dies ist ein Beispiel für [Dialogerstellung](Dialog_creation/de.md) mit [PySide
 
 In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definiert. Obwohl dies für kleine Oberflächen möglich ist, wird für größere Oberflächen empfohlen, {{FileName|.ui}} Dateien mit Qt Designer zu erstellen und diese in das Programm zu laden. Siehe [Oberflächenerstellung mit UI Dateien](Interface_creation_with_UI_files.md).
 
-## Methode 1 {#methode_1}
+## Methode 1 
 
 Ein Beispiel für ein vollständiges Dialogfeld mit seinen Verbindungen.
 
@@ -274,7 +274,7 @@ Der Befehl **UserAppData** gibt den Installationspfad an **AppHomePath** gibt de
 self.pushButton.setLayoutDirection(QtCore.Qt.RightToLeft) # This command reverses the direction of the button
 ```
 
-## Methode 2 {#methode_2}
+## Methode 2 
 
 Eine andere Methode zur Anzeige eines Fensters, hier durch die Erstellung einer Datei **QtForm.py**, die das Kopfzeilenprogramm (Modul, das mit **import QtForm** aufgerufen wird) und ein zweites Modul enthält, das das Code Fenster, all dieses Zubehör und deinen Code (das aufrufende Modul) enthält.
 

@@ -11,7 +11,7 @@
 
 The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 In this example we will create Slab Reinforcement for Slab having Mesh of Straight Rebars (straight rebars in both parallel and cross direction ) as shown in below figure.
 
@@ -41,7 +41,7 @@ In this example we will create Slab Reinforcement for Slab having Mesh of Straig
 8\. Click **OK** or **Apply** or **Finish** to generate Slab reinforcement.
 9. Click **Cancel** to exit the dialog box.
 
-## Properties Used for Slab Spanning in One direction {#properties_used_for_slab_spanning_in_one_direction}
+## Properties Used for Slab Spanning in One direction 
 
 **Properties for Rebars in Parallel Direction to selected face:**
 
@@ -79,7 +79,7 @@ In this example we will create Slab Reinforcement for Slab having Mesh of Straig
 
 The Slab Reinforcement tool can be used from the [Python](Python.md) console by using the following function:
 
-### Create Slab Reinforcementof Slab Spanning having Straight Rebars Reinforcement {#create_slab_reinforcementof_slab_spanning_having_straight_rebars_reinforcement}
+### Create Slab Reinforcementof Slab Spanning having Straight Rebars Reinforcement 
 
 To create Slab reinforcement having Straight Rebars Reinforcement shown in above figures you can use makeSlabReinforcement function as follows:- 
 ```python
@@ -169,7 +169,7 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **facename**: selected face of structure. Default is None
 
-### Edition of Slab Reinforcement of Slab Spanning having Straight Rebars Reinforcement {#edition_of_slab_reinforcement_of_slab_spanning_having_straight_rebars_reinforcement}
+### Edition of Slab Reinforcement of Slab Spanning having Straight Rebars Reinforcement 
 
 You can change the properties of the Slab Reinforcement for Slab Spanning having Straight Rebars Reinforcement by using editSlabReinforcement function as follows
 

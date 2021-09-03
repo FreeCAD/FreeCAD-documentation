@@ -146,7 +146,7 @@ Ciò è molto utile per i test.
 
 Infine, non dimenticate che c\'è molta altra documentazione sull\'utilizzo dei wiget di Qt, nella sezione [Script Python](Power_users_hub/it.md), che contiene un [tutorial per creare dialoghi](Dialog_creation/it.md), e uno speciale [tutorial per PySide](PySide/it.md) in tre parti che copre ampiamente l\'argomento.
 
-## Link importanti {#link_importanti}
+## Link importanti 
 
 -   [Documentazione di Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator)
 -   [Installare Qt Creator](https://www.qt.io/ide/)

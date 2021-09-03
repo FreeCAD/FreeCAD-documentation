@@ -20,7 +20,7 @@ FreeCAD è una grande applicazione che può richiedere da 10 minuti a un\'ora pe
 
 Installare `ccache` per la costruzione cache
 
-### Disabilitare i moduli {#disabilitare_i_moduli}
+### Disabilitare i moduli 
 
 Quando si utilizza `cmake` per configurare la build, è possibile disabilitare la compilazione di alcuni ambienti che al momento potrebbero non essere necessari. Questo è utile se si vuole solo testare alcuni ambienti di lavoro.
 
@@ -33,7 +33,7 @@ cmake -DBUILD_FEM=OFF -DBUILD_MESH=OFF ../freecad-source
 
 Utilizzare `cmake-gui`, `cmake-curses-gui` o `cmake-qt-gui` per visualizzare tutte le possibili variabili che possono essere modificate nella configurazione; utilizzando queste interfacce è possibile attivare o disattivare facilmente diversi banchi di lavoro.
 
-### Numero di lavori in parallelo {#numero_di_lavori_in_parallelo}
+### Numero di lavori in parallelo 
 
 Dopo la configurazione fatta con `cmake`, il programma `make` avvia il compilatore C++ effettivo per lavorare sui file del codice sorgente. Si può velocizzare la compilazione lavorando su vari file contemporaneamente. Ciò si ottiene con l\'opzione `-j` di `make`, che indica il numero di \"lavori\" o comandi di compilazione eseguiti contemporaneamente. Questa opzione è un numero intero.
 

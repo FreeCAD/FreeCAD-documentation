@@ -14,7 +14,7 @@ Questa pagina contiene alcuni link ad altre risorse FLOSS che possono essere uti
 
 <div class="mw-translate-fuzzy">
 
-### Pagine specifiche di piattaforme relative a FreeCAD {#pagine_specifiche_di_piattaforme_relative_a_freecad}
+### Pagine specifiche di piattaforme relative a FreeCAD 
 
 
 </div>
@@ -40,7 +40,7 @@ Questa pagina contiene alcuni link ad altre risorse FLOSS che possono essere uti
 
 <div class="mw-translate-fuzzy">
 
-### Altri progetti CAD {#altri_progetti_cad}
+### Altri progetti CAD 
 
 
 </div>
@@ -62,7 +62,7 @@ Questa pagina contiene alcuni link ad altre risorse FLOSS che possono essere uti
 
 </div>
 
-## Advanced {#advanced_1}
+## Advanced 
 
 
 <div class="mw-translate-fuzzy">
@@ -95,7 +95,7 @@ Questa pagina contiene alcuni link ad altre risorse FLOSS che possono essere uti
 
 </div>
 
-## Other lists of FLOSS projects {#other_lists_of_floss_projects}
+## Other lists of FLOSS projects 
 
 
 <div class="mw-translate-fuzzy">
@@ -112,7 +112,7 @@ Altre liste curate di FLOSS:
 
 <div class="mw-translate-fuzzy">
 
-## Cose connesse a FreeCAD! {#cose_connesse_a_freecad}
+## Cose connesse a FreeCAD! 
 
 
 </div>

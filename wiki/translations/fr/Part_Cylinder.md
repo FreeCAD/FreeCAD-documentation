@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Description {#description_1}
+## Description 
 
 Crée un simple cylindre paramétrique, avec sa position, son angle de remplissage, son rayon et sa hauteur.
 
@@ -24,7 +24,7 @@ Crée un simple cylindre paramétrique, avec sa position, son angle de remplissa
 1.  Allez à l\'**<img src="images/Workbench_Part.svg" width=16px> [atelier Part](Part_Workbench/fr.md)**.
 2.  Lancez la commande Part Cône de plusieurs manières :
     -   Appuyez sur le bouton **<img src="images/Part_Cylinder.svg" width=16px> Créer un cylindre** dans la barre d\'outils.
-    -   Utilisez l\'entrée {{MenuCommand|Pièce → Primitives → <img src="images/Part_Cylinder.svg" width=16px> Cylindre}} dans le menu supérieur.
+    -   Utilisez l\'entrée **Pièce → Primitives → <img src="images/Part_Cylinder.svg" width=16px> Cylindre** dans le menu supérieur.
 
 **Résultat :** le résultat par défaut est un cylindre plein avec un rayon de 2 mm et une hauteur de 10 mm, centré le long de l\'axe z global et attaché au plan xy global.
 

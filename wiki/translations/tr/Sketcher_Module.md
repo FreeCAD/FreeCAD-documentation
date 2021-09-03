@@ -32,19 +32,19 @@ Eskiz tezgahı, 2D şekillerin kesin geometrik tanımları izlemesine izin veren
 *
 Tamamen kısıtlanmış bir eskiz*
 
-## Kısıtlı eskizin temelleri {#kısıtlı_eskizin_temelleri}
+## Kısıtlı eskizin temelleri 
 
 Eskizin nasıl çalıştığını anlamak için, onu \"geleneksel\" taslak ile karşılaştırmak faydalı olabilir.
 
-#### Geleneksel Taslak {#geleneksel_taslak}
+#### Geleneksel Taslak 
 
 CAD taslağının geleneksel yolu eski [çizim tahtasından](http://en.wikipedia.org/wiki/Drawing_board) miras kalmıştır. [Ortogonal (2D) görünümler](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) elle çizilir, teknik çizimler (aynı zamanda planlar olarak da bilinir) üretmek için tasarlanmıştır. Nesneler tam olarak istenen boyuta veya ölçülere çekilir. (0,0) \'dan başlayarak 100mm uzunluğunda yatay bir çizgi çizmek istiyorsanız, çizgi aracını etkinleştirin, ekrana tıklayın veya ilk nokta için (0,0) koordinatlarını girin, ardından ikinci bir tıklama yapın ikinci nokta koordinatlarını (100,0) girin. Veya çizginizi konumuna bakmadan çizer ve daha sonra hareket ettirirsiniz. Geometrilerinizi çizmeyi tamamladığınızda, onları ölçülendirirsiniz..
 
-#### Kısıtlı Eskiz {#kısıtlı_eskiz}
+#### Kısıtlı Eskiz 
 
 **Eskiz** bu mantıktan uzaktır. Nesnelerin tam olarak istediğiniz gibi çizilmesi gerekmez, çünkü bunlar daha sonra kısıtlamalar ile tanımlanacaktır. Nesneler gelişigüzel bir şekilde çizilebilir ve kısıtlanmadıkları sürece değiştirilebilir. \"Yüzer\" durumunda ve hareket ettirilebilir, gerilebilir, döndürülebilir, ölçeklendirilebilir vb. Bu, tasarım sürecinde büyük esneklik sağlar.
 
-#### Kısıtlama nedir {#kısıtlama_nedir}
+#### Kısıtlama nedir 
 
 Boyutlar yerine, kısıtlamalar bir nesnenin serbestlik derecesini sınırlamak için kullanılır. Örneğin, kısıtlamaları olmayan bir çizgi 4 [Serbestlik Derecesine](#Degrees_Of_Freedom.md) (\" DOF \" olarak kısaltılır) sahiptir: yatay ya da dikey olarak hareket ettirilebilir, uzatılabilir ve döndürülebilir.
 
@@ -60,7 +60,7 @@ Birden fazla nesne aralarında sınırlandırılabilir. İki çizgi, noktaları 
 
 İki tür kısıtlama vardır: geometrik ve boyutsal. Bunlar aşağıdaki [\'Araçlar\'](#The_tools.md) bölümünde ayrıntılı olarak açıklanmaktadır .
 
-#### Eskiz nerelerde kullanılmaz {#eskiz_nerelerde_kullanılmaz}
+#### Eskiz nerelerde kullanılmaz 
 
 Eskiz, 2D planlar üretmek için tasarlanmamıştır. Eskizler, katı bir özellik oluşturmak için kullanıldığında, otomatik olarak gizlenir. Kısıtlamalar yalnızca Eskiz düzenleme modunda görülebilir.
 
@@ -72,12 +72,12 @@ Eskiz, 2D planlar üretmek için tasarlanmamıştır. Eskizler, katı bir özell
 
 </div>
 
-## Sketching Workflow {#sketching_workflow}
+## Sketching Workflow 
 
 
 <div class="mw-translate-fuzzy">
 
-## Eskiz iş akışı {#eskiz_iş_akışı}
+## Eskiz iş akışı 
 
 Bir Eskiz her zaman 2 boyutludur (2D). Bir katı oluşturmak için, önce kapalı bir alandan oluşan 2D Eskiz\'i oluşturulur, daha sonra kalınlık ver veya Döndür komutlarıyla 3D boyut eklenir. Böylece 2D Eskiz\'den bir 3D katı oluşturulur.
 
@@ -184,7 +184,7 @@ Eskiz Tezgahı araçlarının tümü, Eskiz Tezgahını yüklediğinizde görün
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): when in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
-### Eskiz Geometrileri {#eskiz_geometrileri}
+### Eskiz Geometrileri 
 
 Bunlar nesne oluşturma araçlarıdır.
 
@@ -395,11 +395,11 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
-### Eskiz kısıtlamaları {#eskiz_kısıtlamaları}
+### Eskiz kısıtlamaları 
 
 Kısıtlamalar, uzunlukları tanımlamak, Eskiz öğeleri arasında kuralları belirlemek ve eskizleri dikey ve yatay eksenler boyunca kilitlemek için kullanılır. Bazı kısıtlamalar, [Yardımcı kısıtlamaların](Sketcher_helper_constraint.md) kullanılmasını gerektirir .
 
-#### Geometrik kısıtlamalar {#geometrik_kısıtlamalar}
+#### Geometrik kısıtlamalar 
 
 Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
@@ -483,7 +483,7 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
 </div>
 
-#### Boyutsal kısıtlamalar {#boyutsal_kısıtlamalar}
+#### Boyutsal kısıtlamalar 
 
 
 <div class="mw-translate-fuzzy">
@@ -526,7 +526,7 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
 </div>
 
-#### Special constraints {#special_constraints}
+#### Special constraints 
 
 
 <div class="mw-translate-fuzzy">
@@ -544,7 +544,7 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
 </div>
 
-#### Constraint tools {#constraint_tools}
+#### Constraint tools 
 
 The following tools can be used the change the effect of constraints:
 
@@ -558,7 +558,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/Deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
 
-### Eskiz araçları {#eskiz_araçları}
+### Eskiz araçları 
 
 
 <div class="mw-translate-fuzzy">
@@ -708,7 +708,7 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 </div>
 
-### Eskiz B-spline araçları {#eskiz_b_spline_araçları}
+### Eskiz B-spline araçları 
 
 
 <div class="mw-translate-fuzzy">
@@ -766,7 +766,7 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Düğüm çokluğunu azalt](Sketcher_BSplineDecreaseKnotMultiplicity/tr.md)
 
-### Eskiz sanal alanı {#eskiz_sanal_alanı}
+### Eskiz sanal alanı 
 
 
 <div class="mw-translate-fuzzy">

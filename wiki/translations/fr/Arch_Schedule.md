@@ -25,7 +25,7 @@ Pour une solution plus générale, consultez le [Reporting Workbench](https://gi
 3.  Ajuster les options désirées.
 4.  Cliquer **OK**.
 
-## Flux de travail {#flux_de_travail}
+## Flux de travail 
 
 D\'abord, vous devez avoir un modèle. Par exemple, voici un document avec plusieurs objets. Ici ce sont des objets Arch, mais ça n\'est pas obligatoire, ça peut être n\'importe quel objet.
 
@@ -93,9 +93,9 @@ En double-cliquant sur l\'objet Classeur, vous revenez au panneau des tâches et
 
 A partir du plan de travail Spreadsheet, la feuille de calcul peut ensuite être exportée normalement vers un fichier csv.
 
-## Propriétés dynamiques {#propriétés_dynamiques}
+## Propriétés dynamiques 
 
-Il est possible d\'ajouter vos propres propriétés aux objets. Celles-ci sont appelées [propriétés dynamiques](Property_editor/fr#Actions.md). Si elles ont été ajoutées avec l\'option {{MenuCommand|Prefix group name}} sélectionnée, leurs noms commenceront effectivement par le nom du groupe, mais ce préfixe ne sera pas affiché dans l\'[Éditeur de propriétés](Property_editor/fr.md). Leurs noms ont la forme suivante: `NameOfGroup_NameOfProperty`. Pour les référencer dans un calendrier, ce nom complet doit être utilisé.
+Il est possible d\'ajouter vos propres propriétés aux objets. Celles-ci sont appelées [propriétés dynamiques](Property_editor/fr#Actions.md). Si elles ont été ajoutées avec l\'option **Prefix group name** sélectionnée, leurs noms commenceront effectivement par le nom du groupe, mais ce préfixe ne sera pas affiché dans l\'[Éditeur de propriétés](Property_editor/fr.md). Leurs noms ont la forme suivante: `NameOfGroup_NameOfProperty`. Pour les référencer dans un calendrier, ce nom complet doit être utilisé.
 
 
 

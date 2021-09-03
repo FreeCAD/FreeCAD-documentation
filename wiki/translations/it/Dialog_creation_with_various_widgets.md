@@ -6,7 +6,7 @@ Questo è un esempio di [creazione di dialoghi](Dialog_creation/it.md) con [PySi
 
 In questo esempio, l\'intera interfaccia è definita in [Python](Python/it.md). Sebbene ciò sia possibile per interfacce di piccole dimensioni, per le interfacce più grandi si raccomanda di creare i file {{FileName|.ui}} tramite Qt Designer e caricarli nel programma. Vedere [Creazione di una interfaccia con dei file UI](Interface_creation_with_UI_files/it.md).
 
-## Method 1 {#method_1}
+## Method 1 
 
 An example of a dialog box complete with its connections.
 
@@ -274,7 +274,7 @@ The command **UserAppData** gives the user path **AppHomePath** gives the instal
 self.pushButton.setLayoutDirection(QtCore.Qt.RightToLeft) # This command reverses the direction of the button
 ```
 
-## Method 2 {#method_2}
+## Method 2 
 
 Another method to display a window, here by creating a file **QtForm.py** which contains the header program (module called with **import QtForm**), and a second module that contains the code window all these accessories, and your code (the calling module).
 

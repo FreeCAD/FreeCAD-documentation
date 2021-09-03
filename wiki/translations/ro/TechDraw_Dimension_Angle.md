@@ -22,7 +22,7 @@ The Dimension Angle tool adds a angular dimension to a View. The dimension may b
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați punctele sau muchiile care definesc măsurarea dvs.
 2.  Apăsați butonul **<img src="images/Dimension_Angle.png" width=24px> [Dimension Angle](TechDraw_Dimension_Angle.md)

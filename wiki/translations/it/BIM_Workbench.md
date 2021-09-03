@@ -31,7 +31,7 @@ Gli sviluppatori di Draft, Arch e BIM collaborano anche con la più ampia [comun
 
 <div class="mw-translate-fuzzy">
 
-Il workbench BIM non è in bundle con il pacchetto FreeCAD predefinito, ma può essere facilmente installato tramite il <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md). Richiamarlo da {{MenuCommand|Strumenti → [Addons Manager](Std_AddonMgr/it.md)}}. Il codice del workbench BIM è [ospitato e sviluppato su github](https://github.com/yorikvanhavre/BIM_Workbench) e può anche essere installato manualmente copiandolo nella directory {{FileName|MOD}} di FreeCAD.
+Il workbench BIM non è in bundle con il pacchetto FreeCAD predefinito, ma può essere facilmente installato tramite il <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md). Richiamarlo da **Strumenti → [Addons Manager](Std_AddonMgr/it.md)**. Il codice del workbench BIM è [ospitato e sviluppato su github](https://github.com/yorikvanhavre/BIM_Workbench) e può anche essere installato manualmente copiandolo nella directory {{FileName|MOD}} di FreeCAD.
 
 
 </div>
@@ -42,7 +42,7 @@ L\'ambiente BIM è un work in progress e cambierà spesso. Assicurarsi di aggior
 
 Se la propria versione di FreeCAD non è completamente aggiornata gli strumenti elencati di seguito potrebbero non essere tutti presenti. L\'ambiente BIM dovrebbe comunque funzionare perfettamente su tutte le versioni di FreeCAD, tranne che per gli strumenti non disponibili.
 
-## Per iniziare {#per_iniziare}
+## Per iniziare 
 
 <img alt="" src=images/BIM_welcome_screen.png  style="width:800px;">
 
@@ -94,7 +94,7 @@ Inoltre, se sono installati degli [addon](External_workbenches/it.md), gli strum
 
 L\'ambiente BIM aggiunge anche una serie di elementi nella **barra di stato** di FreeCAD e un paio di **voci nel menu contestuale**, accessibili facendo clic con il tasto destro nella vista 3D o nella vista ad albero .
 
-### Disegni 2D {#disegni_2d}
+### Disegni 2D 
 
 
 <div class="mw-translate-fuzzy">
@@ -143,7 +143,7 @@ Le annotazioni sono oggetti di aiuto visivo che possono essere inseriti all\'int
 
 </div>
 
-### Modellazione BIM/3D {#modellazione_bim3d}
+### Modellazione BIM/3D 
 
 Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progetto BIM.
 
@@ -195,7 +195,7 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 
 </div>
 
-### Strumenti di modifica {#strumenti_di_modifica}
+### Strumenti di modifica 
 
 
 <div class="mw-translate-fuzzy">
@@ -229,7 +229,7 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 
 </div>
 
-### Strumenti di gestione {#strumenti_di_gestione}
+### Strumenti di gestione 
 
 
 <div class="mw-translate-fuzzy">
@@ -250,14 +250,14 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 
 </div>
 
-## Tutorial e apprendimento {#tutorial_e_apprendimento}
+## Tutorial e apprendimento 
 
 -   [Tutorial Architettura e BIM in questo wiki](Tutorials/it#Architettura_e_BIM.md)
 -   [\"BIM with FreeCAD\" video series by Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD tutorials\" video series by Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" video series by Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
 
-## Ambienti aggiuntivi {#ambienti_aggiuntivi}
+## Ambienti aggiuntivi 
 
 Gli ambienti di lavoro per FreeCAD sono facilmente programmabili in [Python](Python/it.md), quindi ci sono molte persone che stanno sviluppando degli ambienti aggiuntivi al di fuori del codice di base di FreeCAD.
 

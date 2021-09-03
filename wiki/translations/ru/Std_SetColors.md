@@ -6,7 +6,7 @@
    SeeAlso:[Std Appearance](Std_SetAppearance.md)
 ---
 
-## Установить цвет поверхностей {#установить_цвет_поверхностей}
+## Установить цвет поверхностей 
 
 The **FaceColors** feature allows you to define a color for each face or surface of an object. This way you can assign multiple colors to one part. To color whole parts, use instead is the feature *[SetAppearance](Std_SetAppearance.md)*.
 

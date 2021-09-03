@@ -41,7 +41,7 @@ This command was originally intended for groups, hence its name, but was redesig
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un **<img src="images/Group.svg" width=16px> [Gruppo](Std_Group/it.md)**, o un **<img src="images/Group.svg" width=16px> [Gruppo costruzione](Draft_ToggleConstructionMode/it.md)**, o un **<img src="images/Draft_VisGroup.svg" width=16px> [VisGroup](Draft_VisGroup/it.md)** nella vista ad albero.
-2.  Premere il pulsante **<img src="images/Draft_AutoGroup_off.svg" width=16px> None**, o andare nel menu {{MenuCommand|Draft → Utilità → <img src="images/Draft_AutoGroup.svg" width=16px> [AutoGruppo](Draft_AutoGroup/it.md)}}. Se non è selezionato nessun gruppo, un menu a discesa mostra i gruppi idonei da usare, o \"None\".
+2.  Premere il pulsante **<img src="images/Draft_AutoGroup_off.svg" width=16px> None**, o andare nel menu **Draft → Utilità → <img src="images/Draft_AutoGroup.svg" width=16px> [AutoGruppo](Draft_AutoGroup/it.md)**. Se non è selezionato nessun gruppo, un menu a discesa mostra i gruppi idonei da usare, o \"None\".
 3.  Il pulsante cambia e appare il nome del gruppo automatico attivo, ad esempio, **<img src="images/Draft_AutoGroup_on.svg" width=16px> Gruppo**.
 
 
@@ -67,7 +67,7 @@ Note:
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   This command can optionally also handle groups: {{MenuCommand|Edit → Preferences... → Draft → General settings → General Draft Settings → Show groups in layers list drop-down button}}.
+-   This command can optionally also handle groups: **Edit → Preferences... → Draft → General settings → General Draft Settings → Show groups in layers list drop-down button**.
 
 ## Script
 

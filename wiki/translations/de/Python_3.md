@@ -14,7 +14,7 @@ Die Portierung von FreeCAD auf Python 3 ist derzeit im Gange und der Fortschritt
 
 Dieses Dokument ist ein Platzhalter für die Bauanleitung verschiedener Plattformen und eine Checkliste zur Überwachung der Fortschritte.
 
-## Bau FreeCAD m/ Python 3 {#bau_freecad_m_python_3}
+## Bau FreeCAD m/ Python 3 
 
 ### Ubuntu
 
@@ -57,7 +57,7 @@ PySide für Python3.5 ist nicht offiziell verfügbar, aber ich denke, ubuntu bie
 sudo apt-get install python3-pyside
 ```
 
-## Test Builds auf Anakonda (linux64) {#test_builds_auf_anakonda_linux64}
+## Test Builds auf Anakonda (linux64) 
 
 
 ```python
@@ -92,7 +92,7 @@ FreeCAD
 
 beim ersten Start von freecad lädt matplotlib einige Module, und deshalb braucht FreeCAD einige Zeit, um zu erscheinen.
 
-### Ersatz Installation {#ersatz_installation}
+### Ersatz Installation 
 
 #### Conda
 

@@ -16,7 +16,7 @@ FreeCAD are capacitatea uimitoare de a fi importabil ca modul python în alte pr
 
 <div class="mw-translate-fuzzy">
 
-### Utilizarea FreeCAD fără interfață grafică/GUI {#utilizarea_freecad_fără_interfață_graficăgui}
+### Utilizarea FreeCAD fără interfață grafică/GUI 
 
 
 </div>
@@ -134,7 +134,7 @@ checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the
 
 <div class="mw-translate-fuzzy">
 
-### Utilizarea FreeCAD cu interfață grafică(GUI) {#utilizarea_freecad_cu_interfață_graficăgui}
+### Utilizarea FreeCAD cu interfață grafică(GUI) 
 
 
 </div>

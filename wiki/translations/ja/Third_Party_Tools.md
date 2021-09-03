@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Tool Page {#tool_page}
+## Tool Page 
 
 
 <div class="mw-translate-fuzzy">
@@ -18,16 +18,16 @@
 
 </div>
 
-### Platform independent tools {#platform_independent_tools}
+### Platform independent tools 
 
-#### Qt-Toolkit {#qt_toolkit}
+#### Qt-Toolkit 
 
 
 <div class="mw-translate-fuzzy">
 
 ### プラットフォーム非依存のツール
 
-#### Qt-Toolkit {#qt_toolkit_1}
+#### Qt-Toolkit 
 
 Qtツールキットは、芸術、プラットフォーム非依存のユーザーインターフェイスデザインツールです。それは[LibPackのFreeCADの中に含まれていますが](Third_Party_Libraries.md)、[www.trolltech.com](http://www.trolltech.com)でもダウンロードすることができます。
 
@@ -39,7 +39,7 @@ Qtツールキットは、芸術、プラットフォーム非依存のユーザ
 
 <div class="mw-translate-fuzzy">
 
-#### InkScape {#inkscape_1}
+#### InkScape 
 
 偉大なベクトル描画のプログラムです。 SVG標準のAdhersは、アイコンと画像を描画するために使用されています。 [www.inkscape.org](http://www.inkscape.org)でそれを入手してください。
 
@@ -51,19 +51,19 @@ Qtツールキットは、芸術、プラットフォーム非依存のユーザ
 
 <div class="mw-translate-fuzzy">
 
-#### Doxygen {#doxygen_1}
+#### Doxygen 
 
 cppファイルと.hからソースドキュメントとを生成するために、非常に良好で、安定したツールです。
 
 
 </div>
 
-#### The Gimp {#the_gimp}
+#### The Gimp 
 
 
 <div class="mw-translate-fuzzy">
 
-#### The Gimp {#the_gimp_1}
+#### The Gimp 
 
 GNU画像処理プログラムについて言うことはあまりありません。さらに、QTのプログラムでアイコンを取り扱うのに便利な.xpmファイルを扱うことができます。 基本的に、XPMはプログラムにコンパイルすることができるCのコードです。
 
@@ -79,7 +79,7 @@ This is a proprietary git GUI that is very helpful to learn how git works if you
 -   [Gitkraken](Gitkraken.md)
 -   [Github](Github.md)
 
-#### OBS Studio {#obs_studio}
+#### OBS Studio 
 
 Free and open source software for video recording and live streaming. More details on official website : [obsproject.com](https://obsproject.com/)
 
@@ -92,11 +92,11 @@ Free and open source software for video recording and live streaming. More detai
 
 <div class="mw-translate-fuzzy">
 
-#### StarUML {#staruml_1}
+#### StarUML 
 
 A full featured Open Source UML programm. It has a lot of features of the big ones, including reverse engeniering C++ source code\....
 
-#### Tortoise SVN {#tortoise_svn}
+#### Tortoise SVN 
 
 これは非常に優れたツールです。これはSubversion（sf.net上の私たちのバージョン管理システム）を使用して、本当に喜んでいます。あなたはエクスプローラの集積化を行うことができ、簡単にリビジョンを管理し、diffで確認し、衝突を解決して、ブランチを作るなど...ができます。コミットダイアログ自体が芸術作品です。それはあなたの変更されたファイルの概要を与え、あなたがコミットまたはしないでそれらを置くことができます。それは簡単に論理ユニットへの変更をバンドルし、それらに明確なコミットメッセージを与えることになります。
 
@@ -109,12 +109,12 @@ Download here: [staruml.io](http://staruml.io)
 
 ### Windowsのツール
 
-#### Visual Studio Community {#visual_studio_community}
+#### Visual Studio Community 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Visual Studio 8 Express {#visual_studio_8_express}
+#### Visual Studio 8 Express 
 
 VC8はVisualStudio6(IMOの大きなステップバック)から、一歩も前進していないC++開発環境ですが、Windows上で無料の開発ツールです。ネイティブのWin32アプリケーションのために、PlatformSDKをMSからダウンロードする必要があります。
 
@@ -134,7 +134,7 @@ VC8はVisualStudio6(IMOの大きなステップバック)から、一歩も前�
 
 <div class="mw-translate-fuzzy">
 
-#### CamStudio {#camstudio_1}
+#### CamStudio 
 
 CAMSourceはスクリーンキャストを（Webキャスト）を記録するためのオープンソースのツールです。それらを記録することによって、チュートリアルを作成するその非常に優れたツールです。ドキュメントを書くことに退屈しません。
 
@@ -143,7 +143,7 @@ CAMSourceはスクリーンキャストを（Webキャスト）を記録する�
 
 詳細は\[camstudio.org [http://camstudio.org/\]を見てください](http://camstudio.org/%5Dを見てください)
 
-### Tools on Linux {#tools_on_linux}
+### Tools on Linux 
 
 TODO
 

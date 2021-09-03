@@ -20,7 +20,7 @@ La commande <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **D
 1.  En option, sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Downgrade.svg" width=16px> [Rétrograde les objets...](Draft_Downgrade/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → <img src="images/Draft_Downgrade.svg" width=16px> Rétrograder}} dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Downgrade.svg" width=16px> Rétrograder** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **N**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 

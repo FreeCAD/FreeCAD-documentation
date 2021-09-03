@@ -33,7 +33,7 @@ SetupSheets are particularly useful when saved with a [Job Template](Path_Export
 
 -    **StepDownExpression**: The result of this expression will be used to set the StepDown property of operations.
 
-## Operation Parameters {#operation_parameters}
+## Operation Parameters 
 
 The following are pulled from:
 
@@ -41,7 +41,7 @@ The following are pulled from:
 -   OpStartDepth - The value of the FinalDepth property
 -   OpToolDiameter - The value of the Tool Diameter property of the Tool Controller referenced by the operation.
 
-## SetupSheet Values {#setupsheet_values}
+## SetupSheet Values 
 
 Other values in the SetupSheet can be referenced directly:
 

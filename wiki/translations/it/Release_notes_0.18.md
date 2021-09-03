@@ -4,7 +4,7 @@ FreeCAD 0.18 è stato rilasciato il 12 marzo 2019, può essere scaricato dalla p
 
 Le note di rilascio delle precedenti versioni di FreeCAD sono disponibili nella pagina [Funzionalità di FreeCAD](Feature_list/it#Release_notes.md).
 
-## Punti salienti {#punti_salienti}
+## Punti salienti 
 
 Strumenti di [TechDraw](#Ambiente_TechDraw.md) estesi
 
@@ -27,24 +27,24 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 
 
 
-## Aspetti generali {#aspetti_generali}
+## Aspetti generali 
 
 -   Start center ridisegnato
--   L\'albero dei documenti (scheda Modello) offre ora 3 opzioni per la visualizzazione di tutti i documenti, con l\'opzione impostata dal menu {{MenuCommand|Visualizza → Struttura del documento}} :
+-   L\'albero dei documenti (scheda Modello) offre ora 3 opzioni per la visualizzazione di tutti i documenti, con l\'opzione impostata dal menu **Visualizza → Struttura del documento** :
     -   Documento singolo. Mostra solo il documento attualmente attivo.
     -   Multidocumento. Visualizza tutti i documenti come avveniva in passato fino a FreeCAD 0.17.
     -   Comprimi/Espandi. Espande il documento attivo e comprime tutti gli altri.
 -   Quando è attiva un\'azione che richiede l\'input dell\'utente, ora viene visualizzata un\'icona che mostra una matita nella scheda Azioni e scompare quando l\'attività è completata.
--   La vista 3D beneficia ora di un nuovo **[Cubo di navigazione](Navigation_Cube/it.md)** per orientare rapidamente la vista. Ha anche un piccolo menu per impostare la proiezione su ortografica o prospettica, nonché per adattare il contenuto alla vista. Il posizionamento del cubo di navigazione può essere impostato in {{MenuCommand|Preferenze → Visualizzazione → Vista 3D}} e può anche essere nascosto.
+-   La vista 3D beneficia ora di un nuovo **[Cubo di navigazione](Navigation_Cube/it.md)** per orientare rapidamente la vista. Ha anche un piccolo menu per impostare la proiezione su ortografica o prospettica, nonché per adattare il contenuto alla vista. Il posizionamento del cubo di navigazione può essere impostato in **Preferenze → Visualizzazione → Vista 3D** e può anche essere nascosto.
 -   È stato aggiunto il supporto generico per le unità di ingegneria civile e trasporti degli Stati Uniti. Queste unità includono ft, ft \^ 2, ft \^ 3, mph e angoli come gradi / minuti / secondi. Queste unità consentono l\'espressione dei piedi in forma decimale, al contrario di US Building, che forza le frazioni di pollici.
--   Ora è possibile specificare un\'immagine di sfondo personalizzata per la finestra principale di FreeCAD usando l\'opzione [{{MenuCommand|Preferenze → Generale → Abilita lo sfondo a mosaico}}](Preferences_Editor/it#Generale.md).
+-   Ora è possibile specificare un\'immagine di sfondo personalizzata per la finestra principale di FreeCAD usando l\'opzione [**Preferenze → Generale → Abilita lo sfondo a mosaico**](Preferences_Editor/it#Generale.md).
 
 <File:Start> center 0.18 screenshot.jpg\|thumb\|left\|Start center ridisegnato <File:FC018> Navigation Cube.png\|thumb\|left\|Il cubo di navigazione <File:FreeCAD> with background image.jpg\|thumb\|left\|FreeCAD con un\'immagine di sfondo personalizzata.
 
 
 
 
-## Ambiente Arch {#ambiente_arch}
+## Ambiente Arch 
 
 <img alt="Arch al lavoro" src=images/Arch_release018_example.jpg  style="width:700px;">
 
@@ -65,7 +65,7 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 
 -   Ma c\'è molto di più! Controllare in [Arch/BIM development reports](https://github.com/yorikvanhavre/BIM_Workbench/wiki) per vedere tutto ciò che è stato fatto in quest\'anno.
 
-## Ambiente Draft {#ambiente_draft}
+## Ambiente Draft 
 
 <img alt="Strumenti di annotazione di Draft più precisi" src=images/Draft_release018_example.jpg  style="width:700px;">.
 
@@ -80,11 +80,11 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 
 
 
-## Ambiente FEM {#ambiente_fem}
+## Ambiente FEM 
 
 <img alt="La finestra di dialogo materiale FEM ottimizzata" src=images/FEM-Material-dialog-018.png  style="width:300px;"> Nella versione 0.17 sono state aggiunte tonnellate di nuove funzionalità in FEM. Quindi l\'obiettivo principale per FEM nella Relese 0.18 di FreeCAD non è stato aggiungere ulteriori nuove funzionalità e strumenti, ma rendere quelli esistenti più stabili e correggere il maggior numero possibile di bug. FEM ha ricevuto 470 commit durante il ciclo di sviluppo di FreeCAD 0.18[1](https://forum.freecadweb.org/viewtopic.php?f=10&t=13154&p=297292#p297110).
 
-### Miglioramenti generali al codice base {#miglioramenti_generali_al_codice_base}
+### Miglioramenti generali al codice base 
 
 -   Tantissime correzioni di errori.
 -   Codice rivisto e ripulito. Eliminazione del codice duplicato.
@@ -105,25 +105,25 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 
 La gestione del materiale è stata migliorata. Ora è possibile utilizzare l\'editor globale del materiale di FreeCAD. Vedere anche [scheda materiale](Release_notes_0.18/it#Material_Handling.md). Per questo, il pannello Azioni del materiale FEM è stato ottimizzato.
 
-## Ambiente Part {#ambiente_part}
+## Ambiente Part 
 
 -   Lo strumento [Controlla geometria](Part_CheckGeometry/it.md) ora apre una finestra con una barra di avanzamento e un pulsante **Cancel** per terminare l\'attività se impiega troppo tempo.
 -   Il nuovo strumento [Defeaturing](Defeaturing_Workbench/it.md) si basa sullo strumento con lo stesso nome incluso in OCCT 7.3.0. Può rimuovere gli attributi selezionati su un solido come fori, sporgenze, spazi vuoti, smussi, raccordi, ecc. Per maggiori informazioni, vedere l\'articolo [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211) sul sito web di OCCT. Notare che se FreeCAD è basato su una versione precedente di OCCT 7.3.0, questo strumento non è disponibile ed è disattivato.
 
 -   Il nuovo strumento [SliceApart](Part_SliceApart/it.md) si basa su [Slice to Compound](Part_Slice/it.md) e include un\'esplosione automatica dei composti per separare facilmente gli oggetti.
 
-## Ambiente PartDesign {#ambiente_partdesign}
+## Ambiente PartDesign 
 
 -   Il nuovo strumento [Sistema di coordinate locale](PartDesign_CoordinateSystem/it.md) ora consente di aggiungere la visualizzazione del sistema di coordinate locale a diversi oggetti di riferimento.
 
-## Ambiente Path {#ambiente_path}
+## Ambiente Path 
 
-### Miglioramenti generali {#miglioramenti_generali}
+### Miglioramenti generali 
 
 -   Path ora può visualizzare correttamente il gcode con i termini ABC dell\'asse
 -   Miglioramenti all\'editor degli utensili: modifica semplificata per tipi di utensili selettivi
 
-### Miglioramenti delle lavorazioni {#miglioramenti_delle_lavorazioni}
+### Miglioramenti delle lavorazioni 
 
 -   Ora le lavorazioni possono avere più oggetti di base
 -   L\'organizzazione del contenitore delle lavorazioni è stata migliorata
@@ -138,12 +138,12 @@ La gestione del materiale è stata migliorata. Ora è possibile utilizzare l\'ed
 -   RampEntry dressup ora ha un punto di partenza configurabile
 -   L\'operazione PocketShape ora può \'usare il contorno\'
 
-### Post Processori {#post_processori}
+### Post Processori 
 
 -   grbl\_post -- argomento per sopprimere i comandi di cambio utensile
 -   grbl\_g81 post processor
 
-## Ambiente Sketcher {#ambiente_sketcher}
+## Ambiente Sketcher 
 
 <img alt="Demo di Vista in sezione di Sketcher" src=images/Sketch-clip-plane-demo.png  style="width:700px;">
 
@@ -152,10 +152,10 @@ La gestione del materiale è stata migliorata. Ora è possibile utilizzare l\'ed
 -   È stato aggiunto il nuovo strumento **[Vincolo Diametro](Sketcher_ConstrainDiameter/it.md)**
 -   **DoF Finder** è una nuova utilità per aiutare a trovare i gradi di libertà. Nel widget Messaggi del Solutore nel pannello Azioni, il messaggio tradizionale *Schizzo sottovincolato con x gradi di libertà* ora sottolinea in blu il testo *x gradi*. Cliccando su di esso si evidenziano in verde, nella vista 3D, gli elementi che non sono completamente vincolati.
 -   **Rimuovi automaticamente le ridondanze** è una nuova casella di controllo nella scheda Messaggi del Risolutore. Se abilitato, impedisce la creazione dei vincoli ridondanti quando l\'utente sta creando lo schizzo e applicando i vincoli ed elimina automaticamente i vincoli ridondanti.
--   C\'è un nuovo comando per eliminare tutti i vincoli contemporaneamente. Si trova nel menu {{MenuCommand|Schizzo → Strumenti → Elimina tutti i vincoli}}.
--   Nuova opzione in {{MenuCommand|Preferenze → Schizzo → Generale → Nascondi le unità di lunghezza di base per i sistemi di unità supportati}}. Ciò nasconde l\'unità per i vincoli dimensionali nella modalità di modifica dello schizzo.
--   Ora è possibile impostare la dimensione dei vertici (punti) in {{MenuCommand|Preferenze → Visualizzazione → Vista 3D → Dimensioni del marcatore}}.
--   Nuovo comando **[Sposta](Sketcher_Move/it.md)** per spostare tutta la geometria selezionata dall\'ultimo punto selezionato. Si trova nel menu a discesa {{MenuCommand|Schizzo → Strumenti → Sposta}}.
+-   C\'è un nuovo comando per eliminare tutti i vincoli contemporaneamente. Si trova nel menu **Schizzo → Strumenti → Elimina tutti i vincoli**.
+-   Nuova opzione in **Preferenze → Schizzo → Generale → Nascondi le unità di lunghezza di base per i sistemi di unità supportati**. Ciò nasconde l\'unità per i vincoli dimensionali nella modalità di modifica dello schizzo.
+-   Ora è possibile impostare la dimensione dei vertici (punti) in **Preferenze → Visualizzazione → Vista 3D → Dimensioni del marcatore**.
+-   Nuovo comando **[Sposta](Sketcher_Move/it.md)** per spostare tutta la geometria selezionata dall\'ultimo punto selezionato. Si trova nel menu a discesa **Schizzo → Strumenti → Sposta**.
 -   Aggiunta la casella di controllo *Denominazione estesa* al widget Elenco dei vincoli.
 
 Rilevanti Link del forum:
@@ -165,11 +165,11 @@ Rilevanti Link del forum:
 -   [Sketcher Auto Remove Redundants mode](https://forum.freecadweb.org/viewtopic.php?f=9&t=30594)
 -   [Constraints extended naming](https://forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 
-## Ambiente Spreadsheet {#ambiente_spreadsheet}
+## Ambiente Spreadsheet 
 
-## Ambiente Surface {#ambiente_surface}
+## Ambiente Surface 
 
-## Ambiente TechDraw {#ambiente_techdraw}
+## Ambiente TechDraw 
 
 TechDraw ha ricevuto numerose aggiunte e miglioramenti per v0.18.
 
@@ -188,13 +188,13 @@ TechDraw ha ricevuto numerose aggiunte e miglioramenti per v0.18.
 -   Zoom dalla tastiera (Ctl+/-)
 -   Supporto per dimensioni DMS (Decimal Measurement System - Sistema decimale di misura)
 
-## Manipolazione del materiale {#manipolazione_del_materiale}
+## Manipolazione del materiale 
 
 <img alt="Una schea materiale" src=images/Material-Card-018.png  style="width:300px;"> La gestione del materiale è stata migliorata. Ora è possibile creare delle **schede materiali** per ogni materiale. Le schede possono contenere tutte le informazioni, proprietà fisiche, specifiche architettoniche, collegamenti Web, commenti. ecc. Le schede sono file di testo con il suffisso {{FileName|.FCMat}} e possono essere utilizzate per tutti gli ambienti di FreeCAD.
 
 FreeCAD fornisce le schede materiali per metalli standard, materie plastiche e diversi tipi di acciaio.
 
-## Moduli aggiuntivi {#moduli_aggiuntivi}
+## Moduli aggiuntivi 
 
 Alcuni dei nuovi moduli della comunità che sono stati attivamente sviluppati durante il ciclo di sviluppo di 0.18.
 

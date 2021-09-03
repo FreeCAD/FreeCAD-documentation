@@ -33,7 +33,7 @@ Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneaux](Ar
 
 ## Propriétés
 
-### Propriétés {#propriétés_1}
+### Propriétés 
 
 -    {{PropertyData/fr|Source}}: L\'objet [Arch Panneaux](Arch_Panel/fr.md) affiche ses coupes.
 

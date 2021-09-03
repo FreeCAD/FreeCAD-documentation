@@ -50,7 +50,7 @@ i zastosuj **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wi
 
 ![](images/EqualConstraint9.png )
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Equal', Edge1, Edge2))```

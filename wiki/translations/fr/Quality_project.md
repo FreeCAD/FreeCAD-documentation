@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 C\'est le plan du projet, dans le cadre des ressources de FreeCAD, inscrit dans la feuille de [route de développement](Development_roadmap/fr.md).
 
-## But et principes {#but_et_principes}
+## But et principes 
 
 Ce projet, est une partie du logiciel de développement, et, de documentation du projet. Il vise, à améliorer la qualité des composants principaux de FreeCAD, et, offre une meilleure approche pour le premier contact avec FreeCAD.
 
@@ -34,7 +34,7 @@ Un autre résultat important, est un **système d\'aide complet**, pour toutes l
 
 ## Organisation
 
-## Actions suivantes {#actions_suivantes}
+## Actions suivantes 
 
 Travailler à travers toutes les commandes et établir une documentation :
 

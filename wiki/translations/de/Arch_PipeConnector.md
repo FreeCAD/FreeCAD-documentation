@@ -22,7 +22,7 @@ Dieses Werkzeug ermöglicht eine Eck- oder T-Stück Verbindung zwischen zwei ode
 
 -    **Radius**: Der Krümmungsradius dieses Verbinders
 
-## Typischer Arbeitsablauf {#typischer_arbeitsablauf}
+## Typischer Arbeitsablauf 
 
 Siehe die Information auf [Arch Rohr](Arch_Pipe/de.md) für den Arbeitsablauf zur Verwendung von Rohren und der Erstellung von Verbindungen.
 

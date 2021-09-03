@@ -9,9 +9,9 @@
 
 The FreeCAD <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Ship Workbench](Ship_Workbench.md) is used to create structures that are common to ships.
 
-## The Tools {#the_tools}
+## The Tools 
 
-### Ship Design {#ship_design}
+### Ship Design 
 
 -   <img alt="Ship geometries examples loader" src=images/Ship_Load.svg  style="width:32px;"> [Ship Geometries Examples Loader](Ship_Geometries_Examples.md)
 -   <img alt="Ship instance creation tool" src=images/Ship_Logo.svg  style="width:32px;"> [Ship instance creation](Ship_New.md)

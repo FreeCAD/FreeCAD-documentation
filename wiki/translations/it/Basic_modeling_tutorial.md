@@ -11,13 +11,13 @@
 
 In questa guida introduttiva alla modellazione si mostra come modellare un profilo angolare. Si deve sapere che FreeCAD è composto da diversi moduli di disegno, e come in molti altri software CAD, sovente ci sono più modi di fare le cose. Qui, esploreremo due metodi.
 
-## Prima di iniziare {#prima_di_iniziare}
+## Prima di iniziare 
 
 Ricordare che FreeCAD è ancora in fase di sviluppo, quindi potrebbe risultare meno efficace di altre applicazioni CAD, inoltre può capitare di scoprirne dei difetti o di subire dei blocchi dell\'applicazione. FreeCAD permette comunque di salvare file di backup. Il numero dei file di backup può essere stabilito nella finestra di dialogo delle preferenze accessibile con *Modifica -\> Preferenze -\> Documento*. Si consiglia di creare almeno 2 o 3 file di backup finché non si conosce bene FreeCAD.
 
 Salvare sovente il proprio lavoro, e di tanto in tanto salvarlo con un nome diverso, in modo da poter sempre recuperare una copia di \"sicurezza\"; inoltre, essere preparati alla possibilità che alcuni comandi possano dare risultati diversi da quelli attesi.
 
-## Introduzione alle tecniche di modellazione {#introduzione_alle_tecniche_di_modellazione}
+## Introduzione alle tecniche di modellazione 
 
 La prima tecnica di modellazione solida (quella di base) è la [Geometria Costruttiva dei Solidi (CSG)](http://es.wikipedia.org/wiki/Geometr%C3%ADa_constructiva_de_s%C3%B3lidos). Nel wiki c\'è anche una spiegazione dettagliata (nel contesto di FreeCAD) sulla [Geometria costruttiva dei solidi](Constructive_solid_geometry/it.md). Si lavora con le forme primitive, quali cubi, cilindri, sfere e coni, combinandole tra di loro per costruire la propria geometria, sottraendo una forma dall\'altra, o intersecandole. Questi strumenti sono disponibili nel [Modulo Parte](Part_Workbench/it.md). Inoltre è possibile applicare delle trasformazioni alle forme, come per esempio, dei raccordi o degli smussi sui bordi. Anche questi strumenti si trovano nel [Modulo Parte](Part_Workbench/it.md).
 
@@ -28,10 +28,10 @@ Qui iniziamo cercando di fare una barra di profilato angolare, adatto ad esempio
 
 <div class="mw-translate-fuzzy">
 
-## Primo Metodo - Geometria costruttiva dei solidi {#primo_metodo___geometria_costruttiva_dei_solidi}
+## Primo Metodo - Geometria costruttiva dei solidi 
 
 1.  Cominciare con il [Modulo Parte](Part_Workbench/it.md) ![](images/Switch_PartWorkbench.JPG ) (Menu **Visualizza -\> Ambiente -\> Parte**)
-2.  Se non c\'è un nuovo documento di FreeCAD aperto (la maggior parte della finestra di FreeCAD è grigia), dal menu a discesa fare clic su {{MenuCommand|File → Nuovo}} o fare clic sull\'icona <img alt="" src=images/Document-new.png  style="width:32px;"> **Crea un nuovo documento vuoto**.
+2.  Se non c\'è un nuovo documento di FreeCAD aperto (la maggior parte della finestra di FreeCAD è grigia), dal menu a discesa fare clic su **File → Nuovo** o fare clic sull\'icona <img alt="" src=images/Document-new.png  style="width:32px;"> **Crea un nuovo documento vuoto**.
 3.  Cliccare sul pulsante <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cubo](Part_Box/it.md) per creare un Cubo (Parallelepipedo)
 4.  Selezionarlo nello spazio 3D, o cliccare sull\'oggetto nella scheda *Progetto* a sinistra, poi, per modificare le sue dimensioni,
 5.  Fare clic sulla scheda *Dati* nella parte inferiore, e fissare i valori di lunghezza, larghezza e altezza a 50 mm, 50 mm e 750 mm. *(vedere fig. 1.1)* **Notare**: *quando sono state scattate queste immagini, le proprietà erano ordinate in modo diverso, con l\'altezza al primo posto*.
@@ -64,13 +64,13 @@ Infine, possiamo arrotondare gli spigoli dell\'angolare per renderlo più realis
 
 ![Fig. 1.6 Gli spigoli arrotondati](images/Tutorial-normand06.jpg )
 
-## Secondo metodo - Estrusione di un profilo {#secondo_metodo___estrusione_di_un_profilo}
+## Secondo metodo - Estrusione di un profilo 
 
 Con questo metodo si inizia disegnando un profilo 2D. È necessario attivare l\'ambiente di lavoro [Disegno 2D o Draft](Draft_Module/it.md) (menu **Visualizza -\> Ambiente -\> Draft**) ![](images/Switch_DraftWorkbench.JPG ).
 
 -   Se non c\'è un nuovo documento di FreeCAD aperto (la maggior parte della finestra FreeCAD è grigia), dal menu a discesa fare clic su File → Nuovo o fare clic sull\'icona <img alt="" src=images/Document-new.png  style="width:32px;"> **Crea un nuovo documento vuoto**.
 
-### Impostare il piano di lavoro {#impostare_il_piano_di_lavoro}
+### Impostare il piano di lavoro 
 
 Per prima cosa bisogna definire su quale [piano di lavoro](Draft_SelectPlane/it.md) si vuole disegnare il profilo.
 
@@ -82,7 +82,7 @@ Per prima cosa bisogna definire su quale [piano di lavoro](Draft_SelectPlane/it.
 4.  Lasciare il campo \'\' Offset \'\' al valore zero.
 5.  Premere il pulsante **XY** per impostare il piano di lavoro su XY. Questo chiude il pannello Azioni o i pulsanti espansi. Ora il pulsante \"Auto\" è contrassegnato come \"Top\" per mostrare che questo è il piano attivo.
 
-### Disegnare il profilo {#disegnare_il_profilo}
+### Disegnare il profilo 
 
 1.  Selezionare lo strumento <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [DWire (polilinea)](Draft_Wire/it.md).
 2.  Attivare le caselle \"Relativo\" e \"Pieno\".
@@ -105,9 +105,9 @@ Per prima cosa bisogna definire su quale [piano di lavoro](Draft_SelectPlane/it.
 
 Premere il tasto **0** (zero) sul tastierino numerico per impostare la vista assonometrica.
 
-### Estrudere il profilo {#estrudere_il_profilo}
+### Estrudere il profilo 
 
-Attivare l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Parte](Part_Workbench/it.md) dal [selettore dell\'ambiente](Std_Workbench/it.md), o dal menu {{MenuCommand|[Visualizza](Std_View_Menu.md) → Ambiente → Part}}.
+Attivare l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Parte](Part_Workbench/it.md) dal [selettore dell\'ambiente](Std_Workbench/it.md), o dal menu **[Visualizza](Std_View_Menu.md) → Ambiente → Part**.
 
 Cliccare sullo strumento **<img src="images/Part_Extrude.svg" width=32px> [Estrusione](Part_Extrude/it.md)**.
 
@@ -119,7 +119,7 @@ Questo secondo metodo richiede meno operazioni, ma è anche meno flessibile del 
 
 Ci sono ancora altri modi per ottenere lo stesso risultato! Ma spero che questi due esempi servano per iniziare ad usare FreeCAD. Nel corso dei lavori incontrerete certamente delle difficoltà (come è successo all\'autore di questa guida quando ha iniziato a usare FreeCAD, nonostante la sua esperienza con i CAD 3D), ma non esitate a fare domande nel [forum di FreeCAD](https://forum.freecadweb.org)!
 
-### Note sul pulsante di selezione del piano di Draft {#note_sul_pulsante_di_selezione_del_piano_di_draft}
+### Note sul pulsante di selezione del piano di Draft 
 
 L\'etichetta sul pulsante potrebbe essere diversa, secondo la versione e secondo cosa si stava facendo prima. L\'etichetta del pulsante può essere: \"Top\", \"Front\", \"Side\", \"None\" o rappresentare un Vettore tipo (0.0,0.0,1.0). Può anche essere vuota. Per esempio:
 

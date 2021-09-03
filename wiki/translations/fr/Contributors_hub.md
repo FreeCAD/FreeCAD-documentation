@@ -6,7 +6,7 @@ Si vous souhaitez contribuer à FreeCAD et utiliser votre énergie pour faire av
 
 Cette page est en construction, suivez l\'avancement de [ce post sur le forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=21533). Toute aide sera appréciée : révision, typographie, écriture. L'inspiration principale de cette page est [cette page de Fedora](https://fedoraproject.org/wiki/Join#People_Person).
 
-## Implication promotionnelle {#implication_promotionnelle}
+## Implication promotionnelle 
 
 Si vous souhaitez aider FreeCAD à progresser, l'un des moyens le plus simple est de promouvoir ce projet. FreeCAD a besoin d\'ambassadeurs pour toucher un public plus large. Vous pouvez simplement commencer à parler de FreeCAD avec vos proches et vos amis. Aussi, n\'hésitez pas à partager une [vidéo ou un tutoriel](https://forum.freecadweb.org/viewforum.php?f=36) sur les réseaux sociaux ou votre site web personnel. Vous pouvez ensuite expliquer la philosophie de ce logiciel libre et/ou démontrer les possibilités de ce système de CAO (conception assistée par ordinateur).
 
@@ -14,12 +14,12 @@ Si vous souhaitez vous impliquer davantage, vous pouvez tenir un stand ou créer
 
 Vous pouvez aussi aider les autres utilisateurs dans la [page d'assistance FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3) à appréhender le logiciel. Si vous souhaitez aider au marketing, par exemple en élaborant une stratégie, veuillez contacter les concepteurs du projet [via le forum](https://forum.freecadweb.org/viewforum.php?f=34).
 
-## Rédacteur de contenu {#rédacteur_de_contenu}
+## Rédacteur de contenu 
 
 ## Traducteur
 
 ## Designeur
 
-## Développeur FreeCAD {#développeur_freecad}
+## Développeur FreeCAD 
 
-## Développeur ou administrateur Web {#développeur_ou_administrateur_web}
+## Développeur ou administrateur Web 

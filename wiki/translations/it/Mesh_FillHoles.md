@@ -17,9 +17,9 @@ Il comando **Riempi i buchi** riempie i buchi negli oggetti mesh.
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più oggetti mesh.
-2.  Selezionare l\'opzione {{MenuCommand|Mesh → <img src="images/Mesh_FillupHoles.svg" width=16px> Riempi i buchi...}} dal menu.
-3.  Si apre la finestra di dialogo {{MenuCommand|Riempi buchi}}.
-4.  Specificare il valore {{MenuCommand|Riempi buchi con numero massimo di bordi}}.
+2.  Selezionare l\'opzione **Mesh → <img src="images/Mesh_FillupHoles.svg" width=16px> Riempi i buchi...** dal menu.
+3.  Si apre la finestra di dialogo **Riempi buchi**.
+4.  Specificare il valore **Riempi buchi con numero massimo di bordi**.
 5.  Premere il pulsante **OK** per chiudere la finestra di dialogo e terminare il comando.
 
 

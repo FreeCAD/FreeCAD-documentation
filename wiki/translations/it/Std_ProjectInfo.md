@@ -16,7 +16,7 @@ Il comando **Informazioni sul progetto** mostra una finestra di dialogo con le i
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare l\'opzione {{MenuCommand|File → Informazioni sul progetto...}} dal menu.
+1.  Selezionare l\'opzione **File → Informazioni sul progetto...** dal menu.
 2.  Viene visualizzata una finestra di dialogo con le seguenti informazioni:
     -   **Name**: Il nome del documento. **Non modificabile**. Corrisponde alla proprietà Label del documento che può essere modificata nell\'[editor delle proprietà](Property_editor/it.md).
     -   **Path**: Il percorso completo del file. Vuoto se il documento non è stato salvato. **Non modificabile**.

@@ -26,7 +26,7 @@ deriva da [Part Part2DObject](Part_Part2DObject/it.md), il che significa che è 
 
 1.  Passare all\'ambiente [Sketcher](Sketcher_Workbench/it.md).
 2.  Premere **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Nuovo schizzo](Sketcher_NewSketch/it.md)**.
-3.  Selezionare un {{MenuCommand|orientamento}}: piano XY, piano XZ o piano YZ. Opzionalmente scegliere anche {{MenuCommand|Direzione inversa}}, e assegnare un valore di {{MenuCommand|Offset}}.
+3.  Selezionare un **orientamento**: piano XY, piano XZ o piano YZ. Opzionalmente scegliere anche **Direzione inversa**, e assegnare un valore di **Offset**.
 4.  Premere **OK**.
 
 Sebbene SketchObject possa essere utilizzato da solo per disegnare su un piano, viene comunemente utilizzato insieme a [PartDesign](PartDesign_Workbench/it.md) per creare solidi estrusi.
@@ -38,7 +38,7 @@ Sebbene SketchObject possa essere utilizzato da solo per disegnare su un piano, 
 3.  Premere **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Crea uno schizzo](PartDesign_NewSketch/it.md)**.
 
 4.  
-    {{MenuCommand|Selezione della funzione}}: piano XY (piano base), piano XZ (piano base) o piano YZ (piano base).
+    **Selezione della funzione**: piano XY (piano base), piano XZ (piano base) o piano YZ (piano base).
 
 5.  Premere **OK**.
 
@@ -80,7 +80,7 @@ Oltre alle proprietà descritte in [Part Part2DObject](Part_Part2DObject/it.md),
 
 </div>
 
-#### Hidden properties Data {#hidden_properties_data}
+#### Hidden properties Data 
 
 See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden properties.
 
@@ -128,7 +128,7 @@ See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden propert
 
 </div>
 
-#### Hidden properties View {#hidden_properties_view}
+#### Hidden properties View 
 
 
 {{TitleProperty|Base}}

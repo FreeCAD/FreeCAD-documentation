@@ -15,7 +15,7 @@ La commande **Std Sélection par boîte** sélectionne des objets dans une zone 
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande :
-    -   Sélectionnez l\'option {{MenuCommand|Édition → <img src="images/Std_BoxSelection.svg" width=16px> Sélection par boîte}} dans le menu.
+    -   Sélectionnez l\'option **Édition → <img src="images/Std_BoxSelection.svg" width=16px> Sélection par boîte** dans le menu.
     -   Utilisez le raccourci clavier : **Maj**+**B**.
 2.  Effectuez l\'une des actions suivantes :
     -   Faites glisser un rectangle de gauche à droite pour sélectionner des objets dont le centre géométrique se trouve à l\'intérieur du rectangle.

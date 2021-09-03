@@ -6,11 +6,11 @@
 
 {{TOCright}}
 
-## Test First {#test_first}
+## Test First 
 
 Before you go through the pain of debugging use the [Test framework](Testing.md) to check if the standard tests work properly. If they do not run complete there is possibly a broken installation.
 
-## Command Line {#command_line}
+## Command Line 
 
 The *debugging* of FreeCAD is supported by a few internal mechanisms. The command line version of FreeCAD provides some options for debugging support.
 
@@ -40,11 +40,11 @@ Configuration:
  -P [ --python-path ] arg  Additional Python paths
  --single-instance         Allow to run a single instance of the application
 
-## Generating a Backtrace {#generating_a_backtrace}
+## Generating a Backtrace 
 
 If you are running a version of FreeCAD from the bleeding edge of the development curve, it may \"crash\". You can help solve such problems by providing the developers with a \"backtrace\". To do this, you need to be running a \"debug build\" of the software. \"Debug build\" is a parameter that is set at compile time, so you\'ll either need to compile FreeCAD yourself, or obtain a pre-compiled \"debug\" version.
 
-### Za Linux {#za_linux}
+### Za Linux 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -103,7 +103,7 @@ Print the values of the local variables also. This can be combined with a number
 
 </div>
 
-### For macOS {#for_macos}
+### For macOS 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -149,7 +149,7 @@ This will generate a lengthy listing of exactly what the program was doing when 
 
 </div>
 
-## List Libraries Loaded by FreeCAD {#list_libraries_loaded_by_freecad}
+## List Libraries Loaded by FreeCAD 
 
 (Applicable to Linux and macOS)
 
@@ -168,7 +168,7 @@ This prints a long list of loaded resources. So for example, if trying to ascert
 
 `lsof -p process_id &#124; grep Coin`
 
-## Python Debugging {#python_debugging}
+## Python Debugging 
 
 For a more modern approach to debugging Python, see these posts:
 
@@ -233,7 +233,7 @@ Draft.makeWire(points,closed=False,face=False,support=None)
 
 </div>
 
-### Visual Studio Code (VS Code) {#visual_studio_code_vs_code}
+### Visual Studio Code (VS Code) 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -269,7 +269,7 @@ ptvsd.enable_attach(address=('localhost', 5678), redirect_output=True)
 ptvsd.wait_for_attach()
 ```
 
--   Add a debug configuration in Visual Studio Code {{MenuCommand|Debug → Add Configurations…}}. It should looks like this :
+-   Add a debug configuration in Visual Studio Code **Debug → Add Configurations…**. It should looks like this :
 
 
 
@@ -322,7 +322,7 @@ print(sys.executable)
 
 </div>
 
-## Debugging OpenCasCade {#debugging_opencascade}
+## Debugging OpenCasCade 
 
 For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdullah has created a [thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=47017) orientation discussing how to do so.
 

@@ -73,7 +73,7 @@ Le bouton **Commutateur L/H** peut être utilisé pour donner les valeurs de la 
 <img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
 *Quelques préréglages pour les structures préfabriquées en béton*
 
-## Structure des nœuds {#structure_des_nœuds}
+## Structure des nœuds 
 
 L\'objet structurel a également la possibilité d\'afficher les nœuds structurels. les nœuds structurels sont une séquence de points 3D stockés dans la propriété \"nœuds\". Dans propriété \"Afficher les nœuds\" sélectionnez on/off, on peut voir les nœuds structurels d\'un élément de structure :
 

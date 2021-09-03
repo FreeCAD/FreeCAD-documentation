@@ -12,7 +12,7 @@ The **Std SelectAll** command selects all objects in the [Tree view](Tree_view.m
 
 ## Usage
 
-1.  Select the {{MenuCommand|Edit → <img src="images/Std_SelectAll.svg" width=16px> Select All}} option from the menu.
+1.  Select the **Edit → <img src="images/Std_SelectAll.svg" width=16px> Select All** option from the menu.
 
 ## Notes
 

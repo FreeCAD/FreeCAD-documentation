@@ -20,7 +20,7 @@ Bu araç, [Yakalama](Draft_Snap/tr.md) yöntemlerini genel olarak etkinleştirme
 
 </div>
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 For general information about snapping see [Draft Snap](Draft_Snap.md).
 

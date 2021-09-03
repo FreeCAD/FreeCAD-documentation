@@ -29,7 +29,7 @@ Lo strumento materiale permette di aggiungere dei [materiali](Material/it.md) al
 2.  Richiamare il comando in uno di questi modi:
     -   Premere il pulsante **<img src="images/Arch_SetMaterial.svg" width=16px> [Imposta materiale](Arch_SetMaterial/it.md)** nella barra degli strumenti.
     -   Usare la scorciatoia **M** e poi **T** da tastiera.
-    -   Usare il comando {{MenuCommand|Arch → Strumenti materiali → Materiale}} dal menu principale.
+    -   Usare il comando **Arch → Strumenti materiali → Materiale** dal menu principale.
 3.  Caricare un materiale predefinito, o crearne uno nuovo riempiendo i campi.
 4.  Premere **OK**.
 
@@ -55,7 +55,7 @@ Lo strumento materiale permette di aggiungere dei [materiali](Material/it.md) al
 
 </div>
 
-## Relazione con IFC {#relazione_con_ifc}
+## Relazione con IFC 
 
 Questo corrisponde approssimativamente a [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 

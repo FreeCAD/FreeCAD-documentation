@@ -51,7 +51,7 @@ Her şeyden önce, FreeCAD\'i indirin ve kurun. Güncel sürüm ve güncellemele
 
 <div class="mw-translate-fuzzy">
 
-## FreeCAD\'i Keşfedin {#freecadi_keşfedin}
+## FreeCAD\'i Keşfedin 
 
 
 </div>
@@ -113,7 +113,7 @@ Başlangıç Merkezi ile yaygın olarak kullanılan tezgahları kolayca seçebil
 
 </div>
 
-## 3D alanında gezinme {#d_alanında_gezinme}
+## 3D alanında gezinme 
 
 
 <div class="mw-translate-fuzzy">
@@ -146,7 +146,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 Ayrıca Görünüm menüsünde, Görünüm araç çubuğunda ve sayı kısayol tuşlarıyla (**1**, **2**, vb\...). kullanılabilen ön tanımlı(üstten görünüm, önden görünüm vb.) görünümleri kullanabilirsiniz. Bir nesne üzerinde veya 3D görünümde boş alanda sağ tıklayarak, özel görünüm seçebilir veya Ağaç görünümünde bir nesnenin yerini bulma gibi bazı genel işlemlere hızlı bir şekilde ulaşabilirsiniz.
 
-## FreeCAD\'le İlk Adımlar {#freecadle_ilk_adımlar}
+## FreeCAD\'le İlk Adımlar 
 
 FreeCAD\'in odak noktası, yüksek hassasiyete sahip 3D modeller yapmanız, bu modellerin üzerinde sıkı bir kontrole sahip olmanız (modelleme geçmişine geri dönebilme ve parametreleri değiştirebilme) ve sonuç olarak bu modelleri (3D baskı alma, CNC ile işleme ve hatta inşaat şantiyesinde kullanım) yapmanızdır. Bu nedenle, animasyon filmi veya oyun gibi başka amaçlar için yapılmış diğer 3D uygulamalardan çok farklıdır. İlk defa 3D modelleme yapmaya başlıyorsanız, programı kullanmayı öğrenmek biraz karmaşık gelebilir. Kafanız karıştığında veya zorlandığınızda, unutmayın, zaman kaybetmeden dostça karşılanacağınız kullanıcı topluluğundan oluşan [FreeCAD forum\'dan](http://forum.freecadweb.org/index.php) yardım isteyebilirsiniz.
 
@@ -166,7 +166,7 @@ FreeCAD\'de kullanmaya başlayacağınız çalışma tezgahı, yapacağınız i�
 
 </div>
 
-## Parça Dizaynı ve Eskiz tezgahlarıyla çalışma {#parça_dizaynı_ve_eskiz_tezgahlarıyla_çalışma}
+## Parça Dizaynı ve Eskiz tezgahlarıyla çalışma 
 
 
 <div class="mw-translate-fuzzy">
@@ -202,7 +202,7 @@ Yapılan işlemler sonucunda elde edilen nesne şuna benzer:
 
 İstediğiniz zaman, özgün eskizi seçerek ve yeniden şekillendirerek, kalınlık veya cep işlem parametrelerini değiştirerek, istenen nesneyi elde edilebilirsiniz.
 
-## Taslak ve Yapı tezgahlarıyla çalışma {#taslak_ve_yapı_tezgahlarıyla_çalışma}
+## Taslak ve Yapı tezgahlarıyla çalışma 
 
 
 <div class="mw-translate-fuzzy">

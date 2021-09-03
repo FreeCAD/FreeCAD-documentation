@@ -15,7 +15,7 @@ La commande **Std Vue dimétrique** réaligne la caméra dans la [vue 3D](3D_vie
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → Vues standards → Axonometric → <img src="images/Std_ViewDimetric.svg" width=16px> Dimétrique}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → Vues standards → Axonometric → <img src="images/Std_ViewDimetric.svg" width=16px> Dimétrique** dans le menu.
 
 ## Script
 

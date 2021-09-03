@@ -27,9 +27,9 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/f
 1.  Sélectionnez éventuellement un objet ou un sous-élément (sommet, arête ou face) dont vous souhaitez afficher les attributs.
 2.  Il existe plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le **<img src="images/Draft_Label.svg" width=16px> [Créer une étiquette...](Draft_Label/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Annotation → <img src="images/Draft_Label.svg" width=16px> Étiquette}} dans le menu.
+    -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Label.svg" width=16px> Étiquette** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **L**.
-3.  Le panneau de tâches {{MenuCommand|Label}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+3.  Le panneau de tâches **Label** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous avez sélectionné un élément : sélectionnez une option dans la liste déroulante {{PropertyData/fr|Label Type}}. Des types d\'étiquettes supplémentaires peuvent être définis en modifiant ultérieurement les **Label Type**. Voir [Types d\'étiquettes](#Label_types.md) ci-dessous.
 5.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**. Ce point indique la cible (tête de flèche). Il peut se trouver n\'importe où, il n\'est pas nécessaire qu\'il soit sur un élément.
 6.  Choisissez le deuxième point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**. Ce point indique le début du segment horizontal ou vertical de l\'amorce.
@@ -40,8 +40,8 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/f
 Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
 
 -   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Ou bien vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur **R** ou cliquez sur la case {{MenuCommand|Relative}} pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyez sur **G** ou cliquez sur la case {{MenuCommand|Global}} pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 
@@ -84,7 +84,7 @@ Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    {{PropertyData/fr|Target Point|Vector}}: spécifie la position de la pointe de l\'amorce, qui est l\'endroit où la flèche est attachée.
 
-#### Types d\'étiquettes {#types_détiquettes}
+#### Types d\'étiquettes 
 
 -    {{Value|Custom}}: affiche le contenu de {{PropertyData/fr|Custom Text}}.
 

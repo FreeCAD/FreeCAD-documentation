@@ -14,7 +14,7 @@ Si quieres contribuir a escribir documentación y tutoriales del wiki, consulta 
 
 Tenga en cuenta la versión de FreeCAD utilizada en el tutorial, ya que algunos tutoriales pueden utilizar una versión antigua del programa. Aunque el proceso de modelado general puede seguir funcionando, algunas herramientas pueden haber cambiado.
 
-## Arquitectura y BIM {#arquitectura_y_bim}
+## Arquitectura y BIM 
 
 <File:Arch> tutorial 00.jpg\|link=[Arch tutorial](Arch_tutorial.md)\|[Arch tutorial](Arch_tutorial.md) (v0.14)
 Esta es la introducción esencial al Ambiente de trabajo Arquitectura. Es extensa y muestra un flujo de trabajo típico, desde la importación de planos en formato DXF hasta la construcción del modelo 3D. <File:Exercise> arch 01.jpg\|link=[Manual:BIM\_modeling](Manual:BIM_modeling.md)\|[BIM modeling](Manual:BIM_modeling.md)
@@ -24,7 +24,7 @@ Cómo dibujar puertas y ventanas personalizadas usando el Sketcher, y ajustar su
 Modelando un panel de techo de microcasa utilizando el Sketcher, la herramienta Ventana y la herramienta Panel. <File:Arch_Wikihouse_01.jpg%7Clink=>[Tutorial de adaptación de la Wikihouse](Tutorial_de_adaptación_de_la_Wikihouse.md)\|[Modelado de la WikiHouse](Wikihouse_porting_tutorial/es.md)
 Remodelación del proyecto WikiHouse utilizando bocetos y paneles, partiendo de la importación de un modelo de malla creado en SketchUp.
 
-## Modelado Piezas {#modelado_piezas}
+## Modelado Piezas 
 
 FreeCAD provides two main workflows to modeling parts:
 
@@ -52,7 +52,7 @@ The Raspberry Pi project has made simple tutorials that are easy to follow, part
 -   [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), model and entire chess set in Bauhaus modernist style.
 -   [raspberrypilearning](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) repository (CC-BY 4.0) with other examples.
 
-## Drafting and Sketching {#drafting_and_sketching}
+## Drafting and Sketching 
 
 Exercise cabin 01.jpg\|link=[Manual:Traditional 2D drafting](Manual:Traditional_2D_drafting.md)\|[Traditional 2D drafting](Manual:Traditional_2D_drafting.md)
 Draw a floor plan with lines, wires, rectangles, circular arcs, and add hatch patterns, annotations, and dimensions. Export the result to DXF. 00\_Dr01\_Draft\_Tutorial\_final.png\|link=[Draft\_tutorial](Draft_tutorial.md)\|[Draft tutorial](Draft_tutorial.md) (v0.19)
@@ -61,7 +61,7 @@ This is a 70-page long PDF document that serves as a detailed manual for the [Sk
 This is a basic introduction to the tools of the Sketcher Workbench: construction mode, line, circle, arc, constraints (equality, vertical, horizontal, tangential, distance, angle, radius). 03d\_Sk02\_Sketcher\_Rectangle\_constrained\_length.png\|link=[Sketcher\_Micro\_Tutorial\_-\_Constraint\_Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)\|[Sketcher constraints practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md) (v0.19)
 Learn to efficiently constrain a sketch. Prefer geometric constraints over datum constraints.
 
-## Dibujos Técnico {#dibujos_técnico}
+## Dibujos Técnico 
 
 TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md)\|[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md) (v0.17)
 This is the essential introduction to the tools of the TechDraw Workbench: page, view, scale, vertical and horizontal dimensions, annotations, projection groups, linking dimensions to the 3D view. <File:FCTemplateHow.png%7Clink=>[TechDraw\_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[Creating a new background template](TechDraw_TemplateHowTo.md) (v0.17)
@@ -77,13 +77,13 @@ Study the deformation of a block made of a hard nucleus surrounded by a softer m
 Estimate the level of reinforcement required in a concrete structure to prevent brittle failure under tension or shear. FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
 This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.
 
-## CNC e impresión 3D {#cnc_e_impresión_3d}
+## CNC e impresión 3D 
 
 Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md)\|[Path Workbench for the impatient](Path_Walkthrough_for_the_Impatient.md)
 This is a quick presentation of the workflow for the Path Workbench: create a job, define the output, define the milling tool, define the path operations, start the simulation, and generate a G-code output file. Exercise meshing 03.jpg\|link=[Manual:Preparing models for 3D printing](Manual:Preparing_models_for_3D_printing.md)\|[Preparing models for 3D printing](Manual:Preparing_models_for_3D_printing.md) (v0.16)
 Convert a solid object to a mesh object using the Mesh Workbench, export the mesh to STL format, and use Slic3r to prepare the G-code. Alternatively use the Cura Workbench or the Path Workbench to generate the G-code.
 
-## Importar y Exportar {#importar_y_exportar}
+## Importar y Exportar 
 
 Dxf Importer Install 11.png\|link=[Dxf Importer Install](Dxf_Importer_Install.md)\|[DXF importer installation](Dxf_Importer_Install.md)
 Install the DXF importer program in you system, so that you can open DXF and DWG files with FreeCAD.
@@ -99,7 +99,7 @@ Export bodies from FreeCAD to Wavefront .obj, import the file into Blender, set 
 
 <div class="mw-translate-fuzzy">
 
-## Entorno de trabajo de Robot {#entorno_de_trabajo_de_robot}
+## Entorno de trabajo de Robot 
 
 
 </div>
@@ -130,7 +130,7 @@ Drawing\_tutorial\_result.png\|link=[Drawing tutorial](Drawing_tutorial.md)\|[Dr
 This is the essential introduction to the tools of the Drawing Workbench to create blueprints. Exercise drawing 01.jpg\|link=[Manual:Generating 2D drawings](Manual:Generating_2D_drawings.md)\|[Generating 2D drawings](Manual:Generating_2D_drawings.md) (v0.16)
 Generate 2D projections of your 3D models, and add dimensions.
 
-## Tutoriales - Lista completa {#tutoriales___lista_completa}
+## Tutoriales - Lista completa 
 
 Aquí están listados todos los tutoriales que no están en el manual **independientemente de su calidad**\'. Si un tutorial está listado en la [:Category:Tutorials](:Category:Tutorials.md) y no en esta tabla, por favor insértelo.
 

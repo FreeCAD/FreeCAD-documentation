@@ -24,7 +24,7 @@ Wähle das Skizzenelement im [Aufgabenbereich](Task_panel/de.md) oder in der [3D
 
 Schaltfläche.
 
-\#\* Wähle {{MenuCommand|Skizze → Skizzierwerkzeuge → <img src=images/Sketcher_SelectConstraints.svg style="width:16px"> Wähle Beschränkungen}} aus dem Skizzenmenü.
+\#\* Wähle **Skizze → Skizzierwerkzeuge → <img src=images/Sketcher_SelectConstraints.svg style="width:16px"> Wähle Beschränkungen** aus dem Skizzenmenü.
 
 \#\* Verwende die **Umschalt**+**Strg**+**C** Tastaturkürzel
 

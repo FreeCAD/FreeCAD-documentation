@@ -40,7 +40,7 @@ Le résultat de l\'outil est très similaire à <img alt="" src=images/Part_Bool
     L\'ordre de sélection est important. Les composés avec auto-intersections ne sont pas autorisés (les auto-intersections peuvent parfois être prises en compte en passant le composé à travers <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Part Fragments booléens](Part_BooleanFragments/fr.md))
 2.  Appelez la commande Part Scinder de plusieurs manières :
     -   Appuyez sur le bouton <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Trancher vers composé](Part_Slice/fr.md) dans la barre d\'outils Part
-    -   Utilisez l\'entrée {{MenuCommand|Pièce → Scinder → Slice to compound}} dans le menu Part
+    -   Utilisez l\'entrée **Pièce → Scinder → Slice to compound** dans le menu Part
 
 
 
@@ -49,7 +49,7 @@ Le résultat de l\'outil est très similaire à <img alt="" src=images/Part_Bool
 
 Un objet paramétrique Slice est créé. Les objets d\'origine sont cachés et le résultat de l\'intersection est affiché dans la [vue 3D](3D_view/fr.md).
 
-### Arborescence de Scinder {#arborescence_de_scinder}
+### Arborescence de Scinder 
 
 La commande Scinder crée un objet tranché. Dans l\'exemple suivant, un cube est découpé en tranches par une face.
 
@@ -74,7 +74,7 @@ Le tranchage est créé et chaque morceau est uni dans un composé.
 
 ## Exemple
 
-### Créer un puzzle {#créer_un_puzzle}
+### Créer un puzzle 
 
 
 <div class="mw-translate-fuzzy">
@@ -85,7 +85,7 @@ Le tranchage est créé et chaque morceau est uni dans un composé.
     -   Fermez l\'esquisse.
         ![320px](images/slice_example_step1.png)
 2.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
-    -   Sélectionnez l\'esquisse et choisissez {{MenuCommand|Pièce → Créer une face à partir de fils}} .
+    -   Sélectionnez l\'esquisse et choisissez **Pièce → Créer une face à partir de fils** .
         ![320px](images/slice_example_step2.png)
 3.  Revenez à l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md)
     -   Créez une autre esquisse sur le même plan.

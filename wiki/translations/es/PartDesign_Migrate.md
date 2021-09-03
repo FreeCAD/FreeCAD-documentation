@@ -23,7 +23,7 @@ El ambiente de trabajo de DiseñoPiezas en FreeCAD v0.17 introduce nuevas herram
 
 ## Limitaciones
 
--   Antes de iniciar el proceso de migración, compruebe si el modelo se construyó con las opciones de refinamiento automático activadas (en {{MenuCommand|Edición → Preferencias → Diseño Piezas → General}}), y configure sus preferencias en consecuencia. Esto puede determinarse fácilmente alternando sucesivamente la visibilidad de las características en el árbol del modelo. Si no quedan aristas residuales entre características como Almohadillas y Bolsillos, las opciones de refinamiento automático se desactivaron.
+-   Antes de iniciar el proceso de migración, compruebe si el modelo se construyó con las opciones de refinamiento automático activadas (en **Edición → Preferencias → Diseño Piezas → General**), y configure sus preferencias en consecuencia. Esto puede determinarse fácilmente alternando sucesivamente la visibilidad de las características en el árbol del modelo. Si no quedan aristas residuales entre características como Almohadillas y Bolsillos, las opciones de refinamiento automático se desactivaron.
 -   Si un documento que se va a migrar sólo contiene croquis y operaciones de DiseñoPieza , es probable que el proceso de migración tenga éxito. Algunas operaciones, como los chaflanes y los filetes, pueden requerir una reconstrucción.
 -   Si el documento a migrar tiene un flujo de trabajo mixto Pieza/Diseño de Pieza/Borrador, lo más probable es que la conversión falle o, en el mejor de los casos, produzca resultados inesperados, y sea necesario migrarlo manualmente.
 

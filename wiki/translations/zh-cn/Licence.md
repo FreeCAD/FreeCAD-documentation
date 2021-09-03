@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## FreeCAD 中使用的许可证 {#freecad_中使用的许可证}
+## FreeCAD 中使用的许可证 
 
 FreeCAD有两种不同的许可, 一个用于应用程序本身, 另一个用于文档：
 

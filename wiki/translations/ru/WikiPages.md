@@ -2,7 +2,7 @@
 
 This page is an extension of the [Help:Editing](Help:Editing.md) page and gives common guidelines for writing and updating the FreeCAD wiki documentation. It summarizes several discussions and brainstorming sessions
 
-## Прежде чем начать {#прежде_чем_начать}
+## Прежде чем начать 
 
 
 <div class="mw-translate-fuzzy">
@@ -18,9 +18,9 @@ This page is an extension of the [Help:Editing](Help:Editing.md) page and gives 
 
 </div>
 
-## Общие рекомендации {#общие_рекомендации}
+## Общие рекомендации 
 
-### Краткие описания {#краткие_описания}
+### Краткие описания 
 
 При описании FreeCAD старайтесь быть краткими, избегать повторений и излагать свои мысли по существу. Опишите, то что FreeCAD \"может сделать\", а не то, что он \"не может\". Также избегайте разговорных выражений, таких напримаер как \"пара\",\"около того\",\"вроде\". Когда имеете дело с неопределенным числом, пишите \"некоторое значение\" или укажите корректное количество.
 
@@ -34,7 +34,7 @@ This page is an extension of the [Help:Editing](Help:Editing.md) page and gives 
 Пример хорошего описания
 :   [Верстак PartDesign](PartDesign_Workbench/ru.md): предоставляет инструменты для проектирования сложных твердых тел.
 
-### Централизованная информация {#централизованная_информация}
+### Централизованная информация 
 
 Избегайте дублирования одной и той же информации в разных местах. Вставьте информацию на новую страницу и добавьте ссылку на эту страницу с других страниц, которым требуется эта информация.
 
@@ -42,13 +42,13 @@ Do not use transclusion of pages ([Help:Editing\#Templates and transcluding page
 
 ### Стиллизирование
 
-Templates are used to style the help pages. They give the documentation a consistent look and feel. There is a template for menu commands, {{MenuCommand|File → Save}}, a template to style keys to be pressed, **Shift**, to show a Boolean value, `True`, etc. Please get familiar with the [\#Templates](#Templates.md) section before writing help pages.
+Templates are used to style the help pages. They give the documentation a consistent look and feel. There is a template for menu commands, **File → Save**, a template to style keys to be pressed, **Shift**, to show a Boolean value, `True`, etc. Please get familiar with the [\#Templates](#Templates.md) section before writing help pages.
 
-### Temporary flags {#temporary_flags}
+### Temporary flags 
 
 If you are working on a large page it is advisable to mark the page either as a work in progress or as unfinished. This assures that wiki admins don\'t mark your page as ready for translation while you are still changing it.
 
-To flag a page add either {{Page in progress}} or {{UnfinishedDocu}} as the first line. With {{UnfinishedDocu}} you invite others to join you in finishing the page, while {{Page in progress}} indicates that you will do the work yourself and others should give you some time.
+To flag a page add either  or {{UnfinishedDocu}} as the first line. With {{UnfinishedDocu}} you invite others to join you in finishing the page, while  indicates that you will do the work yourself and others should give you some time.
 
 Once the work is done, please don\'t forget to remove the flags!
 
@@ -68,7 +68,7 @@ The [User hub](User_hub.md) provides a [Table of Contents](Online_Help_Toc.md). 
 
 The [Template:Docnav](Template:Docnav.md) is used to sequentially link pages, following to the structure of the [Table of Contents](Online_Help_Toc.md). See [\#Templates](#Templates.md) for a list of all templates.
 
-### Названия Страниц {#названия_страниц}
+### Названия Страниц 
 
 Page names should be short, and they should use sentence case: all words except the first one and proper names, should be in lowercase. This is the [style used by Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Capital_letters#Headings,_headers,_and_captions) for their articles.
 
@@ -146,7 +146,7 @@ If you leave out the optional text the link itself will be shown when the image 
 
 ![](images/)_[Draft_Wire](Draft_Wire.md)
 
-### Страницы верстаков {#страницы_верстаков}
+### Страницы верстаков 
 
 A top level workbench page should start with:
 
@@ -155,7 +155,7 @@ A top level workbench page should start with:
 
 See [\#Screen capture](#Screen_capture.md) for conventions on including images.
 
-### Command pages {#command_pages}
+### Command pages 
 
 Command pages describing workbench tools should not be too long, they should only explain what a command can do and what it can\'t, and how to use it. You should keep pictures and examples to a minimum. Tutorials can expand on how to use the tool and provide step-by-step details.
 
@@ -185,7 +185,7 @@ Styling of the FreeCAD wiki pages is achieved through the use of templates ([Hel
 
 Click on the template link to see the usage instructions for a template, and to see its implementation. Templates are a powerful feature of the MediaWiki software. You should be an experienced wiki user if you wish to propose additions and modifications to existing templates. If implemented incorrectly, templates make it difficult to translate pages into other languages, so their use should be limited to text formatting, page transclusion should be avoided. See [MediaWiki Help:Templates](https://www.mediawiki.org/wiki/Help:Templates) to learn more.
 
-### Простейшие шаблоны {#простейшие_шаблоны}
+### Простейшие шаблоны 
 
 Эти шаблоны форматируют простой текстовый параметр в определенном стиле.
 
@@ -239,7 +239,7 @@ Click on the template link to see the usage instructions for a template, and to 
 |                                                                                                               | , {{true}}               |                                                                                                                                                                                                                                                                                                |
 +---------------------------------------------------------------------------------------------------------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | [MenuCommand](Template:MenuCommand.md)                                                                |                         | Use it to indicate the location of a command inside a particular menu.                                                                                                                                                                                                                         |
-|                                                                                                               | {{MenuCommand|File → Save}}            |                                                                                                                                                                                                                                                                                                |
+|                                                                                                               | **File → Save**            |                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 +---------------------------------------------------------------------------------------------------------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | [FileName](Template:FileName.md)                                                                      |                         | Используйте его для указания имени файла или каталога.                                                                                                                                                                                                                                         |
@@ -295,7 +295,7 @@ Click on the template link to see the usage instructions for a template, and to 
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 +---------------------------------------------------------------------------------------------------------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-### Сборные шаблоны {#сборные_шаблоны}
+### Сборные шаблоны 
 
 These templates require more input parameters, or produce a block of text with a particular format.
 
@@ -380,7 +380,7 @@ These templates require more input parameters, or produce a block of text with a
 
 Give meaningful names to your images. If you have an image that showcases the characteristics of a particular command, you should use the name of that command with `_example` at the end. For example for the command [Draft Offset](Draft_Offset.md) the image should be called `Draft_Offset_example.jpg`.
 
-### Снимки с экрана {#снимки_с_экрана}
+### Снимки с экрана 
 
 Рекомендуемые размеры для снимков экрана::
 
@@ -398,7 +398,7 @@ To create a screenshots you can use the options provided by your operating syste
 
 To ease documentation translations, try to avoid screenshots that contain texts. If you cannot avoid this, consider taking separate screenshots of the interface and the [3D view](3D_view.md). The image of the 3D view can be reused in every translation, while a translator can take a screenshot of the localized interface if necessary.
 
-### Иконки и графика {#иконки_и_графика}
+### Иконки и графика 
 
 Refer to the [Artwork](Artwork.md) page for all artwork and icons that have been created for FreeCAD, and which can also be used in documentation pages. If you would like to contribute icons, please read the [Artwork Guidelines](Artwork_Guidelines.md).
 
@@ -426,9 +426,9 @@ Other useful resources are:
 -   [Google Translate](http://translate.google.com/) for help with translations.
 -   [Deepl translator](https://www.deepl.com/translator) for help with translations.
 
-## Несколько советов для переводчиков {#несколько_советов_для_переводчиков}
+## Несколько советов для переводчиков 
 
-### Translate GuiCommand {#translate_guicommand}
+### Translate GuiCommand 
 
     {{GuiCommand
     |Name=FEM EquationFluxsolver
@@ -451,7 +451,7 @@ Translated:
     |SeeAlso=[FEM tutoriel](FEM_tutorial/fr.md)
     }}
 
-### Translate navi {#translate_navi}
+### Translate navi 
 
     {{FEM_Tools_navi}}
 
@@ -459,7 +459,7 @@ Translated:
 
     {{FEM_Tools_navi/fr}}
 
-### Translate link {#translate_link}
+### Translate link 
 
     [Part Module](Part_Module.md)
 
@@ -467,7 +467,7 @@ Translated:
 
     [Atelier Pièces](Part_Module/fr.md)
 
-### Translate Docnav {#translate_docnav}
+### Translate Docnav 
 
     
 
@@ -489,9 +489,9 @@ Translated:
 
 </div>
 
-## Создание, переименовывание и удаление страниц {#создание_переименовывание_и_удаление_страниц}
+## Создание, переименовывание и удаление страниц 
 
-### Create pages {#create_pages}
+### Create pages 
 
 Before creating a new page you should first check if a similar page already exists. If that is the case it is usually better to edit that existing page instead. When in doubt please open a topic in the [Wiki forum](https://forum.freecadweb.org/viewforum.php?f=21) first.
 
@@ -500,7 +500,7 @@ To create a new page do one of the following:
 -   Visit the URL with the desired page name, for example: https://wiki.freecadweb.org/My_new_page, and click on \'create this page\'.
 -   Do a wiki search for the page name, and click on the red text in \'Create the page \"My new page\" on this wiki!\'.
 
-### Rename pages {#rename_pages}
+### Rename pages 
 
 Since FreeCAD is a project under permanent development, it is sometimes necessary to revise the content of the wiki. If the names of commands are changed in the source code, the wiki pages documenting them have to be renamed as well. This can only be done by wiki administrators. To inform them, open a topic in the [Wiki forum](https://forum.freecadweb.org/viewforum.php?f=21) and list the necessary renaming operation in this form:
 
@@ -509,7 +509,7 @@ Since FreeCAD is a project under permanent development, it is sometimes necessar
     Old_page_name_2  New_page_name_2
     ...
 
-### Удаление файлов и страниц {#удаление_файлов_и_страниц}
+### Удаление файлов и страниц 
 
 В случае, если вам нужно удалить файл, перейдите на его страницу (https://www.freecadweb.org/wiki/File:***.***) и отредактируйте его. Независимо от того, является ли страница пустой или нет, добавьте это в качестве первого элемента: {{Delete}} и прямо под ним опишите, почему страница должна быть удалена. Помимо этого, откройте тему в [Вики-форуме](https://forum.freecadweb.org/viewforum.php?f=21).
 
@@ -519,13 +519,13 @@ Since FreeCAD is a project under permanent development, it is sometimes necessar
 
 The [Development/Wiki subforum](http://forum.freecadweb.org/viewforum.php?f=21) in the [FreeCAD forum](https://forum.freecadweb.org) provides a dedicated space for discussing wiki topics, the wiki appearance and anything else related to the wiki. Direct your questions and suggestions there.
 
-## Терминология - стратегия именования {#терминология___стратегия_именования}
+## Терминология - стратегия именования 
 
-### На английском {#на_английском}
+### На английском 
 
 Смотри [Глоссарий](Glossary/ru.md).
 
-### Другие языки {#другие_языки}
+### Другие языки 
 
 -   [Italiano](Italian_Translation.md)
 -   [Français](French_Translation.md)

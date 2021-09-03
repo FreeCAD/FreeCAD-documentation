@@ -29,7 +29,7 @@
 2.  Вызовите команду одним из способов
     -   Нажмите кнопку **<img src="images/Arch_SetMaterial.svg" width=16px> [Material](Arch_SetMaterial.md)** на панели инструментов
     -   Используйте сочетание клавиш **M** then **T**.
-    -   Используйте пункт главного меню {{MenuCommand|Arch → Инструменты материала → Материал}}.
+    -   Используйте пункт главного меню **Arch → Инструменты материала → Материал**.
 3.  Загрузите предварительно заданный материал или создайте новый, заполнив поля.
 4.  Нажмите **OK**.
 
@@ -56,7 +56,7 @@
 
 </div>
 
-## Relation to IFC {#relation_to_ifc}
+## Relation to IFC 
 
 This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 

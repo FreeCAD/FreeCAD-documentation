@@ -18,9 +18,9 @@ Usage is pretty straightforward:
 3.  Select the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners Workbench](Fasteners_Workbench.md) from the [Workbench dropdown list](Std_Workbench.md).
 4.  The [toolbars](#Toolbars.md) belonging to the workbench will be displayed.
 
-Simple Usage: Clicking on any of the fastener buttons will create that fastener at the origin with default properties. To change the properties of a fastener select it and go to the {{MenuCommand|Data}} tab of the [Property editor](Property_editor.md).
+Simple Usage: Clicking on any of the fastener buttons will create that fastener at the origin with default properties. To change the properties of a fastener select it and go to the **Data** tab of the [Property editor](Property_editor.md).
 
-## Known issues {#known_issues}
+## Known issues 
 
 -   Other issues/feature requests can be found on the [Fastener Workbench GitHub issue queue](https://github.com/shaise/FreeCAD_FastenersWB/issues?utf8=✓&q=is%3Aissue)
 
@@ -38,7 +38,7 @@ This workbench can be installed from the <img alt="" src=images/Std_AddonMgr.svg
 
 ## Toolbars
 
-The Fasteners Workbench has two toolbars. The {{MenuCommand|FS Screws}} toolbar contains many tools. If required it can be expanded by pressing the **&gt;&gt;** button.
+The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains many tools. If required it can be expanded by pressing the **&gt;&gt;** button.
 
 ![](images/Fasteners_toolbars.png ) *The Fasteners Workbench toolbars*
 
@@ -66,7 +66,7 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Change fastener parameters](Fasteners_ChangeParameters.md): change parameters of selected fasteners.
 
-### Fasteners PEM and PCB {#fasteners_pem_and_pcb}
+### Fasteners PEM and PCB 
 
 -   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> **PEM** Self clinching metric nut.
 
@@ -78,7 +78,7 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
 -   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **PCB** Metric spacer.
 
-### Fasteners DIN, EN and ISO {#fasteners_din_en_and_iso}
+### Fasteners DIN, EN and ISO 
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Hexagon head screw. *Product grades A and B.*
@@ -177,7 +177,7 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Nyloc nut.
 
-### Fasteners ASME {#fasteners_asme}
+### Fasteners ASME 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Hex head screw.
 
@@ -215,7 +215,7 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN washer, wide series.
 
-### Fasteners miscellaneous {#fasteners_miscellaneous}
+### Fasteners miscellaneous 
 
 -   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Arbitrary length threaded rod for tapping holes (metric).
 
@@ -236,7 +236,7 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 -   <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:32px;"> 
 **Fasteners Workbench icon**
 
-## Workbench related links {#workbench_related_links}
+## Workbench related links 
 
 -   Workbench Wiki: <http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/>
 -   FreeCAD Wiki: <https://www.freecadweb.org/wiki/Fasteners_Workbench>
@@ -247,7 +247,7 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 -   Report bugs: Please report bugs at <https://github.com/shaise/FreeCAD_FastenersWB/issues>
 -   Installation: <http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/>
 
-## Other links {#other_links}
+## Other links 
 
 -   [Generating holes for countersunk screws in freecad](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/)
 -   [BOLTS](https://github.com/jreinhardt/BOLTS): An Open Library for Technical Specifications

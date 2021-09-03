@@ -28,7 +28,7 @@ Bu araç yeni bir eskiz oluşturur, mevcut değilse taslak içeren yeni bir [Cis
 
 </div>
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 
 <div class="mw-translate-fuzzy">

@@ -12,7 +12,7 @@ Ya sabes que puedes [importar el módulo de FreeCAD](Embedding_FreeCAD.md) en un
 
 Pero, trasteando un poco, es posible importar el interfaz completo de FreeCAD, luego mover la vista 3D desde allí a tu propia aplicación Qt. Mostraremos aquí 3 métodos diferentes.
 
-## Utilizando el complemento (widget) de la vista 3D de FreeCAD directamente {#utilizando_el_complemento_widget_de_la_vista_3d_de_freecad_directamente}
+## Utilizando el complemento (widget) de la vista 3D de FreeCAD directamente 
 
 Debes ser consciente de que existen muchos problemas con este enfoque. El tratamiento de eventos de Qt parece que no funciona (ni idea del por qué) y si utilizas el menú contextual de la vista 3D la aplicación se cuelga. Un método mejor podría ser crear tu propio SoQtExaminerViewer de la vista 3D o SoQtViewer y \"empujar\" el contenido de la vista 3D de FreeCAD, como se muestra en las otras secciones más abajo.
 
@@ -114,7 +114,7 @@ ui.mdiArea.addSubWindow(v)
 my_mw.show()
 ```
 
-## Creación de un Visor examinador soGui {#creación_de_un_visor_examinador_sogui}
+## Creación de un Visor examinador soGui 
 
 
 <div class="mw-translate-fuzzy">
@@ -178,7 +178,7 @@ entonces simplemente necesitas ejecutar tu visor:
 myViewer()
 ```
 
-## Utilizando el módulo quarter {#utilizando_el_módulo_quarter}
+## Utilizando el módulo quarter 
 
 
 <div class="mw-translate-fuzzy">
@@ -360,7 +360,7 @@ if __name__ == '__main__':
     main()
 ```
 
-## Incluso sin encender el entorno gráfico de usuario de FreeCAD {#incluso_sin_encender_el_entorno_gráfico_de_usuario_de_freecad}
+## Incluso sin encender el entorno gráfico de usuario de FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -523,7 +523,7 @@ if __name__ == '__main__':
     main()
 ```
 
-## Additional information {#additional_information}
+## Additional information 
 
 -   [Embedding a view to another (QT) application?](https://forum.freecadweb.org/viewtopic.php?f=8&t=203)
 -   [Using Gui functions without Gui.showMainWindow() in python script](https://forum.freecadweb.org/viewtopic.php?t=12575)

@@ -29,7 +29,7 @@
 
 ## Использование
 
-### Использование предустановок {#использование_предустановок}
+### Использование предустановок 
 
 1.  Нажмите кнопку **<img src="images/Arch_Window.svg" width=16px> [Окно](Arch_Window/ru.md)
 **, или нажмите клавиши **W**, затем **I**
@@ -55,7 +55,7 @@ The `$ROOT_DIR` is the user\'s directory where FreeCAD configuration, macros, an
 -   On Windows it is usually `C:\Users\username\Application Data\FreeCAD\`
 -   On Mac OSX it is usually `/Users/username/Library/Preferences/FreeCAD/`
 
-### Создание с нуля {#создание_с_нуля}
+### Создание с нуля 
 
 
 <div class="mw-translate-fuzzy">
@@ -84,7 +84,7 @@ when creating the sketch, pay close attention to the creation order of the loops
 
 Image:ParametersDoorGlass.svg\|Glass door (стеклянная дверь) Image:ParametersDoorSimple.svg\|Simple door (простая дверь) Image:ParametersWindowDouble.svg\|Double-opening window (двустворчатое окно) Image:ParametersWindowFixed.svg\|Fixed window (глухое окно) Image:ParametersWindowSimple.svg\|Single-opening window (одностворчатое окно) Image:ParametersWindowStash.svg\|Sash-opening window (сдвижное окно)
 
-## Создание компонентов {#создание_компонентов}
+## Создание компонентов 
 
 Окна могут включать 3 типа компонентов: панели, рамы и жалюзи. Панели и жалюзи делаются из замкнутых ломаных, которые выдавливаются, в то время как рамы делаются из двух и более замкнутых ломаных, где каждый выдавливается, затем меньший вычитается из большего. Вы можете иметь доступ, создавать, модифицировать и удалять компоненты в окне в режиме редактирования (дважды кликнув по окну в древе проекта). У компонента имеются следующие параметры:
 
@@ -126,7 +126,7 @@ Image:ParametersDoorGlass.svg\|Glass door (стеклянная дверь) Imag
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
 *A door showing the symbol plan, symbol elevation and opening properties at work*
 
-## Defining window types {#defining_window_types}
+## Defining window types 
 
 Windows can also take advantage of other tools, specifically [PartDesign](PartDesign_Workbench.md) workflows, to define a type. A type is an object that defines the shape of the window. This is specially well suited to work with [App Parts](App_Part.md):
 
@@ -134,7 +134,7 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
 
 [Download the example file shown above](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
 
-### Example workflow {#example_workflow}
+### Example workflow 
 
 -   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part.md) or [PartDesign](PartDesign_Workbench.md) tools.
 -   For example, create a base rectangular sketch for your window, then a profile sketch for the frame, and create a [Part Sweep](Part_Sweep.md) to sweep the profile around the base sketch. Create a [Part Offset2D](Part_Offset2D.md) from the base sketch, then a [Part Extrude](Part_Extrude.md) to create the glass panel

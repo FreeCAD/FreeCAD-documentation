@@ -1,12 +1,12 @@
  <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> 
 
-## Driver installation {#driver_installation}
+## Driver installation 
 
 ### Linux
 
 FreeCAD supports drivers from project [Spacenav](http://spacenav.sourceforge.net/). This is a project aiming to create an open-sourced driver which is compatible with the proprietary drivers from 3Dconnexion.
 
-#### Install from repo {#install_from_repo}
+#### Install from repo 
 
 ##### Ubuntu
 
@@ -67,7 +67,7 @@ apt-get install spacenavd libspnav-dev
 sudo zypper install spacenavd
 ```
 
-#### Compile Spacenav from source {#compile_spacenav_from_source}
+#### Compile Spacenav from source 
 
 This is recommended if your distribution might provide an outdated version.
 
@@ -178,7 +178,7 @@ This is recommended if your distribution might provide an outdated version.
 
 -   Follow the same pattern to compile and install spnavcfg. Make sure to run spnavcfg as root, or no settings will be saved!
 
-#### Starting spacenavd as a systemd service at boot {#starting_spacenavd_as_a_systemd_service_at_boot}
+#### Starting spacenavd as a systemd service at boot 
 
 If you want to start spacenavd at boot using systemd, do the following:
 
@@ -189,7 +189,7 @@ If you want to start spacenavd at boot using systemd, do the following:
 
 This is only necessary for the installation from source.
 
-#### Restarting spacenavd {#restarting_spacenavd}
+#### Restarting spacenavd 
 
 If sometimes navigator stops working, it is good to restart driver. To restart it, go to Terminal and execute:
 
@@ -201,7 +201,7 @@ sudo /etc/init.d/spacenavd restart
 
 After that restart FreeCAD. On some distros this is necessary at each boot.
 
-### Known Issues {#known_issues}
+### Known Issues 
 
 A user reported on the [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) they saw the following:
 
@@ -230,7 +230,7 @@ sudo systemctl restart spacenavd
 
 As of version 0.13, 3D mouse is supported under Windows. You need to have 3Dconnexion drivers installed.
 
-#### Known Issue {#known_issue}
+#### Known Issue 
 
 There is an issue where 3Dconnexion sends duplicate scroll events to FreeCAD, which causes the view to jump. To fix it:
 
@@ -242,13 +242,13 @@ There is an issue where 3Dconnexion sends duplicate scroll events to FreeCAD, wh
 
 ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
-## Setting up FreeCAD {#setting_up_freecad}
+## Setting up FreeCAD 
 
 3D mouse support was made with spnav project on Linux, and on a very low level on Windows. This means there was no support for any settings for a device, since on Linux there is no good support for this, and on Windows it is overridden. This is why two additional pages were added to \"Customize\" dialog.
 
  <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;"> 
 
-### Spaceball Motion {#spaceball_motion}
+### Spaceball Motion 
 
 In this tab you have ability to set up some of general space mouse settings. They include:
 
@@ -266,7 +266,7 @@ Other than this, for each axes you have ability to set:
 -   Reverse - Reverse movement on axes
 -   Sensitivity - slider with ability to set sensitivity
 
-### Spaceball Buttons {#spaceball_buttons}
+### Spaceball Buttons 
 
 When you open this tab for the first time, it will be empty and unavailable. To activate it, you must press one of your space mouse buttons. After you do, list of buttons will appear on the left side, and list of commands will be available on the right side.
 

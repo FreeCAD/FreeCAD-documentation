@@ -57,7 +57,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 1.  Wähle einen B-Spline Knoten
 2.  Rufe das Werkzeug mit mehreren Methoden auf:
     -   Drücke die **<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:16px">  [B-spline Knotenvervielfalt Verringern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)** Schaltfläche.
-    -   Verwende den {{MenuCommand|Skizze → Skizzierer B-Spline Werkzeuge → <img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:16px"> Knotenvervielfalt Verringern}} Eintrag im oberen Menü.
+    -   Verwende den **Skizze → Skizzierer B-Spline Werkzeuge → <img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:16px"> Knotenvervielfalt Verringern** Eintrag im oberen Menü.
 
 
 </div>

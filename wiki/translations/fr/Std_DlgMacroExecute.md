@@ -17,22 +17,22 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Std Macro](Std_DlgMacroExecute/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...}} dans le menu.
+    -   Sélectionnez l\'option **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...** dans le menu.
 2.  La boîte de dialogue Exécuter la macro s\'ouvre. Voir [Options](#Options.md).
 
 ## Options
 
-### Macros utilisateur {#macros_utilisateur}
+### Macros utilisateur 
 
 1.  L\'onglet **User macros** répertorie les macros disponibles dans **User macros location**.
 2.  Cliquez sur une macro pour la sélectionner.
 3.  Le nom de la macro sélectionnée apparaîtra dans la case **Macro name**.
 
-### Macros du système {#macros_du_système}
+### Macros du système 
 
 :   L\'onglet **System macros** n\'est pas utilisé pour le moment.
 
-### Emplacement des macros de l\'utilisateur {#emplacement_des_macros_de_lutilisateur}
+### Emplacement des macros de l\'utilisateur 
 
 1.  Appuyez sur le bouton **...** pour modifier l\'emplacement des macros utilisateur.
 2.  Accédez à un autre dossier et sélectionnez-le.
@@ -84,7 +84,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 3.  Entrez un nouveau nom dans la boîte de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension {{FileName|.FCMacro}}.
 4.  Appuyez sur **Entrée** ou sur le bouton **OK**.
 
-### Barre d\'outils {#barre_doutils}
+### Barre d\'outils 
 
 1.  Sélectionnez la macro que vous souhaitez ajouter à une barre d\'outils personnalisée dans la liste.
 2.  Appuyez sur le bouton **Barre d'outils**.
@@ -100,7 +100,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 ## Préférences
 
--   L\'emplacement des macros utilisateur peut également être modifié dans les préférences: {{MenuCommand|Edition → Préférences... → Général → Macro → Chemin de la macro}}. Voir [ Editeur de préférences](Preferences_Editor/fr#Macro.md).
+-   L\'emplacement des macros utilisateur peut également être modifié dans les préférences: **Edition → Préférences... → Général → Macro → Chemin de la macro**. Voir [ Editeur de préférences](Preferences_Editor/fr#Macro.md).
 
 
 

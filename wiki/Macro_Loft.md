@@ -40,7 +40,7 @@ Copy the macro and the icon in your macro directory.
 
  
 
-### The interface {#the_interface}
+### The interface 
 
 <img alt="FCCreaLoft002" src=images/Macro_FCCreaLoft_01.png  style="width:400px;">  
 

@@ -13,7 +13,7 @@
 
 [Std Group](Std_Group/fr.md) (appelé en interne [App DocumentObjectGroup](App_DocumentObjectGroup/fr.md)) est un conteneur à usage général qui vous permet de regrouper différents types d\'objets dans la [vue par aborescence](tree_view/fr.md), quel que soit leur type de données. Il est utilisé comme un simple dossier pour classer et organiser les objets dans votre modèle afin de conserver une structure logique. Les Std Groupes peuvent être imbriqués dans d\'autres Std Groupes.
 
-L\'outil Std Group n\'est pas défini par un atelier particulier mais par le système de base ; il se trouve donc dans la {{MenuCommand|barre d'outils de structure}} qui est disponible dans tous les [Ateliers](Workbenches/fr.md).
+L\'outil Std Group n\'est pas défini par un atelier particulier mais par le système de base ; il se trouve donc dans la **barre d'outils de structure** qui est disponible dans tous les [Ateliers](Workbenches/fr.md).
 
 Pour regrouper des objets 3D en une seule unité, avec l\'intention de créer des assemblages, utilisez plutôt [Std Part](Std_Part/fr.md).
 
@@ -40,7 +40,7 @@ Un [Std Group](Std_Group/fr.md) est appelé en interne [App DocumentObjectGroup]
 
 En plus des propriétés décrites dans [App FeaturePython](App_FeaturePython/fr.md), qui est l\'instance la plus élémentaire d\'un [App DocumentObject](App_DocumentObject/fr.md), App DocumentObjectGroup a la propriété **Group**.
 
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande {{MenuCommand|Show all}} dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
 
 ### Données
 
@@ -51,7 +51,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property
 
 -    {{PropertyData/fr|Group|LinkList}}: liste d\'objets référencés. Par défaut vide {{value|[]}}.
 
-#### Propriétés cachées de Données {#propriétés_cachées_de_données}
+#### Propriétés cachées de Données 
 
 -    {{PropertyData/fr|Proxy|PythonObject}}: classe personnalisée associée à cet objet. Cela n\'existe que pour la version [Python](Python/fr.md). Voir [Script](Std_Group/fr#Script.md).
 
@@ -62,7 +62,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property
 
 Voir [App FeaturePython](App_FeaturePython/fr.md) pour les propriétés d\'affichage de base.
 
-#### Propriétés cachées de Vue {#propriétés_cachées_de_vue}
+#### Propriétés cachées de Vue 
 
 -    {{PropertyView/fr|Proxy|PythonObject}}: classe personnalisée associée à cet objet. Cela n\'existe que pour la version [Python](Python/fr.md). Voir [Script](Std_Group/fr#Script.md).
 

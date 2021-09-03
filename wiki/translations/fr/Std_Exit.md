@@ -15,7 +15,7 @@ La commande **Std Quitter** ferme l\'application FreeCAD et enregistre éventuel
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Fichier → <img src="images/Std_Quit.svg" width=16px> Quitter}} dans le menu.
+    -   Sélectionnez l\'option **Fichier → <img src="images/Std_Quit.svg" width=16px> Quitter** dans le menu.
     -   Utilisez le raccourci clavier: **Alt**+**F4**.
 2.  Si le document actif n\'a pas été enregistré, une boîte de dialogue vous invite à l\'enregistrer:
     -   Appuyez sur le bouton **Enregistre le document actif** pour enregistrer le document. Si nécessaire, entrez d\'abord un nom de fichier.
@@ -28,7 +28,7 @@ La commande **Std Quitter** ferme l\'application FreeCAD et enregistre éventuel
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

@@ -30,15 +30,15 @@ Siehe auch die folgende Seite für einige Videos über das Ausrichten von Fenste
 
 1\. Öffne FreeCAD, erstelle ein neues, leeres Dokument und wechsel zum [Architektur-Arbeitsbereich](Arch_Workbench/de.md).
 
-2\. Stelle sicher, dass Deine Einheiten im Menü {{MenuCommand|Bearbeiten → Einstellungen → Allgemein → Einheiten}} korrekt eingestellt sind. Zum Beispiel ist `MKS (m/kg/s/Grad)` gut geeignet, um mit den Abständen in einem typischen Gebäude umzugehen; setze außerdem die Anzahl der Nachkommastellen auf `4`, um auch die kleinsten Teile eines Meters zu berücksichtigen.
+2\. Stelle sicher, dass Deine Einheiten im Menü **Bearbeiten → Einstellungen → Allgemein → Einheiten** korrekt eingestellt sind. Zum Beispiel ist `MKS (m/kg/s/Grad)` gut geeignet, um mit den Abständen in einem typischen Gebäude umzugehen; setze außerdem die Anzahl der Nachkommastellen auf `4`, um auch die kleinsten Teile eines Meters zu berücksichtigen.
 
-3\. Benutze die Schaltfläche **<img src="images/Draft_Grid.svg" width=16px> [Entwurfsraster ein-/ausschalten](Draft_ToggleGrid/de.md)**, um ein Raster mit ausreichender Auflösung einzublenden. Das Erscheinungsbild des Rasters kannst Du im Menü {{MenuCommand|Bearbeiten → Einstellungen → Draft → Raster und einrasten → Raster}} ändern. Setze \"Hauptlinien alle\" auf `20`, \"Rasterabstand\" auf `50 mm` und \"Rastergröße\" auf `1000 Linien` (das Raster wird damit eine Fläche von 50m x 50m abdecken).
+3\. Benutze die Schaltfläche **<img src="images/Draft_Grid.svg" width=16px> [Entwurfsraster ein-/ausschalten](Draft_ToggleGrid/de.md)**, um ein Raster mit ausreichender Auflösung einzublenden. Das Erscheinungsbild des Rasters kannst Du im Menü **Bearbeiten → Einstellungen → Draft → Raster und einrasten → Raster** ändern. Setze \"Hauptlinien alle\" auf `20`, \"Rasterabstand\" auf `50 mm` und \"Rastergröße\" auf `1000 Linien` (das Raster wird damit eine Fläche von 50m x 50m abdecken).
 
 4\. [Zoome im 3D-Ansichtsfenster heraus](Std_ViewZoomOut/de.md), wenn Du zu nahe am Raster bist.
 
 Jetzt sind wir bereit, um eine einfache Wand zu erstellen, in welcher wir Fenster und Türen positionieren können.
 
-## Wände erstellen {#wände_erstellen}
+## Wände erstellen 
 
 5\. Benutze das [Draft: Linienwerkzeug](Draft_Wire/de.md), um einen Linienzug zu erstellen. Gehe gegen den Uhrzeigersinn vor.
 
@@ -82,7 +82,7 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Die aus dem Linienzug konstruierten Wände*
 
-## vordefinierte Türen und Fenster erstellen {#vordefinierte_türen_und_fenster_erstellen}
+## vordefinierte Türen und Fenster erstellen 
 
 7\. Klicke auf das Werkzeug [Arch:Fenster](Arch_Window/de.md), wähle die Voreinstellung (preset) `Simple door` aus und ändere die Höhe auf 2 m.
 
@@ -98,7 +98,7 @@ w = Draft.makeWire(p, closed=False)
 :   
     **Hinweis:**Die `Sill height` (Brüstungshöhe) ist der Abstand vom Fußboden bis zur unteren Fensterkante. Für Türen ist die `Sill height` gewöhnlich 0 m weil Türen normalerweise bis zum Fußboden reichen; andererseits haben Fenster üblicherweise einen Abstand von 0,5 m bis 1,5 m zum Fußboden. Der Parameter `Sill height` (Brüstungshöhe) kann nur während des ursprünglichen Erzeugens eines Fensters oder einer Tür mittels Voreinstellung (preset) eingegeben werden. Ist das Fenster oder die Tür erst einmal eingefügt, lässt sich seine Lage durch Editieren der Eigenschaft **Position** `[x, y, z]` der zugrundeliegenden [Skizze](Sketcher_Sketch.md) modifizieren.
 
-## benutzerdefinierte Türen und Fenster erstellen {#benutzerdefinierte_türen_und_fenster_erstellen}
+## benutzerdefinierte Türen und Fenster erstellen 
 
 8\. Wechsel zum [Sketcher](Sketcher_Workbench/de.md)-Arbeitsbereich, wähle den Teil der Wand auf der rechten Seite aus, welcher keine Tür hat. Klicke auf [NeueSkizze](Sketcher_NewSketch/de.md) und wähle **FlatFace** als Verknüpfungs-Methode. Wenn die vorhandene Geometrie Deine Sicht beeinträchtigt, klicke auf [\"Schnitt anzeigen\"](Sketcher_ViewSection/de.md), um diese auszublenden.
 
@@ -141,7 +141,7 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Benutzerdefiniertes Fenster, erzeugt aus einer Skizze; noch hat es weder einen echten Rahmen noch eine Glasscheibe*
 
-## Einrichtung des benutzerdefinierten Fensters {#einrichtung_des_benutzerdefinierten_fensters}
+## Einrichtung des benutzerdefinierten Fensters 
 
 12\. Wähle im Modellbaum den unter `Window` liegenden `Sketch002` und drücke **Space** oder ändere die Eigenschaft **Visibility** auf `True`.
 
@@ -193,14 +193,14 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|fertiges Fenster mit zugehörigen Komponenten, eingefügt in die Wand*
 
-## Vervielfältigung eines benutzdefinierten Fensters {#vervielfältigung_eines_benutzdefinierten_fensters}
+## Vervielfältigung eines benutzdefinierten Fensters 
 
-14\. Wähle `Window` und den zugrundeliegenden `Sketch002` im Modellbaum aus. Gehe dann zu {{MenuCommand|Bearbeiten → Auswahl duplizieren}} und beantworte die Frage, ob nicht ausgewählte Abhängigkeiten dupliziert werden sollen, mit **No**. Ein neues `Window001` mit `Sketch003` wird an derselben Stelle wie die Original-Elemente erscheinen.
+14\. Wähle `Window` und den zugrundeliegenden `Sketch002` im Modellbaum aus. Gehe dann zu **Bearbeiten → Auswahl duplizieren** und beantworte die Frage, ob nicht ausgewählte Abhängigkeiten dupliziert werden sollen, mit **No**. Ein neues `Window001` mit `Sketch003` wird an derselben Stelle wie die Original-Elemente erscheinen.
 
 15\. Wähle den neuen `Sketch003` aus. Gehe zur Eigenschaft **Map Mode** und klicke auf das Erweiterungsfeld rechts neben dem Wert `FlatFace`. Wähle in der 3D-Ansicht den Wandabschnitt auf der linken Seite aus, welcher noch kein Element hat. Verdrehe die [Ansicht](Std_View_Menu/de.md) soweit wie nötig. Verändere `Attachment offset` zu \[-1 m, 0 m, 0 m\], um das Fenster zu zentrieren und klicke **OK**. Die Skizze und das Fenster sollten dann an der neuen Positionen erscheinen.
 
 :   
-    **Hinweis:**die [Attachment Operation](Part_Attachment/de.md) kann auch mit dem [Part Arbeitsbereich](Part_Workbench/de.md) ausgeführt werden durch Benutzung des Menü-Kommandos {{MenuCommand|Formteil → Attachment}}.
+    **Hinweis:**die [Attachment Operation](Part_Attachment/de.md) kann auch mit dem [Part Arbeitsbereich](Part_Workbench/de.md) ausgeführt werden durch Benutzung des Menü-Kommandos **Formteil → Attachment**.
 
 ![](images/13_T02_sketch_attachment_edit.png )
 
@@ -216,7 +216,7 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Falsche Öffnung in der Wand wegen eines falschen Normalenvektors des Fensters*
 
-## Normalenvektoren von Türen und Fenstern {#normalenvektoren_von_türen_und_fenstern}
+## Normalenvektoren von Türen und Fenstern 
 
 18\. Jedes [Arch:Fenster](Arch_Window/de.md)-Objekt kontrolliert die Extrusion seines Körpers und der Wandöffnung mittels der Eigenschaft **Normal**.
 

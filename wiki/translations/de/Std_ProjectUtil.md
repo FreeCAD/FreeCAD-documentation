@@ -14,7 +14,7 @@ Mit dem **Std ProjectUtil** Befehl kannst du Dateien aus einer FreeCAD Projektda
 
 ## Anwendung
 
-### Projekt extrahieren {#projekt_extrahieren}
+### Projekt extrahieren 
 
 1.  Wähle die Option {{MenuCommand/de|Werkzeuge → <img src="images/Std_ProjectUtil.svg" width=16px> Projekt Hilfsprogramm...}} aus dem Menü.
 2.  Das Projekthilfsprogramm Dialogfeld wird geöffnet.
@@ -25,11 +25,11 @@ Mit dem **Std ProjectUtil** Befehl kannst du Dateien aus einer FreeCAD Projektda
 7.  Drücke die **Extrahieren** Schaltfläche.
 8.  Drücke die **Close** Schaltfläche, um das Dialogfeld zu schließen.
 
-### Manuelle Bearbeitungen {#manuelle_bearbeitungen}
+### Manuelle Bearbeitungen 
 
 Es ist wichtig zu erkennen, dass die Dateien innerhalb einer FreeCAD-Projektdatei miteinander verknüpft sind. Nur die Bearbeitung einer einzelnen Datei führt typischerweise zu Fehlern. Um konsistente Bearbeitungen über mehrere Dateien hinweg vorzunehmen, verwenden Sie einen guten Code-Editor, wie z.B. [Notepad++](http://notepad-plus-plus.org/) (für das Windows-Betriebssystem) oder [Notepadqq](https://notepadqq.com/s/) (für Linux-Betriebssysteme).
 
-### Projekt erstellen {#projekt_erstellen}
+### Projekt erstellen 
 
 1.  Wähle die {{MenuCommand/de|Werkzeuge→ <img src="images/Std_ProjectUtil.svg" width=16px> 
      Projekthilfsprogramm...}} Option aus dem Menü.

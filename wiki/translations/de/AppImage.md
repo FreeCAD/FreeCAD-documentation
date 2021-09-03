@@ -3,7 +3,7 @@
 
 {{TOCright}}
 
-## Was ist ein AnwendungsAbbild? {#was_ist_ein_anwendungsabbild}
+## Was ist ein AnwendungsAbbild? 
 
 ![](images/AppImage-logo.png ) **Einmal verpackt und dann überall laufend. Erreiche Benutzer auf allen Haupt Linux Desktop Distributionen.**
 
@@ -17,7 +17,7 @@ chmod +x FreeCAD_x86_64.AppImage
 
 Für andere Installationsarten siehe [Herunterladen](Download/de.md).
 
-## FreeCAD AnwendungsAbbilder {#freecad_anwendungsabbilder}
+## FreeCAD AnwendungsAbbilder 
 
 
 {{VeryImportantMessage|'''Note:''' Entwicklungs-Builds werden nun auf dem [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''] github repo bereitgestellt.<br/>Wenn die untenstehenden Download-Verknüpfungen nicht funktionieren, lade die Dateien bitte manuell aus dem eingeklappten Abschnitt "Assets" unter dem o.g. Link herunter.}}
@@ -37,21 +37,21 @@ Für andere Installationsarten siehe [Herunterladen](Download/de.md).
 -   Es kann auf dem gleichen System parallel zu einer anderen Version von FreeCAD ausgeführt werden.
 -   Anwender verwenden die dev Version, um die neuesten Funktionen und Fehlerbehebungen zu nutzen (da FreeCAD einen langen Veröffentlichungszyklus hat). Sie nutzen es auch, um Fehler zu testen und zu finden, um die Entwicklung und Verbesserung von FreeCAD voranzutreiben.
 
-#### Obligatorisches Wort der Vorsicht {#obligatorisches_wort_der_vorsicht}
+#### Obligatorisches Wort der Vorsicht 
 
 In den meisten Fällen ist die Entwicklungsversion stabil, aber natürlich ist es wichtig, die obligatorische Erklärung hinzuzufügen, dass die Verwendung auf eigenes Risiko erfolgt. Obwohl die meisten Leute, die Datensicherungen verwenden und \"oft speichern\", dies recht gut tun.
 
-## Automatische Aktualisierung {#automatische_aktualisierung}
+## Automatische Aktualisierung 
 
 AnwendungsAbbild bietet eine intelligente und wirtschaftliche Möglichkeit der Aktualisierung. Es berechnet den Unterschied zwischen dem neuen und dem alten AnwendungsAbbild und lädt nur die Änderungen zwischen den Versionen herunter. Theoretisch lädt der Benutzer am Ende jedes Mal etwa 15% statt eines völlig neuen AnwendungsAbbild herunter.
 
 Die automatische Aktualisierung erfolgt über mehrere optionale Methoden. Derzeit gibt es 4 Methoden, 2 über die grafische Oberfläche (GUI) und 2 über die Befehlszeilen-/Terminaloberfläche (CLI).
 
-### Experimentelle In-Anwendungs-Aktualisierung {#experimentelle_in_anwendungs_aktualisierung}
+### Experimentelle In-Anwendungs-Aktualisierung 
 
 Dank der Bemühungen mehrerer wichtiger Schlüsselentwickler gibt es [laufende Bemühungen](https://forum.freecadweb.org/viewtopic.php?f=8&t=44324), eine Funktion zu integrieren, die es ermöglicht, das AnwendungsAbbild innerhalb von FreeCAD selbst zu aktualisieren. Beginnend mit FC 0.19.21514 gibt es nun einen Abschnitt AnwendungsAbbild, der über {{MenuCommand/de|Bearbeiten → Einstellungen → AnwendungsAbbild}} gefunden werden kann. Bitte teste diese Fähigkeit und berichte über deine Erfahrungen in der [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=44324).
 
-### GUI Methode 1 (offiziell) {#gui_methode_1_offiziell}
+### GUI Methode 1 (offiziell) 
 
 Dies ist die offizielle AppImageUpdate GUI-Anwendung.
 
@@ -61,7 +61,7 @@ Dies ist die offizielle AppImageUpdate GUI-Anwendung.
 4.  Gib den Pfad zu Deinem vorhandenen AppImage an.
 5.  Sobald das AppImage aktualisiert ist, drücke die Schaltfläche **Run updated AppImage**.
 
-### GUI Methode 2 (inoffiziell) {#gui_methode_2_inoffiziell}
+### GUI Methode 2 (inoffiziell) 
 
 Dies ist eine elegantere inoffizielle Version von AppImageUpdate von Drittanbietern mit dem Namen: **AppImageUpdater**. Es befindet sich noch in der Entwicklung (zum Zeitpunkt dieser Wiki-Bearbeitung), ist aber dennoch recht angenehm zu bedienen.
 
@@ -74,7 +74,7 @@ Dies ist eine elegantere inoffizielle Version von AppImageUpdate von Drittanbiet
 
 Ergebnis: Folge den Anweisungen des AppImageUpdaters.
 
-### CLI Methode 1 (offiziell) {#cli_methode_1_offiziell}
+### CLI Methode 1 (offiziell) 
 
 Führe die folgenden Anweisungen in Deinem Terminal aus
 
@@ -95,7 +95,7 @@ Anmerkungen:
 
 Zu erledigen: Teile ein Skript, das als Alias oder Cron Job hinzugefügt werden kann.
 
-### CLI Methode 2 (inoffiziell) {#cli_methode_2_inoffiziell}
+### CLI Methode 2 (inoffiziell) 
 
 Ähnlich wie bei den grafischen Methoden mit offiziellen und inoffiziellen Ansätzen zum Herunterladen von AppImages gilt dies auch für die Befehlszeile. Dies ist eine elegantere Drittanbieter Befehlszeilenoption zum Herunterladen von AppImages.
 
@@ -109,28 +109,28 @@ Zu erledigen: Teile ein Skript, das als Alias oder Cron Job hinzugefügt werden 
 
 # Experimentell
 
-## AppImage zsync korrigieren {#appimage_zsync_korrigieren}
+## AppImage zsync korrigieren 
 
 Es kann sein, dass ein AppImage nicht aktualisiert werden kann, weil die Zieldatei auf irgendeine Weise verändert wurde. Anstatt ein komplett neues appimage herunterzuladen, ist es möglich, die von AppImage verwendete zsync-Datei so umzuschreiben, dass nur das Delta heruntergeladen wird. Mehr Informationen gibt es unter [1](https://github.com/antony-jr/appimage-update-info-writer).
 
 Dieser Abschnitt benötigt mehr Details.
 
-## Herunterladen via Bittorrent {#herunterladen_via_bittorrent}
+## Herunterladen via Bittorrent 
 
 Das FreeCAD-Paketierungs-Team erprobt gerade (Dank an die Arbeit von Antony-jr) das Herunterladen eines AppImage-Delta von FreeCAD via bittorrent. Das Repository-Thema findet sich unter <https://github.com/FreeCAD/FreeCAD-Bundle/issues/49>.
 
-# Entwickler Abschnitt {#entwickler_abschnitt}
+# Entwickler Abschnitt 
 
 
 **Hinweis:**
 
 Die folgenden Abschnitte sind für Entwickler gedacht.
 
-## Entpacken von AnwendungsAbbildern {#entpacken_von_anwendungsabbildern}
+## Entpacken von AnwendungsAbbildern 
 
 Ein sehr komfortabler Aspekt von FreeCAD ist, dass ein Großteil davon in [Python](Python/de.md) gebaut ist, das nicht manuell wie C++ kompiliert werden muss. Im Wesentlichen kann eine Python Datei geändert werden, und beim Neustart von FreeCAD werden diese Änderungen in die Anwendung integriert. Ein Entwickler kann mit dieser Technik und einem AppImage schnell an der neuesten FreeCAD Version arbeiten. Darüber hinaus verändert die Verwendung eines AppImage die Systemumgebung Ihres Systems in keiner Weise, d.h. es wird nichts installiert und es werden keine Umgebungsvariablen geändert.
 
-### AnwendungsAbbilder ändern {#anwendungsabbilder_ändern}
+### AnwendungsAbbilder ändern 
 
 Ein AnwendungsAbbild bettet ein Dateisystem mit allem ein, was zum Ausführen der Anwendung erforderlich ist. Um es zu modifizieren, muss das Dateisystem extrahiert werden.
 
@@ -147,7 +147,7 @@ cd squashfs-root/
 ./AppRun
 ```
 
-### AnwendungsAbbilder neu packen {#anwendungsabbilder_neu_packen}
+### AnwendungsAbbilder neu packen 
 
 Wenn du den Code geändert hast und nun das AnwendungsAbbild mit deinen letzten Änderungen neu packen möchtest, verwende das Werkzeug [appimagetool-x86\_64](https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) auf dem extrahierten Dateisystem.
 
@@ -159,7 +159,7 @@ chmod +x appimagetool-x86_64.AppImage
 ./appimagetool-x86_64.AppImage squashfs-root
 ```
 
-## Personalisierte AnwendungsAbbilder {#personalisierte_anwendungsabbilder}
+## Personalisierte AnwendungsAbbilder 
 
 Dank der Arbeit von **realthunder**, Autor von [Anwendungsverknüpfung](App_Link/de.md) und [Assembly3 Arbeitsbereich](Assembly3_Workbench/de.md), ist es möglich, benutzerdefinierte AnwendungsAbbilder mit Hilfe einer Reihe von Skripten zu erstellen.
 

@@ -104,7 +104,7 @@ Rebar2 = UShapeRebar.makeUShapeRebar(50, 50, 20, 20,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
 
-### Anpassung des Bewehrungsstabs {#anpassung_des_bewehrungsstabs}
+### Anpassung des Bewehrungsstabs 
 
 Die Eigenschaften des Bewehrungsstabs lassen sich mit der folgenden Funktion verändern 
 ```python

@@ -20,7 +20,7 @@ La forme résultante est un ensemble de sommets ou de points pouvant être utili
 ## Utilisation
 
 1.  Sélectionnez l\'objet maillé.
-2.  Aller à {{MenuCommand|Part → <img src="images/Part_PointsFromMesh.svg" width=24px> Créer un objet points à partir du maillage}}.
+2.  Aller à **Part → <img src="images/Part_PointsFromMesh.svg" width=24px> Créer un objet points à partir du maillage**.
 3.  Une forme à partir de l\'objet maillé est créée en tant que nouvel objet séparé.
 
 Il n\'y aura pas d\'analyse ou de validation de l\'objet maillé. L\'analyse et la réparation du maillage doivent être effectuées manuellement avant la conversion, si nécessaire. Des outils appropriés sont disponibles dans l\'**<img src="images/Workbench_Mesh.svg" width=24px> [atelier Mesh](Mesh_Workbench.md)**.

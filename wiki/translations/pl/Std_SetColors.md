@@ -8,7 +8,7 @@
    SeeAlso:[Wygląd zewnętrzny](Std_SetAppearance/pl.md)
 ---
 
-## Zmiana koloru ścian {#zmiana_koloru_ścian}
+## Zmiana koloru ścian 
 
 Funkcja ta pozwala na zdefiniowanie koloru dla każdej powierzchni lub ściany obiektu. ![Start function](images/Std_SetColors1_it.png ) W widoku z drzewa:
 

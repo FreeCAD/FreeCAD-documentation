@@ -38,7 +38,7 @@ Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_
 
 </div>
 
-## Usage X, Y and Z constraints {#usage_x_y_and_z_constraints}
+## Usage X, Y and Z constraints 
 
 1.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
 2.  Pick a first point. A previous point is required.
@@ -59,8 +59,8 @@ Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The default {{MenuCommand|Constrain mod}} key, **Shift**, can be changed: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod}}.
--   The {{MenuCommand|X}}, {{MenuCommand|Y}} and {{MenuCommand|Z}} shortcuts can be changed: {{MenuCommand|Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts}}.
+-   The default **Constrain mod** key, **Shift**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod**.
+-   The **X**, **Y** and **Z** shortcuts can be changed: **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
 
 
 

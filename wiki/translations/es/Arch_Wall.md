@@ -35,7 +35,7 @@ Cuando varios muros deberían intersecar, tienes que ubicarlos en un [piso](Arch
 
 ## Utilización
 
-### Dibujar un muro desde cero {#dibujar_un_muro_desde_cero}
+### Dibujar un muro desde cero 
 
 
 <div class="mw-translate-fuzzy">
@@ -47,7 +47,7 @@ Cuando varios muros deberían intersecar, tienes que ubicarlos en un [piso](Arch
 
 </div>
 
-### Dibujar un muro sobre los objetos seleccionados {#dibujar_un_muro_sobre_los_objetos_seleccionados}
+### Dibujar un muro sobre los objetos seleccionados 
 
 1.  Selecciona uno o más objetos de geometría base (objeto de borrador, croquis, etc.)
 2.  Pulse el botón **<img src="images/Arch_Wall.svg" width=16px> [Arquitectura Muro](Arch_Wall/es.md)**, o pulse las teclas **W** y luego **A**.

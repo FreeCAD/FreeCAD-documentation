@@ -6,7 +6,7 @@ Dies ist ein Beispiel für [Dialogerstellung](Dialog_creation/de.md) mit [PySide
 
 In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definiert. Obwohl dies für kleine Oberflächen möglich ist, wird für größere Oberflächen empfohlen, {{FileName|.ui}} Dateien mit Qt Designer zu erstellen und diese in das Programm zu laden. Siehe [Oberflächenerstellung mit UI Dateien](Interface_creation_with_UI_files.md).
 
-## Benutze QColorDialog, um eine Farbe zu bekommen {#benutze_qcolordialog_um_eine_farbe_zu_bekommen}
+## Benutze QColorDialog, um eine Farbe zu bekommen 
 
 Vollständiger Code: 
 ```python
@@ -32,7 +32,7 @@ if couleur.isValid():
 
 ```
 
-## Benutzen Sie QColorDialog zum Erstellen einer Farbpalette (Standard und benutzerdefiniert) {#benutzen_sie_qcolordialog_zum_erstellen_einer_farbpalette_standard_und_benutzerdefiniert}
+## Benutzen Sie QColorDialog zum Erstellen einer Farbpalette (Standard und benutzerdefiniert) 
 
 Dieses Beispiel ändert die Standardfarbe und die benutzerdefinierte Farbe mit dem Tango-FreeCAD-Leitfaden.
 

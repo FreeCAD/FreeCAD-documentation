@@ -8,7 +8,7 @@
 
 ## Wprowadzenie
 
-[Edytor właściwości](property_editor.md) pojawia się, gdy aktywna jest zakładka {{MenuCommand|Model}} [widoku łączonego](combo_view.md). Umożliwia zarządzanie publicznie eksponowanymi właściwościami obiektów w dokumencie.
+[Edytor właściwości](property_editor.md) pojawia się, gdy aktywna jest zakładka **Model** [widoku łączonego](combo_view.md). Umożliwia zarządzanie publicznie eksponowanymi właściwościami obiektów w dokumencie.
 
 Ogólnie rzecz biorąc, edytor właściwości jest przeznaczony do obsługi tylko jednego obiektu w tym samym czasie. Wartości wyświetlane w edytorze właściwości należą do wybranego obiektu aktywnego dokumentu. Mimo to, niektóre właściwości, takie jak kolory, mogą być ustawione dla wielu zaznaczonych obiektów. Jeśli nie ma zaznaczonych elementów, edytor właściwości będzie pusty.
 
@@ -19,7 +19,7 @@ Nie wszystkie właściwości mogą być zawsze modyfikowane. W zależności od o
 
 *Pusty edytor właściwości, gdy żaden obiekt nie jest zaznaczony.*
 
-## Typy właściwości {#typy_właściwości}
+## Typy właściwości 
 
 Właściwość jest informacją taką jak numer lub ciąg znaków dołączony do dokumentu FreeCAD lub obiektu w dokumencie.
 
@@ -40,22 +40,22 @@ App::PropertyPlacement
 
 Różne obiekty mogą mieć różne typy właściwości. Jednak wiele obiektów ma te same typy, ponieważ pochodzą one z tej samej klasy wewnętrznej. Na przykład, większość obiektów opisujących kształty geometryczne *(linie, okręgi, prostokąty, bryły, importowane części itp.)* ma właściwość **Położenie**, która określa ich położenie w widoku [3D](3D_view.md).
 
-## Właściwości widoku i danych {#właściwości_widoku_i_danych}
+## Właściwości widoku i danych 
 
 Istnieją dwie klasy właściwości obiektu dostępne poprzez zakładki w edytorze właściwości:
 
--    {{MenuCommand|View}}właściwości związane z **wizualnym** wyglądem obiektu. Właściwości {{MenuCommand|View}} są związane z **ViewProvider** (atrybut obiektu `ViewObject`) i są dostępne tylko wtedy, gdy załadowany jest graficzny interfejs użytkownika *(GUI)*. Nie są one dostępne przy korzystaniu z FreeCAD w trybie konsolowym lub jako biblioteka zasobów własnych.
+-    **View**właściwości związane z **wizualnym** wyglądem obiektu. Właściwości **View** są związane z **ViewProvider** (atrybut obiektu `ViewObject`) i są dostępne tylko wtedy, gdy załadowany jest graficzny interfejs użytkownika *(GUI)*. Nie są one dostępne przy korzystaniu z FreeCAD w trybie konsolowym lub jako biblioteka zasobów własnych.
 
--    {{MenuCommand|Data}}właściwości związane z parametrami \"fizycznymi\" obiektu. Właściwości {{MenuCommand|Data}} definiują podstawowe właściwości obiektu. Istnieją przez cały czas, nawet gdy FreeCAD jest używany w trybie konsolowym lub jako biblioteka. Oznacza to, że jeśli załadujesz dokument w trybie konsolowym, możesz edytować promień okręgu lub długość linii, nawet jeśli nie widzisz wyniku na ekranie.
+-    **Data**właściwości związane z parametrami \"fizycznymi\" obiektu. Właściwości **Data** definiują podstawowe właściwości obiektu. Istnieją przez cały czas, nawet gdy FreeCAD jest używany w trybie konsolowym lub jako biblioteka. Oznacza to, że jeśli załadujesz dokument w trybie konsolowym, możesz edytować promień okręgu lub długość linii, nawet jeśli nie widzisz wyniku na ekranie.
 
-Z tego powodu właściwości {{MenuCommand|Data}} są uważane za bardziej **realne**, ponieważ naprawdę definiują geometrię kształtu. Z drugiej strony, właściwości {{MenuCommand|View}} są mniej ważne, ponieważ wpływają jedynie na wygląd powierzchni geometrii. Na przykład okrąg o promieniu 10mm różni się od okręgu o promieniu 5mm. Kolor okręgu *(właściwość widoku)* nie ma wpływu na jego kształt, ale promień ma *(właściwość danych)*. W wielu przypadkach w niniejszej dokumentacji słowo **właściwość** jest rozumiane jako odnoszące się do **Właściwości danych**, a nie do **Właściwości widoku**.
+Z tego powodu właściwości **Data** są uważane za bardziej **realne**, ponieważ naprawdę definiują geometrię kształtu. Z drugiej strony, właściwości **View** są mniej ważne, ponieważ wpływają jedynie na wygląd powierzchni geometrii. Na przykład okrąg o promieniu 10mm różni się od okręgu o promieniu 5mm. Kolor okręgu *(właściwość widoku)* nie ma wpływu na jego kształt, ale promień ma *(właściwość danych)*. W wielu przypadkach w niniejszej dokumentacji słowo **właściwość** jest rozumiane jako odnoszące się do **Właściwości danych**, a nie do **Właściwości widoku**.
 
-### Własności podstawowe {#własności_podstawowe}
+### Własności podstawowe 
 
 
 **Zobacz również: [Object name](Object_name.md)**
 
-Najprostszy [obiekt skryptowy](scripted_objects.md) nie pokaże żadnej właściwości {{MenuCommand|Data}} w edytorze właściwości, z wyjątkiem atrybutu `Label`. `Label` jest edytowalnym łańcuchem użytkownika, który identyfikuje obiekt w [widoku drzewa](tree_view.md). Z drugiej strony, atrybut `Name` obiektu jest przypisany w momencie jego utworzenia i nie może być zmieniony. Atrybut ten jest tylko do odczytu i również nie jest wyświetlany w edytorze właściwości.
+Najprostszy [obiekt skryptowy](scripted_objects.md) nie pokaże żadnej właściwości **Data** w edytorze właściwości, z wyjątkiem atrybutu `Label`. `Label` jest edytowalnym łańcuchem użytkownika, który identyfikuje obiekt w [widoku drzewa](tree_view.md). Z drugiej strony, atrybut `Name` obiektu jest przypisany w momencie jego utworzenia i nie może być zmieniony. Atrybut ten jest tylko do odczytu i również nie jest wyświetlany w edytorze właściwości.
 
 Podstawowy obiekt parametryczny jest tworzony w następujący sposób.
 
@@ -82,34 +82,34 @@ Działania w zakresie widoku właściwości zostały wdrożone w wersji **0.19**
 
 Kliknięcie prawym przyciskiem myszy w pustym miejscu widoku lub z wybraną właściwością powoduje wyświetlenie tylko jednego polecenia:
 
--    {{MenuCommand|Show all}}: jeśli jest aktywny, oprócz standardowych właściwości, które już się pojawiają, pokazuje wszystkie ukryte właściwości danych i widoku w odpowiednich zakładkach.
+-    **Show all**: jeśli jest aktywny, oprócz standardowych właściwości, które już się pojawiają, pokazuje wszystkie ukryte właściwości danych i widoku w odpowiednich zakładkach.
 
     -   Dane: \"Proxy\", \"Label2\", \"Expression Engine\", oraz \"Visibility\".
     -   Widok: \"Proxy\".
 
-Gdy opcja {{MenuCommand|Show all}} jest aktywna, a wybrana jest jedna właściwość, dostępnych jest więcej akcji za pomocą drugiego kliknięcia prawym przyciskiem myszy:
+Gdy opcja **Show all** jest aktywna, a wybrana jest jedna właściwość, dostępnych jest więcej akcji za pomocą drugiego kliknięcia prawym przyciskiem myszy:
 
--    {{MenuCommand|Show all}}: dezaktywuje polecenie {{MenuCommand|Show all}}, ukrywając dodatkowe właściwości Dane i Widok.
+-    **Show all**: dezaktywuje polecenie **Show all**, ukrywając dodatkowe właściwości Dane i Widok.
 
--    {{MenuCommand|Add Property}}: dodaje dynamiczną właściwość do obiektu; działa to zarówno z obiektami zdefiniowanymi w C++ jak i Python [objekty skryptowane](scripted_objects.md).
+-    **Add Property**: dodaje dynamiczną właściwość do obiektu; działa to zarówno z obiektami zdefiniowanymi w C++ jak i Python [objekty skryptowane](scripted_objects.md).
 
--    {{MenuCommand|Expression}}: przywołuje edytor formuły, który umożliwia użycie [wyrażenia](Expressions.md) w wartości właściwości.
+-    **Expression**: przywołuje edytor formuły, który umożliwia użycie [wyrażenia](Expressions.md) w wartości właściwości.
 
--    {{MenuCommand|Hidden}}: jeżeli opcja jest aktywna, ustawia właściwość jako ukrytą, co oznacza, że będzie wyświetlana w edytorze właściwości tylko wtedy, gdy aktywna jest opcja {{MenuCommand|Show all}}.
+-    **Hidden**: jeżeli opcja jest aktywna, ustawia właściwość jako ukrytą, co oznacza, że będzie wyświetlana w edytorze właściwości tylko wtedy, gdy aktywna jest opcja **Show all**.
 
--    {{MenuCommand|Output}}: jeżeli opcja jest aktywna, ustawia właściwość jako wyjście.
+-    **Output**: jeżeli opcja jest aktywna, ustawia właściwość jako wyjście.
 
--    {{MenuCommand|NoRecompute}}: jeżeli opcja jest aktywna, ustawia właściwość jako nieprzeliczaną, gdy dokument jest ponownie obliczany. Jest to przydatne, gdy właściwość powinna być utrzymywana bez wpływu innych aktualizacji.
+-    **NoRecompute**: jeżeli opcja jest aktywna, ustawia właściwość jako nieprzeliczaną, gdy dokument jest ponownie obliczany. Jest to przydatne, gdy właściwość powinna być utrzymywana bez wpływu innych aktualizacji.
 
--    {{MenuCommand|ReadOnly}}: jeśli opcja ta jest aktywna, ustawia daną cechę jako tylko do odczytu. Nie będzie można jej edytować w edytorze właściwości, dopóki przełącznik ten nie zostanie wyłączony. Pozycja menu {{MenuCommand|Wyrażenia...}} nie jest już dostępna. **Uwaga:** Zmiana atrybutu może być nadal możliwa poprzez okno dialogowe, które aktualizuje daną cechę.
+-    **ReadOnly**: jeśli opcja ta jest aktywna, ustawia daną cechę jako tylko do odczytu. Nie będzie można jej edytować w edytorze właściwości, dopóki przełącznik ten nie zostanie wyłączony. Pozycja menu **Wyrażenia...** nie jest już dostępna. **Uwaga:** Zmiana atrybutu może być nadal możliwa poprzez okno dialogowe, które aktualizuje daną cechę.
 
--    {{MenuCommand|Transient}}: jeżeli opcja jest aktywna, ustawia właściwość jako przejściową. Wartość właściwości przejściowej nie jest zapisywana do pliku. Podczas otwierania pliku jest ona inicjowana wartością domyślną.
+-    **Transient**: jeżeli opcja jest aktywna, ustawia właściwość jako przejściową. Wartość właściwości przejściowej nie jest zapisywana do pliku. Podczas otwierania pliku jest ona inicjowana wartością domyślną.
 
--    {{MenuCommand|Touched}}: jeżeli opcja jest aktywna, to obiekt zostanie oznaczony do ponownego przeliczenia.
+-    **Touched**: jeżeli opcja jest aktywna, to obiekt zostanie oznaczony do ponownego przeliczenia.
 
--    {{MenuCommand|EvalOnRestore}}: jeżeli opcja jest aktywna, to obiekt jest przeliczany po przywróceniu dokumentu.
+-    **EvalOnRestore**: jeżeli opcja jest aktywna, to obiekt jest przeliczany po przywróceniu dokumentu.
 
-## Przykładowe właściwości obiektu z PartDesign {#przykładowe_właściwości_obiektu_z_partdesign}
+## Przykładowe właściwości obiektu z PartDesign 
 
 W tej sekcji pokazujemy kilka wspólnych właściwości, które są widoczne dla [PartDesign Body](PartDesign_Body.md), oraz jedną cechę [PartDesign Feature](PartDesign_Feature.md). Specyficzne właściwości obiektu można znaleźć na stronie poświęconej dokumentacji tego obiektu.
 
@@ -190,7 +190,7 @@ W tym przypadku obserwujemy właściwości [PartDesign Wyciągnij przez obrót](
 
 
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Zobacz również:**
@@ -221,7 +221,7 @@ print(obj.CustomCamelProperty)
 
 ![](images/FreeCAD_Property_editor_Custom.png ) *Edytor właściwości obiektu pokazujący właściwości danych [PartDesign Body](PartDesign_Body.md), z dwiema dodatkowymi właściwościami, ''Custom'' oraz ''Custom Camel Property''.*
 
-W podobny sposób dodawane są właściwości {{MenuCommand|widoku}}, nie do obiektu bazowego, ale do jego reprezentacji `ViewObject`. Wynika z tego, że właściwości takie jak **Angular Deflection**, **Bounding Box**, **Display Mode Mode Body**, **Line Color** i inne mogą być badane i zmieniane z konsoli [Python](Python_console.md).
+W podobny sposób dodawane są właściwości **widoku**, nie do obiektu bazowego, ale do jego reprezentacji `ViewObject`. Wynika z tego, że właściwości takie jak **Angular Deflection**, **Bounding Box**, **Display Mode Mode Body**, **Line Color** i inne mogą być badane i zmieniane z konsoli [Python](Python_console.md).
 
 
 ```python

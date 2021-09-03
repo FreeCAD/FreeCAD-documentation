@@ -11,7 +11,7 @@ If you are not involved with the development discussed here:<br>
 
 Here is the project plan for the **Assembly** module as part of the [Development roadmap](Development_roadmap.md).
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 This is a software development project aimed to implement assembly and product creation capabilities. It\'s about implementing some **core features** into the CAD modules of FreeCAD, **Part and Assembly**.
 
@@ -31,7 +31,7 @@ Another aim is to utilize [ODE](http://en.wikipedia.org/wiki/Open_Dynamics_Engin
 
 ## Brainstorming
 
-### Multi-model {#multi_model}
+### Multi-model 
 
 <img alt="" src=images/MultiModel.png  style="width:600px;"> A key feature to real world designs is the ability to split a design into handleable pieces. Its impossible to work on all aspects of a design at the same time or alone. That is true for the geometry and also for engineering tasks like FEM or CAM. Therefore FreeCAD needs the ability to split models. That opens some possibilities:
 
@@ -42,7 +42,7 @@ Another aim is to utilize [ODE](http://en.wikipedia.org/wiki/Open_Dynamics_Engin
 
 A multi-model design could look like that:
 
-### Project management {#project_management}
+### Project management 
 
 Multi-model means a lot of files belonging to one project, most likely under a common directory. A project file and a project browser can help organizing the files. Also it can save additional information about the project or a project website.
 
@@ -68,7 +68,7 @@ Abbreviation Keys for CC licenses:
 
 Additionally an URL link to the full license document (in case of custom licenses)
 
-### ISO 10303 {#iso_10303}
+### ISO 10303 
 
 The ISO 10303 (STEP) standard is very important in this field. It\'s the only good standardized, widely discussed and recognized definition of product structures I know of. <img alt="" src=images/Product_structure_modeling_Process-Data_diagram.gif  style="width:500px;">
 
@@ -81,7 +81,7 @@ Here some links with info:
 -   [Overview of Part 44 (edition 2) \-- Product Structure Configuration](http://www.steptools.com/support/stdev_docs/express/step_irs/index.html#part44)
 -   [Examples of small AP 214 files](http://www.steptools.com/support/stdev_docs/express/ap214/index.html)
 
-### Assembly constraints {#assembly_constraints}
+### Assembly constraints 
 
 An important role in building up large models and products take the assembly constraints, which formulate certain rules how parts assemble into a product. Mainly these are Fix, FaceToFace, Angle, Offset and some kind of pattern instantiation. These constraints need a specialized solver to keep them up if the parts change. This solver is fundamentally different to the Sketch solver. I think we have to go for a graph based approach on this\...
 
@@ -89,7 +89,7 @@ An important role in building up large models and products take the assembly con
 
 A further step would be to use [ODE](http://ode.org/), or similar libraries, to put the parts and the assembly constraints together to do a kinematic simulation of machines. That would allow checking for collisions and exploring the conditions of a mechanical system.
 
-### Revision control {#revision_control}
+### Revision control 
 
 An important point is the version control and distributed development. With multi-model design we are able to split designs in smaller pieces and can distribute work among a team. For a software developer \"distributed\" and \"Version\" sounds familiar, so why not use a [DVCS](http://en.wikipedia.org/wiki/Distributed_Version_Control_System). A good comparison is [here](http://en.wikipedia.org/wiki/Comparison_of_revision_control_software#Technical_information).
 
@@ -110,19 +110,19 @@ Here some development task needed for a decent Assembly/Product design:
 
 The assembly will demand some changes in the base system and infrastructure layer of FreeCAD.
 
-#### Multi-model {#multi_model_1}
+#### Multi-model 
 
 Multi-Model was in mind from the beginning of FreeCAD\'s design. Therefore we have a multi-document interface and can load unlimited documents. But we need to upgrade especially the 3D-Viewer to handle showing more then one document in its view (Part-Trees).
 
-#### Part-Trees {#part_trees}
+#### Part-Trees 
 
 Since in Assembly the composition of parts and sub-assemblies is the main workflow, the tools to stack (group) Parts in a tree have to be implemented. Unlike a DocumentObjectGroup the Assembly group has to deal with visibility and placement of the children. Best done by stacking ViewProvider on each other. That needs a kind of ClaimChildren() interface to the ViewProviders.
 
-#### Unified Drag/Drop/Copy/Paste interface {#unified_dragdropcopypaste_interface}
+#### Unified Drag/Drop/Copy/Paste interface 
 
 An interface allows ViewProvider and Workbenches full control over Drag/Drop/Copy/Paste operations in the tree or the 3D view.
 
-#### External resources {#external_resources}
+#### External resources 
 
 Handling of doped links (from internal or external browsers). Means loading resources over (potential) slow connections (http).
 
@@ -132,23 +132,23 @@ Describing material and its properties is a vital part of a CAD/CAE system. Mate
 
 For the Material description a special article is made: [Material](Material.md)
 
-### Object model {#object_model}
+### Object model 
 
 Class tree to deal with concepts needed. References, interfaces, document links, views, compounds, constraints, configurations, and many more\...
 
-## STEP check loop {#step_check_loop}
+## STEP check loop 
 
 Implementing a first STEP importer for more than geometry and color to check if the object model holds for a wider usage.
 
-### Assembly constraint solver {#assembly_constraint_solver}
+### Assembly constraint solver 
 
 Define an interface to an assembly constraint solver, very similar to the Sketcher solver interface.
 
-### Physics simulation interface {#physics_simulation_interface}
+### Physics simulation interface 
 
 Interface to allow (external) (multi)physics simulation software to take control over the positioning of the Parts of an assembly. This would allow to use \"bullet\" or \"ODE\" to do kinematic tests and DMU.
 
-## Next actions {#next_actions}
+## Next actions 
 
 -   Object model
 -   \...

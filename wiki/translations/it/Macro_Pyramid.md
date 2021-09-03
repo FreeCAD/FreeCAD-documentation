@@ -31,7 +31,7 @@ Se si è interessati esiste l\'ambiente esterno [Pyramids\_and\_Polyhedrons](htt
 
 <div class="mw-translate-fuzzy">
 
-## Come usare {#come_usare}
+## Come usare 
 
 
 </div>

@@ -7,7 +7,7 @@
 
 Diese Seite erklärt das Materialdatensystem in FreeCAD.
 
-## Überblick {#überblick_1}
+## Überblick 
 
 Weil es schwierig bis unmöglich ist, einen festen oder vollständigen Satz an Materialeigenschaften festzulegen, wählen wir einen offeneren Weg. Jedes Objekt in FreeCad, das mit Materialien zu tun hat, hat eine Eigenschaft, die mit \"Material\" benannt ist. Diese besteht aus einer Schlüssel/Wert-Liste, die eine unendliche Zahl an Materialeigenschaften enthalten kann. Weil dieser Weg mit solchen Daten umzugehen, sehr offen und erweiterbar ist, besteht auch die Gefahr von Unordnung und Chaos. Deswegen beschreibt diese Seite einige Regeln und grundsätzliche Eigenschaften, um mit solchen Materialeigenschaften-Listen umzugehen.
 
@@ -39,7 +39,7 @@ Es gibt einige Quellen, um Materialien einfacher zu handhaben:
 -   [Einheitenrechner](http://www.dimensionengine.com/), um Deine Materialinformationen in einer Einheit passend für FreeCAD zu erhalten
 -   [<http://www.matweb.com/>](http://www.matweb.com/) freie Materialdatenbank mit tausenden Materialwerten
 
-## Material-Datenbank {#material_datenbank}
+## Material-Datenbank 
 
 Sobald der obige Standard implementiert ist, wäre es dumm, die Eigenschaften wieder und wieder in den Objekten zu speichern. Grundsätzlich können wir eine Material-DB mit den Namen als Primärschlüssel aufbauen. Falls du dann keine speziellen Voraussetzungen an das Material hast, gibst du einfach z.B. Name=Steel an und FreeCAD holt sich die entsprechenden Eigenschaften aus der Datenbank. Jede zusätzliche Eigenschaft, die du in der Liste (map) setzt, überschreibt die entsprechende aus der DB.
 
@@ -58,13 +58,13 @@ Da die Handhabung von Materialeigenschaften mühselig ist, sollten wir ein Pytho
 
 Das Modul sollte so entwickelt sein, dass es sowohl in FreeCAD als auch unabhängig auf der Kommandozeile laufen kann (Material-Eigenschafts-Liste gegeben als Python-Liste (map)).
 
-## Das FreeCAD Material-Karten Dateiformat {#das_freecad_material_karten_dateiformat}
+## Das FreeCAD Material-Karten Dateiformat 
 
 Mit Materialien zu arbeiten heißt häufig Material-Definitionen zu importieren und exportieren. Dafür wird ein Dateiformat benötigt. Da wir nur Schlüssel-Wert-Paare haben, können wir ein einfaches und leicht zu lesendes und parsendes Dateiformat wählen. Hierfür wurde das [Initialisierungsdatei](http://de.wikipedia.org/wiki/Initialisierungsdatei)-Format gewählt. Es ist standardisiert und Parser sind bereits verfügbar. Z.B. das [Konfigparser-Modul in Python](http://docs.python.org/2/library/configparser.html).
 
 Jede Materialbeschreibung befindet sich in einer Datei mit der Endung {{FileName|.FCMat}}. Einige dieser Dateien sind Bestandteil der FreeCAD-Quellen und werden in die Binärdatei eincompiliert. Dies wird gemacht um zusätzlichen Aufwand bei der Verteilung und beim Zugang zu vermeiden. Außerdem können Dateien an verschieden Orten abgelegt und gesucht werden, um nicht-Standard Material-Definitionen zu ermöglichen.
 
-### Beispiel .FCMat-Datei {#beispiel_.fcmat_datei}
+### Beispiel .FCMat-Datei 
 
 
 ```python      
@@ -148,7 +148,7 @@ Dieser Abschnitt definiert Materialeigenschaften, die die visuelle Erscheinung d
 
   : Thermische Eigenschaften
 
-### Architektur und Gebäudedatenmodellierung {#architektur_und_gebäudedatenmodellierung}
+### Architektur und Gebäudedatenmodellierung 
 
 
 <div class="mw-translate-fuzzy">

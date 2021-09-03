@@ -45,25 +45,25 @@ Hinzufügen oder Entfernen von Formelementen aus einer bestehenden Spiegelung:
 
 Beim Erstellen einer gespiegelten Funktion bietet der Dialog \'\'\'Mirrored Parameters \'\'\'verschiedene Möglichkeiten zum Angeben der Spiegelungslinie oder -ebene.
 
-#### Horizontale Sikzzenachse {#horizontale_sikzzenachse}
+#### Horizontale Sikzzenachse 
 
 Nutzt die Horizontale Achse der Skizze als Symmetrieachse.
 
-#### Vertikale Skizzenachse {#vertikale_skizzenachse}
+#### Vertikale Skizzenachse 
 
 Nutzt die Vertikale Achse der Skizze als Symmetrieachse.
 
-#### Wähle Referenz\... {#wähle_referenz...}
+#### Wähle Referenz\... 
 
 Ermöglicht die Auswahl einer Ebene (wie einer Oberfläche eines Bauteils) als Spiegelungsbene .
 
-#### Erstellte Skizzenachse {#erstellte_skizzenachse}
+#### Erstellte Skizzenachse 
 
 Wenn die Skizze, die das zu spiegelnde Formelement definiert, auch eine Konstruktionslinie (oder -linien) enthält, enthält die Dropdown-Liste eine benutzerdefinierte Skizzenachse für jede Konstruktionslinie. Die erste Konstruktionslinie trägt die Bezeichnung \"Skizzenachse 0\". Das folgende Bild zeigt ein Beispiel, bei dem die Skizze im Bearbeitungsmodus anzeigt, dass sie eine Konstruktionslinie zur Verwendung als gespiegelte Achse enthält.
 
 ![](images/PartDesign_Mirrored_axis_fromconstructionlines.jpg )
 
-#### Basis (XY/XZ/YZ) Ebene {#basis_xyxzyz_ebene}
+#### Basis (XY/XZ/YZ) Ebene 
 
 Wähle eine der Standardebenen des Körperursprungs (XY, XZ or YZ).
 

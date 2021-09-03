@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Questo è il piano del progetto Qualità, all\'interno delle risorse di FreeCAD, come parte del [Piano di sviluppo](Development_roadmap/it.md).
 
-## Finalità e principi {#finalità_e_principi}
+## Finalità e principi 
 
 Questo progetto è una parte dello sviluppo del software e della documentazione del progetto. Mira a migliorare la qualità dei componenti principali di FreeCAD e ad offrire una migliore approccio a FreeCAD.
 
@@ -32,7 +32,7 @@ Un altro risultato importante è un **sistema di aiuto** completo per tutti i co
 
 ## Organizzazione
 
-## Azioni successive {#azioni_successive}
+## Azioni successive 
 
 Lavorare con tutti i comandi *unfinished* e creare la documentazione per i comandi di:
 

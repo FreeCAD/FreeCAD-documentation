@@ -21,11 +21,11 @@ Głównymi cechami Środowiska Assembly3 są
 
 [na początek strony](#top.md)
 
-### Paski narzędzi {#paski_narzędzi}
+### Paski narzędzi 
 
 Środowisko Assembly3 zawiera następujące paski narzędzi - stan na rok 2020.
 
-#### Główny pasek narzędzi {#główny_pasek_narzędzi}
+#### Główny pasek narzędzi 
 
 :   <img alt="" src=images/Assembly3_ToolbarMain.png  style="width:700px;">
 
@@ -112,7 +112,7 @@ Głównymi cechami Środowiska Assembly3 są
 
 </div>
 
-#### Główny pasek wiązań {#główny_pasek_wiązań}
+#### Główny pasek wiązań 
 
 :   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:28px;">
 
@@ -199,7 +199,7 @@ Głównymi cechami Środowiska Assembly3 są
 
 </div>
 
-#### Additional Constraints Toolbars {#additional_constraints_toolbars}
+#### Additional Constraints Toolbars 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
 
@@ -287,7 +287,7 @@ Głównymi cechami Środowiska Assembly3 są
     :   czy to 2D/3D albo czy więcej niż dwa Elementy mogą zostać dodane.
 :   Dokładny opis znajduje się w Wiki na Githubie.
 
-#### Pasek narzędzi nawigacji {#pasek_narzędzi_nawigacji}
+#### Pasek narzędzi nawigacji 
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -310,7 +310,7 @@ Głównymi cechami Środowiska Assembly3 są
 
 </div>
 
-#### Measurement Toolbar {#measurement_toolbar}
+#### Measurement Toolbar 
 
 :   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasureAngle.svg‎‎  style="width:28px;">
 
@@ -435,7 +435,7 @@ Since the AppImage only works for Linux, for Windows users at the moment the onl
 
 ## HowTo
 
-### Get Started {#get_started}
+### Get Started 
 
 There are many ways to create an assembly with Assembly3. Here is the most simple one you can do.
 
@@ -490,7 +490,7 @@ If you like you can move the **Locked** constraint upwards in the tree. Use the 
 
 [top](#top.md)
 
-### Add an Offset {#add_an_offset}
+### Add an Offset 
 
 Assembly3 does not offer Offset with the constaints in the way the [A2plus Workbench](A2plus_Workbench.md) or other CAD tools do. Instead it offers a more general and flexible system to add offsets translations but also angles.
 
@@ -509,7 +509,7 @@ Example:
 
 [top](#top.md)
 
-### Solve a Solver Failure {#solve_a_solver_failure}
+### Solve a Solver Failure 
 
 This often happens when parts are over-constrained, i.e. more than 6 DOF are locked.
 
@@ -519,7 +519,7 @@ Note: as Assembly3 tries to compensate for over-constraint parts behind the scen
 
 [top](#top.md)
 
-### Replace a part or rename a filename {#replace_a_part_or_rename_a_filename}
+### Replace a part or rename a filename 
 
 When a part is removed or when a filename changes, the assembly breaks, it can not longer be solved and the solver will issue the message \"Inconsistent constraints\". The solver marks invalid Elements and Constrains with a question mark in the tree.
 
@@ -560,7 +560,7 @@ One way to solve this is to just delete all invalid constraints and elements, im
 
 [top](#top.md)
 
-### Tips & Tricks {#tips_tricks}
+### Tips & Tricks 
 
 -   Using hierarchical assemblies helps in avoiding solver issues and keeping you model fluid. You can freeze a subassembly with one click and save CPU resources easily (use the context menu in the tree). When loading an assembly Assembly3 does not need to open external files for frozen subassemblies which keeps the tree compact.
 -   Is very helpful to make it a habit to name the elements and constraints. Use the **F2** key to do this quickly in the tree. You will find the tree sorting tools in the main toolbar very useful. An assembly with fully named constraints and elements is very easy to understand for other people or for oneself when looking at an older file.

@@ -16,7 +16,7 @@ Proposed activities are (more or less in chronological order) :
 -   Define new shortcuts to commands (following guidelines)
 -   Implement in the code
 
-# Global guidelines {#global_guidelines}
+# Global guidelines 
 
 Proposed guidelines :
 
@@ -30,11 +30,11 @@ Proposed guidelines :
 -   Shortcuts using system keys (\'PrntScr\', \'Pause\', \...) should be avoided
 -   Most used commands should have a shortcut. Not all commands have to have a shotcut.
 
-# List of commands {#list_of_commands}
+# List of commands 
 
 :   Note: \"A\" means the keyboard key A, not the upper case letter A (aka Shift-Key A)
 
-## Global Workbench {#global_workbench}
+## Global Workbench 
 
   Command                                                                                Icon                                                                                               Description                                                                               Shortcut             Comment
   -------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- -------------------- ---------
@@ -222,7 +222,7 @@ Proposed guidelines :
   [View\_Measure\_Clear\_All](View_Measure_Clear_All.md)                         <img alt="" src=images/View_Measure_Clear_All.svg  style="width:24px;">                           Clear measurement                                                                                              
   [View\_Measure\_Toggle\_All](View_Measure_Toggle_All.md)                       <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:24px;">                         Toggle measurement                                                                                             
 
-## Arch Workbench {#arch_workbench}
+## Arch Workbench 
 
   Command                                                              Icon                                                                             Description                                                                                                                           Shortcut     Comment
   -------------------------------------------------------------------- -------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------- ------------ ---------
@@ -279,7 +279,7 @@ Proposed guidelines :
   [Arch\_Wall](Arch_Wall.md)                                   <img alt="" src=images/Arch_Wall.svg  style="width:24px;">                                   Creates a wall object from scratch or from a selected object (wire, face or solid)                                                    W, A         
   [Arch\_Window](Arch_Window.md)                               <img alt="" src=images/Arch_Window.svg  style="width:24px;">                               Creates a window object from a selected object (wire, rectangle or sketch)                                                            W, N         
 
-## Draft Workbench {#draft_workbench}
+## Draft Workbench 
 
   Command                                                                    Icon                                                                                   Description                                                                                                                                                                                                                                                                                                                                                                                       Shortcut      Comment
   -------------------------------------------------------------------------- -------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------- ---------
@@ -360,7 +360,7 @@ Proposed guidelines :
   [Draft\_WireToBSpline](Draft_WireToBSpline.md)                     <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;">                     Converts a selected polyline to a B-spline, or a B-spline to a polyline.                                                                                                                                                                                                                                                                                                                                        
   [Draft\_WorkingPlaneProxy](Draft_WorkingPlaneProxy.md)             <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;">             Creates a proxy object from the current working plane. Once the object is created double click it in the tree view to restore the camera position and objects\' visibilities. Then you can use it to save a different camera position and objects\' states any time you need.                                                                                                                                   
 
-## Drawing Workbench {#drawing_workbench}
+## Drawing Workbench 
 
   Command                    Description                                                            Shortcut   Comment
   -------------------------- ---------------------------------------------------------------------- ---------- ---------
@@ -378,7 +378,7 @@ Proposed guidelines :
   Drawing\_SpreadsheetView   Inserts a view of a selected spreadsheet in the active drawing                    
   Drawing\_Symbol            Inserts a symbol from a svg file in the active drawing                            
 
-## FEM Workbench {#fem_workbench}
+## FEM Workbench 
 
   Command                                                                                    Icon                                                                                                   Description                                                                          Shortcut   Comment
   ------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------ ---------- ---------
@@ -448,7 +448,7 @@ Proposed guidelines :
   [FEM\_SolverRun](FEM_SolverRun.md)                                                 <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;">                                                 Runs the calculations for the selected solver                                        R, C       
   [FEM\_SolverZ88](FEM_SolverZ88.md)                                                 <img alt="" src=images/FEM_SolverZ88.svg  style="width:24px;">                                                 Creates a FEM solver Z88                                                             S, Z       
 
-## Image Workbench {#image_workbench}
+## Image Workbench 
 
   Command                                                        Icon                                                                       Description                                                       Shortcut   Comment
   -------------------------------------------------------------- -------------------------------------------------------------------------- ----------------------------------------------------------------- ---------- ---------
@@ -456,14 +456,14 @@ Proposed guidelines :
   [Image\_Open](Image_Open.md)                           <img alt="" src=images/Image_Open.svg  style="width:24px;">                           Open image view                                                              
   [Image\_Scaling](Image_Scaling.md)                     <img alt="" src=images/Image_Scaling.svg  style="width:24px;">                     Scales an image plane by defining a distance between two points              
 
-## Inspection Workbench {#inspection_workbench}
+## Inspection Workbench 
 
   Command                        Description                Shortcut   Comment
   ------------------------------ -------------------------- ---------- ---------
   Inspection\_InspectElement     Get distance information              
   Inspection\_VisualInspection   Visual inspection                     
 
-## Mesh Workbench {#mesh_workbench}
+## Mesh Workbench 
 
   Command                                                            Icon                                                                           Description                                             Shortcut   Comment
   ------------------------------------------------------------------ ------------------------------------------------------------------------------ ------------------------------------------------------- ---------- ---------
@@ -504,7 +504,7 @@ Proposed guidelines :
   [Mesh\_Union](Mesh_Union.md)                               <img alt="" src=images/Mesh_Union.svg  style="width:24px;">                               Union                                                              
   [Mesh\_VertexCurvature](Mesh_VertexCurvature.md)           <img alt="" src=images/Mesh_VertexCurvature.svg  style="width:24px;">           Calculates the curvature of the vertices of a mesh                 
 
-## OpenSCAD Workbench {#openscad_workbench}
+## OpenSCAD Workbench 
 
   Command                              Description                                                                                Shortcut   Comment
   ------------------------------------ ------------------------------------------------------------------------------------------ ---------- ---------
@@ -521,7 +521,7 @@ Proposed guidelines :
   OpenSCAD\_RemoveSubtree              Removes the selected objects and all children that are not referenced from other objects              
   OpenSCAD\_ReplaceObject              Replace an object in the Feature Tree. Please select old, new, and parent object                      
 
-## PartDesign Workbench {#partdesign_workbench}
+## PartDesign Workbench 
 
   Command                                                                                  Icon                                                                                                 Description                                                                             Shortcut   Comment
   ---------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------- ---------- ---------
@@ -564,7 +564,7 @@ Proposed guidelines :
   [PartDesign\_WizardShaft](PartDesign_WizardShaft.md)                             <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:24px;">                             Start the shaft design wizard                                                                      
   [PartDesign\_WizardShaftCallBack](PartDesign_WizardShaftCallBack.md)             <img alt="" src=images/PartDesign_WizardShaftCallBack.svg  style="width:24px;">             Start the shaft design wizard                                                                      
 
-## Part Workbench {#part_workbench}
+## Part Workbench 
 
   Command                                                                Icon                                                                             Description                                                                              Shortcut   Comment
   ---------------------------------------------------------------------- -------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------- ---------- ---------
@@ -636,7 +636,7 @@ Proposed guidelines :
   [Part\_XOR](Part_XOR.md)                                       <img alt="" src=images/Part_XOR.svg  style="width:24px;">                                     Remove intersection fragments                                                                       
   [Part\_projectionOnSurface](Part_projectionOnSurface.md)       <img alt="" src=images/Part_projectionOnSurface.svg  style="width:24px;">     Create projection on surface\...                                                                    
 
-## Path Workbench {#path_workbench}
+## Path Workbench 
 
   Command                                                            Icon                                                                           Description                                                                              Shortcut   Comment
   ------------------------------------------------------------------ ------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------- ---------- ---------
@@ -689,7 +689,7 @@ Proposed guidelines :
   [Path\_ToolController](Path_ToolController.md)             <img alt="" src=images/Path_ToolController.svg  style="width:24px;">             Add Tool Controller                                                                                 
   [Path\_ToolLibraryEdit](Path_ToolLibraryEdit.md)           <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:24px;">           Tool Manager                                                                             P, T       
 
-## Points Workbench {#points_workbench}
+## Points Workbench 
 
   Command                                            Icon                                                           Description                                Shortcut   Comment
   -------------------------------------------------- -------------------------------------------------------------- ------------------------------------------ ---------- ---------
@@ -701,7 +701,7 @@ Proposed guidelines :
   [Points\_Structure](Points_Structure.md)   <img alt="" src=images/Points_Structure.svg  style="width:24px;">   Convert points to structured point cloud              
   [Points\_Transform](Points_Transform.md)   <img alt="" src=images/Points_Transform.svg  style="width:24px;">   Test to transform a point cloud                       
 
-## Raytracing Workbench {#raytracing_workbench}
+## Raytracing Workbench 
 
   Command                        Description                                                                    Shortcut   Comment
   ------------------------------ ------------------------------------------------------------------------------ ---------- ---------
@@ -715,7 +715,7 @@ Proposed guidelines :
   Raytracing\_WritePart          Write the selected Part (object) as a POV-Ray file                                        
   Raytracing\_WriteView          Write the active 3D view with camera and all its content to a POV-Ray file                
 
-## Reverse engineering Workbench {#reverse_engineering_workbench}
+## Reverse engineering Workbench 
 
   Command                            Description                                Shortcut   Comment
   ---------------------------------- ------------------------------------------ ---------- ---------
@@ -731,7 +731,7 @@ Proposed guidelines :
   Reen\_SegmentationManual           Create mesh segments manually                         
   Reen\_ViewTriangulation            Triangulation of structured point clouds              
 
-## Robot Workbench {#robot_workbench}
+## Robot Workbench 
 
   Command                          Description                                                                                                  Shortcut   Comment
   -------------------------------- ------------------------------------------------------------------------------------------------------------ ---------- ---------
@@ -755,7 +755,7 @@ Proposed guidelines :
   Robot\_TrajectoryCompound        Group and connect some trajectories to one                                                                              
   Robot\_TrajectoryDressUp         Create a dress-up object which overrides some aspects of a trajectory                                                   
 
-## Sketcher Workbench {#sketcher_workbench}
+## Sketcher Workbench 
 
   Command                                                                                                            Icon                                                                                                                           Description                                                                                                    Shortcut       Comment
   ------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------- -------------- ---------
@@ -858,7 +858,7 @@ Proposed guidelines :
   [Sketcher\_ViewSection](Sketcher_ViewSection.md)                                                           <img alt="" src=images/Sketcher_ViewSection.svg  style="width:24px;">                                                           Switches between section and full view                                                                                        
   [Sketcher\_ViewSketch](Sketcher_ViewSketch.md)                                                             <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:24px;">                                                             View sketch perpendicular to sketch plane                                                                                     
 
-## Spreadsheet Workbench {#spreadsheet_workbench}
+## Spreadsheet Workbench 
 
   Command                                                                Icon                                                                               Description                                          Shortcut       Comment
   ---------------------------------------------------------------------- ---------------------------------------------------------------------------------- ---------------------------------------------------- -------------- ---------
@@ -878,13 +878,13 @@ Proposed guidelines :
   [Spreadsheet\_StyleItalic](Spreadsheet_StyleItalic.md)         <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;">         Set text in selected cells italic                                   
   [Spreadsheet\_StyleUnderline](Spreadsheet_StyleUnderline.md)   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;">   Underline text in selected cells                                    
 
-## Start Workbench {#start_workbench}
+## Start Workbench 
 
   Command            Description                                 Shortcut   Comment
   ------------------ ------------------------------------------- ---------- ---------
   Start\_StartPage   Displays the start page in a browser view              
 
-## Surface Workbench {#surface_workbench}
+## Surface Workbench 
 
   Command                                                          Icon                                                                         Description                                                                        Shortcut   Comment
   ---------------------------------------------------------------- ---------------------------------------------------------------------------- ---------------------------------------------------------------------------------- ---------- ---------
@@ -893,7 +893,7 @@ Proposed guidelines :
   [Surface\_Filling](Surface_Filling.md)                   <img alt="" src=images/Surface_Filling.svg  style="width:24px;">                   Fills a series of boundary curves, constraint curves and vertexes with a surface              
   [Surface\_GeomFillSurface](Surface_GeomFillSurface.md)   <img alt="" src=images/Surface_GeomFillSurface.svg  style="width:24px;">   Creates a surface from two, three or four boundary edges                                      
 
-## TechDraw Workbench {#techdraw_workbench}
+## TechDraw Workbench 
 
   Command                                                                                Icon                                                                                               Description                                            Shortcut   Comment
   -------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------- ------------------------------------------------------ ---------- ---------
@@ -948,7 +948,7 @@ Proposed guidelines :
   [TechDraw\_View](TechDraw_View.md)                                             <img alt="" src=images/TechDraw_View.svg  style="width:24px;">                                             Insert a View                                                     
   [TechDraw\_WeldSymbol](TechDraw_WeldSymbol.md)                                 <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:24px;">                                 Add Welding Information to Leaderline                             
 
-## Test Workbench {#test_workbench}
+## Test Workbench 
 
   Command                Description                                                   Shortcut   Comment
   ---------------------- ------------------------------------------------------------- ---------- ---------
@@ -964,7 +964,7 @@ Proposed guidelines :
   Test\_TestDocText      Test the document (creation, save, load and destruction)                 
   Test\_TestWork         Test the switching of workbenches in FreeCAD                             
 
-## Web Workbench {#web_workbench}
+## Web Workbench 
 
   Command                                                Icon                                                               Description                    Shortcut   Comment
   ------------------------------------------------------ ------------------------------------------------------------------ ------------------------------ ---------- ---------

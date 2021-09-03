@@ -3,7 +3,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Instalrea Driver-ului {#instalrea_driver_ului}
+## Instalrea Driver-ului 
 
 ### Linux
 
@@ -12,21 +12,21 @@ FreeCAD supportă drivere din proiect [Spacenav](http://spacenav.sourceforge.net
 
 </div>
 
-### Linux {#linux_1}
+### Linux 
 
 FreeCAD supports drivers from project [Spacenav](http://spacenav.sourceforge.net/). This is a project aiming to create an open-sourced driver which is compatible with the proprietary drivers from 3Dconnexion.
 
 
 <div class="mw-translate-fuzzy">
 
-#### Instalare din repo {#instalare_din_repo}
+#### Instalare din repo 
 
 ##### Ubuntu
 
 
 </div>
 
-##### Ubuntu {#ubuntu_1}
+##### Ubuntu 
 
 
 ```python
@@ -93,7 +93,7 @@ sudo zypper install spacenavd
 
 <div class="mw-translate-fuzzy">
 
-#### Compilați Spacenav de la sursă {#compilați_spacenav_de_la_sursă}
+#### Compilați Spacenav de la sursă 
 
 Acest lucru este recomandat în cazul în care distribuția dvs. ar putea oferi o versiune depășită.
 
@@ -228,7 +228,7 @@ Dacă ieșirea arată cam așa, puteți continua.
 
 -   Urmați același model pentru a compila și instala spnavcfg. Asigurați-vă că rulați spnavcfg ca root, sau altfel nu vor fi salvate setări!
 
-#### Starting spacenavd as a systemd service at boot {#starting_spacenavd_as_a_systemd_service_at_boot}
+#### Starting spacenavd as a systemd service at boot 
 
 If you want to start spacenavd at boot using systemd, do the following:
 
@@ -259,7 +259,7 @@ sudo /etc/init.d/spacenavd restart
 
 După aceea, reporniți FreeCAD. La unele distro-uri este necesar ca la fiecare boot.
 
-### Known Issues {#known_issues}
+### Known Issues 
 
 A user reported on the [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) they saw the following:
 
@@ -304,7 +304,7 @@ De la versiunea 0.13, mouse-ul 3D este suportat sub Windows. Trebuie să aveți 
 
 As of version 0.13, 3D mouse is supported under Windows. You need to have 3Dconnexion drivers installed.
 
-#### Known Issue {#known_issue}
+#### Known Issue 
 
 There is an issue where 3Dconnexion sends duplicate scroll events to FreeCAD, which causes the view to jump. To fix it:
 
@@ -319,7 +319,7 @@ ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
 <div class="mw-translate-fuzzy">
 
-## Configurarea FreeCAD {#configurarea_freecad}
+## Configurarea FreeCAD 
 
 Suportul mouse-ului 3D a fost realizat cu un proiect spnav pe Linux, și la un nivel foarte scăzut pe Windows. Aceasta înseamnă că nu a existat niciun suport pentru setările pentru un dispozitiv, deoarece pe Linux nu există un suport bun pentru acest lucru, iar pe Windows este suprasolicitat. Acesta este motivul pentru care au fost adăugate două pagini suplimentare în dialogul \"Personalizare\".
 
@@ -333,7 +333,7 @@ Suportul mouse-ului 3D a fost realizat cu un proiect spnav pe Linux, și la un n
 
 <div class="mw-translate-fuzzy">
 
-### Spaceball Motion {#spaceball_motion}
+### Spaceball Motion 
 
 În această filă aveți posibilitatea de a configura unele dintre setările generale ale mouse-ului spațial. Ei includ:
 
@@ -367,7 +367,7 @@ In this tab you have ability to set up some of general space mouse settings. The
 
 <div class="mw-translate-fuzzy">
 
-### Butoane pentru Spaceball {#butoane_pentru_spaceball}
+### Butoane pentru Spaceball 
 
 Când deschideți această filă pentru prima dată, va fi goală și indisponibilă. Pentru a o activa, trebuie să apăsați unul din butoanele mouse-ului spațial. După ce faceți acest lucru, lista de butoane va apărea în partea stângă, iar lista de comenzi va fi disponibilă în partea dreaptă.
 

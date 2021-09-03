@@ -25,7 +25,7 @@ Since the [Baumansicht](tree_view/de.md) listet die meisten Objekte auf, die in 
 
 Wenn die Standardeinstellung [Arbeitsbereich Start](Start_Workbench/de.md) aktiv ist, zeigt ein Rechtsklick auf die 3D-Ansicht nur einen Befehl:
 
--    {{MenuCommand|[Navigationsstile](Mouse_navigation.md)}}: verschiedene Tastenstile zur Verwendung mit einer 3-Tasten-Maus oder einem Laptop Trackpad.
+-    **[Navigationsstile](Mouse_navigation.md)**: verschiedene Tastenstile zur Verwendung mit einer 3-Tasten-Maus oder einem Laptop Trackpad.
 
 Sobald jedoch ein [Arbeitsbereich](Workbenches/de.md) geladen ist, gibt es zusätzliche Befehle:
 

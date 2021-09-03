@@ -54,7 +54,7 @@ A more detailed discussion of Part workbench versus Part Design workbench can be
 
 <div class="mw-translate-fuzzy">
 
-这些工具皆位于{{MenuCommand|Part}}菜单。
+这些工具皆位于**Part**菜单。
 
 
 </div>
@@ -294,7 +294,7 @@ These tools perform boolean operations.
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Defeaturing](Part_Defeaturing.md): Removes features from an object.
 
-### Context menu items {#context_menu_items}
+### Context menu items 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance](Std_SetAppearance.md): Determines the appearance of a whole object (color, transparency etc.).
 

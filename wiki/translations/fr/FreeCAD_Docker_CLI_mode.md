@@ -18,7 +18,7 @@ Toutes les dépendances de FreeCAD sont déjà installées, compatibles les unes
 -   Il donne de meilleures performances en termes de vitesse.
 -   Pas besoin d\'ajouter des chemins FreeCAD pour l\'importer dans Python.
 
-## Dépôt Docker {#dépôt_docker}
+## Dépôt Docker 
 
 -   Docker Hub : <https://hub.docker.com/r/amrit3701/freecad-cli>
 -   Dépôt Github : <https://github.com/amrit3701/docker-freecad-cli>
@@ -37,9 +37,9 @@ Toutes les dépendances de FreeCAD sont déjà installées, compatibles les unes
     docker run -it amrit3701/freecad-cli:lastest bash
     }}
 
-## Information Supplémentaire {#information_supplémentaire}
+## Information Supplémentaire 
 
-### Extension de l\'image de Docker {#extension_de_limage_de_docker}
+### Extension de l\'image de Docker 
 
 Vous pouvez également étendre ces images Docker pour ajouter des dépendances supplémentaires pour votre projet. Par exemple {{Code|lang=docker|code=
 
@@ -52,7 +52,7 @@ FROM amrit3701/freecad-cli:lastest
 # pip3.8 install <some_package>
 }}
 
-### Importer FreeCAD en Python {#importer_freecad_en_python}
+### Importer FreeCAD en Python 
 
 Après avoir exécuté l\'image du Docker, il suffit de lancer Python.
 
@@ -69,7 +69,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import Arch
 }}
 
-### Lancer FreeCADCmd {#lancer_freecadcmd}
+### Lancer FreeCADCmd 
 
 Pour lancer FreeCAD dans l\'image de Docker, exécutez simplement la commande FreeCADCmd .
 

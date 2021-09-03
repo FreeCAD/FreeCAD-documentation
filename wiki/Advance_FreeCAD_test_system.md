@@ -16,18 +16,18 @@ This project aims at reducing the work required to write meaningful tests. This 
 3.  Create a wizard or GUI for test creation in the Test workbench. This would work like macro recording: the user starts the test recording, and everything plotted in the python console would be the test procedure. When hitting stop the user gets a dialog where he can choose which comparators to apply. The wizard than creates the appropriate test structure with the test itself, all needed result files etc.
 4.  Create a Wiki page describing the working of the test system and how to create tests and new comparators
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  Mergable code for a result file based comparator system
 2.  A GUI for simplified test generation based on macro recording
 3.  A Wiki page describing the procedure for the user to create tests and the developer to create new comparators
 4.  Tests which utilize the created comparators and show their use
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 Future contributions can include new comparators, e.g. for meshes. Also creating tests for existing functionality has a high priority and can be achieved with the new system. Futhermore a GUI based system can be created, where a test is defined by recorded UI events, see [Record and replay events](http://algoholic.eu/recording-and-replaying-qt-input-events/). This could also be a new GSoC project.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -38,6 +38,6 @@ Future contributions can include new comparators, e.g. for meshes. Also creating
 
 Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

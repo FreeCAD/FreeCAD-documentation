@@ -15,10 +15,10 @@ The mouse gestures used for object manipulation vary depending on the Navigation
 
 There are two ways to change the navigation style:
 
--   In the [Preferences Editor](Preferences_Editor#Navigation.md); menu {{MenuCommand|Edit → Preferences → Display → Navigation → 3D Navigation}}.
--   By right-clicking in empty space in the 3D view, then selecting {{MenuCommand|Navigation styles}} in the context menu.
+-   In the [Preferences Editor](Preferences_Editor#Navigation.md); menu **Edit → Preferences → Display → Navigation → 3D Navigation**.
+-   By right-clicking in empty space in the 3D view, then selecting **Navigation styles** in the context menu.
 
-### CAD Navigation {#cad_navigation}
+### CAD Navigation 
 
 This is the default navigation style. It allows the user a simple control of the view, and does not require the use of keyboard keys except to make multi-selections.
 
@@ -59,7 +59,7 @@ With this method the middle mouse button may be released after the right mouse b
 Users who use the mouse with their right hand may find this method easier than the first method.
 }}
 
-### OpenInventor Navigation {#openinventor_navigation}
+### OpenInventor Navigation 
 
 OpenInventor navigation (formerly Inventor) was modeled after [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). In order to select objects, you must hold down the **Ctrl** key.
 
@@ -81,7 +81,7 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
-### Blender Navigation {#blender_navigation}
+### Blender Navigation 
 
 The Blender navigation style was modeled after [Blender](https://www.blender.org). Previously there was no mouse-only panning; it always required holding the **Shift** key. This changed in 2016, now you can hold both left and right mouse buttons to pan. {{Blender Navigation
 |Select_name=Select
@@ -98,7 +98,7 @@ Alternatively, hold both left and right mouse buttons, and then move the pointer
 |Rotate_view_text=Hold the middle mouse button, then move the pointer.
 }}
 
-### Touchpad Navigation {#touchpad_navigation}
+### Touchpad Navigation 
 
 In Touchpad Navigation, panning, zooming, and rotating the view require a modifier key together with the touchpad. {{Touchpad Navigation
 |Select_name=Select
@@ -118,7 +118,7 @@ In Touchpad Navigation, panning, zooming, and rotating the view require a modifi
 |Rotate_view_alt_text=Alternatively, hold **Shift** and the left button, then move the pointer.
 }}
 
-### Gesture Navigation {#gesture_navigation}
+### Gesture Navigation 
 
 This style was introduced in version 0.16, and was tailored for use with a touchscreen and pen. Nevertheless, it can also be used with a mouse, and is recommended for use when using a Mac with a trackpad. {{Gesture Navigation
 |Select_name=Select
@@ -148,10 +148,10 @@ Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md).
 |Tilt_view_gesture_text=Rotate the imaginary line formed by two touch points.
 
 
-On v0.18 this method is disabled by default. To enable, go to {{MenuCommand|Edit → Preferences → Display}}, and untick "Disable touchscreen tilt gesture" checkbox.
+On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick "Disable touchscreen tilt gesture" checkbox.
 }}
 
-### Maya-Gesture Navigation {#maya_gesture_navigation}
+### Maya-Gesture Navigation 
 
 In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this mode was developed over the [Gesture Navigation](#Gesture_Navigation.md) mode. {{MayaGesture Navigation
 |Select_name=Select
@@ -168,7 +168,7 @@ Alternatively, use the mouse wheel to zoom in and out.
 |Rotate_view_text=Hold **Alt** and the left mouse button, then move the pointer.
 }}
 
-### Revit Navigation {#revit_navigation}
+### Revit Navigation 
 
 This style was introduced in version 0.18.
 
@@ -213,9 +213,9 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 |Rotate_view_text=Hold **Ctrl** and the right mouse button, then move the pointer.
 }}
 
-## Selecting objects {#selecting_objects}
+## Selecting objects 
 
-### Simple selection {#simple_selection}
+### Simple selection 
 
 Objects can be selected by a click with the left mouse button either by clicking on the object in the [3D view](3D_view.md) or by selecting it in the [tree view](tree_view.md).
 
@@ -223,15 +223,15 @@ Objects can be selected by a click with the left mouse button either by clicking
 
 There is also a *Preselection* mechanism that highlights objects and displays information before selection by just hovering the mouse over the objects. If you don\'t like this behaviour or you have a slow machine, you can switch preselection off in the preferences.
 
-## Manipulating Objects {#manipulating_objects}
+## Manipulating Objects 
 
 FreeCAD offers [*manipulators*](Manipulator.md) that are handles that can be used to modify an object\'s appearance, shape, or other parameters.
 
-## Hardware support {#hardware_support}
+## Hardware support 
 
 FreeCAD also supports some [3D input devices](3D_input_devices.md).
 
-## Mac OS X Issues {#mac_os_x_issues}
+## Mac OS X Issues 
 
 Recently we got reports [on the forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) from Mac users that those mouse button and key combination do not work as expected. Unfortunately, none of the developers owns a Mac, neither do the other regular contributors. We need your help to determine which mouse buttons and key combination work so we can update this wiki.
 

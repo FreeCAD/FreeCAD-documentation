@@ -25,7 +25,7 @@ En plus des propriétés décrites dans [App DocumentObject](App_DocumentObject/
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets scriptés peuvent avoir.
 
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande {{MenuCommand|Show all}} dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
 
 ### Données
 

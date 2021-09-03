@@ -19,7 +19,7 @@ Simulation d\'un assemblage.
 
 Téléchargez les fichiers et lancez la macro
 
-## Le fichier {#le_fichier}
+## Le fichier 
 
 [Assy.fcstd](http://forum.freecadweb.org/download/file.php?id=6740)
 

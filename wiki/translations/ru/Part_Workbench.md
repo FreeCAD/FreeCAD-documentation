@@ -25,7 +25,7 @@
 
 ## Инструменты
 
-Инструменты модуля расположены в меню {{MenuCommand|Деталь}} или в меню {{MenuCommand|Measure}}.
+Инструменты модуля расположены в меню **Деталь** или в меню **Measure**.
 
 ### Примитивы
 
@@ -63,7 +63,7 @@
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Построитель](Part_Builder/ru.md): Создаёт формы из разнообразных примитивов.
 
-### Создание и изменение {#создание_и_изменение}
+### Создание и изменение 
 
 Эти инструменты служат для создания новых и изменения существующих объектов.
 
@@ -77,7 +77,7 @@
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Фаска](Part_Chamfer/ru.md): Делает фаску на рёбрах объекта.
 
--   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Создать грань из ломанных](Part_MakeFace/ru.md): Создаёт грань из набора ломанных (рёбер или контуров). Доступно из меню {{MenuCommand|Деталь}} {{Version/ru|0.19}}.
+-   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Создать грань из ломанных](Part_MakeFace/ru.md): Создаёт грань из набора ломанных (рёбер или контуров). Доступно из меню **Деталь** {{Version/ru|0.19}}.
 
 -   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Линейчатая поверхность](Part_RuledSurface/ru.md): Создаёт линейчатую поверхность.
 
@@ -99,7 +99,7 @@
 
 -   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Attachment (Прикрепить)](Part_Attachment/ru.md): Прикрепляет расположение одного объекта относительно другого.
 
-### Булевы операции {#булевы_операции}
+### Булевы операции 
 
 Следующие инструменты выполняют логические (Булевы) операции.
 
@@ -145,7 +145,7 @@
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Toggle Delta (Переключить координаты)](Part_Measure_Toggle_Delta/ru.md): Показывает или скрывает измерения в ортогональной системе.
 
-### Прочие инструменты {#прочие_инструменты}
+### Прочие инструменты 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Импорт CAD\...](Part_Import/ru.md): Импорт в текущий документ файлов типа \*.IGES, \*.STEP или \*.BREP.
 
@@ -171,7 +171,7 @@
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Удаление элемента](Part_Defeaturing/ru.md): Удаляет применённые функции (features) построения из объекта.
 
-### Элементы контекстного меню {#элементы_контекстного_меню}
+### Элементы контекстного меню 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Внешний вид\...](Std_SetAppearance/ru.md): Определяет внешний вид всего объекта (цвет, прозрачность и т.д.).
 
@@ -183,7 +183,7 @@
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import Export Preferences](Import_Export_Preferences/ru.md): Настройки, доступные для импорта и экспорта в различные форматы файлов.
 -   [Fine-tuning](Fine-tuning/ru.md): Некоторые дополнительные параметры для тонкой настройки поведения модуля Part.
 
-## Написание сценариев {#написание_сценариев}
+## Написание сценариев 
 
 Смотри [Создание сценариев (скриптов) модуля Part](Part_scripting/ru.md)
 

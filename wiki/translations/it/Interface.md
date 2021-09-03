@@ -23,15 +23,15 @@ La finestra principale dell\'applicazione può essere suddivisa approssimativame
 10. Il [selettore degli ambienti](Std_Workbench/it.md), che a sua volta è una barra degli strumenti
 11. Il [menu standard](Standard_Menu/it.md)
 
-## Componenti dell\'interfaccia {#componenti_dellinterfaccia}
+## Componenti dell\'interfaccia 
 
 Come molti software, FreeCAD include una barra dei menu standard, quindi una serie di barre degli strumenti e pannelli in cui si trovano gli strumenti per l\'utente.
 
 ### Menu
 
-I [menu standard](Standard_Menu/it.md) sono: [{{MenuCommand|File}}](Std_File_Menu/it.md), [{{MenuCommand|Modifica}}](Std_Edit_Menu/it.md), [{{MenuCommand|Visualizza}}](Std_View_Menu/it.md), [{{MenuCommand|Strumenti}}](Std_Tools_Menu/it.md), [{{MenuCommand|Macro}}](Std_Macro_Menu/it.md), [{{MenuCommand|Finestre}}](Std_Windows_Menu/it.md), [{{MenuCommand|Aiuto}}](Std_Help_Menu/it.md).
+I [menu standard](Standard_Menu/it.md) sono: [**File**](Std_File_Menu/it.md), [**Modifica**](Std_Edit_Menu/it.md), [**Visualizza**](Std_View_Menu/it.md), [**Strumenti**](Std_Tools_Menu/it.md), [**Macro**](Std_Macro_Menu/it.md), [**Finestre**](Std_Windows_Menu/it.md), [**Aiuto**](Std_Help_Menu/it.md).
 
-### Barre degli strumenti {#barre_degli_strumenti}
+### Barre degli strumenti 
 
 Le barre degli strumenti standard che appaiono nell\'interfaccia sono:
 
@@ -41,7 +41,7 @@ Le barre degli strumenti standard che appaiono nell\'interfaccia sono:
 -   Barra degli strumenti Visualizza: strumenti per controllare la modalità di visualizzazione degli oggetti nella [vista 3D](3D_view/it.md).
 -   Barra degli strumenti Struttura: strumenti per organizzare gli oggetti nel documento e creare collegamenti a documenti aggiuntivi.
 
-Questi possono essere attivati e disattivati facendo clic con il pulsante destro del mouse su uno spazio vuoto su una delle barre degli strumenti e scegliendo l\'elemento desiderato, oppure dal menu {{MenuCommand|Visualizza → Barre degli strumenti}}.
+Questi possono essere attivati e disattivati facendo clic con il pulsante destro del mouse su uno spazio vuoto su una delle barre degli strumenti e scegliendo l\'elemento desiderato, oppure dal menu **Visualizza → Barre degli strumenti**.
 
 ### Pannelli
 
@@ -64,9 +64,9 @@ I pannelli principali che consentono di lavorare con gli oggetti sono:
 
 </div>
 
-Ad eccezione della vista 3D, tutto può essere attivato e disattivato facendo clic con il pulsante destro del mouse su uno spazio vuoto su una delle barre degli strumenti in alto e scegliendo l\'elemento desiderato, oppure dal menu {{MenuCommand|Visualizza → Pannelli}}.
+Ad eccezione della vista 3D, tutto può essere attivato e disattivato facendo clic con il pulsante destro del mouse su uno spazio vuoto su una delle barre degli strumenti in alto e scegliendo l\'elemento desiderato, oppure dal menu **Visualizza → Pannelli**.
 
-Per attivare e disattivare la barra di stato utilizzare il menu {{MenuCommand|Visualizza → Barra di stato}}.
+Per attivare e disattivare la barra di stato utilizzare il menu **Visualizza → Barra di stato**.
 
 ### Altro
 
@@ -79,7 +79,7 @@ Altre interfacce e finestre utili includono:
 
 Le barre degli strumenti possono avere più o meno pulsanti e le barre degli strumenti personalizzate possono essere create con un mix di strumenti diversi e per ospitare le macro sviluppate.
 
-Queste opzioni sono nel menu {{MenuCommand|Strumenti → Personalizza}}. Vedere [Personalizzare l\'interfaccia](Interface_Customization/it.md).
+Queste opzioni sono nel menu **Strumenti → Personalizza**. Vedere [Personalizzare l\'interfaccia](Interface_Customization/it.md).
 
 
 {{Interface navi

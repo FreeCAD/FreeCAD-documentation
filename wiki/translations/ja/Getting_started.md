@@ -181,7 +181,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 またViewメニュー、Viewツールバー、数値のショートカット（ **1** **2**など\...）からプリセットのビュー（トップビュー、フロントビューなど）が利用できます。
 
-## First steps with FreeCAD {#first_steps_with_freecad}
+## First steps with FreeCAD 
 
 FreeCAD\'s focus is to allow you to make high-precision 3D models, to keep tight control over those models (being able to go back into modelling history and change parameters), and eventually to build those models (via 3D printing, CNC machining or even construction worksite). It is therefore very different from some other 3D applications made for other purposes, such as animation film or gaming. Its learning curve can be steep, especially if this is your first contact with 3D modeling. If you are struck at some point, don\'t forget that the friendly community of users on the [FreeCAD forum](http://forum.freecadweb.org/index.php) might be able to get you out in no time.
 
@@ -201,14 +201,14 @@ You can switch workbenches at any time, and also [customize](Interface_Customiza
 
 </div>
 
-## Working with the PartDesign and Sketcher workbenches {#working_with_the_partdesign_and_sketcher_workbenches}
+## Working with the PartDesign and Sketcher workbenches 
 
-## ![](images/Workbench_Draft.png ) [2次元の製図](Draft_Module/jp.md) {#workbench_draft.png_2次元の製図}
+## ![](images/Workbench_Draft.png ) [2次元の製図](Draft_Module/jp.md) 
 
 
 {{Draft Tools/jp}}
 
-## ![](images/Workbench_Part.png ) [3Dパーツの作成](Part_Module/jp.md) {#workbench_part.png_3dパーツの作成}
+## ![](images/Workbench_Part.png ) [3Dパーツの作成](Part_Module/jp.md) 
 
 
 {{Part Tools/jp}}
@@ -245,7 +245,7 @@ Which gives you an object like this:
 
 At any moment, you can select the original sketches and modify them, or change the extrusion parameters of the pad or pocket operations, which will update the final object.
 
-## Working with the Draft and Arch workbenches {#working_with_the_draft_and_arch_workbenches}
+## Working with the Draft and Arch workbenches 
 
 The [Draft Workbench](Draft_Workbench.md) and [Arch Workbench](Arch_Workbench.md) behave a bit differently than the other workbenches above, although they follow the same rules, which are common to all of FreeCAD. In short, while the Sketcher and PartDesign are made primarily to design single pieces, Draft and Arch are made to ease your work when working with several, simpler objects.
 

@@ -28,12 +28,12 @@
 
 </div>
 
-## Sample part {#sample_part}
+## Sample part 
 
 
 <div class="mw-translate-fuzzy">
 
-## Model de Piesă {#model_de_piesă}
+## Model de Piesă 
 
 Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fișier de test rapid de către
 
@@ -48,12 +48,12 @@ Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fiș
 
 </div>
 
-## Export Method 1: Using \"File → Export\" {#export_method_1_using_file_export}
+## Export Method 1: Using \"File → Export\" 
 
 
 <div class="mw-translate-fuzzy">
 
-## metoda 1 de Export: folosirea căii \"File \> Export\" {#metoda_1_de_export_folosirea_căii_file_export}
+## metoda 1 de Export: folosirea căii \"File \> Export\" 
 
 -   Comutați pe Atelierul Mesh workbench sau workbench complet
 -   Choose ** Edit** → ** Preferences** → ** Import-Export** → ** Mesh Formats** from the top menu
@@ -66,12 +66,12 @@ Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fiș
 
 </div>
 
-## Export Method 2: Using the Mesh Workbench in FreeCAD {#export_method_2_using_the_mesh_workbench_in_freecad}
+## Export Method 2: Using the Mesh Workbench in FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-## Metoda 2 de Export: folosirea atelierului Plase în FreeCAD {#metoda_2_de_export_folosirea_atelierului_plase_în_freecad}
+## Metoda 2 de Export: folosirea atelierului Plase în FreeCAD 
 
 -   Comutați pe Atelierul Mesh
 -   Selectați în vederea arborescentă solidul care va fi transformat în plasă
@@ -86,12 +86,12 @@ Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fiș
 
 </div>
 
-## Which Method to choose ? {#which_method_to_choose}
+## Which Method to choose ? 
 
 
 <div class="mw-translate-fuzzy">
 
-## Care metodă alegem? {#care_metodă_alegem}
+## Care metodă alegem? 
 
 -   Se preferă metoda 2. Mai ales atunci când aveți mai multe corpuri pentru a converti de la Tools din Atelierul Mesh, cum ar fi fuzionarea Plaselor înainte de export.
 
@@ -103,7 +103,7 @@ Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fiș
 
 <div class="mw-translate-fuzzy">
 
-## Links {#links_1}
+## Links 
 
 -   [Import from STL or OBJ](Import_from_STL_or_OBJ.md)
 

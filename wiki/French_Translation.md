@@ -22,7 +22,7 @@ Exemples :
 Application Overview**:** A general overview of FreeCAD (pas d\'espace avant les \" **:** \" mais seulement après).
 Vue d\'ensemble de l\'Application **:** Un aperçu général de FreeCAD (espace avant et après les \" **:** \").
 
-## Traduction de mots techniques {#traduction_de_mots_techniques}
+## Traduction de mots techniques 
 
   Atelier                           Mot anglais   Mot français
   --------------------------------- ------------- --------------------------------

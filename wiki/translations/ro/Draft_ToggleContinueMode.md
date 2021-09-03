@@ -21,7 +21,7 @@ Unele instrumente ale modulelor Draft și Arch conțin o casetă de selectare Co
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Apăsați butonul **<img src="images/Draft_ToggleContinueMode.png" width=16px> [Toggle continue mode](Draft_ToggleContinueMode.md)
 **

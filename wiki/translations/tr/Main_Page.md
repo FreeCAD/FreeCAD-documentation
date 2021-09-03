@@ -13,7 +13,7 @@ Bu, [FreeCAD\'in](https://www.freecadweb.org/?lang=tr) belgelendirme wiki\'sidir
 
 <div class="mw-translate-fuzzy">
 
-## Kullanıcı Merkezi {#kullanıcı_merkezi}
+## Kullanıcı Merkezi 
 
 
 </div>
@@ -24,9 +24,12 @@ Bu, [FreeCAD\'in](https://www.freecadweb.org/?lang=tr) belgelendirme wiki\'sidir
 <img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Kullanıcı Merkezi](User_hub.md):  Bu sayfa genel olarak FreeCAD kullanıcıları için yararlı dokümantasyon içerir: tüm çalışma tezgahlarının listesi, FreeCAD uygulamasının nasıl yükleneceği ve kullanılacağı hakkında ayrıntılı talimatlar, öğreticiler ve başlangıç ​​için gereken her şey.
 
 
-{{Clear}}
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Uzman Kullanıcı Merkezi](Power_users_hub.md):Bu sayfa ileri düzey kullanıcılar ve python komut dosyaları yazmakla ilgilenen kişiler için belgeleri bir arada bulundurur. Ayrıca, bir makro deposudur. Bunların nasıl yükleneceği ve nasıl kullanılacağı ile ilgili talimatlar ve FreeCAD\'in özel ihtiyaçlara göre nasıl özelleştireceği hakkında daha fazla bilgiye buradan ulaşabilir. {{Clear}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Geliştirici Merkezi](Developer_hub.md):Bu bölüm geliştiriciler için çeşitli materyaller içerir: FreeCAD\'in nasıl derleneceği, FreeCAD kaynak kodunun nasıl yapılandırıldığı ve nasıl gezinileceği, yeni tezgahların nasıl geliştirileceği veya kendi uygulamanızda FreeCAD\'in nasıl yerleştirileceği gibi. {{Clear}}
+
+
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Uzman Kullanıcı Merkezi](Power_users_hub.md):Bu sayfa ileri düzey kullanıcılar ve python komut dosyaları yazmakla ilgilenen kişiler için belgeleri bir arada bulundurur. Ayrıca, bir makro deposudur. Bunların nasıl yükleneceği ve nasıl kullanılacağı ile ilgili talimatlar ve FreeCAD\'in özel ihtiyaçlara göre nasıl özelleştireceği hakkında daha fazla bilgiye buradan ulaşabilir. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Geliştirici Merkezi](Developer_hub.md):Bu bölüm geliştiriciler için çeşitli materyaller içerir: FreeCAD\'in nasıl derleneceği, FreeCAD kaynak kodunun nasıl yapılandırıldığı ve nasıl gezinileceği, yeni tezgahların nasıl geliştirileceği veya kendi uygulamanızda FreeCAD\'in nasıl yerleştirileceği gibi. 
+
 
 
 </div>
@@ -36,7 +39,8 @@ Bu, [FreeCAD\'in](https://www.freecadweb.org/?lang=tr) belgelendirme wiki\'sidir
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD Kılavuzu](Manual:Introduction.md), bu wiki\'de bulunan bilgilere ulaşabileceğiniz etkili bir yoldur. Bir kitap gibi hazırlandığından yukarıdaki merkezlerin içerdiği sayfaları adım adım okuyabilirsiniz. [ebook sürümü](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) ve [PDF formatı](https://www.freecadweb.org/manual/) şeklinde iki kılavuzu kullanabilirsiniz. {{Clear}}
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD Kılavuzu](Manual:Introduction.md), bu wiki\'de bulunan bilgilere ulaşabileceğiniz etkili bir yoldur. Bir kitap gibi hazırlandığından yukarıdaki merkezlerin içerdiği sayfaları adım adım okuyabilirsiniz. [ebook sürümü](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) ve [PDF formatı](https://www.freecadweb.org/manual/) şeklinde iki kılavuzu kullanabilirsiniz. 
+
 
 
 </div>
@@ -56,9 +60,9 @@ Aşağıdaki tabloda, bu wiki\'nin FreeCAD uygulamasıyla birlikte gönderilen �
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
 +----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
-## Daha Fazlası {#daha_fazlası}
+## Daha Fazlası 
 
-### Geliştirme Hakkında {#geliştirme_hakkında}
+### Geliştirme Hakkında 
 
 
 <div class="mw-translate-fuzzy">
@@ -82,7 +86,7 @@ Bize yardımcı olmakla ilgileniyorsanız, FreeCAD projesi içinde yapılacak ç
 
 </div>
 
-### Kaynak Kod {#kaynak_kod}
+### Kaynak Kod 
 
 
 <div class="mw-translate-fuzzy">
@@ -92,7 +96,7 @@ FreeCAD, cMake veya autotools kullanarak derlenebilir, git bağlantısı <https:
 
 </div>
 
-### Yardım Çağrısı {#yardım_çağrısı}
+### Yardım Çağrısı 
 
 
 <div class="mw-translate-fuzzy">

@@ -21,7 +21,7 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 1.  Assurez-vous que l\'aimantation est activé. Voir <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Aimantation Verrouiller](Draft_Snap_Lock/fr.md).
 2.  Si **Draft Aimantation Angle** n\'est pas actif, faites l\'une des choses suivantes :
     -   Appuyez sur le bouton **<img src="images/Draft_Snap_Angle.svg" width=16px>** de la barre d\'outils Draft Aimantation.
-    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** dans le [Draft Widget aimantation](Draft_snap_widget.md) et dans le menu sélectionnez l\'option {{MenuCommand|<img src="images/Draft_Snap_Angle.svg" width=16px> Angle d'aimantation}}.
+    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** dans le [Draft Widget aimantation](Draft_snap_widget.md) et dans le menu sélectionnez l\'option **<img src="images/Draft_Snap_Angle.svg" width=16px> Angle d'aimantation**.
 3.  Choisissez une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
 4.  Notez que vous pouvez également modifier les options d\'aimantation lorsqu\'une commande est active.
 5.  Déplacez le curseur sur une arête circulaire.

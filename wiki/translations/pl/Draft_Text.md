@@ -24,9 +24,9 @@ Zobacz również: [Rysunek roboczy: Tacka narzędziowa](Draft_Tray/pl.md) oraz [
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Text.svg" width=16px> [Adnotacja wieloliniowa](Draft_Text/pl.md)**,
-    -   Wybierz opcję z menu {{MenuCommand|Adnotacje → <img src="images/Draft_Text.svg" width=16px> Tekst}},
+    -   Wybierz opcję z menu **Adnotacje → <img src="images/Draft_Text.svg" width=16px> Tekst**,
     -   Użyj skrótu klawiaturowego: **T** a następnie **E**.
-2.  Otwiera się panel zadań {{MenuCommand|Tekst}}. Zobacz sekcję [Opcje](#Opcje.md), aby uzyskać więcej informacji.
+2.  Otwiera się panel zadań **Tekst**. Zobacz sekcję [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 3.  Kliknij punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> [Dodaj punkt](Draft_AddPoint.md)**.
 4.  Wprowadź żądany tekst, naciskając **Enter** między każdą linijką.
 5.  Naciśnij **Enter** dwukrotnie, lub naciśnij przycisk **<img src="images/Button_valid.svg" width=16px>. Utwórz tekst** aby zakończyć operację.
@@ -36,9 +36,9 @@ Zobacz również: [Rysunek roboczy: Tacka narzędziowa](Draft_Tray/pl.md) oraz [
 Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
 
 -   Aby ręcznie wprowadzić współrzędne, po prostu wprowadź liczby, a następnie naciśnij klawisz **Enter** pomiędzy każdą składową X, Y i Z. Możesz wcisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> dodaj punkt**, gdy już wprowadzisz żądane wartości. Zaleca się wysunięcie kursora poza okno [widoku 3D](3D_view.md) przed wprowadzeniem współrzędnych.
--   Pole wyboru {{MenuCommand|Względny}} nie ma zastosowania dla tego polecenia.
--   Naciśnij **G** lub kliknij pole wyboru {{MenuCommand|Globalnie}}, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są względne w stosunku do globalnego układu współrzędnych, w przeciwnym razie są względne w stosunku do układu współrzędnych [płaszczyznay roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
--   Zaznacz pole wyboru {{MenuCommand|Kontynuuj}} na drugim panelu zadań, aby włączyć tryb kontynuacji. Skrót klawiaturowy **T** nie działa. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu, umożliwiając dalsze tworzenie tekstów.
+-   Pole wyboru **Względny** nie ma zastosowania dla tego polecenia.
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są względne w stosunku do globalnego układu współrzędnych, w przeciwnym razie są względne w stosunku do układu współrzędnych [płaszczyznay roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Zaznacz pole wyboru **Kontynuuj** na drugim panelu zadań, aby włączyć tryb kontynuacji. Skrót klawiaturowy **T** nie działa. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu, umożliwiając dalsze tworzenie tekstów.
 -   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby przerwać bieżące polecenie.
 
@@ -95,7 +95,7 @@ Obiekt Adnotacja wieloliniowa wywodzi się z obiektu [App: FeaturePython](App_Fe
 
 -    **Kolor tekstu|Color**: definiuje barwę tekstu.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 

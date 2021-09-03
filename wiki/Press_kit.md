@@ -6,7 +6,7 @@ FreeCAD Press/Media kit
 
 Add text snippets of various length
 
-## Audience Demographic {#audience_demographic}
+## Audience Demographic 
 
 -   CAD users
 -   CAM users
@@ -21,7 +21,7 @@ Add text snippets of various length
 
 FC Logos of various formats/sizes
 
-### 64x64 SVG {#x64_svg}
+### 64x64 SVG 
 
 ![](images/Freecad.svg )
 
@@ -29,11 +29,11 @@ FC Logos of various formats/sizes
 
 Screenshots/gifs of various formats/sizes
 
-## Social Media {#social_media}
+## Social Media 
 
 -   Twitter: <https://www.twitter.com/FreeCADNews>
 -   Facebook: <https://www.facebook.com/FreeCAD>
 -   Mastodon: <https://fosstodon.org/@FreeCAD>
 -   Reddit: <https://www.reddit.com/r/FreeCAD>
 
-## History of FreeCAD {#history_of_freecad}
+## History of FreeCAD 

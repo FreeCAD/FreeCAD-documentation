@@ -17,7 +17,7 @@ This page contains links related to FreeCAD and other FLOSS projects.
 -   [Freenode](irc://chat.freenode.net/#freecad) The official \#freecad IRC channel on Freenode
 -   [Facebook](http://www.facebook.com/FreeCAD) The official FreeCAD facebook page
 
-## Other CAD software {#other_cad_software}
+## Other CAD software 
 
 -   [OpenPLM](http://openplm.org/) An open-source, web-based PLM collaborative platform
 -   [BRL CAD](http://brlcad.org/) Big Open Source package, a bit old fashion
@@ -28,7 +28,7 @@ This page contains links related to FreeCAD and other FLOSS projects.
 -   [PythonCAD](http://pythoncad.sourceforge.net/dokuwiki/doku.php) a simple 2D CAD application programmed in python
 -   [LibreCAD](http://librecad.org/cms/home.html) a 2D CAD project based on [QCad](http://www.qcad.org)
 
-## Advanced software {#advanced_software}
+## Advanced software 
 
 ### Research
 
@@ -46,13 +46,13 @@ This page contains links related to FreeCAD and other FLOSS projects.
 -   [matplotlib](http://matplotlib.sourceforge.net/) Python 2D plotting library (usually used in conjunction with [NumPy](http://numpy.scipy.org/)).
 -   [Octave](http://www.gnu.org/software/octave/) powerful MATLAB clone.
 
-## Other lists of FLOSS projects {#other_lists_of_floss_projects}
+## Other lists of FLOSS projects 
 
 -   [Electrical engineering](https://www.reddit.com/r/electronics/comments/ap6m45/curated_list_of_awesome_free_and_open_source/)
 -   [CAM/CNC](https://www.reddit.com/r/CNC/comments/aizatc/free_and_open_source_camcnc_software/)
 -   [CAD](https://www.reddit.com/r/cad/comments/8dmtc8/please_share_your_experience_with_the_available/)
 
-## See also {#see_also}
+## See also 
 
 [FreeCAD Community Portal](FreeCAD_Community_Portal.md)
 

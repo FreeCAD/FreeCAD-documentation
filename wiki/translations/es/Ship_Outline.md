@@ -13,7 +13,7 @@
 
 Dibuja el contorno del casco del barco
 
-## Dibujo de líneas {#dibujo_de_líneas}
+## Dibujo de líneas 
 
 El barco proporciona una herramienta que facilita la obtención de un plano de líneas a partir del dibujo de líneas del barco
 
@@ -33,7 +33,7 @@ El dibujo de líneas es un conjunto de líneas de cortes de sección en los 3 ej
 -   Plano de la carena (usando los cortes longitudinales)
 -   Plano de media manga (usando los cortes de líneas de agua)
 
-### Cortes transversales {#cortes_transversales}
+### Cortes transversales 
 
 Normalmente hay que realizar 21 secciones transversales equidistantes entre perpendiculares. para ello FreeCAD proporciona una herramienta automática para hacerlo, simplemente selecciona el tipo de secciones **Transversales**, ve a la casilla **Auto crear** y pon **21** secciones, luego pulsa **Crear secciones**.
 
@@ -54,11 +54,11 @@ La tabla de secciones se llena, y se muestra la vista previa de las secciones ll
 
 Dependiendo de la complejidad de la geometría del casco, la vista previa de las secciones puede llevar algún tiempo. Para eliminar una sección, basta con rellenarla con un texto vacío y pulsar Intro.
 
-### Cortes longitudinales {#cortes_longitudinales}
+### Cortes longitudinales 
 
 Hay que añadir dos cortes longitudinales, por lo que hay que seleccionar el tipo de secciones **Longitudinales**, ir a la casilla **Creación automática**\' y poner **2** secciones, luego pulsar **Crear secciones**. Tabla de secciones se llena, y la vista previa de las secciones actualizadas.
 
-### Líneas de agua {#líneas_de_agua}
+### Líneas de agua 
 
 6 Líneas de agua entre la línea base y el proyecto de diseño debe ser añadido, así que seleccione **Líneas de agua** tipo de secciones, vaya a **Auto crear**\' caja y establecer **5**\' (Z = 0 m no se considerará, añadir manualmente si lo necesita) secciones, a continuación, pulse {{Buttn|Crear secciones}}. La tabla de secciones se llena, y la vista previa de las secciones se actualiza.
 
@@ -70,7 +70,7 @@ Several additional waterlines must be added:
 -   Z~9~ = 1.8 m
 -   Z~10~ = 2.0 m
 
-### Perform plot {#perform_plot}
+### Perform plot 
 
 Select **1:100** scale and press **Accept** to let the tool to generate the 3D sections in a new object.
 

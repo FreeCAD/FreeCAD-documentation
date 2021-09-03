@@ -15,34 +15,40 @@ La commande **Mesh Solide régulier** crée un solide paramétrique, maillé ré
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Construire un solide régulier](Mesh_BuildRegularSolid/fr.md)
 **
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solide régulier...}} dans le menu.
-2.  La boîte de dialogue {{MenuCommand|Solide régulier}} s\'ouvre.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solide régulier...** dans le menu.
+2.  La boîte de dialogue **Solide régulier** s\'ouvre.
 3.  Sélectionnez d\'abord un type d\'objet maillé dans la liste déroulante:
     -   
-        {{MenuCommand|<img src="images/Mesh_Cube.svg" width=16px> Cube}}
+        **<img src="images/Mesh_Cube.svg" width=16px> Cube
+**
         
 
     -   
-        {{MenuCommand|<img src="images/Mesh_Cylinder.svg" width=16px> Cylindre}}
+        **<img src="images/Mesh_Cylinder.svg" width=16px> Cylindre
+**
         
 
     -   
-        {{MenuCommand|<img src="images/Mesh_Cone.svg" width=16px> Cône}}
+        **<img src="images/Mesh_Cone.svg" width=16px> Cône
+**
         
 
     -   
-        {{MenuCommand|<img src="images/Mesh_Sphere.svg" width=16px> Sphère}}
+        **<img src="images/Mesh_Sphere.svg" width=16px> Sphère
+**
         
 
     -   
-        {{MenuCommand|<img src="images/Mesh_Ellipsoid.svg" width=16px> Ellipsoïde}}
+        **<img src="images/Mesh_Ellipsoid.svg" width=16px> Ellipsoïde
+**
         
 
     -   
-        {{MenuCommand|<img src="images/Mesh_Torus.svg" width=16px> Tore}}
+        **<img src="images/Mesh_Torus.svg" width=16px> Tore
+**
         
 4.  Spécifiez les paramètres requis. Les paramètres disponibles dépendent du type d\'objet maillé. Voir [Propriétés](#Properties.md).
-5.  Pour les maillages avec des surfaces courbes: une valeur {{MenuCommand|Numérisation}} plus élevée donne un maillage plus fin.
+5.  Pour les maillages avec des surfaces courbes: une valeur **Numérisation** plus élevée donne un maillage plus fin.
 6.  Appuyez sur le bouton {{button|Créer}} pour créer l\'objet maillage.
 7.  Créez éventuellement plus d\'objets maillés.
 8.  Appuyez sur le bouton {{button|Fermer}} pour fermer la boîte de dialogue et terminer la commande.
@@ -55,7 +61,7 @@ La commande **Mesh Solide régulier** crée un solide paramétrique, maillé ré
 
 Les objets maillés créés avec cette commande héritent de toutes les propriétés [Mesh Feature](Mesh_Feature/fr.md). De plus, chaque type d\'objet maillé a un certain nombre de propriétés pour contrôler son comportement paramétrique:
 
-### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube {#mesh_cube.svg_cube}
+### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube 
 
 ### Données
 
@@ -68,9 +74,9 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 -    {{PropertyData/fr|Largeur|FloatConstraint}}: largeur du cube.
 
-### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylindre {#mesh_cylinder.svg_cylindre}
+### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylindre 
 
-### Données {#données_1}
+### Données 
 
 
 {{TitleProperty|Base}}
@@ -85,9 +91,9 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 -    {{PropertyData/fr|Numérisation|IntegerConstraint}}: nombre de faces le long de la surface courbe.
 
-### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cône {#mesh_cone.svg_cône}
+### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cône 
 
-### Données {#données_2}
+### Données 
 
 
 {{TitleProperty|Base}}
@@ -104,9 +110,9 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 -    {{PropertyData/fr|Numérisation|IntegerConstraint}}: nombre de faces le long de la surface courbe.
 
-### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphère {#mesh_sphere.svg_sphère}
+### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphère 
 
-### Données {#données_3}
+### Données 
 
 
 {{TitleProperty|Base}}
@@ -115,9 +121,9 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 -    {{PropertyData/fr|Numérisation|IntegerConstraint}}: nombre de faces le long des deux directions de la surface courbe.
 
-### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoïde {#mesh_ellipsoid.svg_ellipsoïde}
+### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoïde 
 
-### Données {#données_4}
+### Données 
 
 
 {{TitleProperty|Base}}
@@ -128,9 +134,9 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 -    {{PropertyData/fr|Numérisation|IntegerConstraint}}: nombre de faces le long des deux directions de la surface courbe.
 
-### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Tore {#mesh_torus.svg_tore}
+### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Tore 
 
-### Données {#données_5}
+### Données 
 
 
 {{TitleProperty|Base}}

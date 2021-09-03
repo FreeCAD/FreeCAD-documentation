@@ -15,7 +15,8 @@ Crée une contrainte FEM pour une condition de limite de température.
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintTemperature.svg" width=16px> [Create a FEM constraint for a temperature...](FEM_ConstraintTemperature.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Model → Thermal Constraints → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Constraint temperature}}
+    -   Sélectionnez l\'option **Model → Thermal Constraints → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Constraint temperature
+**
 2.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez les objets auxquels la contrainte doit être appliquée, qui peuvent être des sommets (coins), des arêtes ou des faces.
 3.  Entrez une température à appliquer aux objets.
 

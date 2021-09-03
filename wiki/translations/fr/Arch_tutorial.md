@@ -43,7 +43,7 @@ A l\'heure où j\'écris ceci l\'atelier [Arch](Arch_Workbench/fr.md) comme le r
 
 {{Note|FreeCAD version 0.14 requis|Ce tutoriel a été réalisé avec [FreeCAD version 0.14](Release_notes_014/fr.md). Vous aurez besoin au moins de cette version pour le suivre. Les versions plus anciennes pourraient ne pas contenir tous les outils nécessaires ou certaines options risquent de ne pas être présentes.}}
 
-## Déroulement type des opérations {#déroulement_type_des_opérations}
+## Déroulement type des opérations 
 
 L\'atelier [Arch](Arch_Workbench/fr.md) est principalement fait pour deux sortes d'opérations :
 
@@ -69,7 +69,7 @@ Voici comment le fichier s\'affiche lorsqu'il est ouvert dans FreeCAD. J\'ai aus
 
 [L\'importateur de DXF](Draft_DXF.md) (qui prend aussi en compte les fichiers DWG en les convertissant tout simplement en DXF), groupe les objets importés par calque. Il n\'y a pas de calques dans FreeCAD mais il y a des [groupes](Std_Group/fr.md). Les [groupes](Std_Group/fr.md) offrent un comportement similaire aux calques pour organiser les objets du fichier, mais ils n\'ont pas de propriété spécifique, comme les calques dans AutoCAD qui s\'appliquent à leur contenu. Ils peuvent être imbriqués les uns dans les autres par simple glisser-déposer de la souris. La première chose que vous pourriez faire, c\'est de créer des nouveaux [groupes](Std_Group/fr.md) (dans la [vue arborescente](Document_structure/fr.md) : clic droit sur l\'icône du document, créer un groupe, clic droit dessus, et le renommer en \"plans 2d de base\"). Sélectionnez tous les objets et glissez les dans ce nouveau groupe.
 
-## Construire les murs {#construire_les_murs}
+## Construire les murs 
 
 Comme la plupart des objets de l\'[Atelier Arch](Arch_Workbench/fr.md), les [murs](Arch_Wall/fr.md) peuvent être fabriqués à partir d\'une grande variété d\'autres objets : [lignes](Draft_Line/fr.md), [polylignes](Draft_Wire/fr.md), [Sketcher](Sketcher_Workbench/fr.md), faces ou solides (et même à partir de rien ; dans ce cas ils sont définis par leur hauteur, largeur et longueur). La géométrie résultante du mur dépend de la géométrie de l\'objet de base, et des propriétés que vous complétez comme l\'épaisseur ou la hauteur. Comme vous pourriez le deviner, un mur basé sur une ligne emploiera cette ligne en tant que sa ligne d\'alignement, alors qu\'un mur basé sur une face emploiera cette face en tant que son empreinte de base, et un mur basé sur un solide adoptera simplement la forme de ce solide. Ceci permet à n\'importe quelle forme imaginable de devenir un mur.
 
@@ -117,7 +117,7 @@ Maintenant déplaçons nos murs horizontalement, à leur emplacement correct. Pu
 
 Enfin, j\' ai changé la couleur de certains murs pour une couleur brique (c\'est tellement plus facile de faire la différence), et j\'ai fait une petite correction : Certains murs ne vont pas jusqu\'au toit, mais s\'arrêtent à une hauteur de 2,60 m. J\'ai corrigé la hauteur de ces murs.
 
-## Elever la structure {#elever_la_structure}
+## Elever la structure 
 
 Maintenant, puisque nous devons réduire nos murs avec un volume à soustraire, nous devrions aussi bien vérifier si il n\'y a pas d\'autres objets qui devront être coupés de cette façon. Il existe certaines colonnes. C\'est une bonne occasion de présenter un second objet arch : l[Arch Structure](Arch_Structure/fr.md). Les objets Structure se comportent plus ou moins comme les murs, mais ils ne sont pas faits pour suivre une ligne de base. Au contraire, ils préfèrent travailler à partir d\'un profil, qui est extrudé (le long d\'une ligne de profil ou non). Tout objet plat peut être un profil pour une structure, avec une seule exigence : ils doivent former une forme fermée.
 
@@ -161,7 +161,7 @@ Rappelez-vous que pour les deux outils [Ajouter](Arch_Add/fr.md) et [ Supprimer]
 {{Note | Une note sur les additions et soustractions | 
 Les objets Arch qui  supportent additions et soustractions (tous exceptés les objets d'aides "visuels" : tels que les axes) gardent la trace des objets en ayant deux propriétés respectivement, "Additions", et "Soustractions", qui contiennent une liste de liens pour ajouter ou soustraire d'autres objets . Un objet commun peut être dans la liste de plusieurs autres objets, comme c'est le cas de notre volume de soustraction ici. Chacun des pères voudra l'avaler dans l'arborescence, cependant, il sera généralement "vivant" en dernier. Mais vous pouvez toujours modifier ces listes pour tout objet, en double-cliquant dessus dans l'arborescence, quand FreeCAD est en mode d'édition. Appuyez sur la touche Échappement pour sortir du mode édition.}}
 
-## Faire les toits {#faire_les_toits}
+## Faire les toits 
 
 Maintenant, tout ce que nous avons à faire pour compléter la structure, c\'est de faire le toit et les petites dalles intérieures. Encore une fois, le plus simple est de dessiner leurs profils par dessus la section, avec l\'outil [Filaire](Draft_Wire/fr.md). Ici j\'ai dessiné trois profils les uns sur les autres (je les ai écartés dans l\'image ci-dessous pour mieux les voir). Le vert sera utilisé pour les bords latéraux de la dalle du toit, puis le bleu pour les parties latérales, et les rouges pour la partie centrale, qui se trouve au-dessus du bloc de la salle de bain :
 
@@ -181,17 +181,17 @@ Maintenant une dernière chose doit être résolue, il y a une petite dalle dans
 
 <img alt="" src=images/Arch_tutorial_16.jpg  style="width:1024px;">
 
-## Planchers, Escaliers et Cheminée, {#planchers_escaliers_et_cheminée}
+## Planchers, Escaliers et Cheminée, 
 
 Maintenant, notre structure est complète, nous avons juste quelques petits objets à faire.
 
-### la cheminée {#la_cheminée}
+### la cheminée 
 
 Commençons par la cheminée. Maintenant, vous savez déjà comment cela fonctionne, non ? Dessinez des [Draft Filaires ](Draft_Wire/fr.md) fermés, déplacez-les vers le haut à leur hauteur correcte avec l\'outil [Déplacer](Draft_Move/fr.md), extrudez-les avec l\'outil [Draft Trimex](Draft_Trimex/fr.md) , convertissez le plus gros en [Arch Structure](Arch_Structure/fr.md), et soustrayez les plus petits. Remarquez le tube de cheminée qui n\'était pas dessiné sur la vue en plan, mais j\' ai trouvé sa position en faisant glisser les lignes bleues à partir des vues en coupe.
 
 <img alt="" src=images/Arch_tutorial_17.jpg  style="width:1024px;">
 
-### les planchers {#les_planchers}
+### les planchers 
 
 Les planchers ne sont pas bien représentés dans les dessins de base. Lorsque l\'on regarde les sections, on ne peut pas connaître l\'emplacement ni l\'épaisseur des dalles de plancher. Je vais donc supposer que les murs sont assis sur le dessus des blocs de fondation, au niveau 0,00, et que là se trouvent les dalles du plancher, posées sur ces blocs, de 15cms d\'épaisseur. Ainsi, les dalles de plancher ne s\'exécutent pas sous les parois, mais autour d\'elles. Nous pourrions le faire en créant une grande dalle rectangulaire puis en soustrayant les murs, mais n\' oubliez pas, les opérations de soustraction nous coûtent. Il vaut mieux procéder par petits morceaux, ce sera \"moins gourmand\" en termes de calcul, et donc, si nous le faisons intelligemment, pièce par pièce, ceci sera également utile pour calculer les surfaces au sol plus tard :
 
@@ -201,7 +201,7 @@ Une fois les fils dessinés, il suffit de les transformer en [Arch structures](A
 
 <img alt="" src=images/Arch_tutorial_19.jpg  style="width:1024px;">
 
-### Les Escaliers {#les_escaliers}
+### Les Escaliers 
 
 Maintenant les escaliers. Faisons connaissance avec le prochain outil Arch, les [Escaliers](Arch_Stairs/fr.md). Cet outil est encore à un stade très précoce de développement, au moment où j\' écris, donc n\'en attendez pas trop de lui. Mais il est déjà très utile pour faire des escaliers simples, droits. Un concept important à savoir : l\'outil escalier est pensé pour construire un escalier à partir d\'un plancher plat jusqu\'à un mur. En d\'autres termes, vu de haut, l\'objet escaliers occupe exactement l\'espace qu\'il occupe sur la vue en plan, de sorte que la dernière contre-marche n\'est pas dessinée (mais elle est bien sûr prise en compte dans le calcul des hauteurs).
 
@@ -223,7 +223,7 @@ N\'oubliez pas également de couper la colonne qui traverse les escaliers, parce
 
 Bien ! Tout le travail dur est désormais fait, allons-y avec le travail très dur!
 
-## Portes et fenêtres {#portes_et_fenêtres}
+## Portes et fenêtres 
 
 [Arch Fenêtres](Arch_Window/fr.md) sont des objets très complexes. Ils sont utilisés pour fabriquer toutes sortes d\'objets \"insérés\", tels que des fenêtres ou des portes. Oui, dans FreeCAD, les portes sont juste un type spécial de fenêtre, en réalité aussi, non? L\'outil [Fenêtre](Arch_Window/fr.md) peut être encore un peu difficile à utiliser aujourd\'hui, mais considérez cela comme un compromis, car il a été construit pour une puissance maximale. Presque n\'importe quel type de fenêtre sortie de votre imagination peut être produit avec lui. Mais comme l\'outil va s\'enrichir de plus de pré-configurations, cette situation devrait certainement s\'améliorer à l\'avenir.
 
@@ -231,7 +231,7 @@ L\'objet [Arch Fenêtre](Arch_Window/fr.md) fonctionne comme ceci : Il est basé
 
 Il y a deux façons de créer ces objets dans FreeCAD : en utilisant une pré-configuration, ou en dessinant la fenêtre à partir de zéro. Nous allons voir ici les deux méthodes. Mais rappelez-vous que la méthode avec pré-configuration ne fait rien d\'autre que la création de la mise en page de l\'objet et la définition des extrusions nécessaires pour vous.
 
-### Utilisation des pré-configurations {#utilisation_des_pré_configurations}
+### Utilisation des pré-configurations 
 
 En appuyant sur l\'outil [Arch Fenêtre](Arch_Window/fr.md) sans objet sélectionné, vous êtes invités, soit à choisir un tracé 2D, soit à utiliser l\'une des pré-configurations. Nous allons utiliser la pré-configuration «Porte simple\" pour placer la porte d\'entrée principale de notre modèle. Donnez-lui une largeur de 1 m, une hauteur de 2,45 m, une taille de 0,15 m de W1, et laissez les autres paramètres à 0.05m. Puis cliquez sur le coin inférieur gauche de la paroi, et votre nouvelle porte est créée :
 
@@ -245,7 +245,7 @@ Nous avons une deuxième porte, exactement la même que celle-ci, un peu sur la 
 
 Donc, tout ce que nous devons faire maintenant est de sélectionner la porte, appuyer sur l\'outil [Draft Clone](Draft_Clone/fr.md) , puis déplacer le clone à sa position correcte avec l\'outil [Déplacer](Draft_Move/fr.md).
 
-### Organiser votre modèle {#organiser_votre_modèle}
+### Organiser votre modèle 
 
 <img alt="" src=images/Arch_tutorial_24.jpg  style="width:400px;">
 
@@ -272,7 +272,7 @@ Après un coup d'œil de plus près à la vue d\'élévation, j\'ai détecté ma
 
 Maintenant nous pouvons regarder les choses vraiment intéressantes : Comment concevoir vos propres fenêtres personnalisées.
 
-### Création fenêtres personnalisées {#création_fenêtres_personnalisées}
+### Création fenêtres personnalisées 
 
 Comme je l\'ai expliqué auparavant, les objets [Fenêtres](Arch_Window/fr.md) sont créés à partir de représentations 2D, en éléments fermés (polylignes, cercles, rectangles, n\'importe quoi). Puisque les objets [Draft](Draft_Module/fr.md) ne peuvent pas détenir plus d\'un de ces éléments, l\'outil préféré pour dessiner les fenêtres est l\'atelier [Sketcher](Sketcher_Workbench/fr.md). Malheureusement, avec l\'atelier Sketcher, il n\'est pas possible de s\'aimanter à des objets externes comme avec l\'atelier Draft, ce qui serait utile ici, puisque nos élévations sont déjà établies. Heureusement, il existe un outil pour convertir les objets Draft en esquisses : L\'outil [Draft vers esquisse](Draft_Draft2Sketch/fr.md).
 
@@ -310,7 +310,7 @@ Dernière pièce manquante : un segment de mur qui ne figurait pas sur la vue en
 
 Prêt ? Pas tout à fait. Regardez l\'image ci-dessus, nous avons fait nos portes avec un cadre de 5cm, (c\'est la valeur par défaut de la présélection). Mais les autres fenêtres ont des cadres de 2.5cm. Cela doit être corrigé.
 
-### Édition des fenêtres {#édition_des_fenêtres}
+### Édition des fenêtres 
 
 Nous avons déjà vu comment construire et mettre à jour les composants de la fenêtre, via le mode d\'édition de la fenêtre, mais nous pouvons aussi modifier l\'esquisse sous-jacente. Les fenêtres prédéfinies ne sont pas différentes des fenêtres personnalisées, le seul outil [Fenêtre](Arch_Window/fr.md) crée l\'esquisse sous-jacente pour vous. Sélectionnez notre objet porte (l\'original, pas la copie, ne l\'oubliez pas, nous avons fait un clone), et déployez-le dans l\'arborescence. C\'est notre esquisse. Double-cliquez dessus pour passer en mode d\'édition.
 
@@ -322,7 +322,7 @@ Lorsque nous éditons notre esquisse de la porte, nous pouvons voir qu\'elle est
 
 Maintenant, il suffit de modifier les distances de 5 cm entre la ligne extérieure et la ligne intérieure, en double-cliquant dessus, et en changeant leur valeur à 2,5 cm . Après avoir cliqué sur le bouton \"OK\", notre porte (et son clone) ont été mis à jour.
 
-## Travailler sans support 2D {#travailler_sans_support_2d}
+## Travailler sans support 2D 
 
 Jusqu\'à présent, notre travail a été relativement facile, parce que nous avions les dessins 2D sous-jacents pour fonder nos travaux. Mais maintenant, nous devons faire la façade opposée et l\'atrium de verre, et les choses se compliquent : Le dessin de la façade opposée a beaucoup de choses fausses, ne représente pas l\'atrium du tout, et nous n\'avons tout simplement pas de dessin pour les murs intérieurs de l\'atrium. Nous aurons donc besoin d\'inventer un certain nombre de choses nous-mêmes. Veillez à consulter [reference pictures](http://www.pedrokok.com.br/2010/02/residencia-artigas-sao-paulo-sp/img_8265-533px/) pour comprendre comment les choses sont faites. Ou faites-le comme vous le souhaitez !
 
@@ -362,7 +362,7 @@ Après que la fenêtre ait été pivotée et amenée à son emplacement, l\'atri
 
 <img alt="" src=images/Arch_tutorial_40.jpg  style="width:1024px;">
 
-## Éditions et correctifs {#éditions_et_correctifs}
+## Éditions et correctifs 
 
 Maintenant, quand nous regardons notre élévation arrière, et la comparons avec le plan, nous voyons qu\'il y a des différences qui doivent être corrigées. A savoir, les fenêtres des chambres sont plus petites que ce que j\'ai d\'abord pensé, et nous aurons besoin d\'ajouter d\'autres murs. Afin de le faire correctement, certains planchers doivent être coupés :
 
@@ -392,7 +392,7 @@ Avant de commencer à exporter des choses, il est intéressant de faire un const
 
 <img alt="" src=images/Arch_tutorial_44.jpg  style="width:1024px;">
 
-### Exportation vers IFC et autres applications {#exportation_vers_ifc_et_autres_applications}
+### Exportation vers IFC et autres applications 
 
 <img alt="" src=images/Arch_tutorial_45.jpg  style="width:400px;">
 
@@ -421,7 +421,7 @@ Mais pour un rendu rapide, l\'atelier \[\[RayTracing Workbench\]/fr\|RayTracing\
 
 L\'atelier de Raytracing vous offre encore un contrôle très limité sur les matériaux, mais l\'éclairage et les environnements sont définis dans les modèles, afin qu\'ils puissent être entièrement personnalisés.
 
-### Dessins 2D {#dessins_2d}
+### Dessins 2D 
 
 Certes, l\'utilisation la plus importante de la BIM (modélisation des informations du bâtiment) est de produire des dessins en 2D automatiquement. Ceci est fait dans FreeCAD avec l\'outil [Plan de Coupe](Arch_SectionPlane/fr.md). Cet outil vous permet de placer un objet Plan de Coupe dans la vue 3D, que vous pouvez orienter pour produire des plans, coupes et élévations. Les plans de coupe doivent savoir quels objets ils doivent considérer, aussi une fois que vous en avez créé un, vous devez ajouter des objets avec l\'outil [Ajouter](Arch_Add/fr.md). Vous pouvez ajouter des objets individuels, ou, plus commodément, un groupe, un étage ou un bâtiment entier. Cela vous permet de changer facilement la portée d\'un certain plan de coupe plus tard, en ajoutant ou en supprimant des objets vers/de ce groupe. Toute modification de ces objets se reflète dans les vues produites par le plan de coupe.
 
@@ -453,7 +453,7 @@ D\'autre part, le résultat final étant plus facile à manipuler, et les possib
 
 Sur l\'image ci-dessus, la géométrie est la sortie directe du plan de coupe, mais certains autres objets Draft ont été ajoutés, tels que les dimensions et les polygones hachurés, et un autre objet de vue avec la même échelle et les valeurs de décalage ont été produits à partir d\'eux avec l\'outil [Feuille de dessin](Draft_Drawing/fr.md). A l\'avenir, ces opérations seront effectuées directement sur la page de dessin, laissant votre modèle totalement propre.
 
-### Extraction du métré {#extraction_du_métré}
+### Extraction du métré 
 
 C\'est une autre tâche très importante qui doit être réalisée dans un modèle BIM. Dans FreeCAD, les choses se présentent bien car son moteur OpenCasCade prend déjà en compte le calcul de longueurs, surfaces et volumes pour tous les objets créés. Tant que tous les objets [Arch](Arch_Workbench/fr.md) sont des solides, vous pourrez en obtenir le volume.
 

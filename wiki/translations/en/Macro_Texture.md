@@ -71,7 +71,7 @@ Important note: depending on the size of the image, the project can become very 
 
 -    {{CheckBox|Axis Z}}: inverts the **Z** coordinates of the image.
 
-#### 8 bit Mode {#bit_mode}
+#### 8 bit Mode 
 
 The beginning of the operation value automatically adapts to the selected function: 0 if the setting is on black (**Black**) 255 or 20 if the setting is white (**White**).
 
@@ -85,7 +85,7 @@ The beginning of the operation value automatically adapts to the selected functi
 
 -    {{CheckBox|Nuance}}: if the shade option is checked, the color of the point is represented as a picture.
 
-#### 32 bit Mode {#bit_mode_1}
+#### 32 bit Mode 
 
 -    {{RadioButton|TRUE|Photo}}: photo mode is automatically activated when a **32-bit image** is detected. (Note: this procedure is CPU intensive)
 
@@ -97,7 +97,7 @@ The beginning of the operation value automatically adapts to the selected functi
 
 -    {{CheckBox|.asc}}: if checked, a file (originalName.bmp.asc) is saved in the same directory of the file. This file can be used as a point cloud (format: X Y Z).
 
-#### Capping (10mm) {#capping_10mm}
+#### Capping (10mm) 
 
 -   Slider: Enter the height of the form. The height is displayed on title frame.
 

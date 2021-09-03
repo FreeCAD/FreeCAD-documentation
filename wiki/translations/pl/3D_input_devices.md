@@ -1,6 +1,6 @@
  FreeCAD obsługuje wybranee specjalistyczne urządzenia wejściowe, takie jak na przykład myszki 3D. Dzięki temu użytkownik może obracać, przesuwać i powiększać obiekty w trzech różnych płaszczyznach.
 
-## Obsługiwany sprzęt {#obsługiwany_sprzęt}
+## Obsługiwany sprzęt 
 
 -   3Dconnexion [SpaceNavigator](http://www.3dconnexion.com/products/spacenavigator.html)
     -   Instrukcja uruchomienia: [3D connexion input devices](3Dconnexion_input_devices.md)

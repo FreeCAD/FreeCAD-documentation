@@ -13,11 +13,11 @@ The **Std ViewIvStereoInterleavedColumns** command changes the active [3D view](
 
 ## Применение
 
-1.  Select the {{MenuCommand|View → Stereo → <img src="images/Std_ViewIvStereoInterleavedColumns.svg" width=16px> Stereo interleaved Columns}} option from the menu.
+1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoInterleavedColumns.svg" width=16px> Stereo interleaved Columns** option from the menu.
 
 ## Настройки
 
--   Расстояние между глаз может быть изменено в настройках: {{MenuCommand|Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима}}. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
+-   Расстояние между глаз может быть изменено в настройках: **Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима**. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
 
 ## Scripting
 

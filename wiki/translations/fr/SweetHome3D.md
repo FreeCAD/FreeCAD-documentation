@@ -1,10 +1,10 @@
  ![](images/SweetHome3DLogo.png )
 
-## A propos {#a_propos}
+## A propos 
 
 **Sweet Home 3D** est une application de décoration intérieure gratuite qui vous aide à dessiner le plan de votre maison, à y placer les meubles et visualiser vos résultats en 3D. Voir [video](http://www.sweethome3d.com/videos/SweetHome3D-720p-music.mp4).
 
-### Liens en relation {#liens_en_relation}
+### Liens en relation 
 
 -   [Ticket \#2584](https://freecadweb.org/tracker/view.php?id=2584) - Prise en charge des fichiers XML SweetHome3D.
 -   [Comment créer rapidement votre plan d\'étage dans Sweet Home 3D](https://www.youtube.com/watch?v=QAAYHTuqm9M)

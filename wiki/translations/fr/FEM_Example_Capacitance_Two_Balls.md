@@ -20,29 +20,29 @@ Cet exemple est destiné à montrer comment simuler le 6ème exemple de [Elmer G
 
 -   Une version compatible de FreeCAD mentionnée dans l\'aperçu du tutoriel.
 
-    :   Utilisez {{MenuCommand|Aide → À propos de FreeCAD}} pour voir la version installée de FreeCAD.
+    :   Utilisez **Aide → À propos de FreeCAD** pour voir la version installée de FreeCAD.
 -   Aucun logiciel externe n\'est nécessaire pour charger l\'exemple, visualiser le maillage et la géométrie ainsi que pour visualiser les résultats.
 -   Pour résoudre l\'Analyse des éléments finis (FEA), le logiciel de résolution Elmer doit être installé sur votre ordinateur. Voir [FEM Solveur Elmer](FEM_SolverElmer/fr.md) pour savoir comment installer Elmer.
 
-## Configurer l\'exemple {#configurer_lexemple}
+## Configurer l\'exemple 
 
-### Charger l\'atelier FEM {#charger_latelier_fem}
+### Charger l\'atelier FEM 
 
 -   Démarrez FreeCAD, l\'atelier Start doit être chargé.
 -   Basculez vers l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [Atelier FEM](FEM_Workbench/fr.md).
 
-### Charger l\'exemple {#charger_lexemple}
+### Charger l\'exemple 
 
--   Allez dans {{MenuCommand|Utilities → <img src=images/FEM_Examples.svg style="width:24px"> Ouvrez les exemples FEM}}.
--   Lorsque l\'interface graphique s\'ouvre, recherchez et ouvrez \"Electrostatics Capacitance Two Balls\". Vous pouvez facilement trouver l\'exemple dans {{MenuCommand|All}} ou dans {{MenuCommand|Solvers → Elmer}}. Pour ouvrir l\'exemple, double-cliquez dessus ou sélectionnez-le et cliquez sur **Setup**.
+-   Allez dans **Utilities → <img src=images/FEM_Examples.svg style="width:24px"> Ouvrez les exemples FEM**.
+-   Lorsque l\'interface graphique s\'ouvre, recherchez et ouvrez \"Electrostatics Capacitance Two Balls\". Vous pouvez facilement trouver l\'exemple dans **All** ou dans **Solvers → Elmer**. Pour ouvrir l\'exemple, double-cliquez dessus ou sélectionnez-le et cliquez sur **Setup**.
 
 <img alt="" src=images/Two_balls_selection.png  style="width:300px;">
 
-## Comprendre le cas de simulation {#comprendre_le_cas_de_simulation}
+## Comprendre le cas de simulation 
 
 Ce cas présente la solution de la capacité de sphères parfaitement conductrices en espace libre. Une différence de tension entre les sphères entraîne l\'introduction d\'une charge électrique dans le système. Les sphères ont également une capacité propre qui provient de la différence de tension avec le champ lointain. Par conséquent, une matrice de capacité symétrique de taille 2 × 2 doit être résolue. Les capacités peuvent être calculées à partir de deux configurations de tension différentes.
 
-## Comprendre le modèle {#comprendre_le_modèle}
+## Comprendre le modèle 
 
 -   Le modèle contient trois sphères.
 
@@ -53,7 +53,7 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 
 ![ 1200px](images/Two_balls_model_full.png )
 
-## Conteneur d\'analyse et ses objets {#conteneur_danalyse_et_ses_objets}
+## Conteneur d\'analyse et ses objets 
 
 -   Il y a au moins 7 objets nécessaires pour effectuer cette analyse électrostatique.
 -   Un <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> conteneur d\'analyse
@@ -68,7 +68,7 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 
 <img alt="" src=images/Two_balls_analysis.png  style="width:300px;">
 
-## Exécution de l\'Analyse des éléments finis (FEA) {#exécution_de_lanalyse_des_éléments_finis_fea}
+## Exécution de l\'Analyse des éléments finis (FEA) 
 
 -   Dans la [Vue en arborescence](Tree_view/fr.md) double-cliquez sur l\'objet solveur <img alt="" src=images/FEM_SolverElmer.svg  style="width:24px;">.
 -   Cliquez sur le fichier **Write** dans la même fenêtre de tâche. Regardez la fenêtre du journal jusqu\'à ce qu\'elle imprime \"write completed.\"
@@ -77,7 +77,7 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 -   Deux nouveaux objets de résultat doivent être créés, <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult et <img alt="" src=images/TextDocument.svg  style="width:24px;"> SolverElmerOutput.
 -   Si vous obtenez un message d\'erreur sur le solveur binaire ou similaire lors du déclenchement de l\'analyse, vérifiez l\'installation du [FEM Solveur Elmer](FEM_SolverElmer/fr.md)
 
-## Visualisation des résultats {#visualisation_des_résultats}
+## Visualisation des résultats 
 
 -   Assurez-vous que l\'analyse est activée.
 -   Assurez-vous que l\'analyse contient toujours l\'objet de résultat, sinon relancez simplement le solveur.
@@ -88,7 +88,7 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 
 <img alt="" src=images/Two_balls_potential.png  style="width:1200px;">
 
-## Post-traitement du résultat {#post_traitement_du_résultat}
+## Post-traitement du résultat 
 
 -   Bien que nous ayons réussi à visualiser le résultat potentiel, nous ne voyons actuellement que le potentiel zéro dans l\'air entourant les deux boules. Pour voir le potentiel des sphères, nous devons appliquer un filtre de clip.
 -   Dans la [Vue en arborescence](Tree_view/fr.md), sélectionnez <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult puis dans la barre d\'outils, cliquez sur <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:24px;"> Post Create Clip Filter.
@@ -102,7 +102,7 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 
 -   Maintenant, nous pouvons clairement voir la distribution des potentiels dans et autour des sphères.
 
-## Recherche de la capacité {#recherche_de_la_capacité}
+## Recherche de la capacité 
 
 -   Notre objectif actuel est de trouver la capacité contenue dans <img alt="" src=images/TextDocument.svg  style="width:24px;"> SolverElmerOutput.
 -   Double-cliquez sur <img alt="" src=images/TextDocument.svg  style="width:24px;"> SolverElmerOutput pour l\'ouvrir. Faites défiler jusqu\'à ce que vous trouviez:

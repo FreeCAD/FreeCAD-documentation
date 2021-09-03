@@ -25,7 +25,7 @@ Acest instrument convertește [ Draft objects](Draft_Workbench.md) la [Sketcher 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Selectați un obiect Draft sau Sketch
 2.  Apăsați butonul {{KEY | [ 16px](Imagine:_Proiect_Draft2Sketch.png .md) [[Draft Draft2Sketch]]}}
@@ -46,7 +46,7 @@ Acest instrument convertește [ Draft objects](Draft_Workbench.md) la [Sketcher 
 
 <div class="mw-translate-fuzzy">
 
-## Script-Programare {#script_programare}
+## Script-Programare 
 
 Nu este disponibil, consultați documentația [Module Sketcher](Module_Sketcher.md) pentru a crea schițe prin script-programare
 

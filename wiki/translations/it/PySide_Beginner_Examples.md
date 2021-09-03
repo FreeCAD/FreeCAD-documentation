@@ -21,7 +21,7 @@ Questa guida è una lista di scorciatoie per fare lavorare rapidamente un progra
 
 <div class="mw-translate-fuzzy">
 
-## La dichiarazione Import {#la_dichiarazione_import}
+## La dichiarazione Import 
 
 PySide non viene caricato automaticamente con Python, prima di usarlo deve essere richiamato. Il seguente comando:
 
@@ -42,7 +42,7 @@ Nota: nei sottostanti esempi di codice la dichiarazione \'import\' non è ripetu
 
 </div>
 
-## L\'esempio più semplice {#lesempio_più_semplice}
+## L\'esempio più semplice 
 
 L\'interazione più semplice con PySide è quella di presentare all\'utente un messaggio che può solo essere accettato: 
 ```python
@@ -51,7 +51,7 @@ reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 
 ![](images/PySideScreenSnapshot5.jpg )
 
-## Richiedere una risposta Si o No {#richiedere_una_risposta_si_o_no}
+## Richiedere una risposta Si o No 
 
 La successiva interazione semplice consiste nel chiedere di rispondere si o no: 
 ```python
@@ -70,7 +70,7 @@ if reply == QtGui.QMessageBox.No:
 
 ![](images/PySideScreenSnapshot6.jpg )
 
-## Richiedere l\'inserimento di un testo {#richiedere_linserimento_di_un_testo}
+## Richiedere l\'inserimento di un testo 
 
 La prossima parte di codice chiede all\'utente di inserire un testo. Notare che il testo può essere prodotto usando qualsiasi tasto della tastiera: 
 ```python
@@ -92,7 +92,7 @@ anInteger = int(userInput) # to convert to an integer from a string representati
 aFloat = float(userInput) # to convert to a float from a string representation
 ```
 
-## Più di 2 pulsanti {#più_di_2_pulsanti}
+## Più di 2 pulsanti 
 
 L\'esempio finale del livello base spiega come costruire un dialogo con un numero arbitrario di pulsanti. Questo esempio è programmaticamente troppo complesso per essere invocato da una singola istruzione Python quindi dovrebbe essere contenuto nella pagina successiva, che è quella degli esempi PySide di livello medio. Ma d\'altra parte questo è sovente tutto ciò che è necessario senza entrare in definizioni GUI complesse, quindi questo codice viene posto alla fine della pagina del livello base di PySide invece che all\'inizio della pagina del livello medio. 
 ```python

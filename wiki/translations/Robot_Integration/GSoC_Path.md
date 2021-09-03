@@ -20,16 +20,16 @@ This GSoC project idea aims to add specific functionality to take advantage of R
 6.  Build unit tests to exercise core functionality.
 7.  Write documentation for the new features.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  Allow a user to model his CNC machine.
 2.  Allow a user to click a simulate button and see the simulated machine animated to follow the Path as accurately as possible.
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 1.  Simulation could be extended to visualize material removal from a simulated stock object.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -41,6 +41,6 @@ This GSoC project idea aims to add specific functionality to take advantage of R
 
 Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md) [Category:Path](Category:Path.md) [Category:Robot](Category:Robot.md)

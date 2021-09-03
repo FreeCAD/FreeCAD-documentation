@@ -21,7 +21,7 @@ Für eine Finite Element Analyse muss die Geometrie in ein [FEM Netz](FEM_Mesh/d
 
 </div>
 
-Gmsh is bundled with the FreeCAD installation binaries. Alternatively you can install it separately from FreeCAD and then use the menu {{MenuCommand|Edit → Preferences → FEM → Gmsh}} to set the path to the *gmsh.exe*.
+Gmsh is bundled with the FreeCAD installation binaries. Alternatively you can install it separately from FreeCAD and then use the menu **Edit → Preferences → FEM → Gmsh** to set the path to the *gmsh.exe*.
 
 ## Anwendung
 
@@ -94,7 +94,7 @@ After the mesh has been crated you can change its properties using the [property
 
 ## Notes
 
-### Nonpositive Jacobians {#nonpositive_jacobians}
+### Nonpositive Jacobians 
 
 When you get a meshing erro about nonpositive Jacobians, you can try out the following strategies:
 
@@ -103,7 +103,7 @@ When you get a meshing erro about nonpositive Jacobians, you can try out the fol
 -   Use a smaller element size by reducing the **Characteristic Length Max**.
 -   If solver ccxtools is used and the run button is used (not the task panel) the nodes of non positive jacobian elements will be green.
 
-### Mesh Growth {#mesh_growth}
+### Mesh Growth 
 
 At edges and small geometric entities the mesh has to be smaller than in areas without edges. So the mesh element size grows away from edges. The growing strategy of Gmsh is to grow between edges with different sizes. So the growing fails when an area has the same sized edges like for example this tube:
 
@@ -115,7 +115,7 @@ To enable a sensible mesh growing, you must in this case add an edge to the area
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width:400px;"> 
 *Sensible mesh growing due to the additional edge in the middle of the cylindrical aread*
 
-### Element Recombination {#element_recombination}
+### Element Recombination 
 
 Elements can be recombined in two ways, on the surface of objects so that triangles will be recombined into quadrangles if possible and in the volume of objects so that tetrahedra will be recombined into prisms, hexahedra or pyramids if possible. Thinking about the geometry, it becomes clear that the recombination result depends strongly on the geometry of the body and that recombining a 3D body only at the surface will mostly lead to strange results.
 

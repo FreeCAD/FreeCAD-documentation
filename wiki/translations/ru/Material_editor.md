@@ -34,10 +34,10 @@
 
 1.  <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Верстак Arch](Arch_Workbench/ru.md)
     -   Кнопку <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Set Material](Arch_SetMaterial/ru.md) панели создания [нового материала](Arch_SetMaterial/ru.md) в [верстаке Arch](Arch_Workbench/ru.md)
-    -   Меню {{MenuCommand|Arch → Set material...}}
+    -   Меню **Arch → Set material...**
 2.  <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Верстак FEM](FEM_Workbench/ru.md)
     -   Иконку <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> [Material editor](Material_editor/ru.md)
-    -   Меню {{MenuCommand|Models → Material → Material editor}}
+    -   Меню **Models → Material → Material editor**
 3.  Или через Python (см. ниже секцию [Scripting](#Scripting.md))
 
 

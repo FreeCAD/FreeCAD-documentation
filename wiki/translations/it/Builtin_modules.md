@@ -4,7 +4,7 @@ Questa pagina presenta le informazioni più approfondite sui moduli incorporati 
 
 A causa della rapida evoluzione di FreeCAD, le informazioni presentate qui potrebbero essere un po\' superate, ma dovrebbero dare una buona panoramica sulle possibilità. Per l\'elenco completo dei contenuti dei moduli, utilizzare la funzione dir(nome\_modulo) nell\'interprete. \_\_NOTOC\_\_
 
-## Non graphical {#non_graphical}
+## Non graphical 
 
 -   [Il modulo di FreeCAD](FreeCAD_API/it.md)
 -   [Base](Base_API/it.md)

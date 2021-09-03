@@ -32,7 +32,7 @@ In \"CompSolid\" mode, the solids are joined into a compsolid (compsolid is a se
     The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g., faces). You can also select a compound containing all the shapes to be connected, e.g. [Draft OrthoArray](Draft_OrthoArray.md).
 2.  Invoke the Part BooleanFragments command several ways:
     -   Pressing the <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> button in the toolbar
-    -   Using the {{MenuCommand|Part → Split → Boolean Fragments}} entry in the Part menu
+    -   Using the **Part → Split → Boolean Fragments** entry in the Part menu
 
 A Boolean Fragments parametric object is created. Original objects are hidden, and the result of intersection is shown in [3D view](3D_view.md).
 
@@ -47,7 +47,7 @@ A Boolean Fragments parametric object is created. Original objects are hidden, a
 
 -    **Tolerance**: \"fuzziness\" value. This is an extra tolerance to apply when searching for intersections, in addition to tolerances stored in the input shapes.
 
-## Implementation details {#implementation_details}
+## Implementation details 
 
 Boolean Fragments tool in \"Standard mode\" is OpenCascade\'s General Fuse Operator (GFA). It accepts a combination of probably all shape types, and the logic of output is quite convoluted. See [OpenCascade user guide: Boolean operations](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
 

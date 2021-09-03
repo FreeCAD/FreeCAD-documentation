@@ -16,7 +16,7 @@ Ambientes de trabajo marcados con <img alt="" src=images/AddonManager.svg  style
 
 Los ambientes de trabajo marcados con <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> no se recomiendan para las versiones recientes de FreeCAD. Están obsoletos, sin mantenimiento, reemplazados por un nuevo banco de trabajo, o quizás no funcionan con Python 3 o con Qt5. En la mayoría de los casos deberían evitarse.
 
-## Ambiente de trabajo ensamble {#ambiente_de_trabajo_ensamble}
+## Ambiente de trabajo ensamble 
 
 A partir de FreeCAD 0.19 no hay ningún ambiente de trabajo oficial para la asamblea. Sin embargo, se han creado o están en desarrollo varias herramientas externas para manipular objetos para producir ensamblajes.
 
@@ -24,7 +24,7 @@ Tenga en cuenta que los ambientes de trabajo de montaje suelen ser incompatibles
 
 También hay ambientes de trabajo de \"pseudo-ensamblaje\" que en realidad no usan restricciones para mantener las relaciones entre las partes, sino que simplemente las re-posicionan en el espacio.
 
-## Vista general {#vista_general}
+## Vista general 
 
 La tabla que figura a continuación está organizada por temas, pero puede reordenarse haciendo clic en cualquiera de los encabezados de las columnas.
 
@@ -297,7 +297,7 @@ La tabla que figura a continuación está organizada por temas, pero puede reord
 | <img alt="" src=images/FrontISTR.svg  style="width:32px;">                                                                     | [FEM FrontISTR](FEM_FrontISTR_Workbench.md)                                 | Simulation                  | It provides a graphical interface for [FrontISTR](https://www.frontistr.com), an open-source large-scale parallel FEM program for nonlinear structural analysis.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | kinagaki                                            | <https://github.com/FrontISTR/FEM_FrontISTR>                                        |                                                      |                                                    |
 +--------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+-------------------------------------------------------------------------------------+------------------------------------------------------+----------------------------------------------------+
 
-## Traduciendo ambientes de trabajo externos {#traduciendo_ambientes_de_trabajo_externos}
+## Traduciendo ambientes de trabajo externos 
 
 Ver la página wiki para más información [Traducir un ambiente de trabajo externo](Translating_an_external_workbench/es.md)
 

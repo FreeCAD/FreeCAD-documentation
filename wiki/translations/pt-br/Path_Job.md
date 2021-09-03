@@ -21,10 +21,10 @@ The Job tool creates a new Job object in the active document. The Job object con
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_Job.svg" width=16px> [Path Job](Path_Job.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_Job.svg" width=16px> Job}} option from the menu.
+    -   Select the **Path → <img src="images/Path_Job.svg" width=16px> Job** option from the menu.
     -   Use the keyboard shortcut: **P** then **J**.
 
-The Job GUI dialog box has five horizontal aligned tabs: {{MenuCommand|General}}, {{MenuCommand|Output}}, {{MenuCommand|Setup}}, {{MenuCommand|Tools}}, and {{MenuCommand|Workplan}}. The user can at anytime utilize the **OK** or **Cancel** options within the dialog.
+The Job GUI dialog box has five horizontal aligned tabs: **General**, **Output**, **Setup**, **Tools**, and **Workplan**. The user can at anytime utilize the **OK** or **Cancel** options within the dialog.
 
 ## General
 

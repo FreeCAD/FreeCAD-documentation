@@ -13,7 +13,7 @@ Une particularité doit être comprise: pour des raisons de sécurité, les fich
 
 Les [Python Features](App_FeaturePython/fr.md) suivent la même règle que toutes les fonctionnalités FreeCAD: elles sont séparées en plusieurs parties App (application) et GUI (interface graphique). La partie applicative, l\'objet document, définit la géométrie de notre objet, tandis que sa partie graphique, l\'objet fournisseur de vues, définit la façon dont l\'objet sera affiché à l\'écran. L\'outil View Provider Object (créateur de vue), comme toute autre fonctionnalité de FreeCAD, n\'est disponible que lorsque vous exécutez FreeCAD dans sa propre interface graphique. Plusieurs propriétés et méthodes sont disponibles pour construire votre objet. Les propriétés doivent être de l\'un des types de propriétés prédéfinis offerts par FreeCAD et apparaîtront dans la fenêtre de visualisation des propriétés, de sorte qu\'elles puissent être modifiées par l\'utilisateur. De cette façon, les objets FeaturePython sont véritablement et totalement paramétriques. Vous pouvez définir les propriétés de l\'objet et de l\'affichage ViewObject de l\'objet séparément.
 
-## Exemples de base {#exemples_de_base}
+## Exemples de base 
 
 L\'exemple suivant peut être trouvé dans le fichier [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py), avec beaucoup d\'autres exemples: 
 ```python
@@ -150,7 +150,7 @@ makeBox()
 
 ```
 
-### Choses à noter {#choses_à_noter}
+### Choses à noter 
 
 Si votre objet doit être recalculé dès sa création, vous devez le faire manuellement dans la fonction `__init__` car il n\'est pas appelé automatiquement. Cet exemple n\'en a pas besoin car la méthode `onChanged` de la classe `Box` a le même effet que la fonction `execute`, mais les exemples ci-dessous reposent sur le fait d\'être recalculés avant que quoi que ce soit ne soit affiché dans la vue 3D. Dans les exemples, cela est fait manuellement avec `ActiveDocument.recompute()` mais dans des scénarios plus complexes, vous devez décider où recalculer soit le document entier, soit l\'objet FeaturePython.
 
@@ -158,11 +158,11 @@ Cet exemple produit un certain nombre de traces de la pile d\'exception dans la 
 
 Une explication de `__getstate__` et `__setstate__` se trouve dans le fil de discussion du forum [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
-## Méthodes disponibles {#méthodes_disponibles}
+## Méthodes disponibles 
 
 Voir [Méthodes FeaturePython](FeaturePython_methods/fr.md) pour la référence complète.
 
-## Propriétés disponibles {#propriétés_disponibles}
+## Propriétés disponibles 
 
 Les propriétés sont les bases des FeaturePython objets. Grâce à elles, l\'utilisateur est en mesure d\'interagir et de modifier son objet. Après avoir créé un nouveau ObjetPython dans votre document ( obj = FreeCAD.ActiveDocument.addObject (\"App :: FeaturePython\", \"Box\") ), ses propriétés sont directement accessibles, vous pouvez obtenir la liste,
 en faisant:
@@ -276,7 +276,7 @@ Une liste complète des attributs de propriété est disponible dans le [fichier
 prop = (value, lower, upper, stepsize)
 ```
 
-## Property Type {#property_type}
+## Property Type 
 
 Par défaut, les propriétés peuvent être actualisées. Il est possible de rendre les propriétés en lecture seule, par exemple dans le cas ou l\'on veut montrer le résultat d\'une méthode. Il est également possible de cacher la propriété. Le type de propriété peut être définie à l\'aide
 
@@ -316,7 +316,7 @@ Vous pouvez trouver ces différents types de propriétés définis dans [source 
 
 <div class="mw-translate-fuzzy">
 
-## Autres exemples plus complexes {#autres_exemples_plus_complexes}
+## Autres exemples plus complexes 
 
 Cet exemple utilise le module [Atelier Part](Part_Workbench/fr.md) pour créer un [octaèdre](http://fr.wikipedia.org/wiki/Octaèdre), puis crée sa représentation **[coin](http://www.coin3d.org/) avec pivy**
 
@@ -522,7 +522,7 @@ Octahedron(a)
 ViewProviderOctahedron(a.ViewObject)
 ```
 
-## Création d\'objets sélectionnables {#création_dobjets_sélectionnables}
+## Création d\'objets sélectionnables 
 
 Si vous souhaitez rendre votre objet sélectionnable, ou au moins une partie de celui-ci, en cliquant dessus dans la fenêtre, vous devez inclure sa géométrie de pièce dans un nœud SoFCSelection. Si votre objet a une représentation complexe, avec des widgets, des annotations, etc\..., vous souhaiterez peut-être n\'en inclure qu\'une partie dans une SoFCSelection. Tout ce qui est un SoFCSelection est constamment analysé par FreeCAD pour détecter la sélection/présélection, il est donc logique de ne pas le surcharger avec un balayage inutile.
 
@@ -625,7 +625,7 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
-## Travailler avec des formes simples {#travailler_avec_des_formes_simples}
+## Travailler avec des formes simples 
 
 Si votre objet paramétrique renvoie simplement une forme, vous n\'avez pas besoin d\'utiliser un objet créateur de vue (*view provider object*).
 La forme sera affichée à l\'aide du module standard de représentation des formes de FreeCAD:
@@ -688,7 +688,7 @@ ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
 
-## Structure du scénogramme {#structure_du_scénogramme}
+## Structure du scénogramme 
 
 Vous avez peut-être remarqué que les exemples ci-dessus construisent leurs scénarios de manière légèrement différente. Certains utilisent `obj.addDisplayMode(node, "modename")` tandis que d\'autres utilisent `obj.SwitchNode.getChild(x).addChild(y)`.
 
@@ -876,7 +876,7 @@ def makeMolecule():
 a,b = makeMolecule()
 ```
 
-## Plus d\'informations {#plus_dinformations}
+## Plus d\'informations 
 
 Pages supplémentaires:
 

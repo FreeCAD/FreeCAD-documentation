@@ -36,7 +36,7 @@ Instrumentul Acoperiș vă permite să creați un acoperiș înclinat de la o li
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -96,7 +96,7 @@ Instrumentul Acoperiș vă permite să creați un acoperiș înclinat de la o li
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

@@ -6,7 +6,7 @@ Back to [FreeCADDocu:Sandbox](FreeCADDocu:Sandbox#HowTo_test.md)
 
 This is an experimental page for discussion. Please change and add as seen fit.
 
-### Foldable HowTo Template {#foldable_howto_template}
+### Foldable HowTo Template 
 
 Here is an empty template to quickly add a HowTo to this page. You need to be logged in to use it. Go to edit mode and copy&paste it.
 
@@ -25,7 +25,7 @@ The *Top* link below gets you quickly to the top of the page. It looks in wiki m
 
 ## HowTo
 
-### General Design Use Cases {#general_design_use_cases}
+### General Design Use Cases 
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -74,7 +74,7 @@ This can be done by making references of the sketches used for the holes in the 
 
 [top](#top.md)
 
-### General GUI Use Cases {#general_gui_use_cases}
+### General GUI Use Cases 
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -96,9 +96,9 @@ Please add if you know. I did not yetfind out ;)
 
 [top](#top.md)
 
-### Workbench Use Cases {#workbench_use_cases}
+### Workbench Use Cases 
 
-#### TechDraw Use Cases {#techdraw_use_cases}
+#### TechDraw Use Cases 
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

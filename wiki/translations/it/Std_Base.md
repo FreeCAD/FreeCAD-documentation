@@ -22,7 +22,7 @@ Il **Menu di base** non è un vero ambiente di lavoro, ma piuttosto una categori
 
 La maggior parte degli strumenti di **base** sono accessibili dai [menu di base](Standard_Menu/it.md) e dalle barre degli strumenti standard. Quelli che sono disponibili solo tramite una barra degli strumenti o un menu contestuale sono elencati sotto [Strumenti aggiuntivi](#Additional_tools/it.md).
 
-### Strumenti del menu standard {#strumenti_del_menu_standard}
+### Strumenti del menu standard 
 
 Il menu standard è composto da 7 sotto-menu. Ogni sotto-menu ha una pagina dedicata. Basta cliccare su uno dei nomi qui sotto.
 
@@ -44,7 +44,7 @@ Il menu standard è composto da 7 sotto-menu. Ogni sotto-menu ha una pagina dedi
 [Aiuto](Std_Help_Menu/it.md)
 }}
 
-### Strumenti aggiuntivi {#strumenti_aggiuntivi}
+### Strumenti aggiuntivi 
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Parte](Std_Part/it.md): Crea una nuova parte e la rende attiva.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppo](Std_Group/it.md): Crea un nuovo gruppo.

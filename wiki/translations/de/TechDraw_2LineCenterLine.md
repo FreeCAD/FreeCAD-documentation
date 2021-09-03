@@ -26,7 +26,7 @@ Das 2LinienMittelLinie Werkzeug fügt eine Mittellinie zwischen zwei Kanten hinz
 
 Um eine Mittellinie zu löschen, wähle sie aus und verwende die Werkzeugleisteschaltfläche **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Kosmetikobjekt entfernen](TechDraw_CosmeticEraser/de.md)**.
 
-## Bearbeiten von Mittellinien {#bearbeiten_von_mittellinien}
+## Bearbeiten von Mittellinien 
 
 Eine der Befehlsschaltflächen für die Mittellinie ( **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> [Mittellinie zu Fläche(n) hinzufügen](TechDraw_FaceCenterLine/de.md)**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Mittellinie zwischen 2 Punkten hinzufügen](TechDraw_2PointCenterLine.md)**) kann zur Bearbeitung jeder Mittellinie verwendet werden.
 
@@ -52,7 +52,7 @@ Mittellinien haben keine eigenen Eigenschaften, da sie keine Objekte innerhalb d
 -   **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Durchgehend, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Strich, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Punkt, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> StrichPunkt, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> StrichPunktPunkt
 -   **Enden Umklappen**: Klappt Endpunkte für die Erstellung wie unten beschrieben um (Attribut entfernt für FreeCAD 0.20)
 
-## Enden Umklappen {#enden_umklappen}
+## Enden Umklappen 
 
 <img alt="Darstellung zur Erstellung einer Mittellinie" src=images/TD-CenterLineFlip.png  style="width:350px;"> Die Mittellinie zwischen zwei schrägen Linien (Linie 1 und Linie 2), wird erstellt aus den Mittelpunkten (m0 und m1) der Verbindunsglinien der Endpunkte der beiden Linien - siehe Darstellung. Abhängig von den gewählten Endpunkten ergeben sich mehrere Möglichkeiten für die Verbindungslinien. Das Attribut **Flip Ends** klappt die Weise um, wie Verbindungslinien gezeichnet werden. In FreeCAD 0.20 wird die Punktreihenfolge automatisch festgelegt, so dass das **Flip Ends**-Attribut nicht länger notwendig ist.
 

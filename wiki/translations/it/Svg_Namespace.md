@@ -117,11 +117,11 @@ Definisce il punto di un oggetto di [Quotatura](Draft_Dimension/it.md) attravers
 
 Esempio: vedere [freecad:basepoint1](#freecad:basepoint1.md)
 
-### Esempio di codice freecad:EditableText {#esempio_di_codice_freecadeditabletext}
+### Esempio di codice freecad:EditableText 
 
 Questo esempio è tratto dalla tabella del modello di squadratura [A3\_Landscape](Misc_templates#A3_Landscape_US_Text_Complet_With_Convention_US.md)
 
-#### 1 : Title without textedit {#title_without_textedit}
+#### 1 : Title without textedit 
 
 <img alt="" src=images/Svg_Namespace_01.png  style="width:300px;">
 
@@ -141,7 +141,7 @@ Questo esempio è tratto dalla tabella del modello di squadratura [A3\_Landscape
          sodipodi:role="line">AUTHOR NAME :</tspan></text>
 
 
-#### 2 : Title with textedit {#title_with_textedit}
+#### 2 : Title with textedit 
 
 <img alt="" src=images/Svg_Namespace_02.png  style="width:300px;">
 
@@ -244,7 +244,7 @@ Esempio :
 -   **editable** = \"AuthorName\"
 -   replace by **freecad:editable** = \"AuthorName\"
 
-## Altri attributi disponibili {#altri_attributi_disponibili}
+## Altri attributi disponibili 
 
 
 <div class="mw-translate-fuzzy">

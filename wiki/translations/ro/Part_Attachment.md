@@ -24,7 +24,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Cum se foloseste {#cum_se_foloseste}
+## Cum se foloseste 
 
 
 </div>
@@ -92,7 +92,7 @@ Default, no reference selected .
 
 <div class="mw-translate-fuzzy">
 
-#### Muchie Normal {#muchie_normal}
+#### Muchie Normal 
 
 
 </div>
@@ -114,7 +114,7 @@ Object is made perpendicular to edge. Optional vertex reference defines location
 
 <div class="mw-translate-fuzzy">
 
-#### Align O-N-X {#align_o_n_x}
+#### Align O-N-X 
 
 
 </div>
@@ -139,7 +139,7 @@ Matches object\'s origin with first referenced vertex, then aligns its normal an
 
 <div class="mw-translate-fuzzy">
 
-#### Align O-N-Y {#align_o_n_y}
+#### Align O-N-Y 
 
 
 </div>
@@ -164,7 +164,7 @@ Matches object\'s origin with first referenced vertex and aligns its normal and 
 
 <div class="mw-translate-fuzzy">
 
-#### Align O-X-Y {#align_o_x_y}
+#### Align O-X-Y 
 
 
 </div>
@@ -189,7 +189,7 @@ Matches object\'s origin with first referenced vertex and aligns its horizontal 
 
 <div class="mw-translate-fuzzy">
 
-#### Align O-X-N {#align_o_x_n}
+#### Align O-X-N 
 
 
 </div>
@@ -214,7 +214,7 @@ Matches object\'s origin with first referenced vertex and aligns its horizontal 
 
 <div class="mw-translate-fuzzy">
 
-#### Align O-Y-N {#align_o_y_n}
+#### Align O-Y-N 
 
 
 </div>
@@ -239,7 +239,7 @@ Matches object\'s origin with first referenced vertex and aligns its vertical pl
 
 <div class="mw-translate-fuzzy">
 
-#### Align O-Y-X {#align_o_y_x}
+#### Align O-Y-X 
 
 
 </div>
@@ -264,7 +264,7 @@ Matches object\'s origin with first referenced vertex and aligns its vertical an
 
 <div class="mw-translate-fuzzy">
 
-#### Translatarea originii {#translatarea_originii}
+#### Translatarea originii 
 
 
 </div>
@@ -284,7 +284,7 @@ Object\'s origin is aligned to matched vertex. Orientation is controlled by [Pla
 
 <div class="mw-translate-fuzzy">
 
-#### Object\'s XY {#objects_xy}
+#### Object\'s XY 
 
 
 </div>
@@ -304,7 +304,7 @@ Plane is aligned to XY local plane of linked object .
 
 <div class="mw-translate-fuzzy">
 
-#### Object\'s XZ {#objects_xz}
+#### Object\'s XZ 
 
 
 </div>
@@ -324,7 +324,7 @@ Plane is aligned to XZ local plane of linked object .
 
 <div class="mw-translate-fuzzy">
 
-#### Object\'s YZ {#objects_yz}
+#### Object\'s YZ 
 
 
 </div>
@@ -344,7 +344,7 @@ Plane is aligned to YZ local plane of linked object .
 
 <div class="mw-translate-fuzzy">
 
-#### Plane face {#plane_face}
+#### Plane face 
 
 
 </div>
@@ -364,7 +364,7 @@ Plane is aligned to coincide to planar face .
 
 <div class="mw-translate-fuzzy">
 
-#### Tangent to surface {#tangent_to_surface}
+#### Tangent to surface 
 
 
 </div>
@@ -385,7 +385,7 @@ Plane is made tangent to surface at vertex .
 
 <div class="mw-translate-fuzzy">
 
-#### Frenet NB {#frenet_nb}
+#### Frenet NB 
 
 
 </div>
@@ -402,7 +402,7 @@ Plane is set to normal-binormal (NB) axes of [Frenet-Serret coordinates](https:/
 
 <div class="mw-translate-fuzzy">
 
-#### Frenet TN {#frenet_tn}
+#### Frenet TN 
 
 
 </div>
@@ -419,7 +419,7 @@ Plane is set to tangent-normal (TN) axes of [Frenet-Serret coordinates](https://
 
 <div class="mw-translate-fuzzy">
 
-#### Frenet TB {#frenet_tb}
+#### Frenet TB 
 
 
 </div>
@@ -461,7 +461,7 @@ Aligns to plane to osculating circle of an edge. Optional Vertex link defines wh
 
 <div class="mw-translate-fuzzy">
 
-#### Revolution Section {#revolution_section}
+#### Revolution Section 
 
 
 </div>
@@ -486,7 +486,7 @@ Plane is perpendicular to edge, and Y axis is matched with axis of osculating ci
 
 <div class="mw-translate-fuzzy">
 
-#### Plane by 3 points {#plane_by_3_points}
+#### Plane by 3 points 
 
 
 </div>
@@ -509,7 +509,7 @@ Aligns XY plane to pass through three vertices .
 
 <div class="mw-translate-fuzzy">
 
-#### Normal to 3 points {#normal_to_3_points}
+#### Normal to 3 points 
 
 
 </div>
@@ -553,7 +553,7 @@ Specialty mode for folding polyhedra. Select 4 edge in order: foldable edge, fol
 
 <div class="mw-translate-fuzzy">
 
-#### Inertia 2-3 {#inertia_2_3}
+#### Inertia 2-3 
 
 
 </div>
@@ -576,7 +576,7 @@ Object will be attached to a plane passing through second and third principal ax
 
 <div class="mw-translate-fuzzy">
 
-### Attachment Offset {#attachment_offset}
+### Attachment Offset 
 
 
 </div>

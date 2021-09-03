@@ -28,7 +28,7 @@ Adding new constraints, equations or solver is mostly routine work. But doing it
 -   A solid understanding of the solver for which new objects shall be added (e.g. CalculiX or Elmer) is important.
 -   A little knowledge about build systems, especially cmake (build system used by FreeCAD).
 
-## Build System (cmake) {#build_system_cmake}
+## Build System (cmake) 
 
 The build system must be modified regardless of which objects shall be added o the FEM workbench. Every python module (file) must be registered. The FEM workbench requires every new python module to be registered in `Mod/Fem/CMakeLists.txt`. This is true regardless of the type of the python module (GUI or non-GUI). Where exactly the module must be inserted depends on the role of the module. Solver, equations and constraints all use different lists. Searching for similar files and inserting the new file in the same list works most of the time.
 
@@ -77,7 +77,7 @@ SET(FemGuiViewProvider_SRCS
 )
 }}
 
-## Source Organization {#source_organization}
+## Source Organization 
 
 For organizing the python code the FEM module uses the following approach. The module is split into the following packages:
 

@@ -37,7 +37,7 @@ Une description similaire de ce processus est décrite dans une série de vidéo
 
 *align=center|Propriété de déviation des corps créés dans FreeCAD. L'écart doit être faible pour pouvoir exporter les pièces avec une bonne résolution.*
 
-3\. Sélectionnez `Part`, puis {{MenuCommand|Fichier → Exporter}}, ou appuyez sur **Ctrl** + **E**, et exportez-le sous `Wavefront OBJ`.
+3\. Sélectionnez `Part`, puis **Fichier → Exporter**, ou appuyez sur **Ctrl** + **E**, et exportez-le sous `Wavefront OBJ`.
 
 Alternativement, l\'exportation peut être effectuée depuis la console [Python](Python/fr.md). Définissez une liste d\'objets à exporter et utilisez la fonction d\'exportation avec un nom de fichier.
 
@@ -71,7 +71,7 @@ importOBJ.export(objs, "/home/user/assembly.obj")
 
 ## Blender
 
-### Préparez le modèle {#préparez_le_modèle}
+### Préparez le modèle 
 
 4\. Ouvrez Blender. Changez le panneau `Timeline` dans une `console Python` (**Shift**+**F4**). Cela vous aidera à saisir des commandes et à voir les résultats. Vous pouvez diviser ce panneau, pour garder la console d\'un côté, et faire de l\'autre division un panneau `Info`; cela vous permettra de voir le code des actions en cliquant sur l\'interface.
 
@@ -82,7 +82,7 @@ Assurez-vous que vous utilisez le moteur de rendu EEVEE. Dans le panneau `Proper
 bpy.context.scene.render.engine = 'BLENDER_EEVEE'
 ```
 
-5\. Importez le fichier de modèle à partir du menu, {{MenuCommand|Fichier → Importer → Wavefront (.obj)}}.
+5\. Importez le fichier de modèle à partir du menu, **Fichier → Importer → Wavefront (.obj)**.
 
 Alternativement, l\'importation peut être effectuée à partir de la `console Python`.
 
@@ -144,11 +144,11 @@ for obj in bpy.data.objects:
 
 *align=center|Assemblage créé dans FreeCAD importé dans Blender; le modèle a été tourné et les unités de la scène ont été ajustées pour correspondre aux objets importés.*
 
-### Préparez la caméra de la scène {#préparez_la_caméra_de_la_scène}
+### Préparez la caméra de la scène 
 
 8\. Réglez la caméra dans la bonne position.
 
-Ajustez la fenêtre pour regarder le modèle dans l\'orientation souhaitée, puis appuyez sur **Ctrl**+**Alt**+**0** (pavé numérique), ou utilisez le menu {{MenuCommand|Affichage → Aligner la vue → Aligner la caméra active sur la vue}}.
+Ajustez la fenêtre pour regarder le modèle dans l\'orientation souhaitée, puis appuyez sur **Ctrl**+**Alt**+**0** (pavé numérique), ou utilisez le menu **Affichage → Aligner la vue → Aligner la caméra active sur la vue**.
 
 8.1. Si vous ne voyez rien dans la vue de la caméra, vous devrez peut-être ajuster le découpage. En sélectionnant la caméra dans `Outliner`, allez dans le panneau `Properties`, puis `Object Data`, puis `Lens`, puis définissez `Clip End` à une valeur élevée, par exemple `1E3 mm` ou `1000 m`.
 
@@ -174,7 +174,7 @@ bpy.context.object.data.display_size = 20
 bpy.context.object.data.show_limits = True
 ```
 
-### Préparez la caméra de la scène {#préparez_la_caméra_de_la_scène_1}
+### Préparez la caméra de la scène 
 
 9\. Sélectionnez la lumière dans `Outliner`, allez dans le panneau `Properties`, puis `Object Data`, puis appuyez sur `Sun`, et réglez le `Strength` à `5.0`.
 
@@ -201,7 +201,7 @@ Appuyez à nouveau sur **F12** pour voir un rendu préliminaire du modèle.
 
 *align=center|Rendu de l'assemblage dans Blender avec une lampe solaire ajoutée qui émet des rayons lumineux parallèles avec un angle fixe*
 
-### Plus de configuration: sol, éclairage global, reflets et ombres douces {#plus_de_configuration_sol_éclairage_global_reflets_et_ombres_douces}
+### Plus de configuration: sol, éclairage global, reflets et ombres douces 
 
 10\. Ajoutez un plan d\'étage. Appuyez sur **Shift**+**A** puis choisissez `Mesh`, `Plane`, et donnez-lui des dimensions environ 10 fois plus grandes que votre modèle. Cet objet maillé servira de plan de sol ou de dessus de table sur lequel le modèle se trouve. Déplacez également le plan un peu vers le bas afin qu\'il n\'intersecte pas le modèle; `-1 mm` sous l\'objet suffit.
 
@@ -242,9 +242,9 @@ En général, les métaux sont naturellement lisses et donc leur valeur de rugos
 
 Appuyez sur **F12** pour rendre la vue à travers la caméra et vérifier la qualité de l\'image.
 
-### Rendu et sauvegarde {#rendu_et_sauvegarde}
+### Rendu et sauvegarde 
 
-15\. Si votre modèle semble raisonnablement bien avec le moteur de rendu EEVEE, vous pouvez déjà enregistrer l\'image en allant dans {{MenuCommand|Image → Enregistrer sous}} ou en appuyant sur **Shift**+**S** dans le {{Incode|Image Editor}}.
+15\. Si votre modèle semble raisonnablement bien avec le moteur de rendu EEVEE, vous pouvez déjà enregistrer l\'image en allant dans **Image → Enregistrer sous** ou en appuyant sur **Shift**+**S** dans le {{Incode|Image Editor}}.
 
 <img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width:600px;">
 
@@ -266,14 +266,14 @@ Pour le `Viewport`, un petit nombre d\'échantillons, compris entre `32` et `128
 
 Appuyez sur **F12** pour rendre la vue finale à travers la caméra. Selon votre carte graphique (GPU), le rendu de l\'image devrait prendre plusieurs secondes, ou minutes, avec Cycles qu\'avec EEVEE, mais la qualité de l\'image devrait être meilleure.
 
-17\. Lorsque vous êtes satisfait de la qualité du rendu, dans `Image Editor` allez dans {{MenuCommand|Image → Enregistrer sous}} ou appuyez sur **Shift**+**S**.
+17\. Lorsque vous êtes satisfait de la qualité du rendu, dans `Image Editor` allez dans **Image → Enregistrer sous** ou appuyez sur **Shift**+**S**.
 
 <img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width:600px;">
 
 
 *align=center|Assemblage rendu produit avec Blender Cycles; toutes les options, matériaux et lumières utilisés avec EEVEE ont été conservés pour être utilisés avec Cycles.*
 
-### Rendu depuis la ligne de commande {#rendu_depuis_la_ligne_de_commande}
+### Rendu depuis la ligne de commande 
 
 18\. Si la scène est complètement terminée, vous souhaiterez peut-être effectuer le rendu depuis l\'extérieur de Blender, depuis la ligne de commande du système d\'exploitation. Cela peut être utile pour effectuer le rendu par lots de différentes scènes dans un système distant. EEVEE et Cycles sont pris en charge.
 
@@ -289,7 +289,7 @@ blender -b assembly.blend -E CYCLES -o //assembly_CYCLES_#### -t 3 -F PNG -x 1 -
 
 Ceci spécifie que le rendu doit avoir lieu en arrière-plan avec `-b`; le moteur de rendu est choisi avec `-E`; le nom du fichier de sortie est sélectionné avec `-o`; la double barre oblique `//` indique un chemin relatif au fichier d\'entrée; le signe dièse `#` est utilisé pour indiquer le numéro de la trame, complété avec des zéros si nécessaire, par exemple, `0001`; le nombre de threads CPU utilisés dans le rendu est choisi avec `-t 3`; le format du fichier de sortie est indiqué par `-F`, et l\'option `-x 1` ajoute automatiquement l\'extension au nom; la dernière option est `-f 1` qui indique que seule la première image sera rendue, ce qui est le cas normal pour une scène statique; pour les animations, utilisez le commutateur `-a` pour produire une image pour chaque image, qui peut ensuite être assemblée pour produire un fichier vidéo.
 
-## Importation du plugin {#importation_du_plugin}
+## Importation du plugin 
 
 La création du maillage Wavefront intermédiaire (.obj) puis son importation dans Blender fonctionnera dans la plupart des situations. Cependant, il existe également la possibilité d\'importer le fichier FreeCAD (.FCStd) directement dans Blender au moyen d\'un plugin.
 
@@ -327,7 +327,7 @@ import sys
 sys.path.append("/usr/lib/freecad/lib/FreeCAD.so")
 ```
 
-## Remarques finales {#remarques_finales}
+## Remarques finales 
 
 EEVEE n\'est pas un moteur de rendu physiquement précis, mais sa principale force est qu\'il s\'agit d\'un moteur en temps réel, ce qui lui permet de produire des rendus rapides directement dans la fenêtre 3D. Dans de nombreux cas, ces images ont une qualité suffisante pour la production finale, ce qui signifie qu\'il est possible d\'obtenir un bon résultat en très peu de temps. Dans les cas où des interactions lumineuses complexes sont souhaitées (réflexions, réfractions, lumière volumétrique et caustiques), EEVEE est plus limité et nécessite certaines options et astuces pour contourner certaines de ces limitations.
 

@@ -23,7 +23,7 @@
         
         버튼을 누르십시오.
 
-    -   메뉴에서 {{MenuCommand|편집 → <img src="images/Std_Cut.svg" width=16px> 잘라내기}} 옵션을 선택하십시오.
+    -   메뉴에서 **편집 → <img src="images/Std_Cut.svg" width=16px> 잘라내기** 옵션을 선택하십시오.
 
 ## 비고
 

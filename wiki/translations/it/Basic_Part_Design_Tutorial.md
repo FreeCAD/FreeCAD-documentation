@@ -17,23 +17,23 @@ Il video dell\'intera costruzione è disponibile in: <https://youtu.be/geIrH1cOC
 
 (sotto sono riportate le schermate di ogni sezione)
 
-## Prima di iniziare {#prima_di_iniziare}
+## Prima di iniziare 
 
 
 <div class="mw-translate-fuzzy">
 
-## Lo scopo {#lo_scopo}
+## Lo scopo 
 
 In questa esercitazione, si prevede di utilizzare l\'ambiente Part Design per creare un modello solido 3D della parte mostrata nel [Disegno](Drawing_Module/it.md) sottostante. Sono fornite tutte le dimensioni necessarie per portare a termine questo compito. Si inizierà creando il nucleo della forma da uno schizzo di base e poi si costruirà sulla forma aggiungendo ad essa ciò che è conosciuto come funzioni (Features). Le funzioni aggiungono del materiale, o rimuovono del materiale dal pieno mediante l\'uso di disegni supplementari accompagnati dalle operazioni delle funzioni. Questo tutorial non utilizza tutte le funzioni e gli strumenti disponibili nell\'ambiente Part Design, ma ne utilizza a sufficienza per dare agli utenti di questo tutorial le basi su cui costruire le loro conoscenze e competenze.
 
 
 </div>
 
-## La Parte {#la_parte}
+## La Parte 
 
 ![](images/Tutorial_Drawing_Sheet.png )
 
-## Costruzione della Parte {#costruzione_della_parte}
+## Costruzione della Parte 
 
 ### Inizio
 
@@ -52,7 +52,7 @@ Tutti i lavori in Part Design iniziano con un [Corpo](Glossary#Body.md). Quindi 
 
 Dopo aver fatto clic su OK, FreeCAD passa automaticamente all\'ambiente [Sketcher](Sketcher_Workbench/it.md) e apre lo schizzo in modalità di modifica: ![](images/Tut17_sketcherempty.png )
 
-### Creare lo schizzo {#creare_lo_schizzo}
+### Creare lo schizzo 
 
 Per procedere, utilizzare lo strumento <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polilinea](Sketcher_CreatePolyline/it.md) e fare una forma simile a quella dell\'immagine successiva. Non è necessario che sia perfetta, in quanto, dopo averla costruita, si applicheranno i vincoli. Dopo aver prodotto la forma di base, si passa ad applicare i vincoli. Se la casella *Autovincoli* era impostata su ON, alcuni di loro saranno già stati applicati automaticamente, in caso contrario, procedere come segue. Prima però assicurarsi di aver chiuso lo strumento polilinea cliccando con il tasto destro o premendo ** Esc** due volte; il cursore del mouse dovrebbe tornare da mirino a freccia standard. Non premere **Esc** una terza volta o si esce dalla modalità di modifica dello schizzo, se ciò accade, fare clic sulla scheda Modello, quindi fare doppio clic sull\'elemento Schizzo nell\'albero o fare clic con il pulsante destro del mouse e selezionare **Modifica schizzo** nel menu contestuale.
 
@@ -74,7 +74,7 @@ A questo punto si dovrebbe avere un disegno completamente vincolato, come indica
 
 Il video dei passaggi utilizzati in questa parte del tutorial è in: <https://youtu.be/cUyPnCMeTgg>
 
-### Funzioni con Tasca e Geometria esterna {#funzioni_con_tasca_e_geometria_esterna}
+### Funzioni con Tasca e Geometria esterna 
 
 Utilizzando il mouse, o con le icone di visualizzazione, ruotare il modello in modo da poter vedere la sua faccia posteriore. Quando la faccia posteriore della Parte è visibile, selezionarla cliccando su di essa, come si vede nell\'immagine successiva. <img alt="" src=images/PD_WB_Tutorial003.png ) Dopo aver selezionato la faccia, fare clic sull\'icona Nuovo schizzo nella barra degli strumenti o dal menu Part Design per mappare il prossimo schizzo sulla faccia posteriore della Parte. Poi selezionare lo strumento ![](images/Sketcher_CreateRectangle.svg  style="width:32px;"> rettangolo e posizionare un rettangolo sulla faccia posteriore della parte in modo simile a come mostrato di seguito. Infine, seguendo i passaggi elencati, vincolare lo schizzo.
 
@@ -93,7 +93,7 @@ Per l\'operazione successiva, assicurarsi che \"Pocket\" sia selezionato nella v
 
 Il video dei passaggi utilizzati in questa parte del tutorial è in: <https://youtu.be/wiGXV9G7mrM>
 
-### Funzioni con Pad e geometria esterna {#funzioni_con_pad_e_geometria_esterna}
+### Funzioni con Pad e geometria esterna 
 
 Dopo aver dato un\'occhiata, ruotare nuovamente la parte e selezionare ancora la faccia posteriore per mappare il prossimo Schizzo. ![](images/tut17_profilewithslotsrearplane.png ) Selezionare Nuovo schizzo e fare un nuovo rettangolo in modo simile a quanto illustrato nella prossima immagine. Quindi procedere aggiungendo al rettangolo i vincoli dimensionali.
 
@@ -109,7 +109,7 @@ Procedere cliccando sulla funzione Pad e nella finestra di dialogo Pad della Vis
 
 Il video dei passaggi utilizzati in questa parte del tutorial è in: <https://youtu.be/Ido1owp8ubc>
 
-### Funzioni con Cavità e Geometria esterna {#funzioni_con_cavità_e_geometria_esterna}
+### Funzioni con Cavità e Geometria esterna 
 
 A questo punto ruotando la Parte dalla parte anteriore, possiamo vedere che la Parte comincia ad essere simile alla Parte mostrata nel disegno quotato all\'inizio di questo tutorial. Quando la parte anteriore è visibile, fare clic con il mouse sulla faccia inclinata per selezionare la faccia da usare per il prossimo schizzo. ![](images/tut17_innerplane.png ) Ora usare lo strumento rettangolo per posizionare un rettangolo nello schizzo e poi applicare i seguenti vincoli.
 
@@ -155,7 +155,7 @@ Il video dei passaggi utilizzati in questa parte del tutorial è in: <https://yo
 
 Questo tutorial e il vostro modello sono terminati.
 
-## Risorse aggiuntive {#risorse_aggiuntive}
+## Risorse aggiuntive 
 
 -   File di FreeCAD per il confronto (fatto con 0.17) [Download](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
 

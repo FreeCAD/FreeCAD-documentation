@@ -6,12 +6,12 @@
 
 Here we will explain to you how to control the [Part](Part_Workbench.md) module directly from the FreeCAD Python interpreter, or from any external script. Be sure to browse the [Scripting](Scripting.md) section and the [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) pages if you need more information about how Python scripting works in FreeCAD. If you are new to Python, it is a good idea to first read the [Introduction to Python](Introduction_to_Python.md).
 
-### See also {#see_also}
+### See also 
 
 -   [Part scripting](Part_scripting.md)
 -   [OpenCASCADE](OpenCASCADE.md)
 
-## Class diagram {#class_diagram}
+## Class diagram 
 
 This is a [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language) overview of the most important classes of the Part module: ![Python classes of the Part module](images/Part_Classes.jpg )
 
@@ -44,7 +44,7 @@ The following topological data types are available:
 
 
 
-## Example: Create simple topology {#example_create_simple_topology}
+## Example: Create simple topology 
 
 ![Wire](images/Wire.png )
 
@@ -52,7 +52,7 @@ We will now create a topology by constructing it out of simpler geometry. As a c
 
 
 
-### Create geometry {#create_geometry}
+### Create geometry 
 
 First we create the distinct geometric parts of this wire. Making sure that parts that have to be connected later share the same vertices.
 
@@ -100,7 +100,7 @@ L2 = Part.LineSegment(V3, V4)
 
 
 
-### Put it all together {#put_it_all_together}
+### Put it all together 
 
 The last step is to put the geometric base elements together and bake a topological shape:
 
@@ -111,7 +111,7 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 
 
-### Make a prism {#make_a_prism}
+### Make a prism 
 
 Now extrude the wire in a direction and make an actual 3D shape:
 
@@ -123,7 +123,7 @@ P = W.extrude(Base.Vector(0, 0, 10))
 
 
 
-### Show it all {#show_it_all}
+### Show it all 
 
  
 ```python
@@ -132,7 +132,7 @@ Part.show(P)
 
 
 
-## Create basic shapes {#create_basic_shapes}
+## Create basic shapes 
 
 You can easily create basic topological objects with the `make...()` methods from the Part module:
 
@@ -166,7 +166,7 @@ See the [Part API](Part_API.md) page for a complete list of available methods of
 
 
 
-### Import modules {#import_modules}
+### Import modules 
 
 First we need to import the Part module so we can use its contents in Python. We\'ll also import the Base module from inside the FreeCAD module:
 
@@ -178,7 +178,7 @@ from FreeCAD import Base
 
 
 
-### Create a vector {#create_a_vector}
+### Create a vector 
 
 [Vectors](http://en.wikipedia.org/wiki/Euclidean_vector) are one of the most important pieces of information when building shapes. They usually contain three numbers (but not necessarily always): the X, Y and Z cartesian coordinates. You create a vector like this:
 
@@ -198,7 +198,7 @@ print(myVertex.Point)
 
 
 
-### Create an edge {#create_an_edge}
+### Create an edge 
 
 An edge is nothing but a line with two vertices:
 
@@ -231,7 +231,7 @@ edge.CenterOfMass
 
 
 
-### Put the shape on screen {#put_the_shape_on_screen}
+### Put the shape on screen 
 
 So far we created an edge object, but it doesn\'t appear anywhere on the screen. This is because the FreeCAD 3D scene only displays what you tell it to display. To do that, we use this simple method:
 
@@ -244,7 +244,7 @@ The show function creates an object in our FreeCAD document and assigns our \"ed
 
 
 
-### Create a wire {#create_a_wire}
+### Create a wire 
 
 A wire is a multi-edge line and can be created from a list of edges or even a list of wires:
 
@@ -281,7 +281,7 @@ wire2.isClosed()
 
 
 
-### Create a face {#create_a_face}
+### Create a face 
 
 Only faces created from closed wires will be valid. In this example, wire3 is a closed wire but wire2 is not (see above):
 
@@ -305,7 +305,7 @@ Only faces will have an area, wires and edges do not.
 
 
 
-### Create a circle {#create_a_circle}
+### Create a circle 
 
 A circle can be created like this:
 
@@ -344,7 +344,7 @@ degrees = math.degrees(radians)
 
 
 
-### Create an arc along points {#create_an_arc_along_points}
+### Create an arc along points 
 
 Unfortunately there is no `makeArc()` function, but we have the `Part.Arc()` function to create an arc through three points. It creates an arc object joining the start point to the end point through the middle point. The arc object\'s `toShape()` function must be called to get an edge object, the same as when using `Part.LineSegment` instead of `Part.makeLine`.
 
@@ -373,7 +373,7 @@ Arcs are valid edges like lines, so they can be used in wires also.
 
 
 
-### Create a polygon {#create_a_polygon}
+### Create a polygon 
 
 A polygon is simply a wire with multiple straight edges. The `makePolygon()` function takes a list of points and creates a wire through those points:
 
@@ -384,7 +384,7 @@ lshape_wire = Part.makePolygon([Base.Vector(0, 5, 0), Base.Vector(0, 0, 0), Base
 
 
 
-### Create a bézier curve {#create_a_bézier_curve}
+### Create a bézier curve 
 
 Bézier curves are used to model smooth curves using a series of poles (points) and optional weights. The function below makes a `Part.BezierCurve()` from a series of `FreeCAD.Vector()` points. Note: when \"getting\" and \"setting\" a single pole or weight, indices start at 1, not 0.
 
@@ -399,7 +399,7 @@ def makeBCurveEdge(Points):
 
 
 
-### Create a plane {#create_a_plane}
+### Create a plane 
 
 A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start\_pnt = Vector(0, 0, 0) and dir\_normal = Vector(0, 0, 1). Using dir\_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir\_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction:
 
@@ -422,7 +422,7 @@ Note: `makePlane()` only accepts `Base.Vector()` for start\_pnt and dir\_normal 
 
 
 
-### Create an ellipse {#create_an_ellipse}
+### Create an ellipse 
 
 There are several ways to create an ellipse:
 
@@ -474,7 +474,7 @@ For the above Ellipse constructor we have passed center, MajorRadius and MinorRa
 
 
 
-### Create a torus {#create_a_torus}
+### Create a torus 
 
 Using `makeTorus(radius1, radius2, [pnt, dir, angle1, angle2, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = 0, angle2 = 360 and angle = 360. Consider a torus as small circle sweeping along a big circle. Radius1 is the radius of the big circle, radius2 is the radius of the small circle, pnt is the center of the torus and dir is the normal direction. angle1 and angle2 are angles in degrees for the small circle; the last angle parameter is to make a section of the torus:
 
@@ -501,7 +501,7 @@ The above code will create a semi torus; only the last parameter is changed. i.e
 
 
 
-### Create a box or cuboid {#create_a_box_or_cuboid}
+### Create a box or cuboid 
 
 Using `makeBox(length, width, height, [pnt, dir])`. By default pnt = Vector(0, 0, 0) and dir = Vector(0, 0, 1).
 
@@ -514,7 +514,7 @@ len(box.Vertexes)
 
 
 
-### Create a sphere {#create_a_sphere}
+### Create a sphere 
 
 Using `makeSphere(radius, [pnt, dir, angle1, angle2, angle3])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = -90, angle2 = 90 and angle3 = 360. Angle1 and angle2 are the vertical minimum and maximum of the sphere, angle3 is the sphere diameter.
 
@@ -526,7 +526,7 @@ hemisphere = Part.makeSphere(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), -90
 
 
 
-### Create a cylinder {#create_a_cylinder}
+### Create a cylinder 
 
 Using `makeCylinder(radius, height, [pnt, dir, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) and angle = 360.
 
@@ -537,7 +537,7 @@ partCylinder = Part.makeCylinder(5, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0,
 
 
 
-### Create a cone {#create_a_cone}
+### Create a cone 
 
 Using `makeCone(radius1, radius2, height, [pnt, dir, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) and angle = 360.
 
@@ -548,15 +548,15 @@ semicone = Part.makeCone(10, 0, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0, 1),
 
 
 
-## Modify shapes {#modify_shapes}
+## Modify shapes 
 
 There are several ways to modify shapes. Some are simple transformation operations such as moving or rotating shapes, others are more complex, such as unioning and subtracting one shape from another.
 
 
 
-## Transform operations {#transform_operations}
+## Transform operations 
 
-### Translate a shape {#translate_a_shape}
+### Translate a shape 
 
 Translating is the act of moving a shape from one place to another. Any shape (edge, face, cube, etc\...) can be translated the same way:
 
@@ -569,7 +569,7 @@ This will move our shape \"myShape\" 2 units in the X direction.
 
 
 
-### Rotate a shape {#rotate_a_shape}
+### Rotate a shape 
 
 To rotate a shape, you need to specify the rotation center, the axis, and the rotation angle:
 
@@ -581,7 +581,7 @@ The above code will rotate the shape 180 degrees around the Z Axis.
 
 
 
-### Matrix transformations {#matrix_transformations}
+### Matrix transformations 
 
 A matrix is a very convenient way to store transformations in the 3D world. In a single matrix, you can set translation, rotation and scaling values to be applied to an object. For example:
 
@@ -612,7 +612,7 @@ myShape.transformGeometry(myMat)
 
 
 
-### Scale a shape {#scale_a_shape}
+### Scale a shape 
 
 Scaling a shape is a more dangerous operation because, unlike translation or rotation, scaling non-uniformly (with different values for X, Y and Z) can modify the structure of the shape. For example, scaling a circle with a higher value horizontally than vertically will transform it into an ellipse, which behaves mathematically very differently. For scaling, we cannot use the `transformShape()`, we must use `transformGeometry()`:
 
@@ -624,7 +624,7 @@ myShape=myShape.transformGeometry(myMat)
 
 
 
-## Boolean operations {#boolean_operations}
+## Boolean operations 
 
 ### Subtraction
 
@@ -699,7 +699,7 @@ cylinder = disc.extrude(Base.Vector(0, 0, 2))
 
 
 
-## Explore shapes {#explore_shapes}
+## Explore shapes 
 
 You can easily explore the topological data structure:
 
@@ -723,7 +723,7 @@ By typing the lines above in the Python interpreter, you will gain a good unders
 
 
 
-### Edge analysis {#edge_analysis}
+### Edge analysis 
 
 In case of an edge, which is an arbitrary curve, it\'s most likely you want to do a discretization. In FreeCAD the edges are parametrized by their lengths. That means you can walk an edge/curve by its length:
 
@@ -750,7 +750,7 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 
 
-### Use a selection {#use_a_selection}
+### Use a selection 
 
 Here we see now how we can use a selection the user did in the viewer. First of all we create a box and show it in the viewer.
 
@@ -784,7 +784,7 @@ print("Length of the selected edges: ", length)
 
 
 
-## Example: The OCC bottle {#example_the_occ_bottle}
+## Example: The OCC bottle 
 
 A typical example found on the [OpenCasCade Technology website](https://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) is how to build a bottle. This is a good exercise for FreeCAD too. In fact, if you follow our example below and the OCC page simultaneously, you will see how well OCC structures are implemented in FreeCAD. The script is included in the FreeCAD installation (inside the {{FileName|Mod/Part}} folder) and can be called from the Python interpreter by typing:
 
@@ -797,7 +797,7 @@ Part.show(bottle)
 
 
 
-### The script {#the_script}
+### The script 
 
 For the purpose of this tutorial we will consider a reduced version of the script. In this version the bottle will not be hollowed out, and the neck of the bottle will not be threaded.
 
@@ -850,7 +850,7 @@ Part.show(el)
 
 
 
-### Detailed explanation {#detailed_explanation}
+### Detailed explanation 
 
 ```python
 import Part, math
@@ -952,7 +952,7 @@ Finally, we call the function to actually create the part, then make it visible.
 
 
 
-## Example: Pierced box {#example_pierced_box}
+## Example: Pierced box 
 
 Here is a complete example of building a pierced box.
 
@@ -1007,7 +1007,7 @@ Part.show(cut_part)
 
 
 
-## Loading and saving {#loading_and_saving}
+## Loading and saving 
 
 There are several ways to save your work. You can of course save your FreeCAD document, but you can also save [Part](Part_Workbench.md) objects directly to common CAD formats, such as BREP, IGS, STEP and STL.
 

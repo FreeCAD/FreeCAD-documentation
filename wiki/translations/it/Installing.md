@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Scegliere il proprio sistema operativo {#scegliere_il_proprio_sistema_operativo}
+## Scegliere il proprio sistema operativo 
 
 
 </div>
@@ -33,11 +33,11 @@ FreeCAD è realmente una applicazione multi-piattaforma, sviluppata sul noto amb
 
 </div>
 
-# Help files {#help_files}
+# Help files 
 
 The offline documentation is not shipped with all installers, but it is available as a separate package. See the [Installing Helpfile](Installing_Helpfile.md) page for more information.
 
-# External workbenches {#external_workbenches}
+# External workbenches 
 
 
 <div class="mw-translate-fuzzy">
@@ -50,7 +50,7 @@ Oltre ai pacchetti degli [ambienti di lavoro](workbenches/it.md) forniti di defa
 
 <div class="mw-translate-fuzzy">
 
-## Software esterno supportato da FreeCAD {#software_esterno_supportato_da_freecad}
+## Software esterno supportato da FreeCAD 
 
 
 </div>
@@ -98,7 +98,7 @@ FreeCAD supporta molti pacchetti software esterni pronti all\'uso. Ciò signific
 
 <div class="mw-translate-fuzzy">
 
-GraphViz è un software di visualizzazione di grafici open source. In FreeCAD è usato per generare i grafici delle dipendenza attraverso {{MenuCommand|Strumenti → Grafico delle dipendenze ...}}. La sua homepage è su <https://www.graphviz.org>
+GraphViz è un software di visualizzazione di grafici open source. In FreeCAD è usato per generare i grafici delle dipendenza attraverso **Strumenti → Grafico delle dipendenze ...**. La sua homepage è su <https://www.graphviz.org>
 
 
 </div>
@@ -130,19 +130,19 @@ GraphViz è un software di visualizzazione di grafici open source. In FreeCAD è
 
 <div class="mw-translate-fuzzy">
 
-OpenSCAD è un modellatore 3D solido basato sul paradigma della [geometria solida costruttiva](constructive_solid_geometry/it.md) (CSG), in cui il modello viene creato tramite uno script. Ciò significa che non può gestire le mesh, ma opera esclusivamente sulla geometria solida. FreeCAD può importare ed esportare i file creati da OpenSCAD tramite gli strumenti [Std Importa](Std_Import/it.md) e [Esporta](Std_Export/it.md) selezionando il formato {{MenuCommand|OpenSCAD CSG}} o il tipo di file {{MenuCommand|OpenSCAD}}. È possibile ottenere OpenSCAD da <https://www.openscad.org>.
+OpenSCAD è un modellatore 3D solido basato sul paradigma della [geometria solida costruttiva](constructive_solid_geometry/it.md) (CSG), in cui il modello viene creato tramite uno script. Ciò significa che non può gestire le mesh, ma opera esclusivamente sulla geometria solida. FreeCAD può importare ed esportare i file creati da OpenSCAD tramite gli strumenti [Std Importa](Std_Import/it.md) e [Esporta](Std_Export/it.md) selezionando il formato **OpenSCAD CSG** o il tipo di file **OpenSCAD**. È possibile ottenere OpenSCAD da <https://www.openscad.org>.
 
 
 </div>
 
-## File formats {#file_formats}
+## File formats 
 
 All software in this section will be used by the [Std Import](Std_Import.md) or [Std Export](Std_Export.md) tools.
 
 
 <div class="mw-translate-fuzzy">
 
-### CAD Exchanger {#cad_exchanger}
+### CAD Exchanger 
 
 Un\'applicazione proprietaria e closed source per lo scambio di vari formati di file utilizzati in CAD. Si può usare per convertire i formati proprietari e chiusi in un formato accessibile da FreeCAD. La homepage è <https://cadexchanger.com/> dove è possibile scaricare una versione di valutazione o acquistare una licenza per l\'applicazione.
 
@@ -154,9 +154,9 @@ Un\'applicazione proprietaria e closed source per lo scambio di vari formati di 
 
 <div class="mw-translate-fuzzy">
 
-### DXF Importer {#dxf_importer}
+### DXF Importer 
 
-Per file DXF, FreeCAD ha un importatore ed esportatore nativo, programmato in C ++. Attualmente questo importatore non implementa tutte le funzionalità del formato DXF. Si può abilitare un importatore / esportatore più vecchio basato su Python tramite {{MenuCommand|Modifica → Preferenze → Import-Export}} attivando l\'opzione {{MenuCommand|Usa il vecchio importatore python}}. È quindi possibile scegliere di consentire a FreeCAD di scaricare automaticamente i file necessari o di recuperarli da <https://github.com/yorikvanhavre/Draft-dxf-importer>. L\'importatore / esportatore scelto viene utilizzato selezionando {{MenuCommand|File → Importa}} o {{MenuCommand|File → Esporta}} e scegliendo il formato file {{MenuCommand|AutoDesk DXF 2D}}.
+Per file DXF, FreeCAD ha un importatore ed esportatore nativo, programmato in C ++. Attualmente questo importatore non implementa tutte le funzionalità del formato DXF. Si può abilitare un importatore / esportatore più vecchio basato su Python tramite **Modifica → Preferenze → Import-Export** attivando l\'opzione **Usa il vecchio importatore python**. È quindi possibile scegliere di consentire a FreeCAD di scaricare automaticamente i file necessari o di recuperarli da <https://github.com/yorikvanhavre/Draft-dxf-importer>. L\'importatore / esportatore scelto viene utilizzato selezionando **File → Importa** o **File → Esporta** e scegliendo il formato file **AutoDesk DXF 2D**.
 
 
 </div>
@@ -168,7 +168,7 @@ FreeCAD has a native importer and exporter for DXF files, programmed in C++. Cur
 
 ### ifcOpenShell
 
-IfcOpenShell è una libreria per lavorare con il formato di file IFC (Industry Foundation Classes) utilizzato nella progettazione architettonica. Vi si può accedere dall\'ambiente [Arch](Arch_Workbench/it.md) tramite {{MenuCommand|Arch → Utilità → Ifc Explorer}}. La sua homepage è su <http://ifcopenshell.org>
+IfcOpenShell è una libreria per lavorare con il formato di file IFC (Industry Foundation Classes) utilizzato nella progettazione architettonica. Vi si può accedere dall\'ambiente [Arch](Arch_Workbench/it.md) tramite **Arch → Utilità → Ifc Explorer**. La sua homepage è su <http://ifcopenshell.org>
 
 
 </div>
@@ -186,9 +186,9 @@ Support for [LibreDWG](https://www.gnu.org/software/libredwg) is still experimen
 
 <div class="mw-translate-fuzzy">
 
-### ODA File Converter {#oda_file_converter}
+### ODA File Converter 
 
-Il convertitore di file ODA è un\'applicazione proprietaria, closed source, binaria e liberamente disponibile per importare ed esportare i file DWG e DXF. In FreeCAD può essere utilizzato dai menu {{MenuCommand|File → Importa}} e {{MenuCommand|File → Esporta}}, quando si seleziona il tipo di file {{MenuCommand|AutoDesk DWG 2D}}. Può essere scaricato da <https://www.opendesign.com/guestfiles/oda_file_converter>.
+Il convertitore di file ODA è un\'applicazione proprietaria, closed source, binaria e liberamente disponibile per importare ed esportare i file DWG e DXF. In FreeCAD può essere utilizzato dai menu **File → Importa** e **File → Esporta**, quando si seleziona il tipo di file **AutoDesk DWG 2D**. Può essere scaricato da <https://www.opendesign.com/guestfiles/oda_file_converter>.
 
 
 </div>
@@ -200,7 +200,7 @@ The [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converte
 
 ### pycollada
 
-Pycollada, noto anche come `python-collada`, è una libreria Python per leggere e scrivere documenti COLLADA, uno standard per lo scambio di scene ed elementi 3D. Se è installato, si può importare ed esportare scene da e verso i file COLLADA attraverso i comandi {{MenuCommand|File → Importa}} e {{MenuCommand|File → Esporta}} selezionando il tipo di file COLLADA. Il progetto è ospitato su GitHub all\'indirizzo <https://pycollada.github.io/> e si possono scaricare le versioni da <https://github.com/pycollada/pycollada/releases/>
+Pycollada, noto anche come `python-collada`, è una libreria Python per leggere e scrivere documenti COLLADA, uno standard per lo scambio di scene ed elementi 3D. Se è installato, si può importare ed esportare scene da e verso i file COLLADA attraverso i comandi **File → Importa** e **File → Esporta** selezionando il tipo di file COLLADA. Il progetto è ospitato su GitHub all\'indirizzo <https://pycollada.github.io/> e si possono scaricare le versioni da <https://github.com/pycollada/pycollada/releases/>
 
 
 </div>
@@ -232,7 +232,7 @@ POVRay è un noto raytracer in grado di riprodurre immagini fotorealistiche. È 
 
 <div class="mw-translate-fuzzy">
 
-### Elementi finiti {#elementi_finiti}
+### Elementi finiti 
 
 
 </div>
@@ -267,7 +267,7 @@ CalculiX è una suite di due pacchetti di elementi finiti:
 
 <div class="mw-translate-fuzzy">
 
-Gmsh è un generatore automatico di mesh ad elementi finiti. Può essere utilizzato in FreeCAD dall\'ambiente [FEM](FEM_Module/it.md) tramite {{MenuCommand|Mesh → [FEM mesh da shape con gmsh](FEM_MeshGmshFromShape/it.md)}}. La homepage di gmsh è su <http://www.geuz.org/gmsh>
+Gmsh è un generatore automatico di mesh ad elementi finiti. Può essere utilizzato in FreeCAD dall\'ambiente [FEM](FEM_Module/it.md) tramite **Mesh → [FEM mesh da shape con gmsh](FEM_MeshGmshFromShape/it.md)**. La homepage di gmsh è su <http://www.geuz.org/gmsh>
 
 
 </div>
@@ -283,7 +283,7 @@ Gmsh è un generatore automatico di mesh ad elementi finiti. Può essere utilizz
 
 <div class="mw-translate-fuzzy">
 
-Elmer è un software di simulazione multi-fisica, che è stato aperto nel 2005. In FreeCAD i suoi moduli Grid e Solver possono essere utilizzati da [FEM](FEM_Workbench/it.md) tramite {{MenuCommand|Risolvi → [Solver Elmer](FEM_SolverElmer/it.md)}}. La homepage del progetto è su <https://www.elmerfem.org> e il software può essere scaricato da GitHub all\'indirizzo <https://github.com/ElmerCSC/elmerfem/releases>.
+Elmer è un software di simulazione multi-fisica, che è stato aperto nel 2005. In FreeCAD i suoi moduli Grid e Solver possono essere utilizzati da [FEM](FEM_Workbench/it.md) tramite **Risolvi → [Solver Elmer](FEM_SolverElmer/it.md)**. La homepage del progetto è su <https://www.elmerfem.org> e il software può essere scaricato da GitHub all\'indirizzo <https://github.com/ElmerCSC/elmerfem/releases>.
 
 
 </div>
@@ -293,7 +293,7 @@ Elmer è un software di simulazione multi-fisica, che è stato aperto nel 2005. 
 
 ### FEniCS
 
-FEniCS è una piattaforma di calcolo per risolvere equazioni differenziali parziali (PDE), che sono ampiamente utilizzate quando si risolvono i problemi FEM. Come tale può essere usato dall\'ambiente [FEM](FEM_Module/it.md). FreeCAD può importare ed esportare mesh FEniCS tramite {{MenuCommand|File → Importa}} e {{MenuCommand|File → Esporta}} selezionando il formato file {{MenuCommand|FEM mesh fenics}}. La homepage di FEniCS è <https://fenicsproject.org>.
+FEniCS è una piattaforma di calcolo per risolvere equazioni differenziali parziali (PDE), che sono ampiamente utilizzate quando si risolvono i problemi FEM. Come tale può essere usato dall\'ambiente [FEM](FEM_Module/it.md). FreeCAD può importare ed esportare mesh FEniCS tramite **File → Importa** e **File → Esporta** selezionando il formato file **FEM mesh fenics**. La homepage di FEniCS è <https://fenicsproject.org>.
 
 
 </div>
@@ -305,7 +305,7 @@ FEniCS è una piattaforma di calcolo per risolvere equazioni differenziali parzi
 
 ### Z88
 
-Z88 è un altro programma FEM, contenente un mesher, un risolutore e dei convertitori, che può essere utilizzato dall\'ambiente \[\[FEM\_Module/it\|FEM\] di FreeCAD\]. È possibile accedervi tramite {{MenuCommand|Solve-Solver Z88}}. Z88 distribuisce diversi pacchetti, che sono tutti liberamente disponibili, ma sono closed source. Tuttavia, lo Z88OS, pubblicato sotto una licenza open source, è ciò che serve a FreeCAD. La homepage è su <https://en.z88.de/>. Z88OS è anche ospitato su GitHub all\'indirizzo <https://github.com/LSCAD/Z88OS> se si vuole compilarlo da soli.
+Z88 è un altro programma FEM, contenente un mesher, un risolutore e dei convertitori, che può essere utilizzato dall\'ambiente \[\[FEM\_Module/it\|FEM\] di FreeCAD\]. È possibile accedervi tramite **Solve-Solver Z88**. Z88 distribuisce diversi pacchetti, che sono tutti liberamente disponibili, ma sono closed source. Tuttavia, lo Z88OS, pubblicato sotto una licenza open source, è ciò che serve a FreeCAD. La homepage è su <https://en.z88.de/>. Z88OS è anche ospitato su GitHub all\'indirizzo <https://github.com/LSCAD/Z88OS> se si vuole compilarlo da soli.
 
 
 </div>
@@ -317,7 +317,7 @@ Z88 è un altro programma FEM, contenente un mesher, un risolutore e dei convert
 
 ### OpenFOAM
 
-Una libreria per Field Operation and Manipulation (FOAM), necessaria per le simulazioni di fluidodinamica computazionale (CFD). Come tale, OpenFOAM è richiesto dall\'ambiente [FEM](FEM_Module/it.md) di FreeCAD. Si accede tramite il sottomenu {{MenuCommand|Modello → Fluid constraints}}. Il progetto risiede in <https://openfoam.org>.
+Una libreria per Field Operation and Manipulation (FOAM), necessaria per le simulazioni di fluidodinamica computazionale (CFD). Come tale, OpenFOAM è richiesto dall\'ambiente [FEM](FEM_Module/it.md) di FreeCAD. Si accede tramite il sottomenu **Modello → Fluid constraints**. Il progetto risiede in <https://openfoam.org>.
 
 
 </div>
@@ -327,7 +327,7 @@ Una libreria per Field Operation and Manipulation (FOAM), necessaria per le simu
 
 <div class="mw-translate-fuzzy">
 
-## Pagine correlate {#pagine_correlate}
+## Pagine correlate 
 
 -   [Librerie di terze parti](Third_Party_Libraries/it.md)
 

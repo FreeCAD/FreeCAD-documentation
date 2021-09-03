@@ -43,7 +43,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 1.  
     {{Button | <img src="images/_Snap_Lock.svg_" width= 16px> [ Taslak Geçiş yakala](Draft_ToggleSnap/tr_.md)}}ve {{Button | <img src="images/_Snap_Center.svg_" width= 16px> [ Merkez yakala](Draft_Center.md)}} açın

@@ -56,11 +56,11 @@ Se la forma è una linea, le coordinate sono date dal centro della linea.
 
 :   Forme, in ordine di selezione.
 
-### Visualizzare il centro : {#visualizzare_il_centro}
+### Visualizzare il centro : 
 
 :   Se questa casella è selezionata, verrà creato un punto al centro del cerchio costruito
 
-### Combinare i colori {#combinare_i_colori}
+### Combinare i colori 
 
 :   Se questa casella è selezionata, il cerchio prendere il colore della vista corrispondente,
 

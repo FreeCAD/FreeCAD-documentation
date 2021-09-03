@@ -34,7 +34,7 @@ is used to create a surface from edges that represent transversal sections of a 
 
 -    **Right mouse button**: open the context menu and select **Remove**, or press **Del** in the keyboard, to remove the currently selected edge in the list.
 
--    {{MenuCommand|Drag}}: drag the currently selected element in the list in order to change the order in which it will be processed; the list is processed from top to bottom.
+-    **Drag**: drag the currently selected element in the list in order to change the order in which it will be processed; the list is processed from top to bottom.
 
 -   Press **Cancel** or **Esc** to abort the current operation.
 
@@ -58,7 +58,7 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 -    **Control Points|Bool**: it defaults to `False`; if set to `True`, it will show an overlay with the control points of the surface.
 
-## Twisting of the surface {#twisting_of_the_surface}
+## Twisting of the surface 
 
 The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that \"twists\" on itself, one of the edges may need its list of vertices in the reverse order. See the information in **<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [GeomFillSurface](Surface_GeomFillSurface.md)** for a more complete explanation.
 

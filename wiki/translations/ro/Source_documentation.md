@@ -32,12 +32,12 @@ Compiling the API documentation follows the same general steps as compiling the 
 
 <div class="mw-translate-fuzzy">
 
-### Construiți documentația codului sursă {#construiți_documentația_codului_sursă}
+### Construiți documentația codului sursă 
 
 
 </div>
 
-### Complete documentation {#complete_documentation}
+### Complete documentation 
 
 
 <div class="mw-translate-fuzzy">
@@ -98,7 +98,7 @@ DevDoc are un target foarte ridicat, dacă graficviz este instalat pe sistemul d
 
 </div>
 
-### Reduced documentation {#reduced_documentation}
+### Reduced documentation 
 
 The complete documentation uses around 3Gb of disk space. An alternative, smaller version of the documentation which takes only around 600 MB can be generated with a different target. This is the version displayed on the [FreeCAD API website](https://freecad.github.io/SourceDoc/). 
 ```python
@@ -140,7 +140,7 @@ Ca alternativă, doc-ul este generat din când în când și accesibil pe source
 
 <div class="mw-translate-fuzzy">
 
-### Integrați documentația Coin3D {#integrați_documentația_coin3d}
+### Integrați documentația Coin3D 
 
 
 </div>
@@ -177,7 +177,7 @@ Pe sistemele unix, este posibilă legarea documentației sursă Coin3D de FreeCA
 
 <div class="mw-translate-fuzzy">
 
-## Cum se integrează doxygen în codul sursă al FreeCAD {#cum_se_integrează_doxygen_în_codul_sursă_al_freecad}
+## Cum se integrează doxygen în codul sursă al FreeCAD 
 
 
 {{VeryImportantMessage|This is a Work In Progress. See [[Doxygen]]}}

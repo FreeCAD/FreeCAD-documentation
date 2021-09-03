@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Hier ist der Projektplan für das **Zusammenbau** Modul als Teil des [Entwicklungsfahrplans](Development_roadmap/de.md)
 
-## Zweck und Grundsätze {#zweck_und_grundsätze}
+## Zweck und Grundsätze 
 
 Dies ist ein Softwareentwicklungsprojekt das auf die Implementierung von Zusammenbau- und Produkterstellungsfähigkeiten gerichtet ist. Es geht um die Implementierung einiger **Kernfunktionen** in die CAD Module von FreeCAD, **Formteil und Zusammenbau**.
 
@@ -32,7 +32,7 @@ Ein weiteres Ziel ist die Verwendung von [Offene Dynamik Maschine](https://de.wi
 
 ## Ideenfindung
 
-### Multi-Modell {#multi_modell}
+### Multi-Modell 
 
 <img alt="" src=images/MultiModel.png  style="width:600px;"> Ein wesentliches Merkmal von Entwürfen in der realen Welt ist die Fähigkeit, einen Entwurf in handhabbare Teile zu zerlegen. Es ist unmöglich, an allen Aspekten eines Entwurfs gleichzeitig oder allein zu arbeiten. Das gilt sowohl für die Geometrie als auch für technische Aufgaben wie FEM oder CAM. Deshalb braucht FreeCAD die Möglichkeit, Modelle aufzuteilen. Das eröffnet einige Möglichkeiten:
 
@@ -69,7 +69,7 @@ Abkürzungsschlüssel für CC Lizenzen:
 
 Zusätzlich kann ein URL Verweis zum vollständigen Lizenzdokument verwendet werden (im Falle von kundenspezifischen Lizenzen).
 
-### ISO 10303 {#iso_10303}
+### ISO 10303 
 
 Die ISO 10303 (STEP) Norm ist in diesem Feld sehr wichtig. Es ist die einzige gute, genormte, weithin diskutierte und anerkannte Definition von Produktstrukturen, die ich kenne. <img alt="" src=images/Product_structure_modeling_Process-Data_diagram.gif  style="width:500px;">
 
@@ -79,7 +79,7 @@ Hier einige Verweise mit Informationen:
 -   [ISO 10303-11](http://en.wikipedia.org/wiki/ISO_10303-11) über die Modelliersprache (EXPRESS), engl.
 -   [Ein Wikipedia-Artikel](http://en.wikipedia.org/wiki/Product_Structure_Modeling) über Produktmodellierung
 
-### Zusammenbau Beschränkungen {#zusammenbau_beschränkungen}
+### Zusammenbau Beschränkungen 
 
 Eine wichtige Rolle beim Aufbau großer Modelle und Produkte spielen die Zusammenbau Beschränkungen, die bestimmte Regeln für den Zusammenbau von Formteilen zu einem Produkt formulieren. Hauptsächlich sind dies Fix, FlächeZuFläche, Winkel, Versatz und eine Art von Musterinstanziierung. Diese Beschränkungen benötigen einen speziellen Löser, um sie aufrechtzuerhalten, wenn sich die Teile ändern. Dieser Löser unterscheidet sich grundlegend von dem Skizzen Löser. Ich denke, wir müssen hier einen diagrammbasierten Ansatz anstreben\...
 
@@ -108,7 +108,7 @@ Hier einige Entwicklungsaufgaben, die für eine gute Zusammenbau/Produktgestaltu
 
 Der Zusammenbau erfordert einige Änderungen im Basissystem und der Infrastrukturschicht von FreeCAD.
 
-#### Multi-Modell {#multi_modell_1}
+#### Multi-Modell 
 
 Multi-Modell wurde von Anfang an bei der Entwicklung von FreeCAD berücksichtigt. Deshalb haben wir eine Multi-Dokument Schnittstelle und können unbegrenzt Dokumente laden. Aber wir müssen vor allem den 3D-Betrachter aufrüsten, um mehr als ein Dokument in seiner Ansicht handhaben zu können (Teilbäume).
 
@@ -116,11 +116,11 @@ Multi-Modell wurde von Anfang an bei der Entwicklung von FreeCAD berücksichtigt
 
 Da im Zusammenbau die Zusammenstellung von Teilen und Unterbaugruppen der Hauptarbeitsablauf ist, müssen die Werkzeuge zum Stapeln (Gruppieren) von Teilen in einem Baum implementiert werden. Anders als eine DokumentObjektGruppe muss sich die Zusammenbau Gruppe mit der Sichtbarkeit und Platzierung der Kinder beschäftigen. Dies geschieht am besten durch das Stapeln von AnsichtsAnbietern übereinander. Das erfordert eine Art ClaimChildren() Schnittstelle für die AnsichtsAnbieter.
 
-#### Einheitliche Ziehen/Ablegen/Kopieren/Einfügen Schnittstelle {#einheitliche_ziehenablegenkopiereneinfügen_schnittstelle}
+#### Einheitliche Ziehen/Ablegen/Kopieren/Einfügen Schnittstelle 
 
 Eine Schnittstelle ermöglicht AnsichtsAnbieter und Arbeitsbereichen die volle Kontrolle über Ziehen/Ablegen/Kopieren/Einfügen Tätigkeiten im Baum oder in der 3D Ansicht.
 
-#### Externe Ressourcen {#externe_ressourcen}
+#### Externe Ressourcen 
 
 Handhabung von dotierten Verweisen (von internen oder externen Browsern). Bedeutet das Laden von Ressourcen über (potentiell) langsame Verbindungen (http).
 
@@ -134,19 +134,19 @@ Für die Materialbeschreibung gibt es einen eigenen Artikel: [Material](Material
 
 Klassenbaum für folgende Konzepte nötig: Referenzen, Interfaces, Dokumentenlinks, Ansichten, Objektgruppen, Randbedingungen, Konfigurationen u.v.m.
 
-## STEP Prüfschleife {#step_prüfschleife}
+## STEP Prüfschleife 
 
 Implementierung eines ersten STEP Importeurs für mehr als Geometrie und Farbe, um zu prüfen, ob das Objektmodell für eine breitere Verwendung geeignet ist.
 
-### Zusammenbau Beschränkungslöser {#zusammenbau_beschränkungslöser}
+### Zusammenbau Beschränkungslöser 
 
 Definiere eine Schnittstelle zu einem Zusammenbau Beschränkungslöser, sehr ähnlich der Skizzierer Löser Schnittstelle.
 
-### Physiksimulations Schnittstelle {#physiksimulations_schnittstelle}
+### Physiksimulations Schnittstelle 
 
 Schnittstelle, die es (externer) (Multi)Physiksimulationssoftware ermöglicht, die Kontrolle über die Positionierung der Teile einer Baugruppe zu übernehmen. Dies würde die Verwendung von \"Bullet\" oder \"ODE\" zur Durchführung kinematischer Tests und DMU ermöglichen.
 
-## Nächste Aktionen {#nächste_aktionen}
+## Nächste Aktionen 
 
 -   Objektmodell
 -   \...

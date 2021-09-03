@@ -17,7 +17,7 @@ Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i 
 
 ## Użycie
 
-1.  Wybierz z menu opcję {{MenuCommand|Widok → <img src="images/Std_ToggleClipPlane.svg" width=16px> Płaszczyzna tnąca}}.
+1.  Wybierz z menu opcję **Widok → <img src="images/Std_ToggleClipPlane.svg" width=16px> Płaszczyzna tnąca**.
 2.  W panelu zadań Przycinania wykonaj jedną z poniższych czynności:
     -   Zaznacz jedno lub więcej pól wyboru {{CheckBox|TRUE|Utnij względem X}} do {{CheckBox|TRUE|Utnij względem Z}}.
         -   Opcjonalnie zmień odległość *(odległości)* przesunięcia.
@@ -33,7 +33,7 @@ Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i 
 
 ## Uwagi
 
--   Aby wyraźnie odróżnić wnętrze częściowo przyciętych przedmiotów, należy zmienić ich **oświetlenie** ustawiając na *jedna stronę*. Kolor wewnętrznej strony ich powierzchni będzie wtedy zależał od ustawień podświetlenia: {{MenuCommand|Edycja → Preferencje → Wyświetlanie → 3D View → Włącz podświetlenie - Intensywność podświetlenia}}. Zobacz [Edytor ustawień](Preferences_Editor/pl#3D_View.md).
+-   Aby wyraźnie odróżnić wnętrze częściowo przyciętych przedmiotów, należy zmienić ich **oświetlenie** ustawiając na *jedna stronę*. Kolor wewnętrznej strony ich powierzchni będzie wtedy zależał od ustawień podświetlenia: **Edycja → Preferencje → Wyświetlanie → 3D View → Włącz podświetlenie - Intensywność podświetlenia**. Zobacz [Edytor ustawień](Preferences_Editor/pl#3D_View.md).
 
 
 

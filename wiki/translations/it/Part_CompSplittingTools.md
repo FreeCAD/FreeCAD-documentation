@@ -8,7 +8,7 @@
 
 Una raccolta di strumenti di suddivisione.
 
-## Tipi di divisioni {#tipi_di_divisioni}
+## Tipi di divisioni 
 
 
 <div class="mw-translate-fuzzy">

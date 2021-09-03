@@ -16,11 +16,11 @@ Dessine une fonction décrite par des équations paramétriques x(t), y(t) et z(
 <img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
 *Exemple Epicycloid courbe‎‎*
 
-## Script Original {#script_original}
+## Script Original 
 
 Vous pouvez télécharger le dernier scipt (13/05/2015) sur Github repository: [**Macro 3D Parametric Curve.FCMacro**](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
 
-## Script Modifié {#script_modifié}
+## Script Modifié 
 
 <img alt="Exemple de courbe Epicycloide‎" src=images/Macro_3D_Parametric_Curve00.png  style="width:600px;">
 

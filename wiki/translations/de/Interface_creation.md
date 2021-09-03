@@ -12,7 +12,7 @@ Benutzeroberflächen werden mit [PySide](PySide/de.md) erstellt, einer Bibliothe
 
 Es gibt typischerweise zwei Möglichkeiten, Benutzeroberflächen mit PySide zu erstellen.
 
-### Oberfläche in einer .ui Datei {#oberfläche_in_einer_.ui_datei}
+### Oberfläche in einer .ui Datei 
 
 In this method the interface is defined in a `.ui` file (an XML document that defines the structure of the interface), which is then imported into [Python](Python.md) code that uses it. This is the recommended approach.
 
@@ -24,7 +24,7 @@ In this method the interface is defined in a `.ui` file (an XML document that de
 
 For examples on this method see [Interface creation with UI files](Interface_creation_with_UI_files.md).
 
-### Oberfläche vollständig in Python Code {#oberfläche_vollständig_in_python_code}
+### Oberfläche vollständig in Python Code 
 
 In this method the entire interface is defined by several Python calls.
 

@@ -21,7 +21,7 @@ Din cauza evoluției rapide a FreeCAD, unele definiții de obiecte s-ar putea sc
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Selectați unul sau mai multe obiecte problematice de vindecat sau nimic - pentru scanarea întregului document
 2.  Apăsați tasta **<img src="images/Draft_Heal.png" width=16px> [Heal](Draft_Heal.md)

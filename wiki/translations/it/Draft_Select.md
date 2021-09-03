@@ -19,7 +19,7 @@ I metodi di selezione in FreeCAD consentono di selezionare gli oggetti nell\'[in
 
 <div class="mw-translate-fuzzy">
 
-## Vista 3D {#vista_3d}
+## Vista 3D 
 
 
 </div>
@@ -32,7 +32,7 @@ Nella [Vista 3D](3D_view/it.md) ci sono vari modi per selezionare gli oggetti us
 
 </div>
 
-### Selezione semplice {#selezione_semplice}
+### Selezione semplice 
 
 
 <div class="mw-translate-fuzzy">
@@ -42,13 +42,13 @@ La selezione semplice con il mouse (per impostazione predefinita clic sinistro) 
 
 </div>
 
-### Clic ripetuti {#clic_ripetuti}
+### Clic ripetuti 
 
 Il primo clic seleziona un sottoelemento (vertice, bordo o faccia) dell\'oggetto sotto il mouse. Un secondo clic seleziona l\'intero oggetto. {{Version/it|0.18}}
 
 Il terzo clic estende la selezione al suo oggetto contenitore ([Corpo di PartDesign](PartDesign_Body/it.md), [Parte](Std_Part/it.md) e altri). Ulteriori clic espandono la selezione nella catena del contenitore. {{Version/it|0.19}}
 
-### Comandi di selezione {#comandi_di_selezione}
+### Comandi di selezione 
 
 
 <div class="mw-translate-fuzzy">
@@ -58,17 +58,17 @@ La selezione tramite il trascinamento del mouse per selezionare più oggetti o s
 
 </div>
 
-## Vista selezione {#vista_selezione}
+## Vista selezione 
 
 La [vista selezione](Selection_view/it.md) mostra i nomi degli oggetti selezionati, incluso il loro nome completo all\'interno di un oggetto, ad esempio, `Unnamed#Body.Box001.Face17`.
 
 Permette anche di eseguire alcune azioni come [visualizzare la selezione](Std_ViewFitSelection/it.md), e di inviare l\'oggetto alla [console Python](Python_console/it.md).
 
-### Esportazione dell\'oggetto {#esportazione_delloggetto}
+### Esportazione dell\'oggetto 
 
 *Questo dovrebbe essere aggiunto nella pagina [visualizzare la selezione](selection_view/it.md).*
 
-Selezionare un oggetto complesso, ad esempio un [Corpo di PartDesign](PartDesign_Body/it.md) o una [Parte](Std_Part/it.md), quindi nel pannello [vista selezione](selection_view/it.md) selezionare nuovamente l\'oggetto, quindi premere **Ctrl** + **C** sulla tastiera per aprire la finestra di dialogo {{MenuCommand|Selezione oggetto}}. Ciò consente di copiare l\'oggetto selezionato insieme a tutti o solo alcuni degli oggetti dipendenza di quell\'oggetto. Ad esempio, per una [Parte](Std_Part/it.md) i possibili oggetti da selezionare includono la [Parte](Std_Part/it.md) stessa, ma anche la sua origine, i suoi tre assi di base (XYZ) e i suoi tre piani di base (XY , YZ, XZ).
+Selezionare un oggetto complesso, ad esempio un [Corpo di PartDesign](PartDesign_Body/it.md) o una [Parte](Std_Part/it.md), quindi nel pannello [vista selezione](selection_view/it.md) selezionare nuovamente l\'oggetto, quindi premere **Ctrl** + **C** sulla tastiera per aprire la finestra di dialogo **Selezione oggetto**. Ciò consente di copiare l\'oggetto selezionato insieme a tutti o solo alcuni degli oggetti dipendenza di quell\'oggetto. Ad esempio, per una [Parte](Std_Part/it.md) i possibili oggetti da selezionare includono la [Parte](Std_Part/it.md) stessa, ma anche la sua origine, i suoi tre assi di base (XYZ) e i suoi tre piani di base (XY , YZ, XZ).
 
 Dopo aver premuto **OK**, gli oggetti selezionati vengono copiati in memoria e quindi possono essere incollati nel documento per duplicare solo questi oggetti.
 
@@ -77,7 +77,7 @@ Dopo aver premuto **OK**, gli oggetti selezionati vengono copiati in memoria e q
 
 *Finestra di dialogo per la selezione degli oggetti avviata da [vista selezione](Selection_view/it.md).*
 
-## Vista ad albero {#vista_ad_albero}
+## Vista ad albero 
 
 Nella [vista ad albero](tree_view/it.md) gli elementi possono essere selezionati o deselezionati uno alla volta, tenendo premuto il tasto **Ctrl** e facendo clic con il mouse.
 

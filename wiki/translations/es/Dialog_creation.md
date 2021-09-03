@@ -20,7 +20,7 @@ In this example, the entire interface is defined in [Python](Python.md). Althoug
 
 <div class="mw-translate-fuzzy">
 
-## Diseñar el letrero de diálogo {#diseñar_el_letrero_de_diálogo}
+## Diseñar el letrero de diálogo 
 
 En las aplicaciones de CAD, el diseño de una buena interfaz de usuario (UI, User Interface) es muy importante. Casi todo lo que el usuario haga será a través de alguna parte de la interfaz: leyendo los letreros de diálogo, pulsando los botones, eligiendo entre iconos, etc. Así que es muy importante pensar cuidadosamente lo que quieres hacer, cómo deseas que el usuario se comporte, y cómo será el flujo de trabajo de tu acción.
 
@@ -69,7 +69,7 @@ Eso es prácticamente todo lo que necesitamos hacer en Qt Designer. Una última 
 
 ![](images/Qtpropeditor.jpg )
 
-## Convertir nuestro diálogo a Python {#convertir_nuestro_diálogo_a_python}
+## Convertir nuestro diálogo a Python 
 
 Ahora, vamos a salvar nuestro widget en alguna parte. Se guardará como un archivo .ui, que fácilmente se convertirá en un archivo de guión de Python por medio de pyuic. En Windows, el programa pyuic se ve enriquecido con PyQt (por verificar), en linux es probable que tengas que instalarlo por separado desde tu gestor de paquetes (en sistemas basados en Debian, es parte del paquete de herramientas PyQt4-dev-tools). Para realizar la conversión, tendrás que abrir una ventana de terminal (o una ventana de símbolo de sistema en Windows), ve a donde guardaste el archivo .ui, y escribe: 
 ```python
@@ -179,7 +179,7 @@ d.show()
 d.hide()
 ```
 
-## Hacer algo con nuestro diálogo {#hacer_algo_con_nuestro_diálogo}
+## Hacer algo con nuestro diálogo 
 
 Ahora que podemos mostrar y ocultar nuestro letrero de diálogo, sólo tenemos que añadir una última parte: ¡que haga algo! Si juegas un poco con Qt Designer, descubrirás rápidamente toda una sección llamada \"señales y slots\". Básicamente, funciona así: los elementos de los widgets o complementos (en la terminología de Qt, estos elementos son a su vez widgets) pueden enviar señales. Estas señales varían según el tipo de widget. Por ejemplo, un botón puede enviar una señal cuando se presiona y cuando es soltado. Estas señales se pueden conectar a los slots, que puede ser una funcionalidad especial de otros widgets (por ejemplo, un cuadro de diálogo tiene un slot \"close\" (cerrado) en el que se puede conectar la señal de un botón close (de cierre)), o pueden ser funciones de usuario. La [Documentación de referencia de PyQt](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html) enumera todos los widgets Qt, lo que pueden hacer, que señales pueden enviar, etc.
 
@@ -225,7 +225,7 @@ import mywidget
 myDialog = mywidget.plane()
 ``` Y eso es todo amigos\... Ahora puedes probar todo tipo de cosas, como por ejemplo insertar tu widget en la interfaz de FreeCAD (mira la página [Pedazos de código](Code_snippets/es.md)), o la creación de herramientas personalizadas mucho más avanzado, mediante el uso de otros elementos en tu widget o complemento.
 
-## El archivo de guión completo {#el_archivo_de_guión_completo}
+## El archivo de guión completo 
 
 Este es el archivo de guión completo, como referencia: 
 ```python
@@ -300,7 +300,7 @@ class plane():
 
 ```
 
-## More examples {#more_examples}
+## More examples 
 
 -   [Dialog creation with various widgets](Dialog_creation_with_various_widgets.md) with `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton`, and others.
 -   [Dialog creation reading and writing files](Dialog_creation_reading_and_writing_files.md) with `QFileDialog`.
@@ -309,7 +309,7 @@ class plane():
 -   [PySide usage snippets](PySide_usage_snippets.md).
 -   [Qt Example](Qt_Example.md)
 
-## Relevant links {#relevant_links}
+## Relevant links 
 
 -   [Manual:Creating interface tools](Manual:Creating_interface_tools.md)
 -   [Interface creation with UI files](Interface_creation_with_UI_files.md)

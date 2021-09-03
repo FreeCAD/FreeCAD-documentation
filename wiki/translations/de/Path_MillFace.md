@@ -28,8 +28,8 @@ This operation contains a **BoundaryShape** property that allows for a modified 
 1.  Select one or more faces to be surfaced. **Note:** If selected faces exist at different heights, then all will be milled to the Final Depth setting.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_MillFace.svg" width=16px> [Path MillFace](Path_MillFace.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_MillFace.svg" width=16px> Face}} option from the menu.
-3.  Select the correct **BoundaryShape** setting to modify the milling area based on the face(s) selected as {{MenuCommand|Base Geometry}}.
+    -   Select the **Path → <img src="images/Path_MillFace.svg" width=16px> Face** option from the menu.
+3.  Select the correct **BoundaryShape** setting to modify the milling area based on the face(s) selected as **Base Geometry**.
 4.  Adjust the other properties as needed. They are listed further below.
 
 ## Caveats
@@ -51,7 +51,7 @@ Empty
 
 \'\'\' *Note* \'\'\': The names of some Properties in this list differ a little from the same settings used in the Task Window Editor.
 
-### Data Tab {#data_tab}
+### Data Tab 
 
 #### Base
 
@@ -176,7 +176,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
 
-#### Start Point {#start_point}
+#### Start Point 
 
 -    **Start Point**: The custom start point for the path of this operation.
 
@@ -197,7 +197,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Use Start Point**: Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
 
-### View Tab {#view_tab}
+### View Tab 
 
 Empty
 

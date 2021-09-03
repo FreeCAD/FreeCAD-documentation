@@ -15,7 +15,7 @@ Actuellement, cette commande pointe vers [<https://forum.freecadweb.org>](https:
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Aide → <img src=images/Std_FreeCADForum.svg style="width:16px"> [Forum FreeCAD](Std_FreeCADForum/fr.md)}} dans le menu.
+1.  Sélectionnez l\'option **Aide → <img src=images/Std_FreeCADForum.svg style="width:16px"> [Forum FreeCAD](Std_FreeCADForum/fr.md)** dans le menu.
 
 
 

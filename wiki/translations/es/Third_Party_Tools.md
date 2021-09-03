@@ -6,28 +6,28 @@
 
 {{TOCright}}
 
-## Tool Page {#tool_page}
+## Tool Page 
 
 
 <div class="mw-translate-fuzzy">
 
-## Página de herramientas {#página_de_herramientas}
+## Página de herramientas 
 
 Para cualquier desarrollo de software serio necesitas herramientas. Aquí está una lista de las herramientas que utilizamos para desarrollar FreeCAD:
 
 
 </div>
 
-### Platform independent tools {#platform_independent_tools}
+### Platform independent tools 
 
-#### Qt-Toolkit {#qt_toolkit}
+#### Qt-Toolkit 
 
 
 <div class="mw-translate-fuzzy">
 
-### Herramientas independientes de la plataforma {#herramientas_independientes_de_la_plataforma}
+### Herramientas independientes de la plataforma 
 
-#### Qt-Toolkit {#qt_toolkit_1}
+#### Qt-Toolkit 
 
 Qt-toolkit es una avanzada herramienta de diseño de interfaces de usuario independiente de la plataforma. Está contenida en [LibPack](Third_Party_Libraries/es#LibPack.md) de FreeCAD, pero también puede descargarse en [Qt project](http://qt-project.org/downloads).
 
@@ -39,7 +39,7 @@ Qt-toolkit es una avanzada herramienta de diseño de interfaces de usuario indep
 
 <div class="mw-translate-fuzzy">
 
-#### InkScape {#inkscape_1}
+#### InkScape 
 
 Gran programa de diseño vectorial. Se utiliza para dibujar iconos e imágenes SVG. Descargalo en [www.inkscape.org](http://www.inkscape.org).
 
@@ -51,14 +51,14 @@ Gran programa de diseño vectorial. Se utiliza para dibujar iconos e imágenes S
 
 <div class="mw-translate-fuzzy">
 
-#### Doxygen {#doxygen_1}
+#### Doxygen 
 
 Una herramienta muy buena y estable para generar documentación del codigo a partir de los archivos .h y .cpp.
 
 
 </div>
 
-#### The Gimp {#the_gimp}
+#### The Gimp 
 
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +79,7 @@ This is a proprietary git GUI that is very helpful to learn how git works if you
 -   [Gitkraken](Gitkraken.md)
 -   [Github](Github.md)
 
-#### OBS Studio {#obs_studio}
+#### OBS Studio 
 
 Free and open source software for video recording and live streaming. More details on official website : [obsproject.com](https://obsproject.com/)
 
@@ -92,7 +92,7 @@ Free and open source software for video recording and live streaming. More detai
 
 <div class="mw-translate-fuzzy">
 
-#### StarUML {#staruml_1}
+#### StarUML 
 
 Un programa UML de código libre lleno de características. Tiene un montón de características de las grandes, incluyendo ingeniería inversa del código fuente C++\....
 
@@ -107,14 +107,14 @@ Descargalo aquí: [staruml.sourceforge.net](http://staruml.sourceforge.net/en/)
 
 </div>
 
-### Herramientas en Windows {#herramientas_en_windows}
+### Herramientas en Windows 
 
-#### Visual Studio Community {#visual_studio_community}
+#### Visual Studio Community 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Visual Studio 8 Express {#visual_studio_8_express}
+#### Visual Studio 8 Express 
 
 Aunque VC8 es para desarrollos en C++ no ha avanzado mucho desde VisualStudio 6 (en mi opinión ha sido un gran paso atrás), es un sistema de desarrollo libre en Windows. Para aplicaciones nativas Win32 necesitas descargar la PlatformSDK de M\$.
 
@@ -134,7 +134,7 @@ Así que la Express edition es difícil de encontrar. Pero podrías probar [este
 
 <div class="mw-translate-fuzzy">
 
-#### CamStudio {#camstudio_1}
+#### CamStudio 
 
 Es una herramienta de código libre para grabar Screencasts (Webcasts). Es una herramienta muy buena para crear tutoriales grabándolos. No es tan aburrido como escribir documentación.
 
@@ -143,7 +143,7 @@ Es una herramienta de código libre para grabar Screencasts (Webcasts). Es una h
 
 Mira [camstudio.org](http://camstudio.org/) para más detalles.
 
-### Herramientas en Linux {#herramientas_en_linux}
+### Herramientas en Linux 
 
 PENDIENTE
 

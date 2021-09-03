@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 {{TutorialInfo
@@ -18,7 +18,7 @@ Tutoriel Support de Roulement - Support de roulement terminé
 
 ~~Comme l\'indique l\'avertissement en haut de la page , ce **tutoriel ne fonctionnera que si vous compilez une branche spéciale hautement expérimentale du code source FreeCAD** et est un tutoriel d\'introduction à la modélisation avec l\'atelier PartDesign dans FreeCAD **utilisant des plans de référence qui sont une caractéristique qui n\'existe pas encore dans la plupart des versions de FreeCAD**.~~
 
-## L\'objectif en deux mots {#lobjectif_en_deux_mots}
+## L\'objectif en deux mots 
 
 Le but de ce tutoriel est de vous présenter deux flux de travail différents pour créer une pièce moulée avec des ébauches et des congés. Selon les autres programmes de CAO que vous avez utilisés, l\'un ou l\'autre peut vous être familier. Comme exemple de travail, nous allons modéliser un simple support de roulement.
 
@@ -28,13 +28,13 @@ Ceci est la première partie du tutoriel. Elle utilisera ce qu\'on pourrait appe
 
 ~~Vous pouvez trouver ma version de la pièce créée dans ce tutoriel [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 ici](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_ici.md).~~ *Ce fichier n\'est plus disponible, un nouveau fichier sera fourni à une date ultérieure.*
 
-## Les Données de Conception {#les_données_de_conception}
+## Les Données de Conception 
 
 Le support doit être en mesure de tenir un Roulement d\'un diamètre de 90mm avec une largeur allant jusqu\'à 33mm (par exemple DIN 630 Type 2308, qui a un diamètre intérieur de 40 mm). Le roulement nécessite une hauteur d\'épaulement d\'au moins 4,5 mm dans le support (et sur l\'arbre). La partie supérieure du support sera boulonné sur l\'autre partie avec deux boulons de 12mm. Pour la tête d\'un tel boulon, il faudra au moins 20 mm de diamètre d\'espace libre. Il devrait y avoir une rainure sur les deux côtés du roulement capables de tenir un arbre standard bague d\'étanchéité DIN 3760: 38x55x7 40x55x7 ou sur un côté, 50x68x8 de l\'autre côté.
 
 Le support sera réalisé dans un moule en sable avec une épaisseur minimale de paroi de 5 mm, un angle de dépouille de 2 degrés, et un rayon de congé minimum de 3mm.
 
-## Mise en place de la géométrie de l\'ossature {#mise_en_place_de_la_géométrie_de_lossature}
+## Mise en place de la géométrie de l\'ossature 
 
 ![support de roulement avec les deux plans les plus importants de l\'ossature\|thumb\|right\|text-top\|400px](images/_HolderTop1-2.jpg )
 
@@ -50,7 +50,7 @@ Pour plus de commodité, deux autres plans de référence peuvent être créés 
 
 Il est conseillé de donner des noms clairs à la géométrie du de l\'ossature. La plupart du temps, vous voudrez désactiver la visibilité des plans de référence, car ils encombrent l\'écran, et si les plans ont des noms explicites vous pouvez simplement choisir leur nom au lieu de les choisir depuis l\'écran.
 
-## Le solide géométrique {#le_solide_géométrique}
+## Le solide géométrique 
 
 ![ thumb \| 400px \| right \| text-top \| Croquis du première protusion](images/_HolderTop1-4.jpg ) Maintenant il est temps de commencer à créer une géométrie réelle. L\'esquisse pour la première protusion est affichée sur la droite. Elle est placée sur le plan XY. Il y a juste trois dimensions: le rayon intérieur (de 22,5 mm), l\'allocation d\'usinage (3mm) à la base comme un décalage au pla-XZ et la distance entre le plan de référence représentant l\'axe du boulon (7mm). Cela signifie que si vous vous déplacez plus tard, le plan de référence, la protusion ajustera automatiquement son rayon extérieur. N\'oubliez pas qu\'avant de pouvoir utiliser le plan de référence pour le dimensionnement, vous devez introduire la géométrie externe au sketcher
 
@@ -70,14 +70,14 @@ Après avoir créé les esquisses, les creuser: Symétriquement 28mm pour la dé
 Là encore, les plans de l\'ossature deviennent utile. Vous aurez besoin du plan de l\'axe du boulon et du plan de la tête du boulon comme géométrie externe. Ensuite, créez une ligne droite pour l\'axe de rotation et assurez-vous qu\'il est contraint à l\'axe du boulon du plan de référence. Le basculer pour devenir une géométrie de construction. Puis, esquisser le reste du contour. Les dimensions importantes sont la surépaisseur d\'usinage en haut et en bas et le rayon de 12 mm : 7 mm pour le rayon du trou + épaisseur de paroi de 5 mm.
 <img alt="géométrie finie de la partie supérieure du support (sans projet et congés)" src=images/_HolderTop1-9.jpg  style="width:400px;"> Créer une fonction de révolution de l\'esquisse, puis la symétriser sur le plan YZ . C\'est toute la géométrie solide nous devons modéliser. Le reste est brouillon et congés.
 
-## Application de dépouille sur les faces latérales {#application_de_dépouille_sur_les_faces_latérales}
+## Application de dépouille sur les faces latérales 
 
 [thumb\|400px\|right\|text-top \| Le plan neutre pour la création de dépouille](Image:_HolderTop1-10.jpg.md) L\'étape suivante consiste à appliquer des dépouilles sur toutes les faces . Il est important de bien choisir l\'emplacement du plan neutre, c\'est le plan autour duquel on tourne. Si nous choisissons comme plan neutre, le bas du support, alors nous aurons un problème avec l\'épaisseur de paroi dans la partie supérieure du support. Par conséquent, nous créons un plan de référence avec un décalage de 40 mm par rapport au plan XZ comme un compromis entre le haut de la porte devant mince et le bas de devenant large .
 <img alt=" ext-top\|Application de dépouille sur les faces latérales du support" src=images/_HolderTop1-11.jpg  style="width:400px;"> Pour mettre une dépouille sur une face , sélectionner cette face et créer la caractéristique de la dépouille . Vous pouvez ensuite sélectionner plusieurs faces et appliquer la dépouille dessus . Si vous avez une grande pièce, il est conseillé de dépouiller une seule face à la fois. Cela signifie que si vous modifiez la géométrie et qu\'une dépouille échoue, seul cette caractéristique va échouer, alors que si vous mettez sur tous les faces une fonction de dépouille, alors l\'ensemble des fonction ensemble pourrait échouer à cause d\'une faute d\'une face. Pour une petite pièce comme le support de roulement, c\'est suffisant de créer deux fonctions de dépouille : Une pour les quatre faces extérieures, et une pour les faces internes.
 
 La boîte de dialogue va vous forcer à choisir un plan neutre avant de remplir. Vous pouvez laisser la direction d\'étirement vide, dans ce cas, il sera perpendiculaire au plan neutre. Ne oubliez pas de régler l\'angle de dépouille à 2 degrés.
 
-## Congés sur le support {#congés_sur_le_support}
+## Congés sur le support 
 
 ![ thumb \| 400px \| right \| text-top \|Congés où seront les boulons](images/_HolderTop1-13.jpg ) Nous pouvons maintenant arrondir la pièce. La photo montre le premier jeu de congés. Commencez par les petits congés circulaires et leurs donner un rayon 4mm. Même si 3 mm suffiraient selon les spécifications de la pièce, un rayon de 4 mm signifie qu\'après l\'usinage du congé 1 mm est laissé, réduisant l\'arête vive produite par l\'usinage. Les grands congés ont un rayon de 6mm pour aider à répandre la force des boulons sur le reste de la pièce. Ce serait bien de faire ce rayon encore plus grand, mais malheureusement OpenCascade ne peut pas gérer encore les congés qui se chevauchent .
 
@@ -95,11 +95,11 @@ Avant de commencer la géométrie d\'usinage, j\'aime placer un point de référ
 Pour usiner la partie inférieure du support, il suffit de tracer un grand rectangle dans le plan XZ et le creuser. Pour le haut, esquisser un cercle sur le plan de référence définissant l\'emplacement de la tête de vis, puis symétriser la cavité sur le plan YZ. De la même manière, créer une cavité pour le trou où passe le boulon et le symétriser. Pour usiner l\'intérieur du support, créer une esquisse sur le plan YZ et le rainurer.
 ![ thumb \| 400px \| right \| text-top \| Pièce finie](images/_HolderTop1-1.jpg ) Une fois que vous avez réaliser l\'usinage, vous pouvez avoir un bon effet visuel en colorant toutes les surfaces usinées de sorte que vous pouvez voir d\'un coup d\'œil les parties qui sont brut de fonderie et celles qui sont usinées après la coulée.
 
-## Notes Finales {#notes_finales}
+## Notes Finales 
 
 Nous avons modélisé le haut du support de roulement avec les dimensions qu\'il aura après la coulée. Pour créer le moule, vous devez appliquer un retrait à votre pièce parce que après la coulée, lorsque le métal chaud se refroidit, il va diminuer de quelques pour cent (selon le matériau). Habituellement, il est préférable de laisser l\'application de retrait à la fonderie faisant la pièce parce qu\'ils ont les connaissances particulières requises. Ils devraient également vous dire si votre pièce comporte des zones problématiques, par exemple parois très épaisse rejoignant brusquement des sections très minces sans transition correcte entre elles.
 
-## Partie Deux {#partie_deux}
+## Partie Deux 
 
 [Tutoriel de Conception Support de Roulement II](PartDesign_Bearingholder_Tutorial_II/fr.md)
 

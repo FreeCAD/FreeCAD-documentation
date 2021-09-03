@@ -23,7 +23,7 @@ BuildingPart intenționează să înlocuiască [Arch Floor](Arch_Floor.md) cu o 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -160,7 +160,7 @@ This plane is always parallel to the BuildingPart\'s base plane, but you can spe
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

@@ -31,9 +31,9 @@ La herramienta también explotará las formas no compuestas en sus constituyente
 
 1.  Invocar la Herramienta de explotar piezas de compuesto de varias maneras:
     -   Presionando en la <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> en la barra de herramientas de pieza
-    -   Usando la {{MenuCommand|Pieza → Compuesto → Explotar compuesto}} entrada en el Pieza menú
+    -   Usando la **Pieza → Compuesto → Explotar compuesto** entrada en el Pieza menú
 
-## Casos de uso {#casos_de_uso}
+## Casos de uso 
 
 
 <div class="mw-translate-fuzzy">

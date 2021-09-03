@@ -52,19 +52,19 @@ Typ nabízí pět různých způsobů určení délky, na kterou bude podložka 
 
 Zadání číselné hodnoty pro výšku desky. Defaultní směr vysunutí je ven z podkladu, ale může to být změněno zakliknutím volby **Opačně**. Vysunutí je ve směru [kolmém](http://en.wikipedia.org/wiki/Surface_normal) k definující rovině náčrtu. S volbou **Symetricky s rovinou** bude deska vysunuta z poloviny na jedné straně roviny a z poloviny na druhé straně roviny. Záporný rozměr není povolen. Místo toho použijte volbu **Opačně**.
 
-### Dva rozměry {#dva_rozměry}
+### Dva rozměry 
 
 Umožňuje zadat druhý rozměr. Pak se deska o tuto vzdálenost vysune na opačnou stranu (vzhledem k podkladové rovině). Opět lze využít volby **Opačně**.
 
-### K poslední {#k_poslední}
+### K poslední 
 
 Deska se vysune až k poslední ploše tělesa ve směru vysunutí. Není-li v daném směru žádná plocha, zobrazí se chybové hlášení.
 
-### K první {#k_první}
+### K první 
 
 Deska se vysune k první ploše tělesa ve směru vysunutí. Není-li v daném směru žádná plocha, zobrazí se chybové hlášení.
 
-### Až k ploše {#až_k_ploše}
+### Až k ploše 
 
 Deska se vysune až k ploše v objektu, která je vybrána kliknutím na ni. Není-li zde žádný objekt, nebude akceptován žádný výběr.
 
@@ -72,22 +72,22 @@ Deska se vysune až k ploše v objektu, která je vybrána kliknutím na ni. Nen
 
 Defines the length of the pad. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \").
 
-### Use custom direction {#use_custom_direction}
+### Use custom direction 
 
 
 <small>(v0.19)</small> 
 
 If checked, the pad direction will not be the normal vector of the sketch but the given vector. The pad length is however set according to the normal vector direction.
 
-### Length along sketch normal {#length_along_sketch_normal}
+### Length along sketch normal 
 
 If checked, the pad length is measured along the sketch normal, otherwise along the custom direction. <small>(v0.20)</small> 
 
-### Offset to face {#offset_to_face}
+### Offset to face 
 
 Offset from face in which the pad will end. This option is only available when **Type** is either **To last**, **To first** or **Up to face**.
 
-### Symmetric to plane {#symmetric_to_plane}
+### Symmetric to plane 
 
 Tick the checkbox to extend half of the given length to either side of the sketch plane.
 

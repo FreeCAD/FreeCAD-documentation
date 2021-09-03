@@ -17,7 +17,7 @@ The **Std ShowObjects** command shows all objects belonging to the active docume
 
 ## Utilizzo
 
-1.  Select the {{MenuCommand|View → Visibility → <img src="images/Std_ShowObjects.svg" width=16px> Show all objects}} option from the menu.
+1.  Select the **View → Visibility → <img src="images/Std_ShowObjects.svg" width=16px> Show all objects** option from the menu.
 
 ## Note
 

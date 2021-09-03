@@ -4,7 +4,7 @@
 
 Das **FreeCAD Standard Dateiformat** ({{FileName|.FCStd}}) ist das Hauptdateiformat von FreeCAD. Es ist ein zusammengesetztes Format, das die Komprimierung und Einbettung verschiedener Arten von Daten unterstützt.
 
-## Internas von .FCStd Dateien {#internas_von_.fcstd_dateien}
+## Internas von .FCStd Dateien 
 
 FCStd ist eine [ Standard Zip Datei eine oder mehrere Dateien enthaltend](#Contents/de.md) in einer [speziellen Struktur](#structure/de.md). Daher ist es möglich, eine {{FileName|.FCStd}} Datei mit einem regulären Zip Dekomprimierungswerkzeug zu entpacken, aber beim Packen des Inhalts einer {{FileName|.FCStd}} Datei ist Vorsicht geboten. FreeCAD enthält ein \"Projekt Hilfsprogramm\" zum erneuten Packen von {{FileName|.FCStd}} Dateien, dessen Verwendung in [Ändere die Quelle der Datei .FCStd](#Change_the_source_of_the_file_.FCStd/de.md) unten beschrieben wird.
 
@@ -12,7 +12,7 @@ FCStd ist eine [ Standard Zip Datei eine oder mehrere Dateien enthaltend](#Conte
 
 Dies ist die Haupt {{FileName|.xml}} datei, die alle Objekte innerhalb eines FreeCAD Dokuments beschreibt, d.h. nur die geometrische und parametrische Definition der Objekte, nicht ihre visuelle Darstellung. Wenn FreeCAD im Konsolenmodus (ohne die GUI) ausgeführt wird, wird nur diese {{FileName|Dokument.xml}} verwendet.
 
-#### Beispiel Document.xml {#beispiel_document.xml}
+#### Beispiel Document.xml 
 
 
 {{Code|lang=xml|code=
@@ -123,7 +123,7 @@ Dies sind die [B-rep](wikipedia:Boundary_representation.md) Formen aller Objekte
 
 Dies sind die Vorlagen-svg-Dateien, die auf [TechDraw](TechDraw_Workbench/de.md)-Seiten verwendet werden.
 
-### Typische Struktur {#typische_struktur}
+### Typische Struktur 
 
 Struktur einer typischen {{FileName|.FCStd}} Datei. Die Erweiterung kann in {{FileName|.zip}} geändert werden, um sie wie ein normales Verzeichnis zu untersuchen. Die {{FileName|Dokument.xml}} und {{FileName|GuiDocument.xml}} befinden sich zusammen mit einer beliebigen Anzahl von {{FileName|.brp}} (BREP) Dateien im Archivstamm. Ein Unterverzeichnis kann die Miniaturansicht und ein anderes die von [TechDraw](TechDraw_Workbench/de.md) verwendeten SVG Vorlagen enthalten.
 
@@ -140,7 +140,7 @@ Struktur einer typischen {{FileName|.FCStd}} Datei. Die Erweiterung kann in {{Fi
       :--MyPage.svg
       :--etc.
 
-## Einbetten anderer Dateien {#einbetten_anderer_dateien}
+## Einbetten anderer Dateien 
 
 Um andere Dateitypen in eine FCStd Datei einzubetten, musst du zunächst ein [geskriptetes Objekt](Scripted_objects/de.md) aus der [Python Konsole](Python_console/de.md) erstellen und ihm eine `App::PropertyFileIncluded`-Eigenschaft geben.
 
@@ -154,7 +154,7 @@ custom_obj.addProperty("App::PropertyFileIncluded", "AttachedFile")
 
 Siehe den Forumsbeitrag, [PDF innerhalb des Projekts](https://forum.freecadweb.org/viewtopic.php?t=38201).
 
-## Ändere die Quelle der Datei .FCStd {#ändere_die_quelle_der_datei_.fcstd}
+## Ändere die Quelle der Datei .FCStd 
 
 -   Siehe [Std ProjektHilfsprogramm](Std_ProjectUtil/de.md).
 

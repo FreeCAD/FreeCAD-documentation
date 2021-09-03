@@ -4,7 +4,7 @@ In the following notes, `"context"` should be your addon\'s or workbench\'s name
 
 **Note**: Here is an all-in-one script that automates the complete procedure mentioned below (you are still advised to read the procedure to know what the script should do, though): <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
 
-## Preparing the sources {#preparing_the_sources}
+## Preparing the sources 
 
 ### General
 
@@ -12,7 +12,7 @@ In the following notes, `"context"` should be your addon\'s or workbench\'s name
 -   Only the text that is shown to the user in the FreeCAD UI should be translated. Text that is only shown in the Python console should not be translated.
 -   Text that prints to the `FreeCAD.Console` is shown in the \"Report view\", and therefore should be translated. The \"Report view\" is different from the Python console.
 
-### In every Python .py file {#in_every_python_.py_file}
+### In every Python .py file 
 
 -   In every file where you need to translate text, you need a `translate()` function defined. An easy way is to use the one from the [Draft Workbench](Draft_Workbench.md):
 
@@ -56,7 +56,7 @@ Don\'t use your own `"context"` in this specific case. Keep `"App::Property"`.
 
 -   Do not translate the text of document transactions made with `Document.openTransaction()`
 
-### In InitGui.py {#in_initgui.py}
+### In InitGui.py 
 
 -   Add the following line, close to the top of the file:
 
@@ -86,7 +86,7 @@ The `InitGui.py` file has no **file** attribute, so it is not easy to find the t
 FreeCADGui.addLanguagePath(os.path.join(os.path.dirname(__file__), "translations"))
 ```
 
-### Inside each FreeCAD command class {#inside_each_freecad_command_class}
+### Inside each FreeCAD command class 
 
 -   Add the following line, close to the top of the file:
 
@@ -113,7 +113,7 @@ where `"CommandName"` is the name of the command, defined by
 FreeCADGui.addCommand('CommandName', My_Command_Class())
 ```
 
-## Gather all the strings from your module {#gather_all_the_strings_from_your_module}
+## Gather all the strings from your module 
 
 -   You will need the `lupdate`, `lconvert`, `lrelease` and `pylupdate` tools installed on your system. In Linux distributions they usually come in packages named `pyside-tools` or `pyside2-tools`. On some systems `lupdate` is named `lupdate4` or `lupdate5` or `lupdate-qt4` or similar. Same for the other tools. You may use the Qt4 or Qt5 version at your choice.
 -   If you have `.ui` files, you need to run `lupdate` first:
@@ -152,7 +152,7 @@ rm translations/pyfiles.ts
 rm translations/uifiles.ts
 ```
 
-## Send the .ts file to a translation platform {#send_the_.ts_file_to_a_translation_platform}
+## Send the .ts file to a translation platform 
 
 It is time to have your `.ts` file translated. You can choose to set up an account on a public translation platform such as [Crowdin](https://crowdin.com/) or [Transifex](https://www.transifex.com/), or you can benefit from our existing [FreeCAD-addons account at Crowdin](https://crowdin.com/project/freecad-addons), which has many users already, and therefore more chance to have your file translated quickly and by people who know FreeCAD.
 
@@ -163,14 +163,14 @@ If you wish to host your file on the FreeCAD Crowdin account, get in touch with 
 
 some platforms like Crowdin can integrate with GitHub and do all the process from points 2, 3 and 4 automatically. For that, you can't use the FreeCAD Crowdin account; you will need to set up your own account.
 
-## Merge the translations {#merge_the_translations}
+## Merge the translations 
 
 Once your `.ts` file has been translated, even if partially, you can download the translations from the site:
 
 -   You will usually download a `.zip` file containing one `.ts` per language
 -   Place all the translated `.ts` files, together with your base `.ts` file, in the `translations/` folder
 
-## Compile the translations {#compile_the_translations}
+## Compile the translations 
 
 Now run the `lrelease` program on each file that you have. 
 ```python
@@ -191,7 +191,7 @@ You should find one `.qm` file for each translated `.ts` file. The `.qm` files i
 
 That\'s all you need. Note that certain parts of your workbench cannot be translated on-the-fly if you decide to switch languages. If this is the case, you will need to restart FreeCAD for the new language to take effect.
 
-## Testing translations {#testing_translations}
+## Testing translations 
 
 1.  Switch FreeCAD to a language you have translated (ex. German)
 2.  Load translation into FreeCAD, ex. `FreeCADGui.addTranslationPath("/path/to/the/folder/containing/qmfile")`
@@ -199,15 +199,15 @@ That\'s all you need. Note that certain parts of your workbench cannot be transl
 
 Result: This should give you the German translation. If this works ok, then the basic setup is OK. Then we can look at something else. For ex, command names should always use a special context that is the name of the command as registered to FreeCAD.
 
-### Important notes {#important_notes}
+### Important notes 
 
 -   Make sure you are using a \*context\* and \*string\* that actually are in the ts/qm file of course.
 
-## Important references {#important_references}
+## Important references 
 
 -   Why and how to translate `openCommand()` functions ([forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=55869))
 
-## Related Pages {#related_pages}
+## Related Pages 
 
 -   [External Workbenches](External_Workbenches.md)
 -   [Localisation](Localisation.md)

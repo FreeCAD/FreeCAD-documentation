@@ -32,7 +32,7 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 -   ![](images/Feature-CAM.jpg ) Ein [Pfad Modul](Path_Workbench/de.md) für die mechanische Bearbeitung für [Computerunterstützte Fertigung](https://de.wikipedia.org/wiki/Computer-aided_manufacturing) (CAM). Durch Verwendung des Pfadmoduls kannst du den [G-Code](http://en.wikipedia.org/wiki/G-code), der zur Steuerung der Zielmaschine verwendet wird, ausgeben, anzeigen und anpassen. 
 -   ![](images/Feature_spreadsheet.png ) Eine [Integrierte Kalkulationstabelle](Spreadsheet_Workbench/de.md) und ein [Ausdruck Syntaxanalysierer](Expressions/de.md), die zur Steuerung formelbasierter Modelle und zur Organisation von Modelldaten an einem zentralen Ort verwendet werden können.
 
-## Allgemeine Funktionen {#allgemeine_funktionen}
+## Allgemeine Funktionen 
 
 -   **Multiplattform**. FreeCAD läuft und verhält sich auf Windows, Linux, macOS und anderen Plattformen genau gleich.
 
@@ -84,11 +84,11 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 
 -   **modularer MSI Installierer**. Das FreeCAD Installationsprogramm ermöglicht eine flexible Installation auf Windows Systemen. Pakete für Ubuntu Systeme werden ebenfalls gepflegt.
 
-## In der Entwicklung {#in_der_entwicklung}
+## In der Entwicklung 
 
 -   ![](images/Feature-assembly.jpg ) Ein [Zusammenbau](Assembly_project/de.md) Modul, das es einem ermöglicht, mit mehreren Projekten, mehreren Formen, mehreren Dokumenten, mehreren Dateien, mehreren Beziehungen\.... zu arbeiten. Dieses Modul befindet sich derzeit im Planungszustand.
 
-## Zusätzliche Arbeitsbereiche {#zusätzliche_arbeitsbereiche}
+## Zusätzliche Arbeitsbereiche 
 
 Erfahrene Nutzer haben verschiedene [externe Arbeitsbereiche](external_workbenches/de.md) entwickelt.
 

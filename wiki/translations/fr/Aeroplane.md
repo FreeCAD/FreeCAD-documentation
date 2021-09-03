@@ -7,14 +7,14 @@
 |Files=
 }}
 
-## Premiers pas {#premiers_pas}
+## Premiers pas 
 
 Nous travaillerons dans l\'<img alt="" src=images/_Workbench_Part.svg  style="width:24px;"> [ Atelier Part](Part_Workbench/fr.md) - sélectionnez-le dans les menus via {{MenuCommand | Affichage → Atelier → Part}} ou depuis le [sélecteur d\'ateliers](Std_Workbench/fr.md).
 
 -   Créez un nouveau document vide.
 -   Basculez vers la <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Vue isométrique](Std_ViewIsometric.md).
 -   Basculez l\'axe croisé **ON** (via le menu Affichage).
--   Assurez-vous que la [Vue combinée](Combo_view/fr.md) s\'affiche (via {{MenuCommand|Affichage → Panneaux → Vue combinée}}).
+-   Assurez-vous que la [Vue combinée](Combo_view/fr.md) s\'affiche (via **Affichage → Panneaux → Vue combinée**).
 
 -   Créer un cylindre, en cliquant sur le <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [Bouton de cylindre](Part_Cylinder/fr.md).
 -   Sélectionnez le cylindre en cliquant dessus, dans la Vue combinée.
@@ -22,13 +22,13 @@ Nous travaillerons dans l\'<img alt="" src=images/_Workbench_Part.svg  style="wi
 
 Changez la hauteur à 20 mm. Laissez le rayon à 2 mm.
 
-Cliquez sur [Placement](Placement/fr.md) (notez le petit **[+]**) et un bouton avec trois points va apparaître **...**. Cliquez dessus. (Vous pouvez aussi sélectionner : {{MenuCommand|Menu → Edition → Positionnement}}). Le visualiseur de tâches apparaît.
+Cliquez sur [Placement](Placement/fr.md) (notez le petit **[+]**) et un bouton avec trois points va apparaître **...**. Cliquez dessus. (Vous pouvez aussi sélectionner : **Menu → Edition → Positionnement**). Le visualiseur de tâches apparaît.
 
 <img alt="" src=images/HTCaeroplane01.png  style="width:300px;">
 
 Si vous n\'êtes pas familiarisé avec les axes X Y Z, alors faites des essais avec les nombres dans le tableau de Translation. Lorsque vous avez terminé de faire vos tests, cliquez sur le bouton **Reset** (réinitialisation).
 
-## Seconde étape {#seconde_étape}
+## Seconde étape 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
 

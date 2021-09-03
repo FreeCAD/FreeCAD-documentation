@@ -20,7 +20,7 @@ Aufgrund von Änderungen an der GitHub Plattform im Jahr 2020 funktioniert der E
 
 ## Anwendung
 
-1.  Wähle die {{MenuCommand|Werkzeuge → <img src="images/Std_AddonMgr.svg" width=16px> Erweiterungsverwalter}} Option aus dem Menü.
+1.  Wähle die **Werkzeuge → <img src="images/Std_AddonMgr.svg" width=16px> Erweiterungsverwalter** Option aus dem Menü.
 2.  Wenn du den Erweiterungsverwalter zum ersten Mal verwendest, wird ein Dialogfeld geöffnet, das dich darauf hinweist, dass die Erweiterungen im Erweiterungsverwalter nicht offiziell Teil von FreeCAD sind. Drücke die **OK** Schaltfläche, um zu bestätigen und fortzufahren.
 3.  Das Dialogfeld des Erweiterungsverwalters öffnet sich. Für weitere Informationen siehe [Optionen](#Options/de.md).
 4.  Die **<img src="images/Button_valid.svg" width=16px> Alles aktualisieren** Schaltfläche funktioniert zur Zeit nicht.
@@ -60,15 +60,15 @@ Das Dialogfeld des Erweiterungsverwalters hat zwei Reiter auf der linken Seite, 
 -   Wenn das [GitPython](https://github.com/gitpython-developers/GitPython) Paket auf deinem Computer installiert ist, wird der Erweiterungsverwalter davon Gebrauch machen, was das Herunterladen beschleunigt.
 -   Du kannst Erweiterungen auch manuell installieren. Siehe [Wie man zusätzliche Arbeitsbereiche installiert](How_to_install_additional_workbenches/de.md) und [Wie man Makros installiert](How_to_install_macros/de.md).
 
-## Informationen für Entwickler {#informationen_für_entwickler}
+## Informationen für Entwickler 
 
 Wenn du einen Arbeitsbereich oder ein Makro entwickelt hast und es im Erweiterungsverwalter sehen möchtest, lies auf den Repositoriumsseiten ([FreeCAD-Erweiterungen](https://github.com/FreeCAD/FreeCAD-addons/) und [FreeCAD-Makros](https://github.com/FreeCAD/FreeCAD-macros/)), was zu tun ist. Wenn du dein Makro zu den [Makro Rezepte](Macros_recipes/de.md) Seiten hinzufügst, ist nichts weiteres tun, denn es wird automatisch vom Erweiterungsverwalter ausgewählt.
 
-### Python Arbeitsbereiche {#python_arbeitsbereiche}
+### Python Arbeitsbereiche 
 
 Für Python Arbeitsbereiche benötigst du keine besondere Genehmigung, damit dein Arbeitsbereich zum Erweiterungsverwalter hinzugefügt wird, und da sie außerhalb des FreeCAD Quellcodes liegen, kannst du die gewünschte Lizenz wählen. Wenn du darum anfragst, dass dein Arbeitsbereich in die Liste aufgenommen wird (wir werden keine neuen Arbeitsnbereich ohne eine Anfrage der Autoren hinzufügen), entweder durch eine entsprechende Anfrage im Forum oder durch das Öffnen einer Ausgabe im [FreeCAD-Erweiterungs](https://github.com/FreeCAD/FreeCAD-addons/) Repositorium, bleibt dein Code in deinem eigenen git Repositorium, wir fügen ihn einfach als Untermodul zum [FreeCAD-Erweiterungs](https://github.com/FreeCAD/FreeCAD-addons/) Repositorium hinzu. Natürlich werden wir, bevor wir deinen Arbeitsbereich hinzufügen, einen Blick darauf werfen und sicherstellen, dass es keine potentiellen Probleme damit gibt.
 
-### C++ Arbeitsbereiche {#c_arbeitsbereiche}
+### C++ Arbeitsbereiche 
 
 Wenn du einen Arbeitsbereich in C++ entwickelst, kann er nicht direkt durch Benutzer ausgeführt, sondern muss zuerst kompiliert werden. Du hast zwei Optionen, entweder stellst du vorkompilierte Versionen deines Arbeitsbereichs für die verschiedenen Betriebssysteme zur Verfügung oder du solltest anfragen, dass dein Code in den FreeCAD Quellcode integriert wird. Dafür solltest du die LGPL Lizenz (oder vollkompatible wie MIT oder BSD) verwenden, und du musst deine neuen Werkzeuge der Gemeinschaft im [FreeCAD Forum](https://forum.freecadweb.org) zur Überprüfung vorstellen. Sobald dein Code getestet und genehmigt wurde, solltest du, falls noch nicht geschehen, einen Fork für das FreeCAD Repositorium durchführen, einen neuen Zweig erstellen, deinen Code dorthin schieben und eine Pull Anfrage öffnen, so dass dein Zweig mit dem Haupt Repositorium zusammengeführt wird.
 

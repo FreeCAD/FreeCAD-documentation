@@ -12,7 +12,7 @@
 
 Un [Gruppo](Std_Group/it.md) (chiamato internamente [App DocumentObjectGroup](App_DocumentObjectGroup/it.md)) è un contenitore per scopi generici che consente di raggruppare diversi tipi di oggetti nella [vista ad albero](tree_view/it.md), indipendentemente dal tipo di dati. È usato come una semplice cartella per classificare e organizzare gli oggetti nel modello, al fine di mantenere una struttura logica. I gruppi possono essere nidificati all\'interno di altri gruppi.
 
-Lo strumento Gruppo non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si ritrova nella {{MenuCommand|barra degli strumenti struttura}}, che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md).
+Lo strumento Gruppo non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si ritrova nella **barra degli strumenti struttura**, che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md).
 
 Per raggruppare gli oggetti 3D come una singola unità, con l\'intenzione di creare degli assiemi, utilizzare [Parte](Std_Part/it.md).
 
@@ -39,7 +39,7 @@ Un [Gruppo](Std_Group/it.md) è internamente chiamato [App DocumentObjectGroup](
 
 Oltre alle proprietà descritte in [App FeaturePython](App_FeaturePython/it.md), che è l\'istanza più elementare di un [App DocumentObject](App_DocumentObject/it.md), l\'App DocumentObjectGroup ha la proprietà **Group**.
 
-Queste sono le proprietà disponibili nel [editore delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando {{MenuCommand|Mostra tutto}} nel menu contestuale dell\'[editore delle proprietà](property_editor/it.md).
+Queste sono le proprietà disponibili nel [editore delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell\'[editore delle proprietà](property_editor/it.md).
 
 ### Dati
 
@@ -50,7 +50,7 @@ Queste sono le proprietà disponibili nel [editore delle proprietà](property_ed
 
 -    **Group|LinkList**: un elenco di oggetti referenziati. Di default, è vuoto {{value|[]}}.
 
-#### Proprietà dati nascoste {#proprietà_dati_nascoste}
+#### Proprietà dati nascoste 
 
 -    **Proxy|PythonObject**: una classe personalizzata associata a questo oggetto. Questa esiste solo per la versione [Python](Python/it.md). Vedere [Script](Std_Group/it#Script.md).
 
@@ -61,7 +61,7 @@ Queste sono le proprietà disponibili nel [editore delle proprietà](property_ed
 
 Vedere [App FeaturePython](App_FeaturePython/it.md) per le proprietà di base della vista.
 
-#### Proprietà vista nascoste {#proprietà_vista_nascoste}
+#### Proprietà vista nascoste 
 
 -    **Proxy|PythonObject**: una classe del provider di visualizzazione personalizzata associata a questo oggetto. Questo esiste solo per la versione [Python](Python/it.md). Vedere [Script](Std_Group/it#Script.md).
 

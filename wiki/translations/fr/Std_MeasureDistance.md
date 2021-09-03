@@ -15,7 +15,7 @@ La commande **Std Mesurer une distance** crée un objet distance qui mesure et a
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Std_MeasureDistance.svg" width=16px> [Mesurer une distance](Std_MeasureDistance/fr.md)**.
-    -   Utilisez {{MenuCommand|Outils  →  <img src="images/Std_MeasureDistance.svg" width=16px> Mesurer une distance}} dans le menu.
+    -   Utilisez **Outils  →  <img src="images/Std_MeasureDistance.svg" width=16px> Mesurer une distance** dans le menu.
 2.  Sélectionnez le premier point dans la [Vue 3D](3D_view/fr.md).
 3.  Sélectionnez le deuxième point n\'importe où sur un objet dans la vue 3D.
 4.  L\'ordre de sélection des points peut avoir un impact sur la position de la ligne de cote.

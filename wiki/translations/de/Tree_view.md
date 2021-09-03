@@ -11,7 +11,7 @@ Diese Objekte müssen nicht unbedingt geometrische Formen sein, die in der [3D A
 
 *Die Baumansicht mit verschiedenen Elementen im Dokument.*
 
-## Arbeiten mit der Baumansicht {#arbeiten_mit_der_baumansicht}
+## Arbeiten mit der Baumansicht 
 
 Immer wenn ein neues Objekt erstellt wird, wird es standardmäßig am Ende der Liste in der Baumansicht hinzugefügt. Die Baumansicht erlaubt die Verwaltung der Objekte, um sie übersichtlich zu halten; sie erlaubt das Erstellen von [Gruppen](Std_Group/de.md), das Verschieben von Objekten innerhalb von Gruppen, das Verschieben von Gruppen innerhalb anderer Gruppen, das Umbenennen von Objekten, das Kopieren von Objekten, das Löschen von Objekten und andere Operationen im Kontextmenü (Rechtsklick), die vom aktuell ausgewählten Objekt und des aktuell aktiven Arbeitsbereichs abhängen.
 
@@ -35,22 +35,22 @@ Da die Baumansicht Objekte auflistet, die in der [3D Ansicht](3D_view/de.md) sic
 
 Beim Start der Anwendung ist die Standardeinstellung [Start Arbeitsbereich](Start_Workbench/de.md) aktiv, und kein Dokument wurde erstellt, wenn Du mit der rechten Maustaste auf die Schaltfläche [Baumansicht](Tree_view/de.md) klickst, wird nur ein Befehl angezeigt:
 
--    {{MenuCommand|Expression Aktionen}}: [Ausgewähltes kopieren](Std_Expressions.md), [Aktives Dokument kopieren](Std_Expressions.md), [Alle Dokumente kopieren](Std_Expressions.md), Einfügen. Diese ermöglichen das Arbeiten mit verschiedenen Dokumenten, sind aber deaktiviert, wenn kein Dokument vorhanden ist.
+-    **Expression Aktionen**: [Ausgewähltes kopieren](Std_Expressions.md), [Aktives Dokument kopieren](Std_Expressions.md), [Alle Dokumente kopieren](Std_Expressions.md), Einfügen. Diese ermöglichen das Arbeiten mit verschiedenen Dokumenten, sind aber deaktiviert, wenn kein Dokument vorhanden ist.
 
 Sobald ein neues Dokument erstellt wurde, wird folgendes aktiv:
 
--    {{MenuCommand|Expression actions}}: [Aktives Dokument kopieren](Std_Expressions/de.md), [Alle Dokumente kopieren](Std_Expressions/de.md).
+-    **Expression actions**: [Aktives Dokument kopieren](Std_Expressions/de.md), [Alle Dokumente kopieren](Std_Expressions/de.md).
 
 Zusätzlich sind [Verweis](Std_LinkMake/de.md) Aktionen verfügbar.
 
--    {{MenuCommand|Verknüpfungsvorgänge}}: [Verweis herstellen](Std_LinkMake/de.md).
+-    **Verknüpfungsvorgänge**: [Verweis herstellen](Std_LinkMake/de.md).
 
     -   
-        {{MenuCommand|Verweisgruppe herstellen}}
+        **Verweisgruppe herstellen**
         
         : [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Gruppe mit Verweisen](Std_LinkMakeGroup/de.md), [Gruppe mit Umwandlungsverweisen](Std_LinkMakeGroup/de.md).
 
-### Auswählen des Dokuments {#auswählen_des_dokuments}
+### Auswählen des Dokuments 
 
 Wenn du das aktive Dokument auswählst und mit der rechten Maustaste klickst, musst du zusätzlich zum {{MenuCommand/de|Expression actions}} und {{MenuCommand/de|Link actions}}, werden die folgenden Befehle angezeigt:
 
@@ -71,7 +71,7 @@ Wenn du das aktive Dokument auswählst und mit der rechten Maustaste klickst, mu
 
 -    {{MenuCommand/de|[Create group](Std_Group/de.md)}}: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument, indem du die Dokumenten `addObject()` Methode.
 
-### Objekte auswählen {#objekte_auswählen}
+### Objekte auswählen 
 
 Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf einen leeren Teil der Baumansicht zusätzlich zu den vorherigen Aktionen weitere Befehle an, die vom Objekttyp und dem aktiven Arbeitsbereich abhängen.
 
@@ -95,7 +95,7 @@ Zum Beispiel mit angewähltem [Arbeitsbereich Entwurf](Draft_Workbench/de.md), w
 
 -    {{MenuCommand/de|[Kopie](Std_Copy/de.md)}}: kopiert ein Objekt in den Speicher.
 
--    {{MenuCommand|[Einfügen](Std_Paste/de.md)}}: fügt das kopierte Objekt in das Dokument ein; die Kopie wird am Ende der Baumansicht hinzugefügt.
+-    **[Einfügen](Std_Paste/de.md)**: fügt das kopierte Objekt in das Dokument ein; die Kopie wird am Ende der Baumansicht hinzugefügt.
 
 -    {{MenuCommand/de|[Löschen](Std_Delete/de.md)}}: entfernt das Objekt aus dem Dokument und aus der Baumansicht, indem die Methode `Objekt entfernen()` des Dokuments aufgerufen wird.
 
@@ -103,43 +103,43 @@ Zum Beispiel mit angewähltem [Arbeitsbereich Entwurf](Draft_Workbench/de.md), w
 
 Wenn ein Objekt ausgewählt wird, z.B. eine [ Entwurfslinie](Draft_Line/de.md), und ein Rechtsklick auf das gleiche Objekt ausgeführt wird, können zusätzliche Befehle verfügbar sein:
 
--    {{MenuCommand|Transformation}}: startet das Transformations Widget, um das Objekt zu verschieben oder zu drehen.
+-    **Transformation**: startet das Transformations Widget, um das Objekt zu verschieben oder zu drehen.
 
--    {{MenuCommand|Set colors}}: setzt die Farben des Objekts.
+-    **Set colors**: setzt die Farben des Objekts.
 
--    {{MenuCommand|Draht Abflachen}}: **(Draft)** Spezifischer Befehl für eine [Entwurfslinie](Draft_Line/de.md).
+-    **Draht Abflachen**: **(Draft)** Spezifischer Befehl für eine [Entwurfslinie](Draft_Line/de.md).
 
--    {{MenuCommand|Eintrag ausblenden}}: Wenn aktiv, wird das ausgewählte Objekt als ausgeblendet gesetzt.
+-    **Eintrag ausblenden**: Wenn aktiv, wird das ausgewählte Objekt als ausgeblendet gesetzt.
 
 -    {{MenuCommand/de|Markieren zum Neuberechnen}}: markiert das ausgewählte Objekt als berührt und bereit für [Neuberechnung](Std_Refresh/de.md).
 
--    {{MenuCommand|Neuberechnung}}: Berechnet das ausgewählte Objekt neu.
+-    **Neuberechnung**: Berechnet das ausgewählte Objekt neu.
 
--    {{MenuCommand|Umbenennen}}:beginnt mit der Bearbeitung des Namens des ausgewählten Objekts. Dies ermöglicht es, das Attribut `Label` zu ändern, nicht aber das Attribut `Name`, da letzteres schreibgeschützt ist.
+-    **Umbenennen**:beginnt mit der Bearbeitung des Namens des ausgewählten Objekts. Dies ermöglicht es, das Attribut `Label` zu ändern, nicht aber das Attribut `Name`, da letzteres schreibgeschützt ist.
 
 ## Überlagerungssymbole
 
 Ein oder mehrere kleinere Überlagerungssymbole können über dem Standardsymbol eines Objekts in der Strukturansicht angezeigt werden. Die verfügbaren Überlagerungssymbole und ihre Bedeutung sind unten aufgeführt. {{Version/de|0.19}}
 
-### ![](images/FreeCAD_Tree_view_recompute.png ) Weißes Häkchen auf blauem Hintergrund {#freecad_tree_view_recompute.png_weißes_häkchen_auf_blauem_hintergrund}
+### ![](images/FreeCAD_Tree_view_recompute.png ) Weißes Häkchen auf blauem Hintergrund 
 
 Dies zeigt an, dass das Objekt [neuberechnet](Std_Refresh/de.md) werden muss, aufgrund von Änderungen am Modell oder weil der Benutzer das Objekt im Kontextmenü der Baumansicht zur Neuberechnung markiert hat. In den meisten Fällen werden Neuberechnungen automatisch ausgelöst, aber manchmal werden sie aus Leistungsgründen verzögert.
 
-### ![](images/FreeCAD_Tree_view_tip.png ) Weißer Pfeil auf grünem Hintergrund {#freecad_tree_view_tip.png_weißer_pfeil_auf_grünem_hintergrund}
+### ![](images/FreeCAD_Tree_view_tip.png ) Weißer Pfeil auf grünem Hintergrund 
 
 Dies bezeichnet die sogenannte [Spitze](PartDesign_Body/de#Spitze.md) eines Körpers. Er ist in der Regel das letzte Merkmal in einem [PartDesign Körper](PartDesign_Body/de.md) und repräsentiert den gesamten Körper nach außen, z. B. wenn der Körper exportiert oder in [Part booleschen](Part_Boolean/de.md) Operationen verwendet wird. Die Spitze kann vom Benutzer geändert werden.
 
-### ![](images/FreeCAD_Tree_view_unattached.png ) Lila Kettenglied auf weißem Hintergrund {#freecad_tree_view_unattached.png_lila_kettenglied_auf_weißem_hintergrund}
+### ![](images/FreeCAD_Tree_view_unattached.png ) Lila Kettenglied auf weißem Hintergrund 
 
 Dies wird typischerweise für [Skizzen](Sketch/de.md), geometrische Primitive, wie Kasten, Zylinder usw. und [Bezugsgeometrie](Datum/de.md) angezeigt. Es zeigt an, dass das Objekt an nichts angehängt ist. Es hat keinen Anfügeversatz und bezieht seine Position und Ausrichtung ausschließlich von seiner Eigenschaft [Platzierung](Placement/de.md).
 
 Es gibt ein [Grundlegendes Anfügungs Tutorium](Basic_Attachment_Tutorial/de.md), das erklärt, wie man mit solchen Objekten umgeht.
 
-### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Gelbes X {#freecad_tree_view_notfullyconstrained.png_gelbes_x}
+### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Gelbes X 
 
 Dies wird nur für [Skizzen](Sketch/de.md) verwendet und zeigt an, dass die Skizze nicht vollständig beschränkt ist. Innerhalb des [Skizzierer](Sketcher_Workbench/de.md) wird die Anzahl der verbleibenden Freiheitsgrade in den Löser Meldungen angezeigt.
 
-### ![](images/FreeCAD_Tree_view_error.png ) Weißes Ausrufezeichen auf rotem Hintergrund {#freecad_tree_view_error.png_weißes_ausrufezeichen_auf_rotem_hintergrund}
+### ![](images/FreeCAD_Tree_view_error.png ) Weißes Ausrufezeichen auf rotem Hintergrund 
 
 Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach der Neuberechnung des gesamten Dokuments wird eine Werkzeugspitze angezeigt, der den Fehler beschreibt, wenn Sie mit der Maus über das Objekt in der Strukturansicht fahren. Hinweis: Alle anderen Objekte, die von einem Objekt in einem solchen Fehlerzustand abhängen, werden nicht korrekt neu berechnet, so dass sie möglicherweise noch einen alten Zustand aufweisen.
 

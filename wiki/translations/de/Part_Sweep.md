@@ -28,12 +28,12 @@ Das Teil Austragungswerkzeug ähnelt dem <img alt="" src=images/Part_Loft.svg  s
 4.  Definiere die Optionen [Volumenkörper](#Solid/de.md) und [Frenet](#Frenet/de.md).
 5.  Klicke **OK**
 
-### Accepted geometry {#accepted_geometry}
+### Accepted geometry 
 
 
 <div class="mw-translate-fuzzy">
 
-### Akzeptierte Geometrie {#akzeptierte_geometrie}
+### Akzeptierte Geometrie 
 
 -   **Profile**: kann ein Punkt (Knoten), eine Linie (Kante), ein Draht oder eine Fläche sein. Kanten und Drähte können entweder offen oder geschlossen sein. Es gibt verschiedene [Profile Einschränkungen und Komplikationen](Part_Sweep#Profile_limitations_and_complications/de.md), siehe unten, jedoch können die Profile aus den Grundkörpern (primitives) der Arbeitsbereich Part, den Arbeitsbereich Draft Funktionen und Skizzen stammen.
 
@@ -65,7 +65,7 @@ Wenn \" Volumenkörper \" auf \" wahr \" gesetzt ist, erstellt FreeCAD einen Vol
 
 <div class="mw-translate-fuzzy">
 
-### Frenet {#frenet_1}
+### Frenet 
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;"> Die Eigenschaft \"Frenet\" steuert, wie sich die Profilausrichtung ändert, wenn sie entlang des Suchpfades folgt. Wenn \"Frenet\" \"falsch\" ist, wird die Ausrichtung des Profils von Punkt zu Punkt konsistent gehalten. Die resultierende Form weist eine minimale Verdrehung auf. Wenn ein Profil entlang einer Spirale gefegt wird, führt dies unwillkürlich dazu, dass das Profil langsam kriecht (rotiert), während es der Spirale folgt. Wenn Du \"Frenet\" auf true setzst, wird ein solches Kriechen verhindert.
 
@@ -86,12 +86,12 @@ Wenn \"Frenet\" \"wahr\" ist, wird die Ausrichtung des Profils basierend auf lok
 
 </div>
 
-## Profile limitations and complications {#profile_limitations_and_complications}
+## Profile limitations and complications 
 
 
 <div class="mw-translate-fuzzy">
 
-## Profileinschränkungen und Komplikationen {#profileinschränkungen_und_komplikationen}
+## Profileinschränkungen und Komplikationen 
 
 -   Ein Knoten oder Punkt
     -   Knoten oder Punkt darf nur als erstes und/oder letztes Profil in der Liste der Profile verwendet werden.

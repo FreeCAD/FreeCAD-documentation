@@ -143,7 +143,7 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 <div class="mw-translate-fuzzy">
 
-## Archivos de guión {#archivos_de_guión}
+## Archivos de guión 
 
 La herramienta Texto puede utilizarse en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función:
 

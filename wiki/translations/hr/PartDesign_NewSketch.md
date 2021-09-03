@@ -13,7 +13,7 @@ This tool creates a new sketch, creates a new [PartDesign Body](PartDesign_Body.
 
 When creating models using the <img src=images/Sketcher_NewSketch.svg style="width:PartDesign workbench](PartDesign_Workbench.md), this tool should be preferred to the **[16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)** tool found in the [Sketcher workbench](Sketcher_Workbench.md).
 
-## Kako koristiti {#kako_koristiti}
+## Kako koristiti 
 
 1.  Press the **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)** button from the PartDesign toolbar.
 2.  In the Tasks panel, the **Select feature** dialog is brought up. Select one of the planes in the list or in the 3D view which can be reoriented for better visibility.

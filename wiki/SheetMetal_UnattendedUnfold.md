@@ -26,7 +26,8 @@ If the parent body of a selected planar face has been subject to unfolding befor
         button
 
     -   
-        {{MenuCommand|SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)}}
+        **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)
+**
         
         drop down menu
 

@@ -19,7 +19,7 @@ Cette contrainte contraint la valeur du diamètre d\'un cercle ou d\'un arc à a
 
 NB : Les pôles B-spline ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
 
-## Comment l\'utiliser {#comment_lutiliser}
+## Comment l\'utiliser 
 
 1.  Choisissez un ou plusieurs cercles ou arcs.
 2.  Appuyez sur la touche **<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> [Contraindre le diamètre](Sketcher_ConstrainDiameter/fr.md)**

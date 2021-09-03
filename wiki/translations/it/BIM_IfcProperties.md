@@ -18,7 +18,7 @@ IFC properties can be custom, that is, you can define your own name and value fo
 
 You can create your own properties and property sets and attribute them to any object. There is no requirement in the IFC schema to add predefined Psets for common types or any restriction to add custom properties. This is a decision left to users. Usually, when working in a team, these things get decided alongside other BIM requirements, to make sure all BIM models produced meet the same requirements.
 
-### Defining your own property sets {#defining_your_own_property_sets}
+### Defining your own property sets 
 
 The available property sets that are predefined in the IFC standard are stored in a [csv file bundled with FreeCAD](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/pset_definitions.csv). You can also add a custom csv file with your own property sets. This file must be named CustomPsets.csv and be placed in \$USERAPPDATA/BIM
 

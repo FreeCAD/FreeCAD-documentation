@@ -21,17 +21,17 @@ La commande <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24p
 3.  Optionnellement, changer l\'état de visibilité des objets dans le document.
 4.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Draft Create a proxy object...](Draft_WorkingPlaneProxy.md)** bouton.
-    -   Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Créer un proxy de plan de travail}} dans le menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Créer un proxy de plan de travail** dans le menu.
 5.  Un proxy de plan de travail est créé.
 6.  Pour aligner le [plan de travail](Draft_SelectPlane/fr.md) avec un proxy de plan de travail, double-cliquez sur le proxy de plan de travail dans la [Vue en arborescence](Tree_view/fr.md) ou utilisez-le avec la commande [Draft SelectPlane](Draft_SelectPlane/fr.md).
 
-## Menu contextuel {#menu_contextuel}
+## Menu contextuel 
 
 Pour un Draft Proxy de plan de travail, ces options supplémentaires sont disponibles dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) :
 
--    {{MenuCommand|<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position}}: met à jour la propriété {{PropertyView/fr|View Data}} du proxy de plan de travail avec les paramètres actuels de la caméra [3D view](3D_view.md).
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: met à jour la propriété {{PropertyView/fr|View Data}} du proxy de plan de travail avec les paramètres actuels de la caméra [3D view](3D_view.md).
 
--    {{MenuCommand|<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state}}: met à jour la propriété {{PropertyView/fr|Visibility Map}} du proxy de plan de travail avec l\'état de visibilité actuel des objets dans le document.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: met à jour la propriété {{PropertyView/fr|Visibility Map}} du proxy de plan de travail avec l\'état de visibilité actuel des objets dans le document.
 
 ## Remarques
 

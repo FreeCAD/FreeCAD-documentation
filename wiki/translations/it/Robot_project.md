@@ -18,7 +18,7 @@ Questo è l\'articolo di progetto per il progetto Robot. Esso segue le regole de
 
 </div>
 
-## Finalità e principi {#finalità_e_principi}
+## Finalità e principi 
 
 Questo progetto dovrebbe impostare le tecnologie principali per una simulazione realistica di robot in FreeCAD. Nella prima fase ha come riferimento i robot industriali a 6 assi.
 
@@ -33,7 +33,7 @@ Simulazione di robot
 
 <div class="mw-translate-fuzzy">
 
-### Librerie in questo campo {#librerie_in_questo_campo}
+### Librerie in questo campo 
 
 -   [OROCOS](http://www.orocos.org/) librerie per la cinematica inversa
 -   [ROBOOP](http://www.cours.polymtl.ca/roboop/) mira direttamente alla simulazione di robot, ma sembra inattivo.
@@ -45,7 +45,7 @@ Simulazione di robot
 
 <div class="mw-translate-fuzzy">
 
-### Norme per la comunicazione {#norme_per_la_comunicazione}
+### Norme per la comunicazione 
 
 -   [OPC UA](http://en.wikipedia.org/wiki/OPC_Unified_Architecture) per comunicare con i PLC
 -   [RRS-II](http://www.ipk.fraunhofer.de/geschaeftsfelder/automatisierungstechnik/prozessautomatisierung-und-robotik/forschung-und-entwicklung/rrs-realistic-robot-simulation) standard tedesco per la comunicazione nella simulazione di robot
@@ -53,7 +53,7 @@ Simulazione di robot
 
 </div>
 
-### Middleware per la comunicazione {#middleware_per_la_comunicazione}
+### Middleware per la comunicazione 
 
 
 <div class="mw-translate-fuzzy">
@@ -66,7 +66,7 @@ Middleware sono i programmi intermediari
 
 </div>
 
-### Prodotti commerciali in questo settore {#prodotti_commerciali_in_questo_settore}
+### Prodotti commerciali in questo settore 
 
 -   [Visual Components](http://www.visualcomponents.com/Solutions/Robot-Simulation)
 -   [Delmia](http://www.3ds.com/products/delmia/welcome/)
@@ -97,7 +97,7 @@ Middleware sono i programmi intermediari
 -   Processo e controllo della cella di lavoro (prevista)
 -   Creazione di filmati di simulazione (in programma)
 
-## Azioni successive {#azioni_successive}
+## Azioni successive 
 
 -   Gestione della traiettoria e dei punti del percorso.
 

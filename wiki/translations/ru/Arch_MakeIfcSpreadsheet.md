@@ -21,7 +21,7 @@ This tool creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an obj
 2.  Invoke the command using several methods:
     -   Pressing the **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> Create IFC spreadsheet** button on the toolbar.
     -   Using the **I** then **P** keyboard shortcut.
-    -   Using the {{MenuCommand|Arch → Utilities → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Create IFC spreadsheet}} entry from the top menu.
+    -   Using the **Arch → Utilities → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Create IFC spreadsheet** entry from the top menu.
 
 ## Scripting
 

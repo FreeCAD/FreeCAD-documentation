@@ -26,7 +26,7 @@ Questo comando tenta di correggere gli oggetti [Draft](Draft_Workbench/it.md) ch
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più oggetti problematici.
-2.  Andare nel menu {{MenuCommand|Draft → Utilità → <img src="images/Draft_Heal.svg" width=16px> [Ripara](Draft_Heal/it.md)}}.
+2.  Andare nel menu **Draft → Utilità → <img src="images/Draft_Heal.svg" width=16px> [Ripara](Draft_Heal/it.md)**.
 
 
 </div>

@@ -30,7 +30,7 @@ In FreeCAD tale simulazione è fatta con l\'ambiente [FEM](FEM_Module/it.md). Si
 
 </div>
 
-### Preparare FreeCAD {#preparare_freecad}
+### Preparare FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +40,7 @@ La simulazione vera e propria viene effettuata con un altro pezzo di software, c
 
 </div>
 
-### Preparare la geometria {#preparare_la_geometria}
+### Preparare la geometria 
 
 Utilizzeremo la casa modellata nel capitolo [Modellazione BIM](Manual:BIM_modeling/it.md). Tuttavia, devono essere fatte alcune modifiche per rendere il modello adatto ai calcoli FEM. Si tratta, in sostanza, di scartare gli oggetti che non vogliamo includere nel calcolo, come ad esempio la porta e la finestra, e di unire tutti gli oggetti rimanenti in uno solo.
 
@@ -75,7 +75,7 @@ Utilizzeremo la casa modellata nel capitolo [Modellazione BIM](Manual:BIM_modeli
 
 </div>
 
-### Creare l\'analisi {#creare_lanalisi}
+### Creare l\'analisi 
 
 
 <div class="mw-translate-fuzzy">

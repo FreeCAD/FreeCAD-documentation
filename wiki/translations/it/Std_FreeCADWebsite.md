@@ -31,7 +31,7 @@ Currently the command points to [<https://www.freecadweb.org>](https://www.freec
 
 <div class="mw-translate-fuzzy">
 
--   Aprire il menu {{MenuCommand|Aiuto → Sito di FreeCAD}}.
+-   Aprire il menu **Aiuto → Sito di FreeCAD**.
 
 
 </div>

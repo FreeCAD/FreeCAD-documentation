@@ -54,27 +54,27 @@ To add or remove features from an existing pattern:
 
 Quando si crea una funzione di schiera lineare, il dialogo **Parametri LinearPattern** offre diversi modi per specificare la direzione del pattern.
 
-#### Asse orizzontale dello schizzo {#asse_orizzontale_dello_schizzo}
+#### Asse orizzontale dello schizzo 
 
 Usa l\'asse orizzontale dello schizzo per la direzione.
 
-#### Asse verticale dello schizzo {#asse_verticale_dello_schizzo}
+#### Asse verticale dello schizzo 
 
 Usa l\'asse verticale dello schizzo per la direzione.
 
-#### Asse normale allo schizzo {#asse_normale_allo_schizzo}
+#### Asse normale allo schizzo 
 
 v0.17 e superiori Usa l\'asse normale dello schizzo per la direzione.
 
-#### Seleziona riferimento\... {#seleziona_riferimento...}
+#### Seleziona riferimento\... 
 
 Consente di selezionare una linea di riferimento, DatumLine, o un bordo di un oggetto o una linea di uno schizzo da utilizzare per la direzione.
 
-#### Asse di schizzo personalizzato {#asse_di_schizzo_personalizzato}
+#### Asse di schizzo personalizzato 
 
 Se lo schizzo che definisce la funzione da modellare contiene anche una linea di costruzione (o linee), l\'elenco a discesa contiene un asse dello schizzo personalizzato per ogni linea di costruzione. La prima linea di costruzione è etichettata come \"Schizzo asse 0\".
 
-#### Asse Base (X/Y/Z) {#asse_base_xyz}
+#### Asse Base (X/Y/Z) 
 
 v0.17 e superiore Seleziona uno degli assi standard di Origine del Corpo (X, Y o Z) come direzione. 
 

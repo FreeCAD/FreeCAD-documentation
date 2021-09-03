@@ -2,7 +2,7 @@
 
 Wenn Du ein CAD Anwender bist und hier etwas hinzufügen möchtest, kannst Du gerne editieren, wir würden uns freuen, Deine Meinung hier zu haben.
 
-## 2D Zeichnung {#d_zeichnung}
+## 2D Zeichnung 
 
 -   ~~**Linie**: Zeichnet eine Linie~~ - siehe [Entwurf Linie](Draft_Line/de.md).
 -   **Konstruktionslinie**\': Zeichnet eine Linie in jedem beliebigen Winkel unendlich - sollte einfach sein, wenn möglich in Coin. Zu untersuchen
@@ -47,7 +47,7 @@ Wenn Du ein CAD Anwender bist und hier etwas hinzufügen möchtest, kannst Du ge
 -   **Gewinde** - normativ korrekte vereinfachte Darstellung des Querschnitts in Techdraw gemäß der Norm ISO 6410-1
 -   **Verrundung** - PartDesign Arbeitsbereich: Beseitigung von Rundungsproblemen 
 
-## Netz Modellierung {#netz_modellierung}
+## Netz Modellierung 
 
 -   **Primitive**\': Würfel, Kugeln usw. - vorhanden, aber keine Schaltfläche in der Symbolleiste
 -   **Teilobjekte in Netze umwandeln** - vorhanden, aber keine Schaltfläche in der Symbolleiste
@@ -56,7 +56,7 @@ Wenn Du ein CAD Anwender bist und hier etwas hinzufügen möchtest, kannst Du ge
 -   **Flächen in Netzen entfernen**\' - vorhanden, aber keine Schaltfläche in der Symbolleiste
 -   **Boolesche Operationen**\': Vereinigen, Subtrahieren und Maschen schneiden - vorhanden, aber keine Schaltfläche in der Symbolleiste
 
-## Teil Modellierung {#teil_modellierung}
+## Teil Modellierung 
 
 -   ~~**Primitive**~~
 -   **Netz Umwandlung**\' in Teilformen
@@ -64,7 +64,7 @@ Wenn Du ein CAD Anwender bist und hier etwas hinzufügen möchtest, kannst Du ge
 -   ~~**Flache Formen extrudieren**~~
 -   ~~**Verrundung der Kanten von Formen**\'~~
 
-## Parametrische Modellierung {#parametrische_modellierung}
+## Parametrische Modellierung 
 
 -   **Benutzerdefinierte Eigenschaften für alle Objekte**: so können Skripte und der Export in andere Software zusätzliche Informationen enthalten
 -   ~~**\'Python Objekte**~~: 100% python geskriptete Objekte - siehe [Geskriptete Objekte](Geskriptete_Objekte.md).

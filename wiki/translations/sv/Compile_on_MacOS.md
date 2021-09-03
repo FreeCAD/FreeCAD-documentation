@@ -19,11 +19,11 @@ This page serves as a quick start, and is not intended to be comprehensive with 
 
 If you just want to evaluate the latest pre-release build of FreeCAD, you can download pre-built binaries [from here](https://github.com/FreeCAD/FreeCAD/releases).
 
-## Install Prerequisites {#install_prerequisites}
+## Install Prerequisites 
 
 The following software must be installed to support the build process.
 
-### Homebrew Package Manager {#homebrew_package_manager}
+### Homebrew Package Manager 
 
 Homebrew is a command line based package manager for macOS. The [Homebrew main page](https://brew.sh/) provides an installation command line that you simply paste into a terminal window.
 
@@ -31,7 +31,7 @@ Homebrew is a command line based package manager for macOS. The [Homebrew main p
 
 CMake is a build tool that generates a build configuration based on variables you specify. You then issue the \'make\' command to actually build that configuration. The command-line version of CMake is automatically installed as part of the Homebrew installation, above. If you prefer to use a GUI version of CMake, you can download it from [here](https://www.cmake.org/downloadDownload).
 
-## Install Dependencies {#install_dependencies}
+## Install Dependencies 
 
 FreeCAD maintains a Homebrew \'tap\' which installs the required formulas and dependencies. Issue the following brew commands in your terminal.
 
@@ -47,7 +47,7 @@ Notes:
 1.  \'brew install\' may take quite a while, so you may want go grab a beverage. :-).
 2.  Homebrew is currently shipping with Boost 1.73, which contains a bug to compile FreeCAD please edit the file /usr/local/opt/boost/include/boost/geometry/index/detail/rtree/visitors/insert.hpp and on line 265 declare MembersHolder::visitor as being a Public value by replacing : MembersHolder::visitor with : public MembersHolder::visitor
 
-## Get the source {#get_the_source}
+## Get the source 
 
 In the following instructions, the source and build folders are created side-by-side under
 
@@ -78,11 +78,11 @@ Create the build folder.
 mkdir ~/FreeCAD/build
 ```
 
-## Run CMake {#run_cmake}
+## Run CMake 
 
 Next, we will run CMake to generate the build configuration. Several options must be passed to CMake. The following table describes the options and gives some background.
 
-### CMake Options {#cmake_options}
+### CMake Options 
 
   Name                          Value                                    Notes
   ----------------------------- ---------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------
@@ -98,7 +98,7 @@ Note: Command line to generate CMAKE\_PREFIX\_PATH:
 
 ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
 
-### CMake GUI {#cmake_gui}
+### CMake GUI 
 
 Open the CMake app, and fill in the source and build folder fields. In this example, it would be **/Users/username/FreeCAD/FreeCAD-git** for the source, and **/Users/username/FreeCAD/build** for the build folder.
 
@@ -106,7 +106,7 @@ Next, click the **Configure** button to populate the list of configuration optio
 
 Set options from the table above, then click **Configure** again and then **Generate**.
 
-### CMake command line {#cmake_command_line}
+### CMake command line 
 
 Enter the following in the terminal.
 
@@ -135,7 +135,7 @@ $cmake \
 
 ```
 
-## Run make {#run_make}
+## Run make 
 
 Finally, from a terminal run **make** to compile and link FreeCAD, and generate the app bundle.
 
@@ -151,17 +151,17 @@ See also [Compiling - Speeding up](Compiling_(Speeding_up).md).
 
 If make finishes without any errors, you can now launch FreeCAD by double clicking the executable in the Finder.
 
-## Updating from Github {#updating_from_github}
+## Updating from Github 
 
 FreeCAD development happens fast; every day or so there are bug fixes or new features. To get the latest changes, use git to update the source directory (see [Source code management](Source_code_management.md)), then re-run the CMake and make steps above. It is not usually necessary to start with a clean build directory in this case, and subsequent compiles will generally go much faster than the first one.
 
-## Building with Qt4 and Python 2.7 {#building_with_qt4_and_python_2.7}
+## Building with Qt4 and Python 2.7 
 
 FreeCAD has transitioned from Qt 4 to Qt 5 as well as homebrew. Qt 4 is no longer available as an option for new build on macOS following Qt 5 transition. Python 2.7 has been deprecated within homebrew and upcoming macOS and we do not support it anymore for macOS build either.
 
 ## Troubleshooting
 
-### Segfault on Qt5 launch {#segfault_on_qt5_launch}
+### Segfault on Qt5 launch 
 
 If Qt4 was previously installed via brew, and you then build with Qt5, you may get a EXC\_BAD\_ACCESS (SEGSEGV) exception when launching the new Qt5 build. The fix for this is to manually uninstall Qt4.
 
@@ -182,7 +182,7 @@ See [OpenGL on MacOS](OpenGL_on_MacOS.md) for OpenGL issues when Qt 4.8 and earl
 
 When using CMake versions older than 3.1.0, it\'s necessary to set CMake variable FREETYPE\_INCLUDE\_DIR\_freetype2 manually, eg /usr/local/include/freetype2
 
-### Additional Build Instructions {#additional_build_instructions}
+### Additional Build Instructions 
 
 FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [here](https://github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
 

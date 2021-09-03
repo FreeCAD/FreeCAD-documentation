@@ -21,7 +21,7 @@ ToDo.
 
 1.  There are several ways to invoke the command:
     -   Select a workbench from the **Workbench dropdown list** in the Workbench toolbar. This option is not available if the current workbench is `<none>` (no workbench).
-    -   Select a workbench from the {{MenuCommand|View → Workbench}} sub-menu.
+    -   Select a workbench from the **View → Workbench** sub-menu.
 
 ## Notes
 
@@ -29,7 +29,7 @@ ToDo.
 
 ## Preferences
 
--   The start up workbench can be changed in the preferences: {{MenuCommand|Edit → Preferences... → General → General → Start up}}. See [Preferences Editor](Preferences_Editor#General.md).
+-   The start up workbench can be changed in the preferences: **Edit → Preferences... → General → General → Start up**. See [Preferences Editor](Preferences_Editor#General.md).
 
 ## Scripting
 

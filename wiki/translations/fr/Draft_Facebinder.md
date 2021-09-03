@@ -22,7 +22,7 @@ Elle peut être utilisée pour créer une extrusion à partir d\'une combinaison
 1.  Sélectionnez une ou plusieurs faces.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Facebinder.svg" width=16px> [Créer un objet Facebinder...](Draft_Facebinder/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Drafting → <img src="images/Draft_Facebinder.svg" width=16px> Surfaces liées}} dans le menu.
+    -   Sélectionnez l\'option **Drafting → <img src="images/Draft_Facebinder.svg" width=16px> Surfaces liées** dans le menu.
     -   Utilisez le raccourci clavier : **F** puis **F**.
 
 ## Propriétés

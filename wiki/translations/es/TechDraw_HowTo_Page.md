@@ -13,7 +13,7 @@
 
 This page provide a collection of hints and little guides on using the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md). Adding new findings and best practices is encouraged.
 
-### Enable/Disable Centermarks {#enabledisable_centermarks}
+### Enable/Disable Centermarks 
 
 When the centermarks are disabled hole centers and similar things can not be dimensioned. The centermarks are rendered as a little cross.
 
@@ -22,23 +22,23 @@ When the centermarks are disabled hole centers and similar things can not be dim
 
 *Note* in this tab are [other settings](TechDraw_View#Properties.md) for the view that might be useful.
 
-### Toggle View Frame and Vertex dots {#toggle_view_frame_and_vertex_dots}
+### Toggle View Frame and Vertex dots 
 
 See [here](TechDraw_ToggleFrame.md) for switching them on and off and more information.
 
-### Bordes curvos como entrada a las dimensiones lineales {#bordes_curvos_como_entrada_a_las_dimensiones_lineales}
+### Bordes curvos como entrada a las dimensiones lineales 
 
 Curved edges are accepted as input to linear dimensions. See this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=35&t=49719&start=30)
 
 <img alt="" src=images/CurvedEdgeLinearDims.png  style="width:256px;">
 
-### Muestra las dimensiones métricas e imperiales al mismo tiempo {#muestra_las_dimensiones_métricas_e_imperiales_al_mismo_tiempo}
+### Muestra las dimensiones métricas e imperiales al mismo tiempo 
 
 It is possible to show metric and imperial decimal dimensions at the same time. See this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=35&t=49711)
 
 <img alt="" src=images/Imperiale_decimale.png  style="width:256px;">
 
-### Dimensionamiento en caso de agujeros orientados {#dimensionamiento_en_caso_de_agujeros_orientados}
+### Dimensionamiento en caso de agujeros orientados 
 
 Two use cases. See this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=35&t=49976).
 

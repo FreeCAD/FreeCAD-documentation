@@ -27,7 +27,7 @@ W tym przykładzie sześcian jest podzielony na sekcje za pomocą cylindra:
 2.  Wybierz narzędzie sekcji.
 3.  Kliknij w przycisk **PCzęść** → **![](images/)Utwórz_iloraz_dwóch_obiektów**_z_głównego_menu.
 
-## Odnośniki internetowe {#odnośniki_internetowe}
+## Odnośniki internetowe 
 
 Aby utworzyć przekroje za pomocą płaszczyzny przekroju, zobacz stronę <img alt="" src=images/Part_CrossSections.svg  style="width:24px;">
 

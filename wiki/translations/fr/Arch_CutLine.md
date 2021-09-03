@@ -22,7 +22,7 @@ L\'outil [Arch Couper suivant une ligne](Arch_CutLine/fr.md) vous permet de coup
 1.  Sélectionnez l\'objet à couper dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
 2.  Puis sélectionnez la ligne à utiliser pour couper l\'objet, par exemple, un [Draft Polyligne](Draft_Wire/fr.md). Cet objet doit être sélectionné dans la [vue 3D](3D_view/fr.md) uniquement.
 3.  Appuyez sur le bouton **<img src="images/Arch_CutLine.svg" width=16px> [Couper suivant une ligne](Arch_CutLine/fr.md)**.
-4.  Choisissez {{MenuCommand|Derrière}} ou {{MenuCommand|Devant}} pour indiquer quelle partie du solide sera supprimée.
+4.  Choisissez **Derrière** ou **Devant** pour indiquer quelle partie du solide sera supprimée.
 5.  Cliquez sur le bouton **OK**.
 
 ## Script

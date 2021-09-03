@@ -29,7 +29,7 @@ Die <img alt="" src=images/Curves_Line.svg  style="width:24px;"> [Kurven Linie](
 1.  Wechsle zum <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Kurven](Curves_Workbench/de.md) Arbeitsbereich (installieren aus <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalter](Addon_Manager/de.md) ist notwendig, wenn nicht vorher installiert)
 2.  Um den Befehl aufzurufen, führe einen der folgenden Schritte aus:
     -   Drücke die <img alt="" src=images/Curves_Line.svg  style="width:24px;"> Schaltfläche in der Kurven Werkzeugleiste.
-    -   Verwende den {{MenuCommand|Kurven → Linie}} Eintrag im Aufklappmenü.
+    -   Verwende den **Kurven → Linie** Eintrag im Aufklappmenü.
 
 
 </div>

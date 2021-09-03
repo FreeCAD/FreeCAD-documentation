@@ -13,7 +13,7 @@
 
 [Std Group](Std_Group.md) (internally called [App DocumentObjectGroup](App_DocumentObjectGroup.md)) is a general purpose container that allows you to group different types of objects in the [tree view](tree_view.md), regardless of their data type. It is used as a simple folder to categorize and organize the objects in your model, in order to keep a logical structure. Std Groups may be nested inside other Std Groups.
 
-The Std Group tool is not defined by a particular workbench, but by the base system, thus it is found in the {{MenuCommand|structure toolbar}} that is available in all [workbenches](Workbenches.md).
+The Std Group tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](Workbenches.md).
 
 To group 3D objects as a single unit, with the intention of creating assemblies, use [Std Part](Std_Part.md) instead.
 
@@ -40,7 +40,7 @@ A [Std Group](Std_Group.md) is internally called [App DocumentObjectGroup](App_D
 
 In addition to the properties described in [App FeaturePython](App_FeaturePython.md), which is the most basic instance of an [App DocumentObject](App_DocumentObject.md), the App DocumentObjectGroup has the **Group** property.
 
-These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the {{MenuCommand|Show all}} command in the context menu of the [property editor](property_editor.md).
+These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
 ### Данные
 
@@ -51,7 +51,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 -    **Group|LinkList**: a list of referenced objects. By default, it is empty {{value|[]}}.
 
-#### Hidden properties Data {#hidden_properties_data}
+#### Hidden properties Data 
 
 -    **Proxy|PythonObject**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Std_Group#Scripting.md).
 
@@ -62,7 +62,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 See [App FeaturePython](App_FeaturePython.md) for the basic view properties.
 
-#### Hidden properties View {#hidden_properties_view}
+#### Hidden properties View 
 
 -    **Proxy|PythonObject**: a custom view provider class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Std_Group#Scripting.md).
 

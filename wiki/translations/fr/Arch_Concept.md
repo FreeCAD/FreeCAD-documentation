@@ -21,7 +21,7 @@ Cette page est une tentative de recueil d\'idées sur la conception paramétriqu
 
 </div>
 
-## Programmes similaire {#programmes_similaire}
+## Programmes similaire 
 
 -   [Revit](http://fr.wikipedia.org/wiki/Revit)
 
@@ -29,7 +29,7 @@ Cette page est une tentative de recueil d\'idées sur la conception paramétriqu
 
 -   [Generative Components](http://en.wikipedia.org/wiki/Generative_Components)
 
-## Formats de fichiers {#formats_de_fichiers}
+## Formats de fichiers 
 
 -   [STEP](http://fr.wikipedia.org/wiki/Standard_pour_l'échange_de_données_de_produit) - pleinement fonctionnel dans FreeCAD
 
@@ -38,7 +38,7 @@ Cette page est une tentative de recueil d\'idées sur la conception paramétriqu
     -   <http://www.bimserver.org/>
     -   <http://konstruct.nl/parsing-ifc-stepexpress-files-in-python-and-s>
 
-## Concepts généraux {#concepts_généraux}
+## Concepts généraux 
 
 -   FreeCAD est parfait pour cette tâche. La conception avec des objets paramétriques, permet de réduire considérablement le seul vrai problème que je vois dans FreeCAD qui est, le traitement de milliers d\'objets. Tout le reste est déjà présent, comme les types d\'objets personnalisés, les propriétés personnalisées, etc . . . La principale difficulté est, la conception d\'un modèle général pour faire face à l\'interaction entre les objets, depuis que FreeCAD a introduit un graphe de dépendance spécialement conçu à cette fin est potentiellement un plus.
 
@@ -71,7 +71,7 @@ Cette page est une tentative de recueil d\'idées sur la conception paramétriqu
 
 <div class="mw-translate-fuzzy">
 
-## Les archétypes {#les_archétypes}
+## Les archétypes 
 
 -   Tous les **Archétypes** doivent toujours se comporter comme des objets de programmation orientée objet. Vous pouvez faire une nouvelle classe basée sur une autre classe.
 -   Tous les **Archétypes** devraient être en mesure d\'interagir avec un objet commun. Pour cela, probablement les objets communs devraient posséder des propriétés personnalisées.
@@ -89,9 +89,9 @@ Cette page est une tentative de recueil d\'idées sur la conception paramétriqu
 
 </div>
 
-## Archetypes (types d\'objets) {#archetypes_types_dobjets}
+## Archetypes (types d\'objets) 
 
-### Wall ([Murs](Arch_Wall/fr.md) <img alt="" src=images/Arch_Wall.png  style="width:16px;">) {#wall_murs_arch_wall.png}
+### Wall ([Murs](Arch_Wall/fr.md) <img alt="" src=images/Arch_Wall.png  style="width:16px;">) 
 
 Wall (mur) est un élément de construction vertical qui suit un chemin sur un niveau défini (premier étage, troisième étage, etc) ou est extrudé horizontalement sur une surface verticale. Les murs sont faits de plusieurs couches (chaque matériaux avec une épaisseur spécifique et propriétés thermiques), et permettre des ouvertures (résultat de soustractions) ou annexes (union). Lorsque deux murs différents se croisent, l\'utilisateur peut sélectionner l\'option pour relier les deux murs (avec une structure similaire). Tous les paramètres d\'un mur sont disponibles pour les futurs calculs thermique et de structure, ils peuvent ainsi générer des rapports (projet de loi de matériaux). Donc, pour un mur, les zones, les faces, les volumes, les quantités de matériaux, etc sont directement insérés dans le cahier des charges et d\'estimation des coûts.
 
@@ -101,21 +101,21 @@ Le niveau dans lequel les murs sont placés, nécessite une insertion préalable
 
 Les murs permettent des insertions de bibliothèques telles que : portes, fenêtres, murs-rideaux, et d\'autres objets personnalisés qui nécessitent une ouverture dans le mur, uniquement si une ouverture est nécessaire, et peut être insérée.
 
-### Door/Window ([Portes/Fenêtres](Arch_Window/fr.md) <img alt="" src=images/Arch_Window.png  style="width:16px;">) (Insertion d\'élements) {#doorwindow_portesfenêtres_arch_window.png_insertion_délements}
+### Door/Window ([Portes/Fenêtres](Arch_Window/fr.md) <img alt="" src=images/Arch_Window.png  style="width:16px;">) (Insertion d\'élements) 
 
 Les portes et fenêtres sont vraiment identiques, ce sont des objets qui peuvent avoir un grand nombre de paramètres pour définir leurs forme.
 Un volume invisible est utilisé pour découper des ouvertures à travers la parois réceptrice.
 Il sont généralement insérés dans un mur, mais pas toujours. Car il peuvent varier énormément, ils devraient être faciles à concevoir.
 
-### Roof (Toits) {#roof_toits}
+### Roof (Toits) 
 
 Le toit est tout simplement un moyen pratique de calculer les intersections des pentes du toit.
 
-### Slab (Dalles) {#slab_dalles}
+### Slab (Dalles) 
 
 La dalle est horizontale, fabriquée à partir de l\'extrusion verticale d\'un fil fermé ou d\'une face, le matériel doit se connecter à d\'autres éléments de la structure, et peut avoir un certain nombre d\'annexes (union) ou des trous (soustraction), et les couches (matériaux). Les surfaces horizontales et le volume doivent être calculés
 
-### Beam/Pillar ([Poutres/Pilier](Arch_Structure/fr.md) <img alt="" src=images/Arch_Structure.png  style="width:16px;">) (éléments structurels) {#beampillar_poutrespilier_arch_structure.png_éléments_structurels}
+### Beam/Pillar ([Poutres/Pilier](Arch_Structure/fr.md) <img alt="" src=images/Arch_Structure.png  style="width:16px;">) (éléments structurels) 
 
 Un fil fermé (wire) ou une face extrudée dans n\'importe quelle direction, peut avoir un certain nombre d\'annexes (union) ou de trous (soustraction).
 
@@ -123,7 +123,7 @@ Un fil fermé (wire) ou une face extrudée dans n\'importe quelle direction, peu
 
 Un groupe de fenêtres qui peuvent être mis en forme dans son ensemble
 
-## Mécanismes génériques {#mécanismes_génériques}
+## Mécanismes génériques 
 
 -   **Dépendances** : les fenêtres doivent savoir sur quels murs ils sont insérés, les murs doivent savoir quelle fenêtre ils contiennent, etc .. (Voir la partie booléenne)
 -   **Joints** : les murs doivent savoir quels autres murs se connectent à eux et se connecter correctement à l\'ensemble des matériaux. Le déplacement d\'un mur doit donc recalculer les murs voisins, et établir un tableau des types communs possibles.
@@ -131,56 +131,56 @@ Un groupe de fenêtres qui peuvent être mis en forme dans son ensemble
 -   **Groupement automatique** : Les objets d\'un certain type vont automatiquement dans des groupes spécifiques.
 -   **Créateur de Fenêtres** : Une façon simple de concevoir des fenêtres paramétriques, basée sur les profils.
 
-### Analyse énergétique {#analyse_énergétique}
+### Analyse énergétique 
 
 -   Le programme bâtiment doit avoir les performances appropriées, qui doivent servir aussi bien à des situations géographiques particulière. Par exemple, un projet unique peut être construit à Miami, Floride (US) ou Francfort (Allemagne) ou Sydney (Australie). Cependant, il se produira avec de grandes différences. Ce qui est approprié pour un emplacement dans une certaine zone, peut-être inapproprié pour un autre emplacement. Les dessins et modèles que nous générons avec **FCBIM** devraient être « **testés** » et, surveiller leurs comportement en terme de consommation d\'énergie. Pour le moment, il y a peu d\'outils qui permettent de voir les performances énergétiques des bâtiments [(Energy Performance of Buildings)](http://fr.wikipedia.org/wiki/Directive_pour_la_performance_énergétique_des_bâtiments). Les programmes principaux Freeware/Open Source : EnergyPlus, OpenStudio (ont une interface graphique pour EnergyPlus) et ESP-r.
 
-### Simulation avancée {#simulation_avancée}
+### Simulation avancée 
 
 La récolte de la lumière du jour est l\'une des approches de base en matière de conception durable. Beaucoup de conceptions modernes tournent le dos à la lumière naturelle et aboutissent à des solutions indésirables pour les êtres humains. Aux États-Unis un grand nombre de bâtiments créent le soi-disant syndrome des bâtiments malsains, qui conduisent à des problèmes de santé pour les personnes qui vivent et travaillent dans ces bâtiments. L\'utilisation de la lumière du jour atténue en partie ce problème. **FCBIM** devrait intégrer des outils qui permettent des simulations de jour, peut-être [Radiance](http://fr.wikipedia.org/wiki/Radiosité) ou [LuxRender](http://fr.wikipedia.org/wiki/LuxRender) ou YAF (a) ray.
 
-### HVAC et la ventilation naturelle {#hvac_et_la_ventilation_naturelle}
+### HVAC et la ventilation naturelle 
 
 -   Outils pour insérer dessiner et calculer [HVAC](http://fr.wikipedia.org/wiki/Chauffage,_ventilation_et_climatisation) et permettent de calculer l\'utilisation de la ventilation naturelle. Peut-être que [OpenFOAM](http://fr.wikipedia.org/wiki/OpenFOAM) sera un candidat dans ce domaine, et viendra compléter FCBIM.
 
-## Capture et acquisition de connaissances {#capture_et_acquisition_de_connaissances}
+## Capture et acquisition de connaissances 
 
 L\'effort pour créer un module qui permettra à FreeCAD de fournir une modélisation de bâtiment contemporain avec les informations d\'environnement (BIM) est en cours. L\'effort est orienté pour porter ses capacités et les comparer à des systèmes de modélisation d\'architecture plus matures tels que [Revit](http://fr.wikipedia.org/wiki/Revit). Nous reconnaissons les limites dans les implémentations disponibles de BIM dont l\'un, est l\'ignorance de la connaissance du bâtiment. Pour cette raison, nous poursuivons également un objectif parallèle, pour développer les capacités qui permettront d\'acquérir des connaissances telles que FreeCAD créé principalement dans le stade de la conception, mais aussi plus loin dans la phase de conception détaillée. Dans les sections suivantes, nous documentons les capacités qui ne sont pas si fréquentes dans les outils disponibles, mais que nous croyons plus appropriés et efficaces de capturer l\'acquisition de connaissances et d\'informations, de la conception à la démolition. Les sections suivantes fournissent des spécifications et des directives concernant **le pourquoi** d\'une partie de ces efforts. Nous allons fournir **le comment** progresser dans nos efforts. Inutile de dire, que les choses vont changer ou être modifiées pour que notre compréhension et la mise en oeuvre se rassemblent.
 
-### Descriptions des procédures pour identifier les objets {#descriptions_des_procédures_pour_identifier_les_objets}
+### Descriptions des procédures pour identifier les objets 
 
 La session commence dès la conception du bâtiment sur le site où le concepteur établit la direction du nord, et, introduit les obligations appropriées, selon le cahier des charges applicable au bâtiment dans la région désignée ou la localité. Après cela, l\'empreinte (tracé) du nouveau bâtiment est établi.
 
-#### Objet 1: Terrain à bâtir {#objet_1_terrain_à_bâtir}
+#### Objet 1: Terrain à bâtir 
 
 Il n\'y a qu\'un seul chantier dans un projet. Cet objet (projet) doit être créé dès que la décision de conception de la maison est faite par le concepteur. Il devrait exister une forme de conteneur (car il isole les espaces. Nous en verrons plus sur cela plus tard) avec des côtés, une hauteur et une base. Les pièces peuvent alors être définies de manière interactive en termes de longueur et d\'angle (direction). Au besoin, il devrait également être possible d\'ajouter ou de retirer les côtés. Bien que le fond soit créé à plat, il peut également être redéfini avec des contours afin d\'obtenir une pente appropriée. Le fond (base) est la seule partie du site qui doit être visible.
 
-#### Objet 2: Direction du Nord {#objet_2_direction_du_nord}
+#### Objet 2: Direction du Nord 
 
 La direction du nord est un objet qui établit l\'angle dans la direction du **nord vrai**. Il s\'agit d\'une partie du site qui le rend déterminant pour situer les vents dominants, le mouvement du soleil, etc \...
 
-#### Objet 3: Le recul {#objet_3_le_recul}
+#### Objet 3: Le recul 
 
 Il s\'agit de distances entre les limites du site qui sont requis par le code. Ils font partie du site, mais nécessitent certains paramètres afin de déterminer où sont les limites et quelles sont les distances. Par exemple le retrait de la limite côté rue, peut être différente de la marge de recul à partir d\'un côté de la limite d\'un site voisin. Cette information peut être fournie de manière interactive, mais avec la direction **nord-établie**, il est possible pour le concepteur de saisir ces informations lors de la collecte des exigences relatives à la conception. La marge de recul, comme le site, est un type d**\'objet conteneur**.
 
-#### Object 4: Niveaux du Bâtiment {#object_4_niveaux_du_bâtiment}
+#### Object 4: Niveaux du Bâtiment 
 
 À ce stade, la surface du bâtiment a été mise en place. Cette surface représente le premier niveau du bâtiment. Le niveau du bâtiment est un objet qui permet d\'intégrer les différents systèmes de construction. Des exemples de systèmes de construction sont, l\'architecture, structure, électricité, etc \...
 Le niveau du bâtiment, comme le chantier de construction, est une forme de conteneur. Il peut y avoir un ou plusieurs niveaux qui sont généralement empilés les uns sur les autres en partant du bas. Le premier niveau est établi après la désignation du revers pour toutes les limites du site. Des niveaux supplémentaires peuvent être créés, mais seul l\'élévation du fond est modifiée puisque les limites de ces niveaux sont invisibles.
 
-#### Object 5: Espace du Bâtiment {#object_5_espace_du_bâtiment}
+#### Object 5: Espace du Bâtiment 
 
 L\'espace du bâtiment est défini par les fonctions principales de l\'édifice comme un espace pour dormir, manger, se détendre, travailler, etc , les espaces sont créés et regroupés à l\'intérieur des niveaux. Il existe différents types d\'espaces qui fournissent les fonctions appropriées dans différents types de bâtiments. Par exemple, dans un type de bâtiment résidentiel, il existe 4 grands types, Chambres à coucher, salle de séjour, cuisine (salle à manger) et le garage.
 
-#### Object 6: Objets dans l\'espace du Bâtiment {#object_6_objets_dans_lespace_du_bâtiment}
+#### Object 6: Objets dans l\'espace du Bâtiment 
 
 Cela représente tout ce qui peut être situé dans un espace. Chaque objet connaît fondamentalement ses exigences. Par exemple pour décrire une zone d\'assise, un objet avec au moins une surface au sol, un empattement et une hauteur maximale sera nécessaire.
 
-#### Object 7: Conteneur dans le bâtiment {#object_7_conteneur_dans_le_bâtiment}
+#### Object 7: Conteneur dans le bâtiment 
 
 La plupart des objets décrits à ce jour sont des types conteneurs. Les conteneurs utilisent une surface et sont limités par les extrémités. Il y a le fond , la hauteut et les bords. Deux conteneurs peuvent partager une limite latérale. Lorsque ce partage se produit, le partage du côté d\'un objet remplace les différents côtés de chacun des conteneurs participants. Il établit un lien entre les deux conteneurs et rend possible leur communication. Par exemple, quand il y a un côté partagé entre une chambre et un espace de service comme une salle de bains et une chambre à coucher, de ce côté, certaines exigences de traitement sont nécessaires pour réduire le bruit, et éviter les inondations de la chambre. Chaque forme dans un conteneur a une limite. Une forme est un objet conteneur, qui peut avoir les descriptions nécessaires ou les propriétés de matériaux typiques dans la construction de bâtiments.
 
-### Diagramme d\'objets {#diagramme_dobjets}
+### Diagramme d\'objets 
 
 Le schéma suivant illustre la relation entre tous les objets décrits à ce jour.
 

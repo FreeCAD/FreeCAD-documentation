@@ -23,9 +23,9 @@ Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_S
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Ellipse.svg" width=16px> [Elipsa](Draft_Ellipse/pl.md)**.
-    -   Wybierz z menu opcję {{MenuCommand|Kreślenie → <img src="images/Draft_Ellipse.svg" width=16px> Elipsa}}.
+    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Ellipse.svg" width=16px> Elipsa**.
     -   Użyj skrótu klawiaturowego: **E**, a następnie **L**.
-2.  Otworzy się panel zadań {{MenuCommand|Elipsa}}. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
+2.  Otworzy się panel zadań **Elipsa**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
 4.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**. Ten punkt nie może być związany z osią X, Y lub Z.
 
@@ -34,10 +34,10 @@ Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_S
 Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z, i naciśnij **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor z okna [widoku 3D](3D_view/pl.md).
--   Naciśnij klawisz **R** lub kliknij pole wyboru {{MenuCommand|Względnie}}, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu są odniesione do pierwszego punktu, w przeciwnym razie są one odniesione do początku układu współrzędnych.
--   Naciśnij klawisz **G** lub kliknij pole wyboru {{MenuCommand|Globalnie}}, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są zależne od globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
--   Naciśnij klawisz **L** lub kliknij pole wyboru {{MenuCommand|Wypełnienie}}, aby przełączyć tryb wypełnienia. Jeśli tryb wypełnienia jest włączony, utworzona elipsa będzie miała właściwość {{PropertyData/pl|Utwórz ścianę}} ustawioną na wartość `True` i będzie miała wypełnioną powierzchnię.
--   Naciśnij klawisz **T** lub kliknij pole wyboru {{MenuCommand|Kontynuuj}}, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu, umożliwiając dalsze tworzenie elips.
+-   Naciśnij klawisz **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu są odniesione do pierwszego punktu, w przeciwnym razie są one odniesione do początku układu współrzędnych.
+-   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są zależne od globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij klawisz **L** lub kliknij pole wyboru **Wypełnienie**, aby przełączyć tryb wypełnienia. Jeśli tryb wypełnienia jest włączony, utworzona elipsa będzie miała właściwość {{PropertyData/pl|Utwórz ścianę}} ustawioną na wartość `True` i będzie miała wypełnioną powierzchnię.
+-   Naciśnij klawisz **T** lub kliknij pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu, umożliwiając dalsze tworzenie elips.
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij przycisk **Esc** lub przycisk **Zamknij**, aby przerwać wykonywanie polecenia.
 
@@ -49,9 +49,9 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współrzędnych: {{MenuCommand|Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku}}.
--   Aby zmienić wartość początkową trybu wypełnienia: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe}}. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
--   Jeśli opcja {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe}} jest zaznaczona, polecenie utworzy [Elipsę](Part_Ellipse/pl.md) środowiska Część, zamiast środowiska Rysunek Roboczy.
+-   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współrzędnych: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
+-   Aby zmienić wartość początkową trybu wypełnienia: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
+-   Jeśli opcja **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe** jest zaznaczona, polecenie utworzy [Elipsę](Part_Ellipse/pl.md) środowiska Część, zamiast środowiska Rysunek Roboczy.
 
 ## Właściwości
 
@@ -85,7 +85,7 @@ Obiekt Elipsa wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/
 
 -    {{PropertyView/pl|Rozmiar wzoru|Float}}: określa rozmiar [wzoru](Draft_Pattern/pl.md).
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 

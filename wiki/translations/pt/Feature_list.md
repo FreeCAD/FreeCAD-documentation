@@ -11,7 +11,7 @@ Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD dis
 
 {{TOCright}}
 
-## Notas da Versão {#notas_da_versão}
+## Notas da Versão 
 
 
 <div class="mw-translate-fuzzy">
@@ -27,7 +27,7 @@ Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD dis
 
 </div>
 
-## Recursos Principais {#recursos_principais}
+## Recursos Principais 
 
 
 <div class="mw-translate-fuzzy">
@@ -48,7 +48,7 @@ Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD dis
 
 <div class="mw-translate-fuzzy">
 
-## Recursos Gerais {#recursos_gerais}
+## Recursos Gerais 
 
 
 </div>
@@ -253,7 +253,7 @@ Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD dis
 
 </div>
 
-## Em desenvolvimento {#em_desenvolvimento}
+## Em desenvolvimento 
 
 
 <div class="mw-translate-fuzzy">
@@ -266,7 +266,7 @@ Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD dis
 
 <div class="mw-translate-fuzzy">
 
-## Bancadas de trabalho Extra {#bancadas_de_trabalho_extra}
+## Bancadas de trabalho Extra 
 
 Utilizadores avançados criaram várias [Bancadas de trabalho externas](external_workbenches/pt.md) personalizadas.
 

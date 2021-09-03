@@ -42,19 +42,19 @@ Con la opción **Simétrico al plano** el saliente se extenderá la mitad de la 
 
 No es posible indicar dimensiones negativas. Utiliza en cambio la opción **invertir**.
 
-#### Dos dimensiones {#dos_dimensiones}
+#### Dos dimensiones 
 
 Permite introducir una segunda longitud en la cual el saliente debería extenderse en la dirección opuesta (dentro del soporte). De nuevo se puede cambiar seleccionado la opción **invertir**.
 
-#### Hasta el último {#hasta_el_último}
+#### Hasta el último 
 
 La pastilla se extruirá hasta la última cara del soporte en la dirección de extrusión. Si no hay soporte, aparecerá un mensaje de error.
 
-#### Hasta el primero {#hasta_el_primero}
+#### Hasta el primero 
 
 La pastilla se extruirá hasta la primera cara del soporte en la dirección de extrusión. Si no existe soporte, se mostrará un mensaje de error.
 
-#### Hasta la cara {#hasta_la_cara}
+#### Hasta la cara 
 
 La pastilla se extruirá hasta una cara del soporte que puede seleccionarse designándola. Si no existe soporte, no se aceptará ninguna selección.
 
@@ -62,22 +62,22 @@ La pastilla se extruirá hasta una cara del soporte que puede seleccionarse desi
 
 Define la longitud de la pastilla. Se pueden utilizar múltiples unidades independientemente de las preferencias de unidades del usuario (m, cm, mm, nm, ft o \', in o \").
 
-### Usar dirección personalizada {#usar_dirección_personalizada}
+### Usar dirección personalizada 
 
 
 {{Version/es|0.19}}
 
 Si está marcada, la dirección de la pastilla no será el vector normal del croquis sino el vector dado. Sin embargo, la longitud de la pastilla se establece de acuerdo con la dirección del vector normal.
 
-### Longitud a lo largo de la normal del boceto {#longitud_a_lo_largo_de_la_normal_del_boceto}
+### Longitud a lo largo de la normal del boceto 
 
 Si está marcada, la longitud de la pastilla se mide a lo largo de la normal del boceto, de lo contrario a lo largo de la dirección personalizada. {{Version/es|0.20}}
 
-### Relleno a la cara {#relleno_a_la_cara}
+### Relleno a la cara 
 
 Relleno desde la cara en la que terminará la pastilla. Esta opción sólo está disponible cuando **Tipo** es **Al último**, **Al primero** o **Hasta la cara**.
 
-### Simétrico al plano {#simétrico_al_plano}
+### Simétrico al plano 
 
 Marque la casilla para extender la mitad de la longitud dada a cada lado del plano de croquis.
 

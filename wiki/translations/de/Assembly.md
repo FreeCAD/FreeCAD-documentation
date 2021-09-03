@@ -16,7 +16,7 @@ Zum Beispiel sind eine Schraube, eine Beilagscheibe und eine Mutter drei separat
 
 ## Anwendung
 
-### Manueller Zusammenbau {#manueller_zusammenbau}
+### Manueller Zusammenbau 
 
 Im Allgemeinen brauchst du keine speziellen Werkzeuge, um Baugruppen zu erstellen, du musst nur viele verschiedene [Körper](Body/de.md) in irgendeiner Weise angeordnet haben.
 
@@ -30,7 +30,7 @@ Du kannst eine der Pseudo-Zusammenbau [externe Arbeitsbereiche](external_workben
 
 Im Allgemeinen wurde das**<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)** Objekt konzipiert um als Grundbaustein für die Erstellung von Baugruppen zu dienen. Dieses Objekt wird verwendet, um mehrere [Körper](body/de.md) zu gruppieren und sie als eine Einheit, d.h. als Unterbaugruppe, zusammen zu bewegen. Anschließend kann diese Unterbaugruppe neben oder innerhalb anderer Unterbaugruppen platziert werden, um die endgültige Baugruppe zu erstellen.
 
-### Beschränkter Zusammenbau {#beschränkter_zusammenbau}
+### Beschränkter Zusammenbau 
 
 Du kannst auch einen anderen zugeordneten Baugruppenarbeitsbereich verwenden, wie <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/de.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/de.md) oder <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/de.md). Bitte beachte, dass [Assembly2](Assembly2_Workbench/de.md) nicht gepflegt wird und daher für neue Modelle nicht zu empfehlen ist.
 

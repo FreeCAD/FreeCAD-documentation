@@ -15,19 +15,19 @@ Der <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Aktuelle
 
 This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
 
--    {{MenuCommand|Line color}}
+-    **Line color**
     
 
--    {{MenuCommand|Line width}}
+-    **Line width**
     
 
--    {{MenuCommand|Shape color}}
+-    **Shape color**
     
 
--    {{MenuCommand|Text size}}
+-    **Text size**
     
 
--    {{MenuCommand|Text color}}
+-    **Text color**
     
 
 ## Anwendung
@@ -35,11 +35,11 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 <div class="mw-translate-fuzzy">
 
-## Anwendung {#anwendung_1}
+## Anwendung 
 
 1.  Setze die gewünschte Farbe und Linienbreite in der [Draft Ablage](Draft_Tray/de.md).
 2.  Wähle eine oder mehrere Objekte
-3.  Drücke den **<img src="images/Draft_Apply.png" width=16px> [Aktuellen Style anwenden](Draft_Apply/de.md)**-Button oder rechtsklicke und wähle {{MenuCommand|Entwurf → Dienstprogramme → <img src="images/Draft_Apply.svg" width=16px> [Aktuellen Style anwenden](Draft_Apply/de.md)}}.
+3.  Drücke den **<img src="images/Draft_Apply.png" width=16px> [Aktuellen Style anwenden](Draft_Apply/de.md)**-Button oder rechtsklicke und wähle **Entwurf → Dienstprogramme → <img src="images/Draft_Apply.svg" width=16px> [Aktuellen Style anwenden](Draft_Apply/de.md)**.
 
 
 </div>

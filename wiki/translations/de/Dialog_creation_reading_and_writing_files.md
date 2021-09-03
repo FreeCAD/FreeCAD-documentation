@@ -6,7 +6,7 @@ Dies ist ein Beispiel für [Dialogerstellung](Dialog_creation/de.md) mit [PySide
 
 In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definiert. Obwohl dies für kleine Oberflächen möglich ist, wird für größere Oberflächen empfohlen, {{FileName|.ui}} Dateien mit Qt Designer zu erstellen und diese in das Programm zu laden. Siehe [Oberflächenerstellung mit UI Dateien](Interface_creation_with_UI_files.md).
 
-## Dialog um in eine Datei zu schreiben {#dialog_um_in_eine_datei_zu_schreiben}
+## Dialog um in eine Datei zu schreiben 
 
 Vollständiger Code: 
 ```python
@@ -43,7 +43,7 @@ else:                                                                         # 
 
 ```
 
-## Dialog zum Lesen einer Datei {#dialog_zum_lesen_einer_datei}
+## Dialog zum Lesen einer Datei 
 
 Vollständiger Code: 
 ```python

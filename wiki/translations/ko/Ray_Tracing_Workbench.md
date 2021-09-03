@@ -28,7 +28,7 @@ The Raytracing workbench is essentially obsolete. New development is happening i
 
 <div class="mw-translate-fuzzy">
 
-## 전형적 워크플로 {#전형적_워크플로}
+## 전형적 워크플로 
 
 1.  Create or open a FreeCAD project, add some solid objects ([Part-based](Part_Workbench.md) or [PartDesign-based](PartDesign_Workbench.md)); meshes are currently not supported.
 2.  Create a Raytracing project (povray or luxrender).
@@ -45,7 +45,7 @@ The Raytracing workbench is essentially obsolete. New development is happening i
 
 ## 도구
 
-### Project 도구 {#project_도구}
+### Project 도구 
 
 These are the main tools for exporting your 3D work to external renderers.
 
@@ -73,7 +73,7 @@ These are helper tools to perform specific tasks manually.
 -   [Basic Raytracing tutorial](Raytracing_tutorial.md)
 -   [Intermediate Raytracing tutorial](Tutorial_FreeCAD_POV_ray.md)
 
-## 수동으로 povray 파일 만들기 {#수동으로_povray_파일_만들기}
+## 수동으로 povray 파일 만들기 
 
 The utility tools described above allow you to export the current 3D view and all of its content to a [Povray](http://www.povray.org/) file. First, you must load or create your CAD data and position the 3D View orientation as you wish. Then choose \"Utilities → Export View\...\" from the raytracing menu.
 
@@ -89,7 +89,7 @@ See the [Raytracing API example](Raytracing_API_example.md) for information on w
 
 ## Links
 
-### POV-Ray {#pov_ray}
+### POV-Ray 
 
 -   [POV-Ray page on this wiki](POV-Ray.md)
 -   <http://www.spiritone.com/~english/cyclopedia/>
@@ -101,14 +101,14 @@ See the [Raytracing API example](Raytracing_API_example.md) for information on w
 -   [LuxRender page on this wiki](LuxRender.md)
 -   <http://www.luxrender.net/>
 
-### Future possible renderers to implement {#future_possible_renderers_to_implement}
+### Future possible renderers to implement 
 
 -   <http://www.yafaray.org/>
 -   <http://www.mitsuba-renderer.org/>
 -   <http://www.kerkythea.net/>
 -   <http://www.artofillusion.org/>
 
-## Exporting to Kerkythea {#exporting_to_kerkythea}
+## Exporting to Kerkythea 
 
 Although direct export to the Kerkythea XML-File-Format is not supported yet, you can export your Objects as Mesh-Files (.obj) and then import them in Kerkythea.
 

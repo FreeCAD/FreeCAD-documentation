@@ -22,9 +22,9 @@ Vorzuziehen ist, wenn möglich, eine **geometrische Beschränkung** anstelle ein
 
 ## Einrichtung
 
-1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit {{MenuCommand|Datei → <img src=images/Std_New.svg style="width:16px"> [Neu](Std_New/de.md)}}.
+1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei → <img src=images/Std_New.svg style="width:16px"> [Neu](Std_New/de.md)**.
 
-:   1.1. Wechsle zum [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) über den [Arbeitsbereich Wähler](Std_Workbench/de.md) oder das Menü {{MenuCommand|[Ansicht](Std_View_Menu/de.md) → Arbeitsbereich → Skizzierer}}.
+:   1.1. Wechsle zum [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) über den [Arbeitsbereich Wähler](Std_Workbench/de.md) oder das Menü **[Ansicht](Std_View_Menu/de.md) → Arbeitsbereich → Skizzierer**.
 
 Einige Aktivitäten zum Erinnern:
 
@@ -32,7 +32,7 @@ Einige Aktivitäten zum Erinnern:
 -   Um den Skizzenbearbeitungsmodus zu verlassen, drücke die **Schließen** Schaltfläche im [Aufgabenpaneel](task_panel/de.md) oder drücke **Esc** zweimal auf der Tastatur.
 -   Um den Bearbeitungsmodus erneut aufzurufen, doppelklicke auf die Skizze in der <img src=images/Sketcher_EditSketch.svg style="width:Baumansicht](tree_view/de.md) oder wähle sie aus und klicke dann auf **[16px"> [Skizze bearbeiten](Sketcher_EditSketch/de.md)**.
 
-## Erstellen einer Skizze {#erstellen_einer_skizze}
+## Erstellen einer Skizze 
 
 2\. Klicke auf **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [Neue Skizze](Sketcher_NewSketch/de.md)**.
 
@@ -42,9 +42,9 @@ Einige Aktivitäten zum Erinnern:
 
 **Hinweis:**
 
-im [Augabenpaneel](task_panel/de.md) erweitere den {{MenuCommand|Bedienelemente bearbeiten}} Abschnitt und stelle sicher, dass die Option {{MenuCommand|Auto Beschränkungen}} deaktiviert ist. Schalte auch den Rasterfang aus und blende das Raster aus.
+im [Augabenpaneel](task_panel/de.md) erweitere den **Bedienelemente bearbeiten** Abschnitt und stelle sicher, dass die Option **Auto Beschränkungen** deaktiviert ist. Schalte auch den Rasterfang aus und blende das Raster aus.
 
-## Erster Näherung: Bezugsbeschränkungen {#erster_näherung_bezugsbeschränkungen}
+## Erster Näherung: Bezugsbeschränkungen 
 
 3\. Wir werden ein vollständig beschränktes Quadrat zeichnen, das am Ursprung zentriert ist.
 
@@ -65,11 +65,11 @@ im [Augabenpaneel](task_panel/de.md) erweitere den {{MenuCommand|Bedienelemente 
 <img alt="" src=images/01b_Sk02_Sketcher_Rectangle_constrained_lengths_1.png  style="width:" height="400px;"> <img alt="" src=images/01c_Sk02_Sketcher_Rectangle_constrained_lengths_2.png  style="width:" height="400px;"> 
 *Links: Bezugsbeschränkungen für die Seiten. Rechts: zusätzliche Bezugsbeschränkungen für die Innenabstände.*
 
-Mit Blick auf die {{MenuCommand|Beschränkungen}} Abschnitt im [Aufgabenpaneel](task_panel/de.md), sehen wir, dass die Beschränkungen zu zahlreich sind; sie erschweren auch den Blick auf die Skizze. Diese Beschränkungen sind auch für den Löser rechenintensiv; obwohl dies bei einer einfachen Form kein Problem darstellt, kann es bei komplexeren Formen zu einem Problem werden.
+Mit Blick auf die **Beschränkungen** Abschnitt im [Aufgabenpaneel](task_panel/de.md), sehen wir, dass die Beschränkungen zu zahlreich sind; sie erschweren auch den Blick auf die Skizze. Diese Beschränkungen sind auch für den Löser rechenintensiv; obwohl dies bei einer einfachen Form kein Problem darstellt, kann es bei komplexeren Formen zu einem Problem werden.
 
-## Ein besserer Weg: Bezugs und geometrische Beschränkungen {#ein_besserer_weg_bezugs_und_geometrische_beschränkungen}
+## Ein besserer Weg: Bezugs und geometrische Beschränkungen 
 
-4\. Wir werden dasselbe Quadrat vollständig beschränkt und am Ursprung zentriert zeichnen. Wenn du die neue Skizze erstellst, vergewissere dich, dass die Option {{MenuCommand|Auto Beschränkungen}} deaktiviert ist.
+4\. Wir werden dasselbe Quadrat vollständig beschränkt und am Ursprung zentriert zeichnen. Wenn du die neue Skizze erstellst, vergewissere dich, dass die Option **Auto Beschränkungen** deaktiviert ist.
 
 :   4.1. Klicke auf **<img src="images/Sketcher_CreatePolyline.svg‎‎" width=16px> [Erstelle Polylinie](Sketcher_CreatePolyline/de.md)**, dann zeichne vier Linien in der allgemeinen Form eines Rechtecks um den Ursprung.
 :   4.2. Wähle eine horizontale Linie aus, und drücke **<img src=images/Constraint_Horizontal.svg style="width:16px"> [Horizontal](‎Sketcher_ConstrainHorizontal/de.md)**.
@@ -90,9 +90,9 @@ Mit Blick auf die {{MenuCommand|Beschränkungen}} Abschnitt im [Aufgabenpaneel](
 
 Dies ist eine besser beschränkte Skizze als die erste. Die horizontalen und vertikalen geometrischen Beschränkungen erlauben es uns, weniger Bezugsbeschränkungen zu verwenden, so dass unsere Skizze weniger überladen aussieht.
 
-## Optimales Schema: meist geometrische Beschränkungen {#optimales_schema_meist_geometrische_beschränkungen}
+## Optimales Schema: meist geometrische Beschränkungen 
 
-5\. Wir werden dasselbe Quadrat vollständig beschränkt und am Ursprung zentriert zeichnen. Wenn du die neue Skizze erstellst, vergewissere dich, dass die Option {{MenuCommand|Auto Beschränkungen}} deaktiviert ist.
+5\. Wir werden dasselbe Quadrat vollständig beschränkt und am Ursprung zentriert zeichnen. Wenn du die neue Skizze erstellst, vergewissere dich, dass die Option **Auto Beschränkungen** deaktiviert ist.
 
 :   5.1. Klicke auf **<img src="images/Sketcher_CreatePolyline.svg‎‎" width=16px> [Erstelle Polylinie](Sketcher_CreatePolyline/de.md)**, dann zeichne vier Linien in der allgemeinen Form eines Rechtecks um den Ursprung.
 :   5.2. Wähle eine horizontale Linie aus, und drücke **<img src=images/Constraint_Horizontal.svg style="width:16px"> [Horizontal](‎Sketcher_ConstrainHorizontal/de.md)**.
@@ -116,7 +116,7 @@ Dies ist eine besser beschränkte Skizze als die erste. Die horizontalen und ver
 
 Dies ist der beste Weg, diese Skizze zu beschränken, da wir nur eine Bezugs- (Bemaßungs-) Beschränkung verwendet haben.
 
-## Zusätzliche Quellen {#zusätzliche_quellen}
+## Zusätzliche Quellen 
 
 -   [Grundlegendes Skizzierer Tutorium](Basic_Sketcher_Tutorial/de.md)
 -   [Skizzierer Referenz](Sketcher_reference/de.md)

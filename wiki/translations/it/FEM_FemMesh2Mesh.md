@@ -46,12 +46,12 @@ import Mesh
 Mesh.show(Mesh.Mesh(out_mesh))
 ```
 
-## Converting 2D elements {#converting_2d_elements}
+## Converting 2D elements 
 
 
 <div class="mw-translate-fuzzy">
 
-## Convertire gli elementi 2D {#convertire_gli_elementi_2d}
+## Convertire gli elementi 2D 
 
 Selezionare una mesh e eseguire il seguente script python
 

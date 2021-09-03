@@ -6,7 +6,7 @@ Los tutoriales que se enumeran aquí son los que tratan sobre el diseño de habi
 
 Visite [tutoriales](tutorials/es.md) para obtener tutoriales escritos de alta calidad. Puedes encontrar una lista completa y sin clasificar de tutoriales en [:Category:Tutorials](:Category:Tutorials.md).
 
-## Diseño arquitectónico {#diseño_arquitectónico}
+## Diseño arquitectónico 
 
 Vídeos que recorren el modelado de habitaciones, casas, edificios de oficinas y estructuras similares, y el dibujo de planos de planta, utilizando ambiente de trabajo como <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Borrador](Draft_Workbench/es.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> y [Arch](Arch_Workbench/es.md), y <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/es.md).
 

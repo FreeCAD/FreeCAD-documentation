@@ -17,7 +17,7 @@ PDF is commonly used as a sharing format, that is, to share documents, text, or 
 
 As FreeCAD is based on the Qt graphical toolkit, it can export the [3D view](3D_view.md) natively to PDF. This can be useful to export carefully created drawings that other users don\'t need to modify. For example, pages created with the [TechDraw Workbench](TechDraw_Workbench.md) can be [exported](Std_Export.md) in this way for sharing or printing. In many cases it is also possible to perform two way conversion between PDF and [SVG](SVG.md).
 
-The option to export to PDF is available in the {{MenuCommand|File → [Export PDF](Std_Export.md)}} menu.
+The option to export to PDF is available in the **File → [Export PDF](Std_Export.md)** menu.
 
 ## Related
 

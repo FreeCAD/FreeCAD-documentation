@@ -23,7 +23,7 @@ Acest tutorial este aici pentru a vă învăța să utilizați [Robot Workbench]
 
 </div>
 
-## Before you begin {#before_you_begin}
+## Before you begin 
 
 Acest tutorial este scris pentru FreeCAD Version 0.16.6703 sau mai recent. așa că dacă nu aveți FreeCAD pe computerul dvs. mergeți la pagina [Download](Download.md) și procedați la instalare.
 
@@ -38,7 +38,7 @@ This tutorial is targeting on the use of [industrial robots](http://en.wikipedia
 
 <div class="mw-translate-fuzzy">
 
-## Setting up the scene {#setting_up_the_scene}
+## Setting up the scene 
 
 1.  Switch to the [Robot Workbench](Robot_Workbench.md)
 2.  Create a new document by choosing ** File ** → ** New ** from the top menu
@@ -53,7 +53,7 @@ This tutorial is targeting on the use of [industrial robots](http://en.wikipedia
 
 <div class="mw-translate-fuzzy">
 
-## Setting up a trajectory {#setting_up_a_trajectory}
+## Setting up a trajectory 
 
 1.  Switch to the [Robot Workbench](Robot_Workbench.md)
 2.  Activate the model-tab in the tree view by clicking on it
@@ -72,7 +72,7 @@ This tutorial is targeting on the use of [industrial robots](http://en.wikipedia
 
 <div class="mw-translate-fuzzy">
 
-## Simularea mișcării robotului {#simularea_mișcării_robotului}
+## Simularea mișcării robotului 
 
 1.  Select robot and trajectory in tree view
 2.  Select simulation by clicking on <img alt="" src=images/Robot_Simulate.png  style="width:32px;">

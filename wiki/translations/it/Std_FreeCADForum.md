@@ -14,7 +14,7 @@ Currently the command points to [<https://forum.freecadweb.org>](https://forum.f
 
 ## Utilizzo
 
-1.  Select the {{MenuCommand|Help → <img src="images/Std_FreeCADForum.svg" width=16px> FreeCAD Forum}} option from the menu.
+1.  Select the **Help → <img src="images/Std_FreeCADForum.svg" width=16px> FreeCAD Forum** option from the menu.
 
 
 

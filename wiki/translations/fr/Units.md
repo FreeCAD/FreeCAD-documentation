@@ -54,11 +54,11 @@ pq('sin(pi)')
 b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 ```
 
-## Unités supportées {#unités_supportées}
+## Unités supportées 
 
 Une liste complète de toutes les unités prises en charge peut être [trouvée ici](Expressions/fr#Unités.md).
 
-## Objectifs et principes : propositions d\'extension du système de gestion des unités {#objectifs_et_principes_propositions_dextension_du_système_de_gestion_des_unités}
+## Objectifs et principes : propositions d\'extension du système de gestion des unités 
 
 Un système de gestion de la vulgarisation des unités, est en développant. Le concept de **système d\'unités**, est proposé dans les sections suivantes, activé lors d\'une instance en cours d\'exécution de FreeCAD. L\'intérêt pour la définition d\'un tel concept, est de travailler plus facilement avec le plus grand nombre de type d\'unités **physique** que l\'on veut, (même ceux créés par l\'utilisateur), sans augmenter la complexité de la gestion de l\'unité ni pour l\'utilisateur, ni pour les développeurs de FreeCAD.
 
@@ -85,7 +85,7 @@ Dans cette section, sont présents les contextes d\'utilisation d\'un tel systè
 
 2 contextes, sont essentiellement donnés, à titre d\'exemple.
 
-### Contexte 1 : ouverture de fichiers de données {#contexte_1_ouverture_de_fichiers_de_données}
+### Contexte 1 : ouverture de fichiers de données 
 
 Ce cas est probablement le cas le plus fréquent. Vous recevez un fichier contenant par exemple un modèle géométrique, ou décrire un matériau avec beaucoup de propriétés. Le modèle géométrique est exprimé en mètres, ou les propriétés des matériaux selon le système d\'unités international.
 
@@ -95,21 +95,21 @@ Vous êtes un expert en [FE modélisation](http://fr.wikipedia.org/wiki/Méthode
 
 Dans ce contexte, la gestion de l\'unité est nécessaire à l\'échelle des données, à partir d\'un système unitaire initialement défini dans le fichier d\'entrée, dans le système défini par l\'utilisateur de l\'unité cible.
 
-### Contexte 2 : changement entre systèmes d\'unités pendant l\'exécution {#contexte_2_changement_entre_systèmes_dunités_pendant_lexécution}
+### Contexte 2 : changement entre systèmes d\'unités pendant l\'exécution 
 
 Dans ce cas, vous pouvez être en même temps celui qui réalise le dessin, et celui qui va gérer la modélisation des éléments finis (FE). Comme dans le cas précédent, les systèmes unitaires pour ces 2 tâches, ne sont pas les mêmes, et, vous avez besoin de changer le système d\'unité initial, lors de l\'exécution de celui que vous préférez.
 
 ## Organisation
 
-### Logique d\'échelle d\'une unité {#logique_déchelle_dune_unité}
+### Logique d\'échelle d\'une unité 
 
 Dans la section [Réflexion](Units/fr#Réflexion.md), deux contextes ont été présentés lors de l\'utilisation de la mise à l\'échelle d\'unités. Certains éléments doivent être souslignés dans ces deux contextes.
 
-#### Cohérence d\'unités tout au long de l\'instance, en cours d\'exécution {#cohérence_dunités_tout_au_long_de_linstance_en_cours_dexécution}
+#### Cohérence d\'unités tout au long de l\'instance, en cours d\'exécution 
 
 Le système proposé, est basé sur une hypothèse : l\'utilisateur, travaille dans un système d\'unité cohérent. Par exemple, cela signifie que si l\'utilisateur exprime la longueur en millimètres, nécessairement la surface sera exprimée en millimètres carrés, et non en mètres carrés. Il s\'agit d\'une **hypothèse**.
 
-#### Système d\'unité {#système_dunité}
+#### Système d\'unité 
 
 En raison d**\'une hypothèse** , il est pertinent de définir un système d\'unités. Un système d\'unité s\'applique à :
 
@@ -133,13 +133,13 @@ Voici quelques exemples de systèmes d\'unités.
 -   millimètre, kilogramme, milliseconde, ampère, kelvin, mole, candela.
 -   \...
 
-#### Unités de base et dérivées {#unités_de_base_et_dérivées}
+#### Unités de base et dérivées 
 
 les unités dérivées sont créées par la combinaison d\'unités de base. Par exemple, d\'une **accélération (m/s)**, combine à la fois la **longueur**, et, le **temps**. Une image intéressante présentant les relations entre les unités de base, et, les unités dérivées, peut être vu [ici](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf), aussi de [NIST](http://www.nist.gov/index.html).
 
 Merci, à la définition d\'une unité centrale, il est possible que l\'utilisateur travaille avec n\'importe quel type d\'unités dérivées, sans la nécessité, que les développeurs de FreeCAD les prévoient à l\'avance.
 
-#### Symboles des unités de base dérivées {#symboles_des_unités_de_base_dérivées}
+#### Symboles des unités de base dérivées 
 
 Selon [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf), les symboles pour préciser les unités, sont officiellement approuvées. Deux conséquences peuvent être misent en évidence à partir de cela.
 
@@ -148,7 +148,7 @@ Selon [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP33
 
 Pour surmonter ces limites, et, garder une bonne flexibilité, le système proposé favorise l\'utilisation des **grandeurs d\'unités** au lieu des **symboles d\'unité**, qui restent néanmoins disponibles pour une raison d\'ergonomie.
 
-### Modèle de données {#modèle_de_données}
+### Modèle de données 
 
 Les trois objets de base, du système de gestion de l\'unité sont présents, à savoir **l\'unité**, le **dictionnaire d\'unités** et le **système d\'unités**.
 
@@ -213,7 +213,7 @@ Par exemple, la liste des **symboles** de l\'unité de longueur, et ses associé
 
 Les **symboles** standards peuvent être trouvés sur le site de [NIST](http://physics.nist.gov/cuu/Units/units.html) pages 23 à 26 et page 32 (**metric ton** ou **tonne** ) du [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf).
 
-#### Base de données d\'unités {#base_de_données_dunités}
+#### Base de données d\'unités 
 
 Toutes les unités disponibles dans FreeCAD, et les nouvelles créés par l\'utilisateur, doivent être stockées dans **unit dictionary** , qui est un fichier [.XML](http://fr.wikipedia.org/wiki/Extensible_Markup_Language) (fichier de configuration FreeCAD), de façon à être récupéré en cas de besoin, soit lors de la réalisation d\'échelle unité.
 
@@ -221,7 +221,7 @@ Toutes les unités disponibles dans FreeCAD, et les nouvelles créés par l\'uti
 
 Tableau d\'unités, contenu dans **unit dictionary** (le dictionnaire d\'unités).
 
-#### Unit system {#unit_system}
+#### Unit system 
 
 Un **système d\'unité** est l\'objet qui permet à l\'utilisateur de définir l\'unité actuelle (grandeur), de chacune des unités de base avec lesquelles il/elle travaille. Par exemple, sachant que l\'utilisateur travaille en **millimétres**, **tonnes**, et **secondes**, à l\'utilisation d\'un système d\'unités, FreeCAD peut savoir que l\'énergie est exprimée en termes de **millijoule**, la force en termes de **Newton**, et la pression en **mégapascal**. Ainsi, un système d\'unité est uniquement défini par un **nom** (par exemple **Standard unit system**), et une **table de grandeurs**, en spécifiant pour chacune des 7 unités de base son correspondant **grandeur**.
 
@@ -229,17 +229,17 @@ Un **système d\'unité** est l\'objet qui permet à l\'utilisateur de définir 
 
 Chaîne permettant à l\'utilisateur d\'identifier quel est le système d\'unités.
 
-##### Grandeur (Magnitude) {#grandeur_magnitude}
+##### Grandeur (Magnitude) 
 
 En spécifiant la Grandeur de chacune des 7 unités de base, le système d\'unités est définie.
 
 Par exemple **\[1e-03, 1e +03, 1, 1, 1, 1, 1\]**, ce qui signifie, millimètre, tonne, seconde, ampère, kelvin, mole, candela.
 
-#### Gestion de l\'API des unités {#gestion_de_lapi_des_unités}
+#### Gestion de l\'API des unités 
 
 Seule, la logique de certaines méthodes est présentée, afin de mettre en évidence certaines caractéristiques. Ces méthodes pourraient appartenir à un objet appelé, **Unit manager** (gestionnaire d\'Unités).
 
-##### Vérification du dictionnaire de unités {#vérification_du_dictionnaire_de_unités}
+##### Vérification du dictionnaire de unités 
 
 ###### isValid
 
@@ -263,7 +263,7 @@ Ce contrôle comprend :
 
 -   Vérifiez que la longueur de la **signature**, est de la même taille que la **signature** de l\'unité dans le dictionnaire.
 
-##### Echelle des unités {#echelle_des_unités}
+##### Echelle des unités 
 
 ###### scaleUnitFromSymbolToSymbol
 
@@ -277,7 +277,7 @@ Connaissant la valeur initiale d\'une unité par son symbole, le système d\'uni
 
 Connaissant une valeur initiale, d\'un système unitaire, le symbole, de l\'unité cible, donne la valeur de l\'échelle.
 
-#### Les motivations pour une telle gestion : exemple d\'application {#les_motivations_pour_une_telle_gestion_exemple_dapplication}
+#### Les motivations pour une telle gestion : exemple d\'application 
 
 Supposons, que nous allons mettre en place un modèle d\'éléments finis. Pour construire notre modèle, nous avons besoin de mailles (mesh), de propriétés de matériaux, et de définir les paramètres numériques. Considérant qu\'il peut y avoir des dizaines de propriétés de matériaux à gérer, exprimées avec des unités différentes, parfois pas toujours très communes, il est intéressant pour l\'utilisateur de n\'avoir à spécifier, qu\'un système global d\'unité, sans trop de soucis.
 
@@ -295,7 +295,7 @@ La **GrandeurCible** est alors simplement obtenue, avec l\'opération $\prod_{bu
 
 Il devient ainsi très facile, de gérer un grand nombre de propriétés avec n\'importe quels types d\'unités, et, avec très peu de code **Python**.
 
-## Voir aussi {#voir_aussi}
+## Voir aussi 
 
 -   La page [Expressions](Expressions/fr#Unit.C3.A9s.md) pour une liste de toutes les unités connues.
 -   La documentation de [Quantity](Quantity/fr.md).

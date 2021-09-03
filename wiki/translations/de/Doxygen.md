@@ -7,7 +7,7 @@
 
 Doxygen ist ein beliebtes Werkzeug zur Generierung von Dokumentation aus kommentierten C++ Quellen; es unterstützt auch andere gängige Programmiersprachen wie C\#, PHP, Java und Python. Besuche die [Doxygen Website](http://www.doxygen.nl/), um mehr über das System zu erfahren, und konsultiere das [Doxygen Handbuch](http://www.doxygen.nl/manual/index.html) für die vollständigen Informationen.
 
-## Doxygen und FreeCAD {#doxygen_und_freecad}
+## Doxygen und FreeCAD 
 
 Dieses Dokument gibt eine kurze Einführung in Doxygen, insbesondere wie es in FreeCAD zur Dokumentation seiner Quellen verwendet wird. Auf der Seite [Quelldokumentation](source_documentation/de.md) findest Du Anweisungen zum Erstellen der FreeCAD Dokumentation, die ebenfalls online auf der [FreeCAD API Website](https://www.freecadweb.org/api/) bereitgestellt wird.
 
@@ -16,7 +16,7 @@ Dieses Dokument gibt eine kurze Einführung in Doxygen, insbesondere wie es in F
 
 *Allgemeiner Arbeitsablauf zur Erstellung von Quellcode Dokumentation mit Doxygen.*
 
-## Doxygen mit C++ Code {#doxygen_mit_c_code}
+## Doxygen mit C++ Code 
 
 Der Abschnitt [Getting started (Step 3)](http://www.doxygen.nl/manual/starting.html) im Doxygen Handbuch erwähnt die grundlegenden Möglichkeiten der Dokumentation der Quellen.
 
@@ -30,7 +30,7 @@ Hinweis:
 -   Der Vorteil der ersten Option ist, dass du den Namen der Einheit (Funktion, Element, Variable, Klasse oder Namensraum) nicht wiederholen musst, da Doxygen den Code analysiert und die relevanten Informationen extrahiert.
 -   Dateien können nur mit der zweiten Option dokumentiert werden, da es keine Möglichkeit gibt, einen Dokumentationsblock vor eine Datei zu stellen. Natürlich benötigen Dateimitglieder (Funktionen, Variablen, Typedefinitionen, Definitionen) keinen expliziten Strukturbefehl; einfach einen Dokumentationsblock vor oder nach ihnen zu setzen, wird gut funktionieren.
 
-### Erster Stil: Dokumentationsblock vor dem Kode {#erster_stil_dokumentationsblock_vor_dem_kode}
+### Erster Stil: Dokumentationsblock vor dem Kode 
 
 Normalerweise möchtest du den Code in der Kopfzeilendatei dokumentieren, kurz vor der Klassendeklaration oder dem Funktionsprototyp. Dadurch bleiben Deklaration und Dokumentation dicht beieinander, so dass es einfach ist, letztere zu aktualisieren, wenn sich die erste ändert.
 
@@ -50,7 +50,7 @@ void setName(const std::string&);
 void removeTaskWatcher(void);
 ```
 
-### Zweiter Stil: Dokumentationsblock an anderer Stelle {#zweiter_stil_dokumentationsblock_an_anderer_stelle}
+### Zweiter Stil: Dokumentationsblock an anderer Stelle 
 
 Alternativ kann die Dokumentation auch in einer anderen Datei (oder in derselben Datei oben, unten oder wo auch immer) abgelegt werden, weg von der Klassendeklaration oder dem Funktionsprototyp. In diesem Fall hast du duplizierte Informationen, einmal in der eigentlichen Quelldatei und einmal in der Dokumentationsdatei.
 
@@ -197,7 +197,7 @@ Beispiel `src/Gui/Command.cpp`
 
 </div>
 
-### Beispiel aus dem VTK Projekt {#beispiel_aus_dem_vtk_projekt}
+### Beispiel aus dem VTK Projekt 
 
 Dies ist ein Beispiel aus [VTK](https://vtk.org/), einer 3D Visualisierungsbibliothek, die zur Darstellung wissenschaftlicher Daten wie Finite Elemente Ergebnisse und Punktwolkeninformationen verwendet wird.
 
@@ -206,7 +206,7 @@ Eine Klasse zum Speichern einer Sammlung von Koordinaten wird in einer C++ Kopfz
 -   Quellcode von [vtkArrayCoordinates.h](https://github.com/Kitware/VTK/blob/master/Common/Core/vtkArrayCoordinates.h).
 -   Doxygen hat die Dokumentation für die [vtkArrayCoordinates class](http://www.vtk.org/doc/nightly/html/classvtkArrayCoordinates.html) erstellt.
 
-### Zusammenstellung der Dokumentation {#zusammenstellung_der_dokumentation}
+### Zusammenstellung der Dokumentation 
 
 <img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width:800px;">
 
@@ -290,7 +290,7 @@ Wenn du neue Klassen, Funktionen oder eine ganze neue Arbeitsbereiche schreibst,
 
 Bei der Generierung der kompletten FreeCAD Dokumentation führe `doxygen` nicht direkt aus. Stattdessen verwende das Projekt `cmake`, um die Build Umgebung zu konfigurieren, und löst dann `make` die Kompilierung der FreeCAD Quellen und der Doxygen Dokumentation aus; dies wird auf der Seite [Quell Dokumentation](source_documentation/de.md) erläutert.
 
-## Doxygen Auszeichnung {#doxygen_auszeichnung}
+## Doxygen Auszeichnung 
 
 Alle Doxygen [Befehlsdokumentation](http://www.doxygen.nl/manual/commands.html) beginnt mit einem Backslash `\\` oder einem at Symbol `@`, je nach Wunsch. Normalerweise wird der Backslash `\\` verwendet, aber gelegentlich wird der `@` verwendet, um die Lesbarkeit zu verbessern.
 
@@ -341,7 +341,7 @@ Einige der häufigsten Schlüsselwörter, die in der FreeCAD Dokumentation verwe
 
 </div>
 
-## Markdown Unterstützung {#markdown_unterstützung}
+## Markdown Unterstützung 
 
 Seit Doxygen 1.8 wird die Markdown Syntax in Dokumentationsblöcken erkannt. Markdown ist eine minimalistische Formatierungssprache, die von einfachen Text Emails inspiriert ist, die, ähnlich wie die Wiki Syntax, einfach und lesbar sein soll, ohne komplizierten Code wie den in HTML, LaTeX oder Doxygens eigenen Befehlen zu benötigen. Markdown hat bei freier Software an Popularität gewonnen, insbesondere in Online Plattformen wie Github, da es die Erstellung von Dokumentation ohne komplizierten Code ermöglicht. Weitere Informationen finden sich im Abschnitt [Markdown Support](http://www.doxygen.nl/manual/markdown.html) im Doxygen Handbuch. Besuche die [Markdown Webseite](https://daringfireball.net/projects/markdown/), um mehr über den Ursprung und die Philosophie von Markdown zu erfahren.
 
@@ -436,7 +436,7 @@ int func(int a, int b) { return a*b; }
 
 </div>
 
-## Zerteilen von Dokumentationsblöcken {#zerteilen_von_dokumentationsblöcken}
+## Zerteilen von Dokumentationsblöcken 
 
 Der Text in einem speziellen Dokumentationsblock wird analysiert, bevor er in die HTML- und LaTeX Ausgabedateien geschrieben wird. Beim Zertilen (engl.: Parsen) finden die folgenden Schritte statt:
 
@@ -448,7 +448,7 @@ Der Text in einem speziellen Dokumentationsblock wird analysiert, bevor er in di
 -   Links werden erstellt, wenn bestimmte Muster im Text gefunden werden. Weitere Informationen finden Sie im Abschnitt [Automatische Linkerzeugung](http://www.doxygen.nl/manual/autolink.html) im Handbuch.
 -   HTML-Tags, die sich in der Dokumentation befinden, werden interpretiert und für die LaTeX Ausgabe in LaTeX Äquivalente umgewandelt. Siehe den Abschnitt [HTML-Befehle](http://www.doxygen.nl/manual/htmlcmds.html) im Handbuch für eine Erklärung der einzelnen unterstützten HTML-Tags.
 
-## Doxygen mit Python Code {#doxygen_mit_python_code}
+## Doxygen mit Python Code 
 
 Doxygen funktioniert am besten für statisch typisierte Sprachen wie C++. Es kann aber auch eine [Dokumentation für Python-Dateien](http://www.doxygen.nl/manual/docblocks.html#pythonblocks) erstellen.
 
@@ -462,7 +462,7 @@ Hinweis:
 -   Die erste Option wird bevorzugt, um [PEP8](https://www.python.org/dev/peps/pep-0008/#documentation-strings), [PEP257](https://www.python.org/dev/peps/pep-0257/) und die meisten Stilrichtlinien für das Schreiben von Python zu erfüllen (siehe [1](https://realpython.com/python-pep8/), [2](https://realpython.com/documenting-python-code/)). Es wird empfohlen, diesen Stil zu verwenden, wenn du beabsichtigst, dokumentierte Quellen mit [Sphinx](https://www.sphinx-doc.org/en/master/) zu erzeugen, einem sehr gebräuchlichen Werkzeug zur Dokumentation von Python Code. Wenn Du diesen Stil verwendest, kann Doxygen die Kommentare wörtlich extrahieren, aber spezielle Doxygen Befehle, die mit `\\` oder `@` beginnen, funktionieren nicht.
 -   Die zweite Option ist nicht der traditionelle Python Stil, aber sie erlaubt es Dir, die speziellen Befehle von Doxygen wie `\param` und `\var` zu verwenden.
 
-### Erster Stil: Pythonische Dokumentation {#erster_stil_pythonische_dokumentation}
+### Erster Stil: Pythonische Dokumentation 
 
 Im folgenden Beispiel steht am Anfang eine docstring, um den allgemeinen Inhalt dieses Moduls (Datei) zu erklären. Dann erscheinen docstrings innerhalb der Funktions-, Klassen- und Klassenmethodendefinitionen. Auf diese Weise extrahiert Doxygen die Kommentare und präsentiert sie so, wie sie sind, ohne Änderungen.
 
@@ -495,7 +495,7 @@ class PyClass:
         pass
 ```
 
-### Zweiter Stil: Dokumentationsblock vor dem Code {#zweiter_stil_dokumentationsblock_vor_dem_code}
+### Zweiter Stil: Dokumentationsblock vor dem Code 
 
 Im folgenden Beispiel beginnen die Dokumentationsblöcke mit doppelten Hashzeichen `###`. Am Anfang erscheint eine, um den allgemeinen Inhalt dieses Moduls (Datei) zu erklären. Dann gibt es Blöcke vor den Definitionen von Funktions-, Klassen- und Klassenmethoden, und es gibt einen Block nach einer Klassenvariablen. Auf diese Weise extrahiert Doxygen die Dokumentation, erkennt die speziellen Befehle `@package`, `@param`, und `@var` und formatiert den Text entsprechend. 
 ```python
@@ -532,7 +532,7 @@ class PyClass:
     #  a member variable
 ```
 
-### Zusammenstellung der Dokumentation {#zusammenstellung_der_dokumentation_1}
+### Zusammenstellung der Dokumentation 
 
 Die Kompilierung der Dokumentation erfolgt wie bei [für C++ Quellen](#Compilierung_der_Dokumentation/de.md). Wenn sich beide Python Dateien, `pyexample_a.py` und `pyexample_b.py`, mit eigenem Kommentarstil im gleichen Verzeichnis befinden, werden beide verarbeitet. 
 ```python
@@ -554,7 +554,7 @@ N  pyexample_b  Documentation for this module
    C  PyClass   Documentation for a class
 ```
 
-### Umwandlung des pythonischen Stils in den Doxygen Stil {#umwandlung_des_pythonischen_stils_in_den_doxygen_stil}
+### Umwandlung des pythonischen Stils in den Doxygen Stil 
 
 Im vorherigen Beispiel zeigt die Python Datei, die in einem [Doxygen Stil](#Second_style:_documentation_block_before_the_code/de.md) kommentiert wird, detailliertere Informationen und Formatierungen für ihre Klassen, Funktionen und Variablen. Der Grund dafür ist, dass dieser Stil es Doxygen erlaubt, die speziellen Befehle zu extrahieren, die mit `\\` oder `@` beginnen, während der [Pythonischer Stil](#First_style:_Pythonic_documentation/de.md) dies nicht tut. Daher wäre es wünschenswert, den pythonischen Stil in den Doxygen Stil zu konvertieren, bevor die Dokumentation erstellt wird. Dies ist mit einem zusätzlichen Python-Programm namens [doxypypy](https://github.com/Feneric/doxypypy) möglich. Dieses Programm ist inspiriert von einem älteren Programm namens [doxypy](https://github.com/Feneric/doxypy), das den Python '''docstrings'''' nehmen und in die Doxygen Kommentarblöcke konvertieren würde, die mit einem Doppelhash `###` beginnen. Doxypypy geht noch weiter, da es die docstrings analysiert und interessante Elemente wie Variablen und Argumente extrahiert und sogar Doktests (Beispielcode in den docstrings).
 
@@ -767,7 +767,7 @@ Here is a list of all documented namespaces with brief descriptions:
  N  pyexample_pythonic  
 ```
 
-### Fliegendes konvertieren des Kommentarstils {#fliegendes_konvertieren_des_kommentarstils}
+### Fliegendes konvertieren des Kommentarstils 
 
 Im vorherigen Beispiel wurde die Konvertierung der Dokumentationsblöcke manuell mit nur einer Quelldatei durchgeführt. Im Idealfall soll diese Konvertierung automatisch, fliegend, mit einer beliebigen Anzahl von Python Dateien erfolgen. Dazu muss die Doxygen Konfiguration entsprechend angepasst werden.
 
@@ -807,7 +807,7 @@ Beachte , dass bestehende Python Dateien, die bereits den Stil `###double hash` 
 
 *Allgemeiner Arbeitsablauf zur Erstellung von Quellcodedokumentation mit Doxygen, wenn die Python Dateien gefiltert werden, um die Kommentarblöcke zu transformieren.*
 
-### Python Code Qualitätsprüfung {#python_code_qualitätsprüfung}
+### Python Code Qualitätsprüfung 
 
 Um die automatische Konvertierung von Dokumentationsblöcken nutzen zu können, ist es wichtig, dass die originalen Python Quellen korrekt geschrieben sind und den pythonischen Richtlinien in [PEP8](https://www.python.org/dev/peps/pep-0008/#documentation-strings) und [PEP257](https://www.python.org/dev/peps/pep-0257/) entsprechen. Schlampig geschriebener Code führt dazu, dass `doxypypy` bei der Verarbeitung der Datei fehlschlägt, so dass Doxygen die Dokumentation nicht korrekt formatieren kann.
 
@@ -888,7 +888,7 @@ Verwende es auch mit `find`, um docstring Überprüfungen für alle Quelldateien
 find toplevel-source/ -name '*.py' -exec pydocstyle {} '+'
 ```
 
-## Quelldokumentation mit Sphinx {#quelldokumentation_mit_sphinx}
+## Quelldokumentation mit Sphinx 
 
 [Sphinx](https://www.sphinx-doc.org/en/master/) ist das beliebteste System zur Dokumentation von Python Quellcode. Da die Kernfunktionen und Arbeitsbereiche von FreeCAD jedoch in C++ geschrieben sind, wurde davon ausgegangen, dass Doxygen ein besseres Dokumentationswerkzeug für dieses Projekt ist.
 

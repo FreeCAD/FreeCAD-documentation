@@ -64,7 +64,7 @@ dans la fonction main(). Sinon, si vous avez une image au format XPM, vous pouve
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Branding XML {#branding_xml}
+### Branding XML 
 
 Dans FreeCAD, une méthode est également prise en charge sans écrire de fonction main() personnalisée. Pour cette méthode, vous devez écrire un nom de fichier appelé {{FileName|branding.xml}} et le placer dans le répertoire d\'installation de FreeCAD. Voici un exemple avec toutes les balises prises en charge:
 

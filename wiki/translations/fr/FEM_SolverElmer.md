@@ -29,7 +29,7 @@ Il existe des programmes autonomes pour ces deux applications mais leur installa
 
 1.  Accédez aux ressources binaires CSC pour Elmer: [binaires](https://www.nic.funet.fi/pub/sci/physics/elmer/bin/) OU [binaires CSC](https://www.csc.fi/web/elmer/binaries)
 2.  Téléchargez et installez la version la mieux adaptée à votre système d\'exploitation ([Windows 64](https://www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) bits ou [Linux](https://www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt))
-3.  Dans FreeCAD, allez dans {{MenuCommand|Edition → Préférences → FEM → Elmer}}
+3.  Dans FreeCAD, allez dans **Edition → Préférences → FEM → Elmer**
 4.  Associez le chemin correct pour `ElmerGrid` et `ElmerSolver`
 
     :   ![Elmer Tab in FEM Preferences](images/Preferences-ElmerPath.png )
@@ -61,7 +61,7 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
 7.  Cliquez sur **Write** pour écrire les fichiers de cas dans le répertoire sélectionné précédemment
 8.  Cliquez sur **Run** pour démarrer l\'analyse
 
-### A propos des équations {#a_propos_des_équations}
+### A propos des équations 
 
 -   Pour effectuer l\'analyse d\'un comportement physique particulier, une équation doit être utilisée (écoulement, chaleur, électrostatique\...).
 -   Disambiguation : Le terme *Equation* est utilisé dans FreeCAD pour décrire les différents mécanismes physiques, le terme *Solveur* est utilisé dans tous les documents Elmer. Ainsi, lorsqu\'on utilise dans FreeCAD l\'\"Équation d\'écoulement\", en réalité Elmer utilise le \"Solveur d\'écoulement\" pour trouver une solution à l\'équation de Navier-Stokes.

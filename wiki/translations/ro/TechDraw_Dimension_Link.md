@@ -28,7 +28,7 @@ The Dimension Link instructs the Dimension to compute it\'s value directly from 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Creați Dimensiunea dvs. pe pagina de desen, ca de obicei.
 2.  Selectați geometria (ex Edge) în vizualizarea modelului 3D care se potrivește dimensiunilor dvs..

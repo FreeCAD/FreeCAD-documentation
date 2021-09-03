@@ -22,7 +22,8 @@ Git is a complex tool, consider learning the basics of it before using this tool
 
 1.  Make sure the [Report view](Report_view.md) is open since Git messages will be printed there.
 2.  Save the current active document making sure the saved file is inside an existing git repository. It can be in a subdirectory.
-3.  Select menu {{MenuCommand|Web Tools → <img src="images/WebTools_Git.svg" width=16px> [Git](WebTools_Git.md)}}
+3.  Select menu **Web Tools → <img src="images/WebTools_Git.svg" width=16px> [Git](WebTools_Git.md)
+**
 4.  This opens up a [Task panel](Task_panel.md) in the [Combo view](Combo_view.md).
 
 ## Options
@@ -43,7 +44,7 @@ Git is a complex tool, consider learning the basics of it before using this tool
 -   The tool cannot create new repositories yet. You must have an existing local repository already created. (FreeCAD will check if the current document file is inside a Git repository.)
 -   The tool cannot change or create branches. You must do that manually with standard Git tools.
 
-## Enabling human-readable diffs for FCStd files with the fcinfo utility {#enabling_human_readable_diffs_for_fcstd_files_with_the_fcinfo_utility}
+## Enabling human-readable diffs for FCStd files with the fcinfo utility 
 
 FreeCAD\'s [Fcstd file format](File_Format_FCStd.md) is a zip-based binary format, for which Git cannot produce proper diffs. This means that you cannot see what has changed between one version and another, and also that each new version stored in the Git repository is a full copy of the file.
 

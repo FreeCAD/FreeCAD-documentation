@@ -39,7 +39,7 @@ Acest instrument vă permite să importați un obiect mesh ca fișier [\*.STL](h
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Properties
 

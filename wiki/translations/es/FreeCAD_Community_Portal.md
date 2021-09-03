@@ -2,7 +2,7 @@
 
 ¡Este es el lugar para poner todo tipo de cosas relacionadas con FreeCAD! ¡Si trabajas en algo relacionado con FreeCAD, por favor inclúyelo aquí!
 
-## Lugares donde aparece FreeCAD en la red {#lugares_donde_aparece_freecad_en_la_red}
+## Lugares donde aparece FreeCAD en la red 
 
 -   [Wikipedia](https://en.wikipedia.org/wiki/FreeCAD)
 -   [Softpedia](http://linux.softpedia.com/get/Multimedia/Graphics/FreeCAD-31097.shtml)
@@ -12,11 +12,11 @@
 -   [Freshports](http://www.freshports.org/cad/freecad/)
 -   [Packman](http://packman.links2linux.de/package/2776)
 
-## Proyectos relacionados con FreeCAD {#proyectos_relacionados_con_freecad}
+## Proyectos relacionados con FreeCAD 
 
 -   [Architecture workflow](http://yorik.uncreated.net/guestblog.php?tag=freecad) : Un ejemplo de cómo FreeCAD puede empezar a tener su lugar preliminar en un flujo de trabajo de arquitectura\...
 
-## Complementos de la Comunidad de FreeCAD {#complementos_de_la_comunidad_de_freecad}
+## Complementos de la Comunidad de FreeCAD 
 
 Estos son los ambientes de trabajo, scripts, macros y complementos desarrollados por la comunidad de FreeCAD. A partir de la versión 0.17, el Gestor de Complementos fue implementado en el núcleo de FreeCAD, y hace que sea muy conveniente instalar complementos aprobados por la comunidad.
 
@@ -25,11 +25,11 @@ Estos son los ambientes de trabajo, scripts, macros y complementos desarrollados
 
 ## Publicidad
 
-### Redes sociales {#redes_sociales}
+### Redes sociales 
 
 -   [yorik](User:Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
-### Sitios de noticias {#sitios_de_noticias}
+### Sitios de noticias 
 
 -   <http://makezine.com/>
 -   <http://www.webupd8.org/>
@@ -42,7 +42,7 @@ Estos son los ambientes de trabajo, scripts, macros y complementos desarrollados
 -   <http://www.inside3dp.com/>
 -   <http://diy3dprinting.blogspot.com/>
 
-### Otros sitios {#otros_sitios}
+### Otros sitios 
 
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
 -   <http://forum.diigiit.com/>
@@ -75,11 +75,11 @@ Estos son los ambientes de trabajo, scripts, macros y complementos desarrollados
 -   <http://wkupiesila.blogspot.com>
 -   <http://cadblog.pl>
 
-## Otros recursos {#otros_recursos}
+## Otros recursos 
 
 -   [Enlaces interesantes](Interesting_links/es.md) que contiene algunos enlaces quizás útiles a otros recursos y proyectos de FLOSS en esta área.
 
-## ¡Tú también! {#tú_también}
+## ¡Tú también! 
 
 -   Vea lo que puede hacer para [Ayudar a FreeCAD](Help_FreeCAD/es.md)\...
 

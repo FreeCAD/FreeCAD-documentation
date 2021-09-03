@@ -101,7 +101,7 @@ La maggior parte della funzionalità della PAW sono fornite dal menu contestuale
     - la finestra PAW viene chiusa e il contenuto scritto in un file a memoria persistente
     Nota: Non appare alcun dialogo, il salvataggio avviene automaticamente
 
-## Interfaccia utente {#interfaccia_utente}
+## Interfaccia utente 
 
 L\'interfaccia utente è una semplice finestra di modifica di testo, c\'è un pulsante per avviare la PAW e un menu contestuale delle opzioni eseguibili sul testo presente nella finestra. Le opzioni sono descritte nella sezione Utilizzo.
 

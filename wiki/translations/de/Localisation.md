@@ -10,11 +10,11 @@
 
 **Lokalisierung** ist im Allgemeinen der Prozess der Bereitstellung einer Software mit einer mehrsprachigen Benutzeroberfläche. In FreeCAD kannst du die Sprache der Benutzeroberfläche unter {{MenuCommand/de|Bearbeiten → Einstellungen → Allgemein}} einstellen. FreeCAD verwendet [Qt](wikipedia:Qt_(Bibliothek).md), um die Unterstützung mehrerer Sprachen zu ermöglichen. Auf Unix/Linux-Systemen verwendet FreeCAD standardmäßig die aktuellen Gebietsschemaeinstellungen deines Systems.
 
-## Helfen, FreeCAD zu übersetzen {#helfen_freecad_zu_übersetzen}
+## Helfen, FreeCAD zu übersetzen 
 
 Eines der sehr wichtigen Dinge, die Benutzer zu FreeCAD beitragen können (wenn sie z.B. keine Programmierfähigkeiten haben), ist es, die verschiedenen Aspekte (Quellcode, Wiki, Website, Dokumentation usw\....) in eine andere Sprache zu übersetzen. Hier sind die Möglichkeiten, dies zu tun
 
-## Übersetze den FreeCAD Quellcode {#übersetze_den_freecad_quellcode}
+## Übersetze den FreeCAD Quellcode 
 
 FreeCAD verwendet ein gemeinschaftlich genutztes Online Übersetzungssystem von Drittanbietern namens [Crowdin](https://crowdin.net).
 
@@ -35,11 +35,11 @@ Es ist geschützte Software, aber für FOSS Projekte kostenlos. Nachfolgend sind
 
 Details zur Verwendung von Crowdin findest du auf der Seite [Crowdin Verwaltung](Crowdin_Administration/de.md).
 
-## Übersetzung externer Arbeitsbereiche {#übersetzung_externer_arbeitsbereiche}
+## Übersetzung externer Arbeitsbereiche 
 
 -   Besuche [Übersetzen eines externen Arbeitsbereichs](Translating_an_external_workbench/de.md)
 
-## Übersetze das FreeCAD Wiki {#übersetze_das_freecad_wiki}
+## Übersetze das FreeCAD Wiki 
 
 Dieses Wiki beherbergt viele Inhalte, von denen die meisten das Handbuch bilden. Du kannst die Dokumentation von der [Hauptseite](Main_Page/de.md) aus durchsuchen, oder einen Blick in das Benutzerhandbuch [Online Hilfe Inhaltsverzeichnis](Online_Help_Toc/de.md) werfen.
 
@@ -47,7 +47,7 @@ Um das Wiki zu übersetzen, musst Du über Wiki Bearbeitungsrechte verfügen; si
 
 Du solltest auch genügend Kenntnisse über den Wikistil haben und die allgemeinen Gestaltungsrichtlinien befolgen, die unter [WikiSeiten](WikiPages/de.md) beschrieben sind.
 
-### Mediawiki Übersetzungserweiterung {#mediawiki_übersetzungserweiterung}
+### Mediawiki Übersetzungserweiterung 
 
 Als das Wiki von SourceForge wegging, installierte [Yorik](User:Yorik.md) [MediaWiki\'s Translation Extension](http://www.mediawiki.org/wiki/Help:Extension:Translate), was die Übersetzung von Seiten erleichtert. Die Übersetzungserweiterung hat den Vorteil, dass der Seitentitel nun übersetzt werden kann, dass sie die Übersetzungen verfolgt, dass dich benachrichtigt, ob die Originalseite aktualisiert wurde, und dass die Übersetzungen synchron mit der englischen Originalseite verwaltet.
 
@@ -67,7 +67,7 @@ Wenn ein neuer Inhalt hinzugefügt wird, sollte die englische Seite zuerst erste
 
 Wenn Du Dir nicht sicher bist, wie Du mit den Übersetzungen vorgehen sollst, zögere nicht, Dich im Unterforum [Entwicklung → Wiki Unterforum](https://forum.freecadweb.org/viewforum.php?f=21) oder im Unterforum [Unterforum spezifische Sprache](https://forum.freecadweb.org/viewforum.php?f=11) im FreeCAD-Forum[FreeCAD Forum](http://forum.freecadweb.org) um Hilfe zu bitten.
 
-### Wichtige Anmerkungen {#wichtige_anmerkungen}
+### Wichtige Anmerkungen 
 
 Jeder Wiki Benutzer der *Editor* Berechtigungen hat, kann das Übersetzungshilfsprogramm aufrufen, um Übersetzungen zu schreiben, zu speichern und zu überprüfen.
 
@@ -77,11 +77,11 @@ Die linke Seitenleiste ist ebenfalls übersetzbar, aber nur Administratoren kön
 
 Wenn du zum ersten Mal auf das neue Übersetzungssystem wechselst, verliert es alle seine alten \"manuellen\" Übersetzungen. Um eine Übersetzung wiederherzustellen, solltest du eine Offline Kopie des alten Textes vor dem Wechsel speichern. Dann kannst du diesen alten übersetzten Text verwenden, um die Übersetzungseinheiten im neuen System auszufüllen. Du kannst auch eine frühere Version aus der Historie öffnen und so den alten Text erhalten. Dies muss für jede Sprache erfolgen, die eine übersetzte Seite hatte.
 
-### Übersetze die FreeCAD Dokumentation {#übersetze_die_freecad_dokumentation}
+### Übersetze die FreeCAD Dokumentation 
 
 Nach allgemeinem Konsens ist die Referenzseite im Wiki die englische Seite, die zuerst erstellt werden sollte. Wenn du Inhalte zu einer Seite ändern oder hinzufügen möchtest, solltest du dies zuerst auf der englischen Seite tun, und erst wenn das Update abgeschlossen ist, die Änderung auf die übersetzte Seite portieren.
 
-### Alte Übersetzungsanweisungen {#alte_übersetzungsanweisungen}
+### Alte Übersetzungsanweisungen 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Diese Anleitung gilt nur für den historischen Hintergrund. Übersetzungen sollten das neue System mit der oben beschriebenen [\#Mediawiki Translation Extension](#Mediawiki_Translation_Extension.md) verwenden.                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -114,15 +114,15 @@ Nach allgemeinem Konsens ist die Referenzseite im Wiki die englische Seite, die 
 | Die Seite \"Bienvenue dans l\'aide en ligne de FreeCAD\" verweist auf Online\_Help\_Startseite/fr, und die Seite \"Fonctionnalités\" verweist auf Feature\_list/fr.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## Übersetze die FreeCAD Webseite {#übersetze_die_freecad_webseite}
+## Übersetze die FreeCAD Webseite 
 
 Die Übersetzung der FreeCAD Webseite erfolgt nun über [Crowdin](https://crowdin.com/translate/freecad/561/en-en). Die Datei hat den Namen {{FileName|homepage.po}}.
 
-## Entwicklung - Wie man Lokalisierung hinzufügt {#entwicklung___wie_man_lokalisierung_hinzufügt}
+## Entwicklung - Wie man Lokalisierung hinzufügt 
 
 Dieser Abschnitt ist für Entwickler, die ihrem Code eine Lokalisierung hinzufügen möchten.
 
-### Vorbereitung von FreeCAD-/Master Modulen für die Übersetzung {#vorbereitung_von_freecad_master_modulen_für_die_übersetzung}
+### Vorbereitung von FreeCAD-/Master Modulen für die Übersetzung 
 
 Dies sind die Schritte für den FreeCAD Übersetzungsprozess:
 
@@ -142,21 +142,21 @@ Dies erzeugt eine leere Übersetzungsdatei. Sobald dies geschehen ist, muss sich
 
 Alles danach, soweit es einen Entwickler betrifft, wird automatisch durchgeführt. Der Administrator wird die Texte entnehmen, die Übersetzer werden sie übersetzen und der Administrator wird die Übersetzungen wieder entnehmen und FreeCAD/master aktualisieren.
 
-### Vorbereitung Ihres Drittanbieter Moduls oder Makros für die Übersetzung {#vorbereitung_ihres_drittanbieter_moduls_oder_makros_für_die_übersetzung}
+### Vorbereitung Ihres Drittanbieter Moduls oder Makros für die Übersetzung 
 
 Drittanbietermodule oder Makros von werden in ähnlicher Weise übersetzt, nur daß du einen Teil der Arbeit selbst erledigen musst. Diese [Forumsdiskussion](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) beschreibt die Details.
 
 -   \* Aktualisierung: Siehe [Übersetzen eines externen Arbeitsbereichs](Translating_an_external_workbench/de.md)
 
-### Ältere Modulübersetzungstechniken {#ältere_modulübersetzungstechniken}
+### Ältere Modulübersetzungstechniken 
 
 [Lokalisierung älterer Methoden](Localization_Older_Methods/de.md) beschreibt den Einsatz von Übersetzungswerkzeugen wie Qt Linguist, lupdate, lrelease, pylupdate4, usw. im Detail. Das meiste davon ist für FreeCAD/master Module nicht mehr erforderlich, kann aber bei der Vorbereitung und Aktualisierung von Modulen von Drittanbietern hilfreich sein.
 
-## Automatisieren von Crowdin Übersetzungsaktualisierungen {#automatisieren_von_crowdin_übersetzungsaktualisierungen}
+## Automatisieren von Crowdin Übersetzungsaktualisierungen 
 
 Derzeit verwenden FreeCAD Betreuer die Crowdin API über [Crowdin Skripte](Crowdin_Scripts/de.md), um Übersetzungen in Crowdin und zurück in den Github Repo zu ziehen und zu verschieben. Die Crowdin API gibt FreeCAD Betreuern die Möglichkeit, Aspekte des Übersetzungsarbeitsablaufs des Projekts zu automatisieren, weitere Informationen findest Du in der [Crowdin API Dokumentation](https://support.crowdin.com/api/api-integration-setup/).
 
-## Verwandte Seiten {#verwandte_seiten}
+## Verwandte Seiten 
 
 -   [Crowdin Verwaltung](Crowdin_Administration/de.md)
 -   [Crowdin Skripte](Crowdin_Scripts/de.md)

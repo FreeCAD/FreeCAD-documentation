@@ -15,7 +15,7 @@
 
 Lo strumento [Armatura di colonna](Arch_Rebar_Circular_ColumnReinforcement/it.md) consente all\'utente di creare delle barre di rinforzo all\'interno di un oggetto [Struttura](Arch_Structure/it.md) Colonna.
 
-Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}.
+Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width:400px;"> 
 *Rinforzo di colonna all'interno di una [Struttura](Arch_Structure/it.md) colonna*
@@ -73,7 +73,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 Lo strumento Armatura di colonna può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
-### Creare una armatura di colonna {#creare_una_armatura_di_colonna}
+### Creare una armatura di colonna 
 
 
 ```python
@@ -143,7 +143,7 @@ RebarGroup = CircularColumn.makeReinforcement(
 
 <div class="mw-translate-fuzzy">
 
-### Modificare una armatura di colonna {#modificare_una_armatura_di_colonna}
+### Modificare una armatura di colonna 
 
 È possibile modificare le proprietà delle armature elicoidali e principali con la seguente funzione
 
@@ -176,7 +176,7 @@ rebar_group = editReinforcement(
 
 -    `structure`e `facename` possono essere omesse in modo che l\'armatura rimanga nella struttura originale..
 
-#### Esempio {#esempio_1}
+#### Esempio 
 
 
 ```python

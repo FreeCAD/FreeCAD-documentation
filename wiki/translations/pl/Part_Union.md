@@ -18,9 +18,9 @@ Narzędzie **![](images/)_[Scalenie](Part_Fuse/pl.md)** łączy *(jednoczy)* wy
 1.  Wybierz dwa lub więcej kształtów
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **![](images/) Utwórz sumę kilku kształtów** na pasku narzędzi **Narzędzia środowiska Część**
-    -   Użyj pozycji z menu {{MenuCommand|Część → Funkcje logiczne → Suma}}.
+    -   Użyj pozycji z menu **Część → Funkcje logiczne → Suma**.
 
-### Obsługiwane dane wejściowe {#obsługiwane_dane_wejściowe}
+### Obsługiwane dane wejściowe 
 
 Obiekty wejściowe muszą być kształtami [OpenCascade](OpenCASCADE/pl.md). Przykłady: obiekty wykonane z użyciem Środowisk pracy Part, Part Design, Sketcher. Nie mogą to być siatki *(chyba że zostały zamienione na kształty)* - dla siatek, w programie Mesh Design istnieją specyficzne narzędzia do przeprowadzania operacji logicznych.
 

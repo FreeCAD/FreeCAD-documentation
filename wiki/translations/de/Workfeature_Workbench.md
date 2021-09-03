@@ -47,11 +47,11 @@ Dokumentation zu Veröffentlichungen [hier](https://github.com/Rentlau/WorkFeatu
 
 ## Einrichtung
 
-### Automatische Einrichtung {#automatische_einrichtung}
+### Automatische Einrichtung 
 
 Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden.
 
-### Von GitHub {#von_github}
+### Von GitHub 
 
 **Voraussetzungen**
 
@@ -63,7 +63,7 @@ Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md)
 
 **Mac Installationsanweisungen**
 
-## Verweise zum Arbeitsbereich Animation {#verweise_zum_arbeitsbereich_animation}
+## Verweise zum Arbeitsbereich Animation 
 
 -   Arbeitsbereichs Wiki:
 -   FreeCAD Wiki:
@@ -73,7 +73,7 @@ Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md)
 -   Dateien:
 -   Fehler berichten: Please report bugs at [FreeCAD Forum](http://forum.freecadweb.org/index.php)
 
-## Andere nützliche Verweise {#andere_nützliche_verweise}
+## Andere nützliche Verweise 
 
 -   [Externe Arbeitsbereiche](External_workbenches/de.md)
 

@@ -14,7 +14,7 @@ Inverte le normali di tutte le facce dell\'oggetto selezionato.
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare una forma.
-2.  Scegliere {{MenuCommand|Part → Inverti le forme}} dal menu in alto.
+2.  Scegliere **Part → Inverti le forme** dal menu in alto.
 3.  Viene creata una forma inversa come un nuovo oggetto separato.
 
 

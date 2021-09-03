@@ -11,7 +11,7 @@
 
 Creates an additive primitive in the active Body as the first feature, or fuses it to the existing feature(s). If no Body is found in the document, one will be automatically created.
 
-## Types of primitives {#types_of_primitives}
+## Types of primitives 
 
 -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Additive box](PartDesign_AdditiveBox.md)
 -   <img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Additive cone](PartDesign_AdditiveCone.md)

@@ -14,7 +14,7 @@ Creates an initial temperature constraint for a thermo-mechanical analysis.
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintInitialTemperature.svg" width=16px> [FEM ConstraintInitialTemperature](FEM_ConstraintInitialTemperature.md)** button.
-    -   Select the {{MenuCommand|Model → Thermal Constraints → <img src="images/FEM_ConstraintInitialTemperature.svg" width=16px> Constraint initial temperature}} option from the menu.
+    -   Select the **Model → Thermal Constraints → <img src="images/FEM_ConstraintInitialTemperature.svg" width=16px> Constraint initial temperature** option from the menu.
 2.  Enter an initial temperature value for the analysis.
 
 ## Limitations

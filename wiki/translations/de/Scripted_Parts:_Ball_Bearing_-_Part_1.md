@@ -33,7 +33,7 @@ Es gibt nur wenige Unterschiede.
 -   Wechsle in die axometrische Ansicht
 -   Zoom auf Alles
 
-### Kanten verrunden {#kanten_verrunden}
+### Kanten verrunden 
 
 Im Arbeitsbereich Part würde man mittels Benutzeroberfläche die Kanten in der 3D-Ansicht markieren und dann die Radien anbringen.
 Hier wählen wir alle Kanten eines Körpers aus und bringen die Radien an.

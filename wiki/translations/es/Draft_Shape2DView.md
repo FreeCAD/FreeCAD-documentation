@@ -30,7 +30,7 @@ Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDra
 
 </div>
 
-## How to produce plans and sections with different linewidths {#how_to_produce_plans_and_sections_with_different_linewidths}
+## How to produce plans and sections with different linewidths 
 
 <img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 

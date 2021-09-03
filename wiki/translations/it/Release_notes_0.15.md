@@ -18,19 +18,19 @@ Spark Plug Plane by r-frank
 
 </center>
 
-## Aspetti generali {#aspetti_generali}
+## Aspetti generali 
 
-### Casella di ricerca nella Vista Selezione {#casella_di_ricerca_nella_vista_selezione}
+### Casella di ricerca nella Vista Selezione 
 
 La finestra Selezione permette agli utenti di cercare al suo interno gli oggetti selezionati. Inoltre ora si ha la possibilità di selezionare una sola entità, deselezionarla, adattare la vista all\'entità e evidenziarla nella vista ad albero.
 
 ![](images/FeatureSelectionView.jpg )
 
-### Ampliamento del supporto delle unità {#ampliamento_del_supporto_delle_unità}
+### Ampliamento del supporto delle unità 
 
 Il nuovo sistema di [unità di misura](Quantity/it.md) di FreeCAD, introdotto con la versione 0.14, ora è utilizzato da quasi tutti i moduli, compresi [Sketcher](Sketcher_Workbench/it.md), [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md). Solo poche aree non ne fanno ancora uso, ma, in generale, ora si può contare sul supporto delle unità di misura in tutto il flusso di lavoro.
 
-### Altre migliorie {#altre_migliorie}
+### Altre migliorie 
 
 -   Ora Importa/Exporta dispone di una propria tabella nella sezione in Modifica \> Preferenze. Tutti i formati di file sono raggruppati nella propria scheda per agevolare la definizione delle opzioni.
 -   Le scorciatoie da tastiera personalizzate ora accettano combinazioni fino a 4 tasti.
@@ -38,11 +38,11 @@ Il nuovo sistema di [unità di misura](Quantity/it.md) di FreeCAD, introdotto co
 -   Supporto di barre degli strumenti personalizzate globali: Oltre ad aggiungere delle barre degli strumenti personalizzate con i propri strumenti per ogni ambiente di lavoro, ora è anche possibile aggiungere barre degli strumenti personalizzate che rimangono presenti in tutti gli ambienti.
 -   Nuovo Lib Pack per Windows, con l\'ultima versione di OCE 0.17
 
-## Ambiente Part {#ambiente_part}
+## Ambiente Part 
 
 -   Sono stati aggiunti alcuni nuovi elementi geometrici: Parabola, Arco di parabola, Iperbole e Arco di iperbole
 
-## Ambienti Part Design e Sketcher {#ambienti_part_design_e_sketcher}
+## Ambienti Part Design e Sketcher 
 
 ### Ellissi
 
@@ -50,40 +50,40 @@ Ora [Sketcher](Sketcher_Workbench/it.md) possiede un adeguato supporto per le el
 
 ![](images/Ellipse-example.png )
 
-### Strumenti di selezione avanzati {#strumenti_di_selezione_avanzati}
+### Strumenti di selezione avanzati 
 
 In Sketcher è stata implementata una serie di nuovi strumenti per facilitare la diagnosi, ottimizzare o risolvere i problemi negli schizzi. Ora è possibile, ad esempio, selezionare facilmente gli elementi associati a un vincolo, o selezionare il vincolo associato ad un elemento, oppure trovare i vincoli in conflitto o ridondanti.
 
 All\'interfaccia utente di Sketcher sono stati aggiunti alcuni nuovi pannelli, e ora è visibile un elenco selezionabile degli elementi dello schizzo.
 
-### Unire schizzi {#unire_schizzi}
+### Unire schizzi 
 
 Ora è possibile unire diversi schizzi in uno solo cliccando semplicemente su un pulsante.
 
-### Maggiori proprietà di schizzo {#maggiori_proprietà_di_schizzo}
+### Maggiori proprietà di schizzo 
 
 La visualizzazione delle proprietà degli oggetti di Schizzo è stata migliorata e i vincoli del disegno denominati Dati (distanza, distanza orizzontale, distanza verticale) ora appaiono nella scheda delle proprietà e sono modificabili direttamente, senza dover entrare nella modalità di modifica.
 
-### Altre migliorie minori {#altre_migliorie_minori}
+### Altre migliorie minori 
 
 -   Sono stati aggiunti diversi poligoni regolari a schizzo
 -   Sono stati aggiunti dei nuovi vincoli: il vincolo Simmetria perpendicolare agli assi di simmetria
 
-## Ambiente Spreadsheet {#ambiente_spreadsheet}
+## Ambiente Spreadsheet 
 
 L\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md) è stato completamente ricodificato. Ora FreeCAD possiede un editor di fogli di calcolo a regola d\'arte, robusto e ricco di funzionalità. Un paio di funzionalità presenti nella versione precedente di questo ambiente sono state rimosse, come ad esempio il controller di proprietà, ma questo è un problema complesso che richiede altro tempo per progettarlo correttamente. Al momento, tuttavia, il nuovo foglio di calcolo offre già delle possibilità di gran lunga migliori delle precenti per raccogliere i dati dal modello.
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:640px;">
 
-## Ambiente Draft {#ambiente_draft}
+## Ambiente Draft 
 
-### Consente di incollare i caratteri in ShapeString {#consente_di_incollare_i_caratteri_in_shapestring}
+### Consente di incollare i caratteri in ShapeString 
 
 Per i nostalgici del vecchio software CAD, ora con lo strumento [Forma da testo](Draft_ShapeString/it.md) si possono utilizzare i font adesivi (in cui le lettere sono composte da semplici linee, e non da forme piene).
 
 ![](images/Stickyfonts.jpg )
 
-### Altre migliorie minori {#altre_migliorie_minori_1}
+### Altre migliorie minori 
 
 
 <div class="mw-translate-fuzzy">
@@ -96,9 +96,9 @@ Per i nostalgici del vecchio software CAD, ora con lo strumento [Forma da testo]
 
 </div>
 
-## Ambiente Draft {#ambiente_draft_1}
+## Ambiente Draft 
 
-### Esportare le pagine di Disegno in DXF {#esportare_le_pagine_di_disegno_in_dxf}
+### Esportare le pagine di Disegno in DXF 
 
 Il sistema utilizzato fino ad ora per esportare le pagine di Disegno in DXF era un trucco molto complicato per convertire prima il codice SVG dell\'oggetto FreeCAD e poi convertirlo in DXF con l\'esportatore di Draft. Ora, l\'esportazione avviene all\'interno del modulo Drawing, più velocemente e con risultati più affidabili. L\'eportazione DXF ora utilizza un [modello di sistema](Drawing_templates/it.md) simile a quello dei fogli SVG. Se la pagina di Disegno utilizza un dato modello SVG, e nella stessa posizione è disponibile un modello DXF con lo stesso nome, esso viene utilizzato per generare il file DXF.
 
@@ -106,23 +106,23 @@ Il sistema utilizzato fino ad ora per esportare le pagine di Disegno in DXF era 
 
 Nel file DXF, le diverse viste sono collocate come blocchi scalati. Questo consente di ripristinare rapidamente la scala 1: 1.
 
-### Altre migliorie minori {#altre_migliorie_minori_2}
+### Altre migliorie minori 
 
 -   Ora è possibile riutilizzare le impostazioni della proiezione di una vista esistente durante la creazione di nuove viste.
 
-## Ambiente Arch {#ambiente_arch}
+## Ambiente Arch 
 
-### Aggiornato l\'importatore/esportatore IFC {#aggiornato_limportatoreesportatore_ifc}
+### Aggiornato l\'importatore/esportatore IFC 
 
 L\'importatore [IFC](Arch_IFC/it.md) di FreeCAD ha ricevuto un sacco di lavoro e test, e un aggiornamento massivo. Il vecchio importatore, basato su python, è stato disabilitato, ma è ancora utilizzabile dalla console python, e FreeCAD ora utilizza esclusivamente e intensamente quello nuovo, bleeding-edge [version 5](http://ifcopenshell.org/python.html) ([read more](http://ifcopenshell.org/pythonOCC/example1/) about it) di [IfcOpenShell](http://ifcopenshell.org/) che ora è disponibile per tutte le piattaforme principali (assicuratevi di scaricare la versione che corrisponde alla versione di python utilizzata per l\'installazione di FreeCAD). Ora beneficiamo di una importazione o esportazione molto più veloce e affidabile, di un codice molto più semplice e più chiaro (leggi: più semplice da estendere), e anche di alcuni prodotti aggiuntivi, come un miglior supporto per gli oggetti basati su curve e proprietà IFC.
 
-### Nuova funzionalità: Tagliare un oggetto con piano {#nuova_funzionalità_tagliare_un_oggetto_con_piano}
+### Nuova funzionalità: Tagliare un oggetto con piano 
 
 La nuova funzionalità [Taglia con un piano](Arch_CutPlane/it.md) permette di tagliare un oggetto secondo un piano definito dalla faccia di un altro oggetto. È possibile tagliare l\'oggetto dietro o davanti al piano scelto.
 
 ![](images/Arch_CutPlane_example.jpg )
 
-### Lo strumento Tetto è stato rinnovato {#lo_strumento_tetto_è_stato_rinnovato}
+### Lo strumento Tetto è stato rinnovato 
 
 Lo strumento [Tetto](Arch_Roof/it.md) è stato completamente rifatto e ora rende possibile definire pendenze diverse per ogni falda del tetto. Inoltre è possibile definire lo spessore di copertura e la larghezza del cornicione.
 
@@ -138,11 +138,11 @@ All\'ambiente [Architettura](Arch_Workbench/it.md) è stato aggiunto un nuovo og
 
 Il nuovo oggetto [Arredo](Arch_Equipment/it.md) è stato progettato per aggiungere ai progetti architettonici tutti i tipi di oggetti indipendenti, non strutturali, come gli apparecchi di illuminazione, le attrezzature sanitarie o i mobili.
 
-### Altre migliorie minori {#altre_migliorie_minori_3}
+### Altre migliorie minori 
 
 -   Ora il Punto base (Basepoint) di un oggetto [Telaio](Arch_Frame/it.md) può essere impostato su un determinato vertice del profilo.
 
-## Moduli esterni {#moduli_esterni}
+## Moduli esterni 
 
 C\'è anche stato un lavoro molto interessante su nuovi ambienti e sulle macro, che non sono (ancora!) integrati nel codice sorgente di FreeCAD, ma che sono facili da installare su una installazione di FreeCAD 0,15 esistente. Le istruzioni sono disponibili sulle seguenti pagine:
 
@@ -152,13 +152,13 @@ L\'ambiente [Assembly 2 workbench](https://github.com/hamish2014/FreeCAD_assembl
 
 ![](images/Assembly2_example.jpg )
 
-### Drawing Dimensioning {#drawing_dimensioning}
+### Drawing Dimensioning 
 
 L\'ambiente [Drawing dimensioning](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) aggiunge dei potenti strumenti di quotatura e di annotazione per l\'ambiente Disegno (vedere [questa discussione nel forum](http://forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
 
 ![](images/Drawing_Dimensioning_example.jpg )
 
-### Work Features {#work_features}
+### Work Features 
 
 La macro [WorkFeature](https://github.com/Rentlau/WorkFeature) aggiunge una vasta gamma di oggetti di aiuto, come i piani di allineamento e gli assi, e gli strumenti che consentono di posizionare e allineare gli oggetti lungo tali oggetti di supporto (vedere [questa discussione nel forum](http://forum.freecadweb.org/viewtopic.php?f=22&t=9056)).
 

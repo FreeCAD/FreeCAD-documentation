@@ -14,7 +14,7 @@ La commande **Std Exporter au format PDF** est principalement destinée à crée
 ## Utilisation
 
 1.  Si nécessaire, activez la page TechDraw correcte ou modifiez la vue 3D à votre convenance.
-2.  Sélectionnez l\'option {{MenuCommand|Fichier → <img src="images/Std_PrintPdf.svg" width=16px> Exporter au format PDF}} dans le menu.
+2.  Sélectionnez l\'option **Fichier → <img src="images/Std_PrintPdf.svg" width=16px> Exporter au format PDF** dans le menu.
 3.  Entrez un nom de fichier dans la boîte de dialogue.
 4.  Appuyez sur le bouton **Enregistrer**.
 
@@ -24,12 +24,12 @@ La commande **Std Exporter au format PDF** est principalement destinée à crée
 
 ## Remarques
 
--   Pour créer un PDF à partir d\'une page TechDraw, vous pouvez également utiliser l\'option de menu {{MenuCommand|Fichier → Exporter → Dessin technique (*.svg *.dxf *.pdf)}}. Ou bien, vous pouvez cliquer avec le bouton droit de la souris sur la page TechDraw dans la [Zone d\'affichage principale](Main_view_area.md) et sélectionner {{MenuCommand|Export PDF}} dans le menu contextuel.
+-   Pour créer un PDF à partir d\'une page TechDraw, vous pouvez également utiliser l\'option de menu **Fichier → Exporter → Dessin technique (*.svg *.dxf *.pdf)**. Ou bien, vous pouvez cliquer avec le bouton droit de la souris sur la page TechDraw dans la [Zone d\'affichage principale](Main_view_area.md) et sélectionner **Export PDF** dans le menu contextuel.
 -   Un fichier PDF créé à partir de la [vue 3D](3D_view/fr.md) contiendra une image bitmap, une capture d\'écran.
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

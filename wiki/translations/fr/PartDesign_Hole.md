@@ -30,7 +30,7 @@ Selon la sélection effectuée, certains champs seront activés ou resteront dé
 
 ![](images/PartDesign_Hole_parameters_fr.png )
 
-### Filetage et taille {#filetage_et_taille}
+### Filetage et taille 
 
 -   **Profil** : si défini sur *Aucun*, aucune information de filetage n\'est définie. Les profils de filetages [ISO](https://fr.wikipedia.org/wiki/Filetage_m%C3%A9trique) et [UTS](https://fr.wikipedia.org/wiki/Filetage_unifi%C3%A9) activent les champs *Direction*, *Taille*, *Adapter* et *Classe*.
 -   **Fileté** : si coché, les données de filetage seront ajoutées à la fonction Trou et le diamètre mineur du trou sera utilisé. Si cette case n\'est pas cochée, le trou est considéré comme non fileté et le diamètre principal nominal avec le *jeu* défini est choisi.
@@ -43,14 +43,14 @@ Selon la sélection effectuée, certains champs seront activés ou resteront dé
 -   **Diamètre** : définit le diamètre du trou si le *Profil* a été défini sur *Aucun*.
 -   \'\'\'Profondeur \'\'\' : profondeur du trou à partir du plan d\'esquisse. *Dimension* permet d\'indiquer une valeur dans un champ. *A travers tout* va réaliser le trou à travers tout le corps. **Remarque :** Pour des raisons techniques, *A travers tout* est en fait un trou de 10 mètres de profondeur. Si vous avez besoin de trous plus profonds, utilisez *Dimension*.
 
-### Trou découpé {#trou_découpé}
+### Trou découpé 
 
 -   **Type** : définit le type de coupe de trou: *Aucun* signifie pas de coupe, les autres types sont des normes différentes pour les vis ({{Version/fr|0.19}}) et les deux types génériques *Chambrage* et *Fraisure*.
 -   **Diamètre** : définit le diamètre supérieur (au plan d\'esquisse) pour la découpe du trou.
 -   \'\'\'Profondeur \'\'\' : profondeur de la découpe du trou, mesurée à partir du plan d\'esquisse.
 -   **Angle de fraisage** : angle de la découpe du trou conique. Applicable uniquement pour les fraisages.
 
-### Pointe de perçage {#pointe_de_perçage}
+### Pointe de perçage 
 
 -   **Type** : définit la fin du trou si *Profondeur* est réglé sur *Cote*.
     -   **Plat** produit un fond plat
@@ -75,7 +75,7 @@ La plupart des propriétés des Données sont les mêmes que celles indiquées d
 -   Par défaut, la fonction de perçage est extrudée en dessous du plan d\'esquisse. Si le solide se trouve sur le Plan XY et que l\'esquisse du trou est attachée au Plan XY, la fonction essaiera d\'extruder du solide et ne produira apparemment aucun résultat. Dans ce cas, l\'option *Reversed* doit être définie, sinon, l\'esquisse peut être mappée sur la face inférieure du solide.
 -   Modèle de taraudage ne fonctionne que si Inversé n\'est pas défini.
 
-## Définitions des types de coupes {#définitions_des_types_de_coupes}
+## Définitions des types de coupes 
 
 Les types de coupes (types de vis) sont définis dans des fichiers [json](https://fr.wikipedia.org/wiki/JavaScript_Object_Notation) depuis la version 0.19. Il existe un ensemble de fichiers distribués avec FreeCAD, mais les utilisateurs peuvent créer leurs propres définitions. Les fichiers sont à rechercher dans <UserAppDataDir>/PartDesign/Hole. `UserAppDataDir` peut être trouvé en tapant `App.getUserAppDataDir()` dans la [console Python](Python_console/fr.md).
 

@@ -29,7 +29,7 @@ If you would like to know how FreeCAD started years ago visit the [History](Hist
 
 Och om du har någon information som du vill ska finnas här, varför inte hjälpa oss med att låta denna manual växa genom att lägga in din information här? Att redigera wikisidor är lätt, [Denna sida](Help_FreeCAD/sv.md) kommer att hjälpa dig att börja. \_\_NOTOC\_\_
 
-## Använda FreeCAD {#använda_freecad}
+## Använda FreeCAD 
 
 
 </div>
@@ -134,7 +134,7 @@ Power users have written various [macros](macros.md) to enhance FreeCAD with mor
 
 Since FreeCAD 0.17, many macros can be installed using the [Addon Manager](Std_AddonMgr.md). For a list of the macros refer to the [Macros recipes](Macros_recipes.md) page. For manual installation see [How to install macros](How_to_install_macros.md).
 
-### External workbenches {#external_workbenches}
+### External workbenches 
 
 When many macros or functions are developed together, and are organized in toolbars and menus, they can become a new workbench.
 
@@ -152,7 +152,7 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 </div>
 
-## Online Hjälp {#online_hjälp}
+## Online Hjälp 
 
 
 <div class="mw-translate-fuzzy">

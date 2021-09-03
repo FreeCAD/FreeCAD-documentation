@@ -12,7 +12,8 @@ L\'atelier ElectroMagnetic (EM) fournit l'interface front-end de CAO à certains
 
 ## Installation
 
-L\'atelier [EM](EM_Workbench/fr.md) est un [Addon FreeCAD](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [AddonManager](AddonManager/fr.md). ceci peut être fait à partir de {{MenuCommand|Outils → Addon Manager}}
+L\'atelier [EM](EM_Workbench/fr.md) est un [Addon FreeCAD](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [AddonManager](AddonManager/fr.md). ceci peut être fait à partir de 
+**Outils → Addon Manager**
 
 Les solveurs électromagnétiques FastHenry2 et FasterCap doivent être installés séparément. Leurs codes binaires ainsi que les sources sont disponibles gratuitement sur [FastFieldSolvers](https://www.fastfieldsolvers.com).
 
@@ -30,7 +31,7 @@ FasterCap est un puissant programme d\'extraction de capacités en trois et deux
 
 La connaissance de FasterCap est une condition préalable à l\'utilisation efficace de l\'ElectroMagnetic Workbench for FasterCap. Nous vous suggérons de lire le fichier [FasterCap original](https://www.fastfieldsolvers.com/documentation.htm) et de lire un peu les exemples de fichiers fournis avec l\'installation.
 
-## FastHenry Tools {#fasthenry_tools}
+## FastHenry Tools 
 
 Voici les outils utilisés pour interagir avec FastHenry:
 
@@ -45,7 +46,7 @@ Voici les outils utilisés pour interagir avec FastHenry:
 -   <img alt="" src=images/EM_FHSolver.svg  style="width:32px;"> [FHSolver](EM_FHSolver/fr.md): Crée un objet FastHenry Solver
 -   <img alt="" src=images/EM_FHInputFile.svg  style="width:32px;"> [FHInputFIle](EM_FHInputFile/fr.md): Crée un fichier d\'entrée FastHenry
 
-## Outils FasterCap {#outils_fastercap}
+## Outils FasterCap 
 
 À l'heure actuelle, FasterCap est pris en charge via certaines macros du fichier {{FileName|Export_mesh.py}} disponible dans le [code source d'ElectroMagnetic Workbench GitHub](https://github.com/ediloren/EM-Workbench-for-FreeCAD).
 
@@ -64,7 +65,7 @@ Certains tutoriels vidéo sont disponibles pour les versions bêta de l\'atelier
 -   [FreeCAD ElectroMagnetic WorkBench tutorial: using the path object, part 1](https://www.youtube.com/watch?v=CRqDuEtbdds)
 -   [FreeCAD ElectroMagnetic WorkBench tutorial: using the path object, part 2](https://www.youtube.com/watch?v=slsLdLoF2OI)
 
-## Ateliers externes {#ateliers_externes}
+## Ateliers externes 
 
 Les ateliers FreeCAD sont faciles à programmer en [Python](Python/fr.md), il y a beaucoup de gens qui développent des établis supplémentaires en dehors des développeurs principaux de FreeCAD.
 

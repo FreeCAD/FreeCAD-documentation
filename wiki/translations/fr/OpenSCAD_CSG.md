@@ -2,7 +2,7 @@
 
 ## Importation
 
-### Éléments Supportés {#éléments_supportés}
+### Éléments Supportés 
 
 -   **primitives** : cube, sphère, cylindre, carré, cercle, polygones, polyèdre
 -   **booléenne** : union, différence, intersection
@@ -11,7 +11,7 @@
 -   multmatrix
 -   couleur
 
-### Elements non supportés {#elements_non_supportés}
+### Elements non supportés 
 
 -   projection
 -   surface
@@ -20,7 +20,7 @@
 
 ## Exportation
 
-### Éléments Supportés {#éléments_supportés_1}
+### Éléments Supportés 
 
 -   **primitives**: Box, Cylindre, Cône, Tore
 -   **booléen**: Coupure, Fusion, Common

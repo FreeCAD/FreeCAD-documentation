@@ -18,7 +18,7 @@ Un uso comune della primitiva elica è per <img src=images/PartDesign_AdditivePi
 1.  Attivare l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md).
 2.  Il dialogo Crea primitive può essere avviato in uno dei seguenti modi:
     -   Premere il pulsante **<img src=images/Part_Primitives.svg style="width:16px"> [Primitive](Part_Primitives/it.md)** nella barra degli strumenti di Parte.
-    -   Usare la voce {{MenuCommand|Part → <img src=images/Part_Primitives.svg style="width:16px"> [Crea primitive](Part_Primitives/it.md) → Elica}} nel menu di Parte.
+    -   Usare la voce **Part → <img src=images/Part_Primitives.svg style="width:16px"> [Crea primitive](Part_Primitives/it.md) → Elica** nel menu di Parte.
 
 
 </div>

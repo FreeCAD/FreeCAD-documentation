@@ -50,7 +50,7 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 <img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;">
 
-## Arch Workbench {#arch_workbench}
+## Arch Workbench 
 
 -   New [Arch Schedule](Arch_Schedule.md) tool: This tool has been completely rewritten, and now offers much more flexible ways to gather data from the document into a spreadsheet, using different kinds of queries, such as counting all objects of a certain type, or summing up the total volume of a certain category of objects.
 
@@ -80,7 +80,7 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 -   Import support for the [3DS](Arch_3DS.md) format has been added.
 
-## Draft Workbench {#draft_workbench}
+## Draft Workbench 
 
 -   [Autogroup system](Draft_AutoGroup.md): The Draft workbench now features an auto-group button on its main toolbar. When activated, all newly created Draft and Arch objects will automatically be placed in that group.
 
@@ -96,7 +96,7 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 <img alt="" src=images/Draft_Label_Preview.png  style="width:640px;">
 
-## FEM Workbench {#fem_workbench}
+## FEM Workbench 
 
 -   FEM Mesh
     -   **Gmsh object** is a mesh object, which allows using the [Gmsh](http://gmsh.info/) meshing tool inside FreeCAD. Various options of Gmsh are supported.
@@ -167,7 +167,7 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 <img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;">
 
-## Part Workbench {#part_workbench}
+## Part Workbench 
 
 -   The Open Cascade geometric modeling kernel was updated from 6.8.0 to 7.2.0 (actual OCC version may depend on platform/distro). This version brings a lot of bug fixes in Boolean operations, hidden line removal algorithm, as well as allowing new features to be added to the Part workbench.
 
@@ -187,7 +187,7 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 -   The new [Part container](Std_Part.md) can be used to group most types of shapes and to move them as a unit. It also contains standard planes and axes to attach objects to. It will serve as basis for the future Assembly workbench by providing a way to move parts around. It is available in all workbenches from a toolbar along with [Group](Std_Group.md).
 
-## PartDesign workbench {#partdesign_workbench}
+## PartDesign workbench 
 
 The PartDesign workbench received massive changes, the fruit of combined efforts from multiple developers over a period of 5 years. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width:800px;">
 
@@ -199,7 +199,7 @@ The PartDesign workbench received massive changes, the fruit of combined efforts
 
 -   New automatic workbench switching between PartDesign and Sketcher. When creating a new sketch from within the PartDesign workbench, once the sketch attachment is set, the UI automatically switches to the Sketcher workbench and its tools in editing mode. When the sketch is closed, the UI switches back to the PartDesign workbench, and restores the view to its previous state. Thus the Sketcher tools were removed from the PartDesign toolbars to liberate space for the new PartDesign features.
 
-## Path Workbench {#path_workbench}
+## Path Workbench 
 
 The Path workbench has been massively overhauled in version 0.17. The overhaul saw the removal of all older HeeksCNC code and replacement of the libarea python wrapper with the new Path-Area module. As a result operations have gotten much more powerful, faster, with a simplified code base.
 
@@ -223,7 +223,7 @@ The Path workbench has been massively overhauled in version 0.17. The overhaul s
 
 -   Dress-up operations can be used to refine core operations and add additional complexity. Dressups exist for [\'dogbone\'](Path_DressupDogbone.md) corners, [holding tags](Path_DressupTag.md), [ramp entry](Path_DressupRampEntry.md), and [dragknife](Path_DressupDragKnife.md) \'corner actions\'
 
-## Sketcher Workbench {#sketcher_workbench}
+## Sketcher Workbench 
 
 -   Sketches can now be attached in a wide variety of ways, not only to flat faces as it used to be. Of particular importance is attachment perpendicular to edges, useful for making profiles for [sweeping](Part_Sweep.md).
 
@@ -261,15 +261,15 @@ The Path workbench has been massively overhauled in version 0.17. The overhaul s
 
 -   Horizontal and Vertical constraints can be used to align selected points.
 
-## Spreadsheet Workbench {#spreadsheet_workbench}
+## Spreadsheet Workbench 
 
 -   An Excel-file importer was added.
 
-## Surface Workbench {#surface_workbench}
+## Surface Workbench 
 
 -   A new addition in v0.17, the Surface workbench has (for now) 4 functioning surface creation commands.
 
-## TechDraw Workbench {#techdraw_workbench}
+## TechDraw Workbench 
 
 [TechDraw](TechDraw_Workbench.md) is a new workbench for creating technical drawings that aims to replace the aging Drawing workbench. FreeCAD v0.17 is still shipped with the Drawing workbench so you can still open and edit your files containing Drawing pages, but Drawing will be phased out in a future release. Some of the exciting new stuff that TechDraw brings:
 
@@ -281,7 +281,7 @@ The Path workbench has been massively overhauled in version 0.17. The overhaul s
 -   Dimensioning is now supported, through multiple dimensioning tools: horizontal, vertical, length, radial, diameter, angular.
 -   Decoration tools: hatching, hatching compatible to Autodesk PAT specification, symbols, images.
 
-## Additional Modules {#additional_modules}
+## Additional Modules 
 
 Some of the new community modules that were created.
 

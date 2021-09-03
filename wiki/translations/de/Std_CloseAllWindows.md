@@ -17,7 +17,7 @@ Der **Std Alles schließen**-Befehl schließt alle Fenster und dadurch alle Doku
 
 Wähle **Datei** → **Alles schließen** aus der Menüleiste.
 
-1.  Wähle die {{MenuCommand|Datei → <img src="images/Std_CloseAllWindows.svg" width=16px> Alles Schließen}}-Option aus dem Menü.
+1.  Wähle die **Datei → <img src="images/Std_CloseAllWindows.svg" width=16px> Alles Schließen**-Option aus dem Menü.
 2.  Falls es nicht gesicherte Dokumente gibt, öffnet sich eine Dialog-Box, die zum Sichern auffordert:
     -   Drücke die **Speichern**-Schaltfläche zum Sichern des aktiven Dokuments. Falls erforderlich, gib zuerst den Dateinamen ein.
     -   Drücke die **Schließen ohne zu Speichern**-Schaltfläche, um das aktive Dokument zu verlassen und alle Änderungen zu verlieren.
@@ -29,11 +29,11 @@ Wähle **Datei** → **Alles schließen** aus der Menüleiste.
 
 ## Hinweise
 
--   Ein Dokument kann auch geschlossen werden, indem es in der [Baumansicht](Tree_View/de.md) mit einem Rechtsklick ausgewählt und {{MenuCommand|Dokument schließen}} aus dem Kontextmenü benutzt wird.
+-   Ein Dokument kann auch geschlossen werden, indem es in der [Baumansicht](Tree_View/de.md) mit einem Rechtsklick ausgewählt und **Dokument schließen** aus dem Kontextmenü benutzt wird.
 
 ## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: {{MenuCommand|Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath}}.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
 
 ## Skripten
 

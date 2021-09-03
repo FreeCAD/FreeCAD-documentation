@@ -18,7 +18,7 @@ L\'outil Dimension d\'Angle ajoute une dimension angulaire à une vue. La dimens
 <img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width:200px;"> 
 *Mesurer l'angle entre deux droites*
 
-## Comment faire {#comment_faire}
+## Comment faire 
 
 1.  Sélectionnez les points ou les arêtes qui définissent votre mesure.
 2.  Appuyez sur le bouton**<img src="images/TechDraw_Dimension_Angle.svg" width=16px> [Dimension d'Angle](TechDraw_Dimension_Angle/fr.md)

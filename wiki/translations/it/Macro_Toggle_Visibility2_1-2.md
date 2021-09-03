@@ -35,7 +35,7 @@ Se non ci sono oggetti selezionati tutti gli oggetti vengono nascosti
 
 Se tutti gli oggetti sono nascosti e nella Vista Combinata non ci sono oggetti selezionati, rende visibili tutti gli oggetti
 
-## Script 1 {#script_1}
+## Script 1 
 
 ToolBar Icon <img alt="" src=images/Macro_SelectVisible2.png  style="width:64px;">
 
@@ -77,7 +77,7 @@ try:
 except Exception:
     None }}
 
-## Script 2 {#script_2}
+## Script 2 
 
 ToolBar <img alt="" src=images/Macro_VisibleAlls2.png  style="width:64px;">
 

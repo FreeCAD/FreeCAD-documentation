@@ -12,7 +12,7 @@
 
 ## Применение
 
-1.  Выберите из меню опцию {{MenuCommand|Вид → Стерео → <img src="images/Std_ViewIvStereoOff.svg" width=16px> Выключить стерео}}.
+1.  Выберите из меню опцию **Вид → Стерео → <img src="images/Std_ViewIvStereoOff.svg" width=16px> Выключить стерео**.
 
 ## Scripting
 

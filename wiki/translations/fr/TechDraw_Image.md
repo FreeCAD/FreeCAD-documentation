@@ -16,7 +16,7 @@ L\'outil Image insère une image [bitmap](bitmap/fr.md) (png, jpeg, jpg, bmp, et
 
 ![](images/TechDraw_Image_example.png ) *Image insérée dans la page de dessin*
 
-## Comment faire {#comment_faire}
+## Comment faire 
 
 1.  Appuyez sur le bouton**<img src="images/TechDraw_Image.svg" width=16px> [Insérer une image Bitmap](TechDraw_Image/fr.md)
 **

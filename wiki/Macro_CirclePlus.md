@@ -66,7 +66,7 @@ Copy the code and paste it in the macro directory
 Download image positioning on the icon <img alt="" src=images/Macro_CirclePlus.png  style="width:64px;"> and then drag the mouse right click \"save as\" (do not change the name)
 {{CodeDownload|https://gist.github.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7|Last version Macro_CirclePlus <br />and the icons at the end of the page}}
 
-## Memo of circle {#memo_of_circle}
+## Memo of circle 
 
 **Examples codes**
 

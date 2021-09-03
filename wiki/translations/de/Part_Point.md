@@ -21,12 +21,12 @@ Ein Punkt (Knoten) geometrischer Grundkörper.
 1.  Wechsle zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md)
 2.  Der Grundkörper erstellen Dialog kann auf verschiedene Arten aufgerufen werden:
     -   Drücken der <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Grundkörper](Part_Primitives/de.md) in der Part Werkzeugleiste.
-    -   Unter Verwendung des {{MenuCommand|Part → [Grundkörper erstellen](Part_Primitives/de.md) → Punkt}} Menüs
+    -   Unter Verwendung des **Part → [Grundkörper erstellen](Part_Primitives/de.md) → Punkt** Menüs
 
 
 </div>
 
-### Geometrische Grundkörper {#geometrische_grundkörper}
+### Geometrische Grundkörper 
 
 +------------------------------------------------------------------------------+---------------------+
 | ![](images/PartVertexPrimitivesOptions_it.png ) | Punkt               |

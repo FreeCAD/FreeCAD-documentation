@@ -100,7 +100,7 @@ Wire = make_wire(pointslist, closed=True, face=True)
 Window = make_window(Wire, name="Big window")
 ```
 
-## İçe Aktarma {#içe_aktarma}
+## İçe Aktarma 
 
 Python fonksiyonları, modül adı verilen dosyalarda saklanır. Bu modülde herhangi bir işlevi kullanmadan önce, modül {{incode | import}} talimatı ile belgeye dahil edilmelidir.
 

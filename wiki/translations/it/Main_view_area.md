@@ -17,7 +17,7 @@ Di solito contiene le schede per la pagina iniziale dellambiente [Start](Start_W
 
 *L'area della vista principale è contrassegnata dal numero 1 e può contenere varie schede, principalmente la pagina iniziale e la vista 3D.*
 
-## Le finestre {#le_finestre}
+## Le finestre 
 
 Le finestre nell\'area di visualizzazione principale possono essere organizzate con comandi situati nel menu [Finestre](Std_Windows_Menu/it.md), come [Affiancate](Std_TileWindows/it.md) o [A cascata](Std_CascadeWindows/it.md).
 

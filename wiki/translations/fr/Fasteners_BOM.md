@@ -17,7 +17,7 @@
 1.  Basculez vers <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners](Fasteners_Workbench.md) (installer à partir de <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) si ce n\'est pas déjà fait)
 2.  Appelez l\'outil de nomenclature des fixations de plusieurs manières:
     -   Appuyez sur le bouton <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;">
-    -   Utilisez l\'entrée {{MenuCommand|Fasteners → BOM}} dans le menu Fasteners
+    -   Utilisez l\'entrée **Fasteners → BOM** dans le menu Fasteners
 3.  Lorsqu\'il est appelé, l\'outil de nomenclature des fixations ajoute une feuille de calcul au document FreeCAD.
     -   La feuille de calcul représente la nomenclature des fixations utilisées dans l\'arborescence des fonctions du modèle.
 

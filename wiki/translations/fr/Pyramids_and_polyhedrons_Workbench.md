@@ -30,7 +30,7 @@ Accédez à <https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> et su
 -   Une fois installé, ouvrez l\'atelier Pyramids-and-Polyhedrons
 -   Cliquez sur une partie de votre choix et ajustez les paramètres selon vos préférences.
 
-## Tutoriels sur youtube {#tutoriels_sur_youtube}
+## Tutoriels sur youtube 
 
 -   Utilisation et possibilités des pyramides: <https://youtu.be/H8IgmzpMpSg>
 -   Plus avancé, construisez un modèle de dôme géodésique: <https://youtu.be/FsYHYnVcVvI>

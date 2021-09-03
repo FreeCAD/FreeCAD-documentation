@@ -29,7 +29,7 @@ L\'option sur le menu pop-up le plus à droite met à jour la liste des variable
 
 Une variable peut être retirée de la liste par un clic droit sur elle ou sa valeur, et en sélectionnant \"remove variable\"
 
-## Interface utilisateur {#interface_utilisateur}
+## Interface utilisateur 
 
 ![](images/MacroVariableWatcherGui1.jpg )
 

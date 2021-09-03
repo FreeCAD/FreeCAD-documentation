@@ -33,7 +33,7 @@ FreeCAD 路径工作台工作流程以以下方式创建机器指令:
 
 </div>
 
-## General concepts {#general_concepts}
+## General concepts 
 
 
 <div class="mw-translate-fuzzy">
@@ -105,7 +105,7 @@ Path Inspection:
 
 1.  If you use the Path Inspect tool to look at g-code, you will see it in \'mm/s\' because it is not being post-processed
 
-## Heights and depths {#heights_and_depths}
+## Heights and depths 
 
 
 <div class="mw-translate-fuzzy">
@@ -122,7 +122,7 @@ Path Inspection:
 
 Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
 
-### Project Commands {#project_commands}
+### Project Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -156,7 +156,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### Tool Commands {#tool_commands}
+### Tool Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -188,7 +188,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
 
-### Basic Operations {#basic_operations}
+### Basic Operations 
 
 -   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Creates a profile operation of the entire model, or from one or more selected faces or edges. <small>(v0.19)</small> 
 
@@ -220,7 +220,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### 3D Operations {#d_operations}
+### 3D Operations 
 
 -   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Pocket](Path_Pocket_3D.md): Creates a path for a 3D pocket.
 
@@ -234,7 +234,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
-### Path Dressup {#path_dressup}
+### Path Dressup 
 
 -   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Boundary Dressup](Path_DressupPathBoundary.md): Adds a boundary dressup modification to a selected path.
 
@@ -362,7 +362,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-## ToolBit architecture {#toolbit_architecture}
+## ToolBit architecture 
 
 Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
 

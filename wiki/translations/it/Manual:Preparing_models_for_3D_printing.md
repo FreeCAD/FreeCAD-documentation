@@ -28,13 +28,13 @@ Se siete stati oculati durante la modellazione, la maggior parte degli inconveni
 
 Da qui in avanti, si suppone che i primi due criteri siano soddisfatti, e che ormai si è in grado di produrre oggetti solidi di dimensioni corrette. Vediamo ora come affrontare il terzo punto.
 
-### Esportare nello slicer {#esportare_nello_slicer}
+### Esportare nello slicer 
 
 Questa è la tecnica più utilizzata per la stampa 3D. L\'oggetto 3D viene esportato in un altro programma ( lo slicer, l\'affettatrice) che genera il G-codice dall\'oggetto, affettando in strati sottili (da qui il nome), che riproducono i movimenti che la stampante 3D farà. Poiché molti di tali stampanti sono di tipo proprietario, ci sono spesso piccole differenze da una all\'altra. Questi programmi di solito offrono la possibilità di configurazioni avanzate che permettono di adattare l\'uscita esattamente per le funzioni della propria stampante 3D.
 
 Anche se la stampa 3D è un soggetto troppo vasto per questo manuale, vedremo come esportare e utilizzare questi slicer per verificare che l\'uscita sia corretta.
 
-### Convertire gli oggetti in mesh {#convertire_gli_oggetti_in_mesh}
+### Convertire gli oggetti in mesh 
 
 Alla data attuale, nessuno degli slicer è in grado di ricevere direttamente la geometria solida come viene prodotta in FreeCAD. Quindi è necessario convertire prima qualsiasi oggetto che si desideri stampare in 3D in un [mesh](https://en.wikipedia.org/wiki/Polygon_mesh), che apribile dallo slicer. Fortunatamente, anche se convertire un mesh in un solido è un\'operazione complicata, al contrario, convertire un solido in un mesh, è molto semplice. Tutto quello a cui bisogna stare attenti è che ora si verifica il degrado di cui abbiamo parlato in precedenza. Bisogna controllare che il degrado rimanga all\'interno di limiti accettabili.
 
@@ -86,7 +86,7 @@ Nella maggior parte dei casi, però, i valori di default danno un risultato sodd
 
 Se non si possiede una stampante 3D, di solito è molto facile trovare dei servizi commerciali che stampano e inviano gli oggetti stampati per posta. Tra i più famosi ci sono [Shapeways](http://www.shapeways.com/) e [Sculpteo](http://www.sculpteo.com/), ma di solito è facile trovarne molti altri nella propria città. In tutte le grandi città al giorno d\'oggi si trovano i [Fab labs](https://en.wikipedia.org/wiki/Fab_lab), che sono negozi dotati di una serie di macchine per la produzione 3D, compresa quasi sempre almeno una stampante 3D. I laboratori Fab sono solitamente degli spazi comunitari, che vi permettono di utilizzare le loro macchine, a pagamento o gratuitamente a seconda dei Fab Lab, ma che vi insegnano anche come usarle, e che promuovono altre attività relative alla produzione 3D.
 
-### Utilizzare Slic3r {#utilizzare_slic3r}
+### Utilizzare Slic3r 
 
 [Slic3r](http://slic3r.org/) è un\'applicazione che converte gli oggetti STL in G-code che possono essere inviati direttamente alle stampanti 3D. Come FreeCAD, è gratuito, open-source e funziona su Windows, Mac OS e Linux. Configurare correttamente le cose per la stampa 3D è un processo complicato, in cui è necessario avere una buona conoscenza della stampante 3D, quindi non è molto utile generare il codice G prima di poter realmente andare in stampa (il file G-code potrebbe non funzionare bene su un\'altra stampante), ma per noi è comunque utile, per controllare che il file STL possa essere stampato senza problemi.
 
@@ -97,7 +97,7 @@ Questo è il nostro file STL esportato e aperto in Slic3r. Usando il scheda **an
 
 <div class="mw-translate-fuzzy">
 
-### Utilizzare l\'addon Cura {#utilizzare_laddon_cura}
+### Utilizzare l\'addon Cura 
 
 Attenzione: l\'addon Cura non è al momento funzionante in FreeCAD 0.17!
 
@@ -128,7 +128,7 @@ Dopo aver installato sia Cura, sia l\'ambiente Cura, si è in grado di usarlo pe
 
 <div class="mw-translate-fuzzy">
 
-### Generare il G-code {#generare_il_g_code}
+### Generare il G-code 
 
 Attenzione: questa sezione è stata realizzata per FreeCAD 0.16. Sono stati apportati cambiamenti significativi alla creazione del percorso. Si prega di fare riferimento alla documentazione dell\'ambiente [Path](Path_Workbench/it.md) in generale o al tutorial della [procedura per path](Path_Walkthrough_for_the_Impatient/it.md)!
 

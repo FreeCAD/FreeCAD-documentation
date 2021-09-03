@@ -39,17 +39,17 @@ Installer le avec le <img alt="" src=images/AddonManager.svg  style="width:24px;
 
 ## Exemples
 
-L\'atelier CadQuery inclut des exemples de scripts disponibles dans les entrées {{MenuCommand|CadQuery → Examples → ...}} du menu supérieur.
+L\'atelier CadQuery inclut des exemples de scripts disponibles dans les entrées **CadQuery → Examples → ...** du menu supérieur.
 
 Autres exemples:
 
 -   Prise en charge de l\'imprimante Prusa i3 (directement disponible en tant qu\'exemple de script de l\'atelier **Ex032\_3D\_Printer\_Extruder\_Support**): <https://github.com/adam-urbanczyk/cadquery-models>
 
-## Dernière version de CadQuery {#dernière_version_de_cadquery}
+## Dernière version de CadQuery 
 
 La dernière version de CadQuery n\'utilise plus FreeCAD et n\'est pas compatible avec l\'atelier CadQuery. Si vous êtes intéressé par la dernière version, jetez un œil au \[module <https://github.com/CadQuery/cadquery> module Python CadQuery\] et à l\'[éditeur graphique CadQuery](https://github.com/CadQuery/CQ-editor).
 
-## Autres liens intéressants {#autres_liens_intéressants}
+## Autres liens intéressants 
 
 -   <https://github.com/easyw/kicad-3d-models-in-freecad>
 -   [Macros](Macros_recipes/fr.md)

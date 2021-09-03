@@ -11,7 +11,7 @@
 
 The [Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md) tool allows the user to create drawing and dimensioning of reinforcing bars.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
  <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:800px;"> 
 
@@ -65,7 +65,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 The [Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
-### Create Reinforcement Drawing And Dimensioning {#create_reinforcement_drawing_and_dimensioning}
+### Create Reinforcement Drawing And Dimensioning 
 
  
 ```python
@@ -375,9 +375,9 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 
 
-# <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> Reinforcement Drawing {#arch_rebar_drawing.svg_reinforcement_drawing}
+# <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> Reinforcement Drawing 
 
-## Usage {#usage_1}
+## Usage 
 
 1\. Open FreeCAD Model containing reinforcement bars created using [Reinforcement Addon](Reinforcement_Addon.md).
 
@@ -391,7 +391,7 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
     makeStructuresReinforcementDrawing(view=view)
 ```
 
-## ReinforcementDrawingView Object {#reinforcementdrawingview_object}
+## ReinforcementDrawingView Object 
 
 A Rebars Drawing SVG View object.
 
@@ -445,7 +445,7 @@ A Rebars Drawing SVG View object.
 
 -    **DimensionBottomOffset**: The bottom offset for each new ReinforcementDimensioning object.
 
-## Scripting {#scripting_1}
+## Scripting 
 
 
 **See also:**
@@ -454,9 +454,9 @@ A Rebars Drawing SVG View object.
 
 The Reinforcement Drawing functions can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions:
 
-### Create Reinforcement Drawing View {#create_reinforcement_drawing_view}
+### Create Reinforcement Drawing View 
 
-#### For one structure {#for_one_structure}
+#### For one structure 
 
  
 ```python
@@ -540,7 +540,7 @@ reinforcement_drawing_page = makeReinforcementDrawing(
 
 
 
-##### Example {#example_1}
+##### Example 
 
 
 
@@ -626,7 +626,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 
 
-#### For multiple structures {#for_multiple_structures}
+#### For multiple structures 
 
  
 ```python
@@ -667,7 +667,7 @@ structure_drawing_page_dict = makeStructuresReinforcementDrawing(
 
 
 
-##### Example {#example_2}
+##### Example 
 
 
 
@@ -782,9 +782,9 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 
 
-# <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> Reinforcement Dimensioning {#arch_rebar_dimensioning.svg_reinforcement_dimensioning}
+# <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> Reinforcement Dimensioning 
 
-## Usage {#usage_2}
+## Usage 
 
 1\. Open FreeCAD Model containing reinforcement bars created using [Reinforcement Addon](Reinforcement_Addon.md).
 
@@ -813,11 +813,11 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 ```
 
-## ReinforcementDimensioning Object {#reinforcementdimensioning_object}
+## ReinforcementDimensioning Object 
 
 A Rebar Dimensioning SVG View object.
 
-### Properties {#properties_1}
+### Properties 
 
 -    **ParentDrawingView**: The parent ReinforcementDrawingView object containing the drawing of [Rebar](Arch_Rebar.md) object.
 
@@ -879,7 +879,7 @@ A Rebar Dimensioning SVG View object.
 
 -    **MultiRebar_TextPositionType**: It specifies the dimension label position type, in case of multiple rebars are visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
 
-## Scripting {#scripting_2}
+## Scripting 
 
 
 **See also:**
@@ -888,7 +888,7 @@ A Rebar Dimensioning SVG View object.
 
 The Reinforcement Dimensioning functions can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions:
 
-### Create Reinforcement Dimensioning Object {#create_reinforcement_dimensioning_object}
+### Create Reinforcement Dimensioning Object 
 
  
 ```python
@@ -986,7 +986,7 @@ dimension_object = makeReinforcementDimensioningObject(
 
 
 
-##### Example {#example_3}
+##### Example 
 
 
 

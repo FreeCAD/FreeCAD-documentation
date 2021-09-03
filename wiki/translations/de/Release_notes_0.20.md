@@ -27,9 +27,9 @@ Siehe [Hilf FreeCAD](Help_FreeCAD.md) für Wege, zu FreeCAD beizutragen.
 
 ## Allgemeines
 
-### Python 3 und Qt5 {#python_3_und_qt5}
+### Python 3 und Qt5 
 
-### Bekannte Probleme {#bekannte_probleme}
+### Bekannte Probleme 
 
 ### Entwicklung
 
@@ -41,7 +41,7 @@ Weitere Neuigkeiten zur Entwicklung:
 
 ### Dokumentation
 
-### Bekannte Begrenzungen {#bekannte_begrenzungen}
+### Bekannte Begrenzungen 
 
 ## Benutzeroberfläche
 
@@ -66,32 +66,32 @@ Weitere Neuigkeiten zur Entwicklung:
   ![](images/Improved_tooltips_relnotes_0.20.gif )   Tooltips now display the command name in the title, making it easier for new users to look for help. At the end of the tooltip the \"internal\" command name is added in parentheses: *(Std\_WhatsThis)*. This is also the name of the page that documents the command in the Wiki. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=34&t=58747), [pull request \#4978](https://github.com/FreeCAD/FreeCAD/pull/4978).
   -------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Weitere Verbesserungen der Benutzeroberfläche {#weitere_verbesserungen_der_benutzeroberfläche}
+### Weitere Verbesserungen der Benutzeroberfläche 
 
 -   Es ist nun möglich, die Ansicht des [Abhängigkeitsgraphen](Std_DependencyGraph/de.md) mit der Maus zu verschieben. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=34791), [pull request \#4638](https://github.com/FreeCAD/FreeCAD/pull/4638).
 -   Es wurde ein Problem behoben, bei dem die Verwendung eines Stifttabletts (z.B. Wacom Tablett) so langsam war, dass es völlig unbrauchbar wurde. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=45046), [pull request \#4687](https://github.com/FreeCAD/FreeCAD/pull/4687).
 
-## Anwendung::Verknüpfung und Zusammenbau {#anwendungverknüpfung_und_zusammenbau}
+## Anwendung::Verknüpfung und Zusammenbau 
 
-## Kernsystem, Anwendung, Basis und Gui Namensräume {#kernsystem_anwendung_basis_und_gui_namensräume}
+## Kernsystem, Anwendung, Basis und Gui Namensräume 
 
 ## Erweiterungsverwalter
 
 
 <div class="mw-translate-fuzzy">
 
-## Arbeitsbereich Architektur {#arbeitsbereich_architektur}
+## Arbeitsbereich Architektur 
 
 
 </div>
 
-## Arbeitsbereich Entwurf {#arbeitsbereich_entwurf}
+## Arbeitsbereich Entwurf 
 
-### Weitere Entwurf Verbesserungen {#weitere_entwurf_verbesserungen}
+### Weitere Entwurf Verbesserungen 
 
 -   Es ist nun möglich, einen [Entwurf Draht](Draft_Wire/de.md) über das [Entwurf Bearbeiten](Draft_Edit/de.md) Kontextmenü umzukehren. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [pull request \#4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
 
-## Arbeitsbereich FEM {#arbeitsbereich_fem}
+## Arbeitsbereich FEM 
 
 
 <div class="mw-translate-fuzzy">
@@ -104,7 +104,7 @@ Weitere Neuigkeiten zur Entwicklung:
 
 </div>
 
-### Weitere FEM Verbesserungen {#weitere_fem_verbesserungen}
+### Weitere FEM Verbesserungen 
 
 -   The element order of [Gmsh](FEM_MeshGmshFromShape.md) meshes can be changed via the mesh dialog. [PR \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660)
 -   Material cards can now contain values for the electrical conductivity. [PR \#4647](https://github.com/FreeCAD/FreeCAD/pull/4647)
@@ -118,35 +118,35 @@ Weitere Neuigkeiten zur Entwicklung:
 
 ## Polygonnetze
 
-### Weitere Verbesserungen {#weitere_verbesserungen}
+### Weitere Verbesserungen 
 
-## OpenSCAD Arbeitsbereich {#openscad_arbeitsbereich}
+## OpenSCAD Arbeitsbereich 
 
 Interoperability with OpenSCAD has been improved, adding support for several operations missing from earlier versions (linear extrude with rotations, rotational extrusions). Several operations are modified to provide improved FreeCAD object equivalents, particularly for twisted extrusions. Surface generation from discrete data was modified to give more OpenSCAD-like results, rather than splined surfaces.
 
-## Arbeitsbereich Formteil {#arbeitsbereich_formteil}
+## Arbeitsbereich Formteil 
 
-### Weitere Verbesserungen {#weitere_verbesserungen_1}
+### Weitere Verbesserungen 
 
 -   The dialog to edit [Cylinders](Part_Cylinder.md) allows now to specify an angle in respect to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
 
-## Arbeitsbereich PartDesign {#arbeitsbereich_partdesign}
+## Arbeitsbereich PartDesign 
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width:384px;">Effect of the new option *Length along sketch normal*.Click on the image to show the animation.   There is a new option to pad a certain length along the direction. The length is either measured along the sketch normal or along the custom direction. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=50466), [pull request \#3893](https://github.com/FreeCAD/FreeCAD/pull/3893)
   <img alt="" src=images/PartDesign_Cylinder_direction_relnotes_0.20.png  style="width:384px;">                                                                                                                                The dialog to edit [Cylinder](PartDesign_AdditiveCylinder.md) (additive and subtractive) allows now to specify an angle in respect to the normal of the chosen attachment plane. This way one can create skew cylinders. [pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Weitere Verbesserungen {#weitere_verbesserungen_2}
+### Weitere Verbesserungen 
 
 -   The [Helix](PartDesign_AdditiveHelix.md) feature has the new mode **Height-Turns-Growth** to create flat spirals. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=19&t=56378) [PR \#4590](https://github.com/FreeCAD/FreeCAD/pull/4590)
 -   The [Sprocket](PartDesign_Sprocket.md) feature can now create also ISO-normed sprockets. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525#p478369) [PR \#4478](https://github.com/FreeCAD/FreeCAD/pull/4478)
 
-## Arbeitsbereich Pfad {#arbeitsbereich_pfad}
+## Arbeitsbereich Pfad 
 
-## Arbeitsbereich Rendern {#arbeitsbereich_rendern}
+## Arbeitsbereich Rendern 
 
-## Arbeitsbereich Skizzierer {#arbeitsbereich_skizzierer}
+## Arbeitsbereich Skizzierer 
 
 
 <div class="mw-translate-fuzzy">
@@ -162,7 +162,7 @@ Interoperability with OpenSCAD has been improved, adding support for several ope
 
 </div>
 
-### Weitere Verbesserungen {#weitere_verbesserungen_3}
+### Weitere Verbesserungen 
 
 -   Überarbeitete Stutzen Unterstützung:
 
@@ -176,23 +176,23 @@ Interoperability with OpenSCAD has been improved, adding support for several ope
 
 -   Fix \'Reference\' option not working for radius/diameter at creation time [PR for radius](https://github.com/FreeCAD/FreeCAD/pull/4744) [PR for diameter](https://github.com/FreeCAD/FreeCAD/pull/4832) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584)
 
-## Arbeitsbereich Tabellenkalkulation {#arbeitsbereich_tabellenkalkulation}
+## Arbeitsbereich Tabellenkalkulation 
 
 -   It is now possible to select in the row/column context-menu at what positions new rows/columns will be inserted. Furthermore, when selecting several rows/columns, the row/column context-menu offers now to insert as many new rows/columns as selected. [pull request \#4704](https://github.com/FreeCAD/FreeCAD/pull/4704).
 
-## Arbeitsbereich Start {#arbeitsbereich_start}
+## Arbeitsbereich Start 
 
-## Arbeitsbereich Oberfläche {#arbeitsbereich_oberfläche}
+## Arbeitsbereich Oberfläche 
 
-## Arbeitsbereich TechDraw {#arbeitsbereich_techdraw}
+## Arbeitsbereich TechDraw 
 
-### Weitere TechDraw Verbesserungen {#weitere_techdraw_verbesserungen}
+### Weitere TechDraw Verbesserungen 
 
 ## Internet
 
-## Zusätzliche Module {#zusätzliche_module}
+## Zusätzliche Module 
 
-### 3D Druckwerkzeuge {#d_druckwerkzeuge}
+### 3D Druckwerkzeuge 
 
 ### A2plus
 
@@ -204,18 +204,18 @@ Interoperability with OpenSCAD has been improved, adding support for several ope
 
 ### BOLTSFC
 
-### Arbeitsbereich GekrümmteFormen {#arbeitsbereich_gekrümmteformen}
+### Arbeitsbereich GekrümmteFormen 
 
-### Dodo (ehemals Flamingo) {#dodo_ehemals_flamingo}
+### Dodo (ehemals Flamingo) 
 
 ### Befestigungselemente
 
-### Polygonnetz Remodellierung Arbeitsbereich {#polygonnetz_remodellierung_arbeitsbereich}
+### Polygonnetz Remodellierung Arbeitsbereich 
 
-### MOOC Arbeitsbereich {#mooc_arbeitsbereich}
+### MOOC Arbeitsbereich 
 
-### KnotenEditor (PyFlow) {#knoteneditor_pyflow}
+### KnotenEditor (PyFlow) 
 
-### Wege, PyTrails, Abbiege, pivy\_trackers, und Geomatik {#wege_pytrails_abbiege_pivy_trackers_und_geomatik}
+### Wege, PyTrails, Abbiege, pivy\_trackers, und Geomatik 
 
 [Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)

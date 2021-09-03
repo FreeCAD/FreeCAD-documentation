@@ -17,7 +17,7 @@ Acest instrument identifică găuri/orificii (secvența circulară a marginilor 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -26,7 +26,8 @@ Acest instrument identifică găuri/orificii (secvența circulară a marginilor 
 <div class="mw-translate-fuzzy">
 
 1.  Selectați un obiect [Shape](Part_Workbench.md)
-2.  Apăsați **<img src="images/Arch_CloseHoles.svg" width=16px> [Close Holes](Arch_CloseHoles.md)** entry in {{MenuCommand|Arch → Utilities → Close Holes}}
+2.  Apăsați **<img src="images/Arch_CloseHoles.svg" width=16px> [Close Holes](Arch_CloseHoles.md)
+** entry in **Arch → Utilities → Close Holes**
 
 
 </div>
@@ -34,7 +35,7 @@ Acest instrument identifică găuri/orificii (secvența circulară a marginilor 
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

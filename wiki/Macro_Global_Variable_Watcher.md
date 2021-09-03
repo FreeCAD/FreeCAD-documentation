@@ -25,7 +25,7 @@ Select global variables to be watched by using the rightmost pop-up menu. Click 
 
 A variable may be removed from the watch list by right-clicking over it or it\'s value, and selecting \"remove variable\"
 
-## User Interface {#user_interface}
+## User Interface 
 
  ![](images/MacroVariableWatcherGui1.jpg ) 
 

@@ -29,7 +29,7 @@ Questo strumento smussa i bordi selezionati di un oggetto. Una finestra di dialo
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **<img src="images/Part_Chamfer.svg" width=30px>** dell\'ambiente [Part](Part_Workbench/it.md), oppure selezionare {{MenuCommand|Part → Smussa...}}.
+1.  Premere il pulsante **<img src="images/Part_Chamfer.svg" width=30px>** dell\'ambiente [Part](Part_Workbench/it.md), oppure selezionare **Part → Smussa...**.
 2.  Selezionare la forma da smussare dalla finestra di dialogo.
 3.  Selezionare i bordi da smussare attivando la casella corrispondente nella finestra di dialogo Smusso o selezionandoli direttamente sul modello.
 4.  Definire i parametri dello smusso.

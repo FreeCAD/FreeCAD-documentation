@@ -15,7 +15,7 @@ Un compound este un set de forme grupate într-un obiect.
 
 ## Utilizare
 
-Marcați formele toplogice care trebuie adăugate la compound în vizualizarea arborecentă și alegeți {{MenuCommand|Part → Compound → Make Compound}}
+Marcați formele toplogice care trebuie adăugate la compound în vizualizarea arborecentă și alegeți **Part → Compound → Make Compound**
 
 
 </div>
@@ -25,7 +25,7 @@ Marcați formele toplogice care trebuie adăugate la compound în vizualizarea a
 **Warning**
 Un compus/compound care conține piese care se intersectează sau atinge este **invalid** pentru operațiile booleene. Din cauza problemelor legate de performanță, nu se face verificarea dacă se intersectează piesele . Verificarea geometriei automate (disponibilă pentru operațiile Boolean) este dezactivată și pentru compusul pieselor.
 
-To turn this check on go to {{MenuCommand|Tools → Edit Parameters → Preferences... → Mod → Part → CheckGeometry → RunBOPCheck}} and set the parameter to `true`.
+To turn this check on go to **Tools → Edit Parameters → Preferences... → Mod → Part → CheckGeometry → RunBOPCheck** and set the parameter to `true`.
 
 
 

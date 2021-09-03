@@ -13,7 +13,7 @@
 
 ## Anwendung
 
-1.  Wähle die {{MenuCommand|Ansicht → Statusleiste}}-Option aus dem Menü.
+1.  Wähle die **Ansicht → Statusleiste**-Option aus dem Menü.
 
 
 

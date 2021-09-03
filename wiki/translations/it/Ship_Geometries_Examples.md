@@ -39,7 +39,7 @@ Descrizione dei requisiti della forma base
 
 <div class="mw-translate-fuzzy">
 
-## Caricare una geometria della Serie 60 {#caricare_una_geometria_della_serie_60}
+## Caricare una geometria della Serie 60 
 
 Per aiutare i nuovi utenti, Ship include una serie di esempi di geometrie, dove si può scegliere tra i seguenti elementi:
 

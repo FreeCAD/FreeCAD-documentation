@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Dies ist das FreeCAD Skizzierer Entwicklungsprojekt. Es folgt den Regeln des \[<http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology>\| Dinge zu erledigen\] (engl.: Getting Things Done) Prozesses. Die Projekte werden im [Entwicklungsfahrplan](Development_roadmap/de.md) gesammelt.
 
-## Zweck und Prinzipien {#zweck_und_prinzipien}
+## Zweck und Prinzipien 
 
 Hierbei handelt es sich um ein Softwareentwicklungsprojekt zur Implementierung von Beschränkungs Skizzierer Funktionen. Es geht um die Implementierung einiger Gui Elemente und die Bindung an den Beschränkungslöser.
 
@@ -32,7 +32,7 @@ Einen Schritt weiter gehend, konnten starre Unterbereiche einer Skizze erkannt u
 
 ## Organisieren
 
-## Nächste Handlungen {#nächste_handlungen}
+## Nächste Handlungen 
 
 Für 0.14:
 

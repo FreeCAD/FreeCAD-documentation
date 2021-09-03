@@ -74,7 +74,7 @@ Téléchargez l\'icône et mettez le dans la même répertoire que la macro <img
 
 {{CodeDownload|https://gist.github.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7|Dernière version de Macro_CirclePlus <br /> l'icône se trouve en fin de page}}
 
-## Memo of circle {#memo_of_circle}
+## Memo of circle 
 
 <img alt="examples 1, 2, 3" src=images/Macro_Circle_01.png  style="width:640px;">  <img alt="examples" src=images/Macro_Circle_02.png  style="width:640px;"> 
 

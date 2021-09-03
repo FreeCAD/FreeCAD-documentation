@@ -62,7 +62,7 @@ The standard menu is composed of 7 sub-menus. Each sub-menu has a dedicated page
 [Help](Std_Help_Menu.md)
 }}
 
-### Additional tools {#additional_tools}
+### Additional tools 
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std Part](Std_Part.md): Creates a new part and makes it active.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std Group](Std_Group.md): Creates a new group.

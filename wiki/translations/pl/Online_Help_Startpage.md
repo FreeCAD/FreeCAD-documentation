@@ -2,11 +2,11 @@
 
 ![150](images/Crystal_Clear_app_tutorials.png )
 
-## Witaj w pomocy online programu FreeCAD {#witaj_w_pomocy_online_programu_freecad}
+## Witaj w pomocy online programu FreeCAD 
 
 Dokument ten został automatycznie stworzony na podstawie zawartości oficjalnej dokumentacji wiki FreeCAD, którą można przeczytać [online](http://www.freecadweb.org/wiki/index.php?title=Main_Page). Ponieważ wiki jest aktywnie utrzymywane i stale rozwijane przez społeczność programistów i użytkowników FreeCAD, może się okazać, że wersja online zawiera więcej lub nowsze informacje niż ten dokument. Znajdziesz tam również bieżące tłumaczenia tej dokumentacji w kilku językach. Mamy jednak nadzieję, że znajdą tu Państwo wszystkie potrzebne informacje. Jeśli masz pytania, na które nie możesz znaleźć odpowiedzi w tym dokumencie, zajrzyj na forum [FreeCAD forum](http://forum.freecadweb.org/index.php), gdzie możesz znaleźć odpowiedź na swoje pytanie lub kogoś, kto będzie w stanie Ci pomóc.
 
-### Jak używać {#jak_używać}
+### Jak używać 
 
 Ten dokument podzielony jest na kilka sekcji: wprowadzenie, użycie, tworzenie skryptów i rozwijanie, przy czym ostatnie trzy z nich dotyczą w szczególności trzech szerokich kategorii użytkowników FreeCAD: użytkowników końcowych, którzy po prostu chcą korzystać z programu, zaawansowanych użytkowników, którzy są zainteresowani możliwościami skryptów FreeCAD i chcieliby dostosować niektóre z jego aspektów, oraz programistów, którzy uważają FreeCAD za podstawę do rozwijania własnych aplikacji. Jeśli jesteś zupełnie nowy w FreeCAD, sugerujemy, abyś zaczął po prostu od wprowadzenia.
 

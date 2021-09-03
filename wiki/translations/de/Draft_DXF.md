@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -17,7 +17,7 @@ DXF Entwurf ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.s
 
 ## Importieren
 
-Der Importeur hat zwei Modi, einstellbar unter {{MenuCommand|Bearbeiten → Einstellungen → Import/Export → DXF}}: Der eine ist eingebaut, C++ basiert und schnell, der andere ist eine Altlast, in Python kodiert, langsamer und erfordert die Installation einer Erweiterung, kann aber manche Objekte besser handhaben und kann verfeinerte FreeCAD Objekte erzeugen. Beide unterstützen alle DXF Versionen beginnend ab R12.
+Der Importeur hat zwei Modi, einstellbar unter **Bearbeiten → Einstellungen → Import/Export → DXF**: Der eine ist eingebaut, C++ basiert und schnell, der andere ist eine Altlast, in Python kodiert, langsamer und erfordert die Installation einer Erweiterung, kann aber manche Objekte besser handhaben und kann verfeinerte FreeCAD Objekte erzeugen. Beide unterstützen alle DXF Versionen beginnend ab R12.
 
 3D Objekte innerhalb einer DXF Datei werden unter einem binären ACIS/SAT Klecks gespeichert, der zur Zeit von FreeCAD nicht gelesen werden kann. Einfachere Objekte wie 3DFACEs werden jedoch unterstützt.
 

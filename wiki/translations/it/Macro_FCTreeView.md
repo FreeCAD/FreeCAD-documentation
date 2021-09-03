@@ -27,7 +27,7 @@ Macro per elencare tutti gli oggetti nel progetto in una lista senza gerarchia, 
 
 ![Macro FCTreeView](images/FCTreeView.gif ) 
 
-### Sezione **Window** {#sezione_window}
+### Sezione **Window** 
 
 Il titolo visualizza l\'opzione, il numero e il tipo di oggetti visualizzati
 
@@ -54,7 +54,7 @@ Se viene selezionato un oggetto: viene visualizzata la Base di posizionamento, R
 
 ![Icona utilizzata per visualizzare il singolo oggetto (non il gruppo)](images/Macro_FCTreeView_04.png ) Icona utilizzata per visualizzare il singolo oggetto (non il gruppo)
 
-### Section **Ordina per :** {#section_ordina_per}
+### Section **Ordina per :** 
 
 
 **<img src=images/Macro_FCTreeView_10.png style="width:18px"> Name**
@@ -81,7 +81,7 @@ Icona usata per il flip/flop normale/inverte l\'ordinamento della quotazione dei
 
 Se questa casella di controllo è selezionata, l\'ordinamento viene creato in base alla lunghezza con il pulsante su cui è stato fatto clic (Nome, Etichetta \...)
 
-### Section **Global** {#section_global}
+### Section **Global** 
 
 
 **<img src=images/Macro_FCTreeView_21.png style="width:18px"> Split**
@@ -133,14 +133,14 @@ visualizza se l\'oggetto è stato Visibile
 
 visualizza se l\'oggetto è stato Nascosto
 
-### Section **Search** {#section_search}
+### Section **Search** 
 
 
 **<img src=images/Macro_FCTreeView_20.png style="width:18px"> Clear**
 
 Cancella la modifica della riga di ricerca
 
-#### The radioButton options **Search**: {#the_radiobutton_options_search}
+#### The radioButton options **Search**: 
 
 -   **(\"NLwc\")**: Cerca per nome ed etichetta **W** senza rispettare il sensibile **C** \'ase
 
@@ -169,7 +169,7 @@ flip/flop per Selezionati tutti gli oggetti visualizzati nella finestra
 
 accesso nelle opzioni del foglio di calcolo
 
-### Le opzioni SpreadSheet: {#le_opzioni_spreadsheet}
+### Le opzioni SpreadSheet: 
 
 ![Macro FCTreeView](images/TreeView_SpeadSheet.gif ) 
 
@@ -255,7 +255,7 @@ The icon ToolBar ![Macro FCTreeView](images/Macro_FCTreeView.png )
 
 {{CodeDownload|https://gist.github.com/mario52a/67517ef758ff20005d0a6adcfd8c9190|Macro_FCTreeView.FCMacro}}
 
-## Da fare {#da_fare}
+## Da fare 
 
 ~~Docked the macro~~
 

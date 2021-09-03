@@ -18,7 +18,7 @@ Ce simple calculateur détermine la poussée moyenne minimale requise pour maint
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Rocket_Calculator.svg" width=16px> [Thrust To Weight Calculator](Rocket_Thrust_To_Weight_Calculator/fr.md)** bouton.
-    -   Sélectionnez la {{MenuCommand|Rocket → Calculatrices → <img src="images/Rocket_Calculator.svg" width=16px> Thrust To Weight Calculator}} dans le menu.
+    -   Sélectionnez la **Rocket → Calculatrices → <img src="images/Rocket_Calculator.svg" width=16px> Thrust To Weight Calculator** dans le menu.
 2.  Saisissez le poids de votre fusée.
 
 ## Calculs

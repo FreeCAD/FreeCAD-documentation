@@ -1,56 +1,56 @@
  Cette page répertorie les modèles selon le standard American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
 
-### ANSI A {#ansi_a}
+### ANSI A 
 
-#### ANSI A Paysage {#ansi_a_paysage}
+#### ANSI A Paysage 
 
 <img alt="" src=images/ANSI_A_Landscape.svg  style="width:800px;">
 
-#### ANSI A Portrait {#ansi_a_portrait}
+#### ANSI A Portrait 
 
 <img alt="" src=images/ANSI_A_Portrait.svg  style="width:800px;">
 
-### ANSI B {#ansi_b}
+### ANSI B 
 
-#### ANSI B Paysage {#ansi_b_paysage}
+#### ANSI B Paysage 
 
 <img alt="" src=images/ANSI_B_Landscape.svg  style="width:800px;">
 
-#### ANSI B Portrait {#ansi_b_portrait}
+#### ANSI B Portrait 
 
 <img alt="" src=images/ANSI_B_Portrait.svg  style="width:800px;">
 
-### ANSI C {#ansi_c}
+### ANSI C 
 
-#### ANSI C Paysage {#ansi_c_paysage}
+#### ANSI C Paysage 
 
 <img alt="" src=images/ANSI_C_Landscape.svg  style="width:800px;">
 
-#### ANSI C Portrait {#ansi_c_portrait}
+#### ANSI C Portrait 
 
 <img alt="" src=images/ANSI_C_Portrait.svg  style="width:800px;">
 
-### ANSI D {#ansi_d}
+### ANSI D 
 
-#### ANSI D Paysage {#ansi_d_paysage}
+#### ANSI D Paysage 
 
 <img alt="" src=images/ANSI_D_Landscape.svg  style="width:800px;">
 
-#### ANSI D Portrait {#ansi_d_portrait}
+#### ANSI D Portrait 
 
 <img alt="" src=images/ANSI_D_Portrait.svg  style="width:800px;">
 
-### ANSI E {#ansi_e}
+### ANSI E 
 
-#### ANSI E Paysage {#ansi_e_paysage}
+#### ANSI E Paysage 
 
 <img alt="" src=images/ANSI_E_Landscape.svg  style="width:800px;">
 
-#### ANSI E Portrait {#ansi_e_portrait}
+#### ANSI E Portrait 
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width:800px;">
 
-## Autres standards disponibles {#autres_standards_disponibles}
+## Autres standards disponibles 
 
 -   [Drawing Modèles](Drawing_templates/fr.md): Modèles standards de FreeCAD
 -   [Modèles Arch](Arch_templates/fr.md): Modèles au standard American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)

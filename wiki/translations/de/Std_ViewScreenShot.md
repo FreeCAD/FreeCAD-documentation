@@ -16,7 +16,7 @@ Der **Std AnsichtBildschirmFoto** Befehl öffnet ein Dialogfeld, um eine Bilddat
 
 ## Anwendung
 
-1.  Wähle die {{MenuCommand|Werkzeuge → <img src="images/Std_ViewScreenShot.svg" width=16px> Bild speichern...}} Option aus dem Menü.
+1.  Wähle die **Werkzeuge → <img src="images/Std_ViewScreenShot.svg" width=16px> Bild speichern...** Option aus dem Menü.
 2.  Es öffnet sich das Dialogfeld Bild speichern.
 3.  Drücke optional die **Erweitert** Schaltfläche, um ein zusätzliches Feld im Dialogfeld einzublenden. Für weitere Informationen siehe [Optionen](#Options.md).
 4.  Suche optional nach dem richtigen Ordner.
@@ -25,7 +25,7 @@ Der **Std AnsichtBildschirmFoto** Befehl öffnet ein Dialogfeld, um eine Bilddat
 
 ## Optionen
 
-#### Bild Abmessungen {#bild_abmessungen}
+#### Bild Abmessungen 
 
 1.  Wähle eine Standardgröße aus der **Standardgrößen** Auswahlliste . Oder gib die **Breite** und **Höhe** für eine benutzerdefinierte Größe an.
 2.  Klicke optional auf die **Seitenverhältnis** Schaltfläche , um das Verhältnis von Breite zu Höhe des Bildes festzulegen. Wenn das Eingabefeld **Breite** den Fokus hat, ändert sich die Höhe des Bildes und umgekehrt.
@@ -76,8 +76,8 @@ Der **Std AnsichtBildschirmFoto** Befehl öffnet ein Dialogfeld, um eine Bilddat
 
 ## Einstellungen
 
--   Der Hintergrund der 3D Ansicht kann in den Voreinstellungen geändert werden: {{MenuCommand|Bearbeiten → Voreinstellungen... → Anzeige → Farben → Hintergrundfarbe}}. Siehe [Einstellungseditor](Preferences_Editor/de#Farben.md).
--   Um das Anti Aliasing der 3D Ansicht zu ändern: {{MenuCommand|Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Rendering → Anti-Aliasing}}. Siehe [Einstellungseditor](Preferences_Editor/de#3D_View.md).
+-   Der Hintergrund der 3D Ansicht kann in den Voreinstellungen geändert werden: **Bearbeiten → Voreinstellungen... → Anzeige → Farben → Hintergrundfarbe**. Siehe [Einstellungseditor](Preferences_Editor/de#Farben.md).
+-   Um das Anti Aliasing der 3D Ansicht zu ändern: **Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Rendering → Anti-Aliasing**. Siehe [Einstellungseditor](Preferences_Editor/de#3D_View.md).
 
 ## Skripten
 

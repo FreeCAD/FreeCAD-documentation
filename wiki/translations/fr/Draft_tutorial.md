@@ -30,41 +30,41 @@ Ce tutoriel utilise la notation {{Value|(x, y, z)}} pour désigner les coordonn�
 
 ## Installation
 
-1\. Ouvrez FreeCAD, créez un nouveau document vide avec {{MenuCommand|Fichier → <img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)}}.
+1\. Ouvrez FreeCAD, créez un nouveau document vide avec **Fichier → <img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)**.
 
-:   1.1. Basculez vers l\'<img src=images/Workbench_Draft.svg style="width:atelier Draft](Draft_Workbench/fr.md) depuis le [sélecteur d\'atelier](Std_Workbench/fr.md) ou le menu {{MenuCommand|Affichage → Atelier → [16px"> Draft}}.
-:   1.2. Assurez-vous de comprendre comment utiliser l\'[éditeur de propriétés](property_editor/fr.md), en particulier les onglets {{MenuCommand|Données}} et {{MenuCommand|Affichage}} pour modifier les propriétés. Lors de la modification des propriétés, vous devrez peut-être effectuer une action **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** pour voir le résultat dans la [vue 3D](3D_view/fr.md).
+:   1.1. Basculez vers l\'<img src=images/Workbench_Draft.svg style="width:atelier Draft](Draft_Workbench/fr.md) depuis le [sélecteur d\'atelier](Std_Workbench/fr.md) ou le menu **Affichage → Atelier → [16px"> Draft**.
+:   1.2. Assurez-vous de comprendre comment utiliser l\'[éditeur de propriétés](property_editor/fr.md), en particulier les onglets **Données** et **Affichage** pour modifier les propriétés. Lors de la modification des propriétés, vous devrez peut-être effectuer une action **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** pour voir le résultat dans la [vue 3D](3D_view/fr.md).
 :   1.3. Comme les objets Draft sont des formes planes, ils sont mieux vus du dessus. Utilisez **<img src=images/Std_ViewTop.svg style="width:16px"> [vue de dessus](Std_ViewTop/fr.md)** pour définir la [Vue 3D](3D_view/fr.md).
 :   1.4. Bien qu\'elle ne soit pas utilisée dans ce tutoriel, la grille Draft est utile pour positionner des éléments géométriques. Utilisez **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_ToggleGrid.svg style="width:Plan de travail](Draft_SelectPlane/fr.md)** pour définir à la fois le plan de travail et la grille, puis affichez et masquez la grille avec **[16px"> [Visibilité de la grille](Draft_ToggleGrid/fr.md)**.
 
-## Verrouillage de la barre d\'outils {#verrouillage_de_la_barre_doutils}
+## Verrouillage de la barre d\'outils 
 
 2\. L\'[Draft Accrochage](Draft_Snap/fr.md) est normalement activée lorsque vous basculez vers [atelier Draft](Draft_Workbench/fr.md).
 
-:   2.1. Pour vous assurer qu\'il est toujours là, allez dans [Draft Préférences](Draft_Preferences/fr.md), {{MenuCommand|Edition → Préférences → Draft → onglet: Grille et accrochage}}.
+:   2.1. Pour vous assurer qu\'il est toujours là, allez dans [Draft Préférences](Draft_Preferences/fr.md), **Edition → Préférences → Draft → onglet: Grille et accrochage**.
 :   2.2. Vérifiez que la barre d\'outils **Montrer la barre d\'outils d\'accrochage** est active.
 
 Vous pouvez aussi changer la visibilité et les propriétés de la grille Draft dans cette même fenêtre.
 
-## Plans de travail {#plans_de_travail}
+## Plans de travail 
 
 La plupart des objets Draft sont des formes planes, ils sont donc naturellement basés sur un **plan de travail**. Un plan de travail peut être l\'un des plans de coordonnées globaux principaux XY, XZ et YZ, ou il peut s\'agir d\'un plan qui leur est parallèle avec un décalage positif ou négatif, ou il peut s\'agir d\'un plan défini par la face d\'un objet solide.
 
-3\. Appuyez sur **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_SelectPlane.svg style="width:SelectPlane](Draft_SelectPlane/fr.md)** ou allez dans le menu {{MenuCommand|Utilities → [16px"> [Select plane](Draft_SelectPlane/fr.md)}} pour ouvrir le plan de travail [Panneau des tâches](Task_panel/fr.md).
+3\. Appuyez sur **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_SelectPlane.svg style="width:SelectPlane](Draft_SelectPlane/fr.md)** ou allez dans le menu **Utilities → [16px"> [Select plane](Draft_SelectPlane/fr.md)** pour ouvrir le plan de travail [Panneau des tâches](Task_panel/fr.md).
 
 :   3.1. Appuyez sur **<img src=images/Std_ViewTop.svg style="width:16px"> Top (XY)**.
 
 Avant d\'appuyer sur le bouton, vous pouvez également modifier la valeur du décalage en millimètres, ainsi que l\'espacement de la grille, les lignes principales et le rayon d\'accrochage.
 
-## Lignes et arcs {#lignes_et_arcs}
+## Lignes et arcs 
 
 4\. Nous allons créer des arcs et des lignes.
 
 :   4.1. Appuyez sur **<img src=images/Draft_Arc.svg style="width:16px"> [Arc](Draft_Arc/fr.md)**.
-:   4.2. Définissez {{MenuCommand|Center}} sur {{Value|(0, 0, 0)}} et appuyez sur **Validez**.
-:   4.3. Réglez {{MenuCommand|Radius}} sur {{Value|30 mm}} et appuyez sur **Validez**.
-:   4.4. Réglez {{MenuCommand|Start angle}} sur {{Value|60.0°}} et appuyez sur **Validez**.
-:   4.5. Réglez {{MenuCommand|Aperture angle}} sur {{Value|60.0°}} et appuyez sur **Validez**.
+:   4.2. Définissez **Center** sur {{Value|(0, 0, 0)}} et appuyez sur **Validez**.
+:   4.3. Réglez **Radius** sur {{Value|30 mm}} et appuyez sur **Validez**.
+:   4.4. Réglez **Start angle** sur {{Value|60.0°}} et appuyez sur **Validez**.
+:   4.5. Réglez **Aperture angle** sur {{Value|60.0°}} et appuyez sur **Validez**.
 :   4.6. Répétez la même procédure pour un deuxième arc avec un rayon de {{Value|25 mm}}, les autres propriétés sont les mêmes.
 
 5\. Nous allons maintenant créer un profil fermé en liant les arcs avec des lignes.
@@ -77,7 +77,7 @@ Avant d\'appuyer sur le bouton, vous pouvez également modifier la valeur du dé
 <img alt="" src=images/01_Dr01_Draft_Arc_profile.png  style="width:" height="400px;"> 
 *Profil fermé créé par deux arcs et deux lignes.*
 
-## Fusion ou composition {#fusion_ou_composition}
+## Fusion ou composition 
 
 Nous avons maintenant plusieurs objets dans la [Vue en arborescence](Tree_view/fr.md) qui forment un profil fermé. Cependant, ce profil est toujours composé d\'objets déconnectés. Chacun d\'eux peut être édité et déplacé indépendamment des autres. Il est possible de continuer à travailler avec les éléments de cette manière mais il est également possible de les fusionner en un seul objet.
 
@@ -92,13 +92,13 @@ Nous avons maintenant plusieurs objets dans la [Vue en arborescence](Tree_view/f
 :   6b.1. Basculez vers <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
 :   6b.2. Une fois ces objets sélectionnés, cliquez sur **<img src=images/Part_Compound.svg style="width:16px"> [Part Composé](Part_Compound/fr.md)**.
 
-## Rectangles, cercles et polygones {#rectangles_cercles_et_polygones}
+## Rectangles, cercles et polygones 
 
 7\. Nous allons dessiner un cadre rectangulaire. (retournez vers l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md).)
 
 :   7.1. Appuyez sur **<img src=images/Draft_Rectangle.svg style="width:16px"> [Rectangle](Draft_Rectangle/fr.md)**.
 :   7.2. Entrez les valeurs du premier point {{Value|(-100, -60, 0)}} et appuyez sur **Validez**.
-:   7.3. Assurez-vous que l\'option {{MenuCommand|Relative}} n\'est pas cochée, car nous utiliserons des unités absolues. Vous pouvez appuyer sur **R** sur le clavier pour activer et désactiver rapidement cette option.
+:   7.3. Assurez-vous que l\'option **Relative** n\'est pas cochée, car nous utiliserons des unités absolues. Vous pouvez appuyer sur **R** sur le clavier pour activer et désactiver rapidement cette option.
 :   7.4. Entrez les valeurs du deuxième point {{Value|(140, 90, 0)}} et appuyez sur **Validez**.
 
 Un rectangle est créé. Allez dans l\'[Éditeur de propriétés](Property_editor/fr.md) pour modifier ses propriétés. Si vous ne voulez pas que le rectangle crée une face, définissez {{PropertyData/fr|Make Face}} sur `False`. Si vous voulez créer une face mais ne voyez que les fils de cet objet, conservez {{PropertyData/fr|Make Face}} sur `True` mais réglez {{PropertyView/fr|Display Mode}} sur {{Value|Wireframe}}.
@@ -161,13 +161,13 @@ N\'oubliez pas d\'ajuster {{PropertyView/fr|Font Size}} et d\'autres propriété
 <img alt="" src=images/04_Dr01_Draft_Dimension.png  style="width:" height="400px;"> 
 *Cotes qui mesurent la distance verticale entre l'origine et le haut du cercle, des arcs et du polygone.*
 
-## Textes et Formes à partir de texte {#textes_et_formes_à_partir_de_texte}
+## Textes et Formes à partir de texte 
 
 14\. Les objets texte sont de simples figures planes qui sont créées dans la [Vue 3D](3D_view/fr.md) mais qui n\'ont pas de véritable \"[Forme](Shape/fr.md)\" sous jacente. Cela signifie qu\'ils ne peuvent pas être utilisés dans des opérations complexes avec des formes telles que des extrusions ou des opérations booléennes.
 
 :   14.1. Appuyez sur **<img src=images/Draft_Text.svg style="width:16px"> [Texte](Draft_Text/fr.md)**.
 :   14.2. Sélectionnez le point de référence dans la <img src=images/Draft_Snap_Lock.svg style="width:Vue 3D](3D_view/fr.md). Dans la [Barre d\'outils d\'accrochage](Draft_Snap/fr.md), assurez-vous que **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Bascule l'accrochage](Draft_Snap_Lock/fr.md)** est actif et que **[16px"> [Milieu](Draft_Snap_Midpoint/fr.md)** également. Déplacez le pointeur vers le bord supérieur de l\'arc le plus élevé, de sorte que l\'icône <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Milieu](Draft_Snap_Midpoint/fr.md) s\'affiche. Cliquez pour sélectionner ce point.
-:   14.3. Entrez le {{MenuCommand|Text}} souhaité et appuyez une fois sur **Validez** pour commencer une nouvelle ligne; ajoutez plus de lignes de texte au besoin.
+:   14.3. Entrez le **Text** souhaité et appuyez une fois sur **Validez** pour commencer une nouvelle ligne; ajoutez plus de lignes de texte au besoin.
 :   14.4. Lorsque vous êtes prêt à terminer l\'édition, appuyez deux fois sur **Validez**.
 :   14,5. Sélectionnez l\'objet texte dans [tree view](tree_view.md), et dans l\'[Éditeur de propriétés](Property_editor/fr.md) remplacez {{PropertyView/fr|Font Size}} par {{Value|6 mm}} et {{PropertyView/fr|Justification}} à {{Value|Center}}.
 
@@ -175,7 +175,7 @@ N\'oubliez pas d\'ajuster {{PropertyView/fr|Font Size}} et d\'autres propriété
 
 :   15.1. Appuyez sur **<img src=images/Draft_ShapeString.svg style="width:16px"> [Forme à partir de texte](Draft_ShapeString/fr.md)**.
 :   15.2. Déplacez le pointeur vers l\'emplacement souhaité dans la [Vue 3D](3D_view/fr.md) au-dessus du polygone régulier, et cliquez une fois. Cela corrigera le point de base du ShapeString. Les coordonnées peuvent également être entrées manuellement, par exemple, {{Value|(-20, 65, 0)}}.
-:   15.3. Entrez la {{MenuCommand|String}} (chaîne de caractère)souhaitée et choisissez la {{MenuCommand|Height}} (hauteur) souhaitée.
+:   15.3. Entrez la **String** (chaîne de caractère)souhaitée et choisissez la **Height** (hauteur) souhaitée.
 :   15.4. S\'il n\'y a pas de fichier de police par défaut, vous devez cliquer sur les points de suspension **...** pour ouvrir une boîte de dialogue pour choisir l\'emplacement de la police dans le système.
 :   15.5. Lorsqu\'un fichier de police valide a été spécifié, vous pouvez cliquer sur **OK** ou appuyer sur **Validez**.
 
@@ -184,7 +184,7 @@ N\'oubliez pas d\'ajuster {{PropertyView/fr|Font Size}} et d\'autres propriété
 
 Pour extruder des lettres et les graver sur des solides, voir le [Draft Tutoriel Forme à partir de texte](Draft_ShapeString_tutorial/fr.md).
 
-## Création de dessins techniques {#création_de_dessins_techniques}
+## Création de dessins techniques 
 
 Dans l\'état actuel des choses, les objets que nous avons créés peuvent être sauvegardés, exportés vers d\'autres formats [SVG](SVG/fr.md) ou [DXF](DXF/fr.md) ou imprimés.
 
@@ -210,7 +210,7 @@ TechDraw fonctionne mieux avec les objets qui ont une [Part TopoShape](Part_Topo
 
 Les outils tels que **<img src=images/TechDraw_ActiveView.svg style="width:16px"> <img src=images/TechDraw_DraftView.svg style="width:TechDraw Vue active](TechDraw_ActiveView/fr.md)**, **[16px"> <img src=images/TechDraw_ArchView.svg style="width:TechDraw Vue Draft](TechDraw_DraftView/fr.md)** et **[16px"> [TechDraw Vue architecturale](TechDraw_ArchView/fr.md)** fonctionnent en recevant une image SVG interne générée par les fonctions Draft internes; par conséquent, TechDraw n\'a pas beaucoup de contrôle sur la façon dont ces vues sont affichées. Une plus grande intégration de Draft et TechDraw est un travail en cours.
 
-## Remarques finales {#remarques_finales}
+## Remarques finales 
 
 L\'[atelier Draft](Draft_Workbench/fr.md) est à bien des égards similaire au [atelier Sketcher](Sketcher_Workbench/fr.md), car tous deux sont destinés à produire des formes 2D. La principale différence réside dans la façon dont chaque atelier gère les systèmes de coordonnées et la façon dont les objets sont positionnés. Dans Draft, les objets sont librement positionnés dans le système de coordonnées global, en alignant généralement leurs points sur une grille ou sur d\'autres objets. Dans Sketcher, un \"[objet sketch](Sketch/fr.md)\" définit un système de coordonnées local qui sert de référence pour tous les éléments géométriques de cette esquisse. De plus, l\'esquisse s\'appuie sur des «contraintes» pour définir la position finale de ses points.
 

@@ -29,7 +29,7 @@ Um die Tangentialbindung anzuwenden, sollten die folgenden Schritte befolgt werd
 -   Wähle zwei oder drei Elemente in der Skizze aus.
 -   Deaktiviere die Beschränkung, durch klicken auf das Symbol in der Werkzeugleiste, durch Auswahl des Menüelements oder durch Verwendung eines Tastaturkürzels.
 
-### Zwischen zwei Kurven (direkte Tangentialität) {#zwischen_zwei_kurven_direkte_tangentialität}
+### Zwischen zwei Kurven (direkte Tangentialität) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
 
@@ -44,7 +44,7 @@ Wenn die direkte Tangentialität zwischen den ausgewählten Kurven nicht unterst
 
 Es wird nicht empfohlen den Berührungspunkt zu bestimmen, indem ein Punkt generiert wird, der so eingeschränkt wird, dass er auf beiden Kurven liegt. Dies funktioniert im Prinzip, aber die Konvergenz der Lösung wird erheblich erschwert, sprunghafter und benötigt mehr als doppelt so vieler Iterationen als normal. Wenn der Berührungspunkt benötigt wird, sollte andere Einschränkungen benutzt werden, um ihn zu bestimmen.
 
-### Zwischen zwei Endpunkten (Punkt-zu-Punkt Tangentialität) {#zwischen_zwei_endpunkten_punkt_zu_punkt_tangentialität}
+### Zwischen zwei Endpunkten (Punkt-zu-Punkt Tangentialität) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
@@ -54,7 +54,7 @@ In diesem Modus werden die Endpunkte deckungsgleich gemacht und die Verbindung w
 
 -   Endpunkt einer Linie / eines Bogens / eines Ellipsenbogens + Endpunkt einer Linie / eines Bogens / eines Ellipsenbogens (im Allgemeinen zwei Endpunkte von jedweden Kurven)
 
-### Zwischen einer Kurve und einem Endpunkt (Punkt-zu-Kurve Tangentialität) {#zwischen_einer_kurve_und_einem_endpunkt_punkt_zu_kurve_tangentialität}
+### Zwischen einer Kurve und einem Endpunkt (Punkt-zu-Kurve Tangentialität) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
 
@@ -64,7 +64,7 @@ In diesen Modus wird der Endpunkt der einen Kurve auf die andere Kurve gelegt un
 
 -   Linie, Kreis, Kreisbogen, Ellipsenbogen + Endpunkt einer Linie / eines Kreises / eines Kreisbogens / eines Ellipsenbogens (im Allgemeinen jede Kurve + der Endpunkt irgend einer anderen Kurve)
 
-### Zwischen zwei Kurven an einem Punkt (Punkt-Tangentialität) (v0.15) {#zwischen_zwei_kurven_an_einem_punkt_punkt_tangentialität_v0.15}
+### Zwischen zwei Kurven an einem Punkt (Punkt-Tangentialität) (v0.15) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
 
@@ -82,7 +82,7 @@ Verglichen mit der direkten Tangentialität ist diese Beschränkung langsamer, w
 
 Die Platzierung des Punktes vor der Anwendung der Beschränkung ist ein Hinweis für den Löser, wo die Tangentialität sein soll. Mit diesem Modus ist es möglich zwei Ellipsen so anzuordenen, dass sie sich gegenseitig in zwei Punkten berühren.
 
-### Zwischen zwei Linien (kollinear) {#zwischen_zwei_linien_kollinear}
+### Zwischen zwei Linien (kollinear) 
 
 <img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
 

@@ -21,7 +21,7 @@ With this tool, the internal subtracted objects will all become visible or hidde
 
 <div class="mw-translate-fuzzy">
 
-## Como utilizar {#como_utilizar}
+## Como utilizar 
 
 
 </div>
@@ -46,7 +46,7 @@ La opción **Editar → Preferencias → Arch → Aplicar estilo de construcció
 
 </div>
 
-The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in the [Draft Preferences](Draft_Preferences.md), in the menu {{MenuCommand|Preferences → Draft → General Draft}}.
+The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in the [Draft Preferences](Draft_Preferences.md), in the menu **Preferences → Draft → General Draft**.
 
 
 

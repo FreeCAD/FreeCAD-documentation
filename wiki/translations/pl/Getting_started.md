@@ -24,7 +24,7 @@ Zobacz również:
 
 Przede wszystkim pobierz i zainstaluj FreeCAD. Informacje na temat aktualnych wersji i aktualizacji oraz instrukcje instalacji dla danego systemu operacyjnego *([Linux](Installing_on_Linux/pl.md), [Mac](Installing_on_Mac/pl.md) lub [Windows](Installing_on_Windows/pl.md))* znajdują się na stronie [pobierania](Download/pl.md). Istnieją gotowe pakiety instalacyjne dla systemów Debian i Ubuntu *(.deb)*, openSUSE *(.rpm)* i Mac OSX, Windows *(.msi)*. FreeCAD jest dostępny przez menedżer pakietów wielu innych dystrybucji Linuksa. Dostępny jest również samodzielny plik wykonywalny [AppImage](AppImage/pl.md), który będzie działał na najnowszych 64-bitowych systemach Linux. Ponieważ FreeCAD jest oprogramowaniem typu open source, możesz także pobrać kod źródłowy i wykonać [kompilację](Compiling/pl.md) samodzielnie.
 
-## Poznawaj interfejs użytkownika {#poznawaj_interfejs_użytkownika}
+## Poznawaj interfejs użytkownika 
 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;"> 
 *Standardowy interfejs FreeCAD w wersji 0.19.*
@@ -54,7 +54,7 @@ Kiedy uruchamiasz FreeCAD po raz pierwszy, zobaczysz centrum startowe. Oto jak t
 
 Centrum startowe pozwala na szybkie przejście do jednego z najchętniej używanych Środowisk pracy, otwarcie jednego z ostatnich plików lub zobaczenie najnowszych wiadomości ze świata FreeCAD. Możesz zmienić domyślne środowisko pracy w [Edytorze preferencji](Preferences_Editor/pl.md).
 
-### Nawigacja w przestrzeni 3D {#nawigacja_w_przestrzeni_3d}
+### Nawigacja w przestrzeni 3D 
 
 FreeCAD udostępnia kilka różnych [trybów nawigacji](Mouse_navigation/pl.md), które zmieniają sposób używania myszy do interakcji z obiektami w widoku 3D i samego widoku. Jedna z nich została stworzona specjalnie dla [touchpad](Mouse_navigation/pl#Touchpad.md), gdzie środkowy przycisk myszy nie jest używany. Poniższa tabela opisuje domyślny tryb zwany \"Nawigacją CAD\" *(możesz szybko zmienić bieżący tryb nawigacji, klikając prawym przyciskiem myszy pusty obszar widoku 3D)*:
 
@@ -91,7 +91,7 @@ Użytkownicy, którzy używają myszki prawą ręką, mogą uznać tę metodę z
 
 W menu Widok, na pasku narzędzi Widok oraz za pomocą skrótów klawiaturowych (**1**, **2** itp\...) dostępnych jest również kilka ustawień widoku *(widok z góry, widok z przodu itp.)*. Klikając obiekt prawym przyciskiem myszki lub pusty obszar widoku 3D, masz szybki dostęp do niektórych typowych operacji, takich jak ustawianie konkretnego widoku lub wyszukiwanie obiektu w widoku drzewa.
 
-## FreeCAD pierwsze kroki {#freecad_pierwsze_kroki}
+## FreeCAD pierwsze kroki 
 
 FreeCAD został zaprojektowany do tworzenia precyzyjnych modeli 3D, ścisłą kontrolę nad tymi modelami *(możliwość cofnięcia się w historii modelowania i zmiany parametrów)*, a w końcu na budowanie tych modeli *(poprzez wydruk w technologii 3D i obróbkę numeryczną CNC lub nawet budowę obiektu budowlanego)*.
 W związku z tym bardzo różni się on od innych aplikacji 3D stworzonych do innych celów, takich jak film animowany czy gry. Jego nauka może być bardzo trudna, zwłaszcza jeśli jest to Twój pierwszy kontakt z modelowaniem 3D. Jeśli w którymś momencie staniesz się zaskoczony, nie zapominaj, że przyjazna społeczność użytkowników na forum [FreeCAD forum](http://forum.freecadweb.org/index.php) może być w stanie wyciągnąć cię z tarapatów w mgnieniu oka.
@@ -100,7 +100,7 @@ W związku z tym bardzo różni się on od innych aplikacji 3D stworzonych do in
 
 Możesz przełączać Środowisko pracy w dowolnym momencie, a także [dostosować ustawienia](Interface_Customization/pl.md), aby dodać narzędzia z innych Środowisk pracy.
 
-## Pracujemy w PartDesign i Sketcher {#pracujemy_w_partdesign_i_sketcher}
+## Pracujemy w PartDesign i Sketcher 
 
 Środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md) służy do budowania złożonych obiektów, począwszy od prostych kształtów i dodawania lub usuwania elementów *(zwanych \" cechami\")*, aż do osiągnięcia ostatecznego wyglądu projektowanego detalu. Wszystkie funkcje zastosowane w procesie modelowania są przechowywane w oddzielnym widoku zwanym [widok drzewa](Document_structure/pl.md), który zawiera również inne obiekty w dokumencie. Obiekt środowiska Projekt Części może być traktowany jako kolejna operacja, z których każda odnosi się do wyniku poprzedniej, tworząc jeden duży łańcuch. W widoku drzewa widzisz swój obiekt końcowy, ale możesz go rozwinąć i przeglądać wszystkie poprzednie stany oraz zmienić dowolny z ich parametrów, które automatycznie aktualizują obiekt końcowy.
 
@@ -124,7 +124,7 @@ Oto przykład efektu tego ćwiczenia:
 
 W każdej chwili możesz wybrać oryginalne szkice i zmodyfikować je lub zmienić parametry wytłaczania operacji pad lub pocket, co spowoduje że obiekt końcowy zostanie poddany aktualizacji.
 
-## Praca z Draft i Arch {#praca_z_draft_i_arch}
+## Praca z Draft i Arch 
 
 Środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md) zachowują się nieco inaczej niż pozostałe omówione powyżej. Chociaż przestrzegają tych samych zasad, które są wspólne dla wszystkich we FreeCAD. Krótko mówiąc, podczas gdy Szkicownik i Projekt Części są stworzone przede wszystkim do projektowania pojedynczych elementów, Draft i Arch są stworzone, aby ułatwić pracę z kilkoma prostszymi obiektami.
 
@@ -147,7 +147,7 @@ Przykład efektu tego ćwiczenia:
 
 Więcej informacji znajdziesz na stronie [Poradniki](Tutorials/pl.md).
 
-## Dodatki, Makrodefinicje i zewnętrzne Środowiska pracy {#dodatki_makrodefinicje_i_zewnętrzne_środowiska_pracy}
+## Dodatki, Makrodefinicje i zewnętrzne Środowiska pracy 
 
 FreeCAD, jako oprogramowanie open source, oferuje możliwość uzupełnienia swoich Środowisk pracy o dodatki.
 
@@ -158,11 +158,11 @@ Istnieją dwa rodzaje dodatków:
 1.  [Makrodefinicje](Macros/pl.md): krótkie fragmenty kodu Pythona, które zapewniają nowe narzędzie lub funkcjonalność. Makra zazwyczaj są uruchamiane jako sposób na uproszczenie lub zautomatyzowanie zadania rysowania lub edycji konkretnego obiektu. Jeśli wiele z tych makrodefinicji jest zbieranych w jednym katalogu, cały katalog może być dystrybuowany jako nowe Środowisko pracy.
 2.  [Zewnętrzne środowiska pracy](External_workbenches/pl.md): zbiór narzędzi zaprogramowanych w Pythonie lub C++, które rozszerzają FreeCAD w istotny sposób. Jeśli dany stół pracy został wystarczająco rozwinięty i jest dobrze udokumentowany, może zostać włączony do FreeCAD jako jeden z podstawowych stołów roboczych. W sekcji [Zewnętrzne Środowiska pracy](External_workbenches/pl.md) można znaleźć listę i wytyczne dla istniejących bibliotek.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 I na końcu, jedną z najpotężniejszych cech FreeCAD jest środowisko [skryptowe](scripting/pl.md). Ze zintegrowanej konsoli Pythona *(lub dowolnego innego zewnętrznego skryptu Pythona)*, możesz uzyskać dostęp do prawie każdej części FreeCAD. Możesz tworzyć lub modyfikować geometrię, modyfikować reprezentację obiektów w scenie 3D lub dostęp i modyfikować interfejs FreeCAD. Skrypty Pythona mogą być również używane w [makrodefinicjach](macros/pl.md), które zapewniają łatwą metodę tworzenia własnych poleceń.
 
-## Co nowego {#co_nowego}
+## Co nowego 
 
 -   Szczegółową listę funkcji można znaleźć w [uwagach do wydania](Feature_list/pl#Uwagach_do_wydania.md).
 

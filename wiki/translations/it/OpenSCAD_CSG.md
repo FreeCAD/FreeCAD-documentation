@@ -2,7 +2,7 @@
 
 ## Importazione
 
-### Elementi supportati {#elementi_supportati}
+### Elementi supportati 
 
 -   primitive: cubo, sfera, cilindro, rettangolo, circonferenza, poligono, poliedro
 -   booleane: unione, differenza, intersezione
@@ -11,7 +11,7 @@
 -   matrici multiple
 -   colore
 
-### Elementi non supportati {#elementi_non_supportati}
+### Elementi non supportati 
 
 -   proiezioni
 -   superficie
@@ -20,7 +20,7 @@
 
 ## Esportazione
 
-### Elementi supportati {#elementi_supportati_1}
+### Elementi supportati 
 
 -   primitive: parallelepipedo, cilindro, Cono, Toro
 -   booleane: differenza, fusione, intersezione

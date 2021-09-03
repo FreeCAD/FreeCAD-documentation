@@ -28,7 +28,7 @@ This tutorial is meant to introduce the reader to the basic workflow of the [Dra
 
 To reduce the time required for this tutorial, it is compulsory to group together similar elements in the **Tree View** to apply operations at the same time to several elements.
 
-##### Grouping elements {#grouping_elements}
+##### Grouping elements 
 
 1.  In the **Tree View**, right-click on the name of the document. In this case **Unnamed**.
 2.  Select **Create group**. You can alter the name of the group by double clicking on it from the **Tree View**.
@@ -40,7 +40,7 @@ Create the following groups:
 -   Draft\_dimensions
 -   Draft\_annotations\_text
 
-#### Drawing Templates {#drawing_templates}
+#### Drawing Templates 
 
 Templates are the base for the creation of Drawings, you can use the templates provided or create your own.
 
@@ -53,7 +53,7 @@ We now have a folder called **Page** in the **Tree View**. This object will cont
 
 Projections are defined as the visual representation of an object on a specific plane, it displays the properties of the object that are visible from that specific orientation.
 
-##### Orthographic Projections {#orthographic_projections}
+##### Orthographic Projections 
 
 These are used in Engineering to specify the properties of an object that will be machined. There are two common standards: **Third Angle** and **First Angle** projections.
 
@@ -66,7 +66,7 @@ For this tutorial, these projections aren\'t used because our objects only have 
 
 In the **General** and **Axonometric** tabs you can specify the **location**, **scale** and **separation** of each view.
 
-##### Other Part Projections {#other_part_projections}
+##### Other Part Projections 
 
 It is possible to create custom views of the object.
 
@@ -76,7 +76,7 @@ It is possible to create custom views of the object.
 
 You can also alter the **location**, **scale** and **rotation** of the **View** from within the **Data** tab. The same can be done for the **Orthographic Projections**.
 
-##### Draft Projections {#draft_projections}
+##### Draft Projections 
 
 The preferred way to add elements created in the **Draft Workbench** is with a tool contained in the **Draft Workbench** designed specifically for this. With this procedure, it is possible to import **Dimensions**, **Annotations**, **Shapestrings** and any other element created whithin the **Draft** Workbench.
 
@@ -88,7 +88,7 @@ The preferred way to add elements created in the **Draft Workbench** is with a t
 
 Repeat for each group and set the values to the ones specified above.
 
-#### Exporting your work {#exporting_your_work}
+#### Exporting your work 
 
 FreeCAD supports the export of SVG and PDF files based on your **Drawings**
 
@@ -104,7 +104,7 @@ FreeCAD supports the export of SVG and PDF files based on your **Drawings**
 
 We are now finished with the basic workflow for the [Drawing Workbench](Drawing_Workbench.md).
 
-## Recommended Reading {#recommended_reading}
+## Recommended Reading 
 
 -   To learn how to create custom templates see [Drawing Template HowTo](Drawing_Template_HowTo.md)
 -   For more information about the tools available check out the [Drawing Workbench](Drawing_Workbench.md) page

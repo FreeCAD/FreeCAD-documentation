@@ -15,7 +15,7 @@ Crée une contrainte FEM pour conserver les nœuds dans une surface plane dans l
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> [Create a FEM constraint for plane rotation face](FEM_ConstraintPlaneRotation/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Model → Geometrical Constraints → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Constraint plane rotation}} dans le menu.
+    -   Sélectionnez l\'option **Model → Geometrical Constraints → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Constraint plane rotation** dans le menu.
 2.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la contrainte doit être appliquée, qui peut être une face.
 
 ## Limitations

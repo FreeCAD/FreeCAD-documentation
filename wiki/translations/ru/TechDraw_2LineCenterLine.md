@@ -25,7 +25,7 @@ The 2LineCenterLine tool adds a centerline between two Edges.
 
 To delete a Centerline, select it and use the toolbar button **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md)**.
 
-## Editing Centerlines {#editing_centerlines}
+## Editing Centerlines 
 
 Any of the centerline command buttons ( **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> [Add Centerline to Face(s)](TechDraw_FaceCenterLine.md)**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> Add Centerline between 2 Lines**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Add Centerline between 2 Points](TechDraw_2PointCenterLine.md)**) can be used to edit any centerline.
 
@@ -51,7 +51,7 @@ Centerlines have no properties of their own, as they are no document objects. Th
 -   **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> DashDot, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> DashDotDot
 -   **Flip Ends**: Flips endpoints for creation as described below. (attribute removed for FreeCAD 0.20)
 
-## Flip Ends {#flip_ends}
+## Flip Ends 
 
 <img alt="Sketch how the centerline is constructed" src=images/TD-CenterLineFlip.png  style="width:350px;"> The centerline between 2 lines is drawn between the midpoints (m0 and m1) of the lines that connects the endpoints of the selected lines (p0 and p1), see the sketch. Depending on the point order there are 2 possibilities to draw the connecting lines. The attribute **Flip Ends** flips the way the connecting lines are drawn. In FreeCAD 0.20 the point order is automatically determined so that the **Flip Ends** attribute is no longer necessary.
 

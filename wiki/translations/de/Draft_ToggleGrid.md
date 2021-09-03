@@ -30,13 +30,13 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-1.  Definiere das Aussehen des Gitters in den [Entwurfseinstellungen](Draft_Preferences/de.md); gehe zum Menü {{MenuCommand|Bearbeiten → Einstellungen → Entwurf → Gitter und Fang}}; lege die \"Gittergröße\", \"Gitterabstand\" und \"Hauptlinie alle\" Optionen fest und drücke dann **OK**.
-2.  Rechtsklicke dann auf ein Entwurfsobjekt und wähle {{MenuCommand|Dientsprogramme → <img src="images/Draft_Grid.svg" width=16px> UmschaltenGitter}}.
+1.  Definiere das Aussehen des Gitters in den [Entwurfseinstellungen](Draft_Preferences/de.md); gehe zum Menü **Bearbeiten → Einstellungen → Entwurf → Gitter und Fang**; lege die \"Gittergröße\", \"Gitterabstand\" und \"Hauptlinie alle\" Optionen fest und drücke dann **OK**.
+2.  Rechtsklicke dann auf ein Entwurfsobjekt und wähle **Dientsprogramme → <img src="images/Draft_Grid.svg" width=16px> UmschaltenGitter**.
 
 
 
 
-1.  Oder rechtsklicke auf eine leere Stelle in einer Werkzeugleiste, oder gehe zum Menü {{MenuCommand|Ansicht → Werkzeugleisten}}, und klicke auf das [Entwurf Fang](Draft_Snap/de.md) Auswahlkästchen.
+1.  Oder rechtsklicke auf eine leere Stelle in einer Werkzeugleiste, oder gehe zum Menü **Ansicht → Werkzeugleisten**, und klicke auf das [Entwurf Fang](Draft_Snap/de.md) Auswahlkästchen.
 2.  Es gibt mehrere Möglichkeiten, das Gitter sichtbar zu machen:
     -   Drücke die **<img src="images/Draft_Grid.svg" width=16px> [Entwurf UmschaltenGitter](Draft_ToggleGrid/de.md)** Schaltfläche in der Entwurf Werkzeugleiste
     -   Verwende **G** dann **R** Tastaturkürzel
@@ -48,8 +48,8 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
--   To use the grid select: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid}}. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Grid}}.
+-   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
+-   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 
 
 <div class="mw-translate-fuzzy">

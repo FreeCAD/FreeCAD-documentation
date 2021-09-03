@@ -19,7 +19,7 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 -   Select an edge or a vertex that you want to link to in the sketch.
 -   Press Esc, or select another tool to stop importing geometry into the sketch.
 
-### Selection rules {#selection_rules}
+### Selection rules 
 
 -   Only edges and vertices from objects from same coordinate system are allowed.
 
@@ -33,21 +33,21 @@ That means, you can\'t link to Pocket made with this sketch. You can\'t link to 
 
 Sketch doesn\'t have to be on any face in order to use this tool. Links directly between sketches are possible, and encouraged, as they are more reliable.
 
-### Appearance When Successfully Linked {#appearance_when_successfully_linked}
+### Appearance When Successfully Linked 
 
 A (default magenta) coloured line will be overlaid when an edge is successfully linked (the vertices will be red), and will be visible in your sketch only while your sketch is in edit mode.
 
-### Similarity to Construction Lines {#similarity_to_construction_lines}
+### Similarity to Construction Lines 
 
 External geometry (default colour magenta) lines are similar (default colour blue) [Contruction lines](Sketcher_ToggleConstruction.md) except in that the external geometry magenta lines are parametrically linked back to an element of the solid to which the sketch is mapped. Construction geometry are lines that are internal to the sketch, are only visible when the sketch is in edit mode and will be used for constraint references only, and not directly for later solid operations, like Pad or Pocket.
 
-### Use Of External Geometry in a PartDesign Workbench Work Flow {#use_of_external_geometry_in_a_partdesign_workbench_work_flow}
+### Use Of External Geometry in a PartDesign Workbench Work Flow 
 
 In the PartDesign workbench work flow, the External Geometry tool is used to assist in the positioning of an aspect of the solid you are constructing, relative to the previous stage in its construction. PartDesign workbench is intended to produce one single solid, therefore these sketches with external geometry are used to create a new feature of that one single solid.
 
 The external geometry can, for example, be used as a reference for a constraint being used to position a hole in an object at a specific location relative to an edge or vertex.
 
-### Use Of External Geometry in a Part Workbench Work Flow {#use_of_external_geometry_in_a_part_workbench_work_flow}
+### Use Of External Geometry in a Part Workbench Work Flow 
 
 You can use any Part geometry that is in coordinate system of the sketch. It is advised to link to the earliest feature possible, as it forms a more stable link.
 

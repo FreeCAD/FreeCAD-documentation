@@ -43,7 +43,7 @@ Vous pouvez également compiler vous-même pythonOCC (voir [instructions](https:
     cmake -DOCE_INCLUDE_PATH=/usr/include/opencascade -DOCE_LIB_PATH=/usr/lib/x86_64-linux-gnu ..
     make
 
-## Plus d\'informations {#plus_dinformations}
+## Plus d\'informations 
 
 -   Page du projet: [pythonocc.org](http://www.pythonocc.org/)
 -   Nouvelle version compatible avec OCCT 7.4, [tpaviot/pythonocc-core](https://github.com/tpaviot/pythonocc-core).

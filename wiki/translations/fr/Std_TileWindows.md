@@ -17,7 +17,7 @@ La commande **Std Mosaïque** réorganise les fenêtres dans la [Zone de vue pri
 ## Utilisation
 
 1.  La zone de vue principale doit contenir au moins deux fenêtres.
-2.  Sélectionnez l\'option {{MenuCommand|Fenêtre → <img src="images/Std_TileWindows.svg" width=16px> Mosaïque}} dans le menu.
+2.  Sélectionnez l\'option **Fenêtre → <img src="images/Std_TileWindows.svg" width=16px> Mosaïque** dans le menu.
 
 
 

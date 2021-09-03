@@ -20,7 +20,7 @@ Moves the selected sketch elements from one point to another, using the last sel
 2.  There are several ways to invoke the command:
     -   Press the **<img src=images/Sketcher_Move.svg style="width:16px"> [Move](Sketcher_Move.md)** button in the toolbar.
     -   Use the **Ctrl** + **M** keyboard shortcut
-    -   Use the {{MenuCommand|Sketch → Sketcher tools → <img src=images/Sketcher_Move.svg style="width:16px"> Move}} entry in the Sketch menu
+    -   Use the **Sketch → Sketcher tools → <img src=images/Sketcher_Move.svg style="width:16px"> Move** entry in the Sketch menu
 3.  Click on a point or a location in empty space to move the elements to their new location. The existing constraints move as well.
 4.  If you want to detach an element and move freely, delete its locking constraints and drag with mouse.
 

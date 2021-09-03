@@ -36,7 +36,7 @@ Note:
     -   in Linux di solito il percorso di Mod è usr/lib/freecad/Mod. Si deve aprire .Mod come amministratore e si deve dare a tutti i file di \"gear\" il permesso di accesso. È anche possibile copiare in Mod con: \~/.FreeCAD/Mod
 -   FCGear richiede \"NUMPY\", che è stato incluso in FreeCAD solo con la versione 0.15.4671, quindi non funziona con le versioni precedenti
 
-## Creare un ingranaggio {#creare_un_ingranaggio}
+## Creare un ingranaggio 
 
 -   passare nell\'ambiente gear
 -   cliccare sul simbolo di un tipo di ingranaggio

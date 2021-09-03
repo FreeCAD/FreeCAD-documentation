@@ -30,7 +30,7 @@ C\'è anche un [IRC \#freecad chat room on Freenode](irc://chat.freenode.net/fre
 
 Se siete su Reddit potete usare [r/FreeCAD](https://www.reddit.com/r/FreeCAD/), o [r/flossCAD](https://www.reddit.com/r/flossCAD/) utilizzando il FreeCAD flair. Il subreddit r/flossCAD ha anche [una chatroom](https://s.reddit.com/channel/300896_dfacaa912e069e3d3f7e55e5cedfb25483d8d68a) dove è possibile fare domande. Ci sono anche i subreddit [r/ElmerFEM](https://www.reddit.com/r/ElmerFEM/), [r/openscad](https://www.reddit.com/r/openscad/), [r/LibreCAD/](https://www.reddit.com/r/LibreCAD/) [r/OpenFOAM](https://www.reddit.com/r/OpenFOAM/), e [r/Modelica](https://www.reddit.com/r/Modelica/).
 
-## Twitter and Mastodon {#twitter_and_mastodon}
+## Twitter and Mastodon 
 
 Si può anche seguire il [official Twitter account for FreeCAD](https://twitter.com/FreeCADNews) e/o [the developers](https://twitter.com/fsfarimani/lists/freecad). Si può anche seguire il [FreeCAD\'s official Mastodon account](https://fosstodon.org/@FreeCAD).
 

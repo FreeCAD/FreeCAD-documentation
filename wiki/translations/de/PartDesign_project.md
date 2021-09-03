@@ -21,7 +21,7 @@ Hier der Projektplan für die **TeileKonstruktion** als Teil des [Entwicklungsfa
 
 <div class="mw-translate-fuzzy">
 
-## Zweck und Grundsätze {#zweck_und_grundsätze}
+## Zweck und Grundsätze 
 
 Dies ist ein Softwareentwicklungsprojekt, das darauf abzielt, die Teilekonstruktionsfähigkeiten zu implementieren. Es geht um Implementierung einiger **Kernfuktionen** in die CAD Module von FreeCAD, **Teil, TeileKonstruktion und Zusammenbau**.
 
@@ -77,7 +77,7 @@ Ein parametrischer Skizzierer mit einem geometrischen Beschränkungslöser, für
 
 <div class="mw-translate-fuzzy">
 
-#### Körper Funktion {#körper_funktion}
+#### Körper Funktion 
 
 Da eine historienbasierte Modellierung viele Schritte haben kann, die zu einer um die endgültige Form zu erreichen, wird eine Klammer benötigt. Das ist der Körper, der das Endergebnis der Modellierung darstellt und als Gruppe für alle Funktionen des Verlaufsbaums fungiert .
 
@@ -120,17 +120,17 @@ Wiederholen eines der oben genannten Merkmale entlang eines x,y Musters.
 
 Wiederholen eines der oben genannten Funktionen entlang eines Musters in Polarkoordinaten.
 
-##### **Skripterzeugtes Muster** {#skripterzeugtes_muster}
+##### **Skripterzeugtes Muster** 
 
 Wiederholen eines der oben genannten Funktionen gemäß einer allgemeinen Regel, die in Form eines Skripts zur Verfügung gestellt wird.
 
 ## Ideenfindung
 
-### Was andere tun {#was_andere_tun}
+### Was andere tun 
 
 -   [SolidWorks Beispiele](http://www.youtube.com/watch?v=cVXQmDStHus)
 
-### Muster Implementierung {#muster_implementierung}
+### Muster Implementierung 
 
 Die Muster Funktionsklasse kann als tabellarisches Muster implementiert werden und als Basisklasse für die Funktionen \"Rechteckig\", \"Kreisförmig\" und \"programmerstelltes\" Muster dienen. Diese abgeleiteten Klassen müssen nur die Wiederholungstabelle der Basisklasse ausfüllen.
 
@@ -138,7 +138,7 @@ Jede Zeile der Wiederholungstabelle der Basis Musterklasse muss mindestens eine 
 
 ## Organisieren
 
-### Modellieren der Objekthierarchie {#modellieren_der_objekthierarchie}
+### Modellieren der Objekthierarchie 
 
 Dieses [UML](http://en.wikipedia.org/wiki/Unified_Modeling_Language) Diagramm zeigt die geplante Objekthierarchie und ihre Beziehungen. Gelb ist eine abstrakte Basisklasse, blau ist implementiert und grau ist geplant.
 
@@ -162,7 +162,7 @@ Dieses [UML](http://en.wikipedia.org/wiki/Unified_Modeling_Language) Diagramm ze
 
 </div>
 
-## Nächste Maßnahmen {#nächste_maßnahmen}
+## Nächste Maßnahmen 
 
 Die nächsten Maßnahmen sind im Eintrag [Fahrplan](http://www.freecadweb.org/tracker/roadmap_page.php) für PartDesign definiert:
 
@@ -179,14 +179,14 @@ Aufgrund der parametrischen/assoziativen Natur des PartDesigns benötigen wir sc
 
 <div class="mw-translate-fuzzy">
 
-### Zusätzliche Funktionen {#zusätzliche_funktionen}
+### Zusätzliche Funktionen 
 
 Die Polster und Taschen Funktionen sind der erste Köder für das PartDesign. Insbesondere an der Sichtbarkeitskontrolle und den visuellen Bearbeitungsgeräten muss noch gearbeitet werden. Aber dann sind zusätzliche Funktionen erforderlich.
 
 
 </div>
 
-#### Muster {#muster_1}
+#### Muster 
 
 Muster Funktion, die wiederholt ein Block- oder Taschen Formelement gemäß einem kreisförmigen oder rechteckigen Muster anwendet. Ein [Beispiel in IronCAD](http://www.ironcad.com/index.php/support/learning-center). **Erledigt \[jrheinlaender\]**
 
@@ -211,7 +211,7 @@ Drehe eine Skizze entlang einer ihrer Achsen und um einen bestimmten Winkel. **E
 
 <div class="mw-translate-fuzzy">
 
-## AUFGABEN Liste {#aufgaben_liste}
+## AUFGABEN Liste 
 
 1.  **Verrundung/Fase Formteil**
     1.  Anwenden von Verrundung/Fase Arbeitsgang auf verschiedene Auswahltypen (Flächen/Flächenpaar/ganzer Körper)\*

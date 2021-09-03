@@ -29,7 +29,7 @@ Crea un vincolo FEM di contatto tra 2 superfici.
 
 ## Note
 
-### Alcuni consigli su come modellare {#alcuni_consigli_su_come_modellare}
+### Alcuni consigli su come modellare 
 
 -   Da <https://forum.freecadweb.org/viewtopic.php?f=18&p=340874#p340494>
 -   Meglio utilizzare elementi lineari altrimenti i calcoli richiedono molto tempo

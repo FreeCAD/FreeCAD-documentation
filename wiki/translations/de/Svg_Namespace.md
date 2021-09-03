@@ -65,7 +65,7 @@ Beispiel:
 </text>
 
 
-### freecad:basepoint1 (Basispunkt 1) {#freecadbasepoint1_basispunkt_1}
+### freecad:basepoint1 (Basispunkt 1) 
 
 Definiert den ersten Basispunkt eines [Entwurf Abmessung](Draft_Dimension/de.md)-Objektes, als Gruppe in einem SVG-Dokument dargestellt. Dieses Attribut wird verwendet, wenn das SVG-Teilstück (Fragment) in FreeCAD importiert wird, um das Objekt \'Dimension\' neu zu erzeugen/zu ändern. Die Gruppe enthält Pfade und andere graphische Punkte, um das Objekt Dimensionen in anderen SVG-Anwendungen richtig wiederzugeben.
 
@@ -77,7 +77,7 @@ Beispiel:
 </g>
 
 
-### freecad:basepoint2 (Basispunkt 2) {#freecadbasepoint2_basispunkt_2}
+### freecad:basepoint2 (Basispunkt 2) 
 
 Definiert den zweiten Basispunkt des [Entwurf Abmessung](Draft_Dimension/de.md) Objektes, als Gruppe in einem SVG-Dokument dargestellt. Dieses Attribut wird verwendet, wenn das SVG-Teilstück (Fragment) in FreeCAD importiert wird, um das Objekt \'Dimension\' neu zu erzeugen / zu ändern. Die Gruppe enthält Pfade und andere graphische Punkte, um das Objekt Dimensionen in anderen SVG-Anwendungen richtig wiederzugeben.
 
@@ -89,11 +89,11 @@ Definiert den Punkt eines [Entwurf Abmessung](Draft_Dimension/de.md) Objektes, d
 
 Beispiel: siehe [freecad:basepoint1](#freecad:basepoint1.md)
 
-### Beispiel eines freecad-Codes:EditierbarerText {#beispiel_eines_freecad_codeseditierbarertext}
+### Beispiel eines freecad-Codes:EditierbarerText 
 
 Diese Beispiel wurde von einer Kartusche auf ein Blatt übertragen [A3\_Landscape](Misc_templates#A3_Landscape_US_Text_Complet_With_Convention_US.md)
 
-#### 1 : Titel ohne Textbearbeitung (textedit) {#titel_ohne_textbearbeitung_textedit}
+#### 1 : Titel ohne Textbearbeitung (textedit) 
 
 <img alt="" src=images/Svg_Namespace_01.png  style="width:300px;">
 
@@ -113,7 +113,7 @@ Diese Beispiel wurde von einer Kartusche auf ein Blatt übertragen [A3\_Landscap
          sodipodi:role="line">AUTHOR NAME :</tspan></text>
 
 
-#### 1 : Titel mit Textbearbeitung (textedit) {#titel_mit_textbearbeitung_textedit}
+#### 1 : Titel mit Textbearbeitung (textedit) 
 
 <img alt="" src=images/Svg_Namespace_02.png  style="width:300px;">
 
@@ -216,7 +216,7 @@ Beispiel:
 -   **editable** = \"AuthorName\"
 -   replace by **freecad:editable** = \"AuthorName\"
 
-## Andere, verfügbare Attribute {#andere_verfügbare_attribute}
+## Andere, verfügbare Attribute 
 
 
 <div class="mw-translate-fuzzy">

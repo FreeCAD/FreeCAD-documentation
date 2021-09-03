@@ -15,7 +15,7 @@ La commande **Std Plein écran principal** bascule le mode plein écran de la fe
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → <img src="images/Std_MainFullscreen.svg" width=16px> Plein écran}} dans le menu.
+    -   Sélectionnez l\'option **Affichage → <img src="images/Std_MainFullscreen.svg" width=16px> Plein écran** dans le menu.
     -   Utilisez le raccourci clavier: **Alt**+**F11**.
 
 

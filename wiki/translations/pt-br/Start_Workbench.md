@@ -19,7 +19,7 @@ A [Start Workbench](Start_Workbench.md) não é uma bancada de fato, mas apenas 
 
 </div>
 
-From this interface you can see useful information and jump to recently opened files, examples, the documentation, and latest news from the FreeCAD world. You can change how the Start Workbench behaves, or change the default workbench, in the [Preferences Editor](Preferences_Editor.md) in the menu {{MenuCommand|Edit → Preferences → Start}}.
+From this interface you can see useful information and jump to recently opened files, examples, the documentation, and latest news from the FreeCAD world. You can change how the Start Workbench behaves, or change the default workbench, in the [Preferences Editor](Preferences_Editor.md) in the menu **Edit → Preferences → Start**.
 
 <img alt="Start workbench, documents tab" src=images/FreeCad_Start_0.18_documents.png  style="width:500px;">
 

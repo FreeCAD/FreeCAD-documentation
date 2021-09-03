@@ -22,13 +22,13 @@
 
 </div>
 
-The Body provides an {{MenuCommand|Origin}} object which includes local X, Y, and Z axes, and standard planes. These elements can be used as references to attach [sketches](Sketch.md) and [primitive objects](PartDesign_CompPrimitiveAdditive.md).
+The Body provides an **Origin** object which includes local X, Y, and Z axes, and standard planes. These elements can be used as references to attach [sketches](Sketch.md) and [primitive objects](PartDesign_CompPrimitiveAdditive.md).
 
 Do not confuse the <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Body](PartDesign_Body.md) with the <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Part.md). The first one is a specific object used in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), intended to model a [single contiguous solid](PartDesign_Body#Single_contiguous_solid.md) by means of [PartDesign Features](PartDesign_Feature.md). The [Std Part](Std_Part.md) is a grouping object intended to create [assemblies](assembly.md); it is not used for modelling, just to arrange different objects in space. Multiple bodies, and other [Std Parts](Std_Part.md), can be placed inside a single [Std Part](Std_Part.md) to create a complex assembly.
 
 ![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) *Left: the tree view showing the features that sequentially produce the final shape of the object. Right: the final object visible in the [3D view](3D_view.md).*
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 If no previous solid is selected:
 
@@ -38,12 +38,12 @@ If no previous solid is selected:
 
 If a solid object is selected:
 
-1.  Press the **<img src="images/PartDesign_Body.svg" width=16px> [Body](PartDesign_Body.md)** button. A new Body is created containing a single {{MenuCommand|Base Feature}}. This Base Feature element is a simple reference to another object previously created or imported into the document. See [Base Feature](PartDesign_Body#Base_Feature.md) for more information. An existing Body or [PartDesign Feature](PartDesign_Feature.md) cannot be selected when pressing **<img src="images/PartDesign_Body.svg" width=16px> [Body](PartDesign_Body.md)**.
+1.  Press the **<img src="images/PartDesign_Body.svg" width=16px> [Body](PartDesign_Body.md)** button. A new Body is created containing a single **Base Feature**. This Base Feature element is a simple reference to another object previously created or imported into the document. See [Base Feature](PartDesign_Body#Base_Feature.md) for more information. An existing Body or [PartDesign Feature](PartDesign_Feature.md) cannot be selected when pressing **<img src="images/PartDesign_Body.svg" width=16px> [Body](PartDesign_Body.md)**.
 
 ### Notes
 
 -   If no Body currently exists when **<img src=images/PartDesign_NewSketch.svg style="width:16px"> <img src=images/PartDesign_NewSketch.svg style="width:New sketch](PartDesign_NewSketch.md)** is pressed, a new Body will be automatically created. If a Body already exists, it has to be made active before using **[16px"> [New sketch](PartDesign_NewSketch.md)**.
--   Double-click the Body in the [tree view](tree_view.md) or open the context menu (right-click) and select {{MenuCommand|Toggle active body}} to activate or deactivate the Body. If another Body is active, it will be deactivated. See [active status](PartDesign_Body#Active_status.md) for more information.
+-   Double-click the Body in the [tree view](tree_view.md) or open the context menu (right-click) and select **Toggle active body** to activate or deactivate the Body. If another Body is active, it will be deactivated. See [active status](PartDesign_Body#Active_status.md) for more information.
 
 ## Proprietăți
 
@@ -64,7 +64,7 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 -    **Group|LinkList**: a list with the [PartDesign Features](PartDesign_Feature.md) in the Body.
 
-#### Hidden properties Data {#hidden_properties_data}
+#### Hidden properties Data 
 
 -    **Origin|Link**: the [App Origin](App_Origin.md) object that is the positional reference for all elements listed in **Group**.
 
@@ -107,9 +107,9 @@ Also the hidden properties described in [Part Feature](Part_Feature.md).
         
         exposes only the final shape of the Body, which is defined by the **Tip** property. Everything else, including [sketches](Sketch.md), [partial features](PartDesign_Feature.md), datums, etc., is not displayed, even if they are visible in the [tree view](tree_view.md). This mode is recommended when the Body does not need to be modified further, so a fixed shape is shown. This mode is also recommended when you wish to select the sub-elements (vertices, edges, and faces) of the final shape to use with other workbenches\' tools.
 
-## Body concept {#body_concept}
+## Body concept 
 
-### Single contiguous solid {#single_contiguous_solid}
+### Single contiguous solid 
 
 A PartDesign Body is intended to model a single contiguous solid. The meaning of \"contiguous\" is an element made in one piece, with no moving parts, or disconnected solids. Examples of contiguous solids are those that are manufactured from a single piece of raw material by a process of casting, cutting, or milling. For example, a nut, a washer, and a bolt each consists of a single solid piece of steel with no moving parts, so each can be modelled by a PartDesign Body. Objects that are created by welding two pieces can also be modelled by a single Body as long as the weld joint is not intended to break apart.
 
@@ -118,7 +118,7 @@ Once these contiguous solids are put together in some type of arrangement, then 
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> 
 *Left: three individual contiguous solids, each of them modelled by a PartDesign Body. Right: the individual Bodies put together in an assembly.*
 
-### Feature editing {#feature_editing}
+### Feature editing 
 
 A PartDesign Body is intended to work by creating an initial solid, either from a [sketch](Sketch.md) or from a [primitive shape](PartDesign_CompPrimitiveAdditive.md), and then modifying it through [\"features\"](PartDesign_Feature.md) to add or remove material from the previous shape. For a full explanation go to [feature editing](feature_editing.md).
 
@@ -134,24 +134,24 @@ A PartDesign Body will perform an automatic [fusion](Part_Fuse.md) (union) of th
 
 other CAD programs like Catia allow discontiguous solids in the same \"Body\". As of v0.19, FreeCAD does not allow this. There has been discussions in the [FreeCAD forum](https://forum.freecadweb.org/index.php) about lifting this restriction but no concrete decision has been made. If you\'d like to know more or present different points of view, please discuss in the [forum](https://forum.freecadweb.org/index.php).
 
-## Detailed explanation of the properties {#detailed_explanation_of_the_properties}
+## Detailed explanation of the properties 
 
 
 <div class="mw-translate-fuzzy">
 
-### Active Status {#active_status}
+### Active Status 
 
 Un document FreeCAD poate conține mai multe entități. Prin urmare, pentru a adăuga o funcție nouă unui anumit Corp, trebuie făcută activ. Un corp activ va fi afișat în arborescență cu o culoare de fundal albastru deschis. În v0.18, este numit ca fiind arborescența Model și va fi afișat și cu caractere aldine.
 
 
 </div>
 
-An open document can contain multiple Bodies. To add a new feature to a specific Body, it needs to be made **active**. An active body will be displayed in the [tree view](tree_view.md) with the background color specified by the {{MenuCommand|Active container}} value in the [preferences editor](Preferences_Editor#Colors.md) (by default, light blue). An active body will also be shown in bold text.
+An open document can contain multiple Bodies. To add a new feature to a specific Body, it needs to be made **active**. An active body will be displayed in the [tree view](tree_view.md) with the background color specified by the **Active container** value in the [preferences editor](Preferences_Editor#Colors.md) (by default, light blue). An active body will also be shown in bold text.
 
 To activate or de-activate a Body:
 
 -   Double click on it on the [tree view](tree_view.md), or
--   Open the context menu (right click) and select {{MenuCommand|Toggle active body}}.
+-   Open the context menu (right click) and select **Toggle active body**.
 
 
 <div class="mw-translate-fuzzy">
@@ -203,7 +203,7 @@ all elements inside the Body are referenced to the Body\'s Origin which means th
 
 <div class="mw-translate-fuzzy">
 
-### Funcție de bază {#funcție_de_bază}
+### Funcție de bază 
 
 Funcția de bază este prima funcție a PartDesign creată în Corp. Dar este posibil să se utilizeze o formă solidă, fie importată, fie modelată în alte Ateliere de lucru, ca element de bază la care se pot adăuga schițe și alte funcții(onalități).
 
@@ -249,7 +249,7 @@ The Base Feature is entirely optional; it is only present when including an obje
 
 <div class="mw-translate-fuzzy">
 
-### Funcția Rezultantă/Vărf {#funcția_rezultantăvărf}
+### Funcția Rezultantă/Vărf 
 
 Funcția rezultată este cea care este expusă în afara modelului(ceea ce se vede). Aceasta este automat ultima funcție din partea de jos a arborescenței. Dar, uneori, ar putea fi util să o înlocuiți cu o funcție anterioară în arborescența Corpului, cu efectul de a reveni în istoria sa; este posibil să adăugați funcții care ar fi trebuit adăugate anterior. În arborescența corpului Corpului, funcția rezultată poartă un punct verde cu o săgeată albă pe interior.
 
@@ -263,7 +263,7 @@ The Tip is the <img src=images/Part_SimpleCopy.svg style="width:PartDesign Featu
 
 *Left: PartDesign Body with full parametric history including intermediate features. Right: the Tip is the final shape that can be exported from the Body, while omitting the model's history.*
 
-The Tip is automatically set to the last feature created in the Body. Nevertheless, it can also be set to any of the intermediate features by opening the <img src=images/PartDesign_MoveTip.svg style="width:tree view](tree_view.md) context menu (right-click) and choosing {{MenuCommand|[16px"> [Set tip](PartDesign_MoveTip.md)}}, or by changing the Body\'s **Tip** value in the [property editor](property_editor.md).
+The Tip is automatically set to the last feature created in the Body. Nevertheless, it can also be set to any of the intermediate features by opening the <img src=images/PartDesign_MoveTip.svg style="width:tree view](tree_view.md) context menu (right-click) and choosing **[16px"> [Set tip](PartDesign_MoveTip.md)**, or by changing the Body\'s **Tip** value in the [property editor](property_editor.md).
 
 Changing the Tip in effect rolls back its history, making it possible to add features that should have been added earlier. It also exposes a different shape to external tools.
 
@@ -280,7 +280,7 @@ For more details, see the <img alt="" src=images/PartDesign_MoveTip.png  style="
 
 <div class="mw-translate-fuzzy">
 
-### Interacțiunea cu alte Ateliere {#interacțiunea_cu_alte_ateliere}
+### Interacțiunea cu alte Ateliere 
 
 În mod implicit, obiectele aflate sub un corp pot fi selectate și, desigur, este necesar să editați și să adăugați caracteristici în PartDesign. Dar selectarea caracteristicilor unui Organism pentru a crea operațiuni de la alte Aeliere de lucru (cum ar fi [Part](Part_Workbench.md) or [Draft](Draft_Workbench.md)) nu este recomandată, deoarece rezultatele pot fi neașteptate; în toate cazurile, va apărea o eroare cu mențiunea \"Linkurile ies din domeniul de aplicare permis\" în vizualizarea Raport.
 
@@ -313,7 +313,7 @@ Odată ce operațiile din alte Ateliere de lucru au fost finalizate, nu uitați 
 
 <div class="mw-translate-fuzzy">
 
-### Managementul Vizibilității {#managementul_vizibilității}
+### Managementul Vizibilității 
 
 Vizibilitatea Corpului înlătură vizibilitatea oricărui obiect pe care îl conține. Dacă corpul este ascuns, obiectele pe care le conține vor fi ascunse, chiar dacă vizibilitatea lor este setată la adevărat. Doar o funcție poate fi vizibilă la un moment dat. Selectarea unei funcții ascunse și apăsarea butonului {{KEY | space}} va face vizibilă și va ascunde automat funcția vizibilă anterior.
 

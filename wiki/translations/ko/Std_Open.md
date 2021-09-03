@@ -21,7 +21,7 @@
         
         버튼을 누릅니다.
 
-    -   메뉴에서 {{MenuCommand|파일 → <img src="images/Std_Open.svg" width=16px> 열기...}} 옵션을 선택합니다.
+    -   메뉴에서 **파일 → <img src="images/Std_Open.svg" width=16px> 열기...** 옵션을 선택합니다.
 
     -   단축키를 사용합니다: **Ctrl**+**O**.
 
@@ -32,13 +32,13 @@
 4.  
     **열기**버튼을 누릅니다.
 
-## 선택 사항 {#선택_사항}
+## 선택 사항 
 
 -   명령을 중지하려면 **Esc** 키나 **취소** 버튼을 누릅니다.
 
-## 환경 설정 {#환경_설정}
+## 환경 설정 
 
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: {{MenuCommand|도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## 스크립트
 

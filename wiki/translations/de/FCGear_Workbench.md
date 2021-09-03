@@ -27,7 +27,7 @@ Bevor [FCZahnrad Arbeitsbereich](FCGear_Workbench/de.md) gestartet werden kann, 
     *Von links nach rechts: Geradverzahnung, Schrägverzahnung, Pfeilverzahnung (siehe [FCZahnrad EvolventenZahnrad](FCGear_InvoluteGear/de.md))*
     
 
-### Evolventen Zahnstange {#evolventen_zahnstange}
+### Evolventen Zahnstange 
 
 :   ![](images/Involute-Rack_example.png )
 :   
@@ -62,7 +62,7 @@ Bevor [FCZahnrad Arbeitsbereich](FCGear_Workbench/de.md) gestartet werden kann, 
     *Oben: Kronenzahnrad (siehe [FCGetriebe KronenZahnrad](FCGear_CrownGear/de.md))*
     
 
-### Gleichlaufzahnrad und Triebstockzahnrad {#gleichlaufzahnrad_und_triebstockzahnrad}
+### Gleichlaufzahnrad und Triebstockzahnrad 
 
 :   ![](images/Timing+Latern-gear_example.png )
 :   
@@ -90,14 +90,15 @@ Bevor [FCZahnrad Arbeitsbereich](FCGear_Workbench/de.md) gestartet werden kann, 
 
 ## Einrichtung
 
-### Automatische Einrichtung {#automatische_einrichtung}
+### Automatische Einrichtung 
 
-Die empfohlene Installationsmethode ab v0.17 ist über den <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalter](Addon_Manager/de.md). Dieser befindet sich im {{MenuCommand|Werkzeuge → Erweiterungsverwalter}}
+Die empfohlene Installationsmethode ab v0.17 ist über den <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalter](Addon_Manager/de.md). Dieser befindet sich im 
+**Werkzeuge → Erweiterungsverwalter**
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:700px">
 
-### Manuelle Einrichtung {#manuelle_einrichtung}
+### Manuelle Einrichtung 
 
 Sollte es notwendig sein, diesen Arbeitsbereich manuell zu installieren, sind die folgenden Anweisungen dafür vorgesehen:
 
@@ -140,7 +141,7 @@ Siehe Anweisungen für Linux oben
 
 </div>
 
-## Verweise zum Arbeitsbereich Getriebe {#verweise_zum_arbeitsbereich_getriebe}
+## Verweise zum Arbeitsbereich Getriebe 
 
 -   Arbeitsbereichs Wiki: <https://github.com/looooo/FCGear/wiki>
 -   FreeCAD Wiki: [Macro\_FCGear](http://www.freecadweb.org/wiki/index.php?title=Macro_FCGear) und [Kegelzahnrad](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878)
@@ -150,7 +151,7 @@ Siehe Anweisungen für Linux oben
 -   Dateien:
 -   Fehler melden: Bitte melde Fehler unter <https://github.com/looooo/FCGear/issues>
 
-## Andere nützliche Verweise {#andere_nützliche_verweise}
+## Andere nützliche Verweise 
 
 -   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [PartDesign EvolventenZahnrad](PartDesign_InvoluteGear/de.md): Dieses Werkzeug ermöglicht die Erstellung eines 2D Profils eines Evolventenzahnrads. Dieses 2D Profil ist vollständig parametrisch und kann mit der Funktion [PartDesign Polster](PartDesign_Pad/de.md) aufgefüllt werden.
 -   [Externe Arbeitsbereiche](External_workbenches/de.md): Eine Liste aller aktuellen externen Arbeitsbereiche von FreeCAD

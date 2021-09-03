@@ -30,15 +30,15 @@ See also the following page for some videos on how to align windows.
 
 1\. Open FreeCAD, create a new empty document, and switch to the [Arch Workbench](Arch_Workbench.md).
 
-2\. Make sure your units are set correctly in the menu {{MenuCommand|Edit → Preferences → General → Units}}. For example, `MKS (m/kg/s/degree)` is good for dealing with distances in a typical building; moreover, set the number of decimals to `4`, to consider even the smallest fractions of a meter.
+2\. Make sure your units are set correctly in the menu **Edit → Preferences → General → Units**. For example, `MKS (m/kg/s/degree)` is good for dealing with distances in a typical building; moreover, set the number of decimals to `4`, to consider even the smallest fractions of a meter.
 
-3\. Use the [Draft ToggleGrid](Draft_ToggleGrid.md) button to show a grid with enough resolution. You can change the grid appearance in the menu {{MenuCommand|Edit → Preferences → Draft → Grid and snapping → Grid}}. Set lines at every `50 mm`, with major lines every `20` lines (every meter), and `1000 lines` in total (the grid covers an area of 50 m x 50 m).
+3\. Use the [Draft ToggleGrid](Draft_ToggleGrid.md) button to show a grid with enough resolution. You can change the grid appearance in the menu **Edit → Preferences → Draft → Grid and snapping → Grid**. Set lines at every `50 mm`, with major lines every `20` lines (every meter), and `1000 lines` in total (the grid covers an area of 50 m x 50 m).
 
 4\. [Zoom out](Zoom_out.md) of the 3D view if you are too close to the grid.
 
 Now we are ready to create a simple wall on which we can position windows and doors.
 
-## Placing a wall {#placing_a_wall}
+## Placing a wall 
 
 5\. Use the [Draft Wire](Draft_Wire.md) tool to create a wire. Go counterclockwise.
 
@@ -82,7 +82,7 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Wall constructed from the wire*
 
-## Placing preset doors and windows {#placing_preset_doors_and_windows}
+## Placing preset doors and windows 
 
 7\. Click the [Arch Window](Arch_Window.md) tool; as preset select `Simple door`, and change the height to 2 m.
 
@@ -98,7 +98,7 @@ w = Draft.makeWire(p, closed=False)
 :   
     **Note:**the `Sill height` is the distance from the floor to the lower edge of the element. For doors the `Sill height` is usually 0 m as doors are normally touching the floor; on the other hand, windows have a usual separation of 0.5 m to 1.5 m from the floor. The `Sill height` can only be set when initially creating the window or door from a preset. Once the window or door is inserted, modify its placement by editing the **Position** vector `[x, y, z]` of the underlying [Sketcher Sketch](Sketcher_Sketch.md).
 
-## Creating custom doors and windows {#creating_custom_doors_and_windows}
+## Creating custom doors and windows 
 
 8\. Switch to the [Sketcher Workbench](Sketcher_Workbench.md); select the part of the wall to the right that has no door; click on the [Sketcher NewSketch](Sketcher_NewSketch.md); select **FlatFace** as attachment method. If the existing geometry obstructs your view, click on [Sketcher ViewSection](Sketcher_ViewSection.md) to remove it.
 
@@ -141,7 +141,7 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Custom window created from the sketch; it still doesn't have a proper frame, nor glass*
 
-## Setting up the custom window {#setting_up_the_custom_window}
+## Setting up the custom window 
 
 12\. In the tree view select `Sketch002` underlying `Window`, and press **Space**, or change the property **Visibility** to `True`.
 
@@ -193,14 +193,14 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Finished window with appropriate components embedded in the wall*
 
-## Duplicating the custom window {#duplicating_the_custom_window}
+## Duplicating the custom window 
 
-14\. In the tree view, select `Window` and its underlying `Sketch002`. Then go to {{MenuCommand|Edit → Duplicate selection}}, and answer **No** if asked to duplicate unselected dependencies. A new `Window001` and `Sketch003` will appear in the same position as the original elements.
+14\. In the tree view, select `Window` and its underlying `Sketch002`. Then go to **Edit → Duplicate selection**, and answer **No** if asked to duplicate unselected dependencies. A new `Window001` and `Sketch003` will appear in the same position as the original elements.
 
 15\. Select the new `Sketch003`. Go to the **Map Mode** property, and click on the ellipsis next to the `FlatFace` value. In the 3D viewport select the left side of the wall which doesn\'t have any element; rotate the [standard view](standard_view.md) as necessary. Change the `Attachment offset` to \[-1 m, 0 m, 0 m\] to center the window, and click **OK**. The sketch and the window should appear in a new position.
 
 :   
-    **Note:**the [attachment operation](Part_Attachment.md) can also be performed by changing to the [Part Workbench](Part_Workbench.md), and then using the menu {{MenuCommand|Part → Attachment}}.
+    **Note:**the [attachment operation](Part_Attachment.md) can also be performed by changing to the [Part Workbench](Part_Workbench.md), and then using the menu **Part → Attachment**.
 
 ![](images/13_T02_sketch_attachment_edit.png )
 
@@ -216,7 +216,7 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Incorrect opening in the wall due to bad Normal of the window*
 
-## Normals of doors and windows {#normals_of_doors_and_windows}
+## Normals of doors and windows 
 
 18\. Each [Arch Window](Arch_Window.md) object controls the extrusion of its body and the opening that is created in its host wall by means of the **Normal**.
 
@@ -302,7 +302,7 @@ After doing these changes, recompute the model with **Ctrl**+**R**. If the wall 
 
 *align=center|Correct opening in the wall due to proper Normal of the window*
 
-## Final remarks {#final_remarks}
+## Final remarks 
 
 20\. As demonstrated, the initial placement of the [Arch Window](Arch_Window.md) is very important. The user should either
 

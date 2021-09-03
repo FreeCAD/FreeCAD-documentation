@@ -39,7 +39,7 @@ Dans cet exemple, un cube est utilisé pour l\'étude, mais tous les modèles cr
 
 Maintenant, nous avons un modèle avec lequel nous pouvons travailler.
 
-### Créer l\'analyse {#créer_lanalyse}
+### Créer l\'analyse 
 
 #### Netgen
 
@@ -60,7 +60,7 @@ L\'utilisation de la macro de psicofil\'s est recommandée et est utilisée pour
 
 Nous avons maintenant créé un maillage de notre objet et nous sommes prêt à ajouter des contraintes et des forces.
 
-### Contraintes et forces {#contraintes_et_forces}
+### Contraintes et forces 
 
 1.  Masquer le maillage depuis l\'arborescence.
 2.  Afficher le modèle original
@@ -73,14 +73,14 @@ Nous avons maintenant créé un maillage de notre objet et nous sommes prêt à 
 
 Nous venons d\'établir les restrictions et les forces pour notre étude statique.
 
-### Préparations finales {#préparations_finales}
+### Préparations finales 
 
 1.  Sélectionner <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> [Matériau pour le solide](FEM_MaterialSolid/fr.md) puis choisir Calculix comme matériau
 2.  Cliquer sur **OK**
 
-### Exécution du solveur {#exécution_du_solveur}
+### Exécution du solveur 
 
-#### Procédure régulière {#procédure_régulière}
+#### Procédure régulière 
 
 1.  Sélectionner l\'objet solveur <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> contenu dans l
 **\'Analyse mécanique**
@@ -89,13 +89,13 @@ Nous venons d\'établir les restrictions et les forces pour notre étude statiqu
 4.  Sélectionner **Run Calculix**
 5.  Cliquer sur **Fermer**
 
-#### Procédure rapide {#procédure_rapide}
+#### Procédure rapide 
 
 1.  Sélectionner l\'ojet solveur <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> contenu dans l
 **\'Analyse mécanique**
 2.  Cliquer sur <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Analyse rapide](FEM_SolverRun/fr.md).
 
-### Analyse des résultats {#analyse_des_résultats}
+### Analyse des résultats 
 
 1.  Depuis l**\'arborescence de l\'objet**, sélectionner l\'objet **Results**
 2.  Sélectionner <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> [Afficher le résultat](FEM_ResultShow/fr.md)

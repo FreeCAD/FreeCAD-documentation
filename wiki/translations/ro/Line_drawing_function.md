@@ -16,7 +16,7 @@ Această pagină arată modul în care se poate construi cu ușurință o funcț
 
 <div class="mw-translate-fuzzy">
 
-## Scriptul Principal {#scriptul_principal}
+## Scriptul Principal 
 
 Mai întâi vom scrie un script care conține toate funcționalitățile noastre. Apoi, vom salva acest lucru într-un fișier și îl vom importa în FreeCAD, astfel încât toate clasele și funcțiile pe care le scriem vor fi disponibile pentru FreeCAD. Deci, lansați editorul de text preferat și tastați următoarele rânduri:
 
@@ -55,7 +55,7 @@ class line:
 
 {{Top}}
 
-## Explicații detaliate {#explicații_detaliate}
+## Explicații detaliate 
 
 
 ```python
@@ -284,7 +284,7 @@ Deoarece am terminat cu linia noastră, să eliminăm mecanismul de apel invers,
 
 <div class="mw-translate-fuzzy">
 
-## Testing & Using the script {#testing_using_the_script}
+## Testing & Using the script 
 
 Acum, hai să salvăm scriptul într-un loc unde interpretul Python de la FreeCAD îl va găsi. Când importați module, interpretorul va căuta în următoarele locuri: căile de instalare python, directorul bin FreeCAD și toate directoarele modulelor FreeCAD. Deci, cea mai bună soluție este să creați un director nou într-unul din FreeCAD [ Mod directories](Installing_more_workbenches.md) și să salvați scriptul în el. De exemplu, să facem un director \"MyScripts\" și să salvăm scriptul nostru ca \"exercise.py\".
 
@@ -353,7 +353,7 @@ Apoi, faceți dublu clic în vizualizarea 3D, și bingo, aici este linia noastr�
 
 <div class="mw-translate-fuzzy">
 
-## Înregistrarea scriptului în interfața FreeCAD {#înregistrarea_scriptului_în_interfața_freecad}
+## Înregistrarea scriptului în interfața FreeCAD 
 
 Acum, pentru ca noul nostru instrument de trasat linii să fie foarte cool, ar trebui să aibă un buton pe interfață, deci să nu trebuiescă să tastăm toate acele lucruri de fiecare dată. Cea mai ușoară cale este să ne transformăm noul director MyScripts într-un atelier de lucru complet FreeCAD. Este ușor, tot ce este necesar este să plasați un fișier numit **InitGui.py** în directorul MyScripts. InitGui.py va conține instrucțiunile pentru a crea un nou atelier de lucru și va adăuga noul instrument. În plus, va trebui să transformăm un pic codul nostru de exerciții, astfel încât instrumentul line() este recunoscut ca o comandă oficială FreeCAD. Să începem prin a face un fișier InitGui.py și scrieți următorul cod în el:
 
@@ -443,7 +443,7 @@ Asta este, vrem să reporniți FreeCAD și vom avea un nou atelier de lucru cu n
 
 {{Top}}
 
-## Deci vrei mai mult? {#deci_vrei_mai_mult}
+## Deci vrei mai mult? 
 
 
 <div class="mw-translate-fuzzy">

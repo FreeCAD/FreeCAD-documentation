@@ -12,10 +12,10 @@ The **<img src="images/Path_OpActiveToggle.svg" width=24px> [Active](Path_OpActi
 
 ## Usage
 
-1.  Select an operation in the {{MenuCommand|Operations}} group belonging to a Job. A deactivated operation can be recognized by its grayed out label and icon.
+1.  Select an operation in the **Operations** group belonging to a Job. A deactivated operation can be recognized by its grayed out label and icon.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_OpActiveToggle.svg" width=16px> [Path OpActiveToggle](Path_OpActiveToggle.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_OpActiveToggle.svg" width=16px> Toggle the Active State of the Operation}} option from the menu.
+    -   Select the **Path → <img src="images/Path_OpActiveToggle.svg" width=16px> Toggle the Active State of the Operation** option from the menu.
     -   Use the keyboard shortcut: **P** then **X**.
 3.  The result depends on the selected operation:
     -   If you have selected an active operation the command deactivates it:

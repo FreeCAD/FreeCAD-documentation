@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Este es el plan del proyecto del [modelo de desarrollo](Development_roadmap/es.md) de FreeCAD.
 
-## Propósito y proncipios {#propósito_y_proncipios}
+## Propósito y proncipios 
 
 Mejorar las capacidades de utilizar múltiples idiomas en FreeCAD mediante la implementación de soporte de carácteres UTF con la interfaz de Coin3D.
 
@@ -30,7 +30,7 @@ A pesar de que Coin3D se ha movido ahora a un plataforma de desarrollo más abie
 
 -   Evaluación rigurosa
 
-## Siguientes acciones {#siguientes_acciones}
+## Siguientes acciones 
 
 -   Implementar la clase de manipulación de cadenas de texto UTF **(En proceso)**
 

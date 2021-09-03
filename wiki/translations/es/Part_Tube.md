@@ -28,7 +28,7 @@ El comando Tubo inserta un tubo en el documento activo. El tubo es geométricame
 Se puede crear un tubo:
 
 -   presionando el botón **<img src="images/Part_Tube.svg" width=16px> '''Crea un Tubo'''** en la barra de herramientas; o bien:
--   usando el menú {{MenuCommand|Pieza → Primitivas → Crear un tubo}}
+-   usando el menú **Pieza → Primitivas → Crear un tubo**
 
 Para editar el tubo:
 

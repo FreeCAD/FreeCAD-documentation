@@ -39,7 +39,7 @@ The handling is straight forward:
 2.  Invoke the Tool Manager using several methods:
     -   Press the **<img src="images/Path_ToolLibraryEdit.svg" width=16px> [Tool Manager](Path_ToolLibraryEdit.md)** button in the toolbar.
     -   Using the **P** then **T** keyboard shortcut.
-    -   Using the {{MenuCommand|Path → Tool Manager}} entry from the top menu.
+    -   Using the **Path → Tool Manager** entry from the top menu.
 3.  Create new tools or adjust the properties of existing tools.
     Set at least the diameter, FreeCAD needs it to calculate the radius compensation. As of <small>(v0.17)</small>  this is the only value used for path creation. However, if you wish to use the simulation tool later, add cutting edge angle and cutting edge height as well.
     ![](images/Path-ToolAdd.gif )

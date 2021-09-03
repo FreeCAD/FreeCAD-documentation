@@ -7,14 +7,14 @@
 |Files=
 }}
 
-## First Steps {#first_steps}
+## First Steps 
 
-We will be working in the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) - select it from menus via {{MenuCommand|View → Workbench → Part}} or from the [Workbench Selector](Workbench_Selector.md).
+We will be working in the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) - select it from menus via **View → Workbench → Part** or from the [Workbench Selector](Workbench_Selector.md).
 
 -   Create a new empty document.
 -   Switch to <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [isometric view](Std_ViewIsometric.md).
 -   Toggle axis cross **ON** (via View Menu).
--   Ensure you have the [Combo View](Combo_view.md) showing (via {{MenuCommand|View → Views}}).
+-   Ensure you have the [Combo View](Combo_view.md) showing (via **View → Views**).
 
 -   Create a cylinder by clicking on the <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [Cylinder](Part_Cylinder.md) button.
 -   Select it by clicking on Cylinder in the Project viewer.
@@ -22,13 +22,13 @@ We will be working in the <img alt="" src=images/Workbench_Part.svg  style="widt
 
 Change the Height to 20mm. Leave the Radius at 2mm.
 
-Click on [Placement](Placement.md) (note the little **[+]**) and a button with three dots will appear **...**. Click on it. (You can also select: {{MenuCommand|Menu → Edit → Placement}}) The Tasks viewer appears.
+Click on [Placement](Placement.md) (note the little **[+]**) and a button with three dots will appear **...**. Click on it. (You can also select: **Menu → Edit → Placement**) The Tasks viewer appears.
 
 <img alt="" src=images/HTCaeroplane01.png  style="width:300px;">
 
 If you are unfamiliar with the XYZ axes then have a play with the numbers in the Translation box. When finished playing click on the **Reset** button.
 
-## Second Steps {#second_steps}
+## Second Steps 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
 

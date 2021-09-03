@@ -12,7 +12,7 @@ La commande **Std Fusion de projets** ajoute le contenu d\'un fichier FreeCAD da
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Fichier → <img src="images/Std_MergeProjects.svg" width=16px> Fusionner un projet...}} dans le menu.
+1.  Sélectionnez l\'option **Fichier → <img src="images/Std_MergeProjects.svg" width=16px> Fusionner un projet...** dans le menu.
 2.  Sélectionnez un fichier FreeCAD dans la boîte de dialogue.
 3.  Appuyez sur le bouton **Ouvrir**.
 
@@ -27,8 +27,8 @@ La commande **Std Fusion de projets** ajoute le contenu d\'un fichier FreeCAD da
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Edition des paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   Les étiquettes en double sont autorisées si {{MenuCommand|Outils → Edition des paramètres... → BaseApp → Preferences → Document → DuplicateLabels}} est réglé sur `True`. Ce paramètre peut également être modifié dans [Editeur de préférences](Preferences_Editor/fr#Document.md).
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Edition des paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Les étiquettes en double sont autorisées si **Outils → Edition des paramètres... → BaseApp → Preferences → Document → DuplicateLabels** est réglé sur `True`. Ce paramètre peut également être modifié dans [Editeur de préférences](Preferences_Editor/fr#Document.md).
 
 
 

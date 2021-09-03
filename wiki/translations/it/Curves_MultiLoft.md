@@ -14,7 +14,7 @@ The <img alt="" src=images/Curves_MultiLoft.svg  style="width:24px;"> [Curves Mu
 1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
 2.  To invoke the command, do one of the following:
     -   Press the <img alt="" src=images/Curves_MultiLoft.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Surfaces → MultiLoft}}
+    -   Use the **Surfaces → MultiLoft**
 
 ## Notes
 

@@ -101,7 +101,7 @@ Comme expliqué dans la page d\'[édition de fonctions](feature_editing/fr.md), 
 
 <img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width:" height="400px;">
 
-## Remarques finales {#remarques_finales}
+## Remarques finales 
 
 Ajouter des objets de référence demande plus de travail à l\'utilisateur, mais produit finalement des modèles plus stables et moins sujets au problème de dénomination topologique.
 

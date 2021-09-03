@@ -18,7 +18,7 @@ Currently the command points to [<https://www.freecadweb.org/wiki/Power_users_hu
 
 ## Применение
 
-1.  Select the {{MenuCommand|Help → <img src="images/Std_FreeCADPowerUserHub.svg" width=16px> Python scripting documentation}} option from the menu.
+1.  Select the **Help → <img src="images/Std_FreeCADPowerUserHub.svg" width=16px> Python scripting documentation** option from the menu.
 
 
 

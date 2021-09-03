@@ -8,7 +8,7 @@
 
 ## Description
 
-Cet outil vous permet de créer un arbre à partir d\'un tableau de valeurs et d\'analyser les forces et les moments. Vous pouvez démarrer l\'assistant par la commande {{MenuCommand|Conception de pièces → <img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...}}.
+Cet outil vous permet de créer un arbre à partir d\'un tableau de valeurs et d\'analyser les forces et les moments. Vous pouvez démarrer l\'assistant par la commande **Conception de pièces → <img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...**.
 
 L\'assistant démarre et affiche un tableau par défaut, la partie d\'arbre correspondante et les graphiques de force/moment.
 
@@ -45,7 +45,7 @@ Pour ajouter un nouveau segment d\'arbre, cliquez avec le bouton droit de la sou
 
 -   Il n\'est pas possible d\'avoir des segments d\'arbre adjacents de même diamètre.
 
-## Fonctionnalités prévues {#fonctionnalités_prévues}
+## Fonctionnalités prévues 
 
 -   Chanfreins et arrondis sur les bords de l\'arbre, gérés par la table.
 -   Reconnaissance d\'une partie de l\'assistant d\'arbre précédemment créée et initialisation des valeurs de la table à partir de celle-ci.

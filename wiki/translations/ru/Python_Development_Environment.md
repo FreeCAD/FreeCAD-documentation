@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Упрощённая среда разработки для Python в FreeCAD {#упрощённая_среда_разработки_для_python_в_freecad}
+## Упрощённая среда разработки для Python в FreeCAD 
 
 [Python](wikipedia:Python_(programming_language).md) is a programming environment which has been incorporated into the [FreeCAD](http://www.freecadweb.org/) system. Using Python many operations offered by FreeCAD are available for programmatic access. Python programs for FreeCAD are usually developed to be either run on the Python console or through the Macro facility of FreeCAD (see [How to install macros](How_to_install_macros.md)).
 
@@ -262,7 +262,7 @@ There is an editor for Python as part of FreeCAD, it is started by clicking the 
 
 Note: For the Macintosh the text editor [TextWrangler](http://www.barebones.com/products/textwrangler/) works well. It has code highlighting and excellent search facilities. There are options to execute jobs in Python but of course they do not work with the FreeCAD environment.
 
-### Macro Source Code Directories {#macro_source_code_directories}
+### Macro Source Code Directories 
 
 There are two directories used by FreeCAD, by default they are the same directory but they are pointed to by different callable point in FreeCAD:
 
@@ -339,7 +339,7 @@ Assuming the string passed to the breakpoint call is meaningful then the locatio
 
 To become productive with these breakpoints, continue on to the next section.
 
-### Variable Inspection {#variable_inspection}
+### Variable Inspection 
 
 The second main feature of a debugger is to examine and possibly alter the contents of variables. Once again, until the FreeCAD debugger for Python is ready we have to depend on work-arounds.
 
@@ -457,15 +457,15 @@ def monthCounter():
 -   these variables may be used to pass data between two programs that run at different points in time
 -   (to repeat) these variables are only for the duration of the FreeCAD session, once the user Quits from FreeCAD then the variables are lost
 
-### Variable Watcher {#variable_watcher}
+### Variable Watcher 
 
 There is a utility [Global Variable Watcher](Macro_Global_Variable_Watcher.md) to help monitor the global variables of FreeCAD. It can display the contents of a global variable either on request or on a timed basis.
 
-### Name Space Clash {#name_space_clash}
+### Name Space Clash 
 
 One thing to be aware of is as there is no management of global variable names by FreeCAD so there is the possibility of changing a variable from the system or another piece of code. Consequently it is a good idea to prefix your variables with something unique such as the routine name. For example to use a variablefrom a routine called \'alpha1\' the global name could be \'FreeCAD.alpha1MyVariable\'.
 
-## Coding Framework {#coding_framework}
+## Coding Framework 
 
 When developing small pieces of Python code in FreeCAD it may be sufficient to use the Python console. However as the number of lines of code grows it makes more sense to store them in a file. Python can be in any file ending with the extension \".py\", however FreeCAD also provides a mechanism called Macro for storing such programs and interacting with them (e.g. editing, running). Python in regular \'.py\' files may only run from the Python console while python in macro file \'.FCMacro\' can be run from the FreeCAD interface for executing macros. One downside with the FreeCAD menu interface is it is menu based with a control window and potentially causes some clutter on the on-screen GUI.
 
@@ -521,7 +521,7 @@ For more support using the PySide GUI there is the page [PySide](PySide.md)
 
 For more assistance with Python coding, there is a macro written to aid in developing Python code, is it located at [Python Assistant Window](Macro_Python_Assistant_Window.md)
 
-## Putting It All Together {#putting_it_all_together}
+## Putting It All Together 
 
 Screen management can be a challenge when developing code that has complex and detailed graphical output like FreeCAD does. The following system works well:
 
@@ -538,7 +538,7 @@ With the test stub operated from a toolbar, and an external editor used, the win
 
 \"tree\" in the diagram refers to the Combi or Tree browsers, the Python console and Report view are combined into the lower window and selectable by buttons. By selective use of the tools the development stream can be optimised, the above is only one idea. Tailoring is done on a personal basis.
 
-## Miscellaneous Links {#miscellaneous_links}
+## Miscellaneous Links 
 
 Some other links about IDEs for Python which might be of interest are:
 

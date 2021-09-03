@@ -27,7 +27,7 @@ Une vis sans fin ne peut être utilisée qu\'avec une roue à vis sans fin. C\'e
 1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
 2.  Lancez la commande d\'une de ces manières :
     -   Appuyez sur le bouton <img alt="" src=images/FCGear_WormGear.svg  style="width:22px;"> [Create a Worm gear](FCGear_WormGear/fr.md) dans la barre d\'outils.
-    -   Utilisez le {{MenuCommand|Menu → Worm gear}}.
+    -   Utilisez le **Menu → Worm gear**.
 3.  Modifier le paramètre d\'engrenage selon les conditions requises (voir **Propriétés → Données** ci-dessous).
 
 ## Propriétés
@@ -85,7 +85,7 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 Les limitations ne sont pas encore connues.
 
-## Formules utiles {#formules_utiles}
+## Formules utiles 
 
 -    **beta (lead angle)**= arctan (**module** \* **teeth** : **pitchdiameter (diameter)**)
 
@@ -95,7 +95,7 @@ Les limitations ne sont pas encore connues.
 
 -    **worm length**= 4,5 \* **module** \* **pi**
 
-## Roue à vis sans fin {#roue_à_vis_sans_fin}
+## Roue à vis sans fin 
 
 La roue à vis sans fin doit être conçue manuellement. À cet effet, **FCGear InvoluteGear** peut être utilisé pour une construction simple. Dans tous les cas, une connaissance approfondie des types d\'engrenages est requise.
 

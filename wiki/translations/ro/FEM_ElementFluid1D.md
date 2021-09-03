@@ -17,7 +17,7 @@ Creează o MEF în secțiunea de fluid pentru rețele aerodinamice și hidraulic
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

@@ -12,17 +12,17 @@ Spark Plug Plane by r-frank
 
 ## Allgemeines
 
-### Suchfeld in der Selektionsansicht {#suchfeld_in_der_selektionsansicht}
+### Suchfeld in der Selektionsansicht 
 
 Das Selektionsfenster erlaubt nun innerhalb der selektierten Objekte zu suchen. Desweiteren hat man nun die Möglichkeit, nur eine Entität zu selektieren oder deselektieren, auf eine Entität zu zoomen oder zu einer Entität in der Baumansicht zu springen.
 
 ![](images/FeatureSelectionView.jpg )
 
-### Erweiterte Unterstützung des Einheitensystems {#erweiterte_unterstützung_des_einheitensystems}
+### Erweiterte Unterstützung des Einheitensystems 
 
 Das neue [Einheitensystem](Quantity.md) von FreeCAD, das in Version 0.14 eingeführt wurde, wird nun von fast allen Modulen verwendet einschließlich den Modulen [Sketcher](Sketcher_Workbench.md), [Draft](Draft_Workbench.md) oder [Arch](Arch_Workbench.md). Ein paar Bereiche nutzen es noch nicht, aber grundsätzlich kann man nun von einer soliden Unterstützung von Einheiten im gesamten Arbeitsablauf ausgehen.
 
-### Kleinere Verbesserungen {#kleinere_verbesserungen}
+### Kleinere Verbesserungen 
 
 -   Import/Export hat nun einen Abschnitt unter Edit \> Preferences. All Dateiformate sind nun ihrem eigenen Reiter gruppiert, was das Auffinden der richtigen Optionen für neue Benutzer vereinfacht.
 -   Benutzerdefinierte Tastaturkürzel akzeptieren nun bis zu 4 Tasten.
@@ -30,11 +30,11 @@ Das neue [Einheitensystem](Quantity.md) von FreeCAD, das in Version 0.14 eingef�
 -   Unterstützung von globalen Benutzertoolbars: Neben dem Hinzufügen eigener Toolbars mit eigenen Werkzeugen zu jedem Arbeitsbereich ist es nun auch möglich, Toolbars hinzuzufügen, die auf allen Arbeitbereichen sichtbar sind.
 -   Neues Bibliothekspaket für Windows mit dem neuesten OCE 0.17.
 
-## Arbeitsbereich Bauteil {#arbeitsbereich_bauteil}
+## Arbeitsbereich Bauteil 
 
 -   Einige neue geometrische Elemente wurden hinzugefügt: Parabel, Parabelbogen, Hyperbel und Hyperbelbogen.
 
-## Arbeitsbereich Bauteil Design & Skizzierer {#arbeitsbereich_bauteil_design_skizzierer}
+## Arbeitsbereich Bauteil Design & Skizzierer 
 
 ### Ellipsen
 
@@ -42,49 +42,49 @@ Der [Skizzierererhielt](Sketcher_Workbench.md) eine solide Unterstützung für E
 
 ![](images/Ellipse-example.png )
 
-### Verbesserte Auswahlwerkzeuge {#verbesserte_auswahlwerkzeuge}
+### Verbesserte Auswahlwerkzeuge 
 
 Die Skizzierer erhielt eine Reihe von neuen Werkzeugen, die Probleme in Ihren Skizzen diagnostizieren, optimieren oder beheben. Zum Beispiel können Sie nun einfach die Elemente selektieren, die mit einer Beschränkung verbunden sind oder umgekehrt. Ferner können Sie in Konflikt stehende oder redundante Beschränkungen finden.
 
 Die Benutzeroberfläche des Skizzierers erhielt neue Anzeigen und zeigt Ihnen nun eine selektierbare Liste von Elementen in Ihrer Skizze.
 
-### Zusammenführen von Skizzen {#zusammenführen_von_skizzen}
+### Zusammenführen von Skizzen 
 
 Es ist nun möglich, mit einem Knopfdruck mehrere Skizzen zu einer Skizze zusammenzuführen.
 
-### Verbesserte Skizzeneigenschaften {#verbesserte_skizzeneigenschaften}
+### Verbesserte Skizzeneigenschaften 
 
 Die Eigenschaftsansicht von Skizzierobjekten wurde ebenfalls verbessert. Numerische Skizzenbeschränkungen (Abstand, horizontaler Abstand, vertikaler Abstand) mit Namen erscheinen nun auch direkt in der Eigenschaftsansicht und können dort auch editiert werden, ohne in den Editiermodus wechseln zu müssen.
 
-### Kleinere Verbesserungen {#kleinere_verbesserungen_1}
+### Kleinere Verbesserungen 
 
 -   Mehr reguläre Polynome zum Skizzierer hinzugefügt.
 -   Neue Beschränkung hinzugefügt: Symmetriebeschränkung senkrecht zur Symmetrieachse.
 
-## Arbeitsbereich Tabellenkalkulation {#arbeitsbereich_tabellenkalkulation}
+## Arbeitsbereich Tabellenkalkulation 
 
 Der [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench.md) wurde von Grund auf neu geschrieben. FreeCAD besitzt nun eine moderne, robuste und funktionsreiche Tabellenkalkulation. Ein paar Funkionalitäten der vorhergehenden Version dieses Arbeitsbereichs wurden entfernt, wie etwa der Eigenschaftscontroller. Dies ist eine komplexe Herausforderung, die mehr noch mehr Entwicklungszeit benötigt. Im Moment bietet die neue Tabellenkalkulation bereits weitaus bessere Möglichkeiten, Daten von Ihrem Model zu erhalten.
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:640px;">
 
-## Arbeitsbereich 2D Skizze {#arbeitsbereich_2d_skizze}
+## Arbeitsbereich 2D Skizze 
 
-### Verwendung von Linienschriftarten im ShapeString {#verwendung_von_linienschriftarten_im_shapestring}
+### Verwendung von Linienschriftarten im ShapeString 
 
 Für die Nostalgiker alter CAD Software können nun Linienschriftarten (\"sticky fonts\", Buchstaben, die aus Linien anstatt gefüllter Flächen bestehen) mit dem Werkzeug [ShapeString](Draft_ShapeString.md) verwendet werden.
 
 ![](images/Stickyfonts.jpg )
 
-### Kleinere Verbesserungen {#kleinere_verbesserungen_2}
+### Kleinere Verbesserungen 
 
 -   [Linien](Draft_Line.md) können nun durch ihre Länge und Winkel in der aktuellen Arbeitsebene definiert werden.
 -   Relative Erweiterung von Linien für [dimensions](Draft_Snap_Dimensions.md)
 -   Unterstützung von [Ellipsen](Sketcher_Ellipse.md)
 -   [Array](Draft_Array.md) Objekte können nun verschmolzen werden.
 
-## Arbeitsbereich Zeichnung {#arbeitsbereich_zeichnung}
+## Arbeitsbereich Zeichnung 
 
-### Export von Zeichnungsseiten nach DXF {#export_von_zeichnungsseiten_nach_dxf}
+### Export von Zeichnungsseiten nach DXF 
 
 Bis jetzt benutzte das System zum Export von Zeichnungsseiten nach DXF einen sehr komplizierten \"Hack\" um den SVG code zu einem FreeCAD Objekt und dann zurück nach DXF mit den Draft Exportes zu bewerkstelligen. Dies geschieht nun intern innerhalb des Zeichnungsmoduls, was zu schnelleren und zuverlässigeren Ergebnissen führt. Der DXF Export verwendet nun ein [Vorlagensystem](Drawing_templates.md) ähnlich wie SVG Seiten. Wenn Ihre Zeichnung eine bestimmte SVG Vorlage verwendet und es eine DXF Vorlage mit gleichem Namen gibt, wird diese in der DXF Datei verwendet.
 
@@ -92,23 +92,23 @@ Bis jetzt benutzte das System zum Export von Zeichnungsseiten nach DXF einen seh
 
 In der DXF Datei werden die Ansichten als skalierte Blöcke platziert. Dies erlaubt die einfache Rücksetzung auf die 1:1 Skalierung.
 
-### Kleinere Verbesserungen {#kleinere_verbesserungen_3}
+### Kleinere Verbesserungen 
 
 -   Es ist nun möglich, Projektionseinstellung von einer existierenden Ansicht wiederzuverwenden, wenn eine neue Zeichnungsansicht erstellt wird.
 
-### Arbeitsbereich Arch {#arbeitsbereich_arch}
+### Arbeitsbereich Arch 
 
-### Aktualisierter IFC Import/Export {#aktualisierter_ifc_importexport}
+### Aktualisierter IFC Import/Export 
 
 In FreeCADs [IFC Import](Arch_IFC.md) wurde viel Entwicklungsarbeit gesteckt. Es wurde ausgiebig getestet und massive Verbesserungen vorgenommen. Der alte Python-basierte Import wurde deaktiviert (ist allerdings noch über die Python Konsole erreichbar). FreeCAD benutzt nun ausschließlich und extensiv die allerneueste [version 5](http://ifcopenshell.org/python.html) ([read more](http://ifcopenshell.org/pythonOCC/example1/) about it) von [IfcOpenShell](http://ifcopenshell.org/), die auf allen Hauptplatformen verfügbar ist (Vergewissern Sie sich, dass Sie die richtige Version passend zu Ihrer Python Version der FreeCAD Installation verwenden). Wir profitieren dadurch nun durch viel schnelleren und zuverlässigeren Import, einen einfacheren und saubereren Code (leichetere Erweiterbarkeit) sowie ein paar weiteren Vorteilen wie etwa eine bessere Unterstützung von Kurvenbasierten Objekten und IFC Eigenschaften.
 
-### Neues feature: Objekt mit einer Ebene schneiden {#neues_feature_objekt_mit_einer_ebene_schneiden}
+### Neues feature: Objekt mit einer Ebene schneiden 
 
 Diese neue Funktionalität, [Arch CutPlane](Arch_CutPlane.md), macht es möglich, ein Objekt entlang einer Ebene zu schneiden, die durch ein Flächenelement eines anderen Objekts definiert ist. Es ist möglich das Objekt vor oder hinter dieser Fläche abzuscheiden.
 
 ![](images/Arch_CutPlane_example.jpg )
 
-### Neues Dachwerkzeug {#neues_dachwerkzeug}
+### Neues Dachwerkzeug 
 
 Das [Dach](Arch_Roof.md) Werkzeug wurde komplett überarbeitet und bietet nun die Möglichkeit, verschiedene Steigungen für jede Seite das Dachs zu definieren. Ferner kann nun eine Dicke für das Dach sowie die Länge des Dachüberstands festgelegt werden.
 
@@ -124,15 +124,15 @@ Ein neues [Panel](Arch_Panel.md) Objekt wurde zum [Arbeitsbereich Arch](Arch_Wor
 
 Das neue [Arch Equipment](Arch_Equipment.md) Objekt wurde designt um alle Arten von nicht-strukturellen, alleinstehenden Objekten zu Ihren Architekturprojekten hinzuzufügen. Diese sind zum Beispiel Beleuchtungen, Sanitäreinrichtungen oder Möbel.
 
-### Kleinere Verbesserungen {#kleinere_verbesserungen_4}
+### Kleinere Verbesserungen 
 
 -   Der Basispunkt eines [Arch Frame](Arch_Frame.md) Objekts kann nun auf einen spezifischen Vertexpunkt des Profils gesetzt werden.
 
-## Externe Module {#externe_module}
+## Externe Module 
 
 Es gab sehr interessante Entwicklungen an neuen Arbeitsbereichen und Macros, die (noch) nicht in den FreeCAD Quellcode eingeflossen sind aber leicht zu einer existierenen FreeCAD 0.15 Installation hinzugefügt werden können. Anleitungen finden Sie auf den unten erwähnten Seiten.
 
-### Baugruppe 2 {#baugruppe_2}
+### Baugruppe 2 
 
 Der [Arbeitsbereich Baugruppe 2](https://github.com/hamish2014/FreeCAD_assembly2) stellt Werkzeuge zur Verfügung, um Baugruppen aus mehreren Bauteilen zu erstellen. Es stellt eine sehr gute Alternative zum offiziellen Arbeitsbereich Baugruppe dar, die noch in der Entwicklung ist (siehe [Forumsthema](http://forum.freecadweb.org/viewtopic.php?f=10&t=8577)).
 

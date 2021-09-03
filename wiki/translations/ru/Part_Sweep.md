@@ -37,7 +37,7 @@
 4.  Define options [Solid](#Solid.md) and [Frenet](#Frenet.md).
 5.  Click **OK**
 
-### Accepted geometry {#accepted_geometry}
+### Accepted geometry 
 
 
 <div class="mw-translate-fuzzy">
@@ -73,7 +73,7 @@
 
 \"Transition\" sets the transition style of the Sweep at a joint in the path, if the path does not define the corner transition (for example where the path is a wire). The property is not exposed in the [Task panel](Task_panel.md) and can be found in properties after the Sweep has been created.
 
-## Profile limitations and complications {#profile_limitations_and_complications}
+## Profile limitations and complications 
 
 -   A vertex or point
     -   vertex or point may only be used as the first and/or last profile in the list of profiles.

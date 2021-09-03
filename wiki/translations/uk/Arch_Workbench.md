@@ -86,7 +86,7 @@ These are tools for creating architectural objects.
     -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Material](Arch_MultiMaterial.md): Creates a multi-material and attributes it to selected objects, if any <small>(v0.17)</small> 
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Schedule](Arch_Schedule.md): Creates different types of schedules
 
-### Modification tools {#modification_tools}
+### Modification tools 
 
 These are tools for modifying architectural objects.
 
@@ -119,7 +119,7 @@ These are additional tools to help you in specific tasks.
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferences](Arch_Preferences.md): preferences for the default appearance of walls, structures, rebars, windows, stairs, panels, pipes, grids and axes.
 
-### Формати файлів {#формати_файлів}
+### Формати файлів 
 
 -   [IFC](Arch_IFC.md) : Industry foundation Classes (тільки імпорт)
 -   [DAE](Arch_DAE.md) : [ Меш](http://uk.wikipedia.org/wiki/Полігональна_сітка.md) в форматі Collada

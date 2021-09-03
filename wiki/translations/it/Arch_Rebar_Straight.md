@@ -14,7 +14,7 @@ Lo strumento [Armatura dritta](Arch_Rebar_Straight.md) consente all\'utente di c
 
 Lo strumento **Armatura dritta** è anche integrato in [BIM](BIM_Workbench/it.md).
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
 *Due serie di barre di rinforzo diritte all'interno di una  [Struttura](Arch_Structure/it.md)*
@@ -105,7 +105,7 @@ Rebar = makeStraightRebar(f_cover, coverAlong, rt_cover, lb_cover,
 
 A seconda dell\'orientamento della barra di armatura, la funzione può essere chiamata in due modi generali impostando `coverAlong` in modo appropriato.
 
-### La barra è orizzontale {#la_barra_è_orizzontale}
+### La barra è orizzontale 
 
 
 ```python
@@ -117,7 +117,7 @@ Rebar = makeStraightRebar(f_cover, ("Bottom Side", value), right_cover, left_cov
 
 -   In questo caso `rt_cover` si riferisce all\'offset `right_cover`, e `lb_cover` si riferisce all\'offset `left_cover`.
 
-### La barra è verticale {#la_barra_è_verticale}
+### La barra è verticale 
 
 
 ```python
@@ -129,7 +129,7 @@ Rebar = makeStraightRebar(f_cover, ("Right Side", value), top_cover, bottom_cove
 
 -   In questo caso `rt_cover` si riferisce all\'offset `top_cover`, e `lb_cover` si riferisce all\'offset `bottom_cover`.
 
-### Esempio orizzontale {#esempio_orizzontale}
+### Esempio orizzontale 
 
 
 ```python
@@ -148,7 +148,7 @@ Rebar2 = StraightRebar.makeStraightRebar(50, ("Bottom Side", 50), 100, 100,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
 
-### Esempio vericale {#esempio_vericale}
+### Esempio vericale 
 
 
 ```python
@@ -168,7 +168,7 @@ Rebar4 = StraightRebar.makeStraightRebar(50, ("Left Side", 50), 100, 100,
 Rebar4.ViewObject.ShapeColor = (0.0, 0.5, 0.5)
 ```
 
-### Modifica delle barre {#modifica_delle_barre}
+### Modifica delle barre 
 
 È possibile modificare le proprietà dell\'armatura con la seguente funzione: 
 ```python

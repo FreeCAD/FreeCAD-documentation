@@ -27,7 +27,7 @@ Wobei `$INSTALL_DIR` das Verzeichnis ist, wo FreeCAD installiert wurde, z.B.
 /usr/share/freecad/Mod/TechDraw/Templates/HowToExample.svg
 ```
 
-## Basisdokument erzeugen {#basisdokument_erzeugen}
+## Basisdokument erzeugen 
 
 1\. Öffne ein neues Dokument in Inkscape
 
@@ -44,7 +44,7 @@ Wobei `$INSTALL_DIR` das Verzeichnis ist, wo FreeCAD installiert wurde, z.B.
 
 Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https://>\...\" verwendest, auch wenn das Wiki heutzutage über https erreicht wird. Da SVG ein von Menschen lesbares Format ist, könntest du die obige Zeile auch mit einem Texteditor in die Datei eingeben. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> *align=center|Inkscape: XML Editor, der die "freecad" Namensraumklausel zum Element <svg> hinzufügt* 
 
-## Erstelle eine Vorlagenzeichnung {#erstelle_eine_vorlagenzeichnung}
+## Erstelle eine Vorlagenzeichnung 
 
 4\. Zeichne Umrisse, Zonennummern, Mittellinien und andere Geometrie.
 
@@ -56,7 +56,7 @@ Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https:/
 
 8\. Du hast nun dein fertiges Kunstwerk, das in etwa so aussehen sollte: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> *align=center|Inkscape: Vorläufiges Vorlagenlayout* 
 
-## Erstelle änderbare Felder {#erstelle_änderbare_felder}
+## Erstelle änderbare Felder 
 
 9\. Verwende den XML Editor, um mit `freecad:editable` jedes Textelement `text` auch als änderbar zu kennzeichnen
 
@@ -64,7 +64,7 @@ Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https:/
 
 <img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> *align=center|Inkscape: XML Editor beim Hinzufügen der "freecad:editable" Eigenschaft zum gewünschten <text> Element* 
 
-## Größe der SVG anpassen {#größe_der_svg_anpassen}
+## Größe der SVG anpassen 
 
 10\. Verwende den XML Editor, um das `viewBox` Attribut so anzupassen, dass es deiner Seitengröße in Millimetern entspricht.
 
@@ -76,7 +76,7 @@ Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https:/
 
 12\. Wir müssen ihn verkleinern.
 
--    {{MenuCommand|Bearbeiten → Alles in allen Schichten auswählen}}oder Kästchen auswählen und alles auswählen.
+-    **Bearbeiten → Alles in allen Schichten auswählen**oder Kästchen auswählen und alles auswählen.
 
 -   Passe die **W:** und **H:** Spinboxen an die Größe Ihres Kunstwerks in Millimetern an.
 
@@ -86,17 +86,17 @@ Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https:/
 
 14\. Die Vorlage sollte nun so wie das Beispiel oben aussehen.
 
-## Entferne Transformationen aus dem SVG {#entferne_transformationen_aus_dem_svg}
+## Entferne Transformationen aus dem SVG 
 
 15\. Stelle sicher, dass alle editierbaren Textelemente nicht gruppiert sind mit **Shift**+**Strg**+**g**.
 
-16\. Wähle alles auf Deiner Seite {{MenuCommand|Bearbeiten → Alles auswählen}}, und dann {{MenuCommand|Bearbeiten → Kopieren}} (**Ctrl**+**c**).
+16\. Wähle alles auf Deiner Seite **Bearbeiten → Alles auswählen**, und dann **Bearbeiten → Kopieren** (**Ctrl**+**c**).
 
-17\. Lösche dann die aktuelle Schicht mit {{MenuCommand|Ebene → aktuelle schicht löschen}}
+17\. Lösche dann die aktuelle Schicht mit **Ebene → aktuelle schicht löschen**
 
 :   Hinweis: Wenn du die Ebene bereits gelöscht hast (in deinem Lagen Paneel ist keine Lage aufgeführt), ist dieser Schritt nicht erforderlich. In diesem Fall solltest du alle (**Ctrl**+**a**), die Auswahl ausschneiden (**Ctrl**+**x**) und mit dem Befehl im nächsten Schritt einfügen.
 
-18\. Füge dann ein {{MenuCommand|Bearbeiten → Einfügen an Ort und Stelle}}.
+18\. Füge dann ein **Bearbeiten → Einfügen an Ort und Stelle**.
 
 :   **Hinweis:** Dieser Befehl verhindert, dass die Textpositionen in Transformations Tags gespeichert werden.  Es ist wichtig, dass du nicht den normalen Einfügebefehl verwendest!
 

@@ -1,4 +1,4 @@
-# Esercizi con FreeCAD {#esercizi_con_freecad}
+# Esercizi con FreeCAD 
 
 
 {{SystemOutput|<Output text>}}
@@ -24,7 +24,7 @@ La guida passo a passo è disponibile in una pagina separata, raggiungibile con 
 
 Spesso gli stessi oggetti sono realizzabili con procedure differenti. La soluzione proposta è solo un esempio, altre soluzioni possono essere anche più efficaci.
 
-## Esercizi con Sketcher {#esercizi_con_sketcher}
+## Esercizi con Sketcher 
 
 Link utili:[Ambiente Sketcher](Sketcher_Workbench/it.md)
 
@@ -56,7 +56,7 @@ Link utili:[Ambiente Sketcher](Sketcher_Workbench/it.md)
 [Soluzione](Soluzione6.md) da fare
 \*\* Approfondimento <img alt="Gruppo" src=images/Gruppo.png  style="width:256px;">
 
-## Esercizi con Drawing {#esercizi_con_drawing}
+## Esercizi con Drawing 
 
 Link utili:[Ambiente Drawing](Drawing_Workbench/it.md)
 
@@ -65,7 +65,7 @@ Link utili:[Ambiente Drawing](Drawing_Workbench/it.md)
 <img alt="ProiezioniMaglia" src=images/ProiezioniMaglia.png  style="width:256px;">
 [Soluzione](Soluzione7.md) da fare
 
-## Esercizi con \...\...\... {#esercizi_con_.........}
+## Esercizi con \...\...\... 
 
 Link utili:
 

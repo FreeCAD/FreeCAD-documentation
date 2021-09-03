@@ -18,7 +18,7 @@ The **Std SaveAs** command saves the active document under a new file name.
 
 ## Usage
 
-1.  Select the {{MenuCommand|File → <img src="images/Std_SaveAs.svg" width=16px> Save As...}} option from the menu.
+1.  Select the **File → <img src="images/Std_SaveAs.svg" width=16px> Save As...** option from the menu.
 2.  Enter a filename in the dialog box.
 3.  Press the **Save** button.
 
@@ -32,7 +32,7 @@ The **Std SaveAs** command saves the active document under a new file name.
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 

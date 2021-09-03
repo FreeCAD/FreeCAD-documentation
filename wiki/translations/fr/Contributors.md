@@ -12,7 +12,7 @@ FreeCAD ne serait pas ce qu\'il est sans les contributions généreuses de beauc
 
 ### Développement
 
-#### Chefs de projet {#chefs_de_projet}
+#### Chefs de projet 
 
 Principaux développeurs du projet FreeCAD :
 
@@ -20,7 +20,7 @@ Principaux développeurs du projet FreeCAD :
 -   [Werner Mayer](User:Wmayer.md)
 -   [Yorik van Havre](User:Yorikvanhavre.md)
 
-#### Principaux développeurs {#principaux_développeurs}
+#### Principaux développeurs 
 
 Personnes qui travaillent régulièrement dans le code de FreeCAD (extrait de <https://github.com/FreeCAD/FreeCAD/graphs/contributors>):
 
@@ -48,7 +48,7 @@ Personnes qui travaillent régulièrement dans le code de FreeCAD (extrait de <h
 -   [Victor Titov (DeepSOIC)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
 -   [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375)
 
-#### Autre codeurs {#autre_codeurs}
+#### Autre codeurs 
 
 Personnes qui ont contribué au code du projet FreeCAD :
 
@@ -96,7 +96,7 @@ Entreprises qui ont fait don de code, d\'actifs ou de temps de développement :
 -   [KiCad Services Corporation](https://www.kipro-pcb.com/)
 -   [OpeningDesign](https://openingdesign.com)
 
-### Modérateurs dans le Forum {#modérateurs_dans_le_forum}
+### Modérateurs dans le Forum 
 
 Personnes qui sont chargées de maintenir la bonne marche et les règles du [FreeCAD forum](http://forum.freecadweb.org) (retrieved from <http://forum.freecadweb.org/memberlist.php?mode=team>) :
 
@@ -144,7 +144,7 @@ Personnes de la communauté qui font beaucoup d\'effort pour aider le projet Fre
 -   [triplus](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=782)
 -   [ulrich1a](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1928)
 
-### Créateurs de pages de documentation {#créateurs_de_pages_de_documentation}
+### Créateurs de pages de documentation 
 
 Personnes écrivant des pages de documentation dans le [wiki](Main_Page/fr.md) :
 
@@ -225,7 +225,7 @@ Personnes aidant pour la traduction des textes dans le programme FreeCAD (extrai
 -   [Николай Матвеев](User:Николай_Матвеев.md)
 -   [Федір](User:Федір.md)
 
-### Développeurs d\'Addons {#développeurs_daddons}
+### Développeurs d\'Addons 
 
 Développeurs d\'ateliers supplémentaires pour FreeCAD (extrait de <https://github.com/FreeCAD/FreeCAD-addons>) :
 

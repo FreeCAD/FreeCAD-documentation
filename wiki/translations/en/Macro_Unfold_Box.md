@@ -33,7 +33,7 @@ Cf [Macro for unfolding box surfaces](http://forum.freecadweb.org/viewtopic.php?
 3.  Group drawings in the same page as possible.
 4.  Sew or not the edges of the pieces.
 
-## Instruction for use {#instruction_for_use}
+## Instruction for use 
 
 1.  Select a box made with Part::Loft tool for example.
 2.  Explode it (cf Draft menu) into plan pieces

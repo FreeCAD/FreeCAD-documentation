@@ -26,7 +26,7 @@ El propósito de este explorador es simplemente permitirte comprobar lo que real
 
 1.  Invocar el Explorador de Ifc a través de:
     -   Pulsando el botón <img alt="" src=images/IFC.svg  style="width:24px;">.
-    -   Utilizando la entrada {{MenuCommand|Arquitectura → Utilidades → Ifc Explorador}} del menú desplegable de Arch.
+    -   Utilizando la entrada **Arquitectura → Utilidades → Ifc Explorador** del menú desplegable de Arch.
 
 
 <div class="mw-translate-fuzzy">

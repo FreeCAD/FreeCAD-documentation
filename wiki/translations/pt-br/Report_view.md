@@ -2,9 +2,9 @@
 
 ## Introdução
 
-The [Report view](Report_view.md) is a panel that shows text messages from FreeCAD processes and tools. It is available in the menu {{MenuCommand|{{StdMenu|[View](Std_View_Menu.md)}} → Panels → Report view}}.
+The [Report view](Report_view.md) is a panel that shows text messages from FreeCAD processes and tools. It is available in the menu **{{StdMenu|[View](Std_View_Menu.md)** → Panels → Report view}}.
 
-Certain properties of this panel, like color of the text and whether to display it automatically on warnings or errors, can be configured in the {{MenuCommand|General → Output window}} tab of the [preferences editor](Preferences_Editor.md).
+Certain properties of this panel, like color of the text and whether to display it automatically on warnings or errors, can be configured in the **General → Output window** tab of the [preferences editor](Preferences_Editor.md).
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
@@ -39,15 +39,15 @@ These functions can be used from the [Python console](Python_console.md) directl
 
 Right click on the report view shows some commands:
 
--    {{MenuCommand|Options}}: logging, warning, error, redirect Python output, redirect Python errors, go to end.
+-    **Options**: logging, warning, error, redirect Python output, redirect Python errors, go to end.
 
--    {{MenuCommand|Copy}}: stores the selected text in the clipboard for later pasting; it is disabled if nothing is selected.
+-    **Copy**: stores the selected text in the clipboard for later pasting; it is disabled if nothing is selected.
 
--    {{MenuCommand|Select all}}: selects all text in the report view.
+-    **Select all**: selects all text in the report view.
 
--    {{MenuCommand|Clear}}: erases all messages in the report view. This is useful if you want to troubleshoot a tool that prints messages to the report view, and want to be sure there are no old messages from previous tools.
+-    **Clear**: erases all messages in the report view. This is useful if you want to troubleshoot a tool that prints messages to the report view, and want to be sure there are no old messages from previous tools.
 
--    {{MenuCommand|Save as}}: save the messages in the report view to a text file.
+-    **Save as**: save the messages in the report view to a text file.
 
 
 {{Interface navi

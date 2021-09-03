@@ -31,7 +31,7 @@ Questo strumento imposta la proprietà **Display Mode** dell\'oggetto selezionat
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più oggetti
-2.  Fare clic con il tasto destro e selezionare {{MenuCommand|Utilità → <img src="images/Draft_ToggleDisplayMode.png" width=16px> [Cambia la visualizzazione](Draft_ToggleDisplayMode/it.md)}}, o premere i tasti **Maiusc**+**Spazio**.
+2.  Fare clic con il tasto destro e selezionare **Utilità → <img src="images/Draft_ToggleDisplayMode.png" width=16px> [Cambia la visualizzazione](Draft_ToggleDisplayMode/it.md)**, o premere i tasti **Maiusc**+**Spazio**.
 
 
 </div>

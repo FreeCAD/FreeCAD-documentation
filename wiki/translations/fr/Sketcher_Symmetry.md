@@ -15,7 +15,7 @@ Symétrise la géométrie de l\'esquisse par rapport à une ligne ou à un axe d
 ## Utilisation
 
 1.  Sélectionner la géométrie à copier, puis une ligne ou un axe d\'esquisse à utiliser comme axe de symétrie.
-2.  Appuyer sur le bouton **<img src=images/Sketcher_Symmetry.svg style="width:16px"> <img src=images/Sketcher_Symmetry.svg style="width:Symétrie](Sketcher_Symmetry/fr.md)** ou choisissez {{MenuCommand|Sketch → Outils d'esquisse → [16px"> Symétrie}} du menu principal.
+2.  Appuyer sur le bouton **<img src=images/Sketcher_Symmetry.svg style="width:16px"> <img src=images/Sketcher_Symmetry.svg style="width:Symétrie](Sketcher_Symmetry/fr.md)** ou choisissez **Sketch → Outils d'esquisse → [16px"> Symétrie** du menu principal.
 3.  Les géométries sélectionnées seront copiées symétriquement par rapport à la ligne ou l\'axe d\'esquisse sélectionné.
 
 Remarquez qu\'aucune contrainte de symétrie supplémentaire ne sera ajoutée.

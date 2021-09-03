@@ -8,7 +8,7 @@
 
 This is a collection of old localization techniques used by FreeCAD in the past. They show some of the internals of the processs, **but the techniques on the [Localisation](Localisation.md) page should be used from now on.**
 
-### Translating with Qt-Linguist (old way) {#translating_with_qt_linguist_old_way}
+### Translating with Qt-Linguist (old way) 
 
 The following information doesn\'t need to be used anymore and will likely become obsolete. It is being kept here so that programmers may familiarize themselves with how it works. -
 
@@ -44,7 +44,7 @@ The following information doesn\'t need to be used anymore and will likely becom
 -   [MeshPart Workbench](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/MeshPart/Gui/Resources/translations/)
 -   There is a very good Forum post about the old way of translation, but it is in German. See <http://forum.freecadweb.org/viewtopic.php?f=13&t=19496&start=60#p152655>
 
-## Preparing your own modules/applications for translation {#preparing_your_own_modulesapplications_for_translation}
+## Preparing your own modules/applications for translation 
 
 ### Prerequisites
 
@@ -54,7 +54,7 @@ qmake: Generates project files
 lupdate: Extracts or updates the original texts in your project by scanning the source code
 Qt-Linguist: The *Qt-Linguist* is very easy to use and helps you translating with nice features like a phrase book for common sentences.
 
-### Project Setup {#project_setup}
+### Project Setup 
 
 To start the localisation of your project go to the GUI-Part of you module and type on the command line:
 
@@ -107,7 +107,7 @@ new Gui::LanguageProducer("Deutsch", <Modul>_de_h_data, <Modul>_de_h_len);
 
 to publish your translation in the application.
 
-### Setting up python files for translation {#setting_up_python_files_for_translation}
+### Setting up python files for translation 
 
 To ease localization for the py files you can use the tool \"pylupdate4\" which accepts one or more py files. With the -ts option you can prepare/update one or more .ts files. For instance to prepare a .ts file for French simply enter into the command line:
 

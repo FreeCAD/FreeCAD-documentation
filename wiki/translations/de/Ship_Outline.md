@@ -33,7 +33,7 @@ Das Linienzeichen ist ein Satz von Linien aus Schnitten in allen 3 Achsen, die s
 -   Längsriss (unter Verwendung der Längsschnitte)
 -   Wasserlinienriss (unter Verwendung der Wasserleitungskürzungen)
 
-### Transversale Schnitte {#transversale_schnitte}
+### Transversale Schnitte 
 
 Normalerweise müssen 21 transversale äquidistante Schnitte zwischen den Senkrechten durchgeführt werden. Um dies zu tun, stellt FreeCAD ein automatisches Werkzeug zur Verfügung, wähle einfach den **Transversal** Typ der Schnitte, gehe in das **Auto create** Feld und setze **21** Schnitte, dann drücke **Schnitte erstellen**.
 
@@ -70,7 +70,7 @@ Weitere zusätzliche Wasserlinien müssen hinzugefügt werden:
 -   Z~9~ = 1.8 m
 -   Z~10~ = 2.0 m
 
-### Plot ausführen {#plot_ausführen}
+### Plot ausführen 
 
 Wähle den Maßstab **1:100** und drücke **Accept**, damit das Werkzeug die 3D Schnitte in einem neuen Objekt erzeugt.
 

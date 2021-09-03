@@ -22,7 +22,7 @@ Der **<img src="images/Workbench_TechDraw.svg" width=24px> [Techdraw Arbeitsbere
 
 **Ergebnis:** Die Fläche wird anfänglich mit Standardwerten schraffiert. **Hinweis:** Durch Ändern der Schraffureigenschaften kann das gewünschte Muster gewählt werden.
 
-### Schraffierte Fläche unter Verwendung einer Bilddatei {#schraffierte_fläche_unter_verwendung_einer_bilddatei}
+### Schraffierte Fläche unter Verwendung einer Bilddatei 
 
 
 **<img src="images/TechDraw_Hatch.svg" width=24px> [Schraffur Fläche unter Verwendung einer  Bilddatei](TechDraw_Hatch/de.md)
@@ -36,7 +36,7 @@ Jede [Bitmap](bitmap/de.md) Datei (png, jpeg, usw\...) kann als Füllung verwend
 
 Die Standard Schraffurmusterdatei kann in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) festgelegt werden.
 
-### Geometrische Schraffur {#geometrische_schraffur}
+### Geometrische Schraffur 
 
 
 **<img src="images/TechDraw_GeometricHatch.svg" width=24px> [Geometrische Schraffur auf eine Fläche anwenden](TechDraw_GeometricHatch/de.md)
@@ -70,7 +70,7 @@ bildet ein Muster von Linien basierend auf einer aus einer Datei gelesenen Spezi
 
 Du kannst deine eigenen Muster hinzufügen, wenn du Schreibberechtigung für FCPAT.pat hast, oder du kannst deine eigene \*.pat Datei erstellen und in [TechDraw Einstellungen](TechDraw_Preferences/de.md) darauf verweisen.
 
-### PAT Dateipfad {#pat_dateipfad}
+### PAT Dateipfad 
 
 Die Datei `FCPAT.pat` befindet sich im folgenden Verzeichnis:
 

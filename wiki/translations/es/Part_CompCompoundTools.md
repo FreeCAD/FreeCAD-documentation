@@ -14,7 +14,7 @@
 
 Un conjunto de varias herramientas compuestas.
 
-## Tipos de compuestos {#tipos_de_compuestos}
+## Tipos de compuestos 
 
 -   <img alt="" src=images/Part_Compound.svg  style="width:32px;"> [Hacer compuesto](Part_Compound/es.md): Crea un compuesto a partir de los objetos seleccionados.
 -   <img alt="" src=images/Part_ExplodeCompound.svg  style="width:32px;"> [Explotar compuesto](Part_ExplodeCompound/es.md): Herramienta para dividir compuestos de formas

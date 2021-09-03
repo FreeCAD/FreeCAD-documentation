@@ -36,7 +36,7 @@ Si possono usare le [costanti predefinite](#Costanti_supportate.md) e le [funzio
 
 </div>
 
-### Function Arguments {#function_arguments}
+### Function Arguments 
 
 
 <div class="mw-translate-fuzzy">
@@ -48,7 +48,7 @@ Quando una funzione accetta più argomenti, questi possono essere separati da un
 
 Arguments may include references to cells in a spreadsheet. A cell reference consists of the cell\'s uppercase row letter followed by its column number, for example `A1`. A cell may also be referenced by using the cell\'s alias instead, for example `Spreadsheet.MyPartWidth`.
 
-### Riferimenti a oggetti {#riferimenti_a_oggetti}
+### Riferimenti a oggetti 
 
 
 <div class="mw-translate-fuzzy">
@@ -88,7 +88,7 @@ Per ulteriori informazioni sul riferimento a oggetti, vedere [questa sezione](#R
 
 <div class="mw-translate-fuzzy">
 
-## Costanti supportate {#costanti_supportate}
+## Costanti supportate 
 
 
 </div>
@@ -100,7 +100,7 @@ Sono supportate le seguenti costanti:
   **e**       [Numero di Eulero](https://en.wikipedia.org/wiki/E_(mathematical_constant))
   **pi**      [Pi greco](https://en.wikipedia.org/wiki/Pi)
 
-## Supported operators {#supported_operators}
+## Supported operators 
 
 Sono supportati i seguenti operatori:
 
@@ -116,7 +116,7 @@ Sono supportati i seguenti operatori:
 
 <div class="mw-translate-fuzzy">
 
-## Funzioni supportate {#funzioni_supportate}
+## Funzioni supportate 
 
 
 </div>
@@ -124,7 +124,7 @@ Sono supportati i seguenti operatori:
 
 <div class="mw-translate-fuzzy">
 
-### Funzioni matematiche generali {#funzioni_matematiche_generali}
+### Funzioni matematiche generali 
 
 
 </div>
@@ -180,12 +180,12 @@ Per arrotondamento, troncamento e resto sono supportate queste funzioni :
 
 </div>
 
-### Statistical / aggregate functions {#statistical_aggregate_functions}
+### Statistical / aggregate functions 
 
 
 <div class="mw-translate-fuzzy">
 
-### Statistica e Funzioni di aggregazione {#statistica_e_funzioni_di_aggregazione}
+### Statistica e Funzioni di aggregazione 
 
 Le [funzioni di aggregazione](https://en.wikipedia.org/wiki/Aggregate_function) accettano uno o più argomenti, separati da un punto e virgola \';\' o da una virgola \'\' e \'\' uno spazio \', \'.
 Gli argomenti possono includere riferimenti a celle di un foglio di calcolo. I riferimenti alla cella sono costituiti dalla lettera maiuscola seguita dal numero della colonna.
@@ -213,21 +213,21 @@ Sono supportate queste funzioni aggregate :
 
 </div>
 
-### String manipulation {#string_manipulation}
+### String manipulation 
 
-#### String identification {#string_identification}
+#### String identification 
 
 Strings are identified in expressions by surrounding them with opening/closing double chevrons (as are labels).
 
 In following example, \"TEXT\" is recognized as a string : `<<TEXT>>`
 
-#### String concatenation {#string_concatenation}
+#### String concatenation 
 
 Strings can be concatenated using the \'+\' sign.
 
 Following example `<<MY>> + <<TEXT>>` will be concatenated to \"MYTEXT\".
 
-#### String formatting {#string_formatting}
+#### String formatting 
 
 String formatting is supported using the (old) %-style Python way.
 
@@ -242,7 +242,7 @@ A FreeCAD sample file using string formatting is available [in the forum](https:
 
 <div class="mw-translate-fuzzy">
 
-## Espressioni condizionali {#espressioni_condizionali}
+## Espressioni condizionali 
 
 
 </div>
@@ -569,7 +569,7 @@ Le seguenti unità comunemente utilizzate non sono ancora supportate:
   lx      [Lux](https://en.wikipedia.org/wiki/Lux)                                                                     not directly
   px      [Pixel](https://en.wikipedia.org/wiki/Pixel)                                                                 not directly
 
-## Invalid characters and names {#invalid_characters_and_names}
+## Invalid characters and names 
 
 The expression feature is very powerful but to achieve this power it has some limitations concerning some characters. To overcome this, FreeCAD offers to use labels and reference them instead of the object names. In labels you can use almost all special characters.
 
@@ -607,14 +607,14 @@ For example, the following name is valid: `<<Sketch>>.Constraints.T2üßµ@`. Wh
 
 Since shorter names (especially if they have only one or two characters) can easily result in invalid names, consider using longer names and/or establishing a suitable naming convention.
 
-### Cell aliases {#cell_aliases}
+### Cell aliases 
 
 For [spreadsheet cell aliases](Spreadsheet_SetAlias.md) only alphanumeric characters and underscores (`A` to `Z`, `a` to `z`, `0` to `9` and `_`) are allowed.
 
 
 <div class="mw-translate-fuzzy">
 
-## Riferimento ai dati CAD {#riferimento_ai_dati_cad}
+## Riferimento ai dati CAD 
 
 
 </div>
@@ -677,11 +677,11 @@ La tabella seguente mostra alcuni esempi:
 
 </div>
 
-## Variabili globali nell\'ambito del documento {#variabili_globali_nellambito_del_documento}
+## Variabili globali nell\'ambito del documento 
 
 Al momento in FreeCAD non esiste il concetto di variabili globali. Invece, utilizzando l\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md), si possono definire delle variabili arbitrarie come celle in un foglio di calcolo, e poi assegnare loro un nome utilizzando la proprietà alias della cella (tasto destro del mouse sulla cella). Dopo si può accedere alla variabile da qualsiasi espressione, come per qualsiasi altra proprietà di un oggetto.
 
-## Riferimenti incrociati nel documento {#riferimenti_incrociati_nel_documento}
+## Riferimenti incrociati nel documento 
 
 
 <div class="mw-translate-fuzzy">
@@ -716,7 +716,7 @@ Purtroppo, il checker integrato a volte afferma che un nome valido non esiste. C
 
 Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrispondenti, quando si desidera cambiare qualcosa.
 
-## Problemi noti / attività rimanenti {#problemi_noti_attività_rimanenti}
+## Problemi noti / attività rimanenti 
 
 
 <div class="mw-translate-fuzzy">

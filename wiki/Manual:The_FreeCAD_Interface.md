@@ -6,7 +6,7 @@
 
 {{Manual:TOC}}
 
-FreeCAD uses the [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) to draw and manage its interface. This framework is used in a wide range of applications, so the FreeCAD interface is very classical and presents no particular difficulty to understand. Most buttons are standard and will be found where you expect them {{MenuCommand|File → Open, Edit → Paste, etc}}. Here is the look of FreeCAD when you open it for the first time, just after installing, showing you the start center:
+FreeCAD uses the [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) to draw and manage its interface. This framework is used in a wide range of applications, so the FreeCAD interface is very classical and presents no particular difficulty to understand. Most buttons are standard and will be found where you expect them **File → Open, Edit → Paste, etc**. Here is the look of FreeCAD when you open it for the first time, just after installing, showing you the start center:
 
 ![](images/FreeCAD-v0-18-FirstStart.png )
 
@@ -30,7 +30,7 @@ The Workbenches often confuse new users, since it\'s not always easy to know in 
 
 Later in this manual, you will also find a table showing the contents of all Workbenches.
 
-### The interface {#the_interface}
+### The interface 
 
 Let\'s have a better look at the different parts of the interface:
 
@@ -38,7 +38,7 @@ Let\'s have a better look at the different parts of the interface:
 
 -   **The 3D view** is the main component of the interface; it is where the objects you are working with are drawn and manipulated. You may have several views of the same document (or same objects), or several documents open at the same time. Each of these views may be individually undocked from the main window. You may select objects or parts of objects by clicking them, and you can pan, zoom and rotate the view with the mouse buttons. This will be explained further in the next chapter.
 
-In addition to the 3D view panel, the following information panels are available. They may be made visible or hidden by selecting them from {{MenuCommand|View → Panels}} . The name of the panel appears in the upper left corner of the panel when it is displayed:
+In addition to the 3D view panel, the following information panels are available. They may be made visible or hidden by selecting them from **View → Panels** . The name of the panel appears in the upper left corner of the panel when it is displayed:
 
 -   **The combo view** has two tabs:
     -   The Model tab shows you the contents and structure of your document above and the properties (or parameters) of the selected object(s) below. These properties are separated into two categories:
@@ -55,11 +55,11 @@ In addition to the 3D view panel, the following information panels are available
 
 ![](images/FreeCAD-v0-18-ExtrudeTask.png )
 
-### Customizing the interface {#customizing_the_interface}
+### Customizing the interface 
 
 The interface of FreeCAD is highly customizable. All panels and toolbars can be moved to different places or stacked one above another. They can also be closed and reopened when needed from the View menu or by right-clicking on an empty area of the interface. There are, however, many more options available, such as creating custom toolbars with tools from any of the Workbenches, or assigning and changing keyboard shortcuts.
 
-These advanced customization options are available from the {{MenuCommand|Tools → Customize menu}}:
+These advanced customization options are available from the **Tools → Customize menu**:
 
 ![](images/FreeCAD-v0-18-CustomizeInterface.png )
 

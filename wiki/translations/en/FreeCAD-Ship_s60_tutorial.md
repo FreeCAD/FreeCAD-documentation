@@ -16,7 +16,7 @@ In this tutorial we will work with Series 60 ship, from the Iowa University. The
 
 Learn more about <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ship Workbench](Ship_Workbench.md).
 
-## Loading geometry {#loading_geometry}
+## Loading geometry 
 
 ### Background
 
@@ -36,7 +36,7 @@ FreeCAD-Ship sign criteria
 
 </center>
 
-### Loading Series 60 geometry {#loading_series_60_geometry}
+### Loading Series 60 geometry 
 
 In order to help new users the Ship workbench includes a geometries example loader, with the following to choose from:
 
@@ -62,7 +62,7 @@ Executing the tool (Ship design/Load an example ship geometry) a task dialogue w
 You are now working with the original example file.
 To preserve the original unedited example, '''you must first save it as a new file before editing anything.'''}}
 
-## Create ship instance {#create_ship_instance}
+## Create ship instance 
 
 In order to create a **Ship instance** select s60 geometry and execute the **ship creation tool** (Ship design/Create a new ship).
 
@@ -80,7 +80,7 @@ Creating a Ship task dialogue and some annotations in the [3D view](3D_view.md) 
 
 Most relevant ship data must be introduced (the <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> Ship workbench uses a progressive data introduction system, so basic operations can be performed knowing only basic ship data, more information is needed as the operations become more complex).
 
-### Ship data {#ship_data}
+### Ship data 
 
 Main dimensions must be introduced here:
 
@@ -126,7 +126,7 @@ Ship instance icon.
 
 From here onward, you must have **Ship** selected before you execute any of the Ship Workbench tools.
 
-## Lines drawing {#lines_drawing}
+## Lines drawing 
 
 The Ship workbench provides a tool that makes it easy to obtain a Lines Plan from the ship lines drawing
 
@@ -146,7 +146,7 @@ Lines drawing is a set of lines from section cuts in all 3 axis, that will event
 -   Sheer Plan (using the Longitudinals Cuts)
 -   Half-Breadth Plan (using the Waterlines Cuts)
 
-### Transversal cuts {#transversal_cuts}
+### Transversal cuts 
 
 Usually 21 transversal equidistant sections between perpendiculars must be performed. in order to do it FreeCAD provides an automatic tool in order to do it, simply select **Transversal** type of sections, go to **Auto create** box and set **21** sections, then press **Create sections**
 
@@ -173,7 +173,7 @@ Sections table is filled and sections preview called **OutlineDraw** is shown. U
 
 Depending hull geometry complexity, sections preview can take some time. In order to remove a section, just fill it with an empty text and press enter.
 
-### Longitudinal cuts {#longitudinal_cuts}
+### Longitudinal cuts 
 
 Two longitudinal cuts must be added, so select **Longitudinal** type of sections, go to **Auto create** box and set **2** sections, then press **Create sections**. Sections table is filled, and sections preview updated.
 
@@ -189,7 +189,7 @@ Several additional waterlines must be added:
 -   Z~9~ = 1.8 m
 -   Z~10~ = 2.0 m
 
-### Perform plot {#perform_plot}
+### Perform plot 
 
 Select **1:100** scale and press **Accept** to let the tool to generate the 3D sections in a new object.
 
@@ -215,7 +215,7 @@ Outline draw plot.
 
 </center>
 
-## Transversal areas curve {#transversal_areas_curve}
+## Transversal areas curve 
 
 One typical ship design hydrodynamic parameter is the transversal areas curve, that retrieves some indicators about the behaviour of the hull (towing resistance, seakeeping, \...). The Ship workbench provides a simple tool in order to perform transversal areas curve.
 
@@ -231,14 +231,14 @@ Transversal areas curve tool icon.
 
 When tool is executed a task dialog is shown, and free surface preview is created in the [3D view](3D_view.md) (Free surface preview will be removed when tool finished, so don\'t worry about this). Into task dialog input and output data is present.
 
-### Input data {#input_data}
+### Input data 
 
 Draft and trim (Hull *y edge* rotation angle, positive if stern draft may increase) must be provided. Several areas curves may be performed, depending on ship load situations, but two typical plot should be performed:
 
 -   Design transversal areas curve: Without trimming angle and using design draft, 1.0 m in this case.
 -   Maximum draft transversal areas curve: Without trimming angle, and maximum draft allowed, 2.0 m in this case.
 
-### Output data {#output_data}
+### Output data 
 
 Some relevant data is shown at real time:
 
@@ -300,7 +300,7 @@ Hydrostatics curves.
 
 </center>
 
-## Continue learning {#continue_learning}
+## Continue learning 
 
 The [FreeCAD Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md) is the second chapter of Series 60 from Iowa university ship.
 

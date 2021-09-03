@@ -23,7 +23,7 @@ and produce a plan and a section view from it:
 ![](images/Exercise_arch_02.jpg )
 
 -   Create a new document, and switch to the [Arch Workbench](Arch_Workbench.md).
--   Open menu {{MenuCommand|Edit → Preferences → Draft → Grid and Snapping}} and set:
+-   Open menu **Edit → Preferences → Draft → Grid and Snapping** and set:
     -   **Main lines every** `10`.
     -   **Grid spacing** `1000mm` to have a one meter-based grid, which is convenient for the size of our building.
     -   **Grid size** `100 lines`.

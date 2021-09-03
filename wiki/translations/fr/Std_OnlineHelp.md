@@ -15,10 +15,10 @@ La commande **Std Aide** ouvre la documentation d\'aide. Pour ouvrir la document
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Aide → <img src="images/_Std_OnlineHelp.svg" width=16px> Aide}} dans le menu.
+    -   Sélectionnez l\'option **Aide → <img src="images/_Std_OnlineHelp.svg" width=16px> Aide** dans le menu.
     -   Utilisez le raccourci clavier: **F1**.
 2.  La documentation d\'aide s\'ouvre dans une nouvelle fenêtre.
-3.  Les sujets peuvent être sélectionnés dans l\'onglet {{MenuCommand|Contents}} ou recherchés dans l\'onglet {{MenuCommand|Index}}.
+3.  Les sujets peuvent être sélectionnés dans l\'onglet **Contents** ou recherchés dans l\'onglet **Index**.
 
 ## Remarques
 

@@ -69,9 +69,9 @@ The Arch Site is a special object that combines properties of a standard FreeCAD
 
 -    **Wind Rose**: Shows or hides the wind rose diagram (requires the **EPW File** data property filled, and the Ladybug Python module installed (see below)
 
-## Typical workflow {#typical_workflow}
+## Typical workflow 
 
-Start by creating an object that represents your terrain. It must be an open surface, not a solid. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu {{MenuCommand|Part → Create Shape from Mesh}}. Then, create a Site object, and set its **Terrain** property to the Part we just created:
+Start by creating an object that represents your terrain. It must be an open surface, not a solid. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part → Create Shape from Mesh**. Then, create a Site object, and set its **Terrain** property to the Part we just created:
 
 ![](images/Arch_site_example_01.jpg )
 
@@ -83,7 +83,7 @@ The site geometry will be recomputed and the areas, perimeter, and volumes prope
 
 ![](images/Arch_site_example_03.jpg )
 
-## Solar and wind diagrams {#solar_and_wind_diagrams}
+## Solar and wind diagrams 
 
 If [Ladybug](https://www.ladybug.tools/ladybug.html) is installed on your system, [Arch Sites](Arch_Site.md) can display a solar diagram and/or a wind rose. For this, **Longitude**, **Latitude** and **Declination** (previously **North Deviation**) must be correctly set, and **Solar Diagram** or **Wind Rose** set to `True`. Respectively <small>(v0.17)</small>  and <small>(v0.19)</small> 
 
@@ -124,7 +124,7 @@ FreeCAD.ActiveDocument.recompute()
 FreeCAD.Gui.ActiveDocument.ActiveView.viewIsometric()
 ```
 
-### Solar diagram {#solar_diagram}
+### Solar diagram 
 
 As long as the `pysolar` module is present, a solar diagram can be added to the site. Set the longitude, latitude and declination angles as appropriate, as well as an adequate scale for the size of your model.
 
@@ -142,7 +142,7 @@ Site.ViewObject.SolarDiagramScale = 10000
 FreeCAD.ActiveDocument.recompute()
 ```
 
-### Solar diagram independent of Site {#solar_diagram_independent_of_site}
+### Solar diagram independent of Site 
 
 A solar diagram can be created with the following function, independently of any site. 
 ```python

@@ -15,7 +15,7 @@ Wählt die widersprüchlichen Beschränkungen einer Skizze aus.
 ## Anwendung
 
 1.  Rufe den Bearbeitungsmodus der Skizze auf.
-2.  Wähle {{MenuCommand|Skizze → Skizzierer Werkzeuge → <img src=images/Sketcher_SelectConflictingConstraints.svg style="width:16px"> Wähle im oberen Menü die Option Widersprüchliche Beschränkungen}} aus.
+2.  Wähle **Skizze → Skizzierer Werkzeuge → <img src=images/Sketcher_SelectConflictingConstraints.svg style="width:16px"> Wähle im oberen Menü die Option Widersprüchliche Beschränkungen** aus.
 3.  Die widersprüchlichen Beschränkungen der Skizze werden ausgewählt.
 
 

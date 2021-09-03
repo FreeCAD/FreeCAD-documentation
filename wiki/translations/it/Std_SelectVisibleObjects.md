@@ -16,7 +16,7 @@ The **Std SelectVisibleObjects** command selects all visible objects. Note that 
 
 ## Utilizzo
 
-1.  Select the {{MenuCommand|View → Visibility → <img src="images/Std_SelectVisibleObjects.svg" width=16px> Select visible objects}} option from the menu.
+1.  Select the **View → Visibility → <img src="images/Std_SelectVisibleObjects.svg" width=16px> Select visible objects** option from the menu.
 
 
 <div class="mw-translate-fuzzy">

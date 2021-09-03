@@ -15,17 +15,17 @@ FreeCAD as a modeling tool should have a focus on a streamlined and efficient wo
     2.  Workflow updates: The Attachment editor currently works well but has UI / workflow issues. The student can propose a new way of handling attachments in the GUI and introduce the code.
     3.  New tools: There are a few tools missing that may be handy for the workflow, for example a splitting tool (Split faces by sketch). The studend can propose tools and introduce code.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  A more robust and streamlined PartDesign workbench
 2.  Multiple unit tests ensuring the workbenchs functionality
 3.  A more user friendly and efficient workflow
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 As this work touches the core of the FreeCAD code you will get a deep and full understanding of FreeCADs structure. With this you are equipped to work on any area you like. There are noumerus tools PartDesign can be further extended with after GSoC, which would also be worth annother project for the upcoming years.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -37,6 +37,6 @@ As this work touches the core of the FreeCAD code you will get a deep and full u
 
 Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

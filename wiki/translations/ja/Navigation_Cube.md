@@ -26,7 +26,7 @@ Hovering the mouse pointer over a feature of the navigational cube turns the fea
 
 ![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
 
-## Directional Arrows {#directional_arrows}
+## Directional Arrows 
 
 6つの方向矢印があります。4つの三角矢印、上、下、左、右に1つずつ。 2つの湾曲した矢印。1つは上の矢印の両側にあります。
 
@@ -64,7 +64,7 @@ Note: As of this writing (v 0.18), there are some problems with the nav cube; no
 
 角の1つをクリックすると、その角から見たときに不等角投影図が表示されます。 上記のように、現在面があなたに直接面しているとき、その面の角は選択できません。
 
-## Mini-cube Menu {#mini_cube_menu}
+## Mini-cube Menu 
 
 ナビゲーションキューブの右下隅には小さなキューブがあります。 この立方体をクリックすると、ビューのタイプを変更するために使用できるメニューが表示されます（直交図、遠近法、等角図）。 そして、「ズームしてフィット」を実行します。
 
@@ -80,7 +80,7 @@ Note: As of this writing (v 0.18), there are some problems with the nav cube; no
 
 ## Configuration
 
-The navigation cube is configurable, including adjusting its size: {{MenuCommand|Edit → Preferences... → Display → Navigation → Navigation cube}} <small>(v0.19)</small> .
+The navigation cube is configurable, including adjusting its size: **Edit → Preferences... → Display → Navigation → Navigation cube** <small>(v0.19)</small> .
 
 For more advanced configuration, refer to the [CubeMenu](Interface_Customization#CubeMenu.md) [external workbench](External_workbenches.md).
 

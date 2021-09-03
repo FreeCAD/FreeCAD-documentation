@@ -17,7 +17,7 @@
 3.  Sélectionnez un ou plusieurs profils requis dans la [vue en arborescence](Tree_view/fr.md)
 4.  Pour appeler la commande, effectuez l\'une des opérations suivantes:
     -   Appuyez sur le bouton <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Creates a Pipeshell sweep object](Curves_Pipeshell/fr.md) dans la barre d\'outils
-    -   Utilisez le {{MenuCommand|Surfaces → Pipeshell}}
+    -   Utilisez le **Surfaces → Pipeshell**
 5.  Modifiez le paramètre `Pipeshell` aux conditions requises
 
 ## Propriétés

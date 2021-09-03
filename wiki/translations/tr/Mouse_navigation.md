@@ -23,7 +23,7 @@ Gezinme stilini değiştirmenin iki yolu vardır:
 -   [Seçenekler penceresi](Preferences_Editor.md) içinde 3D Görünüm → 3D Navigasyon → Ekran → Düzen → Tercihler .
 -   3D görünümünde boş alana sağ tıklayarak, ardından bağlam menüsünde \"Gezinme stili\" seçeneğini seçerek.
 
-### CAD Gezinme (varsayılan) {#cad_gezinme_varsayılan}
+### CAD Gezinme (varsayılan) 
 
 Bu, varsayılan gezinme stilidir. Kullanıcıya görünümün basit bir kontrolünü sağlar ve çoklu seçim yapmak dışında klavye tuşlarının kullanılmasını gerektirmez. {{CAD Navigation/tr}}
 
@@ -58,7 +58,7 @@ With this method the middle mouse button may be released after the right mouse b
 Users who use the mouse with their right hand may find this method easier than the first method.
 }}
 
-### OpenInventor Gezinme {#openinventor_gezinme}
+### OpenInventor Gezinme 
 
 OpenInventor\'de (önceden Inventor) gezinme, [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) den sonra eklendi. (Bu mod Autodesk Inventor\'a dayalı değildir.) Fare tek başına yeterli değildir. Nesneleri seçmek için,**CTRL** tuşunu basılı tutmanız gerekir . {{Inventor Navigation/tr
 }}
@@ -80,17 +80,17 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
-### Blender Gezinme {#blender_gezinme}
+### Blender Gezinme 
 
 Blender Gezinme [Blender](http://www.blender.org)\'dan sonra eklendi. Daha önce tek başına fareyle taşıma yapılamıyordu,taşıma için**SHIFT** tuşu kullanılıyordu. 2016\'da bu özellik yenilendi. Hem fare sağ tuşu hem de fare sol tuşu birlikte basılı tutularak taşıma yapılabilir. {{Blender Navigation/tr}}
 
 Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold the middle mouse button, then move the pointer. }}
 
-### Dokunmatik fare gezinme {#dokunmatik_fare_gezinme}
+### Dokunmatik fare gezinme 
 
 Dokunmatik fare gezinti de, Taşıma , zumlama ve döndürme işlemleri, yalnız fare kullanılarak (veya yalnız dokunmatik fare) yapılamaz. {{Touchepad Navigation/tr}}
 
-### Gesture Gezinme (v0.16) {#gesture_gezinme_v0.16}
+### Gesture Gezinme (v0.16) 
 
 Bu gezinme stili dokunmatik ekran ve kalemle kullanım için uyarlandı, ancak dokunmatik fare için de kullanılabilir. {{Gesture Navigation/tr}}
 
@@ -100,9 +100,9 @@ To set the camera\'s focus point for rotation, click a point with the middle mou
 
 Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt\_view\_text=Hold both left and right mouse buttons, then move the pointer sideways. \|Tilt\_view\_gesture\_text=Rotate the imaginary line formed by two touch points.
 
-On v0.18 this method is disabled by default. To enable, go to {{MenuCommand|Edit → Preferences → Display}}, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
+On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
 
-### Maya-Gesture Gezinme {#maya_gesture_gezinme}
+### Maya-Gesture Gezinme 
 
 
 <div class="mw-translate-fuzzy">
@@ -114,7 +114,7 @@ Maya-Gesture Gezinme,**ALT** tuşu ve bir fare düğmesine basarak tüm görün�
 
 Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold **Alt** and the left mouse button, then move the pointer. }}
 
-### Revit Navigation {#revit_navigation}
+### Revit Navigation 
 
 This style was introduced in version 0.18.
 
@@ -155,25 +155,25 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 |Rotate_view_text=Hold **Ctrl** and the right mouse button, then move the pointer.
 }}
 
-## Nesneleri seçmek {#nesneleri_seçmek}
+## Nesneleri seçmek 
 
-### Basit seçim {#basit_seçim}
+### Basit seçim 
 
 Nesneler, 3D görünümdeki nesneyi tıklatarak veya ağaç görünümünde seçerek farenin sol tuşu ile tıklanarak seçilebilir.
 
-### Ön Seçim {#ön_seçim}
+### Ön Seçim 
 
 Nesneleri vurgulayan ve seçimden önce fareyi nesnelerin üzerine getirerek bilgileri görüntüleyen bir \'Ön Seçim\' mekanizması da vardır. Bu davranışı sevmiyorsanız veya yavaş bir makineniz varsa, tercihlerde ön seçimi devre dışı bırakabilirsiniz.
 
-## Nesne özelliklerini değiştirme {#nesne_özelliklerini_değiştirme}
+## Nesne özelliklerini değiştirme 
 
 FreeCAD, bir nesnenin görüntüsü, şekil veya diğer parametrelerini değiştirmek için kullanılabilecek [*manipulators*](Manipulator.md) sağlar.
 
-## Donanım desteği {#donanım_desteği}
+## Donanım desteği 
 
 FreeCAD, ayrıca bazı [ 3D giriş cihazlarını](3D_input_devices.md) destekler.
 
-## Mac OS X Sorunları {#mac_os_x_sorunları}
+## Mac OS X Sorunları 
 
 Son zamanlarda Mac kullanıcılarından [forum\'da](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) bu fare tuş ve klavye tuş kombinasyonunun beklendiği gibi çalışmadığı bildirildi.Maalesef, geliştiricilerin hiçbiri Mac\'e sahip değil, diğer düzenli katkı yapanlar da yok. Hangi wiki düğmelerinin ve tuş kombinasyonunun işe yaradığını belirlemek için sizin yardımınıza ihtiyacımız var, böylece bu wiki\'yi güncelleyebiliriz.
 

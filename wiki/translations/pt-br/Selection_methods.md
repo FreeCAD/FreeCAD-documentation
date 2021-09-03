@@ -6,15 +6,15 @@
 
 {{TOCright}}
 
-## Visão geral {#visão_geral}
+## Visão geral 
 
 Os métodos de seleção no FreeCAD permitem a seleção de objetos no [FreeCAD Interface](Interface/pt-br.md): tais como [vista 3D](3D_view/pt-br.md), [vista em árvore](Tree_view/pt-br.md), [métodos de seleção](Selection_view/pt-br.md), [vista de seleção](Selection_view/pt-br.md), e outros diálogos. Alguns métodos de seleção são específicos das bancadas de trabalho e estão documentados na documentação específica das bancadas de trabalho.
 
-## Vista 3D {#vista_3d}
+## Vista 3D 
 
 Na [vista 3D](3D_view/pt-br.md) há várias maneiras de selecionar objetos.
 
-### Seleção simples {#seleção_simples}
+### Seleção simples 
 
 
 <div class="mw-translate-fuzzy">
@@ -24,29 +24,29 @@ A seleção simples com o mouse (por padrão, clique com o botão esquerdo do mo
 
 </div>
 
-### Cliques repetidos {#cliques_repetidos}
+### Cliques repetidos 
 
 O primeiro clique seleciona um sub-elemento (vértice, borda ou face) do objeto sob o mouse. Um segundo clique seleciona o objeto inteiro. <small>(v0.18)</small> 
 
 O terceiro clique estende a seleção a seu objeto \'container\' ([PartDesign Body](PartDesign_Body.md), [Std Part](Std_Part.md), e outros). Outros cliques expandem a seleção até a cadeia de \'contêineres\'. <small>(v0.19)</small> 
 
-### Comandos de seleção {#comandos_de_seleção}
+### Comandos de seleção 
 
 -   Para selecionar todos os objetos: [Std Std\_SelectAll](Std_SelectAll/pt-br.md).
 -   Para encaixotar selecione vários objetos principais: [Std Std BoxSelection](Std_BoxSelection/pt-br.md).
 -   Para encaixotar selecione várias faces: [Std BoxElementSelection](Std_BoxElementSelection/pt-br.md) ou [Part BoxSelection](Part_BoxSelection/pt-br.md).
 
-## Vista de seleção {#vista_de_seleção}
+## Vista de seleção 
 
 A [vista de seleção](Selection_view/pt-br.md) mostra os nomes dos objetos selecionados, incluindo seu nome completo de um objeto, por exemplo, {`Unnamed#Body.Box001.Face17`}.
 
 Também permite realizar algumas ações como [Std ViewFitSelection](Std_ViewFitSelection/pt-br.md), e enviar o objeto para o [Python console](Python_console/pt-br.md).
 
-### Exportação de objeto {#exportação_de_objeto}
+### Exportação de objeto 
 
 \"Isto deve estar na página [Vista de seleção](selection_view/pt-br.md)\".
 
-Selecione qualquer objeto complexo, por exemplo, [PartDesign Body](PartDesign_Body/pt-br.md) ou [Std Part](Std_Part/pt-br.md), depois na [vista de seleção](selection_view/pt-br.md) selecione novamente o objeto e pressione **Ctrl**. + **C** no teclado para abrir o diálogo {{MenuCommand|Object selection}}. Isto permite copiar o objeto selecionado junto com todos ou apenas alguns dos objetos de dependência desse objeto. Por exemplo, para uma [Std Part](Std_Part/pt-br.md) os possíveis objetos a serem selecionados incluem a [Std Part](Std_Part/pt-br.md) em si, mas também sua Origem, seus três eixos base (XYZ), e seus três planos base (XY, YZ, XZ).
+Selecione qualquer objeto complexo, por exemplo, [PartDesign Body](PartDesign_Body/pt-br.md) ou [Std Part](Std_Part/pt-br.md), depois na [vista de seleção](selection_view/pt-br.md) selecione novamente o objeto e pressione **Ctrl**. + **C** no teclado para abrir o diálogo **Object selection**. Isto permite copiar o objeto selecionado junto com todos ou apenas alguns dos objetos de dependência desse objeto. Por exemplo, para uma [Std Part](Std_Part/pt-br.md) os possíveis objetos a serem selecionados incluem a [Std Part](Std_Part/pt-br.md) em si, mas também sua Origem, seus três eixos base (XYZ), e seus três planos base (XY, YZ, XZ).
 
 Após pressionar **OK**, os objetos selecionados são copiados para a memória, e depois podem ser colados no documento para duplicar apenas esses objetos.
 
@@ -55,7 +55,7 @@ Após pressionar **OK**, os objetos selecionados são copiados para a memória, 
 
 *Diálogo de seleção de objetos que é lançado a partir do [vista de seleção](Selection_view/pt-br.md).*
 
-## Vista em árvore {#vista_em_árvore}
+## Vista em árvore 
 
 Na [vista em árvore](tree_view/pt-br.md) os itens podem ser selecionados, ou desmarcados, um de cada vez, segurando a tecla **Ctrl** e clicando com o mouse.
 

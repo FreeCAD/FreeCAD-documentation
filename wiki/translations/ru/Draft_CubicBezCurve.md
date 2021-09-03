@@ -28,8 +28,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Draft CubicBezCurve](Draft_CubicBezCurve.md)** button.
-    -   Select the {{MenuCommand|Drafting → Bézier tools → <img src="images/Draft_CubicBezCurve.svg" width=16px> Cubic Bézier curve}} option from the menu.
-2.  The {{MenuCommand|Cubic Bézier curve}} task panel opens. See [Options](#Options.md) for more information.
+    -   Select the **Drafting → Bézier tools → <img src="images/Draft_CubicBezCurve.svg" width=16px> Cubic Bézier curve** option from the menu.
+2.  The **Cubic Bézier curve** task panel opens. See [Options](#Options.md) for more information.
 3.  It is not possible the enter points via the task panel.
 4.  For the following [Mouse Navigation Models](Mouse_navigation.md) a keyboard key must to be held down:
     -   If you are using [OpenInventor Navigation](Mouse_navigation#OpenInventor_Navigation.md) the **Ctrl** key must be held down throughout the command.

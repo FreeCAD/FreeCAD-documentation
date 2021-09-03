@@ -19,7 +19,7 @@ Instrumentul de referință vă permite să plasați un obiect în documentul cu
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -57,7 +57,7 @@ Instrumentul de referință vă permite să plasați un obiect în documentul cu
 
 -    **Update Colors**: Dacă este adevărat, culorile fișierului conectat/link vor fi menținete actualizate
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 <div class="mw-translate-fuzzy">

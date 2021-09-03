@@ -18,8 +18,8 @@ Der Befehl **Std Rückansicht** wendet die Kamerasicht der aktiven [3D-Ansicht](
 
 1.  Es gibt verschiedene Wegen, den Befehl umzusetzen:
     -   Die **<img src="images/Std_ViewRear.svg" width=16px> [Std Rückansicht](Std_ViewRear/de.md)**-Schaltfläche betätigen.
-    -   Den Menüpunkt {{MenuCommand|Ansicht → Standardansichten → <img src="images/Std_ViewRear.svg" width=16px> Rückansicht}} aus dem Menü wählen.
-    -   Den Menüpunkt {{MenuCommand|Standardansichten → <img src="images/Std_ViewRear.svg" width=16px> Rückansicht}} aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
+    -   Den Menüpunkt **Ansicht → Standardansichten → <img src="images/Std_ViewRear.svg" width=16px> Rückansicht** aus dem Menü wählen.
+    -   Den Menüpunkt **Standardansichten → <img src="images/Std_ViewRear.svg" width=16px> Rückansicht** aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
     -   Mit dem Tastenkürzel: **4**.
 
 ## Skripten

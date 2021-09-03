@@ -25,9 +25,9 @@ Questo comando mostra la barra [Snap](Draft_Snap/it.md), che contiene i pulsanti
 
 <div class="mw-translate-fuzzy">
 
--   Fare clic con il tasto destro su un oggetto Draft e selezionare {{MenuCommand|Utilità → <img src="images/Draft_Snap.svg" width=16px> [Mostra/nascondi la barra Snap](Draft_ShowSnapBar/it.md)}}.
+-   Fare clic con il tasto destro su un oggetto Draft e selezionare **Utilità → <img src="images/Draft_Snap.svg" width=16px> [Mostra/nascondi la barra Snap](Draft_ShowSnapBar/it.md)**.
 -   Oppure fai clic con il pulsante destro su uno spazio vuoto su una barra degli strumenti e fare clic sulla casella [Snap Draft](Draft_Snap/it.md).
--   Oppure andare al menu al menu {{MenuCommand|Visualizza → Barre degli strumenti}}, e fare clic sulla casella [Snap Draft](Draft_Snap/it.md).
+-   Oppure andare al menu al menu **Visualizza → Barre degli strumenti**, e fare clic sulla casella [Snap Draft](Draft_Snap/it.md).
 
 
 </div>
@@ -35,8 +35,8 @@ Questo comando mostra la barra [Snap](Draft_Snap/it.md), che contiene i pulsanti
 ## Notes
 
 -   Like any toolbar the Draft Snap toolbar can be toggled using these methods:
-    -   Select the {{MenuCommand|View → Toolbars → Draft Snap}} option from the menu.
-    -   Right-click an empty space in the [toolbar area](Interface.md) and select the {{MenuCommand|Draft Snap}} option from the menu that appears.
+    -   Select the **View → Toolbars → Draft Snap** option from the menu.
+    -   Right-click an empty space in the [toolbar area](Interface.md) and select the **Draft Snap** option from the menu that appears.
 
 
 <div class="mw-translate-fuzzy">

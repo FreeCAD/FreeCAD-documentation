@@ -16,7 +16,7 @@ The **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Pad](PartDesi
 
 **Note:** {{VersionMinus|0.16}} If the selected sketch is mapped to the face of an existing solid or another Part Design feature, the pad will be fused to it.
 
-## Kako koristiti {#kako_koristiti}
+## Kako koristiti 
 
 1.  Select the sketch to be padded. **Note:** As of <small>(v0.17)</small>  a face on the existing solid can alternatively be used.
 2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> '''Pad'''** button.
@@ -37,19 +37,19 @@ Type offers five different ways of specifying the length to which the pad will b
 
 Enter a numeric value for the length of the pad. The default direction for extrusion is away (outside of) the support, but it can be changed by ticking the **Reversed** option. Extrusions occur [normal](http://en.wikipedia.org/wiki/Surface_normal) to the defining sketch plane. With the option **Symmetric to plane** the pad will extend half of the given length to either side of the sketch plane. Negative dimensions are not possible. Use the **Reversed** option instead.
 
-#### Two dimensions {#two_dimensions}
+#### Two dimensions 
 
 This allows to enter a second length in which the pad should extend in the opposite direction (into the support). Again can be changed by ticking the **Reversed** option.
 
-#### To last {#to_last}
+#### To last 
 
 The pad will extrude up to the last face of the support in the extrusion direction. If there is no support, an error message will appear.
 
-#### To first {#to_first}
+#### To first 
 
 The pad will extrude up to the first face of the support in the extrusion direction. If there is no support, an error message will appear.
 
-#### Do površine {#do_površine}
+#### Do površine 
 
 The pad will extrude up to a face in the support that can be chosen by clicking on it. If there is no support, no selections will be accepted.
 
@@ -57,22 +57,22 @@ The pad will extrude up to a face in the support that can be chosen by clicking 
 
 Defines the length of the pad. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \").
 
-### Use custom direction {#use_custom_direction}
+### Use custom direction 
 
 
 <small>(v0.19)</small> 
 
 If checked, the pad direction will not be the normal vector of the sketch but the given vector. The pad length is however set according to the normal vector direction.
 
-### Length along sketch normal {#length_along_sketch_normal}
+### Length along sketch normal 
 
 If checked, the pad length is measured along the sketch normal, otherwise along the custom direction. <small>(v0.20)</small> 
 
-### Offset to face {#offset_to_face}
+### Offset to face 
 
 Offset from face in which the pad will end. This option is only available when **Type** is either **To last**, **To first** or **Up to face**.
 
-### Symmetric to plane {#symmetric_to_plane}
+### Symmetric to plane 
 
 Tick the checkbox to extend half of the given length to either side of the sketch plane.
 

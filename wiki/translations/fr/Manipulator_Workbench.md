@@ -43,7 +43,7 @@ Chaque outil a un **bouton d\'aide** ![](images/_Help-btn.png ) pour obtenir des
 
 ![](images/Manipulator-WB-Aligner.gif ) *Aligner: ensemble d'outils pour déplacer et aligner des pièces 3D; il peut également aligner un objet (face, arête, point) sur l'origine dans FreeCAD*
 
-### Mover (déplacer) {#mover_déplacer}
+### Mover (déplacer) 
 
 ![](images/Manipulator-WB-Mover.gif ) *Mover: ensemble d'outils pour déplacer et faire pivoter des pièces 3D sur différents axes*
 
@@ -51,7 +51,7 @@ Chaque outil a un **bouton d\'aide** ![](images/_Help-btn.png ) pour obtenir des
 
 ![](images/Manipulator-WB-Mover-with-External-Reference.gif ) *Mover: avec référence externe*
 
-### Caliper (mesurer) {#caliper_mesurer}
+### Caliper (mesurer) 
 
 ![](images/Manipulator-WB-Measure-Radius.gif ) *Caliper: mesure du rayon*
 
@@ -63,20 +63,20 @@ Chaque outil a un **bouton d\'aide** ![](images/_Help-btn.png ) pour obtenir des
 
 ![](images/Manipulator-WB-Parallel-Planes-Distance.gif ) *Caliper: distance entre deux plans parallèles*
 
-### Manipulator (manipulateur) {#manipulator_manipulateur}
+### Manipulator (manipulateur) 
 
 ![](images/Manipulator-WB-Assembly-Parts.gif )
 
 ## Installation
 
-### Installation automatique {#installation_automatique}
+### Installation automatique 
 
-La méthode recommandée pour installer le Manipulator Workbench est via le menu <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) dans le menu {{MenuCommand|Outils → Gestionnaire d'Addon}}.
+La méthode recommandée pour installer le Manipulator Workbench est via le menu <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire d'Addon**.
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:600px">
 
-### Installation manuelle {#installation_manuelle}
+### Installation manuelle 
 
 Si une installation manuelle est nécessaire, veuillez suivre les instructions suivantes:
 
@@ -111,7 +111,7 @@ git clone https://github.com/easyw/Manipulator Manipulator
 
 L\'atelier a évolué à partir de la macro [Center Align Objects with Faces or Edges](Macro_Center_Align_Objects_with_Faces_or_Edges/fr.md).
 
-## Établis extérieurs {#établis_extérieurs}
+## Établis extérieurs 
 
 Les ateliers FreeCAD sont faciles à programmer en [Python](Python/fr.md), il y a donc beaucoup de gens qui développent des établis supplémentaires en dehors des développeurs principaux de FreeCAD.
 

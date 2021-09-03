@@ -34,12 +34,12 @@ Draft Dimensions can be displayed on a [TechDraw Workbench](TechDraw_Workbench.m
 
 See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-### Usage linear dimension {#usage_linear_dimension}
+### Usage linear dimension 
 
 
 <div class="mw-translate-fuzzy">
 
-## Instrucţiuni de folosire {#instrucţiuni_de_folosire}
+## Instrucţiuni de folosire 
 
 1.  Apăsaţi butonul **<img src="images/Draft_Dimension.png" width=16px>** (**Ciornă Dimensiune**) ori tastele **D**, apoi **I**.
 2.  Alegeţi cu un clic un punct din vederea 3D sau introduceţi manual [coordonatele](Draft_Coordinates/ro.md) de la tastatură.
@@ -49,14 +49,14 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 </div>
 
-### Usage radial dimension {#usage_radial_dimension}
+### Usage radial dimension 
 
 1.  Optionally select a circular edge in the [3D view](3D_view.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the {{MenuCommand|Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension}} option from the menu.
+    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
     -   Use the keyboard shortcut: **D** then **I**.
-3.  The {{MenuCommand|Dimension}} task panel opens. See [Options](#Options.md) for more information.
+3.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 4.  If you have not yet selected an edge do one of the following:
     -   Press **E** or the **<img src="images/view-select.svg" width=16px> select edge** button and select a circular edge in the [3D view](3D_view.md).
     -   Hold down the **Alt** key, select a circular edge in the [3D view](3D_view.md) and release the **Alt** key.
@@ -66,13 +66,13 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
     -   For a radial dimension:
         -   Hold down the **Shift** key and pick a point in the [3D view](3D_view.md).
 
-### Usage angular dimension {#usage_angular_dimension}
+### Usage angular dimension 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the {{MenuCommand|Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension}} option from the menu.
+    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
     -   Use the keyboard shortcut: **D** then **I**.
-2.  The {{MenuCommand|Dimension}} task panel opens. See [Options](#Options.md) for more information.
+2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
 5.  Depending on the edges and the picked point the displayed angle will be the acute (sharp) or obtuse (blunt) angle between the edges, or the angle of one of the edges with the horizontal. In some cases you may have to first add auxiliary geometry ([Draft Lines](Draft_Line.md) for example) to get a particular angle.
@@ -107,7 +107,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 1.  Select one or more [Std MeasureDistance](Std_MeasureDistance.md) objects.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the {{MenuCommand|Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension}} option from the menu.
+    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
     -   Use the keyboard shortcut: **D** then **I**.
 3.  Each selected object is replaced by a non-parametric linear Draft Dimension.
 
@@ -157,7 +157,7 @@ See also: [Property editor](Property_editor.md).
 
 A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated:
 
-### Data linear and radial dimension {#data_linear_and_radial_dimension}
+### Data linear and radial dimension 
 
 
 {{TitleProperty|Dimension}}
@@ -186,7 +186,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 -    **Diameter|Bool**: specifies if a radial dimension is displayed as a diameter dimension. If it changed the symbol used in **Override** must be updated manually (from {{Value|Ø}} to {{Value|R}} or vice versa). Not used for linear dimensions.
 
-### Data angular dimension {#data_angular_dimension}
+### Data angular dimension 
 
 
 {{TitleProperty|Angular dimension}}

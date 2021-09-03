@@ -1,13 +1,13 @@
  {{Fake heading|sub=4|< Torna a [[FreeCAD Howto Import Export]]}}
 
-## Il metodo migliore {#il_metodo_migliore}
+## Il metodo migliore 
 
 
 {{TOCright}}
 
 Per esperienza, attualmente il metodo migliore per importare un file da SketchUp è quello di utilizzare il formato Collada (\*.dae).FreeCAD non supporta nativamente il formato Collada. Per avere questa funzionalità in FreeCAD, l\'utente deve installare un modulo Python per l\'importazione e l\'esportazione del formato. Si tratta di un compito relativamente facile da eseguire e le istruzioni si possono trovare nella pagina [Moduli python aggiuntivi](Extra_python_modules/it.md). Il link diretto alle istruzioni è: [Extra python modules: pyCollada](http://www.freecadweb.org/wiki/index.php?title=Extra_python_modules#pyCollada).
 
-## Importare i file Collada (\*.dae) {#importare_i_file_collada_.dae}
+## Importare i file Collada (\*.dae) 
 
 Se il modulo pyCollada è stato installato, è possibile aprire o importare un file Collada nello stesso modo di qualsiasi altro. Selezionare il menu File e quindi selezionare Apri o Importa. Selezionare il file Collada e fare clic su Apri. È possibile filtrare il tipo di file, selezionando Tipo di file nella finestra di dialogo pull down Apri o Importa e selezionando poi Collada (\*.dae) nella lista.
 

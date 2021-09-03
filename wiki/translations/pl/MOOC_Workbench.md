@@ -33,7 +33,7 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For m
 
 ATM this workbench is only available in the French language.
 
-## Technical Details {#technical_details}
+## Technical Details 
 
 From a technical point of view, the workbench is composed of:
 
@@ -53,7 +53,7 @@ From a technical point of view, the workbench is composed of:
 -   Official complete [2](https://framagit.org/freecad-france/mooc-workbench#mooc-workbench)
 -   Discussion threads: [English](https://forum.freecadweb.org/viewtopic.php?f=9&t=37584) / [French](https://forum.freecadweb.org/viewtopic.php?f=12&t=37322)
 
-## External workbenches {#external_workbenches}
+## External workbenches 
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
 

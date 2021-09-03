@@ -21,7 +21,7 @@ Le note di rilascio delle versioni precedenti di FreeCAD sono disponibili nella 
 <img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
 *Garden Railway Coach O&K (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
 
-## Punti salienti {#punti_salienti}
+## Punti salienti 
 
 Sono trascorsi quasi due anni dalla precedente versione 0.16, ma il team di FreeCAD non è rimasto inattivo durante questo periodo. Sono state apportate più di 6.800 revisioni al codice sorgente di FreeCAD. Per confronto, questo è più del triplo del lavoro svolto tra la v0.16 e la v0.15! La maggior parte degli ambienti esistenti ha beneficiato di miglioramenti e sono stati aggiunti due nuovi ambienti di lavoro. Nuovi moduli aggiuntivi sono stati sviluppati anche dalla comunità. Alcuni dei punti salienti:
 
@@ -33,7 +33,7 @@ Il nuovo [Addon manager](AddonManager/it.md) disponibile dal menu Strumenti (che
 
 Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce già più funzionalità del vecchio workbench Drawing. <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:300px;">
 
-## Aspetti generali {#aspetti_generali}
+## Aspetti generali 
 
 -   Yorik van Havre ha scritto il \"[Manuale di FreeCAD](Manual:Introduction/it.md)\" come un libro introduttivo su come usare FreeCAD.
 -   Ii ricalcolo del documento ora può essere disabilitato o abilitato tramite il menu di scelta rapida.
@@ -56,7 +56,7 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 <img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;">
 
-## Ambiente Arch {#ambiente_arch}
+## Ambiente Arch 
 
 -   Nuovo strumento [Scheda](Arch_Schedule/it.md): Questo strumento è stato completamente riscritto e offre ora un modo molto più flessibile di raccogliere i dati dal documento in un foglio di calcolo, utilizzando diversi tipi di query, come il conteggio di tutti gli oggetti di un certo tipo o la somma del volume totale di una determinata categoria di oggetti.
 
@@ -86,7 +86,7 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 -   È stato aggiunto il supporto all\'importazione per il formato [3DS](Arch_3DS/it.md).
 
-## Ambiente Draft {#ambiente_draft}
+## Ambiente Draft 
 
 -   [Sistema autogruppo](Draft_AutoGroup/it.md): Draft ora dispone di un pulsante di raggruppamento automatico sulla barra principale degli strumenti. Quando è attivato, tutti gli oggetti Draft e Arch appena creati vengono posizionati automaticamente in quel gruppo.
 
@@ -102,7 +102,7 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 <img alt="" src=images/Draft_Label_Preview.png  style="width:640px;">
 
-## Ambiente FEM {#ambiente_fem}
+## Ambiente FEM 
 
 -   FEM Mesh
     -   **Gmsh object** is a mesh object, which allows using the [Gmsh](http://gmsh.info/) meshing tool inside FreeCAD. Various options of Gmsh are supported.
@@ -173,7 +173,7 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 <img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;">
 
-## Ambiente Part {#ambiente_part}
+## Ambiente Part 
 
 -   Il kernel di modellazione geometrica di Open Cascade è stato aggiornato dalla 6.8.0 alla 7.2.0 (la versione OCC effettiva può dipendere dalla piattaforma o dalla distro). Questa versione apporta molte correzioni di bug nelle operazioni booleane, nell\'algoritmo di rimozione delle linee nascoste e consente di aggiungere nuove funzionalità al workbench Part.
 
@@ -193,7 +193,7 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 -   Il nuovo [contenitore Part](Std_Part/it.md) può essere usato per raggruppare la maggior parte di tipi di forme e spostarle come una unità. Contiene inoltre piani e assi standard a cui allegare oggetti. Servirà come base per il futuro ambiente di Assemblaggio fornendo un modo per spostare le parti. È disponibile in tutti i workbench da una barra degli strumenti insieme a [Gruppo](Std_Group/it.md).
 
-## Ambiente PartDesign {#ambiente_partdesign}
+## Ambiente PartDesign 
 
 Il workbench PartDesign ha ricevuto enormi cambiamenti, frutto degli sforzi congiunti di più sviluppatori per un periodo di 5 anni. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width:800px;">
 
@@ -205,7 +205,7 @@ Il workbench PartDesign ha ricevuto enormi cambiamenti, frutto degli sforzi cong
 
 -   Nuovo passaggio automatico tra gli ambienti PartDesign e Sketcher. Quando si crea un nuovo schizzo dall\'interno di PartDesign, e l\'associazione dello schizzo è impostata, l\'interfaccia utente passa automaticamente a Sketcher e ai relativi strumenti in modalità di modifica. Quando lo schizzo viene chiuso, l\'interfaccia utente ritorna a PartDesign e ripristina la vista al suo stato precedente. Pertanto, gli strumenti di Sketcher sono stati rimossi dalle barre degli strumenti di PartDesign per liberare spazio per le nuove funzioni di PartDesign.
 
-## Ambiente Path {#ambiente_path}
+## Ambiente Path 
 
 Il workbench Path è stato ampiamente revisionato nella versione 0.17. La revisione ha visto la rimozione di tutti i vecchi codici HeeksCNC e la sostituzione del wrapper libarea python con il nuovo modulo Path-Area. Di conseguenza le operazioni sono diventate molto più potenti, più veloci, con una base di codice semplificata.
 
@@ -229,7 +229,7 @@ Il workbench Path è stato ampiamente revisionato nella versione 0.17. La revisi
 
 -   Le operazioni di vestizione possono essere utilizzate per perfezionare le operazioni principali e aggiungere ulteriore complessità. Esistono dressup per angoli [\'dogbone\'](Path_DressupDogbone/it.md), [holding tags](Path_DressupTag/it.md), [rampe](Path_DressupRampEntry/it.md), e \'azioni d\'angolo\' [dragknife](Path_DressupDragKnife/it.md)
 
-## Ambiente Sketcher {#ambiente_sketcher}
+## Ambiente Sketcher 
 
 -   Ora gli schizzi possono essere applicati in un\'ampia varietà di modi, non solo sulle facce piane come in passato. Di particolare importanza è l\'attaccamento perpendicolare ai bordi, utile per creare i profili di [sweep](Part_Sweep/it.md).
 
@@ -267,15 +267,15 @@ Il workbench Path è stato ampiamente revisionato nella versione 0.17. La revisi
 
 -   I vincoli orizzontale e verticale possono essere utilizzati per allineare i punti selezionati.
 
-## Ambiente Spreadsheet {#ambiente_spreadsheet}
+## Ambiente Spreadsheet 
 
 -   È stato aggiunto un importatore di file Excel.
 
-## Ambiente Surface {#ambiente_surface}
+## Ambiente Surface 
 
 -   Una nuova aggiunta in v0.17, per ora il workbench Surface ha 4 comandi funzionanti per la creazione di superfici.
 
-## Ambiente TechDraw {#ambiente_techdraw}
+## Ambiente TechDraw 
 
 
 <div class="mw-translate-fuzzy">
@@ -293,7 +293,7 @@ Il workbench Path è stato ampiamente revisionato nella versione 0.17. La revisi
 -   Il dimensionamento è supportato attraverso diversi strumenti di quotatura: orizzontale, verticale, lunghezza, radiale, diametro, angolare.
 -   Strumenti di decorazione: tratteggio, tratteggio compatibile con specifiche PAT Autodesk, simboli, immagini.
 
-## Moduli aggiuntivi {#moduli_aggiuntivi}
+## Moduli aggiuntivi 
 
 Alcuni dei nuovi moduli che sono stati creati dalla comunità.
 

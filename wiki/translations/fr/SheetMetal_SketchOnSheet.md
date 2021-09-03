@@ -32,7 +32,8 @@ In contrast to the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16
         button
 
     -   
-        {{MenuCommand|SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Sketch On Sheet metal}}
+        **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Sketch On Sheet metal
+**
         
         drop down menu
 

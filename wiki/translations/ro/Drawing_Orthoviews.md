@@ -8,7 +8,7 @@ Instrumentul Orthoviews creează toate proiecțiile ortogonale reprezintă loca�
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -49,7 +49,7 @@ Instrumentul Orthoviews creează toate proiecțiile ortogonale reprezintă loca�
 
 Nu există proprietăți pentru această comandă; comanda creează proprietăți pentru fiecare vizualizare individuală.
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 Drawing Orthoviews nu este numit în scripting. Vizualizările individuale create de comanda Drawing Orthoviews pot fi create în scripturi.
 

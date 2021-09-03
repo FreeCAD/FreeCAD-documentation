@@ -16,22 +16,22 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Std DlgMacroExecute](Std_DlgMacroExecute.md)** button.
-    -   Select the {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...}} option from the menu.
+    -   Select the **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...** option from the menu.
 2.  The Execute macro dialog box opens. See [Options](#Options.md).
 
 ## Options
 
-### User macros {#user_macros}
+### User macros 
 
 1.  The **User macros** tab lists the macros available in the **User macros location**.
 2.  Click a macro to select it.
 3.  The name of the selected macro will appear in the **Macro name** box.
 
-### System macros {#system_macros}
+### System macros 
 
 :   The **System macros** tab is not used at this time.
 
-### User macros location {#user_macros_location}
+### User macros location 
 
 1.  Press the **...** button to change the user macros location.
 2.  Browse to a different folder and select it.
@@ -99,7 +99,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ## Preferences
 
--   The user macros location can also be changed in the preferences: {{MenuCommand|Edit → Preferences... → General → Macro → Macro path}}. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

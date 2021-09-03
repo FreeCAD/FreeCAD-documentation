@@ -6,7 +6,7 @@ It is possible to [import the FreeCAD module](Embedding_FreeCAD.md) into a [Pyth
 
 But, with a bit of hacking, it is possible to import the whole FreeCAD interface, then move the 3D view from it to your own Qt application. We show here 3 different methods.
 
-## Using the FreeCAD 3D view widget directly {#using_the_freecad_3d_view_widget_directly}
+## Using the FreeCAD 3D view widget directly 
 
 Be aware that there are a lot of problems with this approach. The Qt event handling doesn\'t seem to work (no idea why) and if you use the 3d view\'s context-menu the application crashes. A better way could be to create your own 3d view SoQtExaminerViewer or SoQtViewer and \"push\" the content of FreeCAD\'s 3d view to your view, as shown in the other sections below.
 
@@ -92,7 +92,7 @@ ui.mdiArea.addSubWindow(v)
 my_mw.show()
 ```
 
-## Creating a soGui Examiner Viewer {#creating_a_sogui_examiner_viewer}
+## Creating a soGui Examiner Viewer 
 
 Alternatively, you can also use the FreeCADGui module to extract a OpenInventor (Coin) representation of the objects of your scene, then use that data in an external viewer (your application). Here is an easy way to get the 3D representation of an object.  
 ```python
@@ -140,7 +140,7 @@ Then you just need to run your viewer:
 myViewer()
 ```
 
-## Using the quarter module {#using_the_quarter_module}
+## Using the quarter module 
 
 Instead of using the sogui viewer, you can also use the more modern quarter module. This is generally the best of the three options.  
 ```python
@@ -314,7 +314,7 @@ if __name__ == '__main__':
     main()
 ```
 
-## Without even firing up the FreeCAD Gui {#without_even_firing_up_the_freecad_gui}
+## Without even firing up the FreeCAD Gui 
 
 Starting from FreeCAD rev2760 (2010, [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=203&start=20#p1226)), it is now possible to obtain the coin representation of any FreeCAD object without opening the main window. This makes it extremely easy to implement your own viewer and transparently have FreeCAD updating it. After importing the  
 ```python
@@ -469,7 +469,7 @@ if __name__ == '__main__':
     main()
 ```
 
-## Additional information {#additional_information}
+## Additional information 
 
 -   [Embedding a view to another (QT) application?](https://forum.freecadweb.org/viewtopic.php?f=8&t=203)
 -   [Using Gui functions without Gui.showMainWindow() in python script](https://forum.freecadweb.org/viewtopic.php?t=12575)

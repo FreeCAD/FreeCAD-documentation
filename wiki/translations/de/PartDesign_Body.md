@@ -65,7 +65,7 @@ Zusätzlich zu den unter [Part Formelementen](Part_Feature/de.md) beschriebenen 
 
 -    {{PropertyData/de|Gruppe}}: eine Liste mit den [PartDesign Formelemente](PartDesign_Feature/de.md) im Körper.
 
-#### Versteckte Eigenschaften {#versteckte_eigenschaften}
+#### Versteckte Eigenschaften 
 
 -    {{PropertyData/de|Ursprung|Link}}: das [App Ursprungs-](App_Origin.md) Objekt ist der Positionsbezug für alle Elemente, die in der **Group** enthalten sind.
 
@@ -92,9 +92,9 @@ Wähle das spezifische Formelement und setze {{PropertyView/de|Sichtbarkeit}} au
         
         stellt nur die endgültige Form des Körpers dar, die durch die Eigenschaft {{PropertyData/de|Spitze}} definiert ist. Alles andere, einschließlich [Skizzen](Sketch/de.md), [Teil Formelemente](PartDesign_Feature/de.md), Bezugspunkte usw., wird nicht angezeigt, auch wenn sie in der [Baumansicht](tree_view/de.md) sichtbar sind. Dieser Modus wird empfohlen, wenn der Körper nicht weiter modifiziert werden muss, so dass eine festgelegte Form angezeigt wird. Dieser Modus wird auch empfohlen, wenn Du die Unterelemente (Knoten, Kanten und Flächen) der endgültigen Form auswählen möchtest, um sie mit den Werkzeugen anderer Arbeitsbereiche zu verwenden.
 
-## Körper Konzept {#körper_konzept}
+## Körper Konzept 
 
-### Einzeln zusammenhängender Körper {#einzeln_zusammenhängender_körper}
+### Einzeln zusammenhängender Körper 
 
 Ein PartDesign Körper ist dazu gedacht, einen einzelnen, zusammenhängenden Festkörper zu modellieren. Die Bedeutung von \"zusammenhängend\" ist ein Element, das aus einem Stück gefertigt ist, ohne bewegliche Teile oder getrennte Körper. Beispiele für zusammenhängenden Festkörper sind solche, die aus einem einzigen Stück Rohmaterial durch einen Prozess des Gießens, Schneidens oder Fräsens hergestellt werden. Zum Beispiel bestehen eine Mutter, eine Unterlegscheibe und ein Bolzen jeweils aus einem einzigen massiven Stück Stahl ohne bewegliche Teile, so dass sie von einem PartDesign Körper modelliert werden können. Objekte, die durch Schweißen von zwei Teilen erzeugt werden, können auch durch einen einzigen Körper modelliert werden, solange die Schweißverbindung nicht beabsichtigt auseinander zu brechen.
 
@@ -119,9 +119,9 @@ Ein PartDesign Körper führt eine automatische [Verschmelzung](Part_Fuse/de.md)
 
 andere CAD Programme wie Catia erlauben zusammenhängende Körper im gleichen \" Körper\". Ab v0.19 erlaubt FreeCAD dies nicht mehr. Es gab Diskussionen im [FreeCAD Forum](https://forum.freecadweb.org/index.php) über die Aufhebung dieser Einschränkung, aber es wurde noch keine konkrete Entscheidung getroffen. Wenn Du mehr wissen möchtest oder andere Standpunkte vertreten möchtest, diskutiere bitte im [Forum](https://forum.freecadweb.org/index.php).
 
-## Ausführliche Erläuterung der Eigenschaften {#ausführliche_erläuterung_der_eigenschaften}
+## Ausführliche Erläuterung der Eigenschaften 
 
-### Aktiver Status {#aktiver_status}
+### Aktiver Status 
 
 Ein geöffnetes Dokument kann mehrere Körper enthalten. Um ein neues Formelement zu einem bestimmten Körper hinzuzufügen, muss es **aktiv** gemacht werden. Ein aktiver Körper wird in der [Baumansicht](tree_view/de.md) mit der Hintergrundfarbe angezeigt, die durch den Wert {{MenuCommand/de|aktiver Behälter}} im [Einstellungseditor](Preferences_Editor#Colors/de.md) angegeben wird. (standardmäßig hellblau). Ein aktiver Körper wird ebenfalls fett dargestellt.
 
@@ -163,7 +163,7 @@ alle Elemente innerhalb des Körpers werden auf den Ursprung des Körpers refere
 
 *Links: PartDesign Körper Ursprung in der [Baumansicht](tree_view/de.md). Rechts: Darstellung der Ursprung Elemente in der [3D Ansicht](3D_view/de.md).*
 
-### Basis Formelement {#basis_formelement}
+### Basis Formelement 
 
 Das Basis Formelement ist das erste [PartDesign Formelement](PartDesign_Feature/de.md) im Körper, wenn der Körper auf einer anderen Festkörperform basiert. Dieser Festkörper kann von einem beliebigen Arbeitsbereich erzeugt oder aus einer externen Datei, z.B. einer STEP Datei, importiert werden.
 
@@ -210,7 +210,7 @@ Die Spitze ist das <img src=images/Part_SimpleCopy.svg style="width:PartDesign F
 
 *Links: PartDesign Körper mit vollständiger parametrischer Historie inklusive Zwischenformelementen. Rechts: Die Spitze ist die endgültige Form, die aus dem Körper exportiert werden kann, wobei die Historie des Modells weggelassen wird.*
 
-Die Spitze wird automatisch auf das zuletzt im Körper erzeugte Formelement gesetzt. Er kann jedoch auch auf jedes der Zwischen Formelemente gesetzt werden, indem Du das Kontextmenü <img src=images/PartDesign_MoveTip.svg style="width:Baumansicht](tree_view/de.md) öffnest (Rechtsklick) und {{MenuCommand|[16px"> [Setze Spitze](PartDesign_MoveTip.md)}}, wählst, oder durch Ändern des Körperwertes **Spitze** im [Eigenschaftseditor](property_editor/de.md).
+Die Spitze wird automatisch auf das zuletzt im Körper erzeugte Formelement gesetzt. Er kann jedoch auch auf jedes der Zwischen Formelemente gesetzt werden, indem Du das Kontextmenü <img src=images/PartDesign_MoveTip.svg style="width:Baumansicht](tree_view/de.md) öffnest (Rechtsklick) und **[16px"> [Setze Spitze](PartDesign_MoveTip.md)**, wählst, oder durch Ändern des Körperwertes **Spitze** im [Eigenschaftseditor](property_editor/de.md).
 
 Das Ändern der Spitze in der Tat rollt seine Geschichte zurück, wodurch es möglich wird, Funktionen hinzuzufügen, die früher hätten hinzugefügt werden sollen. Außerdem wird es einer anderen Form externen Werkzeugen ausgesetzt.
 
@@ -218,7 +218,7 @@ In der [Baumansicht](tree_view/de.md) wird die Spitze des Körpers durch das [Pa
 
 ![](images/PartDesign_Body_Tip_tree.png ) *Zwei PartDesign Körper, jeder von ihnen mit [PartDesign Formelementen](PartDesign_Feature/de.md). Die Spitze ist das letzte Formelement in ihnen und wird mit einem Überlagerungssymbol markiert.*
 
-### Wechselwirkung mit anderen Arbeitsbereichen {#wechselwirkung_mit_anderen_arbeitsbereichen}
+### Wechselwirkung mit anderen Arbeitsbereichen 
 
 
 <div class="mw-translate-fuzzy">

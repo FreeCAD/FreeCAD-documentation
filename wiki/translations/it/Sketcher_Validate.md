@@ -43,7 +43,7 @@ L\'utilità **Convalida lo schizzo** può essere usata per riparare uno schizzo 
 
 ## Opzioni
 
-### Coincidenze mancanti {#coincidenze_mancanti}
+### Coincidenze mancanti 
 
 Trova coincidenze mancanti per i vertici sovrapposti e li aggiunge. Premere il pulsante **Trova**; appare una finestra di dialogo per segnalare quante coincidenze mancanti sono state trovate; sono mostrate nella vista 3D come croci gialle. Premere **OK** per chiudere la finestra di dialogo, quindi premere il pulsante **Ripara** per aggiungere le coincidenze mancanti.
 
@@ -55,12 +55,12 @@ This tolerance is also used by the **Find**/**Fix** process.
 
 Lasciare selezionata la casella di controllo \"Ignora la geometria di costruzione\" per ignorare la geometria di costruzione nell\'analisi.
 
-### Invalid constraints {#invalid_constraints}
+### Invalid constraints 
 
 
 <div class="mw-translate-fuzzy">
 
-### Vincoli non validi {#vincoli_non_validi}
+### Vincoli non validi 
 
 
 </div>
@@ -71,7 +71,7 @@ For example, if there is a Circle-Line-Tangent constraint, but it references two
 
 It also does other checks, such as for empty links.
 
-### Degenerated geometry {#degenerated_geometry}
+### Degenerated geometry 
 
 Degenerated geometry can result from solver actions in a sketch.
 
@@ -79,24 +79,24 @@ For instance, if a line is forced to shorten to become almost a point.
 
 Other examples: a zero length line or zero radius circle/arc.
 
-### Reversed external geometry {#reversed_external_geometry}
+### Reversed external geometry 
 
 
 <div class="mw-translate-fuzzy">
 
-### Geometria esterna reversa {#geometria_esterna_reversa}
+### Geometria esterna reversa 
 
 
 </div>
 
 This process might be helpful if sketches with external-geometry fail to solve because of these changes.
 
-### Constraint orientation locking {#constraint_orientation_locking}
+### Constraint orientation locking 
 
 
 <div class="mw-translate-fuzzy">
 
-### Vincolo orientamento bloccato {#vincolo_orientamento_bloccato}
+### Vincolo orientamento bloccato 
 
 
 </div>

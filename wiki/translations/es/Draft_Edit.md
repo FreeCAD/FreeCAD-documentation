@@ -25,8 +25,8 @@ Ver también: [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restringir](Draft
 2.  Hay varias formas de invocar el comando:
     -   Si aún no ha seleccionado un objeto: haga doble clic en un objeto en la [Vista de árbol](Tree_view.md). Esto sólo funciona para los objetos de borrador compatibles.
     -   Pulse el **<img src="images/Draft_Edit.svg" width=16px> [Borrador Edición ](Draft_Edit/es.md)**.
-    -   Seleccione la opción {{MenuCommand|Modificación → <img src="images/Draft_Edit.svg" width=16px> Editar}} del menú.
-    -   Seleccione la opción {{MenuCommand|Utilidades → <img src="images/Draft_Edit.svg" width=16px> Editar}} en el menú.
+    -   Seleccione la opción **Modificación → <img src="images/Draft_Edit.svg" width=16px> Editar** del menú.
+    -   Seleccione la opción **Utilidades → <img src="images/Draft_Edit.svg" width=16px> Editar** en el menú.
     -   Utilice el atajo de teclado: **D** y luego **E**.
 3.  Si aún no ha seleccionado ningún objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
 4.  Los objetos seleccionados se marcan con nodos temporales, y se abre el [Panel de tareas principales](#Panel_de_tareas_principales.md). Ver [Opciones](#Opciones.md) para más información.
@@ -51,31 +51,31 @@ Ver también: [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restringir](Draft
 
 Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiados. Véase [Borrador Preferencias](Draft_Preferences/es.md).
 
-### Panel de tareas Principal {#panel_de_tareas_principal}
+### Panel de tareas Principal 
 
 -   Pulse **O** o el **<img src="images/Draft_CloseLine.svg" width=16px> Cerrar** para finalizar el comando. Si se ha seleccionado un solo [Borrador Hilo](Draft_Wire/es.md) se cierra el hilo.
 -   Pulse **Esc** o el botón **Close** para finalizar el comando.
 
-### Panel de tareas Nodo {#panel_de_tareas_nodo}
+### Panel de tareas Nodo 
 
 -   Para introducir manualmente las coordenadas introduzca el componente X, Y y Z, y pulse **Enter** después de cada una. O puede pulsar el **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** cuando tenga los valores deseados. Es aconsejable mover el puntero fuera de la [Vista 3D](3D_view/es.md) antes de introducir las coordenadas.
--   Para utilizar coordenadas polares introduzca un valor para el {{MenuCommand|Length}} y un valor para el {{MenuCommand|Angle}}, y pulse **Enter** después de cada uno.
--   Marque la casilla {{MenuCommand|Angle}} para restringir el puntero al ángulo especificado.
--   La casilla {{MenuCommand|Relative}} no tiene sentido para este comando.
--   Pulse **G** o haga clic en la casilla {{MenuCommand|Global}} para activar el modo global. Si el modo global está activado, las coordenadas son relativas al sistema de coordenadas global, de lo contrario son relativas al sistema de coordenadas del [plano de trabajo](Draft_SelectPlane/es.md). {{Versión|0.20}}
--   La casilla {{MenuCommand|Continue}} no tiene ningún propósito para este comando.
+-   Para utilizar coordenadas polares introduzca un valor para el **Length** y un valor para el **Angle**, y pulse **Enter** después de cada uno.
+-   Marque la casilla **Angle** para restringir el puntero al ángulo especificado.
+-   La casilla **Relative** no tiene sentido para este comando.
+-   Pulse **G** o haga clic en la casilla **Global** para activar el modo global. Si el modo global está activado, las coordenadas son relativas al sistema de coordenadas global, de lo contrario son relativas al sistema de coordenadas del [plano de trabajo](Draft_SelectPlane/es.md). {{Versión|0.20}}
+-   La casilla **Continue** no tiene ningún propósito para este comando.
 -   Pulse **S** para activar o desactivar el ajuste de borradores.
 -   El **<img src="images/Draft_UndoLine.svg" width=16px> Deshacer** no tiene ningún propósito para este comando.
 
-## Objetos soportados {#objetos_soportados}
+## Objetos soportados 
 
-### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Borrador Línea](Draft_Line/es.md) and <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Borrador Hilo](Draft_Wire/es.md) {#draft_line.svg_borrador_línea_and_draft_wire.svg_borrador_hilo}
+### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Borrador Línea](Draft_Line/es.md) and <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Borrador Hilo](Draft_Wire/es.md) 
 
 -   Si el nodo inicial o final de un cable abierto se mueve de forma que coincidan, el cable se cierra.
 -   Menú contextual del nodo: {{Value|borrar punto}}. Deben quedar al menos dos puntos.
 -   Menú contextual de la arista: {{Value|añadir punto}}, {{Value|invertir cable}} ({{Version/es|0.20}}).
 
-### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Borrador Arco](Draft_Arc/es.md) y <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Borrador Arco 3Puntos](Draft_Arc_3Points/es.md) {#draft_arc.svg_borrador_arco_y_draft_arc_3points.svg_borrador_arco_3puntos}
+### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Borrador Arco](Draft_Arc/es.md) y <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Borrador Arco 3Puntos](Draft_Arc_3Points/es.md) 
 
 -   Menú contextual del nodo central: {{Value|mover arco}}.
 -   Menú contextual del nodo de inicio: {{Value|poner el primer ángulo}}.
@@ -83,86 +83,86 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 -   Menú contextual del nodo medio: {{Value|poner radio}}.
 -   Menú contextual del borde: {{Value|invertir arco}}. Actualmente esto no funciona.
 
-### <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> [Borrador Círculo](Draft_Circle/es.md) {#draft_circle.svg_borrador_círculo}
+### <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> [Borrador Círculo](Draft_Circle/es.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> [Borrador Elipse](Draft_Ellipse/es.md) {#draft_ellipse.svg_borrador_elipse}
+### <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> [Borrador Elipse](Draft_Ellipse/es.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Borrador Rectángulo](Draft_Rectangle/es.md) {#draft_rectangle.svg_borrador_rectángulo}
+### <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Borrador Rectángulo](Draft_Rectangle/es.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> [Borrador Polígono](Draft_Polygon/es.md) {#draft_polygon.svg_borrador_polígono}
+### <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> [Borrador Polígono](Draft_Polygon/es.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Borrador BSpline](Draft_BSpline/es.md) {#draft_bspline.svg_borrador_bspline}
+### <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Borrador BSpline](Draft_BSpline/es.md) 
 
 -   Si el nodo inicial o final de una spline abierta se mueve de forma que coincidan, la spline se cierra.
 -   Menú contextual del nodo: {{Value|borrar punto}}. Para una spline abierta deben quedar al menos dos puntos. Para una spline cerrada el número mínimo de puntos es de tres.
 -   Menú contextual de la arista: {{Value|añadir punto}}.
 
-### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md) y <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> [Borrador BezCurva](Draft_BezCurve/es.md) {#draft_cubicbezcurve.svg_borrador_cúbicabezcurva_y_draft_bezcurve.svg_borrador_bezcurva}
+### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md) y <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> [Borrador BezCurva](Draft_BezCurve/es.md) 
 
 -   If the start or end node of an open curve is moved so that they coincide, the curve is closed.
 -   Node context menu: {{Value|make sharp}}, {{Value|make tangent}}, {{Value|make symmetric}} and {{Value|delete point}}.
 -   Edge context menu: {{Value|add point}}.
 
-### <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [Draft Dimension](Draft_Dimension.md) {#draft_dimension.svg_draft_dimension}
+### <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [Draft Dimension](Draft_Dimension.md) 
 
 -   Angular dimensions cannot be edited.
 -   The start and end nodes of parametric dimensions cannot be moved.
 -   No context menus for this object.
 
-### <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Arch Wall](Arch_Wall.md) {#arch_wall.svg_arch_wall}
+### <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Arch Wall](Arch_Wall.md) 
 
 -   A single node to control the height of the wall is displayed above the **Placement** of the wall.
 -   No context menus for this object.
 
-### <img alt="" src=images/Arch_Structure.svg  style="width:24px;"> [Arch Structure](Arch_Structure.md) {#arch_structure.svg_arch_structure}
+### <img alt="" src=images/Arch_Structure.svg  style="width:24px;"> [Arch Structure](Arch_Structure.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Arch Window](Arch_Window.md) {#arch_window.svg_arch_window}
+### <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Arch Window](Arch_Window.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Arch_Space.svg  style="width:24px;"> [Arch Space](Arch_Space.md) {#arch_space.svg_arch_space}
+### <img alt="" src=images/Arch_Space.svg  style="width:24px;"> [Arch Space](Arch_Space.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Arch_Panel_Cut.svg  style="width:24px;"> [Arch Panel Cut](Arch_Panel_Cut.md) {#arch_panel_cut.svg_arch_panel_cut}
+### <img alt="" src=images/Arch_Panel_Cut.svg  style="width:24px;"> [Arch Panel Cut](Arch_Panel_Cut.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:24px;"> [Arch Panel Sheet](Arch_Panel_Sheet.md) {#arch_panel_sheet.svg_arch_panel_sheet}
+### <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:24px;"> [Arch Panel Sheet](Arch_Panel_Sheet.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Box](Part_Box.md) {#part_box.svg_part_box}
+### <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Box](Part_Box.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [Part Cylinder](Part_Cylinder.md) {#part_cylinder.svg_part_cylinder}
+### <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [Part Cylinder](Part_Cylinder.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [Part Sphere](Part_Sphere.md) {#part_sphere.svg_part_sphere}
+### <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [Part Sphere](Part_Sphere.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Part_Cone.svg  style="width:24px;"> [Part Cone](Part_Cone.md) {#part_cone.svg_part_cone}
+### <img alt="" src=images/Part_Cone.svg  style="width:24px;"> [Part Cone](Part_Cone.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Part_Line.svg  style="width:24px;"> [Part Line](Part_Line.md) {#part_line.svg_part_line}
+### <img alt="" src=images/Part_Line.svg  style="width:24px;"> [Part Line](Part_Line.md) 
 
 -   No hay menús contextuales para este objeto.
 
-### <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Sketch](Sketcher_NewSketch.md) {#sketcher_newsketch.svg_sketcher_sketch}
+### <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Sketch](Sketcher_NewSketch.md) 
 
 -   Sólo se pueden editar los croquis que contengan una sola línea sin restricciones. Actualmente esto no funciona correctamente.
 -   No hay menús contextuales para este objeto.
@@ -171,7 +171,7 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Preferencias](Draft_Preferences/es.md).
 
--   El color de los nodos temporales es el mismo que el color de los símbolos atrapar. Este color se puede cambiar en las preferencias: {{MenuCommand|Edición → Preferencias... → Borrador → Ajustes visuales → Color}}. Tenga en cuenta que este color no se utiliza para los nodos temporales que se muestran para [Borrador BezCurvas](Borrador_BezCurve/es.md). Estos nodos utilizan el **Color de la línea** de la curva en su lugar.
+-   El color de los nodos temporales es el mismo que el color de los símbolos atrapar. Este color se puede cambiar en las preferencias: **Edición → Preferencias... → Borrador → Ajustes visuales → Color**. Tenga en cuenta que este color no se utiliza para los nodos temporales que se muestran para [Borrador BezCurvas](Borrador_BezCurve/es.md). Estos nodos utilizan el **Color de la línea** de la curva en su lugar.
 
 ## Guión
 

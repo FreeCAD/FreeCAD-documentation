@@ -8,7 +8,7 @@ Wie viele andere Software hat auch FreeCAD die Möglichkeit, Objekte zu kopieren
 
 Bitte beachte, dass die kopiert-eingefügten Objekte nicht vom Original abhängig sind. Wenn du abhängige Klone möchtest, verwende bitte <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [Arbeitsbereich Entwurf Klon](Draft_Clone/de.md) oder <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;"> [PartDesign Arbeitsbereich Klon](PartDesign_Clone/de.md). Wenn du weder einen abhängigen Klon noch ein parametrisches Abbild brauchst, kannst du auch <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [Formteil Arbeitsbereich Einfache Kopie](Part_SimpleCopy/de.md) verwenden. Für gemusterte Klone schaue bitte in den Abschnitt [Andere Methoden](Copying_Objects/de#Andere_Methoden.md) auf dieser Seite.
 
-## Kopieren verknüpfter Objekte {#kopieren_verknüpfter_objekte}
+## Kopieren verknüpfter Objekte 
 
 [Dokument](Document_structure/de.md) Objekte können mit anderen Objekten verknüpft sein (z.B. ein Polster Formelement ist mit seiner Skizze, und ein Verschmelzungsformelement ist mit seinen Komponentenobjekten verknüpft). Dies bedeutet, dass bei der Auswahl der zu kopierenden Objekte eine gewisse Vorsicht geboten ist.
 
@@ -16,11 +16,11 @@ Wenn ein Objekt ohne seine Kinder ausgewählt wird, werden diese Kinder nicht au
 
 Im Allgemeinen wird empfohlen, beim Kopieren eines übergeordneten Objekts alle abhängigen Objekte auszuwählen.
 
-## Finden und Positionieren von eingefügten Objekt(en) {#finden_und_positionieren_von_eingefügten_objekten}
+## Finden und Positionieren von eingefügten Objekt(en) 
 
 Nach dem Kopieren/Einfügen Vorgang ist es möglicherweise nicht offensichtlich, wo sich das/die neue(n) Objekt(e) im Dokumentfenster befinden. Das liegt daran, dass das neue Objekt die gleiche [Platzierungseigenschaft](Placement/de.md) wie das Original hat. Schalten die Eigenschaft Sichtbarkeit um (**Leertaste**), um das Original auszublenden. Verwende dann den Platzierungsdialog, um die Kopie an die richtige Position zu verschieben.
 
-## Andere Methoden {#andere_methoden}
+## Andere Methoden 
 
 Wie bei den meisten Dingen in FreeCAD gibt es viele Möglichkeiten, eine Kopie zu erstellen. Für weitere Ideen schau unter:
 

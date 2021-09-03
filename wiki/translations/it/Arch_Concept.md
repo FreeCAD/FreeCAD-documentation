@@ -18,7 +18,7 @@ Questa pagina è un tentativo di raccogliere le idee sul disegno parametrico nel
 
 </div>
 
-## Software simili {#software_simili}
+## Software simili 
 
 -   [Revit](http://en.wikipedia.org/wiki/Revit)
 
@@ -26,7 +26,7 @@ Questa pagina è un tentativo di raccogliere le idee sul disegno parametrico nel
 
 -   [Generative Components](http://en.wikipedia.org/wiki/Generative_Components)
 
-## Formati dei file {#formati_dei_file}
+## Formati dei file 
 
 -   [STEP](http://en.wikipedia.org/wiki/ISO_10303) - già pienamente funzionante in FreeCAD
 -   [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes)
@@ -34,7 +34,7 @@ Questa pagina è un tentativo di raccogliere le idee sul disegno parametrico nel
     -   <http://www.bimserver.org/>
     -   <http://konstruct.nl/parsing-ifc-stepexpress-files-in-python-and-s>
 
-## Concetti generali {#concetti_generali}
+## Concetti generali 
 
 -   FreeCAD è perfetto per questo compito. Disegnare con oggetti parametrici ridimensionerà di molto l\'unico vero problema che vedo in FreeCAD, che è quello di lavorare con migliaia di oggetti. Tutto il necessario è già lì, disponibile, ad esempio, i tipi di oggetti personalizzati, le proprietà personalizzate, ecc.. La difficoltà principale, cioè, progettare un modello generale per trattare l\'interazione tra gli oggetti, ora è potenzialmente superata, dato che FreeCAD ha introdotto un grafico delle dipendenze soprattutto per tale scopo.
 
@@ -67,7 +67,7 @@ Questa pagina è un tentativo di raccogliere le idee sul disegno parametrico nel
 
 <div class="mw-translate-fuzzy">
 
-## A proposito degli archetipi {#a_proposito_degli_archetipi}
+## A proposito degli archetipi 
 
 -   Tutti gli archetipi dovrebbe sempre comportarsi come oggetti di programmazione orientata a oggetti (object-oriented): è possibile creare una nuova classe basata su un\'altra classe.
 
@@ -94,7 +94,7 @@ Questa pagina è un tentativo di raccogliere le idee sul disegno parametrico nel
 
 </div>
 
-## Archetipi (tipi di oggetti) {#archetipi_tipi_di_oggetti}
+## Archetipi (tipi di oggetti) 
 
 ### Muri
 
@@ -111,7 +111,7 @@ Il livello in cui sono poste le pareti, richiede un inserimento precedente di ta
 
 I muri consentono l\'inserimento di oggetti da librerie come: porte, finestre, vetrate, e altri oggetti personalizzati che richiedono un\'apertura in tali muri. Può anche essere inserita solo un\'apertura, se essa è richiesta.
 
-### Porta/finestra (inserire elementi) {#portafinestra_inserire_elementi}
+### Porta/finestra (inserire elementi) 
 
 Porte e finestre sono in realtà la stessa cosa, un oggetto completo che può avere un sacco di parametri per definire la sua forma, e un volume invisibile che viene usato per tagliare le aperture attraverso le pareti di ricezione. Essi sono tipicamente inseriti in una parete, ma non sempre. Dal momento che non possono differire molto, dovrebbero essere facili da progettare.
 
@@ -119,11 +119,11 @@ Porte e finestre sono in realtà la stessa cosa, un oggetto completo che può av
 
 Tetto è semplicemente un modo pratico per calcolare le intersezioni della inclinazione del tetto.
 
-### Solaio (Lastra) {#solaio_lastra}
+### Solaio (Lastra) 
 
 I solai (lastre - Slab) sono elementi orizzontali, creati a partire da una estrusione verticale di un contorno chiuso o da una faccia, dovrebbero collegarsi per materiale agli altri elementi strutturali, e possono avere una serie di appendici (unione) o fori (sottrazione), e di strati (materiali) (ndt: lo strato di cemento è la soletta). Devono essere calcolati le aree orizzontali e il volume.
 
-### Trave e Pilastro (elemento strutturale) {#trave_e_pilastro_elemento_strutturale}
+### Trave e Pilastro (elemento strutturale) 
 
 Un contorno chiuso o una faccia estrusi in qualsiasi direzione, può avere una serie di appendici (unione) o fori (sottrazione).
 
@@ -131,7 +131,7 @@ Un contorno chiuso o una faccia estrusi in qualsiasi direzione, può avere una s
 
 Un gruppo di finestre che possono costituire un complessivo
 
-## Meccanismi generici {#meccanismi_generici}
+## Meccanismi generici 
 
 -   Dipendenza: le finestre devono sapere in quale parete vengono inserite, le pareti devono sapere quale finestra contengono, ecc .. Vedere parti booleane
 -   Giunzioni: le pareti devono sapere con quale altro muro connettersi e collegare correttamente i loro materiali. Lo spostamento di un muro deve quindi ricalcolare i muri vicini. Stabilire una tabella di possibili tipi di giunzioni
@@ -139,55 +139,55 @@ Un gruppo di finestre che possono costituire un complessivo
 -   Auto-raggruppamento: gli oggetti di un certo tipo vanno automaticamente inseriti in gruppi specifici
 -   \"Disegnatore di finestre\": Un modo semplice per disegnare finestre parametriche, basate su profili
 
-### Analisi energetica {#analisi_energetica}
+### Analisi energetica 
 
 -   L\'edificio deve essere ottimizzato in modo appropriato per il programma che serve e anche secondo la specifica posizione geografica. Ad esempio lo stesso progetto può essere costruito a Miami, in Florida (Stati Uniti) oppure a Francoforte (Germania) oppure a Sydney (Australia). Però, deve essere ottimizzato con grandi differenze. Ciò che è appropriato per una posizione, potrebbe essere inadeguato per un\'altra posizione. Il disegno che generiamo con FCBIM dovrebbe essere \"testato\" e vedere come si comporta in termini di consumo energetico. In questo momento sono disponibili alcuni strumenti esterni che consentono di ottimizzare le prestazioni energetiche degli edifici. Le principali applicazioni gratuite/open source sono: EnergyPlus, OpenStudio (una interfaccia GUI per EnergyPlus) e ESP-r.
 
-### Simulazione della luce solare {#simulazione_della_luce_solare}
+### Simulazione della luce solare 
 
 -   La raccolta luce del giorno è uno degli approcci fondamentali nella progettazione sostenibile. Molti progetti moderni voltano le spalle alla luce naturale e danno come risultato soluzioni indesiderabili per le persone. Negli Stati Uniti una grande percentuale di edifici crea la cosiddetta Sindrome Sick Building, che causa problemi di salute alle persone che vivono e lavorano in essi. L\'utilizzo della luce allevia in parte questo problema. FCBIM dovrebbe includere strumenti che permettono la simulazione della luce diurna, quali Radiance o LuxRender o YAF(a)ray.
 
-### HVAC e Ventilazione Naturale {#hvac_e_ventilazione_naturale}
+### HVAC e Ventilazione Naturale 
 
 -   Strumenti per inserire disegni e calcolare HVAC (riscaldamento, ventilazione e aria condizionata) e che permettono i calcoli per l\'uso della ventilazione naturale. OpenFOAM dovrebbe essere un candidato in questo settore, che forse andrà ad integrare FCBIM.
 
-## Acquisire conoscenze sulla Costruzione {#acquisire_conoscenze_sulla_costruzione}
+## Acquisire conoscenze sulla Costruzione 
 
 Lo sforzo per creare un modulo che renda possibile a FreeCAD di fornire un ambiente per la gestione di un **Modello d\'informazioni di un edificio** (Building Information Modeling - BIM) contemporaneo è in corso. Lo sforzo è orientato a elevare le sue capacità fino a confrontarsi con quelle dei più maturi sistemi di modellazione architettonica quali Revit. Riconosciamo le limitazioni nelle implementazioni di BIM disponibili, una di queste è l\'ignoranza di conoscenze della costruzione. Per questo motivo stiamo anche perseguendo un obiettivo parallelo di sviluppo delle capacità che consentano a FreeCAD di acquisire tali conoscenze in genere create per lo più in fase di progettazione iniziale, ma anche nella fase successiva di progettazione dei dettagli. Nelle sezioni seguenti, documenteremo le capacità che non sono molto comuni negli strumenti a disposizione, ma che riteniamo più adeguate ed efficenti per catturare le informazioni e le conoscenze dalla progettazione alla demolizione. Le sezioni seguenti forniscono le specifiche e linee guida per quanto riguarda la parte **Cosa** di questo sforzo. Si deve compilare il **Come** dei progressi del nostro sforzo. Inutile dire, che le cose cambieranno o saranno modificate dato che la nostra comprensione e l\'applicazione vanno di pari passo.
 
-### Descrizione della procedura per identificare gli oggetti {#descrizione_della_procedura_per_identificare_gli_oggetti}
+### Descrizione della procedura per identificare gli oggetti 
 
 La sessione di progettazione della costruzione inizia nel momento in cui il progettista stabilisce la direzione Nord e introduce le restrizioni adeguate in base al regolamento edilizio applicabile nel luogo del progetto. Facendo questo le linee di massima per il nuovo edificio sono stabilite.
 
-#### Oggetto 1: Sito della costruzione {#oggetto_1_sito_della_costruzione}
+#### Oggetto 1: Sito della costruzione 
 
 C\'è solo un sito della costruzione in un progetto. Questo oggetto deve essere creato appena la decisione di progettare una casa è presa dal progettista. Dovrebbe esistere come una forma di contenitore (perché essa cerne uno spazio. Vedremo di più in seguito) con i suoi lati, una parte superiore ed una inferiore. I lati possono essere definiti interattivamente in termini di lunghezza e angolazione. Dovrebbe anche essere possibile aggiungere o rimuovere dei lati se necessario. Sebbene il fondo viene creato piatto, esso può anche essere ridefinito con contorni per fornire la pendenza adeguata. Il fondo è l\'unica parte del sito che dovrebbe essere visibile.
 
-#### Oggetto 2: Direzione Nord {#oggetto_2_direzione_nord}
+#### Oggetto 2: Direzione Nord 
 
 La direzione Nord è un oggetto che stabilisce l\'angolo in direzione del Nord geografico. Si tratta di una parte del sito e rende possibile determinare per il sito i venti dominanti, il movimento del sole, ecc.
 
-#### Oggetto 3: Limitazioni {#oggetto_3_limitazioni}
+#### Oggetto 3: Limitazioni 
 
 Queste sono le distanze dai confini del sito che sono richieste dal codice. Fanno parte del sito ma richiedono alcuni parametri che devono essere forniti al fine di determinare quali limiti e quali distanze. Ad esempio il limite dal confine vicino alla strada può essere differente dal limite da un confine da un sito vicino. Queste informazioni possono essere fornite in modo interattivo, ma con la direzione nord stabilita, è possibile per il progettista inserire queste informazioni durante la raccolta dei requisiti per la progettazione. Il limite, come il sito, è un tipo di oggetto contenitore.
 
-#### Oggetto 4: Livello di costruzione {#oggetto_4_livello_di_costruzione}
+#### Oggetto 4: Livello di costruzione 
 
 A questo punto l\'impronta di massima per la costruzione è stata stabilita. Questa impronta rappresenta il primo livello dell\'edificio. Il livello di costruzione è un oggetto che permette di integrare diversi sistemi di costruzione. Esempi di sistemi di costruzione sono architettonico, strutturale, elettrico, ecc. Il livello di costruzione, come il sito di costruzione, è una forma di contenitore. Ci possono essere uno o più livelli, che sono ordinariamente impilati uno sopra l\'altro a partire dal basso. Il primo livello è stabilito dopo che si sono designati i limiti per tutti i confini del sito. Possono essere creati nuovi livelli, ma viene modificata solo l\'elevazione del fondo dato che i confini del livello sono invisibili.
 
-#### Oggetto 5: Spazio di costruzione {#oggetto_5_spazio_di_costruzione}
+#### Oggetto 5: Spazio di costruzione 
 
 Lo spazio è definito per soddisfare la funzione principale della costruzione, ad esempio uno spazio per dormire, mangiare, rilassarsi, lavorare, ecc. Gli spazi vengono creati e raggruppati all\'interno dei livelli. Ci sono diversi tipi di spazi che forniscono le funzioni appropriate in differenti tipi di edifici. Ad esempio, in un tipo di edificio residenziale ci sono 4 tipi principali che includono gli spazi per dormire, soggiorno, servizi e di passaggio.
 
-#### Oggetto 6: Oggetto spazio {#oggetto_6_oggetto_spazio}
+#### Oggetto 6: Oggetto spazio 
 
 Questo rappresenta tutto ciò che può essere situato in uno spazio. Ogni oggetto avrà alcune conoscenze fondamentali delle sue esigenze. Ad esempio per descrivere un\'area di soggiorno, cioè un oggetto con almeno una zona a sedere, saranno necessari i requisiti di spazio per le gambe e di altezza massima.
 
-#### Oggetto 7: Contenitore di costruzione {#oggetto_7_contenitore_di_costruzione}
+#### Oggetto 7: Contenitore di costruzione 
 
 La maggior parte degli oggetti descritti finora sono dei tipi di contenitori. I contenitori hanno una superficie interna che è isolata dai limiti (confini). Ci sono i limiti **Inferiore**, **Superiore** e **Laterali**. Due contenitori possono condividere un limite laterale. Quando si verifica questa condivisione, uno speciale oggetto **Lato-Condiviso** (Share-Side) sostituisce i singoli lati di ciascuno dei contenitori interessati. Si stabilisce un legame tra i due contenitori e si permette loro di comunicare. Ad esempio, quando c\'è un lato in comune tra una camera e un locale di servizio, come un bagno e una camera da letto, quel lato aspetta una qualche forma di trattamento per attenuare il rumore e evitare di intasare la zona notte con troppo rumore. Ogni limite in un contenitore ha una **Forma**. Una forma è un oggetto di tipo contenitore che può avere le necessarie descrizioni o **Proprietà** dei tipici materiali di rivestimento della costruzione.
 
-### Diagramma degli oggetti {#diagramma_degli_oggetti}
+### Diagramma degli oggetti 
 
 Il seguente diagramma illustra la relazione tra tutti gli oggetti descritti finora.
 

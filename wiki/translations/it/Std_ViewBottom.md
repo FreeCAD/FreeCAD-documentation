@@ -18,8 +18,8 @@ Il comando **Vista dal basso** orienta la fotocamera della [Vista 3D](3D_view/it
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_ViewBottom.svg" width=16px> Vista dal basso**.
-    -   Selezionare l\'opzione {{MenuCommand|Visualizza → Viste standard → <img src="images/Std_ViewBottom.svg" width=16px> Dal basso}} dal menu.
-    -   Selezionare l\'opzione {{MenuCommand|Viste standard → <img src="images/Std_ViewBottom.svg" width=16px> Dal basso}} dal menu contestuale della [vista 3D](3D_view/it.md).
+    -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewBottom.svg" width=16px> Dal basso** dal menu.
+    -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewBottom.svg" width=16px> Dal basso** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **5**.
 
 ## Script

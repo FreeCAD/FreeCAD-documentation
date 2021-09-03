@@ -68,7 +68,7 @@ Viene creato un oggetto parametrico Offset 2D. Gli oggetti originali vengono con
 
 :   ![600px](images/Part_Offset2D_Fill.png)
 
-## Problemi noti {#problemi_noti}
+## Problemi noti 
 
 -   La maggior parte delle modalità non predefinite funziona solo con OCC 7.0.0 o superiori.
 

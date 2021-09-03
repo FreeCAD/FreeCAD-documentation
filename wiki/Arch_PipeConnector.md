@@ -21,7 +21,7 @@ This tool allows to create corner or tee connection between two or three selecte
 
 -    **Radius**: The curvature radius of this connector
 
-## Typical workflow {#typical_workflow}
+## Typical workflow 
 
 See the information on [Arch Pipe](Arch_Pipe.md) for the workflow on using pipes and creating connectors.
 

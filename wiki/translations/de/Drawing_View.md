@@ -22,7 +22,7 @@ Ein **Ansicht**-Objekt wird zum **Seite**-Ojekt des Projektbaums hinzugefügt. F
 
 Wenn nur das Objekt im Projektbaum ausgewählt ist, wird die Ansicht zur ersten Seite des Projekts hinzugefügt. Wenn es mehrere Seiten im Projekt gibt, dann wähle bitte das Objekt aus und die Seite, zu der es hinzugefügt werden soll. Klicke dann auf das Icon, um die Ansicht zur ausgewählten Seite hinzuzufügen.
 
-### Ändern einer existierenden Ansicht {#ändern_einer_existierenden_ansicht}
+### Ändern einer existierenden Ansicht 
 
 Klappe das Seite-Objekt im Projektbaum auf und wähle die Ansicht. Deren Parameter können in der Eigenschaftenansicht im Daten-Reiter geändert werden.
 

@@ -14,15 +14,15 @@ All operations create objects that are made to be part of a **<img src="images/P
 
 These are the available operations:
 
-### Contour operation {#contour_operation}
+### Contour operation 
 
 A **Contour** operation is the default. It creates a simple external contour cut of complex 3D <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md)-based objects. The entire Job Model serves as the input for the Operation, regardless of whether any Body Geometry is selected when the Contour command is invoked.
 
-### Profile Face operation {#profile_face_operation}
+### Profile Face operation 
 
 A **Profile Face** operation creates a simple contour path from one ore more selected faces of an object.
 
-### Profile Edges operation {#profile_edges_operation}
+### Profile Edges operation 
 
 A **Profile Edges** operation creates a simple contour path from selected edges.
 
@@ -32,11 +32,11 @@ A **Profile Edges** operation creates a simple contour path from selected edges.
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_Profile.svg" width=16px> [Path Profile](Path_Profile.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_Profile.svg" width=16px> Profile}} option from the menu.
+    -   Select the **Path → <img src="images/Path_Profile.svg" width=16px> Profile** option from the menu.
 2.  Activate the Base Geometry section by clicking its tab, and select features from the Job model.
-    -   If no features are selected, the command defaults to a {{MenuCommand|Contour}} operation, contouring the entire model.
-    -   If faces are selected, then the result is a {{MenuCommand|Profile Face}} operation.
-    -   If edges are selected, then the result is a {{MenuCommand|Profile Edges}} operation.
+    -   If no features are selected, the command defaults to a **Contour** operation, contouring the entire model.
+    -   If faces are selected, then the result is a **Profile Face** operation.
+    -   If edges are selected, then the result is a **Profile Edges** operation.
         **NOTE**: This operation has received improvements to allow functionality on some open-edge (non-loop) selections. See the **Usage Notes** section below for additional information on best practice for profiling open-edges.
 3.  Activate the Operation section by clicking on its tab, and adjust the operation\'s settings as desired.
 4.  Optionally press the **Apply** button to preview the operation with the current settings.
@@ -44,11 +44,11 @@ A **Profile Edges** operation creates a simple contour path from selected edges.
 
 **Important Note: Path Profile doesn\'t take care of other details of the object. You have to adjust the properties, especially the final depth, carefully, a mistake might destroy your work piece**
 
-A Start point can be enabled from the Operation tab in the Tasks Window editor, using a location defined in the {{MenuCommand|Property View → Data → Start Point}}.
+A Start point can be enabled from the Operation tab in the Tasks Window editor, using a location defined in the **Property View → Data → Start Point**.
 
 Make additional adjustments to the operation by modifying the operation\'s properties in the Data tab of the Property View. Advanced properties will be located here, if any.
 
-## Usage Notes {#usage_notes}
+## Usage Notes 
 
 -   The **<img src="images/Path_Profile.svg" width=16px> [Profile](Path_Profile.md)** operation is capable of profiling **open-edges** (one or more continuous edges that do not form a loop as seen from the *Top View*)
     -   It is best to select the top edges (highest edges) for the selection. After doing so, you will need to manually set the Final Depth for the operation. Selection of bottom edges only is unpredictable and will likely return undesirable paths in many situations; however, it will return correct paths in some situations.
@@ -182,7 +182,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
 
-#### Start Point {#start_point}
+#### Start Point 
 
 -    **Start Point**: The custom start point for the path of this operation.
 
@@ -203,11 +203,11 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Use Start Point**: Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
 
-## Tasks Window Editor Layout {#tasks_window_editor_layout}
+## Tasks Window Editor Layout 
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Geometry {#base_geometry}
+#### Base Geometry 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: delete the selected item(s) in the Base Geometry list

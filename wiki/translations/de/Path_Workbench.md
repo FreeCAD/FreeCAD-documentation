@@ -26,7 +26,7 @@ Der FreeCAD Pfad Arbeitsbereich Arbeitsablauf erstellt diese Maschinenanweisunge
 -   Fräsbahnen werden z.B. mit [Kontur](Path_Profile/de.md) und [Tasche](Path_Pocket_3D/de.md) Abläufen erzeugt. Diese [Bahnobjekte](Path_objects/de.md) verwenden den internen FreeCAD G-code Dialekt, unabhängig von der CNC Maschine.
 -   Exportiere den Job mit einem G-code, der zu Ihrer Maschine passt. Dieser Schritt wird *Nachbearbeitung* genannt; es sind unterschiedliche Nachbearbeitungsprozessoren verfügbar.
 
-## Allgemeine Konzepte {#allgemeine_konzepte}
+## Allgemeine Konzepte 
 
 Der Pfad Arbeitsbereich erzeugt einen G-code, der die Pfade definiert, die zum Fräsen des durch das 3D Modell auf der Zielfräse in [Der Pfad Auftragsvorgang FreeCAD G-code Dialekt](Path_scripting/de#Das_FreeCAD_Interne_GCode_Format.md), die später durch Auswahl des entsprechenden Postprozessors in den entsprechenden Dialekt für die Ziel CNC Steuerung übersetzt wird.
 
@@ -36,10 +36,10 @@ Der Path Arbeitsbereich enthält einen Werkzeugverwalter (Bibliothek, Werkzeugta
 
 Der Pfad Arbeitsbereich hat externe Abhängigkeiten einschließlich:
 
-1.  Die FreeCAD 3D Modell Einheiten sind im {{MenuCommand|Bearbeiten → Einstellungen → Allgemein → Einheiten Reiter Einheiteneinstellungen}} festgelegt. Die Postprozessor Konfiguration legt die endgültigen G-code Einheiten fest.
-2.  Der Pfad der Makrodatei und die geometrischen Toleranzen werden im {{MenuCommand|Bearbeiten → Einstellungen →  Pfad → Arbeitsauftag Einstellungen}} definiert.
-3.  Die Farben werden im Register {{MenuCommand|Bearbeiten → Einstellungen →Pfad → Pfad  Farben}} definiert.
-4.  Die Parameter der Halte Merker werden in dem {{MenuCommand|Bearbeiten → Einstellungen → Pfad → Aufbereitungen}} Reiter definiert.
+1.  Die FreeCAD 3D Modell Einheiten sind im **Bearbeiten → Einstellungen → Allgemein → Einheiten Reiter Einheiteneinstellungen** festgelegt. Die Postprozessor Konfiguration legt die endgültigen G-code Einheiten fest.
+2.  Der Pfad der Makrodatei und die geometrischen Toleranzen werden im **Bearbeiten → Einstellungen →  Pfad → Arbeitsauftag Einstellungen** definiert.
+3.  Die Farben werden im Register **Bearbeiten → Einstellungen →Pfad → Pfad  Farben** definiert.
+4.  Die Parameter der Halte Merker werden in dem **Bearbeiten → Einstellungen → Pfad → Aufbereitungen** Reiter definiert.
 5.  Dass die Qualität des Basis 3D Modells die Anforderungen an die Pfad Arbeitsbereich unterstützt, wird durch Prüfe Geometrie bestätigt.
 
 ## Begrenzungen
@@ -76,12 +76,12 @@ Pfad Untersuchen:
 
 1.  Wenn du das Werkzeug zum Untersuchen des Pfades benutzt, wird als Einheit \'mm/s\' benutzt, da der Postprozessor noch nicht angewendet wurde.
 
-## Heights and depths {#heights_and_depths}
+## Heights and depths 
 
 
 <div class="mw-translate-fuzzy">
 
-## Pfad Befehle {#pfad_befehle}
+## Pfad Befehle 
 
 Viele der Befehle haben unterschiedliche Höhen und Tiefen: <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
 *Sichtreferenz für Tiefeneigenschaften (Einstellungen)*
@@ -96,7 +96,7 @@ Viele der Befehle haben unterschiedliche Höhen und Tiefen: <img alt="" src=imag
 
 Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
 
-### Project Commands {#project_commands}
+### Project Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -130,7 +130,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### Tool Commands {#tool_commands}
+### Tool Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -171,7 +171,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Grundlegende Pfad Arbeitsabläufe {#grundlegende_pfad_arbeitsabläufe}
+### Grundlegende Pfad Arbeitsabläufe 
 
 
 </div>
@@ -248,7 +248,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### 3D Operations {#d_operations}
+### 3D Operations 
 
 
 <div class="mw-translate-fuzzy">
@@ -277,7 +277,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Pfad Aufbereitung {#pfad_aufbereitung}
+### Pfad Aufbereitung 
 
 
 </div>
@@ -381,7 +381,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Pfad Modifikation {#pfad_modifikation}
+### Pfad Modifikation 
 
 
 </div>
@@ -438,7 +438,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-## ToolBit architecture {#toolbit_architecture}
+## ToolBit architecture 
 
 Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
 

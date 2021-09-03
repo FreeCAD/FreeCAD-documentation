@@ -14,7 +14,7 @@
 
 **Sezione conica** è un pulsante icona <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:64px;"> nella barra degli strumenti delle geometrie dello Sketcher che raggruppa gli strumenti per creare le curve basate sulla sezione di un cono. Fare clic sulla freccia giù alla sua destra per espandere le icone sotto di esso e selezionare uno strumento.
 
-## Tipi di coniche {#tipi_di_coniche}
+## Tipi di coniche 
 
 -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellisse da centro](Sketcher_CreateEllipseByCenter/it.md) : Disegna un\'ellisse da punto centrale, punto su raggio maggiore e punto su raggio minore.
 -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Ellisse da tre punti](Sketcher_CreateEllipseBy3Points/it.md) : Disegna un\'ellisse da diametro maggiore (2 punti) e raggio minore.

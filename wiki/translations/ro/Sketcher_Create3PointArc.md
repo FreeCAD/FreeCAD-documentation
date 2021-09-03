@@ -11,7 +11,7 @@ Acest instrument desenează un arc de cerc definit prin 3 puncte: punctul de sta
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

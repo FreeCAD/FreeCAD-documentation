@@ -22,20 +22,20 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
 1.  Opcjonalnie wybierz jeden obiekt.
 2.  Istnieje kilka sposobów, aby wywołać to polecenie:
     -   Naciśnij przycisk **<img src="images/Draft_Offset.svg" width=16px> [Odsuń](Draft_Offset/pl.md)**.
-    -   Wybierz z menu opcję {{MenuCommand|Modifikacja → <img src="images/Draft_Offset.svg" width=16px> Odsunięcie}}.
+    -   Wybierz z menu opcję **Modifikacja → <img src="images/Draft_Offset.svg" width=16px> Odsunięcie**.
     -   Użyj skrótu klawiaturowego: **O**, a następnie **S**.
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
-4.  Otwiera się panel zadań {{MenuCommand|Odsunięcie}}. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
+4.  Otwiera się panel zadań **Odsunięcie**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 5.  Aby zdefiniować odległość przesunięcia, wykonaj jedną z poniższych czynności:
     -   Wybierz punkt w oknie [widoku 3D](3D_view/pl.md)
-    -   Upewnij się, że kursor znajduje się po właściwej stronie obiektu w oknie [widoku 3D](3D_view/pl.md) i wprowadź {{MenuCommand|Odległość}}.
+    -   Upewnij się, że kursor znajduje się po właściwej stronie obiektu w oknie [widoku 3D](3D_view/pl.md) i wprowadź **Odległość**.
 
 ## Opcje
 
 Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
--   Jeśli pole wyboru {{MenuCommand|Odsunięcie w stylu OpenCascade}} jest zaznaczone, używany jest specjalny styl odsunięcia: otwarte [polilinie](Draft_Wire/pl.md) są odsunięte po obu stronach, a nowe krawędzie są łączone z zaokrąglonymi rogami. Działa to tylko dla planarnych obiektów Rysunku roboczego z co najmniej dwoma prostymi krawędziami. Zauważ, że przy tym stylu tworzony jest nowy obiekt nieparametryczny, a jeśli tryb kopiowania jest wyłączony, oryginalny obiekt jest usuwany.
--   Naciśnij **P** lub kliknij pole wyboru {{MenuCommand|Copy}}, aby przełączyć tryb kopiowania. Jeśli tryb kopiowania jest włączony, polecenie utworzy kopię z przesunięciem zamiast przesunięcia oryginalnego obiektu.
+-   Jeśli pole wyboru **Odsunięcie w stylu OpenCascade** jest zaznaczone, używany jest specjalny styl odsunięcia: otwarte [polilinie](Draft_Wire/pl.md) są odsunięte po obu stronach, a nowe krawędzie są łączone z zaokrąglonymi rogami. Działa to tylko dla planarnych obiektów Rysunku roboczego z co najmniej dwoma prostymi krawędziami. Zauważ, że przy tym stylu tworzony jest nowy obiekt nieparametryczny, a jeśli tryb kopiowania jest wyłączony, oryginalny obiekt jest usuwany.
+-   Naciśnij **P** lub kliknij pole wyboru **Copy**, aby przełączyć tryb kopiowania. Jeśli tryb kopiowania jest włączony, polecenie utworzy kopię z przesunięciem zamiast przesunięcia oryginalnego obiektu.
 -   Przytrzymanie klawisza **Alt** przed wybraniem punktów w oknie [widoku 3D](3D_view/pl.md) również przełączy tryb kopiowania. Gdy klawisz **Alt** jest przytrzymany, można wybrać wiele punktów przesunięcia. Aby zakończyć polecenie i zobaczyć utworzone kopie, należy puścić klawisz **Alt**.
 -   Przytrzymaj klawisz **Shift**, aby zachować odległość przesunięcia związaną z bieżącym segmentem.
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
@@ -50,9 +50,9 @@ Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysu
 
 Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania odległości: {{MenuCommand|Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku}}.
+-   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania odległości: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 

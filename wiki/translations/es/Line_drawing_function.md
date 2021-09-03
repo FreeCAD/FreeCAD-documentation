@@ -16,7 +16,7 @@ Esta página muestra cómo se puede crear funcionalidades avanzadas con Python. 
 
 <div class="mw-translate-fuzzy">
 
-## El archivo de guión principal {#el_archivo_de_guión_principal}
+## El archivo de guión principal 
 
 En primer lugar vamos a escribir un archivo de guión que contenga toda nuestra funcionalidad. Después, vamos a guardar esto en un archivo, e importarlo en FreeCAD, así todas las clases y funciones que escribas estarán disponibles para FreeCAD. De modo que inicia tu editor de texto favorito y escribe las siguientes líneas:
 
@@ -55,7 +55,7 @@ class line:
 
 {{Top}}
 
-## Explicación detallada {#explicación_detallada}
+## Explicación detallada 
 
 
 ```python
@@ -284,7 +284,7 @@ Como ya hemos terminado con nuestra línea, vamos a quitar el mecanismo de devol
 
 <div class="mw-translate-fuzzy">
 
-## Pruebas y Uso del archivo de guión {#pruebas_y_uso_del_archivo_de_guión}
+## Pruebas y Uso del archivo de guión 
 
 Ahora, vamos a guardar nuestro archivo de guión en un lugar donde el intérprete de Python de FreeCAD lo encuentre. Cuando importa los módulos, el intérprete mirará en los siguientes lugares: las rutas de instalación de Python, el directorio bin de FreeCAD, y todos los directorios de módulos FreeCAD. Por lo tanto, la mejor solución es crear un nuevo directorio en una de los FreeCAD [Mod directories](Installing_more_workbenches/es.md), y salvar nuestro script en él. Por ejemplo, vamos a hacer un directorio \"MyScripts\", y salvamos nuestro script como \"exercise.py\".
 
@@ -353,7 +353,7 @@ A continuación, haz clic dos veces en la vista 3D, y \.... ¡bingo!, ¡aquí es
 
 <div class="mw-translate-fuzzy">
 
-## Incluyendo el archivo de guión en la interfaz de FreeCAD {#incluyendo_el_archivo_de_guión_en_la_interfaz_de_freecad}
+## Incluyendo el archivo de guión en la interfaz de FreeCAD 
 
 Ahora, para que nuestra nueva herramienta línea sea realmente buena, debe tener un botón en la interfaz, para que no sea necesario escribir todas estas cosas cada vez. La forma más fácil es transformar nuestro nuevo directorio MyScripts en un completo entorno de FreeCAD. Es fácil, todo lo que se necesita es poner un archivo llamado **InitGui.py** dentro de tu directorio MyScripts. El InitGui.py contendrá las instrucciones para crear un nuevo entorno (workbench), y le añadimos nuestra nueva herramienta. Además, también habrá que transformar un poco nuestro código del ejercicio, para que la herramienta line() sea reconocida como un comando oficial de FreeCAD. Comencemos por crear un archivo InitGui.py, y escribir el siguiente código en él:
 
@@ -443,7 +443,7 @@ Eso es todo, ahora sólo hay que reiniciar FreeCAD y tendremos un agradable ento
 
 {{Top}}
 
-## ¿Quieres más? {#quieres_más}
+## ¿Quieres más? 
 
 
 <div class="mw-translate-fuzzy">

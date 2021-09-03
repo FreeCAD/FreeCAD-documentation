@@ -47,7 +47,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 1.  Selezionare un nodo di una B-spline
 2.  Richiamare lo strumento usando uno di questi metodi:
     -   Premere il pulsante **<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:16px"> Aumenta la molteplicità del nodo** nella barra degli strumenti.
-    -   Usare la voce {{MenuCommand|Sketch → Strumenti B-spline → <img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:16px"> Aumenta la molteplicità del nodo}} dal menu principale.
+    -   Usare la voce **Sketch → Strumenti B-spline → <img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:16px"> Aumenta la molteplicità del nodo** dal menu principale.
 
 
 </div>

@@ -4,7 +4,7 @@
 
 Questo è un esempio di modifica dell\'icona di un [viewprovider](Viewprovider/it.md) personalizzato, che viene normalmente aggiunto agli [creati da script](scripted_objects/it.md).
 
-## Icona personalizzata nella vista combinata {#icona_personalizzata_nella_vista_combinata}
+## Icona personalizzata nella vista combinata 
 
 Ecco un esempio per creare un oggetto con proprietà e icona personalizzate nella Vista combinata
 

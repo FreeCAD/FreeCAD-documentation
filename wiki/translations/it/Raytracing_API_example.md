@@ -6,7 +6,7 @@ I moduli `Raytracing` e `RaytracingGui` forniscono diversi metodi per scrivere i
 
 I comandi più utili sono `Raytracing.getPartAsPovray()` e `Raytracing.getPartAsLux()` per rendere un oggetto Part di FreeCAD in una definizione povray o luxrender e `RaytracingGui.povViewCamera( )` e `RaytracinGui.luxViewCamera()` per ottenere il punto di vista corrente della finestra della vista 3D in formato povray o luxrender.
 
-## Emissione dei file di rendering {#emissione_dei_file_di_rendering}
+## Emissione dei file di rendering 
 
 Ecco come utilizzare le funzionalità tramite Python, supponendo che il documento contenga un oggetto \"Box\":
 
@@ -34,7 +34,7 @@ OutFile.close()
 del OutFile
 ```
 
-## Creare un oggetto render personalizzato {#creare_un_oggetto_render_personalizzato}
+## Creare un oggetto render personalizzato 
 
 Oltre agli oggetti di vista standard povray e luxrender che forniscono una vista di un oggetto Part esistente e che possono essere inseriti rispettivamente in progetti povray e luxrender, esiste un terzo oggetto, chiamato RaySegment, che può essere inserito in progetti povray o luxrender. L\'oggetto RaySegment non è collegato ad alcuno degli oggetti di FreeCAD e può contenere del codice povray o luxrender personalizzato, che può essere inserito in un progetto raytracing. Ad esempio, può essere usato per generare gli oggetti di FreeCAD in un certo modo, se non si è soddisfatti del modo standard. Dalla console di Python può essere creato e usato in questo modo:
 

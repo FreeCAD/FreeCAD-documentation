@@ -56,7 +56,7 @@ Les composants créés à l\'aide de Rocket Workbench sont essentiellement des p
 -   <img alt="" src=images/Rocket_Calculator.svg  style="width:32px;"> [Calcul poussée par rapport au poids](Rocket_Thrust_To_Weight_Calculator/fr.md) : Calcule la poussée moyenne minimale requise pour un vol en toute sécurité.
 -   <img alt="" src=images/Rocket_Calculator.svg  style="width:32px;"> [Calcul taille trou d\'évent](Rocket_Vent_Hole_Size_Calculator/fr.md) : Calculer la taille du trou d\'évent nécessaire pour les altimètres barométriques.
 
-## Tutoriels et apprentissage {#tutoriels_et_apprentissage}
+## Tutoriels et apprentissage 
 
 [Atelier Rocket de FreeCAD](https://youtube.com/playlist?list=PLIk8AsRj-ngQRr6uLD3DDJTBrLhJfF7eI) Liste de lecture des tutoriels sur YouTube
 

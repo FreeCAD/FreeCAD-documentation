@@ -2,7 +2,7 @@
 
 ![150](images/Crystal_Clear_app_tutorials.png )
 
-## Willkommen zur FreeCAD Online Hilfe {#willkommen_zur_freecad_online_hilfe}
+## Willkommen zur FreeCAD Online Hilfe 
 
 Dieses Dokument wurde automatisch aus den Inhalten der offiziellen FreeCAD wiki Dokumentation erstellt, welche online unter der [online/de Hauptseite](http://www.freecadweb.org/wiki/index.php?title=Main_Page) gelesen werden kann. Da das Wiki aktiv geführt, und ständig von den Entwicklern und Nutzern weiter entwickelt wird, kann es vorkommen, dass die online Version mehr und aktuellere Informationen als dieses Dokument enthält. Wir hoffen dennoch, dass Sie hier alle Informationen finden, die Sie brauchen. Falls Sie Fragen haben, die Sie mit diesem Dokument nicht beantworten können, schauen Sie in unser [FreeCAD Forum](http://forum.freecadweb.org/index.php) in dem unsere Community Ihre Fragen möglicherweise beantworten kann.
 

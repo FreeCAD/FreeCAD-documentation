@@ -35,7 +35,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Apăsați butonul **<img src="images/Draft_Arc.png" width=16px> [Draft Arc](Draft_Arc/ro.md)
 ** button, or press **A** sau apăsați tastele **A** apoi **R**
@@ -77,8 +77,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   If the {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available}} option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
+-   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 

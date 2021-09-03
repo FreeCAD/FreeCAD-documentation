@@ -23,7 +23,7 @@ Si veda [Parte](Std_Part/it.md) per maggiori informazioni riguardo questo tipo d
 
 ## Utilizzo
 
-Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si ritrova nella {{MenuCommand|barra degli strumenti struttura}}, che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md).
+Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si ritrova nella **barra degli strumenti struttura**, che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md).
 
 1.  Premere il pulsante **<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)**. Una Parte vuota viene creata e diventa automaticamente *[attiva](Std_Part/it#Stato_attivo.md)*.
 

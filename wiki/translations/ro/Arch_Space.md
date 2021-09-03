@@ -34,7 +34,7 @@ Instrumentul Spațiu vă permite să definiți un volum gol, fie bazându-l pe o
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -107,7 +107,7 @@ Instrumentul Spațiu vă permite să definiți un volum gol, fie bazându-l pe o
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

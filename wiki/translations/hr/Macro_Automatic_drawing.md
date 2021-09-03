@@ -24,7 +24,7 @@ Ona koristi [first-angle projection](http://en.wikipedia.org/wiki/Multiview_orth
 
 <div class="mw-translate-fuzzy">
 
-## Kako koristiti {#kako_koristiti}
+## Kako koristiti 
 
 Prije pokretanja makronaredbe treba odabrati objekt.
 

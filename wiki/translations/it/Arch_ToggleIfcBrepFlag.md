@@ -27,7 +27,7 @@ Questo strumento attiva o disattiva il contrassegno Ifc BREP di un oggetto [Arch
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un oggetto Arch.
-2.  Selezionare il pulsante **<img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px>** o il comando {{MenuCommand|Arch → Utilità → <img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px> [Attiva/Disattiva Ifc Brep](Arch_ToggleIfcBrepFlag/it.md)}} dal menu principale.
+2.  Selezionare il pulsante **<img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px>** o il comando **Arch → Utilità → <img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px> [Attiva/Disattiva Ifc Brep](Arch_ToggleIfcBrepFlag/it.md)** dal menu principale.
 
 
 </div>

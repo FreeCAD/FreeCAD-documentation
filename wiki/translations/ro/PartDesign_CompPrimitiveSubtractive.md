@@ -15,7 +15,7 @@
 
 Creează primitive geometrice substractive în corpul activ, extrăgându-le/scăzându-le forma din solidul existent.
 
-## Tipuri de primitive geometrice {#tipuri_de_primitive_geometrice}
+## Tipuri de primitive geometrice 
 
 
 <div class="mw-translate-fuzzy">

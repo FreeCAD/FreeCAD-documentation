@@ -23,17 +23,17 @@ Parts Library Selector
 
 ## Installazione
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 How to [here](https://github.com/FreeCAD/FreeCAD-library)
 
 The library is a simple container for FreeCAD (.fcstd) and STEP (.stp) files. You can download it anywhere and import its files in your FreeCAD projects. Inside the library, there is also a FreeCAD macro (PartsLibrary.FCMacro) that you can place in your FreeCAD macros folder. That macro creates a browser window inside FreeCAD, from which you can easily add the parts by double-clicking them.
 
-## Links to PartsLibrary workbench {#links_to_partslibrary_workbench}
+## Links to PartsLibrary workbench 
 
 -   Workbench Wiki:
 -   FreeCAD Wiki: [Macro PartsLibrary](http://www.freecadweb.org/wiki/index.php?title=Macro_PartsLibrary)
@@ -44,7 +44,7 @@ The library is a simple container for FreeCAD (.fcstd) and STEP (.stp) files. Yo
 -   Parts list, Author and Standardisation bodies: [sharing your models from the macro](https://github.com/FreeCAD/FreeCAD-library#sharing-your-models-from-the-macro)
 -   Report bugs: Please report bugs at <https://github.com/FreeCAD/FreeCAD-library/issues>
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [BOLTS WB](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts)
 -   [Fasteners WB](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners)

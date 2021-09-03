@@ -77,7 +77,7 @@ Drugi to wykonywanie czynności bezpośrednio na arkuszu Rysunku Technicznego. U
 2.  Naciśnij przycisk dymka <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;">.
 3.  Kursor jest teraz wyświetlany jako ikona dymka. Kliknij na stronie, aby umieścić początek dymka w żądanej pozycji.
 4.  Pęcherzyk dymka może być przeciągnięty w żądane miejsce.
-5.  Zmień właściwości dymka, klikając dwukrotnie etykietę dymka lub obiekt dymka w [widoku drzewa](Tree_view/pl.md). Spowoduje to otwarcie okna dialogowego **Zadanie dymka**. Ustaw pole **Wartość** na żądany tekst i zmień wybór z menu rozwijanego Symbol na {{MenuCommand|None}}.
+5.  Zmień właściwości dymka, klikając dwukrotnie etykietę dymka lub obiekt dymka w [widoku drzewa](Tree_view/pl.md). Spowoduje to otwarcie okna dialogowego **Zadanie dymka**. Ustaw pole **Wartość** na żądany tekst i zmień wybór z menu rozwijanego Symbol na **None**.
 6.  Naciśnij przycisk **OK**
 7.  Kontynuuj operację dla drugiego wywołania.
 
@@ -85,7 +85,7 @@ Drugi to wykonywanie czynności bezpośrednio na arkuszu Rysunku Technicznego. U
     -   Upewnij się, że ramki, etykiety i wierzchołki Widoku są widoczne. Jeśli nie, kliknij na przycisk przełączania <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;">.
     -   Edytuj tekst w każdej części bloku tytułowego arkusza, klikając na mały zielony kwadrat po lewej stronie tekstu.
 
-Nasza strona może być teraz eksportowana do formatu SVG w celu dalszej pracy w aplikacjach graficznych, takich jak [Inkscape](http://www.inkscape.org) lub DXF. W [widoku drzewa](tree_view/pl.md) wybierz stronę, a następnie opcję z menu {{MenuCommand|Plik → Eksport}}. Format DXF jest importowalny w prawie wszystkich istniejących aplikacjach 2D CAD. Strony TechDraw mogą być również bezpośrednio drukowane lub eksportowane do formatu PDF.
+Nasza strona może być teraz eksportowana do formatu SVG w celu dalszej pracy w aplikacjach graficznych, takich jak [Inkscape](http://www.inkscape.org) lub DXF. W [widoku drzewa](tree_view/pl.md) wybierz stronę, a następnie opcję z menu **Plik → Eksport**. Format DXF jest importowalny w prawie wszystkich istniejących aplikacjach 2D CAD. Strony TechDraw mogą być również bezpośrednio drukowane lub eksportowane do formatu PDF.
 
 **Do pobrania**
 

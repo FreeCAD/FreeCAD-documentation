@@ -5,13 +5,13 @@
 
  
 
-## Tool Page {#tool_page}
+## Tool Page 
 
 For every serious software development you need tools. Here is a list of tools we use to develop FreeCAD:
 
-### Platform independent tools {#platform_independent_tools}
+### Platform independent tools 
 
-#### Qt-Toolkit {#qt_toolkit}
+#### Qt-Toolkit 
 
 The Qt-toolkit is a state of the art, platform independent user interface design tool. It is contained in the [LibPack](Third_Party_Libraries.md) of FreeCAD, but can also be downloaded at [Qt project](http://qt-project.org/downloads).
 
@@ -23,7 +23,7 @@ This is a great vector drawing program. It adheres to the SVG standard and is us
 
 A very good and stable tool to generate source documentation from the .h and .cpp files.
 
-#### The Gimp {#the_gimp}
+#### The Gimp 
 
 Not much to say about the **GNU Image Manipulation Program**. It can manipulate .xpm files which is a very convenient way to handle Icons in QT programs. XPM is basically C-Code which can be compiled into a program. Gimp supports the free .png file format used in the wiki.
 
@@ -36,7 +36,7 @@ This is a proprietary git GUI that is very helpful to learn how git works if you
 -   [Gitkraken](Gitkraken.md)
 -   [Github](Github.md)
 
-#### OBS Studio {#obs_studio}
+#### OBS Studio 
 
 Free and open source software for video recording and live streaming. More details on official website : [obsproject.com](https://obsproject.com/)
 
@@ -50,9 +50,9 @@ A full featured but proprietary UML program. It has a lot of major features, inc
 
 Download here: [staruml.io](http://staruml.io)
 
-### Tools on Windows {#tools_on_windows}
+### Tools on Windows 
 
-#### Visual Studio Community {#visual_studio_community}
+#### Visual Studio Community 
 
 Visual Studio Community is free for open source projects and small structures. Installation is modular. You can add support for a large number of languages including C++ and Python.
 
@@ -64,7 +64,7 @@ Is an Open Source tool to record Screen-casts (Webcasts). It is a very good tool
 
 See [camstudio.org](http://camstudio.org/) for details.
 
-### Tools on Linux {#tools_on_linux}
+### Tools on Linux 
 
 TODO
 

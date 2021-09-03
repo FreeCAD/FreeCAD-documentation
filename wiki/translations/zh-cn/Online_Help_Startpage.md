@@ -2,7 +2,7 @@
 
 ![150](images/Crystal_Clear_app_tutorials.png )
 
-## 欢迎来到 FreeCAD 在线帮助 {#欢迎来到_freecad_在线帮助}
+## 欢迎来到 FreeCAD 在线帮助 
 
 
 <div class="mw-translate-fuzzy">

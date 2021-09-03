@@ -4,7 +4,7 @@
 
 In FreeCAD and in this documentation, an [addon](addon.md) is any component that is not part of the base installation, but that can be added to the system by certain methods.
 
-## Different types {#different_types}
+## Different types 
 
 There are roughly three types of addons:
 

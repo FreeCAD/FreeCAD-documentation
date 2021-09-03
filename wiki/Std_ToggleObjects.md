@@ -12,7 +12,7 @@ The **Std ToggleObjects** command toggles the visibility of all objects belongin
 
 ## Usage
 
-1.  Select the {{MenuCommand|View → Visibility → <img src="images/Std_ToggleObjects.svg" width=16px> Toggle all objects}} option from the menu.
+1.  Select the **View → Visibility → <img src="images/Std_ToggleObjects.svg" width=16px> Toggle all objects** option from the menu.
 
 ## Notes
 

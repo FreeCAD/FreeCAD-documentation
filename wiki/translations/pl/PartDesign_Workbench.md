@@ -23,7 +23,7 @@ Korpusy utworzone w PartDesign często podlegają [problemom nazewnictwa według
 
 Narzędzia Part Design znajdują się w menu **Part Design** oraz na pasku narzędzi *PartDesign*, który pojawia się po załadowaniu Środowiska pracy Part Design.
 
-### Narzędzia organizujące strukturę dokumentu {#narzędzia_organizujące_strukturę_dokumentu}
+### Narzędzia organizujące strukturę dokumentu 
 
 Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. Należą one do systemu [Std Base](Std_Base/pl.md). Zostały one opracowane w wersji **0.17** z zamiarem zorganizowania modelu i utworzenia [złożeń](Assembly.md). Jako takie, są bardzo przydatne przy pracy z bryłami stworzonymi przy pomocy tego stołu roboczego.
 
@@ -31,7 +31,7 @@ Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. N
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Utwórz nową grupę \...](Std_Group.md): dodaje do aktywnego dokumentu pozycję grupy, co pozwala uporządkować obiekty w [widoku drzewa](Tree_view/pl.md).
 
-### Narzędzia pomocnicze {#narzędzia_pomocnicze}
+### Narzędzia pomocnicze 
 
 -   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Stwórz nową zawartość \...](PartDesign_Body/pl.md): Tworzy obiekt [Body](Body.md) w aktywnym dokumencie i czyni go aktywnym.
 
@@ -41,9 +41,9 @@ Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. N
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Mapuj szkic na powierzchnię](Sketcher_MapSketch/pl.md): Mapuje szkic do wcześniej wybranej płaszczyzny lub ściany aktywnej bryły.
 
-### Narzędzia modelujące {#narzędzia_modelujące}
+### Narzędzia modelujące 
 
-#### Narzędzia odniesienia {#narzędzia_odniesienia}
+#### Narzędzia odniesienia 
 
 -   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Utwórz nowy punkt odniesienia](PartDesign_Point.md): tworzy punkt odniesienia w aktywnej części bryły. {{Version/pl|0.17}}
 
@@ -59,7 +59,7 @@ Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. N
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Stwórz nowego klona](PartDesign_Clone.md): tworzy klon wybranej bryły.
 
-#### Narzędzia dodawania nowych elementów {#narzędzia_dodawania_nowych_elementów}
+#### Narzędzia dodawania nowych elementów 
 
 Są to narzędzia do tworzenia podstawowych właściwości lub dodawania materiału do istniejącej bryły.
 
@@ -91,7 +91,7 @@ Są to narzędzia do tworzenia podstawowych właściwości lub dodawania materia
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Addytywny klin](PartDesign_AdditiveWedge.md): dodaje do aktywnej bryły dodatek w postaci klina.
 
-#### Narzędzia do usuwania kształtów {#narzędzia_do_usuwania_kształtów}
+#### Narzędzia do usuwania kształtów 
 
 Są to narzędzia do odejmowania materiału z istniejącej bryły.
 
@@ -125,7 +125,7 @@ Są to narzędzia do odejmowania materiału z istniejącej bryły.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Subtraktywny klin](PartDesign_SubtractiveWedge.md): dodaje do aktywnej bryły ubytek w kształcie klina.
 
-#### Narzędzia do przekształcania {#narzędzia_do_przekształcania}
+#### Narzędzia do przekształcania 
 
 Są to narzędzia służące do przekształcania istniejących właściwości. Pozwalają one na wybór cech przeznaczonych do przeprowadzenia przekształceń.
 
@@ -137,7 +137,7 @@ Są to narzędzia służące do przekształcania istniejących właściwości. P
 
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Utwórz szyk kołowy](PartDesign_MultiTransform.md): tworzy układ kołowy złożony z jednej lub więcej właściwości.
 
-#### Narzędzia do obróbki krawędzi {#narzędzia_do_obróbki_krawędzi}
+#### Narzędzia do obróbki krawędzi 
 
 Narzędzia te umożliwiają wykonanie określonej modyfikacji wybranych krawędzi lub powierzchni.
 
@@ -149,7 +149,7 @@ Narzędzia te umożliwiają wykonanie określonej modyfikacji wybranych krawędz
 
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Utwórz bryłę narzędziem grubość](PartDesign_Thickness.md): tworzy grubą powłokę z aktywnej bryły i powoduje otwarcie wybranych ścian.
 
-#### Narzędzia do przeprowadzania operacji logicznych {#narzędzia_do_przeprowadzania_operacji_logicznych}
+#### Narzędzia do przeprowadzania operacji logicznych 
 
 -   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Operacje logiczne](PartDesign_Boolean.md): importuje jedną lub więcej brył lub klonów PartDesign do aktywnego elementu i przeprowadza operację logiczną.
 
@@ -165,7 +165,7 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Twórca wałów](PartDesign_WizardShaft.md): tworzy wał z tabeli wartości i pozwala na analizę sił i momentów. Wał jest tworzony za pomocą szkicu obrotowego, który można edytować.
 
-### Pozycje w menu kontekstowym {#pozycje_w_menu_kontekstowym}
+### Pozycje w menu kontekstowym 
 
 -   <img alt="" src=images/_PartDesign_MoveTip.svg  style="width:32px;"> [Ustaw czubek](PartDesign_MoveTip.md): pozwala na przedefiniowanie czubka, który jest elementem eksponowanym na zewnątrz korpusu.
 
@@ -173,7 +173,7 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Przenieś obiekt za innym obiektem](PartDesign_MoveFeatureInTree.md): umożliwia zmianę kolejności obiektów drzewa zawartości poprzez przeniesienie wybranego szkicu, geometrii odniesienia lub elementu w inne miejsce na liście elementów.
 
-#### Pozycje współdzielone ze Środowiskiem pracy Part {#pozycje_współdzielone_ze_środowiskiem_pracy_part}
+#### Pozycje współdzielone ze Środowiskiem pracy Part 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Wygląd zewnętrzny](Std_SetAppearance.md): określa wygląd całej części *(przezroczystość kolor itp.)*.
 

@@ -76,7 +76,7 @@ These can be found in the {{FileName|/Mod/Path/Tools/Shape/}} subdirectory where
 7.  Revolve the sketch around the z-axis
 8.  Save the document as a new file in the Shape directory
 
-## Tool Thumbnail Images {#tool_thumbnail_images}
+## Tool Thumbnail Images 
 
 Toolbits will have a small icon image of the tool in the tree if the image is saved with thumbnails active.
 

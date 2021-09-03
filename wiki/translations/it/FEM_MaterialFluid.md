@@ -20,7 +20,7 @@ Aggiunge le proprietà del fluido ad una parte.
 
 <div class="mw-translate-fuzzy">
 
--   Cliccare su <img alt="" src=images/Fem-material-fluid.svg  style="width:32px;"> o scegliere {{MenuCommand|Modello → Materiali → **<img src="images/Fem-material-fluid.svg" width=16px> Materiale per fluido**}} dal menu.
+-   Cliccare su <img alt="" src=images/Fem-material-fluid.svg  style="width:32px;"> o scegliere **Modello → Materiali → **<img src="images/Fem-material-fluid.svg" width=16px> Materiale per fluido**** dal menu.
 -   Fai doppio clic sull\'oggetto **<img src="images/Fem-material-fluid.svg" width=16px> Materiale per fluido** creato
 
 ![](images/FEMMaterialFluidProperties.png )

@@ -12,7 +12,7 @@ Les versions plus anciennes : [0.12](Release_notes_012/fr.md) - [0.11](Release_n
 -   **Alignement** : deux formes peuvent être alignées l\'une contre l\'autre en saisissant jusqu\'à 3 points avec cet outil disponible dans le menu Édition.
 -   FreeCAD est maintenant disponible en 22 langues en plus de l\'anglais.
 
-## Module de mise en plan (Drawing) {#module_de_mise_en_plan_drawing}
+## Module de mise en plan (Drawing) 
 
 -   **Masque** : Un nouvel objet [Masque](Drawing_Clip/fr.md) permet de placer des objets à l\'intérieur de vues rectangulaires coupées, sur les pages de dessin.
 -   **Texte de cartouche éditable** : Lors de la conception d\'un [modèles de feuille](Drawing_templates/fr.md), il est maintenant possible d\'ajouter des textes éditables. Ces textes sont alors directement modifiables dans FreeCAD.
@@ -22,7 +22,7 @@ Les versions plus anciennes : [0.12](Release_notes_012/fr.md) - [0.11](Release_n
 -   **Exportation DXF** : il est maintenant possible d\'exporter une vue d\'une page directement au format DXF.
 -   Des correctifs de bogues permettent maintenant l\'impression des pages à l\'échelle.
 
-## Module esquisse (Sketcher) {#module_esquisse_sketcher}
+## Module esquisse (Sketcher) 
 
 -   *\' Création de point*\'
 
@@ -68,7 +68,7 @@ Les géométrie (points, lignes et courbes) peuvent être sélectionnés en fais
     -   Lors de la construction d\'une géométrie, une info-bulle s\'affiche à côté du curseur, donnant des informations sur la commande.
     -   L\'outil **Vue normale au plan d\'esquisse** fait maintenant partie de la barre d\'outil du module Sketcher pour un accès rapide.
 
-## Planche à dessin (module Draft) {#planche_à_dessin_module_draft}
+## Planche à dessin (module Draft) 
 
 -   **Mode Tâches** : le mode Tâches du module **Draft** est maintenant activé par défaut. N\'ayez pas peur, si vous aimiez la barre d\'outils, elle est toujours disponible dans les préférences paramètres Draft.
 -   **Importation DXF** : Désormais l\'importation de fichiers **.DXF** prend en charge les points (comprendre [Draft Point](Draft_Point/fr.md)) et les fils (comprendre ([Draft Wire](Draft_Wire/fr.md))).
@@ -88,7 +88,7 @@ Les géométrie (points, lignes et courbes) peuvent être sélectionnés en fais
 
 ![800px](images/013-draft-shape2dview.jpg)
 
-## Module architectural (Arch) {#module_architectural_arch}
+## Module architectural (Arch) 
 
 -   **Intégration du module Draft** : Les modules **Arch** et **Draft** sont désormais étroitement liés. Les outils **Arch** utilisent le [système d\'accochage Draft](Draft_Snap/fr.md), et tous les outils Draft sont présents dans l\'atelier **Arch**. Par ailleurs, si vous le souhaitez, vous pouvez aussi désactiver complètement le module Draft (Préférences → Draft → Masquer l\'établi Draft).
 -   **Nouvel outil Mur**\' : L\'outil [Mur](Arch_Wall/fr.md) a été grandement amélioré, et dispose désormais d\'un mode de dessin direct, qui est activé lorsque vous appuyez sur le bouton **Mur** sans objet sélectionné, ce qui vous permet de dessiner des murs comme de simples lignes. Quand vous ajoutez un mur à un mur existant, la connexion se fait automatiquement.
@@ -116,7 +116,7 @@ Les géométrie (points, lignes et courbes) peuvent être sélectionnés en fais
 
 -   **Objets Arch à partir de maillages** : Des [murs](Arch_Wall/fr.md) et [structures](Arch_Structure/fr.md) peuvent désormais être générés directement à partir de maillages, à condition qu\'ils soit fermés, solides et que toutes les arêtes soient [manifold](http://doc.spatial.com/index.php/Manifold_and_Non-manifold_Objects). Cela permet la transformation très rapide des géométries importées d\'autres applications telles que [Blender](http://www.blender.org) en objets Arch valides.
 
-## Module Pièce (Part) {#module_pièce_part}
+## Module Pièce (Part) 
 
 -   **Affiner la forme** est un nouvel outil qui nettoie les faces d\'une forme après des opérations booléennes multiples. Il peut être configuré pour s\'exécuter automatiquement après des opérations booléennes via les préférences.
 -   L**\'outil de lissage** permet d\'extruder un ensemble de surfaces complexes ou un solide à travers une série d\'esquisses ou d\'objets Draft.
@@ -125,7 +125,7 @@ Les géométrie (points, lignes et courbes) peuvent être sélectionnés en fais
 -   L**\'outil Évidement** permet d\'évider un solide en définissant une épaisseur de paroi et une ou plusieurs faces à défoncer.
 -   Le **Générateur de formes** et **Créer des primitives** font maintenant partie de la barre d\'outil Pièce pour un accès rapide.
 
-## Module Part Design {#module_part_design}
+## Module Part Design 
 
 -   Les fonctions **Protrusion** et **Cavité** bénéficient de nouveaux paramètres d\'extrusion : au dernier/au premier, jusqu\'à la face, 2 dimensions assymétriques par rapport au plan d\'esquisse, et symétrique au plan.
 -   Les fonctions **Chanfrein** et **Congé** permettent maintenant la sélection d\'une face : toutes les arêtes extérieures et intérieures seront traitées.
@@ -134,11 +134,11 @@ Les géométrie (points, lignes et courbes) peuvent être sélectionnés en fais
 -   Les nouvelles fonctions de transformation **Répétition linéaire**, **Répétition circulaire**, **Symétrie** et **Transformation multiple** permettent d\'aligner et de distribuer des protrusions ou des cavités sur un solide.
 -   Un **assistant de conception d\'arbres (Shaft design wizard)** vous aide à concevoir des arbres.
 
-## Module navire (Ship module) {#module_navire_ship_module}
+## Module navire (Ship module) 
 
 -   [Nouveau Module navire](FreeCAD-Ship_s60_tutorial/fr.md) (tutoriel)
 
-## Souris 3D {#souris_3d}
+## Souris 3D 
 
 -   Le support pour souris 3D (Spaceball, Space Navigator) a été ajouté à la version de Windows.
 -   Un nouvel onglet **Spaceball Motion** a été ajouté dans la boîte de dialogue **Personnaliser** pour affiner les paramètres de votre souris 3D comme vous le voulez, directement à partir de FreeCAD.
@@ -146,7 +146,7 @@ Les géométrie (points, lignes et courbes) peuvent être sélectionnés en fais
 
 <div class="mw-translate-fuzzy">
 
-## OpenSCAD module {#openscad_module}
+## OpenSCAD module 
 
 -   Ce tout nouveau module (expérimental) soutient les fonctions d\'importation des fichiers **OpenSCAD** dans FreeCAD. Ce format est très populaire dans la communauté **[RepRap](http://fr.wikipedia.org/wiki/RepRap)** et sur le site de partage de modèles 3D [Thingiverse](http://www.thingiverse.com/).
 -   Le script OpenSCAD peut être exécuté depuis FreeCAD, par OpenSCAD (s\'il est installé sur votre ordinateur), le résultat apparait dans votre document FreeCAD.

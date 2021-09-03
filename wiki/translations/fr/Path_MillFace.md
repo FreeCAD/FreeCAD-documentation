@@ -50,7 +50,7 @@ Cette opération contient une propriété {{PropertyData/fr|BoundaryShape}} qui 
 
 -   Étant donné que les outils de tracé fonctionnent uniquement sur la géométrie des arêtes/faces sélectionnées et ne se rapportent pas au reste du modèle 3D, les tracés ne dépasseront pas les limites du plan choisi, même s\'il est entouré de brut inutilisé ou d\'air. Cela laissera des coins non usinés. Ceux-ci peuvent parfois être supprimés avec l\'un des outils de rectification disponibles dans le menu *Path*.
 
-## Surfaçage de face verticale {#surfaçage_de_face_verticale}
+## Surfaçage de face verticale 
 
 -   Cet outil ne fonctionnera pas sur un **plan vertical** ou une surface verticale non plane. Les opérations verticales peuvent être réalisées en utilisant l\'outil de profil de face ou l\'outil de profil de bord. Ceux-ci nécessiteront la sélection d\'une face ou d\'une boucle fermée d\'arêtes \'\'incluant le bord supérieur ou inférieur de la surface verticale souhaitée \'\'. L\'étendue de la trajectoire peut alors être réduite à l\'aide de l\'outil *Boundary Dress-up* qui se trouve dans le menu *Path*. Avec l\'outil Dress-up, sélectionnez l\'option *Create Box* et réduisez la taille pour limiter la portée de la trajectoire du profil. Ces réglages ne permettent toutefois pas de déplacer l\'origine de la zone de contour. Cela doit être fait en ajustant les paramètres de placement dans la [vue en arborescence](Tree_view/fr.md).
 -   Cela fonctionnera sur des surfaces composées telles que plusieurs plans verticaux ou surfaces cylindriques assemblées reliées entre elles, à condition qu\'elles forment une surface continue.
@@ -79,16 +79,16 @@ Empty
 
 </div>
 
-### Data Tab {#data_tab}
+### Data Tab 
 
 #### Base
 
 
 <div class="mw-translate-fuzzy">
 
-### Onglet Données {#onglet_données}
+### Onglet Données 
 
-#### Base {#base_1}
+#### Base 
 
 Remarque : Il est suggéré de ne pas modifier la propriété Placement des opérations de trajectoire. Déplacez ou faites plutôt pivoter le modèle d\'opération de trajectoire selon les besoins.
 
@@ -214,7 +214,7 @@ Remarque : Il est suggéré de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Reverse Direction}}: Inverse l\'orientation de l\'opération de 180 degrés.
 
-#### Point de départ {#point_de_départ}
+#### Point de départ 
 
 -    {{PropertyData/fr|Start Point}}: point de départ personnalisé pour le chemin de cette opération.
 
@@ -238,7 +238,7 @@ Remarque : Il est suggéré de ne pas modifier la propriété Placement des opé
 
 <div class="mw-translate-fuzzy">
 
-### Onglet Vue {#onglet_vue}
+### Onglet Vue 
 
 Vide
 

@@ -190,7 +190,7 @@ else:
 -   Ne traitez qu\'un croquis à la fois
 -   Travaillez uniquement sur des objets d\'esquisse
 
-### Discussion sur le forum {#discussion_sur_le_forum}
+### Discussion sur le forum 
 
 Pour tout commentaire (bug, demande de fonctionnalité, commentaires, \...), veuillez utiliser ce fil de discussion : [(FR) macro to remap sketch to different reference](https://forum.freecadweb.org/viewtopic.php?f=22&t=36078)
 

@@ -93,11 +93,11 @@ FreeCADには独自の [トラッカー要約ページ](https://sourceforge.net/
 
 If you have created a git branch containing changes that you would like to see merged into the FreeCAD code, you can ask there to have your branch reviewed and merged if the FreeCAD developers are OK with it. You must first publish your branch to a public git repository (github, gitlab, bitbucket, sourceforge etc\...) and then give the URL of your branch in your merge request.
 
-## MantisBT Tips and Tricks {#mantisbt_tips_and_tricks}
+## MantisBT Tips and Tricks 
 
 近年、sourceforgeプラットフォームにより、プロジェクトのバグトラッカーアプリケーション[mantis bug tracker](http://www.mantisbt.org/) が作られ、FreeCADは、古いビルトインのバグトラッカーの代わりに、現在このバグトラッカーを使っています。
 
-### MantisBT BBCode {#mantisbt_bbcode}
+### MantisBT BBCode 
 
 In addition to the above [MantisBT Markup](Tracker#MantisBT_Markup.md) one also has the possibility to use BBCode format. For a comprehensive list see the [BBCode plus plugin page](https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags). Here is a list of supported BBCode tagsː 
 [img][/img] - Images
@@ -139,13 +139,13 @@ In addition to the above [MantisBT Markup](Tracker#MantisBT_Markup.md) one also 
 
 <img alt="" src=images/mantisbt-source-integration-markup.jpg  style="width:600px;"> 
 
-## GitHub and MantisBT {#github_and_mantisbt}
+## GitHub and MantisBT 
 
 The FreeCAD bugtracker has a plug-in called [Source Integration](https://github.com/mantisbt-plugins/source-integration) which essentially ties both the FreeCAD GitHub repo to our MantisBT tracker. It makes it easier to track and associate git commits with their respective MantisBT tickets. **The Source Integration plugin scans the git commit messages for specific keywords in order to execute the following actions:**
 
 **Note** The below keywords need to be added in the git commit message and not the PR subject
 
-### Remotely referencing a ticket {#remotely_referencing_a_ticket}
+### Remotely referencing a ticket 
 
 Using this pattern will automagically associate a git commit to a ticket (**Note:** this will not close the ticket.) The format MantisBT will recognize:
 
@@ -159,7 +159,7 @@ Using this pattern will automagically associate a git commit to a ticket (**Note
 For the inquisitive here is the regex MantisBT uses for this operation:
 
 
-### Remotely resolving a ticket {#remotely_resolving_a_ticket}
+### Remotely resolving a ticket 
 
 The format MantisBT will recognize:
 

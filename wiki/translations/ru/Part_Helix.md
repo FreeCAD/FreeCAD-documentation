@@ -27,7 +27,7 @@
 1.  Переключитесь на <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [верстак Part](Part_Workbench/ru.md).
 2.  Диалог Создания Примитивов доступен несколькими способами:
     -   Нажмите на кнопку **<img src=images/Part_Primitives.svg style="width:16px"> [Примитивы](Part_Primitives/ru.md)** на панели команд Деталь.
-    -   Используйте меню {{MenuCommand|Деталь → <img src=images/Part_Primitives.svg style="width:16px"> [Создать примитивы...](Part_Primitives/ru.md) → Спираль(Helix)}}
+    -   Используйте меню **Деталь → <img src=images/Part_Primitives.svg style="width:16px"> [Создать примитивы...](Part_Primitives/ru.md) → Спираль(Helix)**
 
 
 </div>

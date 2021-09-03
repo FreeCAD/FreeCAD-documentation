@@ -22,7 +22,7 @@ Il comando **Importa** importa la geometria da un diverso formato di file nel do
 <div class="mw-translate-fuzzy">
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Selezionare l\'opzione {{MenuCommand|File → Importa...}} dal menu.
+    -   Selezionare l\'opzione **File → Importa...** dal menu.
     -   Usare la scorciatoia da tastiera: **Ctrl**+**I**.
 2.  Facoltativamente, selezionare il formato file corretto nella finestra di dialogo.
 3.  Selezionare un file.

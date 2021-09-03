@@ -45,7 +45,7 @@ There are standalone programs for both of these applications but their installat
 
 1.  Go to the CSC binaries resources for Elmer: [binaries](https://www.nic.funet.fi/pub/sci/physics/elmer/bin/) OR [CSC binaries](https://www.csc.fi/web/elmer/binaries)
 2.  Download and install the version best suited to your Operating System ([Windows 64](https://www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) bits or [Linux](https://www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt))
-3.  In FreeCAD go to {{MenuCommand|Edit → Preferences → FEM → Elmer}}
+3.  In FreeCAD go to **Edit → Preferences → FEM → Elmer**
 4.  Link the correct path for both `ElmerGrid` and `ElmerSolver`
 
     :   ![Elmer Tab in FEM Preferences](images/Preferences-ElmerPath.png )
@@ -77,7 +77,7 @@ You are ready to use Elmer in FreeCAD.
 7.  Click **Write** to write the case files in the directory selected previously
 8.  Click **Run** to start the analysis
 
-### About Equations {#about_equations}
+### About Equations 
 
 -   To perform the analysis of a particular physical behavior, an Equation must be used (Flow, Heat, Electrostatics\...)
 -   Disambiguation: The term *Equation* is used in FreeCAD to describe the different physical mechanisms, the term *Solver* is used in all Elmer documents. Thus when using in FreeCAD the \"Flow Equation\", in reality Elmer uses the \"Flow Solver\" to find a solution to the Navier-Stokes equation.

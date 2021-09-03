@@ -25,7 +25,7 @@ Utiliza el [Sistema de representación europeo](http://en.wikipedia.org/wiki/Mul
 
 <div class="mw-translate-fuzzy">
 
-## Cómo se utiliza {#cómo_se_utiliza}
+## Cómo se utiliza 
 
 Es necesario seleccionar un objeto antes de ejecutar la macro.
 

@@ -41,7 +41,7 @@ Se você gostaria de saber como começou o desenvolvimento de FreeCADa anos atr�
 
 Se tiver alguma informação que gostaria que aparecesse aqui, porque não contribuir a ajudar este manual a crescer? É fácil escrever páginas wiki, a página [This page](Help:Editing.md) vai ajudá-lo a começar. \_\_NOTOC\_\_
 
-## Usando o FreeCAD {#usando_o_freecad}
+## Usando o FreeCAD 
 
 
 </div>
@@ -66,7 +66,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-### Programa Básico {#programa_básico}
+### Programa Básico 
 
 
 </div>
@@ -146,7 +146,7 @@ Power users have written various [macros](macros.md) to enhance FreeCAD with mor
 
 Since FreeCAD 0.17, many macros can be installed using the [Addon Manager](Std_AddonMgr.md). For a list of the macros refer to the [Macros recipes](Macros_recipes.md) page. For manual installation see [How to install macros](How_to_install_macros.md).
 
-### External workbenches {#external_workbenches}
+### External workbenches 
 
 When many macros or functions are developed together, and are organized in toolbars and menus, they can become a new workbench.
 
@@ -164,7 +164,7 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 </div>
 
-## Ajuda Online {#ajuda_online}
+## Ajuda Online 
 
 
 <div class="mw-translate-fuzzy">

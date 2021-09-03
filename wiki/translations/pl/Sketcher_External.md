@@ -23,7 +23,7 @@ Ostrzeżenie: użycie tego narzędzia do łączenia z wygenerowaną geometrią *
 -   Wybierz krawędź lub wierzchołek, do którego chcesz łączyć w szkicu.
 -   Naciśnij klawisz Esc lub wybierz inne narzędzie, aby zatrzymać importowanie geometrii do szkicu.
 
-### Zasady wyboru {#zasady_wyboru}
+### Zasady wyboru 
 
 -   Tylko krawędzie i wierzchołki z obiektów z tego samego układu współrzędnych są dozwolone.
 
@@ -37,21 +37,21 @@ Oznacza to, że nie można łączyć się z Kieszenią wykonaną za pomocą tego
 
 Szkic nie musi znajdować się na żadnej ścianie, aby móc korzystać z tego narzędzia. Łącza bezpośrednio między szkicami są możliwe i zalecane, ponieważ są one bardziej niezawodne.
 
-### Wygląd po pomyślnym Łączeniu {#wygląd_po_pomyślnym_łączeniu}
+### Wygląd po pomyślnym Łączeniu 
 
 Gdy krawędź zostanie pomyślnie połączona, zostanie na nią nałożona linia *(domyślnie w kolorze magenty, wierzchołki będą czerwone)*, która będzie widoczna w szkicu tylko wtedy, gdy szkic jest w trybie edycji.
 
-### Podobieństwo do Linii Konstrukcyjnych {#podobieństwo_do_linii_konstrukcyjnych}
+### Podobieństwo do Linii Konstrukcyjnych 
 
 Linie geometrii zewnętrznej *(domyślnie w kolorze magenta)* są podobne *(domyślny kolor niebieski)* do [linii konstrukcyjnych](Sketcher_ToggleConstruction/pl.md) z tą różnicą, że linie geometrii zewnętrznej w kolorze magenta są parametrycznie połączone z elementem bryły, na której szkic jest mapowany. Geometria konstrukcyjna stanowi linie, które są liniami wewnętrznymi w szkicu i są widoczne tylko wtedy, gdy szkic znajduje się w trybie edycji, i będą używane tylko jako referencje wiązań, a nie bezpośrednio do późniejszych operacji na bryłach, takich jak Wyciągnięcie czy Kieszeń.
 
-### Użycie Geometrii Zewnętrznej podczas pracy w Środowisku Projekt Części {#użycie_geometrii_zewnętrznej_podczas_pracy_w_środowisku_projekt_części}
+### Użycie Geometrii Zewnętrznej podczas pracy w Środowisku Projekt Części 
 
 Podczas pracy w środowisku Projekt Części, narzędzie Geometria Zewnętrzna jest używane do pomocy w pozycjonowaniu konstruowanej bryły w stosunku do poprzedniego etapu jej budowy. Środowisko Projekt Części jest przeznaczone do tworzenia pojedynczej bryły, dlatego te szkice w połączeniu z geometrią zewnętrzną są używane do tworzenia nowych cech tej samej bryły.
 
 Geometria zewnętrzna może być na przykład użyta jako odniesienie dla wiązania używanego w celu umieszczenia otworu na obiekcie w określonym miejscu względem krawędzi lub wierzchołka tego obiektu.
 
-### Użycie Geometrii Zewnętrznej podczas pracy w Środowisku Część {#użycie_geometrii_zewnętrznej_podczas_pracy_w_środowisku_część}
+### Użycie Geometrii Zewnętrznej podczas pracy w Środowisku Część 
 
 Można użyć dowolnej geometrii środowiska Część, która znajduje się w układzie współrzędnych szkicu. Zaleca się łączenie z najwcześniejszą możliwą cechą, ponieważ tworzy to bardziej stabilne połączenie.
 

@@ -4,7 +4,7 @@
 
 <img alt="Wczesny FreeCAD, wersja nieznana" src=images/Screenshot_mesh.jpg  style="width:300px;"> <img alt="FreeCAD w wersji 0.7 z 2009 roku" src=images/Part_BooleanOperations.png  style="width:300px;">
 
-## Jak to się wszystko zaczęło {#jak_to_się_wszystko_zaczęło}
+## Jak to się wszystko zaczęło 
 
 Początki programu FreeCAD sięgają stycznia 2001 roku, kiedy [Jürgen Riegel](User:Jriegel.md) rozpoczął pracę nad projektem **Cas.CADE**. Cas.CADE był komercyjnym szkieletem programistycznym, który zawierał [jądro modelowania geometrycznego](Glossary#Geometric_modeling_kernel.md) *(lub jądro CAD)*: został on wydany na licencji open source w 2000 roku i przemianowany na [OpenCASCADE](OpenCASCADE/pl.md). Umożliwiło to realizację otwartego programu CAD 3D, ponieważ zaprogramowanie jądra CAD od podstaw wymagałoby ogromnego nakładu pracy.
 
@@ -20,7 +20,7 @@ Projekt został ogłoszony publicznie na [Forum OpenCascade](https://dev.opencas
 {{Quote|text=''Cześć wszystkim, nazywam się Juergen Riegel i dzisiaj chcę ogłosić projekt OpenCasCade, FreeCAD. Jest to Open Source CAx RAD oparty na OpenCasCade, QT i Pythonie. Posiada kilka kluczowych koncepcji, takich jak nagrywanie makr, środowiska pracy, możliwość działania jako serwer i jako dynamicznie ładowane rozszerzenie aplikacji, i jest zaprojektowany jako niezależny od platformy... Mimo, że jest we wczesnej fazie i nie nadaje się do użytku dla użytkowników ani programistów - pierwsze wydanie dla użytkowników jest planowane na koniec 2003 roku - chciałbym uzyskać kilka opinii na temat kierunku i projektowania FreeCAD. GUI jest prawie skończone i teraz my, mój współtwórca Werner Mayer i ja, zaczęliśmy dodawać pierwsze funkcje CAD. FreeCAD może być postrzegany jako mechaniczny system CAD ogólnego przeznaczenia, ale myślę, że jego pierwszymi odbiorcami będą programiści CAx, którzy potrzebują podstaw do własnego rozwoju''.
 |sign=[Jürgen Riegel](User:Jriegel.md)|source=''[https://dev.opencascade.org/content/announcing-freecad-project Ogłoszenie projektu FreeCAD w niedzielę, 08/17/2003 - 19:23]''}}
 
-### Werner Mayer {#werner_mayer}
+### Werner Mayer 
 
 Werner Mayer dołączył do projektu jak tylko został on ogłoszony jako projekt open source *(przed ogłoszeniem projekt był prywatnym projektem Jürgena)*. Zobacz ten post na forum od Wernera w języku niemieckim: <https://forum.freecadweb.org/viewtopic.php?f=13&t=40235&start=10#p342330>
 
@@ -57,7 +57,7 @@ Z czasem projekt nabrał rozmachu i dołączyli do niego nowi kluczowi współpr
 
 *(Zobacz ten post od Wernera na forum [Re: FreeCAD History](https://forum.freecadweb.org/viewtopic.php?f=8&t=47703#p411612))*
 
-### Yorik dołącza do projektu {#yorik_dołącza_do_projektu}
+### Yorik dołącza do projektu 
 
 Użytkownik [Yorik van Havre](User:Yorik.md) dołączył do projektu w 2008 roku i rozpoczął pracę nad [Rysunek Roboczy](Draft_Workbench/pl.md). Do tego momentu nie było możliwości tworzenia geometrii 2D poprzez [GUI](Glossary/pl#GUI.md). Moduł ten został zaprogramowany w całości w środowisku Python, a nie w C++ *(podstawowy język programowania używany w FreeCAD)*. Nowe środowisko pracy Rysunek Roboczy udowodniło, że integracja Pythona jest sukcesem i może być użyta do rozszerzenia lub dostosowania możliwości programu FreeCAD. Oprócz pracy nad środowiskiem Rysunek Roboczy, Yorik pracował nad rozszerzeniem dokumentacji programu FreeCAD i stał się de facto \"dyrektorem artystycznym\" FreeCAD, tworząc wiele ikon dla GUI programu FreeCAD i [definiując jego styl](Artwork/pl.md).
 
@@ -67,7 +67,7 @@ Wersja 0.8 wydana w lipcu 2009 roku zawierała kilka nowych elementów w module 
 
 Pod koniec 2009 roku, FreeCAD został zaakceptowany jako pakiet Debiana w repozytoriach Debiana. FreeCAD został dodany do repozytoriów Ubuntu 10.04 w 2010 roku.
 
-### Projekt jest kontynuowany {#projekt_jest_kontynuowany}
+### Projekt jest kontynuowany 
 
 Wersja 0.10 została wydana w lipcu 2010 roku i wprowadziła środowisko pracy [Szkicownik](Sketcher_Workbench/pl.md), oparte na Sketchsolve, solverze opartym na wiązaniach do tworzenia geometrii 2D. Pierwsza wersja była ograniczona do tworzenia prostokątów i linii.
 
@@ -77,11 +77,11 @@ Wersja 0.11 została wydana w maju 2011 i wprowadziła nowe narzędzie do projek
 
 Wersja 0.12 została wydana w styczniu 2012 i zawierała bardziej kompletne środowisko pracy Szkicownik. Zawierała całkowicie przepisany solver, FreeGCS. Był to rezultat miesięcy pracy głównych programistów FreeCAD wraz z nowicjuszami logari81 *(który zaprogramował solver)* i mrlukeparry. Dodano więcej narzędzi do środowiska pracy Projekt Części.
 
-## Powiększenie zespołu deweloperów rdzenia {#powiększenie_zespołu_deweloperów_rdzenia}
+## Powiększenie zespołu deweloperów rdzenia 
 
 W kwietniu 2019 roku zespół core developerów został powiększony: Jürgen, Werner i Yorik zostali wsparci przez Abdullaha, Bernda, sliptonic i WandererFan
 
-## Ciekawe posty na forum {#ciekawe_posty_na_forum}
+## Ciekawe posty na forum 
 
 -   o PartDesignNext i innych decyzjach projektowych: <https://forum.freecadweb.org/viewtopic.php?f=8&t=34923&start=130#p297074>
 -   o historii forum: <https://forum.freecadweb.org/viewtopic.php?f=8&t=7448&start=200#p287106>
@@ -93,7 +93,7 @@ W kwietniu 2019 roku zespół core developerów został powiększony: Jürgen, W
 -   o historii MES: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48646#p416389>
 -   o historii MES mesher: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48733#p417627>
 
-## Historia wydania {#historia_wydania}
+## Historia wydania 
 
 #### Przegląd
 
@@ -132,7 +132,7 @@ W kwietniu 2019 roku zespół core developerów został powiększony: Jürgen, W
           Stara wersja
           
 
-## Linki zewnętrzne {#linki_zewnętrzne}
+## Linki zewnętrzne 
 
 -   [Sekcja plików SourceForge](http://sourceforge.net/projects/free-cad/files/)
 -   [Sekcja starych plików SourceForge](http://sourceforge.net/projects/free-cad/files/OldFiles/)

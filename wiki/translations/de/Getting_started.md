@@ -26,7 +26,7 @@ Siehe auch:
 
 Beginne damit, FreeCAD herunter zu laden und zu installieren. Für Informationen zu aktuellen Versionen und Installationsanweisungen für dein Betriebssystem lese die Seiten [Herunterladen](Download/de.md), ([Windows](Installing_on_Windows/de.md), [Linux](Installing_on_Linux/de.md) oder [Mac](Installing_on_Mac/de.md)). Es gibt fertige Installationspakete für Windows (.msi), Debian und Ubuntu (.deb), openSUSE (.rpm) und Mac OSX. FreeCAD ist über die Paketmanager vieler anderer Linux Distributionen verfügbar. Eine eigenständige, ausführbare [AppImage](AppImage/de.md) Datei ist ebenfalls verfügbar, die auf den meisten aktuellen 64-Bit-Linux-Systemen läuft. Da FreeCAD Open-Source ist, kannst du den Quellcode herunterladen und [kompilieren](Compiling/de.md).
 
-## Erkunden der Oberfläche {#erkunden_der_oberfläche}
+## Erkunden der Oberfläche 
 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;"> 
 *Standard FreeCAD Oberfläche in 0.19.*
@@ -56,7 +56,7 @@ Wenn FreeCAD zum ersten Mal gestartet wird, wird das Startzentrum angezeigt. So 
 
 Das Startzentrum ermöglicht, schnell zu einer der gängigsten Arbeitsbereiche zu gelangen, eine der letzten Dateien zu öffnen oder die neuesten Nachrichten aus der FreeCAD Welt zu sehen. Du kannst die Standard Arbeitsbereich unter [Einstellungen](Preferences_Editor/de.md) ändern.
 
-## Navigation im 3D Raum {#navigation_im_3d_raum}
+## Navigation im 3D Raum 
 
 FreeCAD bietet vier verschiedene [Navigationsmodi](Mouse_navigation/de.md), die sich durch die Art und Weise der Objektinteraktion in der Ansicht und der 3D Ansicht unterscheiden. Einer dieser Modi ist speziell für [Touchpads](Mouse_navigation/de#Touchpad_Navigation.md) ausgelegt, bei dem die mittlere Maustaste nicht genutzt wird. Die nachstehende Tabelle beschreibt den standardmäßig eingestellten Modus **CAD Navigation** (Sie können den aktuellen Navigationsmodus über das Menü umschalten, das Sie durch einen Rechtsklick in einen leeren Bereich erhalten):
 
@@ -93,7 +93,7 @@ Benutzer, die die Maus mit der rechten Hand benutzen, können diese Methode einf
 
 Es stehen mehrere Ansichtsvoreinstellungen (beispielsweise Draufsicht, Frontansicht, usw.) im Ansichtsmenü, auf der Ansichtssymbolleiste und über Tastenkürzel (**1**, **2**, usw.) zur Verfügung. Mit einem Rechtsklick auf ein Objekt oder den Leerbereich der Ansicht steht ein schneller Zugriff auf allgemeine Vorgänge zur Verfügung, beispielsweise um eine bestimmte Ansicht oder ein Objekt in der Baumansicht auszuwählen.
 
-## Erste Schritte mit FreeCAD {#erste_schritte_mit_freecad}
+## Erste Schritte mit FreeCAD 
 
 Das Hauptaugenmerk von FreeCAD besteht darin, Ihnen zu ermöglichen, hochpräzise 3D Modelle zu erstellen, deren Eigenschaften Sie weiterhin genau kontrollieren (durch die Möglichkeit, in der Modellhistorie zurück zu gehen, und Parameter anpassen zu können) und gegebenenfalls auch die Fertigung dieser Modelle (mittels 3D Druck, CNC Fräsen oder sogar bei Bauwerken). Es unterscheidet sich daher sehr von einigen anderen 3D Anwendungen, die für andere Einsatzzwecke wie z.B. Erstellen von Animationsfilmen oder Spielen programmiert wurden. Die Lernkurve von FreeCAD kann sehr steil sein, besonders wenn es Ihr erster Kontakt mit dem 3D Modellieren ist. Falls Sie an einigen Stellen nicht mehr weiter kommen, vergessen Sie nicht, dass es eine freundliche Community von Nutzern unter [FreeCAD forum](http://forum.freecadweb.org/index.php) gibt, welche Ihnen schnell weiter helfen kann.
 
@@ -101,7 +101,7 @@ Welchen Arbeitsbereich du in FreeCAD anfängst zu verwenden, hängt von der Art 
 
 Sie können den Arbeitsbereich jederzeit wechseln und [modifizieren](Interface_Customization/de.md), um beispielsweise Werkzeuge anderer Arbeitsbereiche einzufügen.
 
-## Arbeiten mit den PartDesign und Skizzierer Arbeitsbereichen {#arbeiten_mit_den_partdesign_und_skizzierer_arbeitsbereichen}
+## Arbeiten mit den PartDesign und Skizzierer Arbeitsbereichen 
 
 Der Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) wurde für das Erstellen von komplexen Objekten entwickelt. Beginnend mit einfachen Grundkörpern können beliebige andere Körper hinzugefügt oder ausgeschnitten werden (\"Merkmale\" genannt), bis das Modell der eigenen Vorstellung entspricht. Alle dabei verwendeten Merkmale werden im [Modellbaum](Document_structure/de.md) angezeigt. Man kann sich das mit *PartDesign* erstellte Objekt als eine Folge von Operationen vorstellen, die sich auf das Ergebnisobjekt der jeweils letzten Operation beziehen und somit eine lange Kette bilden. Im Modellbaum ist das fertige Objekt zu sehen, doch die Hierarchie kann aufgeklappt werden, um vorherige Zustände abzurufen oder die Parameter der Merkmale und Operationen nachträglich zu verändern, wobei das Endergebnis automatisch aktualisiert wird.
 
@@ -125,7 +125,7 @@ Das Ergebnis dieser Prozedur könnte beispielsweise wie folgt aussehen:
 
 Die Skizzen können jederzeit ausgewählt und geändert werden, wobei das Endergebnis automatisch aktualisiert wird. Dasselbe gilt auch für die Einstellungen der Operationen *Aufpolsterung* und *Tasche*.
 
-## Arbeiten mit den Arbeitsbereichen Draft und Arch {#arbeiten_mit_den_arbeitsbereichen_draft_und_arch}
+## Arbeiten mit den Arbeitsbereichen Draft und Arch 
 
 Die Arbeitsbereiche [Draft](Draft_Werkbench/de.md) und [Arch](Arch_Workbench/de.md) verhalten sich etwas anders als die zuvor beschriebenen Arbeitsbereiche, obwohl sie denselben Regeln folgen, die überall in FreeCAD gelten. Kurz gesagt: Während die Arbeitsbereiche *Sketcher* und *PartDesign* für die Konstruktion von einzelnen komplexen Objekten ausgelegt sind, wurden *Draft* und *Arch* darauf optimiert, die Arbeit mit vielen einfachen Objekten gleichzeitig zu erleichtern.
 
@@ -149,7 +149,7 @@ Das Ergebnis könnte folgendermaßen aussehen:
 
 Mehr dazu auf der Seite [Tutorials](Tutorials/de.md).
 
-## Erweiterungen, Makros und externe Arbeitsbereiche {#erweiterungen_makros_und_externe_arbeitsbereiche}
+## Erweiterungen, Makros und externe Arbeitsbereiche 
 
 Freecad bietet als Open-Source-Software die Möglichkeit, seine Arbeitsbereiche mit Erweiterungen zu ergänzen.
 
@@ -164,7 +164,7 @@ Es gibt zwei Arten von Erweiterungen:
 
 Und schließlich ist eine der leistungsfähigsten Funktionen von FreeCAD die [scripting](scripting/de.md) Umgebung. Von der integrierten Python-Konsole (oder von jedem anderen externen Python Skript) aus kann auf fast jeden Teil von FreeCAD zugegriffen, Geometrien erstellt oder geändert werden, die Darstellung dieser Objekte in der 3D Szene geändert oder auf die FreeCAD Oberfläche zugegriffen und diese modifiziert werden. Python Skriptsprache kann auch in [Makros](macros/de.md) verwendet werden, die eine einfache Methode zur Erstellung benutzerdefinierter Befehle bietet.
 
-## Was neu ist {#was_neu_ist}
+## Was neu ist 
 
 -   Siehe [Funktionsübersicht](Feature_list/de#Release_notes.md) für eine detaillierte Liste der Leistungsmerkmale.
 

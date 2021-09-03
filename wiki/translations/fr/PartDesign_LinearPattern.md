@@ -44,30 +44,30 @@ Pour ajouter ou supprimer des fonctionnalités d\'un modèle existant :
 
 Lors de la création d\'une répétition linéaire, la boîte de dialogue \'Paramètres de la répétition linéaire\' offre différentes manières de spécifier la direction de la répétition.
 
-#### Axe d\'esquisse horizontal {#axe_desquisse_horizontal}
+#### Axe d\'esquisse horizontal 
 
 Utilise l\'axe horizontal de l\'esquisse comme direction.
 
-#### Axe d\'esquisse vertical {#axe_desquisse_vertical}
+#### Axe d\'esquisse vertical 
 
 Utilise l\'axe vertical de l\'esquisse comme direction.
 
-#### Axe normal à l\'esquisse {#axe_normal_à_lesquisse}
+#### Axe normal à l\'esquisse 
 
 
 {{VersionPlus/fr|0.17}}
 
 Utilise l\'axe normal à l\'esquisse comme direction.
 
-#### Sélectionnez une référence\... {#sélectionnez_une_référence...}
+#### Sélectionnez une référence\... 
 
 Vous permet de sélectionner une ligne de référence, l\'arête d\'un objet ou une ligne d\'une esquisse comme direction.
 
-#### Axe d\'esquisse personnalisé {#axe_desquisse_personnalisé}
+#### Axe d\'esquisse personnalisé 
 
 Si l\'esquisse qui définit la fonction à répéter contient également une ou plusieurs ligne(s) de construction, alors la liste déroulante contiendra un axe d\'esquisse personnalisé pour chaque ligne de construction. La première ligne de la construction sera étiquetée *Sketch axis 0*.
 
-#### Axe (X/Y/Z) {#axe_xyz}
+#### Axe (X/Y/Z) 
 
 
 {{VersionPlus/fr|0.17}}

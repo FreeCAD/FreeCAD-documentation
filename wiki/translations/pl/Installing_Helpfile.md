@@ -1,12 +1,12 @@
 
 
-## FreeCAD dokumentacja pomocy {#freecad_dokumentacja_pomocy}
+## FreeCAD dokumentacja pomocy 
 
 Dokumentacja FreeCAD offline jest budowana z wiki FreeCAD przy użyciu skryptów. Rozrosła się do rozmiaru pliku przekraczającego 220 MB. Te duże pliki nie są częścią instalatorów i plików wykonywalnych FreeCAD, ale mogą być instalowane oddzielnie, tak jak zostało to tutaj przedstawione.
 
 Zachęca się do pracy nad tłumaczeniami społeczności, dzięki czemu dokumentacja offline jest teraz dostępna również w języku francuskim i włoskim. Dla innych języków mogą istnieć różne etapy zaawansowania.
 
-## Pobierz pliki pomocy {#pobierz_pliki_pomocy}
+## Pobierz pliki pomocy 
 
 Dokumentacja działająca w trybie offline składa się z co najmniej dwóch plików: {{FileName|freecad.qhc}} konfiguracja pliku Qt-helpfile i {{FileName|freecad.qch}} skompresowany plik Qt-helpfile. Są one umieszczone razem w archiwum ZIP.
 
@@ -16,7 +16,7 @@ W przyszłości będzie można je zainstalować z poziomu FreeCAD za pomocą [Ad
 
 Pliki pomocy mają zawsze te same nazwy: {{FileName|freecad.qhc}} i {{FileName|freecad.qch}}. Aby mieć różne wersje plików pomocy, pliki te muszą być zainstalowane w różnych katalogach. W przypadku ręcznego pobierania, wystarczy zapisać plik zip lokalnie i rozpakować archiwum do wybranego katalogu.
 
-## Zarejestrowanie dokumentacji {#zarejestrowanie_dokumentacji}
+## Zarejestrowanie dokumentacji 
 
 System dokumentacji FreeCAD wykorzystuje Qt Assistant. Powinieneś najpierw zainstalować ten program, jeśli go nie posiadasz.
 
@@ -24,19 +24,19 @@ Obecna organizacja pomocy offline pozwala, aby aktywny był tylko jeden plik pom
 
 Aby aktywować kolejną dokumentację FreeCAD, należy wykonać następujące kroki:
 
--   Kliknij na liście menu w FreeCAD {{MenuCommand|Pomoc → Pomoc}}. Program Qt-assistant powinien się otworzyć.
--   W programie Qt-assistant kliknij w menu {{MenuCommand|Edit → preferencje}}.
--   W oknie dialogowym preferencji kliknij zakładkę {{MenuCommand|Documentation}}.
+-   Kliknij na liście menu w FreeCAD **Pomoc → Pomoc**. Program Qt-assistant powinien się otworzyć.
+-   W programie Qt-assistant kliknij w menu **Edit → preferencje**.
+-   W oknie dialogowym preferencji kliknij zakładkę **Documentation**.
 -   Na liście zarejestrowanych dokumentów wybierz `org.freecad.usermanual` i kliknij przycisk **Remove**.
 -   Zamknij okno dialogowe za pomocą **OK**, ale nie zamykaj okna programu Qt-assistant. Jest to ważne, ponieważ w przeciwnym razie inny plik pomocy nie zostanie zarejestrowany.
--   Otwórz ponownie okno dialogowe preferencji poprzez menu {{MenuCommand|Edit → preferencje}}.
+-   Otwórz ponownie okno dialogowe preferencji poprzez menu **Edit → preferencje**.
 -   Wybierz zakładkę dokumentacja i kliknij przycisk **Dodaj...**.
 -   W oknie dialogowym przejdź do nowego pliku pomocy i wybierz {{FileName|freecad.qch}}.
--   Zamknij okno dialogowe, potwierdzając wybór. W zakładce {{MenuCommand|Documentation}} w preferencjach powinna teraz znajdować się linia z `org.freecad.usermanual`.
--   Zamknij {{MenuCommand|Preferences}} za pomocą **OK**.
+-   Zamknij okno dialogowe, potwierdzając wybór. W zakładce **Documentation** w preferencjach powinna teraz znajdować się linia z `org.freecad.usermanual`.
+-   Zamknij **Preferences** za pomocą **OK**.
 -   Powinieneś teraz mieć nową dokumentację dostępną w Qt-assistant, która jest dostępna z poziomu FreeCAD.
 
-## Uwaga o Ubuntu {#uwaga_o_ubuntu}
+## Uwaga o Ubuntu 
 
 Podczas próby instalacji pakietów dokumentacji na Ubuntu mogą pojawić się trudności *(na przykład, `freecad-doc` lub `freecad-daily-doc`)*. Jeśli okaże się, że tak jest, to wykonanie następujących kroków umożliwi Ci posiadanie dokumentacji offline.
 

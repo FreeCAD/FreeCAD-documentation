@@ -3,14 +3,14 @@
 
 <div class="mw-translate-fuzzy">
 
-## Tipi di elementi FEM in CalculiX {#tipi_di_elementi_fem_in_calculix}
+## Tipi di elementi FEM in CalculiX 
 
 Per informazioni dettagliate sugli elementi FEM di FreeCAD, vedere [Mesh FEM](FEM_Mesh/it.md) e [Tipi di elementi FEM](FEM_Element_Types/it.md).
 
 
 </div>
 
-### Elemento segmento {#elemento_segmento}
+### Elemento segmento 
 
   --------------------------------------- -------------------------------------------------
   seg2 FreeCAD nodes                      seg3 FreeCAD nodes
@@ -23,7 +23,7 @@ Per informazioni dettagliate sugli elementi FEM di FreeCAD, vedere [Mesh FEM](FE
 
   : **Elemento segmento da FreeCAD a CalculiX - Assegnazione nodo**
 
-### Elemento Triangolo {#elemento_triangolo}
+### Elemento Triangolo 
 
   --------------------------------------------------- ---------------------------------------------------
   tria3 FreeCAD nodes                                 tria6 FreeCAD nodes
@@ -36,7 +36,7 @@ Per informazioni dettagliate sugli elementi FEM di FreeCAD, vedere [Mesh FEM](FE
 
   : **Elemento triangolo da FreeCAD a CalculiX - Assegnazione nodo**
 
-### Elemento Quadrangolo {#elemento_quadrangolo}
+### Elemento Quadrangolo 
 
   --------------------------------------------------- ---------------------------------------------------
   quad4 FreeCAD nodes                                 quad8 FreeCAD nodes
@@ -49,7 +49,7 @@ Per informazioni dettagliate sugli elementi FEM di FreeCAD, vedere [Mesh FEM](FE
 
   : **Elemento quadratico da FreeCAD a CalculiX - Assegnazione nodo**
 
-### Elemento Tetraedro {#elemento_tetraedro}
+### Elemento Tetraedro 
 
 Il seguente ordine di nodo non è implementato ! TODO: verify node order (do not forget getccxVolumesByFace()).
 
@@ -64,7 +64,7 @@ Il seguente ordine di nodo non è implementato ! TODO: verify node order (do not
 
   : **Elemento tetraedro da FreeCAD a CalculiX - Assegnazione nodo**
 
-### Elemento Esaedro {#elemento_esaedro}
+### Elemento Esaedro 
 
   --------------------------------------------------- --------------------------------------------------------------------------------------------
   hexa8 FreeCAD nodes                                 hexa20 FreeCAD nodes
@@ -77,7 +77,7 @@ Il seguente ordine di nodo non è implementato ! TODO: verify node order (do not
 
   : **Elemento esaedro da FreeCAD a CalculiX - Assegnazione nodo**
 
-### Elemento Pentaedro {#elemento_pentaedro}
+### Elemento Pentaedro 
 
   ----------------------------------------------------- ------------------------------------------------------------------
   penta6 FreeCAD nodes                                  penta15 FreeCAD nodes

@@ -23,7 +23,7 @@ Les lignes de construction peuvent être utilisées comme axe de rotation par la
 Il y a deux façons d\'utiliser cet outil :
 
 1.  Sans que rien ne soit sélectionné dans la [Vue 3D](3D_view/fr.md) :
-    -   Activez le mode construction en cliquant sur le **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> <img src=images/Sketcher_ToggleConstruction.svg style="width:Basculer mode géométrie de construction](Sketcher_ToggleConstruction/fr.md)** ou en utilisant l\'entrée {{MenuCommand|Sketch → Géométries d'esquisse → [16px"> Basculer mode géométrie de construction}} dans le menu Sketcher.
+    -   Activez le mode construction en cliquant sur le **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> <img src=images/Sketcher_ToggleConstruction.svg style="width:Basculer mode géométrie de construction](Sketcher_ToggleConstruction/fr.md)** ou en utilisant l\'entrée **Sketch → Géométries d'esquisse → [16px"> Basculer mode géométrie de construction** dans le menu Sketcher.
     -   Cela changera la couleur pour la création de nouveaux éléments géométriques en bleu.
     -   Les éléments géométriques nouvellement créés seront désormais créés en mode construction.
 2.  Avec un ou plusieurs éléments géométriques sélectionnés dans la [Vue 3D](3D_view/fr.md).

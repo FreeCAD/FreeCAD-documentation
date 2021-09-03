@@ -6,7 +6,7 @@ Ce sont des extraits de code utiles lors de [création d\'interfaces](Dialog_cre
 
 Pour plus d\'informations sur la création d\'interfaces complètes, voir [Création d\'interface avec des fichiers UI](Interface_creation_with_UI_files/fr.md).
 
-## Quelques commandes utiles {#quelques_commandes_utiles}
+## Quelques commandes utiles 
 
 
 ```python
@@ -67,7 +67,7 @@ self.lineEdit.setText(str(val_X)) # Displays the value in the lineEdit (convert 
        self.label_6.setText(_translate("MainWindow", "Select a view", None))
 ```
 
-## Problèmes d\'encodage {#problèmes_dencodage}
+## Problèmes d\'encodage 
 
 ### UTF8
 

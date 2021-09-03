@@ -27,7 +27,7 @@ Um die Winkelbeschränkung anzuwenden, sollte man den Schritten folgen:
 2.  Rufe die Beschränkung mit verschiedenen Methoden auf:
     -   Drücken der **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Beschränke Winkel](Sketcher_ConstrainAngle/de.md)** Schaltfläche in der Werkzeugleiste.
     -   Verwendung der **A** Tastaturkürzel. (**A**\' steht für **A**ngle, engl.: Winkel)
-    -   Verwendung des {{MenuCommand|Skizze → Skizzierer Beschränkungen → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Beschränke Winkel}} aus dem obersten Menüeintrag
+    -   Verwendung des **Skizze → Skizzierer Beschränkungen → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Beschränke Winkel** aus dem obersten Menüeintrag
 3.  Ein Bezugs Bezugsbearbeitungsdialogfeld klappt auf.
 4.  Ändere den Winkel, falls erforderlich. **Hinweis:** Der Winkel kann als Ausdruck eingegeben werden, der ausgewertet und als Ergebnis gespeichert wird.
 5.  Klicke **OK**
@@ -44,7 +44,7 @@ Wie bei jeder Bezugsbeschränkung ist es möglich, den Winkelwert später zu än
 
 Die Beschränkung legt den Polwinkel der Linienrichtung fest. Es ist der Winkel zwischen der Linie und der X Achse der Skizze.
 
-### Bogenspanne (v0.15) {#bogenspanne_v0.15}
+### Bogenspanne (v0.15) 
 
 **akzeptierte Auswahl:** Kreisbogen
 
@@ -52,7 +52,7 @@ Die Beschränkung legt den Polwinkel der Linienrichtung fest. Es ist der Winkel 
 
 In diesem Modus fixiert die Beschränkung die Winkelspannweite eines Kreisbogens.
 
-### Zwischen Linien {#zwischen_linien}
+### Zwischen Linien 
 
 **Akzeptierte Auswahl:** Linie + Linie
 
@@ -60,7 +60,7 @@ In diesem Modus fixiert die Beschränkung die Winkelspannweite eines Kreisbogens
 
 In diesem Modus legt die Beschränkung den Winkel zwischen zwei Linien fest. Es ist nicht erforderlich, dass sich die Linien schneiden.
 
-### Zwischen Kurven am Schnittpunkt (Winkel-über-Punkt) (v0.15) {#zwischen_kurven_am_schnittpunkt_winkel_über_punkt_v0.15}
+### Zwischen Kurven am Schnittpunkt (Winkel-über-Punkt) (v0.15) 
 
 **Akzeptierte Auswahl:** jede Linie/Kurve + jede Linie/Kurve + jeder Punkt
 

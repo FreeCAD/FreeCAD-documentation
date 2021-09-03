@@ -18,7 +18,7 @@ Le **Draft Widget d\'échelle d\'annotation** ({{Version/fr|0.19}}) peut être u
 2.  Le menu d\'échelle s\'ouvre.
 3.  Effectuez l\'une des opérations suivantes :
     -   Sélectionnez l\'une des échelles standard.
-    -   Sélectionnez l\'option {{MenuCommand|custom}} :
+    -   Sélectionnez l\'option **custom** :
         -   Dans la boîte de dialogue qui s\'ouvre, saisissez une échelle personnalisée en utilisant le format {{Value|x:x}} ou {{Value|x<nowiki>=</nowiki>x}}.
         -   Appuyez sur **Entrée** ou sur le bouton **OK**.
 
@@ -28,8 +28,8 @@ Le **Draft Widget d\'échelle d\'annotation** ({{Version/fr|0.19}}) peut être u
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Le widget d\'échelle d\'annotation de Draft est facultatif : {{MenuCommand|Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Barre d'état de Draft → Widget d'échelle d'annotation}}.
--   Pour modifier l\'échelle d\'annotation sans le widget : {{MenuCommand|Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Draft → DraftAnnotationScale}}. L\'échelle est définie par un seul nombre. Pour une échelle de {{Value|1:50}}, entrez {{Value|0.02}}.
+-   Le widget d\'échelle d\'annotation de Draft est facultatif : **Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Barre d'état de Draft → Widget d'échelle d'annotation**.
+-   Pour modifier l\'échelle d\'annotation sans le widget : **Outils → Editeur de paramètres... → BaseApp → Preferences → Mod → Draft → DraftAnnotationScale**. L\'échelle est définie par un seul nombre. Pour une échelle de {{Value|1:50}}, entrez {{Value|0.02}}.
 
 ## Remarques
 

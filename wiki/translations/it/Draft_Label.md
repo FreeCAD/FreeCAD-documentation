@@ -139,7 +139,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
 
-#### Tipi di etichette {#tipi_di_etichette}
+#### Tipi di etichette 
 
 
 <div class="mw-translate-fuzzy">

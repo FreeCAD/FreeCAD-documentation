@@ -20,7 +20,7 @@ Dato che il progetto Wikihouse è per natura aperto, è facile trovare i file su
 
 Nel seguente tutorial abbiamo utilizzato il file [Chassis](https://github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) del sotto-progetto Wikihouse\'s Microhouse.
 
-## Preparare il file di Sketchup {#preparare_il_file_di_sketchup}
+## Preparare il file di Sketchup 
 
 La prima cosa da fare è aprire il file in SketchUp ed eliminare tutto ciò che non si desidera esportare. Si esporta solo una parte della Microhouse, quindi tutto il resto deve essere eliminato.
 
@@ -50,7 +50,7 @@ Ripetere questa operazione per ogni componente. Dato che molti sono dei duplicat
 
 Quando il pezzo di casa è completamente fatto di elementi piani, possiamo selezionare tutto ed esportare in un file .dae, e quindi importare questo file in FreeCAD. Assicurarsi di spuntare \"triangulate all\"
 
-## Risolvere il bug delle facce doppie {#risolvere_il_bug_delle_facce_doppie}
+## Risolvere il bug delle facce doppie 
 
 C\'è un brutto problema per il quale non ho trovato una soluzione migliore: gli oggetti mesh esportati da SketchUp nel formato .dae hanno le loro facce duplicate. Ogni faccia diventa in realtà due facce. Il modo più semplice che ho trovato finora è quello di aprire il file esportato in [Blender](http://www.blender.org) per ripararlo:
 
@@ -70,7 +70,7 @@ C\'è un brutto problema per il quale non ho trovato una soluzione migliore: gli
 
 Normalmente l\'operazione di cui sopra non dovrebbe modificare la scala, ma prima di andare avanti è sempre meglio verificare con gli strumenti di misura che la geometria sia importata nella scala corretta. Potrebbe essere necessario modificare le impostazioni di esportazione Collada di Blender.
 
-## L\'importazione e la conversione in polilinee {#limportazione_e_la_conversione_in_polilinee}
+## L\'importazione e la conversione in polilinee 
 
 
 <div class="mw-translate-fuzzy">
@@ -102,7 +102,7 @@ La macro Estrai wire da mesh talvolta non riesce a trovare dei wire chiusi all\'
 
 Qui sono possibili molte strategie, a seconda di come è necessario che il risultato sia modificabile e preciso. L\'oggetto [Pannello](Arch_Panel/it.md) ha bisogno di un oggetto di base fatto di wire. Non importa come viene realizzato questo oggetto, se è un singolo schizzo, o se è, come nell\'esempio precedente, un composto di diversi schizzi o se è un oggetto di Draft.
 
-## Conversione in Schizzi {#conversione_in_schizzi}
+## Conversione in Schizzi 
 
 Dato che possiamo già creare dei pannelli da ciascun componente, si può fare questa parte in seguito, ma vediamo comunque come convertire un oggetto filiforme in uno schizzo:
 
@@ -123,7 +123,7 @@ Dato che possiamo già creare dei pannelli da ciascun componente, si può fare q
 
 ![](images/Arch_Wikihouse_12.jpg )
 
-## Ricostruire la Wikihouse ed esportare le sagome dei fogli {#ricostruire_la_wikihouse_ed_esportare_le_sagome_dei_fogli}
+## Ricostruire la Wikihouse ed esportare le sagome dei fogli 
 
 Inoltre, fare attenzione a non duplicare nessuna parte. Invece, selezionare lo strumento [Clona](Draft_Clone/it.md) per duplicare le parti basate sullo stesso profilo, in modo che esse condividano uno stesso oggetto profilo. Dopo, dato che abbiamo il contorno nella posizione corretta utilizzabile come guida, è abbastanza facile ruotare e spostare il clone nella sua corretta posizione con [Sposta](Draft_Move/it.md) e [Ruota](Draft_Rotate/it.md).
 

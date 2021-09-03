@@ -17,7 +17,7 @@ La commande **Std Cascade** réorganise les fenêtres dans la [Zone de vue princ
 ## Utilisation
 
 1.  La zone de vue principale doit contenir au moins deux fenêtres.
-2.  Sélectionnez l\'option {{MenuCommand|Fenêtre → <img src="images/Std_CascadeWindows.svg" width=16px> Fenêtres en cascade}} dans le menu.
+2.  Sélectionnez l\'option **Fenêtre → <img src="images/Std_CascadeWindows.svg" width=16px> Fenêtres en cascade** dans le menu.
 
 
 

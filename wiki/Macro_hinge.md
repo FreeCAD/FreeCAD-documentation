@@ -21,7 +21,7 @@ Open the 2 files (20140908b\_Hinge-1.FCMacro and 20140908b\_Hinge-1.FCStd) in Fr
 
 <img alt="" src=images/Hing_01.png  style="width:300px;">
 
-## The File {#the_file}
+## The File 
 
  [20140908b\_Hinge-1.fcstd](http://forum.freecadweb.org/download/file.php?id=7628) 
 

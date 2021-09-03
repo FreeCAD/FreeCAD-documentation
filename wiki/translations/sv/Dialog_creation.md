@@ -20,7 +20,7 @@ In this example, the entire interface is defined in [Python](Python.md). Althoug
 
 <div class="mw-translate-fuzzy">
 
-## Designa dialogen {#designa_dialogen}
+## Designa dialogen 
 
 Att i CAD applikationer designa ett bra användargränssnitt är mycket viktigt. Nästan allt som användaren kommer att göra kommer att vara genom någon typ av gränssnitt: läsa dialogrutor, klicka på knappar, välja mellan ikoner, etc. Så det är mycket viktigt att noga tänka igenom vad du vill göra, hur du vill att användaren ska bete sig, och hur arbetsflödet i din aktion kommer att se ut.
 
@@ -71,7 +71,7 @@ Det är ungefär allt vi behöver göra i Qt Designer. En sista sak bara, låt o
 
 ![](images/Qtpropeditor.jpg )
 
-## Konvertera vår dialog till python {#konvertera_vår_dialog_till_python}
+## Konvertera vår dialog till python 
 
 Låt oss nu spara vår widget någonstans. Den kommar att sparas som en .ui fil, som vi smidigt kan omvandla till python skript med pyuic. på windows, så är pyuic programmet hoppackat med pyqt (ska verifieras), på linux behöver du troligen installera den separat från din pakethanterare (på debian-baserade system, så är det en del av pyqt4-dev-tools paketet). För att göra konverteringen, så behöver du öppna ett terminalfönster (eller ett kommandoprompt fönster på windows), navigera till där du sparade din .ui file, och skriva: 
 ```python
@@ -181,7 +181,7 @@ Och vår dialog kommer fram! Notera att din pythontolk fortfarande fungerar, vi 
 d.hide()
 ```
 
-## Ordna så att vår dialog gör något {#ordna_så_att_vår_dialog_gör_något}
+## Ordna så att vår dialog gör något 
 
 Nu när vi kan visa och gömma vår dialog, så behöver vi bara lägga till en sista bit: Att låta den göra något! Om du leker lite med Qt designer, så kommer du snabbt upptäcka ett helt avsnitt som kallas \"signals and slots\". I grunden så fungerar det så här: element på dina widgetar (i Qt terminologi, så är dessa element widgetar själva) kan sända signaler. Dessa signaler skiljer sig beroende på widget typ. Till exempel, en knapp kan sända en signal när den är nedtryckt och när den släpps. Dessa signaler kan anslutas till slots, vilka kan vara en speciell funktionalitet i andra widgetar (till exempel en dialog har en \"stäng\" slot till vilken du kan ansluta signalen från en stäng knapp), eller kan vara anpassade funktioner. [PyQt Referensdokumentation](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html) listar alla qt widgetar, vad de kan göra, vilka signaler de kan sända , etc\...
 
@@ -227,7 +227,7 @@ import mywidget
 myDialog = mywidget.plane()
 ``` Det var allt. Nu kan du försöka andra saker, som till exempel sätta in din widget i FreeCAD\'s gränssnitt (se [kodbitar](Code_snippets/sv.md) sidan), eller göra mycket mer avancerade verktyg, genom att använda andra element på din widget.
 
-## Det kompletta skriptet {#det_kompletta_skriptet}
+## Det kompletta skriptet 
 
 För referens, så är det kompletta skriptet här: 
 ```python
@@ -302,7 +302,7 @@ class plane():
 
 ```
 
-## More examples {#more_examples}
+## More examples 
 
 -   [Dialog creation with various widgets](Dialog_creation_with_various_widgets.md) with `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton`, and others.
 -   [Dialog creation reading and writing files](Dialog_creation_reading_and_writing_files.md) with `QFileDialog`.
@@ -311,7 +311,7 @@ class plane():
 -   [PySide usage snippets](PySide_usage_snippets.md).
 -   [Qt Example](Qt_Example.md)
 
-## Relevant links {#relevant_links}
+## Relevant links 
 
 -   [Manual:Creating interface tools](Manual:Creating_interface_tools.md)
 -   [Interface creation with UI files](Interface_creation_with_UI_files.md)

@@ -21,7 +21,7 @@ Analiza MEF poate fi văzută ca un Container care cuprinde toate obiectele Fini
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -45,7 +45,7 @@ Analiza MEF poate fi văzută ca un Container care cuprinde toate obiectele Fini
 
 -    **OutpuDir**: Specifică directorul de lucru a analizei
 
-## Programare-Script {#programare_script}
+## Programare-Script 
 
 cea mai mare parte a codului a fost abandonat în versiunea 0.17.
 

@@ -14,7 +14,7 @@ Snapping is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Work
 
 ![](images/Draft_Snap_Endpoint_example.png ) *Snapping to the endpoint of an edge*
 
-## Snap tools {#snap_tools}
+## Snap tools 
 
 These tools are available in the Draft Snap toolbar and in the [Draft snap widget](Draft_snap_widget.md).
 
@@ -52,7 +52,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle Grid](Draft_ToggleGrid.md): switches the grid on or off.
 
-## Advanced snapping {#advanced_snapping}
+## Advanced snapping 
 
 -   Additional snap points can be obtained by combining two snap options. For example combining [Draft Snap Ortho](Draft_Snap_Ortho.md) and [Draft Snap Extension](Draft_Snap_Extension.md) will give you a snap point at the intersection of their imaginary lines.
 -   Snapping can be combined with [constraining](Draft_Constrain.md).
@@ -74,16 +74,16 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 Note that after changing some preferences you must restart FreeCAD.
 
--   When a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command requiring point input is active, the maximum distance at which [Draft Snap Grid](Draft_Snap_Grid.md) detects the intersections of grid lines can be changed on-the-fly by pressing **[** (increase key) or **]** (decrease key). This setting is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange}}. It can also be changed in the task panel of the [Draft SelectPlane](Draft_SelectPlane.md) command.
--   To only snap when the {{MenuCommand|Snap mod}} key is held down:
-    -   Deselect: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Snapping → Always snap (disable snap mod)}}.
-    -   The default {{MenuCommand|Snap mod}} key, **Ctrl**, can be changed: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Snapping → Snap mod}}.
+-   When a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command requiring point input is active, the maximum distance at which [Draft Snap Grid](Draft_Snap_Grid.md) detects the intersections of grid lines can be changed on-the-fly by pressing **[** (increase key) or **]** (decrease key). This setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**. It can also be changed in the task panel of the [Draft SelectPlane](Draft_SelectPlane.md) command.
+-   To only snap when the **Snap mod** key is held down:
+    -   Deselect: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Always snap (disable snap mod)**.
+    -   The default **Snap mod** key, **Ctrl**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Snap mod**.
 -   To only show the Draft Snap toolbar when a command is active:
-    -   Select: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Snapping → Show Draft Snap toolbar}}.
-    -   Select: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Snapping → Hide Draft Snap toolbar after use}}.
--   The snap symbols can be changed: {{MenuCommand|Edit → Preferences... → Draft → Visual settings → Visual settings → Snap symbol style}}.
--   The color of the snap symbols and the dimensions of [Draft Snap Dimensions](Draft_Snap_Dimensions.md) can be changed: {{MenuCommand|Edit → Preferences... → Draft → Visual settings → Visual settings → Color}}.
--   The mentioned single character keyboard shortcuts can be changed: {{MenuCommand|Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts}}.
+    -   Select: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Show Draft Snap toolbar**.
+    -   Select: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Hide Draft Snap toolbar after use**.
+-   The snap symbols can be changed: **Edit → Preferences... → Draft → Visual settings → Visual settings → Snap symbol style**.
+-   The color of the snap symbols and the dimensions of [Draft Snap Dimensions](Draft_Snap_Dimensions.md) can be changed: **Edit → Preferences... → Draft → Visual settings → Visual settings → Color**.
+-   The mentioned single character keyboard shortcuts can be changed: **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
 
 
 <div class="mw-translate-fuzzy">

@@ -21,7 +21,7 @@ Simuliert Scharnierbewegung
 
 <img alt="" src=images/Hing_01.png  style="width:300px;">
 
-## Die Datei {#die_datei}
+## Die Datei 
 
 [20140908b\_Hinge-1.fcstd](http://forum.freecadweb.org/download/file.php?id=7628)
 

@@ -13,7 +13,8 @@
 
 Acest instrument utilizează **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)** pe muchiile selecționate ale unui obiect. Un element nou **Chamfer** (urmat de un număr secvențial dacă nu este primul element **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein](_PartDesign_Chamfer/fr.md)** creat în document) este adăugat în arborescența proiectului.
 <img alt="Pièce chanfreinée" src=images/PartDesign_Chamfer_fr_01.png  style="width:480px;">
-{{Clear}}
+
+
 
 
 </div>
@@ -30,7 +31,7 @@ This tool creates chamfers on the selected edges of an object. A new separate Ch
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 2.                                                                             |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 3.                                                                             |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | ### PartDesign Chamfer VS. Part Chamfer {#partdesign_chamfer_vs._part_chamfer} |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | ### PartDesign Chamfer VS. Part Chamfer  |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | -                                                                              |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | -                                                                              |
@@ -44,7 +45,7 @@ Pentru un lanț de muchii tangente una pe alta, este necesară selectarea numai 
 Pentru a-l modifica **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)** după crearea sa, double-cliquer pe intrarea sa în **Vue Combinée → Projet →** pe **Chamfer** pentru a modifica, sau faceți click butonul dreapta, și selecționați **Modifier le chanfrein**.
 ==Opțiuni==
 
-### Vizualizarea combinată → Sarcini {#vizualizarea_combinată_sarcini}
+### Vizualizarea combinată → Sarcini 
 
 <img src=images/PartDesign_Chamfer.png style="width:240px\|left](IMAGE:PartDesign_Chamfer_fr_05.png.md) {{TitreTache|[16px"> Paramètres du chanfrein}}
 
@@ -59,7 +60,7 @@ Cliquez sur **OK** pour valider.
 Lățimea maximă a șanfrenului trebuie să fie inferior celei mai micii fațetee 
 ==Proprietăți==
 
-### Vue combinée → Chamfer → Vue {#vue_combinée_chamfer_vue}
+### Vue combinée → Chamfer → Vue 
 
 <img alt="" src=images/PartDesign_Chamfer_fr_03.png‎  style="width:240px;"> {{PartOngletVue/fr}}
 ===Vue combinée → Chamfer → Données===
@@ -113,7 +114,7 @@ Vous pouvez modifier le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](F
 **Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
 Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utilisent différemment.
 
-### Voici quelques différences : {#voici_quelques_différences}
+### Voici quelques différences : 
 
 -   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** est *paramétrique*. Après l\'application d\'un **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
 -   Les arêtes doivent être sélectionnées avant de démarrer le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
@@ -126,7 +127,7 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 
 </div>
 
--   Select a single edge, multiple edges or a face on an object, then start the tool either by clicking the button **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chamfer'''** or using the menu {{MenuCommand|PartDesign → Apply a dress-up feature → Chamfer}}. In case you selected a face all its edges are respected for chamfering.
+-   Select a single edge, multiple edges or a face on an object, then start the tool either by clicking the button **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chamfer'''** or using the menu **PartDesign → Apply a dress-up feature → Chamfer**. In case you selected a face all its edges are respected for chamfering.
 -   In the appearing [Task panel](Task_panel.md) you can define the chamber in 3 ways:
     -   **Equal distance**: The chamfer edges are equally distanced from the body edge.
     -   **Two distances**: The distances of the chamfer edge to the body edge are specified. The distance direction can be flipped. <small>(v0.19)</small> 
@@ -139,7 +140,7 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 -   For a chain of edges tangential to one another, one single edge can be selected; the chamfer will propagate along the chain.
 -   To edit the chamfer after the function has been validated, either double-click on the chamfer label in the Project tree, or right-click on it and select **Edit Chamfer**.
 
-## PartDesign Chamfer vs. Part Chamfer {#partdesign_chamfer_vs._part_chamfer_1}
+## PartDesign Chamfer vs. Part Chamfer 
 
 **The PartDesign Chamfer is not to be confused with its [Part workbench counterpart](Part_Chamfer.md)**. Although they share the same icon, they are not the same, and are not used the same way. The main difference is that PartDesign Chamfer creates a separate Chamfer entry (followed by a sequential number if there are already existing chamfers) in the Project tree for the current body. The Part Chamfer becomes the parent of the object it was applied to.
 

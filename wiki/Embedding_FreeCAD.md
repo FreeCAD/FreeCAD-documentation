@@ -6,7 +6,7 @@
 
 FreeCAD can be imported as a [Python](Python.md) module in other programs or in a standalone Python console, together with all its modules and components. It\'s even possible to import the FreeCAD user interface as a python module but with some restrictions indicated in [Caveats](#Caveats.md).
 
-## Using FreeCAD without GUI {#using_freecad_without_gui}
+## Using FreeCAD without GUI 
 
 The first, direct, easy, and useful application you can make of this is to import FreeCAD documents into your program. In the following example, we\'ll import the Part geometry of a FreeCAD document into [blender](http://www.blender.org). Here is the complete script. I hope you\'ll be impressed by its simplicity:  {{Code|lang=python|code=
 <nowiki>
@@ -88,7 +88,7 @@ Of course this script is very simple (in fact I made a more advanced [FreeCAD to
 
 checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the GUI.
 
-## Using FreeCAD with GUI {#using_freecad_with_gui}
+## Using FreeCAD with GUI 
 
 From version 4.2 on Qt has the intriguing ability to embed Qt-GUI-dependent plugins into non-Qt host applications and share the host\'s event loop.
 

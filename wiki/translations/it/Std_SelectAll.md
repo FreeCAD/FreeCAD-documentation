@@ -13,7 +13,7 @@ Il comando **Seleziona tutto** permette di selezionare tutti gli elementi di un 
 
 ## Utilizzo
 
-1.  Selezionare l\'opzione {{MenuCommand|Modifica → <img src="images/Std_SelectAll.svg" width=16px> Seleziona tutto}} dal menu.
+1.  Selezionare l\'opzione **Modifica → <img src="images/Std_SelectAll.svg" width=16px> Seleziona tutto** dal menu.
 
 ## Note
 

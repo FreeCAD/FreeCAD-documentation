@@ -21,9 +21,9 @@ L\'outil **![](images/)_[Union](Part_Fuse/fr.md)** fusionne les objets Part sé
 1.  Sélectionnez deux formes
 2.  Plusieurs manières pour lancer cette commande :
     -   Appuyez sur le bouton **![](images/) Exécuter l'union de plusieurs formes** de la barre d**\'outils Part**
-    -   Utilisez l\'entrée {{MenuCommand|Pièce → Opération booléenne → Union}} depuis le menu Part
+    -   Utilisez l\'entrée **Pièce → Opération booléenne → Union** depuis le menu Part
 
-## Entrées prises en charge {#entrées_prises_en_charge}
+## Entrées prises en charge 
 
 L\'objet doit être un objet (forme) [OpenCascade](OpenCascade/fr.md). Exemples: les objets créés avec un des ateliers Part, PartDesign, Sketcher. Ne peut pas être un objet Mesh (sauf s\'il est converti en forme (shape)) - pour les objets Mesh, utilisez l\'outil booléen spécifique dans l\'atelier MeshDesign.
 

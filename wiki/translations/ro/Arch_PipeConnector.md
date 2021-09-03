@@ -24,7 +24,7 @@ Acest instrument permite crearea unui conector de colț sau T între două sau t
 
 </div>
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +40,7 @@ Acest instrument permite crearea unui conector de colț sau T între două sau t
 
 -    **Radius**: Raza curburii acestui conector
 
-## Fluxul de lucru tipic {#fluxul_de_lucru_tipic}
+## Fluxul de lucru tipic 
 
 
 <div class="mw-translate-fuzzy">
@@ -53,7 +53,7 @@ See [Arch Pipe\#Typical\_workflow](Arch_Pipe#Typical_workflow.md)
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

@@ -2,12 +2,12 @@
 
 Această pagină oferă informații detaliate despre modulele integrate în FreeCAD și care sunt caracteristicile și proprietățile disponibile. Această pagină nu este o listă completă a conținutului acestor module și, datorită evoluției rapide a FreeCAD, informațiile prezentate aici pot fi depășite, dar ar trebui să vă ofere o imagine de ansamblu asupra posibilităților sale. Pentru o listă completă a conținutului modulului, utilizați funcția dir (nume\_model) în interpretul încorporat în FreeCAD. \_\_NOTOC\_\_
 
-## Non graphical {#non_graphical}
+## Non graphical 
 
 
 <div class="mw-translate-fuzzy">
 
-### [The FreeCAD module](FreeCAD_API.md) {#the_freecad_module}
+### [The FreeCAD module](FreeCAD_API.md) 
 
 
 </div>
@@ -17,7 +17,7 @@ Această pagină oferă informații detaliate despre modulele integrate în Free
 
 <div class="mw-translate-fuzzy">
 
-### [The FreeCADGui Module](FreeCADGui_API.md) {#the_freecadgui_module}
+### [The FreeCADGui Module](FreeCADGui_API.md) 
 
 
 </div>

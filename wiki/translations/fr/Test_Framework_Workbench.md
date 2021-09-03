@@ -28,18 +28,18 @@ Exécutez uniquement quelques tests spécifiques, par exemple :
 freecad -t TestDraft
 ```
 
-## Menu Test {#menu_test}
+## Menu Test 
 
 Chaque répertoire de niveau supérieur de FreeCAD doit contenir un fichier avec les tests pouvant être exécutés pour cet atelier ou ce module particulier. Le fichier commence généralement par le mot `Test`.
 
-Pour exécuter un test depuis FreeCAD, passez à l\'atelier Test puis {{MenuCommand|Commandes de test → TestToolsGui → Autotest → Sélectionnez le nom du test}}, puis entrez le nom du fichier Python avec les tests. Par exemple, pour l\'[atelier Draft](Draft_Workbench/fr.md), il s\'agirait de {{MenuCommand|TestDraft}} puis appuyez sur **Start**.
+Pour exécuter un test depuis FreeCAD, passez à l\'atelier Test puis **Commandes de test → TestToolsGui → Autotest → Sélectionnez le nom du test**, puis entrez le nom du fichier Python avec les tests. Par exemple, pour l\'[atelier Draft](Draft_Workbench/fr.md), il s\'agirait de **TestDraft** puis appuyez sur **Start**.
 
-## Test functions {#test_functions}
+## Test functions 
 
 
 <div class="mw-translate-fuzzy">
 
-## Fonctions de test {#fonctions_de_test}
+## Fonctions de test 
 
 Voici la liste des applications de test à partir de 0.15 Git 4207 :
 
@@ -249,7 +249,7 @@ Add test function
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-### Example 1 {#example_1}
+### Example 1 
 
 Within the Python Console of FreeCAD, the following code format may be used to run built-in tests. Replace the red \"**TestFem**\" text in the code below with the desired module test name.
 
@@ -268,9 +268,9 @@ r = unittest.TextTestRunner()
 r.run(suite)
 ```
 
-## Additional Resources {#additional_resources}
+## Additional Resources 
 
-### Forum Topics {#forum_topics}
+### Forum Topics 
 
 -   [Support for running specific unit tests with \--run-test \#331](https://forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
 

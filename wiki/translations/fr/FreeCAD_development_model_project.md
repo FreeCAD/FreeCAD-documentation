@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Cette page est une transition du code FreeCAD dans [GIT](http://fr.wikipedia.org/wiki/Git) pour un modèle de développement plus apte. Il suit les règles de la [démarche d\'organisation personnelle](http://fr.wikipedia.org/wiki/Getting_Things_Done). Les projets sont collectés dans la [feuille de route](Development_roadmap/fr.md).
 
-## But et principes {#but_et_principes}
+## But et principes 
 
 Ce projet vise à définir un nouveau développement, et, un modèle de gouvernance pour FreeCAD. Nous arrivons au point, où, le référentiel [SVN](http://fr.wikipedia.org/wiki/Apache_Subversion) est difficile à gérer. Travailler avec des **patchs** est ennuyeux, et, compliqué pour les personnes désireuses de contribuer à l\'écriture du code. Donner à chacun un accès en écriture au référentiel SVN est dangereux. Les gens, peuvent involontairement \"casser\" quelque chose dans le système de base, ou, dans des décisions en cas de forces majeures.
 
@@ -33,7 +33,7 @@ Git est utilisé en tant que système de contrôle de versions distribués (DVCS
         -   donner des collatéraux dans les numéros de version, et, construction ppa \....
 -   donner les droits en écriture (push) à toutes personnes intéressées.
 
-### Développement et listes de diffusion (mailing list) {#développement_et_listes_de_diffusion_mailing_list}
+### Développement et listes de diffusion (mailing list) 
 
 Le forum a ses limites, je voudrais utiliser une ou plusieurs listes de diffusion pour gérer les branches, et, traiter les demandes.
 
@@ -43,12 +43,12 @@ Cela a des avantages :
 -   utiliser le puissant moteur de recherche des clients de messageries.
 -   aucune restriction dans la taille et les pièces jointes.
 
-### Clarifier les responsabilités {#clarifier_les_responsabilités}
+### Clarifier les responsabilités 
 
 Nous allons bientôt avoir de plus en plus de développeurs, et, les utilisateurs auront des demandes de fonctionnalités contradictoires.
 Nous devons avoir une structure, filtrer les responsabilités et décider de telles demandes et de commencer l'écriture du code.
 
-#### Sont volontaires {#sont_volontaires}
+#### Sont volontaires 
 
 Adrian Przekwas:
 Publicity - G+, Youtube,
@@ -65,7 +65,7 @@ Publicity: articles on [http://yorik.uncreated.net/guestblog.php](http://yori
 
 Les règles décidées et les informations sont sur décrites sur le document [FreeCAD development model](FreeCAD_development_model/fr.md).
 
-## Actions suivantes {#actions_suivantes}
+## Actions suivantes 
 
 
 

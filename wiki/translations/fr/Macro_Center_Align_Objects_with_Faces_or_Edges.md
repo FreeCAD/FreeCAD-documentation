@@ -31,7 +31,7 @@ Ces aides fonctionnent avec les objets **Part, App :: Part et Body**. Chaque out
 
 ------------------------------------------------------------------------
 
-## Anciennes Références {#anciennes_références}
+## Anciennes Références 
 
 Cette macro couvre les contraintes suivantes:
 

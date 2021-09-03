@@ -20,7 +20,7 @@
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
-## Plan de lucru {#plan_de_lucru}
+## Plan de lucru 
 
 Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
@@ -40,7 +40,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 *Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a solid object, and perform the actual solution of the finite element problem*
 
-## Meniu: Model {#meniu_model}
+## Meniu: Model 
 
 -   <img alt="" src=images/Fem-analysis.svg  style="width:32px;"> [Analysis container](FEM_Analysis/ro.md): Creează un nou container pentru analiza mecanică. Dacă un solid este selectat în vederea arborescentă înainte de a face click pe el dialogul plasei de discretizare va fi deschis alături
 
@@ -56,7 +56,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> [Material editor](Material_editor.md):: Lets you open the material editor to edit materials
 
-### Element Geometry {#element_geometry}
+### Element Geometry 
 
 -   <img alt="" src=images/Fem-beam-section.svg  style="width:32px;"> [Beam cross section](FEM_ElementGeometry1D.md):
 
@@ -66,17 +66,17 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-fluid-section.svg  style="width:32px;"> [Fluid section for 1D flow](FEM_ElementFluid1D.md):
 
-### Constrângeri Electrostatice {#constrângeri_electrostatice}
+### Constrângeri Electrostatice 
 
 -   <img alt="" src=images/fem-constraint-electrostatic-potential.svg  style="width:32px;"> [Constraint electrostatic potential](FEM_ConstraintElectrostaticPotential.md):
 
-### Fluid constraints {#fluid_constraints}
+### Fluid constraints 
 
 -   <img alt="" src=images/Fem-constraint-initial-flow-velocity.svg  style="width:32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md):
 
 -   <img alt="" src=images/Fem-constraint-flow-velocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md):
 
-### Geometrical Constraints {#geometrical_constraints}
+### Geometrical Constraints 
 
 -   <img alt="" src=images/Fem-constraint-planerotation.svg  style="width:32px;"> [Constraint plane rotation](FEM_ConstraintPlaneRotation/ro.md): Vă permite să definiți o constrângere de rotație a planului pe o fațetă plană
 
@@ -84,7 +84,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-constraint-transform.svg  style="width:32px;"> [Constraint transform](FEM_ConstraintTransform.md):
 
-### Constrângeri Mecanice {#constrângeri_mecanice}
+### Constrângeri Mecanice 
 
 -   <img alt="" src=images/Fem-constraint-fixed.svg  style="width:32px;"> [Constraint fixed](FEM_ConstraintFixed/ro.md):Se utilizează pentru a defini o constrângere fixă pe punct/margine/fațetă (e)..
 
@@ -100,7 +100,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-constraint-selfweight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight/ro.md): Utilizat pentru a defini accelerația gravitațională care acționează asupra modelului.
 
-### Constrângeri termice {#constrângeri_termice}
+### Constrângeri termice 
 
 -   <img alt="" src=images/Fem-constraint-InitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature/ro.md): Utilizat pentru a defini temperatura inițială a corpului.
 
@@ -110,7 +110,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-constraint-heatflux.svg  style="width:32px;"> [Constraint body heat source](FEM_ConstraintBodyHeatSource/ro.md):
 
-### Constraints without solver {#constraints_without_solver}
+### Constraints without solver 
 
 -   <img alt="" src=images/Fem-constraint-fluid-boundary.svg  style="width:32px;"> [Constraint fluid boundary](FEM_ConstraintFluidBoundary.md):
 
@@ -120,11 +120,11 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-constraint-pulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley/ro.md): Utilizat pentru a defini o constrângere de tip fulie.
 
-### Overwrite Constants {#overwrite_constants}
+### Overwrite Constants 
 
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md): <small>(v0.19)</small> 
 
-## Meniu plase/Mesh {#meniu_plasemesh}
+## Meniu plase/Mesh 
 
 -   <img alt="" src=images/Fem-femmesh-netgen-from-shape.svg  style="width:32px;"> [FEM mesh from shape by Netgen](FEM_MeshNetgenFromShape.md):
 
@@ -140,7 +140,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-femmesh-to-mesh.svg  style="width:32px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md): Convert the surface of a FEM mesh to a mesh.
 
-## Meniu Rezolvitori {#meniu_rezolvitori}
+## Meniu Rezolvitori 
 
 -   <img alt="" src=images/Fem-solver.svg  style="width:32px;"> [Solver Calculix CCX tools](FEM_SolverCalculixCxxtools/ro.md): Creează un nou rezolvitor pentru această analiză. În cele mai multe cazuri rezolvitorul este creat împreună cu analiza.
 
@@ -166,7 +166,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-run-solver.svg  style="width:32px;"> [Solver run calculation](FEM_SolverRun/ro.md): Rulează rezolvitorul selectat al analizei active.
 
-## Meniu Rezultate {#meniu_rezultate}
+## Meniu Rezultate 
 
 -   <img alt="" src=images/Fem-purge-results.svg  style="width:32px;"> [Results purge](FEM_ResultsPurge/ro.md): Șterge rezultatul analizei active.
 
@@ -192,7 +192,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-sphere.svg  style="width:32px;"> [Post Create functions](FEM_PostCreateFunctions.md):
 
-## Meniu: Utilități {#meniu_utilități}
+## Meniu: Utilități 
 
 -   <img alt="" src=images/fem-clipping-plane-add.svg  style="width:32px;"> [Clipping plane on face](FEM_ClippingPlaneAdd.md):
 
@@ -200,7 +200,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width:32px;"> [Open FEM examples](FEM_Examples.md): Open the GUI to access FEM examples.
 
-## Meniu de Context {#meniu_de_context}
+## Meniu de Context 
 
 -   <img alt="" src=images/Fem-femmesh-clear-mesh.svg  style="width:32px;"> [FEM mesh clear](FEM_MeshClear.md):
 
@@ -254,7 +254,7 @@ Video Tutorial 2 [Forum post with you tube link](https://forum.freecadweb.org/vi
 
 Further video Tutorials [Forum post with you tube link](https://forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162640)
 
-## Extending the FEM Workbench {#extending_the_fem_workbench}
+## Extending the FEM Workbench 
 
 The FEM Workbench is under constant development. An objective of the project is to find ways to easily interact with various FEM solvers, so that the end user can streamline the process of creating, meshing, simulating, and optimizing an engineering design problem, all within FreeCAD.
 
@@ -269,7 +269,7 @@ A developer\'s guide has been written to help power users in understanding the c
 -   [Early preview of ebook: Module developer\' guide to FreeCAD source](https://forum.freecadweb.org/viewtopic.php?t=17581) forum thread.
 -   [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) github repository.
 
-## Extending the FEM Workbench documentation {#extending_the_fem_workbench_documentation}
+## Extending the FEM Workbench documentation 
 
 -   More information regarding extending or missing FEM documentation can be found in the forum: [FEM documentation missing on the Wiki](https://forum.freecadweb.org/viewtopic.php?f=18&t=20823)
 

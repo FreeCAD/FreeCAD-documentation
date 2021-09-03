@@ -2,9 +2,9 @@
 
 ## Introducción
 
-La [Vista de informe](Report_view/es.md) es un panel que muestra los mensajes de texto de los procesos y herramientas de FreeCAD. Está disponible en el menú {{MenuCommand|{{StdMenu|[Vista](Std_View_Menu/es.md)}} → Paneles → Vista de informe}}.
+La [Vista de informe](Report_view/es.md) es un panel que muestra los mensajes de texto de los procesos y herramientas de FreeCAD. Está disponible en el menú **{{StdMenu|[Vista](Std_View_Menu/es.md)** → Paneles → Vista de informe}}.
 
-Ciertas propiedades de este panel, como el color del texto y si se muestra automáticamente en caso de advertencias o errores, se pueden configurar en la pestaña {{MenuCommand|General → Ventana de salida}} del [editor de preferencias](Preferences_Editor/es.md).
+Ciertas propiedades de este panel, como el color del texto y si se muestra automáticamente en caso de advertencias o errores, se pueden configurar en la pestaña **General → Ventana de salida** del [editor de preferencias](Preferences_Editor/es.md).
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
@@ -39,15 +39,15 @@ Estas funciones pueden usarse desde la [consola de Python](Python_console/es.md)
 
 Al hacer clic con el botón derecho del ratón en la vista del informe se muestran algunos comandos:
 
--    {{MenuCommand|Opciones}}: registro, advertencia, error, redirigir la salida de Python, redirigir los errores de Python, ir al final.
+-    **Opciones**: registro, advertencia, error, redirigir la salida de Python, redirigir los errores de Python, ir al final.
 
--    {{MenuCommand|Copiar}}: almacena el texto seleccionado en el portapapeles para su posterior pegado; se desactiva si no hay nada seleccionado.
+-    **Copiar**: almacena el texto seleccionado en el portapapeles para su posterior pegado; se desactiva si no hay nada seleccionado.
 
--    {{MenuCommand|Seleccionar todo}}: selecciona todo el texto en la vista del informe.
+-    **Seleccionar todo**: selecciona todo el texto en la vista del informe.
 
--    {{MenuCommand|Borrar}}: borra todos los mensajes de la vista del informe. Esto es útil si quiere solucionar un problema con una herramienta que imprime mensajes en la vista del informe, y quiere estar seguro de que no hay mensajes antiguos de herramientas anteriores.
+-    **Borrar**: borra todos los mensajes de la vista del informe. Esto es útil si quiere solucionar un problema con una herramienta que imprime mensajes en la vista del informe, y quiere estar seguro de que no hay mensajes antiguos de herramientas anteriores.
 
--    {{MenuCommand|Guardar como}}: guarda los mensajes de la vista de informe en un archivo de texto.
+-    **Guardar como**: guarda los mensajes de la vista de informe en un archivo de texto.
 
 
 {{Interface navi

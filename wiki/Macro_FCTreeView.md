@@ -13,11 +13,11 @@
 
 Macro for list all objects in the project in one list without hierarchy, options sort by name, label, visibility, group, by length option search by name, label \.... without case sensitive or with case sensitive and select all objects displayed in the macro window.  
 
-## How To Use {#how_to_use}
+## How To Use 
 
 ![Macro FCTreeView](images/FCTreeView.gif ) 
 
-### Section **Window** {#section_window}
+### Section **Window** 
 
 The title display the option, number and type object(s) displayed
 
@@ -44,7 +44,7 @@ If one object are selected : the Placement Base, Rotation and Center of mass is 
 
 ![Icon used for displayed the single object (not group)](images/Macro_FCTreeView_04.png ) Icon used for displayed the single object (not group)  
 
-### Section **Sort by :** {#section_sort_by}
+### Section **Sort by :** 
 
   **<img src=images/Macro_FCTreeView_10.png style="width:18px"> Name** Icon used for flip/flop normal/reverse the data listing sort by Name
 
@@ -68,7 +68,7 @@ Icon used for flip/flop normal/reverse the data listing sort by Group/Single obj
 
 If this check Box is checked the sort is created by length with the button clicked (Name, Label \...)  
 
-### Section **Global** {#section_global}
+### Section **Global** 
 
   **<img src=images/Macro_FCTreeView_21.png style="width:18px"> Split** flip/flop Split the Name list
 
@@ -117,11 +117,11 @@ visualise if the object is status Visible
 
 visualise if the object is status Hidden  
 
-### Section **Search** {#section_search}
+### Section **Search** 
 
    
 
-#### The radioButton options **Search**: {#the_radiobutton_options_search}
+#### The radioButton options **Search**: 
 
  
 
@@ -154,7 +154,7 @@ access in Spreadsheet options
 
  
 
-### The SpreadSheet options: {#the_spreadsheet_options}
+### The SpreadSheet options: 
 
 
 
@@ -248,7 +248,7 @@ The icon ToolBar ![Macro FCTreeView](images/Macro_FCTreeView.png )
 
 
 
-## To do {#to_do}
+## To do 
 
   ~~Docked the macro~~  
 

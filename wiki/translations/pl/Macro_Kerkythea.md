@@ -19,15 +19,15 @@ Macro to export your model to the raytracing program [Kerkythea](http://www.kerk
 
 ## Installation
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 See [How to install macros](How_to_install_macros.md)
 
-## Links to Kerkythea WB {#links_to_kerkythea_wb}
+## Links to Kerkythea WB 
 
 -   Workbench Wiki:
 -   FreeCAD Wiki: [FreeCAD to Kerkythea](Macro_FreeCAD_to_Kerkythea.md)
@@ -37,7 +37,7 @@ See [How to install macros](How_to_install_macros.md)
 -   Files:
 -   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php)
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [FreeCAD-POV-Ray](https://github.com/marmni/FreeCAD-POV-Ray_Col)
 -   [Macros recipes](Macros_recipes.md)

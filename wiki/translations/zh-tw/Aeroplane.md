@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## First Steps {#first_steps}
+## First Steps 
 
 We will be working in the [Part Workbench](Part_Workbench.md) - select it from menus via View-\>Workbench-\>Part or from the Workbench selector.
 
@@ -67,7 +67,7 @@ If you are unfamiliar with the XYZ axes then have a play with the numbers in the
 
 </div>
 
-## Second Steps {#second_steps}
+## Second Steps 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
 

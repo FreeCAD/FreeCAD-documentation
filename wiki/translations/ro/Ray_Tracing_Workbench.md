@@ -30,7 +30,7 @@ Atelierul de Randare funcționează împreună cu modulele [templates](Raytracin
 
 <div class="mw-translate-fuzzy">
 
-## Flux de lucru tipic {#flux_de_lucru_tipic}
+## Flux de lucru tipic 
 
 1.  Creați sau deschideți un proiect FreeCAD, adăugați unele obiecte [ Part-based](Part_Workbench.md) (mesh-urile nu sunt acceptate în prezent)
 2.  Creați un proiect Raytracing (cu luxrender sau povray)
@@ -47,7 +47,7 @@ Atelierul de Randare funcționează împreună cu modulele [templates](Raytracin
 
 ## Instrumente
 
-### Instrumente de Proiect {#instrumente_de_proiect}
+### Instrumente de Proiect 
 
 Acestea sunt instrumentele principale pentru exportul lucrării dvs. 3D la programe de randare externe.
 
@@ -75,7 +75,7 @@ Acestea sunt instrumente de ajutor pentru a efectua sarcini specifice în mod ma
 -   [Basic Raytracing tutorial](Raytracing_tutorial.md)
 -   [Intermediate Raytracing tutorial](Tutorial_FreeCAD_POV_ray.md)
 
-### Crearea manuală a unui fișier povray {#crearea_manuală_a_unui_fișier_povray}
+### Crearea manuală a unui fișier povray 
 
 Instrumentele utilitare descrise mai sus vă permit să exportați vizualizarea 3D curentă și întregul conținut al acestuia într-un fișier [Povray](http://www.povray.org/). În primul rând, trebuie să încărcați sau să creați datele CAD și să poziționați orientarea 3D în orientarea dorită. Apoi alegeți \"Utilities-\> Export View \...\" din meniul raytracing.
 
@@ -85,7 +85,7 @@ Vi se va solicita o locație pentru salvarea fișierului \* .pov rezultat. După
 
 Ca de obicei, prin randare poți face poze mari și frumoase: <img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
 
-## Script-Programare {#script_programare}
+## Script-Programare 
 
 A se vedea [Raytracing API example](Raytracing_API_example.md) pentru informații asupra scrierii programelor de scene.
 
@@ -101,14 +101,14 @@ A se vedea [Raytracing API example](Raytracing_API_example.md) pentru informați
 
 -   <http://www.luxrender.net/>
 
-### Viitoare posibile randări de implementat {#viitoare_posibile_randări_de_implementat}
+### Viitoare posibile randări de implementat 
 
 -   <http://www.yafaray.org/>
 -   <http://www.mitsuba-renderer.org/>
 -   <http://www.kerkythea.net/>
 -   <http://www.artofillusion.org/>
 
-## Export către Kerkythea {#export_către_kerkythea}
+## Export către Kerkythea 
 
 Deși exportul direct către fișierul Kerkythea XML-File-Format nu este încă acceptat, puteți să exportați Obiectele ca Fișiere Mesh (.obj) și apoi să le importați în Kerkythea.
 
@@ -132,7 +132,7 @@ Deși exportul direct către fișierul Kerkythea XML-File-Format nu este încă 
 
 -   dacă importați mai multe obiecte în Kerkythea, puteți folosi comanda \"File\>Merge\" în Kerkythea
 
-## Sugestii de legături {#sugestii_de_legături}
+## Sugestii de legături 
 
 -   [Render project](Render_project.md)
 -   [Raytracing tutorial](Raytracing_tutorial.md)

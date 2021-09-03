@@ -17,12 +17,12 @@ The **Mesh VertexCurvature** command creates Mesh Curvature objects for mesh obj
 1.  Select one or more mesh objects.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Mesh VertexCurvature](Mesh_VertexCurvature.md)** button.
-    -   Select the {{MenuCommand|Meshes → <img src="images/Mesh_VertexCurvature.svg" width=16px> Curvature plot}} option from the menu.
-    -   Select the {{MenuCommand|<img src="images/Mesh_VertexCurvature.svg" width=16px> Curvature plot}} option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
+    -   Select the **Meshes → <img src="images/Mesh_VertexCurvature.svg" width=16px> Curvature plot** option from the menu.
+    -   Select the **<img src="images/Mesh_VertexCurvature.svg" width=16px> Curvature plot** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
 
 ## Properties
 
-For a Mesh Curvature object the following properties are available in the [Property editor](Property_editor.md). Select the {{MenuCommand|Show all}} option from the Property editor context menu to display the hidden properties.
+For a Mesh Curvature object the following properties are available in the [Property editor](Property_editor.md). Select the **Show all** option from the Property editor context menu to display the hidden properties.
 
 ### Data
 
@@ -33,7 +33,7 @@ For a Mesh Curvature object the following properties are available in the [Prope
 
 -    **Source|Link**: a link to the mesh object.
 
-#### Data hidden {#data_hidden}
+#### Data hidden 
 
 
 {{TitleProperty|Base}}
@@ -61,7 +61,7 @@ For a Mesh Curvature object the following properties are available in the [Prope
 
 -    **Visibility|Bool**: if set to `True`, the object appears in the [3D view](3D_view.md).
 
-#### View hidden {#view_hidden}
+#### View hidden 
 
 
 {{TitleProperty|Base}}

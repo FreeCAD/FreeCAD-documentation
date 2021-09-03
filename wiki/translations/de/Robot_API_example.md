@@ -13,7 +13,7 @@ from Part import *
 from FreeCAD import *
 ```
 
-### Grundlegendes zum Roboter {#grundlegendes_zum_roboter}
+### Grundlegendes zum Roboter 
 
 Erstelle den Roboter. Wenn du keine andere Kinematik angibst, wird daraus ein Puma 560 
 ```python
@@ -80,7 +80,7 @@ print t.Waypoints
 del rob,Start,t,l,w
 ```
 
-### Arbeiten mit den Dokument Objekten {#arbeiten_mit_den_dokument_objekten}
+### Arbeiten mit den Dokument Objekten 
 
 Arbeiten mit den Roboter Dokumentenobjekten: Erstelle zunächst einen Roboter im aktiven Dokument 
 ```python
@@ -144,7 +144,7 @@ print App.activeDocument().Trajectory.Trajectory
 
 Zu erledigen\.....
 
-### Exportieren der Trajektorie {#exportieren_der_trajektorie}
+### Exportieren der Trajektorie 
 
 Die Trajektorie wird mit Python exportiert. Das heißt, für jeden Schaltschranktyp gibt es ein Postprozessor Python Modul. Hier ist der Kuka Postprozessor im Detail beschrieben 
 ```python

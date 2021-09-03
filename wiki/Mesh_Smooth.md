@@ -19,41 +19,41 @@ The **Mesh Smoothing** command smooths mesh objects by changing the position of 
 2.  Select one or more mesh objects.
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_Smoothing.svg" width=16px> [Mesh Smoothing](Mesh_Smoothing.md)** button.
-    -   Select the {{MenuCommand|Meshes → <img src="images/Mesh_Smoothing.svg" width=16px> Smooth...}} option from the menu.
-4.  The {{MenuCommand|Smoothing}} task panel opens.
-5.  If you only want to smooth selected areas: choose the {{MenuCommand|Only selection}} option:
-    -   The {{MenuCommand|Selection}} panel is added to the task panel.
+    -   Select the **Meshes → <img src="images/Mesh_Smoothing.svg" width=16px> Smooth...** option from the menu.
+4.  The **Smoothing** task panel opens.
+5.  If you only want to smooth selected areas: choose the **Only selection** option:
+    -   The **Selection** panel is added to the task panel.
     -   Specify the region options:
         -   
-            {{MenuCommand|Respect only visible triangles}}
+            **Respect only visible triangles**
             
 
         -   
-            {{MenuCommand|Respect only triangles with normals facing screen}}
+            **Respect only triangles with normals facing screen**
             
     -   Press the **Add** button and while holding down the left mouse button draw a region, a closed spline, in the [3D view](3D_view.md). Faces that match the region options and (partially) fall inside the region will be selected.
     -   Optionally press the **Clear** button to clear the selection.
-6.  Select the smoothing {{MenuCommand|Method}}:
+6.  Select the smoothing **Method**:
     -   
-        {{MenuCommand|Taubin}}
+        **Taubin**
         
 
     -   
-        {{MenuCommand|Laplace}}
+        **Laplace**
         
-7.  Specify the {{MenuCommand|Parameters}}:
+7.  Specify the **Parameters**:
     -   
-        {{MenuCommand|Iterations}}
+        **Iterations**
         
         : the higher this number the smoother the final result. The value also has an impact on the total processing time of the command. Avoid high values if the mesh objects have many points.
 
     -   
-        {{MenuCommand|λ}}
+        **λ**
         
         : the value must be in the {{Value|0}} - {{Value|1}} range.
 
     -   
-        {{MenuCommand|μ}}
+        **μ**
         
         : the value must be in the {{Value|0}} - {{Value|1}} range.
 8.  Press the **OK** button to finish the command.

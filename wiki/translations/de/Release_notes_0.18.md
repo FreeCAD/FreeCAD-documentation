@@ -44,7 +44,7 @@ Verbesserte und erweiterte [Arch und BIM](#Arch_Workbench/de.md) Werkzeuge.
 
 
 
-## Arbeitsbereich Arch {#arbeitsbereich_arch}
+## Arbeitsbereich Arch 
 
 <img alt="The Arch workbench at work" src=images/Arch_release018_example.jpg  style="width:700px;">
 
@@ -65,7 +65,7 @@ Verbesserte und erweiterte [Arch und BIM](#Arch_Workbench/de.md) Werkzeuge.
 
 -   But there is much more! Check the [Arch/BIM development reports](https://github.com/yorikvanhavre/BIM_Workbench/wiki) to see everything that has been done there this year.
 
-## Arbeitsbereich Entwurf {#arbeitsbereich_entwurf}
+## Arbeitsbereich Entwurf 
 
 <img alt="More precise Draft annotation tools" src=images/Draft_release018_example.jpg  style="width:700px;">
 
@@ -80,9 +80,9 @@ Verbesserte und erweiterte [Arch und BIM](#Arch_Workbench/de.md) Werkzeuge.
 
 
 
-## FEM Arbeitsbereich {#fem_arbeitsbereich}
+## FEM Arbeitsbereich 
 
-### Allgemeine Verbesserungen an der Code Basis {#allgemeine_verbesserungen_an_der_code_basis}
+### Allgemeine Verbesserungen an der Code Basis 
 
 -   Tonnen von Fehlerbehebungen.
 -   Code Refactoring und Reinigung. Beseitigen von doppelten Code.
@@ -101,20 +101,20 @@ Verbesserte und erweiterte [Arch und BIM](#Arch_Workbench/de.md) Werkzeuge.
 
 Die Materialhandhabung wurde verbessert. Es ist nun möglich, den globalen FreeCAD Materialeditor zu verwenden. Siehe auch [Materialkarten](Release_notes_0.18#Material_Handling/de.md). Dazu wurde die FEM Materialaufgabenkonsole aufpoliert.
 
-## Arbeitsbereich Part {#arbeitsbereich_part}
+## Arbeitsbereich Part 
 
 -   Das [Geometrie prüfen](Part_CheckGeometry/de.md) Werkzeug öffnet jetzt ein kleines Fenster mit einem Fortschrittsbalken und einer **Cancel** Schaltfläche, um die Aufgabe zu beenden, wenn sie zu lange dauert.
 -   Das neue [Defeaturing](Defeaturing_Workbench/de.md) Werkzeug basiert auf dem gleichnamigen Werkzeug, das in OCCT 7.3.0 enthalten ist. Es kann ausgewählte Attribute an einem Volumenkörper wie Löcher, Vorsprünge, Lücken, Fasen, Verrundungen usw. entfernen. Weitere Informationen findest du im [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211) Artikel auf der OCCT Netzseite. Bitte beachte, dass, wenn FreeCAD auf einer älteren Version als OCCT 7.3.0 aufbaut, dieses Werkzeug nicht zur Verfügung steht und ausgegraut wird.
 
 -   Das neue [AuseinanderKappen](Part_SliceApart/de.md) Werkzeug basiert auf dem Werkzeug [Kappen aus Verbund](Part_Slice/de.md) und enthält ein automatisches Sprengen des Verbunds zum einfachen Aufteilen von Objekten.
 
-## Arbeitsbereich PartDesign {#arbeitsbereich_partdesign}
+## Arbeitsbereich PartDesign 
 
 -   Das neue [Lokales koordinatensystem](PartDesign_CoordinateSystem/de.md) Werkzeug ermöglicht jetzt das Hinzufügen einer lokalen Koordinatensystem Visualisierung zu mehreren Bezugsobjekten.
 
-## Arbeitsbereich Pfad {#arbeitsbereich_pfad}
+## Arbeitsbereich Pfad 
 
-### Allgemeine Verbesserungen {#allgemeine_verbesserungen}
+### Allgemeine Verbesserungen 
 
 -   Pfad kann jetzt G-Code mit ABC Achsenwörtern korrekt anzeigen
 -   Verbesserungen am Werkzeugeditor - Vereinfachte Bearbeitung für ausgewählte Werkzeugtypen
@@ -139,7 +139,7 @@ Die Materialhandhabung wurde verbessert. Es ist nun möglich, den globalen FreeC
 -   grbl\_post -- Argument zur Unterdrückung von Werkzeugwechselbefehlen
 -   grbl\_g81 Nachbearbeiter
 
-## Arbeitsbereich Skizzierer {#arbeitsbereich_skizzierer}
+## Arbeitsbereich Skizzierer 
 
 <img alt="Skizzierer Ansicht Abschnitt Demo" src=images/Sketch-clip-plane-demo.png  style="width:700px;">
 
@@ -161,11 +161,11 @@ Entsprechende Forenverweise:
 -   [Skizzierermodus zur automatischen Entfernung von Redundanzen](https://forum.freecadweb.org/viewtopic.php?f=9&t=30594)
 -   [Beschränkungen erweiterte Benennung](https://forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 
-## Arbeitsbereich Tabellenkalkulation {#arbeitsbereich_tabellenkalkulation}
+## Arbeitsbereich Tabellenkalkulation 
 
-## Arbeitsbereich Oberfläche {#arbeitsbereich_oberfläche}
+## Arbeitsbereich Oberfläche 
 
-## TechDraw Arbeitsbereich {#techdraw_arbeitsbereich}
+## TechDraw Arbeitsbereich 
 
 Der TechDraw Arbeitsbereich erhielt eine Reihe von Ergänzungen und Verbesserungen für v0.18.
 
@@ -190,7 +190,7 @@ Der TechDraw Arbeitsbereich erhielt eine Reihe von Ergänzungen und Verbesserung
 
 FreeCAD stellt Materialkarten für Standardmetalle, Kunststoffe und verschiedene Stahlsorten zur Verfügung.
 
-## Zusätzliche Module {#zusätzliche_module}
+## Zusätzliche Module 
 
 Einige der neuen Gemeinschaftsmodule, die während des Entwicklungszyklus von 0.18 aktiv entwickelt wurden.
 

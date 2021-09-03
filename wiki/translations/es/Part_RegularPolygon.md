@@ -29,7 +29,7 @@ The RegularPolygon is available from the Create Primitives dialogue in the Part 
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
 2.  The RegularPolygon command can be accessed several ways:
     -   The Create Primitives dialogue via the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Primitives](Part_Primitives.md) icon located in the Part toolbar
-    -   Using the {{MenuCommand|Part → [Create primitives](Part_Primitives.md) → Regular Polygon}}
+    -   Using the **Part → [Create primitives](Part_Primitives.md) → Regular Polygon**
 
 ## Parameters
 

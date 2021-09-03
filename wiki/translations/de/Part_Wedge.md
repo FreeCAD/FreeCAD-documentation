@@ -15,7 +15,7 @@ Erstellt ein parametrisches Keil-Objekt. Der Keil hat standardmäßig eine groß
 
 ## Usage
 
-### Start-Größe und Position {#start_größe_und_position}
+### Start-Größe und Position 
 
 **Position:** Die Standard-Orientierung platziert die Grundfläche in die XZ-Ebene und die Deckfläche in Richtung der Y-Achse. Der Nullpunkt der Grundfläche liegt in 0/0/0.
 
@@ -35,7 +35,7 @@ Erstellt ein parametrisches Keil-Objekt. Der Keil hat standardmäßig eine groß
 
 ![](images/PartWedgeProperty.png ) 
 
-### Parametrische Eingaben {#parametrische_eingaben}
+### Parametrische Eingaben 
 
 +------------------------------------------------------------------+-----------------------------------------------------------------+
 | ![](images/PartWedgeProperty_Inputs.png ) | Zusammen mit der Standard-Orientierung stehen die Eingaben für: |
@@ -66,7 +66,7 @@ Erstellt ein parametrisches Keil-Objekt. Der Keil hat standardmäßig eine groß
 |                                                                  |     : Koordinatenwerte der oberen Fläche in Z-Richtung          |
 +------------------------------------------------------------------+-----------------------------------------------------------------+
 
-### Mehr Beispiele für Keile {#mehr_beispiele_für_keile}
+### Mehr Beispiele für Keile 
 
 ![](images/Wedge_examples.png )
 

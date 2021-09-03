@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 [Tutorial\_guidelines](Tutorial_guidelines.md)
 
@@ -13,7 +13,7 @@
 |Files=
 }}
 
-## Markup for feedback {#markup_for_feedback}
+## Markup for feedback 
 
 -   ![](images/At2_Fixme.gif )FIXME Comment
     -   When something needs a closer look, rewrite or other..

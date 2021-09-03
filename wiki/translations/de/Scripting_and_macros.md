@@ -3,7 +3,7 @@
 
 
 
-## Übersicht über Python Skriptseiten {#übersicht_über_python_skriptseiten}
+## Übersicht über Python Skriptseiten 
 
 -   Python bezogene Seiten im Handbuch:
     -   [Eine sanfte Einführung](Manual:A_gentle_introduction/de.md)

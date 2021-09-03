@@ -30,7 +30,7 @@ Dacă există sloturi de aliniere libere pentru elementul selectat, se creează 
 </div>
 
 -   Select an element of a sketch that supports internal alignment (currently only Ellipse/Arc and B-spline).
--   Invoke the command by clicking **<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> <img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** or choose {{MenuCommand|Sketch → Sketcher tools → [16px"> Show/Hide internal geometry}} or using the keyboard shortcut.
+-   Invoke the command by clicking **<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> <img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** or choose **Sketch → Sketcher tools → [16px"> Show/Hide internal geometry** or using the keyboard shortcut.
 
 If there are free alignment places for the selected element, new construction geometry is created and aligned to the available places. If all alignment places are occupied, the unused internal geometry is deleted (the element is treated as unused if it is not constrained to anything else).
 

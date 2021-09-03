@@ -37,7 +37,7 @@ The Section tool creates a cross section view based on an existing part view.
 
 -    **Fuse Before Cut**: Fuse the source shapes before performing the section cut.
 
-#### Cut Surface Format {#cut_surface_format}
+#### Cut Surface Format 
 
 -    **Cut Surface Display**: Appearance of cut surface. Options:
 
@@ -58,17 +58,17 @@ The Section tool creates a cross section view based on an existing part view.
 
 ### View
 
-#### Cut Surface {#cut_surface}
+#### Cut Surface 
 
 -    **Cut Surface Color**: Solid color for surface highlight. Used if **Cut Surface Display** is set to *Color*.
 
-#### Surface Hatch {#surface_hatch}
+#### Surface Hatch 
 
 -    **Hatch Color**: Color for surface hatch lines.
 
 -    **Weight Pattern**: Line weight for surface hatch lines.
 
-### Base View {#base_view}
+### Base View 
 
 A Section view inherits all applicable properties of the view specified as **BaseView**. In the properties of the view you can change the appearance of the section line:
 

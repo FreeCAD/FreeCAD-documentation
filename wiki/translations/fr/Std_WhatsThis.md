@@ -16,7 +16,7 @@ La commande **Std Qu\'est-ce que c\'est?** ouvre la documentation d\'aide pour u
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_WhatsThis.svg" width=16px> [Qu'est-ce que c'est?](Std_WhatsThis/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Help → <img src="images/Std_WhatsThis.svg" width=16px> Qu'est-ce que c'est?}} dans le menu.
+    -   Sélectionnez l\'option **Help → <img src="images/Std_WhatsThis.svg" width=16px> Qu'est-ce que c'est?** dans le menu.
     -   Utilisez le raccourci clavier: **Maj** + **F1**.
 2.  Cliquez sur un bouton de la barre d\'outils ou sur une option de menu.
 3.  La documentation d\'aide de la commande sélectionnée s\'ouvre dans une nouvelle fenêtre.

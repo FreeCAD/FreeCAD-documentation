@@ -17,17 +17,17 @@ L\'application la plus courante consiste à passer d\'un diamètre de corps à u
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_Transition.svg" width=16px> [Transition](Rocket_Transition/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Rocket  → <img src="images/Rocket_Transition.svg" width=16px> Transition}} dans le menu.
+    -   Sélectionnez l\'option **Rocket  → <img src="images/Rocket_Transition.svg" width=16px> Transition** dans le menu.
     -   Double-cliquez sur un objet Transition dans la vue du modèle.
 2.  Définissez les options et appuyez sur **OK**.
 
 ## Options
 
-### Types de transition {#types_de_transition}
+### Types de transition 
 
 Les transitions prennent en charge toutes les formes prises en charge par Coiffe, voir [Options de coiffe](Rocket_NoseCone/fr#Options.md) pour plus de détails.
 
-### Styles de transition {#styles_de_transition}
+### Styles de transition 
 
 Les transitions prennent en charge tous les styles pris en charge par Coiffe, voir [Options de coiffe](Rocket_NoseCone/fr#Options.md) pour plus de détails.
 
@@ -111,7 +111,7 @@ Voir aussi : [:Category:API/fr](:Category:API/fr.md) et [Débuter avec les scrip
 
 A définir
 
-## Tutoriels et apprentissage {#tutoriels_et_apprentissage}
+## Tutoriels et apprentissage 
 
 [Transitions atelier Rocket](https://youtu.be/O5Ze4MYAHNA) Tutoriel sur YouTube
 

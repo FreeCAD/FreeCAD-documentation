@@ -39,7 +39,7 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 /usr/share/freecad/Mod/TechDraw/Templates/HowToExample.svg
 ```
 
-## Creare un documento di base {#creare_un_documento_di_base}
+## Creare un documento di base 
 
 1\. Aprire un nuovo documento in Inkscape.
 
@@ -68,7 +68,7 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 </div>
 
-## Creare il disegno del modello {#creare_il_disegno_del_modello}
+## Creare il disegno del modello 
 
 4\. Disegnare contorni, numeri di zona, linee centrali e altre geometrie.
 
@@ -80,7 +80,7 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 8\. Ora, il lavoro finito dovrebbe assomigliare a questo: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> *align=center|Inkscape: layout del modello provvisorio* 
 
-## Creare i campi modificabili {#creare_i_campi_modificabili}
+## Creare i campi modificabili 
 
 9\. Utilizzare l\'editor XML per aggiungere un tag `freecad:editable` a ogni elemento `<text>` editable.
 
@@ -88,7 +88,7 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 <img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> *align=center|Inkscape: editor XML che aggiunge la proprietà "freecad:editable" a ogni elemento <text>* 
 
-## Regolare le dimensioni del SVG {#regolare_le_dimensioni_del_svg}
+## Regolare le dimensioni del SVG 
 
 10\. Utilizzare l\'editor XML per regolare l\'attributo `viewBox` in modo che corrisponda alle dimensioni della pagina in millimetri.
 
@@ -100,24 +100,24 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 12\. Bisogna ridurlo.
 
--    {{MenuCommand|Modifica → Seleziona tutto in ogni livello}}, o box di selezione e selezionare tutto.
+-    **Modifica → Seleziona tutto in ogni livello**, o box di selezione e selezionare tutto.
 
 -   Adattare gli spinbox **W:** e **H:** per impostare le dimensioni del disegno in millimetri.
 
 -   Impostare la dimensione della pagina meno eventuali margini applicabili, ad esempio {{Button | W: 250}} e {{Button | H: 200}}.
 
-13\. Usare {{MenuCommand|Oggetto → Allinea e distrubuisci}} o gli spinbox **X:** e **Y:** per posizionare il disegno entro i limiti della pagina, se necessario.
+13\. Usare **Oggetto → Allinea e distrubuisci** o gli spinbox **X:** e **Y:** per posizionare il disegno entro i limiti della pagina, se necessario.
 
 14\. Ora il modello dovrebbe apparire corretto, proprio come nella foto sopra del disegno finito.
 
-## Rimuovere le trasformazioni nel file SVG {#rimuovere_le_trasformazioni_nel_file_svg}
+## Rimuovere le trasformazioni nel file SVG 
 
 15\. Assicurarsi che tutti i testi modificabili siano \"non raggruppati\" con **Maiusc**+**Ctrl**+**g**.
 
 
 <div class="mw-translate-fuzzy">
 
-16\. Selezionare tutti gli elementi della pagina, {{MenuCommand|Modifica → Seleziona tutto}}, e poi {{MenuCommand|Modifica → Copia}}.
+16\. Selezionare tutti gli elementi della pagina, **Modifica → Seleziona tutto**, e poi **Modifica → Copia**.
 
 
 </div>
@@ -125,7 +125,7 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 <div class="mw-translate-fuzzy">
 
-17\. Quindi eliminare il livello, layer corrente, {{MenuCommand|Livello → Elimina livello attuale}}.
+17\. Quindi eliminare il livello, layer corrente, **Livello → Elimina livello attuale**.
 
 
 </div>
@@ -133,7 +133,7 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 <div class="mw-translate-fuzzy">
 
-18\. Poi incollare, {{MenuCommand|Modifica → Incolla in origine}}.
+18\. Poi incollare, **Modifica → Incolla in origine**.
 
 
 </div>

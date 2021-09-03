@@ -74,7 +74,7 @@ Il pulsante **Switch L/H** può essere utilizzato per scambiare i valori lunghez
 <img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
 *Alcuni preset per strutture prefabbricate in calcestruzzo*
 
-## Nodi strutturali {#nodi_strutturali}
+## Nodi strutturali 
 
 Gli oggetti struttura hanno anche la possibilità di visualizzare i nodi strutturali. I nodi strutturali sono una sequenza di punti 3D memorizzati nella proprietà \"Nodes\". Commutando on/off la proprietà vista \"Show Nodes\", si possono vedere i nodi strutturali di un elemento struttura:
 

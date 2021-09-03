@@ -14,7 +14,7 @@ Creates a FEM constraint for keeping the nodes in a planar surface in the same p
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> [FEM ConstraintPlaneRotation](FEM_ConstraintPlaneRotation.md)** button.
-    -   Select the {{MenuCommand|Model → Geometrical Constraints → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Constraint plane rotation}} option from the menu.
+    -   Select the **Model → Geometrical Constraints → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Constraint plane rotation** option from the menu.
 2.  In the [3D view](3D_view.md) select the object the constraint should be applied to, which can be a face.
 
 ## Limitations

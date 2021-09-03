@@ -31,7 +31,7 @@ Note:
 
  
 
-## Create a gear {#create_a_gear}
+## Create a gear 
 
 -   go to the gear workbench
 -   click on gear symbol

@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Создание SVG-шаблонов {#создание_svg_шаблонов}
+## Создание SVG-шаблонов 
 
 
 <div class="mw-translate-fuzzy">
@@ -16,12 +16,12 @@
 
 </div>
 
-### Base rules {#base_rules}
+### Base rules 
 
 
 <div class="mw-translate-fuzzy">
 
-### Базовые правила {#базовые_правила}
+### Базовые правила 
 
 -   1 пиксель = 1 миллиметру. Размер страницы может быть указан внутри открывающего тега<svg>либо без единиц измерения, либо с \"мм\". Например, эти две формы действительны:
 
@@ -60,12 +60,12 @@ This text above (which is actually an XML comment) must be on a separate line, a
 
 xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
-### Title block {#title_block}
+### Title block 
 
 
 <div class="mw-translate-fuzzy">
 
-### Блок Title {#блок_title}
+### Блок Title 
 
 В дополнение к этим правилам, начиная с FreeCAD 0.14, информация о границах блока Title может быть добавлена в шаблон для использования инструментом орфографической проекции. Эта область определяет, где FreeCAD может и не может размещать проекции.
 
@@ -144,7 +144,7 @@ viewBox="0 0 xxx yyy"
 
 </div>
 
-## DXF шаблоны {#dxf_шаблоны}
+## DXF шаблоны 
 
 Since version 0.15, FreeCAD can reliably export a [Drawing](Drawing_Workbench.md) page to the DXF format. This system also uses templates. If a dxf file with the same name is found in the same folder as the SVG template used for a page, it will be used for export. If not, a default empty template is created on the fly.
 
@@ -187,61 +187,61 @@ The above template doesn\'t contain any entity. If you create your DXF file with
 
 The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities\". They must exist in the template, and they must be placed on their own line. You can choose to place them right after the BLOCKS or ENTITIES line, which is easier (just use the \"search\" function of your text editor to find them), or at the end, just before the \"0 ENDSEC\" lines (beware that there is one for each SECTION, make sure to use the ones relative to BLOCKS and ENTITIES). The latter method will place the FreeCAD objects after the objects defined in the template, which might be more logical.
 
-## A3 templates {#a3_templates}
+## A3 templates 
 
-### A3 Classic: {#a3_classic}
+### A3 Classic: 
 
 <img alt="" src=images/A3_Classic.svg  style="width:800px;">
 
-### A3 Clean: {#a3_clean}
+### A3 Clean: 
 
 <img alt="" src=images/A3_Clean.svg  style="width:800px;">
 
-### A3 Modern: {#a3_modern}
+### A3 Modern: 
 
 <img alt="" src=images/A3_Modern.svg  style="width:800px;">
 
-### A3 Showcase: {#a3_showcase}
+### A3 Showcase: 
 
 <img alt="" src=images/A3_Showcase.svg  style="width:800px;">
 
-### A3 Landscape english: {#a3_landscape_english}
+### A3 Landscape english: 
 
 <img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
 
-## A4 Templates {#a4_templates}
+## A4 Templates 
 
-### A4 Landscape english: {#a4_landscape_english}
+### A4 Landscape english: 
 
 <img alt="" src=images/A4_Landscape_english.svg  style="width:800px;">
 
-### A4 Portrait 1 english: {#a4_portrait_1_english}
+### A4 Portrait 1 english: 
 
 <img alt="" src=images/A4_Portrait_1_english.svg  style="width:400px;">
 
-## US Letter Templates {#us_letter_templates}
+## US Letter Templates 
 
-### US Letter landscape: {#us_letter_landscape}
+### US Letter landscape: 
 
 <img alt="" src=images/US_Letter_landscape.svg  style="width:800px;">
 
-### US Letter portrait: {#us_letter_portrait}
+### US Letter portrait: 
 
 <img alt="" src=images/US_Letter_portrait.svg  style="width:400px;">
 
-### US Letter ds Landscape: {#us_letter_ds_landscape}
+### US Letter ds Landscape: 
 
 <img alt="" src=images/US_Letter_ds_Landscape.svg  style="width:800px;">
 
-### US Legal ds Landscape: {#us_legal_ds_landscape}
+### US Legal ds Landscape: 
 
 <img alt="" src=images/US_Legal_ds_Landscape.svg  style="width:800px;">
 
-### US Ledger ds Landscape: {#us_ledger_ds_landscape}
+### US Ledger ds Landscape: 
 
 <img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width:800px;">
 
-## Other standards available {#other_standards_available}
+## Other standards available 
 
 -   [ANSI templates](ANSI_templates.md): according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
 -   [Arch templates](Arch_templates.md): according to American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard

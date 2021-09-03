@@ -16,7 +16,7 @@ Te środowiska pracy nie są wspierane przez główny zespół programistów Fre
 
 Środowiska oznaczone ikonką <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> nie są rekomendowane dla nowych wersji programu FreeCAD. Są one przestarzałe, nieutrzymywane i zastąpione przez nowsze środowisko lub mogą nie działać z Pythonem 3 i Qt5. W większości przypadków powinny być unikane.
 
-## Środowiska złożeń {#środowiska_złożeń}
+## Środowiska złożeń 
 
 W chwili wydania programu FreeCAD w wersji 0.19 nie było oficjalnego środowiska złożeń. Jednak istnieje szereg zewnętrznych narzędzi tworzonych lub będących w czasie rozwoju, które służą manipulowaniu obiektami w celu budowy złożeń.
 
@@ -24,7 +24,7 @@ Zauważ, że środowiska złożeń są z reguły niekompatybilne między sobą. 
 
 Istnieją też środowiska \"pseudo złożeń\" które nie używają więzów do utrzymania powiązań między częściami, ale po prostu pozycjonują je w przestrzeni.
 
-## Informacje ogólne {#informacje_ogólne}
+## Informacje ogólne 
 
 Poniższa tabela jest uporządkowana tematycznie, ale można zmienić jej układ klikając na dowolny nagłówek kolumny.
 
@@ -234,7 +234,7 @@ Poniższa tabela jest uporządkowana tematycznie, ale można zmienić jej układ
 | <img alt="" src=images/FrontISTR.svg  style="width:32px;">                                                                     | [FEM FrontISTR](FEM_FrontISTR_Workbench/pl.md)                     | Symulacja                  | Stanowi on interfejs graficzny dla [FrontISTR](https://www.frontistr.com), otwartego, wielkoskalowego, równoległego programu MES do nieliniowej analizy strukturalnej.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | kinagaki                                                 | <https://github.com/FrontISTR/FEM_FrontISTR>                                        |                                                      |                                                    |
 +--------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------+-------------------------------------------------------------------------------------+------------------------------------------------------+----------------------------------------------------+
 
-## Tłumaczenie interfejsu zewnętrznych środowisk pracy {#tłumaczenie_interfejsu_zewnętrznych_środowisk_pracy}
+## Tłumaczenie interfejsu zewnętrznych środowisk pracy 
 
 Aby uzyskać więcej informacji, przejdź do strony Wiki [Tłumaczenie interfejsu zewnętrznych Środowisk pracy](Translating_an_external_workbench/pl.md).
 

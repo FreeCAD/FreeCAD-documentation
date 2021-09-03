@@ -39,7 +39,7 @@ Qualsiasi file mancante viene stampato nella Vista Report. Ogni directory mancan
 
 Viene creato un nuovo documento e ogni progetto è un \"Project Merged\" posto in tale nuovo documento vuoto. Alla fine il documento non viene salvato, deve farlo l\'utente, se lo desidera. Quando il file non esiste, il suo nome viene stampato nella vista report
 
-## Interfaccia utente {#interfaccia_utente}
+## Interfaccia utente 
 
 Per questa macro non c\'è nessun tipo di GUI. La macro legge un file di testo che è stato preparato con un editor di testo e produce un modello in un documento di output. Basta fare clic sul pulsante nella barra degli strumenti per avviare il processo, non vi è alcuna interazione da parte dell\'utente.
 

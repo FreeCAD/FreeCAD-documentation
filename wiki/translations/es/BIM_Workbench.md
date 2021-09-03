@@ -30,7 +30,7 @@ Los desarrolladores de Draft, Arch y BIM también colaboran con la gran [OSArch 
 
 ## Instalación
 
-El ambiente de trabajo BIM no está incluido en el paquete predeterminado de FreeCAD, pero puede ser instalado fácilmente a través de la <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/es.md). Invóquelo desde {{MenuCommand|Herramientas → [Addons Manager](Std_AddonMgr/es.md)}}. El código del ambiente de trabajo BIM es [alojado y desarrollado en github](https://github.com/yorikvanhavre/BIM_Workbench) y también puede ser instalado manualmente copiándolo en el directorio {{FileName|MOD}} de FreeCAD.
+El ambiente de trabajo BIM no está incluido en el paquete predeterminado de FreeCAD, pero puede ser instalado fácilmente a través de la <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/es.md). Invóquelo desde **Herramientas → [Addons Manager](Std_AddonMgr/es.md)**. El código del ambiente de trabajo BIM es [alojado y desarrollado en github](https://github.com/yorikvanhavre/BIM_Workbench) y también puede ser instalado manualmente copiándolo en el directorio {{FileName|MOD}} de FreeCAD.
 
 **Nota**
 
@@ -38,7 +38,7 @@ El ambiente de trabajo BIM es un trabajo en progreso, y cambiará a menudo. ¡As
 
 Las herramientas que se enumeran a continuación pueden no estar todas presentes si su versión de FreeCAD no está totalmente actualizada. Sin embargo, el ambiente de trabajo BIM debería funcionar sin problemas en todas las versiones de FreeCAD, sólo eliminará las herramientas no disponibles.
 
-## Cómo empezar {#cómo_empezar}
+## Cómo empezar 
 
 <img alt="" src=images/BIM_welcome_screen.png  style="width:800px;">
 
@@ -60,7 +60,7 @@ Además, si se instalan estos [addons](External_workbenches/es.md), las herramie
 
 El ambiente de trabajo BIM también añade una serie de elementos en la **barra de estado** de FreeCAD, y un par de elementos del **menú contextual**\', accesibles haciendo clic con el botón derecho en la vista 3D o en la vista de árbol.
 
-### 2D Elaboración {#d_elaboración}
+### 2D Elaboración 
 
 Los objetos 2D se utilizan habitualmente como ayudas al dibujo, o para dibujar líneas y perfiles base sobre los que construir objetos BIM. También pueden utilizarse para dibujar símbolos y anotaciones en el modelo. Aparte de los bocetos, que utilizan su propio sistema de coordenadas, los objetos 2D se dibujarán en el [plano de trabajo](Draft_SelectPlane/es.md) actual.
 
@@ -93,7 +93,7 @@ Anotaciones son objetos de ayuda visual que se pueden colocar dentro de su model
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Página](TechDraw_PageDefault/es.md): Crea una nueva página [TechDraw](TechDraw_Workbench/es.md) a partir de una plantilla [SVG](TechDraw_Templates/es.md) new [TechDraw](TechDraw_Workbench.md) page from a [SVG plantilla](TechDraw_Templates/es.md)
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vista](TechDraw_ArchView/es.md): Inserta una vista de un plano de sección en una página
 
-### 3D / BIM Modelado {#d_bim_modelado}
+### 3D / BIM Modelado 
 
 Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyecto BIM.
 
@@ -133,7 +133,7 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Constructor formas](Part_Builder/es.md): Una herramienta para crear formas más complejas a partir de varias primitivas geométricas paramétricas
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Facebinder](Draft_Facebinder/es.md): Crea un nuevo objeto a partir de caras seleccionadas en objetos existentes
 
-### Herramientas de modificación {#herramientas_de_modificación}
+### Herramientas de modificación 
 
 -   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Move](Draft_Move.md): Moves object(s) from one location to another
 -   <img alt="" src=images/BIM_Copy.png  style="width:32px;"> [Copy](BIM_Copy.md): Copies object(s) from one location to another
@@ -161,7 +161,7 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component
 
-### Herramientas de gestión {#herramientas_de_gestión}
+### Herramientas de gestión 
 
 -   <img alt="" src=images/BIM_Setup.png  style="width:32px;"> [BIM setup](BIM_Setup.md): Configures some of the FreeCAD preferences most commonly used for BIM
 -   <img alt="" src=images/BIM_Project.png  style="width:32px;"> [Project setup](BIM_Project.md): Allows to create some basic objects such as a [site](Arch_Site.md), a [building](Arch_Building.md) and [axes](Arch_Axis.md) by filling basic project information.
@@ -177,14 +177,14 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Preflight checks](BIM_Preflight.md): Perform different checks on your model before exporting to IFC
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation style editor](Draft_AnnotationStyleEditor.md): Manages annotation styles used by texts and dimensions
 
-## Tutoriales y aprendizaje {#tutoriales_y_aprendizaje}
+## Tutoriales y aprendizaje 
 
 -   [Arch & BIM tutoriales en esta wiki](Tutorials#Architecture_and_BIM.md)
 -   [\"BIM con FreeCAD\" serie de vídeos de Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD tutoriales\" serie de vídeos de Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" serie de vídeos de Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
 
-## Ambiente de trabajo externos {#ambiente_de_trabajo_externos}
+## Ambiente de trabajo externos 
 
 Ambientes de trabajo de FreeCAD son fáciles de programar en [Python](Python/es.md), por lo que hay mucha gente desarrollando ambientes de trabajo adicionales fuera de los desarrolladores principales de FreeCAD.
 

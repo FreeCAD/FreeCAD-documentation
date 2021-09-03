@@ -51,7 +51,7 @@ Först av allt (om det inte redan är gjort), ladda ned och installera FreeCAD. 
 
 <div class="mw-translate-fuzzy">
 
-## Utforska FreeCAD {#utforska_freecad}
+## Utforska FreeCAD 
 
 
 </div>
@@ -97,7 +97,7 @@ When you start FreeCAD for the first time, you are presented with the start cent
 
 The Start Center allows you to quickly jump to one of the most common workbenches, open one of the recent files, or see the latest news from the FreeCAD world. You can change the default workbench in the [preferences](Preferences_Editor.md).
 
-### Navigera i 3D rymden {#navigera_i_3d_rymden}
+### Navigera i 3D rymden 
 
 FreeCAD har två olika [navigationslägen](Mouse_Model/sv.md) tillgängliga, som kan ställas in i inställningsdialogen. I standardläget, så utförs **zoomning** med **Mushjulet**, **panorering** med **Mittre musknappen**, och **rotation** med **vänster musknapp** och **Mittre musknappen** samtidigt. Val av ett objekt görs genom att klicka på det med **vänster musknapp**, med **CTRL** nedtryckt om du vill välja flera objekt.
 
@@ -160,7 +160,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 You also have several view presets (top view, front view, etc) available in the View menu, on the View toolbar, and by numeric shortcuts (**1**, **2**, etc\...). By right-clicking on an object or on an empty area of the 3D view, you have quick access to some common operations, such as setting a particular view, or locating an object in the Tree view.
 
-## First steps with FreeCAD {#first_steps_with_freecad}
+## First steps with FreeCAD 
 
 FreeCAD\'s focus is to allow you to make high-precision 3D models, to keep tight control over those models (being able to go back into modelling history and change parameters), and eventually to build those models (via 3D printing, CNC machining or even construction worksite). It is therefore very different from some other 3D applications made for other purposes, such as animation film or gaming. Its learning curve can be steep, especially if this is your first contact with 3D modeling. If you are struck at some point, don\'t forget that the friendly community of users on the [FreeCAD forum](http://forum.freecadweb.org/index.php) might be able to get you out in no time.
 
@@ -168,7 +168,7 @@ The workbench you will start using in FreeCAD depends on the type of job you nee
 
 You can switch workbenches at any time, and also [customize](Interface_Customization.md) your favorite workbench to add tools from other workbenches.
 
-## Working with the PartDesign and Sketcher workbenches {#working_with_the_partdesign_and_sketcher_workbenches}
+## Working with the PartDesign and Sketcher workbenches 
 
 The [PartDesign Workbench](PartDesign_Workbench.md) is made to build complex objects, starting from simple shapes, and adding or removing pieces (called \"features\"), until you get to your final object. All the features you applied during the modelling process are stored in a separate view called the [tree view](Document_structure.md), which also contains the other objects in your document. You can think of a PartDesign object as a succession of operations, each one applied to the result of the preceding one, forming one big chain. In the tree view, you see your final object, but you can expand it and retrieve all preceding states, and change any of their parameter, which automatically updates the final object.
 
@@ -192,7 +192,7 @@ Which gives you an object like this:
 
 At any moment, you can select the original sketches and modify them, or change the extrusion parameters of the pad or pocket operations, which will update the final object.
 
-## Working with the Draft and Arch workbenches {#working_with_the_draft_and_arch_workbenches}
+## Working with the Draft and Arch workbenches 
 
 The [Draft Workbench](Draft_Workbench.md) and [Arch Workbench](Arch_Workbench.md) behave a bit differently than the other workbenches above, although they follow the same rules, which are common to all of FreeCAD. In short, while the Sketcher and PartDesign are made primarily to design single pieces, Draft and Arch are made to ease your work when working with several, simpler objects.
 
@@ -216,7 +216,7 @@ Which will give you this:
 
 More on the [Tutorials](Tutorials.md) page.
 
-## Addons, Macro and External workbenches {#addons_macro_and_external_workbenches}
+## Addons, Macro and External workbenches 
 
 Freecad, as an open source software, offers the possibility to supplement its workbenches with addons.
 
@@ -231,7 +231,7 @@ There are two types of addons:
 
 And finally, one of the most powerful features of FreeCAD is the [scripting](scripting.md) environment. From the integrated python console (or from any other external Python script), you can gain access to almost any part of FreeCAD, create or modify geometry, modify the representation of those objects in the 3D scene or access and modify the FreeCAD interface. Python scripting can also be used in [macros](macros.md), which provide an easy method to create custom commands.
 
-## What\'s new {#whats_new}
+## What\'s new 
 
 -   See the [release notes](Feature_list#Release_notes.md) for the detailed list of features.
 

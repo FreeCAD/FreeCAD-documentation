@@ -11,7 +11,7 @@ Această comandă vă permite să plasați un bloc de text pe un [Drawing page](
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

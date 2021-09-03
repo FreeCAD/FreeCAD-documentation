@@ -20,7 +20,7 @@ This tutorial is meant to introduce the reader to the basic workflow of the [Par
 
 ### Procedure
 
-#### Creating 3D geometry {#creating_3d_geometry}
+#### Creating 3D geometry 
 
 The purpose of the **PartDesign Workbench** is to allow the user to create geometry in 3D space. As such, it is equipped with tools to make use of sketches and convert them to 3D objects.
 
@@ -42,7 +42,7 @@ Another way to create 3D geometry is with the <img alt="" src=images/PartDesign_
 4.  Set the \"Axis\" to the \"Horizontal Sketch Axis\"
 5.  Set the angle to 360°
 
-#### Subtracting Features {#subtracting_features}
+#### Subtracting Features 
 
 We\'ll begin by creating a sketch with the shape we want to subtract.
 
@@ -69,7 +69,7 @@ Afterwards, we\'ll proceed to apply a **Pocket** feature.
 2.  Select <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Pocket](PartDesign_Pocket.md)
 3.  Set the distance to **Through all**
 
-#### Pattern Features {#pattern_features}
+#### Pattern Features 
 
 Recall the extruded profile that was created at the start of the tutorial.
 

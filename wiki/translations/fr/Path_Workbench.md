@@ -34,12 +34,12 @@ Le flux de travail de l\'atelier Path FreeCAD crée ces instructions machine com
 
 </div>
 
-## General concepts {#general_concepts}
+## General concepts 
 
 
 <div class="mw-translate-fuzzy">
 
-## Concepts généraux {#concepts_généraux}
+## Concepts généraux 
 
 L\'atelier Path génère le G-Code définissant les parcours d\'outils requis pour fabriquer le projet représenté par le modèle 3D sur la fraiseuse cible en [Format G-Code interne de FreeCAD](Path_scripting/fr#Le_Format_G-Code_interne_de_FreeCAD.md), qui est ensuite traduit dans le langage approprié pour le contrôleur CNC cible en sélectionnant le Post processeur approprié.
 
@@ -63,10 +63,10 @@ L\'atelier Path fournit des outils de gestion (bibliothèque, table d\'outils), 
 
 L\'atelier Path possède des dépendances externes, notamment :
 
-1.  Les unités du modèle 3D FreeCAD sont définies dans les paramètres {{MenuCommand|Édition → Préférences → Général → Onglet Unités Réglage des unités}}. La configuration du Post processeur définit les unités G-Code finales.
-2.  Le chemin du fichier Macro et les tolérances géométriques sont définis dans l\'onglet {{MenuCommand|Édition → Préférences → Path → Job Préférences}}.
-3.  Les couleurs sont définies dans l\'onglet {{MenuCommand|Édition → Préférences → Path → Couleurs de chemin}}.
-4.  Les paramètres des éléments de maintien sont définis dans l\'onglet {{MenuCommand|Édition → Préférences → Path → Trajectoires additionnelles (Dressups)}}.
+1.  Les unités du modèle 3D FreeCAD sont définies dans les paramètres **Édition → Préférences → Général → Onglet Unités Réglage des unités**. La configuration du Post processeur définit les unités G-Code finales.
+2.  Le chemin du fichier Macro et les tolérances géométriques sont définis dans l\'onglet **Édition → Préférences → Path → Job Préférences**.
+3.  Les couleurs sont définies dans l\'onglet **Édition → Préférences → Path → Couleurs de chemin**.
+4.  Les paramètres des éléments de maintien sont définis dans l\'onglet **Édition → Préférences → Path → Trajectoires additionnelles (Dressups)**.
 5.  Pour que la qualité du modèle 3D de base respecte les exigences de l\'atelier Path, utilisez Vérifier la géométrie.
 
 
@@ -106,12 +106,12 @@ Path Inspection :
 
 1.  Si vous utilisez l\'outil Path Inspect pour regarder le g-code, vous le verrez en \'mm/s\' car il n\'est pas post-traité
 
-## Heights and depths {#heights_and_depths}
+## Heights and depths 
 
 
 <div class="mw-translate-fuzzy">
 
-## Commandes Path {#commandes_path}
+## Commandes Path 
 
 De nombreuses commandes ont différentes hauteurs et profondeurs : <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
 *Référence visuelle pour les propriétés de profondeur (paramètres)*
@@ -126,7 +126,7 @@ De nombreuses commandes ont différentes hauteurs et profondeurs : <img alt="" s
 
 Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
 
-### Project Commands {#project_commands}
+### Project Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -160,7 +160,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### Tool Commands {#tool_commands}
+### Tool Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -201,7 +201,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Opérations de base de Path {#opérations_de_base_de_path}
+### Opérations de base de Path 
 
 
 </div>
@@ -278,7 +278,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### 3D Operations {#d_operations}
+### 3D Operations 
 
 
 <div class="mw-translate-fuzzy">
@@ -307,7 +307,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Habillage Path {#habillage_path}
+### Habillage Path 
 
 
 </div>
@@ -363,7 +363,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Commandes particulières {#commandes_particulières}
+### Commandes particulières 
 
 
 </div>
@@ -411,7 +411,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Modification du parcours d\'usinage {#modification_du_parcours_dusinage}
+### Modification du parcours d\'usinage 
 
 
 </div>
@@ -468,7 +468,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-## ToolBit architecture {#toolbit_architecture}
+## ToolBit architecture 
 
 Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
 

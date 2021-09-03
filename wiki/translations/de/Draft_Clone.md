@@ -22,7 +22,7 @@ Der Befehl kann auf 2D Objekte angewendet werden, die mit dem [Arbeitsbereich En
 1.  Wähle optional ein oder mehrere Objekte aus.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_Clone.svg" width=16px> [Entwurf klonen](Draft_Clone/de.md)**.
-    -   Wähle die Option {{MenuCommand|Änderung → <img src="images/Draft_Clone.svg" width=16px> Klonen}} aus dem Menü.
+    -   Wähle die Option **Änderung → <img src="images/Draft_Clone.svg" width=16px> Klonen** aus dem Menü.
     -   Verwende den Tastaturkürzel: **C** und dann **L**.
 3.  Wenn du noch kein Objekt ausgewählt hadt: Wähle ein Objekt in der [3D Ansicht](3D_view/de.md).
 

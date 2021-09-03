@@ -17,7 +17,7 @@ La commande <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Draft
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Draft_Split.svg" width=16px> [Divise la ligne ou la polyligne...](Draft_Split/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → <img src="images/Draft_Split.svg" width=16px> Scinder}} dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Split.svg" width=16px> Scinder** dans le menu.
     -   Utilisez le raccourci clavier : **S** puis **P**.
 2.  Déplacez le pointeur sur le bon bord d\'une [Draft Ligne](Draft_Line/fr.md) ou d\'une [Draft Polyligne](Draft_Wire/fr.md).
 3.  L\'arête est mise en surbrillance.

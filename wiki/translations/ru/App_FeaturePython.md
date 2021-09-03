@@ -25,9 +25,9 @@ In addition to the properties described in [App DocumentObject](App_DocumentObje
 
 See [Property](Property.md) for all property types that scripted objects can have.
 
-These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the {{MenuCommand|Show all}} command in the context menu of the [property editor](property_editor.md).
+These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
-### Свойства объекта {#свойства_объекта}
+### Свойства объекта 
 
 
 {{TitleProperty|Base (Базовые)}}
@@ -42,7 +42,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 -    **Visibility|Bool|Hidden**: whether to display the object or not.
 
-### Свойства отображения {#свойства_отображения}
+### Свойства отображения 
 
 These properties correspond to the basic properties of the base [viewprovider](viewprovider.md), `Gui::ViewProviderDocumentObject`, that is inherited by all viewproviders in the software.
 
@@ -67,7 +67,7 @@ These properties correspond to the basic properties of the base [viewprovider](v
 
 -    **Selection Style|Enumeration**: it controls the way the object is highlighted if it has a [Shape](Part_TopoShape.md). If it is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} a bounding box will appear surrounding the object and will be highlighted.
 
-## Составление скриптов {#составление_скриптов}
+## Составление скриптов 
 
 
 **Смотрите так же:**

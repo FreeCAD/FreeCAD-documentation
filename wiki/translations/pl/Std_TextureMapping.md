@@ -13,7 +13,7 @@ The **Std TextureMapping** command temporarily maps a texture onto all objects i
 
 ## Usage
 
-1.  Select the {{MenuCommand|View → <img src="images/Std_TextureMapping.svg" width=16px> Texture Mapping...}} option from the menu.
+1.  Select the **View → <img src="images/Std_TextureMapping.svg" width=16px> Texture Mapping...** option from the menu.
 2.  In the Texture task panel optionally check the {{CheckBox|TRUE|Environment}} checkbox.
 3.  Press the **...** button.
 4.  Select an image file in the dialog box.

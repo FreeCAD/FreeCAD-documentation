@@ -16,7 +16,7 @@ La commande **Std Ouvrir** ouvre un fichier. Si le fichier n\'est pas un fichier
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_Open.svg" width=16px> [Std Ouvrir](Std_Open/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Fichier → <img src="images/Std_Open.svg" width=16px> Ouvrir...}} dans le menu.
+    -   Sélectionnez l\'option **Fichier → <img src="images/Std_Open.svg" width=16px> Ouvrir...** dans le menu.
     -   Utilisez le raccourci clavier: **Ctrl**+**O**.
 2.  Sélectionnez éventuellement le format de fichier correct dans la boîte de dialogue.
 3.  Sélectionner un fichier.
@@ -28,7 +28,7 @@ La commande **Std Ouvrir** ouvre un fichier. Si le fichier n\'est pas un fichier
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

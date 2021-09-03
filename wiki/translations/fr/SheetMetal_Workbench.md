@@ -5,7 +5,7 @@
 
 }} <img alt="Icône de l\'atelier externe Sheet Metal" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
-## Vue d\'ensemble {#vue_densemble}
+## Vue d\'ensemble 
 
 
 {{TOCright}}
@@ -55,13 +55,13 @@ Une description détaillée (en anglais) des outils peut être trouvée [sur le 
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md): crée un outil de formage.
 
-## Deux outils complémentaires {#deux_outils_complémentaires}
+## Deux outils complémentaires 
 
-### Créer un profil de base {#créer_un_profil_de_base}
+### Créer un profil de base 
 
 Outil en forme d\'oméga : faites une pièce à partir d\'une simple multiligne créée dans Sketcher ou Draft, donnez-lui la hauteur et l\'épaisseur centrées, à gauche ou à droite de cette ligne, veillez à ne pas créer d\'auto-intersection dans les plis fermés d\'un espace moindre comme l\'épaisseur du matériau.
 
-### Pliez le long d\'une ligne {#pliez_le_long_dune_ligne}
+### Pliez le long d\'une ligne 
 
 Pliez une plaque de base \"plate\" le long d\'une ligne (rectangle barré d\'une ligne) : sélectionnez la face, puis la ligne et l\'outil, choisissez l\'angle, le rayon, le côté, la position du pli par rapport à la ligne est pas très bien défini ; il semble que la ligne soit le bord d\'intersection à l\'extension des 2 faces.
 
@@ -76,25 +76,25 @@ Pliez une plaque de base \"plate\" le long d\'une ligne (rectangle barré d\'une
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:800px">
 
-### Tutoriel de tôlerie par meme2704 {#tutoriel_de_tôlerie_par_meme2704}
+### Tutoriel de tôlerie par meme2704 
 
 Le tutoriel suivant est reproduit à partir du tutoriel PDF mentionné dans [Liens](#Liens.md).
 
 
 <div class="mw-collapsible-content">
 
-#### Présentation de l\'atelier {#présentation_de_latelier}
+#### Présentation de l\'atelier 
 
 Après avoir téléchargé et installé l\'extension, l\'ouvrir. ![](images/sm1.png )
 
-#### 1ère opération {#ère_opération}
+#### 1ère opération 
 
 -   Obtenez la base: utilisez soit les ateliers \"pièce\" ou \"brouillon\", faites 1 croquis qui contiendra tous les trous et toutes les coupes, extrudez cette base à l\'épaisseur de la feuille.
 -   Gardez à l\'esprit que les bords seront toujours en plus des rayons de pliage.
 
 ![](images/sm2.png )
 
-#### 2ème opération {#ème_opération}
+#### 2ème opération 
 
 -   Ouvrez l\'atelier Sheet\_metal.
 -   Sélectionnez 1 épaisseur du bord (arête) de la plaque de base et cliquez sur l\'outil \"bend\" 90°/ L\'angle de courbure par défaut peut être modifié de 0 à 90°.
@@ -126,7 +126,7 @@ Choisissez 1 face de référence (ici la face orange) et cliquez sur le bouton d
 Nous obtenons la partie bleue dont il suffit de modifier les valeurs X, Y ou Z pour le voir en totalité.
 ![](images/sm6.png )
 
-#### Couper les retours à 45 ° {#couper_les_retours_à_45}
+#### Couper les retours à 45 ° 
 
 Après avoir plié les retours sans avoir fait de retrait, la forme apparaît ainsi. ![](images/sm7a.png ) Pour ce faire, il doit se diviser à 45 ° (ou suivant les bissectrices pour les largeurs inégales).
 \* Créer 1 nouveau sketch lié à la partie commune aux 2 volets.
@@ -136,23 +136,23 @@ Après avoir plié les retours sans avoir fait de retrait, la forme apparaît ai
 Dessinez 1 triangle dont le haut est contraint à la fin, orienté 1 côté à 45 °, donnez au petit côté 1 largeur minimum (0.1mm suffit), et faites 1 pocket.
 Veillez à ne pas érafler la \"charnière\" où la nudité de lier la pointe du triangle au bord de la ligne de pliage. ![](images/sm8a.png ) Dépliage ![](images/sm9.png )
 
-#### Perçage des bords et des rabats {#perçage_des_bords_et_des_rabats}
+#### Perçage des bords et des rabats 
 
 Faites ces trous et coupes après le pliage et avant le dépliage.
 Veillez toujours à ne pas \"érafler\" ou couper les lignes de pliage.
 ![](images/sm10.png )
 
-#### Faire des rabats tangents {#faire_des_rabats_tangents}
+#### Faire des rabats tangents 
 
 Faire 1 pli sur le bord du coté, à 45 ° de 0.1mm de long, puis 1 autre inverse à 45 ° de la longueur du rabat contigu, puis étendre le coté opposé, il passera et ils ne seront pas confondus.
 ![](images/sm11.png )
 
-#### Cas particulier de ce même bord percé {#cas_particulier_de_ce_même_bord_percé}
+#### Cas particulier de ce même bord percé 
 
 Dans ce cas particulier, le dépliage ne fonctionne qu\'en choisissant la face jaune comme référence.
 ![](images/sm12.png )
 
-#### Cas spécial de trou enjambant les plis {#cas_spécial_de_trou_enjambant_les_plis}
+#### Cas spécial de trou enjambant les plis 
 
 Auparavant, il est dit plusieurs fois qu\'il est interdit de couper les lignes de pliage.
 Comment faire ?
@@ -191,7 +191,7 @@ Comment faire ?
 -   Blog officiel (EN): [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Code source sur github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
-## Ateliers externes {#ateliers_externes}
+## Ateliers externes 
 
 Les ateliers FreeCAD sont faciles à programmer en [Python](Python/fr.md), de ce fait, beaucoup de personnes développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
 

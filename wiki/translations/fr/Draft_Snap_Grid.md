@@ -8,7 +8,7 @@
 
 ## Description
 
-L\'option <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Draft Aimantation Grille** permet de s\'aimanter aux intersections des lignes de la grille. La grille ne peut être utilisée que si la préférence {{MenuCommand|Activer la grille}} est sélectionnée. Voir [Préférences](#Pr.C3.A9f.C3.A9rences.md).
+L\'option <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Draft Aimantation Grille** permet de s\'aimanter aux intersections des lignes de la grille. La grille ne peut être utilisée que si la préférence **Activer la grille** est sélectionnée. Voir [Préférences](#Pr.C3.A9f.C3.A9rences.md).
 
 ![](images/Draft_Snap_Grid_example.png ) *Aimantation du deuxième point d'une ligne à la grille*
 
@@ -20,7 +20,7 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 2.  Assurez-vous que l\'aimantation est activé. Voir <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;">. [Draft Aimantation Verrouiller](Draft_Snap_Lock/fr.md).
 3.  Si **Draft Aimantation Grille** n\'est pas active, faites l\'une des choses suivantes :
     -   Appuyez sur le bouton **<img src="images/Draft_Snap_Grid.svg" width=16px>** de la barre d\'outils Draft Aimantation.
-    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu, sélectionnez l\'option {{MenuCommand|<img src="images/Draft_Snap_Grid.svg" width=16px> Aimantation Grille}}.
+    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu, sélectionnez l\'option **<img src="images/Draft_Snap_Grid.svg" width=16px> Aimantation Grille**.
 4.  Choisissez une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
 5.  Notez que vous pouvez également modifier les options d\'aimantation lorsqu\'une commande est active.
 6.  Dans FreeCAD version 0.19 et 0.20, la grille est maintenant affichée si elle n\'était pas encore visible. Dans les versions précédentes, vous pouvez avoir à [basculer la grille](Draft_ToggleGrid/fr.md) pour la rendre visible.
@@ -32,8 +32,8 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 
 Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 
--   Pour utiliser la grille, sélectionnez : {{MenuCommand|Édition → Préférences... → Draft → Grille et aimantation → Grille → Activer la grille}}. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
--   D\'autres préférences de grille sont également disponibles : {{MenuCommand|Édition → Préférences... → Draft → Grille et aimantation → Grille}}.
+-   Pour utiliser la grille, sélectionnez : **Édition → Préférences... → Draft → Grille et aimantation → Grille → Activer la grille**. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
+-   D\'autres préférences de grille sont également disponibles : **Édition → Préférences... → Draft → Grille et aimantation → Grille**.
 
 
 

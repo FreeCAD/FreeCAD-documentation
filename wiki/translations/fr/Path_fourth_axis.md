@@ -34,7 +34,7 @@ Il n\'y a actuellement aucune intégration GUI des paramètres de rotation du 4�
 
 ## Utilisation
 
-### Surfaces des profiles {#surfaces_des_profiles}
+### Surfaces des profiles 
 
 -   Sélectionnez la(les) surface(s) pour l\'opération comme d\'habitude
 -   Cliquez sur l\'icône Path Profile Faces pour démarrer l\'opération
@@ -44,7 +44,7 @@ Il n\'y a actuellement aucune intégration GUI des paramètres de rotation du 4�
 -   Recalculez l\'opération
 -   Ajustez les profondeurs de début/fin selon les besoins. La profondeur finale est codée pour NE PAS dépasser la face sélectionnée utilisée pour le profil.
 
-### Forme de la poche {#forme_de_la_poche}
+### Forme de la poche 
 
 -   Cliquez sur l\'icône Path Pocket Shape pour démarrer l\'opération.
 -   Cliquez sur OK pour créer l\'opération - aucune face sélectionnée

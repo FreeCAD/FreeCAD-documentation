@@ -22,7 +22,7 @@ The Dimension Horizontal tool adds a horizontal dimension to a View. The dimensi
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați punctele sau muchiile care definesc măsurarea dvs.
 2.  Apăsați butonul **<img src="images/Dimension_Horizontal.png" width=24px> [Dimension Horizontal](TechDraw_Dimension_Horizontal.md)

@@ -14,18 +14,18 @@ Con el comando **Std ProjectoUtil** puedes extraer archivos de un archivo de pro
 
 ## Utilización
 
-### Extraer proyecto {#extraer_proyecto}
+### Extraer proyecto 
 
-1.  Seleccione la opción {{MenuCommand|Hierramientas → <img src="images/Std_ProjectUtil.svg" width=16px> Utilidad del proyecto...}} en el menú.
+1.  Seleccione la opción **Hierramientas → <img src="images/Std_ProjectUtil.svg" width=16px> Utilidad del proyecto...** en el menú.
 2.  Se abre el cuadro de diálogo Utilidad del proyecto.
-3.  Pulse el botón **...** a la derecha de {{MenuCommand|Extraer proyecto → Fuente}}.
+3.  Pulse el botón **...** a la derecha de **Extraer proyecto → Fuente**.
 4.  Seleccione el archivo {{FileName|*.FCStd}} que desea editar.
-5.  Pulse el botón **...** a la derecha de {{MenuCommand|Extraer proyecto → Destina}}.
+5.  Pulse el botón **...** a la derecha de **Extraer proyecto → Destina**.
 6.  Seleccione una carpeta en la que deba extraerse el archivo del proyecto. Es aconsejable seleccionar una carpeta vacía.
 7.  Pulse el botón **Extracto**.
 8.  Pulse el botón **Cerrar** para cerrar el cuadro de diálogo.
 
-### Manual ediciones {#manual_ediciones}
+### Manual ediciones 
 
 
 <div class="mw-translate-fuzzy">
@@ -35,13 +35,13 @@ Es importante darse cuenta de que los archivos dentro de un archivo de proyecto 
 
 </div>
 
-### Crea projecto {#crea_projecto}
+### Crea projecto 
 
-1.  Select the {{MenuCommand|Tools → <img src="images/Std_ProjectUtil.svg" width=16px> Project utility...}} option from the menu.
+1.  Select the **Tools → <img src="images/Std_ProjectUtil.svg" width=16px> Project utility...** option from the menu.
 2.  The Project utility dialog box opens.
-3.  Press the **...** button to the right of {{MenuCommand|Create project → Source}}.
+3.  Press the **...** button to the right of **Create project → Source**.
 4.  Select the {{FileName|Document.xml}} file. The command will be automatically find all linked files.
-5.  Press the **...** button to the right of {{MenuCommand|Create project → Destination}}.
+5.  Press the **...** button to the right of **Create project → Destination**.
 6.  Select a folder where the new project file should be created.
 7.  Press the **Create** button.
 8.  A new project file with a fixed name, {{FileName|project.fcstd}}, is created in the selected folder. There is no warning if a file with that name already exists.

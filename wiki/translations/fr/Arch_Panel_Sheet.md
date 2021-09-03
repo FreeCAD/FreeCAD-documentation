@@ -21,7 +21,7 @@ Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nomb
 
 *L\'image ci-dessus montre comment les panneaux apparaissent lors de l\'exportation au format DXF.*
 
-## Comment l\'utiliser {#comment_lutiliser}
+## Comment l\'utiliser 
 
 1.  Optionnellement, selectionner un ou plusieurs objets [Arch Découpe de panneaux](Arch_Panel_Cut/fr.md) ou n\'importe quel autre objet construits dans le plan XY.
 2.  Pressez le bouton **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Panneau de feuille](Arch_Panel_Sheet/fr.md)
@@ -38,7 +38,7 @@ Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nomb
 
 ## Propriétés
 
-### Propriétés {#propriétés_1}
+### Propriétés 
 
 -    {{PropertyData/fr|Height}}: La hauteur de la feuille
 

@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -9,7 +9,7 @@
 
 {{TOCright}}
 
-[底图工作台的首选项可以在](Draft_Workbench.md)[首选项编辑器中找到](Preferences_Editor.md)，它位于{{MenuCommand|Edit → Preferences → Draft}}菜单。
+[底图工作台的首选项可以在](Draft_Workbench.md)[首选项编辑器中找到](Preferences_Editor.md)，它位于**Edit → Preferences → Draft**菜单。
 
 此处有4个选项卡：通用设置、网格与捕捉、可视化设置，以及文本与标注。
 

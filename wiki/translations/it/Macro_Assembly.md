@@ -19,11 +19,11 @@ Simulazione di un assemblaggio
 
 Scaricare i file in FreeCAD ed eseguire la macro
 
-## Il File {#il_file}
+## Il File 
 
 [Assy.fcstd](http://forum.freecadweb.org/download/file.php?id=6740)
 
-## Lo Script {#lo_script}
+## Lo Script 
 
 ToolBar Icon ![](images/Macro_Assembly.png )
 

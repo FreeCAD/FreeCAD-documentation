@@ -25,7 +25,7 @@ Dieses Werkzeug kippt den [Entwurf Abmessungstext](Draft_Dimension/de.md) um die
 <div class="mw-translate-fuzzy">
 
 1.  Wähle ein [Entwurf Bemaßungsobjekt](Draft_Dimension/de.md).
-2.  Gehe zum Menü {{MenuCommand|Entwurf → Dienstprogramme → <img src="images/Draft_FlipDimension.png" width=16px>[Bemaßung kippen](Draft_FlipDimension/de.md)}}.
+2.  Gehe zum Menü **Entwurf → Dienstprogramme → <img src="images/Draft_FlipDimension.png" width=16px>[Bemaßung kippen](Draft_FlipDimension/de.md)**.
 
 
 </div>

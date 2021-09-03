@@ -44,7 +44,7 @@ Ces outils permettent de créer, configurer et exporter des mises en plan 2D
 
 -    **Note:**L\'atelier [Draft](Draft_Module/fr.md) a son propre [atelier de dessin](Draft_Drawing/fr.md) qui place les objets du projet sur papier. Il a quelques fonctionnalités supplémentaires sur les outils de dessin standards et prend en charge les objets spécifiques tels que [les dimensions](Draft_Dimension/fr.md).
 
-## Flux de travail {#flux_de_travail}
+## Flux de travail 
 
 Le document contient un objet de forme 3D à partir duquel nous voulons produire un dessin. Une \"Page\" est donc créée. Une page est instanciée à partir d\'un modèle, par exemple, le modèle \"A3\_Landscape\". Le modèle est un document [SVG](SVG/fr.md) qui peut contenir un cadre de page, un logo et d\'autres éléments.
 
@@ -62,7 +62,7 @@ Ici un script qui permet de remplir facilement le [cartouche](Macro_CartoucheFC/
 
 FreeCAD est livré avec un jeu de modèles par défaut, vous pouvez en trouver d\'autres sur la page des [Modèles de feuille](Drawing_templates/fr.md).
 
-## Extension Module de dessin {#extension_module_de_dessin}
+## Extension Module de dessin 
 
 Quelques notes sur le module de dessin sont ajoutés à la page [Documentation sur le module dessin](Drawing_Documentation/fr.md) [(en)](Drawing_Documentation.md). Il aide à comprendre rapidement le fonctionne du module de dessin, ce qui permet aux programmeurs de commencer rapidement sa programmation.
 
@@ -70,7 +70,7 @@ Quelques notes sur le module de dessin sont ajoutés à la page [Documentation s
 
 -   [Drawing tutoriel](Drawing_tutorial/fr.md)
 
-## Liens externes {#liens_externes}
+## Liens externes 
 
 -   [Introduction au dessin mécanique sur Youtube - par Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 

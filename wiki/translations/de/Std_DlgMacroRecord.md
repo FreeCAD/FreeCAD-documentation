@@ -17,7 +17,7 @@ Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesit
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Std DlgMakroAufzeichnen](Std_DlgMacroRecord/de.md)** Schaltfläche.
-    -   Wähle die {{MenuCommand|Makro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Makroaufnahme...}} Option aus dem Menü.
+    -   Wähle die **Makro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Makroaufnahme...** Option aus dem Menü.
 2.  Das Dialogfeld Makroaufzeichnung wird geöffnet.
 3.  Gib einen Namen für das Makro in das Eingabefeld **Makroname** ein.
 4.  Ändere wahlweise den **Makropfad** durch drücken der **...** Taste
@@ -26,7 +26,7 @@ Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesit
 7.  Führe die Aktionen aus, die du aufzeichnen möchtest.
 8.  Um die Aufnahmesitzung zu beenden, führe eine der folgenden Aktionen aus:
     -   Drücke die **<img src="images/Std_MacroStopRecord.svg" width=16px> [Std MacroStopRecord](Std_MacroStopRecord.md)** Schaltfläche.
-    -   Wähle den {{MenuCommand|Makro → <img src="images/Std_MacroStopRecord.svg" width=16px>. Stoppe Makroaufzeichnung}}s Option aus dem Menü.
+    -   Wähle den **Makro → <img src="images/Std_MacroStopRecord.svg" width=16px>. Stoppe Makroaufzeichnung**s Option aus dem Menü.
 
 ## Optionen
 
@@ -39,8 +39,8 @@ Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesit
 
 ## Einstellungen
 
--   Der Makropfad kann auch in den Einstellungen geändert werden: {{MenuCommand|Bearbeiten → Einstellungen... → Allgemein → Makro → Makropfad}}. Siehe [Einstellungseditor](Preferences_Editor/de#Makro.md).
--   In den meisten Fällen ist es unerwünscht, Aktionen aufzuzeichnen, die das Modell nicht ändern: unter {{MenuCommand|Bearbeiten → Einstellungen... → Allgemein → Makro → GUI Befehle}} tue eins der folgenden:
+-   Der Makropfad kann auch in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Allgemein → Makro → Makropfad**. Siehe [Einstellungseditor](Preferences_Editor/de#Makro.md).
+-   In den meisten Fällen ist es unerwünscht, Aktionen aufzuzeichnen, die das Modell nicht ändern: unter **Bearbeiten → Einstellungen... → Allgemein → Makro → GUI Befehle** tue eins der folgenden:
     -   Um diese Aktionen auszuschließen, deaktiviere das Kontrollkästchen {{CheckBox|FALSE|GUI Befehle aufzeichnen}}.
     -   Um sie nur als Kommentar einzufügen, markiere die beiden {{CheckBox|TRUE|GUI Befehle aufzeichnen}} und {{CheckBox|TRUE|Aufzeichnen als Kommentar}} Kontrollkästchen.
 

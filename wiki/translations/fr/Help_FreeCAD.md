@@ -7,7 +7,7 @@
 
 Si vous aimez FreeCAD et que vous désirez participer à son développement, en dehors d\'une [donation directe](Donate/fr.md), il y a beaucoup d\'autres choses que vous pouvez faire, même si vous n\'êtes pas un programmeur.
 
-## Travailler sur la documentation {#travailler_sur_la_documentation}
+## Travailler sur la documentation 
 
 Aidez-nous à construire, corriger et étendre cette documentation. Corrigez les erreurs, étendez ou corrigez les pages qui ne sont pas claires, créez de nouvelles pages si un sujet est manquant, etc. Contribuer au wiki FreeCAD est facile, sur [Les pages Wiki](WikiPages/fr.md) vous pouvez trouver les directives générales et l\'aide nécessaire pour commencer. Pour éditer le wiki, vous aurez besoin d\'un compte wiki avec les permissions \"Éditeur\" (le wiki est protégé en écriture pour éviter le spam). Vous pouvez demander un compte [sur le forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830) ou sur le [canal IRC](https://wiki.freecadweb.org/Help#Chat) . Veuillez noter que le canal IRC peut ne pas être aussi réactif que le forum. [Le forum officiel de FreeCAD](https://forum.freecadweb.org) devrait être le premier endroit pour poser des questions et démarrer des discussions, car il aidera à préserver l\'expérience et les connaissances de la communauté.
 
@@ -17,7 +17,7 @@ Quelques zones qui apprécieraient votre contribution :
 -   La section [tutoriels](Tutorials/fr.md) a besoin d\'exemples d\'utilisation des ateliers. Si vous avez développé quelque chose de sympa avec FreeCAD, pourquoi ne pas le pérenniser dans une page de documentation ?
 -   Il y a des billets ouverts sur le [bugtracker](Tracker/fr.md) de FreeCAD intitulé [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) qui mériteraient qu\'on s\'y intéresse.
 
-## Partagez vos connaissances de FreeCAD {#partagez_vos_connaissances_de_freecad}
+## Partagez vos connaissances de FreeCAD 
 
 La communauté des utilisateurs de FreeCAD est encore faible, mais comprend plusieurs utilisateurs éclairés, qui fournissent un travail très important, pour montrer et apprendre aux nouveaux arrivants comment utiliser le logiciel. Si vous commencez à vous sentir à l\'aise avec FreeCAD, vos connaissances pourraient être très utiles à d\'autres, et vous pourriez contribuer, grâce à vos acquis, à :
 
@@ -28,13 +28,13 @@ La communauté des utilisateurs de FreeCAD est encore faible, mais comprend plus
 -   Consultez les dernières publications de FreeCAD sur [Reddit](https://www.reddit.com/search/?q=freecad&type=link&sort=new), [3dprinting.stackexchange](https://3dprinting.stackexchange.com/search?tab=newest&q=freecad), [StackOverflow](https://stackoverflow.com/search?q=freecad)\... Essayez d\'y répondre et de participer aux discussions en partageant votre expérience et vos informations.
 -   Être présent sur le canal IRC FreeCAD ou [d\'autres groupes de discussion](https://www.freecadweb.org/wiki/Help#Chat).
 
-## Traduire FreeCAD {#traduire_freecad}
+## Traduire FreeCAD 
 
 Traduire FreeCAD dans votre propre langue. Tout le texte de l\'interface de FreeCAD peut être facilement traduit dans d\'autres langues. Nous avons juste besoin de quelqu\'un qui connaisse cette langue, et qui soit prêt à aider ! Toutes les traductions sont faites en ligne sur [Crowdin](http://crowdin.net/project/freecad).
 
 Pour plus d\'informations sur la traduction, voir la méthodologie de [Localisation](Localisation/fr.md).
 
-## Traduire la documentation {#traduire_la_documentation}
+## Traduire la documentation 
 
 Traduire le wiki est facile, le wiki FreeCAD intègre un plugin de traduction qui vous permet de traduire la page anglaise de base dans d'autres langues.
 
@@ -44,7 +44,7 @@ Assurez-vous d\'être familier avec les bases du balisage wiki. voir [Aide pour 
 
 Rendez-vous ensuite sur [WikiPages](WikiPages.md) pour vous familiariser avec le style utilisé dans ce wiki, notamment en ce qui concerne les modèles.
 
-## Faites connaître FreeCAD {#faites_connaître_freecad}
+## Faites connaître FreeCAD 
 
 -   Parlez de FreeCAD à ceux qui pourraient être intéressés.
 -   Trouvez des utilisations intéressantes pour FreeCAD, et documentez les, par exemple avec des captures d\'écran. FreeCAD est très jeune, et beaucoup de gens ne savent pas ce qu\'ils peuvent faire avec. Si vous êtes déjà fan de FreeCAD, vous savez sûrement faire des choses sympa avec FreeCAD. Aidez-nous à les faire connaître aux autres !
@@ -53,7 +53,7 @@ Rendez-vous ensuite sur [WikiPages](WikiPages.md) pour vous familiariser avec le
 -   Contribuez avec des fichiers, dessins, etc. Nous manquons encore de bons exemples de projets qui seraient réalisables avec FreeCAD.
 -   Aidez à promouvoir FreeCAD sur GitHub, en [*affichant* et en *mettant en avant*](https://help.github.com/articles/be-social/#watch-a-project) le [dépôt FreeCAD](https://github.com/FreeCAD/FreeCAD).
 
-## Rapporter les bogues et demander des fonctionnalités intéressantes {#rapporter_les_bogues_et_demander_des_fonctionnalités_intéressantes}
+## Rapporter les bogues et demander des fonctionnalités intéressantes 
 
 ![](images/Bugreport-workflow.png )
 
@@ -70,7 +70,7 @@ Vous devez simplement marquer votre problème comme \"Bug\" (quelque chose qui n
 -   Avant de soumettre une demande de fonctionnalité, discutez-en toujours avec les autres utilisateurs sur le [forum *discussions ouvertes*](https://forum.freecadweb.org/viewforum.php?f=8), de sorte que vous puissiez vous retrouver avec une proposition plus solide, ayant plus de chances d\'intéresser un programmeur à la mettre en œuvre.
 -   Rappelez-vous que FreeCAD est développé par des bénévoles qui utilisent leur temps libre pour travailler à son élaboration. Bien que tous essaient de leur mieux de développer la meilleure application possible, votre rapport de bogue pourrait être traité avec une faible priorité, ou abandonné si vous ne pouvez pas fournir suffisamment d\'informations. Votre demande de fonctionnalité pourrait être reportée ou même abandonnée si aucun développeur ne souhaite la mettre en œuvre, ou si elle demande une quantité de travail beaucoup trop importante.
 
-## Design graphique {#design_graphique}
+## Design graphique 
 
 Consultez les pages [Graphisme](Artwork/fr.md) et [Recommandations pour la charte graphique](Artwork_Guidelines/fr.md) pour connaître les directives sur la conception d\'icônes pour FreeCAD.
 

@@ -15,7 +15,7 @@ When entering numbers, and the number input box is not properly focused, FreeCAD
 
 See forum thread [How to turn off (disable) Numpad navigation?](https://forum.freecadweb.org/viewtopic.php?f=3&t=26667)
 
-## How to use: {#how_to_use}
+## How to use: 
 
 1\. Copy-paste macro code to Py console of FreeCAD.
 

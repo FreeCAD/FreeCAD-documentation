@@ -38,7 +38,7 @@ Kopieren Sie das Makro und das Symbol in Ihr Makroverzeichnis.
 -   **CheckBox** Wenn die CheckBox markiert ist, wird der Arbeitsfortschritt angezeigt, wenn nicht nur ProgressBar funktioniert (diese Methode ist schneller) (standardmäßig aktiviert).
 -   ****Launch the Lofting****: Lofting starten und Makro zurücksetzen. Die Nummer der Auswahl wird angezeigt und die tatsächliche Zahl wird erhöht, wenn die SpinBox \"jump\" verwendet wird
 
-### Die Schnittstelle {#die_schnittstelle}
+### Die Schnittstelle 
 
 <img alt="FCCreaLoft002" src=images/Macro_FCCreaLoft_01.png  style="width:400px;"> 
 

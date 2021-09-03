@@ -23,11 +23,11 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 +----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ![](images/Scaled_parameters.png ) | Cuando se crea una operación de Escalar, el letrero de diálogo de \'parámetros de escalado\' ofrece las siguientes opciones:                              |
 |                                                    |                                                                                                                                                           |
-|                                                    | ### Selecionar los originales {#selecionar_los_originales}                                                                                                |
+|                                                    | ### Selecionar los originales                                                                                                 |
 |                                                    |                                                                                                                                                           |
 |                                                    | La lista que muestra los \'originales\' contiene las operaciones que van a ser escaladas. Seleccionado cualquier operación se añadirá a la lista.         |
 |                                                    |                                                                                                                                                           |
-|                                                    | ### Factor e instancias {#factor_e_instancias}                                                                                                            |
+|                                                    | ### Factor e instancias                                                                                                             |
 |                                                    |                                                                                                                                                           |
 |                                                    | Especifica el máximo factor con respecto al cual la operaciones se van a escalar, y el número total de formas escaladas (incluida la operación original). |
 +----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -17,7 +17,7 @@ Lo strumento [Armatura elicoidale](Arch_Rebar_Helical/it.md) consente all\'utent
 
 Lo strumento **Armatura elicoidale** è anche integrato in [BIM](BIM_Workbench/it.md).
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 :   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
@@ -101,7 +101,7 @@ FreeCAD.ActiveDocument.recompute()
 Rebar = HelicalRebar.makeHelicalRebar(10, 50, 8, 50, 50, structure, "Face2")
 ```
 
-### Modifica delle barre {#modifica_delle_barre}
+### Modifica delle barre 
 
 È possibile modificare le proprietà dell\'armatura con la seguente funzione:
 

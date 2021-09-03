@@ -15,7 +15,7 @@
 
 Crea una primitiva sottrattiva nel corpo attivo, sottraendo la sua forma dal solido esistente.
 
-## Tipi di primitive {#tipi_di_primitive}
+## Tipi di primitive 
 
 
 <div class="mw-translate-fuzzy">

@@ -21,7 +21,7 @@ Ce tutoriel explique uniquement comment implémenter des contraintes en Python. 
 3.  **Créer un panneau de tâches:** le panneau de tâches est nécessaire pour permettre à l\'utilisateur de définir les limites de la contrainte de vélocité. Cela rend également la saisie des paramètres un peu plus conviviale.
 4.  **Extension du fichier writer du solveur Elmer:** ajoute le support pour la nouvelle contrainte au solveur Elmer en développant son exportateur de fichier sif.
 
-## Créer un objet document {#créer_un_objet_document}
+## Créer un objet document 
 
 Dans cette étape, nous allons modifier les fichiers suivants:
 
@@ -106,7 +106,7 @@ def makeConstraintFlowVelocity(name="FlowVelocity"):
     return obj
 ```
 
-## Création d\'une commande graphique {#création_dune_commande_graphique}
+## Création d\'une commande graphique 
 
 Dans cette étape, nous allons modifier les fichiers suivants:
 
@@ -157,7 +157,7 @@ Ajoutez le nouveau fichier de commande au système de build comme décrit dans [
 
 Placez la commande dans Gui/Workbench.cpp pour l'ajouter à la barre d'outils et au menu. Recherchez une contrainte existante de la même catégorie que la nouvelle (par exemple, Flow), faites copier/coller et ajustez l\'ID de la commande. Cela devrait être fait deux fois, une fois pour le menu et une pour la barre d\'outils.
 
-## Créer un panneau de tâches {#créer_un_panneau_de_tâches}
+## Créer un panneau de tâches 
 
 Dans cette étape, nous allons modifier le fichier suivant:
 
@@ -279,7 +279,7 @@ class ViewProxy(FemConstraint.ViewProxy):
         return True
 ```
 
-## Extension du fichier writer du solveur Elmer {#extension_du_fichier_writer_du_solveur_elmer}
+## Extension du fichier writer du solveur Elmer 
 
 Dans cette étape, nous allons modifier le fichier suivant:
 

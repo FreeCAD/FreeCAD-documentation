@@ -10,7 +10,7 @@ The <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontISTR Wor
 
  <img alt="" src=images/FEM_FrontISTR_bikeframe_screenshot.png  style="width:512px;"> 
 
-### Intended work-flow {#intended_work_flow}
+### Intended work-flow 
 
 1.  Set up an analysis model by FEM module (in the same way as calculiX).
 2.  Switch to the workbench **FrontISTR** and create a FrontISTR solver object by clicking on the toolbar button <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
@@ -34,7 +34,7 @@ The <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontISTR Wor
     -   direct: MUMPS
 -   output file format: AVS, VTK(paraview required)
 
-### Features to be supported in the future {#features_to_be_supported_in_the_future}
+### Features to be supported in the future 
 
 -   analysis: thermal transfer, dynamic, eigen, frequency
 -   materials(mechanical): elastoplastic, hyper elastic, creep, visco elastic
@@ -48,15 +48,15 @@ The <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontISTR Wor
 -   The FEM FrontISTR workbench does not yet support thermal analyses. FISTR itself can perform thermal analyses and support for this is planned in the near future.
 -   Mechanical analyses for different material in a model is not yet possible.
 
-### Benchmark results {#benchmark_results}
+### Benchmark results 
 
 See <https://github.com/FrontISTR/FEM_FrontISTR/tree/master/sample/benchmarks>.
 
 ## Installation
 
-### Addon Manager {#addon_manager}
+### Addon Manager 
 
-FEM\_FrontISTR can easily be installed via the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) from the {{MenuCommand|Tools → Addon manager}} menu. FEM\_FrontISTR is under active development and will get new features frequently. Therefore you should update it regularly using also the menu {{MenuCommand|Tools → Addon manager}}. The FEM\_FrontISTR code is hosted and developed [on GitHub](https://github.com/FrontISTR/FEM_FrontISTR).
+FEM\_FrontISTR can easily be installed via the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) from the **Tools → Addon manager** menu. FEM\_FrontISTR is under active development and will get new features frequently. Therefore you should update it regularly using also the menu **Tools → Addon manager**. The FEM\_FrontISTR code is hosted and developed [on GitHub](https://github.com/FrontISTR/FEM_FrontISTR).
 
 ### Manual
 
@@ -67,7 +67,7 @@ See [How to install additional workbenches](How_to_install_additional_workbenche
 -   FreeCAD 0.19 or newer
 -   [Paraview](https://www.paraview.org/) (optional)
 
-### FrontISTR Solver Installation {#frontistr_solver_installation}
+### FrontISTR Solver Installation 
 
 FrontISTR binaries will be automatically downloaded and installed on the first run. If the download does not proceed, please follow the steps below to install the solver.
 

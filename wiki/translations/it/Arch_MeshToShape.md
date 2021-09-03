@@ -25,7 +25,7 @@ Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo st
 ## Utilizzo
 
 1.  Selezionare un oggetto mesh.
-2.  Premere il pulsante **<img src="images/Arch_MeshToShape.svg" width=16px> [Da mesh a forma](Arch_MeshToShape/it.md)** in {{MenuCommand|Arch → Utilità → Da mesh a forma}}.
+2.  Premere il pulsante **<img src="images/Arch_MeshToShape.svg" width=16px> [Da mesh a forma](Arch_MeshToShape/it.md)** in **Arch → Utilità → Da mesh a forma**.
 
 ## Proprietà
 

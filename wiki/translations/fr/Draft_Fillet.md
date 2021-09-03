@@ -21,12 +21,12 @@ La commande <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draf
 1.  Sélectionnez deux [Draft Lignes](Draft_Line/fr.md) qui se rejoignent en un seul point.
 2.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Draft_Fillet.svg" width=16px> [Créer un congé entre deux lignes...](Draft_Fillet/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Drafting → <img src="images/Draft_Fillet.svg" width=16px> Congé}} dans le menu.
+    -   Sélectionnez l\'option **Drafting → <img src="images/Draft_Fillet.svg" width=16px> Congé** dans le menu.
     -   Utilisez le raccourci clavier : **F** puis **I**.
-3.  Saisissez le {{MenuCommand|Rayon du congé}}. Si l\'option {{MenuCommand|Créer un chanfrein}} est sélectionnée, ce sera la taille du chanfrein (la longueur de la règle). Notez que la commande n\'aboutira pas si le rayon ou la taille du chanfrein est trop grand pour les lignes sélectionnées.
-4.  Vérifiez éventuellement l\'option {{MenuCommand|Supprimer les objets originaux}}.
-5.  Vérifiez éventuellement l\'option {{MenuCommand|Créer un chanfrein}}.
-6.  Si vous avez sélectionné l\'une des deux options précédentes : Cliquez dans le champ de saisie {{MenuCommand|Rayon du congé}}.
+3.  Saisissez le **Rayon du congé**. Si l\'option **Créer un chanfrein** est sélectionnée, ce sera la taille du chanfrein (la longueur de la règle). Notez que la commande n\'aboutira pas si le rayon ou la taille du chanfrein est trop grand pour les lignes sélectionnées.
+4.  Vérifiez éventuellement l\'option **Supprimer les objets originaux**.
+5.  Vérifiez éventuellement l\'option **Créer un chanfrein**.
+6.  Si vous avez sélectionné l\'une des deux options précédentes : Cliquez dans le champ de saisie **Rayon du congé**.
 7.  Appuyez sur **Entrée**.
 
 ## Options

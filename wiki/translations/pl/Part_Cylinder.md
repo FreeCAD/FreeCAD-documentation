@@ -16,7 +16,7 @@ Tworzy zwykły walec, z parametrami dotyczącymi jego położenia, kąta, promie
 1.  Otwórz środowisko pracy **<img src="images/_Workbench_Part.svg" width=16px> [Część](Part_Workbench/pl.md)**.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Part_Cylinder.svg" width=16px> Walec** na pasku narzędzi,
-    -   Użyj pozycji menu głównego {{MenuCommand|Część → Bryła pierwotna → <img src="images/Part_Cylinder.svg" width=16px> Walec}}.
+    -   Użyj pozycji menu głównego **Część → Bryła pierwotna → <img src="images/Part_Cylinder.svg" width=16px> Walec**.
 
 **Wynik:** Domyślnie jest to pełny walec o promieniu 2mm i wysokości 10mm, wyśrodkowany wzdłuż globalnej osi z i dołączony do globalnej płaszczyzny xy.
 

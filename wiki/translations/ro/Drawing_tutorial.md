@@ -34,7 +34,7 @@ Acest tutorial are rolul de a prezenta cititorului fluxul de lucru de bază al a
 
 Pentru a reduce timpul necesar pentru acest tutorial, este obligatoriu să grupați elemente similare în vederea arborescentă**Tree View** pentru a aplica operațiuni în același timp pentru mai multe elemente.
 
-#### Gruparea elementelor {#gruparea_elementelor}
+#### Gruparea elementelor 
 
 =
 
@@ -48,7 +48,7 @@ Creează următoarele grupuri:
 -   Draft\_dimensions
 -   Draft\_annotations\_text
 
-#### Șabloane de Desenat {#șabloane_de_desenat}
+#### Șabloane de Desenat 
 
 Șabloanele sunt baza pentru crearea de desene, puteți utiliza șabloanele furnizate sau creați-vă propriile.
 
@@ -61,7 +61,7 @@ We now have a folder called **Page** in the **Tree View**. This object will cont
 
 Proiecțiile sunt definite ca reprezentarea vizuală a unui obiect pe un anumit plan, acesta afișează proprietățile obiectului care sunt vizibile din acea orientare specifică.
 
-##### Proiecție Ortograpică {#proiecție_ortograpică}
+##### Proiecție Ortograpică 
 
 Acestea sunt folosite în Inginerie pentru a specifica proprietățile unui obiect care va fi prelucrat. Există două standarde comune: proiecțiile **Angle Third** și **First Angle**.
 
@@ -74,7 +74,7 @@ Pentru acest tutorial, aceste proiecții nu sunt folosite deoarece obiectele noa
 
 In the **General** and **Axonometric** tabs you can specify the **location**, **scale** and **separation** of each view.
 
-##### Other Part Projections {#other_part_projections}
+##### Other Part Projections 
 
 It is possible to create custom views of the object.
 
@@ -84,7 +84,7 @@ It is possible to create custom views of the object.
 
 You can also alter the **location**, **scale** and **rotation** of the **View** from within the **Data** tab. The same can be done for the **Orthographic Projections**.
 
-##### Draft Projections {#draft_projections}
+##### Draft Projections 
 
 The preferred way to add elements created in the **Draft Workbench** is with a tool contained in the **Draft Workbench** designed specifically for this. With this procedure, it is possible to import **Dimensions**, **Annotations**, **Shapestrings** and any other element created whithin the **Draft** Workbench.
 
@@ -96,7 +96,7 @@ The preferred way to add elements created in the **Draft Workbench** is with a t
 
 Repeat for each group and set the values to the ones specified above.
 
-#### Exporting your work {#exporting_your_work}
+#### Exporting your work 
 
 FreeCAD supports the export of SVG and PDF files based on your **Drawings**
 
@@ -121,7 +121,7 @@ FreeCAD supports the export of SVG and PDF files based on your **Drawings**
 
 <div class="mw-translate-fuzzy">
 
-## Recommended Reading {#recommended_reading}
+## Recommended Reading 
 
 -   Pentru a afla cum să creați șabloane personalizate, consultați [Drawing Template HowTo](Drawing_Template_HowTo.md)
 -   Pentru mai multe informații despre instrumentele disponibile, consultați pagina [Modul de desenare](Module_de_desenare.md)

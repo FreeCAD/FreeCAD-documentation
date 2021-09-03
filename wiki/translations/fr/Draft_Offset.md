@@ -22,20 +22,20 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
 1.  Sélectionner un objet au choix.
 2.  Il existe plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Offset.svg" width=16px> [Décalage de l'objet sélectionné](Draft_Offset/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → <img src="images/Draft_Offset.svg" width=16px> Décalage}} dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Offset.svg" width=16px> Décalage** dans le menu.
     -   Utilisez le raccourci clavier : **O** puis **S**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
-4.  Le panneau de tâches {{MenuCommand|Offset}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+4.  Le panneau de tâches **Offset** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 5.  Pour définir la distance de décalage, effectuez l\'une des opérations suivantes :
     -   Choisissez un point dans la [Vue 3D](3D_view/fr.md).
-    -   Assurez-vous que le pointeur se trouve du bon côté de l\'objet dans la [Vue 3D](3D_view/fr.md) et entrez une {{MenuCommand|Distance}}.
+    -   Assurez-vous que le pointeur se trouve du bon côté de l\'objet dans la [Vue 3D](3D_view/fr.md) et entrez une **Distance**.
 
 ## Options
 
 Les raccourcis clavier à caractère unique et les touches de modification mentionnées ici peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md).
 
--   Si la case {{MenuCommand|Décalage de type OCC}} est cochée, un style de décalage spécial est utilisé : les [Draft Polylignes](Draft_Wire/fr.md) ouvertes sont décalées des deux côtés et les nouveaux bords sont connectés avec des coins arrondis. Ceci ne fonctionne que pour les objets Draft planaires avec au moins deux bords droits. Notez qu\'avec ce style, un nouvel objet non paramétrique est créé, et si le mode copie est désactivé, l\'objet original est supprimé.
--   Appuyez sur **P** ou cliquez sur la case {{MenuCommand|Copie}} pour activer le mode de copie. Si le mode de copie est activé, la commande créera une copie décalée au lieu de décaler l\'objet original.
+-   Si la case **Décalage de type OCC** est cochée, un style de décalage spécial est utilisé : les [Draft Polylignes](Draft_Wire/fr.md) ouvertes sont décalées des deux côtés et les nouveaux bords sont connectés avec des coins arrondis. Ceci ne fonctionne que pour les objets Draft planaires avec au moins deux bords droits. Notez qu\'avec ce style, un nouvel objet non paramétrique est créé, et si le mode copie est désactivé, l\'objet original est supprimé.
+-   Appuyez sur **P** ou cliquez sur la case **Copie** pour activer le mode de copie. Si le mode de copie est activé, la commande créera une copie décalée au lieu de décaler l\'objet original.
 -   Si vous maintenez la touche **Alt** enfoncée avant de sélectionner des points dans la [Vue 3D](3D_view/fr.md), vous pouvez également activer le mode de copie. Lorsque vous maintenez la touche **Alt** enfoncée, vous pouvez sélectionner plusieurs points de décalage. Relâchez **Alt** pour terminer la commande et voir les copies créées.
 -   Maintenez **Shift** enfoncé pour que la distance de décalage reste liée au segment actuel.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
@@ -50,7 +50,7 @@ Les raccourcis clavier à caractère unique et les touches de modification menti
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie de la distance : {{MenuCommand|Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales}}.
+-   Pour modifier le nombre de décimales utilisées pour la saisie de la distance : **Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
 
 ## Script
 

@@ -21,7 +21,7 @@ The [Arch CutLine](Arch_CutLine.md) tool allows you to cut a solid Arch object l
 1.  Select the object to be cut in the [tree view](Tree_view.md) or the [3D view](3D_view.md).
 2.  Then select the edge to be used to cut the object, for example, a [Draft Wire](Draft_Wire.md). This object should be selected in the [3D view](3D_view.md) only.
 3.  Press the **<img src="images/Arch_CutLine.svg" width=16px> [Cut Line](Arch_CutLine.md)** button.
-4.  Choose {{MenuCommand|Behind}} or {{MenuCommand|Front}} to indicate what part of the solid will be removed.
+4.  Choose **Behind** or **Front** to indicate what part of the solid will be removed.
 5.  Click the **OK** button.
 
 ## Scripting

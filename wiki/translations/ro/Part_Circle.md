@@ -37,7 +37,7 @@ Crearea unui cerc sau a unui arc de cerc parametric.
 
 Utilizăm meniul {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16px> Crea primitive... → Cerchio}}. Și apare o fereastră de dialog. Se deschide un dialog care vă permite să setați:
 
-### Primitive Geometrice {#primitive_geometrice}
+### Primitive Geometrice 
 
 +------------------------------------------------------------------------------+------------------------------------------------+
 | ![](images/PartCirclePrimitivesOptions_it.png ) | Cercul                                         |

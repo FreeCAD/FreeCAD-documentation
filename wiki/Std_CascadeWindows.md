@@ -16,7 +16,7 @@ The **Std CascadeWindows** command rearranges the windows in the [Main view area
 ## Usage
 
 1.  The Main view area must contain at least two windows.
-2.  Select the {{MenuCommand|Windows → <img src="images/Std_CascadeWindows.svg" width=16px> Cascade}} option from the menu.
+2.  Select the **Windows → <img src="images/Std_CascadeWindows.svg" width=16px> Cascade** option from the menu.
 
 
 

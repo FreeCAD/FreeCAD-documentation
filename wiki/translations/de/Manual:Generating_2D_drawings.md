@@ -93,7 +93,7 @@ Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gib
 2.  Drücke die <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> Stücklistensymbol Schaltfläche.
 3.  Der Mauszeiger wird jetzt als Stücklistensymbol angezeigt. Klicke auf die Seite, um den Stücklistensymbolursprung an der gewünschten Position zu platzieren.
 4.  Die Stücklistensymbolblase kann an die gewünschte Position gezogen werden.
-5.  Ändere die Stücklistensymboleigenschaften durch Doppelklicken auf die Stücklistensymbolbeschriftung oder das Stücklistensymbolobjekt in der [Baumansicht](Tree_view/de.md). Dadurch wird der Stücklistensymbol Aufgabendialog geöffnet. Setze das Wert Feld auf den gewünschten Text und ändere die Symbol Ausklappmenüauswahl auf {{MenuCommand|Kein}}.
+5.  Ändere die Stücklistensymboleigenschaften durch Doppelklicken auf die Stücklistensymbolbeschriftung oder das Stücklistensymbolobjekt in der [Baumansicht](Tree_view/de.md). Dadurch wird der Stücklistensymbol Aufgabendialog geöffnet. Setze das Wert Feld auf den gewünschten Text und ändere die Symbol Ausklappmenüauswahl auf **Kein**.
 6.  Drücke **OK**
 7.  Wiederhole den Vorgang für den zweite Aufruf.
 
@@ -101,7 +101,7 @@ Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gib
     -   Stelle sicher, dass die Ansichtsrahmen, Beschriftungen und Knoten sichtbar sind. Wenn dies nicht der Fall ist, drücke die <img alt="" src=images/Techdraw_Toggleframe.svg  style="width:16px;">-Umschalttaste.
     -   Bearbeite den Text in jedem Abschnitt des Blatttitelblocks, indem du auf das kleine grüne Quadrat auf der linken Seite des Textes klickst.
 
-Unsere Seite kann nun ins SVG für eine weitere Verarbeitung in grafischen Anwendungen wie [Inkscape](http://www.inkscape.org) oder ins DXF exportiert werden. Wähle die Seite in der [Baumansicht](Tree_view/de.md) und wähle dann Menü {{MenuCommand|Datei → Export}}. Das DXF-Format ist in fast allen vorhandenen 2D CAD Anwendungen importierbar. TechDraw-Seiten können auch direkt gedruckt oder in PDF exportiert werden.
+Unsere Seite kann nun ins SVG für eine weitere Verarbeitung in grafischen Anwendungen wie [Inkscape](http://www.inkscape.org) oder ins DXF exportiert werden. Wähle die Seite in der [Baumansicht](Tree_view/de.md) und wähle dann Menü **Datei → Export**. Das DXF-Format ist in fast allen vorhandenen 2D CAD Anwendungen importierbar. TechDraw-Seiten können auch direkt gedruckt oder in PDF exportiert werden.
 
 **Herunterladen**
 

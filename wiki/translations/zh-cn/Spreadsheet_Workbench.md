@@ -84,7 +84,7 @@
 
 </div>
 
-## Cell expressions {#cell_expressions}
+## Cell expressions 
 
 A spreadsheet cell may contain arbitrary text or an expression. Technically, expressions must start with an equals \'=\' sign. However, the spreadsheet attempts to be intelligent; if you enter what looks like an expression without the leading \'=\', one will be added automatically.
 
@@ -97,7 +97,7 @@ Cell expressions may contain numbers, functions, references to other cells, and 
 
 References to objects in the model are explained under [References to CAD-data](#References_to_CAD-data.md) below. Using spreadsheet cell values to define model properties are explained under [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) below. For more information on expressions and the available functions, see [Expressions](Expressions.md).
 
-## Interaction between spreadsheets and the CAD model {#interaction_between_spreadsheets_and_the_cad_model}
+## Interaction between spreadsheets and the CAD model 
 
 Data in the cells of a spreadsheet may be used in CAD model parameter expressions. Thus, a spreadsheet may be used as the source for parameter values used throughout a model, effectively gathering the values in one place. When values are changed in the spreadsheet, they are propagated throughout the model.
 
@@ -114,7 +114,7 @@ FreeCAD checks for cyclic dependencies. See [Current limitations](Spreadsheet_Wo
 
 <div class="mw-translate-fuzzy">
 
-## 对 CAD 数据的引用 {#对_cad_数据的引用}
+## 对 CAD 数据的引用 
 
 
 </div>
@@ -196,7 +196,7 @@ While you may use the row and column number in an expression to reference a cell
 
 </div>
 
-### Complex models and recomputes {#complex_models_and_recomputes}
+### Complex models and recomputes 
 
 Editing a spreadsheet will trigger a recompute of the 3D model, even if the changes do not affect the model. For a complex model a recompute can take a long time, and having to wait after every single edit is of course quite annoying.
 
@@ -204,9 +204,9 @@ There are three solutions to deal with this:
 
 1.  Temporarily skip recomputes:
     -   In the [Tree view](Tree_view.md) right-click the <img alt="" src=images/Document.svg  style="width:24px;"> document that contains the spreadsheet.
-    -   Select the {{MenuCommand|Skip recomputes}} option from the context menu.
+    -   Select the **Skip recomputes** option from the context menu.
     -   There is a big disadvantage to this solution. New values entered in the spreadsheet will not be displayed until the document is recomputed. Instead `#PENDING` is shown.
-    -   You can either recompute manually, using the [Std Refresh](Std_Refresh.md) command, or disable {{MenuCommand|Skip recomputes}} when you are done editing.
+    -   You can either recompute manually, using the [Std Refresh](Std_Refresh.md) command, or disable **Skip recomputes** when you are done editing.
 2.  Use a macro to automatically skip recomputes while editing a spreadsheet:
     -   Download and run [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
     -   This solution saves a few steps compared to the first solution, but also has the mentioned disadvantage.
@@ -316,7 +316,7 @@ To handle the page setup necessary for printing, FreeCAD spreadsheets are printe
 
 </div>
 
-## Scripting basics {#scripting_basics}
+## Scripting basics 
 
 
 ```python

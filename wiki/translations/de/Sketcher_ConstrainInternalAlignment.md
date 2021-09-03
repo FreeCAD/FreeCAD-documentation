@@ -17,13 +17,13 @@ Für **<img src=images/Sketcher_CreateEllipseByCenter.svg style="width:16px"><im
 
 Diese Beschränkung ist für erfahrene Benutzer gedacht, da ihre Verwendung nicht so einfach ist wie bei den anderen Beschränkungen. Es gibt ein Hilfswerkzeug namens **<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Interne Geometrie anzeigen/ausblenden](Sketcher_RestoreInternalAlignmentGeometry/de.md)**, um zu vermeiden, dass die Beschränkung InnereAusrichtung manuell aufgerufen werden muss.
 
-## Einsatz auf Ellipse {#einsatz_auf_ellipse}
+## Einsatz auf Ellipse 
 
 1.  Wähle die auszurichtenden Elemente und eine Ellipse aus. Die Ellipse muss zuletzt ausgewählt werden. Akzeptiert werden bis zu zwei Linien und bis zu zwei Punkte.
 2.  Das Aufrufen der Beschränkung kann auf verschiedene Weise erfolgen:
     -   Drücken der **<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> [Beschränke innere Ausrichtung](Sketcher_ConstrainInternalAlignment/de.md)** Schaltfläche in der Werkzeugleiste.
     -   Verwendung der **Strg** + **A** Tastaturkürzel.
-    -   Verwendung des {{MenuCommand|Skizze → Skizziererbeschränkungen → Beschränke <img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Beschränke InnereAusrichtung}} Eintrags aus dem oberen Menü.
+    -   Verwendung des **Skizze → Skizziererbeschränkungen → Beschränke <img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Beschränke InnereAusrichtung** Eintrags aus dem oberen Menü.
 
 Die erste ausgewählte Linie wird so ausgerichtet, dass sie zum Hauptdurchmesser der Ellipse wird (aber wenn sie nicht bereits durch eine andere Linie belegt ist, wird sie sonst zum Nebendurchmesser). Die zweite Linie wird so ausgerichtet, dass sie zu einem Nebenradius wird. Die Linien werden automatisch auf [Konstruktion](Sketcher_ToggleConstruction/de.md) umgeschaltet.
 

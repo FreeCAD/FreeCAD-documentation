@@ -13,7 +13,7 @@ This is a short tutorial for those new to [Python](https://en.wikipedia.org/wiki
 
 The following is a very basic introduction, and by no means a complete tutorial. But hopefully it will provide a good starting point for further exploration into FreeCAD and its mechanisms. We strongly encourage you to enter the code snippets below into a Python interpreter.
 
-## The interpreter {#the_interpreter}
+## The interpreter 
 
 Usually when writing computer programs, you open a text editor or your special programming environment (which is basically a text editor with some additional tools), write your program, then compile and execute. Often one or more errors were made during entry, so your program won\'t work. You may even get an error message telling you what went wrong. Then you go back to your text editor, correct the mistakes, run again, repeating until your program works as intended.
 
@@ -21,7 +21,7 @@ In Python that whole process can be done transparently inside the Python interpr
 
  ![](images/FreeCAD_Python_console.png )  *The FreeCAD Python console*
 
-If you don\'t see it, click on {{MenuCommand|View → Panels → Python console}}. The Python console can be resized and also undocked.
+If you don\'t see it, click on **View → Panels → Python console**. The Python console can be resized and also undocked.
 
 The interpreter shows the Python version, then a `>>>` symbol which is the command prompt. Writing code in the interpreter is simple: one line is one instruction. When you press **Enter**, your line of code will be executed (after being instantly and invisibly compiled). For example, try writing this:
 
@@ -475,7 +475,7 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 [top](#top.md)
 
-## Starting with FreeCAD {#starting_with_freecad}
+## Starting with FreeCAD 
 
 Hopefully you now have a good idea of how Python works, and you can start exploring what FreeCAD has to offer. FreeCAD\'s Python functions are all well organized in different modules. Some of them are already loaded (imported) when you start FreeCAD. Just try:
 

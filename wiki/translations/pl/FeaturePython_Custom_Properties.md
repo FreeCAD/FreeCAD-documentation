@@ -7,7 +7,7 @@ Properties are the true building stones of FeaturePython objects. Through them, 
 obj.supportedProperties()
 ``` You will get a list of available properties.
 
-##  Creating a FeaturePython object and adding a property to it {#creating_a_featurepython_object_and_adding_a_property_to_it}
+##  Creating a FeaturePython object and adding a property to it 
 
 This code will create an object with internal name `InternalObjectName` (automatically renamed to `InternalObjectName001` and so on, if an object named `InternalObjectName` already exists) and give it the user-friendly label `User-friendly label` (this label will be displayed in the [Tree view](Tree_view.md) and [Combo view](Combo_view.md). [Expressions](Expressions.md) can refer to this object by its label using `<<User-friendly label>>`.
 

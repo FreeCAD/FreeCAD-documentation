@@ -27,7 +27,7 @@ Macro to rotate an object on itself with the axis of rotation being either the:
 
 ![Interface Rotate to point ](images/Macro_Rotate_To_Point_00.png ) 
 
-### Point Rotation {#point_rotation}
+### Point Rotation 
 
 -   Boundbox Center: Select the BoundBox center to axis rotation
 -   Center of Mass: Select the Center of Mass to axis rotation
@@ -35,14 +35,14 @@ Macro to rotate an object on itself with the axis of rotation being either the:
     -   1: select the object
     -   2: use the **CTRL** key to choose an extra object
 
-### Axis Rotation {#axis_rotation}
+### Axis Rotation 
 
 -   Rotation(Z) Yaw: Yaw axis
 -   Rotation(Y) Pitch: Pitch axis
 -   Rotation(X) Roll: Roll axis
 -   Rotation(D) Direction: Rotate around line, wire selected
 
-### Coordinates Point clicked {#coordinates_point_clicked}
+### Coordinates Point clicked 
 
 -   DoubleSpinBox: Coordinate X on mouse click (modifiable only with the mode \"Point Clicked\")
 -   DoubleSpinBox: Coordinate Y on mouse click (modifiable only with the mode \"Point Clicked\")

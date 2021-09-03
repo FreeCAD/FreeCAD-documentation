@@ -13,12 +13,12 @@ Per ulteriori informazioni su questo tipo di oggetto vedere [Sketcher SketchObje
 
 Esistono due modi comuni per creare uno schizzo: utilizzando direttamente l\'ambiente [Sketcher](Sketcher_Workbench/it.md) o tramite l\'ambiente [PartDesign](PartDesign_Workbench/it.md).
 
-### Ambiente Sketcher {#ambiente_sketcher}
+### Ambiente Sketcher 
 
 1.  Passare nell\'ambiente <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/it.md).
 2.  Premere **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Crea un nuovo schizzo](Sketcher_NewSketch/it.md)**.
 
-### Ambiente PartDesign {#ambiente_partdesign}
+### Ambiente PartDesign 
 
 1.  Passare nell\'ambiente <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/it.md).
 2.  Premere **<img src=images/PartDesign_Body.svg style="width:16px"> [Crea un corpo](PartDesign_Body/it.md)**.

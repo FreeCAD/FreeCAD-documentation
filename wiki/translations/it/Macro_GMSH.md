@@ -36,7 +36,7 @@ ToolBar Icon ![](images/Macro_GMSH.png )
 
 **GMSHMesh.FCMacro GMSH Macro.FCMacro**
 
-## Installazioni aggiuntive {#installazioni_aggiuntive}
+## Installazioni aggiuntive 
 
 GMSH deve essere installato. Vedere [gmsh.info](http://gmsh.info/). La macro è idonea per essere eseguita su sistema operativo Linux, OSX e Windows. Il percorso binario di Gmsh deve essere adattato nella macro.
 

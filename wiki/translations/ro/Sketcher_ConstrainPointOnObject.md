@@ -17,7 +17,7 @@ Aplică un punct pe un alt obiect, cum ar fi o linie, un arc sau o axă de schi�
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați punctul pe care doriți să îl aplicați pe o linie/arc/etc. (Odată selectat punctul devine verde).
 2.  Selectați linia pe care doriți să o atașați la punctul pe care tocmai l-ați selectat(Odată selecatată linia devine verde).
@@ -31,7 +31,7 @@ Aplică un punct pe un alt obiect, cum ar fi o linie, un arc sau o axă de schi�
 3.  Invoke the **Constrain point onto object** tool using several methods:
     -   Press the **<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Point on object](Sketcher_ConstrainPointOnObject.md)** button in the toolbar.
     -   Use the **Shift** + **O** keyboard shortcut.
-    -   Use the {{MenuCommand|Sketch → Sketcher constraints → Constrain point onto object}} entry in the top menu.
+    -   Use the **Sketch → Sketcher constraints → Constrain point onto object** entry in the top menu.
 
 
 <div class="mw-translate-fuzzy">

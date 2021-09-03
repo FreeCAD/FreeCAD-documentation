@@ -6,7 +6,7 @@
 
 这些页面还处于开发的早起阶段。如果你找不到想看的信息，如果你在别处看到了有用的信息，而我们没有链接在这里，那么请在[论坛](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff)里留下你的评论。会有人仔细看，认真处理它们的（或者，大胆如你，为什么不直接编辑这个页面呢？）。
 
-## Developer Documentation {#developer_documentation}
+## Developer Documentation 
 
 
 <div class="mw-translate-fuzzy">
@@ -18,7 +18,7 @@
 
 </div>
 
-### Compiling FreeCAD {#compiling_freecad}
+### Compiling FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -50,7 +50,7 @@
 -   [Windows packaging](Windows_packaging.md)
 -   [MacOS packaging](MacOS_packaging.md)
 
-### Build Support Tools {#build_support_tools}
+### Build Support Tools 
 
 
 <div class="mw-translate-fuzzy">
@@ -67,7 +67,7 @@
 
 </div>
 
-### Modifying FreeCAD {#modifying_freecad}
+### Modifying FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -88,7 +88,7 @@
 
 -   [Translating an external workbench](Translating_an_external_workbench.md)
 
-### Module developer\'s guide {#module_developers_guide}
+### Module developer\'s guide 
 
 
 <div class="mw-translate-fuzzy">
@@ -137,11 +137,11 @@ OpenCascade is a software development platform for 3D surface and solid modeling
 -   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
 -   [The openCascade wiki](http://opencascade.wikidot.com) (currently containing ?? Chinese spam)
 
-#### File format {#file_format}
+#### File format 
 
 [File Format FCStd](File_Format_FCStd.md). The files created with FreeCAD are `.zip` files that include the [BREP](https://en.wikipedia.org/wiki/Boundary_representation) geometry, as well as XML data that describes the document.
 
-#### Sketcher solver {#sketcher_solver}
+#### Sketcher solver 
 
 -   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
 -   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).

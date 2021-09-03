@@ -43,7 +43,7 @@ Tra gli obiettivi finali di questo software c\'è quello di utilizzare l\'ambien
 
 Al momento, in FreeCAD non c\'è ancora nessun Sistema di gestione delle unità di misura, ma ovviamente un costruttore di barche o modellatore ha bisogno di un sistema di dimensionamento accurato. Per utilizzare questa macro, si deve impostare la griglia di FreeCAD con la dimensione appropriata al lavoro (per esempio mm, cm, pollici, piedi). FreeCAD è coerente, una unità di FreeCAD sarà sempre uguale a una unità di FreeCAD. Se avete deciso che una unità FreeCAD corrisponde a una determinata lunghezza fisica, allora i vostri disegni rimarranno dimensionati coerentemente. Al momento si sta lavorando su un Sistema di unità per FreeCAD, quindi questa situazione potrebbe cambiare presto.
 
-## Descrizione {#descrizione_1}
+## Descrizione 
 
 Per questa macro, le forme della carena sono definite da un minimo di 3 schizzi di FreeCAD: uno nel piano YZ, uno o più nel piano XZ e uno nel piano XY. Qui è presentato lo scafo minimo supportato da questa macro, ha solo 3 schizzi:
 
@@ -231,7 +231,7 @@ Le successive istruzioni si riferiscono ai quadranti del grafico XY, dove i 4 qu
 
 La prima cosa da fare è quella di creare un nuovo documento in FreeCAD <img alt="" src=images/Document-new.svg  style="width:24px;">. Questo documento conterrà tutti gli schizzi che compongono la definizione dello scafo.
 
-### Creare la linea di prua {#creare_la_linea_di_prua}
+### Creare la linea di prua 
 
 Il primo passo consiste nel creare i dati per il modello dello scafo che si vuole realizzare. I dati sono forniti in forma di schizzi interni a FreeCAD. Quando il modello dello scafo è stato generato, per apportare delle modifiche basta semplicemente editare gli schizzi, e poi eseguire ripetamente la macro.
 
@@ -243,7 +243,7 @@ Il primo passo consiste nel creare i dati per il modello dello scafo che si vuol
 5.  salvare lo schizzo <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:24px;">
 6.  per facilitarne l\'identificazione, probabilmente vale la pena di rinominare lo schizzo con un nome simile a \"schizzo della linea di prua\"
 
-### Creare gli schizzi delle sezioni trasversali {#creare_gli_schizzi_delle_sezioni_trasversali}
+### Creare gli schizzi delle sezioni trasversali 
 
 1.  creare un nuovo schizzo <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> nel piano XZ
 2.  appare la seguente finestra di dialogo:
@@ -257,7 +257,7 @@ Il primo passo consiste nel creare i dati per il modello dello scafo che si vuol
 6.  per ripetere questo passaggio indispensabile, può essere più veloce copiare questo disegno e poi distribuire le copie sull\'asse Y, alle singole copie si possono apportare le modifiche necessarie
 7.  per la denominazione, dare una sorta di sequenza alle sezioni renderà le cose più facili, iniziando da prua (cioè dalla linea di prua) e incrementando la numerazione verso poppa (cioè lo specchio di poppa)
 
-### Creare lo schizzo dello specchio di poppa nel piano XY {#creare_lo_schizzo_dello_specchio_di_poppa_nel_piano_xy}
+### Creare lo schizzo dello specchio di poppa nel piano XY 
 
 1.  creare un nuovo schizzo <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> nel piano XY
 2.  iniziare sull\'asse Y tra quadranti III e IV, e disegnare verso l\'alto nel quadrante IV in modo che il punto finale coincida con il punto più a destra dello schizzo della più piccola sezione creata nel piano YZ
@@ -281,7 +281,7 @@ Le principali limitazioni per costruire il modello sono:
 
 Questo conclude la prima parte che consiste nel creare i dati che la macro utilizza per creare due mezzi scafi o uno scafo completo. La seconda parte è descritta nella sezione seguente ed è intitolata Interfaccia utente
 
-## Interfaccia utente {#interfaccia_utente}
+## Interfaccia utente 
 
 In questa fase la macro raccogliere alcune informazioni dall\'utente e quindi elabora gli schizzi input per generare i modelli di scafo desiderati. Questa è l\'immagine dell\'unica GUI della macro che permette di configurare i principali dettagli per la produzione dei modelli di scafo dagli schizzi:
 
@@ -498,7 +498,7 @@ Anche se negli ultimi 2 millenni non si vede molto spesso, in passato, questa er
 
 -   per ottenere una forma corretta la polilinea per la prua deve essere disegnata dal basso verso l\'alto, questo significa che nello schizzo deve andare da destra verso sinistra
 
-## File di esempio {#file_di_esempio}
+## File di esempio 
 
 Questi file contengono gli schizzi con i dati campione da utilizzare con la macro, e sono soprattutto i modelli per le schermate riprodotte nella precedente sezione Opzioni. I file funzionano con la Macro, quindi possono essere scaricati e riprodotti per adattarli alle proprie specifiche esigenze. Il prefisso di 5x3 (ad esempio) significa che il modello è dotato di 5 sezioni e che ci sono 3 segmenti di linea per ogni sezione (i.e. sketch)
 
@@ -521,7 +521,7 @@ Per utilizzare uno dei file di esempio, fare clic destro sul link del file e sel
 -   non fa prue quadrate come spintori o chiatte trainate
 -   non fa sommergibili (anche se fa la metà inferiore di un sottomarino)
 
-## Problemi noti {#problemi_noti}
+## Problemi noti 
 
 Per generare sezioni scafo dagli schizzi viene utilizzata la funzione \'Superficie rigata\' di FreeCAD. A volte può generare un risultato sbagliato e visualizzare una grattugia come superficie invece di una superficie liscia. Questo in genere si verifica quando i disegni sono ruotati come, ad esempio, quando si modella una poppa Sugar Scoop. Questo può capitare anche inclinando un specchio di poppa quadro. Se succede questo, in genere avviene nei due modelli mezzo-scafo oppure nel modello dello scafo completo - sembra che non si verifichi mai in tutti e tre i modelli dello stesso scafo. Inoltre, di solito, succede solo all\'estremità di prua o di poppa. Se capita in una sezione nel mezzo della barca è molto probabile che uno degli schizzi sia stato redatto nella direzione sbagliata (cioè o con sequenza casuale o dall\'alto verso il basso mentre invece tutte le linee devono essere tracciate dal basso verso l\'alto)
 
@@ -536,7 +536,7 @@ La seguente schermata mostra la parte dello schermo interessata:
 
 ![](images/Macro_Half-Hull_ModelKnownProblems1.jpg )
 
-## Future possibilità {#future_possibilità}
+## Future possibilità 
 
 -   nelle sezioni sostituire i segmenti con linee curve
     - per ora questo è solo un\'idea, ma si otterrebbe una superficie molto più liscia nella parte verticale, mentre la superficie orizzontale continuerebbe ad essere sfaccettata come lo è ora

@@ -20,7 +20,7 @@ S\'il n\'y a qu\'une seule forme enfant dans le résultat, la sortie est l\'enfa
 ## Utilisation
 
 1.  Sélectionnez l\'objet découpé
-2.  Appliquez {{MenuCommand|Pièce → Composé → Filtre composé}}
+2.  Appliquez **Pièce → Composé → Filtre composé**
 3.  Sélectionnez l\'objet CompoundFilterObject dans l\'arborescence
 4.  Dans l\'onglet Propriétés, définissez \"Type de filtre\" sur \"éléments spécifiques\".
 5.  Définit les items sur les éléments à extraire

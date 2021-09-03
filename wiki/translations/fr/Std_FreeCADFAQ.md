@@ -15,7 +15,7 @@ Actuellement cette commande pointe vers [<https://www.freecadweb.org/wiki/FAQ>](
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Aide → <img src="images/Std_FreeCADFAQ.svg" width=16px> FAQ FreeCAD}} dans le menu.
+1.  Sélectionnez l\'option **Aide → <img src="images/Std_FreeCADFAQ.svg" width=16px> FAQ FreeCAD** dans le menu.
 
 
 

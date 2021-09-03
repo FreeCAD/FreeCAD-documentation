@@ -23,7 +23,7 @@ Această comandă permite intrarea sau ieșirea din modul de editare al unui obi
 ## Usage
 
 1.  If no object is in edit mode: select a single object.
-2.  Select the {{MenuCommand|Edit → <img src="images/Std_Edit.svg" width=16px> Toggle Edit mode}} option from the menu.
+2.  Select the **Edit → <img src="images/Std_Edit.svg" width=16px> Toggle Edit mode** option from the menu.
 3.  Either the edit mode of the selected object is activated or the existing edit mode deactivated.
 
 ## Notes

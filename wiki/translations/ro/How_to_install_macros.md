@@ -32,7 +32,7 @@ Here is a video on [installing FreeCAD macros in Ubuntu](https://wiki.opensource
 
 <div class="mw-translate-fuzzy">
 
-## Meniul Macro Menu și Iconițele Instrumentelor {#meniul_macro_menu_și_iconițele_instrumentelor}
+## Meniul Macro Menu și Iconițele Instrumentelor 
 
 
 </div>
@@ -46,7 +46,7 @@ Here is a video on [installing FreeCAD macros in Ubuntu](https://wiki.opensource
 
 ### Menu
 
-Besides the tools in the toolbar, the following functions are also available in the {{MenuCommand|Macro}} menu.
+Besides the tools in the toolbar, the following functions are also available in the **Macro** menu.
 
 -   [Attach to remote debugger](Std_MacroAttachDebugger.md)
 -   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Debug macro](Std_MacroStartDebug.md)
@@ -58,7 +58,7 @@ Besides the tools in the toolbar, the following functions are also available in 
 
 <div class="mw-translate-fuzzy">
 
-## Locația și destinația mcrocomanzilor {#locația_și_destinația_mcrocomanzilor}
+## Locația și destinația mcrocomanzilor 
 
 
 </div>
@@ -66,14 +66,14 @@ Besides the tools in the toolbar, the following functions are also available in 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Macros are created in a specific folder under the user\'s FreeCAD directory. This directory can be configured in the [Execute macro dialog](Std_DlgMacroExecute.md), or in the [Preferences Editor](Preferences_Editor.md), through the menu {{MenuCommand|Edit → Preferences → General → Macro → Macro recording settings}}.
+Macros are created in a specific folder under the user\'s FreeCAD directory. This directory can be configured in the [Execute macro dialog](Std_DlgMacroExecute.md), or in the [Preferences Editor](Preferences_Editor.md), through the menu **Edit → Preferences → General → Macro → Macro recording settings**.
 
 Downloaded macros should also be placed in this directory.
 
 
 <div class="mw-collapsible-content">
 
-### Default directory {#default_directory}
+### Default directory 
 
 Macros can be simply copied into
 
@@ -179,14 +179,14 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 </div>
 
-## Installing macros {#installing_macros}
+## Installing macros 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Automatic method {#automatic_method}
+### Automatic method 
 
-Starting with FreeCAD 0.17, use the [Addon Manager](Addon_Manager.md) in {{MenuCommand|Tools → Addon manager}} to install a macro that has been included in the [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
+Starting with FreeCAD 0.17, use the [Addon Manager](Addon_Manager.md) in **Tools → Addon manager** to install a macro that has been included in the [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
 
 
 <div class="mw-collapsible-content">
@@ -213,7 +213,7 @@ The recommended way to install addons, that is, [external workbenches](external_
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-## Method copy the code in one window and paste in the FreeCAD editor {#method_copy_the_code_in_one_window_and_paste_in_the_freecad_editor}
+## Method copy the code in one window and paste in the FreeCAD editor 
 
 
 <div class="mw-collapsible-content">
@@ -392,7 +392,7 @@ Restart FreeCAD to correctly register the new macro.
 
 </div>
 
-Create a new document with {{MenuCommand|File → <img src="images/Std_New.svg" width=16px> [New](Std_New.md)}}, and then repeat the previous steps to execute the macro.
+Create a new document with **File → <img src="images/Std_New.svg" width=16px> [New](Std_New.md)**, and then repeat the previous steps to execute the macro.
 
 
 <div class="mw-translate-fuzzy">
@@ -459,7 +459,7 @@ Create a new document with {{MenuCommand|File → <img src="images/Std_New.svg" 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-## Method macro in a compressed .ZIP file {#method_macro_in_a_compressed_.zip_file}
+## Method macro in a compressed .ZIP file 
 
 
 <div class="mw-collapsible-content">
@@ -637,7 +637,7 @@ unzip your_file.zip -d your_directory
 
 </div>
 
-## Execute a macro in command line {#execute_a_macro_in_command_line}
+## Execute a macro in command line 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -667,7 +667,7 @@ todo
 
 </div>
 
-## Errors in macros {#errors_in_macros}
+## Errors in macros 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -675,7 +675,7 @@ todo
 
 <div class="mw-translate-fuzzy">
 
-## The indentation errors examples wrong code {#the_indentation_errors_examples_wrong_code}
+## The indentation errors examples wrong code 
 
 
 <div class="mw-collapsible-content">
@@ -821,7 +821,7 @@ Here the code has been copied from a forum thread by using the **Select all** bu
 
 </div>
 
-In Windows, [Notepad++](http://notepad-plus-plus.org/) can perform selection with **Alt** + Mouse dragging, and then use {{MenuCommand|Edit → Indent → Decrease the indentation}}.
+In Windows, [Notepad++](http://notepad-plus-plus.org/) can perform selection with **Alt** + Mouse dragging, and then use **Edit → Indent → Decrease the indentation**.
 
 
 <div class="mw-translate-fuzzy">
@@ -880,7 +880,7 @@ Here the selection also selects the line numbers in the code example. If this se
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-## For those who see no information is displayed. {#for_those_who_see_no_information_is_displayed.}
+## For those who see no information is displayed. 
 
 
 <div class="mw-collapsible-content">
@@ -897,7 +897,7 @@ If no information is displayed, make sure the report view and [Python](Python.md
 
 <div class="mw-collapsible-content">
 
-#### Printing information {#printing_information}
+#### Printing information 
 
 FreeCAD macros have two methods to print information to the report view.
 

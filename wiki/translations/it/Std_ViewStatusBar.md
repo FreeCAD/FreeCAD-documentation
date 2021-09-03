@@ -13,7 +13,7 @@ Il comando **Barra di stato** attiva o disattiva la visualizzazione della [Barra
 
 ## Utilizzo
 
-1.  Selezionare l\'opzione {{MenuCommand|Visualizza → Barra di stato}} dal menu.
+1.  Selezionare l\'opzione **Visualizza → Barra di stato** dal menu.
 
 
 <div class="mw-translate-fuzzy">

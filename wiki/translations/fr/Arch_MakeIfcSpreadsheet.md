@@ -15,13 +15,13 @@
 
 Cet outil crée une feuille de calcul pour stocker les propriétés [IFC](Arch_IFC/fr.md) d\'un objet.
 
-## Comment l\'utiliser {#comment_lutiliser}
+## Comment l\'utiliser 
 
 1.  Sélectionnez un objet.
 2.  Lancer la commande en utilisant plusieurs méthodes:
     -   En appuyant sur le bouton **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> Créer une feuille de tableur IFC** dans la barre d\'outils.
     -   Utilisation du raccourci clavier **I** puis **P**.
-    -   Utilisation de l\'entrée {{MenuCommand|Arch → Utilitaires → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Créer une feuille de tableur IFC}} dans le menu supérieur.
+    -   Utilisation de l\'entrée **Arch → Utilitaires → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Créer une feuille de tableur IFC** dans le menu supérieur.
 
 ## Script
 

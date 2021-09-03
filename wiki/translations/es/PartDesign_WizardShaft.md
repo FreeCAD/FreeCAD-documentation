@@ -7,7 +7,7 @@
 
 ## Descripción
 
-Esta herramienta permite crear un árbol a partir de una tabla de valores y analizar las fuerzas y los momentos. Puede iniciar el asistente desde el menú Diseño de la pieza {{MenuCommand|DiseñoPieza → <img src=images/PartDesign_WizardShaft.svg style="width:20px"> Asistente Diseño Ejes...}}.
+Esta herramienta permite crear un árbol a partir de una tabla de valores y analizar las fuerzas y los momentos. Puede iniciar el asistente desde el menú Diseño de la pieza **DiseñoPieza → <img src=images/PartDesign_WizardShaft.svg style="width:20px"> Asistente Diseño Ejes...**.
 
 El asistente se iniciará y mostrará una tabla por defecto, la parte eje correspondiente y los gráficos de fuerza/momento.
 
@@ -44,7 +44,7 @@ Para añadir un nuevo segmento de eje, pulsa con el botón derecho en un espacio
 
 -   No es posible tener segmentos adyacentes del eje con el mismo diámetro.
 
-## Funcionalidad planeada {#funcionalidad_planeada}
+## Funcionalidad planeada 
 
 -   Chaflanes y redondeos conducidos por la tabla sobre las aristas del eje
 -   Reconocer un asistente de eje creado previamente e iniciar los valores de la tabla a partir de él

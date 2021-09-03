@@ -15,7 +15,7 @@ Tool-paths are uncompensated for tool radius. There is no Tool controller associ
 
 ![](images/FromShape_image_0.png )
 
-## Kako koristiti {#kako_koristiti}
+## Kako koristiti 
 
 All edges associated with the 3D Model selection will be included.
 
@@ -51,7 +51,7 @@ Empty
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-#### DocString Info {#docstring_info}
+#### DocString Info 
 
 Returns a Path object from a list of shapes.
 

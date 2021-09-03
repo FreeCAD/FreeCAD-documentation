@@ -20,7 +20,7 @@ Per utilizzare questo comando bisogna che [OpenSCAD](http://www.openscad.org/) s
 
 1.  Selezionare l\'oggetto mesh principale.
 2.  Aggiungere alla selezione l\'oggetto mesh che si desidera tagliare dall\'oggetto principale. Gli oggetti mesh devono sovrapporsi.
-3.  Selezionare l\'opzione {{MenuCommand|Mesh → Operazione booleana → <img src="images/Mesh_Difference.svg" width=16px> Differenza}} dal menu.
+3.  Selezionare l\'opzione **Mesh → Operazione booleana → <img src="images/Mesh_Difference.svg" width=16px> Differenza** dal menu.
 
 
 </div>

@@ -19,7 +19,7 @@
 
 **Uwaga:** Narzędzie wiązania może być również uruchomione bez wcześniejszego zaznaczenia obiektów. Będzie wtedy działało tylko na jednym wierzchołku i stosowało wiązania do punktu początku szkicu. Domyślnie polecenie jest aktywne w trybie kontynuacji, by utworzyć nowe wiązanie. Wciśnij raz prawy przycisk myszki lub klawisz **ESC**, by zakończyć działanie polecenia.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Wiązanie <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Blokada wiązania](Sketcher_ConstrainLock/pl.md) jest poleceniem GUI, które tworzy wiązanie <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [odległości poziomej](Sketcher_ConstrainDistanceX/pl.md) oraz <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [odległości pionowej](Sketcher_ConstrainDistanceY/pl.md), i nie stanowi samodzielnego wiązania. Zobacz stronę [Skrypty Szkicownika](Sketcher_scripting/pl.md), aby uzyskać szczegóły i przykłady, jak tworzyć te wiązania za pomocą skryptów języka Python.
 

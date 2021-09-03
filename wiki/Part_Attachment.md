@@ -31,13 +31,13 @@
 
 ![](images/Part_Offset_Tasks.png )
 
-### Attachment mode {#attachment_mode}
+### Attachment mode 
 
 #### Deactivated
 
 Default, no reference selected.
 
-#### Normal to edge {#normal_to_edge}
+#### Normal to edge 
 
 Object is made perpendicular to edge. Optional vertex reference defines location.
 
@@ -47,7 +47,7 @@ Object is made perpendicular to edge. Optional vertex reference defines location
 :   Edge, Vertex
 :   Vertex, Edge
 
-#### Align O-N-X {#align_o_n_x}
+#### Align O-N-X 
 
 Matches object\'s origin with first referenced vertex, then aligns its normal and horizontal plane axis toward vertex/along line.
 
@@ -60,7 +60,7 @@ Matches object\'s origin with first referenced vertex, then aligns its normal an
 :   Vertex, Vertex
 :   Vertex, Edge
 
-#### Align O-N-Y {#align_o_n_y}
+#### Align O-N-Y 
 
 Matches object\'s origin with first referenced vertex and aligns its normal and vertical plane axis toward vertex/along line.
 
@@ -73,7 +73,7 @@ Matches object\'s origin with first referenced vertex and aligns its normal and 
 :   Vertex, Vertex
 :   Vertex, Edge
 
-#### Align O-X-Y {#align_o_x_y}
+#### Align O-X-Y 
 
 Matches object\'s origin with first referenced vertex and aligns its horizontal and vertical plane axes toward vertex/along line.
 
@@ -86,7 +86,7 @@ Matches object\'s origin with first referenced vertex and aligns its horizontal 
 :   Vertex, Vertex
 :   Vertex, Edge
 
-#### Align O-X-N {#align_o_x_n}
+#### Align O-X-N 
 
 Matches object\'s origin with first referenced vertex and aligns its horizontal plane axis and normal toward vertex/along line.
 
@@ -99,7 +99,7 @@ Matches object\'s origin with first referenced vertex and aligns its horizontal 
 :   Vertex, Vertex
 :   Vertex, Edge
 
-#### Align O-Y-N {#align_o_y_n}
+#### Align O-Y-N 
 
 Matches object\'s origin with first referenced vertex and aligns its vertical plane axis and normal toward vertex/along line.
 
@@ -112,7 +112,7 @@ Matches object\'s origin with first referenced vertex and aligns its vertical pl
 :   Vertex, Vertex
 :   Vertex, Edge
 
-#### Align O-Y-X {#align_o_y_x}
+#### Align O-Y-X 
 
 Matches object\'s origin with first referenced vertex and aligns its vertical and horizontal plane axes toward vertex/along line.
 
@@ -125,7 +125,7 @@ Matches object\'s origin with first referenced vertex and aligns its vertical an
 :   Vertex, Vertex
 :   Vertex, Edge
 
-#### Translate origin {#translate_origin}
+#### Translate origin 
 
 Object\'s origin is aligned to matched vertex. Orientation is controlled by [Placement](Placement.md) property.
 
@@ -133,7 +133,7 @@ Object\'s origin is aligned to matched vertex. Orientation is controlled by [Pla
 
 :   Vertex.
 
-#### Object\'s XY {#objects_xy}
+#### Object\'s XY 
 
 Plane is aligned to XY local plane of linked object.
 
@@ -141,7 +141,7 @@ Plane is aligned to XY local plane of linked object.
 
 :   Any, Conic.
 
-#### Object\'s XZ {#objects_xz}
+#### Object\'s XZ 
 
 Plane is aligned to XZ local plane of linked object.
 
@@ -149,7 +149,7 @@ Plane is aligned to XZ local plane of linked object.
 
 :   Any, Conic.
 
-#### Object\'s YZ {#objects_yz}
+#### Object\'s YZ 
 
 Plane is aligned to YZ local plane of linked object.
 
@@ -157,7 +157,7 @@ Plane is aligned to YZ local plane of linked object.
 
 :   Any, Conic
 
-#### Plane face {#plane_face}
+#### Plane face 
 
 Plane is aligned to coincide to planar face.
 
@@ -165,7 +165,7 @@ Plane is aligned to coincide to planar face.
 
 :   Plane
 
-#### Tangent to surface {#tangent_to_surface}
+#### Tangent to surface 
 
 Plane is made tangent to surface at vertex.
 
@@ -174,7 +174,7 @@ Plane is made tangent to surface at vertex.
 :   Face, Vertex
 :   Vertex, Face
 
-#### Frenet NB {#frenet_nb}
+#### Frenet NB 
 
 Plane is set to normal-binormal (NB) axes of [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) at the point of the edge\'s curve that is closest to the vertex (or defined by MapPathParameter property, if vertex is not linked). The object\'s origin is translated to the vertex if the vertex is first, or kept at the curve if edge is first. This mode is similar to *Normal to edge*, except that X axis is well-defined.
 
@@ -185,7 +185,7 @@ Plane is set to normal-binormal (NB) axes of [Frenet-Serret coordinates](https:/
 :   Vertex, Curve
 :   <img alt="" src=images/Attacher_mode_FrenetNB.png  style="width:250px;">
 
-#### Frenet TN {#frenet_tn}
+#### Frenet TN 
 
 Plane is set to tangent-normal (TN) axes of [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) at the point of the edge\'s curve that is closest to the vertex (or defined by MapPathParameter property, if vertex is not linked). The origin of sketch is translated to the vertex if the vertex is first, or kept at the curve if edge is first. Effectively, if the curve is planar, the sketching plane is the plane of the curve.
 
@@ -196,7 +196,7 @@ Plane is set to tangent-normal (TN) axes of [Frenet-Serret coordinates](https://
 :   Vertex, Curve
 :   <img alt="" src=images/Attacher_mode_FrenetTN.png  style="width:250px;">
 
-#### Frenet TB {#frenet_tb}
+#### Frenet TB 
 
 Plane is set tangent-binormal (TB) axes of [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) at the point of the edge\'s curve that is closest to the vertex (or defined by MapPathParameter property, if vertex is not linked). The origin of sketch is translated to the vertex if the vertex is first, or kept at the curve if edge is first.
 
@@ -220,7 +220,7 @@ Aligns to plane to osculating circle of an edge. Optional Vertex link defines wh
 :   Vertex, Curve
 :   Vertex, Circle
 
-#### Revolution Section {#revolution_section}
+#### Revolution Section 
 
 Plane is perpendicular to edge, and Y axis is matched with axis of osculating circle. Optional Vertex link defines where.
 
@@ -233,7 +233,7 @@ Plane is perpendicular to edge, and Y axis is matched with axis of osculating ci
 :   Vertex, Curve
 :   Vertex, Circle
 
-#### Plane by 3 points {#plane_by_3_points}
+#### Plane by 3 points 
 
 Aligns XY plane to pass through three vertices.
 
@@ -244,7 +244,7 @@ Aligns XY plane to pass through three vertices.
 :   Vertex, Line
 :   Line, Line
 
-#### Normal to 3 points {#normal_to_3_points}
+#### Normal to 3 points 
 
 Aligns plane to pass through first two vertices, and perpendicular to plane that passes through 3 vertices.
 
@@ -264,7 +264,7 @@ Specialty mode for folding polyhedra. Select 4 edge in order: foldable edge, fol
 :   Line, Line, Line, Line
 :   ![ 250px](images/Attacher_mode_Folding.png )
 
-#### Inertia 2-3 {#inertia_2_3}
+#### Inertia 2-3 
 
 Object will be attached to a plane passing through second and third principal axes of inertia (passes through center of mass).
 
@@ -275,7 +275,7 @@ Object will be attached to a plane passing through second and third principal ax
 :   Any, Any, Any
 :   Any, Any, Any, Any
 
-### Attachment Offset {#attachment_offset}
+### Attachment Offset 
 
 Attachment Offset is used to apply a linear or rotary offset from the referenced object. That means the offsets are relative to the *local* coordinate system, not to the global. It becomes active when an attachment mode other than *Deactivated* has been selected.
 

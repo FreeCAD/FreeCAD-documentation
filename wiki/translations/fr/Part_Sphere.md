@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Description {#description_1}
+## Description 
 
 Crée une sphère paramétrique simple avec des paramètres de position angle1, angle2, angle3 et rayon.
 
@@ -34,7 +34,7 @@ Crée une sphère paramétrique simple avec des paramètres de position angle1, 
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Atelier PArt](Part_Workbench/fr.md)
 2.  Lancez la commande de plusieurs manières:
     -   Appuyez sur le bouton **<img src="images/Part_Sphere.svg" width=16px> Crée un solide sphérique** dans la barre d\'outils.
-    -   Sélectionnez {{MenuCommand|Pièce → Primitives → <img src="images/Part_Sphere.svg" width=16px> Sphère}} dans la barre de menus.
+    -   Sélectionnez **Pièce → Primitives → <img src="images/Part_Sphere.svg" width=16px> Sphère** dans la barre de menus.
 
 
 </div>

@@ -18,7 +18,7 @@ La commande **Std Exécuter la macro dans l\'éditeur** exécute la macro dans l
 2.  Assurez-vous que la fenêtre de l\'éditeur de macro a le focus d\'entrée.
 3.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Std Lancer la macro](Std_DlgMacroExecuteDirect/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> Lancer la macro}} dans le menu.
+    -   Sélectionnez l\'option **Macro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> Lancer la macro** dans le menu.
     -   Utilisez le raccourci clavier: **Ctrl**+**F6**.
 4.  La macro est exécutée.
 

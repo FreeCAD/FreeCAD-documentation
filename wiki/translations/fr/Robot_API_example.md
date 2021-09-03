@@ -13,7 +13,7 @@ from Part import *
 from FreeCAD import *
 ```
 
-### Trucs de base robot {#trucs_de_base_robot}
+### Trucs de base robot 
 
 créer le robot. Si tu ne spécifies pas une autre cinématique, il devient un Puma 560 
 ```python
@@ -96,7 +96,7 @@ print t.Waypoints
 del rob,Start,t,l,w
 ```
 
-### Travailler avec les objets du document {#travailler_avec_les_objets_du_document}
+### Travailler avec les objets du document 
 
 Travailler avec les objets document robot: créer en premier un robot dans le document actif 
 ```python
@@ -168,7 +168,7 @@ print App.activeDocument().Trajectory.Trajectory
 
 A faire\.....
 
-### Exportation de la trajectoire {#exportation_de_la_trajectoire}
+### Exportation de la trajectoire 
 
 La trajectoire est exportée par Python. Cela veut dire que pour chaque type d\'armoire de commande, il existe un post-processeur module Python. Voici en détail la description du post-processeur de Kuka 
 ```python

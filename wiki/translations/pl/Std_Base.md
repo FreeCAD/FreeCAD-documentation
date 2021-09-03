@@ -16,7 +16,7 @@
 
 Większość narzędzi [Std: Base](Std_Base/pl.md) jest dostępna z [menu standardowego](Standard_Menu/pl.md), i standardowy pasek narzędzi. Te, które są dostępne tylko poprzez pasek narzędzi lub menu kontekstowe, są wymienione w sekcji [narzędzia dodatkowe](#Narzędzia_dodatkowe.md).
 
-### Memu Standardowe narzędzi {#memu_standardowe_narzędzi}
+### Memu Standardowe narzędzi 
 
 Istnieje 7 standardowych pod-menu. Każde podmenu ma dedykowaną stronę. Wystarczy kliknąć na dowolną z poniższych nazw.
 
@@ -38,7 +38,7 @@ Istnieje 7 standardowych pod-menu. Każde podmenu ma dedykowaną stronę. Wystar
 [Pomoc](Std_Help_Menu.md)
 }}
 
-### Narzędzia dodatkowe {#narzędzia_dodatkowe}
+### Narzędzia dodatkowe 
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std: Część](Std_Part/pl.md): Tworzy nową część i czyni ją aktywną.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std: Group](Std_Group/pl.md): Tworzy nową grupę.

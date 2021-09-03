@@ -54,11 +54,11 @@ Other
 
 ## Installation
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 Using git on Ubuntu & Mint:
 
@@ -73,7 +73,7 @@ To install manually download this repository as ZIP and:
 -   For Ubuntu, Mint and similar OS\'s, extract it inside /home/username/.FreeCAD/Mod
 -   For Windows, extract it inside drive: \\Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\Mod
 
-## Links to ExplodedAssembly WB {#links_to_explodedassembly_wb}
+## Links to ExplodedAssembly WB 
 
 -   Workbench Wiki:
 -   FreeCAD Wiki:
@@ -83,7 +83,7 @@ To install manually download this repository as ZIP and:
 -   Files: inside the workbench
 -   Report bugs: Please report bugs at <https://github.com/JMG1/ExplodedAssembly/issues>
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [ExplodedAnimation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:ExplodedAnimation)
 -   [External workbenches](External_workbenches.md)

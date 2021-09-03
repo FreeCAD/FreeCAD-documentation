@@ -19,7 +19,7 @@
 1.  Переключитесь на <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [верстак Part](Part_Workbench/ru.md)
 2.  Существует два способа вызова данной команды:
     -   Нажатием на иконку **<img src="images/Part_Cone.svg" width=16px> Конуса** на панели инструментов.
-    -   Или через пункт меню {{MenuCommand|Деталь → Примитивы → <img src="images/Part_Cone.svg" width=16px> Конус}}.
+    -   Или через пункт меню **Деталь → Примитивы → <img src="images/Part_Cone.svg" width=16px> Конус**.
 
 
 <div class="mw-translate-fuzzy">

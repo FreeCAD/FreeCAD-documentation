@@ -18,7 +18,7 @@
 
 The MultiCopy Macro can be downloaded using the in-built [Addon Manager](Std_AddonMgr.md) within the FreeCAD software.
 
-####  Key Features {#key_features}
+####  Key Features 
 
 -   Two input methods: by mouse, or by keyboard (Paste Code Commands)
 -   Standard Copy and Simple Copy methods supported
@@ -64,23 +64,23 @@ By default, the FreeCAD User Macro directory should be located at :
 
 C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
 
-## Użycie - metody GUI {#użycie___metody_gui}
+## Użycie - metody GUI 
 
 MultiCopy can be loaded by performing the following steps :-
 
 1.  Launch the **FreeCAD** application.
-2.  Go to {{MenuCommand|Macro → Macros ...}}.
+2.  Go to **Macro → Macros ...**.
 3.  Click on the **User macros** tab in the pop-up dialog box.
 4.  Select {{FileName|MultiCopy.FCMacro}}.
 5.  Click on **Execute**.
 
 Before loading the MultiCopy macro, first select one or more objects from the active FreeCAD doccument, then load the macro. Next, follow the instructions in the dialog box, fill in the required inputs, and click on the \'Paste\' button. In case of error or warning, you will automatically be notified of the same. In case you come across an unexpected error, communicate the error by mentioning the FreeCAD version, tracing the steps taken, and mentioning whether (and how much) or not any ouput was generated.
 
-##  Usage - CUI (Python Console) Method {#usage___cui_python_console_method}
+##  Usage - CUI (Python Console) Method 
 
 Before running the MultiCopy operation, first select one or more objects from the active FreeCAD doccument.
 
-###  To launch the GUI dialog: {#to_launch_the_gui_dialog}
+###  To launch the GUI dialog: 
 
 
 ```python
@@ -89,7 +89,7 @@ import MultiCopy
 MultiCopy.Launch()
 ```
 
-###  To perform the terminal-based operation: {#to_perform_the_terminal_based_operation}
+###  To perform the terminal-based operation: 
 
 The MultiCopy command is as follows :
 
@@ -130,7 +130,7 @@ The MultiCopy command\'s parameters are as follows :
                            or the document object itself.
        Default Value     : FreeCAD.ActiveDocument
 
-####  Example 1 : {#example_1}
+####  Example 1 : 
 
 To paste the selected objects to the currently active document as a standard copy, and to not delete the selections after the operation.
 
@@ -142,7 +142,7 @@ some_paste_code_commands = 'from 1 to 2 :\n\t[1] = SomeName_{n#}'
 MultiCopy.Run(some_paste_code_commands)
 ```
 
-####  Example 2 : {#example_2}
+####  Example 2 : 
 
 To paste the selected objects to a different document as a simple copy, and to delete the selections after the operation.
 
@@ -154,7 +154,7 @@ some_paste_code_commands = 'from 1 to 2 :\n\t[1] = SomeName_{n#}'
 MultiCopy.Run(some_paste_code_commands, True, True, 'SomeDocumentLabel')
 ```
 
-##  Paste Code Commands {#paste_code_commands}
+##  Paste Code Commands 
 
 \[\[<File:Macro_MultiCopy_Commands.png%7Cframe%7Ccenter%7Calt=Macro_MultiCopy_Commands.png>\|
 
@@ -179,7 +179,7 @@ While inputting the Paste Code Commands in the relevant input text box, there ar
 2.  **Red** denotes that the text box is focussed out of, and that the user-entered commands are SYNTACTICALLY INCORRECT.
 3.  **Green** denotes that the text box is focussed out of, and that the user-entered commands are SYNTACTICALLY CORRECT.
 
-####  Example 1 {#example_1_1}
+####  Example 1 
 
     from 1 to 3 :
          [1] = {1}-Something_{n#}
@@ -200,14 +200,14 @@ Let the first object\'s original label name be **Body**. Then, the above command
     Body-Something_2
     Body-Something_3
 
-####  Object representation {#object_representation}
+####  Object representation 
 
 Let **i** be an arbitrary i-th object from an assumed list of user-selected objects.
 [i] represents the **i-th object** without dependencies (by default)
 [i|0] represents the **i-th object** without dependencies (another form)
 [i|1] represents the **i-th object** WITH dependencies included
 
-####  Numbering labels {#numbering_labels}
+####  Numbering labels 
 
 {n#} or {N#} are of the type \'Ordinary Numerals\'
 {R#} or {ru#} or {RU#} are of the type \'Upper-case Roman Numerals\'
@@ -225,7 +225,7 @@ In case of a nested loop level assignment WITHOUT padding, do:
 1.  {n#0|i1} OR
 2.  {n#|i1}
 
-####  Example 2 {#example_2_1}
+####  Example 2 
 
     from 1 to 2 : i1 :
          from a to b : i2 :
@@ -351,7 +351,7 @@ __Files__         = "MultiCopy_UI_Files/MultiCopy_Main_Dialog.ui, "\
 
 {{Codeextralink|https://raw.githubusercontent.com/melwyncarlo/MultiCopy/main/MultiCopy.FCMacro}}
 
-## Odnośniki internetowe {#odnośniki_internetowe}
+## Odnośniki internetowe 
 
 \[1\] [MultiCopy Github Repository](https://github.com/melwyncarlo/MultiCopy)
 \[2\] [FreeCAD Macros Github Repository - MultiCopy](https://github.com/FreeCAD/FreeCAD-macros/tree/master/Conversion)

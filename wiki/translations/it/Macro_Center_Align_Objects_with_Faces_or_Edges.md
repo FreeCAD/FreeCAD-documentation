@@ -56,7 +56,7 @@ Questi supporti lavorano con **Part, App::Part e Body objects**. Ogni strumento 
 
 ------------------------------------------------------------------------
 
-## Vecchie referenze {#vecchie_referenze}
+## Vecchie referenze 
 
 Questa macro applica i seguenti vincoli:
 

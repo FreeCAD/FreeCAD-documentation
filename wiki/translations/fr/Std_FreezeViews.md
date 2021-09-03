@@ -10,9 +10,9 @@
 
 ## Introduction
 
-FreeCAD peut stocker les paramètres de la caméra dans jusqu\'à 50 «vues figées». Les options de menu relatives aux vues figées se trouvent dans le sous-menu {{MenuCommand|Affichage → Figer l'affichage}}. Les vues figées ne sont pas stockées dans le document et si elles ne sont pas enregistrées avec l\'option de menu **[Enregistrer les vues](#Enregistrer_les_vues.md)** seront perdues à la fermeture de l\'application FreeCAD.
+FreeCAD peut stocker les paramètres de la caméra dans jusqu\'à 50 «vues figées». Les options de menu relatives aux vues figées se trouvent dans le sous-menu **Affichage → Figer l'affichage**. Les vues figées ne sont pas stockées dans le document et si elles ne sont pas enregistrées avec l\'option de menu **[Enregistrer les vues](#Enregistrer_les_vues.md)** seront perdues à la fermeture de l\'application FreeCAD.
 
-## Enregistrer les vues {#enregistrer_les_vues}
+## Enregistrer les vues 
 
 ### Description
 
@@ -21,7 +21,7 @@ L\'option de menu **Enregistrer les vues \...** enregistre toutes les vues figé
 ### Utilisation
 
 1.  Pour utiliser cette option, une ou plusieurs vues figées doivent exister. Une vue figée est créée avec l\'option de menu **[Figer l\'affichage](#Figer_l'affichage.md)**.
-2.  Sélectionnez l\'option {{MenuCommand|Affichage → Figer l'affichage → Enregistrer les vues...}} dans le menu.
+2.  Sélectionnez l\'option **Affichage → Figer l'affichage → Enregistrer les vues...** dans le menu.
 3.  Entrez un nom de fichier dans la boîte de dialogue.
 4.  Appuyez sur le bouton **Enregistrer**.
 
@@ -29,57 +29,57 @@ L\'option de menu **Enregistrer les vues \...** enregistre toutes les vues figé
 
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
 
-## Enregistrer les vues {#enregistrer_les_vues_1}
+## Enregistrer les vues 
 
-### Description {#description_1}
+### Description 
 
 L\'option de menu \'\'\'Charger les vues\...\' \'\' charge les vues figées à partir d\'un fichier avec l\'extension \*.cam. Toutes les vues figées existantes seront supprimées.
 
-### Utilisation {#utilisation_1}
+### Utilisation 
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → Figer l'affichage → Charger les vues...}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → Figer l'affichage → Charger les vues...** dans le menu.
 2.  Appuyez sur le bouton **Oui** dans la boîte de dialogue Restaurer les vues pour confirmer que vous souhaitez perdre toutes les vues figées existantes.
 3.  Sélectionner un fichier.
 4.  Appuyez sur le bouton **Ouvrir**.
 
-### Options {#options_1}
+### Options 
 
 -   Si la boîte de dialogue Restaurer les vues s\'affiche: appuyez sur **Echap** ou sur le bouton **Non** pour abandonner la commande.
 -   Si la boîte de dialogue du fichier s\'affiche: appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner la commande.
 
-## Figer l\'affichage {#figer_laffichage}
+## Figer l\'affichage 
 
-### Description {#description_2}
+### Description 
 
 L\'option de menu **Figer l\'affichage** enregistre les paramètres actuels de la caméra (direction, zoom, etc.) de la [vue 3D](3D_view/fr.md) dans une nouvelle entrée de la liste des vues figées. La liste des vues figées peut contenir jusqu\'à 50 vues figées.
 
-### Utilisation {#utilisation_2}
+### Utilisation 
 
 1.  Il existe plusieurs façons de lancer cette option:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Figer l'affichage → Charger les vues...}} dans le menu.
+    -   Sélectionnez l\'option **Affichage → Figer l'affichage → Charger les vues...** dans le menu.
     -   Utilisez le raccourci clavier: **Shift**+**F**.
-2.  La nouvelle vue figée peut être sélectionnée dans le sous-menu {{MenuCommand|Affichage → Figer l'affichage}}.
+2.  La nouvelle vue figée peut être sélectionnée dans le sous-menu **Affichage → Figer l'affichage**.
 
-## Effacer les vues {#effacer_les_vues}
+## Effacer les vues 
 
-### Description {#description_3}
+### Description 
 
 L\'option de menu **Effacer les vues** supprime toutes les vues figées existantes.
 
-### Utilisation {#utilisation_3}
+### Utilisation 
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → Figer l'affichage → Effacer les vues}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → Figer l'affichage → Effacer les vues** dans le menu.
 
-## Restaurer la vue {#restaurer_la_vue}
+## Restaurer la vue 
 
-### Description {#description_4}
+### Description 
 
 Pour chaque vue figée, une option **Vue de restauration** est ajoutée avec laquelle elle peut être restaurée. Les options sont numérotées: **Restore view 1** - **Restore view 50**.
 
-### Utilisation {#utilisation_4}
+### Utilisation 
 
 1.  Il existe plusieurs façons d\'invoquer cette option:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Figer l'affichage → Restaurer la vue}} dans le menu.
+    -   Sélectionnez l\'option **Affichage → Figer l'affichage → Restaurer la vue** dans le menu.
     -   Pour les 9 premières vues figées: utilisez le raccourci clavier: **Ctrl**+**1** - **Ctrl**+**9**.
 
 

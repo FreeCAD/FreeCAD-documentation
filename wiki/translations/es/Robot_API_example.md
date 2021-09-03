@@ -13,7 +13,7 @@ from Part import *
 from FreeCAD import *
 ```
 
-### Cosas básicas del robot {#cosas_básicas_del_robot}
+### Cosas básicas del robot 
 
 crea el robot. Si no se especifica otra cinemática se convierte en un Puma 560 
 ```python
@@ -80,7 +80,7 @@ print t.Waypoints
 del rob,Start,t,l,w
 ```
 
-### Trabajar con los objetos del documento {#trabajar_con_los_objetos_del_documento}
+### Trabajar con los objetos del documento 
 
 Trabajar con los objetos del documento robot: crear primero un robot en el documento activo 
 ```python
@@ -144,7 +144,7 @@ print App.activeDocument().Trajectory.Trajectory
 
 Por hacer\.....
 
-### Exportar la trayectoria {#exportar_la_trayectoria}
+### Exportar la trayectoria 
 
 La trayectoria es exportada por Python. Eso significa que para cada tipo de armario de control hay un post-procesador módulo de Python. Aquí se describe en detalle el post-procesador Kuka 
 ```python

@@ -30,11 +30,11 @@ IFC ++ est développé principalement sur une plate-forme Windows aussi il inclu
 
 il existe un visualiseur plus complet qui utilise des bibliothèques IFC++ précompilées destinées à Windows. Cette visionneuse est gratuite mais n\'est pas open source. Il est disponible en téléchargeant le package `SimpleViewerExampleQt.zip` depuis {{URL|http://www.ifcquery.com/}} et en exécutant `SimpleViewerExampleQt.exe`. Ce visualiseur est autonome, tout ce dont il a besoin pour s\'exécuter est inclus dans l\'archive `.zip`.
 
-## Compilation sous Windows {#compilation_sous_windows}
+## Compilation sous Windows 
 
 Suivez les instructions du dépôt officiel [ifcplusplus](https://github.com/ifcquery/ifcplusplus).
 
-## Compilation sous Linux {#compilation_sous_linux}
+## Compilation sous Linux 
 
 Les instructions générales sont les suivantes:
 
@@ -88,7 +88,7 @@ Carve est une bibliothèque C++ [Géométrie Solide Constructive](constructive_s
 
 Le projet étant désormais sous licence MIT, des copies des fichiers source Carve sont désormais incluses dans le référentiel IFC++. Cela signifie que lors de la compilation IFC++, `libcarve.so` sera également compilé. Cette bibliothèque doit être disponible dans le système pour que la visionneuse d\'exemples IFC++ fonctionne correctement.
 
-### Configuration de CMake {#configuration_de_cmake}
+### Configuration de CMake 
 
 Il est recommandé d\'effectuer la configuration et la compilation dans un répertoire build spécifique séparé du répertoire source.
 
@@ -105,7 +105,7 @@ Par défaut, le type de compilation est `Release` mais il peut également être 
 cmake -DCMAKE_BUILD_TYPE=Debug ../ifcplusplus-source/
 ```
 
-### Compilation réelle {#compilation_réelle}
+### Compilation réelle 
 
 S\'il n\'y avait pas de message d\'erreur lors de la configuration avec CMake, un `Makefile` aurait dû être créé dans le répertoire build, vous pouvez donc procéder à la compilation des bibliothèques en exécutant `make`.
 
@@ -119,7 +119,7 @@ make -j N
 
 est le nombre de processeurs que vous attribuez au processus de compilation; choisissez au moins un de moins que le nombre total de cœurs de processeur dont vous disposez.
 
-### Test de la compilation dans le répertoire build {#test_de_la_compilation_dans_le_répertoire_build}
+### Test de la compilation dans le répertoire build 
 
 Si la compilation réussit, vous devriez avoir un sous-répertoire `Release/` avec les bibliothèques nouvellement compilées. 
 ```python
@@ -135,7 +135,7 @@ Release/SimpleViewerExample IfcOpenHouse.ifc
 
 Si le type de build a été défini sur `Debug`, alors les bibliothèques compilées apparaîtront dans le sous-répertoire `Debug/` à la place.
 
-### Installation des bibliothèques compilées {#installation_des_bibliothèques_compilées}
+### Installation des bibliothèques compilées 
 
 Si la compilation ne signale aucune erreur, vous pouvez exécuter `make install` pour copier les en-têtes, les bibliothèques compilées et les binaires dans leurs répertoires d\'installation correspondants. 
 ```python
@@ -158,7 +158,7 @@ Par défaut, `CMAKE_INSTALL_PREFIX` est `/usr/local/`, donc tous les fichiers co
 /usr/local/share/IFCPP/cmake/*.cmake
 }}
 
-### Chemin de la bibliothèque {#chemin_de_la_bibliothèque}
+### Chemin de la bibliothèque 
 
 Une fois `SimpleViewerExample` placé dans `/usr/local/bin`, l\'exécutable sera disponible dans tout le système. Cependant, sur certaines plates-formes, `libcarve.so` peut ne pas être trouvé s\'il est installé dans le répertoire par défaut `/usr/local/lib`. {{Code|lang=md|code=
 SimpleViewerExample: error while loading shared libraries: libcarve.so: cannot open shared object file: No such file or directory
@@ -186,7 +186,7 @@ Pour rendre cet effet persistant, cette variable d\'environnement peut être dé
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 ```
 
-### Suppression des bibliothèques compilées {#suppression_des_bibliothèques_compilées}
+### Suppression des bibliothèques compilées 
 
 Pour supprimer les bibliothèques installées, supprimez simplement les fichiers correspondants qui ont été installés. {{Code|lang=sh|code=
 sudo rm -rf /usr/local/bin/SimpleViewerExample
@@ -197,7 +197,7 @@ sudo rm -rf /usr/local/include/ifcpp
 sudo rm -rf /usr/local/share/IFCPP/cmake/
 }}
 
-## Corrections pour Linux {#corrections_pour_linux}
+## Corrections pour Linux 
 
 La bibliothèque IFC++ est développée par son auteur sur un système Windows. Cela signifie que même si le code dépend de bibliothèques multiplateformes telles que Boost, Qt et OpenSceneGraph, le code est principalement testé pour être compilé et exécuté sous Windows. Néanmoins, au fil des ans, d\'autres développeurs ont fourni des correctifs au projet afin que IFC++ puisse être compilé et exécuté sur des distributions Linux.
 
@@ -209,7 +209,7 @@ Si le code du dépôt officiel ne fonctionne pas ou semble avoir des problèmes 
 
 Le développeur principal d\'IFC++ ne prend pas en charge Linux directement, les développeurs Linux doivent donc être prêts à résoudre les problèmes et à soumettre des correctifs lors de l\'utilisation d\'IFC++ sous Linux.
 
-### Icônes invisibles {#icônes_invisibles}
+### Icônes invisibles 
 
 Pour `SimpleViewerExample`, il y a deux boutons dans l\'interface principale qui sont invisibles si la feuille de style personnalisée n\'est pas trouvée. {{Code|lang=cpp|code=
 QIODevice::read (QFile, ":styles.css"): device not open
@@ -225,7 +225,7 @@ SET(RESOURCES ${viewer_dir}/Resources/ifcplusplus.qrc)
 QT5_ADD_RESOURCES(SimpleViewerExample_RESOURCES_RCC ${RESOURCES})
 }}
 
-## Plus d\'informations {#plus_dinformations}
+## Plus d\'informations 
 
 -   [projet IFC++](https://www.ifcquery.com/)
 -   [ifcquery/ifcplusplus](https://github.com/ifcquery/ifcplusplus) dépôt

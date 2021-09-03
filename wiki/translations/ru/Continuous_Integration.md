@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Continuous Integration {#continuous_integration}
+## Continuous Integration 
 
 Currently the FreeCAD repository on GitHub will trigger a build on the below two CI systems. Between these systems pretty much all the main cross-platforms OSs are coveredː Linux, MacOSX, and Windows. CIs can also be used to run [unit tests](Testing.md).
 
@@ -22,7 +22,7 @@ Currently the FreeCAD repository on GitHub will trigger a build on the below two
 
 \- If you add [skip ci] or [ci skip] to a git commit it will cancel a CI build.
 
-### Relevant Links {#relevant_links}
+### Relevant Links 
 
 -   [LGTM](LGTM.md)
 

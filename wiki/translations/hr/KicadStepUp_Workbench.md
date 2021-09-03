@@ -43,14 +43,14 @@ For all these [Kicad](https://kicad-pcb.org/) concepts one can find a feature of
 
 ## Installation
 
-KicadStepUp is part of the [external workbenches](external_workbenches.md), and can be automatically installed using the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [FreeCAD Add-on Manager](Addon_Manager.md) which comes bundled with FreeCAD 0.17, under the {{MenuCommand|Tools → Add-On Manager}} menu.
+KicadStepUp is part of the [external workbenches](external_workbenches.md), and can be automatically installed using the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [FreeCAD Add-on Manager](Addon_Manager.md) which comes bundled with FreeCAD 0.17, under the **Tools → Add-On Manager** menu.
 
 ## Usage
 
 
 {{emphasis|In progress}}
 
-### General Approach {#general_approach}
+### General Approach 
 
 The basic idea of KicadStepUp is to synchronise data between the two applications. For home use you might have open FreeCAD and Kicad at the same time. Professional use work on the same files (e.g. on a central server) and have specialists on mechanical CAD (MCAD) working in FreeCAD and electronics experts on electrical CAD (ECAD).
 
@@ -59,7 +59,7 @@ KicadStepUp will converts standard FreeCAD files to Kicad files and vise versa. 
 Undestanding the fine details of the workflow its helpful to note that the differences between the two programs impose some difficulties for a full data exchange.
 One example is that the Sketcher used in Kicad to define the board outline is much more limited compared to the FreeCAD Sketcher, so in order to synchronise back and forth the model content can not be more complex than the Kicad Sketcher can handle. From a FreeCAD point of view, that means you may loose data. KicadStepUp offers workarounds that might be more difficult to understand if you do not have this background.
 
-### Basic Workflow {#basic_workflow}
+### Basic Workflow 
 
 A a collaboration can be started with a new or an existing project. We consider here a new project to keep things simple:
 
@@ -128,7 +128,7 @@ Please see the [kicad StepUp cheat sheet](https://github.com/easyw/kicadStepUpMo
 -   Author: Github: [\@easyw](https://github.com/easyw) \| FreeCAD Forums: [kicad StepUp: ECAD MCAD bidirectional collaboration](https://forum.freecadweb.org/viewtopic.php?f=24&t=14276)
 -   Source code on GitHub: <https://github.com/easyw/kicadStepUpMod>
 
-## Side Note about External workbenches {#side_note_about_external_workbenches}
+## Side Note about External workbenches 
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
 

@@ -11,7 +11,7 @@ Older versions: [0.12](Release_notes_012.md) - [0.11](Release_notes_011.md)
 -   **Color preferences**: Getting bored of the good old grey-shapes-on-black-lines FreeCAD default aspect? It is now changeable in the user preferences (Display -\> Color), together with several other default colors.
 -   **Alignment**: two shapes can be aligned to each other with up to three points with this tool available in the Edit menu.
 
-## Drawing module {#drawing_module}
+## Drawing module 
 
 -   **Clip feature**: A new [Drawing Clip](Drawing_Clip.md) object allows to place views of objects inside clipped rectangles on Drawing pages.
 -   **Editable titleblocks**: When designing [Drawing templates](Drawing_templates.md), it is now possible to mark texts as editable. Those texts become then directly editable in FreeCAD.
@@ -21,7 +21,7 @@ Older versions: [0.12](Release_notes_012.md) - [0.11](Release_notes_011.md)
 -   **DXF export**: you can now export a view of a page directly to a DXF file.
 -   Some bug fixes now allow printing of pages to scale.
 
-## Sketcher module {#sketcher_module}
+## Sketcher module 
 
 -   **Point Creation**
 
@@ -67,7 +67,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
     -   When constructing geometry, tool tip with related information is shown next to cursor.
     -   **Sketch view** which sets the 3D view perpendicular to the sketch plane has now an icon in the Sketcher toolbar.
 
-## Draft module {#draft_module}
+## Draft module 
 
 -   **Taskmode**: The Taskview mode of the Draft module is now default. Fear not, if you liked the toolbar, it is still available in the Draft preferences settings.
 -   **DXF importer**: The DXF importer now supports points (translate to [Draft Point](Draft_Point.md)) and leaders (translate to [Draft Wire](Draft_Wire.md))
@@ -87,7 +87,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 
 ![800px](images/013-draft-shape2dview.jpg)
 
-## Arch module {#arch_module}
+## Arch module 
 
 -   **Draft integration**: The Arch and Draft modules are now tightly integrated. The Arch tools use the [Draft snapping](Draft_Snap.md) system, and all the Draft tools are present in the Arch workbench. In fact, if you like, you can now completely switch off the Draft module (Preferences -\> Draft -\> Hide the Draft workbench)
 -   **New wall tool**: The [wall tool](Arch_Wall.md) has been greatly enhanced, and now features a direct drawing mode, that is activated when you press the Wall button with no object selected, that allows you to draw walls like you draw simple lines. In additions, walls now auto-connect when you snap to an existing wall.
@@ -109,7 +109,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 
 -   **Arch objects from meshes**: [Walls](Arch_Wall.md) and [structures](Arch_Structure.md) can now be made directly from a mesh, provided it is closed, solid and all edges are [manifold](http://doc.spatial.com/index.php/Manifold_and_Non-manifold_Objects). This allows for very quick transformation of geometry imported from other applications such as [blender](http://www.blender.org) into valid Arch objects.
 
-## Part module {#part_module}
+## Part module 
 
 -   **Refine shape** is a new utility that cleans up faces after a few operations on a shape. It can be set to run automatically after boolean operations in the Preferences.
 -   **New Loft tool** can extrude a complex set of surfaces or a solid shape through a series of sketches or Draft objects.
@@ -118,7 +118,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 -   **New Thickness tool** can hollow out a solid shape by setting a wall thickness and opening one or more faces.
 -   **Shape Builder** and **Create primitives** are now in the Part toolbar for quick access.
 
-## Part Design module {#part_design_module}
+## Part Design module 
 
 -   **Pad** and **Pocket** are now more powerful thanks to more parameters, such as extrude to first/to last, up to face, 2 dimensions, symmetric to plane.
 -   **Chamfer** and **Fillet** got an upgrade: selecting a face is now allowed, all the outer and inner edges of this face will be processed.
@@ -127,16 +127,16 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 -   **Linear pattern**, **Mirrored**, **Polar pattern** and **Multipattern** tools, that allow you to align and distribute pads and pockets on a feature.
 -   A **Shaft Wizard** to help you design shaft objects
 
-## Ship Design module {#ship_design_module}
+## Ship Design module 
 
 -   New ship module ([tutorial](FreeCAD-Ship_s60_tutorial.md))
 
-## 3D mice {#d_mice}
+## 3D mice 
 
 -   Support for 3D mice (Spaceball, Space Navigator) has been added to the Windows version.
 -   A new **Spaceball Motion** tab in the Customize dialog allows for fine tuning your 3D mouse to the settings you want, directly from FreeCAD.
 
-## OpenSCAD module {#openscad_module}
+## OpenSCAD module 
 
 -   This brand new (experimental) module brings OpenSCAD files import capability into FreeCAD. This file format is wildly popular in the RepRap community and on digital designs sharing site Thingiverse.
 -   OpenSCAD script can be executed from within FreeCAD, by OpenSCAD (if installed on your computer), with the result appearing in your FreeCAD document.

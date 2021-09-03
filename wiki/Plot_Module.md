@@ -35,7 +35,7 @@ Plot.plot([0, 1], [0, 2])
 
 You can find more complex examples in the [Plot Basic tutorial](Plot_Basic_tutorial.md) and the [Plot MultiAxes tutorial](Plot_MultiAxes_tutorial.md).
 
-## Workbench Tools {#workbench_tools}
+## Workbench Tools 
 
 If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), you will have the following tools available to manage the plots created with the module:
 

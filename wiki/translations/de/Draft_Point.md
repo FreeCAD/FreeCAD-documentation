@@ -19,8 +19,8 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 2.  Drücke die **<img src="images/Draft_Point.svg" width=16px> [Entwurf Punkt](Draft_Point/de.md)** Schaltfläche
-    -   Wähle die Option {{MenuCommand|Entwerfen → <img src="images/Draft_Point.svg" width=16px> Punkt}} aus dem Menü.
-    -   Das {{MenuCommand|Punkt}}-Aufgabenpaneel wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+    -   Wähle die Option **Entwerfen → <img src="images/Draft_Point.svg" width=16px> Punkt** aus dem Menü.
+    -   Das **Punkt**-Aufgabenpaneel wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Wähle einen Punkt in der [3D Ansicht](3D_view/de.md), oder gib Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**-Schaltfläche.
 
 ## Optionen
@@ -45,7 +45,7 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Eigenschaften
 

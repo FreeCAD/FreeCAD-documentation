@@ -18,15 +18,15 @@ Some forum posts and tutorials use Paraview (PV) to review and analyse FreeCAD <
     -   This tutorial is based on version Paraview 5.8.0 for Windows, which was the most recent version at the time of writing the tutorial.
 -   The FreeCAD files used for this tutorial available in [this](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734) and [this](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&p=368315#p368315) FC forum thread.
 
-## Data Transfer from FEMWB {#data_transfer_from_femwb}
+## Data Transfer from FEMWB 
 
-In FEMWB highlight the CCX\_Results object. Next, use menu option {{MenuCommand|File > Export > FEM result VTK (*.vtk *.vtu)}} to export the VTK data.
+In FEMWB highlight the CCX\_Results object. Next, use menu option **File > Export > FEM result VTK (*.vtk *.vtu)** to export the VTK data.
 
-## Data Import in Paraview {#data_import_in_paraview}
+## Data Import in Paraview 
 
 The start-up screen shows an empty Pipeline Browser. This is where the imported VTK data objects and applied filter objects (for geometry or data) will be visible.  <img alt="" src=images/PVPic1.png  style="width:500px;"> 
 
-Use menu option {{MenuCommand|File > Open > *.vtk}} to open the VTK file that was generated with FEMWB
+Use menu option **File > Open > *.vtk** to open the VTK file that was generated with FEMWB
 
  <img alt="" src=images/PVPic2.png  style="width:500px;"> 
 
@@ -38,17 +38,17 @@ The gray geometry can be inspected by rotating the view. The left mouse button m
 
  <img alt="" src=images/PVPic5.png  style="width:500px;"> 
 
-## Saving/Loading State {#savingloading_state}
+## Saving/Loading State 
 
-Rather than saving data, Paraview stores the status (state) of the actions performed on the imported VTK object. Therefore, to save your work use menu option {{MenuCommand|File > Save State}}. **NOTE**: there will be no warning when leaving Paraview to save the state and all work may be lost when exiting the program.
+Rather than saving data, Paraview stores the status (state) of the actions performed on the imported VTK object. Therefore, to save your work use menu option **File > Save State**. **NOTE**: there will be no warning when leaving Paraview to save the state and all work may be lost when exiting the program.
 
-To continue where you left off in the previous session use {{MenuCommand|File > Load State}}. This prompts the user to specify a VTK file, which means that the actions performed in the last session can also be applied to a new VTK file. In this way, data from different FEMWB analyses can be displayed in exactly the same way, without any additional effort.
+To continue where you left off in the previous session use **File > Load State**. This prompts the user to specify a VTK file, which means that the actions performed in the last session can also be applied to a new VTK file. In this way, data from different FEMWB analyses can be displayed in exactly the same way, without any additional effort.
 
-## Visualise FEMWB Results {#visualise_femwb_results}
+## Visualise FEMWB Results 
 
 Paraview has many options and settings for displaying results. We will first have a look at displaying base import data on the original geometry and thereafter see how to apply filters to modify the geometry. Finally, we will use the calculator and integration filters to derive new results by combining base import data.
 
-## Base Data Displayed on Original Geometry {#base_data_displayed_on_original_geometry}
+## Base Data Displayed on Original Geometry 
 
 As the pipeline browser can contain several VTK objects and filter objects, first confirm that the right VTK object is highlighted in the pipeline browser. The selections and settings for displaying this VTK object can now be found on the Properties Tab. To make sure all settings are visible and aligned with this tutorial press the Advanced Settings button (the gear wheel icon on the below picture).
 
@@ -90,7 +90,7 @@ The setting for Color Discretization is useful to limit the number of iso values
 
  <img alt="" src=images/PVPic16.png  style="width:700px;"> 
 
-## Applying Filters to FEMWB results {#applying_filters_to_femwb_results}
+## Applying Filters to FEMWB results 
 
 To modify the base data or geometry imported from FEMWB, filters can be applied.
 
@@ -120,7 +120,7 @@ To show the deformed geometry superimposed on the undeformed geometry, simply ma
 
 **NOTE**: As more objects are added to the Pipeline Browser and more display windows are open, it becomes increasingly important to ensure that the right object is selected in the Pipeline Browser and the right Window has focus when making changes to the Properties Tab. Otherwise much time can be spent on finding the right property or changes to properties may not seem to take effect.
 
-## Applying Filters to Derive Compound Results from Base Import Data {#applying_filters_to_derive_compound_results_from_base_import_data}
+## Applying Filters to Derive Compound Results from Base Import Data 
 
 If we want to know the amount of reinforcement steel in the beam as a whole or the amount passing though a particular cross section we need to perform integration (summation over the geometry) of the base data.
 
@@ -172,7 +172,7 @@ For example, we can now apply the integration filter to the new variable Total R
 
 This shows how the total reinforcement requirement compares to those in the individual coordinate directions.
 
-## Integration over a Slice {#integration_over_a_slice}
+## Integration over a Slice 
 
 In the previous section we discussed the Integration filter and its application to the entire VTK object. To demonstrate integration over a slice we will in this section determine the total reinforcement requirement and its center of gravity for the central cross section of the beam. The end result is shown in the picture below. The interaction of various objects can be inspected in the Pipeline Browser. The slice filter is applied to the beam VTK object and two Calculator filters are applied to the slice filter to derive the new variables "Reinforcement\_ratio\_x \* z" and "Reinforcement\_ratio\_x \* y" from the base data. These variables need to be integrated to determine the center of gravity of the reinforcement. Finally, Integration filters are applied to each Calculator to integrate results over the Slice. Please refer to the previous section for a general introduction of the Integration filter and its settings.
 
@@ -226,7 +226,7 @@ CoG\_y = 55744.2 / 556.277 = 100.2 mm (exact value: 100 mm)
 
 CoG\_z = 187144 / 556.277 = 336.4 mm (exact value: 5/6 \* 400 mm)
 
-## Integration over a Line {#integration_over_a_line}
+## Integration over a Line 
 
 To demonstrate visualisation and integration of results over a line we use the 2D example of a heavy wall as introduced in [this FC forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=33049). The FreeCAD file for this example can be downloaded in [this FC forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734). The challenge is to visualise reinforcement ratio across various vertical cross sections and to determine the required area of steel from integration of those results.
 
@@ -304,7 +304,7 @@ The result for the top 400 mm of the wall is thus 8.436 mm2 / mm. So the top 10%
 
 This procedure could be repeated to divide the wall in zones of constant reinforcement.
 
-## Representation of Vector Results with the Glyph 3D Filter {#representation_of_vector_results_with_the_glyph_3d_filter}
+## Representation of Vector Results with the Glyph 3D Filter 
 
 So far we have only dealt with Scalar values, like reinforcement ratio and displacement magnitude. Visualization of vector results, like Principal Stress vectors, is done with Glyphs.
 
@@ -348,6 +348,6 @@ Next add another Glyph Filter with the following settings for the Minor Principa
 
 The final result shows the major and minor principal stress vectors superimposed on the beam with ReinforcementRatio\_x.
 
-## Export of Graphical Results {#export_of_graphical_results}
+## Export of Graphical Results 
 
 To export a RenderView window highlight the window and use menu option  {{Tutorials navi}} {{FEM Tools navi}} 

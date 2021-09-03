@@ -18,7 +18,7 @@ Create a New Ship or new Ship Instance.
 
 ## Usage
 
-In order to create a **Ship instance** (in other words, a New Ship), select s60 geometry and execute the **ship creation tool** {{MenuCommand|Ship design → Create a new ship}}
+In order to create a **Ship instance** (in other words, a New Ship), select s60 geometry and execute the **ship creation tool** **Ship design → Create a new ship**
 
 
 <div class="mw-translate-fuzzy">
@@ -30,12 +30,12 @@ Appare il dialogo per la Creazione della barca e nella vista 3D viene mostrata l
 
 Devono essere introdotti i dati principali della nave (FreeCAD-Ship utilizza un sistema di introduzione dei dati progressivo, in questo modo le operazioni di base possono essere eseguite utilizzando i dati di base della nave, e le ulteriori informazioni sono necessarie solo quando le operazioni diventano più complesse).
 
-## Ship data {#ship_data}
+## Ship data 
 
 
 <div class="mw-translate-fuzzy">
 
-### Dati della nave {#dati_della_nave}
+### Dati della nave 
 
 Le dimensioni principali che devono essere introdotte qui:
 

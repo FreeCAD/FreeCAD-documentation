@@ -19,7 +19,7 @@ The <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Curves Iso
 2.  Select an unique surface on the [3D view](3D_view.md)
 3.  To invoke the command, do one of the following:
     -   Press the <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Surfaces → IsoCurve}} entry from the Curves menu
+    -   Use the **Surfaces → IsoCurve** entry from the Curves menu
 4.  A UV oriented lattice on the surface is created.
 5.  Change `NumberU` or/and `NumberV` to get more curves.
 

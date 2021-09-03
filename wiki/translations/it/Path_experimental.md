@@ -15,24 +15,24 @@ The Path Workbench contains a set of hidden commands. They are hidden by default
 -   It is mature but has not yet been moved to the standard tool list.
 -   \... other reasons.
 
-## Enable experimental commands {#enable_experimental_commands}
+## Enable experimental commands 
 
 To access the hidden experimental commands of the Path Workbench, the user must enable them in the [Parameter Editor](Std_DlgParameter.md).
 
-1.  Open the [Parameter Editor](Std_DlgParameter.md) via {{MenuCommand|Tools → Edit Parameters...}}
-2.  Once in the editor the path is {{MenuCommand|BaseApp → Preferences → Mod → Path}}
+1.  Open the [Parameter Editor](Std_DlgParameter.md) via **Tools → Edit Parameters...**
+2.  Once in the editor the path is **BaseApp → Preferences → Mod → Path**
 3.  To enable the [Path Area](Path_Area.md) and [Path Area Workplane](Path_Area_Workplane.md) commands:
-    -   Right-click in the parameter list area and select {{MenuCommand|New → New Boolean item}} from the context menu.
+    -   Right-click in the parameter list area and select **New → New Boolean item** from the context menu.
     -   Name the new parameter: `EnableAdvancedOCLFeatures` (case-sensitive).
     -   Set it to: `True`.
 4.  To enable the other experimental commands:
-    -   Again select {{MenuCommand|New → New Boolean item}} from the context menu.
+    -   Again select **New → New Boolean item** from the context menu.
     -   Name the new parameter: `EnableExperimentalFeatures` (case-sensitive).
     -   Set it to: `True`.
 5.  Save the settings.
 6.  Restart FreeCAD.
 
-## Additional Information {#additional_information}
+## Additional Information 
 
 
 <div class="mw-translate-fuzzy">

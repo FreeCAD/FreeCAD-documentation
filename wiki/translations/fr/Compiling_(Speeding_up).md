@@ -14,7 +14,7 @@ FreeCAD est une application relativement lourde dont la compilation complète à
 
 Installez `ccache` pour mettre en cache les builds.
 
-### Désactiver des modules {#désactiver_des_modules}
+### Désactiver des modules 
 
 Lorsque vous utilisez `cmake` pour configurer le build, vous pouvez désactiver la compilation de certains ateliers dont vous n\'avez peut-être pas besoin pour le moment. Ceci est utile si vous n\'avez besoin que de tester quelques ateliers.
 
@@ -27,7 +27,7 @@ cmake -DBUILD_FEM=OFF -DBUILD_MESH=OFF ../freecad-source
 
 Utilisez `cmake-gui`, `cmake-curses-gui` ou `cmake-qt-gui` pour afficher toutes les variables possibles pouvant être éditées lors de la configuration. En utilisant ces interfaces, vous pouvez facilement activer ou désactiver différents ateliers.
 
-## Plusieurs actions en parallèle {#plusieurs_actions_en_parallèle}
+## Plusieurs actions en parallèle 
 
 Après avoir configuré avec `cmake`, le programme `make` lance le compilateur C ++ à proprement dit pour qu\'il fonctionne sur les fichiers de code source. Vous pouvez accélérer la compilation en travaillant sur plusieurs fichiers en même temps. Ceci est réalisé avec l\'option `-j` de `make` qui indique le nombre de \"travaux\" ou de commandes de compilation exécutés simultanément. Cette option est un nombre entier.
 

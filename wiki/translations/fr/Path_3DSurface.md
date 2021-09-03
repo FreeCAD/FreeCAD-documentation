@@ -24,15 +24,15 @@ L\'outil 3D Surface s\'interface avec OCL.pyd, un module Open Source tiers intit
 
 1.  Installer correctement [OpenCamLib](OpenCamLib/fr.md).
 2.  Activez [Fonctions expérimentales](Path_experimental/fr.md) de l\'atelier Path.
-3.  Vérifiez {{MenuCommand|Édition → Préférences... → Path → Advanced → Enable OCL dependent features}}.
+3.  Vérifiez **Édition → Préférences... → Path → Advanced → Enable OCL dependent features**.
 
 ## Utilisation
 
 Les instructions d\'utilisation pour plusieurs variantes de [Surface 3D](Path_3DSurface/fr.md) sont présentées ici.
 
-#### Opération de base {#opération_de_base}
+#### Opération de base 
 
-1.  Appuyez sur l\'icône **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface/fr.md)** ou sélectionnez {{MenuCommand|Path → Surface 3D}} dans le menu déroulant.
+1.  Appuyez sur l\'icône **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface/fr.md)** ou sélectionnez **Path → Surface 3D** dans le menu déroulant.
 2.  Sélectionnez le contrôleur d\'outil pour l\'opération dans la fenêtre contextuelle de la boîte de dialogue Contrôleur d\'outil, le cas échéant.
 3.  Dans l\'onglet Géométrie de base, sélectionnez les faces spécifiques sur lesquelles vous souhaitez vous concentrer et/ou éviter pour l\'opération.
 4.  Ajustez les profondeurs d\'opération selon vos besoins dans l\'onglet Profondeurs: Profondeur de départ, Profondeur de finition, Descente.
@@ -57,7 +57,7 @@ Les instructions d\'utilisation pour plusieurs variantes de [Surface 3D](Path_3D
 
 Pour obtenir des effets différents ou plus complexes, définissez des propriétés d\'opération supplémentaires dans l\'onglet Données de la vue Propriétés pour l\'opération.
 
-#### Balayages rotationnels (4ème axe) {#balayages_rotationnels_4ème_axe}
+#### Balayages rotationnels (4ème axe) 
 
 1.  Lancez une [Opération de base](#Op.C3.A9ration_de_base.md) comme décrit ci-dessus et définissez le **Scan Type** à **Rotational**.
 2.  **Remarque:** La sélection de face n\'est pas disponible pour les scans rotationnels, les modifications apportées à la géométrie de base sont donc ignorées.
@@ -73,12 +73,12 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
 5.  Cliquez sur l\'icône **<img src=images/_View-refresh.svg style="width:16px"> Recompute** dans la barre d\'outils.
 6.  Attendez les résultats \...
 
-##### Notes About Rotational Scans {#notes_about_rotational_scans}
+##### Notes About Rotational Scans 
 
 
 <div class="mw-translate-fuzzy">
 
-##### Remarques sur les balayages rotationnels {#remarques_sur_les_balayages_rotationnels}
+##### Remarques sur les balayages rotationnels 
 
 -   Les balayages **Rotationnels** nécessitent beaucoup plus de temps et de traitement que les balayages **Planaires**. Les facteurs ayant une incidence sur le temps de traitement comprennent: l\'intervalle d\'échantillonnage, l\'interpolation, le diamètre de l\'outil et la taille du modèle. Encore une fois, les analyses en rotation peuvent prendre beaucoup de temps. Certains peuvent prendre 3, 5 ou 10 minutes ou plus.
 -   Pour des raisons de temps, il est préférable de ne pas recalculer un balayage rotationnel après chaque changement de propriété. considérez plutôt l'un des éléments suivants:
@@ -88,14 +88,14 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
 -   Le **<img src="images/Path_Simulator.svg" width=16px> [Path Simulateur d'usinage](Path_Simulator/fr.md)** intégré ne prend pas en charge la simulation du 4ème axe. Vous devrez utiliser un simulateur tiers pour inspecter ou vérifier visuellement les chemins. Voir la section [Ressources](#Ressources.md) ci-dessous pour des suggestions.
 -   Vous verrez probablement des lignes de rotation rouges autour de votre modèle dans la fenêtre. C\'est normal dans FreeCAD pour le moment.
 
-#### Outils de découpe disponibles {#outils_de_découpe_disponibles}
+#### Outils de découpe disponibles 
 
 Cette opération 3D Surface utilise actuellement \[OCL/fr\|OCL\] de [OpenCamLib](OpenCamLib/fr.md) pour extraire les chemins de la base de la pièce. En tant que tel, une traduction des paramètres d'outil est nécessaire entre le contrôleur d'outil FreeCAD et OCL afin de compléter l'analyse avec la forme de l'outil (outil de coupe) choisi.
 
 
 </div>
 
-##### Notes About Scans of complex models {#notes_about_scans_of_complex_models}
+##### Notes About Scans of complex models 
 
 Excessively long processing times (longer than 10 minutes) can occur when processing large complex models. In addition to the factors already mentioned the following steps could help identify potential causes and solutions.
 
@@ -109,7 +109,7 @@ To confirm this \...
 4.  Click **OK** button to confirm and generate paths.
 
 To make this value the default for all new **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operations, change the **GeometryTolerance** parameter.
-{{MenuCommand|Tools → Edit Parameters ... → Preferences → Mod → Path → GeometryTolerance }}.
+**Tools → Edit Parameters ... → Preferences → Mod → Path → GeometryTolerance **.
 Note as of version 0.19 the **Linear Deflection** default = GeometryTolerance / 4
 
 ***Invalid Geometry***
@@ -117,13 +117,13 @@ If a model contains invalid geometry the scanning time can increase significantl
 To run the tool:
 
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;">**Part Workbench** and select the model to check
-2.  Click on the **<img src="images/Part_CheckGeometry.svg" width=16px>** button available in the Part workbench toolbar OR use the {{MenuCommand|Part → <img src="images/Part_CheckGeometry.svg" width=16px> Check geometry}} entry from the top menu.
+2.  Click on the **<img src="images/Part_CheckGeometry.svg" width=16px>** button available in the Part workbench toolbar OR use the **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Check geometry** entry from the top menu.
 3.  Click the **Run Check** button and review the results.
 
 If the results includes items like *BOPAlgo SelfIntersect* then the geometry is invalid and should be corrected by adjusting the model.
 (Hint: Boolean operations and Loft commands can sometimes introduce *Self Intersections*)
 
-#### Available Tool (Cutter) Shapes {#available_tool_cutter_shapes}
+#### Available Tool (Cutter) Shapes 
 
 This 3D Surface op currently uses [OpenCamLib](OpenCamLib.md) \[OCL\|OCL\] to extract paths from the part base. As such, a tool setting translation is required between the FreeCAD tool controller and OCL in order to complete the scan with your chosen tool(cutter) shape.
 
@@ -153,7 +153,7 @@ REMARQUE: à compter de mai 2019, seule la fraise en bout dispose d\'un type de 
 
 NOTE: As of May 2019, only the End Mill has any type of testing to determine accuracy of the FreeCAD-to-OCL tool settings translation. Please post any feedback for non-end-mill usage to the [Path/CAM](https://forum.freecadweb.org/viewforum.php?f=15) section in the FreeCAD forums.
 
-## Propriétés: Version 0.19 {#propriétés_version_0.19}
+## Propriétés: Version 0.19 
 
 \'\'\' *Remarque* \'\'\': toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
@@ -210,7 +210,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Label}}: nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
-#### Options d\'évitement {#options_dévitement}
+#### Options d\'évitement 
 
 -    {{PropertyData/fr|Bound Box}}: si l\'opération est limitée par l\'objet stock ou par le cadre englobant de l\'objet de base
 
@@ -246,7 +246,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Step Down}}: abaissement incrémentiel de l\'outil.
 
-#### Conversion en maillage {#conversion_en_maillage}
+#### Conversion en maillage 
 
 
 <div class="mw-translate-fuzzy">
@@ -315,7 +315,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Stop Index}}: index d\'arrêt (angle) pour la rotation
 
-#### Paramètres de géométrie sélectionnés {#paramètres_de_géométrie_sélectionnés}
+#### Paramètres de géométrie sélectionnés 
 
 -    {{PropertyData/fr|Avoid Last X Faces}}: évite de couper les \"N\" dernières faces dans la liste Géométrie de base des faces sélectionnées
 
@@ -331,7 +331,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Internal Features Cut}}: coupe des zones de fonction internes dans une face sélectionnée plus grande
 
-#### Point de départ {#point_de_départ}
+#### Point de départ 
 
 -    {{PropertyData/fr|Start Point}}: point de départ personnalisé pour la trajectoire de cette opération, défini dans les sous-propriétés: x, y, z
 
@@ -364,19 +364,19 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Release From Waste}}: coupe les déchets jusqu\'à la profondeur sur le bord du modèle, ce qui libère le modèle.
 
-## Tasks Window Editor Layout {#tasks_window_editor_layout}
+## Tasks Window Editor Layout 
 
 
 <div class="mw-translate-fuzzy">
 
-## Disposition de l\'éditeur de fenêtre de tâches {#disposition_de_léditeur_de_fenêtre_de_tâches}
+## Disposition de l\'éditeur de fenêtre de tâches 
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
 
 </div>
 
-##### Localisation de la base {#localisation_de_la_base}
+##### Localisation de la base 
 
 -   **Base Geometry import selection**: utilisez cette liste pour sélectionner la géométrie de base à importer à partir de l\'opération existante sélectionnée
 -   **Import**: importe la géométrie de base de l\'opération sélectionnée dans la liste des géométries de base des opérations courantes
@@ -385,7 +385,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -   **Remove**: supprimez les éléments sélectionnés dans la liste Base Location
 -   **Edit**: efface tous les éléments de la liste Base Location
 
-#### Profondeur {#profondeur_1}
+#### Profondeur 
 
 -    {{PropertyData/fr|Start Depth}}
     

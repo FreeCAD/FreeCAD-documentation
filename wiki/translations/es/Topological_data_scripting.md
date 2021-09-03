@@ -13,12 +13,12 @@ Aquí te explicaremos cómo controlar el [Módulo Pieza](Part_Workbench/es.md) d
 
 </div>
 
-### Ver también {#ver_también}
+### Ver también 
 
 -   [Pieza Guiónes](Part_scripting/es.md)
 -   [OpenCASCADE](OpenCASCADE/es.md)
 
-## Diagrama de clase {#diagrama_de_clase}
+## Diagrama de clase 
 
 Este es un resumen [Lenguaje Unificado de Modelado (UML)](http://es.wikipedia.org/wiki/Lenguaje_Unificado_de_Modelado) de las clases más importantes del módulo Pieza: ![Clases de Python del módulo Pieza](images/Part_Classes.jpg ) {{Top}}
 
@@ -51,13 +51,13 @@ Los siguientes tipos de datos topológicos están disponibles:
 
 {{Top}}
 
-## Ejemplo: Crear una topología simple {#ejemplo_crear_una_topología_simple}
+## Ejemplo: Crear una topología simple 
 
 ![Hilo](images/Wire.png )
 
 Ahora crearemos una topología construyéndola a partir de una geometría más sencilla. Como caso de estudio utilizaremos una pieza como la que se ve en la imagen que consta de cuatro vértices, dos arcos y dos líneas. {{Top}}
 
-### Crear geometría {#crear_geometría}
+### Crear geometría 
 
 Primero creamos las distintas partes geométricas de este cable. Asegurándonos de que las partes que tienen que ser conectadas más tarde comparten los mismos vértices.
 
@@ -108,7 +108,7 @@ L2 = Part.LineSegment(V3, V4)
 
 {{Top}}
 
-### Poniendo todo junto {#poniendo_todo_junto}
+### Poniendo todo junto 
 
 El último paso es poner los elementos base de la geometría juntos y formar una forma topológica:
 
@@ -120,7 +120,7 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 {{Top}}
 
-### Crear un prisma {#crear_un_prisma}
+### Crear un prisma 
 
 Ahora extruir el hilo en una dirección y crear una forma 3D real:
 
@@ -133,7 +133,7 @@ P = W.extrude(Base.Vector(0, 0, 10))
 
 {{Top}}
 
-### Mostrar todo {#mostrar_todo}
+### Mostrar todo 
 
 
 ```python
@@ -143,7 +143,7 @@ Part.show(P)
 
 {{Top}}
 
-## Crear formas básicas {#crear_formas_básicas}
+## Crear formas básicas 
 
 
 <div class="mw-translate-fuzzy">
@@ -181,7 +181,7 @@ Algunos métodos disponibles `make...()`:
 
 Ver la página [Pieza API](Part_API/es.md) para una lista completa de los métodos disponibles del módulo Pieza. {{Top}}
 
-### Módulos de importación {#módulos_de_importación}
+### Módulos de importación 
 
 Primero necesitamos importar el módulo Pieza para poder usar su contenido en Python. También importaremos el módulo Base desde dentro del módulo FreeCAD:
 
@@ -194,7 +194,7 @@ from FreeCAD import Base
 
 {{Top}}
 
-### Crear un vector {#crear_un_vector}
+### Crear un vector 
 
 [Vectores](https://es.wikipedia.org/wiki/Vector) son una de las piezas de información más importantes cuando se construir formas. Suelen contener tres números (pero no necesariamente siempre): las coordenadas cartesianas X, Y y Z. Se crea un vector así:
 
@@ -215,7 +215,7 @@ print(myVertex.Point)
 
 {{Top}}
 
-### Crear un borde {#crear_un_borde}
+### Crear un borde 
 
 Un borde no es más que una línea con dos vértices:
 
@@ -249,7 +249,7 @@ edge.CenterOfMass
 
 {{Top}}
 
-### Poniendo la forma en la pantalla {#poniendo_la_forma_en_la_pantalla}
+### Poniendo la forma en la pantalla 
 
 Hasta ahora hemos creado un objeto de borde, pero no aparece en ninguna parte de la pantalla. Esto se debe a que la escena 3D de FreeCAD sólo muestra lo que tú le dices que muestre. Para ello, utilizamos este sencillo método:
 
@@ -260,7 +260,7 @@ Part.show(edge)
 
 La función mostrar crea un objeto en nuestro documento de FreeCAD y le asigna nuestra forma \"borde\". Utilízala siempre que sea el momento de mostrar tu creación en pantalla. {{Top}}
 
-### Crear un hilo {#crear_un_hilo}
+### Crear un hilo 
 
 Un hilo es una línea de varias aristas y puede crearse a partir de una lista de aristas o incluso de una lista de hilos:
 
@@ -304,7 +304,7 @@ wire2.isClosed()
 
 <div class="mw-translate-fuzzy">
 
-#### Creación de una cara {#creación_de_una_cara}
+#### Creación de una cara 
 
 Sólo serán válidas las caras creadas a partir de contornos cerrados. En este ejemplo, wire3 es un contorno cerrado pero wire2 no es un contorno cerrado (mira más arriba)
 
@@ -340,7 +340,7 @@ Sólo las caras tendrán un área, ni los contornos ni las aristas.
 
 {{Top}}
 
-### Crear un círculo {#crear_un_círculo}
+### Crear un círculo 
 
 Se puede crear un círculo así:
 
@@ -395,7 +395,7 @@ degrees = math.degrees(radians)
 
 <div class="mw-translate-fuzzy">
 
-#### Creación de un arco por varios puntos {#creación_de_un_arco_por_varios_puntos}
+#### Creación de un arco por varios puntos 
 
 Desafortunadamente no hay ninguna función makeArc pero tenemos la función Part.Arc para crear un arco a lo largo de tres puntos. Básicamente se puede suponer como un arco de unión entre el punto de partida y el punto final, pasando por el punto medio. Part.Arc crea un objeto arco en el que .toShape() tiene que ser llamado para obtener el objeto arista, del mismo modo como utilizamos Part.Line en lugar de Part.makeLine.
 
@@ -444,7 +444,7 @@ Los arcos son aristas válidas, como las líneas. Así que también pueden utili
 
 <div class="mw-translate-fuzzy">
 
-#### Creación de un polígono {#creación_de_un_polígono}
+#### Creación de un polígono 
 
 Un polígono es simplemente un contorno con múltiples aristas rectas. La función makePolygon toma una lista de puntos y crea un contorno a través de dichos puntos:
 
@@ -461,7 +461,7 @@ lshape_wire = Part.makePolygon([Base.Vector(0, 5, 0), Base.Vector(0, 0, 0), Base
 
 {{Top}}
 
-### Create a bézier curve {#create_a_bézier_curve}
+### Create a bézier curve 
 
 Bézier curves are used to model smooth curves using a series of poles (points) and optional weights. The function below makes a `Part.BezierCurve()` from a series of `FreeCAD.Vector()` points. Note: when \"getting\" and \"setting\" a single pole or weight, indices start at 1, not 0.
 
@@ -480,7 +480,7 @@ def makeBCurveEdge(Points):
 
 <div class="mw-translate-fuzzy">
 
-#### Creación de un plano {#creación_de_un_plano}
+#### Creación de un plano 
 
 Un plano es simplemente una superficie rectangular plana. El método utilizado para crear uno es este: **makePlane(length,width,\[start\_pnt,dir\_normal\])**. Por defecto start\_pnt = Vector(0,0,0) y dir\_normal = Vector(0,0,1). Utilizando dir\_normal = Vector(0,0,1) crearemos el plano orientado hacia el eje Z, mientras que con dir\_normal = Vector(1,0,0) crearemos el plano orientado hacia el eje X:
 
@@ -521,7 +521,7 @@ Nota: makePlane sólo acepta Base.Vector() para start\_pnt y dir\_normal pero no
 
 <div class="mw-translate-fuzzy">
 
-#### Creación de una elipse {#creación_de_una_elipse}
+#### Creación de una elipse 
 
 Para crear una elipse existen varios métodos:
 
@@ -624,7 +624,7 @@ para el constructor de la elipse de arriba hemos pasado el centro, MajorRadius y
 
 <div class="mw-translate-fuzzy">
 
-#### Creación de un toro {#creación_de_un_toro}
+#### Creación de un toro 
 
 Utilizando el método **makeTorus(radius1,radius2,\[pnt,dir,angle1,angle2,angle\])**. Por defecto pnt=Vector(0,0,0),dir=Vector(0,0,1),angle1=0,angle2=360 y angle=360. Considera un toro como un pequeño circulo barrido a lo largo de una circunferencia grande. Radius1 es el radio de la circunferencia grande, radius2 es el radio del círculo pequeño, pnt es el centro del toro y dir es la dirección normal. angle1 y angle2 son ángulos en radianes para el círculo pequeño, el último parámetro angle es para hacer una sección del toro:
 
@@ -678,7 +678,7 @@ El código de arriba creará un semi toro, sólo el último parámetro se ha cam
 
 <div class="mw-translate-fuzzy">
 
-#### Creación de un cubo o prisma {#creación_de_un_cubo_o_prisma}
+#### Creación de un cubo o prisma 
 
 Utilizando **makeBox(length,width,height,\[pnt,dir\])**. Por defecto pnt=Vector(0,0,0) y dir=Vector(0,0,1)
 
@@ -700,7 +700,7 @@ len(box.Vertexes)
 
 <div class="mw-translate-fuzzy">
 
-#### Creación de una esfera {#creación_de_una_esfera}
+#### Creación de una esfera 
 
 Utilizando **makeSphere(radius,\[pnt, dir, angle1,angle2,angle3\])**. Por defecto pnt=Vector(0,0,0), dir=Vector(0,0,1), angle1=-90, angle2=90 y angle3=360. angle1 y angle2 son el punto vertical mínimo y máximo de la esfera, angle3 es el diámetro de la esfera.
 
@@ -721,7 +721,7 @@ hemisphere = Part.makeSphere(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), -90
 
 <div class="mw-translate-fuzzy">
 
-#### Creación de un cilindro {#creación_de_un_cilindro}
+#### Creación de un cilindro 
 
 Utilizando **makeCylinder(radius,height,\[pnt,dir,angle\])**. Por defecto pnt=Vector(0,0,0),dir=Vector(0,0,1) y angle=360
 
@@ -737,7 +737,7 @@ partCylinder = Part.makeCylinder(5, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0,
 
 <div class="mw-translate-fuzzy">
 
-#### Creación de un cono {#creación_de_un_cono}
+#### Creación de un cono 
 
 Utilizando **makeCone(radius1,radius2,height,\[pnt,dir,angle\])**. Por defecto pnt=Vector(0,0,0), dir=Vector(0,0,1) y angle=360
 
@@ -753,7 +753,7 @@ semicone = Part.makeCone(10, 0, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0, 1),
 
 <div class="mw-translate-fuzzy">
 
-## Modificando formas {#modificando_formas}
+## Modificando formas 
 
 Existen diversos métodos para modificar formas. Algunas son simples operaciones de transformación como mover o rotar formas, otras son más complejas, como la unión y diferencia de una forma y otra. are simple transformation operations such as moving or rotating shapes, other are more complex, such as unioning and subtracting one shape from another. Tenlo en cuenta
 
@@ -765,7 +765,7 @@ There are several ways to modify shapes. Some are simple transformation operatio
 
 <div class="mw-translate-fuzzy">
 
-### Operaciones de transformación {#operaciones_de_transformación}
+### Operaciones de transformación 
 
 
 </div>
@@ -773,7 +773,7 @@ There are several ways to modify shapes. Some are simple transformation operatio
 
 <div class="mw-translate-fuzzy">
 
-#### Traslación de una forma {#traslación_de_una_forma}
+#### Traslación de una forma 
 
 Traslación es el acto de mover una forma de una situación a otra. Cualquier forma (aristas, caras, cubos, etc\...) se puede trasladar del mismo modo:
 
@@ -800,7 +800,7 @@ Esto moverá nuestra forma \"myShape\" 2 unidades en la dirección del eje X.
 
 <div class="mw-translate-fuzzy">
 
-#### Rotación de una forma {#rotación_de_una_forma}
+#### Rotación de una forma 
 
 Para rotar una forma, necesitas especificar el centro de rotación, el eje, y el ángulo de rotación:
 
@@ -815,7 +815,7 @@ myShape.rotate(Base.Vector(0, 0, 0),Base.Vector(0, 0, 1), 180)
 
 <div class="mw-translate-fuzzy">
 
-#### Transformaciones genéricas con matrices {#transformaciones_genéricas_con_matrices}
+#### Transformaciones genéricas con matrices 
 
 Una matriz es un modo muy conveniente de almacenar transformaciones en el mundo 3D. En una simple matriz, puedes establecer traslaciones, rotaciones y valores de escala a ser aplicados a un objeto. Por ejemplo:
 
@@ -864,7 +864,7 @@ myShape.transformGeometry(myMat)
 
 <div class="mw-translate-fuzzy">
 
-#### Escalando una forma {#escalando_una_forma}
+#### Escalando una forma 
 
 Escalando una forma es una operación más peligrosa porque, a diferencia de la traslación o rotación, un escalado no uniforme (con diferentes valores para los ejes X,Y y Z) puede modificar la estructura de la forma. Por ejemplo, escalando una circunferencia con un valor horizontal superior al vertical la transformará en una elipse, que se comporta matemáticamente de forma muy diferente. Para el escalado, no podemos utilizar transformShape, tenemos que usar transformGeometry():
 
@@ -881,7 +881,7 @@ myShape=myShape.transformGeometry(myMat)
 
 <div class="mw-translate-fuzzy">
 
-### Operaciones Booleanas {#operaciones_booleanas}
+### Operaciones Booleanas 
 
 
 </div>
@@ -997,7 +997,7 @@ cylinder = disc.extrude(Base.Vector(0, 0, 2))
 
 <div class="mw-translate-fuzzy">
 
-## Exploración de formas {#exploración_de_formas}
+## Exploración de formas 
 
 Puedes explorar fácilmente la estructura de datos topológicos:
 
@@ -1035,7 +1035,7 @@ Escribiendo las líneas de arriba en el interprete de Python, conseguirás una b
 
 <div class="mw-translate-fuzzy">
 
-### Análisis de aristas {#análisis_de_aristas}
+### Análisis de aristas 
 
 En el caso de una arista con una curva arbitraria, es más probable que quieras hacer una discretización. En FreeCAD las aristas son parametrizadas por sus longitudes. Eso significa que puedes recorrer una arista/curva por su longitud:
 
@@ -1077,7 +1077,7 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 <div class="mw-translate-fuzzy">
 
-### Utilizando la selección {#utilizando_la_selección}
+### Utilizando la selección 
 
 Aquí vemos ahora cómo podemos utilizar la selección que el usuario hizo en la vista. Antes de nada creamos un cubo y lo mostramos en la vista
 
@@ -1122,7 +1122,7 @@ print("Length of the selected edges: ", length)
 
 <div class="mw-translate-fuzzy">
 
-## Examen completo: La botella OCC {#examen_completo_la_botella_occ}
+## Examen completo: La botella OCC 
 
 Un ejemplo típico encontrado en la [página de primeros pasos de OpenCasCade](http://www.opencascade.org/org/gettingstarted/appli/) es cómo construir una botella. Este es un buen ejercicio también para FreeCAD. En realidad, puedes seguir nuestro ejemplo de abajo y la página de OCC simultáneamente, comprenderás bien cómo están implementadas las estructuras de OCC en FreeCAD. El archivo de guión completo de abajo está también incluido en la instalación de FreeCAD (dentro del directorio Mod/Part) y puede llamarse desde el interprete de Python escribiendo:
 
@@ -1140,7 +1140,7 @@ Part.show(bottle)
 
 <div class="mw-translate-fuzzy">
 
-### El archivo de guión completo {#el_archivo_de_guión_completo}
+### El archivo de guión completo 
 
 Aquí está el archivo de guión completo MakeBottle:
 
@@ -1198,7 +1198,7 @@ Part.show(el)
 
 <div class="mw-translate-fuzzy">
 
-### Explicación detallada {#explicación_detallada}
+### Explicación detallada 
 
 
 </div>
@@ -1369,7 +1369,7 @@ o, de forma más simple:
 
 {{Top}}
 
-## Example: Pierced box {#example_pierced_box}
+## Example: Pierced box 
 
 Here is a complete example of building a pierced box.
 
@@ -1424,7 +1424,7 @@ Part.show(cut_part)
 
 <div class="mw-translate-fuzzy">
 
-## Cargando y guardando {#cargando_y_guardando}
+## Cargando y guardando 
 
 Existen diversas formas de guardar tu trabajo en el módulo de piezas. Puedes desde luego guardar el documento de FreeCAD, pero también puedes guardar objetos de pieza directamente en formatos de CAD comunes, como BREP, IGS, STEP y STL.
 

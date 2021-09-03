@@ -1,6 +1,6 @@
  {{VeryImportantMessage|(2019) The contents of this page are obsolete. Please help us to keep it updated!<br/> Meanwhile, try other [compilation options](Compiling.md).}}
 
-## How to build and run FreeCAD under Cygwin {#how_to_build_and_run_freecad_under_cygwin}
+## How to build and run FreeCAD under Cygwin 
 
 ### Prerequisites
 
@@ -27,23 +27,23 @@ And for the Mesh module of FreeCAD the additional libraries
 
 are required. OpenCASCADE is also needed by the Part and Raytracing modules.
 
-#### Note 1 {#note_1}
+#### Note 1 
 
 As OpenCASCADE that is also required by the Mesh, Part and Raytracing modules is not available for Cygwin it is not possible to build them for this platform. It is planned for the future to move all OpenCASCADE dependencies of the Mesh module into a separate module so that at least this module can be built under Cygwin.
 
-#### Note 2 {#note_2}
+#### Note 2 
 
 All libraries listed above must be built as shared library. Refer to their documentation to see how to do.
 
-#### Note 3 {#note_3}
+#### Note 3 
 
 If possible you should enable thread support for the libraries. At least for Qt thread support is strongly recommended, otherwise you will run into linker errors at build time of FreeCAD.
 
-#### Note 4 {#note_4}
+#### Note 4 
 
 zlib might be already on your system, as this is a library that is used from a lot of other libraries.
 
-#### Note 5 {#note_5}
+#### Note 5 
 
 There seems to be various problems with Qt\'s uic tool of the Cygwin port.
 
@@ -55,11 +55,11 @@ For the build process of FreeCAD we make use of configure scripts. To have an ov
 
 If you have installed all libraries above into standard paths you need not any of the \'\--with\' options at all. Unless you have installed any library into a non-standard path, then make use of the \--with-XXX-includes or \--with-XXX-libs options. (XXX represents the corresponding library.)
 
-#### Note 1 {#note_1_1}
+#### Note 1 
 
 Due to some limitations of the Windows platform it is not possible to build libraries with unresolved symbols at link time. Thus it is strongly recommended to run ./configure with the option LDFLAGS=-no-undefined, otherwise the creation of shared libraries fails. For more details see section 11.2.1 Creating Libtool Libraries with Automake of the libtool documentation.
 
-#### Note 2 {#note_2_1}
+#### Note 2 
 
 To specify FreeCAD\'s root directory it is recommended to use only the \'\--prefix\' option from the configure script but not the \--bindir, \--libdir, \... options, because at startup FreeCAD makes assumptions where its lib-, doc-, .. directories reside. The default root directory is located in \~/FreeCAD.
 

@@ -18,8 +18,8 @@ Der Befehl **Std Draufsicht** wendet die Kamerasicht der aktiven [3D-Ansicht](3D
 
 1.  Es gibt verschiedene Wegen, den Befehl umzusetzen:
     -   Die **<img src="images/Std_ViewTop.svg" width=16px> [Std Draufsicht](Std_ViewTop/de.md)**-Schaltfläche betätigen.
-    -   Den Menüpunkt {{MenuCommand|Ansicht → Standardansichten → <img src="images/Std_ViewTop.svg" width=16px> Draufsicht}} aus dem Menü wählen.
-    -   Den Menüpunkt {{MenuCommand|Standardansichten → <img src="images/Std_ViewTop.svg" width=16px> Draufsicht}} aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
+    -   Den Menüpunkt **Ansicht → Standardansichten → <img src="images/Std_ViewTop.svg" width=16px> Draufsicht** aus dem Menü wählen.
+    -   Den Menüpunkt **Standardansichten → <img src="images/Std_ViewTop.svg" width=16px> Draufsicht** aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
     -   Mit dem Tastenkürzel: **2**.
 
 ## Skripten

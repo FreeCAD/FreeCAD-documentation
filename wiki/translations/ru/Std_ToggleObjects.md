@@ -17,7 +17,7 @@ The **Std ToggleObjects** command toggles the visibility of all objects belongin
 
 ## Применение
 
-1.  Выберите пункт меню {{MenuCommand|Вид → Видимость → <img src="images/Std_ToggleObjects.svg" width=16px> Инвертировать все видимости}}.
+1.  Выберите пункт меню **Вид → Видимость → <img src="images/Std_ToggleObjects.svg" width=16px> Инвертировать все видимости**.
 
 ## Примечания
 

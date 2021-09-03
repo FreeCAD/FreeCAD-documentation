@@ -13,7 +13,7 @@ If you\'d like to contribute with writing wiki documentation and tutorials, see 
 
 Please notice the version of FreeCAD used in the tutorial as some tutorials may use an old version of the program. Although the general modelling process may still work, some tools may have changed.
 
-## Architecture and BIM {#architecture_and_bim}
+## Architecture and BIM 
 
 
 
@@ -27,7 +27,7 @@ Re-modeling the WikiHouse project using sketches and panels, starting from impor
 
 
 
-## Modeling parts {#modeling_parts}
+## Modeling parts 
 
 FreeCAD provides two main workflows to modeling parts:
 
@@ -59,7 +59,7 @@ The Raspberry Pi project has made simple tutorials that are easy to follow, part
 -   [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), model and entire chess set in Bauhaus modernist style.
 -   [raspberrypilearning](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) repository (CC-BY 4.0) with other examples.
 
-## Drafting and Sketching {#drafting_and_sketching}
+## Drafting and Sketching 
 
 
 
@@ -72,7 +72,7 @@ Learn to efficiently constrain a sketch. Prefer geometric constraints over datum
 
 
 
-## Technical Drawings {#technical_drawings}
+## Technical Drawings 
 
 
 
@@ -96,7 +96,7 @@ This tutorial explains the basics of transferring data from the FEM Workbench to
 
 
 
-## CNC & 3D Printing {#cnc_3d_printing}
+## CNC & 3D Printing 
 
 
 
@@ -106,7 +106,7 @@ Convert a solid object to a mesh object using the Mesh Workbench, export the mes
 
 
 
-## Import and Export {#import_and_export}
+## Import and Export 
 
 
 
@@ -127,7 +127,7 @@ Export bodies from FreeCAD to Wavefront .obj, import the file into Blender, set 
 
 
 
-## Robot workbench {#robot_workbench}
+## Robot workbench 
 
 
 {{VeryImportantMessage|Development of the [Robot Workbench](Robot_Workbench.md) is currently abandoned. Please inquire on our forum regarding any news or alternative workbenches.}}
@@ -170,7 +170,7 @@ Generate 2D projections of your 3D models, and add dimensions.
 
 
 
-## Tutorials - Comprehensive list {#tutorials___comprehensive_list}
+## Tutorials - Comprehensive list 
 
 Here are listed all the tutorials that are not in the manual **regardless of their quality**. If a tutorial is listed in the [:Category:Tutorials](:Category:Tutorials.md) and not in this table please insert it.
 

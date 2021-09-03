@@ -24,7 +24,7 @@ The Part Sweep tool is similar to <img alt="" src=images/Part_Loft.svg  style="w
 4.  Define options [Solid](#Solid.md) and [Frenet](#Frenet.md).
 5.  Click **OK**
 
-### Accepted geometry {#accepted_geometry}
+### Accepted geometry 
 
 -   **Profiles**: can be a point (vertex), line (Edge), wire or face. Edges and wires may be either open or closed. There are various [profile limitations and complications](Part_Sweep#Profile_limitations_and_complications.md), see below, however the profiles may come from the Part Workbench primitives, Draft Workbench features and Sketches.
 
@@ -48,7 +48,7 @@ If \"Frenet\" is \"true\" the orientation of the profile is computed basing on l
 
 \"Transition\" sets the transition style of the Sweep at a joint in the path, if the path does not define the corner transition (for example where the path is a wire). The property is not exposed in the [Task panel](Task_panel.md) and can be found in properties after the Sweep has been created.
 
-## Profile limitations and complications {#profile_limitations_and_complications}
+## Profile limitations and complications 
 
 -   A vertex or point
     -   vertex or point may only be used as the first and/or last profile in the list of profiles.

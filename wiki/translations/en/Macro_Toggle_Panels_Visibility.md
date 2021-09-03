@@ -25,7 +25,7 @@ Save the provided code to the appropriate Macro directory and execute it from th
 
 Click on the associated toolbar button, or invoke from the Macro menu. The supporting windows Python console, Report view, Combo view will either all become visible or all become hidden.
 
-## User Interface {#user_interface}
+## User Interface 
 
 There is immediate confirmation of the user action as the supporting windows either appear or disappear.
 

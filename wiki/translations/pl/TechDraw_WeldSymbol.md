@@ -25,7 +25,7 @@ The WeldingSymbol tool adds welding specifications to an existing leader line.
 
 ## Properties
 
-### Weld Symbol {#weld_symbol}
+### Weld Symbol 
 
 -    **All Around**: Shows the *All Around* symbol (circle) at the kink in the leader line.
 
@@ -88,7 +88,7 @@ App.activeDocument().DrawTileWeld001.RightText = "right text"
 App.activeDocument().DrawTileWeld001.CenterText = "center text"
 ```
 
-## Svg Symbol Tiles {#svg_symbol_tiles}
+## Svg Symbol Tiles 
 
 -   Individual symbols are formed by 64x64 pixel SVG files. Additional symbols can be created in an SVG program like [Inkscape](https://en.wikipedia.org/wiki/Inkscape) using one of the symbols supplied by FreeCAD as template.
 

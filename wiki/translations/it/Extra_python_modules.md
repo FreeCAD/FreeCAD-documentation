@@ -16,7 +16,7 @@
 
 Questa pagina elenca alcuni moduli Python aggiuntivi o altre parti di software che possono essere scaricati gratuitamente da internet, e che aggiungono funzionalità alla vostra installazione FreeCAD.
 
-## PySide (sostituisce PyQt4) {#pyside_sostituisce_pyqt4}
+## PySide (sostituisce PyQt4) 
 
 -   homepage (PySide): [<http://qt-project.org/wiki/PySide>](http://qt-project.org/wiki/PySide)
 -   licenza: LGPL
@@ -91,7 +91,7 @@ path = FreeCAD.ConfigGet("AppHomePath")
 SaveName, Filter = PySide.QtGui.QFileDialog.getSaveFileName(None, "Save a file txt", path, "*.txt")
 ```
 
-### Esempio di passaggio da PyQt4 a PySide {#esempio_di_passaggio_da_pyqt4_a_pyside}
+### Esempio di passaggio da PyQt4 a PySide 
 
 Nota: questi sono esempi di errori riscontrati nella transizione da PyQt4 verso PySide con le correzioni che sono state fatte. Con gli esempi precedenti sono certamente possibili altre soluzioni
 
@@ -230,7 +230,7 @@ Ecco alcuni tutorial di PyQt4 (che spiegano come costruire interfacce con Qt Des
 
 Pivy serve a alcuni moduli per accedere alla visualizzazione 3D di FreeCAD. Su Windows, Pivy è già in impacchettato nel programma di installazione FreeCAD, e su Linux solitamente è installato automaticamente quando si installa FreeCAD da un repository ufficiale. Su MacOSX, purtroppo, è necessario compilare pivy da soli.
 
-### Installazione {#installazione_1}
+### Installazione 
 
 #### Prerequisiti
 
@@ -242,7 +242,7 @@ Per Fedora ho trovato un RPM con Coin3
 
 SoQt compilato da [codice sorgente](http://www.coin3d.org/lib/soqt/releases/1.5.0) funziona bene su Mac e Linux.
 
-#### Debian & Ubuntu {#debian_ubuntu}
+#### Debian & Ubuntu 
 
 A partire da Debian Squeeze e Ubuntu Lucid, Pivy sarà disponibile direttamente dai repository ufficiali e questo eviterà un sacco di problemi.
 
@@ -268,7 +268,7 @@ debuild
 
 per avere Pivy correttamente costruito in un pacchetto ufficiale installabile. Dopo è sufficiente installare il pacchetto con gdebi.
 
-#### Altre distribuzioni Linux {#altre_distribuzioni_linux}
+#### Altre distribuzioni Linux 
 
 Prima di tutto scaricare gli ultimi sorgenti dai [repository del progetto](http://pivy.coin3d.org/mercurial/):
 
@@ -312,7 +312,7 @@ python setup.py install (or checkinstall python setup.py install)
 
 Questo è tutto. Pivy è installato.
 
-#### Mac OS {#mac_os}
+#### Mac OS 
 
 Queste istruzioni potrebbero non essere complete. Qualcosa di simile a questo ha funzionato per OS 10,7 dopo marzo 2012. Io uso MacPorts come repository, ma dovrebbero funzionare anche le altre opzioni.
 
@@ -354,7 +354,7 @@ python setup.py build
 sudo python setup.py install
 ```
 
-#### Windows {#windows_1}
+#### Windows 
 
 Supponendo di utilizzare Visual Studio 2005 o versioni successive è necessario aprire un prompt dei comandi con \'Visual Studio 2005 Command prompt\' dal menu Strumenti. Se l\'interprete Python non è ancora nel percorso di sistema fare:
 
@@ -478,7 +478,7 @@ Ora, si può incorrere in un errore di compilazione in cui una \'const char \*\'
 
 Infine, copiare la directory di pivy generata in un posto dove l\'interprete di Python di FreeCAD possa trovarla.
 
-### Utilizzo {#utilizzo_1}
+### Utilizzo 
 
 Per verificare se Pivy è installato correttamente:
 
@@ -500,7 +500,7 @@ FCSceneGraph.addChild(coin.SoCube()) # add a box to scene
 
 Ora è possibile esplorare FCSceneGraph con il comando dir().
 
-### Documentazione aggiuntiva {#documentazione_aggiuntiva}
+### Documentazione aggiuntiva 
 
 Purtroppo in rete la documentazione su Pivy è ancora quasi inesistente. Ma può essere utile la documentazione di Coin, in quanto Pivy semplicemente traduce le funzioni di Coin, i nodi e i metodi in Python, tutto mantiene lo stesso nome e le stesse proprietà, tenendo presente la differenza di sintassi tra C e Python:
 
@@ -517,11 +517,11 @@ Potete anche esplorare il file Draft.py nella cartella Mod/Draft di FreeCAD, dat
 
 pyCollada è una libreria di Python che permette ai programmi di leggere e di scrivere [i file di Collada (\*.DAE)](http://en.wikipedia.org/wiki/COLLADA). Quando pyCollada è installato sul sistema, FreeCAD lo rileva e aggiunge le opzioni di importazione e di esportazione per gestire l\'apertura e il salvataggio di file nel formato Collada.
 
-### Installazione {#installazione_2}
+### Installazione 
 
 Pycollada in genere non è ancora disponibile nei repository delle distribuzioni Linux, ma dato che è composto solo di file Python, non richiede la compilazione, ed è facile da installare. Si può installare in 2 modi, o direttamente dal repository git ufficiale di pycollada, o con lo strumento easy\_install.
 
-#### Linux {#linux_1}
+#### Linux 
 
 In entrambi i casi, è necessario che nel sistema siano già installati i seguenti pacchetti:
 
@@ -532,7 +532,7 @@ python-numpy
 python-dateutil
 ```
 
-##### Dal repository git {#dal_repository_git}
+##### Dal repository git 
 
 
 ```python
@@ -541,7 +541,7 @@ cd pycollada
 sudo python setup.py install
 ```
 
-##### Con easy\_install {#con_easy_install}
+##### Con easy\_install 
 
 Supponendo di avere già una installazione completa di Python, l\'utilità easy\_install dovrebbe essere già presente:
 
@@ -559,11 +559,11 @@ import collada
 
 Se non viene restituito nulla (nessun messaggio di errore), allora tutto è OK
 
-#### Windows {#windows_2}
+#### Windows 
 
 Su Windows, dalla versione 0.15, pycollada è incluso in FreeCAD sia nella versione di rilascio che in quella di sviluppo quindi non sono più necessari ulteriori passaggi.
 
-#### Mac OS {#mac_os_1}
+#### Mac OS 
 
 Se si utilizza la build Homebrew di FreeCAD è possibile installare pycollada nel proprio sistema Python utilizzando pip.
 
@@ -610,11 +610,11 @@ IFCOpenShell è una libreria attualmente in fase di sviluppo, che permette di im
 
 </div>
 
-### Installazione {#installazione_3}
+### Installazione 
 
 Dato che ifcopenshell è abbastanza recente, dovrete probabilmente compilarla da soli.
 
-#### Linux {#linux_2}
+#### Linux 
 
 Per compilare ifcopenshell serve che sul sistema siano installati un paio di pacchetti di sviluppo:
 
@@ -674,7 +674,7 @@ import ifcopenshell
 
 Se non viene restituito nulla (nessun messaggio di errore), allora tutto è OK
 
-#### Windows {#windows_3}
+#### Windows 
 
 **Nota**: I programmi di installazione di FreeCAD ufficiali ottenuti dal website/github di FreeCAD contengono già ifcopenshell.
 
@@ -688,7 +688,7 @@ For building the IfcPython wrapper, SWIG needs to be installed. Please download 
 
 Tutorial [Importare e Esportare IFC - compilare IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell/it.md)
 
-## ODA Converter (anteriormente Teigha Converter) {#oda_converter_anteriormente_teigha_converter}
+## ODA Converter (anteriormente Teigha Converter) 
 
 -   homepage: <https://www.opendesign.com/guestfiles/oda_file_converter>
 -   licenza: freeware
@@ -696,7 +696,7 @@ Tutorial [Importare e Esportare IFC - compilare IfcOpenShell](Import/Export_IFC_
 
 Il convertitore ODA è una piccola utility liberamente disponibile che consente di convertire tra diverse versioni i file DWG e DXF. FreeCAD può usarlo per offrire l\'importazione e l\'esportazione dei file DWG, convertendo prima i formati DWG in DXF al suo interno, e poi importando il contenuto dei file tramite il suo importatore DXF standard. Si applicano le restrizioni di [importazione di DXF](Draft_DXF/it.md).
 
-### Installazione {#installazione_4}
+### Installazione 
 
 Su tutte le piattaforme, basta installare il pacchetto appropriato da <https://www.opendesign.com/guestfiles/oda_file_converter> . Se, dopo l\'installazione, l\'utility non viene trovata automaticamente da FreeCAD, può essere necessario impostare manualmente il percorso del file eseguibile del converter. Attivare l\'ambiente Draft, poi nelle opzioni del menu Modifica → Preferenze → Draft → Importa/Esporta → DWG compilare il campo \"Percorso del convertitore File Teigha\" con il corretto percorso.
 

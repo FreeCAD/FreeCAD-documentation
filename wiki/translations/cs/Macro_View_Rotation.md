@@ -287,6 +287,6 @@ Tři ikony symbolizují směr rotace. Zip soubory s ikonami najdete [zde](http:/
         self.setGeometry(right-300, 0, 300, 150)
 ```
 
-## Diskusní stránka {#diskusní_stránka}
+## Diskusní stránka 
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)

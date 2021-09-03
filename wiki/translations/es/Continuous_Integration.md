@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Integración continua {#integración_continua}
+## Integración continua 
 
 Actualmente, el repositorio de FreeCAD en GitHub activará una compilación en los dos sistemas de CI a continuación. Entre estos sistemas, casi todos los principales sistemas operativos multiplataformas están cubiertos: Linux, MacOSX y Windows. Los CI también se pueden usar para ejecutar [unit tests](Testing.md)..
 
@@ -28,7 +28,7 @@ Actualmente, el repositorio de FreeCAD en GitHub activará una compilación en l
 
 \- Si agrega [skip ci] o [ci skip] a un git commit, se cancelará una compilación de CI.
 
-### Relevant Links {#relevant_links}
+### Relevant Links 
 
 -   [LGTM](LGTM.md)
 

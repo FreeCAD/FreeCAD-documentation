@@ -4,7 +4,7 @@
 
 *Votre esprit passe par cinq étapes pour accomplir pratiquement n\'importe quelle tâche. Ces cinq étapes sont les suivantes :*
 
-## Buts et principes {#buts_et_principes}
+## Buts et principes 
 
 *La première étape de ce modèle, est de définir les **principes et objectifs**. Pensez, à la dernière fois que vous avez réservé des vacances en famille. Il y a toujours un objectif pour les vacances. Cela pourrait être, de prendre une pause de son travail bien méritée, de se détendre, et, passer du beau temps avec votre conjoint et vos enfants, ou tout simplement pour aller voir un attrait touristique spécifique pour vos vacances. Peu importe la raison, il y aura eu un objectif, et, des principes sur votre voyage. Il ne suffit pas de se lever un jour et de partir en vacances, vous mettez en œuvre la première étape du modèle de planification naturelle, et, cela est d\'avoir un but pour le voyage.*
 
@@ -20,7 +20,7 @@
 
 *La prochaine étape, et, la quatrième, sont l\'organisation. Une fois que vous avez généré vos idées sur le projet, ou sur un jour férié, vous commencez à organiser ces idées. Par exemple, vous pouvez avoir pensé à l\'agence de voyages à utiliser pour la réservation, ou si vous souhaitez réserver en direct, si les beaux-parents voudraient venir en vacances aussi, comme baby-sitters, etc \... Normalement, votre esprit trie et organise automatiquement ces pensées.*
 
-## Actions suivantes {#actions_suivantes}
+## Actions suivantes 
 
 *La dernière étape, et la cinquième, est d**\'identifier, et, de définir les actions à venir**. La méthode [GTD](http://fr.wikipedia.org/wiki/Getting_Things_Done) montre que la meilleure façon d\'obtenir un travail bien fait, est de décider, et, fixer les prochaines actions. Nous ne faisons pas de tâches, nous faisons les prochaines actions. Donc, la meilleure façon d\'obtenir votre réservation de séjour est de décider quelles sont les prochaines actions à faire. Ce serait des éléments tels que, rechercher la station sur Internet, consultez les sites en ligne pour comparer les vols et hébergements bon marché, appeler et voir un agent de voyages, pour leur prix et la recommandation dans le complexe. Encore une fois, je serais surpris si l\'un de vous prendriez le temps et l\'effort pour écrire ces prochaines actions, mais aussi, je serais surpris si l\'un de vous aie oublié ces prochains actions. Il est drôle de voir comment notre esprit a une excellente façon de se souvenir et de planifier des projets assignés, en utilisant la méthode de planification naturelle.*
 

@@ -23,7 +23,7 @@ Acest instrument împarte un obiect selectat [ Mesh](Mesh_Workbench.md) în comp
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -40,7 +40,7 @@ Acest instrument împarte un obiect selectat [ Mesh](Mesh_Workbench.md) în comp
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

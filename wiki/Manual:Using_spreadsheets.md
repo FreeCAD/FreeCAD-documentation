@@ -9,7 +9,7 @@ In FreeCAD, however, spreadsheets have an additional utility: Their cells can re
 
 In the following example, we will create a couple of objects, retrieve some of their properties in a spreadsheet, then use the spreadsheet to directly drive properties of other objects.
 
-### Reading properties {#reading_properties}
+### Reading properties 
 
 -   Start by switching to the [Part Workbench](Part_Workbench.md), and create a couple of objects: a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [box](Part_Box.md), a <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [cylinder](Part_Cylinder.md) and a <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [sphere](Part_Sphere.md).
 -   Edit their **Placement** property (or use the <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Draft Move](Draft_Move.md) tool) to place them a little apart, so we can better see the effects of what we\'ll do:
@@ -39,7 +39,7 @@ In FreeCAD, on top of these common features, there is a new interesting one: The
 
 The [Spreadsheet Workbench](Spreadsheet_Workbench.md) page will describe in more detail all the possible operations and functions available in spreadsheets.
 
-### Writing properties {#writing_properties}
+### Writing properties 
 
 Another very interesting use of the Spreadsheet Workbench in FreeCAD is to do the contrary of what we have been doing until now: Instead of reading the values of properties of 3D objects, we can also assign values to these objects. Remember, however, one of the fundamental rules of FreeCAD: Circular dependencies are forbidden. We can therefore not use the same spreadsheet to read **and** write values to a 3D object. That would make the object depend on the spreadsheet, which would also depend on the object. Instead, we will create another spreadsheet.
 

@@ -11,7 +11,7 @@ Creează o Constrângere prin MEF pentru o intrare geometrică fixă prin blocar
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

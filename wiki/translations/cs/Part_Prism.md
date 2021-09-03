@@ -11,7 +11,7 @@ A Part Prism is a solid defined by a regular polygon cross section and a height.
 ## Usage
 
 1.  Open the **<img src="images/Workbench_Part.svg" width=16px> [Part](Part_Workbench.md)** Workbench.
-2.  Press the **<img src="images/Part_Primitives.svg" width=24px> [Primitives](Part_Primitives.md)** button, or use the {{MenuCommand|Part → [Create primitives](Part_Primitives.md) → Prism}} from the top menu.
+2.  Press the **<img src="images/Part_Primitives.svg" width=24px> [Primitives](Part_Primitives.md)** button, or use the **Part → [Create primitives](Part_Primitives.md) → Prism** from the top menu.
 3.  Select **Prism** in the dialog and set the parameters.
 
 The prism properties can later be edited, either in the [Property editor](Property_editor.md) or by double-clicking the prism in the [Tree view](Tree_view.md).

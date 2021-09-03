@@ -19,7 +19,7 @@ Il comando **Salva con nome** salva il documento attivo con un nuovo nome di fil
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare {{MenuCommand|File → Salva con nome...}} nel menu.
+1.  Selezionare **File → Salva con nome...** nel menu.
 2.  Immettere un nome per il file nella finestra di dialogo.
 3.  Premere il pulsante **Salva**.
 
@@ -36,7 +36,7 @@ Il comando **Salva con nome** salva il documento attivo con un nuovo nome di fil
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: {{MenuCommand|Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

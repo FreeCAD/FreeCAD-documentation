@@ -22,7 +22,7 @@ Workbenches marked with <img alt="" src=images/AddonManager.svg  style="width:24
 
 Workbenches marked with <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> are not recommended for recent versions of FreeCAD. They are obsolete, unmaintained, superseded by a newer workbench, or maybe they don\'t work with Python 3 or with Qt5. In most cases they should be avoided.
 
-## Assembly workbenches {#assembly_workbenches}
+## Assembly workbenches 
 
 As of FreeCAD 0.19 there is no official assembly workbench. However, several external tools have been created or are in development to manipulate objects to produce assemblies.
 
@@ -136,7 +136,7 @@ The table below is organized in topics, but can be reorder by clicking any of th
   <img alt="" src=images/EMWorkbench.svg  style="width:32px;">                                                                   [EM](EM_Workbench.md)                                                         Simulation                      It provides a graphical interface for different solvers by [FastFieldSolvers](http://www.fastfieldsolvers.com). At present it supports the 3D magneto-quasistatic impedance solver FastHenry. Support for the 3D electrostatic capacitance solver FasterCap is ongoing.                                                                                                                                                                                                                                                                                                                                                                             FastFieldSolvers S.R.L.                               <https://github.com/ediloren/EM-Workbench-for-FreeCAD>                                <img alt="" src=images/AddonManager.svg  style="width:24px;">   
   <img alt="" src=images/FrontISTR.svg  style="width:32px;">                                                                       [FEM FrontISTR](FEM_FrontISTR_Workbench.md)                                   Simulation                      It provides a graphical interface for [FrontISTR](https://www.frontistr.com), an open-source large-scale parallel FEM program for nonlinear structural analysis.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    kinagaki                                              <https://github.com/FrontISTR/FEM_FrontISTR>                                                                                                 
 
-## Translating external workbenches {#translating_external_workbenches}
+## Translating external workbenches 
 
 See the wiki page for more information [Translating an external workbench](Translating_an_external_workbench.md)
 

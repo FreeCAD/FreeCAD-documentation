@@ -24,7 +24,7 @@ Las versiones oficiales de FreeCAD, que puedes encontrar en la página referenci
 
 Si estás instalando FreeCAD en una máquina virtual, ten en cuenta que el rendimiento puede ser pobre (en algunos casos inutilizable) debido a los límites de soporte de [OpenGL](https://en.wikipedia.org/wiki/OpenGL) en la mayoría de las máquinas virtuales.
 
-### Instalación en Windows {#instalación_en_windows}
+### Instalación en Windows 
 
 1.  Descargue un paquete instalador (.exe) correspondiente a su versión de Windows (32bit o 64bit) desde la \[página de descargas <https://github.com/FreeCAD/FreeCAD/releases>\]. Los instaladores de FreeCAD deberían funcionar en cualquier versión de Windows a partir de Windows 7.
 2.  Haz doble clic en el instalador descargado.
@@ -38,7 +38,7 @@ Si estás instalando FreeCAD en una máquina virtual, ten en cuenta que el rendi
 
 Empaquetar FreeCAD y crear un instalador lleva algo de tiempo y dedicación, así que normalmente las versiones de desarrollo (también llamadas pre-lanzamiento) se proporcionan como archivos .zip (o .7z). Estos no necesitan ser instalados; sólo tienes que descomprimirlos y lanzar FreeCAD haciendo doble clic en el archivo FreeCAD.exe que encontrarás dentro. Esto también te permite mantener tanto la versión estable como la \"inestable\" juntas en el mismo ordenador.
 
-### Instalación en Linux {#instalación_en_linux}
+### Instalación en Linux 
 
 
 <div class="mw-translate-fuzzy">
@@ -57,7 +57,7 @@ En la mayoría de las distribuciones modernas de Linux (Ubuntu, Fedora, openSUSE
 
 Una de las grandes alegrías de usar Linux es la multitud de posibilidades de adaptar el software, así que no te limites. En Ubuntu y derivados, FreeCAD también puede instalarse desde un [PPA](https://launchpad.net/~freecad-maintainers) mantenido por la comunidad de FreeCAD (contiene versiones estables y de desarrollo). En Fedora, las versiones de desarrollo recientes de FreeCAD pueden instalarse desde [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/), y como se trata de software de código abierto, también puedes fácilmente [compilar FreeCAD tú mismo](Compiling/es.md).
 
-### Instalación en Mac OS {#instalación_en_mac_os}
+### Instalación en Mac OS 
 
 Instalar FreeCAD en Mac OSX es hoy en día tan fácil como en otras plataformas. Sin embargo, dado que hay menos gente en la comunidad que posee un Mac, los paquetes disponibles a veces van un poco por detrás de las otras plataformas.
 
@@ -72,7 +72,7 @@ Instalar FreeCAD en Mac OSX es hoy en día tan fácil como en otras plataformas.
 
 Es de esperar que no quieras desinstalar FreeCAD, pero es bueno saber cómo hacerlo. En Windows y Linux, desinstalar FreeCAD es muy sencillo. En Windows, usa la opción estándar de \"eliminar software\" que se encuentra en el panel de control; en Linux, elimínalo con el mismo gestor de software que usaste para instalarlo. En Mac OS, simplemente elimínalo de la carpeta de aplicaciones.
 
-### Configuración de las preferencias básicas {#configuración_de_las_preferencias_básicas}
+### Configuración de las preferencias básicas 
 
 Una vez instalado FreeCAD, puede que quieras abrirlo y cambiar algunas preferencias. Los ajustes de preferencias en FreeCAD se encuentran en el menú **Edición → Preferencias**. A continuación se enumeran algunos ajustes básicos que puedes querer cambiar; puedes navegar por las páginas de preferencias para ver si hay algo más que quieras cambiar.
 
@@ -86,7 +86,7 @@ Una vez instalado FreeCAD, puede que quieras abrirlo y cambiar algunas preferenc
 8.  **Zoom en el cursor**: (*Categoría de visualización*, pestaña *3D*) Si se establece, las operaciones de zoom se centrarán en el puntero del ratón. Si no se establece, el centro de la vista actual es el foco del zoom.
 9.  **Invertir zoom**: (*Categoría de visualización*, pestaña *3D*) Invierte la dirección del zoom en relación con el movimiento del ratón. ![](images/FreeCAD-v0-18-Preferences-Display.png )
 
-### Instalación de contenidos adicionales {#instalación_de_contenidos_adicionales}
+### Instalación de contenidos adicionales 
 
 Como el proyecto FreeCAD y su comunidad crecen rápidamente, y también porque es fácil de extender, las contribuciones externas y los proyectos secundarios realizados por los miembros de la comunidad y otros entusiastas comienzan a aparecer por todas partes en Internet. La mayoría de estos proyectos externos son ambientes de trabajo o macros, y pueden ser fácilmente instalados desde FreeCAD a través del [Gestor de Complementos](AddonManager/es.md) situado en el menú **Herramientas**. El gestor de complementos te permitirá instalar muchos componentes interesantes, por ejemplo:
 

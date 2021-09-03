@@ -17,8 +17,8 @@ Der **Std AnsichtIsometrisch**-Befehl richtet die Kamera in der aktiven [3D-Ansi
 
 1.  Es gibt verschiedene Wege, den Befehl umzusetzen:
     -   Die **<img src="images/Std_ViewIsometric.svg" width=16px> [Std Isometrische Ansicht auswählen (0)](Std_ViewIsometric/de.md)**-Schaltfläche betätigen.
-    -   Den Menüpunkt {{MenuCommand|Ansicht → Standardansichten → Axonometrisch → Isometrisch}} aus dem Menü wählen.
-    -   Den Menüpunkt {{MenuCommand|Standardansichten → Axonometrisch → Isometrisch}} aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
+    -   Den Menüpunkt **Ansicht → Standardansichten → Axonometrisch → Isometrisch** aus dem Menü wählen.
+    -   Den Menüpunkt **Standardansichten → Axonometrisch → Isometrisch** aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
     -   Mit dem Tastenkürzel: **0**.
 
 ## Hinweise

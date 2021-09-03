@@ -16,11 +16,11 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 2.  Select one or more objects.
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_AddToGroup.svg" width=16px> [Draft AddToGroup](Draft_AddToGroup.md)** button.
-    -   Select the {{MenuCommand|Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...}} option from the menu.
-    -   Select the {{MenuCommand|Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...}} option from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
+    -   Select the **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...** option from the menu.
+    -   Select the **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...** option from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
 4.  A menu is displayed near the cursor. Do one of the following:
     -   Select the group you want to move the objects to.
-    -   Select {{MenuCommand|Ungroup}} to move the objects out of the group(s) they are in.
+    -   Select **Ungroup** to move the objects out of the group(s) they are in.
 
 ## Notes
 

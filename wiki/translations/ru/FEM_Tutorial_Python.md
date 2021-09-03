@@ -41,9 +41,9 @@
 
 </div>
 
-## Let\'s start {#lets_start}
+## Let\'s start 
 
-### New document and the part to analyze {#new_document_and_the_part_to_analyze}
+### New document and the part to analyze 
 
 
 ```python
@@ -64,7 +64,7 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 #
 ```
 
-### Analysis and analysis objects {#analysis_and_analysis_objects}
+### Analysis and analysis objects 
 
 
 ```python
@@ -112,7 +112,7 @@ analysis_object.addObject(force_constraint)
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:750px ">
 
-### FEM mesh (manual) {#fem_mesh_manual}
+### FEM mesh (manual) 
 
 This section contains the FEM mesh code. Please expand it to view the contents.
 
@@ -452,7 +452,7 @@ analysis_object.addObject(femmesh_obj)
 
 </div>
 
-### FEM mesh (gmsh) {#fem_mesh_gmsh}
+### FEM mesh (gmsh) 
 
 
 ```python
@@ -469,7 +469,7 @@ print(error)
 analysis_object.addObject(femmesh_obj)
 ```
 
-### FEM mesh (netgen) {#fem_mesh_netgen}
+### FEM mesh (netgen) 
 
 
 ```python
@@ -494,7 +494,7 @@ doc.recompute()
 ###
 ```
 
-## Run the analysis {#run_the_analysis}
+## Run the analysis 
 
 To run the analysis using Python, an instance of the `ccxtools` module class `FemToolsCcx` needs to be created. Once this instance has been created, we have two choices when running the analysis:
 
@@ -514,7 +514,7 @@ FemGui.setActiveAnalysis(doc.Analysis)
 ###
 ```
 
-#### All in one {#all_in_one}
+#### All in one 
 
 
 ```python
@@ -527,7 +527,7 @@ fea.run()
 ###
 ```
 
-#### Step by step {#step_by_step}
+#### Step by step 
 
 
 ```python
@@ -553,7 +553,7 @@ else:
 ###
 ```
 
-## Show the results {#show_the_results}
+## Show the results 
 
 
 ```python
@@ -569,9 +569,9 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 ###
 ```
 
-### Additional Information {#additional_information}
+### Additional Information 
 
-#### Scripting FEM mesh objects {#scripting_fem_mesh_objects}
+#### Scripting FEM mesh objects 
 
 ##### Netgen
 
@@ -584,13 +584,13 @@ On the contrary, the GMSH mesh object fully supports python scripting. See the f
 -   <https://forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
 -   forum topic <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
 
-#### Scripting multiple analysis {#scripting_multiple_analysis}
+#### Scripting multiple analysis 
 
 See forum post: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
-#### Scripting results {#scripting_results}
+#### Scripting results 
 
-##### Standard FreeCAD result object {#standard_freecad_result_object}
+##### Standard FreeCAD result object 
 
 See forum posts:
 
@@ -601,7 +601,7 @@ See forum posts:
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → coloring just one element
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → reset all result mesh, show colored displacement magnitude
 
-##### Vtk result object {#vtk_result_object}
+##### Vtk result object 
 
 See forum posts:
 
@@ -610,7 +610,7 @@ See forum posts:
 
 <div class="mw-translate-fuzzy">
 
-##### Консольный режим {#консольный_режим}
+##### Консольный режим 
 
 Запись входного файла в режиме консоли FreeCAD (без графического интерфейса) может быть выполнена в тестовом режиме. См. Сообщение на этом форуме: <https://forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897>.
 

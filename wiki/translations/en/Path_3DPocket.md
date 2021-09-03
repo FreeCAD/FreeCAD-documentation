@@ -11,7 +11,7 @@ This command inserts a path <img alt="" src=images/Path_3DPocket.svg  style="wid
 
 ## Usage
 
-### Creating a 3D Pocket {#creating_a_3d_pocket}
+### Creating a 3D Pocket 
 
 1.  From within a Job, select one or more Faces from the Job Model to include as the Base Geometry.
 2.  Invoke the **<img src="images/Path_3DPocket.svg" width=16px> [Pocket 3D](Path_Pocket_3D.md)** or select ** Path** → **<img src="images/Path_3DPocket.svg" width=16px> [Pocket 3D](Path_Pocket_3D.md)** command from the top menu.
@@ -39,7 +39,7 @@ This command inserts a path <img alt="" src=images/Path_3DPocket.svg  style="wid
 
 ## Properties
 
-### Data Tab {#data_tab}
+### Data Tab 
 
 #### Base
 
@@ -158,7 +158,7 @@ Note: Rotation is not available for 3D Pocket as of 0.19.
 
 -    **Enable Rotation**: Enable rotation to gain access to pockets or areas not normal to Z axis.
 
-#### Start Point {#start_point}
+#### Start Point 
 
 -    **Start Point**: The custom start point for the path of this operation.
 

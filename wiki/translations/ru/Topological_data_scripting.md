@@ -7,12 +7,12 @@
 
 Здесь мы объясним вам, как управлять [верстаком Part](Part_Workbench/ru.md) непосредственно из интерпретатора Python FreeCAD или из любого внешнего сценария. Основы создания сценариев топологических данных описаны в [объяснение концепции модуля Part](Part_Workbench/ru#Explaining_the_concepts.md). Обязательно просмотрите раздел [Scripting](Scripting/ru.md) и страницы [Основы скриптинга FreeCAD](FreeCAD_Scripting_Basics/ru.md), если вам нужна дополнительная информация о том, как работает python-скриптинг во FreeCAD .
 
-### Смотрите также {#смотрите_также}
+### Смотрите также 
 
 -   [Part scripting](Part_scripting.md)
 -   [OpenCASCADE](OpenCASCADE.md)
 
-## Диаграмма классов {#диаграмма_классов}
+## Диаграмма классов 
 
 Это обзор наиболее важных классов модуля Part через [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language): ![Классы Python, содержащиеся в модуле Part](images/Part_Classes.jpg ) {{Top}}
 
@@ -51,7 +51,7 @@
 
 {{Top}}
 
-## Примеры: Создание простейшей топологии {#примеры_создание_простейшей_топологии}
+## Примеры: Создание простейшей топологии 
 
 ![Wire](images/Wire.png )
 
@@ -66,7 +66,7 @@
 
 {{Top}}
 
-### Создание геометрии {#создание_геометрии}
+### Создание геометрии 
 
 
 <div class="mw-translate-fuzzy">
@@ -123,7 +123,7 @@ L2 = Part.LineSegment(V3, V4)
 
 {{Top}}
 
-### Соединяем все вместе {#соединяем_все_вместе}
+### Соединяем все вместе 
 
 
 <div class="mw-translate-fuzzy">
@@ -141,7 +141,7 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 {{Top}}
 
-### Создание призмы {#создание_призмы}
+### Создание призмы 
 
 Теперь вытягиваем ломанную по направлению и фактически получаем 3D форму:
 
@@ -154,7 +154,7 @@ P = W.extrude(Base.Vector(0, 0, 10))
 
 {{Top}}
 
-### Показать всё {#показать_всё}
+### Показать всё 
 
 
 ```python
@@ -164,7 +164,7 @@ Part.show(P)
 
 {{Top}}
 
-## Создание простых фигур {#создание_простых_фигур}
+## Создание простых фигур 
 
 Вы легко можете создавать простые топологические объекты с помощью методов `make...()` содержащихся в модуле Part:
 
@@ -197,7 +197,7 @@ Part.show(b)
 
 {{Top}}
 
-### Импорт необходимых модулей {#импорт_необходимых_модулей}
+### Импорт необходимых модулей 
 
 В начале нам нужно импортировать модуль Part, чтобы мы могли использовать его содержимое в Python. Также импортируем модуль Base из модуля FreeCAD:
 
@@ -210,7 +210,7 @@ from FreeCAD import Base
 
 {{Top}}
 
-### Создание вектора {#создание_вектора}
+### Создание вектора 
 
 
 <div class="mw-translate-fuzzy">
@@ -243,7 +243,7 @@ print(myVertex.Point)
 
 {{Top}}
 
-### Создание ребра {#создание_ребра}
+### Создание ребра 
 
 Ребра это не что иное, как линия с двумя вершинами:
 
@@ -277,7 +277,7 @@ edge.CenterOfMass
 
 {{Top}}
 
-### Вывод фигуры на экран {#вывод_фигуры_на_экран}
+### Вывод фигуры на экран 
 
 До сих пор мы создали объект ребро, но не увидели его на экране. Это связано с тем, что 3D-сцена FreeCAD отображает только то, что указано для отображения. Для этого мы используем этот простой метод:
 
@@ -297,7 +297,7 @@ Part.show(edge)
 
 {{Top}}
 
-### Создание ломанной кривой {#создание_ломанной_кривой}
+### Создание ломанной кривой 
 
 Ломаная представляет собой многогранную линию и может быть создан из списка ребер или даже из списка ломаных:
 
@@ -338,7 +338,7 @@ wire2.isClosed()
 
 {{Top}}
 
-### Создание грани {#создание_грани}
+### Создание грани 
 
 Только грани, созданные из замкнутых ломаных, будут действительными. В этом примере wire3 является замкнутой ломаной, но wire2 не является замкнутым (см. выше)
 
@@ -360,7 +360,7 @@ sface.isValid()
 
 Только грани имеют поверхность, а ломанные и ребра нет. {{Top}}
 
-### Создание окружности {#создание_окружности}
+### Создание окружности 
 
 Окружность может быть создана, например так:
 
@@ -412,7 +412,7 @@ degrees = math.degrees(radians)
 
 {{Top}}
 
-### Создать дугу по точкам {#создать_дугу_по_точкам}
+### Создать дугу по точкам 
 
 
 <div class="mw-translate-fuzzy">
@@ -448,7 +448,7 @@ arc = Part.Arc(circle,0,pi)
 
 Дуги являются действительными ребрами, такими как линии, поэтому их можно использовать и в ломаных линиях. {{Top}}
 
-### Создать многоугольник (полигон) {#создать_многоугольник_полигон}
+### Создать многоугольник (полигон) 
 
 
 <div class="mw-translate-fuzzy">
@@ -466,7 +466,7 @@ lshape_wire = Part.makePolygon([Base.Vector(0, 5, 0), Base.Vector(0, 0, 0), Base
 
 {{Top}}
 
-### Создание кривой Безье {#создание_кривой_безье}
+### Создание кривой Безье 
 
 
 <div class="mw-translate-fuzzy">
@@ -488,7 +488,7 @@ def makeBCurveEdge(Points):
 
 {{Top}}
 
-### Создание плоскости {#создание_плоскости}
+### Создание плоскости 
 
 
 <div class="mw-translate-fuzzy">
@@ -527,7 +527,7 @@ BoundBox является параллелепипед вмещающих пло
 
 {{Top}}
 
-### Создание эллипса {#создание_эллипса}
+### Создание эллипса 
 
 Эллипс можно создать несколькими способами:
 
@@ -616,7 +616,7 @@ Part.show(eli.toShape())
 
 {{Top}}
 
-### Создание тора {#создание_тора}
+### Создание тора 
 
 
 <div class="mw-translate-fuzzy">
@@ -664,7 +664,7 @@ tor=Part.makeTorus(10, 5, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 0, 360, 18
 
 {{Top}}
 
-### Создание параллелепипеда или кубоида {#создание_параллелепипеда_или_кубоида}
+### Создание параллелепипеда или кубоида 
 
 
 <div class="mw-translate-fuzzy">
@@ -684,7 +684,7 @@ len(box.Vertexes)
 
 {{Top}}
 
-### Создание сферы {#создание_сферы}
+### Создание сферы 
 
 
 <div class="mw-translate-fuzzy">
@@ -703,7 +703,7 @@ hemisphere = Part.makeSphere(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), -90
 
 {{Top}}
 
-### Создание цилиндра {#создание_цилиндра}
+### Создание цилиндра 
 
 
 <div class="mw-translate-fuzzy">
@@ -722,7 +722,7 @@ partCylinder = Part.makeCylinder(5, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0,
 
 {{Top}}
 
-### Cоздание конуса {#cоздание_конуса}
+### Cоздание конуса 
 
 
 <div class="mw-translate-fuzzy">
@@ -741,13 +741,13 @@ semicone = Part.makeCone(10, 0, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0, 1),
 
 {{Top}}
 
-## Modify shapes {#modify_shapes}
+## Modify shapes 
 
 There are several ways to modify shapes. Some are simple transformation operations such as moving or rotating shapes, others are more complex, such as unioning and subtracting one shape from another. {{Top}}
 
-## Transform operations {#transform_operations}
+## Transform operations 
 
-### Translate a shape {#translate_a_shape}
+### Translate a shape 
 
 Translating is the act of moving a shape from one place to another. Any shape (edge, face, cube, etc\...) can be translated the same way: 
 ```python
@@ -755,14 +755,14 @@ myShape = Part.makeBox(2, 2, 2)
 myShape.translate(Base.Vector(2, 0, 0))
 ``` This will move our shape \"myShape\" 2 units in the X direction. {{Top}}
 
-### Rotate a shape {#rotate_a_shape}
+### Rotate a shape 
 
 To rotate a shape, you need to specify the rotation center, the axis, and the rotation angle: 
 ```python
 myShape.rotate(Base.Vector(0, 0, 0),Base.Vector(0, 0, 1), 180)
 ``` The above code will rotate the shape 180 degrees around the Z Axis. {{Top}}
 
-### Matrix transformations {#matrix_transformations}
+### Matrix transformations 
 
 A matrix is a very convenient way to store transformations in the 3D world. In a single matrix, you can set translation, rotation and scaling values to be applied to an object. For example: 
 ```python
@@ -781,7 +781,7 @@ myShape.transformShape(myMat)
 myShape.transformGeometry(myMat)
 ```{{Top}}
 
-### Scale a shape {#scale_a_shape}
+### Scale a shape 
 
 Scaling a shape is a more dangerous operation because, unlike translation or rotation, scaling non-uniformly (with different values for X, Y and Z) can modify the structure of the shape. For example, scaling a circle with a higher value horizontally than vertically will transform it into an ellipse, which behaves mathematically very differently. For scaling, we cannot use the `transformShape()`, we must use `transformGeometry()`: 
 ```python
@@ -790,12 +790,12 @@ myMat.scale(2, 1, 1)
 myShape=myShape.transformGeometry(myMat)
 ```{{Top}}
 
-## Булевы Операции {#булевы_операции}
+## Булевы Операции 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Как вырезать одну форму из других? {#как_вырезать_одну_форму_из_других}
+#### Как вырезать одну форму из других? 
 
 cut(\...) - Вычисление различий задано в топологическом классе shape.
 
@@ -812,7 +812,7 @@ diff = cylinder.cut(sphere)
 
 <div class="mw-translate-fuzzy">
 
-#### Как получить пересечение двух форм? {#как_получить_пересечение_двух_форм}
+#### Как получить пересечение двух форм? 
 
 Тем же способом, пересечение между двумя фигурами называется \"common(\...)\" (пересечение задано в топологическом классе shape) и делается так:
 
@@ -829,7 +829,7 @@ common = cylinder1.common(cylinder2)
 
 <div class="mw-translate-fuzzy">
 
-#### Как объединить две формы? {#как_объединить_две_формы}
+#### Как объединить две формы? 
 
 fuse(\...) - Объединение задано в топологическом классе shape
 
@@ -846,7 +846,7 @@ fuse = cylinder1.fuse(cylinder2)
 
 <div class="mw-translate-fuzzy">
 
-#### Как получить сечение тела и заданной формы? {#как_получить_сечение_тела_и_заданной_формы}
+#### Как получить сечение тела и заданной формы? 
 
 Section это пересечение твердого тела и плоской фигуры (сечение задано в топологическом классе shape). Вернет секущую кривую, составную кривую, состоящую из ребер.
 
@@ -903,7 +903,7 @@ cylinder = disc.extrude(Base.Vector(0, 0, 2))
 
 <div class="mw-translate-fuzzy">
 
-## Исследование Форм {#исследование_форм}
+## Исследование Форм 
 
 Вы легко можете исследовать структуру топологических данных:
 
@@ -941,7 +941,7 @@ v.Point
 
 <div class="mw-translate-fuzzy">
 
-### Исследование Рёбер {#исследование_рёбер}
+### Исследование Рёбер 
 
 В случае ребра, которое является произвольной кривой, вы наверняка захотите произвести дискретизицию. В FreeCAD ребра задаются с помощью параметра длинны. Это означает что вы можете перемещатся вдоль ребра/кривой задавая длинну:
 
@@ -983,7 +983,7 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 <div class="mw-translate-fuzzy">
 
-### Использование выделения(выбора) {#использование_выделениявыбора}
+### Использование выделения(выбора) 
 
 Здесь мы увидим как можно использовать \"выделение\", которое пользователь сделал в программе просмотра. прежде всего мы создадим блок и отобразим его в окне просмотра.
 
@@ -1028,7 +1028,7 @@ print("Length of the selected edges: ", length)
 
 <div class="mw-translate-fuzzy">
 
-## Полный пример: бутыль OCC {#полный_пример_бутыль_occ}
+## Полный пример: бутыль OCC 
 
 Типовой пример, взятый на [OpenCasCade Technology Tutorial](http://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html#sec1) - это как построить бутыль. Это отличный пример и для FreeCAD. В самом деле, если последуете нашему примеру изложенному ниже и странице OCC одновременно, вы лучше поймете как структуры OCC реализованы в FreeCAD. Готовый сценарий описанный ниже, также включен в установленный FreeCAD (в папке Mod/Part) и может быть вызван интерпретатором python, вводом:
 
@@ -1046,7 +1046,7 @@ Part.show(bottle)
 
 <div class="mw-translate-fuzzy">
 
-### Готовый сценарий {#готовый_сценарий}
+### Готовый сценарий 
 
 Здесь представлен готовый сценарий MakeBottle:
 
@@ -1101,7 +1101,7 @@ el = makeBottleTut()
 Part.show(el)
 ```{{Top}}
 
-### Подробные объяснения {#подробные_объяснения}
+### Подробные объяснения 
 
 
 ```python
@@ -1228,7 +1228,7 @@ el = makeBottleTut()
 Part.show(el)
 ``` В итоге мы вызываем функцию для фактического создания детали, а потом делаем её видимой. {{Top}}
 
-## Example: Pierced box {#example_pierced_box}
+## Example: Pierced box 
 
 Here is a complete example of building a pierced box.
 
@@ -1280,7 +1280,7 @@ cut_part = mySolid.cut(myCyl)
 Part.show(cut_part)
 ```{{Top}}
 
-## Загрузка и Сохранение {#загрузка_и_сохранение}
+## Загрузка и Сохранение 
 
 
 <div class="mw-translate-fuzzy">

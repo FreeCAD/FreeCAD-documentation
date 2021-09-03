@@ -21,7 +21,7 @@ Il modulo <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Imma
 -   L\'immagine viene importata con una relazione di 1 pixel in 1 millimetro.
 -   La raccomandazione è di importare un\'immagine con una risoluzione ragionevole.
 
-## Flusso di lavoro {#flusso_di_lavoro}
+## Flusso di lavoro 
 
 Un uso importante di questo ambiente è il tracciamento sull\'immagine, con gli strumenti di [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), per generare un corpo solido basato sui contorni dell\'immagine.
 

@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Cuvânt înainte {#cuvânt_înainte}
+## Cuvânt înainte 
 
 
 <div class="mw-translate-fuzzy">
@@ -51,7 +51,7 @@ Mai întâi de toate, descărcați și instalați FreeCAD. Consultați pagina [D
 
 <div class="mw-translate-fuzzy">
 
-## Explorarea aplicației FreeCAD {#explorarea_aplicației_freecad}
+## Explorarea aplicației FreeCAD 
 
 
 </div>
@@ -113,7 +113,7 @@ Pagina de Start vă permite să vă îndreptaţi rapid către unul atelierele ob
 
 </div>
 
-## Navigarea în spatiul 3D {#navigarea_în_spatiul_3d}
+## Navigarea în spatiul 3D 
 
 
 <div class="mw-translate-fuzzy">
@@ -177,7 +177,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 Exista moduri de vizualizare predefinite (de sus, din fata, etc) ce se schimba folosind meniul Vizualizare, comenzile din bara de unelte Vizualizare sau scurtaturile numerice (**1**, **2**, etc\...) . Făcând clic dreapta pe un obiect sau pe o zonă goală a vizualizării 3D, aveți acces rapid la unele operații comune, cum ar fi setarea unei anumite vizualizări sau localizarea unui obiect în vizualizarea tip Arbore.
 
-## Primii paşi în FreeCAD {#primii_paşi_în_freecad}
+## Primii paşi în FreeCAD 
 
 Aplicația FreeCAD este de a vă permite să realizați modele 3D de înaltă precizie, să păstrați controlul strict al acestor modele (să reveniți la istoricul de modelare și să modificați parametrii) și să construiți aceste modele (prin imprimare 3D, prelucrare CNC sau chiar în construcții civile). Prin urmare, este foarte diferit de alte aplicații 3D realizate în alte scopuri, cum ar fi filmul de animație sau jocurile de noroc. Curba de învățare poate fi abruptă, mai ales dacă acesta este primul dvs. contact cu modelarea 3D. Dacă vă înpotmoliți într-un anumit moment, nu uitați că există o comunitate prietenoasă a utilizatorilor de pe forumul [FreeCAD](http://forum.freecadweb.org/index.php) care ar putea să vă aducă în cel mai scurt timp pe linia de plutire.
 
@@ -197,7 +197,7 @@ Puteți comuta atelirele în orice moment, și de asemenea [customize](Interface
 
 </div>
 
-## Folosirea panourilor Proiectare componente (PartDesign) şi Schiţă {#folosirea_panourilor_proiectare_componente_partdesign_şi_schiţă}
+## Folosirea panourilor Proiectare componente (PartDesign) şi Schiţă 
 
 
 <div class="mw-translate-fuzzy">
@@ -233,7 +233,7 @@ Care vă dă un obiect ca acesta:
 
 În orice moment, puteți selecta schițele originale și le puteți modifica sau puteți schimba parametrii de extrudare ai operațiilor de blocare sau buzunar, care vor actualiza obiectul final.
 
-## Lucrând cu atelierele Desen 2D și Arhitectură {#lucrând_cu_atelierele_desen_2d_și_arhitectură}
+## Lucrând cu atelierele Desen 2D și Arhitectură 
 
 
 <div class="mw-translate-fuzzy">
@@ -311,7 +311,7 @@ Iar, la sfârşit, să remarcăm că una dintre cele mai puternice caracteristic
 
 <div class="mw-translate-fuzzy">
 
-## Ce e nou {#ce_e_nou}
+## Ce e nou 
 
 
 </div>

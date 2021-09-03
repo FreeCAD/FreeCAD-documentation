@@ -23,7 +23,7 @@ Der PartDesign Arbeitsbereich in FreeCAD v0.17 enthält neue Werkzeuge und Eleme
 
 ## Begrenzungen
 
--   Überprüfe vor dem Start des Migrationsprozesses, ob das Modell mit aktivierten automatischen Verfeinerungsoptionen erstellt wurde (unter {{MenuCommand|Bearbeiten → Voreinstellungen → Part Design → Allgemein}}) und lege deine Einstellungen entsprechend fest. Dies kann leicht bestimmt werden, indem nacheinander die Sichtbarkeit der Merkmale in der Modellstruktur umgeschaltet wird. Wenn keine verbleibenden Kanten zwischen Formelementen wie Polster und Taschen verbleiben, wurden die automatischen Verfeinerungsoptionen deaktiviert.
+-   Überprüfe vor dem Start des Migrationsprozesses, ob das Modell mit aktivierten automatischen Verfeinerungsoptionen erstellt wurde (unter **Bearbeiten → Voreinstellungen → Part Design → Allgemein**) und lege deine Einstellungen entsprechend fest. Dies kann leicht bestimmt werden, indem nacheinander die Sichtbarkeit der Merkmale in der Modellstruktur umgeschaltet wird. Wenn keine verbleibenden Kanten zwischen Formelementen wie Polster und Taschen verbleiben, wurden die automatischen Verfeinerungsoptionen deaktiviert.
 -   Wenn ein zu migrierendes Dokument nur Skizzen und PartDesign Formelemente enthält, ist der Migrationsprozess wahrscheinlich erfolgreich. Einige Funktionen wie Fasen und Verrundungen müssen möglicherweise neu erstellt werden.
 -   Wenn das zu migrierende Dokument einen gemischten Teil- / Teileentwurf / Entwurf Arbeitsablauf aufweist, wird die Konvertierung wahrscheinlich fehlschlagen oder bestenfalls zu unerwarteten Ergebnissen führen und muss manuell migriert werden.
 

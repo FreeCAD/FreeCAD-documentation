@@ -24,7 +24,7 @@ Après certaines opérations booléennes, comme [Part Union](Part_Fuse/fr.md), c
 ## Utilisation
 
 1.  Sélectionnez un objet que vous souhaitez nettoyer et copier.
-2.  Cliquez sur le menu {{MenuCommand|Pièce → Créer une copie → <img src="images/Part_RefineShape.svg" width=16px> Affiner la forme}}.
+2.  Cliquez sur le menu **Pièce → Créer une copie → <img src="images/Part_RefineShape.svg" width=16px> Affiner la forme**.
 3.  Une copie nettoyée et indépendante de l\'objet original est créée. L\'objet original est rendu invisible.
 
 Depuis la {{VersionPlus/fr|0.19}}, le résultat est par défaut une copie paramétrique (liée).

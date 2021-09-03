@@ -27,7 +27,7 @@ See [Property](Property.md) for all property types that scripted objects can hav
 
 A [Part Part2DObject](Part_Part2DObject.md) (`Part::Part2DObject` class) is derived from a [Part Feature](Part_Feature.md) (`Part::Feature` class), therefore it shares all the latter\'s properties.
 
-In addition to the properties described in [Part Feature](Part_Feature.md), the Part Part2DObject has the following properties in the [property editor](property_editor.md). Hidden properties can be shown by using the {{MenuCommand|Show all}} command in the context menu of the [property editor](property_editor.md).
+In addition to the properties described in [Part Feature](Part_Feature.md), the Part Part2DObject has the following properties in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
 ### Data
 
@@ -44,7 +44,7 @@ The following two properties are normally hidden. They become visible once **Map
 
 -    **Attachment Offset|Placement**: the position of the object in the [3D view](3D_view.md), with respect to the attachment object\'s placement. The placement is defined by a `Base` point (vector), and a `Rotation` (axis and angle). See [Placement](Placement.md).
 
-#### Hidden properties Data {#hidden_properties_data}
+#### Hidden properties Data 
 
 
 {{TitleProperty|Base}}
@@ -75,7 +75,7 @@ The following two properties are normally hidden. They become visible once **Map
 
 -    **Tight Grid|Bool**: if `True` (default) the local grid will be localized around the origin of the shape, otherwise it will extend itself more.
 
-#### Hidden properties View {#hidden_properties_view}
+#### Hidden properties View 
 
 
 {{TitleProperty|Base}}

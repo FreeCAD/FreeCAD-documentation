@@ -41,7 +41,7 @@
 
 Standard, keine Referenz gewählt.
 
-#### Normal zur Kante {#normal_zur_kante}
+#### Normal zur Kante 
 
 Das Objekt wird senkrecht zur Kante gemacht. Eine optionale Knotenreferenz definiert die Position.
 
@@ -51,7 +51,7 @@ Das Objekt wird senkrecht zur Kante gemacht. Eine optionale Knotenreferenz defin
 :   Kante, Knoten
 :   Knoten, Kante
 
-#### Ausrichten O-N-X {#ausrichten_o_n_x}
+#### Ausrichten O-N-X 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet dann die Normalen und die horizontalen Achsen der Ebene am Knoten/an der Linie aus.
 
@@ -64,7 +64,7 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Knoten
 :   Knoten, Kante
 
-#### Ausrichten O-N-Y {#ausrichten_o_n_y}
+#### Ausrichten O-N-Y 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet seine Normalen und vertikalen Achsen in Richtung Knoten/Linie aus.
 
@@ -77,7 +77,7 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Knoten
 :   Knoten, Kante
 
-#### Ausrichten O-X-Y {#ausrichten_o_x_y}
+#### Ausrichten O-X-Y 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet die horizontalen und vertikalen Achsen des Objekts am Knoten/an der Linie aus.
 
@@ -90,7 +90,7 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Knoten
 :   Knoten, Kante
 
-#### Ausrichten O-X-N {#ausrichten_o_x_n}
+#### Ausrichten O-X-N 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet seine horizontale Ebenenachse und seine Normale am Knoten bzw. entlang der Linie aus.
 
@@ -103,7 +103,7 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Knoten
 :   Knoten, Kante
 
-#### Ausrichten O-Y-N {#ausrichten_o_y_n}
+#### Ausrichten O-Y-N 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet die vertikale Achse und die Normale des Objekts am Knoten/an der Linie aus.
 
@@ -116,7 +116,7 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Knoten
 :   Knoten, Kante
 
-#### Ausrichten O-Y-X {#ausrichten_o_y_x}
+#### Ausrichten O-Y-X 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet die vertikalen und horizontalen Achsen des Objekts am Knoten/an der Linie aus.
 
@@ -129,7 +129,7 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Knoten
 :   Knoten, Kante
 
-#### Ursprung versetzen {#ursprung_versetzen}
+#### Ursprung versetzen 
 
 Der Objektursprung wird am entsprechenden Knoten ausgerichtet. Die Ausrichtung wird durch die Eigenschaft [Platzierung](Placement/de.md) gesteuert.
 
@@ -137,7 +137,7 @@ Der Objektursprung wird am entsprechenden Knoten ausgerichtet. Die Ausrichtung w
 
 :   Knoten.
 
-#### Objekt XY {#objekt_xy}
+#### Objekt XY 
 
 Die Ebene wird an der lokalen XY Fläche des verknüpften Objekts ausgerichtet.
 
@@ -145,7 +145,7 @@ Die Ebene wird an der lokalen XY Fläche des verknüpften Objekts ausgerichtet.
 
 :   Alle, Konisch.
 
-#### Objekt XZ {#objekt_xz}
+#### Objekt XZ 
 
 Die Ebene wird an der lokalen XZ Fläche des verknüpften Objekts ausgerichtet.
 
@@ -153,7 +153,7 @@ Die Ebene wird an der lokalen XZ Fläche des verknüpften Objekts ausgerichtet.
 
 :   Alle, Konisch.
 
-#### Objekt XZ {#objekt_xz_1}
+#### Objekt XZ 
 
 Die Ebene wird an der lokalen YZ Ebene des verknüpften Objekts ausgerichtet.
 
@@ -161,7 +161,7 @@ Die Ebene wird an der lokalen YZ Ebene des verknüpften Objekts ausgerichtet.
 
 :   Alle, Konisch.
 
-#### Ebene Fläche {#ebene_fläche}
+#### Ebene Fläche 
 
 Die Ebene wird zur ebenen Fläche deckungsgleich ausgerichtet.
 
@@ -169,7 +169,7 @@ Die Ebene wird zur ebenen Fläche deckungsgleich ausgerichtet.
 
 :   Ebene
 
-#### Tangente zur Oberfläche {#tangente_zur_oberfläche}
+#### Tangente zur Oberfläche 
 
 Die Ebene wird im Knoten tangential zur Oberfläche gemacht.
 
@@ -178,7 +178,7 @@ Die Ebene wird im Knoten tangential zur Oberfläche gemacht.
 :   Fläche, Knoten
 :   Knoten, Fläche
 
-#### Frenet NB {#frenet_nb}
+#### Frenet NB 
 
 Ebene wird auf normal-binormale (NB) Achsen von [Frenet-Serret Koordinaten](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) an den Punkt der Kantenkurve gesetzt, der dem Knoten am nächsten liegt (oder durch die MapPathParameter Eigenschaft definiert wird, wenn der Knoten nicht verknüpft ist). Der Objektursprung wird auf den Knoten übersetzt, wenn der Knoten zuerst liegt, oder auf der Kurve gehalten, wenn die Kante zuerst liegt. Dieser Modus ist ähnlich wie *Normal zur Kante*, außer dass die X Achse wohldefiniert ist.
 
@@ -189,7 +189,7 @@ Ebene wird auf normal-binormale (NB) Achsen von [Frenet-Serret Koordinaten](http
 :   Knoten, Kurve
 :   <img alt="" src=images/Attacher_mode_FrenetNB.png  style="width:250px;">
 
-#### Frenet TN {#frenet_tn}
+#### Frenet TN 
 
 Ebene wird auf tangentig-normale (TN) Achsen von [Frenet-Serret Koordinaten](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) an den Punkt der Kurve der Kante gesetzt, die dem Knoten am nächsten liegt (oder durch die MapPathParameter Eigenschaft definiert wird, wenn der Knoten nicht verknüpft ist). Der Ursprung der Skizze wird auf den Knoten übersetzt, wenn der Knoten zuerst liegt, oder auf der Kurve gehalten, wenn die Kante zuerst liegt. Wenn die Kurve planar ist, ist die Skizzierebene effektiv die Ebene der Kurve.
 
@@ -200,7 +200,7 @@ Ebene wird auf tangentig-normale (TN) Achsen von [Frenet-Serret Koordinaten](htt
 :   Knoten, Kurve
 :   <img alt="" src=images/Attacher_mode_FrenetTN.png  style="width:250px;">
 
-#### Frenet TB {#frenet_tb}
+#### Frenet TB 
 
 Ebene wird auf tangential-binormale (TB) Achsen von [Frenet-Serret Koordinaten](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) an den Punkt der Kantenkurve festgelegt, der dem Knoten am nächsten liegt (oder durch die MapPathParameter Eigenschaft definiert wird, wenn der Knoten nicht verknüpft ist). Der Ursprung der Skizze wird auf den Knoten übersetzt, wenn der Knoten zuerst liegt, oder auf der Kurve gehalten, wenn die Kante zuerst liegt.
 
@@ -224,7 +224,7 @@ Richtet sich an der Ebene zum Schmiegungskreis einer Kante aus. Optionale Knoten
 :   Knoten, Kurve
 :   Knoten, Kreis
 
-#### Drehung Abschnitt {#drehung_abschnitt}
+#### Drehung Abschnitt 
 
 Die Ebene steht senkrecht zur Kante, und die Y Achse ist mit der Achse des Schmiegungskreises abgestimmt. Optionale Knoten Verbindung definiert, wo.
 
@@ -237,7 +237,7 @@ Die Ebene steht senkrecht zur Kante, und die Y Achse ist mit der Achse des Schmi
 :   Knoten, Kurve
 :   Knoten, Kreis
 
-#### Ebene durch 3 Punkte {#ebene_durch_3_punkte}
+#### Ebene durch 3 Punkte 
 
 Richtet die XY Ebene so aus, dass sie durch drei Knoten verläuft.
 
@@ -248,7 +248,7 @@ Richtet die XY Ebene so aus, dass sie durch drei Knoten verläuft.
 :   Knoten, Linie
 :   Linie, Linie
 
-#### Normale zu 3 Punkten {#normale_zu_3_punkten}
+#### Normale zu 3 Punkten 
 
 Richtet die Ebene so aus, dass sie durch die ersten beiden Knoten verläuft und senkrecht zu der Ebene, die durch 3 Knoten verläuft.
 
@@ -268,7 +268,7 @@ Spezialmodus zum Falten von Polyedern. Wähle 4 Kanten in der Reihenfolge: faltb
 :   Linie, Linie, Linie, Linie
 :   ![ 250px](images/Attacher_mode_Folding.png )
 
-#### Trägheit 2-3 {#trägheit_2_3}
+#### Trägheit 2-3 
 
 Das Objekt wird an einer Ebene befestigt, welche durch die zweite und dritte Hauptträgheitsachse (Massenschwerpunkt) verläuft.
 

@@ -25,7 +25,7 @@ Constrângerea de unghi este o [datum constraint](Sketcher_Workbench#Sketcher_Co
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 Sunt patru căi diferite pentru ca această constrângere să fie aplicată:
 
@@ -61,16 +61,16 @@ Ca și în cazul oricărei constrângeri de referință, este posibil să modifi
 
 <div class="mw-translate-fuzzy">
 
-## Moduri de Constrângere {#moduri_de_constrângere}
+## Moduri de Constrângere 
 
-### linie pantă unghi {#linie_pantă_unghi}
+### linie pantă unghi 
 
 **Accepted selection:** linie
 
 
 </div>
 
-### Line slope angle {#line_slope_angle}
+### Line slope angle 
 
 **Accepted selection:** line
 
@@ -78,12 +78,12 @@ Ca și în cazul oricărei constrângeri de referință, este posibil să modifi
 
 Constrângerea stabilește unghiul polar al direcției liniei. Este unghiul dintre linie și axa X a schiței.
 
-### Arc span (v0.15) {#arc_span_v0.15}
+### Arc span (v0.15) 
 
 
 <div class="mw-translate-fuzzy">
 
-### arc span (v0.15) {#arc_span_v0.15_1}
+### arc span (v0.15) 
 
 **Accepted selection:** arc de cerc
 
@@ -94,12 +94,12 @@ Constrângerea stabilește unghiul polar al direcției liniei. Este unghiul dint
 
 In acest mod, constrângerea fixată unghiulară a unui arc circular.
 
-### Between lines {#between_lines}
+### Between lines 
 
 
 <div class="mw-translate-fuzzy">
 
-### between lines {#between_lines_1}
+### between lines 
 
 **Accepted selection:** line + line
 
@@ -110,12 +110,12 @@ In acest mod, constrângerea fixată unghiulară a unui arc circular.
 
 În acest mod, constrângerea stabilește unghiul dintre două linii. Nu este necesar ca liniile să se intersecteze.
 
-### Between curves at intersection (angle-via-point) (v0.15) {#between_curves_at_intersection_angle_via_point_v0.15}
+### Between curves at intersection (angle-via-point) (v0.15) 
 
 
 <div class="mw-translate-fuzzy">
 
-### între curve la interseția (angle-via-point) (v0.15) {#între_curve_la_interseția_angle_via_point_v0.15}
+### între curve la interseția (angle-via-point) (v0.15) 
 
 **Accepted selection:** any line/curve + any line/curve + any point
 

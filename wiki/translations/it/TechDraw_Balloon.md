@@ -33,7 +33,7 @@ Lo strumento Pallinatura aggiunge le bolle con una linea guida in un disegno.
 
 **Note:** The position of the balloon is relative to the View and uses the same scale factor as the View.
 
-## Utilizzo dei separatori {#utilizzo_dei_separatori}
+## Utilizzo dei separatori 
 
 Quando si utilizza una forma rettangolare, si possono aggiungere i separatori utilizzando \"\|\" nel testo. Ad esempio \"AAA\|TEST\|111\" restituisce:
 

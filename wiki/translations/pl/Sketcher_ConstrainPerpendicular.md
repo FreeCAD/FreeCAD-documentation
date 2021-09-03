@@ -26,7 +26,7 @@ Aby zastosować wiązanie prostopadłości, należy wykonać następujące czynn
 -   Wybierz dwie lub trzy pozycje na szkicu.
 -   Wywołaj wiązanie, klikając jego ikonę na pasku narzędzi, wybierając element menu lub używając skrótu klawiaturowego.
 
-### Pomiędzy dwoma krzywymi *(prostopadłość bezpośrednia)* {#pomiędzy_dwoma_krzywymi_prostopadłość_bezpośrednia}
+### Pomiędzy dwoma krzywymi *(prostopadłość bezpośrednia)* 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:600px;">
 
@@ -41,7 +41,7 @@ Jeśli bezpośrednia prostopadłość między wybranymi łukami nie jest obsług
 
 W przeciwieństwie do styczności, rekonstrukcja punktu prostopadłości przez utworzenie punktu i związanie jego położenia na obu łukach *(ograniczając w ten sposób punkt do punktu przecięcia)* jest całkowicie poprawna.
 
-### Między dwoma punktami końcowymi *(prostopadłość między punktami)* {#między_dwoma_punktami_końcowymi_prostopadłość_między_punktami}
+### Między dwoma punktami końcowymi *(prostopadłość między punktami)* 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
 
@@ -51,7 +51,7 @@ W tym trybie zbierzne są punkty końcowe, a połączenie jest wykonane pod kąt
 
 -   punkt końcowy linii/łuku/łuku-ellipsy + punkt końcowy linii/łuku/łuku-ellipsy *(tj. dwa punkty końcowe dowolnych dwóch krzywych)*
 
-### Między krzywą a punktem końcowym *(prostopadłość punktu do krzywej)* {#między_krzywą_a_punktem_końcowym_prostopadłość_punktu_do_krzywej}
+### Między krzywą a punktem końcowym *(prostopadłość punktu do krzywej)* 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
 
@@ -61,7 +61,7 @@ W tym trybie, punkt końcowy jednej krzywej jest związany z położeniem na dru
 
 -   linia, okrąg, łuk, elipsa, łuk elipsy + punkt końcowy linii/łuku/łuku elipsy *(tzn. każda krzywa + punkt końcowy każdej krzywej)*.
 
-### Pomiędzy dwoma krzywymi w punkcie *(prostopadłym do punktu) (v0.15)* {#pomiędzy_dwoma_krzywymi_w_punkcie_prostopadłym_do_punktu_v0.15}
+### Pomiędzy dwoma krzywymi w punkcie *(prostopadłym do punktu) (v0.15)* 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:600px;">
 
@@ -79,7 +79,7 @@ W porównaniu do trybu bezpośredniego prostopadłego, to wiązanie jest wolniej
 
 Umieszczenie punktu przed zastosowaniem wiązania jest wskazówką dla rozwiązania, które określa, gdzie powinna znajdować się prostopadłość.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Ograniczenie prostopadłe może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli Pyton za pomocą następujących narzędzi: 
 ```python

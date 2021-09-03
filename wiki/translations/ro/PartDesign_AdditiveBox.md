@@ -20,7 +20,7 @@ Include o primitivă tip casetă într-un Corp activ (Body) ca prima sa funcțio
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

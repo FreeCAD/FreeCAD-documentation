@@ -10,7 +10,7 @@ Crea un objeto paramétrico Cuña. Esta Cuña se predetermina a un cuadrado más
 
 ## Usage
 
-### Default Size and Placement {#default_size_and_placement}
+### Default Size and Placement 
 
 **Placement:** The default orientation places the base in the XZ plane and the top outward in the Y axis direction. The default base corner is the 0,0,0 origin.
 
@@ -30,7 +30,7 @@ Crea un objeto paramétrico Cuña. Esta Cuña se predetermina a un cuadrado más
 
 ![](images/PartWedgeProperty.png ) 
 
-### Parametric Inputs {#parametric_inputs}
+### Parametric Inputs 
 
 +------------------------------------------------------------------+----------------------------------------------------+
 | ![](images/PartWedgeProperty_Inputs.png ) | Using the default placement, the below inputs are: |
@@ -61,7 +61,7 @@ Crea un objeto paramétrico Cuña. Esta Cuña se predetermina a un cuadrado más
 |                                                                  |     : Top face Z axis span                         |
 +------------------------------------------------------------------+----------------------------------------------------+
 
-### More examples for wedges {#more_examples_for_wedges}
+### More examples for wedges 
 
 ![](images/Wedge_examples.png )
 

@@ -10,7 +10,7 @@
 
 The [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md) tool allows the user to create reinforcing bars inside a Footing [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 ![](images/Isometric_view_of_Columns_footing.png ) *A Example of Footing reinforcement in Footing [Arch Structure](Arch_Structure.md)*
 
@@ -174,7 +174,7 @@ Rebars along y-direction except main rebars
 
 The Footing Reinforcement tool can be used from the [Python](Python.md) console by using the following function:
 
-### Create Footing Reinforcement {#create_footing_reinforcement}
+### Create Footing Reinforcement 
 
 
 ```python
@@ -363,7 +363,7 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `facename`: selected face of structure. Default is None
 
-### Edition of Footing Reinforcement {#edition_of_footing_reinforcement}
+### Edition of Footing Reinforcement 
 
 You can change the properties of the Footing Reinforcement with the following function
 

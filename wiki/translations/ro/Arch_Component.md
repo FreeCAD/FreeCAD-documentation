@@ -23,7 +23,7 @@ Creează o componentă non-parametrică [ Arch](Arch_Workbench.md) din orice obi
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -38,7 +38,7 @@ Creează o componentă non-parametrică [ Arch](Arch_Workbench.md) din orice obi
 
 </div>
 
-## Proprietățile obișnuite ale componentei Arch {#proprietățile_obișnuite_ale_componentei_arch}
+## Proprietățile obișnuite ale componentei Arch 
 
 
 <div class="mw-translate-fuzzy">

@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -36,7 +36,7 @@ Andra DXF föremål importeras för närvarande inte eftersom det inte finns nå
 
 </div>
 
-The importer has two modes, settable under {{MenuCommand|Edit → Preferences → Import/Export → DXF}}: One is built-in, C++-based and fast, the other is legacy, coded in Python, slower, and requires the installation of an add-on, but can sometimes handle some entities better and can create more refined FreeCAD objects. Both support all DXF versions starting from R12.
+The importer has two modes, settable under **Edit → Preferences → Import/Export → DXF**: One is built-in, C++-based and fast, the other is legacy, coded in Python, slower, and requires the installation of an add-on, but can sometimes handle some entities better and can create more refined FreeCAD objects. Both support all DXF versions starting from R12.
 
 3D objects inside a DXF file are stored under a binary ACIS/SAT blob, which at the moment cannot be read by FreeCAD. Simpler entities like 3DFACEs, though, are supported.
 

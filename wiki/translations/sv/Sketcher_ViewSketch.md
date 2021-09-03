@@ -13,7 +13,7 @@ This tool sets the model view perpendicular to the sketch plane. It is useful wh
 While in sketch edit mode, either
 
 -   Click on the **<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [View Sketch](Sketcher_ViewSketch.md)** icon in the Sketcher or Part Design toolbar, or
--   Go to the {{MenuCommand|Sketch → <img src=images/Sketcher_ViewSketch.svg style="width:16px"> View sketch}} menu.
+-   Go to the **Sketch → <img src=images/Sketcher_ViewSketch.svg style="width:16px"> View sketch** menu.
 
 
 

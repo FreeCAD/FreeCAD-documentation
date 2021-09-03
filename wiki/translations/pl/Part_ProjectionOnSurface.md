@@ -49,7 +49,7 @@ Biorąc pod uwagę [kształt](Shape/pl.md), źródłowy narzędzie to może rzut
     -   
         {{RadioButton|TRUE|Wyświetl wszystko}}
         
-        : pokaże wszystkie typy zamkniętych linii i krawędzi na powierzchni docelowej. Jeśli w poprzednim kroku został wybrany element podrzędny \"powierzchnia czołowa\", to w zależności od wartości parametru {{MenuCommand|Wysokość wyciągnięcia}} zostanie pokazany podgląd bryły wyciągniętej z rzutu.
+        : pokaże wszystkie typy zamkniętych linii i krawędzi na powierzchni docelowej. Jeśli w poprzednim kroku został wybrany element podrzędny \"powierzchnia czołowa\", to w zależności od wartości parametru **Wysokość wyciągnięcia** zostanie pokazany podgląd bryły wyciągniętej z rzutu.
 
     -   
         {{RadioButton|TRUE|Pokaż powierzchnie}}
@@ -71,9 +71,9 @@ Uwagi:
 
 ## Opcje
 
--    {{MenuCommand|Wysokość wyciągnięcia}}: jest to wysokość bryły, która zostanie utworzona przez wyciągnięcie rzutowanej powierzchni, od powierzchni docelowej i wzdłuż ujemnej wartości kierunku rzutowania. Na przykład, jeśli kierunek rzutowania jest wzdłuż osi +Y {{Value|(0, 1, 0)}}, to bryła zostanie utworzona w kierunku -Y {{Value|(0, -1, 0)}}. To wyciągnięcie bryły zostanie utworzone tylko wtedy, gdy wybrany element podrzędny był zamkniętą ścianą, po naciśnięciu przycisku **Dodaj powierzchnię** i wybraniu opcji {{RadioButton|TRUE|Wyświetl wszystko}}.
+-    **Wysokość wyciągnięcia**: jest to wysokość bryły, która zostanie utworzona przez wyciągnięcie rzutowanej powierzchni, od powierzchni docelowej i wzdłuż ujemnej wartości kierunku rzutowania. Na przykład, jeśli kierunek rzutowania jest wzdłuż osi +Y {{Value|(0, 1, 0)}}, to bryła zostanie utworzona w kierunku -Y {{Value|(0, -1, 0)}}. To wyciągnięcie bryły zostanie utworzone tylko wtedy, gdy wybrany element podrzędny był zamkniętą ścianą, po naciśnięciu przycisku **Dodaj powierzchnię** i wybraniu opcji {{RadioButton|TRUE|Wyświetl wszystko}}.
 
--    {{MenuCommand|Głębokość bryły}}: jest to odległość, o jaką obiekt rzutowania jest przesuwany wzdłuż kierunku rzutowania. Wartości ujemne spowodują przesunięcie obiektu w przeciwnym kierunku; pozwala to na tworzenie rzutów, które są przesunięte względem powierzchni docelowej.
+-    **Głębokość bryły**: jest to odległość, o jaką obiekt rzutowania jest przesuwany wzdłuż kierunku rzutowania. Wartości ujemne spowodują przesunięcie obiektu w przeciwnym kierunku; pozwala to na tworzenie rzutów, które są przesunięte względem powierzchni docelowej.
 
 ## Ograniczenia
 
@@ -85,7 +85,7 @@ Jeśli tak się stanie:
 -   Sprawdź, czy kierunek rzutowania jest poprawny. Czy powierzchnia źródłowa może być realistycznie rzutowana na powierzchnię docelową? Czy rzut prosty trafiłby w powierzchnię? Ustaw ujęcie widoku tak, aby powierzchnia źródłowa znajdowała się przed powierzchnią docelową, a następnie spróbuj ponownie.
 -   Spróbuj użyć opcji {{RadioButton|TRUE|Wyświetl krawędzie}}. Czy krawędzie są wyświetlane poprawnie? Spróbuj ręcznie odtworzyć krawędzie na powierzchni.
 
-## Odnośniki internetowe {#odnośniki_internetowe}
+## Odnośniki internetowe 
 
 -   Wątek na forum: [Rzutowanie powierzchni czołowych na zagiętą powierzchnię](https://forum.freecadweb.org/viewtopic.php?f=9&t=33700)
 

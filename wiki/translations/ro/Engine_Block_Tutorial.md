@@ -35,7 +35,7 @@ Acesta este un tutorial introductiv de modelare în FreeCAD. Scopul acestui tuto
 
 <div class="mw-translate-fuzzy">
 
-## Demarajul Modelării {#demarajul_modelării}
+## Demarajul Modelării 
 
 Pentru început, deschideți FreeCAD, mergeți la *File-\>New* pentru a crea un document nou, apoi *File-\>Save* pentru a o salva undeva pe computer, mi-am numit proiectul \'Engine\'. Veți observa că după salvarea proiectului, vederea arborescentă *tree view* în partea stângă a ecranului vă va arăta numele proiectului la care lucrați. Puteți avea mai multe proiecte deschise la un moment dat și fiecare proiect va fi afișat ca rădăcină a unui arbore în vizualizarea arborescentă.
 
@@ -45,7 +45,7 @@ Pentru început, deschideți FreeCAD, mergeți la *File-\>New* pentru a crea un 
 
 <div class="mw-translate-fuzzy">
 
-## Degroșarea blocului Motor {#degroșarea_blocului_motor}
+## Degroșarea blocului Motor 
 
 Acum, pentru a începe să lucrați la modelul real. Vom începe prin adăugarea unei casete pentru conturul general al blocului motor. Pentru a face aceasta aven nevoie să adăugăm o piesă *part* la model, mergeți la View-\>Workbench-\>Part pentru a selecta [Part Workbench](Part_Workbench.md). Veți observa că după ce selectați atelierul de lucru, veți obține un set diferit de butoane din bara de instrumente în partea de sus. Treceți prin câteva din celelalte ateliere lucru pentru a vă familiariza cu sistemul de ateliere și apoi pentru a reveni la modulul piese (Part).
 
@@ -55,7 +55,7 @@ Acum, pentru a începe să lucrați la modelul real. Vom începe prin adăugarea
 
 <div class="mw-translate-fuzzy">
 
-### Blocul Motor {#blocul_motor}
+### Blocul Motor 
 
 Pe modulul Piese(Part) veți vedea o grămadă de butoane pentru obiecte primitive geometrice precum casetă, sferă, con, etc. Click pe butonul (<img alt="" src=images/Part_Box.png  style="width:16px;">) pentru a adăuga un cub(palaelipiped ) înj scenă. Fiecare dintre primitivele listate are un set implicit de parametri care se stabilesc atunci când primitivul este adăugat. If you want you can add one of each of the primitives to see what they all look like. Primitives can be removed from the scene by selecting them and pressing the delete key. There are two ways to select objects, you can either left-click on them in the 3D view, or you can left click on them in the tree view. In either method, holding CTRL will let you select multiple items. You can zoom the 3d view with the scroll wheel on your mouse. To pan the view, middle click and drag. To rotate the view you click and hold the middle mouse button and while holding it you *also* push and hold the left mouse button as well, then dragging the mouse will rotate the view. You can also do a single middle click on some part of your 3D object to make the view rotate around that point in 3D space. Also, the numbers 1-6 and the number 0 on the number pad will show you various views of the scene (top, left, axometric, etc). Spend a minute or two getting comfortable with manipulating the 3D view.
 
@@ -95,7 +95,7 @@ Acum, dacă aveți blocul motorului dvs. dimensionat corect, trebuie să îi dă
 
 <div class="mw-translate-fuzzy">
 
-### Primul cilindru {#primul_cilindru}
+### Primul cilindru 
 
 Next we will carve out the first cylinder all the way through the engine block. To do this we will add a cylinder to the model with the size we want to bore out and then do a Boolean operation to \"subtract\" the material away from the block. Click the add cylinder button (<img alt="" src=images/Part_Cylinder.png  style="width:16px;">) to create a new cylinder and then select it in the tree view and set its properties to the following:
 
@@ -118,14 +118,14 @@ Odată ce proprietățile sunt setate corect, ar trebui să vedeți capetele cir
 
 <div class="mw-translate-fuzzy">
 
-### Al Doilea Cilindru {#al_doilea_cilindru}
+### Al Doilea Cilindru 
 
 Am putea face al doilea cilindru la fel ca în primul rând, dar ar fi mult mai ușor să copiem munca pe care am făcut-o pentru aceasta, deoarece singura diferență dintre cele două este coordonatele lor X. To do this, select *Cylinder 1* in the tree view and then go to *Edit-\>Duplicate Selection*. You will see the new cylinder appear in the tree view (name it *Cylinder 2* right away), but you will not see it in the 3D view as it is in the same place as the first cylinder. Now select *Cylinder 2* in the tree view and then change it\'s X coordinate to 100 mm. Notice that even as you are updating the numbers in the data field you should see the cylinder moving in the 3D view. Once the second cylinder is properly positioned you can see what they look like by selecting the *Billet* in the tree view and then pressing *Spacebar* to hide it (notice that hidden objects are grayed out in the tree view). Hide all three objects one by one and then show them all again.
 
 
 </div>
 
-### Găurirea Cilindrilor {#găurirea_cilindrilor}
+### Găurirea Cilindrilor 
 
 <img alt="" src=images/_Engine_Block_Tutorial_-_Bored_Block.png  style="width:300px;">
 
@@ -137,13 +137,13 @@ Acum, că ambii cilindri sunt la locul lor, vrem să îi folosim pentru a găuri
 
 </div>
 
-### Prinicpalel Avantaje ale Modelării Parametrice {#prinicpalel_avantaje_ale_modelării_parametrice}
+### Prinicpalel Avantaje ale Modelării Parametrice 
 
 Acum, când am găurit cilindrii, vom examina a doua oară avantajele acestui sistem. Suppose at some point in the development, we find out that we want the cylinders to be a bit bigger. Since the union and intersection operations we performed were recorded as groupings in the tree view, we can change the cylinder size and FreeCAD will just re-run the union and intersection process and arrive at the new engine size. Play around with the radius and position of the two cylinders a bit and then return them to the parameters quoted above, before continuing the tutorial.
 
-## Carterul Motorului {#carterul_motorului}
+## Carterul Motorului 
 
-### Billet and Bearing Caps {#billet_and_bearing_caps}
+### Billet and Bearing Caps 
 
 
 <div class="mw-translate-fuzzy">
@@ -183,7 +183,7 @@ Rename the resulting *Cut* object to *Carved crankcase*.
 
 <div class="mw-translate-fuzzy">
 
-### Carving out the journals {#carving_out_the_journals}
+### Carving out the journals 
 
 Next we will cut out a semi-circular place for the crankshaft to sit and a space in the crankcase for it to spin. We will start with a cylinder, but the orientation of the default cylinder is vertical, whereas we need a horizontal one. This means we need to figure out how to rotate the cylinder to align it properly with our engine. If you look at the guide axis in the bottom right corner of the 3D window you will see we want the crankshaft to lie along the positive x-axis. This means that from its starting location we need to rotate 90 degrees around an axis parallel to the y-axis of the scene. This tells us what we need to enter the parameters for the cylinder. Create a cylinder called *Crankshaft carve* and give it these properties (notice that now we have to specify the orientation parameters, as well as the regular dimensions we did for the cylinder bores):
 
@@ -203,7 +203,7 @@ Cut the crankshaft carve object away from the *Carved crankcase* and rename the 
 
 </div>
 
-### Finishing out the Crankcase {#finishing_out_the_crankcase}
+### Finishing out the Crankcase 
 
 Lastly we will cut out 2 final boxes so that the piston rods can reach from the crankcase up into the engine block. Make two objects called **Box carve 1** and **Box carve 2** with the following properties; also, you can duplicate **Box carve 1** and just change the X coordinate to get the second carver. Union them into an object called **Box carvers**, and cut this object away from the **Crankcase with journals**, calling the final result **Crankcase**. Remember, you can hide the **Bored block** by selecting it and pushing spacebar so you can see what you are doing.
 
@@ -219,17 +219,17 @@ Lastly we will cut out 2 final boxes so that the piston rods can reach from the 
 
 On the right you can see what the final result should look like. I have fully expanded the tree view so you can see the hierarchy of the boolean operations used to build the device. Remember that you can still dig down into this tree and change cylinder diameters, change the size or position of the crankshaft, etc, without having to rebuild the whole model from scratch. We could continue to carve out the crankcase further but this will be enough for now. Next we will look at using the 2D drafting mode to design the headbolt pattern and cut down on the weight of the engine block by removing much of the unnecessary steel billet that remains around the outside of the cylinders.
 
-## 2D Drafting the Head Gasket Design {#d_drafting_the_head_gasket_design}
+## 2D Drafting the Head Gasket Design 
 
 For the head bolts and the shape of the engine block we will be using more boolean operations to \"carve\" away the parts of the block we don\'t want. However, if we stop to think about it, every head bolt is going to look the same, it will cut all the way down into the crankcase, the only thing different will be where on the top of the head it is located. This means we can simply \"draw\" the shape of the head gasket on the top of the engine, and then use that like a pattern to do the carving we want done.
 
-### Entering 2D Drafting Mode {#entering_2d_drafting_mode}
+### Entering 2D Drafting Mode 
 
-First we need to switch to the 2D Drafting workbench, to do this from part mode you can select *2D Drafting* from the dropdown box at the top that currently says *Part*. If you cannot find the dropdown box (not all workbenches show the dropdown) you can also select a workbench from the {{MenuCommand|View → Workbench}} menu entry. Even though we are doing 2d drawing, we will draw them in the 3D window by telling FreeCAD what plane we want the drawings projected into. After you have selected the 2D Drafting workbench just above the top-right corner of the 3D view and click on the leftmost button which will say one of the following {none, top, front, size, or d(\..., \..., \...)}. Once you click that, the left side of the bar will have a text box for you to enter a plane offset, and 5 buttons: XY, XZ, YZ, View, and None. The first three are the standard top, front, and side views, the *View* entry will use the plane perpendicular to the direction the camera is looking (the camera\'s viewplane), and the last will not project into a plane and let you fully define the XYZ coordinates for every point you draw. We want to set a plane offset of 110 (type it in and press enter) and then click the XY button to project the drawing onto the XY plane, located 110 mm up the Z axis which corresponds to the top of the engine block. Now that we have told FreeCAD what plane to draw in we are ready to start designing the head gasket.
+First we need to switch to the 2D Drafting workbench, to do this from part mode you can select *2D Drafting* from the dropdown box at the top that currently says *Part*. If you cannot find the dropdown box (not all workbenches show the dropdown) you can also select a workbench from the **View → Workbench** menu entry. Even though we are doing 2d drawing, we will draw them in the 3D window by telling FreeCAD what plane we want the drawings projected into. After you have selected the 2D Drafting workbench just above the top-right corner of the 3D view and click on the leftmost button which will say one of the following {none, top, front, size, or d(\..., \..., \...)}. Once you click that, the left side of the bar will have a text box for you to enter a plane offset, and 5 buttons: XY, XZ, YZ, View, and None. The first three are the standard top, front, and side views, the *View* entry will use the plane perpendicular to the direction the camera is looking (the camera\'s viewplane), and the last will not project into a plane and let you fully define the XYZ coordinates for every point you draw. We want to set a plane offset of 110 (type it in and press enter) and then click the XY button to project the drawing onto the XY plane, located 110 mm up the Z axis which corresponds to the top of the engine block. Now that we have told FreeCAD what plane to draw in we are ready to start designing the head gasket.
 
 The last thing to do is set up the 3D view. Even though all the drawings we produce will be projected into our defined 2D plane, we can look at the plane we are drawing on from any angle (including the other side of the plane so we draw \"backwards\"). Since we have told it the plane is the one co-planar to the top of the engine block, we should probably have the 3D view looking at that, or at least roughly in that direction. Press the 2 key on the number pad to look at the top view (notice that on the num pad, adjacent keys are opposite views so 1 and 4 are front-rear, 2 and 5 are top-bottom, and 3 and 6 are right-left). Once you are looking at the engine from the top down, you can center it by dragging the middle mouse button to pan the view. Finally, the 2D drafting mode will allow us to snap parts of the drawing to the corners of the engine block, the center of the cylinders, etc, in order to make this work best we should hide the crankcase so the drawings snap only to the part we are working on (press spacebar to show/hide the selected object).
 
-### Laying Out the Head Bolts {#laying_out_the_head_bolts}
+### Laying Out the Head Bolts 
 
 Now that the proper plane projection and view is set up we add 2d drawing elements in the same way we added primitives. Click the *Add Circle* button (<img alt="" src=images/Draft_Circle.svg  style="width:16px;">) and move your mouse around in the 3D view. You then need to tell FreeCAD the XY location for the center of the circle, and the radius, for both of these measurements you can either enter them with the mouse (following the instructions in the bottom left status bar), or you can type in the values in the text entry boxes that appear above the tree view. Go ahead and add a couple random circles on the top of the engine, as well as a few not on the engine, i.e. just out in the empty space surrounding your view of the engine. After you have done this, rotate the camera around the top of the engine block and look at the circles you drew, notice how they are \"flat\" in the plane we projected them into and this plane lines up with the top of the engine block; this will be important when we extrude the drawing to shape the engine. Now that you see how to add 2D elements you can delete the test circles you added and we will start entering the actual head layout. Note that if your circle disappears inside the engine block, your drawing projection plane is not properly set to XY mode, offset 110 mm.
 
@@ -243,21 +243,21 @@ Now that you see how to easily determine the coordinates of drawing elements you
 
 Name these circles **Bolt 1** through **Bolt 3**.
 
-### The Other Side of the Block {#the_other_side_of_the_block}
+### The Other Side of the Block 
 
 Now that the first three head bolts are in place down one side of the engine we need three more mirrored on the other side, there are three ways we could do this:
 
 -   We could just continue adding circles like we did for the first three and just negate the Y coordinates to put the bolts on the other side of the engine.
--   We could select the three we have added, go to {{MenuCommand|Edit → Duplicate Selection}} and then negate the Y coordinates of the three new circles.
+-   We could select the three we have added, go to **Edit → Duplicate Selection** and then negate the Y coordinates of the three new circles.
 -   We could use the mirror functionality in the Part Workbench.
 
 Since you should already know how to do the first and second way, we will choose the third way for this example model. Each of the three methods has its own advantages and disadvantages, but a good operating rule is that simple models (like this one) probably should use the first or second methods, whereas models with lots of duplication and/or duplication of very complicated shapes/objects should probably use the third method.
 
-So even though it is a bit of overkill we will mirror these bolts as a demonstration. Switch back to the part workbench (note that you can always switch to the *Complete* workbench to see all the tools at once if you would rather not switch back and forth (deprecated since v0.17)) by going to {{MenuCommand|View → Workbench}}. Select the three bolt circles in the tree view, and then press the mirror button (<img alt="" src=images/Part_Mirror.svg  style="width:16px;">). Once you press the mirror button you should notice a new display called the *Combo view* pop up on in the pane underneath the Tree view. Many of the tools need additional input before they can run and the Combo view lets you enter these parameters. You can make the Combo view larger by dragging the divider line separating it from the Property view up or down. Select **Bolt 1** from the list on the Combo view and set the *mirror plane* to XZ, then press OK (do the same for bolts 2 and 3).
+So even though it is a bit of overkill we will mirror these bolts as a demonstration. Switch back to the part workbench (note that you can always switch to the *Complete* workbench to see all the tools at once if you would rather not switch back and forth (deprecated since v0.17)) by going to **View → Workbench**. Select the three bolt circles in the tree view, and then press the mirror button (<img alt="" src=images/Part_Mirror.svg  style="width:16px;">). Once you press the mirror button you should notice a new display called the *Combo view* pop up on in the pane underneath the Tree view. Many of the tools need additional input before they can run and the Combo view lets you enter these parameters. You can make the Combo view larger by dragging the divider line separating it from the Property view up or down. Select **Bolt 1** from the list on the Combo view and set the *mirror plane* to XZ, then press OK (do the same for bolts 2 and 3).
 
 At this point you should have a basic engine block with the cylinders bored out and the headbolt locations marked.
 
-### Cutting Down the Excess Billet Material from the Block {#cutting_down_the_excess_billet_material_from_the_block}
+### Cutting Down the Excess Billet Material from the Block 
 
 Now that we have holes marked out for headbolts (we could do the same thing for oil channels, water jackets, etc) we will want to \"trim\" the outside of the block billet down to a more suitable shape. This will make the engine lighter, allow it to cool more easily, mean less steel must be used to cast the block. Like the bolt pattern we will be laying out a 2 dimensional drawing outlining the shape we want on the finished product. We could draw the spline curve directly with the mouse, or use the hybrid approach like we used for the circles where we used the mouse to find approximate coordinates and then typed in the true values we wanted. A more interesting approach is to use the 2D drafting\'s *construction mode* to plot a few guide shapes to help us trace out a nice, symmetric, spline curve by snapping to our constructed guide shapes.
 
@@ -275,7 +275,7 @@ Now that we have our guide polygons in place we are ready to draw in the spline 
 
 The control points are not shown in that picture so I have added a second screenshot showing the finished spline in edit mode (click the *Edit mode* button to turn editing on or off for the selected object, make sure to turn it off when you are done editing it or just skip over this step if you are satisfied with your engine block shape). Also, note that there is a discontinuity on the leftmost edge of the spline curve, even though it is closed properly, this is a bug in the program behavior and is currently being fixed, as a result your spline curve may look slightly different if you are running a newer version of the software than is available at this time.
 
-### Extruding the 2D Head Design into our 3D Model to Finish the Design {#extruding_the_2d_head_design_into_our_3d_model_to_finish_the_design}
+### Extruding the 2D Head Design into our 3D Model to Finish the Design 
 
 
 <div class="mw-translate-fuzzy">

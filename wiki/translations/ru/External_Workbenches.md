@@ -16,7 +16,7 @@
 
 Верстаки, маркированные <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> не рекомендуются для последних версий FreeCAD. Они устарели, или не поддерживаются, или превзойдены в новейших верстаках, или могут не работать с Python 3 или с Qt5. В большинстве случаев их следует избегать.
 
-## Сборочные верстаки {#сборочные_верстаки}
+## Сборочные верстаки 
 
 В FreeCAD 0.19 официального верстака для сборок нет. Однако некоторые внешние инструменты для манипуляции объектами и создания сборок созданы или находятся в разработке.
 
@@ -130,7 +130,7 @@
   <img alt="" src=images/EMWorkbench.svg  style="width:32px;">                                                                   [EM](EM_Workbench.md)                                                         Simulation                      It provides a graphical interface for different solvers by [FastFieldSolvers](http://www.fastfieldsolvers.com). At present it supports the 3D magneto-quasistatic impedance solver FastHenry. Support for the 3D electrostatic capacitance solver FasterCap is ongoing.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               FastFieldSolvers S.R.L.                             <https://github.com/ediloren/EM-Workbench-for-FreeCAD>                                <img alt="" src=images/AddonManager.svg  style="width:24px;">   
   <img alt="" src=images/FrontISTR.svg  style="width:32px;">                                                                       [FEM FrontISTR](FEM_FrontISTR_Workbench.md)                                   Simulation                      It provides a graphical interface for [FrontISTR](https://www.frontistr.com), an open-source large-scale parallel FEM program for nonlinear structural analysis.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      kinagaki                                            <https://github.com/FrontISTR/FEM_FrontISTR>                                                                                                 
 
-## Перевод внешних верстаков {#перевод_внешних_верстаков}
+## Перевод внешних верстаков 
 
 Смотрите страницу вики для дополнительной информации [по переводу внешних верстаков](Translating_an_external_workbench/ru.md).
 

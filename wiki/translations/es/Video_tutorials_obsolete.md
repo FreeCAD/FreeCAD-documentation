@@ -6,7 +6,7 @@ Although these videos are considered obsolete, they are included here for histor
 
 For up-to-date videos on different topics, see the [video tutorials](video_tutorials.md) page, and also [tutorials](tutorials.md) for written tutorials. A complete, unsorted list of tutorials can be found in [:Category:Tutorials](:Category:Tutorials.md).
 
-## Vídeos obsoletos {#vídeos_obsoletos}
+## Vídeos obsoletos 
 
 -   [BPLRFE playlists](https://www.youtube.com/user/BPLRFE/playlists): these are playlists in German by the late Roland Frank (✝2017), a beloved member of the FreeCAD community.
     -   [FreeCAD-Tutorials (deutsch)](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY), FreeCAD 0.14 to 0.16, a series of 32 videos in German, showing how to model many different objects, and use many of the capabilities of the software. They pre-date the \"Learn FreeCAD\" channel videos.
@@ -36,7 +36,7 @@ For up-to-date videos on different topics, see the [video tutorials](video_tutor
     -   [FreeCAD tutorial](https://www.youtube.com/watch?v=gN-hlmYEYb8&list=PLHm_82X7K9BUo-XxOYDpFW3lL5qkWpNlX): FreeCAD 0.14 to 0.16, a series of 46 videos to learn many things about FreeCAD including modelling, technical drawings, sheet metal, exploding animation, assembly, and macros.
     -   [FreeCAD](https://www.youtube.com/watch?v=caD9KSpn1Yw&list=PLHm_82X7K9BWL2gkOU2fiqODN-3TuW-Cf): FreeCAD 0.15 and 0.16, a series of 79 videos to learn modelling in FreeCAD, including complex assemblies like a universal joint, a gear pump, a safety valve, a hand crank, and a bench vice. These projects are developed over several videos.
 
-### Muy viejo {#muy_viejo}
+### Muy viejo 
 
 -   [Beginners tutorial part 1](http://www.youtube.com/watch?v=_VR_XOPcaVw) by Meow Dog.
 

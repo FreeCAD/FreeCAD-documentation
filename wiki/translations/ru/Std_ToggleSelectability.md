@@ -14,9 +14,9 @@ The **Std ToggleSelectability** command toggles the selectability of objects in 
 
 1.  Select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|View → Visibility → <img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability}} option from the menu.
-    -   Select the {{MenuCommand|<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability}} option from the [Tree view](Tree_view.md) context menu. This option is not available in the [PartDesign Workbench](PartDesign_Workbench.md).
-    -   Select the {{MenuCommand|<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability}} option from the 3D view context menu.
+    -   Select the **View → Visibility → <img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the menu.
+    -   Select the **<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the [Tree view](Tree_view.md) context menu. This option is not available in the [PartDesign Workbench](PartDesign_Workbench.md).
+    -   Select the **<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the 3D view context menu.
 
 ## Примечания
 

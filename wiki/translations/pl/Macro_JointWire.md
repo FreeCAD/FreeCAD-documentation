@@ -17,7 +17,7 @@
 
 Ta makrodefinicja pozwala znaleźć i połączyć wszystkie niepołączone krawędzie z najbliższą niepołączoną krawędzią za pomocą linii. Pobiera na wejściu tablicę kształtów (\[shape1, shape2, \...\])
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Ikonka paska narzędzi ![](images/Macro_JointWire.png )
 

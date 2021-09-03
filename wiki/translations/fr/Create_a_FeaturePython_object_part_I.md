@@ -18,7 +18,7 @@ Cela favorise:
 
 Sur cette page, nous allons construire un exemple de travail d\'une classe personnalisée FeaturePython, en identifiant tous les composants principaux et en comprenant comment tout fonctionne au fur et à mesure.
 
-### Comment ça marche? {#comment_ça_marche}
+### Comment ça marche? 
 
 FreeCAD est livré avec un certain nombre de types d\'objets par défaut pour gérer différents types de géométrie. Certains d\'entre eux ont des alternatives \"FeaturePython\" qui permettent une personnalisation avec une classe Python définie par l\'utilisateur.
 
@@ -28,7 +28,7 @@ Lorsque vous travaillez avec des classes personnalisées et des objets FeaturePy
 
 [En haut](#top.md)
 
-## Mise en place {#mise_en_place}
+## Mise en place 
 
 Les classes d\'objets FeaturePython doivent agir comme des modules importables dans FreeCAD. Cela signifie que vous devez les placer dans un chemin qui existe dans votre environnement Python (ou l\'ajouter spécifiquement). Pour les besoins de ce tutoriel, nous allons utiliser le dossier Macro utilisateur FreeCAD, mais si vous avez une autre idée en tête, n\'hésitez pas à l\'utiliser à la place!
 
@@ -59,14 +59,14 @@ Le dossier {{FileName|fpo}} est l\'endroit pour jouer avec les nouveaux objets F
 Une fois nos chemins et fichiers de module créés, nous assurons que FreeCAD est correctement configuré:
 
 -   Démarrez FreeCAD (si vous ne l\'avez pas déjà fait).
--   Activez la [Vue rapport](Report_view/fr.md) ({{MenuCommand|Affichage → Panneaux → Vue rapport}}).
--   Activez la [console Python](Python_console/fr.md) ({{MenuCommand|Affichage → Panneaux → Console Python}}) voir [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/fr.md).
+-   Activez la [Vue rapport](Report_view/fr.md) (**Affichage → Panneaux → Vue rapport**).
+-   Activez la [console Python](Python_console/fr.md) (**Affichage → Panneaux → Console Python**) voir [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/fr.md).
 
 Enfin, naviguez jusqu\'au dossier {{FileName|Macro/fpo/box}} et ouvrez {{FileName|box.py}} dans votre éditeur de code préféré. Nous ne modifierons que ce fichier.
 
 [En haut](#top.md)
 
-## Un objet FeaturePython {#un_objet_featurepython}
+## Un objet FeaturePython 
 
 Commençons par écrire notre classe et son constructeur:
 
@@ -142,9 +142,9 @@ La méthode `create()` n\'est pas requise mais elle fournit un bon moyen d\'enca
 
 [En haut](#top.md)
 
-### Test du code {#test_du_code}
+### Test du code 
 
-Nous pouvons maintenant tester notre nouvel objet. Enregistrez votre code et revenez à FreeCAD. Assurez-vous que vous avez ouvert un nouveau document, vous pouvez le faire en appuyant sur **Ctrl**+**N** ou en sélectionnant {{MenuCommand|Fichier → Nouveau}}.
+Nous pouvons maintenant tester notre nouvel objet. Enregistrez votre code et revenez à FreeCAD. Assurez-vous que vous avez ouvert un nouveau document, vous pouvez le faire en appuyant sur **Ctrl**+**N** ou en sélectionnant **Fichier → Nouveau**.
 
 Dans la console Python, tapez ce qui suit:
 
@@ -164,7 +164,8 @@ mybox = box.create('my_box')
 
 Notez que l\'icône est grise. FreeCAD nous dit que l\'objet ne peut rien afficher dans la [Vue 3D](3D_view/fr.md). Cliquez sur l\'objet et regardez ses propriétés dans l\'[Éditeur de propriétés](Property_editor/fr.md). Il n\'y a pas grand-chose là-bas, juste le nom de l\'objet.
 
-Notez également qu\'il y a une petite coche bleue à côté de l\'objet FeaturePython dans l\'arborescence. En effet, lorsqu\'un objet est créé ou modifié, il est \"touché\" et doit être recalculé. Appuyez sur le bouton **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** pour y parvenir. Nous ajouterons du code pour automatiser cela plus tard. {{Clear}}
+Notez également qu\'il y a une petite coche bleue à côté de l\'objet FeaturePython dans l\'arborescence. En effet, lorsqu\'un objet est créé ou modifié, il est \"touché\" et doit être recalculé. Appuyez sur le bouton **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** pour y parvenir. Nous ajouterons du code pour automatiser cela plus tard. 
+
 
 Jetons un oeil aux attributs de notre objet: 
 ```python
@@ -218,7 +219,7 @@ Voyons maintenant si nous pouvons rendre notre classe un peu plus intéressante,
 
 [En haut](#top.md)
 
-### Ajout de propriétés {#ajout_de_propriétés}
+### Ajout de propriétés 
 
 Les propriétés sont l\'élément vital d\'une classe FeaturePython. Heureusement, FreeCAD supporte [un certain nombre de types de propriétés](FeaturePython_Custom_Properties/fr.md) pour les classes FeaturePython. Ces propriétés sont attachées directement à l\'objet FeaturePython et sont entièrement sérialisées lors de l\'enregistrement du fichier. Pour éviter d\'avoir à sérialiser les données vous-même, il est conseillé de n\'utiliser que ces types de propriétés.
 
@@ -296,13 +297,14 @@ Une fois que la boîte est créée et que vous avez vérifié pour vous assurer 
 -   Un nouveau groupe de propriétés: *Dimensions*.
 -   Trois nouvelles propriétés: *Height*, *Length* et *Width*.
 
-Notez également que les propriétés ont des unités. Plus précisément, elles ont repris les unités linéaires définies dans les préférences de l\'utilisateur ({{MenuCommand|Edition → Préférences... → Général → Unités}}). {{Clear}}
+Notez également que les propriétés ont des unités. Plus précisément, elles ont repris les unités linéaires définies dans les préférences de l\'utilisateur (**Edition → Préférences... → Général → Unités**). 
+
 
 Vous avez sans doute remarqué que trois valeurs différentes ont été saisies pour les dimensions : une valeur en virgule flottante (`10.0`) et deux chaînes de caractères différentes (`'10 mm'` et `'1 cm'`). Le type `App::PropertyLength` suppose que les valeurs en virgule flottante sont en millimètres, les valeurs des chaînes sont analysées en fonction des unités spécifiées et, dans l\'interface graphique, toutes les valeurs sont converties dans les unités spécifiées dans les préférences de l\'utilisateur (`mm` dans l\'image). Ce comportement intégré rend le type `App::PropertyLength` idéal pour les dimensions.
 
 [En haut](#top.md)
 
-### Piège à événements {#piège_à_événements}
+### Piège à événements 
 
 Le dernier élément requis pour un objet FeaturePython de base est le recouvrement d\'événements. Un objet FeaturePython peut réagir aux événements avec des fonctions de rappel. Dans notre cas, nous voulons que l\'objet réagisse chaque fois qu\'il est recalculé. En d\'autres termes, nous voulons intercepter les recalculs. Pour ce faire, nous devons ajouter une fonction avec un nom spécifique, `execute()`, à la classe d\'objets. Il existe plusieurs autres événements qui peuvent être piégés, à la fois dans l\'objet FeaturePython lui-même et dans le [ViewProvider](Viewprovider/fr.md), que nous aborderons dans la [Création d\'une boîte FeaturePython, partie II](Create_a_FeaturePython_object_part_II/fr.md).
 
@@ -332,7 +334,7 @@ Voilà, vous savez maintenant comment construire un objet FeaturePython basique 
 
 [En haut](#top.md)
 
-### Le code terminé {#le_code_terminé}
+### Le code terminé 
 
 
 ```python

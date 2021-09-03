@@ -29,7 +29,7 @@ The command currently does not work well with layers and can produce confusing r
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați unul sau mai multe grupuri îîn vizualizarea arborescentă
 2.  Apăsați butonul **<img src="images/Draft_SelectGroup.png" width=16px> [Select group](Draft_SelectGroup.md)

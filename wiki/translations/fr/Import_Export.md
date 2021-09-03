@@ -7,14 +7,14 @@
 
 Cette page répertorie les différents formats de fichiers que FreeCAD peut importer et exporter. Pour être complet, le format natif de FreeCAD est inclus dans la liste. Certains formats ont une page wiki en cliquant sur l\'extension dans la première colonne.
 
-## En relation {#en_relation}
+## En relation 
 
 Consultez les pages suivantes pour plus d\'informations:
 
 -   [Préférences d\'Import Export](Import_Export_Preferences/fr.md)
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
 
-## Présentation des formats de fichiers {#présentation_des_formats_de_fichiers}
+## Présentation des formats de fichiers 
 
   Format                                         Description                                                                                                                                                                                                                                                    Importer / Ouvrir                                                                                                                        Exporter / Créer
   ---------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

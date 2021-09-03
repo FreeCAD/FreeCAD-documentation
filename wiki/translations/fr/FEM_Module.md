@@ -14,7 +14,7 @@ L\'[atelier FEM](FEM_Workbench/fr.md) fournit un flux de travail moderne d\'[ana
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
-## Flux de travail {#flux_de_travail}
+## Flux de travail 
 
 Les étapes pour effectuer une analyse d'éléments finis sont les suivantes :
 
@@ -34,7 +34,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 *Flux de travail de l'atelier FEM ; le plan de travail appelle deux programmes externes pour effectuer le maillage d'un objet solide et pour résoudre le problème des éléments finis*
 
-## Menu : Modèle {#menu_modèle}
+## Menu : Modèle 
 
 -   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> [Conteneur d\'analyse](FEM_Analysis/fr.md) : Crée un nouveau conteneur pour une analyse mécanique. Si un solide est sélectionné dans l\'arborescence avant de cliquer dessus, la boîte de dialogue de maillage s\'ouvrira.
 
@@ -50,7 +50,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> [Editeur de matériaux](Material_editor/fr.md) : Permet d\'ouvrir l\'éditeur de matériaux pour éditer des matériaux.
 
-### Géométrie d\'élément {#géométrie_délément}
+### Géométrie d\'élément 
 
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Coupe transversale de poutre](FEM_ElementGeometry1D/fr.md) :Utilisé pour définir les coupes transversales des éléments de poutre.
 
@@ -60,17 +60,17 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Section fluide pour flux 1D](FEM_ElementFluid1D/fr.md) : crée un élément de section fluide FEM pour les réseaux pneumatiques et hydrauliques.
 
-### Contraintes Electrostatiques {#contraintes_electrostatiques}
+### Contraintes Electrostatiques 
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Contrainte électrostatique potentielle](FEM_ConstraintElectrostaticPotential/fr.md) :
 
-### Contraintes de fluides {#contraintes_de_fluides}
+### Contraintes de fluides 
 
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Contrainte de la vitesse du flux d\'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md) : Utilisé pour définir une vitesse d\'écoulement initiale pour le domaine.
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse d\'écoulement](FEM_ConstraintFlowVelocity/fr.md) : Utilisé pour définir une vitesse d\'écoulement comme condition aux limites sur une arête (2D) ou une face (3D).
 
-### Contraintes géométriques {#contraintes_géométriques}
+### Contraintes géométriques 
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Contrainte de rotation du plan](FEM_ConstraintPlaneRotation/fr.md) : Permet de définir une contrainte de rotation plane sur une face plane.
 
@@ -78,7 +78,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Contrainte de transformation](FEM_ConstraintTransform/fr.md) : Utilisé pour définir une contrainte de transformation sur une face.
 
-### Contraintes mécaniques {#contraintes_mécaniques}
+### Contraintes mécaniques 
 
 -   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Contrainte fixe](FEM_ConstraintFixed/fr.md) : Utilisé pour définir une contrainte fixe sur le point/bord/face(s).
 
@@ -94,7 +94,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Contrainte de poids](FEM_ConstraintSelfWeight/fr.md) : Permet de définir une accélération de gravité agissant sur un modèle.
 
-### Contraintes thermiques {#contraintes_thermiques}
+### Contraintes thermiques 
 
 -   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Contrainte initiale de température](FEM_ConstraintInitialTemperature/fr.md) : Permet de définir la température initiale d\'un corps.
 
@@ -104,7 +104,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Contrainte de source de chaleur d\'un corps](FEM_ConstraintBodyHeatSource/fr.md) : Utilisé pour définir une source de chaleur interne d\'un objet.
 
-### Contraintes sans solveur {#contraintes_sans_solveur}
+### Contraintes sans solveur 
 
 -   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condition aux limites du fluide](FEM_ConstraintFluidBoundary/fr.md) :
 
@@ -114,11 +114,11 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Contrainte de poulie](FEM_ConstraintPulley/fr.md) : Utilisée pour définir une contrainte de poulie.
 
-### Écraser des constantes {#écraser_des_constantes}
+### Écraser des constantes 
 
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constante de permittivité du vide](FEM_ConstantVacuumPermittivity/fr.md) : {{Version/fr|0.19}}
 
-## Menu : Maillage {#menu_maillage}
+## Menu : Maillage 
 
 -   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Maillage MEF à partir d\'une forme avec Netgen](FEM_MeshNetgenFromShape/fr.md) :
 
@@ -134,7 +134,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Maillage à maillage MEF](FEM_FemMesh2Mesh/fr.md) : convertit la surface d\'un maillage MEF en maillage.
 
-## Menu : Résoudre {#menu_résoudre}
+## Menu : Résoudre 
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur Calculix standard](FEM_SolverCalculixCxxtools/fr.md) : Crée un nouveau solveur pour cette analyse. Dans la plupart des cas, le solveur est créé avec l\'analyse.
 
@@ -160,7 +160,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_SolverRun.svg  style="width:32px;"> [Résolution](FEM_SolverRun/fr.md) : Lance le solveur sélectionné de l\'analyse active.
 
-## Menu : Résultats {#menu_résultats}
+## Menu : Résultats 
 
 -   <img alt="" src=images/FEM_ResultsPurge.svg  style="width:32px;"> [Purge les résultats](FEM_ResultsPurge/fr.md) : Supprime les résultats de l\'analyse active.
 
@@ -188,7 +188,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;">
     -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;">
 
-## Menu : Utilitaires {#menu_utilitaires}
+## Menu : Utilitaires 
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width:32px;"> [Plan de coupe sur la face](FEM_ClippingPlaneAdd/fr.md) :
 
@@ -196,7 +196,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width:32px;"> [FEM Exemples](FEM_Examples/fr.md) : Ouvrez l\'interface graphique pour accéder aux exemples FEM.
 
-## Menu contextuel {#menu_contextuel}
+## Menu contextuel 
 
 -   <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> [Supprimer maillage MEF](FEM_MeshClear/fr.md) : supprime le fichier de maillage du fichier FreeCAD. Utile pour alléger un fichier FreeCAD.
 
@@ -246,7 +246,7 @@ Tutoriel vidéo 2 : [Article du Forum](https://forum.freecadweb.org/viewtopic.ph
 
 Recherche de tutoriels vidéo : [Article du Forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162640) (avec lien sur YouTube en Allemand)
 
-## Extension de l\'atelier FEM {#extension_de_latelier_fem}
+## Extension de l\'atelier FEM 
 
 L\'atelier FEM est constante évolution. Un des objectifs du projet est de trouver des moyens d'interagir facilement avec divers solveurs FEM, afin que l'utilisateur final puisse rationaliser le processus de création, de maillage, de simulation et d'optimisation d'un problème de conception technique, le tout avec FreeCAD.
 
@@ -264,7 +264,7 @@ Un guide du développeur a été rédigé pour aider les utilisateurs expérimen
 -   [Aperçu préliminaire du ebook : Guide du développeur de modules pour FreeCAD](https://forum.freecadweb.org/viewtopic.php?t=17581) (Discussion sur le forum).
 -   [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) (dépôt github)
 
-## Extension de la documentation de l\'atelier FEM {#extension_de_la_documentation_de_latelier_fem}
+## Extension de la documentation de l\'atelier FEM 
 
 -   Plus d\'informations concernant l\'extension ou l\'absence de documentation FEM peuvent être trouvées dans le forum : [documentation FEM manquante sur le Wiki](https://forum.freecadweb.org/viewtopic.php?f=18&t=20823)
 

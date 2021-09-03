@@ -14,12 +14,12 @@ This tool deletes all constraints from the sketch being edited, and leaves the g
 
 <div class="mw-translate-fuzzy">
 
-## Kako koristiti {#kako_koristiti}
+## Kako koristiti 
 
 
 </div>
 
-1.  Go to the {{MenuCommand|Sketch → Sketcher tools → <img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Delete All Constraints}} menu.
+1.  Go to the **Sketch → Sketcher tools → <img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Delete All Constraints** menu.
 2.  Reply **Yes** to the dialog pop up.
 
 

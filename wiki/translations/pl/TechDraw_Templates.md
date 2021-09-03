@@ -26,7 +26,7 @@ Templates are [SVG](SVG.md) files which can be created and modified outside of F
 
 -    **Template**: a) A pointer to the copy of the original Template file which is incorporated into this \*.FCSTD file, or b) a filepath to a template accessible on the current machine. Use the file selection ellipsis (\...) to change to a different template.
 
-## Changing Template File {#changing_template_file}
+## Changing Template File 
 
 To change the template of a drawing
 
@@ -40,7 +40,7 @@ The new file will be opened directly.
 
 When you want to update a changed template file note that you have to load another file before you can select the same file again. This is because the selection of the same file is ignored.
 
-## Custom Templates {#custom_templates}
+## Custom Templates 
 
 A limited number of pre-formatted templates in various standard page sizes are included with FreeCAD. These are found in
 

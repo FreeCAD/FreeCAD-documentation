@@ -14,7 +14,7 @@ Jeśli chciałbyś pomóc w pisaniu dokumentacji Wiki i samouczków, zobacz ogó
 
 Proszę zwrócić uwagę na wersję FreeCAD stosowaną w poradniku, ponieważ niektóre poradniki mogą wykorzystywać starszą wersję programu. Chociaż ogólny proces modelowania może nadal działać, niektóre narzędzia mogły ulec zmianie.
 
-## Architektura i BIM {#architektura_i_bim}
+## Architektura i BIM 
 
 <File:Arch> tutorial 00.jpg\|link=[Arch tutorial](Arch_tutorial.md)\|[Arch tutorial](Arch_tutorial.md) *(v0.14)*
 Jest to niezbędne wprowadzenie do Środowiska pracy Arch. JOpracowanie jest obszerne i przedstawia typowy schemat pracy, od importu planów w formacie DXF do budowania modelu 3D. <File:Exercise> arch 01.jpg\|link=[Manual:BIM\_modeling](Manual:BIM_modeling.md)\|[BIM modeling](Manual:BIM_modeling.md)
@@ -24,7 +24,7 @@ Jak rysować niestandardowe drzwi i okna za pomocą programu Sketcher i odpowied
 Modelowanie kasetonów dachowych w technologii mikrokompleksowej z wykorzystaniem narzędzia Szkicownik, i Panel. <File:Arch_Wikihouse_01.jpg%7Clink=>[Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)\|[WikiHouse modelling](Wikihouse_porting_tutorial.md)
 Ponowne modelowanie projektu WikiHouse za pomocą Szkiców i Paneli, począwszy od importu modelu siatki utworzonego w SketchUp.
 
-## Modelowanie części {#modelowanie_części}
+## Modelowanie części 
 
 FreeCAD zapewnia dwa główne cykle robocze dla modelowania części:
 
@@ -53,7 +53,7 @@ Projekt Raspberry Pi stworzył proste poradniki, które są łatwe do naśladowa
 -   [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), model i cały zestaw szachowy w stylu modernistycznym Bauhausu.
 -   [raspberrypilearning](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) repozytorium *(CC-BY 4.0)* z innymi przykładami.
 
-## Rysowanie i szkicowanie {#rysowanie_i_szkicowanie}
+## Rysowanie i szkicowanie 
 
 Exercise cabin 01.jpg\|link=[Manual:Traditional 2D drafting](Manual:Traditional_2D_drafting.md)\|[Traditional 2D drafting](Manual:Traditional_2D_drafting.md)
 Narysuj plan podłogi z liniami, drutami, prostokątami, okrągami, łukami oraz dodawaj wypełnienia, adnotacje i wymiary. Eksport wyników do DXF. 00\_Dr01\_Draft\_Tutorial\_final.png\|link=[Draft\_tutorial](Draft_tutorial.md)\|[Draft tutorial](Draft_tutorial.md) *(v0.16)*
@@ -66,7 +66,7 @@ Jest to podstawowe wprowadzenie do narzędzi Środowiska pracy Sketcher:
 03d\_Sk02\_Sketcher\_Rectangle\_constrained\_length.png\|link=[Sketcher\_Micro\_Tutorial\_-\_Constraint\_Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)\|[Sketcher constraints practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md) *(v0.19)*
 Naucz się skutecznie tworzyć ograniczenia dla szkicu. Preferuj ograniczenia geometryczne nad ograniczeniami wymiarowymi.
 
-## Rysunek techniczny {#rysunek_techniczny}
+## Rysunek techniczny 
 
 TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md)\|[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md) *(v0.17)*
 Jest to niezbędne wprowadzenie do narzędzi Środowiska pracy TechDraw: strona, widok, skala, wymiary pionowe i poziome, adnotacje, grupy projekcyjne, łączenie wymiarów z widokiem 3D. <File:FCTemplateHow.png%7Clink=>[TechDraw\_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[Creating a new background template](TechDraw_TemplateHowTo.md) *(v0.17)*
@@ -82,13 +82,13 @@ Zbadaj deformację bloku wykonanego z twardego jądra otoczonego miękkim materi
 Oszacowanie poziomu zbrojenia wymaganego w konstrukcji betonowej w celu zapobieżenia kruchym uszkodzeniom pod wpływem naprężeń lub ścinania. FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Przetwarzanie wyników FEM za pomocą Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) *(v0.19)*
 Ten tutorial wyjaśnia podstawy przenoszenia danych z warsztatu FEM Workbench do Paraview i pokazuje niektóre z opcji i ustawień dotyczących wyświetlania danych.
 
-## CNC i druk 3D {#cnc_i_druk_3d}
+## CNC i druk 3D 
 
 Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md)\|[Path Workbench for the impatient](Path_Walkthrough_for_the_Impatient.md)
 Jest to szybka prezentacja toku pracy dla Środowiska pracy Path: utworzenie zadania, zdefiniowanie wyjścia, zdefiniowanie narzędzia do frezowania, zdefiniowanie operacji ścieżki, uruchomienie symulacji i wygenerowanie pliku wyjściowego z kodem G. Exercise meshing 03.jpg\|link=[Manual:Preparing models for 3D printing](Manual:Preparing_models_for_3D_printing.md)\|[Preparing models for 3D printing](Manual:Preparing_models_for_3D_printing.md) *(v0.16)*
 Konwersja obiektu bryłowego do obiektu siatki przy użyciu Środowiska pracy Mesh, eksport siatki do formatu STL i wykorzystanie Slic3r do przygotowania kodu G. Alternatywnie można użyć Środowisko Cura lub Path do wygenerowania kodu G.
 
-## Importowanie i eksportowanie {#importowanie_i_eksportowanie}
+## Importowanie i eksportowanie 
 
 Dxf Importer Install 11.png\|link=[Dxf Importer Install](Dxf_Importer_Install.md)\|[DXF importer installation](Dxf_Importer_Install.md)
 Zainstaluj program importujący DXF w swoim systemie, aby móc otwierać pliki DXF i DWG za pomocą programu FreeCAD.
@@ -109,13 +109,13 @@ Eksportuj bryły z FreeCAD do Wavefront .obj, zaimportuj plik do Blendera, ustaw
 Robot Tutorial RobotSimulation.gif\|link=[Robot\_tutorial/pl](Robot_tutorial/pl.md)\|[Poradnik dla środowiska pracy Robot](Robot_tutorial/pl.md) *(v0.17)*
 Symulacja ruchu robota przemysłowego: ustawianie trajektorii, ustawianie pozycji wyjściowej, zmiana pozycji robota, wstawianie różnych punktów orientacyjnych i symulacja ruchu robota.
 
-## Sporządzanie wykresów {#sporządzanie_wykresów}
+## Sporządzanie wykresów 
 
 Plot\_Trigonometric\_Example.png\|link=[Plot Basic tutorial](Plot_Basic_tutorial.md)\|[Basic plot](Plot_Basic_tutorial.md)
 Narysuj proste funkcje matematyczne w Środowisku pracy Plot przy użyciu bibliotek wykresów Pythona: zdefiniuj listę wejściową *(X)*, dwie listy wyjściowe *(Y1, Y2)*, wykreślij funkcje *(Y1 i Y2 względem X)*, ustaw siatkę, style linii, legendy, etykiety osi, tytuł wykresu i zapisz wykres. Plot\_MultiAxes\_Example.png\|link=[Plot MultiAxes tutorial](Plot_MultiAxes_tutorial.md)\|[Multiaxes plot](Plot_MultiAxes_tutorial.md)
 Narysuj bardziej skomplikowany wykres w Środowisku pracy Plot z dwiema różnymi listami wejściowymi *(X, T)* i trzema listami wyjściowymi *(Y1, Y2, Y3)*, następnie utwórz dwa zestawy osi w tym samym wykresie i wykreśl pary list *(Y1 przeciwko X, Y2 i Y3 przeciwko T)*; ustaw osie etykiet i siatki oraz przenieś legendy i tytuł.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Są to poradniki związane z tworzeniem skryptów lub programowaniem. Są one skierowane do bardziej doświadczonych użytkowników, którzy są już nieco zaznajomieni z programem.
 
@@ -132,7 +132,7 @@ Drawing\_tutorial\_result.png\|link=[Drawing tutorial](Drawing_tutorial.md)\|[Dr
 Jest to niezbędne wprowadzenie do narzędzi warsztatu rysunkowego w celu tworzenia projektów. Exercise drawing 01.jpg\|link=[Manual:Generating 2D drawings](Manual:Generating_2D_drawings.md)\|[Generating 2D drawings](Manual:Generating_2D_drawings.md) *(v0.16)*
 Generuj rzuty modeli 3D i dodawaj wymiary.
 
-## Poradniki - Pełna lista {#poradniki___pełna_lista}
+## Poradniki - Pełna lista 
 
 Poniżej wymienione są wszystkie poradniki, które nie znajdują się w podręczniku \"niezależnie od ich jakości\". Jeśli jakiś poradnik jest wymieniony w [Kategoria:Poradniki](:Category:Tutorials/pl.md), a nie w tej tabeli, proszę go dodać.
 

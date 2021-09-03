@@ -12,7 +12,7 @@ The **Std ViewIvStereoOff** command switches off stereo mode in the active [3D v
 
 ## Usage
 
-1.  Select the {{MenuCommand|View → Stereo → <img src="images/Std_ViewIvStereoOff.svg" width=16px> Stereo Off}} option from the menu.
+1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoOff.svg" width=16px> Stereo Off** option from the menu.
 
 ## Scripting
 

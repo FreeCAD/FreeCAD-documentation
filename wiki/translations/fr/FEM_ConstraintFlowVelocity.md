@@ -17,7 +17,7 @@ Applique une vitesse d\'écoulement comme condition aux limites à une arête en
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [Créer une contrainte de type vitesse d'écoulement](FEM_ConstraintFlowVelocity/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Model → Fluid Constraints → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> contrainte vitesse d'écoulement}} dans le menu.
+    -   Sélectionnez l\'option **Model → Fluid Constraints → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> contrainte vitesse d'écoulement** dans le menu.
 2.  Le [Panneau des tâches](Task_panel/fr.md) affichera des menus pour la contrainte de vitesse d\'écoulement
 3.  Sélectionnez les arêtes cibles ou faces cibles.
 4.  Appuyez sur le bouton **Add**.

@@ -30,7 +30,7 @@ download these two files and save them in macro directory:
 
 <https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/MatrixTransform/MatrixTransform.py>
 
-## How to use: {#how_to_use}
+## How to use: 
 
 1.  Select the shape to be transformed
 2.  In FreeCAD menu: Macro -\> Macros\... -\> double-click MatrixTransform.FCMacro . A new object will be created.
@@ -44,15 +44,15 @@ Matrix is defined by three vectors:
 
 Here, v1,v2,v3 are vectors that can be defined in properties. They correspond to new directions of what was originally X,Y,Z axes.
 
-### example matrices {#example_matrices}
+### example matrices 
 
-#### No transformation {#no_transformation}
+#### No transformation 
 
    1  0  0
    0  1  0
    0  0  1
 
-#### non-uniform scaling {#non_uniform_scaling}
+#### non-uniform scaling 
 
    scaleX    0      0
       0   scaleY    0

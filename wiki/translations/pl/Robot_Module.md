@@ -44,11 +44,11 @@ Narzędzia do tworzenia i zarządzania robotami 6-osiowymi.
 -   <img alt="" src=images/Robot_SetHomePos.svg  style="width:30px;"> [Ustaw pozycję startową](Robot_SetHomePos.md): Ustawianie pozycji startowej robota.
 -   <img alt="" src=images/Robot_RestoreHomePos.svg  style="width:30px;"> [Przejdź do pozycji startowej](Robot_RestoreHomePos.md): Ustaw robota w pozycji startowej.
 
-### Tor ruchu {#tor_ruchu}
+### Tor ruchu 
 
 Narzędzia do tworzenia i manipulowania trajektoriami. Istnieją dwa podstawowe rodzaje, parametryczne i nie parametryczne.
 
-#### Trajektorie nie parametryczne {#trajektorie_nie_parametryczne}
+#### Trajektorie nie parametryczne 
 
 -   <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:30px;"> [Utwórz trajektorię](Robot_CreateTrajectory.md): Wstawia nowy pusty obiekt trajektorii do sceny.
 -   <img alt="" src=images/Robot_SetDefaultOrientation.svg  style="width:30px;"> [Ustaw domyślną orientację](Robot_SetDefaultOrientation.md): Punkty orientacyjne są tworzone jako domyślne.
@@ -56,13 +56,13 @@ Narzędzia do tworzenia i manipulowania trajektoriami. Istnieją dwa podstawowe 
 -   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:30px;"> [Wstaw pozycje narzędzia \...](Robot_InsertWaypoint.md): Wstaw punkt trasy z bieżącej pozycji robota do trajektorii.
 -   <img alt="" src=images/Robot_InsertWaypointPre.svg  style="width:30px;"> [Wstaw wstępnie wybrany punkt trasy](Robot_InsertWaypointPre.md): Wstaw w trajektorię punkt orientacyjny z aktualnej pozycji kursora myszki.
 
-#### Trajektorie parametryczne {#trajektorie_parametryczne}
+#### Trajektorie parametryczne 
 
 -   <img alt="" src=images/Robot_Edge2Trac.svg  style="width:30px;"> [Generuj trasę z krawędzi](Robot_Edge2Trac.md): Wstaw nowy obiekt, którego krawędzie zostaną rozłożone na trajektorię.
 -   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width:30px;"> [Ukształtuj trajektorię](Robot_TrajectoryDressUp.md): Pozwala nadpisać jedną lub więcej właściwości trajektorii.
 -   <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width:30px;"> [Grupuj i połącz trajektorie](Robot_TrajectoryCompound.md): Stworzy układ złożony z kilku pojedynczych trajektorii.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Aby uzyskać opis funkcji używanych do modelowania przemieszczeń robota, zobacz [Przykład API dla robota](Robot_API_example.md).
 

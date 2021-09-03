@@ -49,7 +49,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 </div>
 
-## Supported special points {#supported_special_points}
+## Supported special points 
 
 -   The vertices of the **Base** object of <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Arch Walls](Arch_Wall.md).
 -   The **Placement** point of <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Arch Structures](Arch_Structure.md).

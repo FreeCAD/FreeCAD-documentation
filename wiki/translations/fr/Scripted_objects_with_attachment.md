@@ -12,9 +12,9 @@ Le GIF suivant montre comment attacher notre boîte personnalisée à un cylindr
 
  **REMARQUE:** La boîte est notre objet personnalisé crée par script et le cylindre est un objet FreeCAD standard généré à partir de l\'atelier Part.
 
-## Rendre les objets créés par script attachables {#rendre_les_objets_créés_par_script_attachables}
+## Rendre les objets créés par script attachables 
 
-### Ajouter une extension attachée {#ajouter_une_extension_attachée}
+### Ajouter une extension attachée 
 
 Tout d\'abord, nous devons ajouter l\'extension Part::AttachExtensionPython à notre objet Part::FeaturePython dans le constructeur, ou la méthode __init__ de notre objet créé par script personnalisé.
 
@@ -37,7 +37,7 @@ Sans ce code, nous verrions la boîte de dialogue d\'avertissement suivante lors
 
 ![](images/Part-attachment-warning-dialog.png )
 
-### Mis à jour de la position en fonction de l\'objet attaché {#mis_à_jour_de_la_position_en_fonction_de_lobjet_attaché}
+### Mis à jour de la position en fonction de l\'objet attaché 
 
 Ensuite, dans la méthode *execute* de notre script personnalisé, nous devons appeler le *positionBySupport* sur notre objet *Part::FeaturePython*.
 
@@ -53,7 +53,7 @@ class Box:...
 
 Si positionBySupport n\'est pas appelé, notre objet personnalisé crée par script ne mettra pas à jour sa position lorsque la position de l\'objet attaché change.
 
-## Exemple minimal complet {#exemple_minimal_complet}
+## Exemple minimal complet 
 
  {.python .numberLines}
 import FreeCAD as App
@@ -126,7 +126,7 @@ document.recompute()
 -   [FreeCAD Forum - Port attachment to be an extension](https://forum.freecadweb.org/viewtopic.php?f=10&t=18978&start=10)
 -   [GitHub - freecad-part-attachment-python-example](https://github.com/gbroques/freecad-part-attachment-python-example)
 
-## Testé avec la version FreeCAD {#testé_avec_la_version_freecad}
+## Testé avec la version FreeCAD 
 
 Testé avec la version suivante de FreeCAD:
 

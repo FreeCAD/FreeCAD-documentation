@@ -17,7 +17,7 @@ Die FreeCAD Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wi
 1.  Die im Dialogfeld Anpassen verfügbaren Befehle hängen von den Arbeitsbereichen ab, die in der aktuellen FreeCAD Sitzung geladen wurden. Du solltest also zunächst alle Arbeitsbereiche laden, auf deren Befehle du Zugriff haben möchtest.
 2.  Es gibt mehrere Wege, das Dialogfeld <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std DlgAnpassen](Std_DlgCustomize/de.md) aufzurufen:
     -   Wähle die {{MenuCommand/de|Werkzeuge → <img src="images/Std_DlgCustomize.svg" width=16px> Anpassen...}} Option aus dem Menü.
-    -   Rechtsklicke einen Werkzeugleistenbereich und wähle {{MenuCommand|<img src="images/Std_DlgCustomize.svg" width=16px> Anpaasen...}} aus dem Kontextmenü.
+    -   Rechtsklicke einen Werkzeugleistenbereich und wähle **<img src="images/Std_DlgCustomize.svg" width=16px> Anpaasen...** aus dem Kontextmenü.
 3.  Ein Dialogfeld Anpassen öffnet sich. Für weitere Informationen siehe [Optionen](#Optionen.md).
 4.  Die **Hilfe** Schaltfläche funktioniert zur Zeit nicht.
 5.  Drücke die **Schließen** Schaltfläche um das Dialogfeld zu schließen.
@@ -32,7 +32,7 @@ Im Dialogfeld Anpassen sind die folgenden Reiter verfügbar:
 
 Auf diesem Reiter kannst Du die verfügbaren Befehle durchsuchen.
 
-#### Befehle durchsuchen {#befehle_durchsuchen}
+#### Befehle durchsuchen 
 
 1.  Wähle eine Befehlskategorie im **Kategorie** Paneel auf der linken Seite. Einige Kategorien entsprechen Menüeinträgen.
 2.  Die in der gewählten Kategorie verfügbaren Werkzeuge werden im Paneel auf der rechten Seite angezeigt.
@@ -47,7 +47,7 @@ Auf diesem Reiter kannst Du die verfügbaren Befehle durchsuchen.
 
 Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. Tastaturkürzel für Makrobefehle können auf dem [Makros](#Makros.md) Reiter definiert werden.
 
-#### Hinzufügen eines benutzerdefinierten Tastenkürzels {#hinzufügen_eines_benutzerdefinierten_tastenkürzels}
+#### Hinzufügen eines benutzerdefinierten Tastenkürzels 
 
 1.  Wähle eine Befehlskategorie aus der Aufklappliste **Kategorie**.
 2.  Wähle einen Befehl aus dem **Befehle** Paneel.
@@ -57,17 +57,17 @@ Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. T
 6.  Drücke die Taste **Zuweisen**, um das neue Tastenkürzel zuzuweisen.
 7.  Drücke die Schaltfläche **Löschen**, um das eingegebenen Tastenkürzel zu entfernen. Dadurch wird auch der Inhalt des Feldes **Aktuelle Tastenkombination** entfernt. Beachte, dass Standardverknüpfungen nicht dauerhaft entfernt werden. Sie werden beim Neustart von FreeCAD wiederhergestellt.
 
-#### Entfernen eines benutzerdefinierten Tastenkürzels {#entfernen_eines_benutzerdefinierten_tastenkürzels}
+#### Entfernen eines benutzerdefinierten Tastenkürzels 
 
 1.  Wähle eine Befehlskategorie aus der Ausklappliste **Kategorie**.
 2.  Wähle einen Befehl aus dem **Befehle** Paneel.
 3.  Drücke die **Zurücksetzen** Taste.
 
-#### Alle benutzerdefinierten Tastenkürzel entfernen {#alle_benutzerdefinierten_tastenkürzel_entfernen}
+#### Alle benutzerdefinierten Tastenkürzel entfernen 
 
 1.  Drücke die **Alles Zurücksetzen** Schaltfläche.
 
-#### Hinweise (Tastatur) {#hinweise_tastatur}
+#### Hinweise (Tastatur) 
 
 -   Tastenkürzel funktionieren nur, wenn ihre Befehle im Standardmenü oder im Menü eines Arbeitsbereichs erscheinen, die in der aktuellen FreeCAD Sitzung geladen wurde, oder wenn ihre Befehle in einer *sichtbaren* Werkzeugleiste erscheinen.
 
@@ -82,29 +82,29 @@ Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. T
 
 Auf diesem Reiter kann die [Arbeitsbereichswählerliste](Std_Workbench/de.md) geändert werden. Die Liste **Aktivierte Arbeitsbereiche** zeigt die Arbeitsbereiche, wie sie in der Arbeitsbereichsauswahl erscheinen werden.
 
-#### Deaktivieren eines Arbeitsbereichs {#deaktivieren_eines_arbeitsbereichs}
+#### Deaktivieren eines Arbeitsbereichs 
 
 1.  Wähle einen Arbeitsbereich in der Liste **Aktivierte Arbeitsbereiche** aus.
 2.  Drücke die **<img src="images/Button_left.svg" width=16px>** Taste.
 3.  Der Arbeitsbereich wird in die Liste **Deaktivierte Arbeitsbereiche** verschoben.
 
-#### Wieder-aktiviere einen Arbeitsbereich {#wieder_aktiviere_einen_arbeitsbereich}
+#### Wieder-aktiviere einen Arbeitsbereich 
 
 1.  Wähle einen Arbeitsbereich in der Liste **Deaktivierte Arbeitsbereiche** aus.
 2.  Drücke die Taste **<img src="images/Button_right.svg" width=16px>**.
 3.  Der Arbeitsbereich wird in die Liste **Aktivierte Arbeitsbereiche** verschoben.
 
-#### Wieder-aktiviere alle Arbeitsbereiche {#wieder_aktiviere_alle_arbeitsbereiche}
+#### Wieder-aktiviere alle Arbeitsbereiche 
 
 1.  Drücke die **<img src="images/Button_add_all.svg" width=16px>** Schaltfläche.
 
-#### Ändern einer Arbeitsbereichsposition {#ändern_einer_arbeitsbereichsposition}
+#### Ändern einer Arbeitsbereichsposition 
 
 1.  Wähle einen Arbeitsbereich in der Liste \"aktive Arbeitsbereiche\" aus.
 2.  Drücke die Taste **<img src="images/Button_up.svg" width=16px>** oder **<img src="images/Button_down.svg" width=16px>**.
 3.  Wiederhole bis sich der Arbeitsbereich in der richtigen Position befindet.
 
-#### Arbeitsbereiche alphabetisch sortieren {#arbeitsbereiche_alphabetisch_sortieren}
+#### Arbeitsbereiche alphabetisch sortieren 
 
 1.  Drücke die **<img src="images/Button_sort.svg" width=16px>** Schaltfläche.
 
@@ -116,36 +116,36 @@ Auf diesem Reiter kann die [Arbeitsbereichswählerliste](Std_Workbench/de.md) ge
 
 Auf diesem Reiter können benutzerdefinierte Werkzeugleisten erstellt und geändert werden.
 
-#### Wählen des Arbeitsbereichs {#wählen_des_arbeitsbereichs}
+#### Wählen des Arbeitsbereichs 
 
 1.  Wähle in der Dropdown-Liste auf der rechten Seite den Arbeitsbereich dessen Werkzeugleiste du verändern möchtest. Die Option {{Value|Global}} ist für Toolbars, die in allen Arbeitsbereichen zur Verfügung stehen sollen.
 
-#### Werkzeugleiste erstellen {#werkzeugleiste_erstellen}
+#### Werkzeugleiste erstellen 
 
 1.  Drücke die Taste **New...**.
 2.  Gib deiner neuen Werkzeugleiste einen Namen in der Dialog-Box, die sich öffnet.
 3.  Drücke die Taste **OK**.
 4.  Die neue Werkzeugleiste erscheint in der Liste auf der rechten Seite.
 
-#### Umbenennen einer Werkzeugleiste {#umbenennen_einer_werkzeugleiste}
+#### Umbenennen einer Werkzeugleiste 
 
 1.  Wähle eine Werkzeugleiste in der Liste auf der rechten Seite.
 2.  Drücke die Taste **Rename...**.
 3.  Gib einen neuen Namen in der Dialog-Box, die sich öffnet, ein.
 4.  Drücke die Taste **OK**.
 
-#### Löschen einer Werkzeugleiste {#löschen_einer_werkzeugleiste}
+#### Löschen einer Werkzeugleiste 
 
 1.  Wähle eine Werkzeugleiste in der rechten Liste.
 2.  Drücke die Taste **Delete**.
 
-#### Werkzeugleiste deaktivieren {#werkzeugleiste_deaktivieren}
+#### Werkzeugleiste deaktivieren 
 
 1.  Entferne das Häkchen vor der Werkzeugleiste in der rechten Liste.
 
 Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 
-#### Einen Befehl hinzufügen {#einen_befehl_hinzufügen}
+#### Einen Befehl hinzufügen 
 
 1.  Mindestens eine benutzerdefinierte Symbolleiste ist erforderlich. Siehe [Werkzeugleiste Erstellen](#Werkzeugleiste_erstellen.md).
 2.  Wähle die entsprechende Werkzeugleiste in der Liste auf der rechten Seite aus. Wenn keine Werkzeugleiste ausgewählt ist, wird dein neues Kommando zur ersten Werkzeugleiste in der Liste hinzugefügt.
@@ -154,20 +154,20 @@ Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 5.  Oder wähle \'\' um einen Abstandshalter hinzuzufügen (eine Trennlinie).
 6.  Drücke die Schaltfläche **<img src="images/Button_right.svg" width=16px>**.
 
-#### Entfernen eines Befehls {#entfernen_eines_befehls}
+#### Entfernen eines Befehls 
 
 1.  Falls erforderlich erweitere die Werkzeugleiste auf der rechten Seite.
 2.  Wähle die Schaltfläche aus, die du entfernen möchtest.
 3.  Drücke die Schaltfläche **<img src="images/Button_left.svg" width=16px>**.
 
-#### Ändern einer Befehlsposition {#ändern_einer_befehlsposition}
+#### Ändern einer Befehlsposition 
 
 1.  Falls notwendig öffne die Werkzeugleiste in der rechten Liste.
 2.  Wähle eine Schaltfläche aus.
 3.  Drücke die Taste **<img src="images/Button_up.svg" width=16px>** oder **<img src="images/Button_down.svg" width=16px>**.
 4.  Wiederhole das bis die Schaltfläche an der richtigen Position erscheint.
 
-#### Hinweise (Werkzeugleisten) {#hinweise_werkzeugleisten}
+#### Hinweise (Werkzeugleisten) 
 
 -   Werkzeugleisten, die zum aktuellen Arbeitsbereich gehören, werden sofort aktualisiert. Aber nach einer Aktivierung oder Deaktivierung einer Werkzeugleiste muss zunächst irgend ein anderer Arbeitsbereich ausgewählt werden um die Darstellung zu aktualisieren.
 -   Das Gleiche gilt für globale Werkzeugleisten. Auch hier muss erst ein anderer Arbeitsbereich aufgerufen werden um Änderungen (Hinzufügen oder Entfernen von Schaltflächen) zu aktualisieren. Falls die Reihenfolge von globalen Werkzeugleisten geändert wurde oder diese umbenannt wurden, braucht es sogar einen Neustart um die Änderungen anzuzeigen.
@@ -186,7 +186,7 @@ Wenn du ein Makro mit <img alt="" src=images/Std_AddonMgr.svg  style="width:16px
 
 Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell installieren. Dazu findest du mehr Informationen unter [How to install macros](How_to_install_macros.md).
 
-#### Hinzufügen eines Makrobefehls {#hinzufügen_eines_makrobefehls}
+#### Hinzufügen eines Makrobefehls 
 
 1.  Wähle ein Makro in der \"Makro\"-Dropdownliste.
 2.  Gib einen \"Menu text\" ein. Das ist der Name des Makros der auch in Werkzeugleisten angezeigt wird, wenn kein zugehöriges Icon vorhanden ist.
@@ -203,12 +203,12 @@ Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell i
 9.  Daraufhin erscheint das Makro in der linken Liste.
 10. Jetzt kann das Makro im [Toolbars](#Toolbars.md)-Tab ausgewählt werden.
 
-#### Entfernen eines Makrobefehls {#entfernen_eines_makrobefehls}
+#### Entfernen eines Makrobefehls 
 
 1.  Wähle ein Makro in der linken Liste aus.
 2.  Drücke die Schaltfläche **Remove**.
 
-#### Ändern eines Makrobefehls {#ändern_eines_makrobefehls}
+#### Ändern eines Makrobefehls 
 
 1.  Dopple-Klicke den Makrobefehl im Bedienfeld zur Linken.
 2.  Mach die erforderlichen Änderungen. Beachte, daß du Symbole nicht entfernen kannst. Du kannst sie nur ersetzen.
@@ -216,13 +216,13 @@ Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell i
 
 [Anfang](#top.md)
 
-### Spaceball Bewegung {#spaceball_bewegung}
+### Spaceball Bewegung 
 
 Wenn kein Spaceball erkannt wurde ist dieser Reiter leer. Siehe: [3DVerbindung Eingabegeräte](3Dconnexion_input_devices/de.md).
 
 [Anfang](#top.md)
 
-### Spaceball Tasten {#spaceball_tasten}
+### Spaceball Tasten 
 
 Wenn kein Spaceball erkannt wurde ist dieser Tab leer. Siehe: [3Dconnexion input devices](3Dconnexion_input_devices.md).
 

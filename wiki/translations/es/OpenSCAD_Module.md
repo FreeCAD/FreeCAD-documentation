@@ -43,7 +43,7 @@ La instalación general en todas las plataformas se puede hacer desde el índice
 pip3 install --user ply
 ```
 
-## OpenSCAD lenguaje y formato de archivo {#openscad_lenguaje_y_formato_de_archivo}
+## OpenSCAD lenguaje y formato de archivo 
 
 El lenguaje de OpenSCAD permite la utilización de variables y bucles. Permite especificar submódulos para reutilizar geometría y código. Esta alto grado de flexibilidad hace el análisis sintáctico muy complejo. Actualmente el módulo OpenSCAD en FreeCAD no puede manejar el lenguaje de OpenSCAD de forma nativa. En cambio si OpenSCAD está instalado, se puede utilizar para convertir la entrada en un formato de salida denominado \'CSG\'. Es un subconjunto del lenguaje OpenSCAD y se puede utilizar como la entrada de OpenSCAD para su procesamiento posterior. Durante la conversión todo el comportamiento paramétrico se pierde. Todos los nombres de variables serán desechados, los bucles expandidos y las expresiones matemáticas evaluadas.
 
@@ -85,7 +85,7 @@ OpenSCAD funciona internamente sobre mallas. Algunas operaciones que son útiles
 
 Cuando se importa [DXF](DXF/es.md) establecer la precisión Borrador a una cantidad sensible para que afecte a la detección de aristas conectadas.
 
-Si FreeCAD se cuelga importando CSG, es muy recomendable activar *automáticamente comprobar el modelo después de una operación booleana* en {{MenuCommand|Menú → Editar → Preferencias → DiseñoPiezas → Configuración del modelo}}
+Si FreeCAD se cuelga importando CSG, es muy recomendable activar *automáticamente comprobar el modelo después de una operación booleana* en **Menú → Editar → Preferencias → DiseñoPiezas → Configuración del modelo**
 
 ## Tutoriales
 

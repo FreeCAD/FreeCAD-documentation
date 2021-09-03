@@ -44,15 +44,15 @@ La Matrix est définies par trois vecteurs:
 
 Ici, v1,v2,v3 sont les secteurs définis dans les propriétés. Elles correspondent à la nouvelle direction par rapport aux axes originaux X,Y,Z.
 
-### Exemple de matrices {#exemple_de_matrices}
+### Exemple de matrices 
 
-#### Pas de transformation {#pas_de_transformation}
+#### Pas de transformation 
 
    1  0  0
    0  1  0
    0  0  1
 
-#### Echelle non uniforme {#echelle_non_uniforme}
+#### Echelle non uniforme 
 
    scaleX    0      0
       0   scaleY    0

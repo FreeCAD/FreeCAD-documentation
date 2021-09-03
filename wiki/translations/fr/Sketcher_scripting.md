@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Créer une contrainte en Python {#créer_une_contrainte_en_python}
+## Créer une contrainte en Python 
 
 Une contrainte géométrique, <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;">, et les contraintes spéciales <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) peuvent être créées à partir de macros et de la console Python en utilisant la commande suivante :
 
@@ -25,7 +25,7 @@ Le premier argument `ConstraintType` est décrit ci-dessous dans les [Types de c
 
 Une contrainte peut prendre jusqu\'à six arguments qui sont des arêtes ou indiquent quelle sous-partie d\'une arête est utilisée par la contrainte. Consultez la documentation des contraintes individuelles pour plus de détails sur les combinaisons d\'arêtes et de sous-parties d\'arêtes pouvant être passées en arguments. Le principal problème avec cette fonction est d\'identifier correctement le numéro de ligne et le numéro de sommet des lignes que vous souhaitez traiter. Les sections ci-dessous décrivent comment [identifier le numéro d\'une ligne](#Identifier_le_num.C3.A9ro_d.27une_ligne.md)) et comment [Identifier le numéro des sous-parties d\'une ligne](#Identifier_le_num.C3.A9ro_des_sous-parties_d.27une_ligne.md)).
 
-## Types de contraintes {#types_de_contraintes}
+## Types de contraintes 
 
 Pour les contraintes géométriques, le premier argument est l\'un des suivants. Voir la page de fonctionnalités correspondante pour les combinaisons d\'arguments possibles autorisées pour chaque contrainte.
 
@@ -141,7 +141,7 @@ Les contraintes de la <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  st
 
 La contrainte <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [fixe](Sketcher_ConstrainLock/fr.md) est une commande de l\'interface graphique qui crée une contrainte <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [distance horizontale](Sketcher_ConstrainDistanceX/fr.md) et une <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [distance verticale](Sketcher_ConstrainDistanceY/fr.md), ce n\'est pas une contrainte en soi.
 
-## Identifier le numéro d\'une ligne {#identifier_le_numéro_dune_ligne}
+## Identifier le numéro d\'une ligne 
 
 J\'ai dessiné trois lignes comme indiqué dans la figure suivante.
 
@@ -161,7 +161,7 @@ Les nombres positifs indiquent les arêtes d\'esquisse (lignes droites, cercles,
 
 -    `-n`désigne le numéro de l\'élément de géométrie externe `n-3` (par exemple, l\'élément de géométrie externe avec l\'indice 0 dans la liste aplatie `App.ActiveDocument.Sketch.ExternalGeometry` serait désigné par -3, l\'élément suivant dans la liste aplatie serait -4 et ainsi de suite).
 
-## Identifier le numéro des sous-parties d\'une ligne {#identifier_le_numéro_des_sous_parties_dune_ligne}
+## Identifier le numéro des sous-parties d\'une ligne 
 
 Pour déterminer quelle partie d\'une ligne est affectée par une contrainte, les valeurs suivantes peuvent être utilisées :
 

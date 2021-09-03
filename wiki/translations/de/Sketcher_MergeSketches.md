@@ -14,7 +14,7 @@ Eine oder mehrere Skizzen in einer Skizze zusammenführen.
 ## Anwendung
 
 1.  Wähle eine oder mehrere Skizzen.
-2.  Klick auf **<img src="images/Sketcher_MergeSketches.svg" width=16px> [Skizzen zusammenführen](Sketcher_MergeSketches.md)** oder wähle {{MenuCommand|Skizze → <img src="images/Sketcher_MergeSketches.svg" width=16px> [Skizzen zusammenführen](Sketcher_MergeSketches/de.md)}} aus dem oberen Menü.
+2.  Klick auf **<img src="images/Sketcher_MergeSketches.svg" width=16px> [Skizzen zusammenführen](Sketcher_MergeSketches.md)** oder wähle **Skizze → <img src="images/Sketcher_MergeSketches.svg" width=16px> [Skizzen zusammenführen](Sketcher_MergeSketches/de.md)** aus dem oberen Menü.
 3.  Die resultierende Skizze wird als gesondertes neues Objekt erzeugt.
 
 

@@ -1,6 +1,6 @@
  This page lists the templates according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
 
-### Arch A {#arch_a}
+### Arch A 
 
 #### Arch\_A\_Landscape
 
@@ -10,7 +10,7 @@
 
 <img alt="" src=images/Arch_A_Portrait.svg  style="width:800px;">
 
-### Arch B {#arch_b}
+### Arch B 
 
 #### Arch\_B\_Landscape
 
@@ -20,7 +20,7 @@
 
 <img alt="" src=images/Arch_B_Portrait.svg  style="width:800px;">
 
-### Arch C {#arch_c}
+### Arch C 
 
 #### Arch\_C\_Landscape
 
@@ -30,7 +30,7 @@
 
 <img alt="" src=images/Arch_C_Portrait.svg  style="width:800px;">
 
-### Arch D {#arch_d}
+### Arch D 
 
 #### Arch\_D\_Landscape
 
@@ -40,7 +40,7 @@
 
 <img alt="" src=images/Arch_D_Portrait.svg  style="width:800px;">
 
-### Arch E {#arch_e}
+### Arch E 
 
 #### Arch\_E\_Landscape
 
@@ -50,7 +50,7 @@
 
 <img alt="" src=images/Arch_E_Portrait.svg  style="width:800px;">
 
-### Arch E1 {#arch_e1}
+### Arch E1 
 
 #### Arch\_E1\_Landscape
 
@@ -60,7 +60,7 @@
 
 <img alt="" src=images/Arch_E1_Portrait.svg  style="width:800px;">
 
-### Arch E2 {#arch_e2}
+### Arch E2 
 
 #### Arch\_E2\_Landscape
 
@@ -70,7 +70,7 @@
 
 <img alt="" src=images/Arch_E2_Portrait.svg  style="width:800px;">
 
-### Arch E3 {#arch_e3}
+### Arch E3 
 
 #### Arch\_E3\_Landscape
 
@@ -80,7 +80,7 @@
 
 <img alt="" src=images/Arch_E3_Portrait.svg  style="width:800px;">
 
-## Other standards available {#other_standards_available}
+## Other standards available 
 
 -   [Drawing templates](Drawing_templates.md): default FreeCAD templates
 -   [ANSI templates](ANSI_templates.md): according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard

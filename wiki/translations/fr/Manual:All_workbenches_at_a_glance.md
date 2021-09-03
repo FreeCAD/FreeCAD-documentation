@@ -10,7 +10,7 @@ L\'une des plus grandes difficultés pour les nouveaux utilisateurs de FreeCAD e
 
 Quatre ateliers sont également conçus pour travailler par paires, et l\'un d\'entre eux est entièrement inclus dans l\'autre : Arch contient tous les outils Draft, et PartDesign tous les outils Sketcher. Cependant, pour plus de clarté, ils sont séparés ci-dessous.
 
-### Atelier Part (Pièces) {#atelier_part_pièces}
+### Atelier Part (Pièces) 
 
 L'atelier Part fournit des outils de base pour travailler avec des pièces solides : primitives, telles que cubes et sphères, des opérations géométriques simples et des opérations Booléennes. Êtant le principal point d\'ancrage avec [OpenCasCade](https://fr.wikipedia.org/wiki/Open_CASCADE_Technology), l'atelier Part fournit la base du système de géométrie de FreeCAD, et presque tous les autres ateliers produisent une géométrie partielle.
 
@@ -30,7 +30,7 @@ L'atelier Part fournit des outils de base pour travailler avec des pièces solid
   <img alt="" src=images/Part_Loft.svg  style="width:32px;"> [Part\_Loft](Part_Loft.md)                                       Crée un lissage d\'un profil jusqu\'à un autre profil ou d\'une série de profils                     <img alt="" src=images/Part_Offset.svg  style="width:32px;"> [Décalage](Part_Offset/fr.md)                                       Crée une copie décalée de l\'objet sélectionné
   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [Epaisseur](Part_Thickness/fr.md)                      Affecte une épaisseur aux faces d\'une forme                                                                                                                                                                                            
 
-### Atelier Draft (Planche à dessin) {#atelier_draft_planche_à_dessin}
+### Atelier Draft (Planche à dessin) 
 
 L'atelier Planche à dessin (Draft) fournit des outils pour effectuer des tâches de dessin de base en 2D : lignes, cercles, etc. et une série d\'outils génériques utiles tels que le déplacement, la rotation ou le changement d\'échelle. Il fournit également plusieurs aides au dessin, telles que la grille et l\'accrochage. Il s\'agit principalement de dessiner les lignes directrices pour des objets Arch, mais sert également de «couteau suisse» de FreeCAD.
 
@@ -51,7 +51,7 @@ L'atelier Planche à dessin (Draft) fournit des outils pour effectuer des tâche
   <img alt="" src=images/Draft_Clone.svg  style="width:32px;"> [Clone](Draft_Clone/fr.md)                                       Crée un clone lié (dépendant) de l'objet sélectionné                                                                                                                                                                             
   <img alt="" src=images/Draft_Mirror.svg  style="width:32px;"> [Symétrie](Draft_Mirror/fr.md)                                 Copie d\'objets par symétrie par rapport à une droite                                                                                                                                                                            
 
-### Atelier Sketcher (Esquisses) {#atelier_sketcher_esquisses}
+### Atelier Sketcher (Esquisses) 
 
 L'atelier Sketcher contient des outils pour créer et modifier des objets 2D complexes, appelés des esquisses. La géométrie à l\'intérieur de ces esquisses peut être positionnée avec précision et reliée par l\'utilisation de contraintes. Elles sont principalement destinées à être les éléments constitutifs de la géométrie PartDesign, mais sont utiles partout dans FreeCAD.
 
@@ -79,7 +79,7 @@ L'atelier Sketcher contient des outils pour créer et modifier des objets 2D com
   <img alt="" src=images/Constraint_InternalAlignment.png  style="width:32px;"> [Alignement interne](Sketcher_ConstrainInternalAlignment/fr.md)   aligne les éléments selectionnés à la forme sélectionnée (par exemple, contraint une ligne à devenir le grand axe d\'une ellipse).                    <img alt="" src=images/Sketcher_MapSketch.png  style="width:32px;"> [Appliquer une Esquisse](Sketcher_MapSketch/fr.md)                                    applique une esquisse sur une face ou un solide sélectionné.
   <img alt="" src=images/Sketcher_MergeSketch.svg  style="width:32px;"> [Fusionner des esquisses](Sketcher_MergeSketches/fr.md)                           fusionner deux (ou plus) esquisses.                                                                                                                   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Esquisse miroir](Sketcher_MirrorSketch/fr.md)                                  crée une esquisse symétrique selon l\'axe X, l\'axe Y ou l\'origine.
 
-### Atelier Part Design (Conception de pièces) {#atelier_part_design_conception_de_pièces}
+### Atelier Part Design (Conception de pièces) 
 
 L\'atelier Part Design (conception de pièces) contient des outils avancés pour créer des pièces solides. Il contient également tous les outils du sketcher. Comme il ne peut produire que des formes solides (la règle numéro 1 de Part Design), c\'est l\'atelier principal à utiliser lors de la conception de pièces (parts) à fabriquer ou imprimer en 3D, car vous obtiendrez toujours un objet imprimable.
 
@@ -93,7 +93,7 @@ L\'atelier Part Design (conception de pièces) contient des outils avancés pour
   <img alt="" src=images/PartDesign_Scaled.png  style="width:32px;"> [Echelle](PartDesign_Scaled/fr.md)                                           Copie une fonction à une échelle différente                                                      <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Transformation multiple](PartDesign_MultiTransform/fr.md)        Crée une transformation multiple d'une fonction.
   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Assistant de conception d\'arbre](PartDesign_WizardShaft/fr.md)   Génère un arbre à partir d\'un tableau de valeurs et permet d\'analyser les forces et moments.   <img alt="" src=images/PartDesign_InvoluteGear.png  style="width:32px;"> [Assitant de création d\'engrenages](PartDesign_InvoluteGear/fr.md)   Permet de créer différents types d'engrenages.
 
-### Atelier Arch (Architecture) {#atelier_arch_architecture}
+### Atelier Arch (Architecture) 
 
 L\'atelier Architecture (ou « Arch » pour faire court) fournit à FreeCAD les outils pour travailler avec les projets [BIM](https://en.wikipedia.org/wiki/Building_information_modeling) (Génie civil et architecture). Il dispose également de tous les outils de l\'atelier Draft. La principale utilisation de l\'atelier Arch est de créer des objets BIM ou de donner des attributs BIM à des objets créés avec d\'autres ateliers, de façon à pouvoir les exporter au format [IFC](https://en.wikipedia.org/wiki/Industry_Foundation_Classes).
 
@@ -111,7 +111,7 @@ L\'atelier Architecture (ou « Arch » pour faire court) fournit à FreeCAD le
   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Ajouter](Arch_Add/fr.md)                        Ajouter un objet à un composant.                                           <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Retirer](Arch_Remove/fr.md)                           Retirer ou effacer un objet d\'un composant.
   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Infos](Arch_Survey/fr.md)                 Active ou quitte le mode Informations.                                                                                                                                                           
 
-### Atelier Drawing (Mise en plan) {#atelier_drawing_mise_en_plan}
+### Atelier Drawing (Mise en plan) 
 
 
 {{VeryImportantMessage|Le développement de [atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté dans FreeCAD 0.16, et le nouveau [atelier TechDraw](TechDraw_Workbench/fr.md) visant à le remplacer a été introduit en v0.17. Le plan de travail de dessin peut être supprimé dans les versions ultérieures. Utilisez plutôt l'atelier TechDraw.}}
@@ -126,7 +126,7 @@ L\'atelier Drawing (mise en plan) vous permet de coucher sur papier votre projet
   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> [Symbole](Drawing_Symbol/fr.md)                                        Ajoute le contenu d\'un fichier SVG en tant que symbole sur la feuille de dessin en cours.   <img alt="" src=images/Draft_Drawing.png  style="width:32px;"> [Vue de détail](Draft_Drawing/fr.md)                      Insère une vue de détail de l\'objet sélectionné dans la feuille de dessin en cours.
   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Sauvegarder](Drawing_Save/fr.md)                                          Exporte la feuille de dessin dans un fichier au format SVG.                                                                                                                                                               
 
-### Autres ateliers de travail intégrés {#autres_ateliers_de_travail_intégrés}
+### Autres ateliers de travail intégrés 
 
 Bien que ce qui précède résume les outils les plus importants de FreeCAD, beaucoup d\'autres ateliers sont disponibles, parmi lesquels :
 
@@ -135,7 +135,7 @@ Bien que ce qui précède résume les outils les plus importants de FreeCAD, bea
 -   L'atelier [Spreadsheet (feuille de calcul)](Spreadsheet_Workbench/fr.md) permet la création et la manipulation de données de tableur, qui peuvent être extraites des modèles FreeCAD. Les cellules de feuille de calcul peuvent également être référencées dans de nombreux domaines de FreeCAD, ce qui permet de les utiliser comme structures de données de base.
 -   L'atelier [FEM](FEM_Workbench/fr.md) traite de l\'analyse par éléments finis ([Finite Elements Analysis](https://en.wikipedia.org/wiki/Finite_element_method)) et permet d\'effectuer des calculs de résistance pré et post-traitement et d\'afficher les résultats graphiquement.
 
-### Ateliers externes {#ateliers_externes}
+### Ateliers externes 
 
 Un certain nombre d\'autres ateliers très utiles produits par les membres de la communauté FreeCAD existent également. Bien qu\'ils ne soient pas inclus dans une installation standard de FreeCAD, ils sont faciles à installer en tant que plug-ins. Ils sont tous référencés dans le dépôt [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons). Parmi les plus développés se trouvent les suivants :
 

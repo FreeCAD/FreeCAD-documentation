@@ -36,7 +36,7 @@ The profile tool is also integrated to the [Arch Structure](Arch_Structure.md) t
 
 -    **Flange Thickness**: The thickness of the profile flange (H and I profiles only)
 
-## Adding custom profiles {#adding_custom_profiles}
+## Adding custom profiles 
 
 An additional CSV file can be created by the user, containing custom profile definitions. It must be named `profiles.csv`, and placed in 
 ```python

@@ -7,7 +7,7 @@
 
 ## Introduction
 
-The preferences of the [TechDraw Workbench](TechDraw_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), {{MenuCommand|Edit → Preferences → TechDraw}}.
+The preferences of the [TechDraw Workbench](TechDraw_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → TechDraw**.
 
 All preferences settings with *italic* labels are default values for new drawing objects. They have no effect on existing objects.
 
@@ -15,7 +15,7 @@ All preferences settings with *italic* labels are default values for new drawing
 
 <img alt="General preferences" src=images/TechDraw_PreferencesGeneral.png  style="width:350px;">
 
-### Drawing Update {#drawing_update}
+### Drawing Update 
 
 
 <small>(v0.19)</small> 
@@ -49,13 +49,13 @@ All preferences settings with *italic* labels are default values for new drawing
 
 <img alt="Scale preferences" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
 
-### Scale {#scale_1}
+### Scale 
 
 -   **Page Scale**: Default scale for new pages.
 -   **View Scale Type**: Default scale for new views.
 -   **View Custom Scale**: Default scale for views if **View Scale Type** is *Custom*.
 
-### Size Adjustments {#size_adjustments}
+### Size Adjustments 
 
 -   **Vertex Scale**: Scale of [vertex](Glossary#V.md) dots. Multiplier of line width.
 -   **Center Mark Scale**: Size of center marks. Multiplier of vertex size.
@@ -66,7 +66,7 @@ All preferences settings with *italic* labels are default values for new drawing
 
 <img alt="Dimensions preferences" src=images/TechDraw_PreferencesDimensions.png  style="width:350px;">
 
-### Dimensions {#dimensions_1}
+### Dimensions 
 
 -   **Standard and Style**: The standard to be used for dimensional values. The difference between the standards are shown in the image: <img alt="Differences between the supported standards. ([Image source" src=images/https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png  style="width:500px;">
 
@@ -162,11 +162,11 @@ HLR stands for *hidden line removal*.
 -   **Max SVG Hatch Tiles**: The limit of SVG tiles with a size of 64x64 pixels used to hatch a single face. For large scalings one might get an error about to many SVG tiles, then one needs to increase the tile limit.
 -   **Max PAT Hatch Segments**: The maximum hatch line segments used when hatching a face with a PAT pattern.
 
-## Hidden Settings {#hidden_settings}
+## Hidden Settings 
 
 \'\'\'Note: \'\'\' Since FreeCAD 0.19, all settings are available in the Preferences dialogs. The following only applies for FreeCAD versions older than 0.19:
 
-Some preference settings are only accessible through the [Parameter editor](Std_DlgParameter.md), {{MenuCommand|Tools → Edit parameters}}.
+Some preference settings are only accessible through the [Parameter editor](Std_DlgParameter.md), **Tools → Edit parameters**.
 
 ### Preferences/Mod/TechDraw/Decorations
 

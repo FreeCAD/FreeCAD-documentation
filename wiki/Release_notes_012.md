@@ -8,7 +8,7 @@ Older versions: [0.11](Release_notes_011.md)
 
 ![](images/FreeCAD_start_center.jpg )
 
-### Sketcher & PartDesign {#sketcher_partdesign}
+### Sketcher & PartDesign 
 
 <img alt="" src=images/Rim_bling.png  style="width:800px;">
 
@@ -26,7 +26,7 @@ Older versions: [0.11](Release_notes_011.md)
 
 -   Included in the Arch module is also a growing collection of tools to make the process of working with Mesh objects from other applications such as [Blender](http://www.blender.org) easier. Mesh objects, if well modeled, can easily and automatically be turned into clean shapes, and then into parametric Arch objects.
 
-### 2D Drafting {#d_drafting}
+### 2D Drafting 
 
 ![](images/Draft_taskview.jpg )
 

@@ -32,7 +32,7 @@ Cet outil permet de rajouter des sur-découpes dans le cas d\'angles intérieurs
 
 <div class="mw-translate-fuzzy">
 
-## Limitations {#limitations_1}
+## Limitations 
 
 Pour déterminer le tracé de correction des coins, il faut un segment droit (G1) avant et après le coin où la correction doit être insérée.
 

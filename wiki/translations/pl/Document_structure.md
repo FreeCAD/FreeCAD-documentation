@@ -14,7 +14,7 @@ Wewnątrz dokumentu FreeCAD mogą znajdować się obiekty różnych typów. Każ
 
 Jeśli w FreeCAD jest przynajmniej jeden dokument otwarty, zawsze jest jeden i tylko jeden aktywny dokument. Jest to dokument, który pojawia się w bieżącym widoku 3D, dokument nad którym aktualnie pracujesz.
 
-## Aplikacja i Interfejs Użytkownika {#aplikacja_i_interfejs_użytkownika}
+## Aplikacja i Interfejs Użytkownika 
 
 Jak niemal wszystko w programie FreeCAD, interfejs użytkownika *(Gui)* jest odseparowany od programu bazowego *(App)*. Dotyczy to także dokumentów. Dokumenty złożone są z dwóch części:
 dokument Aplikacji, który zawiera nasze obiekty i dokument Widoku, który zawiera reprezentację naszych obiektów na ekranie.
@@ -23,7 +23,7 @@ Myśl o tym jako o dwóch miejscach, gdzie są zdefiniowane obiekty. Ich paramet
 
 Kolejną rzeczą zawartą w dokumencie Widoku są widoki 3D. Jeden dokument może być otwarty w kilku widokach, więc możesz kontrolować obiekt w kilku punktach widoku w tym samym czasie. Może chcesz zobaczyć widok z góry i z przodu twojej pracy w tym samym czasie? Wtedy masz dwa widoki tego samego dokumentu, oba zmagazynowane w dokumencie Widoku,. Tworzenie nowych lub zamykanie widoków może być dokonywane przez menu Widoku lub kliknięcie prawym przyciskiem w zakładkę widoków.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Dokumenty mogą być łatwo tworzone, otwierane and modyfikowane przez interpreter [Python](Python/pl.md). Na przykład: 
 ```python

@@ -10,7 +10,7 @@ Crea un solido parametrico a forma di cuneo. Il cuneo di default ha una base qua
 
 ## Utilizzo
 
-### Dimensioni e posizionamento di default {#dimensioni_e_posizionamento_di_default}
+### Dimensioni e posizionamento di default 
 
 **Posizionamento:** Il posizionamento predefinito pone la base nel piano XZ e la parte superiore verso l\'esterno nella direzione dell\'asse Y. L\'angolo base di default è l\'origine 0,0,0.
 
@@ -30,7 +30,7 @@ Crea un solido parametrico a forma di cuneo. Il cuneo di default ha una base qua
 
 ![](images/PartWedgeProperty.png ) 
 
-### Parametri di input {#parametri_di_input}
+### Parametri di input 
 
 +------------------------------------------------------------------+-------------------------------------------------------------------+
 | ![](images/PartWedgeProperty_Inputs.png ) | Usando il posizionamento predefinito, gli input sottostanti sono: |
@@ -61,7 +61,7 @@ Crea un solido parametrico a forma di cuneo. Il cuneo di default ha una base qua
 |                                                                  |     : Estensione sull\'asse Z della faccia superiore              |
 +------------------------------------------------------------------+-------------------------------------------------------------------+
 
-### Altri esempi di cunei {#altri_esempi_di_cunei}
+### Altri esempi di cunei 
 
 ![](images/Wedge_examples.png )
 

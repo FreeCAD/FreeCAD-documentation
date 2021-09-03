@@ -14,7 +14,7 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
 
 ## Utilisation
 
-### Déroulement du travail basé sur la boîte de dialogue {#déroulement_du_travail_basé_sur_la_boîte_de_dialogue}
+### Déroulement du travail basé sur la boîte de dialogue 
 
 1.  Appuyez sur le bouton **<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Lisser un profil sélectionné...](PartDesign_SubtractiveLoft/fr.md)**.
 2.  Dans la boîte de dialogue **Sélectionner une fonction**, sélectionnez une esquisse à utiliser comme objet de profil de base et cliquez sur **OK**.
@@ -23,7 +23,7 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
 4.  Sélectionnez l\'esquisse suivante dans la [vue 3D](3D_view/fr.md). Répétez pour sélectionner d\'autres esquisses dans l\'ordre dans lequel vous voulez qu\'elles soient lissées. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la boîte de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée. {{Version/fr|0.19}})
 5.  Définissez les options si nécessaire et cliquez sur **OK**.
 
-### Déroulement du travail basé sur la sélection {#déroulement_du_travail_basé_sur_la_sélection}
+### Déroulement du travail basé sur la sélection 
 
 
 {{Version/fr|0.19}}

@@ -24,9 +24,9 @@ Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_S
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Line.svg" width=16px> [Utwórz linię ...](Draft_Line.md)**.
-    -   Wybierz z menu opcję {{MenuCommand|Kreślenie → <img src="images/Draft_Line.svg" width=16px> Linia}} opcję z menu.
+    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Line.svg" width=16px> Linia** opcję z menu.
     -   Użyj skrótu klawiaturowego: **L**, a następnie **I**.
-2.  Otworzy się panel zadań {{MenuCommand|Linia}}. Aby uzyskać więcej informacji, zobacz [Opcje](#Opcje.md).
+2.  Otworzy się panel zadań **Linia**. Aby uzyskać więcej informacji, zobacz [Opcje](#Opcje.md).
 3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
 4.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
 
@@ -35,12 +35,12 @@ Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_S
 Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z, i naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza okno [widoku 3D](3D_view/pl.md).
--   Aby użyć współrzędnych biegunowych, wprowadź wartość dla {{MenuCommand|Długości}} i wartość dla {{MenuCommand|Kąta}}, a następnie naciśnij klawisz **Enter** po każdej z nich.
--   Zaznacz pole wyboru {{MenuCommand|kąt}}, aby związać kursor do określonego kąta. Aby funkcja działała, pole wejściowe {{MenuCommand|Długość}} musi przyjmować wartość niezerową.
--   Naciśnij klawisz **H**, aby zmienić aktywność z pola wprowadzania {{MenuCommand|X}} na pole wprowadzania {{MenuCommand|Długość}} i z powrotem. W zależności od pola wejściowego, które otrzymuje aktywność, pole wyboru {{MenuCommand|Kąt}} jest zaznaczane lub odznaczane.
--   Naciśnij klawisz **R** lub kliknij pole wyboru {{MenuCommand|Względnie}}, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu odnoszą się do pierwszego punktu, w przeciwnym razie odnoszą się do początku układu współrzędnych.
--   Naciśnij klawisz **G** lub kliknij pole wyboru {{MenuCommand|Globalnie}}, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do głównego układu współrzędnych, w przeciwnym razie do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
--   Naciśnij klawisz **T** lub kliknij pole wyboru {{MenuCommand|Kontynuuj}}, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, pozwalając Ci kontynuować tworzenie linii.
+-   Aby użyć współrzędnych biegunowych, wprowadź wartość dla **Długości** i wartość dla **Kąta**, a następnie naciśnij klawisz **Enter** po każdej z nich.
+-   Zaznacz pole wyboru **kąt**, aby związać kursor do określonego kąta. Aby funkcja działała, pole wejściowe **Długość** musi przyjmować wartość niezerową.
+-   Naciśnij klawisz **H**, aby zmienić aktywność z pola wprowadzania **X** na pole wprowadzania **Długość** i z powrotem. W zależności od pola wejściowego, które otrzymuje aktywność, pole wyboru **Kąt** jest zaznaczane lub odznaczane.
+-   Naciśnij klawisz **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu odnoszą się do pierwszego punktu, w przeciwnym razie odnoszą się do początku układu współrzędnych.
+-   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do głównego układu współrzędnych, w przeciwnym razie do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij klawisz **T** lub kliknij pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, pozwalając Ci kontynuować tworzenie linii.
 -   Przycisk {{button|<img src="images/Draft_UndoLine.svg" width=16px> Cofnij}} nie ma zastosowania w tym poleceniu.
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby przerwać polecenie.
@@ -54,15 +54,15 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania wartości współrzędnych długości i kątów: {{MenuCommand|Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku}}.
--   Aby zmienić wartość początkową trybu wypełnienia: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe}}. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
--   Jeśli opcja {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe}} jest zaznaczona, polecenie utworzy [Linia](Part_Line/pl.md) środowiska Część, zamiast środowiska Rysunek Roboczy.
+-   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania wartości współrzędnych długości i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
+-   Aby zmienić wartość początkową trybu wypełnienia: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
+-   Jeśli opcja **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe** jest zaznaczona, polecenie utworzy [Linia](Part_Line/pl.md) środowiska Część, zamiast środowiska Rysunek Roboczy.
 
 ## Właściwości
 
 Zobacz stronę [polilinia](Draft_Wire/pl#W.C5.82a.C5.9Bciwo.C5.9Bci.md).
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 

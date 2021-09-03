@@ -8,7 +8,7 @@
 
 ## Usage
 
-### Geometric Primitives {#geometric_primitives}
+### Geometric Primitives 
 
 +--------------------------------------------------------------------------+-------------------------------+
 | ![](images/PartLinePrimitivesOptions_it.png ) | Line                          |

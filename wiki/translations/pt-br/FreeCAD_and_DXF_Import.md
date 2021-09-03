@@ -10,11 +10,11 @@ Since FreeCAD version 0.18 there is a new C++ DXF importer, and since version 0.
 
 To use the older, legacy, DXF importer and exporter you need to install several files. These files cannot be included with FreeCAD since they use libraries published under a license that is not compatible with FreeCAD.
 
-## How to install the legacy DXF importer and exporter {#how_to_install_the_legacy_dxf_importer_and_exporter}
+## How to install the legacy DXF importer and exporter 
 
 ### Automaticamente
 
-If the files are not already installed, go to the menu {{MenuCommand|Edit → Preferences → Import-Export → DXF}} and enable the option {{MenuCommand|Allow FreeCAD to automatically download and update the DXF libraries}} to make FreeCAD automatically download and install them.
+If the files are not already installed, go to the menu **Edit → Preferences → Import-Export → DXF** and enable the option **Allow FreeCAD to automatically download and update the DXF libraries** to make FreeCAD automatically download and install them.
 
 For FreeCAD 0.14 or older you have to install manually:
 
@@ -22,7 +22,7 @@ For FreeCAD 0.14 or older you have to install manually:
 
 1.  Go to [Yorik\'s Github account](https://github.com/yorikvanhavre/Draft-dxf-importer) and download these files (on the right side you can choose \"download as ZIP\").
 2.  Put the files in your macro folder.
-3.  If you are unsure where this folder is, go to {{MenuCommand|Edit → Preferences → General → Macro}} and check the field named {{MenuCommand|Macro Path}}.
+3.  If you are unsure where this folder is, go to **Edit → Preferences → General → Macro** and check the field named **Macro Path**.
 
 -   In Ubuntu your macro folder is normally (the folder is hidden, you may need to unhide it):
 
@@ -34,19 +34,19 @@ C:\Users\your_user_name\AppData\Roaming\FreeCAD
 
 See also: [Dxf Importer Install](Dxf_Importer_Install.md)
 
-## Tips and Tricks {#tips_and_tricks}
+## Tips and Tricks 
 
 Sometimes DXF Files don\'t import although they open in other CAD-Programs without problems.
 
 You can try:
 
-1.  Go to {{MenuCommand|Edit → Preferences → Import-Export → DXF}} and untick the option {{MenuCommand|Join geometry}} and try again.
+1.  Go to **Edit → Preferences → Import-Export → DXF** and untick the option **Join geometry** and try again.
 2.  Remember that maybe now you won\'t have coincident endpoints. You will have to make them coincident yourself.
 3.  You can do this with the [Sketcher CloseShape](Sketcher_CloseShape.md) command <small>(v0.15)</small>  or you can apply the constraints manually.
 
 You can also try:
 
-1.  Go to {{MenuCommand|Edit → Preferences → Draft → General settings}} and adjust the value of {{MenuCommand|Tolerance}} (default: 0,05) and try again.
+1.  Go to **Edit → Preferences → Draft → General settings** and adjust the value of **Tolerance** (default: 0,05) and try again.
 
 For an overview of all DXF related preferences see [Import Export Preferences](Import_Export_Preferences#DXF.md).
 

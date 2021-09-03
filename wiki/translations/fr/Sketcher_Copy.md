@@ -15,7 +15,7 @@ Copie les éléments d'esquisse sélectionnés d'un point à un autre, en utilis
 ## Utilisation
 
 1.  Sélectionnez un élément de dessin pour l\'opération de copie
-2.  Cliquez sur **<img src=images/Sketcher_Copy.svg style="width:16px"> <img src=images/Sketcher_Copy.svg style="width:Sketcher Copie](Sketcher_Copy/fr.md)** ou choisissez {{MenuCommand|Sketch → Outils d'esquisse → [16px"> Copie}} dans le menu principal.
+2.  Cliquez sur **<img src=images/Sketcher_Copy.svg style="width:16px"> <img src=images/Sketcher_Copy.svg style="width:Sketcher Copie](Sketcher_Copy/fr.md)** ou choisissez **Sketch → Outils d'esquisse → [16px"> Copie** dans le menu principal.
 3.  Placez la copie dans la [Vue 3D](3D_view/fr.md).
 
 Aucune contrainte supplémentaire n\'est ajoutée.

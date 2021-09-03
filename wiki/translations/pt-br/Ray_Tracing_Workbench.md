@@ -26,7 +26,7 @@ Uma nova bancada Render está em desenvolvimento para suportar múltiplos back-e
 
 <div class="mw-translate-fuzzy">
 
-## Fluxo de trabalho típico {#fluxo_de_trabalho_típico}
+## Fluxo de trabalho típico 
 
 1.  Crie ou abra um projeto do FreeCAD, adicione alguns objetos sólidos ([ Part-based](Part_Workbench.md) ou [ PartDesign-based](PartDesign_Workbench.md)); malhas atualmente não são suportadas.
 2.  Crie um projeto de Raytracing (povray ou luxrender).
@@ -43,7 +43,7 @@ Uma nova bancada Render está em desenvolvimento para suportar múltiplos back-e
 
 ## Ferramentas
 
-### Ferramentas de Projeto {#ferramentas_de_projeto}
+### Ferramentas de Projeto 
 
 Essas são as principais ferramentas para exportar o seu trabalho 3D para os renderizadores externos:
 
@@ -71,7 +71,7 @@ Estas são ferramentas auxiliares para realizar tarefas específicas manualmente
 -   [Basic Raytracing tutorial](Raytracing_tutorial.md)
 -   [Intermediate Raytracing tutorial](Tutorial_FreeCAD_POV_ray.md)
 
-## Criando um arquivo povray manualmente {#criando_um_arquivo_povray_manualmente}
+## Criando um arquivo povray manualmente 
 
 As ferramentas de utilitário descritas acima permitem que você exporte a visualização 3D atual e todo o seu conteúdo para um arquivo [1](http://www.povray.org/Povray). Primeiro, você deve carregar ou criar seus dados CAD e posicionar a orientação da vista 3D como desejar. Em seguida, escolha \"Utilitários → Exportar vista \...\" no menu raytracing
 
@@ -97,14 +97,14 @@ Consulte o [Raytracing API example](Raytracing_API_example.md) para obter inform
 
 -   <http://www.luxrender.net/>
 
-### Futuros possíveis renderizadores a serem implementados {#futuros_possíveis_renderizadores_a_serem_implementados}
+### Futuros possíveis renderizadores a serem implementados 
 
 -   <http://www.yafaray.org/>
 -   <http://www.mitsuba-renderer.org/>
 -   <http://www.kerkythea.net/>
 -   <http://www.artofillusion.org/>
 
-## Exportando para Kerkythea {#exportando_para_kerkythea}
+## Exportando para Kerkythea 
 
 Embora a exportação direta para o formato de arquivo XML Kerkythea ainda não é suportada, você pode exportar seus objetos como arquivos de malha (.obj) e, em seguida, importá-los no Kerkythea.
 

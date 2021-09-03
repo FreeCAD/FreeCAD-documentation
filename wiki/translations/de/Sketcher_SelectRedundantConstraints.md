@@ -15,7 +15,7 @@ Wählt die redundanten Beschränkungen einer Skizze aus.
 ## Anwendung
 
 1.  Rufe den Bearbeitungsmodus der Skizze auf.
-2.  Wähle{{MenuCommand|Skizze → Skizzierer Werkzeuge → <img src=images/Sketcher_SelectRedundantConstraints.svg style="width:16px"> Wähle Redundante Beschränkungen}} aus dem oberen Menü.
+2.  Wähle**Skizze → Skizzierer Werkzeuge → <img src=images/Sketcher_SelectRedundantConstraints.svg style="width:16px"> Wähle Redundante Beschränkungen** aus dem oberen Menü.
 3.  Die redundanten Beschränkungen der Skizze werden ausgewählt.
 
 

@@ -29,7 +29,7 @@ Lo strumento Simbolo saldatura aggiunge le specifiche di saldatura a una linea g
 
 ## Proprietà
 
-### Simbolo di saldatura {#simbolo_di_saldatura}
+### Simbolo di saldatura 
 
 -    **All Around**: mostra il simbolo All Around (cerchio) in corrispondenza del nodo nella linea guida.
 
@@ -39,7 +39,7 @@ Lo strumento Simbolo saldatura aggiunge le specifiche di saldatura a una linea g
 
 -    **Tail Text**: testo da mostrare alla fine della linea guida.
 
-### Tessere dei simboli {#tessere_dei_simboli}
+### Tessere dei simboli 
 
 Ogni singolo simbolo (\"lato freccia\" e \"altro lato\") è rappresentato da un oggetto \"tessera\". Un simbolo di saldatura è associato a 1 o 2 tessere. Ognuna di esse ha le seguenti proprietà:
 
@@ -104,7 +104,7 @@ App.activeDocument().DrawTileWeld001.RightText = "right text"
 App.activeDocument().DrawTileWeld001.CenterText = "center text"
 ```
 
-## Tessere dei simboli SVG {#tessere_dei_simboli_svg}
+## Tessere dei simboli SVG 
 
 -   I singoli simboli sono formati da file Svg di 64x64 pixel. È possibile creare simboli aggiuntivi in un programma SVG come [Inkscape](https://en.wikipedia.org/wiki/Inkscape) usando uno dei simboli forniti da FreeCAD come modello.
 

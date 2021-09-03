@@ -8,7 +8,7 @@
 
 This page is dedicated to tracking different node-editor paradigms related, in some fashion, to FreeCAD.
 
-## Node Editors {#node_editors}
+## Node Editors 
 
 The following is a list of node editors that can or potentially can work in FreeCAD.
 
@@ -20,7 +20,7 @@ The following is a list of node editors that can or potentially can work in Free
 
 Sverchok: <https://forum.freecadweb.org/viewtopic.php?style=4&t=51069&p=438881>
 
-### Pure-Data {#pure_data}
+### Pure-Data 
 
 Pure Data: <https://forum.freecadweb.org/viewtopic.php?f=24&t=51429>
 

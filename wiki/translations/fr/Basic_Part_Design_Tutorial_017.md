@@ -15,17 +15,17 @@ Une vidéo de l\'ensemble de la construction est ici: <https://youtu.be/geIrH1cO
 
 (chaque section a son propre extrait vidéo ci-dessous)
 
-## Avant de commencer {#avant_de_commencer}
+## Avant de commencer 
 
-## La tâche {#la_tâche}
+## La tâche 
 
 Dans ce tutoriel, vous allez utiliser l\'atelier Part Design pour créer un modèle solide 3D de la pièce illustrée dans le [dessin](Drawing_Workbench/fr.md) ci-dessous. Toutes les dimensions nécessaires pour accomplir cette tâche sont données. Vous allez commencer par créer une forme de base à partir d\'une esquisse de base, puis construire sur cette forme, en ajoutant ce que l\'on appelle les fonctions. Ces fonctions ajouteront ou retireront de la matière du solide en utilisant des esquisses supplémentaires et des des fonctions supplémentaires. Ce tutoriel n\'utilisera pas toutes les fonctionnalités et tous les outils disponibles dans l\'atelier Part Design, mais devrait en montrer suffisamment pour donner à l\'utilisateur de ce tutoriel une ressource de base sur laquelle fonder ses connaissances et compétences.
 
-## La pièce {#la_pièce}
+## La pièce 
 
 ![](images/Tutorial_Drawing_Sheet.png )
 
-## Construire la pièce {#construire_la_pièce}
+## Construire la pièce 
 
 ### Démarrage
 
@@ -44,7 +44,7 @@ Tout travail dans Part Design commence par un [Corps (Body)](Glossary/fr#Body.md
 
 Une fois que vous avez cliqué sur OK, FreeCAD passe automatiquement au [Sketcher](Sketcher_Workbench/fr.md) et ouvre l\'esquisse en mode d\'édition: ![](images/Tut17_sketcherempty.png )
 
-### Créer l\'esquisse {#créer_lesquisse}
+### Créer l\'esquisse 
 
 Ensuite, vous utiliserez l\'outil <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyligne](Sketcher_CreatePolyline/fr.md) pour tracer une forme à peu près comme dans l\'image suivante. Elle n\'a pas besoin d\'être parfaite car la forme finale sera définie par des contraintes. Une fois que vous avez la forme de base, nous commençons à appliquer les contraintes. Si les contraintes automatiques étaient activées, certaines de ces contraintes seraient appliquées automatiquement. Si ce n\'est pas le cas, procédez comme suit. Mais assurez-vous d'abord que vous avez quitté l'outil Polyligne en cliquant avec le bouton droit de la souris ou en appuyant deux fois sur **Echap**. Le curseur de la souris doit revenir du réticule au curseur en forme de flèche standard. (N\'appuyez pas sur **Echap** une troisième fois ou vous quitterez le mode d\'édition d\'esquisse; si cela se produit, cliquez sur l\'onglet Modèle, puis double-cliquez sur l\'élément Esquisse dans l\'arborescence ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier l\'esquisse** dans le menu contextuel.)
 
@@ -60,7 +60,7 @@ Ensuite, vous utiliserez l\'outil <img alt="" src=images/Sketcher_CreatePolyline
 
 Une vidéo des étapes utilisées dans cette partie du tutoriel est ici: <https://youtu.be/cUyPnCMeTgg>
 
-### Fonction poche et géométrie externe {#fonction_poche_et_géométrie_externe}
+### Fonction poche et géométrie externe 
 
 À l\'aide de la souris ou des icônes de vue, tournez le modèle pour voir son dos. Une fois le dos de la pièce visible, sélectionnez la face arrière en cliquant dessus comme sur l\'image suivante. <img alt="" src=images/PD_WB_Tutorial003.png ) Une fois la face sélectionnée, cliquez sur l\'icône Nouvelle esquisse dans la barre d\'outils ou dans le menu Part Design, afin de mapper (déposer) notre esquisse suivante sur la face arrière de la pièce. Sélectionnez maintenant l\'outil rectangle ![](images/Sketcher_CreateRectangle.svg  style="width:32px;"> et placez un rectangle sur la face arrière de la pièce de la même manière que ci-dessous. Maintenant, en suivant les étapes répertoriées, contraignez l\'esquisse.
 
@@ -78,7 +78,7 @@ Pour l\'opération suivante, assurez-vous que \"Pocket\" est sélectionné dans 
 
 Une vidéo des étapes utilisées dans cette partie du tutoriel est ici: <https://youtu.be/wiGXV9G7mrM>
 
-### Fonction de protrusion avec géométrie externe {#fonction_de_protrusion_avec_géométrie_externe}
+### Fonction de protrusion avec géométrie externe 
 
 Après avoir jeté un coup d\'œil, revenez sur la face arrière de la pièce puis sélectionnez-la pour y appliquer la prochaine esquisse. ![](images/tut17_profilewithslotsrearplane.png ) Sélectionnez Nouvelle esquisse et tracez un nouveau rectangle d\'une manière similaire à ce qui est affiché dans l\'image suivante. Ensuite, ajoutez des contraintes dimensionnelles au rectangle.
 
@@ -94,7 +94,7 @@ Ensuite, nous allons cliquer sur la fonction Protrusion et dans les paramètres 
 
 Une vidéo des étapes utilisées dans cette partie du tutoriel est ici: <https://youtu.be/Ido1owp8ubc>
 
-### Fonction Cavité avec géométrie externe {#fonction_cavité_avec_géométrie_externe}
+### Fonction Cavité avec géométrie externe 
 
 À ce stade en faisant pivoter la pièce vers l\'avant, nous pouvons voir que celle-ci commence maintenant à ressembler à la pièce dans le dessin coté au début de ce tutoriel. Une fois que vous avez la vue avant, cliquez sur la face en pente avec votre souris pour sélectionner la face que nous allons utiliser pour la prochaine esquisse. ![](images/tut17_innerplane.png ) Ici, nous allons utiliser l\'outil rectangle et en tracer un dans notre esquisse et une fois cela fait, appliquer les contraintes suivantes.
 
@@ -140,7 +140,7 @@ Une vidéo de ces étapes du tutoriel est ici: <https://youtu.be/UYI0gvxCYeI>
 
 Ce tutoriel ainsi que votre modèle sont terminés.
 
-## Ressources Additionelles {#ressources_additionelles}
+## Ressources Additionelles 
 
 -   Fichier FreeCAD pour comparaison (fait avec 0.17) [Télécharger](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
 

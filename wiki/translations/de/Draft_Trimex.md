@@ -31,7 +31,7 @@ Das Trimex Werkzeug stutzt oder streckt [Entwurf Linien](Draft_Line/de.md) und [
 
 </div>
 
-## Trim or extend {#trim_or_extend}
+## Trim or extend 
 
 ### Usage
 
@@ -70,7 +70,7 @@ Here is an example to explain the modifier keys. The left edge or the bottom edg
 
 ## Extrude
 
-### Usage {#usage_1}
+### Usage 
 
 See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
@@ -78,15 +78,15 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 2.  Optionally select a single face or an object with a single face.
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Trimex.svg" width=16px> [Draft Trimex](Draft_Trimex.md)** button.
-    -   Select the {{MenuCommand|Modification → <img src="images/Draft_Trimex.svg" width=16px> Trimex}} option from the menu.
+    -   Select the **Modification → <img src="images/Draft_Trimex.svg" width=16px> Trimex** option from the menu.
     -   Use the keyboard shortcut: **T** then **R**.
 4.  If you have not yet selected an object or a face: select an object with a single face in the [3D view](3D_view.md).
-5.  The {{MenuCommand|Trimex}} task panel opens. See [Options](#Options_2.md) for more information.
+5.  The **Trimex** task panel opens. See [Options](#Options_2.md) for more information.
 6.  To define the extrusion direction and distance do one of the following:
     -   Pick a point in the [3D view](3D_view.md) that does no lie on the same plane as the face.
-    -   Make sure the pointer is on the correct side of the face in the [3D view](3D_view.md) and enter a {{MenuCommand|Distance}}.
+    -   Make sure the pointer is on the correct side of the face in the [3D view](3D_view.md) and enter a **Distance**.
 
-### Options {#options_1}
+### Options 
 
 The modifier key mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
@@ -96,7 +96,7 @@ The modifier key mentioned here can be changed. See [Draft Preferences](Draft_Pr
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of the distance: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
+-   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 

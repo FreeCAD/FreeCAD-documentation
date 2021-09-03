@@ -30,7 +30,7 @@ La primitiva geometrica Ellissoide è disponibile dalla finestra di dialogo Crea
 1.  Attivare l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Parte](Part_Workbench/it.md)
 2.  Ci sono diversi modi per accedere alla finestra di dialogo Crea ellisoide:
     -   Premere il pulsante <img alt="" src=images/Part_CreatePrimitives.svg  style="width:24px;"> [Crea primitive](Part_CreatePrimitives/it.md) nella barra degli strumenti di Part
-    -   Usare {{MenuCommand|Part → [Crea primitive](Part_CreatePrimitives/it.md) → Ellissoide}}
+    -   Usare **Part → [Crea primitive](Part_CreatePrimitives/it.md) → Ellissoide**
 
 
 </div>

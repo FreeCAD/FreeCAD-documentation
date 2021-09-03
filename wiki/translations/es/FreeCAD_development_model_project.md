@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Esta página trata de la transición del código de FreeCAD en un repositorio en GIT y un modelo de desarrollo más competente. Sigue las reglas de la metodología \[<http://en.wikipedia.org/wiki/GTD#GTD_methodology>\| Getting things done\]. Los proyectos se recogen en el [Mapa de desarrollo](Development_roadmap/es.md).
 
-## Propósito y principios {#propósito_y_principios}
+## Propósito y principios 
 
 Este proyecto intenta definir un nuevo modelo de desarrollo y dirección para FreeCAD. Llegamos a un punto en el que un repositorio SVN es dificil de dirigir. Trabajar con parches es un fastidio y complicado para la gente que está dispuesta a contribuir con el código. Ofrecer a todo el mundo acceso al SVN es peligroso. La gente puede de forma no intencionada romper algo en el sistema base o forzar decisiones apetecibles.
 
@@ -26,7 +26,7 @@ De modo que mirando el proceso de desarrollo de Linux, que es de momento demasia
 
 ## Resultado
 
-## Tormenta de ideas {#tormenta_de_ideas}
+## Tormenta de ideas 
 
 ### Git
 
@@ -39,7 +39,7 @@ De modo que mirando el proceso de desarrollo de Linux, que es de momento demasia
         -   debería dar algunos efectos colaterales en la numeración de versiones y la construcción de los PPA\....
 -   Dar derechos de escritura (push) a todos los que estén interesados
 
-### Listas de correo de desarrollo {#listas_de_correo_de_desarrollo}
+### Listas de correo de desarrollo 
 
 El foro tiene sus limitaciones, podríamos utilizar una o más listas de correo para manejar las ramificaciones y el arrancar propuestas. Eso tiene ventajas:
 
@@ -47,11 +47,11 @@ El foro tiene sus limitaciones, podríamos utilizar una o más listas de correo 
 -   utilizar búsquedas más potentes en el cliente de mail
 -   sin restricción de adjuntos y tamaños
 
-### Aclarar responsabilidades {#aclarar_responsabilidades}
+### Aclarar responsabilidades 
 
 Seremos pronto más y más desarrolladores y los usuarios tendrán peticiones de características conflictivas. Necesitamos tener una estructura y responsabilidades para filtrar y decidir dichas peticiones y el código entrante.
 
-#### Se han ofrecido {#se_han_ofrecido}
+#### Se han ofrecido 
 
 Adrian Przekwas:
 Publicidad - G+, Youtube,
@@ -68,7 +68,7 @@ Publicidad: artículos en [http://yorik.uncreated.net/guestblog.php](http://y
 
 Las reglas decididas y la información va al documento [Modelo de desarrollo de FreeCAD](FreeCAD_development_model/es.md).
 
-## Siguientes acciones {#siguientes_acciones}
+## Siguientes acciones 
 
 
 

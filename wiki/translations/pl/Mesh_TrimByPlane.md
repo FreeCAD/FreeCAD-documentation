@@ -16,12 +16,12 @@ The **Mesh TrimByPlane** command trims faces and parts of faces on one side of a
 
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_TrimByPlane.svg" width=16px> [Mesh TrimByPlane](Mesh_TrimByPlane.md)** button.
-    -   Select the {{MenuCommand|Meshes → Cutting → <img src="images/Mesh_TrimByPlane.svg" width=16px> Trim mesh with a plane}} option from the menu.
+    -   Select the **Meshes → Cutting → <img src="images/Mesh_TrimByPlane.svg" width=16px> Trim mesh with a plane** option from the menu.
 
-3.  The {{MenuCommand|Trim by plane}} dialog box opens.
+3.  The **Trim by plane** dialog box opens.
 
 4.  
-    {{MenuCommand|Select the side you want to keep}}by pressing one of the buttons:
+    **Select the side you want to keep**by pressing one of the buttons:
 
     -   
         {{button|Below}}

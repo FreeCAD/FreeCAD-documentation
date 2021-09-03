@@ -14,7 +14,7 @@ This tutorial shows you the customization of toolbars. Tools (inclusive Macro-to
 
 </div>
 
--   Click {{MenuCommand|Main Menu → Tools → Customize}},
+-   Click **Main Menu → Tools → Customize**,
 
 <img alt="Customize" src=images/CustomizeToolBar_01.png  style="width:640px;"> 
 

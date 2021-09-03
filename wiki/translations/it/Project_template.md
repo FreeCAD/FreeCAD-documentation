@@ -6,11 +6,11 @@ I progetti sono raccolti nel [Piano di sviluppo](Development_roadmap/it.md).
 
 *La mente passa attraverso cinque fasi per compiere qualsiasi operazione. Queste cinque fasi sono:*
 
-## Finalità e principi {#finalità_e_principi}
+## Finalità e principi 
 
 *Il primo passo nel modello è quello di definire **gli obiettivi e i principi**. Pensate all\'ultima volta che avete prenotato una vacanza per la famiglia. C\'è sempre uno scopo per una vacanza. Questo scopo può essere quello di prendersi una meritata pausa dal lavoro, o di rilassarsi e trascorrere del tempo di qualità con il coniuge e i figli, o semplicemente di andare a vedere una specifica attrazione turistica durante il soggiorno. Qualunque sia il motivo, ci sono delle finalità e dei principi per il viaggio. Non vi alzate un mattino e andate in vacanza, ma implementate la prima fase del modello di pianificazione naturale, che è quella di avere uno scopo per fare il viaggio.*
 
-## Esito, Risultato {#esito_risultato}
+## Esito, Risultato 
 
 *Il secondo passo è **visualizzare l\'esito**. Una volta definito uno scopo e i principi per la propria vacanza, la cosa successiva da fare è di avere una visione del risultato, in altre parole, dove si vuole andare, quando e con chi? Questo è classificato come visualizzare il risultato dato che si sta pensando all\'esito della vacanza e prendendo appunti mentali su ciò che si desidera ottenere (che sia il risultato).*
 
@@ -22,7 +22,7 @@ I progetti sono raccolti nel [Piano di sviluppo](Development_roadmap/it.md).
 
 *Il successivo e quarto passo è **organizzare**. Dopo aver generato le proprie idee in merito a un progetto, o una vacanza in questo caso, si inizia ad organizzare queste idee. Ad esempio, potete pensare all\'agenzia di viaggio da utilizzare per la prenotazione, o se prenotare direttamente, o se dei parenti vogliono anche venire in vacanza come baby sitter , ecc.. La mente di norma classifica e organizza questi pensieri automaticamente.*
 
-## Azioni successive {#azioni_successive}
+## Azioni successive 
 
 *L\'ultimo e quinto passo è quello di **individuare e impostare le azioni successive**. La metodologia GTD contempla che il modo migliore per completare un compito, è quello di stabilire e impostare le azioni successive. Noi non facciamo compiti, facciamo azioni in successione. Perciò il modo migliore per prenotare la vacanza è quello di decidere quali sono le azioni successive. Queste azioni normalmente sono quelle di cercare l\'alloggio su Internet, controllare i siti di viaggio per confrontare i voli e gli alloggi più convenienti, chiamare un agente di viaggio e sentire i suoi prezzi e i suoi consigli sull\'alloggiamento. Ancora una volta, sarei sorpreso se qualcuno di voi volesse spendere tempo e fatica per scrivere queste azioni, ma sarei anche sorpreso se qualcuno di voi avesse dimenticato queste azioni successive. È interessante come la nostra mente abbia un ottimo modo di ricordare i progetti assegnati e di pianificarli con il metodo naturale di pianificazione.*
 

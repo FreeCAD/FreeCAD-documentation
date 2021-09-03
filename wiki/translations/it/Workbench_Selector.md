@@ -15,7 +15,7 @@ Il comando **Ambienti** attiva l\'[ambiente di lavoro](Workbenches/it.md) selezi
 
 1.  Esistono diversi modi per invocare il comando:
     -   Selezionare un ambiente dall\'elenco a discesa \"Workbench\" nella barra degli strumenti degli ambienti. Questa opzione non è disponibile se l\'ambiente in uso è `<none>` (nessun ambiente).
-    -   Seleziona un ambiente di lavoro dal sottomenu {{MenuCommand|Visualizza → Ambienti}}.
+    -   Seleziona un ambiente di lavoro dal sottomenu **Visualizza → Ambienti**.
 
 ## Note
 
@@ -23,7 +23,7 @@ Il comando **Ambienti** attiva l\'[ambiente di lavoro](Workbenches/it.md) selezi
 
 ## Preferenze
 
--   L\'ambiente di avvio può essere modificato nelle preferenze: {{MenuCommand|Modifica → Preferenze... → Generale → Generale → Avvio}}. Vedere la pagina [Editor delle preferenze](Preferences_Editor/it#Generale.md).
+-   L\'ambiente di avvio può essere modificato nelle preferenze: **Modifica → Preferenze... → Generale → Generale → Avvio**. Vedere la pagina [Editor delle preferenze](Preferences_Editor/it#Generale.md).
 
 ## Script
 

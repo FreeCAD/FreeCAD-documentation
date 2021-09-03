@@ -54,11 +54,11 @@ pq('sin(pi)')
 b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 ```
 
-## Unterstützte Einheiten {#unterstützte_einheiten}
+## Unterstützte Einheiten 
 
 Eine vollständige Liste aller unterstützten Einheiten kann [hier gefunden](Expressions/de#Einheiten.md) werden.
 
-## Ziele und Grundsätze: Vorschlag für eine Erweiterung des Einheitenverwaltungssystems {#ziele_und_grundsätze_vorschlag_für_eine_erweiterung_des_einheitenverwaltungssystems}
+## Ziele und Grundsätze: Vorschlag für eine Erweiterung des Einheitenverwaltungssystems 
 
 Eine Erweiterung des Einheitenverwaltungssystems wird in den folgenden Abschnitten vorgeschlagen und das Konzept eines *Einheitensystems* entwickelt, das während einer laufenden FreeCAD-Instanz aktiviert wird. Das Interesse an der Definition eines neues Konzepts ist es, einfacher mit einer größtmöglichen Anzahl von **physischen** Einheiten arbeiten zu können (selbst mit benutzerdefinierten), ohne die Komplexität der Einheitenverwaltung für den Benutzer oder die FreeCAD-Entwickler zu erhöhen.
 
@@ -84,7 +84,7 @@ In diesem Abschnitt werden die Anwendungszusammenhänge eines solchen Einheitenv
 
 Im Wesentlichen werden 2 Zusammenhänge als Beispiel angeführt.
 
-### Zusammenhang 1: Öffnen einer Datendatei {#zusammenhang_1_öffnen_einer_datendatei}
+### Zusammenhang 1: Öffnen einer Datendatei 
 
 Dieser Fall ist wahrscheinlich der häufigste Fall. Du erhältst eine Datei, die zum Beispiel ein geometrisches Modell enthält oder ein Material mit ziemlich vielen Eigenschaften beschreibt. Das geometrische Modell wird in Metern oder die Materialeigenschaften nach dem internationalen Einheitensystem ausgedrückt.
 
@@ -94,17 +94,17 @@ Du bist ein Experte für FE Modellierung und arbeitest normalerweise mit Millime
 
 In diesem Zusammenhang ist das Einheitenmanagement erforderlich, um Daten von einem in der Eingabedatei definierten Anfangseinheitensystem auf ein benutzerdefiniertes Zieleinheitensystem zu skalieren.
 
-### Zusammenhang 2: Umschalten des Einheitensystems während der Laufzeit {#zusammenhang_2_umschalten_des_einheitensystems_während_der_laufzeit}
+### Zusammenhang 2: Umschalten des Einheitensystems während der Laufzeit 
 
 In diesem Fall kannst du gleichzeitig derjenige sein, der eine Zeichnung ausführt, und derjenige, der die FE Modellierung verwaltet. Ähnlich wie im vorigen Fall sind die Einheitensysteme für diese beiden Aufgaben nicht identisch, und du musst das anfängliche Einheitensystem während der Laufzeit auf dein Lieblingssystem umstellen.
 
 ## Organisieren
 
-### Logik der Einheitenskalierung {#logik_der_einheitenskalierung}
+### Logik der Einheitenskalierung 
 
 Im Abschnitt [Ideenfindung](Units/de#Ideenfindung.md) wurden 2 Zusammenhänge bei der Verwendung der Einheitenskalierung vorgestellt. Aus diesen beiden Zusammenhänge sollen einige Punkte hervorgehoben werden.
 
-#### Einheitenkohärenz in der gesamten laufenden FreeCAD Instanz {#einheitenkohärenz_in_der_gesamten_laufenden_freecad_instanz}
+#### Einheitenkohärenz in der gesamten laufenden FreeCAD Instanz 
 
 Das vorgeschlagene System basiert auf einer primären Annahme: Der Benutzer arbeitet in einem kohärenten Einheitensystem. Das bedeutet zum Beispiel, dass, wenn der Benutzer die Länge in Millimetern ausdrückt, die Bereiche notwendigerweise in Form von quadrierten Millimetern und nicht in quadrierten Metern ausgedrückt werden. Dies ist **Hypothese eins**.
 
@@ -132,13 +132,13 @@ Hier sind einige Beispiele für Einheitensysteme.
 -   Millimeter, Kilogramm, Millisekunde, Ampere, Kelvin, Mol, Candela
 -   \...
 
-#### Basis- und abgeleitete Einheiten {#basis__und_abgeleitete_einheiten}
+#### Basis- und abgeleitete Einheiten 
 
 Abgeleitete Einheiten werden durch Kombination von Basiseinheiten gebildet. Zum Beispiel kombiniert eine Beschleunigung (m/s) gleichzeitig Länge und Zeit. Ein interessantes Bild, das die Beziehungen zwischen Basis- und abgeleiteten Einheiten darstellt, ist [hier](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf) auch vom NIST zu sehen.
 
 Dank der Definition des *Einheitensystems* ist es dem Anwender möglich, mit jeder Art von abgeleiteten Einheiten zu arbeiten, ohne dass die FreeCADbEntwickler diese im Voraus vorsehen müssen.
 
-#### Base and derived unit symbols {#base_and_derived_unit_symbols}
+#### Base and derived unit symbols 
 
 According to [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf), the symbols to specify a units are officially approved. Two consequences can be highlighted from this.
 
@@ -204,7 +204,7 @@ For instance, the list of *symbols* of the LENGTH unit, and their related *magni
 
 Standard *symbols* can be found on [NIST website](http://physics.nist.gov/cuu/Units/units.html) and p23 to 26 and p32 (*metric ton* or *tonne*) of [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf).
 
-#### Unit dictionary {#unit_dictionary}
+#### Unit dictionary 
 
 All the units available in FreeCAD, and new ones created by the user, should be stored in *unit dictionary*, which is an XML file (FreeCAD configuration file), so as to be retrieved when needed, i.e. when achieving unit scaling.
 
@@ -212,7 +212,7 @@ All the units available in FreeCAD, and new ones created by the user, should be 
 
 Array of units, contained in the *unit dictionary*.
 
-#### Unit system {#unit_system}
+#### Unit system 
 
 A *unit system* is the object that allows the user defining the current unit *magnitude* of each base units with which she/he is working. For instance, knowing that the user is working with millimeter, tonne, and second, thanks to the use of a unit system, FreeCAD can know that energy is expressed in terms of milliJoule, force in terms of Newton, and stress in terms of MegaPascal. Hence a unit system is only defined by a *name* (for instance *Standard unit system*) and a *magnitude table* specifying for each of the 7 base units, what is its corresponding *magnitude*.
 
@@ -226,11 +226,11 @@ By specifying the magnitude of the 7 base units, a unit system is defined.
 
 For instance \[1e-03, 1e+03, 1, 1, 1, 1, 1\], meaning millimeter, tonne, second, ampere, Kelvin, mole, candela
 
-#### Unit management API {#unit_management_api}
+#### Unit management API 
 
 Only the logic of some methods is presented, in order to highlight some features. These methods could belong to an object called *Unit manager*.
 
-##### Checking the unit dictionary {#checking_the_unit_dictionary}
+##### Checking the unit dictionary 
 
 ###### isValid
 
@@ -250,7 +250,7 @@ A unit dictionary defines a set of units and their known magnitudes. When managi
 
 -   check that the input *signature* length is of the same size than the unit dictionary unit *signatures*
 
-##### Scaling units {#scaling_units}
+##### Scaling units 
 
 ###### scaleUnitFromSymbolToSymbol
 
@@ -264,7 +264,7 @@ Knowing a value, an initial unit by its symbol, the target unit system, scale th
 
 Knowing a value, an initial unit system, the target unit by its symbol, scale the value.
 
-#### Motivations for such a management: example of application {#motivations_for_such_a_management_example_of_application}
+#### Motivations for such a management: example of application 
 
 Let\'s assume that we are going to setup a finite element model. To build our model, we need the mesh, material properties, and to define numerical parameters. Considering that they can be tens of material properties to manage, expressed with different units, sometimes not always very common, it is interesting for the user to only have to specify a global unit system, without caring much.
 
@@ -282,7 +282,7 @@ The *targetMagnitude* is then simply obtained with the operation $\prod_{bu} tar
 
 So wird es sehr einfach, mit wenigen Zeilen Python eine beliebige Anzahl von Objekten mit beliebigen Einheiten zu verwalten.
 
-## Siehe auch {#siehe_auch}
+## Siehe auch 
 
 
 <div class="mw-translate-fuzzy">

@@ -3,7 +3,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Le finestre delle preferenze di [FEM ](FEM_Workbench/it.md) si trovano nell\'[Editor delle Preferenze](Preferences_Editor/it.md), {{MenuCommand|Modifica → Preferenze → Fem}}.
+Le finestre delle preferenze di [FEM ](FEM_Workbench/it.md) si trovano nell\'[Editor delle Preferenze](Preferences_Editor/it.md), **Modifica → Preferenze → Fem**.
 
 
 </div>

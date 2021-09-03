@@ -30,7 +30,7 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Selectați un obiect cu care doriți să faceți o matrice
 
@@ -96,7 +96,7 @@ See [Draft OrthoArray](Draft_OrthoArray#Properties.md).
 
 <div class="mw-translate-fuzzy">
 
-## Script-Programre {#script_programre}
+## Script-Programre 
 
 Instrumentul Array poate fi utilizat în [macros](macros.md) și din consola Python utilizând una dintre următoarele funcții, în funcție de situația în care doriți să obțineți copii simple, independente ale obiectului de bază sau un obiect parametric, care rămâne legat de obiectul original.
 

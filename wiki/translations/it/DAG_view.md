@@ -25,7 +25,7 @@ Un modello semplice verrà visto con diverse visualizzazioni.
 
 *Relazioni tra gli oggetti mostrati nel [grafico delle dipendenze](Std_DependencyGraph/it.md).*
 
-## Attivazione della vista DAG {#attivazione_della_vista_dag}
+## Attivazione della vista DAG 
 
 La vista DAG è stata introdotta nella versione 0.17 come funzionalità sperimentale per utenti esperti e sviluppatori, in modo che potessero risolvere i problemi di modelli complessi; pertanto, la vista DAG non è disponibile per impostazione predefinita.
 
@@ -39,7 +39,7 @@ quindi aggiungere il parametro `Enabled` di tipo `Boolean`, e impostarlo su `Tru
 
 <div class="mw-translate-fuzzy">
 
-Quindi attivarlo, {{MenuCommand|{{StdMenu|[Visualizza](Std_View_Menu/it.md)}} → Pannelli → Vista DAG}}.
+Quindi attivarlo, **{{StdMenu|[Visualizza](Std_View_Menu/it.md)** → Pannelli → Vista DAG}}.
 
 
 </div>

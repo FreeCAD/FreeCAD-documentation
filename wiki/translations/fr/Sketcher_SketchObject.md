@@ -42,7 +42,7 @@ Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les 
 
 Un [Sketcher SketchObject](Sketcher_SketchObject/fr.md) (classe `Sketcher::SketchObject`) est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md) (classe `Part::Part2DObject`) donc partage toutes les propriétés de ce dernier.
 
-Outre les propriétés décrites dans [Part Part2DObject](Part_Part2DObject/fr.md), l\'objet de base Sketcher SketchObject possède les propriétés suivantes dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande {{MenuCommand|Show all}} dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
+Outre les propriétés décrites dans [Part Part2DObject](Part_Part2DObject/fr.md), l\'objet de base Sketcher SketchObject possède les propriétés suivantes dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
 
 ### Données
 
@@ -56,7 +56,7 @@ Outre les propriétés décrites dans [Part Part2DObject](Part_Part2DObject/fr.m
 
 -    **Constraints|**: les contraintes nommées, si elles existent sinon c\'est une liste vide `[]`.
 
-#### Propriétés cachées de Données {#propriétés_cachées_de_données}
+#### Propriétés cachées de Données 
 
 Voir [Part Part2DObject](Part_Part2DObject/fr.md) pour le reste des propriétés masquées.
 
@@ -92,7 +92,7 @@ Voir [Part Part2DObject](Part_Part2DObject/fr.md) pour le reste des propriétés
 
 -    **Show Support|Bool**: si `True` tous les objets auxquels cette esquisse est attachée sont affichés lors de l\'ouverture de l\'esquisse.
 
-#### Propriétés cachées de Vue {#propriétés_cachées_de_vue}
+#### Propriétés cachées de Vue 
 
 
 {{TitleProperty|Base}}
@@ -106,7 +106,7 @@ Voir [Part Part2DObject](Part_Part2DObject/fr.md) pour le reste des propriétés
 
 Toutes les autres propriétés de vue, y compris les propriétés masquées, sont celles de l\'objet de base [Part Feature](Part_Feature/fr.md)
 
-## Création de scripts {#création_de_scripts}
+## Création de scripts 
 
 
 **Voir aussi:**

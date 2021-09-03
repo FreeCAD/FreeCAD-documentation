@@ -49,12 +49,12 @@
 
 <div class="mw-translate-fuzzy">
 
-**重要提示!** 在用Python脚本进行处理之前，前往{{MenuCommand|Edit → Prefences → General → Output}}窗口并选中两个选择框：
+**重要提示!** 在用Python脚本进行处理之前，前往**Edit → Prefences → General → Output**窗口并选中两个选择框：
 
 -   Redirect internal Python output to report view
 -   Redirect internal Python errors to report view
 
-再去往{{MenuCommand|View → Panels}}并选中：
+再去往**View → Panels**并选中：
 
 -   Report view
 
@@ -73,7 +73,7 @@ FreeCAD提供了两种环境供用户方便地编写python代码：python控制�
 
 </div>
 
-There are two ways to write Python code in FreeCAD. In the [Python console](Python_console.md) (select {{MenuCommand|View → Panels → Python console}} from the menu) or in the [Macro editor](Std_DlgMacroExecute.md) (select {{MenuCommand|Macro → Macros...}} from the menu). In the console you write Python commands one by one, executing them by pressing **Enter**, while macros can contain more complex code made up of several lines, executed only when the macro is executed.
+There are two ways to write Python code in FreeCAD. In the [Python console](Python_console.md) (select **View → Panels → Python console** from the menu) or in the [Macro editor](Std_DlgMacroExecute.md) (select **Macro → Macros...** from the menu). In the console you write Python commands one by one, executing them by pressing **Enter**, while macros can contain more complex code made up of several lines, executed only when the macro is executed.
 
 ![](images/Screenshot_pythoninterpreter.jpg )
 
@@ -133,7 +133,7 @@ doc = FreeCAD.newDocument()
 
 <div class="mw-translate-fuzzy">
 
-现在我们就会创建一个新文档。这就类似于按下工具栏上的\"new document\"按钮。事实上，FreeCAD中的大部分按钮实现的功能也就相当于执行一、两行python代码。更妙的是，您可以通过设置{{MenuCommand|Edit → Preferences → General → Macro}}中的\"show script commands in python console\"选项，在控制台中查看按下每个按钮时所执行的python代码。这对于学习如何用python复现FreeCAD的各种动作是极为有益的。
+现在我们就会创建一个新文档。这就类似于按下工具栏上的\"new document\"按钮。事实上，FreeCAD中的大部分按钮实现的功能也就相当于执行一、两行python代码。更妙的是，您可以通过设置**Edit → Preferences → General → Macro**中的\"show script commands in python console\"选项，在控制台中查看按下每个按钮时所执行的python代码。这对于学习如何用python复现FreeCAD的各种动作是极为有益的。
 
 
 </div>
@@ -262,7 +262,7 @@ box.Placement = otherpla
 
 <div class="mw-translate-fuzzy">
 
-## App 与 Gui {#app_与_gui}
+## App 与 Gui 
 
 FreeCAD最开始是一种命令行应用程序，并不具有当前形式的用户接口。因此，其中大多东西都可被划分为\"几何\" 组件与\"可视\"组件。当您在命令行模式下工作时，展示的是几何部分，而把全部可视部分简单地关掉。因此，FreeCAD中的几乎所有对象都由两部分组成：一个Object以及一个ViewObject。
 
@@ -548,7 +548,7 @@ Qt确实是一款非常强大的界面系统，您可以利用它实现非常复
 
 </div>
 
-Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor ({{MenuCommand|Macro → Macros... → Create}}) where you can write or paste scripts. Once the script is done, use {{MenuCommand|Tools → Customize... → Macros}} to define a button for it that can be added to toolbars.
+Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor (**Macro → Macros... → Create**) where you can write or paste scripts. Once the script is done, use **Tools → Customize... → Macros** to define a button for it that can be added to toolbars.
 
 
 <div class="mw-translate-fuzzy">

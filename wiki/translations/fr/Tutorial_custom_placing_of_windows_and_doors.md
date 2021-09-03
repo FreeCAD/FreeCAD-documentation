@@ -30,15 +30,15 @@ Voir également la page suivante pour quelques vidéos sur la façon d\'aligner 
 
 1\. Ouvrez FreeCAD, créez un nouveau document vide et passez à l\'[atelier Arch](Arch_Workbench/fr.md)
 
-2\. Assurez-vous que vos unités sont correctement définies dans le menu {{MenuCommand|Edition → Préférences → Général → Unités}}. Par exemple, `MKS (m/kg/s/degré)` est bon pour gérer les distances dans un bâtiment typique; de plus, définissez le nombre de décimales sur `4` pour considérer même les plus petites fractions du mètre.
+2\. Assurez-vous que vos unités sont correctement définies dans le menu **Edition → Préférences → Général → Unités**. Par exemple, `MKS (m/kg/s/degré)` est bon pour gérer les distances dans un bâtiment typique; de plus, définissez le nombre de décimales sur `4` pour considérer même les plus petites fractions du mètre.
 
-3\. Utilisez le bouton [Draft Visibilité de la grille](Draft_ToggleGrid/fr.md) pour afficher une grille avec une résolution suffisante. Vous pouvez modifier l\'apparence de la grille dans le menu {{MenuCommand|Edition → Préférences → Draft → Grille et ancrage → Grille}}. Définissez des lignes tous les `50 mm`, avec des lignes principales toutes les `20` lignes (tous les mètres) et `1000 lignes` au total (la grille couvre une superficie de 50 mx 50 m).
+3\. Utilisez le bouton [Draft Visibilité de la grille](Draft_ToggleGrid/fr.md) pour afficher une grille avec une résolution suffisante. Vous pouvez modifier l\'apparence de la grille dans le menu **Edition → Préférences → Draft → Grille et ancrage → Grille**. Définissez des lignes tous les `50 mm`, avec des lignes principales toutes les `20` lignes (tous les mètres) et `1000 lignes` au total (la grille couvre une superficie de 50 mx 50 m).
 
 4\. [Zoom arrière](Std_ViewZoomOut/fr.md) de la vue 3D si vous êtes trop près de la grille.
 
 Nous sommes maintenant prêts à créer un mur simple sur lequel nous pouvons positionner les fenêtres et les portes.
 
-## Placement d\'un mur {#placement_dun_mur}
+## Placement d\'un mur 
 
 5\. Utilisez l\'outil [Draft Fil](Draft_Wire/fr.md) pour créer un fil. Allez dans le sens antihoraire.
 
@@ -82,7 +82,7 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Mur construit à partir du fil*
 
-## Placement de portes et fenêtres prédéfinies {#placement_de_portes_et_fenêtres_prédéfinies}
+## Placement de portes et fenêtres prédéfinies 
 
 7\. Cliquez sur l\'outil [Arch Fenêtre](Arch_Window/fr.md); comme préréglage, sélectionnez `Simple door` et modifiez la hauteur à 2 m.
 
@@ -98,7 +98,7 @@ w = Draft.makeWire(p, closed=False)
 :   
     **Note:**la `Sill height` est la distance entre le sol et le bord inférieur de l\'élément. Pour les portes, la `Sill height` (Hauteur du seuil) est généralement de 0 m car les portes touchent normalement le sol; d\'autre part, les fenêtres ont une séparation habituelle de 0,5 m à 1,5 m du sol. `Sill height` ne peut être définie que lors de la création initiale de la fenêtre ou de la porte à partir d\'un préréglage. Une fois la fenêtre ou la porte insérée, modifiez son emplacement en éditant la {{PropertyData/fr|Position}} du vecteur `[x, y, z]` de l\'[Sketcher Esquisse](Sketcher_Sketch/fr.md) sous-jacente.
 
-## Création de portes et fenêtres personnalisées {#création_de_portes_et_fenêtres_personnalisées}
+## Création de portes et fenêtres personnalisées 
 
 8\. Passez à l\'[atelier Sketcher](Sketcher_Workbench/fr.md); sélectionnez la partie du mur à droite qui n\'a pas de porte; cliquez sur [Nouvelle esquisse](Sketcher_NewSketch/fr.md); sélectionnez **FlatFace** comme méthode de pièce jointe. Si la géométrie existante obstrue votre vue, cliquez sur la [Vue en section](Sketcher_ViewSection/fr.md) pour la supprimer.
 
@@ -141,7 +141,7 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Fenêtre personnalisée créée à partir de l'esquisse; elle n'a toujours pas de cadre approprié, ni de verre*
 
-## Configuration de la fenêtre personnalisée {#configuration_de_la_fenêtre_personnalisée}
+## Configuration de la fenêtre personnalisée 
 
 12\. Dans l\'arborescence, sélectionnez `Sketch002` sous-jacent à `Window` et appuyez sur **Espace** ou modifiez la propriété {{PropertyView/fr|Visibility}} en `True`.
 
@@ -193,14 +193,14 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Fenêtre finie avec des composants appropriés intégrés dans le mur*
 
-## Duplication de la fenêtre personnalisée {#duplication_de_la_fenêtre_personnalisée}
+## Duplication de la fenêtre personnalisée 
 
-14\. Dans l\'arborescence, sélectionnez `Window` et son sous-jacent `Sketch002`. Puis allez dans {{MenuCommand|Edition → Copier la sélection}}, et répondez **No** si on vous demande de dupliquer les dépendances non sélectionnées. Un nouveau `Window001` et `Sketch003` apparaîtront dans la même position que les éléments d\'origine.
+14\. Dans l\'arborescence, sélectionnez `Window` et son sous-jacent `Sketch002`. Puis allez dans **Edition → Copier la sélection**, et répondez **No** si on vous demande de dupliquer les dépendances non sélectionnées. Un nouveau `Window001` et `Sketch003` apparaîtront dans la même position que les éléments d\'origine.
 
 15\. Sélectionnez le nouveau `Sketch003`. Accédez à la propriété {{PropertyData/fr|Map Mode}} et cliquez sur les points de suspension à côté de la valeur `FlatFace`. Dans la fenêtre 3D, sélectionnez le côté gauche du mur qui n\'a aucun élément; faites pivoter la [vue standard](Std_View_Menu/fr.md) si nécessaire. Modifiez `Attachment offset` en \[-1 m, 0 m, 0 m\] pour centrer la fenêtre, puis cliquez sur **OK**. L\'esquisse et la fenêtre doivent apparaître dans une nouvelle position.
 
 :   
-    **Note:**[Part Accrochage](Part_Attachment/fr.md) peut également être effectuée en passant à [atelier Part](Part_Workbench/fr.md), puis en utilisant le menu {{MenuCommand|Pièce → Attachment}}.
+    **Note:**[Part Accrochage](Part_Attachment/fr.md) peut également être effectuée en passant à [atelier Part](Part_Workbench/fr.md), puis en utilisant le menu **Pièce → Attachment**.
 
 ![](images/13_T02_sketch_attachment_edit.png )
 
@@ -216,7 +216,7 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Ouverture incorrecte dans le mur en raison d'une mauvais normale de la fenêtre*
 
-## Normales des portes et fenêtres {#normales_des_portes_et_fenêtres}
+## Normales des portes et fenêtres 
 
 18\. Chaque objet [Arch Fenêtre](Arch_Window/fr.md) contrôle l\'extrusion de son corps et l\'ouverture qui est créée dans sa paroi hôte au moyen de sa {{PropertyData/fr|Normal}}.
 
@@ -302,7 +302,7 @@ Après avoir effectué ces modifications, recalculez le modèle avec **Ctrl**+**
 
 *align=center|Ouverture correcte dans le mur en raison de la bonne  normale de la fenêtre*
 
-## Remarques finales {#remarques_finales}
+## Remarques finales 
 
 20\. Comme démontré, l\'emplacement initial de la [Arch Fenêtre](Arch_Window/fr.md) est très important. L\'utilisateur doit soit
 

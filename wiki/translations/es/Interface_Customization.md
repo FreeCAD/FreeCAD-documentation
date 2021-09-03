@@ -16,8 +16,8 @@ La interfaz de FreeCAD está basada en el moderno kit de herramientas [Qt](http:
 
 1.  Los comandos disponibles en el cuadro de diálogo Personalizar dependen de los ambientes de trabajo que se hayan cargado en la sesión actual de FreeCAD. Así que deberías cargar primero todos las ambientes de trabajo a cuyos comandos quieras tener acceso.
 2.  Hay varias formas de invocar el <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std DiálogoPersonalizar](Std_DlgCustomize/es.md) comando:
-    -   Seleccione la opción {{MenuCommand|Herramientas → <img src="images/Std_DlgCustomize.svg" width=16px> Personalizar...}} en el menú.
-    -   Haga clic con el botón derecho en un área de la barra de herramientas y elija {{MenuCommand|<img src="images/Std_DlgCustomize.svg" width=16px> Personalizar...}} en el menú contextual.
+    -   Seleccione la opción **Herramientas → <img src="images/Std_DlgCustomize.svg" width=16px> Personalizar...** en el menú.
+    -   Haga clic con el botón derecho en un área de la barra de herramientas y elija **<img src="images/Std_DlgCustomize.svg" width=16px> Personalizar...** en el menú contextual.
 3.  Se abre el cuadro de diálogo Personalizar. Para más información, consulte [Opciones](#Opciones.md).
 4.  El botón **Ayuda** no funciona en este momento.
 5.  Pulse el botón **Cerrar** para cerrar el cuadro de diálogo.
@@ -32,7 +32,7 @@ En el cuadro de diálogo Personalizar están disponibles las siguientes pestaña
 
 En esta pestaña puede examinar los comandos disponibles.
 
-#### Comandos navegación {#comandos_navegación}
+#### Comandos navegación 
 
 1.  Seleccione una categoría de comandos en el panel **Categoría** de la izquierda. Algunas categorías coinciden con las entradas del menú.
 2.  Las herramientas disponibles en la categoría seleccionada se muestran en el panel de la derecha.
@@ -47,7 +47,7 @@ En esta pestaña puede examinar los comandos disponibles.
 
 En esta pestaña se pueden definir atajos de teclado personalizados. Los atajos de teclado para los comandos de macros se pueden definir en la pestaña [Macros](#Macros.md).
 
-#### Añadir un atajo personalizado {#añadir_un_atajo_personalizado}
+#### Añadir un atajo personalizado 
 
 1.  Select a command category from the **Category** dropdown list.
 2.  Select a command from the **Commands** panel.
@@ -57,17 +57,17 @@ En esta pestaña se pueden definir atajos de teclado personalizados. Los atajos 
 6.  Press the **Assign** button to assign the new shortcut.
 7.  Press the **Clear** button to remove the entered shortcut. This will also remove the content of the **Current shortcut** box. Note that default shortcuts are not permanently removed. They will be restored upon restarting FreeCAD.
 
-#### Eliminar un atajo personalizado {#eliminar_un_atajo_personalizado}
+#### Eliminar un atajo personalizado 
 
 1.  Select a command category from the **Category** dropdown list.
 2.  Select a command from the **Commands** panel.
 3.  Press the **Reset** button.
 
-#### Eliminar todo atajos personalizado {#eliminar_todo_atajos_personalizado}
+#### Eliminar todo atajos personalizado 
 
 1.  Pulse el botón **Reiniciar todo**.
 
-#### Notas (Teclado) {#notas_teclado}
+#### Notas (Teclado) 
 
 -   Shortcuts only work if their commands appear in the standard menu or in the menu of a workbench that has been loaded in the current FreeCAD session, or if their commands appear on a *visible* toolbar.
 
@@ -76,75 +76,75 @@ En esta pestaña se pueden definir atajos de teclado personalizados. Los atajos 
 
 [inicio](#top.md)
 
-### Ambientes de trabajo {#ambientes_de_trabajo}
+### Ambientes de trabajo 
 
 ![](images/Std_DlgCustomize_tab_Workbenches.png ) *La pestaña Ambientes de trabajo*
 
 On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The **Enabled workbenches** list shows the workbenches as they will appear in the Workbench selector.
 
-#### Desactivar un ambiente de trabajo {#desactivar_un_ambiente_de_trabajo}
+#### Desactivar un ambiente de trabajo 
 
 1.  Select a workbench in the **Enabled workbenches** list.
 2.  Press the **<img src="images/Button_left.svg" width=16px>** button.
 3.  The workbench will be moved to the **Disabled workbenches** list
 
-#### Habilitar un ambiente de trabajo {#habilitar_un_ambiente_de_trabajo}
+#### Habilitar un ambiente de trabajo 
 
 1.  Select a workbench in the **Disabled workbenches** list.
 2.  Press the **<img src="images/Button_right.svg" width=16px>** button.
 3.  The workbench will be moved to the **Enabled workbenches** list
 
-#### Habilitar todo ambientes de trabajo {#habilitar_todo_ambientes_de_trabajo}
+#### Habilitar todo ambientes de trabajo 
 
 1.  Press the **<img src="images/Button_add_all.svg" width=16px>** button.
 
-#### Cambiar la posición de un ambiente de trabajo {#cambiar_la_posición_de_un_ambiente_de_trabajo}
+#### Cambiar la posición de un ambiente de trabajo 
 
 1.  Select a workbench in the **Enabled workbenches** list.
 2.  Press the **<img src="images/Button_up.svg" width=16px>** button or the **<img src="images/Button_down.svg" width=16px>** button.
 3.  Optionally repeat this until the workbench is in the correct position.
 
-#### Ordenar los ambinetes de trabajo alfabéticamente {#ordenar_los_ambinetes_de_trabajo_alfabéticamente}
+#### Ordenar los ambinetes de trabajo alfabéticamente 
 
 1.  Press the **<img src="images/Button_sort.svg" width=16px>** button.
 
 [inicio](#top.md)
 
-### Barras Herramientas {#barras_herramientas}
+### Barras Herramientas 
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) *La pestaña Barras Herramientas*
 
 En esta pestaña se pueden crear y modificar barras de herramientas personalizadas.
 
-#### Seleccione el ambiente de trabajo {#seleccione_el_ambiente_de_trabajo}
+#### Seleccione el ambiente de trabajo 
 
 1.  In the dropdown list on the right select the workbench whose custom toolbars you want to modify. The {{Value|Global}} option is there for custom toolbars that should be available in all workbenches.
 
-#### Crear una barra herramientas {#crear_una_barra_herramientas}
+#### Crear una barra herramientas 
 
 1.  Press the **New...** button.
 2.  Enter a name in the dialog box that opens.
 3.  Press the **OK** button.
 4.  The new toolbar will appear in the panel on the right.
 
-#### Renombrar una barra herramientas {#renombrar_una_barra_herramientas}
+#### Renombrar una barra herramientas 
 
 1.  Select a toolbar in the panel on the right.
 2.  Press the **Rename...** button.
 3.  Enter a new name in the dialog box that opens.
 4.  Press the **OK** button.
 
-#### Eliminar una barra herramientas {#eliminar_una_barra_herramientas}
+#### Eliminar una barra herramientas 
 
 1.  Select a toolbar in the panel on the right.
 2.  Press the **Delete** button.
 
-#### Desactivar una barra herramientas {#desactivar_una_barra_herramientas}
+#### Desactivar una barra herramientas 
 
 1.  Uncheck the checkbox in front of the toolbar name in the panel on the right.
 2.  A disabled toolbar will be invisible in the FreeCAD interface.
 
-#### Añadir un comando {#añadir_un_comando}
+#### Añadir un comando 
 
 1.  At least one custom toolbar is required. See [Create a toolbar](#Create_a_toolbar.md).
 2.  Select the correct toolbar in the panel on the right. If no toolbar is selected, the command will be added to the first toolbar in the list.
@@ -153,20 +153,20 @@ En esta pestaña se pueden crear y modificar barras de herramientas personalizad
 5.  Or select \'\' to add a separator (a line between two toolbar buttons).
 6.  Press **<img src="images/Button_right.svg" width=16px>** button.
 
-#### Elimina un comando {#elimina_un_comando}
+#### Elimina un comando 
 
 1.  If required, expand the toolbar in the panel on the right.
 2.  Select a command.
 3.  Press **<img src="images/Button_left.svg" width=16px>** button.
 
-#### Cambiar la posición de un position comando {#cambiar_la_posición_de_un_position_comando}
+#### Cambiar la posición de un position comando 
 
 1.  If required, expand the toolbar in the panel on the right.
 2.  Select a command.
 3.  Press the **<img src="images/Button_up.svg" width=16px>** button or the **<img src="images/Button_down.svg" width=16px>** button.
 4.  Optionally repeat this until the command is in the correct position.
 
-#### Notas (Barras Herramienta) {#notas_barras_herramienta}
+#### Notas (Barras Herramienta) 
 
 -   Toolbars belonging to the current workbench are updated immediately, but after disabling/re-enabling a toolbar a workbench change is required (switch to a different workbench and then switch back).
 -   To update global toolbars a workbench change (if commands have been added or removed) or a restart (if the order of a toolbar has changed or a toolbar was renamed) is required.
@@ -185,7 +185,7 @@ If you download a macro with the <img alt="" src=images/Std_AddonMgr.svg  style=
 
 If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information.
 
-#### Añadir un macrocomando {#añadir_un_macrocomando}
+#### Añadir un macrocomando 
 
 1.  In the **Macro** dropdown list select a macro.
 2.  Enter a **Menu text**. This will be the name used to identify the macro command and will also appear in the toolbar if there is no icon.
@@ -202,12 +202,12 @@ If you want to use a macro downloaded from a different source you will have to i
 9.  The macro command appears in the panel on the left.
 10. The macro command can now be selected on the [Toolbars](#Toolbars.md) tab.
 
-#### Elimina un macrocomando {#elimina_un_macrocomando}
+#### Elimina un macrocomando 
 
 1.  Select the macro command in the panel on the left.
 2.  Press the **Remove** button.
 
-#### Cambiar un macrocomando {#cambiar_un_macrocomando}
+#### Cambiar un macrocomando 
 
 1.  Double-click the macro command in the panel on the left.
 2.  Make the required changes. Note that you cannot remove the icon, you can only replace it.
@@ -215,13 +215,13 @@ If you want to use a macro downloaded from a different source you will have to i
 
 [inicio](#top.md)
 
-### Movimiento Bola Espacial {#movimiento_bola_espacial}
+### Movimiento Bola Espacial 
 
 This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md).
 
 [inicio](#top.md)
 
-### Botones Bola Espacial {#botones_bola_espacial}
+### Botones Bola Espacial 
 
 This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md).
 

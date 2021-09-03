@@ -33,7 +33,7 @@ Other properties that this object has are those related to the appearance of its
 
 See [Property](Property.md) for all property types that scripted objects can have.
 
-These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the {{MenuCommand|Show all}} command in the context menu of the [property editor](property_editor.md).
+These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
 ### Data
 
@@ -61,7 +61,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 -    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string.
 
-#### Hidden properties Data {#hidden_properties_data}
+#### Hidden properties Data 
 
 
 {{TitleProperty|Base}}
@@ -113,7 +113,7 @@ Most objects in FreeCAD have what is called a \"view provider\", which is a clas
 
 -    **Visibility|Bool**: if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar in the keyboard.
 
-#### Hidden properties View {#hidden_properties_view}
+#### Hidden properties View 
 
 
 {{TitleProperty|Base}}

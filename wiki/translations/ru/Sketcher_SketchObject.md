@@ -17,7 +17,7 @@ The `Sketcher::SketchObject` is derived from [Part Part2DObject](Part_Part2DObje
 
 1.  Switch to the [Sketcher Workbench](Sketcher_Workbench.md).
 2.  Press **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**.
-3.  Select a {{MenuCommand|Sketch orientation}}: XY-plane, XZ-plane, or YZ-plane. Optionally also choose {{MenuCommand|Reverse direction}}, and give an {{MenuCommand|Offset}} value.
+3.  Select a **Sketch orientation**: XY-plane, XZ-plane, or YZ-plane. Optionally also choose **Reverse direction**, and give an **Offset** value.
 4.  Press **OK**.
 
 Although the SketchObject can be used by itself to draw on a plane, it is most commonly used in conjunction with the [PartDesign Workbench](PartDesign_Workbench.md) to create extruded solids.
@@ -29,7 +29,7 @@ Although the SketchObject can be used by itself to draw on a plane, it is most c
 3.  Press **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)**.
 
 4.  
-    {{MenuCommand|Select feature}}: XY\_Plane (Base plane), XZ\_Plane (Base plane), or YZ\_Plane (Base plane).
+    **Select feature**: XY\_Plane (Base plane), XZ\_Plane (Base plane), or YZ\_Plane (Base plane).
 
 5.  Press **OK**.
 
@@ -39,7 +39,7 @@ See [Property](Property.md) for all property types that scripted objects can hav
 
 A [Sketcher SketchObject](Sketcher_SketchObject.md) (`Sketcher::SketchObject` class) is derived from a [Part Part2DObject](Part_Part2DObject.md) (`Part::Part2DObject` class), therefore it shares all the latter\'s properties.
 
-In addition to the properties described in [Part Part2DObject](Part_Part2DObject.md), the basic Sketcher SketchObject has the following properties in the [property editor](property_editor.md). Hidden properties can be shown by using the {{MenuCommand|Show all}} command in the context menu of the [property editor](property_editor.md).
+In addition to the properties described in [Part Part2DObject](Part_Part2DObject.md), the basic Sketcher SketchObject has the following properties in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
 ### Данные
 
@@ -53,7 +53,7 @@ In addition to the properties described in [Part Part2DObject](Part_Part2DObject
 
 -    **Constraints|**: named constraints, if they exist; otherwise it is an empty list `[]`.
 
-#### Hidden properties Data {#hidden_properties_data}
+#### Hidden properties Data 
 
 See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden properties.
 
@@ -89,7 +89,7 @@ See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden propert
 
 -    **Show Support|Bool**: if `True` all objects this sketch is attached to are shown when opening the sketch.
 
-#### Hidden properties View {#hidden_properties_view}
+#### Hidden properties View 
 
 
 {{TitleProperty|Base}}
@@ -103,7 +103,7 @@ See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden propert
 
 All other view properties, including hidden properties, are those of the base [Part Feature](Part_Feature.md) object.
 
-## Написание сценариев {#написание_сценариев}
+## Написание сценариев 
 
 
 **See also:**

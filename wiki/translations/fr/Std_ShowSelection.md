@@ -18,8 +18,8 @@ La commande **Std Afficher la sélection** masque les objets sélectionnés dans
     -   Soyez prudent lorsque vous utilisez **Ctrl**+**A** pour sélectionner tous les objets dans l\'arborescence. Cela sélectionnera également les sous-éléments du [PartDesign Corps](PartDesign_Body/fr.md) et les objets utilisés par les [Part Opérations booléennes](Part_Boolean/fr.md). Dans la plupart des cas, ceux-ci doivent rester invisibles.
     -   Les objets utilisés par les [Part Opérations booléennes](Part_Boolean/fr.md) sont également sélectionnés lorsque vous utilisez **Ctrl**+**A** dans une vue 3D.
 2.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Visibilité → <img src="images/Std_ShowSelection.svg" width=16px> Afficher la sélection}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/Std_ShowSelection.svg" width=16px> Afficher la sélection}} dans le menu contextuel de l\'arborescence. Cette option n\'est pas disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
+    -   Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_ShowSelection.svg" width=16px> Afficher la sélection** dans le menu.
+    -   Sélectionnez l\'option **<img src="images/Std_ShowSelection.svg" width=16px> Afficher la sélection** dans le menu contextuel de l\'arborescence. Cette option n\'est pas disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
 
 ## Remarques
 

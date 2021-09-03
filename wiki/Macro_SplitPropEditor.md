@@ -39,7 +39,7 @@ For more detailed explanations, see the [How to install macros](How_to_install_m
 
 ## Script
 
-### Forum discussion {#forum_discussion}
+### Forum discussion 
 
 For any feedback (bug, feature request, comments, \...), please use this forum thread : <https://forum.freecadweb.org/viewtopic.php?f=22&t=39345>
 

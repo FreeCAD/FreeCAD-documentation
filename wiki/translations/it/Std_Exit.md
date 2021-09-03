@@ -18,7 +18,7 @@ Il comando **Esci** chiude l\'applicazione FreeCAD e facoltativamente salva i do
 ## Utilizzo
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Selezionare l\'opzione {{MenuCommand|File → <img src="images/Std_Quit.svg" width=16px> Esci}} dal menu.
+    -   Selezionare l\'opzione **File → <img src="images/Std_Quit.svg" width=16px> Esci** dal menu.
     -   Usare la scorciatoia da tastiera: **Alt**+**F4**.
 2.  Se il documento attivo non è stato salvato, una finestra di dialogo richiederà di salvarlo:
     -   Premere il pulsante **Salva**. Se necessario, inserire prima un nome per il file.
@@ -31,7 +31,7 @@ Il comando **Esci** chiude l\'applicazione FreeCAD e facoltativamente salva i do
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: {{MenuCommand|Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 <div class="mw-translate-fuzzy">

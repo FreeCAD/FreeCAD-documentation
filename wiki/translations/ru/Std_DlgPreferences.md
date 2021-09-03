@@ -13,7 +13,7 @@
 
 ## Применение
 
-1.  Выберите пункт меню {{MenuCommand|Правка → <img src="images/Std_DlgPreferences.svg" width=16px> Настройки...}}.
+1.  Выберите пункт меню **Правка → <img src="images/Std_DlgPreferences.svg" width=16px> Настройки...**.
 
 ## Примечания
 

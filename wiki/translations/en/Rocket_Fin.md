@@ -17,17 +17,17 @@ Fins are used to aerodynamically control the direction of flight.
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_Fin.svg" width=16px> [Fin](Rocket_Fin.md)** button.
-    -   Select the {{MenuCommand|Rocket → <img src="images/Rocket_Fin.svg" width=16px> Fin}} option from the menu.
+    -   Select the **Rocket → <img src="images/Rocket_Fin.svg" width=16px> Fin** option from the menu.
     -   Double click on a Fin object in the model view.
 2.  Set options and press **OK**.
 
 ## Options
 
-### Fin Type {#fin_type}
+### Fin Type 
 
 At the moment, only *trapezoid* shape fins are supported. This will change as the workbench continues to be developed.
 
-### Cross Section {#cross_section}
+### Cross Section 
 
 The cross sectional shape of a fin can greatly affect its performance at different speeds, as well as the looks of the rocket. A variety of fin cross sections have been implemented. Fins are created by lofting the root cross section to the tip cross section, so not all combinations of **Root Cross Section** and **Tip Cross Section** will produce useful fins.
 
@@ -71,7 +71,7 @@ The cross sectional shape of a fin can greatly affect its performance at differe
 <img alt="" src=images/CS_Taper.png  style="width:128px;"> 
 *Taper cross section*
 
-### Through the Wall (TTW) Tabs {#through_the_wall_ttw_tabs}
+### Through the Wall (TTW) Tabs 
 
 Through the Wall fins add structural strength by extending though the outer body tube to an inner body tube such as a motor mount. Instead of attaching just to the outside of the outer body tube, it can be attached at multiple points. As such, tthe height of the tab would be the distance from the outer diameter of the inner body tube to the outer diameter of the outer body tube. Other parameters would vary depending on requirements.
 ![](images/TTWx4.png ) *4 TTW fins attached to a central motor mount inside the outer body tube*
@@ -142,7 +142,7 @@ See also: [:Category:API](:Category:API.md) and [FreeCAD Scripting Basics](FreeC
 
 TBD
 
-## Tutorials and Learning {#tutorials_and_learning}
+## Tutorials and Learning 
 
 [Rocket Workbench Fins](https://youtu.be/8MmEVyGkA0I) Tutorial on YouTube
 

@@ -11,7 +11,7 @@ Versiones anteriores: [0.12](Release_notes_012/es.md) - [0.11](Release_notes_011
 -   **Preferencias de Color**: ¿Aburrido del aspecto por defecto de FreeCAD con sus antiguas líneas negras sobre formas grises? Ahora se puede editar en las preferencias del usuario (Mostrar-\> Color), junto con otros colores por defecto.
 -   **Alineamiento**: Dos formas se pueden alinear entre si con hasta tres puntos con esta herramienta disponible en el menú Editar.
 
-## Módulo de Dibujo {#módulo_de_dibujo}
+## Módulo de Dibujo 
 
 -   **Operación de Clip**: Un nuevo objeto de [clip](Drawing_Clip/es.md) permite situar vistas de los objetos enlazados dentro de rectángulos en las hojas de dibujo.
 -   **Bloques de títulos editables**: Cuando se diseñan [plantillas de dibujo](Drawing_templates/es.md), ahora es posible marcar textos como editables. Dichos textos se convierten directamente en editables en FreeCAD.
@@ -19,7 +19,7 @@ Versiones anteriores: [0.12](Release_notes_012/es.md) - [0.11](Release_notes_011
 -   **Vistas ortográficas**: Una nueva herramienta [Vistas ortográficas del dibujo](Drawing_Orthoviews/es.md) facilita la creación de múltiples vistas todas alineadas entre sí, de acuerdo con el sistema de proyección del primer cuadrante o del tercer cuadrante.
 -   Algunos errores corregidos ahora permiten imprimir páginas a escala.
 
-## Módulo de Croquizado {#módulo_de_croquizado}
+## Módulo de Croquizado 
 
 -   **Point Creation**
 
@@ -68,7 +68,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 
 <div class="mw-translate-fuzzy">
 
-## Módulo de Boceto {#módulo_de_boceto}
+## Módulo de Boceto 
 
 -   El importador de DXF ahora soporta puntos y directrices
 
@@ -93,7 +93,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 
 ![800px](images/013-draft-shape2dview.jpg)
 
-## Módulo de Arquitectura {#módulo_de_arquitectura}
+## Módulo de Arquitectura 
 
 -   **Integración del Boceto**: Los módulos de Arquitectura y Boceto están ahora fuertemente integrados. Las herramientas de Arquitectura utilizan el sistema de [ajuste del Boceto](Draft_Snap/es.md), y todas las herramientas del Boceto están presentes en el entorno de Arquitectura. En realidad, si quieres, ahora puedes desactivar por completo el módulo de Boceto (Preferencias -\> Boceto -\> Ocultar el entorno de Boceto)
 -   **Nueva herramienta Muro**: La herramienta [Muro](Arch_Wall/es.md) se ha mejorado considerablemente, y ahora presenta un modo de dibujo directo, que se activa cuando presionas el botón de Muro sin ningún elemento seleccionado, esto te permite dibujar muros como si dibujases simples líneas. Además, los muros ahora se conectan automáticamente cuando te ajustas a un muro existente.
@@ -121,25 +121,25 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 
 -   **Objetos de Arquitectura a partir de mallas**: Los [Muros](Arch_Wall/es.md) y [Estructuras](Arch_Structure/es.md) se pueden crear ahora directamente a partir de una malla, suponiendo que esté cerrada, sólidos y todas las aristas son [manifold](http://doc.spatial.com/index.php/Manifold_and_Non-manifold_Objects). Esto permite transformaciones muy rápidas de geometría importada de otras aplicaciones como [blender](http://www.blender.org) en objetos de Arquitectura válidos.
 
-## Módulo de Piezas {#módulo_de_piezas}
+## Módulo de Piezas 
 
 -   **Refinar forma** es una nueva utilidad que limpia las caras después de ejecutar algunas operaciones en una forma. Se puede establecer para ejecutarse automáticamente después de las operaciones booleanas en las Preferencias.
 -   **Nueva herramienta recubrimiento** puede extruir un conjunto completo de superficies o una forma sólida a través de una serie de croquis u objetos de Boceto.
 -   **Nueva herramienta barrido** puede extruir un conjunto completo de superficies o una forma sólida a través de una serie de croquis u objetos de Boceto y una trayectoria (croquis, arista u objeto de Boceto).
 -   **Constructor de formas** y **Creación de primitivas** son ahora parte de la barra de herramientas Pieza para tener un acceso más rápido.
 
-## Módulo de Diseño de Piezas {#módulo_de_diseño_de_piezas}
+## Módulo de Diseño de Piezas 
 
 -   **Saliente** y **Cajera** son ahora más potentes gracias a más parámetros, como extruir hasta el primero / último, hasta la cara, 2 dimensiones, simétrica al plano.
 -   **Chaflán** y **Redondeo** se han actualizado: seleccionar una cara ahora está permitido, todas las aristas exteriores e interiores de la cara serán procesados.
 -   **Revolución**: una línea constructiva se puede utilizar ahora como eje de revolución.
 -   **Nueva herramienta muesca**: corta material de tu sólido revolucionando un croquis.
 
-## Módulo de Diseño Naval {#módulo_de_diseño_naval}
+## Módulo de Diseño Naval 
 
 -   Nuevo módulo de Diseño naval
 
-## Ratón 3D {#ratón_3d}
+## Ratón 3D 
 
 -   Se ha añadido soporte para ratones 3D (Spaceball, Space Navigator) en la versión de Windows.
 -   Una nueva pestaña **Spaceball Motion** en el letrero de diálogo de personalización permite una ajuste fino del ratón a los parámetros que desees, directamente desde FreeCAD.
@@ -147,7 +147,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 
 <div class="mw-translate-fuzzy">
 
-## OpenSCAD module {#openscad_module}
+## OpenSCAD module 
 
 -   Este nuevo módulo (experimental) proporciona capacidad de importar archivos OpenSCAD en FreeCAD. Este formato de archivo es muy popular en la comunidad RepRap y en el sitio de compartir diseños digitales Thingiverse.
 -   OpenSCAD script can be executed from within FreeCAD, by OpenSCAD (if installed on your computer), with the result appearing in your FreeCAD document.

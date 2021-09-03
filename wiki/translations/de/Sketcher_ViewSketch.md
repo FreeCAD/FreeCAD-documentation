@@ -15,7 +15,7 @@ Dieses Werkzeug setzt das Modell lotrecht zur Skizzenebene. Das ist sinnvoll, we
 Wenn im Skizzenbearbeitungsmodus, entweder
 
 -   Klicke auf das **<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Skizze anzeigen](Sketcher_ViewSketch.md)** Symbol in der Skizzierer oder PartDesign Werkzeugleiste, oder
--   Gehe zum {{MenuCommand|Skizze → <img src=images/Sketcher_ViewSketch.svg style="width:16px"> Skizze anzeigen}} Menü.
+-   Gehe zum **Skizze → <img src=images/Sketcher_ViewSketch.svg style="width:16px"> Skizze anzeigen** Menü.
 
 
 

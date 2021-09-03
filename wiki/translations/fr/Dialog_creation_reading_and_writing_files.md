@@ -6,7 +6,7 @@ Exemple de [création de boîte de dialogue](Dialog_creation/fr.md) avec [PySide
 
 Dans cet exemple, l\'interface entière est définie en [Python](Python/fr.md). Bien que cela soit possible pour les petites interfaces, pour les interfaces plus importantes, la recommandation est de charger les fichiers {{FileName|.ui}} créés directement dans le programme. Voir [Création d\'une interface avec des fichiers UI](Interface_creation_with_UI_files/fr.md) pour plus d\'informations.
 
-## Dialogue d\'écriture dans un fichier {#dialogue_décriture_dans_un_fichier}
+## Dialogue d\'écriture dans un fichier 
 
 Code complet: 
 ```python
@@ -43,7 +43,7 @@ else:                                                                         # 
 
 ```
 
-## Dialogue pour lire un fichier {#dialogue_pour_lire_un_fichier}
+## Dialogue pour lire un fichier 
 
 Code complet: 
 ```python

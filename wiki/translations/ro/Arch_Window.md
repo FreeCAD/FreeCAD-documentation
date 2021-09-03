@@ -48,12 +48,12 @@ Toate informațiile aplicabile unui [Arch Window](Arch_Window.md) se aplică și
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
 
-### Utilizarea predefinitelor {#utilizarea_predefinitelor}
+### Utilizarea predefinitelor 
 
 
 <div class="mw-translate-fuzzy">
@@ -84,7 +84,7 @@ The `$ROOT_DIR` is the user\'s directory where FreeCAD configuration, macros, an
 -   On Windows it is usually `C:\Users\username\Application Data\FreeCAD\`
 -   On Mac OSX it is usually `/Users/username/Library/Preferences/FreeCAD/`
 
-### Crearea de la zero {#crearea_de_la_zero}
+### Crearea de la zero 
 
 
 <div class="mw-translate-fuzzy">
@@ -106,13 +106,13 @@ The `$ROOT_DIR` is the user\'s directory where FreeCAD configuration, macros, an
 
 when creating the sketch, pay close attention to the creation order of the loops; the numbering of the \"wires\" in the [task panel](task_panel.md) (\"Window elements\") depends on this.
 
-## Setări prealabile {#setări_prealabile}
+## Setări prealabile 
 
 Sunt disponibile următoarele presetări:
 
 Image:ParametersDoorGlass.svg\|Glass door Image:ParametersDoorSimple.svg\|Simple door Image:ParametersWindowDouble.svg\|Double-opening window Image:ParametersWindowFixed.svg\|Fixed window Image:ParametersWindowSimple.svg\|Single-opening window Image:ParametersWindowStash.svg\|Sash-opening window
 
-## Construcția de componente {#construcția_de_componente}
+## Construcția de componente 
 
 Ferestrele pot include 3 tipuri de componente: panouri, cadre și jaluzele. Panourile și jaluzele sunt realizate dintr-un fir închis, care este extrudat, în timp ce cadrele sunt realizate din 2 sau mai multe fire închise,where each one is extruded, then the smaller ones are subtracted from the biggest one. You can access, create, modify and delete components of a window in edit mode (double-click the window in the Tree view). The components have the following properties:
 
@@ -170,7 +170,7 @@ Ușile și ferestrele pot apărea parțial sau complet în modelul 3D sau pot fi
 
 </div>
 
-## Defining window types {#defining_window_types}
+## Defining window types 
 
 Windows can also take advantage of other tools, specifically [PartDesign](PartDesign_Workbench.md) workflows, to define a type. A type is an object that defines the shape of the window. This is specially well suited to work with [App Parts](App_Part.md):
 
@@ -178,7 +178,7 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
 
 [Download the example file shown above](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
 
-### Example workflow {#example_workflow}
+### Example workflow 
 
 -   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part.md) or [PartDesign](PartDesign_Workbench.md) tools.
 -   For example, create a base rectangular sketch for your window, then a profile sketch for the frame, and create a [Part Sweep](Part_Sweep.md) to sweep the profile around the base sketch. Create a [Part Offset2D](Part_Offset2D.md) from the base sketch, then a [Part Extrude](Part_Extrude.md) to create the glass panel

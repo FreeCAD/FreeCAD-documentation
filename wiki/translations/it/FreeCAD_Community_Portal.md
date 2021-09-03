@@ -5,7 +5,7 @@ Questo è il posto dove mettere tutte le cose connesse a FreeCAD! Se si lavora s
 
 <div class="mw-translate-fuzzy">
 
-## Luoghi dove FreeCAD appare in rete {#luoghi_dove_freecad_appare_in_rete}
+## Luoghi dove FreeCAD appare in rete 
 
 -   [Wikipedia](http://en.wikipedia.org/wiki/FreeCAD_(software))
 -   [Softpedia](http://linux.softpedia.com/get/Multimedia/Graphics/FreeCAD-31097.shtml)
@@ -33,7 +33,7 @@ Questo è il posto dove mettere tutte le cose connesse a FreeCAD! Se si lavora s
 
 <div class="mw-translate-fuzzy">
 
-## Progetti correlati a FreeCAD {#progetti_correlati_a_freecad}
+## Progetti correlati a FreeCAD 
 
 -   [pythonOCC](http://www.pythonocc.org) is a python binding collection for openCasCade, the 3D modeling kernel used by FreeCAD. With pythonOCC, the full power of OpenCasCade can be accessed and used from within FreeCAD.
 -   [Architecture workflow](http://yorik.uncreated.net/guestblog.php?tag=freecad) : An example of how FreeCAD can begin to have its preliminary place in an architecture workflow\...
@@ -46,7 +46,7 @@ Questo è il posto dove mettere tutte le cose connesse a FreeCAD! Se si lavora s
 
 <div class="mw-translate-fuzzy">
 
-## Addon della comunità FreeCAD {#addon_della_comunità_freecad}
+## Addon della comunità FreeCAD 
 
 Questi sono ambienti, script, macro e addon sviluppati dalla comunità di FreeCAD per FreeCAD. A partire dalla versione 0.17 nel core di FreeCAD è stato implementato un Addon Manager che rende estremamente comodo installare i componenti aggiuntivi approvati dalla comunità.
 
@@ -63,11 +63,11 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 
 ## Pubbblicità
 
-### Social networks {#social_networks}
+### Social networks 
 
 -   [yorik](User:Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
-### Siti di news {#siti_di_news}
+### Siti di news 
 
 -   <http://makezine.com/>
 -   <http://www.webupd8.org/>
@@ -80,7 +80,7 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 -   <http://www.inside3dp.com/>
 -   <http://diy3dprinting.blogspot.com/>
 
-### Altri siti {#altri_siti}
+### Altri siti 
 
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
 -   <http://forum.diigiit.com/>
@@ -116,7 +116,7 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 
 <div class="mw-translate-fuzzy">
 
-## Altre risorse {#altre_risorse}
+## Altre risorse 
 
 -   [Link interessanti](Interesting_links/it.md) contiene alcuni link ad altre risorse FLOSS che possono essere utili e dei progetti in questo settore.
 
@@ -128,7 +128,7 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 
 <div class="mw-translate-fuzzy">
 
-## Anche tu! {#anche_tu}
+## Anche tu! 
 
 -   Vedere cosa si può fare per [contribuire a FreeCAD](Help_FreeCAD/it.md)\...
 

@@ -31,7 +31,7 @@ Die folgende Liste zeigt Parameter, die nicht über den Einstellungseditor zugä
 
 </div>
 
-### Export Default Filename {#export_default_filename}
+### Export Default Filename 
 
 -   **General/ExportDefaultFilenameMultiple** (string): Set the default filename to use when exporting multiple objects. Defaults to \"%F\".
 -   **General/ExportDefaultFilenameSingle** (string): Set the default filename to use when exporting a single object. Defaults to \"%F-%P-\".
@@ -55,12 +55,12 @@ Any other characters are treated literally. If the resulting filename is illegal
 
 ## Tastaturkurzbefehle
 
-### Esc-Taste {#esc_taste}
+### Esc-Taste 
 
 -   **General/TasksKeyEsc** (boolesch): erstelle und setze den Parameter auf `False`, um die Funktion der **Esc**-Taste, den [Aufgabenbereich](Task_panel/de.md) zu verlassen, wenn dieser den Fokus hat, zu deaktivieren. **Hinweis:** Ersetzt durch [Skizzen Einstellungen](Sketcher_Preferences/de#Allgemein.md)
 -   **Mod/Sketcher/ViewKeyEsc** (boolesch): erstelle und setze den Parameter auf `False`, um Fehler zu vermeiden, wenn die **Esc**-Taste während des Fortführmodus zur Erstellung von Geometrie/Einschränkungen im Skizzierer einmal zu oft gedrückt wird (siehe [Foren-Thema](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
 
-## Bestimmte Arbeitsbereiche {#bestimmte_arbeitsbereiche}
+## Bestimmte Arbeitsbereiche 
 
 
 <div class="mw-translate-fuzzy">

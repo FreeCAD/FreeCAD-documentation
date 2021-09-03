@@ -17,7 +17,7 @@ Lo strumento [Rinforzo di trave](Arch_Rebar_BeamReinforcement/it.md) consente al
 
 The [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}.
+Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 ![](images/Arch_Rebar_BeamReinforcement_example.png )
 
@@ -200,7 +200,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 Lo strumento Rinforzo di trave può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
-### Creare staffe con due ganci {#creare_staffe_con_due_ganci}
+### Creare staffe con due ganci 
 
 
 ```python

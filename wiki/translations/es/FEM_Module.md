@@ -14,7 +14,7 @@ El [Ambiente de trabajo MEF](FEM_Workbench/es.md) provee un moderno [Método de 
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
-## Flujo de Trabajo {#flujo_de_trabajo}
+## Flujo de Trabajo 
 
 Los pasos para realizar un análisis de elementos finitos son:
 
@@ -35,7 +35,7 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 *Flujo de trabajo del ambiente de trabajo MEF; el ambiente de trabajo llama a dos programas externos para realizar el mallado de un objeto sólido, y realizar la solución real del problema de elementos finitos*
 
-## Menú: Modelo {#menú_modelo}
+## Menú: Modelo 
 
 -   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> [Contenedor Análisis](FEM_Analysis/es.md): Crea un nuevo contenedor para un análisis mecánico. Si se selecciona un sólido en la vista de árbol antes de hacer clic en él, se abrirá a continuación el diálogo de malla.
 
@@ -51,7 +51,7 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> [Editor de materiales](Material_editor/es.md): Te permite abrir el editor de materiales para editarlos.
 
-### Geometría Elementos {#geometría_elementos}
+### Geometría Elementos 
 
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Corte transversal de viga](FEM_ElementGeometry1D/es.md):
 
@@ -61,17 +61,17 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Sección de fluido para flujo 1D](FEM_ElementFluid1D/es.md): Crea un elemento de sección de fluido FEM para redes neumáticas e hidráulicas.
 
-### Restricciones electrostáticas {#restricciones_electrostáticas}
+### Restricciones electrostáticas 
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Restricción Potencial electrostático](FEM_ConstraintElectrostaticPotential/es.md):
 
-### Restricciones Fluido {#restricciones_fluido}
+### Restricciones Fluido 
 
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Restricción de velocidad inicial de flujo](FEM_ConstraintInitialFlowVelocity/es.md): Utilizada para definir una velocidad de flujo inicial para el dominio.
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Restricción de velocidad de flujo](FEM_ConstraintFlowVelocity/es.md): Utilizada para definir una velocidad de flujo como condición de contorno en un borde (2D) o cara (3D).
 
-### Restricciones Geométricas {#restricciones_geométricas}
+### Restricciones Geométricas 
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Restricción de rotación de plano](FEM_ConstraintPlaneRotation/es.md): Utilizada para definir una restricción de rotación de plano sobre una cara plana.
 
@@ -79,7 +79,7 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Restricción de transformación](FEM_ConstraintTransform/es.md): Utilizada para definir una restricción de transformación en una cara.
 
-### Restricciónes Mecánicas {#restricciónes_mecánicas}
+### Restricciónes Mecánicas 
 
 -   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Restricción fija](FEM_ConstraintFixed/es.md): Utilizada para definir una restricción fija de un punto/arista/cara.
 
@@ -95,7 +95,7 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Restricción de peso propio](FEM_ConstraintSelfWeight/es.md): Utilizado para definir una aceleración de gravedad actuando sobre un modelo.
 
-### Restricciónes Térmicas {#restricciónes_térmicas}
+### Restricciónes Térmicas 
 
 -   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Restricción inicial de temperatura](FEM_ConstraintInitialTemperature/es.md): Utilizado para definir una restricción inicial de temperatura de un cuerpo.
 
@@ -105,7 +105,7 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Restricción de cuerpo de fuente de calor](FEM_ConstraintBodyHeatSource/es.md):
 
-### Restricciones sin solucionador {#restricciones_sin_solucionador}
+### Restricciones sin solucionador 
 
 -   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condición límite del fluido](FEM_ConstraintFluidBoundary/es.md):
 
@@ -115,11 +115,11 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Restricción de polea](FEM_ConstraintPulley/es.md): Utilizado para definir una restricción de polea.
 
-### Sobrescribir Constantes {#sobrescribir_constantes}
+### Sobrescribir Constantes 
 
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Permisividad constante del vacío](FEM_ConstantVacuumPermittivity/es.md): {{Version/es|0.19}}
 
-## Menú de Malla {#menú_de_malla}
+## Menú de Malla 
 
 -   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Malla MEF a partir de forma por Netgen](FEM_MeshNetgenFromShape/es.md):
 
@@ -137,7 +137,7 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Malla MEF a malla](FEM_FemMesh2Mesh/es.md): Convierte la superficie de una malla MEF a una malla.
 
-## Menú: Solve {#menú_solve}
+## Menú: Solve 
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Herramientas del Solucionador CalculiX Estándar](FEM_SolverCalculixCxxtools/es.md): Crea un nuevo solucionador para este analisis. En la mayoria de los casos el solucionador es creado junto con el analisis.
 
@@ -163,7 +163,7 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_SolverRun.svg  style="width:32px;"> [Ejecutar calculo de solucionador](FEM_SolverRun/es.md): Ejecuta el solucionador seleccionado del análisis activo.
 
-## Menú de Resultados {#menú_de_resultados}
+## Menú de Resultados 
 
 -   <img alt="" src=images/FEM_ResultsPurge.svg  style="width:32px;"> [Purga de resultados](FEM_ResultsPurge/es.md): Elimina los resultados del análisis activos.
 
@@ -191,7 +191,7 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;">
     -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;">
 
-## Menú: Utilidades {#menú_utilidades}
+## Menú: Utilidades 
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width:32px;"> [Plano de recorte en la cara](FEM_ClippingPlaneAdd/es.md):
 
@@ -199,7 +199,7 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width:32px;"> [Abrir ejemplos MEF](FEM_Examples/es.md): Abre la interfaz gráfica de usuario para acceder a los ejemplos de MEF.
 
-## Menú de contexto {#menú_de_contexto}
+## Menú de contexto 
 
 -   <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> [Limpiar malla MEF](FEM_MeshClear/es.md): Elimina el archivo de malla del archivo de FreeCAD. Útil para aligerar un archivo de FreeCAD.
 
@@ -249,7 +249,7 @@ Video Tutorial 2 [Vídeo de MEF para principiantes](https://forum.freecadweb.org
 
 Más video Tutoriales [anisim Software de ingeniería de código abierto](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (en alemán)
 
-## Extendiendo el Ambiente de trabajo MEF {#extendiendo_el_ambiente_de_trabajo_mef}
+## Extendiendo el Ambiente de trabajo MEF 
 
 The FEM Workbench is under constant development. An objective of the project is to find ways to easily interact with various FEM solvers, so that the end user can streamline the process of creating, meshing, simulating, and optimizing an engineering design problem, all within FreeCAD.
 
@@ -266,7 +266,7 @@ A developer\'s guide has been written to help power users in understanding the c
 -   [Early preview of ebook: Module developer\' guide to FreeCAD source](https://forum.freecadweb.org/viewtopic.php?t=17581) forum thread.
 -   [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) github repository.
 
-## Extender la documentación de Ambiente de trabajo MEF {#extender_la_documentación_de_ambiente_de_trabajo_mef}
+## Extender la documentación de Ambiente de trabajo MEF 
 
 -   Se puede encontrar más información sobre la ampliación o la falta de documentación de MEF en el foro: [Documentación MEF que falta en la Wiki](https://forum.freecadweb.org/viewtopic.php?f=18&t=20823)
 

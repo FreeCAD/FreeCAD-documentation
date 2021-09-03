@@ -21,7 +21,7 @@ Questo è il piano del progetto **Disegno di Parti** come parte del [Piano di sv
 
 <div class="mw-translate-fuzzy">
 
-## Finalità e principi {#finalità_e_principi}
+## Finalità e principi 
 
 Questo è un progetto di sviluppo del software con lo scopo di implementare le funzioni di disegno di oggetti di tipo Parte. Si tratta di implementare alcune **funzionalità di base** nei moduli CAD **Part, PartDesign e Assembly** di FreeCAD.
 
@@ -65,19 +65,19 @@ La **Metodologia Feature editing** (metodologia di modifica delle operazioni) è
 
 <div class="mw-translate-fuzzy">
 
-### Sketcher (Schizzo) {#sketcher_schizzo}
+### Sketcher (Schizzo) 
 
 Un disegnatore parametrico con un solutore di vincoli geometrici. Per maggiori dettagli vedere il **[Progetto di Schizzo](Sketcher_project/it.md)**.
 
 
 </div>
 
-### PartDesign (Disegno di Parte) {#partdesign_disegno_di_parte}
+### PartDesign (Disegno di Parte) 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Body feature (Funzione Corpo) {#body_feature_funzione_corpo}
+#### Body feature (Funzione Corpo) 
 
 Dato che un modello basato su uno storico (serie di operazioni in ordine cronologico) può contenere numerosi passaggi per arrivare alla forma finale è necessario un gruppo di riferimento. Questo è il **corpo**, esso contiene il risultato finale della modellazione e funziona come gruppo per tutte le operazioni dell\'albero dello storico.
 
@@ -87,18 +87,18 @@ Dato che un modello basato su uno storico (serie di operazioni in ordine cronolo
 
 <div class="mw-translate-fuzzy">
 
-#### Pad feature (operazione Estensione) {#pad_feature_operazione_estensione}
+#### Pad feature (operazione Estensione) 
 
 Una operazione Pad estrude uno schizzo (o qualsiasi Part2DObject) nella sua direzione normale. Garantisce sempre la creazione di un solido, o dà errore.
 
-#### Pocket feature (operazione Scavo) {#pocket_feature_operazione_scavo}
+#### Pocket feature (operazione Scavo) 
 
 Crea uno scavo con la forma di uno schizzo in un solido di base, con la profondità definita o \"Fino all\'ultimo/Fino al primo\". Garantisce anche l\'ottenimento di un solido.
 
 
 </div>
 
-#### Bore feature (Operazione foratura) {#bore_feature_operazione_foratura}
+#### Bore feature (Operazione foratura) 
 
 Ecco una ottima definizione dei parametri dei fori dalla specifica di NaroCad:
 
@@ -108,29 +108,29 @@ Ecco una ottima definizione dei parametri dei fori dalla specifica di NaroCad:
 
   : **NaroCAD Bore definitions**
 
-#### Pattern (Matrice, Modello) {#pattern_matrice_modello}
+#### Pattern (Matrice, Modello) 
 
 Replica una delle caratteristiche (operazioni) di cui sopra
 
-##### **RectangularPattern** (Matrice rettangolare) {#rectangularpattern_matrice_rettangolare}
+##### **RectangularPattern** (Matrice rettangolare) 
 
 Replica una delle caratteristiche di cui sopra lungo un modello x, y
 
-##### **CircularPattern** (Matrice circolare) {#circularpattern_matrice_circolare}
+##### **CircularPattern** (Matrice circolare) 
 
 Replica una delle caratteristiche di cui sopra, lungo una matrice in coordinate polari
 
-##### **ScriptedPattern** (Matrice script) {#scriptedpattern_matrice_script}
+##### **ScriptedPattern** (Matrice script) 
 
 Replica una delle caratteristiche di cui sopra in base ad una regola generale fornita in forma di script.
 
 ## Riflessioni
 
-### Cosa fanno gli altri {#cosa_fanno_gli_altri}
+### Cosa fanno gli altri 
 
 -   [Esempi di SolidWorks](http://www.youtube.com/watch?v=cVXQmDStHus)
 
-### Implementare dei modelli, matrici {#implementare_dei_modelli_matrici}
+### Implementare dei modelli, matrici 
 
 La classe delle operazioni con matrici (modelli) può essere implementata come un modello tabellare e servire come classe base per le operazioni di matrici rettangolari, circolari e di script. Queste classi derivate dovranno solo essere compilate nella tabella delle ripetizioni della classe base.
 
@@ -138,7 +138,7 @@ Ogni riga della tabella delle ripetizioni della classe di pattern (matrice, mode
 
 ## Organizzazione
 
-### Gerarchia della modellazione degli oggetti {#gerarchia_della_modellazione_degli_oggetti}
+### Gerarchia della modellazione degli oggetti 
 
 Questo grafico di [UML](http://http://it.wikipedia.org/wiki/Unified_Modeling_Language) (linguaggio di modellazione unificato) mostra la gerarchia degli oggetti prevista e le sue relazioni. La classe base astratta è di colore giallo, le implementazioni in sono blu e in grigio quelle previste.
 
@@ -162,14 +162,14 @@ Questo grafico di [UML](http://http://it.wikipedia.org/wiki/Unified_Modeling_Lan
 
 </div>
 
-## Azioni Successive {#azioni_successive}
+## Azioni Successive 
 
 L\'ordine di successione delle azioni per PartDesign è definito nella [Roadmap](http://www.freecadweb.org/tracker/roadmap_page.php).
 
 
 <div class="mw-translate-fuzzy">
 
-### Body (Corpo) {#body_corpo}
+### Body (Corpo) 
 
 Data la natura parametrica/associativa di PartDesign abbiamo bisogno di un \"Corpo\" di riferimento (il corpo principale, componente di base) che raggruppi e organizzi uno storico della costruzione. Il corpo stesso contiene il risultato finale come una forma e contiene raggruppate come figli le operazioni di PartDesign. Definisce inoltre l\'intestazione dello storico di modellazione. E\' anche relazionato al [Progetto di Assemblaggio](Assembly_project/it.md) che è il blocco di costruzione per i prodotti e i componenti.
 
@@ -179,14 +179,14 @@ Data la natura parametrica/associativa di PartDesign abbiamo bisogno di un \"Cor
 
 <div class="mw-translate-fuzzy">
 
-### Caratteristiche addizionali {#caratteristiche_addizionali}
+### Caratteristiche addizionali 
 
 Le operazioni Pad e Pocket (Estensione e Scavo) sono la prima parte (i primi attrezzi) di PartDesign. C\'è ancora molto lavoro da fare soprattutto con la visualizzazione e il controllo visivo dei manipolatori. Poi sono necessarie ulteriori operazioni.
 
 
 </div>
 
-#### Matrici, Modelli {#matrici_modelli}
+#### Matrici, Modelli 
 
 Sono le operazioni di Matrice che applicano ripetutamente una operazione Pad o Pocket secondo un modello circolare o rettangolare. Un [esempio in IronCAD](http://www.ironcad.com/index.php/support/learning-center).
 
@@ -200,7 +200,7 @@ Fori con tutti i classici parametri per la filettatura e la svasatura \....
 
 </div>
 
-#### Sweep (Trascinamento) {#sweep_trascinamento}
+#### Sweep (Trascinamento) 
 
 Trascina uno schizzo lungo una curva e crea un solido modellato secondo la stessa curva.
 
@@ -213,7 +213,7 @@ Ruota uno schizzo lungo uno dei suoi assi e di un certo angolo.
 
 <div class="mw-translate-fuzzy">
 
-## Elenco di cose da fare {#elenco_di_cose_da_fare}
+## Elenco di cose da fare 
 
 **1. Raccordare/Smussare Parte**
 

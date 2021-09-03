@@ -99,7 +99,7 @@ A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
-### Ansicht {#ansicht_1}
+### Ansicht 
 
 -    {{PropertyView/de|Ende Pfeil}}: Wenn es `True` ist, zeigt es ein Symbol am letzten Punkt der Linie an, so dass es als Anmerkungslinie verwendet werden kann.
 

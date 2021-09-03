@@ -93,7 +93,7 @@ Să aruncăm o privire mai bună asupra diferitelor părți ale interfeței:
 
 </div>
 
-In addition to the 3D view panel, the following information panels are available. They may be made visible or hidden by selecting them from {{MenuCommand|View → Panels}} . The name of the panel appears in the upper left corner of the panel when it is displayed:
+In addition to the 3D view panel, the following information panels are available. They may be made visible or hidden by selecting them from **View → Panels** . The name of the panel appears in the upper left corner of the panel when it is displayed:
 
 -   **The combo view** has two tabs:
     -   The Model tab shows you the contents and structure of your document above and the properties (or parameters) of the selected object(s) below. These properties are separated into two categories:
@@ -116,14 +116,14 @@ In addition to the 3D view panel, the following information panels are available
 
 </div>
 
-### Personalizarea interafeței {#personalizarea_interafeței}
+### Personalizarea interafeței 
 
 Interfața FreeCAD este foarte personalizabilă. Toate panourile și barele de unelte pot fi mutate în locuri diferite sau stive una deasupra celeilalte. De asemenea, acestea pot fi închise și redeschise atunci când este necesar din meniul Vizualizare sau făcând clic dreapta pe o zonă goală a interfeței. Există, însă, mai multe opțiuni disponibile, cum ar fi crearea de bare de instrumente personalizate cu instrumente de la oricare dintre atelierele de lucru sau atribuirea și schimbarea comenzilor rapide de la tastatură.
 
 
 <div class="mw-translate-fuzzy">
 
-Aceste opțiuni avansate de personalizare sunt disponibile de la {{MenuCommand|Tools -> Customize menu}}:
+Aceste opțiuni avansate de personalizare sunt disponibile de la **Tools -> Customize menu**:
 
 
 </div>

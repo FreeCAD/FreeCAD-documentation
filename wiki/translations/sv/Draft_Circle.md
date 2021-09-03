@@ -34,11 +34,11 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Circle.svg" width=16px> [Draft Circle](Draft_Circle.md)** button.
-    -   Select the {{MenuCommand|Drafting → <img src="images/Draft_Circle.svg" width=16px> Circle}} option from the menu.
+    -   Select the **Drafting → <img src="images/Draft_Circle.svg" width=16px> Circle** option from the menu.
     -   Use the keyboard shortcut: **C** then **I**.
-2.  The {{MenuCommand|Circle}} task panel opens. See [Options](#Options.md) for more information.
+2.  The **Circle** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point, the center of the circle, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-4.  Pick the second point in the [3D view](3D_view.md), or enter a {{MenuCommand|Radius}}.
+4.  Pick the second point in the [3D view](3D_view.md), or enter a **Radius**.
 
 ## Options
 
@@ -69,9 +69,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the initial value of filled mode: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible}}. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
--   If the {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available}} option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
+-   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 

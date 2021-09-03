@@ -53,12 +53,12 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   To use polar coordinates enter a value for the {{MenuCommand|Length}} and a value for the {{MenuCommand|Angle}}, and press **Enter** after each.
--   Check the {{MenuCommand|Angle}} checkbox to constrain the pointer to the specified angle.
--   Press **H** to change the focus from the {{MenuCommand|X}} input box to the {{MenuCommand|Length}} input box and back. Depending on the input box that receives the focus the {{MenuCommand|Angle}} checkbox is checked or unchecked.
--   Press **R** or click the {{MenuCommand|Relative}} checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
--   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the {{MenuCommand|Continue}} checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating lines.
+-   To use polar coordinates enter a value for the **Length** and a value for the **Angle**, and press **Enter** after each.
+-   Check the **Angle** checkbox to constrain the pointer to the specified angle.
+-   Press **H** to change the focus from the **X** input box to the **Length** input box and back. Depending on the input box that receives the focus the **Angle** checkbox is checked or unchecked.
+-   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating lines.
 -   The {{button|<img src="images/Draft_UndoLine.svg" width=16px> Undo}} button has no purpose for this command.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
@@ -72,9 +72,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the initial focus of the task panel to the {{MenuCommand|Length}} input box: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate}}. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
--   If the {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available}} option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
+-   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
 
 ## Properties
 

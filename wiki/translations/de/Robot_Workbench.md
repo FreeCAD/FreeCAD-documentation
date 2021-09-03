@@ -48,7 +48,7 @@ Die Werkzeuge zur Erstellung und Verwaltung der 6-Achsen-Roboter
 
 Werkzeuge zum Erstellen und Bearbeiten von Trajektorien. Es gibt zwei Arten, die parametrische und die nicht parametrische.
 
-#### Nicht parametrische Trajektorien {#nicht_parametrische_trajektorien}
+#### Nicht parametrische Trajektorien 
 
 -   <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:30px;"> [Eine Trajektorie erstellen](Robot_CreateTrajectory/de.md): Fügt ein neues leeres Trajektorienobjekt in die Szene ein
 -   <img alt="" src=images/Robot_SetDefaultOrientation.svg  style="width:30px;"> [Lege die Standardausrichtung fest](Robot_SetDefaultOrientation/de.md): Lege die Orientierung fest - Wegpunkte werden standardmäßig erstellt
@@ -56,7 +56,7 @@ Werkzeuge zum Erstellen und Bearbeiten von Trajektorien. Es gibt zwei Arten, die
 -   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:30px;"> [Einen Wegpunkt einfügen](Robot_InsertWaypoint/de.md): Einfügen eines Wegpunktes von der aktuellen Roboterposition in eine Trajektorie
 -   <img alt="" src=images/Robot_InsertWaypointPre.svg  style="width:30px;"> [Einen vorgewählten Wegpunkt einfügen](Robot_InsertWaypointPre/de.md): Einfügen eines Wegpunktes von der aktuellen Mausposition in eine Trajektorie
 
-#### Parametrische Trajektorien {#parametrische_trajektorien}
+#### Parametrische Trajektorien 
 
 -   <img alt="" src=images/Robot_Edge2Trac.svg  style="width:30px;"> [Erstellen einer Trajektorie aus Kanten](Robot_Edge2Trac/de.md): Einfügen eines neuen Objekts, das Kanten zu einer Trajektorie zerlegt
 -   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width:30px;"> [Ankleiden einer Trajektorie](Robot_TrajectoryDressUp/de.md): Erlaubt dir, eine oder mehrere Eigenschaften einer Trajektorie außer Kraft zu setzen

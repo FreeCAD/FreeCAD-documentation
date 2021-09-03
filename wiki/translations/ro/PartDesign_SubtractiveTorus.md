@@ -13,7 +13,7 @@ Inserează un tor substractiv în Corpul activ. Forma sa este scăzută din soli
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

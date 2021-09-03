@@ -39,25 +39,25 @@ Samotná pracovní plocha Skicář obsahuje vazby - umožňující 2D tvarům m�
 
 <div class="mw-translate-fuzzy">
 
-### Základy vazeb v náčrtu {#základy_vazeb_v_náčrtu}
+### Základy vazeb v náčrtu 
 
 Pro vysvětlení funkce Skicáře může být užitečné porovnání s \"tradičním\" způsobem kreslení.
 
 
 </div>
 
-#### Tradiční kreslení {#tradiční_kreslení}
+#### Tradiční kreslení 
 
 Tradiční způsob kreslení v CADu vychází ze starého [kreslicího prkna](http://en.wikipedia.org/wiki/Drawing_board). [Ortogonální (2D) pohledy](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) jsou kresleny ručně a určeny pro vytváření technických výkresů (také známé jako blueprints). Objekty jsou kresleny přesně pro zamýšlený rozměr nebo velikost. Chcete-li nakreslit vodorovnou přímku dlouhou 100mm a začínající v (0,0), aktivujete nástroj Přímka buď kliknutím na obrazovku nebo zadáte souřadnice prvního bodu (0,0), potom uděláte druhý klik nebo zadáte souřadnice druhého bodu (100,0). Nebo nakreslíte přímku bez ohledu na její pozici a posunete ji později. Když dokončíte kreslení konstrukce, přidáte k ní kóty.
 
-#### Skicování s vazbami {#skicování_s_vazbami}
+#### Skicování s vazbami 
 
 **Skicář** se vzdaluje od této logiky. Objekty nemusejí být kresleny přesně tak jak zamýšlíte, protože budou definovány později pomocí vazeb. Objekty mohou být kresleny volně a pokud nejsou vazbeny mohou být upravovány. Provedením jsou \"plovoucí\" a mohou být posunovány, natahovány, otáčeny, lze jim měnit měřítko, atd. To dodává velkou flexibilitu v procesu návrhu.
 
 
 <div class="mw-translate-fuzzy">
 
-#### Co jsou vazby? {#co_jsou_vazby}
+#### Co jsou vazby? 
 
 Vazby jsou použity k omezení stupňů volnosti objektu. Například přímka bez vazeb má 4 stupně volnosti: může se posunovat vodorovně nebo svisle, může být natahována a otáčena.
 
@@ -79,7 +79,7 @@ Jsou dva druhy vazeb: konstrukční a rozměrové. Detailně jsou rozebrány v s
 
 <div class="mw-translate-fuzzy">
 
-### Pro co není Skicář vhodný {#pro_co_není_skicář_vhodný}
+### Pro co není Skicář vhodný 
 
 Skicář není určen pro vytváření 2D výkresů. Protože náčrty jsou používány pro generování těles, jsou automaticky skrývány. Rozměry jsou viditelné pouze v editačním módu Náčrtu.
 
@@ -94,12 +94,12 @@ Jestliže potřebujete vytvářet pouze 2D pohledy pro tisk a nepotřebujete vyt
 
 </div>
 
-## Sketching Workflow {#sketching_workflow}
+## Sketching Workflow 
 
 
 <div class="mw-translate-fuzzy">
 
-### Postup práce ve Skicáři {#postup_práce_ve_skicáři}
+### Postup práce ve Skicáři 
 
 Bude přidáno
 
@@ -146,7 +146,7 @@ Nástroje pracovní plochy Skicář jsou umístěny v menu Skicář, které se z
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): when in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
-### Sketcher geometries {#sketcher_geometries}
+### Sketcher geometries 
 
 These are tools for creating objects.
 
@@ -219,11 +219,11 @@ These are tools for creating objects.
 
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Construction Mode](Sketcher_ToggleConstruction.md): Toggles sketch geometry from/to construction mode. Construction geometry is shown in blue and is discarded outside of Sketch editing mode.
 
-### Sketcher constraints {#sketcher_constraints}
+### Sketcher constraints 
 
 Constraints are used to define lengths, set rules between sketch elements, and to lock the sketch along the vertical and horizontal axes. Some constraints require use of [Helper constraints](Sketcher_helper_constraint.md).
 
-#### Geometric constraints {#geometric_constraints}
+#### Geometric constraints 
 
 These constraints are not associated with numeric data.
 
@@ -247,7 +247,7 @@ These constraints are not associated with numeric data.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Block](Sketcher_ConstrainBlock.md): it blocks an edge from moving, that is, it prevents its vertices from changing their current positions. It should be particularly useful to fix the position of B-Splines. See the [Block Constraint forum topic](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
-#### Dimensional constraints {#dimensional_constraints}
+#### Dimensional constraints 
 
 These are constraints associated with numeric data, for which you can use the [expressions](Expressions.md). The data may be taken from a [spreadsheet](Spreadsheet_Workbench.md).
 
@@ -264,13 +264,13 @@ These are constraints associated with numeric data, for which you can use the [e
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam.md): Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc) <small>(v0.20)</small> 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
-#### Special constraints {#special_constraints}
+#### Special constraints 
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Snell\'s Law](Sketcher_ConstrainSnellsLaw.md): Constrains two lines to obey a refraction law to simulate the light going through an interface.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Internal alignment](Sketcher_ConstrainInternalAlignment.md): Aligns selected elements to selected shape (e.g. a line to become major axis of an ellipse).
 
-#### Constraint tools {#constraint_tools}
+#### Constraint tools 
 
 The following tools can be used the change the effect of constraints:
 
@@ -278,7 +278,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/Deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
 
-### Sketcher tools {#sketcher_tools}
+### Sketcher tools 
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select solver DOFs](Sketcher_SelectElementsWithDoFs.md): Highlights in green the geometry with degrees of freedom (DOFs), i.e. not fully constrained.
 
@@ -318,7 +318,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Delete All Constraints](Sketcher_DeleteAllConstraints.md): Deletes all constraints from the sketch.
 
-### Sketcher B-spline tools {#sketcher_b_spline_tools}
+### Sketcher B-spline tools 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Show/hide B-spline degree](Sketcher_BSplineDegree.md)
 
@@ -340,7 +340,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)
 
-### Sketcher virtual space {#sketcher_virtual_space}
+### Sketcher virtual space 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch Virtual Space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
 
@@ -351,7 +351,7 @@ The following tools can be used the change the effect of constraints:
 
 <div class="mw-translate-fuzzy">
 
-### Dobrá praxe {#dobrá_praxe}
+### Dobrá praxe 
 
 Každý uživatel CADu si časem vytvoří svůj vlastní způsob práce, ale je několik obecných principů, které je dobré následovat.
 

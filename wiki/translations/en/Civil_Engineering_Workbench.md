@@ -11,7 +11,7 @@ At present, only two components of civil engineering are represented in FreeCAD:
 
 The Rebar tools are currently part of the [Arch Workbench](Arch_Workbench.md)
 
-## Related Forum Threads {#related_forum_threads}
+## Related Forum Threads 
 
 -   Civil engineering feature implementation (Transportation Engineering) [thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=22277)
 -   Civil Engineering Design functions [thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=6973)
@@ -23,7 +23,7 @@ The Rebar tools are currently part of the [Arch Workbench](Arch_Workbench.md)
 -   Roadmap (pun not intended)
 -   Spruce up this wiki page
 
-## Related Links {#related_links}
+## Related Links 
 
 -   [External workbenches](External_workbenches.md)
 -   [Workbenches](Workbenches.md)

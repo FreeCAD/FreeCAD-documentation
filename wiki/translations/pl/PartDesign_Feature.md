@@ -43,7 +43,7 @@ Cechy mogą być umieszczone w różnych kategoriach:
 
 *Uproszczony diagram zależności pomiędzy podstawowymi obiektami programu. Obiekty `PartDesign::Feature* są używane do budowania parametrycznych brył 3D, a więc pochodzą z podstawowego obiektu {{incode|Part::Feature`..}}
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Zobacz również:**

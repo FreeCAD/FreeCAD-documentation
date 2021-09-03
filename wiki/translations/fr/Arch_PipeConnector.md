@@ -25,7 +25,7 @@ Cet outil vous permet de créer des raccords entre deux ou plusieurs [Tuyaux](Ar
 
 -    {{PropertyData/fr|Radius}}: Le rayon de la courbe de la connexion
 
-## Travail typique {#travail_typique}
+## Travail typique 
 
 Reportez-vous aux informations sur [Tuyaux](Arch_Pipe/fr.md) pour en savoir plus sur l\'utilisation des tuyaux et la création de connecteurs.
 

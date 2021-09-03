@@ -113,7 +113,7 @@ Dies ist für Tests sehr nützlich.
 
 Schliesslich vergiss nicht, dass es im FreeCAD Wiki im Abschnitt [Python Skripten](Power_users_hub/de.md) viel mehr Dokumentation über die Verwendung von Qt Widgets gibt, die ein [Tutorium zur Dialogerstellung](Dialog_creation/de.md), ein spezielles 3-teiliges [PySide Tutorium](PySide/de.md) enthält, das das Thema ausführlich behandelt.
 
-## Maßgebliche Verweise {#maßgebliche_verweise}
+## Maßgebliche Verweise 
 
 -   [Qt Ersteller Dokumentation](https://en.wikipedia.org/wiki/Qt_Creator)
 -   [Qt Ersteller installieren](https://www.qt.io/ide/)

@@ -14,7 +14,7 @@ Der **Std Rechteckauswahl**-Befehl ermöglicht es, in der 3D-Ansicht Flächen au
 ## Anwendung
 
 1.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Wähle die {{MenuCommand|Bearbeiten → <img src="images/Std_BoxSelection.svg" width=16px> Rechteck Auswahl}}-Option aus dem Menü.
+    -   Wähle die **Bearbeiten → <img src="images/Std_BoxSelection.svg" width=16px> Rechteck Auswahl**-Option aus dem Menü.
     -   Benutze den Tastaturkurzbefehl: **Shift**+**B**.
 2.  Tue eins der folgenden Dinge:
 3.  Ziehe ein Rechteck von links nach rechts, um Objekte auszuwählen, deren geometrische Mittelpunkte im Rechteck liegen.

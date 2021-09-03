@@ -8,7 +8,7 @@ El <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Ambien
 
 <img alt="Captura de pantalla" src=images/InspectionEx.png  style="width:500px;">
 
-## Flujo de trabajo previsto {#flujo_de_trabajo_previsto}
+## Flujo de trabajo previsto 
 
 -   Seleccione dos formas para comparar y seleccione Inspección\> Inspección visual en el menú.
 -   Las formas deben intersecarse tanto como sea posible.

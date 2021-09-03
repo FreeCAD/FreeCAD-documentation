@@ -25,7 +25,7 @@ Questo strumento identifica i fori (sequenza circolare di bordi aperti) in un og
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare una Forma (un oggetto Parte)
-2.  Selezionare la voce **<img src="images/Arch_CloseHoles.svg" width=16px> [Chiudi fori](Arch_CloseHoles/it.md)** nel menu {{MenuCommand|Arch → Utilità → Chiudi fori}}.
+2.  Selezionare la voce **<img src="images/Arch_CloseHoles.svg" width=16px> [Chiudi fori](Arch_CloseHoles/it.md)** nel menu **Arch → Utilità → Chiudi fori**.
 
 
 </div>

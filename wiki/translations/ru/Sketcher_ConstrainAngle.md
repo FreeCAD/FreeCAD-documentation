@@ -27,16 +27,16 @@ To apply angle constraint, one should the follow the steps:
 2.  Invoke the constraint using several methods:
     -   Pressing the **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Constrain angle](Sketcher_ConstrainAngle.md)** button in the toolbar.
     -   Using the **A** keyboard shortcut. (**A** is for **A**ngle)
-    -   Using the {{MenuCommand|Sketch → Sketcher constraints → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Constrain angle}} form the top menu entry
+    -   Using the **Sketch → Sketcher constraints → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Constrain angle** form the top menu entry
 3.  A datum edit dialog box pops up.
 4.  Modify the angle if necessary. **Note:** The angle can be entered as an expression that will be evaluated and the result will be stored.
 5.  Click **OK**
 
 As with any datum constraint, it is possible to change the angle value later by double-clicking the constraint in constraint list or 3d view. Entering a negative value will cause the angle direction to flip.
 
-## Constraint modes {#constraint_modes}
+## Constraint modes 
 
-### Line slope angle {#line_slope_angle}
+### Line slope angle 
 
 **Accepted selection:** line
 
@@ -44,7 +44,7 @@ As with any datum constraint, it is possible to change the angle value later by 
 
 The constraint sets the polar angle of line\'s direction. It is the angle between the line and X axis of the sketch.
 
-### Arc span (v0.15) {#arc_span_v0.15}
+### Arc span (v0.15) 
 
 **Accepted selection:** arc of circle
 
@@ -52,7 +52,7 @@ The constraint sets the polar angle of line\'s direction. It is the angle betwee
 
 In this mode, the constraint fixes angular span of a circular arc.
 
-### Between lines {#between_lines}
+### Between lines 
 
 **Accepted selection:** line + line
 
@@ -60,7 +60,7 @@ In this mode, the constraint fixes angular span of a circular arc.
 
 In this mode, the constraint sets the angle between two lines. It is not required that the lines intersect.
 
-### Between curves at intersection (angle-via-point) (v0.15) {#between_curves_at_intersection_angle_via_point_v0.15}
+### Between curves at intersection (angle-via-point) (v0.15) 
 
 **Accepted selection:** any line/curve + any line/curve + any point
 

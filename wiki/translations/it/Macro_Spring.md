@@ -22,11 +22,11 @@ Per eseguire la macro aprire in FreeCAD i 2 file indicati sotto (Spring.FCMacro 
 
 <img alt="" src=images/Spring_02.png  style="width:300px;">
 
-## Il File {#il_file}
+## Il File 
 
 [Spring.FCStd](http://forum.freecadweb.org/download/file.php?id=7679)
 
-## Lo Script {#lo_script}
+## Lo Script 
 
 ToolBar Icon ![](images/Macro_Spring.png )
 

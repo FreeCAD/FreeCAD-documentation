@@ -2,7 +2,7 @@ Cosa sono (da fare)
 
 \_\_TOC\_\_
 
-## Le librerie di Parti Standard per FreeCAD {#le_librerie_di_parti_standard_per_freecad}
+## Le librerie di Parti Standard per FreeCAD 
 
 Attualmente sono disponibili due librerie di parti predisegnate che possono essere inserite automaticamente nel progetto in corso:
 
@@ -34,14 +34,14 @@ Esempio di parti prelevate da BOLTS e inserite in un documento di FreeCAD:
 1.  Scaricare la versione stabile per FreeCAD dalla pagina [Downloads](http://www.bolts-library.org/en/downloads.html).
 2.  Estrarre l\'archivio nella cartella delle macro. In genere in Linux il percorso è */usr/lib/freecad*. Se al termine del processo la cartella delle macro contiene la sottocartella *BOLTS* e il file *start\_bolts.FCMacro*, l\'installazione è conclusa.
 
-### Provare la macro {#provare_la_macro}
+### Provare la macro 
 
 1.  Avviare FreeCAD
 2.  Aprire il menu *Macro* e selezionare *Macros*
 3.  Nella finestra *Eseguire la macro* selezionare *start\_bolts.FCMacro* e poi cliccare su *Esegui*.
 4.  Nel selettore delle Parti Standard, che si apre sul lato destro dell\'interfaccia, espandere le collezioni, selezionare una parte e poi cliccare su *Add Part*.
 
-### Possibili errori {#possibili_errori}
+### Possibili errori 
 
 Può capitare che la macro non si avvii e si riceva un messaggio di errore. I più frequenti sono:
 
@@ -51,9 +51,9 @@ Può capitare che la macro non si avvii e si riceva un messaggio di errore. I pi
 
 Per la soluzione di questi problemi fare riferimento al [sito Web](http://www.bolts-library.org) di BOLTS dove si trovano esaurienti indicazioni sia per Windows che per Linux.
 
-### Creare un pulsante di avvio veloce per BOLTS {#creare_un_pulsante_di_avvio_veloce_per_bolts}
+### Creare un pulsante di avvio veloce per BOLTS 
 
-#### Selezionare la macro e compilare i campi {#selezionare_la_macro_e_compilare_i_campi}
+#### Selezionare la macro e compilare i campi 
 
 Dopo aver installato e testato BOLTS, è possibile aggiungere nell\'interfaccia grafica un pulsante che consenta di avviare velocemente la macro, senza dover aprire il menu *Macro* tutte le volte che si desidera aggiungere una Parte Standard.
 
@@ -71,7 +71,7 @@ Esempio di compilazione:
 
 ![](images/BOLTSmacro1_it.png )
 
-#### Creare una nuova barra e aggiungervi il pulsante {#creare_una_nuova_barra_e_aggiungervi_il_pulsante}
+#### Creare una nuova barra e aggiungervi il pulsante 
 
 Per aggiungere il pulsante a una barra degli strumenti
 
@@ -86,16 +86,16 @@ Esempio di personalizzazione:
 
 ![](images/BOLTStoolbar_it.png )
 
-#### Provare il comando {#provare_il_comando}
+#### Provare il comando 
 
 Per provare se il pulsante funziona:
 
 1.  Passare all\'ambiente in cui è stata aggiunta la barra, oppure ad un altro ambiente e poi ritornare in questo se l\'ambiente è già attivo
 2.  Cliccare sull\'icona del bullone giallo
 
-### Utilizzare BOLTS in FreeCAD {#utilizzare_bolts_in_freecad}
+### Utilizzare BOLTS in FreeCAD 
 
-#### Inserire una Parte {#inserire_una_parte}
+#### Inserire una Parte 
 
 Le parti disponibili sono accessibili tramite due percorsi:
 
@@ -113,7 +113,7 @@ Esempio di parti inserite e posizionate:
 
 ![](images/BOLTSaddpart_it.png )
 
-#### Spostare la finestra del selettore {#spostare_la_finestra_del_selettore}
+#### Spostare la finestra del selettore 
 
 Come impostazione predefinita la finestra per selezionare le parti si apre sul lato destro dell\'area di lavoro e riduce lo spazio per la vista. Per non ridurre l\'area della vista si può:
 
@@ -131,7 +131,7 @@ Esempio di PartsLibrary installata:
 
 ![](images/PartsLibrary1_it.png )
 
-### Installazione {#installazione_1}
+### Installazione 
 
 1.  Scaricare il repository dalla pagina [FreeCAD-library](https://github.com/yorikvanhavre/FreeCAD-library) cliccando su *Download Zip*
 2.  Estrarre l\'archivio
@@ -143,28 +143,28 @@ Esempio di modifica del percorso:
 
 ![](images/LibraryPath_it.png )
 
-### Creare un pulsante di avvio veloce per PartsLibrary {#creare_un_pulsante_di_avvio_veloce_per_partslibrary}
+### Creare un pulsante di avvio veloce per PartsLibrary 
 
 Seguire le istruzioni descritte sopra per la macro BOLTS
 
-### Utilizzare PartsLibrary {#utilizzare_partslibrary}
+### Utilizzare PartsLibrary 
 
-#### Inserire una Parte {#inserire_una_parte_1}
+#### Inserire una Parte 
 
 1.  Avviare PartsLibrary tramite macro o tramite icona
 2.  Espandere l\'albero delle parti
 3.  Individuare la parte e fare doppio clic su di essa
 4.  Nella scheda *Dati* della *Vista combinata* apportare le eventuali modifiche necessarie per posizionare correttamente la parte inserita
 
-#### Spostare la finestra del catalogo {#spostare_la_finestra_del_catalogo}
+#### Spostare la finestra del catalogo 
 
 Seguire le istruzioni descritte sopra per la macro BOLTS
 
-### Aggiungere dei nuovi modelli alla libreria {#aggiungere_dei_nuovi_modelli_alla_libreria}
+### Aggiungere dei nuovi modelli alla libreria 
 
 Con questa macro è possibile aggiungere al catalogo dei nuovi file *.fcstd* e costruire in questo modo una libreria personale di parti standard anche complesse, secondo le proprie esigenze.
 
-## Screw maker {#screw_maker}
+## Screw maker 
 
 Questa macro permette di creare velocemente viti e bulloni conformi alle norme ISO, tramite la loro sigla e la definizione dei parametri.
 
@@ -176,7 +176,7 @@ Esempio di Macro screw maker installata:
 
 ![](images/MacroScrewMaker_it.png )
 
-### Installazione {#installazione_2}
+### Installazione 
 
 1.  Creare un nuovo documento di testo di nome *Macro\_screw\_maker1\_2.FCMacro*
 2.  Copiare il codice di [Macro screw maker](Macro_screw_maker1_2/it.md) nel documento
@@ -189,13 +189,13 @@ oppure
 3.  Cliccare su *Crea*
 4.  Copiare il codice nella finestra e chiuderla
 
-### Creare un pulsante di avvio veloce per Screw Maker {#creare_un_pulsante_di_avvio_veloce_per_screw_maker}
+### Creare un pulsante di avvio veloce per Screw Maker 
 
 Seguire le istruzioni descritte sopra per la macro BOLTS
 
-### Utilizzare Screw Maker {#utilizzare_screw_maker}
+### Utilizzare Screw Maker 
 
-#### Inserire una Parte {#inserire_una_parte_2}
+#### Inserire una Parte 
 
 1.  Avviare Screw Maker tramite macro o tramite icona
 2.  Selezionare il tipo di vite
@@ -203,7 +203,7 @@ Seguire le istruzioni descritte sopra per la macro BOLTS
 4.  Cliccare su *create*
 5.  Nella scheda *Dati* della *Vista combinata* apportare le eventuali modifiche necessarie per posizionare correttamente la parte inserita
 
-#### Spostare la finestra del costruttore di viti {#spostare_la_finestra_del_costruttore_di_viti}
+#### Spostare la finestra del costruttore di viti 
 
 La finestra di questa macro è indipendente dalla finestra di FreeCAD e può essere posizionata dove si vuole.
 

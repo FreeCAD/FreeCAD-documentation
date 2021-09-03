@@ -55,23 +55,23 @@ questi moduli e alias precaricati sono disponibili solo dalla console Python inc
 
 Un clic con il tasto destro sulla console Python mostra alcuni comandi:
 
--    {{MenuCommand|Copia}}: memorizza il testo selezionato negli appunti per un successivo incollaggio; è disabilitato se non è selezionato nulla.
+-    **Copia**: memorizza il testo selezionato negli appunti per un successivo incollaggio; è disabilitato se non è selezionato nulla.
 
--    {{MenuCommand|Copia il comando}}: memorizza il comando selezionato negli appunti per un successivo incollaggio; è disabilitato se non è selezionato nulla.
+-    **Copia il comando**: memorizza il comando selezionato negli appunti per un successivo incollaggio; è disabilitato se non è selezionato nulla.
 
--    {{MenuCommand|Copia la cronologia}}: copia l\'intera cronologia dei comandi Python immessi in questa sessione.
+-    **Copia la cronologia**: copia l\'intera cronologia dei comandi Python immessi in questa sessione.
 
--    {{MenuCommand|Salva la cronologia come}}: salva l\'intera cronologia dei comandi Python immessi in questa sessione in un file di testo.
+-    **Salva la cronologia come**: salva l\'intera cronologia dei comandi Python immessi in questa sessione in un file di testo.
 
--    {{MenuCommand|Incolla}}: incolla il testo precedentemente copiato negli appunti nella console di Python.
+-    **Incolla**: incolla il testo precedentemente copiato negli appunti nella console di Python.
 
--    {{MenuCommand|Seleziona tutto}}: seleziona tutto il testo nella console di Python.
+-    **Seleziona tutto**: seleziona tutto il testo nella console di Python.
 
--    {{MenuCommand|Pulisci la console}}: cancella tutti i comandi immessi nella console Python. Ciò è utile se la console Python è piena di messaggi e comandi precedentemente immessi che potrebbero distrarre durante il test di una nuova funzione. Questo è puramente estetico, poiché questo comando non cancella le variabili esistenti né cancella i moduli importati nella sessione.
+-    **Pulisci la console**: cancella tutti i comandi immessi nella console Python. Ciò è utile se la console Python è piena di messaggi e comandi precedentemente immessi che potrebbero distrarre durante il test di una nuova funzione. Questo è puramente estetico, poiché questo comando non cancella le variabili esistenti né cancella i moduli importati nella sessione.
 
--    {{MenuCommand|Inserisci il nome del  file}}: apre una finestra di dialogo per cercare un file nel sistema, quindi inserisce il percorso completo del file. Ciò è utile per testare le funzioni che elaborano un file di input, senza dover scrivere l\'intero nome nella console, che è soggetto a errori. Questo comando non esegue il file e non lo importa come modulo Python, restituisce semplicemente il percorso completo di quel file.
+-    **Inserisci il nome del  file**: apre una finestra di dialogo per cercare un file nel sistema, quindi inserisce il percorso completo del file. Ciò è utile per testare le funzioni che elaborano un file di input, senza dover scrivere l\'intero nome nella console, che è soggetto a errori. Questo comando non esegue il file e non lo importa come modulo Python, restituisce semplicemente il percorso completo di quel file.
 
--    {{MenuCommand|A capo automatico}}: avvolge le linee molto lunghe che superano la dimensione orizzontale della console Python.
+-    **A capo automatico**: avvolge le linee molto lunghe che superano la dimensione orizzontale della console Python.
 
 ## Notes
 

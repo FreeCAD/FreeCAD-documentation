@@ -1,6 +1,6 @@
  <img alt="Icône de l\'atelier externe WebTools" src=images/WebTools_workbench_icon.svg  style="width:128px;">
 
-## Vue d\'ensemble {#vue_densemble}
+## Vue d\'ensemble 
 
 **WebTools** est un [atelier externe](External_workbenches/fr.md) contenant une série d\'outils pour communiquer via des services Web depuis FreeCAD.
 

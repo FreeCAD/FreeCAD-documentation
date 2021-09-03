@@ -20,7 +20,7 @@
 
 In this tutorial we will cover how to export STL/OBJ-files from FreeCAD. The mesh-format STL/OBJ is dimensionless; FreeCAD will assume on export that the units used in the model are in mm. If this is not the case you have to scale your model. One way to do this is using <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> [Draft Scale](Draft_Scale.md).
 
-## Sample part {#sample_part}
+## Sample part 
 
 You can use your own FreeCAD file, but you could also create a quick test file by
 
@@ -33,13 +33,13 @@ You can use your own FreeCAD file, but you could also create a quick test file b
 -   Apply a fusion by clicking on <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Part Fuse](Part_Fuse.md)
 -   Save your file
 
-## Export Method 1: Using \"File → Export\" {#export_method_1_using_file_export}
+## Export Method 1: Using \"File → Export\" 
 
 -   Select the solid to be exported in the tree view.
 -   Choose **File** → **Export...** and set file type to \"STL mesh (\*.stl \*.ast)\".
 -   Enter your file name. The default extension is \".stl\". You must include the extension \".ast\" in the file name to produce a .ast file. Choose **Save**.
 
-## Export Method 2: Using the Mesh Workbench in FreeCAD {#export_method_2_using_the_mesh_workbench_in_freecad}
+## Export Method 2: Using the Mesh Workbench in FreeCAD 
 
 -   Switch to the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md)
 -   Select the solid to be meshed in the tree view.
@@ -51,7 +51,7 @@ You can use your own FreeCAD file, but you could also create a quick test file b
 -   The default file type is \"Binary STL (\*.stl)\". Change the type if you wish.
 -   Choose **Save**.
 
-## Which Method to choose ? {#which_method_to_choose}
+## Which Method to choose ? 
 
 Method 2 is to be preferred. Among the reasons:
 

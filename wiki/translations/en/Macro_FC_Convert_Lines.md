@@ -150,7 +150,7 @@ Button ![FCConvertLines](images/Macro_FCConvertLines_10.png )
 
 
 
-## The files to copy in your directory with the macro (10 files images) {#the_files_to_copy_in_your_directory_with_the_macro_10_files_images}
+## The files to copy in your directory with the macro (10 files images) 
 
 **The icon for the toolBar** ![Macro\_FCConvertLines](images/Macro_FCConvertLines.png )  **Title** ![ConvertLines\_Title](images/Macro_FCConvertLines_Title.png )  **Line Dash** : ![ConvertLines\_Dash](images/Macro_FCConvertLines_Dash.png )  **Line DashDot** : ![ConvertLines Dash dot](images/Macro_FCConvertLines_DashDot.png_‎ )  **Line DashDotDot** : ![ConvertLines Dash dot dot](images/Macro_FCConvertLines_DashDotDot.png )  **Line Zigzag** : ![ConvertLines\_Zigzag](images/Macro_FCConvertLines_Zigzag.png )  **Line Hand** : ![ConvertLines\_Hand](images/Macro_FCConvertLines_Hand.png )  **View** :  ![ConvrtLines\_View-front](images/Macro_FCConvrtLines_View-front.png ) ![ConvrtLines\_View-right](images/Macro_FCConvrtLines_View-right.png ) ![ConvrtLines\_View-right](images/Macro_FCConvrtLines_View-top.png ) 
 

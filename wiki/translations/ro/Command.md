@@ -46,7 +46,7 @@ Deoarece majoritatea dintre ele necesită interacțiune cu utilizatorul, comenzi
 
 Comenzile pot fi definite sau în C++ ori în Python.
 
-## Commands defined in C++ {#commands_defined_in_c}
+## Commands defined in C++ 
 
 
 <div class="mw-translate-fuzzy">
@@ -87,7 +87,7 @@ CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
-## Commands defined in Python {#commands_defined_in_python}
+## Commands defined in Python 
 
 
 <div class="mw-translate-fuzzy">

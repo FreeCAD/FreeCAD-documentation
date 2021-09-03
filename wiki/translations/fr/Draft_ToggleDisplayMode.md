@@ -20,8 +20,8 @@ La commande <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24p
 1.  Sélectionner un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Draft Bascule le mode d'affichage...](Draft_ToggleDisplayMode.md)**.
-    -   Sélectionnez le bouton {{MenuCommand|Utilitaires → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Basculer le mode d'affichage de normal à filaire}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Basculer le mode d'affichage de normal à filaire}} dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) ou de la [Vue 3D](3D_view/fr.md).
+    -   Sélectionnez le bouton **Utilitaires → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Basculer le mode d'affichage de normal à filaire** dans le menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Basculer le mode d'affichage de normal à filaire** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) ou de la [Vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier : **Maj**+**Barre espace**.
 
 

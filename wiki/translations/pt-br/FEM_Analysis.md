@@ -19,7 +19,7 @@ The FEM Analysis could be seen as a Container that holds all objects of a Finite
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_Analysis.svg" width=16px> [FEM Analysis](FEM_Analysis.md)** button.
-    -   Select the {{MenuCommand|Model → <img src="images/FEM_Analysis.svg" width=16px> Analysis container‏‎}} option from the menu.
+    -   Select the **Model → <img src="images/FEM_Analysis.svg" width=16px> Analysis container‏‎** option from the menu.
     -   Use the keyboard shortcut: **S** then **A**.
 2.  A new Analysis is created and set to active.
 3.  Other objects could be added or removed to the analysis container by drag and drop.

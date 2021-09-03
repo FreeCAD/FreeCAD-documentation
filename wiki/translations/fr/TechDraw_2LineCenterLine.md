@@ -26,7 +26,7 @@ L\'outil Ligne centrale entre 2 lignes ajoute une ligne centrale entre deux arê
 
 Pour supprimer une ligne centrale, sélectionnez-la et utilisez le bouton de la barre d\'outils **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)**.
 
-## Modification des lignes centrales {#modification_des_lignes_centrales}
+## Modification des lignes centrales 
 
 N\'importe quel bouton de commande de la ligne centrale ( **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> [Ajouter une ligne centrale à des faces](TechDraw_FaceCenterLine/fr.md)**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> Ajouter une ligne centrale entre 2 lignes**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Ajouter une ligne centrale entre 2 points](TechDraw_2PointCenterLine/fr.md)**) peut être utilisé pour éditer n\'importe quelle ligne centrale.
 
@@ -52,7 +52,7 @@ Les lignes centrales n\'ont pas de propriétés propres car elles ne sont pas de
 -   **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continu, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Tiret, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Point, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> Tiret Point, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> Tiret Point Point
 -   **Flip ends**: inverse les points de terminaison pour le cas comme décrit ci-dessous. (attribut supprimé avec FreeCAD 0.20)
 
-## Flip Ends {#flip_ends}
+## Flip Ends 
 
 <img alt="Croquis de la construction de la ligne médiane" src=images/TD-CenterLineFlip.png  style="width:350px;"> La ligne centrale entre 2 lignes est tracée entre les points médians (m0 et m1) des lignes qui relient les extrémités des lignes sélectionnées (p0 et p1), voir l\'esquisse. Selon l\'ordre des points, il existe 2 possibilités pour tracer les lignes de connexion. L\'attribut **Flip Ends** inverse la façon dont les lignes de connexion sont dessinées. Dans FreeCAD 0.20, l\'ordre des points est automatiquement déterminé de sorte que l\'attribut **Flip Ends** n\'est plus nécessaire.
 

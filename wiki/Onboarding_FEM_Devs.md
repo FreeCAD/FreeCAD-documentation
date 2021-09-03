@@ -5,7 +5,7 @@
 
 This page will orient new developers on how to setup their development environments in order to hack on the FEM workbench.
 
-## Setting up a Dev Environment {#setting_up_a_dev_environment}
+## Setting up a Dev Environment 
 
 TBD
 
@@ -17,19 +17,19 @@ TBD
 
 -   Paraview
 
-### Compiling via Source {#compiling_via_source}
+### Compiling via Source 
 
 TBD
 
-### Compiling via Docker {#compiling_via_docker}
+### Compiling via Docker 
 
 TBD
 
-## Source Code Management {#source_code_management}
+## Source Code Management 
 
 Keeping FreeCAD up-to-date is documented in [Source code management](Source_code_management.md) page. Along with useful `git` tips.
 
-## FEM Code Infrastructure {#fem_code_infrastructure}
+## FEM Code Infrastructure 
 
 The FEM code lives in `src/Mod/Fem`
 
@@ -94,11 +94,11 @@ The FEM code lives in `src/Mod/Fem`
 -    `TestFemGui.py`
     
 
-### Coding Conventions {#coding_conventions}
+### Coding Conventions 
 
 Please see [coding\_conventions.md](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Fem/coding_conventions.md) file on the FreeCAD repository.
 
-## Adding New FEM Solvers {#adding_new_fem_solvers}
+## Adding New FEM Solvers 
 
 A new FEM solver requires the following:
 
@@ -118,7 +118,7 @@ See also:
 -   The implementation efforts of the [oofem](https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem) solver
 -   The implementation efforts of the \[<https://github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\] solver
 
-## Writing Unit Tests {#writing_unit_tests}
+## Writing Unit Tests 
 
 TBD
 

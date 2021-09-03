@@ -13,7 +13,7 @@ Primitiva geometrică tip Cilindru se introduc în corpul activ drept prima func
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

@@ -25,7 +25,7 @@ To apply perpendicular constraint, one should the follow the steps:
 -   Select two or three entities in the sketch.
 -   Invoke the constraint by clicking its icon on the toolbar, or selecting the menu item, or using keyboard shortcut.
 
-### Between two curves (direct perpendicularity) {#between_two_curves_direct_perpendicularity}
+### Between two curves (direct perpendicularity) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:600px;">
 
@@ -40,7 +40,7 @@ If direct perpendicularity between selected curves is not supported (e.g. betwee
 
 Unlike for tangency, it is perfectly fine to reconstruct the point of perpendicularity by creating a point and constraining it to lie on both curves (thus constraining the point to the intersection).
 
-### Between two endpoints (point-to-point perpendicularity) {#between_two_endpoints_point_to_point_perpendicularity}
+### Between two endpoints (point-to-point perpendicularity) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
 
@@ -50,7 +50,7 @@ In this mode, the endpoints are made coincident, and the joint is made to be rig
 
 -   endpoint of line/arc/arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., two endpoints of any two curves)
 
-### Between curve and endpoint (point-to-curve perpendicularity) {#between_curve_and_endpoint_point_to_curve_perpendicularity}
+### Between curve and endpoint (point-to-curve perpendicularity) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
 
@@ -60,7 +60,7 @@ In this mode, an endpoint of one curve is constrained to lie on the other curve,
 
 -   line, circle, arc, ellipse, arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., any curve + endpoint of any curve)
 
-### Between two curves at point (perpendicular-via-point) (v0.15) {#between_two_curves_at_point_perpendicular_via_point_v0.15}
+### Between two curves at point (perpendicular-via-point) (v0.15) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:600px;">
 

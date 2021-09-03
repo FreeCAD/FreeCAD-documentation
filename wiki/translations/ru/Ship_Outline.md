@@ -13,7 +13,7 @@
 
 Plots the ship hull outline draw
 
-## Lines drawing {#lines_drawing}
+## Lines drawing 
 
 Ship provides a tool that makes it easy to obtain a Lines Plan from the ship lines drawing
 
@@ -33,7 +33,7 @@ Lines drawing is a set of lines from section cuts in all 3 axis, that will event
 -   Sheer Plan (using the Longitudinals Cuts)
 -   Half-Breadth Plan (using the Waterlines Cuts)
 
-### Transversal cuts {#transversal_cuts}
+### Transversal cuts 
 
 Usually 21 transversal equidistant sections between perpendiculars must be performed. in order to do it FreeCAD provides an automatic tool in order to do it, simply select **Transversal** type of sections, go to **Auto create** box and set **21** sections, then press **Create sections**.
 
@@ -54,7 +54,7 @@ Sections table is filled, and sections preview called **OutlineDraw** shown. Usu
 
 Depending hull geometry complexity, sections preview can take some time. In order to remove a section, just fill it with an empty text and press enter.
 
-### Longitudinal cuts {#longitudinal_cuts}
+### Longitudinal cuts 
 
 Two longitudinal cuts must be added, so select **Longitudinal** type of sections, go to **Auto create** box and set **2** sections, then press **Create sections**. Sections table is filled, and sections preview updated.
 
@@ -70,7 +70,7 @@ Several additional waterlines must be added:
 -   Z~9~ = 1.8 m
 -   Z~10~ = 2.0 m
 
-### Perform plot {#perform_plot}
+### Perform plot 
 
 Select **1:100** scale and press **Accept** to let the tool to generate the 3D sections in a new object.
 

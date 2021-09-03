@@ -4,7 +4,7 @@
 
 In FreeCAD e in questa documentazione, un addon è un componente che non fa parte dell\'installazione di base di FreeCAD, ma che può essere aggiunto al sistema con determinati metodi.
 
-## I diversi tipi {#i_diversi_tipi}
+## I diversi tipi 
 
 Esistono tre tipi di componenti aggiuntivi:
 

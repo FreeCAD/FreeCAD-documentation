@@ -48,7 +48,7 @@ As ferramentas para criar e gerenciar os robôs de 6 eixos.
 
 Ferramentas para criar e manipular trajetórias. Existem dois tipos de trajetórias: as paramétricas e as não paramétricas.
 
-#### Trajetórias Não Paramétricas {#trajetórias_não_paramétricas}
+#### Trajetórias Não Paramétricas 
 
 -   <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:30px;"> [Criar trajetória](Robot_CreateTrajectory/pt-br.md): Insere um novo objeto vazio de trajetória na cena.
 -   <img alt="" src=images/Robot_SetDefaultOrientation.svg  style="width:30px;"> [Definir a configuração padrão](Robot_SetDefaultOrientation/pt-br.md): Define os pontos de caminho de orientação criados por padrão.
@@ -56,7 +56,7 @@ Ferramentas para criar e manipular trajetórias. Existem dois tipos de trajetór
 -   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:30px;"> [Inserir um ponto de caminho](Robot_InsertWaypoint/pt-br.md): Insere um ponto de caminho a partir da posição atual do robô em uma trajetória.
 -   <img alt="" src=images/Robot_InsertWaypointPre.svg  style="width:30px;"> [Inserir um ponto de caminho pré-selecionado](Robot_InsertWaypointPre/pt-br.md): Insere um ponto de caminho a partir da posição atual do mouse em uma trajetória.
 
-#### Trajetórias Paramétricas {#trajetórias_paramétricas}
+#### Trajetórias Paramétricas 
 
 -   <img alt="" src=images/Robot_Edge2Trac.svg  style="width:30px;"> [Criar uma trajetória fora das arestas](Robot_Edge2Trac/pt-br.md): Insere um novo objeto que decompõe as arestas em uma trajetória.
 -   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width:30px;"> [Vestir uma trajetória](Robot_TrajectoryDressUp/pt-br.md): Permite que você substitua uma ou mais propriedades de uma trajetória.

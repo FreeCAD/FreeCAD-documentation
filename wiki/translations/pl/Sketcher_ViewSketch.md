@@ -15,7 +15,7 @@ Narzędzie to ustawia widok modelu prostopadle do płaszczyzny szkicu. Jest ono 
 W trybie edycji szkicu są dostępne dwie możliwości
 
 -   Kliknij na ikonę **<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Widok szkicu](Sketcher_ViewSketch.md)** na pasku narzędzi Środowiska pracy Sketcher lub Part Design.
--   przejdź do menu {{MenuCommand|Sketch → <img src=images/Sketcher_ViewSketch.svg style="width:16px"> Widok szkicu}}.
+-   przejdź do menu **Sketch → <img src=images/Sketcher_ViewSketch.svg style="width:16px"> Widok szkicu**.
 
 
 

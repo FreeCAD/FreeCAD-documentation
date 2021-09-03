@@ -28,7 +28,7 @@ Di per sé l\'oggetto <img src=images/Draft_OrthoArray.svg style="width:Link](Ap
 
 Quando si lavora con l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:Ambiente Part Design](PartDesign_Workbench/it.md), i link sono destinati ad essere utilizzati con i **[16px"> <img src=images/PartDesign_LinearPattern.svg style="width:Corpo di Part Design](PartDesign_Body/it.md)**, quindi si consiglia di impostare la modalità {{PropertyView/it|Display Mode Body}} su {{Value|Tip}} per selezionare le caratteristiche dell\'intero corpo, e non le singole caratteristiche. Per creare array di elementi interni [Funzioni di PartDesign](PartDesign_Feature/it.md), utilizzare **[16px"> <img src=images/PartDesign_PolarPattern.svg style="width:PartDesign Serie lineare](PartDesign_LinearPattern/it.md)**, **[16px"> <img src=images/PartDesign_MultiTransform.svg style="width:PartDesign Serie polare](PartDesign_PolarPattern/it.md)**, e **[16px"> [PartDesign Multitransformazione](PartDesign_MultiTransform/it.md)**.
 
-Lo strumento **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Crea link](Std_LinkMake/it.md)** non è definito da un particolare banco di lavoro, ma dal sistema di base, quindi si trova nella {{MenuCommand|Struttura della barra degli strumenti}} che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md). L\'oggetto Link, usato insieme a **[16px"> [Parte](Std_Part/it.md)** per raggruppare vari oggetti, costituisce la base di <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/it.md) e <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench/it.md).
+Lo strumento **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Crea link](Std_LinkMake/it.md)** non è definito da un particolare banco di lavoro, ma dal sistema di base, quindi si trova nella **Struttura della barra degli strumenti** che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md). L\'oggetto Link, usato insieme a **[16px"> [Parte](Std_Part/it.md)** per raggruppare vari oggetti, costituisce la base di <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/it.md) e <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench/it.md).
 
 ## Utilizzo
 
@@ -48,7 +48,7 @@ Senza selezione:
 
 *(1) Un oggetto, (2) Un Link vuoto, (3) un Link completo del primo oggetto (con materiale di rivestimento), (4) un collegamento solo ad alcuni sottoelementi dell'oggetto. Il Link vuoto non è legato all'oggetto reale, quindi non viene visualizzato nella [vista 3D](3D_view/it.md).*
 
-## Utilizzo: documenti esterni {#utilizzo_documenti_esterni}
+## Utilizzo: documenti esterni 
 
 1.  Iniziare con un documento che ha almeno un oggetto che sarà la fonte del Link.
 2.  Aprire un nuovo documento o un documento esistente. Per una più facile gestione, usare **<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Visualizza Multi documento](Std_TreeMultiDocument/it.md)** per mostrare entrambi i documenti nella [vista ad albero](tree_view/it.md). Prima di procedere, [salva](Std_Save/it.md) entrambi i documenti. Il Link non sarà in grado di trovare la sua fonte e la sua destinazione a meno che entrambi i documenti non siano salvati su disco.
@@ -69,7 +69,7 @@ Senza selezione:
 
 *(1, 2) Due oggetti di un documento sorgente collegati in un documento di destinazione, (3) un Link al secondo Link (con materiale di sovrascrittura), e (4) un Link ai sotto elementi del secondo Link.*
 
-### Drag and drop {#drag_and_drop}
+### Drag and drop 
 
 Invece di passare da una scheda all\'altra del documento, è possibile creare dei Links eseguendo un\'operazione di drag and drop nella [vista ad albero](tree_view/it.md): selezionare l\'oggetto sorgente dal primo documento, trascinarlo, quindi rilasciarlo nel nome del secondo documento tenendo premuto il tasto **Alt** della tastiera.
 
@@ -107,7 +107,7 @@ Un collegamento a una **<img src=images/Std_Part.svg style="width:16px"> <img sr
 
 *Sinistra: [Parte](Std_Part/it.md) con due oggetti, e due Links alla Parte; la visibilità degli oggetti è sincronizzata. Destra: [Gruppo](Std_Group/it.md) con due oggetti, e due Links al Gruppo; la visibilità degli oggetti è controllata indipendentemente in ogni gruppo.*
 
-## Aspetto dominante {#aspetto_dominante}
+## Aspetto dominante 
 
 Quando viene creato un Link, di default la {{PropertyView/it|Override Material}} è `False`, quindi il Link avrà lo stesso aspetto dell\'originale {{PropertyData/it|Linked Object}}.
 
@@ -130,7 +130,7 @@ A partire dalla v0.19, la colorazione dei sottoelementi è soggetta al [problema
 
 *(1) Un oggetto originale, (2) un Link con materiale di sovrascrittura e (3) un secondo Link con singoli sottoelementi modificati.*
 
-## Link Array {#link_array}
+## Link Array 
 
 
 **Vedi anche:**
@@ -162,9 +162,9 @@ Quando si crea questo tipo di array Link, è necessario posizionare manualmente 
 
 Quando {{PropertyData/it|Show Element}} è `True` e i singoli elementi sono elencati nella [vista ad albero](Tree_view/it.md) in un [Link Array](#Link_Array.md), ogni Link può essere mostrato o nascosto premendo la barra **Space** della tastiera.
 
-Un altro modo per nascondere i singoli elementi è usare il menu {{MenuCommand|Override colors}}.
+Un altro modo per nascondere i singoli elementi è usare il menu **Override colors**.
 
-1.  Selezionare l\'array, aprire il menu {{MenuCommand|Override colors}} (click destro).
+1.  Selezionare l\'array, aprire il menu **Override colors** (click destro).
 2.  Nella [vista 3D](3D_view/it.md), scegliere qualsiasi sottoelemento da qualsiasi Link dell\'array.
 3.  Premere **Nascondi**. Dovrebbe apparire l\'icona di un occhio <img alt="" src=images/Invisible.svg  style="width:24px;">, ad indicare che questo elemento è stato nascosto dalla [vista 3D](3D_view/it.md). L\'oggetto si mostrerà temporaneamente quando il cursore si posiziona sopra l\'icona <img alt="" src=images/Invisible.svg  style="width:24px;">.
 4.  Si può cliccare **OK** per confermare l\'operazione e chiudere la finestra di dialogo. Il collegamento rimarrà nascosto anche se viene mostrato come visibile nella [vista ad albero](tree_view/it.md).
@@ -361,7 +361,7 @@ obj = App.ActiveDocument.addObject("App::LinkPython", "Link")
 obj.Label = "Custom label"
 ```
 
-## Ulteriori letture {#ulteriori_letture}
+## Ulteriori letture 
 
 L\'oggetto [App Link](App_Link/it.md) è stato introdotto dopo 2 anni di sviluppo e prototipazione. Questo componente è stato pensato e sviluppato quasi da solo dall\'utente **realthunder**. Le motivazioni e le implementazioni progettuali alla base di questo progetto sono descritte nella sua pagina GitHub, [Link](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link). Per realizzare questa funzione, sono state apportate diverse modifiche fondamentali a FreeCAD; anche queste sono state ampiamente documentati in [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes).
 

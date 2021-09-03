@@ -33,7 +33,7 @@ Just some small differences.
 -   Set view to axometric
 -   Zoom to fit all
 
-### Filleting edges {#filleting_edges}
+### Filleting edges 
 
 In part workbench using the GUI, you would select chamfers in the 3D view or in the menu for fillets and then apply the fillets.
 Here we select all edges of a shape and apply fillets.

@@ -15,7 +15,7 @@ The <img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> [Curves Ze
 2.  Select the surface to be tested
 3.  To invoke the command, do one of the following:
     -   Press the <img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> [Zebra texture for surface inspection](Curves_ZebraTool.md) button in the tool bar.
-    -   Use the {{MenuCommand|Surfaces → Zebra Tool}}
+    -   Use the **Surfaces → Zebra Tool**
 4.  Change the Zebra Tool parameter to the required conditions
 
 ## Properties

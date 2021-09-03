@@ -14,7 +14,7 @@
 
 ## Usage
 
-### Temel Geometrik Şekiller {#temel_geometrik_şekiller}
+### Temel Geometrik Şekiller 
 
 +----------------------------------------------------------------------------+-----------------------------------------+
 | ![](images/_PartLinePrimitivesOptions_it.png ) | çizgi                                   |

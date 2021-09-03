@@ -15,7 +15,7 @@ The web server is based on Python\'s [pydoc](https://docs.python.org/3.8/library
 
 ## Применение
 
-1.  Select the {{MenuCommand|Help → <img src="images/Std_PythonHelp.svg" width=16px> Automatic python modules documentation}} option from the menu.
+1.  Select the **Help → <img src="images/Std_PythonHelp.svg" width=16px> Automatic python modules documentation** option from the menu.
 2.  Click on any of the links to go to the documentation of a specific class or function.
 
 

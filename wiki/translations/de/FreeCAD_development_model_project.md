@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Diese Seite ist auf den Übergang des FreeCAD Codes in eine GIT Paketquelle und ein leistungsfähigeres Entwicklungsmodell ausgerichtet. Sie folgt den Regeln des \[<http://en.wikipedia.org/wiki/GTD#GTD_methodology>\| Getting things done\] Prozesses. Die Projekte sind im [Entwicklungsfahrplan](Development_roadmap/de.md) gesammelt.
 
-## Zweck und Prinzipien {#zweck_und_prinzipien}
+## Zweck und Prinzipien 
 
 Dieses Projekt zielt darauf ab, ein neues Entwicklungs- und Verwaltungsmodell für FreeCAD zu definieren. Wir kommen zu einem Punkt, an dem eine SVN Paketquelle schwer zu verwalten ist. Arbeiten mit Patches ist ärgerlich und kompliziert für Leute, die bereit sind, Code beizutragen. Jedem den Schreibzugriff auf das SVN Repo zu ermöglichen, ist gefährlich. Menschen können unbeabsichtigt etwas im Basissystem brechen oder schmackhafte Entscheidungen erzwingen.
 
@@ -33,7 +33,7 @@ Ich schaue mir also den Linux Entwicklungsprozess an, der im Moment vielleicht z
         -   würde einige Sicherheiten in Versionsnummerierung und ppa Builds geben\....
 -   würde allen Interessierten Schreibrechte (Push) geben
 
-### Entwicklungs Mailingliste {#entwicklungs_mailingliste}
+### Entwicklungs Mailingliste 
 
 Das Forum hat seine Grenzen, ich würde die eine oder mehrere Mailinglisten verwenden, um Zweige zu verwalten und Anfragen zu ziehen. Das hat Vorteile:
 
@@ -41,7 +41,7 @@ Das Forum hat seine Grenzen, ich würde die eine oder mehrere Mailinglisten verw
 -   benutze die leistungsfähige Suche des Mail Clients
 -   keine Einschränkungen bei Anhängen und Größen
 
-### Verantwortlichkeiten klären {#verantwortlichkeiten_klären}
+### Verantwortlichkeiten klären 
 
 Wir werden bald mehr und mehr Entwickler werden und die Nutzer werden widersprüchliche Funktionswünsche haben. Wir brauchen eine Struktur und Verantwortlichkeiten, um solche Anfragen und eingehende Anfragen zu filtern und zu entscheiden. Code.
 
@@ -62,7 +62,7 @@ Publicity: articles on [http://yorik.uncreated.net/guestblog.php](http://yori
 
 Die beschlossenen Regeln und Informationen gehen an das [FreeCAD Entwicklungsmodell](FreeCAD_development_model/de.md) Dokument.
 
-## Nächste Handlungen {#nächste_handlungen}
+## Nächste Handlungen 
 
 
 

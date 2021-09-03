@@ -3,7 +3,7 @@
 
 {{TOCright}}
 
-## Umwandeln von Teilobjekten in Polygonnetze {#umwandeln_von_teilobjekten_in_polygonnetze}
+## Umwandeln von Teilobjekten in Polygonnetze 
 
 Die Konvertierung von übergeordneten Objekten wie [Teil](Part_Workbench/de.md) formen in einfachere Objekte wie [Polygonnetz](Mesh_Workbench/de.md) ist ein sehr einfacher vorwärtsgerichteter Vorgang, bei der alle Flächen eines Teilobjekts trianguliert werden. Das Ergebnis dieser Triangulation (Tesselierung) wird dann zum Aufbau eines Polygonnetzes verwendet:
 
@@ -44,7 +44,7 @@ mesh.Mesh = MeshPart.meshFromShape(
         Relative=False)
 ```
 
-## Umwandlung von Polygonnetzen in Teilobjekte {#umwandlung_von_polygonnetzen_in_teilobjekte}
+## Umwandlung von Polygonnetzen in Teilobjekte 
 
 Die Umwandlung von Netzen in Teilobjekte ist ein gängiger Vorgang. Sehr oft erhälst du 3D Daten in einem Netzformat. Netze sind sehr praktisch für die Darstellung von Freiformgeometrie und großen visuellen Szenen, da sie sehr leicht sind. In FreeCAD bevorzugen wir jedoch im Allgemeinen übergeordnete Objekte, Volumenkörper, die viel mehr Informationen tragen können und gekrümmte Flächen ermöglichen.
 

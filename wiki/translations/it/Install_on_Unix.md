@@ -22,7 +22,7 @@ L\'installazione di FreeCAD sui più noti sistemi Linux è stata ora approvata d
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Ubuntu e sistemi basati su Ubuntu {#ubuntu_e_sistemi_basati_su_ubuntu}
+## Ubuntu e sistemi basati su Ubuntu 
 
 Molte distribuzioni Linux sono basate su Ubuntu e condividono i suoi repository. Per altre varianti ufficiali (Kubuntu, Xubuntu e Lubuntu), ci sono distro non ufficiali come per Linux Mint, Voyager e altri. Le opzioni di installazione riportate in seguito dovrebbero essere compatibili con tali sistemi.
 
@@ -32,12 +32,12 @@ Molte distribuzioni Linux sono basate su Ubuntu e condividono i suoi repository.
 
 <div class="mw-translate-fuzzy">
 
-### Repository ufficiale di Ubuntu {#repository_ufficiale_di_ubuntu}
+### Repository ufficiale di Ubuntu 
 
 
 </div>
 
-FreeCAD è disponibile nel repository ufficiale di Ubuntu e può essere installato tramite {{MenuCommand|Software Center}} o dal terminale:
+FreeCAD è disponibile nel repository ufficiale di Ubuntu e può essere installato tramite **Software Center** o dal terminale:
 
 
 ```python
@@ -52,7 +52,7 @@ il pacchetto del repository di Ubuntu potrebbe essere obsoleto rispetto all\'ult
 
 <div class="mw-translate-fuzzy">
 
-### PPA stabile {#ppa_stabile}
+### PPA stabile 
 
 
 </div>
@@ -65,7 +65,7 @@ Il Personal Package Archive (PPA) per la versione stabile di FreeCAD è mantenut
 
 </div>
 
-#### Interfaccia grafica {#interfaccia_grafica}
+#### Interfaccia grafica 
 
 Installare il PPA stabile tramite l\'interfaccia utente grafica (GUI):
 
@@ -73,7 +73,7 @@ Installare il PPA stabile tramite l\'interfaccia utente grafica (GUI):
 <div class="mw-translate-fuzzy">
 
 
-:   1\. Navigare verso {{MenuCommand|Software per Ubuntu → Software e Aggiornamenti → Codice sorgente → Altro Software}}
+:   1\. Navigare verso **Software per Ubuntu → Software e Aggiornamenti → Codice sorgente → Altro Software**
 :   2\. Cliccare su **Aggiungi**, quindi copiare e incollare la riga seguente
 
 
@@ -96,9 +96,9 @@ Installare il PPA stabile tramite l\'interfaccia utente grafica (GUI):
 
 :   3\. Aggiungere il sorgente, chiudere la finestra di dialogo e ricaricare i sorgenti del software, se richiesto.
 
-Ora si può trovare e installare l\'ultima versione stabile di FreeCAD da {{MenuCommand|Ubuntu Software Center}}.
+Ora si può trovare e installare l\'ultima versione stabile di FreeCAD da **Ubuntu Software Center**.
 
-#### Riga di comando {#riga_di_comando}
+#### Riga di comando 
 
 Installare il PPA stabile tramite l\'interfaccia della riga di comando (CLI):
 
@@ -145,7 +145,7 @@ Installare il PPA stabile tramite l\'interfaccia della riga di comando (CLI):
 
 a causa di problemi di pacchettizzazione, in alcune versioni di Ubuntu il pacchetto `freecad-doc` è entrato in conflitto con l\'installazione di FreeCAD o con una delle sue dipendenze; in questo caso, rimuovere il pacchetto `freecad-doc` e installare solo il pacchetto `freecad`. Se il pacchetto `freecad-doc` non esiste, ignoralo.
 
-#### Verificare l\'installazione {#verificare_linstallazione}
+#### Verificare l\'installazione 
 
 :   4\. Una volta che il PPA stabile è stato aggiunto ai sorgenti usando uno dei metodi sopra, il pacchetto `freecad` installerà questa versione PPA su quella fornita dal repository di Ubuntu Universe. Si può vedere le versioni disponibili con il seguente comando `apt-cache`:
 :   
@@ -185,7 +185,7 @@ ubuntu@ubuntu:~$ apt-cache policy freecad-doc
 ```
     
 
-### PPA per le versioni di sviluppo (Daily) {#ppa_per_le_versioni_di_sviluppo_daily}
+### PPA per le versioni di sviluppo (Daily) 
 
 Dato che FreeCAD è in costante sviluppo, si potrebbe voler installare il pacchetto **daily** per essere aggiornati sugli ultimi miglioramenti e correzioni di bug. Il repository è anche ospitato su Launchpad e viene chiamato [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/freecad-daily).
 
@@ -230,7 +230,7 @@ Esegui la versione daily (PPA) di FreeCAD:
 
 </div>
 
-## Debian e altri sistemi basati su Debian {#debian_e_altri_sistemi_basati_su_debian}
+## Debian e altri sistemi basati su Debian 
 
 A partire da Debian Lenny, FreeCAD è disponibile direttamente nei repository di software Debian e può essere installato tramite Synaptic o semplicemente con:
 
@@ -361,7 +361,7 @@ Se scoprite che il vostro sistema è dotato di FreeCAD, ma in questa pagina non 
 
 Sulla rete sono disponibili diversi pacchetti alternativi non ufficiali di FreeCAD, ad esempio per sistemi come Slackware o Fedora. Una ricerca in rete può dare rapidamente buoni risultati.
 
-### Installazione manuale in sistemi basati su .deb {#installazione_manuale_in_sistemi_basati_su_.deb}
+### Installazione manuale in sistemi basati su .deb 
 
 Se per qualche motivo non è possibile utilizzare uno dei metodi di cui sopra, si può sempre scaricare uno dei pacchetti .deb disponibili nella pagina [Download](Download.md).
 {{DownloadUnixStable}}
@@ -377,7 +377,7 @@ sostituendo a Name\_of\_your\_FreeCAD\_package.deb il nome del file scaricato
 
 Terminata l\'installazione di FreeCAD, nella sezione \"Grafica\" del Menu Start viene aggiunta l\'icona per avviarlo.
 
-### Installazione in altri sistemi Linux/Unix {#installazione_in_altri_sistemi_linuxunix}
+### Installazione in altri sistemi Linux/Unix 
 
 Many common Linux distros now include a precompiled FreeCAD as part of the standard packages. This is often out of date, but is a place to start. Check the standard package managers for your system. One of the following (partial) list of commands could install the official version of FreeCAD for your distro from the terminal. These probably need administrator privileges.
 
@@ -401,11 +401,11 @@ Se ciò non basta, e non è possibile individuare un\'altra fonte di un pacchett
 
 </div>
 
-### Installing Windows Version on Linux {#installing_windows_version_on_linux}
+### Installing Windows Version on Linux 
 
 See the [Installing on Windows](Installing_on_Windows.md) page.
 
-## Next Step {#next_step}
+## Next Step 
 
 Appena terminata l\'installazione di FreeCAD, è ora di [iniziare](Getting_started/it.md)!
 

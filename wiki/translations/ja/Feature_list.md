@@ -260,7 +260,7 @@
 
 </div>
 
-## In development {#in_development}
+## In development 
 
 
 <div class="mw-translate-fuzzy">
@@ -273,7 +273,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Extra Workbenches {#extra_workbenches}
+## Extra Workbenches 
 
 Power users have created various custom [external workbenches](external_workbenches.md).
 

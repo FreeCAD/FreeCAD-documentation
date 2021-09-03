@@ -37,7 +37,7 @@ Mai multe opțiuni pot fi găsite în meniu **Modifica → Preferenze → Genera
 
 </div>
 
-1.  Select the {{MenuCommand|File → <img src="images/Std_SaveAs.svg" width=16px> Save As...}} option from the menu.
+1.  Select the **File → <img src="images/Std_SaveAs.svg" width=16px> Save As...** option from the menu.
 2.  Enter a filename in the dialog box.
 3.  Press the **Save** button.
 
@@ -51,7 +51,7 @@ Mai multe opțiuni pot fi găsite în meniu **Modifica → Preferenze → Genera
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 

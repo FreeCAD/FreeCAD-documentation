@@ -6,11 +6,11 @@
 
 Этот раздел находятся в стадии разработки. Если вы не можете найти информацию, которую ищете, или нашли полезную информацию, на которую мы не сослались, пожалуйста, оставьте комментарий на [форуме](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) и кто-нибудь заглянет в него (или, если вы уверены в своих знаниях, почему бы не отредактировать эту страницу самостоятельно!).
 
-## Документация для Разработчиков {#документация_для_разработчиков}
+## Документация для Разработчиков 
 
 Документация для разработчиков включает в себя следующие разделы:
 
-### Компиляция FreeCAD {#компиляция_freecad}
+### Компиляция FreeCAD 
 
 -   [Github репозиторий](https://github.com/FreeCAD/FreeCAD). Если вы новичок, в git изучите [управление исходным кодом](Source_code_management/ru.md)
 -   [Компиляция с Docker](Compile_on_Docker/ru.md)
@@ -35,7 +35,7 @@
 -   [Упаковывание в Windows](Windows_packaging/ru.md)
 -   [Упаковывание в MacOS](MacOS_packaging/ru.md)
 
-### Инструменты Поддержки Сборки {#инструменты_поддержки_сборки}
+### Инструменты Поддержки Сборки 
 
 
 <div class="mw-translate-fuzzy">
@@ -50,7 +50,7 @@
 
 </div>
 
-### Модифицирование FreeCAD {#модифицирование_freecad}
+### Модифицирование FreeCAD 
 
 -   Объяснение структуры [исходного кода FreeCAD](The_FreeCAD_source_code/ru.md)
 -   [Отправка патчей](Tracker/ru#Отправка_патчей.md)
@@ -66,7 +66,7 @@
 
 -   [Перевод внешних верстаков](Translating_an_external_workbench/ru.md)
 
-### Руководство для разработчика модуля {#руководство_для_разработчика_модуля}
+### Руководство для разработчика модуля 
 
 [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): This is an ebook under writing on github, please fork and send pull request to contribute.
 
@@ -85,9 +85,9 @@ Chapters:
 
 Latest pdf preview can be downoaded from [pdf folder](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) of this git repo
 
-### Внутренние устройство {#внутренние_устройство}
+### Внутренние устройство 
 
-#### OpenCascade Documentation {#opencascade_documentation}
+#### OpenCascade Documentation 
 
 OpenCascade is a software development platform for 3D surface and solid modeling, CAD data exchange, and visualization, mostly in the form of C++ libraries.
 
@@ -96,7 +96,7 @@ OpenCascade is a software development platform for 3D surface and solid modeling
 -   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
 -   [The openCascade wiki](http://opencascade.wikidot.com) (currently containing ?? Chinese spam)
 
-#### Про формат файла {#про_формат_файла}
+#### Про формат файла 
 
 
 <div class="mw-translate-fuzzy">
@@ -106,7 +106,7 @@ OpenCascade is a software development platform for 3D surface and solid modeling
 
 </div>
 
-#### Решатель Эскизов (Sketcher solver) {#решатель_эскизов_sketcher_solver}
+#### Решатель Эскизов (Sketcher solver) 
 
 -   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
 -   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
@@ -116,7 +116,7 @@ The sketcher solver isn\'t perfect, as there are some issues with numerical prec
 
 The development of a new solver architecture could improve the way the solver is used both in the [Sketcher Workbench](Sketcher_Workbench.md), and for assembly of 3D bodies. See [Reimplementing constraint solver](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
-## Дорожная карта проекта {#дорожная_карта_проекта}
+## Дорожная карта проекта 
 
 FreeCAD, though usable in certain areas, is at the beginning of a long way into the CAD mainstream. There is still a lot to do to reach a state where we can compete with commercial software.
 

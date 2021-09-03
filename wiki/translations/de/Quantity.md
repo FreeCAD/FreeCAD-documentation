@@ -6,7 +6,7 @@ In einem CAD- oder CAE-System ist es sehr wichtig, die Einheit eines Wertes im A
 
 Aus diesem Grund wurde das FreeCAD-Mengengerüst geschaffen. Es umfasst den gesamten Code und die Objekte zum Umgang mit Einheiten, Berechnungen, Benutzereingaben, Umrechnung in andere Einheitensysteme und die schöne Ausgabe von Werten und Einheiten. Langfristig sollte in FreeCAD kein Parameter nur eine Zahl sein.
 
-### Unterstützte Einheiten {#unterstützte_einheiten}
+### Unterstützte Einheiten 
 
 
 <div class="mw-translate-fuzzy">
@@ -21,7 +21,7 @@ Die detaillierte Beschreibung findest Du im Code:
 -   Mengen-Lexer: [1](http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/QuantityParser.l)
 -   Mengedefinition: [2](http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/Quantity.cpp#l167)
 
-## Interne Darstellung {#interne_darstellung}
+## Interne Darstellung 
 
 Alle physikalischen Einheiten können als eine Kombination der sieben [SI-Einheiten](https://de.wikipedia.org/wiki/Internationales_Einheitensystem) ausgedrückt werden:
 
@@ -86,7 +86,7 @@ Code:
 -   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
 -   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp)
 
-## Python scripting {#python_scripting}
+## Python scripting 
 
 Das Einheiten- und Mengensystem in FreeCAD ist (wie fast alles) vollständig über Python ansprechbar.
 
@@ -190,7 +190,7 @@ Units.Quantity('1 MPa').getValueAs(Units.Quantity('N/m^2')) # a quantity
           
 ```
 
-### User facing values {#user_facing_values}
+### User facing values 
 
 Normally in scripts you can use Quantity for all kinds of calculations and checking, but there comes the time you have to output information to the user. You could use getValueAs() to force a certain unit, but normally the user sets his preferred unit-schema in the preferences. This unit-schema does all the translations to the representation the user likes to see. At the moment there are three schemes implemented:
 
@@ -238,7 +238,7 @@ params.GetInt('Decimals') # returns an int
 
 ## Anhang
 
-### Parser-unterstützte Einheiten {#parser_unterstützte_einheiten}
+### Parser-unterstützte Einheiten 
 
 Obwohl alle physikalischen Einheiten mit den sieben SI-Einheiten beschrieben werden können, bestehen die meisten in technischen Bereichen benutzten Einheiten aus üblichen zusammengesetzten Einheiten (wie Pa = N/m\^2 Pascal). Deshalb unterstützt der Einheiten-Parser in FreeCAD viele SI- und Imperial-kombinierte Einheiten. Diese Einheiten sind in der Datei src/Base/QuantityParser.l definiert und können in der Zukunft noch erweitert werden.
 

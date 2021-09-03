@@ -23,7 +23,7 @@ Commande Draft définie dans une petite macro pour l\'exemple de fil 2D: travail
 
 -    **<img src="images/Part_Compound.svg" width=16px> Compound II**Type II \[1 + 1 = A (1 + 1)\] : Créez un composé de tous les objets sélectionnés avec l\'historique de tous les objets. Idem \"**Menu → Part → Make compound**\".
 
-### {{CheckBox}} Couleur de l\'option {#couleur_de_loption}
+### {{CheckBox}} Couleur de l\'option 
 
 S\'il {{CheckBox}} est vérifiée, la couleur de l\'objet à travailler sont colorées (bord, sommet)
 
@@ -59,7 +59,7 @@ S\'il {{CheckBox}} est vérifiée, la couleur de l\'objet à travailler sont col
 
 -    **<img src=images/Draft_Downgrade.svg style="width:16px"> DownGrade**: DownGrade
 
-### Pour le composé I et le bord de conversion {#pour_le_composé_i_et_le_bord_de_conversion}
+### Pour le composé I et le bord de conversion 
 
 Cette section fonctionne uniquement avec les outils **<img src="images/Part_Compound.svg" width=16px> Compound I
 **, **<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)** et **<img src=images/Draft_Line.svg style="width:16px"> Convert Wire (A)**
@@ -70,7 +70,7 @@ Cette section fonctionne uniquement avec les outils **<img src="images/Part_Comp
 
 -    {{RadioButton|Delete original objest(s)}}: supprime les objets originaux.
 
-### Forcer sur une forme: Ligne {#forcer_sur_une_forme_ligne}
+### Forcer sur une forme: Ligne 
 
 Si l\'objet ligne, arc ou cercle n\'est pas reconnu (comme forme dans un objet 3D de volume), cette section force la création d\'une ligne, d\'un arc ou d\'un cercle.
 

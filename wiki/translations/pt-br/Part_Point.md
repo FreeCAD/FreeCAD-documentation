@@ -15,9 +15,9 @@ A Point (vertex) geometric primitive.
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
 2.  The Create Primitives dialogue can be accessed several ways:
     -   Pressing the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Primitives](Part_Primitives.md) icon located in the Part toolbar
-    -   Using the {{MenuCommand|Part → [Create primitives](Part_Primitives.md) → Point}} menu
+    -   Using the **Part → [Create primitives](Part_Primitives.md) → Point** menu
 
-### Geometric Primitives {#geometric_primitives}
+### Geometric Primitives 
 
 +------------------------------------------------------------------------------+---------------------+
 | ![](images/PartVertexPrimitivesOptions_it.png ) | Point               |

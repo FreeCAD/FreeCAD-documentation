@@ -30,7 +30,7 @@ W zależności od tego, jakiego wyboru dokonamy, niektóre pola będą aktywne l
 
 ![](images/PartDesign_Hole_parameters.png )
 
-### Gwinty i rozmiar {#gwinty_i_rozmiar}
+### Gwinty i rozmiar 
 
 -   **Profil**: jeśli opcja jest ustawiona na *Brak*, nie definiuje się informacji o gwintowaniu. Profile gwintów [ISO](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) i [UTS](https://en.wikipedia.org/wiki/Unified_Thread_Standard) umożliwiają włączenie pola *Rozmiar*.
 -   **Gwint**: jeżeli opcja jest zaznaczona, dane gwintu zostaną dodane do cechy *otwór* i zostanie użyta mniejsza średnica otworu. Jeżeli opcja nie jest zaznaczona, otwór jest traktowany jako niegwintowany i wybierana jest nominalna średnica główna ze zdefiniowanym *prześwitem*.
@@ -42,14 +42,14 @@ W zależności od tego, jakiego wyboru dokonamy, niektóre pola będą aktywne l
 -   **Średnica**: definiuje średnicę otworu, jeżeli *profil* jest ustawiony na *Brak*.
 -   **Głębokość**: głębokość otworu od płaszczyzny szkicu. Opcja **Wymiar** włącza pole do wpisania wartości. *Przez wszystkie* spowoduje wycięcie otworu przez cały korpus. **Uwaga:** Z powodów technicznych opcja *Przez wszystkie* to w rzeczywistości otwór o głębokości 10 metrów. Jeśli potrzebujesz głębszych otworów, użyj opcji *Wymiar*.
 
-### Wycięcie otworu {#wycięcie_otworu}
+### Wycięcie otworu 
 
 -   **Typ**: ustawia typ wycięcia otworu: *Brak* oznacza brak wycięcia, inne typy to różne normy dla śrub *({{Version/pl|0.19}})* oraz dwa typy ogólne *pogłębienie stożkowe* i *pogłębienie walcowe*.
 -   **Średnica**: ustawia górną średnicę *(na płaszczyźnie szkicu)* dla wyciętego otworu.
 -   **Głębokość**: głębokość wycięcia otworu, mierzona od płaszczyzny szkicu.
 -   **Kąt pogłębiania stożkowego**: kąt stożkowego wycięcia otworu. Dotyczy tylko pogłębiania stożkowego.
 
-### Punkt wiercenia {#punkt_wiercenia}
+### Punkt wiercenia 
 
 -   **Typ**: definiuje zakończenie otworu, jeżeli *Głębokość* jest ustawiona na *Wymiar*,
     -   **Płaski** tworzy płaskie dno,
@@ -74,7 +74,7 @@ Duża część właściwości Danych jest taka sama jak te prezentowane w sekcji
 -   Domyślnie element otworu jest wysuwany poniżej płaszczyzny szkicu. Jeśli bryła leży na płaszczyźnie **XY**, a szkic otworu jest dołączony do płaszczyzny **XY**, to będzie on próbował wytłaczać się z dala od bryły i pozornie nie da żadnego rezultatu. W takim przypadku należy ustawić opcję *Odwrócony*; alternatywnie szkic można zmapować do dolnej powierzchni bryły.
 -   Modelowanie gwintu działa tylko wtedy, gdy nie jest ustawiona opcja Odwrócony.
 
-## Definicje typów cięcia {#definicje_typów_cięcia}
+## Definicje typów cięcia 
 
 Typy cięcia *(typy śrub)* są zdefiniowane od wersji 0.19 w plikach [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation). Istnieje zestaw plików dystrybuowanych z programem FreeCAD, ale użytkownicy mogą tworzyć własne definicje. Pliki są wyszukiwane w <UserAppDataDir>/PartDesign/Hole. Folder `UserAppDataDir` można odnaleźć, wpisując ciąg `App.getUserAppDataDir()` w [konsoli Python](Python_console/pl.md).
 

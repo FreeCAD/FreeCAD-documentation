@@ -71,7 +71,7 @@ With the properties **X** and **Y** you can change the horizontal and vertical p
 
 To get rid of a tolerance, change **Overtolerance** and **Undertolerance** to each zero.
 
-### Formatierung {#formatierung_1}
+### Formatierung 
 
 The default font for new tolerances is the same than for dimensions. The default font size is specified by the [preferences](TechDraw_Preferences#Dimensions_2.md) setting **Tolerance Text Scale**. This scale is a factor of the font size used for the dimension.
 
@@ -79,7 +79,7 @@ The default number format for new tolerances is by default the same format than 
 
 You can also use your own text instead of a formatted number by checking the option **Arbitrary Tolerance Text** in the dimension dialog. Then the content of **Tolerance Format Specifier** will be used as tolerance text.
 
-## Geometrische Tolerierung {#geometrische_tolerierung}
+## Geometrische Tolerierung 
 
 Tolerances are created by using the [Balloon](TechDraw_Balloon.md) feature of TechDraw. Since for most features a frame is required, it is helpful to change in the [TechDraw preferences](TechDraw_Preferences#Annotation.md) the **Balloon Shape** to **Rectangle**.
 

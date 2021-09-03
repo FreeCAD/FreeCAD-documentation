@@ -33,7 +33,7 @@ Pour créer un coude, cliquez sur ![](images/OSE_Piping_create_elbow_icon.svg ).
 
 <img alt="" src=images/OSE_Piping_create_elbow_screenshot.png  style="width:512px;"> ![](images/OSE_Piping_elbow_CAD_screenshot.png )  Pour ajouter de nouveaux coudes, ajustez le fichier **elbow.csv**.
 
-# Coude de balayage {#coude_de_balayage}
+# Coude de balayage 
 
 Un sweep elbow est un coude spécial dont le rayon de courbure est plus grand. Il est décrit par le diamètre extérieur du tube POD, l\'épaisseur du tube **PThk**, **G**, **H** et **M**. Pour créer un coude de balayage, cliquez sur ![](images/OSE_Piping_create_sweep_elbow_icon.svg ).
 

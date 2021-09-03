@@ -16,7 +16,7 @@ La commande **Std Capture d\'écran** ouvre une boîte de dialogue pour créer u
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Outils → <img src="images/Std_ViewScreenShot.svg" width=16px> Enregistrer l'image...}} dans le menu.
+1.  Sélectionnez l\'option **Outils → <img src="images/Std_ViewScreenShot.svg" width=16px> Enregistrer l'image...** dans le menu.
 2.  La boîte de dialogue Enregistrer l\'image s\'ouvre.
 3.  Appuyez sur le bouton **Etendu** pour afficher un panneau supplémentaire dans la boîte de dialogue. Pour plus d\'informations, voir [Options](#Options.md).
 4.  Naviguez éventuellement vers le bon dossier.
@@ -25,12 +25,12 @@ La commande **Std Capture d\'écran** ouvre une boîte de dialogue pour créer u
 
 ## Options
 
-### Tailles de l\'image {#tailles_de_limage}
+### Tailles de l\'image 
 
 1.  Sélectionnez une taille standard dans la liste déroulante **Tailles standards** ou spécifiez la **Largeur** et la *\' Hauteur*\' pour une taille personnalisée.
 2.  En option, appuyez sur un bouton **Rapport d\'aspect** pour définir le rapport largeur/hauteur de l\'image. Si la zone de saisie **Largeur** est choisie, la hauteur de l\'image changera et vice versa.
 
-### Propriétés de l\'image {#propriétés_de_limage}
+### Propriétés de l\'image 
 
 1.  Sélectionnez une option dans la liste déroulante **Arrière-plan** :
     -   
@@ -71,7 +71,7 @@ La commande **Std Capture d\'écran** ouvre une boîte de dialogue pour créer u
         
         Cette méthode utilise les mêmes techniques que **Framebuffer (personnalisé)**. Il prend également en charge l\'anticrénelage, mais présente certaines limitations liées aux tailles personnalisées et utilise toujours l\'arrière-plan actuel de la vue 3D.
 
-### Commentaire de l\'image {#commentaire_de_limage}
+### Commentaire de l\'image 
 
 1.  Sélectionnez l\'option {{RadioButton|TRUE|Insérer MIBA}} pour ajouter des informations [MIBA](MIBA.md) au fichier. Tous les formats d\'image ne le prennent pas en charge.
 2.  Ou sélectionnez l\'option {{RadioButton|TRUE|Insérer un commentaire}} et tapez un commentaire dans le champ de texte pour incorporer un commentaire dans le fichier. Tous les formats d\'image ne le prennent pas en charge.
@@ -84,8 +84,8 @@ La commande **Std Capture d\'écran** ouvre une boîte de dialogue pour créer u
 
 ## Préférences
 
--   L\'arrière-plan de la vue 3D peut être modifié dans les préférences : {{MenuCommand|Édition → Préférences → Affichage → Couleurs → Couleur d'arrière plan}}. Voir [Réglage des préférences](Preferences_Editor/fr#Couleurs.md).
--   Pour modifier l\'anticrénelage de la vue 3D : {{MenuCommand|Édition → Préférences → Affichage → Vue 3D → Rendering → Anticrénelage}}. Voir [Réglage des préférences](Preferences_Editor/fr#Vue_3D.md).
+-   L\'arrière-plan de la vue 3D peut être modifié dans les préférences : **Édition → Préférences → Affichage → Couleurs → Couleur d'arrière plan**. Voir [Réglage des préférences](Preferences_Editor/fr#Couleurs.md).
+-   Pour modifier l\'anticrénelage de la vue 3D : **Édition → Préférences → Affichage → Vue 3D → Rendering → Anticrénelage**. Voir [Réglage des préférences](Preferences_Editor/fr#Vue_3D.md).
 
 ## Script
 

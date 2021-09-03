@@ -30,7 +30,7 @@ Die Arbeitsbereiche verwirren neue Benutzer oft, da es nicht immer einfach ist, 
 
 Später in diesem Handbuch findest du auch eine Tabelle mit dem Inhalt aller Arbeitsbereiche.
 
-### Die Oberfläche {#die_oberfläche}
+### Die Oberfläche 
 
 Lass uns einen genaueren Blick auf die verschiedenen Teile der Oberfläche werfen:
 
@@ -57,7 +57,7 @@ Der Aufgabenreiter hat manchmal rätselhafte und frustrierende Nebeneffekte. Wen
 
 ![](images/FreeCAD-v0-18-ExtrudeTask.png )
 
-### Anpassung der Oberfläche {#anpassung_der_oberfläche}
+### Anpassung der Oberfläche 
 
 Die Oberfläche von FreeCAD ist in hohem Maße anpassbar. Alle Paneele und Werkzeugleisten können an verschiedene Stellen verschoben oder übereinander gestapelt werden. Sie können auch geschlossen und bei Bedarf über das Menü Ansicht oder durch einen Rechtsklick auf einen leeren Bereich der Oberfläche wieder geöffnet werden. Es sind jedoch noch viele weitere Optionen verfügbar, wie z.B. das Erstellen von benutzerdefinierten Symbolleisten mit Werkzeugen aus einer der Arbeitsbereiche oder das Zuweisen und Ändern von Tastaturkürzeln.
 

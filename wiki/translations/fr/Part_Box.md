@@ -18,7 +18,7 @@ La commande Cube de l\'[atelier Part](Part_Workbench/fr.md) insère un [parallé
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Atelier Part](Part_Workbench/fr.md)
 2.  Lancez la commande de plusieurs manières:
     -   Appuyez sur le bouton **<img src="images/Part_Box.svg" width=16px> Créer un cube plein** dans la barre d\'outils.
-    -   Sélectionnez {{MenuCommand|Pièce → Primitives → <img src="images/Part_Box.svg" width=16px> Cube}} dans la barre de menus.
+    -   Sélectionnez **Pièce → Primitives → <img src="images/Part_Box.svg" width=16px> Cube** dans la barre de menus.
 
 **Résultat:** le résultat par défaut est une boîte dont la longueur, la largeur et la hauteur sont égales à 10 mm. Elle est attachée au plan xy global et un bord coïncide avec l\'axe z global.
 

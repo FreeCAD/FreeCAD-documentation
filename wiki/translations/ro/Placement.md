@@ -7,7 +7,7 @@
 
 **Placement** reprezintă modul cum FreeCAD specifică poziția și atitudinea(orientarea) unui obiect în spațiu. Plasamentul poate fi specificat în mai multe forme și manipulată prin [scripting](Python_scripting_tutorial#Vectors_and_Placements.md), Proprietățile panel sau dialogul **Placement** (**Edit** menu).
 
-### Accesarea Atributelor Plasament {#accesarea_atributelor_plasament}
+### Accesarea Atributelor Plasament 
 
 Atributele de plasare ale unui obiect pot fi accesate și modificate în trei moduri:
 
@@ -37,14 +37,14 @@ Atributele de plasare ale unui obiect pot fi accesate și modificate în trei mo
 
 ![Placement Dialog Rotation axis with angle](images/PlacementDialogv10.png ) 
 
-## Forme de Placement {#forme_de_placement}
+## Forme de Placement 
 
 Plasarea este stocată intern ca poziție și o rotație (axa de rotație și unghiul transformat într-un quaternion [1](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). Deși există mai multe formulare pentru specificarea unei rotații, de exemplu cu un centru de rotație, aceasta este utilizată numai pentru a afecta calculul rotației și nu este stocată pentru operații ulterioare. În mod similar, dacă se specifică o axă de rotație de (1,1,1), aceasta poate fi normalizată atunci când este stocată în quaternion și apare ca (0,58, 0,58, 0,58) atunci când navighează obiectul mai târziu.
 
 
 </div>
 
-### Unghi, Axă și Poziție {#unghi_axă_și_poziție}
+### Unghi, Axă și Poziție 
 
 **Placement = \[Angle, Axis, Position\]**
 
@@ -76,7 +76,7 @@ Rețineți că este de asemenea posibil să traduceți (mutați) un obiect de-a 
 
 <div class="mw-translate-fuzzy">
 
-### Position and Yaw, Pitch and Roll {#position_and_yaw_pitch_and_roll}
+### Position and Yaw, Pitch and Roll 
 
 ![Placement Dialog Euler angles](images/PlacementDialogv10b.png )  **Placement = \[Position, Yaw-Pitch-Roll\]**
 
@@ -131,7 +131,7 @@ The third form of **Placement** describes the object\'s position and orientation
 
 
 
-## The Placement Dialog {#the_placement_dialog}
+## The Placement Dialog 
 
 Dialogul de plasare este invocat din meniul **Edit**. Este folosit pentru a roti/transla precis obiectele. Este de asemenea folosit atunci când trebuie să creăm o schiță pe un plan \"nonstandard\" sau să schimbăm orientarea unei schițe într-un nou plan.
 
@@ -181,7 +181,7 @@ Rotation using Euler angles:
 
 <img alt="After Rotation" src=images/RotationEulerAfter.png  style="width:600px;"> After Rotation 
 
-## Placement.Base vs Shape Definition {#placement.base_vs_shape_definition}
+## Placement.Base vs Shape Definition 
 
 Placement is not the only way to position a shape in space. Note the Python console in this image:
 
@@ -216,7 +216,7 @@ Both cubes have the same value for Placement, but are in different locations! Th
 
 The Vertices (or Vectors) that define the shape use the Placement.Base attribute as their origin. So if you want to move a shape 10 units along the **X** axis, you could add 10 to the **X** coordinates of all the Vertices or you could set Placement.Base to (10,0,0).
 
-## Using \"Center\" to Control Axis of Rotation {#using_center_to_control_axis_of_rotation}
+## Using \"Center\" to Control Axis of Rotation 
 
 By default, the axis of rotation isn\'t really the x/y/z axis. It is a line parallel to the selected axis, but passing through the reference point (Placement.Base) of the object to be rotated. This can be changed by using the Center fields in the Placement dialog or, in scripts, by using the Center parameter of the FreeCAD.Placement constructor.
 
@@ -246,7 +246,7 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
-## Using Placement in expressions {#using_placement_in_expressions}
+## Using Placement in expressions 
 
 In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\": 
 ```python

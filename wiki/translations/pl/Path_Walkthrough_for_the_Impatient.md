@@ -14,7 +14,7 @@
 
 Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path Workbench](Path_Workbench.md) Job derived from a 3D Model. Then generating dialect-correct G-Code for a target CNC mill.
 
-## The 3D Model {#the_3d_model}
+## The 3D Model 
 
 1\. The Project begins with a simple FreeCAD model designed in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Part Design](PartDesign_Workbench.md) a cube with a rectangular pocket,
 
@@ -31,13 +31,13 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 
 2\. With the 3D Model completed, switch to the <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path Workbench](Path_Workbench.md) via the [Workbench selector](Std_Workbench.md) (drop-down menu)
 
-## The Job {#the_job}
+## The Job 
 
 3\. Now we create a [Path Job](Path_Job.md) by either of the following methods:
 
 -   Press the **![](images/)_[Job](Path_Job.md)** button from the toolbar.
 -   Using the **P** then **F** keyboard shortcut.
--   Using the {{MenuCommand|Path → Job}} entry from the top menu.
+-   Using the **Path → Job** entry from the top menu.
 
 ![](images/Path-JobCreationDialog.png )
 
@@ -49,11 +49,11 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 
 4\. This opens a Job creation dialog. Within this dialog, click **OK** to accept the Body as the Base Model, with no Template.
 
-### Job Setup {#job_setup}
+### Job Setup 
 
 5\. The Job Edit window opens in the Task window, and the model view Window shows the Stock as a wire frame cube surrounding the Base Body. The Setup Tab is selected.
 
-### Job Output {#job_output}
+### Job Output 
 
 6\. The Output tab defines the output file path, name, extension, and the Postprocessor. For advanced users, Post Processor Arguments can be customized (mouse over to show tooltips of common arguments).
 
@@ -62,7 +62,7 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
     *Above: [Path Job](Path_Job.md) Edit dialog with the Output tab selected*
     
 
-### Job Tools {#job_tools}
+### Job Tools 
 
 :   ![](images/Path-JobTools.png )
 :   
@@ -89,7 +89,7 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 
 Note: For easy access, all the tools can be predefined and selected from the <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:24px;">[Tool manager](Path_ToolLibraryEdit.md).
 
-### Job Workplan {#job_workplan}
+### Job Workplan 
 
 The Workplan tab initially is shown as empty. It is then populated by the sequence of Job Operations, Partial Path Commands, and Path Dressups. The sequence of these items is ordered here.
 
@@ -97,7 +97,7 @@ This tree is shown after the Job\'s configuration once the Path Job is unfolded:
 
 :   ![](images/Path-TreeWithJob.png )
 
-## The Path Operations {#the_path_operations}
+## The Path Operations 
 
 11\. Two operations will be added to generate milling paths for this Path Job. The [Profile](Path_Profile.md) operation creates a path around the box and the [Pocket](Path_Pocket_Shape.md) operation creates a path for the inner pocket.
 
@@ -119,7 +119,7 @@ The result is a model with two paths:
     *Above: resulting with a model with two paths*
     
 
-## Verifying Paths {#verifying_paths}
+## Verifying Paths 
 
 There are two ways to verify the created paths. The G-Code can be inspected, including highlighting the corresponding path segments. The milling process of the Path Job can also be simulated to demonstrate the idealized tool paths, required for the Tool geometries to mill the Stock.
 
@@ -141,7 +141,7 @@ Adjust speed and accuracy and start the simulation with the <img alt="" src=imag
 
 If you want to end the simulation click the **Cancel** button, it will remove the stock created for the simulation. If you click **OK** this object will be kept in your Job.
 
-## Postprocess the Job {#postprocess_the_job}
+## Postprocess the Job 
 
 The final step to generate G-Code for the target mill is to postprocess the Job. This outputs the G-Codes to a file that can be uploaded to the target CNC machine controller. To invoke the Postprocessor:
 

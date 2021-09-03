@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Esta plantilla es la directriz para un proyecto de desarrollo de FreeCAD. Sigue las reglas de la metodología **GTD** [Getting Things Done (GTD)\|](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology). Los proyectos se recopilan en el [mapa de desarrollo](Development_roadmap/es.md).
 
-## Propósito y principios {#propósito_y_principios}
+## Propósito y principios 
 
 Se trata de un esfuerzo de desarrollo y diseño para implementar una nomenclatura topológica robusta en FreeCAD.
 
@@ -28,7 +28,7 @@ Más detalles sobre la nomenclatura topológica en **[Problema de nomenclatura t
     ![](images/NamingExample.jpg )
 4.  (opcional) **estructura de datos optimizada en memoria** para mantener sólo las caras/aristas modificadas en cada operación de modelado. Esto será importante cuando el modelo sea grande. No es eficiente copiar la mayor parte de la forma, sería mucho más eficiente compartir las aristas/caras que no han cambiado entre operaciones y copiar sólo lo que ha cambiado.
 
-## Lluvia de ideas {#lluvia_de_ideas}
+## Lluvia de ideas 
 
 Se discutió mucho en el post [\"Referencias robusta\"](http://forum.freecadweb.org/viewtopic.php?f=10&t=2656) de jrheinlaender.
 
@@ -37,7 +37,7 @@ Se discutió mucho en el post [\"Referencias robusta\"](http://forum.freecadweb.
 -   [Topología y denominación genérica de Catia V5](http://www.maruf.ca/files/caadoc/CAATopTechArticles/JournalMethodology.htm#Definition) y [Objetivos de la denominación genérica de Catia V5](http://www.maruf.ca/files/caadoc/CAAMmrTechArticles/CAAMmrGenericNaming.htm#Objectives%20of%20GN)
 -   [Nomenclatura topológica en OCAF (Open CASCADE Application Framework)](https://www.opencascade.com/doc/occt-7.4.0/overview/html/occt_user_guides__ocaf.html#occt_ocaf_5_6)
 
-### Literatura & documentación {#literatura_documentación}
+### Literatura & documentación 
 
 -   J Kripac, \"Un mecanismo para la designación topológica persistente de entidades en modelos sólidos paramétricos basados en historial, Simposio sobre modelado de sólidos y aplicaciones 1995, p.21-30\"
 
@@ -55,7 +55,7 @@ Se discutió mucho en el post [\"Referencias robusta\"](http://forum.freecadweb.
 
 -   [Assembly Solving for Neutral Re-Imported Product Models Tahir A. Jauhar, Soonhung Han, Soonjo Kwon , p.108-123 , CAD Journal 2020, Volume 17 Number 1](http://www.cad-journal.net/files/vol_17/CAD_17(1)_2020_108-123.pdf)
 
-### Resumen del trabajo hasta la fecha {#resumen_del_trabajo_hasta_la_fecha}
+### Resumen del trabajo hasta la fecha 
 
 A fecha de 13 de junio de 2016, este es un resumen del trabajo que se ha realizado para este proyecto:
 
@@ -69,7 +69,7 @@ A fecha de 13 de junio de 2016, este es un resumen del trabajo que se ha realiza
 
 ## Organización
 
-### Información sobre TNaming {#información_sobre_tnaming}
+### Información sobre TNaming 
 
 Ver [aquí](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNaming_Writeup.md) para un escrito decente en el repo de github de ezzieyguywuf. Aquí hay algunos puntos destacados:
 
@@ -86,13 +86,13 @@ Ver [aquí](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNami
 -   La clase TNaming\_Selector se utiliza para \"seleccionar\" una característica que está siendo rastreada en el árbol TDF\_Data
     -   Una característica \"seleccionada\" es aquella a la que el algoritmo TNaming de opencascade mantendrá una referencia constante, independientemente de los cambios topológicos.
 
-## Siguientes acciones {#siguientes_acciones}
+## Siguientes acciones 
 
 -   Definir el alcance
 -   Casos de prueba en Python
 -   Interfaz en Part::TopoShape (+ vinculación con Python)
 
-### Siguientes pasos (a partir del 13 de junio de 2016) {#siguientes_pasos_a_partir_del_13_de_junio_de_2016}
+### Siguientes pasos (a partir del 13 de junio de 2016) 
 
 1.  Determinar si el kit de herramientas de TNaming de opencascade resuelve completamente el problema de Nomenclatura Topológica en FreeCAD.
     -   ¿Cuáles son todos los casos en los que la Nomenclatura Topológica es un problema?

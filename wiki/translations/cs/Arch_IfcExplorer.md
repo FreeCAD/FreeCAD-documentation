@@ -38,7 +38,7 @@ Důvod pro použití tohoto prohlížeče je jednoduše v tom, že si můžete z
 
 1.  Invoke the Ifc Explorer via:
     -   Pressing the <img alt="" src=images/IFC.svg  style="width:24px;"> button
-    -   Using the {{MenuCommand|Arch → Utilities → Ifc Explorer}} entry from the Arch dropdown menu.
+    -   Using the **Arch → Utilities → Ifc Explorer** entry from the Arch dropdown menu.
 
 
 <div class="mw-translate-fuzzy">

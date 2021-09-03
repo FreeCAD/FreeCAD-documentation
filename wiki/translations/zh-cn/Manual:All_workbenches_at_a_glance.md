@@ -103,7 +103,7 @@ Sketcher 工作台包含用于构建和编辑复杂 2D 对象的工具，称为�
 
 </div>
 
-### Part Design {#part_design}
+### Part Design 
 
 Part Design 工作台包含用于构建实体零件的高级工具，还包含 Sketcher 中的所有工具。由于Part Design 工作台只能生成实体形状（Part Design的第一规则），因此在设计用于制造的部品或用于 3D 打印的零件时，Part Design 是主工作台，您将始终获得可打印的对象。
 

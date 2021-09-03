@@ -14,7 +14,7 @@ Currently the command points to [<https://www.freecadweb.org>](https://www.freec
 
 ## Usage
 
-1.  Select the {{MenuCommand|Help → <img src="images/Std_FreeCADWebsite.svg" width=16px> FreeCAD Website}} option from the menu.
+1.  Select the **Help → <img src="images/Std_FreeCADWebsite.svg" width=16px> FreeCAD Website** option from the menu.
 
 
 

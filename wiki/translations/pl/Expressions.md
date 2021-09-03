@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Informacje ogólne {#informacje_ogólne}
+## Informacje ogólne 
 
 Możliwe jest definiowanie właściwości za pomocą wyrażeń matematycznych. W GUI, pola wyboru lub pola wejściowe, które są powiązane z właściwościami zawierają niebieską ikonę <img alt="" src=images/Sketcher_Expressions.png  style="width:24px;">. Kliknięcie na ikonę lub wpisanie znaku równości **&#61;** powoduje wyświetlenie edytora wyrażeń dla danej właściwości.
 
@@ -12,13 +12,13 @@ Operatory i funkcje są świadome jednostek i wymagają poprawnych kombinacji je
 
 Możesz użyć [stałych predefiniowanych](#Obs.C5.82ugiwane_sta.C5.82e.md) i [funkcji](#Obsługiwane_funkcje.md).
 
-### Argumenty funkcji {#argumenty_funkcji}
+### Argumenty funkcji 
 
 Wiele argumentów funkcji może być oddzielonych średnikiem po którym następuje spacja `, `. W tym drugim przypadku, po wprowadzeniu przecinek jest konwertowany na średnik. Gdy używany jest średnik, spacja nie jest wymagana.
 
 Argumenty mogą zawierać odwołania do komórek w arkuszu kalkulacyjnym. Odwołanie do komórki składa się z wielkiej litery wiersza, po której następuje numer kolumny, na przykład `A1`. Można też odwołać się do komórki, używając jej aliasu, na przykład `Arkusz_kalkulacyjny.DługośćCzęści`.
 
-### Odwołania do obiektów {#odwołania_do_obiektów}
+### Odwołania do obiektów 
 
 Możesz odwołać się do obiektu przez jego właściwość {{PropertyData/pl|Nazwa}} lub {{PropertyData/pl|Etykieta}}. W przypadku właściwości {{PropertyData/pl|Etykieta}}, musi ona być zamknięta w podwójnych symbolach `<<` i `>>`, na przykład `<<Etykieta>>`.
 
@@ -29,7 +29,7 @@ Aby odwołać się do obiektów listy, użyj właściwości `<<Etykieta_obiektu>
 
 Więcej informacji na temat odwoływania się do obiektów znajdziesz w akapicie [Odwołanie do danych CAD](#Odwo.C5.82anie_do_danych_CAD.md).
 
-## Obsługiwane stałe {#obsługiwane_stałe}
+## Obsługiwane stałe 
 
 Obsługiwane są następujące stałe:
 
@@ -38,7 +38,7 @@ Obsługiwane są następujące stałe:
   **e**          [Liczba Eulera](https://pl.wikipedia.org/wiki/Sta%C5%82a_Eulera)
   **pi**         [Pi](https://pl.wikipedia.org/wiki/Pi)
 
-## Obsługiwane operatory {#obsługiwane_operatory}
+## Obsługiwane operatory 
 
 Obsługiwane są następujące operatory:
 
@@ -51,9 +51,9 @@ Obsługiwane są następujące operatory:
   **%**      [Modulo](https://pl.wikipedia.org/wiki/Modulo)
   **\^**     [Potęgowanie](https://pl.wikipedia.org/wiki/Pot%C4%99gowanie)
 
-## Obsługiwane funkcje {#obsługiwane_funkcje}
+## Obsługiwane funkcje 
 
-### Ogólne funkcje matematyczne {#ogólne_funkcje_matematyczne}
+### Ogólne funkcje matematyczne 
 
 Dostępne są funkcje matematyczne wymienione poniżej.
 
@@ -94,7 +94,7 @@ These functions for rounding, truncation and remainder are supported:
   round(x)    [Zaokrąglanie](https://pl.wikipedia.org/wiki/Zaokr%C4%85glanie) do najbliższej liczby całkowitej                           cały
   trunc(x)    [Obcinanie](https://pl.wikipedia.org/wiki/Obcinanie) do najbliższej liczby całkowitej w kierunku zera                      cały
 
-### Funkcje statystyczne / agregujące {#funkcje_statystyczne_agregujące}
+### Funkcje statystyczne / agregujące 
 
 [Funkcje agregujące](https://en.wikipedia.org/wiki/Aggregate_function) przyjmują jeden lub więcej argumentów.
 Poszczególne argumenty funkcji agregujących mogą składać się z zakresów komórek. Zakres komórek jest wyrażony jako dwa odwołania do komórek oddzielone dwukropkiem {{Incode|:}}, na przykład {{Incode|average(B1:B8)}} lub {{Incode|sum(A1:A4; B1:B4)}}. Odwołania do komórek mogą również wykorzystywać aliasy komórek, na przykład {{Incode|average(StartTemp:KoniecTemp)}}. {{Version/pl|0.19}}.
@@ -110,21 +110,21 @@ Obsługiwane są następujące funkcje agregacji:
   stddev(a; b; c; \...)    [Odchylenie standardowe](https://pl.wikipedia.org/wiki/Odchylenie_standardowe) wartości argumentów                                              cały
   sum(a; b; c; \...)       [Suma](https://pl.wikipedia.org/wiki/Sumowanie) wartości argumentów, typowo stosowane dla zakresów komórek                                      cały
 
-### Operacje na ciągach znaków {#operacje_na_ciągach_znaków}
+### Operacje na ciągach znaków 
 
-#### Rozpoznawanie łańcucha znaków {#rozpoznawanie_łańcucha_znaków}
+#### Rozpoznawanie łańcucha znaków 
 
 Łańcuchy są identyfikowane w wyrażeniach przez otoczenie ich podwójnymi daszkami otwierającymi/zamykającymi *(podobnie jak etykiety)*.
 
 W poniższym przykładzie \"TEXT\" jest rozpoznawany jako ciąg znaków : `<<TEXT>>`.
 
-#### Łączenie łańcuchów znaków {#łączenie_łańcuchów_znaków}
+#### Łączenie łańcuchów znaków 
 
 Łańcuchy mogą być sumowane przy użyciu znaku **+**.
 
 Na przykład `<<Mój>> + <<TEKST>>` będzie złączone do \"MójTEKST\".
 
-#### Formatowanie łańcucha znaków {#formatowanie_łańcucha_znaków}
+#### Formatowanie łańcucha znaków 
 
 Formatowanie ciągów jest obsługiwane za pomocą *(starego)* sposobu środowiska Python w %-styl.
 
@@ -136,7 +136,7 @@ Ograniczeniem jest to, że tylko jeden %-specyfikator jest dozwolony w łańcuch
 
 [Na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657) dostępny jest przykładowy plik FreeCAD wykorzystujący formatowanie ciągów znaków.
 
-## Wyrażenia warunkowe {#wyrażenia_warunkowe}
+## Wyrażenia warunkowe 
 
 Wyrażenia warunkowe mają postać `condition ? resultTrue : resultFalse`. Warunek jest zdefiniowany jako wyrażenie, które oblicza się albo jako `0` *(Fałsz)* lub niezerowe *(Prawda)*. Zauważ, że zamknięcie wyrażenia warunkowego w nawiasach jest obecnie uważane za błąd. {{VersionMinus/pl|0.19}}
 
@@ -411,7 +411,7 @@ Poniższe popularnie używane jednostki nie są jeszcze obsługiwane:
   lx          [Luks](https://pl.wikipedia.org/wiki/Luks_(fotometria))                                                              nie bezpośrednio
   px          [Piksel](https://pl.wikipedia.org/wiki/Piksel)                                                                       nie bezpośrednio
 
-## Nieprawidłowe znaki i nazwy {#nieprawidłowe_znaki_i_nazwy}
+## Nieprawidłowe znaki i nazwy 
 
 Funkcja wyrażeń jest bardzo potężna, ale aby osiągnąć tę moc, ma pewne ograniczenia dotyczące niektórych znaków. Aby temu zaradzić, FreeCAD oferuje możliwość używania etykiet i odwoływania się do nich zamiast do nazw obiektów. W etykietach można używać prawie wszystkich znaków specjalnych.
 
@@ -449,11 +449,11 @@ Na przykład, prawidłowa jest następująca nazwa: `<<Sketch>>.Constraints.T2ü
 
 Ponieważ krótsze nazwy *(zwłaszcza jeśli mają tylko jeden lub dwa znaki)* mogą łatwo doprowadzić do nieprawidłowych nazw, rozważ użycie dłuższych nazw i / lub ustalenie odpowiedniej konwencji nazewnictwa.
 
-### Przypisania do komórek {#przypisania_do_komórek}
+### Przypisania do komórek 
 
 Dla [aliasów komórek arkusza kalkulacyjnego](Spreadsheet_SetAlias/pl.md) dozwolone są tylko znaki alfanumeryczne i podkreślenia (`A` do `Z`, `a` do `z`, `0` do `9` oraz `_`).
 
-## Odwołanie do danych CAD {#odwołanie_do_danych_cad}
+## Odwołanie do danych CAD 
 
 Możliwe jest użycie danych zawartych w samym modelu w wyrażeniu. Aby odwołać się do właściwości użyj`object.property`. Jeśli właściwość jest złożeniem pól, poszczególne pola mogą być dostępne jako `object.property.field`.
 
@@ -499,11 +499,11 @@ Poniższa tabela przedstawia kilka przykładów:
 |                                                    |                                    |                                                                                                                                                                              |
 +----------------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## Zmienne globalne w obrębie dokumentu {#zmienne_globalne_w_obrębie_dokumentu}
+## Zmienne globalne w obrębie dokumentu 
 
 W tej chwili w programie FreeCAD nie ma koncepcji zmiennych globalnych. Zamiast tego zmienne mogą być definiowane jako komórki w arkuszu kalkulacyjnym za pomocą środowiska roboczego [Arkusz kalkulacyjny](Spreadsheet_Workbench/pl.md), a następnie można im nadać nazwę za pomocą właściwości aliasu dla komórki *(kliknij prawym przyciskiem myszy na komórkę)*. Następnie można się do nich odwoływać z dowolnego wyrażenia, tak jak do innych właściwości obiektu.
 
-## Powiązania między dokumentami {#powiązania_między_dokumentami}
+## Powiązania między dokumentami 
 
 Możliwe jest *(z ograniczeniami)* zdefiniowanie właściwości obiektu w bieżącym dokumencie *(plik \".FCstd\")* za pomocą Wyrażenia odwołującego się do właściwości obiektu znajdującego się w innym dokumencie *(plik \".FCstd\")*. Na przykład, komórka w arkuszu kalkulacyjnym lub właściwość {{PropertyData/pl|Długość}} sześcianu środowiska Część itp. w jednym dokumencie mogą być zdefiniowane przez Wyrażenie, które odwołuje się do wartości X Umiejscowienia lub innej właściwości obiektu znajdującego się w innym dokumencie.
 
@@ -519,7 +519,7 @@ Niestety, zintegrowany program sprawdzający czasami twierdzi, że prawidłowa n
 
 Oczywiście, to do Ciebie zależy, czy wczytasz odpowiednie dokumenty później, gdy będziesz chciał coś zmienić.
 
-## Znane problemy / niezrealizowane zadania {#znane_problemy_niezrealizowane_zadania}
+## Znane problemy / niezrealizowane zadania 
 
 -   Graf zależności oparty jest na relacjach pomiędzy obiektami dokumentu, a nie na właściwościach. Oznacza to, że nie można dostarczać danych do obiektu i odpytywać tego samego obiektu o wyniki. Na przykład, nawet jeśli nie ma cyklicznych zależności, gdy brane są pod uwagę same właściwości, nie można mieć obiektu, który pobiera swoje wymiary z arkusza kalkulacyjnego, a następnie wyświetlać objętość tego obiektu w tym samym arkuszu kalkulacyjnym. Aby obejść ten problem, należy użyć wielu arkuszy kalkulacyjnych, jednego do napędzania modelu, a drugiego do raportowania.
 -   Parser wyrażeń nie radzi sobie dobrze z nawiasami i nie jest w stanie poprawnie przetworzyć niektórych wyrażeń. Na przykład: `<nowiki>=</nowiki> (A1 > A2) ? 1 : 0` skutkuje błędem, podczas gdy `<nowiki>=</nowiki> A1 > A2 ? 1 : 0` jest akceptowane. Wyrażenie `<nowiki>=</nowiki> 5 + ((A1>A2) ? 1 : 0)` nie może być wprowadzone w żadnej formie.

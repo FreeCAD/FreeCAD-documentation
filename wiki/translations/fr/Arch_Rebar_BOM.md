@@ -12,7 +12,7 @@
 
 L\'outil [Nomenclature (BOM)](Arch_Rebar_BOM/fr.md) permet à l\'utilisateur de créer une nomenclature de barres d\'armature.
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_BOM_example.png  style="width:1000px;">
 
@@ -98,7 +98,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 L\'outil [Bill Of Material](Arch_Rebar_BOM/fr.md) peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes :
 
-### Créer une feuille de nomenclature {#créer_une_feuille_de_nomenclature}
+### Créer une feuille de nomenclature 
 
 
 ```python
@@ -273,7 +273,7 @@ BillOfMaterial_Spreadsheet.makeBillOfMaterial(
 
 ```
 
-### Créer une nomenclature SVG {#créer_une_nomenclature_svg}
+### Créer une nomenclature SVG 
 
 
 ```python
@@ -370,7 +370,7 @@ makeBillOfMaterialSVG(
 
 -    `return_SVG_only`spécifie si l\'objet `BOMContent` doit être créé ou non. Si `return_SVG_only` est Vrai, alors ni `BOMContent` objet n\'est créé ni SVG n\'est écrit dans `output_file`. Et il renvoie l\'élément SVG.
 
-#### Exemple {#exemple_1}
+#### Exemple 
 
 
 ```python

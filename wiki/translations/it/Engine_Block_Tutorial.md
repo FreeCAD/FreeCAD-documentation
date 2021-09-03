@@ -15,18 +15,18 @@ Il tutorial si propone di far conoscere i tipi di dati primitivi per gli oggetti
 
 Come lavoro di esempio viene modellato un semplice monoblocco motore con il basamento, come mostrato nella figura sopra.
 
-## Operazioni iniziali {#operazioni_iniziali}
+## Operazioni iniziali 
 
-Per cominciare, aprire FreeCAD, andare su {{MenuCommand|File → Nuovo}} e creare un nuovo documento, quindi andare su {{MenuCommand|File → Salva}} e salvarlo sul computer dove si preferisce, denominare **\"Motore\"** il progetto.
+Per cominciare, aprire FreeCAD, andare su **File → Nuovo** e creare un nuovo documento, quindi andare su **File → Salva** e salvarlo sul computer dove si preferisce, denominare **\"Motore\"** il progetto.
 
 Notare che, dopo aver salvato il progetto, nella vista della *struttura* sul lato sinistro dello schermo, viene mostrato il nome del progetto su cui si sta lavorando. È possibile avere contemporaneamente più progetti aperti, in questo caso, nella vista ad albero tutti i progetti sono mostrati come radice di un albero.
 
 
 <div class="mw-translate-fuzzy">
 
-## Sgrossatura della billetta {#sgrossatura_della_billetta}
+## Sgrossatura della billetta 
 
-Ora si inizia a lavorare sul modello. Per prima cosa aggiungere un cubo (Box) per rappresentare la sagoma del blocco motore. Per fare questo si deve aggiungere un oggetto *Parte* al modello, andare quindi in {{MenuCommand|Visualizza → Ambienti → Parte}} e selezionare il [Modulo Parte](Part_Workbench/it.md).
+Ora si inizia a lavorare sul modello. Per prima cosa aggiungere un cubo (Box) per rappresentare la sagoma del blocco motore. Per fare questo si deve aggiungere un oggetto *Parte* al modello, andare quindi in **Visualizza → Ambienti → Parte** e selezionare il [Modulo Parte](Part_Workbench/it.md).
 
 Notare che dopo aver selezionato l\'ambiente di lavoro, la barra degli strumenti in alto propone un diverso set di pulsanti. Esplorare un paio di altri \'Ambienti di lavoro\' per familiarizzare con il sistema degli ambienti e poi tornare al modulo parte.
 
@@ -36,7 +36,7 @@ Notare che dopo aver selezionato l\'ambiente di lavoro, la barra degli strumenti
 
 <div class="mw-translate-fuzzy">
 
-### Il Blocco Motore {#il_blocco_motore}
+### Il Blocco Motore 
 
 Nel modulo parte si vedono diversi pulsanti per creare degli oggetti primitivi del tipo cubo, sfera, cono, ecc.
 
@@ -58,7 +58,7 @@ Ciascuno degli oggetti primitivi elencati ha una serie predefinita di parametri 
 
 Dopo aver posizionato il cubo e acquisito dimestichezza con il mouse, si prosegue impostando le dimensioni del modello CAD.
 
-Selezionare il cubo cliccando su di esso nella vista ad albero e poi fare clic sulla scheda *Dati* della *Finestra delle proprietà* che si trova sotto la vista ad albero (se l\'albero è stato chiuso andare in {{MenuCommand|Visualizza → Pannelli → Vista combinata}}).
+Selezionare il cubo cliccando su di esso nella vista ad albero e poi fare clic sulla scheda *Dati* della *Finestra delle proprietà* che si trova sotto la vista ad albero (se l\'albero è stato chiuso andare in **Visualizza → Pannelli → Vista combinata**).
 
 Nella scheda dei dati è possibile modificare le proprietà dell\'oggetto selezionato nella vista ad albero. Sempre nella stessa scheda, secondo il tipo di oggetto selezionato, si devono impostare differenti parametri. Per un cubo (scatola) servono 3 vettori, uno per la sua posizione nello spazio 3D, un altro per il suo orientamento e un terzo per definire le sue dimensioni. Per una sfera si deve specificare il suo punto centrale, e il raggio. I coni hanno un raggio, una altezza e la posizione, e così via.
 
@@ -73,7 +73,7 @@ Dopo aver dimensionato correttamente il blocco motore, dare al progetto un nome 
 
 <div class="mw-translate-fuzzy">
 
-### Il primo cilindro {#il_primo_cilindro}
+### Il primo cilindro 
 
 Ora si procede praticando il foro del primo cilindro in tutta la lunghezza del blocco motore. Per fare questo, occorre aggiungere al modello un cilindro con la forma che si desidera asportare e poi eseguire una operazione booleana per *sottrarre* il materiale dal blocco.
 
@@ -91,11 +91,11 @@ Se le proprietà sono impostate correttamente, si vedono le estremità circolari
 
 Selezionare questo oggetto nella vista ad albero e nominarlo **Cilindro 1**.
 
-### Il secondo cilindro {#il_secondo_cilindro}
+### Il secondo cilindro 
 
 È possibile creare il secondo cilindro nello stesso modo del primo, però è molto più facile copiare il lavoro già fatto per il primo e cambiare solo la coordinata X della posizione.
 
-Per fare questo, selezionare **Cilindro 1** nella vista ad albero e poi andare in {{MenuCommand|Modifica → Duplica selezione}}.
+Per fare questo, selezionare **Cilindro 1** nella vista ad albero e poi andare in **Modifica → Duplica selezione**.
 
 Appena impartito il comando, si vede immediatamente apparire il nuovo cilindro nella vista ad albero (rinominarlo subito **Cilindro 2**), ma non lo si vede nella vista 3D, in quanto è nella stessa posizione del primo cilindro. Ora selezionare *Cilindro 2* nella vista ad albero e poi modificare la sua coordinata X impostandola in 100 mm.
 
@@ -103,7 +103,7 @@ Notare che mentre si aggiornano i numeri nel campo dati si vede il movimento del
 
 Dopo che il secondo cilindro è ubicato correttamente è possibile vedere il suo aspetto. Per vedere l\'aspetto del cilindro selezionare la **Billetta** nella vista ad albero e poi nasconderla premendo la **barra spaziatrice** (notare che ​​nella vista ad albero gli oggetti nascosti appaiono disattivati). Come esercizio, nascondere tutti tre gli oggetti uno ad uno e poi mostrarli di nuovo.
 
-### Forare il Blocco {#forare_il_blocco}
+### Forare il Blocco 
 
 <img alt="" src=images/_Engine_Block_Tutorial_-_Bored_Block.png  style="width:300px;">
 
@@ -132,13 +132,13 @@ Notare che nella schermata la vista ad albero sulla sinistra è espansa per visu
 
 </div>
 
-### I vantaggi chiave della modellazione parametrica {#i_vantaggi_chiave_della_modellazione_parametrica}
+### I vantaggi chiave della modellazione parametrica 
 
 Ora che i cilindri sono stati scavati si può capire facilmente uno dei vantaggi di questo sistema. Supporre che ad un certo punto dello sviluppo, si scopre che si vogliono dei cilindri un po \'più grandi. Dato che le operazioni di unione e di intersezione eseguite sono state registrate e raggruppate nella vista ad albero, è possibile cambiare la dimensione del cilindro e FreeCAD deve solo eseguire nuovamente il processo di unione e intersezione per determinare la dimensione del nuovo motore. Prima di continuare l\'esercitazione, provare a modificare il raggio e la posizione dei due cilindri e poi tornare ai parametri definiti prima.
 
-## Il Carter {#il_carter}
+## Il Carter 
 
-### Billetta e alloggiamento dell\'albero motore {#billetta_e_alloggiamento_dellalbero_motore}
+### Billetta e alloggiamento dell\'albero motore 
 
 Ora si tratta di lavorare sul basamento sotto al monoblocco.
 
@@ -160,7 +160,7 @@ poi ritagliare il *Taglio di accoppiamento* dalla **Billetta Basamento** (selezi
 
 Rinominare il risultante oggetto *Cut* in **Basamento scavato**.
 
-### Scavare l\'alloggiamento dell\'albero {#scavare_lalloggiamento_dellalbero}
+### Scavare l\'alloggiamento dell\'albero 
 
 Il prossimo taglio è semi-circolare e serve per alloggiare nel basamento l\'albero a gomiti. Si inizia con un cilindro, però l\'orientamento predefinito del cilindro è verticale, mentre quì ne serve uno orizzontale. Questo significa che si deve capire come ruotare il cilindro per allinearlo correttamente con il motore. Guardando gli assi guida nell\'angolo in basso a destra della finestra 3D si vede che l\'albero motore deve essere collocato lungo l\'asse x positivo. Rispetto alla posizione iniziale è quindi necessario ruotare il cilindro di 90 gradi attorno ad un asse parallelo all\'asse y della scena. Questa operazione permette anche di capire quali parametri si devono inserire per il cilindro.
 
@@ -172,7 +172,7 @@ Creare un cilindro chiamato **Scavo per l\'albero** e attribuirgli le seguenti p
 
 Asportare lo **Scavo per l\'albero** dal **Basamento scavato** e rinominare il risultante oggetto in **Basamento con alloggiamento**.
 
-### Finire il basamento {#finire_il_basamento}
+### Finire il basamento 
 
 
 <div class="mw-translate-fuzzy">
@@ -203,14 +203,14 @@ Il risultato finale dovrebbe essere simile alla figura di destra. Nella schermat
 
 Il lavoro prosegue utilizzando la modalità di elaborazione 2D per progettare la sagoma della testata e ridurre il peso del blocco motore rimuovendo dalla billetta gran parte del materiale inutile che è ancora presente intorno ai cilindri.
 
-## Disegno 2D della guarnizione di testa {#disegno_2d_della_guarnizione_di_testa}
+## Disegno 2D della guarnizione di testa 
 
 Per i fori dei bulloni della testa e per la forma del blocco motore sono usate in seguito varie operazioni booleane con cui \"asportare\" le parti del blocco che non servono. Ogni bullone della testa è fatto nello stesso modo, e attraversa tutto il monoblocco fino al carter, l\'unica differenza è la loro posizione alla sommità della testa. Questo significa che si può semplicemente \"disegnare\" la forma della guarnizione della testata sulla faccia superiore del motore, e poi utilizzarla anche come modello per eseguire i fori che si desiderano.
 
 
 <div class="mw-translate-fuzzy">
 
-### Entrare in modalità Disegno 2D {#entrare_in_modalità_disegno_2d}
+### Entrare in modalità Disegno 2D 
 
 La prima cosa da fare è passare all\'ambiente di lavoro Disegno 2D, per fare questo dalla modalità Parte è possibile selezionare *Disegno 2D* nel menu a tendina in alto che attualmente riporta la voce *Parte*. Quando non si riesce a trovare la casella a discesa (non tutti gli ambienti di lavoro mostrano questa la casella) è possibile selezionare un ambiente con *Visualizza -\> Ambienti*. Anche se il disegno da eseguire è un disegno 2D, si lavora nella finestra 3D dicendo a FreeCAD in quale piano deve proiettare i disegni. Quando si seleziona l\'ambiente Disegno 2D viene mostrata la barra degli strumenti di questo ambiente e nella parte destra immediatamente sopra della vista 3D vengono visualizzate varie icone. Per impostare il piano di lavoro (piano di proiezione dei disegni) fare clic sul pulsante dell\'icona più a sinistra in cui è presente una delle seguenti voci {none, top, front, size o d(\..., \..., \...)}. Dopo aver cliccato su tale pulsante, sul lato sinistro della barra appaiono i comandi di selezione del piano composti da una casella di testo per inserire un offset, e altri 5 pulsanti: XY, XZ, YZ, Vista, e None. I primi tre sono la vista dall\'alto, la vista anteriore e la vista laterale. La voce Vista utilizza il piano perpendicolare alla direzione di visualizzazione (piano di vista dell\'osservatore). L\'ultimo (None) non proietta in un piano e permette di definire tutte le coordinate XYZ di ogni punto che si disegna. In questa esercitazione serve impostare un piano orizzontale scostato di 110 (digitare il valore e premere Invio) poi fare clic sul pulsante XY per proiettare il disegno sul piano XY, collocato a 110 millimetri sull\'asse Z e che corrisponde alla faccia superiore del blocco motore.
 
@@ -234,7 +234,7 @@ Infine, la modalità Disegno 2D permette di agganciare (fare lo snap) parti del 
 
 <div class="mw-translate-fuzzy">
 
-### Disposizione dei bulloni della testata {#disposizione_dei_bulloni_della_testata}
+### Disposizione dei bulloni della testata 
 
 Dopo che il corretto piano di proiezione e la visualizzazione sono impostati si aggiungono gli elementi di disegno 2D nello stesso modo usato per aggiungere le primitive.
 
@@ -280,7 +280,7 @@ Chiamare i cerchi *Bullone 1* *Bullone 2* e *Bullone 3*.
 
 <div class="mw-translate-fuzzy">
 
-### L\'altro lato del Blocco {#laltro_lato_del_blocco}
+### L\'altro lato del Blocco 
 
 Ora che i primi tre bulloni sono situati su un lato del motore, servono altri tre bulloni speculari sul lato opposto, ci sono tre modi per ottenere questo:
 
@@ -313,7 +313,7 @@ Selezionare *Bullone 1* nella lista della Vista combinata e impostare XZ per il 
 
 A questo punto del lavoro si dovrebbe avere un blocco motore con i cilindri forati e le posizioni dei bulloni segnate.
 
-### Asportare il sovrametallo dalla billetta del blocco motore {#asportare_il_sovrametallo_dalla_billetta_del_blocco_motore}
+### Asportare il sovrametallo dalla billetta del blocco motore 
 
 Ora che i fori per i bulloni della testata sono segnati (si potrebbe fare la stessa cosa per i canali dell\'olio, passaggi dell\'acqua, ecc) serve \"rifilare\" la parte esterna della billetta della bancata e dargli una forma migliore. Questo per rendere il motore più leggero, migliorare il raffreddamento e utilizzare meno materiale per la fusione del monoblocco. Come si è già fatto per il modello del bullone, ora si passa a creare un disegno 2D per definire la forma del prodotto finito. E\' possibile disegnare la curva spline direttamente con il mouse, oppure utilizzare l\'approccio ibrido adottato per i cerchi in cui si è usato il mouse per trovare delle coordinate approssimative e poi si sono fissati i valori effettivi voluti.
 
@@ -376,7 +376,7 @@ A destra si può vedere come dovrebbe essere la curva spline prima di premere il
 
 Nella precedente immagine, i punti di controllo non sono visibili quindi è stato aggiunto un secondo screenshot che mostra la spline finita in modalità di modifica (cliccare sul pulsante *Modifica* per attivare o disattivare la modifica dell\'oggetto selezionato, accertarsi di disattivarlo dopo le modifiche o semplicemente saltare questo passaggio se si è soddisfatti della forma del proprio blocco motore). Inoltre, notare che c\'è una discontinuità sul bordo più a sinistra della curva spline, anche se è chiusa bene, questo è un bug nel comportamento del programma che attualmente è corretto, come risultato la curva spline può essere leggermente diversa se si si esegue una versione più recente del software.
 
-### Estrusione del disegno 2D nel modello 3D per completare il progetto {#estrusione_del_disegno_2d_nel_modello_3d_per_completare_il_progetto}
+### Estrusione del disegno 2D nel modello 3D per completare il progetto 
 
 
 <div class="mw-translate-fuzzy">

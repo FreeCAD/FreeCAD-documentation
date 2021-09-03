@@ -9,7 +9,7 @@
 |FCVersion=
 }}
 
-## Mindestanforderung an eine Skizze {#mindestanforderung_an_eine_skizze}
+## Mindestanforderung an eine Skizze 
 
 Das Erzeugen eines Körpers im Arbeitsbereich PartDesign ist bereits und **nur** mit Hilfe einer geschlossenen Kurve (Profil) möglich. Die vollständige Bestimmung all ihrer Abmessungen und Eigenschaften (*vollständig beschränkt*) ist dafür noch nicht erforderlich.
 
@@ -25,7 +25,7 @@ Rechts: Kurve an den verbleibenden vier Stellen geschlossen (grün)*
 
 Konsequentes parametrisches Arbeiten bedeutet allerdings, dass die Skizze vollständig bestimmt wird.
 
-## Vollständiges Definieren einer Skizze {#vollständiges_definieren_einer_skizze}
+## Vollständiges Definieren einer Skizze 
 
 Selbst eine noch relativ einfache Skizze kann schon Dutzende von Unbestimmtheiten (in der Combo-Ansicht als Zahl von \"Freiheitsgraden\" angegeben) enthalten. Sie erst am Ende alle gemeinsam zu beseitigen, ist eine relativ unübersichtliche Arbeit.
 

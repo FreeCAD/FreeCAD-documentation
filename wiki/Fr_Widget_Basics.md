@@ -1,6 +1,6 @@
 This chapter teaches you the basics of Fr\_Widget toolkit
 
-## Writing your first Fr\_Widget program {#writing_your_first_fr_widget_program}
+## Writing your first Fr\_Widget program 
 
 Basically, you need always to have a Fr\_CoinWindow. This widget is the container of the other widgets you create. It is a subclass of Fr\_Group. The Fr\_CoinWindow used to distribute events and hold a link to each widget you have in your window.
 
@@ -24,13 +24,13 @@ mywin.addWidget(arrows)           #Add the widget to the window
 mywin.show()                      #Show the window 
 ```
 
-##### Explaining the code {#explaining_the_code}
+##### Explaining the code 
 
 -   First line imports the fr\_arrow\_widget. Later we use it to create the widget itself.
 -   Second line imports the fr\_coinwindow. As mentioned this is the container of the system. Without this widget, you will not be able to show anything
 -   Third line is math library from Python. It is required for now but this will change. It is used to convert the rotation angle to radians. But in the future the interface angles will be in degree. Internally is still radians as COIN3D is in radians.
 
-## Creating Fr\_Line\_widget as an example {#creating_fr_line_widget_as_an_example}
+## Creating Fr\_Line\_widget as an example 
 
 Lets start creating a new drawing widget. This widget will draw a line and has a label. We need to get two vertices to draw the line. The widget itself is a subclass of the abstract object called Fr\_Widget. Fr\_Widget is the base class for all widgets. It contains basic variable, objects and functions definitions. Some of these are not implemented and you have to implemented. If you will use any function that aren\'t implemented, an exception will popup.
 

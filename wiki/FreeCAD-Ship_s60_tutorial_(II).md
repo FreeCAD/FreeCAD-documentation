@@ -31,7 +31,7 @@ IMO (International Maritime Organization) set following criteria:
 
 In this tutorial we will set weights and tanks for our series 60 ship, in a simulated situation.
 
-## Ship weights {#ship_weights}
+## Ship weights 
 
 In order to can compute GZ curve we need to know ship weights, and their position at each roll angle, so weights will be divided in two categories:
 
@@ -78,7 +78,7 @@ Weights position are shown in the [3D view](3D_view.md). Note: the annotations w
 
 Tanks must be created on top of solid geometry, as the ship instance, so first step is create two bow tanks (one per ship side) solid geometries that we will consider (usually ships have a lot of tanks for fuel, fresh water, salt water, load, etc).
 
-### Geometry generation {#geometry_generation}
+### Geometry generation 
 
 In order to generate tanks we load [Part module](Part_Workbench.md), and create a box solid.
 
@@ -105,7 +105,7 @@ In order to convert geometry into a ussual solid shape our tanks, and recover ou
 
 We can delete created Box, that we don\'t need anymore.
 
-### Tank intances generation {#tank_intances_generation}
+### Tank intances generation 
 
 If reload [FreeCAD-Ship module](Ship_Workbench.md) another time, we can find tank instances generator tool.
 
@@ -135,7 +135,7 @@ View of generated weights.
 
 Figure shown our ship result that we will compute.
 
-### GZ curve computation {#gz_curve_computation}
+### GZ curve computation 
 
 The Ship workbench provide a tool to easily compute a *GZ* curve.
 

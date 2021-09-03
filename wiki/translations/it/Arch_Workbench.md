@@ -79,7 +79,7 @@ Strumenti per creare gli oggetti architettonici.
     -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Materiale](Arch_MultiMaterial/it.md): Crea un materiale e lo attribuisce agli oggetti selezionati {{Version/it|0.17}}
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Scheda](Arch_Schedule/it.md): Crea diversi tipi di schede
 
-### Strumenti di modifica {#strumenti_di_modifica}
+### Strumenti di modifica 
 
 Strumenti per modificare gli oggetti architettonici.
 
@@ -113,7 +113,7 @@ Strumenti aggiuntivi di aiuto per operazioni specifiche.
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferenze](Arch_Preferences/it.md): preferenze per l\'aspetto predefinito di pareti, strutture, armature, finestre, scale, pannelli, tubazioni, griglie e assi.
 
-### Formati dei file {#formati_dei_file}
+### Formati dei file 
 
 -   [IFC](Arch_IFC/it.md): Industry foundation classes
 -   [DAE](Arch_DAE/it.md): Formato mesh Collada

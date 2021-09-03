@@ -159,9 +159,9 @@ Image:Macro\_FCInfo\_04.png\|Dockad till höger, Image:Macro FCInfo 05.png\|elle
 
 ## Alternativ
 
-### Den enhet som används {#den_enhet_som_används}
+### Den enhet som används 
 
-#### Längd enhet: {#längd_enhet}
+#### Längd enhet: 
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 

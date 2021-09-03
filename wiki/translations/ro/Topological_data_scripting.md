@@ -15,7 +15,7 @@ Aici vă vom explica cum să controlați [Part Workbench](Part_Workbench.md) dir
 
 Here we will explain to you how to control the [Part](Part_Workbench.md) module directly from the FreeCAD Python interpreter, or from any external script. Be sure to browse the [Scripting](Scripting.md) section and the [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) pages if you need more information about how Python scripting works in FreeCAD. If you are new to Python, it is a good idea to first read the [Introduction to Python](Introduction_to_Python.md).
 
-### See also {#see_also}
+### See also 
 
 -   [Part scripting](Part_scripting.md)
 -   [OpenCASCADE](OpenCASCADE.md)
@@ -23,7 +23,7 @@ Here we will explain to you how to control the [Part](Part_Workbench.md) module 
 
 <div class="mw-translate-fuzzy">
 
-### Class Diagram {#class_diagram}
+### Class Diagram 
 
 Aceasta [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language) o trecere în revistă a celor mai importante clase a modului Piese: ![Python classes of the Part module](images/Part_Classes.jpg )
 
@@ -98,7 +98,7 @@ The following topological data types are available:
 
 <div class="mw-translate-fuzzy">
 
-### Exemplul rapid: crearea unei topologii simple {#exemplul_rapid_crearea_unei_topologii_simple}
+### Exemplul rapid: crearea unei topologii simple 
 
 
 </div>
@@ -119,7 +119,7 @@ Acum vom crea o topologie construind-o din geometrie mai simplă. Ca studiu de c
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea Geometriei {#crearea_geometriei}
+#### Crearea Geometriei 
 
 Mai întâi trebuie să creăm părțile geometrice distincte ale acestui fir. Și trebuie să avem grijă de vârfurile părților geometrice se se afle în aceeași poziție. Altfel, mai târziu, s-ar putea să nu fim capabil să conectăm părțile geometrice la o topologie!
 
@@ -208,7 +208,7 @@ L2 = Part.LineSegment(V3, V4)
 
 <div class="mw-translate-fuzzy">
 
-#### Punem totul laolaltă {#punem_totul_laolaltă}
+#### Punem totul laolaltă 
 
 Ultimul pas este de a conecta elementele geometrice de bază împreună într-o forma topologică:
 
@@ -228,7 +228,7 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 <div class="mw-translate-fuzzy">
 
-#### Facem o prismă {#facem_o_prismă}
+#### Facem o prismă 
 
 Acum extrudem firul într-o direcție și facem o formă 3D :
 
@@ -249,7 +249,7 @@ P = W.extrude(Base.Vector(0, 0, 10))
 
 <div class="mw-translate-fuzzy">
 
-#### Afișăm totul {#afișăm_totul}
+#### Afișăm totul 
 
 
 </div>
@@ -265,7 +265,7 @@ Part.show(P)
 
 <div class="mw-translate-fuzzy">
 
-## Crearea formelor de bază {#crearea_formelor_de_bază}
+## Crearea formelor de bază 
 
 Puteți crea cu ușurință obiecte topologice de bază cu ajutorul funcției \"Make \... ()\" metode de la modulul Part:
 
@@ -306,7 +306,7 @@ Vezi pagina [Part API](Part_API.md) pentru o listă completa a metodelor disponi
 
 <div class="mw-translate-fuzzy">
 
-#### Importare modulelor necesare {#importare_modulelor_necesare}
+#### Importare modulelor necesare 
 
 Mai întâi trebuie să importăm modulul Part astfel încât să putem folosi conținutul său în Python. De asemenea, vom importa modulul Base din interiorul modulului FreeCAD:
 
@@ -327,7 +327,7 @@ from FreeCAD import Base
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unui Vector {#crearea_unui_vector}
+#### Crearea unui Vector 
 
 [Vectors](http://en.wikipedia.org/wiki/Euclidean_vector)sunt una dintre cele mai importante piese de informații când construim forme geometrice. Acestea conțin 3 numere de obicei (dar nu este obligatoriu întotdeauna) coordonatele carteziene x, y și z. Creați un vector ca acesta:
 
@@ -362,7 +362,7 @@ print(myVertex.Point)
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unei muchii {#crearea_unei_muchii}
+#### Crearea unei muchii 
 
 O margine nu este altceva decât o linie cu două vârfuri:
 
@@ -404,7 +404,7 @@ edge.CenterOfMass
 
 <div class="mw-translate-fuzzy">
 
-#### Afișarea formei pe ecran {#afișarea_formei_pe_ecran}
+#### Afișarea formei pe ecran 
 
 Până acum, am creat un obiect de margine, dar nu apare nicăieri pe ecran. Acest lucru se datorează faptului că doar am manipulat obiectele de tip python aici. Scena 3D FreeCAD afișează doar ceea ce îi spui să afișeze. Pentru a face acest lucru, folosim acest lucru simplu Pentru a realiza asta, utilizăm această metodă simplă:
 
@@ -432,7 +432,7 @@ Un obiect va fi creat în documentul nostru FreeCAD, și forma noastră \"muchie
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unui fir/contur/polilinie {#crearea_unui_firconturpolilinie}
+#### Crearea unui fir/contur/polilinie 
 
 Un fir este o linie multi-margine și poate fi creat dintr-o listă de margini sau chiar o listă de fire:
 
@@ -481,7 +481,7 @@ wire2.isClosed()
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unei Fațete {#crearea_unei_fațete}
+#### Crearea unei Fațete 
 
 Doar fațetele create de firele/poliliniile închise vor fi valide. În acest exemplu, wire3 este un contur închis dar wire2 nu este un contur închis(vezi mai sus)
 
@@ -520,7 +520,7 @@ Numai fațetele vor avea o arie, poliliniile și muchiile nu posedă așa ceva.
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unui Cerc {#crearea_unui_cerc}
+#### Crearea unui Cerc 
 
 Un cerc poate fi creat pur și simplu astfel:
 
@@ -586,7 +586,7 @@ degrees = math.degrees(radians)
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unui Arc de-a lungul punctelor {#crearea_unui_arc_de_a_lungul_punctelor}
+#### Crearea unui Arc de-a lungul punctelor 
 
 Din păcate, nu există nicio funcție makeArc, dar avem funcția Part.Arc pentru a crea un arc de-a lungul a trei puncte. Practic, putem să ne imaginăm un arc de cerc atașat la un punct de plecare, trecând printr-un punct central și terminându-se într-un punct final. Part.Arc creează un obiect arc pe care .toShape() trebuie apelat pentru a obține un obiect muchie, în același mod ca atunci când utilizați Part.LineSegment în loc de Part.makeLine.
 
@@ -633,7 +633,7 @@ Arcurile sunt muchii valide, ca liniile. Deci, ele pot fi folosite și în polil
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unui poligon {#crearea_unui_poligon}
+#### Crearea unui poligon 
 
 Un poligon este o polilinie simplă cu multiple segemente de linii drepte. funcția makePolygon ia o listă de puncte și creează o polilinie de-a lungul acestor puncte:
 
@@ -653,7 +653,7 @@ lshape_wire = Part.makePolygon([Base.Vector(0, 5, 0), Base.Vector(0, 0, 0), Base
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unei curbe Bezier {#crearea_unei_curbe_bezier}
+#### Crearea unei curbe Bezier 
 
 Curbele Bézier sunt folosite pentru a modela curbele netede folosind o serie de repere (puncte de control) și cu un numar mare de reprezentari la precizie (fluiditatea curbei). Funcția de mai jos face Part.BezierCurve dintr-o serie de puncte FreeCAD.Vector. (Notă: indicele primului reper începe de la 1, și nu de la 0.)
 
@@ -677,7 +677,7 @@ def makeBCurveEdge(Points):
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unui Plan {#crearea_unui_plan}
+#### Crearea unui Plan 
 
 A Plane este o suprafață simplă rectangulară. Meteoda pentru crearea unuia este aceasta: **makePlane(length,width,\[start\_pnt,dir\_normal\])**. Implicit start\_pnt = Vector(0,0,0) and dir\_normal = Vector(0,0,1). Utilizând dir\_normal = Vector(0,0,1) va crea un plan pe axa z, în timp ce dir\_normal = Vector(1,0,0) va crea planul pe axa x:
 
@@ -718,7 +718,7 @@ Notă: makePlane acceptă doar Base.Vector() pentru start\_pnt and dir\_normal d
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unei elipse {#crearea_unei_elipse}
+#### Crearea unei elipse 
 
 Pentru a crea o elipsă sunt mai multe căi:
 
@@ -821,7 +821,7 @@ pentru constructorul Ellipse de mai sus am trecut centrul, MajorRadius and Minor
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unui Tor {#crearea_unui_tor}
+#### Crearea unui Tor 
 
 Folosind metoda **makeTorus(radius1,radius2,\[pnt,dir,angle1,angle2,angle\])**. Implicit avem pnt=Vector(0,0,0),dir=Vector(0,0,1),angle1=0,angle2=360 and angle=360. Considerați un tor ca pe un mic cerca care baliază de-a lungul unu cerc mare. Radius1 este raza cercului mare , iar radius2 este raza cercului mic, pnt este centrul torului și dir este direcția normalei. angle1 and angle2 sunt unghiurile în radiani pentru cercul mic, ultimul parametru -unghiul este pentru a face o secțiune în tor:
 
@@ -875,7 +875,7 @@ Codul de mai sus va crea un semtor, numai ultimul parametru este schimbat adică
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unui paralelipiped sau cuboid {#crearea_unui_paralelipiped_sau_cuboid}
+#### Crearea unui paralelipiped sau cuboid 
 
 Utilizând **makeBox(length,width,height,\[pnt,dir\])**. Implicit pnt=Vector(0,0,0) and dir=Vector(0,0,1)
 
@@ -897,7 +897,7 @@ len(box.Vertexes)
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unei sfere {#crearea_unei_sfere}
+#### Crearea unei sfere 
 
 Utilizând **makeSphere(radius,\[pnt, dir, angle1,angle2,angle3\])**. Implicit avem pnt=Vector(0,0,0), dir=Vector(0,0,1), angle1=-90, angle2=90 and angle3=360. angle1 și angle2 sunt verticala minimă și verticala maximă ale sferei, angle3 diametrul sferei.
 
@@ -918,7 +918,7 @@ hemisphere = Part.makeSphere(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), -90
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unui cilindru {#crearea_unui_cilindru}
+#### Crearea unui cilindru 
 
 Utilizând **makeCylinder(radius,height,\[pnt,dir,angle\])**. Implicat avem pnt=Vector(0,0,0),dir=Vector(0,0,1) și angle=360
 
@@ -934,7 +934,7 @@ partCylinder = Part.makeCylinder(5, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0,
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea unui Con {#crearea_unui_con}
+#### Crearea unui Con 
 
 Utilizând **makeCone(radius1,radius2,height,\[pnt,dir,angle\])**. Implicit avem pnt=Vector(0,0,0), dir=Vector(0,0,1) and angle=360
 
@@ -950,7 +950,7 @@ semicone = Part.makeCone(10, 0, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0, 1),
 
 <div class="mw-translate-fuzzy">
 
-## Modificarea Formelor geometrice {#modificarea_formelor_geometrice}
+## Modificarea Formelor geometrice 
 
 Sunt mai multe moduri de a modifica forme. Unele sunt operații simple de transformare cum ar fi mișcările sau formele rotative, altele sunt mai complexe, cum ar fi unirea și scăderea unei forme de alta. Țineți cont de asta
 
@@ -962,7 +962,7 @@ There are several ways to modify shapes. Some are simple transformation operatio
 
 <div class="mw-translate-fuzzy">
 
-### Operații de Transformare {#operații_de_transformare}
+### Operații de Transformare 
 
 
 </div>
@@ -970,7 +970,7 @@ There are several ways to modify shapes. Some are simple transformation operatio
 
 <div class="mw-translate-fuzzy">
 
-#### Translatarea unei forme {#translatarea_unei_forme}
+#### Translatarea unei forme 
 
 Translatarea estr de fapt actul de mutarea a unei forme dintr-un loc în altul. Orice formă (muchie, fațetă, cube, etc\...) poate fi translată în același mod:
 
@@ -997,7 +997,7 @@ Aceasta va muta forma noastră \"myShape\" 2 unități in direcția x .
 
 <div class="mw-translate-fuzzy">
 
-#### Rotația unei forme {#rotația_unei_forme}
+#### Rotația unei forme 
 
 Pentru a roti o formă, aveți nevoie de uncentru de rotație, axa, și unghiul de rotație:
 
@@ -1012,7 +1012,7 @@ myShape.rotate(Base.Vector(0, 0, 0),Base.Vector(0, 0, 1), 180)
 
 <div class="mw-translate-fuzzy">
 
-#### Transformările generice cu matrici {#transformările_generice_cu_matrici}
+#### Transformările generice cu matrici 
 
 O matrice este o modalitate foarte convenabilă de a stoca transformările în lumea reală 3D. Într-o singură matrice, puteți defini valorile de translația, rotirea și scalarea care trebuie aplicate unui obiect. De exemplu:
 
@@ -1061,7 +1061,7 @@ myShape.transformGeometry(myMat)
 
 <div class="mw-translate-fuzzy">
 
-#### Scalarea unei forme geometrice {#scalarea_unei_forme_geometrice}
+#### Scalarea unei forme geometrice 
 
 Scalarea unei forme este o operațiune mai periculoasă deoarece, spre deosebire de translație sau rotație, scalarea neuniformă (cu valori diferite pentru x, y și z) poate modifica structura formei. De exemplu, scalarea unui cerc cu o valoare mai mare pe orizontală decât pe verticală îl va transforma într-o elipsă, care se comportă matematic foarte diferit. Pentru scalare, noi nu putem folosi transformShape, trebuie să folosimtransformGeometry():
 
@@ -1078,7 +1078,7 @@ myShape=myShape.transformGeometry(myMat)
 
 <div class="mw-translate-fuzzy">
 
-### Operații Booleene {#operații_booleene}
+### Operații Booleene 
 
 
 </div>
@@ -1194,7 +1194,7 @@ cylinder = disc.extrude(Base.Vector(0, 0, 2))
 
 <div class="mw-translate-fuzzy">
 
-## Explorarea formelor {#explorarea_formelor}
+## Explorarea formelor 
 
 Puteți explora ușor structura datelor topologice:
 
@@ -1232,7 +1232,7 @@ Dacă tastați liniile de mai sus în interpretul python, veți câștiga o bun�
 
 <div class="mw-translate-fuzzy">
 
-### Analiza muchiei {#analiza_muchiei}
+### Analiza muchiei 
 
 În cazul unei muchii, care este o curbă arbitrară, este cel mai probabil să doriți a face o discretizare. În FreeCAD marginile sunt parametrizate după lungimile lor. Asta înseamnă ca puteți parcurge o margine/curba pe lungimea ei:
 
@@ -1274,7 +1274,7 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 <div class="mw-translate-fuzzy">
 
-### Utilizarea selecție {#utilizarea_selecție}
+### Utilizarea selecție 
 
 Aici vedem acum modul în care putem folosi selecția utilizată de utilizator în vizualizator. Mai întâi de toate, creăm o casetă și o afișează în vizualizator
 
@@ -1319,7 +1319,7 @@ print("Length of the selected edges: ", length)
 
 <div class="mw-translate-fuzzy">
 
-## Exemplul complet : Sticla OCC (Open CASCADE Technology) {#exemplul_complet_sticla_occ_open_cascade_technology}
+## Exemplul complet : Sticla OCC (Open CASCADE Technology) 
 
 Un exemplu tipic găsiți în [OpenCasCade Technology Tutorial](http://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html#sec1) Este cum se construiește o sticlă. Acesta este un exercițiu bun și pentru FreeCAD. De fapt, puteți urma exemplul nostru de mai jos și pagina OCC simultan, veți înțelege cum sunt implementate structurile OCC în FreeCAD. Scenariul complet de mai jos este, de asemenea, inclus în instalarea FreeCAD (în interiorul folderului Mod/Part) și poate fi apelat de la interpretul python prin tastarea:
 
@@ -1337,7 +1337,7 @@ Part.show(bottle)
 
 <div class="mw-translate-fuzzy">
 
-### Programul script complet {#programul_script_complet}
+### Programul script complet 
 
 aici este programul script complet MakeBottle:
 
@@ -1395,7 +1395,7 @@ Part.show(el)
 
 <div class="mw-translate-fuzzy">
 
-### Explicații detaliate {#explicații_detaliate}
+### Explicații detaliate 
 
 
 </div>
@@ -1561,7 +1561,7 @@ Part.show(el)
 
 <div class="mw-translate-fuzzy">
 
-## Paralelipiped găurit {#paralelipiped_găurit}
+## Paralelipiped găurit 
 
 Aici este un exemplul de construcție a unui paralelipiped găurit.
 
@@ -1632,7 +1632,7 @@ Part.show(cut_part)
 
 <div class="mw-translate-fuzzy">
 
-## Încărcare și salvare {#încărcare_și_salvare}
+## Încărcare și salvare 
 
 Există mai multe moduri de a vă salva munca în modulul Part. Puteți bineînțeles salvați documentul FreeCAD, dar puteți salva și un obiect piesă/Part direct la formatele CAD obișnuite, cum ar fi BREP, IGS, STEP și STL.
 

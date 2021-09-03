@@ -18,7 +18,7 @@ La funzione **Posizionamento** può essere attivata in diversi modi:
 
 -   oppure dal menu **Modifica → Posizionamento\...**.
 
-### Nella Vista combinata → Dati {#nella_vista_combinata_dati}
+### Nella Vista combinata → Dati 
 
 -   Cliccare su una forma per selezionarla.
 -   Fare clic su **Placement** per selezionare la voce, cliccare sul titolo, non sulla freccia <img alt="Tache\_Placement" src=images/Tache_Placement_01_fr_00.png  style="width:256px;">. Appare un pulsante con tre puntini **...**: ![ 256px \| Tache\_Placement](images/_Tache_Placement_01_fr_00.png ) .
@@ -114,7 +114,7 @@ Sono i **Tait-Bryan angles**. Per maggiori informazioni si può consultare [Ango
 
 -   Il pulsante ** Ripristina **, riporta tutti i valori a **0,0,0**.
 
-## Link e Esempi {#link_e_esempi}
+## Link e Esempi 
 
 Nel tutorial [Aeroplane](Aeroplane/it.md) si trova un esempio pratico di utilizzo di questo comando.
 

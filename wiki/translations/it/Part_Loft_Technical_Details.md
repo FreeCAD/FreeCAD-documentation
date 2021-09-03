@@ -2,7 +2,7 @@
 
 Le informazioni fornite si riferiscono a una specifica implementazione e potrebbero cambiare. Queste sono adatte per FreeCAD 0.15.4119 e OCC versione: 6.7.0.
 
-## Fasi della creazione di Loft {#fasi_della_creazione_di_loft}
+## Fasi della creazione di Loft 
 
 Per spiegare il processo di Loft, convene dividerlo in fasi:
 
@@ -10,7 +10,7 @@ Per spiegare il processo di Loft, convene dividerlo in fasi:
 2.  stabilire la corrispondenza tra i segmenti
 3.  produrre la superficie Loft
 
-### Fase 1. Creare nei profili il numero di segmenti da abbinare {#fase_1._creare_nei_profili_il_numero_di_segmenti_da_abbinare}
+### Fase 1. Creare nei profili il numero di segmenti da abbinare 
 
 Lo strumento Loft ha bisogno del numero dei segmenti da abbinare per poter creare delle superfici tra i segmenti corrispondenti. Se il numero di segmenti corrisponde in tutti i profili, questo passaggio viene saltato.
 
@@ -26,7 +26,7 @@ L\'operazione è applicata a tutti i profili, per produrre in ognuno un numero u
   <img alt="Il processo con cui profile2 (la forma simile a una mezzaluna bianca) viene suddiviso per creare le giunzioni corrispondenti ai vertici di profile1 (il pentagono rosso). Le giunzioni inserite sono contrassegnate dalle frecce gialle." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="Il risultato del Loft relativo all\'immagine di sinistra." src=images/Loft_crescent_pentagon.png  style="width:300px;">
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Fase 2. Stabilire la corrispondenza tra i segmenti {#fase_2._stabilire_la_corrispondenza_tra_i_segmenti}
+### Fase 2. Stabilire la corrispondenza tra i segmenti 
 
 <img alt="Dimostrazione che Loft mantiene il numero di segmenti nei profili quando essi corrispondono. Notare come 3 bordi del quadrato superiore \"collassino\" in un breve tratto poligonale del profilo inferiore." src=images/Loft_Number_of_verts_match.png  style="width:300px;"> Nel caso che il numero di segmenti non fosse stato uguale in tutti i profili, sarebbe stata fatta una suddivisione come nella fase 1. La corrispondenza è banale. Nel caso in cui il numero di segmenti è uguale in tutti i profili, vengono utilizzati i segmenti esistenti (vedi immagine). Questo è il momento in cui deve essere stabilita la corrispondenza.
 
@@ -36,7 +36,7 @@ La corrispondenza tra i profili adiacenti è fatta in modo indipendente. Ciò si
 
 Un\'altra cosa da notare è che quando il numero di segmenti nei profili è uguale, il Loft risultante è sostanzialmente più robusto rispetto ai profili complessi, specie per quelli non convessi. 
 
-### Fase 3. Creare la superficie Loft. {#fase_3._creare_la_superficie_loft.}
+### Fase 3. Creare la superficie Loft. 
 
 <img alt="Esempio di una curva di interpolazione spline (rossa) che segue la superficie Loft. I punti attraverso cui è interpolata sono visualizzati come quadrati rossi." src=images/Loft_B-spline.png  style="width:400px;"> Se ci sono solo due profili, le superfici create sono delle superfici rigate tra i segmenti corrispondenti dei profili. Per collegare i vertici corrispondenti dei profili vengono creati dei bordi dritti.
 
@@ -58,7 +58,7 @@ Notare che Loft ha una proprietà \"Ruled\". Se è impostata su true, le superfi
 -   La corrispondenza del numero di segmenti (alias numero di vertici) nei profili permette di dare ai Loft una leggera torsione, e tipicamente permette di utilizzare dei profili più complessi.
 -   Quando i numeri di segmenti non sono corrispondenti, è meglio mantenere i profili in modo che possano essere rappresentati con una corretta funzione r (phi) in coordinate polari.
 
-## Altre osservazioni {#altre_osservazioni}
+## Altre osservazioni 
 
 -   Non è necessario che i profili siano paralleli (vedere figura).
 -   Per Loft, non è necessario che i profili siano separati (vedere figura sotto). Possono essere complanari, ma non dovrebbero intersecarsi.

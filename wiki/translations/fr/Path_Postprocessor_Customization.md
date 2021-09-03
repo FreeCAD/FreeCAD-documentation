@@ -10,7 +10,7 @@
 
 FreeCAD utilise comme représentation interne pour les chemins générés, des G-codes. Ils peuvent décrire des choses telles que: la vitesse et les vitesses d\'avance, l\'arrêt du moteur, etc \... Mais le plus important ce sont les mouvements décrits. Ces mouvements sont assez simples: ils peuvent être des lignes droites ou des arcs de cercle. Des courbes plus sophistiquées telles que les B splines sont déjà approximées par l\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md) de FreeCAD.
 
-## Ce que le postprocesseur peut faire pour vous {#ce_que_le_postprocesseur_peut_faire_pour_vous}
+## Ce que le postprocesseur peut faire pour vous 
 
 De nombreuses fraiseuses utilisent également des G-codes pour contrôler le processus de fraisage. Ils peuvent ressembler presque aux codes internes mais il peut y avoir quelques différences:
 
@@ -29,7 +29,7 @@ En outre, il existe d\'autres langues pour contrôler une fraiseuse comme le HPG
 
 Le postprocesseur est un programme qui traduit les codes internes en un fichier complet qui peut être téléchargé sur votre machine.
 
-## Préparation pour écrire votre propre postprocesseur {#préparation_pour_écrire_votre_propre_postprocesseur}
+## Préparation pour écrire votre propre postprocesseur 
 
 Vous pouvez commencer avec un modèle très simple montrant comment votre machine lit les lignes droites et les arcs. Préparez-le avec n\'importe quel programme adapté à votre machine.
 
@@ -43,19 +43,19 @@ Le chemin dans FreeCAD ressemblerait à ceci. Veuillez noter la petite flèche b
 
 Vous pouvez ensuite consulter le fichier et le comparer à la sortie des postprocesseurs existants tels que {{FileName|linux_cnc_post.py}} ou {{FileName|grbl_post.py}} et essayez de les adapter vous-même ou de les télécharger sur le forum Path <https://forum.freecadweb.org/viewforum.php?f=15> pour obtenir de l\'aide.
 
-## Convention de dénomination {#convention_de_dénomination}
+## Convention de dénomination 
 
 Pour un format de fichier {{FileName|<filename>}}, le postprocesseur doit obtenir le nom {{FileName|<filename>_post.py}}. Veuillez noter que le postfix et l\'extension, {{FileName|_post.py}}, doivent être en minuscules.
 
 Si vous testez, placez-le dans votre répertoire de macros. S\'il fonctionne bien, veuillez envisager de le fournir pour que d\'autres en profitent (postez-le sur le forum Path de FreeCAD) afin qu\'il puisse être inclus dans la distribution de FreeCAD à l\'avenir.
 
-## Autres postprocesseurs existants {#autres_postprocesseurs_existants}
+## Autres postprocesseurs existants 
 
 Pour comparaison, vous pouvez regarder les post-processeurs fournis avec votre installation FreeCAD. Ils se trouvent sous le répertoire Mod dans Path/PathScripts/post. Les postprocesseurs [linuxcnc](http://linuxcnc.org/) et [grbl](https://github.com/grbl/grbl) sont largement utilisés. L\'étude de leur code peut fournir des informations utiles.
 
 -   Sur Linux, le chemin est /usr/share/freecad/Mod/Path/PathScripts/post
 
-## Programmation de votre propre postprocesseur {#programmation_de_votre_propre_postprocesseur}
+## Programmation de votre propre postprocesseur 
 
 Cet article traite de certains éléments internes des postprocesseurs linuxcnc. La même structure est également utilisée dans d\'autres postprocesseurs.
 
@@ -98,7 +98,7 @@ L\'analyse et l\'exportation consistent simplement à formater des chaînes de c
 
 Vous verrez que les deux fonctions appellent également la fonction \"linenumber()\". Si l\'utilisateur veut des numéros de ligne, la fonction linenumber renvoie la chaîne à coller à l\'endroit approprié, sinon elle renvoie une chaîne vide pour que rien ne soit ajouté.
 
-## En relation {#en_relation}
+## En relation 
 
 
 <div class="mw-translate-fuzzy">

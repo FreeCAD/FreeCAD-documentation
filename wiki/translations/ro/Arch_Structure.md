@@ -30,7 +30,7 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 
 ![](images/Arch_Structure_example.jpg ) *Column based on a 2D base profile; a column and a beam defined by their height, length and width, without a base profile; a metallic structure based on a 2D face*Imaginea de mai sus prezintă o coloană bazată pe un profil de bază 2D, o coloană și o grindă bazate pe nici un profil (definit prin dimensiunile înălțimii, lungimii și lățimii) și un profil metalic bazat pe un contur 2D (fațetă, fire sau schiță). În plus, un anumit număr de presetări disponibile în timpul creării obiectului vă permite să construiți rapid un element structural dintr-un profil standard predefinit.
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Select a 2D shape (draft object, face or sketch) (optional)
 2.  Press the **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]** button, or press **S** then **T** keys
@@ -77,13 +77,13 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 
 -    **Show Nodes**: Afișează sau ascunde nodurile structurale.
 
-### Vizualizare 3D {#vizualizare_3d}
+### Vizualizare 3D 
 
 -    **Nodes Type**: The type of structural nodes of this object, linear or area.
 
 -    **Show Nodes**: Shows or hides the structural nodes.
 
-## Setări prealabile {#setări_prealabile}
+## Setări prealabile 
 
 Instrumentul Structură include, de asemenea, o serie de presetări care permit construirea rapidă a profilelor metalice standard sau a elementelor prefabricate din beton.
 
@@ -96,7 +96,7 @@ Butonul \'\'\' Comutator L / H \'\'\' poate fi utilizat pentru a comuta valori L
 <img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
 *Some presets for precast concrete structures*
 
-## Noduri Structurale {#noduri_structurale}
+## Noduri Structurale 
 
 Obiectele structurale au, de asemenea, capacitatea de a afișa noduri structurale. Nodurile structurale sunt o secvență de puncte 3D stocate într-o proprietate \"Noduri\". Prin comutarea funcției \"Show Nodes\" pe proprietatea de pornire / oprire, se pot vedea nodurile structurale ale unui element structural:
 
@@ -113,7 +113,7 @@ Obiectele structurale au, de asemenea, capacitatea de a afișa noduri structural
     -   Faceți nodul acestui obiect și altul coincid
     -   Comutați între afișarea tuturor nodurilor tuturor obiectelor structurale ale documentului pornită / oprită
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 **See also:**

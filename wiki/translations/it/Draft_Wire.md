@@ -90,7 +90,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 2.  Select two or more [Draft Lines](Draft_Line.md) and/or Draft Wires.
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Wire.svg" width=16px> [Draft Wire](Draft_Wire.md)** button.
-    -   Select the {{MenuCommand|Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline}} option from the menu.
+    -   Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
     -   Use the keyboard shortcut: **P** then **L**.
 
 ## Notes
@@ -107,8 +107,8 @@ La polilinea può essere modificata facendo doppio clic sull\'elemento nella vis
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the initial value of filled mode: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible}}. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Properties
 

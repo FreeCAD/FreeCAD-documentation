@@ -22,7 +22,7 @@ The FreeCAD Path Workbench workflow creates these machine instructions as follow
 -   Milling paths are created using e.g. [Contour](Path_Profile.md) and [Pocket](Path_Pocket_3D.md) Operations. These Path objects use internal FreeCAD G-code dialect, independent of the CNC machine.
 -   Export the job with a G-code, matching to your machine. This step is called *post processing*; there are different post processors available.
 
-## General concepts {#general_concepts}
+## General concepts 
 
 The Path Workbench generates G-code defining the paths required to mill the Project represented by the 3D model on the target mill in [the Path Job Operations FreeCAD G-code dialect](Path_scripting#The_FreeCAD_Internal_GCode_Format.md), which is later translated to the appropriate dialect for the target CNC controller by selecting the appropriate postprocessor.
 
@@ -32,10 +32,10 @@ The Path Workbench provides a Tool Manager (Library, Tool-Table), and G-code Ins
 
 The Path Workbench has external dependencies including:
 
-1.  The FreeCAD 3D model units are defined in the {{MenuCommand|Edit → Preference → General → Units tab's Units settings}}. The Postprocessor configuration defines the final G-code units.
-2.  The Macro file path, and Geometric tolerances, are defined in the {{MenuCommand|Edit → Preferences → Path → Job Preferences}} tab.
-3.  Colors are defined in the {{MenuCommand|Edit → Preferences → Path → Path colors}} tab.
-4.  Holding tag parameters are defined in the {{MenuCommand|Edit → Preferences → Path → Dressups}} tab.
+1.  The FreeCAD 3D model units are defined in the **Edit → Preference → General → Units tab's Units settings**. The Postprocessor configuration defines the final G-code units.
+2.  The Macro file path, and Geometric tolerances, are defined in the **Edit → Preferences → Path → Job Preferences** tab.
+3.  Colors are defined in the **Edit → Preferences → Path → Path colors** tab.
+4.  Holding tag parameters are defined in the **Edit → Preferences → Path → Dressups** tab.
 5.  That the Base 3D model quality supports the Path workbench requirements, passes Check Geometry.
 
 ## Limitations
@@ -72,7 +72,7 @@ Path Inspection:
 
 1.  If you use the Path Inspect tool to look at g-code, you will see it in \'mm/s\' because it is not being post-processed
 
-## Heights and depths {#heights_and_depths}
+## Heights and depths 
 
 Many of the commands have various heights and depths:
 
@@ -83,7 +83,7 @@ Many of the commands have various heights and depths:
 
 Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
 
-### Project Commands {#project_commands}
+### Project Commands 
 
 -   <img alt="" src=images/Path_Job.svg  style="width:32px;"> [Job](Path_Job.md): Creates a new CNC job.
 
@@ -93,7 +93,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Export Template](Path_ExportTemplate.md): Export the current job as a template.
 
-### Tool Commands {#tool_commands}
+### Tool Commands 
 
 -   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Inspect G-code](Path_Inspect.md): Shows the G-code for checking.
 
@@ -107,7 +107,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
 
-### Basic Operations {#basic_operations}
+### Basic Operations 
 
 -   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Creates a profile operation of the entire model, or from one or more selected faces or edges. <small>(v0.19)</small> 
 
@@ -127,7 +127,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [Vcarve](Path_Vcarve.md): Creates a path for a 3D pocket. <small>(v0.19)</small> 
 
-### 3D Operations {#d_operations}
+### 3D Operations 
 
 -   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Pocket](Path_Pocket_3D.md): Creates a path for a 3D pocket.
 
@@ -135,7 +135,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
-### Path Dressup {#path_dressup}
+### Path Dressup 
 
 -   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Boundary Dressup](Path_DressupPathBoundary.md): Adds a boundary dressup modification to a selected path.
 
@@ -149,7 +149,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Tag Dressup](Path_DressupTag.md): Adds a holding tag dressup modification to a selected path.
 
-### Supplemental Commands {#supplemental_commands}
+### Supplemental Commands 
 
 -   <img alt="" src=images/Path_Fixture.svg  style="width:32px;"> [Fixture](Path_Fixture.md): Changes the fixture position.
 
@@ -161,7 +161,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> [From Shape](Path_Shape.md): Creates a path object from a selected Part object. [**Experimental**](Path_experimental.md).
 
-### Path Modification {#path_modification}
+### Path Modification 
 
 -   <img alt="" src=images/Path_Copy.svg  style="width:32px;"> [Copy the operation in the job](Path_Copy.md): Creates a parametric Copy of a selected path object.
 
@@ -179,7 +179,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:32px;"> [Tool Manager](Path_ToolLibraryEdit.md): Edit the Tool Manager. \'Legacy\' tool system. {{VersionMinus|0.18}}
 
-## ToolBit architecture {#toolbit_architecture}
+## ToolBit architecture 
 
 Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
 

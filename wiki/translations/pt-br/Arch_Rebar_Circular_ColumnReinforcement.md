@@ -11,7 +11,7 @@
 
 The [Column Reinforcement](Arch_Rebar_Circular_ColumnReinforcement.md) tool allows the user to create reinforcing bars inside a Column [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width:400px;"> 
 *Circular Column Reinforcement inside a Column [Arch Structure](Arch_Structure.md)*
@@ -70,7 +70,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 The ColumnReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
-### Create Circular Column Reinforcement {#create_circular_column_reinforcement}
+### Create Circular Column Reinforcement 
 
 
 ```python
@@ -137,7 +137,7 @@ RebarGroup = CircularColumn.makeReinforcement(
 
 ```
 
-### Edition of Circular Column Reinforcement {#edition_of_circular_column_reinforcement}
+### Edition of Circular Column Reinforcement 
 
 You can change the properties of the helical and main rebars with the following function
 
@@ -167,7 +167,7 @@ rebar_group = editReinforcement(
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
-#### Exemplo {#exemplo_1}
+#### Exemplo 
 
 
 ```python

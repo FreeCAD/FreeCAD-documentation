@@ -18,14 +18,14 @@ Vedere l\'[Hub degli utenti esperti](Power_users_hub/it.md) per saperne di più 
 
 <div class="mw-translate-fuzzy">
 
-## Come funzionano {#come_funzionano}
+## Come funzionano 
 
-Quando dal menu {{MenuCommand|Modifica → Preferenze → Generale → Macro → Mostra comandi script nella console python}}, si attiva l\'output nella console si vede che ogni azione che si compie, come ad esempio la pressione di un pulsante, invia un comando Python. Questi comandi sono ciò che è possibile registrare in una macro. Lo strumento principale per creare una macro è la barra degli strumenti macro: ![](images/_Macros_toolbar.jpg ). Su di essa si trovano 4 tasti: Registrare, Interrompere la registrazione, Modificare e Riprodurre la macro corrente.
+Quando dal menu **Modifica → Preferenze → Generale → Macro → Mostra comandi script nella console python**, si attiva l\'output nella console si vede che ogni azione che si compie, come ad esempio la pressione di un pulsante, invia un comando Python. Questi comandi sono ciò che è possibile registrare in una macro. Lo strumento principale per creare una macro è la barra degli strumenti macro: ![](images/_Macros_toolbar.jpg ). Su di essa si trovano 4 tasti: Registrare, Interrompere la registrazione, Modificare e Riprodurre la macro corrente.
 
 
 </div>
 
-Enable the console output in the menu {{MenuCommand|Edit → Preferences → General → Macro → Show scripts commands in python console}}. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 È molto semplice da usare: premere il pulsante di registrazione, dare un nome alla macro, quindi eseguire alcune azioni. Al termine, fare clic sul pulsante Interrompi registrazione, e le azioni compiute vengono salvate. Ora è possibile accedere alla finestra di dialogo delle macro utilizzando il pulsante Modifica,
 
@@ -50,12 +50,12 @@ Press the record button, give a name, let\'s say \"cylinder 10x10\", then, in th
 
 ## Personalizzazione
 
-Naturalmente non è pratico dover caricare una macro nell\'editor per poterla utilizzare. FreeCAD fornisce modi migliori per usarle, come ad esempio l\'assegnazione ad essa di una scorciatoia da tastiera o l\'inserimento di una voce nel menu. Dopo aver creato la macro, tutto questo può essere fatto tramite il menu {{MenuCommand|Strumenti → Personalizza}}.
+Naturalmente non è pratico dover caricare una macro nell\'editor per poterla utilizzare. FreeCAD fornisce modi migliori per usarle, come ad esempio l\'assegnazione ad essa di una scorciatoia da tastiera o l\'inserimento di una voce nel menu. Dopo aver creato la macro, tutto questo può essere fatto tramite il menu **Strumenti → Personalizza**.
 
 
 </div>
 
-Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the {{MenuCommand|Tools → Customize}} menu.
+Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the **Tools → Customize** menu.
 
 ![](images/Macros_config.jpg )
 
@@ -72,7 +72,7 @@ See [Customize Toolbars](Customize_Toolbars.md) for a more detailed description.
 
 <div class="mw-translate-fuzzy">
 
-## Creare delle macro senza registrarle {#creare_delle_macro_senza_registrarle}
+## Creare delle macro senza registrarle 
 
 [Come installare le macro](How_to_install_macros/it.md). È anche possibile inserire direttamente con copia/incolla del codice python in un macro, senza registrare le azioni della GUI (dell\'interfaccia grafica). È sufficiente creare una nuova macro, modificarla, e incollare il codice. È quindi possibile salvare la macro nello stesso modo in cui si salva un documento di FreeCAD. Al prossima avvio di FreeCAD, la macro viene visualizzata in \"Macro installate\" nel menu Macro.
 
@@ -86,7 +86,7 @@ See [How to install macros](How_to_install_macros.md) for a more detailed descri
 
 <div class="mw-translate-fuzzy">
 
-## Repositorio di macro {#repositorio_di_macro}
+## Repositorio di macro 
 
 Visitare la pagina degli [esempi di macro](Macros_recipes/it.md) per trovare alcune utili macro da aggiungere alla propria installazione di FreeCAD.
 

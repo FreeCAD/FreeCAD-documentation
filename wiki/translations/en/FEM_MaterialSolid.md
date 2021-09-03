@@ -17,7 +17,7 @@ Adds material properties to a part.
 
 1.  To create a new MaterialSolid object do one of the following:
     -   Press the **<img src="images/FEM_MaterialSolid.svg" width=16px> [FEM MaterialSolid](FEM_MaterialSolid.md)** button.
-    -   Select the {{MenuCommand|Model → Materials → <img src="images/FEM_MaterialSolid.svg" width=16px> Material for solid‏‎}} option from the menu.
+    -   Select the **Model → Materials → <img src="images/FEM_MaterialSolid.svg" width=16px> Material for solid‏‎** option from the menu.
 2.  To edit an existing MaterialSolid object:
     -   Double-click it in the [Tree view](Tree_view.md).
 3.  The FEM material task panel opens.

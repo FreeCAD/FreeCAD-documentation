@@ -16,7 +16,7 @@ Elément de géométries 1D est utilisé pour définir les sections transversale
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [FEM Créer une section transversale de poutre...](FEM_ElementGeometry1D/fr.md)** bouton.
-    -   Sélectionnez l\'option {{MenuCommand|Modèle → Géométrie de l'élément → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Coupe transversale de poutre}} dans le menu.
+    -   Sélectionnez l\'option **Modèle → Géométrie de l'élément → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Coupe transversale de poutre** dans le menu.
 2.  Choisissez le type de section transversale et spécifiez les dimensions nécessaires :
     -   Rectangulaire : largeur et hauteur,
     -   Circulaire : diamètre,

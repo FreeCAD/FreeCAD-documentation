@@ -22,7 +22,7 @@ Cycloidal gears are very sensitive to an inaccurate adjustment of the centre dis
 1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
 2.  Invoke the command several way:
     -   Press the <img alt="" src=images/FCGear_CycloideGear.svg  style="width:22px;"> [Create a Cycloide gear](FCGear_CycloideGear.md) button in the tool bar.
-    -   Using the {{MenuCommand|Gear Menu → Cycloide gear}}.
+    -   Using the **Gear Menu → Cycloide gear**.
 3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
 
 ## Properties
@@ -82,11 +82,11 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 Limitations are not known yet.
 
-## Useful formulas {#useful_formulas}
+## Useful formulas 
 
 For more information see <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:22px;"> [Involute gear](FCGear_InvoluteGear.md).
 
-## Properties cycloid parameter view {#properties_cycloid_parameter_view}
+## Properties cycloid parameter view 
 
 <img alt="" src=images/CycloidGear_inner-outer-diameter_2.svg  style="width:400px;">
 

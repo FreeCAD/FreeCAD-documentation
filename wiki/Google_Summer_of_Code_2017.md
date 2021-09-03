@@ -4,7 +4,7 @@ This is the **2017** GSoC page.
 
 FreeCAD started participating to the Googles student coding program ([GSoC](https://summerofcode.withgoogle.com/)) in 2016. As we are only a small team we got involved in a [combined effort](http://brlcad.org/w/index.php?title=Google_Summer_of_Code/Project_Ideas#FreeCAD_Projects) of many CAx organisations. Due to the [combined application](http://brlcad.org/w/index.php?title=Google_Summer_of_Code/Project_Ideas#FreeCAD_Projects) at GSoC many links will lead from here to the [BRLcad wiki](http://brlcad.org/wiki/Google_Summer_of_Code), which is used as single place for everything.
 
-## How it works {#how_it_works}
+## How it works 
 
 -   The student writes a project proposal for FreeCAD.
     -   Sometimes their project idea caters to something that the open source organization suggests and sometimes it\'s an idea entirely of the student\'s conception.
@@ -14,7 +14,7 @@ FreeCAD started participating to the Googles student coding program ([GSoC](http
 
 If you want to get involved have a look at the [getting started checklist](http://brlcad.org/wiki/Summer_of_Code/Checklist). Whether you\'re applying or accepted, we\'ve itemized everything you need to do in this list. We\'re here to help you become new open source developers, so don\'t be shy if you have any questions.
 
-### The Selection Process {#the_selection_process}
+### The Selection Process 
 
 GSoC is about getting people involved and contributing to open source over the long-term. As such, we heavily weight our application selection process towards students that are interested in remaining involved in FreeCAD and open source software development long after GSoC has ended. GSoC is not a job. If you think this is just a summer job, then GSoC is probably not for you. It\'s only like a job in terms of planning your time commitment over the summer.
 
@@ -24,15 +24,15 @@ Just about every GSoC organization receives considerably more project proposals 
 
 Whether or not you are accepted, contributing to open source outside of GSoC is one of the main goals of the program and is the best way to be noticed and get your proposal accepted. Keep that in mind. Thanks for your interest and we look forward to working with new FreeCAD developers!
 
-### Available Slots {#available_slots}
+### Available Slots 
 
 As FreeCAD is new in GSoC our slots will be limited to a maximum of two. Hence it will be hard for gathering one of those slots with your application. Try to increase your chance by getting to know us early and start fixing bugs before GSoC starts, this always helps to build trust and will convince us of your dedication.
 
-## Possible Mentors {#possible_mentors}
+## Possible Mentors 
 
 [Ickby](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=686), [Bernd](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2069), [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68) : You can reach us all in the forum and in the IRC channel.
 
-## Implementation Ideas {#implementation_ideas}
+## Implementation Ideas 
 
 The ideas listed here have a high chance of being accepted as project proposal. Note that for students already longer involved in FreeCAD, and which already contributed code, own ideas in their line of work are also welcome. Feel free to contact us on IRC, the forum or the mailing list for further discussions about the listed projects. The topics priority shows you how important the work on the ideas is for the mentors, and hence choosing a high priority topic will give you an advantage if there are more applications than slots for FreeCAD.
 

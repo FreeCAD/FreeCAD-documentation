@@ -23,7 +23,7 @@ The Raytracing workbench is essentially obsolete. New development is happening i
 
  <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;"> 
 
-## Typical workflow {#typical_workflow}
+## Typical workflow 
 
 1.  Create or open a FreeCAD project, add some solid objects ([Part-based](Part_Workbench.md) or [PartDesign-based](PartDesign_Workbench.md)); meshes are currently not supported.
 2.  Create a Raytracing project (povray or luxrender).
@@ -37,7 +37,7 @@ The Raytracing workbench is essentially obsolete. New development is happening i
 
 ## Tools
 
-### Project tools {#project_tools}
+### Project tools 
 
 These are the main tools for exporting your 3D work to external renderers.
 
@@ -65,7 +65,7 @@ These are helper tools to perform specific tasks manually.
 -   [Basic Raytracing tutorial](Raytracing_tutorial.md)
 -   [Intermediate Raytracing tutorial](Tutorial_FreeCAD_POV_ray.md)
 
-## Creating a povray file manually {#creating_a_povray_file_manually}
+## Creating a povray file manually 
 
 The utility tools described above allow you to export the current 3D view and all of its content to a [Povray](http://www.povray.org/) file. First, you must load or create your CAD data and position the 3D View orientation as you wish. Then choose \"Utilities → Export View\...\" from the raytracing menu.
 
@@ -81,7 +81,7 @@ See the [Raytracing API example](Raytracing_API_example.md) for information on w
 
 ## Links
 
-### POV-Ray {#pov_ray}
+### POV-Ray 
 
 -   [POV-Ray page on this wiki](POV-Ray.md)
 -   <http://www.spiritone.com/~english/cyclopedia/>
@@ -93,14 +93,14 @@ See the [Raytracing API example](Raytracing_API_example.md) for information on w
 -   [LuxRender page on this wiki](LuxRender.md)
 -   <http://www.luxrender.net/>
 
-### Future possible renderers to implement {#future_possible_renderers_to_implement}
+### Future possible renderers to implement 
 
 -   <http://www.yafaray.org/>
 -   <http://www.mitsuba-renderer.org/>
 -   <http://www.kerkythea.net/>
 -   <http://www.artofillusion.org/>
 
-## Exporting to Kerkythea {#exporting_to_kerkythea}
+## Exporting to Kerkythea 
 
 Although direct export to the Kerkythea XML-File-Format is not supported yet, you can export your Objects as Mesh-Files (.obj) and then import them in Kerkythea.
 

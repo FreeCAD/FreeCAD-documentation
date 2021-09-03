@@ -8,7 +8,7 @@ Pour Windows : \"C:\\Program Files\\FreeCAD 0.16\\data\\Mod\\Drawing\\Templates\
 
 Pour Linux : \"\"
 
-## Feuilles en français {#feuilles_en_français}
+## Feuilles en français 
 
 ### A3\_Landscape\_FR
 

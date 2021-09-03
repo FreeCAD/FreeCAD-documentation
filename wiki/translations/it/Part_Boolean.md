@@ -50,12 +50,12 @@ Vedere i singoli comandi:
 
 <div class="mw-translate-fuzzy">
 
-Vedere anche {{MenuCommand|Part → [Affina forma](Part_RefineShape/it.md)}}
+Vedere anche **Part → [Affina forma](Part_RefineShape/it.md)**
 
 
 </div>
 
-## Problemi di complanarità {#problemi_di_complanarità}
+## Problemi di complanarità 
 
 Le operazioni booleane sono eseguite dal kernel di geometria interno, [OpenCASCADE Technology](OpenCASCADE/it.md) (OCCT). Questa libreria a volte ha problemi a produrre risultati booleani quando gli oggetti di input condividono un bordo o una faccia. Per essere sicuri che l\'operazione booleana abbia successo, la raccomandazione è che le forme si intersechino tra loro; ciò significa che nella maggior parte dei casi, una forma dovrebbe sporgere o essere di dimensioni maggiori rispetto all\'altra forma.
 

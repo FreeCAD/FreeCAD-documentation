@@ -1,10 +1,10 @@
  {{TOCright}}
 
-## FEM element types in CalculiX {#fem_element_types_in_calculix}
+## FEM element types in CalculiX 
 
 For detailed information on FreeCAD FEM elements see [FEM Mesh](FEM_Mesh.md) and [FEM Element Types](FEM_Element_Types.md). For CalculiX specific questions you may try the [Discourse group](https://calculix.discourse.group) or the [Discord channel](https://discord.gg/yyuQQg5).
 
-### Segment element {#segment_element}
+### Segment element 
 
   --------------------------------------- -------------------------------------------------
   seg2 FreeCAD nodes                      seg3 FreeCAD nodes
@@ -17,7 +17,7 @@ For detailed information on FreeCAD FEM elements see [FEM Mesh](FEM_Mesh.md) and
 
   : **Segment element from FreeCAD to CalculiX \-- node assignment**
 
-### Triangle element {#triangle_element}
+### Triangle element 
 
   --------------------------------------------------- ---------------------------------------------------
   tria3 FreeCAD nodes                                 tria6 FreeCAD nodes
@@ -30,7 +30,7 @@ For detailed information on FreeCAD FEM elements see [FEM Mesh](FEM_Mesh.md) and
 
   : **Triangle element from FreeCAD to CalculiX \-- node assignment**
 
-### Quadratic element {#quadratic_element}
+### Quadratic element 
 
   --------------------------------------------------- ---------------------------------------------------
   quad4 FreeCAD nodes                                 quad8 FreeCAD nodes
@@ -43,7 +43,7 @@ For detailed information on FreeCAD FEM elements see [FEM Mesh](FEM_Mesh.md) and
 
   : **Quadratic element from FreeCAD to CalculiX \-- node assignment**
 
-### Tetrahedron element {#tetrahedron_element}
+### Tetrahedron element 
 
 The following node order is not implemented ! TODO: verify node order (do not forget getccxVolumesByFace()).
 
@@ -58,7 +58,7 @@ The following node order is not implemented ! TODO: verify node order (do not fo
 
   : **Tetrahedron element from FreeCAD to CalculiX \-- node assignment**
 
-### Hexahedron element {#hexahedron_element}
+### Hexahedron element 
 
   --------------------------------------------------- --------------------------------------------------------------------------------------------
   hexa8 FreeCAD nodes                                 hexa20 FreeCAD nodes
@@ -71,7 +71,7 @@ The following node order is not implemented ! TODO: verify node order (do not fo
 
   : **Hexahedron element from FreeCAD to CalculiX \-- node assignment**
 
-### Pentahedron element {#pentahedron_element}
+### Pentahedron element 
 
   ----------------------------------------------------- ------------------------------------------------------------------
   penta6 FreeCAD nodes                                  penta15 FreeCAD nodes

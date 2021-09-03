@@ -11,7 +11,7 @@
 
 Zusätzlich zur Standard-FreeCAD [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file)-Exportfunktion hat das [Arch-Modul](Arch_Workbench/de.md) eine alternative Exportfunktion, die nebeneinander liegende Flächen als vollständige (whole) Flächen exportiert, anstatt als dreiecksbasierte [Formteil](Shape/de.md)-Objekte, wie es die Standard-Exportfunktion tut.
 
-## Exportieren ohne GUI {#exportieren_ohne_gui}
+## Exportieren ohne GUI 
 
 Exportieren ohne die grafische Benutzeroberfläche ist auf der Kommandozeile nur mit dem [Mesh-Arbeitsbereich](Mesh_Export/de.md)-Exporter möglich.
 
@@ -40,7 +40,7 @@ for i in range(mesh.countSegments()):
 mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 ```
 
-## Weitere Informationen {#weitere_informationen}
+## Weitere Informationen 
 
 -   [Convert STEP to Wavefront OBJ with colors of faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452)
 

@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Este es el plan de proyecto del proyecto de Calidad como parte del [Mapa de desarrollo](Development_roadmap/es.md).
 
-## Objetivo y principios {#objetivo_y_principios}
+## Objetivo y principios 
 
 Este proyecto es en parte de desarrollo de software y en parte un proyecto de documentación. Pretende incrementar la calidad de los componentes principales de FreeCAD y proporcionar una mejor experiencia en un primer contacto con FreeCAD.
 
@@ -32,7 +32,7 @@ Otro resultado importante es un completo **sistema de ayuda** para todos los com
 
 ## Organización
 
-## Siguientes acciones {#siguientes_acciones}
+## Siguientes acciones 
 
 Work through all the unfinished commands and make a documentation:
 

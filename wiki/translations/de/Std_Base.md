@@ -38,7 +38,7 @@ Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat ei
 [Hilfe](Std_Help_Menu/de.md)
 }}
 
-### Zusätzliche Werkzeuge {#zusätzliche_werkzeuge}
+### Zusätzliche Werkzeuge 
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std Part](Std_Part/de.md): Erzeugt ein neues Teil und macht es aktiv.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std Group](Std_Group/de.md): Creates a new group.

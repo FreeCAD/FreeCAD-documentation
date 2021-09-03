@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Konvertera Del objekt till Nät {#konvertera_del_objekt_till_nät}
+## Konvertera Del objekt till Nät 
 
 
 </div>
@@ -59,7 +59,7 @@ mesh.Mesh = MeshPart.meshFromShape(
 
 <div class="mw-translate-fuzzy">
 
-## Konvertera Nät till Del objekt {#konvertera_nät_till_del_objekt}
+## Konvertera Nät till Del objekt 
 
 
 </div>

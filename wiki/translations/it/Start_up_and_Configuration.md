@@ -14,16 +14,16 @@
 
 Questa pagina descrive i diversi modi per avviare FreeCAD e le principali caratteristiche di configurazione.
 
-## Avviare FreeCAD dalla riga di comando {#avviare_freecad_dalla_riga_di_comando}
+## Avviare FreeCAD dalla riga di comando 
 
 FreeCAD può essere avviato normalmente, facendo doppio clic sulla sua icona sul desktop o selezionandolo dal menu di avvio, ma può anche essere avviato direttamente dalla riga di comando. Ciò consente di modificare alcune delle opzioni di avvio di default.
 
-### Utilizzo delle opzioni della riga di comando senza una shell della riga di comando {#utilizzo_delle_opzioni_della_riga_di_comando_senza_una_shell_della_riga_di_comando}
+### Utilizzo delle opzioni della riga di comando senza una shell della riga di comando 
 
 -   Su Ubuntu si può creare un\'icona sul desktop e modificarne le proprietà. Aggiungere le opzioni della riga di comando separate da spazi dopo il nome del programma nel campo \"Comando\".
 -   Su Windows creare un collegamento e modificare le proprietà. Aggiungere le opzioni della riga di comando separate da spazi al campo \"Destinazione\".
 
-### Le opzioni della riga di comando {#le_opzioni_della_riga_di_comando}
+### Le opzioni della riga di comando 
 
 Le opzioni della riga di comando sono soggette a frequenti cambiamenti, quindi è bene verificare le opzioni correnti digitando:
 
@@ -75,7 +75,7 @@ In the following table, selected options are described in more detail:
 
 Options can written in two forms: `--long-option arg` and `--long-option<nowiki>=</nowiki>arg`.
 
-### Risposta e file di configurazione {#risposta_e_file_di_configurazione}
+### Risposta e file di configurazione 
 
 FreeCAD può leggere alcune di queste opzioni da un file di configurazione. Questo file deve essere nella directory bin e deve essere nominato {{FileName|FreeCAD.cfg}}. Tenere presente che le opzioni specificate nella riga di comando sovrascrivono il file di configurazione!
 
@@ -91,7 +91,7 @@ or:
 
     FreeCAD --response-file ResponseFile.txt
 
-### Opzioni nascoste {#opzioni_nascoste}
+### Opzioni nascoste 
 
 Per l\'utente esistono alcune opzioni non visibili. Queste opzioni sono, per esempio, i parametri di X-Window analizzati dal sistema Windows:
 
@@ -110,7 +110,7 @@ Per l\'utente esistono alcune opzioni non visibili. Queste opzioni sono, per ese
 
 <div class="mw-translate-fuzzy">
 
-## Eseguire FreeCAD senza interfaccia grafica {#eseguire_freecad_senza_interfaccia_grafica}
+## Eseguire FreeCAD senza interfaccia grafica 
 
 
 </div>
@@ -138,7 +138,7 @@ To read more about console or headless mode, checkout [Headless FreeCAD](Headles
 
 <div class="mw-translate-fuzzy">
 
-### Esempio lanciare un file {#esempio_lanciare_un_file}
+### Esempio lanciare un file 
 
 
 </div>
@@ -177,7 +177,7 @@ To read more about console or headless mode, checkout [Headless FreeCAD](Headles
 
 See [Macro at Startup](Macro_at_Startup.md) on how to set up a macro to automatically run at FreeCAD startup.
 
-## Environment variables {#environment_variables}
+## Environment variables 
 
 FreeCAD supports the following environment variables, which can be used to configure directories: <small>(v0.19)</small> 
 
@@ -207,7 +207,7 @@ FreeCAD uses [Qt](Third_Party_Libraries#Qt.md), which does honor the `HOME` envi
 
 FreeCad itself does not honor the `HOME` environmental variable (because it determines the user\'s home directory from a lower-level system API). Use `FREECAD_USER_HOME` for this pupose.
 
-### `TMPDIR` {#section_1}
+### `TMPDIR` 
 
 The default temporary directory is {{FileName|/tmp/}}. The `TMPDIR` environmental variable can be used to override the default. (*Editor: precedence?*).
 
@@ -256,7 +256,7 @@ Alcune librerie hanno bisogno di chiamare le variabili di ambiente del sistema. 
 
 <div class="mw-translate-fuzzy">
 
-## Il set di configurazione {#il_set_di_configurazione}
+## Il set di configurazione 
 
 
 </div>
@@ -269,7 +269,7 @@ A ogni avvio FreeCAD esamina i suoi ambienti ed i parametri della riga di comand
 
 </div>
 
-### Informazioni relative all\'utente {#informazioni_relative_allutente}
+### Informazioni relative all\'utente 
 
 
 <div class="mw-translate-fuzzy">
@@ -317,7 +317,7 @@ A ogni avvio FreeCAD esamina i suoi ambienti ed i parametri della riga di comand
 
 Note: For Linux distributions, an additional configuration file that relates to [Qt](Third_Party_Tools#Qt-Toolkit.md) may exist at path {{FileName|/home/username/.config/FreeCAD/FreeCAD.conf}}.
 
-### Argomenti della riga di comando {#argomenti_della_riga_di_comando}
+### Argomenti della riga di comando 
 
 
 <div class="mw-translate-fuzzy">
@@ -349,7 +349,7 @@ Note: For Linux distributions, an additional configuration file that relates to 
 
 </div>
 
-### Relativi al sistema {#relativi_al_sistema}
+### Relativi al sistema 
 
 
 <div class="mw-translate-fuzzy">
@@ -369,7 +369,7 @@ Note: For Linux distributions, an additional configuration file that relates to 
 
 </div>
 
-### Informazioni relative alla costruzione {#informazioni_relative_alla_costruzione}
+### Informazioni relative alla costruzione 
 
 La tabella seguente mostra le informazioni disponibili relative alla versione di costruzione. La maggior parte proviene dal repositorio di Subversion. Queste cose sono necessarie per ricostruire esattamente la versione!
 
@@ -392,7 +392,7 @@ La tabella seguente mostra le informazioni disponibili relative alla versione di
 
 </div>
 
-### Relative al marchio {#relative_al_marchio}
+### Relative al marchio 
 
 Queste voci di configurazione sono legate al meccanismo di marchiatura di FreeCAD. Vedere [Marchiatura](Branding/it.md) per maggiori dettagli.
 
@@ -428,7 +428,7 @@ Queste voci di configurazione sono legate al meccanismo di marchiatura di FreeCA
 
 </div>
 
-### Querying the configuration {#querying_the_configuration}
+### Querying the configuration 
 
 **From FreeCAD\'s Python console**
 
@@ -465,9 +465,9 @@ For Linux (bash shell) you can modify the following command line to suit your ne
  exit()
  EOF
 
-## Starting FreeCAD from the desktop {#starting_freecad_from_the_desktop}
+## Starting FreeCAD from the desktop 
 
-### Linux: Creating an additional start option {#linux_creating_an_additional_start_option}
+### Linux: Creating an additional start option 
 
 The following assumes that your desktop is configured such that you can launch FreeCAD from it. Depending on your Linux distribution and desktop environment, you may have to adapt the following steps:
 
@@ -476,7 +476,7 @@ The following assumes that your desktop is configured such that you can launch F
 3.  Open the file with a text editor and change how FreeCAD is invoked by modifying the line starting with `Exec`.
 4.  As a result, an additional entry in your start menu/application launcher is available. This way, you can have multiple FreeCAD entries with various launch options.
 
-## Starting FreeCAD from a portable USB medium {#starting_freecad_from_a_portable_usb_medium}
+## Starting FreeCAD from a portable USB medium 
 
 
 <small>(v0.19)</small> 

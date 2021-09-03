@@ -9,7 +9,7 @@
 
 **Vincola un arco o un cerchio** è un pulsante icona nella barra degli strumenti Vincoli di Sketcher che raggruppa gli strumenti per vincolare un arco o un cerchio. Fare clic sulla freccia giù alla sua destra per espandere le icone sotto di esso e selezionare uno strumento.
 
-## Tipi di vincoli per un arco o un cerchio {#tipi_di_vincoli_per_un_arco_o_un_cerchio}
+## Tipi di vincoli per un arco o un cerchio 
 
 -   <img alt="" src=images/Sketcher_ConstrainRadius.png  style="width:32px;"> [Vincolo raggio](Sketcher_ConstrainRadius/it.md) : Vincola il raggio di un cerchio o di un arco.
 -   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Vincolo diametro](Sketcher_ConstrainDiameter/it.md) : Vincola il diametro di un cerchio o di un arco.

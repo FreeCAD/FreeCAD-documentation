@@ -41,7 +41,7 @@ Inne właściwości, które posiada ten obiekt, to te związane z wyglądem jego
 
 Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwości, które mogą mieć obiekty tworzone skryptami.
 
-Są to właściwości dostępne w [edytorze właściwości\|](Property_editor/pl.md). Ukryte właściwości można pokazać za pomocą polecenia {{MenuCommand|Wyświetl wszystko}} w menu kontekstowym okna [edycji właściwości](Property_editor/pl.md).
+Są to właściwości dostępne w [edytorze właściwości\|](Property_editor/pl.md). Ukryte właściwości można pokazać za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym okna [edycji właściwości](Property_editor/pl.md).
 
 ### Dane
 
@@ -67,7 +67,7 @@ Są to właściwości dostępne w [edytorze właściwości\|](Property_editor/pl
 
 -    **Etykieta|String**: nazwa obiektu edytowalna przez użytkownika, jest to dowolny ciąg znaków w kodowaniu UTF8.
 
-#### Ukryte Dane właściwości {#ukryte_dane_właściwości}
+#### Ukryte Dane właściwości 
 
 -    **Pośrednik|PythonObject|hidden**: klasa własna związana z tym obiektem. Istnieje wyłącznie dla wersji środowiska [Python](Python/pl.md). Zobacz sekcję [tworzenie skryptów](Part_Feature/pl#Tworzenie_skrypt.C3.B3w.md).
 
@@ -148,13 +148,13 @@ deviation_in_mm = (w + h + d)/3 * deviation/100
 
 -    **Styl wyboru|Enumeration**: kontroluje sposób podświetlania obiektu. Jeśli wybrano {{value|Kształt}}, cały kształt *(wierzchołki, krawędzie i ściany)* będzie podświetlony w [widoku 3D](3D_view/pl.md); jeśli jest to {{value|Ramka otaczająca}}, pole ograniczające pojawi się wokół obiektu i zostanie podświetlone.
 
-### Wartość odchylenia {#wartość_odchylenia}
+### Wartość odchylenia 
 
 <img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> *Parametry ugięcia algorytmu `BRepMesh_IncrementalMesh*; d < ugięcie liniowe, α < ugięcie kątowe.`
 
 Zobacz wątek na forum, [Odchylenie i odchylenie kątowe](https://forum.freecadweb.org/viewtopic.php?f=3&t=45512).
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Zobacz również:**
@@ -199,7 +199,7 @@ W razie potrzeby atrybut `Etykieta` może zostać zmieniony na bardziej wymowny 
 
 -    `Etykieta`może przyjąć dowolny ciąg znaków UTF8, włączając w to akcenty i spacje. Ponieważ [widok drzewa](Tree_view/pl.md) wyświetla `Etykietę`, dobrą praktyką jest zmiana atrybutu `Etykiety` na bardziej opisowy ciąg znaków.
 
--   Domyślnie `Etykieta` jest unikalna, tak jak `Nazwa`. Jednak to zachowanie może być zmienione w [Edytorze Preferencji](Preferences_Editor/pl.md), {{MenuCommand|Edycja → Preferencje → Ogólne → Dokument → Zezwalaj na duplikowanie etykiet obiektów w jednym dokumencie}}. Oznacza to, że ogólnie `Etykieta` może być powtarzana w tym samym dokumencie, podczas testowania dla konkretnego elementu użytkownik powinien polegać na `Nazwie`, a nie na `Etykiecie`.
+-   Domyślnie `Etykieta` jest unikalna, tak jak `Nazwa`. Jednak to zachowanie może być zmienione w [Edytorze Preferencji](Preferences_Editor/pl.md), **Edycja → Preferencje → Ogólne → Dokument → Zezwalaj na duplikowanie etykiet obiektów w jednym dokumencie**. Oznacza to, że ogólnie `Etykieta` może być powtarzana w tym samym dokumencie, podczas testowania dla konkretnego elementu użytkownik powinien polegać na `Nazwie`, a nie na `Etykiecie`.
 
 
  {{Document objects navi}} 

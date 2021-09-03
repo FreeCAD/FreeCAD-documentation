@@ -38,7 +38,7 @@ The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px>
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -62,7 +62,7 @@ Or
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

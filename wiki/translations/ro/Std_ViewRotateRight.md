@@ -25,7 +25,7 @@ De completat
 
 <div class="mw-translate-fuzzy">
 
--   Press **Shift** + **Right** or go to {{MenuCommand|View → Standard views → Rotate Right}}.
+-   Press **Shift** + **Right** or go to **View → Standard views → Rotate Right**.
 
 
 </div>

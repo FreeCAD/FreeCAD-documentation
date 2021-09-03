@@ -20,7 +20,7 @@ The output shape occupies the same space as the original. But it is split where 
 
 Please visit [Part Slice](Part_Slice.md) page for more info.
 
-### Tree structure of Slice Apart {#tree_structure_of_slice_apart}
+### Tree structure of Slice Apart 
 
 The Slice Apart command creates more than only the sliced object. In the following example a cube is sliced by a face.
 
@@ -59,7 +59,7 @@ The tool itself is implemented in Python, see {{FileName|/Mod/Part/BOPTools/Spli
 
 Slice Apart was introduced in FreeCAD v0.18.15506. FreeCAD needs to be compiled with OCC 6.9.0 or later; otherwise, the tool is unavailable.
 
-## Video-Tutorials {#video_tutorials}
+## Video-Tutorials 
 
 -   <https://www.youtube.com/watch?v=tzHkQaHgrfQ> : FreeCad 0.18 PART WB using SLICE and SLICE APART (English language), author: Ha Gei
 

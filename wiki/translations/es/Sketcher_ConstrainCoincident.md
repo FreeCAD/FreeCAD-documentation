@@ -46,7 +46,7 @@ In practical terms this constraint tool is useful when there is a break in a pro
 
 In order to make two points coincident, FreeCAD must out of necessity move one (or both) of the original points.
 
-## Alternatives to Coincident constraint {#alternatives_to_coincident_constraint}
+## Alternatives to Coincident constraint 
 
 The two constrained items of a [Coincident](Sketcher_ConstrainCoincident.md) constraint must be start point or end point vertices, or center points of arcs, circles or ellipses. Some combinations which are not possible with a coincident constraint can be emulated using other constraints:
 

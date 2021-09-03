@@ -2,7 +2,7 @@
 
 This page presents more in-depth information over the built-in FreeCAD modules, and what are the functions and properties availible to you. This page is not a complete list of all the contents of these modules, and, because of the fast evolution of FreeCAD, the information presented here might be slightly outdated, but it should give you a good overview of the possibilities. For complete list of the modules content, use the dir(module) function in the interpreter.  \_\_NOTOC\_\_ 
 
-## Non graphical {#non_graphical}
+## Non graphical 
 
 -   [The FreeCAD module](FreeCAD_API.md)
 -   [Base](Base_API.md)

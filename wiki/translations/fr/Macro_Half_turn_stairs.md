@@ -248,7 +248,7 @@ FreeCAD.ActiveDocument.recompute()
 </nowiki>
 }}
 
-## Data (stairs.dat) {#data_stairs.dat}
+## Data (stairs.dat) 
 
 Sauvez les données dans un fichier nommé **stairs.dat** dans votre répertoire de macros
 

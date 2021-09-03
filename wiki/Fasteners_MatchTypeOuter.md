@@ -16,7 +16,7 @@ The <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> [F
 1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners](Fasteners_Workbench.md) workbench (install from <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) is necessary, if not previously installed)
 2.  Invoke the Fasteners MatchTypeOuter tool several ways:
     -   Press the <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Fasteners → MatchTypeOuter}} entry in the Fasteners menu
+    -   Use the **Fasteners → MatchTypeOuter** entry in the Fasteners menu
 
 Result: lorem ipsum dolor sit amet, consectetur adipiscing.
 

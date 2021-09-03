@@ -18,8 +18,8 @@ Il comando **Vista frontale** orienta la camera della [Vista 3D](3D_view/it.md) 
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_ViewFront.svg" width=16px> Vista frontale**.
-    -   Selezionare l\'opzione {{MenuCommand|Visualizza → Viste standard → <img src="images/Std_ViewFront.svg" width=16px> Di fronte}} dal menu.
-    -   Selezionare l\'opzione {{MenuCommand|Viste standard → <img src="images/Std_ViewFront.svg" width=16px> Di fronte}} dal menu contestuale della [vista 3D](3D_view/it.md).
+    -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewFront.svg" width=16px> Di fronte** dal menu.
+    -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewFront.svg" width=16px> Di fronte** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **1**.
 
 ## Script

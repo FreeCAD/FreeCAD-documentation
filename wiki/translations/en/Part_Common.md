@@ -15,7 +15,7 @@ Extracts the common part (intersection) between selected Part objects. This oper
 1.  Select two shapes
 2.  Press the **![](images/)_[Common](Part_Common.md)** button.
 
-### Supported inputs {#supported_inputs}
+### Supported inputs 
 
 Input objects must be [OpenCascade](OpenCascade.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 

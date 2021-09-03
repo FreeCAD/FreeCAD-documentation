@@ -97,7 +97,7 @@ else:
 
 }}
 
-## Version améliorée {#version_améliorée}
+## Version améliorée 
 
 En plus des fonctionnalités précédentes, cet exemple est utilisé pour aligner un cercle orthogonal sur chaque forme dans la sélection, et le plan «XY, YZ, XZ» choisi.
 Le cercle prend la couleur de l\'axe dédié indépendamment de la couleur actuelle, et le point central du cercle est dessiné (option O/N).

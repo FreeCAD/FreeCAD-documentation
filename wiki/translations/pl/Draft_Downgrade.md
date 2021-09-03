@@ -22,11 +22,12 @@ Polecenie <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Roz
 1.  Opcjonalnie wybierz jeden lub więcej obiektów.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_Downgrade.svg" width=16px> [Rozbij kształt](Draft_Downgrade/pl.md)**,
-    -   Z menu wybierz opcję {{MenuCommand|Modyfikacja → <img src="images/Draft_Downgrade.svg" width=16px> Rozbij kształt}}
+    -   Z menu wybierz opcję **Modyfikacja → <img src="images/Draft_Downgrade.svg" width=16px> Rozbij kształt
+**
     -   Użyj skrótu klawiszowego **D**, a następnie **N**,
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Zobacz również: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz
 

@@ -16,8 +16,8 @@ La commande **Std Tout afficher** effectue un zoom et un panoramique afin que to
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_ViewFitAll.svg" width=16px> [Affiche l'ensemble...](Std_ViewFitAll/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Vues standards → <img src="images/Std_ViewFitAll.svg" width=16px> Tout afficher}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/Std_ViewFitAll.svg" width=16px> Affiche l'ensemble...}} dans le menu contextuel de la [vue 3D](3D_view/fr.md).
+    -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewFitAll.svg" width=16px> Tout afficher** dans le menu.
+    -   Sélectionnez l\'option **<img src="images/Std_ViewFitAll.svg" width=16px> Affiche l'ensemble...** dans le menu contextuel de la [vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier: **V** puis **F**.
 
 ## Remarques

@@ -14,7 +14,7 @@ Creates a FEM constraint for a temperature boundary condition.
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintTemperature.svg" width=16px> [FEM ConstraintTemperature](FEM_ConstraintTemperature.md)** button.
-    -   Select the {{MenuCommand|Model → Thermal Constraints → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Constraint temperature}} option from the menu.
+    -   Select the **Model → Thermal Constraints → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Constraint temperature** option from the menu.
 2.  In the [3D view](3D_view.md) select the objects the constraint should be applied to, which can be a vertices (corners), edges, or faces.
 3.  Enter a temperature to apply to the objects.
 

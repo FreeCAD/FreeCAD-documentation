@@ -20,11 +20,11 @@ Les projections Vue 2D d\'une forme peuvent être affichées sur une page de l\'
 2.  Sélectionnez éventuellement un ou plusieurs objets.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Shape2DView.svg" width=16px> [Créer une projection 2D...](Draft_Shape2DView.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → <img src="images/Draft_Shape2DView.svg" width=16px> Vue 2D de la forme }} dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Shape2DView.svg" width=16px> Vue 2D de la forme ** dans le menu.
 4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 5.  Les objets projetés sont créés sur le plan XY.
 
-## Comment produire des plans et des sections avec des largeurs de ligne différentes {#comment_produire_des_plans_et_des_sections_avec_des_largeurs_de_ligne_différentes}
+## Comment produire des plans et des sections avec des largeurs de ligne différentes 
 
 <img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 

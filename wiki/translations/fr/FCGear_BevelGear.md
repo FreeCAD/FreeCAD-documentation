@@ -23,7 +23,7 @@ Les engrenages coniques en spirale ont des dents incurvées pour fournir un enga
 1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
 2.  Lancez la commande d\'une de ces manières :
     -   Appuyez sur le bouton <img alt="" src=images/FCGear_BevelGear.svg  style="width:22px;"> [Create a Bevel gear](FCGear_BevelGear/fr.md) dans la barre d\'outils.
-    -   Utilisez le {{MenuCommand|Menu → Bevel gear}}.
+    -   Utilisez le **Menu → Bevel gear**.
 3.  Modifiez le paramètre de démultiplication aux conditions requises (voir **Propriétés → Données** ci-dessous).
 
 ## Propriétés
@@ -84,7 +84,7 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 Les limitations ne sont pas encore connues.
 
-## Formules utiles {#formules_utiles}
+## Formules utiles 
 
 -    **pitch diameter**= **module** \* **teeth**
 

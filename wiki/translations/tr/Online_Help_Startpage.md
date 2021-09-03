@@ -2,7 +2,7 @@
 
 ![150](images/Crystal_Clear_app_tutorials.png )
 
-## FreeCAD Çevrimiçi Yardıma Hoşgeldiniz {#freecad_çevrimiçi_yardıma_hoşgeldiniz}
+## FreeCAD Çevrimiçi Yardıma Hoşgeldiniz 
 
 
 <div class="mw-translate-fuzzy">
@@ -12,7 +12,7 @@ Bu belge resmi FreeCAD wiki belgelerinin içeriklerinden otomatik olarak oluştu
 
 </div>
 
-### \'\'\' Nasıl Kullanılır \'\'\' {#nasıl_kullanılır}
+### \'\'\' Nasıl Kullanılır \'\'\' 
 
 
 <div class="mw-translate-fuzzy">
@@ -22,7 +22,7 @@ Bu belge çeşitli bölümlere ayrılmıştır: giriş, kullanım şekli, script
 
 </div>
 
-### \'\'\' Katkıda Bulunmak \'\'\' {#katkıda_bulunmak}
+### \'\'\' Katkıda Bulunmak \'\'\' 
 
 
 <div class="mw-translate-fuzzy">

@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Création d\'une feuille SVG {#création_dune_feuille_svg}
+## Création d\'une feuille SVG 
 
 
 <div class="mw-translate-fuzzy">
@@ -16,12 +16,12 @@ Créer des modèles pour le module de dessin est très facile. Voir aussi le tut
 
 </div>
 
-### Base rules {#base_rules}
+### Base rules 
 
 
 <div class="mw-translate-fuzzy">
 
-### Règles de base {#règles_de_base}
+### Règles de base 
 
 -   Un pixel = un millimètre. Vous pouvez avoir la taille de la page spécifiée à l\'intérieur de la balise d\'ouverture<svg>, sans unités ou avec \"mm\". Par exemple, ces deux formes sont valides:
 
@@ -59,7 +59,7 @@ Ce texte ci-dessus (qui est en fait un commentaire XML) doit se trouver sur une 
 
 <div class="mw-translate-fuzzy">
 
-### Espace de noms {#espace_de_noms}
+### Espace de noms 
 
 -   Plusieurs objets (en particulier ceux créés avec la commande [Draft\_Drawing](Draft_Drawing/fr.md) et si votre modèle contient des textes éditables) utilisent un [Espace de noms Svg](Svg_Namespace/fr.md) spécifique à FreeCAD. Cela permet à FreeCAD de détecter des éléments spécifiques dans les fichiers svg, que les autres applications vont ignorer. Si vous prévoyez d\'utiliser l\'un de ces éléments, vous devez ajouter cette ligne dans la balise d\'ouverture<svg>, par exemple avec les autres lignes xmlns ajoutées par inkscape:
 
@@ -68,12 +68,12 @@ Ce texte ci-dessus (qui est en fait un commentaire XML) doit se trouver sur une 
 
 xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
-### Title block {#title_block}
+### Title block 
 
 
 <div class="mw-translate-fuzzy">
 
-### Bloc de titre {#bloc_de_titre}
+### Bloc de titre 
 
 En plus de ces règles, depuis FreeCAD 0.14, des informations sur le bloc Border et Title peuvent être ajoutées au modèle pour être utilisées par l\'outil de projection orthographique. Cette information définit où FreeCAD peut et ne peut pas placer les projections.
 
@@ -140,7 +140,7 @@ viewBox="0 0 xxx yyy"
 
 </div>
 
-## Modèles au format DXF {#modèles_au_format_dxf}
+## Modèles au format DXF 
 
 
 <div class="mw-translate-fuzzy">
@@ -189,12 +189,12 @@ Le modèle ci-dessus ne contient aucune entité. Si vous créez votre fichier DX
 
 Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Elles doivent exister dans le modèle, et doivent être placées leur place. Vous pouvez choisir de les placer juste après les lignes BLOCKS ou ENTITIES, ce qui est plus facile (il suffit d\'utiliser la fonction \"recherche\" de votre éditeur de texte pour les trouver), ou à la fin, juste avant les lignes \"0 ENDSEC\" (méfiez-vous il y en a un pour chaque section, assurez-vous d\'utiliser ceux relatifs aux BLOCKS et ENTITIES). Cette dernière méthode sera utilisée pour placer les objets de FreeCAD après que les objets soient définis dans le modèle, ce qui devrait être plus logique.
 
-## Modèles A3 {#modèles_a3}
+## Modèles A3 
 
 
 <div class="mw-translate-fuzzy">
 
-### A3 Classic: {#a3_classic}
+### A3 Classic: 
 
 <img alt="" src=images/A3_Classic.svg  style="width:800px;">
 
@@ -206,7 +206,7 @@ Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Ell
 
 <div class="mw-translate-fuzzy">
 
-### A3 Clean: {#a3_clean}
+### A3 Clean: 
 
 <img alt="" src=images/A3_Clean.svg  style="width:800px;">
 
@@ -218,7 +218,7 @@ Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Ell
 
 <div class="mw-translate-fuzzy">
 
-### A3 Modern: {#a3_modern}
+### A3 Modern: 
 
 <img alt="" src=images/A3_Modern.svg  style="width:800px;">
 
@@ -230,7 +230,7 @@ Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Ell
 
 <div class="mw-translate-fuzzy">
 
-### A3 Showcase: {#a3_showcase}
+### A3 Showcase: 
 
 <img alt="" src=images/A3_Showcase.svg  style="width:800px;">
 
@@ -242,7 +242,7 @@ Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Ell
 
 <div class="mw-translate-fuzzy">
 
-### A3 Landscape english: {#a3_landscape_english}
+### A3 Landscape english: 
 
 <img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
 
@@ -251,39 +251,39 @@ Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Ell
 
 <img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
 
-## A4 Templates {#a4_templates}
+## A4 Templates 
 
 ### Landscape:
 
 <img alt="" src=images/A4_Landscape_english.svg  style="width:800px;">
 
-### A4 Portrait 1 english: {#a4_portrait_1_english}
+### A4 Portrait 1 english: 
 
 <img alt="" src=images/A4_Portrait_1_english.svg  style="width:400px;">
 
-## US Letter Templates {#us_letter_templates}
+## US Letter Templates 
 
-### US Letter Landscape: {#us_letter_landscape}
+### US Letter Landscape: 
 
 <img alt="" src=images/US_Letter_landscape.svg  style="width:800px;">
 
-### US Letter portrait: {#us_letter_portrait}
+### US Letter portrait: 
 
 <img alt="" src=images/US_Letter_portrait.svg  style="width:400px;">
 
-### US Letter ds Landscape: {#us_letter_ds_landscape}
+### US Letter ds Landscape: 
 
 <img alt="" src=images/US_Letter_ds_Landscape.svg  style="width:800px;">
 
-### US Legal ds Landscape: {#us_legal_ds_landscape}
+### US Legal ds Landscape: 
 
 <img alt="" src=images/US_Legal_ds_Landscape.svg  style="width:800px;">
 
-### US Ledger ds Landscape: {#us_ledger_ds_landscape}
+### US Ledger ds Landscape: 
 
 <img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width:800px;">
 
-## Autres standards disponibles {#autres_standards_disponibles}
+## Autres standards disponibles 
 
 -   [ANSI templates](ANSI_templates/fr.md): au standard American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
 -   [Arch templates](Arch_templates/fr.md): au standard American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute)

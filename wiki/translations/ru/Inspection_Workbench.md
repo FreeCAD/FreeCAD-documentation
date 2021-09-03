@@ -8,10 +8,10 @@
 
 <img alt="Результат использования верстака" src=images/InspectionEx.png  style="width:500px;">
 
-## Предпологаемый рабочий процесс {#предпологаемый_рабочий_процесс}
+## Предпологаемый рабочий процесс 
 
 -   Для сранения выберите две фигуры, проходящие друг через друга.
--   Затем выберите меню {{MenuCommand|Inspection → Visual inspection}}.
+-   Затем выберите меню **Inspection → Visual inspection**.
 -   Вы получите цветное изображение, показывающее отклонение между двумя формами.
 
 В качестве альтернативы, для сравнения двух фигур можно использовать макрос <img alt="" src=images/HighlightDifference.png  style="width:24px;"> [HighlightDifference](Macro_HighlightDifference.md).

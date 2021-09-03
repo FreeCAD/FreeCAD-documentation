@@ -42,7 +42,7 @@ Cf [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewtopic.ph
 
 ![](images/Macro_unrollRuledSurface_01.png ) *Macro_unrollRuledSurface*
 
-## Instrucțiuni de utilizare {#instrucțiuni_de_utilizare}
+## Instrucțiuni de utilizare 
 
 1.  Selectați suprafețele conduse
 2.  Explodează-le (cf Menu draft)

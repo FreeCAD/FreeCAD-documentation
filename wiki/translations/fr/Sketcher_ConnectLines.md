@@ -19,7 +19,7 @@ Applique des [Contraintes de coïncidence](Sketcher_ConstrainCoincident/fr.md) a
 2.  Lancez la commande en utilisant plusieurs méthodes:
     -   Appuyez sur le bouton **<img src=images/Sketcher_ConnectLines.svg style="width:16px"> [Raccorder les arêtes ](Sketcher_ConnectLines/fr.md)** dans la barre d\'outils.
     -   Utilisez le raccourci clavier **Ctrl** + **Maj** + **K**.
-    -   Utilisez l\'entrée {{MenuCommand|Sketch → Outils d'esquisse → <img src=images/Sketcher_ConnectLines.svg style="width:16px"> Raccorder les arêtes}} dans le menu supérieur.
+    -   Utilisez l\'entrée **Sketch → Outils d'esquisse → <img src=images/Sketcher_ConnectLines.svg style="width:16px"> Raccorder les arêtes** dans le menu supérieur.
 
 ## Remarques
 

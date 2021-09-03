@@ -19,7 +19,7 @@ Acest instrument activează / dezactivează opțiunea IfcBrep a unui obiect [Mod
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

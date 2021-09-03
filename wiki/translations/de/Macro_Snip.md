@@ -41,7 +41,7 @@ Wenn das Makro auf deinem System nicht funktioniert, um Bildschirmfotos zu erste
 
 ## Parameter
 
-Das Makro unterstützt Benutzerparameter, die mit {{MenuCommand|Werkzeuge → Parameter bearbeiten... → Zusatzmodule → Schnitt_Makro}}
+Das Makro unterstützt Benutzerparameter, die mit **Werkzeuge → Parameter bearbeiten... → Zusatzmodule → Schnitt_Makro**
 
 
 <div class="mw-translate-fuzzy">

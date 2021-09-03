@@ -15,13 +15,13 @@ Les coiffes sont de formes et de tailles diverses, dont la plupart sont difficil
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_NoseCone.svg" width=16px> [Nose Cone](Rocket_NoseCone/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Rocket → <img src="images/Rocket_NoseCone.svg" width=16px> Nose Cone}} dans le menu.
+    -   Sélectionnez l\'option **Rocket → <img src="images/Rocket_NoseCone.svg" width=16px> Nose Cone** dans le menu.
     -   Double-cliquez sur un objet Nose Cone dans la vue du modèle.
 2.  Définissez les options et appuyez sur **OK**.
 
 ## Options
 
-### Types de coiffe {#types_de_coiffe}
+### Types de coiffe 
 
 La théorie derrière les différentes formes de cône de nez est expliquée ici: [Aérodynamique de la pointe avant](https://fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant)
 
@@ -55,7 +55,7 @@ Les types de coiffes pris en charge comprennent:
 
 ![](images/NC_Haack_0.33_small.png ) *Série Haack de coefficient 1/3* ![](images/NC_Haack_2_small.png ) *Série Haack de coefficient 2*
 
-### Types de coiffe {#types_de_coiffe_1}
+### Types de coiffe 
 
 Les coiffes peuvent être dessinées dans l\'un des 3 styles
 
@@ -122,7 +122,7 @@ Voir aussi : [:Category:API/fr](:Category:API/fr.md) et [Débuter avec les scrip
 
 A définir
 
-## Tutoriels et apprentissage {#tutoriels_et_apprentissage}
+## Tutoriels et apprentissage 
 
 [Coiffe atelier Rocket](https://youtu.be/zwLgie2E4Ts) Tutoriel sur YouTube
 

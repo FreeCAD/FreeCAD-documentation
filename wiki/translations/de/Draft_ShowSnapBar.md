@@ -25,9 +25,9 @@ Dieser Befehl zeigt die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste, die die
 
 <div class="mw-translate-fuzzy">
 
--   Rechtsklicke auf ein Entwurfsobjekt und wähle die {{MenuCommand|Dienstprogramme → <img src="images/Draft_Snap.svg" width=16px> [Entwurf Zeige Fang Leiste](Draft_ShowSnapBar/de.md)}}.
+-   Rechtsklicke auf ein Entwurfsobjekt und wähle die **Dienstprogramme → <img src="images/Draft_Snap.svg" width=16px> [Entwurf Zeige Fang Leiste](Draft_ShowSnapBar/de.md)**.
 -   Oder rechtsklicke auf einen leeren Platz auf einer Werkzeugleiste und klicke auf das [Entwurf Fang](Draft_Snap/de.md) Ankreuzkästchen.
--   Oder gehe zum Menü {{MenuCommand|Ansicht → Werkzeugleisten}} und klicke auf das [Entwurf Fang](Draft_Snap/de.md) Ankreuzkästchen.
+-   Oder gehe zum Menü **Ansicht → Werkzeugleisten** und klicke auf das [Entwurf Fang](Draft_Snap/de.md) Ankreuzkästchen.
 
 
 </div>
@@ -35,8 +35,8 @@ Dieser Befehl zeigt die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste, die die
 ## Hinweise
 
 -   Like any toolbar the Draft Snap toolbar can be toggled using these methods:
-    -   Select the {{MenuCommand|View → Toolbars → Draft Snap}} option from the menu.
-    -   Right-click an empty space in the [toolbar area](Interface.md) and select the {{MenuCommand|Draft Snap}} option from the menu that appears.
+    -   Select the **View → Toolbars → Draft Snap** option from the menu.
+    -   Right-click an empty space in the [toolbar area](Interface.md) and select the **Draft Snap** option from the menu that appears.
 
 
 <div class="mw-translate-fuzzy">

@@ -26,12 +26,12 @@ Compiling the API documentation follows the same general steps as compiling the 
 
 <div class="mw-translate-fuzzy">
 
-#### Bygga källkodsdokumentation {#bygga_källkodsdokumentation}
+#### Bygga källkodsdokumentation 
 
 
 </div>
 
-### Complete documentation {#complete_documentation}
+### Complete documentation 
 
 
 <div class="mw-translate-fuzzy">
@@ -86,7 +86,7 @@ xdg-open freecad-build/doc/SourceDocu/html/index.html
 
 The `DevDoc` target will generate a significant amount of data, around 5 GB of new files, particularly due to the diagrams created by Graphviz.
 
-### Reduced documentation {#reduced_documentation}
+### Reduced documentation 
 
 The complete documentation uses around 3Gb of disk space. An alternative, smaller version of the documentation which takes only around 600 MB can be generated with a different target. This is the version displayed on the [FreeCAD API website](https://freecad.github.io/SourceDoc/). 
 ```python
@@ -128,7 +128,7 @@ Som ett alternativ, så genereras dokumentationen då och då och finns [här](h
 
 <div class="mw-translate-fuzzy">
 
-#### Integrera Coin3D dokumentationen {#integrera_coin3d_dokumentationen}
+#### Integrera Coin3D dokumentationen 
 
 
 </div>
@@ -162,7 +162,7 @@ På unix system, så är det möjligt att länka Coin3D\'s källk0dsdokumentatio
 
 </div>
 
-## Using Doxygen {#using_doxygen}
+## Using Doxygen 
 
 See the [Doxygen](Doxygen.md) page for an extensive explanation on how to comment C++ and Python source code so that it can be processed by Doxygen to automatically create the documentation.
 

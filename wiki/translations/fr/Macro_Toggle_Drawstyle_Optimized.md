@@ -115,7 +115,7 @@ else:
 
 }}
 
-## Script 2 {#script_2}
+## Script 2 
 
 Basculer le mode d\'affichage global:
 
@@ -169,7 +169,7 @@ else:
     actionA.trigger()
 }}
 
-## Script 3 {#script_3}
+## Script 3 
 
 Basculer le mode d\'affichage du ou des objets sélectionnés (les modifications ne sont visibles qu\'en mode d\'affichage global tel quel (situé dans la barre d\'outils Afficher)):
 

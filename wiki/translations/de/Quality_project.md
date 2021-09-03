@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Dies ist der Projektplan des Qualitätsprojekts im Rahmen der [Development roadmap/de](Development_roadmap/de.md).
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 This project is partial a software development and a documentation project. It aims to raise the quality of the main components of FreeCAD and delivers a better experience to the first FreeCAD contact.
 
@@ -32,7 +32,7 @@ Another important outcome is a complete **help system** for all Commands and Fea
 
 ## Organisieren
 
-## Nächste Maßnahmen {#nächste_maßnahmen}
+## Nächste Maßnahmen 
 
 Arbeite alle unvollendeten Befehle durch und erstelle eine Dokumentation:
 

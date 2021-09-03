@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Prezentare generală {#prezentare_generală}
+## Prezentare generală 
 
 Instrumentul Loft din Atelierul (Part Workbench) este utilizat pentru a crea o fațetă, o cochilie sau o formă solidă (corp) plecând de la două sau mai multe profiluri. Profilele pot fi un punct (vertex), o linie (margine), o polilinie sau o fațetă. Muchiile și poliliniile pot fi deschise sau închise. Există mai multe limitări și complicații [limitations and complications](Part_Loft#limitations_and_complications.md) , vezi mai jos, însă profilurile pot proveni de la primitivele geometrice din Atelierul Part/Piese, de la funcționalitățile Aelierului Draft Workbench și de la Atelierul Sketch.
 
@@ -66,7 +66,7 @@ Pentru mai multe informații supra modului cum profilele sunt legate împreună 
 
 <div class="mw-translate-fuzzy">
 
-## Limitări și complicații {#limitări_și_complicații}
+## Limitări și complicații 
 
 -   Un vertex sau un punct
     -   vârful sau punctul pot fi utilizate numai ca primul și / sau ultimul profil din lista de profiluri.
@@ -108,7 +108,7 @@ Pentru mai multe informații supra modului cum profilele sunt legate împreună 
 
 </div>
 
-## Un exemplu de Loft {#un_exemplu_de_loft}
+## Un exemplu de Loft 
 
 Instrumentul Loft este în Atelierul Part Workbench, meniul Part -\> Loft\... sau via iconița din bara de instrumente.
 
@@ -127,7 +127,7 @@ In the \"Tasks\" will be two lists: \"node / wire\" and \"free form\".
 
 <div class="mw-translate-fuzzy">
 
-### Selecția elementelor {#selecția_elementelor}
+### Selecția elementelor 
 
 In the \"node / wire\" the available items are displayed. Two elements must be selected one after the first in this list.
 
@@ -159,7 +159,7 @@ Tip: the active / selected items in the list are displayed in the 3D area as act
 
 <div class="mw-translate-fuzzy">
 
-### Comanda completă {#comanda_completă}
+### Comanda completă 
 
 Dacă sunt selectate ambele elemente, comanda poate fi completată cu \"OK\".
 
@@ -184,7 +184,7 @@ Dacă într-adevăr trebuie să creați un solid, utilizați butonul \"Create So
 
 Procedura este aceeași cu cea descrisă mai sus cu polilinii deschise.
 
-### Changing the selection of sections {#changing_the_selection_of_sections}
+### Changing the selection of sections 
 
 If you want to change the selection of the sections after creation of the loft, you can select the field Sections in the Data tab and click the occuring ellipsis button. The list of all selectable sections occurs, the current selection is highlighted. You can remove or add additional sections.
 

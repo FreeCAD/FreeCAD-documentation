@@ -16,7 +16,7 @@ Questo comanda esporta una [Lavorazione](Path_Job/it.md) selezionata in un file 
 
 Ogni controller CNC parla un dialetto G-Code specifico, che richiede un postprocessore dialettale corretto per tradurre l\'output finale dal dialetto G-Code di FreeCAD agnostico interno.
 
-### Typical functions of the Postprocessor include {#typical_functions_of_the_postprocessor_include}
+### Typical functions of the Postprocessor include 
 
 -   Using a correct Job output G-Code file extension.
 -   Selecting the G-Code commands. CNC controllers typically support a subset of available G-Code commands. The super-set of G-Code commands contains powerful and specialized commands that otherwise must be processed using multiple simpler commands. Postprocessors are written to select the best G-Code for an Operation, available on the target.
@@ -27,7 +27,7 @@ Ogni controller CNC parla un dialetto G-Code specifico, che richiede un postproc
 -   Formatting the Feed and Speed rate information to revolutions per minute, or per second.
 -   Formatting Function Call Naming and Calling.
 
-### Postprocessor Customization {#postprocessor_customization}
+### Postprocessor Customization 
 
 If you want to write your own postprocessor, have a look at the [Path Postprocessor Customization](Path_Postprocessor_Customization.md) page.
 

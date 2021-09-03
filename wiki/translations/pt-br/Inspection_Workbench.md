@@ -20,10 +20,10 @@ A Bancada de Inspeção [Inspection Workbench](Inspection_Workbench/pt-br.md) é
 
 </div>
 
-## Fluxo de trabalho pretendido {#fluxo_de_trabalho_pretendido}
+## Fluxo de trabalho pretendido 
 
 -   Selecione duas formas para serem comparadas, preferencialmente uma intercepte a outra.
--   Em seguida, utilize o menu {{MenuCommand|Inspection → Visual inspection}}.
+-   Em seguida, utilize o menu **Inspection → Visual inspection**.
 -   Você vai obter uma imagem colorida mostrando o desvio entre as duas formas.
 
 

@@ -30,7 +30,7 @@ Acest tutorial explică modul de utilizare a FreeCAD și a Atelierului de simula
 
 </div>
 
-## Deschideți un fișier sau creați unul cu FreeCAD {#deschideți_un_fișier_sau_creați_unul_cu_freecad}
+## Deschideți un fișier sau creați unul cu FreeCAD 
 
 Tutorialul se bazează pe fișierul STEP al unui Stäubli TX40 (TX40-HB.stp). Puteți descărca fișierul de la [Stäubli](https://secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html). Cu toate acestea, deși încă nu trebuie se verifică acest lucru, metoda ar trebui să se aplice și unui model freeCAD complet realizat. După deschiderea fișierului, trebuie să obțineți acest lucru:
 
@@ -63,7 +63,7 @@ Pentru acest import, schimbați \"Display Mode\" pentru fiecare formă, exceptâ
 
 </div>
 
-## Măsurați caracteristicile geometrice {#măsurați_caracteristicile_geometrice}
+## Măsurați caracteristicile geometrice 
 
 În vederea construirii tabelului Denavit-Hartenberg (see [Robot 6-Axis](Robot_6-Axis.md)) și pregătiți fișierul vrml, trebuie să obțineți caracteristicile robotului. Deocamdată, instrumentul de măsurare FreeCAD nu este gata, puteți utiliza axele incluse în TX40\_HB007 (coordonatele sunt indicate în partea stângă jos atunci când indicați un obiect cu mouse-ul) sau trebuie să utilizați consola Python pentru a obține unele informații despre geometrie. Rețineți că tabelul DH este necesar numai dacă trebuie să utilizați cinematica inversă, adică să obțineți coordonatele carteziene sau să dirijați robotul cu coordonate carteziene. Tabelul DH-table pentru acest robot este următorul (mm, deg and deg/s):
 
@@ -89,7 +89,7 @@ a  , alpha, d  , theta, rotDir, maxAngle, minAngle, AxisVelocity
 
 <div class="mw-translate-fuzzy">
 
-## Export la vrml {#export_la_vrml}
+## Export la vrml 
 
 Exportați documentul într-un fișier vrml. Structura fișierului vrml este următoarea:
 
@@ -144,7 +144,7 @@ Puteți observa că avem 8 grupuri independente care corespund celor 8 forme.
 
 <div class="mw-translate-fuzzy">
 
-## Pregătirea fișierului vrml {#pregătirea_fișierului_vrml}
+## Pregătirea fișierului vrml 
 
 Toate formele din fișierul vrml sunt exprimate în cadrul de bază, independente una de celălaltă. Pentru Atelierul Robot Simulation Workbench, trebuie să creăm o structură în care o mișcare a unei forme induce o mișcare a tuturor formelor situate ulterior în structură. Plasarea formelor va fi relativă la forma precedentă, așa că trebuie să includem câteva translații din sistemul de referință absolut la cel relativ. Translațiile descrise în următoarea imagine:
 

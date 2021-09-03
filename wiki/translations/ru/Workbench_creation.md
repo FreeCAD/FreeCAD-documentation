@@ -10,7 +10,7 @@
 
 This page will show you how to add a new workbench to the FreeCAD interface. [Workbenches](Workbenches.md) are containers for FreeCAD commands. They can be coded in Python, in C++, or in a mix of both, which has the advantage to ally the speed of C++ to the flexibility of Python. In all cases, though, your workbench will be launched by a set of two Python files.
 
-## Структура Верстака {#структура_верстака}
+## Структура Верстака 
 
 You need a folder, with any name you like, placed in the user Mod directory, with an `Init.py` file, and, optionally an `InitGui.py` file. The Init file is executed when FreeCAD starts, and the `InitGui.py` file is executed immediately after, but only when FreeCAD starts in GUI mode. That\'s all it needs for FreeCAD to find your workbench at startup and add it to its interface.
 
@@ -44,7 +44,7 @@ Mod папка должна выглядеть так:
 
 The structure and file content for a workbench described here is the classic way of creating a new workbench. One can use a slight variation in the structure of files when making a new Python workbench, that alternative way is best described as a \"namespaced workbench\", opening up the possibility to use pip to install the workbench. Both structures work, so it is more a question of preference when creating a new workbench. The style and structure for workbenches presented here are available in the global namespace of FreeCAD, whereas for the alternative style and structure the workbench resides in a dedicated namespace. For further readings on the topic see [Related](Workbench_creation#Related.md).
 
-### Структура Верстака на языке C++ {#структура_верстака_на_языке_c}
+### Структура Верстака на языке C++ 
 
 Если вы собираетесь писать свой Верстак на python, вам не нужно проявлять особую осторожность, и вы можете просто разместить другие файлы python в папке с Init.py и InitGui.py. Однако при работе с C++ вам следует проявлять большую осторожность и начинать соблюдюдать одно фундаментальное правило FreeCAD: Разделение вашего рабочего стола между частью приложения (которая может работать в режиме консоли, без какого-либо элемента графического интерфейса) и частью графического интерфейса, которая будет загружена только при запуске FreeCAD с полной графической средой. Поэтому при создании рабочей среды в C++ вы, скорее всего, будете использовать два модуля: модуль самого приложения и модуль графического интерфейса. Эти два модуля, конечно, должны быть вызываемы из python. Любой модуль FreeCAD (приложение или графический интерфейс) состоит, по крайней мере, из файла инициализации модуля. Это типичный AppMyModuleGui.cpp файл: 
 ```python
@@ -75,7 +75,7 @@ extern "C" {
 }
 ```
 
-### Файл Init.py {#файл_init.py}
+### Файл Init.py 
 
 
 {{code|code=
@@ -113,7 +113,7 @@ You can choose any license you like for your workbench, but be aware that if you
 
 The `FreeCAD.addImportType()` and `addEXportType()` functions allow you to give the name and extension of a file type, and a Python module responsible for its import. In the example above, an `importOwn.py` module will handle `.own` files. See [Code snippets](Code_snippets.md) for more examples.
 
-### Python workbenches {#python_workbenches}
+### Python workbenches 
 
 This is the InitGui.py file: 
 ```python
@@ -178,7 +178,7 @@ Adding your preference page(s):
 -   In your workbench, for ex. inside the InitGui file, inside the Initialize method (but any other place works too), add: FreeCADGui.addPreferencePage(\"/path/to/myUiFile.ui\",\"MyGroup\"), \"MyGroup\" being one of the preferences groups on the left. FreeCAD will automatically look for a \"preferences-mygroup.svg\" file in its known locations (which you can extend with FreeCADGui.addIconPath())
 -   Make sure the addPreferencePage() method is called only once, otherwise your pref page will be added several times
 
-### C++ workbenches {#c_workbenches}
+### C++ workbenches 
 
 If you are going to code your workbench in C++, you will probably want to code the workbench definition itself in C++ too (although it is not necessary: you could also code only the tools in C++, and leave the workbench definition in Python). In that case, the InitGui.py file becomes very simple: It might contain just one line: 
 ```pythonimport MyModuleGui``` where MyModule is your complete C++ workbench, including the commands and workbench definition.
@@ -204,15 +204,15 @@ namespace MyModuleGui {
 }
 ```
 
-#### Preferences {#preferences_1}
+#### Preferences 
 
 You can add a Preferences page for C++ workbenches too. The steps are similar to those for Python.
 
-## FreeCAD commands {#freecad_commands}
+## FreeCAD commands 
 
 FreeCAD commands are the basic building block of the FreeCAD interface. They can appear as a button on toolbars, and as a menu entry in menus. But it is the same command. A command is a simple Python class, that must contain a couple of predefined attributes and functions, that define the name of the command, its icon, and what to do when the command is activated.
 
-### Python command definition {#python_command_definition}
+### Python command definition 
 
 
 ```python
@@ -237,7 +237,7 @@ class My_Command_Class():
 FreeCADGui.addCommand('My_Command',My_Command_Class())
 ```
 
-### C++ command definition {#c_command_definition}
+### C++ command definition 
 
 Similarly, you can code your commands in C++, typically have a Commands.cpp file in your Gui module. This is a typical Commands.cpp file: 
 ```pythonDEF_STD_CMD_A(CmdMyCommand);
@@ -277,7 +277,7 @@ void CreateMyModuleCommands(void)
 }
 ```
 
-## \"Compiling\" your resource file {#compiling_your_resource_file}
+## \"Compiling\" your resource file 
 
 compileA2pResources.py from the A2Plus workbench:
 

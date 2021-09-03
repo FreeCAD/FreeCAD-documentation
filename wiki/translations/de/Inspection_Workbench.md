@@ -8,10 +8,10 @@ Der <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Arbei
 
 <img alt="Bildschirmfoto" src=images/InspectionEx.png  style="width:500px;">
 
-## Vorgesehener Arbeitsablauf {#vorgesehener_arbeitsablauf}
+## Vorgesehener Arbeitsablauf 
 
 -   Wähle zwei Formen aus, die zu vergleichen sind, die sich vorzugsweise überschneiden.
--   Verwende dann das Menü {{MenuCommand|Inspektion → Sichtprüfung}}.
+-   Verwende dann das Menü **Inspektion → Sichtprüfung**.
 -   Du bekommst ein farbiges Bild, das die Abweichung zwischen den beiden Formen zeigt.
 
 Verwende alternativ das Makro <img alt="" src=images/HighlightDifference.png  style="width:24px;"> [Unterschied hervorheben](Macro_HighlightDifference/de.md) um zwei Formen zu vergleichen.

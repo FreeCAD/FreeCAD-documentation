@@ -18,51 +18,51 @@ Avant de démarrer l\'[atelier FCGear](FCGear_Workbench/fr.md), il doit être in
     *Le menu déroulant de FCGear*
     
 
-## Types d\'engrenages {#types_dengrenages}
+## Types d\'engrenages 
 
-### Engrenage à développante {#engrenage_à_développante}
+### Engrenage à développante 
 
 :   ![](images/Involute-Gear_example.png )
 :   
     *De gauche à droite : engrenage droit, engrenage hélicoïdal, double engrenage hélicoïdal (Voir [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md))*
     
 
-### Engrenage à crémaillère {#engrenage_à_crémaillère}
+### Engrenage à crémaillère 
 
 :   ![](images/Involute-Rack_example.png )
 :   
     *De gauche à droite : crémaillère droite, crémaillère pour engrenage hélicoïdal, crémaillère pour double engrenage hélicoïdal (voir [FCGear Engrenage à crémaillère](FCGear_InvoluteRack/fr.md))*
     
 
-### Engrenage cycloïde {#engrenage_cycloïde}
+### Engrenage cycloïde 
 
 :   ![](images/Cycloid-Gear_example_1.png )
 :   
     *De gauche à droite : engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal (voir [FCGear Engrenage cycloïde](FCGear_CycloideGear/fr.md))*
     
 
-### Engrenage conique {#engrenage_conique}
+### Engrenage conique 
 
 :   ![](images/Bevel-Gear_example.png )
 :   
     *De gauche à droite : engrenage droit, engrenage en spirale (voir [FCGear Engrenage conique](FCGear_BevelGear/fr.md))*
     
 
-### Vis sans fin {#vis_sans_fin}
+### Vis sans fin 
 
 :   ![](images/Worm-Gear_example.png )
 :   
     *Ci-dessus : engrenage à vis sans fin (voir [FCGear Vis sans fin](FCGear_WormGear/fr.md))*
     
 
-### Engrenage couronne {#engrenage_couronne}
+### Engrenage couronne 
 
 :   ![](images/Crown-Gear_example.png )
 :   
     *Ci-dessus : Engrenage couronne (voir [FCGear Engrenage couronne](FCGear_CrownGear/fr.md))*
     
 
-### Engrenage de distribution et pignon lanterne {#engrenage_de_distribution_et_pignon_lanterne}
+### Engrenage de distribution et pignon lanterne 
 
 :   ![](images/Timing+Latern-gear_example.png )
 :   
@@ -77,7 +77,7 @@ Avant de démarrer l\'[atelier FCGear](FCGear_Workbench/fr.md), il doit être in
 
 ## Outils
 
-### Barre d\'outils {#barre_doutils}
+### Barre d\'outils 
 
 -   <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:32px;"> [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md) Crée un engrenage à développante
 -   <img alt="" src=images/FCGear_InvoluteRack.svg  style="width:32px;"> [FCGear Crémaillère](FCGear_InvoluteRack/fr.md) Crée une crémaillère
@@ -90,14 +90,14 @@ Avant de démarrer l\'[atelier FCGear](FCGear_Workbench/fr.md), il doit être in
 
 ## Installation
 
-### Installation Automatique {#installation_automatique}
+### Installation Automatique 
 
-La méthode d\'installation recommandée à partir de la v0.17 est via <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Elle est accessible dans le menu {{MenuCommand|Outils → Gestionnaire d'Addon}}.
+La méthode d\'installation recommandée à partir de la v0.17 est via <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Elle est accessible dans le menu **Outils → Gestionnaire d'Addon**.
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:700px">
 
-### Installation manuelle {#installation_manuelle}
+### Installation manuelle 
 
 S\'il est nécessaire d\'installer manuellement cet atelier, les instructions suivantes sont fournies pour ce faire :
 
@@ -140,7 +140,7 @@ Voir les instructions pour Linux ci-dessus
 
 </div>
 
-## Liens vers WB engrenage {#liens_vers_wb_engrenage}
+## Liens vers WB engrenage 
 
 -   Wiki de l\'atelier : <https://github.com/looooo/FCGear/wiki>
 -   Wiki FreeCAD : [Macro\_FCGear](http://www.freecadweb.org/wiki/index.php?title=Macro_FCGear) et [Bevel gear](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878)
@@ -150,7 +150,7 @@ Voir les instructions pour Linux ci-dessus
 -   Fichiers :
 -   Rapports de bugs : SVP rapportez les bugs sur <https://github.com/looooo/FCGear/issues>
 
-## Autres liens intéressants {#autres_liens_intéressants}
+## Autres liens intéressants 
 
 -   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [PartDesign Engrenage droit à développante](PartDesign_InvoluteGear/fr.md) : cet outil permet de créer un profil 2D d\'un engrenage à développante. Ce profil 2D est entièrement paramétrique et peut être complété avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md).
 -   [Ateliers externes](External_workbenches/fr.md) : une liste de tous les ateliers externes actuels de FreeCAD

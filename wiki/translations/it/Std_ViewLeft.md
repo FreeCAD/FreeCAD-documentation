@@ -18,8 +18,8 @@ Il comando **Vista da sinistra** orienta la camera della [Vista 3D](3D_view/it.m
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_ViewLeft.svg" width=16px> Da sinistra**.
-    -   Selezionare l\'opzione {{MenuCommand|Visualizza → Viste standard → <img src="images/Std_ViewLeft.svg" width=16px> Da sinistra}} del menu.
-    -   Selezionare l\'opzione {{MenuCommand|Viste standard → <img src="images/Std_ViewLeft.svg" width=16px> Da sinistra}} dal menu contestuale della [vista 3D](3D_view/it.md).
+    -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewLeft.svg" width=16px> Da sinistra** del menu.
+    -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewLeft.svg" width=16px> Da sinistra** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **6**.
 
 ## Script

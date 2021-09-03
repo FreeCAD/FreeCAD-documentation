@@ -14,7 +14,7 @@
 
 Dieses Tutorium erklärt, wie man FreeCAD und den <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Arbeitsbereich Roboter Simulation](Robot_Workbench/de.md) um die Bewegungen eines 6-achsigen Serienroboters zu simulieren. **Das Tutorium konzentriert sich auf die Erstellung der als Visualisierung verwendeten VRML Datei**. Die Basis der VRML Datei ist ein FreeCAD Modell. Die verwendete Version von FreeCAD ist 0.11.4252ppa1 auf Ubuntu 32bit.
 
-## Öffne eine Datei oder erstelle eine mit FreeCAD {#öffne_eine_datei_oder_erstelle_eine_mit_freecad}
+## Öffne eine Datei oder erstelle eine mit FreeCAD 
 
 Das Tutorium basiert auf einer STEP Datei eines Stäubli TX40 (TX40-HB.stp). Du kannst die Datei von [Stäubli](https://secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html) herunterladen. Obwohl ich immer noch nicht die Zeit hatte, dies zu überprüfen, sollte die Methode auch auf ein vollständig in FreeCAD erstelltes Modell anwendbar sein. Nachdem du die Datei geöffnet hast, solltest du dies erhalten:
 
@@ -35,7 +35,7 @@ Beachte, dass der Roboter beim Import aus 8 Formen besteht, die sich direkt an d
 
 Ändere für diesen Import den \" Darstellungsmodus\" jeder Form, mit Ausnahme von TX40\_HB007, von \"Flache Linien\" in \"Schattiert\", damit der VRML Export gut aussieht. Ich änderte auch die Farben in \[245, 196, 0\] und \[204, 204, 204\], um dem Gelb von Stäubli besser zu entsprechen. Blende TX40\_HB007 aus, weil es die Achsen aller Gelenke enthält und nicht auseinandergenommen werden kann.
 
-## Messen geometrischer Merkmale {#messen_geometrischer_merkmale}
+## Messen geometrischer Merkmale 
 
 Um die Denavit-Hartenberg Tabelle zu erstellen (siehe [Roboter 6-Achsen](Robot_6-Axis/de.md)) und die vrml Datei vorzubereiten, musst du die Eigenschaften des Roboters ermitteln. Im Moment ist das Messwerkzeug von FreeCAD noch nicht fertig, du kannst die in TX40\_HB007 enthaltenen Achsen verwenden (die Koordinaten werden unten links angezeigt, wenn du mit der Maus auf ein Objekt zeigst) oder du musst die Python Konsole verwenden, um einige Informationen über die Geometrie zu erhalten. Beachte, dass die DH-Tabelle nur erforderlich ist, wenn du die inverse Kinematik verwenden musst, d.h. bekomme die kartesischen Koordinaten oder steuere den Roboter mit kartesischen Koordinaten. Die DH-Tabelle für diesen Roboter ist die folgende (mm, Grad und Grad/s):
 
@@ -58,7 +58,7 @@ a  , alpha, d  , theta, rotDir, maxWinkel, minWinkel, AchsGeschwindig
 0  ,    90,   0,     0,      1,    133.5,     -120, 1135
 0  ,     0,  65,     0,      1,      270,     -270, 1575
 
-## Export nach VRML {#export_nach_vrml}
+## Export nach VRML 
 
 Exportiere das Dokument in eine VRML Datei. Die Struktur der VRML Datei ist wie folgt: 
 
@@ -105,7 +105,7 @@ Group {
 
 Du kannst feststellen, dass wir 8 unabhängige Gruppen haben, die den 8 Formen entsprechen.
 
-## Vorbereitung der vrml Datei {#vorbereitung_der_vrml_datei}
+## Vorbereitung der vrml Datei 
 
 Alle Formen in der VRML Datei werden unabhängig voneinander im Grundrahmen ausgedrückt. Für den [Arbeitsbereich Roboter Simulation](Robot_Workbench/de.md) müssen wir eine Struktur erstellen, bei der eine Bewegung einer Form eine Bewegung aller danach in der Struktur befindlichen Formen auslöst. Die Platzierung der Formen erfolgt relativ zu der vorhergehenden Form, so dass wir einige Übersetzungen vom absoluten Bezugssystem in das relative System einbeziehen müssen. Die Übersetzungen sind in der folgenden Abbildung beschrieben:
 

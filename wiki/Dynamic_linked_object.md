@@ -45,6 +45,6 @@ The goal is to *not* duplicate the following assembly logic for each table leg v
 
 ![](images/Dynamic-table-leg.gif )
 
-## FreeCAD Forum Discussion {#freecad_forum_discussion}
+## FreeCAD Forum Discussion 
 
 -   [How to Make Dynamic Linked Object Based on Expression](https://forum.freecadweb.org/viewtopic.php?f=8&t=57242)

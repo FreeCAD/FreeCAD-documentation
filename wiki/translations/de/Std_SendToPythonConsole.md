@@ -24,7 +24,7 @@ Der **Std SendeAnPythonKonsole** Befehl erstellt eine Variable in der [Python Ko
 
 1.  Wähle ein einzelnes Objekt aus.
 2.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Wähle die {{MenuCommand|Bearbeiten → <img src="images/Std_SendToPythonConsole.svg" width=16px> Sende an Python Konsole}} Option aus dem Menü.
+    -   Wähle die **Bearbeiten → <img src="images/Std_SendToPythonConsole.svg" width=16px> Sende an Python Konsole** Option aus dem Menü.
     -   Wähle die Option {{MenuCommand/de|<img src="images/Std_SendToPythonConsole.svg" width=16px> Sende an Python Konsole}} Option aus dem [Baumansicht](Tree_view/de.md) Kontextmenü oder [3D Ansicht](3D_view/de.md) Kontextmenü.
     -   Verwende die Tastaturkürzel: **Strg**+**Shift**+**P**.
 

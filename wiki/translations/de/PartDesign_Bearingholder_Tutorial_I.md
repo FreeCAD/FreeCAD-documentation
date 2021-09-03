@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 {{TutorialInfo/de
@@ -16,7 +16,7 @@
 
 ~~Wie der Warnhinweis oben auf der Seite bereits andeutet, funktioniert dieses **Tutorium NICHT, es sei denn, du kompilierst einen speziellen, sehr experimentellen Zweig aus dem FreeCAD Quellcode** und ist ein einführendes Tutorium zur Modellierung mit dem PartDesign Arbeitsbereich in FreeCAD **unter Verwendung von Datumsebenen, die in den meisten FreeCAD Versionen noch nicht vorhanden sind**.~~
 
-## Kurze Zweckbestimmung {#kurze_zweckbestimmung}
+## Kurze Zweckbestimmung 
 
 Der Zweck des Tutoriums ist es, dich in zwei verschiedene Arbeitsabläufe zur Erstellung eines Gussteils mit Entwürfen und Verrundungen einzuführen. Je nachdem, welche anderen CAD-Programme du bisher verwendet hast, könnte dir das eine oder das andere vertraut sein. Als Arbeitsbeispiel werden wir ein einfaches Lagergehäuse modellieren.
 
@@ -51,7 +51,7 @@ Der Einfachheit halber können zwei weitere Bezugsebenen erstellt werden, die di
 
 Es ist ratsam, der Skelettgeometrie klare Namen zu geben. Meistens wirst du die Sichtbarkeit für Bezugsebenen ausschalten wollen, weil sie den Bildschirm überladen, und wenn die Ebenen selbsterklärende Namen haben, kannst du sie einfach nach Namen statt nach dem Bildschirm auswählen.
 
-## Die Volumenkörpergeometrie {#die_volumenkörpergeometrie}
+## Die Volumenkörpergeometrie 
 
 <img alt="Skizze des ersten Blocks" src=images/HolderTop1-4.jpg  style="width:400px;"> Jetzt ist es an der Zeit, mit der Erstellung einer echten Geometrie zu beginnen. Die Skizze für den ersten Block ist auf der rechten Seite abgebildet. Er wird auf der XY Ebene platziert. Es gibt nur drei Dimensionen: Der Innenradius (22,5 mm), die Bearbeitungszugabe (3 mm) an der Basis als Versatz zur XZ Ebene und der Abstand von der Bezugsebene, die die Schraubenachse darstellt (7 mm). Das bedeutet, wenn du später die Bezugsebene verschiebst, passt der Block automatisch seinen Außenradius an. Denke daran, dass du die Bezugsebene, bevor du sie zur Bemaßung verwenden kannst, als Außengeometrie in den Skizzierer einfügen musst.
 
@@ -72,14 +72,14 @@ Nachdem du die Skizzen erstellt hast, koffere sie aus: Symetrisch 28mm für den 
 Auch hier kommen wieder die Skelettebenen zum Einsatz. Als Außengeometrie benötigst du die Schraubenachsenebene und die Schraubenkopfebene. Erstelle dann eine gerade Linie für die Rotationsachse und stelle sicher, dass sie an die Schraubenachsenebenen Referenz gebunden ist. Schalte sie als Konstruktionsgeometrie ein. Skizziere dann den Rest der Kontur. Die wichtigen Maße sind die Bearbeitungszugabe oben und unten und der Radius von 12 mm: 7 mm für den Lochradius + 5 mm Wandstärke.
 <img alt="Fertige Geometrie der Gehäuseoberseite (ohne Entwurf und Verrundungen)" src=images/HolderTop1-9.jpg  style="width:400px;"> Erstelle ein Rotations Formelement von der Skizze und spiegle es dann auf der YZ Ebene. Dies ist die gesamte Volumenkörpergeometrie, die wir zum Modellieren benötigen. Der Rest sind Entwurf und Verrundungen.
 
-## Anwenden des Entwurfs auf die Seitenflächen {#anwenden_des_entwurfs_auf_die_seitenflächen}
+## Anwenden des Entwurfs auf die Seitenflächen 
 
 <img alt="Die neutrale Ebene für die Erstellung von Entwürfen" src=images/HolderTop1-10.jpg  style="width:400px;"> Der nächste Schritt ist die Anwendung von Entwürfen auf alle Seiten. Dabei ist es wichtig, die Lage der neutralen Ebene zu berücksichtigen, d.h. der Ebene, um die die Fläche \"gedreht\" wird. Wenn wir als neutrale Ebene die Unterseite des Gehäuses wählen, dann haben wir ein Problem mit der Wandstärke im oberen Teil des Halters. Daher erstellen wir eine Bezugsebene mit einem Versatz von 40 mm von der XZ Ebene als Kompromiss zwischen der Oberseite des Halters, die zu dünn und der Unterseite, die zu breit wird.
 <img alt="Anwenden des Entwurfs auf die Seitenflächen des Gehäuses" src=images/HolderTop1-11.jpg  style="width:400px;"> Um einen Entwurf auf eine Fläche zu legen, wähle diese Fläche aus und erstelle das Entwurf Formelement. Du kannst dann weitere Flächen auswählen, auf die der Entwurf angewendet werden soll. Wenn du ein großes Teil hast, ist es ratsam, jeweils nur eine Fläche zu entwerfen. Das bedeutet, dass wenn du die Geometrie änderst und ein Entwurf fehlschlägt, nur dieses eine Formelement fehlschlägt, wohingegen, wenn du alle Flächen in ein Entwurfs Formelement setzt, das gesamte Formelement fehlschlagen kann, weil eine Fläche fehlschlägt. Für ein kleines Teil wie das Lagergehäuse reicht es aus, zwei Entwurf Formelemente zu erzeugen: Eines für die vier Außenflächen und eines für die Innenflächen.
 
 Der Dialog zwingt dich, vor dem Abschluss eine neutrale Ebene auszuwählen. Du kannst die Zugrichtung leer lassen, in diesem Fall ist sie normal zur neutralen Ebene. Vergiss nicht, den Entwurfswinkel auf 2 Grad einzustellen.
 
-## Verrundung des Gehäuses {#verrundung_des_gehäuses}
+## Verrundung des Gehäuses 
 
 <img alt="Ausrundung, wo die Schrauben hinkommen" src=images/HolderTop1-13.jpg  style="width:400px;"> Wir können das Teil nun verrunden. Das Bild zeigt den ersten Satz Verrundungen. Beginne mit den kleinen kreisförmigen Verrundungen und mache sie mit einem Radius von 4 mm. Obwohl 3 mm laut Spezifikation des Teils ausreichen würden, bedeutet ein Radius von 4 mm, dass nach der Bearbeitung 1 mm der Verrundung übrig bleibt, wodurch die durch die Bearbeitung erzeugte scharfe Kante reduziert wird. Die großen Verrundungen haben einen Radius von 6 mm, um die Verteilung der Kraft von den Schrauben auf den Rest des Teils zu erleichtern. Es wäre schön, diesen Radius noch größer zu machen, aber leider kann OpenCascade noch nicht mit überlappenden Verrundungen umgehen.
 
@@ -88,7 +88,7 @@ Wie bei Entwürfen solltest du in einem komplexen Teil nur eine Kante auf einmal
 <img alt="Verrundung der Innenseite des Gehäuses - problematische Kante" src=images/HolderTop1-14.jpg  style="width:400px;"> Das Ausfüllen der Innenseite des Teils stellt uns vor eine Schwierigkeit, die mit den aktuellen Werkzeugen im PartDesign Arbeitsbereich nicht gelöst werden kann. Die hervorgehobene Kante kann überhaupt nicht verrundet werden, wiederum weil sich die Runden überlappen würden. Dies könnte umgangen werden, indem eine Austragung anstelle einer Verrundung erstellt wird, mit der Ausnahme, dass Austragungen in PartDesign noch nicht implementiert sind. Vorläufig sind wir gezwungen, die Kante so zu belassen, wie sie ist.
 <img alt="Das verrundeten Teil (mit Ausnahme der unmöglichen Kante)" src=images/HolderTop1-15.jpg  style="width:400px;"> Das Bild rechts zeigt das fertige Teil in dem Zustand, in dem es sich vor der Bearbeitung befinden wird (mit Ausnahme der einen Kante, die nicht verrundet werden kann). Du wirst feststellen, dass eine Kante, die um das gesamte Teil herum verläuft, absichtlich nicht ausgefüllt wurde. Dies ist die Kante, an der sich die Unterseite und die Oberseite der Form treffen. Hier ist keine Verrundung möglich (und wird auch nicht benötigt).
 
-## Spanende Bearbeitung {#spanende_bearbeitung}
+## Spanende Bearbeitung 
 
 <img alt="Spanende Bearbeitung der Ober- und Unterseite des Gehäuses" src=images/HolderTop1-16.jpg  style="width:400px;"> <img alt="Spanende Bearbeitung der Innenseite des Lagergehäuses" src=images/HolderTop1-17.jpg  style="width:400px;"> Jetzt können wir das zu bearbeitende Material vom rohen Gussteil wegschneiden. Dies ist sehr einfach, wenn die Skelettgeometrie definiert ist. Die Idee besteht darin, alle Bearbeitungsmerkmale (Taschen und Nuten) nur mit Bezugsformelementen zu erzeugen. Das bedeutet, dass sie völlig unabhängig von der Volumengeometrie des Lagergehäuses sind, was uns einige große Vorteile bringt:
 
@@ -106,7 +106,7 @@ Um die Unterseite des Gehäuses zu bearbeiten, skizziere einfach ein großes Rec
 
 Wir haben die Oberseite des Lagergehäuses mit den Abmessungen modelliert, die er nach dem Gießen haben wird. Um die Gussform zu erstellen, musst du dein Teil schrumpfen lassen, denn nach dem Gießen, wenn das heiße Metall abkühlt, wird es um einige Prozent schrumpfen (je nach Material). In der Regel ist es am besten, die Anwendung der Schrumpfung der Gießerei zu überlassen, die das Teil herstellt, da sie über die erforderlichen Spezialkenntnisse verfügt. Du solltest Ihnen auch sagen, ob dein Teil problematische Bereiche aufweist, z.B. sehr dicke Wände, die sich plötzlich mit sehr dünnen Abschnitten verbinden, ohne dass dazwischen ein richtig verjüngter Abschnitt liegt.
 
-## Teil Zwei {#teil_zwei}
+## Teil Zwei 
 
 [PartDesign Lagergehäuse Tutorium II](PartDesign_Bearingholder_Tutorial_II/de.md)
 

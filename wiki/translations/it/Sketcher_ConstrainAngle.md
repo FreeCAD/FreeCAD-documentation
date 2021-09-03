@@ -36,16 +36,16 @@ Per applicare il vincolo angolo, si dovrebbe il seguire la seguente procedura:
 2.  Richiamare il comando in uno di questi modi:
     -   Cliccare sull\'icona **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Angolo** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **A**.
-    -   Usare la voce {{MenuCommand|Sketch → Vincoli → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Angolo}} dal menu principale.
+    -   Usare la voce **Sketch → Vincoli → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Angolo** dal menu principale.
 3.  Si apre una finestra di dialogo di modifica del dato.
 4.  Se necessario, modificare il valore. **Nota:** L\'angolo può essere inserito anche come una espressione che viene valutata e di cui viene memorizzato il risultato.
 5.  Fare clic su **OK**.
 
 Come per qualsiasi vincolo valore, è possibile modificare in seguito il valore dell\'angolo facendo doppio clic sul vincolo nella lista dei vincoli o nella vista 3D. Un valore negativo inverte la direzione dell\'angolo.
 
-## Modalità di vincolo {#modalità_di_vincolo}
+## Modalità di vincolo 
 
-### Angolo di inclinazione di una linea {#angolo_di_inclinazione_di_una_linea}
+### Angolo di inclinazione di una linea 
 
 **Selezioni accettate:** linea
 
@@ -53,7 +53,7 @@ Come per qualsiasi vincolo valore, è possibile modificare in seguito il valore 
 
 Il vincolo imposta l\'angolo polare della direzione della linea. È l\'angolo tra la linea e l\'asse X dello schizzo.
 
-### Ampiezza di un arco (v0.15) {#ampiezza_di_un_arco_v0.15}
+### Ampiezza di un arco (v0.15) 
 
 **Selezioni accettate:** arco di circonferenza
 
@@ -61,7 +61,7 @@ Il vincolo imposta l\'angolo polare della direzione della linea. È l\'angolo tr
 
 In questa modalità, il vincolo fissa l\'ampiezza di un arco di circonferenza.
 
-### Tra due linee {#tra_due_linee}
+### Tra due linee 
 
 **Selezioni accettate:** linea + linea
 
@@ -69,7 +69,7 @@ In questa modalità, il vincolo fissa l\'ampiezza di un arco di circonferenza.
 
 In questa modalità, il vincolo imposta l\'angolo tra due linee. Non è necessario che le linee siano intersecanti.
 
-### Nell\'intersezione tra due curve (angolo-nel-punto) (v0.15) {#nellintersezione_tra_due_curve_angolo_nel_punto_v0.15}
+### Nell\'intersezione tra due curve (angolo-nel-punto) (v0.15) 
 
 **Selezioni accettate:** qualsiasi linea/curva + qualsiasi linea/curva + qualsiasi punto
 

@@ -22,21 +22,21 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Arc.svg" width=16px> [Draft Arc](Draft_Arc.md)** button.
-    -   Select the {{MenuCommand|Drafting → Arc tools → <img src="images/Draft_Arc.svg" width=16px> Arc}} option from the menu.
-2.  The {{MenuCommand|Arc}} task panel opens. See [Options](#Options.md) for more information.
+    -   Select the **Drafting → Arc tools → <img src="images/Draft_Arc.svg" width=16px> Arc** option from the menu.
+2.  The **Arc** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point, the center of the arc, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-4.  Pick the second point in the [3D view](3D_view.md), or enter a {{MenuCommand|Radius}}.
-5.  Pick the third point in the [3D view](3D_view.md), or enter a {{MenuCommand|Start angle}}.
-6.  Pick the fourth point in the [3D view](3D_view.md), or enter an {{MenuCommand|Aperture angle}}.
+4.  Pick the second point in the [3D view](3D_view.md), or enter a **Radius**.
+5.  Pick the third point in the [3D view](3D_view.md), or enter a **Start angle**.
+6.  Pick the fourth point in the [3D view](3D_view.md), or enter an **Aperture angle**.
 
 ## Options
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter the coordinates for the center enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   The {{MenuCommand|Relative}} checkbox has no purpose for this command.
--   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the {{MenuCommand|Continue}} checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs.
+-   The **Relative** checkbox has no purpose for this command.
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
@@ -48,8 +48,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   If the {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available}} option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
+-   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 

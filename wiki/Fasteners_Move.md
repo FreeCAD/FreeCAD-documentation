@@ -24,7 +24,7 @@ For example to attach a screw to a part, the part must have features with circul
 
 4.  Invoke the Fasteners Move tool several ways:
     -   Press the <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Fasteners → Move}} entry in the Fasteners menu
+    -   Use the **Fasteners → Move** entry in the Fasteners menu
 
 Result: fastener will move to the new location.
 

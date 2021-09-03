@@ -29,7 +29,7 @@ Das **<img src="images/Part_CheckGeometry.svg" width=16px> [Part GeometriePrüfe
 1.  Wähle ein Teil aus (achte darauf, das gesamte Teil auszuwählen und nicht nur eine Fläche, um auf ein gültiges Volumenmodell zu prüfen)
 2.  Rufe das Werkzeug auf, durch entweder:
     -   Klicke auf die **<img src="images/Part_CheckGeometry.svg" width=16px>** Schaltfläche, die in der Werkzeugleiste des Teil Arbeitsbereichs verfügbar ist.
-    -   Verwenden des {{MenuCommand|Part → <img src="images/Part_CheckGeometry.svg" width=16px> Geometrie prüfen}} Eintrags im oberen Menü.
+    -   Verwenden des **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Geometrie prüfen** Eintrags im oberen Menü.
 
 
 </div>
@@ -46,11 +46,11 @@ Ergebnisse werden im [Aufgabenpaneel](Task_panel/de.md) aufgeführt.
 
 ## Options
 
-### Skip settings page {#skip_settings_page}
+### Skip settings page 
 
-If ticked, subsequent invocations of the tool skip showing the {{MenuCommand|Settings}} task panel.
+If ticked, subsequent invocations of the tool skip showing the **Settings** task panel.
 
-### Run BOP check {#run_bop_check}
+### Run BOP check 
 
 
 <div class="mw-translate-fuzzy">
@@ -60,7 +60,7 @@ Die Funktion PrüfeGeometrie prüft, ob die [Randdarstellung](https://en.wikiped
 
 </div>
 
-### Log errors {#log_errors}
+### Log errors 
 
 If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
 

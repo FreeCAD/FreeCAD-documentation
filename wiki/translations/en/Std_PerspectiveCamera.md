@@ -16,7 +16,7 @@ The **Std PerspectiveCamera** command switches the camera in the active [3D view
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|View → <img src="images/Std_PerspectiveCamera.svg" width=16px> Perspective view}} option from the menu.
+    -   Select the **View → <img src="images/Std_PerspectiveCamera.svg" width=16px> Perspective view** option from the menu.
     -   Use the keyboard shortcut: **V** then **P**.
 
 ## Notes
@@ -25,7 +25,7 @@ The **Std PerspectiveCamera** command switches the camera in the active [3D view
 
 ## Preferences
 
--   The camera type can be changed in the preferences: {{MenuCommand|Edit → Preferences... → Display → 3D View → Camera type}}. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   The camera type can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 ## Scripting
 

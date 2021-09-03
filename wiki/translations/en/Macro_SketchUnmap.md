@@ -190,7 +190,7 @@ else:
 -   Only process one sketch at a time
 -   Only work on sketch objects
 
-### Forum discussion {#forum_discussion}
+### Forum discussion 
 
 For any feedback (bug, feature request, comments, \...), please use this forum thread : [(FR) macro to remap sketch to different reference](https://forum.freecadweb.org/viewtopic.php?f=22&t=36078)
 

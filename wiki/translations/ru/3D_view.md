@@ -34,53 +34,53 @@
 
 Когда по умолчанию активен верстак [ Центр Запуска](Start_Workbench/ru.md), щелчок правой кнопкой мыши на 3D-виде показывает только одну команду:
 
--    {{MenuCommand|[Стили навигации](Mouse_Model/ru.md)}}: различные стили поведения кнопок при работе с 3-кнопочной мышью или сенсорным трекпадом ноутбука.
+-    **[Стили навигации](Mouse_Model/ru.md)**: различные стили поведения кнопок при работе с 3-кнопочной мышью или сенсорным трекпадом ноутбука.
 
 
 </div>
 
 Однако после загрузки [верстака](Workbenches/ru.md) появляются дополнительные команды:
 
--    {{MenuCommand|Действия ссылки}}: [Создать ссылку](Std_LinkMake/ru.md).
+-    **Действия ссылки**: [Создать ссылку](Std_LinkMake/ru.md).
 
     -   
-        {{MenuCommand|Создать группу Ссылок}}
+        **Создать группу Ссылок**
         
         : [Simple group](Std_LinkMakeGroup.md), [Group with links](Std_LinkMakeGroup.md), [Group with transform links](Std_LinkMakeGroup.md).
 
--    {{MenuCommand|[Уместить всё](Std_ViewFitAll/ru.md)}}: панорамирование и масштабирование вида для размещения всех объектов документа на экране.
+-    **[Уместить всё](Std_ViewFitAll/ru.md)**: панорамирование и масштабирование вида для размещения всех объектов документа на экране.
 
--    {{MenuCommand|[Уместить выделенное](Std_ViewFitSelection/ru.md)}}: перемещает и масштабирует изображение так, чтобы полностью показать на экране выбранный в данный момент объект.
+-    **[Уместить выделенное](Std_ViewFitSelection/ru.md)**: перемещает и масштабирует изображение так, чтобы полностью показать на экране выбранный в данный момент объект.
 
--    {{MenuCommand|[Стиль отрисовки](Std_DrawStyle/ru.md)}}: как есть, точки, каркас, скрытые линии, без затенения, только грани, плоские линии.
+-    **[Стиль отрисовки](Std_DrawStyle/ru.md)**: как есть, точки, каркас, скрытые линии, без затенения, только грани, плоские линии.
 
--    {{MenuCommand|[Стандартные виды](Std_View_Menu/ru.md)}}: [изометрический](Std_ViewIsometric/ru.md), [спереди](Std_ViewFront/ru.md), [сверху](Std_ViewTop/ru.md), [справа](Std_ViewRight/ru.md), [сзади](Std_ViewRear/ru.md), [снизу](Std_ViewBottom/ru.md), [слева](Std_ViewLeft/ru.md), [повернуть влево](Std_ViewRotateLeft/ru.md), [повернуть вправо](Std_ViewRotateRight/ru.md).
+-    **[Стандартные виды](Std_View_Menu/ru.md)**: [изометрический](Std_ViewIsometric/ru.md), [спереди](Std_ViewFront/ru.md), [сверху](Std_ViewTop/ru.md), [справа](Std_ViewRight/ru.md), [сзади](Std_ViewRear/ru.md), [снизу](Std_ViewBottom/ru.md), [слева](Std_ViewLeft/ru.md), [повернуть влево](Std_ViewRotateLeft/ru.md), [повернуть вправо](Std_ViewRotateRight/ru.md).
 
--    {{MenuCommand|Measure/Измерения}}: [показывать замеры](View_Measure_Toggle_All/ru.md), [удалить замеры](View_Measure_Clear_All/ru.md).
+-    **Measure/Измерения**: [показывать замеры](View_Measure_Toggle_All/ru.md), [удалить замеры](View_Measure_Clear_All/ru.md).
 
--    {{MenuCommand|Окно документа}}: [закреплённое](Std_ViewDockUndockFullscreen/ru.md), [откреплённое](Std_ViewDockUndockFullscreen/ru.md), и [на весь экран](Std_ViewDockUndockFullscreen/ru.md).
+-    **Окно документа**: [закреплённое](Std_ViewDockUndockFullscreen/ru.md), [откреплённое](Std_ViewDockUndockFullscreen/ru.md), и [на весь экран](Std_ViewDockUndockFullscreen/ru.md).
 
 Кроме того, в зависимости от активного верстака и активного в данный момент объекта, могут быть доступны другие контекстные команды.
 
 Например, с выбранным верстаком [Part(Деталь)](Part_Workbench/ru.md) и одним выбранным объектом:
 
--    {{MenuCommand|[Внешний вид](Std_SetAppearance/ru.md)}}: запускает диалоговое окно для изменения цвета и размеров линий и вершин, а также цвета граней.
+-    **[Внешний вид](Std_SetAppearance/ru.md)**: запускает диалоговое окно для изменения цвета и размеров линий и вершин, а также цвета граней.
 
--    {{MenuCommand|[Видимость](Std_ToggleVisibility/ru.md)}}: делает объект видимым или невидимым в окне 3D-вида.
+-    **[Видимость](Std_ToggleVisibility/ru.md)**: делает объект видимым или невидимым в окне 3D-вида.
 
--    {{MenuCommand|[Откл-вкл выделяемость](Std_ToggleSelectability/ru.md)}}: делает объект больше не выбираемым в окне 3D-вида; снова используйте эту команду, чтобы отменить этот эффект. Она устанавливает атрибут `Selectable` объекта в значение `True` или `False`. Измените свойство **Selectable** переключив его в [редакторе свойств](Property_editor/ru.md).
+-    **[Откл-вкл выделяемость](Std_ToggleSelectability/ru.md)**: делает объект больше не выбираемым в окне 3D-вида; снова используйте эту команду, чтобы отменить этот эффект. Она устанавливает атрибут `Selectable` объекта в значение `True` или `False`. Измените свойство **Selectable** переключив его в [редакторе свойств](Property_editor/ru.md).
 
--    {{MenuCommand|[Перейти к выделенному](Std_TreeSelection/ru.md)}}: раскрывает [древо проекта](Tree_view/ru.md), чтобы показать выбранный объект в его иерархии.
+-    **[Перейти к выделенному](Std_TreeSelection/ru.md)**: раскрывает [древо проекта](Tree_view/ru.md), чтобы показать выбранный объект в его иерархии.
 
--    {{MenuCommand|[Случайный цвет](Std_RandomColor/ru.md)}}: назначает объекту случайный цвет. Он устанавливает значение атрибута цвета объекта `ShapeColor`, массивом `(r,g,b)` из трёх случайных значений в диапазоне от 0 до 1. Измените свойство, отредактировав **Shape Color** в [редакторе свойств](Property_editor/ru.md).
+-    **[Случайный цвет](Std_RandomColor/ru.md)**: назначает объекту случайный цвет. Он устанавливает значение атрибута цвета объекта `ShapeColor`, массивом `(r,g,b)` из трёх случайных значений в диапазоне от 0 до 1. Измените свойство, отредактировав **Shape Color** в [редакторе свойств](Property_editor/ru.md).
 
--    {{MenuCommand|[Удалить](Std_Delete/ru.md)}}: удаляет объект из документа и из 3D-вида, вызывая метод `removeObject()` документа.
+-    **[Удалить](Std_Delete/ru.md)**: удаляет объект из документа и из 3D-вида, вызывая метод `removeObject()` документа.
 
 Другой пример, с [верстаком Draft](Draft_Workbench/ru.md) и одним выбранным объектом, он показывает те же команды, что и в случае с [верстаком Part](Part_Workbench/ru.md), но так же:
 
--    {{MenuCommand|Draft}}: команды создания и изменения объектов из [верстака Draft](Draft_Workbench/ru.md).
+-    **Draft**: команды создания и изменения объектов из [верстака Draft](Draft_Workbench/ru.md).
 
--    {{MenuCommand|Utilities}}: дополнительные контекстные команды, предоставляемые [верстаком Draft](Draft_Workbench/ru.md).
+-    **Utilities**: дополнительные контекстные команды, предоставляемые [верстаком Draft](Draft_Workbench/ru.md).
 
 ## Подробности
 

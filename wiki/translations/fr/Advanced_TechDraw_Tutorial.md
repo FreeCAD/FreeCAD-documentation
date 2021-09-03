@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -11,7 +11,7 @@
 |FCVersion=≥ 0.19.23300
 }}
 
-## L\'objectif en bref {#lobjectif_en_bref}
+## L\'objectif en bref 
 
 Créez des points, des lignes, des cercles, des arcs, etc\... dans des vues TechDraw et/ou des dessins \"cosmétiques\" entiers avec une précision absolue, adaptée aux outils de cotation dont l\'établi est équipé, pour générer des dessins techniques conformes et détaillés.
 
@@ -36,7 +36,7 @@ Ce tutoriel présente à l\'utilisateur expérimenté une utilisation avancée d
 
 *Note: These planes can be joined together by overlapping/ coinciding of two edges using the Boolean feature of <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Part Union](Part_Fuse.md).* The planes thus formed and suitably positioned (according to our provisions) will be used as **cutting blades** <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part SliceApart](Part_SliceApart.md), cutting our 3D object into several parts according to the chosen planar confirmation.\'\'
 
-## Before You Begin {#before_you_begin}
+## Before You Begin 
 
 The Workbenches that are used to produce the drawings of the attached examples are:
 \* <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
@@ -46,7 +46,7 @@ The Workbenches that are used to produce the drawings of the attached examples a
 -   <img alt="" src=images/Workfeature_workbench_icon.svg  style="width:24px;"> [Workfeature Workbench](Workfeature_Workbench.md)
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md)
 
-## The Task {#the_task}
+## The Task 
 
 Stages of the procedure:
 
@@ -83,7 +83,7 @@ In the hope of having been useful, good work and good experimentation!
 
 ## Notes
 
-## Future Outlook {#future_outlook}
+## Future Outlook 
 
 However, the described path could represent the starting point (or the idea) to write additional code to automate the system and integrate it directly into TechDraw with appropriate button / command functions.
 

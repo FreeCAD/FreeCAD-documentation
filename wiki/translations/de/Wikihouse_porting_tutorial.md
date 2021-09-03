@@ -20,7 +20,7 @@ Since the Wikihouse project is open by nature, files are easy to find on the pro
 
 In the following tutorial we used the [Chassis](https://github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) file from Wikihouse\'s Microhouse subproject.
 
-## Vorbereiten der Sketchup Datei {#vorbereiten_der_sketchup_datei}
+## Vorbereiten der Sketchup Datei 
 
 The first thing you will need to do is to open the file in SketchUp and delete everything you don\'t want to export. We will only export one section of the Microhouse, so everything else must be deleted.
 
@@ -44,21 +44,21 @@ Repeat this for each component. Since many are duplicated, this is not as huge a
 
 When our piece of house is fully made of flat elements, we can select everything and export it to a .dae file, and then import this file into FreeCAD. Be sure to mark the \"triangulate all
 
-## Lösung des Doppelflächen Fehlers {#lösung_des_doppelflächen_fehlers}
+## Lösung des Doppelflächen Fehlers 
 
 There is a nasty problem for which I haven\'t found a better solution: Meshes exported from SketchUp to the .dae format have their faces duplicated. Each face becomes actually two faces. The easiest way I have found so far is to open the exported file in [Blender](http://www.blender.org) for repair:
 
-1.  Open the dae file in Blender ({{MenuCommand|File → Import → Collada}})
+1.  Open the dae file in Blender (**File → Import → Collada**)
 2.  Select a component, and hit **TAB** to enter edit mode
 3.  Press **A** to deselect everything, then **A** again to select everything
 4.  Press **W** → Remove doubles
 5.  Press **TAB** to exit edit mode
 6.  Repeat for all the components
-7.  Save a new dae file ({{MenuCommand|File → Export → Collada}})
+7.  Save a new dae file (**File → Export → Collada**)
 
 Normally the above operation shouldn\'t change the scale, but it is always wise to verify, using the measuring tools, that the imported geometry is at correct scale before going further. You might need to tweak Blender\'s Collada export settings if needed.
 
-## Importieren und Umwandeln in Drähte {#importieren_und_umwandeln_in_drähte}
+## Importieren und Umwandeln in Drähte 
 
 Note that it might be easier to go by parts and treat + export objects group by group, as we did below, we exported only the first layer, made of yellow elements in SketchUp. These elements will come into FreeCAD as [Mesh](Mesh_Workbench.md) objects:
 
@@ -84,7 +84,7 @@ The Extract Wires from Mesh macro also sometimes fails in finding closed wires i
 
 There are many possible strategies here, depending on how editable and precise you need the result. The [Arch Panel](Arch_Panel.md) object needs a base object made of wires. It doesn\'t matter how this object is made, if it is a single sketch, or, like in the example above, a compound of different sketches or draft object.
 
-## Umwandlung in Skizzen {#umwandlung_in_skizzen}
+## Umwandlung in Skizzen 
 
 It is also possible to do that part later, you could already create Panels from each of the component, but let\'s see already how to to convert a wire-like object to a sketch:
 
@@ -99,7 +99,7 @@ It is also possible to do that part later, you could already create Panels from 
 
 ![](images/Arch_Wikihouse_12.jpg )
 
-## Wiederherstellung des Wikihouse und Export von Schneidblättern {#wiederherstellung_des_wikihouse_und_export_von_schneidblättern}
+## Wiederherstellung des Wikihouse und Export von Schneidblättern 
 
 Also, make sure you don\'t redo any duplicated part. Instead, select the [Draft Clone](Draft_Clone.md) tool to duplicate parts based on the same profile, so they will all share one same profile object. Then, since we have the outline at the correct place to use as a guide, it is fairly easy to rotate and move the clone into its correct position with [Draft Rotate](Draft_Rotate.md) and [Draft Move](Draft_Move.md).
 

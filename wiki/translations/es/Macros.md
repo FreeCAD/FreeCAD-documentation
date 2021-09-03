@@ -21,9 +21,9 @@ Vea el [Centro de usuarios avanzados](Power_users_hub/es.md) para aprender más 
 -   [Tutorial de Guión en Python](Python_scripting_tutorial/es.md)
 -   [Fundamentos de Guión en FreeCAD](FreeCAD_Scripting_Basics/es.md)
 
-## ¿Cómo funciona? {#cómo_funciona}
+## ¿Cómo funciona? 
 
-Activa la salida de la consola en el menú {{MenuCommand|Edición → Preferencias → General → Macro → Mostrar comandos de scripts en la consola de python}}. Verás que en FreeCAD, cada acción que realizas, como pulsar un botón, da salida a un comando de Python. Esos comandos son los que se pueden grabar en una macro. La herramienta principal para hacer macros es la barra de herramientas de macros: ![](images/Macros_toolbar.jpg ). En ella tienes 4 botones: Grabar, detener la grabación, editar y reproducir la macro actual.
+Activa la salida de la consola en el menú **Edición → Preferencias → General → Macro → Mostrar comandos de scripts en la consola de python**. Verás que en FreeCAD, cada acción que realizas, como pulsar un botón, da salida a un comando de Python. Esos comandos son los que se pueden grabar en una macro. La herramienta principal para hacer macros es la barra de herramientas de macros: ![](images/Macros_toolbar.jpg ). En ella tienes 4 botones: Grabar, detener la grabación, editar y reproducir la macro actual.
 
 Su uso es muy sencillo: Pulsa el botón de grabar, se te pedirá que des un nombre a tu macro, y luego realiza algunas acciones. Cuando hayas terminado, pulsa el botón de parar la grabación, y tus acciones se guardarán. Ahora puedes acceder al diálogo de la macro con el botón de edición.
 
@@ -43,7 +43,7 @@ Pulsa el botón de grabar, dale un nombre, digamos \"cilindro de 10x10, entonces
 
 ## Personalización
 
-Por supuesto que no es práctico cargar una macro en el editor con el fin de usarla. FreeCAD proporciona formas mucho mejores de iniciar la macro, como la asignación de un atajo de teclado, o poner una entrada en el menú. Una vez que la macro se crea, todo esto se puede hacer a través de menú {{MenuCommand| Herramientas →  Personalizar}}.
+Por supuesto que no es práctico cargar una macro en el editor con el fin de usarla. FreeCAD proporciona formas mucho mejores de iniciar la macro, como la asignación de un atajo de teclado, o poner una entrada en el menú. Una vez que la macro se crea, todo esto se puede hacer a través de menú ** Herramientas →  Personalizar**.
 
 ![](images/Macros_config.jpg )
 
@@ -57,7 +57,7 @@ De esta manera puedes hacer que tu macro se convierta en una herramienta real, c
 
 Ver [Personalizar barras de herramientas](Customize_Toolbars/es.md) para una descripción más detallada.
 
-## Creación de macros sin grabar {#creación_de_macros_sin_grabar}
+## Creación de macros sin grabar 
 
 También puedes copiar/pegar directamente código python en una macro, sin grabar acciones de la interfaz gráfica de usuario. Basta con crear una nueva macro, editarla, y pegar el código. A continuación, puedes guardar la macro del mismo modo que se guarda un documento de FreeCAD. La próxima vez que se inicie FreeCAD, la macro aparecerá bajo el apartado \"Macros instaladas\" del menú Macro.
 
@@ -72,7 +72,7 @@ Ver [Cómo instalar las macros](How_to_install_macros/es.md) para obtener una de
 
 <div class="mw-translate-fuzzy">
 
-## Repositorio de Macros {#repositorio_de_macros}
+## Repositorio de Macros 
 
 
 </div>
@@ -85,7 +85,7 @@ Visita la página [Recetas de macros](Macros_recipes/es.md) para recoger algunas
 
 </div>
 
-## Información adicional {#información_adicional}
+## Información adicional 
 
 -   [Ejecutar automáticamente la macro al inicio](Macro_at_Startup/es.md)
 -   [Instalar más ambientes de trabajo](Installing_more_workbenches/es.md)

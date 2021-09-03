@@ -10,13 +10,13 @@
 
 The [FreeCAD BugTracker](https://www.freecadweb.org/tracker) is the place toː report bugs, submit feature requests, patches, or request to merge your branch if you developed something using Git. The tracker is divided into \'Workbenches\', so please be specific and file your request in the appropriate subsection. In case of doubt, leave it in the \"FreeCAD\" section.
 
-## Recommended Workflow {#recommended_workflow}
+## Recommended Workflow 
 
 ![](images/Bugreport-workflow.png )
 
 As shown in the above flowchart, before creating tickets, please always first search the forums and bugtracker to discover if your issue is a known issue. This saves a lot of time/work for developers and volunteers that could be spending said time making FreeCAD even more awesome.
 
-## Reporting bugs {#reporting_bugs}
+## Reporting bugs 
 
 If you think you might have found a bug, you are welcome to report it as long as you have followed our step-by-step guidelinesː
 
@@ -35,7 +35,7 @@ If you think you might have found a bug, you are welcome to report it as long as
 -   Please file one separate report for each bug.
 -   If your bug causes a crash in FreeCAD and you\'re on a system that supports it you can try running a **debug backtrace** and attach said trace to the ticket. This can save devs a lot of time pinpointing the source of the crash. See [Debugging](Debugging.md) for more details.
 
-## Requesting features {#requesting_features}
+## Requesting features 
 
 If you want something to appear in FreeCAD that is not implemented yet, it is not a bug but a feature request.
 
@@ -48,7 +48,7 @@ If you want something to appear in FreeCAD that is not implemented yet, it is no
 
 ![FreeCAD Bugtracker report page - use the dropdown to correctly designate what the ticket is](images/MantisBT-setting-Feature-Request.jpg )
 
-## Submitting patches {#submitting_patches}
+## Submitting patches 
 
 In case you have programmed a bug fix, an extension or something else that can be of public use in FreeCAD, create a patch using the Git diff tool and submit it on the same tracker (file it as *patch*).
 
@@ -61,15 +61,15 @@ Addendumː FreeCAD development has switched to the [GitHub](https://github.com/F
 
 **NOTEː** the FreeCAD community recommends to first discuss any large revision to the source code in advance to save everyone time.
 
-## Requesting merge {#requesting_merge}
+## Requesting merge 
 
 (Same guidelines as [Submiting patches](https://www.freecadweb.org/wiki/Tracker#Submitting_patches))
 
 If you have created a git branch containing changes that you would like to see merged into the FreeCAD code, you can ask there to have your branch reviewed and merged if the FreeCAD developers are OK with it. You must first publish your branch to a public git repository (github, gitlab, bitbucket, sourceforge etc\...) and then give the URL of your branch in your merge request.
 
-## MantisBT Tips and Tricks {#mantisbt_tips_and_tricks}
+## MantisBT Tips and Tricks 
 
-### MantisBT Markup {#mantisbt_markup}
+### MantisBT Markup 
 
 MantisBT (Mantis Bug Tracker) has it\'s own unique markup.
 
@@ -95,7 +95,7 @@ MantisBT (Mantis Bug Tracker) has it\'s own unique markup.
 
 <img alt="" src=images/mantisbt-colorized-code-example.jpg  style="width:600px;">
 
-### MantisBT BBCode {#mantisbt_bbcode}
+### MantisBT BBCode 
 
 In addition to the above [MantisBT Markup](Tracker#MantisBT_Markup.md) one also has the possibility to use BBCode format. For a comprehensive list see the [BBCode plus plugin page](https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags). Here is a list of supported BBCode tagsː 
 [img][/img] - Images
@@ -137,13 +137,13 @@ In addition to the above [MantisBT Markup](Tracker#MantisBT_Markup.md) one also 
 
 <img alt="" src=images/mantisbt-source-integration-markup.jpg  style="width:600px;"> 
 
-## GitHub and MantisBT {#github_and_mantisbt}
+## GitHub and MantisBT 
 
 The FreeCAD bugtracker has a plug-in called [Source Integration](https://github.com/mantisbt-plugins/source-integration) which essentially ties both the FreeCAD GitHub repo to our MantisBT tracker. It makes it easier to track and associate git commits with their respective MantisBT tickets. **The Source Integration plugin scans the git commit messages for specific keywords in order to execute the following actions:**
 
 **Note** The below keywords need to be added in the git commit message and not the PR subject
 
-### Remotely referencing a ticket {#remotely_referencing_a_ticket}
+### Remotely referencing a ticket 
 
 Using this pattern will automagically associate a git commit to a ticket (**Note:** this will not close the ticket.) The format MantisBT will recognize:
 
@@ -157,7 +157,7 @@ Using this pattern will automagically associate a git commit to a ticket (**Note
 For the inquisitive here is the regex MantisBT uses for this operation:
 
 
-### Remotely resolving a ticket {#remotely_resolving_a_ticket}
+### Remotely resolving a ticket 
 
 The format MantisBT will recognize:
 

@@ -17,7 +17,7 @@ Der <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Entwur
 1.  Wähle optional ein oder mehrere Entwurfsobjekte oder [Skizzierer Skizzen](Sketcher_NewSketch/de.md).
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_Draft2Sketch.svg" width=16px> [Entwurf EntwurfZuSkizze](Draft_Draft2Sketch/de.md)**.
-    -   Wähle die {{MenuCommand|Änderung → <img src="images/Draft_Draft2Sketch.svg" width=16px> Entwurf zu Skizze}} im Menü.
+    -   Wähle die **Änderung → <img src="images/Draft_Draft2Sketch.svg" width=16px> Entwurf zu Skizze** im Menü.
 3.  Wenn du noch kein Objekt ausgewählt hast: Wähle ein Objekt in der [3D Ansicht](3D_view/de.md).
 4.  Ein neues Objekt wird erstellt.
 

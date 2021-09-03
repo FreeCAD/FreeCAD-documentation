@@ -12,7 +12,7 @@ Crea una linea parametrica.
 
 Utilizzare il menu {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16px> Crea primitive... → Linea}}. Si apre una finestra di dialogo che consente di impostare:
 
-### Primitive Geometriche {#primitive_geometriche}
+### Primitive Geometriche 
 
 +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 | ![](images/PartLinePrimitivesOptions_it.png ) | Linea                                                                                                     |

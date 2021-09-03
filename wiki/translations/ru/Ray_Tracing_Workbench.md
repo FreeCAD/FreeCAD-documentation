@@ -23,7 +23,7 @@
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
-## Типивой рабочий процесс {#типивой_рабочий_процесс}
+## Типивой рабочий процесс 
 
 1.  Создайте или откройте прокет FreeCAD, добавьте некоторые твердотельные объекты модулей ([Part](Part_Workbench/ru.md) или [PartDesign](PartDesign_Workbench/ru.md)); сетки пока не поддерживаются.
 2.  Создайте проект трассировки лучей (для povray или luxrender).
@@ -37,7 +37,7 @@
 
 ## Инструменты
 
-### Инструменты проекта {#инструменты_проекта}
+### Инструменты проекта 
 
 Это главные инструменты для экспорта Вашей трёхмерной работы во внешние визуализаторы.
 
@@ -65,7 +65,7 @@
 -   [Базовый учебник Raytracing](Raytracing_tutorial/ru.md)
 -   [Учебник Raytracing среднего уровня](Tutorial_FreeCAD_POV_ray/ru.md)
 
-## Ручное создание файла povray {#ручное_создание_файла_povray}
+## Ручное создание файла povray 
 
 Описанные выше вспомогательные инструменты позволяют экспортировать текущий трёхмерный вид и его содержимое в файл [Povray](http://www.povray.org/). Сначала вы должны загрузить или создать данные САПР и расположить ориентацию трёхмерного вида по своему желанию. Затем выберите из меню трассировки \"Вспомогательные → Экспорт вида\...\".
 
@@ -81,7 +81,7 @@
 
 ## Ссылки
 
-### POV-Ray {#pov_ray}
+### POV-Ray 
 
 -   [POV-Ray страница в данной wiki](POV-Ray.md)
 -   <http://www.spiritone.com/~english/cyclopedia/>
@@ -93,14 +93,14 @@
 -   [LuxRender страница в данной wiki](LuxRender.md)
 -   <http://www.luxrender.net/>
 
-### Рендеры, которые могут быть реализованы в будущем {#рендеры_которые_могут_быть_реализованы_в_будущем}
+### Рендеры, которые могут быть реализованы в будущем 
 
 -   <http://www.yafaray.org/>
 -   <http://www.mitsuba-renderer.org/>
 -   <http://www.kerkythea.net/>
 -   <http://www.artofillusion.org/>
 
-## Exporting to Kerkythea {#exporting_to_kerkythea}
+## Exporting to Kerkythea 
 
 Although direct export to the Kerkythea XML-File-Format is not supported yet, you can export your Objects as Mesh-Files (.obj) and then import them in Kerkythea.
 

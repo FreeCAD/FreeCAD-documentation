@@ -19,7 +19,7 @@ I comandi dell\'interfaccia grafica dell\'utente (GuiCommand) sono una delle fun
 
 <div class="mw-translate-fuzzy">
 
-### Nome del comando {#nome_del_comando}
+### Nome del comando 
 
 Il Comando Gui è denominato nel modo: *ModuleName\_CommandName*. Ad esempio, \"Base\_Open\" nell\'interfaccia grafica è il comando *Open* nel sistema *Base*. I comandi della Gui specifici di un modulo sono denominati con il nome del modulo come prefissso. Ad esempio: \"Part\_Cylinder\".
 
@@ -37,7 +37,7 @@ Se la sua documentazione non è completa usare la maschera [Template:UnfinishedD
 
 <div class="mw-translate-fuzzy">
 
-### Pagina di aiuto {#pagina_di_aiuto}
+### Pagina di aiuto 
 
 Ogni GuiCommand deve avere una pagina di aiuto. La pagina di aiuto è ospitata sul wiki della documentazione di FreeCAD. L\'articolo ha lo stesso nome del GuiCommand. Per esempio [Draft ShapeString](Draft_ShapeString.md) (in inglese) - [Draft ShapeString](Draft_ShapeString/it.md) (in it).
 
@@ -109,7 +109,7 @@ Cerchiamo di rispettare quanto più possibile questo schema, in modo che il colo
 
 <div class="mw-translate-fuzzy">
 
-## Requisiti di qualità {#requisiti_di_qualità}
+## Requisiti di qualità 
 
 In FreeCAD esistono diversi comandi dell\'interfaccia grafica (Funzioni) che sono sperimentali o utilizzati raramente in attesa di implementazione. Questi comandi Gui si trovano per lo più negli ambienti specifici quali Parte, Mesh o Cam. Per consentire all\'utente una sperimentazione efficace si è creato un ambiente di lavoro definito *Completo*. Questo ambiente di lavoro incorpora tutti i comandi Gui che soddisfano determinati **requisiti di qualità** che sono descritti qui:
 

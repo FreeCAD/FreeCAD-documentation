@@ -56,7 +56,7 @@ Maintenant que vous comprenez l\'interpréteur Python, nous pouvons continuer av
 
 [En haut](#top.md)
 
-## Les Variables {#les_variables}
+## Les Variables 
 
 Très souvent dans la programmation vous avez besoin de stocker une valeur sous un nom. C\'est là que les variables entrent en jeu. Par exemple, tapez ceci :
 
@@ -99,7 +99,7 @@ La casse est très importante, `myVariable` n\'est pas la même chose que `myvar
 
 [En haut](#top.md)
 
-## Les Nombres {#les_nombres}
+## Les Nombres 
 
 Bien sûr les programmes Python peuvent traiter toutes sortes de données, pas seulement les chaînes de caractères. Une chose est importante, Python doit savoir de quel type de données il s\'agit. Nous avons vu dans notre exemple print hello que la commande `print()` a reconnu notre chaîne de caractères `"hello"`. En utilisant les caractères `" "`, nous avons spécifié que ce qui suit est une chaîne de caractères.
 
@@ -201,7 +201,7 @@ myVar
 
 [En haut](#top.md)
 
-## Les Listes (Tableaux) {#les_listes_tableaux}
+## Les Listes (Tableaux) 
 
 Un autre type de données utile est le type **list**. Une liste est une collection d\'autres données. Pour définir une liste nous utilisons `[ ]` :
 
@@ -344,7 +344,7 @@ else:
 
 [En haut](#top.md)
 
-## Les Fonctions {#les_fonctions}
+## Les Fonctions 
 
 Il existe très peu de [commandes Python standard](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) et nous en connaissons déjà plusieurs. Mais vous pouvez créer vos propres commandes. En fait, la plupart des modules supplémentaires que vous pouvez connecter à votre installation Python le font déjà, ils ajoutent des commandes que vous pouvez utiliser. Une commande personnalisée en Python s\'appelle une fonction et se présente comme suit :
 
@@ -380,7 +380,7 @@ Ici nous avons créé une fonction qui reçoit deux arguments, les additionne et
 
 [En haut](#top.md)
 
-## Les Modules {#les_modules}
+## Les Modules 
 
 Maintenant que vous avez une bonne idée du fonctionnement de Python, vous aurez besoin de savoir encore une chose: comment travailler avec des fichiers et des modules.
 
@@ -476,7 +476,7 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 [En haut](#top.md)
 
-## Démarrer avec FreeCAD {#démarrer_avec_freecad}
+## Démarrer avec FreeCAD 
 
 Espérons que vous avez maintenant une bonne idée du fonctionnement de Python et que vous pouvez commencer à explorer ce que FreeCAD a à offrir. Les fonctions Python de FreeCAD sont toutes bien organisées en différents modules. Certains d\'entre eux sont déjà chargés (importés) lorsque vous démarrez FreeCAD. Essayez simplement :
 

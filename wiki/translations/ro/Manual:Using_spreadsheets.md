@@ -17,7 +17,7 @@ Cu toate acestea, în FreeCAD, foile de calcul au o utilitate suplimentară: Cel
 
 În următorul exemplu, vom crea câteva obiecte, vom prelua unele dintre proprietățile lor dintr-o foaie de calcul și apoi vom folosi foaia de lucru pentru a modifica proprietățile altor obiecte.
 
-### Lectura Proprietăților {#lectura_proprietăților}
+### Lectura Proprietăților 
 
 
 <div class="mw-translate-fuzzy">
@@ -65,7 +65,7 @@ The [Spreadsheet Workbench](Spreadsheet_Workbench.md) page will describe in more
 
 </div>
 
-### Scrierea proprietăților {#scrierea_proprietăților}
+### Scrierea proprietăților 
 
 O altă utilizare foarte interesantă a Atelierul foi de calcul (Spreadsheet) în FreeCAD este de a face exact opusul a ceea ce am făcut până acum: n loc să citim valorile proprietăților obiectelor 3D, putem atribui valori acestor obiecte. Amintiți-vă, totuși, una dintre regulile fundamentale ale FreeCAD: dependențele circulare sunt interzise. Noi nu putem folosi aceeași foaie de calcul pentru a citi **and** scrie valorile la un obiect 3D. Acest lucru ar face ca obiectul să depindă de foaia de calcul, care depinde, de asemenea, de obiect. În schimb, vom crea o altă foaie de calcul.
 

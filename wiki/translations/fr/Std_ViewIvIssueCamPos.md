@@ -20,7 +20,7 @@ La commande **Std Position de la caméra** affiche les paramètres de la caméra
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → Stéréo → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Récupérer la position de la caméra}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → Stéréo → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Récupérer la position de la caméra** dans le menu.
 
 ## Remarques
 

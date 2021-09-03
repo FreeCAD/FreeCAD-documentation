@@ -22,17 +22,17 @@ Every once in a while a new contributor proposes a new logo or icon. This page i
 
 [Artwork Guidelines](Artwork_Guidelines.md) captures the current guidelines. This section proposes a simplified version of those.
 
-### Size and format {#size_and_format}
+### Size and format 
 
 As there are various screen sizes and contexts, the artwork needs to be scalable. To achieve this scalability all icons must be done in the vector (SVG) format. Splash screens, OTOH are allowed to be raster graphics. At the same time, splash screens should be provided with several resolutions, according to [HiDPI support](HiDPI_support.md) guidelines.
 
-### Color scheme {#color_scheme}
+### Color scheme 
 
 As discussed in the section below, colors should be decided separately from the artwork. The artwork format should support an easy re-coloring so that it be consistent with brand colors (when people start proposing color schemes).
 
 As Qt doesn\'t support SVG selectors, a set of icons embedded into FreeCAD distribution should have the colors either hardcoded or replaced in runtime.
 
-## Logo proposals {#logo_proposals}
+## Logo proposals 
 
 ![](images/Logo_proposals_2020.png )
 
@@ -58,7 +58,7 @@ Some contributors forcefully reject the idea of voting, advocating the delegatio
 
 [Artwork](Artwork.md) is proposed less often as there are dozens and hundreds of icons in FreeCAD. Only a few people dared to try this. The traditional artwork is done by a single man years ago. There are currently 2 proposals in progress.
 
-## Color palettes {#color_palettes}
+## Color palettes 
 
 Colors are quite an important part of branding. Unique colors are subconsciously associate the product with a brand in the mind of a user. Since artwork proposals are of various color schemes, we need to come up with an easy way to apply a color theme to icons once we establish it.
 
@@ -75,7 +75,7 @@ Currently, there are hundreds of different colors and gradients in the existing 
 
 The current color palette is captured in google drive: <https://drive.google.com/file/d/0B_xxY57wUEV-RWNaMHV2OGpoY00/view>
 
-## External links {#external_links}
+## External links 
 
 ### GitHub
 
@@ -86,7 +86,7 @@ The current color palette is captured in google drive: <https://drive.google.com
 -   [Vanuan\'s FreeCAD project](https://www.figma.com/file/QiSdiUf1vGO6KWdC3dIm6Z/FreeCAD?node-id=5%3A0)
 -   [Stephan Bogner\'s Icon theme project](https://www.figma.com/file/DeX9eYTL6y9bvMJYykbXWx/FreeCAD-Icon-Theme?node-id=162%3A0)
 
-### Forum threads {#forum_threads}
+### Forum threads 
 
 #### Logo
 

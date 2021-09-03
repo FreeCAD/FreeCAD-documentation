@@ -12,7 +12,7 @@ Interfaces are created using [PySide](PySide.md), which is a library for using Q
 
 There are typically two ways of creating interfaces with PySide.
 
-### Interface in a .ui file {#interface_in_a_.ui_file}
+### Interface in a .ui file 
 
 In this method the interface is defined in a `.ui` file (an XML document that defines the structure of the interface), which is then imported into [Python](Python.md) code that uses it. This is the recommended approach.
 
@@ -24,7 +24,7 @@ In this method the interface is defined in a `.ui` file (an XML document that de
 
 For examples on this method see [Interface creation with UI files](Interface_creation_with_UI_files.md).
 
-### Interface completely in Python code {#interface_completely_in_python_code}
+### Interface completely in Python code 
 
 In this method the entire interface is defined by several Python calls.
 

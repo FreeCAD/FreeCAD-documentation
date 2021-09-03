@@ -18,7 +18,7 @@ This tool toggles the visibility of linear (red) and angular (blue) measurements
 
 1.  Invoke the command several ways:
     -   Press the **<img src=images/Part_Measure_Toggle_3d.svg style="width:16px"> '''Toggle 3d'''** button
-    -   Use the {{MenuCommand|Measure → Toggle 3d}}
+    -   Use the **Measure → Toggle 3d**
 
 
 

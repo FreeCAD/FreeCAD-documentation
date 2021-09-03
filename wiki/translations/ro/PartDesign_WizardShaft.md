@@ -37,7 +37,7 @@ Partea superioară a ferestrei este preluată din tabel. Este organizată în co
 
 <div class="mw-translate-fuzzy">
 
-## Condiții preliminare {#condiții_preliminare}
+## Condiții preliminare 
 
 Asistent pentru proiectarea arborelui depinde de biblioteca [matplotlib](http://matplotlib.org/) pentru a crea și afișa graficele forței de forfecare și momentului de încovoiere. Sub sistemele Debian / Ubuntu, acesta este disponibil prin pachetul python-matplotlib.
 
@@ -82,7 +82,7 @@ Pentru a adăuga un nou segment de arbore, faceți clic dreapta în spațiul gol
 
 -   Nu este posibil să aveți segmente adiacente ale arborelui cu același diametru.
 
-## Funcționalitate Planificată {#funcționalitate_planificată}
+## Funcționalitate Planificată 
 
 -   Valori tabelare pentru șanfren și muchiile rotunjite pe marginea arborelui
 -   Recunoașteți o parte a asistentului arbore creat anterior și inițializați valorile tabelului din acesta

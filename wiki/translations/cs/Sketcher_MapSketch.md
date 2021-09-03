@@ -34,7 +34,7 @@ Vyberte plochu na objektu nebo aplikujte změnu a potom klikněte na tlačítko 
 
 </div>
 
-## Use when repairing a broken model {#use_when_repairing_a_broken_model}
+## Use when repairing a broken model 
 
 Sketcher MapSketch is often used when repairing a broken model.
 

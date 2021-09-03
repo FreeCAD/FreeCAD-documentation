@@ -4,7 +4,7 @@
 
 *Recuerda seguir estos cinco pasos para lograr prácticamente cualquier tarea. Estos cinco pasos son:*
 
-## Objetivo y principios {#objetivo_y_principios}
+## Objetivo y principios 
 
 *El primer paso en el modelo es definir el **objetivo y los principios**. Piensa en la última vez que reservaste las vacaciones de la familia. Siempre hay un propósito para las vacaciones. Podría ser coger un bien merecido descanso del trabajo, para relajarse y pasar tiempo de calidad con tu esposa e hijos, o simplemente ir a ver una atracción turística específica en tus vacaciones. Independemente de la razón, habrá objetivo y principios para su viaje. No te levantas un día y te vas de vacaciones, implementas el primer paso del modelo de planificación natural y este es tener un propósito para el viaje.*
 
@@ -26,7 +26,7 @@
 
 </div>
 
-## Siguientes acciones {#siguientes_acciones}
+## Siguientes acciones 
 
 *El último, y quinto paso es **identificar y establecer las siguientes acciones**. La metodología GTD contempla que el mejor modo de completar una tarea, es decidir y establecer las siguientes acciones. No hacemos tareas, hacemos acciones siguientes. Así que el mejor modo de reservar tus vacaciones es decidir cuales son las acciones siguientes. Estas normalmente deberían ser elementos como, ver el alojamiento en internet, ver las comparativas on-line para localizar vuelos y alojamientos más económicos, llamar y ver a un agente de viajes para ver susu precios y recomendaciones. Otra vez, estaría sorprendido si cualquiera anotase estas siguientes acciones, pero también lo estaría si cualquiera se olvidara de estas siguientes acciones. Es gracioso como nuestra mente tiene un gran modo de recordar proyectos asignados y planiearlos utilizando el modelo de planificación natural.*
 

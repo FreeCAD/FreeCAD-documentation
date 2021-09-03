@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-### Wie alles begann {#wie_alles_begann}
+### Wie alles begann 
 
 Die Geschichte von FreeCAD startete im Januar 2001, als [Jürgen Riegel](User:Jriegel.md) begann, am Cas.CADE-Projekt mitzuarbeiten, einem kommerziellen Software-Entwicklungsgerüst mit einem [geometrischen Modellierungskern](Glossary#Geometric_modeling_kernel.md) (oder CAD-Kern), das im Jahr 2000 unter einer Open-Source-Lizenz veröffentlicht und in [Open Cascade](Glossary#Open_CASCADE.md) umbenannt wurde. Dies machte die Realisierung eines Open-Source-3D-CAD-Programms möglich, denn einen CAD-Kern von Grund auf zu erstellen, hätte eine Riesenmenge an Arbeit bedeutet.
 
@@ -47,7 +47,7 @@ Das Projekt wurde der Öffentlichkeit 2003 im [OpenCascade Forum](http://www.ope
 
 <div class="mw-translate-fuzzy">
 
-### Werner Mayer {#werner_mayer}
+### Werner Mayer 
 
 Nach seinen eigenen Worten ist er vom ersten Tag an im Projekt, an dem das Projekt angekündigt wurde und betriebsunterstützend. Vor diesem Tag war das Projekt ein privates Projekt (Spielwiese?) von Jürgen. Siehe Forenbeitrag von Werner auf Deutsch: <https://forum.freecadweb.org/viewtopic.php?f=13&t=40235&start=10#p342330>
 
@@ -96,7 +96,7 @@ Schließlich nahm das Projekt Fahrt auf und neue Schlüsselentwickler kamen in d
 
 <div class="mw-translate-fuzzy">
 
-### Yorik trat dem Projekt bei {#yorik_trat_dem_projekt_bei}
+### Yorik trat dem Projekt bei 
 
 [Yorik van Havre](User:Yorik.md) trat dem Projekt 2008 bei und begann mit der Arbeit am [Entwurfsmodul](Draft_Module/de.md). Vor diesem Zeitpunkt gab es keine Möglichkeit, 2D-Geometrie mit dem [GUI](Glossary/de#GUI.md) zu erstellen. Dieses Modul wurde vollständig in Python programmiert und nicht in C++, der in FreeCAD verwendeten Kernprogrammiersprache. Dies bewies, dass die Python Integration ein Erfolg war und dazu genutzt werden konnte, die Fähigkeiten von FreeCAD zu erweitern oder anzupassen. Zusätzlich zu seiner Arbeit am Entwurfsmodul arbeitete Yorik an der Erweiterung der FreeCAD Dokumentation und wurde zum *de facto*\"Art Director\" von FreeCAD, der viele Symbole für die FreeCAD GUI und [Stildefinition](Artwork/de.md) erstellte.
 
@@ -112,7 +112,7 @@ Gegen Ende 2009 wurde FreeCAD als Debian-Paket in den Debian-Repositories akzept
 
 <div class="mw-translate-fuzzy">
 
-### Das Projekt geht weiter {#das_projekt_geht_weiter}
+### Das Projekt geht weiter 
 
 Die im Juli 2010 veröffentlichte Version 0.10 führte die [Arbeitsbereich Skizze](Sketcher_Workbench/de.md) ein, die auf Sketchsolve basiert, einem beschränkungsbasierten Löser zur Erstellung von 2D-Geometrien. Die erste Version war beschränkt auf die Erstellung von Rechtecken und Linien.
 
@@ -140,7 +140,7 @@ Die im Januar 2012 veröffentlichte Version 0.12 bot einen kompletteren Sketcher
 
 <div class="mw-translate-fuzzy">
 
-### Vergrößerung des Kern-Entwickler-Teams {#vergrößerung_des_kern_entwickler_teams}
+### Vergrößerung des Kern-Entwickler-Teams 
 
 Das Team der Kern-Entwickler wird von den drei alten Hasen Jürgen, Werner und Yorik am 3. April 2019 um Abdullah, Bernd, sliptonic und WandererFan erweitert (siehe [coredeveloper](https://github.com/orgs/FreeCAD/teams/core-developers/members)).
 
@@ -150,7 +150,7 @@ Das Team der Kern-Entwickler wird von den drei alten Hasen Jürgen, Werner und Y
 
 <div class="mw-translate-fuzzy">
 
-## Interessante Beiträge im Forum {#interessante_beiträge_im_forum}
+## Interessante Beiträge im Forum 
 
 =
 

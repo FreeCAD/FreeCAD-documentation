@@ -24,7 +24,7 @@ The Detail view can be displayed within a round or square view box. This is cont
 
 ## Properties
 
-### Detail View {#detail_view}
+### Detail View 
 
 -    **BaseView**: The view on which this Detail view is based.
 
@@ -42,7 +42,7 @@ The Detail view can be displayed within a round or square view box. This is cont
 
 -    **Reference**: An identifier to indicate the area of the **BaseView** that is displayed.
 
-### Base View {#base_view}
+### Base View 
 
 A Detail view inherits all applicable properties of the view specified as **BaseView**. In the properties of this view you can change the appearance of the detail outline:
 

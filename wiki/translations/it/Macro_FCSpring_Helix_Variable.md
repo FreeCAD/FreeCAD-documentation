@@ -64,7 +64,7 @@ Schema di configurazione della molla
 
 ![](images/Macro_FCSpring_Helix_Variable_02.png ) 
 
-#### Tipo di linea {#tipo_di_linea}
+#### Tipo di linea 
 
 -    {{RadioButton|TRUE|<img src="images/Draft_BSpline.svg" width=24px> Bspline}}**BSpline** : Linea di tipo BSpline.
 
@@ -104,7 +104,7 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little r
 
 ![](images/Macro_FCSpring_Helix_Variable_02_1.png ) 
 
-#### Position (0)(xx) {#position_0xx}
+#### Position (0)(xx) 
 
 (0)(xx) : Number selection(s), length in mm of axis created x 10, Dati e numeri punti per la posizione della molla sopra l\'asso
 
@@ -120,7 +120,7 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little r
 
 ![](images/Macro_FCSpring_Helix_Variable_02_2.png ) 
 
-#### Spire di lunghezza speciale {#spire_di_lunghezza_speciale}
+#### Spire di lunghezza speciale 
 
 -    {{SpinBox|Num: 2}}**Numbering of coil** : Numero di spire da modificare. (Defaut : nessuna)
 
@@ -164,19 +164,19 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little r
 
 ![](images/Macro_FCSpring_Helix_Variable_05.png ) 
 
-## Registro degli eventi {#registro_degli_eventi}
+## Registro degli eventi 
 
 La finestra Report visualizzata tutti i valori modificati.
 
 ![](images/Macro_FCSpring_Helix_Variable_06.png ) 
 
-## Esempio di molla {#esempio_di_molla}
+## Esempio di molla 
 
 Esempio di molla modificata
 
 ![](images/Macro_FCSpring_Helix_Variable_07.png ) 
 
-## Esempio di rapporto nel Registro degli eventi {#esempio_di_rapporto_nel_registro_degli_eventi}
+## Esempio di rapporto nel Registro degli eventi 
 
 All\'avvio della macro viene visualizzato l\'elenco completo dei giri sotto forma di tabella.
 
@@ -289,7 +289,7 @@ Il file sopra è una macro sotto forma di codice GitHub. Scaricare il file Zip d
 
 La discussione nel forum: [Try to do a Spring](http://forum.freecadweb.org/viewtopic.php?f=3&t=8313&p=68161#p68161)
 
-## In progetto {#in_progetto}
+## In progetto 
 
 molla troncata
 

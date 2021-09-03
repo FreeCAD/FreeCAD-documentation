@@ -78,7 +78,7 @@ El botón **Switch L/H** se puede usar para cambiar los valores de Longitud y Al
 <img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
 *Algunos preajustes para estructuras prefabricadas de hormigón*
 
-## Nodos estructurales {#nodos_estructurales}
+## Nodos estructurales 
 
 Los objetos estructurales también tienen la capacidad de mostrar nodos estructurales. Los nodos estructurales son una secuencia de puntos 3D almacenados en una propiedad \"Nodos\". Al activar o desactivar la propiedad de vista \"Mostrar nodos\", se pueden ver los nodos estructurales de un elemento estructural:
 

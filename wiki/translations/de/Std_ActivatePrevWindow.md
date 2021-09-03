@@ -15,12 +15,12 @@ Der **Std VorherigesFenster**-Befehl funktioniert nicht korrekt [1](https://foru
 
 1.  Der Hauptansichtsbereich muss wenigstens zwei Fenster enthalten.
 2.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Wähle die {{MenuCommand|Fenster → <img src="images/Std_ActivatePrevWindow.svg" width=16px> Vorheriges Fenster}}-Option aus dem Menü.
+    -   Wähle die **Fenster → <img src="images/Std_ActivatePrevWindow.svg" width=16px> Vorheriges Fenster**-Option aus dem Menü.
     -   Benutze den Tastaturkurzbefehl: **Strg**+**Shift**+**Tab**.
 
 ## Hinweise
 
-Fenster im Hauptansichtsbereich sind auch im {{MenuCommand|Fenster}}-Menü aufgeführt und können von dort aktiviert werden.
+Fenster im Hauptansichtsbereich sind auch im **Fenster**-Menü aufgeführt und können von dort aktiviert werden.
 
 
 

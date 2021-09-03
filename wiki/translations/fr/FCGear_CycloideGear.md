@@ -23,7 +23,7 @@ Les engrenages cycloïdaux sont très sensibles à un ajustement inexact de la d
 1.  Basculez vers <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
 2.  Appelez la commande de plusieurs manières:
     -   Appuyez sur le bouton <img alt="" src=images/FCGear_CycloideGear.svg  style="width:22px;"> [Create a Cycloide gear](FCGear_CycloideGear/fr.md) dans la barre d\'outils.
-    -   En utilisant {{MenuCommand|Gear Menu → Cycloide gear}}.
+    -   En utilisant **Gear Menu → Cycloide gear**.
 3.  Modifiez le paramètre d\'engrenage aux conditions requises (voir ci-dessous **Properties → Data**).
 
 ## Propriétés
@@ -83,11 +83,11 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 Les limitations ne sont pas encore connues.
 
-## Formules utiles {#formules_utiles}
+## Formules utiles 
 
 Pour plus d\'informations voir <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:22px;"> [Engrenage à développante de cercle](FCGear_InvoluteGear/fr.md).
 
-## Propriétés vue paramètres cycloïdes {#propriétés_vue_paramètres_cycloïdes}
+## Propriétés vue paramètres cycloïdes 
 
 <img alt="" src=images/CycloidGear_inner-outer-diameter_2.svg  style="width:400px;">
 

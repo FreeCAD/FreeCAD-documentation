@@ -33,9 +33,9 @@ Les corps créés avec PartDesign sont souvent soumis à un [problème de dénom
 
 ## Outils
 
-Les outils Part Design sont situés dans le menu {{MenuCommand|Part Design}} qui apparaît lorsque l\'atelier Part Design est chargé.
+Les outils Part Design sont situés dans le menu **Part Design** qui apparaît lorsque l\'atelier Part Design est chargé.
 
-### Outils structure {#outils_structure}
+### Outils structure 
 
 Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennent au système [Std Base](Std_Base/fr.md). Ils ont été développés en v0.17 avec l\'intention qu\'ils seraient utiles pour organiser un modèle et créer des assemblages ; en tant que tels, ils sont très utiles lorsque vous travaillez avec des corps créés avec cet atelier.
 
@@ -43,7 +43,7 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Groupe](Std_Group/fr.md): ajoute un Groupe dans l\'arborescence du document actif, qui permet d\'organiser les objets dans la [vue arborescence](Tree_view/fr.md).
 
-### Outils d\'assistance Part Design {#outils_dassistance_part_design}
+### Outils d\'assistance Part Design 
 
 -   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Corps](PartDesign_Body/fr.md) : crée un objet [Body](Body/fr.md) dans le document actif et le rend actif.
 
@@ -53,9 +53,9 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md) : applique une esquisse sur une face ou un plan sélectionné du corps actif.
 
-### Outils de modélisation Part Design {#outils_de_modélisation_part_design}
+### Outils de modélisation Part Design 
 
-#### Outils de référence {#outils_de_référence}
+#### Outils de référence 
 
 -   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Point de référence](PartDesign_Point/fr.md) : crée un point de référence dans le corps actif.
 
@@ -71,7 +71,7 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Clone](PartDesign_Clone/fr.md) : crée un clone dans le corps actif.
 
-#### Outils additifs {#outils_additifs}
+#### Outils additifs 
 
 Ces outils permettent de créer des fonctions de base ou d\'ajouter de la matière à un corps solide existant.
 
@@ -103,7 +103,7 @@ Ces outils permettent de créer des fonctions de base ou d\'ajouter de la matiè
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Pyramide tronquée additive](PartDesign_AdditiveWedge/fr.md) : crée une pyramide tronquée additive.
 
-#### Outils soustractifs {#outils_soustractifs}
+#### Outils soustractifs 
 
 Ces outils permettent d\'enlever de la matière à un corps solide existant.
 
@@ -137,7 +137,7 @@ Ces outils permettent d\'enlever de la matière à un corps solide existant.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Pyramide tronquée soustractive](PartDesign_SubtractiveWedge/fr.md) : crée une pyramide tronquée soustractive.
 
-#### Outils de transformation {#outils_de_transformation}
+#### Outils de transformation 
 
 Ces outils permettent d\'appliquer une transformation au moyen de fonctions existantes. Elles vous permettront de choisir quelles fonctions utiliser.
 
@@ -149,7 +149,7 @@ Ces outils permettent d\'appliquer une transformation au moyen de fonctions exis
 
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Transformation multiple](PartDesign_MultiTransform/fr.md) : crée une combinaison de n\'importe quelle des autres transformations.
 
-#### Outils d\'habillage {#outils_dhabillage}
+#### Outils d\'habillage 
 
 Ces outils appliquent un traitement aux arêtes ou faces sélectionnées.
 
@@ -177,7 +177,7 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 
 -   <img alt="" src=images/WizardShaft.svg  style="width:32px;"> [ Assistant de conception d\'arbre](PartDesign_WizardShaft/fr.md) : génère un arbre à partir d\'un tableau de valeurs et permet d\'analyser les forces et les moments. L\'arbre est construit à partir de la révolution d\'une esquisse qui peut être modifiée.
 
-### Éléments du menu contextuel {#éléments_du_menu_contextuel}
+### Éléments du menu contextuel 
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Désigner comme fonction résultante](PartDesign_MoveTip/fr.md): redéfinit la fonction résultante qui est la fonction exposée à l\'extérieur du Corps.
 
@@ -185,7 +185,7 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md): permet de réorganiser l\'arborescence du corps en déplaçant l\'esquisse, la géométrie de référence ou l\'entité sélectionnée vers une autre position dans la liste des entités.
 
-#### Éléments partagés avec l\'atelier Part {#éléments_partagés_avec_latelier_part}
+#### Éléments partagés avec l\'atelier Part 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Std Apparence](Std_SetAppearance/fr.md): détermine l\'apparence de la pièce entière (transparence des couleurs etc\...).
 

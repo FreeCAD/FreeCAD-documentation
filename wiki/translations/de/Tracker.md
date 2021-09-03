@@ -10,13 +10,13 @@
 
 Der [FreeCAD FehlerVerfolger](https://www.freecadweb.org/tracker) ist der Ort umː Fehler zu melden, Funktionsanfragen zu übermitteln, Änderungssätze einzureichen oder deine Verzweigung zusammenführen zu können, wenn du etwas unter Verwendung von Git entwickelt hast. Der Verfolger ist in \'Arbeitsbereiche\' unterteilt, also sei bitte präzise und reiche deine Anfrage in dem entsprechenden Unterabschnitt ein. Im Zweifelsfall belasse sie im Abschnitt \"FreeCAD\".
 
-## Empfohlener Arbeitsablauf {#empfohlener_arbeitsablauf}
+## Empfohlener Arbeitsablauf 
 
 ![](images/Bugreport-workflow.png )
 
 Wie im obigen Flussdiagramm dargestellt, durchsuche bitte vor dem Erstellen von Tickets immer zuerst die Foren und den Fehlerverfolger, um herauszufinden, ob dein Problem ein bekanntes Problem ist. Dies erspart Entwicklern und Freiwilligen eine Menge Zeit/Arbeit, die diese Zeit damit verbringen könnte, FreeCAD noch fantastischer zu machen.
 
-## Fehler melden {#fehler_melden}
+## Fehler melden 
 
 Wenn du glaubst, einen Fehler gefunden zu haben, kannst du ihn gerne melden, solange du unsere Schritt-für-Schritt-Richtlinien befolgt hast.
 
@@ -35,7 +35,7 @@ Wenn du glaubst, einen Fehler gefunden zu haben, kannst du ihn gerne melden, sol
 -   Bitte reiche für jeden Fehler einen separaten Bericht ein.
 -   Wenn dein Fehler einen Absturz in FreeCAD verursacht und du dich auf einem System befindest, das dies unterstützt, kannst du versuchen, einen **debug backtrace** auszuführen und diesen Trace an das Ticket anzuhängen. Dies kann Entwicklern viel Zeit ersparen, die Quelle des Absturzes zu lokalisieren. Siehe [Fehlerdiagnose](Debugging/de.md) für weitere Einzelheiten.
 
-## Anfordern von Funktionen {#anfordern_von_funktionen}
+## Anfordern von Funktionen 
 
 Wenn du möchtest, dass etwas in FreeCAD erscheint, das noch nicht implementiert ist, es handelt sich nicht um einen Fehler, sondern um eine Funktionsanfrage.
 
@@ -48,7 +48,7 @@ Wenn du möchtest, dass etwas in FreeCAD erscheint, das noch nicht implementiert
 
 ![FreeCAD Fehlerverfolger-Berichtsseite - verwende die Auswahlliste, um korrekt zu bestimmen, was das Ticket ist](images/MantisBT-setting-Feature-Request.jpg )
 
-## Einreichen von Änderungssätzen {#einreichen_von_änderungssätzen}
+## Einreichen von Änderungssätzen 
 
 Falls du eine Fehlerbehebung, eine Erweiterung oder etwas anderes programmiert hast, das in FreeCAD von öffentlichem Nutzen sein kann, erstelle einen Änderungssatz mit dem Git diff Werkzeug und sende ihn auf demselben Fehlerverfolger (Datei als *Patch* ablegen).
 
@@ -61,15 +61,15 @@ Addendumː Die FreeCAD Entwicklung ist auf das [GitHub](https://github.com/FreeC
 
 **Anmerkung** die FreeCAD-Gemeinschaft empfiehlt, jede größere Überarbeitung des Quellcodes im Voraus zu diskutieren, um allen Zeit zu sparen.
 
-## Zusammenführen anfragen {#zusammenführen_anfragen}
+## Zusammenführen anfragen 
 
 (Dieselben Richtlinien wie [Einreichen von Änderungssätzen](https://www.freecadweb.org/wiki/Tracker#Submitting_patches))
 
 Wenn du einen Git Zweig erstellt hast, der Änderungen enthält, die du gerne im FreeCAD Code zusammengeführt sehen möchtest, kannst du dort darum bitten, dass dein Zweig überprüft und zusammengeführt wird, wenn die FreeCAD Entwickler damit einverstanden sind. Du musst zuerst deinen Zweig in einem öffentlichen Git Repositorium (github, gitlab, bitbucket, sourceforge etc\...) veröffentlichen und dann die URL deines Zweiges in deiner Zusammenführungsanfrage angeben.
 
-## MantisBT Tips und Tricks {#mantisbt_tips_und_tricks}
+## MantisBT Tips und Tricks 
 
-### MantisBT Kennzeichnungen {#mantisbt_kennzeichnungen}
+### MantisBT Kennzeichnungen 
 
 MantisBT (Mantis Bug Tracker) hat seine eigene einzigartige Kennzeichnung.
 
@@ -95,7 +95,7 @@ MantisBT (Mantis Bug Tracker) hat seine eigene einzigartige Kennzeichnung.
 
 <img alt="" src=images/mantisbt-colorized-code-example.jpg  style="width:600px;">
 
-### MantisBT BBCode {#mantisbt_bbcode}
+### MantisBT BBCode 
 
 Zusätzlich zu dem obigen [MantisBT Kennzeichnung](Tracker/de#MantisBT_Markup.md) hat man auch die Möglichkeit, das BBCode Format zu verwenden. Für eine umfassende Liste siehe die [BBCode plus Plugin Seite](https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags). Hier ist eine Liste der unterstützten BBCode tagsː 
 [img][/img] - Bilder
@@ -137,13 +137,13 @@ Zusätzlich zu dem obigen [MantisBT Kennzeichnung](Tracker/de#MantisBT_Markup.md
 
 <img alt="" src=images/mantisbt-source-integration-markup.jpg  style="width:600px;"> 
 
-## GitHub und MantisBT {#github_und_mantisbt}
+## GitHub und MantisBT 
 
 Der FreeCAD Fehlerverfolger verfügt über ein ZUsatzprogramm namens [Quellintegration](https://github.com/mantisbt-plugins/source-integration), das im Wesentlichen sowohl das FreeCAD GitHub Repo als auch unseren MantisBT Fehlerverolger verbindet. Es macht es einfacher, Git Verpflichtungen zu verfolgen und mit ihren jeweiligen MantisBT Tickets zu verknüpfen. **Das Quellintegrationszusatzprogramm durchsucht die Git Verpflichtungsnachrichten nach bestimmten Schlüsselwörtern, um die folgenden Aktionen auszuführen:**
 
 **Hinweis** Die folgenden Schlüsselwörter müssen in der git commit message und nicht im PR Thema hinzugefügt werden
 
-### Fernreferenzierung eines Tickets {#fernreferenzierung_eines_tickets}
+### Fernreferenzierung eines Tickets 
 
 Durch die Verwendung dieses Musters wird ein Git Commit automatisch einem Ticket zugeordnet (**Hinweis:**\' dies wird das Ticket nicht schließen). Das Format wird von MantisBT erkannt: The format MantisBT will recognize:
 
@@ -157,7 +157,7 @@ Durch die Verwendung dieses Musters wird ein Git Commit automatisch einem Ticket
 Für die Neugierigen hier ist die regex, die MantisBT für diese Operation verwendet:
 
 
-### Ferngesteuerte Lösung eines Tickets {#ferngesteuerte_lösung_eines_tickets}
+### Ferngesteuerte Lösung eines Tickets 
 
 Das Format wird von MantisBT erkannt:\* fix \#1234
 

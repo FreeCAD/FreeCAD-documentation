@@ -38,9 +38,9 @@ With this tool, the internal subtracted objects will all become visible or hidde
 
 ## Опции
 
-The color of a subtraction element can follow the style of [Draft construction](Draft_ToggleConstructionMode.md) elements, by activating the appropriate option in the [Arch Preferences](Arch_Preferences.md), in the menu {{MenuCommand|Edit → Preferences → Arch → General settings → Apply Draft construction style to subcomponents}}.
+The color of a subtraction element can follow the style of [Draft construction](Draft_ToggleConstructionMode.md) elements, by activating the appropriate option in the [Arch Preferences](Arch_Preferences.md), in the menu **Edit → Preferences → Arch → General settings → Apply Draft construction style to subcomponents**.
 
-The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in the [Draft Preferences](Draft_Preferences.md), in the menu {{MenuCommand|Preferences → Draft → General Draft}}.
+The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in the [Draft Preferences](Draft_Preferences.md), in the menu **Preferences → Draft → General Draft**.
 
 
 

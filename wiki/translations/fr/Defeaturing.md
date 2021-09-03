@@ -8,7 +8,7 @@ Il permet également de modéliser directement le modèle lorsque l\'historique 
 
 Le moyen le plus simple d'utiliser Defeaturing est d'utiliser [l\'atelier Defeaturing](Defeaturing_Workbench/fr.md).
 
-## Extrait de code {#extrait_de_code}
+## Extrait de code 
 
 Defeaturing peut également être utilisé avec Python : 
 ```python

@@ -10,7 +10,7 @@
 
 ## Utilizzo
 
-### Dialog-based workflow {#dialog_based_workflow}
+### Dialog-based workflow 
 
 1.  Press the **<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** button.
 2.  In the **Select feature** dialog, select a sketch to be used as base profile object and click **OK**.
@@ -19,7 +19,7 @@
 4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
 5.  Set options if needed and click **OK**.
 
-### Selection-based workflow {#selection_based_workflow}
+### Selection-based workflow 
 
 
 <small>(v0.19)</small> 

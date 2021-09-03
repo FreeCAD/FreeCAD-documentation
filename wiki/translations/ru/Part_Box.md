@@ -21,7 +21,7 @@
 1.  Переключитесь на <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [верстак Part](Part_Workbench.md)
 2.  Существует несколько способов вызова команды:
     -   Нажмите на иконку куба **<img src="images/Part_Box.svg" width=16px>** на панели инструментов.
-    -   Выберите из меню {{MenuCommand|Деталь → Примитивы → <img src="images/Part_Box.svg" width=16px> Куб}}.
+    -   Выберите из меню **Деталь → Примитивы → <img src="images/Part_Box.svg" width=16px> Куб**.
 
 
 </div>

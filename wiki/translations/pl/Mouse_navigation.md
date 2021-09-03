@@ -141,10 +141,10 @@ Przytrzymaj klawisz **Alt** gdy pracujesz w środowisku [Sketcher](Sketcher_Work
 |Tilt_view_text=Przytrzymaj oba lewy i prawy przycisk myszy, a następnie przesuń kursor na bok. 
 |Tilt_view_gesture_text=Obróć umowną linię utworzoną przez dwa punkty dotyku.
 
-W wersji 0.18 metoda ta jest domyślnie wyłączona. Aby ją uaktywnić, przejdź do {{MenuCommand|Edit → Preferencje → Display}} i odznacz pole wyboru "Disable touchscreen tilt gesture".
+W wersji 0.18 metoda ta jest domyślnie wyłączona. Aby ją uaktywnić, przejdź do **Edit → Preferencje → Display** i odznacz pole wyboru "Disable touchscreen tilt gesture".
 }}
 
-### Maya-Gesture {#maya_gesture}
+### Maya-Gesture 
 
 W nawigacji Maya-Gesture, przesuwanie, powiększanie i obracanie widoku wymaga użycia klawisza **Alt** wraz z przyciskiem myszy; dlatego też wymagana jest myszka z trzema przyciskami. Możliwe jest również korzystanie z gestów, ponieważ tryb ten został opracowany na podstawie trybu [Gesture](Mouse_navigation/pl#Gesture.md) {{MayaGesture Navigation
 |Select_name=Wybór
@@ -201,27 +201,27 @@ Ewentualnie przytrzymaj klawisz **Ctrl** i lewy przycisk myszy, a następnie prz
 |Rotate_view_text=Przytrzymaj klawisz **Ctrl** i prawy przycisk myszy, a następnie przesuń kursor.
 }}
 
-## Zaznaczanie obiektów {#zaznaczanie_obiektów}
+## Zaznaczanie obiektów 
 
 Obiekty mogą być zaznaczane przez kliknięcie lewym przyciskiem myszy, także przez kliknięcie na obiekt w widoku 3D lub przez zaznaczenie w drzewie widoku. Obecny jest także mechanizm preselekcji, który podświetla obiekty i wyświetla informacje o nich przed zaznaczeniem, podczas najechania myszą na obiekt. Tesli nie chcesz tego zachowania lub masz wolną maszynę, możesz wyłączyć preselekcję w ustawieniach.
 
-## Łatwy wybór {#łatwy_wybór}
+## Łatwy wybór 
 
 Obiekty można wybrać klikając lewym przyciskiem myszy. Przez kliknięcie na nim w [widoku 3D](3D_view/pl.md), albo wybierając go w [widoku drzewa](tree_view/pl.md).
 
-### Wybór wstępny {#wybór_wstępny}
+### Wybór wstępny 
 
 Istnieje również mechanizm \"Preselekcji\", który podświetla obiekty i wyświetla informacje przed ich wyborem, po prostu wskazuj obiekty kursorem myszki. Jeśli nie podoba Ci się to zachowanie lub posiadasz wolniejszą maszynę, możesz wyłączyć preselekcję w preferencjach.
 
-## Manipulowanie obiektami {#manipulowanie_obiektami}
+## Manipulowanie obiektami 
 
 FreeCAD oferuje [manipulator](manipulator/pl.md), który może być użyty do modyfikowania wyglądu, kształtu lub innych parametrów obiektu.
 
-## Wspierany sprzęt {#wspierany_sprzęt}
+## Wspierany sprzęt 
 
 FreeCAD obsługuje również niektóre [urządzenia wejściowe 3D](3D_input_devices/pl.md).
 
-## Mac OS - X problemy {#mac_os___x_problemy}
+## Mac OS - X problemy 
 
 Ostatnio otrzymaliśmy raporty [na forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) od użytkowników komputerów Mac, że te przyciski myszy i kombinacje klawiszy nie działają zgodnie z oczekiwaniami. Niestety, żaden z deweloperów nie jest właścicielem komputera Mac, podobnie jak pozostali współpracownicy. Potrzebujemy twojej pomocy w określeniu, które przyciski myszy i kombinacje klawiszy działają, abyśmy mogli zaktualizować to wiki.
 

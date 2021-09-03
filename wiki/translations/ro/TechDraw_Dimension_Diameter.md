@@ -22,7 +22,7 @@ The Dimension Diameter tool adds a diameter dimension to a View. The dimension m
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați un cerc sau un arc de cerc în desen. (Notați că anumite arce de cerc apar ca fiind circulare dar de fapt sunt elipse sau curbe BSplines. Nu puteți realiza diametru dimension în aceste cazuri)
 2.  Apăsați butonul **<img src="images/Dimension_Diameter.png" width=24px> [Dimension Diameter](TechDraw_Dimension_Diameter.md)

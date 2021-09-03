@@ -48,7 +48,7 @@ Given a source [Shape](Shape.md), this tool can project edges, wires (closed edg
     -   
         {{RadioButton|TRUE|Show all}}
         
-        : it will show all types of closed wires and edges on the target surface. If a \"face\" subelement was selected in the previous step, a preview of a solid object extruded from the projection will be shown, depending on the value of {{MenuCommand|Extrude height}}.
+        : it will show all types of closed wires and edges on the target surface. If a \"face\" subelement was selected in the previous step, a preview of a solid object extruded from the projection will be shown, depending on the value of **Extrude height**.
 
     -   
         {{RadioButton|TRUE|Show faces}}
@@ -70,9 +70,9 @@ Notes:
 
 ## Options
 
--    {{MenuCommand|Extrude height}}: it is the height of the solid shape that is created by extruding the projected face, from the target surface and along the negative of the projection direction. For example, if the projection direction is along +Y {{Value|(0, 1, 0)}}, the extrusion will be created in the direction -Y {{Value|(0, -1, 0)}}. This solid extrusion will only be created if the subelement selected was a closed face, by pressing the **Add face** button, and by choosing the {{RadioButton|TRUE|Show all}} option.
+-    **Extrude height**: it is the height of the solid shape that is created by extruding the projected face, from the target surface and along the negative of the projection direction. For example, if the projection direction is along +Y {{Value|(0, 1, 0)}}, the extrusion will be created in the direction -Y {{Value|(0, -1, 0)}}. This solid extrusion will only be created if the subelement selected was a closed face, by pressing the **Add face** button, and by choosing the {{RadioButton|TRUE|Show all}} option.
 
--    {{MenuCommand|Solid depth}}: it is the distance that the projection object is moved along the projection direction. Negative values will displace the object in the opposite direction; this allows creating a projection that is offset from the target surface.
+-    **Solid depth**: it is the distance that the projection object is moved along the projection direction. Negative values will displace the object in the opposite direction; this allows creating a projection that is offset from the target surface.
 
 ## Limitations
 

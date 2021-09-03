@@ -15,21 +15,21 @@ Der **Punkte PolySchnitt** Befehl schneidet Punkte aus Punktwolken aus.
 2.  Wähle eine oder mehrere Punktwolken aus.
 3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Points_PolyCut.svg" width=16px> [Punkte PolySchnitt](Points_PolyCut/de.md)** Schaltfläche.
-    -   Wähle den {{MenuCommand|Punkte → <img src="images/Points_PolyCut.svg" width=16px> Punktwolke schneiden}} aus dem Menü.
+    -   Wähle den **Punkte → <img src="images/Points_PolyCut.svg" width=16px> Punktwolke schneiden** aus dem Menü.
 4.  Definiere ein Polygon in der 3D Ansicht.
 5.  Wähle eine Option aus dem Kontextmenü der 3D Ansicht:
     -   
-        {{MenuCommand|Beenden}}
+        **Beenden**
         
         : entfernt die Punkte, die sich innerhalb des Polygons befinden und schließt den Befehl ab.
 
     -   
-        {{MenuCommand|Löschen}}
+        **Löschen**
         
         : ermöglicht die Definition eines anderen Polygons.
 
     -   
-        {{MenuCommand|Abbrechen}}
+        **Abbrechen**
         
         : bricht den Befehl ab.
 

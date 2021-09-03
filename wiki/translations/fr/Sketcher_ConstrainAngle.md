@@ -27,16 +27,16 @@ Pour appliquer une contrainte d\'angle, il faut suivre les étapes suivantes :
 2.  Lancez la contrainte en utilisant plusieurs méthodes:
     -   En appuyant sur le bouton **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Fixer l'angle...](Sketcher_ConstrainAngle/fr.md)** dans la barre d\'outils.
     -   Utilisation du raccourci clavier **A**. (**A** est pour **A**ngle)
-    -   L\'utilisation de {{MenuCommand|Sketch → Contraintes d'esquisse → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Contraindre angulaire}} forme l\'entrée de menu supérieure
+    -   L\'utilisation de **Sketch → Contraintes d'esquisse → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Contraindre angulaire** forme l\'entrée de menu supérieure
 3.  Une boîte de dialogue d\'édition de référence apparaît.
 4.  Modifiez l\'angle si nécessaire. **Remarque :** L\'angle peut être entré comme une expression qui sera évaluée et le résultat sera stocké.
 5.  Cliquez sur **OK**
 
 Comme avec toute contrainte de référence, il est possible de changer la valeur d\'angle plus tard en double-cliquant sur la contrainte dans la liste contrainte ou une vue 3D. La saisie d\'une valeur négative entraînera la direction de l\'angle à basculer.
 
-## Modes de contrainte {#modes_de_contrainte}
+## Modes de contrainte 
 
-### Angle de pente de la ligne {#angle_de_pente_de_la_ligne}
+### Angle de pente de la ligne 
 
 **Sélection Acceptée :** ligne
 
@@ -44,7 +44,7 @@ Comme avec toute contrainte de référence, il est possible de changer la valeur
 
 La contrainte définit l\'angle polaire de la direction de la ligne. C\'est l\'angle entre la ligne et l\'axe X de l\'esquisse.
 
-### Durée Arc (v0.15) {#durée_arc_v0.15}
+### Durée Arc (v0.15) 
 
 **Sélection acceptée :** arc de cercle
 
@@ -52,7 +52,7 @@ La contrainte définit l\'angle polaire de la direction de la ligne. C\'est l\'a
 
 Dans ce mode, la contrainte fixe la valeur angulaire de l\'arc de cercle
 
-### Entre des lignes {#entre_des_lignes}
+### Entre des lignes 
 
 **Sélection acceptée :** ligne + ligne
 
@@ -60,7 +60,7 @@ Dans ce mode, la contrainte fixe la valeur angulaire de l\'arc de cercle
 
 Dans ce mode, la contrainte fixe l\'angle entre deux lignes. Il n\' est pas obligatoire que les lignes se coupent.
 
-### Entre les courbes à l\'intersection (angle par point) (v0.15) {#entre_les_courbes_à_lintersection_angle_par_point_v0.15}
+### Entre les courbes à l\'intersection (angle par point) (v0.15) 
 
 \"\'Sélection acceptée :\'\" toute ligne/courbe + toute ligne/courbe + tout point
 

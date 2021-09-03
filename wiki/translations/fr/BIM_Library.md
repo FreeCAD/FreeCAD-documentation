@@ -21,7 +21,7 @@ L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un obj
 1.  Appuyez sur le bouton **<img src="images/BIM_Library.png" width=16px> '''BIM Library'''
 **
 
-    :   Résultat: Dans la [Vue combinée](Combo_view/fr.md) → [Panneau des tâches](Task_panel/fr.md) une boîte de dialogue intitulée {{MenuCommand|Library browser}} s\'affichera.
+    :   Résultat: Dans la [Vue combinée](Combo_view/fr.md) → [Panneau des tâches](Task_panel/fr.md) une boîte de dialogue intitulée **Library browser** s\'affichera.
 2.  Cliquez sur un fichier du Navigateur de la bibliothèque.
 3.  Double-cliquez dessus ou appuyez sur le bouton **Insert**
 4.  Cliquez sur un point dans la [vue 3D](3D_view/fr.md) ou entrez une coordonnée manuellement pour placer l\'objet.

@@ -30,9 +30,9 @@ Pour une description plus approfondie de l\'esquisse, lisez le [Manuel de réfé
 
 ## Installation
 
-1\. Ouvrez FreeCAD, créez un nouveau document vide avec {{MenuCommand|Fichier → <img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)}}.
+1\. Ouvrez FreeCAD, créez un nouveau document vide avec **Fichier → <img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)**.
 
-:   1.1. Basculez vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md) depuis le [sélectionneur d\'atelier](Std_Workbench/fr.md) ou le {{MenuCommand|[menu affichage](Std_View_Menu/fr.md) → Atelier → Sketcher}}.
+:   1.1. Basculez vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md) depuis le [sélectionneur d\'atelier](Std_Workbench/fr.md) ou le **[menu affichage](Std_View_Menu/fr.md) → Atelier → Sketcher**.
 
 Quelques actions à retenir:
 
@@ -40,7 +40,7 @@ Quelques actions à retenir:
 -   Pour quitter le mode d\'édition d\'esquisse, appuyez sur le bouton **Fermer** dans le [Panneau des tâches](Task_Panel/fr.md) ou appuyez deux fois sur **Echap** au le clavier.
 -   Pour entrer à nouveau en mode édition, double-cliquez sur l\'esquisse dans la <img src=images/Sketcher_EditSketch.svg style="width:vue en arborescence](tree_view/fr.md) ou sélectionnez-la puis cliquez sur **[16px"> [Sketcher Modifier l'esquisse](Sketcher_EditSketch/fr.md)**.
 
-## Création d\'une esquisse {#création_dune_esquisse}
+## Création d\'une esquisse 
 
 2\. Cliquez sur **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [Créer une nouvelle esquisse](Sketcher_NewSketch/fr.md)**.
 
@@ -53,18 +53,18 @@ Nous sommes maintenant dans le mode d\'édition d\'esquisse. Une fois là, nous 
 
 **Remarque:**
 
-la [vue en arborescence](tree_view/fr.md) basculera en [Panneau des tâches](Task_Panel/fr.md). Dans cette interface, développez la section {{MenuCommand|Edit controls}} et assurez-vous que l\'option {{MenuCommand|Auto constraints}} est activée. D\'autres options peuvent être modifiées, notamment la taille de la grille visible et si nous voulons nous y accrocher. Dans ce tutoriel, nous ne nous accrocherons pas à la grille et nous la cacherons également. Dans d\'autres sections du [Panneau des tâches](Task_Panel/fr.md), vous pouvez également voir quels éléments géométriques et contraintes ont été définis.
+la [vue en arborescence](tree_view/fr.md) basculera en [Panneau des tâches](Task_Panel/fr.md). Dans cette interface, développez la section **Edit controls** et assurez-vous que l\'option **Auto constraints** est activée. D\'autres options peuvent être modifiées, notamment la taille de la grille visible et si nous voulons nous y accrocher. Dans ce tutoriel, nous ne nous accrocherons pas à la grille et nous la cacherons également. Dans d\'autres sections du [Panneau des tâches](Task_Panel/fr.md), vous pouvez également voir quels éléments géométriques et contraintes ont été définis.
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
 
 
 *Partie supérieure du [Panneau des tâches](Task_Panel/fr.md) de l'esquisse.*
 
-## Création de la géométrie {#création_de_la_géométrie}
+## Création de la géométrie 
 
 3\. La géométrie de construction est utilisée pour guider la création d\'une \"vraie\" géométrie. La géométrie réelle sera celle montrée en dehors du mode d\'édition d\'esquisse, tandis que la géométrie de construction ne sera montrée qu\'à l\'intérieur du mode d\'édition. Par conséquent, vous pouvez utiliser autant de géométrie de construction que nécessaire pour créer de vraies formes.
 
-:   3.1. Cliquez sur **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Sketcher Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)**. Les éléments géométriques seront désormais dessinés en {{MenuCommand|Construction mode}}.
+:   3.1. Cliquez sur **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Sketcher Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)**. Les éléments géométriques seront désormais dessinés en **Construction mode**.
 :   3.2. Cliquez sur **<img src="images/Sketcher_Line.svg" width=16px> [Sketcher Ligne](Sketcher_CreateLine/fr.md)**.
 :   3.3. Approchez-vous de l\'origine de l\'esquisse, le point doit être en surbrillance et à l\'approche de votre curseur, l\'icône <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) apparaîtra.
 :   3.4. Cliquez sur le point puis déplacez le pointeur pour commencer à dessiner une nouvelle ligne à partir de celui-ci. Déplacez le pointeur de sorte que la ligne ait une longueur d\'environ {{Value|30 mm}}. Vous n\'avez pas besoin d\'être très précis dans cette étape. Plus tard, nous définirons la bonne dimension.
@@ -81,22 +81,22 @@ jusqu\'à présent, l\'outil [Sketcher Ligne](Sketcher_CreateLine/fr.md) est tou
 
 n\'appuyez pas sur **Echap** une deuxième fois car cela ferait quitter le mode d\'édition d\'esquisse. Si vous faites cela, entrez de nouveau dans le mode d\'édition en double-cliquant sur l\'esquisse dans la [vue en arborescence](tree_view/fr.md).
 
-Jetez à nouveau un œil au [Panneau des tâches](Task_Panel/fr.md). La section {{MenuCommand|Solver messages}} indique déjà que l\'esquisse est sous-contrainte et mentionne le nombre de **degrés de liberté**.
+Jetez à nouveau un œil au [Panneau des tâches](Task_Panel/fr.md). La section **Solver messages** indique déjà que l\'esquisse est sous-contrainte et mentionne le nombre de **degrés de liberté**.
 
-Consultez les sections {{MenuCommand|Constraints}} et {{MenuCommand|Elements}} pour voir les nouvelles contraintes et lignes répertoriées. Une fois que vos esquisses contiennent plusieurs éléments, il peut être difficile de les sélectionner dans la [vue 3D](3D_view/fr.md). Vous pouvez donc utiliser ces listes pour sélectionner l\'objet que vous souhaitez exactement.
+Consultez les sections **Constraints** et **Elements** pour voir les nouvelles contraintes et lignes répertoriées. Une fois que vos esquisses contiennent plusieurs éléments, il peut être difficile de les sélectionner dans la [vue 3D](3D_view/fr.md). Vous pouvez donc utiliser ces listes pour sélectionner l\'objet que vous souhaitez exactement.
 
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
 
 *Lignes de construction formant une étoile avec son centre à l'origine.*
 
-## Géométrie réelle {#géométrie_réelle}
+## Géométrie réelle 
 
 La géométrie réelle doit créer une forme fermée si elle doit être utilisée comme un profil pouvant être extrudé par des outils tels que **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
 
 Assurez-vous que vous n\'êtes pas en mode construction en cliquant sur **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Basculer la construction](Sketcher_ToggleConstruction/fr.md)**, si vous n\'avez pas déjà quitté ce mode.
 
-### Les arcs extérieurs {#les_arcs_extérieurs}
+### Les arcs extérieurs 
 
 4\. Créez un cercle.
 
@@ -117,7 +117,7 @@ Assurez-vous que vous n\'êtes pas en mode construction en cliquant sur **<img s
 
 *Arcs de cercle ajoutés aux extrémités des lignes de construction. Ainsi qu'un cercle central.*
 
-### Les arcs intérieurs {#les_arcs_intérieurs}
+### Les arcs intérieurs 
 
 6\. Créez un arc entre chaque paire des O-arcs précédents.
 
@@ -134,7 +134,7 @@ Pour résumer, les O-arcs devraient avoir leur courbure pointant vers l\'extéri
 
 ## Contraintes
 
-Jetez à nouveau un œil au [Panneau des tâches](Task_Panel/fr.md). En raison des nouveaux éléments géométriques que nous avons dessinés, la section {{MenuCommand|Solver messages}} indique encore plus **degrees of freedom**. Un **degree of freedom** (degré de liberté) (DOF) indique un mouvement possible d\'un élément. Par exemple, un point peut être déplacé dans les directions horizontale et verticale, il a donc deux degrés de liberté. Une ligne est définie par deux points donc au total elle a quatre degrés de liberté. Si nous fixons l\'un de ces points, alors le système entier n\'a que deux degrés de liberté disponibles. Si nous fixons en outre le mouvement horizontal du point restant, il ne nous reste qu\'un degré de liberté; et si nous fixons également le mouvement vertical de ce point, alors le dernier degré de liberté disparaît et la ligne ne peut plus bouger de sa position.
+Jetez à nouveau un œil au [Panneau des tâches](Task_Panel/fr.md). En raison des nouveaux éléments géométriques que nous avons dessinés, la section **Solver messages** indique encore plus **degrees of freedom**. Un **degree of freedom** (degré de liberté) (DOF) indique un mouvement possible d\'un élément. Par exemple, un point peut être déplacé dans les directions horizontale et verticale, il a donc deux degrés de liberté. Une ligne est définie par deux points donc au total elle a quatre degrés de liberté. Si nous fixons l\'un de ces points, alors le système entier n\'a que deux degrés de liberté disponibles. Si nous fixons en outre le mouvement horizontal du point restant, il ne nous reste qu\'un degré de liberté; et si nous fixons également le mouvement vertical de ce point, alors le dernier degré de liberté disparaît et la ligne ne peut plus bouger de sa position.
 
 Jusqu\'à présent, lorsque nous avons dessiné des lignes et des courbes, l\'esquisse nous a ajouté des contraintes automatiques, celles qui maintiennent les lignes liées à l\'origine et les O-arcs liés aux lignes de construction. Mais nous n\'avons pas ajouté d\'autres contraintes explicites afin que les formes géométriques puissent toujours être déplacées dans de nombreuses directions. **Les contraintes sont des \"règles\" qui nous indiquent dans quelles conditions un objet géométrique peut se déplacer et dans quelle mesure.** Elles sont utilisées pour éliminer les degrés de liberté afin que l\'esquisse ait une forme stable. Si nous éliminons tous les degrés de liberté, l\'esquisse est **entièrement contrainte** et a une forme fixe, c\'est-à-dire que ses points ne peuvent pas bouger du tout. En général, c\'est une bonne idée de contraindre complètement les esquisses car cela se traduira par des modèles stables.
 
@@ -144,9 +144,9 @@ Il existe deux principaux types de contraintes:
 
 -    **Datum constraints**définit les caractéristiques des formes en spécifiant les dimensions, par exemple, une longueur numérique ou un angle.
 
-## Contraintes géométriques {#contraintes_géométriques}
+## Contraintes géométriques 
 
-### Longueur et rayon égaux {#longueur_et_rayon_égaux}
+### Longueur et rayon égaux 
 
 7\. Contraignez géométriquement les lignes et les arcs.
 
@@ -209,11 +209,11 @@ L\'application de la contrainte tangentielle déplacera très souvent la géomé
 
 *Esquisse avec des contraintes tangentielles appliquées aux arcs, ce qui ferme la forme.*
 
-## Contraintes sur les valeurs {#contraintes_sur_les_valeurs}
+## Contraintes sur les valeurs 
 
 Ces contraintes spécifient les distances numériques entre deux points et les angles entre deux lignes.
 
-### Distances et angles {#distances_et_angles}
+### Distances et angles 
 
 9\. Ajustez la taille des lignes de construction.
 
@@ -275,7 +275,7 @@ Nous devrions nous retrouver avec un croquis entièrement contraint. Cela peut �
 
 *A gauche: l'esquisse entièrement contrainte avec seulement les contraintes les plus importantes. A droite: l'extrusion solide produite avec [PartDesign Protrusion](PartDesign_Pad/fr.md).*
 
-## Informations supplémentaires {#informations_supplémentaires}
+## Informations supplémentaires 
 
 Pour une description plus approfondie de l\'esquisse, consultez la documentation [Atelier Sketcher](Sketcher_Workbench/fr.md) et lisez également le [Manuel de référence pour Sketcher](Sketcher_reference/fr.md).
 

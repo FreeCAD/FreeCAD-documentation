@@ -23,7 +23,7 @@
 1.  Selezionare due forme.
 2.  Premere il pulsante **Part** → **Booleana** → **Taglio** dal menu principale o il pulsante **<img src="images/Part_Cut.png" width=16px> '''Taglio'''** dalla barra degli strumenti.
 
-## Input supportati {#input_supportati}
+## Input supportati 
 
 
 <div class="mw-translate-fuzzy">

@@ -24,15 +24,15 @@ See also the following page for some videos on how to work with windows and door
 
 1\. Open FreeCAD, create a new empty document, and switch to the [Arch Workbench](Arch_Workbench.md).
 
-2\. Make sure your units are set correctly in the menu {{MenuCommand|Edit → Preferences → General → Units}}. For example, `MKS (m/kg/s/degree)` is good for dealing with distances in a typical building; moreover, set the number of decimals to `4`, to consider even the smallest fractions of a meter.
+2\. Make sure your units are set correctly in the menu **Edit → Preferences → General → Units**. For example, `MKS (m/kg/s/degree)` is good for dealing with distances in a typical building; moreover, set the number of decimals to `4`, to consider even the smallest fractions of a meter.
 
-3\. Use the [Draft ToggleGrid](Draft_ToggleGrid.md) button to show a grid with enough resolution. You can change the grid appearance in the menu {{MenuCommand|Edit → Preferences → Draft → Grid and snapping → Grid}}. Set lines at every `50 mm`, with major lines every `20` lines (every meter), and `1000 lines` in total (the grid covers an area of 50 m x 50 m).
+3\. Use the [Draft ToggleGrid](Draft_ToggleGrid.md) button to show a grid with enough resolution. You can change the grid appearance in the menu **Edit → Preferences → Draft → Grid and snapping → Grid**. Set lines at every `50 mm`, with major lines every `20` lines (every meter), and `1000 lines` in total (the grid covers an area of 50 m x 50 m).
 
 4\. [Zoom out](Std_ViewZoomOut.md) of the 3D view if you are too close to the grid.
 
 Now we are ready to create a simple building with closed walls, two doors and two windows.
 
-## Placing a wall {#placing_a_wall}
+## Placing a wall 
 
 5\. Use the [Draft Wire](Draft_Wire.md) tool to create a closed wire. Go counterclockwise.
 
@@ -58,7 +58,7 @@ Now we are ready to create a simple building with closed walls, two doors and tw
 <img alt="" src=images/02_T01_just_wall.png  style="width:600px;"> 
 *align=center|Wall constructed from the wire*
 
-## Placing doors and windows {#placing_doors_and_windows}
+## Placing doors and windows 
 
 8\. Click the [Arch Window](Arch_Window.md) tool; as preset select `Simple door`, and change the height to 2 m.
 
@@ -110,7 +110,7 @@ when placing a window or a door with a preset, hover the element over the [Arch 
 
 occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as long as the element is parallel to that wall, you should be able to correct the position manually.
 
-## Opening the doors {#opening_the_doors}
+## Opening the doors 
 
 10\. In the tree view select `Sketch` underlying `Door`, and press **Space**, or change the property **Visibility** to `True`
 
@@ -150,7 +150,7 @@ occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as 
 <img alt="" src=images/09_T01_window_symbol_plan.png  style="width:600px;"> 
 *align=center|Door with plan symbol, top view*
 
-## Opening the windows {#opening_the_windows}
+## Opening the windows 
 
 15\. In the tree view select `Sketch002` underlying `Window`, and press **Space**, or change the property **Visibility** to `True`.
 
@@ -185,7 +185,7 @@ occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as 
 <img alt="" src=images/11_T01_window_all_symbol_top.png  style="width:600px;"> 
 *align=center|Elevation and plan symbols for all elements, top view*
 
-## Making a floor plan of the building {#making_a_floor_plan_of_the_building}
+## Making a floor plan of the building 
 
 20\. Still in the [Arch Workbench](Arch_Workbench.md), select all components in the tree view, the [Arch Wall](Arch_Wall.md), the two [Arch Windows](Arch_Window.md), and the two [Arch Doors](Arch_Door.md), then use the [Arch SectionPlane](Arch_SectionPlane.md) tool to create a `Section` element.
 
@@ -219,7 +219,7 @@ set **All On** to `True` for [TechDraw ArchView](TechDraw_ArchView.md) objects s
 <img alt="" src=images/13_T01_TechDraw_window_all_symbols_higher.png  style="width:600px;"> 
 *align=center|Section view of the building, with a second plane cut, A4 sheet, scale 1:50*
 
-## Making an elevation projection of the building {#making_an_elevation_projection_of_the_building}
+## Making an elevation projection of the building 
 
 25\. Go back to the [Arch Workbench](Arch_Workbench.md). In the tree view, select all components, the [Arch Wall](Arch_Wall.md), the two [Arch Windows](Arch_Window.md), and the two [Arch Doors](Arch_Door.md), then use the [Arch SectionPlane](Arch_SectionPlane.md) tool to create a third `Section002` element.
 
@@ -234,7 +234,7 @@ set **All On** to `True` for [TechDraw ArchView](TechDraw_ArchView.md) objects s
 <img alt="" src=images/14_T01_TechDraw_window_all_symbols_elevation.png  style="width:600px;"> 
 *align=center|Section view of the building, two top views, and one elevation view, A4 sheet, scale 1:50*
 
-## Arch and TechDraw interaction {#arch_and_techdraw_interaction}
+## Arch and TechDraw interaction 
 
 As of the time of writing of this document (FreeCAD 0.18, November 2018), the [TechDraw Workbench](TechDraw_Workbench.md) can only display in its pages what the [Arch Workbench](Arch_Workbench.md) exports as [SVG](SVG.md). This means that the appearance of the elements included within the [Arch SectionPlane](Arch_SectionPlane.md) tool, and displayed by the [TechDraw ArchView](TechDraw_ArchView.md) tool, is controlled by the [Arch Workbench](Arch_Workbench.md).
 

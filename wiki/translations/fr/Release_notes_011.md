@@ -1,4 +1,4 @@
-# Notes de version 0.11 {#notes_de_version_0.11}
+# Notes de version 0.11 
 
 Ceci est un sommaire des plus importants changements et nouvelles fonctionnalités disponibles dans la version 0.11 de FreeCAD. La liste complète est disponible [ici](http://www.freecadweb.org/tracker/changelog_page.php).
 
@@ -21,7 +21,7 @@ Une capture d\'écran de la version 0.11
 -   Le copier/coller a été amélioré, afin de copier aisément des objets entre des documents.
 -   L\'[atelier Pièce](Part_Workbench/fr.md) comporte de nouveau outils tels que la mise en miroir et les congés et chanfreins d\'arêtes.
 
-### Esquisse et conception de pièces {#esquisse_et_conception_de_pièces}
+### Esquisse et conception de pièces 
 
 -   Le solveur de contraintes de l\'[atelier Sketcher](Sketcher_Workbench/fr.md) a été totalement récrit et même s\'il est toujours incomplet, l\'Esquisseur dispose d\'un bon éventail d\'outils tels que des lignes, rectangles et cercles, et des contraintes telles que coïncidence de points, parallélisme, longueur fixe ou contraintes horizontales et verticales.
 
@@ -31,13 +31,13 @@ Une capture d\'écran de la version 0.11
 
 ![](images/Movie.png ) Exemples: [Démo de l\'Esquisseur](http://www.youtube.com/watch?v=hvXupH5bA0E) • [Démo de Conception de pièces](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
 
-### Simulation de robot {#simulation_de_robot}
+### Simulation de robot 
 
 -   L\'[atelier Robot](Robot_Workbench/fr.md) dispose de plus d\'outils en interface graphique et est maintenant assez fonctionnel pour vous permettre de simuler des mouvements de robots industriels.
 
 ![](images/release011-robot.jpg )
 
-### Planche à dessin {#planche_à_dessin}
+### Planche à dessin 
 
 -   L\'accrochage a été grandement optimisé et fonctionne maintenant très rapidement, même sur des objets complexes.
 -   L\'outil \"Trimex\" permet maintenant d\'extruder des faces simples, offrant ainsi un raccourci pratique à l\'outil Extrusion de l\'atelier Pièce.

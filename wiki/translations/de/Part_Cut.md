@@ -25,7 +25,7 @@ Schneidet (subtrahiert) ausgewählte Teileobjekte, wobei das letzte vom ersten s
     -   Drücke die **![](images/) '''Schneiden'''** Schaltfläche in der Part Werkzeugleiste
     -   Verwende den {{MenuCommand/de|Part → Boolesche operation → Schneiden}} Eintrag aus dem Part Menü
 
-## Unterstützte Eingaben {#unterstützte_eingaben}
+## Unterstützte Eingaben 
 
 Eingabeobjekte müssen [OpenCascade ](OpenCascade/de.md) Formen sein. Beispiele: Sachen, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurden. Keine Polygonnetze (es sei denn, diese wurden in Formen umgewandelt) - für Polygonnetze gibt es spezielle boolesche Werkzeuge im Arbeitsbereich Netzkonstruktion.
 

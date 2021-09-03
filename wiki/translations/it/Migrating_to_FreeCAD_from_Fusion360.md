@@ -4,7 +4,7 @@
 
 Questa pagina è destinata agli utenti che sono interessati a migrare a FreeCAD dal mondo di Fusion 360.
 
-## Cosa devo fare? {#cosa_devo_fare}
+## Cosa devo fare? 
 
 1.  La prima cosa che vuoi fare è togliere i tuoi file dai formati e dagli archivi proprietari. Iniziate esportando i vostri modelli dal cloud alla vostra macchina locale.
     -   Un metodo popolare è l\'utilizzo di questo script [Fusion360 total exporter](https://github.com/Jnesselr/fusion-360-total-exporter).
@@ -30,7 +30,7 @@ Fate riferimento alla pagina del [Glossario](Glossary/it.md) in generale, ma qui
 
 </div>
 
-## DOMANDE FREQUENTI {#domande_frequenti}
+## DOMANDE FREQUENTI 
 
 1.  Quali formati sono supportati in FreeCAD?
     -   Il formato di file nativo in FreeCAD è BREP, [rappresentazione per contorni](https://it.wikipedia.org/wiki/B-rep), fornito dal kernel geometrico interno [OpenCASCADE (OCCT)](OpenCASCADE/it.md).
@@ -43,7 +43,7 @@ Fate riferimento alla pagina del [Glossario](Glossary/it.md) in generale, ma qui
 
 -   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) raccomanda di installare il [ModernUI Workbench](ModernUI_Workbench/it.md) di HakanSeven12
 
-## Risorse di apprendimento {#risorse_di_apprendimento}
+## Risorse di apprendimento 
 
 
 <div class="mw-translate-fuzzy">
@@ -57,7 +57,7 @@ Fate riferimento alla pagina del [Glossario](Glossary/it.md) in generale, ma qui
 
 </div>
 
-## Video comparativi {#video_comparativi}
+## Video comparativi 
 
 -   [Modellare una turbina del compressore in FreeCAD e Fusion360](https://www.youtube.com/watch?v=kirDbZd0dvI&feature=youtu.be)
 

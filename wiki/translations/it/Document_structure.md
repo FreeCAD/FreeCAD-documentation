@@ -22,7 +22,7 @@ Un documento FreeCAD può contenere oggetti di diversi tipi. Ogni ambiente di la
 
 In FreeCAD può essere attivo un solo documento alla volta. Il documento attivo è quello che viene visualizzato nella vista 3D corrente ed è il documento in lavorazione.
 
-## Applicazione e Interfaccia utente {#applicazione_e_interfaccia_utente}
+## Applicazione e Interfaccia utente 
 
 Come per quasi tutto il resto, in FreeCAD, la parte interfaccia grafica utente (GUI) è separata dalla parte applicazione (App). Questo vale anche per i documenti.
 

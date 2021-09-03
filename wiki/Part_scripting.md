@@ -10,12 +10,12 @@ The most basic object that can be created is a [Part Feature](Part_Feature.md), 
 
 Another simple object used in 2D geometrical objects is [Part Part2DObject](Part_Part2DObject.md), which is the base of [Sketcher SketchObject](Sketcher_SketchObject.md) ([Sketcher](Sketcher_Workbench.md)), and most [Draft elements](Draft_Workbench.md).
 
-### See also {#see_also}
+### See also 
 
 -   [Topological data scripting](Topological_data_scripting.md)
 -   [OpenCASCADE](OpenCASCADE.md)
 
-## Test script {#test_script}
+## Test script 
 
 Test the creation of [Part Primitives](Part_Primitives.md) with a script. <small>(v0.19)</small> 
 

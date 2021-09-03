@@ -18,7 +18,7 @@ Per tagliare altri oggetti è possibile utilizzare il comando [Std Copy](Std_Cop
 1.  Selezionare una o più celle nel foglio di calcolo.
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_Cut.svg" width=16px> [Taglia](Std_Cut/it.md)**.
-    -   Selezionare l\'opzione {{MenuCommand|Modifica → <img src="images/Std_Cut.svg" width=16px> Taglia}} dal menu.
+    -   Selezionare l\'opzione **Modifica → <img src="images/Std_Cut.svg" width=16px> Taglia** dal menu.
 
 ## Note
 

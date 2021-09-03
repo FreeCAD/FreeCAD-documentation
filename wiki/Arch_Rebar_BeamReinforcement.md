@@ -13,7 +13,7 @@ The [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md) tool allows the user t
 
 The [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
  ![](images/Arch_Rebar_BeamReinforcement_example.png ) 
 
@@ -241,7 +241,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 The BeamReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
-### Create Two Legged Stirrups {#create_two_legged_stirrups}
+### Create Two Legged Stirrups 
 
  
 ```python

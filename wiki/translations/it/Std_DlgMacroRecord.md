@@ -18,7 +18,7 @@ Il comando **Registra una macro** avvia una sessione di registrazione della [mac
 
 <div class="mw-translate-fuzzy">
 
-La funzione è accessibile tramite {{MenuCommand|Macro → Registra macro ...}}, oppure tramite il pulsante **<img src=images/Std_DlgMacroRecord.png style="width:16px"> Registra macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
+La funzione è accessibile tramite **Macro → Registra macro ...**, oppure tramite il pulsante **<img src=images/Std_DlgMacroRecord.png style="width:16px"> Registra macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
 
 
 </div>
@@ -34,8 +34,8 @@ La funzione è accessibile tramite {{MenuCommand|Macro → Registra macro ...}},
 
 ## Preferences
 
--   The macro path can also be changed in the preferences: {{MenuCommand|Edit → Preferences... → General → Macro → Macro path}}. See [Preferences Editor](Preferences_Editor#Macro.md).
--   In most cases it is undesirable to record actions that do not change the model: under {{MenuCommand|Edit → Preferences... → General → Macro → GUI commands}} do one of the following:
+-   The macro path can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   In most cases it is undesirable to record actions that do not change the model: under **Edit → Preferences... → General → Macro → GUI commands** do one of the following:
     -   To exclude these actions uncheck the {{CheckBox|FALSE|Record GUI commands}} checkbox.
     -   To include them as comments only check both the {{CheckBox|TRUE|Record GUI commands}} and {{CheckBox|TRUE|Record as comment}} checkboxes.
 

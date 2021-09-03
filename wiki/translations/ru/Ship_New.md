@@ -18,13 +18,13 @@ Create a New Ship or new Ship Instance.
 
 ## Usage
 
-In order to create a **Ship instance** (in other words, a New Ship), select s60 geometry and execute the **ship creation tool** {{MenuCommand|Ship design → Create a new ship}}
+In order to create a **Ship instance** (in other words, a New Ship), select s60 geometry and execute the **ship creation tool** **Ship design → Create a new ship**
 
 Creating ship task dialogue and some annotations at [3D view](3D_view.md) will shown. The annotations will removed when you close Ship creation tool, so don\'t worry about this.
 
 Most relevant ship data must be introduced (Ship uses a progressive data introduction system, so basic operations can be performed knowing only basic ship data, more information is needed as the operations become more complex).
 
-## Ship data {#ship_data}
+## Ship data 
 
 Main dimensions must be introduced here:
 

@@ -31,7 +31,7 @@ Le Python Features seguono le stesse regole di tutte le altre funzionalità di F
 
 </div>
 
-## Esempio base {#esempio_base}
+## Esempio base 
 
 L\'esempio seguente si trova nel file [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py), con molti altri esempi: 
 ```python
@@ -168,7 +168,7 @@ makeBox()
 
 ```
 
-### Things to note {#things_to_note}
+### Things to note 
 
 If your object relies on being recomputed as soon as it is created, you must do this manually in the `__init__` function as it is not called automatically. This example does not require it because the `onChanged` method of the `Box` class has the same effect as the `execute` function, but the examples below rely on being recomputed before anything is displayed in the 3D view. In the examples, this is done manually with `ActiveDocument.recompute()` but in more complex scenarios you need to decide where to recompute either the whole document or the FeaturePython object.
 
@@ -176,11 +176,11 @@ This example produces a number of exception stack traces in the report view wind
 
 An explanation of `__getstate__` and `__setstate__` is in the forum thread [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
-## Available methods {#available_methods}
+## Available methods 
 
 See [FeaturePython methods](FeaturePython_methods.md) for the complete reference.
 
-## Proprietà disponibili {#proprietà_disponibili}
+## Proprietà disponibili 
 
 Le proprietà sono i veri e propri mattoni per la costruzione degli oggetti FeaturePython. Attraverso di esse, l\'utente è in grado di interagire e modificare l\'oggetto. Dopo aver creato un nuovo oggetto FeaturePython nel documento ( obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), è possibile ottenere un elenco delle proprietà disponibili digitando:
 
@@ -298,7 +298,7 @@ A complete list of property attributes can be seen in the [PropertyStandard C++ 
 prop = (value, lower, upper, stepsize)
 ```
 
-## Tipi di Proprietà {#tipi_di_proprietà}
+## Tipi di Proprietà 
 
 Di default, le proprietà possono essere aggiornate. È possibile creare delle proprietà di sola lettura, per esempio nel caso si vuole mostrare il risultato di un metodo. È anche possibile nascondere una proprietà. Il tipo di proprietà può essere impostata usando
 
@@ -338,7 +338,7 @@ You can find these different property types defined in the [source code C++ head
 
 <div class="mw-translate-fuzzy">
 
-## Altro esempio più complesso {#altro_esempio_più_complesso}
+## Altro esempio più complesso 
 
 In questo esempio si utilizza il [Modulo Parte](Part_Workbench/it.md) per creare un ottaedro, quindi si crea la sua rappresentazione Coin con Pivy.
 
@@ -547,7 +547,7 @@ ViewProviderOctahedron(a.ViewObject)
 
 <div class="mw-translate-fuzzy">
 
-## Rendere gli oggetti selezionabili {#rendere_gli_oggetti_selezionabili}
+## Rendere gli oggetti selezionabili 
 
 Se volete rendere il vostro oggetto selezionabile, o almeno una parte di esso, facendo clic su di esso nella finestra, è necessario includere la sua geometria Coin all\'interno di un nodo SoFCSelection. Se l\'oggetto ha una rappresentazione complessa, con widget, annotazioni, etc, si potrebbe voler includere solo una parte di esso in un SoFCSelection. Tutto quello che compone un SoFCSelection viene costantemente analizzato da FreeCAD per rilevare selezioni/preselezioni, quindi non ha senso sovraccaricarlo con delle scansioni non necessarie. Ecco ciò che si dovrebbe fare per includere un self.face nell\'esempio precedente:
 
@@ -653,7 +653,7 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
-## Lavorare con le forme semplici {#lavorare_con_le_forme_semplici}
+## Lavorare con le forme semplici 
 
 Se l\'oggetto parametrico produce semplicemente una forma, non è necessario utilizzare un fornitore di vista dell\'oggetto (view provider object). La forma viene visualizzata utilizzando la rappresentazione della forma standard di FreeCAD:
 
@@ -715,7 +715,7 @@ ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
 
-## Scenegraph Structure {#scenegraph_structure}
+## Scenegraph Structure 
 
 You may have noticed that the examples above construct their scenegraphs in slightly different ways. Some use `obj.addDisplayMode(node, "modename")` while others use `obj.SwitchNode.getChild(x).addChild(y)`.
 
@@ -903,7 +903,7 @@ a,b = makeMolecule()
 
 <div class="mw-translate-fuzzy">
 
-## Ulteriori informazioni {#ulteriori_informazioni}
+## Ulteriori informazioni 
 
 Ci sono alcune discussioni nel forum molto interessanti su script di oggetti:
 

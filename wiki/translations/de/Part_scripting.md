@@ -11,7 +11,7 @@ Das grundlegendste Objekt, das erstellt werden kann, ist ein [Part Formelement](
 
 Ein weiteres einfaches Objekt, das in geometrischen 2D Objekten verwendet wird, ist [Part Part2DObjekt](Part_Part2DObject/de.md), das die Basis von [Skizzierer SkizzeObjekt](Sketcher_SketchObject/de.md) ist. ([Skizzierer](Sketcher_Workbench/de.md)), und die meisten [Entwurfselemente](Draft_Workbench/de.md).
 
-### Siehe auch {#siehe_auch}
+### Siehe auch 
 
 -   [Topologisches Daten Skripten](Topological_data_scripting/de.md)
 -   [OpenCASCADE](OpenCASCADE/de.md)

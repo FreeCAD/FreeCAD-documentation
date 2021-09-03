@@ -24,7 +24,7 @@ Ce tutoriel a pour but d\'expliquer aux débutants découvrant Freecad, quelques
 -   Faire varier une ou plusieurs dimensions.
 -   Utiliser la fonction géométrie extérieure et utiliser un plan repère pour centrer le trou.
 
-### Utiliser l\'[atelier Part Design](PartDesign_Workbench/fr.md), traçage de l\'esquisse {#utiliser_latelier_part_design_traçage_de_lesquisse}
+### Utiliser l\'[atelier Part Design](PartDesign_Workbench/fr.md), traçage de l\'esquisse 
 
 Créez un nouveau document et basculez vers l\'**<img src=images/Workbench_PartDesign.svg style="width:24px"> '''atelier Part Design'''** à l\'aide du [sélecteur d\'atelier](Getting_started/fr#Explorer_FreeCAD.md) (identifié 10 dans l\'image liée) ou via le menu *Affichage → Atelier*. FreeCAD doit démarrer avec les icônes au dessus, la vue combinée à gauche et la vue 3D à droite.
 
@@ -123,7 +123,7 @@ Procédez de la même manière avec tous les points.
 
 Si votre esquisse n\'est toujours pas verte, vérifiez que tous les segments (sauf le segment incliné) aient une contrainte soit <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal/fr.md), soit <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertical](Sketcher_ConstrainVertical/fr.md), rajoutez la éventuellement.
 
-### Utiliser les fonctions Pad et Pocket {#utiliser_les_fonctions_pad_et_pocket}
+### Utiliser les fonctions Pad et Pocket 
 
 Cliquez sur **Fermer** dans l\'onglet Tâches, en haut à gauche. Nous quittons alors l\'atelier Sketcher automatiquement, et l\'atelier Part Design est de nouveau activé. La vue combinée bascule sur l\'onglet Modèle. Si vous aviez laissé votre *Body pièce1* déroulé, vous verrez un nouvel élément **Sketch** sous *Origin*, et imbriqué sous le corps.
 
@@ -157,7 +157,7 @@ Fermez l\'esquisse ; dans l\'arborescence Modèle, un nouvel objet **Sketch001**
 
 Cavité (\"Pocket\" en anglais) est une fonction dite \"soustractive\", elle enlève de la matière à notre pièce, ici sous forme de cylindre puisque l\'esquisse est un cercle. Indiquez \"à travers tout\" pour traverser complètement la pièce puis appuyez sur **OK** pour valider. Dans l\'arborescence Modèle, un nouvel élément nommé **Pocket** apparaît au bas de Body pièce1, et s\'empare de Sketch001.
 
-### Changer couleur et transparence {#changer_couleur_et_transparence}
+### Changer couleur et transparence 
 
 Il est possible de changer la couleur de la pièce, c\'est souvent utile pour distinguer une pièce parmi d\'autres. La transparence de la pièce peut être aussi modifiée, ce qui est pratique pour visualiser les formes internes.
 
@@ -167,7 +167,7 @@ Le trou est désormais visible à l'intérieur de la pièce. C\'est souvent util
 
 Vous pouvez aussi faire varier \"Line Color\" et \"Line Width\" pour changer l\'épaisseur des traits et leur couleur du contour de la pièce.
 
-### Déplacer manuellement la pièce {#déplacer_manuellement_la_pièce}
+### Déplacer manuellement la pièce 
 
 Allez dans le menu *Affichage* et sélectionnez *Afficher les axes de coordonnées*. Il s\'agit des axes absolus. Vous devriez voir dans la vue 3D, les 3 axes X, Y, Z respectivement en rouge, vert et bleu. Ce repère va nous aider à nous orienter dans l\'espace. Ce repère est fixe et immuable, c\'est soit la vue qui tourne, soit l\'objet qui tourne dans cet espace.
 
@@ -185,7 +185,7 @@ Maintenez et faites glisser les cônes le long des axes et les sphères pour bou
 
 Validez. Puis remettez angles et coordonnées à 0.
 
-### Afficher des cotes indicatives dans l\'esquisse {#afficher_des_cotes_indicatives_dans_lesquisse}
+### Afficher des cotes indicatives dans l\'esquisse 
 
 Il peut être utile de connaître des dimensions de certaines parties du sketch, issues du calcul interne de FreeCAD. On peut s\'en servir juste pour contrôle, ou les utiliser par la suite pour paramétrer d\'autres dimensions par exemple.
 
@@ -199,7 +199,7 @@ On constate que l\'arrondi a bien une longueur de 20, car tangent avec les faces
 
 On peut voir également que FreeCAD calcule la face de gauche (50-50xTAN 30°), ainsi que la cote de distance de l\'axe de l\'arc avec l\'origine.
 
-### Faire varier une ou plusieurs dimensions {#faire_varier_une_ou_plusieurs_dimensions}
+### Faire varier une ou plusieurs dimensions 
 
 En cours de modélisation, on peut faire varier les cotes du modèle. C\'est très simple, pour l\'épaisseur de la pièce double cliquez sur Pad, puis entrez une nouvelle valeur, 40 mm par exemple. Dans la partie basse de la vue combo, on peut changer cette valeur également. Validez, la forme de l\'objet a changé.
 
@@ -207,7 +207,7 @@ Faites de même pour la longueur totale de la pièce : double cliquez sur Sketch
 
 On constate que la pièce à grossi, mais le trou n\'est plus centré au milieu de la face de dessus car il a été localisé dans le référentiel du corps actif (le body). Ce qui ne correspond pas forcement à ce que l\'on voudrait, le trou devrait rester au centre, quel que soit la dimension de la face.
 
-### Centrer le trou {#centrer_le_trou}
+### Centrer le trou 
 
 **Première méthode à l\'aide de la géométrie externe.**
 

@@ -24,37 +24,37 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
 1.  Opcjonalnie wybierz jeden lub więcej obiektów, albo jeden lub więcej elementów podrzędnych [linii](Draft_Line/pl.md) lub [polilinii](Draft_Wire/pl.md).
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Scale.svg" width=16px> [Skaluj](Draft_Scale/pl.md)**.
-    -   Wybierz z menu opcję {{MenuCommand|Modyfikacja → <img src="images/Draft_Scale.svg" width=16px> Skala}}.
+    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Scale.svg" width=16px> Skala**.
     -   Użyj skrótu klawiaturowego: **S**, a następnie **C**.
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
-4.  Otworzy się panel zadań {{MenuCommand|Skala}}. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
-5.  Jeśli zostały wybrane elementy podrzędne: zaznacz pole wyboru {{MenuCommand|Modyfikuj elementy podrzędne}}, aby włączyć tryb elementów podrzędnych.
+4.  Otworzy się panel zadań **Skala**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
+5.  Jeśli zostały wybrane elementy podrzędne: zaznacz pole wyboru **Modyfikuj elementy podrzędne**, aby włączyć tryb elementów podrzędnych.
 6.  Wybierz punkt bazowy w [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 7.  Wprowadź współczynniki skali X, Y i Z.
 8.  Naciśnij przycisk **Enter** lub przycisk **OK**, aby zakończyć działanie polecenia.
 
 ## Opcje
 
-### Pierwszy panel zadań {#pierwszy_panel_zadań}
+### Pierwszy panel zadań 
 
 Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
 -   Aby ręcznie wprowadzić współrzędne punktu bazowego, wprowadź składowe X, Y i Z, a następnie naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor myszki poza okno [widoku 3D](3D_view.md).
--   Pole wyboru {{MenuCommand|Względnie}} nie ma zastosowania dla tego polecenia.
--   Naciśnij klawisz **G** lub kliknij pole wyboru {{MenuCommand|Globalnie}}, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Pole wyboru **Względnie** nie ma zastosowania dla tego polecenia.
+-   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
 -   Pozostałe pola wyboru w tym panelu zadań są ignorowane przez to polecenie.
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij przycisk **Zamknij**, aby przerwać wykonywanie polecenia.
 
-### Drugi panel zadań {#drugi_panel_zadań}
+### Drugi panel zadań 
 
 -   Wprowadź współrzędne X, Y i Z, aby zdefiniować przeskalowanie. Wartości te muszą być większe od zera.
--   Zaznacz pole wyboru {{MenuCommand|Jednolite skalowanie}}, aby zablokować współczynniki X, Y i Z do tej samej wartości. Aby to ustawienie odniosło skutek, jeden ze współczynników skali musi zostać zmieniony. Alternatywnie możesz kliknąć w pole wejściowe z żądaną skalą i nacisnąć klawisz **Enter**, aby zakończyć polecenie.
--   Jeśli pole wyboru {{MenuCommand|Orientacja płaszczyzny roboczej}} jest zaznaczone, współczynniki skali są odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md), w przeciwnym razie są one odniesione do globalnego układu współrzędnych.
--   Jeśli pole wyboru {{MenuCommand|Kopia}} jest zaznaczone, tworzona jest skalowana kopia oryginalnego obiektu. Działa to tylko dla obiektów typu Rysunek Roboczy, które posiadają właściwość **Punkty**, takich jak [polininie](Draft_Wire/pl.md).
--   Jeśli pole wyboru {{MenuCommand|Modyfikuj elementy podrzędne}} jest zaznaczone, polecenie użyje wybranych elementów podrzędnych zamiast całych obiektów. Elementy podrzędne muszą należeć do [linii](Draft_Line/pl.md) lub [polininii](Draft_Wire/pl.md).
--   Jeśli pole wyboru {{MenuCommand|Utwórz klona}} jest zaznaczone, tworzone są skalowane [klony](Draft_Clone/pl.md) oryginalnych obiektów. Działa to dla wszystkich typów obiektów. Dla obiektów, które nie są typu Rysunek Roboczy, lub dla obiektów Rysunku Roboczego, które nie mają właściwości {{PropertyData/pl|Punkty}}, opcja **Musi** być wybrana.
--   Naciśnij przycisk **Wybierz z / do punktów** i wybierz dwa dodatkowe punkty w oknie [widoku 3D](3D_view/pl.md), aby obliczyć współczynniki skali. Spowoduje to automatyczne zaznaczenie pola wyboru {{MenuCommand|Jednolite skalowanie}}. Współczynniki skali X, Y i Z będą zatem równe i zostaną ustawione jako odległość między punktem bazowym a punktem *od*, podzielona przez odległość między punktem bazowym a punktem *do*.
+-   Zaznacz pole wyboru **Jednolite skalowanie**, aby zablokować współczynniki X, Y i Z do tej samej wartości. Aby to ustawienie odniosło skutek, jeden ze współczynników skali musi zostać zmieniony. Alternatywnie możesz kliknąć w pole wejściowe z żądaną skalą i nacisnąć klawisz **Enter**, aby zakończyć polecenie.
+-   Jeśli pole wyboru **Orientacja płaszczyzny roboczej** jest zaznaczone, współczynniki skali są odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md), w przeciwnym razie są one odniesione do globalnego układu współrzędnych.
+-   Jeśli pole wyboru **Kopia** jest zaznaczone, tworzona jest skalowana kopia oryginalnego obiektu. Działa to tylko dla obiektów typu Rysunek Roboczy, które posiadają właściwość **Punkty**, takich jak [polininie](Draft_Wire/pl.md).
+-   Jeśli pole wyboru **Modyfikuj elementy podrzędne** jest zaznaczone, polecenie użyje wybranych elementów podrzędnych zamiast całych obiektów. Elementy podrzędne muszą należeć do [linii](Draft_Line/pl.md) lub [polininii](Draft_Wire/pl.md).
+-   Jeśli pole wyboru **Utwórz klona** jest zaznaczone, tworzone są skalowane [klony](Draft_Clone/pl.md) oryginalnych obiektów. Działa to dla wszystkich typów obiektów. Dla obiektów, które nie są typu Rysunek Roboczy, lub dla obiektów Rysunku Roboczego, które nie mają właściwości {{PropertyData/pl|Punkty}}, opcja **Musi** być wybrana.
+-   Naciśnij przycisk **Wybierz z / do punktów** i wybierz dwa dodatkowe punkty w oknie [widoku 3D](3D_view/pl.md), aby obliczyć współczynniki skali. Spowoduje to automatyczne zaznaczenie pola wyboru **Jednolite skalowanie**. Współczynniki skali X, Y i Z będą zatem równe i zostaną ustawione jako odległość między punktem bazowym a punktem *od*, podzielona przez odległość między punktem bazowym a punktem *do*.
 -   Naciśnij przycisk **Esc** lub przycisk **Anuluj**, aby przerwać wykonywanie polecenia.
 
 ## Uwagi
@@ -65,12 +65,12 @@ Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysu
 
 Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
--   Aby zmienić ilość miejsc po przecinku używanych przy wprowadzaniu współrzędnych: {{MenuCommand|Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku}}.
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współczynników skali: {{MenuCommand|Edycja → Preferencje → Kreślenie → Ustawienia ogólne → Opcje narzędzi do kreślenia→ Wewnętrzny poziom dokładności}}.
--   Aby zachować i ponownie wykorzystać to samo ustawienie trybu kopiowania w różnych poleceniach: {{MenuCommand|Edycja → Preferencje → Kreślenie → Ustawienia ogólne → Opcje narzędzi do kreślenia → Tryb kopiowania globalny}}.
--   Aby ponownie wybrać obiekty bazowe po skopiowaniu obiektów: {{MenuCommand|Edycja → Preferencje → Kreślenie → Ustawienia ogólne → Opcje narzędzi do kreślenia → Zaznacz obiekty bazowe po skopiowaniu}}.
+-   Aby zmienić ilość miejsc po przecinku używanych przy wprowadzaniu współrzędnych: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
+-   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współczynników skali: **Edycja → Preferencje → Kreślenie → Ustawienia ogólne → Opcje narzędzi do kreślenia→ Wewnętrzny poziom dokładności**.
+-   Aby zachować i ponownie wykorzystać to samo ustawienie trybu kopiowania w różnych poleceniach: **Edycja → Preferencje → Kreślenie → Ustawienia ogólne → Opcje narzędzi do kreślenia → Tryb kopiowania globalny**.
+-   Aby ponownie wybrać obiekty bazowe po skopiowaniu obiektów: **Edycja → Preferencje → Kreślenie → Ustawienia ogólne → Opcje narzędzi do kreślenia → Zaznacz obiekty bazowe po skopiowaniu**.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 

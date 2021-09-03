@@ -15,7 +15,7 @@ A Centering Ring is a solid object used to hold one or more body tubes inside an
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_CenteringRing.svg" width=16px> [Centering Ring](Rocket_CenteringRing.md)** button.
-    -   Select the {{MenuCommand|Rocket → <img src="images/Rocket_CenteringRing.svg" width=16px> Centering Ring}} option from the menu.
+    -   Select the **Rocket → <img src="images/Rocket_CenteringRing.svg" width=16px> Centering Ring** option from the menu.
     -   Double click on a Centering Ring object in the model view.
 2.  Set options and press **OK**.
 
@@ -83,7 +83,7 @@ See also: [:Category:API](:Category:API.md) and [FreeCAD Scripting Basics](FreeC
 
 TBD
 
-## Tutorials and Learning {#tutorials_and_learning}
+## Tutorials and Learning 
 
 [Rocket Workbench Body Tubes, Bulkheads, and Centering Rings](https://youtu.be/xi7acpw3eDA) Tutorial on YouTube
 

@@ -11,7 +11,7 @@ PROSZĘ NIE EDYTOWAĆ ANI NIE TŁUMACZYĆ !!!
 
 Jest to plan projektu dla części programu FreeCAD w ramach [planu rozwoju](Development_roadmap.md).
 
-## Przeznaczenie i zasady {#przeznaczenie_i_zasady}
+## Przeznaczenie i zasady 
 
 Poprawa możliwości wielojęzykowych w programie FreeCAD poprzez wdrożenie obsługi kodowania znaków **UTF** w ramach interfejsu Coin3D.
 
@@ -26,7 +26,7 @@ Pomimo tego, że Coin3D przechodzi obecnie na bardziej otwartą platformę rozwo
 -   Migruj moduły, aby używać nowych bloków tekstowych.
 -   Rygorystyczne testy
 
-## Kolejne działania {#kolejne_działania}
+## Kolejne działania 
 
 -   Wdrożenie klasy obsługi ciągów UTF *(**WIP**)*.
 -   Obsługa czcionek i glifów.

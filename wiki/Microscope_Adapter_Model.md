@@ -8,11 +8,11 @@ This model is included in the Wiki as an example of best practices for Spreadshe
 
 ![ 1000x2500px](images/Mscope_adapter_1.png ) ![ 1000x2500px](images/Mscope_adapter_ss.png )
 
-# Parametric Model {#parametric_model}
+# Parametric Model 
 
 The model is highly parametric with many of parameters entered in a spreadsheet ( others exist in sketches ). It does not contain fillets or champers ( or they are added at the end ) as I cannot get them to behave in a parametric model, suggestions are welcome.
 
-# Overall Plan {#overall_plan}
+# Overall Plan 
 
 -   I have tried to follow all the Best Practices documented in **[Best Practices with SpreadSheets](Best_Practices_with_SpreadSheets.md)**
 -   In this version I have used a loft between 4 sketches to make the general shape.
@@ -39,11 +39,11 @@ The clamp at the GoPro end is different than the microscope end because of the s
     OCC version: 7.3.0
     Locale: English/United States (en_US)
 
-# Model Source {#model_source}
+# Model Source 
 
 -   [Source at Gitlab](https://gitlab.com/russhensel/freecadtest/-/blob/master/mscope_adapter_3.FCStd)
 
-# Links to Related Material {#links_to_related_material}
+# Links to Related Material 
 
 -   **Use What Links Here ( to the left of the page )**
 -   **[Best Practices with SpreadSheets](Best_Practices_with_SpreadSheets.md)**

@@ -28,7 +28,7 @@ If you just want to evaluate the latest pre-release build of FreeCAD, you can do
 
 <div class="mw-translate-fuzzy">
 
-## Instalați cerințele preliminare {#instalați_cerințele_preliminare}
+## Instalați cerințele preliminare 
 
 Următorul software trebuie instalat pentru a sprijini procesul de construire.
 
@@ -40,7 +40,7 @@ The following software must be installed to support the build process.
 
 <div class="mw-translate-fuzzy">
 
-### Managerul de pachete Homebrew {#managerul_de_pachete_homebrew}
+### Managerul de pachete Homebrew 
 
 Homebrew este un manager de pachete de linie de comandă pentru MacOS. The [Homebrew main page](https://brew.sh/) furnizează o linie de comandă de instalare pe care pur și simplu o inserați într-o fereastră de terminal.
 
@@ -64,7 +64,7 @@ CMake is a build tool that generates a build configuration based on variables yo
 
 <div class="mw-translate-fuzzy">
 
-## Instalarea dependențelor {#instalarea_dependențelor}
+## Instalarea dependențelor 
 
 FreeCAD menține un \"robinet\" al Homebrew care instalează formulele și dependențele necesare. Eliberați următoarele comenzi de brew în terminalul dvs.
 
@@ -93,7 +93,7 @@ Notes:
 
 <div class="mw-translate-fuzzy">
 
-## Get the source {#get_the_source}
+## Get the source 
 
 În instrucțiunile de mai jos, sunt create soursă și folderele compilate unele sub altele
 
@@ -129,11 +129,11 @@ Create the build folder.
 mkdir ~/FreeCAD/build
 ```
 
-## Run CMake {#run_cmake}
+## Run CMake 
 
 Next, we will run CMake to generate the build configuration. Several options must be passed to CMake. The following table describes the options and gives some background.
 
-### CMake Options {#cmake_options}
+### CMake Options 
 
 
 <div class="mw-translate-fuzzy">
@@ -173,7 +173,7 @@ ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/
 
 <div class="mw-translate-fuzzy">
 
-### CMake GUI {#cmake_gui}
+### CMake GUI 
 
 Deschideți aplicația CMake și completați câmpurile sursă și construiți dosarul. În acest exemplu, ar fi **/Users/username/FreeCAD/FreeCAD-git**pentru sursă, și **/Users/username/FreeCAD/build** pentru construirea folderului .
 
@@ -191,7 +191,7 @@ Set options from the table above, then click **Configure** again and then **Gene
 
 Set options from the table above, then click **Configure** again and then **Generate**.
 
-### CMake command line {#cmake_command_line}
+### CMake command line 
 
 Enter the following in the terminal.
 
@@ -228,7 +228,7 @@ $cmake \
 
 <div class="mw-translate-fuzzy">
 
-## Run make {#run_make}
+## Run make 
 
 În cele din urmă, de la un terminal rulați **make** pentru a compila și a lega FreeCAD și a genera pachetul de aplicații.
 
@@ -252,7 +252,7 @@ Dacă ați finalizat fără erori, puteți lansa FreeCAD făcând dublu clic pe 
 
 <div class="mw-translate-fuzzy">
 
-## Updating după Github {#updating_după_github}
+## Updating după Github 
 
 Dezvoltarea FreeCAD are loc rapid; aproape în fiecare zi sunt bug fixe sau noi funcionalități. Pentru a obține cele mai recente modificări, utilizați git pentru a actualiza directorul sursă (consultați [Source code management](Source_code_management.md)), apoi re-executați CMake și parcurgeți pașii de mai sus. De obicei, nu este necesar să începeți cu un director de compliare curat în acest caz, iar compilatele ulterioare vor merge, în general, mult mai repede decât prima.
 
@@ -264,7 +264,7 @@ FreeCAD development happens fast; every day or so there are bug fixes or new fea
 
 <div class="mw-translate-fuzzy">
 
-## Compilarea cu Qt4 {#compilarea_cu_qt4}
+## Compilarea cu Qt4 
 
 FreeCAD a trecut de la Qt 4 la Qt 5. Dacă trebuie să complilați cu Qt4, sunt necesari următorii pași suplimentari.
 
@@ -278,7 +278,7 @@ FreeCAD has transitioned from Qt 4 to Qt 5 as well as homebrew. Qt 4 is no longe
 
 <div class="mw-translate-fuzzy">
 
-### Segfault on Qt5 launch {#segfault_on_qt5_launch}
+### Segfault on Qt5 launch 
 
 În cazul în care Qt4 a fost instalat anterior via brew, și apoi ați construit cu Qt5, puteți obține o excepție EXC\_BAD\_ACCESS (SEGSEGV) atunci când lansați compilarea nouli Qt5 . Remedierea pentru aceasta este de a dezinstala manual Qt4.
 
@@ -328,7 +328,7 @@ Atunci când se utilizează versiuni CMake mai vechi de 3.1.0, este necesar să 
 
 When using CMake versions older than 3.1.0, it\'s necessary to set CMake variable FREETYPE\_INCLUDE\_DIR\_freetype2 manually, eg /usr/local/include/freetype2
 
-### Additional Build Instructions {#additional_build_instructions}
+### Additional Build Instructions 
 
 FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [here](https://github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
 

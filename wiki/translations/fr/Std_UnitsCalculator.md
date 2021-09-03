@@ -14,14 +14,14 @@ La commande **Std Convertisseur d\'unités** ouvre la boîte de dialogue calcula
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Outils → <img src="images/Std_UnitsCalculator.svg" width=16px> Calculateur d'unités ...}} dans le menu.
+1.  Sélectionnez l\'option **Outils → <img src="images/Std_UnitsCalculator.svg" width=16px> Calculateur d'unités ...** dans le menu.
 2.  La boîte de dialogue Calculatrice d\'unités s\'ouvre. Pour plus d\'informations, voir [Options](#Options.md).
 3.  La boîte de dialogue est non modale, ce qui signifie qu\'elle peut rester ouverte pendant que vous continuez à travailler dans FreeCAD.
 4.  Appuyez sur le bouton **Fermer** pour fermer la boîte de dialogue.
 
 ## Options
 
-### Première ligne {#première_ligne}
+### Première ligne 
 
 1.  Entrez une valeur avec des unités dans la première zone de saisie. Par exemple {{Value|10 mm}}.
     -   Les unités avec exposants doivent être saisies en utilisant la notation {{Value|^}}. Par exemple {{Value|1 m^2}}.
@@ -32,7 +32,7 @@ La commande **Std Convertisseur d\'unités** ouvre la boîte de dialogue calcula
 3.  S\'il n\'y a pas d\'erreur de saisie, la case **=\>** affichera immédiatement le résultat. Pour les valeurs d\'exemple, le résultat est {{Value|0,394 in}}.
 4.  Appuyez sur le bouton **Copie** pour copier le contenu de la boîte **=\>** dans le presse-papiers. La valeur peut ensuite par exemple être collée dans un panneau de tâches ou une boîte de dialogue FreeCAD.
 
-### Zone de texte {#zone_de_texte}
+### Zone de texte 
 
 1.  La conversion effectuée dans la ligne supérieure peut être copiée dans la zone de texte en appuyant sur **Entrée** dans la première ou la deuxième zone de saisie.
 2.  La zone de texte peut contenir plusieurs conversions et son contenu peut être sélectionné et copié dans le presse-papiers avec **Ctrl+C** et utilisé dans d\'autres programmes.

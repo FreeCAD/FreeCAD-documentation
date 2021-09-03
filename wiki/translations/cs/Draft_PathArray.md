@@ -44,7 +44,7 @@ The alignment of the elements in a Draft PathArray depends on the properties of 
 
 <img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> *3 arrays based on the same non-planar path. From left to right: Align is false, Align is true with Align Mode Original and Align is true with Align Mode Frenet*.
 
-### Align Mode {#align_mode}
+### Align Mode 
 
 Three modes are available:
 
@@ -60,7 +60,7 @@ This mode uses the local normal vector derived from the path at each element pla
 
 This mode is similar to **Align Mode** {{Value|Original}} but includes the possibility to pre-rotate the source object by specifying a **Tangent Vector**.
 
-### Force Vertical and Vertical Vector {#force_vertical_and_vertical_vector}
+### Force Vertical and Vertical Vector 
 
 These properties are only available if **Align Mode** is {{Value|Original}} or {{Value|Tangent}}. If **Force Vertical** is set to `True` the local coordinate system is calculated in a different manner. The **Vertical Vector** is used as a fixed normal vector. From this normal vector and the local tangent vector (the local X axis) again a cross product is calculated. But now this vector is used as the local Y axis. The orientation of the local Z axis is determined from the local X and Y axes.
 

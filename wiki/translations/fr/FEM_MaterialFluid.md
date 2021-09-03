@@ -17,7 +17,7 @@ Ajoute des propriétés fluides à une pièce.
 
 1.  Pour créer un nouvel objet MaterialFluid, effectuez l\'une des opérations suivantes:
     -   Appuyez sur le bouton **<img src="images/FEM_MaterialFluid.svg" width=16px> [Matériau pour le fluide](FEM_MaterialFluid/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Model → Materials → <img src="images/FEM_MaterialFluid.svg" width=16px> Creates a FEM material for fluid}} dans le menu.
+    -   Sélectionnez l\'option **Model → Materials → <img src="images/FEM_MaterialFluid.svg" width=16px> Creates a FEM material for fluid** dans le menu.
 2.  Pour modifier un objet MaterialFluid existant:
     -   Double-cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md).
 3.  Le panneau des tâches de matériau MEF s\'ouvre.

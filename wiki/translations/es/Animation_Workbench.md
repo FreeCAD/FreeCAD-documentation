@@ -83,7 +83,7 @@ Other
 -   <img alt="" src=images/Animation_Icon2.png  style="width:32px;"> **Icon2**:
 -   <img alt="" src=images/Animation_Icon3.png  style="width:32px;"> **Icon3**:
 
-## Enlaces a la animación Ambiente de Trabajo {#enlaces_a_la_animación_ambiente_de_trabajo}
+## Enlaces a la animación Ambiente de Trabajo 
 
 -   Ambiente de Trabajo Wiki: [www.freecadbuch.de](http://freecadbuch.de/doku.php?id=Animation%20Wokbench)
 -   FreeCAD Wiki:
@@ -93,7 +93,7 @@ Other
 -   Archivos: [Ejemplos](https://github.com/microelly2/Animation-WB-Examples)
 -   Informar de los errores: Please report bugs at [Foro FreeCAD](http://forum.freecadweb.org/index.php), or at [Problemas de animación](https://github.com/microelly2/Animation/issues)
 
-## Otros enlaces útiles {#otros_enlaces_útiles}
+## Otros enlaces útiles 
 
 -   [ExplodedAnimation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:ExplodedAnimation): Ambiente de Trabajo FreeCAD para crear vistas de explosión y animaciones de ensamblajes.
 -   [Assembly2](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Assembly2): Ambiente de Trabajo de ensamblaje para FreeCAD con soporte para importar piezas de archivos externos.

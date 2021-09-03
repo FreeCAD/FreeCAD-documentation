@@ -19,7 +19,7 @@
 3.  Les bords doivent être ajoutés dans un ordre consécutif. Et être sélectionné à partir de l\'esquisse, du bord de n\'importe quelle forme.
 4.  Pour appeler la commande, effectuez l\'une des opérations suivantes:
     -   Appuyez sur le bouton <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;">
-    -   Utilisez la {{MenuCommand|Curves → Join Curves}}
+    -   Utilisez la **Curves → Join Curves**
 5.  Tous les bords sont fusionnés en un seul Bspline.
 
 ## Remarques

@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Diese Seite ist ein Versuch, Ideen über parametrisches Design im Bereich der Architektur für den Bau des [Arch-Arbeitsbereich](Arch_Workbench/de.md) zu sammeln. Da es etwas anders ist als der Bereich des Maschinenbaus, möchte ich die Konzepte etwas besser definieren, bevor ich darüber nachdenke, wie ich mit der Implementierung beginnen kann\... Fühle dich frei, deine Ideen hinzuzufügen!
 
-## Ähnliche Software {#ähnliche_software}
+## Ähnliche Software 
 
 -   [Revit](http://en.wikipedia.org/wiki/Revit)
 -   [Archicad](http://en.wikipedia.org/wiki/Archicad)
@@ -26,7 +26,7 @@ Diese Seite ist ein Versuch, Ideen über parametrisches Design im Bereich der Ar
     -   <http://www.bimserver.org/>
     -   <http://konstruct.nl/parsing-ifc-stepexpress-files-in-python-and-s>
 
-## Allgemeine Konzepte {#allgemeine_konzepte}
+## Allgemeine Konzepte 
 
 -   FreeCAD ist perfekt für diese Aufgabe geeignet. Das Entwerfen mit parametrischen Objekten wird das einzige wirkliche Problem, das ich in FreeCAD sehe, nämlich den Umgang mit Tausenden von Objekten, stark reduzieren. Alles Nötige ist bereits vorhanden, wie benutzerdefinierte Objekttypen, benutzerdefinierte Eigenschaften usw. Die Hauptschwierigkeit, ein allgemeines Modell für den Umgang mit der Interaktion zwischen Objekten zu entwerfen, ist jetzt potentiell vorbei, da FreeCAD speziell für diesen Zweck einen Abhängigkeitsgraphen eingeführt hat.
 
@@ -58,7 +58,7 @@ ist ein Konzept, das von einigen Anbietern von Software für den Entwurf von Geb
 
 -   An edit mode, so one can modify the original shape that generated the part.
 
-## About archetypes {#about_archetypes}
+## About archetypes 
 
 -   All archetypes should always behave like object-oriented programming objects: You can make a new class based on another class.
 -   All archetypes should be able to interact with common object. For this, probably common objects would need custom properties.
@@ -72,7 +72,7 @@ ist ein Konzept, das von einigen Anbietern von Software für den Entwurf von Geb
 -   Assemblies need to be defined further. They are basically made of other parts, that could be anything, shapes, windows, etc\... and custom properties, such as array repetition, deformation (follow a shape?), etc.
 -   Site Builder - a special set of tools must handle site creation and update. This toolbox needs to be compatible with other major Open Source terrain/site modelers and GIS applications (like GRASS). SiteBuilder will allow for creation of a site based on topo curves, and easy manipulation/update of the site. That will allow easy creation of: sidewalks, curbs and curb cuts, roads, landscaping, parking lots with all required sewer/runoff systems, etc. The database generated will allow for estimating cut and fill as well as other info required to do the site work. SiteBuilder will be useful also to generate the excavation required for a project.
 
-## Archetypes (object types) {#archetypes_object_types}
+## Archetypes (object types) 
 
 ### Wall
 
@@ -89,7 +89,7 @@ The level in which walls are placed, require a previous insertion of that \"leve
 
 Walls allow for insertions of libraries like: doors, windows, curtain walls, and other custom made objects that require an opening in that wall. If just an opening is required, that can be inserted as well.
 
-### Door/Window (Insert element) {#doorwindow_insert_element}
+### Door/Window (Insert element) 
 
 Doors and windows are really the same thing, a totally object which can have a lot of parameters to define its shape, and an invisible volume that is used to cut openings through receiving walls. They are typically inserted into a wall, but not always. since they can differ much, they should be easy to design.
 
@@ -101,7 +101,7 @@ Roof is simply a handy way to calculate roof slope intersections
 
 Slab is horizontal, made from extruding vertically a closed wire or face, should connect by material to other structural members, and can have a number of appendices (union) or holes (subtraction), and layers (materials). The horizontal areas and volume must be calculated
 
-### Beam/Pillar (Structural element) {#beampillar_structural_element}
+### Beam/Pillar (Structural element) 
 
 A closed wire or face extruded in any direction, can have a number of appendices (union) or holes (subtraction).
 
@@ -109,7 +109,7 @@ A closed wire or face extruded in any direction, can have a number of appendices
 
 A group of windows that can be shaped as a whole
 
-## Generic mechanisms {#generic_mechanisms}
+## Generic mechanisms 
 
 -   Dependency: windows must know which wall they are inserted, walls must know which window they contain, etc\... See part booleans
 -   Joints: walls must know which other wall connect to them and correctly connect their materials together. Moving a wall must therefore recalculate the neighbours. Establish a chart of possible joint types
@@ -117,55 +117,55 @@ A group of windows that can be shaped as a whole
 -   Auto-grouping: Objects of a certain type go automatically into specific groups
 -   \"Window designer\": An easy way to design parametric windows, based on profiles
 
-### Energy Analysis {#energy_analysis}
+### Energy Analysis 
 
 -   Building needs to perform appropriate to the program that serves as well to the particular geographical location. For example a single project can be built in Miami, Florida (US) or Frankfurt (Germany) or Sydney (Australia). However, it will perform with large differences. What is appropriate for one location, might be inappropriate for another location. Designs we generate with FCBIM should be \"tested\" and see how they performs in terms of energy consumption. At this moment there are few tools available out there that allows energy performance of buildings. Major Freeware/Open Source players are: EnergyPlus, OpenStudio (an GUI interface for EnergyPlus) and ESP-r.
 
-### Daylight Simulation {#daylight_simulation}
+### Daylight Simulation 
 
 -   Harvesting daylight is one of the basic approaches in sustainable design. Many modern designs turn their back to natural light and result in undesirable solutions for human beings. In US a large percentage of buildings create the so-called Sick Building Syndrome, that lead to health issues for people that live and work in these. Using daylight alleviate part of this problem. FCBIM should incorporate tools that allows daylight simulations, maybe Radiance or LuxRender or Yaf(a)ray.
 
-### HVAC & Natural Ventilation {#hvac_natural_ventilation}
+### HVAC & Natural Ventilation 
 
 -   Tools to insert draw and calculate HVAC and allow to calculate for use of natural ventilation. Maybe OpenFOAM should be a candidate in this area, that will complement FCBIM.
 
-## Capturing Building Knowledge {#capturing_building_knowledge}
+## Capturing Building Knowledge 
 
 The effort to create a module that will make it possible for FreeCAD to provide a contemporary building information modeling (BIM) environment is underway. The effort is geared towards bringing its capabilities to compare to those of more mature architectural modeling systems such as Revit. We recognize the limitations in available implementations of BIM one of which is the ignorance of building knowledge. For this reason we are also pursuing a parallel goal of developing capabilities that will enable FreeCAD capture such knowledge typically created mostly in the early design stage but also in the later detail design stage. In the following sections, we document capabilities that are not so common in available tools but which we believe are more appropriate and efficient in capturing building knowledge and information from concept to demolition. The following sections provide specifications and guidelines regarding the \"what\" part of this effort. We shall fill in the \"how\" as our effort progresses. Needless to say, things will change or be amended as our understanding and implementation comes together.
 
-### Procedure Descriptions to Identify Objects {#procedure_descriptions_to_identify_objects}
+### Procedure Descriptions to Identify Objects 
 
 The building design session begins on the site where the designer establishes the north-direction and introduces appropriate setbacks according to the building code applicable in the design locale. By doing this the maximum footprint for the new building is established.
 
-#### Object 1: Building Site {#object_1_building_site}
+#### Object 1: Building Site 
 
 There is only one building site in a project. This object should be created as soon as the decision to design a house is made by the designer. It should exist as a form of container (because it secludes a space. More on this later) with sides, a top and a bottom. The sides can then be interactively defines in terms of length and angle. It should also be possible to add or remove sides as needed. Although the bottom is created flat, it can also be redefined with contours to provide appropriate slope. The bottom is the only part of the site that should be visible.
 
-#### Object 2: North-Direction {#object_2_north_direction}
+#### Object 2: North-Direction 
 
 The north direction is an object that establishes the angle in the direction of true north. It is a part of the site and makes it possible for the site to determine the prevailing winds, the movement of the sun, etc.
 
-#### Object 3: SetBack {#object_3_setback}
+#### Object 3: SetBack 
 
 These are distances from the boundaries of the site which are required by code. They are part of the site but require certain parameters to be provided in order to determine which boundaries and what distances. For example the setback from the boundary next to the street may be different from the setback from a boundary next to a neighboring site. This information can be provided interactively but with the north-direction established, it is possible for the designer to enter this information during the collection of the requirements for the design. The setback, like the site, is a type of container object.
 
-#### Object 4: Building Level {#object_4_building_level}
+#### Object 4: Building Level 
 
 At this point the maximum footprint for the building has been established. This footprint represents the first building level. The building level is an object that makes it possible to integrate the different building systems. Examples of building systems are architectural, structural, electrical, etc. The building level, like the building site, is a form of container. There can be one or more levels which are typically stacked on top of each other starting from the bottom. The first level is established after designating the setback for all site boundaries. Additional levels can be created but only the elevation of the bottom is modified as the boundaries of the level are invisible.
 
-#### Object 5: Building Space {#object_5_building_space}
+#### Object 5: Building Space 
 
 The space is defined to satisfy the main function of the building such as a space for sleeping, eating, relaxing, working, etc. Spaces are created and grouped inside levels. There are different types of spaces which provide the appropriate functions in different building types. For example in a residential building type there are 4 main types including sleeping, living, service and traffic.
 
-#### Object 6: Space Object {#object_6_space_object}
+#### Object 6: Space Object 
 
 This represents everything else that can be located in a space. Each object will have certain fundamental knowledge of its requirements. For example to describe an area for sitting, an object with at least a seat area, a leg room and maximum height requirements will be necessary.
 
-#### Object 7: Building Container {#object_7_building_container}
+#### Object 7: Building Container 
 
 Most of the objects described so far are types of containers. Containers have an interior area that are secluded by boundaries. There are **Bottom**, **Top** and **Side** boundaries. Two containers can share a side boundary. When this sharing occurs a special **Share-Side** object replaces the individual sides from each of the participating containers. It establishes a link between the two containers and makes it possible for them to communicate. For example when there is a shared side between a sleeping and a service space such as a bathroom and a bedroom, that side will expect some form of treatment for noise dampening to avoid flooding the sleeping area with too much noise. Each boundary in a container has a **Form**. A form is a container-type object that can have the necessary descriptions or **Property** of materials typical in building envelops.
 
-### Object Diagram {#object_diagram}
+### Object Diagram 
 
 The following diagram illustrates the relationship between all objects described so far.
 

@@ -13,7 +13,7 @@ Om du gillar FreeCAD och skulle vilja hjälpa till med dess utveckling, så finn
 
 </div>
 
-## Work on the documentation {#work_on_the_documentation}
+## Work on the documentation 
 
 Help us to build, correct and extend this documentation. Correct mistakes, extend or correct pages that are unclear, create new pages if a topic is missing, etc. Contributing to the FreeCAD wiki is easy, at [WikiPages](WikiPages.md) you can find the general guidelines and the help needed to get you started. To edit the wiki, you will need a wiki account with \"Editor\" permissions (the wiki is write-protected to avoid spamming). You can ask for an account [on the forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830) or on the [IRC channel](https://wiki.freecadweb.org/Help#Chat). Please note that the IRC channel may not be as responsive as the forum. [The official FreeCAD forum](https://forum.freecadweb.org) should be the premier place to ask questions and start discussions, As it will help preserve the experience and knowledge of the community.
 
@@ -28,7 +28,7 @@ Några områden som skulle välkomna ditt arbete:
 
 </div>
 
-## Share your FreeCAD knowledge {#share_your_freecad_knowledge}
+## Share your FreeCAD knowledge 
 
 The user community around FreeCAD is still small, but already includes several advanced users who do a very important job in showing to newcomers how to use the software. If you begin to feel comfortable with FreeCAD, your knowledge could be very valuable to others, and you might contribute with important assets, like:
 
@@ -42,16 +42,16 @@ The user community around FreeCAD is still small, but already includes several a
 
 <div class="mw-translate-fuzzy">
 
-### Translate FreeCAD {#translate_freecad}
+### Translate FreeCAD 
 
 Translate FreeCAD in your own language. All text of the FreeCAD interface can be easily translated in other languages. All we need is someone who know that other language and is willing to help! All the translations are done online on [crowdin](http://crowdin.net/project/freecad).
 
-### Översätt dokumentationen och själva FreeCAD {#översätt_dokumentationen_och_själva_freecad}
+### Översätt dokumentationen och själva FreeCAD 
 
 -   [Översätt](Localisation/sv.md) FreeCAD till ditt eget språk. All text i FreeCADs gränssnitt kan lätt översättas till andra språk. Allt vi behöver är någon som kan det andra språket och är villig att hjälpa till! Vi har för närvarande översättning i engelska, tyska, svenska, italienska och franska.
 -   Översätt dokumentationen: Att översätta denna wiki är lätt, du behöver bara lägga till en /språkkod sida för att skapa en översättning. För att till exempel översätta [Part](Part_Workbench.md) sidan (dess url slutar med index.php?title=Part\_Workbench) till franska, så behöver du bara lägga till /fr till url:en, vilket kommer att skapa en [Part\_Workbench/fr](Part_Workbench/fr.md) sida.
 
-### Hjälp andra att få redan på FreeCAD {#hjälp_andra_att_få_redan_på_freecad}
+### Hjälp andra att få redan på FreeCAD 
 
 -   Tala om FreeCAD med andra människor som kan vara intresserade
 -   Hitta intressanta användningsområden för FreeCAD, och dokumentera det, med till exempel skärmdumpar. FreeCAD är mycket ungt, och många människor ser inte vad de kan göra med det. Om du redan är en FreeCAD fantast, så vet du säkert något häftigt som FreeCAD kan göra. Hjälp oss att visa det för andra!
@@ -66,7 +66,7 @@ Translate FreeCAD to your own language. All text strings of the FreeCAD interfac
 
 For details on translation, see [Localisation](Localisation.md).
 
-## Translate the documentation {#translate_the_documentation}
+## Translate the documentation 
 
 Translating is easy, the FreeCAD wiki supports a translation plugin which allows you to translate the base English page to other languages.
 
@@ -76,7 +76,7 @@ Please be sure you are familiar with the basics of wiki markup; see [Help:Editin
 
 Then head to [WikiPages](WikiPages.md) to familiarize yourself with the style used in this wiki, particularly when it comes to templates.
 
-## Help others to know FreeCAD {#help_others_to_know_freecad}
+## Help others to know FreeCAD 
 
 -   Talk about FreeCAD to other people who might be interested
 -   Find interesting uses for FreeCAD, and document it, for example with screenshots. FreeCAD is very young, and not many people see what they can do with it. If you are a FreeCAD fan already, you surely know some cool thing FreeCAD can do. Help us to show that to others!
@@ -88,7 +88,7 @@ Then head to [WikiPages](WikiPages.md) to familiarize yourself with the style us
 
 <div class="mw-translate-fuzzy">
 
-### Rapportera buggar och be om intressanta funktioner {#rapportera_buggar_och_be_om_intressanta_funktioner}
+### Rapportera buggar och be om intressanta funktioner 
 
 -   [Rapportera buggar](http://sourceforge.net/tracker/?group_id=49159&atid=455298), om du hittar några. Var försiktig och försäkra dig om att det du har hittat verkligen är en bugg, vilket är något som ska fungera, men gör det inte. Beskriv och ge tillräckligt med information om hur man framkallar buggen, så att någon kan reproducera den.
 -   [Föreslå nya funktioner](http://sourceforge.net/tracker/?group_id=49159&atid=455301), ingen kan garantera att din önskan kommer att uppfyllas, men du kanske kan komma med en intressant ide. Innan di postar en officiell funktionsbegäran, så kan det vara en bra ide att diskutera den på [forumet](http://forum.freecadweb.org/index.php), för att se vad andra tycker om den.
@@ -108,7 +108,7 @@ Although the place to report confirmed bugs and suggest new features is eventual
 -   Before submitting a feature request, always discuss it with other users first on the [Open discussion forum](http://forum.freecadweb.org/viewforum.php?f=8), so you might end up with a more solid proposal, with more chances to interest a developer to implement it.
 -   Remember that FreeCAD is developed by volunteers who use their free time to work on it. Although everyone tries his best to make the best possible application, your bug report might be treated with low priority, or canceled if you cannot give sufficient information, and your feature request might be postponed or even refused if no developer has interest in implement it or if that would request an unrealistic amount of work.
 
-## Design artwork {#design_artwork}
+## Design artwork 
 
 See the [Artwork](Artwork.md) and [Artwork Guidelines](Artwork_Guidelines.md) page for guidelines about designing icons for FreeCAD.
 

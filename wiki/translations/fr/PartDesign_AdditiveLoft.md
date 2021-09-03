@@ -16,7 +16,7 @@ Le **Lissage additif** crée un solide dans le Corps actif en faisant une transi
 
 ## Utilisation
 
-### Déroulement du travail basé sur la boîte de dialogue {#déroulement_du_travail_basé_sur_la_boîte_de_dialogue}
+### Déroulement du travail basé sur la boîte de dialogue 
 
 1.  Cliquez sur le bouton **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Lisser un profil sélectionné...](PartDesign_AdditiveLoft/fr.md)**.
 2.  Dans la boîte de dialogue **Sélectionner une fonction**, sélectionnez une esquisse à utiliser comme objet de profil de base et cliquez sur **OK**.
@@ -25,7 +25,7 @@ Le **Lissage additif** crée un solide dans le Corps actif en faisant une transi
 4.  Sélectionnez l\'esquisse suivante dans la [Vue 3D](3D_view/fr.md). Répétez la sélection pour les autres esquisses dans l'ordre dans lequel vous souhaitez qu'elles soient lissées. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la boîte de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée. {{Version/fr|0.19}})
 5.  Définissez des options si nécessaire puis cliquez sur **OK**.
 
-### Déroulement du travail basé sur la sélection {#déroulement_du_travail_basé_sur_la_sélection}
+### Déroulement du travail basé sur la sélection 
 
 
 {{Version/fr|0.19}}
@@ -72,7 +72,7 @@ Le **Lissage additif** crée un solide dans le Corps actif en faisant une transi
 -   Le lissage sera créé dans l\'ordre dans lequel les coupes transversales ont été ajoutées.
 -   Si l\'esquisse a une géométrie intérieure, c\'est-à-dire que le lissage est censé avoir des trous, alors l\'ordre dans lequel la géométrie de l\'esquisse est créée doit être le même pour toutes les sections: commencez soit avec toutes les sections avec la géométrie intérieure, ou commencez-les toutes avec la géométrie extérieure . Sinon, un lissage non valide peut être créé à la croisée des murs intérieurs et extérieurs.
 
-## Problèmes connus {#problèmes_connus}
+## Problèmes connus 
 
 -   Certains modes d\'échec vont transformer la pièce en noir
 

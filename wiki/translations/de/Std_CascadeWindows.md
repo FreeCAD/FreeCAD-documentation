@@ -16,7 +16,7 @@ Der **Std FensterÜberlappendAnordnen**-Befehl ordnet die Fenster im [Hauptansic
 ## Anwendung
 
 1.  Der Hauptansichtsbereich muss wenigstens zwei Fenster enthalten.
-    -   Wähle die {{MenuCommand|Fenster → <img src="images/Std_CascadeWindows.svg" width=16px> Überlappend anordnen}}-Option aus dem Menü.
+    -   Wähle die **Fenster → <img src="images/Std_CascadeWindows.svg" width=16px> Überlappend anordnen**-Option aus dem Menü.
 
 
 

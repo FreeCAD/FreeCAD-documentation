@@ -38,7 +38,7 @@ A seconda della selezione effettuata, alcuni campi si attivano o restano disabil
 
 ![](images/PartDesign_Hole_parameters_it.png )
 
-### Filettatura e dimensioni {#filettatura_e_dimensioni}
+### Filettatura e dimensioni 
 
 
 <div class="mw-translate-fuzzy">
@@ -55,7 +55,7 @@ A seconda della selezione effettuata, alcuni campi si attivano o restano disabil
 
 </div>
 
-### Forma del foro {#forma_del_foro}
+### Forma del foro 
 
 
 <div class="mw-translate-fuzzy">
@@ -68,7 +68,7 @@ A seconda della selezione effettuata, alcuni campi si attivano o restano disabil
 
 </div>
 
-### Forma della punta {#forma_della_punta}
+### Forma della punta 
 
 
 <div class="mw-translate-fuzzy">
@@ -115,7 +115,7 @@ Gran parte delle proprietà dati sono le stesse di quelle mostrate nelle [Opzion
 
 </div>
 
-## Cut Type Definitions {#cut_type_definitions}
+## Cut Type Definitions 
 
 Cut types (screw-types) are defined in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) files since version 0.19. There is a set of files distributed with FreeCAD, but users can create their own definitions. Files are searched in <UserAppDataDir>/PartDesign/Hole. The `UserAppDataDir` can be found by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md).
 

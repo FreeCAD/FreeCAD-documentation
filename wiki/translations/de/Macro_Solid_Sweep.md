@@ -21,7 +21,7 @@ Mělo by být poznamenáno, že výsledná pevná látka nebude **parametrická*
 
 <div class="mw-translate-fuzzy">
 
-## Wie verwende ich {#wie_verwende_ich}
+## Wie verwende ich 
 
 -   Erstellen Sie zwei 2D-Elemente (eines für den Abschnitt und eines für die Flugbahn) der unten aufgeführten Typen.
 -   Wählen Sie entweder in der Projektnavigation oder in der 3D-Ansicht zuerst die Flugbahn und dann das Profil aus. Die Reihenfolge ist wichtig!
@@ -31,7 +31,7 @@ Mělo by být poznamenáno, že výsledná pevná látka nebude **parametrická*
 
 </div>
 
-## Unterstützte 2D-Elemente {#unterstützte_2d_elemente}
+## Unterstützte 2D-Elemente 
 
 -   Leitungen
 -   <img alt="" src=images/_Sketcher_NewSketch.svg  style="width:24px;"> [Sketches](Sketcher_Workbench/de.md)

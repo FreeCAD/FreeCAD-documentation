@@ -1,6 +1,6 @@
  Questa pagina propone i modelli standard [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) secondo il American National Standards Institute
 
-### ANSI A {#ansi_a}
+### ANSI A 
 
 #### ANSI\_A\_Landscape
 
@@ -10,7 +10,7 @@
 
 <img alt="" src=images/ANSI_A_Portrait.svg  style="width:800px;">
 
-### ANSI B {#ansi_b}
+### ANSI B 
 
 #### ANSI\_B\_Landscape
 
@@ -20,7 +20,7 @@
 
 <img alt="" src=images/ANSI_B_Portrait.svg  style="width:800px;">
 
-### ANSI C {#ansi_c}
+### ANSI C 
 
 #### ANSI\_C\_Landscape
 
@@ -30,7 +30,7 @@
 
 <img alt="" src=images/ANSI_C_Portrait.svg  style="width:800px;">
 
-### ANSI D {#ansi_d}
+### ANSI D 
 
 #### ANSI\_D\_Landscape
 
@@ -40,7 +40,7 @@
 
 <img alt="" src=images/ANSI_D_Portrait.svg  style="width:800px;">
 
-### ANSI E {#ansi_e}
+### ANSI E 
 
 #### ANSI\_E\_Landscape
 
@@ -50,7 +50,7 @@
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width:800px;">
 
-## Altri modelli standard disponibili {#altri_modelli_standard_disponibili}
+## Altri modelli standard disponibili 
 
 -   [Modelli Drawing](Drawing_templates/it.md): modelli default di FreeCAD
 -   [Modelli Arch](Arch_templates/it.md): modelli secondo lo standard [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute) del American National Standards Institute

@@ -1,12 +1,12 @@
 
 
-## Fichiers d\'aide FreeCAD {#fichiers_daide_freecad}
+## Fichiers d\'aide FreeCAD 
 
 La documentation hors-ligne de FreeCAD est générée à l\'aide de scripts à partir du wiki FreeCAD. Elle a actuellement atteint une taille dépassant les 220 MB. Ces gros fichiers ne font pas partie des installateurs et exécutables de FreeCAD, mais peuvent être installé séparément selon les explications qui suivent.
 
 Les traductions par la communauté sont encouragées et la documentation hors ligne est désormais disponible en français et en italien. D\'autres langues peuvent être à différents stades d\'avancement.
 
-## Télécharger les fichiers d\'aide {#télécharger_les_fichiers_daide}
+## Télécharger les fichiers d\'aide 
 
 Une documentation hors-ligne fonctionnelle consiste en au moins deux fichiers : le fichier d\'aide à la configuration Qt {{FileName|freecad.qhc}} et le fichier d\'aide Qt compressé {{FileName|freecad.qch}}. Ils sont rassemblés dans une archive ZIP.
 
@@ -16,7 +16,7 @@ Dans le futur ils pourront être installés depuis FreeCAD avec le [gestionnaire
 
 Les fichiers d\'aide ont toujours les mêmes noms : {{FileName|freecad.qhc}} et {{FileName|freecad.qch}}. Pour avoir différentes versions des fichiers d\'aide, ils doivent être installés dans des répertoires différents. Dans le cas d\'un téléchargement manuel, il suffit de stocker localement le fichier zip et d\'extraire l\'archive dans le répertoire voulu.
 
-## Enregistrer la documentation {#enregistrer_la_documentation}
+## Enregistrer la documentation 
 
 Le système de documentation de FreeCAD utilise Qt Assistant. Vous devriez d\'abord installer ce programme, si vous ne l\'avez pas.
 
@@ -24,19 +24,19 @@ L'organisation réelle de l'aide hors ligne permet à un seul fichier d'aide d'�
 
 Afin de rendre une autre documentation FreeCAD active, les étapes suivantes doivent être appliquées :
 
--   Dans FreeCAD, cliquer sur le menu {{MenuCommand|Aide → Aide}}. Le programme Qt Assistant devrait s\'ouvrir.
--   Dans Qt Assistant, cliquer sur le menu {{MenuCommand|Édition → Préférences}}.
--   Dans le dialogue de préférences, cliquer sur l\'onglet {{MenuCommand|Documentation}}.
+-   Dans FreeCAD, cliquer sur le menu **Aide → Aide**. Le programme Qt Assistant devrait s\'ouvrir.
+-   Dans Qt Assistant, cliquer sur le menu **Édition → Préférences**.
+-   Dans le dialogue de préférences, cliquer sur l\'onglet **Documentation**.
 -   Dans la liste *Documentation référencée*, sélectionner `org.freecad.usermanual` puis cliquer sur le bouton **Supprimer**.
 -   Fermer la fenêtre de dialogue avec **OK**, mais ne fermez pas Qt Assistant. C\'est important, sinon un autre fichier d\'aide ne pourra pas être enregistré.
--   Ouvrir à nouveau le dialogue de préférences depuis le menu {{MenuCommand|Édition → Préférences}}.
+-   Ouvrir à nouveau le dialogue de préférences depuis le menu **Édition → Préférences**.
 -   Cliquer sur l\'onglet Documentation puis cliquer sur le bouton **Add...**
 -   Dans la fenêtre d\'ouverture de fichiers, naviguer vers le répertoire contenant le fichier d\'aide voulu et sélectionner {{FileName|freecad.qch}}.
--   Fermer la fenêtre de dialogue puis confirmer votre sélection. Dans l\'onglet {{MenuCommand|Documentation}} des préférences, une ligne avec `org.freecad.usermanual` devrait maintenant apparaître.
--   Fermer les {{MenuCommand|Préférences}} en cliquant sur le bouton **OK**.
+-   Fermer la fenêtre de dialogue puis confirmer votre sélection. Dans l\'onglet **Documentation** des préférences, une ligne avec `org.freecad.usermanual` devrait maintenant apparaître.
+-   Fermer les **Préférences** en cliquant sur le bouton **OK**.
 -   Vous devriez maintenant avoir la nouvelle documentation disponible dans Qt Assistant, et elle sera disponible dans FreeCAD.
 
-## Remarque à propos d\'Ubuntu {#remarque_à_propos_dubuntu}
+## Remarque à propos d\'Ubuntu 
 
 Des difficultés peuvent survenir lors de la tentative d\'installation des packages de documentation sur Ubuntu (par exemple, `freecad-doc` ou `freecad-daily-doc`). Si c\'est le cas, l\'exécution des étapes suivantes vous permettra d\'avoir une documentation hors ligne.
 

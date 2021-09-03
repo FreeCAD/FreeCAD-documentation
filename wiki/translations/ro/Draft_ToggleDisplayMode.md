@@ -24,7 +24,7 @@ Acest instrument comută afișarea obiectelor selectate între Wireframe și Fla
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați obeictul(e)
 2.  Apăsați butonul **<img src="images/Draft_ToggleDisplayMode.png" width=16px> [Toggle display mode](Draft_ToggleDisplayMode.md)

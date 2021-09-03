@@ -65,12 +65,12 @@ Viene creato un oggetto parametrico Boolean Fragments. Vengono nascosti gli ogge
 
 -    **Tolerance**: valore di \"confusione\". Questa è una tolleranza supplementare da applicare durante la ricerca delle intersezioni, oltre alle tolleranze memorizzate nelle forme in ingresso.
 
-## Implementation details {#implementation_details}
+## Implementation details 
 
 
 <div class="mw-translate-fuzzy">
 
-## Dettagli dell\'implementazione {#dettagli_dellimplementazione}
+## Dettagli dell\'implementazione 
 
 Lo strumento Boolean Fragments in \"Modalità Standard\" è un General Fuse Operator (GFA) di OpenCascade. Esso accetta una combinazione di tutti tipi di forme probabili, e la logica dell\'output è piuttosto complicata. Vedere [OpenCascade user guide: Boolean operations](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
 

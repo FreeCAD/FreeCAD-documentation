@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Acesta este planul proiectului Quality project [Development roadmap](Development_roadmap.md).
 
-## Scopuri și principii {#scopuri_și_principii}
+## Scopuri și principii 
 
 Acest proiect este parțial o dezvoltare de software și un proiect de documentare. Scopul lui este de a ridica calitatea principalelor componente ale FreeCAD și oferă o experiență mai bună pentru primul contact FreeCAD.
 
@@ -32,7 +32,7 @@ Un alt rezultat important este un sistem complet de ajutor pentru toate comenzil
 
 ## Organizare
 
-## Pașii următori {#pașii_următori}
+## Pașii următori 
 
 Work through all the unfinished commands and make a documentation:
 

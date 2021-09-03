@@ -6,11 +6,11 @@
 
 {{TOCright}}
 
-## SVG templates creation {#svg_templates_creation}
+## SVG templates creation 
 
 Creating templates for the Drawing module is very easy. See also the tutorial [Drawing Template HowTo](Drawing_Template_HowTo.md). Templates are svg files, created with any application capable of exporting svg files, such as [Inkscape](http://www.inkscape.org). However, you will often need to open the svg file in a text editor afterwards, to comply with the following rules. Only two rules must be followed:
 
-### Base rules {#base_rules}
+### Base rules 
 
 
 <div class="mw-translate-fuzzy">
@@ -55,7 +55,7 @@ This text above (which is actually an XML comment) must be on a separate line, a
 
 xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
-### Title block {#title_block}
+### Title block 
 
 
 <div class="mw-translate-fuzzy">
@@ -153,7 +153,7 @@ viewBox="0 0 xxx yyy"
 
 </div>
 
-## DXF templates {#dxf_templates}
+## DXF templates 
 
 Since version 0.15, FreeCAD can reliably export a [Drawing](Drawing_Workbench.md) page to the DXF format. This system also uses templates. If a dxf file with the same name is found in the same folder as the SVG template used for a page, it will be used for export. If not, a default empty template is created on the fly.
 
@@ -196,12 +196,12 @@ The above template doesn\'t contain any entity. If you create your DXF file with
 
 The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities\". They must exist in the template, and they must be placed on their own line. You can choose to place them right after the BLOCKS or ENTITIES line, which is easier (just use the \"search\" function of your text editor to find them), or at the end, just before the \"0 ENDSEC\" lines (beware that there is one for each SECTION, make sure to use the ones relative to BLOCKS and ENTITIES). The latter method will place the FreeCAD objects after the objects defined in the template, which might be more logical.
 
-## Šablony A3 {#šablony_a3}
+## Šablony A3 
 
 
 <div class="mw-translate-fuzzy">
 
-### Klasická A3: {#klasická_a3}
+### Klasická A3: 
 
 <img alt="" src=images/A3_Classic.svg  style="width:800px;">
 
@@ -213,7 +213,7 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-### Čistá A3: {#čistá_a3}
+### Čistá A3: 
 
 <img alt="" src=images/A3_Clean.svg  style="width:800px;">
 
@@ -225,7 +225,7 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-### Moderní A3: {#moderní_a3}
+### Moderní A3: 
 
 <img alt="" src=images/A3_Modern.svg  style="width:800px;">
 
@@ -237,7 +237,7 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-### Ukázková A3: {#ukázková_a3}
+### Ukázková A3: 
 
 <img alt="" src=images/A3_Showcase.svg  style="width:800px;">
 
@@ -249,7 +249,7 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-### A3 na šířku anglicky: {#a3_na_šířku_anglicky}
+### A3 na šířku anglicky: 
 
 <img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
 
@@ -258,39 +258,39 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
 
-## Šablona A4 {#šablona_a4}
+## Šablona A4 
 
-### A4 na šířku anglicky: {#a4_na_šířku_anglicky}
+### A4 na šířku anglicky: 
 
 <img alt="" src=images/A4_Landscape_english.svg  style="width:800px;">
 
-### A4 na výšku 1 anglicky: {#a4_na_výšku_1_anglicky}
+### A4 na výšku 1 anglicky: 
 
 <img alt="" src=images/A4_Portrait_1_english.svg  style="width:400px;">
 
-## Šablona US Letter {#šablona_us_letter}
+## Šablona US Letter 
 
-### US Letter na šířku: {#us_letter_na_šířku}
+### US Letter na šířku: 
 
 <img alt="" src=images/US_Letter_landscape.svg  style="width:800px;">
 
-### US Letter na výšku: {#us_letter_na_výšku}
+### US Letter na výšku: 
 
 <img alt="" src=images/US_Letter_portrait.svg  style="width:400px;">
 
-### US Letter ds na šířku: {#us_letter_ds_na_šířku}
+### US Letter ds na šířku: 
 
 <img alt="" src=images/US_Letter_ds_Landscape.svg  style="width:800px;">
 
-### US Legal ds na šířku: {#us_legal_ds_na_šířku}
+### US Legal ds na šířku: 
 
 <img alt="" src=images/US_Legal_ds_Landscape.svg  style="width:800px;">
 
-### US Ledger ds na šířku: {#us_ledger_ds_na_šířku}
+### US Ledger ds na šířku: 
 
 <img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width:800px;">
 
-## Další dostupné standardy {#další_dostupné_standardy}
+## Další dostupné standardy 
 
 -   [ANSI šablony](ANSI_templates/cs.md): podle standardů American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
 -   [Architektonické šablony](Arch_templates/cs.md): podle standardů American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute)

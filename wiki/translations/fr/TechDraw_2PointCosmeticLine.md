@@ -26,7 +26,7 @@ L\'outil Ligne cosmétique ajoute une ligne cosmétique par deux points. Les poi
 
 Pour supprimer une ligne cosmétique, sélectionnez-la et utilisez le bouton de la barre d\'outils **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)**.
 
-## Modification des lignes cosmétiques {#modification_des_lignes_cosmétiques}
+## Modification des lignes cosmétiques 
 
 Pour modifier les extrémités d\'une ligne cosmétique, **<img src="images/TechDraw-line2points.svg" width=16px> Ajouter une ligne cosmétique par 2 points**.
 

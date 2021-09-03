@@ -20,15 +20,15 @@ It is maintained by the community of users of FreeCAD and is not part of the Fre
 
 ## Installation
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 The library is a simple container for SVG files. You can download it anywhere and import its files in your FreeCAD projects. Inside the library, there is also a FreeCAD macro (SymbolsLibrary.FCMacro) that you can edit (you must change the path to your Library) and place in your FreeCAD macros folder. That macro creates a browser window inside FreeCAD, from which you can easily add the symbols to a selected Drawing page (or, if none is selected, the first one found in the active document) by double-clicking them.
 
-## Links to Symbols Library {#links_to_symbols_library}
+## Links to Symbols Library 
 
 -   Workbench Wiki:
 -   FreeCAD Wiki:
@@ -38,7 +38,7 @@ The library is a simple container for SVG files. You can download it anywhere an
 -   Files:
 -   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php) or <https://github.com/FreeCAD/FreeCAD-symbols/issues>
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [Parts Library](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Parts_Library), [Bolts](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts), [Fasteners](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners), [FCGear](http://www.freecadweb.org/wiki/index.php?title=Sandbox:FCGear)
 -   [External workbenches](External_workbenches.md)

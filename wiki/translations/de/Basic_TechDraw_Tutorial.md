@@ -12,19 +12,19 @@ Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/bl
 
 Dieses Tutorial führt den neuen Anwender in einige der verwendeten Werkzeuge und Techniken des **<img src="images/Workbench_TechDraw.svg" width=24px> [Technisches Zeichnen (TechDraw) Arbeitsbereich](TechDraw_Workbench/de.md)** ein. Dieses Tutorial ist kein kompletter und umfassender Führer zum TechDraw-Arbeitsbereich und viele der Werkzeuge und Möglichkeiten werden nicht abgedeckt. Dieses Tutorial führt den Anwender durch die benötigten Schritte, um technische Zeichnungen des Teils aus dem [Grundlagen Part Design Tutorium](Basic_Part_Design_Tutorial/de.md) zu erzeugen.
 
-## Bevor Du anfängst {#bevor_du_anfängst}
+## Bevor Du anfängst 
 
 Lade die [Beispieldatei](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) aus dem Part Design Tutorium herunter.
 
-## Die Aufgabe {#die_aufgabe}
+## Die Aufgabe 
 
 In diesem Tutorial wirst Du den TechDraw Arbeitsbereich benutzen, um aus dem folgenden 3D Teil verschiedene 2D Zeichnungen zu erzeugen. Wir werden mehrere Ansichten des Teils erstellen und wichtige Bemaßungen hinzufügen. Dieses Tutorial wird nicht jedes Merkmal und jedes Werkzeug innerhalb des TechDraw Arbeitsbereichs benutzen, sollte aber genug zeigen, um dem Benutzer dieses Tutorials eine gute Grundlage zu bieten, auf der er seine Kenntnisse und Fähigkeiten aufbauen kann.
 
-## Das Bauteil {#das_bauteil}
+## Das Bauteil 
 
 ![](images/Tut17_final_refined.png )
 
-## Erstellen einer Zeichnung {#erstellen_einer_zeichnung}
+## Erstellen einer Zeichnung 
 
 ### Anfang
 
@@ -32,7 +32,7 @@ In diesem Tutorial wirst Du den TechDraw Arbeitsbereich benutzen, um aus dem fol
 -   Öffne zuerst die Datei, die unser 3D Teil enthält. Stelle dann sicher, dass du dich im TechDraw Arbeitsbereich befindest.
 -   Du wählst die Elemente im Zeichnungsfenster und/oder im Combo Paneel aus. Die Auswahl in TechDraw funktioniert auf dieselbe Weise wie im 3D Fenster. Die Elemente werden gelb, wenn sich der Cursor in der Position befindet, in der sie ausgewählt werden sollen, und werden grün, wenn sie ausgewählt werden. Um mehrere Elemente auszuwählen, verwende beim Klicken die **Strg** Taste und halte sie gedrückt.
 
-### Ansichten und Abmessungen {#ansichten_und_abmessungen}
+### Ansichten und Abmessungen 
 
 Jede Arbeit in TechDraw beginnt mit einer Zeichnungsseite (Page). Zeichnungsseiten basieren auf Vorlagen und enthalten Ansichten.
 
@@ -58,7 +58,7 @@ Besser, aber ein wenig langweilig. Lass\' uns einige Bemaßungen hinzufügen.
 
 ![](images/TDTut_TopView2Dims.png )
 
-### Änderbarer Text {#änderbarer_text}
+### Änderbarer Text 
 
 Wir sollten ein wenig Dokumentation zu unserer Zeichnung hinzufügen.
 
@@ -82,7 +82,7 @@ Bevor wir diese Seite verlassen, können wir uns ansehen, wie es aussieht, wenn 
 
 ![](images/TDTut_Toggle.png )
 
-### Mehrfache Ansichten eines Einzelteils {#mehrfache_ansichten_eines_einzelteils}
+### Mehrfache Ansichten eines Einzelteils 
 
 Lass uns eine Mehransichtzeichnung mit einer anderen Vorlage als Ausgangspunkt erstellen. Wir werden die Konvention des ersten Winkels verwenden, aber du kannst zum dritten Winkel wechseln, wenn das deine lokale Konvention ist.
 
@@ -98,7 +98,7 @@ Lass uns eine Mehransichtzeichnung mit einer anderen Vorlage als Ausgangspunkt e
 1.  Wähle in der Ansicht \"FrontTopLeft\" die beiden Eckpunkte an den entgegengesetzten Enden der Frontkante des Werkstücks.
 2.  Klicke auf <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Längenbemaßung](TechDraw_Dimension_Length/de.md). Ziehe den Bemaßungstext weg vom Körper.
 
-### Verbinden von Bemaßungen mit dem 3D Modell {#verbinden_von_bemaßungen_mit_dem_3d_modell}
+### Verbinden von Bemaßungen mit dem 3D Modell 
 
 Hast Du ein Problem mit der Bemaßung bemerkt, die wir gerade angelegt haben?
 
@@ -125,7 +125,7 @@ Es gibt viel mehr Funktionalitäten in TechDraw zu erforschen - Section Views, D
 1.  Es gibt einen exzellenten Satz von vorgeschlagenen Einstellungen in diesem (englischsprachigen) [Forumseintrag](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189).
 2.  Diese Zeichnung wurde mit v0.18 erstellt. Sie zeigt Bemaßungen im richtigen Format für eine isometrische Ansicht. In v0.17 sind die Verlängerungslinien (?; extension lines) rechtwinklig zur Kante anstatt an den Achsen ausgerichtet.
 
-## Zusätzliche Quellen {#zusätzliche_quellen}
+## Zusätzliche Quellen 
 
 -   FreeCAD-Datei dieser Übung zum Vergleich (erstellt mit v0.17) [Download](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 

@@ -18,7 +18,7 @@ Ne confondez pas cette commande avec la commande [Std Mode édition](Std_Edit/fr
 *Un exemple pour illustrer la commande:*
 
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Atelier Mesh](Mesh_Workbench/fr.md).
-2.  Sélectionnez l\'option {{MenuCommand|Maillages →  <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solide régulier...}} dans le menu.
+2.  Sélectionnez l\'option **Maillages →  <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solide régulier...** dans le menu.
 3.  La boîte de dialogue Solid s\'ouvre.
 4.  Choisissez **Ellipsoïde** dans la liste déroulante.
 5.  Appuyez sur le bouton **Créer**.
@@ -26,22 +26,22 @@ Ne confondez pas cette commande avec la commande [Std Mode édition](Std_Edit/fr
 7.  Sélectionnez l\'objet maillé.
 8.  Appuyez sur le bouton **<img src="images/_Mesh_PolyCut.svg" width=16px> [Couper le maillage](Mesh_PolyCut/fr.md)**.
 9.  Sélectionnez des points dans la vue 3D pour définir un polygone qui chevauche la moitié du maillage.
-10. Faites un clic droit et choisissez {{MenuCommand|Intérieur}} dans le menu contextuel.
+10. Faites un clic droit et choisissez **Intérieur** dans le menu contextuel.
 11. Le résultat est un maillage ouvert avec une frontière.
 12. Assurez-vous que le maillage est toujours sélectionné.
-13. Sélectionnez l\'option {{MenuCommand|Maillages → <img src="images/Mesh_AddFacet.svg" width=16px> Ajouter un triangle}} dans le menu pour appeler la commande [Mesh Ajouter un triangle](Mesh_AddFacet/fr.md).
+13. Sélectionnez l\'option **Maillages → <img src="images/Mesh_AddFacet.svg" width=16px> Ajouter un triangle** dans le menu pour appeler la commande [Mesh Ajouter un triangle](Mesh_AddFacet/fr.md).
 14. Si vous survolez un point limite, un marqueur jaune apparaît et un clic gauche le sélectionne.
 15. Sélectionnez éventuellement deux autres points et ajoutez un triangle au maillage.
 16. Vous êtes maintenant en mode édition et il est impossible de faire pivoter ou de déplacer la vue 3D, bien que le zoom fonctionne toujours.
 17. Appelez la commande **Std Bascule de mode navigation** pour passer en mode navigation:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → <img src="images/Std_ToggleNavigation.svg" width=16px> Bascule mode navigation/édition}} dans le menu.
+    -   Sélectionnez l\'option **Affichage → <img src="images/Std_ToggleNavigation.svg" width=16px> Bascule mode navigation/édition** dans le menu.
     -   Ou utilisez le raccourci clavier: **Echap**.
 18. Vous pouvez maintenant faire pivoter et déplacer la vue 3D, mais vous ne pouvez pas choisir de points pour ajouter des triangles.
 19. Appelez la commande **Std Bascule de mode navigation** pour revenir en mode édition:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → <img src="images/Std_ToggleNavigation.svg" width=16px> Bascule mode navigation/édition}} dans le menu.
+    -   Sélectionnez l\'option **Affichage → <img src="images/Std_ToggleNavigation.svg" width=16px> Bascule mode navigation/édition** dans le menu.
     -   Ou utilisez le raccourci clavier: **Echap**.
 20. Vous pouvez à nouveau sélectionner des points et ajouter des triangles.
-21. Cliquez avec le bouton droit dans la vue 3D et choisissez {{MenuCommand|Terminer}} dans le menu contextuel pour terminer la commande [Mesh Ajouter un triangle](Mesh_AddFacet/fr.md).
+21. Cliquez avec le bouton droit dans la vue 3D et choisissez **Terminer** dans le menu contextuel pour terminer la commande [Mesh Ajouter un triangle](Mesh_AddFacet/fr.md).
 
 
 

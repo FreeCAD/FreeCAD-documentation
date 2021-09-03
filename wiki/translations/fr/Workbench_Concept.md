@@ -17,7 +17,7 @@ Remarquez que parfois, un Atelier est aussi appelé un \"Module\". Cependant Ate
 
 </div>
 
-## Ateliers internes {#ateliers_internes}
+## Ateliers internes 
 
 
 <div class="mw-translate-fuzzy">
@@ -88,11 +88,11 @@ Les ateliers suivants sont toujours inclus dans l\'installation de base à des f
 
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> The [Drawing Workbench](Drawing_Workbench.md) was used for producing technical drawings but has now been deprecated. It is still needed to read old FreeCAD files that contain objects created with this workbench. The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement. {{Obsolete|0.17}}
 
-## Ateliers externes {#ateliers_externes}
+## Ateliers externes 
 
 Les ateliers de FreeCad sont faciles à programmer en langage [Python](Python/fr.md), il y a pour cette raison plusieurs personnes qui développent des ateliers additionnels en dehors des principaux développeurs de FreeCAD.
 
-La page [ateliers tiers](external_workbenches/fr.md) répertorie tout ce qui est connu de cette communauté. La plupart sont facilement installables à partir de FreeCAD, à l'aide du [Gestionnaire d'addons](Addon_Manager/fr.md), situé dans le menu {{MenuCommand|Outils → <img src="images/_AddonManager.svg" width=24px>, Gestionnaire d’addons}}.
+La page [ateliers tiers](external_workbenches/fr.md) répertorie tout ce qui est connu de cette communauté. La plupart sont facilement installables à partir de FreeCAD, à l'aide du [Gestionnaire d'addons](Addon_Manager/fr.md), situé dans le menu **Outils → <img src="images/_AddonManager.svg" width=24px>, Gestionnaire d’addons**.
 
 Et d\'autres ateliers sont toujours en développement !
 

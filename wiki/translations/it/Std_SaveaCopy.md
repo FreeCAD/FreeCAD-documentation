@@ -20,7 +20,7 @@ Il comando **Salva una copia** salva una copia del documento attivo con un nuovo
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare {{MenuCommand|File → Salva una copia...}} nel menu.
+1.  Selezionare **File → Salva una copia...** nel menu.
 2.  Immettere un nome per il file nella finestra di dialogo.
 3.  Premere il pulsante **Salva**.
 
@@ -33,7 +33,7 @@ Il comando **Salva una copia** salva una copia del documento attivo con un nuovo
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: {{MenuCommand|Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

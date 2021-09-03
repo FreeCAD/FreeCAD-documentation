@@ -71,7 +71,7 @@ Za pomocą właściwości **X** i **Y** można zmienić poziome i pionowe poło�
 
 Aby pozbyć się tolerancji, zmień wartości **powyżej wymiaru** i **poniżej wymiaru**, każdą na zero.
 
-#### Formatowanie {#formatowanie_1}
+#### Formatowanie 
 
 Domyślne kroje czcionek dla nowych tolerancji są takie same jak dla wymiarów. Domyślny rozmiar czcionki jest określony przez ustawienie w [preferencjach](TechDraw_Preferences#Wymiary_2.md) opcji **Skala tekstu tolerancji**. Skala ta jest współczynnikiem rozmiaru czcionki użytej dla wymiaru.
 
@@ -79,11 +79,11 @@ Domyślny format wyświetlania liczb dla nowych tolerancji jest standardowo taki
 
 Można również użyć dowolnego tekstu zamiast określenia formatu liczbowego, zaznaczając opcję **Tekst dowolny tolerancji** w oknie dialogowym wymiarowania. Wtedy zawartość pola **Wyznacznik formatu tolerancji** zostanie wyświetlona jako tekst tolerancji.
 
-## Tolerancja geometrii {#tolerancja_geometrii}
+## Tolerancja geometrii 
 
 Tolerancje są tworzone poprzez użycie funkcji środowiska pracy Rysunek techniczny [Balonik](TechDraw_Balloon.md). Ponieważ dla większości obiektów wymagana jest ramka, pomocna jest zmiana opcji **Kształt dymka** na **Prostokąt** w [preferencjach](TechDraw_Preferences/pl#Adnotacje.md) środowiska Rysunek Techniczny.
 
-### Wskaźnik tolerancji {#wskaźnik_tolerancji}
+### Wskaźnik tolerancji 
 
 <img alt="Przykład pręta objętego tolerancją. *( Wartość bicia definiuje już prostoliniowość, podano ją tylko dla przykładu)*." src=images/TechDraw_GD%26T-Toleranced-rod.png  style="width:280px;">
 
@@ -100,7 +100,7 @@ Nie ma reguły, która definiuje czy lub jak wskaźnik tolerancji musi mieć lin
 
 Przykład po prawej stronie pokazuje dwa możliwe warianty rozmieszczenia wskaźników tolerancji.
 
-### Dane odniesienia {#dane_odniesienia}
+### Dane odniesienia 
 
 Punkty odniesienia w znaczeniu GD&T oznacza powierzchnie, do których tolerancja została obliczona. Tworzy się je jako baloniki:
 
@@ -111,7 +111,7 @@ Punkty odniesienia w znaczeniu GD&T oznacza powierzchnie, do których tolerancja
 
 ![Rysunek z przykładami punktów odniesienia](images/TechDraw_GD&T-Datum.png ) 
 
-### Znaki specjalne {#znaki_specjalne}
+### Znaki specjalne 
 
 Poniżej znajduje się lista znaków, które należy wykorzystać w oznaczeniach tolerancji geometrii:
 

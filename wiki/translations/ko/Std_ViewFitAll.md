@@ -27,9 +27,9 @@
         
         버튼을 누릅니다.
 
-    -   메뉴에서 {{MenuCommand|보기 → 표준 보기 → <img src="images/Std_ViewFitAll.svg" width=16px> 전체 보기}} 옵션을 선택합니다.
+    -   메뉴에서 **보기 → 표준 보기 → <img src="images/Std_ViewFitAll.svg" width=16px> 전체 보기** 옵션을 선택합니다.
 
-    -   [3D 보기의](3D_view.md) 상황에 맞는 메뉴에서 {{MenuCommand|<img src="images/Std_ViewFitAll.svg" width=16px> 전체 보기}} 옵션을 선택합니다.
+    -   [3D 보기의](3D_view.md) 상황에 맞는 메뉴에서 **<img src="images/Std_ViewFitAll.svg" width=16px> 전체 보기** 옵션을 선택합니다.
 
     -   단축키를 사용합니다: **V** 다음 **F**.
 

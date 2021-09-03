@@ -16,7 +16,7 @@ FreeCAD tiene la asombrosa capacidad de poder importarse como un módulo de Pyth
 
 <div class="mw-translate-fuzzy">
 
-### Usando FreeCAD sin interfaz gráfica de usuario GUI {#usando_freecad_sin_interfaz_gráfica_de_usuario_gui}
+### Usando FreeCAD sin interfaz gráfica de usuario GUI 
 
 
 </div>
@@ -134,7 +134,7 @@ checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the
 
 <div class="mw-translate-fuzzy">
 
-### Uso de FreeCAD con interfaz gráfica de usuario GUI {#uso_de_freecad_con_interfaz_gráfica_de_usuario_gui}
+### Uso de FreeCAD con interfaz gráfica de usuario GUI 
 
 
 </div>

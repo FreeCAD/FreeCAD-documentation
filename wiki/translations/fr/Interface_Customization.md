@@ -16,8 +16,8 @@ L\'interface FreeCAD est basée sur la boîte à outils [Qt](https://fr.wikipedi
 
 1.  Les commandes disponibles dans la boite de dialogue de personnalisation d\'interface dépendent des ateliers qui ont été chargés dans la session FreeCAD en cours. Vous devez donc d\'abord charger tous les établis dont vous souhaitez avoir accès aux commandes.
 2.  Il existe plusieurs façons d\'appeler la commande <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std Personnalisation](Std_DlgCustomize/fr.md):
-    -   Sélectionnez l\'option {{MenuCommand|Outils → <img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...}} dans le menu.
-    -   Cliquez avec le bouton droit sur une zone de barre d\'outils et choisissez {{MenuCommand|<img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...}} dans le menu contextuel.
+    -   Sélectionnez l\'option **Outils → <img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** dans le menu.
+    -   Cliquez avec le bouton droit sur une zone de barre d\'outils et choisissez **<img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** dans le menu contextuel.
 3.  La boîte de dialogue Personnaliser s\'ouvre. Pour plus d\'informations, voir [Options](#Options.md).
 4.  Le bouton **Aide** ne fonctionne pas pour le moment.
 5.  Appuyez sur le bouton **Fermer** pour fermer la boîte de dialogue.
@@ -32,7 +32,7 @@ Dans la boîte de dialogue Personnaliser, les onglets suivants sont disponibles:
 
 Avec cet onglet, vous pouvez parcourir les commandes disponibles.
 
-#### Parcourir les commandes {#parcourir_les_commandes}
+#### Parcourir les commandes 
 
 1.  Sélectionnez une catégorie de commandes dans le panneau **Catégorie** à gauche. Certaines catégories correspondent aux entrées de menu.
 2.  Les outils disponibles dans la catégorie sélectionnée sont affichés dans le panneau de droite.
@@ -47,7 +47,7 @@ Avec cet onglet, vous pouvez parcourir les commandes disponibles.
 
 Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. Les raccourcis des macro-commandes peuvent être définis dans l\'onglet [Macros](#Macros.md).
 
-#### Ajouter un raccourci personnalisé {#ajouter_un_raccourci_personnalisé}
+#### Ajouter un raccourci personnalisé 
 
 1.  Sélectionnez une catégorie de commandes dans la liste déroulante **Catégorie**.
 2.  Sélectionnez une commande dans le panneau **Commandes**.
@@ -57,17 +57,17 @@ Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. L
 6.  Appuyez sur le bouton **Attribuer** pour attribuer le nouveau raccourci.
 7.  Appuyez sur le bouton **Effacer** pour supprimer le raccourci entré. Cela supprimera également le contenu de la boîte **Raccourci actuel**. Notez que les raccourcis par défaut ne sont pas supprimés définitivement. Ils seront restaurés au redémarrage de FreeCAD.
 
-#### Supprimer un raccourci personnalisé {#supprimer_un_raccourci_personnalisé}
+#### Supprimer un raccourci personnalisé 
 
 1.  Sélectionnez une catégorie de commandes dans la liste déroulante **Catégorie**.
 2.  Sélectionnez une commande dans le panneau **Commandes**.
 3.  Appuyez sur le bouton **Réinitialiser**.
 
-#### Supprimer tous les raccourcis personnalisés {#supprimer_tous_les_raccourcis_personnalisés}
+#### Supprimer tous les raccourcis personnalisés 
 
 1.  Appuyez sur le bouton **Tout réinitialiser**.
 
-#### Remarques (clavier) {#remarques_clavier}
+#### Remarques (clavier) 
 
 -   Les raccourcis ne fonctionnent que si leurs commandes apparaissent dans le menu standard ou dans le menu d\'un plan de travail qui a été chargé dans la session FreeCAD en cours, ou si leurs commandes apparaissent sur une barre d\'outils *visible* .
 
@@ -82,69 +82,69 @@ Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. L
 
 Dans cet onglet, la liste des [Ateliers](Std_Workbench/fr.md) peut être modifiée. La liste **Ateliers activés** affiche les Ateliers tels qu\'ils apparaîtront dans le sélecteur d\'Ateliers.
 
-#### Désactiver un atelier {#désactiver_un_atelier}
+#### Désactiver un atelier 
 
 1.  Sélectionnez un établi dans la liste des **ateliers activés**.
 2.  Appuyez sur le bouton **<img src="images/Button_left.svg" width=16px>**.
 3.  L\'atelier sera déplacé vers la liste des **ateliers désactivés**
 
-#### Réactiver un atelier {#réactiver_un_atelier}
+#### Réactiver un atelier 
 
 1.  Sélectionnez un établi dans la liste des **ateliers désactivés**.
 2.  Appuyez sur le bouton **<img src="images/Button_right.svg" width=16px>**.
 3.  L\'atelier sera déplacé vers la liste des **ateliers désactivés**.
 
-#### Réactiver tous les ateliers {#réactiver_tous_les_ateliers}
+#### Réactiver tous les ateliers 
 
 1.  Appuyez sur le bouton **<img src="images/Button_add_all.svg" width=16px>**.
 
-#### Modifier une position d\'un atelier {#modifier_une_position_dun_atelier}
+#### Modifier une position d\'un atelier 
 
 1.  Sélectionnez un établi dans la liste des **Ateliers activés**.
 2.  Appuyez sur le bouton **<img src="images/Button_up.svg" width=16px>** ou sur le bouton **<img src="images/Button_down.svg" width=16px>**.
 3.  Répétez éventuellement cette opération jusqu\'à ce que l\'atelier soit à la bonne position.
 
-#### Trier les ateliers par ordre alphabétique {#trier_les_ateliers_par_ordre_alphabétique}
+#### Trier les ateliers par ordre alphabétique 
 
 1.  Appuyez sur le bouton **<img src="images/Button_sort.svg" width=16px>**.
 
 [En haut](#top.md)
 
-### Barre d\'outils {#barre_doutils}
+### Barre d\'outils 
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) *L'onglet Barres d'outils*
 
 Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et modifiées.
 
-#### Sélectionnez l\'atelier {#sélectionnez_latelier}
+#### Sélectionnez l\'atelier 
 
 1.  Dans la liste déroulante à droite, sélectionnez l\'atelier dont vous souhaitez modifier les barres d\'outils personnalisées. L\'option {{Value|Global}} est disponible pour les barres d\'outils personnalisées qui devraient être disponibles dans tous les ateliers.
 
-#### Créer une barre d\'outils {#créer_une_barre_doutils}
+#### Créer une barre d\'outils 
 
 1.  Appuyez sur le bouton **Nouveau...**.
 2.  Saisissez un nom dans la boîte de dialogue qui s\'ouvre.
 3.  Appuyez sur le bouton **OK**.
 4.  La nouvelle barre d\'outils apparaîtra dans le panneau de droite.
 
-#### Renommer une barre d\'outils {#renommer_une_barre_doutils}
+#### Renommer une barre d\'outils 
 
 1.  Sélectionnez une barre d\'outils dans le panneau de droite.
 2.  Appuyez sur le bouton **Renommer...**.
 3.  Saisissez un nouveau nom dans la boîte de dialogue qui s\'ouvre.
 4.  Appuyez sur le bouton **OK**.
 
-#### Supprimer une barre d\'outils {#supprimer_une_barre_doutils}
+#### Supprimer une barre d\'outils 
 
 1.  Sélectionnez une barre d\'outils dans le panneau de droite.
 2.  Appuyez sur le bouton **Supprimer**.
 
-#### Désactiver une barre d\'outils {#désactiver_une_barre_doutils}
+#### Désactiver une barre d\'outils 
 
 1.  Décochez la case devant le nom de la barre d\'outils dans le panneau de droite.
 2.  Une barre d\'outils désactivée sera invisible dans l\'interface FreeCAD.
 
-#### Ajouter une commande {#ajouter_une_commande}
+#### Ajouter une commande 
 
 1.  Il faut au moins une barre d\'outils personnalisée. Voir [Créer une barre d\'outils](#Cr.C3.A9er_une_barre_d.27outils.md).
 2.  Sélectionnez la barre d\'outils appropriée dans le panneau de droite. Si aucune barre d\'outils n\'est sélectionnée, la commande sera ajoutée à la première barre d\'outils de la liste.
@@ -153,20 +153,20 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 5.  Ou sélectionnez \'\' pour ajouter un séparateur (une ligne entre deux boutons de la barre d\'outils).
 6.  Appuyez sur le bouton **<img src="images/Button_right.svg" width=16px>**.
 
-#### Supprimer une commande {#supprimer_une_commande}
+#### Supprimer une commande 
 
 1.  Si nécessaire, développez la barre d\'outils dans le panneau de droite.
 2.  Sélectionnez une commande.
 3.  Appuyez sur le bouton **<img src="images/Button_left.svg" width=16px>**.
 
-#### Modifier une position de commande {#modifier_une_position_de_commande}
+#### Modifier une position de commande 
 
 1.  Si nécessaire, développez la barre d\'outils dans le panneau de droite.
 2.  Sélectionnez une commande.
 3.  Appuyez sur le bouton **<img src="images/Button_up.svg" width=16px>** ou sur le bouton **<img src="images/Button_down.svg" width=16px>**.
 4.  Répétez éventuellement cette opération jusqu\'à ce que la commande soit dans la bonne position.
 
-#### Remarques (Barres d\'outils) {#remarques_barres_doutils}
+#### Remarques (Barres d\'outils) 
 
 -   Les barres d\'outils appartenant à l\'atelier en cours sont mises à jour immédiatement, mais après avoir désactivé/réactivé une barre d\'outils, un changement d\'atelier est requis (basculer vers un atelier puis revenir en arrière).
 -   Pour mettre à jour les barres d\'outils globales, un changement d\'atelier (si des commandes ont été ajoutées ou supprimées) ou un redémarrage (si l\'ordre d\'une barre d\'outils a changé ou une barre d\'outils a été renommée) est requis.
@@ -185,7 +185,7 @@ Si vous téléchargez une macro avec le <img alt="" src=images/Std_AddonMgr.svg 
 
 Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre source, vous devrez l\'installer manuellement. Voir [Comment installer les macros](How_to_install_macros/fr.md) pour plus d\'informations.
 
-#### Ajouter une commande macro {#ajouter_une_commande_macro}
+#### Ajouter une commande macro 
 
 1.  Dans la liste déroulante **Macro**, sélectionnez une macro.
 2.  Saisissez un **Texte de menu**. Ce sera le nom utilisé pour identifier la macro-commande et apparaîtra également dans la barre d\'outils s\'il n\'y a pas d\'icône.
@@ -202,12 +202,12 @@ Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre sourc
 9.  La macro-commande apparaît dans le panneau de gauche.
 10. La macro-commande peut maintenant être sélectionnée dans l\'onglet [Barre d\'outils](#Barre_d'outils.md).
 
-#### Supprimer une commande macro {#supprimer_une_commande_macro}
+#### Supprimer une commande macro 
 
 1.  Sélectionnez une commande macro dans le panneau de gauche.
 2.  Appuyez sur le bouton **Supprimer**.
 
-#### Modifier une commande macro {#modifier_une_commande_macro}
+#### Modifier une commande macro 
 
 1.  Double-cliquez sur la commande macro dans le panneau de gauche.
 2.  Apportez les modifications requises. Notez que vous ne pouvez pas supprimer l\'icône, vous pouvez uniquement la remplacer.
@@ -215,13 +215,13 @@ Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre sourc
 
 [En haut](#top.md)
 
-### Mouvement de la Spaceball {#mouvement_de_la_spaceball}
+### Mouvement de la Spaceball 
 
 Cet onglet est vide si aucune souris 3D n\'est détecté. Voir: [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md).
 
 [En haut](#top.md)
 
-### Boutons de la souris 3D {#boutons_de_la_souris_3d}
+### Boutons de la souris 3D 
 
 Cet onglet est vide si aucune souris 3D n\'est détecté. Voir: [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md).
 
@@ -247,7 +247,7 @@ Pour plus de détails sur la façon de personnaliser un thème, voir [Thèmes](T
 
 Les modules complémentaires offrent une autre façon de personnaliser l\'interface d\'utilisation. Vous trouverez ci-dessous quelques addons créés par les utilisateurs de la communauté FreeCAD. Ils peuvent être téléchargés via le <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [gestionnaire d\'Addons](Std_AddonMgr/fr.md) (remarque: ils sont répertoriés dans l\'onglet Ateliers).
 
-### Menu Cube {#menu_cube}
+### Menu Cube 
 
 -   Dépôt Github: <https://github.com/triplus/CubeMenu>
 
@@ -255,7 +255,7 @@ Les modules complémentaires offrent une autre façon de personnaliser l\'interf
 
 -   Dépôt Github: <https://github.com/triplus/Glass>.
 
-### Thèmes des icônes {#thèmes_des_icônes}
+### Thèmes des icônes 
 
 -   Dépôt Github: <https://github.com/triplus/IconThemes>
 
@@ -263,7 +263,7 @@ Les modules complémentaires offrent une autre façon de personnaliser l\'interf
 
 -   Dépôt Github: <https://github.com/triplus/Launcher>
 
-### Menu Camembert {#menu_camembert}
+### Menu Camembert 
 
 -   Dépôt Github: <https://github.com/triplus/PieMenu>
 

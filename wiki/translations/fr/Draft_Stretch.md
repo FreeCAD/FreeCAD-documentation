@@ -22,10 +22,10 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
 1.  Sélectionnez un ou plusieurs objets. Les objets doivent être des [Draft Lignes](Draft_Line/fr.md), [Draft Polylignes](Draft_Wire/fr.md), [Draft Rectangles](Draft_Rectangle/fr.md), [Draft B-splines](Draft_BSpline/fr.md) ou [Draft Courbes de Bézier](Draft_BezCurve/fr.md). Les autres objets sont ignorés.
 2.  Il existe plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Stretch.svg" width=16px> [Etire les objets sélectionnés](Draft_Stretch/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → <img src="images/Draft_Stretch.svg" width=16px> Étirer}} dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Stretch.svg" width=16px> Étirer** dans le menu.
     -   Utilisez le raccourci clavier : **S** puis **H**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
-4.  Le panneau de tâches {{MenuCommand|Stretch}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+4.  Le panneau de tâches **Stretch** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 5.  Choisissez le premier point, l\'un des coins d\'une zone de sélection rectangulaire, dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 6.  Choisissez le deuxième point, le coin opposé de la zone de sélection, dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 7.  Les points des objets sélectionnés qui se trouvent à l\'intérieur de la zone de sélection sont marqués.
@@ -37,10 +37,10 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
 Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md).
 
 -   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur **R** ou cliquez sur la case {{MenuCommand|Relative}} pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point du déplacement sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyez sur **G** ou cliquez sur la case {{MenuCommand|Global}} pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   La case à cocher {{MenuCommand|Rempli}} n\'a aucune utilité pour cette commande.
--   La case à cocher {{MenuCommand|Continuer}} n\'a pas d\'utilité pour cette commande.
+-   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point du déplacement sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   La case à cocher **Rempli** n\'a aucune utilité pour cette commande.
+-   La case à cocher **Continuer** n\'a pas d\'utilité pour cette commande.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 
@@ -48,7 +48,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : {{MenuCommand|Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales}}.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
 
 ## Script
 

@@ -21,7 +21,7 @@ Un peigne 3D sera créé pour les courbes 3D. L\'échantillonnage et l\'échelle
 2.  Sélectionnez un objet dans la [vue en arborescence](Tree_view/fr.md) (esquisse, fil \...) ou une ou plusieurs arêtes dans la [vue 3D](3D_view/fr.md) (utilisez la touche **CTRL**)
 3.  Pour appeler la commande, effectuez l\'une des opérations suivantes:
     -   Appuyez sur le bouton <img alt="" src=images/Curves_ParametricComb.svg  style="width:24px;">
-    -   Utilisez le {{MenuCommand|Curves → Comb plot}}
+    -   Utilisez le **Curves → Comb plot**
 4.  Un peigne est créé montrant la courbure de la sélection.
 
 ## Remarques

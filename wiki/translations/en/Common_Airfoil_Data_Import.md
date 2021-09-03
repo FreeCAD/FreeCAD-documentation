@@ -1,10 +1,10 @@
 
 
-## Importing Airfoil Data {#importing_airfoil_data}
+## Importing Airfoil Data 
 
 FreeCAD can import airfoil data such as that found on the [UIUC Airfoil Coordinates Database](http://m-selig.ae.illinois.edu/ads/coord_database.html) or files produced by airfoil creation and annalizing software like [XFLR5](http://www.xflr5.com/xflr5.htm)
 
-## How To {#how_to}
+## How To 
 
 From the File menu, select either Open for a new document or Import for existing document. From the Open or Import dialog \"Files of type: pull down menu select Common airfoil data (\*.dat), select your file and click Open.
 
@@ -29,7 +29,7 @@ AG35
      1.000001    0.000000
 ```
 
-## Enhanced Import {#enhanced_import}
+## Enhanced Import 
 
 There is a macro available that will import the airfoil with a user defined chord length. This macro will first allow the user to select the airfoil data file to import and then take an input for the chord length. It will then properly scale the airfoil for use. The macro can be found in the [Macros recipes](Macros_recipes.md) section of this Wiki under [Macro Airfoil Import & Scale](Macro_Airfoil_Import_&_Scale.md).
 

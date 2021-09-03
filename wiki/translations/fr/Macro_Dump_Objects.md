@@ -42,7 +42,7 @@ Selon les paramètres sélectionnés dans la première fenêtre, le rapport sera
 -   Emplacements d\'objet inattendus (lorsque l\'option Afficher les positions est sélectionnée)
 -   segments inattendus dans la géométrie d\'esquisse (lorsque l\'option Afficher les segments d\'esquisse est sélectionnée)
 
-## Interface utilisateur {#interface_utilisateur}
+## Interface utilisateur 
 
 La première fenêtre entrera en entrée pour configurer l\'objet Object Dump:
 

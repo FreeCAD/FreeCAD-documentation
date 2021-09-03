@@ -17,7 +17,7 @@ Lo strumento [Armatura a L](Arch_Rebar_LShape/it.md) consente all\'utente di cre
 
 Lo strumento **Armatura a L** è anche integrato in [BIM](BIM_Workbench/it.md).
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
 *Quattro serie di barre di rinforzo a forma di L all'interno di una [Struttura](Arch_Structure/it.md)*
@@ -118,7 +118,7 @@ Rebar2 = LShapeRebar.makeLShapeRebar(50, 50, 20, 20,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9) 
 ```
 
-### Modifica delle barre {#modifica_delle_barre}
+### Modifica delle barre 
 
 È possibile modificare le proprietà dell\'armatura con la seguente funzione: 
 ```python

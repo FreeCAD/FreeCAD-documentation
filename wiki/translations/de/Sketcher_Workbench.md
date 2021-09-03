@@ -19,19 +19,19 @@ Der Arbeitsbereich Skizzierer bietet *Beschränkungen* (engl.: constraints), die
 
 *Eine vollständig beschränkte Skizze‎*
 
-## Grundlagen des Skizzierens mit Beschränkungen {#grundlagen_des_skizzierens_mit_beschränkungen}
+## Grundlagen des Skizzierens mit Beschränkungen 
 
 Um zu erklären, wie der Skizzierer arbeitet, ist es sinnvoll, das Vorgehen mit der traditionellen Art des Entwerfens zu vergleichen.
 
-#### Traditionelles Entwerfen {#traditionelles_entwerfen}
+#### Traditionelles Entwerfen 
 
 Die traditionelle Art des CAD Entwurfs entstammt dem alten Zeichnen auf dem Reißbrett [1](https://de.wikipedia.org/wiki/Rei%C3%9Fbrett). [2](https://de.wikipedia.org/wiki/Orthogonalprojektion). Orthogonale Ansichten (2D) werden von Hand gezeichnet, vorgesehen um technische Zeichnungen (auch als Blaupausen bekannt) zu erstellen. Objekte werden genau in der gewünschten Größe und der gewünschten Abmessung gezeichnet. Wenn du eine horizontale Linie von 100 mm Länge zeichnen möchtest, die bei (0,0) beginnt, aktiviere das Linienwerkzeug, klicke entweder auf den Bildschirm oder gib die (0,0) Koordinaten für den ersten Punkt ein, mache dann einen zweiten Klick oder gib die Koordinaten des zweiten Punktes bei (100,0) ein. Oder du zeichnest deine Linie ohne Rücksicht auf ihre Position und verschiebst sie danach. Wenn du deine Geometrien fertig gezeichnet hast, füge ihre Bemaßungen hinzu.
 
-#### Skizzieren mit Beschränkungen {#skizzieren_mit_beschränkungen}
+#### Skizzieren mit Beschränkungen 
 
 Der **Skizierer** entfernt sich von dieser Logik. Objekte müssen nicht genau so gezeichnet werden, wie Du es beabsichtigst, weil diese später durch Beschränkungen festgelegt werden. Objekte können grob gezeichnet werden, und solange sie nicht beschränkt wurden, können diese verändert werden. Tatsächlich sind sie dabei *schwebend* und können verschoben, gestreckt, gedreht, skaliert, usw. werden. Das gibt dem Entwurfsprozess große Flexibilität.
 
-#### Was sind Beschränkungen? {#was_sind_beschränkungen}
+#### Was sind Beschränkungen? 
 
 An Stelle von Abmessungen werden Beschränkungen verwendet, um die Freiheitsgrade eines Objektes zu begrenzen. Beispielsweise besitzt eine Linie ohne Beschränkung 4 [Freiheitsgrade](#Degrees_Of_Freedom/de.md) (abgekürzt als \" DOF \")(engl. degrees of freedom): Sie kann horizontal oder vertikal verschoben, sie kann gestreckt, oder gedreht werden.
 
@@ -41,13 +41,13 @@ Mehrere Objekte können untereinander beschränkt werden. Zwei Linien können du
 
 Es gibt zwei Arten von Beschränkungen: geometrische und maßliche. Sie sind im Abschnitt [\'Die Werkzeuge\'](#Die_Werkzeuge.md) weiter unten ausführlich beschrieben.
 
-#### Wofür der Skizzierer nicht geeignet ist {#wofür_der_skizzierer_nicht_geeignet_ist}
+#### Wofür der Skizzierer nicht geeignet ist 
 
 Der Skizzierer ist nicht für die Herstellung von 2D Blaupausen vorgesehen. Sobald Skizzen verwendet werden, um eine Volumenkörpermerkmal zu erzeugen, werden sie automatisch verborgen. Beschränkungen sind nur im Bearbeitungsmodus Skizze sichtbar.
 
 Falls du nur 2D Ansichten zum Ausdrucken erzeugen möchtest und keine 3D Modelle, dann schau dir den [Arbeitsbereich Entwurf](Draft_Workbench/de.md) an. Anders als Skizzierer Elemente, verwenden Entwurfsobjekte keine Beschränkungen; sie sind einfache Formen die im Augenblick der Erstellung definiert werden. Sowohl Draft und Skizzierer können zum zeichnen von 2D Geometrien und zum Erzeugen von 3D Volumenkörpern verwendet werden, obwohl ihre bevorzugte Verwendung unterschiedlich ist; der Skizzierer wird normalerweise mit dem [Part Arbeitsbereich](Part_Workbench/de.md) und [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) verwendet um Volumenkörper zu erzeugen; Entwurf wird normalerweise verwendet für einfache ebene Zeichnungen über einem Raster, so wie beim Zeichnen eines Architektur Grundrisses; in solchen Situationen werden Entwurfsobjekte hauptsächlich zusammen mit dem [Arch Arbeitsbereich](Arch_Workbench/de.md) verwendet. Das Werkzeug [EntwurfZuSkizze](Draft_Draft2Sketch/de.md) wandelt ein Entwurfsobjekt in ein Skizzenobjekt, und umgekehrt; Viele Werkzeuge, die ein 2D Element als Eingabe benötigen, arbeiten mit beiden Objekttypen, da eine interne Konversion automatisch erfolgt.
 
-## Arbeitsablauf beim Skizzieren {#arbeitsablauf_beim_skizzieren}
+## Arbeitsablauf beim Skizzieren 
 
 Eine Skizze ist stets zweidimensional (2D). Um einen Volumenkörper zu erzeugen, wird eine 2D Skizze eines einzelnen, eingeschlossenen Bereichs erstellt und dann entweder aufgepolstert oder gedreht, um die dritte Dimension hinzuzufügen und um einen 3D Volumenkörper aus einer 2D Skizze zu erzeugen.
 
@@ -59,7 +59,7 @@ Die zum eigentlichen Zeichnen (Erstellen der zweidimensionalen geometrischen Gru
 
 Sobald eine Skizze vollständig beschränkt ist, wechselt die Skizzenmerkmale zu einem leuchtend hellen grün; Konstruktionsgeometrie hingegen bleibt blau. Normalerweise ist die Skizze an dieser Stelle \"fertig bearbeitet\" und für die Erstellung eines 3D Volumenkörpers geeignet. Sobald das Dialogfeld Skizze geschlossen ist, lohnt es sich jedoch möglicherweise, zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Arbeitsbereich](Part_Workbench/de.md) zu gehen und **[24px"> [Geometrie prüfen](Part_CheckGeometry/de.md)** auszuführen, um sicherzustellen, dass die Skizze keine Merkmale enthält, die zu späteren Problemen führen können.
 
-## Die Werkzeuge {#die_werkzeuge}
+## Die Werkzeuge 
 
 Die Werkzeuge des Sketch-Arbeitsbereich sind alle im Sketch-Menü zu finden, das beim Laden des Arbeitsbereichs erscheint.
 
@@ -166,7 +166,7 @@ Zeichnet eine Linie aus mehreren Liniensegmenten. Drücken der M Taste während 
 
 Beschränkungen werden benutzt, um Längen zu definieren, Regeln zwischen Skizzenelementen aufzustellen und die Skizze entlang der vertikalen und horizontalen Achsen festzulegen. Einige Beschränkungen benötigen die Verwendung von [Hilfsbeschränkungen](Sketcher_helper_constraint/de.md).
 
-#### Gometrische Beschränkungen {#gometrische_beschränkungen}
+#### Gometrische Beschränkungen 
 
 Diese Beschränkungen sind nicht mit nummerischen Daten verknüpft.
 
@@ -194,7 +194,7 @@ Fügt einen Punkt einem anderen Objekt hinzu, z. B. einer Linie, einem Kreisboge
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Beschränkung blockieren](Sketcher_ConstrainBlock/de.md): Ermöglicht grundsätzlich das Blockieren eines geometrischen Elements mit einer einzigen Beschränkung. Es sollte besonders praktisch bei der Arbeit mit B-Splines sein. Siehe das [Block Beschränkung Forumsthema](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
-#### Dimensionale Beschränkungen {#dimensionale_beschränkungen}
+#### Dimensionale Beschränkungen 
 
 Dies sind Beschränkungen, die mit numerischen Daten verknüpft sind, für die du die [Ausdrücke ](Expressions/de.md) verwenden kannst. Die Daten können aus einer [Kalkulationstabelle](Spreadsheet_Workbench/de.md) entnommen werden.
 
@@ -213,7 +213,7 @@ Beschränkt das ausgewählte Element, in dem vertikale und horizontale Abstände
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam/de.md): Definiert automatisch Radius/Durchmesser eines ausgewählten Bogens oder Kreises (Gewicht für einen B-Spline-Pol, Durchmesser für einen vollständigen Kreis, Radius für einen Bogen) {{Version/de|0.20}}
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Winkel](Sketcher_ConstrainAngle/de.md): Definiert den Innenwinkel zwischen zwei ausgewählten Linien.
 
-#### Besondere Beschränkungen {#besondere_beschränkungen}
+#### Besondere Beschränkungen 
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Snelliussches Gesetz](Sketcher_ConstrainSnellsLaw/de.md): Beschränkt zwei Linien so, dass sie einem Brechungsgesetz unterliegen, um das durch eine Grenzfläche gehende Licht zu simulieren.
 
@@ -227,7 +227,7 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Umschalten aktive Beschränkung](Sketcher_ToggleActiveConstraint/de.md): Einschalten oder ausschalten einer bereits platzierten Beschränkung. {{Version/de|0.19}}
 
-### Skizzierer Werkzeuge {#skizzierer_werkzeuge}
+### Skizzierer Werkzeuge 
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Löser Freiheitsgrade auswählen](Sketcher_SelectElementsWithDoFs/de.md): Hebt in grün die Geometrie mit Freiheitsgraden (DOFs), d.h. nicht vollständig beschränkt, hervor.
 
@@ -267,7 +267,7 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Alle Beschränkungen löschen](Sketcher_DeleteAllConstraints/de.md): Löscht alle Beschränkungen aus der Skizze.
 
-### Skizze B-spline Werkzeuge {#skizze_b_spline_werkzeuge}
+### Skizze B-spline Werkzeuge 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [B-Spline Grad anzeigen/ausblenden](Sketcher_BSplineDegree/de.md)
 
@@ -289,7 +289,7 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Knotenvielfalt verringern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)
 
-### Skizzierer virtueller Raum {#skizzierer_virtueller_raum}
+### Skizzierer virtueller Raum 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Virtuellen Raum wechseln](Sketcher_SwitchVirtualSpace/de.md): Ermöglicht dir alle Beschränkungen einer Skizze auszublenden und wieder sichtbar zu machen.
 
@@ -297,7 +297,7 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 -   <img alt="" src=images/Std_DlgParameter.png  style="width:32px;"> [Einstellungen](Sketcher_Preferences/de.md): Einstellungen für den **Skizzierer** Arbeitsbereich.
 
-## Bewährte Vorgehensweisen {#bewährte_vorgehensweisen}
+## Bewährte Vorgehensweisen 
 
 Jeder CAD Benutzer entwickelt im Laufe der Zeit seine eigene Arbeitsweise, aber es gibt einige nützliche allgemeine Grundsätze, die zu befolgen sind.
 

@@ -56,7 +56,7 @@ dot is /usr/local/bin/dot
 
 ## Usage
 
-1.  Select the {{MenuCommand|Tools → <img src="images/Std_DependencyGraph.svg" width=16px> Dependency graph...}} option from the menu.
+1.  Select the **Tools → <img src="images/Std_DependencyGraph.svg" width=16px> Dependency graph...** option from the menu.
 2.  A new tab titled **Dependency graph** opens in the [Main view area](Main_view_area.md).
 3.  Use the mouse scroll wheel to zoom in or out.
 4.  Use the sliders at the bottom and at the right of the screen to pan the view. Alternatively (<small>(v0.19)</small> ) hold down the left mouse button and move the mouse.
@@ -66,11 +66,11 @@ dot is /usr/local/bin/dot
 You can save a dependency graph:
 
 1.  Make sure the Dependency graph tab is in the foreground.
-2.  Select the {{MenuCommand|File → [Save](Std_Save.md)}} or {{MenuCommand|File → [Save As](Std_SaveAs.md)}} option from the menu.
+2.  Select the **File → [Save](Std_Save.md)** or **File → [Save As](Std_SaveAs.md)** option from the menu.
 3.  Enter a filename and select the file type (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg or \*.pdf).
 4.  Press the **Save** button.
 
-## General principles {#general_principles}
+## General principles 
 
 -   The graph shows objects in reverse chronological order.
 -   The direction of arrows showing dependencies should always point down, from the child object to the parent object. An arrow pointing up indicates a cyclic dependency, an issue that needs to be resolved.

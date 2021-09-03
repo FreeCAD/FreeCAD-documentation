@@ -46,7 +46,7 @@ Siehe die einzelnen Befehle:
 
 Siehe auch das {{MenuCommand/de|Part → Create a copy [Form aufbereiten](Part_RefineShape/de.md)}}-Menü.
 
-## Koplanare Probleme {#koplanare_probleme}
+## Koplanare Probleme 
 
 Die booleschen Operationen werden vom internen Geometriekernel, der [OpenCASCADE Technologie](OpenCASCADE/de.md) (OCCT), durchgeführt. Diese Bibliothek hat manchmal Probleme, boolesche Ergebnisse zu erzeugen, wenn sich die Eingabeobjekte eine Kante oder eine Fläche teilen. Um sicherzugehen, dass die boolesche Operation erfolgreich ist, wird empfohlen, dass sich die Formen deutlich überschneiden; das bedeutet, dass in den meisten Fällen eine Form vorstehen oder größer als die andere Form sein sollte.
 

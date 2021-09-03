@@ -23,7 +23,7 @@ Within the FreeCAD GUI the Path toolbit library manager provides a mechanism to 
 2.  Select a library.
 3.  Create a Toolbit.
 
-## JSON Structure {#json_structure}
+## JSON Structure 
 
  {{Code|
 {

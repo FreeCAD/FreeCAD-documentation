@@ -48,7 +48,7 @@ Les outils pour créer et gérer les robots à 6 axes
 
 Les outils pour créer et manipuler les trajectoires. Il y en a deux sortes, paramétriques et non-paramétriques.
 
-#### Trajectoire non-paramétriques {#trajectoire_non_paramétriques}
+#### Trajectoire non-paramétriques 
 
 -   <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:30px;"> [Créer une trajectoire](Robot_CreateTrajectory/fr.md): Créé une nouvelle trajectoire vide
 -   <img alt="" src=images/Robot_SetDefaultOrientation.svg  style="width:30px;"> [Définir l\'orientation par défaut](Robot_SetDefaultOrientation/fr.md): Règle l\'orientation par défaut des points de passage
@@ -56,13 +56,13 @@ Les outils pour créer et manipuler les trajectoires. Il y en a deux sortes, par
 -   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:30px;"> [Insérer dans la trajectoire](Robot_InsertWaypoint/fr.md): Insère un point de passage de la position actuelle du robot dans la trajectoire
 -   <img alt="" src=images/Robot_InsertWaypointPre.svg  style="width:30px;"> [Insérer dans la trajectoire](Robot_InsertWaypointPre/fr.md): Insère un point de passage de la position actuelle du pointeur de la souris dans la trajectoire
 
-#### Trajectoire paramétriques {#trajectoire_paramétriques}
+#### Trajectoire paramétriques 
 
 -   <img alt="" src=images/Robot_Edge2Trac.svg  style="width:30px;"> [Générer une trajectoire à partir d\'un ensemble d\'arêtes](Robot_Edge2Trac/fr.md): Insère un nouvel objet dont les arêtes formeront une trajectoire
 -   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width:30px;"> [Habiller une trajectoire](Robot_TrajectoryDressUp/fr.md): Créé un habillage qui supplante certaines propriétés d\'une trajectoire
 -   <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width:30px;"> [Grouper et connecter des trajectoires](Robot_TrajectoryCompound/fr.md): Crée un composé (compound) et connecte un ensemble de trajectoires
 
-## Création de scripts {#création_de_scripts}
+## Création de scripts 
 
 Voir [Robot API exemple](Robot_API_example/fr.md) pour une description des fonctions utilisées pour modéliser les déplacements du robot.
 

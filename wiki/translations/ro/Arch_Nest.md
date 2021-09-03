@@ -25,7 +25,7 @@ Algoritmul din spatele instrumentului Nest (Economizor) este în evoluție const
 
 *Imaginea de mai sus prezintă o serie de forme înainte și după operația de cuibărit*
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">

@@ -27,7 +27,7 @@ Odată POV-Ray ori Luxrender este instalat, trebuie să setăm calea spre execut
 
 În acest ecran de preferințe putem seta dimensiunea dorită a imaginii pe care dorim să o producem.
 
-### Randarea cu PovRay {#randarea_cu_povray}
+### Randarea cu PovRay 
 
 Vom folosi tabela pe care am modelat-o în capitolul [traditional modeling](Manual:_Modeling_Traditional,_CSG_way.md) pentru a produce randări cu PovRay și Luxrender.
 
@@ -76,7 +76,7 @@ Acum putem face acest lucru prin selectarea tuturor obiectelor care compun masa 
 
 ![](images/Exercise_raytracing_04.jpg )
 
-### Randarea cu LuxRender {#randarea_cu_luxrender}
+### Randarea cu LuxRender 
 
 
 <div class="mw-translate-fuzzy">

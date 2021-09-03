@@ -10,7 +10,7 @@ Per eseguire l\'analisi agli elementi finiti (FEA) all\'interno di <img alt="" s
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *Flusso di lavoro del Workbench FEM; il workbench chiama due programmi esterni per eseguire il meshing di un oggetto solido e risolvere il problema degli elementi finiti*
 
-### Il solutore FEM {#il_solutore_fem}
+### Il solutore FEM 
 
 
 <div class="mw-translate-fuzzy">
@@ -33,17 +33,17 @@ Usage: CalculiX.exe -i jobname
 
 <div class="mw-translate-fuzzy">
 
-Se il solver è installato, assicurarsi che FEM sia in grado di trovare il binario; andare in {{MenuCommand|Modifica → Preferenze → FEM → CalculiX → Cerca nelle directory binarie conosciute}}. Se avete compilato il risolutore da soli, deselezionare l\'opzione e indicare il percorso corretto per il file binario. Per gli altri solutori che possono essere utilizzati con FreeCAD, vedere [Solutori FEM](FEM_Solver/it.md).
+Se il solver è installato, assicurarsi che FEM sia in grado di trovare il binario; andare in **Modifica → Preferenze → FEM → CalculiX → Cerca nelle directory binarie conosciute**. Se avete compilato il risolutore da soli, deselezionare l\'opzione e indicare il percorso corretto per il file binario. Per gli altri solutori che possono essere utilizzati con FreeCAD, vedere [Solutori FEM](FEM_Solver/it.md).
 
 
 </div>
 
-### FEM mesh generator {#fem_mesh_generator}
+### FEM mesh generator 
 
 
 <div class="mw-translate-fuzzy">
 
-### Il generatore di mesh FEM {#il_generatore_di_mesh_fem}
+### Il generatore di mesh FEM 
 
 Per creare una [Mesh FEM](FEM_Mesh/it.md), FreeCAD utilizza [1](http://gmsh.info/Gmsh) come mesher predefinito. Perché ciò funzioni, Gmsh deve essere installato separatamente da FreeCAD.
 
@@ -74,7 +74,7 @@ Mailing list     : gmsh@onelab.info
 
 <div class="mw-translate-fuzzy">
 
-Se il mesher è installato, assicurarsii che FEM sia in grado di trovare il binario; andare in {{MenuCommand|Modifica → Preferenze → FEM → Gmsh → Cerca nelle directory binarie conosciute}}. Se avete compilato il risolutore da soli, deselezionare l\'opzione e indicare il percorso corretto per il file binario. Vedere [Mesh FEM](FEM_Mesh/it.md) per le varie possibilità di ottenere una mesh valida per l\'analisi.
+Se il mesher è installato, assicurarsii che FEM sia in grado di trovare il binario; andare in **Modifica → Preferenze → FEM → Gmsh → Cerca nelle directory binarie conosciute**. Se avete compilato il risolutore da soli, deselezionare l\'opzione e indicare il percorso corretto per il file binario. Vedere [Mesh FEM](FEM_Mesh/it.md) per le varie possibilità di ottenere una mesh valida per l\'analisi.
 
 
 </div>
@@ -124,12 +124,12 @@ togl-version : 2
 OCC module loaded
 ```
 
-## Installing on Windows {#installing_on_windows}
+## Installing on Windows 
 
 
 <div class="mw-translate-fuzzy">
 
-## Installazione su Windows {#installazione_su_windows}
+## Installazione su Windows 
 
 I pacchetti di FreeCAD disponibili dalla pagina [download](download/it.md) includono già Netgen e CalculiX, quindi non è necessario installare software aggiuntivo.
 
@@ -139,19 +139,19 @@ I pacchetti di FreeCAD disponibili dalla pagina [download](download/it.md) inclu
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Installazione in Linux {#installazione_in_linux}
+## Installazione in Linux 
 
 Le distribuzioni Linux hanno diversi modi di installare software. Molte distribuzioni hanno un repository software e il gestori di pacchetti. Prima di compilare il codice sorgente, cercare nel proprio gestore i pacchetti `netgen`, `gmsh`, `calculix-ccx` o `ccx`, e installarli seguendo le istruzioni della propria distribuzione.
 
 
 <div class="mw-collapsible-content">
 
-### Ubuntu PPA {#ubuntu_ppa}
+### Ubuntu PPA 
 
 
 <div class="mw-translate-fuzzy">
 
-### PPA di Ubuntu {#ppa_di_ubuntu}
+### PPA di Ubuntu 
 
 I personal package archives (PPA) [freecad-stable](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-stable) e [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily) forniscono una versione più recente di FreeCAD di quella disponibile nei repository ufficiali di Ubuntu. Questi PPA includono anche i pacchetti `netgen`, `gmsh` e `calculix-ccx` più recenti. Vedere [Installare su Linux](Install_on_Linux/it.md) per maggiori informazioni sulla configurazione dei repository.
 
@@ -174,12 +174,12 @@ Il PPA [freecad-community](https://launchpad.net/~freecad-community/+archive/ubu
 
 in [Ubuntu Repository](http://forum.freecadweb.org/viewtopic.php?f=18&t=10393) si discute sulla creazione dei pacchetti PPA di Ubuntu. Al momento in cui è stato scritto, CalculiX non era incluso nei repository Debian, quindi c\'erano molti pacchetti personali in Launchpad. Dovrebbe essere installato solo un pacchetto.
 
-### Arch Linux {#arch_linux}
+### Arch Linux 
 
 
 <div class="mw-translate-fuzzy">
 
-### Arch Linux {#arch_linux_1}
+### Arch Linux 
 
 Prelevare il pacchetto CalculiX dal [AUR repository](https://aur.archlinux.org/packages/calculix/).
 
@@ -211,12 +211,12 @@ Additional packages are typically installed with YAST (abbr. Yet another Setup T
 ```
     
 
-### CalculiX binary {#calculix_binary}
+### CalculiX binary 
 
 
 <div class="mw-translate-fuzzy">
 
-### Installare CalculiX binario {#installare_calculix_binario}
+### Installare CalculiX binario 
 
 Gli autori di CalculiX forniscono un binario Linux precompilato del solutore; può essere scaricato dal [sito web degli autori](http://www.dhondt.de/). Tuttavia, poiché le diverse distribuzioni Linux hanno percorsi di libreria diversi, molto probabilmente questo binario non funziona senza apportare alcune modifiche.
 
@@ -258,7 +258,7 @@ linux-vdso.so.1 (0x00007fffbabdc000)
  libltdl.so.7 => /usr/lib/x86_64-linux-gnu/libltdl.so.7 (0x00007fe9b79ff000)
 ```
 
-### Compilare CalculiX {#compilare_calculix}
+### Compilare CalculiX 
 
 Since CalculiX is a standalone application, you can either install a binary packaged for your distribution, or compile it yourself. Any CalculiX version from 2.7.x onwards should work with FreeCAD, and since the code hasn\'t changed much in years, lower versions than 2.7.x may work as well.
 
@@ -268,7 +268,7 @@ Compiling CalculiX is a task for experienced users, requiring editing the Makefi
 -   Fedora 27, 28, 29: [Compiling CalculiX ccx on fedora, ubuntu and debian](https://forum.freecadweb.org/viewtopic.php?f=18&t=34024).
 -   There is a CMake version of the source package in a [github repository](https://github.com/ricortiz/CalculiX-cmake), but at the FreeCAD forums no one has reported if this package works.
 
-### Compilare Netgen {#compilare_netgen}
+### Compilare Netgen 
 
 Netgen was originally linked by FreeCAD when FreeCAD used OCE, the community fork of OpenCascade (OCCT). As OCE lagged in development behind OCCT, FreeCAD switched back to OCCT. This broke the linking of Netgen, which could only link against OCCT 6.9 or OCE 0.18 and below. As OCCT 7.x versions improved the core funcitonality of FreeCAD, it was decided to drop Netgen support in favor of Gmsh.
 
@@ -280,7 +280,7 @@ Since then some success has been achieved patching and linking newer versions of
 
 </div>
 
-## Installazione in MacOSX {#installazione_in_macosx}
+## Installazione in MacOSX 
 
 
 {{VeryImportantMessage|Queste informazioni potrebbero non essere aggiornate. Se siete un utente OSX, provate e ripulite questa sezione}}
@@ -298,7 +298,7 @@ The following posts may be outdated:
 -   [FEM on Mac OSX, post 1](http://forum.freecadweb.org/viewtopic.php?f=18&t=10979)
 -   [MacPorts users: CalculiX port test request](http://forum.freecadweb.org/viewtopic.php?f=8&t=14497)
 
-## Ulteriori informazioni {#ulteriori_informazioni}
+## Ulteriori informazioni 
 
 The [FEM Workbench](FEM_Workbench.md) is under constant development. The most recent information is found in the [FreeCAD forum](http://www.forum.freecadweb.org/).
 

@@ -34,7 +34,7 @@ Pythonovský objekt má stejné pravidlo jako FreeCAD: Aplikace a GUI jsou oddě
 
 <div class="mw-translate-fuzzy">
 
-## Základní příklad {#základní_příklad}
+## Základní příklad 
 
 Následující příklad najdete v souboru [src/Mod/TemplatePyMod/FeaturePython.py](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/TemplatePyMod/FeaturePython.py?view=markup), společně s několika dalšími příklady:
 
@@ -176,7 +176,7 @@ makeBox()
 
 ```
 
-### Things to note {#things_to_note}
+### Things to note 
 
 If your object relies on being recomputed as soon as it is created, you must do this manually in the `__init__` function as it is not called automatically. This example does not require it because the `onChanged` method of the `Box` class has the same effect as the `execute` function, but the examples below rely on being recomputed before anything is displayed in the 3D view. In the examples, this is done manually with `ActiveDocument.recompute()` but in more complex scenarios you need to decide where to recompute either the whole document or the FeaturePython object.
 
@@ -184,11 +184,11 @@ This example produces a number of exception stack traces in the report view wind
 
 An explanation of `__getstate__` and `__setstate__` is in the forum thread [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
-## Available methods {#available_methods}
+## Available methods 
 
 See [FeaturePython methods](FeaturePython_methods.md) for the complete reference.
 
-## Dostupné vlastnosti {#dostupné_vlastnosti}
+## Dostupné vlastnosti 
 
 Vlastnosti jsou skutečné základní kameny pythonovských objektů. Jejich prostřednictvím je uživatel schopen pracovat s objektem. Po vytvoření Pythonovského objektu v dokumentu ( obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), obdržíte seznam dostupných vlastností zadáním:
 
@@ -306,7 +306,7 @@ A complete list of property attributes can be seen in the [PropertyStandard C++ 
 prop = (value, lower, upper, stepsize)
 ```
 
-## Typ vlastnosti {#typ_vlastnosti}
+## Typ vlastnosti 
 
 Standardně mohou být vlastnosti upravovány. Je ale možné nastavit vlastnosti pouze ke čtení, třeba když má jenom zobrazovat výstup výsledku metody. Je možné také vlastnost skrýt. Typ vlastnosti může být nastaven použitím
 
@@ -346,7 +346,7 @@ You can find these different property types defined in the [source code C++ head
 
 <div class="mw-translate-fuzzy">
 
-## Další složitější příklady {#další_složitější_příklady}
+## Další složitější příklady 
 
 Tento příklad používá [Modul Díl](Part_Workbench/cs.md) k vytvoření osmistěnu a potom vytvoří pomocí Pivy jeho reprezentaci v Coinu.
 
@@ -555,7 +555,7 @@ ViewProviderOctahedron(a.ViewObject)
 
 <div class="mw-translate-fuzzy">
 
-## Zpřístupnění objektu k výběru {#zpřístupnění_objektu_k_výběru}
+## Zpřístupnění objektu k výběru 
 
 Chcete-li aby bylo možné objekt vybrat nebo alespoň jeho část, kliknutím na něj v pohledu, musíte včlenit jeho Coin konstrukci do uzlu SoFCSelection. Má-li objekt komplexní zobrazení s widgety, anotacemi atd., můžete chtít včlenit do SoFCSelection pouze nějakou část. Všechno co je SoFCSelection je průběžně skenováno FreeCADem pro detekci výběru/předvýběru, takže je rozumné nepřetěžovat jej zbytečným skenováním. Tady je co byste měli zahrnout do self.face z příkladu nahoře.
 
@@ -661,7 +661,7 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
-## Práce s jednoduchými tvary {#práce_s_jednoduchými_tvary}
+## Práce s jednoduchými tvary 
 
 Jestliže z parametrického objektu vychází jednoduchý tvar, není nutné používat zobrazovací objekt. Tvar bude zobrazován použitím standardního zobrazování tvarů ve FreeCADu.
 
@@ -723,7 +723,7 @@ ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
 
-## Scenegraph Structure {#scenegraph_structure}
+## Scenegraph Structure 
 
 You may have noticed that the examples above construct their scenegraphs in slightly different ways. Some use `obj.addDisplayMode(node, "modename")` while others use `obj.SwitchNode.getChild(x).addChild(y)`.
 

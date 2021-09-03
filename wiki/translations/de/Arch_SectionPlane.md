@@ -60,7 +60,7 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 *Die Arch Schnittebene mit der Option Clip Ansicht verhält sich wie eine Kamera und begrenzt das Sichtfeld.*
 
-## Kleine Verbesserungen {#kleine_verbesserungen}
+## Kleine Verbesserungen 
 
 -   Das manuelle Hinzufügen einer Eigenschaft namens **RotateSolidRender** des Typs **App::PropertyAngle** zu den Schnittebene **Ansicht**-Eigenschaften (rechtsklicke in die Ansicht-Eigenschaften → Alle anzeigen, rechtsklicke erneut → Eigenschaft hinzufügen) erlaubt es, das Render-Objekt zu drehen, wenn der Volumenkörper-Modus benutzt wird. Dies ist sinnvoll, wenn eine gerenderte Ansicht bspw. sowohl Arch- als auch Draft-Element enthält und die Arch-Elemente im Verhältnis zu den Draft-Elementen gedreht sind. {{version/de|0.19}}
 

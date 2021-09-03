@@ -1,7 +1,7 @@
  <img alt="" src=images/MOOC_workbench_icon.svg  style="width:240px;"> 
 *align=center|L'icône de l'atelier externe MOOC FreeCAD*
 
-## Vue d\'ensemble {#vue_densemble}
+## Vue d\'ensemble 
 
 
 {{TOCright}}
@@ -35,7 +35,7 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 
 Pour l\'instant cet atelier est uniquement disponible en langue française.
 
-## Détails techniques {#détails_techniques}
+## Détails techniques 
 
 D\'un point de vue technique, l\'atelier est composé de:
 
@@ -43,7 +43,7 @@ D\'un point de vue technique, l\'atelier est composé de:
 -   le code qui exécute les tutoriels dans le dossier \"leçons\" ({{FileName|MoocPlayer.py}})
 -   le code qui exécute les évaluations dans le dossier \"exercices\" ({{FileName|MoocGrader.py}})
 
-## Feuille de route {#feuille_de_route}
+## Feuille de route 
 
 -   internationalisation de l\'établi
 -   Intégration de vidéos dans FreeCAD (PySide2.QtWebEngineWidgets?)
@@ -55,7 +55,7 @@ D\'un point de vue technique, l\'atelier est composé de:
 -   Documentation officielle [2](https://framagit.org/freecad-france/mooc-workbench#mooc-workbench)
 -   Fils de discussion: [anglais](https://forum.freecadweb.org/viewtopic.php?f=9&t=37584) / [français](https://forum.freecadweb.org/viewtopic.php?f=12&t=37322)
 
-## Ateliers externes {#ateliers_externes}
+## Ateliers externes 
 
 Les ateliers FreeCAD sont faciles à programmer en [Python](Python/fr.md), de ce fait, beaucoup de personnes développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
 

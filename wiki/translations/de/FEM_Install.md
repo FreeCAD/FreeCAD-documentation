@@ -16,7 +16,7 @@ Um die Finite Element Analyse (FEA) innerhalb des **<img src="images/Workbench_F
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 * Arbeitsablauf des FEM Arbeitsbereichs; der Arbeitsbereich ruft zwei externe Programme auf, um die Vernetzung eines festen Objekts und die eigentliche Lösung des Finite Element Problems durchzuführen.*
 
-### FEM Löser {#fem_löser}
+### FEM Löser 
 
 Der Standard Löser zur Durchführung von Finite Elemente Berechnungen ist [CalculiX](FEM_CalculiX/de.md), ein einfacher Löser zur Analyse von Strukturen. FreeCAD schreibt eine CalculiX Eingabedatei, startet den Löser und liest die Ausgabe, die dann visuell im Ansichtsfenster dargestellt werden kann; das bedeutet, dass das CalculiX Binärdatei eigenständig und unabhängig von FreeCAD ist. In Anbetracht der Tatsache, dass es viele Programme gibt, die ein Netz generieren können, **ist es empfehlenswert, den Löser zu installieren und sicherzustellen, dass er zuerst funktioniert**.
 
@@ -30,9 +30,9 @@ Wenn der Löser korrekt installiert ist, kannst du den einzelnen Befehl `ccx` im
 Usage: CalculiX.exe -i jobname
 ```
 
-Wenn der Löser installiert ist, stelle sicher, dass der FEM Arbeitsbereich in der Lage ist, die Binärdatei zu finden; gehe zu {{MenuCommand|Bearbeiten → Einstellungen → FEM → CalculiX → In bekannten Binärverzeichnissen suchen}}. Wenn du den Löser selbst kompiliert hast, deaktiviere die Option, und gib den korrekten Pfad zur Binärdatei an. Für andere Löser, die mit FreeCAD verwendet werden können, siehe [FEM Löser](FEM_Solver/de.md).
+Wenn der Löser installiert ist, stelle sicher, dass der FEM Arbeitsbereich in der Lage ist, die Binärdatei zu finden; gehe zu **Bearbeiten → Einstellungen → FEM → CalculiX → In bekannten Binärverzeichnissen suchen**. Wenn du den Löser selbst kompiliert hast, deaktiviere die Option, und gib den korrekten Pfad zur Binärdatei an. Für andere Löser, die mit FreeCAD verwendet werden können, siehe [FEM Löser](FEM_Solver/de.md).
 
-### FEM Netz Generator {#fem_netz_generator}
+### FEM Netz Generator 
 
 Um ein [FEM Polygonnetz](FEM_Mesh/de.md) zu erstellen, verwendet FreeCAD [Gmsh](http://gmsh.info/) als Standard Netzerzeuger. Damit dies funktioniert, sollte Gmsh separat von FreeCAD installiert werden.
 
@@ -57,7 +57,7 @@ Web site         : http://gmsh.info
 Mailing list     : gmsh@onelab.info
 ```
 
-Wenn der Netzerzeuger installiert ist, stelle sicher, dass der FEM Arbeitsbereich in der Lage ist, die Binärdatei zu finden; gehe zu {{MenuCommand|Bearbeiten → Einstellungen → FEM → Gmsh → In bekannten Binärverzeichnissen suchen}}. Wenn du den Löser selbst kompiliert hast, deaktiviere die Option, und gib den korrekten Pfad zur Binärdatei an. Siehe [FEM Polygonetz](FEM_Mesh/de.md) für verschiedene Möglichkeiten, ein gültiges Netz für die Analyse zu erhalten.
+Wenn der Netzerzeuger installiert ist, stelle sicher, dass der FEM Arbeitsbereich in der Lage ist, die Binärdatei zu finden; gehe zu **Bearbeiten → Einstellungen → FEM → Gmsh → In bekannten Binärverzeichnissen suchen**. Wenn du den Löser selbst kompiliert hast, deaktiviere die Option, und gib den korrekten Pfad zur Binärdatei an. Siehe [FEM Polygonetz](FEM_Mesh/de.md) für verschiedene Möglichkeiten, ein gültiges Netz für die Analyse zu erhalten.
 
 ### Netgen
 
@@ -104,21 +104,21 @@ togl-version : 2
 OCC module loaded
 ```
 
-## Installation unter Windows {#installation_unter_windows}
+## Installation unter Windows 
 
 Die auf der [Herunterladen](Download/de.md) Seite verfügbaren FreeCAD Pakete enthalten bereits Netgen und CalculiX, so dass keine zusätzliche Software installiert werden muss. Einige Verweise, wo eine bessere ausführbare Calculix Datei als die in FreeCAD enthalten bekommen kann, können hier unter [alternative ccx ausführbare Dateien](https://forum.freecadweb.org/viewtopic.php?f=18&t=58792&start=10#p506164) gefunden werden.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Installation unter Linux {#installation_unter_linux}
+## Installation unter Linux 
 
 Linux Distributionen haben unterschiedliche Möglichkeiten, Software zu installieren. Viele Distributionen haben Software Repositorien und Paketmanager; Vor dem kompilieren des Quellcodes, schau in deinem Paketmanager nach `netgen`, `gmsh`, `calculix-ccx` oder `ccx`, und installiere diese nach den Anweisungen deiner eigenen Distribution.
 
 
 <div class="mw-collapsible-content">
 
-### Ubuntu PPA {#ubuntu_ppa}
+### Ubuntu PPA 
 
 Die [freecad-stable](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-stable) und [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily) persönlichen Paketarchive (PPA) bieten eine aktuellere Version von FreeCAD als in den offiziellen Ubuntu Repositorien verfügbar ist. Diese PPAs enthalten auch die aktuellsten Pakete `netgen`, `gmsh` und `calculix-ccx`. Siehe [Installieren unter Linux](Installing_on_Linux/de.md) für weitere Informationen zum Einrichten der Repositorien.
 
@@ -138,7 +138,7 @@ Das [freecad-community](https://launchpad.net/~freecad-community/+archive/ubuntu
 
 Der Beitrag [Ubuntu Repositorium](http://forum.freecadweb.org/viewtopic.php?f=18&t=10393) behandelt die Erstellung der Ubuntu PPA Pakete. Zu der Zeit, als er geschrieben wurde, war CalculiX nicht in den Debian Repositorien enthalten, daher gab es mehrere persönliche Pakete in Launchpad. Es sollte nur ein Paket installiert werden.
 
-### Arch Linux {#arch_linux}
+### Arch Linux 
 
 Hol dir das CalculiX Paket aus dem [AUR Repositorium](https://aur.archlinux.org/packages/calculix/).
 
@@ -167,7 +167,7 @@ Zusätzliche Pakete werden typischerweise mit YAST (Abk. Yet another Setup Tool)
 ```
     
 
-### CalculiX Binärdatei {#calculix_binärdatei}
+### CalculiX Binärdatei 
 
 Die CalculiX Autoren stellen ein vorkompiliertes Linux Binärdatei des Lösers zur Verfügung; es kann von der [Autoren Webseite](http://www.dhondt.de/) heruntergeladen werden. Da jedoch verschiedene Linux Distributionen unterschiedliche Bibliothekspfade haben, wird diese Binärdatei höchstwahrscheinlich nicht funktionieren, ohne einige Anpassungen vorzunehmen.
 
@@ -206,7 +206,7 @@ linux-vdso.so.1 (0x00007fffbabdc000)
  libltdl.so.7 => /usr/lib/x86_64-linux-gnu/libltdl.so.7 (0x00007fe9b79ff000)
 ```
 
-### CalculiX kompilieren {#calculix_kompilieren}
+### CalculiX kompilieren 
 
 Da CalculiX eine eigenständige Anwendung ist, kannst du entweder eine für deine Distribution gepackte Binärdatei installieren oder sie selbst kompilieren. Jede CalculiX Version ab 2.7.x sollte mit FreeCAD funktionieren, und da der Code in den letzten Jahren nicht viel geändert wurde, können auch niedrigere Versionen als 2.7.x funktionieren.
 
@@ -216,7 +216,7 @@ Das Kompilieren von CalculiX ist eine Aufgabe für erfahrene Anwender und erford
 -   Fedora 27, 28, 29: [Kompilieren CalculiX ccx unter fedora, ubuntu und debian](https://forum.freecadweb.org/viewtopic.php?f=18&t=34024).
 -   Es gibt eine CMake Version des Quellpakets in einem [github repository](https://github.com/ricortiz/CalculiX-cmake), aber in den FreeCAD Foren hat niemand berichtet, ob dieses Paket funktioniert.
 
-### Netgen kompilieren {#netgen_kompilieren}
+### Netgen kompilieren 
 
 Netgen wurde ursprünglich von FreeCAD verknüpft, als FreeCAD OCE, die Gemeinschaftsabspaltung von OpenCascade (OCCT), verwendete. Da OCE in der Entwicklung hinter OCCT zurückblieb, wechselte FreeCAD zurück zu OCCT. Dadurch wurde die Verknüpfung von Netgen unterbrochen, das nur gegen OCCT 6.9 oder OCE 0.18 und darunter verknüpft werden konnte. Da die OCCT 7.x Versionen die Kernfunktionalität von FreeCAD verbesserten, wurde beschlossen, die Netgen Unterstützung zugunsten von Gmsh aufzugeben.
 
@@ -228,7 +228,7 @@ Seitdem ist es gelungen, neuere Versionen von Netgen auszubessern und mit OCCT 7
 
 </div>
 
-## Installation unter MacOSX {#installation_unter_macosx}
+## Installation unter MacOSX 
 
 
 {{VeryImportantMessage|Diese Informationen könnten veraltet sein. Wenn du ein OSX Benutzer bist, teste und bereinige bitte diesen Abschnitt}}
@@ -252,7 +252,7 @@ Die folgenden Beiträge sind möglicherweise veraltet:
 
 </div>
 
-## Weitere Informationen {#weitere_informationen}
+## Weitere Informationen 
 
 
 <div class="mw-translate-fuzzy">

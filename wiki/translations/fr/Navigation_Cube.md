@@ -20,13 +20,13 @@ Si vous placez le pointeur de la souris sur une entité du cube de navigation, e
 
 ![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
 
-## Flèches directionnelles. {#flèches_directionnelles.}
+## Flèches directionnelles. 
 
 Il y sont six flèches directionnelles: quatre pointes de flèche triangulaires, une en haut, une en bas, une à gauche et une à droite; et deux flèches courbées, une de chaque côté de la flèche du haut.
 
 En cliquant sur les flèches triangulaires, la vue 3D pivote de 45 degrés autour d\'une ligne perpendiculaire à la direction de la flèche. En cliquant sur les flèches incurvées, la vue 3D pivote autour d\'une ligne pointant vers vous.
 
-## Cube de navigation principal {#cube_de_navigation_principal}
+## Cube de navigation principal 
 
 Le cube de navigation principal (\"cube de navigation\" dans le reste de cette section) suit l\'orientation de l\'objet dans la partie principale de la vue 3D. Toute opération qui réoriente la vue 3D principale réorientera également le cube de navigation.
 
@@ -46,29 +46,29 @@ Pas possible:
 
 Remarque: Au moment de la rédaction de cet article (v 0.18), le cube de navigation pose quelques problèmes. toutes les fonctionnalités ne sont pas actuellement sélectionnables. En particulier, les arêtes ne peuvent pas être sélectionnées, ni les quatre coins de la face immédiatement en regard.
 
-### Sélection du facette {#sélection_du_facette}
+### Sélection du facette 
 
 En cliquant sur une facette, vous orienterez la vue 3D avec cete facette particulier qui vous fait face. Comme indiqué ci-dessus, d\'autres points de sélection sont disponibles dans la vue de face. Il y a quatre \"barres\" minces sur chacun des bords extérieurs, représentant les quatre facettes adjacentes; en cliquant dessus, vous sélectionnez la vue correspondant à la facette adjacente. Quatre angles arrondis peuvent être utilisés pour définir la vue axonométrique correspondante. Il existe également un ensemble intérieur d\'arêtes et de coins, actuellement non fonctionnels.
 
-### Sélection du bord {#sélection_du_bord}
+### Sélection du bord 
 
 Malheureusement, la sélection des bords est actuellement interrompue. Tenter de sélectionner une arête sélectionnera le visage qui se trouve derrière celle-ci. En cliquant sur un bord, vous devez le centrer pour qu\'il soit face à vous.
 
-### Sélection du coin {#sélection_du_coin}
+### Sélection du coin 
 
 En cliquant sur l\'un des coins, vous obtiendrez une vue axonométrique vue de ce coin. Comme indiqué ci-dessus, actuellement, lorsqu\'un visage est directement face à vous, les coins de ce visage ne peuvent pas être sélectionnés.
 
-## Menu Mini-cube {#menu_mini_cube}
+## Menu Mini-cube 
 
 Dans le coin inférieur droit du cube de navigation se trouve un petit cube. En cliquant sur ce cube, vous obtiendrez un menu que vous pourrez utiliser pour changer le type de vue (Orthographique, Perspective, Isométrique). et de faire un \"Zoom to Fit\".
 
-## Déplacement de l'affichage du cube de navigation {#déplacement_de_laffichage_du_cube_de_navigation}
+## Déplacement de l'affichage du cube de navigation 
 
 Vous pouvez déplacer l\'ensemble de la structure de contrôle du cube de navigation vers un autre endroit de l\'affichage 3D en appuyant sur la souris n\'importe où dans le cube de navigation principal et en la faisant glisser. La structure ne commencera à se déplacer que lorsque le pointeur de la souris aura dépassé le bord du cube de navigation principal.
 
 ## Configuration
 
-Le cube de navigation est configurable, notamment en ajustant sa taille : {{MenuCommand|Edition → Préférences... → Affichage → Navigation → Cube de navigation}} {{Version/fr|0.19}}.
+Le cube de navigation est configurable, notamment en ajustant sa taille : **Edition → Préférences... → Affichage → Navigation → Cube de navigation** {{Version/fr|0.19}}.
 
 Pour une configuration plus avancée, consultez l\'[atelier externe](External_workbenches/fr.md) [Cube Menu](Interface_Customization/fr#Menu_Cube.md).
 

@@ -20,7 +20,7 @@
 
 {{TOCright}}
 
-## 릴리스 노트 {#릴리스_노트}
+## 릴리스 노트 
 
 
 <div class="mw-translate-fuzzy">
@@ -37,7 +37,7 @@
 
 </div>
 
-## 주요 특징 {#주요_특징}
+## 주요 특징 
 
 -   ![](images/Feature1.jpg ) A complete [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE)-based **geometry kernel** allowing complex 3D operations on complex shape types, with native support for concepts like [Boundary Representation](https://en.wikipedia.org/wiki/Boundary_representation) (BREP), [Non-uniform rational basis spline](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) (NURBS) curves and surfaces, a wide range of geometric entities, boolean operations and [fillets](https://en.wikipedia.org/wiki/Fillet_(mechanics)), and built-in support of [STEP](https://en.wikipedia.org/wiki/ISO_10303) and [IGES](https://en.wikipedia.org/wiki/IGES) formats 
 -   ![](images/Feature3.jpg ) A full **parametric model**. All FreeCAD objects are natively parametric, meaning their shape can be based on [properties](Property.md) or even depend on other objects. All changes are recalculated on demand, and recorded by an undo/redo stack. New object types can be added easily, and can even be [fully programmed in Python](Scripted_objects.md).
@@ -54,7 +54,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## 일반적 특징: {#일반적_특징}
+## 일반적 특징: 
 
 
 </div>
@@ -115,11 +115,11 @@
 
 -   **modular MSI installer**. FreeCAD\'s installer allows flexible installations on Windows systems. Packages for Ubuntu systems are also maintained.
 
-## 개발 중 {#개발_중}
+## 개발 중 
 
 -   ![](images/Feature-assembly.jpg ) An [Assembly](Assembly_project.md) module that allows one to work with multiple projects, multiple shapes, multiple documents, multiple files, multiple relationships\... This module is currently in the planning state.
 
-## Extra Workbenches {#extra_workbenches}
+## Extra Workbenches 
 
 Power users have created various custom [external workbenches](external_workbenches.md).
 

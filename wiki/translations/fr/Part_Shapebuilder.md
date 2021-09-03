@@ -15,21 +15,21 @@ Outil pour créer des formes plus complexes à partir de diverses primitives gé
 
 Cet outil peut créer les objets suivants :
 
-### Arête à partir de deux sommets {#arête_à_partir_de_deux_sommets}
+### Arête à partir de deux sommets 
 
 1.  Sélectionnez deux sommets
 2.  Cliquez sur **Créer**
 
 ![](images/Edge_from_verts-1.gif )
 
-### Polyligne à partir d\'arêtes {#polyligne_à_partir_darêtes}
+### Polyligne à partir d\'arêtes 
 
 1.  Sélectionnez un ensemble d\'arêtes adjacentes dans la [vue 3D](3D_view/fr.md).
 2.  Cliquez sur **Créer**
 
 ![](images/Wire_from_edges-1.gif )
 
-### Face à partir de sommets {#face_à_partir_de_sommets}
+### Face à partir de sommets 
 
 1.  Sélectionner les sommets délimitant la face dans la [vue 3D](3D_view/fr.md).
 2.  Sélectionnez si la face doit être planaire
@@ -38,7 +38,7 @@ Cet outil peut créer les objets suivants :
 
 ![](images/Face_from_verts.gif )
 
-### Face à partir d\'arêtes {#face_à_partir_darêtes}
+### Face à partir d\'arêtes 
 
 1.  Sélectionner un ensemble fermé d\'arêtes délimitant la face dans la [Vue 3D](3D_view/fr.md).
 2.  Sélectionnez si la face doit être planaire.
@@ -47,7 +47,7 @@ Cet outil peut créer les objets suivants :
 
 ![](images/Face_from_edges.gif )
 
-### Coque à partir de faces {#coque_à_partir_de_faces}
+### Coque à partir de faces 
 
 1.  Sélectionner les faces dans la [Vue 3D](3D_view/fr.md).
 2.  Sélectionner si la forme doit être raffinée
@@ -55,7 +55,7 @@ Cet outil peut créer les objets suivants :
 4.  Cliquez sur **Créer**.
 5.  L\'objet sera créé dans la [Vue 3D](3D_view/fr.md) et sera répertorié dans la [Vue en arborescence](Tree_view/fr.md).
 
-### Solide à partir de coque {#solide_à_partir_de_coque}
+### Solide à partir de coque 
 
 1.  Sélectionnez si la forme doit être raffinée.
 2.  Cliquez sur **Créer**.

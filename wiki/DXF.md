@@ -1,6 +1,6 @@
  
 
-## Background history {#background_history}
+## Background history 
 
 The Drawing Exchange Format (DXF) is a proprietary CAD data format developed by Autodesk to enable file exchange between their flagship AutoCAD product and other software. There are a number of good software libraries for reading/writing the DXF format.
 
@@ -10,7 +10,7 @@ If you are editing DXF files and want them to remain almost the same when you sa
 
 In FreeCAD the DXF readers must translate the geometry (e.g., spline shapes) from the DXF file into the specific internal representations of the Workbench.
 
-## Methods for importing DXF to FreeCAD {#methods_for_importing_dxf_to_freecad}
+## Methods for importing DXF to FreeCAD 
 
 If you intend to review the settings frequently, we recommend you go to Edit → Preferences → Import-Export → DXF and tick the box \"\[ \] Show this dialog when importing and exporting\".
 
@@ -18,11 +18,11 @@ More information is on the pages [Draft DXF](Draft_DXF.md) and [FreeCAD and DXF 
 
 If you are using the imported geometry to build 3D shapes in the Part Design Workbench, try the [Sketcher Validate](Sketcher_ValidateSketch.md) after you have imported the DXF into a sketch.
 
-### C++ DXF importer {#c_dxf_importer}
+### C++ DXF importer 
 
 This implementation of fast, but skips features it doesn\'t recognize, such as DXF splines. It also can only import geometry into the Draft Workbench as individual entries in the Model tree. These can have the colors read from the file if you tick to enable this option. For further information, see [this forum post](https://forum.freecadweb.org/viewtopic.php?f=3&t=32493).
 
-### Python DXF importer {#python_dxf_importer}
+### Python DXF importer 
 
 This importer has to be downloaded and installed before it can be used. See [Dxf Importer Install](Dxf_Importer_Install.md), or use the \"\[ \] Allow FreeCAD to automatically download and update the DXF libraries\" option.
 
@@ -34,7 +34,7 @@ Unfortunately, the Sketch Workbench does not implement colors, so all the geomet
 
 Keep an eye out on the FreeCAD forum or in the [Macros recipes](Macros_recipes.md) for alternative implementations of DXF importing and cleaning up as they develop.
 
-## Saving DXF {#saving_dxf}
+## Saving DXF 
 
 In addition to the options under the Edit → Preferences, the [TechDraw Workbench](TechDraw_Workbench.md) can also export drawing pages to DXF using the [TechDraw ExportPageDXF](TechDraw_ExportPageDXF.md) function.
 

@@ -52,17 +52,17 @@ Je-li tvarem přímka, souřadnicí bude střed přímky.
 
 :   Vytváří kružnici v bokorysu vybraného tvaru, 1, 2 or 3
 
-### Alignement sur : {#alignement_sur}
+### Alignement sur : 
 
 **Forme 1, 2, 3**
 
 :   Tvary podle jejich výběru.
 
-### Afficher le centre : {#afficher_le_centre}
+### Afficher le centre : 
 
 :   Je-li políčko zakliknuto, bude vytvořen i středový bod kružnice
 
-### Associer les couleurs {#associer_les_couleurs}
+### Associer les couleurs 
 
 :   Je-li políčko zakliknuto, kružnice přebere barvu aktuálního pohledu,
 
@@ -614,7 +614,7 @@ Soubor by měl být zkopírován do \" **C:/Program Files/FreeCAD0.13/** \" Chce
          path = FreeCAD.ConfigGet("AppHomePath") # chemin
 ```
 
-## Anaglyphe (3D zobrazení) {#anaglyphe_3d_zobrazení}
+## Anaglyphe (3D zobrazení) 
 
 Zde je 3D zobrazení, které umožňuje vidět 2 různé pozice pohledu použitím brýlí s filtry pro červenou a cyan barvu <img alt="" src=images/Anaglyph_Tango.png  style="width:24px;">.
 Podívejte se střídavě pravým a levým okem abyste viděli pohledy samostatně.

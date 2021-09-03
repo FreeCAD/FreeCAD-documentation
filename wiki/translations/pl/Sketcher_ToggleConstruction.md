@@ -23,7 +23,7 @@ Linie konstrukcyjne mogą zostać użyte jako oś obrotu przez funkcję **<img s
 Istnieją dwa sposoby użycia tego narzędzia:
 
 1.  Nie mając niczego zaznaczonego w oknie [widoku 3D](3D_view/pl.md):
-    -   Wywołaj tryb konstrukcji, klikając na przycisk **<img src=images/Sketcher_ToggleConstruction.svg style="width:24px"> <img src=images/Sketcher_ToggleConstruction.svg style="width:Przełącz geometrię konstrukcyjną](Sketcher_ToggleConstruction/pl.md)** lub używając opcji {{MenuCommand|Szkic → Elementy geometryczne szkicownika → [24px"> Przełącz geometrię konstrukcyjną}} w menu Szkicownika.
+    -   Wywołaj tryb konstrukcji, klikając na przycisk **<img src=images/Sketcher_ToggleConstruction.svg style="width:24px"> <img src=images/Sketcher_ToggleConstruction.svg style="width:Przełącz geometrię konstrukcyjną](Sketcher_ToggleConstruction/pl.md)** lub używając opcji **Szkic → Elementy geometryczne szkicownika → [24px"> Przełącz geometrię konstrukcyjną** w menu Szkicownika.
     -   Spowoduje to zmianę koloru tworzenia nowych elementów geometrycznych na niebieski.
     -   Nowo utworzone elementy geometryczne będą teraz tworzone w trybie konstrukcyjnym.
 2.  Z jednym lub kilkoma elementami geometrycznymi zaznaczonymi w oknie [widoku 3D](3D_view/pl.md)

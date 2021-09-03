@@ -65,7 +65,7 @@ Vide
 
 <div class="mw-translate-fuzzy">
 
-#### Base {#base_1}
+#### Base 
 
 -    {{PropertyData/fr|Sources}}: -
 
@@ -81,7 +81,7 @@ Vide
 
 <div class="mw-translate-fuzzy">
 
-#### Offset {#offset_1}
+#### Offset 
 
 -    {{PropertyData/fr|Offset}}: -
 
@@ -107,7 +107,7 @@ Vide
 
 <div class="mw-translate-fuzzy">
 
-#### Pocket {#pocket_1}
+#### Pocket 
 
 -    {{PropertyData/fr|PocketMode}}: -
 
@@ -137,7 +137,7 @@ Vide
 
 <div class="mw-translate-fuzzy">
 
-#### Section {#section_1}
+#### Section 
 
 -    {{PropertyData/fr|SectionCount}}: -
 
@@ -159,7 +159,7 @@ Vide
 
 <div class="mw-translate-fuzzy">
 
-#### libarea {#libarea_1}
+#### libarea 
 
 -    {{PropertyData/fr|Tolerance}}: -
 
@@ -187,7 +187,7 @@ Vide
 
 <div class="mw-translate-fuzzy">
 
-#### Hidden {#hidden_1}
+#### Hidden 
 
 -    {{PropertyData/fr|ExpressionEngine}}: -
 

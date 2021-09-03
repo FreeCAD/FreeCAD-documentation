@@ -16,7 +16,7 @@ Inverse les normales de toutes les faces de l\'objet sélectionné.
 ## Utilisation
 
 1.  Sélectionnez la forme.
-2.  Sélectionnez l\'option du menu {{MenuCommand|Pièce → <img src="images/Part_ReverseShapes.svg" width=16px> Inverser les formes}}.
+2.  Sélectionnez l\'option du menu **Pièce → <img src="images/Part_ReverseShapes.svg" width=16px> Inverser les formes**.
 3.  Une forme inversée est créée en tant que nouvel objet séparé.
 
 ## Remarques

@@ -14,7 +14,7 @@
 
 To makro rozbija twoją formę za pomocą funkcji **<img src="images/Draft_Downgrade.svg" width=16px> [Rozbij kształt](Draft_Downgrade/pl.md)** środowiska Rysunek Roboczy i przekształca ścianę wybraną w szkicu bez ograniczeń, gotową do modyfikacji.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Ikonka paska narzędzi [mage:Macro\_FaceToSketch.png](mage:Macro_FaceToSketch.png.md)
 

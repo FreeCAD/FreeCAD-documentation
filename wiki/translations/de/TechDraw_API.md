@@ -79,9 +79,9 @@ import TechDraw
 TechDraw.writeDXFPage(myPage,myFileName)
 ```
 
-### ZeichneAnsichtPart Kosmetik {#zeichneansichtpart_kosmetik}
+### ZeichneAnsichtPart Kosmetik 
 
-#### CosmeticVertex (CV) Routinen, die von Python aus zugänglich sind {#cosmeticvertex_cv_routinen_die_von_python_aus_zugänglich_sind}
+#### CosmeticVertex (CV) Routinen, die von Python aus zugänglich sind 
 
 dvp = App.ActiveDocument.View \#CV\'s belong to views
 füge einen KosmetikKnoten bei p1 (Ansichtskoordinaten) hinzu. Gibt einen eindeutigen Tag zurück.
@@ -141,7 +141,7 @@ cv3 = v.getCosmeticVertex(tag3d)
 print("3d point out: {}".format(cv3.Point))
 ```
 
-#### CosmeticEdge (CE) Routinen, die von Python aus zugänglich sind {#cosmeticedge_ce_routinen_die_von_python_aus_zugänglich_sind}
+#### CosmeticEdge (CE) Routinen, die von Python aus zugänglich sind 
 
 dvp = App.ActiveDocument.View \#CE\'s belong to views
 Make a CosmeticEdge from p1 to p2(View coordinates). Returns unique tag.
@@ -244,7 +244,7 @@ dvp.removeCosmeticEdge(tag2)
 print("finished")
 ```
 
-#### MittelLinien (ML) Routinen, die über Python zugänglich sind {#mittellinien_ml_routinen_die_über_python_zugänglich_sind}
+#### MittelLinien (ML) Routinen, die über Python zugänglich sind 
 
 make a new CenterLine
 tag = dvp.makeCenterLine(subObjs, mode)
@@ -332,7 +332,7 @@ cline3 = dvp.makeCenterLine(vertNames,aMode)
 print("finished")
 ```
 
-### DrawViewPart Geometry {#drawviewpart_geometry}
+### DrawViewPart Geometry 
 
 \[topoShapeEdge\] = dvp.getVisibleEdges()
 

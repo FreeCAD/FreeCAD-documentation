@@ -14,7 +14,7 @@ FreeCAD ist eine große Anwendung, deren vollständige Kompilierung aus dem Quel
 
 Installiere `ccache` zur Bau Zwischenspeicherung.
 
-## Module deaktivieren {#module_deaktivieren}
+## Module deaktivieren 
 
 Wenn `cmake` zur Konfiguration der Bauten verwendet werden, kannst du die Kompilierung bestimmter Arbeitsbereiche deaktivieren, die du im Moment möglicherweise nicht benötigst. Dies ist nützlich, wenn du nur einige wenige Arbeitsbereiche testen musst.
 
@@ -27,7 +27,7 @@ cmake -DBUILD_FEM=OFF -DBUILD_MESH=OFF ../freecad-source
 
 Verwende `cmake-gui`, `cmake-curses-gui`, oder `cmake-qt-gui`, um alle möglichen Variablen anzuzeigen, die in der Konfiguration bearbeitet werden können; über diese Schnittstellen kannst du verschiedene Arbeitsbereiche leicht ein- oder ausschalten.
 
-## Anzahl der parallelen Aufträge {#anzahl_der_parallelen_aufträge}
+## Anzahl der parallelen Aufträge 
 
 Nach der Konfiguration mit `cmake` startet das Programm `make` den eigentlichen C++-Compiler, um an den Quelltextdateien zu arbeiten. Du kannst die Kompilierung beschleunigen, indem du an verschiedenen Dateien gleichzeitig arbeitest. Dies wird mit der Option `-j` von `make` erreicht, die die Anzahl der gleichzeitig ausgeführten \"Jobs\" oder Kompilierungsbefehle angibt. Diese Option ist eine Ganzzahl.
 

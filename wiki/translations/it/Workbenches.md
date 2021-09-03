@@ -17,7 +17,7 @@ Notare che a volte un Ambiente viene indicato come un *Modulo*. Gli Ambienti e i
 
 </div>
 
-## Ambienti incorporati {#ambienti_incorporati}
+## Ambienti incorporati 
 
 
 <div class="mw-translate-fuzzy">
@@ -88,11 +88,11 @@ I seguenti ambienti di lavoro sono ancora inclusi nell\'installazione di base pe
 
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> The [Drawing Workbench](Drawing_Workbench.md) was used for producing technical drawings but has now been deprecated. It is still needed to read old FreeCAD files that contain objects created with this workbench. The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement. {{Obsolete|0.17}}
 
-## Ambienti aggiuntivi {#ambienti_aggiuntivi}
+## Ambienti aggiuntivi 
 
 Gli ambienti di lavoro per FreeCAD sono facilmente programmabili in [Python](Python/it.md), quindi ci sono molte persone che stanno sviluppando degli ambienti aggiuntivi al di fuori dell\'area principale di sviluppo di FreeCAD.
 
-La pagina [Ambienti complementari](external_workbenches/it.md) elenca tutti quelli che sono noti a questa comunità. La maggior parte è facilmente installabile da FreeCAD, usando [Addon manager](Addon_Manager/it.md), che si trova nel menu {{MenuCommand|Strumenti → <img src="images/_AddonManager.svg" width=24px> Addon manager}}.
+La pagina [Ambienti complementari](external_workbenches/it.md) elenca tutti quelli che sono noti a questa comunità. La maggior parte è facilmente installabile da FreeCAD, usando [Addon manager](Addon_Manager/it.md), che si trova nel menu **Strumenti → <img src="images/_AddonManager.svg" width=24px> Addon manager**.
 
 Sono in fase di sviluppo ulteriori nuovi ambienti, mantenetevi aggiornati.
 

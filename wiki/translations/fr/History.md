@@ -4,7 +4,7 @@
 
 <img alt="Balbutiements FreeCAD, version inconnue." src=images/Screenshot_mesh.jpg  style="width:300px;"> <img alt="FreeCAD, version 0.7 de 2009." src=images/Part_BooleanOperations.png  style="width:300px;">
 
-### Comment tout a démarré {#comment_tout_a_démarré}
+### Comment tout a démarré 
 
 FreeCAD a commencé en janvier 2001 lorsque [Jürgen Riegel](User:Jriegel.md) a commencé à travailler sur le projet Cas.CADE. Cas.CADE était un framework de développement logiciel commercial qui comprenait un [noyau de modélisation géométrique](Glossary/fr#Geometric_modeling_kernel.md) (ou noyau CAO): il a été publié sous une licence open source en 2000 et renommé [Open CASCADE](OpenCASCADE/fr.md). Cela a rendu possible la réalisation d\'un programme CAO 3D open source, car avoir à programmer un noyau CAO à partir de zéro aurait nécessité un travail énorme.
 
@@ -28,7 +28,7 @@ Le projet a été annoncé au grand public lors du [forum OpenCascade](https://d
 {{Quote|text=''Bonjour à tous, je m'appelle Juergen Riegel et je souhaite aujourd'hui annoncer un projet OpenCasCade, FreeCAD. Il s'agit d'un RAD CAx Open Source basé sur OpenCasCade, QT et Python. Il présente des concepts clés tels que l'enregistrement de macros, les ateliers, la capacité de fonctionner en tant que serveur et en tant qu'extension d'applications à chargement dynamique, et il est conçu pour être indépendant de la plate-forme… Bien qu'il soit à un stade précoce et qu'il ne soit utilisable ni par les utilisateurs ni par les développeurs - la première version utilisateur est prévue pour la fin de 2003 - j'aimerais avoir votre avis sur l'orientation et la conception de FreeCAD. Le GUI est presque terminée et maintenant nous, mon co-développeur Werner Mayer et moi-même, avons commencé à ajouter les premières fonctions de CAO. FreeCAD peut être considéré comme un système de CAO mécanique à usage général, mais son premier public sera, je pense, les développeurs de CAx qui ont besoin d’un travail préparatoire pour leur propre développement''.
 |sign=[Jürgen Riegel](User:Jriegel.md)|source=''[https://dev.opencascade.org/content/announcing-freecad-project Annonce du projet FreeCAD sur Sun, 08/17/2003 - 19:23]''}}
 
-### Werner Mayer {#werner_mayer}
+### Werner Mayer 
 
 Werner Mayer a rejoint le projet dès qu\'il a été annoncé comme projet open source (avant l\'annonce, le projet était un projet privé de Jürgen). Voir ce message de Werner sur le forum en allemand: <https://forum.freecadweb.org/viewtopic.php?f=13&t=40235&start=10#p342330>
 
@@ -94,7 +94,7 @@ Les décisions de conception les plus importantes ont été de le rendre disponi
 
 (Voir ce message de Werner sur le forum [Re: FreeCAD History](https://forum.freecadweb.org/viewtopic.php?f=8&t=47703#p411612))
 
-### Yorik rejoint le projet {#yorik_rejoint_le_projet}
+### Yorik rejoint le projet 
 
 [Yorik van Havre](User:Yorik.md) a rejoint le projet en 2008 et a commencé à travailler sur l\'[atelier Draft](Draft_Workbench/fr.md). Auparavant, il n\'existait aucun moyen de créer une géométrie 2D via l\'[interface graphique](Glossary/fr#GUI.md). Ce module a été entièrement programmé en Python plutôt qu\'en C++, le langage de programmation principal utilisé dans FreeCAD. Le nouvel atelier Draft a prouvé que l\'intégration Python était un succès et pouvait être utilisée pour étendre ou personnaliser les fonctionnalités de FreeCAD. En plus de son travail sur le module Draft, Yorik a amélioré la documentation de FreeCAD et est devenu *de facto* \"directeur artistique\" de FreeCAD, créant de nombreuses icônes pour le GUI de FreeCAD et [définissant son style](Artwork/fr.md).
 
@@ -104,7 +104,7 @@ La version 0.8 publiée en juillet 2009 a vu s\'étoffer le module Draft, en y a
 
 À la fin de 2009, FreeCAD était intégré en tant que paquet Debian dans les dépôts Debian. FreeCAD a été ajouté aux dépôts Ubuntu 10.04 en 2010.
 
-### Le projet continue {#le_projet_continue}
+### Le projet continue 
 
 La version 0.10 a été publiée en juillet 2010 et a introduit l\'[atelier Sketcher](Sketcher_Workbench/fr.md), basé sur Sketchsolve, un solveur basé sur les contraintes pour créer une géométrie 2D. La première version se limitait à la création de rectangles et de lignes.
 
@@ -114,11 +114,11 @@ La version 0.11, publiée en mai 2011, a introduit le nouvel atelier Part Design
 
 La version 0.12 fut publiée en janvier 2012 et comportait un atelier Sketcher plus complet. Il incluait un résolveur totalement réécrit, FreeGCS. C'est le résultat de nombreux mois de travail des principaux développeurs de FreeCAD, comme des nouveaux venus logari81 (qui a programmé le solveur) et mrlukeparry. D\'autres outils ont été ajoutés à l\'atelier PartDesign.
 
-### Augmentation de l\'équipe principale de développeurs {#augmentation_de_léquipe_principale_de_développeurs}
+### Augmentation de l\'équipe principale de développeurs 
 
 En avril 2019, l\'équipe de développeurs principaux a été élargie: Jürgen, Werner et Yorik ont été rejoints par Abdullah, Bernd, Sliptonic et WandererFan
 
-## Messages intéressants sur le forum {#messages_intéressants_sur_le_forum}
+## Messages intéressants sur le forum 
 
 -   à propos de PartDesignNext et d'autres décisions de conception : <https://forum.freecadweb.org/viewtopic.php?f=8&t=34923&start=130#p297074>
 -   sur l\'histoire du Forum : <https://forum.freecadweb.org/viewtopic.php?f=8&t=7448&start=200#p287106>
@@ -130,9 +130,9 @@ En avril 2019, l\'équipe de développeurs principaux a été élargie: Jürgen,
 -   à propos de l\'histoire de la MEF : <https://forum.freecadweb.org/viewtopic.php?f=18&t=48646#p416389>
 -   à propos de l\'histoire du mailleur MEF : <https://forum.freecadweb.org/viewtopic.php?f=18&t=48733#p417627>
 
-## Historique des versions {#historique_des_versions}
+## Historique des versions 
 
-#### Vue d\'ensemble {#vue_densemble}
+#### Vue d\'ensemble 
 
   Version   Noms de version   Date de sortie     Notes de version                                         Versions de validation                                                                    Branches avec corrections de bogues
   --------- ----------------- ------------------ -------------------------------------------------------- ----------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
@@ -169,7 +169,7 @@ En avril 2019, l\'équipe de développeurs principaux a été élargie: Jürgen,
           Ancienne version
           
 
-## Liens externes {#liens_externes}
+## Liens externes 
 
 -   [SourceForge Files section](http://sourceforge.net/projects/free-cad/files/)
 -   [SourceForge Old Files section](http://sourceforge.net/projects/free-cad/files/OldFiles/)

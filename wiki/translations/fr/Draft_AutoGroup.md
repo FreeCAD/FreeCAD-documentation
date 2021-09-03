@@ -22,24 +22,24 @@ Cette commande était à l\'origine destinée aux groupes, d\'où son nom, mais 
 2.  Sélectionnez éventuellement le calque que vous voulez rendre actif dans la [Vue en arborescence](Tree_view/fr.md).
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/button_invalid.svg" width=16px> [Aucun](Draft_AutoGroup/fr.md)** dans la [Draft Barre](Draft_Tray/fr.md). Ce bouton peut avoir un aspect différent. S\'il y a un calque actif, il affichera le nom du calque et une icône de calque avec la {{PropertyView/fr|Line Color}} et la {{PropertyView/fr|Shape Color}} du calque.
-    -   Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_AutoGroup.svg" width=16px> Groupement automatique}} dans le menu.
-    -   Si vous avez sélectionné un calque : sélectionnez l\'option {{MenuCommand|<img src="images/button_right.svg" width=16px> Activer ce calque}} dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md).
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_AutoGroup.svg" width=16px> Groupement automatique** dans le menu.
+    -   Si vous avez sélectionné un calque : sélectionnez l\'option **<img src="images/button_right.svg" width=16px> Activer ce calque** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md).
 4.  Si vous n\'avez pas encore sélectionné de calque, le menu des calques s\'ouvre. Effectuez l\'une des opérations suivantes :
-    -   Sélectionnez {{MenuCommand|None}} pour travailler sans calque actif.
+    -   Sélectionnez **None** pour travailler sans calque actif.
     -   Sélectionnez un calque existant pour le rendre actif.
-    -   Sélectionnez {{MenuCommand|Add new Layer}} pour créer un nouveau calque. La sélection de cette option ne modifie pas la couche active.
+    -   Sélectionnez **Add new Layer** pour créer un nouveau calque. La sélection de cette option ne modifie pas la couche active.
 5.  Si le calque active a été modifiée, le bouton de la [Draft Barre](Draft_Tray/fr.md) est mis à jour.
 
 ## Remarques
 
--   Un nouveau [calque](Draft_Layer/fr.md) peut également être créé en cliquant avec le bouton droit de la souris sur le conteneur de calque dans la [Vue en arborescence](Tree_view/fr.md) et en sélectionnant l\'option {{MenuCommand|<img src="images/Draft_NewLayer.svg" width=16px> Ajouter un nouveau calque}} dans le menu contextuel.
+-   Un nouveau [calque](Draft_Layer/fr.md) peut également être créé en cliquant avec le bouton droit de la souris sur le conteneur de calque dans la [Vue en arborescence](Tree_view/fr.md) et en sélectionnant l\'option **<img src="images/Draft_NewLayer.svg" width=16px> Ajouter un nouveau calque** dans le menu contextuel.
 -   Si [Draft Basculer en mode construction](Draft_ToggleConstructionMode/fr.md) est activé, le [calque](Draft_Layer/fr.md) actif est ignoré.
 
 ## Préférences
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Cette commande peut éventuellement gérer aussi les groupes : {{MenuCommand|Edition → Préférences... → Draft → Paramètres généraux → Réglages généraux Draft → Afficher les groupes dans la liste déroulante des calques}}.
+-   Cette commande peut éventuellement gérer aussi les groupes : **Edition → Préférences... → Draft → Paramètres généraux → Réglages généraux Draft → Afficher les groupes dans la liste déroulante des calques**.
 
 ## Script
 

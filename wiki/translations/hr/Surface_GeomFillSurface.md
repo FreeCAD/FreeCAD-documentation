@@ -25,7 +25,7 @@ creates a parametric surface from two, three, or four boundary edges, trying to 
 
 <div class="mw-translate-fuzzy">
 
-## Kako koristiti {#kako_koristiti}
+## Kako koristiti 
 
 
 </div>
@@ -42,7 +42,7 @@ once created, it is not possible to apply additional constraints to the created 
 ## Opcije
 
 
-{{MenuCommand|Fill type}}
+**Fill type**
 
 : {{RadioButton|TRUE|Stretch}}, {{RadioButton|TRUE|Coons}}, or {{RadioButton|TRUE|Curved}}.
 
@@ -70,7 +70,7 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 -    **Control Points|Bool**: it defaults to `False`; if set to `True`, it will show an overlay with the control points of the surface.
 
-## Twisting of the surface {#twisting_of_the_surface}
+## Twisting of the surface 
 
 The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that \"twists\" on itself, one of the edges may need its list of vertices in the reverse order. A surface that twists on itself will probably have self-intersections, and thus will be an invalid <img src=images/Part_CheckGeometry.svg style="width:Shape](Part_TopoShape.md); this can be verified with **[16px"> [Part CheckGeometry](Part_CheckGeometry.md)**.
 

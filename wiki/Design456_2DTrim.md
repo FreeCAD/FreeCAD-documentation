@@ -21,7 +21,7 @@ After using this tool in the middle of a wire, two different wires will be creat
 
 1.  Invoke the Design456 Trim in several ways:
     -   Press the <img alt="" src=images/Design456_2DTrimLine.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Design456_2Ddrawing → Trim Line}} entry in the Design456 menu
+    -   Use the **Design456_2Ddrawing → Trim Line** entry in the Design456 menu
 
 ## Limitations
 

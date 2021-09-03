@@ -35,7 +35,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Требования {#требования_1}
+## Требования 
 
 -   Версия FreeCAD 0.16.6700 и выше
 -   [Netgen](http://sourceforge.net/projects/netgen-mesher/) и/или [GMSH](http://geuz.org/gmsh/) установленные в вашей системе
@@ -46,7 +46,7 @@
 
 </div>
 
-## Последовательность действий {#последовательность_действий}
+## Последовательность действий 
 
 ### Modeling
 
@@ -76,16 +76,16 @@
 
 Теперь у нас есть модель с которой можно работать.
 
-### Creating the Analysis {#creating_the_analysis}
+### Creating the Analysis 
 
 #### Netgen
 
 
 <div class="mw-translate-fuzzy">
 
-### Создание Анализа {#создание_анализа}
+### Создание Анализа 
 
-#### Netgen {#netgen_1}
+#### Netgen 
 
 1.  Выбрать модель
 2.  Кликнуть в меню <img alt="" src=images/FEM_Analysis.png  style="width:16px;"> [New mechanical analysis](FEM_Analysis/ru.md), чтобы создать анализ из выбранного объекта
@@ -107,7 +107,7 @@
 
 <div class="mw-translate-fuzzy">
 
-#### GMSH {#gmsh_1}
+#### GMSH 
 
 Макросы от psicofil\'s - строго рекомендуются и используется в данном примере.
 
@@ -121,12 +121,12 @@
 
 Мы создали сетку для нашего объекта и готовы добавить к нему ограничения и действующие силы.
 
-### Constraints and Forces {#constraints_and_forces}
+### Constraints and Forces 
 
 
 <div class="mw-translate-fuzzy">
 
-### Ограничения и силы {#ограничения_и_силы}
+### Ограничения и силы 
 
 1.  Скройте сетку внутри древа проекта.
 2.  Откройте оригинальную модель
@@ -142,12 +142,12 @@
 
 Теперь мы установили ограничения и силы для нашего статического анализа.
 
-### Final preparations {#final_preparations}
+### Final preparations 
 
 
 <div class="mw-translate-fuzzy">
 
-### Последние приготовления {#последние_приготовления}
+### Последние приготовления 
 
 1.  Нажмите <img alt="" src=images/FEM_Material.png  style="width:16px;"> [Mechanical material\...](FEM_MaterialSolid/ru.md) и выберете Calculix-Steel в качестве материала.
 2.  Нажмите **OK**
@@ -155,16 +155,16 @@
 
 </div>
 
-### Running the Solver {#running_the_solver}
+### Running the Solver 
 
-#### Стандартная Процедура {#стандартная_процедура}
+#### Стандартная Процедура 
 
 
 <div class="mw-translate-fuzzy">
 
-### Запуск решателя {#запуск_решателя}
+### Запуск решателя 
 
-#### Стандартная процедура {#стандартная_процедура_1}
+#### Стандартная процедура 
 
 1.  Выберите объект решателя <img alt="" src=images/FEM_Solver.png  style="width:16px;">, находящийся в 
 **Mechanical Analysis**
@@ -176,12 +176,12 @@
 
 </div>
 
-#### Быстрая Процедура {#быстрая_процедура}
+#### Быстрая Процедура 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Быстрая процедура {#быстрая_процедура_1}
+#### Быстрая процедура 
 
 1.  Выберите объект решателя <img alt="" src=images/FEM_Solver.png  style="width:16px;">, находящийся в 
 **Mechanical Analysis**
@@ -190,12 +190,12 @@
 
 </div>
 
-### Анализ Результатов {#анализ_результатов}
+### Анализ Результатов 
 
 
 <div class="mw-translate-fuzzy">
 
-### Анализ результатов {#анализ_результатов_1}
+### Анализ результатов 
 
 1.  Выберите объект **Results** из **Object Tree**
 2.  Выберите <img alt="" src=images/FEM_ShowResult.png  style="width:16px;"> [Show result](FEM_ResultShow/ru.md)

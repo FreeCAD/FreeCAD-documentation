@@ -63,7 +63,7 @@ Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> 
 
 <div class="mw-translate-fuzzy">
 
-## Verwenden Sie {#verwenden_sie}
+## Verwenden Sie 
 
 Dieses Makro benötigt ein Bild mit 256 Graustufen (0-255), bevor Sie das Makro verwenden, konvertieren Sie Ihr Bild in Graustufen (Schwarzweiß), Lowe. Die Anzahl der Farben wird automatisch erkannt, wenn das Bild mehr als 256 Farben enthält, wird erwartet, dass eine andere Funktion erwartet wird. Jede Farbe (Graustufe) wird als tiefes, weißes (255) als hoch und schwarz (0) als niedrigster Pegel (tief) angesehen.
 
@@ -89,7 +89,7 @@ Achtung: Je nach Größe des Bildes kann das Projekt sehr groß werden! Für die
 
 <div class="mw-translate-fuzzy">
 
-### Die Schnittstelle {#die_schnittstelle}
+### Die Schnittstelle 
 
 
 </div>
@@ -140,7 +140,7 @@ Achtung: Je nach Größe des Bildes kann das Projekt sehr groß werden! Für die
 
 <div class="mw-translate-fuzzy">
 
-#### Modus 8 Bits {#modus_8_bits}
+#### Modus 8 Bits 
 
 Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte Funktion an: 0, wenn die Einstellung auf Schwarz (**Schwarz**) 255 oder 20 steht, wenn die Einstellung Weiß ist (**Weiß**).
 
@@ -166,7 +166,7 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
 
 <div class="mw-translate-fuzzy">
 
-#### Mode 32 Bits {#mode_32_bits}
+#### Mode 32 Bits 
 
 -    {{RadioButton|TRUE|Photo}}: Der Fotomodus wird automatisch aktiviert, wenn ein 32-Bit-Bild erkannt wird. (die Prozedur kann lang sein)
 
@@ -190,7 +190,7 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
 
 <div class="mw-translate-fuzzy">
 
-#### Verschließen (10mm) {#verschließen_10mm}
+#### Verschließen (10mm) 
 
 -   Slider : gibt die Höhe des Formulars an, die auf dem Titelrahmen angezeigt wird.
 

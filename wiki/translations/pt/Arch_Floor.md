@@ -16,7 +16,7 @@ O piso \"Arch\" é um tipo especial de grupo do FreeCAD que tem algumas propried
 
 As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch BuildingPart](Arch_BuildingPart.md) object, which is a general container to organize a building model not limited to floors or storeys. Older Floor objects can be converted to the new type by right clicking on them and choosing `Convert to BuildingPart`.
 
-## Como usar {#como_usar}
+## Como usar 
 
 
 <div class="mw-translate-fuzzy">

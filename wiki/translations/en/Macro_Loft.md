@@ -38,7 +38,7 @@ Copy the macro and the icon in your macro directory.
 -   **CheckBox** If the CheckBox is checked the work progress is displayed if not only the ProgressBar work (this method is faster) (Checked by default).
 -   ****Launch the Lofting**** : Launch the Lofting and reset the macro. The number of selection are displayed and the real number lofted if the spinBox \"jump\" is used
 
-### The interface {#the_interface}
+### The interface 
 
 <img alt="FCCreaLoft002" src=images/Macro_FCCreaLoft_01.png  style="width:400px;"> 
 

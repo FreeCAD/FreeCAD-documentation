@@ -1,4 +1,4 @@
-# Note di rilascio della versione 0.11 {#note_di_rilascio_della_versione_0.11}
+# Note di rilascio della versione 0.11 
 
 Questo è un riassunto dei cambiamenti più importanti e delle nuove funzionalità disponibili nella versione 0.11 di FreeCAD. L\'elenco completo si trova [qui](http://www.freecadweb.org/tracker/changelog_page.php).
 
@@ -21,7 +21,7 @@ Una schermata della versione 0.11
 -   Il meccanismo di copia/incolla è stato molto migliorato, ora permette un facile copia/incolla di oggetti tra i documenti.
 -   Il [ Part Workbench](Part_Workbench/it.md) (Ambiente Parte) presenta nuovi strumenti quali la simmetria, il raccordo e lo smusso.
 
-### Schizzo e Disegno di Parti {#schizzo_e_disegno_di_parti}
+### Schizzo e Disegno di Parti 
 
 -   Il solutore dei vincoli del [ Modulo di Schizzo](Sketcher_Workbench/it.md) è stato completamente riscritto e l\'ambiente di Schizzo dispone già di una vasta buona dotazione di strumenti, anche se non ancora completa, quali linee, rettangoli e di vincoli quali punto di coincidenza, parallelismo, lunghezza fissa e vincoli orizzontali o verticali.
 
@@ -31,13 +31,13 @@ Una schermata della versione 0.11
 
 ![](images/Movie.png ) Esempi: [Demo di Schizzo](http://www.youtube.com/watch?v=hvXupH5bA0E) • [Demo del modulo Parte](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
 
-### Simulazione di movimenti di Robot {#simulazione_di_movimenti_di_robot}
+### Simulazione di movimenti di Robot 
 
 -   Il [ Modulo Robot](Robot_Workbench/it.md) è stato esteso con molti strumenti GUI ed ora è abbastanza funzionale e permette di simulare facilmente i movimenti dei robot industriali.
 
 ![](images/release011-robot.jpg )
 
-### Disegno 2D - Drafting {#disegno_2d___drafting}
+### Disegno 2D - Drafting 
 
 -   Gli agganci (snap) sono stati ottimizzati ed ora funzionano abbastanza velocemente anche su oggetti complessi
 -   Lo strumento \"Accorcia/Estendi\" può ora essere chiamato \"Accorcia/Estendi/Estrudi\", in quanto permette di estrudere rapidamente singole facce, che offre una comoda scorciatoia per lo strumento di Estrusione standard di Parte

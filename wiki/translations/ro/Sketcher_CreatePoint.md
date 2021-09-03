@@ -13,7 +13,7 @@ Instrumentul Point creează un punct în schița curentă, care poate fi utiliza
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

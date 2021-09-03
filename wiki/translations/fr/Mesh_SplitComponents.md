@@ -17,7 +17,7 @@ La commande **Mesh Séparer** divise un objet maillé en ses composants. Un comp
 2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_SplitComponents.svg" width=16px> [Eclater le maillage sélectionné en composants](Mesh_SplitComponents/fr.md)
 **
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → <img src="images/Mesh_SplitComponents.svg" width=16px> Eclater par composants}} dans le menu.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_SplitComponents.svg" width=16px> Eclater par composants** dans le menu.
 
 ## Propriétés
 

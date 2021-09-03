@@ -11,7 +11,7 @@ Creează o constrângere MEF pentru a o deplasare prescrisă a unui obiect selec
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

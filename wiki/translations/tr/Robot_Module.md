@@ -69,7 +69,7 @@ Yörüngeleri oluşturmak ve değiştirmek için araçlar. Parametrik ve paramet
 
 <div class="mw-translate-fuzzy">
 
-#### Parametrik olmayan yörüngeler {#parametrik_olmayan_yörüngeler}
+#### Parametrik olmayan yörüngeler 
 
 -   ![ 30px](images/_Robot_CreateTrajectory.png ) [Yörünge oluştur](Robot_CreateTrajectory/tr.md): Sahneye yeni bir boş yörünge nesnesi ekler
 -   ![ 30px](images/_Robot_SetDefaultOrientation.png ) [ Varsayılan yönlendirmeyi ayarla](Robot_SetDefaultOrientation/tr.md): Oryantasyon yol noktalarını varsayılan olarak oluşturulacak şekilde ayarlayın
@@ -83,7 +83,7 @@ Yörüngeleri oluşturmak ve değiştirmek için araçlar. Parametrik ve paramet
 
 <div class="mw-translate-fuzzy">
 
-#### Parametrik yörüngeler {#parametrik_yörüngeler}
+#### Parametrik yörüngeler 
 
 -   ![ 30px](images/_Robot_Edge2Trac.png ) [ Kenarlardan bir yörünge oluşturun](Robot_Edge2Trac.md): Kenarları yörüngeye çeviren yeni bir nesne yerleştirin
 -   ![ 30px](images/_Robot_TrajectoryDressUp.png ) [ Bir yörüngeyi giydir](Robot_TrajectoryDressUp.md): Yörüngenin bir veya daha fazla özelliğini geçersiz kılmanıza izin verir

@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Eine vereinfachte Entwicklungsumgebung für Python in FreeCAD {#eine_vereinfachte_entwicklungsumgebung_für_python_in_freecad}
+## Eine vereinfachte Entwicklungsumgebung für Python in FreeCAD 
 
 [Python](wikipedia:Python_(programming_language).md) ist eine Programmierumgebung, die in das [FreeCAD](http://www.freecadweb.org/) System integriert wurde. Mit Python stehen viele von FreeCAD angebotene Abläufe für den programmierten Zugriff zur Verfügung. Python Programme für FreeCAD werden in der Regel so entwickelt, dass sie entweder auf der Python Konsole oder über die Makrofunktion von FreeCAD ausgeführt werden können (siehe [Wie man Makros installiert](How_to_install_macros/de.md)).
 
@@ -262,7 +262,7 @@ Es gibt einen Editor für Python als Teil von FreeCAD, er wird durch Klicken auf
 
 Hinweis: Für den Macintosh funktioniert der Texteditor [TextWrangler](http://www.barebones.com/products/textwrangler/) gut. Er verfügt über Code Hervorhebung und ausgezeichnete Suchmöglichkeiten. Es gibt Optionen zur Ausführung von Aufträgen in Python, aber diese funktionieren natürlich nicht mit der FreeCAD Umgebung.
 
-### Makro Quellcode Verzeichnisse {#makro_quellcode_verzeichnisse}
+### Makro Quellcode Verzeichnisse 
 
 Es gibt zwei Verzeichnisse, die von FreeCAD verwendet werden. Standardmäßig handelt es sich um dasselbe Verzeichnis, aber sie werden von verschiedenen Aufrufpunkten in FreeCAD angesprochen:
 
@@ -457,11 +457,11 @@ def monthCounter():
 -   diese Variablen können verwendet werden, um Daten zwischen zwei Programmen zu übergeben, die zu verschiedenen Zeitpunkten laufen
 -   (zu wiederholen) diese Variablen sind nur für die Dauer der FreeCAD Sitzung, sobald der Benutzer FreeCAD verlässt, sind die Variablen verloren
 
-### Variablen Beobachter {#variablen_beobachter}
+### Variablen Beobachter 
 
 Es gibt ein Dienstprogramm [Global Variable Watcher](Macro_Global_Variable_Watcher/de.md), um die globalen Variablen von FreeCAD zu überwachen. Es kann den Inhalt einer globalen Variable entweder auf Anfrage oder auf Zeitbasis anzeigen.
 
-### Namensraum Konflikt {#namensraum_konflikt}
+### Namensraum Konflikt 
 
 Eine Sache, die man beachten muss, ist, dass FreeCAD keine Verwaltung von globalen Variablennamen hat, so dass die Möglichkeit besteht, eine Variable vom System oder ein anderes Stück Code zu ändern. Folglich ist es eine gute Idee, Ihren Variablen etwas Eindeutiges voranzustellen, wie z.B. den Routinenamen. Um beispielsweise eine Variable aus einer Routine namens \'alpha1\' zu verwenden, könnte der globale Name \'FreeCAD.alpha1MyVariable\' lauten.
 
@@ -521,7 +521,7 @@ Für weitere Unterstützung bei der Verwendung der PySide GUI gibt es die Seite 
 
 Für weitere Unterstützung bei der Python Codierung gibt es ein Makro, das zur Unterstützung bei der Entwicklung von Python Code geschrieben wurde, befindet es sich unter [Python Assistenz Fenster](Macro_Python_Assistant_Window/de.md)
 
-## Alles Zusammensetzen {#alles_zusammensetzen}
+## Alles Zusammensetzen 
 
 Die Bildschirmverwaltung kann eine Herausforderung sein, wenn es darum geht, Code zu entwickeln, der komplexe und detaillierte grafische Ausgaben hat, wie es FreeCAD tut. Das folgende System funktioniert gut:
 
@@ -538,7 +538,7 @@ Wenn der Test stub über eine Symbolleiste bedient wird und ein externer Editor 
 
 \"Baum\" im Diagramm bezieht sich auf den Combi oder Baum Browser, die Python Konsole und die Report Ansicht sind im unteren Fenster zusammengefasst und über Schaltflächen auswählbar. Durch den gezielten Einsatz der Werkzeuge kann der Entwicklungsstrom optimiert werden, das oben genannte ist nur eine Idee. Der Zuschnitt erfolgt auf einer persönlichen Basis.
 
-## Verschiedene Verknüpfungen {#verschiedene_verknüpfungen}
+## Verschiedene Verknüpfungen 
 
 Einige andere Verknüpfungen über IDEs für Python, die von Interesse sein könnten, sind:
 

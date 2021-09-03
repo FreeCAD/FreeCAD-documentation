@@ -15,7 +15,7 @@ Il codice produrrà un nuovo documento di FreeCAD con 12 forme (anello interno, 
 Esso sarà simile a questo:
 <img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
 
-### Flusso di lavoro {#flusso_di_lavoro}
+### Flusso di lavoro 
 
 Il flusso di lavoro è quasi identico a quello che si dovrebbe usare per creare la parte nell\'ambiente Part. Solo alcune piccole differenze.
 
@@ -32,7 +32,7 @@ Il flusso di lavoro è quasi identico a quello che si dovrebbe usare per creare 
 -   Impostare la vista assonometrica
 -   Zoom per adattare la vista alla finestra
 
-### Raccordare i bordi {#raccordare_i_bordi}
+### Raccordare i bordi 
 
 Nell\'ambiente Part utilizzando la GUI, è necessario selezionare i raccordi nella vista 3D o nel menu per i raccordi e poi applicare i raccordi.
 Qui si selezionano tutti i bordi di una forma e poi si applicano i raccordi.

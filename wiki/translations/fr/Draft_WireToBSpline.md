@@ -19,7 +19,7 @@ La commande <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;">
 1.  Sélectionnez une [Draft Polyligne](Draft_Wire/fr.md) ou une [Draft B-spline](Draft_BSpline/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_WireToBSpline.svg" width=16px> [Convertit une polyligne sélectionnée en B-Spline...](Draft_WireToBSpline/fr.md)**.
-    -   Sélectionnez la {{MenuCommand|Modification → <img src="images/Draft_WireToBSpline.svg" width=16px> Filaire vers B-spline}} dans le menu.
+    -   Sélectionnez la **Modification → <img src="images/Draft_WireToBSpline.svg" width=16px> Filaire vers B-spline** dans le menu.
 3.  Un nouvel objet est créé.
 
 ## Remarques

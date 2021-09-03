@@ -26,10 +26,10 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  Optionally select an object or a sub-element (vertex, edge or face) that you want to display attributes of.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Label.svg" width=16px> [Draft Label](Draft_Label.md)** button.
-    -   Select the {{MenuCommand|Annotation → <img src="images/Draft_Label.svg" width=16px> Label}} option from the menu.
+    -   Select the **Annotation → <img src="images/Draft_Label.svg" width=16px> Label** option from the menu.
     -   Use the keyboard shortcut: **D** then **L**.
-3.  The {{MenuCommand|Label}} task panel opens. See [Options](#Options.md) for more information.
-4.  If you have selected an element: select an option from the {{MenuCommand|Label type}} dropdown list. Additional label types can be set by changing the **Label Type** later. See [Label types](#Label_types.md) below.
+3.  The **Label** task panel opens. See [Options](#Options.md) for more information.
+4.  If you have selected an element: select an option from the **Label type** dropdown list. Additional label types can be set by changing the **Label Type** later. See [Label types](#Label_types.md) below.
 5.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the target (arrow head). This can be anywhere, it does not have to be on an element.
 6.  Pick the second point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the start of the horizontal or vertical segment of the leader.
 7.  Pick the third point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the base point of the text.
@@ -39,8 +39,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the {{MenuCommand|Relative}} checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
@@ -83,7 +83,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
 
-#### Label types {#label_types}
+#### Label types 
 
 -    {{Value|Custom}}: displays the contents of **Custom Text**.
 

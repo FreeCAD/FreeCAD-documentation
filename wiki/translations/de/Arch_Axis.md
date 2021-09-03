@@ -46,7 +46,7 @@ Das **<img src="images/Arch_Axis.svg" width=16px> [Architektur Achsen](Arch_Axis
 
 -    {{PropertyView/de|Beschriftung anzeigen}}: Schaltet die Anzeige der Etikettentexte ein/aus
 
-## Verwendung als Abschnittsmarkierung {#verwendung_als_abschnittsmarkierung}
+## Verwendung als Abschnittsmarkierung 
 
 Durch setzen der **Blasenposition**-Eigenschaft auf **Pfeil links/rechts** oder **Strich links/rechts** wird die Achse einen gefüllten Pfeil oder einen Strich anstatt der Blase anzeigen, so dass sie als eine Abschnittsmarkierung genutzt werden kann <small>(v0.20)</small> 
 

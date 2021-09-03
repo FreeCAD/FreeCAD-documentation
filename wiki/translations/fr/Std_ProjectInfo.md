@@ -13,7 +13,7 @@ La commande **Information sur le projet** affiche une boîte de dialogue avec de
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Fichier → <img src="images/Std_ProjectInfo.svg" width=16px> Information sur le projet...}} dans le menu.
+1.  Sélectionnez l\'option **Fichier → <img src="images/Std_ProjectInfo.svg" width=16px> Information sur le projet...** dans le menu.
 2.  Une boîte de dialogue contenant les informations suivantes apparaît:
     -   **Name**: nom du document. **Non modifiable**. Correspond à la propriété Label du document qui peut être modifiée dans l\'[Editeur des propriétés](Property_editor/fr.md).
     -   **Path**: chemin complet du fichier. Vide si le document n\'a pas été enregistré. **Non modifiable**.

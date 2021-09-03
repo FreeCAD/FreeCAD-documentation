@@ -18,7 +18,7 @@ Ovaj prikaz makronaredbe u izvješću prikazuje sve elemente ispod pokazivača (
 
 <div class="mw-translate-fuzzy">
 
-## Kako koristiti {#kako_koristiti}
+## Kako koristiti 
 
 
 </div>

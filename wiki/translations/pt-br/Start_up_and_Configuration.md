@@ -10,16 +10,16 @@
 
 This page shows the different ways to start FreeCAD and the most important configuration features.
 
-## Starting FreeCAD from the Command line {#starting_freecad_from_the_command_line}
+## Starting FreeCAD from the Command line 
 
 FreeCAD can be started normally by double-clicking on its desktop icon or selecting it from the start menu, but it can also be started directly from the command line. This allows you to change some of the default startup options.
 
-### Using command line options without a command line shell {#using_command_line_options_without_a_command_line_shell}
+### Using command line options without a command line shell 
 
 -   On Ubuntu you can create a desktop icon and edit its properties. Add the command line options separated by spaces behind the program name in the \"Command\" field.
 -   On Windows create a shortcut and edit the properties. Add the command line options separated by spaces to \"Target\" field.
 
-### Command line options {#command_line_options}
+### Command line options 
 
 The command line options are subject to frequent changes.Therefore, it is a good idea to check the current options by typing:
 
@@ -71,7 +71,7 @@ In the following table, selected options are described in more detail:
 
 Options can written in two forms: `--long-option arg` and `--long-option<nowiki>=</nowiki>arg`.
 
-### Response and config files {#response_and_config_files}
+### Response and config files 
 
 FreeCAD can read some of these options from a config file. This file must be in the bin path and must be named {{FileName|FreeCAD.cfg}}. Be aware that options specified in the command line override the config file!
 
@@ -87,7 +87,7 @@ or:
 
     FreeCAD --response-file ResponseFile.txt
 
-### Hidden options {#hidden_options}
+### Hidden options 
 
 There are a couple of options not visible to the user. These options are e.g. the X-Window parameters parsed by the Windows system:
 
@@ -103,7 +103,7 @@ There are a couple of options not visible to the user. These options are e.g. th
 -   *-ncols* - Limits the number of colors allocated in the color cube on an 8-bit display, if the application is using the QApplication::ManyColor color specification. If count is 216 then a 6x6x6 color cube is used (i.e. 6 levels of red, 6 of green, and 6 of blue); for other values, a cube approximately proportional to a 2x3x1 cube is used.
 -   *-cmap* - Causes the application to install a private color map on an 8-bit display.
 
-### Running FreeCAD without GUI (headless) {#running_freecad_without_gui_headless}
+### Running FreeCAD without GUI (headless) 
 
 FreeCAD is usually built with two executables: a GUI-capable one called {{FileName|FreeCAD}} or {{FileName|freecad}}, and a headless one, called {{FileName|FreeCADCmd}} or {{FileName|freecadcmd}}. FreeCAD can be used in console mode using the `--console` switch (which is the default behavior of {{FileName|FreeCADCmd}}):
 
@@ -113,7 +113,7 @@ In console mode, no graphical user interface will be displayed, and you will be 
 
 To read more about console or headless mode, checkout [Headless FreeCAD](Headless_FreeCAD.md).
 
-### Running modules, macros and scripts {#running_modules_macros_and_scripts}
+### Running modules, macros and scripts 
 
 +-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | File type       | System           | Command line example                                                                                                               |
@@ -147,7 +147,7 @@ To read more about console or headless mode, checkout [Headless FreeCAD](Headles
 
 See [Macro at Startup](Macro_at_Startup.md) on how to set up a macro to automatically run at FreeCAD startup.
 
-## Variáveis de ambiente {#variáveis_de_ambiente}
+## Variáveis de ambiente 
 
 FreeCAD supports the following environment variables, which can be used to configure directories: <small>(v0.19)</small> 
 
@@ -177,7 +177,7 @@ FreeCAD uses [Qt](Third_Party_Libraries#Qt.md), which does honor the `HOME` envi
 
 FreeCad itself does not honor the `HOME` environmental variable (because it determines the user\'s home directory from a lower-level system API). Use `FREECAD_USER_HOME` for this pupose.
 
-### `TMPDIR` {#section_1}
+### `TMPDIR` 
 
 The default temporary directory is {{FileName|/tmp/}}. The `TMPDIR` environmental variable can be used to override the default. (*Editor: precedence?*).
 
@@ -207,11 +207,11 @@ Some libraries need to call system environment variables. Sometimes when there i
 -   CSF\_IGESDefaults
 -   CSF\_STEPDefaults
 
-## Configuration set {#configuration_set}
+## Configuration set 
 
 On every startup FreeCAD examines its surrounding and the command line parameters. It builds up a **configuration set** which holds the essence of the runtime information. This information is later used to determine the place where to save user data or log files. It is also very important for post postmortem analyzes. Therefore it is saved in the log file.
 
-### User related information {#user_related_information}
+### User related information 
 
 +-----------------+----------------------------------------------------------+------------------------------------------------------------------------------+-----------------------------------------------------------------------+
 | Config var name | Synopsis                                                 | Example Windows                                                              | Example Linux                                                         |
@@ -251,7 +251,7 @@ On every startup FreeCAD examines its surrounding and the command line parameter
 
 Note: For Linux distributions, an additional configuration file that relates to [Qt](Third_Party_Tools#Qt-Toolkit.md) may exist at path {{FileName|/home/username/.config/FreeCAD/FreeCAD.conf}}.
 
-### Command line arguments {#command_line_arguments}
+### Command line arguments 
 
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
 | Config var name       | Synopsis                                                                                                                                                                                                                                                                                    | Example                                                                     |
@@ -275,7 +275,7 @@ Note: For Linux distributions, an additional configuration file that relates to 
 | AdditionalModulePaths | Holds the additional Module paths given in the cmd line                                                                                                                                                                                                                                     | \"extraModules/\"                                                           |
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
 
-### System related {#system_related}
+### System related 
 
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+---------------------------------------+
 | Config var name  | Synopsis                                                                                                                                                                                                                                                                                                                                     | Example Windows                           | Example Linux                         |
@@ -286,13 +286,13 @@ Note: For Linux distributions, an additional configuration file that relates to 
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+---------------------------------------+
 | PythonSearchPath | Holds a list of paths which python search modules. This is at startup can change during execution                                                                                                                                                                                                                                            |                                           |                                       |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+---------------------------------------+
-| AppTempPath      | Path of the temporary directory. Can be given with `TMPDIR` environment variable, or with the <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Parameter Editor](Std_DlgParameter.md): {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → TempPath}} |                                           |                        |
+| AppTempPath      | Path of the temporary directory. Can be given with `TMPDIR` environment variable, or with the <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Parameter Editor](Std_DlgParameter.md): **Tools → Edit parameters... → BaseApp → Preferences → General → TempPath** |                                           |                        |
 |                  |                                                                                                                                                                                                                                                                                                                                              |                                           | {{FileName|/tmp/}}                    |
 |                  |                                                                                                                                                                                                                                                                                                                                              |                                           |                                    |
 |                  |                                                                                                                                                                                                                                                                                                                                              |                                           | (default)                             |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+---------------------------------------+
 
-### Build related information {#build_related_information}
+### Build related information 
 
 The table below shows the available information about the Build version. Most of it comes from the Subversion repository. This stuff is needed to exactly rebuild a version!
 
@@ -307,7 +307,7 @@ The table below shows the available information about the Build version. Most of
   BuildScrClean        Indicates if the source was changed after checkout                                                Src modified
   BuildScrMixed                                                                                                          Src not mixed
 
-### Branding related {#branding_related}
+### Branding related 
 
 These Config entries are related to the branding mechanism of FreeCAD. See [Branding](Branding.md) for more details.
 
@@ -335,7 +335,7 @@ These Config entries are related to the branding mechanism of FreeCAD. See [Bran
 | HiddenDockWindow | List of dockwindows (separated by a semicolon) which will be disabled                                                  | \"Property editor\"      |
 +------------------+------------------------------------------------------------------------------------------------------------------------+--------------------------+
 
-### Querying the configuration {#querying_the_configuration}
+### Querying the configuration 
 
 **From FreeCAD\'s Python console**
 
@@ -372,9 +372,9 @@ For Linux (bash shell) you can modify the following command line to suit your ne
  exit()
  EOF
 
-## Starting FreeCAD from the desktop {#starting_freecad_from_the_desktop}
+## Starting FreeCAD from the desktop 
 
-### Linux: Creating an additional start option {#linux_creating_an_additional_start_option}
+### Linux: Creating an additional start option 
 
 The following assumes that your desktop is configured such that you can launch FreeCAD from it. Depending on your Linux distribution and desktop environment, you may have to adapt the following steps:
 
@@ -383,7 +383,7 @@ The following assumes that your desktop is configured such that you can launch F
 3.  Open the file with a text editor and change how FreeCAD is invoked by modifying the line starting with `Exec`.
 4.  As a result, an additional entry in your start menu/application launcher is available. This way, you can have multiple FreeCAD entries with various launch options.
 
-## Starting FreeCAD from a portable USB medium {#starting_freecad_from_a_portable_usb_medium}
+## Starting FreeCAD from a portable USB medium 
 
 
 <small>(v0.19)</small> 

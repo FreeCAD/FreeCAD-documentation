@@ -14,7 +14,7 @@
 
 Набор инструментов для создания соединений.
 
-## Типы соединений {#типы_соединений}
+## Типы соединений 
 
 -   <img alt="" src=images/Part_Compound.svg  style="width:32px;"> [Сделать соединение](Part_Compound/ru.md): Создаёт объект, соединяющий в себе выбранные объекты.
 -   <img alt="" src=images/Part_ExplodeCompound.svg  style="width:32px;"> [Разъединить соединение](Part_ExplodeCompound/ru.md): Инструмент расщепления соединения фигур

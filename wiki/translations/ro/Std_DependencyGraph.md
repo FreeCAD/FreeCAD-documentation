@@ -43,7 +43,7 @@ Pentru a se utiliza Dependency graph, un software terț numit [Graphviz](http://
 
 <div class="mw-translate-fuzzy">
 
-### Windows {#windows_1}
+### Windows 
 
 Descărcați programul **graphviz-2.xx.msi** de instalare de la [Graphviz Download page](https://graphviz.gitlab.io/_pages/Download/Download_windows.html) și lansați-l pentru a instala
 
@@ -55,7 +55,7 @@ Descărcați programul **graphviz-2.xx.msi** de instalare de la [Graphviz Downlo
 
 <div class="mw-translate-fuzzy">
 
-### Mac/OSX {#macosx_1}
+### Mac/OSX 
 
 Puteți instala graphviz folosind [Homebrew](https://brew.sh/):
 
@@ -92,7 +92,7 @@ dot is /usr/local/bin/dot
 
 ### Linux
 
-### Linux {#linux_1}
+### Linux 
 
 Sub cele mai multe distribuții Linux (Debian / Ubuntu, Fedora, OpenSUSE), trebuie doar să instalați pachetul grafic din colecțiile de depozitare. Cu toate acestea, în mod similar cu MacOSX, în cazurile în care binarele Graphviz sunt instalate într-o locație nestandardă, încercați să găsiți programul cu comanda: 
 ```python
@@ -107,7 +107,7 @@ dot is /usr/local/bin/dot
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Mergeți la meniu **Tools → Dependency graph\...**
 2.  Un nou tab întitulat **Dependency graph**
@@ -129,7 +129,7 @@ Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În
 -   Just choose **File** → [Save As](Std_SaveAs.md) to save the graph as a picture (PNG/BMP/GIF/JPG), a vector graphic (SVG) or as a PDF document.
 -   **File** → [Export](Std_Export.md) or **Tools** → [Save picture](Std_ViewScreenShot.md) will **NOT** work.
 
-## Principii Generale {#principii_generale}
+## Principii Generale 
 
 
 <div class="mw-translate-fuzzy">

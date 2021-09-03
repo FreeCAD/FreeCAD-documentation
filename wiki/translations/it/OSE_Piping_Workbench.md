@@ -39,7 +39,7 @@ To create an elbow, click ![](images/OSE_Piping_create_elbow_icon.svg ).
 
 <img alt="" src=images/OSE_Piping_create_elbow_screenshot.png  style="width:512px;"> ![](images/OSE_Piping_elbow_CAD_screenshot.png )  To add new elbows, adjust **elbow.csv** file.
 
-# Sweep Elbow {#sweep_elbow}
+# Sweep Elbow 
 
 A sweep elbow is a special elbow with larger radius of the bent part. It is described by outer pipe diameter POD, pipe thickness **PThk**, **G**, **H**, and **M**. To create a sweep elbow, click ![](images/OSE_Piping_create_sweep_elbow_icon.svg ).
 

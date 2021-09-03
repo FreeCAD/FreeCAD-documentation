@@ -3,15 +3,15 @@
 
 {{Fake heading|sub=4|< Back to [[FreeCAD Howto Import Export]]}}
 
-## Warum ist es schwierig, DWG Dateien in FreeCAD zu unterstützen? {#warum_ist_es_schwierig_dwg_dateien_in_freecad_zu_unterstützen}
+## Warum ist es schwierig, DWG Dateien in FreeCAD zu unterstützen? 
 
 Das **DWG Format ist ein binäres Dateiformat mit geschlossenem Quellcode**, das von FreeCAD nicht direkt unterstützt wird. Es erfordert einen externen Dateikonvertierer eines Drittanbieters, der zuerst konvertiert und dann die Konvertierung zur Verwendung in FreeCAD importiert.
 
 Beachte, dass es zur Zeit nicht möglich ist, 3D DWG in FreeCAD zu importieren. 3D Daten sind als binäre .SAT (ACIS) Daten, ein proprietäres und undokumentiertes Format, eingebettet.
 
-## Was benötige ich, um DWG Dateien importieren zu können? {#was_benötige_ich_um_dwg_dateien_importieren_zu_können}
+## Was benötige ich, um DWG Dateien importieren zu können? 
 
-### ODA Konverter (früher Teigha Konverter) {#oda_konverter_früher_teigha_konverter}
+### ODA Konverter (früher Teigha Konverter) 
 
 -   Homepage: <https://www.opendesign.com/guestfiles/oda_file_converter>
 -   Lizenz: Freeware
@@ -45,13 +45,13 @@ ODAFileConverter \"/home/dwg-data\" \"/home/dxf-data\" \"ACAD2010\" \"DXF\" \"0\
 **Beispiel unter Windows**
 \"C:\\Program Files\\ODA\\Teigha File Converter 3.08.2\\TeighaFileConverter.exe\" \"Path-To-Input-Directory\" \"Path-To-Output-Directory\" \"ACAD2010\" \"DXF\" \"0\" \"1\" \"Name-Of-A-Test-File.dwg\"
 
-### CADExchanger Arbeitsbereich {#cadexchanger_arbeitsbereich}
+### CADExchanger Arbeitsbereich 
 
 Die Installation des CADExchanger Arbeitsbereichs ermöglicht das Arbeiten mit DWG Dateien durch Integration mit dem kostenpflichtigen kommerziellen Dateikonverterprodukt [CADExchanger](https://cadexchanger.com/). Folge einfach den Anweisungen im [GitHub Repositorium](https://github.com/yorikvanhavre/CADExchanger). Du kannst über diesen Arbeitsbereich im [sein Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=9&t=22227&p=462421) diskutieren.
 
 Im Moment ist der CADExchanger Weg der einzige, der es erlaubt, mit 3D DWG-Dateien zu arbeiten, indem er sie in andere 3D Formate konvertiert.
 
-## FreeCAD v0.19 und LibreDWG {#freecad_v0.19_und_libredwg}
+## FreeCAD v0.19 und LibreDWG 
 
 Ab 0.19 benötigt FreeCAD den ODA Konverter nicht mehr und kann libreDWG direkt verwenden. Sei dir bewusst, dass, da libreDWG ein \"unfertiges Erzeugnis\" ist, die Ergebnisse je nach Datei möglicherweise nicht die gleichen sind.
 
@@ -61,9 +61,9 @@ Ab 0.19 benötigt FreeCAD den ODA Konverter nicht mehr und kann libreDWG direkt 
 
 GNU LibreDWG ist eine freie C Bibliothek zur Verarbeitung von DWG Dateien. Sie zielt darauf ab, ein freier Ersatz für die Open Design Alliance Drawings SDK Bibliotheken zu sein.
 
-## Einrichtung {#einrichtung_1}
+## Einrichtung 
 
-### AppImage Ausgaben {#appimage_ausgaben}
+### AppImage Ausgaben 
 
 LibreDWG ist in v 0.19\_pre appimages[1](https://forum.freecadweb.org/viewtopic.php?f=8&t=39827&start=20#p372933) enthalten.
 
@@ -71,7 +71,7 @@ LibreDWG ist in v 0.19\_pre appimages[1](https://forum.freecadweb.org/viewtopic.
 
 LibreDWG kann für die Arbeit unter Windows konfiguriert werden, indem du das entsprechende [vorkompilierte Windows Binärdatei](https://github.com/LibreDWG/libredwg/releases) herunterladen und entpacken und [Hinzufügen des Ordners zum Systempfad deiner Windows Versionen](https://duckduckgo.com/?t=ffab&q=how+to+add+a+folder+to+your+windows+system+path).
 
-### Linux/Unix Systeme {#linuxunix_systeme}
+### Linux/Unix Systeme 
 
 git clone <https://git.savannah.gnu.org/git/libredwg.git> cd libredwg mkdir build cd build cmake .. make make install (oder verwende checkinstall, oder suche und kopiere einfach das dwg2dxf Hilfsprogramm in den Pfad deiner ausführbaren Dateien, es wird dann automatisch von FreeCAD erkannt)
 
@@ -97,29 +97,29 @@ In einem beliebigen Terminal/Konsole (root Rechte erforderlich) wird die Install
 
 Danach sollte jeder \*.dwg Dateiimport korrekt funktionieren.
 
-## Was sind die Alternativen? {#was_sind_die_alternativen}
+## Was sind die Alternativen? 
 
-### DoubleCAD XT {#doublecad_xt}
+### DoubleCAD XT 
 
 Es gibt auch DoubleCAD XT (https://www.turbocad.com/content/doublecad-xt-v5). Das Programm ist für die persönliche und kommerzielle Nutzung kostenlos. Es erfordert eine kostenlose Anmeldung, um einen Aktivierungscode per E-Mail zu bekommen. Dieses Programm ist nur für Windows. Hinweis: Es scheint seit Jahren nicht mehr aktualisiert worden zu sein.
 
-### NanoCAD 5.0 {#nanocad_5.0}
+### NanoCAD 5.0 
 
 Es gibt auch nanoCAD 5.0 (https://nanocad.com/products/nanoCAD/download/). Das Programm ist für die private und kommerzielle Nutzung kostenlos. Es erfordert eine kostenlose Anmeldung, um einen Aktivierungscode per E-Mail zu erhalten. Dieses Programm ist nur für Windows.
 
-### Exportiere Deine AutoCAD Dateien in freundliches Format {#exportiere_deine_autocad_dateien_in_freundliches_format}
+### Exportiere Deine AutoCAD Dateien in freundliches Format 
 
 Exportiere deine AutoCAD Dateien in ein FreeCAD freundlicheres Format, wie DXF R12 oder R14, SVG und, falls die Version dies unterstützt, IGES. Alle sind bessere Alternativen zum DWG Format, wenn du FreeCAD verwendest.
 
 Es ist wichtig zu wissen, dass es entgegen der landläufigen Meinung keinen Unterschied zwischen dem Inhalt einer Datei gibt, die im DWG oder DXF Format gespeichert ist, sofern es sich um die gleiche Version handelt (z. B. DWG 2014 vs. DXF 2014). Beide Formate werden von Autodesk verwaltet, und beide unterstützen genau dieselben Funktionen. Der Unterschied besteht darin, dass DWG geschlossen (maschinenkodiert) ist, während DXF offen ist.
 
-## Was kann ich tun, um zu helfen? {#was_kann_ich_tun_um_zu_helfen}
+## Was kann ich tun, um zu helfen? 
 
-### Fördere die Verwendung alternativer Formate {#fördere_die_verwendung_alternativer_formate}
+### Fördere die Verwendung alternativer Formate 
 
 Einfach genommen, höre auf, im DWG Format geleistete Arbeit zu akzeptieren. In der Praxis ist dies oft leichter gesagt als getan. Dennoch wäre es keine schlechte Praxis für Benutzer und Unterstützer von FreeCAD, das DWG Format zu vermeiden und abzulehnen, wann immer es möglich ist.
 
-### Benutze die LibreDWG Bibliothek und schreibe Fehlerberichte {#benutze_die_libredwg_bibliothek_und_schreibe_fehlerberichte}
+### Benutze die LibreDWG Bibliothek und schreibe Fehlerberichte 
 
 In der Entwicklungsversion kannst du, wie oben erwähnt, vom proprietären ODA Konverter auf die freie Software Bibliothek LibreDWG für DWG (und DXF) Dateien umsteigen. Bitte tue dies und melde etwaige Probleme, die dabei auftreten.
 

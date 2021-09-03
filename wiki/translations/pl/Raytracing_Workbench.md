@@ -23,7 +23,7 @@ Stanowisko pracy Raytracing jest w zasadzie przestarzałe. Zmiany zachodzą w [R
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
-## Typowy przepływ pracy {#typowy_przepływ_pracy}
+## Typowy przepływ pracy 
 
 1.  Utwórz lub otwórz projekt FreeCAD, dodaj kilka obiektów brył w środowisku *([Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md))*, siatki nie są obecnie obsługiwane.
 2.  Utwórz projekt Raytrackingu *(povray lub luxrender)*.
@@ -37,7 +37,7 @@ Stanowisko pracy Raytracing jest w zasadzie przestarzałe. Zmiany zachodzą w [R
 
 ## Przybory
 
-### Narzędzia projektu {#narzędzia_projektu}
+### Narzędzia projektu 
 
 Są to główne narzędzia do eksportowania projektu 3D do zewnętrznych rendererów.
 
@@ -48,7 +48,7 @@ Są to główne narzędzia do eksportowania projektu 3D do zewnętrznych rendere
 -   <img alt="" src=images/Raytrace_ExportProject.svg  style="width:32px;"> [Eksport projektu Raytracing do pliku](Raytracing_ExportProject.md): Eksportuje projekt raytracingu do pliku sceny w celu renderowania w zewnętrznym programie renderującym.
 -   <img alt="" src=images/Raytrace_Render.svg  style="width:32px;"> [Renderuje obecny projekt \...](Raytracing_Render.md): Renderuje projekt raytracingu za pomocą zewnętrznego programu renderującego.
 
-### Przydatne narzędzia {#przydatne_narzędzia}
+### Przydatne narzędzia 
 
 Są to narzędzia pomocnicze do ręcznego wykonywania określonych zadań.
 
@@ -65,7 +65,7 @@ Są to narzędzia pomocnicze do ręcznego wykonywania określonych zadań.
 -   [Basic Raytracing tutorial](Raytracing_tutorial.md)
 -   [Intermediate Raytracing tutorial](Tutorial_FreeCAD_POV_ray.md)
 
-## Ręczne tworzenie pliku Povray {#ręczne_tworzenie_pliku_povray}
+## Ręczne tworzenie pliku Povray 
 
 Opisane powyżej narzędzia użytkowe pozwalają na wyeksportowanie bieżącego widoku 3D i całej jego zawartości do pliku [Povray](http://www.povray.org/). Najpierw należy załadować lub utworzyć dane CAD i ustawić orientację widoku 3D według własnego uznania. Następnie wybierz z menu Raytracing \"Narzędzia → Eksportuj widok\...\".
 
@@ -75,13 +75,13 @@ Zostaniesz poproszony o podanie lokalizacji do zapisania pliku wynikowego \*.pov
 
 Jak zwykle w programie renderującym, można wykonywać duże i ładne zdjęcia: <img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Informacje na temat tworzenia scen w sposób programowy można znaleźć w [Przykład API Raytracing](Raytracing_API_example.md).
 
-## Odnośniki internetowe {#odnośniki_internetowe}
+## Odnośniki internetowe 
 
-### POV-Ray {#pov_ray}
+### POV-Ray 
 
 -   [POV-Ray strona na Wiki](POV-Ray.md)
 -   <http://www.spiritone.com/~english/cyclopedia/>
@@ -93,14 +93,14 @@ Informacje na temat tworzenia scen w sposób programowy można znaleźć w [Przy
 -   [LuxRender strona na Wiki](LuxRender.md)
 -   <http://www.luxrender.net/>
 
-### Kolejne możliwe do wdrożenia w przyszłości programy renderujące {#kolejne_możliwe_do_wdrożenia_w_przyszłości_programy_renderujące}
+### Kolejne możliwe do wdrożenia w przyszłości programy renderujące 
 
 -   <http://www.yafaray.org/>
 -   <http://www.mitsuba-renderer.org/>
 -   <http://www.kerkythea.net/>
 -   <http://www.artofillusion.org/>
 
-## Eksport do Kerkythea {#eksport_do_kerkythea}
+## Eksport do Kerkythea 
 
 Chociaż bezpośredni eksport do formatu XML-File-Format Kerkythea nie jest jeszcze obsługiwany, możesz wyeksportować swoje obiekty jako Mesh-Files *(.obj)*, a następnie zaimportować je do Kerkythea.
 
@@ -124,7 +124,7 @@ Chociaż bezpośredni eksport do formatu XML-File-Format Kerkythea nie jest jesz
 
 -   jeśli importujesz wiele obiektów w Kerkythea możesz użyć polecenia w programie Kerkythea \"Plik → Połącz\".
 
-## Opracowanie i rozwój {#opracowanie_i_rozwój}
+## Opracowanie i rozwój 
 
 Strony te odnoszą się do nowego Środowiska pracy, zaprogramowanego w Pythonie, które ma zastąpić obecny Raytracing Workbench.
 

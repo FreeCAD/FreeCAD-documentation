@@ -21,15 +21,15 @@ The Draft ShapeString command is not intended for standard text annotations. The
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Draft ShapeString](Draft_ShapeString.md)** button.
-    -   Select the {{MenuCommand|Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text}} option from the menu.
+    -   Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
     -   Use the keyboard shortcut: **S** then **S**.
-2.  The {{MenuCommand|ShapeString}} task panel opens.
+2.  The **ShapeString** task panel opens.
 3.  Click a point in the [3D view](3D_view.md), or type coordinates.
 4.  Optionally press the **Reset Point** button to reset the point to the origin.
-5.  Enter a {{MenuCommand|String}}.
-6.  Specify the {{MenuCommand|Height}}.
+5.  Enter a **String**.
+6.  Specify the **Height**.
 7.  To select a font do one of the following:
-    -   Enter a file path in the {{MenuCommand|Font file}} input box.
+    -   Enter a file path in the **Font file** input box.
     -   Press the **...** button and select a file.
 8.  Press the **OK** button to finish the command.
 
@@ -55,7 +55,7 @@ The Draft ShapeString command is not intended for standard text annotations. The
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The default font file can be changed in the preferences: {{MenuCommand|Edit → Preferences... → Draft → Texts and dimensions → Default ShapeString font file}}. See [Draft Preferences](Draft_Preferences.md).
+-   The default font file can be changed in the preferences: **Edit → Preferences... → Draft → Texts and dimensions → Default ShapeString font file**. See [Draft Preferences](Draft_Preferences.md).
 
 ## Properties
 

@@ -1,8 +1,8 @@
-## Hello world {#hello_world}
+## Hello world 
 
 Bonjour !
 
-## A faire {#a_faire}
+## A faire 
 
 -   [Tutoriel bloc moteur ](Engine_Block_Tutorial/fr.md) : Finir traduction, ajout dans tutoriels ??
 

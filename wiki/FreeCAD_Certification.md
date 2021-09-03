@@ -2,7 +2,7 @@
 
 In the forum a [post](https://forum.freecadweb.org/viewtopic.php?f=8&t=31408) was made in regards to a FreeCAD Certification Exam that could rate the proficiency of users. In comparison to other CAD software, specifically in this case: CREO, in which educational/corporate institutions utilize. The idea was then floated about having the same thing for FC.
 
-## Sections of the Exam {#sections_of_the_exam}
+## Sections of the Exam 
 
 ### Terminology
 
@@ -12,7 +12,7 @@ In the forum a [post](https://forum.freecadweb.org/viewtopic.php?f=8&t=31408) wa
 
     :   Parametric, Constraint, Fillet, Chamfer\...etc..
 
-### Workbench Proficiency {#workbench_proficiency}
+### Workbench Proficiency 
 
 -   What workbench(s) would you use to do X with a Y and Z ?
 -   Explain the differences between different workbenches ? (ex. Part vs PartDesign)
@@ -24,7 +24,7 @@ In the forum a [post](https://forum.freecadweb.org/viewtopic.php?f=8&t=31408) wa
 -   Show a forked dependency graph and ask how the user would fix it
 -   Show a topological naming issue and ask the user how to fix it
 
-### Python API (optional) {#python_api_optional}
+### Python API (optional) 
 
 -   Ask user to code models using python only
 -   Ask user to solve an issue by extrapolating values from the model using python

@@ -6,15 +6,15 @@
 
 {{TOCright}}
 
-## Vue d'ensemble {#vue_densemble}
+## Vue d'ensemble 
 
-La **localisation** en général, est le processus de fourniture d\'un logiciel avec une interface utilisateur en plusieurs langues. Dans FreeCAD vous pouvez définir la langue d\'interface utilisateur dans le menu {{MenuCommand|Édition → Préférences → Général → Onglet Général → Langue}}. FreeCAD utilise [Qt](wikipedia:fr:Qt.md) pour activer le support de plusieurs langues. Sur les systèmes Unix/Linux, FreeCAD utilise les paramètres régionaux actuels de votre système par défaut.
+La **localisation** en général, est le processus de fourniture d\'un logiciel avec une interface utilisateur en plusieurs langues. Dans FreeCAD vous pouvez définir la langue d\'interface utilisateur dans le menu **Édition → Préférences → Général → Onglet Général → Langue**. FreeCAD utilise [Qt](wikipedia:fr:Qt.md) pour activer le support de plusieurs langues. Sur les systèmes Unix/Linux, FreeCAD utilise les paramètres régionaux actuels de votre système par défaut.
 
-## Aider à la traduction de FreeCAD {#aider_à_la_traduction_de_freecad}
+## Aider à la traduction de FreeCAD 
 
 Une des choses importantes que les utilisateurs peuvent apporter à FreeCAD (s'ils ne possèdent pas de compétences en programmation, par exemple) est d'aider à traduire ses différents aspects (code source, wiki, site Web, documentation, etc.) dans une autre langue. Voici les moyens de le faire.
 
-## Traduire le code source de FreeCAD {#traduire_le_code_source_de_freecad}
+## Traduire le code source de FreeCAD 
 
 FreeCAD utilise un système de traduction en ligne tiers collaboratif appelé [Crowdin](https://crowdin.net).
 
@@ -35,11 +35,11 @@ Il s\'agit d\'un logiciel propriétaire mais gratuit pour les projets FOSS. Vous
 
 les détails sur l\'utilisation de crowdin peuvent être trouvés sur la page [Administration de Crowdin](Crowdin_Administration/fr.md).
 
-## Traduction des ateliers externes {#traduction_des_ateliers_externes}
+## Traduction des ateliers externes 
 
 Visitez [Traduction d\'un atelier externe](Translating_an_external_workbench/fr.md).
 
-## Traduire le wiki FreeCAD {#traduire_le_wiki_freecad}
+## Traduire le wiki FreeCAD 
 
 Ce wiki héberge un contenu volumineux, dont l\'essentiel sert à produire le manuel. Vous pouvez naviguer dans la documentation à partir de la [Page principale](Main_Page/fr.md), ou consulter la [table des matières](Online_Help_Toc/fr.md) du guide utilisateur.
 
@@ -47,7 +47,7 @@ Pour pouvoir traduire le wiki, vous devez bien sûr [obtenir les droits d\'édit
 
 Il est recommandé d\'avoir des connaissances de base du formatage de style wiki et des directives générales du wiki FreeCAD, car vous devrez ajuster le code de balisage lors des traductions. Vous trouverez cette information sur la page [Les pages Wiki](WikiPages/fr.md).
 
-### Extension de traduction Mediawiki {#extension_de_traduction_mediawiki}
+### Extension de traduction Mediawiki 
 
 Après le départ du wiki de SourceForge, [Yorik](User:Yorik.md) a installé un [plugin de traduction MediaWiki](http://www.mediawiki.org/wiki/Help:Extension:Translate/fr) qui facilite les traductions de pages. Les avantages de l\'extension de traduction sont que le titre de la page peut maintenant être traduit, qu\'il garde une trace des traductions, qu\'il informe si la page d\'origine a été mise à jour et qu\'il maintient la synchronisation des traductions avec la page anglaise d\'origine.
 
@@ -67,7 +67,7 @@ Lors de l\'ajout de nouveau contenu, la page anglaise devrait être créée en p
 
 Si vous ne savez pas comment procéder, n\'hésitez pas à demander de l\'aide dans le sous-forum [Development → Wiki](https://forum.freecadweb.org/viewforum.php?f=21) ou dans le [sous-forum français](https://forum.freecadweb.org/viewforum.php?f=12).
 
-### Remarques importantes {#remarques_importantes}
+### Remarques importantes 
 
 Chaque utilisateur du wiki disposant des autorisations \"Éditeur\" peut lancer l\'utilitaire de traduction pour écrire, enregistrer et réviser les traductions.
 
@@ -77,11 +77,11 @@ La barre latérale gauche est également traduisible, mais seuls les administrat
 
 La première fois que vous basculez une page vers le nouveau système de traduction, toutes les anciennes traductions \"manuelles\" sont perdues. Pour récupérer une traduction, vous devez enregistrer une copie hors ligne de l\'ancien texte avant le changement. Vous pouvez ensuite utiliser cet ancien texte traduit pour renseigner les unités de traduction du nouveau système. Vous pouvez également ouvrir une version antérieure de l\'historique et récupérer l\'ancien texte de cette manière. Cela doit être fait pour chaque langue ayant une page traduite.
 
-### Traduire la documentation de FreeCAD {#traduire_la_documentation_de_freecad}
+### Traduire la documentation de FreeCAD 
 
 Conformément au consensus général, la page de référence dans le wiki est la page anglaise, qui devrait être créée en premier. Si vous souhaitez modifier ou ajouter du contenu à une page, vous devez d\'abord le faire sur la page anglaise, puis reporter la modification sur la page traduite une fois la mise à jour terminée.
 
-### Anciennes instructions de traduction {#anciennes_instructions_de_traduction}
+### Anciennes instructions de traduction 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Ces instructions sont pour l\'historique seulement. Les traductions doivent utiliser le nouveau système avec [Mediawiki Extension de traduction](#Mediawiki_Extension_de_traduction.md) décrite ci-dessus.                                                                                                                                                                                                                                                                                   |
@@ -115,15 +115,15 @@ Conformément au consensus général, la page de référence dans le wiki est la
 | La page \"Bienvenue sur l\'aide en ligne\" redirige vers l\'aide en ligne Startpage/fr et la page \"Fonctionnalités\" redirige Feature\_list/fr.                                                                                                                                                                                                                                                                                                                                                     |
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## Traduire le site Web FreeCAD {#traduire_le_site_web_freecad}
+## Traduire le site Web FreeCAD 
 
 La traduction du site Web FreeCAD est maintenant effectuée par le biais de [Crowdin](https://crowdin.com/translate/freecad/561/en-en). Le fichier est nommé {{FileName|homepage.po}}.
 
-## Développement - Comment ajouter une localisation {#développement___comment_ajouter_une_localisation}
+## Développement - Comment ajouter une localisation 
 
 Cette section est destinée aux développeurs qui souhaitent ajouter la localisation dans leur code.
 
-### Préparer vos modules maîtres/Freecad pour la traduction {#préparer_vos_modules_maîtresfreecad_pour_la_traduction}
+### Préparer vos modules maîtres/Freecad pour la traduction 
 
 Voici les parties du processus de traduction de FreeCAD :
 
@@ -143,21 +143,21 @@ Ceci crée un fichier de traduction vide. Une fois cette tâche complétée, vou
 
 La suite se fait automatiquement, en ce qui concerne le développeur. L\'administrateur fera l\'extraction des chaînes de texte, les traducteurs les traduiront, puis l\'administrateur extraira les traductions et mettra à jour la branche FreeCAD/master.
 
-### Préparer votre module de tierce partie ou macro pour la traduction {#préparer_votre_module_de_tierce_partie_ou_macro_pour_la_traduction}
+### Préparer votre module de tierce partie ou macro pour la traduction 
 
 Les modules de tierce partie ou macros sont traduits de façon similaire, mais vous devez vous charger d\'une partie du travail. Cette [discussion sur le forum](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) (en anglais) décrit les détails.
 
 Mise à jour : voir [Traduction d\'un atelier externe](Translating_an_external_workbench/fr.md)
 
-### Anciennes techniques de traduction des modules {#anciennes_techniques_de_traduction_des_modules}
+### Anciennes techniques de traduction des modules 
 
 La page [Ancienne méthode de localisation](Localization_Older_Methods/fr.md) décrit l\'utilisation d\'outils de traduction tels que Qt Linguist, lupdate, lrelease, pylupdate4, etc. en détail. La plupart de ces opérations ne sont plus nécessaires pour les modules FreeCAD/master, mais peuvent s\'avérer utiles pour préparer et mettre à jour des modules tiers.
 
-## Automatiser les mises à jour de translations Crowdin {#automatiser_les_mises_à_jour_de_translations_crowdin}
+## Automatiser les mises à jour de translations Crowdin 
 
 Actuellement, les mainteneurs de FreeCAD utilisent l'API Crowdin via [Crowdin Scripts](Crowdin_Scripts/fr.md) pour extraire et transférer les traductions vers Crowdin, puis vers le dépôt Github. L\'API Crowdin donne aux responsables de FreeCAD la possibilité d\'automatiser certains aspects du flux de traduction du projet. Pour plus d\'informations, reportez-vous à la [documentation de l\'API Crowdin](https://support.crowdin.com/api/api-integration-setup/).
 
-## Pages en relation {#pages_en_relation}
+## Pages en relation 
 
 -   [Administration de Crowdin](Crowdin_Administration/fr.md)
 -   [Scripts pour Crowdin](Crowdin_Scripts/fr.md)

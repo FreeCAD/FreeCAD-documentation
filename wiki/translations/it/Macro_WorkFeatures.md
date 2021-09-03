@@ -368,7 +368,7 @@ Per informazioni dettagliate vedere la pagina [Come installare le Macro](How_to_
 
 ## Esempi
 
-### Strumenti di taglio {#strumenti_di_taglio}
+### Strumenti di taglio 
 
 **Impostazione dello strumento Taglio:** Selezionare un oggetto da tagliare, una linea di taglio e un piano di riferimento. Angle è un angolo tra il piano di taglio e il piano di riferimento. Spessore è la larghezza del piano di taglio.
 
@@ -445,7 +445,7 @@ Image:Macro Work Features Cutting 09.png\| per il vostro taglio si può anche as
 
 
 
-### Vincolo concentrico tra due parti non cilindriche {#vincolo_concentrico_tra_due_parti_non_cilindriche}
+### Vincolo concentrico tra due parti non cilindriche 
 
 
 <div class="mw-translate-fuzzy">
@@ -484,7 +484,7 @@ Image:Concentric Constraint Between two non cylindrical parts.gif\|Come vincolar
 
 
 
-### Rotazione oggetti {#rotazione_oggetti}
+### Rotazione oggetti 
 
 
 <center>
@@ -513,7 +513,7 @@ Click the object, click the **Face tangent** button, click the point on face for
 
 La discussione nel forum [MACRO:Work Feature 2014\_12](http://forum.freecadweb.org/viewtopic.php?f=22&t=9056)
 
-## Ambienti aggiuntivi {#ambienti_aggiuntivi}
+## Ambienti aggiuntivi 
 
 Gli ambienti di FreeCAD sono facili da programmare in [Python](Python/it.md), quindi ci sono molte persone che sviluppano ambienti aggiuntivi al di fuori degli sviluppatori principali di FreeCAD.
 
@@ -527,7 +527,7 @@ La pagina [Ambienti complementari](external_workbenches/it.md) contiene alcune i
 
 Sono in fase di sviluppo ulteriori nuovi ambienti.
 
-## Ultima versione {#ultima_versione}
+## Ultima versione 
 
 **Icone:**
 

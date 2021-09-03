@@ -37,7 +37,7 @@ Podobny opis tego procesu jest zaprezentowany w serii filmów, [Renderuj modele 
 
 *align=center|Właściwość odchylenia zawartości utworzonych w programie FreeCAD. Wartość odchylenia musi być małe, aby można było eksportować części z dobrą rozdzielczością.*
 
-3\. Wybierz środowisko `Part`, kolejnie z menu {{MenuCommand|Plik → Eksport}}, lub naciśnij klawisze **Ctrl** + **E**, i wyeksportować jako `OBJ`.
+3\. Wybierz środowisko `Part`, kolejnie z menu **Plik → Eksport**, lub naciśnij klawisze **Ctrl** + **E**, i wyeksportować jako `OBJ`.
 
 Alternatywnie, eksport może być wykonany z konsoli [Python](Python/pl.md). Zdefiniuj listę obiektów, które mają być wyeksportowane i użyj funkcji eksportującej z nazwą pliku.
 
@@ -71,7 +71,7 @@ importOBJ.export(objs, "/home/user/assembly.obj")
 
 ## Blender
 
-### Przygotowanie modelu {#przygotowanie_modelu}
+### Przygotowanie modelu 
 
 4\. Otwórz Blendera. Zmień panel `Oś czasu` na `konsolę Python` *(**Shift** + **F4**)*. To pomoże Ci wprowadzać komendy i widzieć wyniki. Możesz podzielić ten panel tak, aby po jednej stronie pozostała konsola, a po drugiej panel `Info`, pozwoli ci to zobaczyć działanie kodu po kliknięciu w interfejs.
 
@@ -82,7 +82,7 @@ Upewnij się, że używasz renderera EEVEE. W panelu `Properties` przejdź do `R
 bpy.context.scene.render.engine = 'BLENDER_EEVEE'
 ```
 
-5\. Zaimportuj plik modelu z menu, {{MenuCommand|Pilik → Import → Wavefront ''(.obj)''}}.
+5\. Zaimportuj plik modelu z menu, **Pilik → Import → Wavefront ''(.obj)''**.
 
 Alternatywnie, import można wykonać z poziomu `konsoli Python`.
 
@@ -144,11 +144,11 @@ for obj in bpy.data.objects:
 
 *align=center|Zespół stworzony w programie FreeCAD zaimportowany do Blendera; model został obrócony, a jednostki sceny dopasowane do zaimportowanych obiektów.*
 
-### Przygotuj ujęcie kadru {#przygotuj_ujęcie_kadru}
+### Przygotuj ujęcie kadru 
 
 8\. Ustaw ujęcie widoku we właściwej pozycji.
 
-Dostosuj rzutnię, aby spojrzeć na model w żądanej orientacji, a następnie naciśnij klawisze **Ctrl** + **Alt** + **0** *(klawiatura numeryczna)*, albo użyj opcji z menu {{MenuCommand|View → Align View → Align Active Camera to View}}.
+Dostosuj rzutnię, aby spojrzeć na model w żądanej orientacji, a następnie naciśnij klawisze **Ctrl** + **Alt** + **0** *(klawiatura numeryczna)*, albo użyj opcji z menu **View → Align View → Align Active Camera to View**.
 
 8.1. Jeśli w ujęciu widoku nic nie widać, być może trzeba dostosować przycięcie. Zaznaczając kamerę w `Outliner`, przejdź do panelu `Properties`, następnie `Object Data`, potem `Lens`, a następnie ustaw `Clip End` na dużą wartość, na przykład `1E3 mm` lub `1000 m`.
 
@@ -174,7 +174,7 @@ bpy.context.object.data.display_size = 20
 bpy.context.object.data.show_limits = True
 ```
 
-### Przygotuj oświetlenie sceny {#przygotuj_oświetlenie_sceny}
+### Przygotuj oświetlenie sceny 
 
 9\. Zaznacz światło w `Outliner`, przejdź do panelu `Properties`, następnie `Object Data`, naciśnij na `Sun` i ustaw `Strength` na `5.0`.
 
@@ -201,7 +201,7 @@ Naciśnij ponownie klawisz **F12**, aby zobaczyć wstępny render modelu.
 
 *align=center|Render złożenia w Blenderze z dodaną lampą słoneczną, która emituje równoległe promienie świetlne o stałym kącie*
 
-### Więcej ustawień: podłoga, oświetlenie globalne, odbicia i miękkie cienie {#więcej_ustawień_podłoga_oświetlenie_globalne_odbicia_i_miękkie_cienie}
+### Więcej ustawień: podłoga, oświetlenie globalne, odbicia i miękkie cienie 
 
 10\. Dodaj płaszczyznę podłogi. Naciśnij klawisze **Shift**+**A**, a następnie wybierz `Mesh`, `Plane` i nadaj mu wymiary około 10 razy większe niż twój model. Ten obiekt będzie służył jako płaszczyzna podłogi lub blat stołu, na którym stoi model. Przesuń również płaszczyznę nieco w dół, tak aby nie przecinała modelu. Wystarczy `-1 mm` poniżej obiektu.
 
@@ -222,7 +222,7 @@ bpy.context.scene.eevee.use_ssr = True
 bpy.context.scene.eevee.use_soft_shadows = True
 ```
 
-### Ustawienie rodzaju materiału dla obiektów {#ustawienie_rodzaju_materiału_dla_obiektów}
+### Ustawienie rodzaju materiału dla obiektów 
 
 13\. Zmień panel `Python Console` w panel `Shader Editor` *(**Shift**+**F3**)*.
 
@@ -243,9 +243,9 @@ Ogólnie rzecz biorąc, metale są naturalnie gładkie i dlatego ich wartość c
 
 Naciśnij przycisk **F12**, aby wyświetlić widok z kamery i sprawdzić jakość obrazu.
 
-### Renderowanie i zapisywanie {#renderowanie_i_zapisywanie}
+### Renderowanie i zapisywanie 
 
-15\. Jeśli Twój model wygląda w miarę dobrze z rendererem EEVEE możesz już zapisać obraz poprzez {{MenuCommand|Image → Save As}} lub naciskając **Shift**+**S** w {{Incode|Image Editor}}.
+15\. Jeśli Twój model wygląda w miarę dobrze z rendererem EEVEE możesz już zapisać obraz poprzez **Image → Save As** lub naciskając **Shift**+**S** w {{Incode|Image Editor}}.
 
 <img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width:600px;">
 
@@ -267,14 +267,14 @@ Dla `Viewport` wystarczy niewielka liczba próbek, w zakresie od `32` do `128`, 
 
 Wciśnij klawisz **F12** aby wyrenderować końcowy widok przez kamerę. W zależności od Twojej karty graficznej *(GPU)* renderowanie obrazu w Cycles powinno zająć kilka sekund lub minut więcej niż w EEVEE, ale jakość obrazu powinna być lepsza.
 
-17\. Kiedy jesteś zadowolony z jakości renderingu, w `Image Editor` przejdź do {{MenuCommand|Image → Save As}} lub naciśnij **Shift**+**S**.
+17\. Kiedy jesteś zadowolony z jakości renderingu, w `Image Editor` przejdź do **Image → Save As** lub naciśnij **Shift**+**S**.
 
 <img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width:600px;">
 
 
 *align=center|Renderowane złożenie wyprodukowane w Blender Cycles. Wszystkie opcje, materiały i światła, które były używane w EEVEE zostały zachowane do użycia w Cycles.*
 
-### Renderowanie z poziomu wiersza poleceń {#renderowanie_z_poziomu_wiersza_poleceń}
+### Renderowanie z poziomu wiersza poleceń 
 
 18\. Jeśli scena jest już całkowicie ukończona, możesz chcieć renderować ją spoza Blendera, z linii poleceń systemu operacyjnego. Może to być przydatne do wsadowego renderowania różnych scen w zdalnym systemie. Zarówno EEVEE jak i Cycles są obsługiwane.
 
@@ -290,7 +290,7 @@ blender -b assembly.blend -E CYCLES -o //assembly_CYCLES_#### -t 3 -F PNG -x 1 -
 
 Pozwala to określić, że renderowanie powinno odbywać się w tle za pomocą `-b`., Silnik renderujący jest wybierany za pomocą `-E`, nazwa pliku wyjściowego jest wybierana za pomocą `-o`, podwójny ukośnik wprzód `//` wskazuje ścieżkę względem pliku wejściowego. Znak skrótu `#` jest używany do wskazania numeru ramki, w razie potrzeby uzupełnionego zerami, na przykład `0001`. Liczba wątków procesora używanych podczas renderowania jest wybierana za pomocą `-t 3`, format pliku wyjściowego określa się za pomocą `-F`, a opcja `-x 1` automatycznie dodaje do nazwy rozszerzenie. Ostatnią opcją jest `-f 1`, która oznacza, że renderowana będzie tylko pierwsza klatka, co jest normalnym przypadkiem dla statycznej sceny. W przypadku animacji należy użyć przełącznika `-a`, aby dla każdej klatki utworzyć obraz, który następnie można złożyć w plik wideo.
 
-## Importowanie wtyczek {#importowanie_wtyczek}
+## Importowanie wtyczek 
 
 Stworzenie pośredniej siatki Wavefront (.obj) i następnie zaimportowanie jej do Blendera zadziała w większości sytuacji. Jednakże, istnieje również możliwość importu pliku FreeCAD (.FCStd) bezpośrednio do Blendera za pomocą pluginu.
 
@@ -328,7 +328,7 @@ import sys
 sys.path.append("/usr/lib/freecad/lib/FreeCAD.so")
 ```
 
-## Uwagi końcowe {#uwagi_końcowe}
+## Uwagi końcowe 
 
 EEVEE nie jest fizycznie dokładnym rendererem, jednak jego główną siłą jest to, że jest to silnik czasu rzeczywistego, więc jest w stanie produkować szybkie renderingi bezpośrednio w rzutni 3D. W wielu przypadkach obrazy te mają wystarczającą jakość dla końcowej produkcji, co oznacza, że możliwe jest uzyskanie dobrego rezultatu w bardzo krótkim czasie. W przypadkach, gdy pożądane są złożone interakcje światła *(odbicia, załamania, światło wolumetryczne i kaustyka)*, EEVEE jest bardziej ograniczony i wymaga pewnych opcji i sztuczek, aby obejść niektóre z tych ograniczeń.
 

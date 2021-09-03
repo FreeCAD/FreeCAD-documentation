@@ -49,7 +49,7 @@ Cf [Makro pro rozvinutí svinutých povrchů](http://forum.freecadweb.org/viewto
 3.  Vyber povrchy
 4.  Spusť makro
 
-## Python kód {#python_kód}
+## Python kód 
 
 The lastest version of the macro is to be found at [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Addon_Manager.md) <img alt="Addon Manager" src=images/AddonManager.svg  style="width:24px;"> .
 

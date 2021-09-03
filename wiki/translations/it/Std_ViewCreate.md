@@ -9,11 +9,11 @@ Il comando **Crea una nuova vista** crea una nuova [vista 3D](3D_view/it.md) per
 
 ## Utilizzo
 
-1.  Selezionare {{MenuCommand|Visualizza → <img src="images/Std_ViewCreate.svg" width=16px> Crea una nuova vista}} nel menu.
+1.  Selezionare **Visualizza → <img src="images/Std_ViewCreate.svg" width=16px> Crea una nuova vista** nel menu.
 
 ## Opzioni
 
--   Selezionare {{MenuCommand|Finestre → A cascata}} o {{MenuCommand|Finestre → Affianca}} dal menu per riorganizzare le viste 3D.
+-   Selezionare **Finestre → A cascata** o **Finestre → Affianca** dal menu per riorganizzare le viste 3D.
 
 
 <div class="mw-translate-fuzzy">

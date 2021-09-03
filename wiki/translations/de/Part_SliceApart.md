@@ -24,7 +24,7 @@ Die Ausgabeform nimmt den gleichen Platz ein wie das Original. Sie wird jedoch d
 
 Bitte besuche die [Formteil Zerschneiden](Part_Slice/de.md) Seite für weitere Informationen.
 
-### Baumstruktur von Auseinander Schneiden {#baumstruktur_von_auseinander_schneiden}
+### Baumstruktur von Auseinander Schneiden 
 
 Der Befehl Auseinander Schneiden erzeugt mehr als nur das geschnittene Objekt. Im folgenden Beispiel wird ein Würfel durch eine Fläche geschnitten.
 

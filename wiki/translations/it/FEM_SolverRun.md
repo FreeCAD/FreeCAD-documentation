@@ -14,7 +14,7 @@
 1.  Diversi modi per richiamare il comando Avvia il risolutore
     -   Premere il pulsante <img alt="" src=images/FEM_RunSolver.png  style="width:24px;">
     -   Usare la scorciatoia da tastiera **R** **C**
-    -   Usare {{MenuCommand|Solve → Avvia il solutore}}
+    -   Usare **Solve → Avvia il solutore**
 
 
 </div>

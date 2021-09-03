@@ -15,7 +15,7 @@ Creates a FEM constraint for a prescribed displacement of a selected object for 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> [FEM ConstraintDisplacement](FEM_ConstraintDisplacement.md)** button.
-    -   Select the {{MenuCommand|Model → Mechanical Constraints → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Constraint displacement}} option from the menu.
+    -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Constraint displacement** option from the menu.
 2.  In the [3D view](3D_view.md) select the object the constraint should be applied to, which can be a vertex (corner), edge, or face.
 3.  Choose a degree of freedom or prescribe a displacement.
 

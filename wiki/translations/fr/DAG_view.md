@@ -25,7 +25,7 @@ Un modèle simple sera vu avec différentes vues.
 
 *Relations entre les objets affichés dans le [Graphique de dépendance](Std_DependencyGraph/fr.md).*
 
-## Activation de la vue DAG {#activation_de_la_vue_dag}
+## Activation de la vue DAG 
 
 La vue DAG a été introduite dans la version 0.17 en tant que fonctionnalité expérimentale pour les utilisateurs expérimentés et les développeurs, afin de leur permettre de dépanner des modèles complexes; de ce fait, la vue DAG n\'est pas disponible par défaut.
 
@@ -36,7 +36,7 @@ Pour utiliser cette vue, utilisez l\'[éditeur des paramètres](Std_DlgParameter
 
 puis ajoutez le paramètre`Enabled` de type `Boolean`, et le mettre régler sur `True`.
 
-Redémarrez FreeCAD et activez la vue DAG : {{MenuCommand|{{StdMenu|[Affichage](Std_View_Menu/fr.md)}} → Panneaux → Vue DAG}}.
+Redémarrez FreeCAD et activez la vue DAG : **{{StdMenu|[Affichage](Std_View_Menu/fr.md)** → Panneaux → Vue DAG}}.
 
 Dans l\'[Editeur des paramètres](Std_DlgParameter/fr.md), vous pouvez également modifier certaines propriétés dans le sous-groupe suivant
 

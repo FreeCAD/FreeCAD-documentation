@@ -22,7 +22,7 @@ Cet outil vous permet de créer un tube à partir de zéro ou à partir d\'objet
 2.  Appelez cette commande en utilisant plusieurs méthodes:
     -   En appuyant sur le bouton **<img src="images/Arch_Pipe.svg" width=16px> [Tuyau](Arch_Pipe/fr.md)** dans la barre d\'outils.
     -   En appuyant sur le raccourci clavier **P** puis **I**.
-    -   Depuis {{MenuCommand|Arch → Outils tuyauterie → Tuyau}} dans le menu supérieur.
+    -   Depuis **Arch → Outils tuyauterie → Tuyau** dans le menu supérieur.
 
 ## Options
 
@@ -38,7 +38,7 @@ Cet outil vous permet de créer un tube à partir de zéro ou à partir d\'objet
 
 -    {{PropertyData/fr|Profile}}: Le tube est basé sur le profil. S\'il n\'y a pas de profil, le tube est cylindrique.
 
-## Travail typique {#travail_typique}
+## Travail typique 
 
 -   Commencez le placement des sanitaires hydrauliques (le fichier exemple ci dessous est un fichier step importé). Sélectionnez l\'objet et activez l\'Arch Equipments en cliquant sur le bouton [Arch Equipement](Arch_Equipment/fr.md).
 

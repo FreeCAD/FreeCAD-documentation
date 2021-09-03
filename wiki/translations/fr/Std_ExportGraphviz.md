@@ -32,7 +32,7 @@ Téléchargez le programme d\'installation **graphviz-2.xx** depuis la page [pag
 Vous pouvez installer graphviz à l\'aide du gestionnaire de paquets [Homebrew](https://brew.sh/index_fr.html). (Lors de l\'installation de Homebrew, ne soyez pas nerveux, si MacOS vous demande d\'installer des mises à jour, par exemple pour les outils de ligne de commande Xcode. Ces mises à jour sont effectuées plus tard par le processus d\'installation.) 
 ```python
 brew install graphviz
-``` Cela installe les fichiers binaires de graphviz dans /usr/local/bin. FreeCAD le cherchera tout seul. Si le programme n\'est pas trouvé, vous êtes invité à entrer le chemin. Malheureusement, il n\'est pas possible d\'y naviguer depuis la boîte de dialogue qui s\'ouvre lorsque le menu {{MenuCommand|Outils → Graphique de dépendance...}}. Lorsque vous avez la boîte de dialogue de sélection de fichier, vous avez deux possibilités: Vous pouvez utiliser la combinaison de touches Cmd+Shift+. qui vous montrera tous les éléments cachés. Ou vous utilisez les touches Cmd+Shift+G pour obtenir un champ de saisie pour le chemin. Valider 
+``` Cela installe les fichiers binaires de graphviz dans /usr/local/bin. FreeCAD le cherchera tout seul. Si le programme n\'est pas trouvé, vous êtes invité à entrer le chemin. Malheureusement, il n\'est pas possible d\'y naviguer depuis la boîte de dialogue qui s\'ouvre lorsque le menu **Outils → Graphique de dépendance...**. Lorsque vous avez la boîte de dialogue de sélection de fichier, vous avez deux possibilités: Vous pouvez utiliser la combinaison de touches Cmd+Shift+. qui vous montrera tous les éléments cachés. Ou vous utilisez les touches Cmd+Shift+G pour obtenir un champ de saisie pour le chemin. Valider 
 ```python
 /usr/local/bin
 ``` puis confirmez le champ de saisie et l\'invite de dialogue.
@@ -57,7 +57,7 @@ dot is /usr/local/bin/dot
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Outils → <img src="images/Std_DependencyGraph.svg" width=16px> Graphique de dépendance...}} dans le menu.
+1.  Sélectionnez l\'option **Outils → <img src="images/Std_DependencyGraph.svg" width=16px> Graphique de dépendance...** dans le menu.
 2.  Un nouvel onglet intitulé **Graphique de dépendance** s\'ouvre dans [Zone de vue principale](Main_view_area/fr.md).
 3.  Utilisez la molette de défilement de la souris pour effectuer un zoom avant ou arrière.
 4.  Utilisez les curseurs en bas et à droite de l\'écran pour effectuer un panoramique de la vue. Vous pouvez aussi ({{Version/fr|0.19}}) maintenir le bouton gauche de la souris enfoncé et déplacer la souris.
@@ -67,11 +67,11 @@ dot is /usr/local/bin/dot
 Vous pouvez enregistrer un graphique de dépendance :
 
 1.  Assurez-vous que l\'onglet Graphique des dépendances est au premier plan.
-2.  Sélectionnez l\'option {{MenuCommand|Fichier → [Enregistrer](Std_Save/fr.md)}} ou {{MenuCommand|Fichier → [Enregistrer sous](Std_SaveAs/fr.md)}} dans le menu.
+2.  Sélectionnez l\'option **Fichier → [Enregistrer](Std_Save/fr.md)** ou **Fichier → [Enregistrer sous](Std_SaveAs/fr.md)** dans le menu.
 3.  Saisissez un nom de fichier et sélectionnez le type de fichier (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg ou \*.pdf).
 4.  Appuyez sur le bouton **Enregistrer**.
 
-## Principes généraux {#principes_généraux}
+## Principes généraux 
 
 -   Le graphe affiche les objets en ordre chronologique inversé, de bas en haut.
 -   La direction des flèches indiquant les dépendances doit toujours pointer vers le bas, de l\'objet enfant à l\'objet parent. Une flèche pointant vers le haut indique une dépendance cyclique, un problème qui doit être résolu.

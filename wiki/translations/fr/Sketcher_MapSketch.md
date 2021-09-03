@@ -26,7 +26,7 @@ Veuillez noter que cet outil n\'est pas utilisé pour créer de nouvelles esquis
 -   Dans la fenêtre de dialogue **Sélection de l\'esquisse** s\'ouvre, sélectionnez l\'esquisse à appliquer depuis la liste puis cliquez sur OK.
 -   Vous êtes amené sur le mode d\'édition de l\'esquisse.
 
-## Utiliser pour réparer un modèle cassé {#utiliser_pour_réparer_un_modèle_cassé}
+## Utiliser pour réparer un modèle cassé 
 
 L\'outil Appliquer une esquisse sur une face est souvent utilisé pour réparer un modèle cassé.
 

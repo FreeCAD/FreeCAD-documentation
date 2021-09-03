@@ -39,7 +39,7 @@ Où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple
 /usr/share/freecad/Mod/TechDraw/Templates/HowToExample.svg
 ```
 
-## Créer un document de base {#créer_un_document_de_base}
+## Créer un document de base 
 
 1\. Ouvrez un nouveau document dans Inkscape.
 
@@ -56,7 +56,7 @@ Où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple
 
 Notez que vos textes modifiables *ne fonctionneront pas* si vous utilisez \"<https://>\...\" même si le wiki est accessible via https de nos jours. Puisque SVG est un format lisible par l\'homme, vous pouvez aussi entrer la ligne ci-dessus dans le fichier avec un éditeur de texte. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> *align=center|Inkscape: éditeur XML ajoutant la clause d'espace de noms "freecad" à l'élément <svg>* 
 
-## Créer un modèle de dessin {#créer_un_modèle_de_dessin}
+## Créer un modèle de dessin 
 
 4\. Tracez des contours, des numéros de zone, des lignes centrales et autre géométrie.
 
@@ -68,7 +68,7 @@ Notez que vos textes modifiables *ne fonctionneront pas* si vous utilisez \"<htt
 
 8\. Vous avez maintenant terminé votre illustration, qui devrait ressembler à ceci: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> *align=center|Inkscape: disposition provisoire du modèle* 
 
-## Créer des champs modifiables {#créer_des_champs_modifiables}
+## Créer des champs modifiables 
 
 9\. Utilisez l\'éditeur XML pour ajouter une balise `freecad:editable` à chaque élément `<text>` éditable.
 
@@ -76,7 +76,7 @@ Notez que vos textes modifiables *ne fonctionneront pas* si vous utilisez \"<htt
 
 <img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> *align=center|Inkscape: éditeur XML ajoute la propriété "freecad:editable" à l'élément <text> souhaitée* 
 
-## Ajuster la taille du SVG {#ajuster_la_taille_du_svg}
+## Ajuster la taille du SVG 
 
 10\. Utilisez l\'éditeur XML pour ajuster l\'attribut `viewBox` afin qu\'il corresponde à la taille de votre page en millimètres.
 
@@ -88,7 +88,7 @@ Notez que vos textes modifiables *ne fonctionneront pas* si vous utilisez \"<htt
 
 12\. Nous devons le réduire.
 
--    {{MenuCommand|Edition → Tout sélectionner dans tous les calques}}, ou à partir de la boîte de sélection, sélectionnez tout.
+-    **Edition → Tout sélectionner dans tous les calques**, ou à partir de la boîte de sélection, sélectionnez tout.
 
 -   Ajustez les boutons **W:** et **H:** à la taille de votre illustration en millimètres.
 
@@ -98,17 +98,17 @@ Notez que vos textes modifiables *ne fonctionneront pas* si vous utilisez \"<htt
 
 14\. Votre modèle devrait maintenant être correct comme dans l\'image ci-dessus.
 
-## Supprimer les transformants sur le SVG {#supprimer_les_transformants_sur_le_svg}
+## Supprimer les transformants sur le SVG 
 
 15\. Assurez-vous que tous vos textes modifiables sont \"dissociés\" avec **Shift**+**Ctrl**+**g**.
 
-16\. Sélectionner tout sur votre page, {{MenuCommand|Edition → Tout sélectionner}} puis {{MenuCommand|Edition → Copier}} (**Ctrl**+**c**).
+16\. Sélectionner tout sur votre page, **Edition → Tout sélectionner** puis **Edition → Copier** (**Ctrl**+**c**).
 
-17\. Supprimez ensuite le calque actuel, {{MenuCommand|Calque → Supprimer le calque courant}}.
+17\. Supprimez ensuite le calque actuel, **Calque → Supprimer le calque courant**.
 
 :   Remarque: si vous avez déjà supprimé le calque (aucun calque n\'est répertorié dans votre panneau Calque), cette étape n\'est pas nécessaire. Dans ce cas, vous devez tout sélectionner (**Ctrl**+**a**), couper la sélection (**Ctrl**+**x**) et la coller avec la commande à l\'étape suivante.
 
-18\. Puis copiez, {{MenuCommand|Edition → Coller en place}}.
+18\. Puis copiez, **Edition → Coller en place**.
 
 :   **Remarque:** Cette commande empêche que les positions du texte soient stockées dans les balises de transformation. Il est important que vous n\'utilisiez pas la commande de collage normale!
 

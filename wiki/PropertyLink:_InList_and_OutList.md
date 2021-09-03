@@ -70,7 +70,7 @@ doc.recompute()
 
 Because our `box` depends on the `dim` object, it will be recomputed.
 
-# InList and OutList {#inlist_and_outlist}
+# InList and OutList 
 
 
 `PropertyLink`

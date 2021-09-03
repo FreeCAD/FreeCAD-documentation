@@ -36,7 +36,7 @@ Voici le modèle [de projet](Project_template/fr.md) ([en](Project_template.md))
   **[Projet d\'illustration](Artwork_project/fr.md)**                                     Un projet de mise à jour du logo et des icônes                                                                                                              GUI                                                                       Courant
                                                                                                                                                                                                                                                                                                                                         
 
-## Calendrier de publications {#calendrier_de_publications}
+## Calendrier de publications 
 
 Comme dans les plupart des projets [FLOSS](http://fr.wikipedia.org/wiki/Free/Libre_Open_Source_Software) le calendrier de diffusion est très sommaire. Il n\'y a aucune date fixe et **\"Ce sera disponible quand ce sera prêt !\"**
 

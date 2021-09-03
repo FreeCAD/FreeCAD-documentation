@@ -11,7 +11,7 @@
 
 **Create a rectangle** is an icon button in the Sketcher geometries toolbar that groups tools to create rectangles. Click on the down arrow to its right to expand the icons below it and select a tool.
 
-## Types of rectangles {#types_of_rectangles}
+## Types of rectangles 
 
 -   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rectangle](Sketcher_CreateRectangle.md): Draws a rectangle from 2 opposite points.
 -   <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Centered Rectangle](Sketcher_CreateRectangle_Center.md): Draws a rectangle from a central point and an edge point. <small>(v0.20)</small> 

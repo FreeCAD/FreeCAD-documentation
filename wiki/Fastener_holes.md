@@ -14,7 +14,7 @@ Finally, using [Fasteners workbench](https://www.freecadweb.org/wiki/Fasteners_W
 
 <img alt="" src=images/fastener_holes_4.jpeg  style="width:800px;">
 
-## GitHub download {#github_download}
+## GitHub download 
 
 [<https://github.com/pgilfernandez/FreeCAD_Fastener_holes>](https://github.com/pgilfernandez/FreeCAD_Fastener_holes)
 

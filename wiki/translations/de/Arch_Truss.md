@@ -15,14 +15,14 @@ Das [Architektur Fachwerkswerkzeug](Arch_Truss/de.md) baut ein [Fachwerk](https:
 
 ## Anwendung
 
-### Erzeugen aus einem ausgewählten Objekt {#erzeugen_aus_einem_ausgewählten_objekt}
+### Erzeugen aus einem ausgewählten Objekt 
 
 1.  Benutze einen Arbeitsbereich deiner Wahl zum Erstellen einer einzelnen Linie
 2.  Wähle diese Linie
 3.  Drücke die **<img src="images/Arch_Truss.svg" width=16px> [Arch Traverse](Arch_Truss/de.md)**-Schaltfläche
 4.  Passe die Traverseneinstellungen an deine Bedürfnisse an
 
-### Erzeugen von Grund auf {#erzeugen_von_grund_auf}
+### Erzeugen von Grund auf 
 
 1.  Stelle sicher, dass nichts ausgewählt ist
 2.  Drücke die **<img src="images/Arch_Truss.svg" width=16px> [Arch Traverse](Arch_Truss/de.md)**-Schaltfläche

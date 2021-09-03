@@ -22,7 +22,7 @@ This is a set of four related macros for managing the visibility of objects in t
     -   if all objects are selected then all objects are made visible
 2.  make all objects visible
 
-## How To Use {#how_to_use}
+## How To Use 
 
 Copy the macros and the icons in your folder macros and run (see [How to install macros](How_to_install_macros.md))
 
@@ -34,7 +34,7 @@ If no object(s) are selected then all objects are hidden
 
 If all objects are hidden and there is no selection in ComboView then all object are made visible
 
-## Script 1 {#script_1}
+## Script 1 
 
 ToolBar Icon <img alt="" src=images/Macro_SelectVisible2.png  style="width:64px;">
 
@@ -76,7 +76,7 @@ try:
 except Exception:
     None }}
 
-## Script 2 {#script_2}
+## Script 2 
 
 ToolBar <img alt="" src=images/Macro_VisibleAlls2.png  style="width:64px;">
 

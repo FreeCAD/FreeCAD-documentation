@@ -37,13 +37,13 @@ Toto je projekt postupu pro FEM integraci FreeCADu jako části [Směru vývoje]
 
 ## Brainstorming
 
-### Potential meshers {#potential_meshers}
+### Potential meshers 
 
 <img alt="" src=images/Netgen.jpg  style="width:600px;">
 
 See [FEM Mesh](FEM_Mesh.md)
 
-### Potential solvers {#potential_solvers}
+### Potential solvers 
 
 See [FEM Solver](FEM_Solver.md)
 

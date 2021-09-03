@@ -11,13 +11,13 @@
 
 Dieses Tutorium grundlegende Modellierung zeigt dir, wie du einen Eisenwinkel modellierst. Eine Sache, die du wissen solltest, ist, dass FreeCAD modular aufgebaut ist, und wie bei vielen anderen CAD Programmen gibt es immer mehr als eine Möglichkeit, Dinge zu tun. Wir werden hier zwei Methoden untersuchen.
 
-## Bevor wir beginnen {#bevor_wir_beginnen}
+## Bevor wir beginnen 
 
 Denke daran, dass FreeCAD sich noch in einem frühen Entwicklungsstadium befindet, so dass du möglicherweise nicht so produktiv bist wie mit einer anderen CAD Anwendung, und du wirst sicherlich auf Fehler stoßen oder Abstürze erleben. FreeCAD hat nun die Möglichkeit, Sicherungsdateien zu speichern. Die Anzahl dieser Sicherungsdateien kann im Einstellungsdialog festgelegt werden. Zögere nicht, 2 oder 3 Sicherungsdateien zuzulassen, bis du weisst, wie man mit FreeCAD umgeht.
 
 Speichere deine Arbeit häufig, von Zeit zu Zeit unter einem anderen Namen, damit du auf eine \"sichere\" Kopie zurückgreifen kannst, und sei auf die Möglichkeit vorbereitet, dass einige Befehle nicht die erwarteten Ergebnisse liefern könnten.
 
-## Einführung Modellierungstechniken {#einführung_modellierungstechniken}
+## Einführung Modellierungstechniken 
 
 Die erste (und grundlegende) Technik der Volumenmodellierung ist [Konstruktive Festkörpergeometrie (CSG)](http://en.wikipedia.org/wiki/Constructive_solid_geometry). Es gibt auch eine detaillierte Erklärung (im Kontext von FreeCAD) von [Konstruktive Volumenkörpergeometrie](Constructive_solid_geometry/de.md) im Wiki. Du arbeitest mit Grundformen wie Würfeln, Zylindern, Kugeln und Kegeln, um deine Geometrie zu konstruieren, indem du sie kombinierst, eine Form von der anderen subtrahierst oder sie schneidest. Diese Werkzeuge sind Teil des [Part Arbeitsbereichs](Part_Workbench/de.md). Du kannst auch Transformationen auf Formen anwenden, wie z. B. das Anwenden von Rundungen oder Fasen an Kanten. Diese Werkzeuge sind ebenfalls in der [ Part Arbeitsbereich](Part_Workbench/de.md) enthalten.
 
@@ -25,10 +25,10 @@ Dann gibt es fortgeschrittenere Werkzeuge. Du beginnst, indem du ein 2D Profil z
 
 Beginnen wir also damit, dass wir versuchen, mit diesen 2 Methoden einige eiserne Füße für einen Tisch zu machen.
 
-## 1. Methode - Durch konstruktive Festkörpergeometrie {#methode___durch_konstruktive_festkörpergeometrie}
+## 1. Methode - Durch konstruktive Festkörpergeometrie 
 
 1.  Beginne mit dem [Part Arbeitsbereich](Part_Workbench/de.md) ![](images/Switch_PartWorkbench.JPG ).
-2.  Wenn du kein neues FreeCAD Dokument geöffnet hast (der größte Teil des FreeCAD Fensters ist ausgegraut), klicke im Aufklappmenü auf {{MenuCommand|Datei → Neu}} oder klicke auf <img alt="" src=images/Document-new.png  style="width:32px;"> **Ein neues leeres Dokument erstellen** Symbol.
+2.  Wenn du kein neues FreeCAD Dokument geöffnet hast (der größte Teil des FreeCAD Fensters ist ausgegraut), klicke im Aufklappmenü auf **Datei → Neu** oder klicke auf <img alt="" src=images/Document-new.png  style="width:32px;"> **Ein neues leeres Dokument erstellen** Symbol.
 3.  Klicke auf die <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Kasten](Part_Box/de.md) Schaltfläche zum Erstellen eines Kastens
 4.  Ändere seine Abmessungen, indem du ihn entweder im 3D Raum auswählst oder indem du ihn auf dem Projektreiter links anklickst, dann
 5.  Klicke unten auf den Datenreiter und ändere die Werte für Länge, Breite und Höhe auf 50 mm, 50 und 750 *(siehe Abb. 1.1)*\' **Hinweis**: *Damals, als diese Aufnahmen gemacht wurden, waren die Eigenschaften anders angeordnet, wobei die Höhe an erster Stelle stand*.
@@ -56,13 +56,13 @@ Willst du nicht, dass der Winkel so ausgerichtet wird? Du musst nur die Platzier
 
 ![Abb. 1.6 Die abgerundeten Kanten](images/Tutorial-normand06.jpg )
 
-## 2. Methode - Durch Extrudieren eines Profils {#methode___durch_extrudieren_eines_profils}
+## 2. Methode - Durch Extrudieren eines Profils 
 
 Diese Methode erfordert, dass du mit dem Zeichnen eines 2D Profils beginnst. Dazu musst du den [Entwurf Arbeitsbereich](Draft_Workbench/de.md) aktivieren. ![](images/Switch_DraftWorkbench.JPG ).
 
 -   Wenn du kein neues FreeCAD Dokument geöffnet hast (der größte Teil des FreeCAD Fensters sieht ausgegraut aus), klicke im Aufklappmenü auf Datei → Neu oder klicke auf <img alt="" src=images/Document-new.png  style="width:32px;"> **Erstelle ein neues leeres Dokument** Symbol.
 
-### Setzen der Arbeitsebene {#setzen_der_arbeitsebene}
+### Setzen der Arbeitsebene 
 
 Zuerst müssen wir festlegen, auf welcher [Arbeitsebene](Draft_SelectPlane/de.md) wir unsere Profile entwerfen.
 
@@ -74,7 +74,7 @@ Zuerst müssen wir festlegen, auf welcher [Arbeitsebene](Draft_SelectPlane/de.md
 4.  Wir lassen den Wert der *Offset*-Eigenschaft bei Null.
 5.  Drücke den **XY**-Button, um die Arbeitsebene auf XY zu setzen. Dies schließt das Aufgaben-Panel oder die ausgeklappten Buttons. Der \"Auto\"-Button trägt nun die Bezeichnung \"Top\", um dies als die aktive Arbeitsebene anzuzeigen.
 
-### Entwerfen des Profils {#entwerfen_des_profils}
+### Entwerfen des Profils 
 
 1.  Wähle das <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [EDraht (Mehrpunkt-Entwurfsdraht)](Draft_Wire/de.md) Werkzeug.
 2.  Aktiviere die \"Relativ\" und \"Gefüllt\" Kästchen.
@@ -97,9 +97,9 @@ Zuerst müssen wir festlegen, auf welcher [Arbeitsebene](Draft_SelectPlane/de.md
 
 Drücke die **0** (Null) Taste auf der Zifferntastatur, um die Ansicht auf axonometrisch einzustellen.
 
-### Extrudieren des Profils {#extrudieren_des_profils}
+### Extrudieren des Profils 
 
-Aktiviere den <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part Arbeitsbereich](Part_Workbench/de.md) entweder über die [Arbeitsbereichswähler](Std_Workbench/de.md) oder über {{MenuCommand|[Ansicht](Std_View_Menu/de.md) → Arbeitsbereich → Part}} Menü.
+Aktiviere den <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part Arbeitsbereich](Part_Workbench/de.md) entweder über die [Arbeitsbereichswähler](Std_Workbench/de.md) oder über **[Ansicht](Std_View_Menu/de.md) → Arbeitsbereich → Part** Menü.
 
 Klicke auf das **<img src="images/Part_Extrude.svg" width=32px> [Extrudieren](Part_Extrude/de.md)** Werkzeug.
 
@@ -111,7 +111,7 @@ Diese Methode hat einen kleinen Nachteil gegenüber der ersten Methode: Um die F
 
 Und es gibt noch ein paar andere Möglichkeiten, dies zu tun! Ich hoffe, dass dir diese beiden Beispiele den Einstieg erleichtern. Auf dem Weg dorthin wirst du sicher auf einige Schwierigkeiten stoßen (das habe ich, als ich das erste Mal FreeCAD lernte, und ich habe 3D CAD Erfahrung), aber zögere nicht, Fragen im [FreeCAD-Forum](https://forum.freecadweb.org) zu stellen!
 
-### Anmerkung zur schaltfläche Entwurf Arbeitsebene {#anmerkung_zur_schaltfläche_entwurf_arbeitsebene}
+### Anmerkung zur schaltfläche Entwurf Arbeitsebene 
 
 Die Beschriftung deiner Schaltfläche kann unterschiedlich sein, je nach deiner Version und auch abhängig davon, was du vorher gemacht hast. Die Beschriftung der Schaltfläche könnte lauten: \"Oben\", \"Vorne\", \"Seite\", \"Keine\" oder eine Vektordarstellung wie d(0.0,0.0,1.0). Sie kann auch leer sein. Zum Beispiel:
 

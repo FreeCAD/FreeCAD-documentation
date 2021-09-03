@@ -18,11 +18,11 @@ Drop down menu
 
 ## Installation
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 The easiest way to install is to clone into \~/.FreeCAD/Mod
 
@@ -43,7 +43,7 @@ To use do the following:
 
 **Mac Installation Instructions** (From GitHub)
 
-## Links to CuraEngine WB {#links_to_curaengine_wb}
+## Links to CuraEngine WB 
 
 -   Workbench Wiki:
 -   FreeCAD Wiki:
@@ -53,7 +53,7 @@ To use do the following:
 -   Files:
 -   Report bugs: Please report bugs at <https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin/issues>
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   Official CuraEngine: [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura) respectively [github CuraEngine repository](https://github.com/Ultimaker/CuraEngine)
 -   [Manual:Preparing models for 3D printing: Using the Cura addon](Manual:Preparing_models_for_3D_printing#Using_the_Cura_addon.md)

@@ -46,7 +46,7 @@ Wenn die Form eine Linie ist, wird die Koordinate der Mittelpunkt der Linie sein
 
 :   Erzeugt den Kreis in der Ansicht von rechts in der gewählten Form 1, 2 oder 3
 
-### Ausrichtung sur: {#ausrichtung_sur}
+### Ausrichtung sur: 
 
 **Forme 1, 2, 3**
 
@@ -56,7 +56,7 @@ Wenn die Form eine Linie ist, wird die Koordinate der Mittelpunkt der Linie sein
 
 :   Wenn dieses Kontrollkästchen aktiviert ist, wird ein Punkt in der Mitte des erstellten Kreises erstellt
 
-### Farben zuordnen {#farben_zuordnen}
+### Farben zuordnen 
 
 :   Wenn dieses Kontrollkästchen aktiviert ist, nimmt der Kreis die Farbe der entsprechenden Ansicht an.
 

@@ -13,10 +13,10 @@ Comanda Box din Atelierul [Part Workbench](Part_Workbench.md) inserează o caset
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 -   Click the cube icon **<img src="images/Part_Box.png" width=30px>** from the Part Workbench.
--   Alternatively, you can select {{MenuCommand|Part → Primitives → Cube}} from the menu bar.
+-   Alternatively, you can select **Part → Primitives → Cube** from the menu bar.
 
 
 </div>

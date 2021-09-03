@@ -10,7 +10,7 @@
 
 Sur la page [Créer un objet FeaturePython partie I](Create_a_FeaturePython_object_part_I/fr.md), nous nous sommes concentrés sur les aspects internes d\'une classe Python construite autour d\'un objet FeaturePython, en particulier un objet `App::FeaturePython`. Nous avons créé l\'objet, défini certaines propriétés et ajouté un rappel d\'événement au niveau du document qui permet à notre objet de répondre à un recalcul de document avec la méthode `execute()`. Mais notre objet n\'a toujours pas de présence dans la [Vue 3D](3D_view/fr.md). Remédions à cela en ajoutant une boîte.
 
-## Ajout d\'une boîte {#ajout_dune_boîte}
+## Ajout d\'une boîte 
 
 Tout d\'abord, en haut du fichier {{FileName|box.py}}, sous l\'importation existante, ajoutez:
 
@@ -39,7 +39,7 @@ Supprimez tous les objets existants, rechargez le module boîte et créez un nou
 
 [En haut](#top.md)
 
-## Correction du code {#correction_du_code}
+## Correction du code 
 
 Pour résoudre ces problèmes, nous devons apporter un certain nombre de changements. Jusqu\'à présent, nous avons utilisé un objet `App::FeaturePython` qui n\'est en fait pas destiné à avoir une représentation visuelle dans la vue 3D. Nous devons utiliser un objet `Part::FeaturePython` à la place. Dans `create()` modifiez la ligne suivante:
 
@@ -75,7 +75,7 @@ Enregistrez vos modifications, revenez à FreeCAD, supprimez tous les objets exi
 
 [En haut](#top.md)
 
-## Écrire un ViewProvider {#écrire_un_viewprovider}
+## Écrire un ViewProvider 
 
 Un fournisseur de vue (View Provider) est le composant d\'un objet qui lui permet d\'avoir une représentation visuelle dans la vue 3D. FreeCAD utilise une structure d\'application conçue pour séparer les données (le \"modèle\") de sa représentation visuelle (la \"vue\"). Si vous avez passé du temps à travailler avec FreeCAD en Python, vous en êtes probablement déjà conscient grâce à l\'utilisation des deux modules Python de base: `FreeCAD` et `FreeCADGui` (souvent sous les alias { {incode\|App}} et `Gui` respectivement).
 
@@ -201,7 +201,7 @@ Maintenant, enregistrez les modifications et revenez à FreeCAD. Importez ou rec
 
 [En haut](#top.md)
 
-## Piégeage d\'événements {#piégeage_dévénements}
+## Piégeage d\'événements 
 
 Nous avons déjà discuté du piégeage d\'événements. Presque toutes les méthodes d\'une classe FeaturePython servent de rappel accessible à l\'objet FeaturePython (qui obtient l\'accès à notre instance de classe via l\'attribut `Proxy`, si vous vous en souvenez).
 
@@ -251,7 +251,7 @@ Il n\'est pas rare de rencontrer une situation où les rappels Python ne sont pa
 
 [En haut](#top.md)
 
-## Le code terminé {#le_code_terminé}
+## Le code terminé 
 
 
 ```python

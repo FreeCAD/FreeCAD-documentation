@@ -20,7 +20,7 @@ Este tutorial te mostrará cómo utilizar el [Entorno de simulación de Robots](
 
 <div class="mw-translate-fuzzy">
 
-## Antes de empezar {#antes_de_empezar}
+## Antes de empezar 
 
 Este tutorial está escrito para FreeCAD Versión 0.11 R3977 o superior. Así que si no tienes FreeCAD en tu equipo ve a la página de [Descargas](Download/es.md) y haz la instalación.
 
@@ -41,7 +41,7 @@ El objetivo de este tutorial es el uso de [robots industriales](http://en.wikipe
 
 </div>
 
-## Setting up a trajectory {#setting_up_a_trajectory}
+## Setting up a trajectory 
 
 1.  Switch to the <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Robot Workbench](Robot_Workbench.md)
 2.  Activate the model-tab in the [tree view](tree_view.md) by clicking on it
@@ -54,7 +54,7 @@ El objetivo de este tutorial es el uso de [robots industriales](http://en.wikipe
 9.  Each way-point is shown with a yellow cross, the waypoints are connected with orange lines
 10. Define at least three different way points and insert them in the trajectory
 
-## Simulating robot movement {#simulating_robot_movement}
+## Simulating robot movement 
 
 1.  Select robot and trajectory in [tree view](tree_view.md)
 2.  Select simulation by clicking on <img alt="" src=images/Robot_Simulate.svg  style="width:24px;"> [Robot Simulate](Robot_Simulate.md)

@@ -21,7 +21,7 @@ Cet outil crée une copie du chemin sélectionné
 2.  Lancez la commande Path Copy de plusieurs manières:
     -   Appuyez sur le bouton **<img src="images/Path_Copy.svg" width=24px> [Copy](Path_Copy.md)** dans la barre d\'outils Path
     -   Utilisez le raccourci clavier **P** puis **Y**
-    -   Utilisez l\'entrée {{MenuCommand|Path → Path Modification → Copie simple}} dans le menu Path
+    -   Utilisez l\'entrée **Path → Path Modification → Copie simple** dans le menu Path
 
 ## Propriétés
 

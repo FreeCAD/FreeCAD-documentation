@@ -21,7 +21,7 @@ Die Aufgabe kann in fünf Teile aufgeteilt werden.
 -   **Writer-Objekt erweitern**. Erweitern des Elmer-Analyseexports zur Unterstützung des neuen Gleichungstyps.
 -   **GUI-Werkzeug zum Erstellen einer Gleichung**. Zugriff auf die neue Gleichungsfunktion über den GUI-Arbeitsbereich.
 
-## Neuer Gleichungstyp {#neuer_gleichungstyp}
+## Neuer Gleichungstyp 
 
 In diesem Schritt werden wir die folgende Datei modifizieren:
 
@@ -42,7 +42,7 @@ class FlowViewProxy(BaseViewProxy):
         return ":/icons/FEM_EquationFlow.svg"
 ```
 
-## Neues Elmers Gleichungs-Objekt {#neues_elmers_gleichungs_objekt}
+## Neues Elmers Gleichungs-Objekt 
 
 In diesem Schritt werden wir das Dokumentobjekt implementieren. Wir müssen eine neue Datei {{Incode|flow.py}} hinzufügen unter:
 
@@ -66,7 +66,7 @@ Beginnen wir dem Hinzufügen der neuen Datei {{Incode|flow.py}}. Diese Datei kan
 
 Die Strömungsgleichung ist eine potenziell nicht-lineare Gleichung. Das bedeutet, dass unsere Arbeit auf `heat.py` basieren wird.
 
-### Dateien ändern {#dateien_ändern}
+### Dateien ändern 
 
 Nach dem Kopieren von `heat.py` nach `flow.py` passe letztere Datei an folgenden Stellen an:
 
@@ -101,7 +101,7 @@ Schließlich muss man eine **makeEquationFlow**-Definition in {{Incode|src/Mod/F
 
 FreeCAD benutzt **make** zur Erstellung des Programms. Deshalb müssen wir die neue Moduldatei ({{Incode|flow.py}}) in `src/Mod/Fem/CMakeLists.txt` registrieren, wie in [FEM Modul erweitern](https://www.freecadweb.org/wiki/Extend_FEM_Module) beschriebenen. Die passenden Listen lassen sich leicht finden, indem man nach vorhandenen Gleichungsmoduldateien von Elmer sucht.
 
-## Löser-Objekt erweitern {#löser_objekt_erweitern}
+## Löser-Objekt erweitern 
 
 In diesem Schritt werden wir die folgenden Dateien modifizieren:
 
@@ -126,7 +126,7 @@ _EQUATIONS = {
 }
 ```
 
-## Writer-Objekt erweitern {#writer_objekt_erweitern}
+## Writer-Objekt erweitern 
 
 In diesem Schritt werden wir die folgende Datei modifizieren:
 
@@ -179,7 +179,7 @@ kann eine Reihe weiterer detaillierter Methoden kontrollieren. Unsere Fließ-Gle
 
 Nun haben wir den Funktionsteil der neuen Gleichung beendet. Nun werden wir die neue Gleichung an die GUI anbinden.
 
-## GUI-Werkzeug zum Erstellen einer Gleichung {#gui_werkzeug_zum_erstellen_einer_gleichung}
+## GUI-Werkzeug zum Erstellen einer Gleichung 
 
 Wir haben gerade eine neue Gleichungsklasse erstellt. Um sie über die FEM-GUI anzusprechen, müssen wir eine Schaltfläche erstellen und sie mit der neuen Gleichungsklasse verbinden. Hier ist ein Tutorium: [Add button to FEM toolbar tutorial](Add_button_to_FEM_toolbar_tutorial/de.md).
 

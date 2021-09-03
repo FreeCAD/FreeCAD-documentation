@@ -22,7 +22,7 @@ Spiral bevel gears have curved teeth to provide softer engagement and greater to
 1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
 2.  Invoke the command several way:
     -   Press the <img alt="" src=images/FCGear_BevelGear.svg  style="width:22px;"> [Create a Bevel gear](FCGear_BevelGear.md) button in the tool bar.
-    -   Using the {{MenuCommand|Menu → Bevel gear}}.
+    -   Using the **Menu → Bevel gear**.
 3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
 
 ## Properties
@@ -83,7 +83,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 Limitations are not known yet.
 
-## Useful formulas {#useful_formulas}
+## Useful formulas 
 
 -    **pitch diameter**= **module** \* **teeth**
 

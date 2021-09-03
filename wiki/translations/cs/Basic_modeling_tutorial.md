@@ -17,7 +17,7 @@ Tento Výukový program základního modelování Vám ukáže jak vymodelovat o
 
 </div>
 
-## Než začneme {#než_začneme}
+## Než začneme 
 
 Mějte na mysli, že FreeCAD je stále v ranné fázi vývoje a proto nemůže být zatím tak produktivní jako jiné CAD aplikace a určitě se setkáte s chybami nebo si vyzkoušíte pády aplikace. FreeCAD už má možnost ukládat záložní soubory. Počet těchto záložních souborů může být specifikován v dialogovém okně předvoleb. Neváhejte použít 2 až 3 záložní soubory dokud nebudete umět s FreeCADem dobře pracovat.
 
@@ -26,7 +26,7 @@ Rozdělanou práci ukládejte často a občas ji uložte pod jiným jménem, zí
 
 <div class="mw-translate-fuzzy">
 
-## Úvod do modelovacích technik {#úvod_do_modelovacích_technik}
+## Úvod do modelovacích technik 
 
 První (a základní) technika modelování těles je [Constructive Solid Geometry (CSG)](http://en.wikipedia.org/wiki/Constructive_solid_geometry). Pracujete se základními tvary jako jsou kostky, válce, koule a kužely a konstruujete z nich požadované tvary jejich kombinací, odečítáním jednoho tvaru od druhého nebo jejich protínáním. Tyto nástroje jsou součástí [Pracovní plochy Díl](Part_Workbench/cs.md). Můžete také uplatnit transformace tvarů, jako jsou zaoblení nebo úkosy hran. Tyto nástroje jsou také v [Pracovní ploše Díl](Part_Workbench/cs.md).
 
@@ -40,7 +40,7 @@ Takže začněme tak, že si vyzkoušíme udělat nějaké železné nohy ke sto
 
 <div class="mw-translate-fuzzy">
 
-## 1.metoda - Konstrukční geometrie těles {#metoda___konstrukční_geometrie_těles}
+## 1.metoda - Konstrukční geometrie těles 
 
 -   Začněte na [pracovní ploše Díl](Part_Workbench/cs.md) (menu **Pohled \> Pracovní plocha \> Díl**)
 -   Klikněte na tlačítko <img alt="" src=images/Part_Box.png  style="width:32px;"> [Box](Part_Box/cs.md) pro vytvoření boxu (kostky)
@@ -93,7 +93,7 @@ Mimochodem, můžeme přidat zaoblení, tak bude úhelník více realistický. P
 
 <div class="mw-translate-fuzzy">
 
-## 2.metoda - Vysunutí profilu {#metoda___vysunutí_profilu}
+## 2.metoda - Vysunutí profilu 
 
 Tato metoda vyžaduje začít kreslení 2D profilu. Musíte aktivovat [pracovní plocha 2D Kreslení](Draft_Workbench/cs.md) (menu **Pohled \> Pracovní plocha \> 2D Kreslení**).
 

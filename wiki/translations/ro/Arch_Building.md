@@ -11,7 +11,7 @@ Clădirea Arch este un tip special de obiect al grupului FreeCAD, care este spec
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -44,7 +44,7 @@ Clădirea Arch este un tip special de obiect al grupului FreeCAD, care este spec
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

@@ -22,15 +22,15 @@ Główne okno aplikacji można podzielić z grubsza na 11 sekcji:
 9.  [Przełącznik Środowiska pracy](Std_Workbench.md), który sam w sobie jest paskiem narzędzi.
 10. [Menu standardowe](Standard_Menu.md).
 
-## Elementy interfejsu użytkownika {#elementy_interfejsu_użytkownika}
+## Elementy interfejsu użytkownika 
 
 Podobnie jak wiele innych programów, FreeCAD zawiera standardowy pasek menu, a następnie serię pasków narzędzi i paneli, w których znajdują się narzędzia użytkownika.
 
 ### Menu
 
-Dostępne są następujące menu [standardowe menu](Standard_Menu.md): {{StdMenu|[{{MenuCommand|Plik}}](Std_File_Menu.md)}}, {{StdMenu|[{{MenuCommand|Edycja}}](Std_Edit_Menu.md)}}, {{StdMenu|[{{MenuCommand|Widok}}](Std_View_Menu.md)}}, {{StdMenu|[{{MenuCommand|Narzędzia}}](Std_Tools_Menu.md)}}, {{StdMenu|[{{MenuCommand|Makro}}](Std_Macro_Menu.md)}}, {{StdMenu|[{{MenuCommand|Okna}}](Std_Windows_Menu.md)}}, {{StdMenu|[{{MenuCommand|Pomoc}}](Std_Help_Menu.md)}}.
+Dostępne są następujące menu [standardowe menu](Standard_Menu.md): {{StdMenu|[**Plik**](Std_File_Menu.md)}}, {{StdMenu|[**Edycja**](Std_Edit_Menu.md)}}, {{StdMenu|[**Widok**](Std_View_Menu.md)}}, {{StdMenu|[**Narzędzia**](Std_Tools_Menu.md)}}, {{StdMenu|[**Makro**](Std_Macro_Menu.md)}}, {{StdMenu|[**Okna**](Std_Windows_Menu.md)}}, {{StdMenu|[**Pomoc**](Std_Help_Menu.md)}}.
 
-### Paski narzędzi {#paski_narzędzi}
+### Paski narzędzi 
 
 Standardowe paski narzędzi, które pojawiają się w interfejsie to:
 
@@ -40,7 +40,7 @@ Standardowe paski narzędzi, które pojawiają się w interfejsie to:
 -   Pasek narzędzi widoku: narzędzia do kontrolowania wyglądu obiektów w [Widok 3D](3D_view.md).
 -   Pasek narzędzi struktury: narzędzia do organizowania obiektów w dokumencie i tworzenia łączy do dodatkowych dokumentów.
 
-Można je włączyć i wyłączyć klikając prawym przyciskiem myszy na puste miejsce na jednym z pasków narzędzi i wybierając żądany element, lub z menu {{MenuCommand|Widok → Paski narzędzi}}.
+Można je włączyć i wyłączyć klikając prawym przyciskiem myszy na puste miejsce na jednym z pasków narzędzi i wybierając żądany element, lub z menu **Widok → Paski narzędzi**.
 
 ### Panele
 
@@ -57,22 +57,22 @@ Panelami głównymi, które umożliwiają pracę z obiektami są:
 -   [Pasek statusu](Status_bar/pl.md): pasek, który pokazuje pewne komunikaty z aplikacji i posiada selektor [nawigacja myszy](Mouse_navigation/pl.md).
 -   [Widok DAG](DAG_view/pl.md): alternatywa dla [Widok drzewa](Tree_view/pl.md), który pokazuje relacje pomiędzy różnymi obiektami za pomocą wykresu.
 
-Z wyjątkiem widoku 3D, wszystkie te elementy można włączać i wyłączać klikając prawym przyciskiem myszy na puste miejsce w jednym z górnych pasków narzędzi i wybierając żądany element. Innym sposobem jest wybór menu {{MenuCommand|Widok → Panele}}.
+Z wyjątkiem widoku 3D, wszystkie te elementy można włączać i wyłączać klikając prawym przyciskiem myszy na puste miejsce w jednym z górnych pasków narzędzi i wybierając żądany element. Innym sposobem jest wybór menu **Widok → Panele**.
 
-Aby aktywować i dezaktywować pasek stanu, użyj menu {{MenuCommand|Widok → Pasek stanu}}.
+Aby aktywować i dezaktywować pasek stanu, użyj menu **Widok → Pasek stanu**.
 
-### Pozostałe elementy {#pozostałe_elementy}
+### Pozostałe elementy 
 
 Inne użyteczne interfejsy i okna zawierają:
 
 -   [Inspektor sceny](Std_SceneInspector.md): panel, który pokazuje węzły Coin3D tworzące [scenegraph](scenegraph.md). Dla zaawansowanych użytkowników i programistów pomocne może być rozwiązywanie problemów związanych z bezpośrednią manipulacją sceną i obiektami utworzonymi w [widok 3D](3D_view.md).
 -   [Wykres zależności](Std_DependencyGraph/pl.md): okno pokazujące wykres zależności wszystkich obiektów w dokumencie, utworzonych za pomocą programu pomocniczego [Graphviz](Graphviz.md). Pomocne jest rozpoznanie problemów w tworzeniu obiektów, takich jak zależności kołowe, które mogą nie być całkowicie widoczne z [widok drzewa](tree_view.md) lub [widok DAG](DAG_view.md).
 
-### Możliwość dostosowania {#możliwość_dostosowania}
+### Możliwość dostosowania 
 
 Paski narzędzi mogą mieć więcej lub mniej przycisków. Niestandardowe paski narzędzi można tworzyć w celu przygotowania mieszanki różnych narzędzi i przechowywania opracowanych makrodefinicji.
 
-Opcje te znajdują się w menu, {{MenuCommand|Narzędzia → Dostosuj}}. Patrz [Dostosowywanie interfejsu](Interface_Customization.md).
+Opcje te znajdują się w menu, **Narzędzia → Dostosuj**. Patrz [Dostosowywanie interfejsu](Interface_Customization.md).
 
 
 {{Interface navi

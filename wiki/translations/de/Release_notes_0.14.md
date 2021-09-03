@@ -14,7 +14,7 @@ Jeepmodell von Psicofil
 
 ## Allgemeines
 
-### Migration Internet-Auftritt {#migration_internet_auftritt}
+### Migration Internet-Auftritt 
 
 Letztendlich wurden alle Webapplicationen von FreeCAD von [SourceForge](http://www.sourceforge.net) zu unserer [eigenen Domain](http://www.freecadweb.org) migriert. Der neue FreeCAD-Internetauftrit findet sich unter <http://www.freecadweb.org>, das Wiki ist nun unter <http://www.freecadweb.org/wiki>, der Bug- und Featuretracker unter <http://www.freecadweb.org/tracker>, und das Forum unter <http://forum.freecadweb.org> erreichbar. Ein Loginaccount aus der Zeit als wir noch auf Sourceforge waren kann in ein Benutzerlogin unserer neuen Services übertragen werden. Alle Daten (Forumseinträge etc.) bleiben erhalten. Hier findet sich eine [Anleitung](http://forum.freecadweb.org/viewtopic.php?f=8&t=4942).
 
@@ -22,13 +22,13 @@ Der einzige Bereich von FreeCAD der auf Sourceforge bleibt ist das Hauptgitrepos
 
 Um die wunderbare FreeCAD-Gemeinschaft kennenzulernen und sich von dem Talent, der Energie und der Hilfsbereichschaft anstecken zu lassen reicht ein Besuch in unserem [Forum](http://forum.freecadweb.org).
 
-### Migration zu pyside, FreeCAD ist jetzt vollständig LGPL {#migration_zu_pyside_freecad_ist_jetzt_vollständig_lgpl}
+### Migration zu pyside, FreeCAD ist jetzt vollständig LGPL 
 
 Wegen der vielen Komplikationen, die vom Doppellizenzmodell (LGPL und GPL) von FreeCAD und der Tatsache herrühren, dass einige Komponenten von FreeCAD nicht GPL kompatibel sind (insbesondere der OpenCasCade Geometriekernel), haben wir beschlossen, allen noch verbleibenden GPL Code in FreeCAD zu LGPL umzuwandeln. Als ein Ergebnis dieser Anstrengungen wird [PyQt](http://en.wikipedia.org/wiki/PyQt) nicht weiter verwendet, sondern durch [PySide](http://en.wikipedia.org/wiki/PySide) ersetzt. Dieser Wechsel hat keine großen Konsequenzen für die Ersteller von Python Skripten für FreeCAD, da PyQt weiterhin in FreeCAD verwendet werden kann.
 
 Nachdem der Übergang zur LGPL abgeschlossen war, ist OpenCasCade [ebenfalls gewechselt](http://www.opencascade.org/getocc/license/), was die Lizenzprobleme ebenfalls gelöst hätte. Aber jetzt hat FreeCAD ein viel klareres und einheitlicheres Lizenzmodell, dass auch die striktesten Linux Distributionen zufrieden stellen sollte.
 
-### Plugins und externe Projekte: Teile Bibliothek, BOLTS, Eagle importer {#plugins_und_externe_projekte_teile_bibliothek_bolts_eagle_importer}
+### Plugins und externe Projekte: Teile Bibliothek, BOLTS, Eagle importer 
 
 Im letzten Jahr sind einige interessante Nebenprojekte im Umfeld von FreeCAD entstanden. Es wurde begonnen, eine [Teilebibliothek](http://github.com/yorikvanhavre/FreeCAD-library) aufzubauen, die langsam anwächst und eine Sammlung von wiederverwendbaren Teilen enthält, die in eigene FreeCAD Modelle einfügt werden können. Diese Bibliothek kann mit Hilfe eines Makros innerhalb von FreeCAD gestartet und benutzt werden.
 
@@ -38,7 +38,7 @@ Ein ähnliches, aber ambitionierteres Projekt ist [BOLTS](http://bolts-library.o
 
 Ein weiteres interessantes externes Projekt ist der [EAGLE importer](http://sourceforge.net/projects/eaglepcb2freecad/), mit dem Leiterplattenentwürfe aus mehreren Anwendungen nach FreeCAD importiert werden können.
 
-### WebGL Export {#webgl_export}
+### WebGL Export 
 
 FreeCAD kann jetzt eine Szene als [WebGL](http://en.wikipedia.org/wiki/WebGL)-fähige HTML Datei exportieren. Diese Datei enthält einen eingebetteten Viewer, der auf [three.js](http://threejs.org/) basiert, und mit dem die Szene in WebGL-fähigen Browsern ohne Plugins betrachtet werden kann.
 
@@ -56,13 +56,13 @@ Die Verwendung von [Formatvorlagen](http://forum.freecadweb.org/viewtopic.php?f=
 
 Einige neue Icons wurden zur Standard Ansichtswerkzeugleiste hinzugefügt, die es erlauben, die gesamte 3D Ansicht als Gitternetz oder mit Oberflächen und/oder Kanten anzuzeigen.
 
-### Kantenglättung für 3D Ansicht {#kantenglättung_für_3d_ansicht}
+### Kantenglättung für 3D Ansicht 
 
 Die Kantenglättung für die 3D Ansicht von FreeCAD hat neue Optionen erhalten, die in den Einstellungen angepasst werden können. Mit einer guten 3D Grafikkarte kann mit hochwertiger Kantenglättung ein sehr viel angenehmeres Erscheinungsbild genossen werden.
 
-## Arbeitsbereich Part {#arbeitsbereich_part}
+## Arbeitsbereich Part 
 
-### Freiformfläche und Sweepen {#freiformfläche_und_sweepen}
+### Freiformfläche und Sweepen 
 
 Die Funktionen [Part Loft](Part_Loft.md) (Menü Formteil \--\> Freiformfläche) and [Part Sweep/de](Part_Sweep/de.md) (Menü Formteil \--\> Sweepen) wurden verbessert und können nun Objekte, die mit dem [Arbeitsbereich Entwurf](Draft_Module/de.md) erstellt wurden, als Profile verwenden.
 
@@ -74,11 +74,11 @@ Die neue Funktion [Part Offset](Part_Offset.md) (Menü Formteil \--\> Versetzen)
 
 Die neue Funktion [Part Thickness](Part_Thickness.md) (Menü Formteil \--\> Dicke) ist jetzt verfügbar. Mit dieser Funktion können Volumenkörper in hohle Objekte gewandelt werden, indem jeder Fläche des Volumenkörpers eine Dicke zugewiesen wird.
 
-### Make Compound {#make_compound}
+### Make Compound 
 
 Der [Arbeitsbereich Partverfügt](Part_Workbench/de.md) jetzt über ein [Verbund herstellen](Part_Workbench/de.md) Werkzeug, der dir erlaubt schnell ein Verbundobjekt aus einem Satz ausgewählter Formen erstellen zu können.
 
-### Part Grundkörper {#part_grundkörper}
+### Part Grundkörper 
 
 Neue Körper wurden zu den [Grundkörpern](Part_CreatePrimitives/de.md) (Menü Formteil \--\> Grundkörper erstellen) hinzugefügt. Prisma, Reguläre Polygone und Spiralen können jetzt sehr einfach durch Eingabe einiger Parameter erstellt werden. Weiterhin können einige Funktionen des [Arbeitsbereichs Entwurf](Draft_Module/de.md) auch Nutzen aus der neuen Funktion ziehen und erstellen Grundörper anstatt normale Draftobjekte, wenn die dazugehörige Option in den Einstellungen aktiviert wurde.
 
@@ -88,9 +88,9 @@ Neue Körper wurden zu den [Grundkörpern](Part_CreatePrimitives/de.md) (Menü F
 
 Ein neuer Funktionsbereich Messen wurde dem [Arbeitsbereich Part](Part_Workbench/de.md) hinzugefügt. Werden zwei Formen (Punkte, Kanten oder Flächen) aktiviert, so wird der direkte Abstand und der Abstand entlang der x- und y-Achse angezeigt.
 
-## Arbeitsbereiche PartDesign und Skizze {#arbeitsbereiche_partdesign_und_skizze}
+## Arbeitsbereiche PartDesign und Skizze 
 
-### Validate Skizze {#validate_skizze}
+### Validate Skizze 
 
 Der [Skizzierer](Sketcher_Workbench/de.md) verfügt jetzt über ein neues [Skizze überprüfen](Sketcher_ValidateSketch/de.md) Werkzeug, das dir bei der Überprüfung einer Skizze hilft, indem es fehlende oder überflüssige Beschränkungen findet. Es kann auch automatisch einige fehlende Beschränkungen hinzufügen, damit deine Skizze vollständig beschränkt wird.
 
@@ -98,9 +98,9 @@ Der [Skizzierer](Sketcher_Workbench/de.md) verfügt jetzt über ein neues [Skizz
 
 Die Funktion [involute gear generator](PartDesign_InvoluteGear.md) (Zahnradgenerator) wurde dem [Arbeitsbereich Part Design](PartDesign_Workbench.md) hinzugeügt, um schnell ein Zahnrad mittels Eingabe einiger Parameter zu erstellen.
 
-## Arbeitsbereich Zeichnung {#arbeitsbereich_zeichnung}
+## Arbeitsbereich Zeichnung 
 
-### Automatische Projektionen {#automatische_projektionen}
+### Automatische Projektionen 
 
 Im [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) wurden einige wunderbare Funktionen hinzugefügt. Mit der Funktion [Orthografische Ansichten einfügen](Drawing_Orthoviews.md) können jetzt alle möglichen Ansichten eingefügt werden. Das Einfügen der einzelnen Ansichten lässt sich viel besser steuern als bisher. Eine weitere Hauptfunktion ist die Unterstützung für die Definition von Zeichnungsgrenzen und Titelgrenzen. Eingefügte Projektionen vermeiden so eine Überschneidung mit dem Blattrand oder mit dem Titel.
 
@@ -110,9 +110,9 @@ Im [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) wurden einige wunderbare 
 
 Im [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) ist die neue Funktion [Zeichnung Symbol](Drawing_Symbol.md) verfügbar, mit der schnell SVG-Objekte auf dem Zeichnungsblatt abgelegt werden können. Da diese Objekte innerhalb des FreeCAD-Dokumentes gespeichert werden, ist es nicht nötig die SVG-Dateien zusätzlich zur FreeCAD-Datei mit zu speichern.
 
-## Arbeitsbereich Rendering {#arbeitsbereich_rendering}
+## Arbeitsbereich Rendering 
 
-### Neue Renderingfunktionen {#neue_renderingfunktionen}
+### Neue Renderingfunktionen 
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -122,27 +122,27 @@ Das [Vorlagensystem](Raytracing_Workbench/de#Templates.md) des Arbeitsbereichs R
 
 Die von FreeCAD erstellten \*.pov-Dateien beinhalten neu ein automatisches Seitenverhältnis (auto-aspect ratio). Benutzter brauchen jetzt nicht mehr ein 4:3 Seitenverhältnis in den Renderingeinstellungen einzugeben, oder manuell die Ausgabe zu bearbeiten um das Seitenverhältnis zu ändern um sinnvolle Renderings zu erhalten. Jede Breite und Höhe kann und jetzt problemlos eingegeben werden, ohne dass die gerenderten Objekte zusammengedrückt oder auseinandergezogen werden.
 
-### Unterstützung für Luxrender {#unterstützung_für_luxrender}
+### Unterstützung für Luxrender 
 
 Der [Arbeitsbereich Rendering](Raytracing_Workbench/de.md) unterstützt neben [POV-Ray](http://de.wikipedia.org/wiki/POV-Ray) jetzt auch [LuRender](http://de.wikipedia.org/wiki/LuxRender). Im Gegensatz zu dem [klassischer Raytracer](http://de.wikipedia.org/wiki/Raytracing) POV-Ray ist Luxrender ein [unbiased renderer](http://en.wikipedia.org/wiki/Unbiased_rendering) (unverfälschter Renderer), welcher einerseits zwar viel länger braucht um Szenen zu rendern, andererseits aber auch viel realistischere Lichtverhältnisse erzeugt.
 
-## Arbeitsbereich Tabellenkalkulation {#arbeitsbereich_tabellenkalkulation}
+## Arbeitsbereich Tabellenkalkulation 
 
 Der [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md) wurde in FreCAD neu hinzugefügt. Ein neues 2-dimensionale Tabellenkalkulationsobjekt kann mit der Funktion [spreadsheet](Spreadsheet_Create.md) erstellt werden. Es gibt einen Editor, mit dem der Inhalt des Tabellenkalkulationsobjektes bearbeitet werden kann (Text, Zahlen und einige einfache Formeln werden unterstützt). Weiterhin ist ein spezielles [cell controller](Spreadsheet_Controller.md)-Objekt vorhanden, welches ein Dokument auf bestimmte Objekttypen durchsucht und ein bestimmtes Attribut dieses Objekttypes extrahiert und einen vorgegebenen Bereich von Zellen mit diesem Attribut füllt.
 
 <img alt="" src=images/Arch_tutorial_53.jpg  style="width:1024px;">
 
-## Arbeitsbereich Entwurf {#arbeitsbereich_entwurf}
+## Arbeitsbereich Entwurf 
 
-### Im- und Export von DWG Dateien {#im__und_export_von_dwg_dateien}
+### Im- und Export von DWG Dateien 
 
 FreeCAD kann nun, Dank des kostenlosen, plattformübergreifenden [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) in das [DWG-Format](https://en.wikipedia.org/wiki/.dwg) importieren und exportieren. Sobald es installiert ist und sein Pfad in den FreeCAD Entwurf Einstellungen festgelegt wurde, kann FreeCAD es zum Importieren und Exportieren von dwg Dateien verwenden, indem es diese in dxf konvertiert und dann den dxf Importeur und Exporteur für den Entwurf verwendet. Der Import und Export von dwg Dateien hat daher die gleichen Begrenzungen wie das [dxf Format](Draft_DXF/de.md).
 
-### Entwurf zu Zeichnung jetzt auch für Gruppen {#entwurf_zu_zeichnung_jetzt_auch_für_gruppen}
+### Entwurf zu Zeichnung jetzt auch für Gruppen 
 
 Das Werkzeug [Entwurf zu Zeichnung](Draft_Drawing.md), mit dem man Entwurfsobjekte in eine [Zeichnung](DrawingWorkbench/de.md) einfügen kann, kann jetzt auch auf Gruppen angewandt werden, wodurch weniger Ansichtsobjekten benötigt werden. Indem man Entwurfsobjekte geschickt in Gruppen zusammenfasst, kann man schnell das Erscheinungsbild vieler Objekte auf einer Seite anpassen.
 
-### Überarbeite Bemaßungen {#überarbeite_bemaßungen}
+### Überarbeite Bemaßungen 
 
 Das [Bemaßungswerkzeug](Draft_Dimension/de.md) wurde komplett überarbeitet. Bemaßungsobjekte verhalten sich jetzt sehr viel besser und haben neue Eigenschaften erhalten, die es erlauben, sie stärker anzupassen, unter anderem schönere und skalierbare Pfeile, bessere Kontrolle über die Position des Textes und die Richtung der Bemaßung und bessere Unterstützung für das [Zeichnungsmodul](Drawing_Workbench/de.md). Man kann Bemaßungen jetzt in jeder Ebene im 3D Raum positioniere und erhält korrekte Ergebnisse wenn sie mit dem [Draft Drawing](Draft_Drawing.md) Werkzeug auf einer Zeichnung platziert werden.
 
@@ -162,7 +162,7 @@ Unterstützung für [Ellipsen](Draft_Ellipse.md) wurde hinzugefügt. Der Arbeits
 
 Ähnlich wie Abrundung, die in [Version 0.13](Release_notes_013/de.md) eingeführt wurden, erhalten Rechtecke, Kantenzüge und Polygone nun eine Faseneigenschaft. Die Fase wirkt vor der Abrundung und beide Eigenschaften können gleichzeitig verwendet werden um einen einfachen Kantenzug schnell in ein komplexes Objekt zu verwandeln, das aus vielen Abschnitten besteht.
 
-### Überarbeitetes Herauf- und Herabstufen {#überarbeitetes_herauf__und_herabstufen}
+### Überarbeitetes Herauf- und Herabstufen 
 
 Die [Herauf-](Draft_Upgrade.md) and [Herabstufen](Draft_Downgrade.md) Werkzeuge waren bisher ein Buch mit sieben Siegeln, bei denen man nie wusste, was das Ergebnis sein würde. Sie wurden überarbeitet und geben nun sehr viel hilfreichere Rückmeldung darüber, was sie getan haben und warum. Sie sind jetzt auch von Python Skripten aus nutzbar, und nicht nur als ganzes, sondern auch ihre internen Operationen, so dass man gezielt eine bestimmte Heraufstufung erzwingen kann.
 
@@ -178,9 +178,9 @@ Das [Textformen](Draft_ShapeString.md) Werkzeug erzeugt planare Objekte aus eine
 
 Zu den bereits vorhandenen [Kreisbogen](Draft_Arc/de.md) und [B-spline](Draft_BSpline/de.md) Kurven gesellt sich ein weiterer Kurventyp: [Bezier Kurven](Draft_BezCurve/de.md). Sie können genauso wie andere Objekte im [Arbeitsbereich Entwurf](Draft_Workbench.md) durch Anklicken von Punkten erstellt werden, außerdem können sie dann [bearbeitet](Draft_Edit/de.md) und ihre Kontrollpunkte verändert werden, was eine präzise Kontrolle der Kurvenform erlaubt.
 
-## Arbeitsbereich Architektur {#arbeitsbereich_architektur}
+## Arbeitsbereich Architektur 
 
-### Vorlagen und Profile für Strukturbauteile {#vorlagen_und_profile_für_strukturbauteile}
+### Vorlagen und Profile für Strukturbauteile 
 
 Das [Arch Strukturtool](Arch_Structure/de.md) hat mehrere Verbesserungen erhalten. Es sind nun einige Vorlageprofile vorhanden, wodurch es möglich ist sehr schnell eine Stütze oder einen Träger basierend auf einem Standardprofil wie INP oder HEB zu erstellen. Weiterhin wurde das Platzierungssystem um einen speziellen Fangmodus ([snapping](Draft_Snap.md)) erweitert. Strukturelemente können jetzt auch direkt einen Extrusionspfad haben, was sehr komplexe Bauteile möglich macht. Sehr viele der in [BOLTS](#Plugins_and_side_projects:_Parts_library.2C_BOLTS.2C_Eagle_importer.md) vorhandenen Bauteile (u.a. alle Europäische rechteckige, quadratische und runde Hohlprofile sowie Standarddoppel-T-Profile) können direkt als Arch Struktur erzeugt werden.
 
@@ -194,7 +194,7 @@ Dem [Fenstertool](Arch_Window.md) wurde ein neues Vorlagensystem hinzugefügt. D
 
 Ein neues [Raumobjekt](Arch_Space.md) welches es erlaubt Raumvolumen und Geschossflächen zu errechnen ist jetzt verfügbar. Dieses Raumobjekt umfasst immer einen Volumenkörper, somit ist das Raumvolumen und die Bodenfläche immer bekannt. Raumobjekte können aus einfachen Volumenkörpern oder aus einer Zusammenstellung von Grenzflächen erstellt werden.
 
-### Mehrschichtige Wände {#mehrschichtige_wände}
+### Mehrschichtige Wände 
 
 Durch einen einfachen Trick unterstützt jetzt die Funktion [Wände](Arch_Wall.md) auch den mehrschichtigen Aufbau von Wänden. Mehrere Wände nutzen einfach die selbe Basislinie und werden durch einen Abstand zu dieser Basisline positioniert. Wird dies mit [Arch Rahmen](Arch_Frame.md) kombiniert, können sehr komplexe Ständerwände mit Dämmung erstellt werden. Weiterhin sind die mehrschichtigen Wände so untereinander verknüpft, dass Fensteröffnungen in allen Schichten erstellt werden.
 
@@ -222,11 +222,11 @@ Ein einfaches aber nützliches neues Tool des Architekturarbeitsbereiches ist de
 
 Ein neues 35 Seiten umfassendes [Tutorial](Arch_tutorial/de.md) bechreibt den [Arbeitsbereich Architektur](Arch_Module/de.md) sehr detailliert an Hand eines vollständigen Beispiels.
 
-### Im- und Export von Ifc-Dateien {#im__und_export_von_ifc_dateien}
+### Im- und Export von Ifc-Dateien 
 
 Viel Zeit wurde in die Arbeit an FreeCAD und der Arbeit an [IfcOpenShell](http://www.ifcopenshell.org), welches für die Verarbeitung von Ifc-Dateien im [Arch-Arbeitsbereich](Arch_Workbench/de.md) verwendet wird, investiert. Wenn eine [Entwicklerversion](http://github.com/aothms/IfcOpenShell) von IfcOpenShell verwendet wird, können auch komplexe Geometrieen von Ifc-Dateien importiert werden. Erst ab einer mittleren Dateigrösse von ca. 50 MB (unkomprimiert) steigt die Importdauer expotentiell stark an. Mit der oben genannten Entwicklerversion von IfcOpenShell können auch Modelle aus FreeCAD nach Ifc so exportiert werden, dass die meisten grossen CAD-Programme (oder BIM-Plattformen, wie man heutzutage gerne sagt) diese problemlos importieren können.
 
-## Vollständige Liste {#vollständige_liste}
+## Vollständige Liste 
 
 Die vollständige Liste aller Bugfixes und Neuen Funtionen kann [hier](http://freecadweb.org/tracker/changelog_page.php) nachgelesen werden.
 

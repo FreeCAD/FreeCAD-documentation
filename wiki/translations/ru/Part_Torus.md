@@ -21,7 +21,7 @@
 1.  Переключитесь на <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [верстак Part](Part_Workbench/ru.md)
 2.  Существует несколько способов вызова команды:
     -   Нажмите на иконку **<img src="images/Part_Torus.svg" width=16px> тора** на панели инструментов.
-    -   Выберите из меню {{MenuCommand|Деталь → Примитивы → <img src="images/Part_Torus.svg" width=16px> Тор}}.
+    -   Выберите из меню **Деталь → Примитивы → <img src="images/Part_Torus.svg" width=16px> Тор**.
 
 
 </div>

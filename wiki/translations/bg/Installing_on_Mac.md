@@ -36,7 +36,7 @@ If there are any issues with the HomeBrew Cask or Formula you may report them to
 
 Тази страница описва употребата на FreeCAD инсталаторът. Също включва инструкции за деинсталиране. След като инсталирате FreeCAD вижте страницата [първи стъпки](Getting_started/bg.md)!
 
-### Проста Инсталация {#проста_инсталация}
+### Проста Инсталация 
 
 FreeCAD инсталаторът е под формата на инсталационнен пакет (.mpkg) съдържащ се в disk image file.
 

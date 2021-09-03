@@ -23,7 +23,7 @@ Il comando **Vista dimetrica** orienta la camera della [vista 3D](3D_view/it.md)
 
 <div class="mw-translate-fuzzy">
 
--   Selezionare l\'opzione {{MenuCommand|Visualizza → Viste standard → Assonometria → Dimetrica}} dal menu.
+-   Selezionare l\'opzione **Visualizza → Viste standard → Assonometria → Dimetrica** dal menu.
 
 
 </div>

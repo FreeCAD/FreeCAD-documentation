@@ -17,7 +17,7 @@ The **Std Print** command is primarily intended to print [TechDraw Workbench](Te
 1.  If required activate the correct TechDraw page or change the 3D view to your liking.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_Print.svg" width=16px> [Std Print](Std_Print.md)** button.
-    -   Select the {{MenuCommand|File → <img src="images/Std_Print.svg" width=16px> Print...}} option from the menu.
+    -   Select the **File → <img src="images/Std_Print.svg" width=16px> Print...** option from the menu.
     -   Use the keyboard shortcut: **Ctrl**+**P**.
 3.  The standard print dialog box will pop up.
 

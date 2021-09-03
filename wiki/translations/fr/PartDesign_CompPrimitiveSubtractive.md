@@ -12,7 +12,7 @@
 
 Crée une primitive soustractive dans le corps actif, en soustrayant sa forme du solide existant.
 
-## Types de primitives {#types_de_primitives}
+## Types de primitives 
 
 -   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Cube soustractif](PartDesign_SubtractiveBox/fr.md)
 -   <img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Cône soustractif](PartDesign_SubtractiveCone/fr.md)

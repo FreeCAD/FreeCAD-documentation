@@ -11,7 +11,7 @@
 
 Attributes of the class used to create the object can also be saved, that is, \"serialized\". This can be further controlled by the `__getstate__` and `__setstate__` methods of the class.
 
-## Saving all attributes {#saving_all_attributes}
+## Saving all attributes 
 
 By default, attributes saved in an object class are those from the `__dict__` dictionary of the class.
 
@@ -68,7 +68,7 @@ When we re-open the file we can inspect the dictionary of the object\'s class.
 
 We see that all attributes that start with `self` in the class were saved. These can be of different types, including string, list, float, and dictionary. The original tuple for `self.color` was converted to a list, but otherwise all attributes were loaded the same.
 
-## Saving specific attributes {#saving_specific_attributes}
+## Saving specific attributes 
 
 We can define a class similar to the first one, that implements specific attributes to save.  
 ```python
@@ -119,7 +119,7 @@ The original tuple for `self.color` was converted to a list, but otherwise the i
 
 ## Usage
 
-### Identifying the type {#identifying_the_type}
+### Identifying the type 
 
 Normally, [scripted objects](scripted_objects.md) should use [properties](property.md) to store information, as these are automatically restored when the document is opened.
 
@@ -143,7 +143,7 @@ class DraftObject:
 
 All objects have a `TypeId` property, but for [scripted objects](scripted_objects.md) this property is not useful, as it always refers to the parent C++ class, for example, [`Part::Part2DObjectPython`](Part_Part2DObject.md) or [`Part::FeaturePython`](Part_Feature.md). Therefore, having this additional `Proxy.Type` attribute in the class is useful to treat each object in a particular way.
 
-### Migrating the object {#migrating_the_object}
+### Migrating the object 
 
 Version information can be stored inside the class in order to verify the origin of an object.
 

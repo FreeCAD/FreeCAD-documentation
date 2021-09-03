@@ -19,7 +19,7 @@ Alle Abhängigkeiten von FreeCAD sind bereits installiert, miteinander kompatibe
 -   Für diejenigen, die obskure \*nix Distributionen und [Gebrauchsanweisungen sind nicht verfügbar](Compile_on_Linux/Unix#Getting_the_dependencies/de.md) für das Holen von Abhängigkeiten verwenden, ist alles, was du auf deinem Arbeitsplatzrechner installieren musst, ein Docker, der in vielen Distributionen recht häufig verfügbar ist.
 -   Er bietet eine statische, unveränderliche Entwicklungsumgebung. Ich persönlich finde das nützlich, wenn ich bei der Entwicklung die Anzahl der potentiellen Variablen, die ein Problem verursachen könnten, reduzieren möchte. Du weist, dass du zwischen den Builds nichts Esoterisches in der Umgebung verändert hast. Für Entwickler, die zusammenarbeiten und beide den gleichen Docker Container verwenden, kannst du sicher sein, dass ihr beide von der gleichen Umgebung aus arbeitet, was Kommunikationsfehler aufgrund von Unterschieden in der Umgebung reduziert.
 
-## Docker Repositorien {#docker_repositorien}
+## Docker Repositorien 
 
 -   Original: <https://gitlab.com/daviddaish/freecad_docker_env>
 -   Offiziell: <https://GitHub.com/FreeCAD/Docker>
@@ -31,7 +31,7 @@ Alle Abhängigkeiten von FreeCAD sind bereits installiert, miteinander kompatibe
 
 ## Installation
 
-### Herunterladen der Quelle {#herunterladen_der_quelle}
+### Herunterladen der Quelle 
 
 Der beste Weg, den Quellcode von FreeCAD zu erhalten, ist das Klonen des [Git Repositorium](https://github.com/FreeCAD/FreeCAD). Dazu benötigst du das `git` Programm, das in den meisten Linux und Mac OS Distributionen einfach installiert werden kann, und es kann auch von der [offiziellen Website](http://git-scm.com/) bezogen werden.
 
@@ -48,7 +48,7 @@ Weitere Informationen über die Verwendung von Git und das Einbringen von Code i
 
 Alternativ kannst du den Quellcode als [archive](https://github.com/FreeCAD/FreeCAD/releases/latest), eine `.zip` oder `.tar.gz` Datei herunterladen und in das gewünschte Verzeichnis entpacken.
 
-### Erstelle ein Build Verzeichnis {#erstelle_ein_build_verzeichnis}
+### Erstelle ein Build Verzeichnis 
 
 Erstelle ein Verzeichnis, das deine kompilierten FreeCAD Quellen enthält.
 
@@ -57,7 +57,7 @@ Erstelle ein Verzeichnis, das deine kompilierten FreeCAD Quellen enthält.
 mkdir ~/my_code/freecad_build
 }}
 
-### Docker Abbild ziehen {#docker_abbild_ziehen}
+### Docker Abbild ziehen 
 
 Ziehe das Docker Abbild. (Offizielle Bild kommt bald.)
 
@@ -66,7 +66,7 @@ Ziehe das Docker Abbild. (Offizielle Bild kommt bald.)
 docker pull registry.gitlab.com/daviddaish/freecad_docker_env:latest
 }}
 
-### Zugriff auf deinen Windowmanager erlauben {#zugriff_auf_deinen_windowmanager_erlauben}
+### Zugriff auf deinen Windowmanager erlauben 
 
 Damit FreeCAD seine GUI aus dem Docker Container heraus starten kann, musst du Docker Zugriffsrechte für deinen Windowmanager geben. In den meisten Linux Distributionen ist dies das X Fenster System. Du kannst den unten stehenden Befehl verwenden, um einen pauschalen Zugriff auf X zu erlauben, bis du deinen Rechner neu startest oder dich abmeldest.
 
@@ -77,11 +77,11 @@ xhost +
 
 Wenn du mit nicht vertrauenswürdigen Systemen verbunden bist, z.B. über `ssh`, macht dich das anfällig für bösartigen Code. Schließe entweder alle `ssh` Verbindungen, oder schau dir sicherere xhost Berechtigungen an, was außerhalb des Umfanges dieses Tutorials liegt.
 
-#### Mac OS Anwender {#mac_os_anwender}
+#### Mac OS Anwender 
 
 Für diejenigen, die Mac OS verwenden, ist das X Fenster System möglicherweise nicht installiert. Das XQuartz Projekt ist ein seit langem laufendes quelloffenes Projekt, das es dir erlaubt, es auf deinem Computer zu installieren. [Du kannst es hier finden](https://www.xquartz.org/).
 
-### Starte das Docker Abbild {#starte_das_docker_abbild}
+### Starte das Docker Abbild 
 
 Weise Umgebungsvariablen zu, so dass der Docker Container den FreeCAD Quellcode und das Build Verzeichnis einhängen wird. Zusätzlich kannst du ein zusätzliches Verzeichnis einhängen, das alle Dateien enthält, die du zu Testzwecken verwenden möchtest. In dem untenstehenden Schnipsel haben wir es als dein Heimverzeichnis als einfache Standardvorgabe belassen.
 
@@ -104,7 +104,7 @@ docker run -it --rm \
 registry.gitlab.com/daviddaish/freecad_docker_env:latest
 }}
 
-### FreeCAD bauen {#freecad_bauen}
+### FreeCAD bauen 
 
 Du kannst FreeCAD mit dem installierten Build Skript oder mit deiner bevorzugten Methode bauen.
 
@@ -113,7 +113,7 @@ Du kannst FreeCAD mit dem installierten Build Skript oder mit deiner bevorzugten
 /root/build_script.sh
 }}
 
-### FreeCAD ausführen {#freecad_ausführen}
+### FreeCAD ausführen 
 
 Sobald FreeCAD gebaut wurde, kann es wie gewohnt ausgeführt werden.
 

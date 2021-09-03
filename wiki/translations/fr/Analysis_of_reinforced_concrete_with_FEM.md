@@ -21,11 +21,11 @@ Si le rapport de renforcement requis n\'est pas uniforme sur toute la section, l
 
 En guise de mise en garde, la conception d\'une structure en béton sûre et durable requiert bien plus que ce que l\'atelier FEM peut actuellement fournir. Par exemple, la méthode ne calcule pas la largeur des fissures (importante pour la durabilité et la fonctionnalité), ni les déformations précises (les résultats FEM pour le béton sont simplement linéaires-élastiques), et ne tient pas compte des exigences en matière d\'ancrage des armatures (qui entraîneraient une augmentation des taux de renforcement requis dans les zones d\'ancrage). De plus, il ne prévoit pas non plus l\'écrasement du béton (bien que l\'indication de cela puisse être obtenue en traçant la contrainte de Mohr-Coulomb - voir plus loin), ce qui pourrait signifier que le béton se ruine avant que le renfort ne cède, entraînant une défaillance fragile de la structure globale. Cette limitation et d\'autres signifient que la fonctionnalité béton de FEM ne peut être utilisée que pour évaluer des conceptions conceptuelles, tandis que les décisions de conception détaillées critiques pour la sécurité et les performances devraient être laissées à des professionnels qualifiés.
 
-## Géométrie du modèle, charges et supports {#géométrie_du_modèle_charges_et_supports}
+## Géométrie du modèle, charges et supports 
 
 Bien que la routine béton de FEM n\'exige aucun critère supplémentaire en matière de géométrie, de charges et de supports, il convient de garder à l'esprit que des angles vifs et un support sur une arête ou un sommet peuvent introduire des concentrations de contraintes qui conduiront à des taux de renforcement extrêmement élevés et irréalistes à ces endroits ou à leur proximité.
 
-## Paramètres des matériaux {#paramètres_des_matériaux}
+## Paramètres des matériaux 
 
 L\'atelier FEM dispose d\'un matériau spécifique pour les matériaux renforcés, qui combine un matériau de matrice (par exemple le béton) et un matériau de renforcement (par exemple de l\'acier). Pour l\'analyse du béton armé avec FEM, les paramètres suivants doivent être spécifiés au minimum :
 
@@ -46,7 +46,7 @@ Veuillez noter que trois types d'analyses sont effectuées : 1) Une analyse éla
 
 Dans la suite de cet article, quelques cas pratiques seront analysés pour discuter de l\'application de la méthode.
 
-### Poutre simplement supportée avec une charge uniforme {#poutre_simplement_supportée_avec_une_charge_uniforme}
+### Poutre simplement supportée avec une charge uniforme 
 
 Une poutre en béton de 4,0 x 0,1 x 0,3 m est chargée par son propre poids et par une charge répartie de 100 kN (25 kN/m).
 
@@ -75,7 +75,7 @@ Le graphique de Mohr Coulomb montre que la poutre est effectivement sujette à l
 
 Le rapport de renforcement et la contrainte de Mohr Coulomb indiquent que nous avons un problème et qu\'il est nécessaire de repenser notre conception. Les solutions potentielles consistent à augmenter les dimensions de la poutre ou à utiliser du béton précontraint. Plus de détails peuvent être trouvés dans le post suivant : <https://forum.freecadweb.org/viewtopic.php?f=18&t=28821&start=10#p235003>
 
-### Poutre avec support à mi-portée {#poutre_avec_support_à_mi_portée}
+### Poutre avec support à mi-portée 
 
 Une poutre en béton de 8,0 x 0,2 x 0,4m est chargée par son propre poids et par une charge répartie de 160 kN (20 kN/m).
 
@@ -122,7 +122,7 @@ La nécessité de renforcement énoncée ci-dessus s'accorde bien avec celle obt
 
 Enfin, une vérification des contraintes de Mohr Coulomb est à effectuer pour vérifier le potentiel d\'écrasement du béton. Pour cette vérification, la résistance à la compression caractéristique du béton (25 MPa) doit être divisée par un coefficient de matériau approprié (\> 1,0).
 
-### Mur en cisaillement avec une charge uniforme {#mur_en_cisaillement_avec_une_charge_uniforme}
+### Mur en cisaillement avec une charge uniforme 
 
 Un mur de 4,0 x 2,0 x 0,15 m est soutenu par deux colonnes de 0,5 m de large. Ce mur est chargé par son propre poids et par une charge répartie de 1,0MN sur son sommet.
 
@@ -149,7 +149,7 @@ L\'image ci-dessus montre les zones de ferraillage à ratio constant possibles p
 
 Enfin, une analyse des contraintes de Mohr Coulomb montre qu'aucun concassage de béton n'apparait dans le mur. <https://forum.freecadweb.org/viewtopic.php?f=18&t=28821&start=10#p234673>
 
-### Poutre encastrée avec ouverture {#poutre_encastrée_avec_ouverture}
+### Poutre encastrée avec ouverture 
 
 Le Guide du praticien FIB sur la modélisation par éléments finis des structures en béton armé contient un exemple de conception d\'une poutre en béton encastrée avec ouverture. L\'exemple est utilisé dans ce rapport pour illustrer la méthode \"Strut-and-Tie\". Ici, les résultats seront comparés à ceux obtenus avec l'atelier FEM de FreeCAD.
 

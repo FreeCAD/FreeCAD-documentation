@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Un **piano di taglio** divide lo spazio dell\'oggetto in due metà. Tutte le parti dell\'oggetto che si trovano in un semispazio sono visibili, mentre le parti nell\'altra metà sono invisibili. Gli oggetti sembrano affettati e diventano visibili i dettagli interni. Il piano si attiva nel menu {{MenuCommand|Visualizza → Piano di taglio}}.
+Un **piano di taglio** divide lo spazio dell\'oggetto in due metà. Tutte le parti dell\'oggetto che si trovano in un semispazio sono visibili, mentre le parti nell\'altra metà sono invisibili. Gli oggetti sembrano affettati e diventano visibili i dettagli interni. Il piano si attiva nel menu **Visualizza → Piano di taglio**.
 
 
 </div>
@@ -26,7 +26,7 @@ Un **piano di taglio** divide lo spazio dell\'oggetto in due metà. Tutte le par
 
 ## Utilizzo
 
-1.  Select the {{MenuCommand|View → <img src="images/Std_ToggleClipPlane.svg" width=16px> Clipping plane}} option from the menu.
+1.  Select the **View → <img src="images/Std_ToggleClipPlane.svg" width=16px> Clipping plane** option from the menu.
 2.  In the Clipping task panel do one of the following:
     -   Check one or more of the {{CheckBox|TRUE|Clipping X}} to {{CheckBox|TRUE|Clipping Z}} checkboxes.
         -   Optionally change the offset distance(s).
@@ -42,7 +42,7 @@ Un **piano di taglio** divide lo spazio dell\'oggetto in due metà. Tutte le par
 
 ## Note
 
--   To clearly distinguish the interior of partially clipped objects change their **Lighting** property to \'One side\'. The color of the interior side of their faces will then depend on the backlight settings: {{MenuCommand|Edit → Preferences... → Display → 3D View → Backlight color - Intensity}}. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   To clearly distinguish the interior of partially clipped objects change their **Lighting** property to \'One side\'. The color of the interior side of their faces will then depend on the backlight settings: **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 
 <div class="mw-translate-fuzzy">

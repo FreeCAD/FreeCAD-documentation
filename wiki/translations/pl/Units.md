@@ -54,11 +54,11 @@ pq('sin(pi)')
 b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 ```
 
-## Obsługiwane jednostki {#obsługiwane_jednostki}
+## Obsługiwane jednostki 
 
 Pełna lista wszystkich obsługiwanych jednostek znajduje się [na tej stronie](Expressions/pl#Units.md).
 
-## Cel i zasady: propozycja rozszerzenia systemu zarządzania jednostką {#cel_i_zasady_propozycja_rozszerzenia_systemu_zarządzania_jednostką}
+## Cel i zasady: propozycja rozszerzenia systemu zarządzania jednostką 
 
 W kolejnych sekcjach zaproponowano system zarządzania jednostkami rozszerzającymi, rozwijający koncepcję **systemu jednostek**, aktywowanego podczas uruchomionej instancji FreeCAD. Zainteresowanie zdefiniowaniem takiego nowego pojęcia polega na łatwiejszej pracy z tyloma typami jednostek **fizycznych**, ile się chce *(nawet tych tworzonych przez użytkowników)*, bez zwiększania złożoności zarządzania jednostkami dla użytkownika, ani dla programistów FreeCAD.
 
@@ -78,13 +78,13 @@ Dzięki temu rozszerzeniu dąży się do ułatwienia skalowania jednostek, któr
 
 Dzięki temu rozszerzeniu wymiana danych między tymi dwoma rodzajami działań staje się łatwiejsza.
 
-## Burza mózgów {#burza_mózgów}
+## Burza mózgów 
 
 W tej sekcji podkreślone są konteksty stosowania takiego systemu zarządzania jednostkami. Na podstawie tych uwarunkowań jesteśmy w stanie określić jego specyfikacje techniczne.
 
 Zasadniczo podane są 2 przykładowe sytuacje.
 
-### Kontekst 1: otwarcie pliku z danymi {#kontekst_1_otwarcie_pliku_z_danymi}
+### Kontekst 1: otwarcie pliku z danymi 
 
 Otrzymujesz plik zawierający na przykład model geometryczny lub opisujący materiał o dość wielu właściwościach. Model geometryczny jest określony w metrach lub właściwościach materiału zgodnie z międzynarodowym systemem jednostek miar.
 
@@ -94,19 +94,19 @@ Jesteś ekspertem w modelowaniu FE, i zazwyczaj pracujesz z milimetrami na dług
 
 W tym przypadku, zarządzanie jednostkami jest wymagane do skalowania danych z początkowego systemu jednostek zdefiniowanego w pliku wejściowym do systemu jednostek docelowych zdefiniowanego przez użytkownika.
 
-### Kontekst 2: przełączanie układu jednostek w czasie pracy {#kontekst_2_przełączanie_układu_jednostek_w_czasie_pracy}
+### Kontekst 2: przełączanie układu jednostek w czasie pracy 
 
 W tym przypadku, możesz być jednocześnie facetem, który sporządza rysunek, i facetem, który będzie zarządzał modelowaniem FE. Podobnie jak w poprzednim przypadku, systemy jednostkowe dla tych 2 zadań nie są takie same i musisz przełączyć początkowy system jednostek w czasie pracy na swój ulubiony.
 
 ## Organizowanie
 
-### Logika skalowania jednostek {#logika_skalowania_jednostek}
+### Logika skalowania jednostek 
 
-#### Spójność jednostek w całej bieżącej instancji FreeCAD {#spójność_jednostek_w_całej_bieżącej_instancji_freecad}
+#### Spójność jednostek w całej bieżącej instancji FreeCAD 
 
 Proponowany system oparty jest na podstawowym założeniu: użytkownik pracuje w jednolitym systemie jednostek. Na przykład, oznacza to, że jeśli użytkownik wyraża długość w milimetrach, to koniecznie powierzchnie będą wyrażone w milimetrach kwadratowych, a nie w metrach kwadratowych. To jest **hipoteza pierwsza**.
 
-#### System jednostek {#system_jednostek}
+#### System jednostek 
 
 Ze względu na \"hipotezę pierwszą\", możliwe i istotne jest zdefiniowanie systemu jednostkowego. System jednostkowy odnosi się do:
 
@@ -130,7 +130,7 @@ Oto kilka przykładów systemów jednostek.
 -   milimetr, kilogram, milisekunda, amper, kelwin, mol, kandel,
 -   \...
 
-#### Jednostki bazowe i pochodne {#jednostki_bazowe_i_pochodne}
+#### Jednostki bazowe i pochodne 
 
 Jednostki pochodne są tworzone przez zestawienie jednostek bazowych. Na przykład, przyspieszenie (m/s) łączy w sobie jednocześnie długość i czas. Ciekawy obraz przedstawiający relacje pomiędzy jednostkami bazowymi i pochodnymi można zobaczyć [tutaj](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf) również z NIST.
 
@@ -143,7 +143,7 @@ Zgodnie z [Międzynarodowym Układem Jednostek Miar *(SI)*](http://physics.nist.
 
 Aby przezwyciężyć te ograniczenia i zachować elastyczność, proponowany system preferuje użycie wielkości jednostkowych zamiast symboli jednostkowych, które mimo to są dostępne ze względów ergonomicznych.
 
-### Model danych {#model_danych}
+### Model danych 
 
 Przedstawiono trzy podstawowe obiekty systemu zarządzania jednostkami, a mianowicie **jednostkę**, **słownik jednostek** i **system jednostek**.
 
@@ -200,15 +200,15 @@ Na przykład wykaz *symboli* jednostki DŁUGOŚĆ i związanych z nimi *wielkoś
 
 Standardowe *symbole* można znaleźć na stronie internetowej [NIST](http://physics.nist.gov/cuu/Units/units.html) oraz na str. 23-26 i str. 32 (\"tona metryczna\" lub \"tona\") z [Międzynarodowy Układ Jednostek Miar *(SI)*](http://physics.nist.gov/Pubs/SP330/sp330.pdf).
 
-#### Słownik jednostek {#słownik_jednostek}
+#### Słownik jednostek 
 
 Wszystkie jednostki dostępne w programie FreeCAD, jak również nowe utworzone przez użytkownika, powinny być przechowywane w *słowniku jednostek*, który jest plikiem XML *(plik konfiguracyjny FreeCAD)*, tak aby można je było pobrać w razie potrzeby, tj. w momencie uzyskania skalowania jednostek.
 
-##### Jednostki {#jednostki_1}
+##### Jednostki 
 
 Zestaw jednostek, zawartych w słowniku jednostek.
 
-#### System jednostek {#system_jednostek_1}
+#### System jednostek 
 
 System jednostek to obiekt, który pozwala użytkownikowi zdefiniować aktualną *wielkość* każdej jednostki podstawowej, z którą on pracuje. Na przykład wiedząc, że użytkownik pracuje z milimetrami, tonami i sekundami, dzięki zastosowaniu systemu jednostek, FreeCAD może wiedzieć, że energia wyrażana jest w mililijulach, siła w odniesieniu do newtona i naprężenia w odniesieniu do megapascali.
 
@@ -222,11 +222,11 @@ Określając wielkość 7 jednostek podstawowych, definiuje się system jednoste
 
 Na przykład \[1e-03, 1e+03, 1, 1, 1, 1, 1\], czyli milimetr, tona, sekunda, amperomierz, kelwin, mol, kandela
 
-#### Zarządzanie jednostką w API {#zarządzanie_jednostką_w_api}
+#### Zarządzanie jednostką w API 
 
 Przedstawiono tylko logikę niektórych metod, aby podkreślić niektóre cechy. Metody te mogą należeć do obiektu zwanego **menedżerem jednostki**.
 
-##### Sprawdzanie słownika jednostek {#sprawdzanie_słownika_jednostek}
+##### Sprawdzanie słownika jednostek 
 
 ###### isValid
 
@@ -246,7 +246,7 @@ Słownik jednostek definiuje zbiór jednostek i ich znanych wielkości. Podczas 
 
 -   sprawdzenie, czy długość danych wejściowych oznaczenia jest takiej samej wielkości jak jednostka w słowniku oznaczenia.
 
-##### Jednostki skalujące {#jednostki_skalujące}
+##### Jednostki skalujące 
 
 ###### scaleUnitFromSymbolToSymbol
 
@@ -260,7 +260,7 @@ Znając wartość początkową, jej jednostkę *(po symbolu)* oraz docelowy syst
 
 Znając wartość początkową, jej system jednostek oraz docelową jednostkę *(po symbolu)*, przeskaluj wartość.
 
-#### Motywacje do takiego zarządzania: przykład zastosowania {#motywacje_do_takiego_zarządzania_przykład_zastosowania}
+#### Motywacje do takiego zarządzania: przykład zastosowania 
 
 Załóżmy, że będziemy ustawiać model elementów skończonych. Aby zbudować nasz model, potrzebujemy siatki, właściwości materiału oraz zdefiniować parametry numeryczne. Biorąc pod uwagę, że mogą to być dziesiątki właściwości materiałowych do zarządzania, wyrażonych różnymi jednostkami, czasami nie zawsze bardzo powszechnymi, interesujące jest dla użytkownika jedynie określenie globalnego systemu jednostek, bez zbytniego przejmowania się nimi.
 
@@ -278,7 +278,7 @@ Następnie *targetMagnitude* jest po prostu uzyskiwany w wyniku operacji $\prod_
 
 W ten sposób bardzo łatwo jest zarządzać dowolną liczbą właściwości przy użyciu dowolnego rodzaju jednostek, ze skromnym kodem Pythona.
 
-## Zobacz również {#zobacz_również}
+## Zobacz również 
 
 -   Strona [Wyrażenia](Expressions/pl#Jednostki.md) zawierająca listę wszystkich znanych jednostek.
 -   Dokumentacja [Ilość](Quantity.md),

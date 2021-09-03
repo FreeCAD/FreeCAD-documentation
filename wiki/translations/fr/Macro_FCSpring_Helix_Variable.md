@@ -29,7 +29,7 @@ Détail schématique de la définition du ressort
 
 ![](images/Macro_TruncateSpring_01.png ) 
 
-#### Interface graphique {#interface_graphique}
+#### Interface graphique 
 
 ![](images/Macro_FCSpring_Helix_Variable_01.png ) 
 
@@ -56,7 +56,7 @@ Détail schématique de la définition du ressort
 
 ![](images/Macro_FCSpring_Helix_Variable_02.png ) 
 
-#### Type de ligne {#type_de_ligne}
+#### Type de ligne 
 
 -    {{RadioButton|TRUE|<img src="images/Draft_BSpline.svg" width=24px> Bspline}}**BSpline** : le type de ligne est une BSpline.
 
@@ -96,7 +96,7 @@ Détection : Cylindre (radius), Sphère (rayon), Tore (rayon) , Cône (petit ray
 
 ![](images/Macro_FCSpring_Helix_Variable_02_1.png ) 
 
-#### Position (0)(xx) {#position_0xx}
+#### Position (0)(xx) 
 
 (0)(xx) : Nombre de sélection(s), longueur de l\'axe en mm x 10, est égal au nombres de points de déplacements disponibles sur la longueur de l\'axe (pas de 0.1 mm)
 
@@ -112,7 +112,7 @@ Détection : Cylindre (radius), Sphère (rayon), Tore (rayon) , Cône (petit ray
 
 ![](images/Macro_FCSpring_Helix_Variable_02_2.png ) 
 
-#### Dimensions particulières du ressort {#dimensions_particulières_du_ressort}
+#### Dimensions particulières du ressort 
 
 -    {{SpinBox|Num: 2}}**Numbering of coil** : Numéro de la spire a modifier. (Defaut : 0)
 
@@ -156,19 +156,19 @@ Détection : Cylindre (radius), Sphère (rayon), Tore (rayon) , Cône (petit ray
 
 ![](images/Macro_FCSpring_Helix_Variable_05.png ) 
 
-## Vue rapport {#vue_rapport}
+## Vue rapport 
 
 La fenêtre Vue rapport affiche les détails de la configuration du ressort.
 
 ![](images/Macro_FCSpring_Helix_Variable_06.png ) 
 
-## Exemple de ressort {#exemple_de_ressort}
+## Exemple de ressort 
 
 Exemple de ressort modifié:
 
 ![](images/Macro_FCSpring_Helix_Variable_07.png ) 
 
-## Exemple de vue rapport {#exemple_de_vue_rapport}
+## Exemple de vue rapport 
 
 Dès que la macro est lancée, la liste de la configuration du ressort est affichée sous forme de tableau.
 

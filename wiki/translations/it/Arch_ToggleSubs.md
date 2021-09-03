@@ -31,7 +31,7 @@ Con questo strumento, diventano visibili o nascosti tutti gli oggetti interni so
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un oggetto Arch che ha delle sottrazioni.
-2.  Selezionare il menu {{MenuCommand|Arch → Utilità → <img src="images/Arch_ToggleSubs‏‎.svg" width=16px> [Mostra/Nascondi sottocomponenti](Arch_ToggleSubs‏‎/it‏‎.md)}}.
+2.  Selezionare il menu **Arch → Utilità → <img src="images/Arch_ToggleSubs‏‎.svg" width=16px> [Mostra/Nascondi sottocomponenti](Arch_ToggleSubs‏‎/it‏‎.md)**.
 
 
 </div>
@@ -41,7 +41,7 @@ Con questo strumento, diventano visibili o nascosti tutti gli oggetti interni so
 
 <div class="mw-translate-fuzzy">
 
-Il colore di un elemento di sottrazione può seguire lo stile degli elemnti di [Costruzione di Draft](Draft_ToggleConstructionMode/it.md), attivando l\'opzione appropriata nelle [Preferenze di Arch](Arch_Preferences/it.md), nel menu {{MenuCommand|Modifica → Preferenze → Arch → Applica lo stile di costruzione di Draft}}.
+Il colore di un elemento di sottrazione può seguire lo stile degli elemnti di [Costruzione di Draft](Draft_ToggleConstructionMode/it.md), attivando l\'opzione appropriata nelle [Preferenze di Arch](Arch_Preferences/it.md), nel menu **Modifica → Preferenze → Arch → Applica lo stile di costruzione di Draft**.
 
 
 </div>
@@ -49,7 +49,7 @@ Il colore di un elemento di sottrazione può seguire lo stile degli elemnti di [
 
 <div class="mw-translate-fuzzy">
 
-Lo stile [Costruzione](Draft_ToggleConstructionMode/it.md) di Draft può essere impostato in [Preferenze di Draft](Draft_Preferences/it.md), nel menu {{MenuCommand|Preferenze → Draft → Generale}}.
+Lo stile [Costruzione](Draft_ToggleConstructionMode/it.md) di Draft può essere impostato in [Preferenze di Draft](Draft_Preferences/it.md), nel menu **Preferenze → Draft → Generale**.
 
 
 </div>

@@ -18,8 +18,8 @@ Der Befehl **Std Ansicht von rechts** wendet die Kamerasicht der aktiven [3D-Ans
 
 1.  Es gibt verschiedene Wegen, den Befehl umzusetzen:
     -   Die **<img src="images/Std_ViewRight.svg" width=16px> [Std Ansicht von rechts](Std_ViewRight/de.md)**-Schaltfläche betätigen.
-    -   Den Menüpunkt {{MenuCommand|Ansicht → Standardansichten → <img src="images/Std_ViewRight.svg" width=16px> Ansicht von rechts}} aus dem Menü wählen.
-    -   Den Menüpunkt {{MenuCommand|Standardansichten → <img src="images/Std_ViewRight.svg" width=16px> Ansicht von rechts}} aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
+    -   Den Menüpunkt **Ansicht → Standardansichten → <img src="images/Std_ViewRight.svg" width=16px> Ansicht von rechts** aus dem Menü wählen.
+    -   Den Menüpunkt **Standardansichten → <img src="images/Std_ViewRight.svg" width=16px> Ansicht von rechts** aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
     -   Mit dem Tastenkürzel: **3**.
 
 ## Skripten

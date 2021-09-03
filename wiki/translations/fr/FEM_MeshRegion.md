@@ -17,7 +17,7 @@ Le réaffinement du maillage a l\'avantage de permettre une simulation précise 
 
 1.  Pour activer la fonction, un maillage doit d\'abord être fourni <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM Maillage MEF à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md).
     -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et cliquez sur le bouton <img alt="" src=images/FEM_MeshRegion.svg  style="width:32px;">.
-    -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et sélectionnez l\'option {{MenuCommand|Mesh → <img src="images/FEM_MeshRegion.svg" width=32px> Créer une région de maillage FEM}} dans le menu.
+    -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et sélectionnez l\'option **Mesh → <img src="images/FEM_MeshRegion.svg" width=32px> Créer une région de maillage FEM** dans le menu.
 2.  Modifiez la taille maximale des éléments pour la région.
 3.  Cliquez sur le bouton **OK**.
 4.  Fermez la tâche.
@@ -29,7 +29,7 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
 Vous pouvez créer autant de maillages différents que nécessaire.
 
-## Exemples visuels {#exemples_visuels}
+## Exemples visuels 
 
 <img alt="" src=images/FEMMeshRegion_Example1.png  style="width:300px;"> 
 *Exemple 1 : Le FEMMeshGMSH grossier initial*

@@ -6,13 +6,13 @@
 
 ## Beschreibung
 
-## Beschreibung {#beschreibung_1}
+## Beschreibung 
 
 Erhöht die Toleranz von Kanten/Oberflächen von ausgewählten Objekten.
 
 ## Anwendung
 
-## Anwendung {#anwendung_1}
+## Anwendung 
 
 1.  Wähle das Objekt in der Baumansicht
 2.  Wähle ** OpenSCAD** → **<img src="images/OpenSCAD_IncreaseTolerance.png" width=32px> Toleranz erhöhen** aus dem Top-Menü.

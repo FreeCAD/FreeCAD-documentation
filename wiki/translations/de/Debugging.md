@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Erster Test {#erster_test}
+## Erster Test 
 
 Bevor du den Schmerz der Fehlerdiagnose durchmachst, benutze das [Test Framework](Testing/de.md), um zu überprüfen, ob die Standardtests ordnungsgemäß funktionieren. Wenn sie nicht vollständig ausgeführt werden, liegt möglicherweise eine defekte Installation vor.
 
@@ -39,11 +39,11 @@ Konfiguration:
  -P [ --python-path ] arg Zusätzliche Python-Pfade
  --single-instance        Startet eine (einzige) Instanz der Applikation zu starten
 
-## Erzeugen einer Rückverfolgung {#erzeugen_einer_rückverfolgung}
+## Erzeugen einer Rückverfolgung 
 
 Wenn Du eine FreeCAD Version der Anfangsphase der Entwicklungskurve verwendest, kann sie \"abstürzen\". Du kannst dabei helfen, diese Probleme zu lösen, indem Du einen \"Rückverfolgung\" an die Entwickler schickst. Um dies zu tun, musst Du ein \"Fehlerdiagnose build\" der Software haben. \"Fehlerdiagnose build\" ist ein Parameter, der zur Kompilierungszeit gesetzt wird, also musst Du entweder FreeCAD selbst kompilieren oder Dir eine vorkompilierte \"Fehlerdiagnose\" Version besorgen.
 
-### Für Linux {#für_linux}
+### Für Linux 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -102,7 +102,7 @@ Drucke auch die Werte der lokalen Variablen. Dies kann mit einer Zahl kombiniert
 
 </div>
 
-### Für macOS {#für_macos}
+### Für macOS 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -148,7 +148,7 @@ Dies führt zu einer längeren Auflistung dessen, was das Programm genau getan h
 
 </div>
 
-## Von FreeCAD geladene Bibliotheken auflisten {#von_freecad_geladene_bibliotheken_auflisten}
+## Von FreeCAD geladene Bibliotheken auflisten 
 
 (Anwendbar auf Linux und macOS)
 
@@ -167,7 +167,7 @@ Dadurch wird eine lange Liste der geladenen Ressourcen gedruckt. Wenn z.B. herau
 
 `lsof -p process_id &#124; grep Coin`
 
-## Python Fehlerdiagnose {#python_fehlerdiagnose}
+## Python Fehlerdiagnose 
 
 Für einen moderneren Ansatz zur Fehlerdiagnose bei Python siehe diese Beiträge:
 
@@ -232,7 +232,7 @@ Draft.makeWire(points,closed=False,face=False,support=None)
 
 </div>
 
-### Visual Studio Code (VS Code) {#visual_studio_code_vs_code}
+### Visual Studio Code (VS Code) 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -321,7 +321,7 @@ print(sys.executable)
 
 </div>
 
-## Fehlerdiagnose OpenCasCade {#fehlerdiagnose_opencascade}
+## Fehlerdiagnose OpenCasCade 
 
 Für Entwickler, die tiefer in den OpenCasCade Kernel einsteigen müssen, hat der Benutzer \@abdullah eine [Forumsbetrag](https://forum.freecadweb.org/viewtopic.php?f=10&t=47017) Orientierung erstellt, in der die Vorgehensweise diskutiert wird.
 

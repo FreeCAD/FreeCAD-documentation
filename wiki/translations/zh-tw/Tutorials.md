@@ -136,7 +136,7 @@ Drawing\_tutorial\_result.png\|link=[Drawing tutorial](Drawing_tutorial.md)\|[Dr
 This is the essential introduction to the tools of the Drawing Workbench to create blueprints. Exercise drawing 01.jpg\|link=[Manual:Generating 2D drawings](Manual:Generating_2D_drawings.md)\|[Generating 2D drawings](Manual:Generating_2D_drawings.md) (v0.16)
 Generate 2D projections of your 3D models, and add dimensions.
 
-## 教學-綜合清單 {#教學_綜合清單}
+## 教學-綜合清單 
 
 這裡列出所有不在手冊中的教學課程(不論品質如何)。如果有教學在[:Category:Tutorials中有](:Category:Tutorials.md)，但在此表格中找不到，請將其加入此表格。
 

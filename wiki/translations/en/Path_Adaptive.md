@@ -13,7 +13,7 @@ The <img alt="" src=images/Path_Adaptive.svg  style="width:24px;"> [Adaptive](Pa
 
 Usage instructions for the [Adaptive](Path_Adaptive.md) operation are presented here.
 
-#### Basic Operation {#basic_operation}
+#### Basic Operation 
 
 1.  Press the **<img src="images/Path_Adaptive.svg" width=16px> [Adaptive](Path_Adaptive.md)** icon, or select the ** Path** → **<img src="images/Path_Adaptive.svg" width=24px> [Adaptive](Path_Adaptive.md)** from the top menu.
 2.  Select the tool controller for the Operation from the Tool controller dialogue pop up window, if prompted.
@@ -25,7 +25,7 @@ Usage instructions for the [Adaptive](Path_Adaptive.md) operation are presented 
 6.  If you wish to preview the result before accepting the settings, click **Apply**
 7.  Click **OK** button to confirm and generate paths.
 
-##### Preliminary Notes About Adaptive Clearing {#preliminary_notes_about_adaptive_clearing}
+##### Preliminary Notes About Adaptive Clearing 
 
 -   Depending on the size and complexity of the area for the operation, is might be better to not recompute the operation after every property change; rather, consider:
     -   deactivate the operation with the **<img src="images/Path_OpActiveToggle.svg" width=16px> [Active](Path_OpActiveToggle.md)** toggle tool, make your changes to the operation\'s properties, then click the **<img src="images/Path_OpActiveToggle.svg" width=16px> [Active](Path_OpActiveToggle.md)** icon again to re-activate the operation - which triggers a recompute internally.
@@ -140,11 +140,11 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **User Label**: User assigned label
 
-## Tasks Window Editor Layout {#tasks_window_editor_layout}
+## Tasks Window Editor Layout 
 
 *Descriptions for these settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Geometry {#base_geometry}
+#### Base Geometry 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: delete the selected item(s) in the Base Geometry list

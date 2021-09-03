@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -17,7 +17,7 @@ Funkcja DXF, środowiska Rysunek Roboczy jest modułem oprogramowania używanym 
 
 ## Importowanie
 
-Importer posiada dwa tryby pracy, konfigurowane w menu {{MenuCommand|Edycja → Preferencje → Import/Eksport → DXF}}: Pierwszy jest wbudowany, oparty na C++ i szybki, drugi jest starszy, zakodowany w Pythonie, wolniejszy i wymaga instalacji dodatku, ale czasami lepiej radzi sobie z niektórymi wystąpieniami obiektów i potrafi tworzyć bardziej dopracowane obiekty FreeCAD. Oba obsługują wszystkie wersje DXF począwszy od R12.
+Importer posiada dwa tryby pracy, konfigurowane w menu **Edycja → Preferencje → Import/Eksport → DXF**: Pierwszy jest wbudowany, oparty na C++ i szybki, drugi jest starszy, zakodowany w Pythonie, wolniejszy i wymaga instalacji dodatku, ale czasami lepiej radzi sobie z niektórymi wystąpieniami obiektów i potrafi tworzyć bardziej dopracowane obiekty FreeCAD. Oba obsługują wszystkie wersje DXF począwszy od R12.
 
 Obiekty 3D wewnątrz pliku DXF są przechowywane w binarnym bloku ACIS/SAT, który w tej chwili nie może być odczytany przez FreeCAD. Prostsze obiekty, takie jak 3DFACE, są jednak obsługiwane.
 
@@ -59,7 +59,7 @@ Z powodów licencyjnych, wymagane biblioteki importu/eksportu [DXF](DXF/pl.md) p
 
 Aby uzyskać więcej informacji zobacz stronę [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md).
 
-## Pisanie skryptów {#pisanie_skryptów}
+## Pisanie skryptów 
 
 
 **Zobacz również:**

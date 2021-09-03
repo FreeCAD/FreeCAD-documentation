@@ -35,15 +35,15 @@ Ceci, est le plan du projet d\'intégration de **FreeCAD FEM**, dans le cadre de
 
   : **Units**
 
-## Pense bête {#pense_bête}
+## Pense bête 
 
-### Mailleur Potentiel {#mailleur_potentiel}
+### Mailleur Potentiel 
 
 <img alt="" src=images/Netgen.jpg  style="width:600px;">
 
 Voir [Mesh](FEM_Mesh/fr.md)
 
-### Solveur potentiel {#solveur_potentiel}
+### Solveur potentiel 
 
 Voir [Solveur](FEM_Solver/fr.md)
 

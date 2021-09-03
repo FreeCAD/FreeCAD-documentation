@@ -13,7 +13,7 @@ Iată documentaţia referitoare la [FreeCAD](http://www.freecadweb.org). Vi se o
 
 <div class="mw-translate-fuzzy">
 
-## Hub-urile utilizatorilor {#hub_urile_utilizatorilor}
+## Hub-urile utilizatorilor 
 
 
 </div>
@@ -23,17 +23,21 @@ Iată documentaţia referitoare la [FreeCAD](http://www.freecadweb.org). Vi se o
 
 <img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;">
 
-[Hub-urile utilizatorilor](User_hub/ro.md): Această pagină conţine documente cu caracter general, utile pentru utilizatorii FreeCAD: o listă a tuturor atelierelor, instrucţiuni detaliate cum să instalaţi şi să folosiţi aplicaţiile FreeCAD, îndrumătoarele şi tot ceea ce este necesar ca să începeţi. {{Clear}} <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub.md): Această pagină adună documentaţia destinată utilizatorilor avansaţi şi persoanelor interesate de scripturile python. Tot aici, veţi găsi o colecţie de macro-uri, instrucţiuni despre cum să le instalaţi şi să le utilizaţi, mai multe informaţii despre personalizarea FreeCAD în funcţie de nevoile dvs. specifice. {{Clear}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Developers hub](Developer_hub.md): Această secţiune conţine materiale pentru dezvoltatori: cum să-şi compileze singuri FreeCAD, cum este structurat codul-sursă FreeCAD şi cum să navigheze prin el, cum să dezvolte noi ateliere sau să încorporeze FreeCAD în propria aplicaţie. {{Clear}}
+[Hub-urile utilizatorilor](User_hub/ro.md): Această pagină conţine documente cu caracter general, utile pentru utilizatorii FreeCAD: o listă a tuturor atelierelor, instrucţiuni detaliate cum să instalaţi şi să folosiţi aplicaţiile FreeCAD, îndrumătoarele şi tot ceea ce este necesar ca să începeţi. 
+ <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub.md): Această pagină adună documentaţia destinată utilizatorilor avansaţi şi persoanelor interesate de scripturile python. Tot aici, veţi găsi o colecţie de macro-uri, instrucţiuni despre cum să le instalaţi şi să le utilizaţi, mai multe informaţii despre personalizarea FreeCAD în funcţie de nevoile dvs. specifice. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Developers hub](Developer_hub.md): Această secţiune conţine materiale pentru dezvoltatori: cum să-şi compileze singuri FreeCAD, cum este structurat codul-sursă FreeCAD şi cum să navigheze prin el, cum să dezvolte noi ateliere sau să încorporeze FreeCAD în propria aplicaţie. 
+
 
 
 </div>
 
-## Manualul FreeCAD {#manualul_freecad}
+## Manualul FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Manualul FreeCAD](Manual:Introduction.md) reprezintă o altă cale, mult mai fluentă, de a prezenta informaţiile cuprinse în acest ghid wiki. E gândit să fie citit precum o carte şi prezintă în mod accesibil numeroase alte pagini din *hub*-urile de mai sus. Sunt de asemenea accesibile [versiunile ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), precum şi [câteva traduceri în formatul PDF](https://www.freecadweb.org/manual/). {{Clear}}
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Manualul FreeCAD](Manual:Introduction.md) reprezintă o altă cale, mult mai fluentă, de a prezenta informaţiile cuprinse în acest ghid wiki. E gândit să fie citit precum o carte şi prezintă în mod accesibil numeroase alte pagini din *hub*-urile de mai sus. Sunt de asemenea accesibile [versiunile ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), precum şi [câteva traduceri în formatul PDF](https://www.freecadweb.org/manual/). 
+
 
 
 </div>
@@ -53,9 +57,9 @@ Următorul tabel enumeră toate articolele din acest ghid wiki care formează co
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
 +----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
-## Implicaţi-vă ! {#implicaţi_vă}
+## Implicaţi-vă ! 
 
-### Cum să participaţi {#cum_să_participaţi}
+### Cum să participaţi 
 
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +83,7 @@ Pagina [help FreeCAD/ro](help_FreeCAD/ro.md) descrie asta mult mai detaliat. În
 
 </div>
 
-### Codul sursă {#codul_sursă}
+### Codul sursă 
 
 
 <div class="mw-translate-fuzzy">
@@ -89,7 +93,7 @@ FreeCAD poate fi compilat pe toate platformele utilizând [1](https://cmake.org/
 
 </div>
 
-### Referitor la procesul de dezvoltare {#referitor_la_procesul_de_dezvoltare}
+### Referitor la procesul de dezvoltare 
 
 
 <div class="mw-translate-fuzzy">

@@ -38,7 +38,7 @@ Dato che siamo volontari, possiamo dedicare a FreeCAD solo una limitata quantit�
   **[Artwork project](Artwork_project.md)**                                       A project to update logo and icons                                                                                                GUI                                                                 Current
                                                                                                                                                                                                                                                                                                 
 
-## Calendario delle Versioni {#calendario_delle_versioni}
+## Calendario delle Versioni 
 
 Come nelle maggior parte dei progetti di [Software libero e open source (FLOSS)](http://http://it.wikipedia.org/wiki/Free_and_Open_Source_Software) definire un calendario dei rilasci è molto difficile. Non ci sono date prestabilite e tutto \"È fatto, quando è fatto!\" (**\"It\'s done, when it\'s done!\"**).
 

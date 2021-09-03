@@ -25,7 +25,7 @@ Die <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Ar
 
 <div class="mw-translate-fuzzy">
 
-Das Fangen ist mit den meisten <img src=images/Draft_ToggleSnap.svg style="width:Entwurf](Draft_Module/de.md) und [Architektur Arbeitsbereich](Arch_Module/de.md) Werkzeugen verfügbar und kann mit der **[16px">[Fang Umschalten](Draft_Snap_Lock/de.md)** Schaltfläche, die sich in der Fang Werkzeugleiste befindet: {{MenuCommand|Ansicht → Werkzeugleisten → Entwurf Fang}} global aktiviert und deaktiviert werden.
+Das Fangen ist mit den meisten <img src=images/Draft_ToggleSnap.svg style="width:Entwurf](Draft_Module/de.md) und [Architektur Arbeitsbereich](Arch_Module/de.md) Werkzeugen verfügbar und kann mit der **[16px">[Fang Umschalten](Draft_Snap_Lock/de.md)** Schaltfläche, die sich in der Fang Werkzeugleiste befindet: **Ansicht → Werkzeugleisten → Entwurf Fang** global aktiviert und deaktiviert werden.
 
 
 </div>
@@ -41,7 +41,7 @@ Das Fangen ist mit den meisten <img src=images/Draft_ToggleSnap.svg style="width
 
 </div>
 
-## Snap tools {#snap_tools}
+## Snap tools 
 
 These tools are available in the Draft Snap toolbar and in the [Draft snap widget](Draft_snap_widget.md).
 
@@ -100,7 +100,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle Grid](Draft_ToggleGrid.md): switches the grid on or off.
 
-## Erweitertes Fangen {#erweitertes_fangen}
+## Erweitertes Fangen 
 
 
 <div class="mw-translate-fuzzy">
@@ -138,9 +138,9 @@ Note that after changing some preferences you must restart FreeCAD.
 
 -   Der maximale Abstand, bei dem ein Punkt als Fangpunkt betrachtet wird, kann spontan durch Drücken von **[** (erhöhen) oder **]** (verringern) Tasten geändert werden.
 
-Diese Einstellung wird gespeichert: {{MenuCommand||Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Mod → Entwurf → FangBereich}}.
+Diese Einstellung wird gespeichert: **|Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Mod → Entwurf → FangBereich**.
 
--   Die genannten Tasten können in den [Entwurf Einstellungen](Draft_Preferences/de.md) angepasst werden: {{MenuCommand|Bearbeiten → Einstellungen... → Entwurf → Einstellungen der Benutzeroberfläche → Befehlsinterne Tastenkombinationen}}.
+-   Die genannten Tasten können in den [Entwurf Einstellungen](Draft_Preferences/de.md) angepasst werden: **Bearbeiten → Einstellungen... → Entwurf → Einstellungen der Benutzeroberfläche → Befehlsinterne Tastenkombinationen**.
 
 
 </div>

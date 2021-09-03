@@ -25,13 +25,13 @@ Wenn sich mehrere Wände überschneiden sollen, musst du diese in eine [Etage](A
 
 ## Anwendung
 
-### Zeichnen einer neuen Wand {#zeichnen_einer_neuen_wand}
+### Zeichnen einer neuen Wand 
 
 1.  Drücke die **<img src="images/Arch_Wall.svg" width=16px> [Arch Wand](Arch_Wall/de.md)**Schltfläche oder drücke die **W**- und **A**-Tasten
 2.  Klicke einen ersten Punkt in der 3D-Ansicht oder gib eine Koordinate ein.
 3.  Klicke einen zweiten Punkt in der 3D-Ansicht oder gib eine weitere Koordinate ein.
 
-### Zeichnen einer Wand auf einem ausgewählten Objekt {#zeichnen_einer_wand_auf_einem_ausgewählten_objekt}
+### Zeichnen einer Wand auf einem ausgewählten Objekt 
 
 1.  Wähle ein oder mehrere Basisgeometrieobjekte (Entwurfsobjekt, Skizze, usw.)
 2.  Drücke die **<img src="images/Arch_Wall.svg" width=16px> [Architektur Wand](Arch_Wall/del.md)** Schaltfläche, oder drücke die **W** und dann **A** Tasten

@@ -23,7 +23,7 @@ Ada 2 cara untuk merubah mode navigasi:
 -   Di menu Edit, [Preferences Editor](Preferences_Editor.md), pilih pada bagian Display, klik pada tab *3D View* ;
 -   Dengan klik-kanan pada bagian tampilan 3d yang kosong, kemudian klik *Navigation style* dan pilih mode yang diinginkan.
 
-### CAD Navigation (default) {#cad_navigation_default}
+### CAD Navigation (default) 
 
 Mode ini adalah Nnavigasi standar bawaan dan memungkinkan pemakai mengendalikan tampilan dengan mudah, dan tidak memerlukan tombol keyboard kecuali untuk memilih multi objek.
 
@@ -89,7 +89,7 @@ With this method the middle mouse button may be released after the right mouse b
 Users who use the mouse with their right hand may find this method easier than the first method.
 }}
 
-### Inventor Navigation {#inventor_navigation}
+### Inventor Navigation 
 
 Mode navigasi Inventor, tidak ada pemilihan objek pada mode ini. Untuk memilih objek kita harus menekan tombol **CTRL**. {{OpenInventor Navigation
 |Select_name=Select
@@ -122,7 +122,7 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
-### Blender Navigation {#blender_navigation}
+### Blender Navigation 
 
 Pada mode navigasi Blender, tidak ada perintah pan (menggeser layar 3D). Untuk melalukan penggeseran layar (pan) kamu harus menekan tombol **SHIFT**. {{Blender Navigation
 |Select_name=Select
@@ -140,7 +140,7 @@ Alternatively, hold both left and right mouse buttons, and then move the pointer
 
 Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold the middle mouse button, then move the pointer. }}
 
-### Touchpad Navigation {#touchpad_navigation}
+### Touchpad Navigation 
 
 In Touchpad Navigation, neither panning, nor zooming, nor rotating the view, are mouse-only (or touchpad-only) operations. {{Touchpad Navigation
 |Select_name=Select
@@ -160,7 +160,7 @@ In Touchpad Navigation, neither panning, nor zooming, nor rotating the view, are
 |Rotate_view_alt_text=Alternatively, hold **Shift** and the left button, then move the pointer.
 }}
 
-### Gesture Navigation (v0.16) {#gesture_navigation_v0.16}
+### Gesture Navigation (v0.16) 
 
 This navigation style was tailored for usability with touchscreen and pen, but is very usable with mouse too. {{Gesture Navigation
 |Select_name=Select
@@ -186,7 +186,7 @@ Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md).
 |Tilt_view_text=Hold both left and right mouse buttons, and then move the pointer sideways. 
 |Tilt_view_gesture_text=Rotate the imaginary line formed by two touch points.
 
-On v0.18 this method is disabled by default. To enable, go to {{MenuCommand|Edit → Preferences → Display}}, and untick "Disable touchscreen tilt gesture" checkbox.
+On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick "Disable touchscreen tilt gesture" checkbox.
 }}
 
 Alternatively, tap and hold, then drag. This simulates the pan with the right mouse button. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Zoom\_gesture\_text=Drag two fingers (pinch) closer or farther apart. \|Rotate\_view\_text=Hold the left mouse button, then move the pointer. In [Sketcher](Sketcher_Workbench.md) and other edit modes, this behavior is disabled. Hold **Alt** when pressing the mouse button to enter rotation mode.
@@ -195,9 +195,9 @@ To set the camera\'s focus point for rotation, click a point with the middle mou
 
 Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt\_view\_text=Hold both left and right mouse buttons, then move the pointer sideways. \|Tilt\_view\_gesture\_text=Rotate the imaginary line formed by two touch points.
 
-On v0.18 this method is disabled by default. To enable, go to {{MenuCommand|Edit → Preferences → Display}}, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
+On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
 
-### Maya-Gesture Navigation {#maya_gesture_navigation}
+### Maya-Gesture Navigation 
 
 
 <div class="mw-translate-fuzzy">
@@ -221,7 +221,7 @@ Alternatively, use the mouse wheel to zoom in and out.
 
 Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold **Alt** and the left mouse button, then move the pointer. }}
 
-### Revit Navigation {#revit_navigation}
+### Revit Navigation 
 
 This style was introduced in version 0.18.
 
@@ -262,9 +262,9 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 |Rotate_view_text=Hold **Ctrl** and the right mouse button, then move the pointer.
 }}
 
-## Selecting objects {#selecting_objects}
+## Selecting objects 
 
-### Simple selection {#simple_selection}
+### Simple selection 
 
 Objek dapat dipilih dengan klik-kiri, bisa objek yang ada di tampilan 3D atau di daftar struktur.
 
@@ -272,15 +272,15 @@ Objek dapat dipilih dengan klik-kiri, bisa objek yang ada di tampilan 3D atau di
 
 Ada juga mekanisme \"Preselection\" yang menyoroti objek dan menampilkan informasi tentang objek tersebut sebelum pemilihan hanya dengan melayang mouse di atasnya. Jika kamu tidak menyukai perilaku itu atau kamu memiliki komputer tua yang lambat, kamu dapat mematikan praseleksi dalam seting preferences.
 
-## Manipulating Objects {#manipulating_objects}
+## Manipulating Objects 
 
 FreeCAD menawarkan [manipulators](manipulator/id.md) yang dapat digunakan untuk modifikasi objek atau tampilan visualnya.
 
-## Hardware support {#hardware_support}
+## Hardware support 
 
 FreeCAD juga mendukung beberapa jenis dari [3D input devices](3D_input_devices.md).
 
-## Mac OS X Issues {#mac_os_x_issues}
+## Mac OS X Issues 
 
 Recently we got reports [on the forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) from Mac users that those mouse button and key combination do not work as expected. Unfortunately, none of the developers owns a Mac, neither do the other regular contributors. We need your help to determine which mouse buttons and key combination work so we can update this wiki.
 

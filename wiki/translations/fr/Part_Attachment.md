@@ -31,13 +31,13 @@
 
 ![](images/Part_Offset_Tasks_fr.png )
 
-### Mode d\'ancrage {#mode_dancrage}
+### Mode d\'ancrage 
 
 #### Désactivé
 
 Par défaut, aucune référence sélectionnée.
 
-#### Normal à une arête {#normal_à_une_arête}
+#### Normal à une arête 
 
 L\'objet est rendu perpendiculaire au bord. La référence au sommet, facultative, définit l\'emplacement.
 
@@ -47,7 +47,7 @@ L\'objet est rendu perpendiculaire au bord. La référence au sommet, facultativ
 :   arête, sommet
 :   sommet, arête
 
-#### Alignement O-N-X {#alignement_o_n_x}
+#### Alignement O-N-X 
 
 Fait correspondre l\'origine de l\'objet avec le premier sommet référencé, puis aligne sa normale avec l\'axe horizontal du plan vers le sommet/le long de la ligne.
 
@@ -60,7 +60,7 @@ Fait correspondre l\'origine de l\'objet avec le premier sommet référencé, pu
 :   sommet, sommet
 :   sommet, arête
 
-#### Alignement O-N-Y {#alignement_o_n_y}
+#### Alignement O-N-Y 
 
 Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne sa normale avec l\'axe vertical du plan vers le sommet/le long de la ligne.
 
@@ -73,7 +73,7 @@ Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et 
 :   sommet, sommet
 :   sommet, arête
 
-#### Alignement O-X-Y {#alignement_o_x_y}
+#### Alignement O-X-Y 
 
 Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne ses axes horizontal et vertical vers le sommet/le long de la ligne.
 
@@ -86,7 +86,7 @@ Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et 
 :   sommet, sommet
 :   sommet, arête
 
-#### Alignement O-X-N {#alignement_o_x_n}
+#### Alignement O-X-N 
 
 Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne son axe horizontal et sa normale sur le sommet/le long de la ligne.
 
@@ -99,7 +99,7 @@ Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et 
 :   sommet, sommet
 :   sommet, arête
 
-#### Alignement O-Y-N {#alignement_o_y_n}
+#### Alignement O-Y-N 
 
 Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne son axe vertical et sa normale vers le sommet/le long de la ligne.
 
@@ -112,7 +112,7 @@ Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et 
 :   sommet, sommet
 :   sommet, arête
 
-#### Alignement O-Y-X {#alignement_o_y_x}
+#### Alignement O-Y-X 
 
 Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne ses axes vertical et horizontal vers le sommet/le long de la ligne.
 
@@ -125,7 +125,7 @@ Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et 
 :   sommet, sommet
 :   sommet, arête
 
-#### Translation de l\'origine {#translation_de_lorigine}
+#### Translation de l\'origine 
 
 L\'origine de l\'objet est alignée sur le sommet correspondant. L\'orientation est contrôlée par la propriété [Placement](Placement/fr.md).
 
@@ -133,7 +133,7 @@ L\'origine de l\'objet est alignée sur le sommet correspondant. L\'orientation 
 
 :   sommet.
 
-#### XY de l\'objet {#xy_de_lobjet}
+#### XY de l\'objet 
 
 Le plan est aligné sur le plan local XY de l\'objet lié.
 
@@ -141,7 +141,7 @@ Le plan est aligné sur le plan local XY de l\'objet lié.
 
 :   Tout, Conique.
 
-#### XZ de l\'objet {#xz_de_lobjet}
+#### XZ de l\'objet 
 
 Le plan est aligné sur le plan local XZ de l\'objet lié.
 
@@ -149,7 +149,7 @@ Le plan est aligné sur le plan local XZ de l\'objet lié.
 
 :   Tout, Conique.
 
-#### YZ de l\'objet {#yz_de_lobjet}
+#### YZ de l\'objet 
 
 Le plan est aligné sur le plan local YZ de l\'objet lié.
 
@@ -157,7 +157,7 @@ Le plan est aligné sur le plan local YZ de l\'objet lié.
 
 :   Tout, Conique.
 
-#### Face plane {#face_plane}
+#### Face plane 
 
 Le plan est positionné pour coïncider avec la face plane.
 
@@ -165,7 +165,7 @@ Le plan est positionné pour coïncider avec la face plane.
 
 :   plan.
 
-#### Tangent à une surface {#tangent_à_une_surface}
+#### Tangent à une surface 
 
 Le plan est rendu tangent à la surface en un sommet.
 
@@ -174,7 +174,7 @@ Le plan est rendu tangent à la surface en un sommet.
 :   face, sommet
 :   sommet, face
 
-#### Frenet NB {#frenet_nb}
+#### Frenet NB 
 
 Le plan est défini sur des axes normaux-binormaux (NB) du [Système de Coordonnées Frenet-Serret](https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet) au point de la courbure de l\'arête le plus proche du sommet (ou défini par la propriété MapPathParameter, si le sommet n\'est pas lié). L\'origine de l\'objet est déplacée au sommet si le sommet est en premier, ou conservée à la courbe si l\'arête est en premier. Ce mode est similaire à *Normal à une arête*, sauf que l\'axe X est bien défini.
 
@@ -185,7 +185,7 @@ Le plan est défini sur des axes normaux-binormaux (NB) du [Système de Coordonn
 :   sommet, courbe
 :   <img alt="" src=images/Attacher_mode_FrenetNB.png  style="width:250px;">
 
-#### Frenet TN {#frenet_tn}
+#### Frenet TN 
 
 Le plan est défini sur les axes tangente-normale (TN) du [Système de Coordonnées Frenet-Serret](https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet) au point de la courbure de l\'arête le plus proche du sommet (ou défini par la propriété MapPathParameter, si le sommet n\'est pas lié). L\'origine de l\'esquisse est déplacée au sommet si le sommet est en premier, ou conservée à la courbe si l\'arête est en premier. Effectivement, si la courbe est plane, le plan d\'esquisse est le plan de la courbe.
 
@@ -196,7 +196,7 @@ Le plan est défini sur les axes tangente-normale (TN) du [Système de Coordonn�
 :   sommet, courbe
 :   <img alt="" src=images/Attacher_mode_FrenetTN.png  style="width:250px;">
 
-#### Frenet TB {#frenet_tb}
+#### Frenet TB 
 
 Le plan est défini sur les axes tangente-binormale (TB) du [Système de Coordonnées Frenet-Serret](https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet) au point de la courbure de l\'arête le plus proche du sommet (ou défini par la propriété MapPathParameter, si le sommet n\'est pas lié). L\'origine de l\'esquisse est déplacée au sommet si le sommet est en premier, ou conservée à la courbe si l\'arête est en premier. Effectivement, si la courbe est plane, le plan d\'esquisse est le plan de la courbe.
 
@@ -220,7 +220,7 @@ S\'aligne sur le plan au cercle oscillant d\'une arête. Un lien sommet optionne
 :   sommet, courbe
 :   sommet, cercle
 
-#### Section de révolution {#section_de_révolution}
+#### Section de révolution 
 
 Le plan est perpendiculaire à l\'arête et l\'axe Y correspond à l\'axe du cercle oscillant. Un lien sommet optionnel définit l\'endroit.
 
@@ -233,7 +233,7 @@ Le plan est perpendiculaire à l\'arête et l\'axe Y correspond à l\'axe du cer
 :   sommet, courbe
 :   sommet, cercle
 
-#### Plan par 3 points {#plan_par_3_points}
+#### Plan par 3 points 
 
 Fait passer le plan XY par trois sommets.
 
@@ -244,7 +244,7 @@ Fait passer le plan XY par trois sommets.
 :   sommet, droite
 :   droite, droite
 
-#### Normal à 3 points {#normal_à_3_points}
+#### Normal à 3 points 
 
 Fait passer le plan par les deux premiers sommets, perpendiculairement au plan défini par les 3 sommets.
 
@@ -264,7 +264,7 @@ Mode spécifique pour le pliage des polyèdres. Sélectionnez les 4 arêtes dans
 :   droite, droite, droite, droite
 :   ![ 250px](images/Attacher_mode_Folding.png )
 
-#### Inertie 2-3 {#inertie_2_3}
+#### Inertie 2-3 
 
 L\'objet sera ancré à un plan passant par les deuxième et troisième axes principaux d\'inertie (passe par le centre de masse).
 
@@ -275,7 +275,7 @@ L\'objet sera ancré à un plan passant par les deuxième et troisième axes pri
 :   Tout, Tout, Tout
 :   Tout, Tout, Tout, Tout
 
-### Décalage de l\'ancrage {#décalage_de_lancrage}
+### Décalage de l\'ancrage 
 
 Le décalage de l\'ancrage est utilisé pour appliquer un décalage linéaire ou rotatif par rapport à l\'objet référencé. Cela signifie que les décalages sont relatifs au système de coordonnées \"local\" et non au système de coordonnées global.Il devient actif quand un mode d\'ancrage autre que \"Désactivé\" a été sélectionné.
 

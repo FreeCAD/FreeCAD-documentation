@@ -36,7 +36,7 @@ Nel menu **Direzione** si può inoltre definire un vettore standard (X,Y o Z) no
 
 <div class="mw-translate-fuzzy">
 
-Le proprietà possono essere modificate successivamente in {{MenuCommand|Vista combinata → Dati}}, dopo aver selezionato l\'oggetto.
+Le proprietà possono essere modificate successivamente in **Vista combinata → Dati**, dopo aver selezionato l\'oggetto.
 
 
 </div>

@@ -12,7 +12,7 @@ The **Std HideObjects** command hides all objects belonging to the active docume
 
 ## Usage
 
-1.  Select the {{MenuCommand|View → Visibility → <img src="images/Std_HideObjects.svg" width=16px> Hide all objects}} option from the menu.
+1.  Select the **View → Visibility → <img src="images/Std_HideObjects.svg" width=16px> Hide all objects** option from the menu.
 
 ## Notes
 

@@ -21,7 +21,7 @@ Notas de anteriores lanzamientos pueden ser vistas en la página [Comenzando](Ge
 <img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
 *Garden Railway Coach O&K (por el usuario de FreeCAD \"Garden Railway Coach O&K\", ver [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
 
-## Principales Novedades {#principales_novedades}
+## Principales Novedades 
 
 Han pasado casi dos años desde la anterior versión 0.16, pero el equipo de FreeCAD no permaneció inactivo durante este período. Más de 6,800 revisiones fueron agregadas al código fuente de FreeCAD. En comparación, ¡esto es más de tres veces el trabajo hecho entre v0.16 y v0.15! La mayoría de los entornos de trabajo existentes se beneficiaron de las mejoras y se agregaron dos nuevos entornos de trabajo. También han sido desarrollados nuevos módulos adicionales por la comunidad. Algunos de los cambios más importantes:
 
@@ -56,7 +56,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 <img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;">
 
-## Entorno de Trabajo Arch {#entorno_de_trabajo_arch}
+## Entorno de Trabajo Arch 
 
 -   Nueva herramienta [Arch Schedule](Arch_Schedule.md): esta herramienta ha sido completamente reescrita, y ahora ofrece maneras mucho más flexible de reunir datos del documento en una hoja de cálculo, utilizando diferentes tipos de consultas, como contar todos los objetos de un cierto tipo, o resumiendo el volumen total de una cierta categoría de objetos.
 
@@ -122,7 +122,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 -   Se ha agregado el soporte de importación para el formato [3DS](Arch_3DS.md).
 
-## Ambiente de Trabajo Draft {#ambiente_de_trabajo_draft}
+## Ambiente de Trabajo Draft 
 
 -   [Autogroup system](Draft_AutoGroup.md): El Ambiente de Trabajo Draft ahora presenta un botón de autogrupo en su barra de herramientas. Cuando se activa, todos los objetos Draft y Arch recién creados se colocarán automáticamente en ese grupo.
 
@@ -162,7 +162,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 <img alt="" src=images/Draft_Label_Preview.png  style="width:640px;">
 
-## Ambiente de Trabajo FEM {#ambiente_de_trabajo_fem}
+## Ambiente de Trabajo FEM 
 
 -   FEM Mesh
     -   **Objeto Gmsh** es un objeto de malla, que permite usar la herramienta de malla Gmesh [Gmsh](http://gmsh.info/) dentro de FreeCAD. Varias opciones de Gmesh son compatibles.
@@ -233,7 +233,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 <img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;">
 
-## Ambiente de Trabajo Part {#ambiente_de_trabajo_part}
+## Ambiente de Trabajo Part 
 
 -   El kernel de modelado geométrico de Open Cascade se actualizó de 6.8.0 a 7.2.0 (la versión real de OCC puede depender de la plataforma / distro). Esta versión trae una gran cantidad de correcciones de errores en operaciones booleanas, algoritmo de eliminación de línea oculta, y permite agregar nuevas características al Ambiente de Trabajo Part.
 
@@ -253,7 +253,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 -   El nuevo [ Contenedor Part](Std_Part.md) se puede usar para agrupar la mayoría de los tipos de formas y moverlas como una unidad. También contiene planos y ejes estándar para adjuntar objetos. Servirá de base para el futuro Ambiente de trabajo Assembly al proporcionar una forma de mover partes. Está disponible en todos los bancos de trabajo desde una barra de herramientas junto con [ Group](Std_Group.md).
 
-## Ambiente de Trabajo PartDesign {#ambiente_de_trabajo_partdesign}
+## Ambiente de Trabajo PartDesign 
 
 El banco de trabajo PartDesign recibió cambios masivos, fruto de los esfuerzos combinados de múltiples desarrolladores durante un período de 5 años. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width:800px;">
 
@@ -271,7 +271,7 @@ El banco de trabajo PartDesign recibió cambios masivos, fruto de los esfuerzos 
 
 -   Nueva conmutación automática del banco de trabajo entre PartDesign y Sketcher. Al crear un nuevo boceto desde el entorno de trabajo de PartDesign, una vez que se establece el archivo adjunto de boceto, la interfaz de usuario cambia automáticamente al banco de trabajo de Sketcher y sus herramientas en el modo de edición. Cuando se cierra el boceto, la interfaz de usuario vuelve al banco de trabajo de PartDesign y restaura la vista a su estado anterior. Por lo tanto, las herramientas de Sketcher se eliminaron de las barras de herramientas de PartDesign para liberar espacio para las nuevas características de PartDesign.
 
-## Ambiente de Trabajo Path {#ambiente_de_trabajo_path}
+## Ambiente de Trabajo Path 
 
 El Ambiente de trabajo Path se ha revisado de forma masiva en la versión 0.17. La revisión general vio la eliminación de todos los códigos HeeksCNC más antiguos y el reemplazo de la envoltura de la libraría python con el nuevo módulo de Path-Area. Como resultado, las operaciones se han vuelto mucho más poderosas, más rápidas, con una base de código simplificada.
 
@@ -295,7 +295,7 @@ El Ambiente de trabajo Path se ha revisado de forma masiva en la versión 0.17. 
 
 -   Las operaciones de Dress-up pueden usarse para refinar las operaciones principales y agregar complejidad adicional. Existen Dressups para [ \'dogbone\'](Path_DressupDogbone.md) corners, [ etiquetas de retención](Path_DressupTag.md), [ ramp entry](Path_DressupRampEntry.md), y [ dragknife](Path_DressupDragKnife.md) \'corner actions\'
 
-## Ambiente de Trabajo Sketcher {#ambiente_de_trabajo_sketcher}
+## Ambiente de Trabajo Sketcher 
 
 -   Los sketches ahora pueden adjuntarse en una amplia variedad de formas, no solo para caras planas como solían ser. De particular importancia es el accesorio perpendicular a los bordes, útil para hacer perfiles para [sweeping](Part_Sweep.md).
 
@@ -333,15 +333,15 @@ El Ambiente de trabajo Path se ha revisado de forma masiva en la versión 0.17. 
 
 -   Las restricciones horizontales y verticales se pueden usar para alinear los puntos seleccionados.
 
-## Ambiente de Trabajo Spreadsheet {#ambiente_de_trabajo_spreadsheet}
+## Ambiente de Trabajo Spreadsheet 
 
 -   Se agregó un importador de archivos de Excel.
 
-## Ambiente de Trabajo Surface {#ambiente_de_trabajo_surface}
+## Ambiente de Trabajo Surface 
 
 -   Una nueva adición en v0.17, el Ambiente de trabajo Surface (por ahora) tiene 4 comandos de creación de superficie.
 
-## Ambiente de Trabajo TechDraw {#ambiente_de_trabajo_techdraw}
+## Ambiente de Trabajo TechDraw 
 
 
 <div class="mw-translate-fuzzy">
@@ -359,7 +359,7 @@ El Ambiente de trabajo Path se ha revisado de forma masiva en la versión 0.17. 
 -   Dimensionamiento ahora es compatible, a través de herramientas de múltiples dimensiones: horizontal, vertical, longitud, radial, diámetro, angular.
 -   Herramientas de decoración: hatching, hatching compatible con la especificación Autodesk PAT, símbolos, imágenes.
 
-## Módulos Adicionales {#módulos_adicionales}
+## Módulos Adicionales 
 
 Algunos de los nuevos módulos de comunidad que se crearon.
 

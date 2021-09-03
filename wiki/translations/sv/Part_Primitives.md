@@ -17,7 +17,7 @@ To create a primitive, either
 
 \#\* press the **<img src="images/Part_Primitives.svg" width=24px> '''Create primitives'''** button in the toolbar.
 
-\#\* select the {{MenuCommand|Part → Create primitives...}} from the menu bar.
+\#\* select the **Part → Create primitives...** from the menu bar.
 
 1.  In the appearing dialog select primitive type, set its parameters and location, finally press **Create**
 
@@ -36,7 +36,7 @@ Using the [property editor](Property_editor.md):
 1.  Select the primitive in the tree.
 2.  Edits its properties in the Properties table.
 
-## Geometric Primitives {#geometric_primitives}
+## Geometric Primitives 
 
 The following primitives can be created:
 

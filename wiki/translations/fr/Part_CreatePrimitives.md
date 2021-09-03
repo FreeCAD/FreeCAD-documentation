@@ -23,7 +23,7 @@ Pour créer une primitive, soit
 
 \#\* appuyez sur le bouton **<img src="images/Part_Primitives.svg" width=24px> '''Création de primitives géométriques paramétrées'''** dans la barre d\'outils.
 
-\#\* sélectionnez {{MenuCommand|Pièce → Créer des primitives...}} dans la barre de menu.
+\#\* sélectionnez **Pièce → Créer des primitives...** dans la barre de menu.
 
 1.  Dans la boîte de dialogue qui apparaît, sélectionnez la primitive, définissez ses paramètres et son emplacement, puis appuyez sur **Créer**
 
@@ -42,7 +42,7 @@ Utilisation de l\'[Éditeur de propriétés](Property_editor/fr.md):
 1.  Sélectionnez la primitive dans l\'arborescence.
 2.  Modifiez ses propriétés dans la table Propriétés.
 
-## Primitives géométriques {#primitives_géométriques}
+## Primitives géométriques 
 
 Les primitives suivantes peuvent être créées:
 

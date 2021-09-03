@@ -17,7 +17,7 @@ When you switch from one workbench to another, the tools available on the interf
 
 Note that sometimes a Workbench is referred to as a *Module*. However, Workbenches and Modules are different entities. A Module is any extension of FreeCAD, while a Workbench is a special type of Module with a GUI configuration (toolbars and menus).
 
-## Standardne Radne Površine {#standardne_radne_površine}
+## Standardne Radne Površine 
 
 The following workbenches are bundled with every FreeCAD installation:
 
@@ -73,11 +73,11 @@ The following workbenches are still included in the base installation for compat
 
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> The [Drawing Workbench](Drawing_Workbench.md) was used for producing technical drawings but has now been deprecated. It is still needed to read old FreeCAD files that contain objects created with this workbench. The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement. {{Obsolete|0.17}}
 
-## Dodatne Radne površine {#dodatne_radne_površine}
+## Dodatne Radne površine 
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main development area.
 
-The [external workbenches](external_workbenches.md) page lists all that are known to this community. Most are easily installable from within FreeCAD, using the [Addon Manager](Addon_Manager.md), found under menu {{MenuCommand|Tools → <img src="images/AddonManager.svg" width=24px> Addon manager}}.
+The [external workbenches](external_workbenches.md) page lists all that are known to this community. Most are easily installable from within FreeCAD, using the [Addon Manager](Addon_Manager.md), found under menu **Tools → <img src="images/AddonManager.svg" width=24px> Addon manager**.
 
 New workbenches are always in development, stay tuned!
 

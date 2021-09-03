@@ -10,7 +10,7 @@
 
 The **Cross-sections** utility creates one or more cross-sections through the selected shape.
 
-### Kako koristiti {#kako_koristiti}
+### Kako koristiti 
 
 1.  Select a shape.
 2.  Press the **[24px|link=Part_CrossSections](File:Part_CrossSections.svg.md) '''Cross-sections'''** button.

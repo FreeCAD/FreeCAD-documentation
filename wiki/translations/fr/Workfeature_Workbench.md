@@ -70,11 +70,11 @@ Menu déroulant
 
 ## Installation
 
-### Installation Automatique {#installation_automatique}
+### Installation Automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-### Depuis GitHub {#depuis_github}
+### Depuis GitHub 
 
 **Prérequis**
 
@@ -86,7 +86,7 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 
 **Instructions d\'installation sous Mac**
 
-## Liens avec l\'atelier Animation {#liens_avec_latelier_animation}
+## Liens avec l\'atelier Animation 
 
 -   Atelier Wiki:
 -   Wiki FreeCAD:
@@ -96,7 +96,7 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 -   Des dossiers:
 -   Signaler les bogues: veuillez signaler les bogues sur [FreeCAD forum](http://forum.freecadweb.org/index.php)
 
-## Autres liens intéressants {#autres_liens_intéressants}
+## Autres liens intéressants 
 
 -   [Ateliers externes](External_workbenches/fr.md)
 

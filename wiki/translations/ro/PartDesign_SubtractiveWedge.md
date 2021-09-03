@@ -13,7 +13,7 @@ Se introduce o pană subtractivă în corpul activ. Forma sa este scăzută de s
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

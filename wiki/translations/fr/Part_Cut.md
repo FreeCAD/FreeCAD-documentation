@@ -20,9 +20,9 @@ Coupe (soustrait) un objet à un autre, le dernier sélectionné étant soustrai
 1.  Sélectionnez deux formes
 2.  Lancez la commande Part Soustraction de plusieurs manières :
     -   Appuyez sur le bouton **![](images/) '''Executer une soustraction sur deux formes'''** dans la barre d\'outils Part
-    -   Utilisez l\'entrée {{MenuCommand|Pièce → Opération booléenne → Soustraction}} depuis le menu Part
+    -   Utilisez l\'entrée **Pièce → Opération booléenne → Soustraction** depuis le menu Part
 
-## Entrées supportées {#entrées_supportées}
+## Entrées supportées 
 
 L\'objet doit être un objet (forme) [OpenCascade](OpenCascade/fr.md). Exemples: doit être créé avec un des ateliers Part, PartDesign, Sketcher. Ne peut pas être un objet Mesh (sauf s\'il est converti en forme (shape)) - pour les objets Mesh, utilisez l\'outil booléen spécifique dans l\'atelier MeshDesign.
 

@@ -15,7 +15,7 @@
 ## 용법
 
 1.  이 명령을 실행하는 방법은 여러 가지입니다:
-    -   메뉴에서 {{MenuCommand|보기 → <img src="images/Std_MainFullscreen.svg" width=16px> 전체화면}} 옵션을 선택합니다.
+    -   메뉴에서 **보기 → <img src="images/Std_MainFullscreen.svg" width=16px> 전체화면** 옵션을 선택합니다.
     -   단축키를 사용합니다: **Alt**+**F11**.
 
 

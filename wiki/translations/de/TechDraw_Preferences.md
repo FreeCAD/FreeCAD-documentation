@@ -8,7 +8,7 @@
 
 ## Einführung
 
-Die Einstellungen des [TechDraw Arbeitsbereichs](TechDraw_Workbench/de.md) befinden sich im [Einstellungseditor](Preferences_Editor/de.md), {{MenuCommand|Bearbeiten → Einstellungen → TechDraw}}.
+Die Einstellungen des [TechDraw Arbeitsbereichs](TechDraw_Workbench/de.md) befinden sich im [Einstellungseditor](Preferences_Editor/de.md), **Bearbeiten → Einstellungen → TechDraw**.
 
 Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte für neue Zeichnungsobjekte. Sie haben keinen Einfluss auf bestehende Objekte.
 
@@ -16,7 +16,7 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 
 <img alt="Allgemeine Einstellungen" src=images/TechDraw_PreferencesGeneral.png  style="width:350px;">
 
-### Zeichnung Aktualisierung {#zeichnung_aktualisierung}
+### Zeichnung Aktualisierung 
 
 
 {{Version/de|0.19}}
@@ -53,7 +53,7 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 
 <img alt="Maßstabseinstellungen" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
 
-### Maßstab {#maßstab_1}
+### Maßstab 
 
 -   **Seitenmaßstab**: Standardmaßstab für neue Zeichnungen.
 -   **Anzeige Maßstabstyp**: Standardmaßstab für neue Ansichten.
@@ -70,7 +70,7 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 
 <img alt="Bemaßungseinstellungen" src=images/TechDraw_PreferencesDimensions.png  style="width:350px;">
 
-### Bemaßungen {#bemaßungen_1}
+### Bemaßungen 
 
 -   **Normbasis und Ausführung von Maßeinträgen**: Der Standard, der für Bemaßungswerte zu verwenden ist. Die Unterschiede zwischen den Standards sind in der Abbildung dargestellt:
 
@@ -175,11 +175,11 @@ HLR steht für *Entfernen verdeckter Linien* (engl.: hidden line removal).
 -   **Max. SVG Schraffur-Felder**: Die Grenze von SVG-Kacheln mit einer Größe von 64x64 Pixeln, die zum Schraffieren einer einzelnen Fläche verwendet werden. Bei großen Skalierungen könnte man einen Fehler über zu viele SVG-Kacheln erhalten, dann muss man das Kachellimit erhöhen.
 -   **Max. PAT-Schraffur-Segmente**: Die maximalen Schraffursegmente, die beim Schraffieren einer Fläche mit einem PAT-Muster verwendet werden.
 
-## Ausgeblendete Einstellungen {#ausgeblendete_einstellungen}
+## Ausgeblendete Einstellungen 
 
 \'\'\'Hinweis: \'\'\' Seit FreeCAD 0.19 sind alle Einstellungen in den Voreinstellungsdialogen verfügbar. Das Folgende gilt nur für FreeCAD Versionen, die älter als 0.19 sind:
 
-Einige Einrichtungseinstellungen sind nur über den [Parametereditor](Std_DlgParameter/de.md), {{MenuCommand|Werkzeuge → Parameter bearbeiten}} zugänglich.
+Einige Einrichtungseinstellungen sind nur über den [Parametereditor](Std_DlgParameter/de.md), **Werkzeuge → Parameter bearbeiten** zugänglich.
 
 ### Preferences/Mod/TechDraw/Decorations
 

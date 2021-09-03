@@ -38,42 +38,42 @@ Tipo offre cinque diversi modi per specificare la lunghezza a cui il prisma sar�
 
 Inserire un valore numerico per la lunghezza dell\'estrusione. La direzione predefinita per l\'estrusione è rivolta verso l\'esterno del supporto, ma può essere invertita contrassegnando l\'opzione **Invertita**. Le estrusioni sono realizzate [normali](http://en.wikipedia.org/wiki/Surface_normal) al piano dello schizzo. Con l\'opzione **Simmetrica al piano** il solido viene esteso per metà della lunghezza data su entrambi i lati dal piano dello schizzo. Le dimensioni negative non sono possibili. In sostituzione utilizzare l\'opzione **Invertita**.
 
-#### Due dimensioni {#due_dimensioni}
+#### Due dimensioni 
 
 Questo consente di inserire una seconda lunghezza per estendere l\'estrusione in direzioni opposte (nel supporto). Anche in questo caso la direzione può essere modificata barrando l\'opzione **Invertita**.
 
-#### Fino all\'ultimo {#fino_allultimo}
+#### Fino all\'ultimo 
 
 Il solido viene estruso fino all\'ultima faccia del supporto nella direzione di estrusione. Se non vi è alcun supporto, viene visualizzato un messaggio di errore.
 
-#### Fino al primo {#fino_al_primo}
+#### Fino al primo 
 
 Il solido viene estruso fino alla prima faccia del supporto nella direzione di estrusione. Se non vi è alcun supporto, viene visualizzato un messaggio di errore.
 
-#### Fino alla faccia {#fino_alla_faccia}
+#### Fino alla faccia 
 
 Il solido verrà estruso fino a una faccia del supporto che può essere scelta cliccando su di essa. Se non c\'è un supporto, nessuna selezione sarà accettata.
 
-### Quota {#quota_1}
+### Quota 
 
 Definisce la lunghezza dell\'estrusione. Si possono utilizzare diverse unità di misura, indipendentemente dalle unità definite nelle preferenze dell\'utente (m, cm, mm, nm, ft o \', in o \").
 
-### Utilizzare una direzione personalizzata {#utilizzare_una_direzione_personalizzata}
+### Utilizzare una direzione personalizzata 
 
 
 <small>(v0.19)</small> 
 
 Se spuntato, la direzione del prisma non sarà il vettore normale dello schizzo ma il vettore dato. La lunghezza dell\'estrusione è comunque impostata secondo la direzione del vettore normale.
 
-### Lunghezza lungo la normale del disegno {#lunghezza_lungo_la_normale_del_disegno}
+### Lunghezza lungo la normale del disegno 
 
 Se selezionata, la lunghezza del prisma è misurata lungo la normale dello schizzo, altrimenti lungo la direzione personalizzata. {{Version/it|0.20}}
 
-### Offset dalla faccia {#offset_dalla_faccia}
+### Offset dalla faccia 
 
 Offset dalla faccia in cui terminerà l\'estrusione. Questa opzione è disponibile solo quando **Tipo** è **Fino all\'ultimo**, **Fino al primo** o **Fino alla faccia**.
 
-### Simmetrica al piano {#simmetrica_al_piano}
+### Simmetrica al piano 
 
 Estende la lunghezza data su entrambi i lati del piano di schizzo, simmetricamente al piano dello schizzo, metà per parte.
 

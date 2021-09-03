@@ -14,7 +14,7 @@ The **Std ViewDimetric** command realigns the camera in the active [3D view](3D_
 
 ## Usage
 
-1.  Select the {{MenuCommand|View → Standard views → Axonometric → <img src="images/Std_ViewDimetric.svg" width=16px> Dimetric}} option from the menu.
+1.  Select the **View → Standard views → Axonometric → <img src="images/Std_ViewDimetric.svg" width=16px> Dimetric** option from the menu.
 
 ## Scripting
 

@@ -22,7 +22,7 @@ Une valeur clé pour déterminer le taux de descente est le coefficient de traî
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Rocket_Calculator.svg" width=16px> [Parachute Size Calculator](Rocket_Parachute_Size_Calculator/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Rocket → Calculators → <img src="images/Rocket_Calculator.svg" width=16px> Parachute Size Calculator}} dans le menu.
+    -   Sélectionnez l\'option **Rocket → Calculators → <img src="images/Rocket_Calculator.svg" width=16px> Parachute Size Calculator** dans le menu.
 2.  Saisissez le poids de votre fusée et les paramètres de votre parachute.
 
 ## Calculs

@@ -26,7 +26,7 @@ Acest instrument creează o proiecți a obiectului selectate (Source) în the 3D
 |                                                      | A projection object (**objectname\_proj**) will be added to the project. For subsequent projections of the same Source object, the projection object will be named **objectname\_projXXX**, where **XXX** is a three digit number. |
 +------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-### Editează o proiecție existentă {#editează_o_proiecție_existentă}
+### Editează o proiecție existentă 
 
 +--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ![](images/ProjectShapeOptions_it.png ) | The projection parameters can be edited in the Property editor.                                                                                                                                                      |

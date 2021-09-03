@@ -16,8 +16,8 @@ Il comando **Esporta mesh** esporta un oggetto mesh in un formato file mesh. Son
 1.  Selezionare un singolo oggetto mesh.
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Mesh_Export.svg" width=16px> Esporta mesh**.
-    -   Selezionare l\'opzione {{MenuCommand|Mesh → <img src="images/Mesh_Export.svg" width=16px> Esporta mesh...}} dal menu.
-    -   Selezionare l\'opzione {{MenuCommand|<img src="images/Mesh_Export.svg" width=16px> Esporta mesh...}} dal menu contestuale della [vista ad albero](Tree_view/it.md) o della [vista 3D](3D_view/it.md).
+    -   Selezionare l\'opzione **Mesh → <img src="images/Mesh_Export.svg" width=16px> Esporta mesh...** dal menu.
+    -   Selezionare l\'opzione **<img src="images/Mesh_Export.svg" width=16px> Esporta mesh...** dal menu contestuale della [vista ad albero](Tree_view/it.md) o della [vista 3D](3D_view/it.md).
 3.  Selezionare il formato file corretto nella finestra di dialogo.
 4.  Inserisci un nome file. Se nel passaggio precedente è stata selezionata l\'opzione {{Value|Tutti i file (*.*)}} e non si specifica un\'estensione di file, viene utilizzata l\'estensione {{FileName|.stl}}.
 5.  Premere il pulsante **Salva**.
@@ -28,7 +28,7 @@ Il comando **Esporta mesh** esporta un oggetto mesh in un formato file mesh. Son
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: {{MenuCommand|Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

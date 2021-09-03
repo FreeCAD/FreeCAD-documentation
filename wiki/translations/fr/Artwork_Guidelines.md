@@ -55,7 +55,7 @@ Voir [FreeCAD palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGp
   Comment utiliser la palette FreeCAD ?                       L\'installation de [la palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) est aussi simple que de la [copier dans votre dossier de palette Inkscape](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
   ----------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Grille et Largeur du trait {#grille_et_largeur_du_trait}
+## Grille et Largeur du trait 
 
 
 **Obligatoire**
@@ -74,7 +74,7 @@ Les traits ne doivent pas être *plus petits* que 2 pixels, avec des extrémité
 
   --------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   style=\"width:25%\";\|Pourquoi utiliser cette grille et cette taille de trait ?   Pour des raisons historiques, FreeCAD utilise une icône 64x64 qui est ensuite réduite. Pas idéal, mais cela ajoute du caractère. Par conséquent, garder les choses alignées sur une puissance de deux grilles avec des épaisseurs qui sont des puissances de deux aide à éviter ou au moins à atténuer les problèmes d\'anti-aliasing lors de la mise à l\'échelle.
-  Comment puis-je me conformer à cela?                                              Si vous utilisez Inkscape, accédez à {{MenuCommand|Fichier → Propriétés du document}} et confirmez que la largeur, la hauteur et les unités de votre page sont correctes. Ensuite, allez dans l\'onglet {{MenuCommand|Grilles}}, cliquez sur **Nouveau**, définissez les unités sur `px`, `Spacing X` et `Spacing Y` à 1 et `Grille principale tous les` à 2.
+  Comment puis-je me conformer à cela?                                              Si vous utilisez Inkscape, accédez à **Fichier → Propriétés du document** et confirmez que la largeur, la hauteur et les unités de votre page sont correctes. Ensuite, allez dans l\'onglet **Grilles**, cliquez sur **Nouveau**, définissez les unités sur `px`, `Spacing X` et `Spacing Y` à 1 et `Grille principale tous les` à 2.
   --------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contour
@@ -122,23 +122,23 @@ Selon les directives de Tango, si vous ajoutez un effet d\'éclairage dégradé,
   Comment puis-je me conformer à cela ?                     Définissez le remplissage comme un dégradé linéaire ou radial. Dans Inkscape, cela est disponible dans les paramètres de trait et de remplissage. Avec \"F2\", il est possible de déplacer les nœuds d\'ajustement du gradient pour s\'assurer qu\'ils sont à l\'angle voulu.
   --------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Format d\'enregistrement recommandé {#format_denregistrement_recommandé}
+## Format d\'enregistrement recommandé 
 
 Il est conseillé de faire toutes les icônes en format [SVG](SVG.md), par exemple avec [Inkscape](http://inkscape.org). Cela rend plus facile l'application des changements et des icônes dérivés dans l\'espace de la même application.
 
 Lors de la validation des icônes à utiliser directement par FreeCAD (dans un fichier \*.qrc), enregistrez-les sous \"Plain SVG\". Cela réduira la taille de l\'icône et économisera l\'espace disque et mémoire.
 
-## Remarques de clôture {#remarques_de_clôture}
+## Remarques de clôture 
 
 Rappelez-vous : **SALCHO** (AVC, alignement, éclairage, couleur, mise en évidence, contour)
 
 Voici quelques conseils pour vérifier votre travail :
 
-### Vérification de la taille {#vérification_de_la_taille}
+### Vérification de la taille 
 
-Inkscape dispose d\'un outil pratique pour vérifier votre icône à différentes tailles. Allez dans {{MenuCommand|Affichage → Aperçu de l'icône...}} et il vous montrera des aperçus de votre icône redimensionnée à 16, 24, 32 et 64 pixels.
+Inkscape dispose d\'un outil pratique pour vérifier votre icône à différentes tailles. Allez dans **Affichage → Aperçu de l'icône...** et il vous montrera des aperçus de votre icône redimensionnée à 16, 24, 32 et 64 pixels.
 
-### Vérification de votre contour {#vérification_de_votre_contour}
+### Vérification de votre contour 
 
 1.  Placez votre icône sur un grand rectangle de la même couleur que la couleur la plus foncée de votre icône.
 2.  Semble toujours OK? Génial. Passez à l\'étape suivante. Sinon, ajustez la surbrillance.
@@ -152,11 +152,11 @@ Inkscape dispose d\'un outil pratique pour vérifier votre icône à différente
   Mon icône est à peine visible.   Vous avez un contraste de forme médiocre. Vérifiez le contour et mettez en surbrillance, l\'un d\'entre eux est probablement manquant ou mal appliqué.
   -------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Vérification de votre contraste {#vérification_de_votre_contraste}
+### Vérification de votre contraste 
 
 1.  Exportez votre icône SVG vers un format bitmap, comme `.png` ou `.jpg`.
-2.  Chargez votre bitmap dans un programme d\'image et changez-le en niveaux de gris. Par exemple, dans GIMP, vous iriez dans {{MenuCommand|Image → Mode → Niveaux de gris}}.
-3.  Inkscape vous permet de convertir le SVG directement en niveaux de gris en utilisant {{MenuCommand|Extensions → Couleur → Niveaux de gris}}.
+2.  Chargez votre bitmap dans un programme d\'image et changez-le en niveaux de gris. Par exemple, dans GIMP, vous iriez dans **Image → Mode → Niveaux de gris**.
+3.  Inkscape vous permet de convertir le SVG directement en niveaux de gris en utilisant **Extensions → Couleur → Niveaux de gris**.
 4.  Pouvez-vous toujours clairement distinguer les détails internes ? Génial. Le contraste est bon.
 
 Une image en niveaux de gris vous permet d\'identifier plus facilement les problèmes de contraste, car seul un mélange de noir et blanc est présent. Le test d\'images en niveaux de gris est également bon pour les utilisateurs daltoniens. S\'ils peuvent voir les détails dans une image en niveaux de gris, le contraste de l\'image entièrement colorée est probablement également bon.

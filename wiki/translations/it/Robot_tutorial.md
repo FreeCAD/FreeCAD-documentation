@@ -38,7 +38,7 @@ Questo tutorial è finalizzato all\'uso di [robot industriali](http://en.wikiped
 
 <div class="mw-translate-fuzzy">
 
-## Impostare la scena {#impostare_la_scena}
+## Impostare la scena 
 
 1.  Passare all\'ambiente [Robot](Robot_Workbench/it.md)
 2.  Creare un nuovo documento scegliendo ** File ** → ** Nuovo ** dal menu principale
@@ -53,7 +53,7 @@ Questo tutorial è finalizzato all\'uso di [robot industriali](http://en.wikiped
 
 <div class="mw-translate-fuzzy">
 
-## Impostare una traiettoria {#impostare_una_traiettoria}
+## Impostare una traiettoria 
 
 1.  Passare all\'ambiente [Robot](Robot_Workbench/it.md)
 2.  Attivare la scheda del modello nella vista ad albero facendo clic su di essa
@@ -72,7 +72,7 @@ Questo tutorial è finalizzato all\'uso di [robot industriali](http://en.wikiped
 
 <div class="mw-translate-fuzzy">
 
-## Simulare il movimento del robot {#simulare_il_movimento_del_robot}
+## Simulare il movimento del robot 
 
 1.  Selezionare il robot e la traiettoria nella vista ad albero
 2.  Selezionare la simulazione cliccando su <img alt="" src=images/Robot_Simulate.png  style="width:32px;">

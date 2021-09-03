@@ -35,7 +35,7 @@ Lo strumento Linea centrale a 2 linee aggiunge una linea centrale tra due bordi.
 
 Per eliminare una linea centrale, selezionarla e utilizzare il pulsante della barra degli strumenti **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)**.
 
-## Modificare le linee centrali {#modificare_le_linee_centrali}
+## Modificare le linee centrali 
 
 Per modificare qualsiasi linea centrale si può usare qualsiasi pulsante di comando delle linee centrali (**<img src="images/TechDraw_FaceCenterLine.svg" width=16px> [Linea a centro faccia](TechDraw_FaceCenterLine/it.md)**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> Linea centrale a 2 linee**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Linea centrale a 2 punti](TechDraw_2PointCenterLine/it.md)**).
 

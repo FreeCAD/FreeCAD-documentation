@@ -13,7 +13,7 @@ Please Note: The below work is present in develop branch of Reinforcement workbe
 
 The [Reinforcement Drawing](Arch_Rebar_Drawing.md) tool allows the user to create drawing of reinforcing bars.
 
-This command is part of the [Reinforcement Addon](Reinforcement_Addon.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Addon](Reinforcement_Addon.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
  <img alt="" src=images/Arch_Rebar_Drawing_example.svg  style="width:800px;"> 
 
@@ -34,7 +34,7 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
     makeStructuresReinforcementDrawing(view=view)
 ```
 
-## ReinforcementDrawingView Object {#reinforcementdrawingview_object}
+## ReinforcementDrawingView Object 
 
 A Rebars Drawing SVG View object.
 
@@ -97,9 +97,9 @@ A Rebars Drawing SVG View object.
 
 The [Reinforcement Drawing](Arch_Rebar_Drawing.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions:
 
-### Create Reinforcement Drawing View {#create_reinforcement_drawing_view}
+### Create Reinforcement Drawing View 
 
-#### For one structure {#for_one_structure}
+#### For one structure 
 
  
 ```python
@@ -258,7 +258,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 
 
-#### For multiple structures {#for_multiple_structures}
+#### For multiple structures 
 
  
 ```python
@@ -292,7 +292,7 @@ structure_drawing_page_dict = makeStructuresReinforcementDrawing(
 
 -    `rebars_list`is the list of rebar objects to be included in drawing. If not provided, rebars objects having Host in structure\_list will be selected from active document.
 
-##### Example {#example_1}
+##### Example 
 
 
 

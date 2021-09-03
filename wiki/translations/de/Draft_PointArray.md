@@ -32,7 +32,7 @@ Beide Befehle können auf 2D Objekte angewendet werden, die mit dem [ Arbeitsber
 2.  Füge das [Punkt Verbund](#Punkt_Verbund.md) Objekt zur Auswahl hinzu.
 3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_PointArray.svg" width=16px> [Entwurf PunktAnordnung](Draft_PointArray/de.md)** Schaltfläche.
-    -   Wähle den {{MenuCommand|Änderung → Werkzeuge Anordnung → <img src="images/Draft_PointArray.svg" width=16px> Punktanordnung}} aus dem Menü.
+    -   Wähle den **Änderung → Werkzeuge Anordnung → <img src="images/Draft_PointArray.svg" width=16px> Punktanordnung** aus dem Menü.
 4.  Die Anordnung wird erzeugt.
 5.  Ändere optional die [Eigenschaften](#Eigenschaften.md) der Anordnung im [Eigenschaftseditor](Property_Editor/de.md).
 

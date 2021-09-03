@@ -53,7 +53,7 @@ Structura de comprimare în modurile \"Standard\" și \"Split\" urmează structu
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Selectați obiectele care urmează să fie intersectate.
     Ordinea de selecție nu este importantă, deoarece acțiunea instrumentului este simetrică. Este suficient să selectați o sub-formă a fiecărui obiect (de exemplu, fețele). De asemenea, puteți selecta un compus care conține toate formele de conectat, de ex. [Array Draft](Array_Draft.md).
@@ -89,12 +89,12 @@ Se creează un obiect parametru Boolean Fragments. Obiectele originale sunt ascu
 
 </div>
 
-## Implementation details {#implementation_details}
+## Implementation details 
 
 
 <div class="mw-translate-fuzzy">
 
-## Implementarea detaliilor {#implementarea_detaliilor}
+## Implementarea detaliilor 
 
 Funcția Boolean Fragments (\"Fragmente booleene\") în modul \"Standard\" este operatorul general al siguranței OpenCascade (GFA). Acceptă o combinație de probabil toate tipurile de forme, iar logica ieșirii este destul de complicată. Vedeți [OpenCascade user guide: Boolean operations](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
 

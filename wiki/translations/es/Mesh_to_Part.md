@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Convertir Objetos parte en mallas {#convertir_objetos_parte_en_mallas}
+## Convertir Objetos parte en mallas 
 
 
 </div>
@@ -59,7 +59,7 @@ mesh.Mesh = MeshPart.meshFromShape(
 
 <div class="mw-translate-fuzzy">
 
-## Convertir Mallas en objetos Pieza {#convertir_mallas_en_objetos_pieza}
+## Convertir Mallas en objetos Pieza 
 
 
 </div>

@@ -44,13 +44,13 @@ Narzędzia do tworzenia, konfigurowania i eksportowania arkuszy rysunków 2D.
 
 -    **Uwaga:**narzędzie [Drawing](Draft_Drawing.md) jest używane z [Draft objects](Draft_Workbench.md). Ma pewne dodatkowe możliwości w stosunku do narzędzi Drawing i obsługuje określone obiekty, takie jak [wymiary](Draft_Dimension.md).
 
-## Organizacja pracy {#organizacja_pracy}
+## Organizacja pracy 
 
 Dokument zawiera obiekt kształtu 3D *(leg)*, z którego chcemy wykonać rysunek. Dlatego też tworzona jest nowa **strona**. Jest ona generowana z szablonu, na przykład szablonu **A3\_Landscape**. Szablon jest dokumentem [SVG](SVG/pl.md), który może pomieścić ramkę strony, logo i inne elementy.
 
 Na tej stronie możemy wstawić jeden lub więcej widoków. Każdy widok posiada pozycję na stronie, współczynnik skali i dodatkowe właściwości. Za każdym razem, gdy zmienia się strona, widok lub obiekt, do którego się odwołuje, strona jest ponownie odtwarzana i wyświetlany jest zaktualizowany widok.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 W chwili obecnej graficzny interfejs użytkownika jest bardzo ograniczony, więc interfejs API skryptów jest bardziej interesujący.
 
@@ -62,7 +62,7 @@ Makro [CartoucheFC](Macro_CartoucheFC.md) umożliwia utworzenie niestandardowego
 
 FreeCAD posiada wbudowany zestaw szablonów, możesz znaleźć ich więcej na stronie [Szablony rysunku](Drawing_templates/pl.md).
 
-## Rozszerzanie Środowiska pracy Drawing {#rozszerzanie_środowiska_pracy_drawing}
+## Rozszerzanie Środowiska pracy Drawing 
 
 Niektóre uwagi dotyczące programowania Środowiska pracy Drawing zostaną dodane do strony [Dokumentacja rysunkowa](Drawing_Documentation.md). Ma to pomóc w szybkim zrozumieniu sposobu działania Środowiska pracy Drawing, umożliwiając programistom sprawne rozpoczęcie programowania.
 
@@ -70,7 +70,7 @@ Niektóre uwagi dotyczące programowania Środowiska pracy Drawing zostaną doda
 
 -   [Przewwodnik po Drawing](Drawing_tutorial.md)
 
-## Linki zewnętrzne {#linki_zewnętrzne}
+## Linki zewnętrzne 
 
 -   [Wprowadzenie do rysunku mechanicznego na Youtube - według Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 

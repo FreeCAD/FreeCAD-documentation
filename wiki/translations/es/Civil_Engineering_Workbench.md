@@ -11,7 +11,7 @@ En la actualidad, sólo dos componentes de la ingeniería civil están represent
 
 Las herramientas de Barra de refuerzo forman parte actualmente del [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md)
 
-## Temas del foro relacionados {#temas_del_foro_relacionados}
+## Temas del foro relacionados 
 
 -   Implementación de funciones de ingeniería civil (Ingeniería de Transporte) [thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=22277)
 -   Funciones de diseño de ingeniería civil [thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=6973)
@@ -23,7 +23,7 @@ Las herramientas de Barra de refuerzo forman parte actualmente del [Ambiente de 
 -   Hoja de ruta (juego de palabras no intencionado)
 -   Arreglar esta página wiki
 
-## Enlaces relacionados {#enlaces_relacionados}
+## Enlaces relacionados 
 
 -   [Ambientes de trabajos external](External_workbenches/es.md)
 -   [Ambientes de trabajos](Workbenches/es.md)

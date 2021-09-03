@@ -12,9 +12,9 @@ The following GIF demonstrates attaching our custom box to a cylinder, and autom
 
 **NOTE:** The box is our custom scripted object, and the cylinder is a regular FreeCAD object generated from the Part workbench.
 
-## Making Scripted Objects Attachable {#making_scripted_objects_attachable}
+## Making Scripted Objects Attachable 
 
-### Add Attach Extension {#add_attach_extension}
+### Add Attach Extension 
 
 First, we need to add the Part::AttachExtensionPython extension to our Part::FeaturePython oject in the constructor, or __init__ method, of our custom scripted object.
 
@@ -37,7 +37,7 @@ Without adding this code, we\'ll see the following warning dialog when attaching
 
 ![](images/Part-attachment-warning-dialog.png )
 
-### Update Position Based on Attached Object {#update_position_based_on_attached_object}
+### Update Position Based on Attached Object 
 
 Then, in the \execute\ method of our custom scripted object, we need to call the \positionBySupport\ on our \Part::FeaturePython\ object.
 
@@ -53,7 +53,7 @@ class Box:...
 
 Without calling positionBySupport, our custom scripted object won\'t update it\'s position when the position of the attached-to object changes.
 
-## Full and Complete Minimal Example {#full_and_complete_minimal_example}
+## Full and Complete Minimal Example 
 
  {.python .numberLines}
 import FreeCAD as App
@@ -126,7 +126,7 @@ document.recompute()
 -   [FreeCAD Forum - Port attachment to be an extension](https://forum.freecadweb.org/viewtopic.php?f=10&t=18978&start=10)
 -   [GitHub - freecad-part-attachment-python-example](https://github.com/gbroques/freecad-part-attachment-python-example)
 
-## Tested With the Following FreeCAD Version {#tested_with_the_following_freecad_version}
+## Tested With the Following FreeCAD Version 
 
 Tested with the following FreeCAD version information:
 

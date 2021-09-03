@@ -6,24 +6,24 @@ Acesta este locul unde veți veni dacă doriți să contribuiți la dezvoltarea 
 
 Aceste pagini sunt în stadiu incipient de dezvoltare. Dacă nu găsiți informațiile pe care le căutați, sau aveți invormații utile undeva unde nu am făcut link-ul, atunci vă rog lăsați un comentariu pe [forum](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) și cineva se va uita acole la el (sau, dacă te simți îndrăzneț, de ce să nu editezi direct această pagină!).
 
-## Developer Documentation {#developer_documentation}
+## Developer Documentation 
 
 
 <div class="mw-translate-fuzzy">
 
-## Documentație Dezvoltatori {#documentație_dezvoltatori}
+## Documentație Dezvoltatori 
 
 Documentația dezvoltatorului a inclus următoarele secțiuni:
 
 
 </div>
 
-### Compiling FreeCAD {#compiling_freecad}
+### Compiling FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-### Fă-o singur: Compilare FreeCAD {#fă_o_singur_compilare_freecad}
+### Fă-o singur: Compilare FreeCAD 
 
 -   [Source code management](Source_code_management.md)
 -   [Find assistance](Tracker.md) când aveți o problemă sau credeți că poate ați găsit un bug
@@ -50,12 +50,12 @@ Documentația dezvoltatorului a inclus următoarele secțiuni:
 -   [Windows packaging](Windows_packaging.md)
 -   [MacOS packaging](MacOS_packaging.md)
 
-### Build Support Tools {#build_support_tools}
+### Build Support Tools 
 
 
 <div class="mw-translate-fuzzy">
 
-### Construiți instrumente de sprijin {#construiți_instrumente_de_sprijin}
+### Construiți instrumente de sprijin 
 
 -   The [FreeCAD Build Tool](FreeCAD_Build_Tool.md)
     -   [Adding an application module](Module_Creation.md) to FreeCAD
@@ -67,12 +67,12 @@ Documentația dezvoltatorului a inclus următoarele secțiuni:
 
 </div>
 
-### Modifying FreeCAD {#modifying_freecad}
+### Modifying FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-### Modificarea FreeCAD {#modificarea_freecad}
+### Modificarea FreeCAD 
 
 -   Înțelegerea codului sursă [The FreeCAD source code](The_FreeCAD_source_code.md)
 -   Adaugă caracteristici GUI [Features](Gui_Command.md) la FreeCAD sau Ateliere
@@ -88,12 +88,12 @@ Documentația dezvoltatorului a inclus următoarele secțiuni:
 
 -   [Translating an external workbench](Translating_an_external_workbench.md)
 
-### Module developer\'s guide {#module_developers_guide}
+### Module developer\'s guide 
 
 
 <div class="mw-translate-fuzzy">
 
-### Ghidul deszvoltatorului de Module {#ghidul_deszvoltatorului_de_module}
+### Ghidul deszvoltatorului de Module 
 
 [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): Aceasta este o carte electronică scrisă pe github. \"Este un proiect colaborativ și sunteți binevenit să adăugați îmbunătățiri\" Vă rugăm să ne trimiteți cererea dvs. de a vă aduce contribuția.
 
@@ -120,7 +120,7 @@ Cel mai recent preview pdf poate fi descărcat din depozitul: git[pdf folder](ht
 
 <div class="mw-translate-fuzzy">
 
-### Documentație OpenCascade {#documentație_opencascade}
+### Documentație OpenCascade 
 
 -   [Roman Lygin\'s tutorials](http://opencascade.wikidot.com/romansarticles)
 -   [Full Online Documentation](https://dev.opencascade.org/doc/overview/html/index.html)
@@ -137,11 +137,11 @@ OpenCascade is a software development platform for 3D surface and solid modeling
 -   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
 -   [The openCascade wiki](http://opencascade.wikidot.com) (currently containing ?? Chinese spam)
 
-#### File format {#file_format}
+#### File format 
 
 [File Format FCStd](File_Format_FCStd.md). The files created with FreeCAD are `.zip` files that include the [BREP](https://en.wikipedia.org/wiki/Boundary_representation) geometry, as well as XML data that describes the document.
 
-#### Sketcher solver {#sketcher_solver}
+#### Sketcher solver 
 
 -   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
 -   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
@@ -156,7 +156,7 @@ The development of a new solver architecture could improve the way the solver is
 
 <div class="mw-translate-fuzzy">
 
-## Foaie de parcurs {#foaie_de_parcurs}
+## Foaie de parcurs 
 
 FreeCAD, deși utilizabilă în anumite domenii, este la începutul unei lungi drumuri în marele curent CAD. Mai sunt încă multe de făcut pentru a ajunge la o stare în care putem concura cu software comercial.
 

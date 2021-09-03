@@ -20,7 +20,7 @@ La **contrainte dimensionnelle** spécifie par une valeur la longueur d\'une lig
 2.  Appelez la commande de plusieurs manières :
     -   Appuyez sur le bouton **<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Contraindre dimensionnelle](Sketcher_ConstrainDistance/fr.md)**
     -   Utilisez le raccourci clavier **Maj** + **D**. (**D** est pour **D**istance)
-    -   Utilisez l\'entrée {{MenuCommand|Sketch → Contraintes d'esquisse → <img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contraindre dimensionnelle}} dans le menu supérieur.
+    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → <img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contraindre dimensionnelle** dans le menu supérieur.
 3.  Une boîte de dialogue contextuelle s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
 
 **Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable. Pour définir la distance perpendiculaire entre un point et une droite, le point doit être sélectionné en premier. Par défaut, la commande sera en mode continu afin de créer de nouvelles contraintes; appuyez sur le bouton droit de la souris ou sur **ÉCHAP** pour quitter la commande.

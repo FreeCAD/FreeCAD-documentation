@@ -16,7 +16,7 @@ Das **Polarmuster** Werkzeug nimmt ein ausgewähltes Formelement und erstellt ei
 
 ## Anwendung
 
-#### Ein Muster erstellen {#ein_muster_erstellen}
+#### Ein Muster erstellen 
 
 1.  Wähle (Optional) das Formelement ({{Version/de|0.19}} oder mehrere Formelemente), die gemustert werden sollen.
 2.  Drücke die **<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **PolarMuster** Schaltfläche.
@@ -27,7 +27,7 @@ Das **Polarmuster** Werkzeug nimmt ein ausgewähltes Formelement und erstellt ei
 6.  Wenn du mehrere Formelemente im Muster hast, kann deren Reihenfolge wichtig sein, siehe Abbildung unten.
 7.  Drücke **OK**.
 
-#### Formelemente ordnen {#formelemente_ordnen}
+#### Formelemente ordnen 
 
 ![](images/PartDesign_feature-order.gif ) *Auswirkung der Formelementreihenfolge*
 
@@ -36,7 +36,7 @@ Das **Polarmuster** Werkzeug nimmt ein ausgewähltes Formelement und erstellt ei
 
 Du kannst durch Ziehen des Formelements in der Liste die Reihenfolge ändern, und du wirst das Ergebnis sofort als Vorschau sehen.
 
-#### Formelemente hinzufügen {#formelemente_hinzufügen}
+#### Formelemente hinzufügen 
 
 ###### v0.18
 
@@ -54,7 +54,7 @@ Du kannst durch Ziehen des Formelements in der Liste die Reihenfolge ändern, un
 3.  Wähle in der Baumstruktur das hinzuzufügende Formelement.
 4.  Wiederhole den Vorgang, um weitere Formelemente hinzuzufügen.
 
-#### Formelemente entfernen {#formelemente_entfernen}
+#### Formelemente entfernen 
 
 -   Rechtsklicke auf das Formelement in der Liste und wähle *Entfernen*.
 
@@ -67,7 +67,7 @@ oder
     4.  Wähle das Formelement in der 3D Ansicht; es sollte aus der Liste entfernt worden sein.
     5.  Wiederhole dies um weitere Formelemente zu entfernen.
 
-###### v0.19 {#v0.19_1}
+###### v0.19 
 
 1.  Drücke **Formelement entfernen**, um ein Formelement aus der Liste zu entfernen.
 2.  Wechsle zum Modellbaum;
@@ -82,37 +82,38 @@ oder
 
 Beim Erstellen eines Polaren Form-Musters bietet der Dialog \"Polardiagramm-Parameter\" verschiedene Möglichkeiten zum Festlegen der Pattern-Rotationsachse.
 
-#### Normale Skizzenachse {#normale_skizzenachse}
+#### Normale Skizzenachse 
 
 Eine Achse, die normal zur Skizze ist und im Ursprung der Skizze des verwendeten Merkmals beginnt, wird als Achse für das polare Muster genommen.
 Die Drehrichtung des Musters kann umgekehrt werden, indem Sie auf \"Richtung umkehren\" klicken.
 
-#### Horizontale Skizzenachse {#horizontale_skizzenachse}
+#### Horizontale Skizzenachse 
 
 Benutzt die horizontale Achse der Skizze als Achse.
 
-#### Vertikale Skizzenachse {#vertikale_skizzenachse}
+#### Vertikale Skizzenachse 
 
 Benutzt die vertikale Achse der Skizze als Achse.
 
-#### Individuelle Achse in der Skizze {#individuelle_achse_in_der_skizze}
+#### Individuelle Achse in der Skizze 
 
 Wenn die Skizze für das zu wiederholende Muster Konstruktionsliniem besitzen, werden diese Konstruktionslinien in dem Dropdown-MenüI als jeweils spezielle Achsen aufgelistet. Die erste Konstruktionslinie wird im Menü als *Konstruktionslinie 1* aufgelistet.
 
-#### Basis (X/Y/Z) Achse {#basis_xyz_achse}
+#### Basis (X/Y/Z) Achse 
 
 
 <small>(v0.17)</small> 
 
 Die Standardachsen des Koordinatensystems des Körpers (Body) stehen als Basis X, Y oder Z-Richtung zur Verfügung. 
 
-#### Referenz auswählen\... {#referenz_auswählen...}
+#### Referenz auswählen\... 
 
 Erlaubt Dir, entweder eine Bezugslinie oder eine Kante eines Objekts oder eine Linie einer Skizze als Achse zu benutzen.
 
-### Winkel und Häufigkeiten {#winkel_und_häufigkeiten}
+### Winkel und Häufigkeiten 
 
-Gibt den Winkel an, der vom Muster abgedeckt werden soll, sowie die Gesamtzahl der Musterformen (einschließlich des ursprünglichen Formelements). Zum Beispiel würden vier Vorkommen in einem Winkel von 180 Grad einen Abstand von 60 Grad zwischen Mustern ergeben. Es gibt eine Ausnahme: Wenn der Winkel 360 Grad beträgt werden z.b vier Vorkommen um 90 Grad voneinander getrennt, weil das erste und das letzte Vorkommen identisch sind. {{Clear}}
+Gibt den Winkel an, der vom Muster abgedeckt werden soll, sowie die Gesamtzahl der Musterformen (einschließlich des ursprünglichen Formelements). Zum Beispiel würden vier Vorkommen in einem Winkel von 180 Grad einen Abstand von 60 Grad zwischen Mustern ergeben. Es gibt eine Ausnahme: Wenn der Winkel 360 Grad beträgt werden z.b vier Vorkommen um 90 Grad voneinander getrennt, weil das erste und das letzte Vorkommen identisch sind. 
+
 
 ## Begrenzungen
 

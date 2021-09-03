@@ -3,7 +3,7 @@
 
 <div class="mw-translate-fuzzy">
 
-### Trenutna stabilna verzija FreeCAD-a {#trenutna_stabilna_verzija_freecad_a}
+### Trenutna stabilna verzija FreeCAD-a 
 
 
 </div>
@@ -25,7 +25,7 @@ Previous versions can be downloaded from the [releases](https://github.com/FreeC
 
 <div class="mw-translate-fuzzy">
 
-#### Upute za Windows korisnike {#upute_za_windows_korisnike}
+#### Upute za Windows korisnike 
 
 -   32-Bit installer (x86) podržava slijedeće Windows verzije: 7/8/10.
 -   64-Bit installer (x64) podržava slijedeće Windows verzije: 7/8/10.
@@ -33,11 +33,11 @@ Previous versions can be downloaded from the [releases](https://github.com/FreeC
 
 </div>
 
-### Notes for Mac OS X users {#notes_for_mac_os_x_users}
+### Notes for Mac OS X users 
 
 Mac OS X 10.12 *Sierra* is the minimum supported version.
 
-### Notes for GNU/Linux users {#notes_for_gnulinux_users}
+### Notes for GNU/Linux users 
 
 Most distributions carry FreeCAD in their official repositories, however, if the distribution doesn\'t follow a rolling release model the version they provide might be outdated. Instead you can download the AppImage above, mark it as executable and launch it without installation.
 
@@ -52,7 +52,7 @@ HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD_0.19-23756-Linu
 
 More information about FreeCAD\'s environment variables can be found on [the configuration page](Start_up_and_Configuration#Environment_variables.md).
 
-## Development versions {#development_versions}
+## Development versions 
 
 FreeCAD\'s development is active.
 
@@ -60,7 +60,7 @@ FreeCAD\'s development is active.
 -   For MacOS and Windows development builds and development source code, see the [weekly builds](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds) page.
 -   To compile the latest source code, see [compiling](Compiling.md).
 
-## Additional modules and macros {#additional_modules_and_macros}
+## Additional modules and macros 
 
 FreeCAD zajednica pruža mnogo dodatnih modula i makronaredbi. Od 0.17 mogu se lako instalirati iz sustava FreeCAD pomoću [Uređivač Dodataka](Addon_Manager/hr.md)<img alt="" src=images/AddonManager.svg  style="width:22px;">.
 

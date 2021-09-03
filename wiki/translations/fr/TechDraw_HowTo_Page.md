@@ -13,7 +13,7 @@
 
 Cette page fournit une collection de conseils et de petits guides sur l\'utilisation de l\' <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md). L\'ajout de nouvelles astuces et de meilleures pratiques est encouragé.
 
-### Activer/Désactiver les marques de centrage {#activerdésactiver_les_marques_de_centrage}
+### Activer/Désactiver les marques de centrage 
 
 Lorsque les marques de centrage sont des centres de perçage désactivés et que des éléments similaires ne peuvent pas être cotés. Les marques de centrage sont représentées par une petite croix.
 
@@ -22,23 +22,23 @@ Lorsque les marques de centrage sont des centres de perçage désactivés et que
 
 *Remarquez* dans cet onglet les [autres paramètres](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md) pour la vue qui pourraient être utiles.
 
-### Basculer le cadre de vue et les points de sommet {#basculer_le_cadre_de_vue_et_les_points_de_sommet}
+### Basculer le cadre de vue et les points de sommet 
 
 Voir [ici](TechDraw_ToggleFrame/fr.md) pour les activer et désactiver et plus d\'informations.
 
-### Arêtes courbes comme entrée pour les cotes linéaires {#arêtes_courbes_comme_entrée_pour_les_cotes_linéaires}
+### Arêtes courbes comme entrée pour les cotes linéaires 
 
 Les arêtes courbes sont acceptées comme entrée pour les cotes linéaires. Voir ce [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=49719&start=30)
 
 <img alt="" src=images/CurvedEdgeLinearDims.png  style="width:256px;">
 
-### Afficher les dimensions métriques et impériales en même temps {#afficher_les_dimensions_métriques_et_impériales_en_même_temps}
+### Afficher les dimensions métriques et impériales en même temps 
 
 Il est possible d\'afficher en même temps les dimensions décimales métriques et impériales. Voir ce [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=49711)
 
 <img alt="" src=images/Imperiale_decimale.png  style="width:256px;">
 
-### Dimensionnement en cas de trous orientés {#dimensionnement_en_cas_de_trous_orientés}
+### Dimensionnement en cas de trous orientés 
 
 Deux cas d\'utilisation. Voir ce [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=49976).
 

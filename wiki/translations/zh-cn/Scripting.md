@@ -86,7 +86,7 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 </div>
 
-#### Working with Meshes {#working_with_meshes}
+#### Working with Meshes 
 
 
 <div class="mw-translate-fuzzy">
@@ -98,7 +98,7 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 </div>
 
-#### Working with Parts {#working_with_parts}
+#### Working with Parts 
 
 
 <div class="mw-translate-fuzzy">
@@ -113,7 +113,7 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 </div>
 
-#### Accessing the Coin scenegraph {#accessing_the_coin_scenegraph}
+#### Accessing the Coin scenegraph 
 
 
 <div class="mw-translate-fuzzy">
@@ -126,7 +126,7 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 </div>
 
-### Controlling the Qt interface {#controlling_the_qt_interface}
+### Controlling the Qt interface 
 
 
 <div class="mw-translate-fuzzy">

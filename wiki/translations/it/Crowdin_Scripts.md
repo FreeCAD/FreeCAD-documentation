@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Gestire le traduzioni per FreeCAD {#gestire_le_traduzioni_per_freecad}
+## Gestire le traduzioni per FreeCAD 
 
 Per gestire le traduzioni FreeCAD utilizza un servizio di traduzione di terzi chiamato [Crowdin](https://crowdin.com/project/freecad).
 
@@ -35,7 +35,7 @@ Lo script updatecrowdin.py trasferisce le modifiche dalla directory locale FreeC
 
 Lo script updatefromcrowdin.py estrae le modifiche da crowdin alla directory locale FreeCAD/.
 
-## Inviare le stringhe più recenti a crowdin {#inviare_le_stringhe_più_recenti_a_crowdin}
+## Inviare le stringhe più recenti a crowdin 
 
 -   Testato solo su Linux
 -   È necessario un file .credentials nella propria directory /home/YourUser. Questo file è un semplice file di testo contenente solo una riga, che è la chiave API che si trova su <https://crowdin.com/project/freecad/settings#api> (solo per gli amministratori)
@@ -46,7 +46,7 @@ Lo script updatefromcrowdin.py estrae le modifiche da crowdin alla directory loc
 -   cd ../.. (torna alla cartella radice del codice sorgente)
 -   git checkout . (annulla tutte le modifiche ai file .ts, non c\'è motivo di convalidarli in questo momento in quanto non sono ancora stati tradotti)
 
-## Unire le ultime traduzioni da crowdin {#unire_le_ultime_traduzioni_da_crowdin}
+## Unire le ultime traduzioni da crowdin 
 
 -   Testato solo su Linux
 -   È necessario un file .credentials nella propria directory /home/YourUser. Questo file è un semplice file di testo contenente solo una riga, che è la chiave API che si trova su <https://crowdin.com/project/freecad/settings#api> (solo per gli amministratori)
@@ -62,14 +62,14 @@ Lo script updatefromcrowdin.py estrae le modifiche da crowdin alla directory loc
 -   Se tutto sembra ok (git status), convalidare con git add . && git commit
 -   Creare un PR su FreeCAD
 
-## Generare un file di traduzione dal sito Web {#generare_un_file_di_traduzione_dal_sito_web}
+## Generare un file di traduzione dal sito Web 
 
 -   Clonare il repository della home page
 -   cd /path/to/FreeCAD-homepage
 -   xgettext \--from-code=UTF-8 -o lang/homepage.pot \*.php
 -   Aggiornare la \"homepage.po\" sul sito Web di crowdin manualmente, utilizzando il file lang/homepage.pot
 
-## Aggiornare le traduzioni del sito web {#aggiornare_le_traduzioni_del_sito_web}
+## Aggiornare le traduzioni del sito web 
 
 -   Scaricare il file freecad.zip dal sito Web crowdin o seguendo le istruzioni sopra (python updatecrowdin.py download)
 -   cd /path/to/FreeCAD-homepage

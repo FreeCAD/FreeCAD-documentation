@@ -12,7 +12,7 @@ Jeśli chciałbyś wesprzeć projekt FreeCAD, proszę wykjonaj [dotację](donate
 
 A jeśli interesuje cię historia programu FreeCAD, odwiedź stronę [Historia](History.md).
 
-## Korzystanie z programu FreeCAD {#korzystanie_z_programu_freecad}
+## Korzystanie z programu FreeCAD 
 
 ### Wprowadzenie
 
@@ -28,7 +28,7 @@ Zobacz równiez:
 
 -   [Migracja do FreeCAD z Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
 
-### Informacje podstawowe {#informacje_podstawowe}
+### Informacje podstawowe 
 
 -   [Interface](Interface/pl.md): interfejs FreeCAD jest zbudowany z różnych elementów graficznych dostępnych na ekranie, w tym [widok 3D](3D_view/pl.md), [widok drzewa](Tree_view/pl.md), [edytor właściwości](Property_editor/pl.md), [panel zadań](Task_panel/pl.md), oraz [konsola Pythona](Python_console/pl.md).
 -   [Nawigacja przy użyciu myszki](Mouse_navigation/pl.md): różne warianty obsługi za pomocą myszki lub gładzika do obsługi widoku 3D.
@@ -41,7 +41,7 @@ Zobacz równiez:
 -   [Środowiska pracy](Workbenches/pl.md): W jaki sposób zorganizowany jest interfejs aplikacji.
 -   [Makra](Macros/pl.md): jak łatwo zautomatyzować powtarzające się czynności
 
-### Środowiska pracy {#środowiska_pracy}
+### Środowiska pracy 
 
 [Środowisko pracy](Workbenches/pl.md) reprezentowane jest przez zestaw powiązanych narzędzi, które są wykorzystywane do realizacji konkretnych zadań. Są to podstawowe środowiska pracy dołączone do każdej instalacji FreeCAD:
 
@@ -97,7 +97,7 @@ Doświadczeni użytkownicy napisali różne [makra](macros.md), aby wzbogacić F
 
 Od wersji FreeCAD 0.17, wiele makr można zainstalować za pomocą [Menadżer dodatków](Std_AddonMgr/pl.md). Lista makrodefinicji znajduje się na stronie [przepisy na makrodefinicje](Macros_recipes/pl.md). Ręczna instalacja - patrz [Jak zainstalować makra](How_to_install_macros/pl.md).
 
-### Dodatkowe Środowiska pracy {#dodatkowe_środowiska_pracy}
+### Dodatkowe Środowiska pracy 
 
 Gdy wiele makrodefinicji lub funkcji jest opracowywanych przy użyciu wspólnych pasków narzędzi i menu, mogą one stać się nowym Środowiskiem pracy.
 
@@ -109,13 +109,13 @@ Od wersji FreeCAD **0.17**, wiele stołów roboczych może być zainstalowanych 
 
 [Lista komend](List_of_Commands/pl.md): Pełna lista dostępnych poleceń FreeCAD.
 
-## System pomocy Online {#system_pomocy_online}
+## System pomocy Online 
 
 Jest to oficjalna pomoc Online FreeCAD. Proszę zwrócić uwagę, że cały system pomocy Online jest obecnie opracowywany na nowo. Zostanie on użyty do wygenerowania pliku w formacie .CHM, który będzie dystrybuowany wraz z pakietami binarnymi FreeCAD. W chwili obecnej pomoc online streszcza niektóre z najbardziej kompletnych sekcji tej wiki.
 
 -   [ System pomocy online - Spis treści](Online_Help_Toc/pl.md)
 
-## Informacje dodatkowe {#informacje_dodatkowe}
+## Informacje dodatkowe 
 
 -   [Centrum Power użytkownika](Power_users_hub/pl.md) to miejsce dla zaawansowanych użytkowników programu FreeCAD.
 -   [Portal społecznościowy FreeCAD](FreeCAD_Community_Portal/pl.md) wyświetla listę projektów wykonanych przez członków społeczności zgromadzonej wokół FreeCAD.

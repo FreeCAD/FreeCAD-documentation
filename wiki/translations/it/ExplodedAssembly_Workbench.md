@@ -25,7 +25,7 @@ Funzioni
 
 ## Installazione
 
-### Installazione automatica {#installazione_automatica}
+### Installazione automatica 
 
 
 <div class="mw-translate-fuzzy">
@@ -35,7 +35,7 @@ Vedere [Installazione](Installing/it.md)
 
 </div>
 
-### From GitHub {#from_github}
+### From GitHub 
 
 **Ubuntu & Mint**
 
@@ -54,7 +54,7 @@ That\'s all, the next time you launch FreeCAD the workbench should be incorporat
 
 ![](images/ExplodedAnimation-menu-vert.png )
 
-## Links to ExplodedAnimation WB {#links_to_explodedanimation_wb}
+## Links to ExplodedAnimation WB 
 
 -   Workbench Wiki:
 -   FreeCAD Wiki:
@@ -64,7 +64,7 @@ That\'s all, the next time you launch FreeCAD the workbench should be incorporat
 -   Files:
 -   Report bugs: Please report bugs at
 
-## Altri link utili {#altri_link_utili}
+## Altri link utili 
 
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)

@@ -37,7 +37,7 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 
 ![Interface Rotate to point ](images/Macro_Rotate_To_Point_00.png ) 
 
-### Point Rotation {#point_rotation}
+### Point Rotation 
 
 -   Bounbox Center : Seleziona come asse di rotazione il centro del BoundBox
 -   Center of Mass : Seleziona come asse di rotazione il Centro di massa
@@ -45,14 +45,14 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
     -   1: seleziona uno obietto
     -   2: utilizza **CTRL** per scegliere un oggetto in più
 
-### Axis Rotation {#axis_rotation}
+### Axis Rotation 
 
 -   Rotation(Z) Yaw : asse Yaw
 -   Rotation(Y) Pitch : asse Pitch
 -   Rotation(X) Roll : asse Roll
 -   Rotation(D) Direction: Ruota intorno alla linea, filo selezionato
 
-### Coordinates Point clicked {#coordinates_point_clicked}
+### Coordinates Point clicked 
 
 -   DoubleSpinBox : Coordinate X del clic del mouse (modificabile solo nel modo \"Point Clicked\")
 -   DoubleSpinBox : Coordinate Y del clic del mouse (modificabile solo nel modo \"Point Clicked\")

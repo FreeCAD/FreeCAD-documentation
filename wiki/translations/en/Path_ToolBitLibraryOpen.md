@@ -43,10 +43,10 @@ The close button (7) at bottom right will dismiss the tool library manager. Any 
 
 ## Usage
 
-### Manage Toolbits {#manage_toolbits}
+### Manage Toolbits 
 
 1.  There are several ways to open the Toolbit Library Manager:
-    -   Select the {{MenuCommand|Path → <img src="images/Path_ToolBitLibraryOpen.svg" width=16px> ToolBit Library editor}} option from the menu.
+    -   Select the **Path → <img src="images/Path_ToolBitLibraryOpen.svg" width=16px> ToolBit Library editor** option from the menu.
     -   Open the Toolbit dock as described above and press the **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px>** button to open the Library manager
 2.  Select a library from the list
 3.  Create/Add/Remove toolbits from the library
@@ -54,7 +54,7 @@ The close button (7) at bottom right will dismiss the tool library manager. Any 
 5.  Close the manager
 6.  The selected library will become the default library for the dock
 
-## Editing Toolbits {#editing_toolbits}
+## Editing Toolbits 
 
 There are several ways to edit the toolbits and library:
 

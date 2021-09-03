@@ -2,7 +2,7 @@
 
 This is the place to put all kind of FreeCAD-related stuff! If you work on something FreeCAD-related, please include it here!
 
-## Places where FreeCAD appears on the net {#places_where_freecad_appears_on_the_net}
+## Places where FreeCAD appears on the net 
 -   [Wikipedia](https://en.wikipedia.org/wiki/FreeCAD)
 -   [Softpedia](http://linux.softpedia.com/get/Multimedia/Graphics/FreeCAD-31097.shtml)
 -   [Free Software Foundation](http://directory.fsf.org/project/freecad/)
@@ -13,11 +13,11 @@ This is the place to put all kind of FreeCAD-related stuff! If you work on somet
 
 
 
-## FreeCAD-related projects {#freecad_related_projects}
+## FreeCAD-related projects 
 
 -   [Architecture workflow](http://yorik.uncreated.net/guestblog.php?tag=freecad) : An example of how FreeCAD can begin to have its preliminary place in an architecture workflow\...
 
-## FreeCAD Community Addons {#freecad_community_addons}
+## FreeCAD Community Addons 
 
 These are FreeCAD community developed workbenches, scripts, macros, and addons for FreeCAD. Starting from v0.17 the Addon Manager was implemented in to FreeCAD core, and makes it extremely convenient to install addons approved by the community.
 
@@ -26,12 +26,12 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 
 ## Publicity
 
-### Social networks {#social_networks}
+### Social networks 
 -   [yorik](User:Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
 
 
-### News Sites {#news_sites}
+### News Sites 
 -   <http://makezine.com/>
 -   <http://www.webupd8.org/>
 -   <http://libregraphicsworld.org/>
@@ -45,7 +45,7 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 
 
 
-### Other Sites {#other_sites}
+### Other Sites 
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
 -   <http://forum.diigiit.com/>
 
@@ -84,11 +84,11 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 
 
 
-## Other resources {#other_resources}
+## Other resources 
 
 -   [Interesting links](Interesting_links.md) containing some maybe useful links to other FLOSS resources and project in this area.
 
-## You too! {#you_too}
+## You too! 
 
 -   See what you can do to [Help FreeCAD](Help_FreeCAD.md)\...
 

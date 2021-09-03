@@ -42,7 +42,7 @@ Part objects are more complex than mesh objects created with the [Mesh Workbench
 
 <div class="mw-translate-fuzzy">
 
-Instrumentele sunt toate amplasate în meniul {{MenuCommand|Part}}
+Instrumentele sunt toate amplasate în meniul **Part**
 
 
 </div>
@@ -104,7 +104,7 @@ Acestea sunt instrumente pentru crearea de obiecte primitive grafice.
 
 <div class="mw-translate-fuzzy">
 
-### Modificarea obiectelor {#modificarea_obiectelor}
+### Modificarea obiectelor 
 
 
 </div>
@@ -252,7 +252,7 @@ elimină spațiul partajat de un număr par de obiecte (versiunea simetrică a [
 
 <div class="mw-translate-fuzzy">
 
-### Alte Instrumente {#alte_instrumente}
+### Alte Instrumente 
 
 
 </div>
@@ -304,7 +304,7 @@ elimină spațiul partajat de un număr par de obiecte (versiunea simetrică a [
 
 </div>
 
-### Context menu items {#context_menu_items}
+### Context menu items 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance](Std_SetAppearance.md): Determines the appearance of a whole object (color, transparency etc.).
 

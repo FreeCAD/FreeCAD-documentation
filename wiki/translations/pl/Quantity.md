@@ -6,7 +6,7 @@ In a CAD or CAE system it is very important to keep track of the unit of a value
 
 For that reason the FreeCAD Quantity framework was created. It includes all the code and objects to deal with units, unit calculations, user input, conversion to other systems of units and the pretty output of units and values. In the long run no parameter in FreeCAD should be just a number.
 
-### Supported units {#supported_units}
+### Supported units 
 
 The FreeCAD input parser supports a bunch of units and systems of units. FreeCAD supports the Greek letter \'µ\' for micro but also accepts \'u\' as a replacement. A complete list of all supported units can be [found here](Expressions#Units.md).
 
@@ -15,7 +15,7 @@ The detailed specifications you will find in the code:
 -   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/QuantityLexer.c)
 -   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/Quantity.cpp#l167)
 
-## Internal representation {#internal_representation}
+## Internal representation 
 
 All physical units can be expressed as a combination of the seven [SI-Units](http://en.wikipedia.org/wiki/International_System_of_Units):
 
@@ -38,7 +38,7 @@ Using these seven units we are then able to express all derived units defined in
 
 Since angle is physically dimensionless, but nevertheless important to a CAD system we add one more virtual unit for Angle. This makes a vector of 8 in the FreeCAD unit signature.
 
-## Units calculator {#units_calculator}
+## Units calculator 
 
 Often you are in need of converting values from one system of units to another. For example you have old parameter tables with wired units. In these cases FreeCAD offers a conversion tool called Units-Calculator which helps in translating units.
 
@@ -66,7 +66,7 @@ Code:
 -   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
 -   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp)
 
-## Python scripting {#python_scripting}
+## Python scripting 
 
 The Unit and Quantity system in FreeCAD is (as nearly everything) fully accessibly via Python.
 
@@ -170,7 +170,7 @@ Units.Quantity('1 MPa').getValueAs(Units.Quantity('N/m^2')) # a quantity
           
 ```
 
-### User facing values {#user_facing_values}
+### User facing values 
 
 Normally in scripts you can use Quantity for all kinds of calculations and checking, but there comes the time you have to output information to the user. You could use getValueAs() to force a certain unit, but normally the user sets his preferred unit-schema in the preferences. This unit-schema does all the translations to the representation the user likes to see. At the moment there are three schemes implemented:
 
@@ -218,7 +218,7 @@ params.GetInt('Decimals') # returns an int
 
 ## Appendix
 
-### Parser supported units {#parser_supported_units}
+### Parser supported units 
 
 Although all physical units can be described with the seven SI units, most of the units used in technical areas are common combined units (like Pa = N/m\^2 Pascal ). Therefore the units parser in FreeCAD supports lot of SI and Imperial combined units. These units are defined in src/Base/QuantityParser.l file and can be further expanded in the future.
 

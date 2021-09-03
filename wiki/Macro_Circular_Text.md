@@ -49,7 +49,7 @@ Overview
 
 ![GUI](images/FCCircularText_06.png ) 
 
-### First section {#first_section}
+### First section 
 
 ![](images/FCCircularText_07.png ) 
 
@@ -66,7 +66,7 @@ Overview
 -   ComboView to choose the font
     -   Default ARIAL.TTF
 
-#### Options available {#options_available}
+#### Options available 
 
 After the first use, you must modify the following parameters:
 
@@ -146,13 +146,13 @@ setFontByDefault
 
 
 
-### Second Section {#second_section}
+### Second Section 
 
 Configuring characters in FCCircularText
 
 ![](images/FCCircularText_08.png ) 
 
-#### First zone {#first_zone}
+#### First zone 
 
 Your choice :
 
@@ -192,7 +192,7 @@ Image:FCCircularText 39.png\|**Mode Flat** **Indoor** The text will be placed fl
 
 </center>
 
-#### Second area {#second_area}
+#### Second area 
 
 This section allows you to configure the overall behavior of characters in all the choices available but with some variation. If the command is not used in the option chosen, it will be grayed out.
 
@@ -328,7 +328,7 @@ Image:FCCircularText 23.png\|**Clock** Image:FCCircularText 35.png\|**Axial** Im
 
 -    **Axial**: The figures will be written axially.
 
-### Path section {#path_section}
+### Path section 
 
 ![](images/FCCircularText_06_Path.png ) 
 
@@ -356,7 +356,7 @@ If you select one wire, arc, circle, line and edge the section Path is coloured 
 
 the last Radio Button used is saved in the parameter of FreeCAD
 
-### Command section {#command_section}
+### Command section 
 
 ![](images/FCCircularText_13.png ) 
 
@@ -368,9 +368,9 @@ the last Radio Button used is saved in the parameter of FreeCAD
 
 -    **Run**: Launches the macro
 
-### Parameters available {#parameters_available}
+### Parameters available 
 
-Certain parameter are available in the parameters of FreeCAD see: {{MenuCommand|Menu → Tools → Edit parameters...}}
+Certain parameter are available in the parameters of FreeCAD see: **Menu → Tools → Edit parameters...**
 
 -   User parameter: BaseApp/Preferences/Macros/FCMmacros/FCCircularText
 
@@ -481,7 +481,7 @@ The button icon:
 
 (See [ Customize\_Toolbars](Customize_Toolbars.md) for more)
 
-### Script {#script_1}
+### Script 
 
 **Macro\_Circular\_Text.FCMacro**
 
@@ -566,7 +566,7 @@ Image:FCCircularText\_Path\_00\_002\_000.png\| {{CheckBox|TRUE|Word}} The text i
 
  
 
-## Example onto Ellipse {#example_onto_ellipse}
+## Example onto Ellipse 
 
 
 
@@ -656,7 +656,7 @@ Activate the Part module, then Menu Part \> Make compound. Image:FCCircularText 
 </center>
 
 
-## Example section path {#example_section_path}
+## Example section path 
 
 
 <center>
@@ -702,7 +702,7 @@ Image:FCCircularText Correction.gif\|Character overlap issue and the workaround
 
  Writing on a path circular text of position object selected.
 
-## Change log {#change_log}
+## Change log 
 
 -   ver 0.20 2021/04/05 : adding icone in macro, Tab for diminish the heigth of the macro, remove all dimensions of widgets now fully compatible with the stylesheet, revisite the search version for compatibility and other little change.
 

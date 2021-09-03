@@ -25,7 +25,7 @@ Le Polygone régulier est disponible à partir de la boîte de dialogue Créer d
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md)
 2.  La commande RegularPolygon est accessible de plusieurs manières:
     -   La boîte de dialogue Créer des primitives via l\'icône <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Création de primitives géométriques\...](Part_Primitives/fr.md) située dans la barre d\'outils Part
-    -   Utilisation de {{MenuCommand|Pièce → [Créer des primitives](Part_Primitives/fr.md) → Polygone régulier}}
+    -   Utilisation de **Pièce → [Créer des primitives](Part_Primitives/fr.md) → Polygone régulier**
 
 
 </div>

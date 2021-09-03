@@ -8,9 +8,9 @@ Următoarea procedură va funcționa pentru Windows Vista / 7/8, pentru XP este 
 
 </div>
 
-## **Condiții Prealabile** {#condiții_prealabile}
+## **Condiții Prealabile** 
 
-### Windows Libpack {#windows_libpack}
+### Windows Libpack 
 
 FreeCAD este construit pe o serie de biblioteci de la terțe părți. Pentru confortul utilizatorilor, FreeCAD furnizează Libpacks care conțin toate dependențele necesare, astfel încât să nu trebuie să le compilați singuri.
 
@@ -50,9 +50,9 @@ Extrageți Libpackul într-un director de pe hard disk dvs.
 
 Puteți descărca 7-zip dacă aveți nevoie de el aici: <http://www.7-zip.org/>
 
-### Codul Soursă {#codul_soursă}
+### Codul Soursă 
 
-#### Utilizând Git(de preferat) {#utilizând_gitde_preferat}
+#### Utilizând Git(de preferat) 
 
 Pasul următor, trebuie săinstalați git pentru a putea descărca codul sursă. Puteți luat Git de aici: <http://git-scm.com/downloads>
 
@@ -75,7 +75,7 @@ Now you have the source code and the tools you\'ll need to compile FreeCAD on Wi
 
 <div class="mw-translate-fuzzy">
 
-#### Download Snapshot .zip(Alternate)This is Source Cade Snapshot not Development Snapshot pre-compiled binaries. {#download_snapshot_.zipalternatethis_is_source_cade_snapshot_not_development_snapshot_pre_compiled_binaries.}
+#### Download Snapshot .zip(Alternate)This is Source Cade Snapshot not Development Snapshot pre-compiled binaries. 
 
 <http://sourceforge.net/p/free-cad/code/ci/master/tarball>
 
@@ -92,15 +92,15 @@ Next you will need Cmake, you can get it here: <http://www.cmake.org/download/>
 
 FreeCAD 0.15.xxxx master will configure and generate with Cmake 2.x.x or 3.x.x, you can download the latest version. Older versions of FreeCAD require Cmake 2.x.x You should choose the non-default option to add Cmake to your system PATH environment variable.
 
-### Visual Studio {#visual_studio}
+### Visual Studio 
 
 Lastly you will need the C-compiler. MS VS 12 2013 Community Edition Update 4 is Free for personal and Open Source Projects. It can be downloaded here:
 
 <http://www.visualstudio.com/en-us/news/vs2013-community-vs.aspx>
 
-## **Configuring and Generating with Cmake** {#configuring_and_generating_with_cmake}
+## **Configuring and Generating with Cmake** 
 
-### First Pass {#first_pass}
+### First Pass 
 
 Start the CMake GUI by double-clicking on the desktop icon created during installation.
 
@@ -121,7 +121,7 @@ FREECAD_USE_EXTERNAL_PIVY    (Check)
 FREECAD_USE_FREETYPE         (Check)
 ``` FREETYPE is optional. It is necessary to take advantage of the DRAFT Work Bench\'s Shape String functionality. Under normal situations it is a desirable option.
 
-### Configure and Generate {#configure_and_generate}
+### Configure and Generate 
 
 Click Configure again (There should be no errors)
 
@@ -135,7 +135,7 @@ Close Cmake
 
 You could put the Libpack in your system PATH environment variable. but you still are required to copy some files?
 
-## **Building with Visual Studio** {#building_with_visual_studio}
+## **Building with Visual Studio** 
 
 Start Visual Studio 12 2013 by clicking on the desktop icon created at installation.
 

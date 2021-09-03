@@ -10,7 +10,7 @@
 
 FreeCAD verwendet als interne Darstellungen für die erzeugten Pfade so genannte G-Codes. Sie können solche Dinge beschreiben wie: Geschwindigkeit und Vorschübe, Anhalten des Motors usw\... Aber das Wichtigste sind die Bewegungen, die sie beschreiben. Diese Bewegungen sind ziemlich einfach: Sie können gerade Linien oder Kreisbögen sein. Anspruchsvollere Kurven wie B-Splines werden bereits von FreeCADs <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) angenähert.
 
-## Was der Postprozessor für dich tun kann {#was_der_postprozessor_für_dich_tun_kann}
+## Was der Postprozessor für dich tun kann 
 
 Viele Fräsen verwenden ebenfalls G-Codes zur Steuerung des Fräsprozesses. Sie mögen fast wie die internen Codes aussehen, aber es kann einige Unterschiede geben:
 
@@ -29,7 +29,7 @@ Darüber hinaus gibt es weitere Sprachen zur Steuerung einer Fräse, wie z.B. HP
 
 Der Postprozessor ist ein Programm, das die internen Codes in eine vollständige Datei übersetzt, die auf deine Maschine hochgeladen werden kann.
 
-## Vorbereitung zum Schreiben deines eigenen Postprozessors {#vorbereitung_zum_schreiben_deines_eigenen_postprozessors}
+## Vorbereitung zum Schreiben deines eigenen Postprozessors 
 
 Du kannst mit einem sehr einfachen Modell beginnen, das zeigt, wie deine Maschine gerade Linien und Bögen liest. Bereite es mit einem beliebigen Programm vor, das für deine Maschine geeignet ist.
 
@@ -49,13 +49,13 @@ Für ein Dateiformat {{FileName|<filename>}} sollte der Postprozessor den Namen 
 
 Wenn du testest, leg es in dein Makroverzeichnis. Wenn es gut funktioniert, erwäge bitte, es anderen zur Verfügung zu stellen (poste es im FreeCAD Pfad Forum), damit es in Zukunft in die FreeCAD Distribution aufgenommen werden kann.
 
-## Andere vorhandene Postprozessoren {#andere_vorhandene_postprozessoren}
+## Andere vorhandene Postprozessoren 
 
 Zum Vergleich kannst du dir die Postprozessoren ansehen, die mit deiner FreeCAD Installation geliefert werden. Sie befinden sich unter dem Mod Verzeichnis in Path/PathScripts/post. Weit verbreitet sind die Postprozessoren [linuxcnc](http://linuxcnc.org/) und [grbl](https://github.com/grbl/grbl). Das Studium ihres Codes kann hilfreiche Einblicke geben.
 
 -   Unter Linux lautet der Pfad /usr/share/freecad/Mod/Path/PathScripts/post
 
-## Programmierung deines eigenen Postprozessors {#programmierung_deines_eigenen_postprozessors}
+## Programmierung deines eigenen Postprozessors 
 
 In diesem Beitrag werden einige Interna des linuxcnc Postprozessors diskutiert. Die gleiche Struktur wird auch in anderen Postprozessoren verwendet.
 

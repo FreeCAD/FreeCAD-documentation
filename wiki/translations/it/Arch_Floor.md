@@ -23,7 +23,7 @@ A partire da FreeCAD 0.18, il Piano è derivato interamente dall\'oggetto [Parte
 2.  Richiamare il comando Piano in uno di questi modi:
     -   Premere il pulsante **<img src="images/Arch_Floor.svg" width=16px> [Piano](Arch_Floor/it.md)** nella barra degli strumenti.
     -   Usare la scorciatoia **L** **V** da tastiera.
-    -   Usare {{MenuCommand|Arch → Piano}} dal menu principale.
+    -   Usare **Arch → Piano** dal menu principale.
 
 ## Opzioni
 

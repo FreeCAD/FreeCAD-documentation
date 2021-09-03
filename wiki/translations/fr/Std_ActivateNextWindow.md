@@ -16,12 +16,12 @@ La commande **Std Suivante** active la fenêtre suivante dans [Zone de vue princ
 
 1.  La zone de vue principale doit contenir au moins deux fenêtres.
 2.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Fenêtre → <img src="images/Std_ActivateNextWindow.svg" width=16px> Suivante}} dans le menu.
+    -   Sélectionnez l\'option **Fenêtre → <img src="images/Std_ActivateNextWindow.svg" width=16px> Suivante** dans le menu.
     -   Utilisez le raccourci clavier: **Ctrl**+**Tab**.
 
 ## Remarques
 
--   Les fenêtres de la zone d\'affichage principale sont également répertoriées dans le menu {{MenuCommand|Fenêtre}} et peuvent être activées à partir de là.
+-   Les fenêtres de la zone d\'affichage principale sont également répertoriées dans le menu **Fenêtre** et peuvent être activées à partir de là.
 
 
 

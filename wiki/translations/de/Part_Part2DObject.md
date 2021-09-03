@@ -44,7 +44,7 @@ The following two properties are normally hidden. They become visible once **Map
 
 -    **Attachment Offset|Placement**: the position of the object in the [3D view](3D_view.md), with respect to the attachment object\'s placement. The placement is defined by a `Base` point (vector), and a `Rotation` (axis and angle). See [Placement](Placement.md).
 
-#### Ausgeblendete Dateneigenschaften {#ausgeblendete_dateneigenschaften}
+#### Ausgeblendete Dateneigenschaften 
 
 
 {{TitleProperty|Base}}
@@ -75,7 +75,7 @@ The following two properties are normally hidden. They become visible once **Map
 
 -    **Tight Grid|Bool**: if `True` (default) the local grid will be localized around the origin of the shape, otherwise it will extend itself more.
 
-#### Ausgeblendete Eigenschaften Ansicht {#ausgeblendete_eigenschaften_ansicht}
+#### Ausgeblendete Eigenschaften Ansicht 
 
 
 {{TitleProperty/de|Grundlage}}

@@ -14,7 +14,7 @@ L\'opzione di menu **File recenti** visualizza un elenco di file recenti che pos
 
 ## Utilizzo
 
-1.  Selezionare l\'opzione {{MenuCommand|File → File recenti}} dal menu.
+1.  Selezionare l\'opzione **File → File recenti** dal menu.
 2.  Selezionare un file dall\'elenco per aprirlo.
 
 ## Opzioni
@@ -23,7 +23,7 @@ L\'opzione di menu **File recenti** visualizza un elenco di file recenti che pos
 
 ## Preferenze
 
--   Il numero massimo di file nell\'elenco dei file recenti è determinato dall\'impostazione {{MenuCommand|Strumenti → Modifica parametri ... → BaseApp → Preferenze → File recenti → File recenti}}. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Generale.md).
+-   Il numero massimo di file nell\'elenco dei file recenti è determinato dall\'impostazione **Strumenti → Modifica parametri ... → BaseApp → Preferenze → File recenti → File recenti**. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Generale.md).
 -   L\'ultima posizione del file utilizzato è memorizzata in: {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath}}.
 
 

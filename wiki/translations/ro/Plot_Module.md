@@ -63,7 +63,7 @@ If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="w
 
 <div class="mw-translate-fuzzy">
 
-## Script-Programare {#script_programare}
+## Script-Programare 
 
 Deoarece Plot este un strat peste `matplotlib`, aveți libertatea de a folosi orice funcție din această bibliotecă peste instanțele de plotare. A se vedea [scripting examples](Scripting_examples.md) pentru exemple.
 

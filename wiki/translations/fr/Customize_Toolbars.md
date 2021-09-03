@@ -8,7 +8,7 @@ Ce tutoriel vous vous montre la personnalisation de la barre d\'outils. Les outi
 
 **1.** Trouver le Menu Personnaliser
 
--   Cliquez sur {{MenuCommand|Menu Principal → Outils → Personnaliser}},
+-   Cliquez sur **Menu Principal → Outils → Personnaliser**,
 
 <img alt="Personnaliser" src=images/CustomizeToolBar_01.png  style="width:640px;"> 
 

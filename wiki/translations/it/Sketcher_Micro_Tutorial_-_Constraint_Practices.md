@@ -26,7 +26,7 @@ This tutorial is designed to help the new user become familiar with the best pra
 
 <div class="mw-translate-fuzzy">
 
-## Una spiegazione sintetica {#una_spiegazione_sintetica}
+## Una spiegazione sintetica 
 
 Con i vincoli di sketch in FreeCAD vale una regola generale: meno vincoli dimensionali ci sono, meglio è. Se possibile, è sempre preferibile utilizzare un vincolo geometrico al posto di uno dimensionale. Questo è legato al funzionamento interno del risolutore di Sketcher.
 
@@ -37,9 +37,9 @@ It is preferable to use a **geometric constraint** in place of a dimensional one
 
 ## Setup
 
-1\. Open FreeCAD, create a new empty document with {{MenuCommand|File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)}}.
+1\. Open FreeCAD, create a new empty document with **File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
 
-:   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu {{MenuCommand|[View](Std_View_Menu.md) → Workbench → Sketcher}}.
+:   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **[View](Std_View_Menu.md) → Workbench → Sketcher**.
 
 Some actions to remember:
 
@@ -47,7 +47,7 @@ Some actions to remember:
 -   To exit the sketch edit mode, press the **Close** button in the [task panel](task_panel.md), or press **Esc** twice in the keyboard.
 -   To enter again edit mode, double click on the sketch in the <img src=images/Sketcher_EditSketch.svg style="width:tree view](tree_view.md), or select it, and then click on **[16px"> [Edit sketch](Sketcher_EditSketch.md)**.
 
-## Create a sketch {#create_a_sketch}
+## Create a sketch 
 
 2\. Click on **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [New sketch](Sketcher_NewSketch.md)**.
 
@@ -57,12 +57,12 @@ Some actions to remember:
 
 **Note:**
 
-in the [task panel](task_panel.md) expand the {{MenuCommand|Edit controls}} section, and make sure the {{MenuCommand|Auto constraints}} option is disabled. Also turn off the grid snap, and hide the grid.
+in the [task panel](task_panel.md) expand the **Edit controls** section, and make sure the **Auto constraints** option is disabled. Also turn off the grid snap, and hide the grid.
 
 
 <div class="mw-translate-fuzzy">
 
-## Primo approccio {#primo_approccio}
+## Primo approccio 
 
 A titolo di esempio, prendiamo lo schizzo di un quadrato. Nella prima schermata, il disegno è completamente vincolato, ma solo con vincoli dimensionali, cioè distanze. Questo sistema è valido, ma troppo complicato, ingombra, e inoltre impegna il risolutore con intensiva matematica. Anche se questo non è un problema per un esempio semplice come questo, può diventarlo con schizzi più complessi.
 
@@ -88,19 +88,19 @@ A titolo di esempio, prendiamo lo schizzo di un quadrato. Nella prima schermata,
 <img alt="" src=images/01b_Sk02_Sketcher_Rectangle_constrained_lengths_1.png  style="width:" height="400px;"> <img alt="" src=images/01c_Sk02_Sketcher_Rectangle_constrained_lengths_2.png  style="width:" height="400px;"> 
 *Left: datum constraints for the sides. Right: additional datum constraints for the interior distances.*
 
-Looking at the {{MenuCommand|Constraints}} section in the [task panel](task_panel.md), we see that the constraints are too many; they also clutter the view of the sketch. These constraints are also computationally intensive for the solver; while this is not an issue with a simple shape, it can become one with more complex shapes.
+Looking at the **Constraints** section in the [task panel](task_panel.md), we see that the constraints are too many; they also clutter the view of the sketch. These constraints are also computationally intensive for the solver; while this is not an issue with a simple shape, it can become one with more complex shapes.
 
 
 <div class="mw-translate-fuzzy">
 
-## Un modo migliore {#un_modo_migliore}
+## Un modo migliore 
 
 La schermata successiva mostra lo stesso quadrato, vincolato utilizzando alcuni vincoli geometrici, usando i vincoli geometrici orizzontale e verticale con quelli dimensionali. Si può vedere che utilizzando i vincoli geometrici orizzontale e verticale il numero di vincoli dimensionali richiesti si è ridotto. Questo schizzo è vincolato meglio del primo, ma non è ancora il modo ottimale di vincolare il quadrato.
 
 
 </div>
 
-4\. We will draw the same square fully constrained, and centered at the origin. When you create the new sketch, make sure the {{MenuCommand|Auto constraints}} option is disabled.
+4\. We will draw the same square fully constrained, and centered at the origin. When you create the new sketch, make sure the **Auto constraints** option is disabled.
 
 :   4.1. Click on **<img src="images/Sketcher_CreatePolyline.svg‎‎" width=16px> [Create polyline](Sketcher_CreatePolyline.md)**, then trace four lines in the general shape of a rectangle around the origin.
 :   4.2. Select one horizontal line, and press **<img src=images/Constraint_Horizontal.svg style="width:16px"> [Horizontal](‎Sketcher_ConstrainHorizontal.md)**.
@@ -124,14 +124,14 @@ This is a better constrained sketch than the first one. The horizontal and verti
 
 <div class="mw-translate-fuzzy">
 
-## Schema ottimo {#schema_ottimo}
+## Schema ottimo 
 
 Ora, in questa ultima schermata, è rimasto un solo vincolo dimensionale, e i vincoli rimanenti sono geometrici. Questo è il modo migliore per vincolare lo schizzo. Anche se con uno schizzo semplice come questo, sia un modo che l\'altro non creano grossi problemi, negli schizzi più grandi e complessi attenersi alla regola delle \"dimensioni al minimo\" si rivelerà utile a voi e ai vostri sforzi per costruire delle geometria con gli schizzi. I vincoli geometrici utilizzati in questo schizzo sono orizzontale, verticale, uguali e simmetria.
 
 
 </div>
 
-5\. We will draw the same square fully constrained, and centered at the origin. When you create the new sketch, make sure the {{MenuCommand|Auto constraints}} option is disabled.
+5\. We will draw the same square fully constrained, and centered at the origin. When you create the new sketch, make sure the **Auto constraints** option is disabled.
 
 :   5.1. Click on **<img src="images/Sketcher_CreatePolyline.svg‎‎" width=16px> [Create polyline](Sketcher_CreatePolyline.md)**, then trace four lines in the general shape of a rectangle around the origin.
 :   5.2. Select one horizontal line, and press **<img src=images/Constraint_Horizontal.svg style="width:16px"> [Horizontal](‎Sketcher_ConstrainHorizontal.md)**.
@@ -158,7 +158,7 @@ This is the best way to constrain this sketch, as we only used one datum (dimens
 
 <div class="mw-translate-fuzzy">
 
-## Risorse aggiuntive {#risorse_aggiuntive}
+## Risorse aggiuntive 
 
 
 </div>

@@ -24,7 +24,7 @@ L\'atelier Path contient, par défaut, un ensemble de fonctionnalités cachées.
 
 <div class="mw-translate-fuzzy">
 
-## Activer les fonctionnalités expérimentales {#activer_les_fonctionnalités_expérimentales}
+## Activer les fonctionnalités expérimentales 
 
 
 </div>
@@ -42,8 +42,8 @@ Pour accéder aux fonctionnalités expérimentales masquées dans Path Workbench
 
 Pour activer les fonctionnalités expérimentales:
 
-1.  Ouvrez le [Editeur des paramètres](Std_DlgParameter/fr.md) via {{MenuCommand|Outils → Editer Paramètres ...}}
-2.  Une fois dans l\'éditeur, le chemin est {{MenuCommand|BaseApp → Preferences → Mod → Path}}
+1.  Ouvrez le [Editeur des paramètres](Std_DlgParameter/fr.md) via **Outils → Editer Paramètres ...**
+2.  Une fois dans l\'éditeur, le chemin est **BaseApp → Preferences → Mod → Path**
 3.  Cliquez avec le bouton droit dans la zone de liste des paramètres pour obtenir le menu local des actions.
 4.  Créez un nouveau paramètre booléen.
 5.  Nommez le nouveau paramètre: `EnableExperimentalFeatures` (sensible à la casse).
@@ -54,7 +54,7 @@ Pour activer les fonctionnalités expérimentales:
 
 </div>
 
-## Information Supplémentaire {#information_supplémentaire}
+## Information Supplémentaire 
 
 
 <div class="mw-translate-fuzzy">

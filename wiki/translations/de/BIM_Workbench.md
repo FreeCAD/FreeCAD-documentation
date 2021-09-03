@@ -30,7 +30,7 @@ Der BIM Arbeitsbereich ist noch in Arbeit und wird sich häufig ändern. Achte d
 
 Die unten aufgeführten Werkzeuge sind möglicherweise auch nicht alle vorhanden, wenn deine FreeCAD Version nicht vollständig aktuell ist. Der BIM Arbeitsbereich sollte jedoch nahtlos auf allen FreeCAD Versionen funktionieren, er wird nur die nicht verfügbaren Werkzeuge auslassen.
 
-## Erste Schritte {#erste_schritte}
+## Erste Schritte 
 
 <img alt="" src=images/BIM_welcome_screen.png  style="width:800px;">
 
@@ -52,7 +52,7 @@ Zusätzlich, falls solche [Erweiterungen](External_workbenches/de.md) installier
 
 Der BIM Arbeitsbereich fügt auch eine Reihe von Elementen in der **Statusleiste** von FreeCAD und einige **Kontextmenüelemente** hinzu, die durch einen Rechtsklick in der 3D Ansicht oder in der Baumansicht zugänglich sind.
 
-### 2D Entwurf {#d_entwurf}
+### 2D Entwurf 
 
 2D Objekte werden häufig als Zeichenhilfe oder zum Zeichnen von Grundlinien und Profilen verwendet, auf denen BIM Objekte aufgebaut werden. Sie können auch zum Zeichnen von Symbolen und Anmerkungen in deinem Modell verwendet werden. Abgesehen von Skizzen, die ein eigenes Koordinatensystem verwenden, werden 2D Objekte auf der aktuellen [Arbeitsebene](Draft_SelectPlane/de.md) gezeichnet.
 
@@ -85,7 +85,7 @@ Anmerkungen sind visuelle Hilfsobjekte, die in deinem Modell platziert werden k�
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Seite](TechDraw_PageDefault/de.md): Erstellt eine neue [TechDraw](TechDraw_Workbench.md) Seite aus einer [SVG Vorlage](TechDraw_Templates/de.md)
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Ansicht](TechDraw_ArchView/de.md): fügt eine Ansicht einer Schnittebene auf eine Seite ein
 
-### 3D / BIM Modellierung {#d_bim_modellierung}
+### 3D / BIM Modellierung 
 
 3D und BIM Objekte sind die realen Elemente, aus denen sich dein BIM Projekt zusammensetzt.
 
@@ -169,14 +169,14 @@ Anmerkungen sind visuelle Hilfsobjekte, die in deinem Modell platziert werden k�
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Vorflugkontrollen](BIM_Preflight/de.md): Führe vor dem Export nach IFC verschiedene Prüfungen an deinem Modell durch
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation style editor](Draft_AnnotationStyleEditor.md): Manages annotation styles used by texts and dimensions
 
-## Tutorien und Lernen {#tutorien_und_lernen}
+## Tutorien und Lernen 
 
 -   [Arch & BIM Tutorien in diesem Wiki](Tutorials#Architecture_and_BIM/de.md)
 -   [\"BIM mit FreeCAD\" Videoserie von Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD Tutorien\" Videoserie von Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" Videoserie von Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
 
-## Externe Arbeitsbereiche {#externe_arbeitsbereiche}
+## Externe Arbeitsbereiche 
 
 FreeCAD Arbeitsbereiche sind einfach in [Python](Python.md) zu programmieren. Daher entwickeln viele Leute zusätzliche Arbeitsbereiche außerhalb der FreeCAD Hauptentwickler.
 

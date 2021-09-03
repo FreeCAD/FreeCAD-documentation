@@ -39,7 +39,7 @@
 
 -   Context-menu of the spreadsheet rows and columns: right-click onto the header of a row or column to insert a new row above or a new column at the left, or to delete the current row/column. You can also select several rows or columns to delete them.<small>(v0.20)</small>  You can also select where the the new rows/columns will be inserted. Furthermore, to insert for example 3 new columns at once, select 3 columns and use the context-menu that will now offer to insert 3 columns.
 
-### Свойства ячейки {#свойства_ячейки}
+### Свойства ячейки 
 
 Свойства ячейки электронной таблицы можно редактировать, щелкнув ячейку правой кнопкой мыши. Появится следующий диалог:
 
@@ -53,7 +53,7 @@
 -   Единицы: Отображение единиц измерения для этой ячейки. Прочтите раздел [Единицы измерения](#Единицы_измерения.md) ниже.
 -   Псевдоним: Определение [псевдонима](Spreadsheet_SetAlias/ru.md) для этой ячейки. Этот псевдоним можно использовать в формулах ячеек, а также в общих [выражениях](Expressions/ru.md); смотри раздел [данные электронных таблиц в выражениях](#Выражения_в_ячейках.md) для получения дополнительной информации.
 
-## Выражения в ячейках {#выражения_в_ячейках}
+## Выражения в ячейках 
 
 Ячейка таблицы может содержать любой текст или выражение. Технически, выражение должно начинаться со знака равенства \'=\'. Однако, таблица пытается быть умной, и если Вы введёте нечто, похожее на выражение, но без начального знака \'=\', он будет добавлен автоматически.
 
@@ -66,7 +66,7 @@
 
 Ссылки на объекты в модели описаны в разделе [Ссылки на данные САПР](#Ссылки_на_данные_САПР.md). Использование значений ячеек для определения параметров моделей описано в разделе [Данные таблицы в выражениях](#Данные_таблицы_в_выражениях.md). Насчёт дополнительной информации о выражениях и доступных функциях, смотрите [Выражения](Expressions/ru.md).
 
-## Взаимодействие между электронными таблицами и моделью САПР {#взаимодействие_между_электронными_таблицами_и_моделью_сапр}
+## Взаимодействие между электронными таблицами и моделью САПР 
 
 Данные в ячейках электронной таблицы могут использоваться в выражениях параметров модели САПР. Таким образом, электронная таблица может использоваться как источник значений параметров, используемых во всей модели, эффективно собирая значения в одном месте. Когда значения изменяются в электронной таблице, они распространяются по всей модели.
 
@@ -86,7 +86,7 @@ The label of a spreadsheet is automatically set to the name of the spreadsheet u
 
 FreeCAD проверяет на циклические зависимости. Смотрите в разделе [Текущие ограничения](Spreadsheet_Workbench/ru#Текущие_ограничения.md).
 
-### Ссылки на данные САПР {#ссылки_на_данные_сапр}
+### Ссылки на данные САПР 
 
 Как указано выше, можно ссылаться на данные из модели САПР в выражениях электронной таблицы.
 
@@ -109,7 +109,7 @@ FreeCAD проверяет на циклические зависимости. �
   Метка Cube                                  =MyCube.Label                  String: MyCube
   Координата X центра масс Cube               =MyCube.Shape.CenterOfMass.x   Координата X в mm без указания единиц
 
-### Данные таблицы в выражениях {#данные_таблицы_в_выражениях}
+### Данные таблицы в выражениях 
 
 In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by position or by alias. Autocompletion is available for all forms of referencing.
 
@@ -145,7 +145,7 @@ While you may use the row and column number in an expression to reference a cell
 
 </div>
 
-### Complex models and recomputes {#complex_models_and_recomputes}
+### Complex models and recomputes 
 
 Editing a spreadsheet will trigger a recompute of the 3D model, even if the changes do not affect the model. For a complex model a recompute can take a long time, and having to wait after every single edit is of course quite annoying.
 
@@ -153,9 +153,9 @@ There are three solutions to deal with this:
 
 1.  Temporarily skip recomputes:
     -   In the [Tree view](Tree_view.md) right-click the <img alt="" src=images/Document.svg  style="width:24px;"> document that contains the spreadsheet.
-    -   Select the {{MenuCommand|Skip recomputes}} option from the context menu.
+    -   Select the **Skip recomputes** option from the context menu.
     -   There is a big disadvantage to this solution. New values entered in the spreadsheet will not be displayed until the document is recomputed. Instead `#PENDING` is shown.
-    -   You can either recompute manually, using the [Std Refresh](Std_Refresh.md) command, or disable {{MenuCommand|Skip recomputes}} when you are done editing.
+    -   You can either recompute manually, using the [Std Refresh](Std_Refresh.md) command, or disable **Skip recomputes** when you are done editing.
 2.  Use a macro to automatically skip recomputes while editing a spreadsheet:
     -   Download and run [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
     -   This solution saves a few steps compared to the first solution, but also has the mentioned disadvantage.
@@ -165,7 +165,7 @@ There are three solutions to deal with this:
     -   The disadvantage is that the model won\'t automatically recompute after changes to the spreadsheet.
     -   In the scenario where you first open the \'spreadsheet\' file, change one or more values and then open the \'model\' file, there won\'t be any indication that the model needs to be recomputed. But if both files are open the [Std Refresh](Std_Refresh.md) icon will update correctly for the \'model\' file after changes to the \'spreadsheet\' file.
 
-## Единицы измерения {#единицы_измерения}
+## Единицы измерения 
 
 The Spreadsheet has a notion of dimension (units) associated with cell values. A number entered without an associated unit has no dimension. The unit should be entered immediately following the number value, with no intervening space. If a number has an associated unit, that unit will be used in all calculations. For example, the multiplication of two lengths with the unit mm gives an area with the unit mm².
 
@@ -177,11 +177,11 @@ A dimensionless number cannot be changed to a number with a unit by the cell pro
 
 Occasionally it may be desirable to get rid of a dimension in an expression. This can be done by multiplying by 1 with a reciprocal unit.
 
-## Импорт и экспорт {#импорт_и_экспорт}
+## Импорт и экспорт 
 
-Sheets can be imported and exported to the [csv](https://en.wikipedia.org/wiki/Comma-separated_values) format which can also be read and written by most other spreadsheet applications such as Microsoft Excel or LibreOffice Calc. When importing files into FreeCAD, the delimiter (the character that is used to separate columns) must be the TAB character (this can be set when exporting from other applications). The import of a CSV-file is available from the menu {{MenuCommand|Spreadsheet → Import Spreadsheet}} or by clicking on the icon <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. This import function does not open Excel files or any other spreadsheet format.
+Sheets can be imported and exported to the [csv](https://en.wikipedia.org/wiki/Comma-separated_values) format which can also be read and written by most other spreadsheet applications such as Microsoft Excel or LibreOffice Calc. When importing files into FreeCAD, the delimiter (the character that is used to separate columns) must be the TAB character (this can be set when exporting from other applications). The import of a CSV-file is available from the menu **Spreadsheet → Import Spreadsheet** or by clicking on the icon <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. This import function does not open Excel files or any other spreadsheet format.
 
-Spreadsheets in Excel-format \"xlsx\" can be imported via the menu {{MenuCommand|File → Import...}}. Excel-spreadsheets can also be opened by clicking in the menu {{MenuCommand|File → Open...}} or by clicking on the icon <img alt="" src=images/Document-open.svg  style="width:24px;">. In these cases a new document with a spreadsheet inside is created. The following features are supported:
+Spreadsheets in Excel-format \"xlsx\" can be imported via the menu **File → Import...**. Excel-spreadsheets can also be opened by clicking in the menu **File → Open...** or by clicking on the icon <img alt="" src=images/Document-open.svg  style="width:24px;">. In these cases a new document with a spreadsheet inside is created. The following features are supported:
 
 -   all functions that are also available in the FreeCAD spreadsheet. Other functions give an error in the corresponding cell after the import.
 -   Alias names for cells
@@ -193,7 +193,7 @@ Other functionality is not imported into the FreeCAD spreadsheet. The Excel-impo
 
 To handle the page setup necessary for printing, FreeCAD spreadsheets are printed by inserting them into a [TechDraw Spreadsheet View](TechDraw_SpreadsheetView.md).
 
-## Текущие ограничения {#текущие_ограничения}
+## Текущие ограничения 
 
 
 <div class="mw-translate-fuzzy">
@@ -211,7 +211,7 @@ FreeCAD проверяет циклические зависимости. По �
 
 </div>
 
-## Основы составления скриптов {#основы_составления_скриптов}
+## Основы составления скриптов 
 
 
 ```python

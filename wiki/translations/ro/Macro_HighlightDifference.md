@@ -29,7 +29,7 @@ Image:Macro HighlightDifference 00.png\|Original objects Image:Macro HighlightDi
 
 
 
-## Script-Programare {#script_programare}
+## Script-Programare 
 
 Codul este vizibil pe Github: [Utility/HighlightDifference.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightDifference.FCMacro).
 

@@ -1,6 +1,6 @@
  Questa pagina serve per raccogliere le idee e organizzare le cose in modo che i rilasci ufficiali di FreeCAD richiedano meno lavoro, e quindi possano essere più frequenti. Questo argomento è discusso in questa [discussione nel forum](http://forum.freecadweb.org/viewtopic.php?f=8&t=6441).
 
-## Idee generali {#idee_generali}
+## Idee generali 
 
 -   Il campo \"target release\" di [tracker](http://www.freecadweb.org/tracker) dovrebbe essere più utilizzato, anche su bug che non sono assegnati a nessuno, per contrassegnare i bug che troviamo importante risolvere prima del rilascio o le funzioni su cui stiamo lavorando, così gli altri sono consapevoli di quanto siamo \"vicini\" al rilascio. Ciò appare sulla [roadmap](http://freecadweb.org/tracker/roadmap_page.php).
 
@@ -56,12 +56,12 @@ Questa è una lista aperta di siti e blog che da qualche parte hanno menzionato 
 
 Sentitevi liberi di aggiungere altre pagine oppure di assegnarvi una o più pagine di cui impegnarvi a notificare loro il rilascio di una nuova versione di FreeCAD.
 
-### Social networks {#social_networks}
+### Social networks 
 
 -   <http://plus.google.com/107660967460246172334/posts>
 -   [yorik](User:Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
-### Siti di news {#siti_di_news}
+### Siti di news 
 
 -   <http://makezine.com/>
 -   <http://www.webupd8.org/>
@@ -74,7 +74,7 @@ Sentitevi liberi di aggiungere altre pagine oppure di assegnarvi una o più pagi
 -   <http://www.inside3dp.com/>
 -   <http://diy3dprinting.blogspot.com/>
 
-### Altri siti {#altri_siti}
+### Altri siti 
 
 -   <http://www.bld3r.com/>
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
@@ -105,7 +105,7 @@ Sentitevi liberi di aggiungere altre pagine oppure di assegnarvi una o più pagi
 
 -   <http://www.geosaber.com.br/> (not sure how appropriate/relevant)
 
-### Spagnoli {#spagnoli_1}
+### Spagnoli 
 
 -   <http://www.iearobotics.com/blog/>
 

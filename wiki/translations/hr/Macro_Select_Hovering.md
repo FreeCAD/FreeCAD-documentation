@@ -19,7 +19,7 @@ this macro select a choice Face, Edge, Vertex hovering by the mouse.
 
 PS: For unselected one face (or other) click the **Pause grab** and use the standard procedure : CTRL + Click
 
-## How To Use {#how_to_use}
+## How To Use 
 
 Hovering element by the mouse.
 

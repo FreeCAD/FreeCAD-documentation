@@ -2,7 +2,7 @@
 
 Pasek boczny jest ważnym narzędziem nawigacyjnym w świecie wiki, zobacz [Podręcznik:Interfejs/Sidebar](http://www.mediawiki.org/wiki/Manual:Interface/Sidebar) aby uzyskać więcej informacji.
 
-## Tłumaczenie paska bocznego {#tłumaczenie_paska_bocznego}
+## Tłumaczenie paska bocznego 
 
 Pasek boczny można teraz przetłumaczyć w pełni za pomocą rozszerzenia [Translation extension](http://www.mediawiki.org/wiki/Help:Extension:Translate), które jest dostępne na wszystkich stronach Wiki.
 
@@ -14,7 +14,7 @@ Możesz przejść do strony specjalnej [Special:Translate/wiki-sidebar](Special:
 
 Występuje błąd na stronie pobierania. Nie można przekierować linku do **Download/fr**, lub **Download/de**, itp. Zamiast tego link będzie wskazywał na aktualne tłumaczenie **Download** w Twoim języku. Najlepszym sposobem na poradzenie sobie z tym problemem jest stworzenie nowej strony i przekierowanie jej na właściwą stronę. Więcej na temat przekierowania znajdziesz na stronie [Help:Editing](Help:Editing.md).
 
-### Istotne uwagi {#istotne_uwagi}
+### Istotne uwagi 
 
 W większości przypadków na pasku bocznym znajdują się dwa ciągi znaków dla każdej z pozycji.
 

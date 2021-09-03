@@ -10,15 +10,15 @@
 
 Po zainstalowaniu FreeCAD w swoim systemie operacyjnym *([Linux](Installing_on_Linux/pl.md), [Mac](Installing_on_Mac/pl.md), lub [ Windows](Installing_on_Windows/pl.md))*, możesz rozważyć zainstalowanie jednego lub więcej z następujących dodatkowych komponentów.
 
-# Pliki pomocy {#pliki_pomocy}
+# Pliki pomocy 
 
 Dokumentacja offline nie jest dostarczana ze wszystkimi instalatorami, ale jest dostępna jako oddzielny pakiet. Zobacz dokument [Instalacja dokumentacji pomocy](Installing_Helpfile/pl.md) aby uzyskać więcej informacji.
 
-# Zewnętrzne Środowiska pracy {#zewnętrzne_środowiska_pracy}
+# Zewnętrzne Środowiska pracy 
 
 Poza standardowymi [Środowiskami pracy](workbenches/pl.md) dołączonymi do programu FreeCAD, dostępna jest coraz większa kolekcja użytecznych [dodatkowych Środowisk pracy](External_workbenches/pl.md) wykonanych przez członków społeczności.
 
-# Oprogramowanie zewnętrzne {#oprogramowanie_zewnętrzne}
+# Oprogramowanie zewnętrzne 
 
 FreeCAD obsługuje kilka pakietów oprogramowania pochodzących od innych deweloperów. W wielu przypadkach wystarczy zainstalować oprogramowanie, a gdy FreeCAD zostanie zrestartowany, automatycznie znajdzie i będzie mógł z niego korzystać.
 Ta sekcja ma na celu dostarczenie listy wszystkich takich pakietów oprogramowania wraz z informacjami, gdzie jest ono używane we FreeCAD i gdzie można je pobrać.
@@ -41,15 +41,15 @@ Ta sekcja ma na celu dostarczenie listy wszystkich takich pakietów oprogramowan
 
 [OpenSCAD](https://www.openscad.org) jest stabilnym modułem do modelowania 3D. Od tego oprogramowania jest zależne środowisko pracy [OpenSCAD](OpenSCAD_Workbench/pl.md), a środowisko [Siatka](Mesh_Workbench/pl.md) używa go dla swoich narzędzi logicznych. Jest on również wymagany do importu plików SCAD za pomocą narzędzia [Std: Import](Std_Import/pl.md).
 
-## Formaty plików {#formaty_plików}
+## Formaty plików 
 
 Wszystkie programy w tej sekcji będą używane przez narzędzia [Std: Import](Std_Import/pl.md) lub [Std: Export](Std_Export/pl.md).
 
-### CAD Exchanger {#cad_exchanger}
+### CAD Exchanger 
 
 Komercyjna aplikacja [CADExchanger](https://cadexchanger.com) z zamkniętym źródłem kodu, do wymiany danych w różnych formatach plików używanych w CAD. Istnieje [zewnętrzne Środowisko pracy](https://github.com/yorikvanhavre/CADExchanger) do korzystania z tej aplikacji w programie FreeCAD.
 
-### DXF Importer {#dxf_importer}
+### DXF Importer 
 
 FreeCAD posiada własnego importera i eksportera plików DXF, który zaprogramowano w C++. Obecnie importer ten nie implementuje wszystkich funkcji formatu DXF. Dla tych funkcji dostępny jest nadal starszy importer eksporter Python. Wymaga on biblioteki [Draft-dxf-importer](https://github.com/yorikvanhavre/Draft-dxf-importer) Python. Zobacz stronę [FreeCAD i Import DXF](FreeCAD_and_DXF_Import.md) aby uzyskać więcej informacji.
 
@@ -65,7 +65,7 @@ FreeCAD posiada własnego importera i eksportera plików DXF, który zaprogramow
 
 Obsługa [LibreDWG](https://www.gnu.org/software/libredwg) pozostaje nadal w formie eksperymentalnej. Podobnie jak ODA File Converter, może on konwertować pliki DWG do DXF, które FreeCAD może następnie importować. Zobacz stronę [FreeCAD i Import DWG](FreeCAD_and_DWG_Import.md) aby uzyskać więcej informacji.
 
-### ODA File Converter {#oda_file_converter}
+### ODA File Converter 
 
 [Konwerter plików ODA](https://www.opendesign.com/guestfiles/oda_file_converter) to darmowa aplikacja do konwersji pomiędzy kilkoma wersjami plików DWG i DXF. FreeCAD wymaga tego konwertera, lub LibreDWG, do importowania plików typu DWG. Więcej informacji można znaleźć na stronie [FreeCAD i Import DWG](FreeCAD_and_DWG_Import.md).
 
@@ -87,7 +87,7 @@ Obsługa [LibreDWG](https://www.gnu.org/software/libredwg) pozostaje nadal w for
 
 [POV-Ray](https://www.povray.org) jest znanym ray-trakerem, który potrafi oddać fotorealistyczne obrazy. Jest to jeden z dwóch silników renderowania obecnie wspieranych przez FreeCAD w środowisku pracy [Raytracing](Raytracing_Workbench/pl.md). Więcej informacji i instrukcje instalacji można znaleźć na stronie [POV-Ray](POV-Ray/pl.md).
 
-## Element końcowy {#element_końcowy}
+## Element końcowy 
 
 ## CalculiX
 
@@ -113,7 +113,7 @@ Obsługa [LibreDWG](https://www.gnu.org/software/libredwg) pozostaje nadal w for
 
 [OpenFOAM](https://openfoam.org) to duży zbiór bibliotek do symulacji obliczeniowej dynamiki płynów *(Computational Fluid Dynamics CFD)*. OpenFOAM jest używany przez [Cfd](Cfd_Workbench.md) i [CfdOF](https://github.com/jaheyns/CfdOF) [zewnętrzne Środowiska pracy](external_workbenches/pl.md).
 
-# Warto odwiedzić {#warto_odwiedzić}
+# Warto odwiedzić 
 
 -   [Import eksport](Import_Export/pl.md)
 -   [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md)

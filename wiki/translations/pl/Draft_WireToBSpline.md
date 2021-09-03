@@ -18,7 +18,7 @@ The <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Draft
 1.  Select a [Draft Wire](Draft_Wire.md) or a [Draft BSpline](Draft_BSpline.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_WireToBSpline.svg" width=16px> [Draft WireToBSpline](Draft_WireToBSpline.md)** button.
-    -   Select the {{MenuCommand|Modification → <img src="images/Draft_WireToBSpline.svg" width=16px> Wire to B-spline}} option from the menu.
+    -   Select the **Modification → <img src="images/Draft_WireToBSpline.svg" width=16px> Wire to B-spline** option from the menu.
 3.  A new object is created.
 
 ## Notes

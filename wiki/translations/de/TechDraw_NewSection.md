@@ -38,7 +38,7 @@ Das Abschnitt Werkzeug erstellt eine Querschnittdarstellung aus einer bereits be
 
 -    **Verschmelzen vor dem Schneiden**: Verschmelze die Ausgangsformen, bevor du den Abschnittsschnitt durchführst.
 
-#### Schneide Oberflächenformat {#schneide_oberflächenformat}
+#### Schneide Oberflächenformat 
 
 -    {{PropertyData/de|Oberflächenanzeige schneiden}}: Erscheinungsbild der Schnittoberfläche. Optionen:
 
@@ -59,11 +59,11 @@ Das Abschnitt Werkzeug erstellt eine Querschnittdarstellung aus einer bereits be
 
 ### Ansicht
 
-#### Cut Surface {#cut_surface}
+#### Cut Surface 
 
 -    **Schneide Oberflächen Farbe**: Einfarbig für Oberflächenhervorhebung. Wird verwendet, wenn **Schnittoberflächenanzeige** auf *Farbe* eingestellt ist.
 
-#### Oberflächen Schraffur {#oberflächen_schraffur}
+#### Oberflächen Schraffur 
 
 -    **Schraffurfarbe**: Farbe für Oberflächenschraffurlinien.
 

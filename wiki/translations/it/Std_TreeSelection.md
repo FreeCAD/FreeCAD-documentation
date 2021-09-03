@@ -20,9 +20,9 @@ Se [Sincronizza la selezione](Std_TreeSyncSelection/it.md) della vista ad albero
 
 1.  Selezionare uno o più oggetti in una vista 3D.
 2.  Invocare il comando in uno di questi modi:
-    -   Fare clic sulla freccia nera verso il basso basso a destra del pulsante **<img src="images/Std_TreeSyncView.svg" width=16px>** e selezionare l\'opzione {{MenuCommand|<img src="images/Std_TreeSelection.svg" width=16px> Vai alla selezione}} dal riquadro a scomparsa. Nota: l\'immagine del pulsante cambia a seconda dell\'opzione selezionata
-    -   Selezionare l\'opzione {{MenuCommand|Visualizza → Azioni della vista ad albero → <img src="images/Std_TreeSelection.svg" width=16px> Vai alla selezione}} dal menu.
-    -   Selezionare l\'opzione {{MenuCommand|<img src="images/Std_TreeSelection.svg" width=16px> Vai alla selezione}} dal menu contestuale della vista 3D.
+    -   Fare clic sulla freccia nera verso il basso basso a destra del pulsante **<img src="images/Std_TreeSyncView.svg" width=16px>** e selezionare l\'opzione **<img src="images/Std_TreeSelection.svg" width=16px> Vai alla selezione** dal riquadro a scomparsa. Nota: l\'immagine del pulsante cambia a seconda dell\'opzione selezionata
+    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → <img src="images/Std_TreeSelection.svg" width=16px> Vai alla selezione** dal menu.
+    -   Selezionare l\'opzione **<img src="images/Std_TreeSelection.svg" width=16px> Vai alla selezione** dal menu contestuale della vista 3D.
     -   Usare la scorciatoia da tastiera: **T** e poi **G**.
 
 

@@ -11,13 +11,13 @@
 
 Ce **tutoriel d\'introduction à la modélisation** vous montrera comment modéliser un fer angle (cornière). Une chose à savoir, FreeCAD est modulaire, et comme pour plusieurs autres logiciels de CAO, il y a souvent plus d\'une façon de faire les choses. Ici, nous explorerons deux méthodes.
 
-## Avant de commencer {#avant_de_commencer}
+## Avant de commencer 
 
 Gardez en tête que FreeCAD est toujours à un stade précoce de développement, il est donc possible que vous ne soyez pas aussi productif qu\'avec une autre application de CAO, et il est fort probable que vous rencontriez des bogues, ou subissiez des plantages. FreeCAD offre maintenant la possiblité de créer des fichiers de sauvegarde. Le nombre de ces fichiers peut être réglé dans le menu *Édition \> Préférences*, onglet *Document*. N\'hésitez pas à allouer deux ou trois fichiers de sauvegarde jusqu\'à ce que vous soyez à l\'aise avec FreeCAD.
 
 Sauvegardez régulièrement votre travail, et de temps en temps, sauvegardez-le sous un nom différent afin d\'avoir une copie sûre sur laquelle vous rabattre ; enfin, attendez-vous à la possibilité que certaines commandes ne vous donnent pas les résultats escomptés.
 
-## Introduction aux techniques de modélisation {#introduction_aux_techniques_de_modélisation}
+## Introduction aux techniques de modélisation 
 
 La première technique (et celle de base) de la modélisation solide est la [géométrie de construction de solides (GCS)](http://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides). Il y a aussi une explication détaillée (dans le contexte de FreeCAD) de [Géométrie Solide Constructive](Constructive_solid_geometry/fr.md) sur le wiki. Vous construisez votre géométrie à l\'aide de formes primitives telles que des cubes, cylindres, sphères et cônes en les combinant, par soustraction d\'une forme par une autre, ou par l\'intersection de deux formes. Ces outils font partie de l\'[atelier Pièce](Part_Workbench/fr.md). Vous pouvez également appliquer des transformations aux formes, par exemple des congés (arrondis) ou chanfreins à des arêtes. Ces outils sont également dans l\'[atelier Pièce](Part_Workbench/fr.md).
 
@@ -25,10 +25,10 @@ Puis il y a des outils plus avancés. Vous commencez par dessiner une esquisse e
 
 Commençons par la création d\'un pied en fer en L (cornière) pour fabriquer un établi, avec ces deux méthodes.
 
-## 1ère méthode - par géométrie de construction de solides {#ère_méthode___par_géométrie_de_construction_de_solides}
+## 1ère méthode - par géométrie de construction de solides 
 
 1.  Commencez avec l\'[atelier Part](Part_Workbench/fr.md) ![](images/Switch_PartWorkbench.JPG ).
-2.  Si vous n\'avez pas créé un nouveau document FreeCAD (l\'essentiel de la fenêtre de FreeCAD paraît alors grisée), allez dans le menu déroulant {{MenuCommand|Fichier → Nouveau}} ou cliquez sur <img alt="" src=images/Document-new.png  style="width:32px;"> **Créer un nouveau document vide**.
+2.  Si vous n\'avez pas créé un nouveau document FreeCAD (l\'essentiel de la fenêtre de FreeCAD paraît alors grisée), allez dans le menu déroulant **Fichier → Nouveau** ou cliquez sur <img alt="" src=images/Document-new.png  style="width:32px;"> **Créer un nouveau document vide**.
 3.  Cliquez sur le bouton <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cube](Part_Box/fr.md) pour créer un cube.
 4.  Changez ses dimensions en le sélectionnant soit dans l\'espace 3D, soit en le cliquant dans l\'onglet Projet à gauche, puis
 5.  Cliquez sur l\'onglet Données en bas, et changez les valeurs de la Longueur, de la Largeur et de la Hauteur en 50mm, 50 et 750 *(voir Fig. 1.1)*. **Remarque** : *lorsque ces captures ont été faites, les propriétés étaient classées différemment, la Hauteur étant la première*.
@@ -54,19 +54,19 @@ Par ailleurs, nous pouvons ajouter des congés afin de rendre le fer en L plus r
 
 ![Fig. 1.6 Les arêtes avec congés](images/Tutorial-normand06.jpg )
 
-## 2ème méthode - par l\'extrusion d\'une esquisse {#ème_méthode___par_lextrusion_dune_esquisse}
+## 2ème méthode - par l\'extrusion d\'une esquisse 
 
 Avec cette méthode, nous commençons par dessiner un profil 2D. Activez l\'[atelier Draft](Draft_Workbench/fr.md) ![](images/Switch_DraftWorkbench.JPG ).
 
 -   Si vous n\'avez pas créé de nouveau document FreeCAD (l\'essentiel de la fenêtre FreeCAD paraît alors grisé), aller dans le menu Fichier → Nouveau ou cliquer sur Créer un nouveau document vide <img alt="" src=images/Document-new.png  style="width:32px;">.
 
-### Réglage du plan de travail {#réglage_du_plan_de_travail}
+### Réglage du plan de travail 
 
 Ensuite nous devons régler le [plan de travail](Draft_SelectPlane/fr.md). Selon votre version de FreeCAD, vous trouverez tout juste au dessous et à droite de la barre d\'outils un bouton identifié « **None** » ou encore « **Auto** ». Cliquez-le, et à sa gauche apparaîtra le texte « Commande active : Sélectionnez un plan de travail », puis un champ texte et une série de boutons. Nous dessinerons ce profil sur la vue en plan, en sélectionnant XY. Le bouton « None » montrera maintenant « top » comme plan actif.
 
 Sélectionnez l\'outil <img alt="" src=images/Draft_Wire.png  style="width:32px;"> [Filaire (ligne filaire à plusieurs points)](Draft_Wire/fr.md), et commencez à dessiner un profil, en utilisant les champs texte pour les positions X et Y. Cochez la case « Relatif », ainsi que la case « Rempli ».
 
-### Dessiner le profil {#dessiner_le_profil}
+### Dessiner le profil 
 
 1.  Sélectionnez l\'outil <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [DWire (points multiples)](Draft_Wire/fr.md).
 2.  Cochez les cases \"Relative\" et \"Filled\".
@@ -90,9 +90,9 @@ Sélectionnez l\'outil <img alt="" src=images/Draft_Wire.png  style="width:32px;
 
 Passez en vue axonométrique en appuyant sur la touche **0** (zéro) du pavé numérique.
 
-### Extruder le profil {#extruder_le_profil}
+### Extruder le profil 
 
-Activez l\'<img alt="" src=images/Workbench_Part.svg  style="width:32px;">[atelier Pièce](Part_Workbench/fr.md) soit depuis le [sélecteur de plan de travail](Std_Workbench/fr.md), soit depuis le menu {{MenuCommand|{{StdMenu|[Affichage](Std_View_Menu/fr.md)}} → Atelier → Part}}.
+Activez l\'<img alt="" src=images/Workbench_Part.svg  style="width:32px;">[atelier Pièce](Part_Workbench/fr.md) soit depuis le [sélecteur de plan de travail](Std_Workbench/fr.md), soit depuis le menu **{{StdMenu|[Affichage](Std_View_Menu/fr.md)** → Atelier → Part}}.
 
 Cliquez sur l\'outil <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> [Extruder](Part_Extrude/fr.md).
 
@@ -104,7 +104,7 @@ Si cette méthode requiert moins d\'opération que la première, elle présente 
 
 Il y a plusieurs autres façons de le faire ! J\'espère que ces deux exemples vous permettront de démarrer. Vous aurez sûrement des problèmes en cours de route (je l\'ai fait quand j\'ai appris FreeCAD pour la première fois et je possède une expérience de CAO 3D), mais n\'hésitez pas à poser des questions sur le [forum FreeCAD](https://forum.freecadweb.org) !
 
-### Note sur le bouton Plan de travail {#note_sur_le_bouton_plan_de_travail}
+### Note sur le bouton Plan de travail 
 
 L\'étiquette sur votre bouton peut-être être différente en fonction de votre version et aussi de ce que vous faisiez précédemment. L\'étiquette de bouton pourrait être \"**Top**\", \"**Front**\", \"**Side**\", \"**None**\" ou une représentation vectorielle telle que **d(0.0,0.0,1.0)**. Elle peut également être vide. Par exemple :
 

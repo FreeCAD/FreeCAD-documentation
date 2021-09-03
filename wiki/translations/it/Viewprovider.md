@@ -8,7 +8,7 @@ They complement the [scripted objects](scripted_objects.md). While the base clas
 
 Like with data properties, view properties are accessible from the [property editor](property_editor.md).
 
-## Python view providers {#python_view_providers}
+## Python view providers 
 
 The viewproviders classes usually include `ViewProvider` in their name. They are assigned on the `ViewObject` attribute of the base object.
 
@@ -67,7 +67,7 @@ if App.GuiUp:
     view_custom.ViewProviderCustom(obj.ViewObject)
 ```
 
-## Custom icons {#custom_icons}
+## Custom icons 
 
 By implementing the `getIcon` method, you can specify the icon that will be shown in the [tree view](tree_view.md) in the upper part of the [combo view](combo_view.md).
 

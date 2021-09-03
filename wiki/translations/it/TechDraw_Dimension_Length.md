@@ -26,7 +26,7 @@ Lo strumento Lunghezza aggiunge una dimensione lineare ad una vista. La dimensio
 
 To change the properties of a dimension object either double-clicking it in the drawing or in the [Tree view](Tree_view.md). This will open the dimension dialog:
 
-## Dimension dialog {#dimension_dialog}
+## Dimension dialog 
 
 The dimension dialog offers the following settings:
 
@@ -54,7 +54,7 @@ The dimension dialog offers the following settings:
 
 -   **Arbitrary Tolerance Text**: If checked, the tolerances are replaced by the content of the **OverTolerance Format Specifier** **UnderTolerance Format Specifier** fields.
 
-### Display Style {#display_style}
+### Display Style 
 
 -   **Flip Arrowheads**: Flips the direction in which the dimension line arrows are pointing. By default they are inside the dimension line/arc and pointing outwards.
 
@@ -228,7 +228,7 @@ Pertanto, si consiglia di aggiungere le dimensioni verso la fine del processo di
 
 Se si desidera mantenere una vista di TechDraw con dimensioni che non si interrompono, è necessario dimensionare un oggetto che non cambierà più.
 
--   Selezionare l\'oggetto che si vuole proiettare, quindi passare a <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) e usare {{MenuCommand|Part → <img src="images/Part_CreateSimpleCopy.svg" width=16px> [Crea una copia semplice](Part_SimpleCopy/it.md)}}. Questo crea un singolo oggetto che non è parametrico, quindi non è più modificabile.
+-   Selezionare l\'oggetto che si vuole proiettare, quindi passare a <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) e usare **Part → <img src="images/Part_CreateSimpleCopy.svg" width=16px> [Crea una copia semplice](Part_SimpleCopy/it.md)**. Questo crea un singolo oggetto che non è parametrico, quindi non è più modificabile.
 -   Selezionare questa copia, quindi usare [Nuova vista](TechDraw_NewView/it.md), e aggiungere le dimensioni desiderate.
 -   Se il modello 3D originale viene modificato, le modifiche non avranno effetto sulla copia semplice, né sulle dimensioni nella vista di TechDraw.
 

@@ -18,7 +18,7 @@ This tool allows to create pipes from scratch, or from selected objects. The sel
 2.  Invoke this command using several methods:
     -   Pressing the **<img src="images/Arch_Pipe.svg" width=16px> [Arch Pipe](Arch_Pipe.md)** button on the toolbar.
     -   Pressing the **P** then **I** keyboard shortcut.
-    -   Pressing the {{MenuCommand|Arch → Pipe Tools → Pipe}} entry from the top menu.
+    -   Pressing the **Arch → Pipe Tools → Pipe** entry from the top menu.
 
 ## Options
 
@@ -34,7 +34,7 @@ This tool allows to create pipes from scratch, or from selected objects. The sel
 
 -    **Profile**: The base profile of this pipe. If not given, the pipe is cylindrical.
 
-## Typical workflow {#typical_workflow}
+## Typical workflow 
 
 -   Start by placing sanitary/hydraulic appliance items (below is an imported step file). You turn these objects into Arch Equipments by selecting them, and pressing the [Arch Equipment](Arch_Equipment.md) button.
 

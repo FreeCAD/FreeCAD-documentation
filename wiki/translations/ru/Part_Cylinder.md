@@ -15,7 +15,7 @@
 1.  Нажмите на <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Верстак Part](Part_Workbench/ru.md)
 2.  Существует несколько способов вызова команды:
     -   Нажмите на иконку **<img src="images/Part_Cylinder.svg" width=16px> Цилиндр** на панели инструментов.
-    -   Выберите из меню {{MenuCommand|Деталь → Примитивы → <img src="images/Part_Cylinder.svg" width=16px> Цилиндр}}.
+    -   Выберите из меню **Деталь → Примитивы → <img src="images/Part_Cylinder.svg" width=16px> Цилиндр**.
 
 
 <div class="mw-translate-fuzzy">

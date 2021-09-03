@@ -50,7 +50,7 @@ FreeCAD е независим от плаформата си([multi-platform](ht
 
 </div>
 
-### За проекта FreeCAD {#за_проекта_freecad}
+### За проекта FreeCAD 
 
 
 <div class="mw-translate-fuzzy">

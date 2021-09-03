@@ -8,7 +8,7 @@ Il est bon d\'utiliser l\'un ou l\'autre jusqu\'à ce que l\'utilisateur soit à
 
 Parlons de ces implications.
 
-## Concepts de l\'atelier Part {#concepts_de_latelier_part}
+## Concepts de l\'atelier Part 
 
 L\'atelier Part est essentiellement une [modélisation de type CSG](Constructive_solid_geometry/fr.md). L\'opérateur combine différentes primitives pour aboutir à une représentation de la forme souhaitée. (En fait, l\'atelier Part va plus loin que les simples primitives et permet à l\'utilisateur d\'utiliser une opération esquisse+extrusion pour créer également des formes particulières). Lorsque chaque primitive ou forme est créée, elle n\'a aucune relation avec les autres objets créés (à l\'exception des esquisses et de leurs attachements), c\'est un solide unique et solitaire.
 
@@ -18,7 +18,7 @@ Cette condition demeure jusqu\'à ce que l\'utilisateur utilise une opération p
 
 Le point à retenir est la partie solide et solitaire et la partie qui les combine.
 
-## Concepts de l\'atelier PartDesign {#concepts_de_latelier_partdesign}
+## Concepts de l\'atelier PartDesign 
 
 Dans l\'atelier PartDesign, l\'objet Corps (Body) représente un solide unique et cumulatif.
 
@@ -48,7 +48,7 @@ Si Tip est sur **Pad**, le Pad peut exister séparément, mais si Tip est sur **
 
 (Une autre chose souvent mentionnée est qu\'un Corps ***DOIT*** être un solide unique et contigu. Cela signifie que toute géométrie créée par une fonction dans le Corps *doit* toucher son prédécesseur).
 
-## Les implications {#les_implications}
+## Les implications 
 
 Bien que non recommandé pour les nouveaux arrivants, il est possible de combiner les outils de Part WB et PartDesign WB, à condition de savoir ce que vous faites. Par example :
 
@@ -58,7 +58,7 @@ En un sens, du point de vue de l\'atelier Part, le Corps représente une autre p
 
 Et, cela peut devenir encore plus compliqué. Si vous créez un nouveau Corps et que vous y faites glisser le résultat du paragraphe précédent, un BaseObject est créé. Vous pouvez alors utiliser les outils de l\'atelier PartDesign.
 
-## Les avertissements {#les_avertissements}
+## Les avertissements 
 
 Il y a un problème avec la fonction résultante (Tip) et sa représentation du solide unique dans le Corps. *Si* la fonction résultante est une fonction soustractive et est utilisée dans une opération de transformation, par exemple une symétrie, la symétrie opère sur la fonction sous-jacente (une cavité par exemple). Ainsi, le solide cumulé n\'est pas symétrisé, mais la fonction soustractive l\'est. Le résultat de cette opération doit créer un solide unique.
 

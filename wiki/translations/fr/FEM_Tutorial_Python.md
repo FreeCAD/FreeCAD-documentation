@@ -19,13 +19,13 @@ Ce tutoriel est destiné à montrer comment une simple analyse par éléments fi
 
 -   La version compatible de FreeCAD comme indiqué dans l\'aperçu du tutoriel.
 
-    :   Utilisez la {{MenuCommand|Aide → À propos de FreeCAD}} pour voir la version de FreeCAD installée.
+    :   Utilisez la **Aide → À propos de FreeCAD** pour voir la version de FreeCAD installée.
 -   **Remarque importante:** En raison du développement continu de l\'<img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Atelier FEM](FEM_Workbench/fr.md), il est recommandé d\'utiliser la dernière version de FreeCAD, spécialement pour les analyses FEM écrites en Python.
 -   Un atelier FEM fonctionnel. Exécutez l\'analyse [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) pour vérifier cela.
 
 ## Commençons
 
-### Nouveau document et la partie à analyser {#nouveau_document_et_la_partie_à_analyser}
+### Nouveau document et la partie à analyser 
 
 
 ```python
@@ -46,7 +46,7 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 #
 ```
 
-### Analysis et l\'analyse des objets {#analysis_et_lanalyse_des_objets}
+### Analysis et l\'analyse des objets 
 
 
 ```python
@@ -94,7 +94,7 @@ analysis_object.addObject(force_constraint)
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:750px ">
 
-### Maillage MEF (manuel) {#maillage_mef_manuel}
+### Maillage MEF (manuel) 
 
 Cette section contient le code de maillage MEF. Veuillez l\'agrandir pour afficher le contenu.
 
@@ -434,7 +434,7 @@ analysis_object.addObject(femmesh_obj)
 
 </div>
 
-### Maillage MEF (gmsh) {#maillage_mef_gmsh}
+### Maillage MEF (gmsh) 
 
 
 ```python
@@ -451,7 +451,7 @@ print(error)
 analysis_object.addObject(femmesh_obj)
 ```
 
-### Maillage MEF (netgen) {#maillage_mef_netgen}
+### Maillage MEF (netgen) 
 
 
 ```python
@@ -476,7 +476,7 @@ doc.recompute()
 ###
 ```
 
-## Lancement de l\'analyse {#lancement_de_lanalyse}
+## Lancement de l\'analyse 
 
 Pour exécuter l\'analyse à l\'aide de Python, une instance de la `ccxtools` classe de module `FemToolsCcx` doit être créée, nous avons deux choix lors de l\'exécution de l\'analyse:
 
@@ -496,7 +496,7 @@ FemGui.setActiveAnalysis(doc.Analysis)
 ###
 ```
 
-#### Tout en une fois {#tout_en_une_fois}
+#### Tout en une fois 
 
 
 ```python
@@ -509,7 +509,7 @@ fea.run()
 ###
 ```
 
-#### Pas à pas {#pas_à_pas}
+#### Pas à pas 
 
 
 ```python
@@ -535,7 +535,7 @@ else:
 ###
 ```
 
-## Montrer les résultats {#montrer_les_résultats}
+## Montrer les résultats 
 
 
 ```python
@@ -551,9 +551,9 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 ###
 ```
 
-### Informations supplémentaires {#informations_supplémentaires}
+### Informations supplémentaires 
 
-#### Script des objets de maillage MEF {#script_des_objets_de_maillage_mef}
+#### Script des objets de maillage MEF 
 
 ##### Netgen
 
@@ -566,13 +566,13 @@ Au contraire, l\'objet maillé GMSH prend entièrement en charge les scripts Pyt
 -   <https://forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
 -   sujet du forum <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
 
-#### Script d\'analyses multiple {#script_danalyses_multiple}
+#### Script d\'analyses multiple 
 
 Voir la publication du forum: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
-#### Script de résultats {#script_de_résultats}
+#### Script de résultats 
 
-###### Objet de résultat standard de FreeCAD {#objet_de_résultat_standard_de_freecad}
+###### Objet de résultat standard de FreeCAD 
 
 Voir les publications du forum :
 
@@ -583,13 +583,13 @@ Voir les publications du forum :
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → colorier un seul élément
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → réinitialiser tout le maillage des résultats, afficher l\'amplitude de déplacement colorée
 
-##### Objet de résultat Vtk {#objet_de_résultat_vtk}
+##### Objet de résultat Vtk 
 
 Voir les messages du forum:
 
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
 
-#### Mode console {#mode_console}
+#### Mode console 
 
 L\'écriture du fichier d\'entrée en mode console FreeCAD (sans interface graphique) peut être effectuée en mode test. Voir ce [post du forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897) pertinent pour plus de détails et d\'expérimentation.
 

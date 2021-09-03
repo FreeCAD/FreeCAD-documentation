@@ -10,13 +10,13 @@
 
 The Reinforcement Addon augments the [Arch Workbench](Arch_Workbench.md) by providing new interfaces and presets for the creation of common rebar types for use with [Arch Structures](Arch_Structure.md). It is also integrated into the external workbench [BIM](BIM_Workbench.md).
 
-The tools can be installed with the [Addon Manager](Addon_Manager.md) via the menu {{MenuCommand|Tools → Addon manager → Reinforcement}}. FreeCAD needs to be restarted for the new tools to appear under the Rebar Straight **<img src="images/Arch_CompRebarStraight.png" width=24px>** button.
+The tools can be installed with the [Addon Manager](Addon_Manager.md) via the menu **Tools → Addon manager → Reinforcement**. FreeCAD needs to be restarted for the new tools to appear under the Rebar Straight **<img src="images/Arch_CompRebarStraight.png" width=24px>** button.
 
 This addon was developed during the [Google Summer of Code](Google_Summer_of_Code.md) 2017, and is hosted in the [FreeCAD-Reinforcement](https://github.com/amrit3701/FreeCAD-Reinforcement) Github repository, which is separate from the main FreeCAD repository.
 
 Back to [Workbenches](Workbenches#External_workbenches.md) / [External Workbenches](External_Workbenches#General.md)
 
-## Types of reinforcement {#types_of_reinforcement}
+## Types of reinforcement 
 
 -   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Straight Rebar](Arch_Rebar_Straight.md): Creates a Straight reinforcement bar in a selected structural element
 

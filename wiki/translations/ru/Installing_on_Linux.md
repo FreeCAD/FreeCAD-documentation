@@ -16,16 +16,16 @@ The installation of FreeCAD on the most well-known Linux systems has been now en
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Ubuntu и Ubuntu подобные системы {#ubuntu_и_ubuntu_подобные_системы}
+## Ubuntu и Ubuntu подобные системы 
 
 Многие дистрибутивы Linux базируются на Ubuntu и используют их репозитории. Кроме официальных вариантов (Kubuntu, Lubuntu и Xubuntu), существуют неофициальные дистрибутивы, такие как Mnint, Voyager и другие. Приведенные ниже опции установки должны быть совместимыми с этими системами.
 
 
 <div class="mw-collapsible-content">
 
-### Официальная версия {#официальная_версия}
+### Официальная версия 
 
-FreeCAD доступен в репозиториях Ubuntu Universe и может быть установлен через {{MenuCommand|Центр управления программным обеспечением}} или через терминал:
+FreeCAD доступен в репозиториях Ubuntu Universe и может быть установлен через **Центр управления программным обеспечением** или через терминал:
 
 
 ```python
@@ -37,15 +37,15 @@ sudo apt install freecad
 
 the Ubuntu Universe package may be outdated as the packaging may lag behind the latest stable source code. In this case, it is suggested to install the package from the `-stable` PPA below. In addition, installing the `-daily` package can be done to test the development branch.
 
-### Стабильная PPA версия {#стабильная_ppa_версия}
+### Стабильная PPA версия 
 
 Персанальный Архив Пакетов (Personal Package Archive (PPA)) для стабильной версии FreeCAD поддерживается сообществом FreeCAD на Launchpad community. Launchpad репозиторий называется как [FreeCAD Stable Releases](https://launchpad.net/~freecad-maintainers/+archive/freecad-stable) .
 
-#### С помощью графического интерфеса {#с_помощью_графического_интерфеса}
+#### С помощью графического интерфеса 
 
 Установка стабильного PPA с помощью графического интерфейса (GUI):
 
-:   1\. Navigate to {{MenuCommand|Ubuntu Software → Software & Updates → Software Sources → Other Software}}
+:   1\. Navigate to **Ubuntu Software → Software & Updates → Software Sources → Other Software**
 :   2\. Click on **Add**, then copy and paste the following line
 
     :   
@@ -62,9 +62,9 @@ the Ubuntu Universe package may be outdated as the packaging may lag behind the 
 
 :   3\. Add the source, close the dialog, and reload your software sources, if asked.
 
-Now you can find and install the last stable FreeCAD version from the {{MenuCommand|Ubuntu Software Center}}.
+Now you can find and install the last stable FreeCAD version from the **Ubuntu Software Center**.
 
-#### Через командную строку {#через_командную_строку}
+#### Через командную строку 
 
 Установите стабильный PPA через коммандную строку:
 
@@ -111,7 +111,7 @@ Now you can find and install the last stable FreeCAD version from the {{MenuComm
 
 из-за проблем с упаковкой в некоторых версиях Ubuntu у пакета `freecad-doc` возникают коллизии с пакетом самого FreeCAD или одной из его зависимостей; в этом случае удалите пакет `freecad-doc` и установите только пакет `freecad`. Если пакет `freecad-doc` не существует, проигнорируйте его установку.
 
-#### Проверка Установки {#проверка_установки}
+#### Проверка Установки 
 
 :   4\. Как только вы добавите стабильный PPA в свои исходные файлы одним из вышеперечисленных методов, пакет `freecad` установит эту версию PPA поверх версии, предоставленной репозиторием Ubuntu Universe. Вы можете просмотреть доступные версии с помощью следующей команды `apt-cache` :
 :   
@@ -151,7 +151,7 @@ ubuntu@ubuntu:~$ apt-cache policy freecad-doc
 ```
     
 
-### Development PPA (Daily) {#development_ppa_daily}
+### Development PPA (Daily) 
 
 As FreeCAD is in constant development, you may wish to install the **daily** package to keep with the latest improvements and bug fixes. The repository is also hosted on Launchpad and is called [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/freecad-daily).
 
@@ -196,7 +196,7 @@ it is possible to install both the `-stable` and `-daily` packages in the same s
 
 </div>
 
-## Debian и прочие базирующиеся на нём системы {#debian_и_прочие_базирующиеся_на_нём_системы}
+## Debian и прочие базирующиеся на нём системы 
 
 Начиная с Debian Lenny, FreeCAD доступен прямо из программных репозиториев Debian и может быть установлен через synaptic или просто через:
 
@@ -333,7 +333,7 @@ If you find out that your system features FreeCAD but is not documented in this 
 
 Many alternative, non-official FreeCAD packages are available on the net, for example for systems like slackware or fedora. A search on the net can quickly give you some results.
 
-### Ручная установка в системах, основанных на .deb {#ручная_установка_в_системах_основанных_на_.deb}
+### Ручная установка в системах, основанных на .deb 
 
 If for some reason you cannot use one of the above methods, you can always download one of the .deb packages available on the [Download](Download.md) page.
 {{DownloadUnixStable}}
@@ -349,7 +349,7 @@ changing Name\_of\_your\_FreeCAD\_package.deb by the name of the file you downlo
 
 After you installed FreeCAD, a startup icon will be added in the \"Graphic\" section of your Start Menu.
 
-### Установка в других Linux/Unix системах {#установка_в_других_linuxunix_системах}
+### Установка в других Linux/Unix системах 
 
 Many common Linux distros now include a precompiled FreeCAD as part of the standard packages. This is often out of date, but is a place to start. Check the standard package managers for your system. One of the following (partial) list of commands could install the official version of FreeCAD for your distro from the terminal. These probably need administrator privileges.
 
@@ -373,11 +373,11 @@ The package name is case sensitive, so try \FreeCAD\ as well as \freecad\. If th
 
 </div>
 
-### Установка Windows Версии в Linux {#установка_windows_версии_в_linux}
+### Установка Windows Версии в Linux 
 
 Смотрите страницу: [Установка в Windows](Installing_on_Windows/ru.md).
 
-## Следующий Шаг {#следующий_шаг}
+## Следующий Шаг 
 
 После того, как вы установили FreeCAD, пора [приступить к работе](Getting_started.md)!
 

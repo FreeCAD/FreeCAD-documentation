@@ -24,7 +24,7 @@ Instrumentul Offset Part 3D creează copii ale unei forme selectate la o anumit�
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

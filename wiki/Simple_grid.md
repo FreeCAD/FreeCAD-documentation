@@ -26,7 +26,7 @@ In order to configure it you should open the macro and change the variables at y
 
 *groupName = Grid*
 
-## GitHub download {#github_download}
+## GitHub download 
 
 [<https://github.com/pgilfernandez/FreeCAD_Simple_grid>](https://github.com/pgilfernandez/FreeCAD_Simple_grid)
 

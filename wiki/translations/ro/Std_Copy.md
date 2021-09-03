@@ -21,7 +21,7 @@ Comanda **[16px|text-top=Std Copy|link=Std Copy/fr](File:Std_Copy.png.md) [copie
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați Object(ul)ele de replicat.
 2.  Press the **[16px|Copy](File:Std_Copy.png.md)** icon, **ctrl** + **C** keys or use menu choices Edit → Copy.

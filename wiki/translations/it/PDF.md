@@ -44,7 +44,7 @@ Poiché FreeCAD è basato sul toolkit grafico Qt, può esportare la vista 3D nat
 
 <div class="mw-translate-fuzzy">
 
-L\'opzione per esportare in PDF è disponibile nel menu {{MenuCommand|File → Esporta PDF}}.
+L\'opzione per esportare in PDF è disponibile nel menu **File → Esporta PDF**.
 
 
 </div>

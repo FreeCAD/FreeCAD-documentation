@@ -11,14 +11,14 @@ ElementGeometry1D is used to define cross sections for beam elements. Currently 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [FEM ElementGeometry1D](FEM_ElementGeometry1D.md)** button.
-    -   Select the {{MenuCommand|Model → Element Geometry → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Beam cross section}} option from the menu.
+    -   Select the **Model → Element Geometry → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Beam cross section** option from the menu.
 2.  Choose the type of cross section and specify the necessary dimensions:
     -   Rectangular: width and height,
     -   Circular: diameter,
@@ -35,7 +35,7 @@ ElementGeometry1D is used to define cross sections for beam elements. Currently 
 
 -   For viewing results from CalculiX solver on the mesh expanded to the prescribed cross section, property `Beam Shell Result Output 3D` in the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) need to be set to `True`.
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 

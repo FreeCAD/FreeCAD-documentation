@@ -19,19 +19,19 @@ A bancada do Sketcher apresenta restrições (\"constraints\"), permitindo que f
 
 *''Um esboço básico totalmente restrito''*
 
-## Noções Básicas de Esboçagem por Restrições {#noções_básicas_de_esboçagem_por_restrições}
+## Noções Básicas de Esboçagem por Restrições 
 
 Para explicar como o Sketcher funciona, pode ser útil compará-lo com a forma \"tradicional\" de desenho.
 
-#### Desenho Tradicional {#desenho_tradicional}
+#### Desenho Tradicional 
 
 A forma tradicional de elaboração do CAD é herdada da antiga [prancheta de desenho](http://en.wikipedia.org/wiki/Drawing_board). As [vistas ortogonais (2D)](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) são desenhadas manualmente e destinadas à produção de desenhos técnicos (também conhecidos como plantas). Os objetos são desenhados precisamente no tamanho ou dimensão/cota pretendidos. Se você deseja desenhar uma linha horizontal de 100 mm de comprimento começando em (0,0), ative a ferramenta de linha, clique na tela ou insira as coordenadas (0,0) para o primeiro ponto e, em seguida, dê um segundo clique ou insira as coordenadas do segundo ponto em (100,0). Você também pode traçar sua linha em uma posição qualquer e movê-la depois. Quando terminar de desenhar as geometrias, basta adicionar as cotas.
 
-#### Esboçagem por Restrições {#esboçagem_por_restrições}
+#### Esboçagem por Restrições 
 
 O **Sketcher** afasta-se dessa lógica. Os objetos não precisam ser desenhados exatamente como se pretende, porque eles serão definidos posteriormente por restrições. Os objetos podem ser desenhados livremente e, desde que ainda não tenham restrições, podem ser modificados. Na verdade, eles estão \"flutuando\" e podem ser movidos, esticados, girados, redimensionados e assim por diante. Isso proporciona grande flexibilidade no processo de design.
 
-#### O Que São Restrições? {#o_que_são_restrições}
+#### O Que São Restrições? 
 
 Em vez de cotas, restrições são usadas para limitar os graus de liberdade de um objeto. Por exemplo, uma linha sem restrições tem 4 graus de liberdade - (em inglês, [Degrees Of Freedom](#Degrees_Of_Freedom.md) - abreviado como \" DOF \"): ela pode ser movida horizontal e verticalmente, pode ser estendida/encurtada, e pode ser rotacionada.
 
@@ -41,7 +41,7 @@ Vários objetos podem ser restringidos entre si. Duas linhas podem ser unidas po
 
 Existem dois tipos de restrições: geométricas e dimensionais. Eles são detalhados na seção [\'As Ferramentas\'](#As_Ferramentas/pt-br.md) abaixo.
 
-#### Para que o Sketcher não Serve {#para_que_o_sketcher_não_serve}
+#### Para que o Sketcher não Serve 
 
 O Sketcher não se destina à produção de plantas 2D. Depois que os esboços são usados para gerar um sólido, eles são automaticamente ocultados. As restrições são visíveis apenas no modo de edição de esboço.
 
@@ -53,7 +53,7 @@ Se você só precisa produzir visualizações 2D para impressão e não deseja c
 
 </div>
 
-## Fluxo de Trabalho da Esboçagem {#fluxo_de_trabalho_da_esboçagem}
+## Fluxo de Trabalho da Esboçagem 
 
 Um esboço é sempre bidimensional (2D). Para criar um sólido, um esboço 2D de uma única área fechada é criado e, a seguir, preenchido ou revolvido para adicionar a 3ª dimensão, criando um sólido 3D a partir do esboço 2D.
 
@@ -69,7 +69,7 @@ Depois que um esboço está totalmente restrito, seu contorno ficará verde; a g
 
 </div>
 
-## As Ferramentas {#as_ferramentas}
+## As Ferramentas 
 
 As ferramentas da bancada Sketcher estão todas localizadas no menu Sketch que aparece quando você carrega a bancada.
 
@@ -97,7 +97,7 @@ As ferramentas da bancada Sketcher estão todas localizadas no menu Sketch que a
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Parar a operação](Sketcher_StopOperation/pt-br.md): Quando no modo de edição, para a operação atual, seja desenho, configuração de restrições, etc.
 
-### Geometrias do Sketcher {#geometrias_do_sketcher}
+### Geometrias do Sketcher 
 
 Estas são ferramentas para criar objetos.
 
@@ -170,11 +170,11 @@ Estas são ferramentas para criar objetos.
 
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Modo de construção](Sketcher_ToggleConstruction/pt-br.md): Alterna a geometria do esboço de/para o modo de construção. A geometria de construção é mostrada em azul e é descartada fora do modo de edição do esboço.
 
-### Restrições do Sketcher {#restrições_do_sketcher}
+### Restrições do Sketcher 
 
 As restrições são usadas para definir comprimentos, definir regras entre os elementos do esboço e para bloquear o esboço ao longo dos eixos vertical e horizontal. Algumas restrições requerem o uso de [Restrições de ajuda](Sketcher_helper_constraint/pt-br.md).
 
-#### Restrições Geométricas {#restrições_geométricas}
+#### Restrições Geométricas 
 
 Tais restrições não estão associadas a dados numéricos.
 
@@ -198,7 +198,7 @@ Tais restrições não estão associadas a dados numéricos.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Bloquear](Sketcher_ConstrainBlock/pt-br.md): Impede que uma aresta se mova, ou seja, impede que seus vértices mudem suas posições atuais. Deve ser particularmente útil para corrigir a posição de B-Splines. Veja o tópico [Block Constraint](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572) no fórum.
 
-#### Restrições Dimensionais {#restrições_dimensionais}
+#### Restrições Dimensionais 
 
 Estas são restrições associadas a dados numéricos, para os quais você pode usar [expressões](Expressions/pt-br.md). Os dados podem ser retirados de uma [planilha](Spreadsheet_Workbench/pt-br.md).
 
@@ -215,13 +215,13 @@ Estas são restrições associadas a dados numéricos, para os quais você pode 
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiano](Sketcher_ConstrainRadiam/pt-br.md): Define automaticamente o raio/diâmetro de um arco ou círculo selecionado (peso para um pólo de eixo B, diâmetro para um círculo completo, raio para um arco) <small>(v0.20)</small> 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angulo](Sketcher_ConstrainAngle/pt-br.md): Define o ângulo interno entre duas linhas selecionadas.
 
-#### Restrições Especiais {#restrições_especiais}
+#### Restrições Especiais 
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [A Lei de Snell](Sketcher_ConstrainSnellsLaw/pt-br.md): Restringe duas linhas à obediência a uma lei de refração, para simular a luz que passa por uma interface.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Alinhamento interno](Sketcher_ConstrainInternalAlignment/pt-br.md): Alinha os elementos selecionados com a forma selecionada (por exemplo, uma linha, para torná-la o eixo principal de uma elipse).
 
-#### Ferramentas de Restrição {#ferramentas_de_restrição}
+#### Ferramentas de Restrição 
 
 As seguintes ferramentas podem ser usadas para modificar o efeito das restrições:
 
@@ -229,7 +229,7 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Ativar/Desativar restrição](Sketcher_ToggleActiveConstraint/pt-br.md): Habilita ou desabilita uma restrição já colocada. <small>(v0.19)</small> 
 
-### Ferramentas do Sketcher {#ferramentas_do_sketcher}
+### Ferramentas do Sketcher 
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [ Exibindo os graus de liberdade](Sketcher_SelectElementsWithDoFs/pt-br.md): Destaca em verde a geometria com graus de liberdade (GDLs), isto é, não toalmente restrita.
 
@@ -269,7 +269,7 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Eliminar todas as restrições](Sketcher_DeleteAllConstraints/pt-br.md): Deleta todas as restrições do esboço.
 
-### Ferramentas de B-spline do Sketcher {#ferramentas_de_b_spline_do_sketcher}
+### Ferramentas de B-spline do Sketcher 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Mostra/esconde o grau da B-spline](Sketcher_BSplineDegree/pt-br.md)
 
@@ -291,7 +291,7 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Diminui a multiplicidade do nó](Sketcher_BSplineDecreaseKnotMultiplicity/pt-br.md)
 
-### Espaço Virtual do Sketcher {#espaço_virtual_do_sketcher}
+### Espaço Virtual do Sketcher 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Trocar espaço virtual](Sketcher_SwitchVirtualSpace/pt-br.md): Permite esconder todas as restrições de um esboço e fazê-las visíveis novamente.
 
@@ -299,7 +299,7 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferências](Sketcher_Preferences/pt-br.md): Preferências para a bancada de trabalho **Sketcher**.
 
-## Melhores Práticas {#melhores_práticas}
+## Melhores Práticas 
 
 Cada usuário CAD desenvolve sua própria maneira de trabalhar ao longo do tempo, mas existem alguns princípios gerais úteis a seguir.
 

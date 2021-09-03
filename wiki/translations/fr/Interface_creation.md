@@ -12,7 +12,7 @@ Les interfaces sont créées en utilisant [PySide](PySide/fr.md), qui est une bi
 
 Il existe généralement deux façons de créer des interfaces avec PySide.
 
-### Interface dans un fichier .ui {#interface_dans_un_fichier_.ui}
+### Interface dans un fichier .ui 
 
 Dans cette méthode, l\'interface est définie dans un fichier `.ui` (un document XML qui définit la structure de l\'interface), qui est ensuite importé dans le code [Python](Python/fr.md) qui l\'utilise. C\'est l\'approche recommandée.
 
@@ -24,7 +24,7 @@ Dans cette méthode, l\'interface est définie dans un fichier `.ui` (un documen
 
 Pour des exemples sur cette méthode, voir [Création d\'interface avec des fichiers UI](Interface_creation_with_UI_files/fr.md).
 
-### Interface complètement en code Python {#interface_complètement_en_code_python}
+### Interface complètement en code Python 
 
 Dans cette méthode, toute l\'interface est définie par plusieurs appels Python.
 

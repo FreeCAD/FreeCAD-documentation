@@ -15,7 +15,7 @@ This tool creates a copy of a selected path
 2.  Invoke the Path Copy command several ways:
     -   Press the **<img src="images/Path_Copy.svg" width=24px> [Copy](Path_Copy.md)** button in the Path toolbar
     -   Use the **P** then **Y** keyboard shortcut
-    -   Use the {{MenuCommand|Path → Path Modification → Copy}} entry in the Path menu
+    -   Use the **Path → Path Modification → Copy** entry in the Path menu
 
 ## Properties
 

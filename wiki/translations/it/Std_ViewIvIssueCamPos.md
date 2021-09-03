@@ -24,7 +24,7 @@ Esempio casuale dei dati di posizione della camera nel pannello Report:
 
 ## Utilizzo
 
-1.  Select the {{MenuCommand|View → Stereo → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Issue camera position}} option from the menu.
+1.  Select the **View → Stereo → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Issue camera position** option from the menu.
 
 ## Note
 

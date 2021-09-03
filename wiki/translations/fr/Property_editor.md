@@ -8,7 +8,7 @@
 
 ## Description
 
-L\'[éditeur de propriétés](Property_editor/fr.md) apparaît lorsque l\'onglet {{MenuCommand|Model}} de la [vue combinée](combo_view/fr.md) est actif dans l\'[interface](interface/fr.md); il permet de gérer les propriétés exposées publiquement des objets du document.
+L\'[éditeur de propriétés](Property_editor/fr.md) apparaît lorsque l\'onglet **Model** de la [vue combinée](combo_view/fr.md) est actif dans l\'[interface](interface/fr.md); il permet de gérer les propriétés exposées publiquement des objets du document.
 
 Généralement, l\'éditeur de propriétés est conçu pour traiter un seul objet à la fois. Les valeurs affichées dans l\'éditeur de propriétés appartiennent à l\'objet sélectionné du document actif. Malgré cela, certaines propriétés, telles que les couleurs, peuvent être définies pour plusieurs objets sélectionnés. Si aucun élément n\'est sélectionné, l\'éditeur de propriétés sera vide.
 
@@ -19,7 +19,7 @@ Toutes les propriétés ne peuvent pas toujours être modifiées. en fonction du
 
 *Éditeur de propriétés vide, quand aucun objet n'est sélectionné.*
 
-## Définition d\'une propriété {#définition_dune_propriété}
+## Définition d\'une propriété 
 
 Une propriété est une information comme un numéro ou une chaîne de texte qui est rattachée à un document Freecad ou à un objet dans le document.
 
@@ -40,22 +40,22 @@ App::PropertyPlacement
 
 Différents objets peuvent avoir différents types de propriétés. Cependant, de nombreux objets ont les mêmes types car ils sont dérivés de la même classe interne. Par exemple, la plupart des objets décrivant des formes géométriques (lignes, cercles, rectangles, corps solides, pièces importées, etc.) ont la propriété \"Placement\" qui définit leur position dans la [Vue 3D](3D_view/fr.md).
 
-## Vue et Propriétés des données {#vue_et_propriétés_des_données}
+## Vue et Propriétés des données 
 
 Il existe deux classes de propriétés d\'entités accessibles via des onglets dans l\'éditeur de propriétés :
 
--    {{MenuCommand|View}}propriétés liées à l\'aspect \"visuel\" de l\'objet. Les propriétés {{MenuCommand|View}} sont liées à l\'attribut **ViewProvider** (`ViewObject`) de l\'objet et ne sont accessibles que lorsque l\'interface graphique est chargée. Ils ne sont pas accessibles lorsque vous utilisez FreeCAD en mode console ou en tant que bibliothèque sans tête.
+-    **View**propriétés liées à l\'aspect \"visuel\" de l\'objet. Les propriétés **View** sont liées à l\'attribut **ViewProvider** (`ViewObject`) de l\'objet et ne sont accessibles que lorsque l\'interface graphique est chargée. Ils ne sont pas accessibles lorsque vous utilisez FreeCAD en mode console ou en tant que bibliothèque sans tête.
 
--    {{MenuCommand|Data}}propriétés, liées aux paramètres \"physiques\" de l\'objet. Les propriétés {{MenuCommand|Data}} définissent les caractéristiques essentielles de l\'objet. Elles existent à tout moment, même lorsque FreeCAD est utilisé en mode console ou en tant que bibliothèque. Cela signifie que si vous chargez un document en mode console, vous pouvez modifier le rayon d\'un cercle ou la longueur d\'une ligne, même si vous ne pouvez pas voir le résultat à l\'écran.
+-    **Data**propriétés, liées aux paramètres \"physiques\" de l\'objet. Les propriétés **Data** définissent les caractéristiques essentielles de l\'objet. Elles existent à tout moment, même lorsque FreeCAD est utilisé en mode console ou en tant que bibliothèque. Cela signifie que si vous chargez un document en mode console, vous pouvez modifier le rayon d\'un cercle ou la longueur d\'une ligne, même si vous ne pouvez pas voir le résultat à l\'écran.
 
-Pour cette raison, les propriétés {{MenuCommand|Data}} sont considérées comme plus \"importantes\", car elles définissent réellement la géométrie d\'une forme. D\'autre part, les propriétés {{MenuCommand|View}} sont moins importantes car elles affectent uniquement l\'apparence superficielle de la géométrie. Par exemple, un cercle de 10 mm de rayon est différent d\'un cercle de 5 mm de rayon ; la couleur des cercles (propriété View) n\'affecte pas leurs formes, mais le rayon (propriété Data). Dans de nombreux cas dans cette documentation, le mot \"Property\" désigne une \"propriété de données\" et non \"View property\".
+Pour cette raison, les propriétés **Data** sont considérées comme plus \"importantes\", car elles définissent réellement la géométrie d\'une forme. D\'autre part, les propriétés **View** sont moins importantes car elles affectent uniquement l\'apparence superficielle de la géométrie. Par exemple, un cercle de 10 mm de rayon est différent d\'un cercle de 5 mm de rayon ; la couleur des cercles (propriété View) n\'affecte pas leurs formes, mais le rayon (propriété Data). Dans de nombreux cas dans cette documentation, le mot \"Property\" désigne une \"propriété de données\" et non \"View property\".
 
-### Propriétés de base {#propriétés_de_base}
+### Propriétés de base 
 
 
 **Voir aussi: [Objet name](Object_name/fr.md)**
 
-L\'objet [scripté](scripted_objects/fr.md) le plus élémentaire n\'affiche aucune propriété {{MenuCommand|Data}} dans l\'éditeur de propriétés, à l\'exception de son attribut `Label`. Le `Label` est une chaîne éditable par l\'utilisateur qui identifie l\'objet dans la [vue en arborescence](tree_view/fr.md). D\'autre part, le `Name` d\'un objet est un attribut interne qui est affecté à l\'objet au moment de sa création. cet attribut est en lecture seule, il ne peut donc pas être modifié et il n\'est pas non plus affiché dans l\'éditeur de propriétés.
+L\'objet [scripté](scripted_objects/fr.md) le plus élémentaire n\'affiche aucune propriété **Data** dans l\'éditeur de propriétés, à l\'exception de son attribut `Label`. Le `Label` est une chaîne éditable par l\'utilisateur qui identifie l\'objet dans la [vue en arborescence](tree_view/fr.md). D\'autre part, le `Name` d\'un objet est un attribut interne qui est affecté à l\'objet au moment de sa création. cet attribut est en lecture seule, il ne peut donc pas être modifié et il n\'est pas non plus affiché dans l\'éditeur de propriétés.
 
 Un objet paramétrique de base est créé comme suit
 
@@ -82,34 +82,34 @@ Les actions dans la vue de la propriété ont été implémentées dans 0.19.
 
 Un clic droit dans un espace vide de la vue ou avec une propriété sélectionnée ne montre qu\'une seule commande:
 
--    {{MenuCommand|Show all}}: s\'il est actif, en plus des propriétés standard qui apparaissent déjà, il affiche toutes les propriétés masquées des données et de vues dans leurs onglets respectifs.
+-    **Show all**: s\'il est actif, en plus des propriétés standard qui apparaissent déjà, il affiche toutes les propriétés masquées des données et de vues dans leurs onglets respectifs.
 
     -   Données: \"Proxy\", \"Label2\", \"Expression Engine\", and \"Visibility\".
     -   Voir: \"Proxy\".
 
-Lorsque l\'option {{MenuCommand|Show all}} est active et qu\'une propriété est sélectionnée, d\'autres actions sont disponibles avec un deuxième clic droit:
+Lorsque l\'option **Show all** est active et qu\'une propriété est sélectionnée, d\'autres actions sont disponibles avec un deuxième clic droit:
 
--    {{MenuCommand|Show all}}: désactive la commande {{MenuCommand|Show all}}, masquant ainsi les propriétés supplémentaires de données et d\'affichage.
+-    **Show all**: désactive la commande **Show all**, masquant ainsi les propriétés supplémentaires de données et d\'affichage.
 
--    {{MenuCommand|Add Property}}: ajoute une propriété dynamique à l\'objet. cela fonctionne à la fois avec C++ defined objects, et Python [objets scriptés](scripted_objects/fr.md).
+-    **Add Property**: ajoute une propriété dynamique à l\'objet. cela fonctionne à la fois avec C++ defined objects, et Python [objets scriptés](scripted_objects/fr.md).
 
--    {{MenuCommand|Expression...}}: appelle l\'éditeur de formule, qui permet d\'utiliser [expressions](Expressions/fr.md) dans la valeur de la propriété.
+-    **Expression...**: appelle l\'éditeur de formule, qui permet d\'utiliser [expressions](Expressions/fr.md) dans la valeur de la propriété.
 
--    {{MenuCommand|Hidden}}: si actif, définit la propriété comme masquée, ce qui signifie qu\'elle ne sera affichée dans l\'éditeur de propriétés que si {{MenuCommand|Show all}} est actif.
+-    **Hidden**: si actif, définit la propriété comme masquée, ce qui signifie qu\'elle ne sera affichée dans l\'éditeur de propriétés que si **Show all** est actif.
 
--    {{MenuCommand|Output}}: s\'il est actif, définit la propriété comme sortie.
+-    **Output**: s\'il est actif, définit la propriété comme sortie.
 
--    {{MenuCommand|NoRecompute}}: si actif, définit la propriété comme non recalculée lorsque le document est recalculé; Ceci est utile lorsqu\'une propriété ne doit pas être affectée par d\'autres mises à jour.
+-    **NoRecompute**: si actif, définit la propriété comme non recalculée lorsque le document est recalculé; Ceci est utile lorsqu\'une propriété ne doit pas être affectée par d\'autres mises à jour.
 
--    {{MenuCommand|ReadOnly}}: si actif, définit la propriété en lecture seule. Elle ne sera plus modifiable dans l\'éditeur de propriétés jusqu\'à ce que ce paramètre soit désactivé. L\'entrée de menu {{MenuCommand|Expression...}} n\'est plus disponible. **Remarque:** Il peut encore être possible de modifier la propriété via un dialogue qui met à jour la propriété.
+-    **ReadOnly**: si actif, définit la propriété en lecture seule. Elle ne sera plus modifiable dans l\'éditeur de propriétés jusqu\'à ce que ce paramètre soit désactivé. L\'entrée de menu **Expression...** n\'est plus disponible. **Remarque:** Il peut encore être possible de modifier la propriété via un dialogue qui met à jour la propriété.
 
--    {{MenuCommand|Transient}}: si actif, définit la propriété sur transitoire. La valeur d\'une propriété transitoire n\'est pas enregistrée dans un fichier. Lors de l\'ouverture d\'un fichier, elle est instanciée avec sa valeur par défaut.
+-    **Transient**: si actif, définit la propriété sur transitoire. La valeur d\'une propriété transitoire n\'est pas enregistrée dans un fichier. Lors de l\'ouverture d\'un fichier, elle est instanciée avec sa valeur par défaut.
 
--    {{MenuCommand|Touched}}: s\'il est actif, il est touché et prêt à être recalculé.
+-    **Touched**: s\'il est actif, il est touché et prêt à être recalculé.
 
--    {{MenuCommand|EvalOnRestore}}: s\'il est actif, il est évalué lors de la restauration du document.
+-    **EvalOnRestore**: s\'il est actif, il est évalué lors de la restauration du document.
 
-## Exemple de propriétés d\'un objet PartDesign {#exemple_de_propriétés_dun_objet_partdesign}
+## Exemple de propriétés d\'un objet PartDesign 
 
 Dans cette section, nous montrons quelques propriétés communes qui sont visibles pour un [PartDesign Corps](PartDesign_Body/fr.md) et une [PartDesign Fonction](PartDesign_Feature/fr.md). Les propriétés spécifiques d\'un objet peuvent être trouvées dans la page de documentation spécifique de cet objet.
 
@@ -221,7 +221,7 @@ print(obj.CustomCamelProperty)
 
 ![](images/FreeCAD_Property_editor_Custom.png ) *Éditeur de propriétés affichant les propriétés de données d'un [PartDesign Corps](PartDesign_Body/fr.md), avec deux propriétés supplémentaires, "Personnalisées" et "Propriété Camel personnalisée".*
 
-De la même manière, les propriétés {{MenuCommand|View}} sont ajoutées, non pas à l\'objet de base, mais à son `ViewObject`. Ensuite, il s\'ensuit que des propriétés comme {{PropertyView/fr|Angular Deflection}}, {{PropertyView/fr|Bounding Box}}, {{PropertyView/fr|Display Mode}}, {{PropertyView/fr|Display Mode Body}}, {{PropertyView/fr|Line Color}}, et d\'autres, peuvent être examinés et modifiés à partir de la [console Python](Python_console/fr.md).
+De la même manière, les propriétés **View** sont ajoutées, non pas à l\'objet de base, mais à son `ViewObject`. Ensuite, il s\'ensuit que des propriétés comme {{PropertyView/fr|Angular Deflection}}, {{PropertyView/fr|Bounding Box}}, {{PropertyView/fr|Display Mode}}, {{PropertyView/fr|Display Mode Body}}, {{PropertyView/fr|Line Color}}, et d\'autres, peuvent être examinés et modifiés à partir de la [console Python](Python_console/fr.md).
 
 
 ```python

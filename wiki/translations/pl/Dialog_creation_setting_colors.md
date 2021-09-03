@@ -6,7 +6,7 @@ This is an example of [dialog creation](Dialog_creation.md) with [PySide](PySide
 
 In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to create {{FileName|.ui}} files through Qt Designer, and load these in the program. See [Interface creation with UI files](Interface_creation_with_UI_files.md).
 
-## Use QColorDialog to get a color {#use_qcolordialog_to_get_a_color}
+## Use QColorDialog to get a color 
 
 Complete code: 
 ```python
@@ -32,7 +32,7 @@ if couleur.isValid():
 
 ```
 
-## Use QColorDialog to create a palette of colors (standard and custom) {#use_qcolordialog_to_create_a_palette_of_colors_standard_and_custom}
+## Use QColorDialog to create a palette of colors (standard and custom) 
 
 This example modify the Standard color and the Customize color with the Tango FreeCAD guide.
 

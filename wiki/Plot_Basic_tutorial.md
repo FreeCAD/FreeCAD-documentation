@@ -26,11 +26,11 @@ In previous image you can see the result that we approximately will obtain. Foll
 -   How to edit series styles.
 -   How to save your plot.
 
-## Plotting data {#plotting_data}
+## Plotting data 
 
 In order to plot data you don\'t need to create a new FreeCAD document, simply show the Python console and start sending commands, or use [macros](Macros.md).
 
-### Creating plot document {#creating_plot_document}
+### Creating plot document 
 
 Plots are special documents that can be created manually in order to add data later, or allow the module creates one automatically when you start plotting data. Create your own plot documents have 2 advantages:
 
@@ -50,7 +50,7 @@ Plot.figure("TrigonometricTest")
 
 In FreeCAD 0.19 it is required to install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) with the [Add-on manager](Std_AddonMgr.md), while from FreeCAD 0.20 onwards the external add-on is not required anymore to perform plots. The commands above will create a new tab on main windows called **TrigonometricTest**. The new created document already have a set of axes. Each plot document have at least one set of axes that can be removed without using fully matplotlib control.
 
-### Drawing functions {#drawing_functions}
+### Drawing functions 
 
 You can start working here due to plot command will start a new document, but all plot commands that you execute will append series to created plot until you don\'t create a new document, so usually is better options control the opened plot documents. First thing that we need to do is create the data for sine and cosine functions that we want to plot:
 
@@ -79,9 +79,9 @@ Plot.plot(t,c)
 
 That will plot our functions. **plot** command allows the series label as argument, but since we will edit it later using Plot module tools we don\'t pass this data yet.
 
-## Configuring plot {#configuring_plot}
+## Configuring plot 
 
-### Showing grid and legend {#showing_grid_and_legend}
+### Showing grid and legend 
 
 Change FreeCAD workbench to [Plot module](Plot_Module.md) in View/Workbench menu (you must install the add-on first with the [Add-on manager](Std_AddonMgr.md)). When module has been loaded use grid tool in order to show it.
 
@@ -93,7 +93,7 @@ You can repeat the action in order to hide it. Also you can show the legend with
 
 As you can see, legend is empty because we have not set any series label yet. In [Plot module](Plot_Module.md) series without label are not represented at legend, in order to allow you to draw auxiliary lines.
 
-### Setting series labels {#setting_series_labels}
+### Setting series labels 
 
 With the series tool you can edit some series parameters.
 
@@ -113,11 +113,11 @@ Since [matplotlib](http://matplotlib.org/) supports [LaTeX](http://www.latex-pro
 $y = \cos \left( 2 \pi t \right)$
 ```
 
-### Setting series style {#setting_series_style}
+### Setting series style 
 
 Series allows you to set a lot of series properties. Try to set the properties shown at the example image, changing series colors and drawing style of the second one.
 
-### Setting axes labels {#setting_axes_labels}
+### Setting axes labels 
 
 With the labels tool you can set labels associated to all created axes.
 
@@ -131,7 +131,7 @@ Set this data:
 
 Also change the size of all of them to 20.
 
-## Saving plot {#saving_plot}
+## Saving plot 
 
 With saving plot tool you can save your plot as image file in several formats.
 

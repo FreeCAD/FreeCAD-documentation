@@ -38,7 +38,7 @@ In alternativa, per produrre altre copie non parametriche degli oggetti utilizza
 ## Utilizzo
 
 1.  Selezionare un oggetto che si desidera pulire e copiare.
-2.  Andare nel menu {{MenuCommand|Part → Crea una copia → <img src="images/Part_RefineShape.svg" width=16px> Affina forma}}.
+2.  Andare nel menu **Part → Crea una copia → <img src="images/Part_RefineShape.svg" width=16px> Affina forma**.
 3.  Viene creata una copia pulita e indipendente dell\'oggetto originale; l\'oggetto originale è nascosto.
 
 A partire da FreeCAD 0.19, il risultato viene automaticamente impostato su una copia parametrica (collegata).

@@ -22,7 +22,7 @@ Acest instrument creează, în documentul 3D, o vizualizare plană 2D a unui pan
 
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -78,7 +78,7 @@ Acest instrument creează, în documentul 3D, o vizualizare plană 2D a unui pan
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

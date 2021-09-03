@@ -28,12 +28,12 @@ Come detto in precedenza, questo strumento richiede due argomenti e entrambi dev
 
 1.  In primo luogo è necessario evidenziare due punti distinti. (Nota: lo strumento non funziona quando si tenta di selezionare il punto iniziale e quello finale della stessa linea).
 2.  Per evidenziare un elemento del disegno, spostare il mouse sopra l\'oggetto e fare clic con il pulsante sinistro del mouse.
-3.  Un elemento selezionato assume il colore verde. Il colore è modificabile da {{MenuCommand|Modifica → Preferenze → Visualizzazione → Colori → Selezione}}.
+3.  Un elemento selezionato assume il colore verde. Il colore è modificabile da **Modifica → Preferenze → Visualizzazione → Colori → Selezione**.
 4.  Elementi successivi possono essere selezionati ripetendo la procedura precedente. NOTA: Non è necessario tenere premuto nessun tasto speciale, tipo **Ctrl**, per aggiungere elementi del disegno alla selezione multipla.
 5.  Dopo aver evidenziato due punti, si può invocare il comando in uno di questi modi:
     -   Cliccare sull\'icona **<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Coincidenza** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **C**.
-    -   Usare la voce {{MenuCommand|Sketch → Vincoli → Coincidenza}} dal menu principale.
+    -   Usare la voce **Sketch → Vincoli → Coincidenza** dal menu principale.
 
 
 **Risultato:**
@@ -45,7 +45,7 @@ il comando fa sì che i due punti diventino \"coincidenti\" e vengano sostituiti
 
 NOTA: Per rendere due punti coincidenti, FreeCAD deve necessariamente spostare uno o entrambi i punti originali.
 
-## Alternatives to Coincident constraint {#alternatives_to_coincident_constraint}
+## Alternatives to Coincident constraint 
 
 The two constrained items of a [Coincident](Sketcher_ConstrainCoincident.md) constraint must be start point or end point vertices, or center points of arcs, circles or ellipses. Some combinations which are not possible with a coincident constraint can be emulated using other constraints:
 
@@ -59,7 +59,7 @@ The two constrained items of a [Coincident](Sketcher_ConstrainCoincident.md) con
 
 <div class="mw-translate-fuzzy">
 
-### Script generico {#script_generico}
+### Script generico 
 
 Il vincolo può essere creato dalle macro e dalla console python utilizzando il seguente comando:
 

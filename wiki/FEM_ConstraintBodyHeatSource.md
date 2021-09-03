@@ -14,7 +14,7 @@ Defines an internally generated body heat given in W/kg (not J/m³).
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> [FEM ConstraintBodyHeatSource](FEM_ConstraintBodyHeatSource.md)** button.
-    -   Select the {{MenuCommand|Model → Thermal Constraints → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Constraint temperature}} option from the menu.
+    -   Select the **Model → Thermal Constraints → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Constraint temperature** option from the menu.
 2.  In the [3D view](3D_view.md) select the objects the constraint should be applied to, which can be a vertices (corners), edges, or faces.
 3.  Enter a specific heat value to apply to the objects.
 

@@ -16,7 +16,7 @@ Questa pagina spiega come aggiungere un nuovo ambiente di lavoro (Workbench) all
 
 </div>
 
-## La struttura del workbench {#la_struttura_del_workbench}
+## La struttura del workbench 
 
 
 <div class="mw-translate-fuzzy">
@@ -56,7 +56,7 @@ All\'interno questi file si può fare quello che si vuole. Di solito vengono uti
 
 The structure and file content for a workbench described here is the classic way of creating a new workbench. One can use a slight variation in the structure of files when making a new Python workbench, that alternative way is best described as a \"namespaced workbench\", opening up the possibility to use pip to install the workbench. Both structures work, so it is more a question of preference when creating a new workbench. The style and structure for workbenches presented here are available in the global namespace of FreeCAD, whereas for the alternative style and structure the workbench resides in a dedicated namespace. For further readings on the topic see [Related](Workbench_creation#Related.md).
 
-### Struttura del workbench in C++ {#struttura_del_workbench_in_c}
+### Struttura del workbench in C++ 
 
 Per codificare l\'ambiente in python, non è necessario usare particolari attenzioni, è possibile inserire semplicemente gli altri file python insieme ai file Init.py e InitGui.py. Invece, quando si lavora in C++ si deve avere maggiori attenzioni, e iniziare rispettando una regola fondamentale di FreeCAD: separare la parte App dell\'ambiente, quella che può essere eseguita in modalità console, senza alcun elemento GUI, dalla parte Gui, che è quella che viene caricata solo quando FreeCAD funziona completo del suo ambiente GUI. Quindi, quando si crea un ambiente in C++, in realtà si creano probabilmente due moduli, un App e un Gui. Questi due moduli devono naturalmente essere richiamabili in python. Ogni modulo di FreeCAD (App o Gui) consiste, per lo meno, di un modulo con un file init. Questo è un tipico file AppMyModuleGui.cpp: 
 ```python
@@ -87,7 +87,7 @@ extern "C" {
 }
 ```
 
-### Il file Init.py {#il_file_init.py}
+### Il file Init.py 
 
 
 {{code|code=
@@ -134,7 +134,7 @@ The `FreeCAD.addImportType()` and `addEXportType()` functions allow you to give 
 
 <div class="mw-translate-fuzzy">
 
-### Ambienti di lavoro in Python {#ambienti_di_lavoro_in_python}
+### Ambienti di lavoro in Python 
 
 
 </div>
@@ -210,7 +210,7 @@ Adding your preference page(s):
 -   In your workbench, for ex. inside the InitGui file, inside the Initialize method (but any other place works too), add: FreeCADGui.addPreferencePage(\"/path/to/myUiFile.ui\",\"MyGroup\"), \"MyGroup\" being one of the preferences groups on the left. FreeCAD will automatically look for a \"preferences-mygroup.svg\" file in its known locations (which you can extend with FreeCADGui.addIconPath())
 -   Make sure the addPreferencePage() method is called only once, otherwise your pref page will be added several times
 
-### Workbench in C++ {#workbench_in_c}
+### Workbench in C++ 
 
 
 <div class="mw-translate-fuzzy">
@@ -260,11 +260,11 @@ namespace MyModuleGui {
 }
 ```
 
-#### Preferences {#preferences_1}
+#### Preferences 
 
 You can add a Preferences page for C++ workbenches too. The steps are similar to those for Python.
 
-## I comandi di FreeCAD {#i_comandi_di_freecad}
+## I comandi di FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -274,7 +274,7 @@ I comandi FreeCAD sono gli elementi di base dell\'interfaccia di FreeCAD. Posson
 
 </div>
 
-### Definizione dei comandi Python {#definizione_dei_comandi_python}
+### Definizione dei comandi Python 
 
 
 ```python
@@ -299,7 +299,7 @@ class My_Command_Class():
 FreeCADGui.addCommand('My_Command',My_Command_Class())
 ```
 
-### Definizione dei comandi C++ {#definizione_dei_comandi_c}
+### Definizione dei comandi C++ 
 
 Allo stesso modo, è possibile codificare i comandi in C++, in genere hanno un file Commands.cpp nel modulo Gui. Questo è un tipico file Commands.cpp: 
 ```pythonDEF_STD_CMD_A(CmdMyCommand);
@@ -339,7 +339,7 @@ void CreateMyModuleCommands(void)
 }
 ```
 
-## \"Compiling\" your resource file {#compiling_your_resource_file}
+## \"Compiling\" your resource file 
 
 compileA2pResources.py from the A2Plus workbench:
 

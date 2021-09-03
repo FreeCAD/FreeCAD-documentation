@@ -20,7 +20,7 @@ Acest instrument crează un arc de parabolă definit prin focar, vertex și endp
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

@@ -10,7 +10,7 @@
 
 Kenar çubuğu wiki dünyasında önemli bir gezinme aracıdır, daha fazla bilgi için [Manual: Interface / Sidebar](http://www.mediawiki.org/wiki/Manual:Interface/Sidebar) bölümüne bakın.
 
-## Kenar çubuğunu çevir {#kenar_çubuğunu_çevir}
+## Kenar çubuğunu çevir 
 
 Kenar çubuğu artık wiki\'nin tüm sayfalarında bulunan [Translation extension](http://www.mediawiki.org/wiki/Help:Extension:Translate) ile tamamen çevrilebilir.
 
@@ -22,7 +22,7 @@ FreeCAD wiki\'de, kenar çubuğu seçilen dile bağlı olarak metni değiştiren
 
 İndirme sayfasında bir hata var. Bağlantıyı \"Download/fr\" veya \"Download/de\" vb. Sayfalarına yönlendiremezsiniz. Bunun yerine, bağlantı kendi dilinizde \"İndirme\" gerçek çevirisini gösterecektir. Başa çıkmanın en iyi yolu bu yeni sayfayı oluşturmak ve doğru sayfaya yönlendirme yapmaktır. Yönlendirme hakkında daha fazlası [Yardım: Düzenleme](Help:Editing/tr.md).
 
-### Önemli notlar {#önemli_notlar}
+### Önemli notlar 
 
 Çoğu zaman kenar çubuğundaki her öğe için iki dize olacaktır.
 

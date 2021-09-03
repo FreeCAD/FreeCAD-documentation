@@ -18,7 +18,7 @@ Il poligono regolare è disponibile dalla finestra di dialogo Crea primitive del
 1.  Attivare l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md)
 2.  È possibile accedere al comando Poligono regolare in uno di questi modi:
     -   Premere il pulsante <img alt="" src=images/Part_CreatePrimitives.svg  style="width:24px;"> [Crea primitive](Part_CreatePrimitives/it.md) nella barra degli strumenti di Parte
-    -   Usare {{MenuCommand|Parte → [Crea primitive](Part_CreatePrimitives/it.md) → Poligono regolare}}
+    -   Usare **Parte → [Crea primitive](Part_CreatePrimitives/it.md) → Poligono regolare**
 
 
 </div>

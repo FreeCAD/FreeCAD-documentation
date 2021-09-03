@@ -8,10 +8,10 @@ L\'<img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [atelie
 
 <img alt="Copie d\'écran" src=images/InspectionEx.png  style="width:500px;">
 
-## Travail prévu: {#travail_prévu}
+## Travail prévu: 
 
 -   L\'inspection visuelle peut se faire via la barre de menu, dans la mesure du possible les formes doivent se croiser.
--   Sélectionner deux formes à comparer et sélectionnez {{MenuCommand|Inspection → Inspection}} visuelle à partir du menu.
+-   Sélectionner deux formes à comparer et sélectionnez **Inspection → Inspection** visuelle à partir du menu.
 -   Vous obtiendrez une image en couleur montrant l\'écart entre les deux formes.
 
 Alternativement, vous pouvez aussi utiliser la macro <img alt="" src=images/HighlightDifference.png  style="width:24px;"> [HighlightDifference](Macro_HighlightDifference/fr.md) pour comparer deux formes.

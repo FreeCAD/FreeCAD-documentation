@@ -10,7 +10,7 @@ Diese Seiten sind in einem frühen Stadium. Wenn Du nicht die Informationen find
 
 Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 
-### FreeCAD kompilieren {#freecad_kompilieren}
+### FreeCAD kompilieren 
 
 -   [Github Repo](https://github.com/FreeCAD/FreeCAD). Wenn du neu bei Git bist, lies [Quellcode Verwaltung](Source_code_management/de.md)
 -   [Kompilieren mit Docker](Compile_on_Docker.md)
@@ -35,7 +35,7 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 -   [Windows Paketerstellung](Windows_packaging/de.md)
 -   [MacOS Paketerstellung](MacOS_packaging/de.md)
 
-### Bau Unterstützungswerkzeuge {#bau_unterstützungswerkzeuge}
+### Bau Unterstützungswerkzeuge 
 
 -   Das [FreeCAD Bau Werkzeug](FreeCAD_Build_Tool/de.md)
     -   [Ein Anwendungsmodul hinzufügen](Module_creation/de.md) zu FreeCAD
@@ -44,7 +44,7 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 -   [Kompilieren (beschleunigen)](Compiling_(Speeding_up)/de.md) FreeCAD
 -   [Fortlaufende Integration](Continuous_Integration/de.md)
 
-### FreeCAD ändern {#freecad_ändern}
+### FreeCAD ändern 
 
 -   [Den FreeCAD Quellcode](The_FreeCAD_source_code/de.md) verstehen
 -   [Patches einreichen](Tracker#Submitting_patches/de.md)
@@ -59,7 +59,7 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 
 -   [Übersetzen eines externen Arbeitsbereichs](Translating_an_external_workbench/de.md)
 
-### Modul Entwicklerhandbuch {#modul_entwicklerhandbuch}
+### Modul Entwicklerhandbuch 
 
 [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): Dies ist ein ebook gerade auf github geschrieben , bitte teilen und pull request senden, um beizutragen.
 
@@ -80,7 +80,7 @@ Die neueste pdf Vorschau kann aus dem [pdf-Ordner](https://github.com/qingfengxi
 
 ### Internas
 
-#### OpenCascade Dokumentation {#opencascade_dokumentation}
+#### OpenCascade Dokumentation 
 
 OpenCascade ist eine Software Entwicklungsplattform für 3D Oberflächen- und Volumenmodellierung, CAD Datenaustausch und Visualisierung, meist in Form von C++ Bibliotheken.
 
@@ -93,7 +93,7 @@ OpenCascade ist eine Software Entwicklungsplattform für 3D Oberflächen- und Vo
 
 [File Format FCStd](File_Format_FCStd/de.md). Bei den mit FreeCAD erstellten Dateien handelt es sich um `.zip` Dateien, die die [BREP](https://de.wikipedia.org/wiki/Boundary_Representation/de.md)-Geometrie sowie XML-Daten zur Beschreibung des Dokuments enthalten.
 
-#### Skizzierer Löser {#skizzierer_löser}
+#### Skizzierer Löser 
 
 -   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (Forum Thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
 -   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) im FreeCAD Quellcode; wichtige Dateien sind [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) und [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).

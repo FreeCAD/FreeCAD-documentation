@@ -1,11 +1,11 @@
 
 {{VeryImportantMessage|pagina in costruzione}}
 
-# Costruzione di contorno non vincolato {#costruzione_di_contorno_non_vincolato}
+# Costruzione di contorno non vincolato 
 
 \_\_\_TOC\_\_\_
 
-## Preparare l\'ambiente {#preparare_lambiente}
+## Preparare l\'ambiente 
 
 -   Avviare l\'ambiente **Sketcher**
 -   Creare un **Nuovo file** (documento)
@@ -17,7 +17,7 @@
 -   Attivare **Snap alla griglia**
 -   Attivare **Vincoli automatici**
 
-## Disegnare le linee di costruzione {#disegnare_le_linee_di_costruzione}
+## Disegnare le linee di costruzione 
 
 -   Selezionare lo strumento **Polilinea** e tracciare un rombo
 -   Con lo strumento **Linea** tracciare la diagonale minore
@@ -31,7 +31,7 @@
 
 ![Rombo linea di Costruzione](images/RomboCostruzione.png )
 
-## Disegnare il contorno {#disegnare_il_contorno}
+## Disegnare il contorno 
 
 -   Avviare lo strumento **Arco** e con centro nei vertici del poligono tracciare gli archi del contorno
     -   Notare il prodursi dei vincoli automatici

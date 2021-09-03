@@ -25,7 +25,7 @@ L\'installazione si realizza copiando i due codici nella appropriata directory d
 
 Fare clic sul pulsante della barra degli strumenti associato, o richiamarle dal menu Macro. Tutte le finestre di supporto quali Console Python, Rapporto e Vista Combinata diventeranno tutte visibili o tutte nascoste.
 
-## Interfaccia utente {#interfaccia_utente}
+## Interfaccia utente 
 
 L\'azione dell\'utente è immediatamente confermata dal fatto che le finestre di supporto appaiono o spariscono.
 

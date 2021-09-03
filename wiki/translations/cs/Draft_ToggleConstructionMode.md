@@ -19,9 +19,9 @@ Kreslicí modul má konstrukční mód, který umožňuje kreslit určité objek
 <img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;"> 
 *Construction geometry, in blue, used to determine the center and radius of a circle*
 
-## Bug in version 0.19 {#bug_in_version_0.19}
+## Bug in version 0.19 
 
-In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddConstruction.md) command will typically use different groups. To avoid this change the {{MenuCommand|Construction group name}} in the preferences to {{Value|Draft_Construction}}: {{MenuCommand|Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name}}. In version 0.20 the {{MenuCommand|Construction group name}} is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
+In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddConstruction.md) command will typically use different groups. To avoid this change the **Construction group name** in the preferences to {{Value|Draft_Construction}}: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**. In version 0.20 the **Construction group name** is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
 
 ## Usage
 
@@ -44,8 +44,8 @@ In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddCo
 
 ## Preferences
 
--   To change the label (<small>(v0.20)</small> ) of the construction group: {{MenuCommand|Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name}}.
--   To change the color that is used: {{MenuCommand|Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color}}.
+-   To change the label (<small>(v0.20)</small> ) of the construction group: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
+-   To change the color that is used: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
 
 
 

@@ -23,7 +23,7 @@ Pokud používáte Linux, musíte vytvořit složku s názvem \"Mod\" ve skryté
 
 <div class="mw-translate-fuzzy">
 
-## Jak používat {#jak_používat}
+## Jak používat 
 
 Pak spusťte aplikaci FreeCAD, otevřete soubor STEP a přejděte na pracovním stole \"Info\" pomocí přepínače pracovních stolů nebo přejděte do nabídky Zobrazit → Workbench. Nyní vyberte své pevné a klikněte na ikonu \"Info\"; levý panel úloh zobrazí některé informace o modelu, včetně objemu, plochy povrchu, středu hmotnosti a momentu intertia.
 

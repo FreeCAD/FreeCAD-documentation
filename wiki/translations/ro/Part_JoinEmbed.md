@@ -19,7 +19,7 @@ Instrumentul de încorporare încorporează un obiect cu pereți (de exemplu, o 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

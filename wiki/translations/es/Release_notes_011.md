@@ -17,7 +17,7 @@ Una captura de pantalla de la versión 0.11
 -   El mecanismo de copiar/pegar ha sido mejorado considerablemente, permitiendo ahora copiar/pegar objetos entre documentos de forma sencilla.
 -   Se han añadido nuevas herramientas a las características del [ Entorno de trabajo de Piezas](Part_Workbench/es.md) como la simetría y el redondeo y los chaflanes de lados.
 
-### Croquizado y diseño de piezas {#croquizado_y_diseño_de_piezas}
+### Croquizado y diseño de piezas 
 
 -   El solucionador de restricciones del [ Entorno de trabajo de croquizado](Sketcher_Workbench/es.md) ha sido totalmente reescrito y las características del croquizador, aunque aún no está completo, ya disponen de una buena colección de herramientas como líneas, rectángulos y restricciones como puntos coincidentes, paralelismo, longitud fija, o las restricciones de horizontal y vertical.
 
@@ -27,13 +27,13 @@ Una captura de pantalla de la versión 0.11
 
 ![](images/Movie.png ) Ejemplos: [Demo del croquizador](http://www.youtube.com/watch?v=hvXupH5bA0E) • [Demo del módulo de piezas](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
 
-### Simulación de movimiento de Robots {#simulación_de_movimiento_de_robots}
+### Simulación de movimiento de Robots 
 
 -   El [ Entorno de simulación de movimiento de Robots](Robot_Workbench/es.md) ha sido ampliado con muchas herramientas y ahora es claramente funcional y permite manipular de forma sencilla el movimiento de robots industriales
 
 ![](images/release011-robot.jpg )
 
-### Croquizado 2D {#croquizado_2d}
+### Croquizado 2D 
 
 -   Los ajustes se han optimizado y ahora permiten trabajar bastante rápido, incluso con objetos complejos
 -   La herramienta de \"Recortar/Extender\" puede llamarse ahora \"Recortar/Extender/Extruir\", ya que permite extruir rápidamente caras, ofreciendo un atajo a la herramienta de extrusión estándar de Piezas

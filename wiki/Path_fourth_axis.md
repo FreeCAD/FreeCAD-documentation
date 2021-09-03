@@ -33,7 +33,7 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 
 ## Usage
 
-### Profile Faces {#profile_faces}
+### Profile Faces 
 
 -   Select the face(s) for the operation as normal
 -   Click on the Path Profile Faces icon to start the operation
@@ -43,7 +43,7 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 -   Recompute the operation
 -   Adjust start/final depths as needed. Final depth is coded to NOT go beyond the selected face used for the profile.
 
-### Pocket Shape {#pocket_shape}
+### Pocket Shape 
 
 -   Click on the Path Pocket Shape icon to start the operation.
 -   Click the OK to create the operation - no faces selected

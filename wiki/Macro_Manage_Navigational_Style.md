@@ -25,7 +25,7 @@ There are two brief code snippets, each of which is a separate Macro. Installati
 
 Click on the associated toolbar button, or invoke from the Macro menu. There is no visible confirmation of their executing, aside from the Navigational Style will change.
 
-## User Interface {#user_interface}
+## User Interface 
 
 There really isn\'t any user interface, not even any confirmation that the Navigational Style has been changed. The confirmation will be when you next manipulate the view, your mouse movements will interpreted in the Navigational Style you selected.
 

@@ -11,7 +11,7 @@
 
 In this tutorial we will cover how to import STL/OBJ files in FreeCAD. Since the mesh-format STL/OBJ is dimensionless, FreeCAD will assume on import that the units used in the model are mm. If this is not the case you have to scale your model either in the application it was created with (before exporting it) or you have to scale your model in FreeCAD after import and conversion to a solid.
 
-## Sample part {#sample_part}
+## Sample part 
 
 For this tutorial you can use your own STL file or create a demo file by doing this:
 
@@ -27,7 +27,7 @@ For this tutorial you can use your own STL file or create a demo file by doing t
 
 For importing a STL or OBJ file into FreeCAD, create a new FreeCAD document und choose **File** → **Import** from the top menu.
 
-## Cleaning and repairing the STL/OBJ-File for preparing import {#cleaning_and_repairing_the_stlobj_file_for_preparing_import}
+## Cleaning and repairing the STL/OBJ-File for preparing import 
 
 Basically, FreeCAD would import any STL/OBJ-File. But our goal is to have a solid which can be measured and changed (adding pads/pockets ..). For a successful conversion from mesh to solid we need to make sure that the mesh is "water-tight" (has no holes) or doesn't have any other errors.
 FreeCAD's aim is not to be a good mesh modeler, it is designed to be a solid modeler. FreeCAD has some capabilities for mesh operation in mesh workbench and OpenSCAD workbench (some operations need OpenSCAD to be installed and configured in the FreeCAD-preferences).
@@ -38,7 +38,7 @@ Some users like to use third-party software for cleaning and repairing meshes, f
 
 In this tutorial we will use the mesh workbench within FreeCAD to clean/repair/verify the mesh of our sample file.
 
-### Automatic testing and repairing {#automatic_testing_and_repairing}
+### Automatic testing and repairing 
 
 -   Open FreeCAD and the sample FreeCAD file containing the mesh object
 -   Switch to mesh workbench
@@ -50,7 +50,7 @@ In this tutorial we will use the mesh workbench within FreeCAD to clean/repair/v
 -   If errors had been detected the corresponding check-boxes will be ticked and you will be able to select **Repair**
 -   Choose **Close** to close the menu
 
-### Harmonizing normals {#harmonizing_normals}
+### Harmonizing normals 
 
 Harmonizing normals of a mesh object can be done by
 
@@ -59,7 +59,7 @@ Harmonizing normals of a mesh object can be done by
 
 Tip: By choosing the mesh object in the tree view, going to the view tab in the property view and changing \"Lighting\" from \"Two Side\" to \"One Side\" you can identify triangles with flipped normals. If the normals point into the mesh the triangle will be shown in black.
 
-### Closing holes {#closing_holes}
+### Closing holes 
 
 You can also manually close holes in your mesh object by
 
@@ -75,7 +75,7 @@ Another method of manually closing holes in your mesh object would be
 -   Select one of the edges of the hole in the mesh object in the 3D view
 -   Right-Click in 3D view and choose **Leave hole-filling mode** to exit the command
 
-## Conversion mesh to solid {#conversion_mesh_to_solid}
+## Conversion mesh to solid 
 
 -   Switch to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
 -   Make sure your mesh object is selected in the tree view, otherwise select it

@@ -13,7 +13,7 @@ Just a text simple text editor is needed to create a simple svg file. The necess
 
 Such a tidied up file could be a basis for a Python macro\...
 
-## Structure of a simple blank page {#structure_of_a_simple_blank_page}
+## Structure of a simple blank page 
 
 The SVG format is a subset of the XML format. That is why an SVG file, like any XML file, consists of two parts:
 
@@ -55,7 +55,7 @@ The Body starts with an opening tag which contains information about name spaces
 :   **viewBox=**\"0 0 420 297\": Position of the upper left corner (0;0) and the lower right corner (420;297) in the svg construction space (in svg units).
 :   Width, height, and viewBox in this combination set 1 svg-unit to 1 mm for the whole document. A dimensional unit can be omitted from now on.
 
-### Result: a blank page of DIN A3 format {#result_a_blank_page_of_din_a3_format}
+### Result: a blank page of DIN A3 format 
 
 For a blank page size DIN A3 in landscape orientation that\'s all.
 
@@ -76,7 +76,7 @@ For a blank page size DIN A3 in landscape orientation that\'s all.
 
     :   Just copy or type these few lines and save it as e.g. *MyFirstA3Template-blank*.svg
 
-## Frame elements {#frame_elements}
+## Frame elements 
 
 With FreeCAD it is not (yet) possible to draw frames and title blocks onto blank pages, and so it is done in advance by placing those elements inside the svg template file.
 
@@ -200,7 +200,7 @@ Now the indexes are inserted.
 
     :   Since no transformation is involved yet each distance relates to the svg file\'s origin and so capital letters could be used for **x** and **y** as well.
 
-### Folding Marks {#folding_marks}
+### Folding Marks 
 
 Folding marks show where to fold a drawing to reduce its size to DIN A4. (DIN based drawings at least)
 
@@ -215,7 +215,7 @@ Folding marks show where to fold a drawing to reduce its size to DIN A4. (DIN ba
 </g>
 }}
 
-### Center mark {#center_mark}
+### Center mark 
 
 The center mark shows where to put the centre of puncher to get perfectly positioned puncher holes. But a DIN A3 formatted drawing is a bad example for a center mark, because it is substituted with a longer index separator this case.
 
@@ -223,7 +223,7 @@ See {{Code|lang=xml|code=
 <path d="m 25,148.5 h -20" />
 }} above
 
-## Title block elements {#title_block_elements}
+## Title block elements 
 
 The title block contains elements like a frame, a segmentation, non-editable texts, and editable texts. {{Code|lang=xml|code=
 <g id="titleblock"
@@ -239,7 +239,7 @@ The title block contains elements like a frame, a segmentation, non-editable tex
     :   **transform=\"translate(230,287)\"** defines a translation of 230 units in x direction and 287 units in y direction.
     :   Remember: One unit was set to 1 mm within the svg-tag. And so all is moved 230 mm to the right and 287 mm down.
 
-### Title block frame {#title_block_frame}
+### Title block frame 
 
 This group defines the outline and the coarse segmentation of the title block. The coordinates relate to the svg-file\'s origin, because relocation is done with the \"titleblock\" group.
 
@@ -255,7 +255,7 @@ This group defines the outline and the coarse segmentation of the title block. T
 </g>
 }}
 
-### Title block segmentation {#title_block_segmentation}
+### Title block segmentation 
 
 This group defines the fine segmentation of the title block. Two groups of segmentation lines are needed, because they use different stroke-width values.
 
@@ -273,7 +273,7 @@ This group defines the fine segmentation of the title block. Two groups of segme
 </g>
 }}
 
-### Title block text non-editable {#title_block_text_non_editable}
+### Title block text non-editable 
 
 To label the entry fields of the title block non-editable texts are used.
 
@@ -302,7 +302,7 @@ To label the entry fields of the title block non-editable texts are used.
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Projection mode symbol {#projection_mode_symbol}
+### Projection mode symbol 
 
 
 <div class="mw-collapsible-content">
@@ -352,7 +352,7 @@ That symbol shows if first angle projection is used to arrange the views or thir
 
 </div>
 
-### FreeCAD logo {#freecad_logo}
+### FreeCAD logo 
 
 The FreeCAD logo consists of an F symbol and a cog symbol. The shared parameters are within the group tag and the individual parameters inside the Path tag.
 
@@ -381,7 +381,7 @@ The FreeCAD logo consists of an F symbol and a cog symbol. The shared parameters
     :   The colour parameters inside the Path tags override the \"none\" value of the Group tag.
     :   The logo paths are copied from an existing file and not split in single strokes like in the other sections, and so the coordinates are less clearly represented.
 
-### Title block text editable {#title_block_text_editable}
+### Title block text editable 
 
 The editable texts are sorted according to font size. The group tag defines the font family and the colour of the editable texts. Sub group tags add the font size and the position of the text anchor.
 
@@ -440,7 +440,7 @@ The editable texts are sorted according to font size. The group tag defines the 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Complete template {#complete_template}
+### Complete template 
 
 <img alt="" src=images/TechDraw_PageDefault.svg  style="width:64px;">
 

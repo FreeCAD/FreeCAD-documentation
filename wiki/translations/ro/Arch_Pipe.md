@@ -27,7 +27,7 @@ Acest instrument permite crearea de țevi/conducte de la zero, sau din obiectele
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -56,7 +56,7 @@ Acest instrument permite crearea de țevi/conducte de la zero, sau din obiectele
 
 -    **Profile**: Profilul de bază a acestei țevi. Dacă nu este specificat, țeava este cilindrică.
 
-## Fluxul de lucru tipic {#fluxul_de_lucru_tipic}
+## Fluxul de lucru tipic 
 
 -   Începeți prin a plasa obiecte sanitare / hidraulice (mai jos este un fișier importat pas). Transformați aceste obiecte în Echipamente Arch, selectând-le și apăsând butonul [ Arbor Equipment](Arch_Equipment.md).
 
@@ -107,7 +107,7 @@ Este de asemenea posibil să se creeze Arch Pipes fără o linie de bază, în a
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

@@ -150,7 +150,7 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Add Welding Information to Leader](TechDraw_WeldSymbol.md): adds welding specifications to an existing leaderline. <small>(v0.19)</small> 
 
-## Additional features {#additional_features}
+## Additional features 
 
 -   [Line Groups](TechDraw_LineGroup.md): to control the appearance of various types of lines.
 -   [Templates](TechDraw_Templates.md): the default templates defined for the drawing pages.

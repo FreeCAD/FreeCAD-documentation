@@ -18,7 +18,7 @@ Macro will copy the contents of the 3D view to the clipboard in image bitmap (BM
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/f5c3738f858f7b058897c6c235232cbe/raw/a10bc3b8789badc1e405541d4697d7286d9f0fd3/Macro_Copy3DViewToClipboard.FCMacro}}
 
-## How To Use {#how_to_use}
+## How To Use 
 
 -   Run once to activate macro (the macro is loaded resident into the memory of the PC).
 -   Press **G** to grab the contents of the 3d view and copy them to the clipboard.

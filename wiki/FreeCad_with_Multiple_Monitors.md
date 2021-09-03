@@ -1,18 +1,18 @@
-# Notice This is an Early Draft {#notice_this_is_an_early_draft}
+# Notice This is an Early Draft 
 
 This is an early draft. It may or may not be finished.
 
-# One Users Experience {#one_users_experience}
+# One Users Experience 
 
 This section is a documentation of one user\'s experience only, others may have other results.
 
-## My Environment {#my_environment}
+## My Environment 
 
-## FreeCad can Span Multiple Monitors {#freecad_can_span_multiple_monitors}
+## FreeCad can Span Multiple Monitors 
 
 When FreeCad is not maximized it can be resized to span 2 Monitors. This lets you use 2 monitors but only rearrange the components within the FreeCad window. Some components tend to stick to the sides.
 
-## Some Components Can Break Out {#some_components_can_break_out}
+## Some Components Can Break Out 
 
 Some components can break out of the FreeCad window and be place anywhere in you monitor space.
 

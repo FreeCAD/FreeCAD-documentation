@@ -27,9 +27,9 @@ The bodies created with PartDesign are often subject to the [topological naming 
 
 ## Инструменты
 
-Все инструменты проектирования деталей находятся в меню {{MenuCommand|Part Design}} и на панели инструментов PartDesign, которая появляется при загрузке рабочей среды проектирования деталей.
+Все инструменты проектирования деталей находятся в меню **Part Design** и на панели инструментов PartDesign, которая появляется при загрузке рабочей среды проектирования деталей.
 
-### Инструменты упорядочивания {#инструменты_упорядочивания}
+### Инструменты упорядочивания 
 
 These tools are in fact not part of the PartDesign Workbench. They belong to the [Std Base](Std_Base.md) system. They were developed in v0.17 with the intention that they would be useful to organize a model, and create [assemblies](Assembly.md); as such, they are very useful when working with bodies created with this workbench.
 
@@ -37,7 +37,7 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Создать группу](Std_Group/ru.md): создает в текужем документе объединяющий контейнер группу, что позволяет упорядочить объекты в [дереве просмотра](Tree_view.md).
 
-### Вспомогательные инструменты для моделирования Детали {#вспомогательные_инструменты_для_моделирования_детали}
+### Вспомогательные инструменты для моделирования Детали 
 
 -   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Create body](PartDesign_Body.md): creates a [Body](Body.md) object in the active document and makes it active.
 
@@ -47,9 +47,9 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Map sketch to face](Sketcher_MapSketch.md): Maps a sketch to a previously selected plane or a face of the active body.
 
-### Инструменты для моделирования Детали {#инструменты_для_моделирования_детали}
+### Инструменты для моделирования Детали 
 
-#### Инструменты создания опорных элементов {#инструменты_создания_опорных_элементов}
+#### Инструменты создания опорных элементов 
 
 -   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Создать опорную точку](PartDesign_Point/ru.md): создает опорную точку в активном теле.
 
@@ -65,7 +65,7 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Создать нового клона](PartDesign_Clone/ru.md): клонирует выбранное тело.
 
-#### Инструменты добавления (наращивания) материала (Additive tools) {#инструменты_добавления_наращивания_материала_additive_tools}
+#### Инструменты добавления (наращивания) материала (Additive tools) 
 
 Это инструменты для создания базовых элементов или добавления материала к существующему твердому телу.
 
@@ -97,7 +97,7 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Additive wedge](PartDesign_AdditiveWedge.md): creates an additive wedge.
 
-#### Инструменты вычитания (съёма) материала (Subtractive tools) {#инструменты_вычитания_съёма_материала_subtractive_tools}
+#### Инструменты вычитания (съёма) материала (Subtractive tools) 
 
 Это инструменты для вычитания материала из существующего тела.
 
@@ -131,7 +131,7 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Subtractive wedge](PartDesign_SubtractiveWedge.md): adds a subtractive wedge to the active body.
 
-#### Инструменты преобразования форм {#инструменты_преобразования_форм}
+#### Инструменты преобразования форм 
 
 Это инструменты для преобразования существующих форм. Они позволят выбрать способы преобразования форм.
 
@@ -143,7 +143,7 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Create MultiTransform](PartDesign_MultiTransform.md): creates a pattern with any combination of the other transformations.
 
-#### Инструменты для обработки граней тела {#инструменты_для_обработки_граней_тела}
+#### Инструменты для обработки граней тела 
 
 These tools apply a treatment to the selected edges or faces.
 
@@ -155,7 +155,7 @@ These tools apply a treatment to the selected edges or faces.
 
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Thickness](PartDesign_Thickness.md): creates a thick shell from the active body and opens selected face(s).
 
-### Булевы операции {#булевы_операции}
+### Булевы операции 
 
 -   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Boolean operation](PartDesign_Boolean.md): imports one or more Bodies or PartDesign Clones into the active body and applies a Boolean operation.
 
@@ -171,7 +171,7 @@ These tools apply a treatment to the selected edges or faces.
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Shaft design wizard](PartDesign_WizardShaft.md): Generates a shaft from a table of values and allows to analyze forces and moments. The shaft is made with a revolved sketch that can be edited.
 
-### Инструменты из Контекстного Меню {#инструменты_из_контекстного_меню}
+### Инструменты из Контекстного Меню 
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Set tip](PartDesign_MoveTip.md): redefines the tip, which is the feature exposed outside of the Body.
 
@@ -179,7 +179,7 @@ These tools apply a treatment to the selected edges or faces.
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Move object after other object](PartDesign_MoveFeatureInTree.md): allows reordering of the Body tree by moving the selected sketch, datum geometry or feature to another position in the list of features.
 
-#### Items shared with the Part workbench {#items_shared_with_the_part_workbench}
+#### Items shared with the Part workbench 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance](Std_SetAppearance.md): determines appearance of the whole part (color transparency etc.).
 

@@ -291,6 +291,6 @@ at the end of the function \'initUI\'. The first two arguments (right-300, 0) (l
 
 
 
-## Discussion page {#discussion_page}
+## Discussion page 
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012) 

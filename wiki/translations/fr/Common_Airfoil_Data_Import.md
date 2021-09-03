@@ -1,6 +1,6 @@
 
 
-## Importation des données des profils aérodynamiques {#importation_des_données_des_profils_aérodynamiques}
+## Importation des données des profils aérodynamiques 
 
 FreeCAD peut importer des données de profils comme celles qui se trouvent sur la base de données de coordonnées de profils [UIUC Airfoil Coordinates Database](http://m-selig.ae.illinois.edu/ads/coord_database.html) ou des fichiers produits par un logiciel de création et d\'annalyse de profils comme [XFLR5](http://www.xflr5.com/xflr5.htm).
 
@@ -29,7 +29,7 @@ AG35
      1.000001    0.000000
 ```
 
-## Importation améliorée {#importation_améliorée}
+## Importation améliorée 
 
 Il y a une macro disponible qui importera le profil avec une longueur de corde définie par l\'utilisateur. Cette macro permet d\'abord à l\'utilisateur de sélectionner le fichier de données de profil d\'aile à importer, puis de saisir la longueur de l\'accord. Il mesurera ensuite correctement la voilure en vue de son utilisation. La macro peut être trouvée dans la section [Macros](Macros_recipes/fr.md) de ce Wiki sous [Macro Airfoil Import & Scale](Macro_Airfoil_Import_&_Scale/fr.md).
 

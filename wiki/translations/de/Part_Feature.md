@@ -73,7 +73,7 @@ Dies sind die im [Eigenschaftseditor](property_editor/de.md) verfügbaren Eigens
 
 -    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string.
 
-#### Ausgeblendete Dateneigenschaften {#ausgeblendete_dateneigenschaften}
+#### Ausgeblendete Dateneigenschaften 
 
 -    **Proxy|PythonObject|hidden**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Part_Feature#Scripting.md).
 
@@ -204,7 +204,7 @@ The `addObject` function has two basic string arguments.
 If desired, the `Label` attribute can be changed to a more meaningful text.
 
 -   The `Label` can accept any UTF8 string, including accents and spaces. Since the [tree view](tree_view.md) displays the `Label`, it is a good practice to change the `Label` to a more descriptive string.
--   By default the `Label` is unique, just like the `Name`. However, this behavior can be changed in the [preferences editor](Preferences_Editor.md), {{MenuCommand|Edit → Preferences → General → Document → Allow duplicate object labels in one document}}. This means that in general the `Label` may be repeated in the same document; when testing for a specific element the user should rely on the `Name` rather than on the `Label`.
+-   By default the `Label` is unique, just like the `Name`. However, this behavior can be changed in the [preferences editor](Preferences_Editor.md), **Edit → Preferences → General → Document → Allow duplicate object labels in one document**. This means that in general the `Label` may be repeated in the same document; when testing for a specific element the user should rely on the `Name` rather than on the `Label`.
 
 
  {{Document objects navi}} 

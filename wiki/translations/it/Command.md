@@ -20,7 +20,7 @@ Ogni comando di FreeCAD ha un nome univoco, che appare nella pagina [:Category:C
 FreeCADGui.runCommand("my_Command_Name")
 ```
 
-## Introduzione {#introduzione_1}
+## Introduzione 
 
 I comandi di FreeCAD sono definiti per ambienti (workbench). Normalmente gli ambienti aggiungono le loro definizioni di comando all\'avvio di FreeCAD, quindi il comando esiste ed è disponibile non appena viene avviato FreeCAD, non importa se l\'ambiente corrispondente è stato attivato o meno. In alcuni casi, però, l\'autore dell\'ambiente può aver deciso, per non sovraccaricare troppo il processo di avvio di FreeCAD, di caricare le definizioni dei comandi solo all\'avvio dell\'ambiente. In questi casi, il comando è disponibile solo dopo che l\'ambiente è stato attivato (si è passati ad esso almeno una volta usando il selettore dei workbench).
 
@@ -28,7 +28,7 @@ Dato che la maggior parte richiede l\'interazione dell\'utente, i comandi di Fre
 
 I comandi possono essere definiti sia in C++ che in Python.
 
-## Comandi definiti in C++ {#comandi_definiti_in_c}
+## Comandi definiti in C++ 
 
 Esempio di definizione di un comando C++, di solito definito seguendo la struttura {{FileName|Mod/ModuleName/Gui/Command.cpp}}.
 
@@ -63,7 +63,7 @@ CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
-## Comandi definiti in Python {#comandi_definiti_in_python}
+## Comandi definiti in Python 
 
 Esempio di definizione di un comando Python, esso può essere posizionato in una directory come {{FileName|Mod/ModuleName/tools/commands.py}}. 
 ```python

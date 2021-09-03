@@ -18,7 +18,7 @@ Mehrere Argumente zu einer Funktion können entweder durch ein Semikolon  gefolg
 
 Die Argumente können Verweise auf Zellen in einer Kalkulationstabelle enthalten. Ein Zellverweis besteht aus dem großen Zeilenbuchstaben der Zelle, gefolgt von ihrer Spaltennummer, zum Beispiel `A1`. Eine Zelle kann auch durch den Alias der Zelle referenziert werden, zum Beispiel `Tabellenblatt.MeineTeilbreite`.
 
-### Referenzierende Objekte {#referenzierende_objekte}
+### Referenzierende Objekte 
 
 Du kannst auf ein Objekt über seinen **Namen** oder über seine **Beschriftung** verweisen. Im Falle einer **Beschriftung** muss es in doppelten **<<** und **>>** Symbolen eingeschlossen sein, wie z.B. **<<Beschriftung>>**.
 
@@ -29,7 +29,7 @@ Um auf Listenobjekte zu verweisen, verwende `<<object_label>>.list[list_index]` 
 
 Für weitere Informationen über das Referenzieren von Objekten siehe [Referenz zu CAD Daten](#Reference_to_CAD_data/de.md).
 
-## Unterstützte Konstanten {#unterstützte_konstanten}
+## Unterstützte Konstanten 
 
 Die folgenden Konstanten werden unterstützt:
 
@@ -38,7 +38,7 @@ Die folgenden Konstanten werden unterstützt:
   **e**       [Eulersche Zahl](https://de.wikipedia.org/wiki/Eulersche_Zahl)
   **pi**      [Kreiszahl $\pi$](https://de.wikipedia.org/wiki/Kreiszahl)
 
-## Unterstützte Operatoren {#unterstützte_operatoren}
+## Unterstützte Operatoren 
 
 Die folgenden Operatoren werden untertstützt:
 
@@ -51,9 +51,9 @@ Die folgenden Operatoren werden untertstützt:
   **%**      [Division mit Rest](https://de.wikipedia.org/wiki/Division_mit_Rest)
   **\^**     [Potenz](https://de.wikipedia.org/wiki/Potenz_(Mathematik))
 
-## Unterstützte Funktionen {#unterstützte_funktionen}
+## Unterstützte Funktionen 
 
-### Allgemeine mathematische Funktionen {#allgemeine_mathematische_funktionen}
+### Allgemeine mathematische Funktionen 
 
 Die nachfolgend aufgeführten mathematischen Funktionen sind verfügbar.
 
@@ -94,7 +94,7 @@ Diese Funktionen für Rundung, Trunkierung und Modulo werden unterstützt:
   round(x)    [Rundung](https://de.wikipedia.org/wiki/Rundung) auf die nächste Ganzzahl in Richtung Null                                                                 alle
   trunc(x)    [Trunkierung](https://de.wikipedia.org/wiki/Trunkierung_(Mathematik)) auf die nächste Ganzzahl (Kürzen auf einer Reihe oder Zahl auf eine gewisse Länge)   alle
 
-### Statistische / Aggregatfunktionen {#statistische_aggregatfunktionen}
+### Statistische / Aggregatfunktionen 
 
 [Aggregatfunktion](https://de.wikipedia.org/wiki/Aggregatfunktion) verwenden ein oder mehrere Argumente.
 Einzelne Argumente für Aggregatfunktionen können aus Zellbereichen bestehen. Ein Zellbereich wird durch zwei Zellbezüge ausgedrückt, die durch einen Doppelpunkt {{Incode|:}} getrennt sind, zum Beispiel {{Incode|Durchschnitt(B1:B8)}} oder {{Incode|Summe(A1:A4; B1:B4)}}. Die Zellbezüge können auch Zell Aliase verwenden, zum Beispiel {{Incode|Durchschnitt(StartTemp:EndTemp)}} {{Version/de|0.19}}.
@@ -136,7 +136,7 @@ Eine Beschränkung ist, dass nur ein %-Spezifizierer in einer Zeichenkette ist, 
 
 Eine FreeCAD-Beispieldatei, die Zeichenkettenformatierung zeigt, ist unter [im Forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657) verfügbar (engl.)
 
-## Bedingte Ausdrücke {#bedingte_ausdrücke}
+## Bedingte Ausdrücke 
 
 Bedingte Ausdrücke haben die Form `Bedingung ? ResultatWahr : ResultatFalsch`. Die Bedingung ist definiert als ein Ausdruck, der entweder zu `0` (falsch) oder Nicht-Null (wahr) ausgewertet wird. Beachte, dass das Einschließen des bedingten Ausdrucks in Klammern derzeit als Fehler angesehen wird. {{VersionMinus/de|0.19}}
 
@@ -412,7 +412,7 @@ Die folgenden häufig verwendeten Einheiten werden noch nicht unterstützt:
   lx        [Lux (Einheit)](https://de.wikipedia.org/wiki/Lux_(Einheit))                                                              nicht direkt
   px        [Pixel](https://de.wikipedia.org/wiki/Pixel)                                                                              nicht direkt
 
-## Ungültige Zeichen und Namen {#ungültige_zeichen_und_namen}
+## Ungültige Zeichen und Namen 
 
 Das Ausdrucks-Feature ist sehr leistungsfähig. Um das zu ermöglichen gibt es ein paar Einschränkungen bei ein paar Zeichen. Als Workaround gibt es in FreeCAD die Möglichkeit anstatt der Objektnamen sog. Bezeichner (\'labels\') zu verwenden und sich auf diese zu beziehen.
 
@@ -450,11 +450,11 @@ Beispielsweise ist folgender Name gültig: \>.Constraints.mol** (mol ist eine Ei
 
 Da kürzere Namen (vor allem, wenn sie nur ein oder zwei Zeichen haben) leicht zu ungültigen Namen führen können, sollte die Verwendung längerer Namen in Betracht gezogen und/oder eine geeignete Namenskonvention festgelegt werden.
 
-### Zell Aliase {#zell_aliase}
+### Zell Aliase 
 
 Für [Kalkulationstabelle SetzeAlias](Spreadsheet_SetAlias/de.md) sind nur alphanumerische Zeichen und Unterstriche erlaubt (`A` bis `Z`, `a` bis `z`, `0` bis `9` und `_`).
 
-## Referenzen auf CAD Daten {#referenzen_auf_cad_daten}
+## Referenzen auf CAD Daten 
 
 Es ist möglich, Daten aus dem Modell selbst in einem Ausdruck zu verwenden. Um auf eine Eigenschaft zu verweisen, verwende `object.property`. Wenn die Eigenschaft ein Verbund von Feldern ist, kann auf die einzelnen Felder mit `object.property.field` zugegriffen werden.
 
@@ -500,11 +500,11 @@ Die folgende Tabelle zeigt einige Beispiele:
 |                                                          |                                   |                                                                                                                                                               |
 +----------------------------------------------------------+--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## Dokumentweit gültige globale Variablen {#dokumentweit_gültige_globale_variablen}
+## Dokumentweit gültige globale Variablen 
 
 In FreeCAD gibt es zur Zeit kein Konzept für globale Variablen. Stattdessen können beliebige Variablen mit Hilfe der [Arbeitsbereich Kalkulationstabelle](Spreadsheet_Workbench/de.md) als Zellen in einer Kalkulationstabelle definiert werden und dann mit Hilfe der Alias Eigenschaft für die Zelle (Rechtsklick auf die Zelle) einen Namen erhalten. Dann kann von jedem Ausdruck aus auf sie zugegriffen werden, wie auf jede andere Objekteigenschaft auch.
 
-## Dokumentenübergreifende Verweise {#dokumentenübergreifende_verweise}
+## Dokumentenübergreifende Verweise 
 
 Es ist (mit Begrenzungen) möglich, eine Eigenschaft eines Objekts in deinem aktuellen Dokument (\".FCstd\" Datei) durch Verwendung eines Ausdrucks zu definieren, um auf eine Eigenschaft eines Objekts in einem anderen Dokument zu verweisen (\".FCstd\" file). Zum Beispiel kann eine Zelle in einer Kalkulationstabelle oder die **Länge** eines Formteil Würfels usw. in einem Dokument durch einen Ausdruck definiert werden, der auf den X Platzierungswert oder eine andere Eigenschaft eines Objekts in einem anderen Dokument verweist.
 
@@ -521,7 +521,7 @@ Leider meldet der integrierte Prüfer manchmal, dass ein gültiger Name nicht ex
 
 Natürlich liegt es bei dir, die zugehörigen Dokumente später zu laden, wenn du etwas ändern willst.
 
-## Bekannte Probleme / Verbleibende Aufgaben {#bekannte_probleme_verbleibende_aufgaben}
+## Bekannte Probleme / Verbleibende Aufgaben 
 
 
 <div class="mw-translate-fuzzy">

@@ -87,7 +87,7 @@ Utilizzando lo strumento [polilinea](Sketcher_CreatePolyline/it.md) <img alt="" 
 
 <div class="mw-translate-fuzzy">
 
-## Scripting {#scripting_1}
+## Scripting 
 
 I vincoli possono essere creati con le [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) utilizzando la seguente funzione:
 

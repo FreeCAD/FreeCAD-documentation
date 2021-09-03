@@ -20,7 +20,7 @@ Acest instrument convertește un filament [Wires](Draft_Wire.md) într-o funcți
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -44,7 +44,7 @@ Acest instrument convertește un filament [Wires](Draft_Wire.md) într-o funcți
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

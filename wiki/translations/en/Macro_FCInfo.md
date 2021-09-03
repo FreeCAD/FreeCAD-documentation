@@ -159,13 +159,13 @@ Image:Macro\_FCInfo\_04.png\|Docked to rigth, Image:Macro FCInfo 05.png\|or left
 
 ## Options
 
-### The unit used {#the_unit_used}
+### The unit used 
 
-#### Length unit: {#length_unit}
+#### Length unit: 
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
-#### Angle degrees : {#angle_degrees}
+#### Angle degrees : 
 
 1.  **decimal degree**, ex: 174.831872611°
 2.  degree minute seconde, ex: 174° 49\' 54.741401\'\'
@@ -187,7 +187,7 @@ click twice to see the animation (the image must be in full screen)
 
 
 
-#### Weight unit : {#weight_unit}
+#### Weight unit : 
 
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
 lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct

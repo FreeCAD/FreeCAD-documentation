@@ -12,7 +12,7 @@ El ambiente de trabajo Trayectoria ofrece herramientas para importar, crear, man
 
 El ambiente de trabajo Trayectoria está actualmente en fase de desarrollo, y no ofrece todas las funciones avanzadas que se encuentran en algunas alternativas comerciales. Sin embargo, la interfaz de scripts de Python facilita la modificación o el desarrollo de herramientas más potentes.
 
-## Inicio rapido {#inicio_rapido}
+## Inicio rapido 
 
 Los objectos trayectoria de FreeCAD son hechos de una secuencia de comandos de movimiento. Un uso típico es este:
 
@@ -28,7 +28,7 @@ Los objectos trayectoria de FreeCAD son hechos de una secuencia de comandos de m
 >>> print p.toGCode()
 ```
 
-## El formato GCode interno de FreeCAD {#el_formato_gcode_interno_de_freecad}
+## El formato GCode interno de FreeCAD 
 
 Un concepto preliminar es importante para comprenter.La mayoría de la implementación debajo, se relaciona fuertemente en comandos de movimientos, pero no significa que tiene que ser apegados a una implementación de controlador. Nosotros elegimos nombres tal como \'G0\' para representar movimiento\'rapido\' o \'G1\' para representar movimiento \'avance\' para rendimiento (guardado de archivo eficiente) y para minimizar el trabajo necesario para traducir de un formato de código G a otro. Desde que el mundo de CNC habla miles de dialetos de código G, nosotros estar junto a un subconjunto muy simplificado de este. Tu podrias describir el formato de código G de FreeCAD como una forma de \"agnostica de maquina\" para código G.
 
@@ -36,7 +36,7 @@ Inside .FCStd files, Path data is saved directly into that GCode form.
 
 All translations to/from dialects to FreeCAD GCode are done through pre and post scripts. That means that if you want to work with a machine that uses a specific LinuxCNC, Fanuc, Mitusubishi, or HAAS controller etc, you will have to use (or write if inexistant) a post processor for that particular control (see the \"Importing and exporting GCode\" section below).
 
-### Referencia GCode {#referencia_gcode}
+### Referencia GCode 
 
 The following rules and guidelines define the GCode subset used internally in FreeCAD:
 
@@ -61,7 +61,7 @@ The following rules and guidelines define the GCode subset used internally in Fr
 -   X, Y, or Z (and A, B, C) can be omitted. In this case, the previous X, Y or Z coordinates are maintained.
 -   Gcode commands other than the ones listed in the table below are supported, that is, they are saved inside the path data (as long as they comply to the rules above, of course), but they simply won\'t produce any visible result on screen. For example, you could add a G81 command, it will be stored, but not displayed.
 
-### Lista de comandos GCode actualmente soportados {#lista_de_comandos_gcode_actualmente_soportados}
+### Lista de comandos GCode actualmente soportados 
 
   Command         Description                                     Supported Arguments   Displayed
   --------------- ----------------------------------------------- --------------------- -----------
@@ -75,7 +75,7 @@ The following rules and guidelines define the GCode subset used internally in Fr
   G91             relative coordinates                                                  
   (Message)       comment                                                               
 
-## El objeto Comando {#el_objeto_comando}
+## El objeto Comando 
 
 The Command object represents a gcode command. It has three attributes: Name, Parameters and Placement, and two methods: toGCode() and setFromGCode(). Internally, it contains only a name and a dictionary of parameters. The rest (placement and gcode) is computed to/from this data.
 
@@ -138,7 +138,7 @@ Command G1 [ X:10 ]
 Command G1 [ X:10 Y:2 ]
 ```
 
-## El objeto Trayectoria {#el_objeto_trayectoria}
+## El objeto Trayectoria 
 
 The Path object holds a list of commands
 
@@ -194,7 +194,7 @@ As a shortcut, a Path object can also be created directly from a full GCode sequ
 Path [ size:2 length:2 ]
 ```
 
-## La caracteristica Trayectoria {#la_caracteristica_trayectoria}
+## La caracteristica Trayectoria 
 
 The Path feature is a FreeCAD document object, that holds a path, and represents it in the 3D view.
 
@@ -215,7 +215,7 @@ However, Path Compounds can make use of the Placement of their children (see bel
 
 <div class="mw-translate-fuzzy">
 
-## La Herramienta y tabla de herramientas objetos {#la_herramienta_y_tabla_de_herramientas_objetos}
+## La Herramienta y tabla de herramientas objetos 
 
 
 </div>
@@ -263,7 +263,7 @@ Tooltable containing 2 tools
 
 ## Características
 
-### La característica del Compuesto de Trayectoria {#la_característica_del_compuesto_de_trayectoria}
+### La característica del Compuesto de Trayectoria 
 
 The aim of this feature is to gather one or more toolpaths and associate it (them) with a tooltable. The Compound feature also behaves like a standard FreeCAD group, so you can add or remove objects to/from it directly from the tree view. You can also reorder items by double-clicking the Compound object in the Tree view, and reorder its elements in the Task view that opens.
 
@@ -284,7 +284,7 @@ An important feature of Path Compounds is the possibility to take into account t
 
 Creating a compound with just one child path allows you therefore to turn the child path\'s Placement \"real\" (it affects the Path data).
 
-### The Path Project feature {#the_path_project_feature}
+### The Path Project feature 
 
 The Path project is an extended kind of Compound, that has a couple of additional machine-related properties such as a tooltable. It is made mainly to be the main object type you\'ll want to export to gcode once your whole path setup is ready. The Project object is now coded in python, so its creation mechanism is a bit different:
 
@@ -306,7 +306,7 @@ The Path module also features a GUI tooltable editor that can be called from pyt
 >>> TooltableEditor.edit(o4)
 ```
 
-### Obtención de la trayectoria de la forma {#obtención_de_la_trayectoria_de_la_forma}
+### Obtención de la trayectoria de la forma 
 
 Assign the shape of wire Part to a normal Path object, using Path.fronShape() script function (or more powerful Path.fronShapes()). By giving as parameter a wire Part object, its path will be automatically calculated from the shape. Note that in this case the placement is automatically set to the first point of the wire, and the object is therefore not movable anymore by changing its placement. To move it, the underlying shape itself must be moved.
 
@@ -326,13 +326,13 @@ Assign the shape of wire Part to a normal Path object, using Path.fronShape() sc
 >>> print(p.toGCode())
 ```
 
-### Características de Python {#características_de_python}
+### Características de Python 
 
 Both Path::Feature and Path::FeatureShape features have a python version, respectively named Path::FeaturePython and Path::FeatureShapePython, that can be used in python code to create more advanced parametric objects derived from them.
 
-## Importación y exportación de GCode {#importación_y_exportación_de_gcode}
+## Importación y exportación de GCode 
 
-### Formato nativo {#formato_nativo}
+### Formato nativo 
 
 GCode files can be directly imported and exported via the GUI, by using the \"open\", \"insert\" or \"export\" menu items. After the file name is acquired, a dialog pops up to ask which processing script must be used. It can also be done from python:
 
@@ -363,7 +363,7 @@ myfile.close()
 
 If you need a different output, though, you will need to convert this agnostic GCode into a format suited for your machine. That is the job of post-processing scripts.
 
-### Using pre- and post-processing scripts {#using_pre__and_post_processing_scripts}
+### Using pre- and post-processing scripts 
 
 If you have a gcode file written for a particular machine, which doesn\'t comply to the internal rules used by FreeCAD, described in the \"FreeCAD\'s internal GCode format\" section above, it might fail to import and/or render properly in the 3D view. To remedy to this, you must use a pre-processing script, which will convert from your machine-specific format to the FreeCAD format.
 
@@ -383,7 +383,7 @@ import example_post
 example_post.export (myObjectName,"/path/to/outputFile.ncc")
 ```
 
-### Writing processing scripts {#writing_processing_scripts}
+### Writing processing scripts 
 
 Pre- and post-processing scripts behave like other common FreeCAD imports/exporters. When choosing a pre/post processing script from the dialog, the import/export process will be redirected to the specified given script. Preprocessing scripts must contain at least the following methods open(filename) and insert(filename,docname). Postprocessing scripts need to implement export(objectslist,filename).
 
@@ -417,7 +417,7 @@ def open(filename):
 
 Pre- and post-processors work exactly the same way. They just do the contrary: The pre scripts convert from specific GCode to FreeCAD\'s \"agnostic\" GCode, while post scripts convert from FreeCAD\'s \"agnostic\" GCode to machine-specific GCode.
 
-## Añadir todas las caras de una CadenaForma a la lista de CaracterísticaBase de una operación PerfilDeCaras {#añadir_todas_las_caras_de_una_cadenaforma_a_la_lista_de_característicabase_de_una_operación_perfildecaras}
+## Añadir todas las caras de una CadenaForma a la lista de CaracterísticaBase de una operación PerfilDeCaras 
 
 This example is based on a [discussion in the german forum](https://forum.freecadweb.org/viewtopic.php?f=13&t=33310&p=279991#p279959).
 
@@ -433,7 +433,7 @@ This example is based on a [discussion in the german forum](https://forum.freeca
 -   Create a Job using this solid as its BaseObject
 -   Create a ProfileFromFaces operation named \"Profile\_Faces\" with empty BaseGeometry.
 
-### El código {#el_código}
+### El código 
 
 The following code will then add all faces from ShapeString and create the paths:
 

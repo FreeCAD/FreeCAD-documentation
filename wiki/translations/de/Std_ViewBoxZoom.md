@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Beschreibung {#beschreibung_1}
+## Beschreibung 
 
 Die Größe des zu vergrößernden Bereichs werden mit einem Rechteck in der 3D-Ansicht festlegt.
 
@@ -24,7 +24,7 @@ Die Größe des zu vergrößernden Bereichs werden mit einem Rechteck in der 3D-
 
 <div class="mw-translate-fuzzy">
 
-## Anwendung {#anwendung_1}
+## Anwendung 
 
 1.  Wähle **Ansicht** → **Zoom** → **<img src="images/Std_ViewBoxZoom.png" width=32px> Zoomen mit Rechteck** aus der Menüleiste oder drücke **Strg** + **B**.
 2.  Gib den zu vergrößernden Bereich mit einem Rechteck in der 3D-Ansicht an.

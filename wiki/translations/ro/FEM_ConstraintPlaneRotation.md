@@ -11,7 +11,7 @@ Creează o constrângere FEM pentru păstrarea nodurilor în același plan
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

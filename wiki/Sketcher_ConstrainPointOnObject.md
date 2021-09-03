@@ -18,7 +18,7 @@ Affixes a point onto another object such as a line, arc, or sketch axis.
 3.  Invoke the **Constrain point onto object** tool using several methods:
     -   Press the **<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Point on object](Sketcher_ConstrainPointOnObject.md)** button in the toolbar.
     -   Use the **Shift** + **O** keyboard shortcut.
-    -   Use the {{MenuCommand|Sketch → Sketcher constraints → Constrain point onto object}} entry in the top menu.
+    -   Use the **Sketch → Sketcher constraints → Constrain point onto object** entry in the top menu.
 
 **Note:** The order you select the line and point does not matter. The point will always move to line. In other words, the line remains fixed.
 

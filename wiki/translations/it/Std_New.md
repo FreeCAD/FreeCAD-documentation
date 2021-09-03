@@ -9,12 +9,12 @@ Il comando **Nuovo** crea un nuovo documento vuoto e lo rende il documento attiv
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_New.svg" width=16px> '''Nuovo'''**.
-    -   Selezionare l\'opzione {{MenuCommand|File → <img src="images/Std_New.svg" width=16px> Nuovo}} dal menu.
+    -   Selezionare l\'opzione **File → <img src="images/Std_New.svg" width=16px> Nuovo** dal menu.
     -   Usare la scorciatoia da tastiera: **Ctrl**+**N**.
 
 ## Preferenze
 
--   FreeCAD crea un nuovo documento all\'avvio se {{MenuCommand|Strumenti → Modifica parametri... → BaseApp → Preferenze → Documento → CreateNewDoc}} è impostato su `True`. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
+-   FreeCAD crea un nuovo documento all\'avvio se **Strumenti → Modifica parametri... → BaseApp → Preferenze → Documento → CreateNewDoc** è impostato su `True`. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
 -   Alcune proprietà del documento: nome dell\'autore, nome dell\'azienda e le informazioni sulla licenza, possono essere preimpostate nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
 
 ## Proprietà

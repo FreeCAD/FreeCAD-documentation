@@ -17,7 +17,7 @@ Lo strumento [Staffe armatura](Arch_Rebar_Stirrup/it.md) consente all\'utente di
 
 Lo strumento **Staffe armatura** è anche integrato in [BIM](BIM_Workbench/it.md).
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;"> 
 *Un set di staffe di rinforzo all'interno di una [Struttura](Arch_Structure/it.md)*
@@ -119,7 +119,7 @@ Rebar = Stirrup.makeStirrup(20, 20, 20, 20, 20,
                             115, 4, 8, 2, True, 10, Structure, "Face6")
 ```
 
-### Modifica delle barre {#modifica_delle_barre}
+### Modifica delle barre 
 
 È possibile modificare le proprietà dell\'armatura con la seguente funzione: 
 ```python

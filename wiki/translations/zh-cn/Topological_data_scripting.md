@@ -15,7 +15,7 @@
 
 Here we will explain to you how to control the [Part](Part_Workbench.md) module directly from the FreeCAD Python interpreter, or from any external script. Be sure to browse the [Scripting](Scripting.md) section and the [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) pages if you need more information about how Python scripting works in FreeCAD. If you are new to Python, it is a good idea to first read the [Introduction to Python](Introduction_to_Python.md).
 
-### See also {#see_also}
+### See also 
 
 -   [Part scripting](Part_scripting.md)
 -   [OpenCASCADE](OpenCASCADE.md)
@@ -95,7 +95,7 @@ The following topological data types are available:
 
 <div class="mw-translate-fuzzy">
 
-### 简易示例 ：创建简单拓扑结构 {#简易示例_创建简单拓扑结构}
+### 简易示例 ：创建简单拓扑结构 
 
 
 </div>

@@ -11,7 +11,7 @@ Toto je obsáhlý, i když ne kompletní, seznam charakteristických vlastností
 
 {{TOCright}}
 
-## Poznámky k verzím {#poznámky_k_verzím}
+## Poznámky k verzím 
 
 
 <div class="mw-translate-fuzzy">
@@ -23,7 +23,7 @@ Toto je obsáhlý, i když ne kompletní, seznam charakteristických vlastností
 
 </div>
 
-## Klíčové vlastnosti {#klíčové_vlastnosti}
+## Klíčové vlastnosti 
 
 
 <div class="mw-translate-fuzzy">
@@ -44,7 +44,7 @@ Toto je obsáhlý, i když ne kompletní, seznam charakteristických vlastností
 
 <div class="mw-translate-fuzzy">
 
-## Základní charakteristiky {#základní_charakteristiky}
+## Základní charakteristiky 
 
 
 </div>
@@ -249,7 +249,7 @@ Toto je obsáhlý, i když ne kompletní, seznam charakteristických vlastností
 
 </div>
 
-## Ve vývoji {#ve_vývoji}
+## Ve vývoji 
 
 
 <div class="mw-translate-fuzzy">
@@ -259,7 +259,7 @@ Toto je obsáhlý, i když ne kompletní, seznam charakteristických vlastností
 
 </div>
 
-## Extra Workbenches {#extra_workbenches}
+## Extra Workbenches 
 
 Power users have created various custom [external workbenches](external_workbenches.md).
 

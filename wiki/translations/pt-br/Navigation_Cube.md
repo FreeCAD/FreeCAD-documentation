@@ -20,13 +20,13 @@ Se você colocar o ponteiro do mouse sobre uma entidade no cubo de navegação, 
 
 ![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
 
-## Setas direcionais {#setas_direcionais}
+## Setas direcionais 
 
 Há seis setas direcionais: quatro setas triangulares, na parte superior, inferior, esquerda e direita; e duas setas curvas, uma de cada lado da seta superior.
 
 Clicando nas setas triangulares, a vista 3D girará 45 graus em torno de uma linha perpendicular à direção da seta. Clicando nas setas curvas, a vista 3D será girada em torno de uma linha que aponta na sua direção.
 
-## Cubo Principal de Navegação {#cubo_principal_de_navegação}
+## Cubo Principal de Navegação 
 
 O cubo de navegação principal (\"cubo de navegação\" no restante desta seção) segue a orientação do objeto na vista 3D principal. Qualquer operação que reoriente a visualização principal em 3D também reorientará o cubo de navegação.
 
@@ -46,29 +46,29 @@ Não é possível:
 
 Nota: No momento de escrever (v 0.18), o cubo de navegação tem alguns problemas. Nem todas as características são atualmente selecionáveis. Em particular, as bordas não podem ser selecionadas, nem os quatro cantos da face imediatamente oposta.
 
-### Seleção de Faces {#seleção_de_faces}
+### Seleção de Faces 
 
 Clicando em uma faceta orientará a visualização em 3D com essa faceta específica voltada para você. Como mencionado acima, há outros pontos de seleção disponíveis na visão facial. Há quatro \"barras\" finas em cada uma das bordas externas, representando as quatro facetas adjacentes; clicando nestas, seleciona-se a vista correspondente à faceta adjacente. Quatro cantos arredondados podem ser usados para definir a visão axonométrica correspondente. Há também um conjunto interno de bordas e cantos, que atualmente não são funcionais.
 
-### Seleção de bordas {#seleção_de_bordas}
+### Seleção de bordas 
 
 Infelizmente, a seleção de bordas está atualmente quebrada. A tentativa de selecionar uma borda selecionará a face por trás dela. Ao clicar em uma borda, você deve centralizá-la de modo que ela esteja de frente para você.
 
-### Seleção de cantos {#seleção_de_cantos}
+### Seleção de cantos 
 
 Clicando em um dos cantos você terá uma visão axonométrica a partir daquele canto. Como mencionado acima, atualmente, quando um rosto está diretamente voltado para você, os cantos desse rosto não podem ser selecionados.
 
-## Menu mini-cubo {#menu_mini_cubo}
+## Menu mini-cubo 
 
 No canto inferior direito do cubo de navegação está um pequeno cubo. Clicando neste cubo, aparecerá um menu que você pode usar para mudar o tipo de vista (Ortográfica, Perspectiva, Isométrica) e para \"Zoom to Fit\".
 
-## Movendo a exibição do cubo de navegação {#movendo_a_exibição_do_cubo_de_navegação}
+## Movendo a exibição do cubo de navegação 
 
 Você pode mover toda a estrutura de controle do cubo de navegação para outro local na tela 3D, pressionando o mouse em qualquer lugar no cubo de navegação principal e arrastando. A estrutura não começará a se mover até que o ponteiro do mouse tenha passado a borda do cubo de navegação principal.
 
 ## Configuração
 
-O cubo de navegação é configurável, incluindo o ajuste de seu tamanho: {{MenuCommand|Editar → Preferências... → Tela → Navegação → Cubo de Navegação }} <small>(v0.19)</small> .
+O cubo de navegação é configurável, incluindo o ajuste de seu tamanho: **Editar → Preferências... → Tela → Navegação → Cubo de Navegação ** <small>(v0.19)</small> .
 
 
 <div class="mw-translate-fuzzy">

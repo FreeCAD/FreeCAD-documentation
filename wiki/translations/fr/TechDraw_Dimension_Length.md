@@ -28,7 +28,7 @@ L\'outil Longueur ajoute une dimension linéaire à une vue. La dimension peut �
 
 Pour modifier les propriétés d\'un objet de dimension, double-cliquez dessus dans le dessin ou dans la [Vue en arborescence](Tree_view/fr.md). Cela ouvrira le dialogue Dimension:
 
-## Boîte de dialogue Dimension {#boîte_de_dialogue_dimension}
+## Boîte de dialogue Dimension 
 
 La boîte de dialogue des dimensions propose les paramètres suivants :
 
@@ -44,7 +44,7 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 -   **Undertolerance**: La valeur de combien la dimension peut être plus petite.
 
-### Mise en forme {#mise_en_forme}
+### Mise en forme 
 
 -   **Format Specifier**: comment la valeur de dimension sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
 
@@ -56,7 +56,7 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 -   **Arbitrary Tolerance Text**: Si coché, les tolérances sont remplacées par le contenu des champs **OverTolerance Format Specifier** **UnderTolerance Format Specifier**.
 
-### Style d\'affichage {#style_daffichage}
+### Style d\'affichage 
 
 -   **Flip Arrowheads**: Inverse la direction dans laquelle les flèches de la ligne de cote pointent. Par défaut, elles sont à l\'intérieur de la ligne de cote/de l\'arc et pointent vers l\'extérieur.
 
@@ -228,7 +228,7 @@ Cela signifie qu\'en général, il n\'est pas possible de garder les cotes 2D pr
 
 Si vous souhaitez conserver une vue TechDraw avec des dimensions inaltérables, vous devez dimensionner un objet qui ne changera pas.
 
--   Sélectionnez l\'objet que vous souhaitez projeter, puis basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) et utilisez {{MenuCommand|Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Créer une copie simple](Part_SimpleCopy/fr.md)}}. Cela créera un seul objet non paramétrique, c\'est-à-dire qu\'il ne sera plus modifiable.
+-   Sélectionnez l\'objet que vous souhaitez projeter, puis basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) et utilisez **Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Créer une copie simple](Part_SimpleCopy/fr.md)**. Cela créera un seul objet non paramétrique, c\'est-à-dire qu\'il ne sera plus modifiable.
 -   Sélectionnez cette copie, puis utilisez [TechDraw Vue](TechDraw_View/fr.md) et ajoutez les dimensions souhaitées.
 -   Si le modèle 3D d\'origine est modifié, les modifications n\'affecteront pas la copie simple ni les dimensions de la vue TechDraw.
 

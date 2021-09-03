@@ -10,15 +10,15 @@
 
 Após instalar o FreeCAD para seu sistema operacional ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) ou [Mac](Installing_on_Mac.md)), você pode considerar a instalação de um ou mais dos seguintes componentes adicionais.
 
-# Arquivos de ajuda {#arquivos_de_ajuda}
+# Arquivos de ajuda 
 
 A documentação offline não é enviada com todos os instaladores, mas está disponível como um pacote separado. Consulte a página [Instalando o arquivo de ajuda](Installing_Helpfile/pt-br.md) para mais informações.
 
-# Bancadas de trabalho externas {#bancadas_de_trabalho_externas}
+# Bancadas de trabalho externas 
 
 Além das [bancadas de trabalho](workbenches/pt-br.md) padronizadas, agrupadas com o FreeCAD, há uma grande coleção de [bancadas de trabalho externas](External_workbenches/pt-br.md) úteis feitas por membros da comunidade.
 
-# Componente de software de terceiros {#componente_de_software_de_terceiros}
+# Componente de software de terceiros 
 
 O FreeCAD suporta vários pacotes de software de terceiros prontos para uso. Em muitos casos tudo o que você precisa fazer é instalar o software, e quando o FreeCAD for reiniciado, ele o encontrará automaticamente e poderá usá-lo. Esta seção visa fornecer uma lista de tais pacotes de software, juntamente com algumas informações sobre onde eles são usados no FreeCAD e onde podem ser baixados.
 
@@ -46,7 +46,7 @@ O FreeCAD suporta vários pacotes de software de terceiros prontos para uso. Em 
 
 </div>
 
-## Formatos de arquivo {#formatos_de_arquivo}
+## Formatos de arquivo 
 
 Todos os softwares desta seção serão utilizados pelas ferramentas [Importar Std](Std_Import/pt-br.md) ou [Exportar Std](Std_Export/pt-br.md).
 
@@ -54,7 +54,7 @@ Todos os softwares desta seção serão utilizados pelas ferramentas [Importar S
 
 [CADExchanger](https://cadexchanger.com) é uma aplicação comercial para a conversão de vários formatos de arquivo CAD. Existe um [bancada de trabalho externo](https://github.com/yorikvanhavre/CADExchanger) para usar este aplicativo no FreeCAD.
 
-### Importador DXF {#importador_dxf}
+### Importador DXF 
 
 FreeCAD tem um importador e exportador nativo para arquivos DXF, programados em C++. Atualmente eles não implementam todas as características do formato DXF. Para essas características, o importador e exportador Python legado ainda estão disponíveis. Estes requerem a biblioteca [Draft-dxf-importador](https://github.com/yorikvanhavre/Draft-dxf-importer) Python. Consulte a página [FreeCAD and DXF Import](FreeCAD_and_DXF_Import.md) para mais informações.
 
@@ -70,7 +70,7 @@ FreeCAD tem um importador e exportador nativo para arquivos DXF, programados em 
 
 O suporte para [LibreDWG](https://www.gnu.org/software/libredwg) ainda é experimental. Como o conversor de arquivos ODA, ele pode converter arquivos DWG para DXF que o FreeCAD pode então importar. Veja a página [FreeCAD e Importação DWG](FreeCAD_and_DWG_Import/pt-br.md) para mais informações.
 
-### ODA File Converter {#oda_file_converter}
+### ODA File Converter 
 
 O [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) é um aplicativo gratuito para converter entre várias versões de arquivos DWG e DXF. O FreeCAD requer este conversor, ou LibreDWG, para importar arquivos DWG. Veja a página [FreeCAD e Importação DWG](FreeCAD_and_DWG_Import/pt-br.md) para mais informações.
 
@@ -100,7 +100,7 @@ O [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter)
 
 </div>
 
-### POV-Ray {#pov_ray}
+### POV-Ray 
 
 
 <div class="mw-translate-fuzzy">
@@ -110,7 +110,7 @@ O [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter)
 
 </div>
 
-## Elemento finito {#elemento_finito}
+## Elemento finito 
 
 ### CalculiX
 
@@ -142,7 +142,7 @@ O [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter)
 
 [OpenFOAM](https://openfoam.org) é uma grande coleção de bibliotecas para simulações de dinâmicas de fluidos computacionais (CFD). O OpenFOAM é usado pelo [Cfd](Cfd_Workbench/pt-br.md) e [CfdOF](https://github.com/jaheyns/CfdOF) [Bancadas de trabalho externas](external_workbenches/pt-br.md).
 
-# Páginas relacionadas {#páginas_relacionadas}
+# Páginas relacionadas 
 
 -   [Importar Exportar](Import_Export/pt-br.md)
 -   [Preferências de exportação de importação](Import_Export_Preferences/pt-br.md)

@@ -33,7 +33,7 @@ En plus des propriétés décrites dans [App DocumentObject](App_DocumentObject/
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets crées par script peuvent avoir.
 
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande {{MenuCommand|Show all}} dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
 
 ### Données
 
@@ -59,7 +59,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property
 
 -    {{PropertyData/fr|Label|String}}: le nom modifiable par l\'utilisateur de cet objet, il s\'agit d\'une chaîne UTF8 arbitraire.
 
-##### Propriétés cachées de Données {#propriétés_cachées_de_données}
+##### Propriétés cachées de Données 
 
 -    {{PropertyData/fr|Proxy|PythonObject|Hidden}}: une classe personnalisée associée à cet objet. Cela n\'existe que pour la version [Python](Python/fr.md). Voir [Script](App_GeoFeature/fr#Script.md).
 
@@ -125,7 +125,7 @@ obj = App.ActiveDocument.addObject("App::GeoFeature", "Name")
 obj.Label = "Custom label"
 ```
 
-Cette `App::GeoFeature` de base n\'a pas de fournisseur de vue par défaut donc aucune icône ne sera affichée dans la [vue arborescente](tree_view/fr.md) et aucune propriété {{MenuCommand|View}} ne sera disponible.
+Cette `App::GeoFeature` de base n\'a pas de fournisseur de vue par défaut donc aucune icône ne sera affichée dans la [vue arborescente](tree_view/fr.md) et aucune propriété **View** ne sera disponible.
 
 Par conséquent, pour les scripts [Python](Python/fr.md), sous-classe, vous devriez créer l\'objet `Part::GeometryPython`.
 

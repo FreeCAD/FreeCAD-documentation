@@ -26,13 +26,13 @@ Lorsque plusieurs murs doivent se croiser, vous devez les placer sur un [niveau]
 
 ## Utilisation
 
-### Dessiner un mur de zéro {#dessiner_un_mur_de_zéro}
+### Dessiner un mur de zéro 
 
 1.  Pressez le bouton **<img src="images/Arch_Wall.svg" width=16px> [Créer un objet mur...](Arch_Wall/fr.md)** ou pressez les touches **W** puis **A**.
 2.  Cliquez le premier point dans la vue 3D ou rentrez des coordonnées. [Draft ](Draft_Coordinates/fr.md).
 3.  Cliquez le second point dans la vue 3D ou rentrez des coordonnées.
 
-### Dessinez un mur sur un objet sélectionné {#dessinez_un_mur_sur_un_objet_sélectionné}
+### Dessinez un mur sur un objet sélectionné 
 
 1.  Sélectionnez un ou plusieurs objets géométriques de base (objet Draft, esquisse, etc)
 2.  Cliquez sur le bouton **<img src="images/Arch_Wall.svg" width=16px> [Créer un objet mur...](Arch_Wall/fr.md)** ou pressez les touches **W** et **A**.
@@ -53,7 +53,7 @@ Lorsque plusieurs murs doivent se croiser, vous devez les placer sur un [niveau]
 -   Les murs peuvent également utiliser [Matériaux multiples](Arch_MultiMaterial/fr.md). Lors de l\'utilisation d\'un multi-matériau, le mur deviendra multi-couche, en utilisant les épaisseurs spécifiées par le multi-matériau. Toute couche d\'épaisseur zéro verra son épaisseur définie automatiquement par l\'espace restant défini par la valeur Largeur du mur, après avoir soustrait les autres couches.
 -   Les murs peuvent être conçus pour afficher des blocs, au lieu d\'un seul solide, en activant leur propriété {{PropertyData/fr|Make Blocks}}. La taille et le décalage des blocs peuvent être configurés avec différentes propriétés, et la quantité de blocs est automatiquement calculée. {{Version/fr|0.18}}
 
-## Accrochage (Snapping) {#accrochage_snapping}
+## Accrochage (Snapping) 
 
 L\'accrochage (Snapping) fonctionne un peu différemment avec les murs Arch par rapport aux autres objets Arch et Draft. Si un mur a un objet de ligne de base, l\'accrochage s\'ancrera à l\'objet de base, au lieu de la géométrie de mur, permettant d\'aligner facilement les murs par leur ligne de base. Si, cependant, vous souhaitez spécifiquement accrocher à la géométrie du mur, appuyez sur **Ctrl** pour basculer l\'accrochage à l\'objet mur.
 

@@ -12,7 +12,7 @@ La commande **Std Rétablir** ferme le document actif et rouvre la dernière ver
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Fichier → <img src="images/Std_Revert.svg" width=16px> Rétablir}} dans le menu.
+1.  Sélectionnez l\'option **Fichier → <img src="images/Std_Revert.svg" width=16px> Rétablir** dans le menu.
 2.  Appuyez sur le bouton **Oui** dans la boîte de dialogue pour confirmer que vous souhaitez perdre toutes les modifications depuis la dernière sauvegarde du fichier.
 
 ## Options

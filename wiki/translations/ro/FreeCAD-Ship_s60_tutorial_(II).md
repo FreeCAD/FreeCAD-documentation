@@ -43,7 +43,7 @@ OMI (Organizația Maritimă Internațională) stabilește următoarele criterii:
 
 </div>
 
-## Încărcarea navei {#încărcarea_navei}
+## Încărcarea navei 
 
 Pentru a putea calcula curba GZ trebuie să cunoaștem greutățile navei și poziția lor la fiecare unghi de rotire, astfel încât greutățile vor fi împărțite în două categorii:
 
@@ -120,7 +120,7 @@ Cisternele/rezervoarele trebuie să fie create pe partea de sus a geometriei sol
 
 </div>
 
-### Generarea geometriei {#generarea_geometriei}
+### Generarea geometriei 
 
 Pentru a genera rezervoare, încărcăm [Part module](Part_Workbench.md) și creăm o cutie solidă.
 
@@ -153,7 +153,7 @@ In order to convert geometry into a ussual solid shape our tanks, and recover ou
 
 We can delete created Box, that we don\'t need anymore.
 
-### Generarea exemplelor de rezervoare {#generarea_exemplelor_de_rezervoare}
+### Generarea exemplelor de rezervoare 
 
 Dacă reîncărcați [ FreeCAD-Ship module](Ship_Workbench.md) încă o dată, putem găsi unealtă generator de variante de rezervor.
 
@@ -192,7 +192,7 @@ Figure shown our ship result that we will compute.
 
 <div class="mw-translate-fuzzy">
 
-### Calculul curbei GZ {#calculul_curbei_gz}
+### Calculul curbei GZ 
 
 FreeCAD-Ship furnizează un instrument pentru a calcula cu ușurință o curbă \"GZ\".
 

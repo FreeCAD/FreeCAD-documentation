@@ -24,15 +24,15 @@ Siehe auch die folgende Seite für einige Videos über das Ausrichten von Fenste
 
 1\. Öffne FreeCAD, erstelle ein neues, leeres Dokument und wechsel zum [Architektur-Arbeitsbereich](Arch_Workbench/de.md).
 
-2\. Stelle sicher, dass Deine Einheiten im Menü {{MenuCommand|Bearbeiten → Einstellungen → Allgemein → Einheiten}} korrekt eingestellt sind. Zum Beispiel ist `MKS (m/kg/s/Grad)` gut geeignet, um mit den Abständen in einem typischen Gebäude umzugehen; setze außerdem die Anzahl der Nachkommastellen auf `4`, um auch die kleinsten Teile eines Meters zu berücksichtigen.
+2\. Stelle sicher, dass Deine Einheiten im Menü **Bearbeiten → Einstellungen → Allgemein → Einheiten** korrekt eingestellt sind. Zum Beispiel ist `MKS (m/kg/s/Grad)` gut geeignet, um mit den Abständen in einem typischen Gebäude umzugehen; setze außerdem die Anzahl der Nachkommastellen auf `4`, um auch die kleinsten Teile eines Meters zu berücksichtigen.
 
-3\. Benutze die Schaltfläche **<img src="images/Draft_Grid.svg" width=16px> [Entwurfsraster ein-/ausschalten](Draft_ToggleGrid/de.md)**, um ein Raster mit ausreichender Auflösung einzublenden. Das Erscheinungsbild des Rasters kannst Du im Menü {{MenuCommand|Bearbeiten → Einstellungen → Draft → Raster und einrasten → Raster}} ändern. Setze \"Hauptlinien alle\" auf `20`, \"Rasterabstand\" auf `50 mm` und \"Rastergröße\" auf `1000 Linien` (das Raster wird damit eine Fläche von 50m x 50m abdecken).
+3\. Benutze die Schaltfläche **<img src="images/Draft_Grid.svg" width=16px> [Entwurfsraster ein-/ausschalten](Draft_ToggleGrid/de.md)**, um ein Raster mit ausreichender Auflösung einzublenden. Das Erscheinungsbild des Rasters kannst Du im Menü **Bearbeiten → Einstellungen → Draft → Raster und einrasten → Raster** ändern. Setze \"Hauptlinien alle\" auf `20`, \"Rasterabstand\" auf `50 mm` und \"Rastergröße\" auf `1000 Linien` (das Raster wird damit eine Fläche von 50m x 50m abdecken).
 
 4\. [Zoome im 3D-Ansichtsfenster heraus](Std_ViewZoomOut/de.md), wenn Du zu nahe am Raster bist.
 
 Jetzt sind wir bereit, ein einfaches Gebäude mit geschlossenen Wänden, 2 Türen und 2 Fenstern zu erstellen.
 
-## Wände erstellen {#wände_erstellen}
+## Wände erstellen 
 
 5\. Benutze das [Draft:Drahtwerkzeug](Draft_Wire/de.md), um einen geschlossenen Linienzug zu erstellen. Gehe gegen den Uhrzeigersinn vor.
 
@@ -58,7 +58,7 @@ Jetzt sind wir bereit, ein einfaches Gebäude mit geschlossenen Wänden, 2 Türe
 <img alt="" src=images/02_T01_just_wall.png  style="width:600px;"> 
 *align=center|Die aus dem Linienzug konstruierten Wände*
 
-## Türen und Fenster platzieren {#türen_und_fenster_platzieren}
+## Türen und Fenster platzieren 
 
 8\. Klicke auf das Werkzeug [Arch:Fenster](Arch_Window/de.md), wähle die Voreinstellung (preset) `Simple door` aus und ändere die Höhe auf 2 m.
 
@@ -110,7 +110,7 @@ Beim Platzieren eines Fensters oder einer Tür mittels der Voreinstellung (prese
 
 Mitunter wird das Fenster außerhalb der [Wand](Arch_Wall/de.md) platziert. Solange es jedoch parallel zu dieser Wand ist, solltest Du imstande sein, seine Position manuell zu korrigieren.
 
-## Die Türen öffnen {#die_türen_öffnen}
+## Die Türen öffnen 
 
 10\. Wähle im Modellbaum den unter `Tür` liegenden `Sketch` und drücke **Space** oder ändere die Eigenschaft **Visibility** auf `True`
 
@@ -150,7 +150,7 @@ Mitunter wird das Fenster außerhalb der [Wand](Arch_Wall/de.md) platziert. Sola
 <img alt="" src=images/09_T01_window_symbol_plan.png  style="width:600px;"> 
 *align=center|Tür mit Öffnungssymbol im Grundriss*
 
-## Die Fenster öffnen {#die_fenster_öffnen}
+## Die Fenster öffnen 
 
 15\. Wähle im Modellbaum den unter `Window` liegenden `Sketch002` und drücke **Space** oder ändere die Eigenschaft **Visibility** auf `True`.
 
@@ -185,7 +185,7 @@ Mitunter wird das Fenster außerhalb der [Wand](Arch_Wall/de.md) platziert. Sola
 <img alt="" src=images/11_T01_window_all_symbol_top.png  style="width:600px;"> 
 *align=center|Auf- und Grundriss-Symbole für alle Elemente, Draufsicht*
 
-## Erstellung eines Grundrissplans des Gebäudes {#erstellung_eines_grundrissplans_des_gebäudes}
+## Erstellung eines Grundrissplans des Gebäudes 
 
 20\. Noch im [Architektur-Arbeitsbereich](Arch_Workbench/de.md) wähle im Modellbaum alle Elemente, also die [Wände](Arch_Wall/de.md), die beiden [Fenster](Arch_Window/de.md) und die beiden [Türen](Arch_Door/de.md), aus. Benutze anschließend das [Schnittebenen-Werkzeug](Arch_SectionPlane/de.md), um ein `Section`-Element zu erstellen.
 
@@ -219,7 +219,7 @@ Setze **All On** für [TechDraw:ArchView](TechDraw_ArchView.md)-Objekte auf `Tru
 <img alt="" src=images/13_T01_TechDraw_window_all_symbols_higher.png  style="width:600px;"> 
 *align=center|Schnittansicht des Gebäudes, mit einer zweiten Schnittdarstellung, Format DIN A4 , Maßstab 1:50*
 
-## Erstellung einer Aufriss-Projektion des Gebäudes {#erstellung_einer_aufriss_projektion_des_gebäudes}
+## Erstellung einer Aufriss-Projektion des Gebäudes 
 
 25\. Gehe zurück zum [Architektur-Arbeitsbereich](Arch_Workbench/de.md). wähle im Modellbaum alle Elemente, also die [Wände](Arch_Wall/de.md), die beiden [Fenster](Arch_Window/de.md) und die beiden [Türen](Arch_Door/de.md), aus. Benutze anschließend das [Schnittebenen-Werkzeug](Arch_SectionPlane/de.md), um ein drittes `Section002` - Element zu erstellen.
 
@@ -234,7 +234,7 @@ Setze **All On** für [TechDraw:ArchView](TechDraw_ArchView.md)-Objekte auf `Tru
 <img alt="" src=images/14_T01_TechDraw_window_all_symbols_elevation.png  style="width:600px;"> 
 *align=center|Schnittansicht des Gebäudes, mit zwei Draufsichten und einem Aufriss, Format DIN A4, Maßstab 1:50*
 
-## Interaktion zwischen Arch- und TechDraw-Arbeitsbereichen {#interaktion_zwischen_arch__und_techdraw_arbeitsbereichen}
+## Interaktion zwischen Arch- und TechDraw-Arbeitsbereichen 
 
 Zum Zeitpunkt der Erstellung dieses Dokumentes (FreeCAD 0.18, November 2018) kann der [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) in seinen Seiten nur das darstellen, was der [Arch-Arbeitsbereich](Arch_Workbench/de.md) als [SVG](SVG/de.md) ausgibt. Das heißt, dass das Erscheinungsbild der mit dem [Arch: Schnittebenen-Werkzeug](Arch_SectionPlane/de.md) eingefügten und durch das Werkzeug [TechDraw:Arch-Ansicht](TechDraw_ArchView/de.md) dargestellten Elemente vom [Arch-Arbeitsbereich](Arch_Workbench/de.md) kontrolliert wird.
 

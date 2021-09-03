@@ -15,7 +15,7 @@ Sélectionne l\'origine d\'une esquisse.
 ## Utilisation
 
 1.  Entrez le mode d\'édition de l\'esquisse.
-2.  Choisir {{MenuCommand|Sketch → Outils d'esquisse → <img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Sélectionnez l'origine}} dans le menu principal.
+2.  Choisir **Sketch → Outils d'esquisse → <img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Sélectionnez l'origine** dans le menu principal.
 3.  L\'origine de l\'esquisse sera sélectionnée.
 
 

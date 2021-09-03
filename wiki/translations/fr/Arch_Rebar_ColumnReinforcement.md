@@ -14,7 +14,7 @@ L\'outil [Renfort de colonnes](Arch_Rebar_Circular_ColumnReinforcement/fr.md) pe
 
 L\'outil [Rebar Armature en colonne](Arch_Rebar_ColumnReinforcement.md) est également intégré dans [atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
 *Renfort de colonne à l'intérieur d'une colonne [Arch Structure](Arch_Structure/fr.md)*
@@ -129,7 +129,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 L'outil Renfort de colonne (ColumnReinforcement) peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
-### Création d\'un seul cadre pour quatre armatures {#création_dun_seul_cadre_pour_quatre_armatures}
+### Création d\'un seul cadre pour quatre armatures 
 
 
 ```python
@@ -279,7 +279,7 @@ RebarGroup = SingleTie.makeSingleTieFourRebars(
 
 ```
 
-### Création d\'un seul cadre pour plusieurs armatures {#création_dun_seul_cadre_pour_plusieurs_armatures}
+### Création d\'un seul cadre pour plusieurs armatures 
 
 
 ```python
@@ -356,7 +356,7 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `sec_hook_extension`est un tuple (xdir\_hook\_extension, ydir\_hook\_extension) qui définit la longueur du crochet des armatures secondaires en forme de L en direction x et y.
 
-#### Exemple {#exemple_1}
+#### Exemple 
 
 
 ```python
@@ -403,7 +403,7 @@ RebarGroup = SingleTieMultipleRebars.makeSingleTieMultipleRebars(
 
 ```
 
-### Édition d\'un seul étrier pour quatre armatures {#édition_dun_seul_étrier_pour_quatre_armatures}
+### Édition d\'un seul étrier pour quatre armatures 
 
 Vous pouvez modifier les propriétés des étriers et des armatures avec la fonction suivante:
 
@@ -441,7 +441,7 @@ rebar_group = editSingleTieFourRebars(
 
 -    `structure`et `facename` peuvent être omis afin que l\'armature reste dans la structure d\'origine.
 
-#### Exemple {#exemple_2}
+#### Exemple 
 
 
 ```python
@@ -473,7 +473,7 @@ rebar_group = SingleTie.editSingleTieFourRebars(
 
 ```
 
-### Édition d\'un seul étrier pour plusieurs armatures {#édition_dun_seul_étrier_pour_plusieurs_armatures}
+### Édition d\'un seul étrier pour plusieurs armatures 
 
 Vous pouvez modifier les propriétés des étriers et des armatures avec la fonction suivante:
 
@@ -518,7 +518,7 @@ rebar_group = editSingleTieMultipleRebars(
 
 -    `structure`et `facename` peuvent être omis afin que l\'armature reste dans la structure d\'origine.
 
-#### Exemple {#exemple_3}
+#### Exemple 
 
 
 ```python

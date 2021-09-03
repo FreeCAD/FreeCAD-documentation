@@ -13,13 +13,13 @@
 
 This macro will present the user with a dialog to provide the distance between centers, the number of sides, and height and will create a prism based on the apothem, or inradius of a polygon. This can be extremely handy when one only knows the distance between flats. An example of this would be hexagonal stock of plastics or metal provided by vendors. Most vendors define such stock by the distance between flats. If one is using such stock in their projects, this Macro can be a real time saver.
 
-## How To Use {#how_to_use}
+## How To Use 
 
 Copy the Macro into your FreeCAD Macro directory. Then either run the macro from the Execute Macro dialog or create a shortcut to use from your custom toolbar.
 
 When run, the Macro wil present the user with a dialog like seen below. First enter the desired distance between flats. This can be any number and can include a decimal value, it will not take fractional input. Next enter the number of sides. This number is a whole number and should be an even number as well for proper results. Lastly enter the height you wish the prism to be. Again, this can be any number and can include a decimal value. Click OK and the prism will be created in your document. ![](images/ABP_Screenshot.png )
 
-## The Macro {#the_macro}
+## The Macro 
 
 ToolBar Icon ![](images/Part_Prism_Apothem.svg )
 

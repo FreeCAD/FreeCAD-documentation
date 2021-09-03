@@ -18,7 +18,7 @@ The Horizontal Constraint forces a selected line or lines in the sketch to be pa
 
 <div class="mw-translate-fuzzy">
 
-## Como usar {#como_usar}
+## Como usar 
 
 
 </div>

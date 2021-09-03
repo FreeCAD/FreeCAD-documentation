@@ -31,7 +31,7 @@ The macro you can find in the following github repository: [GMSH Macro](https://
 
 
 
-## Additional Installations {#additional_installations}
+## Additional Installations 
 
 GMSH has to be installed. See [gmsh.info](http://gmsh.info/). The macro is intended to run on Linux, OSX and Windows operating system. The binary path of GMSH has to be adapted in the macro.
 

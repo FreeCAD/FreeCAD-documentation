@@ -121,19 +121,23 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). The info
 <img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Users hub](User_hub.md): このページには、FreeCADユーザ全員に便利なドキュメントが含まれています：すべてのワークベンチの一覧、FreeCADアプリケーションのインストール方法と使用方法、チュートリアル、および必要なものについての詳細な説明が含まれています。
 
 
-{{Clear}}
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub.md): このページには、上級ユーザーやPythonスクリプトの作成に興味のある人のためのドキュメントが集められています。また、マクロのリポジトリ、それらをインストールして使用する方法、およびあなたの特定のニーズに合わせてFreeCADをカスタマイズする方法の詳細もご覧いただけます。 {{Clear}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Developers hub](Developer_hub.md): このセクションでは、FreeCADを自分でコンパイルする方法、FreeCADのソースコードがどのように構造化されているか、どのようにナビゲートするか、新しいワークベンチを開発する方法、FreeCADを独自のアプリケーションに埋め込む方法について説明します。 {{Clear}}
+
+
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub.md): このページには、上級ユーザーやPythonスクリプトの作成に興味のある人のためのドキュメントが集められています。また、マクロのリポジトリ、それらをインストールして使用する方法、およびあなたの特定のニーズに合わせてFreeCADをカスタマイズする方法の詳細もご覧いただけます。 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Developers hub](Developer_hub.md): このセクションでは、FreeCADを自分でコンパイルする方法、FreeCADのソースコードがどのように構造化されているか、どのようにナビゲートするか、新しいワークベンチを開発する方法、FreeCADを独自のアプリケーションに埋め込む方法について説明します。 
+
 
 
 </div>
 
-## マニュアル {#マニュアル_1}
+## マニュアル 
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual:Introduction.md) は、このwikiに含まれる情報を表現するもう一つのより線形な方法です。 それは本のように読まれるように作られ、上のハブから他の多くのページにあなたを穏やかに紹介します。 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) も利用できます。また、[a couple of translations in pdf format](https://www.freecadweb.org/manual/) {{Clear}} FreeCADマニュアルはFreeCADの使用についての最先端のドキュメントを提供するためにコミュニティの努力のもと常に作業が行われており、既に複数の言語で利用可能です。まだマニュアルには多くの情報が欠けています。遠慮せずに参加と[貢献を行ってください](Help_FreeCAD/jp.md)！
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual:Introduction.md) は、このwikiに含まれる情報を表現するもう一つのより線形な方法です。 それは本のように読まれるように作られ、上のハブから他の多くのページにあなたを穏やかに紹介します。 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) も利用できます。また、[a couple of translations in pdf format](https://www.freecadweb.org/manual/) 
+ FreeCADマニュアルはFreeCADの使用についての最先端のドキュメントを提供するためにコミュニティの努力のもと常に作業が行われており、既に複数の言語で利用可能です。まだマニュアルには多くの情報が欠けています。遠慮せずに参加と[貢献を行ってください](Help_FreeCAD/jp.md)！
 
 +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md)   | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) |
@@ -160,9 +164,9 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). The info
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
 +----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
-## 参加しよう {#参加しよう_1}
+## 参加しよう 
 
-### 参加方法 {#参加方法_1}
+### 参加方法 
 
 
 <div class="mw-translate-fuzzy">
@@ -180,7 +184,7 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). The info
 
 </div>
 
-### ソースコード {#ソースコード_1}
+### ソースコード 
 
 
 <div class="mw-translate-fuzzy">
@@ -190,7 +194,7 @@ FreeCADはcMakeまたはautotoolsを使ってコンパイルすることがで�
 
 </div>
 
-### 開発について {#開発について_1}
+### 開発について 
 
 
 <div class="mw-translate-fuzzy">

@@ -16,11 +16,11 @@ La commande **Std Boîte de délimitation** bascule le mode de surbrillance du c
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_SelBoundingBox.svg" width=16px> [Std SelBoundingBox](Std_SelBoundingBox.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → <img src="images/Std_SelBoundingBox.svg" width=16px> Bounding box}} dans le menu.
+    -   Sélectionnez l\'option **Affichage → <img src="images/Std_SelBoundingBox.svg" width=16px> Bounding box** dans le menu.
 
 ## Préférences
 
-Le mode en question est stocké: {{MenuCommand|Outils → Editer paramètres... → BaseApp → Preferences → View → ShowSelectionBoundingBox}}. Il s\'agit d\'une valeur booléenne, la valeur par défaut est `False`.
+Le mode en question est stocké: **Outils → Editer paramètres... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. Il s\'agit d\'une valeur booléenne, la valeur par défaut est `False`.
 
 ## Script
 

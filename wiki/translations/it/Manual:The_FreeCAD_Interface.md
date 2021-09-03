@@ -6,7 +6,7 @@
 
 {{Manual:TOC/it}}
 
-FreeCAD utilizza il [framework Qt](https://en.wikipedia.org/wiki/Qt_(software)) per disegnare e gestire la sua interfaccia. Questa struttura viene utilizzata in una vasta gamma di applicazioni, perciò l\'interfaccia di FreeCAD è molto classica e non presenta particolari difficoltà di comprensione. La maggior parte dei pulsanti sono standard e si trovano dove ci si aspetta che siano {{MenuCommand|File → Apri, Modifica → Incolla, ecc}}. Ecco l\'aspetto di FreeCAD quando lo si apre per la prima volta, subito dopo l\'installazione, e mostra il centro di partenza:
+FreeCAD utilizza il [framework Qt](https://en.wikipedia.org/wiki/Qt_(software)) per disegnare e gestire la sua interfaccia. Questa struttura viene utilizzata in una vasta gamma di applicazioni, perciò l\'interfaccia di FreeCAD è molto classica e non presenta particolari difficoltà di comprensione. La maggior parte dei pulsanti sono standard e si trovano dove ci si aspetta che siano **File → Apri, Modifica → Incolla, ecc**. Ecco l\'aspetto di FreeCAD quando lo si apre per la prima volta, subito dopo l\'installazione, e mostra il centro di partenza:
 
 ![](images/FreeCAD-v0-18-FirstStart.png )
 
@@ -16,7 +16,7 @@ Dopo un po\' di tempo, quando si ha maggiore familiarità con FreeCAD, si posson
 
 ![](images/FreeCAD-v0-18-NewProject.png )
 
-### Gli ambienti di lavoro {#gli_ambienti_di_lavoro}
+### Gli ambienti di lavoro 
 
 Notare che tra le due schermate precedenti alcune delle icone sono cambiate. Questo è il momento in cui entra in gioco il concetto più importante utilizzato nell\'interfaccia di FreeCAD: gli ambienti di lavoro.
 
@@ -40,7 +40,7 @@ Diamo uno sguardo alle diverse parti dell\'interfaccia:
 
 è dove gli oggetti con cui si lavora sono disegnati e manipolati. È possibile avere più viste dello stesso documento (o degli stessi oggetti) o più documenti aperti contemporaneamente. Ognuna di queste viste può essere sganciata individualmente dalla finestra principale. È possibile selezionare oggetti o parti di oggetti facendo clic su di essi, quindi è possibile eseguire panoramiche, zoomare e ruotare la vista con i pulsanti del mouse. Questo è spiegato ulteriormente nel prossimo capitolo.
 
-Oltre al pannello di visualizzazione 3D, sono disponibili i seguenti pannelli di informazioni. Possono essere resi visibili o nascosti selezionandoli da {{MenuCommand|Visualizza → Pannelli}}. Il nome del pannello appare nell\'angolo in alto a sinistra del pannello quando viene visualizzato:
+Oltre al pannello di visualizzazione 3D, sono disponibili i seguenti pannelli di informazioni. Possono essere resi visibili o nascosti selezionandoli da **Visualizza → Pannelli**. Il nome del pannello appare nell\'angolo in alto a sinistra del pannello quando viene visualizzato:
 
 -   **La vista combinata** ha due schede:
     -   La scheda Modello propone i contenuti e la struttura del documento nella parte superiore e le proprietà (o parametri) dell\'oggetto selezionato (i) nella parte inferiore. Queste proprietà sono divise in due categorie:
@@ -57,7 +57,7 @@ Oltre al pannello di visualizzazione 3D, sono disponibili i seguenti pannelli di
 
 ![](images/FreeCAD-v0-18-ExtrudeTask.png )
 
-### Personalizzare l\'interfaccia {#personalizzare_linterfaccia}
+### Personalizzare l\'interfaccia 
 
 L\'interfaccia di FreeCAD è altamente personalizzabile. Tutti i pannelli e le barre degli strumenti possono essere spostati in luoghi diversi o impilati uno sull\'altro. Quando è necessario possono anche essere chiusi e riaperti dal menu Visualizza o facendo clic destro su un\'area vuota dell\'interfaccia. Inoltre sono disponibili molte altre opzioni, come la creazione di barre degli strumenti personalizzate contenenti gli strumenti di uno qualsiasi degli ambienti, o l\'assegnazione e la modifica dei tasti di scelta rapida.
 

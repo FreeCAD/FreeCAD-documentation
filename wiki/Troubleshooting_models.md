@@ -2,7 +2,7 @@
 
 This page is to help find solutions to problems that can occur across multiple modeling commands. Errors specific to a certain command should be put on the appropriate wiki page for the command.
 
-## Troubleshooting FAQ {#troubleshooting_faq}
+## Troubleshooting FAQ 
 
 **Part Turns Black**
 

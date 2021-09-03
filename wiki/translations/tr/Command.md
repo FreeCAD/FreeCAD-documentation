@@ -46,7 +46,7 @@ FreeCAD komutlarının birçoğu kullanıcı etkileşimi gerektirdiğinden, sade
 
 Komutlar, C ++ veya Python\'da tanımlanabilir.
 
-## Commands defined in C++ {#commands_defined_in_c}
+## Commands defined in C++ 
 
 
 <div class="mw-translate-fuzzy">
@@ -87,7 +87,7 @@ CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
-## Commands defined in Python {#commands_defined_in_python}
+## Commands defined in Python 
 
 
 <div class="mw-translate-fuzzy">

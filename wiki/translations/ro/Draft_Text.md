@@ -39,7 +39,7 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-## Mod de utilizare {#mod_de_utilizare}
+## Mod de utilizare 
 
 1.  Apăsaţi butonul **<img src="images/Draft_Text.png" width=16px> [Draft Text](Draft_Text/ro.md)** ori apăsaţi tasta **T**, apoi tasta **E**.
 2.  Daţi clic în fereastra de vizualizare 3D sau introduceţi [coordonatele](Draft_Coordinates/ro.md).
@@ -149,7 +149,7 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 <div class="mw-translate-fuzzy">
 
-## Script-Programre {#script_programre}
+## Script-Programre 
 
 Instrumentul Text poate fi folosit în [macro-uri](macros/ro.md) şi de la consola Python cu ajutorul funcţiei următoare:
 

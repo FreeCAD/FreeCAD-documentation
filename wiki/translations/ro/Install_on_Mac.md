@@ -36,7 +36,7 @@ If there are any issues with the HomeBrew Cask or Formula you may report them to
 
 Această pagină descrie utilizarea și caracteristicile instalatorului FreeCAD. De asemenea, include instrucțiuni de dezinstalare. După ce ați instalat, puteți [get started](Getting_started.md)!
 
-### Instalarea simpla {#instalarea_simpla}
+### Instalarea simpla 
 
 Programul de instalare FreeCAD este furnizat ca pachet app (.app) inclus în fișierul imagine
 

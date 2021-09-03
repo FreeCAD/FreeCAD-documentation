@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Informacje ogólne {#informacje_ogólne}
+## Informacje ogólne 
 
 Przez lata było wiele dyskusji o różnicach i konsekwencjach używania środowisk pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) i <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
 
@@ -8,7 +8,7 @@ Dobrym pomysłem jest używanie jednego lub drugiego, dopóki użytkownik nie b�
 
 Porozmawiajmy o tych konsekwencjach.
 
-## Koncepcje środowiska Część {#koncepcje_środowiska_część}
+## Koncepcje środowiska Część 
 
 Środowisko pracy Część jest zasadniczo [Konstrukcyjną geometrią bryły CSG ](Constructive_solid_geometry/pl.md). Operator łączy różne bryły pierwotne, aby w końcu otrzymać reprezentację pożądanego kształtu. *(W rzeczywistości, środowisko Część idzie o krok dalej niż tylko bryły pierwotne i pozwala operatorowi na użycie operacji szkic + wyciągnięcie (lub szkic + odwrócenie, pochylenie, omiatanie \...)*, aby utworzyć losowe kształty również)\'\'. Kiedy każda bryła pierwotna lub kształt jest tworzony, nie ma żadnego związku z innymi utworzonymi obiektami *(z wyjątkiem szkiców i ich załączników)*, jest to pojedyncza bryła.
 
@@ -18,7 +18,7 @@ Ten stan utrzymuje się do momentu, gdy operator użyje jakiejś operacji do ich
 
 Chodzi o pojedyncze elementy brył i ich łączenie.
 
-## Koncepcje środowiska Projekt Części {#koncepcje_środowiska_projekt_części}
+## Koncepcje środowiska Projekt Części 
 
 W środowisku pracy Projekt Części obiekt Zawartość jest konstruowany bezpośrednio jako pojedyncza zwarta bryła.
 

@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 {{FYI}}
@@ -27,13 +27,13 @@ The Part Design Workbench has many equivalent functions to SolidWorks, though ma
 
 List of helpful tutorials
 
-### Joko Engineering {#joko_engineering}
+### Joko Engineering 
 
 There are many video tutorials online. One of the most popular (at the time this was written) is by a Youtuber calling himself [**Joko Engineering**](https://www.youtube.com/channel/UC-CubOaooNwC-3RBKUoAOQQ/videos) (he also participates on the FreeCAD Forum as Celica\_Supra ([profile link](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=22176)).
 
 ## Related
 
-### Forum Threads {#forum_threads}
+### Forum Threads 
 
 -   [Anyone willing to collaborate on writing guides for users coming from other CAD/CAM solutions to FreeCAD?](https://forum.freecadweb.org/viewtopic.php?f=8&t=42139&p=366957#p357540)
 -   [Extreme Difficulty coming from Autodesk Inventor 2019.](https://forum.freecadweb.org/viewtopic.php?f=3&t=42980#p366121)

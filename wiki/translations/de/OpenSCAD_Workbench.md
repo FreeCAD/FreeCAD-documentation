@@ -43,7 +43,7 @@ Die allgemeine Installation auf allen Plattformen kann über den Python Paketind
 pip3 install --user ply
 ```
 
-## OpenSCAD Sprache und Dateiformat {#openscad_sprache_und_dateiformat}
+## OpenSCAD Sprache und Dateiformat 
 
 Die OpenSCAD Sprache erlaubt die Benutzung von Variablen und Schleifen. Sie erlaubt die Deklarierung von Sub Modulen, um Geometrie und Code wieder zu verwenden. Dieser hohe Grad an Flexibilität macht parsing (Übersetzen) sehr kompliziert. Im Moment kann der OpenSCAD Arbeitsbereich in FreeCAD die OpenSCAD Sprache nicht direkt verarbeiten. Andernfalls, wenn OpenSCAD installiert ist, kann es dazu verwendet werden, die Eingabe in ein Ausgabeformat namens \"CSG\" zu verwandeln. Dies ist ein Unterbereich der OpenSCAD Sprache und kann als Eingabe für OpenSCAD zur weiteren Bearbeitung verwendet werden. Während der Umwandlung wird jegliches parametrisches Verhalten verlorengehen - alle Variablennamen werden verworfen, Schleifen aufgelöst und mathematische Ausdrücke errechnet.
 
@@ -79,7 +79,7 @@ OpenSCAD nutzt intern Netz-Körper. Manche Operationen, die bei Netz-Körpern n�
 
 Wenn [DXF](DXF/de.md) importiert wird, sollte die \"Draft Präzision\" auf einen sinnvollen Wert eingestellt werden, um so die Erkennung von verbundenen Kanten zu erleichtern.
 
-Wenn FreeCAD beim Import von CSG abstürzt, wird dringend empfohlen, \"Modell automatisch nach Boolescher Operation überprüfen\" im Menü {{MenuCommand|Bearbeiten → Einstellungen → Part Design → Allgemein}} zu aktivieren.
+Wenn FreeCAD beim Import von CSG abstürzt, wird dringend empfohlen, \"Modell automatisch nach Boolescher Operation überprüfen\" im Menü **Bearbeiten → Einstellungen → Part Design → Allgemein** zu aktivieren.
 
 ## Tutorien
 

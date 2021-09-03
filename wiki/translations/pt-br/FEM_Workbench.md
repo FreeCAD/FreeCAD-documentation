@@ -20,7 +20,7 @@ A [ bancada FEM](FEM_Workbench/pt-br.md) fornece um fluxo de trabalho moderno de
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
-## Fluxo de Trabalho {#fluxo_de_trabalho}
+## Fluxo de Trabalho 
 
 Os passos para realizar uma análise de elementos finitos são:
 
@@ -39,7 +39,7 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 {{Caption | Fluxo de trabalho da bancada FEM; a bancada chama dois programas externos para realizar o meshing de um objeto sólido e executa a solução real do problema do elemento finito}}
 
-## Menu: Modelo {#menu_modelo}
+## Menu: Modelo 
 
 -   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> [Contêiner de análise](FEM_Analysis/pt-br.md): Cria um novo contêiner de análise mecânica. Se um sólido é selecionado na árvore de visualização antes de clicar nele, a janela de malha vai ser aberta em seguida.
 
@@ -55,7 +55,7 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> [Editor de materiais](Material_editor/pt-br.md):: Permite que você abra o editor de materiais para editar materiais.
 
-### Geometria do Elemento {#geometria_do_elemento}
+### Geometria do Elemento 
 
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Seção transversal da viga](FEM_ElementGeometry1D/pt-br.md)
 
@@ -65,17 +65,17 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Seção do fluido para fluxo 1D](FEM_ElementFluid1D/pt-br.md)
 
-### Restrições Eletrostáticas {#restrições_eletrostáticas}
+### Restrições Eletrostáticas 
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Restrição de potencial eletrostático](FEM_ConstraintElectrostaticPotential/pt-br.md)
 
-### Restrições do Fluido {#restrições_do_fluido}
+### Restrições do Fluido 
 
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Restrição de velocidade inicial do fluxo](FEM_ConstraintInitialFlowVelocity/pt-br.md):
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Restrição da velocidade de fluxo](FEM_ConstraintFlowVelocity/pt-br.md)
 
-### Restrições Geométrica {#restrições_geométrica}
+### Restrições Geométrica 
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Restrição rotação plana](FEM_ConstraintPlaneRotation/pt-br.md): Usada para definir uma restrição de rotação plana em uma face plana.
 
@@ -83,7 +83,7 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/Fem-constraint-transform.svg  style="width:32px;"> [Restrição de transformar](FEM_ConstraintTransform/pt-br.md): Usado para definir uma restrição de transformação em um rosto.
 
-### Restrições Mecânicas {#restrições_mecânicas}
+### Restrições Mecânicas 
 
 -   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Restrição fixa](FEM_ConstraintFixed/pt-br.md): Usada para definir uma restrição fixa em um ponto, aresta ou face.
 
@@ -99,7 +99,7 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Restrição de peso próprio](FEM_ConstraintSelfWeight/pt-br.md): Usada para definir uma aceleração da gravidade agindo sobre um modelo.
 
-### Restrições Térmicas {#restrições_térmicas}
+### Restrições Térmicas 
 
 -   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Restrição de temperatura inicial](FEM_ConstraintInitialTemperature/pt-br.md): Usada para definir a temperatura inicial de um corpo.
 
@@ -109,7 +109,7 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Restrição de fonte de corpo quente](FEM_ConstraintBodyHeatSource.md)
 
-### Restrições sem solução {#restrições_sem_solução}
+### Restrições sem solução 
 
 -   <img alt="" src=images/Fem-constraint-fluid-boundary.svg  style="width:32px;"> [Restrição de fronteira de fluido](FEM_ConstraintFluidBoundary/pt-br.md)
 
@@ -119,11 +119,11 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Restrição de polia](FEM_ConstraintPulley/pt-br.md): Usada para definir uma restrição de polia.
 
-### Sobreescrever Restrições {#sobreescrever_restrições}
+### Sobreescrever Restrições 
 
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Permissividade de vácuo constante](FEM_ConstantVacuumPermittivity/pt-br.md): <small>(v0.19)</small> 
 
-## Menu: Malhas {#menu_malhas}
+## Menu: Malhas 
 
 -   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Malha FEM da forma pelo Netgen](FEM_MeshNetgenFromShape/pt-br.md)
 
@@ -139,7 +139,7 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Malha FEM para Mesh](FEM_FemMesh2Mesh/pt-br.md): Converte a superfície de uma malha FEM para uma malha de Mesh.
 
-## Menu: Solucionador {#menu_solucionador}
+## Menu: Solucionador 
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solucionador Calculix CCX](FEM_SolverCalculixCxxtools/pt-br.md): Cria um novo solucionador para esta análise. Na maioria dos casos, o solucionador é criado junto com a análise.
 
@@ -167,7 +167,7 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 -   <img alt="" src=images/FEM_SolverRun.svg  style="width:32px;"> [Executar solucionador de cálculo](FEM_SolverRun/pt-br.md): Executa o solucionador selecionado das análises ativas.
 
-## Menu: Resultados {#menu_resultados}
+## Menu: Resultados 
 
 -   <img alt="" src=images/FEM_ResultsPurge.svg  style="width:32px;"> [Limpar resultados](FEM_ResultsPurge/pt-br.md): Deleta os resultados das análises ativas.
 
@@ -195,7 +195,7 @@ o menu para ajustar e iniciar o solucionador selecionado.
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;">
     -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;">
 
-## Menu: Utilidades {#menu_utilidades}
+## Menu: Utilidades 
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width:32px;"> [Plano de grampeamento na face](FEM_ClippingPlaneAdd/pt-br.md):
 
@@ -203,7 +203,7 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width:32px;"> [Exemplos de FEM abertos](FEM_Examples/pt-br.md): Abra a GUI para acessar exemplos FEM.
 
-## Menu de Contexto {#menu_de_contexto}
+## Menu de Contexto 
 
 -   <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> [Malha FEM transparente](FEM_MeshClear/pt-br.md): Deleta o arquivo de malha do arquivo FreeCAD. Útil para fazer um arquivo FreeCAD mais leve.
 
@@ -253,7 +253,7 @@ Tutoriais em vídeo: [Vídeo FEM para iniciantes](https://forum.freecadweb.org/v
 
 Muitos tutoriais em vídeo: [anisim Software de Engenharia de Código Aberto](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (em Alemão)
 
-## Ampliação da bancada de trabalho FEM {#ampliação_da_bancada_de_trabalho_fem}
+## Ampliação da bancada de trabalho FEM 
 
 O bancada de trabalho FEM está em constante desenvolvimento. Um objetivo do projeto é encontrar maneiras de interagir facilmente com vários solucionadores FEM, para que o usuário final possa agilizar o processo de criação, enredamento, simulação e otimização de um problema de projeto de engenharia, tudo dentro do FreeCAD.
 
@@ -270,7 +270,7 @@ Um guia do desenvolvedor foi escrito para ajudar os usuários a entenderem a com
 -   [Visualização antecipada do ebook: Guia do desenvolvedor do módulo para a fonte FreeCAD](https://forum.freecadweb.org/viewtopic.php?t=17581) (tópico do fórum)
 -   [Guia de desenvolvimento do FreeCAD Mod](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) (repositório github)
 
-## Ampliação da documentação do bancada de trabalho FEM {#ampliação_da_documentação_do_bancada_de_trabalho_fem}
+## Ampliação da documentação do bancada de trabalho FEM 
 
 -   Mais informações sobre a extensão ou falta de documentação FEM podem ser encontradas no fórum: [Documentação FEM em falta no Wiki](https://forum.freecadweb.org/viewtopic.php?f=18&t=20823)
 

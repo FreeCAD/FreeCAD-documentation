@@ -4,7 +4,7 @@ FreeCAD 0.18 est sorti le 12 mars 2019, à télécharger sur la page [Téléchar
 
 Les notes de versions de FreeCAD sont disponibles dans la [liste des fonctionnalités](Feature_list/fr#Notes_de_versions.md).
 
-## Points forts {#points_forts}
+## Points forts 
 
 Outils [TechDraw](#Atelier_TechDraw.md) étendus.
 
@@ -30,21 +30,21 @@ Outils [Arch (architecture) et BIM (Building information modeling)](#Atelier_Arc
 ## Généralités
 
 -   Centre de démarrage (Start) repensé
--   L\'arborescence du document (onglet Modèle) propose désormais 3 options d\'affichage de tous les documents, avec les options définies dans le menu {{MenuCommand|Affichage → Arborescence du document}} :
+-   L\'arborescence du document (onglet Modèle) propose désormais 3 options d\'affichage de tous les documents, avec les options définies dans le menu **Affichage → Arborescence du document** :
     -   Document unique (Affiche uniquement le document actuellement actif)
     -   Multi Document (Affiche tous les documents tels qu\'ils étaient auparavant jusqu\'à FreeCAD 0.17)
     -   Réduire/Développer (développe le document actif et réduit tous les autres)
 -   Lorsqu\'une tâche est active et requiert une saisie de l\'utilisateur, une icône représentant un crayon apparaît maintenant dans l\'onglet Tâches et disparaît à la fin de la tâche.
--   La vue 3D bénéficie désormais d\'un nouveau **[Cube de navigation](Navigation_Cube/fr.md)** pour orienter rapidement la vue. Il comporte également un petit menu pour définir la projection orthographique ou en perspective, ainsi que pour adapter le contenu à la vue. L\'emplacement du cube de navigation peut être défini dans {{MenuCommand|Préférences → Affichage → Vue 3D}} et il peut également être masqué.
+-   La vue 3D bénéficie désormais d\'un nouveau **[Cube de navigation](Navigation_Cube/fr.md)** pour orienter rapidement la vue. Il comporte également un petit menu pour définir la projection orthographique ou en perspective, ainsi que pour adapter le contenu à la vue. L\'emplacement du cube de navigation peut être défini dans **Préférences → Affichage → Vue 3D** et il peut également être masqué.
 -   La prise en charge du système d\'unités des États-Unis ingénierie civile / transport a été ajouté. Ces unités incluent ft, ft\^2, ft\^3, mph et angles en degrés/minutes/secondes. Ces unités permettent d'exprimer les pieds sous forme décimale, contrairement à Construction US, qui force des fractions de pouce.
--   Il est maintenant possible de spécifier une image d\'arrière-plan personnalisée pour la fenêtre principale de FreeCAD en utilisant l\'option [{{MenuCommand|Préférences → Général → Activer l'arrière-plan en mosaïque}}](Preferences_Editor/fr#Général.md).
+-   Il est maintenant possible de spécifier une image d\'arrière-plan personnalisée pour la fenêtre principale de FreeCAD en utilisant l\'option [**Préférences → Général → Activer l'arrière-plan en mosaïque**](Preferences_Editor/fr#Général.md).
 
 <File:Start> center 0.18 screenshot.jpg\|thumb\|left\|Le Start center repensé <File:FC018> Navigation Cube.png\|thumb\|left\|Le cube de navigation <File:FreeCAD> with background image.jpg\|thumb\|left\|FreeCAD avec une image d\'arrière-plan personnalisée
 
 
 
 
-## Atelier Arch (Architecture) {#atelier_arch_architecture}
+## Atelier Arch (Architecture) 
 
 ![ 700px \| thumb \| right \| L\'atelier Arch au travail](images/_Arch_release018_example.jpg )
 
@@ -65,7 +65,7 @@ Outils [Arch (architecture) et BIM (Building information modeling)](#Atelier_Arc
 
 -   Mais il y a beaucoup plus ! Consultez le [rapports de développement Arch / BIM](https://github.com/yorikvanhavre/BIM_Workbench/wiki) pour voir tout ce qui y a été fait cette année.
 
-## Atelier Draft (Planche à dessin) {#atelier_draft_planche_à_dessin}
+## Atelier Draft (Planche à dessin) 
 
 ![ 700px \| thumb \| right \| Outils d\'annotation Draft plus précis](images/_Draft_release018_example.jpg )
 
@@ -80,11 +80,11 @@ Outils [Arch (architecture) et BIM (Building information modeling)](#Atelier_Arc
 
 
 
-## Atelier FEM {#atelier_fem}
+## Atelier FEM 
 
 <img alt="Le dialogue Matériau FEM optimisé" src=images/FEM-Material-dialog-018.png  style="width:300px;"> En v0.17, des quantités de fonctionnalités nouvelles ont été ajoutées à FEM. Aussi, l'objectif principal de FEM dans la version 0.18 de FreeCAD n'a pas été d'ajouter encore de nouvelles fonctionnalités et outils, mais de rendre les outils existants plus stables et de corriger autant que possible les bogues. FEM a reçu 470 rectificatifs au cours du cycle de développement de FreeCAD 0.18 [1](https://forum.freecadweb.org/viewtopic.php?f=10&t=13154&p=297292#p297110).
 
-### Améliorations générales sur la base du code {#améliorations_générales_sur_la_base_du_code}
+### Améliorations générales sur la base du code 
 
 -   Quantité de corrections de bugs.
 -   Code révisé et nettoyé. Suppression du code en double.
@@ -103,25 +103,25 @@ Outils [Arch (architecture) et BIM (Building information modeling)](#Atelier_Arc
 
 La gestion des matériaux a été améliorée. Il est maintenant possible d\'utiliser l\'éditeur global de matériaux FreeCAD. Voir aussi les [fiches Matériau](Release_notes_0.18/fr#Manipulation_des_matériaux.md). Pour cela, le panneau de travail Matériau FEM a été optimisé.
 
-## Atelier Part (Pièce) {#atelier_part_pièce}
+## Atelier Part (Pièce) 
 
 -   L\'outil [Vérifier la géométrie](Part_CheckGeometry/fr.md) ouvre maintenant une petite fenêtre avec une barre de progression et un bouton **Annuler** pour terminer la tâche si cela prend trop de temps.
 -   Le nouvel outil [Defeaturing](Defeaturing_Workbench/fr.md) est basé sur l\'outil du même nom inclus dans OCCT 7.3.0. On peut supprimer des attributs sélectionnés sur un solide, tels que des trous, des protubérances, des espaces, des chanfreins, des congés, etc. Pour plus d\'informations, voir l\'article sur la [modélisation de modèle 3D](https://dev.opencascade.org/index.php?q=node/1211) sur le site Web de OCCT. Veuillez noter que si FreeCAD est construit sur une version plus ancienne que OCTCT 7.3.0, cet outil ne sera pas disponible et sera grisé.
 
 -   Le nouvel outil [SliceApart (trancheur)](Part_SliceApart/fr.md) est basé sur le composant [Slice to Compound (Scinder en composants)](Part_Slice/fr.md) et comprend un découpeur automatique de composant permettant de fractionner facilement des objets.
 
-## Atelier PartDesign (Conception de pièces) {#atelier_partdesign_conception_de_pièces}
+## Atelier PartDesign (Conception de pièces) 
 
 -   Le nouvel outil [Système de coordonnées](PartDesign_CoordinateSystem/fr.md) permet désormais l\'ajout d\'une visualisation du système de coordonnées locales par rapport à un ou plusieurs objets de référence.
 
-## Atelier Path {#atelier_path}
+## Atelier Path 
 
-### Améliorations générales {#améliorations_générales}
+### Améliorations générales 
 
 -   Le chemin peut maintenant afficher correctement le gcode avec les termes d\'axe ABC
 -   Améliorations de l\'éditeur Outils - Édition simplifiée pour des types d\'outils sélectifs
 
-### Amélioration de la Tâche (Job) {#amélioration_de_la_tâche_job}
+### Amélioration de la Tâche (Job) 
 
 -   Les travaux (jobs) peuvent maintenant avoir plusieurs objets de base
 -   L\'organisation des conteneurs de travail (jobs) a été améliorée
@@ -136,12 +136,12 @@ La gestion des matériaux a été améliorée. Il est maintenant possible d\'uti
 -   RampEntry Dressup (rampe d\'entrée d\'usinage) a maintenant un point de départ configurable
 -   L\'opération PocketShape (forme en poche) peut maintenant \"utiliser les contours\"
 
-### Post-traitement {#post_traitement}
+### Post-traitement 
 
 -   grbl\_post -- argument pour supprimer les commandes de changement d\'outil
 -   post-traitement grbl\_g81
 
-## Atelier Sketcher (Esquisseur) {#atelier_sketcher_esquisseur}
+## Atelier Sketcher (Esquisseur) 
 
 <img alt="Démo Vue sectionnée Sketcher" src=images/Sketch-clip-plane-demo.png  style="width:700px;">
 
@@ -150,9 +150,9 @@ La gestion des matériaux a été améliorée. Il est maintenant possible d\'uti
 -   Nouvel outil **[Constrain Diameter](Sketcher_ConstrainDiameter/fr.md)** ajouté
 -   **DoF Finder** est un nouvel utilitaire permettant de mettre en évidence les degrés de liberté restants. Dans le message animé du solveur du panneau Tâches, le message traditionnel*Esquisse sous-contrainte avec x degrés de liberté* souligne maintenant le texte *x degrés* en bleu. Cliquez dessus pour mettre en surbrillance verte, dans la vue 3D, les éléments qui ne sont pas complètement contraints.
 -   **Sketcher Auto Remove Redundants** est une nouvelle case à cocher dans la boîte de message du solveur. Lorsque cette option est activée, elle empêche la création de contraintes redondantes lorsque l\'utilisateur applique des contraintes, et supprime automatiquement les contraintes redondantes.
--   Il existe une nouvelle commande pour supprimer toutes les contraintes en même temps. Vous pouvez le trouver dans le menu {{MenuCommand|Sketch → Outils d'esquisse → Supprimer toutes les contraintes}}.
--   Nouvelle option dans {{MenuCommand|Préférences → Esquisseur → Général → Masquer les unités de longueur de base pour les systèmes d'unités pris en charge}}. Cela masque l\'unité des contraintes dimensionnelles en mode d\'édition d\'esquisse.
--   La taille des sommets (points) peut maintenant être définie dans {{MenuCommand|Préférences → Affichage → Vue 3D → Taille du marqueur}}.
+-   Il existe une nouvelle commande pour supprimer toutes les contraintes en même temps. Vous pouvez le trouver dans le menu **Sketch → Outils d'esquisse → Supprimer toutes les contraintes**.
+-   Nouvelle option dans **Préférences → Esquisseur → Général → Masquer les unités de longueur de base pour les systèmes d'unités pris en charge**. Cela masque l\'unité des contraintes dimensionnelles en mode d\'édition d\'esquisse.
+-   La taille des sommets (points) peut maintenant être définie dans **Préférences → Affichage → Vue 3D → Taille du marqueur**.
 -   Nouvelle commande **[Déplacer](Sketcher_Move/fr.md)** pour déplacer toute la géométrie sélectionnée du dernier point sélectionné. Vous pouvez y accéder via la liste déroulante de l\'outil Cloner.
 -   Ajout de la case à cocher *Informations étendues* au widget de liste de contraintes.
 
@@ -163,11 +163,11 @@ Liens de forum pertinents :
 -   [Sketcher Suppression automatiquement des modes redondants](https://forum.freecadweb.org/viewtopic.php?f=9&t=30594)
 -   [Nomenclature étendue des contraintes](https://forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 
-## Atelier Spreadsheet (Feuille de calcul) {#atelier_spreadsheet_feuille_de_calcul}
+## Atelier Spreadsheet (Feuille de calcul) 
 
-## Atelier Surface {#atelier_surface}
+## Atelier Surface 
 
-## Atelier TechDraw {#atelier_techdraw}
+## Atelier TechDraw 
 
 L\'atelier TechDraw a bénéficié de plusieurs ajouts et améliorations dans la V0.18.
 
@@ -186,13 +186,13 @@ L\'atelier TechDraw a bénéficié de plusieurs ajouts et améliorations dans la
 -   zoom à partir du clavier (Ctrl +/-)
 -   support pour les dimensions DMS
 
-## Manipulation des matériaux {#manipulation_des_matériaux}
+## Manipulation des matériaux 
 
 <img alt="Une fiche de matériau" src=images/_Material-Card-018.png  style="width:300px;"> La manipulation des matériaux a été améliorée. Il est maintenant possible de créer des **fiches de matériau** pour chaque matériau. Les fiches peuvent contenir toutes les informations, propriétés physiques, spécifications architecturales, liens Web, commentaires, etc. Les fiches sont des fichiers texte avec le suffixe {{FileName|.FCMat}} et peuvent être utilisées pour tous les ateliers de FreeCAD.
 
 FreeCAD fournit des fiches de matériau pour les métaux standard, les plastiques et différents types d\'acier.
 
-## Modules Additionnels {#modules_additionnels}
+## Modules Additionnels 
 
 Certains des nouveaux modules communautaires activement développés au cours du cycle de développement de V0.18.
 

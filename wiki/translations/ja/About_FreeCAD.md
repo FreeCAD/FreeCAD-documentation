@@ -50,7 +50,7 @@ FreeCADの機能についてもっと知りたければ機能のリスト、最�
 
 </div>
 
-### About the FreeCAD project {#about_the_freecad_project}
+### About the FreeCAD project 
 
 The FreeCAD project was started as far back as 2001, as described in its [history](history.md) page.
 

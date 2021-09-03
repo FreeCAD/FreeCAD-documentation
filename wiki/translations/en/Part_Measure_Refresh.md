@@ -14,7 +14,7 @@
 
 1.  Invoke the command several ways:
     -   Press the **<img src=images/Part_Measure_Refresh.svg style="width:16px"> [Measure Refresh](Part_Measure_Refresh.md)** button.
-    -   Use the {{MenuCommand|Measure → <img src=images/Part_Measure_Refresh.svg style="width:16px"> Refresh}}.
+    -   Use the **Measure → <img src=images/Part_Measure_Refresh.svg style="width:16px"> Refresh**.
 
 
 

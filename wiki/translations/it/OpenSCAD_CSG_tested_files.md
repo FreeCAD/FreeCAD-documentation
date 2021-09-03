@@ -1,6 +1,6 @@
 
 
-## Questo è un elenco di file OpenSCAD che non possono essere aperti in FreeCAD {#questo_è_un_elenco_di_file_openscad_che_non_possono_essere_aperti_in_freecad}
+## Questo è un elenco di file OpenSCAD che non possono essere aperti in FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -17,7 +17,7 @@
 
 </div>
 
-## Questa è una lista di file OpenSCAD che possono essere aperti in FreeCAD senza alcun problema {#questa_è_una_lista_di_file_openscad_che_possono_essere_aperti_in_freecad_senza_alcun_problema}
+## Questa è una lista di file OpenSCAD che possono essere aperti in FreeCAD senza alcun problema 
 
   ------------- ------------------------------------------
   Description   Source

@@ -28,12 +28,12 @@ Lo strumento Parte Sweep è simile a <img alt="" src=images/Part_Loft.svg  style
 
 </div>
 
-### Accepted geometry {#accepted_geometry}
+### Accepted geometry 
 
 
 <div class="mw-translate-fuzzy">
 
-### Geometrie accettate {#geometrie_accettate}
+### Geometrie accettate 
 
 I profili possono essere un punto (vertice), una linea (bordo), un wire o una faccia. Bordi e wire possono essere di tipo aperto o chiuso. Ci sono varie [limitazioni e complicazioni dei profili](Part_Sweep/it#Limitazioni_e_complicazioni_dei_profili.md), descritte in seguito, tuttavia i profili possono provenire da primitive di Parte, da funzioni di Draft e da Schizzi.
 
@@ -65,7 +65,7 @@ Se \"Solid\" è impostato \"true\" FreeCAD crea un solido se i profili sono dell
 
 <div class="mw-translate-fuzzy">
 
-### Frenet {#frenet_1}
+### Frenet 
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;"> La proprietà \"Frenet\" controlla come cambia l\'orientamento del profilo lungo il percorso di sweep. Se \"Frenet\" è \"false\", l\'orientamento del profilo rimane sempre lo stesso per tutti i punti. La forma risultante è quella con la minima torsione possibile. Quando un profilo viene trascinato lungo un\'elica, questo causa una lenta rotazione del profilo mentre segue dell\'elica. Impostando \"Frenet\" su true si previene questa rotazione. Se \"Frenet\" è \"true\", lungo un percorso elicoidale l\'orientamento del profilo sarà coerente all\'orientamento locale del percorso.
 
@@ -79,19 +79,19 @@ Se \"Frenet\" è \"true\" l\'orientamento del profilo è calcolato basandosi sul
 
 <div class="mw-translate-fuzzy">
 
-### Transition {#transition_1}
+### Transition 
 
 \"Transition\" imposta lo stile di transizione (raccordo) del Sweep in un giunto nel percorso, se il percorso non definisce l\'angolo di transizione (per esempio se il percorso è una spezzata). La proprietà non è mostrata nella finestra Azioni e può essere trovata nella proprietà dopo che lo sweep è stato creato.
 
 
 </div>
 
-## Profile limitations and complications {#profile_limitations_and_complications}
+## Profile limitations and complications 
 
 
 <div class="mw-translate-fuzzy">
 
-## Limitazioni e complicazioni dei profili {#limitazioni_e_complicazioni_dei_profili}
+## Limitazioni e complicazioni dei profili 
 
 -   Un vertice o un punto
     -   vertice o punto possono essere utilizzati solo come primo e/o ultimo profilo nella lista dei profili.

@@ -28,12 +28,12 @@
         
         버튼을 누릅니다.
 
-    -   메뉴에서 {{MenuCommand|File → <img src="images/Std_Print.svg" width=16px> 인쇄...}} 옵션을 선택합니다..
+    -   메뉴에서 **File → <img src="images/Std_Print.svg" width=16px> 인쇄...** 옵션을 선택합니다..
 
     -   단축키를 사용합니다: **Ctrl**+**P**.
 3.  표준 인쇄 대화상자가 열릴 것입니다.
 
-## 선택 사항 {#선택_사항}
+## 선택 사항 
 
 -   명령을 중지하려면 **Esc** 키나 **취소** 버튼을 누릅니다.
 

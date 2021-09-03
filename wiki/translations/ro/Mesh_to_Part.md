@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Conversia obiectelor Piese în Plasă {#conversia_obiectelor_piese_în_plasă}
+## Conversia obiectelor Piese în Plasă 
 
 
 </div>
@@ -59,7 +59,7 @@ mesh.Mesh = MeshPart.meshFromShape(
 
 <div class="mw-translate-fuzzy">
 
-## Convertirea Plaselor în obiecte Part {#convertirea_plaselor_în_obiecte_part}
+## Convertirea Plaselor în obiecte Part 
 
 
 </div>

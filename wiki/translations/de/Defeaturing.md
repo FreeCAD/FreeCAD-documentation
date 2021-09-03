@@ -8,7 +8,7 @@ Es ist auch möglich, das Modell direkt zu modellieren, wenn die Historie der Op
 
 Der einfachste Weg, das Defeaturing zu verwenden, ist die Verwendung des [Defeaturing Arbeitsbereichs](Defeaturing_Workbench/de.md)
 
-## Code Schnipsel {#code_schnipsel}
+## Code Schnipsel 
 
 Defeaturing kann auch mit Python verwendet werden: 
 ```python

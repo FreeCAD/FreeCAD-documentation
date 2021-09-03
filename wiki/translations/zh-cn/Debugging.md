@@ -83,7 +83,7 @@ If you are running a version of FreeCAD from the bleeding edge of the developmen
 
 <div class="mw-translate-fuzzy">
 
-### 对于 Linux {#对于_linux}
+### 对于 Linux 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -180,7 +180,7 @@ Print the values of the local variables also. This can be combined with a number
 
 <div class="mw-translate-fuzzy">
 
-### 对于 MacOSX {#对于_macosx}
+### 对于 MacOSX 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -255,7 +255,7 @@ This will generate a lengthy listing of exactly what the program was doing when 
 
 </div>
 
-## List Libraries Loaded by FreeCAD {#list_libraries_loaded_by_freecad}
+## List Libraries Loaded by FreeCAD 
 
 (Applicable to Linux and macOS)
 
@@ -277,7 +277,7 @@ This prints a long list of loaded resources. So for example, if trying to ascert
 
 <div class="mw-translate-fuzzy">
 
-## Python 调试 {#python_调试}
+## Python 调试 
 
 这里是一个在 FreeCAD 中使用 winpdb 的例子:
 
@@ -353,7 +353,7 @@ Draft.makeWire(points,closed=False,face=False,support=None)
 
 </div>
 
-### Visual Studio Code (VS Code) {#visual_studio_code_vs_code}
+### Visual Studio Code (VS Code) 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -389,7 +389,7 @@ ptvsd.enable_attach(address=('localhost', 5678), redirect_output=True)
 ptvsd.wait_for_attach()
 ```
 
--   Add a debug configuration in Visual Studio Code {{MenuCommand|Debug → Add Configurations…}}. It should looks like this :
+-   Add a debug configuration in Visual Studio Code **Debug → Add Configurations…**. It should looks like this :
 
 
 
@@ -442,7 +442,7 @@ print(sys.executable)
 
 </div>
 
-## Debugging OpenCasCade {#debugging_opencascade}
+## Debugging OpenCasCade 
 
 For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdullah has created a [thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=47017) orientation discussing how to do so.
 

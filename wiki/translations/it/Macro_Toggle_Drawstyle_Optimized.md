@@ -115,7 +115,7 @@ else:
 
 }}
 
-## Script 2 {#script_2}
+## Script 2 
 
 Attiva/disattiva modalità di visualizzazione globale:
 
@@ -169,7 +169,7 @@ else:
     actionA.trigger()
 }}
 
-## Script 3 {#script_3}
+## Script 3 
 
 Attiva/disattiva la modalità di visualizzazione degli oggetti selezionati (le modifiche sono visibili solo nella modalità di visualizzazione globale così com\'è (situata sulla barra degli strumenti Visualizza)):
 

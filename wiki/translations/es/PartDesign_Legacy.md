@@ -33,9 +33,9 @@ Los cuerpos creados con PartDesign suelen estar sujetos al [problema de denomina
 
 ## Herramientas
 
-Las herramientas de Diseño de Piezas están ubicadas en el menú {{MenuCommand|Diseño de Piezas}} y la barra de herramientas de Diseño de Piezas que aparece cuando se carga el Ambiente de Trabajo de Diseño de Piezas.
+Las herramientas de Diseño de Piezas están ubicadas en el menú **Diseño de Piezas** y la barra de herramientas de Diseño de Piezas que aparece cuando se carga el Ambiente de Trabajo de Diseño de Piezas.
 
-### Herramientas de la estructura {#herramientas_de_la_estructura}
+### Herramientas de la estructura 
 
 Estas herramientas no son de hecho parte de l\'Ambiente de Trabajo de diseño de piezas. Pertenecen al sistema [Std Base](Std_Base/es.md). Fueron desarrolladas en la v0.17 con la intención de que fueran útiles para organizar un modelo, y crear [montajes](Std_Base/es.md); como tal, son muy útiles cuando se trabaja con cuerpos creados con este Ambiente de Trabajo.
 
@@ -43,7 +43,7 @@ Estas herramientas no son de hecho parte de l\'Ambiente de Trabajo de diseño de
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Grupo](Std_Group/es.md): añade un contenedor de Grupo en el documento activo, que permite organizar los objetos en el [vista de árbol](Tree_view/es.md).
 
-### DiseñoPiezas herramientas de ayuda {#diseñopiezas_herramientas_de_ayuda}
+### DiseñoPiezas herramientas de ayuda 
 
 -   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Crear Cuerpo](PartDesign_Body/es.md): Crea un [cuerpo](Body/es.md) objeto en el documento activo y lo activa.
 
@@ -53,9 +53,9 @@ Estas herramientas no son de hecho parte de l\'Ambiente de Trabajo de diseño de
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg‎  style="width:32px;"> [Fijar croquis a cara](Sketcher_MapSketch/es.md): Fija el croquis a un plano previamente selecionado o a una cara del cuerpo activo.
 
-### Herramientas de modelado {#herramientas_de_modelado}
+### Herramientas de modelado 
 
-#### Herramientas de geometría de referencia {#herramientas_de_geometría_de_referencia}
+#### Herramientas de geometría de referencia 
 
 -   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Crear un punto de referencia](PartDesign_Point/es.md): crea un punto de referencia en el cuerpo activo.
 
@@ -71,7 +71,7 @@ Estas herramientas no son de hecho parte de l\'Ambiente de Trabajo de diseño de
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Crear un clón](PartDesign_Clone/es.md): crea un clon del cuerpo seleccionado.
 
-#### Herramientas aditivas {#herramientas_aditivas}
+#### Herramientas aditivas 
 
 Son herramientas para crear operaciones base o para añadir material a un cuerpo sólido preexistente.
 
@@ -103,7 +103,7 @@ Son herramientas para crear operaciones base o para añadir material a un cuerpo
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Cuña aditiva](PartDesign_AdditiveWedge/es.md): crea una cuña aditiva.
 
-#### Herramientas sustractivas {#herramientas_sustractivas}
+#### Herramientas sustractivas 
 
 Son herramientas para sustraer material de un cuerpo existente.
 
@@ -137,7 +137,7 @@ Son herramientas para sustraer material de un cuerpo existente.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Cuña sustractiva](PartDesign_SubtractiveWedge/es.md): añade una cuña sustractiva al cuerpo activo.
 
-#### Herramientas de transformación {#herramientas_de_transformación}
+#### Herramientas de transformación 
 
 Son herramientas que permite transformar operaciones existentes. Permiten elegir las operaciones a ser transformadas.
 
@@ -149,7 +149,7 @@ Son herramientas que permite transformar operaciones existentes. Permiten elegir
 
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Crear transformaciones múltiples](PartDesign_MultiTransform/es.md): crea un patrón de repetición combinando de forma sucesiva una serie de transformaciones.
 
-#### Herramientas de alteración {#herramientas_de_alteración}
+#### Herramientas de alteración 
 
 Estas operaciones alteran las caras o aristas seleccionadas.
 
@@ -161,7 +161,7 @@ Estas operaciones alteran las caras o aristas seleccionadas.
 
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Vaciado de espesor](PartDesign_Thickness/es.md): altera el sólido eliminando las caras seleccionadas y creando un sólido definido por una superficie de un determinado espesor.
 
-#### Operaciones booleanas {#operaciones_booleanas}
+#### Operaciones booleanas 
 
 -   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Operaciones booleanas](PartDesign_Boolean/es.md): importa uno o más cuerpos o clones (de diseño de piezas) en el cuerpo activo y ejecuta una operación booleana.
 
@@ -177,7 +177,7 @@ Otras funcionalidades adicionales disponibles en el menú de diseño de piezas:
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Asistente de diseño de eje](PartDesign_WizardShaft/es.md): Genera un eje a partir de una serie de valores y permite analizar fuerzas y momentos de fuerza. El eje se genera mediante revolución de un croquis que puede ser editado a posteriori.
 
-### Elementos del menú contextua {#elementos_del_menú_contextua}
+### Elementos del menú contextua 
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Establecer Punta](PartDesign_MoveTip/es.md): redefine la punta, que es la característica expuesta fuera del Cuerpo.
 
@@ -185,7 +185,7 @@ Otras funcionalidades adicionales disponibles en el menú de diseño de piezas:
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Mover objeto después de otro objeto](PartDesign_MoveFeatureInTree/es.md): permite reordenar el árbol de Cuerpos moviendo el croquis, la geometría datum o la característica seleccionada a otra posición en la lista de características.
 
-#### Artículos compartidos con Ambiente de Trabajo Pieza {#artículos_compartidos_con_ambiente_de_trabajo_pieza}
+#### Artículos compartidos con Ambiente de Trabajo Pieza 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Apariencia](Std_SetAppearance/es.md): determina la apariencia de toda la parte (transparencia del color, etc.).
 

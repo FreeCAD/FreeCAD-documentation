@@ -9,9 +9,9 @@
 
 El <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> de FreeCAD [Ambiente de trabajo Náutico](Ship_Workbench/es.md) se utiliza para crear estructuras comunes a los barcos.
 
-## El Herramientas {#el_herramientas}
+## El Herramientas 
 
-### Diseño Náutico {#diseño_náutico}
+### Diseño Náutico 
 
 
 <div class="mw-translate-fuzzy">

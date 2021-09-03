@@ -52,7 +52,7 @@ est utilisé pour projeter une <img src=images/_Draft_ShapeString.svg style="wid
     -   
         {{RadioButton|TRUE|Show all}}
         
-        : il affichera tous les types de fils fermés et d\'arêtes sur la surface cible. Si un sous-élément \"face\" a été sélectionné à l\'étape précédente, un aperçu d\'un objet solide extrudé à partir de la projection sera affiché, en fonction de la valeur de {{MenuCommand|Extrude height}}.
+        : il affichera tous les types de fils fermés et d\'arêtes sur la surface cible. Si un sous-élément \"face\" a été sélectionné à l\'étape précédente, un aperçu d\'un objet solide extrudé à partir de la projection sera affiché, en fonction de la valeur de **Extrude height**.
 
     -   
         {{RadioButton|TRUE|Show faces}}
@@ -74,9 +74,9 @@ Remarques:
 
 ## Options
 
--    {{MenuCommand|Extrude height}}: c\'est la hauteur de la forme solide qui est créée en extrudant la face projetée à partir de la surface cible et le long du négatif de la direction de projection. Par exemple, si la direction de projection est le long de +Y {{Value|(0, 1, 0)}}, l\'extrusion sera créée dans la direction -Y {{Value|(0, -1, 0)}}. Cette extrusion solide ne sera créée que si le sous-élément sélectionné était une face fermée, en appuyant sur le bouton **Add face** et en choisissant l\'option {{RadioButton|TRUE|Show all}}.
+-    **Extrude height**: c\'est la hauteur de la forme solide qui est créée en extrudant la face projetée à partir de la surface cible et le long du négatif de la direction de projection. Par exemple, si la direction de projection est le long de +Y {{Value|(0, 1, 0)}}, l\'extrusion sera créée dans la direction -Y {{Value|(0, -1, 0)}}. Cette extrusion solide ne sera créée que si le sous-élément sélectionné était une face fermée, en appuyant sur le bouton **Add face** et en choisissant l\'option {{RadioButton|TRUE|Show all}}.
 
--    {{MenuCommand|Solid depth}}: c\'est la distance à laquelle l\'objet de projection est déplacé le long de la direction de projection. Les valeurs négatives déplaceront l\'objet dans la direction opposée; cela permet de créer une projection décalée de la surface cible.
+-    **Solid depth**: c\'est la distance à laquelle l\'objet de projection est déplacé le long de la direction de projection. Les valeurs négatives déplaceront l\'objet dans la direction opposée; cela permet de créer une projection décalée de la surface cible.
 
 ## Limitations
 

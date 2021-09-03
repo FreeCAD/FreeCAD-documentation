@@ -25,7 +25,7 @@ Standardowe menu daje dostęp do narzędzi, które mogą być używane na wszyst
 
 *Menu standardowe*
 
-## Menu podrzędne {#menu_podrzędne}
+## Menu podrzędne 
 
 Standardowe menu składa się z 7 podmenu:
 

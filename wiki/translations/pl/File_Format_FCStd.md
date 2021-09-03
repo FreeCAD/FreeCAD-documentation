@@ -1,10 +1,10 @@
  {{TOCright}}
 
-## Informacje ogólne {#informacje_ogólne}
+## Informacje ogólne 
 
 Standardowy format pliku FreeCAD *FreeCAD Standard file format* ({{FileName|.FCStd}}) jest głównym formatem pliku FreeCAD. Zawartość pliku jest złożona, obsługuje kompresję i osadzanie różnych rodzajów danych.
 
-## Zawartość plików .FCStd {#zawartość_plików_.fcstd}
+## Zawartość plików .FCStd 
 
 FCStd jest [standardowym plikiem zip zawierającym jeden lub więcej plików](#Contents.md) o [specyficznej strukturze](#structure.md). Jako takie, możliwe jest rozpakowanie pliku {{FileName|.FCStd}} przy użyciu zwykłego narzędzia dekompresującego **zip**, ale należy zachować ostrożność podczas pakowania zawartości pliku {{FileName|.FCStd}}. FreeCAD zawiera **Project Utility** do ponownego pakowania plików {{FileName|.FCStd}}, jego użycie jest opisane w [Zmień źródło pliku .FCStd](#Change_the_source_of_the_file_.FCStd.md) poniżej.
 
@@ -12,7 +12,7 @@ FCStd jest [standardowym plikiem zip zawierającym jeden lub więcej plików](#C
 
 Jest to główny plik {{FileName|.xml}} opisujący wszystkie obiekty wewnątrz dokumentu FreeCAD, czyli tylko geometryczną i parametryczną definicję obiektów, a nie ich wizualną reprezentację. Jeżeli FreeCAD jest uruchomiony w trybie konsolowym *(bez GUI)*, to tylko ten {{FileName|Dokument.xml}} będzie użyty.
 
-#### Przykład Dokumentu.xml {#przykład_dokumentu.xml}
+#### Przykład Dokumentu.xml 
 
 
 {{Code|lang=xml|code=
@@ -140,7 +140,7 @@ Struktura typowego pliku {{FileName|FCStd}}: Rozszerzenie można zmienić na {{F
       :--MyPage.svg
       :--etc.
 
-## Osadzanie innych plików {#osadzanie_innych_plików}
+## Osadzanie innych plików 
 
 Aby osadzić inne typy plików w pliku FCStd, musisz najpierw utworzyć plik typu [obiekt skryptowy](Scripted_objects/pl.md) z [konsoli Python](Python_console/pl.md), i nadaj mu właściwość `App::PropertyFileIncluded`
 
@@ -154,7 +154,7 @@ custom_obj.addProperty("App::PropertyFileIncluded", "AttachedFile")
 
 Zobacz wątek na forum, [PDF wewnątrz projektu](https://forum.freecadweb.org/viewtopic.php?t=38201).
 
-## Zmień źródło pliku .FCStd {#zmień_źródło_pliku_.fcstd}
+## Zmień źródło pliku .FCStd 
 
 -   Zobacz [Std ProjectUtil](Std_ProjectUtil.md).
 

@@ -16,7 +16,7 @@ La commande *Std Tous les liens* sélectionne tous les objets [App Link](App_Lin
 
 1.  Pour trouver des liens dans plusieurs documents, assurez-vous que la [Vue en arborescence](Tree_view/fr.md) soit basculée sur [Plusieurs documents](Std_TreeMultiDocument/fr.md).
 2.  Sélectionnez un objet source.
-3.  Sélectionnez l\'option {{MenuCommand|Link actions → <img src="images/Std_LinkSelectAllLinks.svg" width=16px> Sélectionnez tous les liens}} dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md). Cette option n\'est disponible que si l\'objet sélectionné possède des liens.
+3.  Sélectionnez l\'option **Link actions → <img src="images/Std_LinkSelectAllLinks.svg" width=16px> Sélectionnez tous les liens** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md). Cette option n\'est disponible que si l\'objet sélectionné possède des liens.
 4.  Tous les liens qui renvoient à l\'objet source sont sélectionnés.
 5.  Utilisez éventuellement **<img src="images/Std_SelBack.svg" width=16px> [Std Rétablir](Std_SelBack/fr.md)** pour resélectionner l\'objet source.
 

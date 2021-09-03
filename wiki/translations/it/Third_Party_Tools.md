@@ -12,7 +12,7 @@
 
 {{TOCright}}
 
-## Tool Page {#tool_page}
+## Tool Page 
 
 
 <div class="mw-translate-fuzzy">
@@ -24,16 +24,16 @@ Per sviluppare seriamente qualsiasi software servono degli strumenti. Ecco un el
 
 </div>
 
-### Platform independent tools {#platform_independent_tools}
+### Platform independent tools 
 
-#### Qt-Toolkit {#qt_toolkit}
+#### Qt-Toolkit 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Strumenti indipendenti dalla piattaforma {#strumenti_indipendenti_dalla_piattaforma}
+#### Strumenti indipendenti dalla piattaforma 
 
-##### Qt-Toolkit {#qt_toolkit_1}
+##### Qt-Toolkit 
 
 Qt-toolkit è uno strumento avanzato per il disegno di interfacce utente indipendente dalla piattaforma. Esso è contenuto in [LibPack](Third_Party_Libraries/it#LibPack.md) di FreeCAD, ma può anche essere scaricato da [Qt project](http://qt-project.org/downloads).
 
@@ -45,7 +45,7 @@ Qt-toolkit è uno strumento avanzato per il disegno di interfacce utente indipen
 
 <div class="mw-translate-fuzzy">
 
-##### Inkscape {#inkscape_1}
+##### Inkscape 
 
 Grande programma di disegno vettoriale. Aderisce allo standard SVG e viene utilizzato per disegnare icone e immagini. E\' scaricabile da [www.inkscape.org](http://www.inkscape.org).
 
@@ -57,14 +57,14 @@ Grande programma di disegno vettoriale. Aderisce allo standard SVG e viene utili
 
 <div class="mw-translate-fuzzy">
 
-##### Doxygen {#doxygen_1}
+##### Doxygen 
 
 Uno strumento molto buono e stabile per generare la documentazione del codice partendo da file .h e .cpp.
 
 
 </div>
 
-#### The Gimp {#the_gimp}
+#### The Gimp 
 
 
 <div class="mw-translate-fuzzy">
@@ -83,7 +83,7 @@ GIMP è scaricabile da: [www.gimp.org](http://www.gimp.org/)
 
 <div class="mw-translate-fuzzy">
 
-#### Gitkraken {#gitkraken_1}
+#### Gitkraken 
 
 Questa è una GUI git proprietaria che è molto utile per imparare come funziona git se si è interessati a voler contribuire a FreeCAD. Pagine rilevanti da ricercare:
 
@@ -93,12 +93,12 @@ Questa è una GUI git proprietaria che è molto utile per imparare come funziona
 
 </div>
 
-#### OBS Studio {#obs_studio}
+#### OBS Studio 
 
 
 <div class="mw-translate-fuzzy">
 
-#### OBS Studio {#obs_studio_1}
+#### OBS Studio 
 
 Software gratuito e open source per registrazione video e live streaming. Maggiori dettagli sul sito ufficiale: [obsproject.com](https://obsproject.com/)
 
@@ -114,7 +114,7 @@ Software gratuito e open source per registrazione video e live streaming. Maggio
 
 <div class="mw-translate-fuzzy">
 
-##### StarUML {#staruml_1}
+##### StarUML 
 
 Un programma UML open source completo di funzionalità. Ha un sacco di funzioni importanti, tra cui la generazione inversa del codice sorgente C++ codice \.... (Permette, ad esempio, di generare codice C++ in automatico partendo da grafici).
 
@@ -129,14 +129,14 @@ Scaricarlo da: [staruml.sourceforge.net](http://staruml.sourceforge.net/en/)
 
 </div>
 
-#### Strumenti in Windows {#strumenti_in_windows}
+#### Strumenti in Windows 
 
-#### Visual Studio Community {#visual_studio_community}
+#### Visual Studio Community 
 
 
 <div class="mw-translate-fuzzy">
 
-##### Visual Studio 8 Express {#visual_studio_8_express}
+##### Visual Studio 8 Express 
 
 Anche se VC8 è per lo sviluppo in C++ non è migliorato molto da VisualStudio 6 (a mio parere è stato un bel passo indietro), è un sistema di sviluppo gratuito su Windows. Per le applicazioni native Win32 è necessario scaricare il PlatformSDK da M\$.
 
@@ -156,7 +156,7 @@ L\'edizione Express è difficile da trovare. Si può provare a [questo link](htt
 
 <div class="mw-translate-fuzzy">
 
-##### CamStudio {#camstudio_1}
+##### CamStudio 
 
 È uno strumento Open Source per registrare Screencast (Webcast) (registrazione digitale dell\'output dello schermo). È un ottimo strumento per creare tutorial registrandoli. Non è così noioso come scrivere la documentazione.
 
@@ -165,7 +165,7 @@ L\'edizione Express è difficile da trovare. Si può provare a [questo link](htt
 
 Vedere [camstudio.org](http://camstudio.org/) per avere maggiori informazioni.
 
-#### Strumenti in Linux {#strumenti_in_linux}
+#### Strumenti in Linux 
 
 Da Fare
 

@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Description {#description_1}
+## Description 
 
 Créez un plan paramétrique simple de 10 x 10 mm, avec les paramètres de position, longueur et largeur. Par défaut, le plan est positionné à l\'origine (0,0,0).
 
@@ -31,7 +31,7 @@ Le plan standard est créé le coin inférieur gauche au point d\'origine `0,0,0
 
 <div class="mw-translate-fuzzy">
 
-Les propriétés peuvent être modifiées ultérieurement dans {{MenuCommand|Vue combinée → Données}} après avoir sélectionné l\'élément.
+Les propriétés peuvent être modifiées ultérieurement dans **Vue combinée → Données** après avoir sélectionné l\'élément.
 
 
 </div>

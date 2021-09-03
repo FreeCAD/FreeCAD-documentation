@@ -2,9 +2,9 @@
 
 ## Übersicht
 
-**Positionierung** ist wie FreeCAD den Standort und die Lage (Orientierung) eines Objekts im Raum angibt. Die Platzierung kann in verschiedenen Formen angegeben und über [Skripten](Python_scripting_tutorial/de#Vektoren_und_Positierungen.md), den [Eigenschaftseditor](Property_editor/de.md) oder durch Auswahl von {{MenuCommand|Bearbeiten → Positionierung...}} zum Öffnen des [Positionierung Aufgabenpaneel](Std_Placement/de.md) verändert werden.
+**Positionierung** ist wie FreeCAD den Standort und die Lage (Orientierung) eines Objekts im Raum angibt. Die Platzierung kann in verschiedenen Formen angegeben und über [Skripten](Python_scripting_tutorial/de#Vektoren_und_Positierungen.md), den [Eigenschaftseditor](Property_editor/de.md) oder durch Auswahl von **Bearbeiten → Positionierung...** zum Öffnen des [Positionierung Aufgabenpaneel](Std_Placement/de.md) verändert werden.
 
-### Zugriff auf das Positionierungsattribut {#zugriff_auf_das_positionierungsattribut}
+### Zugriff auf das Positionierungsattribut 
 
 Auf die Positionierungsattribute eines Objekts kann auf 3 Arten zugegriffen und diese verändert werden:
 
@@ -14,11 +14,11 @@ Auf die Positionierungsattribute eines Objekts kann auf 3 Arten zugegriffen und 
 
 ![Positionierung Aufgabenpaneel](images/PlacementDialogv10.png ) 
 
-## Formen der Positionierung {#formen_der_positionierung}
+## Formen der Positionierung 
 
 Die Positionierung wird intern als eine Position und eine Drehung (Drehachse und Winkel in ein Quaternion umgewandelt [Quaternionen und räumliche Rotation](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation), [Quaternionen](https://de.wikipedia.org/wiki/Quaternion)) gespeichert. Während es mehrere Formen gibt, um eine Drehung festzulegen, z.B. mit einem Rotationszentrum, wird dies nur zur Beeinflussung der Drehungsberechnung verwendet und nicht für spätere Operationen gespeichert. Wenn eine Drehachse von (1,1,1,1) angegeben ist, kann sie ebenfalls normalisiert werden, wenn sie im Quaternion gespeichert ist und als (0.58, 0.58, 0.58, 0.58, 0.58) erscheinen, wenn das Objekt später durchsucht wird.
 
-### Winkel, Achse und Position {#winkel_achse_und_position}
+### Winkel, Achse und Position 
 
 **Positionierung = \[Winkel, Achse, Position\]**
 
@@ -43,7 +43,7 @@ Beachte, dass es auch möglich ist, ein Objekt entlang dieser Drehachse (Axialbe
 
 </div>
 
-### Position und Gieren, Neigen und Rollen {#position_und_gieren_neigen_und_rollen}
+### Position und Gieren, Neigen und Rollen 
 
 ![Positionierung Aufgabenpaneel: {{ComboBox|Euler Winkel}} ausgewählt](images/PlacementDialogv10b.png )  **Positionierung = \[Position, Gieren-Neigen-Rollen\]**
 
@@ -88,7 +88,7 @@ Die dritte Form der **Positionierung** beschreibt die Position und Orientierung 
 
 
 
-## Der Positionierungsdialog {#der_positionierungsdialog}
+## Der Positionierungsdialog 
 
 Der Positinierungsdialog wird über das Menü **Bearbeiten** aufgerufen. Er wird zum präzisen Drehen/Übersetzen von Objekten verwendet. Er wird auch verwendet, wenn wir eine Skizze auf einer \"Nicht Standard\" Ebene erstellen oder die Ausrichtung einer Skizze auf eine neue Ebene ändern müssen.
 
@@ -138,7 +138,7 @@ Rotation mit Euler-Winkeln:
 
 <img alt="After Rotation" src=images/RotationEulerAfter.png  style="width:600px;"> Nach der Rotation 
 
-## Placement.Base verglichen mit Shape Definition {#placement.base_verglichen_mit_shape_definition}
+## Placement.Base verglichen mit Shape Definition 
 
 Positionierung ist nicht der einzige Weg, eine Form im Raum zu positionieren. Siehe die Python Konsole in diesem Bild:
 
@@ -173,7 +173,7 @@ Beide Würfel haben den selben Wert zur Positionierung, befinden sich aber an ve
 
 Die Knoten (oder Vektoren), die die Form bestimmen verwenden das Placement.Base Attribut als deren Ursprung. Wenn du also eine Form um 10 Einheiten entlang der **X** Achse verschieben möchtest, könntest du 10 zu den **X** Koordinaten aller Knoten hinzufügen, oder du kannst Placement.Base zu (10,0,0) setzen.
 
-## Verwendung von \"Mitte\" zur Steuerung der Rotationsachse {#verwendung_von_mitte_zur_steuerung_der_rotationsachse}
+## Verwendung von \"Mitte\" zur Steuerung der Rotationsachse 
 
 Standardmäßig ist die Rotationsachse nicht wirklich die x/y/z Achse. Sie ist eine Linie, die parallel zur ausgewählten Achse verläuft, aber durch den Referenzpunkt (Placement.Base) des zu drehenden Objekts verläuft. Dies kann durch die Verwendung der Felder Zentrum im Dialogfeld Platzierung oder, in Skripten, durch Verwendung des Parameters Zentrum des Konstruktors FreeCAD.Placement geändert werden.
 
@@ -203,7 +203,7 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
-## Using Placement in expressions {#using_placement_in_expressions}
+## Using Placement in expressions 
 
 In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\": 
 ```python

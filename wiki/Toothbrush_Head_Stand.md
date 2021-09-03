@@ -1,6 +1,6 @@
   {{TutorialInfo|Topic=Modeling|Level=Beginner|Author=[EmmanuelG](User:EmmanuelG.md)|Time=1 hour|FCVersion=0.16 or greater|Files=[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]}}
 
-## A daily-life problem {#a_daily_life_problem}
+## A daily-life problem 
 
 Electric toothbrushes rarely come with a head stand, while in a family you will often see multiple heads used with one body. Many people facing a common problem lead us to a variety of solutions, as you can see on Thingiverse (200-800 projects are related to that). Here is the first answer and how to design it.
 
@@ -8,13 +8,13 @@ This tutorial will take you through the steps needed to model the part shown in 
 
  ![](images/TBHS-model.png ) 
 
-## First idea : a plate {#first_idea_a_plate}
+## First idea : a plate 
 
 -   From the start-page, select ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design*, or create a new document and select the *Part Design* workbench.
 
 ![](images/TBHS-0.png )
 
-### Create a sketch {#create_a_sketch}
+### Create a sketch 
 
 -   Click on <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [**New sketch**](Sketcher_NewSketch.md). Either from the contextual task menu at the left, or the toolbar above or from the Part Design menu at the top.
 
@@ -62,7 +62,7 @@ An under-constrained sketch can leave room for unwanted change, if you modify so
 
 You now only see the square, and the contextual task menu on the left show you more options than before.
 
-### Create a pad {#create_a_pad}
+### Create a pad 
 
 -   Click on <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometric** among the standard views, to better see what will happen.
 -   Click on <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Pad**.
@@ -72,7 +72,7 @@ You now only see the square, and the contextual task menu on the left show you m
 
 Your sketch is now in volume !
 
-### Create a sketch on it {#create_a_sketch_on_it}
+### Create a sketch on it 
 
 -   Select the upper face
 
@@ -117,7 +117,7 @@ Theses lines will serve as reference to position the circles.
 
 <img alt="" src=images/TBHS-15.JPG  style="width:800px;">
 
-### Create a pad {#create_a_pad_1}
+### Create a pad 
 
 -   Click on <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometric** among the standard views, to better see what will happen.
 -   Click on <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Pad**.
@@ -127,7 +127,7 @@ Theses lines will serve as reference to position the circles.
 
 You have the basic shape, it just need final touches.
 
-### Rounding the corners {#rounding_the_corners}
+### Rounding the corners 
 
 -   Holding **CTRL** click on the vertical edge at each corner to select the four of them.
 
@@ -142,7 +142,7 @@ Don\'t hesitate to help you by switching the display mode (just at the left of t
 
 Much better.
 
-### Making it more robust {#making_it_more_robust}
+### Making it more robust 
 
 We need to add material at the base of the cylinders to make them less prone to snap. Because of the printing orientation these small surfaces will be fragile at the junction with the base.
 
@@ -155,7 +155,7 @@ We need to add material at the base of the cylinders to make them less prone to 
 
 <img alt="" src=images/TBHS-20.JPG  style="width:800px;">
 
-### Chamfer the edges {#chamfer_the_edges}
+### Chamfer the edges 
 
 -   Select the face under the base, add a <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **Chamfer** of 0,5mm.
 
@@ -173,7 +173,7 @@ The first layer of plastic is often being squashed a little too much, this will 
 
 Tadaa !
 
-## Export as a .STL {#export_as_a_.stl}
+## Export as a .STL 
 
 -   In the Combo View on the left, select the tree view instead of the contextual task menu, click on the last feature (the chamfer).
 
@@ -194,11 +194,11 @@ Don\'t worry it is often needed to go through several revision for an idea (e.g.
 
 In this second part you will also learn to use more tools, like the powerful *Linear repetition*.
 
-## Second idea : a band {#second_idea_a_band}
+## Second idea : a band 
 
 -   Create a new document and select the ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design* workbench.
 
-### Create a sketch {#create_a_sketch_1}
+### Create a sketch 
 
 -   Create a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **New sketch**, on the XY plane.
 
@@ -253,7 +253,7 @@ You now have a floating slot of unspecified dimensions.
 
 <img alt="" src=images/TBHS2-8.JPG  style="width:800px;">
 
-### Create a pad {#create_a_pad_2}
+### Create a pad 
 
 -   Click on <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometric** among the standard views, to better see what will happen.
 -   Click on <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Pad**.
@@ -261,7 +261,7 @@ You now have a floating slot of unspecified dimensions.
 
 <img alt="" src=images/TBHS2-9.JPG  style="width:800px;">
 
-### Create a sketch on it {#create_a_sketch_on_it_1}
+### Create a sketch on it 
 
 -   Select the upper face
 
@@ -307,7 +307,7 @@ You now have a floating slot of unspecified dimensions.
 
 <img alt="" src=images/TBHS2-17.JPG  style="width:800px;">
 
-### Create a hole {#create_a_hole}
+### Create a hole 
 
 -   Click on <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometric** among the standard views, to better see what will happen.
 -   Click on <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [**Pocket**](PartDesign_Pocket.md).
@@ -315,7 +315,7 @@ You now have a floating slot of unspecified dimensions.
 
 <img alt="" src=images/TBHS2-18.JPG  style="width:800px;">
 
-### Linear repetition {#linear_repetition}
+### Linear repetition 
 
 -   In the Combo View on the left, select the tree view instead of the contextual task menu, click on the pocket feature.
 -   Click on <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [**LinearPattern**](PartDesign_LinearPattern.md).
@@ -323,7 +323,7 @@ You now have a floating slot of unspecified dimensions.
 
 <img alt="" src=images/TBHS2-19.JPG  style="width:800px;">
 
-### Create a sketch on it {#create_a_sketch_on_it_2}
+### Create a sketch on it 
 
 -   Select the inner face
 
@@ -361,7 +361,7 @@ You now have a floating slot of unspecified dimensions.
 
 <img alt="" src=images/TBHS2-26.JPG  style="width:800px;">
 
-### Create a pad {#create_a_pad_3}
+### Create a pad 
 
 -   Click on <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometric** among the standard views, to better see what will happen.
 -   Click on <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Pad**.
@@ -369,7 +369,7 @@ You now have a floating slot of unspecified dimensions.
 
 <img alt="" src=images/TBHS2-27.JPG  style="width:800px;">
 
-### Linear repetition {#linear_repetition_1}
+### Linear repetition 
 
 -   In the Combo View on the left, select the tree view instead of the contextual task menu, click on the pad feature.
 -   Click on <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [**LinearPattern**](PartDesign_LinearPattern.md).
@@ -408,7 +408,7 @@ Chamfer = left / Draft = right
 
 Perfect !
 
-## Export as a .STL {#export_as_a_.stl_1}
+## Export as a .STL 
 
 -   In the Combo View on the left, select the tree view instead of the contextual task menu, click on the last feature (the chamfer).
 

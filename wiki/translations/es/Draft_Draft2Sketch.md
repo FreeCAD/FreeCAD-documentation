@@ -20,7 +20,7 @@ El <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> comando *
 1.  Opcionalmente selecciona uno o más objetos de Borrador o [Croquizador Croquis](Sketcher_NewSketch/es.md).
 2.  Hay varias formas de invocar el comando:
     -   Pulsar el **<img src="images/Draft_Draft2Sketch.svg" width=16px> [Borrador BorradorACroquis](Draft_Draft2Sketch/es.md)**.
-    -   Seleccione la opción {{MenuCommand|Modificación → <img src="images/Draft_Draft2Sketch.svg" width=16px> Borrador a Croquis}} en el menú.
+    -   Seleccione la opción **Modificación → <img src="images/Draft_Draft2Sketch.svg" width=16px> Borrador a Croquis** en el menú.
 3.  Si aún no ha seleccionado un objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
 4.  Se crea un nuevo objeto.
 

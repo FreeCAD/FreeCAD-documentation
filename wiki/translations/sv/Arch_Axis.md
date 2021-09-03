@@ -42,7 +42,7 @@ The **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)** to
 
 -    **Show Labels**: Turns the display of the label texts on/off
 
-## Use as section mark {#use_as_section_mark}
+## Use as section mark 
 
 By setting the **Bubble Position** property to **Arrow left/right** or **Bar left/right**, the axis will display a filled arrow or bar instead of the bubble, so it can be used as a section mark. <small>(v0.20)</small> 
 

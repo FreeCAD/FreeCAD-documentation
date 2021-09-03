@@ -39,10 +39,10 @@ Dieses Tutorial verwendet die Schreibweise {{Value|(x, y, z)}}, um die zur Defin
 
 <div class="mw-translate-fuzzy">
 
-1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit {{MenuCommand|Datei → <img src=images/Std_New.svg style="width:16px"> [Neu](Std_New.md)}}.
+1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei → <img src=images/Std_New.svg style="width:16px"> [Neu](Std_New.md)**.
 
-:   1.1. Wechsle zum <img src=images/Workbench_Draft.svg style="width:Arbeitsbereich Entwurf](Draft_Module/de.md) über die [Arbeitsbereich Wähler](Std_Workbench/de.md) oder das Menü {{MenuCommand|Ansicht → Arbeitsbereich → [16px"> Entwurf}}.
-:   1.2. Stelle sicher, dass du verstehst, wie der [Eigenschaftseditor](property_editor/de.md), insbesondere die {{MenuCommand|Daten}} und {{MenuCommand|Ansichten}} Reiter zum Ändern der Eigenschaften zu verwenden sind.
+:   1.1. Wechsle zum <img src=images/Workbench_Draft.svg style="width:Arbeitsbereich Entwurf](Draft_Module/de.md) über die [Arbeitsbereich Wähler](Std_Workbench/de.md) oder das Menü **Ansicht → Arbeitsbereich → [16px"> Entwurf**.
+:   1.2. Stelle sicher, dass du verstehst, wie der [Eigenschaftseditor](property_editor/de.md), insbesondere die **Daten** und **Ansichten** Reiter zum Ändern der Eigenschaften zu verwenden sind.
 
 Wenn Eigenschaften geändert werden, musst du eventuell eine **<img src="images/Std_Refresh.svg" width=16px> [Std Aktualisierung](Std_Refresh/de.md)**shandlung vornehmen, um das Ergebnis in der [3D Ansicht](3D_view/de.md) zu sehen.
 
@@ -52,14 +52,14 @@ Wenn Eigenschaften geändert werden, musst du eventuell eine **<img src="images/
 
 </div>
 
-## Fang Werkzeugleiste {#fang_werkzeugleiste}
+## Fang Werkzeugleiste 
 
 
 <div class="mw-translate-fuzzy">
 
 2\. Die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste wird normalerweise aktiviert, wenn du zum [Entwurf Arbeitsbereich](Draft_Module/de.md) wechselst.
 
-:   2.1. Um sicherzustellen, dass sie immer vorhanden ist, gehe zu [Entwurf Einstellungen](Draft_Preferences/de.md), {{MenuCommand|Bearbeiten → Einstellungen → Entwurf → Gitter und Fang Reiter}}.
+:   2.1. Um sicherzustellen, dass sie immer vorhanden ist, gehe zu [Entwurf Einstellungen](Draft_Preferences/de.md), **Bearbeiten → Einstellungen → Entwurf → Gitter und Fang Reiter**.
 :   2.2. Stelle sicher, dass die **Werkzeugleiste Entwurfsfang anzeigen** aktiv ist.
 
 
@@ -71,21 +71,21 @@ Du kannst auch die Sichtbarkeit und die Eigenschaften des Entwurfsgitters im gle
 
 Die meisten Entwurfsobjekte sind planare Formen, so dass sie natürlich auf einer **Arbeitsebene** aufbauen. Eine Arbeitsebene kann eine der globalen Hauptkoordinatenebenen XY, XZ und YZ sein, oder es kann eine Ebene sein, die parallel zu diesen Ebenen mit einem positiven oder negativen Versatz verläuft, oder es kann eine Ebene sein, die durch die Fläche eines festen Objekts definiert ist.
 
-3\. Drücke **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_SelectPlane.svg style="width:Wähle Ebene](Draft_SelectPlane/de.md)**, oder gehe zum Menü {{MenuCommand|Hilfsmittel → [16px"> [Select plane](Draft_SelectPlane.md)}}, um die Arbeitsebene [Aufgabenpaneel](task_panel/de.md) zu öffnen.
+3\. Drücke **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_SelectPlane.svg style="width:Wähle Ebene](Draft_SelectPlane/de.md)**, oder gehe zum Menü **Hilfsmittel → [16px"> [Select plane](Draft_SelectPlane.md)**, um die Arbeitsebene [Aufgabenpaneel](task_panel/de.md) zu öffnen.
 
 :   3.1. Drücke **<img src=images/Std_ViewTop.svg style="width:16px"> Oben (XY)**.
 
 Vor dem drücken der Taste kannst du auch den Wert des Versatzes in Millimetern sowie den Rasterabstand, die Hauptlinien und den Fangradius ändern.
 
-## Linien und Bögen {#linien_und_bögen}
+## Linien und Bögen 
 
 4\. Wir werden Bögen und Linien erstellen.
 
 :   4.1. Drücke **<img src=images/Draft_Arc.svg style="width:16px"> [Bogen](Draft_Arc/de.md)**.
-:   4.2. Setze den {{MenuCommand|Mittelpunkt}} auf {{Value|(0, 0, 0)}}, und drücke **Enter**.
-:   4.3. Setze den {{MenuCommand|Radius}} auf {{Value|30 mm}}, und drücke **Enter**.
-:   4.4. Set the {{MenuCommand|Anfangswinkel}} auf {{Value|60.0°}}, und drücke **Enter**.
-:   4.5. Setze den {{MenuCommand|Öffnungswinkel}} auf {{Value|60.0°}}, und drücke **Enter**.
+:   4.2. Setze den **Mittelpunkt** auf {{Value|(0, 0, 0)}}, und drücke **Enter**.
+:   4.3. Setze den **Radius** auf {{Value|30 mm}}, und drücke **Enter**.
+:   4.4. Set the **Anfangswinkel** auf {{Value|60.0°}}, und drücke **Enter**.
+:   4.5. Setze den **Öffnungswinkel** auf {{Value|60.0°}}, und drücke **Enter**.
 :   4.6. Wiederhole das gleiche Verfahren für einen zweiten Bogen mit einem Radius von {{Value|25 mm}}, die anderen Eigenschaften sind die gleichen.
 
 5\. Wir werden nun ein geschlossenes Profil erzeugen, indem wir die Bögen mit Linien verbinden.
@@ -98,7 +98,7 @@ Vor dem drücken der Taste kannst du auch den Wert des Versatzes in Millimetern 
 <img alt="" src=images/01_Dr01_Draft_Arc_profile.png  style="width:" height="400px;"> 
 *Geschlossenes Profil, das durch zwei Bögen und zwei Linien erzeugt wird.*
 
-## Verschmelzen oder Zusammensetzen {#verschmelzen_oder_zusammensetzen}
+## Verschmelzen oder Zusammensetzen 
 
 Wir haben jetzt mehrere Objekte in der [Baumansicht](tree_view/de.md), die ein geschlossenes Profil bilden. Dieses Profil besteht jedoch nach wie vor aus unverbundenen Objekten; jedes von ihnen kann unabhängig von den anderen bearbeitet und verschoben werden. Es ist möglich, mit den Elementen auf diese Weise weiter zu arbeiten, aber es ist auch möglich, sie zu einem einzigen Objekt zu verschmelzen.
 
@@ -121,13 +121,13 @@ Wir haben jetzt mehrere Objekte in der [Baumansicht](tree_view/de.md), die ein g
 
 </div>
 
-## Rechtecke, Kreise und Polygone {#rechtecke_kreise_und_polygone}
+## Rechtecke, Kreise und Polygone 
 
 7\. Wir werden einen rechteckigen Rahmen zeichnen. (Wechsle zurück zum <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md).)
 
 :   7.1. Drücke **<img src=images/Draft_Rectangle.svg style="width:16px"> [Rechteck](Draft_Rectangle/de.md)**.
 :   7.2. Gib die Werte des ersten Punktes {{Value|(-100, -60, 0)}} ein und drücke **Enter**.
-:   7.3. Stelle sicher, dass die {{MenuCommand|Relativ}} Option nicht angehakt ist, da wir absolute Einheiten verwenden werden. Du kannst **R** auf der Tastatur drücken, um diese Option schnell ein- und auszuschalten.
+:   7.3. Stelle sicher, dass die **Relativ** Option nicht angehakt ist, da wir absolute Einheiten verwenden werden. Du kannst **R** auf der Tastatur drücken, um diese Option schnell ein- und auszuschalten.
 :   7.4. Gib die Werte für den zweiten Punkt {{Value|(140, 90, 0)}} ein und drücke **Enter**.
 
 Ein Rechteck wird erstellt. Gehe in den [Eigenschaftseditor](Property_editor/de.md), um seine Eigenschaften zu ändern. Wenn das Rechteck keine Fläche erzeugen soll, setze **Erstelle Fläche** auf `False`. Wenn du eine Fläche erstellen möchtest, aber nur die Drähte dieses Objekts siehst, lassen **Erstelle Fläche** auf `True`, aber setze den **Anzeigemodus** auf {{Value|Wireframe}}.
@@ -196,13 +196,13 @@ Denke daran, die **Schriftgröße** und andere Eigenschaften anzupassen, damit d
 <img alt="" src=images/04_Dr01_Draft_Dimension.png  style="width:" height="400px;"> 
 *Bemaßungen, die den vertikalen Abstand vom Ursprung bis zur Oberkante des Kreises, der Bögen und des Polygons messen.*
 
-## Texte und Formzeichenketten {#texte_und_formzeichenketten}
+## Texte und Formzeichenketten 
 
 14\. Textobjekte sind einfache planare Figuren, die in der [3D Ansicht](3D_view/de.md) erstellt werden, aber keine tatsächliche \"[Form](Shape/de.md)\" darunter haben. Das bedeutet, dass sie nicht in komplexen Operationen mit Formen wie Extrusionen oder booleschen Operationen verwendet werden können.
 
 :   14.1. Drücke **<img src=images/Draft_Text.svg style="width:16px"> [Text](Draft_Text/de.md)**.
 :   14.2. Wähle den Referenzpunkt in der <img src=images/Draft_Snap_Lock.svg style="width:3D Ansicht](3D_view/de.md). In der [Fang Werkzeugleiste](Draft_Snap/de.md) stelle sicher das **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Umschalten Fang](Draft_Snap_Lock/de.md)** aktiv ist, und ebenfalls nur **[16px"> [Mittelpunkt](Draft_Snap_Midpoint/de.md)**. Bewege den Mauszeiger auf die Oberkante des höchsten Bogens, so dass das <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Mittelpunkt](Draft_Snap_Midpoint/de.md) Symbol erscheint; klicke um diesen Punkt auszuwählen.
-:   14.3. Gib den gewünschten {{MenuCommand|Text}} ein und drücke einmal **Enter**, um eine neue Zeile zu beginnen; füge bei Bedarf weitere Textzeilen hinzu.
+:   14.3. Gib den gewünschten **Text** ein und drücke einmal **Enter**, um eine neue Zeile zu beginnen; füge bei Bedarf weitere Textzeilen hinzu.
 :   14.4. Wenn du mit der Ausgabe fertig bist, drücke zweimal **Enter**.
 :   14.5. Wähle das Textobjekt in der [Baumansicht](tree_view/de.md) aus, und ändere im [Eigenschaftseditor](Property_editor/de.md) **Schriftgröße** in {{Value|6 mm}} und **Ausrichtung** in {{Value|Center}}.
 
@@ -210,7 +210,7 @@ Denke daran, die **Schriftgröße** und andere Eigenschaften anzupassen, damit d
 
 :   15.1. Drücke **<img src=images/Draft_ShapeString.svg style="width:16px"> [FormZeichenkette](Draft_ShapeString/de.md)**.
 :   15.2. Bewege den Zeiger an die gewünschte Stelle in der [3D Ansicht](3D_view/de.md) über dem regulären Polygon, und klicke einmal. Dadurch wird der Basispunkt für die FormZeichenkette festgelegt. Die Koordinaten können auch manuell eingegeben werden, zum Beispiel {{Value|(-20, 65, 0)}}.
-:   15.3. Gib die gewünschte {{MenuCommand|Zeichenkette}} ein und wähle die gewünschte {{MenuCommand|Höhe}}.
+:   15.3. Gib die gewünschte **Zeichenkette** ein und wähle die gewünschte **Höhe**.
 :   15.4. Wenn es keine Standardschriftartdatei gibt, musst du auf die Ellipsen **...** klicken, um ein Dialogfeld zur Auswahl des Speicherorts der Schriftart im System zu öffnen.
 :   15.5. Wenn eine gültige Schriftartdatei angegeben wurde, kannst du fortfahren, auf **OK** zu klicken oder **Enter** zu drücken.
 
@@ -219,7 +219,7 @@ Denke daran, die **Schriftgröße** und andere Eigenschaften anzupassen, damit d
 
 Um Buchstaben zu extrudieren und auf Volumenkörper zu gravieren, siehe das [Entwurf Formzeichenketten Tutorium](Draft_ShapeString_tutorial/de.md).
 
-## Erstellen technischer Zeichnungen {#erstellen_technischer_zeichnungen}
+## Erstellen technischer Zeichnungen 
 
 So wie es jetzt ist, können die von uns erstellten Objekte gespeichert, in andere Formate wie [SVG](SVG/de.md) oder [DXF](DXF/de.md) exportiert oder gedruckt werden.
 

@@ -2,11 +2,11 @@ FreeCAD doesn\'t offer swag that you can order from us to support the project. T
 
 Just download the files, head on to your favorite printing platform, and get them sent to you! By using the files below, you are guaranteed to get the true, authentic, official stuff!
 
-## T-shirts {#t_shirts}
+## T-shirts 
 
 Official FreeCAD t-shirts are very easy to produce! Download one of the full-resolution .png images below, then head to a printing website such as <https://zazzle.com> (this is one of the most well-known ones, you might easily find better or cheaper t-shirt printing site in your country), then select your t-shirt, add the image, stretch it as big as the platform allows, make sure you ask for printing in full 4 colors mode, and you\'re done!
 
-#### Version 0.11 {#version_0.11}
+#### Version 0.11 
 
 Example:
 
@@ -18,7 +18,7 @@ Downloadable file:
 
 <https://wiki.freecadweb.org/images/b/bc/Freecad-tshirt011-template.png>
 
-#### Version 0.19 {#version_0.19}
+#### Version 0.19 
 
 Example:
 

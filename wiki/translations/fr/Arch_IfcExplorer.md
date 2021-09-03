@@ -26,7 +26,7 @@ Le but de cet explorateur est simplement de vous permettre de vérifier ce qui e
 
 1.  Lancez l\'Explorateur Ifc via:
     -   En appuyant sur le bouton <img alt="" src=images/IFC.svg  style="width:24px;">
-    -   Utilisation de l\'entrée {{MenuCommand|Arch → Utilitaires → IfcExplorer}} dans le menu déroulant Arch.
+    -   Utilisation de l\'entrée **Arch → Utilitaires → IfcExplorer** dans le menu déroulant Arch.
 
 
 <div class="mw-translate-fuzzy">

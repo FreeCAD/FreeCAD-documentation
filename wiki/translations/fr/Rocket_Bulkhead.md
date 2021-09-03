@@ -15,7 +15,7 @@ Une cloison est une section solide de matériau utilisée pour fermer une sectio
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_Bulkhead.svg" width=16px> [Bulkhead](Rocket_Bulkhead/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Rocket  → <img src="images/Rocket_Bulkhead.svg" width=16px> Bulkhead}} dans le menu.
+    -   Sélectionnez l\'option **Rocket  → <img src="images/Rocket_Bulkhead.svg" width=16px> Bulkhead** dans le menu.
     -   Double-cliquez sur un objet Bulkhead dans la vue du modèle.
 2.  Définissez les options et appuyez sur **OK**.
 
@@ -79,7 +79,7 @@ Voir aussi : [:Category:API/fr](:Category:API/fr.md) et [Débuter avec les scrip
 
 A définir
 
-## Tutoriels et apprentissage {#tutoriels_et_apprentissage}
+## Tutoriels et apprentissage 
 
 [Tubes de corps, cloisons et anneaux de centrage Atelier Rocket](https://youtu.be/xi7acpw3eDA) Tutoriel sur YouTube
 

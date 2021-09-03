@@ -18,9 +18,9 @@ Hinweis: Fortgeschrittenere Defeaturing Werkzeuge können verwendet werden, wenn
 
 ## Installation
 
-### Automatisch (empfohlen) {#automatisch_empfohlen}
+### Automatisch (empfohlen) 
 
-Verwendung des FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) verfügbar in v0.17+ über {{MenuCommand|Werkzeuge → Erweiterungsverwalter}}. Suche nach dem <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> Defeaturing Arbeitsbereichssymbol . Der Erweiterungsverwalter benachrichtigt den Benutzer auch, wenn eine neue Version dieser Erweiterung verfügbar ist.
+Verwendung des FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) verfügbar in v0.17+ über **Werkzeuge → Erweiterungsverwalter**. Suche nach dem <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> Defeaturing Arbeitsbereichssymbol . Der Erweiterungsverwalter benachrichtigt den Benutzer auch, wenn eine neue Version dieser Erweiterung verfügbar ist.
 
 ### Manuell
 
@@ -106,7 +106,7 @@ Entfernen von Formelementen unter Verwendung neuer OCC7.3 Werkzeuge
 -   Toleranz lesen oder ändern
 -   Fuzzy Boolesche Operationen ausführen
 
-## Externe Arbeitsbereiche {#externe_arbeitsbereiche}
+## Externe Arbeitsbereiche 
 
 FreeCAD Arbeitsbereiche sind einfach zu programmieren in [Python](Python/de.md), daher gibt es viele Leute, die zusätzliche Arbeitsbereiche außerhalb der FreeCAD Hauptentwickler entwickeln.
 

@@ -17,15 +17,15 @@ See also [Common Airfoil Data Import](Common_Airfoil_Data_Import.md)
 
 <img alt="" src=images/Macro_Airfoil_Import_&_Scale_00.png  style="width:480px;">
 
-## Jak používat - verze 1.5 {#jak_používat___verze_1.5}
+## Jak používat - verze 1.5 
 
-### Vyberte soubor {#vyberte_soubor}
+### Vyberte soubor 
 
 Spuštění makra nejprve zobrazí uživateli prohlížeč souborů, který vám umožní vybrat požadovaný soubor datového souboru. Projděte si, kam jste uložili soubor profilu, vyberte jej a stiskněte Otevřít.
 
 ![File browser window for importing .dat airfoil files](images/File_browser.png )
 
-### Zadejte délku chordu {#zadejte_délku_chordu}
+### Zadejte délku chordu 
 
 Po výběru souboru profilu se objeví nové dialogové okno s žádostí o délku akordů. Může být zadána libovolná délka, v milimetrech. Po zadání požadované délky vytvoří makro předběžný vodič (DWire) podle bodů popsaných v dříve vybraném souboru profilu .dat v měřítku, které jste zadali pro délku akordy.
 
@@ -33,7 +33,7 @@ Po výběru souboru profilu se objeví nové dialogové okno s žádostí o dél
 
 Křídlový profil, správně měřítko, by nyní měl být ve vašem projektu připraven k použití.
 
-## Jak používat - verze 2 {#jak_používat___verze_2}
+## Jak používat - verze 2 
 
 Volba souboru je stejná jako verze 1.5. S verzí 2 máte nyní možnost mít buď výsledný profil vytvořený pomocí DWire nebo Basic Spline (BSpline). Stejně jako u verze 1.5 zadáte požadovanou délku. Dále můžete vybrat, který typ fólie chcete. Stačí kliknout na přepínač BSpline nebo nechat jako výchozí DWire.
 
@@ -45,7 +45,7 @@ Volba souboru je stejná jako verze 1.5. S verzí 2 máte nyní možnost mít bu
 
 The latest version of the macro is to be found at [AirfoilImportAndScale.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/AirfoilImportAndScale.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Addon_Manager.md).
 
-### Version 2.1.2 {#version_2.1.2}
+### Version 2.1.2 
 
 ToolBar icon ![](images/Macro_Airfoil_Import_&_Scale.png )
 
@@ -204,7 +204,7 @@ AirfoilImporterAndScaler()
 </nowiki>
 }}
 
-### Version 1.5 {#version_1.5}
+### Version 1.5 
 
 **Macro\_Airfoil\_Import\_&\_Scale.FCMacro**
 
@@ -290,7 +290,7 @@ p()
 
 }}
 
-## Úprava výchozího výběru {#úprava_výchozího_výběru}
+## Úprava výchozího výběru 
 
 Pokud si přejete, aby vaše importované a zmenšené profilové lišty byly vytvořeny s BSplines spíše než s DWires, Marco může být předem nastaven na Bspline. To se provádí úpravou řádku - {{ExampleCode|example=
 self.radio1.setChecked(True)
@@ -301,7 +301,7 @@ self.radio2.setChecked(True)
 }}
 Poznámka k tomuto je obsažena v textu makra.
 
-## Version 2 {#version_2}
+## Version 2 
 
 
 {{VeryImportantMessage|'''Varování - pomocí tohoto makra s verzemi FreeCADu menší než 0,14, revize 3077 nebude produkovat očekávané výsledky při použití možnosti BSpline a může mít za následek zhroucení FreeCADu a ztrátu neuložených dat!'''}}
@@ -415,7 +415,7 @@ p()
 </nowiki>
 }}
 
-### Version 2.1 {#version_2.1}
+### Version 2.1 
 
 Updated by mangtronix to use PySide instead of PyQt (used in older versions of FreeCAD)
 

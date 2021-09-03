@@ -29,7 +29,7 @@ Note:
     -   in Linux usually Mod path is usr/lib/freecad/Mod. You must open .Mod as administrator and you must give access permissions to all files of \"gear\". You can also copy to the local Mod: \~/.FreeCAD/Mod
 -   since FCGear requires \"NUMPY\", which is only included since FreeCAD 0.15.4671, it won\'t run on older versions of FreeCAD
 
-## Create a gear {#create_a_gear}
+## Create a gear 
 
 -   go to the gear workbench
 -   click on gear symbol

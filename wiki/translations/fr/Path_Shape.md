@@ -88,12 +88,12 @@ Empty
 
 </div>
 
-#### DocString Info {#docstring_info}
+#### DocString Info 
 
 
 <div class="mw-translate-fuzzy">
 
-#### DocString Info {#docstring_info_1}
+#### DocString Info 
 
 Renvoie un objet Path à partir d\'une liste de formes
 

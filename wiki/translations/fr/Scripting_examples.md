@@ -3,7 +3,7 @@
 
 
 
-## Présentation des pages de script Python {#présentation_des_pages_de_script_python}
+## Présentation des pages de script Python 
 
 -   Pages relatives à Python dans le manuel :
     -   [Manuel : Petite introduction à Python](Manual:A_gentle_introduction/fr.md)

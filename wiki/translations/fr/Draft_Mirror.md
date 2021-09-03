@@ -24,10 +24,10 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
 1.  En option, sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Mirror.svg" width=16px> [Créer une symétrie des objets...](Draft_Mirror/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → <img src="images/Draft_Mirror.svg" width=16px> Miroir}} dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Mirror.svg" width=16px> Miroir** dans le menu.
     -   Utilisez le raccourci clavier : **M** puis **I**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
-4.  Le panneau de tâches {{MenuCommand|Mirror}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+4.  Le panneau de tâches **Mirror** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 5.  Choisissez le premier point du plan miroir dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 6.  Choisissez le deuxième point du plan miroir dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 7.  Le plan miroir est défini par les points sélectionnés et la normale du [DraftPlan de travail](Draft_SelectPlane/fr.md).
@@ -37,10 +37,10 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
 Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md).
 
 -   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur **R** ou cliquez sur la case {{MenuCommand|Relative}} pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyez sur **G** ou cliquez sur la case {{MenuCommand|Global}} pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   La case à cocher {{MenuCommand|Continue}} n\'a aucune utilité pour cette commande.
--   La case à cocher {{MenuCommand|Modifier les sous-éléments}} n\'a pas d\'utilité pour cette commande.
+-   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   La case à cocher **Continue** n\'a aucune utilité pour cette commande.
+-   La case à cocher **Modifier les sous-éléments** n\'a pas d\'utilité pour cette commande.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 
@@ -53,7 +53,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : {{MenuCommand|Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales}}.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
 
 ## Propriétés
 

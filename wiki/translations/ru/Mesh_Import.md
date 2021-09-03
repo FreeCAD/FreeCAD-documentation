@@ -18,15 +18,15 @@ The **Mesh Import** command imports geometry from a mesh file format into the ac
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_Import.svg" width=16px> [Mesh Import](Mesh_Import.md)** button.
-    -   Select the {{MenuCommand|Meshes → <img src="images/Mesh_Import.svg" width=16px> Import mesh...}} option from the menu.
-    -   Select the {{MenuCommand|<img src="images/Mesh_Import.svg" width=16px> Import mesh...}} option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu. This option is only available if an existing mesh object has been selected. Note that the selected object is actually not used or modified by the command.
+    -   Select the **Meshes → <img src="images/Mesh_Import.svg" width=16px> Import mesh...** option from the menu.
+    -   Select the **<img src="images/Mesh_Import.svg" width=16px> Import mesh...** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu. This option is only available if an existing mesh object has been selected. Note that the selected object is actually not used or modified by the command.
 2.  Optionally select the correct file format in the dialog box.
 3.  Select a file.
 4.  Press the **Open** button.
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Properties
 

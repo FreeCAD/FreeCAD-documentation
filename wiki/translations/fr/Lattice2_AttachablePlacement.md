@@ -17,7 +17,7 @@ La commande <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="widt
 1.  Basculez vers l\'atelier externe <img alt="" src=images/Lattice2_workbench_icon.svg  style="width:24px;"> [Lattice2](Lattice2_Workbench/fr.md)
 2.  Appelez la commande Placement attaché de plusieurs manières:
     -   Appuyez sur l\'icône <img alt="" src=images/_Lattice2_AttachablePlacement.svg  style="width:24px;"> dans la barre d\'outils Lattice2
-    -   Utilisez la {{MenuCommand|Lattice2 → Attached Placement → Attached Placement}} dans la liste déroulante Lattice2
+    -   Utilisez la **Lattice2 → Attached Placement → Attached Placement** dans la liste déroulante Lattice2
     -   Utilisez le raccourci clavier {{KEY}} {{KEY}}
 3.  Choisissez les options du menu de dialogue
 

@@ -13,7 +13,7 @@ La commande **Std Tout enregistrer** enregistre tous les documents actifs.
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Fichier → <img src="images/Std_SaveAll.svg" width=16px> Enregistrer tout}} dans le menu.
+1.  Sélectionnez l\'option **Fichier → <img src="images/Std_SaveAll.svg" width=16px> Enregistrer tout** dans le menu.
 2.  Pour les nouveaux documents: saisissez un nom de fichier dans la boîte de dialogue et appuyez sur le bouton **Enregistrer**.
 
 ## Options
@@ -22,7 +22,7 @@ La commande **Std Tout enregistrer** enregistre tous les documents actifs.
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

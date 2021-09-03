@@ -34,7 +34,7 @@ Si aucun objet est sélectionné, tous les objets sont cachés
 
 Si tous les objets sont cachés et non sélectionné(s) tous les objets deviennent visibles
 
-## Script 1 {#script_1}
+## Script 1 
 
 ToolBar Icon <img alt="" src=images/Macro_SelectVisible2.png  style="width:64px;">
 
@@ -76,7 +76,7 @@ try:
 except Exception:
     None }}
 
-## Script 2 {#script_2}
+## Script 2 
 
 ToolBar <img alt="" src=images/Macro_VisibleAlls2.png  style="width:64px;">
 

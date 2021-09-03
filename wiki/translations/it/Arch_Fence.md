@@ -18,7 +18,7 @@
 
 ## Utilizzo
 
-### Creare dall\'inizio {#creare_dallinizio}
+### Creare dall\'inizio 
 
 
 <div class="mw-translate-fuzzy">

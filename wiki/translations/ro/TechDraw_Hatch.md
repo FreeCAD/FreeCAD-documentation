@@ -24,7 +24,7 @@ The Hatch tool fills a closed region in a View with a hatch pattern, which can b
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Select an closed region in a View. The region will turn green.
 2.  Press the <img alt="" src=images/TechDraw_Hatch.png  style="width:16px;"> **Hatch** button

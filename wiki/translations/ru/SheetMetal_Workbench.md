@@ -49,13 +49,13 @@ A detailed description of the tools can be found [on the author\'s blog](http://
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Make Forming in Wall](SheetMetal_Forming.md): Creates forming tool.
 
-## Two complementary tools {#two_complementary_tools}
+## Two complementary tools 
 
-### Create a basic profile {#create_a_basic_profile}
+### Create a basic profile 
 
 Omega-shaped tool: make a part from a simple multiline created in sketcher or draft, give it height and thickness centered, left or right of this line, be careful not to create selfintersection in closed folds of lesser space as the material thickness.
 
-### Fold along a line {#fold_along_a_line}
+### Fold along a line 
 
 Fold a \"flat\" base plate along a line (rectangle crossed out by a line): select the face, then the line and the tool, choose the angle, the radius, the side, the position of the fold relative to the line is not very well defined; it seems that the line is the intersection edge at the extension of the 2 faces.
 
@@ -70,25 +70,25 @@ Fold a \"flat\" base plate along a line (rectangle crossed out by a line): selec
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:800px">
 
-### Sheet Metal Tutorial by meme2704 {#sheet_metal_tutorial_by_meme2704}
+### Sheet Metal Tutorial by meme2704 
 
 The following tutorial is reproduced from the PDF tutorial mentioned in [Links](#Links.md).
 
 
 <div class="mw-collapsible-content">
 
-#### Presentation of the workbench {#presentation_of_the_workbench}
+#### Presentation of the workbench 
 
 After downloading the extension and install, open it. ![](images/sm1.png )
 
-#### 1st operation {#st_operation}
+#### 1st operation 
 
 -   Get the base: use either the workbenches \"part\" or \"draft\", make 1 sketch that will contain all holes and any cuts, extrude this base to the thickness of the sheet.
 -   Bear in mind that the edges will always be in addition as well as the folding radii.
 
 ![](images/sm2.png )
 
-#### 2nd operation {#nd_operation}
+#### 2nd operation 
 
 -   Open the Sheet\_metal workbench.
 -   Select 1 thickness of the edge (edge) of the base plate and click on the \"bend\" tool 90° default bend angle can be changed from 0 to 90°.
@@ -120,7 +120,7 @@ Choose 1 reference face (here the orange face) and click on the button in the to
 We obtain the blue part of which it is enough to modify the values X, Y, or Z to see it in totality.
 ![](images/sm6.png )
 
-#### Cut the flaps at 45° {#cut_the_flaps_at_45}
+#### Cut the flaps at 45° 
 
 After folding the flaps without having made a withdrawal, the shape thus appears. ![](images/sm7a.png ) To do it must split at 45 ° (or following the bisector flaps are unequal width).
 \* Create 1 new skit related to the common part of the 2 flaps.
@@ -130,23 +130,23 @@ After folding the flaps without having made a withdrawal, the shape thus appears
 
 Be careful not to scratch the \"hinge\" where the nakedness of bound the tip of the triangle at the edge of the fold line. ![](images/sm8a.png ) Unfolding ![](images/sm9.png )
 
-#### Piercing edges and flaps {#piercing_edges_and_flaps}
+#### Piercing edges and flaps 
 
 Make these holes and cuts after folding and before unfolding.
 Always take care not to \"scratch\" the fold lines.
 ![](images/sm10.png )
 
-#### Make wired flaps {#make_wired_flaps}
+#### Make wired flaps 
 
 Make 1 fold on the edge of the side, at 45 ° of 0.1mm long, then 1 other reverse at 45 ° of the length of the contiguous flap, then extend the opposite side, it will pass over and they will not be merged.
 ![](images/sm11.png )
 
-#### Special case of this same pierced edge {#special_case_of_this_same_pierced_edge}
+#### Special case of this same pierced edge 
 
 In this particular case, unfolding only works by choosing the yellow face as a reference.
 ![](images/sm12.png )
 
-#### Special case hole straddling the folds {#special_case_hole_straddling_the_folds}
+#### Special case hole straddling the folds 
 
 Previously it is said several times that it is not necessary to cut the folding lines.
 How to do ?
@@ -186,7 +186,7 @@ How to do ?
 -   Official blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Source code on github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
-## External workbenches {#external_workbenches}
+## External workbenches 
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
 

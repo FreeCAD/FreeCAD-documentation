@@ -55,7 +55,7 @@ Questo ambiente può essere facilmente installato e aggiornato dal [Addon Manage
 
 ATM this workbench is only available in the French language.
 
-## Technical Details {#technical_details}
+## Technical Details 
 
 From a technical point of view, the workbench is composed of:
 
@@ -80,7 +80,7 @@ From a technical point of view, the workbench is composed of:
 
 </div>
 
-## Ambienti aggiuntivi {#ambienti_aggiuntivi}
+## Ambienti aggiuntivi 
 
 Gli ambienti di FreeCAD sono facili da programmare in [Python](Python/it.md), quindi ci sono molte persone che sviluppano ambienti aggiuntivi al di fuori degli sviluppatori principali di FreeCAD.
 

@@ -16,7 +16,7 @@ Unites (fuses) selected Part objects into one. This operation is fully parametri
 
 This command allows you to perform quickly this [Boolean operation](Part_Booleans.md).
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați două forme
 2.  Apăsați butonul **<img src="images/Part_Fuse.png" width=16px> '''Part Union'''**.
@@ -27,9 +27,9 @@ This command allows you to perform quickly this [Boolean operation](Part_Boolean
 1.  Select two or more shapes
 2.  There are several ways to invoke the command:
     -   Press the **![](images/) Part Fuse** button in the **Part tools** toolbar
-    -   Use the {{MenuCommand|Part → Boolean → Union}} entry in the Part menu
+    -   Use the **Part → Boolean → Union** entry in the Part menu
 
-## Intrări suportate {#intrări_suportate}
+## Intrări suportate 
 
 Elementele de intrare trebuie să fie forme OpenCascade. Exemple: chestii realizate cu Atelierele: Part, PartDesign, Sketcher. Nu este vorba despre plase (cu excepția cazului în care acestea au fost convertite în forme) - pentru ochiurile de plasă, există unelte specifice Booleene în Atelierul de lucru MeshDesign.
 

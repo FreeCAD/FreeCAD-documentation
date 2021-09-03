@@ -22,7 +22,7 @@ Filamentul/Fațete trebuie să fie în același plan.Pot exista mai multe filame
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Selectați un obiect pentru decalaj/offset
 2.  Apăsați butonul **<img src=images/Part_Offset2D.svg style="width:24px">** **Offset2D**.
@@ -74,7 +74,7 @@ Se creează un obiect parametric de offset 2D. Obiectele originale sunt comutate
 
 :   ![600px](images/Part_Offset2D_Fill.png)
 
-## Probleme cunoscute {#probleme_cunoscute}
+## Probleme cunoscute 
 
 -   Majoritatea modurilor non-implicite vor funcționa numai cu OCC 7.0.0 sau o versiune ulterioară.
 
@@ -98,7 +98,7 @@ Se creează un obiect parametric de offset 2D. Obiectele originale sunt comutate
 
 -   Filamentele decalajul/Offset din segmentul cu o singură linie nu sunt acceptate (deoarece segmentul de linie nu definește un plan). Segmentele de linie unice nu pot participa la decalajul/offset colectivă.
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 Instrumentul poate fi utilizat în [macros](macros.md) și din consola python utilizând următoarea funcție: {{code|code=
 f = App.ActiveDocument.addObject("Part::Offset2D", "Offset2D")

@@ -7,7 +7,7 @@
 
 Prostředky k duplikování objektů (odstavců, buněk tabulkových kalkulátorů, obrázků, atd.) jsou k dispozici u mnoha aplikací. FreeCAD není výjimkou. Objekty [Dokumentu](Document_structure.md) mohou být libovolně kopírovány uvnitř dokumentu nebo mezi dokumenty použitím [Kopírovat](Std_Copy.md), [Vložit](Std_Paste.md) a příkazem [Duplikovat výběr](Std_DuplicateSelection.md).
 
-## Kopírování propojených objektů {#kopírování_propojených_objektů}
+## Kopírování propojených objektů 
 
 Objekty [Dokumentu](Document_structure.md) mohou být propojeny na jiné objekty (např. deska může být propojena se svým náčrtem a Fusion feature je propojena s svými komponentními objekty). To znamená, že stejně musí být postaráno i o kopírované objekty.
 
@@ -18,7 +18,7 @@ Objekty [Dokumentu](Document_structure.md) mohou být propojeny na jiné objekty
 
 Please consider that the copy-pasted objects are not dependent on the original. If You want dependant clones please use <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [ Draft Workbench\'s Clone](Draft_Clone.md) or <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;"> [ Part Design Workbench\'s Clone](PartDesign_Clone.md). If you need a dependant clone nor a parametric replica, you may also use <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [ Part Workbench\'s Simple Copy](Part_SimpleCopy.md). For patterned clones, please look into the [ Other Methods section](Copying_Objects#Other_Methods.md) of this page.
 
-## Copying Linked Objects {#copying_linked_objects}
+## Copying Linked Objects 
 
 [Document](Document_structure.md) objects may be linked to other objects (for example, a Pad feature is linked to its Sketch, and a Fusion feature is linked to its component objects). This means that some care must be exercised in selecting objects to copy.
 
@@ -37,7 +37,7 @@ In general, recommended practice is to select all dependent objects when copying
 
 Obecně doporučovaná praxe je při kopírování rodičovského objektu vybrat všechny závislé objekty.
 
-## Hledání a pozicování vkládaných objektů {#hledání_a_pozicování_vkládaných_objektů}
+## Hledání a pozicování vkládaných objektů 
 
 Po operaci Kopírovat/Vložit nemusí být zřejmé kde jsou zkopírované objekty v okně dokumentu umístěny. Je to proto, že nový objekt má stejnou vlastnost [Umístění](Placement.md) jako měl originál. Přepnutím vlastnosti Viditelnost (mezerníkem) skryjete originál. Potom použijete dialog Umístění abyste přesunuli nový objekt na jeho správnou pozici.
 
@@ -47,7 +47,7 @@ Po operaci Kopírovat/Vložit nemusí být zřejmé kde jsou zkopírované objek
 
 <div class="mw-translate-fuzzy">
 
-## Další metody {#další_metody}
+## Další metody 
 
 Jako mnoho věcí ve FreeCADu, je mnoho způsobů jak vytvořit kopii. Pro další inspiraci se podívejte na:
 

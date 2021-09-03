@@ -30,7 +30,7 @@ Der Dialog zum Erstellen von Schiffsaufgaben und einige Anmerkungen unter [3D An
 
 Die meisten relevanten Schiffsdaten müssen eingeführt werden (das Schiff verwendet ein progressives Dateneinführungssystem, so dass grundlegende Operationen durchgeführt werden können, wenn nur die grundlegenden Schiffsdaten bekannt sind; mit zunehmender Komplexität der Operationen werden mehr Informationen benötigt).
 
-## Ship data {#ship_data}
+## Ship data 
 
 
 <div class="mw-translate-fuzzy">

@@ -1,7 +1,7 @@
  <img alt="" src=images/DynamicData_workbench_icon.svg  style="width:240px;"> 
 *align=center|Icône atelier externe FreeCAD Données dynamiques*
 
-## Vue d\'ensemble {#vue_densemble}
+## Vue d\'ensemble 
 
 
 {{TOCright}}
@@ -25,7 +25,7 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 -   Code source hébergé sur GitHub : [github.com](https://github.com/mwganson/DynamicData)
 -   [Documentation officielle complète](https://github.com/mwganson/DynamicData/blob/master/README.md)
 
-## Ateliers externes {#ateliers_externes}
+## Ateliers externes 
 
 Les ateliers FreeCAD sont faciles à programmer en [Python](Python/fr.md), de ce fait, beaucoup de personnes développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
 

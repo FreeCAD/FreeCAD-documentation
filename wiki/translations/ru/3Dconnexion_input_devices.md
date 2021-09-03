@@ -3,7 +3,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Установка драйверов {#установка_драйверов}
+## Установка драйверов 
 
 ### Linux
 
@@ -12,21 +12,21 @@ FreeCAD поддерживает драйвера из проекта [Spacenav]
 
 </div>
 
-### Linux {#linux_1}
+### Linux 
 
 FreeCAD supports drivers from project [Spacenav](http://spacenav.sourceforge.net/). This is a project aiming to create an open-sourced driver which is compatible with the proprietary drivers from 3Dconnexion.
 
 
 <div class="mw-translate-fuzzy">
 
-#### Установка из репозитория {#установка_из_репозитория}
+#### Установка из репозитория 
 
 ##### Ubuntu
 
 
 </div>
 
-##### Ubuntu {#ubuntu_1}
+##### Ubuntu 
 
 
 ```python
@@ -93,7 +93,7 @@ sudo zypper install spacenavd
 
 <div class="mw-translate-fuzzy">
 
-#### Компиляция Spacenav из исходников {#компиляция_spacenav_из_исходников}
+#### Компиляция Spacenav из исходников 
 
 Это рекомендуется если Ваш дистрибутив предлагает устаревшую версию.
 
@@ -228,7 +228,7 @@ This is recommended if your distribution might provide an outdated version.
 
 -   Следуйте той же схеме для компиляции и установки spnavcfg. Обязательно запустите spnavcfg как root, или установки не будут сохранены!
 
-#### Starting spacenavd as a systemd service at boot {#starting_spacenavd_as_a_systemd_service_at_boot}
+#### Starting spacenavd as a systemd service at boot 
 
 If you want to start spacenavd at boot using systemd, do the following:
 
@@ -259,7 +259,7 @@ sudo /etc/init.d/spacenavd restart
 
 После этого перезапустите FreeCAD. В некоторых дистрибутивах это необходимо при каждой загрузке.
 
-### Known Issues {#known_issues}
+### Known Issues 
 
 A user reported on the [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) they saw the following:
 
@@ -304,7 +304,7 @@ sudo systemctl restart spacenavd
 
 As of version 0.13, 3D mouse is supported under Windows. You need to have 3Dconnexion drivers installed.
 
-#### Known Issue {#known_issue}
+#### Known Issue 
 
 There is an issue where 3Dconnexion sends duplicate scroll events to FreeCAD, which causes the view to jump. To fix it:
 
@@ -319,7 +319,7 @@ ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
 <div class="mw-translate-fuzzy">
 
-## Установка FreeCAD {#установка_freecad}
+## Установка FreeCAD 
 
 Поддержка трёхмерных мышей сделана с помощью проекта spnav на Linux, и на очень низком уровне на Windows. Это значит что нет поддержки к каким-либо установкам устройства, поскольку на Linux нет хорошей поддержки этого, и на Windows это переопределено. Вот поэтому для диалога \"Customize\" добавлено две дополнительные страницы.
 
@@ -333,7 +333,7 @@ ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
 <div class="mw-translate-fuzzy">
 
-### Spaceball Motion {#spaceball_motion}
+### Spaceball Motion 
 
 На этой вкладке Вы можете назначить некоторые общие установки пространственной мыши. Это включает:
 
@@ -367,7 +367,7 @@ In this tab you have ability to set up some of general space mouse settings. The
 
 <div class="mw-translate-fuzzy">
 
-### Spaceball Buttons {#spaceball_buttons}
+### Spaceball Buttons 
 
 Когда Вы откроете эту вкладку в первый раз, она будет пуста и не доступна. Чтобы её активировать, надо нажать одну из кнопок пространственной мыши. После этого слева появится список кнопок, а справа - список команд.
 

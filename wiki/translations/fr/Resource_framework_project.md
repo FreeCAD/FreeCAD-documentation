@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 C\'est le plan du projet, dans le cadre des ressources de FreeCAD, inscrit dans la feuille de [route de développement](Development_roadmap/fr.md).
 
-## Objets et principes {#objets_et_principes}
+## Objets et principes 
 
 Il s\'agit d\'un projet de développement logiciel visant à mettre en œuvre les capacités [Product Data Management (PDM)](http://fr.wikipedia.org/wiki/Système_de_gestion_de_données_techniques) (Système de gestion de données techniques). Il s\'agit de mettre en œuvre les instances nécessaires.
 
@@ -26,7 +26,7 @@ Les étapes de développement sont prévues ici, et suivies dans le système de 
 
 ## Réflexions
 
-### Ce que font les autres {#ce_que_font_les_autres}
+### Ce que font les autres 
 
 Voici quelques liens sur des produits commerciaux comparables :
 
@@ -34,7 +34,7 @@ Voici quelques liens sur des produits commerciaux comparables :
 
 -   Aras Corp [Aras PLM Software](http://www.aras.com/) - Ils semblent offrir des solutions Open Source, ce qui peut être intéressant, à étudier plus tard \...
 
-### Cas d\'utilisation {#cas_dutilisation}
+### Cas d\'utilisation 
 
 *Provided by Charles:*
 
@@ -49,7 +49,7 @@ Je vois les méthodes différentes suivantes de développement (il doit aussi y 
 
 -   Projet plus hiérarchiquement rigide - il peut y avoir certains projets où les équipes préfèrent cet arrangement, mais je ne vois pas cela comme étant constructif au sein des entreprises.
 
-#### Le site Blendswap {#le_site_blendswap}
+#### Le site Blendswap 
 
 [Blendswap](http://www.blendswap.com/) - leurs propres mots - sont **\"\... l\'endroit idéal pour trouver et partager des projets avec le monde entier, faites des projets impressionnants, les partager dans le plus grand dépôt Open Source 3D, les effectuer avec la géniale suite Open Source 3D, qu\'est Blender.\"**
 
@@ -62,7 +62,7 @@ Blendswap est un excellent exemple de **ligne de conduite**. Je crois que les pr
 -   Fournir des images détaillées sur le site. Cela permet aux visiteurs de naviguer librement, et de trouver rapidement un contenu.
 -   Les modèles (fichiers blend) ont des licences claires et détaillées (ces informations sont également consultables rapidement en voyant l\'image, via le logo [Creative Commons](http://fr.wikipedia.org/wiki/Creative_Commons)).
 
-### Possibilités de contrôler la version du système {#possibilités_de_contrôler_la_version_du_système}
+### Possibilités de contrôler la version du système 
 
 C\'est seulement un petit pas, que de penser au contrôle de révision, cette méthode est utilisée dans le développement de logiciels modernes. Il y a fondamentalement deux approches différentes de la matière :
 
@@ -75,11 +75,11 @@ Bien que les cas d\'utilisations d\'un système de demande de révision de contr
 
 Dans un projet distribué par internet, il est nécessaire que chaque document comporte une licence claire. Encore plus important, si vous pensez à les cataloguer. Pièces détachées utilisées pour des projets (libre et non libre), et, il faut donc une licence libre, pour usage clair. Comme il y a plusieurs systèmes d\'octroi de licences, il y en a de différentes sorte, ici un ensemble de licences possibles pour les fichiers CAD :
 
-#### Creative Commons {#creative_commons}
+#### Creative Commons 
 
 Les licences CC sont très populaires pour le matériel créatif, vous pouvez trouver la description ici : [Creative Commons](http://creativecommons.org/).
 
-#### ISO 16016 {#iso_16016}
+#### ISO 16016 
 
 fraganaut01 nous donne une fiche à un autre système de licences pour la CAO :
 
@@ -118,7 +118,7 @@ Tout d\'abord, les différentes alternatives des systèmes de contrôle de révi
 
 Une **class design** pour le Resource framwork.
 
-## Actions suivantes {#actions_suivantes}
+## Actions suivantes 
 
 -   Construire des référentiels de tests sur le serveur, et deux machines locales.
 -   Testez les différents cas d\'utilisation.

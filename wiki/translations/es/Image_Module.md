@@ -21,7 +21,7 @@ El <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Ambiente de
 -   La imagen se importa con relación de 1 píxel a 1 milímetro.
 -   La recomendación es que la imagen importada tenga una resolución razonable.
 
-## Flujo de trabajo {#flujo_de_trabajo}
+## Flujo de trabajo 
 
 Un uso principal de este ambientes de trabajo es trazar sobre la imagen, con las herramientas [Borrador](Draft_Workbench/es.md) o [Croquizador](Sketcher_Workbench/es.md), para generar un cuerpo sólido basado en los contornos de la imagen.
 

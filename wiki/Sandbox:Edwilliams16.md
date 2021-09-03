@@ -1,4 +1,4 @@
-## Manipulating Vectors in FreeCAD {#manipulating_vectors_in_freecad}
+## Manipulating Vectors in FreeCAD 
 
 Vectors are ubiquitous in FreeCAD, describing point locations and displacements.
 
@@ -46,7 +46,7 @@ This gives us alternative way of creating vectors. If we\'d like, for instance, 
 
 v2.Length * v1.normalize()
 
-### Dot and cross products of vectors {#dot_and_cross_products_of_vectors}
+### Dot and cross products of vectors 
 
 Other than addition and subtraction, there are other geometrically meaningful ways of combining two vectors.
 
@@ -135,7 +135,7 @@ rotVec = rot.multVec(v1)
 
 Note that we input the angle in degrees, but if we query it with rot.Angle we get the internal value in radians.
 
-### Successive rotations and Euler Angles {#successive_rotations_and_euler_angles}
+### Successive rotations and Euler Angles 
 
 See <https://wiki.freecadweb.org/Placement#Position_and_Yaw.2C_Pitch_and_Roll>
 
@@ -185,7 +185,7 @@ Note that since rotation axes are stored normalized, rxy.Axis returns Vector(0.5
 
 Note that the rot1.isSame(rot2, tolerance) method tests True if rot1 and rot2 create the same result. For instance, Rotation(Vector(0, 0, 1), 90), Rotation(Vector(0, 0, 1), -270)and Rotation(Vector(0, 0, -1), 270) test True with isSameeven though their Axis and Angleproperties differ, and are stored as created.
 
-#### slerp (Spherical Linear Interpolation.) {#slerp_spherical_linear_interpolation.}
+#### slerp (Spherical Linear Interpolation.) 
 
 This is a function widely used in animation. Suppose you wanted to smoothly rotate an object from one orientation, rot1 to another, rot2. You would need to create a series of intermediate orientations. rot1.slerp(rot2, 0.3) creates a rotation 30% of the way between the two. As a simple example:
 
@@ -199,7 +199,7 @@ rotbetween.Angle # pi/4 = 45 degrees = 30 + 0.3*(80 - 30)
 
 This example is simple because rot1 and rot2 happen to have the same axis. Slerp works in the general case. [](https://en.wikipedia.org/wiki/Slerp)
 
-#### Offset rotations {#offset_rotations}
+#### Offset rotations 
 
 Rotation(axis angle) represents rotations about the direction axis through the origin. What if we wish to rotate a point P about an axis offset from the origin by the Vector C? We break our Vector P into the two parts C and P - C. The first part remains fixed, the second rotates, resulting in 
 ```python 
@@ -207,7 +207,7 @@ rot = Rotation(axis, angle)
 newP = C + Rotation.multVec(P -  C)
 ```
 
-### Some other Vector Methods {#some_other_vector_methods}
+### Some other Vector Methods 
 
 Let v, v0, v1, v2 etc. be Vectors
 
@@ -248,7 +248,7 @@ def placements_same(pl1, pl2, tol = 1e-7):
     return pl1.Rotation.isSame(pl2.Rotation, tol) and pl1.Base.isEqual(pl2.Base, tol)   
 ```
 
-#### Compound placement {#compound_placement}
+#### Compound placement 
 
 ![Nested placements](images/Sample_Assembly_structure.png ) The document **macroplacement**, whose tree-view is illustrated above, contains two objects, **Body** and **Cube**. The **Part** container\'s location in the document\'s global coordinate system (GCS) is given by its Placement property. Likewise, **Part001**\'s location **Part**\'s LCS is given by its Placement. The global placements of the objects are determined by multiplying the chain of placements, starting from the root. Note that the features inside the Body container (Pad) have the placement of the Body.
 
@@ -263,7 +263,7 @@ gplBody1 = doc.getObject('Body').getGlobalPlacement() #from built-in method
 placements_same(gplBody, gplBody1) #  returns True
 ```
 
-#### Manipulating global Placement. {#manipulating_global_placement.}
+#### Manipulating global Placement. 
 
 Changing any of the placements in the chain will change the global placements of the children.  Suppose we wish to change the global placement of **Body** by changing the placement of **Part001**. We express the desired change in global placement of **Body** as delta_global
 
@@ -282,7 +282,7 @@ gplBodyNew1 = doc.getObject('Body').getGlobalPlacement()  # new placement
 placements_same(gplBodyNew, gplBodyNew1) #  returns True - it works!
 ```
 
-### Vertex Coordinates {#vertex_coordinates}
+### Vertex Coordinates 
 
 Selecting a vertex in the 3D view displays its global coordinates and its name. We can obtain the local coordinates as follows. 
 ```python

@@ -18,7 +18,7 @@ Acesta este un proiect de articol despre simularea Robotică. Acesta urmează re
 
 </div>
 
-## Scop și principii {#scop_și_principii}
+## Scop și principii 
 
 Acest proiect ar trebui să stabilească principalele tehnologii pentru o simulare realistă a robotului în FreeCAD. În primul pas acesta vizează robotul industrial standard cu 6 axe.
 
@@ -33,7 +33,7 @@ Simularea Robotului
 
 <div class="mw-translate-fuzzy">
 
-### Biblioteci în domeniu {#biblioteci_în_domeniu}
+### Biblioteci în domeniu 
 
 -   [OROCOS](http://www.orocos.org/)libs for inverse kinematic
 -   [ROBOOP](http://www.cours.polymtl.ca/roboop/) targets directly to robot simulation, but seems inactive.
@@ -45,7 +45,7 @@ Simularea Robotului
 
 <div class="mw-translate-fuzzy">
 
-### Standarde de comuncție {#standarde_de_comuncție}
+### Standarde de comuncție 
 
 -   [OPC UA](http://en.wikipedia.org/wiki/OPC_Unified_Architecture) to communicate with PLCs
 -   [RRS-II](http://www.ipk.fraunhofer.de/geschaeftsfelder/automatisierungstechnik/prozessautomatisierung-und-robotik/forschung-und-entwicklung/rrs-realistic-robot-simulation) German standard for robot simulation communication
@@ -53,7 +53,7 @@ Simularea Robotului
 
 </div>
 
-### Middleware pentru comuncație {#middleware_pentru_comuncație}
+### Middleware pentru comuncație 
 
 
 <div class="mw-translate-fuzzy">
@@ -64,7 +64,7 @@ Simularea Robotului
 
 </div>
 
-### Produse comercial în acest domeniu {#produse_comercial_în_acest_domeniu}
+### Produse comercial în acest domeniu 
 
 -   [Visual Components](http://www.visualcomponents.com/Solutions/Robot-Simulation)
 -   [Delmia](http://www.3ds.com/products/delmia/welcome/)
@@ -95,7 +95,7 @@ Simularea Robotului
 -   Procesul și controlul celulelor de lucru (planificate)
 -   Film realizarea simulării (planificate)
 
-## Următoarele acțiuni {#următoarele_acțiuni}
+## Următoarele acțiuni 
 
 -   Managementul traiectoriei și a punctelor de trecere.
 

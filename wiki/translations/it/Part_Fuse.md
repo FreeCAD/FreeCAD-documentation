@@ -22,9 +22,9 @@ Il comando <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Unione](P
 1.  Selezionare una o due forme.
 2.  Invocare il comando Unione in uno di questi modi:
     -   Premere il pulsante **<img src="images/Part_Fuse.svg" width=16px> Unione** della barra degli strumenti di Parte
-    -   Usare {{MenuCommand|Part → Booleana → Unione}} nel menu principale
+    -   Usare **Part → Booleana → Unione** nel menu principale
 
-## Input supportati {#input_supportati}
+## Input supportati 
 
 Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.md). Ad esempio: cose fatte con gli ambienti Parte, PartDesign o Sketcher. Non mesh (a meno che essi non siano stati convertiti in Forme). Per gli oggetti mesh ci sono strumenti booleani specifici nell\'ambiente Mesh.
 
@@ -40,7 +40,7 @@ I composti sono supportati a condizione che le forme confezionate in un composto
 
 Gli elementi possono essere aggiunti e rimossi dalla fusione, trascinandoli dentro o fuori dalla funzione fusione nella vista ad albero, con il mouse. È necessario un ricalcolo manuale (premere il tasto **F5** o fare clic sull\'icona <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Aggiorna/Ricalcola](Std_Refresh/it.md)) per vedere i risultati.
 
-### Pulire la forma {#pulire_la_forma}
+### Pulire la forma 
 
 Il risultato della fusione di più oggetti può contenere linee superflue che derivano dalle forme originali, per ripulirlo, si può:
 

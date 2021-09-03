@@ -13,7 +13,7 @@ There is only one tab: General settings.
 
 <div class="mw-translate-fuzzy">
 
-### Configuración general {#configuración_general}
+### Configuración general 
 
 ![](images/Preference_OpenSCAD_Tab_01.png )
 

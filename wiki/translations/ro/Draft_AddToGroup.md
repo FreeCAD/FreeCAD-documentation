@@ -29,7 +29,7 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Selectați obiectul(ele)
 2.  apăsați btonul **<img src="images/Draft_AddToGroup.png" width=16px> [Add to group](Draft_AddToGroup.md)

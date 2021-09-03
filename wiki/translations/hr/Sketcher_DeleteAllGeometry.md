@@ -13,7 +13,7 @@ This tool deletes all geometry from the sketch being edited.
 
 ## Usage
 
-1.  Go to the {{MenuCommand|Sketch → Sketcher tools → <img src=images/Sketcher_DeleteAllGeometry.svg style="width:16px"> Delete All Geometry}} menu.
+1.  Go to the **Sketch → Sketcher tools → <img src=images/Sketcher_DeleteAllGeometry.svg style="width:16px"> Delete All Geometry** menu.
 2.  Reply **Yes** to the dialog pop up.
 
 

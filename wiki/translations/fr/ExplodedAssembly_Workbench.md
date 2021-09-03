@@ -25,11 +25,11 @@ Fonctionnalités:
 
 ## Installation
 
-### Installation Automatique {#installation_automatique}
+### Installation Automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-### Depuis GitHub {#depuis_github}
+### Depuis GitHub 
 
 **Ubuntu & Mint**
 
@@ -48,7 +48,7 @@ C\'est tout, la prochaine fois que vous lancerez FreeCAD, l\'atelier devrait êt
 
 ![](images/ExplodedAnimation-menu-vert.png )
 
-## Liens avec l\'atelier ExplodedAnimation {#liens_avec_latelier_explodedanimation}
+## Liens avec l\'atelier ExplodedAnimation 
 
 -   Wiki Workbench:
 -   Wiki FreeCAD:
@@ -58,7 +58,7 @@ C\'est tout, la prochaine fois que vous lancerez FreeCAD, l\'atelier devrait êt
 -   Des dossiers:
 -   Signaler les bogues: veuillez signaler les bogues à
 
-## Autres liens intéressants {#autres_liens_intéressants}
+## Autres liens intéressants 
 
 -   [Ateliers externes](External_workbenches/fr.md)
 -   [Liste des macros](Macros_recipes/fr.md)

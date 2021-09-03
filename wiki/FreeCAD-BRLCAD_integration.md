@@ -21,16 +21,16 @@ This project would be mentored commonly by both FreeCAD and BRL-CAD developers.
 7.  Implement a couple of BRL-CAD-based objects: Or, how to use the FreeCAD modelling tools to produce BRL-CAD objects
 8.  Implement basic saving: How the BRL-CAD-based FreeCAD objects can be saved to a BRL-CAD database, and design a strategy for possible support of other FreeCAD objects
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  Documentation. Since this is a large task, that might not fit in a single GSOC project, other people (or yourself) will likely work on this project after the GSOC period ends. They must be able to take on the work where it has been stopped. Also, the first steps of this project will involve a lot of research, that should be made as available as possible to others.
 2.  A basic prototype, that allows to open and visualize BRL-CAD databases in FreeCAD, and shows how modelling and saving BRL-CAD objects can work in FreeCAD
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 1.  Such an integration could go a very long way, as both applications are very complex, and if the \"wedding\" works well, new possible fields of use could emerge. Also, we think this kind of inter-project integration could pave the way for more, so the possibilities are vast.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -42,7 +42,7 @@ This project would be mentored commonly by both FreeCAD and BRL-CAD developers.
 
 High, mostly because you have two different applications to learn and work with
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 -   Potential mentors: [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68) (FreeCAD), [rossberg](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=23847) (BRL-CAS)
 

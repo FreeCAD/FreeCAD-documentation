@@ -41,7 +41,7 @@ Other properties that this object has are those related to the appearance of its
 
 See [Property](Property.md) for all property types that scripted objects can have.
 
-These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the {{MenuCommand|Show all}} command in the context menu of the [property editor](property_editor.md).
+These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
 ### Data
 
@@ -67,7 +67,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 -    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string.
 
-#### Hidden properties Data {#hidden_properties_data}
+#### Hidden properties Data 
 
 -    **Proxy|PythonObject|hidden**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Part_Feature#Scripting.md).
 
@@ -148,7 +148,7 @@ deviation_in_mm = (w + h + d)/3 * deviation/100
 
 -    **Selection Style|Enumeration**: it controls the way the object is highlighted. If it is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} a bounding box will appear surrounding the object and will be highlighted.
 
-### Deviation value {#deviation_value}
+### Deviation value 
 
 <img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> *Deflection parameters of `BRepMesh_IncrementalMesh* algorithm; d < linear deflection, α < angular deflection.`
 
@@ -198,7 +198,7 @@ The `addObject` function has two basic string arguments.
 If desired, the `Label` attribute can be changed to a more meaningful text.
 
 -   The `Label` can accept any UTF8 string, including accents and spaces. Since the [tree view](tree_view.md) displays the `Label`, it is a good practice to change the `Label` to a more descriptive string.
--   By default the `Label` is unique, just like the `Name`. However, this behavior can be changed in the [preferences editor](Preferences_Editor.md), {{MenuCommand|Edit → Preferences → General → Document → Allow duplicate object labels in one document}}. This means that in general the `Label` may be repeated in the same document; when testing for a specific element the user should rely on the `Name` rather than on the `Label`.
+-   By default the `Label` is unique, just like the `Name`. However, this behavior can be changed in the [preferences editor](Preferences_Editor.md), **Edit → Preferences → General → Document → Allow duplicate object labels in one document**. This means that in general the `Label` may be repeated in the same document; when testing for a specific element the user should rely on the `Name` rather than on the `Label`.
 
 
  {{Document objects navi}} 

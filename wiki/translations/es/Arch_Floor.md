@@ -23,7 +23,7 @@ El Piso de Arquitectura es un tipo especial de [Celda](Arch_Cell/es.md) que tien
 
 As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch BuildingPart](Arch_BuildingPart.md) object, which is a general container to organize a building model not limited to floors or storeys. Older Floor objects can be converted to the new type by right clicking on them and choosing `Convert to BuildingPart`.
 
-## Como utilizar {#como_utilizar}
+## Como utilizar 
 
 
 <div class="mw-translate-fuzzy">

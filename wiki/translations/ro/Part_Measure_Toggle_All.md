@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-### Comuntați modul de măsurare {#comuntați_modul_de_măsurare}
+### Comuntați modul de măsurare 
 
 
 </div>

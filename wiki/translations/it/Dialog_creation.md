@@ -11,7 +11,7 @@ In this example, the entire interface is defined in [Python](Python.md). Althoug
 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> *Due metodi generali per creare delle interfacce, includendo l'interfaccia nel file Python o usando i file `.ui*.`
 
-### Progettare la finestra {#progettare_la_finestra}
+### Progettare la finestra 
 
 Nelle applicazioni CAD, il disegno di una buona UI (interfaccia utente) è molto importante. L\'utente esegue quasi tutte le operazioni tramite qualche componente dell\'interfaccia: legge le finestre di dialogo, preme i pulsanti, sceglie tra le icone, ecc. Quindi è molto importante pensare attentamente a ciò che si intende fare, a come si desidera che l\'utente si comporti, e a quale sarà il flusso di lavoro delle proprie azioni.
 
@@ -53,7 +53,7 @@ Questo è tutto quello che si deve fare in Qt Designer. Un\'ultima cosa, però, 
 
 ![](images/Qtpropeditor.jpg )
 
-### Convertire il dialogo in Python {#convertire_il_dialogo_in_python}
+### Convertire il dialogo in Python 
 
 Ora, salviamo il nostro widget da qualche parte. Esso verrà salvato come un file .ui, che potremo facilmente convertire in script di Python tramite pyuic. Su Windows, il programma pyuic è incluso con PyQt (da verificare), su Linux probabilmente è necessario installarlo separatamente tramite il proprio gestore di pacchetti (su sistemi debian-based è parte del pacchetto di strumenti PyQt4-dev-tools). Per fare la conversione, è necessario aprire una finestra di terminale (o una finestra del prompt dei comandi in Windows), portarsi nella cartella in cui si è salvato il file .ui, e digitare: 
 ```python
@@ -129,7 +129,7 @@ d.show()
 d.hide()
 ```
 
-### Utilizzare la finestra di dialogo {#utilizzare_la_finestra_di_dialogo}
+### Utilizzare la finestra di dialogo 
 
 Ora che siamo in grado di mostrare e nascondere la nostra finestra di dialogo, basta solo aggiungere una ultima parte: per fargli fare qualcosa!
 
@@ -187,7 +187,7 @@ import mywidget
 myDialog = mywidget.plane()
 ``` Questo è tutto amici \... Ora è possibile provare diverse cose, come ad esempio inserire il widget nell\'interfaccia di FreeCAD (vedere la pagina [Esempi di codici](Code_snippets/it.md)), oppure creare strumenti personalizzati molto più avanzati, utilizzando altri elementi nel proprio widget.
 
-### Lo script completo {#lo_script_completo}
+### Lo script completo 
 
 Questo è lo script completo di riferimento: 
 ```python
@@ -262,7 +262,7 @@ class plane():
 
 ```
 
-## Altri esempi {#altri_esempi}
+## Altri esempi 
 
 -   [Dialog creation with various widgets](Dialog_creation_with_various_widgets.md) with `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton`, and others.
 -   [Dialog creation reading and writing files](Dialog_creation_reading_and_writing_files.md) with `QFileDialog`.
@@ -271,7 +271,7 @@ class plane():
 -   [PySide usage snippets](PySide_usage_snippets.md).
 -   [Qt Example](Qt_Example.md)
 
-## Link utili {#link_utili}
+## Link utili 
 
 -   [Manual:Creating interface tools](Manual:Creating_interface_tools.md)
 -   [Interface creation with UI files](Interface_creation_with_UI_files.md)

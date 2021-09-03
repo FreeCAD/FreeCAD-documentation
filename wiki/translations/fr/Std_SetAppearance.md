@@ -18,8 +18,8 @@ La commande **Std Apparence** affiche les propriétés d\'affichage du [Panneau 
 
 1.  Sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → <img src="images/Std_SetAppearance.svg" width=16px> Apparence...}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/Std_SetAppearance.svg" width=16px> Apparence...}} dans le menu contextuel de la [vue en arborescence](tree_view/fr.md) ou le menu contextuel de la [vue 3D](3D_view/fr.md).
+    -   Sélectionnez l\'option **Affichage → <img src="images/Std_SetAppearance.svg" width=16px> Apparence...** dans le menu.
+    -   Sélectionnez l\'option **<img src="images/Std_SetAppearance.svg" width=16px> Apparence...** dans le menu contextuel de la [vue en arborescence](tree_view/fr.md) ou le menu contextuel de la [vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier: **Ctrl**+**D**.
 3.  Modifiez une ou plusieurs propriétés d\'affichage. Voir [Options](#Options.md). Les objets seront mis à jour immédiatement.
 4.  Sélectionnez éventuellement un ou plusieurs nouveaux objets dont vous souhaitez modifier les propriétés d\'affichage.
@@ -27,7 +27,7 @@ La commande **Std Apparence** affiche les propriétés d\'affichage du [Panneau 
 
 ## Options
 
-### Mode d\'affichage {#mode_daffichage}
+### Mode d\'affichage 
 
 -   Sélectionnez un {{PropertyView/fr|Display Mode}} dans la liste déroulante. Les options disponibles sont: «Lignes plates», «Ombrées» (pas pour les objets [Draft](Draft_Workbench/fr.md)), «Filaire» et «Points». Voir la commande [Std Style de représentation](Std_DrawStyle/fr.md) pour plus d\'informations.
 

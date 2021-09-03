@@ -21,9 +21,9 @@ Das **![](images/)_[Part_verschmelzen](Part_Fuse/de.md)** Werkzeug verschmilzt 
 1.  Wähle zwei oder mehr Formen
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **![](images/) Part Verschmelzung** Schaltfläche in der **Part Werkzeuge** Werkzeugleiste
-    -   Verwende den {{MenuCommand|Part → Boolesche  Operation → Vereinigen}} Eintrag im Part Menü
+    -   Verwende den **Part → Boolesche  Operation → Vereinigen** Eintrag im Part Menü
 
-## Unterstützte Eingaben {#unterstützte_eingaben}
+## Unterstützte Eingaben 
 
 Eingabeobjekte müssen [OpenCascade](OpenCascade.md) Formen sein. Beispiele: Dinge, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurde. Keine Polygonnetze (es sei denn, diese wurden in Formen konvertiert) - für Polygonnetze gibt es gesonderte boolesche Werkzeuge im Netzkonstruktionsarbeitsbereich.
 

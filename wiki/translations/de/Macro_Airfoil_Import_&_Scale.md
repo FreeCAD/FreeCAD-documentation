@@ -18,15 +18,15 @@ Siehe auch [Common Airfoil Data Import](Common_Airfoil_Data_Import.md)
 
 <img alt="" src=images/Macro_Airfoil_Import_&_Scale_00.png  style="width:480px;">
 
-## Wie benutzt man - Version 1.5 {#wie_benutzt_man___version_1.5}
+## Wie benutzt man - Version 1.5 
 
-### Wähle die Datei {#wähle_die_datei}
+### Wähle die Datei 
 
 Beim Ausführen des Makros wird dem Benutzer zunächst ein Dateibrowser angezeigt, in dem Sie die gewünschte DAT-Datei auswählen können. Navigieren Sie zu dem Speicherort der Airfoil-Datei, wählen Sie sie aus und drücken Sie Öffnen.
 
 ![File browser window for importing .dat airfoil files](images/File_browser.png )
 
-### Geben Sie die Akkordlänge ein {#geben_sie_die_akkordlänge_ein}
+### Geben Sie die Akkordlänge ein 
 
 Nachdem die Airfoil-Datei ausgewählt wurde, erscheint ein neuer Dialog, in dem Sie nach einer Akkordlänge gefragt werden. Jede Länge kann in Millimetern eingegeben werden. Nachdem Sie die gewünschte Länge eingegeben haben, erzeugt das Makro einen Zugdraht (DWire), der den Punkten entspricht, die in der zuvor ausgewählten .dat-Profildatei auf der für die Akkordlänge eingegebenen Skala angegeben sind.
 
@@ -34,7 +34,7 @@ Nachdem die Airfoil-Datei ausgewählt wurde, erscheint ein neuer Dialog, in dem 
 
 Das Airfoil ist nun richtig skaliert und kann nun in Ihrem Projekt verwendet werden.
 
-## Verwendung - Version 2 {#verwendung___version_2}
+## Verwendung - Version 2 
 
 Die Dateiauswahl entspricht der Version 1.5. Mit Version 2 haben Sie nun die Wahl, entweder das resultierende Profil mit einem Zugseil (DWire) oder einem Basic Spline (BSpline) herstellen zu lassen. Wie bei Version 1.5 geben Sie die gewünschte Akkordlänge ein. Zusätzlich können Sie jetzt auswählen, welchen Folientyp Sie wünschen. Klicken Sie einfach auf das Optionsfeld BSpline oder belassen Sie es wie für das Standard-DWire.
 
@@ -42,11 +42,11 @@ Die Dateiauswahl entspricht der Version 1.5. Mit Version 2 haben Sie nun die Wah
 
 ## Makros
 
-## Neueste Version {#neueste_version}
+## Neueste Version 
 
 Die neueste Version des Makros ist zu finden auf [AirfoilImportAndScale.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/AirfoilImportAndScale.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Nutzung des [Addon-Managers](AddonManager/de.md).
 
-### Version 2.1.2 {#version_2.1.2}
+### Version 2.1.2 
 
 ToolBar icon ![](images/Macro_Airfoil_Import_&_Scale.png )
 
@@ -205,7 +205,7 @@ AirfoilImporterAndScaler()
 </nowiki>
 }}
 
-### Version 1.5 {#version_1.5}
+### Version 1.5 
 
 **Macro\_Airfoil\_Import\_&\_Scale.FCMacro**
 
@@ -291,7 +291,7 @@ p()
 
 }}
 
-## Bearbeiten der Standardauswahl {#bearbeiten_der_standardauswahl}
+## Bearbeiten der Standardauswahl 
 
 Wenn Sie vor allem möchten, dass Ihre importierten und skalierten Tragflächen mit BSplines anstatt mit DWires erstellt werden, kann der Marco so bearbeitet werden, dass er standardmäßig auf Bspline gesetzt wird. Dies geschieht durch Editieren der Zeile - {{ExampleCode|example=
 self.radio1.setChecked(True)
@@ -302,7 +302,7 @@ self.radio2.setChecked(True)
 }}
 Ein Hinweis dazu ist im Text des Makros enthalten.
 
-## Version 2 {#version_2}
+## Version 2 
 
 
 {{VeryImportantMessage|'''Warning - Bei Verwendung dieses Makros mit weniger als 0.14-Versionen von FreeCAD liefert die Version 3077 bei Verwendung der Option BSpline nicht die erwarteten Ergebnisse. Dies kann zum Absturz von FreeCAD und zum Verlust nicht gespeicherter Daten führen
@@ -417,7 +417,7 @@ p()
 </nowiki>
 }}
 
-### Version 2.1 {#version_2.1}
+### Version 2.1 
 
 Updated by mangtronix to use PySide instead of PyQt (used in older versions of FreeCAD)
 

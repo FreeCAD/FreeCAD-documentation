@@ -25,7 +25,7 @@ The 2PointCosmeticLine tool adds a cosmetic line between two Vertices (Points). 
 
 To delete a cosmetic line, select it and use the toolbar button **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md)**.
 
-## Editing Cosmetic Lines {#editing_cosmetic_lines}
+## Editing Cosmetic Lines 
 
 To change the endpoints of a cosmetic line, **<img src="images/TechDraw-line2points.svg" width=16px> Add Cosmetic line between 2 Points
 **

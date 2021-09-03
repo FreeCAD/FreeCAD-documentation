@@ -13,7 +13,7 @@ Inserează o primitivă geometrică tip pană în corpul activ ca prima funcție
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

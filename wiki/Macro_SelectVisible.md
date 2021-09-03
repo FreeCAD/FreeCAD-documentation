@@ -15,7 +15,7 @@ All visible objects in the tree and only these will be selected.
 
  
 
-## How To Use {#how_to_use}
+## How To Use 
 
 Copy the macro in your macros\' folder and run (see [How to install macros](How_to_install_macros.md) for further details).
 

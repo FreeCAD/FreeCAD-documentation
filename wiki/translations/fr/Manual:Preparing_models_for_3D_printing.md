@@ -16,13 +16,13 @@ Si vous avez été précautionneux lors de la modélisation, la plupart des diff
 
 Ci-dessous, nous supposerons que les deux premiers critères sont respectés, et que maintenant, vous êtes en mesure de produire des objets solides avec des dimensions correctes. Nous allons maintenant voir comment traiter le troisième point.
 
-### Exportation vers des trancheuses {#exportation_vers_des_trancheuses}
+### Exportation vers des trancheuses 
 
 C\'est la technique la plus utilisée pour l\'impression en 3D. L\'objet 3D est exporté vers un autre programme (la trancheuse) qui générera le G-code à partir de l\'objet en le découpant en couches minces (d\'où le nom)et qui définira les mouvements que l\'imprimante 3D fera. Pas mal de ces imprimantes sont des faites maison et par conséquent il y a souvent de petites différences de l\'une à l\'autre. Les programmes offrent généralement des possibilités de configuration avancée qui permettent d'adapter exactement la sortie aux particularités de votre imprimante 3D.
 
 L\'impression 3D réelle, cependant, est un sujet trop vaste pour ce manuel. Mais nous verrons comment exporter et utiliser ces trancheuses pour vérifier que la sortie est correcte.
 
-### Conversion d\'objets en mailles {#conversion_dobjets_en_mailles}
+### Conversion d\'objets en mailles 
 
 Aucune des trancheuses, à cette date, ne prend directement la géométrie solide que nous produisons dans FreeCAD. Nous devons donc convertir l\'objet que nous souhaitons imprimer en 3D en un premier [maillage](https://en.wikipedia.org/wiki/Polygon_mesh) que le trancheur peut ouvrir. Heureusement, autant convertir un maillage en un solide est une opération compliquée, autant la conversion d\'un solide en maillage est très simple. Le point important, c\'est à ce moment que la dégradation mentionnée au-dessus se produira. Nous devons vérifier que la dégradation reste dans des limites acceptables.
 
@@ -51,7 +51,7 @@ Dans la plupart des cas, les valeurs par défaut donneront un résultat satisfai
 
 Si vous ne possédez pas d\'imprimante 3D, il est généralement très facile de trouver des services commerciaux qui vont imprimer et vous envoyer les objets imprimés par courrier. Parmi les plus célèbres, on trouve [Shapeways](http://www.shapeways.com/) et [Sculpteo](http://www.sculpteo.com/), mais vous en trouverez généralement beaucoup d\'autres dans votre propre ville. Dans toutes les grandes villes, vous trouverez également aujourd\'hui des [Fab labs](https://en.wikipedia.org/wiki/Fab_lab), qui sont des laboratoires ou ateliers équipés d\'une gamme de machines de fabrication 3D, incluant presque toujours au moins une imprimante 3D. Les FabLabs sont habituellement des espaces communautaires, qui vous permettront d\'utiliser leurs machines, moyennant des frais ou gratuitement selon le FabLab, mais aussi vous apprendre à les utiliser et à promouvoir d\'autres activités autour de la fabrication 3D.
 
-### Utilisation de Slic3r {#utilisation_de_slic3r}
+### Utilisation de Slic3r 
 
 [Slic3r](http://slic3r.org/) est une application qui convertit des objets STL en G-code pouvant être envoyé directement vers les imprimantes 3D. Comme FreeCAD, il est gratuit, open-source et s\'exécute sous Windows, Mac OS et Linux. La configuration correcte des paramètres pour l\'impression 3D est un processus compliqué, où vous devez avoir une bonne connaissance de votre imprimante 3D ; il n\'est donc pas très utile de générer du G-code avant de pouvoir effectivement imprimer (votre fichier de G-code peut ne pas fonctionner correctement sur une autre imprimante), mais c\'est utile pour nous de toute façon, pour vérifier que notre fichier STL sera imprimable sans problème.
 
@@ -59,7 +59,7 @@ Ceci est notre fichier STL exporté ouvert dans Slic3r. En utilisant l\'onglet *
 
 ![](images/Exercise_meshing_03.jpg )
 
-### Utilisation du greffon (addon) Cura {#utilisation_du_greffon_addon_cura}
+### Utilisation du greffon (addon) Cura 
 
 [Cura](https://ultimaker.com/en/products/cura-software) est une autre application Slicer gratuite et open-source pour Windows, Mac et Linux, maintenue par le fabricant d\'imprimantes 3D [Ultimaker](https://ultimaker.com). Certains utilisateurs de FreeCAD ont créé un atelier Cura ([Cura Workbench](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)) qui utilise Cura en interne. L'atelier Cura est disponible dans le dépôt [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons). Pour l\'utiliser, vous devez également installer le logiciel Cura qui n'est pas inclus dans l\'atelier.
 
@@ -76,7 +76,7 @@ Une fois que vous avez installé Cura et l\'atelier Cura, vous pourrez l\'utilis
 
 -   Le G-code généré peut également être réimporté dans FreeCAD (en utilisant le préprocesseur slic3r) pour vérification.
 
-### Génération du G-code {#génération_du_g_code}
+### Génération du G-code 
 
 
 {{VeryImportantMessage|'''Attention:''' cette section est destinée à FreeCAD 0.16. Des modifications importantes ont été apportées au chemin de création. Reportez-vous à la documentation du [ Path workbench](Path_Workbench_.md) en général ou au tutoriel [L'atelier Path pas à pas pour l'impatient](Path_Walkthrough_for_the_Impatient/fr.md)!}}

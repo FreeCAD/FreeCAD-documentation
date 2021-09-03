@@ -24,11 +24,11 @@ Sélecteur de pièces standard
 
 ## Installation
 
-### Installation Automatique {#installation_automatique}
+### Installation Automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-### Depuis GitHub {#depuis_github}
+### Depuis GitHub 
 
 Comment [ici](http://www.bolts-library.org/en/docs/0.3/freecad/installation.html)
 
@@ -49,7 +49,7 @@ est requis.
 
 **Instructions d\'installation Mac** (Depuis GitHub)
 
-## Liens avec l\'atelier BOLTS {#liens_avec_latelier_bolts}
+## Liens avec l\'atelier BOLTS 
 
 -   Wiki Workbench: <http://www.bolts-library.org/en/docs/0.3/index.html>
 -   Wiki FreeCAD:

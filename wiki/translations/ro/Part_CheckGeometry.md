@@ -32,11 +32,11 @@ Results will be reported in the [Task panel](Task_panel.md). If the check produc
 
 ## Options
 
-### Skip settings page {#skip_settings_page}
+### Skip settings page 
 
-If ticked, subsequent invocations of the tool skip showing the {{MenuCommand|Settings}} task panel.
+If ticked, subsequent invocations of the tool skip showing the **Settings** task panel.
 
-### Run BOP check {#run_bop_check}
+### Run BOP check 
 
 
 <div class="mw-translate-fuzzy">
@@ -46,7 +46,7 @@ Dacă doriți să activați verificările extra BOP (BOP = Operații booleene), 
 
 </div>
 
-### Log errors {#log_errors}
+### Log errors 
 
 If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
 

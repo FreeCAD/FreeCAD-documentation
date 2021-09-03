@@ -18,7 +18,7 @@ Tworzy torus parametryczny, którego parametrami są: pozycja, kąt1, kąt2, ką
 1.  Otwórz środowisko pracy **<img src="images/Workbench_Part.svg" width=16px> [Część](Part_Workbench/pl.md)**.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Part_Torus.svg" width=16px> Torus** na pasku narzędzi,
-    -   Użyj pozycji menu głównego {{MenuCommand|Część → Bryła pierwotna → <img src="images/Part_Torus.svg" width=16px> Torus}}.
+    -   Użyj pozycji menu głównego **Część → Bryła pierwotna → <img src="images/Part_Torus.svg" width=16px> Torus**.
 
 **Wynik:** Torus przy tworzeniu zostanie umieszczony w punkcie początkowym *(punkt 0,0,0)*.
 Parametry kątów *(kąt1, kąt2, kąt3)*, jak również parametry promienia *(promień1, promień2)* pozwalają sparametryzować bryłę, patrz następna sekcja.

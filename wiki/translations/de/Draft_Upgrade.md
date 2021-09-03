@@ -23,7 +23,7 @@ Der <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> Der Befehl **
 1.  Wähle optional ein oder mehrere Objekte aus.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_Upgrade.svg" width=16px> [Entwurf Hochstufen](Draft_Upgrade/de.md)**.
-    -   Wähle die Option {{MenuCommand|Änderung → <img src="images/Draft_Upgrade.svg" width=16px> Hochstufen}} aus dem Menü.
+    -   Wähle die Option **Änderung → <img src="images/Draft_Upgrade.svg" width=16px> Hochstufen** aus dem Menü.
     -   Verwende das Tastaturkürzel: **U** und dann **P**.
 3.  Wenn du noch kein Objekt ausgewählt hast: Wähle ein Objekt in der [3D Ansicht](3D_view/de.md).
 

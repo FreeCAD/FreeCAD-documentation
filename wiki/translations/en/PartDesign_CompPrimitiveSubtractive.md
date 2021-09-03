@@ -11,7 +11,7 @@
 
 Creates a subtractive primitive in the active Body, subtracting its shape from the existing solid.
 
-## Types of primitives {#types_of_primitives}
+## Types of primitives 
 
 -   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Subtractive box](PartDesign_SubtractiveBox.md)
 -   <img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Subtractive cone](PartDesign_SubtractiveCone.md)

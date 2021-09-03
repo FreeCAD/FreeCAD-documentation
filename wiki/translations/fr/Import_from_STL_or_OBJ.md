@@ -11,7 +11,7 @@
 
 Dans ce tutoriel, nous aborderons comment importer des fichiers STL/OBJ dans FreeCAD. Étant donné que le format de maille STL/OBJ est sans dimension, FreeCAD supposera à l\'importation que les unités utilisées dans le modèle sont mm. Si ce n\'est pas le cas, vous devez étaler votre modèle, soit dans l\'application où il a été créé avec (avant de l\'exporter) ou vous devez mettre à l\'échelle votre modèle dans FreeCAD après l\'importation et la convertir en un solide.
 
-## Pièce d\'échantillon {#pièce_déchantillon}
+## Pièce d\'échantillon 
 
 Pour ce tutoriel, vous pouvez utiliser votre propre fichier STL ou créer un fichier de démonstration en procédant comme suit:
 
@@ -27,7 +27,7 @@ Pour ce tutoriel, vous pouvez utiliser votre propre fichier STL ou créer un fic
 
 Pour importer un fichier STL ou OBJ dans FreeCAD, créez un nouveau document FreeCAD et choisissez **Fichier** → **Importer** dans le menu supérieur.
 
-## Nettoyage et réparation du fichier STL / OBJ pour la préparation de l\'importation {#nettoyage_et_réparation_du_fichier_stl_obj_pour_la_préparation_de_limportation}
+## Nettoyage et réparation du fichier STL / OBJ pour la préparation de l\'importation 
 
 Fondamentalement, FreeCAD importerait n\'importe quel fichier STL/OBJ. Mais notre objectif est d\'avoir un solide qui peut être mesuré et modifié (ajout de blocs / trou\...). Pour une conversion réussie de maillage en solide, nous devons nous assurer que le maillage est \"imperméable à l\'eau\" (n\'a pas de trous) ou n\'a pas d\'autres erreurs.
 Le but de FreeCAD n\'est pas d\'être un bon modélisateur de maillage, il est conçu pour être un modélisateur de solide. FreeCAD dispose de certaines fonctionnalités pour l\'opération de maillage dans un atelier de Maillage et un atelier OpenSCAD (certaines opérations ont besoin d\'OpenSCAD pour être installées et configurées dans les préférences FreeCAD).
@@ -38,7 +38,7 @@ Certains utilisateurs aiment utiliser un logiciel tiers pour nettoyer et répare
 
 Dans ce tutoriel, nous utiliserons le l\'atelier de Maillage dans FreeCAD pour nettoyer/réparer/vérifier le maillage de notre fichier exemple.
 
-### Test et réparation automatique {#test_et_réparation_automatique}
+### Test et réparation automatique 
 
 -   Ouvrez FreeCAD et l\'exemple de fichier FreeCAD contenant l\'objet maillage
 -   Passer l\'atelier Maillage
@@ -50,7 +50,7 @@ Dans ce tutoriel, nous utiliserons le l\'atelier de Maillage dans FreeCAD pour n
 -   Si des erreurs ont été détectées, les cases à cocher correspondantes seront cochées et vous pourrez sélectionner **Réparation**
 -   Choisissez **Fermez** pour fermer le menu
 
-### Harmonisation des normales {#harmonisation_des_normales}
+### Harmonisation des normales 
 
 L\'harmonisation des normales d\'un objet maillé peut être effectuée par
 
@@ -59,7 +59,7 @@ L\'harmonisation des normales d\'un objet maillé peut être effectuée par
 
 Astuce: En choisissant l\'objet maillage dans l\'arborescence, en allant dans l\'onglet Vue dans la vue de la propriété et en changeant \"Éclairage\" de \"Deux côtés\" sur \"Un côté\", vous pouvez identifier des triangles avec des normales inversées. Si les normales pointent dans le maillage, le triangle sera affiché en noir.
 
-### Fermeture des trous {#fermeture_des_trous}
+### Fermeture des trous 
 
 Vous pouvez également fermer manuellement des trous dans votre objet maillage par
 
@@ -75,7 +75,7 @@ Une autre méthode de fermeture manuelle des trous dans votre objet maillé sera
 -   Sélectionnez l\'un des bords du trou dans l\'objet maillage dans la vue 3D
 -   Cliquez avec le bouton droit de la souris dans la vue 3D et choisissez **Leave hole-filling mode** pour quitter la commande
 
-## Conversion du maillage en solide {#conversion_du_maillage_en_solide}
+## Conversion du maillage en solide 
 
 -   Passer à l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md)
 -   Assurez-vous que votre objet maillé est sélectionné dans l\'arborescence, sinon, sélectionnez-le

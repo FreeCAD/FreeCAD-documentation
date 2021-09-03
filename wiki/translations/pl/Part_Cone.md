@@ -18,7 +18,7 @@ Parametrycznie obcięty element pierwotny **Stożek** jest dostępny w Środowis
 1.  Otwórz środowisko pracy **<img src="images/Workbench_Part.svg" width=16px> [Część](Part_Workbench/pl.md)**.
 2.  Istnieją dwa sposoby na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Part_Cone.svg" width=16px> Utwórz stożek** na pasku narzędzi,
-    -   Użyj pozycji menu głównego {{MenuCommand|Część → Bryła pierwotna → <img src="images/Part_Cone.svg" width=16px> Stożek}}.
+    -   Użyj pozycji menu głównego **Część → Bryła pierwotna → <img src="images/Part_Cone.svg" width=16px> Stożek**.
 
 **Wynik:** Wartości domyślne tworzą ścięty stożek parametryczny, który jest umieszczony w punkcie odniesienia położenia *(punkt 0,0,0)* i dołączony do globalnej płaszczyzny xy. Jego wysokość wynosząca 10mm jest położona wzdłuż globalnej osi z. Dolny **Promień 1** wynosi 2mm, górny **Promień 2** wynosi 4mm.
 

@@ -69,7 +69,7 @@ If the macro doesn\'t work on your system to capture screenshots it can still be
 
 ## Parameters
 
-The Macro supports user parameters, which can be set using {{MenuCommand|Tools → Edit Parameters... → Plugins → Snip_Macro}}
+The Macro supports user parameters, which can be set using **Tools → Edit Parameters... → Plugins → Snip_Macro**
 
 :   
     `LastX`, `LastY`, `LastWidth`, `LastHeight`: location and size of snip box last use

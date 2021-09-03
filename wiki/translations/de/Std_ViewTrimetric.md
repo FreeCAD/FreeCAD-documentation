@@ -14,7 +14,7 @@ Der **Std AnsichtTrimetrisch**-Befehl richtet die Kamera in der aktiven [3D-Ansi
 
 ## Anwendung
 
-1.  Wähle die {{MenuCommand|Ansicht → Standardansichten → Axonometric → <img src="images/Std_ViewTrimetric.svg" width=16px> Trimetrisch}}-Option aus dem Menü.
+1.  Wähle die **Ansicht → Standardansichten → Axonometric → <img src="images/Std_ViewTrimetric.svg" width=16px> Trimetrisch**-Option aus dem Menü.
 
 ## Skripten
 

@@ -21,7 +21,7 @@ Here the project plan for the **PartDesign** as part of the [Development roadmap
 
 <div class="mw-translate-fuzzy">
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 This is a software development project aimed to implement a Part Design capabilities. Its about implementing some **core features** into the CAD modules of FreeCAD, **Part, PartDesign and Assembly**.
 
@@ -50,19 +50,19 @@ A parametric sketcher with a geometrical constraints solver, for more details se
 
 ### PartDesign
 
-#### Body feature {#body_feature}
+#### Body feature 
 
 Since a history based modelling can have a lot of steps leading to the final shape a bracket is needed. That\'s the body, which holds the final outcome of the modelling and acts as a group to all the features of the history tree.
 
-#### Pad feature {#pad_feature}
+#### Pad feature 
 
 A Pad feature extrude a Sketch (or any Part2DObject) in its normal direction. Always guaranty a solid, or fail.
 
-#### Pocket feature {#pocket_feature}
+#### Pocket feature 
 
 Imprint a sketch in a base solid either defined by depth or \"Up to last \| Up to first\". Also guaranty a solid.
 
-#### Bore feature {#bore_feature}
+#### Bore feature 
 
 A Very good bore parameter definition from the NaroCad specification:
 
@@ -90,11 +90,11 @@ Replicate one of the above features according to a general rule provided in form
 
 ## Brainstorming
 
-### What others do {#what_others_do}
+### What others do 
 
 -   [SolidWorks examples](http://www.youtube.com/watch?v=cVXQmDStHus)
 
-### Pattern Implementation {#pattern_implementation}
+### Pattern Implementation 
 
 The Pattern feature class can be implemented as a tabular pattern and serve as a base class for the Rectangular, Circular and Scripted Pattern features. These derived classes will only have to fill in the repetitions table of the base class.
 
@@ -102,7 +102,7 @@ Each line of the repetitions table of the base Pattern class has to hold at leas
 
 ## Organizing
 
-### Modeling objects hierarchy {#modeling_objects_hierarchy}
+### Modeling objects hierarchy 
 
 This [UML](http://en.wikipedia.org/wiki/Unified_Modeling_Language) chart shows the planed object hierarchy and its relationships. Yellow is a abstract base class, blue implemented and grey is planed.
 
@@ -114,7 +114,7 @@ This [UML](http://en.wikipedia.org/wiki/Unified_Modeling_Language) chart shows t
 
 [PartDesign Bearingholder Tutorial II](PartDesign_Bearingholder_Tutorial_II.md)
 
-## Next actions {#next_actions}
+## Next actions 
 
 Next actions are defined in the [Roadmap](http://www.freecadweb.org/tracker/roadmap_page.php) entry for PartDesign:
 
@@ -122,11 +122,11 @@ Next actions are defined in the [Roadmap](http://www.freecadweb.org/tracker/road
 
 Since the parametric/associative nature of the PartDesign we need finally a \"Body\" which groups and organizes a construction history. The Body itself holds the end result as a shape and has grouped as children the PartDesign features. It also defines the actual head of the modeling history. Its also related to the [Assembly project](Assembly_project.md) since its the building block for products and compounds.
 
-### Additional features {#additional_features}
+### Additional features 
 
 The Pad and Pocket features are the first teaser for the PartDesign. There is still work to do especially the visibility control and the visual manipulators. But then additional features are needed.
 
-#### Pattern {#pattern_1}
+#### Pattern 
 
 Pattern feature which repeatingly apply a Pad or Pocket feature according to a circular or rectangular patter. An [Example in IronCAD](http://www.ironcad.com/index.php/support/learning-center). **Done \[jrheinlaender\]**
 
@@ -142,7 +142,7 @@ Sweeps a Sketch along a curve and create a Solid.
 
 Rotate a Sketch along one of its Axis and a certain angle. **Done \[jrheinlaender et al.\]**
 
-## TODO List {#todo_list}
+## TODO List 
 
 1.  **Fillet/Chamfer Part**
     1.  Apply fillet/chamfer operation to different selection types (face/faces pair/whole body)\*

@@ -23,7 +23,7 @@ import Mesh
 
 <div class="mw-translate-fuzzy">
 
-### Creazione e caricamento {#creazione_e_caricamento}
+### Creazione e caricamento 
 
 Per creare un oggetto mesh vuoto basta usare il costruttore standard:
 

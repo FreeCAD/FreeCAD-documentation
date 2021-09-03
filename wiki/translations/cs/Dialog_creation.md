@@ -11,7 +11,7 @@ In this example, the entire interface is defined in [Python](Python.md). Althoug
 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> *Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
 
-## Designing the dialog {#designing_the_dialog}
+## Designing the dialog 
 
 In CAD applications, designing a good UI (User Interface) is very important. About everything the user will do will be through some piece of interface: reading dialog boxes, pressing buttons, choosing between icons, etc. So it is very important to think carefully to what you want to do, how you want the user to behave, and how will be the workflow of your action.
 
@@ -29,7 +29,7 @@ We will then use this dialog in FreeCAD to produce a nice rectangular plane. You
 
 ![](images/Qtdesigner-screenshot.jpg )
 
-## Creating the dialog {#creating_the_dialog}
+## Creating the dialog 
 
 Qt Designer is very simple to use. On the left bar you have elements that can be dragged on your widget. On the right side you have properties panels displaying all kinds of editable properties of selected elements. So, begin with creating a new widget.
 
@@ -47,7 +47,7 @@ That\'s about all we need to do in Qt Designer. One last thing, though, let\'s r
 
 ![](images/Qtpropeditor.jpg )
 
-## Converting our dialog to python {#converting_our_dialog_to_python}
+## Converting our dialog to python 
 
 Now, let\'s save our widget somewhere. It will be saved as an .ui file, that we will easily convert to python script with pyuic. On windows, the pyuic program is bundled with pyqt (to be verified), on linux you probably will need to install it separately from your package manager (on debian-based systems, it is part of the pyqt4-dev-tools package). To do the conversion, you\'ll need to open a terminal window (or a command prompt window on windows), navigate to where you saved your .ui file, and issue: 
 ```python
@@ -123,7 +123,7 @@ d.show()
 d.hide()
 ```
 
-## Making our dialog do something {#making_our_dialog_do_something}
+## Making our dialog do something 
 
 Now that we can show and hide our dialog, we just need to add one last part: To make it do something! If you play a bit with Qt designer, you\'ll quickly discover a whole section called \"signals and slots\". Basically, it works like this: elements on your widgets (in Qt terminology, those elements are themselves widgets) can send signals. Those signals differ according to the widget type. For example, a button can send a signal when it is pressed and when it is released. Those signals can be connected to slots, which can be special functionality of other widgets (for example a dialog has a \"close\" slot to which you can connect the signal from a close button), or can be custom functions. The [PyQt Reference Documentation](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html) lists all the qt widgets, what they can do, what signals they can send, etc\...
 
@@ -167,7 +167,7 @@ import mywidget
 myDialog = mywidget.plane()
 ``` That\'s all Folks\... Now you can try all kinds of things, like for example inserting your widget in the FreeCAD interface (see the [Code snippets](Code_snippets.md) page), or making much more advanced custom tools, by using other elements on your widget.
 
-## The complete script {#the_complete_script}
+## The complete script 
 
 This is the complete script, for reference: 
 ```python
@@ -242,7 +242,7 @@ class plane():
 
 ```
 
-## More examples {#more_examples}
+## More examples 
 
 -   [Dialog creation with various widgets](Dialog_creation_with_various_widgets.md) with `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton`, and others.
 -   [Dialog creation reading and writing files](Dialog_creation_reading_and_writing_files.md) with `QFileDialog`.
@@ -251,7 +251,7 @@ class plane():
 -   [PySide usage snippets](PySide_usage_snippets.md).
 -   [Qt Example](Qt_Example.md)
 
-## Relevant links {#relevant_links}
+## Relevant links 
 
 -   [Manual:Creating interface tools](Manual:Creating_interface_tools.md)
 -   [Interface creation with UI files](Interface_creation_with_UI_files.md)

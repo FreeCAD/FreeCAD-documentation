@@ -15,7 +15,7 @@ FreeCAD verfügt auch über ein [Makro System](Macros/de.md), mit dem du Aktione
 
 In diesem Kapitel werden wir ganz allgemein die Sprache Python entdecken. Wenn du daran interessiert bist, mehr zu erfahren, hat das FreeCAD Dokumentations Wiki einen ausführlichen Abschnitt zum Thema [Python Programmierung](Power_users_hub/de.md).
 
-### Schreiben von Python Code {#schreiben_von_python_code}
+### Schreiben von Python Code 
 
 Es gibt zwei einfache Möglichkeiten, Python Code in FreeCAD zu schreiben: Von der Python Konsole aus (Menü **Ansicht -\> Tafeln -\> Python Konsole**), oder vom Makro Editor aus (Menü **Werkzeuge -\> Makros -\> Neu**). In der Konsole schreibst du nacheinander Python Befehle, die ausgeführt werden, wenn du die Eingabetaste drückst, während die Makros ein komplexeres Skript aus mehreren Zeilen enthalten können, das nur dann ausgeführt wird, wenn das Makro vom gleichen Makro Fenster aus gestartet wird.
 
@@ -23,7 +23,7 @@ In diesem Kapitel wirst du beide Methoden verwenden können, aber es wird dringe
 
 Wenn du Python zum ersten Mal verwendest, solltest du diese kurze [Einführung in die Python Programmierung](Introduction_to_Python/de.md) liest, bevor du weitermachst, wird sie die grundlegenden Konzepte von Python klarer machen.
 
-### Handhabung von FreeCAD Objekten {#handhabung_von_freecad_objekten}
+### Handhabung von FreeCAD Objekten 
 
 Beginnen wir damit, ein neues leeres Dokument zu erstellen:
 
@@ -75,7 +75,7 @@ Versuche das folgende Beispiel, um auf die Linienfarbe unserer Kiste zuzugreifen
 
 box.ViewObject.LineColor 
 
-### Vektoren und Platzierungen {#vektoren_und_platzierungen}
+### Vektoren und Platzierungen 
 
 Vektoren sind ein grundlegendes Konzept in jeder 3D Anwendung. Es ist eine Liste von 3 Zahlen (x, y und z), die einen Punkt oder eine Position im 3D Raum beschreiben. Mit Vektoren können viele Dinge gemacht werden, wie z.B. Additionen, Subtraktionen, Projektionen und vieles mehr. In FreeCAD funktionieren Vektoren wie folgt:
 

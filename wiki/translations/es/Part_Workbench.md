@@ -31,7 +31,7 @@ Los objetos de las partes son más complejos que los objetos de malla creados co
 
 ## Herramientas
 
-Las herramientas se encuentran en el menú {{MenuCommand|Pieza}} o en el menú {{MenuCommand|Medida}}.
+Las herramientas se encuentran en el menú **Pieza** o en el menú **Medida**.
 
 ### Primitivas
 
@@ -69,7 +69,7 @@ Estas son las herramientas para crear primitivas de objetos.
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Creador](Part_Builder/es.md): Crea formas a partir de varias primitivas.
 
-### Creación y modificación {#creación_y_modificación}
+### Creación y modificación 
 
 Estas son herramientas para crear nuevos objetos y modificar los existentes.
 
@@ -151,7 +151,7 @@ Estas herramientas realizan operaciones booleanas.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Alternar Delta](Part_Measure_Toggle_Delta/es.md): Muestra u oculta las medidas delta.
 
-### Otras herramientas {#otras_herramientas}
+### Otras herramientas 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Importar](Part_Import/es.md): Importa desde archivos \*.IGES, \*.STEP o \*.BREP.
 
@@ -177,7 +177,7 @@ Estas herramientas realizan operaciones booleanas.
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Derrotar](Part_Defeaturing/es.md): Elimina las características de un objeto.
 
-### Elementos del menú contextual {#elementos_del_menú_contextual}
+### Elementos del menú contextual 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Apariencia](Std_SetAppearance/es.md): Determina la apariencia de un objeto completo (color, transparencia, etc.).
 

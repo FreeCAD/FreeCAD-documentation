@@ -24,19 +24,19 @@ The Sketcher workbench features \"constraints\", allowing 2D shapes to follow pr
 
 </div>
 
-## Basics of constraint sketching {#basics_of_constraint_sketching}
+## Basics of constraint sketching 
 
 To explain how the Sketcher works, it may be useful to compare it to the \"traditional\" way of drafting.
 
-#### Traditional Drafting {#traditional_drafting}
+#### Traditional Drafting 
 
 The traditional way of CAD drafting inherits from the old [drawing board](http://en.wikipedia.org/wiki/Drawing_board). [Orthogonal (2D) views](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) are drawn manually and intended for producing technical drawings (also known as blueprints). Objects are drawn precisely to the intended size or dimension. If you want to draw an horizontal line 100mm in length starting at (0,0), you activate the line tool, either click on the screen or input the (0,0) coordinates for the first point, then make a second click or input the second point coordinates at (100,0). Or you will draw your line without regard to its position, and move it afterwards. When you\'ve finished drawing your geometries, you add dimensions to them.
 
-#### Constraint Sketching {#constraint_sketching}
+#### Constraint Sketching 
 
 The **Sketcher** moves away from this logic. Objects do not need to be drawn exactly as you intend to, because they will be defined later on by constraints. Objects can be drawn loosely, and as long as they are unconstrained, can be modified. They are in effect \"floating\" and can be moved, stretched, rotated, scaled, and so on. This gives great flexibility in the design process.
 
-#### What are constraints? {#what_are_constraints}
+#### What are constraints? 
 
 Instead of dimensions, Constraints are used to limit the degrees of freedom of an object. For example, a line without constraints has 4 [Degrees Of Freedom](#Degrees_Of_Freedom.md) (abbreviated as \" DOF \"): it can be moved horizontally or vertically, it can be stretched, and it can be rotated.
 
@@ -46,13 +46,13 @@ Multiple objects can be constrained between one another. Two lines can be joined
 
 There are two kinds of constraints: geometric and dimensional. They are detailed in the [\'The tools\'](#The_tools.md) section below.
 
-#### What the Sketcher is not good for {#what_the_sketcher_is_not_good_for}
+#### What the Sketcher is not good for 
 
 The Sketcher is not intended for producing 2D blueprints. Once sketches are used to generate a solid feature, they are automatically hidden. Constraints are only visible in Sketch edit mode.
 
 If you only need to produce 2D views for print, and don\'t want to create 3D models, check out the [Draft workbench](Draft_Workbench.md). Unlike Sketcher elements, Draft objects don\'t use constraints; they are simple shapes defined at the moment of creation. Both Draft and Sketcher can be used for 2D geometry drawing, and 3D solid creation, although their preferred use is different; the Sketcher is normally used together with [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) to create solids; Draft is normally used for simple planar drawings over a grid, as when drawing an architectural floor plan; in these situations Draft is mostly used together with the [Arch Workbench](Arch_Workbench.md). The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sketch object, and vice versa; many tools that require a 2D element as input work with either type of object as an internal conversion is done automatically.
 
-## Sketching Workflow {#sketching_workflow}
+## Sketching Workflow 
 
 A Sketch is always 2-dimensional (2D). To create a solid, a 2D Sketch of a single enclosed area is created and then either Padded or Revolved to add the 3rd dimension, creating a 3D solid from the 2D Sketch.
 
@@ -62,7 +62,7 @@ Inside the enclosed area we can have smaller non-overlapping areas. These will b
 
 Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Workbench](Part_Workbench.md) and running **[16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
 
-## The tools {#the_tools}
+## The tools 
 
 The Sketcher Workbench tools are all located in the Sketch menu that appears when you load the Sketcher Workbench.
 
@@ -90,7 +90,7 @@ The Sketcher Workbench tools are all located in the Sketch menu that appears whe
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): when in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
-### Sketcher geometries {#sketcher_geometries}
+### Sketcher geometries 
 
 These are tools for creating objects.
 
@@ -163,11 +163,11 @@ These are tools for creating objects.
 
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Construction Mode](Sketcher_ToggleConstruction.md): Toggles sketch geometry from/to construction mode. Construction geometry is shown in blue and is discarded outside of Sketch editing mode.
 
-### Sketcher constraints {#sketcher_constraints}
+### Sketcher constraints 
 
 Constraints are used to define lengths, set rules between sketch elements, and to lock the sketch along the vertical and horizontal axes. Some constraints require use of [Helper constraints](Sketcher_helper_constraint.md).
 
-#### Geometric constraints {#geometric_constraints}
+#### Geometric constraints 
 
 These constraints are not associated with numeric data.
 
@@ -191,7 +191,7 @@ These constraints are not associated with numeric data.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Block](Sketcher_ConstrainBlock.md): it blocks an edge from moving, that is, it prevents its vertices from changing their current positions. It should be particularly useful to fix the position of B-Splines. See the [Block Constraint forum topic](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
-#### Dimensional constraints {#dimensional_constraints}
+#### Dimensional constraints 
 
 These are constraints associated with numeric data, for which you can use the [expressions](Expressions.md). The data may be taken from a [spreadsheet](Spreadsheet_Workbench.md).
 
@@ -208,13 +208,13 @@ These are constraints associated with numeric data, for which you can use the [e
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam.md): Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc) <small>(v0.20)</small> 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
-#### Special constraints {#special_constraints}
+#### Special constraints 
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Snell\'s Law](Sketcher_ConstrainSnellsLaw.md): Constrains two lines to obey a refraction law to simulate the light going through an interface.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Internal alignment](Sketcher_ConstrainInternalAlignment.md): Aligns selected elements to selected shape (e.g. a line to become major axis of an ellipse).
 
-#### Constraint tools {#constraint_tools}
+#### Constraint tools 
 
 The following tools can be used the change the effect of constraints:
 
@@ -222,7 +222,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/Deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
 
-### Sketcher tools {#sketcher_tools}
+### Sketcher tools 
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select solver DOFs](Sketcher_SelectElementsWithDoFs.md): Highlights in green the geometry with degrees of freedom (DOFs), i.e. not fully constrained.
 
@@ -262,7 +262,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Delete All Constraints](Sketcher_DeleteAllConstraints.md): Deletes all constraints from the sketch.
 
-### Sketcher B-spline tools {#sketcher_b_spline_tools}
+### Sketcher B-spline tools 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Show/hide B-spline degree](Sketcher_BSplineDegree.md)
 
@@ -284,7 +284,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)
 
-### Sketcher virtual space {#sketcher_virtual_space}
+### Sketcher virtual space 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch Virtual Space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
 
@@ -292,7 +292,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferences](Sketcher_Preferences.md): Preferences for the **Sketcher** workbench.
 
-## Best Practices {#best_practices}
+## Best Practices 
 
 Every CAD user develops his own way of working over time, but there are some useful general principles to follow.
 

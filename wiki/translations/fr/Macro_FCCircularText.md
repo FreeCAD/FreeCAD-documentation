@@ -50,7 +50,7 @@ Vue d\'ensemble
 
 ![GUI](images/FCCircularText_06.png ) 
 
-### Première section {#première_section}
+### Première section 
 
 ![](images/FCCircularText_07.png ) 
 
@@ -67,7 +67,7 @@ Vue d\'ensemble
 -   ComboView pour choisir la police
     -   Par défaut la police ARIAL.TTF est imposée
 
-#### Options disponibles {#options_disponibles}
+#### Options disponibles 
 
 Après la première utilisation, vous devez modifier les paramètres suivants:
 
@@ -147,13 +147,13 @@ setFontByDefault
 
 
 
-### Seconde section {#seconde_section}
+### Seconde section 
 
 Configuration des caractères dans FCCircularText
 
 ![](images/FCCircularText_08.png ) 
 
-#### Première zone {#première_zone}
+#### Première zone 
 
 Votre choix :
 
@@ -193,7 +193,7 @@ Image:FCCircularText 39.png\|**Mode Flat** **Indoor** Le texte est placé à pla
 
 </center>
 
-#### Seconde zone {#seconde_zone}
+#### Seconde zone 
 
 Cette section vous permet de configurer le comportement global des caractères dans tous les choix disponibles, mais avec quelques variations. Si une fonction n\'est pas utilisée de façon standard dans l\'option choisie, cette fonction sera grisée.
 
@@ -330,7 +330,7 @@ Image:FCCircularText 23.png\|**Clock** Image:FCCircularText 35.png\|**Axial** Im
 
 -    **Axial**: Les chiffres sont écrits axialement.
 
-### Section de la trajectoire {#section_de_la_trajectoire}
+### Section de la trajectoire 
 
 ![](images/FCCircularText_06_Path.png ) 
 
@@ -358,7 +358,7 @@ Si vous sélectionnez un fil, un arc, un cercle, une ligne et une arête, le che
 
 le dernier bouton radio utilisé est enregistré dans le paramètre de FreeCAD
 
-### Section des commandes {#section_des_commandes}
+### Section des commandes 
 
 ![](images/FCCircularText_13.png ) 
 
@@ -370,9 +370,9 @@ le dernier bouton radio utilisé est enregistré dans le paramètre de FreeCAD
 
 -    **Run**: Lance la macro.
 
-### Paramètres disponibles {#paramètres_disponibles}
+### Paramètres disponibles 
 
-Certains paramètres sont disponibles dans les paramètres de FreeCAD voir: {{MenuCommand|Menu → Outils → Modifier les paramètres...}}
+Certains paramètres sont disponibles dans les paramètres de FreeCAD voir: **Menu → Outils → Modifier les paramètres...**
 
 -   Paramètre utilisateur: BaseApp/Preferences/Macros/FCMmacros/FCCircularText
 
@@ -483,7 +483,7 @@ L\'icône pour votre barre à outils:
 
 (Voir comment [Créer une barre d\'outils](Customize_Toolbars/fr.md))
 
-### Script {#script_1}
+### Script 
 
 **Macro\_Circular\_Text.FCMacro**
 
@@ -654,7 +654,7 @@ Image:FCCircularText 59.png\|Sélectionnez Ellipse extruded , Cut (text) fusionn
 </center>
 
 
-## Example section path {#example_section_path}
+## Example section path 
 
 
 <center>
@@ -700,7 +700,7 @@ En projet:
 
 Écriture sur un chemin.
 
-## Journal des modifications {#journal_des_modifications}
+## Journal des modifications 
 
 -   ver 0.2021/04/05 : ajout d\'un icone dans la macro, Tab pour diminuer la hauteur de la macro, suppression de toutes les dimensions des widgets maintenant entièrement compatibles avec la feuille de style, révision de la version de recherche pour compatibilité et autres petits changements.
 

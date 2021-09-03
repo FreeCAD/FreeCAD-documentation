@@ -20,7 +20,7 @@ Fixiert den horizontalen Abstand zwischen zwei Punkten oder Linienenden. Falls n
 2.  Rufe das Werkzeug auf mehrere Arten auf:
     -   Drücke die **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Beschränke Horizontalen Abstand](Sketcher_ConstrainDistanceX/de.md)** Schaltfläche in der Werkzeugleiste.
     -   Verwende die **Shift** + **H** Tastaturkürzel. (**H**\' steht für **H**orizontal)
-    -   Verwende den {{MenuCommand|Skizze → Skizziererbeschränkungen → <img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Beschränke Horizontalen Abstand}} aus dem oberen Menü.
+    -   Verwende den **Skizze → Skizziererbeschränkungen → <img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Beschränke Horizontalen Abstand** aus dem oberen Menü.
 3.  Ein Aufklappdialogfeld wird geöffnet, um den Wert zu bearbeiten oder zu bestätigen. Drücke **OK**, um den Wert zu bestätigen.
 
 **Hinweis**: Das Beschränkungswerkzeug kann auch ohne vorherige Auswahl gestartet werden, erfordert aber die Auswahl von zwei Punkten oder einer Linie. Um den Abstand zum Ursprung zu setzen, muss der Ursprungspunkt der Zeichnung ebenfalls selektiert werden. Als Voreinstellung ist der Befehl im \"Continue Mode\", um neue Beschränkungen zu erstellen; drücke die rechte Maustaste oder **Esc** einmal zum Beenden des Befehls.

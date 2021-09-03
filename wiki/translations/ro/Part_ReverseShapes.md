@@ -29,7 +29,7 @@ Flips the normals of all faces of the selected object.
 </div>
 
 1.  Select shape.
-2.  Select the {{MenuCommand|Part → <img src="images/Part_ReverseShapes.svg" width=16px> Reverse shapes}} option from the menu.
+2.  Select the **Part → <img src="images/Part_ReverseShapes.svg" width=16px> Reverse shapes** option from the menu.
 3.  A reversed shape is created as a new separate object.
 
 

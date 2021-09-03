@@ -12,7 +12,7 @@ One particularity must be understood: For security reasons, FreeCAD files never 
 
 [Python Features](App_FeaturePython.md) follow the same rule as all FreeCAD features: they are separated into App and GUI parts. The app part, the Document Object, defines the geometry of our object, while its GUI part, the View Provider Object, defines how the object will be drawn on screen. The View Provider Object, as any other FreeCAD feature, is only available when you run FreeCAD in its own GUI. There are several properties and methods available to build your object. Properties must be of any of the predefined properties types that FreeCAD offers, and will appear in the property view window, so they can be edited by the user. This way, FeaturePython objects are truly and totally parametric. you can define properties for the Object and its ViewObject separately.
 
-## Basic example {#basic_example}
+## Basic example 
 
 The following sample can be found in the [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py) file, together with several other examples:  
 ```python
@@ -149,7 +149,7 @@ makeBox()
 
 ```
 
-### Things to note {#things_to_note}
+### Things to note 
 
 If your object relies on being recomputed as soon as it is created, you must do this manually in the `__init__` function as it is not called automatically. This example does not require it because the `onChanged` method of the `Box` class has the same effect as the `execute` function, but the examples below rely on being recomputed before anything is displayed in the 3D view. In the examples, this is done manually with `ActiveDocument.recompute()` but in more complex scenarios you need to decide where to recompute either the whole document or the FeaturePython object.
 
@@ -157,11 +157,11 @@ This example produces a number of exception stack traces in the report view wind
 
 An explanation of `__getstate__` and `__setstate__` is in the forum thread [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
-## Available methods {#available_methods}
+## Available methods 
 
 See [FeaturePython methods](FeaturePython_methods.md) for the complete reference.
 
-## Available properties {#available_properties}
+## Available properties 
 
 Properties are the true building stones of FeaturePython objects. Through them, the user will be able to interact and modify your object. After creating a new FeaturePython object in your document ( obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), you can get a list of the available properties by issuing:
 
@@ -273,7 +273,7 @@ A complete list of property attributes can be seen in the [PropertyStandard C++ 
 prop = (value, lower, upper, stepsize)
 ```
 
-## Property Type {#property_type}
+## Property Type 
 
 By default the properties can be updated. It is possible to make the properties read-only, for instance in the case one wants to show the result of a method. It is also possible to hide the property. The property type can be set using
 
@@ -310,7 +310,7 @@ The property types that can be set at last parameter of the addProperty function
 
 You can find these different property types defined in the [source code C++ header for PropertyContainer](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h)
 
-## Other more complex example {#other_more_complex_example}
+## Other more complex example 
 
 This example makes use of the [Part](Part_Workbench.md) module to create an octahedron, then creates its coin representation with pivy.
 
@@ -513,7 +513,7 @@ Octahedron(a)
 ViewProviderOctahedron(a.ViewObject)
 ```
 
-## Making objects selectable {#making_objects_selectable}
+## Making objects selectable 
 
 If you want to make your object selectable, or at least part of it, by clicking on it in the viewport, you must include its coin geometry inside a SoFCSelection node. If your object has complex representation, with widgets, annotations, etc, you might want to include only a part of it in a SoFCSelection. Everything that is a SoFCSelection is constantly scanned by FreeCAD to detect selection/preselection, so it makes sense try not to overload it with unneeded scanning.
 
@@ -616,7 +616,7 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
-## Working with simple shapes {#working_with_simple_shapes}
+## Working with simple shapes 
 
 If your parametric object simply outputs a shape, you don\'t need to use a view provider object. The shape will be displayed using FreeCAD\'s standard shape representation:
 
@@ -678,7 +678,7 @@ ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
 
-## Scenegraph Structure {#scenegraph_structure}
+## Scenegraph Structure 
 
 You may have noticed that the examples above construct their scenegraphs in slightly different ways. Some use `obj.addDisplayMode(node, "modename")` while others use `obj.SwitchNode.getChild(x).addChild(y)`.
 
@@ -863,7 +863,7 @@ def makeMolecule():
 a,b = makeMolecule()
 ```
 
-## Further information {#further_information}
+## Further information 
 
 Additional pages:
 

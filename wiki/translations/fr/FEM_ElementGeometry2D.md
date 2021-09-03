@@ -16,7 +16,7 @@ ElementGeometry2D est utilisé pour définir l\'épaisseur d\'éléments 2D FEM,
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [Créer une épaisseur de coque](FEM_ElementGeometry2D.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Model → Element Geometry → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Epaisseur de la coque}} dans le menu.
+    -   Sélectionnez l\'option **Model → Element Geometry → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Epaisseur de la coque** dans le menu.
 2.  Définissez un paramètre d\'épaisseur.
 3.  Si vous le souhaitez, appuyez sur le bouton **Add** dans le panneau des tâches, puis cliquez sur la face pour laquelle vous souhaitez avoir une épaisseur prescrite. Si la sélection de faces est libre, toutes les faces restantes (dont l\'épaisseur n\'est pas définie par d\'autres objets [FEM Elément de géométrie 2D](FEM_ElementGeometry2D/fr.md)) seront automatiquement affectées.
 

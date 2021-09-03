@@ -4,7 +4,7 @@
 
 *You mind goes through five steps to accomplish virtually any task. These five steps are:*
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 *The first step in the model is to define **purpose and principles**. Think about the last time you booked a family holiday. There is always a purpose for the holiday. This could be to take a well earned break from work, to relax and spend quality time with your spouse and children, or simply to go and see a specific tourist attraction whilst on your holiday. Whatever the reason, there will have been purpose and principles for your trip. You don't just get up one day and go on holiday, you implement stage one of the natural planning model and this is to have a purpose for the trip.*
 
@@ -20,7 +20,7 @@
 
 *The next, and fourth step is **organizing**. Once you have generated your ideas about the project, or holiday in this case, you start to organize these ideas. For example, you may have thought about the travel agent to use for the booking, or whether to book direct, if the in-laws would like to come on the vacation also to double as baby sitters, etc. Your mind normally sorts and organizes these thoughts automatically.*
 
-## Next actions {#next_actions}
+## Next actions 
 
 *The last, and fifth step is to **identify and set the next actions**. The GTD methodology covers that the best way to get a task done, is to decide and set the next actions. We do not do tasks, we do next actions. So the best way to get your holiday booked is to decide what the next actions are. These normally would be items such as, look up the resort on the Internet, check online travel comparison sites for cheap flights and accommodation, call in and see a travel agent for their price and recommendation within the resort. Again, I would be surprised if any of you would take the time and effort to write these next actions down, but also, I would be surprised if any of you forgot these next actions. it is funny how our mind has a great way of remembering projects assigned and planning using the Natural Planning Method.*
 

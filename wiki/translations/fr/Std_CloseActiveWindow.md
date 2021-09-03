@@ -15,7 +15,7 @@ La commande \'\' \'Std Fermer\'\'\' ferme la fenêtre active. Pour fermer un doc
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Fichier → <img src="images/Std_CloseActiveWindow.svg" width=16px> Fermer}} dans le menu.
+    -   Sélectionnez l\'option **Fichier → <img src="images/Std_CloseActiveWindow.svg" width=16px> Fermer** dans le menu.
     -   Utilisez le raccourci clavier: **Ctrl**+**W**.
 2.  Pour fermer un document: répétez cette opération pour toutes les fenêtres qui lui appartiennent.
 3.  Lors de la fermeture de la dernière fenêtre d\'un document non enregistré, une boîte de dialogue vous invite à l\'enregistrer:
@@ -29,11 +29,11 @@ La commande \'\' \'Std Fermer\'\'\' ferme la fenêtre active. Pour fermer un doc
 ## Remarques
 
 -   La commande ne peut fermer que les fenêtres [dockée](Std_ViewDockUndockFullscreen/fr.md).
--   Un document peut également être fermé en cliquant dessus avec le bouton droit de la souris dans la [vue en arborescence](tree_view/fr.md) et en sélectionnant {{MenuCommand|Fermer le document}} dans le menu contextuel.
+-   Un document peut également être fermé en cliquant dessus avec le bouton droit de la souris dans la [vue en arborescence](tree_view/fr.md) et en sélectionnant **Fermer le document** dans le menu contextuel.
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

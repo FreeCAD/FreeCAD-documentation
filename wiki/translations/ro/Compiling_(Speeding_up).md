@@ -29,7 +29,7 @@ Instalează ccache în compilările cache
 
 <div class="mw-translate-fuzzy">
 
-### Dezactivarea modulelor {#dezactivarea_modulelor}
+### Dezactivarea modulelor 
 
 Utilizați cmake-curses-gui, cmake-qt-gui sau flag cmake pentru a dezactiva modulele pe care nu lucrați
 
@@ -48,7 +48,7 @@ Use `cmake-gui`, `cmake-curses-gui`, or `cmake-qt-gui` to display all the possib
 
 <div class="mw-translate-fuzzy">
 
-### make -j {#make__j}
+### make -j 
 
 Utilizați -j \# pentru a specifica numerul sarcinilor/jobs. O sugestie ar fi, numărul de nuclee de pe computer, e.g.
 

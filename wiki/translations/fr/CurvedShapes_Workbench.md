@@ -9,7 +9,8 @@ Curved Shapes est un [atelier externe](external_workbenches/fr.md) de FreeCAD qu
 
 ## Installation
 
-L\'installation recommandée se fait par <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) de Freecad via {{MenuCommand|Outils → Gestionnaire d'Addon}}
+L\'installation recommandée se fait par <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) de Freecad via 
+**Outils → Gestionnaire d'Addon**
 
 
 **Remarque: pour une installation manuelle, voir [Installation_manuelle](Std_AddonMgr/fr#Installation_manuelle.md)**
@@ -31,12 +32,12 @@ L\'installation recommandée se fait par <img alt="" src=images/AddonManager.svg
 -   Auteur: \@chbergmann
 -   Dépôt Github: <https://github.com/chbergmann/CurvedShapesWorkbench>
 
-## En relation {#en_relation}
+## En relation 
 
 -   [Atelier Courbes](Curves_Workbench/fr.md)
 -   [Atelier Conception aile d\'avion](AirPlaneDesign_Workbench/fr.md)
 
-## Ateliers externes {#ateliers_externes}
+## Ateliers externes 
 
 
 

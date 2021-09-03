@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Creating a constraint using Python {#creating_a_constraint_using_python}
+## Creating a constraint using Python 
 
 A geometric constraint <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> and the special <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [InternalAlignment](Sketcher_ConstrainInternalAlignment.md) constraints can be created from macros and from the python console by using the following command:
 
@@ -25,7 +25,7 @@ The first argument `ConstraintType` is described below in [Constraint types](#Co
 
 A constraint can take up to six arguments which are edges or indicate which sub-part of an edge is used by the constraint. See the documentation of individual constraints for details on what combinations of edges and sub-parts of edges can be passed as arguments. The main issue with this function is to identify correctly the line number and the vertex number of the lines you want to process. The sections below describe how to [identify the numbering of a line](#Identifying_the_numbering_of_a_line.md)) and how to [Identify the numbering of the sub-parts of a line](#Identifying_the_numbering_of_the_sub-parts_of_a_line.md)).
 
-## Constraint types {#constraint_types}
+## Constraint types 
 
 For geometric constraints, the first argument is one of the following. See the corresponding feature page for the possible combinations of arguments allowed for each constraint.
 
@@ -141,7 +141,7 @@ The <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;">
 
 The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Lock](Sketcher_ConstrainLock.md) constraint is a GUI command which creates a <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance](Sketcher_ConstrainDistanceX.md) and a <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertical distance](Sketcher_ConstrainDistanceY.md) constraint, it is not a constraint of its own.
 
-## Identifying the numbering of a line {#identifying_the_numbering_of_a_line}
+## Identifying the numbering of a line 
 
 I have drawn three lines as shown in the following figure.
 
@@ -161,7 +161,7 @@ Positive numbers indicate sketch edges (straight lines, circles, conics, B-splin
 
 -    `-n`denotes the external geometry element number `n-3` (e.g. the external geometry element with index 0 in the flattened list `App.ActiveDocument.Sketch.ExternalGeometry` would be denoted by -3, the following element in the flattened list would be -4 and so on).
 
-## Identifying the numbering of the sub-parts of a line {#identifying_the_numbering_of_the_sub_parts_of_a_line}
+## Identifying the numbering of the sub-parts of a line 
 
 When qualifying which part of a line is affected by a constraint, the following values can be used:
 

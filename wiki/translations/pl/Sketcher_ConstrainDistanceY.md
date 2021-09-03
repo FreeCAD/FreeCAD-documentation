@@ -20,12 +20,12 @@ Ustala poziomą odległość pomiędzy 2 punktami lub końcami linii. Jeśli wyb
 2.  Uruchomić narzędzie na jeden z możliwych sposobów:
     -   Naciśnij przycisk **<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Ustal pionową odległość ...](Sketcher_ConstrainDistanceY.md)** znajdujący się na pasku narzędzi Szkicownika.
     -   Użyj kombinacji klawiszy **Shift** + **V**. *(**V** odnosi się do **V**ertical)*.
-    -   Użyj polecenia menu głównego {{MenuCommand|Sketch → Wiązania szkicownika → <img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> Zwiąż odległość pionową}}.
+    -   Użyj polecenia menu głównego **Sketch → Wiązania szkicownika → <img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> Zwiąż odległość pionową**.
 3.  Otworzy się wyskakujące okno dialogowe do edycji z proponowaną wartością. Naciśnij **OK**, aby ją wartość.
 
 **Uwaga:** Narzędzie wiązania może być również uruchomione bez wcześniejszego zaznaczenia obiektów, ale będzie wymagane wybranie dwóch punktów lub jednej linii. Aby ustawić odległość względem punktu początkowego, należy także zaznaczyć punkt początkowy szkicu. Domyślnie polecenie jest aktywne w trybie kontynuacji, by utworzyć nowe wiązanie; wciśnij raz prawy przycisk myszki lub klawisz **Esc**, by zakończyć działanie polecenia.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Odległość od odniesienia położenia:
 

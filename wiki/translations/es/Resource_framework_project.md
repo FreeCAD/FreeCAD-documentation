@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Esta es la planificación para la estructura de recursos de FreeCAD como parte del [Mapa de desarrollo](Development_roadmap/es.md).
 
-## Propósito y principios {#propósito_y_principios}
+## Propósito y principios 
 
 Este es un proyecto de desarrollo de software que pretende implementar capacidades de [Product Data Management (PDM)](http://en.wikipedia.org/wiki/Product_Data_Management). Trata de implementar las partes y trozos necesarios.
 
@@ -24,9 +24,9 @@ Los pasos del desarrollo se planifican aquí y se siguen en el sistema de gesti�
 -   Compartir trabajo con otros a través de internet/intranet(s); **Colaboración**
 -   Catalogos online y offline con [standard parts](http://en.wikipedia.org/wiki/Interchangeable_parts).
 
-## Tormenta de ideas {#tormenta_de_ideas}
+## Tormenta de ideas 
 
-### Lo que hacen los otros {#lo_que_hacen_los_otros}
+### Lo que hacen los otros 
 
 Aquí hay algunos enlaces con productos comerciales similares:
 
@@ -34,7 +34,7 @@ Aquí hay algunos enlaces con productos comerciales similares:
 -   Aras Corp. [Aras PLM Software](http://www.aras.com/) - Aparecen para ofrecer soluciones Open Source, este podría interesar que se investigara más adelante\...
 -   [Catia V6](http://www.3ds.com/de/products/plm-v6/v6r2009x/#vid1)
 
-### Casos de referencia {#casos_de_referencia}
+### Casos de referencia 
 
 *Proporcionado por Charles*
 
@@ -48,7 +48,7 @@ Por supuesto habrá diferentes tipos de personas utilizando este programa por ra
 
 -   Proyectos con una jerarquía más rígida - pueden existir algunos proyectos donde los equipos prefieran esta adaptación pero sólo puedo verlo siendo popular con las empresas.
 
-#### La Web de Blendswap {#la_web_de_blendswap}
+#### La Web de Blendswap 
 
 [Blendswap](http://www.blendswap.com/) - en sus propias palabras - es *\"\...el lugar para encontrar y compartir archivos de Blender con el mundo entero. Tu creas impresionantes archivos de Blender, los compartes en el mayor repositorios de modelos 3D de código abierto creados con la impresionante suite 3D de código abierto Blender.\"*
 
@@ -62,7 +62,7 @@ Blendswap es un ejemplo excelente de un repositorio **online**. Sus principales 
 
 -   Los modelos (archivos de Blender) vienen con licencias claramente detalladas (dichos detalles se pueden visualizar rápidamente de un vistazo desde la imagen en miniatura, por medio de un logo de Creative Commons).
 
-### Posibles sistemas de control de revisiones {#posibles_sistemas_de_control_de_revisiones}
+### Posibles sistemas de control de revisiones 
 
 Sólo hay un pequeño paso para pensar en el control de revisiones del mismo modo que se utiliza en el desarrollo de software moderno. Hay básicamente dos aproximaciones diferentes a la materia:
 
@@ -75,11 +75,11 @@ Aunque los casos de uso demandan un sistema de control de revisiones distribuida
 
 En un proyecto distribuido en Internet se necesita que todo documento lleve una licencia clara. Esto es incluso más importante si piensas en catálogos. Las piezas de los catálogos son utilizadas en los proyectos (libres y no libres) y necesitan por lo tanto una licencia clara para definir claramente su utilización. Ya que existen diferentes sistemas de licencia, aquí están un conjunto de las posibles licencias para archivos de CAD:
 
-#### Creative Commons {#creative_commons}
+#### Creative Commons 
 
 Las licencias CC son muy populares para el material creativo, puedes encontrar una descripción aquí: <http://creativecommons.org>
 
-#### ISO 16016 {#iso_16016}
+#### ISO 16016 
 
 fraganaut01 nos indica otro sistema de licencias para el CAD:
 
@@ -112,11 +112,11 @@ Eso nos lleva al siguiente escenario:
 
 Antes de nada las diferentes alternativas de sistemas de control de revisiones tienen que probarse. Para tener números de como se comportan con datos de CAD.
 
-### Diseño {#diseño_1}
+### Diseño 
 
 Un diseño de clase para la estructura de recursos.
 
-## Siguientes acciones {#siguientes_acciones}
+## Siguientes acciones 
 
 -   Construir repositorios de prueba en el servidor y dos equipos locales
 -   Probar diferentes casos de uso

@@ -16,7 +16,7 @@ Wydobywa część wspólną *(przecięcie)* pomiędzy wybranymi obiektami Part. 
 1.  Zaznacz dwa kształty.
 2.  Naciśnij przycisk **![](images/)_[Utwórz_iloczyn_dwóch_obiektów](Part_Common.md)**.
 
-### Obsługiwane dane wejściowe {#obsługiwane_dane_wejściowe}
+### Obsługiwane dane wejściowe 
 
 Obiekty wejściowe muszą być kształtami [OpenCascade](OpenCASCADE/pl.md). Przykłady: obiekty wykonane z użyciem Środowisk pracy Część, Projekt części, Szkicownik. Nie mogą to być siatki *(chyba że zostały zamienione na kształty)* - dla siatek, w środowisku pracy Siatka istnieją specyficzne narzędzia do przeprowadzania operacji logicznych.
 

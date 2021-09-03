@@ -17,7 +17,7 @@ Fazuje wybraną krawędź obiektu. Okno dialogowe pozwala wybrać krawędź do p
 
 1.  Istnieje kilka sposobów aby wywołać polecenie **Fazuj wybrane krawędzie**:
     -   Naciśnij przycisk **<img src="images/Part_Chamfer.svg" width=24px>**.
-    -   Użyj pozycji w menu {{MenuCommand|Część → Fazka}}.
+    -   Użyj pozycji w menu **Część → Fazka**.
 2.  Wybierz kształt do wykonania fazek z menu okna dialogowego.
 3.  Wybierz krawędzie do fazowania, zaznaczając odpowiednie pole w oknie dialogowym fazy lub wybierając je bezpośrednio na modelu.
 4.  Edycja parametrów fazy.
@@ -54,7 +54,7 @@ Fazowanie może się nie powieść, jeśli wynik dotknie lub przekroczy następn
 
 Zwróć również uwagę, że na funkcję fazowania części wpływa na [Topologiczny problem nazewnictwa](Topological_naming_problem/pl.md), gdy jakakolwiek zmiana jest dokonywana na wcześniejszym etapie modelowania w łańcuchu, który wpływa na liczbę powierzchni lub wierzchołków. Może to spowodować nieprzewidywalny rezultat. Do czasu rozwiązania tego problemu *(prawdopodobnie z v0.20)* zaleca się stosowanie operacji Fazowania i [Zaokrąglania](Part_Fillet/pl.md) na ostatnich etapach łańcucha.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Narzędzie fazowania może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli środowiska [Python](Python/pl.md) poprzez dodanie obiektu fazowania do dokumentu.
 

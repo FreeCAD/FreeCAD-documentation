@@ -38,7 +38,7 @@ Der geometrische Kernel von Cas.CADE war ursprünglich Closed Source, wurde aber
 
 OpenCASCADE Version 6.6 und früher wurde durch eine eigene öffentliche Lizenz \"OCCT public license\" reguliert, was es nicht gänzlich zu \"freier Software\" machte. Dies wurde mit der Veröffentlichung von OCCT 6.7 (2013) gelöst, als es die LGPL2 Lizenz übernahm.
 
-## OCCT geometrische Konzepte {#occt_geometrische_konzepte}
+## OCCT geometrische Konzepte 
 
 In der OpenCascade Terminologie unterscheiden wir zwischen geometrischen Grundelementen (engl.: primitives) und topologischen Formen. Ein geometrisches Grundelement kann ein Punkt, eine Linie, ein Kreis, eine Ebene usw. oder sogar einige komplexere Typen wie eine B-Spline Kurve oder eine Oberfläche sein. Eine Form kann ein Knoten, eine Kante, ein Draht, eine Fläche, ein Solid oder eine Verbindung aus anderen Formen sein. Die geometrischen Grundelemente sind nicht dazu bestimmt, direkt in der 3D Szene dargestellt zu werden, sondern als Baugeometrie für Formen zu dienen. So kann beispielsweise eine Kante aus einer Linie oder aus einem Teil eines Kreises konstruiert werden.
 

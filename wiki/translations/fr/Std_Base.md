@@ -16,7 +16,7 @@
 
 La plupart des outils **Std Base** sont accessibles depuis le [menu standard](Standard_Menu/fr.md) et les barres d\'outils. Ceux qui ne sont disponibles que via une barre d\'outils ou un menu contextuel sont répertoriés sous [Outils supplémentaires](#Additional_tools.md).
 
-### Outils de menu standard {#outils_de_menu_standard}
+### Outils de menu standard 
 
 Le menu standard est composé de 7 sous-menus. Chaque sous-menu a une page dédiée. Cliquez simplement sur l\'un des noms ci-dessous.
 
@@ -38,7 +38,7 @@ Le menu standard est composé de 7 sous-menus. Chaque sous-menu a une page dédi
 [Aide](Std_Help_Menu/fr.md)
 }}
 
-### Outils supplémentaires {#outils_supplémentaires}
+### Outils supplémentaires 
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std Part](Std_Part/fr.md) : crée une nouvelle pièce et la rend active.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std Group](Std_Group/fr.md) : crée un nouveau groupe.

@@ -30,7 +30,7 @@ Este comando borra los objetos seleccionados. Si no está seleccionado ningún o
 
 <div class="mw-translate-fuzzy">
 
-Los objetos seleccionados se pueden eliminar del documento presionando **DEL**, desde el menú {{MenuCommand|Editar → Borrar}}, o desde el menú contextual de la [vista en árbol](tree_view/es.md) . Todas las operaciones de borrado se pueden deshacer y rehacer.
+Los objetos seleccionados se pueden eliminar del documento presionando **DEL**, desde el menú **Editar → Borrar**, o desde el menú contextual de la [vista en árbol](tree_view/es.md) . Todas las operaciones de borrado se pueden deshacer y rehacer.
 
 
 </div>

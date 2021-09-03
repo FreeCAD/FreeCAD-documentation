@@ -30,7 +30,7 @@
 
 <img alt="" src=images/freeCAD-guitar.jpg  style="width:1024px;">
 
-### 0.16 发布版 {#发布版_1}
+### 0.16 发布版 
 
 <img alt="" src=images/Hhassey.png  style="width:1024px;">
 
@@ -44,7 +44,7 @@
 
 <img alt="" src=images/R_tec.jpeg  style="width:1024px;">
 
-### 0.15 发布版 {#发布版_2}
+### 0.15 发布版 
 
 <img alt="" src=images/Obijuan.png  style="width:1024px;">
 
@@ -56,7 +56,7 @@
 
 <img alt="" src=images/Lou_papet.png  style="width:1024px;">
 
-### 0.14 发布版 {#发布版_3}
+### 0.14 发布版 
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -88,21 +88,21 @@
 
 用 python 宏导出到第三方应用程序
 
-### 0.12 发布版 {#发布版_4}
+### 0.12 发布版 
 
 ![Assembly of multiple objects\|1024px](images/FreeCAD_aeroponic_system.jpg )
 
 ![A fully-constrained sketch revolved to create a bike rim section\|1024px](images/rim_bling.png )
 
-### 0.11 发布版 {#发布版_5}
+### 0.11 发布版 
 
 <img alt="" src=images/FreeCAD011.png  style="width:1024px;">
 
-### 0.10 发布版 {#发布版_6}
+### 0.10 发布版 
 
 ![](images/Freecad010.png )
 
-### 0.9 发布版 {#发布版_7}
+### 0.9 发布版 
 
 ![](images/Freecad09.jpg )
 
@@ -116,7 +116,7 @@
 
 展示 FreeCAD 导入和渲染一个 gCAD STEP 模型的截图
 
-### STEP 数据 {#step_数据}
+### STEP 数据 
 
 <img alt="" src=images/TaskPanel.jpg  style="width:800px;">
 
@@ -164,13 +164,13 @@ FreeCAD 中的网格布尔运算
 
 提取一个 3D 部件（在这个案例中使用 STEP 格式）到 一个SVG **Drawing Extraction** 视图。这是全部参数化的，如果该部件像以下一样改变视图。
 
-### FreeCAD vs. QCad {#freecad_vs._qcad}
+### FreeCAD vs. QCad 
 
 ![](images/Screenshot_qcad.jpg )
 
 显示 FreeCAD 和 qCAD 如何呈现同一文件的屏幕截图
 
-### FreeCAD vs. Inkscape {#freecad_vs._inkscape}
+### FreeCAD vs. Inkscape 
 
 ![](images/Screenshot_inkscape.jpg )
 
@@ -179,7 +179,7 @@ FreeCAD 中的网格布尔运算
 
 <div class="mw-translate-fuzzy">
 
-### Draft 工作台 {#draft_工作台}
+### Draft 工作台 
 
 ![](images/Screenshot_draft.jpg )
 
@@ -200,7 +200,7 @@ Freecad [draft workbench](Draft_Workbench/zh-cn.md) 已加载, 并导入了 dxf 
 
 设置屏幕
 
-### 在 Ubuntu {#在_ubuntu}
+### 在 Ubuntu 
 
 ![](images/Interface_screenshot.jpg )
 
@@ -209,7 +209,7 @@ FreeCAD 界面, 当你第一次启动它, 在 Ubuntu
 
 <div class="mw-translate-fuzzy">
 
-### Windows 安装器 {#windows_安装器}
+### Windows 安装器 
 
 ![](images/Screenshot_installer.jpg )
 

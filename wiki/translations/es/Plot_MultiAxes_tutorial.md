@@ -30,7 +30,7 @@ En la imagen anterior tenemos una muestra del aspecto del gráfico que pretendem
 
 Tal y como hicimos en el [anterior tutorial](Plot_Basic_tutorial/es.md), vamos a emplear la consola de Python, o en su defecto las [macros](Macros/es.md), para graficar los datos, con la diferencia de que en este caso lo haremos con varios juegos de ejes.
 
-### Crear los datos {#crear_los_datos}
+### Crear los datos 
 
 En este ejemplo trazaremos tres curvas, dos de ellas serán las empleadas en el [tutorial anterior](Plot_Basic_tutorial/es.md), pero añadiremos una más de tipo polinómico. El objetivo es que los rangos de variación de esta función sean diferentes a los de las funciones polinómicas. Para crear todos los vectores de datos necesarios ejecutamos los siguientes comandos:
 
@@ -47,7 +47,7 @@ c = [math.cos(math.pi*2.0*tt) for tt in t]
 
 Al moverse *x* entre 0 y 2, *y* se moverá entre 0 y 4, luego si trataramos de graficar esta función junto con las funciones trigonométricas, que se mueven entre 0 y 1, al menos una de las funciones estará o bien truncada, o bien mal escalada, y por tanto estamos interesados en emplear un segundo juego de ejes. Los gráficos con múltiples ejes en FreeCAD están orientados a la producción de gráficos con diferentes juegos de ejes de referencia, pero no para la creación de documentos con múltiples gráficos.
 
-### Trazar las funciones en varios ejes {#trazar_las_funciones_en_varios_ejes}
+### Trazar las funciones en varios ejes 
 
 En este ejemplo vamos a trazar la curva polinómica en los ejes principales. Si todos los ejes de referencia que usted va a crear tienen el mismo tamaño, no es muy relevante cúal emplea para cada curva, pero en caso de que un juego de ejes sea de menor tamaño (como ocurre en este ejemplo), es muy recomendable dejar los ejes principales (los que se crean por defecto) como los de mayor tamaño, puesto que en ellos se incorpora el fondo blanco. Para graficar la primera curva tan sólo necesitamos recurrir a los siguientes comandos:
 
@@ -70,9 +70,9 @@ Plot.plot(t,c,r"$\cos\left( 2 \pi t \right)$")
 
 Como podrá comprobar el gráfico obtenido es una locura, con ejes que se superponen y curvas del mismo color. Para erreglarlo vamos a recurrir al [módulo de graficado de FreeCAD](Plot_Module/es.md).
 
-## Configuring plot {#configuring_plot}
+## Configuring plot 
 
-### Configuring axes {#configuring_axes}
+### Configuring axes 
 
 El [módulo de graficado de FreeCAD](Plot_Module/es.md) dispone de una herramienta para modificar las propiedades de cada eje.
 
@@ -96,11 +96,11 @@ Lo primero que ustéd encontrará en ésta herramienta es el selector de juego d
 
 Lo primero que haremos será modificar el tamño de los ejes desplazando los deslizadores horizontal de la izquierda y vertical de abajo (trate de emular la imagen de ejemplo). Ahora podemos cambiar la alineación de los ejes hacia arriba y derecha, estableciendo un desfase de 2 unidades.
 
-### Configurar las series {#configurar_las_series}
+### Configurar las series 
 
 Configure el aspecto de las curvas para que se parezcan a las del ejemplo. Si no recuerda como llevar a cabo este trabajo recurra al [anterior tutorial](Plot_Basic_tutorial/es.md).
 
-### Mostrar la malla y la legenda {#mostrar_la_malla_y_la_legenda}
+### Mostrar la malla y la legenda 
 
 El proceso para mostrar la malla y la legenda is similar al seguido en el [anterior tutorial](Plot_Basic_tutorial/es.md), con la salvedad de que en este caso, al disponer de varios juegos de ejes, el comportamiento de cada elemento es diferente.
 
@@ -108,7 +108,7 @@ La malla por ejemplo se referirá al juego de ejes activo, así, si muestra la m
 
 Respecto de la legenda, ésta será única, pero dependiendo de en que juego de ejes decida mostrarla, las coordenadas de su posición serán diferentes. Cuando muestre la leyenda observará que está mal emplazada, tapando una parte significativa de la legenda, algo de lo que nos ocuparemos más adelante.
 
-### Establecer los títulos {#establecer_los_títulos}
+### Establecer los títulos 
 
 Puede establecer los títulos de la misma manera que lo hacía en el [anterior tutorial](Plot_Basic_tutorial/es.md). En este caso observará que el número de elementos es mayor, y que puede establecer un título por cada juego de ejes. En el [módulo de graficado de FreeCAD](Plot_Module/es.md) se permite establecer un título por cada juego de ejes, aunque en este caso estamos interesados en un único título, por tanto establezca las siguietnes etiquetas:
 
@@ -125,7 +125,7 @@ Puede establecer los títulos de la misma manera que lo hacía en el [anterior t
 
 Establezca también el tamaño de fuente a 20 a todos ellos salvo al título, al que le daremos una fuente de 24 puntos. Al igual que ocurría con la legenda, el título está mal situado, intersecándose con los ejes de las curvas trigonométricas. Vamos a ocuparnos de ambos problemas.
 
-### Reposicionar elementos del gráfico {#reposicionar_elementos_del_gráfico}
+### Reposicionar elementos del gráfico 
 
 El [módulo de graficado de FreeCAD](Plot_Module/es.md) dispone también de una herramienta para reposicionar algunos elementos del gráfico como son títulos y legenda.
 
@@ -150,7 +150,7 @@ La herramienta le muestra un listado de todos los elementos disponibles para ser
 
 <div class="mw-translate-fuzzy">
 
-## Guardar gráfico {#guardar_gráfico}
+## Guardar gráfico 
 
 En este momento puede usted guardar su trabajo. Acúda al [anterior tutorial](Plot_Basic_tutorial/es.md) si no recuerda como hacerlo.
 

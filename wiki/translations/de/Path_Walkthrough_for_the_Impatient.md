@@ -14,7 +14,7 @@
 
 Veranschaulichen der Erstellung eines <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) Auftrags, abgeleitet von einem 3D Modell. Anschließend wird dialekt-richtiger G-Code für eine Ziel CNC Fräse erzeugt.
 
-## Das 3D Modell {#das_3d_modell}
+## Das 3D Modell 
 
 1\. Das Projekt startet mit einem einfachen FreeCAD Modell entworfen im <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Part Design](PartDesign_Workbench/de.md) ein Würfel mit einer rechteckigen Tasche.
 
@@ -37,7 +37,7 @@ Mit dem fertiggestellten 3D Modell wird der Pfad Arbeitsbereich ausgewählt.
 
 <div class="mw-translate-fuzzy">
 
-## Der Auftrag {#der_auftrag}
+## Der Auftrag 
 
 Der <img alt="" src=images/Path_Job.svg  style="width:32px;"> [Auftrag](Path_Job/de.md) wird erstellt.
 
@@ -174,7 +174,7 @@ Dieser Baum wird nach der Konfiguration des Auftrags angezeigt, sobald der Pfada
 
 </div>
 
-## Die Pfadabläufe {#die_pfadabläufe}
+## Die Pfadabläufe 
 
 
 <div class="mw-translate-fuzzy">
@@ -226,7 +226,7 @@ Das Ergebnis ist ein Modell mit zwei Pfaden:
 
 </div>
 
-## Pfade überprüfen {#pfade_überprüfen}
+## Pfade überprüfen 
 
 Es gibt zwei Möglichkeiten, die erstellten Pfade zu überprüfen. Der G-Code kann überprüft werden, einschließlich der Hervorhebung der entsprechenden Pfadsegmente. Der Fräsprozess des Bahnauftrags kann auch simuliert werden, um die idealisierten Werkzeugbahnen zu demonstrieren, die für die Werkzeuggeometrien zum Fräsen des Rohteils erforderlich sind.
 
@@ -272,7 +272,7 @@ Wenn du die Simulation beenden möchtest, klicke auf die Schaltfläche Abbrechen
 
 </div>
 
-## Nachbearbeitung des Auftrags {#nachbearbeitung_des_auftrags}
+## Nachbearbeitung des Auftrags 
 
 Der letzte Schritt zur Erzeugung von G-Code für die Zielfräse ist die Nachbearbeitung des Auftrags. Dabei werden die G-Codes in eine Datei ausgegeben, die auf die Ziel CNC Maschinensteuerung hochgeladen werden kann. So rufst du den Postprozessor auf:
 

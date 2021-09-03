@@ -29,7 +29,7 @@ Ein parametrischer Ellipsoid Festkörper ist über den Grundkörper erstellen Di
 1.  Wechsle zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md)
 2.  Greife auf den Ellipsoid Befehl auf verschiedene Arten zu:
     -   Über den Grundkörper erstellen Dialog, indem du die <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Grundkörper](Part_Primitives/de.md) in der Part Werkzeugleiste.
-    -   Unter Verwendung {{MenuCommand|Part → [Grundkörper erstellen](Part_Primitives/de.md) → Ellipsoid}} im Part Menü
+    -   Unter Verwendung **Part → [Grundkörper erstellen](Part_Primitives/de.md) → Ellipsoid** im Part Menü
 
 
 </div>

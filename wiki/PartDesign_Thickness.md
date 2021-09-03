@@ -62,7 +62,7 @@ Then
 
 Result:  ![](images/Brga-spessore.png ) 
 
-## Known Errors {#known_errors}
+## Known Errors 
 
 -   BRep\_API: command not done
 -   BRep\_Tool:: no parameter on edge

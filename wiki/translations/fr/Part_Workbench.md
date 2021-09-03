@@ -29,9 +29,9 @@ Les objets Part sont plus complexes que les objets maillés créés avec [l\'ate
 
 *L'atelier Part est la couche de base qui expose les fonctions de dessin OCCT à tous les ateliers de FreeCAD.*
 
-## Les outils {#les_outils}
+## Les outils 
 
-Les outils de l\'atelier Part sont situés dans les menus {{MenuCommand|Pièce}} ou {{MenuCommand|Mesure}}.
+Les outils de l\'atelier Part sont situés dans les menus **Pièce** ou **Mesure**.
 
 ### Primitives
 
@@ -69,7 +69,7 @@ Ce sont des outils pour créer des objets primitifs.
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Utilitaire de création de formes](Part_Builder/fr.md): Crée des formes à partir de diverses primitives.
 
-### Création et modification {#création_et_modification}
+### Création et modification 
 
 Il s\'agit d\'outils permettant de créer de nouveaux objets et de modifier des objets existants.
 
@@ -151,7 +151,7 @@ Ces outils effectuent des opérations booléennes.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Basculer Delta](Part_Measure_Toggle_Delta/fr.md): Affiche ou masque les mesures delta.
 
-### Autres outils {#autres_outils}
+### Autres outils 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Import](Part_Import/fr.md) : Importe depuis des fichiers \*.IGES, \*.STEP ou \*.BREP.
 
@@ -177,7 +177,7 @@ Ces outils effectuent des opérations booléennes.
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Défaire une fonctionnalité](Part_Defeaturing/fr.md): Supprime les fonctionnalités d\'un objet.
 
-### Éléments du menu contextuel {#éléments_du_menu_contextuel}
+### Éléments du menu contextuel 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Std Apparence](Std_SetAppearance/fr.md): Détermine l\'apparence d\'un objet entier (couleur, transparence, etc.).
 
@@ -189,7 +189,7 @@ Ces outils effectuent des opérations booléennes.
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Préférences d\'Import Export](Import_Export_Preference/fr.md): Préférences disponibles pour l\'importation et l\'exportation vers différents formats de fichier.
 -   [Réglage fin](Fine-tuning/fr.md): Quelques paramètres supplémentaires pour affiner le comportement de la partie.
 
-## Les scripts {#les_scripts}
+## Les scripts 
 
 Voir [Part Ecrire un script](Part_scripting/fr.md)
 

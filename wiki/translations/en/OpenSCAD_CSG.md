@@ -2,7 +2,7 @@
 
 ## Import
 
-### Supported Elements {#supported_elements}
+### Supported Elements 
 
 -   primitives: cube, sphere, cylinder, square, circle, polygon, polyhedron
 -   boolean: union, difference, intersection
@@ -11,7 +11,7 @@
 -   multmatrix
 -   color
 
-### Unsupported Elements {#unsupported_elements}
+### Unsupported Elements 
 
 -   projection
 -   surface
@@ -20,7 +20,7 @@
 
 ## Export
 
-### Supported Elements {#supported_elements_1}
+### Supported Elements 
 
 -   primitives: Box, Cylinder, Cone, Torus
 -   boolean: Cut, Fuse, Common

@@ -32,7 +32,7 @@ Vous pouvez également utiliser l\'outil de mur-rideau sans aucun objet sélecti
 
 ## Utilisation
 
-### Dessiner un mur-rideau de zéro {#dessiner_un_mur_rideau_de_zéro}
+### Dessiner un mur-rideau de zéro 
 
 1.  Assurez-vous que rien n\'est sélectionné
 2.  Appuyez sur le bouton **<img src="images/Arch_CurtainWall.svg" width=16px> [Arch CurtainWall](Arch_CurtainWall/fr.md)
@@ -41,7 +41,7 @@ Vous pouvez également utiliser l\'outil de mur-rideau sans aucun objet sélecti
 4.  Cliquez sur un deuxième point de la vue 3D ou rentrez des coordonnées
 5.  Ajustez les propriétés nécessaires
 
-### Création d\'un mur-rideau à partir d\'un objet sélectionné {#création_dun_mur_rideau_à_partir_dun_objet_sélectionné}
+### Création d\'un mur-rideau à partir d\'un objet sélectionné 
 
 1.  Sélectionnez un ou plusieurs objets de géométrie de base (objet Draft, esquisse, etc).
 2.  Appuyez sur le bouton **<img src="images/Arch_CurtainWall.svg" width=16px> [Arch CurtainWall](Arch_CurtainWall/fr.md)** ou appuyez sur les touches **C** puis **W**.
@@ -104,7 +104,7 @@ Les objets Mur-rideau héritent des propriétés des objets [Arch Composants](Ar
 
 -    {{PropertyData/fr|Host}}: hôte de ce mur-rideau. Le mur-rideau apparaîtra intégré dans son objet hôte dans l\'arborescence (aucune autre action n\'est effectuée)
 
-## Faire des murs à ossature {#faire_des_murs_à_ossature}
+## Faire des murs à ossature 
 
 Les murs-rideaux sont pratiques à utiliser en conjonction avec des [Arch Murs](Arch_Wall/fr.md) pour créer des murs à ossature (murs où une couche structurelle intérieure est faite de cadres, généralement en bois ou en métal, au lieu d\'un matériau homogène comme le béton de brique) .
 

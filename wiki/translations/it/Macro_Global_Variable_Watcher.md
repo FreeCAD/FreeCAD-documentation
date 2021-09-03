@@ -26,7 +26,7 @@ Selezionare le variabili globali da monitorare utilizzando il menu a comparsa di
 
 Una variabile può essere rimossa dall\'elenco di quelle controllate facendo clic destro su di essa o sul suo valore, e selezionando \"remove variable\"
 
-## Interfaccia utente {#interfaccia_utente}
+## Interfaccia utente 
 
 ![](images/MacroVariableWatcherGui1.jpg )
 

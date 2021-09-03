@@ -24,7 +24,7 @@ Un solide ellipsoïde paramétrique est disponible à partir de la boîte de dia
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md)
 2.  Accédez à la commande Ellipsoïde de plusieurs manières:
     -   Dans la boîte de dialogue Créer des primitives, en appuyant sur le bouton <img alt="" src=images/Part_CreatePrimitives.svg  style="width:32px;"> [Création de primitives géométriques\...](Part_Primitives/fr.md) situé dans la barre d\'outils Part.
-    -   Using the {{MenuCommand|Pièce → [Créer des primitives...](Part_Primitives/fr.md) → Ellipsoïde}} dans le menu Pièce.
+    -   Using the **Pièce → [Créer des primitives...](Part_Primitives/fr.md) → Ellipsoïde** dans le menu Pièce.
 
 ## Propriétés
 

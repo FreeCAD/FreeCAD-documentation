@@ -26,13 +26,13 @@ With Simple copy only a non-parametric simple solid is produced, so if you want 
 
 ## Utilizare
 
-Mark part of choice in the tree view and choose {{MenuCommand|Part → Create simple copy}}.
+Mark part of choice in the tree view and choose **Part → Create simple copy**.
 
 
 </div>
 
 1.  Select an object for which you wish to make a copy.
-2.  Go to the menu {{MenuCommand|Part → Create a copy → ![](images/)_[Create_simple_copy](Part_SimpleCopy.md)}}.
+2.  Go to the menu **Part → Create a copy → ![](images/)_[Create_simple_copy](Part_SimpleCopy.md)**.
 
 ## Properties
 

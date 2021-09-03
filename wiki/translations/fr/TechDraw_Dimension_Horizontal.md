@@ -19,7 +19,7 @@ L\'outil Distance Horizontale ajoute une dimension horizontale à une vue. La di
 <img alt="" src=images/TechDraw_Dimension_Horizontal_example.png  style="width:200px;"> 
 *Dimension de longueur prise à partir de deux nœuds arbitraires de la vue; la distance est mesurée horizontalement*
 
-## Comment faire {#comment_faire}
+## Comment faire 
 
 1.  Sélectionnez les points ou les arêtes qui définissent votre mesure.
 2.  Appuyez sur le bouton**<img src="images/TechDraw_Dimension_Horizontal.svg" width=16px> [Insérer une cote horizontale](TechDraw_Dimension_Horizontal/fr.md)

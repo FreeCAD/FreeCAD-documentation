@@ -26,7 +26,7 @@ Z těchto důvodů byl vytvořen Framework veličin FreeCADu. Zahrnuje všechny 
 
 </div>
 
-### Podporované jednotky {#podporované_jednotky}
+### Podporované jednotky 
 
 
 <div class="mw-translate-fuzzy">
@@ -47,7 +47,7 @@ Detailní informace najdete v kódu:
 
 </div>
 
-## Interní reprezentace {#interní_reprezentace}
+## Interní reprezentace 
 
 Všechny fyzické jednotky mohou být vyjádřeny jako kombinace sedmi [SI-jednotek](http://en.wikipedia.org/wiki/International_System_of_Units):
 
@@ -91,7 +91,7 @@ Protože úhly jsou fyzikálně bezrozměrné, ale ne méně důležité v CAD s
 
 <div class="mw-translate-fuzzy">
 
-## Kalkulátor jednotek {#kalkulátor_jednotek}
+## Kalkulátor jednotek 
 
 Často potřebujete přepočítávat jednotky z jednoho systému do druhého. Například máte starou tabulku parametrů s drátovými jednotkami. Pro takový případ FreeCAD nabízí konverzní nástroj nazývaný Kalkulátor jednotek, který pomáhá s přepočtem jednotek.
 
@@ -146,7 +146,7 @@ Kód:
 
 </div>
 
-## Skriptování v Pythonu {#skriptování_v_pythonu}
+## Skriptování v Pythonu 
 
 Systém veličin a jednotek ve FreeCADu je (jako téměř všechno) plně přístupný v Pythonu.
 
@@ -265,7 +265,7 @@ Units.Quantity('1 MPa').getValueAs(Units.Quantity('N/m^2')) # a quantity
 
 <div class="mw-translate-fuzzy">
 
-### Hodnoty pro uživatele {#hodnoty_pro_uživatele}
+### Hodnoty pro uživatele 
 
 Ve skriptech můžete používat veličiny pro všechny druhy výpočtů a kontrol, přijde čas, kdy budete muset vytvořit výstupní informaci pro uživatele. Můžete použít getValueAs() pro vynucení určité jednotky, ale normálně uživatel nastaví svoje preferované jednotkové schéma v předvolbách. Toto jednotkové schema dělá všechny převody do reprezentace, kterou chce uživatel vidět. V této době jsou implementována 3 schemata:
 
@@ -343,7 +343,7 @@ params.GetInt('Decimals') # returns an int
 
 <div class="mw-translate-fuzzy">
 
-### Jednotky podporované parserem {#jednotky_podporované_parserem}
+### Jednotky podporované parserem 
 
 Ačkoliv všechny fyzické jednotky mohou být popsány 7 jednotkami SI, většina jednotek používaných v technické oblasti jsou obecné kombinované jednotky (jako Pa = N/m\^2 Pascal ). Proto parser jednotek ve FreeCADu podporuje spoustu SI a Imperiálních jednotek. Tyto jednotky jsou jsou definovány v souboru src/Base/QuantityParser.l a mohou být v budoucnosti dále rozšiřovány.
 

@@ -38,7 +38,7 @@ Instrumentul Baleiere (Part Sweep) este similar cu [Part Loft](Part_Loft/ro.md) 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Apăsați butonul **<img src="images/Part_Sweep.png" width=16px> '''Sweep'''**. Acesta deschide parametrii Sweep în Tasks panel.
 2.  In the *Available Profiles* left column (previously *Vertex/Edge/Wire/Face* in v0.16), click on the element to be used as sweep profile, then click on the right arrow to place it in the *Selected profiles* right column (previously *Sweep* in v0.16). Repeat if more than one profile is desired. Use the up and down arrows to reorder the selected profiles.
@@ -51,12 +51,12 @@ Instrumentul Baleiere (Part Sweep) este similar cu [Part Loft](Part_Loft/ro.md) 
 
 </div>
 
-### Accepted geometry {#accepted_geometry}
+### Accepted geometry 
 
 
 <div class="mw-translate-fuzzy">
 
-### Geometrie Acceptată {#geometrie_acceptată}
+### Geometrie Acceptată 
 
 -   **Profiles**: pot fi un punct (vertex), linie (Edge), fir/polilinie sau fațetă. Muchiile/liniile și firele pot fi deschise sau închise. There are various [profile limitations and complications](Part_Sweep#Profile_limitations_and_complications.md), vedeți mai jos, dar profilurile pot proveni de la primitivele Atelierului Part Workbench, de la funcționalitățile Atelierului Draft Workbench și de la Sketches.
 
@@ -80,7 +80,7 @@ Instrumentul Baleiere (Part Sweep) este similar cu [Part Loft](Part_Loft/ro.md) 
 
 ## Proprietăți
 
-### Solid {#solid_1}
+### Solid 
 
 Dacă \"Solid\" este setat ca fiind \"true\", FreeCAD crează un solid, furnizând profilele ca fiind forme geometrice închise; Dacă este setat ca fiind \"false\", FreeCAD creează o fațetă sau (dacă sunt mai multe fațete) o cochilie pentru profile deschise sau închise.
 
@@ -94,7 +94,7 @@ Dacă \"Solid\" este setat ca fiind \"true\", FreeCAD crează un solid, furnizâ
 
 <div class="mw-translate-fuzzy">
 
-### Frenet {#frenet_1}
+### Frenet 
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;"> Proprietatea \"Frenet\" controlează cum orientarea proficului
 
@@ -117,12 +117,12 @@ If \"Frenet\" is \"true\" the orientation of the profile is computed basing on l
 
 </div>
 
-## Profile limitations and complications {#profile_limitations_and_complications}
+## Profile limitations and complications 
 
 
 <div class="mw-translate-fuzzy">
 
-## Limitări și complicații asupra Profilelor {#limitări_și_complicații_asupra_profilelor}
+## Limitări și complicații asupra Profilelor 
 
 -   A vertex or point
     -   vertex or point may only be used as the first and/or last profile in the list of profiles.

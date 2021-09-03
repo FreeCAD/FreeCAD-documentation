@@ -16,8 +16,8 @@
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_Paste.svg" width=16px> [Std Paste](Std_Paste.md)** button.
-    -   Select the {{MenuCommand|Edit → <img src="images/Std_Paste.svg" width=16px> Paste}} option from the menu.
-    -   Select the {{MenuCommand|<img src="images/Std_Paste.svg" width=16px> Paste}} option from the [Tree view](Tree_view.md) context menu. Note that this option is only available when an exiting object has been selected.
+    -   Select the **Edit → <img src="images/Std_Paste.svg" width=16px> Paste** option from the menu.
+    -   Select the **<img src="images/Std_Paste.svg" width=16px> Paste** option from the [Tree view](Tree_view.md) context menu. Note that this option is only available when an exiting object has been selected.
     -   Use the keyboard shortcut: **Ctrl**+**V**.
 
 ## Примечания
@@ -29,7 +29,7 @@
 
 ## Настройки
 
--   Дублирование меток возможно, если {{MenuCommand|Инструменты → Редактор параметров... → BaseApp → Preferences → → Document → DuplicateLabels}} равно `True`. Этот параметр также можно изменить в [Редакторе настроек](Preferences_Editor/ru#Документ.md).
+-   Дублирование меток возможно, если **Инструменты → Редактор параметров... → BaseApp → Preferences → → Document → DuplicateLabels** равно `True`. Этот параметр также можно изменить в [Редакторе настроек](Preferences_Editor/ru#Документ.md).
 
 ## Программирование
 

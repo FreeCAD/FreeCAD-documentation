@@ -25,7 +25,8 @@ The back side plane of the shapedefining solid is used to position and orient th
         button
 
     -   
-        {{MenuCommand|SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall}}
+        **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall
+**
         
         drop down menu
 

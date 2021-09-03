@@ -27,7 +27,7 @@ Crea un tronco di cono parametrico.
 1.  Attivare l\'ambiente **<img src="images/Workbench_Part.svg" width=16px> [Parte](Part_Workbench/it.md)**.
 2.  Richiamare il comando Cono in uno di questi modi:
     -   Premere il pulsante <img alt="" src=images/Part_Cone.svg  style="width:24px;"> [Cono](Part_Cone/it.md)
-    -   Usare {{MenuCommand|Part → Primitive → Cono}} dal menu principale.
+    -   Usare **Part → Primitive → Cono** dal menu principale.
 
 
 </div>

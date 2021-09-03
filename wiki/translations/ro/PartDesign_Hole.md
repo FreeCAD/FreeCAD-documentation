@@ -24,7 +24,7 @@ Instrumentul **Hole** găurește una sau mai multe găuri dintr-o schiță selec
 
 </div>
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -43,7 +43,7 @@ Depending on which selection is made, some fields will activate or stay disabled
 
 ![](images/PartDesign_Hole_parameters.png )
 
-### Filetarea și mărime {#filetarea_și_mărime}
+### Filetarea și mărime 
 
 
 <div class="mw-translate-fuzzy">
@@ -73,7 +73,7 @@ Depending on which selection is made, some fields will activate or stay disabled
 
 </div>
 
-### Drill point {#drill_point}
+### Drill point 
 
 
 <div class="mw-translate-fuzzy">
@@ -120,7 +120,7 @@ Much of the Data properties are the same as those shown in [Options](#Options.md
 
 </div>
 
-## Cut Type Definitions {#cut_type_definitions}
+## Cut Type Definitions 
 
 Cut types (screw-types) are defined in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) files since version 0.19. There is a set of files distributed with FreeCAD, but users can create their own definitions. Files are searched in <UserAppDataDir>/PartDesign/Hole. The `UserAppDataDir` can be found by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md).
 

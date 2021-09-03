@@ -32,7 +32,7 @@ Nu toate obiectele Arch pot folosi în prezent multi-materiale, iar utilizarea l
 
 </div>
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -67,7 +67,7 @@ La crearea sau editarea unui material multiplu făcând dublu clic pe el în arb
 
 </div>
 
-## Relation to IFC {#relation_to_ifc}
+## Relation to IFC 
 
 This roughly corresponds to a combination of [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) and [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 

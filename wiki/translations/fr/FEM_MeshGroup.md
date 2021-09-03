@@ -18,7 +18,7 @@ Groupe de type maillage MEF permet donc à FreeCAD d\'être utilisé avec des so
 1.  Pour activer la fonction, il faut d\'abord fournir un maillage <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> [Maillage MEF à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md).
 2.  Ensuite, sélectionnez l\'objet Mesh dans la [Vue en arborescence](Tree_view/fr.md) et
     -   Soit appuyez sur le bouton <img alt="" src=images/FEM_MeshGroup.svg  style="width:24px;"> de la barre d\'outils FEM
-    -   Soit sélectionnez l\'option {{MenuCommand|Mesh → <img src="images/FEM_MeshGroup.svg" width=24px> Groupe de maillage FEM}} dans le menu déroulant.
+    -   Soit sélectionnez l\'option **Mesh → <img src="images/FEM_MeshGroup.svg" width=24px> Groupe de maillage FEM** dans le menu déroulant.
 3.  Sélectionnez si le groupe est nommé ou étiqueté.
     -   Si **Name** est sélectionné, le nom du MeshGroup est utilisé lors de l\'exportation du maillage.
     -   Si **Label** est sélectionné, le nom de l\'étiquette spécifiée sera utilisé lors de l\'exportation du maillage.

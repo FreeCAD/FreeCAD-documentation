@@ -24,7 +24,7 @@ FreeCAD 在 Windows，Mac OS 和 Linux 上行为一致。但是，平台不同�
 
 如果您在虚拟机中安装 FreeCAD，请注意性能可能很差。由于大多数虚拟机上的 [OpenGL](https://en.wikipedia.org/wiki/OpenGL) 支持限制，某些情况下 FreeCAD 可能无法使用。
 
-### 在 Windows 上安装 {#在_windows_上安装}
+### 在 Windows 上安装 
 
 1.  从[下载页面](https://github.com/FreeCAD/FreeCAD/releases)下载与您的 Windows 版本（32位或64位）对应的安装程序包（.exe）。FreeCAD 安装程序应该适用于从Windows 7 开始的任何 Windows 版本。
 2.  双击下载的安装程序。
@@ -38,7 +38,7 @@ FreeCAD 在 Windows，Mac OS 和 Linux 上行为一致。但是，平台不同�
 
 因为打包 FreeCAD 并创建安装程序需要一些时间和奉献精神，通常开发（也称为预发布）版本以.zip（或.7z）压缩文档的形式提供。无需安装，只要解压缩后，双击在里面找到的 FreeCAD.exe 文件，就可以启用 FreeCAD 了。这样你便可以将稳定版本和"不稳定"版本保存在了同一台计算机上。
 
-### 在 Linux 上安装 {#在_linux_上安装}
+### 在 Linux 上安装 
 
 
 <div class="mw-translate-fuzzy">
@@ -59,7 +59,7 @@ FreeCAD 在 Windows，Mac OS 和 Linux 上行为一致。但是，平台不同�
 
 使用 Linux 的一大乐趣是有多种可能来定制软件，不用束缚自己。在 Ubuntu 及其衍生产品上，FreeCAD 也可以从FreeCAD 社区维护的 [PPA](https://launchpad.net/~freecad-maintainers) 安装（它包含稳定版和开发版）。在 Fedora 上，可以从 [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/) 安装 FreeCAD 的最新开发版本。因为 FreeCAD 是开源软件，也可以[自己轻松编译 FreeCAD](Compiling/zh-cn.md)。
 
-### 在 Mac OS 上安装 {#在_mac_os_上安装}
+### 在 Mac OS 上安装 
 
 在 Mac OSX 上安装 FreeCAD 现在和其他平台一样简单。 但是，由于社区中拥有 Mac 的人数较少，因此可用的软件包有时会落后于其他平台的几个版本。
 

@@ -14,9 +14,9 @@ La commande **Std Basculer la sélectivité** bascule la sélectionnabilité des
 
 1.  Sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Visibilité → <img src="images/Std_ToggleSelectability.svg" width=16px> Basculer la sélectivité}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/Std_ToggleSelectability.svg" width=16px> Basculer la sélectivité}} dans le menu contextuel de la [vue en arborescence](tree_view/fr.md). Cette option n\'est pas disponible dans l\'[Atelier PartDesign](PartDesign_Workbench.md).
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/Std_ToggleSelectability.svg" width=16px> Basculer la sélectivité}} dans le menu contextuel de la vue 3D.
+    -   Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_ToggleSelectability.svg" width=16px> Basculer la sélectivité** dans le menu.
+    -   Sélectionnez l\'option **<img src="images/Std_ToggleSelectability.svg" width=16px> Basculer la sélectivité** dans le menu contextuel de la [vue en arborescence](tree_view/fr.md). Cette option n\'est pas disponible dans l\'[Atelier PartDesign](PartDesign_Workbench.md).
+    -   Sélectionnez l\'option **<img src="images/Std_ToggleSelectability.svg" width=16px> Basculer la sélectivité** dans le menu contextuel de la vue 3D.
 
 ## Remarques
 

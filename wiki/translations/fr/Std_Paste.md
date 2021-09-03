@@ -16,8 +16,8 @@ La commande **Std Coller** colle les objets du Presse-papiers dans le document a
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_Paste.svg" width=16px> [Opération de collage](Std_Paste/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Edition → <img src="images/Std_Paste.svg" width=16px> Coller}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/Std_Paste.svg" width=16px> Coller}} dans le menu contextuel de la [vue en arborescence](tree_view/fr.md). Notez que cette option n\'est disponible que lorsqu\'un objet sortant a été sélectionné.
+    -   Sélectionnez l\'option **Edition → <img src="images/Std_Paste.svg" width=16px> Coller** dans le menu.
+    -   Sélectionnez l\'option **<img src="images/Std_Paste.svg" width=16px> Coller** dans le menu contextuel de la [vue en arborescence](tree_view/fr.md). Notez que cette option n\'est disponible que lorsqu\'un objet sortant a été sélectionné.
     -   Utilisez le raccourci clavier: **Ctrl**+**V**.
 
 ## Remarques
@@ -29,7 +29,7 @@ La commande **Std Coller** colle les objets du Presse-papiers dans le document a
 
 ## Préférences
 
--   Les étiquettes en double sont autorisées si {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → Document → DuplicateLabels}} est défini sur `True`. Ce paramètre peut également être modifié dans l\'[Editeur de préférences](Preferences_Editor/fr#Document.md).
+-   Les étiquettes en double sont autorisées si **Outils → Editer les paramètres... → BaseApp → Preferences → Document → DuplicateLabels** est défini sur `True`. Ce paramètre peut également être modifié dans l\'[Editeur de préférences](Preferences_Editor/fr#Document.md).
 
 ## Script
 

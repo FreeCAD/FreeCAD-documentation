@@ -75,7 +75,7 @@ Nous allons maintenant placer des dimensions et des indications sur notre dessin
 2.  Appuyez sur le bouton <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> Bulle.
 3.  Le curseur est maintenant affiché sous forme d\'icône de bulle. Cliquez sur la page pour placer l\'origine de la bulle à la position souhaitée.
 4.  La bulle peut être déplacée vers la position souhaitée.
-5.  Modifiez les propriétés de la bulle en double-cliquant sur l\'étiquette de la bulle ou sur l\'objet de la bulle dans la [Vue en arborescence](Tree_view/fr.md). Cela ouvrira la boîte de dialogue de la bulle. Définissez le champ Valeur sur le texte souhaité et modifiez la sélection du menu déroulant Symbole sur {{MenuCommand|None}} (aucun).
+5.  Modifiez les propriétés de la bulle en double-cliquant sur l\'étiquette de la bulle ou sur l\'objet de la bulle dans la [Vue en arborescence](Tree_view/fr.md). Cela ouvrira la boîte de dialogue de la bulle. Définissez le champ Valeur sur le texte souhaité et modifiez la sélection du menu déroulant Symbole sur **None** (aucun).
 6.  Appuyez sur **OK**.
 7.  Répétez l\'opération pour la deuxième légende.
 
@@ -83,7 +83,7 @@ Nous allons maintenant placer des dimensions et des indications sur notre dessin
     -   Assurez-vous que les cadres de vue, les étiquettes et les sommets sont visibles. Sinon, appuyez sur le bouton <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Bascule.
     -   Modifiez le texte dans chaque section du bloc de titre de la feuille en cliquant sur le petit carré vert à gauche du texte.
 
-Notre page peut maintenant être exportée au format SVG pour être plus développée dans des applications graphiques comme [Inkscape](http://www.inkscape.org) ou au format DXF. Sélectionnez la page dans la [vue en arborescence](Tree_view/fr.md) puis sélectionnez le menu {{MenuCommand|Fichier → Exporter}}. Le format DXF est importable dans presque toutes les applications de CAO 2D existantes. Les pages TechDraw peuvent également être directement imprimées ou exportées au format PDF.
+Notre page peut maintenant être exportée au format SVG pour être plus développée dans des applications graphiques comme [Inkscape](http://www.inkscape.org) ou au format DXF. Sélectionnez la page dans la [vue en arborescence](Tree_view/fr.md) puis sélectionnez le menu **Fichier → Exporter**. Le format DXF est importable dans presque toutes les applications de CAO 2D existantes. Les pages TechDraw peuvent également être directement imprimées ou exportées au format PDF.
 
 **Téléchargements**
 

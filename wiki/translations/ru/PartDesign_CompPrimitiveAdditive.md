@@ -11,7 +11,7 @@
 
 Создаёт аддитивный примитив в активном Body (теле), как первичный элемент(ы). Если Body не найдено в документе, оно будет автоматически создано.
 
-## Типы примитивов {#типы_примитивов}
+## Типы примитивов 
 
 -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Аддитивный параллелепипед](PartDesign_AdditiveBox.md)
 -   <img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Аддитивный конус](PartDesign_AdditiveCone.md)

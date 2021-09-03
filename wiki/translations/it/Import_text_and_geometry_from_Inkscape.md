@@ -12,7 +12,7 @@
 Questo tutorial si propone di mostrare come importare in FreeCAD testo o geometria creata con Inkscape nel formato svg.
 Per queste operazioni sono utilizzati Inkscape 0.91 e FreeCAD 0.16.6704 in Windows.
 
-## Consigli generali per importare da Inkscape {#consigli_generali_per_importare_da_inkscape}
+## Consigli generali per importare da Inkscape 
 
 -   l\'importatore SVG di FreeCAD non può gestire un file in formato SVG con una risoluzione superiore a 45 dpi, quindi controllare le impostazioni di Inkscape
 -   se nella vista 3D in FreeCAD gli oggetti *tracciato* (path) importati non appaiono molto lisci questo può dipendere dalle impostazioni di FreeCAD per la vista della forma.
@@ -22,7 +22,7 @@ Per queste operazioni sono utilizzati Inkscape 0.91 e FreeCAD 0.16.6704 in Windo
     -   non utilizzare valori inferiori a \"0,01 %\", questo molto probabilmente blocca FreeCAD
     -   in tal caso la cancellazione di \"system.cfg\" e \"user.cfg\" nella directory utente di FreeCAD risolve questo problema
 
-## Importare testo da Inkscape {#importare_testo_da_inkscape}
+## Importare testo da Inkscape 
 
 -   in Inkscape, dopo aver inserito il testo (e forse aver applicato ad esso degli effetti, come la piegatura o altro) fare in modo di
     -   selezionare il testo e scegliere **Tracciato** → ** Da oggetto a tracciato**
@@ -34,7 +34,7 @@ Per queste operazioni sono utilizzati Inkscape 0.91 e FreeCAD 0.16.6704 in Windo
 -   utilizzare gli strumenti pad o [estrusione](Part_Extrude/it.md) sulle facce per ottenere solidi
 -   si possono fondere gli oggetti o utilizzare dei loro composti, secondo le esigenze
 
-## Importare geometria da Inkscape {#importare_geometria_da_inkscape}
+## Importare geometria da Inkscape 
 
 Dato che Inkscape e FreeCAD sembrano avere approcci diversi sul modo di applicare dimensioni a un oggetto svg, il flusso di lavoro consigliato sembra essere questo:
 

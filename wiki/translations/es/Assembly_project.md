@@ -21,7 +21,7 @@ Aquí está la planificación del proyecto para el módulo de **Ensamblaje** com
 
 <div class="mw-translate-fuzzy">
 
-## Propósito y principios {#propósito_y_principios}
+## Propósito y principios 
 
 Este es un proyecto de desarrollo de software cuya intención es implementar capacidades para la creación de ensamblajes y productos. Trata de la implementación de algunas **características principales** en los módulos de CAD de FeeCAD, **Piezas y Ensamblaje**.
 
@@ -60,12 +60,12 @@ Esto se logrará utilizando el **Ensamblaje** para poner todos los diferentes ti
 
 Otro objetivo es utilizar [ODE](http://en.wikipedia.org/wiki/Open_Dynamics_Engine) para la cinemática.
 
-## Tormenta de ideas {#tormenta_de_ideas}
+## Tormenta de ideas 
 
 
 <div class="mw-translate-fuzzy">
 
-### Modelo múltiple {#modelo_múltiple}
+### Modelo múltiple 
 
 <img alt="" src=images/MultiModel.png  style="width:600px;"> Una característica importante para los diseños del mundo real es la habilidad de dividir un diseño en partes más manejables. Es imposible trabajar en todos los aspectos de un diseño al mismo tiempo o por separado. Esto es cierto para la geometría y también para las tareas de ingeniería como CAE o CAM. Por eso FreeCAD necesita la posibilidad de dividir los modelos. Esto abre algunas posibilidades:
 
@@ -88,7 +88,7 @@ Un diseño de modelo múltiple podría parecerse a este:
 
 <div class="mw-translate-fuzzy">
 
-### Gestor de proyecto {#gestor_de_proyecto}
+### Gestor de proyecto 
 
 Modelo múltiple significa un montón de archivos que pertenecen a un proyecto, normalmente bajo un directorio común. Un archivo de proyecto y un explorador de proyecto (project browser) pueden ayudar a organizar los archivos. También pueden guardar información adicional sobre el proyecto o una website del proyecto.
 
@@ -112,7 +112,7 @@ Las referencias externas (a un directorio fuera del directorio raíz, un servido
 
 <div class="mw-translate-fuzzy">
 
-### Derechos de autor {#derechos_de_autor}
+### Derechos de autor 
 
 Ahora los derechos de autor de los modelos de 3D son un campo interesante. Los modelos 3D realmente tienen derechos de autor. Los derechos de autor son del creador del modelo. Sólo es posible proteger la forma, que es representada por el modelo, por una patente o una patente de diseño (EE.UU). Pero las patentes cubren sólo la creación de una pieza física para ganar dinero. Como ejemplo el [Patente del diseño del ratón de Microsoft](http://patft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=D464,651.PN.&OS=PN/D464,651&RS=PN/D464,651).
 
@@ -142,7 +142,7 @@ Añadir un enlace URL al documento de licencia completo (en caso de licencias de
 
 <div class="mw-translate-fuzzy">
 
-### ISO 10303 {#iso_10303}
+### ISO 10303 
 
 La ISO 10303 (STEP) es muy importante en este campo. Es la única definición de estructuras de producto que conozco que está bien estandarizada y ampliamente discutida y reconocida. <img alt="" src=images/Product_structure_modeling_Process-Data_diagram.gif  style="width:500px;">
 
@@ -170,7 +170,7 @@ Aquí algunos vínculos con información:
 
 <div class="mw-translate-fuzzy">
 
-### Restricciones de ensamblaje {#restricciones_de_ensamblaje}
+### Restricciones de ensamblaje 
 
 Una función importante en la construcción de modelos grandes y productos son las restricciones de ensamblaje, que formulan ciertas reglas sobre como se ensamblan las piezas en un producto. Las restricciones más relevantes son del tipo: Fijo, Cara a cara, Ángulo, Equidistancia y algún tipo de patrón de repetición (para producir múltiples instancias). Estas restricciones necesitan un solucionador especializado que las actualice cuando se produzcan cambios en las piezas. Este solucionador es fundamentalmente diferente al solucionador de croquis. Creo que tenemos que ir hacia un acercamiento basado en gráficos en este\...
 
@@ -190,7 +190,7 @@ Un paso más sería utilizar [ODE](http://ode.org/) para poner las restricciones
 
 <div class="mw-translate-fuzzy">
 
-### Control de revisiones {#control_de_revisiones}
+### Control de revisiones 
 
 Un importante punto es el control de versión y desarrollo distribuido. Con diseño multi modelo podremos dividir los diseños en piezas menores y podemos distribuir el trabajo entre un equipo. A un desarrollador de software \"distribuido\" y \"Versión\" le sonará familiar, así que por que no utilizar un [DVCS](http://en.wikipedia.org/wiki/Distributed_Version_Control_System). Una buena comparación está [aquí](http://en.wikipedia.org/wiki/Comparison_of_revision_control_software#Technical_information).
 
@@ -235,7 +235,7 @@ El ensamblaje demandará algunos cambios en e sistema base y capa de infraestruc
 
 <div class="mw-translate-fuzzy">
 
-#### Modelos múltiples {#modelos_múltiples}
+#### Modelos múltiples 
 
 Los modelos múltiples estaban en mente desde el principio del diseño de FreeCAD. Por tanto tenemos una interfaz de múltiples documentos y podemos cargar ilimitados documentos. Pero necesitamos promocionar especialmente el visor 3D para manejar el mostrar más de un documento en su vista (Part-Trees).
 
@@ -245,7 +245,7 @@ Los modelos múltiples estaban en mente desde el principio del diseño de FreeCA
 
 <div class="mw-translate-fuzzy">
 
-#### Part-Trees {#part_trees}
+#### Part-Trees 
 
 La combinación de piezas y subensamblajes es la actividad principal durante los ensamblajes. Por ello, hay que tener herramientas adecuadas para agrupar ordenadamente las piezas en una estructura de arbol. Esas herramientas hay que implementarlas. A diferencia de un DocumentObjectGroup el grupo de Ensamblaje tiene que manejar visibilidad y ubicación de sus hijos. Mejor hacerlo por apilado ViewProvider en cada otro. Eso necesita un tipo de ClaimChildren() interfaz para el ViewProviders.
 
@@ -255,7 +255,7 @@ La combinación de piezas y subensamblajes es la actividad principal durante los
 
 <div class="mw-translate-fuzzy">
 
-#### Interfaces unificados de Arrastrar/Soltar/Copiar/Pegar {#interfaces_unificados_de_arrastrarsoltarcopiarpegar}
+#### Interfaces unificados de Arrastrar/Soltar/Copiar/Pegar 
 
 El interfaz debe ser adecuado para facilitar que tanto desde ViewProvider como desde los diversos entornos se tenga un control total sobre las operaciones de Arrastrar/Soltar/Copiar/Pegar y además sea operativo tanto en la vista en árbol como en la vista 3D.
 
@@ -265,7 +265,7 @@ El interfaz debe ser adecuado para facilitar que tanto desde ViewProvider como d
 
 <div class="mw-translate-fuzzy">
 
-#### Recursos externos {#recursos_externos}
+#### Recursos externos 
 
 Manejar enlaces (de navegadores internos o externos). Significa recursos cargando sobre (potencialmente) conexiones lentas (http).
 
@@ -278,18 +278,18 @@ La descripción del material y sus propiedades es una parte vital de un sistema 
 
 Para la descripción del material se ha creado un artículo específico: [Material](Material/es.md)
 
-### Modelo de objetos {#modelo_de_objetos}
+### Modelo de objetos 
 
 Una Clase árbol para manejar conceptos necesarios. Referencias, interfaces, enlaces de documentos, vistas, compuestos, restricciones, configuraciones, y mucho más\...
 
-## STEP check loop {#step_check_loop}
+## STEP check loop 
 
 Implementing a first STEP importer for more than geometry and color to check if the object model holds for a wider usage.
 
 
 <div class="mw-translate-fuzzy">
 
-### Solucionador de restricciones de ensamblaje {#solucionador_de_restricciones_de_ensamblaje}
+### Solucionador de restricciones de ensamblaje 
 
 Definir un interfaz para un Solucionador de restricciones de ensamblaje, muy similar al interfaz del solucionador del Croquizador.
 
@@ -299,7 +299,7 @@ Definir un interfaz para un Solucionador de restricciones de ensamblaje, muy sim
 
 <div class="mw-translate-fuzzy">
 
-### Interfaz de simulación física {#interfaz_de_simulación_física}
+### Interfaz de simulación física 
 
 Interfaz para permitir a un software de simulación (multi)física (externo) tomar el control sobre el posicionamiento de las Piezas en el Ensamblaje. Esto podría permitir utilizar \"bullet\" o \"ODE\" para hacer los test de cinemática y DMU.
 
@@ -309,7 +309,7 @@ Interfaz para permitir a un software de simulación (multi)física (externo) tom
 
 <div class="mw-translate-fuzzy">
 
-## Próximas acciones {#próximas_acciones}
+## Próximas acciones 
 
 -   Modelo de objetos
 -   Esperar a que se libere la versión 0.12

@@ -13,7 +13,7 @@ Inserts a subtractive box in the active Body. Its shape is subtracted from the e
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

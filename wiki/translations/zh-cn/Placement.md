@@ -183,7 +183,7 @@ Rotation using Euler angles:
 
 <img alt="After Rotation" src=images/RotationEulerAfter.png  style="width:600px;"> After Rotation 
 
-## Placement.Base vs Shape Definition {#placement.base_vs_shape_definition}
+## Placement.Base vs Shape Definition 
 
 Placement is not the only way to position a shape in space. Note the Python console in this image:
 
@@ -218,7 +218,7 @@ Both cubes have the same value for Placement, but are in different locations! Th
 
 The Vertices (or Vectors) that define the shape use the Placement.Base attribute as their origin. So if you want to move a shape 10 units along the **X** axis, you could add 10 to the **X** coordinates of all the Vertices or you could set Placement.Base to (10,0,0).
 
-## Using \"Center\" to Control Axis of Rotation {#using_center_to_control_axis_of_rotation}
+## Using \"Center\" to Control Axis of Rotation 
 
 By default, the axis of rotation isn\'t really the x/y/z axis. It is a line parallel to the selected axis, but passing through the reference point (Placement.Base) of the object to be rotated. This can be changed by using the Center fields in the Placement dialog or, in scripts, by using the Center parameter of the FreeCAD.Placement constructor.
 
@@ -248,7 +248,7 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
-## Using Placement in expressions {#using_placement_in_expressions}
+## Using Placement in expressions 
 
 In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\": 
 ```python

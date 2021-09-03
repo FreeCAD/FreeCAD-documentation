@@ -200,7 +200,7 @@ except Exception:
 
 }}
 
-### Les curseurs pouvant être utilisés {#les_curseurs_pouvant_être_utilisés}
+### Les curseurs pouvant être utilisés 
 
 ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor, SizeHorCursor SizeBDiagCursor, SizeFDiagCursor, SizeAllCursor, BlankCursor, SplitVCursor, SplitHCursor PointingHandCursor, ForbiddenCursor, OpenHandCursor, ClosedHandCursor, WhatsThisCursor, BusyCursor, BitmapCursor
 

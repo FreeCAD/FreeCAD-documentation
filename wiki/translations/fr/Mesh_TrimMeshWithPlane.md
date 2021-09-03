@@ -18,12 +18,12 @@ La commande **Mesh Créer une section** permet de découper les faces et parties
 2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_TrimByPlane.svg" width=16px> [Ajuste le maillage avec plan](Mesh_TrimByPlane/fr.md)
 **
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → Cutting → <img src="images/Mesh_TrimByPlane.svg" width=16px> Ajuster le maillage avec un plan}} dans le menu.
+    -   Sélectionnez l\'option **Maillages → Cutting → <img src="images/Mesh_TrimByPlane.svg" width=16px> Ajuster le maillage avec un plan** dans le menu.
 
-3.  La boîte de dialogue {{MenuCommand|Trim by plane}} s\'ouvre.
+3.  La boîte de dialogue **Trim by plane** s\'ouvre.
 
 4.  
-    {{MenuCommand|Select the side you want to keep}}en appuyant sur l\'un des boutons:
+    **Select the side you want to keep**en appuyant sur l\'un des boutons:
 
     -   
         {{button|Below}}

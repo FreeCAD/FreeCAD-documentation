@@ -20,7 +20,7 @@
 1.  Нажмите кнопку **<img src="images/BIM_Library.png" width=16px> [BIM Library](BIM_Library/ru.md)
 **
 
-    :   Result: In the [Combo view](Combo_view.md) → [Task panel](Task_panel.md) a dialog titled {{MenuCommand|Library browser}} will display
+    :   Result: In the [Combo view](Combo_view.md) → [Task panel](Task_panel.md) a dialog titled **Library browser** will display
 2.  Щелкните файл в браузере библиотеки
 3.  Дважды щелкните его или нажмите кнопку **Insert**
 4.  Щелкните точку в [трехмерном виде](3D_view/ru.md) или введите координату вручную, чтобы поместить объект

@@ -28,7 +28,7 @@ Creează un tor simplu parametric, cu parametrii de poziție, unghi1, unghi2, un
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

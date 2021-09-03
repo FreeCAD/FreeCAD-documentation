@@ -10,7 +10,7 @@
 
 Cette page contient plusieurs modules python supplémentaires ou d\'autres bouts de code qui peuvent être téléchargés gratuitement sur Internet, et ajouter des fonctionnalités à votre installation de FreeCAD.
 
-## PySide (précédemment PyQt4) {#pyside_précédemment_pyqt4}
+## PySide (précédemment PyQt4) 
 
 -   page officielle (PySide): [<http://qt-project.org/wiki/PySide>](http://qt-project.org/wiki/PySide)
 -   licence: LGPL
@@ -83,7 +83,7 @@ path = FreeCAD.ConfigGet("AppHomePath")
 SaveName, Filter = PySide.QtGui.QFileDialog.getSaveFileName(None, "Save a file txt", path, "*.txt")
 ```
 
-### Exemple de transition de PyQt4 vers PySide {#exemple_de_transition_de_pyqt4_vers_pyside}
+### Exemple de transition de PyQt4 vers PySide 
 
 PS: ces exemples d\'erreurs ont été trouvées dans la transition de PyQt4 à PySide et ces corrections ont été faites, d\'autres solutions sont certainement disponibles avec les exemples ci-dessus
 
@@ -222,7 +222,7 @@ Plus de tutoriels sur **PyQt4** (y compris sur la façon de construire des inter
 
 Pivy a besoin de plusieurs modules pour accéder à la vue 3D de FreeCAD. Pour les fenêtres, pivy est déjà fourni dans l\'installateur de FreeCAD pour Linux, il est généralement installé automatiquement lorsque vous installez FreeCAD partir d\'un référentiel officiel. Sur MacOSX, malheureusement, vous aurez besoin de compiler Pivy vous même.
 
-### Installation {#installation_1}
+### Installation 
 
 #### Prérequis
 
@@ -235,7 +235,7 @@ Pour Fedora, j\'ai trouvé un **RPM** avec **Coin3**.
 
 **SoQt**, compilé à partir [des sources](http://www.coin3d.org/lib/soqt/releases/1.5.0) fonctionne très bien sur **Mac et Linux**.
 
-#### Debian & Ubuntu {#debian_ubuntu}
+#### Debian & Ubuntu 
 
 Depuis **Debian Squeeze** et **Ubuntu Lucid**, **Pivy** est disponible directement à partir des dépôts officiels, et, nous permet d\'économiser beaucoup de tracas.
 En attendant, vous pouvez soit télécharger l\'un des **packages** que nous avons fait (pour Debian et Ubuntu karmic), disponibles sur les pages de [téléchargements](Download/fr.md) , ou, vous pouvez le compiler vous-même.
@@ -258,7 +258,7 @@ debuild
 
 pour avoir **Pivy**, correctement compilé, avec un package officiellement installable. Ensuite, il suffit d\'installer le package avec **gdebi**.
 
-#### Autres distributions Linux {#autres_distributions_linux}
+#### Autres distributions Linux 
 
 D\'abord, téléchargez les dernières sources du [project\'s repository](http://pivy.coin3d.org/mercurial/) :
 
@@ -305,7 +305,7 @@ python setup.py install (or checkinstall python setup.py install)
 
 Ça y est, pivy est installé.
 
-#### Mac OS {#mac_os}
+#### Mac OS 
 
 Ces instructions peuvent ne pas être complètes. Quelque chose plus ou moins comme cela a fonctionné pour **OS 10.7 de Mars 2012**. J\'utilise **[MacPorts](http://www.macports.org/)** pour les dépôts, mais d\'autres options devraient également fonctionner.
 
@@ -350,7 +350,7 @@ python setup.py build
 sudo python setup.py install
 ```
 
-#### Windows {#windows_1}
+#### Windows 
 
 En supposant que vous utilisiez **Visual Studio 2005** ou une version ultérieure, vous devrez ouvrir une invite de commande avec **Visual Studio 2005 Command prompt** dans le menu Outils.
 Si l\'interpréteur **Python** n\'est pas encore dans le chemin système (PATH), faites :
@@ -481,7 +481,7 @@ Maintenant, vous pouvez rencontrer une erreur de compilation, ou un **const char
 Pour corriger cela il vous suffit d\'écrire un **const** avant, dans les lignes appropriées, il y a six lignes à corriger.
 Après copiez le répertoire généré par **Pivy** dans un endroit où l\'interpréteur **Python** de FreeCAD peut le trouver.
 
-### Utilisation {#utilisation_1}
+### Utilisation 
 
 Pour vérifier si pivy est correctement installé :
 
@@ -503,7 +503,7 @@ FCSceneGraph.addChild(coin.SoCube()) # add a box to scene
 
 Vous pouvez maintenant explorer la **FCSceneGraph** avec la commande **dir()**.
 
-### Documentation {#documentation_1}
+### Documentation 
 
 Malheureusement, la documentation sur **Pivy** est \"pour le moment\" presque inexistante sur le net. Mais vous pouvez trouver de la documentation très utile sur **Coin**, car **Pivy** a simplement traduit les fonctions, **Coin**, des nœuds et des méthodes en **Python**, les noms sont conservés (mêmes noms) ainsi que les propriétés ne sont différentes que par la syntaxe entre le **C** et **Python** :
 
@@ -520,12 +520,12 @@ Vous pouvez également consulter le fichier **Draft.py** dans le dossier **FreeC
 
 **[pyCollada](http://pycollada.github.com)** est une bibliothèque **Python** qui permet aux programmes de lire et d\'écrire des fichiers **[Collada (\*.DAE)](http://en.wikipedia.org/wiki/COLLADA)**. Lorsque **pyCollada** est installé sur votre système, FreeCAD (<small>(v0.13)</small> ) le détecte et ajoute les options d\'importation et d\'exportation, qui permettent l\'ouverture et l\'enregistrement de fichiers au format **Collada**.
 
-### Installation {#installation_2}
+### Installation 
 
 **Pycollada** n\'est généralement pas encore disponible dans les dépôts des distributions Linux, mais puisqu\'il est fait uniquement en **Python**, il ne nécessite pas de compilation, et est facile à installer.
 Vous avez 2 façons de l\'installer, soit directement à partir du **pycollada git repository** officiel, ou avec l\'outil **easy\_install**.
 
-#### Linux {#linux_1}
+#### Linux 
 
 Dans les deux cas, vous aurez besoin des paquetages suivants, installés d\'avance sur votre système :
 
@@ -536,7 +536,7 @@ python-numpy
 python-dateutil
 ```
 
-##### Depuis le dépôt git (pycollada git repository) {#depuis_le_dépôt_git_pycollada_git_repository}
+##### Depuis le dépôt git (pycollada git repository) 
 
 
 ```python
@@ -545,7 +545,7 @@ cd pycollada
 sudo python setup.py install
 ```
 
-##### Avec easy\_install (easy\_install) {#avec_easy_install_easy_install}
+##### Avec easy\_install (easy\_install) 
 
 En supposant que vous avez déjà installé complètement **Python**, l\'utilitaire **easy\_install** doit être déjà présent :
 
@@ -563,11 +563,11 @@ import collada
 
 Si la commande ne retourne aucun message d\'erreur, alors tout est OK.
 
-#### Windows {#windows_2}
+#### Windows 
 
 Pycollada est inclus sur Windows depuis la version 0.15 et dans les versions de développement de FreeCAD, donc aucune étape supplémentaire n\'est nécessaire.
 
-#### Mac OS {#mac_os_1}
+#### Mac OS 
 
 Si vous utilisez l\'accumulation des Homebrew FreeCAD vous pouvez installer pycollada dans votre système Python en utilisant pip.
 
@@ -608,11 +608,11 @@ $ python setup.py install --prefix=/Applications/FreeCAD\ 0.16.6706.app/Contents
 
 IFCOpenShell, est une bibliothèque actuellement en développement, ce qui permet d\'importer (et bientôt d\'exporter) [Industry foundation Classes (\*.Fichiers IFC)](http://fr.wikipedia.org/wiki/Industry_Foundation_Classes). Ceci est une extension pour le format [STEP](http://fr.wikipedia.org/wiki/Standard_pour_l%27%C3%A9change_de_donn%C3%A9es_de_produit) et devient la norme dans les workflows [BIM](http://fr.wikipedia.org/wiki/Building_Information_Modeling). Lorsque **ifcopenshell** est correctement installé sur votre système, l\'**![](images/)_[atelier_Arch](Arch_Workbench/fr.md)** de FreeCAD le détectera et l\'utilisera pour importer des fichiers **IFC**. Étant donné qu**\'ifcopenshell** est basé sur OpenCasCade, comme FreeCAD, la qualité de l\'importation est très élevée, en produisant une géométrie de solides de haute qualité.
 
-### Installation {#installation_3}
+### Installation 
 
 Étant donné que **\'ifcopenshell** est assez nouveau, vous devrez probablement le compiler vous-même.
 
-#### Linux {#linux_2}
+#### Linux 
 
 Vous aurez besoin de deux ou trois paquets de développement, installés sur votre système afin de rassembler les ifcopenshell :
 
@@ -672,7 +672,7 @@ import ifcopenshell
 
 Si la commande ne retourne aucun message d\'erreur, alors tout est OK.
 
-#### Windows {#windows_3}
+#### Windows 
 
 **Note**: les installateurs officiels FreeCAD obtenus à partir de la page du site Web/github de FreeCAD contiennent déjà ifcopenshell.
 
@@ -688,7 +688,7 @@ Pour créer le **IfcPython wrapper**, **SWIG** doit être installé. Télécharg
 
 Tutoriel [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell.md)
 
-## ODA Converter (précédemment Teigha Converter) {#oda_converter_précédemment_teigha_converter}
+## ODA Converter (précédemment Teigha Converter) 
 
 -   page d\'accueil: <https://www.opendesign.com/guestfiles/oda_file_converter>
 -   licence: freeware
@@ -696,7 +696,7 @@ Tutoriel [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compil
 
 Le convertisseur ODA Converter est un petit utilitaire disponible gratuitement qui permet de convertir plusieurs versions de fichiers DWG et DXF. FreeCAD peut l\'utiliser pour permettre l\'importation et l\'exportation de fichiers DWG, en convertissant les fichiers DWG au format DXF de manière transparente, puis utiliser son importateur DXF standard pour importer le contenu du fichier. Les restrictions de l\'[importateur DXF](Draft_DXF/fr.md) s\'appliquent.
 
-### Installation {#installation_4}
+### Installation 
 
 S\'installe sur toutes les plateformes, par l\'installation du paquet approprié disponible à <https://www.opendesign.com/guestfiles/oda_file_converter>. Après l\'installation, si l\'utilitaire n\'est pas trouvé automatiquement par FreeCAD, vous devrez configurer manuellement le chemin de l\'exécutable du convertisseur via le menu Édition → Préférences → Importer-Exporter → DWG et renseignez le champs \"Chemin d'accès du convertisseur de fichier Teiga\".
 
@@ -704,11 +704,11 @@ S\'installe sur toutes les plateformes, par l\'installation du paquet approprié
 
 LazyLoader est un module python qui permet un chargement différé tout en continuant d\'importer en haut du script. Ceci est utile si vous importez un autre module qui est lent et qu\'il est utilisé plusieurs fois dans le script. L\'utilisation de LazyLoader peut améliorer les temps de démarrage du plan de travail mais le module devra toujours être chargé lors de la première utilisation.
 
-### Installation {#installation_5}
+### Installation 
 
 LazyLoader est inclus avec FreeCAD v0.19.
 
-### Utilisation {#utilisation_2}
+### Utilisation 
 
 Vous devrez importer LazyLoader puis modifier l\'importation du module que vous souhaitez différer.
 
@@ -730,7 +730,7 @@ Vous pouvez également importer un module à partir d\'un package.
 utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 ``` Vous ne pouvez pas importer des fonctions individuelles, seulement des modules entiers.
 
-### Liens {#liens_1}
+### Liens 
 
 -   Source d\'origine: <https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/util/lazy_loader.py>
 -   Plus d\'explications: <https://wil.yegelwel.com/lazily-importing-python-modules/>

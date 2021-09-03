@@ -17,7 +17,7 @@ Ein Bildschirmfoto der Version 0.11
 -   Der Kopieren/Einfügen-Mechanismus wurde ebenfalls deutlich verbessert, um das Kopieren/Einfügen von Objekten zwischen Dokumenten zu ermöglichen.
 -   Die [Teil Werkbank](Part_Workbench/de.md) weist neue Werkzeuge wie Spiegelung, Kantenverrundung und Fasen auf.
 
-### Skizze und Teilkonstruktion {#skizze_und_teilkonstruktion}
+### Skizze und Teilkonstruktion 
 
 -   Der Beschränkungslöser der [Skizzierungswerkbank](Sketcher_Workbench.md) wurde vollkommen neu geschrieben. Der Skizzierer, auch wenn noch nicht vollständig, weist bereits eine gute Auswahl an Werkzeugen für Linien, Rechtecke und Beschränkungen wie das Zusammentreffen von Punkten, Parallelität, feste Länge oder horizontale bzw. vertikale Beschränkungen auf.
 -   Zusätzlich zu dem Skizzierer, ermöglicht eine neue TeilKonstruktion Werkbank das schnelle erstellen von Körpern auf Skizzen. Von nun an grundsätzlich ist in FreeCAD alles parametrisch, d.h. Sie können jederzeit zu Änderungen zurückkehren und sämtliche darauf basierende Geometrie wird automatisch angepasst.
@@ -26,13 +26,13 @@ Ein Bildschirmfoto der Version 0.11
 
 ![](images/Movie.png ) Beispiele: [Skizzierer Demo](http://www.youtube.com/watch?v=hvXupH5bA0E) • [TeilKonstruktion Demo](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
 
-### Roboter-Simulation {#roboter_simulation}
+### Roboter-Simulation 
 
 -   Die [Roboter Werkbank](Robot_Workbench/de.md) wurde um viele GUI Werkzeuge erweitert und ist nun ziemlich funktional. Sie erlaubt die einfache Simulation der Bewegungen von Industrierobotern.
 
 ![](images/release011-robot.jpg )
 
-### 2D drafting {#d_drafting}
+### 2D drafting 
 
 -   Snapping has been greatly optimized and now works pretty fast, even on complex objects
 -   The \"Trim/Extend\" tool can now be called \"Trim/Extend/Extrude\", since it allows you to quickly extrude single faces, offering a convenient shortcut to the standard Part Extrude tool

@@ -16,7 +16,7 @@ Un anneau de centrage est un objet solide utilisé pour maintenir un ou plusieur
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_CenteringRing.svg" width=16px> [Centering Ring](Rocket_CenteringRing/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Rocket  → <img src="images/Rocket_CenteringRing.svg" width=16px> Centering Ring}} dans le menu.
+    -   Sélectionnez l\'option **Rocket  → <img src="images/Rocket_CenteringRing.svg" width=16px> Centering Ring** dans le menu.
     -   Double-cliquez sur un objet Centering Ring dans la vue du modèle.
 2.  Définissez les options et appuyez sur **OK**.
 
@@ -84,7 +84,7 @@ Voir aussi : [:Category:API/fr](:Category:API/fr.md) et [Débuter avec les scrip
 
 A définir
 
-## Tutoriels et apprentissage {#tutoriels_et_apprentissage}
+## Tutoriels et apprentissage 
 
 [Tubes de corps, cloisons et anneaux de centrage Atelier Rocket](https://youtu.be/xi7acpw3eDA) Tutoriel sur YouTube
 

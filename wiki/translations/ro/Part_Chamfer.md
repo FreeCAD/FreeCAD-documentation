@@ -29,9 +29,9 @@
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
-1.  Apăsați butonul **<img src="images/Part_Chamfer.svg" width=30px>** din aelierul [Part Workbench](Part_Workbench.md). Alternativ, puteți selecta {{MenuCommand|Part → Chamfer}}.
+1.  Apăsați butonul **<img src="images/Part_Chamfer.svg" width=30px>** din aelierul [Part Workbench](Part_Workbench.md). Alternativ, puteți selecta **Part → Chamfer**.
 2.  Selectați forma care urmează să se șanfrenată din fereastra de dialog.
 3.  Selectați margini care urmează să fie șanfrenate, bifând caseta corespunzătoare în fereastra de precizie sau selectându-le direct pe model.
 4.  Editați parametrii chamfer.
@@ -63,9 +63,9 @@ Réglez la valeur du rayon, puis cliquez **OK** pour valider.
 
 Un șanfren de lungime variabilă va avea marginile care pot fi setate la distanțe diferite de marginea originală, permițându-vă să creați un șanfren la un unghi variabil.
 
-## Options {#options_1}
+## Options 
 
-### Vue combinée → Tâche {#vue_combinée_tâche}
+### Vue combinée → Tâche 
 
 <img alt="Tâche options chanfrein" src=images/Part_Chamfer_fr_05.png  style="width:240px;"> {{TitreTache|<img src="images/Part_Fillet.png" width=16px> Chanfrein des arêtes}} {{TitreProprietes|Forme}}
 
@@ -110,11 +110,11 @@ Sur cette exemple l\'option est réglée sur **[Rayon variable](#Chanfrein_asym�
 
 ## Propriétés
 
-### Vue combinée → Propriétés Vue {#vue_combinée_propriétés_vue}
+### Vue combinée → Propriétés Vue 
 
 <img alt="Propriétés Vue Chanfrein" src=images/Part_Chamfer_fr_03.png  style="width:240px;"> {{PartOngletVue_2/fr}} 
 
-### Vue combinée → Propriétés Données {#vue_combinée_propriétés_données}
+### Vue combinée → Propriétés Données 
 
 <img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width:240px;">
 
@@ -169,13 +169,13 @@ La modification d\'une valeur de plus d\'un axes provoque la rotation avec l\'an
 
 
 
-## Propriétés {#propriétés_1}
+## Propriétés 
 
-### Vue combinée → Propriétés Vue {#vue_combinée_propriétés_vue_1}
+### Vue combinée → Propriétés Vue 
 
 <img alt="Propriétés Vue Chanfrein" src=images/Part_Chamfer_fr_03.png  style="width:240px;"> {{PartOngletVue_2/fr}} 
 
-### Vue combinée → Propriétés Données {#vue_combinée_propriétés_données_1}
+### Vue combinée → Propriétés Données 
 
 <img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width:240px;">
 
@@ -229,7 +229,7 @@ Instrumentul Chamfer poate fi utilizat în [macros](macros.md) și din consolă 
 <img alt="Chanfreins" src=images/Part_Chamfer_fr_01.png  style="width:480px;">
 
 
-## Utilisation {#utilisation_1}
+## Utilisation 
 
 Démarrez l\'outil **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** qui se trouve dans \" **Boîte déroulante des ateliers → **Part [24px|Part](File:Workbench_Part.png.md)** → **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**** depuis la barre d\'outils, ou le menu. Vous pouvez sélectionner l\'objet au préalable.
 Si la forme n\'a pas été sélectionnée au préalable, sélectionnez-la dans la **liste déroulante** du panneau des Tâches.
@@ -237,9 +237,9 @@ Sélectionnez le type de congé (Chanfrein), soit rayon constant (par défaut), 
 Sélectionnez les arêtes, soit dans la vue 3D, ou en les cochant, dans la liste du panneau des Tâches.
 Réglez la valeur du rayon, puis cliquez **OK** pour valider.
 
-## Options {#options_2}
+## Options 
 
-### Vue combinée → Tâche {#vue_combinée_tâche_1}
+### Vue combinée → Tâche 
 
 <img alt="Tâche options chanfrein" src=images/Part_Chamfer_fr_05.png  style="width:240px;"> {{TitreTache|<img src="images/Part_Fillet.png" width=16px> Chanfrein des arêtes}} {{TitreProprietes|Forme}}
 
@@ -270,13 +270,13 @@ Sur cette exemple l\'option est réglée sur **[Rayon variable](#Chanfrein_asym�
 
 
 
-## Propriétés {#propriétés_2}
+## Propriétés 
 
-### Vue combinée → Propriétés Vue {#vue_combinée_propriétés_vue_2}
+### Vue combinée → Propriétés Vue 
 
 <img alt="Propriétés Vue Chanfrein" src=images/Part_Chamfer_fr_03.png  style="width:240px;"> {{PartOngletVue_2/fr}} 
 
-### Vue combinée → Propriétés Données {#vue_combinée_propriétés_données_2}
+### Vue combinée → Propriétés Données 
 
 <img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width:240px;">
 
@@ -312,7 +312,7 @@ La modification d\'une valeur de plus d\'un axes provoque la rotation avec l\'an
 
 ## Exemple
 
-### Chanfrein symétrique {#chanfrein_symétrique}
+### Chanfrein symétrique 
 
 
 <center>
@@ -389,12 +389,12 @@ Les formes originales peuvent être effacées, pour ne conserver que le produit 
 </center>
 
 
-## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign\_Chamfer/fr](File:PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part\_Chamfer/fr](Image:Part_Chamfer.png.md) {#comparaison_chanfrein_partdesign_16pxtext_topchanfreinlinkpartdesign_chamferfr_et_chanfrein_part_16pxtext_topchanfreinlinkpart_chamferfr}
+## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign\_Chamfer/fr](File:PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part\_Chamfer/fr](Image:Part_Chamfer.png.md) 
 
 **Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
 Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utilisent différemment.
 
-### Voici quelques différences : {#voici_quelques_différences}
+### Voici quelques différences : 
 
 -   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** est *paramétrique*. Après l\'application d\'un **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
 -   Les arêtes doivent être sélectionnées avant de démarrer le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
@@ -410,9 +410,9 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 
 **Exemplu de Script:**
 
-## Exemple {#exemple_1}
+## Exemple 
 
-### Chanfrein symétrique {#chanfrein_symétrique_1}
+### Chanfrein symétrique 
 
 
 <center>
@@ -489,12 +489,12 @@ Les formes originales peuvent être effacées, pour ne conserver que le produit 
 </center>
 
 
-## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign\_Chamfer/fr](File:PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part\_Chamfer/fr](Image:Part_Chamfer.png.md) {#comparaison_chanfrein_partdesign_16pxtext_topchanfreinlinkpartdesign_chamferfr_et_chanfrein_part_16pxtext_topchanfreinlinkpart_chamferfr_1}
+## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign\_Chamfer/fr](File:PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part\_Chamfer/fr](Image:Part_Chamfer.png.md) 
 
 **Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
 Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utilisent différemment.
 
-### Voici quelques différences : {#voici_quelques_différences_1}
+### Voici quelques différences : 
 
 -   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** est *paramétrique*. Après l\'application d\'un **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
 -   Les arêtes doivent être sélectionnées avant de démarrer le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.

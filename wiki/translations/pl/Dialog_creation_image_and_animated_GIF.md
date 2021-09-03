@@ -6,7 +6,7 @@ This is an example of [dialog creation](Dialog_creation.md) with [PySide](PySide
 
 In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to create {{FileName|.ui}} files through Qt Designer, and load these in the program. See [Interface creation with UI files](Interface_creation_with_UI_files.md).
 
-## Dialog with image (QLabel) and animated GIF (QMovie) {#dialog_with_image_qlabel_and_animated_gif_qmovie}
+## Dialog with image (QLabel) and animated GIF (QMovie) 
 
 
 ```python

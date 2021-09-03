@@ -38,7 +38,7 @@ Any missing file is printed onto the Report view. Any missing directory is print
 
 A new document is created and each project is \"Project Merged\" into that new and empty document. The document is not saved at the end, this is left for the user if desired. If the file does not exist then the file name is Printed to the Report view
 
-## User Interface {#user_interface}
+## User Interface 
 
 There really isn\'t a GUI at all for this macro. The macro reads a text file that has been prepared with a text editor and produces a model in an output document. Other than clicking the button on the toolbar to start the process, there is no user interaction.
 

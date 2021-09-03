@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-### Använda licenser {#använda_licenser}
+### Använda licenser 
 
 Här är de tre licenserna under vilka FreeCAD är publicerad:
 
@@ -52,7 +52,7 @@ Se FreeCAD\'s [debian copyright file](http://free-cad.git.sourceforge.net/git/gi
 
 <div class="mw-translate-fuzzy">
 
-### Licensernas inverkan {#licensernas_inverkan}
+### Licensernas inverkan 
 
 
 </div>
@@ -62,7 +62,7 @@ Below is a friendlier explanation of what the LGPL license means for you:
 
 <div class="mw-translate-fuzzy">
 
-#### Privata användare {#privata_användare}
+#### Privata användare 
 
 Privata användare kan använda FreeCAD utan avgift och kan göra ungefär vad de vill med den\....
 
@@ -72,7 +72,7 @@ Privata användare kan använda FreeCAD utan avgift och kan göra ungefär vad d
 
 <div class="mw-translate-fuzzy">
 
-#### Professionella användare {#professionella_användare}
+#### Professionella användare 
 
 Kan använda FreeCAD fritt, för alla sorters privata eller professionella arbeten. De kan anpassa applikationen som de önskar. De kan skriva öppen eller sluten källkodsextensioner till FreeCAD. De är alltid herrar över deras data, de är inte tvingade att uppdatera FreeCAD, ändra deras bruk av FreeCAD. Att använda FreeCAD binder dem inte till några kontrakt eller krav.
 
@@ -82,7 +82,7 @@ Kan använda FreeCAD fritt, för alla sorters privata eller professionella arbet
 
 <div class="mw-translate-fuzzy">
 
-#### Öppen källkodsutvecklare {#öppen_källkodsutvecklare}
+#### Öppen källkodsutvecklare 
 
 Kan använda FreeCAD som grundplattform för egna extensionsmoduler för speciella ändamål. De kan välja antingen GPL eller LGPL för att tillåta bruk av deras arbete i proprietär mjukvara, eller inte.
 
@@ -92,7 +92,7 @@ Kan använda FreeCAD som grundplattform för egna extensionsmoduler för speciel
 
 <div class="mw-translate-fuzzy">
 
-#### Professionella utvecklare {#professionella_utvecklare}
+#### Professionella utvecklare 
 
 Professionella utvecklare Kan använda FreeCAD som grundplattform för egna extensionsmoduler för speciella ändamål och är inte tvingade att göra sina moduler till öppen källkod. De kan använda alla moduler som använder LGPL. De är tillåtna att distribuera FreeCAD tillsammans med deras proprietära mjukvara. De kommer få support av författarna så länge som den inte är enkelriktad. Om du vill sälja din modul så behöver du en Coin3D licens, annars är du tvingad av detta bibliotek att göra den till öppen källkod.
 
@@ -106,7 +106,7 @@ The models and other files produced with FreeCAD are not subject to any license 
 
 <div class="mw-translate-fuzzy">
 
-### Uttalande från underhållaren {#uttalande_från_underhållaren}
+### Uttalande från underhållaren 
 
 Jag vet att diskussionen om *\"rätt\"* licens för öppen källkod tar upp en signifikant del av internetbandbredden, så här är skälen till varför, enligt min åsikt, FreeCAD ska ha denna.
 

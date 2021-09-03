@@ -21,7 +21,7 @@ Sélectionnez vos objet qui serviront à la création de l\'extrusion, donnez la
 
 ![](images/Macro_FCWire_To_Volume_00.png )
 
-### Epaisseur solide {#epaisseur_solide}
+### Epaisseur solide 
 
 -    {{SpinBox|SpinBox}}: Donnez l\'épaisseur
 

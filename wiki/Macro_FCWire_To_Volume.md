@@ -21,7 +21,7 @@ Select the wires objects, enter the thickness choice the operation desired and c
 
  ![](images/Macro_FCWire_To_Volume_00.png ) 
 
-### Thickness Solide {#thickness_solide}
+### Thickness Solide 
 
 -    {{SpinBox|SpinBox}}: Give the thickness
 

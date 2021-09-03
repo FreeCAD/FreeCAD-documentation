@@ -9,9 +9,9 @@
 
 L\'[atelier Ship](Ship_Workbench/fr.md) <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> est utilisé pour créer des structures communes aux navires.
 
-## Les Outils {#les_outils}
+## Les Outils 
 
-### Conception du navire {#conception_du_navire}
+### Conception du navire 
 
 
 <div class="mw-translate-fuzzy">

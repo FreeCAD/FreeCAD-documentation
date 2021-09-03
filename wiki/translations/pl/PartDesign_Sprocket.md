@@ -13,7 +13,7 @@ To narzędzie pozwala na stworzenie profilu 2D koła łańcuchowego. Może on by
 
 ## Użycie
 
-1.  Przejdź do menu {{MenuCommand|Projekt Części → <img src=images/PartDesign_Sprocket.svg style="width:24px"> Sprocket...}}.
+1.  Przejdź do menu **Projekt Części → <img src=images/PartDesign_Sprocket.svg style="width:24px"> Sprocket...**.
 2.  Ustaw **Liczbę zębów** i **Oznaczenie koła łańcuchowego**.
 3.  Kliknij w przycisk **OK**
 4.  Jeśli zębatka została utworzona poza aktywną zawartością, przeciągnij ją do niej i upuść, aby zastosować dalsze funkcje, takie jak wyciągnięcie.

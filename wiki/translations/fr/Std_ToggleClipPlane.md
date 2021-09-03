@@ -16,7 +16,7 @@ La commande **Std Basculer le plan de coupe** masque temporairement les objets e
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → <img src="images/Std_ToggleClipPlane.svg" width=16px> Plan de coupe}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → <img src="images/Std_ToggleClipPlane.svg" width=16px> Plan de coupe** dans le menu.
 2.  Dans le panneau des tâches de découpe, effectuez l\'une des opérations suivantes:
     -   Cochez une ou plusieurs des cases {{CheckBox|TRUE|Clipping X}} à {{CheckBox|TRUE|Clipping Z}}.
         -   Modifiez éventuellement la ou les distances de décalage.
@@ -32,7 +32,7 @@ La commande **Std Basculer le plan de coupe** masque temporairement les objets e
 
 ## Remarques
 
--   Pour distinguer clairement l\'intérieur des objets partiellement coupés, changez leur propriété {{PropertyView/fr|Lighting}} en \'One side\'. La couleur du côté intérieur de leurs surfaces dépendra alors des paramètres de rétro-éclairage: {{MenuCommand|Edition → Préférences... → Affichage → Vue 3D → Backlight color - Intensity}}. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
+-   Pour distinguer clairement l\'intérieur des objets partiellement coupés, changez leur propriété {{PropertyView/fr|Lighting}} en \'One side\'. La couleur du côté intérieur de leurs surfaces dépendra alors des paramètres de rétro-éclairage: **Edition → Préférences... → Affichage → Vue 3D → Backlight color - Intensity**. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
 
 
 

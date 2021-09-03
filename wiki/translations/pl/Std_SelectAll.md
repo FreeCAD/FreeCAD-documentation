@@ -13,7 +13,7 @@ Polecenie **Std: Zaznacz wszystko** wybiera wszystkie obiekty w oknie [Widoku dr
 
 ## Użycie
 
-1.  Wybierz opcję z menu {{MenuCommand|Edycja → <img src="images/Std_SelectAll.svg" width=16px> Zaznacz wszystko}}.
+1.  Wybierz opcję z menu **Edycja → <img src="images/Std_SelectAll.svg" width=16px> Zaznacz wszystko**.
 
 ## Uwagi
 

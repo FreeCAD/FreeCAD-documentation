@@ -15,21 +15,21 @@ The **Points PolyCut** command cuts points from point clouds.
 2.  Select one or more point clouds.
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Points_PolyCut.svg" width=16px> [Points PolyCut](Points_PolyCut.md)** button.
-    -   Select the {{MenuCommand|Points → <img src="images/Points_PolyCut.svg" width=16px> Cut point cloud}} option from the menu.
+    -   Select the **Points → <img src="images/Points_PolyCut.svg" width=16px> Cut point cloud** option from the menu.
 4.  Define a polygon in the 3D view.
 5.  Select an option from the 3D view context menu:
     -   
-        {{MenuCommand|Finish}}
+        **Finish**
         
         : removes the points that are inside the polygon and finishes the command.
 
     -   
-        {{MenuCommand|Clear}}
+        **Clear**
         
         : allows to define a different polygon.
 
     -   
-        {{MenuCommand|Cancel}}
+        **Cancel**
         
         : cancels the command.
 

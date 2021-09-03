@@ -20,7 +20,7 @@ Die **Beschränke Abstand** beschränkt die Länge einer Linie, den senkrechten 
 2.  Aufrufen des Befehls auf verschiedene Weise:
     -   Drücke die **<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Abstand beschränken](Sketcher_ConstrainDistance/de.md)** Schaltfläche in der Skizzierer Werkzeugleiste.
     -   Verwende die **Shift** + **D** Tastaturkürzel. (**D**\' steht für **D**istance; engl.: Abstand)
-    -   Verwende den {{MenuCommand|Skizze → Skizziererbeschränkungen  → <img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Abstand beschränken}} Eintrag aus dem oberen Menü.
+    -   Verwende den **Skizze → Skizziererbeschränkungen  → <img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Abstand beschränken** Eintrag aus dem oberen Menü.
 3.  Ein Einblenddialogfeld wird geöffnet, um den Wert zu bearbeiten oder zu bestätigen. Drücken **OK**, um den Wert zu bestätigen.
 
 **Hinweis**: Das Beschränkungswerkzeug kann auch ohne vorherige Auswahl gestartet werden. Um den lotrechten Abstand zwischen einem Punkt und einer Linie zu setzen, muss der Punkt zuerst selektiert werden. Als Voreinstellung ist der Befehl im \"Continue Mode\", um neue Beschränkungen zu erstellen; drücke die rechte Maustaste oder **Esc** einmal zum Beenden des Befehls.

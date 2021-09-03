@@ -14,8 +14,8 @@ La commande **Affichage Affichage les mesures** active/désactive les mesures de
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Visibilité → <img src="images/View_Measure_Toggle_All.svg" width=16px> Activer/désactiver les mesures}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Measure → <img src="images/View_Measure_Toggle_All.svg" width=16px> Activer/désactiver les mesures}} dans le menu contextuel de la vue 3D.
+    -   Sélectionnez l\'option **Affichage → Visibilité → <img src="images/View_Measure_Toggle_All.svg" width=16px> Activer/désactiver les mesures** dans le menu.
+    -   Sélectionnez l\'option **Measure → <img src="images/View_Measure_Toggle_All.svg" width=16px> Activer/désactiver les mesures** dans le menu contextuel de la vue 3D.
 
 ## Remarques
 

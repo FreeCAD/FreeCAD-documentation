@@ -144,7 +144,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Tool Controller}}: définit le contrôleur d\'outil utilisé dans l\'opération.
 
-#### Rotation (si disponible) {#rotation_si_disponible}
+#### Rotation (si disponible) 
 
 -    {{PropertyData/fr|Attempt Inverse Angle}}: tente automatiquement l\'angle inverse si la rotation initiale est incorrecte.
 
@@ -156,23 +156,23 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Reverse Direction}}: inverse l\'orientation de l\'opération de 180 degrés.
 
-## Disposition de l\'éditeur de fenêtre de tâches {#disposition_de_léditeur_de_fenêtre_de_tâches}
+## Disposition de l\'éditeur de fenêtre de tâches 
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-#### Géométrie de base {#géométrie_de_base}
+#### Géométrie de base 
 
 -   **Add**: ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
 -   **Supprimer**: supprime le ou les éléments sélectionnés dans la liste géométrie de base.
 -   **Clear**: efface tous les éléments de la liste géométrie de base.
 
-#### Base Location {#base_location}
+#### Base Location 
 
 -   **Add**: ajoute un emplacement de coordonnées (X, Y) à l\'opération de forage en cours.
 -   **Remove**: supprime le ou les éléments d\'emplacement sélectionnés de la liste Emplacement de base.
 -   **Edit**: édite l\'élément de lieu sélectionné.
 
-#### Profondeur {#profondeur_1}
+#### Profondeur 
 
 -    {{PropertyData/fr|Start Depth}}
     

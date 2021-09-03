@@ -63,7 +63,7 @@ Du kannst eine Datei convertuitopy.bat erstellen, um den Prozess zu automatisier
 
 **4:** monprojet.py Deine Datei wird erstellt
 
-### Die verwendeten Symbole {#die_verwendeten_symbole}
+### Die verwendeten Symbole 
 
 ![](images/MEpipe01.png ) ![](images/MEpipe02.png ) ![](images/MEPlan.png ) ![](images/MEPlanD.png ) ![](images/MEPlanF.png ) ![](images/MEPlanT.png ) ![](images/MEPlanI.png )
 

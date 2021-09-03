@@ -6,7 +6,7 @@
 
 {{Manual:TOC/ro}}
 
-### O vorbă despre spațiul 3D {#o_vorbă_despre_spațiul_3d}
+### O vorbă despre spațiul 3D 
 
 
 <div class="mw-translate-fuzzy">
@@ -38,9 +38,9 @@ Puteți privi acea scenă din orice unghi, ca și cum ați ține o cameră foto.
 
 </div>
 
-### The FreeCAD 3D view {#the_freecad_3d_view}
+### The FreeCAD 3D view 
 
-#### Mouse Navigation {#mouse_navigation}
+#### Mouse Navigation 
 
 
 <div class="mw-translate-fuzzy">
@@ -81,7 +81,7 @@ Fiecare dintre aceste moduri alocă diferite butoane mouse-ului sau combinații 
 
 </div>
 
-#### Keyboard Navigation {#keyboard_navigation}
+#### Keyboard Navigation 
 
 În mod alternativ, unele comenzi de la tastatură sunt întotdeauna disponibile, indiferent de modul de navigare:
 
@@ -107,7 +107,7 @@ Aceste comenzi sunt de asemenea disponibile din meniul Vizualizare și unele din
 
 </div>
 
-#### Using the Navigation Cluster {#using_the_navigation_cluster}
+#### Using the Navigation Cluster 
 
 In the default setup, there is a [Navigation Cluster](Navigation_Cube.md) in the upper right corner of the 3D display. This may be used to rotate the displayed object by a fixed amount, reset the display to one of several standard views, and change the display mode.
 
@@ -123,7 +123,7 @@ The navigation cluster may be moved to any part of the 3D display by dragging. T
 
 There is a smaller mini-cube in the lower right of the cluster which activates a drop-down menu allowing you to switch the viewing mode.
 
-### Selectarea obiectelor {#selectarea_obiectelor}
+### Selectarea obiectelor 
 
 
 <div class="mw-translate-fuzzy">

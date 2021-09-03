@@ -41,7 +41,7 @@ Başka nesnelerden gelen bir yüz koleksiyonundan bir ekstrüzyon oluşturmak i�
 
 </div>
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 
 <div class="mw-translate-fuzzy">

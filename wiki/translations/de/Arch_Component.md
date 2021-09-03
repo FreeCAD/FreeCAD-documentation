@@ -19,7 +19,7 @@ Erstellt eine nicht-parametrische [Arch](Arch_Workbench/de.md)-Komponente aus je
     -   Verwenden des Tastaturkürzels **C** **M**.
     -   Verwenden des **Arch** → **Dienstprogramme** → **<img src="images/Arch_Component.svg" width=16px> [Komponente](Arch_Component/de.md)**-Eintrags aus dem Hauptmenü.
 
-## Gemeinsame Arch Komponenten Eigenschaften {#gemeinsame_arch_komponenten_eigenschaften}
+## Gemeinsame Arch Komponenten Eigenschaften 
 
 Das Arch-Komponenten-Objekten ist auch eine Basis, die von allen anderen Arch-Objekten (**<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)**, **<img src="images/Arch_Structure.svg" width=16px>[Struktur](Arch_Structure/de.md)**, etc.) geteilt wird. Deshalb sind einige der Eigenschaften und der Verhaltensweisen bei allen Arch-Objekten gleich (ausgenommen Werkzeuge, die keine Volumenkörper-Objekte erzeugen wie **<img src="images/Arch_SectionPlane.svg" width=16px> [Schnittebene](Arch_SectionPlane/de.md)** oder **<img src="images/Arch_Axis.svg" width=16px>[Achse](Arch_Axis/de.md)**):
 

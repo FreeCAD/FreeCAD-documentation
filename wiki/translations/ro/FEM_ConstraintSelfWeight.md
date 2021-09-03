@@ -11,7 +11,7 @@ Constrângerea greutății proprii este definită de către accelerația gravita
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -70,14 +70,14 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 ```
 
-## Solver CalculiX {#solver_calculix}
+## Solver CalculiX 
 
 ### Limite
 
 -   Trebuie să modificați fișierul .inp pentru a edita accelerația gravitațională.
 -   Gerutatea proprie este aplicată elemetului set Eall înseamnă întreg modelul .
 
-### Editing CalculiX input file {#editing_calculix_input_file}
+### Editing CalculiX input file 
 
 Accelerarea constantă poate fi modificată prin modificarea manuală după generarea fișierului de intrare CalculiX.
 
@@ -93,7 +93,7 @@ Eall,GRAV,9810,0.0,0.0,-1.0
 
 </div>
 
-## Rezolvitorul Z88 {#rezolvitorul_z88}
+## Rezolvitorul Z88 
 
 -   nu este implementat în rezolvitorul Z88 (March 2017)
 

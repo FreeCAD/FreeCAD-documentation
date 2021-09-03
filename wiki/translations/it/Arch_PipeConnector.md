@@ -31,7 +31,7 @@ Questo strumento crea una connessione a angolo o un tee (raccordo) tra 2 o 3 [Tu
 
 -    {{PropertyData/it|Radius}}: Il raggio di curvatura del raccordo
 
-## Flusso di lavoro tipico {#flusso_di_lavoro_tipico}
+## Flusso di lavoro tipico 
 
 Vedere in [Tubo](Arch_Pipe/it.md) le informazioni per il flusso di lavoro sull\'uso dei tubi e la creazione di raccordi.
 

@@ -25,10 +25,10 @@ I gesti del mouse utilizzati per la manipolazione dell\'oggetto variano in base 
 
 Ci sono due modi per modificare lo stile di navigazione:
 
--   In [Preferenze](Preferences_Editor/it#Navigazione.md), {{MenuCommand|Modifica → Preferenze → Visualizzazione → Navigazione 3D}}.
--   Cliccare col tasto destro nello spazio vuoto dell\'area della vista 3D, quindi selezionare {{MenuCommand|Stile di navigazione}} nel menu contestuale.
+-   In [Preferenze](Preferences_Editor/it#Navigazione.md), **Modifica → Preferenze → Visualizzazione → Navigazione 3D**.
+-   Cliccare col tasto destro nello spazio vuoto dell\'area della vista 3D, quindi selezionare **Stile di navigazione** nel menu contestuale.
 
-### Navigazione CAD {#navigazione_cad}
+### Navigazione CAD 
 
 Questo è lo stile di navigazione predefinito. Permette all\'utente un semplice controllo della vista. Richiede l\'uso della tastiera solo per eseguire multi-selezioni.
 
@@ -63,7 +63,7 @@ Con questo metodo il pulsante centrale del mouse può essere rilasciato dopo ave
 Gli utenti che utilizzano il mouse con la mano destra potrebbero trovare questo metodo più semplice del primo metodo.
 }}
 
-### Navigazione OpenInventor {#navigazione_openinventor}
+### Navigazione OpenInventor 
 
 La Navigazione OpenInventor (formalmente Inventor), si basa sul modello [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Per selezionare gli oggetti, è necessario tenere premuto il tasto **Ctrl**.
 
@@ -84,7 +84,7 @@ In alternativa, tenere premuto il pulsante centrale del mouse, quindi premere e 
 |Rotate_view_text=Tenere premuto il pulsante sinistro del mouse, quindi spostare il puntatore.
 }}
 
-### Navigazione Blender {#navigazione_blender}
+### Navigazione Blender 
 
 Lo stile di navigazione Blender segue il modello di [Blender](https://www.blender.org). In precedenza non c\'era la traslazione con il solo mouse, ed era richiesto l\'uso del tasto **Shift** per spostare la vista. Questo è cambiato nel 2016 con l\'introduzione di una funzione aggiuntiva. Per eseguire una panoramica della vista, ora è possibile premere i pulsanti sinistro e destro del mouse per spostare la vista.
 
@@ -103,7 +103,7 @@ In alternativa, tenere premuti i pulsanti sinistro e destro del mouse, quindi sp
 |Rotate_view_text=Tenere premuto il pulsante centrale del mouse, quindi spostare il puntatore.
 }}
 
-### Navigazione Touchpad {#navigazione_touchpad}
+### Navigazione Touchpad 
 
 Nella navigazione Touchpad, traslazione, zoom e rotazione della vista richiedono un tasto modificatore insieme al touchpad. {{Touchpad Navigation
 |Select_name=Selezione
@@ -123,7 +123,7 @@ Nella navigazione Touchpad, traslazione, zoom e rotazione della vista richiedono
 |Rotate_view_alt_text=In alternativa, tenere premuto **Shift** e il pulsante sinistro, quindi spostare il puntatore.
 }}
 
-### Navigazione Gesture {#navigazione_gesture}
+### Navigazione Gesture 
 
 Questo stile di navigazione è stato introdotto nella versione 0.16, è fatto su misura per essere usato con il touchscreen o con la penna, ma è usabile anche con il mouse. {{Gesture Navigation
 |Select_name=Selezione
@@ -149,10 +149,10 @@ Tenere premuto **Alt** quando ci si trova in [Sketcher](Sketcher_Workbench/it.md
 |Tilt_view_text=Tenere premuti i pulsanti sinistro e destro del mouse, quindi spostare il puntatore di lato. 
 |Tilt_view_gesture_text=Ruota la linea immaginaria formata da due punti di contatto.
 
-In v0.18 questo metodo è disabilitato per impostazione predefinita. Per abilitarlo, andare in {{MenuCommand| Modifica → Preferenze → Visualizzazione}} e deselezionare la casella di controllo "Disabilita l'inclinazione touchscreen".
+In v0.18 questo metodo è disabilitato per impostazione predefinita. Per abilitarlo, andare in ** Modifica → Preferenze → Visualizzazione** e deselezionare la casella di controllo "Disabilita l'inclinazione touchscreen".
 }}
 
-### Navigazione Maya-Gesture {#navigazione_maya_gesture}
+### Navigazione Maya-Gesture 
 
 
 <div class="mw-translate-fuzzy">
@@ -172,7 +172,7 @@ In alternativa, utilizzare la rotellina del mouse per ingrandire e ridurre.
 |Rotate_view_text=Tenere premuto **Alt** e il tasto sinistro del mouse, quindi spostare il puntatore.
 }}
 
-### Navigazione Revit {#navigazione_revit}
+### Navigazione Revit 
 
 Questo stile è stato introdotto nella versione 0.18.
 
@@ -213,9 +213,9 @@ In alternativa, tenere premuto **Ctrl** e il tasto sinistro del mouse, quindi sp
 |Rotate_view_text=Tenere premuto **Ctrl** e il tasto destro del mouse, quindi spostare il puntatore.
 }}
 
-## La selezione degli oggetti {#la_selezione_degli_oggetti}
+## La selezione degli oggetti 
 
-### Selezione semplice {#selezione_semplice}
+### Selezione semplice 
 
 Gli oggetti si possono selezionare con un click del tasto sinistro del mouse o facendo clic sull\'oggetto nella [vista 3D](3D_view/it.md) o selezionandoli nella [vista ad albero](tree_view/it.md).
 
@@ -223,15 +223,15 @@ Gli oggetti si possono selezionare con un click del tasto sinistro del mouse o f
 
 Passando con il mouse sugli oggetti, una funzione di Preselezione li evidenzia e visualizza le relative informazioni prima della loro selezione. Se questo comportamento non è gradito o si dispone di una macchina lenta, è possibile disattivare la funzione nel dialogo delle preferenze.
 
-## La manipolazione degli oggetti {#la_manipolazione_degli_oggetti}
+## La manipolazione degli oggetti 
 
 FreeCAD offre strumenti [Manipolatori](manipulator/it.md) utilizzabili per modificare un oggetto o il suo aspetto visivo.
 
-## Supporto Hardware {#supporto_hardware}
+## Supporto Hardware 
 
 FreeCAD supporta anche i [dispositivi di input 3D](3D_input_devices/it.md).
 
-## Problemi con Mac OS X {#problemi_con_mac_os_x}
+## Problemi con Mac OS X 
 
 Recentemente abbiamo ricevuto segnalazioni [nel forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) da utenti Mac che questi pulsanti del mouse e le combinazioni di tasti non funzionano come previsto. Purtroppo, nessuno degli sviluppatori possiede un Mac e neppure gli altri collaboratori regolari. Abbiamo bisogno del vostro aiuto per determinare quali pulsanti del mouse e quali combinazioni di tasti funzionano e poter aggiornare questo wiki.
 

@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -76,7 +76,7 @@ Tänk på att SVG är ett 2D format, så all Z information kommer att ignoreras 
 
 SVG is a 2D format, so all Z information will be disregarded (all objects will be flattened).
 
-## Unit Handling {#unit_handling}
+## Unit Handling 
 
 When exporting, a User Unit (px) equals one millimeter.
 

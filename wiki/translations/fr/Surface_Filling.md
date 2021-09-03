@@ -28,21 +28,21 @@ La surface peut être modifiée en ajoutant des arêtes et des sommets de contra
     -   En option, les courbes peuvent être dessinées à l\'intérieur du contour fermé, sans nécessairement toucher les bords. Ces courbes peuvent être utilisées pour contrôler la courbure de la surface résultante.
     -   De même, un certain nombre de sommets peuvent être utilisés dans le même but pour indiquer où la surface doit passer.
 2.  Appuyez sur le bouton **<img src=images/Surface_Filling.svg style="width:16px"> [Surface fill](Surface_Filling/fr.md)**.
-3.  Dans la section {{MenuCommand|Boundary}}, appuyez sur **Add edge**.
+3.  Dans la section **Boundary**, appuyez sur **Add edge**.
 4.  Utilisez le pointeur pour sélectionner les arêtes souhaitées dans la [Vue 3D](3D_view/fr.md). Un aperçu de la forme finale sera affiché après avoir sélectionné des arêtes valides qui forment un contour fermé.
-    -   En option, allez dans la section {{MenuCommand|Curvature: non-boundary edges}}, appuyez sur **Add edge**, et choisissez les arêtes souhaitées dans la [Vue 3D](3D_view/fr.md) .
-    -   En option, allez dans la section {{MenuCommand|Curvature: non-boundary vertices}}, appuyez sur **Add vertex**, et choisissez les sommets désirés dans la [Vue 3D](3D_view/fr.md) .
+    -   En option, allez dans la section **Curvature: non-boundary edges**, appuyez sur **Add edge**, et choisissez les arêtes souhaitées dans la [Vue 3D](3D_view/fr.md) .
+    -   En option, allez dans la section **Curvature: non-boundary vertices**, appuyez sur **Add vertex**, et choisissez les sommets désirés dans la [Vue 3D](3D_view/fr.md) .
 5.  Appuyez sur **OK** pour terminer l\'opération.
 
 Les arêtes de base qui forment le contour fermé, ainsi que les sommets et arêtes auxiliaires, peuvent appartenir à des courbes 2D de <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md) ou de <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md) mais peut également appartenir à des objets solides 3D tels que ceux créés avec <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md) ou <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md).
 
 ## Options
 
--   Dans la section {{MenuCommand|Boundary}}.
+-   Dans la section **Boundary**.
     -   
         **Add edge**
         
-        : appuyez une fois pour commencer à sélectionner {{MenuCommand|Boundary edges}} (les bords) dans la <img src=images/Draft_Wire.svg style="width:Vue 3D](3D_view/fr.md). Les arêtes droites telles que **[16px"> <img src=images/Sketcher_CreatePolyline.svg style="width:Draft Fils](Draft_Wire/fr.md)** et **[16px"> <img src=images/Draft_BSpline.svg style="width:Sketcher Polylignes](Sketcher_CreatePolyline/fr.md)** ou les arêtes courbes telles que **[16px"> <img src=images/PartDesign_Body.svg style="width:Draft BSplines](Draft_BSpline.md)** et **[16px ](File:Sketcher_CreateBSpline.svg.md) [Sketcher BSplines](Sketcher_CreateBSpline/fr.md)** peuvent être prises ainsi que n\'importe quelle arête d\'objets solides, comme celles des **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)** et des **[16px"> [Part Primitives](Part_Primitives/fr.md)**.
+        : appuyez une fois pour commencer à sélectionner **Boundary edges** (les bords) dans la <img src=images/Draft_Wire.svg style="width:Vue 3D](3D_view/fr.md). Les arêtes droites telles que **[16px"> <img src=images/Sketcher_CreatePolyline.svg style="width:Draft Fils](Draft_Wire/fr.md)** et **[16px"> <img src=images/Draft_BSpline.svg style="width:Sketcher Polylignes](Sketcher_CreatePolyline/fr.md)** ou les arêtes courbes telles que **[16px"> <img src=images/PartDesign_Body.svg style="width:Draft BSplines](Draft_BSpline.md)** et **[16px ](File:Sketcher_CreateBSpline.svg.md) [Sketcher BSplines](Sketcher_CreateBSpline/fr.md)** peuvent être prises ainsi que n\'importe quelle arête d\'objets solides, comme celles des **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)** et des **[16px"> [Part Primitives](Part_Primitives/fr.md)**.
 
     -   
         **Remove edge**
@@ -51,8 +51,8 @@ Les arêtes de base qui forment le contour fermé, ainsi que les sommets et arê
 
 -    **Right mouse button**: ouvrez le menu contextuel et sélectionnez **Remove** ou appuyez sur **Suppr** au clavier pour supprimer le bord actuellement sélectionné dans la liste.
 
--   Section {{MenuCommand|Curvature: non-boundary edges}}. Le bouton **Add edge** permet de sélectionner des arêtes auxiliaires (lignes droites ou B-Splines) pour contrôler la courbure de la surface. La surface sera forcée de passer à travers ces bords auxiliaires. Cela fonctionne mieux lorsque les arêtes auxiliaires se trouvent à l\'intérieur de la région délimitée par {{MenuCommand|Boundary bords}}.
--   Section {{MenuCommand|Curvature: non-boundary vertices}}. Similaire aux arêtes non-frontières (non-boundary edges), l\'utilisateur peut choisir des sommets auxiliaires pour contrôler la courbure. Ces sommets peuvent être autonomes **<img src=images/Draft_Point.svg style="width:16px"> <img src=images/Part_Point.svg style="width:Draft Points](Draft_Point/fr.md)** ou **[16px"> [Part Points](Part_Point/fr.md)** ou peut appartenir à n\'importe quelle arête (lignes droites ou B-Splines) ou être un sommet d\'angle dans un objet solide. Dans ce cas, la surface sera contrainte de passer par ces points auxiliaires.
+-   Section **Curvature: non-boundary edges**. Le bouton **Add edge** permet de sélectionner des arêtes auxiliaires (lignes droites ou B-Splines) pour contrôler la courbure de la surface. La surface sera forcée de passer à travers ces bords auxiliaires. Cela fonctionne mieux lorsque les arêtes auxiliaires se trouvent à l\'intérieur de la région délimitée par **Boundary bords**.
+-   Section **Curvature: non-boundary vertices**. Similaire aux arêtes non-frontières (non-boundary edges), l\'utilisateur peut choisir des sommets auxiliaires pour contrôler la courbure. Ces sommets peuvent être autonomes **<img src=images/Draft_Point.svg style="width:16px"> <img src=images/Part_Point.svg style="width:Draft Points](Draft_Point/fr.md)** ou **[16px"> [Part Points](Part_Point/fr.md)** ou peut appartenir à n\'importe quelle arête (lignes droites ou B-Splines) ou être un sommet d\'angle dans un objet solide. Dans ce cas, la surface sera contrainte de passer par ces points auxiliaires.
 -   Appuyez sur **Cancel** ou **Echap** pour abandonner l\'opération en cours.
 
 ## Propriétés

@@ -23,7 +23,7 @@ Essentially, every object derived from a [Mesh Feature](Mesh_Feature.md) (`Mesh:
 
 Since FreeCAD is designed to be a solid modeller primarily, it is better suited to deal with solid [Shapes](Shape.md). It can import and display Meshes in the [3D view](3D_view.md), but to transform them or create new geometry, the Mesh first needs to be converted to a [Shape](Shape.md) (see [Part ShapeFromMesh](Part_ShapeFromMesh.md)). In many cases, this conversion is not automatic, and requires re-creating the geometry using solid modelling techniques, making use of [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) tools.
 
-## Finite element meshes {#finite_element_meshes}
+## Finite element meshes 
 
 In FreeCAD the word \"[Mesh](Mesh.md)\" may also refer to a specific object that will be used in finite element analysis (FEA).
 
@@ -31,7 +31,7 @@ When an object with a solid [Shape](Shape.md) is used in the [FEM Workbench](FEM
 
 For more information see [FEM Workbench](FEM_Workbench.md) and [FEM Mesh](FEM_Mesh.md).
 
-## More information {#more_information}
+## More information 
 
 -   [Polygonal (mesh) geometry](https://forum.freecadweb.org/viewtopic.php?f=8&t=47493)
 

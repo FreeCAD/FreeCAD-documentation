@@ -22,7 +22,7 @@
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [FEM ConstraintFlowVelocity](FEM_ConstraintFlowVelocity.md)** button.
-    -   Select the {{MenuCommand|Model → Fluid Constraints → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Constraint flow velocity}} option from the menu.
+    -   Select the **Model → Fluid Constraints → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Constraint flow velocity** option from the menu.
 2.  The [task panel](Task_panel.md) will display menus for constraint flow velocity
 3.  Select the target Edges or Faces.
 4.  Press the **Add** button.

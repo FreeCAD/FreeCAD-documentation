@@ -18,19 +18,19 @@ Acest instrument utilizează culoarea și stilul curene Draft pentru obiectele s
 
 This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
 
--    {{MenuCommand|Line color}}
+-    **Line color**
     
 
--    {{MenuCommand|Line width}}
+-    **Line width**
     
 
--    {{MenuCommand|Shape color}}
+-    **Shape color**
     
 
--    {{MenuCommand|Text size}}
+-    **Text size**
     
 
--    {{MenuCommand|Text color}}
+-    **Text color**
     
 
 ## Usage
@@ -38,7 +38,7 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Dacă tabloul de lucru [Draft](Draft_Workbench.md) ori [Arch](Arch_Workbench.md) Este activ, setați culoarea și lungimea dorită pe panoul Sarcini (sau pe bara de instrumente Draft dacă utilizați modul bara de instrumente).
 2.  Selectați unul sau mai multe obiecte

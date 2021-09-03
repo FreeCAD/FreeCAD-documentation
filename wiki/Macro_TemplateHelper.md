@@ -33,7 +33,7 @@ If you wish, you can fill the space between the title block and the upper border
 
 :   Finally: Click OK to continue
 
-## Dialogue window {#dialogue_window}
+## Dialogue window 
 
 <img alt="" src=images/Macro_TemplateHelper_DiaWin.png  style="width:240px;"> 
 *Dialogue window on launch*

@@ -17,13 +17,13 @@ Pour l\'**<img src=images/Sketcher_CreateEllipseByCenter.svg style="width:16px">
 
 La contrainte s\'adresse aux utilisateurs expérimentés car son utilisation n\'est pas aussi simple que pour les autres contraintes. Il existe un outil d\'aide appelé **<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Afficher/Masquer géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md)** qui évite d\'avoir à appeler la Contrainte d\'alignement interne manuellement.
 
-## Opération sur une ellipse {#opération_sur_une_ellipse}
+## Opération sur une ellipse 
 
 1.  Sélectionnez les éléments à aligner et une ellipse. L\'ellipse doit être sélectionnée en dernier. Acceptés sont jusqu\'à deux lignes et jusqu\'à deux points.
 2.  L\'invocation de la contrainte peut se faire de plusieurs manières:
     -   En appuyant sur le bouton **<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> [Contrainte d'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md)** dans la barre d\'outils.
     -   Utilisation du raccourci clavier **Ctrl** + **A**.
-    -   Utilisation de l\'entrée {{MenuCommand|Sketch → Contraintes d'esquisse → <img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Contrainte d'alignement interne}} dans le menu supérieur.
+    -   Utilisation de l\'entrée **Sketch → Contraintes d'esquisse → <img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Contrainte d'alignement interne** dans le menu supérieur.
 
 La première ligne qui a été sélectionnée s\'aligne pour devenir le diamètre majeur de l\'ellipse (mais si ce n\'est pas déjà occupé par une autre ligne, sinon il deviendra le diamètre mineur). La deuxième ligne est aligné pour devenir le rayon mineur. Les lignes sont automatiquement passés en mode [construction](Sketcher_ToggleConstruction/fr.md).
 

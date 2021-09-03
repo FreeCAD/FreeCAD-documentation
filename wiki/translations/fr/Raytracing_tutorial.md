@@ -1,6 +1,6 @@
 
 
-## Atelier Raytracing {#atelier_raytracing}
+## Atelier Raytracing 
 
 
 <div class="mw-translate-fuzzy">
@@ -49,7 +49,7 @@ Dans cet exemple un Cube est utilisé comme l\'objet d\'étude, mais les modèle
 
 Maintenant nous avons un modèle pour travailler.
 
-### La préparation pour {#la_préparation_pour}
+### La préparation pour 
 
 1.  Se rendre à l\'Atelier de Raytracing.
 2.  Changer votre vue pour Perspective allez à **View** et choisissez **Perspective**
@@ -57,7 +57,7 @@ Maintenant nous avons un modèle pour travailler.
 4.  Cliquez sur **Raytracing** et mettre l\'emplacement sur l\'adresse de l'exécutable.
 5.  Mettre la taille de l\'image rendue. Allez sur **Édit** et choisir **Préférences**. Cliquez sur **Raytracing** et réglez l\'image à la taille désirée
 
-#### POV-Ray {#pov_ray}
+#### POV-Ray 
 
 1.  Choisir <img alt="" src=images/Raytrace_New.svg  style="width:32px;"> [New PovRay project](Raytracing_New/fr.md). Dans le menu déroulant, choisir **RadiosityNormal**.
 
@@ -65,24 +65,24 @@ Maintenant nous avons un modèle pour travailler.
 
 1.  Choisir <img alt="" src=images/Raytrace_Lux.svg  style="width:32px;"> [New LuxRender projetc](Raytracing_Lux/fr.md). Dans le menu déroulant, choisir **LuxClassic**.
 
-### Mettre l\'appareil photo place {#mettre_lappareil_photo_place}
+### Mettre l\'appareil photo place 
 
 1.  Placer la *3D view* à l\'emplacement désiré et à la distance du mode Dans ce cas nous utiliserons **Axonométrique view**
 2.  Choisir le Dossier de **Project folder** de **Tree view**
 3.  Sélectioner <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:32px;"> [Reset camera](Raytracing_ResetCamera/fr.md)
 
-### Importer le modèle {#importer_le_modèle}
+### Importer le modèle 
 
 1.  Choisir le modèle pour rendu.
 2.  Choisir <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width:32px;"> [Insert](Raytracing_InsertPart/fr.md)
 
-### Démarrer l\'Outil Render {#démarrer_loutil_render}
+### Démarrer l\'Outil Render 
 
 1.  Choisir <img alt="" src=images/Raytrace_Render.svg  style="width:32px;"> [Render](Raytracing_Render/fr.md).
 2.  Entrer le chemin ou l\'image sera stockée.
 3.  Attendre le rendu pour finir. Ceci peut prendre quelque temps.
 
-### Voir le résultat {#voir_le_résultat}
+### Voir le résultat 
 
 FreeCAD ouvrira immédiatement l\'image après que le rendu soit fini.
 

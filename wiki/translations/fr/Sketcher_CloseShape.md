@@ -18,7 +18,7 @@ Cet outil peut être utilisé pour fermer un contour sélectionné dans l\'esqui
 2.  Appelez la commande de plusieurs manières:
     -   Appuyez sur l\'icône **<img src=images/Sketcher_CloseShape.svg style="width:16px"> [Fermer la forme](Sketcher_CloseShape/fr.md)**
     -   Utilisez le raccourci clavier **Ctrl** + **Maj** + **S**.
-    -   Utilisez l\'entrée {{MenuCommand|Sketch → Outils d'esquisse → <img src=images/Sketcher_CloseShape.svg style="width:16px"> Fermer le forme}} dans le menu supérieur
+    -   Utilisez l\'entrée **Sketch → Outils d'esquisse → <img src=images/Sketcher_CloseShape.svg style="width:16px"> Fermer le forme** dans le menu supérieur
 
 ## Remarques
 

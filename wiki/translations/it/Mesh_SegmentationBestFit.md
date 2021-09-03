@@ -19,10 +19,10 @@ Il comando **Adatta i segmenti** crea segmenti di mesh separati per i tipi di su
 2.  Select a single mesh object.
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> [Mesh SegmentationBestFit](Mesh_SegmentationBestFit.md)** button.
-    -   Select the {{MenuCommand|Meshes → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Create mesh segments from best-fit surfaces...}} option from the menu.
-4.  The {{MenuCommand|Mesh segmentation}} task panel opens.
+    -   Select the **Meshes → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Create mesh segments from best-fit surfaces...** option from the menu.
+4.  The **Mesh segmentation** task panel opens.
 5.  Optionally press one of the **Parameters...** buttons to identify the parameters of a surface:
-    -   The {{MenuCommand|Surface fit}} dialog box opens.
+    -   The **Surface fit** dialog box opens.
     -   Select one or more faces belonging to the surface:
         -   Press the **Region** button and while holding down the left mouse button draw a region, a closed spline, in the [3D view](3D_view.md). Faces that (partially) fall inside the region will be selected.
         -   Press the **Triangle** button to select individual faces.
@@ -31,18 +31,18 @@ Il comando **Adatta i segmenti** crea segmenti di mesh separati per i tipi di su
     -   Press the **OK** or **Cancel** button to close the dialog box.
 6.  Select the surface type(s) you wish to create mesh segments for:
     -   
-        {{MenuCommand|Plane}}
+        **Plane**
         
 
     -   
-        {{MenuCommand|Cylinder}}
+        **Cylinder**
         
 
     -   
-        {{MenuCommand|Sphere}}
+        **Sphere**
         
-7.  Specify the {{MenuCommand|Tolerance}} values.
-8.  Specify the {{MenuCommand|Minimum number of faces}} values.
+7.  Specify the **Tolerance** values.
+8.  Specify the **Minimum number of faces** values.
 9.  Press the **OK** button.
 10. The command will create a [group](Std_Group.md) containing separate mesh objects, each a segment of the original mesh object.
 11. If the created group is empty try using the command again with modified settings.

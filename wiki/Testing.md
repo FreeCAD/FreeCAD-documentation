@@ -27,13 +27,13 @@ Run only some the specified unit test, for example:
 freecad -t TestDraft
 ```
 
-## Test menu {#test_menu}
+## Test menu 
 
 Each top level directory in FreeCAD should have a file with the tests that can be run for that particular workbench or module. The file usually starts with the word `Test`.
 
-To run a test from within FreeCAD, switch to the Test Workbench, then {{MenuCommand|Test commands → TestToolsGui → Self test → Select test name}}, then enter the name of the Python file with the tests; for example, for the [Draft Workbench](Draft_Workbench.md), this would be {{MenuCommand|TestDraft}}, then press **Start**.
+To run a test from within FreeCAD, switch to the Test Workbench, then **Test commands → TestToolsGui → Self test → Select test name**, then enter the name of the Python file with the tests; for example, for the [Draft Workbench](Draft_Workbench.md), this would be **TestDraft**, then press **Start**.
 
-## Test functions {#test_functions}
+## Test functions 
 
 This is the list of test apps as of 0.15 git 4207:
 
@@ -128,7 +128,7 @@ Add test function
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-### Example 1 {#example_1}
+### Example 1 
 
 Within the Python Console of FreeCAD, the following code format may be used to run built-in tests. Replace the red \"**TestFem**\" text in the code below with the desired module test name.
 
@@ -147,9 +147,9 @@ r = unittest.TextTestRunner()
 r.run(suite)
 ```
 
-## Additional Resources {#additional_resources}
+## Additional Resources 
 
-### Forum Topics {#forum_topics}
+### Forum Topics 
 
 -   [Support for running specific unit tests with \--run-test \#331](https://forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
 

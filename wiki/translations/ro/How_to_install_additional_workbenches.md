@@ -35,7 +35,7 @@ Utilizatorii Power au extins FreeCAD cu diferite Ateliere de lucru externe perso
 
 <div class="mw-translate-fuzzy">
 
-## Instalarea sub Windows {#instalarea_sub_windows}
+## Instalarea sub Windows 
 
 
 </div>
@@ -117,7 +117,7 @@ noua versiune de atelier.
 
 <div class="mw-translate-fuzzy">
 
-## Instalare sub Linux (Ubuntu/Mint) {#instalare_sub_linux_ubuntumint}
+## Instalare sub Linux (Ubuntu/Mint) 
 
 
 </div>
@@ -203,7 +203,7 @@ $ rm *.pyc
 
 <div class="mw-translate-fuzzy">
 
-## Instalarea pe Mac {#instalarea_pe_mac}
+## Instalarea pe Mac 
 
 
 </div>
@@ -213,7 +213,7 @@ How to install additional workbenches and addons on MacOS
 
 <div class="mw-collapsible-content">
 
-### Manual Installation {#manual_installation}
+### Manual Installation 
 
 
 **Note:**
@@ -241,7 +241,7 @@ This method is possible but not necessary with the introduction of the [Addon Ma
 
 </div>
 
-## Depanare Generală {#depanare_generală}
+## Depanare Generală 
 
 
 <div class="mw-translate-fuzzy">

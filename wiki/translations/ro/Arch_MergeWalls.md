@@ -13,7 +13,7 @@
 
 The [MergeWalls](Arch_MergeWalls.md) tool fuses two or more selected **<img src="images/_Arch_Wall.svg" width=16px> [Arch Walls](Arch_Wall.md)**.
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Select two or more walls.
 2.  Press the **<img src="images/Arch_MergeWalls.svg" width=16px>** button, or use the **Arch** → **Utilities** → **<img src="images/Arch_MergeWalls.svg" width=16px> [Merge Walls](Arch_MergeWalls.md)** from the top menu.

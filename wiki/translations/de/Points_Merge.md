@@ -12,7 +12,7 @@ Der Befehl **Punkte zusammenführen** erzeugt eine Punktwolke, indem er die Punk
 ## Anwendung
 
 1.  Wähle zwei oder mehr Punktwolken aus.
-2.  Wähle die {{MenuCommand|Punkte → Punktwolken zusammenführen}} Option aus dem Menü.
+2.  Wähle die **Punkte → Punktwolken zusammenführen** Option aus dem Menü.
 
 ## Eigenschaften
 

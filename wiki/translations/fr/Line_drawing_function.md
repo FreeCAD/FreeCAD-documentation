@@ -7,7 +7,7 @@
 
 Cette page montre comment des fonctionnalités avancées peuvent être facilement créées en Python. Dans cet exercice, nous allons créer un nouvel outil qui trace une ligne. Cet outil peut ensuite être lié à une commande FreeCAD, et cette commande peut être appelée par n\'importe quel élément de l\'interface, comme un élément de menu ou un bouton de barre d\'outils.
 
-## Script principal {#script_principal}
+## Script principal 
 
 Nous allons d\'abord écrire un script contenant toutes nos fonctionnalités. Ensuite, nous l\'enregistrerons dans un fichier et l\'importerons dans FreeCAD pour rendre toutes ses classes et fonctions disponibles. Lancez votre éditeur de code préféré et tapez les lignes suivantes:
 
@@ -41,7 +41,7 @@ class line:
 
 {{Top}}
 
-## Explications détaillées {#explications_détaillées}
+## Explications détaillées 
 
 
 ```python
@@ -168,7 +168,7 @@ self.view.removeEventCallbackPivy(SoMouseButtonEvent.getClassTypeId(), self.call
 
 Maintenant, nous en avons fini avec notre ligne, nous allons supprimer le mécanisme de rappel ici. {{Top}}
 
-## Tester le script {#tester_le_script}
+## Tester le script 
 
 Maintenant, sauvegardons notre script dans un dossier où l\'interpréteur FreeCAD Python peut le trouver. Lors de l\'importation de modules, l\'interpréteur cherchera aux endroits suivants: les chemins d\'installation de Python, le dossier FreeCAD {{FileName|bin}} et tous les dossiers FreeCAD {{FileName|Mod}} (module). La meilleure solution est donc de créer un nouveau dossier dans l\'un des dossiers {{FileName|Mod}}. Créons là un dossier {{FileName|MyScripts}} et enregistrons notre script dedans sous le nom {{FileName|exerc.py}}.
 
@@ -202,7 +202,7 @@ exercise.line()
 
 Cliquez deux fois dans la vue 3D et bingo: voici notre ligne! Pour la répéter, tapez à nouveau `exerc.line()`. {{Top}}
 
-## Enregistrement du script {#enregistrement_du_script}
+## Enregistrement du script 
 
 Pour que notre nouvel outil ligne soit vraiment utile et pour éviter d\'avoir à taper tout cela, il devrait avoir un bouton dans l\'interface. Une façon de faire est de transformer notre nouveau dossier {{FileName|MyScripts}} en un atelier FreeCAD complet. Il suffit de mettre un fichier appelé {{FileName|InitGui.py}} dans le dossier {{FileName|MyScripts}}. {{FileName|InitGui.py}} contiendra les instructions pour créer un nouvel atelier et y ajouter notre nouvel outil. En plus de cela, nous devrons également changer un peu notre code d\'exercice, de sorte que l\'outil `line()` soit reconnu comme une commande officielle de FreeCAD. Commençons par créer un fichier {{FileName|InitGui.py}} et y écrire le code suivant:
 
@@ -260,7 +260,7 @@ Ce que nous avons fait ici est de transformer notre fonction `__init __()` en un
 
 Ça y est, nous avons juste besoin de redémarrer FreeCAD et nous aurons un plan de travail agréable avec notre nouvel outil **ligne** tout neuf ! {{Top}}
 
-## Vous voulez en savoir plus ? {#vous_voulez_en_savoir_plus}
+## Vous voulez en savoir plus ? 
 
 Si vous avez aimé cet exercise, pourquoi ne pas essayer d\'améliorer ce petit outil? Il y a beaucoup de choses à faire, comme par exemple:
 

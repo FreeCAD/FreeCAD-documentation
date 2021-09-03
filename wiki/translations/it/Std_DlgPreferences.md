@@ -13,7 +13,7 @@ Il comando **Preferenze\...** apre l\'[editor delle preferenze](Preferences_Edit
 
 ## Utilizzo
 
-Selezionare l\'opzione {{MenuCommand|Modifica → <img src="images/Std_DlgPreferences.svg" width=16px> Preferenze...}} dal menu principale.
+Selezionare l\'opzione **Modifica → <img src="images/Std_DlgPreferences.svg" width=16px> Preferenze...** dal menu principale.
 
 ## Note
 

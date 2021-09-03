@@ -19,11 +19,11 @@ Przyłącza punkt do innego obiektu, takiego jak linia, łuk lub oś szkicu.
 3.  Wywołaj narzędzie **Ustaw punkt na obiekcie** używając kilku metod:
     -   Naciśnij przycisk **<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Ustaw punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)** na pasku narzędzi.
     -   Użyj kombinacji klawiszy **Shift** + **O**.
-    -   Użyj pozycji {{MenuCommand|Szkic → Wiązania szkicownika → Zwiąż punkt na obiekcie}} w menu głównym.
+    -   Użyj pozycji **Szkic → Wiązania szkicownika → Zwiąż punkt na obiekcie** w menu głównym.
 
 **Uwaga:** Kolejność, w jakiej wybierasz linię i punkt, nie ma znaczenia. Punkt zawsze będzie przesuwał się do linii. Innymi słowy, linia pozostaje nieruchoma.
 
-### Ogólne zasady tworzenia skryptów {#ogólne_zasady_tworzenia_skryptów}
+### Ogólne zasady tworzenia skryptów 
 
 Wiązanie może być utworzone zarówno przez makrodefinicje jak i z konsoli Python za pomocą następującego polecenia:
 

@@ -26,13 +26,13 @@ Planarea/plasarea cursorului indicatorul mouse-ului peste o caracteristică a cu
 
 ![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
 
-## Săgețile Direcționale {#săgețile_direcționale}
+## Săgețile Direcționale 
 
 Există șase săgeți direcționale: patru săgeți triunghiulare, unul în sus, în jos, la stânga și la dreapta; și două săgeți de rotație, una pe fiecare parte a săgeților de mai sus.
 
 Dacă faceți clic pe săgețile triunghiulare, rotiți vizualizarea 3D cu 45 de grade în jurul unei linii perpendiculare pe direcția săgeții. Dând clic pe săgețile curbe, rotiți vizualizarea 3D în jurul unei linii care este îndreaptă spre dvs. \<! - Notă: axele de rotație nu sunt definite în mod corespunzător; fiecare este intersecția a două planuri, dar nu-mi dau seama cum să le descriu -\>
 
-## Cubul de navigație principal {#cubul_de_navigație_principal}
+## Cubul de navigație principal 
 
 Cubul principal de navigație (\"nav cub\" pentru această secțiune) urmărește orientarea obiectului real în partea principală a vederii 3D. Orice operație care reorientează vizualizarea 3D principală va reorienta și cubul nav.
 
@@ -52,26 +52,26 @@ Nu este posibilă vizualizarea pentru:
 
 Notă: De la această scriere (v 0.18), există unele probleme privind cubul nav; nu toate caracteristicile sunt selectabile în prezent. În special, marginile nu sunt selectabile, nici cele patru colțuri ale feței cu care se învecinează imediat.
 
-### Selectarea Fațetei {#selectarea_fațetei}
+### Selectarea Fațetei 
 
 Dacă faceți clic pe o fațetă, orientarea 3D va fi orientată spre fațeta respectivă. Din punctul de vedere al fațetei, sunt disponibile alte puncte de selecție, după cum sa menționat mai sus. Pe fiecare margine exterioară există patru bare \"subțiri\", reprezentând cele patru fețe adiacente; făcând clic pe ele va fi selectată vizualizarea corespunzătoare fațetei adiacente. Există patru colțuri rotunde care pot fi utilizate pentru a seta vederea axonometrică corespunzătoare. Există, de asemenea, un set interior de muchii și colțuri, care sunt în prezent nefuncționale.
 
-### Selecția marginilor {#selecția_marginilor}
+### Selecția marginilor 
 
 Din păcate, selecția de margine este nefunțională în prezent. Încercarea de a selecta o margine va selecta fațeta care se află în spatele ei. Dacă faceți clic pe o margine, trebuie să centrați marginea astfel încât aceasta să fie îndreptată spre dvs.
 
-### Selecția colțului {#selecția_colțului}
+### Selecția colțului 
 
 Dacă faceți clic pe unul dintre colțuri, vi se va oferi o vedere axonometrică din colțul respectiv. După cum s-a menționat mai sus, în momentul în care o fațetă este îndreptată direct spre dvs., colțurile acelei fețe nu pot fi selectate.
 
-## Meniul Mini-cub {#meniul_mini_cub}
+## Meniul Mini-cub 
 
 În colțul din dreapta jos al cubului de navigație este un mic cub. Dacă faceți clic pe acest cub va apărea un meniu pe care îl puteți utiliza pentru a schimba tipul de vizualizare (Ortografic, Perspectivă, Isometric) și pentru a face o \"Zoom pentru a se potrivi\".
 
 
 <div class="mw-translate-fuzzy">
 
-## Deplasarea afișajului cubului de navigație {#deplasarea_afișajului_cubului_de_navigație}
+## Deplasarea afișajului cubului de navigație 
 
 Puteți mutați întreaga structură de control a cubului de navigație într-o altă locație din afișajul 3D, apăsând mouse-ul oriunde în cubul principal de navigare și trasând. De la această scriere (v 0.18), structura nu va începe să se miște până când indicatorul mouse-ului nu sa deplasat peste marginea cubului principal de navigație.
 
@@ -80,7 +80,7 @@ Puteți mutați întreaga structură de control a cubului de navigație într-o 
 
 ## Configuration
 
-The navigation cube is configurable, including adjusting its size: {{MenuCommand|Edit → Preferences... → Display → Navigation → Navigation cube}} <small>(v0.19)</small> .
+The navigation cube is configurable, including adjusting its size: **Edit → Preferences... → Display → Navigation → Navigation cube** <small>(v0.19)</small> .
 
 For more advanced configuration, refer to the [CubeMenu](Interface_Customization#CubeMenu.md) [external workbench](External_workbenches.md).
 

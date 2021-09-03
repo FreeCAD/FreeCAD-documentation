@@ -37,7 +37,7 @@ Imaginea de mai sus prezintă un obiect structural, în care sunt desenate două
 
 </div>
 
-## Extensii disponibile {#extensii_disponibile}
+## Extensii disponibile 
 
 
 <div class="mw-translate-fuzzy">
@@ -50,7 +50,7 @@ Instrumentul Rebar a fost mult îmbunătățit în timpul ediției din 2017 a [G
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -101,7 +101,7 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

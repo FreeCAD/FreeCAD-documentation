@@ -21,7 +21,7 @@ The surface can be modified by adding constraint edges and vertices which the su
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -40,12 +40,12 @@ The base edges that form the closed contour, as well as the auxiliary vertices a
 
 ## Opţiuni
 
--    {{MenuCommand|Boundary}}section:
+-    **Boundary**section:
 
     -   
         **Add edge**
         
-        : press once to start picking {{MenuCommand|Boundary edges}} in the <img src=images/Draft_Wire.svg style="width:3D view](3D_view.md). Straight edges such as **[16px"> <img src=images/Sketcher_CreatePolyline.svg style="width:Draft Wires](Draft_Wire.md)** and **[16px"> <img src=images/Draft_BSpline.svg style="width:Sketcher Polylines](Sketcher_CreatePolyline.md)**, or curved edges such as **[16px"> <img src=images/Sketcher_CreateBSpline.svg style="width:Draft BSplines](Draft_BSpline.md)** and **[16px"> <img src=images/PartDesign_Body.svg style="width:Sketcher BSplines](Sketcher_CreateBSpline.md)** can be chosen, as well as any edge from solid objects, like those of **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Bodies](PartDesign_Body.md)** and **[16px"> [Part Primitives](Part_Primitives.md)**.
+        : press once to start picking **Boundary edges** in the <img src=images/Draft_Wire.svg style="width:3D view](3D_view.md). Straight edges such as **[16px"> <img src=images/Sketcher_CreatePolyline.svg style="width:Draft Wires](Draft_Wire.md)** and **[16px"> <img src=images/Draft_BSpline.svg style="width:Sketcher Polylines](Sketcher_CreatePolyline.md)**, or curved edges such as **[16px"> <img src=images/Sketcher_CreateBSpline.svg style="width:Draft BSplines](Draft_BSpline.md)** and **[16px"> <img src=images/PartDesign_Body.svg style="width:Sketcher BSplines](Sketcher_CreateBSpline.md)** can be chosen, as well as any edge from solid objects, like those of **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Bodies](PartDesign_Body.md)** and **[16px"> [Part Primitives](Part_Primitives.md)**.
 
     -   
         **Remove edge**
@@ -57,9 +57,9 @@ The base edges that form the closed contour, as well as the auxiliary vertices a
         
         : open the context menu and select **Remove**, or press **Del** in the keyboard, to remove the currently selected edge in the list.
 
--    {{MenuCommand|Curvature: non-boundary edges}}section; the **Add edge** button is available to pick auxiliary edges (straight lines or B-Splines) to control the curvature of the surface. The surface will be forced to pass through these auxiliary edges. This works best when the auxiliary edges lie inside the region delimited by the {{MenuCommand|Boundary edges}}.
+-    **Curvature: non-boundary edges**section; the **Add edge** button is available to pick auxiliary edges (straight lines or B-Splines) to control the curvature of the surface. The surface will be forced to pass through these auxiliary edges. This works best when the auxiliary edges lie inside the region delimited by the **Boundary edges**.
 
--    {{MenuCommand|Curvature: non-boundary vertices}}section; similar to the non-boundary edges, the user can pick auxiliary vertices to control the curvature. These vertices may be free standing **<img src=images/Draft_Point.svg style="width:16px"> <img src=images/Part_Point.svg style="width:Draft Points](Draft_Point.md)** or **[16px"> [Part Points](Part_Point.md)**, or may belong to any edge (straight lines or B-Splines), or be a corner vertex in a solid object. In this case, the surface will be constrained to pass through these auxiliary points.
+-    **Curvature: non-boundary vertices**section; similar to the non-boundary edges, the user can pick auxiliary vertices to control the curvature. These vertices may be free standing **<img src=images/Draft_Point.svg style="width:16px"> <img src=images/Part_Point.svg style="width:Draft Points](Draft_Point.md)** or **[16px"> [Part Points](Part_Point.md)**, or may belong to any edge (straight lines or B-Splines), or be a corner vertex in a solid object. In this case, the surface will be constrained to pass through these auxiliary points.
 
 -   Press **Cancel** or **Esc** to abort the current operation.
 

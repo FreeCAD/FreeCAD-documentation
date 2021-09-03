@@ -28,7 +28,7 @@ Questo strumento raccorda (arrotonda) i bordi selezionati di un oggetto. Una fin
 
 <div class="mw-translate-fuzzy">
 
-## Differenze tra il raccordo di Parte e il raccordo di PartDesign {#differenze_tra_il_raccordo_di_parte_e_il_raccordo_di_partdesign}
+## Differenze tra il raccordo di Parte e il raccordo di PartDesign 
 
 Vi è un altro strumento di raccordo in PartDesign. Si prega di notare che il loro funzionamento è molto diverso. Per le differenze vedere la pagina [Raccordo di PartDesign](PartDesign_Fillet/it.md).
 
@@ -38,7 +38,7 @@ Vi è un altro strumento di raccordo in PartDesign. Si prega di notare che il lo
 
 <div class="mw-translate-fuzzy">
 
-## Note sulla applicazione del Raccordo di Parte {#note_sulla_applicazione_del_raccordo_di_parte}
+## Note sulla applicazione del Raccordo di Parte 
 
 Il raccordo potrebbe non fare nulla se il risultato tocca o attraversa il bordo adiacente successivo. Quindi, se non si ottiene il risultato atteso, provare con un valore inferiore. Lo stesso vale per lo [Smusso](Part_Chamfer/it.md) di Part.
 
@@ -48,9 +48,9 @@ Il raccordo potrebbe non fare nulla se il risultato tocca o attraversa il bordo 
 Lo strumento Raccordo a volte fallisce quando si tenta di raccordare oggetti complessi. Una causa comune di questo può essere dovuta al fatto che la forma che viene raccordata non è geometricamente corretta. Questo può essere il risultato di linee, piani, ecc. in esubero che non vengono rimossi dopo le precedenti operazioni utilizzate per costruire la forma (ad esempio Taglia, Intersezione o Fusione). Per minimizzare i problemi si può:
 
 -   dove è possibile lasciare questa operazione per ultima, fino a quando la parte non è completamente generata. Questo riduce al minimo l\'interazione dei raccordi con le successive operazioni booleane;
--   Usare {{MenuCommand|Part → Controlla la geometria}} per verificare la presenza di eventuali errori nella geometria della forma e correggerli;
--   Usare {{MenuCommand|Part → Affina forma}} per rimuovere eventuali artefatti introdotti da precedenti operazioni booleane prima dei raccordi (e in alcuni casi tra operazioni di raccordi in sequenza);
--   Considerare di usare {{MenuCommand|Modifica → Preferenze → PartDesign}} per abilitare il controllo e l\'affinazione automatica del modello dopo le operazioni booleane e le operazioni basate su schizzi (se queste opzioni sono attive, le prestazioni possono risentirne).
+-   Usare **Part → Controlla la geometria** per verificare la presenza di eventuali errori nella geometria della forma e correggerli;
+-   Usare **Part → Affina forma** per rimuovere eventuali artefatti introdotti da precedenti operazioni booleane prima dei raccordi (e in alcuni casi tra operazioni di raccordi in sequenza);
+-   Considerare di usare **Modifica → Preferenze → PartDesign** per abilitare il controllo e l\'affinazione automatica del modello dopo le operazioni booleane e le operazioni basate su schizzi (se queste opzioni sono attive, le prestazioni possono risentirne).
 
 
 <div class="mw-translate-fuzzy">

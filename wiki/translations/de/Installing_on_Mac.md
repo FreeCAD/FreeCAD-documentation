@@ -30,7 +30,7 @@ Wenn es irgendwelche Probleme mit dem HomeBrew Cask oder Formula gibt, kannst du
 
 Diese Seite beschreibt die Verwendung und die Funktionen des FreeCAD Installationsprogramms. Sie enthält auch Anweisungen zur Deinstallation. Nach der Installation kannst du [loslegen](Getting_started/de.md)!
 
-## Einfache Installation {#einfache_installation}
+## Einfache Installation 
 
 Das FreeCAD Installationsprogramm wird in Form eines Anwendungspakets (.app) bereitgestellt, das in einer Datenträgerabbild Datei enthalten ist.
 

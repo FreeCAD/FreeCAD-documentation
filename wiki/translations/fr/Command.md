@@ -22,7 +22,7 @@ Comme la plupart d'entre elles nécessitent une interaction de l'utilisateur, le
 
 Les commandes peuvent être définies en C ++ ou en Python.
 
-## Commandes définies en C++ {#commandes_définies_en_c}
+## Commandes définies en C++ 
 
 Exemple d\'une définition de commande C++, généralement définie suivant la structure {{FileName|Mod/ModuleName/Gui/Command.cpp}}.
 
@@ -57,7 +57,7 @@ CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
-## Commandes définies en Python {#commandes_définies_en_python}
+## Commandes définies en Python 
 
 Exemple d\'une définition de commande Python, elle peut être placée dans un répertoire comme {{FileName|Mod/ModuleName/tools/commands.py}}. 
 ```python

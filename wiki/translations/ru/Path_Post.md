@@ -17,7 +17,7 @@ The **<img src="images/Path_Post.svg" width=16px> [Post](Path_Post.md)** command
 
 **Each CNC Controller speaks a specific G-Code dialect, requiring a Dialect-correct Postprocessor to translate the final output from the agnostic internal FreeCAD G-Code dialect.**
 
-### Typical functions of the Postprocessor include {#typical_functions_of_the_postprocessor_include}
+### Typical functions of the Postprocessor include 
 
 -   Using a correct Job output G-Code file extension.
 -   Selecting the G-Code commands. CNC controllers typically support a subset of available G-Code commands. The super-set of G-Code commands contains powerful and specialized commands that otherwise must be processed using multiple simpler commands. Postprocessors are written to select the best G-Code for an Operation, available on the target.
@@ -28,7 +28,7 @@ The **<img src="images/Path_Post.svg" width=16px> [Post](Path_Post.md)** command
 -   Formatting the Feed and Speed rate information to revolutions per minute, or per second.
 -   Formatting Function Call Naming and Calling.
 
-### Postprocessor Customization {#postprocessor_customization}
+### Postprocessor Customization 
 
 If you want to write your own postprocessor, have a look at the [Path Postprocessor Customization](Path_Postprocessor_Customization.md) page.
 
@@ -64,9 +64,9 @@ If only one CNC machine is used, or if all CNC machines share a common Postproce
 1.  Select a <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Job](Path_Job.md) in the [Tree view](Tree_view.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_Post.svg" width=16px> [Path Post](Path_Post.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_Post.svg" width=16px> Post Process}} option from the menu.
+    -   Select the **Path → <img src="images/Path_Post.svg" width=16px> Post Process** option from the menu.
     -   Use the keyboard shortcut: **P** then **P**.
-3.  Confirm the {{MenuCommand|Output File}} name and directory
+3.  Confirm the **Output File** name and directory
 
 ## Options
 

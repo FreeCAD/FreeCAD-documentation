@@ -8,7 +8,7 @@
 
 ## Einführung
 
-Der [Eigenschafteneditor](property_editor/de.md) erscheint wenn der {{MenuCommand|Modell}} reiter der [Combo Ansicht](combo_view/de.md) aktiv auf der [Oberfläche](interface/de.md) ist; es ermöglicht die Verwaltung der öffentlich zugänglichen Eigenschaften der Objekte im Dokument.
+Der [Eigenschafteneditor](property_editor/de.md) erscheint wenn der **Modell** reiter der [Combo Ansicht](combo_view/de.md) aktiv auf der [Oberfläche](interface/de.md) ist; es ermöglicht die Verwaltung der öffentlich zugänglichen Eigenschaften der Objekte im Dokument.
 
 Generell ist der Eigenschafteneditor dazu gedacht, ein Objekt zu einer Zeit zu behandeln. Die im Eigenschafteneditor angezeigten Werte gehören zum aktiven Objekt des aktiven Dokuments (Vorsicht ist geboten, welches Dokument gerade aktiv ist, wenn mit mehreren Dokumenten gearbeitet wird). Wenn kein Element ausgewählt wurde (oder es keine gibt), bleibt der Eigenschafteneditor leer.
 
@@ -40,22 +40,22 @@ App::PropertyPlacement
 
 Verschiedene Objekte können unterschiedliche Typen von Eigenschaften haben. Viele Objekte haben jedoch die gleichen Typen, weil sie von der gleichen internen Klasse abgeleitet sind. Zum Beispiel haben die meisten Objekte, die geometrische Formen beschreiben (Linien, Kreise, Rechtecke, Volumenkörper, importierte Teile usw.), die Eigenschaft \"Platzierung\", die ihre Position in der [3D Ansicht](3D_view/de.md) definiert.
 
-## Ansichts und Dateneigenschaften {#ansichts_und_dateneigenschaften}
+## Ansichts und Dateneigenschaften 
 
 There are two classes of feature properties accessible through tabs in the property editor:
 
--    {{MenuCommand|View}}properties, related to the \"visual\" appearance of the object. The {{MenuCommand|View}} properties are tied to the **ViewProvider** (`ViewObject` attribute) of the object, and are only accessible when the graphical user interface (GUI) is loaded. They are not accessible when using FreeCAD in console mode, or as a headless library.
+-    **View**properties, related to the \"visual\" appearance of the object. The **View** properties are tied to the **ViewProvider** (`ViewObject` attribute) of the object, and are only accessible when the graphical user interface (GUI) is loaded. They are not accessible when using FreeCAD in console mode, or as a headless library.
 
--    {{MenuCommand|Data}}properties, related to the \"physical\" parameters of the object. The {{MenuCommand|Data}} properties define the essential characteristics of the object; they exist at all times, even when FreeCAD is used in console mode, or as a library. This means that if you load a document in console mode, you can edit the radius of a circle or the length of a line, even if you cannot see the result on the screen.
+-    **Data**properties, related to the \"physical\" parameters of the object. The **Data** properties define the essential characteristics of the object; they exist at all times, even when FreeCAD is used in console mode, or as a library. This means that if you load a document in console mode, you can edit the radius of a circle or the length of a line, even if you cannot see the result on the screen.
 
-For this reason, {{MenuCommand|Data}} properties are considered to be more \"real\", as they truly define the geometry of a shape. On the other hand, {{MenuCommand|View}} properties are less important because they only affect the superficial appearance of the geometry. For example, a circle of 10 mm radius is different from a circle of 5 mm radius; the color of the circle (view property) doesn\'t affect its shape, but the radius does (data property). In many instances in this documentation, the word \"property\" is understood to refer to a \"Data property\" and not to a \"View property\".
+For this reason, **Data** properties are considered to be more \"real\", as they truly define the geometry of a shape. On the other hand, **View** properties are less important because they only affect the superficial appearance of the geometry. For example, a circle of 10 mm radius is different from a circle of 5 mm radius; the color of the circle (view property) doesn\'t affect its shape, but the radius does (data property). In many instances in this documentation, the word \"property\" is understood to refer to a \"Data property\" and not to a \"View property\".
 
-### Grundlegende Eigenschaften {#grundlegende_eigenschaften}
+### Grundlegende Eigenschaften 
 
 
 **Siehe auch: [Objektname](Objekt_name/de.md)**
 
-The most basic [scripted object](scripted_objects.md) won\'t show any {{MenuCommand|Data}} property in the property editor, except for its `Label` attribute. The `Label` is a user editable string that identifies the object in the [tree view](tree_view.md). On the other hand, the `Name` attribute of an object is assigned at the moment of its creation and cannot be changed; this attribute is read-only, and is not displayed in the property editor either.
+The most basic [scripted object](scripted_objects.md) won\'t show any **Data** property in the property editor, except for its `Label` attribute. The `Label` is a user editable string that identifies the object in the [tree view](tree_view.md). On the other hand, the `Name` attribute of an object is assigned at the moment of its creation and cannot be changed; this attribute is read-only, and is not displayed in the property editor either.
 
 Ein grundlegendes parametrisches Objekt wird wie folgt erstellt
 
@@ -82,34 +82,34 @@ Aktionen in der Eigenschaftsansicht wurden in 0.19 implementiert.
 
 Right clicking in an empty space of the view, or with a property selected, shows only one command:
 
--    {{MenuCommand|Show all}}: if active, in addition to the standard properties that appear already, it shows all the hidden Data and View properties in their respective tabs.
+-    **Show all**: if active, in addition to the standard properties that appear already, it shows all the hidden Data and View properties in their respective tabs.
 
     -   Data: \"Proxy\", \"Label2\", \"Expression Engine\", and \"Visibility\".
     -   View: \"Proxy\".
 
-When the {{MenuCommand|Show all}} option is active, and one property is selected, more actions are available with a second right click:
+When the **Show all** option is active, and one property is selected, more actions are available with a second right click:
 
--    {{MenuCommand|Show all}}: deactivates the {{MenuCommand|Show all}} command, hiding the additional Data and View properties.
+-    **Show all**: deactivates the **Show all** command, hiding the additional Data and View properties.
 
--    {{MenuCommand|Add Property}}: adds a dynamic property to the object; this works with both C++ defined objects, and Python [scripted objects](scripted_objects.md).
+-    **Add Property**: adds a dynamic property to the object; this works with both C++ defined objects, and Python [scripted objects](scripted_objects.md).
 
--    {{MenuCommand|Expression...}}: brings up the formula editor, which allows using [expressions](Expressions.md) in the property value.
+-    **Expression...**: brings up the formula editor, which allows using [expressions](Expressions.md) in the property value.
 
--    {{MenuCommand|Hidden}}: if active, sets the property as hidden, meaning that it will only be displayed in the property editor if {{MenuCommand|Show all}} is active.
+-    **Hidden**: if active, sets the property as hidden, meaning that it will only be displayed in the property editor if **Show all** is active.
 
--    {{MenuCommand|Output}}: if active, sets the property as output.
+-    **Output**: if active, sets the property as output.
 
--    {{MenuCommand|NoRecompute}}: if active, sets the property as not recomputed when the document is recomputed; this is useful when a property should be kept unaffected by other updates.
+-    **NoRecompute**: if active, sets the property as not recomputed when the document is recomputed; this is useful when a property should be kept unaffected by other updates.
 
--    {{MenuCommand|ReadOnly}}: if active, sets the property to be read-only; it won\'t be editable in the property editor any more until this switch is turned off. The {{MenuCommand|Expression...}} menu entry is no longer available. **Note:** It may be still possible to change the property via a dialog that updates the property.
+-    **ReadOnly**: if active, sets the property to be read-only; it won\'t be editable in the property editor any more until this switch is turned off. The **Expression...** menu entry is no longer available. **Note:** It may be still possible to change the property via a dialog that updates the property.
 
--    {{MenuCommand|Transient}}: if active, sets the property as transient. The value of a transient property is not saved to file. When opening a file, it is instantiated with its default value.
+-    **Transient**: if active, sets the property as transient. The value of a transient property is not saved to file. When opening a file, it is instantiated with its default value.
 
--    {{MenuCommand|Touched}}: if active, it becomes touched, and ready for recompute.
+-    **Touched**: if active, it becomes touched, and ready for recompute.
 
--    {{MenuCommand|EvalOnRestore}}: if active, it is evaluated when the document is restored.
+-    **EvalOnRestore**: if active, it is evaluated when the document is restored.
 
-## Beispiel für die Eigenschaften eines PartDesign Objekts {#beispiel_für_die_eigenschaften_eines_partdesign_objekts}
+## Beispiel für die Eigenschaften eines PartDesign Objekts 
 
 In this section we show some common properties that are visible for a [PartDesign Body](PartDesign_Body.md), and one [PartDesign Feature](PartDesign_Feature.md). The specific properties of an object can found in the specific documentation page of that object.
 
@@ -221,7 +221,7 @@ print(obj.CustomCamelProperty)
 
 ![](images/FreeCAD_Property_editor_Custom.png ) *Property editor showing the Data properties of a [PartDesign Body](PartDesign_Body.md), with two additional properties, "Custom" and "Custom Camel Property".*
 
-In similar way the {{MenuCommand|View}} properties are added, not to the base object, but to its `ViewObject`. Then, it follows that properties like **Angular Deflection**, **Bounding Box**, **Display Mode**, **Display Mode Body**, **Line Color**, and others, can be examined and changed from the [Python console](Python_console.md).
+In similar way the **View** properties are added, not to the base object, but to its `ViewObject`. Then, it follows that properties like **Angular Deflection**, **Bounding Box**, **Display Mode**, **Display Mode Body**, **Line Color**, and others, can be examined and changed from the [Python console](Python_console.md).
 
 
 ```python

@@ -17,26 +17,26 @@ La commande **Mesh Division** crée des segments de maillage séparés pour les 
 2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_Segmentation.svg" width=16px> [Diviser un maillage](Mesh_Segmentation/fr.md)
 **
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → <img src="images/Mesh_Segmentation.svg" width=16px> Diviser le maillage...}} dans le menu.
-3.  Le panneau des tâches {{MenuCommand|Segmentation du maillage}} s\'ouvre.
-4.  Cochez éventuellement l\'option {{MenuCommand|Lissage du maillage}} et spécifiez une valeur pour le lissage du maillage. Plus la valeur est élevée, plus le maillage est supposé lisse. La spécification de {{Value|0}} a le même effet que la désactivation de cette option. Ne sélectionnez pas cette option si vous souhaitez créer des segments plans.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Segmentation.svg" width=16px> Diviser le maillage...** dans le menu.
+3.  Le panneau des tâches **Segmentation du maillage** s\'ouvre.
+4.  Cochez éventuellement l\'option **Lissage du maillage** et spécifiez une valeur pour le lissage du maillage. Plus la valeur est élevée, plus le maillage est supposé lisse. La spécification de {{Value|0}} a le même effet que la désactivation de cette option. Ne sélectionnez pas cette option si vous souhaitez créer des segments plans.
 5.  Sélectionnez le type de surface pour lequel vous souhaitez créer des segments de maillage. Vous pouvez sélectionner plusieurs types, mais cela peut conduire à de moins bons résultats. Les types de surface disponibles sont:
     -   
-        {{MenuCommand|Plan}}
+        **Plan**
         
 
     -   
-        {{MenuCommand|Cylindre}}
+        **Cylindre**
         
 
     -   
-        {{MenuCommand|Sphère}}
+        **Sphère**
         
 
     -   
-        {{MenuCommand|Forme libre}}
+        **Forme libre**
         
-6.  Spécifiez les paramètres requis. Assurez-vous que les valeurs {{MenuCommand|Tolérance}} ne sont pas trop faibles et que les valeurs {{MenuCommand|Minimum number of faces}} ne sont pas trop élevées.
+6.  Spécifiez les paramètres requis. Assurez-vous que les valeurs **Tolérance** ne sont pas trop faibles et que les valeurs **Minimum number of faces** ne sont pas trop élevées.
 7.  Appuyez sur le bouton **OK**.
 8.  La commande créera un [groupe](Std_Group/fr.md) contenant des objets maillés séparés, chacun étant un segment de l\'objet maillé d\'origine.
 9.  Si le groupe créé est vide, essayez à nouveau d\'utiliser la commande avec les paramètres modifiés.

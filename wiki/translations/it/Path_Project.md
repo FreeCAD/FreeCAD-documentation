@@ -30,12 +30,12 @@ Lo strumento Lavorazione (Job) crea un nuovo oggetto Lavorazione nel documento a
 1.  Richiamare il comando Lavorazione utilizzando uno dei seguenti metodi:
     -   Premere il pulsante **<img src="images/Path_Job.svg" width=16px> [Lavorazione](Path_Job/it.md)** nella barra degli strumenti.
     -   Utilizzare la scorciatoia da tastiera **P** quindi **F**.
-    -   Usare la voce {{MenuCommand|Path → Lavorazione}} del menu principale.
+    -   Usare la voce **Path → Lavorazione** del menu principale.
 
 
 </div>
 
-La finestra di dialogo della GUI della lavorazione ha cinque schede allineate orizzontalmente: {{MenuCommand|General}}, {{MenuCommand|Output}}, {{MenuCommand|Setup}}, {{MenuCommand|Tools}}, e {{MenuCommand|Workplan}}. L\'utente può in qualsiasi momento utilizzare le opzioni **OK** o **Annulla** nella finestra di dialogo.
+La finestra di dialogo della GUI della lavorazione ha cinque schede allineate orizzontalmente: **General**, **Output**, **Setup**, **Tools**, e **Workplan**. L\'utente può in qualsiasi momento utilizzare le opzioni **OK** o **Annulla** nella finestra di dialogo.
 
 ## General
 
@@ -82,7 +82,7 @@ Dopo aver aggiunto uno strumento, è possibile impostare o modificare l\'avanzam
 
 Lo strumento predefinito può essere eliminato se è stato aggiunto un proprio strumento.
 
-## Flusso di lavoro {#flusso_di_lavoro}
+## Flusso di lavoro 
 
 ![](images/Job_5.jpg )
 

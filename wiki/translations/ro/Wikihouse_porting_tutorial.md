@@ -20,7 +20,7 @@ Since the Wikihouse project is open by nature, files are easy to find on the pro
 
 In the following tutorial we used the [Chassis](https://github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) file from Wikihouse\'s Microhouse subproject.
 
-## Preparing the Sketchup file {#preparing_the_sketchup_file}
+## Preparing the Sketchup file 
 
 The first thing you will need to do is to open the file in SketchUp and delete everything you don\'t want to export. We will only export one section of the Microhouse, so everything else must be deleted.
 
@@ -50,7 +50,7 @@ Repeat this for each component. Since many are duplicated, this is not as huge a
 
 When our piece of house is fully made of flat elements, we can select everything and export it to a .dae file, and then import this file into FreeCAD. Be sure to mark the \"triangulate all
 
-## Solving the double faces bug {#solving_the_double_faces_bug}
+## Solving the double faces bug 
 
 There is a nasty problem for which I haven\'t found a better solution: Meshes exported from SketchUp to the .dae format have their faces duplicated. Each face becomes actually two faces. The easiest way I have found so far is to open the exported file in [Blender](http://www.blender.org) for repair:
 
@@ -70,7 +70,7 @@ There is a nasty problem for which I haven\'t found a better solution: Meshes ex
 
 Normally the above operation shouldn\'t change the scale, but it is always wise to verify, using the measuring tools, that the imported geometry is at correct scale before going further. You might need to tweak Blender\'s Collada export settings if needed.
 
-## Importing and converting to wires {#importing_and_converting_to_wires}
+## Importing and converting to wires 
 
 
 <div class="mw-translate-fuzzy">
@@ -102,7 +102,7 @@ The Extract Wires from Mesh macro also sometimes fails in finding closed wires i
 
 There are many possible strategies here, depending on how editable and precise you need the result. The [Arch Panel](Arch_Panel.md) object needs a base object made of wires. It doesn\'t matter how this object is made, if it is a single sketch, or, like in the example above, a compound of different sketches or draft object.
 
-## Converting to Sketches {#converting_to_sketches}
+## Converting to Sketches 
 
 It is also possible to do that part later, you could already create Panels from each of the component, but let\'s see already how to to convert a wire-like object to a sketch:
 
@@ -123,7 +123,7 @@ It is also possible to do that part later, you could already create Panels from 
 
 ![](images/Arch_Wikihouse_12.jpg )
 
-## Rebuilding the wikihouse and exporting cut sheets {#rebuilding_the_wikihouse_and_exporting_cut_sheets}
+## Rebuilding the wikihouse and exporting cut sheets 
 
 Also, make sure you don\'t redo any duplicated part. Instead, select the [Draft Clone](Draft_Clone.md) tool to duplicate parts based on the same profile, so they will all share one same profile object. Then, since we have the outline at the correct place to use as a guide, it is fairly easy to rotate and move the clone into its correct position with [Draft Rotate](Draft_Rotate.md) and [Draft Move](Draft_Move.md).
 

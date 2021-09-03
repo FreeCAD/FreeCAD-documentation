@@ -26,7 +26,7 @@ Editez le fichier approprié {{FileName|CMakeLists.txt}} pour ajouter des réfé
 -    `[YourClass]Py.h`
     
 
-## Fichier XML de description des classes {#fichier_xml_de_description_des_classes}
+## Fichier XML de description des classes 
 
 Le fichier XML `[YourClass]Py.xml` fournit des informations sur les fonctions et attributs que la classe Python implémente ainsi que la documentation utilisateur pour ces éléments qui s\'affiche dans la [Console Python](Python_console/fr.md) de FreeCAD.
 
@@ -88,11 +88,11 @@ Py::Object AxisPy::getDirection(void) const
 void AxisPy::setDirection(Py::Object arg)
 }}
 
-## Mise en œuvre du fichier Cplusplus {#mise_en_œuvre_du_fichier_cplusplus}
+## Mise en œuvre du fichier Cplusplus 
 
 Le fichier d\'implémentation C++ `[YourClass]PyImp.cpp` fournit la \"colle\" qui relie les structures C++ et Python ensemble, effectuant la traduction efficacement d\'un langage à l\'autre. Le système FreeCAD C++ vers Python fournit un certain nombre de classes C++ qui correspondent à leur type Python. La plus fondamentale de ces classes est la classe `Py::Object` \-- rarement créée directement, cette classe fournit la base de l\'arbre d\'héritage et est utilisée comme type de retour pour toute fonction qui retourne des données Python.
 
-### Fichiers inclus {#fichiers_inclus}
+### Fichiers inclus 
 
 Votre fichier d\'implémentation C++ comprendra les fichiers suivants : {{Code|lang=cpp|code=
 #include "PreCompiled.h"

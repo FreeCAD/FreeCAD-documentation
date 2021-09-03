@@ -40,7 +40,7 @@ Shematski detalj konfiguracije opruga
 
 ![](images/Macro_FCSpring_Helix_Variable_01.png ) 
 
-#### **Prvi dio, konfiguracija opruge** {#prvi_dio_konfiguracija_opruge}
+#### **Prvi dio, konfiguracija opruge** 
 
 -    {{SpinBox|10 coils}}**Number of coil** : Ukupno zavojnice na oprugu. Zadano = 10
 
@@ -63,7 +63,7 @@ Shematski detalj konfiguracije opruga
 
 ![](images/Macro_FCSpring_Helix_Variable_02.png ) 
 
-#### **Drugi odjeljak, upišite redak** {#drugi_odjeljak_upišite_redak}
+#### **Drugi odjeljak, upišite redak** 
 
 -    {{RadioButton|TRUE|<img src="images/Draft_BSpline.svg" width=24px> Bspline}}**BSpline**: Upišite liniju BSpline.
 
@@ -75,7 +75,7 @@ Shematski detalj konfiguracije opruga
 
 ![](images/Macro_FCSpring_Helix_Variable_03.png ) 
 
-#### **Treći odjeljak, odabir** {#treći_odjeljak_odabir}
+#### **Treći odjeljak, odabir** 
 
 Ovaj je odjeljak prikazan ako je odabran objekt. Objekt tipa je prikazan u uređivaču teksta
 
@@ -103,7 +103,7 @@ Otkrivanje: cilindar (radijus), sfera (radijus), toroid (radijus), konus (mali r
 
 ![](images/Macro_FCSpring_Helix_Variable_02_1.png ) 
 
-#### Position (0)(xx)\'\' {#position_0xx}
+#### Position (0)(xx)\'\' 
 
 (0)(xx) : Odabir broja, duljina u mm stvorene osi x 10, tj. Broj točaka za pomicanje opruge osi
 
@@ -119,7 +119,7 @@ Otkrivanje: cilindar (radijus), sfera (radijus), toroid (radijus), konus (mali r
 
 ![](images/Macro_FCSpring_Helix_Variable_02_2.png ) 
 
-#### Četiri dijela, zavojnica posebne duljine {#četiri_dijela_zavojnica_posebne_duljine}
+#### Četiri dijela, zavojnica posebne duljine 
 
 -    {{SpinBox|Num: 2}}**Numbering of coil** : Numeriranje zavojnice za izmjenu. (Zadano : none)
 
@@ -163,19 +163,19 @@ Otkrivanje: cilindar (radijus), sfera (radijus), toroid (radijus), konus (mali r
 
 ![](images/Macro_FCSpring_Helix_Variable_05.png ) 
 
-## Prikaz izvješća {#prikaz_izvješća}
+## Prikaz izvješća 
 
 Prikaz izvješća prozora prikazao je svu izmijenjenu vrijednost.
 
 ![](images/Macro_FCSpring_Helix_Variable_06.png ) 
 
-## Primjer proljeće {#primjer_proljeće}
+## Primjer proljeće 
 
 Primjer za modificirano proljeće
 
 ![](images/Macro_FCSpring_Helix_Variable_07.png ) 
 
-## Primjer prikaza izvješća {#primjer_prikaza_izvješća}
+## Primjer prikaza izvješća 
 
 Kada se makro pokrene, u tabličnom se obliku prikazuje cijeli popis skretanja.
 

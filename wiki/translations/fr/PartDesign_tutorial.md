@@ -20,7 +20,7 @@ Ce tutoriel a pour but d\'initier le lecteur à utilisation de l\' [Atelier Part
 
 ### Procédure
 
-#### Créer une forme géométrique 3D {#créer_une_forme_géométrique_3d}
+#### Créer une forme géométrique 3D 
 
 L\'objectif de l**\'atelier PartDesign** est de permettre à l\'utilisateur de créer des formes géométriques dans un espace 3D, pour répondre à un certain besoin. Ainsi , sont mis à disposition des outils pour faire des esquisses et les convertir en objets 3D.
 
@@ -42,7 +42,7 @@ Une autre manière de créer des formes géométriques 3D est avec l\'outil <img
 4.  Définissez \"Axe\" sur \"Axe d\'esquisse horizontal\"
 5.  Renseigner un angle de 360°
 
-#### Outils d\'enlèvement de matière {#outils_denlèvement_de_matière}
+#### Outils d\'enlèvement de matière 
 
 Commencer par créer une esquisse avec la forme à enlever.
 
@@ -69,7 +69,7 @@ Après cela, nous allons utiliser l\'outil **cavité**.
 2.  Sélectionner <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Poche](PartDesign_Pocket/fr.md)
 3.  Régler la distance sur **À travers tout**
 
-#### Caractéristiques du motif {#caractéristiques_du_motif}
+#### Caractéristiques du motif 
 
 Rappeler le profil extrudé créé au début du tutoriel.
 

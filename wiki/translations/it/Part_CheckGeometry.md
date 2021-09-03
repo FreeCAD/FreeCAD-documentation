@@ -24,7 +24,7 @@ Lo strumento di controllo della geometria consente di verificare se si dispone d
 1.  Selezionare una parte (attenzione a selezionare l\'intera parte e non solo una faccia per verificare la validità del solido)
 2.  Invocare il comando in uno dei seguenti modi:
     -   Con il pulsante **<img src="images/Part_CheckGeometry.svg" width=16px>** della barra delle booleane di Part.
-    -   Usando {{MenuCommand|Part → <img src="images/Part_CheckGeometry.svg" width=16px> Controlla la gometria}} dal menu principale.
+    -   Usando **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Controlla la gometria** dal menu principale.
 
 
 </div>
@@ -41,11 +41,11 @@ I risultati sono riportati nella [scheda Azioni](Task_panel/it.md).
 
 ## Options
 
-### Skip settings page {#skip_settings_page}
+### Skip settings page 
 
-If ticked, subsequent invocations of the tool skip showing the {{MenuCommand|Settings}} task panel.
+If ticked, subsequent invocations of the tool skip showing the **Settings** task panel.
 
-### Run BOP check {#run_bop_check}
+### Run BOP check 
 
 
 <div class="mw-translate-fuzzy">
@@ -55,7 +55,7 @@ La funzione Controlla geometria verifica se il [Boundary representation](https:/
 
 </div>
 
-### Log errors {#log_errors}
+### Log errors 
 
 If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
 

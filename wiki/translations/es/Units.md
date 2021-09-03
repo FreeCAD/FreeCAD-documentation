@@ -61,14 +61,14 @@ b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 
 <div class="mw-translate-fuzzy">
 
-## Unidades soportadas {#unidades_soportadas}
+## Unidades soportadas 
 
 Aquí están las unidades definidas en FreeCAD hasta el momento. Es sencillo añadir una nueva unidad definida por el usuario. La definición está [Aquí](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Base/UnitsApi.l?view=markup).
 
 
 </div>
 
-## Propósito y principios: Propuesta de una extensión del sistema de gestión de unidades {#propósito_y_principios_propuesta_de_una_extensión_del_sistema_de_gestión_de_unidades}
+## Propósito y principios: Propuesta de una extensión del sistema de gestión de unidades 
 
 En las próximas secciones se propone un sistema de gestión de unidades, desarrollando el concepto de *sistema de unidades*, activado durante la ejecución de FreeCAD. El interés de definir tal concepto es trabajar de forma más sencilla con diversos tipos de unidades **físicas** (incluso creadas por el usuario), sin incrementar la complejidad de la gestión de unidades para el usuario, o para los desarrolladores de FreeCAD.
 
@@ -88,13 +88,13 @@ Gracias a esta extensión, una de las intenciones es hacer más sencillo el esca
 
 El intercambio de datos entre estos dos tipos de actividades se hace más sencilla con esta extensión.
 
-## Tormenta de ideas {#tormenta_de_ideas}
+## Tormenta de ideas 
 
 En esta sección se destacan los contextos del uso del sistema de gestión de unidades. Desde estops contextos, podemos definir sus especificaciones técnicas.
 
 Esencialmente se dan 2 contextos como ejemplo.
 
-### Contexto 1: Apertura de un archivo de datos {#contexto_1_apertura_de_un_archivo_de_datos}
+### Contexto 1: Apertura de un archivo de datos 
 
 Este es posiblemente el caso más frecuente. Recibes un archivo que contiene por ejemplo un modelo geométrico, o describiendo un material con bastantes propiedades. El modelo geométrico se expresa en metros, o las propiedades del material de acuerdo al sistema internacional de unidades.
 
@@ -104,27 +104,27 @@ Esperabas un modelado para cálculo por elementos finitos, y trabajas en milimet
 
 En este contexto, la gestión de unidades se requiere para escalar los datos de un sistema de unidades inicial definido en el archivo de entrada a un sistema de unidades objetivo definido por el usuario.
 
-### Contexto 2: Cambiando el sistema de unidades durante la ejecución {#contexto_2_cambiando_el_sistema_de_unidades_durante_la_ejecución}
+### Contexto 2: Cambiando el sistema de unidades durante la ejecución 
 
 En este caso, puedes ser al mismo tiempo el que realiza el dibujo, y el que maneja el modelo para cálculo por elementos finitos. De modo similar al caso anterior, el sistema de unidades para estas dos tareas no es la misma, y necesitas cambiar el sistema de unidades inicial a tu preferido en tiempo de ejecución.
 
 ## Organización
 
-### Escalado lógico de unidades {#escalado_lógico_de_unidades}
+### Escalado lógico de unidades 
 
 En la sección [Tormenta de ideas](Units/es#Tormenta_de_ideas.md) se han presentado 2 contextos de utilización del escalado de unidades. Algunos aspectos deberían destacarse de estos dos contextos.
 
 
 <div class="mw-translate-fuzzy">
 
-#### Coherencia de unidades a través de la ejecución de FreeCAD {#coherencia_de_unidades_a_través_de_la_ejecución_de_freecad}
+#### Coherencia de unidades a través de la ejecución de FreeCAD 
 
 El sistema propuesto está basado en una suposición fundamental: el usuario está trabajando en un sistema de unidades coherente. Por ejemplo, esto significa que si el usuario expresa las longitudes en milímetros, necesariamente las áreas se expresarán en milímetros cuadrados, no metros cuadrados. Esta es la **Hipótesis uno**.
 
 
 </div>
 
-#### Sistema de unidades {#sistema_de_unidades}
+#### Sistema de unidades 
 
 Debido a la *hipótesis uno*, es posible y relevante definir un sistema de unidades. Un sistema de unidades se aplica a:
 
@@ -148,13 +148,13 @@ Estos son algunos ejemplos de sistemas de unidades.
 -   milímetro, kilogramo, milisegundo, amperio, Kelvin, mol, candela
 -   \...
 
-#### Unidades base y derivadas {#unidades_base_y_derivadas}
+#### Unidades base y derivadas 
 
 Las unidades derivadas son creadas por combinación de las unidades base. Por ejemplo, una velocidad (m/s) combina la longitud y el tiempo. Una interesante imagen presentando la relación entre las unidades base y las derivadas se puede ver [aquí](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf) también de NIST.
 
 Gracias a la definición del *sistema de unidades*, es posible para el usuario trabajar con cualquier tipo de unidades derivadas, sin necesidad de que los desarrolladores de FreeCAD lo tengan previsto por anticipado.
 
-#### Símbolos de unidades base y derivadas {#símbolos_de_unidades_base_y_derivadas}
+#### Símbolos de unidades base y derivadas 
 
 De acuerdo al [Sistema internacional de unidades (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf), los símbolos para especificar una unidad están aprobados oficialmente. Dos consecuencias se pueden destacar de esto.
 
@@ -163,7 +163,7 @@ De acuerdo al [Sistema internacional de unidades (SI)](http://physics.nist.gov/P
 
 Para superar estas limitaciones y permanecer flexible, el sistema propuesto está a favor del uso de unidades de magnitud en lugar de símbolos de unidades, el cual se mantiene no obstante por razones de ergonomía.
 
-### Modelo de datos {#modelo_de_datos}
+### Modelo de datos 
 
 Los tres objetos principales del sistema de gestión de unidades se han presentado, denominándose *unidad*, *diccionario de unidades* y *sistema de unidades*.
 
@@ -220,7 +220,7 @@ For instance, the list of *symbols* of the LENGTH unit, and their related *magni
 
 Standard *symbols* can be found on [NIST website](http://physics.nist.gov/cuu/Units/units.html) and p23 to 26 and p32 (*metric ton* or *tonne*) of [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf).
 
-#### Unit dictionary {#unit_dictionary}
+#### Unit dictionary 
 
 All the units available in FreeCAD, and new ones created by the user, should be stored in *unit dictionary*, which is an XML file (FreeCAD configuration file), so as to be retrieved when needed, i.e. when achieving unit scaling.
 
@@ -228,7 +228,7 @@ All the units available in FreeCAD, and new ones created by the user, should be 
 
 Array of units, contained in the *unit dictionary*.
 
-#### Unit system {#unit_system}
+#### Unit system 
 
 A *unit system* is the object that allows the user defining the current unit *magnitude* of each base units with which she/he is working. For instance, knowing that the user is working with millimeter, tonne, and second, thanks to the use of a unit system, FreeCAD can know that energy is expressed in terms of milliJoule, force in terms of Newton, and stress in terms of MegaPascal. Hence a unit system is only defined by a *name* (for instance *Standard unit system*) and a *magnitude table* specifying for each of the 7 base units, what is its corresponding *magnitude*.
 
@@ -242,11 +242,11 @@ By specifying the magnitude of the 7 base units, a unit system is defined.
 
 For instance \[1e-03, 1e+03, 1, 1, 1, 1, 1\], meaning millimeter, tonne, second, ampere, Kelvin, mole, candela
 
-#### Unit management API {#unit_management_api}
+#### Unit management API 
 
 Only the logic of some methods is presented, in order to highlight some features. These methods could belong to an object called *Unit manager*.
 
-##### Checking the unit dictionary {#checking_the_unit_dictionary}
+##### Checking the unit dictionary 
 
 ###### isValid
 
@@ -266,7 +266,7 @@ A unit dictionary defines a set of units and their known magnitudes. When managi
 
 -   check that the input *signature* length is of the same size than the unit dictionary unit *signatures*
 
-##### Scaling units {#scaling_units}
+##### Scaling units 
 
 ###### scaleUnitFromSymbolToSymbol
 
@@ -280,7 +280,7 @@ Knowing a value, an initial unit by its symbol, the target unit system, scale th
 
 Knowing a value, an initial unit system, the target unit by its symbol, scale the value.
 
-#### Motivations for such a management: example of application {#motivations_for_such_a_management_example_of_application}
+#### Motivations for such a management: example of application 
 
 Let\'s assume that we are going to setup a finite element model. To build our model, we need the mesh, material properties, and to define numerical parameters. Considering that they can be tens of material properties to manage, expressed with different units, sometimes not always very common, it is interesting for the user to only have to specify a global unit system, without caring much.
 
@@ -298,7 +298,7 @@ The *targetMagnitude* is then simply obtained with the operation $\prod_{bu} tar
 
 It becomes thus very easy to manage any number of properties with any kind of units with very few lines of Python.
 
-## See Also {#see_also}
+## See Also 
 
 -   The [Expressions](Expressions#Units.md) page for a list of all known units.
 -   The documentation of [Quantity](Quantity.md).

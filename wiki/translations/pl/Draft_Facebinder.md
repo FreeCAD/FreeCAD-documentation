@@ -22,7 +22,7 @@ Można go użyć do utworzenia wyciągnięcia z kolekcji powierzchni. Takie wyt�
 1.  Wybierz jedną lub więcej ścian.
 2.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Facebinder.svg" width=16px> [Tworzy obiekt powiązania ścian ...](Draft_Facebinder/pl.md)**.
-    -   Wybierz z menu opcję {{MenuCommand|Kreślenie → <img src="images/Draft_Facebinder.svg" width=16px> Łącznik kształtu}}.
+    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Facebinder.svg" width=16px> Łącznik kształtu**.
     -   Użyj skrótu klawiaturowego: **F**, a następnie **F**.
 
 ## Właściwości
@@ -57,7 +57,7 @@ Obiekt Łącznik kształtu wywodzi się z obiektu [Część: Cecha](Part_Feature
 
 -    {{PropertyView/pl|Rozmiar wzoru|Float}}: określa rozmiar [wzoru](Draft_Pattern/pl.md).
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 

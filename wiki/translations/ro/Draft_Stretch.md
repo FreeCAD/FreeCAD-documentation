@@ -33,7 +33,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Selectați obiectele pe care doriți să le întindeți
 2.  Apăsați tasta **<img src="images/Draft_Stretch.png" width=16px> [[Draft Stretch]]
@@ -65,7 +65,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 

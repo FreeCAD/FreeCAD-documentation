@@ -36,8 +36,8 @@ This operation contains a **BoundaryShape** property that allows for a modified 
 1.  Select one or more faces to be surfaced. **Note:** If selected faces exist at different heights, then all will be milled to the Final Depth setting.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_MillFace.svg" width=16px> [Path MillFace](Path_MillFace.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_MillFace.svg" width=16px> Face}} option from the menu.
-3.  Select the correct **BoundaryShape** setting to modify the milling area based on the face(s) selected as {{MenuCommand|Base Geometry}}.
+    -   Select the **Path → <img src="images/Path_MillFace.svg" width=16px> Face** option from the menu.
+3.  Select the correct **BoundaryShape** setting to modify the milling area based on the face(s) selected as **Base Geometry**.
 4.  Adjust the other properties as needed. They are listed further below.
 
 ## Caveats
@@ -46,7 +46,7 @@ This operation contains a **BoundaryShape** property that allows for a modified 
 
 -   Since the path tools work on the geometry of the selected edges/faces only, and do not relate to the rest of the 3D model, the paths will not go beyond the bounds of the chosen plane, even if it is surrounded by unused stock or air. This will leave unmachined corners. These can sometimes removed with one of the dress-up tools to be found on the *Path* menu.
 
-## Vertical face milling {#vertical_face_milling}
+## Vertical face milling 
 
 -   This tool will not work on a **vertical plane** or vertical non planar surface. Vertical operations can be achieved by using the face profile tool or edge profile tool. These will need the selection of a face or closed loop of edges *including the top or bottom edge of the vertical surface desired*). The extent of the path can then be reduced using the *Boundary Dress-up* tool to be found on the *Path* menu. With the Dress-up tool select *Create Box* option and reduce the size to limit the scope of the profile path. These settings will not allow the origin of the boundary box to be moved, however. This must be done by adjusting the Placement settings in the [tree view](Tree_view.md).
 -   This will work on compound surfaces such as several vertical planes or cylindrical surfaces joined together, so long as they form one continuous surface.
@@ -59,7 +59,7 @@ Empty
 
 \'\'\' *Note* \'\'\': The names of some Properties in this list differ a little from the same settings used in the Task Window Editor.
 
-### Data Tab {#data_tab}
+### Data Tab 
 
 #### Base
 
@@ -184,7 +184,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
 
-#### Start Point {#start_point}
+#### Start Point 
 
 -    **Start Point**: The custom start point for the path of this operation.
 
@@ -205,7 +205,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Use Start Point**: Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
 
-### View Tab {#view_tab}
+### View Tab 
 
 Empty
 

@@ -38,12 +38,12 @@ The constraint requires a lot of effort to use in the way other constraints are.
 
 </div>
 
-## Operation on Ellipse {#operation_on_ellipse}
+## Operation on Ellipse 
 
 
 <div class="mw-translate-fuzzy">
 
-## Operații cu Elipse {#operații_cu_elipse}
+## Operații cu Elipse 
 
 1.  Selectați elementele pentru a fi aliniate ți o elipsă.
 

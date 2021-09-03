@@ -19,7 +19,7 @@ L\'opération inverse est **<img src=images/Mesh_FromPartShape.svg style="width:
 ## Utilisation
 
 1.  Sélectionnez l\'objet mesh dans la [Vue en arborescence](Tree_view/fr.md).
-2.  Allez dans le menu, {{MenuCommand|Pièce → <img src=images/Part_ShapeFromMesh.svg style="width:16px"> Créer une forme à partir d'un maillage...}}.
+2.  Allez dans le menu, **Pièce → <img src=images/Part_ShapeFromMesh.svg style="width:16px"> Créer une forme à partir d'un maillage...**.
 3.  Un menu contextuel demandera la tolérance pour la forme de la pièce. La valeur par défaut est {{Value|0.1}}.
 4.  Une [forme](Shape/fr.md) de l\'objet maillage est créée en tant que nouvel objet séparé.
 

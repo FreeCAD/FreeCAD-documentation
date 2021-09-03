@@ -21,12 +21,12 @@
         
         버튼을 누릅니다.
 
-    -   메뉴에서 {{MenuCommand|파일 → <img src="images/Std_Save.svg" width=16px> 저장}} 옵션을 선택합니다.
+    -   메뉴에서 **파일 → <img src="images/Std_Save.svg" width=16px> 저장** 옵션을 선택합니다.
 
     -   단축키를 사용합니다: **Ctrl**+**S**.
 2.  새로 만든 문서라면 대화 상자에서 파일 이름을 입력하고 **저장** 버튼을 누릅니다.
 
-## 선택 사항 {#선택_사항}
+## 선택 사항 
 
 -   새로 만든 문서인 경우 명령을 중지하려면 **Esc** 키나 **취소** 버튼을 누르십시오.
 
@@ -34,9 +34,9 @@
 
 -   이 명령어는 의존성 그래프를 저장하려고 사용할 수도 있습니다. [표준 의존성 그래프를](Std_DependencyGraph/ko.md) 참조하십시오.
 
-## 환경 설정 {#환경_설정}
+## 환경 설정 
 
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: {{MenuCommand|도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## 스크립트
 

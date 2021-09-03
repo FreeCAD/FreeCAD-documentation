@@ -24,13 +24,14 @@ Cette macro crée des polyèdres paramétriques: tétraèdre, hexaèdre, octaèd
 
 ## Installation
 
--   Utilisez <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) pour installer la macro via {{MenuCommand|Outils → Gestionnaire d'Addon → onglet Macros}}
+-   Utilisez <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) pour installer la macro via 
+**Outils → Gestionnaire d'Addon → onglet Macros**
 -   Choisissez `polyhedrons.py`
 -   Appuyez sur {{Button | Install}}
 
 ## Utilisation
 
--   Une fois installé, ouvrez {{MenuCommand|Macro → Macros}}.
+-   Une fois installé, ouvrez **Macro → Macros**.
 -   Cliquez sur `polyhedrons.py` puis cliquez sur le bouton {{button|Execute}}.
 -   Dans une fenêtre contextuelle, vous pouvez sélectionner le type de polyèdre et vous pouvez définir la taille du rayon ou la longueur des côtés.
 -   Appuyez sur **OK**

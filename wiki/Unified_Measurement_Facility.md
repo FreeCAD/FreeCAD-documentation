@@ -10,15 +10,15 @@ There are currently several ways of measuring objects in FreeCAD: Draft Dimensio
 2.  New users find the diversity of measuring tools confusing.
 3.  Work must be repeated, for example in creating a Dimension in a drawing when the corresponding measurement already exists in the 3D model.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  A intuitive measurement facility.
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 This work will provide an introduction to the FreeCAD code base and the use of supporting software such as OpenCascade and Qt.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -33,6 +33,6 @@ This work will provide an introduction to the FreeCAD code base and the use of s
 
 Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

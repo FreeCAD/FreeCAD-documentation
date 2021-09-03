@@ -9,7 +9,7 @@ Dans FreeCAD, cependant, les feuilles de calcul ont une utilité supplémentaire
 
 Dans l\'exemple suivant, nous allons créer quelques objets, récupérer certaines de leurs propriétés dans une feuille de calcul, puis utiliser la feuille de calcul pour générer directement les propriétés d\'autres objets.
 
-### Lecture de propriétés {#lecture_de_propriétés}
+### Lecture de propriétés 
 
 -   Commencez par passer à l'atelier ([Part](Part_Workbench/fr.md)) et créez quelques objets : une boîte (<img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box/fr.md)), un cylindre (<img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [Cylindre](Part_Cylinder/fr.md)) et une sphère (<img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [Sphère](Part_Sphere/fr.md)).
 -   Modifiez leur propriété de **Placement** (ou utilisez l\'outil <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Déplacer](Draft_Move/fr.md) ) pour les séparer un peu, afin que nous puissions mieux observer les effets de ce que nous allons faire :
@@ -39,7 +39,7 @@ Dans FreeCAD, en plus de ces comportements communs, on a ajouté une possibilit�
 
 La page de l\'atelier Spreadsheet ([Spreadsheet Workbench](Spreadsheet_Workbench/fr.md)) décrit plus en détail toutes les opérations et fonctions disponibles que vous pouvez utiliser dans les feuilles de calcul.
 
-### Ecriture de propriétés {#ecriture_de_propriétés}
+### Ecriture de propriétés 
 
 Une autre utilisation très intéressante de l'atelier Feuilles de calcul dans FreeCAD est de faire le contraire de ce que nous avons fait jusqu\'ici : au lieu de lire les valeurs des propriétés des objets 3D, nous pouvons également attribuer des valeurs à ces objets. Rappelez-vous, cependant, une des règles fondamentales de FreeCAD : les dépendances circulaires sont interdites. Nous ne pouvons donc pas utiliser la même feuille de calcul pour lire **et** écrire des valeurs sur un objet 3D. Cela rendrait l\'objet dépendant de la feuille de calcul, qui dépendrait également de l\'objet. Au lieu de cela, nous allons créer une autre feuille de calcul.
 

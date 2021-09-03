@@ -19,7 +19,7 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 <img alt="" src=images/Draft_Scale_example.png  style="width:400px;"> 
 *Scaling an object around a base point*
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
@@ -37,18 +37,18 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 ## Opţiuni
 
-### First task panel {#first_task_panel}
+### First task panel 
 
 The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
 -   To manually enter the coordinates for the base point enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   The {{MenuCommand|Relative}} checkbox has no purpose for this command.
--   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   The **Relative** checkbox has no purpose for this command.
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
 -   The remaining checkboxes in this task panel are ignore by the command.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press the **Close** button to abort the command.
 
-### Second task panel {#second_task_panel}
+### Second task panel 
 
 
 <div class="mw-translate-fuzzy">
@@ -73,17 +73,17 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the number of decimals used for the input of scale factors: {{MenuCommand|Edit → Preferences... → Draft → General settings → General Draft Settings → Internal precision level}}.
--   To store and reuse the same copy mode setting across commands: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode}}.
--   To reselect the base objects after copying objects: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying}}.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of scale factors: **Edit → Preferences... → Draft → General settings → General Draft Settings → Internal precision level**.
+-   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
+-   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting
 
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

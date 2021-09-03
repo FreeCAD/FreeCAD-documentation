@@ -79,7 +79,7 @@ Provides info about coordinates, length, and angles in real-time next to the mou
 
 
 
-### Keyboard Shortcuts {#keyboard_shortcuts}
+### Keyboard Shortcuts 
 
 ****SHIFT** + **Q****: Quit the FCInfoToMouse macro. Upon quitting the macro, the annotation remains at its current mouse pointer location. Begin using the mouse normally if you want to delete the annotation manually.
 

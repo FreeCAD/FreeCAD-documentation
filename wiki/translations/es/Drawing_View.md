@@ -11,7 +11,7 @@ Esta herramienta crea una nueva vista de los objetos seleccionados en la hoja de
 
 <div class="mw-translate-fuzzy">
 
-### Cómo se utiliza {#cómo_se_utiliza}
+### Cómo se utiliza 
 
 Selecciona un objeto en la vista 3D o en el árbol del Proyecto, luego pulsa en la herramienta Vista de Dibujo. Por defecto, se ubicará una vista en planta a 1:1 (escala real) en la parte superior izquierda de la página. Puede que no sea visible si es demasiado pequeña o demasiado grande para la página.
 
@@ -22,7 +22,7 @@ Un objeto **Vista** se añade al objeto **Página** en el árbol del Proyecto. P
 
 If only the object is selected in the Project Tree, the view is added to the first page of the project. If you have multiple pages in your project please select the object and the page it should be added to. Then click on the icon to add the view to the selected page.
 
-### Modificar una vista existente {#modificar_una_vista_existente}
+### Modificar una vista existente 
 
 Despliega el objeto Página en el árbol del Proyecto, y selecciona la vista. Sus parámetros pueden editarse en la pestaña de la vista de datos.
 
@@ -37,7 +37,7 @@ Despliega el objeto Página en el árbol del Proyecto, y selecciona la vista. Su
 -   **Mostrar líneas ocultas**: Alterna la visibilidad de las líneas ocultas seleccionando *Verdadero* o *Falso*.
 -   **Mostrar líneas de suavizado**: Alterna la visibilidad de las línea de suavizado seleccionando *Verdadero* o *Falso*. Las línea de suavizado también se denominan aristas de tangencia. Dichas aristas indican cambios entre superficies tangentes.
 
-### Asistente de vista de dibujo {#asistente_de_vista_de_dibujo}
+### Asistente de vista de dibujo 
 
 Para generar una hoja de dibujo con vistas estándar de forma automática, utiliza la [Macro de dibujo automático](Macro_Automatic_drawing/es.md).
 

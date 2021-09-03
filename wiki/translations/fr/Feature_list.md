@@ -5,7 +5,7 @@ Vous trouverez ici une liste approfondie, mais cependant incomplète, des foncti
 
 {{TOCright}}
 
-## Notes de versions {#notes_de_versions}
+## Notes de versions 
 
 -   [Notes de version 0.11](Release_notes_0.11/fr.md) - Mars 2011
 -   [Notes de version 0.12](Release_notes_0.12/fr.md) - Décembre 2011
@@ -18,7 +18,7 @@ Vous trouverez ici une liste approfondie, mais cependant incomplète, des foncti
 -   [Notes de version 0.19](Release_notes_0.19/fr.md) - Mars 2021
 -   [Notes de version 0.20](Release_notes_0.20/fr.md) - A définir
 
-## Fonctions principales {#fonctions_principales}
+## Fonctions principales 
 
 -   ![](images/_Feature1.jpg ) Un **noyau géométrique** complet basé sur [Open CASCADE Technology](https://fr.wikipedia.org/wiki/Open_CASCADE_Technology) permettant des opérations 3D complexes sur des formes complexes, avec prise en charge native de concepts tels que les [B-Rep](https://fr.wikipedia.org/wiki/B-Rep), les [NURBS](https://fr.wikipedia.org/wiki/NURBS) (courbes et surfaces), un large éventail de modules géométriques, d\'opérations booléennes, des [arrondis et congés](https://fr.wikipedia.org/wiki/Arrondi_et_cong%C3%A9) ainsi que la prise en charge des formats [STEP](https://fr.wikipedia.org/wiki/Standard_pour_l%27%C3%A9change_de_donn%C3%A9es_de_produit) et [IGES](https://fr.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification)
 
@@ -34,9 +34,10 @@ Vous trouverez ici une liste approfondie, mais cependant incomplète, des foncti
 -   ![](images/Feature-raytracing.jpg ) Le module [Raytracing](Raytracing_Workbench/fr.md) peut exporter des objets 3D pour obtenir des **rendus** avec des convertisseurs externes. Actuellement seuls [Povray](http://fr.wikipedia.org/wiki/Povray) et [LuxRender](https://fr.wikipedia.org/wiki/LuxRender) sont pris en charge. A l\'avenir cela devrait être étendu à d\'autres convertisseurs.
 -   ![](images/Feature-arch.jpg ) Le module [Arch](Arch_Workbench/fr.md) permet d\'utiliser [BIM](http://fr.wikipedia.org/wiki/Building_Information_Modeling) comme processus de travail et est compatible avec le format [IFC](http://fr.wikipedia.org/wiki/Industry_Foundation_Classes).
 -   ![](images/Feature-CAM.jpg ) Le module [Path](Path_Workbench/fr.md) est dédié à l\'usinage mécanique [Fabrication assistée par ordinateur](https://fr.wikipedia.org/wiki/Fabrication_assist%C3%A9e_par_ordinateur) (FAO). Avec le module Path, vous êtes en mesure d\'afficher et de modifier le [G code](https://fr.wikipedia.org/wiki/Programmation_de_commande_num%C3%A9rique) contrôlant votre machine. 
--   ![](images/_Feature_spreadsheet.png ) Une [Feuille de calcul intégrée](Spreadsheet_Workbench/fr.md) et un [analyseur d\'expression](Expressions/fr.md) permettent de piloter des feuilles basées sur des formules ou de récupérer des données à partir de modèles. {{Clear}}
+-   ![](images/_Feature_spreadsheet.png ) Une [Feuille de calcul intégrée](Spreadsheet_Workbench/fr.md) et un [analyseur d\'expression](Expressions/fr.md) permettent de piloter des feuilles basées sur des formules ou de récupérer des données à partir de modèles. 
 
-## Fonctions générales {#fonctions_générales}
+
+## Fonctions générales 
 
 -   **FreeCAD est multiplate-forme**. Le logiciel fonctionne et se comporte exactement de la même manière sur Windows, Linux, macOS et d\'autres plateformes.
 
@@ -88,11 +89,11 @@ Vous trouverez ici une liste approfondie, mais cependant incomplète, des foncti
 
 -   **Un installeur modulaire MSI**. L\'installeur de Freecad permet une installation flexible sur les systèmes Windows. Les paquets pour les systèmes Ubuntu sont également maintenus.
 
-## En développement {#en_développement}
+## En développement 
 
 -   ![](images/Feature-assembly.jpg ) Le module [Projet Assemblage](Assembly_project/fr.md) permet de travailler avec plusieurs projets, plusieurs formes, plusieurs documents, plusieurs fichiers, et de multiples relations\... Ce module est actuellement en phase de développement. 
 
-## Ateliers supplémentaires {#ateliers_supplémentaires}
+## Ateliers supplémentaires 
 
 Des utilisateurs avancés ont créé différents [Ateliers externes](external_workbenches/fr.md).
 

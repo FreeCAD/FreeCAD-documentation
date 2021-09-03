@@ -12,7 +12,7 @@
 Acest îndrumător a fost destinat să vă arate cum să importaţi text sau obiecte geometrice create cu InkScape în FreeCAD, prin intermediul formatului SVG.
 În acest scop, s-au utilizat Inkscape 0.91 şi FreeCAD 0.16.6704 sub Windows.
 
-## Sugestii pentru importul din InkScape {#sugestii_pentru_importul_din_inkscape}
+## Sugestii pentru importul din InkScape 
 
 -   the svg-import in FreeCAD cannot handle a svg file with a resolution of more than 45 dpi, so check the settings in inkscape
 -   when importing path objects which show up in the 3D view in FreeCAD not very smooth it may be a matter of the FreeCAD-settings for the shape view.
@@ -25,7 +25,7 @@ Acest îndrumător a fost destinat să vă arate cum să importaţi text sau obi
 
 <div class="mw-translate-fuzzy">
 
-## Importul unul text din InkScape {#importul_unul_text_din_inkscape}
+## Importul unul text din InkScape 
 
 -   după inserarea unui text in InkScape (şi, poate, aplicarea unor efecte precum mlădierea sau de alt tip) asiguraţi-vă căː
     -   select your text and choose ** Path** → ** Object to path**
@@ -40,7 +40,7 @@ Acest îndrumător a fost destinat să vă arate cum să importaţi text sau obi
 
 </div>
 
-## Importul de forme geometrice din InkScape {#importul_de_forme_geometrice_din_inkscape}
+## Importul de forme geometrice din InkScape 
 
 Since inkscape and FreeCAD seem to have different approaches on how to apply dimensions on svg-object, the recommended workflow seems to be:
 

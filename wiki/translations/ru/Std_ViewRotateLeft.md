@@ -15,8 +15,8 @@ The **Std ViewRotateLeft** command rotates the camera in the active [3D view](3D
 ## Применение
 
 1.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|View → Standard views → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotate Left}} option from the menu.
-    -   Select the {{MenuCommand|Standard views → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotate Left}} option from the [3D view](3D_view.md) context menu.
+    -   Select the **View → Standard views → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotate Left** option from the menu.
+    -   Select the **Standard views → <img src="images/Std_ViewRotateLeft.svg" width=16px> Rotate Left** option from the [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **Shift**+**Left**.
 
 ## Scripting

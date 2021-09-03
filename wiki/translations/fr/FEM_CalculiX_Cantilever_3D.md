@@ -21,25 +21,25 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 -   Une version compatible de FreeCAD désignée dans l\'aperçu du tutoriel.
 
-    :   Utilisez la {{MenuCommand|Aide → À propos de FreeCAD}} pour voir la version de FreeCAD installée
+    :   Utilisez la **Aide → À propos de FreeCAD** pour voir la version de FreeCAD installée
 -   Aucun logiciel externe n\'est nécessaire pour charger le fichier d\'exemple, afficher le maillage et la géométrie ainsi que pour visualiser les résultats.
 -   Pour relancer le FEA, le logiciel Solver CalculiX doit être installé sur votre ordinateur. Probablement le solveur a déjà été installé avec FreeCAD. Si le solveur CalculiX n\'est pas installé, voir [FEM Installation des composants requis](FEM_Install/fr.md).
 
-## Configurer le fichier d\'exemple {#configurer_le_fichier_dexemple}
+## Configurer le fichier d\'exemple 
 
-### Charger l\'atelier Démarrage {#charger_latelier_démarrage}
+### Charger l\'atelier Démarrage 
 
 -   Démarrez FreeCAD
 -   L\'Atelier Démarrage doit être chargé
 
-### Charger le fichier exemple {#charger_le_fichier_exemple}
+### Charger le fichier exemple 
 
 -   Accédez aux exemples de projets et cliquez sur \"Load an FEM analysis example\"
 -   Si en raison d\'opérations ultérieures, certaines géométries, contraintes ou résultats sont interrompus ou supprimés, répétez simplement les étapes ci-dessus.
 
 <img alt="" src=images/FEM_example01_pic01.jpg  style="width:700px;">
 
-### Activer le conteneur d\'analyse {#activer_le_conteneur_danalyse}
+### Activer le conteneur d\'analyse 
 
 -   Pour travailler avec une analyse, celle-ci doit être activée.
 -   Dans la [Vue en arborescence](Tree_view/fr.md) cliquez droit sur <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> 
@@ -48,7 +48,7 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 <img alt="" src=images/FEM_example01_pic02.jpg  style="width:700px;">
 
-### Conteneur d\'analyse et ses objets {#conteneur_danalyse_et_ses_objets}
+### Conteneur d\'analyse et ses objets 
 
 -   Si l\'analyse est activée, FreeCAD lui-même changera l\'espace de travail actuel en FEM.
 -   Il existe au moins les 5 objets nécessaires pour effectuer une analyse mécanique statique.
@@ -62,7 +62,7 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 -   Comme les résultats sont également inclus dans l\'exemple, il existe un sixième objet, les résultats <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;">, développé dans le paragraphe suivant.
 
-### Visualisation des résultats {#visualisation_des_résultats}
+### Visualisation des résultats 
 
 1.  Assurez-vous que l\'analyse est activée.
 2.  Assurez-vous que l\'analyse contient toujours l\'objet résultant, sinon reculez le fichier d\'exemple.
@@ -75,12 +75,12 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 <img alt="" src=images/FEM_example01_pic03.jpg  style="width:400px;">
 
-### Purger les résultats {#purger_les_résultats}
+### Purger les résultats 
 
 1.  Assurez-vous que l\'analyse est activée.
 2.  Pour supprimer les résultats : sélectionnez dans la barre d\'outils l\'icône <img alt="" src=images/FEM_ResultsPurge.svg  style="width:24px;">. [Purger les résultats](FEM_ResultsPurge/fr.md).
 
-### Exécuter la FEA {#exécuter_la_fea}
+### Exécuter la FEA 
 
 -   Dans la [Vue en arborescence](Tree_view/fr.md), double-cliquez sur l\'objet solveur <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
 -   Dans le [Panneau des tâches](Task_panel/fr.md) de l\'objet solveur, assurez-vous que l\'analyse statique est sélectionnée.
@@ -94,13 +94,13 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 <img alt="" src=images/FEM_example01_pic04.jpg  style="width:400px;">
 
-### Exécuter la FEA rapidement {#exécuter_la_fea_rapidement}
+### Exécuter la FEA rapidement 
 
 -   Dans l\'arborescence, sélectionnez l\'objet solveur <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> de l\'analyse <img alt="" src=images/FEM_Analysis.svg  style="width:24px;">.
 -   Dans la barre d\'outils de l\'icône, cliquez sur <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Lancer les calculs\...](FEM_SolverRun/fr.md).
 -   Le fichier de saisie Calculix sera écrit, CalculiX sera déclenché et l\'objet résultant devrait être créé.
 
-### Modification de la direction de la charge et de sa valeur {#modification_de_la_direction_de_la_charge_et_de_sa_valeur}
+### Modification de la direction de la charge et de sa valeur 
 
 -   Dans la [vue en arborescence](Tree_view/fr.md), sélectionnez l\'objet FEM mesh <img alt="" src=images/FEM_FEMMesh.svg  style="width:24px;"> et appuyez sur la touche **Espace**.
     -   **Résultat:** la visibilité du maillage FEM sera désactivée. Le modèle géométrique est encore visible.
@@ -121,7 +121,7 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 <img alt="" src=images/FEM_example01_pic06.jpg  style="width:400px;">
 
-## Et ensuite? {#et_ensuite}
+## Et ensuite? 
 
 -   Nous avons maintenant terminé le de travail de base pour l\'[Atelier FEM](FEM_Workbench/fr.md).
 -   Vous êtes maintenant prêt à faire le deuxième [FEM Tutoriel](FEM_tutorial/fr.md).

@@ -144,7 +144,7 @@ Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkow
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Dodaj informacje spawalnicze](TechDraw_WeldSymbol/pl.md): Narzędzie dodaje specyfikacje dotyczące spawania do istniejącej linii odniesienia. {{Version/pl|0.19}}
 
-## Dodatkowe właściwości {#dodatkowe_właściwości}
+## Dodatkowe właściwości 
 
 -   [Grupy linii](TechDraw_LineGroup/pl.md): domyślne wagi można przypisać do różnych typów linii.
 -   [Szablony](TechDraw_Templates/pl.md): domyślne szablony zdefiniowane dla stron rysunku.
@@ -155,7 +155,7 @@ Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkow
 
 -   <img alt="" src=images/Preferences-techdraw.svg  style="width:32px;"> [Ustawienia](TechDraw_Preferences/pl.md): ustawienia domyślnych wartości strony rysunku, takich jak kąt projekcji, kolory, rozmiary tekstu i style linii.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Narzędzi środowiska Rysunek Techniczny można używać w [makrodefinicjach](Macros/pl.md) oraz w konsoli [Python](Python/pl.md) przy użyciu dwóch interfejsów API.
 

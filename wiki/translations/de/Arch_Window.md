@@ -26,7 +26,7 @@ Jede auf ein [Arch Fenster](Arch_Window/de.md) zutreffende Information gilt auch
 
 ## Anwendung
 
-### Eine Voreinstellung verwenden {#eine_voreinstellung_verwenden}
+### Eine Voreinstellung verwenden 
 
 1.  Drücke die **<img src="images/Arch_Window.svg" width=16px> [Arch Fenster](Arch_Window/de.md)** Schaltfläche, oder drücke **W** dann **I** Tasten.
 2.  Wähle eine der Voreinstellungen in der Liste aus.
@@ -51,7 +51,7 @@ Das `$ROOT_DIR` ist das Benutzerverzeichnis, wo die FreeCAD-Konfiguration, Makro
 -   Unter Windows ist es normalerweise `C:\users\Benutzername\Anwendungsdaten\FreeCAD\`
 -   Unter Mac OSX ist es normalerweise `/Benutzer/Benutzername/Bibliothek/Einstellungen/FreeCAD/`
 
-### Erzeugung von Anfang an {#erzeugung_von_anfang_an}
+### Erzeugung von Anfang an 
 
 1.  Wählen Sie (optional) eine Fläche des Arch-Objekts, wo Sie das Fenster einfügen möchten.
 2.  Wechseln Sie zum [Sketcher-Arbeitsbereich](Sketcher_Workbench/de.md).
@@ -109,7 +109,7 @@ Türen und Fenster können im 3D-Modell teilweise oder vollständig geöffnet er
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
 *Eine Tür, die den Symbolplan, die Symbolhöhe und die Öffnungseigenschaften bei der Arbeit zeigt*
 
-## Festlegen von Fenstertypen {#festlegen_von_fenstertypen}
+## Festlegen von Fenstertypen 
 
 Fenster kann auch andere Werkzeuge nutzen, insbesondere [PartDesign](PartDesign_Workbench/de.md) Arbeitsabläufe, um einen Typ zu definieren. Ein Typ ist ein Objekt, das die Form des Fensters definiert. Dies eignet sich besonders gut für die Arbeit mit [Anwendung Part](App_Part/de.md):
 
@@ -117,7 +117,7 @@ Fenster kann auch andere Werkzeuge nutzen, insbesondere [PartDesign](PartDesign_
 
 [Lade die oben gezeigte Beispieldatei herunter](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
 
-### Beispiel Arbeitsablauf {#beispiel_arbeitsablauf}
+### Beispiel Arbeitsablauf 
 
 -   Erstelle ein Fenster-Rahmen-Objekt, eine Glasscheibe oder jede andere Fenster-Komponente, die du brauchst, mit den Werkzeugen des [Part](Part/de.md)- oder [PartDesign](PartDesign_Workbench/de.md)-Arbeitsbereichs
 -   Erstelle bspw. eine rechteckige Basisskizze für dein Fenster, dann eine Profilskizze für den Rahmen und eine [Austragung](Part_Sweep/de.md), um das Profil um die Basisskizze herumzuführen. Erstelle einen [Versatz2D](Part_Offset2D/de.md) von der Basisskizze, [extrudiere](Part_Extrude/de.md) dann zur Erstellung der Glasscheibe

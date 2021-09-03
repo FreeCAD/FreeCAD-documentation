@@ -6,11 +6,11 @@ The tutorials listed here are those that deal with design of physical products f
 
 Visit [tutorials](tutorials.md) for high quality written tutorials. A complete, unsorted list of tutorials can be found in [:Category:Tutorials](:Category:Tutorials.md).
 
-## Проектирование продукта {#проектирование_продукта}
+## Проектирование продукта 
 
 Videos that go through modeling of various solid objects using workbenches such as <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md), and <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md).
 
-### На английском {#на_английском}
+### На английском 
 
 -   [Fusion360 to FreeCAD - Introduction](https://www.youtube.com/watch?v=_GxJkB23ZHM): a quick introduction by Brodie Fairhall for those coming from Fusion360.
 
@@ -45,7 +45,7 @@ Videos that go through modeling of various solid objects using workbenches such 
 
 -   [FreeCAD Beginners Tutorials](https://www.youtube.com/watch?v=VEk4RuNIlRY&list=PL1Fv0Kg44dc0WbIB_OoFnEqzanDI7nRQi): FreeCAD 0.17, a series of 5 videos by Eklavya Self Learning Tutorials, in English, that teach the basics of FreeCAD, such as installing, the interface, and presents basic workbenches like Draft, Arch, Part, and the Sketcher.
 
-### На немецком {#на_немецком}
+### На немецком 
 
 Although this list focuses on German content, many of these channels also have videos in English.
 
@@ -65,7 +65,7 @@ Although this list focuses on German content, many of these channels also have v
     -   [FreeCAD Deutsch 2019](https://www.youtube.com/watch?v=JOtCL11UAUI&list=PLugsaCAoG3EmYbYuLSU8cz80gBXDeJ6QL): a series of 53 videos in German dealing with building shapes and preparing them for CNC manufacturing. Some topics include: preparing a job, simulating, postprocessing, milling the profiles, pocketing, drilling, engraving, and editing the tools.
     -   [FreeCAD English](https://www.youtube.com/watch?v=CPjvnY8hOwY&list=PLugsaCAoG3EnW3SwdM6a-aml_WT1eS6s6): a series of 4 videos in English with some tips of working with FreeCAD.
 
-### На испанском {#на_испанском}
+### На испанском 
 
 -   [Mecatrónica LATAM playlists](https://www.youtube.com/channel/UCZOXUOIsWt3YAigw6viuvJQ/playlists): various videos on using 3D modellers, including FreeCAD, in Spanish.
     -   [FreeCAD Tutorial](https://www.youtube.com/watch?v=r5LBKEA0mks&list=PLsfgGA_lzHGdHSecmkDHI7i8gJFWKwiU4): FreeCAD 0.18, a series of 7 videos showing how to model various objects: basic tubular structures, pipe connections, an open ended spanner, a bolt and a nut.

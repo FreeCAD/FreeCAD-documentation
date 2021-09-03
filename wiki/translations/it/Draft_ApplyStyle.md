@@ -22,19 +22,19 @@ Questo strumento applica con una sola operazione il colore, lo spessore e il tip
 
 This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
 
--    {{MenuCommand|Line color}}
+-    **Line color**
     
 
--    {{MenuCommand|Line width}}
+-    **Line width**
     
 
--    {{MenuCommand|Shape color}}
+-    **Shape color**
     
 
--    {{MenuCommand|Text size}}
+-    **Text size**
     
 
--    {{MenuCommand|Text color}}
+-    **Text color**
     
 
 ## Utilizzo
@@ -44,7 +44,7 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 1.  Impostare la linea desiderata e i colori del viso e la larghezza della linea nel pannello della [barra di Draft](Draft_Tray/it.md).
 2.  Selezionare uno o più oggetti.
-3.  Premere il pulsante **<img src="images/Draft_Apply.svg" width=16px> [Applica stile](Draft_Apply/it.md)**, o fare clic destro e selezionare {{MenuCommand|Utilità → <img src="images/Draft_Apply.svg" width=16px> [Applica lo stile](Draft_Apply/it.md)}}.
+3.  Premere il pulsante **<img src="images/Draft_Apply.svg" width=16px> [Applica stile](Draft_Apply/it.md)**, o fare clic destro e selezionare **Utilità → <img src="images/Draft_Apply.svg" width=16px> [Applica lo stile](Draft_Apply/it.md)**.
 
 
 </div>

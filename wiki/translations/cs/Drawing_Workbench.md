@@ -14,7 +14,7 @@ Modul Výkres umožňuje dostat Vaši 3D práci na papír. To znamená dát pohl
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
-## GUI Nástroje {#gui_nástroje}
+## GUI Nástroje 
 
 These are tools for creating, configuring and exporting 2D drawing sheets
 
@@ -60,7 +60,7 @@ Tento skript může snadno vyplnit [Macro\_CartoucheFC](Macro_CartoucheFC.md) st
 
 FreeCAD dostáváte zabalený se sadou základních šablon, ale další ještě můžete najít na stránce [Šablony výkresů](Drawing_templates/cs.md).
 
-## Rozšíření modulu Výkres {#rozšíření_modulu_výkres}
+## Rozšíření modulu Výkres 
 
 Některé poznámky k programovací stránce vykreslovacího modulu budou přidány na stránku [Dokumentace výkresu](Drawing_Documentation/cs.md). Je to příspěvek k rychlejšímu porozumění jak funguje modul výkresu, aby programátorům umožnily rychle začít s jejich programováním.
 
@@ -68,7 +68,7 @@ Některé poznámky k programovací stránce vykreslovacího modulu budou přid�
 
 -   [Drawing tutorial](Drawing_tutorial.md)
 
-## External links {#external_links}
+## External links 
 
 -   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 

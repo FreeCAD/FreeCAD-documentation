@@ -17,7 +17,7 @@ Acest tutorial introduce noul utilizator la unele dintre instrumentele și tehni
 
 </div>
 
-## Înainte de a începe {#înainte_de_a_începe}
+## Înainte de a începe 
 
 Descărcați din Part Design tutorial:[sample file](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
 
@@ -25,11 +25,11 @@ Descărcați din Part Design tutorial:[sample file](https://github.com/FreeCAD/E
 
 În acest tutorial, veți folosi TechDraw Workbench pentru a crea un desen 2D al piesei 3D de mai jos. Vom crea mai multe vederi ale piesei și vom adăuga cotele/dimensiunile cheie. Acest tutorial nu va folosi toate funcțiile și instrumentele disponibile în cadrul TechDraw Workbench, dar ar trebui să utilizeze suficient pentru a oferi utilizatorului acestui tutorial o bază fundamentală pe care să-și construiască cunoștințele și abilitățile.
 
-## The Part {#the_part}
+## The Part 
 
 ![](images/Tut17_final_refined.png )
 
-## Creating a Drawing {#creating_a_drawing}
+## Creating a Drawing 
 
 ### Startup
 
@@ -37,7 +37,7 @@ Descărcați din Part Design tutorial:[sample file](https://github.com/FreeCAD/E
 -   First open the file containing our 3D part. Then make sure you are in the TechDraw Workbench.
 -   You will be selecting items in the Drawing window and/or the Combo panel. Selection in TechDraw works the same as in the 3D window. Items turn yellow when the cursor is in position to select them and turn green when selected. To select multiple items use the **Ctrl** key while clicking.
 
-### Views and Dimensions {#views_and_dimensions}
+### Views and Dimensions 
 
 All work in TechDraw begins with a Page. Pages are based on Templates and contain Views.
 
@@ -63,7 +63,7 @@ Better, but a little boring. Let\'s add some Dimensions.
 
 ![](images/TDTut_TopView2Dims.png )
 
-### Editable Text {#editable_text}
+### Editable Text 
 
 We should add some documentation to our drawing.
 
@@ -87,7 +87,7 @@ Before we leave this Page, let\'s see what it will look like when we print it.
 
 ![](images/TDTut_Toggle.png )
 
-### Multiple Views of a Single Part {#multiple_views_of_a_single_part}
+### Multiple Views of a Single Part 
 
 Let\'s create a multiview drawing using a different Template as a starting point. We\'ll be using the First Angle convention, but you can change to Third Angle if that is your local convention.
 
@@ -103,7 +103,7 @@ Let\'s create a multiview drawing using a different Template as a starting point
 1.  In the View labelled \"TopLeftFront\", select the two Vertices at the extreme ends of the front edge of the work piece.
 2.  Click on <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [TechDraw Dimension Length](TechDraw_Dimension_Length.md). Drag the dimension text away from the Body.
 
-### Linking Dimensions to 3D Model {#linking_dimensions_to_3d_model}
+### Linking Dimensions to 3D Model 
 
 Do you notice a problem with the dimension we just created?
 
@@ -117,7 +117,7 @@ From the first part of this tutorial, we know that the work piece is 53 mm wide,
 4.  In the dialog, move our dimension from the Available column to the Selected column. Press **OK**.
 5.  Return to Page001. Our dimension should now read the correct value of 53. (if you still see 43.27, you may need to press the **Recompute** button or drag the dimension value a bit until it changes.)
 
-## Going Further {#going_further}
+## Going Further 
 
 In this tutorial you have learned enough about TechDraw to produce a drawing like this one (by [NormandC](User:Normandc.md)). See Note 2.
 
@@ -130,7 +130,7 @@ There is much more functionality in TechDraw for you to explore - Section Views,
 1.  Există un set excelent de preferințe sugerate în acest sens [Forum post](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189).
 2.  This drawing was produced in v0.18. It shows dimensions in the proper format for an isometric view. In v0.17 the extension lines will be perpendicular to the edge rather than aligned with the axes.
 
-### Resurse suplimentare {#resurse_suplimentare}
+### Resurse suplimentare 
 
 
 <div class="mw-translate-fuzzy">

@@ -14,7 +14,7 @@ La GuiCommand est appelée selon un certain standard : *ModuleName\_CommandName*
 
 Si le document n\'est pas fini, utilisez le bandeau [Template:UnfinishedDocu](Template:UnfinishedDocu/fr.md)
 
-## Pages d\'aide {#pages_daide}
+## Pages d\'aide 
 
 Chaque GuiCommand doit avoir une page d\'aide. La page d\'aide est hébergée sur le wiki de documentation FreeCAD. L\'article porte le même nom que la GuiCommand, par exemple [Draft ShapeString](Draft_ShapeString/fr.md).
 
@@ -33,13 +33,13 @@ Chaque GuiCommand doit avoir une icône. Nous utilisons le [jeu d\'icônes Tango
 
 Il est conseillé de faire toutes les icônes en format [SVG](SVG/fr.md), par exemple avec [Inkscape](http://inkscape.org/?lang=fr&css=css/base.css). Cela rend plus facile l'application des changements et des icônes dérivés dans l\'espace de la même application.
 
-### Code des couleurs des icônes {#code_des_couleurs_des_icônes}
+### Code des couleurs des icônes 
 
 <img alt="" src=images/Colorchart.png  style="width:200px;">
 
 Nous essayons autant que possible de respecter ce tableau, de sorte que la couleur des icônes soit dans la même ligne.
 
-## Exigences de qualité {#exigences_de_qualité}
+## Exigences de qualité 
 
 
 {{VeryImportantMessage|L'[atelier Complete](Complete_Workbench/fr.md) est obsolète, il ne contient plus chacune des commandes de FreeCAD.}}

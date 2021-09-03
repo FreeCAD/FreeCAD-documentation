@@ -35,7 +35,7 @@ Examples of use would be to build a box with fitting cover in two different bodi
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl Kullanılır {#nasıl_kullanılır}
+## Nasıl Kullanılır 
 
 
 </div>

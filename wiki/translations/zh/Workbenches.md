@@ -103,7 +103,7 @@ Freecad安装后具有以下工作台：
 
 FreeCAD工作台易于通过[Python进行编程开发](Python.md)，因此FreeCAD主要开发领域之外的很多人自己开发额外的工作台。
 
-[外部工作台页面列出了该社区已知的所有内容](external_workbenches.md)。 大多数功能都可以使用菜单 {{MenuCommand|工具 → <img src="images/AddonManager.svg" width=24px> 插件管理器}}下的[插件管理器从FreeCAD轻松安装](Addon_Manager.md)。
+[外部工作台页面列出了该社区已知的所有内容](external_workbenches.md)。 大多数功能都可以使用菜单 **工具 → <img src="images/AddonManager.svg" width=24px> 插件管理器**下的[插件管理器从FreeCAD轻松安装](Addon_Manager.md)。
 
 新的工作台持续在开发中，敬请关注。
 

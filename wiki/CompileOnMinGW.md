@@ -1,6 +1,6 @@
    
 
-## How to build and run FreeCAD under MSYS/MinGW {#how_to_build_and_run_freecad_under_msysmingw}
+## How to build and run FreeCAD under MSYS/MinGW 
 
 ### Prerequisites
 
@@ -24,7 +24,7 @@ Download the CMake utility from <http://www.cmake.org/cmake/resources/software.h
 
 Download the SWIG utility from www.swig.org and extract it somewhere on your harddisk.
 
-### Third party libraries {#third_party_libraries}
+### Third party libraries 
 
 Here is a description which libraries we need for FreeCAD and how to build them from the sources. In order not to pollute our MinGW installation with too many files from the 3rd party libraries we have to build you can e.g. create a sub-directory \"local\" in your MSYS installation. If you have installed MSYS under C:\\MSYS then simply create the directory C:\\MSYS\\1.0\\local.
 
@@ -52,7 +52,7 @@ For this library we don\'t need any header files but only the import library to 
 
  The file libf2c.dll.a can now be moved to C:\\MSYS\\1.0\\local\\lib.
 
-#### xerces-c {#xerces_c}
+#### xerces-c 
 
 Download a source archive from <http://xml.apache.org/dist/xerces-c/> and extract it. Open a MSYS command line window and change to the xerces-c sources. From there run 
 
@@ -176,15 +176,15 @@ Unpack the sources and download a CMake script from <http://opencascade-cmake.go
 
 Now click the Configure button which takes a while and afterwards the Generate button.
 
-#### Note 1 {#note_1}
+#### Note 1 
 
 The original sources don\'t completely compile with MinGW. Therefore you have to apply the patch OpenCASCADE6.3.0-MinGW.patch from <http://code.google.com/p/opencascade-cmake/source/browse/trunk>
 
-#### Note 2 {#note_2}
+#### Note 2 
 
 The original sources includes also a configure script and the Makefile.am files. But it appeared to be very hard to build the libraries this way. Thus, it highly recommended to do it the CMake way.
 
-#### Note 3 {#note_3}
+#### Note 3 
 
 For a couple of libraries the arguments passed to the linker exceeds the number of allowed characters and thus the linker stops with an error: \"Bad file number\". To solve this issue you can open the file build.make of the according library and split the block (e.g. TKGeomAlgo\_OBJECTS) into several smaller ones and modify the build rule this way that you create first a static library, add the other object files to the group and then unpack the static archive into one directory. This trick solves the problem to reduce the whole number of characters. Afterwards the shared library can be built out of these object files.
 
@@ -233,7 +233,7 @@ Run the configure script with these arguments
 
 
 
-### Building the FreeCAD sources {#building_the_freecad_sources}
+### Building the FreeCAD sources 
 
 In order build the FreeCAD sources either get the developer sources from the SVN repository or get one of the .tar.gz tarballs and extract it. Now start cmake-gui.exe from within a MSYS command line window and browse to the FreeCAD sources and also define the build directory. Now run Configure. It may happen that cmake complains about some not found libraries. In this case go through the listed libraries and choose the include directory and/or the path to the library where needed. Once Confgiure accepts all your input create the Makefiles by clicking on Generate. Now close the window and enter 
 

@@ -12,7 +12,7 @@ Die [Comboansicht](combo_view/de.md) ist eines der Hauptpaneele in der FreeCAD [
 
 Ursprünglich war der obere Teil ([Baumansicht](tree_view/de.md)) vom unteren Teil ([Eigenschaftseditor](property_editor/de.md)) getrennt, aber dann wurden sie kombiniert und so wurde die \"Combo\" ansicht erstellt.
 
-## Oberer Bereich {#oberer_bereich}
+## Oberer Bereich 
 
 Die Registerkarte {{MenuCommand/de|Modell}} zeigt die Registerkarte [Baumansicht](tree_view/de.md), die eine Darstellung des Inhalts des Dokuments ist, einschließlich 2D- und 3D-Geometrie mit ihrer parametrischen Historie, aber auch unterstützende Objekte, die im Dokument gespeicherte Daten enthalten.
 
@@ -23,7 +23,7 @@ Die Registerkarte {{MenuCommand/de|Aufgaben}} zeigt die Registerkarte [Aufgabenl
 
 *Die Kombiansicht hat zwei Registerkarten: die Registerkarte Modell, die die Anzeige der [Baumansicht](tree_view/de.md) und der [Eigenschaftseditor](property_editor/de.md), und die Registerkarte Aufgaben, die die Anzeige der [Aufgabenpanel](task_panel/de.md).*
 
-## Unterer Bereich {#unterer_bereich}
+## Unterer Bereich 
 
 Der untere Teil der Comboansicht zeigt den [Eigenschaftseditor](property_editor/de.md), der zwei Reiter anzeigt für {{MenuCommand/de|Ansicht}} und {{MenuCommand/de|Daten}} Eigenschaften. Der Eigenschaftseditor wird nur angezeigt, wenn der {{MenuCommand/de|Modell}} Reiter aktiv ist, d. h. wenn die [Baumansicht](tree_view/de.md) sichtbar ist.
 
@@ -36,7 +36,7 @@ Der untere Teil der Comboansicht zeigt den [Eigenschaftseditor](property_editor/
 
 *Der untere Teil der Comboansicht ist der Eigenschaftseditor, der die Eigenschaften von Ansicht und Daten anzeigt.*
 
-## Deaktivieren der Comboansicht {#deaktivieren_der_comboansicht}
+## Deaktivieren der Comboansicht 
 
 Um diese Ansichten selbst zu verwenden, verwende die Option [Parametereditor](Std_DlgParameter/de.md). Legen Sie die folgenden Untergruppen an, wenn sie nicht vorhanden sind
 

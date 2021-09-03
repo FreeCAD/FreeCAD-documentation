@@ -9,7 +9,7 @@
 
 FreeCAD uses as internal representation for the generated paths, so called G-codes. They can describe such things as: speed and feed rates, stopping the motor etc\... But the most important thing is the movements they describe. These movements are rather simple: They can be straight lines or they can be circular arcs. More sophisticated curves such as B-splines are already approximated by FreeCAD\'s <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path Workbench](Path_Workbench.md).
 
-## What the postprocessor can do for you {#what_the_postprocessor_can_do_for_you}
+## What the postprocessor can do for you 
 
 Many mills use G-codes as well to control the milling process. They may look almost like the internal codes, but there may be some differences:
 
@@ -28,7 +28,7 @@ Furthermore there are other languages to control a mill, such as HPGL, DXF, or o
 
 The postprocessor is a program which translates the internal codes into a complete file, that can be uploaded to your machine.
 
-## Preparation for writing your own postprocessor {#preparation_for_writing_your_own_postprocessor}
+## Preparation for writing your own postprocessor 
 
 You may start with a very simple model showing how your machine reads straight lines and arcs. Prepare it with any program suitable for your machine.
 
@@ -42,19 +42,19 @@ The path in FreeCAD would look like this. Please note the small blue arrow, it i
 
 You can then have a look at the file and compare it to the output of existing postprocessors such as {{FileName|linux_cnc_post.py}} or {{FileName|grbl_post.py}} and try yourself to adapt them or you upload your to the Path forum <https://forum.freecadweb.org/viewforum.php?f=15> to get some help.
 
-## Naming convention {#naming_convention}
+## Naming convention 
 
 For a file format {{FileName|<filename>}} the postprocessor should get the name {{FileName|<filename>_post.py}}. Please note that the postfix and extension, {{FileName|_post.py}}, have to be lower case.
 
 If you are testing, place it in your macro directory. If it functions well, please consider providing it for others to benefit (post it to the FreeCAD Path forum) so that it can be included in the FreeCAD distribution going forward.
 
-## Other existing postprocessors {#other_existing_postprocessors}
+## Other existing postprocessors 
 
 For comparison you may look at the postprocessors which come with your FreeCAD installation. They are located under the Mod directory in Path/PathScripts/post. Widely used are the [linuxcnc](http://linuxcnc.org/) and the [grbl](https://github.com/grbl/grbl) postprocessors. Studying their code can give helpful insights.
 
 -   On Linux the path is /usr/share/freecad/Mod/Path/PathScripts/post
 
-## Programming your own postprocessor {#programming_your_own_postprocessor}
+## Programming your own postprocessor 
 
 This post discusses some internals from the linuxcnc postprocessors. The same strucure is used in other postprocessors as well.
 

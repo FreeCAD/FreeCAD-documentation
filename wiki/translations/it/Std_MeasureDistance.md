@@ -18,7 +18,7 @@ Il comando **Misura la distanza** crea un oggetto distanza che misura e visualiz
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_MeasureDistance.svg" width=16px> [Misura la distanza](Std_MeasureDistance/it.md)**.
-    -   Selezionare l\'opzione {{MenuCommand|Strumenti → <img src="images/Std_MeasureDistance.svg" width=16px> Misura la distanza}} nel menu.
+    -   Selezionare l\'opzione **Strumenti → <img src="images/Std_MeasureDistance.svg" width=16px> Misura la distanza** nel menu.
 2.  Selezionare il primo punto della dimensione in qualsiasi punto di un oggetto nella [vista 3D](3D_view/it.md).
 3.  Selezionare il secondo punto della dimensione in qualsiasi punto di un oggetto nella vista 3D.
 4.  L\'ordine di selezione dei punti può avere un impatto sulla posizione della linea di quota.

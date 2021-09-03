@@ -13,7 +13,7 @@
 
 ## 용법
 
-1.  메뉴에서 {{MenuCommand|편집 → <img src="images/Std_DlgPreferences.svg" width=16px> 환경 설정...}} 옵션을 선택합니다.
+1.  메뉴에서 **편집 → <img src="images/Std_DlgPreferences.svg" width=16px> 환경 설정...** 옵션을 선택합니다.
 
 ## 비고
 

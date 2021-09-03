@@ -12,7 +12,7 @@ Constraint self weight defines gravity acceleration 9,81 m/s\^2 acting on the wh
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [FEM ConstraintSelfWeight](FEM_ConstraintSelfWeight.md)** button.
-    -   Select the {{MenuCommand|Model → Mechanical Constraints → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Constraint self weight}} option from the menu.
+    -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Constraint self weight** option from the menu.
 2.  You can modify the direction of gravitation by changing its vector coordinates in the property bar of newly created ConstraintSelfWeight object.
 
 ## Scripting
@@ -36,14 +36,14 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 ```
 
-## Solver CalculiX {#solver_calculix}
+## Solver CalculiX 
 
 ### Limitations
 
 -   You need to modify .inp file to edit gravity acceleration.
 -   Self weight is applied to the element set Eall means to the whole model.
 
-### Editing CalculiX input file {#editing_calculix_input_file}
+### Editing CalculiX input file 
 
 Acceleration constant can be edited by hand modification after generating CalculiX input file.
 
@@ -53,7 +53,7 @@ Example of lines in .inp file:
 Eall,GRAV,9810,0.0,0.0,-1.0
 ``` where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direction vector.
 
-## Solver Z88 {#solver_z88}
+## Solver Z88 
 
 -   not implemented in Z88 solver (March 2017)
 

@@ -19,7 +19,7 @@ ElementGeometry2D используется для определения тол�
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [FEM ElementGeometry2D](FEM_ElementGeometry2D.md)** button.
-    -   Select the {{MenuCommand|Model → Element Geometry → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Shell plate thickness}} option from the menu.
+    -   Select the **Model → Element Geometry → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Shell plate thickness** option from the menu.
 2.  Define a thickness parameter.
 3.  Optionally press the **Add** button in the task panel and then click on the face you want to have a prescribed thickness. If the face selection is free, all remaining faces (whose thickness is not defined by other [FEM ElementGeometry2D](FEM_ElementGeometry2D.md) objects) will be automatically assigned.
 

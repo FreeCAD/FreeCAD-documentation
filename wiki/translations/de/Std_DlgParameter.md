@@ -39,7 +39,7 @@ Wähle **Werkzeuge** → **Parameter bearbeiten...** aus der Menüleiste.
 
 ## Options
 
-### Left panel {#left_panel}
+### Left panel 
 
 The left panel shows a tree with parameter groups and sub-groups.
 
@@ -49,99 +49,99 @@ The left panel shows a tree with parameter groups and sub-groups.
 
 1.  If a selected group has one or more sub-groups it can be expanded or collapsed by choosing this option from the context menu. But you can also expand and collapse the tree in the usual manner.
 
-#### Add sub-group {#add_sub_group}
+#### Add sub-group 
 
 1.  Select a group.
-2.  Select the {{MenuCommand|Add sub-group}} option from the context menu.
+2.  Select the **Add sub-group** option from the context menu.
 3.  Enter a name for the new sub-group in the dialog box that opens.
 4.  Press the **OK** button.
 
-#### Remove group {#remove_group}
+#### Remove group 
 
 1.  Select a group.
-2.  Select the {{MenuCommand|Remove group}} option from the context menu.
+2.  Select the **Remove group** option from the context menu.
 3.  Press the **Yes** button in the dialog box that opens to confirm you want to remove the group (including all its sub-groups, and all parameters in the group and its sub-groups).
 
-#### Rename group {#rename_group}
+#### Rename group 
 
 1.  Select a group.
-2.  Select the {{MenuCommand|Rename group}} option from the context menu.
+2.  Select the **Rename group** option from the context menu.
 3.  Enter a new name.
 4.  A group can also be renamed by double-clicking it.
 
-#### Export parameter {#export_parameter}
+#### Export parameter 
 
 1.  Select a group.
-2.  Select the {{MenuCommand|Export parameter}} option from the context menu.
+2.  Select the **Export parameter** option from the context menu.
 3.  Enter a filename in the dialog box.
 4.  Press the **Save** button.
 
-#### Import parameter {#import_parameter}
+#### Import parameter 
 
 1.  Select a group that does not contain any sub-groups or remove them first. Any existing parameters in the group will be lost.
-2.  Select the {{MenuCommand|Import parameter}} option from the context menu.
+2.  Select the **Import parameter** option from the context menu.
 3.  Select a \*.FCParam file in the dialog box.
 4.  Press the **Open** button.
 
-### Right panel {#right_panel}
+### Right panel 
 
 The right panel shows the parameters in the group selected in the left panel. If this group only contains sub-groups the right panel will be empty.
 
 *The following options are available in the panel\'s context menu:*
 
-#### Change value {#change_value}
+#### Change value 
 
 1.  Select a parameter.
-2.  Select the {{MenuCommand|Change value}} option from the context menu.
+2.  Select the **Change value** option from the context menu.
 3.  Enter a new value in the dialog box that opens.
 4.  Press the **OK** button.
 5.  A parameter\'s value can also be changed by double-clicking its \'Type\' or \'Value\' field.
 
-#### Remove key {#remove_key}
+#### Remove key 
 
 1.  Select a parameter.
-2.  Select the {{MenuCommand|Remove key}} option from the context menu.
+2.  Select the **Remove key** option from the context menu.
 
-#### Rename key {#rename_key}
+#### Rename key 
 
 1.  Select a parameter.
-2.  Select the {{MenuCommand|Rename key}} option from the context menu.
+2.  Select the **Rename key** option from the context menu.
 3.  Enter a new name.
 4.  A parameter can also be renamed by double-clicking its \'Name\' field.
 
-#### New string item {#new_string_item}
+#### New string item 
 
-1.  Select the {{MenuCommand|New string item}} or {{MenuCommand|New → New string item}} option from the context menu.
+1.  Select the **New string item** or **New → New string item** option from the context menu.
 2.  Enter a name in the dialog box that opens.
 3.  Press the **OK** button.
 4.  Enter a value in the next dialog box.
 5.  Press the **OK** button.
 
-#### New float item {#new_float_item}
+#### New float item 
 
-1.  Select the {{MenuCommand|New float item}} or {{MenuCommand|New → New float item}} option from the context menu.
+1.  Select the **New float item** or **New → New float item** option from the context menu.
 2.  The next steps are similar to those for a [New string item](#New_string_item.md)
 
-#### New integer item {#new_integer_item}
+#### New integer item 
 
-1.  Select the {{MenuCommand|New integer item}} or {{MenuCommand|New → New integer item}} option from the context menu.
+1.  Select the **New integer item** or **New → New integer item** option from the context menu.
 2.  The next steps are similar to those for a [New string item](#New_string_item.md)
 
-#### New unsigned item {#new_unsigned_item}
+#### New unsigned item 
 
-1.  Select the {{MenuCommand|New unsigned item}} or {{MenuCommand|New → New unsigned item}} option from the context menu.
+1.  Select the **New unsigned item** or **New → New unsigned item** option from the context menu.
 2.  The next steps are similar to those for a [New string item](#New_string_item.md)
 
-#### New Boolean item {#new_boolean_item}
+#### New Boolean item 
 
-1.  Select the {{MenuCommand|New Boolean item}} or {{MenuCommand|New → New Boolean item}} option from the context menu.
+1.  Select the **New Boolean item** or **New → New Boolean item** option from the context menu.
 2.  The next steps are similar to those for a [New string item](#New_string_item.md)
 
 ### Sorting
 
 By default the groups in each tree level in the left panel are sorted alphabetically, and the parameters in the right panel are sorted alphabetically as well. But the order in each panel can be reversed by clicking the \'Group\' or \'Name\' header respectively.
 
-### Quick search {#quick_search}
+### Quick search 
 
 Typing a (partial) string in this input box will fully expand the tree in the left panel and highlight all groups with names that match the entered value. If no matches are found the background of the input box will turn red.
 

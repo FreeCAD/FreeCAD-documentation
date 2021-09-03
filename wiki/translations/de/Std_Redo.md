@@ -28,7 +28,7 @@ Wendet den durch *Rückgängig* zurückgenommenen Befehl erneut wieder an.
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_Redo.svg" width=16px> [Std Redo](Std_Redo.md)** button.
-    -   Select the {{MenuCommand|Edit → <img src="images/Std_Redo.svg" width=16px> Redo}} option from the menu.
+    -   Select the **Edit → <img src="images/Std_Redo.svg" width=16px> Redo** option from the menu.
     -   Use the keyboard shortcut: **Ctrl**+**Y**.
 
 ## Options
@@ -37,8 +37,8 @@ Wendet den durch *Rückgängig* zurückgenommenen Befehl erneut wieder an.
 
 ## Preferences
 
--   The Undo/Redo functionality can be disabled by setting {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Document → UsingUndo}} to `False`, but this is not recommended. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
--   The maximum number of Undo/Redo steps is controlled by {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Document → MaxUndoSize}}. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   The Undo/Redo functionality can be disabled by setting **Tools → Edit parameters... → BaseApp → Preferences → Document → UsingUndo** to `False`, but this is not recommended. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   The maximum number of Undo/Redo steps is controlled by **Tools → Edit parameters... → BaseApp → Preferences → Document → MaxUndoSize**. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 
 ## Scripting
 

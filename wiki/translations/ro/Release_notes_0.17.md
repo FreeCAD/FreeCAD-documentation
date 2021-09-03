@@ -56,7 +56,7 @@ Noul \'\'\'Atelier TechDraw \'\'\' își propune să înlocuiască atelierul Dra
 
 <img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;">
 
-## Atelierul Arch {#atelierul_arch}
+## Atelierul Arch 
 
 
 <div class="mw-translate-fuzzy">
@@ -128,7 +128,7 @@ Noul \'\'\'Atelier TechDraw \'\'\' își propune să înlocuiască atelierul Dra
 
 -   Import support for the [3DS](Arch_3DS.md) format has been added.
 
-## Atelierul Desen 2D {#atelierul_desen_2d}
+## Atelierul Desen 2D 
 
 -   [Autogroup system](Draft_AutoGroup.md): Atelierul Draft are acum un buton de grupare automată pe bara principală de instrumente. Când este activată, toate obiectele nou create în Draft și Arch vor fi automat plasate în acel grup.
 
@@ -168,7 +168,7 @@ Noul \'\'\'Atelier TechDraw \'\'\' își propune să înlocuiască atelierul Dra
 
 <img alt="" src=images/Draft_Label_Preview.png  style="width:640px;">
 
-## Atelierul AnalizaElementuluiFinit {#atelierul_analizaelementuluifinit}
+## Atelierul AnalizaElementuluiFinit 
 
 
 <div class="mw-translate-fuzzy">
@@ -257,7 +257,7 @@ Noul \'\'\'Atelier TechDraw \'\'\' își propune să înlocuiască atelierul Dra
 
 <img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;">
 
-## Atelierul Piese {#atelierul_piese}
+## Atelierul Piese 
 
 -   Kernelul de modelare geometrică Open Cascade a fost actualizat de la 6.8.0 la 7.2.0 (actuala versiune OCC poate depinde de platformă / distro). Această versiune aduce o mulțime de corecții de eroare în operațiile booleene, algoritmul de eliminare a liniei ascunse, precum și permiterea adăugării de noi caracteristici la atelierul Piese.
 
@@ -277,7 +277,7 @@ Noul \'\'\'Atelier TechDraw \'\'\' își propune să înlocuiască atelierul Dra
 
 -   The new [Part container](Std_Part.md) can be used to group most types of shapes and to move them as a unit. It also contains standard planes and axes to attach objects to. It will serve as basis for the future Assembly workbench by providing a way to move parts around. It is available in all workbenches from a toolbar along with [Group](Std_Group.md).
 
-## Atelierul PartDesign {#atelierul_partdesign}
+## Atelierul PartDesign 
 
 Atelierul PartDesign a suferit schimbări masive, fructul eforturilor combinare a mai multor dezvoltatori de-a lungul unei perioade de peste 5 ani. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width:800px;">
 
@@ -301,7 +301,7 @@ Atelierul PartDesign a suferit schimbări masive, fructul eforturilor combinare 
 
 -   New automatic workbench switching between PartDesign and Sketcher. When creating a new sketch from within the PartDesign workbench, once the sketch attachment is set, the UI automatically switches to the Sketcher workbench and its tools in editing mode. When the sketch is closed, the UI switches back to the PartDesign workbench, and restores the view to its previous state. Thus the Sketcher tools were removed from the PartDesign toolbars to liberate space for the new PartDesign features.
 
-## Atelierul Traiectorie {#atelierul_traiectorie}
+## Atelierul Traiectorie 
 
 Atelierul Path a fost revizuit masiv în versiunea 0.17. Revizia a vizat eliminarea tuturor codurilor HeeksCNC mai vechi și înlocuirea ambalajului libation python cu noul modul Path-Area. Ca urmare, operațiunile au devenit mult mai puternice, mai rapide, cu o bază de cod simplificată.
 
@@ -325,7 +325,7 @@ Atelierul Path a fost revizuit masiv în versiunea 0.17. Revizia a vizat elimina
 
 -   Dress-up operations can be used to refine core operations and add additional complexity. Dressups exist for [\'dogbone\'](Path_DressupDogbone.md) corners, [holding tags](Path_DressupTag.md), [ramp entry](Path_DressupRampEntry.md), and [dragknife](Path_DressupDragKnife.md) \'corner actions\'
 
-## Atelierul Sketcher {#atelierul_sketcher}
+## Atelierul Sketcher 
 
 -   Sketches pot fi atașate acum într-o varietate largă de modalități, nu numai pe fațetele plate, așa cum se întâmpla. O importanță deosebită este atașamentul perpendicular pe muchii, util pentru realizarea profilelor pentru [sweeping](Part_Sweep.md).
 
@@ -363,11 +363,11 @@ Atelierul Path a fost revizuit masiv în versiunea 0.17. Revizia a vizat elimina
 
 -   Horizontal and Vertical constraints can be used to align selected points.
 
-## Atelierul Foaie de Calcul {#atelierul_foaie_de_calcul}
+## Atelierul Foaie de Calcul 
 
 -   Un importator de fișiere Excel a fost adăugat.
 
-## Atelierul Surface {#atelierul_surface}
+## Atelierul Surface 
 
 
 <div class="mw-translate-fuzzy">
@@ -377,7 +377,7 @@ Atelierul Path a fost revizuit masiv în versiunea 0.17. Revizia a vizat elimina
 
 </div>
 
-## Atelierul Desen Tehnic {#atelierul_desen_tehnic}
+## Atelierul Desen Tehnic 
 
 
 <div class="mw-translate-fuzzy">
@@ -395,7 +395,7 @@ Atelierul Path a fost revizuit masiv în versiunea 0.17. Revizia a vizat elimina
 -   Dimensioning is now supported, through multiple dimensioning tools: horizontal, vertical, length, radial, diameter, angular.
 -   Decoration tools: hatching, hatching compatible to Autodesk PAT specification, symbols, images.
 
-## Module Adiționale {#module_adiționale}
+## Module Adiționale 
 
 Câteva dintre noile module pe care comunitatea le-a creat.
 

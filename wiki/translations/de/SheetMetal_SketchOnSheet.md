@@ -21,7 +21,8 @@ Im Gegensatz zu dem Befehl <img alt="" src=images/PartDesign_Pocket.svg  style="
 3.  Den Befehl <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md) aktivieren durch:
     -   Die Schaltfläche **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md)
 **
-    -   Den Menüeintrag {{MenuCommand|SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Sketch On Sheet metal}}
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Sketch On Sheet metal
+**
     -   Das Tastenkürzel: **M** dann **S**
 
 ## Hinweis

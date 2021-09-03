@@ -29,7 +29,7 @@ Per applicare il vincolo di tangenza, si dovrebbe usare la seguente procedura:
 -   Selezionare due o tre entità nello schizzo.
 -   Invocare il vincolo facendo clic sull\'icona nella barra degli strumenti, oppure selezionando la voce del menu, oppure usando la scorciatoia da tastiera.
 
-### Tra due curve (tangenza diretta) {#tra_due_curve_tangenza_diretta}
+### Tra due curve (tangenza diretta) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
 
@@ -44,7 +44,7 @@ Se tra le curve selezionate la \"tangenza diretta\" non è supportata (ad esempi
 
 Non è consigliabile ricostruire il punto di tangenza creando un punto e vincolandolo ad appartenere ad entrambe le curve. Questo metodo funziona, ma la convergenza è molto lenta, e richiede circa il doppio delle iterazioni di una convergenza normale. Se il punto di tangenza è proprio necessario conviene utilizzare gli altri modi di applicazione di questo vincolo.
 
-### Tra due punti finali (tangenza punto con punto) {#tra_due_punti_finali_tangenza_punto_con_punto}
+### Tra due punti finali (tangenza punto con punto) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
@@ -60,7 +60,7 @@ In questa modalità, i punti finali sono resi coincidenti, e la giunzione è cre
 
 -   punto finale di linea/arco/arco-di-ellisse + punto finale di linea/arco/arco-di-ellisse, cioè due punti finali di qualsiasi due curve
 
-### Tra una curva e un punto finale (tangenza punto con curva) {#tra_una_curva_e_un_punto_finale_tangenza_punto_con_curva}
+### Tra una curva e un punto finale (tangenza punto con curva) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
 
@@ -70,7 +70,7 @@ In questo modo, il punto finale di una curva è vincolato a giacere sull\'altra 
 
 -   linea, cerchio, arco, ellisse, arco-di-ellisse + punto finale di linea/arco/arco-di-ellisse (qualsiasi curva + punto finale di qualsiasi curva)
 
-### Tra due curve nel punto (tangenza nel punto) (v0.15) {#tra_due_curve_nel_punto_tangenza_nel_punto_v0.15}
+### Tra due curve nel punto (tangenza nel punto) (v0.15) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
 
@@ -88,7 +88,7 @@ Rispetto alla tangenza diretta, questo vincolo è più lento, perché sono coinv
 
 La posizione del punto selezionato prima di applicare il vincolo serve al solutore per sapere dove deve applicare la tangenza. Con questo vincolo, si può costringere due ellissi a toccarsi in due posti.
 
-### Tra due linee (collineari) {#tra_due_linee_collineari}
+### Tra due linee (collineari) 
 
 <img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
 

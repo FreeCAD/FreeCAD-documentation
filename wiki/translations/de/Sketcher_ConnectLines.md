@@ -19,7 +19,7 @@ Wendet [Deckungsgleiche Beschränkung](Sketcher_ConstrainCoincident/de.md) auf E
 2.  Rufe den Befehl auf verschiedene Weise auf:
     -   Drücke die **<img src=images/Sketcher_ConnectLines.svg style="width:16px">[Verbinde Linien](Sketcher_ConnectLines.md)** Schaltfläche.
     -   Verwende die **Strg** + **Umschalt** + **K** Tastaturkürzel.
-    -   Verwende den {{MenuCommand|Skizze→ Skizzierwerkzeuge → <img src=images/Sketcher_ConnectLines.svg style="width:16px">  Linien verbinden}} Eintrag aus dem oberen Menü.
+    -   Verwende den **Skizze→ Skizzierwerkzeuge → <img src=images/Sketcher_ConnectLines.svg style="width:16px">  Linien verbinden** Eintrag aus dem oberen Menü.
 
 ## Hinweise
 

@@ -14,7 +14,7 @@ Wszystkie narzędzia inżynierii wstecznej *(RE)* znajdują się w menu RE i na 
 
 -   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Przybliżenie powierzchni krzywej B-spline:
 
-## Opracowanie i rozwój {#opracowanie_i_rozwój}
+## Opracowanie i rozwój 
 
 Link do odpowiednich wątków omawiających te stanowiska pracy
 

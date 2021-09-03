@@ -49,13 +49,13 @@ Eine detaillierte Beschreibung der Werkzeuge kann unter [Blog des Autors](http:/
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Wand einprägen](SheetMetal_Forming/de.md): Werkzeug fügt eine Einprägung hinzu.
 
-## Zwei sich gegenseitig ergänzende Werkzeuge {#zwei_sich_gegenseitig_ergänzende_werkzeuge}
+## Zwei sich gegenseitig ergänzende Werkzeuge 
 
-### Erstelle ein Basisprofil {#erstelle_ein_basisprofil}
+### Erstelle ein Basisprofil 
 
 Omega förmiges Werkzeug: Mache ein Teil aus einer einfachen mehrzeiligen Linie, die in Skizze oder Entwurf erstellt wurde, gib ihm Höhe und Dicke mittig, links oder rechts von dieser Linie, achte darauf, keine Selbstüberschneidung in geschlossenen Faltungen von weniger Raum als die Materialstärke zu erzeugen.
 
-### Falten entlang einer Linie {#falten_entlang_einer_linie}
+### Falten entlang einer Linie 
 
 Falte eine \"flache\" Grundplatte entlang einer Linie (von einer Linie durchkreuztes Rechteck): wähle die Fläche, dann die Linie und das Werkzeug, wähle den Winkel, den Radius, die Seite, die Position der Faltung relativ zur Linie ist nicht sehr gut definiert; es scheint, dass die Linie die Schnittkante in der Verlängerung der 2 Flächen ist.
 
@@ -70,14 +70,14 @@ Falte eine \"flache\" Grundplatte entlang einer Linie (von einer Linie durchkreu
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:800px">
 
-### Blech Tutorium von meme2704 {#blech_tutorium_von_meme2704}
+### Blech Tutorium von meme2704 
 
 Das folgende Tutorium ist aus dem in [Links](#Links.md) erwähnten PDF Tutorium nachgebildet.
 
 
 <div class="mw-collapsible-content">
 
-#### Vorstellung des Arbeitsbereichs {#vorstellung_des_arbeitsbereichs}
+#### Vorstellung des Arbeitsbereichs 
 
 Nach dem herunterladen und installieren der Erweiterung, öffne sie. ![](images/sm1.png )
 
@@ -88,7 +88,7 @@ Nach dem herunterladen und installieren der Erweiterung, öffne sie. ![](images/
 
 ![](images/sm2.png )
 
-#### 2. Arbeitsgang {#arbeitsgang_1}
+#### 2. Arbeitsgang 
 
 -   Öffne den Blech Arbeitsbereich.
 -   Wähle 1 Dicke der Kante (Kante) der Grundplatte und klicke auf das Werkzeug \"Biegen\". 90° Vorgabe Biegewinkel kann von 0 bis 90 ° geändert werden.
@@ -120,7 +120,7 @@ Wähle eine Referenzfläche (hier die orangene Fläche) und klicke auf die Schal
 Wir erhalten den blauen Teil, von dem es ausreicht, die Werte X, Y oder Z zu ändern, um ihn als Ganzes zu sehen.
 ![](images/sm6.png )
 
-#### Schneide die Umschläge bei 45 ° {#schneide_die_umschläge_bei_45}
+#### Schneide die Umschläge bei 45 ° 
 
 Nach dem Falten der Umschläge ohne das ein Rücknahme gemacht wurde, dadurch erscheint die Form. ![](images/sm7a.png ) Um es zu tun muss bei 45 ° geteilt werden (oder die folgenden Halbierenden Umschläge sind ungleich breit).
 \* Erstelle eine neuen Skizze bezogen auf den gemeinsamen Teil der beiden Umschläge.
@@ -130,23 +130,23 @@ Nach dem Falten der Umschläge ohne das ein Rücknahme gemacht wurde, dadurch er
 
 Achten Sie darauf, nicht das \"Scharnier\" zu zerkratzen, bei dem die Nacktheit die Spitze des Dreiecks am Rand der Faltlinie gebunden hat. ![](images/sm8a.png ) Abwicklung ![](images/sm9.png )
 
-#### Kanten und Umschläge durchstechen {#kanten_und_umschläge_durchstechen}
+#### Kanten und Umschläge durchstechen 
 
 Machen Sie diese Löcher und Schnitte nach dem Falten und vor dem Entfalten.
 Achten Sie immer darauf, die Falzlinien nicht zu \"zerkratzen\".
 ![](images/sm10.png )
 
-#### Verdrahtete Umschläge herstellen {#verdrahtete_umschläge_herstellen}
+#### Verdrahtete Umschläge herstellen 
 
 Mache eine Falte an der Kante der Seite, bei 45 ° von 0,1 mm Länge, dann eine andere umgekehrt bei 45 ° der Länge des benachbarten Umschlags, dann verlängere die gegenüberliegende Seite, sie wird übergehen und sie werden nicht zusammengeführt.
 ![](images/sm11.png )
 
-#### Sonderfall derselben durchstochenen Kante {#sonderfall_derselben_durchstochenen_kante}
+#### Sonderfall derselben durchstochenen Kante 
 
 In diesem speziellen Fall funktioniert das Entfalten nur, indem die gelbe Fläche als Referenz ausgewählt wird.
 ![](images/sm12.png )
 
-#### Sonderfall Loch überspannt die Falten {#sonderfall_loch_überspannt_die_falten}
+#### Sonderfall Loch überspannt die Falten 
 
 Zuvor wurde mehrmals gesagt, dass es nicht notwendig ist, die Faltlinien zu schneiden.
 Was macht man ?
@@ -186,7 +186,7 @@ Was macht man ?
 -   Offizieller Blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Quellcode auf github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
-## Externe Arbeitsbereiche {#externe_arbeitsbereiche}
+## Externe Arbeitsbereiche 
 
 FreeCAD Arbeitsbereiche sind einfach in [Python](Python.md) zu programmieren. Daher entwickeln viele Leute zusätzliche Arbeitsbereiche außerhalb der FreeCAD Hauptentwickler.
 

@@ -14,7 +14,7 @@ Questo strumento elimina tutti i vincoli dallo schizzo in corso di modifica e la
 
 ## Utilizzo
 
-1.  Andare nel {{MenuCommand|Sketch → Sketcher Strumenti → <img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Cancella tutti i vincoli}} menu.
+1.  Andare nel **Sketch → Sketcher Strumenti → <img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Cancella tutti i vincoli** menu.
 2.  Rispondere **Yes** alla finestra di dialogo pop-up.
 
 

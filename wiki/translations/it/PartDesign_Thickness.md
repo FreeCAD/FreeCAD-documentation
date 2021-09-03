@@ -71,7 +71,7 @@ Poi
 
 Risultato: ![](images/Brga-spessore.png )
 
-## Errori noti {#errori_noti}
+## Errori noti 
 
 -   BRep\_API: command not done
 -   BRep\_Tool:: no parameter on edge

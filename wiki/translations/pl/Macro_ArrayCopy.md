@@ -13,7 +13,7 @@
 
 Makro kopiuje zaznaczony obiekt kilka razy, na siatce tablicy Możesz zdefiniować liczbę wierszy i kolumn oraz odległość między nimi.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 ToolBar Icon ![](images/Macro_ArrayCopy.png )
 

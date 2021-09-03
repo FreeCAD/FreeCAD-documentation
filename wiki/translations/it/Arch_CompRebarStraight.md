@@ -11,13 +11,13 @@
 
 L\'Addon Reinforcement migliora [Arch](Arch_Workbench/it.md) fornendo nuove interfacce e preimpostazioni per la creazione di tipi di armature comuni da utilizzare con le [Strutture](Arch_Structure/it.md) di Arch. È anche integrato nell\'ambiente esterno [BIM](BIM_Workbench/it.md).
 
-Gli strumenti possono essere installati con [Addon Manager](Addon_Manager/it.md) tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}. FreeCAD deve essere riavviato affinché i nuovi strumenti appaiano sotto il pulsante Armatura **<img src="images/_Arch_CompRebarStraight.png" width=24px>**.
+Gli strumenti possono essere installati con [Addon Manager](Addon_Manager/it.md) tramite il menu **Strumenti → Addon manager → Reinforcement**. FreeCAD deve essere riavviato affinché i nuovi strumenti appaiano sotto il pulsante Armatura **<img src="images/_Arch_CompRebarStraight.png" width=24px>**.
 
 Questo addon è stato sviluppato durante il [Google Summer of Code](Google_Summer_of_Code.md) 2017, ed è ospitato nel [FreeCAD-Reinforcement](https://github.com/amrit3701/FreeCAD-Reinforcement) Github repository, che è separato dal repository principale di FreeCAD.
 
 Torna alla pagina [Ambienti](Workbenches/it#Ambienti_aggiuntivi.md) o alla pagina [Ambienti complementari](External_workbenches/it.md)
 
-## Tipi di armature {#tipi_di_armature}
+## Tipi di armature 
 
 -   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Armatura dritta](Arch_Rebar_Straight/it.md): Crea una barra di rinforzo diritta in un elemento strutturale selezionato.
 

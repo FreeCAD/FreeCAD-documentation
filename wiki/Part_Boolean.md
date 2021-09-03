@@ -40,9 +40,9 @@ See the individual commands:
 **
     
 
-Also see the {{MenuCommand|Part → Create a copy → [Refine Shape](Part_RefineShape.md)}} menu.
+Also see the **Part → Create a copy → [Refine Shape](Part_RefineShape.md)** menu.
 
-## Coplanar problems {#coplanar_problems}
+## Coplanar problems 
 
 The boolean operations are performed by the internal geometry kernel, [OpenCASCADE Technology](OpenCASCADE.md) (OCCT). This library sometimes has problems producing boolean results when the input objects share an edge or a face. To be sure the boolean operation is successful the recommendation is that the shapes intersect each other clearly; this means that in most cases, one shape should protrude or be larger in size than the other shape.
 

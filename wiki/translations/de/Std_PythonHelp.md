@@ -15,7 +15,7 @@ Der Webserver basiert auf dem Python Modul [pydoc](https://docs.python.org/3.8/l
 
 ## Anwendung
 
-1.  Wähle die {{MenuCommand|Hilfe → <img src="images/Std_PythonHelp.svg" width=16px> Automatische Python Module Dokumentation}} aus dem Menü.
+1.  Wähle die **Hilfe → <img src="images/Std_PythonHelp.svg" width=16px> Automatische Python Module Dokumentation** aus dem Menü.
 2.  Klicke auf einen der Verweise, um die Dokumentation einer bestimmten Klasse oder Funktion aufzurufen.
 
 

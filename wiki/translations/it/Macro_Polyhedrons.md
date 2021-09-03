@@ -37,7 +37,8 @@ Puoi anche utilizzare il workbench esterno [Pyramids\_and\_Polyhedrons](https://
 
 ## Installation
 
--   Use the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) to install the macro via {{MenuCommand|Tools → Addon Manager → Macros tab}}
+-   Use the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) to install the macro via 
+**Tools → Addon Manager → Macros tab**
 -   Choose `polyhedrons.py`
 -   Press **Install**
 

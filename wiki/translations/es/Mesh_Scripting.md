@@ -23,7 +23,7 @@ import Mesh
 
 <div class="mw-translate-fuzzy">
 
-### Creación y Carga {#creación_y_carga}
+### Creación y Carga 
 
 Para crear un objeto malla vacío sólo tienes que utilizar el constructor estándar:
 
@@ -143,7 +143,7 @@ doc.recompute()
 
 <div class="mw-translate-fuzzy">
 
-### Ajustes y pruebas {#ajustes_y_pruebas}
+### Ajustes y pruebas 
 
 Una extensa, aunque dificil de usar, librería de archivos de guión relacionados con mallas son los scripts de prueba del módulo Malla. En esta unidad, literalmente todos los métodos son invocados, y se ajustan todas las propiedades y atributos. Así que si eres lo suficientemente audaz, echa un vistazo al [Módulo de prueba de unidades](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup).
 

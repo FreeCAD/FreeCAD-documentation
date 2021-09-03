@@ -3,7 +3,7 @@
 
 
 
-## Overview of Python scripting pages {#overview_of_python_scripting_pages}
+## Overview of Python scripting pages 
 
 -   Python related pages in the Manual:
     -   [A gentle introduction](Manual:A_gentle_introduction.md)

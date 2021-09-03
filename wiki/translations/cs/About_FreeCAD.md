@@ -50,7 +50,7 @@ Pro další informace o možnostech FreeCADu se podívejte na [Seznam funkcí](F
 
 </div>
 
-### O projektu FreeCAD {#o_projektu_freecad}
+### O projektu FreeCAD 
 
 
 <div class="mw-translate-fuzzy">

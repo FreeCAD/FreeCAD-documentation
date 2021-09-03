@@ -12,11 +12,11 @@ Uzyskanie takiej symulacji odbywa się w programie FreeCAD za pomocą środowisk
 
 <img alt="" src=images/Exercise_fem_01.jpg  style="width:600px;">
 
-### Przygotowanie programu FreeCAD {#przygotowanie_programu_freecad}
+### Przygotowanie programu FreeCAD 
 
 Sama symulacja jest wykonywana przez inny program, który jest wykorzystywany przez FreeCAD do uzyskania wyników. Ponieważ jest dostępnych kilka interesujących aplikacji do symulacji MES o otwartym kodzie źródłowym, środowisko pracy [MES](FEM_Workbench/pl.md) pozwala na wybór pomiędzy nimi. Jednak obecnie tylko [CalculiX](http://www.calculix.de/) jest w pełni zaimplementowany. Wymagany jest również inny program, o nazwie [NetGen](https://sourceforge.net/projects/netgen-mesher/), który odpowiada za generowanie siatki podziału. Szczegółowe instrukcje dotyczące instalacji tych dwóch komponentów znajdują się [w dokumentacji FreeCAD](FEM_Install/pl.md).
 
-### Przygotowanie geometrii {#przygotowanie_geometrii}
+### Przygotowanie geometrii 
 
 Zaczniemy od domu, który wymodelowaliśmy w rozdziale [Modelowanie BIM](Manual:BIM_modeling/pl.md). Należy jednak dokonać pewnych zmian, aby model nadawał się do obliczeń metodą MES. Polega to w zasadzie na odrzuceniu obiektów, których nie chcemy uwzględniać w obliczeniach, takich jak drzwi i okna, oraz połączeniu wszystkich pozostałych obiektów w jeden.
 
@@ -33,7 +33,7 @@ Zaczniemy od domu, który wymodelowaliśmy w rozdziale [Modelowanie BIM](Manual:
 
 <img alt="" src=images/Exercise_fem_03.jpg  style="width:600px;">
 
-### Tworzenie analizy {#tworzenie_analizy}
+### Tworzenie analizy 
 
 -   Jesteśmy teraz gotowi do rozpoczęcia analizy MES. Przejdźmy do środowiska pracy [MES](FEM_Workbench/pl.md).
 -   Wybierzmy obiekt o nazwie *scalony*.

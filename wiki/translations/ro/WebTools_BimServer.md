@@ -34,7 +34,7 @@ Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
 
 </div>
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -63,13 +63,13 @@ Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
 
 </div>
 
-### Descărcarea reviziilor {#descărcarea_reviziilor}
+### Descărcarea reviziilor 
 
 -   Caseta derulantă contextuală \'\'\' Project \'\'\' va afișa proiectele disponibile stocate pe serverul BIMServer. Alegeți una pentru a vedea reviziile disponibile pentru acel proiect.
 -   Selectați o revizuire și faceți clic pe **Open** pentru a descărca și deschide fișierul IFC corespunzător acelei revizuiri în FreeCAD.
 -   Când apăsați butonul \'\'\' Open \'\'\', se va deschide o casetă de dialog pentru a vă permite să salvați fișierul IFC descărcat într-o locație la alegere înainte de a o deschide. Dacă apăsați **Cancel**, fișierul va fi salvat sub un nume temporar în directorul temporar al sistemului.
 
-### Încărcarea reviziilor {#încărcarea_reviziilor}
+### Încărcarea reviziilor 
 
 
 <div class="mw-translate-fuzzy">

@@ -14,7 +14,7 @@
 
 Erzeugt ein additives Grundelement im aktiven Körper als erstes Formelement oder verschmilzt es mit dem/den vorhandenen Formelement(en). Wenn kein Körper im Dokument gefunden wird, wird automatisch einer erzeugt.
 
-## Typen von Grundkörpern {#typen_von_grundkörpern}
+## Typen von Grundkörpern 
 
 -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Zu addierender Quader](PartDesign_AdditiveBox.md)
 -   <img alt="" src=images/PartDesign_AdditiveCylinder.svg  style="width:32px;"> [Zu addierender Zylinder](PartDesign_AdditiveCylinder.md)

@@ -40,14 +40,14 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 ```
 
-## Solver CalculiX {#solver_calculix}
+## Solver CalculiX 
 
 ### Limitazioni
 
 -   È necessario modificare il file .inp modificare l\'accelerazione di gravità.
 -   Applicare Peso proprio all\'elemento impostato Wall significa applicarlo all\'intero modello.
 
-### Editare il file di input CalculiX {#editare_il_file_di_input_calculix}
+### Editare il file di input CalculiX 
 
 La costante dell\'accelerazione può essere modificata a mano dopo la generazione del file di input CalculiX.
 
@@ -57,7 +57,7 @@ Esempio di righenel file .inp:
 Eall,GRAV,9810,0.0,0.0,-1.0
 ``` dove 9810 è l\'accelerazione di gravità in \[mm/s\^2\], e 0,0,-1 è la direzione del vettore.
 
-## Solver Z88 {#solver_z88}
+## Solver Z88 
 
 -   non implementato nel solver Z88 (Marzo 2017)
 

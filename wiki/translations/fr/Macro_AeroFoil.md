@@ -18,7 +18,7 @@
 
 La macro AeroFoil peut être téléchargée en utilisant le [Gestionnaire d\'addons](Std_AddonMgr/fr.md) intégré au logiciel FreeCAD.
 
-####  Caractéristiques principales {#caractéristiques_principales}
+####  Caractéristiques principales 
 
 -   Affinement des points du profil aérodynamique
 -   Génération de copies multiples de profils aérodynamiques
@@ -32,7 +32,7 @@ La macro AeroFoil peut être téléchargée en utilisant le [Gestionnaire d\'add
 -   Analyseur de données de fichiers texte DAT et de feuilles de calcul CSV.
 -   Entrée de la longueur de la corde en mm, cm, m, in, ft et yards.
 
-####  Fonctionnalités supplémentaires {{VersionPlus/fr|0.19}} {#fonctionnalités_supplémentaires}
+####  Fonctionnalités supplémentaires {{VersionPlus/fr|0.19}} 
 
 Propriétés de l\'objet AeroFoil *(en lecture seulement)* :
 {{Properties Title|Base}}
@@ -99,7 +99,7 @@ C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
 L\'AeroFoil peut être chargé en effectuant les étapes suivantes :
 
 1.  Lancez l\'application **FreeCAD**.
-2.  Allez dans {{MenuCommand|Macro → Macros ...}}.
+2.  Allez dans **Macro → Macros ...**.
 3.  Cliquez sur l\'onglet **Macros utilisateur** dans la boîte de dialogue contextuelle.
 4.  Sélectionnez {{FileName|AeroFoil.FCMacro}}.
 5.  Cliquez sur **Execute**.
@@ -114,7 +114,7 @@ Une fois la macro AeroFoil chargée, suivez les instructions des boîtes de dial
           
   ------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-####  Conseils à garder à l\'esprit pendant l\'utilisation : {#conseils_à_garder_à_lesprit_pendant_lutilisation}
+####  Conseils à garder à l\'esprit pendant l\'utilisation : 
 
 1.  Pour les profils NACA, les deux derniers chiffres (combinés) ne peuvent pas avoir une valeur nulle ; l\'épaisseur ne peut pas être une valeur nulle.
 2.  Les profils NACA à 5 chiffres sont limités aux modèles suivants (\'XX\' indique les deux derniers chiffres, l\'épaisseur, du profil) :

@@ -37,7 +37,7 @@ If the docu is not finished use [Template:UnfinishedDocu](Template:UnfinishedDoc
 
 <div class="mw-translate-fuzzy">
 
-### Pagina Help {#pagina_help}
+### Pagina Help 
 
 Fiecare GuiCommand trebuie să aibă o pagină de ajutor. Pagina de ajutor este găzduită pe FreeCAD docu wiki. Articolul are același nume ca și GuiCommand, de ex. [Draft ShapeString](Draft_ShapeString.md).
 
@@ -104,7 +104,7 @@ Preferable all Icons are drafted with SVG with e.g. [Inkscape](http://inkscape.o
 
 <div class="mw-translate-fuzzy">
 
-### Cerințe de calitate {#cerințe_de_calitate}
+### Cerințe de calitate 
 
 Există o mulțime de GuiCommands (Funcții) în FreeCAD care sunt experimentale sau utilizate în scurt timp pentru punerea în aplicare. Aceste comenzi Gui sunt în mare parte în Atelierele de lucru dedicate cum ar fi Part, Mesh/Plasa sau Cam. Pentru a asigura o bună experiență a utilizatorilor, a fost creat \"Workbench\" \"Complete\". Acest Atelier de lucru include toate GuiCommands care îndeplinesc anumite \"cerințe de calitate \" care sunt descrise aici:
 

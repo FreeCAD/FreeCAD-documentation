@@ -101,7 +101,7 @@ Como se explica en la página [edición de características](feature_editing/es.
 
 <img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width:" height="400px;">
 
-## Notas finales {#notas_finales}
+## Notas finales 
 
 Añadir objetos de datos supone más trabajo para el usuario, pero en última instancia produce modelos más estables que están menos sujetos al problema de los nombres topológicos.
 

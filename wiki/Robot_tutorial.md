@@ -13,13 +13,13 @@ This tutorial is here to teach you how to use the <img alt="" src=images/Workben
 
 ![](images/Robot_Tutorial_RobotSimulation.gif ) *Final result of this tutorial*
 
-## Before you begin {#before_you_begin}
+## Before you begin 
 
 This tutorial is written for FreeCAD Version 0.16.6703 or higher. So if you don\'t have FreeCAD on your computer go to the [Download](Download.md) page and do the installation.
 
 This tutorial is targeting on the use of [industrial robots](http://en.wikipedia.org/wiki/Industrial_robot) and not mobile or service robots (see wikipedia\'s entry on [modern robots](http://en.wikipedia.org/wiki/Robot#Modern_robots)).
 
-## Setting up the scene {#setting_up_the_scene}
+## Setting up the scene 
 
 1.  Switch to the <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Robot Workbench](Robot_Workbench.md)
 2.  Create a new document by choosing **File** → ** New** from the top menu
@@ -28,7 +28,7 @@ This tutorial is targeting on the use of [industrial robots](http://en.wikipedia
 5.  Zoom to fit all by clicking on <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> [FitAll](Std_ViewFitAll.md) button
 6.  Save your file \...
 
-## Setting up a trajectory {#setting_up_a_trajectory}
+## Setting up a trajectory 
 
 1.  Switch to the <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Robot Workbench](Robot_Workbench.md)
 2.  Activate the model-tab in the [tree view](tree_view.md) by clicking on it
@@ -41,7 +41,7 @@ This tutorial is targeting on the use of [industrial robots](http://en.wikipedia
 9.  Each way-point is shown with a yellow cross, the waypoints are connected with orange lines
 10. Define at least three different way points and insert them in the trajectory
 
-## Simulating robot movement {#simulating_robot_movement}
+## Simulating robot movement 
 
 1.  Select robot and trajectory in [tree view](tree_view.md)
 2.  Select simulation by clicking on <img alt="" src=images/Robot_Simulate.svg  style="width:24px;"> [Robot Simulate](Robot_Simulate.md)

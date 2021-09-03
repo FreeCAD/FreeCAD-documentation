@@ -15,7 +15,7 @@ The <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft S
 <img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
 *Shapes created on different working planes*
 
-## Usage with pre-selection {#usage_with_pre_selection}
+## Usage with pre-selection 
 
 1.  Do one of the following:
     -   Select a single object. The following objects are supported:
@@ -33,17 +33,17 @@ The <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft S
         -   A straight edge and a vertex that does not lie on the (extended) edge.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the {{MenuCommand|Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane}} option from the menu.
+    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
     -   Use the keyboard shortcut: **W** then **P**.
 3.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
-## Usage with post-selection {#usage_with_post_selection}
+## Usage with post-selection 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the {{MenuCommand|Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane}} option from the menu.
+    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
     -   Use the keyboard shortcut: **W** then **P**.
-2.  The {{MenuCommand|Working plane setup}} task panel opens. See [Options](#Options.md) for more information.
+2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
 3.  Do one of the following:
     -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md) for the supported objects.
     -   Select one or more subelements. You can select:
@@ -52,13 +52,13 @@ The <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft S
 4.  Click anywhere in the [3D view](3D_view.md) to confirm the selection and finish the command.
 5.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
-## Usage with presets {#usage_with_presets}
+## Usage with presets 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the {{MenuCommand|Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane}} option from the menu.
+    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
     -   Use the keyboard shortcut: **W** then **P**.
-2.  The {{MenuCommand|Working plane setup}} task panel opens. See [Options](#Options.md) for more information.
+2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
 3.  Press any of the buttons to finish the command.
 4.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
@@ -67,15 +67,15 @@ The <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft S
 -   Press the **<img src="images/View-top.svg" width=16px> Top (XY)** button to align the working plane with the XY plane of the global coordinate system.
 -   Press the **<img src="images/View-front.svg" width=16px> Front (XZ)** button to align the working plane with the XZ plane of the global coordinate system.
 -   Press the **<img src="images/View-right.svg" width=16px> Side (YZ)** button to align the working plane with the YZ plane of the global coordinate system.
--   Press the **<img src="images/View-isometric.svg" width=16px> Align to view** button to align the working plane with the current [3D view](3D_view.md). If the {{MenuCommand|Center plane on view}} checkbox is unchecked the working plane origin will match the origin of the global coordinate system, else it will match the center of the current [3D view](3D_view.md).
+-   Press the **<img src="images/View-isometric.svg" width=16px> Align to view** button to align the working plane with the current [3D view](3D_view.md). If the **Center plane on view** checkbox is unchecked the working plane origin will match the origin of the global coordinate system, else it will match the center of the current [3D view](3D_view.md).
 -   Press the **<img src="images/View-axonometric.svg" width=16px> Automatic** button to automatically align the working plane with the current [3D view](3D_view.md) whenever a Draft or [Arch](Arch_Workbench.md) command requiring point input is started. This is equivalent to pressing the **<img src="images/View-isometric.svg" width=16px> Align to view** button before using the command.
--   The {{MenuCommand|Offset}} defines the perpendicular distance between the calculated plane and the actual working plane.
--   Check the {{MenuCommand|Center plane on view}} checkbox to put the origin of the working plane in the center of to the current [3D view](3D_view.md). This option really only makes sense if the **<img src="images/View-isometric.svg" width=16px> Align to view** button is used.
+-   The **Offset** defines the perpendicular distance between the calculated plane and the actual working plane.
+-   Check the **Center plane on view** checkbox to put the origin of the working plane in the center of to the current [3D view](3D_view.md). This option really only makes sense if the **<img src="images/View-isometric.svg" width=16px> Align to view** button is used.
 -   Select a vertex in the [3D view](3D_view.md) and press the **<img src="images/Draft_Move.svg" width=16px> Move working plane** button to move the working plane so that its origin matches the position of the selected vertex.
--   The {{MenuCommand|Grid spacing}} defines the distance between grid lines.
--   The {{MenuCommand|Main line every}} value determines where main grid lines are drawn. Main grid lines are slightly thicker than normal grid lines. For example if the grid spacing is {{Value|0.5 m}} and there is a main line every {{Value|10 lines}}, such a line will occur every {{Value|5 m}}.
--   The {{MenuCommand|Grid extension}} value determines the number of grid lines in the X and Y direction of the grid.
--   The {{MenuCommand|Snapping radius}} is the maximum distance at which [Draft Snap Grid](Draft_Snap_Grid.md) detects the intersections of grid lines.
+-   The **Grid spacing** defines the distance between grid lines.
+-   The **Main line every** value determines where main grid lines are drawn. Main grid lines are slightly thicker than normal grid lines. For example if the grid spacing is {{Value|0.5 m}} and there is a main line every {{Value|10 lines}}, such a line will occur every {{Value|5 m}}.
+-   The **Grid extension** value determines the number of grid lines in the X and Y direction of the grid.
+-   The **Snapping radius** is the maximum distance at which [Draft Snap Grid](Draft_Snap_Grid.md) detects the intersections of grid lines.
 -   Press the **<img src="images/view-fullscreen.svg" width=16px> Center view** button to use the origin of the current working plane as the center of the [3D view](3D_view.md).
 -   Press the **<img src="images/edit-undo.svg" width=16px> Previous** button to reset the working plane to its previous position.
 -   Press **Esc** or the {{button|Close}} button to abort the command.
@@ -90,9 +90,9 @@ The <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft S
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The grid settings in the task panel as well as several other grid settings are available as preferences: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Grid}}.
--   To use the grid the {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid}} option must be selected. After changing this preference you must restart FreeCAD.
--   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange}}.
+-   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   To use the grid the **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid** option must be selected. After changing this preference you must restart FreeCAD.
+-   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
 ## Scripting
 

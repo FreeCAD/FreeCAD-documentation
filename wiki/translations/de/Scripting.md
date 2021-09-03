@@ -15,7 +15,7 @@ FreeCAD ist durch [Python](Python/de.md) Code erweiterbar, der direkt in der [Py
 
 Wenn du Inhalte zu diesen Seiten beitragen möchtest, beantrage ein Wiki Zugang mit Berabeiterberechtigungen [im Forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), und lies die [WikiSeiten](WikiPages/de.md) für die allgemeinen Richtlinien, die du befolgen solltest. Für weitere Möglichkeiten, zum Projekt beizutragen, siehe die [FreeCAD Hilfe](Help_FreeCAD/de.md) Seite.
 
-## Anpassen von FreeCAD {#anpassen_von_freecad}
+## Anpassen von FreeCAD 
 
 -   [Anpassung der Benutzeroberfläche](Interface_Customization/de.md): Beginnend mit dem Anfang: Werkzeugleisten und Tastaturkürzel
 -   [Arbeiten mit Makros](Macros/de.md): Einfache Aufzeichnung häufig wiederkehrender Aufgaben oder von Python Code
@@ -23,7 +23,7 @@ Wenn du Inhalte zu diesen Seiten beitragen möchtest, beantrage ein Wiki Zugang 
 -   [Anpassung der Werkzeugleisten](Customize_Toolbars/de.md)
 -   [Weitere Arbeitsbereiche installieren](Installing_more_workbenches/de.md)
 
-## Skripten in FreeCAD {#skripten_in_freecad}
+## Skripten in FreeCAD 
 
 ### Allgemein
 
@@ -41,28 +41,28 @@ Die Funktionalität von FreeCAD ist in Module unterteilt, die sich mit spezielle
 -   Die [Einbaumodule](Builtin_modules/de.md) sind die wichtigsten FreeCAD Module. Sie enthalten Werkzeuge zur Manipulation allgemeiner FreeCAD Konfigurationen, Dokumente und deren Inhalte.
 -   [Arbeitsbereich Erstellung](Workbench_creation/de.md) zeigt Dir, wie Du Deine eigene Arbeitsbereich erstellen kannst.
 
-#### Arbeiten mit Netzen {#arbeiten_mit_netzen}
+#### Arbeiten mit Netzen 
 
 -   [Polygonnetz Skripten](Mesh_Scripting/de.md): Wie man mit dem [Polygonnetz Arbeitsbereich](Mesh_Workbench/de.md) interagiert
 
-#### Arbeiten mit Teilen {#arbeiten_mit_teilen}
+#### Arbeiten mit Teilen 
 
 -   [Arbeitsbereich Part](Part_Workbench/de.md): Wie [Open CASCADE Technologie](http://en.wikipedia.org/wiki/Open_CASCADE) Werkzeuge und Strukturen in FreeCAD verwendet werden.
 -   [Topologisches Datenskripten](Topological_data_scripting/de.md): Wie man mit dem Teil Arbeitsbereich umgeht
 -   [PythonOCC](PythonOCC/de.md): Wie man die gesamte Open CASCADE Leistung entfesselt
 -   [Polygonnetz zu Teil](Mesh_to_Part/de.md): Konvertierung zwischen Objekttypen
 
-#### Der Zugriff auf die Coin Szenengraph {#der_zugriff_auf_die_coin_szenengraph}
+#### Der Zugriff auf die Coin Szenengraph 
 
 -   [Szenengraph](Scenegraph/de.md): Wie die FreeCAD Szenendarstellung funktioniert
 -   [Pivy](Pivy/de.md): Wie man auf den Szenengraph zugreift und ihn ändert
 
-### Steuerung der Qt Schnittstelle {#steuerung_der_qt_schnittstelle}
+### Steuerung der Qt Schnittstelle 
 
 -   [PySide](PySide/de.md): Wie man auf die Schnittstelle zugreift und deren Inhalt ändert
 -   [Einbetten von FreeCADGui](Embedding_FreeCADGui/de.md) in eine andere Qt Anwendung mit PyQt
 
-### Arbeiten mit parametrischen Objekten {#arbeiten_mit_parametrischen_objekten}
+### Arbeiten mit parametrischen Objekten 
 
 -   [Geskriptete Objekte](Scripted_objects/de.md): wie man 100% Python geskriptete Objekte erstellt.
     -   [Geskriptete Objekte mit Anhang](Scripted_objects_with_attachment/de.md): wie man geskriptete Objekte an andere Objekte anhängen kann.
@@ -78,13 +78,13 @@ Die Funktionalität von FreeCAD ist in Module unterteilt, die sich mit spezielle
 -   Der [Arbeitsbereich Entwurf](Draft_Module/de.md) fügt FreeCAD grundlegende 2D Zeichenfunktionen hinzu. Es ist vollständig in Python geschrieben, so dass es ein gutes Beispiel sein kann, wenn man eigene Module schreiben will.
 -   [FreeCAD Vektor Mathematische Bibliothek](FreeCAD_vector_math_library/de.md) : Einige praktische Funktionen zur Manipulation von FreeCAD Vektoren. Diese Bibliothek ist auch im Draft Modul enthalten.
 
-## API Funktionen {#api_funktionen}
+## API Funktionen 
 
 Die vollständige API-Dokumentation von FreeCAD findest Du unter <http://www.freecadweb.org/api/> . Es enthält sowohl C++ als auch Python-APIs und ist noch nicht vollständig gut formatiert, was bei der Suche nach nur Python Code verwirrend sein kann. Eine einfacher zu durchsuchende Version findest Du [here]([:Category:API.md)\]. Beachte, dass es unvollständig sein kann, da es manuell aktualisiert wird. Für genauere Informationen durchsuche die Module direkt von der Python-Konsole von FreeCAD aus.
 
 Verwandt: [Aussetzen von C++ in Python ](Exposing_C%2B%2B_to_Python/de.md)
 
-## Erweiterte Modifikation {#erweiterte_modifikation}
+## Erweiterte Modifikation 
 
 -   [Programmstart und Konfiguration](Start_up_and_Configuration/de.md): Start- und Kommandozeilenoptionen
 -   [Installieren auf Windows](Install_on_Windows/de.md): Verwendung des Windows nstallationsprogramms
@@ -92,7 +92,7 @@ Verwandt: [Aussetzen von C++ in Python ](Exposing_C%2B%2B_to_Python/de.md)
 -   [Markenbindung](Branding/de.md): Einfache Änderungen, die am Quellcode vorgenommen werden können, um einige Aspekte von FreeCAD zu ändern.
 -   [Zusätzliche Python Module](Extra_python_modules/de.md) : Erweitere den FreeCAD Python Übersetzer mit diesen leistungsstarken Modulen!
 
-## Python Tutorien {#python_tutorien}
+## Python Tutorien 
 
 Dies sind gute allgemeine Tutorien, nicht spezifisch für FreeCAD, die dich interessieren könnten, wenn Python völlig neu für dich ist.
 

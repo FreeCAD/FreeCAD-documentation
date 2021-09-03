@@ -11,19 +11,19 @@ Le génie civil est un vaste domaine d\'ingénierie et couvre plusieurs sujets, 
 
 Les outils Armatures font actuellement partie de l\'[atelier Arch (Architecture)](Arch_Workbench.md).
 
-## Sujets de forum associés {#sujets_de_forum_associés}
+## Sujets de forum associés 
 
 -   [Sujet forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=22277) (en) Civil engineering feature implementation (Transportation Engineering)
 -   [Sujet forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=6973) (en) Civil Engineering Design functions
 -   [Sujet forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=22390) (en) Thread tracking FreeCAD & QGIS integration
 
-## A faire {#a_faire}
+## A faire 
 
 -   Captures d\'écran
 -   Plan de travail
 -   Rehaussez cette page wiki
 
-## Liens associés {#liens_associés}
+## Liens associés 
 
 -   [Ateliers externes](External_workbenches/fr.md)
 -   [Ateliers](Workbenches/fr.md)

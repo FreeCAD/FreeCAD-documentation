@@ -22,7 +22,7 @@ Więcej informacji można znaleźć na forum FreeCAD: <http://forum.freecadweb.o
 
 ![](images/Screenshot_from_2017-09-02_20-01-49.png )
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 ToolBar Icon ![](images/Macro_SpreadsheetTools.png )
 

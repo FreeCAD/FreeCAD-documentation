@@ -16,7 +16,7 @@ Konstruktionsläget i Skissmodulen är en enkel inställning som tillåter dig a
 -   Färgen och gruppnamnet kan ändras i [alternativfönstret](Draft_Preferences/sv.md).
 -   En tangentbordsgenväg kan tilldelas till knappen för att lätt kunna stänga på/av funktionen från tangentbordet (Verktyg -\> Anpassa -\> Tangentbord -\> Python -\> Toggle Construction Mode)
 
-## Description {#description_1}
+## Description 
 
 The Draft module features a construction mode, which allows to draw certain objects in a special group, with a defined color, so it is easy to separate them from the other objects and switch it off when you don\'t need it, or delete them after you don\'t need them anymore.
 
@@ -33,15 +33,15 @@ The Draft module features a construction mode, which allows to draw certain obje
 
 </div>
 
-## Bug in version 0.19 {#bug_in_version_0.19}
+## Bug in version 0.19 
 
-In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddConstruction.md) command will typically use different groups. To avoid this change the {{MenuCommand|Construction group name}} in the preferences to {{Value|Draft_Construction}}: {{MenuCommand|Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name}}. In version 0.20 the {{MenuCommand|Construction group name}} is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
+In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddConstruction.md) command will typically use different groups. To avoid this change the **Construction group name** in the preferences to {{Value|Draft_Construction}}: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**. In version 0.20 the **Construction group name** is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
 
 ## Usage
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Draft ToggleConstructionMode](Draft_ToggleConstructionMode.md)** button in the [Draft Tray](Draft_Tray.md). This button is depressed if Draft construction mode is currently on.
-    -   Select the {{MenuCommand|Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Toggle construction mode}} option from the menu.
+    -   Select the **Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Toggle construction mode** option from the menu.
     -   Use the keyboard shortcut: **C** then **M**.
 2.  The button in the [Draft Tray](Draft_Tray.md) is updated.
 
@@ -51,8 +51,8 @@ In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddCo
 
 ## Preferences
 
--   To change the label (<small>(v0.20)</small> ) of the construction group: {{MenuCommand|Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name}}.
--   To change the color that is used: {{MenuCommand|Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color}}.
+-   To change the label (<small>(v0.20)</small> ) of the construction group: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
+-   To change the color that is used: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
 
 
 

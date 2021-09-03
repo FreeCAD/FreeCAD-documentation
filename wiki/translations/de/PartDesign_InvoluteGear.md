@@ -15,7 +15,7 @@ Für ausführlichere Informationen siehe die Wikipedia Einträge zu: [Zahnrad](h
 
 ## Anwendung
 
-1.  Gehe zum Menü {{MenuCommand|Part Design → <img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Evolventenverzahnung...}}.
+1.  Gehe zum Menü **Part Design → <img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Evolventenverzahnung...**.
 2.  Setze die Parameter für die Evolvente.
 3.  Klicke auf **OK**.
 4.  Das Evolventenzahnrad wird außerhalb des aktiven Körpers erzeugt. Ziehe und Legen es für die Anwendung von weiteren Funktionen wie z.B. Polsterung, in einen Körper.

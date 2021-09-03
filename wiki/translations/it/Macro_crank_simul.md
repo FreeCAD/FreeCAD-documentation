@@ -25,11 +25,11 @@ Scaricare i file e poi copiare il codice nella console Python di FreeCAD.
 
 Per interrompere l\'animazione digitare: \"**animation.stop()**\"
 
-## Il File {#il_file}
+## Il File 
 
 [crank\_simul.fcstd](http://forum.freecadweb.org/download/file.php?id=5954)
 
-## Lo Script {#lo_script}
+## Lo Script 
 
 ToolBar Icon ![](images/Macro_crank_simul.png )
 

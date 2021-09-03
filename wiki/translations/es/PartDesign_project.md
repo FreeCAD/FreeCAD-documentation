@@ -21,7 +21,7 @@ Aquí está la planificación del proyecto **Diseño de Piezas** como parte del 
 
 <div class="mw-translate-fuzzy">
 
-## Propósito y principios {#propósito_y_principios}
+## Propósito y principios 
 
 Este es un proyecto de desarrollo de software que trata de implementar capacidades de diseño de Piezas. Trata de implementar algunas **características principales** en los módulos de CAD de FreeCAD, **Pieza, Diseño de Pieza y Ensamblaje** (Part, PartDesign y Assembly).
 
@@ -72,12 +72,12 @@ Un croquizador paramétrico con un solucionador de restricciones geométricas, p
 
 </div>
 
-### Diseño de Piezas {#diseño_de_piezas}
+### Diseño de Piezas 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Operación principal de pieza MainPart {#operación_principal_de_pieza_mainpart}
+#### Operación principal de pieza MainPart 
 
 Ya que un modelado basado en el historial puede tener un montón de pasos para llegar a la forma final, es necesario una agrupación. Esta es la MainPart, que tiene el resultado final del modelado y actúa como un grupo para todas las operaciones del árbol de historial.
 
@@ -87,11 +87,11 @@ Ya que un modelado basado en el historial puede tener un montón de pasos para l
 
 <div class="mw-translate-fuzzy">
 
-#### Operación saliente {#operación_saliente}
+#### Operación saliente 
 
 Una Pad feature extruye un croquis (o cualquier Part2DObject) en la dirección de su normal. Siempre que garantice la creación de un sólido, o dará error.
 
-#### Operación cajera {#operación_cajera}
+#### Operación cajera 
 
 Marca un croquis en un sólido base definiendo su profundidad o \"Hasta el último \| Hasta el primero\". También garantiza la obtención de un sólido.
 
@@ -101,7 +101,7 @@ Marca un croquis en un sólido base definiendo su profundidad o \"Hasta el últi
 
 <div class="mw-translate-fuzzy">
 
-#### Operación taladro {#operación_taladro}
+#### Operación taladro 
 
 Una muy buena definición de parámetros de taladros de la especificación de NaroCad:
 
@@ -118,25 +118,25 @@ Una muy buena definición de parámetros de taladros de la especificación de Na
 
 Replica una de las operaciones indicadas arriba
 
-##### **Matriz rectangular** {#matriz_rectangular}
+##### **Matriz rectangular** 
 
 Replica una de las operaciones indicadas arriba a lo largo de X,Y
 
-##### **Matriz circular** {#matriz_circular}
+##### **Matriz circular** 
 
 Replica una de las operaciones indicadas arriba a lo largo de una matriz de coordenadas polares
 
-##### **Matriz de archivo de guión** {#matriz_de_archivo_de_guión}
+##### **Matriz de archivo de guión** 
 
 Replica una de las operaciones indicadas arriba de acuerdo a las reglas generales proporcionadas en forma de un archivo de guión.
 
-## Tormenta de ideas {#tormenta_de_ideas}
+## Tormenta de ideas 
 
-### Qué hacen los otros {#qué_hacen_los_otros}
+### Qué hacen los otros 
 
 -   [Ejemplos de SolidWorks](http://www.youtube.com/watch?v=cVXQmDStHus)
 
-### Implementación de matrices {#implementación_de_matrices}
+### Implementación de matrices 
 
 La clase de operaciones de matrices puede ser implementada como un patrón tabular y servir como clase base para las operaciones de matrices rectangulares, circulares y según archivos de guión. Dichas clases derivadas sólo tendrán que rellenar en la tabla de repeticiones de la clase base.
 
@@ -144,7 +144,7 @@ Cada línea de la tabla de repeticiones de la clase matriz base tiene que maneja
 
 ## Organización
 
-### Jerarquía de objetos de modelado {#jerarquía_de_objetos_de_modelado}
+### Jerarquía de objetos de modelado 
 
 Este gráfico [1](http://es.wikipedia.org/wiki/Lenguaje_Unificado_de_Modelado%7CUML) muestra la jerarquía de objetos planificada y sus relaciones. En amarillo las clases base abstractas, en azul las implementadas y en gris las que están planificadas.
 
@@ -168,7 +168,7 @@ Este gráfico [1](http://es.wikipedia.org/wiki/Lenguaje_Unificado_de_Modelado%7C
 
 </div>
 
-## Siguientes acciones {#siguientes_acciones}
+## Siguientes acciones 
 
 Las siguientes acciones están definidas en el mapa de desarrollo en Mantis para PartDesign:
 
@@ -185,7 +185,7 @@ Debido a la naturaleza paramétrica/asociativa de PartDesign necesitamos una \"M
 
 <div class="mw-translate-fuzzy">
 
-### Operaciones adicionales {#operaciones_adicionales}
+### Operaciones adicionales 
 
 Las operaciones Pad y Pocket son las primeras piezas de PartDesign. Aún queda trabajo por hacer especialmente con la visibilidad y control visual de manipuladores. Pero después se necesitarán operaciones adicionales.
 
@@ -221,7 +221,7 @@ Gira un croquis alrededor de un eje un cierto ángulo.
 
 <div class="mw-translate-fuzzy">
 
-## Lista de tareas {#lista_de_tareas}
+## Lista de tareas 
 
 **1. Redondear/Achaflanar Pieza**
 

@@ -26,11 +26,11 @@ Dans l\'image précédente, vous pouvez voir le résultat que nous obtiendrons a
 -   Comment contrôler la grille/légende lorsque plusieurs axes sont présents.
 -   Comment modifier les étiquettes, les titres et les positions des légendes.
 
-## Traceur de données {#traceur_de_données}
+## Traceur de données 
 
 Comme nous l\'avons fait dans le [tutoriel précédent](Plot_Basic_tutorial/fr.md), nous utiliserons la console Python intégrée ou des [macros](Macros/fr.md) afin de tracer les données, à la différence que dans ce cas nous tracerons les données sur deux axes différents.
 
-### Création de données Plot {#création_de_données_plot}
+### Création de données Plot 
 
 Dans cet exemple, nous allons tracer 3 fonctions, deux utilisées dans le [Tutoriel de base](Plot_Basic_tutorial/fr.md) et un polynôme. Le fait est que le polynôme aura besoin de nouveaux axes car la plage de variation est différente de toutes les autres. Les commandes suivantes créeront des tableaux de données pour nous:
 
@@ -47,7 +47,7 @@ c = [math.cos(math.pi*2.0*tt) for tt in t]
 
 Lorsque *x* passe de 0 à 2, la fonction *y* a une valeur maximale de 4, donc si nous essayons de tracer cette fonction avec des fonctions trigonométriques, au moins une fonction sera tronquée ou mal mise à l\'échelle, alors nous besoin d\'un tracé multiaxes. Le tracé multiaxes dans FreeCAD est orienté pour obtenir un tracé avec plusieurs axes et non pour obtenir plusieurs tracés dans le même document.
 
-### Fonction ajoutant de nouveaux axes de dessin {#fonction_ajoutant_de_nouveaux_axes_de_dessin}
+### Fonction ajoutant de nouveaux axes de dessin 
 
 Nous allons dessiner une fonction polynomiale sur les axes principaux. Si tous vos axes ont la même taille, il importe peu de savoir quelle fonction est tracée sur quels axes, mais si votre tracé comporte des axes de taille différente (comme dans cet exemple), les axes principaux doivent être les plus grands (car ces axes ont un fond blanc). Pour ce faire, il suffit de lancer une commande
 
@@ -72,9 +72,9 @@ Comme vous pouvez le voir **Plot** est devenu fou, avec axes qui pointes, et, qu
 
 Maintenant nous avons besoin d\'utiliser **[FreeCAD Plot module](Plot_Module/fr.md)**, avec la complexité de ce graphique.
 
-## Configurer Plot {#configurer_plot}
+## Configurer Plot 
 
-### Configurer les axes {#configurer_les_axes}
+### Configurer les axes 
 
 La fonction [FreeCAD Plot module](Plot_Module/fr.md) fournit un outil, pour modifier les propriétés de chacun des axes.
 
@@ -98,11 +98,11 @@ Utilisez les ascenseurs pour modifier les réglages, déplaçons le curseur gauc
 
 Nous pouvons alors définir l\'alignement des axes, et, changer en haut, et, à droite, en définissant un petit décalage de deux unités.
 
-### Configurer les Series {#configurer_les_series}
+### Configurer les Series 
 
 Pour définir les propriétés des **![](images/)_[Plot_Series](Plot_Series/fr.md)** que nous avons fait, regardez dans [Tutoriel](Plot_Basic_tutorial/fr.md).
 
-### Afficher la grille et les légendes {#afficher_la_grille_et_les_légendes}
+### Afficher la grille et les légendes 
 
 Les **![](images/)_[Plot_Grid_(grilles)](Plot_Grid/fr.md)**, et, les **![](images/)_[Plot_Legend_(légendes)](Plot_Legend/fr.md)** apparaissent cachées avec les mêmes outils utilisés dans le [tutoriel](Plot_Basic_tutorial/fr.md), mais dans ce cas, le comportement est un peu différent, en raison de la présence de **deux axes différents**.
 
@@ -112,7 +112,7 @@ Au sujet de la **![](images/)_[légende_(Plot_Legend)](Plot_Legend/fr.md)**, la
 
 Il est possible que vous affichiez une légende, et, que cette légende soit très mal placée, patientez un peu, ce problème sera résolu plus tard.
 
-### Définition des étiquettes axiales {#définition_des_étiquettes_axiales}
+### Définition des étiquettes axiales 
 
 Vous pouvez définir des étiquettes, et, des axes avec le même outil, utilisé dans [previous Tutoriel](Plot_Basic_tutorial/fr.md), à la différence près, que maintenant vous avez plus d\'axes.
 
@@ -135,7 +135,7 @@ La valeur de la police est **20** pour tous, sauf le titre, qui utilise une vale
 
 Que se passe-t-il avec la légende, et, le titre mal placé, intersection avec le deuxième ensemble d\'axes, donc nous devons résoudre ces deux problèmes.
 
-### Définition de la position des éléments {#définition_de_la_position_des_éléments}
+### Définition de la position des éléments 
 
 [FreeCAD Plot module](Plot_Module/fr.md) fournit un outil pour définir la position de plusieurs éléments, comme, les **![](images/)_[titres_(Series)](Plot_Series/fr.md)**, les **![](images/)_[labels](Plot_Labels/fr.md)**, ou la **![](images/)_[légende](Plot_Legend/fr.md)**.
 
@@ -155,6 +155,6 @@ Les éléments de titres, ainsi que les légendes, peuvent être déplacés dans
 
 Sélectionnez le titre des axes **0**, et, déplacez-le vers (**0.24,1.01**), puis sélectionnez la légende, et, déplacez-le dans une meilleure position. Vous pouvez augmenter la dimension de la police.
 
-## Sauvegarder un fichier Plot {#sauvegarder_un_fichier_plot}
+## Sauvegarder un fichier Plot 
 
 Vous pouvez maintenant enregistrer votre travail. Voir [tutoriel précédent](Plot_Basic_tutorial/fr.md) si vous ne savez pas comment faire. {{Tutorials navi}} {{Plot Tools navi}} 

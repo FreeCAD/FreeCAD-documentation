@@ -13,9 +13,9 @@ Before starting, following things shall be considered:
 -   When user folders (\'Mod\', \'Macro\', \...) are referred to, they are located in your user FreeCAD folder. You can locate them at Start up and Configuration → [User related information](Start_up_and_Configuration#User_related_information.md)
 -   This shouldn\'t be done for macros dealing with part modeling. This is rather appropriate for macros that add features, improve the UI, \...
 
-## How to {#how_to}
+## How to 
 
-### Prepare the macro {#prepare_the_macro}
+### Prepare the macro 
 
 Generally, it will happen that a macro isn\'t directly compatible with a startup launch and shall be fine-tuned
 
@@ -63,7 +63,7 @@ All macros will generally present a similar structure with first import section,
 
 Of course if the function \'run()\' already exists in the macro, you can choose any other convenient name Now the macro is ready to be integrated in FreeCAD startup.
 
-### Integrate into FreeCAD startup {#integrate_into_freecad_startup}
+### Integrate into FreeCAD startup 
 
 First create a new folder in your user \'Mod\' folder, let\'s say called \'MacroStartup\'. Copy the modified macro into this newly created folder and rename it with a \'.py\' extension if this isn\'t yet the case (notice that if you develop the macro by yourself, it can be named with \'.py\' extension also in the \'Macro\' folder so that you don\'t need to rename when copying). Finally create in the same folder a file called \'InitGui.py\' which contains the following code:
 
@@ -99,7 +99,7 @@ We are done. Your macro should automatically run at next FreeCAD launch.
 
 Notice that if the original macro was downloaded through the Addon Manager, it will be overwritten on update and thus you have to follow again the steps here.
 
-## General Notes {#general_notes}
+## General Notes 
 
 -   In the example \'InitGui.py\' script above, the function named \'runStartupMacros()\' may be changed, so long as you also change the other four references to it, so they all match.
 -   This script will be run prior to the auto loading of your desired startup workbench in the FreeCAD Preferences, [Preferences\_Editor\#General\_settings](Preferences_Editor#General_settings.md).

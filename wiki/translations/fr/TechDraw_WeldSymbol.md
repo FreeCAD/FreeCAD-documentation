@@ -28,7 +28,7 @@ L\'outil Symbole de soudure ajoute les spécifications de soudage à une ligne d
 
 ## Propriétés
 
-### Symbole de soudure {#symbole_de_soudure}
+### Symbole de soudure 
 
 -    {{PropertyData/fr|All Around}}: affiche le symbole *All Around* ou *Tout autour* (cercle) au niveau de la brisure de la ligne de rappel.
 
@@ -91,7 +91,7 @@ App.activeDocument().DrawTileWeld001.RightText = "right text"
 App.activeDocument().DrawTileWeld001.CenterText = "center text"
 ```
 
-## Tuiles symboles Svg {#tuiles_symboles_svg}
+## Tuiles symboles Svg 
 
 -   Les symboles individuels sont formés de fichiers SVG de 64x64 pixels. Des symboles supplémentaires peuvent être créés dans un programme SVG tel qu\'[Inkscape](https://fr.wikipedia.org/wiki/Inkscape) en utilisant l\'un des symboles fournis par FreeCAD comme modèle.
 

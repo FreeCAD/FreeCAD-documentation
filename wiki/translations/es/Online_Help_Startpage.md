@@ -2,7 +2,7 @@
 
 ![150](images/Crystal_Clear_app_tutorials.png )
 
-## Bienvenido a la ayuda en línea de FreeCAD {#bienvenido_a_la_ayuda_en_línea_de_freecad}
+## Bienvenido a la ayuda en línea de FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -12,7 +12,7 @@ Este documento ha sido creado automáticamente a partir del contenido de la docu
 
 </div>
 
-### Cómo usar esta ayuda {#cómo_usar_esta_ayuda}
+### Cómo usar esta ayuda 
 
 
 <div class="mw-translate-fuzzy">
@@ -22,7 +22,7 @@ Este documento se divide en varias secciones: introducción, uso, *scripting* (*
 
 </div>
 
-### Como Contribuir {#como_contribuir}
+### Como Contribuir 
 
 
 <div class="mw-translate-fuzzy">

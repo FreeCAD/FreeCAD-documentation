@@ -20,7 +20,7 @@ Il comando **Salva tutto** salva tutti i documenti aperti.
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare l\'opzione {{MenuCommand|File → Salva tutto}} dal menu.
+1.  Selezionare l\'opzione **File → Salva tutto** dal menu.
 2.  Per i nuovi documenti: immettere un nome file nella finestra di dialogo e premere il pulsante **Salva**.
 
 
@@ -32,7 +32,7 @@ Il comando **Salva tutto** salva tutti i documenti aperti.
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: {{MenuCommand|Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

@@ -27,14 +27,14 @@ Zastosuj wiązanie równoległości poprzez:
 
 -   Naciśnięcie przycisku **<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Utwórz wiązanie równoległości ...](Sketcher_ConstrainParallel/pl.md)** z paska narzędzi wiązania Szkicownika, wybierając pozycję menu Wiązanie równoległości z podmenu Wiązania Szkicownika w menu Szkic *(wybrane okno robocze Szkicownik)* lub Projekt części *(wybrane okno środowiska Projekt Części)*.
 -   Używając klawiszy **Shift** + **P** skrót klawiszowy.
--   Używając pozycji {{MenuCommand|Szkic → Wiązania Szkicownika → Wiązanie równoległości}} z menu głównego.
+-   Używając pozycji **Szkic → Wiązania Szkicownika → Wiązanie równoległości** z menu głównego.
 
 <img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
 
 
 *Result: Wybrane linie zostają ustawione równolegle do siebie. Zmiana orientacji jednej linii spowoduje zmianę orientacji drugiej, tak aby zachować tę samą orientację.*
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Parallel', Line1, Line2))```

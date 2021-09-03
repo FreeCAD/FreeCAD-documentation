@@ -30,7 +30,7 @@ Cuando se crea una hélice aditiva, la caja de diálogo **Helix parameters** o p
 
 ![](images/PartDesign_AdditiveHelix_taskpanel.png )
 
-### Axis o Eje {#axis_o_eje}
+### Axis o Eje 
 
 Esta opción especifica el eje alrededor del cual el boceto va a realizar el barrido.
 
@@ -61,25 +61,25 @@ La altura de la hélice (de centro a centro).
 
 El número de vueltas en la hélice. Definido como Altura/Pitch
 
-### Ángulo del cono {#ángulo_del_cono}
+### Ángulo del cono 
 
 La proporción en la que el radio de la hélice se incrementa a lo largo del eje. Rango permitido: \[-89°, +89°\].
 
-### Left handed o Hacia la izquierda {#left_handed_o_hacia_la_izquierda}
+### Left handed o Hacia la izquierda 
 
 Si se selecciona, la dirección de giro de la hélice cambia de la dirección horaria por defecto a la dirección antihoraria.
 
-### Reversed o Revés {#reversed_o_revés}
+### Reversed o Revés 
 
 Si está marcada esta casilla, la dirección del eje de la hélice es la contraria de la dirección por defecto.
 
-### Actualizar vista {#actualizar_vista}
+### Actualizar vista 
 
 Si está marcada esta casilla, la hélice se mostrará en la vista y se actualizará automáticamente con cada cambio de parámetro.
 
 ## Preferencias
 
--   Una hélice aditiva que no intersecte con el Body será visible en la vista preliminar si {{MenuCommand|Herramientas → Editar parámetros... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview}} está seleccionado como `True`. Este preferencia por defecto es `False`. {{Version/es|0.20}}
+-   Una hélice aditiva que no intersecte con el Body será visible en la vista preliminar si **Herramientas → Editar parámetros... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview** está seleccionado como `True`. Este preferencia por defecto es `False`. {{Version/es|0.20}}
 
 ## Propiedades
 

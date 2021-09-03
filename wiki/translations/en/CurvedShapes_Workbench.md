@@ -9,7 +9,8 @@ Curved Shapes is a FreeCAD [external workbench](external_workbenches.md) that cr
 
 ## Installation
 
-Recommended installation is through the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon Manager}}
+Recommended installation is through the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the 
+**Tools → Addon Manager**
 
 
 **Note: for manual installation see [Manual installation](Addon_Manager#Manual_installation.md)**
@@ -36,7 +37,7 @@ Recommended installation is through the FreeCAD <img alt="" src=images/AddonMana
 -   [Curves Workbench](Curves_Workbench.md)
 -   [AirPlaneDesign Workbench](AirPlaneDesign_Workbench.md)
 
-## External Workbenches {#external_workbenches}
+## External Workbenches 
 
 
 

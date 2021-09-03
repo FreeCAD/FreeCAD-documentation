@@ -15,34 +15,40 @@ Il comando **Solido regolare** crea un oggetto mesh solido parametrico regolare.
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare l\'opzione {{MenuCommand|Mesh → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solido regolare...}} dale menu.
-2.  Si apre la finestra di dialogo {{MenuCommand|Solido regolare}}.
+1.  Selezionare l\'opzione **Mesh → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solido regolare...** dale menu.
+2.  Si apre la finestra di dialogo **Solido regolare**.
 3.  Prima selezionare un tipo di oggetto mesh dall\'elenco a discesa:
     -   
-        {{MenuCommand|<img src="images/Mesh_Cube.svg" width=16px> Cubo}}
+        **<img src="images/Mesh_Cube.svg" width=16px> Cubo
+**
         
 
     -   
-        {{MenuCommand|<img src="images/Mesh_Cylinder.svg" width=16px> Cilindro}}
+        **<img src="images/Mesh_Cylinder.svg" width=16px> Cilindro
+**
         
 
     -   
-        {{MenuCommand|<img src="images/Mesh_Cone.svg" width=16px> Cono}}
+        **<img src="images/Mesh_Cone.svg" width=16px> Cono
+**
         
 
     -   
-        {{MenuCommand|<img src="images/Mesh_Sphere.svg" width=16px> Sfera}}
+        **<img src="images/Mesh_Sphere.svg" width=16px> Sfera
+**
         
 
     -   
-        {{MenuCommand|<img src="images/Mesh_Ellipsoid.svg" width=16px> Ellissoide}}
+        **<img src="images/Mesh_Ellipsoid.svg" width=16px> Ellissoide
+**
         
 
     -   
-        {{MenuCommand|<img src="images/Mesh_Torus.svg" width=16px> Toro}}
+        **<img src="images/Mesh_Torus.svg" width=16px> Toro
+**
         
 4.  Specificare le impostazioni richieste. Le impostazioni disponibili dipendono dal tipo di oggetto mesh. Vedere [Proprietà](#Proprietà.md).
-5.  Per le mesh con superfici curve: un valore {{MenuCommand|Campionatura}} più alto produce una mesh più fine.
+5.  Per le mesh con superfici curve: un valore **Campionatura** più alto produce una mesh più fine.
 6.  Premere il pulsante **Crea** per creare l\'oggetto mesh.
 7.  Se necessario, creare più oggetti mesh.
 8.  Premere il pulsante **Chiudi** per chiudere la finestra di dialogo e terminare il comando.
@@ -58,7 +64,7 @@ Il comando **Solido regolare** crea un oggetto mesh solido parametrico regolare.
 
 Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.md) properties. In addition each mesh object type has a number of properties to control its parametric behavior:
 
-### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube {#mesh_cube.svg_cube}
+### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube 
 
 #### Data
 
@@ -71,9 +77,9 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Width|FloatConstraint**: the width of the cube.
 
-### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylinder {#mesh_cylinder.svg_cylinder}
+### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylinder 
 
-#### Data {#data_1}
+#### Data 
 
 
 {{TitleProperty|Base}}
@@ -88,9 +94,9 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
 
-### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cone {#mesh_cone.svg_cone}
+### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cone 
 
-#### Data {#data_2}
+#### Data 
 
 
 {{TitleProperty|Base}}
@@ -107,9 +113,9 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
 
-### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphere {#mesh_sphere.svg_sphere}
+### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphere 
 
-#### Data {#data_3}
+#### Data 
 
 
 {{TitleProperty|Base}}
@@ -118,9 +124,9 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
 
-### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoid {#mesh_ellipsoid.svg_ellipsoid}
+### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoid 
 
-#### Data {#data_4}
+#### Data 
 
 
 {{TitleProperty|Base}}
@@ -131,9 +137,9 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
 
-### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Torus {#mesh_torus.svg_torus}
+### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Torus 
 
-#### Data {#data_5}
+#### Data 
 
 
 {{TitleProperty|Base}}

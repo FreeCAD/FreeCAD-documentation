@@ -6,11 +6,11 @@
 
 {{TOCright}}
 
-## SVG templates creation {#svg_templates_creation}
+## SVG templates creation 
 
 Creating templates for the Drawing module is very easy. See also the tutorial [Drawing Template HowTo](Drawing_Template_HowTo.md). Templates are svg files, created with any application capable of exporting svg files, such as [Inkscape](http://www.inkscape.org). However, you will often need to open the svg file in a text editor afterwards, to comply with the following rules. Only two rules must be followed:
 
-### Base rules {#base_rules}
+### Base rules 
 
 
 <div class="mw-translate-fuzzy">
@@ -55,7 +55,7 @@ This text above (which is actually an XML comment) must be on a separate line, a
 
 xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
-### Title block {#title_block}
+### Title block 
 
 In addition to these rules, since FreeCAD 0.14, information about the Border and Title block can be added to the template for use by the orthographic projection tool. This information defines where FreeCAD can, and can not place the projections.
 
@@ -113,7 +113,7 @@ viewBox="0 0 xxx yyy"
 
 -   Several custom attributes can be placed in templates. The list of currently supported attributes is available on the [Svg Namespace](Svg_Namespace.md) page.
 
-## DXF templates {#dxf_templates}
+## DXF templates 
 
 Since version 0.15, FreeCAD can reliably export a [Drawing](Drawing_Workbench.md) page to the DXF format. This system also uses templates. If a dxf file with the same name is found in the same folder as the SVG template used for a page, it will be used for export. If not, a default empty template is created on the fly.
 
@@ -159,64 +159,64 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 <div class="mw-translate-fuzzy">
 
-## A3 mallar {#a3_mallar}
+## A3 mallar 
 
 
 </div>
 
-### A3 Classic: {#a3_classic}
+### A3 Classic: 
 
 <img alt="" src=images/A3_Classic.svg  style="width:800px;">
 
-### A3 Clean: {#a3_clean}
+### A3 Clean: 
 
 <img alt="" src=images/A3_Clean.svg  style="width:800px;">
 
-### A3 Modern: {#a3_modern}
+### A3 Modern: 
 
 <img alt="" src=images/A3_Modern.svg  style="width:800px;">
 
-### A3 Showcase: {#a3_showcase}
+### A3 Showcase: 
 
 <img alt="" src=images/A3_Showcase.svg  style="width:800px;">
 
-### A3 Landscape english: {#a3_landscape_english}
+### A3 Landscape english: 
 
 <img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
 
-## A4 Templates {#a4_templates}
+## A4 Templates 
 
-### A4 Landscape english: {#a4_landscape_english}
+### A4 Landscape english: 
 
 <img alt="" src=images/A4_Landscape_english.svg  style="width:800px;">
 
-### A4 Portrait 1 english: {#a4_portrait_1_english}
+### A4 Portrait 1 english: 
 
 <img alt="" src=images/A4_Portrait_1_english.svg  style="width:400px;">
 
-## US Letter Templates {#us_letter_templates}
+## US Letter Templates 
 
-### US Letter landscape: {#us_letter_landscape}
+### US Letter landscape: 
 
 <img alt="" src=images/US_Letter_landscape.svg  style="width:800px;">
 
-### US Letter portrait: {#us_letter_portrait}
+### US Letter portrait: 
 
 <img alt="" src=images/US_Letter_portrait.svg  style="width:400px;">
 
-### US Letter ds Landscape: {#us_letter_ds_landscape}
+### US Letter ds Landscape: 
 
 <img alt="" src=images/US_Letter_ds_Landscape.svg  style="width:800px;">
 
-### US Legal ds Landscape: {#us_legal_ds_landscape}
+### US Legal ds Landscape: 
 
 <img alt="" src=images/US_Legal_ds_Landscape.svg  style="width:800px;">
 
-### US Ledger ds Landscape: {#us_ledger_ds_landscape}
+### US Ledger ds Landscape: 
 
 <img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width:800px;">
 
-## Other standards available {#other_standards_available}
+## Other standards available 
 
 -   [ANSI templates](ANSI_templates.md): according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
 -   [Arch templates](Arch_templates.md): according to American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard

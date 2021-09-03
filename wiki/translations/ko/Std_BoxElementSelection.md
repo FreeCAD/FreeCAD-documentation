@@ -15,7 +15,7 @@
 ## 용법
 
 1.  이 명령을 실행하는 방법은 여러 가지입니다:
-    -   메뉴에서 {{MenuCommand|편집 → <img src="images/Std_BoxElementSelection.svg" width=16px> 개체 선택 상자}} 옵션을 선택합니다.
+    -   메뉴에서 **편집 → <img src="images/Std_BoxElementSelection.svg" width=16px> 개체 선택 상자** 옵션을 선택합니다.
     -   단축키를 사용합니다: **Shift**+**E**.
 2.  다음 중 하나를 수행합니다:
     -   선택하려는 개체의 면의 기하학적 중심이 포함되도록 왼쪽에서 오른쪽으로 드래그하여 사각형을 그립니다.

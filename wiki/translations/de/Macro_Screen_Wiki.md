@@ -32,7 +32,7 @@ Dieses Makro erlaubt dem Benutzer die [3D Ansicht](3D_view/de.md) in einem gewü
 
 ## Use
 
-### Images options {#images_options}
+### Images options 
 
 #### Definition
 
@@ -83,7 +83,7 @@ Dieses Makro erlaubt dem Benutzer die [3D Ansicht](3D_view/de.md) in einem gewü
     {{RadioButton|1024x768 (XGA)}}
     
 
-#### Format image {#format_image}
+#### Format image 
 
 1.  
     {{SpinBox|600 px}}Length (Default: 600 px)
@@ -99,7 +99,7 @@ Dieses Makro erlaubt dem Benutzer die [3D Ansicht](3D_view/de.md) in einem gewü
 2.  
     {{RadioButton|TRUE|Screen 3D}}: The 3D view of FreeCAD
 
-#### Background Color {#background_color}
+#### Background Color 
 
 1.  
     {{RadioButton|TRUE|Current}}(Default)
@@ -145,9 +145,9 @@ Dieses Makro erlaubt dem Benutzer die [3D Ansicht](3D_view/de.md) in einem gewü
     1.  ![](images/Macro_Screen_Wiki_ToolBar_01.png )![](images/Macro_Screen_Wiki_ToolBar_02.png )![](images/Macro_Screen_Wiki_ToolBar_03.png )![](images/Macro_Screen_Wiki_ToolBar_04.png )
     2.  The button **[[Image:Macro_Screen_Wiki_ToolBar_04_6.png]]** Flip/Flop Y/N the mini toolBar ![](images/Macro_Screen_Wiki_ToolBar_Mini.png )
 
-### Rotation options {#rotation_options}
+### Rotation options 
 
-#### Rotation on {#rotation_on}
+#### Rotation on 
 
 1.  
     {{RadioButton|3D View}}: The complete view is rotated
@@ -171,7 +171,7 @@ Dieses Makro erlaubt dem Benutzer die [3D Ansicht](3D_view/de.md) in einem gewü
 
     :\* To use this option: select first the object, then afterwards select the wire guideline. If {{RadioButton|TRUE|{{ColoredText||#995500|'''D'''}}}} is checked and no wire is selected the direction is `Vector(0, 0, 0)`
 
-#### Point Rotation BoundBox {#point_rotation_boundbox}
+#### Point Rotation BoundBox 
 
 1.  Object: Rotation on the BoundBox center of the object selected
 2.  Sub Object: Rotation on the BoundBox center of the sub object selected
@@ -212,7 +212,7 @@ Dieses Makro erlaubt dem Benutzer die [3D Ansicht](3D_view/de.md) in einem gewü
 3.  
     **+**: Increase the value by 10 degrees
 
-#### Command {#command_1}
+#### Command 
 
 -   Delay between 2 images
 

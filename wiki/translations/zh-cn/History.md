@@ -44,7 +44,7 @@ FreeCAD的发展历史可以从2001年1月讲起。那时[Jürgen Riegel开始�
 
 </div>
 
-### Werner Mayer {#werner_mayer}
+### Werner Mayer 
 
 Werner Mayer joined the project as soon as it was announced as an open source project (prior to the announcement the project was a private project of Jürgen). See this forum post from Werner in German: <https://forum.freecadweb.org/viewtopic.php?f=13&t=40235&start=10#p342330>
 
@@ -115,11 +115,11 @@ Version 0.11 as released in May 2011 and introduced the new Part Design workbenc
 
 Version 0.12 was released in January 2012 and featured a more complete Sketcher workbench. It included a totally rewritten solver, FreeGCS. It was the result of months of work by the main FreeCAD developers along with newcomers logari81 (who programmed the solver) and mrlukeparry. More tools were added to the PartDesign workbench.
 
-### Enlargement of core developer team {#enlargement_of_core_developer_team}
+### Enlargement of core developer team 
 
 In April 2019 the team of core developers was expanded: Jürgen, Werner and Yorik were joined by Abdullah, Bernd, sliptonic and WandererFan
 
-## Interesting Posts on the forum {#interesting_posts_on_the_forum}
+## Interesting Posts on the forum 
 
 -   about PartDesignNext and other design decisions: <https://forum.freecadweb.org/viewtopic.php?f=8&t=34923&start=130#p297074>
 -   about Forum history: <https://forum.freecadweb.org/viewtopic.php?f=8&t=7448&start=200#p287106>
@@ -131,7 +131,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 -   about FEM history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48646#p416389>
 -   about FEM mesher history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48733#p417627>
 
-## Release history {#release_history}
+## Release history 
 
 #### Overview
 
@@ -170,7 +170,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
           Old version
           
 
-## External Links {#external_links}
+## External Links 
 
 -   [SourceForge Files section](http://sourceforge.net/projects/free-cad/files/)
 -   [SourceForge Old Files section](http://sourceforge.net/projects/free-cad/files/OldFiles/)

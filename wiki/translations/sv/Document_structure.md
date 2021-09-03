@@ -26,7 +26,7 @@ Objekten inuti ett FreeCAD dokument kan vara av olika typer. Varje arbetsbänk k
 
 Om det finns åtminstone ett dokument öppet i FreeCAD, så finns det alltid ett och endast ett aktivt dokument. Det är det dokument som syns i den nuvarande 3D vyn, dokumentet som du för närvarande jobbar med.
 
-## Applikations och Användargränssnitt {#applikations_och_användargränssnitt}
+## Applikations och Användargränssnitt 
 
 
 <div class="mw-translate-fuzzy">

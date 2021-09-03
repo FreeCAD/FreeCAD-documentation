@@ -30,7 +30,8 @@ Dans les scénarios les plus courants, la liste suivante détaille les formes r�
 ## Utilisation
 
 1.  Sélectionner une ou des formes dans la [vue 3D](3D_view/fr.md) ou dans le modèle de la [vue en arborescence](Tree_view/fr.md).
-2.  Cliquer sur le bouton **<img src="images/Part_Extrude.svg" width=16px> [Part Extrusion](Part_Extrude/fr.md)** dans la barre d\'outils ou aller dans le menu {{MenuCommand|Pièce → Extrusion}}
+2.  Cliquer sur le bouton **<img src="images/Part_Extrude.svg" width=16px> [Part Extrusion](Part_Extrude/fr.md)
+** dans la barre d\'outils ou aller dans le menu **Pièce → Extrusion**
 3.  Définir la direction et la longueur, et optionnellement d\'autres paramètres (voir la section suivante [Paramètres](#Paramètres.md) pour plus de détails).
 4.  Cliquer sur **OK**.
 
@@ -68,7 +69,7 @@ La forme extrudée est définie par les paramètres suivants qui peuvent être �
 
 -   **Label**: étiquette à afficher dans la [vue en arborescence](Tree_view/fr.md) du modèle (non disponible lors de la création d\'extrusion)
 
-## Boîte de dialogue {#boîte_de_dialogue}
+## Boîte de dialogue 
 
 ![](images/Part_Extrude_dialog.png )
 
@@ -104,7 +105,7 @@ La forme extrudée est définie par les paramètres suivants qui peuvent être �
 
 -   L\'extrusion avec angle de dépouille ne supporte pas les trous. Cela peut également donner des résultats erronés si le nombre de segments dans le profil change à la suite de la réduction progressive.
 
-## Comparaison avec [PartDesign Protusion](PartDesign_Pad/fr.md) {#comparaison_avec_partdesign_protusion}
+## Comparaison avec [PartDesign Protusion](PartDesign_Pad/fr.md) 
 
 PartDesign Protusion est également une fonctionnalité d\'extrusion mais il existe des différences importantes.
 

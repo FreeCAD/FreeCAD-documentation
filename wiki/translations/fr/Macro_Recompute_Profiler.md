@@ -156,7 +156,7 @@ def run():
 run()
 }}
 
-## Post-processing resultats {#post_processing_resultats}
+## Post-processing resultats 
 
 La sortie de la macro sera entrelacée avec les messages généraux générés par le recalcul des fonctionnalités. Cela ressemble généralement à ceci: {{code|code=
 Recomputing... (time in seconds, label)
@@ -193,7 +193,7 @@ Sketcher::Solve()-DogLeg-T:0
 ...
 }} (Pour MS-Excel, après avoir copié le texte dans la vue rapport coller le texte dans le Bloc-notes et le recopier depuis Bloc-notes puis coller-le dans MS-Excel \... la copie dans la vue rapport ne sépare pas les colonnes car les tabulations sont inexplicablement perdues.)
 
-## FC version {#fc_version}
+## FC version 
 
 Cette macro nécessite FreeCAD 0.17.10644 ou plus, qui sont les versions où App.ActiveDocument.RecomputesFrozen est disponible. Elle ne fonctionnera pas avec la version v0.16.
 

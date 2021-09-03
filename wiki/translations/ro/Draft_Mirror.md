@@ -35,7 +35,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Selectați obiectele pe care doriți să le reflectați
 2.  Apăsați butonul **<img src="images/Draft_Mirror.png" width=16px> [[Draft Mirror]]
@@ -70,7 +70,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Properties
 
@@ -105,7 +105,7 @@ A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Fea
 
 <div class="mw-translate-fuzzy">
 
-## Script-Programre {#script_programre}
+## Script-Programre 
 
 Unealta Clone poate fi folosită în [macro-uri](macros/ro.md) şi de la consola Python cu ajutorul funcţiei următoare:
 

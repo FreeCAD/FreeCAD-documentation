@@ -23,19 +23,19 @@
 
 This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
 
--    {{MenuCommand|Line color}}
+-    **Line color**
     
 
--    {{MenuCommand|Line width}}
+-    **Line width**
     
 
--    {{MenuCommand|Shape color}}
+-    **Shape color**
     
 
--    {{MenuCommand|Text size}}
+-    **Text size**
     
 
--    {{MenuCommand|Text color}}
+-    **Text color**
     
 
 ## Usage

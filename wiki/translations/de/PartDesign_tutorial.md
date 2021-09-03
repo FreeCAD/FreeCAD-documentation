@@ -20,7 +20,7 @@ Dieses Tutorium soll den Leser in den grundlegenden Arbeitsablauf des [PartDesig
 
 ### Verfahren
 
-#### Erstellen von 3D Geometrie {#erstellen_von_3d_geometrie}
+#### Erstellen von 3D Geometrie 
 
 Der Zweck des **PartDesign Arbeitsbereichs** ist es, dem Benutzer die Erstellung von Geometrie im 3D Raum zu ermöglichen. Als solche ist sie mit Werkzeugen ausgestattet, um Skizzen zu nutzen und sie in 3D Objekte umzuwandeln.
 
@@ -42,7 +42,7 @@ Eine andere Möglichkeit zum Erzeugen von 3D Geometrie ist das <img alt="" src=i
 4.  Setze die \"Achse\" auf die \"Horizontale Skizzenachse\"
 5.  Setze den Winkel Winkel auf 360°.
 
-#### Subtraktions Merkmale {#subtraktions_merkmale}
+#### Subtraktions Merkmale 
 
 Wir beginnen mit der Erstellung einer Skizze mit der Form, die wir subtrahieren wollen.
 
@@ -69,7 +69,7 @@ Danach werden wir eine **Taschen** Funktion anwenden.
 2.  Wähle <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Tasche](PartDesign_Pocket/de.md)
 3.  Setze den Abstand auf **Durch alles**
 
-#### Muster Merkmale {#muster_merkmale}
+#### Muster Merkmale 
 
 Rufe das extrudierte Profil auf, das zu Beginn des Tutoriums erstellt wurde.
 

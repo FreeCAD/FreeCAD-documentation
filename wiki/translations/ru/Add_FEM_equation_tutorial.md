@@ -22,7 +22,7 @@ The task can be split into five parts:
 -   **Extend writer object**. Extending the analysis export of elmer to support the new equation type.
 -   **Gui tool to create a equation**. Access the new equation function through workbench Gui.
 
-## New equation type {#new_equation_type}
+## New equation type 
 
 In this step we are going to modify the following file:
 
@@ -43,7 +43,7 @@ class FlowViewProxy(BaseViewProxy):
         return ":/icons/FEM_EquationFlow.svg"
 ```
 
-## New Elmer\'s equation object {#new_elmers_equation_object}
+## New Elmer\'s equation object 
 
 In this step we are going to implement the document object. We need to add a new {{Incode|flow.py}} file at:
 
@@ -67,7 +67,7 @@ Let\'s start with adding the new {{Incode|flow.py}} file. This file can be copie
 
 The flow equation in Elmer is a potentially non-linear equation. This means that we are going to base our work on {{Incode|heat.py}}.
 
-### Editing files {#editing_files}
+### Editing files 
 
 After copying {{Incode|heat.py}} to {{Incode|flow.py}}, adjust {{Incode|flow.py}} in these locations:
 
@@ -102,7 +102,7 @@ Finally one has to register a **makeEquationFlow** definition in {{Incode|src/Mo
 
 FreeCAD uses **make** to build the program. So we need to register the new module file ({{Incode|flow.py}}) in {{Incode|src/Mod/Fem/CMakeLists.txt}} the way described in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). The suitable lists can be easily found by searching for existing equation modules files of Elmer.
 
-## Extend Solver Object {#extend_solver_object}
+## Extend Solver Object 
 
 In this step we are going to modify the following file:
 
@@ -127,7 +127,7 @@ _EQUATIONS = {
 }
 ```
 
-## Extend writer object {#extend_writer_object}
+## Extend writer object 
 
 In this step we are going to modify the following file:
 
@@ -180,7 +180,7 @@ can control a series of other detailed methods. Our flow equation uses the follo
 
 We now finished the function part of the new equation. Next we\'ll connect the new equation through the GUI.
 
-## Gui tool to create an equation {#gui_tool_to_create_an_equation}
+## Gui tool to create an equation 
 
 We have just created a new equation class. To access it from the FEM GUI, we need to create a button and link it to the new equation class. Here is a tutorial: [Add button to FEM toolbar tutorial](Add_button_to_FEM_toolbar_tutorial.md).
 

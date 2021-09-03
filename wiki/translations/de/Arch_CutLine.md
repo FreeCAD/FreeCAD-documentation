@@ -22,7 +22,7 @@ Das [Arch SchneideLinie](Arch_CutLine/de.md) Werkzeug ermöglicht dir ein festes
 1.  Wähle das zu schneidende Objekt in der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md).
 2.  Dann wähle die zu verwendende Kante, um das Objekt zu schneiden, bspw. einen [Draft Linienzug](Draft_Wire/de.md). Dieses Objekt sollte nur in der [3D-Ansicht](3D_view/de.md) ausgewählt werden.
 3.  Drücke die **<img src="images/Arch_CutLine.svg" width=16px> [Cut with a line](Arch_CutLine/de.md)**-Schaltfläche.
-4.  Wähle {{MenuCommand|Behind}} oder {{MenuCommand|Front}} zur Auswahl, welcher Teil des Volumenkörpers entfernt werden soll.
+4.  Wähle **Behind** oder **Front** zur Auswahl, welcher Teil des Volumenkörpers entfernt werden soll.
 5.  Klicke die **OK**-Schaltfläche.
 
 ## Skripten

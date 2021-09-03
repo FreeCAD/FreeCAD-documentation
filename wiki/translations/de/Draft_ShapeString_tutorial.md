@@ -35,25 +35,25 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
 :   1.2. Drücke die **<img src=images/Std_ViewFitAll.svg style="width:16px"> [Ansicht alles einpassen](Std_ViewFitAll/de.md)** Schaltfläche wenn Du Objekte hinzufügst, um die [3D Ansicht](3D_View/de.md) so zu schwenken und zu zoomen, dass alle Elemente in der Ansicht zu sehen sind.
 :   1.3. Halte **Strg** gedrückt, währen Du klickst, um mehrere Elemente auszuwählen. Wenn Du etwas falsch ausgewählt hast oder alles abwählen willst, klickst Du einfach auf eine leere Stelle in der [3D Ansicht](3D_view/de.md).
 
-## Erstelle die Grundform {#erstelle_die_grundform}
+## Erstelle die Grundform 
 
 2\. Füge einen Grundkörper Würfel ein, indem Du auf **<img src="images/Part_Box.svg" width=16px> [Quader](Part_Box/de.md)** klickst.
 
 :   2.1. Wähle `Würfel` in der [Baumansicht](tree_view/de.md).
-:   2.2. Ändere die Abmessungen im {{MenuCommand|Daten}}reiter des [Eigenschafteneditors](property_editor/de.md).
-:   2.3. Ändere {{MenuCommand|Breite}} in `31 mm`.
+:   2.2. Ändere die Abmessungen im **Daten**reiter des [Eigenschafteneditors](property_editor/de.md).
+:   2.3. Ändere **Breite** in `31 mm`.
 
 3\. Erstelle eine Fase.
 
 :   3.1. Wähle die obere Kante (`Edge6`) auf der Vorderseite des `Würfel` in der [3D Ansicht](3D_view/de.md).
 :   3.2. Drücke **<img src="images/Part_Chamfer.svg" width=16px> [Fase](Part_Chamfer/de.md)**.
-:   3.3. Im {{MenuCommand|Kanten anfasen}} [Aufgabenpaneel](task_panel/de.md) gehe zu {{MenuCommand|Auswahl}}, wähle {{MenuCommand|Kanten wählen}}. Als {{MenuCommand|Verrundungstyp}} wähle `Konstante Länge`, dann setze {{MenuCommand|Länge}} auf `5 mm`.
+:   3.3. Im **Kanten anfasen** [Aufgabenpaneel](task_panel/de.md) gehe zu **Auswahl**, wähle **Kanten wählen**. Als **Verrundungstyp** wähle `Konstante Länge`, dann setze **Länge** auf `5 mm`.
 :   3.4. Drücke **OK**. Dies erzeugt ein `Fasen` Objekt.
-:   3.5. In der [Baumansicht](tree_view/de.md), wähle `Fase`, im {{MenuCommand|Ansicht}}s Reiter ändere den Wert {{MenuCommand|Linienbreite}} auf `2.0`.
+:   3.5. In der [Baumansicht](tree_view/de.md), wähle `Fase`, im **Ansicht**s Reiter ändere den Wert **Linienbreite** auf `2.0`.
 
 ![](images/01_T04_Part_Cube_base_long.png ) *Basisobjekt erzeugt aus einem Würfel und einer Fasenbearbeitung.*
 
-## Einfügen der FormZeichenkette {#einfügen_der_formzeichenkette}
+## Einfügen der FormZeichenkette 
 
 4\. Wechsle in die [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
 
@@ -63,12 +63,12 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
 5\. Füge den Text \"FreeCAD\" ein.
 
 :   5.1. Drücke auf **<img src=images/Draft_ShapeString.svg style="width:16px"> [Formzeichenfolge](Draft_ShapeString/de.md)**
-:   5.2. Ändere {{MenuCommand|X}} in `0 mm`.
-:   5.3. Ändere {{MenuCommand|Y}} in `0 mm`.
-:   5.4. Ändere {{MenuCommand|Z}} in `0 mm`.
+:   5.2. Ändere **X** in `0 mm`.
+:   5.3. Ändere **Y** in `0 mm`.
+:   5.4. Ändere **Z** in `0 mm`.
 :   5.5. Oder drücke **Punkt zurücksetzen**.
-:   5.6. Ändere {{MenuCommand|Zeichenfolge}} in `FreeCAD`; ändere {{MenuCommand|Höhe}} in `5 mm`; ändere {{MenuCommand|Nachverfolgung}} in `0 mm`.
-:   5.7. Stelle sicher, dass {{MenuCommand|Schriftartdatei}} auf eine gültige Schriftart zeigt, z.B. `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf`. Drücke die Auslassungspunkte **...**, um den Dialog des Betriebssystems zu öffnen und eine Schriftart zu finden.
+:   5.6. Ändere **Zeichenfolge** in `FreeCAD`; ändere **Höhe** in `5 mm`; ändere **Nachverfolgung** in `0 mm`.
+:   5.7. Stelle sicher, dass **Schriftartdatei** auf eine gültige Schriftart zeigt, z.B. `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf`. Drücke die Auslassungspunkte **...**, um den Dialog des Betriebssystems zu öffnen und eine Schriftart zu finden.
 
     :   
         **Hinweis:**
@@ -76,25 +76,25 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
         mehr Details zum Arbeiten mit Schriftarten findest du im [Draft FormZeichenfolge Hinweise](Draft_ShapeString#Notes/de.md)-Abschnitt
 :   5.8. Drücke **OK**. Dies wird ein `FormZeichenfolge` Objekt erzeugen.
 :   5.9. Berechne das Dokument neu, indem du **<img src=images/Std_Refresh.svg style="width:16px"> [Aktualisieren](Std_Refresh.md)** drückst.
-:   5.10. Wähle in der [Baumansicht](tree_view/de.md) die Option `FormZeichenfolge`, ändere im Reiter {{MenuCommand|Ansicht}} den Wert von {{MenuCommand|Linienbreite}} in `2.0`.
-:   5.11. Wähle in der [Baumansicht](tree_view/de.md) `Fase`, in der {{MenuCommand|Ansicht}} ändre im Reiter den Wert von {{MenuCommand|Visibility}} in `false` oder drücke **Space** auf der Tastatur. Dies blendet das Objekt aus, sodass Du die `Formzeichenfolge` besser sehen kannst.
+:   5.10. Wähle in der [Baumansicht](tree_view/de.md) die Option `FormZeichenfolge`, ändere im Reiter **Ansicht** den Wert von **Linienbreite** in `2.0`.
+:   5.11. Wähle in der [Baumansicht](tree_view/de.md) `Fase`, in der **Ansicht** ändre im Reiter den Wert von **Visibility** in `false` oder drücke **Space** auf der Tastatur. Dies blendet das Objekt aus, sodass Du die `Formzeichenfolge` besser sehen kannst.
 :   5.12. Um den FormZeichenfolge von oben zu sehen, ändere die Ansicht, durch drücken von **<img src=images/View-top.svg style="width:16px"> [Oben (XY)](Std_ViewTop/de.md)**, oder **2** in der Tastatur.
 :   5.13. Um die isometrische Ansicht wiederherzustellen, drücke **<img src=images/Std_ViewIsometric.svg style="width:16px"> [Isoemetrische Ansicht](Std_ViewIsometric/de.md)**, oder **0** in der Tastatur.
 
 ![](images/02_T04_Part_ShapeString.png ) *Text erstellt als FormZeichenfolge, d.h. als eine Sammlung von Kanten in einer Ebene.*
 
-## Erstellen des 3D Volumentextes {#erstellen_des_3d_volumentextes}
+## Erstellen des 3D Volumentextes 
 
 6\. Wechsle wieder in die [Part Arbeitsbereich](Part_Workbench/de.md).
 
 :   6.1. In der <img src=images/Part_Extrude.svg style="width:Baumansicht](tree_view/de.md) wähle `ShapeString` und drücke dann **[16px"> [Extrudieren](Part_Extrude/de.md)**.
-:   6.2. Im {{MenuCommand|Extrudieren}} [Aufgabenpaneel](task_panel/de.md) gehe zu {{MenuCommand|Richtung}}, wähle {{MenuCommand|Entlang der Normalen}}; in {{MenuCommand|Länge}} setze {{MenuCommand|Entlang}} auf `1 mm`; hake auch die Option {{MenuCommand|Erzeuge Volumenkörper}} an.
+:   6.2. Im **Extrudieren** [Aufgabenpaneel](task_panel/de.md) gehe zu **Richtung**, wähle **Entlang der Normalen**; in **Länge** setze **Entlang** auf `1 mm`; hake auch die Option **Erzeuge Volumenkörper** an.
 :   6.3. Drücke **OK**. Dies wird ein `Extrudieren` Objekt erzeugen.
-:   6.4. Wähle in der [Baumansicht](tree_view/de.md) die Option {{Incode|Extrudieren}}, ändere im Reiter {{MenuCommand|Ansicht}} den Wert von {{MenuCommand|Linienbreite}} in {{Incode|2.0}}.
+:   6.4. Wähle in der [Baumansicht](tree_view/de.md) die Option {{Incode|Extrudieren}}, ändere im Reiter **Ansicht** den Wert von **Linienbreite** in {{Incode|2.0}}.
 
 ![](images/03_T04_Part_ShapeString_Extrude.png ) *Text als FormZeichenfolge erstellt und durch Extrusion in einen Festkörper verwandelt.*
 
-## Hilfsskizze zur Positionierung einfügen {#hilfsskizze_zur_positionierung_einfügen}
+## Hilfsskizze zur Positionierung einfügen 
 
 Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung der FormZeichenfolgen Extrusion verwendet wird.
 
@@ -105,7 +105,7 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 9\. Wähle in der [Baumansicht](tree_view/de.md) die Option {{Incode|Fase}} und drücke **Leertaste** auf der Tastatur, um sie sichtbar zu machen.
 
 :   9.1. Wähle die durch die Fasenoperation (`Face3`) erzeugte schräge Fläche aus.
-:   9.2. Klicke auf **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [NeueSkizze](Sketcher_NewSketch/de.md)**. Wähle im Dialogfeld {{MenuCommand|Skizzenanhang}} die Option `FlacheFläche` und drücke **OK**.
+:   9.2. Klicke auf **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [NeueSkizze](Sketcher_NewSketch/de.md)**. Wähle im Dialogfeld **Skizzenanhang** die Option `FlacheFläche` und drücke **OK**.
 :   9.3. Die Ansicht sollte sich automatisch so einstellen, dass die Kamera parallel zur gewählten Fläche ist.
 :   9.4. Zeichne eine horizontale Linie in einer üblichen Position oben auf der Fläche. Die Länge ist nicht wichtig; wir sind nur an ihrer Position interessiert.
 :   9.5. Beschränke den linken Endpunkt mit `2.5 mm` auf einen Abstand von der lokalen X Achse und von der lokalen Y Achse, indem **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:BeschränkeAbstandX](Sketcher_ConstrainDistanceX/de.md)** and **[16px"> [BeschränkeAbstandY](Sketcher_ConstrainDistanceY/de.md)**.
@@ -118,21 +118,21 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 <img alt="" src=images/05_T04_Part_ShapeString_support_sketch_3D.png  style="width:500px;"> 
 *Skizzen Linie erstellt auf der Oberseite der Volumenkörperfläche, zur Verwendung als Referenz für die Positionierung des extrudierten Textes.*
 
-## Positionierung des Volumentextes im 3D Raum {#positionierung_des_volumentextes_im_3d_raum}
+## Positionierung des Volumentextes im 3D Raum 
 
 10\. Wähle in der [Baumansicht](tree_view/de.md) {{Incode|Extrudieren}} und drücke **Leertaste** auf der Tastatur, um sie sichtbar zu machen.
 
-11\. Wähle in der [Baumansicht](tree_view/de.md) die Option {{Incode|Extrudieren}}, klicke im Reiter {{MenuCommand|Daten}} des [Eigenschaften Editor](property_editor/de.md) auf den {{MenuCommand|Platzierung}} Wert, so dass die Auslassungspunkte Schaltfläche **...** rechts erscheint.
+11\. Wähle in der [Baumansicht](tree_view/de.md) die Option {{Incode|Extrudieren}}, klicke im Reiter **Daten** des [Eigenschaften Editor](property_editor/de.md) auf den **Platzierung** Wert, so dass die Auslassungspunkte Schaltfläche **...** rechts erscheint.
 
-:   11.1. Hake die Option {{MenuCommand|Inkrementelle Änderungen übernehmen}} an.
-:   11.2. Ändere den {{MenuCommand|Drehung}} in `Rotationsachse mit Winkel`; {{MenuCommand|Achse}} in `Z`, und {{MenuCommand|Winkel}} in `90 Grad`, dann klicke auf **Übernehmen**. Dies wendet eine Rotation um die Z Achse an und setzt das {{MenuCommand|Winkel}} Feld auf Null zurück.
-:   11.3. Ändere den {{MenuCommand|Drehung}} in `Drehachse mit Winkel`; {{MenuCommand|Achse}} in `Y`, und {{MenuCommand|Winkel}} in `45 Grad`, dann klicke auf **Übernehmen**. Dies wendet eine Drehung um die Y Achse an und setzt das Feld {{MenuCommand|Winkel}} auf Null zurück.
+:   11.1. Hake die Option **Inkrementelle Änderungen übernehmen** an.
+:   11.2. Ändere den **Drehung** in `Rotationsachse mit Winkel`; **Achse** in `Z`, und **Winkel** in `90 Grad`, dann klicke auf **Übernehmen**. Dies wendet eine Rotation um die Z Achse an und setzt das **Winkel** Feld auf Null zurück.
+:   11.3. Ändere den **Drehung** in `Drehachse mit Winkel`; **Achse** in `Y`, und **Winkel** in `45 Grad`, dann klicke auf **Übernehmen**. Dies wendet eine Drehung um die Y Achse an und setzt das Feld **Winkel** auf Null zurück.
 :   11.4. Klicke auf **OK**, um den Dialog zu schließen.
 
 12\. Wechsle wieder in die [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
 
-:   12.1. Wechsle zum *Drahtgitter* Zeichenstil mit {{MenuCommand|Ansicht → <img src=images/DrawStyleWireFrame.svg style="width:Zeichen Stil](Std_DrawStyle/de.md) → [16px"> Drahtgitter}}, oder drücke **<img src=images/DrawStyleWireFrame.svg style="width:16px"> [Drahtgitter](Std_DrawStyle/de.md)** Schaltfläche in der Ansichtswerkzeugleiste. Damit kannst du die Objekte hinter anderen Objekten sehen.
-:   12.2. Stelle sicher, dass die Schaltfläche <img src=images/Draft_ToggleSnap.svg style="width:Entwurf Fang](Draft_Snap/de.md) die Methode \"Am Endpunkt fangen\" aktiv ist . Dies kann über das Menü {{MenuCommand|Entwurf→ Fang → [16px"> <img src=images/Snap_Endpoint.svg style="width:Umschalten An/Aus](Draft_ToggleSnap/de.md)}}erfolgen, und dann {{MenuCommand| → [16px"> <img src=images/Draft_ToggleSnap.svg style="width:Entwurf Endpunkt](Draft_Endpoint/de.md)}}, oder durch Drücken der **[16px"> <img src=images/Snap_Endpoint.svg style="width:UmschaltenFang](Draft_ToggleSnap/de.md)** und **[16px"> [Fang Endpunkt](Draft_Endpoint.md)** Schaltflächen in der Fang Werkzeugleiste.
+:   12.1. Wechsle zum *Drahtgitter* Zeichenstil mit **Ansicht → <img src=images/DrawStyleWireFrame.svg style="width:Zeichen Stil](Std_DrawStyle/de.md) → [16px"> Drahtgitter**, oder drücke **<img src=images/DrawStyleWireFrame.svg style="width:16px"> [Drahtgitter](Std_DrawStyle/de.md)** Schaltfläche in der Ansichtswerkzeugleiste. Damit kannst du die Objekte hinter anderen Objekten sehen.
+:   12.2. Stelle sicher, dass die Schaltfläche <img src=images/Draft_ToggleSnap.svg style="width:Entwurf Fang](Draft_Snap/de.md) die Methode \"Am Endpunkt fangen\" aktiv ist . Dies kann über das Menü **Entwurf→ Fang → [16px"> <img src=images/Snap_Endpoint.svg style="width:Umschalten An/Aus](Draft_ToggleSnap/de.md)**erfolgen, und dann ** → [16px"> <img src=images/Draft_ToggleSnap.svg style="width:Entwurf Endpunkt](Draft_Endpoint/de.md)**, oder durch Drücken der **[16px"> <img src=images/Snap_Endpoint.svg style="width:UmschaltenFang](Draft_ToggleSnap/de.md)** und **[16px"> [Fang Endpunkt](Draft_Endpoint.md)** Schaltflächen in der Fang Werkzeugleiste.
 
 13\. Wähle in der [Baumansicht](tree_view/de.md) `Extrudieren`.
 
@@ -152,7 +152,7 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 
 ![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) *Extrudierte FormZeichenfolge positioniert in der `Verrundung*.`
 
-## Erstellen von graviertem Text {#erstellen_von_graviertem_text}
+## Erstellen von graviertem Text 
 
 14\. Wechsle zurück in die [Part Arbeitsbereich](Part_Workbench/de.md).
 
@@ -168,7 +168,7 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 
 ![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) *Endgültiges Modell eines verrundeten Würfels, mit geschnitztem Text, der aus einer ShapeString, Extrude und boolschen Schnittoperationen erzeugt wurde.*
 
-## Gravieren von 3D Text mit dem PartDesign Arbeitsbereich {#gravieren_von_3d_text_mit_dem_partdesign_arbeitsbereich}
+## Gravieren von 3D Text mit dem PartDesign Arbeitsbereich 
 
 Ein ähnlicher Ablauf wie oben beschrieben kann mit der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) durchgeführt werden.
 

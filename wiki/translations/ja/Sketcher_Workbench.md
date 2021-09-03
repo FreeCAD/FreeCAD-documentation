@@ -71,12 +71,12 @@
 
 </div>
 
-## Sketching Workflow {#sketching_workflow}
+## Sketching Workflow 
 
 
 <div class="mw-translate-fuzzy">
 
-## Sketching Workflow {#sketching_workflow_1}
+## Sketching Workflow 
 
 スケッチは常に2次元（2D）です。 ソリッドを作成するには、囲まれた1つの領域の2Dスケッチを作成し、次にPaddedまたはRevolvedで3次元を追加して、2Dスケッチから3Dソリッドを作成します。
 
@@ -123,7 +123,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): when in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
-### Sketcher geometries {#sketcher_geometries}
+### Sketcher geometries 
 
 These are tools for creating objects.
 
@@ -196,11 +196,11 @@ These are tools for creating objects.
 
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Construction Mode](Sketcher_ToggleConstruction.md): Toggles sketch geometry from/to construction mode. Construction geometry is shown in blue and is discarded outside of Sketch editing mode.
 
-### Sketcher constraints {#sketcher_constraints}
+### Sketcher constraints 
 
 Constraints are used to define lengths, set rules between sketch elements, and to lock the sketch along the vertical and horizontal axes. Some constraints require use of [Helper constraints](Sketcher_helper_constraint.md).
 
-#### Geometric constraints {#geometric_constraints}
+#### Geometric constraints 
 
 These constraints are not associated with numeric data.
 
@@ -224,7 +224,7 @@ These constraints are not associated with numeric data.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Block](Sketcher_ConstrainBlock.md): it blocks an edge from moving, that is, it prevents its vertices from changing their current positions. It should be particularly useful to fix the position of B-Splines. See the [Block Constraint forum topic](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
-#### Dimensional constraints {#dimensional_constraints}
+#### Dimensional constraints 
 
 These are constraints associated with numeric data, for which you can use the [expressions](Expressions.md). The data may be taken from a [spreadsheet](Spreadsheet_Workbench.md).
 
@@ -241,13 +241,13 @@ These are constraints associated with numeric data, for which you can use the [e
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam.md): Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc) <small>(v0.20)</small> 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
-#### Special constraints {#special_constraints}
+#### Special constraints 
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Snell\'s Law](Sketcher_ConstrainSnellsLaw.md): Constrains two lines to obey a refraction law to simulate the light going through an interface.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Internal alignment](Sketcher_ConstrainInternalAlignment.md): Aligns selected elements to selected shape (e.g. a line to become major axis of an ellipse).
 
-#### Constraint tools {#constraint_tools}
+#### Constraint tools 
 
 The following tools can be used the change the effect of constraints:
 
@@ -255,7 +255,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/Deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
 
-### Sketcher tools {#sketcher_tools}
+### Sketcher tools 
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select solver DOFs](Sketcher_SelectElementsWithDoFs.md): Highlights in green the geometry with degrees of freedom (DOFs), i.e. not fully constrained.
 
@@ -295,7 +295,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Delete All Constraints](Sketcher_DeleteAllConstraints.md): Deletes all constraints from the sketch.
 
-### Sketcher B-spline tools {#sketcher_b_spline_tools}
+### Sketcher B-spline tools 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Show/hide B-spline degree](Sketcher_BSplineDegree.md)
 
@@ -317,7 +317,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)
 
-### Sketcher virtual space {#sketcher_virtual_space}
+### Sketcher virtual space 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch Virtual Space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
 
@@ -325,7 +325,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferences](Sketcher_Preferences.md): Preferences for the **Sketcher** workbench.
 
-## Best Practices {#best_practices}
+## Best Practices 
 
 Every CAD user develops his own way of working over time, but there are some useful general principles to follow.
 

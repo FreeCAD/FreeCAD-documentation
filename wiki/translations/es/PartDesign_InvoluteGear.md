@@ -16,7 +16,7 @@ Para una información más detallada ver las entradas de Wikipedia para: [Gear](
 
 ## Uso
 
-1.  Ir al menú {{MenuCommand|DiseñoPiezas → <img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Engranaje evolvente...}}.
+1.  Ir al menú **DiseñoPiezas → <img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Engranaje evolvente...**.
 2.  Establezca los parámetros de evolvente.
 3.  Haga clic en **OK**
 4.  El engranaje evolvente se crea fuera del cuerpo activo. Arrastre y suéltelo en un cuerpo para la aplicación de otras características como el relleno.

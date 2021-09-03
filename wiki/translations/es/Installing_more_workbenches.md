@@ -6,7 +6,7 @@ Desde la v0.17 es fácil añadir [ambientes de trabajo externos](external_workbe
 
 Siga leyendo para obtener más información sobre la instalación de ambientes de trabajo.
 
-## Descripción general {#descripción_general}
+## Descripción general 
 
 Los ambientes de trabajo no son más que colecciones de archivos que se colocan en una carpeta. Esta carpeta suele estar comprimida en un archivo zip. En la instalación, esta carpeta simplemente se descomprime y se copia en 
 ```python
@@ -15,7 +15,7 @@ $ROOT_DIR/Mod/
 
 Los directorios `Mod/` se escanean cada vez que se inicia FreeCAD, y los ambientes de trabajo disponibles se añaden automáticamente.
 
-## Instalación de todo el sistema {#instalación_de_todo_el_sistema}
+## Instalación de todo el sistema 
 
 Los ambientess de trabajo instalados de esta manera estarán disponibles para todos los usuarios. Dependiendo de su sistema, es posible que necesite privilegios de administrador para acceder al directorio de instalación.
 
@@ -25,7 +25,7 @@ Copie la carpeta del ambiente de trabajo en `$INSTALL_DIR/Mod/`, donde `$INSTALL
 -   En Windows suele ser `C:\\Program Files\FreeCAD\Mod`
 -   En macOS suele ser `/Applications/FreeCAD/Mod/`
 
-## Instalación para un solo usuario {#instalación_para_un_solo_usuario}
+## Instalación para un solo usuario 
 
 Los ambientes de trabajo instalados de esta manera estarán disponibles sólo para un usuario, pero no requerirán ningún privilegio de administrador.
 
@@ -33,9 +33,9 @@ Copiar la carpeta del ambiente de trabajo en `$USER_DIR/Mod/`, donde `$USER_DIR`
 
 -   En Linux es normalmente `/home/username/.FreeCAD/Mod/`.
 -   En Windows es `%APPDATA%\FreeCAD\Mod`, que suele ser `C:\Users\''username''\Appdata\Roaming\FreeCAD\Mod`.
--   En macOS suele ser `/Users/username/Library/Preferences/FreeCAD/Mod/`. Una forma de llegar al directorio de preferencias es utilizar el elemento de menú del \"Finder\" {{MenuCommand|Ir → Ir a la carpeta}}, e introducir `~/Librería/Preferencias/FreeCAD`.
+-   En macOS suele ser `/Users/username/Library/Preferences/FreeCAD/Mod/`. Una forma de llegar al directorio de preferencias es utilizar el elemento de menú del \"Finder\" **Ir → Ir a la carpeta**, e introducir `~/Librería/Preferencias/FreeCAD`.
 
-## Información adicional {#información_adicional}
+## Información adicional 
 
 Puedes encontrar información adicional sobre cómo crear un ambiente de trabajo personalizado en el [Centro de usuarios avanzados](Power_users_hub/es.md) y en el [Centro de desarrolladores](Developer_hub/es.md).
 

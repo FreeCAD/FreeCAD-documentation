@@ -1,10 +1,10 @@
  {{TOCright}}
 
-## Types d\'éléments MEF dans CalculiX {#types_déléments_mef_dans_calculix}
+## Types d\'éléments MEF dans CalculiX 
 
 Pour plus d\'informations détaillées de FreeCAD FEM éléments voir [FEM Mesh](FEM_Mesh/fr.md) et [FEM Types d\'éléments](FEM_Element_Types/fr.md). Pour les questions spécifiques à CalculiX, vous pouvez essayer [Discourse group](https://calculix.discourse.group) ou [Discord channel](https://discord.gg/yyuQQg5).
 
-### Élément Segment {#élément_segment}
+### Élément Segment 
 
   --------------------------------------- -------------------------------------------------
   seg2 FreeCAD nodes                      seg3 FreeCAD nodes
@@ -17,7 +17,7 @@ Pour plus d\'informations détaillées de FreeCAD FEM éléments voir [FEM Mesh]
 
   : **Segment element from FreeCAD to CalculiX \-- node assignment**
 
-### Éléments Triangulaires {#éléments_triangulaires}
+### Éléments Triangulaires 
 
   --------------------------------------------------- ---------------------------------------------------
   tria3 FreeCAD nodes                                 tria6 FreeCAD nodes
@@ -30,7 +30,7 @@ Pour plus d\'informations détaillées de FreeCAD FEM éléments voir [FEM Mesh]
 
   : **Triangle element from FreeCAD to CalculiX \-- node assignment**
 
-### Éléments quadratiques {#éléments_quadratiques}
+### Éléments quadratiques 
 
   --------------------------------------------------- ---------------------------------------------------
   quad4 FreeCAD nodes                                 quad8 FreeCAD nodes
@@ -43,7 +43,7 @@ Pour plus d\'informations détaillées de FreeCAD FEM éléments voir [FEM Mesh]
 
   : **Quadratic element from FreeCAD to CalculiX \-- node assignment**
 
-### Éléments Tetrahedron {#éléments_tetrahedron}
+### Éléments Tetrahedron 
 
 L\'ordre de nœud suivant n\'est pas implémenté ! TODO: vérifier l\'ordre des noeuds (n\'oubliez pas getccxVolumesByFace()).
 
@@ -58,7 +58,7 @@ L\'ordre de nœud suivant n\'est pas implémenté ! TODO: vérifier l\'ordre des
 
   : **Tetrahedron element from FreeCAD to CalculiX \-- node assignment**
 
-### Éléments Hexahedron {#éléments_hexahedron}
+### Éléments Hexahedron 
 
   --------------------------------------------------- --------------------------------------------------------------------------------------------
   hexa8 FreeCAD nodes                                 hexa20 FreeCAD nodes
@@ -71,7 +71,7 @@ L\'ordre de nœud suivant n\'est pas implémenté ! TODO: vérifier l\'ordre des
 
   : **Hexahedron element from FreeCAD to CalculiX \-- node assignment**
 
-### Éléments Pentahedron {#éléments_pentahedron}
+### Éléments Pentahedron 
 
   ----------------------------------------------------- ------------------------------------------------------------------
   penta6 FreeCAD nodes                                  penta15 FreeCAD nodes
@@ -84,7 +84,7 @@ L\'ordre de nœud suivant n\'est pas implémenté ! TODO: vérifier l\'ordre des
 
   : **Pentahedron element from FreeCAD to CalculiX \-- node assignment**
 
-## En relation {#en_relation}
+## En relation 
 
 -   [FEM Maillage avec Calculix](FEM_Mesh_CalculiX/fr.md)
 -   [Préférences de CalculiX](FEM_Preferences/fr#CalculiX.md) dans le menu des préférences de l\'atelier FEM.

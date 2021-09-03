@@ -12,7 +12,7 @@
 
 Tworzy subtraktywną bryłę pierwotną w aktywnej bryle, odejmując jej kształt od istniejącej bryły.
 
-## Rodzaje brył pierwotnych {#rodzaje_brył_pierwotnych}
+## Rodzaje brył pierwotnych 
 
 -   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Subtraktywny sześcian](PartDesign_SubtractiveBox/pl.md)
 -   <img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Subtraktywny stożek](PartDesign_SubtractiveCone/pl.md)

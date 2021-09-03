@@ -28,11 +28,11 @@ Aby uzyskać bardziej szczegółowy opis szkicownika, przeczytaj stronę [Szkico
 
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) *Wynik końcowy szkicu, z geometrią w pełni ograniczoną w całości, łącznie z geometrią konstrukcji pomocniczej.*
 
-## Sposób postępowania {#sposób_postępowania}
+## Sposób postępowania 
 
-1\. Uruchom program FreeCAD, utwórz nowy pusty dokument przez menu {{MenuCommand|Plik → <img src=images/Std_New.svg style="width:16px"> [Nowy](Std_New/pl.md)}}.
+1\. Uruchom program FreeCAD, utwórz nowy pusty dokument przez menu **Plik → <img src=images/Std_New.svg style="width:16px"> [Nowy](Std_New/pl.md)**.
 
-:   1.1. Przełacz interfejs na środowisko pracy [Szkicownik](Sketcher_Workbench/pl.md) z [paska narzędzi Środowisko](Std_Workbench/pl.md), lub menu {{MenuCommand|[Widok](Std_View_Menu/pl.md) → Środowisko → Szkicownik}}.
+:   1.1. Przełacz interfejs na środowisko pracy [Szkicownik](Sketcher_Workbench/pl.md) z [paska narzędzi Środowisko](Std_Workbench/pl.md), lub menu **[Widok](Std_View_Menu/pl.md) → Środowisko → Szkicownik**.
 
 Kilka działań do zapamiętania:
 
@@ -40,7 +40,7 @@ Kilka działań do zapamiętania:
 -   Aby wyjść z trybu edycji szkicu, naciśnij przycisk **Zamknij** w [panelu zadań](task_panel.md), lub naciśnij dwukrotnie klawisz **Esc** na klawiaturze.
 -   Aby ponownie wejść w tryb edycji, kliknij dwukrotnie na obiekt szkicu w <img src=images/Sketcher_EditSketch.svg style="width:widoku drzewa](Tree_view/pl.md), lub wybierz go, a następnie kliknij na przycisk **[16px">. [Edycja szkicu](Sketcher_EditSketch/pl.md)**.
 
-## Utwórz szkic {#utwórz_szkic}
+## Utwórz szkic 
 
 2\. Kliknij w przycisk **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [Utwórz nowy szkic](Sketcher_NewSketch/pl.md)**.
 
@@ -53,18 +53,18 @@ Jesteśmy obecnie w trybie edycji szkicu, w którym możemy korzystać z większ
 
 **Uwaga:**
 
-w [panelu zadań](Task_panel/pl.md) widoku połączonego należy rozwinąć sekcję {{MenuCommand|Edycja kontrolek}} i upewnić się, że opcja {{MenuCommand|Automatyczne wiązania}} jest włączona. Tutaj mogą zostać zmienione również inne opcje, w tym gęstość widocznej siatki, oraz to czy chcemy aktywować przyciąganie do siatki. W tym poradniku nie będziemy aktywować przyciągania do siatki i ukryjemy ją. W innych sekcjach [panelu zadań](Task_panel/pl.md) możesz również zobaczyć, które elementy geometryczne i wiązania zostały zdefiniowane.
+w [panelu zadań](Task_panel/pl.md) widoku połączonego należy rozwinąć sekcję **Edycja kontrolek** i upewnić się, że opcja **Automatyczne wiązania** jest włączona. Tutaj mogą zostać zmienione również inne opcje, w tym gęstość widocznej siatki, oraz to czy chcemy aktywować przyciąganie do siatki. W tym poradniku nie będziemy aktywować przyciągania do siatki i ukryjemy ją. W innych sekcjach [panelu zadań](Task_panel/pl.md) możesz również zobaczyć, które elementy geometryczne i wiązania zostały zdefiniowane.
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
 
 
 *Górna część [panelu zadań](Task_panel/pl.md) szkicownika.*
 
-## Geometrie konstrukcyjne {#geometrie_konstrukcyjne}
+## Geometrie konstrukcyjne 
 
 3\. Geometria konstrukcyjna służy do wspomagania tworzenia właściwej geometrii. Rzeczywista geometria będzie wyświetlana poza trybem edycji szkicu, podczas gdy geometria konstrukcyjna będzie wyświetlana tylko i wyłącznie w trybie edycji. Dlatego też, możesz użyć tyle geometrii konstrukcji ile potrzebujesz by zbudować konkretne kształty.
 
-:   3.1. Kliknij na przycisk **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)**. Teraz elementy geometryczne zostaną narysowane w {{MenuCommand|trybie konstrukcyjnym}}.
+:   3.1. Kliknij na przycisk **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)**. Teraz elementy geometryczne zostaną narysowane w **trybie konstrukcyjnym**.
 :   3.2. Kliknij na przycisk **<img src="images/Sketcher_Line.svg" width=16px> [Utwórz linię](Sketcher_CreateLine/pl.md)**.
 :   3.3. Zbliż kursor do punktu początku szkicu, powinien zostać podświetlony, a przy kursorze <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> pojawi się ikona [wiązania żbieżności](Sketcher_ConstrainCoincident.md).
 :   3.4. Kliknij na punkt, a następnie przesuń kursor, aby rozpocząć rysowanie od niego nowej linii. Przesuń wskaźnik tak, aby linia miała długość około {{Value|30mm}}. Nie musisz być bardzo precyzyjny w tym kroku, po zakończeniu ustawimy odpowiedni wymiar.
@@ -81,22 +81,22 @@ do tej pory narzędzie [Utwórz linię](Sketcher_CreateLine/pl.md) jest nadal ak
 
 nie naciskaj klawisza **Esc** drugi raz, ponieważ spowoduje to zamknięcie trybu edycji szkicu. Jeśli to zrobisz, wejdź ponownie w tryb edycji, klikając dwukrotnie na szkic w [widoku drzewa](Tree_view/pl.md).
 
-Spójrz jeszcze raz na [panel zadań](Task_panel/pl.md). Sekcja {{MenuCommand|Komunikaty solwera}} wskazuje, że szkic jest niedostatecznie związany, i podaje liczbę **stopni swobody**.
+Spójrz jeszcze raz na [panel zadań](Task_panel/pl.md). Sekcja **Komunikaty solwera** wskazuje, że szkic jest niedostatecznie związany, i podaje liczbę **stopni swobody**.
 
-Spójrz na sekcje {{MenuCommand|Wiązania}} i {{MenuCommand|Elementy}}, aby zobaczyć nowo utworzone wiązania i linie. Gdy twoje szkice mają wiele elementów, może być trudno je wybrać w oknie [widoku 3D](3D_view/pl.md), więc możesz użyć tych list, aby wybrać dokładnie ten obiekt który chcesz.
+Spójrz na sekcje **Wiązania** i **Elementy**, aby zobaczyć nowo utworzone wiązania i linie. Gdy twoje szkice mają wiele elementów, może być trudno je wybrać w oknie [widoku 3D](3D_view/pl.md), więc możesz użyć tych list, aby wybrać dokładnie ten obiekt który chcesz.
 
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
 
 *Linie konstrukcyjne tworzące kształt gwiazdy ze środkiem w miejscu początku układu współrzędnych.*
 
-## Geometria detalu {#geometria_detalu}
+## Geometria detalu 
 
 Geometria właściwa musi mieć kształt zamknięty, jeśli ma być użyta jako profil, który może być wytłaczany za pomocą takich narzędzi jak **<img src=images/PartDesign_Pad.svg style="width:16px"> [Projekt Części: Wyciągnij wybrany szkic](PartDesign_Pad/pl.md)**.
 
 Jeśli wcześniej nie opuściłeś tego trybu, upewnij się, że nie jesteś w trybie konstrukcji, klikając na przycisk **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)**.
 
-### Łuki zewnętrzne {#łuki_zewnętrzne}
+### Łuki zewnętrzne 
 
 4\. Rysujemy okrąg.
 
@@ -117,7 +117,7 @@ Jeśli wcześniej nie opuściłeś tego trybu, upewnij się, że nie jesteś w t
 
 *Łuki dodane w punktach końcowych linii konstrukcyjnych. Dodatkowo okrąg centralny.*
 
-### Łuki wewnętrzne {#łuki_wewnętrzne}
+### Łuki wewnętrzne 
 
 6\. Rysujemy łuk pomiędzy każdą parą łuków zewnętrznych.
 
@@ -135,7 +135,7 @@ Jeśli wcześniej nie opuściłeś tego trybu, upewnij się, że nie jesteś w t
 
 ## Wiązania
 
-Spójrz raz jeszcze na [panel zadań](Task_panel/pl.md). Ze względu na nowe elementy geometryczne, które narysowaliśmy, sekcja {{MenuCommand|Komunikaty solwera}} wskazuje jeszcze więcej **stopni swobody**. **Stopień swobody** *(DOF)* wskazuje na możliwy ewentualny ruch jednego elementu. Na przykład, punkt może być przesuwany zarówno w kierunku poziomym jak i pionowym, a więc ma dwa stopnie swobody. Linia jest zdefiniowana przez dwa punkty, a więc w sumie posiada cztery stopnie swobody. Jeżeli zwiążemy jeden z tych punktów, to cały system ma tylko dwa stopnie swobody. Jeżeli dodatkowo zwiążemy ruch poziomy pozostałego punktu, to mamy tylko jeden stopień swobody. Jeżeli natomiast zwiążemy również ruch pionowy tego punktu, to ostatni stopień swobody zniknie, a linia nie będzie mogła być już przemieszczana.
+Spójrz raz jeszcze na [panel zadań](Task_panel/pl.md). Ze względu na nowe elementy geometryczne, które narysowaliśmy, sekcja **Komunikaty solwera** wskazuje jeszcze więcej **stopni swobody**. **Stopień swobody** *(DOF)* wskazuje na możliwy ewentualny ruch jednego elementu. Na przykład, punkt może być przesuwany zarówno w kierunku poziomym jak i pionowym, a więc ma dwa stopnie swobody. Linia jest zdefiniowana przez dwa punkty, a więc w sumie posiada cztery stopnie swobody. Jeżeli zwiążemy jeden z tych punktów, to cały system ma tylko dwa stopnie swobody. Jeżeli dodatkowo zwiążemy ruch poziomy pozostałego punktu, to mamy tylko jeden stopień swobody. Jeżeli natomiast zwiążemy również ruch pionowy tego punktu, to ostatni stopień swobody zniknie, a linia nie będzie mogła być już przemieszczana.
 
 Do tej pory, kiedy rysowaliśmy linie i łuki, szkicownik dodawał dla nas automatyczne wiązania, te, które utrzymują linie powiązane z początkiem, a łuki zewnętrzne powiązane z liniami konstrukcyjnymi. Nie dodaliśmy jednak innych wyraźnych wiązań, dzięki czemu kształty geometryczne mogą być nadal przesuwane w wielu kierunkach. **Wiązania to *zasady*, które mówią nam, w jakich warunkach obiekt geometryczny może się poruszać i na ile jest to możliwe.** Służą one do eliminacji stopni swobody, dzięki czemu szkic jest stabilny. Jeśli wyeliminujemy wszystkie stopnie swobody, wówczas szkic jest **całkowicie związany** i posiada sztywny kształt, to znaczy, że jego punkty nie mogą być przemieszczane. Ogólnie rzecz biorąc, dobrym pomysłem jest całkowite związanie szkiców, ponieważ spowoduje to powstanie stabilnych modeli.
 
@@ -145,9 +145,9 @@ Istnieją dwa główne rodzaje wiązań:
 
 -    **Wiązania danych**definiują charakterystykę kształtów poprzez określenie wymiarów, na przykład wymiar długości lub kąta.
 
-## Wiązania geometrii {#wiązania_geometrii}
+## Wiązania geometrii 
 
-### Jednakowa długość i promień {#jednakowa_długość_i_promień}
+### Jednakowa długość i promień 
 
 7\. Wiązania geometrii linii i łuków.
 
@@ -211,11 +211,11 @@ Na tym etapie stworzyliśmy zamknięty profil, ponieważ końce wszystkich łuk�
 
 *Szkic z wiązaniami zbieżności nałożonymi na łuki, które powodują zamknięcie kształtu.*
 
-## Wiązania wymiarów {#wiązania_wymiarów}
+## Wiązania wymiarów 
 
 Wiązania te definiują liczbowe odległości między dwoma punktami, oraz kąty między dwoma liniami.
 
-### Odległości i kąty {#odległości_i_kąty}
+### Odległości i kąty 
 
 9\. Ustalamy rozmiar linii konstrukcyjnych.
 
@@ -277,7 +277,7 @@ Powinieneś zakończyć swoją pracę szkicem całkowicie związanym. Można to 
 
 *Po lewej: szkic w pełni związany, z zaznaczonymi tylko najważniejszymi z wiązań. Po prawej: wyciągnięcie wykonane z [Projekt Części: Wyciągnij wybrany szkic](PartDesign_Pad/pl.md).*
 
-## Informacje dodatkowe {#informacje_dodatkowe}
+## Informacje dodatkowe 
 
 Aby uzyskać bardziej szczegółowy opis szkicownika, przejdź do dokumentacji [Środowiska pracy Szkicownik](Sketcher_Workbench/pl.md), a także przeczytaj dokumentację [Informator do szkicownika](Sketcher_reference/pl.md).
 

@@ -20,9 +20,9 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 1.  Select two shapes
 2.  Invoke the Part Cut command several ways:
     -   Press the **![](images/) '''Cut'''** button in the Part toolbar
-    -   Use the {{MenuCommand|Part → Boolean → Cut}} entry from the Part menu
+    -   Use the **Part → Boolean → Cut** entry from the Part menu
 
-## Supported inputs {#supported_inputs}
+## Supported inputs 
 
 Input objects must be [OpenCascade](OpenCascade.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 

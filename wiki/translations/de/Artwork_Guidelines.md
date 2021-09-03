@@ -55,7 +55,7 @@ Siehe [FreeCAD Palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OG
   Wie verwende ich die FreeCAD Palette?                                    Die Installation [der Palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) ist so einfach wie [Kopiere dir sie in deinen Inkscape Palettenordner](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
   ------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Gitter und Strichbreite {#gitter_und_strichbreite}
+## Gitter und Strichbreite 
 
 
 **Obligatorisch**
@@ -74,7 +74,7 @@ Striche sollten nicht \"dünner\" als 2px sein, mit abgerundeten Köpfen und Eck
 
   ------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Warum dieses Gitter und Strichbreite verwenden?   Aus historischen Gründen verwendet FreeCAD ein 64x64 Symbol, das dann verkleinert wird. Das ist nicht ideal, aber es verleiht dem Ganzen Charakter. Infolgedessen hilft die Ausrichtung an einem Zweierpotenzraster mit Dicken, die Zweierpotenzen sind, Anti-Aliasing Probleme bei der Neuskalierung zu vermeiden oder zumindest abzuschwächen.
-  Wie kann ich das einhalten?                       Wenn du Inkscape verwendest, gehe zu {{MenuCommand|Datei → Dokumenteigenschaften}} und stelle sicher, dass die Breite, Höhe und Einheiten deiner Seite korrekt sind. Dann gehe auf den {{MenuCommand|Gitter}} reiter, klicke auf **Neu**, setze die Einheiten auf `px`, `Abstand X` und `Abstand Y` auf 1 und `Hauptgitterlinie jede` auf 2.
+  Wie kann ich das einhalten?                       Wenn du Inkscape verwendest, gehe zu **Datei → Dokumenteigenschaften** und stelle sicher, dass die Breite, Höhe und Einheiten deiner Seite korrekt sind. Dann gehe auf den **Gitter** reiter, klicke auf **Neu**, setze die Einheiten auf `px`, `Abstand X` und `Abstand Y` auf 1 und `Hauptgitterlinie jede` auf 2.
   ------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Außenlinie
@@ -122,23 +122,23 @@ Gemäß den Tango Richtlinien solltest du beim Hinzufügen eines Beleuchtungsver
   Wie kann ich das einhalten?                        Stelle die Füllung auf einen linearen oder radialen Farbverlauf ein. In Inkscape ist dies in den Strich- und Fülleinstellungen möglich; mit \"F2\" kann man die Knoten des Farbverlaufs verschieben, um sicherzustellen, dass sie im richtigen Winkel stehen.
   -------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Empfohlenes Aufzeichnungsformat {#empfohlenes_aufzeichnungsformat}
+## Empfohlenes Aufzeichnungsformat 
 
 Alle Symbole sollten im Format [SVG](SVG/de.md) mit einer Vektorbildanwendung, wie beispielsweise [Inkscape](http://inkscape.org), erstellt werden. Dies erleichtert die Anwendung von Änderungen und die Ableitung zusätzlicher Symbole im selben Anwendungsbereich.
 
 Wenn Symbole für die direkte Verwendung durch FreeCAD (in einer \*.qrc-Datei) übertragen werden, speichere sie als \"Reines SVG\". Dies reduziert die Größe des Symbols und spart Festplatten- und Speicherplatz.
 
-## Abschließende Bemerkungen {#abschließende_bemerkungen}
+## Abschließende Bemerkungen 
 
 Denke daran:: **SALCHO**, Stroke, Alignment, Lighting, Colour, Highlight, Outline
 
 Hier sind einige Tips, um Deine Arbeit zu überprüfen:
 
-### Größe prüfen {#größe_prüfen}
+### Größe prüfen 
 
-Inkscape verfügt über ein praktisches Werkzeug, um dein Symbol in verschiedenen Größen zu prüfen. Gehe zu {{MenuCommand|Ansicht → Symbolvorschau...}} und es wird dir Voransichten deines Symbols geändert auf 16, 24, 32 und 64 Pixel anzeigen.
+Inkscape verfügt über ein praktisches Werkzeug, um dein Symbol in verschiedenen Größen zu prüfen. Gehe zu **Ansicht → Symbolvorschau...** und es wird dir Voransichten deines Symbols geändert auf 16, 24, 32 und 64 Pixel anzeigen.
 
-### Prüfung Deiner Umrißlinie {#prüfung_deiner_umrißlinie}
+### Prüfung Deiner Umrißlinie 
 
 1.  Setze dein Symbol auf ein großes Rechteck, das die gleiche Farbe hat wie die dunkelste Farbe deines Symbols.
 2.  Sieht das immer noch gut aus? Prima! Gehe zum nächsten Schritt. Wenn nicht, passe die Hervorhebung an.
@@ -152,11 +152,11 @@ Inkscape verfügt über ein praktisches Werkzeug, um dein Symbol in verschiedene
   Mein Symbol ist kaum sichtbar.   Du hast einen schlechten Formkontrast. Überprüfe den Umriss und die Hervorhebung. Wahrscheinlich fehlt eines der beiden Elemente oder ist nicht richtig angewendet.
   -------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Prüfung Deines Kontrastes {#prüfung_deines_kontrastes}
+### Prüfung Deines Kontrastes 
 
 1.  Exportiere dein Symbol von SVG in ein Bitmap Format, wie `.png` oder `.jpg`.
-2.  Lade dein Bitmap in ein Bildprogramm und ändere es in Graustufen. In GIMP würdest du zu {{MenuCommand|Bild → Modus→ Graustufen}} gehen.
-3.  Inkscape erlaubt dir das SVG direkt mit {{MenuCommand|Erweiterungen → Farbe → Graustufen}} in Graustufen umzuwandeln.
+2.  Lade dein Bitmap in ein Bildprogramm und ändere es in Graustufen. In GIMP würdest du zu **Bild → Modus→ Graustufen** gehen.
+3.  Inkscape erlaubt dir das SVG direkt mit **Erweiterungen → Farbe → Graustufen** in Graustufen umzuwandeln.
 4.  Kannst du die internen Details noch klar erkennen? Sehr gut. Der Kontrast ist gut.
 
 Ein Graustufenbild erlaubt dir Kontrastprobleme leichter zu erkennen, da nur eine Mischung aus Schwarz und Weiß vorhanden ist. Das Testen von Graustufenbildern ist auch für farbenblinde Benutzer von Vorteil. Wenn sie die Details in einem Graustufenbild erkennen können, dann ist der Kontrast des vollfarbigen Bildes wahrscheinlich auch gut.

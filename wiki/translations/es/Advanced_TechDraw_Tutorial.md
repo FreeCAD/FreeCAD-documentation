@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -11,7 +11,7 @@
 |FCVersion=0.19.23300 or higher
 }}
 
-## Objetivo en resumen {#objetivo_en_resumen}
+## Objetivo en resumen 
 
 Cree puntos, líneas, círculos, arcos, etc. en las vistas de DibujoTécnico y/o dibujos \"cosméticos\" completos con absoluta precisión, adecuados a las herramientas de acotación con las que está equipado el banco de trabajo, para generar dibujos técnicos conformes y detallados.
 
@@ -30,7 +30,7 @@ Este tutorial introduce al usuario experimentado en el uso avanzado de herramien
 
 *Note: These planes can be joined together by overlapping/ coinciding of two edges using the Boolean feature of <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Part Union](Part_Fuse.md).* The planes thus formed and suitably positioned (according to our provisions) will be used as **cutting blades** <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part SliceApart](Part_SliceApart.md), cutting our 3D object into several parts according to the chosen planar confirmation.\'\'
 
-## Antes de empezar {#antes_de_empezar}
+## Antes de empezar 
 
 The Workbenches that are used to produce the drawings of the attached examples are:
 \* <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
@@ -40,7 +40,7 @@ The Workbenches that are used to produce the drawings of the attached examples a
 -   <img alt="" src=images/Workfeature_workbench_icon.svg  style="width:24px;"> [Workfeature Workbench](Workfeature_Workbench.md)
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md)
 
-## La tarea {#la_tarea}
+## La tarea 
 
 Etapas del procedimiento:
 
@@ -77,7 +77,7 @@ In the hope of having been useful, good work and good experimentation!
 
 ## Notas
 
-## Perspectivas de futuro {#perspectivas_de_futuro}
+## Perspectivas de futuro 
 
 However, the described path could represent the starting point (or the idea) to write additional code to automate the system and integrate it directly into TechDraw with appropriate button / command functions.
 

@@ -18,7 +18,7 @@ A parametric truncated Part Cone primitive is available in the Part workbench fr
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md)
 2.  There are two ways to invoke the command:
     -   Press the **<img src="images/Part_Cone.svg" width=16px> Cone** button in the toolbar.
-    -   Select the {{MenuCommand|Part → Primitives → <img src="images/Part_Cone.svg" width=16px> Cone}} from the menu bar.
+    -   Select the **Part → Primitives → <img src="images/Part_Cone.svg" width=16px> Cone** from the menu bar.
 
 **Result:** The default values create a truncated parametric cone that is positioned at the origin (point 0,0,0) and attached to the global xy-plane. Its height of 10 mm is along the global z-axis. The lower **Radius 1** is 2 mm, the upper **Radius 2** is 4 mm.
 

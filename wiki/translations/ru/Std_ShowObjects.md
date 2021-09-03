@@ -13,7 +13,7 @@ The **Std ShowObjects** command shows all objects belonging to the active docume
 
 ## Применение
 
-1.  Выберите пункт меню {{MenuCommand|Вид → Видимость → <img src="images/Std_ShowObjects.svg" width=16px> Показать все объекты}}.
+1.  Выберите пункт меню **Вид → Видимость → <img src="images/Std_ShowObjects.svg" width=16px> Показать все объекты**.
 
 ## Примечания
 

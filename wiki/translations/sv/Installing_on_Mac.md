@@ -36,7 +36,7 @@ If there are any issues with the HomeBrew Cask or Formula you may report them to
 
 This page describes the usage and features of the FreeCAD installer. It also includes uninstallation instructions. Once installed, you can [get started](Getting_started.md)!
 
-### Enkel Installation {#enkel_installation}
+### Enkel Installation 
 
 FreeCAD installeraren erbjuds som ett Installationspaket(.mpkg) bifogad i en diskavbildningsfil.
 

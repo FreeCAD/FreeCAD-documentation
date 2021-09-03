@@ -18,7 +18,7 @@ See [Introduction to Python](Introduction_to_Python.md) to learn about the Pytho
 
 Here is a video on [installing FreeCAD macros in Ubuntu](https://wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
 
-## The Macro menu and toolbar {#the_macro_menu_and_toolbar}
+## The Macro menu and toolbar 
 
 ### Toolbar
 
@@ -29,7 +29,7 @@ Here is a video on [installing FreeCAD macros in Ubuntu](https://wiki.opensource
 
 ### Menu
 
-Besides the tools in the toolbar, the following functions are also available in the {{MenuCommand|Macro}} menu.
+Besides the tools in the toolbar, the following functions are also available in the **Macro** menu.
 
 -   [Attach to remote debugger](Std_MacroAttachDebugger.md)
 -   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Debug macro](Std_MacroStartDebug.md)
@@ -38,19 +38,19 @@ Besides the tools in the toolbar, the following functions are also available in 
 -   [Step into](Std_MacroStepInto.md)
 -   [Toggle breakpoint](Std_ToggleBreakpoint.md)
 
-## Macros directory {#macros_directory}
+## Macros directory 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Macros are created in a specific folder under the user\'s FreeCAD directory. This directory can be configured in the [Execute macro dialog](Std_DlgMacroExecute.md), or in the [Preferences Editor](Preferences_Editor.md), through the menu {{MenuCommand|Edit → Preferences → General → Macro → Macro recording settings}}.
+Macros are created in a specific folder under the user\'s FreeCAD directory. This directory can be configured in the [Execute macro dialog](Std_DlgMacroExecute.md), or in the [Preferences Editor](Preferences_Editor.md), through the menu **Edit → Preferences → General → Macro → Macro recording settings**.
 
 Downloaded macros should also be placed in this directory.
 
 
 <div class="mw-collapsible-content">
 
-### Default directory {#default_directory}
+### Default directory 
 
 Macros can be simply copied into
 
@@ -73,9 +73,9 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 -   On Windows it is usually `C:\Users\username\Application Data\FreeCAD\`
 -   On Mac OSX it is usually `/Users/username/Library/Preferences/FreeCAD/`
 
-### Configuring the user directory {#configuring_the_user_directory}
+### Configuring the user directory 
 
-1\. Open the menu {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)}} to open the [Execute macro dialog](Std_DlgMacroExecute.md).
+1\. Open the menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)** to open the [Execute macro dialog](Std_DlgMacroExecute.md).
 
 ![](images/Dxf_Importer_Install_01.png ) *align=center|Opening the Execute macro dialog*
 
@@ -112,14 +112,14 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 </div>
 
-## Installing macros {#installing_macros}
+## Installing macros 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Automatic method {#automatic_method}
+### Automatic method 
 
-Starting with FreeCAD 0.17, use the [Addon Manager](Addon_Manager.md) in {{MenuCommand|Tools → Addon manager}} to install a macro that has been included in the [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
+Starting with FreeCAD 0.17, use the [Addon Manager](Addon_Manager.md) in **Tools → Addon manager** to install a macro that has been included in the [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
 
 
 <div class="mw-collapsible-content">
@@ -140,7 +140,7 @@ The recommended way to install addons, that is, [external workbenches](external_
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Manual method 1. Copy the code to the macro editor {#manual_method_1._copy_the_code_to_the_macro_editor}
+### Manual method 1. Copy the code to the macro editor 
 
 For macros that are relatively small, 300 lines or less, the code can be copied and pasted directly into the FreeCAD macro editor.
 
@@ -157,7 +157,7 @@ If there is a custom icon download it; click on it with the right mouse button a
 
 2\. In the macro page, select the code inside the **Script** or **Macro** sections, and copy it.
 
-3\. In FreeCAD, open the menu {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)}} to open the [Execute macro dialog](Std_DlgMacroExecute.md).
+3\. In FreeCAD, open the menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)** to open the [Execute macro dialog](Std_DlgMacroExecute.md).
 
 ![](images/Dxf_Importer_Install_01.png ) *align=center|Opening the Execute macro dialog*
 
@@ -183,7 +183,7 @@ Restart FreeCAD to correctly register the new macro.
 
 ![](images/Macro_Install_HowTo_27.png ) *align=center|Asking for confirmation to save the code*
 
-9\. Open the menu again, {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)}}, select the new macro and press **Execute**.
+9\. Open the menu again, **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)**, select the new macro and press **Execute**.
 
 ![](images/Macro_Install_HowTo_21.png ) *align=center|Selecting the macro to run it*
 
@@ -193,7 +193,7 @@ Restart FreeCAD to correctly register the new macro.
 
 11\. This macro should return an error if no document is active; other macros open a new document if none exists.
 
-Create a new document with {{MenuCommand|File → <img src="images/Std_New.svg" width=16px> [New](Std_New.md)}}, and then repeat the previous steps to execute the macro.
+Create a new document with **File → <img src="images/Std_New.svg" width=16px> [New](Std_New.md)**, and then repeat the previous steps to execute the macro.
 
 ![](images/Macro_Install_HowTo_23.png ) *align=center|The macro returning an error if no document is active*
 
@@ -201,11 +201,11 @@ Create a new document with {{MenuCommand|File → <img src="images/Std_New.svg" 
 
 ![](images/Macro_Install_HowTo_24.png ) *align=center|Object created by the macro*
 
-13\. You can open the macro in the editor again to run it or modify it. Go to {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)}}, select the macro and press **Edit**.
+13\. You can open the macro in the editor again to run it or modify it. Go to **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)**, select the macro and press **Edit**.
 
 ![](images/Macro_Install_HowTo_25.png ) *align=center|Opening the macro in the editor*
 
-14\. The macro can now be run with {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Execute macro](Std_DlgMacroExecuteDirect.md)}}, or by clicking on the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Std DlgMacroExecuteDirect](Std_DlgMacroExecuteDirect.md)** button in the toolbar.
+14\. The macro can now be run with **Macro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Execute macro](Std_DlgMacroExecuteDirect.md)**, or by clicking on the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Std DlgMacroExecuteDirect](Std_DlgMacroExecuteDirect.md)** button in the toolbar.
 
 ![](images/Macro_Install_HowTo_26.png ) *align=center|Running the macro that is loaded in the editor*
 
@@ -218,7 +218,7 @@ Create a new document with {{MenuCommand|File → <img src="images/Std_New.svg" 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Manual method 2. Add a macro file from a compressed .zip file {#manual_method_2._add_a_macro_file_from_a_compressed_.zip_file}
+### Manual method 2. Add a macro file from a compressed .zip file 
 
 Some macros are too big that it\'s inconvenient to copy and paste them into the macro editor, or they cannot be hosted in the wiki. In this case, the code may be hosted somewhere else, in a Github repository, or in the [FreeCAD forum](https://forum.freecadweb.org/). The code may also be compressed into a `.zip` file, tarball `.tar.xz`, or other type of archive if it contains several files. If the code is distributed in this way, the archive should be extracted and the files placed in the macros directory.
 
@@ -259,7 +259,7 @@ unzip your_file.zip -d your_directory
 
 ![](images/Macro_Install_HowTo_05.png ) *align=center|Placing the macro file in the macro directory*
 
-7\. In FreeCAD, open the menu {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)}} to open the [Execute macro dialog](Std_DlgMacroExecute.md).
+7\. In FreeCAD, open the menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)** to open the [Execute macro dialog](Std_DlgMacroExecute.md).
 
 ![](images/Macro_Install_HowTo_06.png ) *align=center|Opening the Execute macro dialog*
 
@@ -280,7 +280,7 @@ unzip your_file.zip -d your_directory
 
 </div>
 
-## Execute a macro in command line {#execute_a_macro_in_command_line}
+## Execute a macro in command line 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -310,12 +310,12 @@ todo
 
 </div>
 
-## Errors in macros {#errors_in_macros}
+## Errors in macros 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Indentation errors {#indentation_errors}
+### Indentation errors 
 
 The white space at the beginning of the lines (indentation) in the [Python](Python.md) programming language is very important, and an integral part of the code. An inappropriate space may cause the code to not run or present errors.
 
@@ -331,7 +331,7 @@ A typical indentation error looks like this:
 <unknown exception traceback><type 'exceptions.IndentationError'>: ('expected an indented block', ('C:/Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro', 21, 3, 'def priSm(self):\n'))
 ```
 
-#### Example 1 {#example_1}
+#### Example 1 
 
 If the code lacks any indentation, the code won\'t work. Class (`class`) and function definitions (`def()`), as well as control structures (`if`, `while`, `for`) should be followed by a block of indented code.
 
@@ -347,13 +347,13 @@ If the code is selected, all lines should be highlighted all the way to the left
 
 ![](images/Macro_Install_HowTo_11.png ) *align=center|Python code highlighted, showing that all lines start at the left edge*
 
-#### Example 2 {#example_2}
+#### Example 2 
 
 If an additional space is introduced at the beginning of all lines, the Python interpreter will fail and complain about unnecessary indentation. In this case, all lines need the initial space removed.
 
 ![](images/Macro_Install_HowTo_12.png ) *align=center|Python code with additional space on each line*
 
-#### Example 3 {#example_3}
+#### Example 3 
 
 Here the code has been copied from a forum thread by using the **Select all** button. Apparently the selection is good.
 
@@ -365,17 +365,17 @@ However, when the selection is pasted into the macro editor, undesirable indenta
 
 In this case, the initial spaces need to be removed. This can be done with a specialized text editor to quickly decrease the indentation of the lines.
 
-In Windows, [Notepad++](http://notepad-plus-plus.org/) can perform selection with **Alt** + Mouse dragging, and then use {{MenuCommand|Edit → Indent → Decrease the indentation}}.
+In Windows, [Notepad++](http://notepad-plus-plus.org/) can perform selection with **Alt** + Mouse dragging, and then use **Edit → Indent → Decrease the indentation**.
 
 ![](images/Macro_Install_HowTo_16.png ) *align=center|Python code with the correct indentation*
 
-#### Example 4 {#example_4}
+#### Example 4 
 
 Here the selection also selects the line numbers in the code example. If this selection is pasted into the macro editor, it won\'t work. All line numbers need to be removed, and the spaces adjusted so that the Python code has the proper indentation.
 
 ![](images/Macro_Install_HowTo_29.png ) *align=center|Selection that also selects the line numbers; if this code is pasted into the macro editor, it won't work*
 
-#### Good code {#good_code}
+#### Good code 
 
 ![](images/Macro_Install_HowTo_13.png ) *align=center|Python code with the correct indentation*
 
@@ -388,7 +388,7 @@ Here the selection also selects the line numbers in the code example. If this se
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### No text output from macros {#no_text_output_from_macros}
+### No text output from macros 
 
 Macros may output information to the report view to detail what the code is doing when it is running.
 
@@ -397,7 +397,7 @@ If no information is displayed, make sure the report view and [Python](Python.md
 
 <div class="mw-collapsible-content">
 
-#### Printing information {#printing_information}
+#### Printing information 
 
 FreeCAD macros have two methods to print information to the report view.
 
@@ -417,11 +417,11 @@ The simple Python function
 print("Hello World!")
 ```
 
-#### Enabling the report view {#enabling_the_report_view}
+#### Enabling the report view 
 
 To see the information displayed in the console you should:
 
-1\. Go to the menu {{MenuCommand|View → Panels}}.
+1\. Go to the menu **View → Panels**.
 
 ![](images/Macro_Install_HowTo_31.png )
 
@@ -435,15 +435,15 @@ To see the information displayed in the console you should:
 
 ![](images/Macro_Install_HowTo_34.png ) *align=center|FreeCAD main window with the Report view and the Python console*
 
-#### Enabling the print() command {#enabling_the_print_command}
+#### Enabling the print() command 
 
 FreeCAD may need to be configured so the `print()` function of [Python](Python.md) redirects its output correctly to the report view.
 
-1\. Go into the [Preferences Editor](Preferences_Editor.md) with the menu {{MenuCommand|Edit → Preferences}}.
+1\. Go into the [Preferences Editor](Preferences_Editor.md) with the menu **Edit → Preferences**.
 
 ![](images/Macro_Install_HowTo_35.png ) *align=center|Going into the preferences editor*
 
-2\. Go to {{MenuCommand|General}} section, and then {{MenuCommand|Output window → Python interpreter}}.
+2\. Go to **General** section, and then **Output window → Python interpreter**.
 
 ![](images/Macro_Install_HowTo_36.png ) *align=center|Output window preferences*
 

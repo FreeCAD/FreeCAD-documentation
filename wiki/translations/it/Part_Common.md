@@ -19,7 +19,7 @@ La funzione estrae la parte comune (intersezione) tra gli oggetti Parte selezion
 
 </div>
 
-### Input supportati {#input_supportati}
+### Input supportati 
 
 
 <div class="mw-translate-fuzzy">

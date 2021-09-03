@@ -12,7 +12,7 @@ La commande **Std Inspecteur de scène‏‎** ouvre une boîte de dialogue affi
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Outils → <img src="images/Std_SceneInspector.svg" width=16px> Inspecteur de scène‏‎...}} dans le menu.
+1.  Sélectionnez l\'option **Outils → <img src="images/Std_SceneInspector.svg" width=16px> Inspecteur de scène‏‎...** dans le menu.
 2.  La boîte de dialogue Inspecteur de scène s\'ouvre.
 3.  La boîte de dialogue est non modale, ce qui signifie qu\'elle peut rester ouverte pendant que vous continuez à travailler dans FreeCAD.
 4.  Appuyez sur **Actualiser** pour mettre à jour l\'aperçu.

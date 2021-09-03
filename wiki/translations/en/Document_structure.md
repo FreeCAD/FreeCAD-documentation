@@ -14,7 +14,7 @@ The objects inside a FreeCAD document can be of different types. Each workbench 
 
 If there is at least one document open in FreeCAD, there is always one and only one active document. That\'s the document that appears in the current 3D view, the document you are currently working on.
 
-## Application and User Interface {#application_and_user_interface}
+## Application and User Interface 
 
 Like almost everything else in FreeCAD, the graphical user interface part (GUI) is separated from the base application part (App). This is also valid for documents. The documents are also made of two parts: the Application document, which contains our objects, and the View document, which contains the representation on screen of our objects.
 

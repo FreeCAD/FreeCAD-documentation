@@ -139,7 +139,7 @@ Le fichier image se déroule à la manière d\'un scanner x1 x2 x3 \.... par inc
 
 <div class="mw-translate-fuzzy">
 
-#### Mode 8 Bits {#mode_8_bits}
+#### Mode 8 Bits 
 
 La valeur de début de l\'opération s\'adapte automatiquement à la fonction choisie : 0 si le réglage est sur noir (**Black**) ou sur 255 si le réglage est sur blanc (**White**) ou 19 si le réglage est sur noir (**Black**)
 
@@ -165,7 +165,7 @@ La valeur de début de l\'opération s\'adapte automatiquement à la fonction ch
 
 <div class="mw-translate-fuzzy">
 
-#### Mode 32 Bits {#mode_32_bits}
+#### Mode 32 Bits 
 
 -    {{RadioButton|TRUE|Photo}}: Le mode photo est automatiquement activé si une image **32-bits** est détectée. (La procédure peut être longue)
 
@@ -189,7 +189,7 @@ La valeur de début de l\'opération s\'adapte automatiquement à la fonction ch
 
 <div class="mw-translate-fuzzy">
 
-#### Ecrêtement (10 mm) {#ecrêtement_10_mm}
+#### Ecrêtement (10 mm) 
 
 La valeur de début de l\'opération s\'adapte automatiquement à la fonction choisie : 0 si le réglage est sur noir (**Black**) ou sur 255 si le réglage est sur blanc (**White**) ou 19 si le réglage est sur noir (**Black**)
 

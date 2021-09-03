@@ -47,7 +47,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 1.  Wähle einen B-Spline Knoten aus.
 2.  Rufe das Werkzeug mit mehreren Methoden auf:
     -   Drücke die **<img src="images/Sketcher_BSplineIncreaseKnotMultiplicity.svg" width=24px>** Schaltfläche in der Werkzeugleiste.
-    -   Verwende den {{MenuCommand|Skizze → Skizzierer B-Spline Werkzeuge → Knotenvervielfalt erhöhen}} Eintrag im oberen Menü.
+    -   Verwende den **Skizze → Skizzierer B-Spline Werkzeuge → Knotenvervielfalt erhöhen** Eintrag im oberen Menü.
 
 
 </div>

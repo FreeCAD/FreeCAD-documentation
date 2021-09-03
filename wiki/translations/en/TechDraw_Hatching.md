@@ -22,7 +22,7 @@ The TechDraw workbench has two hatching tools:
 
 **Result:** The face will be hatched initially using default values. **Note**: Edit the hatch properties to get the desired pattern.
 
-### Hatch Face using Image File {#hatch_face_using_image_file}
+### Hatch Face using Image File 
 
 <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Hatch Face using Image File](TechDraw_Hatch.md) uses [SVG](SVG.md) or [bitmap](bitmap.md) based tiles to cover the selected Face.
 
@@ -32,7 +32,7 @@ Any [bitmap](bitmap.md) file can be used (PNG, JPG, etc.) as a fill. **Note:** R
 
 The default hatch pattern file can be specified in the [TechDraw Preferences](TechDraw_Preferences.md).
 
-### Geometric Hatch {#geometric_hatch}
+### Geometric Hatch 
 
 <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md) forms a pattern of lines based on a specification read from a file. This file is generally **compatible with the widely used AutoDesk® PAT format**. A small selection of patterns is included in the FCPAT.pat file:
 
@@ -62,7 +62,7 @@ The default hatch pattern file can be specified in the [TechDraw Preferences](Te
 
 You can add your own patterns if you have write permission to FCPAT.pat, or you can create your own \*.pat file and point to it in [TechDraw Preferences](TechDraw_Preferences.md).
 
-### PAT File Path {#pat_file_path}
+### PAT File Path 
 
 The `FCPAT.pat` file can be found in the following location.
 

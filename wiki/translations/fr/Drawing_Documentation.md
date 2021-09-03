@@ -1,6 +1,6 @@
  Cette page documente le module de dessin de jcc242. Il inclut des fichiers et des fonctionnalités sur lesquels il travaille actuellement et qui peuvent ne pas encore être dans la branche principale. La source de ces fichiers est sur [son Github](https://github.com/jcc242/FreeCAD) mais faites attention car il est pour le moment très instable!
 
-## Base (Mod/Drawing) {#base_moddrawing}
+## Base (Mod/Drawing) 
 
 ### gdtsvg.py
 
@@ -76,7 +76,7 @@ getSVG: récupère le code SVG à partir du logiciel DrawingExport. Formats dép
 
 getDXF: identique à getSVG à l\'exception du format DXF.
 
-## Gui - interface graphique {#gui___interface_graphique}
+## Gui - interface graphique 
 
 ### AppDrawingGui.cpp
 
@@ -120,13 +120,13 @@ Il ne semble pas faire grand-chose, mais je suis sûr que c\'est important.
 
 Ajoute les icônes aux barres d\'outils et autres.
 
-# Flux de travail {#flux_de_travail}
+# Flux de travail 
 
-## Flux du programme {#flux_du_programme}
+## Flux du programme 
 
 CanvasView est l\'objet QGraphicsScene et DrawingView traite une liste de FeatureView qui sont liés par référence dans /App/FeatureViewPage. DrawingView sélectionne alors la classe QGraphicsItem appropriée (QGraphicsItemViewPart ou QGraphicsItemViewDimension) et appelle ensuite une fonction dans CanvasView pour la créer et l\'ajouter à la scène.
 
-## Ajouter des commandes à l\'atelier de dessin {#ajouter_des_commandes_à_latelier_de_dessin}
+## Ajouter des commandes à l\'atelier de dessin 
 
 4 étapes simples :
 

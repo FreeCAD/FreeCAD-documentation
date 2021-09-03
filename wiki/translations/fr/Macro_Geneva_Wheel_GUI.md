@@ -19,7 +19,7 @@ Pour utiliser cette macro, la copier dans votre répertoire Macro de FreeCAD et 
 
 ![](images/GW_Dim.png ) *Copier et inclure dans la même répertoire que la macro.*
 
-## Prise d\'écran {#prise_décran}
+## Prise d\'écran 
 
 ![Exemple de réalisation.](images/New_GW_GUI.png )
 

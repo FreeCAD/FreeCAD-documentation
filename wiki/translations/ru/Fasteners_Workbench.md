@@ -18,13 +18,13 @@ Usage is pretty straightforward:
 3.  Select the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners Workbench](Fasteners_Workbench.md) from the [Workbench dropdown list](Std_Workbench.md).
 4.  The [toolbars](#Toolbars.md) belonging to the workbench will be displayed.
 
-Simple Usage: Clicking on any of the fastener buttons will create that fastener at the origin with default properties. To change the properties of a fastener select it and go to the {{MenuCommand|Data}} tab of the [Property editor](Property_editor.md).
+Simple Usage: Clicking on any of the fastener buttons will create that fastener at the origin with default properties. To change the properties of a fastener select it and go to the **Data** tab of the [Property editor](Property_editor.md).
 
-## Известные проблемы {#известные_проблемы}
+## Известные проблемы 
 
 -   Other issues/feature requests can be found on the [Fastener Workbench GitHub issue queue](https://github.com/shaise/FreeCAD_FastenersWB/issues?utf8=✓&q=is%3Aissue)
 
-## Справочные данные {#справочные_данные}
+## Справочные данные 
 
 -   Автор: [shaise](http://theseger.com/projects/author/shaise/)
     -   Автор ScrewMaker: Ulrich Brammer
@@ -36,9 +36,9 @@ Simple Usage: Clicking on any of the fastener buttons will create that fastener 
 
 This workbench can be installed from the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 
-## Панели инструментов {#панели_инструментов}
+## Панели инструментов 
 
-The Fasteners Workbench has two toolbars. The {{MenuCommand|FS Screws}} toolbar contains many tools. If required it can be expanded by pressing the **&gt;&gt;** button.
+The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains many tools. If required it can be expanded by pressing the **&gt;&gt;** button.
 
 ![](images/Fasteners_toolbars.png ) *The Fasteners Workbench toolbars*
 
@@ -66,7 +66,7 @@ The Fasteners Workbench has two toolbars. The {{MenuCommand|FS Screws}} toolbar 
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Change fastener parameters](Fasteners_ChangeParameters.md): change parameters of selected fasteners.
 
-### PEM крепежные изделия и крепежные изделия для Печатных Плат {#pem_крепежные_изделия_и_крепежные_изделия_для_печатных_плат}
+### PEM крепежные изделия и крепежные изделия для Печатных Плат 
 
 -   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> **PEM** Self clinching metric nut.
 
@@ -78,7 +78,7 @@ The Fasteners Workbench has two toolbars. The {{MenuCommand|FS Screws}} toolbar 
 
 -   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **PCB** Metric spacer.
 
-### Крепежные изделия DIN, EN и ISO {#крепежные_изделия_din_en_и_iso}
+### Крепежные изделия DIN, EN и ISO 
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Hexagon head screw. *Product grades A and B.*
@@ -177,7 +177,7 @@ The Fasteners Workbench has two toolbars. The {{MenuCommand|FS Screws}} toolbar 
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Nyloc nut.
 
-### ASME Крепежные изделия {#asme_крепежные_изделия}
+### ASME Крепежные изделия 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Hex head screw.
 
@@ -215,7 +215,7 @@ The Fasteners Workbench has two toolbars. The {{MenuCommand|FS Screws}} toolbar 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN washer, wide series.
 
-### Другие крепежные изделия {#другие_крепежные_изделия}
+### Другие крепежные изделия 
 
 -   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Arbitrary length threaded rod for tapping holes (metric).
 
@@ -236,7 +236,7 @@ The Fasteners Workbench has two toolbars. The {{MenuCommand|FS Screws}} toolbar 
 -   <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:32px;"> 
 **Fasteners Workbench icon**
 
-## Ссылки связанные с верстаком {#ссылки_связанные_с_верстаком}
+## Ссылки связанные с верстаком 
 
 -   Workbench Wiki: <http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/>
 -   FreeCAD Wiki: <https://www.freecadweb.org/wiki/Fasteners_Workbench>
@@ -247,7 +247,7 @@ The Fasteners Workbench has two toolbars. The {{MenuCommand|FS Screws}} toolbar 
 -   Report bugs: Please report bugs at <https://github.com/shaise/FreeCAD_FastenersWB/issues>
 -   Installation: <http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/>
 
-## Другие ссылки {#другие_ссылки}
+## Другие ссылки 
 
 -   [Generating holes for countersunk screws in freecad](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/)
 -   [BOLTS](https://github.com/jreinhardt/BOLTS): An Open Library for Technical Specifications

@@ -6,7 +6,7 @@
 
 {{Manual:TOC}}
 
-### A word about the 3D space {#a_word_about_the_3d_space}
+### A word about the 3D space 
 
 If this is your first contact with a 3D application, you will need to become familiar with some concepts first. If not, you can safely skip this section.
 
@@ -20,9 +20,9 @@ The point where the three axes meet is the origin. It is the point where the val
 
 You can look at that scene from any angle, as if you were holding a camera. That camera can be moved left, right, up and down (pan), rotated around what it is pointing at (rotate) and brought closer to or further from the scene (zoom).
 
-### The FreeCAD 3D view {#the_freecad_3d_view}
+### The FreeCAD 3D view 
 
-#### Mouse Navigation {#mouse_navigation}
+#### Mouse Navigation 
 
 Navigating in the FreeCAD [3D view](3D_view.md) can be done with a mouse, a Space Navigator device, the keyboard, a touchpad, or a combination of those. FreeCAD implements several [navigation modes](Mouse_navigation.md), which determine how the three basic view manipulation operations (pan, rotate and zoom) are done, as well as how selection of objects on the screen is performed. Navigation modes are accessed from the Preferences screen, or directly by right-clicking anywhere on the [3D view](3D_view.md):
 
@@ -49,7 +49,7 @@ Each of these modes allocates different mouse buttons, or mouse + keyboard combi
 | OpenCascade       | ![Click middle button mouse](images/Pan-mouse.svg )                                                                                                                                                                     | ![Hold middle then right mouse button](images/Rotate-mouse-MMB+RMB.svg )                                                                                                         | ![Roll middle button mouse](images/Zoom-mouse.svg )                                                                                                                                    | ![Click left button mouse](images/Select-mouse.svg )                                            |
 +-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+
 
-#### Keyboard Navigation {#keyboard_navigation}
+#### Keyboard Navigation 
 
 Alternatively, some keyboard controls are always available, no matter the navigation mode:
 
@@ -70,7 +70,7 @@ Alternatively, some keyboard controls are always available, no matter the naviga
 
 These controls are also available from the [View menu](Std_View_Menu.md) and some from the View toolbar.
 
-#### Using the Navigation Cluster {#using_the_navigation_cluster}
+#### Using the Navigation Cluster 
 
 In the default setup, there is a [Navigation Cluster](Navigation_Cube.md) in the upper right corner of the 3D display. This may be used to rotate the displayed object by a fixed amount, reset the display to one of several standard views, and change the display mode.
 
@@ -86,7 +86,7 @@ The navigation cluster may be moved to any part of the 3D display by dragging. T
 
 There is a smaller mini-cube in the lower right of the cluster which activates a drop-down menu allowing you to switch the viewing mode.
 
-### Selecting objects {#selecting_objects}
+### Selecting objects 
 
 Objects in the 3D view can be selected by clicking them with the corresponding mouse button, depending on the navigation mode (described above). A single click will select the object and one of its subcomponents (edge, face, vertex). Double-clicking will select the object and all its subcomponents. You can select more than one subcomponent, or even different subcomponents from different objects, by pressing the CTRL key. Clicking with the selection button on an empty portion of the 3D view will deselect everything.
 

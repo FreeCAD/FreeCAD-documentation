@@ -47,8 +47,8 @@ Dies ist der Standardbefehl, um Objekte in einem FreeCAD-Dokument in andere Date
 ## Preferences
 
 -   See: [Import Export Preferences](Import_Export_Preferences.md).
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   The last used export filter is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileExportFilter}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used export filter is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileExportFilter**.
 
 
 

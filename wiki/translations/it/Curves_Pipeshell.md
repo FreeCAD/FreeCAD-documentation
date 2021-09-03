@@ -16,7 +16,7 @@ The <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Curves Pi
 3.  Select one or more required profiles in the [Tree view](Tree_view.md)
 4.  To invoke the command, do one of the following:
     -   Press the <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Creates a Pipeshell sweep object](Curves_Pipeshell.md) button in the tool bar
-    -   Use the {{MenuCommand|Surfaces → Pipeshell}}
+    -   Use the **Surfaces → Pipeshell**
 5.  Change the `Pipeshell` parameter to the required conditions
 
 ## Proprietà

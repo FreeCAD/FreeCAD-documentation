@@ -29,9 +29,9 @@ Gli oggetti Parte sono più complessi degli oggetti mesh creati con l\'ambiente 
 
 *Part Workbench è lo strato base che espone le funzioni di disegno OCCT a tutti gli ambienti di FreeCAD.*
 
-## Gli strumenti {#gli_strumenti}
+## Gli strumenti 
 
-Gli strumenti si trovano nel menu {{MenuCommand|Part}} o nel menu {{MenuCommand|Measure}}.
+Gli strumenti si trovano nel menu **Part** o nel menu **Measure**.
 
 ### Primitive
 
@@ -69,7 +69,7 @@ Questi sono strumenti per creare oggetti primitivi.
 
 -   <img alt="" src=images/Part_Shapebuilder.svg  style="width:32px;"> [Generatore di forma](Part_Builder/it.md): Crea forme complesse partendo da primitive geometriche
 
-### Creazione e modifica {#creazione_e_modifica}
+### Creazione e modifica 
 
 Questi sono strumenti per creare nuovi oggetti e modificare quelli esistenti.
 
@@ -151,7 +151,7 @@ Questi strumenti eseguono operazioni booleane.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Attiva o Disattiva le misure Delta](Part_Measure_Toggle_Delta/it.md): Mostra o nasconde le misure delta.
 
-### Altri strumenti {#altri_strumenti}
+### Altri strumenti 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Importa CAD](Part_Import/it.md): Importazione da file \*.IGES, \*.STEP, o \*.BREP.
 
@@ -177,7 +177,7 @@ Questi strumenti eseguono operazioni booleane.
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Elimina funzioni](Part_Defeaturing/it.md): Rimuove le funzioni da un oggetto.
 
-### Strumenti del menu contestuale {#strumenti_del_menu_contestuale}
+### Strumenti del menu contestuale 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aspetto](Std_SetAppearance/it.md): Determina l\'aspetto di un intero oggetto (colore, trasparenza, ecc.).
 

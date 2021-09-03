@@ -17,7 +17,7 @@ Ricordare che gli oggetti duplicati con copia-incolla non dipendono dall\'origin
 
 <div class="mw-translate-fuzzy">
 
-## Copia di oggetti collegati {#copia_di_oggetti_collegati}
+## Copia di oggetti collegati 
 
 Gli oggetti di un [Documento](Document_structure/it.md) possono essere collegati ad altri oggetti (ad esempio, una funzione di estrusione è legata al suo schizzo e una fusione è legata ai suoi componenti). Per questo gli oggetti da copiare vanno selezionati con attenzione.
 
@@ -39,7 +39,7 @@ In general, recommended practice is to select all dependent objects when copying
 
 In generale, durante la copia di un oggetto genitore si raccomanda di selezionare anche tutti gli oggetti dipendenti.
 
-## Trovare e Posizionare un oggetto duplicato {#trovare_e_posizionare_un_oggetto_duplicato}
+## Trovare e Posizionare un oggetto duplicato 
 
 Dopo l\'operazione di copia/incolla, il nuovo oggetto può non essere visibile nella finestra del documento. Questo succede perché il nuovo oggetto ha la stessa proprietà [Placement](Placement/it.md) dell\'originale. Commutare la proprietà Visibility dell\'oggetto originale con la barra spaziatrice **Spazio** per nasconderlo. Quindi utilizzare la finestra di Posizionamento per spostare la copia nella sua posizione corretta.
 
@@ -49,7 +49,7 @@ Dopo l\'operazione di copia/incolla, il nuovo oggetto può non essere visibile n
 
 <div class="mw-translate-fuzzy">
 
-## Altri metodi {#altri_metodi}
+## Altri metodi 
 
 Come per la maggior parte delle operazioni, anche per fare le copie, in FreeCAD ci sono molti modi. Per ulteriori idee, vedere:
 

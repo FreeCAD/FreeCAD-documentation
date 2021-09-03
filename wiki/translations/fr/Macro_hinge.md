@@ -21,7 +21,7 @@ Ouvrez les deux fichiers (20140908b\_Hinge-1.FCMacro et 20140908b\_Hinge-1.FCStd
 
 <img alt="Charnière" src=images/Hing_01.png  style="width:300px;">
 
-## Le Fichier {#le_fichier}
+## Le Fichier 
 
 [20140908b\_Hinge-1.fcstd](http://forum.freecadweb.org/download/file.php?id=7628)
 

@@ -11,7 +11,7 @@
 
 The [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) tool allows the user to create the rebar shape cut list of reinforcing bars.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
 
@@ -88,7 +88,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 The [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
-### Create Rebar Shape SVG {#create_rebar_shape_svg}
+### Create Rebar Shape SVG 
 
 
 ```python
@@ -211,7 +211,7 @@ with open(output_file, "w", encoding="utf-8") as f:
 
 ```
 
-### Create Rebar Shape Cut List SVG {#create_rebar_shape_cut_list_svg}
+### Create Rebar Shape Cut List SVG 
 
 
 ```python
@@ -292,7 +292,7 @@ getRebarShapeCutList(
 
 -    `output_file`specifies the output file to write generated rebar shape cut list SVG.
 
-#### Example {#example_1}
+#### Example 
 
 
 ```python

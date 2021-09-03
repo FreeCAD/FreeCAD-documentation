@@ -13,9 +13,9 @@ Unter Skripten verstehen wir die Erstellung topologischer Objekte mit dem Python
 
 Bedauerlicherweise sind die Informationen über das Skripten in der Dokumentation und sogar in diesem Wiki verstreut und es mangelt an Einheitlichkeit beim \"Schreiben\", und die meisten von ihnen werden zu technisch erklärt.
 
-## Befeuchte deinen Appetit {#befeuchte_deinen_appetit}
+## Befeuchte deinen Appetit 
 
-Das erste Hindernis auf einem einfachen Weg zur Skripterstellung ist, dass es keine direkte Möglichkeit gibt, den FreeCAD internen Python Editor über einen Menüeintrag oder ein Symbol im Werkzeugleistenbereich aufzurufen, aber wenn man weiß, dass FreeCAD eine Datei mit der Erweiterung `.py` im internen Python Editor öffnet, ist der einfachste Trick, sie in Ihrem bevorzugten Texteditor zu erstellen und sie dann mit dem üblichen Befehl {{MenuCommand|Datei → Öffnen}} zu öffnen.
+Das erste Hindernis auf einem einfachen Weg zur Skripterstellung ist, dass es keine direkte Möglichkeit gibt, den FreeCAD internen Python Editor über einen Menüeintrag oder ein Symbol im Werkzeugleistenbereich aufzurufen, aber wenn man weiß, dass FreeCAD eine Datei mit der Erweiterung `.py` im internen Python Editor öffnet, ist der einfachste Trick, sie in Ihrem bevorzugten Texteditor zu erstellen und sie dann mit dem üblichen Befehl **Datei → Öffnen** zu öffnen.
 
 Um die Dinge in einer höflichen Art und Weise zu machen, muss die Datei mit einer gewissen Ordnung geschrieben werden, FreeCAD Python Editor haben eine gute \"Syntax Hervorhebung\", die in vielen einfachen Editoren wie Windows Notepad oder einige grundlegende Linux Editoren fehlt, so ist es ausreichend, diese wenigen Zeilen zu schreiben:
 
@@ -118,7 +118,7 @@ Du wirst einige magische Dinge sehen, ein neues Dokument mit dem Namen \"Pippo\"
 
 ![Test Cube](images/Cubo.png )
 
-## Etwas mehr\... {#etwas_mehr...}
+## Etwas mehr\... 
 
 Nicht allzu erstaunlich? Ja, aber irgendwo müssen wir anfangen, wir können das Gleiche mit einem [Zylinder](Part_Cylinder/de.md) tun, diese Codezeilen nach der `cubo(` Methode und vor der Zeile `# objects definition` hinzufügen.
 

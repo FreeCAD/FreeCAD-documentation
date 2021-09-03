@@ -19,7 +19,7 @@ The **Std Paste** command pastes objects from the Clipboard into the active docu
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Make the target Document active by clicking on it in the Project tab or Document window.
 2.  Press the **[16px|Paste](File:Std_Paste.png.md)** icon, **ctrl** + **V** keys or use menu choices Edit → Paste.
@@ -29,8 +29,8 @@ The **Std Paste** command pastes objects from the Clipboard into the active docu
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_Paste.svg" width=16px> [Std Paste](Std_Paste.md)** button.
-    -   Select the {{MenuCommand|Edit → <img src="images/Std_Paste.svg" width=16px> Paste}} option from the menu.
-    -   Select the {{MenuCommand|<img src="images/Std_Paste.svg" width=16px> Paste}} option from the [Tree view](Tree_view.md) context menu. Note that this option is only available when an exiting object has been selected.
+    -   Select the **Edit → <img src="images/Std_Paste.svg" width=16px> Paste** option from the menu.
+    -   Select the **<img src="images/Std_Paste.svg" width=16px> Paste** option from the [Tree view](Tree_view.md) context menu. Note that this option is only available when an exiting object has been selected.
     -   Use the keyboard shortcut: **Ctrl**+**V**.
 
 ## Notes
@@ -42,7 +42,7 @@ The **Std Paste** command pastes objects from the Clipboard into the active docu
 
 ## Preferences
 
--   Duplicate labels are allowed if {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels}} is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 
 ## Scripting
 

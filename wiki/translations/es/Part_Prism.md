@@ -21,7 +21,7 @@ Un Prisma de Part es un sólido definido por el corte transversal de un polígon
 <div class="mw-translate-fuzzy">
 
 1.  Abrir el banco de trabajo **<img src="images/Workbench_Part.svg" width=16px> [Part](Part_Workbench/es.md)** .
-2.  Presionar el botón **<img src="images/Part_Primitives.svg" width=24px> [Primitivas](Part_Primitives/es.md)** , o usar el menú superior {{MenuCommand|Pieza → [Crear primitivas](Part_Primitives/es.md) → Prisma}} .
+2.  Presionar el botón **<img src="images/Part_Primitives.svg" width=24px> [Primitivas](Part_Primitives/es.md)** , o usar el menú superior **Pieza → [Crear primitivas](Part_Primitives/es.md) → Prisma** .
 3.  Seleccionar **Prisma** en la ventana de diálogo e introducir los parámetros.
 
 

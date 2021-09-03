@@ -53,7 +53,7 @@ Wenn eine Quelle [Form](Shape/de.md) angegeben wird, kann dieses Werkzeug Kanten
     -   
         {{RadioButton|TRUE|Alles Anzeigen}}
         
-        : Es werden alle Arten von geschlossenen Drähten und Kanten auf der Zieloberfläche angezeigt. Wenn im vorherigen Schritt ein \"Fläche\" Unterelement ausgewählt wurde, wird eine Vorschau eines aus der Projektion extrudierten festen Objekts angezeigt, abhängig vom Wert von {{MenuCommand|Höhe extrudieren}}.
+        : Es werden alle Arten von geschlossenen Drähten und Kanten auf der Zieloberfläche angezeigt. Wenn im vorherigen Schritt ein \"Fläche\" Unterelement ausgewählt wurde, wird eine Vorschau eines aus der Projektion extrudierten festen Objekts angezeigt, abhängig vom Wert von **Höhe extrudieren**.
 
     -   
         {{RadioButton|TRUE|Flächen anzeigen}}
@@ -75,9 +75,9 @@ Hinweise:
 
 ## Optionen
 
--    {{MenuCommand|Extrusionshöhe}}: Dies ist die Höhe der festen Form, die durch Extrudieren der projizierten Fläche aus der Zielfläche und entlang des Negativs der Projektionsrichtung entsteht. Wenn die Projektionsrichtung beispielsweise entlang +Y {{Value|(0, 1, 0)}}, wird die Extrusion in der Richtung -Y {{Value|(0, -1, 0)}} erzeugt. Diese Volumenkörper Extrusion wird nur dann erzeugt, wenn das gewählte Unterelement eine geschlossene Fläche war, durch drücken der **Fläche hinzufügen** Schaltfläche, und durch Auswahl der {{RadioButton|TRUE|Alles anzeigen}} Option.
+-    **Extrusionshöhe**: Dies ist die Höhe der festen Form, die durch Extrudieren der projizierten Fläche aus der Zielfläche und entlang des Negativs der Projektionsrichtung entsteht. Wenn die Projektionsrichtung beispielsweise entlang +Y {{Value|(0, 1, 0)}}, wird die Extrusion in der Richtung -Y {{Value|(0, -1, 0)}} erzeugt. Diese Volumenkörper Extrusion wird nur dann erzeugt, wenn das gewählte Unterelement eine geschlossene Fläche war, durch drücken der **Fläche hinzufügen** Schaltfläche, und durch Auswahl der {{RadioButton|TRUE|Alles anzeigen}} Option.
 
--    {{MenuCommand|Festkörpertiefe}}: dies ist die Entfernung, um die das Projektionsobjekt entlang der Projektionsrichtung bewegt wird. Negative Werte verschieben das Objekt in die entgegengesetzte Richtung; dadurch kann eine Projektion erzeugt werden, die von der Zielfläche versetzt ist.
+-    **Festkörpertiefe**: dies ist die Entfernung, um die das Projektionsobjekt entlang der Projektionsrichtung bewegt wird. Negative Werte verschieben das Objekt in die entgegengesetzte Richtung; dadurch kann eine Projektion erzeugt werden, die von der Zielfläche versetzt ist.
 
 ## Begrenzungen
 

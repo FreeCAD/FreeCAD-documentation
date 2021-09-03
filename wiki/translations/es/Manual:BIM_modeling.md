@@ -44,7 +44,7 @@ y producir una vista en planta y en sección a partir de ella:
 <div class="mw-translate-fuzzy">
 
 -   Crear un nuevo documento, y cambiar al [Ambiente de trabajo Arquitectura](Arch_Module/es.md).
--   Abra el menú {{MenuCommand|Edición → Preferencias → Borrador → Rejilla y Ajuste}} y establezca:
+-   Abra el menú **Edición → Preferencias → Borrador → Rejilla y Ajuste** y establezca:
     -   **Líneas principales cada** `10`.
     -   **Espaciado de la cuadrícula** `1000mm` para tener una cuadrícula basada en un metro, lo cual es conveniente para el tamaño de nuestro edificio.
     -   **Tamaño de la cuadrícula** `100 líneas`.

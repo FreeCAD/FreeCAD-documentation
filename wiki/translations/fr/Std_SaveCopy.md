@@ -13,7 +13,7 @@ La commande **Std Enregistrer une copie** enregistre une copie du document actif
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Fichier → <img src="images/Std_SaveCopy.svg" width=16px> Enregistrer une copie...}} dans le menu.
+1.  Sélectionnez l\'option **Fichier → <img src="images/Std_SaveCopy.svg" width=16px> Enregistrer une copie...** dans le menu.
 2.  Entrez un nom de fichier dans la boîte de dialogue.
 3.  Appuyez sur le bouton **Enregistrer**.
 
@@ -23,7 +23,7 @@ La commande **Std Enregistrer une copie** enregistre une copie du document actif
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

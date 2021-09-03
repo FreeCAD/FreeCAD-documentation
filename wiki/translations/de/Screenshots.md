@@ -2,7 +2,7 @@
 
 Hier gibt es einige Bildschirmfotos, die verschiedene Teile von FreeCAD zeigen. Sie sind nicht in einer bestimmten Reihenfolge angeordnet, so dass die Bilder von Ihrer tatsächlichen Version abweichen können. Siehe weitere von FreeCAD Anwendern eingereichte Bildschirmfotos auf dem [Bildschirmfoto Forumsbeitrag](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) und auf dem [\"Zeige dein Projekt hier!\" Anwender Vorzeigeprojekt Part Forum](http://forum.freecadweb.org/viewforum.php?f=24)
 
-### Version 0.17 {#version_0.17}
+### Version 0.17 
 
 <img alt="" src=images/6DPLEQ2.jpg  style="width:1024px;">
 
@@ -30,7 +30,7 @@ Hier gibt es einige Bildschirmfotos, die verschiedene Teile von FreeCAD zeigen. 
 
 <img alt="" src=images/freeCAD-guitar.jpg  style="width:1024px;">
 
-### Version 0.16 {#version_0.16}
+### Version 0.16 
 
 <img alt="" src=images/Hhassey.png  style="width:1024px;">
 
@@ -44,7 +44,7 @@ Hier gibt es einige Bildschirmfotos, die verschiedene Teile von FreeCAD zeigen. 
 
 <img alt="" src=images/R_tec.jpeg  style="width:1024px;">
 
-### Version 0.15 {#version_0.15}
+### Version 0.15 
 
 <img alt="" src=images/Obijuan.png  style="width:1024px;">
 
@@ -56,7 +56,7 @@ Hier gibt es einige Bildschirmfotos, die verschiedene Teile von FreeCAD zeigen. 
 
 <img alt="" src=images/Lou_papet.png  style="width:1024px;">
 
-### Version 0.14 {#version_0.14}
+### Version 0.14 
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -88,21 +88,21 @@ Netzkrümmungs Analyse, erzeugt mit dem Arbeitsbereich Polygonnetz
 
 Export zu externen Anwendungen mittels Python Makros
 
-### Version 0.12 {#version_0.12}
+### Version 0.12 
 
 ![Zusammenbau mehrerer Objekte\|1024px](images/FreeCAD_aeroponic_system.jpg )
 
 ![A fully-constrained sketch revolved to create a bike rim section\|1024px](images/rim_bling.png )
 
-### Version 0.11 {#version_0.11}
+### Version 0.11 
 
 <img alt="" src=images/FreeCAD011.png  style="width:1024px;">
 
-### Version 0.10 {#version_0.10}
+### Version 0.10 
 
 ![](images/Freecad010.png )
 
-### Version 0.9 {#version_0.9}
+### Version 0.9 
 
 ![](images/Freecad09.jpg )
 
@@ -116,7 +116,7 @@ Export zu externen Anwendungen mittels Python Makros
 
 Ein Bildschirmfoto zeigt FreeCAD beim Importieren und Rendern eines gCAD STEP Modells
 
-### STEP Daten {#step_daten}
+### STEP Daten 
 
 <img alt="" src=images/TaskPanel.jpg  style="width:800px;">
 
@@ -128,7 +128,7 @@ Mit beladenem Robotergreifer
 
 Auf XP mit Schenkel
 
-### Boolsche Operationen auf Formen {#boolsche_operationen_auf_formen}
+### Boolsche Operationen auf Formen 
 
 <img alt="" src=images/Part_BooleanOperations.png  style="width:800px;">
 
@@ -146,7 +146,7 @@ FreeCAD unter Windows Vista mit geladenem IGES Modell von [Rexroth](http://www13
 
 Du kannst viele Aspekte von FreeCAD anpassen!
 
-### Boolsche Vorgänge auf Polygonnetze {#boolsche_vorgänge_auf_polygonnetze}
+### Boolsche Vorgänge auf Polygonnetze 
 
 ![](images/Screenshot_mesh.jpg )
 
@@ -158,19 +158,19 @@ Netz Boolsche Operationen in FreeCAD
 
 Blender hat ein [Skript](http://yorik.orgfree.com/guestblog.php?2009=105) um FreeCAD Dateien zu importieren.
 
-### Zeichnungs Extraktion {#zeichnungs_extraktion}
+### Zeichnungs Extraktion 
 
 <img alt="" src=images/Drawing_extraction.png  style="width:800px;">
 
 Extrahieren eines 3D Teils (in diesem Fall STEP) in eine SVG **Zeichnungsextraktion**s Ansicht . Dies ist vollständig parametrisch, wenn sich das Teil ändert, folgt die Ansicht.
 
-### FreeCAD im Vergleich zu QCad {#freecad_im_vergleich_zu_qcad}
+### FreeCAD im Vergleich zu QCad 
 
 ![](images/Screenshot_qcad.jpg )
 
 Ein Bildschirmfoto, das zeigt, wie eine gleiche Datei von FreeCAD und qCAD gerendert wird
 
-### FreeCAD im Vergleich zu Inkscape {#freecad_im_vergleich_zu_inkscape}
+### FreeCAD im Vergleich zu Inkscape 
 
 ![](images/Screenshot_inkscape.jpg )
 
@@ -179,7 +179,7 @@ Ein Bildschirmfoto, das zeigt, wie eine gleiche Datei von FreeCAD und inkscape g
 
 <div class="mw-translate-fuzzy">
 
-### Arbeitsbereich Entwurf {#arbeitsbereich_entwurf}
+### Arbeitsbereich Entwurf 
 
 ![](images/Screenshot_draft.jpg )
 
@@ -200,13 +200,13 @@ FreeCAD mit geladenem [Arbeitsbereich Entwurf](Draft_Module/de.md) und einer imp
 
 Der Einstellungsbildschirm
 
-### Auf Ubuntu {#auf_ubuntu}
+### Auf Ubuntu 
 
 ![](images/Interface_screenshot.jpg )
 
 Die FreeCAD Oberfläche, wenn Du es zum ersten Mal auf Unbuntu startest
 
-### Windows Installationsprogramm {#windows_installationsprogramm}
+### Windows Installationsprogramm 
 
 ![](images/Screenshot_installer.jpg )
 
@@ -218,7 +218,7 @@ Windows Installationsprogramm bei der Arbeit
 
 FreeCAD läuft im Konsolenmodus (ohne GUI)
 
-### Bild speichern {#bild_speichern}
+### Bild speichern 
 
 ![](images/Save_picture.png )
 

@@ -35,7 +35,7 @@ Das Werkzeug AktiveAnsicht fügt eine Kopie eines 3D Fensters in eine Zeichnungs
 
 See <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Symbol](TechDraw_Symbol/de.md)
 
-### Dialog Felder {#dialog_felder}
+### Dialog Felder 
 
 -    {{PropertyData/de|Breite}}: Die Breite der Ansicht.
 

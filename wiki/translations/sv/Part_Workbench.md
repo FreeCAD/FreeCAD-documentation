@@ -102,7 +102,7 @@ Detta är verktyg för att skapa primitivobjekt.
 
 <div class="mw-translate-fuzzy">
 
-### Förändra objekt {#förändra_objekt}
+### Förändra objekt 
 
 
 </div>
@@ -215,7 +215,7 @@ These tools perform boolean operations.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Toggle Delta](Part_Measure_Toggle_Delta.md): Shows or hides delta measurements.
 
-### Other tools {#other_tools}
+### Other tools 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Import](Part_Import.md): Imports from \*.IGES, \*.STEP, or \*.BREP files.
 
@@ -249,7 +249,7 @@ These tools perform boolean operations.
 
 </div>
 
-### Context menu items {#context_menu_items}
+### Context menu items 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance](Std_SetAppearance.md): Determines the appearance of a whole object (color, transparency etc.).
 

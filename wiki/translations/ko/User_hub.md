@@ -24,7 +24,7 @@ FreeCAD에 기여하고 싶다면, [Help FreeCAD](Help_FreeCAD.md) 페이지를 
 
 몇 년 전에 FreeCAD가 어떻게 시작되었는지 알고 싶으면 [ History](History.md) 페이지를 방문하세요.
 
-## FreeCAD 사용하기 {#freecad_사용하기}
+## FreeCAD 사용하기 
 
 ### 소개
 
@@ -48,7 +48,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-### 기본 응용프로그램 {#기본_응용프로그램}
+### 기본 응용프로그램 
 
 
 </div>
@@ -116,7 +116,7 @@ Power users have written various [macros](macros.md) to enhance FreeCAD with mor
 
 Since FreeCAD 0.17, many macros can be installed using the [Addon Manager](Std_AddonMgr.md). For a list of the macros refer to the [Macros recipes](Macros_recipes.md) page. For manual installation see [How to install macros](How_to_install_macros.md).
 
-### External workbenches {#external_workbenches}
+### External workbenches 
 
 When many macros or functions are developed together, and are organized in toolbars and menus, they can become a new workbench.
 
@@ -134,13 +134,13 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 </div>
 
-## 온라인 도움 {#온라인_도움}
+## 온라인 도움 
 
 This is the official FreeCAD online help. Please note that the whole online help system is currently being reworked. It will be used to generate a .CHM file, that will be distributed with the binary packages of FreeCAD. At the moment the online help summarizes some of the most complete sections of this wiki.
 
 -   [Online help system - Table of Contents](Online_Help_Toc.md)
 
-## 좀 더 {#좀_더}
+## 좀 더 
 
 
 <div class="mw-translate-fuzzy">

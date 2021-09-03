@@ -33,7 +33,7 @@ Das Ziel ist offensichtlich ein Arbeitsablauf, der effizient ist und keine mensc
 
 Pfad ist für das 2,5D Fräsen optimiert. Es braucht das Konzept der Auftrag \'Arten\', um andere Arten von Arbeitsabläufen wie Drehbank, 4. Achse und reine 2D Maschinen zu behandeln. Zusätzliche Auftragsarten würden dazu beitragen, die Auswahlmöglichkeiten des Benutzers einzugrenzen und das visuelle Rauschen und die Verwirrung zu beseitigen, die durch Optionen entstehen, die nicht auf die gewünschte Aufgabe zutreffen.
 
-### 2D Arbeitsablauf {#d_arbeitsablauf}
+### 2D Arbeitsablauf 
 
 2D Arbeitsabläufe wie Laser/Wasserstrahl/Plasma haben einige besondere Anforderungen.
 
@@ -47,7 +47,7 @@ Zusätzliche 2D Strategien
 -   V-Carve - Gravieren, durch Folgen der Mittellinie zwischen den Kanten und dabei kontrollieren der Z Tiefe.
 -   Schraffurfüllen - Füllen einer beliebigen Begrenzung mit einem Schraffurmuster
 
-### Arbeitsablauf Drehmaschine {#arbeitsablauf_drehmaschine}
+### Arbeitsablauf Drehmaschine 
 
 Die Drehmaschineneinrichtung unterscheidet sich vom Fräsen. Der Benutzer sieht das Koordinatensystem im Allgemeinen so, dass die Z Achse nach rechts und die X Achse in Richtung des Benutzers zeigt. Die Werkzeugpfade werden als 2D relativ zu einer Seite des Werkstücks oder relativ zum Ende für Plandrehoperationen betrachtet.
 
@@ -61,11 +61,11 @@ Drehbearbeitung
 -   Gewindeschneiden Außen
 -   Gewindeschneiden Innen
 
-### 4/5 Achsen Arbeitsablauf {#achsen_arbeitsablauf}
+### 4/5 Achsen Arbeitsablauf 
 
 Kontinuierliche 4. Achsen Bearbeitungen können die 4. drehen, während der Fräser eingreift. Bei dieser Art von Bearbeitungen muss der Werkzeugpfad relativ zum Werkstück visualisiert werden. Bei anderen Bearbeitungen wird die 4. Achse verwendet, um das Werkstück in eine bestimmte Richtung zu drehen und dann eine reine 2,5D Bearbeitung des Werkstücks durchzuführen. Hier handelt es sich eher um mehrere Aufspannungen und die Visualisierung muss unter Umständen für jeden einzelnen Schritt berücksichtigt werden.
 
-### 2.5D (Fräs) Arbeitsablauf {#d_fräs_arbeitsablauf}
+### 2.5D (Fräs) Arbeitsablauf 
 
 Dies ist das stärkste Feld von Pfad. Aber es gibt noch Raum für Verbesserungen.
 
@@ -75,14 +75,14 @@ Zusätzliche Strategien
 -   Bohren - Geradliniges Bohren Dosenbetrieb (G85/G89)
 -   Schlitzsäge - Schlitzschneiden mit Sägewerkzeug an der Seite des Werkstücks
 
-### 3D Oberflächenfräsen {#d_oberflächenfräsen}
+### 3D Oberflächenfräsen 
 
 Additional strategies
 
 -   Constant scallop
 -   Pencil
 
-### Mehrprogramm Kontext {#mehrprogramm_kontext}
+### Mehrprogramm Kontext 
 
 Some parts require multiple setups to complete. Each setup is represented by a separate job but no structure links them together other than the top-level document. This is insufficient because the document may contain multiple parts that have completely independent manufacturing steps/jobs/setups.
 
@@ -100,7 +100,7 @@ Commercial CNC users usually produce a document called a [\'setup sheet\'](https
 -   gcode program name
 -   Fixtures and workholding information
 
-## Bibliotheken Niedriger Stufe {#bibliotheken_niedriger_stufe}
+## Bibliotheken Niedriger Stufe 
 
 
 <div class="mw-translate-fuzzy">
@@ -126,11 +126,11 @@ Some of the operations/strategies offer features and tools that are useful but n
 
 Pocket/3D Pocket has a boundary extension tool. This should be available to all operations where it makes sense. For example adaptive, surface, waterline,
 
-## Darstellung des restlichen Materials {#darstellung_des_restlichen_materials}
+## Darstellung des restlichen Materials 
 
 Path should have a more robust state for the remaining material. This would be useful for visualization, collision avoidance, and REST milling.
 
-## Post Processing & Advanced Gcode {#post_processing_advanced_gcode}
+## Post Processing & Advanced Gcode 
 
 -   Post to git
 
@@ -150,7 +150,7 @@ When 2D cutting (laser/waterjet/plasma) of material supported on a grating, smal
 
 -   Visualization of remaining material after each operation could be improved
 
-## Liste der Defizite {#liste_der_defizite}
+## Liste der Defizite 
 
 The following list is not individual bugs but shows how Path is inconsistent in its application of concepts.
 

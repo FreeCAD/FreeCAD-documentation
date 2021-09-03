@@ -21,7 +21,10 @@
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [使用者入口](User_hub/zh-cn.md)：此页内容面向一般FreeCAD用户，提供的文档包括：所有工作台的列表，有关安装和使用FreeCAD应用程序的详细说明和教程，总之包含所有能帮助您起步的东西。 {{Clear}} <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [发烧友入口](Power_users_hub/zh-cn.md)：此页内容面向高级用户和有兴趣编写python脚本的人，收集相关文档。在这里，你能找到一个存储着宏的库，有如何安装和使用它们的说明，以及根据您的具体需求定制FreeCAD的方法。 {{Clear}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [开发者入口](Developer_hub/zh-cn.md)：本节内容面向开发人员，包含的材料有：自己怎样编译FreeCAD，FreeCAD源代码的结构，如何在其中穿梭，以及怎样开发新的工作台，怎样将FreeCAD嵌入到您自己的应用程序中。 {{Clear}}
+<img alt="" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [使用者入口](User_hub/zh-cn.md)：此页内容面向一般FreeCAD用户，提供的文档包括：所有工作台的列表，有关安装和使用FreeCAD应用程序的详细说明和教程，总之包含所有能帮助您起步的东西。 
+ <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [发烧友入口](Power_users_hub/zh-cn.md)：此页内容面向高级用户和有兴趣编写python脚本的人，收集相关文档。在这里，你能找到一个存储着宏的库，有如何安装和使用它们的说明，以及根据您的具体需求定制FreeCAD的方法。 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [开发者入口](Developer_hub/zh-cn.md)：本节内容面向开发人员，包含的材料有：自己怎样编译FreeCAD，FreeCAD源代码的结构，如何在其中穿梭，以及怎样开发新的工作台，怎样将FreeCAD嵌入到您自己的应用程序中。 
+
 
 
 </div>
@@ -31,7 +34,8 @@
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD 手册](Manual:Introduction/zh-cn.md) 是另一种更线性的方式，来呈现此维基中的信息。它做成了一本书的形式，也会善意地引导您进入上面三个入口中的许多其他页面。 这里有 [电子书版本](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details)，还有 [几个翻译后的PDF格式](https://www.freecadweb.org/manual/)。 {{Clear}}
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD 手册](Manual:Introduction/zh-cn.md) 是另一种更线性的方式，来呈现此维基中的信息。它做成了一本书的形式，也会善意地引导您进入上面三个入口中的许多其他页面。 这里有 [电子书版本](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details)，还有 [几个翻译后的PDF格式](https://www.freecadweb.org/manual/)。 
+
 
 
 </div>

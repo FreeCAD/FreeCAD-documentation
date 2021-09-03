@@ -12,7 +12,7 @@
 
 Crea una Primitiva sustractiva en el Body (cuerpo) activo, sustrayendo su forma del sólido existente.
 
-## Tipos de Primitivas {#tipos_de_primitivas}
+## Tipos de Primitivas 
 
 -   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Caja sustractiva](PartDesign_SubtractiveBox/es.md)
 -   <img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Cono sustractivo](PartDesign_SubtractiveCone/es.md)

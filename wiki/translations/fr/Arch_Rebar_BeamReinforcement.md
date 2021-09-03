@@ -14,7 +14,7 @@ L\'outil [Rebar Poutre](Arch_Rebar_BeamReinforcement/fr.md) permet à l\'utilisa
 
 L\'outil [Rebar Poutre](Arch_Rebar_BeamReinforcement.md) est également intégré dans [atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 ![](images/Arch_Rebar_BeamReinforcement_example.png )
 
@@ -191,7 +191,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 L'outil BeamReinforcement peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante:
 
-### Créer des étriers à deux pattes {#créer_des_étriers_à_deux_pattes}
+### Créer des étriers à deux pattes 
 
 
 ```python

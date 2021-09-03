@@ -29,7 +29,7 @@ La vue détaillée peut être affichée dans une boîte de vue ronde ou carrée.
 
 ## Propriétés
 
-### Vue détaillée {#vue_détaillée}
+### Vue détaillée 
 
 -    {{PropertyData/fr|BaseView}}: la vue sur laquelle cette vue détaillée est basée.
 
@@ -47,7 +47,7 @@ La vue détaillée peut être affichée dans une boîte de vue ronde ou carrée.
 
 -    {{PropertyData/fr|Reference}}: identifiant pour indiquer la zone de {{PropertyData/fr|BaseView}} affichée.
 
-### Base View {#base_view}
+### Base View 
 
 Une vue détaillée hérite de toutes les propriétés applicables de la vue spécifiée comme {{PropertyData/fr|BaseView}}. Dans les propriétés de cette vue, vous pouvez modifier l\'apparence du contour du détail:
 

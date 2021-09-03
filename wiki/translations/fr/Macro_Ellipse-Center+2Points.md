@@ -15,7 +15,7 @@ Fait une ellipse en sélectionnant trois points (dans cet ordre): centre, rayon 
 
 ![](images/EllipseCenter2Point.png )
 
-## Dernière version {#dernière_version}
+## Dernière version 
 
 La dernière version de la macro peut être téléchargée à l\'adresse suivante: [EllipseCenter2Points.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/EllipseCenter2Points.FCMacro) mais le moyen le plus simple d'installer cette macro est de l\'installer à l\'aide de [Addon Manager](Addon_Manager/fr.md).
 

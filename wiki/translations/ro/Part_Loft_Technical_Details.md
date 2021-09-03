@@ -2,7 +2,7 @@
 
 Informațiile furnizate sunt specifice implementării și se pot schimba. Starea actuală este relevantă pentru FreeCAD 0.15.4119, versiunea OCC: 6.7.0.
 
-## Etapele creării suprafeței riglate Loft {#etapele_creării_suprafeței_riglate_loft}
+## Etapele creării suprafeței riglate Loft 
 
 Pentru a explica procesul de mansardare, este convenabil să-l împărțim în etape:
 
@@ -10,7 +10,7 @@ Pentru a explica procesul de mansardare, este convenabil să-l împărțim în e
 2.  stabiliți corespondența între segmente
 3.  face suprafața mansardei
 
-### pasul 1. Faceți ca numărul de segment din profiluri să se potrivească {#pasul_1._faceți_ca_numărul_de_segment_din_profiluri_să_se_potrivească}
+### pasul 1. Faceți ca numărul de segment din profiluri să se potrivească 
 
 Instrumentul Loft-ul are nevoie de numărul de segmente să se potrivească pentru a crea suprafețe între segmentele corespunzătoare. Dacă numărul de segmente se potrivește în toate profilurile, acest pas poate fi/este omis.
 
@@ -26,7 +26,7 @@ Operația este extinsă la toate profilurile, pentru a obține un număr egal de
   <img alt="The process of slicing profile2 (white crescent-like shape) to create joints corresponding to vertices of profile1 (purple pentagon). The inserted joints are marked by yellow arrows." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="The result of loft relevant to the picture on the left." src=images/Loft_crescent_pentagon.png  style="width:300px;">
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Pasul 2. Establishing correspondence between segments {#pasul_2._establishing_correspondence_between_segments}
+### Pasul 2. Establishing correspondence between segments 
 
 <img alt="Demonstration of Loft keeping the number of segments in profiles when they match. Note how 3 edges of the top square \"collapse\" into a small polygonal piece of the bottom profile." src=images/Loft_Number_of_verts_match.png  style="width:300px;"> În cazul în care numărul de segmente din toate profilurile nu este egal, felierea a fost făcută în pasul 1, iar corespondența este trivială. În cazul în care numerele de segmente din toate profilurile au fost egale, segmentele existente sunt utilizate (vezi imaginea), iar acesta este momentul în care trebuie stabilită corespondența.
 
@@ -36,7 +36,7 @@ Corespondența dintre profilurile învecinate se face independent. Aceasta înse
 
 Un alt lucru care trebuie remarcat este că atunci când numărul de segmente în profiluri este egal, loftul rezultat este substanțial mai robust în ceea ce privește profilurile complexe, în special pentru cele ne-convexe. 
 
-### Pasul 3. Making the loft surface. {#pasul_3._making_the_loft_surface.}
+### Pasul 3. Making the loft surface. 
 
 <img alt="A spline interpolation curve (red) that follows the loft surface. The points to interpolate through are shown as red squares." src=images/Loft_B-spline.png  style="width:400px;"> Dacă există doar două profiluri, suprafețele create sunt suprafețe riglate între segmentele corespunzătoare ale profilurilor. Muchiile/marginile drepte sunt create pentru a conecta vârfurile corespunzătoare ale profilurilor.
 
@@ -51,14 +51,14 @@ Metoda de îmbinare utilizată este \"lungimea aproximativă a coardei\". Aproxi
 
 Rețineți că Loft are o proprietate \"Riglat\". Dacă este setat la adevărat, suprafețele riglate sunt realizate între profilurile învecinate chiar și atunci când există mai multe profiluri. Asta este, interpolarea funcției B-spline este înlocuită cu o interpolare liniară pe bucăți/părți. 
 
-## Esența instrumentului {#esența_instrumentului}
+## Esența instrumentului 
 
 -   Instrumentul Loft efectuează o interpolare B-spline între profilurile furnizate. Interpolarea este comutată în liniară pe bucăți/părți atunci când proprietatea \"Ruled\" este setată la true.
 -   Când numărul de profile depășește 9, gradul de interpolare este de 3. Această comutare poate reduce semnificativ agitarea/termurul.
 -   Dacă se potrivește numărul de segmente (sau numărul de noduri) din profiluri aceasta oferă Loft-ului o răsucire ușoară și, în general, vă permite să utilizați profiluri mai complexe.
 -   Când numărul de segmente nu se potrivește, este mai bine să păstrați profilurile astfel încât să poată fi reprezentate de o funcție corespunzătoare (phi) în coordonate polare.
 
-## Observații suplimentare {#observații_suplimentare}
+## Observații suplimentare 
 
 -   Nu este necesar ca profilurile să fie paralele (a se vedea imaginea de mai jos).
 -   Pentru Loft, nu este necesar ca profilurile să fie separate (a se vedea o imagine de mai jos). Ele pot fi coplanare, dar nu ar trebui să se intersecteze.

@@ -901,7 +901,7 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 [top](#top.md)
 
-## Iniziare con FreeCAD {#iniziare_con_freecad}
+## Iniziare con FreeCAD 
 
 
 <div class="mw-translate-fuzzy">

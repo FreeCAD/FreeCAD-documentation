@@ -61,11 +61,11 @@ La hauteur de l\'hélice (centre-centre).
 
 Le nombre de tours dans l\'hélice. Définit par le rapport hauteur/pas.
 
-### Cone Angle {#cone_angle}
+### Cone Angle 
 
 Le rapport avec lequel le rayon de l\'hélice augmente le long de l\'axe. Plage autorisée : \[-89°, +89°\].
 
-### Left handed {#left_handed}
+### Left handed 
 
 Si coché, le sens de rotation de l\'hélice est inversé, passant par défaut du sens des aiguilles d\'une montre au sens inverse.
 
@@ -73,13 +73,13 @@ Si coché, le sens de rotation de l\'hélice est inversé, passant par défaut d
 
 Si coché, la direction de l\'axe de l\'hélice est inversée par rapport à la valeur par défaut.
 
-### Update view {#update_view}
+### Update view 
 
 Si coché, l\'hélice sera affichée dans la vue et la mise à jour sera automatique à chaque modification des paramètres.
 
 ## Préférences
 
--   Une hélice additive qui n\'intersecte pas le corps sera visible dans l\'aperçu si {{MenuCommand|Outils → Éditer paramètres.... → BaseApp → Préférences → Mod → PartDesign → AdditiveHelixPreview}} est réglé sur `True`. La valeur par défaut de cette préférence est `False`. {{Version/fr|0.20}}
+-   Une hélice additive qui n\'intersecte pas le corps sera visible dans l\'aperçu si **Outils → Éditer paramètres.... → BaseApp → Préférences → Mod → PartDesign → AdditiveHelixPreview** est réglé sur `True`. La valeur par défaut de cette préférence est `False`. {{Version/fr|0.20}}
 
 ## Propriétés
 

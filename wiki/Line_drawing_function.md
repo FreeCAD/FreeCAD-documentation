@@ -6,7 +6,7 @@
 
 This page shows how advanced functionality can easily be created in Python. In this exercise, we will build a new tool that draws a line. This tool can then be linked to a FreeCAD command, and that command can be called by any element in the interface, like a menu item or a toolbar button.
 
-## The main script {#the_main_script}
+## The main script 
 
 First we will write a script containing all our functionality. Then we will save this in a file and import it in FreeCAD to make all its classes and functions available. Launch your favorite code editor and type the following lines:
 
@@ -39,7 +39,7 @@ class line:
 
 
 
-## Detailed explanation {#detailed_explanation}
+## Detailed explanation 
 
  
 ```python
@@ -167,7 +167,7 @@ Since we are done with our line we remove the callback mechanism here.
 
 
 
-## Testing the script {#testing_the_script}
+## Testing the script 
 
 Now let\'s save our script in a folder where the FreeCAD Python interpreter can find it. When importing modules, the interpreter will look in the following places: the Python installation paths, the FreeCAD {{FileName|bin}} folder, and all FreeCAD {{FileName|Mod}} (module) folders. So the best solution is to create a new folder in one of the {{FileName|Mod}} folders. Let\'s create a {{FileName|MyScripts}} folder there and save our script in it as {{FileName|exercise.py}}.
 
@@ -203,7 +203,7 @@ Click two times in the 3D view and bingo: here is our line! To repeat it just ty
 
 
 
-## Registering the script {#registering_the_script}
+## Registering the script 
 
 For our new line tool to be really useful, and to avoid having to type all that stuff, it should have a button in the interface. One way to do this is to transform our new {{FileName|MyScripts}} folder into a full FreeCAD workbench. This is easy, all that is needed is to put a file called {{FileName|InitGui.py}} inside the {{FileName|MyScripts}} folder. {{FileName|InitGui.py}} will contain the instructions to create a new workbench, and add our new tool to it. Besides that we will also need to change our exercise code a bit, so the `line()` tool is recognized as an official FreeCAD command. Let\'s start by creating an {{FileName|InitGui.py}} file, and writing the following code in it:
 
@@ -263,7 +263,7 @@ That\'s it, now we just need to restart FreeCAD and we\'ll have a nice new workb
 
 
 
-## So you want more? {#so_you_want_more}
+## So you want more? 
 
 If you liked this exercise, why not try to improve this little tool? There are many things that can be done, for example:
 

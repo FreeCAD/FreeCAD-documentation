@@ -21,14 +21,14 @@ Narzędzie **Sprawdzanie poprawności szkicu** może być używane do analizowan
     -   Użyj skrótu klawiaturowego: **Esc** *(jeśli opcja jest włączona w [Preferencjach szkicownika](Sketcher_Preferences/pl#Informacje_og.C3.B3lne.md))*.
 2.  W [widoku drzewa](Tree_view/pl.md) wybierz szkic, który ma zostać sprawdzony, lub kliknij jedną z krawędzi w oknie [widoku 3D](3D_view/pl.md).
 3.  Aby otworzyć narzędzie sprawdzania poprawności szkicu, wykonaj jedną z następujących czynności:
-    -   Wybierz z menu opcję {{MenuCommand|Sketch → Validate sketch...}}.
+    -   Wybierz z menu opcję **Sketch → Validate sketch...**.
     -   Naciśnij przycisk **<img src=images/Sketcher_ValidateSketch.svg style="width:16px">. [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md)** *(nie jest dostępny w środowisku pracy [Projekt części](PartDesign_Workbench/pl.md))*.
 4.  Zobacz [Opcje](#Opcje.md) poniżej, aby zapoznać się z dostępnymi operacjami.
 5.  Po zakończeniu naciśnij przycisk **Zamknij**.
 
 ## Opcje
 
-### Brakujące zbieżności {#brakujące_zbieżności}
+### Brakujące zbieżności 
 
 Wyszukuje brakujące zbieżności dla nakładających się wierzchołków i dodaje je. Wciśnij przycisk **Znajdź**, pojawi się okno dialogowe informujące o liczbie znalezionych brakujących zbieżności, będą one widoczne w oknie widoku 3D jako żółte krzyżyki. Naciśnij przycisk **OK**, aby zamknąć okno dialogowe, a następnie naciśnij przycisk **Napraw**, aby dodać brakujące zbieżności.
 
@@ -40,7 +40,7 @@ Tolerancja ta jest również używana przez proces **Znajdź** / **Napraw**.
 
 Pozostaw pole wyboru \"Ignoruj geometrię konstrukcji\" zaznaczone, aby w analizie nie uwzględniać geometrii konstrukcyjnej.
 
-### Nieprawidłowe wiązania {#nieprawidłowe_wiązania}
+### Nieprawidłowe wiązania 
 
 Sprawdza obecność zniekształconych wiązań.
 
@@ -50,7 +50,7 @@ Na przykład, jeśli istnieje wiązanie Okrąg-Linia-Styczna, ale odwołuje się
 
 Dokonuje również dodatkowych weryfikacji, np. pod kątem występowania nieważnych linków.
 
-### Zdegenerowana geometria {#zdegenerowana_geometria}
+### Zdegenerowana geometria 
 
 Zdegenerowana geometria może być wynikiem działania solvera w szkicu.
 
@@ -58,13 +58,13 @@ Na przykład, jeśli linia jest zmuszona do skrócenia długości, tak aby stał
 
 Inne przykłady: linia o zerowej długości lub okrąg/łuk o zerowym promieniu.
 
-### Odwrócona geometria zewnętrzna {#odwrócona_geometria_zewnętrzna}
+### Odwrócona geometria zewnętrzna 
 
 Odwrócona geometria zewnętrzna może się pojawić, ponieważ obsługa odwróconej geometrii została zmieniona mniej więcej w wersji 0.15.
 
 Ten proces może być pomocny, jeśli szkice z zewnętrzną geometrią nie dają się rozwiązać z powodu tych zmian.
 
-### Blokowanie orientacji wiązania {#blokowanie_orientacji_wiązania}
+### Blokowanie orientacji wiązania 
 
 Realizowane są wiązania styczne i prostopadłe *(przez punkt)*.
 

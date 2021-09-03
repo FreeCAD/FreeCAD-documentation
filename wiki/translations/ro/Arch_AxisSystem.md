@@ -29,7 +29,7 @@ This is useful to define the intersection points between the different axes. Arc
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

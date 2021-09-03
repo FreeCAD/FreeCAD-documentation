@@ -17,7 +17,7 @@
 
 ## Anwendung
 
-### Dialog-basierter Arbeitsablauf {#dialog_basierter_arbeitsablauf}
+### Dialog-basierter Arbeitsablauf 
 
 1.  Drücke die **<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Subtractive loft](PartDesign_SubtractiveLoft.md)** Schaltfläche.
 2.  Wähle im Dialog **Formelement auswählen** eine Skizze, die als Basisprofilobjekt verwendet werden soll, und klicke auf **OK**.
@@ -26,7 +26,7 @@
 4.  Wähle die nächste Skizze in der [3D Ansicht](3D_view/de.md). Wiederhole diesen Vorgang, um weitere Skizzen in der Reihenfolge auszuwählen, in der sie ausgeformt werden sollen. (Du kannst die Abschnittsreihenfolge jederzeit später im Ausformungsdialog ändern, indem du Abschnitte in der Liste an die gewünschte Position ziehst.<small>(v0.19)</small> )
 5.  Stelle bei Bedarf Optionen ein und klicke auf **OK**.
 
-### Auswahlbasierter Arbeitsablauf {#auswahlbasierter_arbeitsablauf}
+### Auswahlbasierter Arbeitsablauf 
 
 
 <small>(v0.19)</small> 

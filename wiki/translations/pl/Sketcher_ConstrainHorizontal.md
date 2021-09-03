@@ -30,7 +30,7 @@ Wiązanie poziome wymusza, aby wybrana linia lub linie na szkicu były równoleg
 <img alt="" src=images/HorizontalConstraint5.png  style="width:500px;"> 
 *a następnie stosując opisane powyżej wiązanie, są one powiązane równolegle do osi poziomej szkicu.*
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Horizontal', Line))```

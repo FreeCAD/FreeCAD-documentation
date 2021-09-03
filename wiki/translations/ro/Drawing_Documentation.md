@@ -1,6 +1,6 @@
  Această pagină documentează înțelegerea de către jcc242 a modulului Desen. Acesta include fișiere și caracteristici pe care le lucrează în prezent și este posibil să nu fie încă în ramura master. Sursa pentru aceste fișiere este pe [lui Github](https://github.com/jcc242/FreeCAD), dar aveți grijă, deoarece este foarte instabilă!
 
-## Baza (Mod/Drawing) {#baza_moddrawing}
+## Baza (Mod/Drawing) 
 
 ### gdtsvg.py
 
@@ -122,11 +122,11 @@ Adds the icons to the toolbars and stuff.
 
 # Workflow
 
-## Program Flow {#program_flow}
+## Program Flow 
 
 CanvasView is the actual QGraphicsScene object and DrawingView processes a list of FeatureView that are linked by reference in /App/FeatureViewPage. DrawingView then chooses the appropriate QGraphicsItem class (QGraphicsItemViewPart or QGraphicsItemViewDimension) and then calls a function in CanvasView to create this and add it to the scene.
 
-## Adăugarea de comenzi la Drawing Workbench {#adăugarea_de_comenzi_la_drawing_workbench}
+## Adăugarea de comenzi la Drawing Workbench 
 
 4 pași simpli:
 

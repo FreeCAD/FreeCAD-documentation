@@ -18,8 +18,8 @@ The **Std SetAppearance** command shows the Display properties [task panel](Task
 
 1.  Select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|View → <img src="images/Std_SetAppearance.svg" width=16px> Appearance...}} option from the menu.
-    -   Select the {{MenuCommand|<img src="images/Std_SetAppearance.svg" width=16px> Appearance...}} option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
+    -   Select the **View → <img src="images/Std_SetAppearance.svg" width=16px> Appearance...** option from the menu.
+    -   Select the **<img src="images/Std_SetAppearance.svg" width=16px> Appearance...** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **Ctrl**+**D**.
 3.  Change one or more display properties. See [Options](#Options.md). The objects will update immediately.
 4.  Optionally select one or more new objects whose display properties you want to change.
@@ -27,7 +27,7 @@ The **Std SetAppearance** command shows the Display properties [task panel](Task
 
 ## Опции
 
-### Viewing mode {#viewing_mode}
+### Viewing mode 
 
 -   Select a **Display Mode** from the dropdown list. The available options are: \'Flat lines\', \'Shaded\' (not for [Draft](Draft_Workbench.md) objects), \'Wireframe\' and \'Points\'. See the [Std DrawStyle](Std_DrawStyle.md) command for more information.
 

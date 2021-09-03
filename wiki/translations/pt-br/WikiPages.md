@@ -2,7 +2,7 @@
 
 Esta página é uma extensão da página [Help:Editing](Special:MyLanguage/Help:Editing.md) e dá orientações comuns para escrever e atualizar a documentação do wiki FreeCAD. Resume várias discussões e sessões de troca de ideias.
 
-## Antes de começar {#antes_de_começar}
+## Antes de começar 
 
 
 <div class="mw-translate-fuzzy">
@@ -18,9 +18,9 @@ Esta página é uma extensão da página [Help:Editing](Special:MyLanguage/Help:
 
 </div>
 
-## Orientações gerais {#orientações_gerais}
+## Orientações gerais 
 
-### Descrições concisas {#descrições_concisas}
+### Descrições concisas 
 
 Ao descrever o FreeCAD tente ser conciso e direto e evite a repetição. Descrever o que o FreeCAD \"faz\", e não o que o FreeCAD \"não faz\". Evite também expressões coloquiais. Utilizar \"alguns\" quando se lida com um número indeterminado, ou especificar a quantidade correta.
 
@@ -34,7 +34,7 @@ Descrição ruim
 Boa descrição
 :   [PartDesign Workbench](Special:MyLanguage/PartDesign_Workbench.md) visa fornecer ferramentas para modelação de peças sólidas complexas.
 
-### Informação centralizada {#informação_centralizada}
+### Informação centralizada 
 
 Evitar duplicar informações. Insira a informação numa nova página, e crie um link para esta, e utilize o quando precisar reutilizar informação.
 
@@ -44,11 +44,11 @@ Não utilizar a tranclusão de páginas ([Help:Editing\#Modelos e paginas Transc
 
 Os modelos são usados para estilizar as páginas de ajuda. Eles dão à documentação uma aparência uniforme. Há um modelo para comandos de \'menu\', Arquivo → Salvar, um modelo para mostrar as teclas a serem pressionadas, **Shift**, para mostrar um valor booleano, `True`, etc. Familiarize-se com a seção [\#Modelos](#Modelos.md) antes de escrever páginas de ajuda.
 
-### Sinalizadores temporários {#sinalizadores_temporários}
+### Sinalizadores temporários 
 
 Se estiver a trabalho numa página grande é aconselhável marcar a página como em construção ou como inacabada. Isto assegura que os administradores do wiki não marquem a sua página como pronta para tradução enquanto ainda está a alterá-la.
 
-Para sinalizar uma página, adicionar {{Page in progress}} ou {{UnfinishedDocu}} na primeira linha. Com {{UnfinishedDocu}} convidará outros a juntarem-se a ti para terminar a página, enquanto {{Page in progress}} indica que tu realizarás o trabalho e que outros devem esperar o autor concluir.
+Para sinalizar uma página, adicionar  ou {{UnfinishedDocu}} na primeira linha. Com {{UnfinishedDocu}} convidará outros a juntarem-se a ti para terminar a página, enquanto  indica que tu realizarás o trabalho e que outros devem esperar o autor concluir.
 
 Uma vez terminado o trabalho, por favor não se esqueça de retirar os sinalizadores!
 
@@ -68,7 +68,7 @@ A [Central do Usuário](Special:MyLanguage/User_hub.md) fornece um [Índice \'On
 
 O [Modelo:Docnav](Template:Docnav.md) é utilizado para ligar páginas sequencialmente, seguindo a estrutura do [Índice \'On-line\' de Ajuda](Special:MyLanguage/Online_Help_Toc.md). Veja [\#Modelos](#Modelos.md) para uma lista de todos os Modelos.
 
-### Nomes de página {#nomes_de_página}
+### Nomes de página 
 
 Os nomes das páginas devem ser curtos, e eles devem utilizar o estilo capitular: todas as palavras, exceto a primeira e os nomes próprios, tem de estar em caixa baixa. Este é o [estilo adotado pela Wikipédia](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Capital_letters#Headings,_headers,_and_captions) para seus artigos.
 
@@ -154,7 +154,7 @@ If you leave out the optional text the link itself will be shown when the image 
 
 ![](images/)_[Draft_Wire](Draft_Wire.md)
 
-### Páginas do Workbench {#páginas_do_workbench}
+### Páginas do Workbench 
 
 Uma página de bancada de trabalho de alto nível deve começar com:
 
@@ -163,7 +163,7 @@ Uma página de bancada de trabalho de alto nível deve começar com:
 
 Consulte [\#Captura de tela](#Captura_de_tela.md) para obter convenções sobre a inclusão de imagens.
 
-### Páginas de comando {#páginas_de_comando}
+### Páginas de comando 
 
 As páginas de comando que descrevem as ferramentas da bancada de trabalho não devem ser muito longas, elas devem apenas explicar o que um comando pode e o que não pode fazer, e como usá-lo. Você deve manter as imagens e os exemplos no mínimo possível. Tutoriais podem expandir os detalhes de como usar a ferramenta e fornecer detalhes passo a passo.
 
@@ -193,7 +193,7 @@ A estilização das páginas wiki do FreeCAD é conseguida através da utilizaç
 
 Clique no link do modelo para ver as instruções de utilização de um modelo, e para ver a sua implementação. Os modelos são uma característica poderosa do 'software' MediaWiki. Deve ser um usuário wiki experiente se desejar propor adições e modificações aos modelos existentes. Se implementados de forma errada, os modelos dificultam a tradução de páginas para outras línguas, pelo que a sua utilização deve ser limitada à formatação de texto, a transclusão de páginas deve ser evitada. Veja [MediaWiki Help:Predefinições](https://www.mediawiki.org/wiki/Help:Templates/pt-br) para saber mais.
 
-### Modelos simples {#modelos_simples}
+### Modelos simples 
 
 Estes modelos aceitam um parâmetro de texto simples, e o formatam com um estilo particular.
 
@@ -247,7 +247,7 @@ Estes modelos aceitam um parâmetro de texto simples, e o formatam com um estilo
 |                                                                                                               | , {{true}}                |                                                                                                                                                                                                                                                                                                                                                         |
 +---------------------------------------------------------------------------------------------------------------+-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | [MenuCommand](Template:MenuCommand.md)                                                                |                          | Utilize-a para indicar a localização de um comando dentro de um determinado menu.                                                                                                                                                                                                                                                                       |
-|                                                                                                               | {{MenuCommand|Arquivo → Salvar}}        |                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                               | **Arquivo → Salvar**        |                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                                               |                                      |                                                                                                                                                                                                                                                                                                                                                         |
 +---------------------------------------------------------------------------------------------------------------+-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | [FileName](Template:FileName.md)                                                                      |                          | Utilize-o para indicar um nome de um arquivo ou diretório.                                                                                                                                                                                                                                                                                              |
@@ -303,7 +303,7 @@ Estes modelos aceitam um parâmetro de texto simples, e o formatam com um estilo
 |                                                                                                               |                                      |                                                                                                                                                                                                                                                                                                                                                         |
 +---------------------------------------------------------------------------------------------------------------+-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-### Modelos complexos {#modelos_complexos}
+### Modelos complexos 
 
 Estes modelos requerem mais parâmetros de entrada, ou produzem um bloco de texto com um formato particular.
 
@@ -379,7 +379,7 @@ Estes modelos requerem mais parâmetros de entrada, ou produzem um bloco de text
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-## Artes gráficas {#artes_gráficas}
+## Artes gráficas 
 
 
 <div class="mw-collapsible-content">
@@ -394,7 +394,7 @@ As imagens podem ser carregadas através da página [Enviar arquivo](Special:Upl
 
 Dê nomes significativos às suas imagens. Se você tiver uma imagem que mostre as características de um determinado comando, você deve usar o nome desse comando com `_example` no final. Por exemplo, para o comando [Draft Offset](Draft_Offset/pt-br.md), a imagem deve ser chamada `Draft_Offset_example.jpg`.
 
-### Captura de tela {#captura_de_tela}
+### Captura de tela 
 
 Os tamanhos recomendados para as capturas de tela são:
 
@@ -412,7 +412,7 @@ Para criar uma captura de tela você pode usar as opções fornecidas por seu si
 
 Para facilitar a tradução da documentação, tente evitar capturas de tela que contenham textos. Se você não puder evitar isto, considere tirar fotos separadas da 'interface' e da [vista 3D](3D_view/pt-br.md). A imagem da visualização 3D pode ser reutilizada em cada tradução, enquanto um tradutor pode tirar uma captura de tela da 'interface' localizada, se necessário.
 
-### Ícones e imagens {#ícones_e_imagens}
+### Ícones e imagens 
 
 Consulte a página [Objetos gráficos](Artwork.md) para todas as ilustrações e ícones que foram criados para o FreeCAD, e que também podem ser utilizados em páginas de documentação. Se quiser contribuir com ícones, favor ler as [Diretrizes para trabalhos gráficos](Artwork_Guidelines.md).
 
@@ -440,9 +440,9 @@ Outros recursos úteis são:
 -   [Google Tradutor](http://translate.google.com/) para ajuda com traduções.
 -   [Deepl Tradutor](https://www.deepl.com/translator) para ajuda com traduções.
 
-## Algumas dicas para tradutores {#algumas_dicas_para_tradutores}
+## Algumas dicas para tradutores 
 
-### Traduzir GuiCommand {#traduzir_guicommand}
+### Traduzir GuiCommand 
 
     {{GuiCommand
     |Name=FEM EquationFluxsolver
@@ -465,7 +465,7 @@ Traduzido:
     |SeeAlso=[FEM tutoriel](FEM_tutorial/fr.md)
     }}
 
-### Traduzir navi {#traduzir_navi}
+### Traduzir navi 
 
     {{FEM_Tools_navi}}
 
@@ -473,7 +473,7 @@ Traduzido:
 
     {{FEM_Tools_navi/fr}}
 
-### Traduzir link {#traduzir_link}
+### Traduzir link 
 
     [Part Module](Part_Module.md)
 
@@ -481,7 +481,7 @@ Traduzido:
 
     [Atelier Pièces](Part_Module/fr.md)
 
-### Traduzir Docnav {#traduzir_docnav}
+### Traduzir Docnav 
 
     
 
@@ -506,12 +506,12 @@ Traduzido:
 
 <div class="mw-translate-fuzzy">
 
-## Renomeando e excluindo {#renomeando_e_excluindo}
+## Renomeando e excluindo 
 
 
 </div>
 
-### Create pages {#create_pages}
+### Create pages 
 
 Before creating a new page you should first check if a similar page already exists. If that is the case it is usually better to edit that existing page instead. When in doubt please open a topic in the [Wiki forum](https://forum.freecadweb.org/viewforum.php?f=21) first.
 
@@ -520,7 +520,7 @@ To create a new page do one of the following:
 -   Visit the URL with the desired page name, for example: https://wiki.freecadweb.org/My_new_page, and click on \'create this page\'.
 -   Do a wiki search for the page name, and click on the red text in \'Create the page \"My new page\" on this wiki!\'.
 
-### Renomear páginas {#renomear_páginas}
+### Renomear páginas 
 
 Como o FreeCAD é um projeto em permanente desenvolvimento, é por vezes necessário rever o conteúdo do wiki. Se os nomes dos comandos forem alterados no código-fonte, as páginas wiki que os documentam têm de ser renomeadas também. Isto só pode ser feito pelos administradores do wiki. Para informar os administradores, abrir um tópico no [fórum Wiki](https://forum.freecadweb.org/viewforum.php?f=21) e listar a alteração de nome necessária nesta forma:
 
@@ -529,7 +529,7 @@ Como o FreeCAD é um projeto em permanente desenvolvimento, é por vezes necess�
     Old_page_name_2  New_page_name_2
     ...
 
-### Excluir arquivos e páginas {#excluir_arquivos_e_páginas}
+### Excluir arquivos e páginas 
 
 Caso precise apagar um arquivo, vá à sua página (https://www.freecadweb.org/wiki/File:***.***) e edite-o. Não importa se a página está em branco ou não, adicione isto como primeiro elemento: {{Delete}} e imediatamente abaixo descreva por que razão a página deve ser apagada. Além disso, abrir um tópico no [fórum Wiki](https://forum.freecadweb.org/viewforum.php?f=21).
 
@@ -539,13 +539,13 @@ Para páginas, o procedimento é o mesmo.
 
 O [subforum Desenvolvimento/Wiki](http://forum.freecadweb.org/viewforum.php?f=21) no [fórum FreeCAD](https://forum.freecadweb.org) oferece um espaço dedicado à discussão de tópicos da wiki, a aparência da wiki e tudo o mais relacionado com a wiki. Coloque lá as suas perguntas e sugestões.
 
-## Terminologia - política de nomenclatura {#terminologia___política_de_nomenclatura}
+## Terminologia - política de nomenclatura 
 
 ### Inglês
 
 Consulte [Glossário](Glossary.md).
 
-### Outros idiomas {#outros_idiomas}
+### Outros idiomas 
 
 -   [Italiano](Italian_Translation.md)
 -   [Francês](French_Translation.md)

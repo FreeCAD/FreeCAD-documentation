@@ -33,7 +33,7 @@ Ta sekcja daje przegląd tego, co jest planowane i daje Ci możliwość uczestni
   **[Artwork project](Artwork_project/pl.md)**                                        Projekt aktualizacji logo i ikon                                                                                                                                     GUI                                                            Aktualne
                                                                                                                                                                                                                                                                                                                                   
 
-## Harmonogram wydań {#harmonogram_wydań}
+## Harmonogram wydań 
 
 Jak w większości [FLOSS](http://en.wikipedia.org/wiki/FLOSS) projektów, harmonogram wydania jest bardzo surowy. Nie będzie żadnych stałych dat i **\"To jest zrobione, kiedy jest zrobione!\"**.
 

@@ -32,7 +32,7 @@ Choose ** Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px
 
 <div class="mw-translate-fuzzy">
 
-## Notes {#notes_1}
+## Notes 
 
 Pentru a schimba parametrii acestor componente solide regulate, evidențiați-le în vizualizarea arborescentă și comutați la tab-ul de date.
 
@@ -43,7 +43,7 @@ Pentru a schimba parametrii acestor componente solide regulate, evidențiați-le
 
 Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.md) properties. In addition each mesh object type has a number of properties to control its parametric behavior:
 
-### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube {#mesh_cube.svg_cube}
+### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube 
 
 #### Data
 
@@ -56,9 +56,9 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Width|FloatConstraint**: the width of the cube.
 
-### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylinder {#mesh_cylinder.svg_cylinder}
+### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylinder 
 
-#### Data {#data_1}
+#### Data 
 
 
 {{TitleProperty|Base}}
@@ -73,9 +73,9 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
 
-### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cone {#mesh_cone.svg_cone}
+### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cone 
 
-#### Data {#data_2}
+#### Data 
 
 
 {{TitleProperty|Base}}
@@ -92,9 +92,9 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
 
-### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphere {#mesh_sphere.svg_sphere}
+### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphere 
 
-#### Data {#data_3}
+#### Data 
 
 
 {{TitleProperty|Base}}
@@ -103,9 +103,9 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
 
-### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoid {#mesh_ellipsoid.svg_ellipsoid}
+### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoid 
 
-#### Data {#data_4}
+#### Data 
 
 
 {{TitleProperty|Base}}
@@ -116,9 +116,9 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
 
-### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Torus {#mesh_torus.svg_torus}
+### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Torus 
 
-#### Data {#data_5}
+#### Data 
 
 
 {{TitleProperty|Base}}

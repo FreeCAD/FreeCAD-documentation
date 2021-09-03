@@ -17,7 +17,7 @@ La commande **Std Enregistrement de macro** démarre une session d\'enregistreme
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Std Enregistrement de macro...](Std_DlgMacroRecord/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Macro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Enregistrement de macro...}} dans le menu.
+    -   Sélectionnez l\'option **Macro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Enregistrement de macro...** dans le menu.
 2.  La boîte de dialogue Enregistrement de macro s\'ouvre.
 3.  Saisissez un nom pour la macro dans la zone de saisie **Nom de la macro**.
 4.  Modifiez éventuellement le **Chemin de la macro** en appuyant sur le bouton **...**.
@@ -26,7 +26,7 @@ La commande **Std Enregistrement de macro** démarre une session d\'enregistreme
 7.  Effectuez les actions que vous souhaitez enregistrer.
 8.  Pour terminer la session d\'enregistrement, effectuez l\'une des opérations suivantes:
     -   Appuyez sur le bouton **<img src="images/Std_MacroStopRecord.svg" width=16px> [Std Arrêter l'enregistrement de la macro](Std_MacroStopRecord/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Macro → <img src="images/Std_MacroStopRecord.svg" width=16px> Arrêter l'enregistrement de la macro}} dans le menu.
+    -   Sélectionnez l\'option **Macro → <img src="images/Std_MacroStopRecord.svg" width=16px> Arrêter l'enregistrement de la macro** dans le menu.
 
 ## Options
 
@@ -39,8 +39,8 @@ La commande **Std Enregistrement de macro** démarre une session d\'enregistreme
 
 ## Préférences
 
--   Le chemin de macro peut également être modifié dans les préférences: {{MenuCommand|Edition → Préférences... → Général → Macro → Chemin de la macro}}. Voir [Editeur de préférences](Preferences_Editor/fr#Macro.md).
--   Dans la plupart des cas, il n\'est pas souhaitable d\'enregistrer des actions qui ne modifient pas le modèle: sous {{MenuCommand|Edition → Préférences... → Général → Macro → GUI commands}}, effectuez l\'une des actions suivantes:
+-   Le chemin de macro peut également être modifié dans les préférences: **Edition → Préférences... → Général → Macro → Chemin de la macro**. Voir [Editeur de préférences](Preferences_Editor/fr#Macro.md).
+-   Dans la plupart des cas, il n\'est pas souhaitable d\'enregistrer des actions qui ne modifient pas le modèle: sous **Edition → Préférences... → Général → Macro → GUI commands**, effectuez l\'une des actions suivantes:
     -   Pour exclure ces actions, décochez la case {{CheckBox|FALSE|Enregistrer les commandes de l'interface graphique}}.
     -   Pour les inclure en tant que commentaires, cochez uniquement les cases {{CheckBox|TRUE|Enregistrer les commandes de l'interface graphique}} et {{CheckBox|TRUE|nregistrer comme un commentaire}}.
 

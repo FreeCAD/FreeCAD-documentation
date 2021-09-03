@@ -73,7 +73,7 @@ Per convertire il file .ui in .py è necessario usare **pyuic.py** che si trova 
 
 **4:** il file monprojet.py è creato
 
-### Le icone utilizzate {#le_icone_utilizzate}
+### Le icone utilizzate 
 
 ![](images/MEpipe01.png ) ![](images/MEpipe02.png ) ![](images/MEPlan.png ) ![](images/MEPlanD.png ) ![](images/MEPlanF.png ) ![](images/MEPlanT.png ) ![](images/MEPlanI.png )
 

@@ -16,7 +16,7 @@ The <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> [Fasteners BO
 1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners](Fasteners_Workbench.md) workbench (install from <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) is necessary, if not previously installed)
 2.  Invoke the Fasteners BOM tool several ways:
     -   Press the <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Fasteners → BOM}} entry in the Fasteners menu
+    -   Use the **Fasteners → BOM** entry in the Fasteners menu
 3.  When invoked the Fasteners BOM tool adds a spreadsheet to the FreeCAD document.
     -   The spreadsheet represents the BOM of fasteners used in the model feature tree.
 

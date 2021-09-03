@@ -7,14 +7,14 @@
 |Files=
 }}
 
-## Erste Schritte {#erste_schritte}
+## Erste Schritte 
 
 Wir werden im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) arbeiten - wähle ihn aus den Menüs über {{MenuCommand/de|Ansicht → Arbeitsbereich → Part}} oder über den [ Arbeitsbereichwähler](Workbench_Selector/de.md).
 
 -   Erstelle ein neues leeres Dokument.
 -   Wechsle zur <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [isometrischen Ansicht](Std_ViewIsometric/de.md).
 -   Schalte das Achsenkreuz ein **ON** (über Ansichtsmenü).
--   Stelle sicher, dass du die [Combo Ansicht](Combo_view/de.md) hast, die (über {{MenuCommand|Ansicht → Ansichten}}) anzeigt.
+-   Stelle sicher, dass du die [Combo Ansicht](Combo_view/de.md) hast, die (über **Ansicht → Ansichten**) anzeigt.
 
 -   Erstelle einen Zylinder, durch Klicken auf die <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [Zylinder](Part_Cylinder/de.md) Schaltfläche.
 -   Wähle es aus, durch Klicken auf Zylinder in der Projektansicht.
@@ -22,13 +22,13 @@ Wir werden im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [P
 
 Ändere die Höhe auf 20 mm und den Radius auf 2 mm.
 
-Klicke auf [Platzierung](Placement/de.md) (beachte das kleine **[+]**) und eine Schaltfläche mit drei Punkten erscheint **...**. Klicke darauf. (Du kannst auch wählen: {{MenuCommand|Menü → Bearbeiten → Platzierung}}) Die Aufgabenanzeige erscheint.
+Klicke auf [Platzierung](Placement/de.md) (beachte das kleine **[+]**) und eine Schaltfläche mit drei Punkten erscheint **...**. Klicke darauf. (Du kannst auch wählen: **Menü → Bearbeiten → Platzierung**) Die Aufgabenanzeige erscheint.
 
 <img alt="" src=images/HTCaeroplane01.png  style="width:300px;">
 
 Wenn du mit den XYZ Achsen nicht vertraut bist, dann spiele mit den Zahlen im Übersetzungsfeld. Wenn die Wiedergabe beendet ist, klicke auf die **Reset** Schaltfläche.
 
-## Weitere Schritte {#weitere_schritte}
+## Weitere Schritte 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
 

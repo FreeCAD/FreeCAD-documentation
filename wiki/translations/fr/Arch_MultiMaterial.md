@@ -50,7 +50,7 @@ Lors de la création ou de l\'édition d\'un multi-matériaux en double-cliquant
 -   Lorsqu\'un multi-matériaux contient des couches d\'épaisseur nulle, cette épaisseur est considérée comme variable. Les objets d\'Arch qui utilisent le multi-matériaux, tels que les murs et les panneaux, traiteront cela en conséquence, et donneront à cette couche l\'espace restant disponible compte tenu de sa propre largeur ou épaisseur.
 -   Si vous nommez les différents composants d\'un \"Cadre\" multi-matériaux, \"Panneau plein\", \"Panneau de verre\" ou \"Louvre\" et appliquez ce matériau à une fenêtre, les matériaux donnés seront appliqués aux composants de fenêtre correspondants.
 
-## Relation avec IFC {#relation_avec_ifc}
+## Relation avec IFC 
 
 Cela correspond à peu près à une combinaison de [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) et [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 

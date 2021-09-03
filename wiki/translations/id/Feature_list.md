@@ -11,7 +11,7 @@ Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeC
 
 {{TOCright}}
 
-## Catatan rilis {#catatan_rilis}
+## Catatan rilis 
 
 
 <div class="mw-translate-fuzzy">
@@ -23,7 +23,7 @@ Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeC
 
 </div>
 
-## Fitur - fitur utama {#fitur___fitur_utama}
+## Fitur - fitur utama 
 
 
 <div class="mw-translate-fuzzy">
@@ -44,7 +44,7 @@ Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeC
 
 <div class="mw-translate-fuzzy">
 
-## Fitur umum {#fitur_umum}
+## Fitur umum 
 
 
 </div>
@@ -249,7 +249,7 @@ Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeC
 
 </div>
 
-## Dalam Pengembangan {#dalam_pengembangan}
+## Dalam Pengembangan 
 
 
 <div class="mw-translate-fuzzy">
@@ -259,7 +259,7 @@ Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeC
 
 </div>
 
-## Extra Workbenches {#extra_workbenches}
+## Extra Workbenches 
 
 Power users have created various custom [external workbenches](external_workbenches.md).
 

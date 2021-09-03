@@ -14,7 +14,7 @@ Siehe die folgenden Seiten fürzusätzliche Information:
 -   [Import Export Einstellungen](Import_Export_Preferences/de.md)
 -   [FreeCAD Anleitung Import Export](FreeCAD_Howto_Import_Export.md)
 
-## Übersicht der Dateiformate {#übersicht_der_dateiformate}
+## Übersicht der Dateiformate 
 
 
 <div class="mw-translate-fuzzy">

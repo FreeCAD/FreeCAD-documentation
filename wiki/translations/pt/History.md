@@ -8,7 +8,7 @@ História
 
 </div>
 
-### How it all started {#how_it_all_started}
+### How it all started 
 
 FreeCAD began in January 2001 when [Jürgen Riegel](User:Jriegel.md) started working on the Cas.CADE project. Cas.CADE was a commercial software development framework that included a [geometric modeling kernel](Glossary#Geometric_modeling_kernel.md) (or CAD kernel): it was released under an open source license in 2000 and renamed [OpenCASCADE](OpenCASCADE.md). This made the realization of an open source 3D CAD program possible, as having to program a CAD kernel from scratch would have required a huge amount of work.
 
@@ -24,7 +24,7 @@ The project was announced to the general public on the [OpenCascade Forum](https
 {{Quote|text=''Hi together, my name is Juergen Riegel and today I want announce an OpenCasCade project, FreeCAD. It is an Open Source CAx RAD based on OpenCasCade, QT and Python. It features some key concepts like Macro Recording, Workbenches, ability to run as a server and as a dynamically loadable applications' extension, and it is designed to be platform independent… Although it is in an early stage and not usable for users nor developers—the first user release is planned for the end of 2003—, I would like to get some feedback on the direction and design of FreeCAD. The GUI is nearly finished and now we, my co-developer Werner Mayer and me, have started adding the first CAD functions. FreeCAD can be seen as a general purpose mechanical CAD system, but its first audience, I think, will be CAx developers which need groundwork for own development''.
 |sign=[Jürgen Riegel](User:Jriegel.md)|source=''[https://dev.opencascade.org/content/announcing-freecad-project Announcing FreeCAD Project on Sun, 08/17/2003 - 19:23]''}}
 
-### Werner Mayer {#werner_mayer}
+### Werner Mayer 
 
 Werner Mayer joined the project as soon as it was announced as an open source project (prior to the announcement the project was a private project of Jürgen). See this forum post from Werner in German: <https://forum.freecadweb.org/viewtopic.php?f=13&t=40235&start=10#p342330>
 
@@ -61,7 +61,7 @@ Over time the project gained traction and saw the addition of new key contributo
 
 (See this forum post from Werner [Re: FreeCAD History](https://forum.freecadweb.org/viewtopic.php?f=8&t=47703#p411612))
 
-### Yorik joins the project {#yorik_joins_the_project}
+### Yorik joins the project 
 
 [Yorik van Havre](User:Yorik.md) joined the project in 2008 and started work on the [Draft Module](Draft_Workbench.md). Before that point, there was no way to create 2D geometry through the [GUI](Glossary#GUI.md). This module was programmed entirely in Python rather than in C++ (the core programming language used in FreeCAD). The new Draft workbench proved that Python integration was a success and could be used to extend or customize FreeCAD\'s capabilities. In addition to his work on the Draft module, Yorik worked on expanding the FreeCAD documentation, and became FreeCAD\'s *de facto* \"Art director\", creating many icons for FreeCAD\'s GUI and [defining its style](Artwork.md).
 
@@ -71,7 +71,7 @@ Version 0.8 released in July 2009 saw some more work in the Draft module, includ
 
 By the end of 2009, FreeCAD was accepted as a Debian package in the Debian repositories. FreeCAD was added to the Ubuntu 10.04 repositories in 2010.
 
-### The project goes on {#the_project_goes_on}
+### The project goes on 
 
 Version 0.10 was released in July 2010 and introduced the [Sketcher Workbench](Sketcher_Workbench.md), based on Sketchsolve, a constraint-based solver to create 2D geometry. The first version was limited to creation of rectangles and lines.
 
@@ -81,11 +81,11 @@ Version 0.11 as released in May 2011 and introduced the new Part Design workbenc
 
 Version 0.12 was released in January 2012 and featured a more complete Sketcher workbench. It included a totally rewritten solver, FreeGCS. It was the result of months of work by the main FreeCAD developers along with newcomers logari81 (who programmed the solver) and mrlukeparry. More tools were added to the PartDesign workbench.
 
-### Enlargement of core developer team {#enlargement_of_core_developer_team}
+### Enlargement of core developer team 
 
 In April 2019 the team of core developers was expanded: Jürgen, Werner and Yorik were joined by Abdullah, Bernd, sliptonic and WandererFan
 
-## Interesting Posts on the forum {#interesting_posts_on_the_forum}
+## Interesting Posts on the forum 
 
 -   about PartDesignNext and other design decisions: <https://forum.freecadweb.org/viewtopic.php?f=8&t=34923&start=130#p297074>
 -   about Forum history: <https://forum.freecadweb.org/viewtopic.php?f=8&t=7448&start=200#p287106>
@@ -97,7 +97,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 -   about FEM history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48646#p416389>
 -   about FEM mesher history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48733#p417627>
 
-## Release history {#release_history}
+## Release history 
 
 #### Overview
 
@@ -136,7 +136,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
           Old version
           
 
-## External Links {#external_links}
+## External Links 
 
 -   [SourceForge Files section](http://sourceforge.net/projects/free-cad/files/)
 -   [SourceForge Old Files section](http://sourceforge.net/projects/free-cad/files/OldFiles/)

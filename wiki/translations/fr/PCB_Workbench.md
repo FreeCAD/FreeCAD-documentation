@@ -36,11 +36,11 @@ Menu déroulant
 
 ## Installation
 
-### Installation Automatique {#installation_automatique}
+### Installation Automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-### Depuis GitHub {#depuis_github}
+### Depuis GitHub 
 
 **Prérequis**
 
@@ -88,7 +88,7 @@ C:/Program Files/FreeCAD-0.18/Mod
 
 **Instructions d\'installation MacOS** (Depuis GitHub)
 
-## Liens avec l\'atelier FreeCAD-PCB {#liens_avec_latelier_freecad_pcb}
+## Liens avec l\'atelier FreeCAD-PCB 
 
 -   Workbench Wiki : [Ensembles d\'ateliers externes](https://wiki.freecadweb.org/External_workbenches)
 -   FreeCAD Wiki : [Page principale du Wiki](https://wiki.freecadweb.org/Main_Page)
@@ -98,7 +98,7 @@ C:/Program Files/FreeCAD-0.18/Mod
 -   Fichiers : [PCB library](https://github.com/marmni/FreeCAD-PCB-library)
 -   Signaler les bogues : Veuillez signaler les bogues à <https://github.com/marmni/FreeCAD-PCB/issues>
 
-## Autres liens intéressants {#autres_liens_intéressants}
+## Autres liens intéressants 
 
 -   [EaglePCB on sourceforge](https://sourceforge.net/projects/eaglepcb2freecad/)
 -   [Liste des Macros](Macros_recipes/fr.md)

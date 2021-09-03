@@ -1,6 +1,6 @@
-# Creare mesh FEM {#creare_mesh_fem}
+# Creare mesh FEM 
 
-## Creare una mesh con 10 nodi {#creare_una_mesh_con_10_nodi}
+## Creare una mesh con 10 nodi 
 
     import FreeCAD, Fem
     # create a empty mesh
@@ -28,7 +28,7 @@ Se si desidera avere elementi predefiniti e la numerazione dei nodi:
 
     m.addVolume([1,2,3,4,5,6,7,8,9,10],1)
 
-# Manipolazione visiva {#manipolazione_visiva}
+# Manipolazione visiva 
 
 Evidenziare alcuni nodi nella vista:
 

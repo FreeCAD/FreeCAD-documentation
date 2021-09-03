@@ -29,7 +29,7 @@ The command currently does not work well with layers and can produce confusing r
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più oggetti nella vista 3D o uno o più gruppi nella vista ad albero.
-2.  Fare clic con il tasto destro e selezionare {{MenuCommand|Utilità → <img src="images/Draft_SelectGroup.svg" width=16px> [Seleziona gruppo](Draft_SelectGroup/it.md)}}.
+2.  Fare clic con il tasto destro e selezionare **Utilità → <img src="images/Draft_SelectGroup.svg" width=16px> [Seleziona gruppo](Draft_SelectGroup/it.md)**.
 3.  Vengono selezionati tutti gli oggetti appartenenti allo stesso gruppo degli oggetti inizialmente selezionati.
 
 

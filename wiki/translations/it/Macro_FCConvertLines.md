@@ -153,7 +153,7 @@ Bottoni ![FCConvertLines](images/Macro_FCConvertLines_10.png )
 
 
 
-## I fili devono essere copiati dentro vostro repertorio di insieme la macro (10 fili immagine) {#i_fili_devono_essere_copiati_dentro_vostro_repertorio_di_insieme_la_macro_10_fili_immagine}
+## I fili devono essere copiati dentro vostro repertorio di insieme la macro (10 fili immagine) 
 
 **L\' icona per la vostra toolBar** ![Macro\_FCConvertLines](images/Macro_FCConvertLines.png )  **Title** ![ConvertLines\_Title](images/Macro_FCConvertLines_Title.png )  **Line Dash** : ![ConvertLines\_Dash](images/Macro_FCConvertLines_Dash.png )  **Line DashDot** : ![ConvertLines Dash dot](images/Macro_FCConvertLines_DashDot.png_‎ )  **Line DashDotDot** : ![ConvertLines Dash dot dot](images/Macro_FCConvertLines_DashDotDot.png )  **Line Zigzag** : ![ConvertLines\_Zigzag](images/Macro_FCConvertLines_Zigzag.png )  **Line Hand** : ![ConvertLines\_Hand](images/Macro_FCConvertLines_Hand.png )  **View** :  ![ConvrtLines\_View-front](images/Macro_FCConvrtLines_View-front.png ) ![ConvrtLines\_View-right](images/Macro_FCConvrtLines_View-right.png ) ![ConvrtLines\_View-right](images/Macro_FCConvrtLines_View-top.png ) 
 

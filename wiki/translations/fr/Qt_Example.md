@@ -63,7 +63,7 @@ vous pouvez créer un fichier convertuitopy.bat pour automatiser la procédure \
 
 \'\'\'4: \'\'\'votre fichier monprojet.py est créé
 
-### Les icônes utilisés {#les_icônes_utilisés}
+### Les icônes utilisés 
 
 ![](images/MEpipe01.png ) ![](images/MEpipe02.png ) ![](images/MEPlan.png ) ![](images/MEPlanD.png ) ![](images/MEPlanF.png ) ![](images/MEPlanT.png ) ![](images/MEPlanI.png )
 

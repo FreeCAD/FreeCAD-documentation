@@ -3,7 +3,7 @@
 
 {{TOCright}}
 
-## Conversion d\'objets Part en maillages {#conversion_dobjets_part_en_maillages}
+## Conversion d\'objets Part en maillages 
 
 La conversion d\'objets de niveau supérieur tels que les objets [Part](Part_Workbench/fr.md) en objets plus simples tels qu\'en [maillages](Mesh_Workbench/fr.md) est une opération directe où toutes les faces d\'un objet Part sont triangulées. Le résultat de cette triangulation (pavage ou tessellation) est ensuite utilisé pour construire un maillage:
 
@@ -44,7 +44,7 @@ mesh.Mesh = MeshPart.meshFromShape(
         Relative=False)
 ```
 
-## Conversion de maillages en objets Part {#conversion_de_maillages_en_objets_part}
+## Conversion de maillages en objets Part 
 
 La conversion de maillages en objets Part est une opération très courante. Très souvent, vous recevez des données 3D dans un format maillé. Les maillages sont plutôt pratiques pour représenter la géométrie de forme libre et les grandes scènes visuelles car ils sont très légers. Dans FreeCAD, nous préférons généralement les objets de niveau supérieur, les solides, qui peuvent comporter beaucoup plus d\'informations et permettre des faces courbes.
 

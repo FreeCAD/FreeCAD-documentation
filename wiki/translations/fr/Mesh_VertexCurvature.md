@@ -18,12 +18,12 @@ La commande **Mesh Tracé de courbure** crée des objets maillés de courbure po
 1.  Sélectionnez un ou plusieurs objets maillés.
 2.  Il existe plusieurs manières d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Mesh Tracé de courbure](Mesh_VertexCurvature/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Meshes → <img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracé de courbure}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracé de courbure}} dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou dans le menu contextuel [vue 3D](3D_view/fr.md).
+    -   Sélectionnez l\'option **Meshes → <img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracé de courbure** dans le menu.
+    -   Sélectionnez l\'option **<img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracé de courbure** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou dans le menu contextuel [vue 3D](3D_view/fr.md).
 
 ## Propriétés
 
-Pour un objet maillé de courbure, les propriétés suivantes sont disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md). Sélectionnez l\'option {{MenuCommand|Show all}} dans le menu contextuel de l\'éditeur de propriétés pour afficher les propriétés masquées.
+Pour un objet maillé de courbure, les propriétés suivantes sont disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md). Sélectionnez l\'option **Show all** dans le menu contextuel de l\'éditeur de propriétés pour afficher les propriétés masquées.
 
 ### Données
 
@@ -34,7 +34,7 @@ Pour un objet maillé de courbure, les propriétés suivantes sont disponibles d
 
 -    {{PropertyData/fr|Source|Link}}: lien vers l\'objet mesh.
 
-#### Données cachées {#données_cachées}
+#### Données cachées 
 
 
 {{TitleProperty|Base}}
@@ -62,7 +62,7 @@ Pour un objet maillé de courbure, les propriétés suivantes sont disponibles d
 
 -    {{PropertyView/fr|Visibility|Bool}}: si mis à `True`, l\'objet apparaît dans la [vue 3D](3D_view/fr.md).
 
-#### Vue cachée {#vue_cachée}
+#### Vue cachée 
 
 
 {{TitleProperty|Base}}

@@ -27,10 +27,10 @@ In summary, the `Name` essentially acts like a unique identifier (UID) for an ob
 There are various properties for Labels:
 
 -   The `Label` can accept any UTF8 string, including accents and spaces.
--   The [tree view](tree_view.md) actually displays the `Label` of the object, not the `Name`. Therefore, whenever a new object is created, it is a good practice to change the `Label` to a more descriptive string. To rename (relabel) the object, select it in the tree view and press **F2**, or open the context menu (right-click) and choose {{MenuCommand|Rename}}.
+-   The [tree view](tree_view.md) actually displays the `Label` of the object, not the `Name`. Therefore, whenever a new object is created, it is a good practice to change the `Label` to a more descriptive string. To rename (relabel) the object, select it in the tree view and press **F2**, or open the context menu (right-click) and choose **Rename**.
 -   Even after an object was renamed (relabelled), the internal `Name` will still be reported in many places, for example, in the [status bar](status_bar.md) or in the [selection view](selection_view.md), when the object is selected.
 -   Since the internal functions of the program refer to the objects by `Name`, many dialogs will display the `Name` first, followed by the user editable `Label` in parentheses, for example, `Box (Extruded piece)`.
--   By default the `Label` is unique, just like the `Name`. However, this behavior can be changed in the [preferences editor](Preferences_Editor.md), {{MenuCommand|Edit → Preferences → General → Document → Allow duplicate object labels in one document}}. This means that in general the `Label` is not unique in the document, and may actually be repeated. However, the recommendation is to keep the `Label` unique, as this is probably what is most useful to identify different objects. When writing custom functions that manipulate objects, the methods should use the `Name` of the object rather than its `Label` to guarantee that the correct object is used.
+-   By default the `Label` is unique, just like the `Name`. However, this behavior can be changed in the [preferences editor](Preferences_Editor.md), **Edit → Preferences → General → Document → Allow duplicate object labels in one document**. This means that in general the `Label` is not unique in the document, and may actually be repeated. However, the recommendation is to keep the `Label` unique, as this is probably what is most useful to identify different objects. When writing custom functions that manipulate objects, the methods should use the `Name` of the object rather than its `Label` to guarantee that the correct object is used.
 -   When using [expressions](expressions.md), for example, in the [property editor](property_editor.md) or in a [spreadsheet](spreadsheet.md), the Label can be referenced using double brackets made of the less than and greater than symbols.
 
 
@@ -45,7 +45,7 @@ This property was introduced in v0.19. It is a simple string that can contain ar
 
 -   In the [tree view](tree_view.md) edit the field next to the icon, under \"Description\", by clicking on it and pressing **F2**.
 -   You can also change this property by modifying the `Label2` attribute from the [Python console](Python_console.md).
--   The **Label2** attribute is normally hidden in the [property editor](property_editor.md) but can be made visible by opening the context menu (right click) and selecting {{MenuCommand|Show all}}.
+-   The **Label2** attribute is normally hidden in the [property editor](property_editor.md) but can be made visible by opening the context menu (right click) and selecting **Show all**.
 
 ## Scripting
 
@@ -84,7 +84,7 @@ The `Label` is a property of the created object and can be changed to a more mea
 -   However, unlike the `Name`, the `Label` can accept any UTF8 string, including accents and spaces.
 -   The `Label` can be changed at any point in time just by assigning the desired string, obj.Label = "New label"
 
-### Getting an object by Name or Label {#getting_an_object_by_name_or_label}
+### Getting an object by Name or Label 
 
 All objects in a document are data attributes of the corresponding [Document](App_Document.md) object. The attribute\'s name correspond to the internal `Name` of the object.
 

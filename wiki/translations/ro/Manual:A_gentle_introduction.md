@@ -15,7 +15,7 @@ FreeCAD are de asememene un [macros system](Macros.md), care vă permite să vă
 
 În acest capitol, vom descoperi într-un mod foarte general limbajul Python. Dacă doriți să aflați mai multe, documentația wiki din FreeCAD are o secțiune extensivă despre programarea Python.[Python programming](Power_users_hub.md).
 
-### Scrierea de cod Python {#scrierea_de_cod_python}
+### Scrierea de cod Python 
 
 Sunt două maniere facile de a scrie cod Python în FreeCAD: de la consola Python (menu **View -\> Panels -\> Python Console**), sau de la editorul Macro (menu **Tools -\> Macros -\> New**). În consolă, scrieți comenzi Python una câte una, ele sunt executate atunci când apăsați retur de car (Enter), în timp ce macrocomenzile pot conține un script mai complex compus din mai multe linii care se execută numai când macroul este lansat din aceeași fereastră Macros (faceți click pe triunghiul verde).
 
@@ -23,7 +23,7 @@ Sunt două maniere facile de a scrie cod Python în FreeCAD: de la consola Pytho
 
 Dacă este prima dată când utilizați Python, luați în considerare citirea acestei scurte introduceri în programarea Python înainte de a merge mai departe [introduction to Python programming](Introduction_to_Python.md). Acest lucru va face conceptele de baza ale Python sa vă fie mai clare.
 
-### Manipularea obiectelor FreeCAD {#manipularea_obiectelor_freecad}
+### Manipularea obiectelor FreeCAD 
 
 Începem prin a crea un document vid:
 
@@ -75,7 +75,7 @@ De exemplu, pentru a accesa culoarea liniei casetei noastre:
 
 box.ViewObject.LineColor 
 
-### Vectori și Plasament {#vectori_și_plasament}
+### Vectori și Plasament 
 
 Vectorii reprezintă un concept fundamental în orice aplicație 3D. Este o listă cu 3 numere (x, y și z), care descriu un punct sau o poziție în spațiul 3D. O mulțime de lucruri se pot face cu vectori, cum ar fi adăugiri, scăderi, proiecții și multe altele. În FreeCAD vectorii funcționează astfel:
 

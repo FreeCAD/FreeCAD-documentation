@@ -24,7 +24,7 @@ Obtaining such simulation is done in FreeCAD with the [FEM Workbench](FEM_Workbe
 
 </div>
 
-### Pregătirea FreeCAD {#pregătirea_freecad}
+### Pregătirea FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -34,7 +34,7 @@ The simulation itself is done by another piece of software, that is used by Free
 
 </div>
 
-### Preparing the geometry {#preparing_the_geometry}
+### Preparing the geometry 
 
 We will start with the house we modeled in the [BIM modeling](Manual:BIM_modeling.md) chapter. However, some changes have to be made to make the model suitable for FEM calculations. This involves, basically, discarding the objects that we don\'t want to include in the calculation, such as the door and window, and joining all the remaining objects into one.
 
@@ -69,7 +69,7 @@ We will start with the house we modeled in the [BIM modeling](Manual:BIM_modelin
 
 </div>
 
-### Creating the analysis {#creating_the_analysis}
+### Creating the analysis 
 
 
 <div class="mw-translate-fuzzy">

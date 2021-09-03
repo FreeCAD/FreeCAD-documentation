@@ -7,9 +7,9 @@
 |Files=
 }}
 
-## Prima parte {#prima_parte}
+## Prima parte 
 
-L\'ambiente di lavoro è <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Parte](Part_Workbench/it.md) - selezionarlo tramite il menu {{MenuCommand|Visualizza → Ambiente → Parte}} oppure tramite il [selettore degli ambienti](Workbench_Selector/it.md).
+L\'ambiente di lavoro è <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Parte](Part_Workbench/it.md) - selezionarlo tramite il menu **Visualizza → Ambiente → Parte** oppure tramite il [selettore degli ambienti](Workbench_Selector/it.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -17,7 +17,7 @@ L\'ambiente di lavoro è <img alt="" src=images/Workbench_Part.svg  style="width
 -   Creare un nuovo documento vuoto.
 -   Passare alla visualizzazione assonometrica.
 -   Attivare la visualizzazione del sistema di coordinate (nel menu Visualizza → Origine degli assi).
--   Assicurarsi di avere disponibile la [Vista combinata](Combo_View/it.md), attivabile tramite {{MenuCommand|Visualizza → Viste → Vista combinata}}.
+-   Assicurarsi di avere disponibile la [Vista combinata](Combo_View/it.md), attivabile tramite **Visualizza → Viste → Vista combinata**.
 
 
 </div>
@@ -31,7 +31,7 @@ Impostare una Altezza pari a 20 mm. Lasciare il Raggio a 2 mm.
 
 <div class="mw-translate-fuzzy">
 
-Cliccare sul testo Posizionamento (Placement; non sul segno di espansione; non sul piccolo **[+]**), in modo da far apparire un nuovo pulsante contenente tre punti. Fare clic sul pulsante con i tre puntini **...**. (Si può anche selezionare: {{MenuCommand|Menu → Modifica → Posizionamento}}). Viene mostrata la finestra delle Azioni di Posizionamento.
+Cliccare sul testo Posizionamento (Placement; non sul segno di espansione; non sul piccolo **[+]**), in modo da far apparire un nuovo pulsante contenente tre punti. Fare clic sul pulsante con i tre puntini **...**. (Si può anche selezionare: **Menu → Modifica → Posizionamento**). Viene mostrata la finestra delle Azioni di Posizionamento.
 
 
 </div>
@@ -40,7 +40,7 @@ Cliccare sul testo Posizionamento (Placement; non sul segno di espansione; non s
 
 Per acquisire dimestichezza con gli assi X, Y e Z si possono sperimentare diversi valori nelle caselle di posizionamento. Alla fine, per annullare le modifiche, premere il pulsante **Ripristina**.
 
-## Seconda parte {#seconda_parte}
+## Seconda parte 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
 

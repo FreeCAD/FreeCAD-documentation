@@ -9,19 +9,19 @@
 
 ### Motywacja
 
-### Czym jest FEM? {#czym_jest_fem}
+### Czym jest FEM? 
 
-### Niezbędne prace wstępne {#niezbędne_prace_wstępne}
+### Niezbędne prace wstępne 
 
-#### Konfiguracja FC17 do obliczeń FEM {#konfiguracja_fc17_do_obliczeń_fem}
+#### Konfiguracja FC17 do obliczeń FEM 
 
-#### FC17 połączenie z solwerem CCX i generatorem siatki GMSH {#fc17_połączenie_z_solwerem_ccx_i_generatorem_siatki_gmsh}
+#### FC17 połączenie z solwerem CCX i generatorem siatki GMSH 
 
-#### Niezbędna konfiguracja {#niezbędna_konfiguracja}
+#### Niezbędna konfiguracja 
 
-### Aktywacja Środowiska pracy FEM i kontrola funkcji {#aktywacja_środowiska_pracy_fem_i_kontrola_funkcji}
+### Aktywacja Środowiska pracy FEM i kontrola funkcji 
 
-### Modyfikacja belki, nowe obliczenia {#modyfikacja_belki_nowe_obliczenia}
+### Modyfikacja belki, nowe obliczenia 
 
 
 

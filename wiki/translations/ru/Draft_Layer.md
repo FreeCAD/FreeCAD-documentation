@@ -21,31 +21,31 @@ This command has replaced the Draft VisGroup command in FreeCAD version 0.19.
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Layer.svg" width=16px> [Draft Layer](Draft_Layer.md)** button.
-    -   Select the {{MenuCommand|Utilities → <img src="images/Draft_Layer.svg" width=16px> Layer}} option from the menu.
-    -   If the layer container already exists: right-click it in the [Tree view](Tree_view.md) and select the {{MenuCommand|<img src="images/Draft_NewLayer.svg" width=16px> Add new layer}} option from context menu.
+    -   Select the **Utilities → <img src="images/Draft_Layer.svg" width=16px> Layer** option from the menu.
+    -   If the layer container already exists: right-click it in the [Tree view](Tree_view.md) and select the **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer** option from context menu.
 2.  If it does not exist the layer container is created first.
 3.  A layer is created and put in the layer container.
 4.  Optionally change the [properties](#Properties.md) of the layer.
 5.  Optionally put objects in the layer by drag and dropping them on the layer in the [Tree view](Tree_view.md). Objects can also be put in a layer by editing the **Group** property of the layer.
 6.  Optionally [activate](#Layer_options.md) the layer.
 
-## Context menu {#context_menu}
+## Context menu 
 
-### Layer container options {#layer_container_options}
+### Layer container options 
 
 For a Draft LayerContainer these additional options are available in the [Tree view](Tree_view.md) context menu:
 
--    {{MenuCommand|<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates}}: this option currently does not work.
+-    **<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates**: this option currently does not work.
 
--    {{MenuCommand|<img src="images/Draft_NewLayer.svg" width=16px> Add new layer}}: adds a new layer to the current document.
+-    **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer**: adds a new layer to the current document.
 
-### Layer options {#layer_options}
+### Layer options 
 
 For a Draft Layer these additional options are available in the [Tree view](Tree_view.md) context menu:
 
--    {{MenuCommand|<img src="images/button_right.svg" width=16px> [Activate this layer](Draft_AutoGroup.md)}}: activates the selected layer.
+-    **<img src="images/button_right.svg" width=16px> [Activate this layer](Draft_AutoGroup.md)**: activates the selected layer.
 
--    {{MenuCommand|<img src="images/Draft_SelectGroup.svg" width=16px> [Select layer contents](Draft_SelectGroup.md)}}: selects the objects inside the selected layer.
+-    **<img src="images/Draft_SelectGroup.svg" width=16px> [Select layer contents](Draft_SelectGroup.md)**: selects the objects inside the selected layer.
 
 ## Notes
 

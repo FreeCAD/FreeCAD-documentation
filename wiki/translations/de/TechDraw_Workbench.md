@@ -144,7 +144,7 @@ Die Anmerkungswerkzeuge dienen dazu, eine Zeichnung mit zusätzlichen Informatio
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Schweißinformationen zu Führungslinie hinzufügen](TechDraw_WeldSymbol/de.md): fügt Schweißspezifikationen zu einer vorhandenen Führungslinie hinzu. {{Version/de|0.19}}
 
-## Extension Package {#extension_package}
+## Extension Package 
 
 The Extension Package includes many useful tools to improve your TechDraw drawings.
 

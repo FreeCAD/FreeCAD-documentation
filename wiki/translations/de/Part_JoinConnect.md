@@ -22,7 +22,7 @@ Das Verbinden Werkzeug verbindet die Innenbereiche von zwei Hohlobjekten (z.B. R
     Die Reihenfolge der Auswahl ist nicht wichtig, da die Wirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt (z.B. Flächen) eine Teilform auszuwählen. Du kannst auch eine Verbindung auswählen, die alle zu verbindenden Formen enthält, z.B. [Draft\_OrthoArray/de/Draft rechtwinklige Anordnung](Draft_OrthoArray/de/Draft_rechtwinklige_Anordnung.md).
 2.  Rufe den Befehl Part FügenVerbinden auf.
     -   Drücke die <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Part FügeVerbinden](Part_JoinConnect/de.md)-Schaltfläche in der Part-Werkzeugleiste
-    -   Benutze den {{MenuCommand|Part → Join → Connect objects}}-Eintrag im Part-Menü
+    -   Benutze den **Part → Join → Connect objects**-Eintrag im Part-Menü
 
 Ein parametrisches Verbindungsobjekt wird erstellt. Originalobjekte werden ausgeblendet, und das Ergebnis der Verbindung wird in der [3D Ansicht](3D_view/de.md) angezeigt.
 

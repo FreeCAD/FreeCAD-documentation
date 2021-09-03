@@ -19,15 +19,15 @@ Cette macro exporte votre object pour être visionné dans le programme de raytr
 
 ## Installation
 
-### Installation Automatique {#installation_automatique}
+### Installation Automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-### Depuis GitHub {#depuis_github}
+### Depuis GitHub 
 
 Voir [Comment installer des Macros](How_to_install_macros/fr.md)
 
-## Liens avec l\'atelier Kerkythea {#liens_avec_latelier_kerkythea}
+## Liens avec l\'atelier Kerkythea 
 
 -   Atelier Wiki:
 -   FreeCAD Wiki: [FreeCAD to Kerkythea](Macro_FreeCAD_to_Kerkythea/fr.md)
@@ -37,7 +37,7 @@ Voir [Comment installer des Macros](How_to_install_macros/fr.md)
 -   Dossiers:
 -   Signaler les bogues: veuillez signaler les bogues sur [forum FreeCAD](http://forum.freecadweb.org/index.php)
 
-## Autres liens intéressants {#autres_liens_intéressants}
+## Autres liens intéressants 
 
 -   [FreeCAD-POV-Ray](https://github.com/marmni/FreeCAD-POV-Ray_Col)
 -   [Liest des Macros](Macros_recipes/fr.md)

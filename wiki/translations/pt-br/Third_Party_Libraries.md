@@ -114,7 +114,7 @@ Due to their popularity and stability, many Boost libraries have been accepted f
 
 In order to ensure efficiency and flexibility, Boost makes extensive use of templates. Boost has been a source of extensive work and research into generic programming and meta-programming in C++. Read more about Boost by visiting the [Boost homepage](http://www.boost.org/).
 
-### OpenCASCADE Technology {#opencascade_technology}
+### OpenCASCADE Technology 
 
 **Version:** 6.7 or higher
 
@@ -144,7 +144,7 @@ Qt is one of the most popular graphical user interface (GUI) toolkits available 
 
 Further information about Qt libraries and their programming documentation are available at [Qt Documentation](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
 
-#### Shiboken2 and Pyside2 {#shiboken2_and_pyside2}
+#### Shiboken2 and Pyside2 
 
 Shiboken is the Python binding generator that Qt for Python uses to create the PySide module, in other words, it is the system that is used to expose the Qt C++ API to the Python language.
 
@@ -168,7 +168,7 @@ Coin3D (Open Inventor) is used as the 3D viewer in FreeCAD because the OpenCASCA
 
 Coin3D is portable over a wide range of platforms: UNIX, Linux, BSD, MacOS X, and Microsoft Windows operating systems. To read more about this library visit [Coin3D homepage](https://github.com/coin3d/coin).
 
-#### SoQt (deprecated) {#soqt_deprecated}
+#### SoQt (deprecated) 
 
 **Version:** 1.2.0 or higher
 
@@ -206,7 +206,7 @@ Ply is the Python-Lex-Yacc parser. It is used as a runtime dependency by the [Op
 
 For more information see [Ply homepage](https://www.dabeaz.com/ply/)
 
-### Xerces-C++ {#xerces_c}
+### Xerces-C++ 
 
 **Version:** 3.0 or higher
 
@@ -268,7 +268,7 @@ LibPack is a convenient package with FreeCAD\'s build dependencies collected tog
 
 If you\'re working under Linux, you don\'t need the LibPack, as you can get the dependencies from your distribution\'s repositories as mentioned in the [compile on Linux](Compile_on_Linux.md) page.
 
-### FreeCAD 12.1.2 {#freecad_12.1.2}
+### FreeCAD 12.1.2 
 
 See the announcement in the forum: [New libpacks for Windows with Qt5.12, OCC7.3 and Python 3.6 by apeltauer](https://forum.freecadweb.org/viewtopic.php?f=4&t=35789)
 

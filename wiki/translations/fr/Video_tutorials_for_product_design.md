@@ -6,11 +6,11 @@ Les tutoriels listés ici sont ceux qui traitent de la conception de produits ph
 
 Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels écrits de haute qualité. Vous trouverez une liste complète et non triée de didacticiels dans la [:Category:Tutorials](:Category:Tutorials.md).
 
-## Conception de produit {#conception_de_produit}
+## Conception de produit 
 
 Les vidéos qui passent par la modélisation de divers objets solides à l\'aide d\'ateliers tels que <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign ](PartDesign_Workbench/fr.md) et <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md).
 
-### En anglais {#en_anglais}
+### En anglais 
 
 -   [Fusion360 to FreeCAD - Introduction](https://www.youtube.com/watch?v=_GxJkB23ZHM): une introduction rapide par Brodie Fairhall pour ceux qui viennent de Fusion360.
 
@@ -45,7 +45,7 @@ Les vidéos qui passent par la modélisation de divers objets solides à l\'aide
 
 -   [FreeCAD Beginners Tutorials](https://www.youtube.com/watch?v=VEk4RuNIlRY&list=PL1Fv0Kg44dc0WbIB_OoFnEqzanDI7nRQi) : FreeCAD 0.17, une série de 5 vidéos d\'Eklavya Self Learning Tutorials, en anglais, explique les bases de FreeCAD, telles que l\'installation, l\'interface et présente des ateliers de base tels que Draft, Arch, Part et Sketcher.
 
-### En allemand {#en_allemand}
+### En allemand 
 
 Bien que cette liste se concentre sur le contenu allemand, bon nombre de ces chaînes proposent également des vidéos en anglais.
 
@@ -73,7 +73,9 @@ Bien que cette liste se concentre sur le contenu allemand, bon nombre de ces cha
         * [https://www.youtube.com/user/TheMeeone/playlists Listes de lecture Christian Tutoriales CAD]: diverses vidéos sur l'utilisation des modélisateurs 3D, dont FreeCAD, en espagnol.
         ** [https://www.youtube.com/watch?v=cBA7EJyrLkQ&list=PLfv54N1Sqk4zFGrn6mVU5kTSpfyfN2GyW FREECAD 0.17 - 0.18]: une série de 15 vidéos montrant comment modéliser divers objets: connecteurs mécaniques, turbines, pinces, tubings, jantes de pneus vis, un bouchon à vis, un embout de vis, un engrenage hélicoïdal, un pneu de vélo, et d'autres.
 
-        {{Tutorials navi{{#translation:**}}
+        {{Tutorials navi**
 
 
+{{Userdocnavi
 
+}}

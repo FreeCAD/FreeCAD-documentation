@@ -22,7 +22,7 @@ The View tool adds a representation of one or more objects to a Drawing page. Th
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Selectați unul sau mai multe obiecte (Corp, Aplicație :: Parte, Parte :: Funcție, Proiect de obiect, \... Vezi Note) în fereastra sau arborele 3D.
 2.  Dacă aveți mai multe pagini de desen în document, va trebui, de asemenea, să selectați pagina dorită din arborescență.

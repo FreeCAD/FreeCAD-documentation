@@ -29,11 +29,11 @@ FreeCAD 是一个真正的跨平台应用程序，基于世界知名的 [Qt](htt
 
 </div>
 
-# Help files {#help_files}
+# Help files 
 
 The offline documentation is not shipped with all installers, but it is available as a separate package. See the [Installing Helpfile](Installing_Helpfile.md) page for more information.
 
-# External workbenches {#external_workbenches}
+# External workbenches 
 
 
 <div class="mw-translate-fuzzy">
@@ -74,7 +74,7 @@ FreeCAD supports several third party software packages out of the box. In many c
 
 ### GraphViz
 
-GraphViz是一款开源的图形可视化（graph visualization）软件。在FreeCAD中可通过{{MenuCommand|Tools → Dependency Graph...}}来令它生成依赖图。它的主页位于 <https://www.graphviz.org>
+GraphViz是一款开源的图形可视化（graph visualization）软件。在FreeCAD中可通过**Tools → Dependency Graph...**来令它生成依赖图。它的主页位于 <https://www.graphviz.org>
 
 
 </div>
@@ -98,21 +98,21 @@ GraphViz是一款开源的图形可视化（graph visualization）软件。在Fr
 
 ### OpenSCAD
 
-此程序化3D实体CAD建模工具是另一种基于结构实体几何（Constructive Solid Geometry (CSG)）的CAD软件。这意味着：它不能处理网格，而是专用于操作实体几何图形。在FreeCAD中，可通过在{{MenuCommand|File → Import}}与{{MenuCommand|File → Export}}菜单中选择{{MenuCommand|OpenSCAD CSG format}}或{{MenuCommand|OpenSCAD format}}文件类型来导入、导出OpenSCAD所创建的文件。您可以从 <https://www.openscad.org> 处搞到OpenSCAD。
+此程序化3D实体CAD建模工具是另一种基于结构实体几何（Constructive Solid Geometry (CSG)）的CAD软件。这意味着：它不能处理网格，而是专用于操作实体几何图形。在FreeCAD中，可通过在**File → Import**与**File → Export**菜单中选择**OpenSCAD CSG format**或**OpenSCAD format**文件类型来导入、导出OpenSCAD所创建的文件。您可以从 <https://www.openscad.org> 处搞到OpenSCAD。
 
 
 </div>
 
 [OpenSCAD](https://www.openscad.org) is a solid 3D modeller. The [OpenSCAD Workbench](OpenSCAD_Workbench.md) depends on this software and the [Mesh Workbench](Mesh_Workbench.md) uses it for its Boolean tools. It is also required for the import of SCAD files with the [Std Import](Std_Import.md) tool.
 
-## File formats {#file_formats}
+## File formats 
 
 All software in this section will be used by the [Std Import](Std_Import.md) or [Std Export](Std_Export.md) tools.
 
 
 <div class="mw-translate-fuzzy">
 
-### CAD Exchanger {#cad_exchanger}
+### CAD Exchanger 
 
 此为一种用于交换CAD中所用各种文件格式的专用闭源应用程序。您可以用它把专有闭源的格式转换为FreeCAD可访问的格式。本工具的主页为 <https://cadexchanger.com/> ，在此，您可以下载该软件的评估版或购买该软件的使用许可。
 
@@ -124,9 +124,9 @@ All software in this section will be used by the [Std Import](Std_Import.md) or 
 
 <div class="mw-translate-fuzzy">
 
-### DXF Importer {#dxf_importer}
+### DXF Importer 
 
-FreeCAD中有一个以C++编写的DXF原生导入、导出工具。 此导入器当前还未实现DXF格式的所有特性。如果您用到了那些还没有实现的特性，可通过在{{MenuCommand|Edit → Preferences → Import-Export}}中选择{{MenuCommand|Use legacy python importer}}选项来开启基于python的旧版导入/导出工具。您还可以通过{{MenuCommand|Allow FreeCAD to automatically download and update the DXF libaries}}选项令FreeCAD自动从 <https://github.com/yorikvanhavre/Draft-dxf-importer> 下载所需文件，或自己手动下载。被选中的导入 / 导出工具用于实现{{MenuCommand|File → Import}} 或 {{MenuCommand|File → Export}}中{{MenuCommand|AutoDesk DXF 2D}}文件格式的导入导出工作。（译注：简而言之，原生导入导出器有新旧两种，旧版以python编写，功能完整但速度较慢；新版由C++编写，速度快但功能还未完整实现。）
+FreeCAD中有一个以C++编写的DXF原生导入、导出工具。 此导入器当前还未实现DXF格式的所有特性。如果您用到了那些还没有实现的特性，可通过在**Edit → Preferences → Import-Export**中选择**Use legacy python importer**选项来开启基于python的旧版导入/导出工具。您还可以通过**Allow FreeCAD to automatically download and update the DXF libaries**选项令FreeCAD自动从 <https://github.com/yorikvanhavre/Draft-dxf-importer> 下载所需文件，或自己手动下载。被选中的导入 / 导出工具用于实现**File → Import** 或 **File → Export**中**AutoDesk DXF 2D**文件格式的导入导出工作。（译注：简而言之，原生导入导出器有新旧两种，旧版以python编写，功能完整但速度较慢；新版由C++编写，速度快但功能还未完整实现。）
 
 
 </div>
@@ -138,7 +138,7 @@ FreeCAD has a native importer and exporter for DXF files, programmed in C++. Cur
 
 ### ifcOpenShell
 
-IfcOpenShell是一种用来处理建筑设计所用Industry Foundation Classes (IFC)文件格式的库。可在[建筑工作台（Arch Workbench）中通过](Arch_Workbench.md){{MenuCommand|Arch → Utilities → Ifc Explorer}}来访问它。ifcOpenShell的主页位于 <http://ifcopenshell.org> 。
+IfcOpenShell是一种用来处理建筑设计所用Industry Foundation Classes (IFC)文件格式的库。可在[建筑工作台（Arch Workbench）中通过](Arch_Workbench.md)**Arch → Utilities → Ifc Explorer**来访问它。ifcOpenShell的主页位于 <http://ifcopenshell.org> 。
 
 
 </div>
@@ -158,7 +158,7 @@ Support for [LibreDWG](https://www.gnu.org/software/libredwg) is still experimen
 
 ### ODA文件转换器
 
-ODA文件转换器是一种专有、闭源、二进制且可自由使用的应用程序，用于导入、导出DWG 与 DXF 文件格式。在 FreeCAD中的{{MenuCommand|File → Import}}与 {{MenuCommand|File → Export}}菜单里选择{{MenuCommand|AutoDesk DWG 2D}}文件类型时便会用到它。可从 <https://www.opendesign.com/guestfiles/oda_file_converter> 下载它。
+ODA文件转换器是一种专有、闭源、二进制且可自由使用的应用程序，用于导入、导出DWG 与 DXF 文件格式。在 FreeCAD中的**File → Import**与 **File → Export**菜单里选择**AutoDesk DWG 2D**文件类型时便会用到它。可从 <https://www.opendesign.com/guestfiles/oda_file_converter> 下载它。
 
 
 </div>
@@ -170,7 +170,7 @@ The [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converte
 
 ### pycollada
 
-Pycollada，又名`python-collada`，是一款用来读写COLLADA文档（一种用于交换3D场景与元素的标准）的Python库。如果您安装了pycollada，就可以通过在{{MenuCommand|File → Import}}与 {{MenuCommand|File → Export}}命令中选择COLLADA文件类型，以COLLADA导入/导出场景。此项目托管于GitHub中的 <https://pycollada.github.io/> ，您可以从 <https://github.com/pycollada/pycollada/releases/> 下载其发行版。
+Pycollada，又名`python-collada`，是一款用来读写COLLADA文档（一种用于交换3D场景与元素的标准）的Python库。如果您安装了pycollada，就可以通过在**File → Import**与 **File → Export**命令中选择COLLADA文件类型，以COLLADA导入/导出场景。此项目托管于GitHub中的 <https://pycollada.github.io/> ，您可以从 <https://github.com/pycollada/pycollada/releases/> 下载其发行版。
 
 
 </div>
@@ -199,7 +199,7 @@ POVRay是一款人所共知的光线追踪器，借助它可渲染出照片级�
 
 [POV-Ray](https://www.povray.org) is a well-known ray-tracer which can render photo-realistic images. It is one of two render engines currently supported by the [Raytracing Workbench](Raytracing_Workbench.md). See the [POV-Ray](POV-Ray.md) page for more information and installation instructions.
 
-## Finite element {#finite_element}
+## Finite element 
 
 
 <div class="mw-translate-fuzzy">
@@ -221,7 +221,7 @@ CalculiX是两种有限元包的组合套件：
 
 ### Gmsh
 
-一种3D有限元网格自动生成器。可在FreeCAD的[有限元工作台（FEM workbench）中](FEM_Workbench.md)，通过{{MenuCommand|Mesh → FEM mesh from shape by gmsh}}来使用它。gmsh的主页位于 <http://www.geuz.org/gmsh>
+一种3D有限元网格自动生成器。可在FreeCAD的[有限元工作台（FEM workbench）中](FEM_Workbench.md)，通过**Mesh → FEM mesh from shape by gmsh**来使用它。gmsh的主页位于 <http://www.geuz.org/gmsh>
 
 
 </div>
@@ -233,7 +233,7 @@ CalculiX是两种有限元包的组合套件：
 
 ### Elmer
 
-Elmer是一种多物理模拟软件，开源于2005年。在FreeCAD中，可通过{{MenuCommand|Solve->Solver Elmer}}令[有限元工作台（FEM Workbench）调用Elmer的网格与求解](FEM_Workbench.md)（Grid and Solver）模块。Elmer项目的主页位于 <https://www.elmerfem.org> ，可从GitHub中的 <https://github.com/ElmerCSC/elmerfem/releases> 处下载。
+Elmer是一种多物理模拟软件，开源于2005年。在FreeCAD中，可通过**Solve->Solver Elmer**令[有限元工作台（FEM Workbench）调用Elmer的网格与求解](FEM_Workbench.md)（Grid and Solver）模块。Elmer项目的主页位于 <https://www.elmerfem.org> ，可从GitHub中的 <https://github.com/ElmerCSC/elmerfem/releases> 处下载。
 
 
 </div>
@@ -245,7 +245,7 @@ Elmer是一种多物理模拟软件，开源于2005年。在FreeCAD中，可通�
 
 ### FEniCS
 
-FEniCS是一种解偏微分方程（partial differential equations (PDEs)）的计算平台，广泛应用于解决有限元（FEM）问题。自然而然，[有限元工作台（FEM Workbench）也不例外](FEM_Workbench.md)。在FreeCAD里，可通过在{{MenuCommand|File → Import}}与{{MenuCommand|File → Export}}中选择{{MenuCommand|FEM mesh fenics}}文件格式来导入或导出FEniCS网格。FEniCS的主页位于 <https://fenicsproject.org> 。
+FEniCS是一种解偏微分方程（partial differential equations (PDEs)）的计算平台，广泛应用于解决有限元（FEM）问题。自然而然，[有限元工作台（FEM Workbench）也不例外](FEM_Workbench.md)。在FreeCAD里，可通过在**File → Import**与**File → Export**中选择**FEM mesh fenics**文件格式来导入或导出FEniCS网格。FEniCS的主页位于 <https://fenicsproject.org> 。
 
 
 </div>
@@ -257,7 +257,7 @@ FEniCS是一种解偏微分方程（partial differential equations (PDEs)）的�
 
 ### Z88
 
-Z88是另一种FEM程序，内含网格生成器、求解器与转换器，用于FreeCAD的[有限元工作台中](FEM_Workbench.md)。可通过{{MenuCommand|Solve-Solver Z88}}来访问它。Z88发布了多种包，皆为闭源免费使用。而Z88OS则是发布于开源许可证之下，这正是FreeCAD所梦寐以求的。Z88的首页为 <https://en.z88.de/> 。Z88OS也托管于GitHub上： <https://github.com/LSCAD/Z88OS> ，如有需要，您可以自行编译。
+Z88是另一种FEM程序，内含网格生成器、求解器与转换器，用于FreeCAD的[有限元工作台中](FEM_Workbench.md)。可通过**Solve-Solver Z88**来访问它。Z88发布了多种包，皆为闭源免费使用。而Z88OS则是发布于开源许可证之下，这正是FreeCAD所梦寐以求的。Z88的首页为 <https://en.z88.de/> 。Z88OS也托管于GitHub上： <https://github.com/LSCAD/Z88OS> ，如有需要，您可以自行编译。
 
 
 </div>
@@ -269,7 +269,7 @@ Z88是另一种FEM程序，内含网格生成器、求解器与转换器，用�
 
 ### OpenFOAM
 
-一种用来实现场运算与处理（Field Operation and Manipulation (FOAM)）的库，在计算流体力学（Computational Fluid Dynamics (CFD)）仿真中会用到它。正因如此，FreeCAD中的[有限元工作台便会用到OpenFOAM](FEM_Workbench.md)。您可以通过{{MenuCommand|Model → Fluid constraints}}子菜单来访问它。此项目位于 <https://openfoam.org> 。
+一种用来实现场运算与处理（Field Operation and Manipulation (FOAM)）的库，在计算流体力学（Computational Fluid Dynamics (CFD)）仿真中会用到它。正因如此，FreeCAD中的[有限元工作台便会用到OpenFOAM](FEM_Workbench.md)。您可以通过**Model → Fluid constraints**子菜单来访问它。此项目位于 <https://openfoam.org> 。
 
 
 </div>

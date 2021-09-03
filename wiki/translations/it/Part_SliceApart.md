@@ -23,7 +23,7 @@ Le forme di uscita occupano lo stesso spazio dell\'originale. Ma sono divise dov
 
 Per ulteriori informazioni, visitare la pagina [Affetta in composto](Part_Slice/it.md).
 
-### Struttura ad albero di Affetta in parti {#struttura_ad_albero_di_affetta_in_parti}
+### Struttura ad albero di Affetta in parti 
 
 Il comando Affetta una parte crea più di un solo oggetto affettato. Nell\'esempio seguente un cubo viene affettato da una faccia.
 
@@ -62,7 +62,7 @@ Lo strumento è implementato in Python, vedere see {{FileName|/Mod/Part/BOPTools
 
 Affetta in parti è stato introdotto in FreeCAD v0.18.15506. FreeCAD deve essere compilato con OCC 6.9.0 o successivo; in caso contrario, lo strumento non è disponibile.
 
-## Video-Tutorials {#video_tutorials}
+## Video-Tutorials 
 
 -   <https://www.youtube.com/watch?v=tzHkQaHgrfQ> : FreeCad 0.18 PART WB using SLICE and SLICE APART (English language), author: Ha Gei
 

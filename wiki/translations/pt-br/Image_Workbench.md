@@ -21,7 +21,7 @@ A <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Bancada de t
 -   A imagem é importada com uma relação de 1 pixel para 1 milímetro.
 -   A recomendação é ter a imagem importada em uma resolução razoável.
 
-## Fluxo de trabalho {#fluxo_de_trabalho}
+## Fluxo de trabalho 
 
 A maior utilização desta bancada de trabalho é fazer um traçado sobre a imagem, utilizando as ferramentas da bancada [Draft](Draft_Workbench/pt-br.md) ou [Sketcher](Sketcher_Workbench/pt-br.md), com o intuito de gerar um sólido baseado nos contornos traçados na imagem.
 

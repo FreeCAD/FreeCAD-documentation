@@ -52,7 +52,7 @@ Aus Zweckmäßigkeit sind Flamingo/Dodo Werkzeuge in drei Werkzeugleisten/Menüs
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 
-## Frame Tools {#frame_tools}
+## Frame Tools 
 
 
 <div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
@@ -216,7 +216,7 @@ If entities are preselected before calling this command, the first entity is aut
 
 Tool to adjust the beams at square angles of frames. To understand at best how it works, refer to the previous tutorial.
 
-## Pype Tools {#pype_tools}
+## Pype Tools 
 
 
 <div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
@@ -509,7 +509,7 @@ Opens one dialog to calculate the pressure losses across the pype-parts selected
     -   [Flamingo GitHub Problem Warteschlange](https://github.com/oddtopus/flamingo/issues)
     -   [Dodo GitHub Problem Warteschlange](https://github.com/oddtopus/dodo/issues)
 
-## Andere nützliche Verknüpfungen {#andere_nützliche_verknüpfungen}
+## Andere nützliche Verknüpfungen 
 
 
 <div class="mw-translate-fuzzy">
@@ -521,7 +521,7 @@ Opens one dialog to calculate the pressure losses across the pype-parts selected
 
 </div>
 
-## Externe Arbeitsbereiche {#externe_arbeitsbereiche}
+## Externe Arbeitsbereiche 
 
 FreeCAD Arbeitsbereiche sind einfach zu programmieren in [Python](Python/de.md), daher gibt es viele Leute, die zusätzliche Arbeitsbereiche außerhalb der FreeCAD Hauptentwickler entwickeln.
 

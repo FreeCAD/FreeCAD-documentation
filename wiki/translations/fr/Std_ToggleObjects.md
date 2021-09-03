@@ -13,7 +13,7 @@ La commande **Std Basculer tous les objets** bascule la visibilité de tous les 
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → Visibilité → <img src="images/Std_ToggleObjects.svg" width=16px> Basculer tous les objets}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_ToggleObjects.svg" width=16px> Basculer tous les objets** dans le menu.
 
 ## Remarques
 

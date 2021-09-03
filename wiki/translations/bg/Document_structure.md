@@ -26,7 +26,7 @@
 
 Дори да има няколко едновременно отворени документи в FreeCAD, само един от тях може да бъде активен в определен момент. Активния документ е този чиито обекти се виждат в момента в прозореца 3D view.
 
-## Application and User Interface {#application_and_user_interface}
+## Application and User Interface 
 
 
 <div class="mw-translate-fuzzy">

@@ -30,7 +30,7 @@ OK. Mais au fond, vous n\'avez pas besoin d\'un soutien immédiat.
 
 Ainsi, une courbe avec laquelle vous pouvez relier deux points tangentiellement à un point de référence peut être très utile pour les constructions. Les courbes de Bézier offrent cette fonctionnalité.
 
-## Courbes de Bézier {#courbes_de_bézier}
+## Courbes de Bézier 
 
 ### Origine
 
@@ -75,7 +75,7 @@ Dans le texte ci-dessus, vous avez peut-être déjà remarqué quelques \"règle
 -   Si vous avez besoin de $n$ tours, vous avez besoin d\'au moins une courbe de Bézier de $n+1$ degré.
 -   Une courbe de Bézier commence toujours tangentiellement à la ligne entre le point de départ et le premier point de contrôle (et se termine tangentiellement à la ligne entre le dernier point de contrôle et le point d\'arrivée).
 
-## B-splines {#b_splines}
+## B-splines 
 
 ### Fondamentaux
 
@@ -107,7 +107,7 @@ Comme expliqué dans la vidéo, les polynômes de base sont des polynômes de Be
 
 À chaque position de la spline $t$, la somme des polynômes est égale à 1 (indiquée par la ligne orange). Au départ, seul le polynôme rouge a une influence puisque tous les autres polynômes sont à 0. À $t$ plus grand, la spline est décrite par une combinaison linéaire de différents polynômes de base. Dans l\'image ci-dessus, chaque polynôme est supérieur à 1 pour toute la plage $0 < t < 1$. Ce n\'est pas nécessairement le cas. Comme le montre la vidéo, les polynômes de base ne sont fondamentalement supérieurs à 0 que pour une certaine plage de position de la spline. L\'intervalle pour lequel un polynôme de base est supérieur à 0 est décrit par le *vecteur nœud*. Si vous souhaitez en savoir plus sur le vecteur nœud, consultez le site [cette vidéo](https://www.youtube.com/watch?v=ni5NNPCVvDY).
 
-### B-splines non-uniformes {#b_splines_non_uniformes}
+### B-splines non-uniformes 
 
 Une propriété des polynômes de Bernstein est que lorsque l\'on regarde les différentes parties de Bézier S-spline, la longueur du chemin de chaque partie est la même. (La longueur du chemin est souvent appelée le *temps de parcours*). Comme vous pouvez l\'imaginer, il peut être utile d\'avoir des B-splines dont les parties de Bézier ont des longueurs de chemin différentes. Ceci peut être réalisé en pondérant les différents polynômes :
 
@@ -131,7 +131,7 @@ alors que
 $\quad
 R_{k, D}=\cfrac{B_{k,D}(u)w_k}{\sum_{l=1}^N B_{l,D}(t)w_l}$
 
-## B-splines dans FreeCAD {#b_splines_dans_freecad}
+## B-splines dans FreeCAD 
 
 FreeCAD propose de créer des B-splines uniformes ou non-uniformes de n\'importe quel degré en 2D via l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
 
@@ -147,13 +147,13 @@ Pour créer des B-splines périodiques (B-splines qui forment une courbe fermée
 
 Les B-splines peuvent également être générées à partir de segments d\'esquisse existants. Pour ce faire, sélectionnez les éléments et appuyez sur le bouton de la barre d\'outils **<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Sketcher Convertir la géométrie en B-spline](Sketcher_BSplineApproximate/fr.md)**.
 
-### Changer le degré {#changer_le_degré}
+### Changer le degré 
 
 Pour modifier le degré, sélectionnez la plaine B et utilisez les boutons de la barre d\'outils **<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> <img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:Sketcher Augmenter le degré d'une B-spline](Sketcher_BSplineIncreaseDegree/fr.md)** ou **[24px"> [Sketcher Diminuer le degré d'une B-spline](Sketcher_BSplineDecreaseDegree/fr.md)**.
 
 **Remarque :** diminuer le degré ne peut pas annuler une augmentation antérieure du degré, voir la page Wiki [Sketcher Diminuer le degré d\'une B-spline](Sketcher_BSplineDecreaseDegree/fr.md) pour une explication.
 
-### Changer la multiplicité des nœuds {#changer_la_multiplicité_des_nœuds}
+### Changer la multiplicité des nœuds 
 
 Les points où deux courbes de Bézier sont connectées pour former la B-spline sont appelés nœuds. La multiplicité des nœuds détermine la façon dont les parties de Bézier sont connectées, voir la page Wiki [Sketcher Plus de nœuds d\'une B-spline](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md) pour plus de détails.
 
@@ -161,7 +161,7 @@ Pour modifier la multiplicité des nœuds, utilisez les boutons de la barre d\'o
 
 **Remarque :** la création de deux B-splines connectées l\'une à l\'autre ne s\'unira pas en une seule nouvelle B-spline. Leur point de connexion n\'est donc pas un nœud. La seule façon d\'obtenir un nouveau nœud dans une B-spline existante est de diminuer le degré. Cependant, vous risquez d\'obtenir de nombreux nouveaux nœuds. Le meilleur choix est donc de redessiner la B-spline avec plus de points de contrôle.
 
-### Changer le poids {#changer_le_poids}
+### Changer le poids 
 
 Autour de chaque point de contrôle, vous voyez un cercle jaune foncé. Son rayon définit le poids du point de contrôle correspondant. Par défaut, tous les cercles ont le rayon *1*. Cela est indiqué par une contrainte de rayon pour le premier cercle du point de contrôle.
 
@@ -179,7 +179,7 @@ Dans l\'exemple du déplacement, vous voyez qu\'un poids élevé attire la courb
 
 Lorsque vous consultez la [fonction de création](#B-splines_non-uniformes.md) pour les B-splines rationnelles non uniformes, vous constatez qu\'un poids de zéro entraînerait une division par zéro. Par conséquent, vous ne pouvez spécifier que des poids supérieurs à zéro.
 
-### Information sur l\'affichage {#information_sur_laffichage}
+### Information sur l\'affichage 
 
 Comme la forme d\'une spline B ne renseigne pas beaucoup sur ses propriétés, FreeCAD propose [différents outils](Sketcher_Workbench/fr#Outils_d.27esquisse_B-spline.md) pour afficher les propriétés :
 
@@ -216,7 +216,7 @@ A l\'heure actuelle (FreeCAD 0.19), il existe quelques limitations lors de l\'ut
 3.  Vous ne pouvez pas supprimer un point de contrôle. Dans ce cas également, vous devez redessiner la spline.
 4.  Vous ne pouvez pas créer une courbe de décalage pour une spline B en utilisant l\'outil [Draft Décalage](Draft_Offset/fr.md).
 
-## Cas d\'utilisation typiques {#cas_dutilisation_typiques}
+## Cas d\'utilisation typiques 
 
 Selon les propriétés des B-splines, il y a 3 cas d\'utilisation principaux :
 
@@ -234,7 +234,7 @@ Pour définir la forme extérieure, il est avantageux d\'utiliser une B-spline c
 
 ![](images/Sketcher_spline-exmple-mixer-sketch.gif )
 
-### Continuité aux transitions géométriques {#continuité_aux_transitions_géométriques}
+### Continuité aux transitions géométriques 
 
 Il existe plusieurs cas où il est physiquement nécessaire d\'avoir une certaine continuité de surface aux transitions géométriques. Prenons par exemple les parois internes d\'un canal de fluide. Lorsque le diamètre du canal change, on ne veut pas avoir de bord car les bords introduiraient des turbulences. Par conséquent, comme dans l\'exemple de [ci-dessus](#Motivation.md), on utilise des splines dans ce but.
 

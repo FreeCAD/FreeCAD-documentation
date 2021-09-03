@@ -41,7 +41,7 @@ Les autres propriétés de cet objet sont celles liées à l\'apparence de sa [T
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets scriptés peuvent avoir.
 
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande {{MenuCommand|Show all}} dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
 
 ### Données
 
@@ -67,7 +67,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property
 
 -    {{PropertyData/fr|Label|String}}: le nom modifiable par l\'utilisateur de cet objet. Il s\'agit d\'une chaîne UTF8 arbitraire.
 
-##### Propriétés cachées de Données {#propriétés_cachées_de_données}
+##### Propriétés cachées de Données 
 
 -    {{PropertyData/fr|Proxy|PythonObject|hidden}}: une classe personnalisée associée à cet objet. Cela n\'existe que pour la version [Python](Python/fr.md). Voir [Script](Part_Feature/fr#Script.md).
 
@@ -148,7 +148,7 @@ deviation_in_mm = (w + h + d)/3 * deviation/100
 
 -    {{PropertyView/fr|Selection Style|Enumeration}}: il contrôle la façon dont l\'objet est mis en évidence. Si c\'est {{value|Shape}}, la forme entière (sommets, arêtes et faces) sera mise en surbrillance dans la [Vue 3D](3D_view/fr.md); s\'il s\'agit de {{value|BoundBox}}, un cadre de délimitation apparaîtra autour de l\'objet et sera mis en surbrillance.
 
-### Valeur d\'écart {#valeur_décart}
+### Valeur d\'écart 
 
 <img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> *Paramètres de déflexion de l'algorithme `BRepMesh_IncrementalMesh*; d < déviation linéaire, α < déviation angulaire.`
 
@@ -181,7 +181,7 @@ obj = App.ActiveDocument.addObject("Part::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 
-### Name (Nom) {#name_nom}
+### Name (Nom) 
 
 
 **Voir aussi: [Objet name](Object_name/fr.md), pour plus d'informations sur les propriétés du nom.**
@@ -191,13 +191,13 @@ La fonction `addObject` a deux arguments de chaîne de base.
 -   Le premier argument indique le type d\'objet, dans ce cas, `"Part::FeaturePython"`.
 -   Le deuxième argument est une chaîne qui définit l\'attribut `Name`. S\'il n\'est pas fourni, il utilise par défaut le même nom que la classe, c\'est-à-dire `"Part__FeaturePython"`. `Name` ne peut contenir que des caractères alphanumériques simples et le trait de soulignement, `[_0-9a-zA-Z]`. Si d\'autres symboles sont donnés, ils seront convertis en traits de soulignement; par exemple, `"A+B:C*"` est converti en `"A_B_C_"`.
 
-### Label (Etiquette) {#label_etiquette}
+### Label (Etiquette) 
 
 Si vous le souhaitez, l\'attribut `Label` peut être remplacé par un texte plus significatif.
 
 -    `Label`peut accepter n\'importe quelle chaîne UTF8, y compris les accents et les espaces. Puisque la [Vue en arborescence](Tree_view/fr.md) affiche le `Label`, il est recommandé de changer le `Label` en une chaîne plus descriptive.
 
--   Par défaut, `Label` est unique, tout comme `Name`. Ce comportement peut être modifié dans [Réglage des préférences](Preferences_Editor/fr.md), {{MenuCommand|Edition → Préférences → Général → Document → Autoriser la duplication des étiquettes dans un document}}. Cela signifie qu\'en général, `Label` peut être répété dans le même document. Lors du test d\'un élément spécifique, l\'utilisateur doit s\'appuyer sur `Name` plutôt que sur `Label`.
+-   Par défaut, `Label` est unique, tout comme `Name`. Ce comportement peut être modifié dans [Réglage des préférences](Preferences_Editor/fr.md), **Edition → Préférences → Général → Document → Autoriser la duplication des étiquettes dans un document**. Cela signifie qu\'en général, `Label` peut être répété dans le même document. Lors du test d\'un élément spécifique, l\'utilisateur doit s\'appuyer sur `Name` plutôt que sur `Label`.
 
 
  {{Document objects navi}} 

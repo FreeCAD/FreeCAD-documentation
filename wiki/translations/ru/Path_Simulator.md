@@ -17,12 +17,12 @@ This tool allows Simulation of the Path Job by sweeping 3D Models of the Tools u
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_Simulator.svg" width=16px> [Path Simulator](Path_Simulator.md)** button.
-    -   Select the {{MenuCommand|Path → <img src="images/Path_Simulator.svg" width=16px> CAM Simulator}} option from the menu.
+    -   Select the **Path → <img src="images/Path_Simulator.svg" width=16px> CAM Simulator** option from the menu.
     -   Use the keyboard shortcut: **P** then **M**.
-2.  De-select any {{MenuCommand|Operations}} that are not to be simulated
-3.  Tune the {{MenuCommand|Speed}} and {{MenuCommand|Accuracy}} settings.
-4.  Select the {{MenuCommand|Job}} for simulation from the drop menu.
-5.  Use the {{MenuCommand|Path Simulator}} toolbar to invoke different actions:
+2.  De-select any **Operations** that are not to be simulated
+3.  Tune the **Speed** and **Accuracy** settings.
+4.  Select the **Job** for simulation from the drop menu.
+5.  Use the **Path Simulator** toolbar to invoke different actions:
     -   Press the <img alt="" src=images/Path_BPlay.svg  style="width:24px;"> (Play) button to play or playback an animation of the operations.
     -   Press the <img alt="" src=images/Path_BFastForward.svg  style="width:24px;"> (Fast Forward) button to increase the speed substantially (in order to quickly review complicated paths).
     -   Press the <img alt="" src=images/Path_BPause.svg  style="width:24px;"> (Pause) button to pause animation for troubleshooting purposes

@@ -2,7 +2,7 @@
 
 ![150](images/Crystal_Clear_app_tutorials.png )
 
-## Bine ati venit la ajutorul on-line {#bine_ati_venit_la_ajutorul_on_line}
+## Bine ati venit la ajutorul on-line 
 
 
 <div class="mw-translate-fuzzy">
@@ -12,7 +12,7 @@ Acest document a fost generat automat din continutul documentatiei on-line pentr
 
 </div>
 
-### Cum se foloseste {#cum_se_foloseste}
+### Cum se foloseste 
 
 
 <div class="mw-translate-fuzzy">

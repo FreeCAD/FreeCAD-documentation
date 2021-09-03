@@ -3,29 +3,29 @@
 
 {{TOCright}}
 
-## Après l\'importation {#après_limportation}
+## Après l\'importation 
 
 Après l\'importation, le modèle n\'est (pour FreeCAD) qu\'un assemblage de faces. Vous voudrez peut-être convertir le modèle en une forme que FreeCAD peut reconnaître et qui pourra être modifiée dans FreeCAD.
 
 Pour ce faire :
 
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
-2.  Sélectionnez le maillage et accédez au menu {{MenuCommand|Part → [Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md)}} ou cliquez sur <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> [Part Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md).
+2.  Sélectionnez le maillage et accédez au menu **Part → [Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md)** ou cliquez sur <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> [Part Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md).
 3.  Cliquez sur **OK** dans le dialogue.
 4.  Sélectionnez la forme nouvellement créée.
-5.  Sélectionnez {{MenuCommand|Part → [Convertir en solide](Part_MakeSolid/fr.md)}}.
+5.  Sélectionnez **Part → [Convertir en solide](Part_MakeSolid/fr.md)**.
 6.  Sélectionnez le nouveau solide créé.
-7.  Aller à {{MenuCommand|Part → [Affiner la forme](Part_RefineShape/fr.md)}} ou pressez le bouton <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Affiner la forme](Part_RefineShape/fr.md).
+7.  Aller à **Part → [Affiner la forme](Part_RefineShape/fr.md)** ou pressez le bouton <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Affiner la forme](Part_RefineShape/fr.md).
 
 **Remarque:** la dernière étape n'est pas nécessaire mais elle nettoiera le solide de la plupart de ses arêtes résiduelles sur les surfaces planes et cylindriques.
 
 ## Erreurs
 
-### \"Impossible de convertir car la forme n\'est pas une coque\" {#impossible_de_convertir_car_la_forme_nest_pas_une_coque}
+### \"Impossible de convertir car la forme n\'est pas une coque\" 
 
 Eh bien, votre coque semble avoir des erreurs, peut-être qu\'elle n\'est pas fermée (elle serait trouée). Étant donné que les fonctionnalités du maillage dans FreeCAD sont un peu limitées pour le moment, vous pouvez essayer d'examiner et de réparer votre modèle avec un logiciel tiers. Après cela, vous pouvez essayer à nouveau d'importer et de convertir votre modèle.
 
-## Programmes tierces {#programmes_tierces}
+## Programmes tierces 
 
 -   [Meshlab](http://meshlab.sourceforge.net/)
     -   licence : Open Source (GPL V2)

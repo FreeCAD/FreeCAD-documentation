@@ -12,11 +12,11 @@ L\'obtention de cette simulation se fait dans FreeCAD avec l\'[atelier FEM](FEM_
 
 <img alt="" src=images/Exercise_fem_01.jpg  style="width:600px;">
 
-### Préparation de FreeCAD {#préparation_de_freecad}
+### Préparation de FreeCAD 
 
 La simulation elle-même est réalisée par un autre logiciel utilisé par FreeCAD pour obtenir les résultats. Il existe plusieurs applications de simulation FEM intéressantes et disponibles. L'[Atelier FEM](FEM_Workbench/fr.md) vous permet de choisir parmi ces applications. Cependant, actuellement, seul [CalculiX](http://www.calculix.de/) est entièrement implémenté. Un autre logiciel, appelé [NetGen](https://sourceforge.net/projects/netgen-mesher/), en charge de la génération du maillage de subdivision est également nécessaire. Des instructions détaillées pour installer ces deux composants sont fournies dans la documentation FreeCAD ([Installation de FEM](FEM_Install/fr.md)).
 
-### Préparation de la géométrie {#préparation_de_la_géométrie}
+### Préparation de la géométrie 
 
 Nous allons commencer avec la maison que nous avons modélisée dans le chapitre de modélisation BIM ([Modélisation BIM](Manual:BIM_modeling/fr.md)). Certains changements doivent néanmoins être apportés pour rendre le modèle adapté aux calculs FEM. Nous écartons les objets que nous ne voulons pas inclure dans le calcul, comme la porte et la fenêtre, et assemblons tous les objets restants en un seul.
 
@@ -33,7 +33,7 @@ Nous allons commencer avec la maison que nous avons modélisée dans le chapitre
 
 :   <img alt="" src=images/Exercise_fem_03.jpg  style="width:600px;">
 
-### Création de l\'analyse {#création_de_lanalyse}
+### Création de l\'analyse 
 
 -   Nous sommes maintenant prêts à commencer une analyse FEM. Passons à l'[atelier FEM](FEM_Workbench/fr.md).
 -   Sélectionnez l\'objet résultat de la fusion.

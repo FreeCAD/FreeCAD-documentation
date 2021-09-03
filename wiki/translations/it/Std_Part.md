@@ -18,7 +18,7 @@ Sebbene sia destinato principalmente a corpi solidi, Parte può essere utilizzat
 
 Non confondere il <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Corpo di PartDesign](PartDesign_Body/it.md) con la <img alt="" src=images/Std_Part.svg  style="width:16px;"> [Parte](Std_Part/it.md). Il primo è un oggetto specifico utilizzato in <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), destinato a modellare un [singolo solido contiguo](PartDesign_Body/it#Singolo_solido_contiguo.md) mediante le [ funzioni di PartDesign](PartDesign_Feature/it.md). Invece, la [Parte](Std_Part/it.md) non viene utilizzata per la modellazione, ma solo per disporre diversi oggetti nello spazio, per creare degli [assemblaggi](assembly/it.md).
 
-Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si trova nella {{MenuCommand|barra degli strumenti struttura}}, che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md). Per raggruppare gli oggetti arbitrariamente senza considerare la loro posizione, utilizzare <img alt="" src=images/Std_Group.svg  style="width:16px;"> [Gruppo](Std_Group/it.md); questo oggetto non influenza i posizionamenti degli elementi che contiene, è essenzialmente solo una cartella che viene utilizzata per mantenere organizzata la [vista ad albero](tree_view/it.md).
+Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si trova nella **barra degli strumenti struttura**, che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md). Per raggruppare gli oggetti arbitrariamente senza considerare la loro posizione, utilizzare <img alt="" src=images/Std_Group.svg  style="width:16px;"> [Gruppo](Std_Group/it.md); questo oggetto non influenza i posizionamenti degli elementi che contiene, è essenzialmente solo una cartella che viene utilizzata per mantenere organizzata la [vista ad albero](tree_view/it.md).
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
@@ -34,7 +34,7 @@ Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal 
 ### Note
 
 -   A partire dalla v0.19, un dato oggetto può appartenere solo ad una singola Parte.
--   Fare doppio clic sulla Parte nella [vista ad albero](tree_view/it.md) o aprire il menu contestuale (tasto destro del mouse) e selezionare {{MenuCommand|Attiva/disattiva la parte}} per attivare o disattivare la Parte. Se un\'altra Parte è attiva, sarà disattivata. Vedere [Stato attivo](Std_Part/it#Stato_attivo.md) per maggiori informazioni.
+-   Fare doppio clic sulla Parte nella [vista ad albero](tree_view/it.md) o aprire il menu contestuale (tasto destro del mouse) e selezionare **Attiva/disattiva la parte** per attivare o disattivare la Parte. Se un\'altra Parte è attiva, sarà disattivata. Vedere [Stato attivo](Std_Part/it#Stato_attivo.md) per maggiori informazioni.
 
 ### Limitazioni
 
@@ -48,7 +48,7 @@ Una [Parte](Std_Part/it.md) è internamente chiamata [App Part](App_Part/it.md) 
 
 Oltre alle proprietà descritte in [App GeoFeature](App_GeoFeature/it.md), la classe App Part ha alcune proprietà che la aiutano a gestire le informazioni nel contesto di un assieme, ad esempio, **Type**, **Id**, **License**, **LicenseURL**, **Color**, e **Group**.
 
-Queste sono le proprietà disponibili nell\'[editore delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando {{MenuCommand|Mostra tutto}} nel menu contestuale dell\'[editore delle proprietà](property_editor/it.md).
+Queste sono le proprietà disponibili nell\'[editore delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell\'[editore delle proprietà](property_editor/it.md).
 
 ### Dati
 
@@ -86,7 +86,7 @@ Queste sono le proprietà disponibili nell\'[editore delle proprietà](property_
 
 -    **Group|LinkList**: un elenco di oggetti di riferimento. Per impostazione predefinita, è vuoto {{value|[]}}.
 
-#### Proprietà dati nascoste {#proprietà_dati_nascoste}
+#### Proprietà dati nascoste 
 
 -    **Material|Map**: mappa con le proprietà del materiale. Per impostazione predefinita, è vuota {}.
 
@@ -121,7 +121,7 @@ La App Part ha solo cinque proprietà di base [App FeaturePython](App_FeaturePyt
 
 -    **Visibility|Bool**: se è `True`, l\'oggetto appare nella [vista 3D](3D_view/it.md); altrimenti è invisibile. Per impostazione predefinita questa proprietà può essere attivata e disattivata premendo la barra **Spazio** sulla tastiera.
 
-## Concetto di assemblaggio {#concetto_di_assemblaggio}
+## Concetto di assemblaggio 
 
 La Parte è destinata ad essere il blocco di base per la creazione di assemblaggi. A differenza di un [corpo di PartDesign](PartDesign_Body/it.md), un assemblaggio è inteso come un insieme di elementi separati e distinguibili che sono collegati in qualche modo nel mondo fisico, per esempio, attraverso la pressione, le viti o la colla.
 
@@ -137,16 +137,16 @@ A destra: i singoli corpi messi insieme all'interno di una Parte per creare un a
 
 In termini generali, quando si importa un file STEP nel programma, l\'insieme principale e i suoi sottoinsiemi saranno importati come contenitori di Parti, ognuno dei quali contiene una semplice [Funzione Part](Part_Feature/it.md).
 
-### Spiegazione dettagliata {#spiegazione_dettagliata}
+### Spiegazione dettagliata 
 
-### Stato attivo {#stato_attivo}
+### Stato attivo 
 
-Un documento aperto può contenere più Parti. Una parte attiva verrà visualizzata nella [vista ad albero](Tree_view/it.md) con il colore di sfondo specificato per il {{MenuCommand|Contenitore attivo}}, per impostazione predefinita il colore in [editor delle preferenze](Preferences_Editor/it#Colori.md) è azzurro. Una parte attiva sarà anche mostrata in grassetto.
+Un documento aperto può contenere più Parti. Una parte attiva verrà visualizzata nella [vista ad albero](Tree_view/it.md) con il colore di sfondo specificato per il **Contenitore attivo**, per impostazione predefinita il colore in [editor delle preferenze](Preferences_Editor/it#Colori.md) è azzurro. Una parte attiva sarà anche mostrata in grassetto.
 
 Per attivare o disattivare un Parte:
 
 -   Doppio click nella [vista ad albero](Tree_view/it.md), oppure
--   Aprire il menu contestuale (click tasto destro) e selezionare {{MenuCommand|Attivare la parte}}.
+-   Aprire il menu contestuale (click tasto destro) e selezionare **Attivare la parte**.
 
 
 **Note:**
@@ -179,7 +179,7 @@ l\'origine è un oggetto [App Origin](App_Origin/it.md)(`App::Origin` class), me
 
 tutti gli elementi all\'interno della Parte sono riferiti all\'Origine della Parte, il che significa che la Parte può essere spostata e ruotata in riferimento al sistema globale di coordinate senza influenzare il posizionamento degli elementi all\'interno.
 
-### Gestione della visibilità {#gestione_della_visibilità}
+### Gestione della visibilità 
 
 La visibilità della Parte sostituisce la visibilità di qualsiasi oggetto in essa contenuto. Se la Parte è nascosta, anche gli oggetti in essa contenuti saranno nascosti, anche se la loro proprietà individuale **Visibilità** è impostata su `True`. Se la Parte è visibile, allora la **Visibilità** di ogni oggetto determina se l\'oggetto è mostrato o meno.
 

@@ -38,7 +38,7 @@ Bu aracın karşılığı [Mimari Kaldır](Arch_Remove/tr.md) aracıdır.
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 
 </div>

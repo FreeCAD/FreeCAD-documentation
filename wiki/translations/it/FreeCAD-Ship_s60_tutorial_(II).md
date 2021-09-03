@@ -49,7 +49,7 @@ In questo tutorial i pesi e i serbatoi della barca della serie 60 saranno distri
 
 </div>
 
-## Pesi della nave {#pesi_della_nave}
+## Pesi della nave 
 
 Per essere in grado di calcolare la curva di GZ è necessario conoscere il peso della nave e la posizione del centro di gravità per ogni angolo di sbandamento. Per questo i pesi possono essere suddivisi in due categorie:
 
@@ -126,7 +126,7 @@ I serbatoi devono essere costruiti su di una geometria solida, come per il model
 
 </div>
 
-### Creare la geometria {#creare_la_geometria}
+### Creare la geometria 
 
 Per creare i serbatoi caricare il [Modulo Part](Part_Workbench/it.md) e creare un solido parallelepipedo (box).
 
@@ -162,7 +162,7 @@ Ora si può anche eliminare il box, non serve più.
 
 <div class="mw-translate-fuzzy">
 
-### Creare le istanze serbatoio {#creare_le_istanze_serbatoio}
+### Creare le istanze serbatoio 
 
 Riattivare il [modulo FreeCAD-Ship](FreeCADShip_Workbench/it.md) per rendere disponibile lo strumento generatore delle istanze serbatoio.
 
@@ -204,7 +204,7 @@ La figura precedente mostra la barca di cui si vuole calcolare la curva di GZ.
 
 <div class="mw-translate-fuzzy">
 
-### Calcolare la curva di GZ {#calcolare_la_curva_di_gz}
+### Calcolare la curva di GZ 
 
 FreeCAD-Ship fornisce uno strumento per calcolare facilmente la curva di *GZ*.
 

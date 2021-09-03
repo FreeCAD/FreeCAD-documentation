@@ -13,7 +13,8 @@ Traditionally, FreeCAD employs a Parametric Modeling methodology which is a powe
 
 ## Installation
 
-Download the Design456 workbench via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) {{MenuCommand|Tools → Addon Manager}}
+Download the Design456 workbench via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) 
+**Tools → Addon Manager**
 
 ## References
 
@@ -23,7 +24,7 @@ Download the Design456 workbench via the <img alt="" src=images/AddonManager.svg
 
 ## Tools
 
-### 2D Drawing and manipulation tools {#d_drawing_and_manipulation_tools}
+### 2D Drawing and manipulation tools 
 
 -   <img alt="" src=images/Design456_3Point.svg  style="width:32px;"> [Design456 Arc3Points](Design456_3Point.md): Use this tool to create an Arc from 3 vertices.
 -   <img alt="" src=images/Design456_MultiPointsToWireClose.svg  style="width:32px;"> [Design456 MultiPointsToWireClose](Design456_MultiPointsToWireClose.md): Use this tool to create a series of lines between points selected in series(closed).
@@ -31,7 +32,7 @@ Download the Design456 workbench via the <img alt="" src=images/AddonManager.svg
 -   <img alt="" src=images/Design456_2DTrimLine.svg  style="width:32px;"> [Design456 Trim a line](Design456_2DTrim.md): Use this tool delete a line/wire.
 -   <img alt="" src=images/2D_ExtendLine.svg  style="width:32px;"> [Design456 Extend a line or a wire](Design456_2DExtend.md): Use this tool to extend any wire or line .
 
-### 3D Drawing and manipulation tools {#d_drawing_and_manipulation_tools_1}
+### 3D Drawing and manipulation tools 
 
 -   <img alt="" src=images/Design456_Extrude.svg  style="width:32px;"> [Design456 Extrude](Design456_Extrude.md): Use this tool to extrude any face.
 -   <img alt="" src=images/Design456_Extract.svg  style="width:32px;"> [Design456 Extract Face](Design456_Extract.md): Use this tool to extract a face from a 3D object.
@@ -45,7 +46,7 @@ Download the Design456 workbench via the <img alt="" src=images/AddonManager.svg
 -   <img alt="" src=images/Design456_PartGroup.svg  style="width:32px;"> [Design456 3D Part Grouping](Design456_PartGroup.md): Use this tool to collect several parts in one group.
 -   <img alt="" src=images/Design456_PartCompound.svg  style="width:32px;"> [Design456 3D Part Compound](Design456_PartCompound.md): Use this tool to compound different parts.
 
-### Alignment tools {#alignment_tools}
+### Alignment tools 
 
 -   <img alt="" src=images/Design456_PartMagnet.svg  style="width:32px;"> [Design456 Magnet](Design456_PartMagnet.md): Use this tool align an object on another one by selecting the target face.
 -   <img alt="" src=images/Design456_AlignToPlane.svg  style="width:32px;"> [Design456 Align to plane](Design456_AlignToPlane.md): Use this tool to align object(s) on the surface of the plane.
@@ -58,11 +59,11 @@ Download the Design456 workbench via the <img alt="" src=images/AddonManager.svg
 -   <img alt="" src=images/Design456_MoveObject.svg  style="width:32px;"> [Design456 Move Object](Design456_MoveObject.md): Move, rotate 3D Objects.
 -   <img alt="" src=images/Design456_MoveObjectDetails.svg  style="width:32px;"> [Design456 Move Object in details](Design456_MoveObjectDetails.md): Move, rotate 3D and 2D Objects.
 
-### Microelly2 Tools converted {#microelly2_tools_converted}
+### Microelly2 Tools converted 
 
 -   Coming Soon!
 
-### [FreeCAD GUI Widgets toolkit](FreeCAD_GUI_Widgets_toolkit.md) {#freecad_gui_widgets_toolkit}
+### [FreeCAD GUI Widgets toolkit](FreeCAD_GUI_Widgets_toolkit.md) 
 
 Fr\_Widget system is a beginning work for the Coin3D and the QT drawing GUI toolkit. The toolkit will make it easy to make drawing and provides an interactive way to manipulate the objects. The simplicity of the toolkit should make it easy to use it. It will be well documented. Looking at the Devbranch at my github, you will find some widget that are already made. But it is just the beginning. More details will come after finishing the Nurbs tools. The toolkit will be a flavor of FLTK toolkit.
 

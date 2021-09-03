@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -17,7 +17,7 @@ Draft DXF est un module logiciel utilisé par <img alt="" src=images/Std_Open.sv
 
 ## Importation
 
-L\'importateur a deux modes, réglables sous {{MenuCommand|Édition → Préférences → Import/Export → DXF}} : l\'un est intégré, basé sur C++ et rapide, l\'autre est hérité, codé en Python, plus lent et nécessite l\'installation d\'un module complémentaire, mais peut parfois mieux gérer certaines entités et créer des objets FreeCAD plus raffinés. Les deux prennent en charge toutes les versions DXF à partir de R12.
+L\'importateur a deux modes, réglables sous **Édition → Préférences → Import/Export → DXF** : l\'un est intégré, basé sur C++ et rapide, l\'autre est hérité, codé en Python, plus lent et nécessite l\'installation d\'un module complémentaire, mais peut parfois mieux gérer certaines entités et créer des objets FreeCAD plus raffinés. Les deux prennent en charge toutes les versions DXF à partir de R12.
 
 Les objets 3D à l\'intérieur d\'un fichier DXF sont stockés sous un blob binaire ACIS/SAT, qui ne peut actuellement pas être lu par FreeCAD. Les entités plus simples comme les 3DFACE, cependant, sont prises en charge.
 

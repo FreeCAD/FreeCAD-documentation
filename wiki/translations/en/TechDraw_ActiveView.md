@@ -33,7 +33,7 @@ The ActiveView tool inserts a copy of a 3D window into a drawing page.
 
 See <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Symbol](TechDraw_Symbol.md)
 
-### Dialog Fields {#dialog_fields}
+### Dialog Fields 
 
 -    **Width**: The width of the generated view.
 

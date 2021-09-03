@@ -2,13 +2,13 @@
 
 It is recommended that you know on practice, how to [Compile on Windows](Compile_on_Windows.md) with Qt Creator, before attempting this.
 
-## Setting up MSVC2013 compiler without installing Visual Studio {#setting_up_msvc2013_compiler_without_installing_visual_studio}
+## Setting up MSVC2013 compiler without installing Visual Studio 
 
 requirements:
 
 -   another computer where complete Visual Studio is/can be installed (in theory, this can be achieved by unpacking VS installers, but there is no instructions about this here)
 
-### getting the compiler {#getting_the_compiler}
+### getting the compiler 
 
 0\. In order to get the compiler files, go to another computer and locate the actual compiler. Example of path to compiler: drive:\\path\\to\\visual\\studio\\VC\\bin.
 
@@ -24,7 +24,7 @@ requirements:
 
 4\. Set up a custom compiler in Qt Creator. Read on to see how.
 
-### compiler in Qt Creator {#compiler_in_qt_creator}
+### compiler in Qt Creator 
 
 #### 32-bit
 
@@ -65,7 +65,7 @@ Note the path to git.exe in PATH. It is optional, but if not specified, the vers
 
 The environment part of the settings took me the most trouble to configure
 
-#### 64-bit {#bit_1}
+#### 64-bit 
 
 This is a little bit more tricky than 32-bit compiler. The main problem was that there is no nmake executable in C:\\Qt\\msvc12rip\\VC\\bin\\**x86\_amd64**, and nmake keeps using the 32-bit compiler. To counter the problem, create a special folder \"C:\\Qt\\msvc12rip\\VC\\bin\\**x86\_amd64\_sa**\", where mnake and 64-bit cl are combined. Read on for step-by-step instructions.
 
@@ -108,7 +108,7 @@ Tip: set up another kit+compiler pair for using jom instead of nmake, to enable 
 
 All the rest is identical to the normal way one would compile FreeCAD.
 
-### testing compiler and building FreeCAD {#testing_compiler_and_building_freecad}
+### testing compiler and building FreeCAD 
 
 requirements:
 
@@ -133,7 +133,7 @@ You can obtain these dlls from the other computer that has the Visual Studio you
 -   extract the files, and name them \"msvcp120d.dll\", \"msvcr120d.dll\"
 -   copy the files to libpack folder, into bin
 
-## Éviter de copier tous les fichiers libpack pour lancer FreeCAD {#éviter_de_copier_tous_les_fichiers_libpack_pour_lancer_freecad}
+## Éviter de copier tous les fichiers libpack pour lancer FreeCAD 
 
 exigences:
 

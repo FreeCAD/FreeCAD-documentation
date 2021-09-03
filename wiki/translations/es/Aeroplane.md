@@ -7,14 +7,14 @@
 |Files=
 }}
 
-## Primeros pasos {#primeros_pasos}
+## Primeros pasos 
 
-Trabajaremos en el <img alt="" src=images/Workbench_Part.svg  style="width:24px;">[Ambiente de trabajo Piezas](Part_Workbench/es.md) - selecciona el módulo de piezas en {{MenuCommand|Vista → Entorno → Pieza}} o desde el [Selector Ambiente de trabajos](Workbench_Selector/es.md).
+Trabajaremos en el <img alt="" src=images/Workbench_Part.svg  style="width:24px;">[Ambiente de trabajo Piezas](Part_Workbench/es.md) - selecciona el módulo de piezas en **Vista → Entorno → Pieza** o desde el [Selector Ambiente de trabajos](Workbench_Selector/es.md).
 
 -   Crea un nuevo documento vacío.
 -   Cambia a <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [vista isometrica](Std_ViewIsometric/es.md).
 -   Alternar la cruz del eje **ON** (a través del menú Vista).
--   Asegúrese de que tiene la [Combo Vista](Combo_view/es.md) mostrando (a través de {{MenuCommand|Vista → Vistas}}).
+-   Asegúrese de que tiene la [Combo Vista](Combo_view/es.md) mostrando (a través de **Vista → Vistas**).
 
 -   Crea un cilindro pulsando en el botón <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [Cilindro](Part_Cylinder/es.md).
 -   Selecciónelo haciendo clic en Cilindro en el visor de proyectos.
@@ -22,13 +22,13 @@ Trabajaremos en el <img alt="" src=images/Workbench_Part.svg  style="width:24px;
 
 Cambia la altura a 20mm. Deja el radio en 2mm.
 
-Haga clic en [Colocación](Placement/es.md) (fíjate en la pequeña **[+]**) y aparecerá un botón con tres puntos **...**. Haga clic en él. (También puede seleccionar: {{MenuCommand|Menú → Editar → Colocación}}) Aparecerá el visor de tareas.
+Haga clic en [Colocación](Placement/es.md) (fíjate en la pequeña **[+]**) y aparecerá un botón con tres puntos **...**. Haga clic en él. (También puede seleccionar: **Menú → Editar → Colocación**) Aparecerá el visor de tareas.
 
 <img alt="" src=images/HTCaeroplane01.png  style="width:300px;">
 
 Si no está familiarizado con los ejes XYZ, juegue con los números del cuadro de traducción. Cuando termine de jugar haga clic en el botón **Reset**.
 
-## Segundos pasos {#segundos_pasos}
+## Segundos pasos 
 
 <img alt="" src=images/HTCaeroplane02.png  style="width:400px;">
 

@@ -2,7 +2,7 @@
 
 The sidebar is an important navigation tool in the wiki world, see [Manual:Interface/Sidebar](http://www.mediawiki.org/wiki/Manual:Interface/Sidebar) for more information.
 
-## Prevedi Bočnu Traku {#prevedi_bočnu_traku}
+## Prevedi Bočnu Traku 
 
 The sidebar is now fully translatable with the [Translation extension](http://www.mediawiki.org/wiki/Help:Extension:Translate), which is available in all pages of the wiki.
 
@@ -14,7 +14,7 @@ You can go to the special page [Special:Translate/wiki-sidebar](Special:Translat
 
 There is a bug with the Download page. You can\'t redirect the link to \"Download/fr\", or \"Download/de\", etc. Instead, the link will point to the actual translation of \"Download\" in your language. The best way to deal with it is to create this new page and do a redirection to the right page. More about redirection on [Help:Editing](Help:Editing.md).
 
-## Important notes {#important_notes}
+## Important notes 
 
 Most of the time there will be two strings for each item in the sidebar.
 

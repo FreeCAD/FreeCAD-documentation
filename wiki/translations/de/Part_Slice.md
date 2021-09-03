@@ -64,7 +64,7 @@ Die Gesamtwirkung des Werkzeugs ist der von <img alt="" src=images/Part_BooleanF
 
 1.  Rufe den Part Zerschneiden Befehl auf mehrere Arten auf:
     -   Drücke die <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Zerschneiden](Part_Slice/de.md) Schaltfläche in der Part Werkzeugleiste
-    -   Verwende den {{MenuCommand|Part → Aufteilen → Zerschneiden}} Eintrag im Part Menü
+    -   Verwende den **Part → Aufteilen → Zerschneiden** Eintrag im Part Menü
 
 
 </div>
@@ -82,7 +82,7 @@ Ein parametrisches Scheibenobjekt wird erzeugt. Die Originalobjekte werden ausge
 
 <div class="mw-translate-fuzzy">
 
-### Baumstruktur der Scheiben {#baumstruktur_der_scheiben}
+### Baumstruktur der Scheiben 
 
 Der Zerschneidebefehl erzeugt ein in Scheiben geschnittenes Objekt. Im folgenden Beispiel wird ein Würfel durch eine Fläche zerschnitten.
 
@@ -110,7 +110,7 @@ Hinweisː Eigenschaften sind auf dem inneren Objekt der Scheiben zugänglich, ni
 
 ## Beispiel
 
-### Puzzle erstellen {#puzzle_erstellen}
+### Puzzle erstellen 
 
 
 <div class="mw-translate-fuzzy">

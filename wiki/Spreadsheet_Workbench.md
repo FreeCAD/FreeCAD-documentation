@@ -39,7 +39,7 @@ The <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Spre
 
 -   Context-menu of the spreadsheet rows and columns: right-click onto the header of a row or column to insert a new row above or a new column at the left, or to delete the current row/column. You can also select several rows or columns to delete them.<small>(v0.20)</small>  You can also select where the the new rows/columns will be inserted. Furthermore, to insert for example 3 new columns at once, select 3 columns and use the context-menu that will now offer to insert 3 columns.
 
-## Cell properties {#cell_properties}
+## Cell properties 
 
 The properties of a spreadsheet cell can be edited with a right-click on a cell. The following dialog pops up:
 
@@ -53,7 +53,7 @@ As indicated by the tabs, the following properties can be changed:
 -   Units: Display units for this cell. Please read the [Units](#Units.md) section below.
 -   Alias: Define an [alias](Spreadsheet_SetAlias.md) for this cell. This alias can be used in cell formulas and also in general [expressions](Expressions.md); see section [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) for more information.
 
-## Cell expressions {#cell_expressions}
+## Cell expressions 
 
 A spreadsheet cell may contain arbitrary text or an expression. Technically, expressions must start with an equals \'=\' sign. However, the spreadsheet attempts to be intelligent; if you enter what looks like an expression without the leading \'=\', one will be added automatically.
 
@@ -66,7 +66,7 @@ Cell expressions may contain numbers, functions, references to other cells, and 
 
 References to objects in the model are explained under [References to CAD-data](#References_to_CAD-data.md) below. Using spreadsheet cell values to define model properties are explained under [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) below. For more information on expressions and the available functions, see [Expressions](Expressions.md).
 
-## Interaction between spreadsheets and the CAD model {#interaction_between_spreadsheets_and_the_cad_model}
+## Interaction between spreadsheets and the CAD model 
 
 Data in the cells of a spreadsheet may be used in CAD model parameter expressions. Thus, a spreadsheet may be used as the source for parameter values used throughout a model, effectively gathering the values in one place. When values are changed in the spreadsheet, they are propagated throughout the model.
 
@@ -80,7 +80,7 @@ The label of a spreadsheet is automatically set to the name of the spreadsheet u
 
 FreeCAD checks for cyclic dependencies. See [Current limitations](Spreadsheet_Workbench#Current_limitations.md).
 
-### References to CAD-data {#references_to_cad_data}
+### References to CAD-data 
 
 As indicated above, one can reference data from the CAD model in spreadsheet expressions.
 
@@ -103,7 +103,7 @@ The following table shows some examples assuming the model has a feature named \
   Label of the Cube                            =MyCube.Label                  String: MyCube
   x-coordinate of center of mass of the Cube   =MyCube.Shape.CenterOfMass.x   x-coordinate in mm without units
 
-### Spreadsheet data in expressions {#spreadsheet_data_in_expressions}
+### Spreadsheet data in expressions 
 
 In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by position or by alias. Autocompletion is available for all forms of referencing.
 
@@ -139,7 +139,7 @@ While you may use the row and column number in an expression to reference a cell
 
 </div>
 
-### Complex models and recomputes {#complex_models_and_recomputes}
+### Complex models and recomputes 
 
 Editing a spreadsheet will trigger a recompute of the 3D model, even if the changes do not affect the model. For a complex model a recompute can take a long time, and having to wait after every single edit is of course quite annoying.
 
@@ -147,9 +147,9 @@ There are three solutions to deal with this:
 
 1.  Temporarily skip recomputes:
     -   In the [Tree view](Tree_view.md) right-click the <img alt="" src=images/Document.svg  style="width:24px;"> document that contains the spreadsheet.
-    -   Select the {{MenuCommand|Skip recomputes}} option from the context menu.
+    -   Select the **Skip recomputes** option from the context menu.
     -   There is a big disadvantage to this solution. New values entered in the spreadsheet will not be displayed until the document is recomputed. Instead `#PENDING` is shown.
-    -   You can either recompute manually, using the [Std Refresh](Std_Refresh.md) command, or disable {{MenuCommand|Skip recomputes}} when you are done editing.
+    -   You can either recompute manually, using the [Std Refresh](Std_Refresh.md) command, or disable **Skip recomputes** when you are done editing.
 2.  Use a macro to automatically skip recomputes while editing a spreadsheet:
     -   Download and run [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
     -   This solution saves a few steps compared to the first solution, but also has the mentioned disadvantage.
@@ -171,11 +171,11 @@ A dimensionless number cannot be changed to a number with a unit by the cell pro
 
 Occasionally it may be desirable to get rid of a dimension in an expression. This can be done by multiplying by 1 with a reciprocal unit.
 
-## Importing and exporting {#importing_and_exporting}
+## Importing and exporting 
 
-Sheets can be imported and exported to the [csv](https://en.wikipedia.org/wiki/Comma-separated_values) format which can also be read and written by most other spreadsheet applications such as Microsoft Excel or LibreOffice Calc. When importing files into FreeCAD, the delimiter (the character that is used to separate columns) must be the TAB character (this can be set when exporting from other applications). The import of a CSV-file is available from the menu {{MenuCommand|Spreadsheet → Import Spreadsheet}} or by clicking on the icon <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. This import function does not open Excel files or any other spreadsheet format.
+Sheets can be imported and exported to the [csv](https://en.wikipedia.org/wiki/Comma-separated_values) format which can also be read and written by most other spreadsheet applications such as Microsoft Excel or LibreOffice Calc. When importing files into FreeCAD, the delimiter (the character that is used to separate columns) must be the TAB character (this can be set when exporting from other applications). The import of a CSV-file is available from the menu **Spreadsheet → Import Spreadsheet** or by clicking on the icon <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. This import function does not open Excel files or any other spreadsheet format.
 
-Spreadsheets in Excel-format \"xlsx\" can be imported via the menu {{MenuCommand|File → Import...}}. Excel-spreadsheets can also be opened by clicking in the menu {{MenuCommand|File → Open...}} or by clicking on the icon <img alt="" src=images/Document-open.svg  style="width:24px;">. In these cases a new document with a spreadsheet inside is created. The following features are supported:
+Spreadsheets in Excel-format \"xlsx\" can be imported via the menu **File → Import...**. Excel-spreadsheets can also be opened by clicking in the menu **File → Open...** or by clicking on the icon <img alt="" src=images/Document-open.svg  style="width:24px;">. In these cases a new document with a spreadsheet inside is created. The following features are supported:
 
 -   all functions that are also available in the FreeCAD spreadsheet. Other functions give an error in the corresponding cell after the import.
 -   Alias names for cells
@@ -187,13 +187,13 @@ Other functionality is not imported into the FreeCAD spreadsheet. The Excel-impo
 
 To handle the page setup necessary for printing, FreeCAD spreadsheets are printed by inserting them into a [TechDraw Spreadsheet View](TechDraw_SpreadsheetView.md).
 
-## Current limitations {#current_limitations}
+## Current limitations 
 
 FreeCAD checks for cyclic dependencies. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets: one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
 
 When cells are copied, only the content (expression/value) is copied. The [Cell Properties](Spreadsheet_Workbench#Cell_Properties.md) described above are not copied.
 
-## Scripting basics {#scripting_basics}
+## Scripting basics 
 
  
 ```python

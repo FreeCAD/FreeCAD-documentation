@@ -11,9 +11,9 @@ The <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **
 
 ## Utilização
 
-1.  Select the {{MenuCommand|Utilities → <img src="images/Draft_ToggleContinueMode.svg" width=16px> Toggle continue mode}} option from the menu.
+1.  Select the **Utilities → <img src="images/Draft_ToggleContinueMode.svg" width=16px> Toggle continue mode** option from the menu.
 2.  Invoke a command that supports continue mode, [Draft Line](Draft_Line.md) or [Arch Wall](Arch_Wall.md) for example.
-3.  To toggle continue mode in the task panel of the command: press **T** or click the {{MenuCommand|Continue}} checkbox.
+3.  To toggle continue mode in the task panel of the command: press **T** or click the **Continue** checkbox.
 4.  Create your geometry.
 5.  Press **Esc** or the **Close** button to finish the command and switch off continue mode.
 

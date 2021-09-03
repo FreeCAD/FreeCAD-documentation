@@ -20,7 +20,7 @@ Cet outil mesure la distance entre deux éléments de topologie sélectionnés (
 1.  Sélectionnez une combinaison de deux éléments : sommets, arêtes, faces
 2.  Il existe plusieurs façons d\'appeler la commande :
     -   Appuyez sur le bouton **<img src=images/Part_Measure_Linear.svg style="width:16px"> '''Mesure linéaire'''**.
-    -   Utilisez l\'entrée {{MenuCommand|Mesure → Mesure linéaire}} dans le menu supérieur.
+    -   Utilisez l\'entrée **Mesure → Mesure linéaire** dans le menu supérieur.
 3.  Alternativement, la commande peut être lancée sans sélection préalable. Une boîte de dialogue de sélection s\'ouvre alors dans le [Panneau des tâches](Task_Panel/fr.md). Un widget Contrôle propose également des boutons pour réinitialiser la sélection, basculer l\'affichage des mesures dans la [vue 3D](3D_view/fr.md) et effacer toutes les mesures.
 4.  Les mesures sont automatiquement ignorées lors de la fermeture du document.
 

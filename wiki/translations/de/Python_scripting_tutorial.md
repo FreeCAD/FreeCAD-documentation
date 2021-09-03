@@ -24,16 +24,16 @@ In diesem Tutorial werden wir an ein paar einfachen Beispielen arbeiten, um dir 
 
 Bevor Du mit dem Python Skripting fortfährst, gehe zum {{MenuCommand/de|Bearbeiten → Einstellungen → Allgemein → Ausgabefenster}} und hake 2 Kästchen an:
 
--    {{MenuCommand|Interne Python Ausgabe auf Berichtsansicht umleiten}}.
+-    **Interne Python Ausgabe auf Berichtsansicht umleiten**.
 
--    {{MenuCommand|Interne Python Fehler auf Berichtsansicht umleiten}}.
+-    **Interne Python Fehler auf Berichtsansicht umleiten**.
 
-Dann gehe zu {{MenuCommand|Ansicht → Paneele}} und hake an:
+Dann gehe zu **Ansicht → Paneele** und hake an:
 
--    {{MenuCommand|Berichtsansicht}}
+-    **Berichtsansicht**
     
 
-## Python Code schreiben {#python_code_schreiben}
+## Python Code schreiben 
 
 Es gibt zwei einfache Wege, Python Code in FreeCAD zu schreiben: Über die Python Konsole (verfügbar im Menü Ansicht → Paneele → Python Konsole) oder über den Makro Editor (Werkzeuge → Makros). In der Konsole schreibst Du nacheinander Python Befehle, die ausgeführt werden, wenn Du die Eingabetaste drückst, während die Makros ein komplexeres Skript aus mehreren Zeilen enthalten können, das erst bei der Ausführung des Makros ausgeführt wird.
 
@@ -43,7 +43,7 @@ In diesem Tutorium kannst Du beide Methoden verwenden. Du kannst Kopieren/Einfü
 
 [Anfang](#top.md)
 
-## Erkunden von FreeCAD {#erkunden_von_freecad}
+## Erkunden von FreeCAD 
 
 Wir beginnen damit, ein neues leeres Dokument zu erstellen:
 
@@ -56,7 +56,7 @@ Wenn du dies in der FreeCAD Python Konsole eingibst, wirst du feststellen, dass 
 
 ![](images/Screenshot_classbrowser.jpg ) *Autovervollständigungsmechanismus der FreeCAD Pythonkonsole*
 
-Nun wird unser neues Dokument erstellt. Dies ist ähnlich wie das Drücken der **<img src="images/Std_New.svg" width=16px> [Std Neu](Std_New/de.md)** Schaltfläche in der Werkzeugleiste. Tatsächlich tun die meisten Schaltflächen in FreeCAD nichts anderes, als eine oder mehrere Zeilen Python Code auszuführen. Noch besser, du kannst eine Option in {{MenuCommand|Bearbeiten → Einstellungen → Allgemein → Makro}} auf {{MenuCommand|Zeige Skriptbefehle in der Python konsole}} setzen. Dadurch wird in der Konsole der gesamte Python Code ausgegeben, der ausgeführt wird, wenn fu Tasten drückst. Sehr nützlich, um zu lernen, wie man Aktionen in Python reproduziert.
+Nun wird unser neues Dokument erstellt. Dies ist ähnlich wie das Drücken der **<img src="images/Std_New.svg" width=16px> [Std Neu](Std_New/de.md)** Schaltfläche in der Werkzeugleiste. Tatsächlich tun die meisten Schaltflächen in FreeCAD nichts anderes, als eine oder mehrere Zeilen Python Code auszuführen. Noch besser, du kannst eine Option in **Bearbeiten → Einstellungen → Allgemein → Makro** auf **Zeige Skriptbefehle in der Python konsole** setzen. Dadurch wird in der Konsole der gesamte Python Code ausgegeben, der ausgeführt wird, wenn fu Tasten drückst. Sehr nützlich, um zu lernen, wie man Aktionen in Python reproduziert.
 
 Lass uns nun zu unserem Dokument zurückkehren und sehen, was wir mit ihm machen können:
 
@@ -79,7 +79,7 @@ Es geschieht nichts. Warum nicht? Weil FreeCAD für das große Ganze gemacht ist
 doc.recompute()
 ```
 
-Nun erschien unser Würfel. Viele der Schaltflächen, mit denen in FreeCAD Objekte hinzugefügt werden können, tun eigentlich zwei Dinge: das Objekt hinzufügen und neu berechnen. Wenn du die obige Option {{MenuCommand|Skriptbefehle in der Python Konsole anzeigen}} eingeschaltet hast, versuche, mit der GUI Schaltfläche eine Kugel hinzuzufügen. Du wirst sehen, wie die beiden Zeilen des Python Codes nacheinander ausgeführt werden.
+Nun erschien unser Würfel. Viele der Schaltflächen, mit denen in FreeCAD Objekte hinzugefügt werden können, tun eigentlich zwei Dinge: das Objekt hinzufügen und neu berechnen. Wenn du die obige Option **Skriptbefehle in der Python Konsole anzeigen** eingeschaltet hast, versuche, mit der GUI Schaltfläche eine Kugel hinzuzufügen. Du wirst sehen, wie die beiden Zeilen des Python Codes nacheinander ausgeführt werden.
 
 Lass uns nun den Inhalt unseres Würfels erkunden:
 
@@ -102,11 +102,11 @@ Dadurch wird die aktuelle Höhe unseres Würfels ausgegeben. Lass uns nun versuc
 box.Height = 5
 ```
 
-Wenn du dein Feld mit der Maus auswählst, siehst du, dass im [Eigenschaftseditor](Property_editor/de.md) auf dem {{MenuCommand|Daten}} Reiter unsere Eigenschaft **Höhe** erscheint. Alle Eigenschaften eines FreeCAD Objekts, die dort (und auch auf dem {{MenuCommand|Ansicht}} Reiter erscheinen, dazu später mehr), sind auch von Python direkt zugänglich, und zwar über ihren Namen, wie wir es mit der **Höhe** Eigenschaft getan haben. Versuche, die anderen Dimensionen des Würfels zu ändern.
+Wenn du dein Feld mit der Maus auswählst, siehst du, dass im [Eigenschaftseditor](Property_editor/de.md) auf dem **Daten** Reiter unsere Eigenschaft **Höhe** erscheint. Alle Eigenschaften eines FreeCAD Objekts, die dort (und auch auf dem **Ansicht** Reiter erscheinen, dazu später mehr), sind auch von Python direkt zugänglich, und zwar über ihren Namen, wie wir es mit der **Höhe** Eigenschaft getan haben. Versuche, die anderen Dimensionen des Würfels zu ändern.
 
 [Anfang](#top.md)
 
-## Vektoren und Platzierungen {#vektoren_und_platzierungen}
+## Vektoren und Platzierungen 
 
 [Vektoren](https://de.wikipedia.org/wiki/vektor) sind ein fester Bestandteil jeder 3D-Anwendung. Ein Vektor ist dabei eine Liste von Zahlen (x,y,z), die einen Ort im dreidimensionalen Raum beschreiben. Mit Vektoren sind verschiedene mathematische Operationen möglich, wie z.B. Addition, Subtraktion, Projektion (Skalarprodukt) und [vieles mehr](https://de.wikipedia.org/wiki/Vektorraum). In FreeCAD funktionieren Vektoren wie folgt:
 
@@ -135,7 +135,7 @@ Nun musst du einige wichtige Konzepte verstehen, bevor wir weiter kommen.
 
 [Anfang](#top.md)
 
-## App und GUI {#app_und_gui}
+## App und GUI 
 
 FreeCAD wurde von Anfang an als Kommandozeilen-Anwendung konzipiert, d.h. ohne notwendige Benutzeroberfläche. Als Folge davon ist fast alles zwischen einer \"geometrischen\" Komponente und einer \"visuellen\" Komponente aufgeteilt. Wenn man im Kommandozeilenmodus arbeitet, dann ist der geometrische Teil vorhanden, aber der visuelle Teil deaktiviert. Fast jedes Objekt in FreeCAD besteht deshalb aus zwei Teilen, einem *Object* und einem *ViewObject* (Objektansicht).
 
@@ -280,7 +280,7 @@ Qt ist ein sehr mächtiges Schnittstellensystem, das es dir erlaubt, sehr komple
 
 ## Makros
 
-Nun, da Du ein gutes Verständnis der Grundlagen hast, wo werden wir unsere Python Skripte aufbewahren und wie werden wir sie einfach von FreeCAD aus starten? Dafür gibt es einen einfachen Mechanismus, genannt [Makros](Macros/de.md). Ein Makro ist einfach ein Python Skript, das zu einer Werkzeugleiste hinzugefügt und per Mausklick gestartet werden kann. FreeCAD bietet dir einen einfachen Texteditor ({{MenuCommand|Makro → Makros → Erstellen}}), in dem du Skripte schreiben oder einfügen kannst. Sobald das Skript fertig ist, verwende {{MenuCommand|Werkzeuge → Anpassung → Makros}}, um eine Schaltfläche dafür zu definieren, die zu den Werkzeugleisten hinzugefügt werden kann.
+Nun, da Du ein gutes Verständnis der Grundlagen hast, wo werden wir unsere Python Skripte aufbewahren und wie werden wir sie einfach von FreeCAD aus starten? Dafür gibt es einen einfachen Mechanismus, genannt [Makros](Macros/de.md). Ein Makro ist einfach ein Python Skript, das zu einer Werkzeugleiste hinzugefügt und per Mausklick gestartet werden kann. FreeCAD bietet dir einen einfachen Texteditor (**Makro → Makros → Erstellen**), in dem du Skripte schreiben oder einfügen kannst. Sobald das Skript fertig ist, verwende **Werkzeuge → Anpassung → Makros**, um eine Schaltfläche dafür zu definieren, die zu den Werkzeugleisten hinzugefügt werden kann.
 
 Jetzt bist Du bereit für eine vertieftere FreeCAD Skripterstellung. Gehe weiter zum [Verteiler für Erfahrene Anwender](Power_users_hub/de.md)!
 

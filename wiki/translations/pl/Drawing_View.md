@@ -20,7 +20,7 @@ Obiekt **Widok** jest dodawany do obiektu **Strona** w drzewie projektu. Dla kol
 
 Jeśli tylko obiekt jest wybrany w drzewie projektu, widok jest dodawany do pierwszej strony projektu. Jeśli masz wiele stron w projekcie zaznacz obiekt oraz stronę, do której ma zostać dodany. Następnie kliknij na ikonę, aby dodać widok do wybranej strony.
 
-### Modyfikacja istniejącego widoku {#modyfikacja_istniejącego_widoku}
+### Modyfikacja istniejącego widoku 
 
 Rozwiń obiekt Strona w drzewie projektu i wybierz widok. Jego parametry można edytować w zakładce *Dane* Widoku właściwości.
 
@@ -51,7 +51,7 @@ Rozwiń obiekt Strona w drzewie projektu i wybierz widok. Jego parametry można 
 
 -    {{PropertyData/pl|Pokaż linie gładkie}}: włącza lub wyłącza widoczność linii gładkich wybierając `True` lub {{False}}. Gładkie linie są również nazywane krawędziami styczności. Krawędzie te wskazują zmiany powierzchni pomiędzy powierzchniami stycznymi.
 
-### Kreator widoków rysunków {#kreator_widoków_rysunków}
+### Kreator widoków rysunków 
 
 Aby automatycznie wygenerować arkusz rysunkowy z widokami standardowymi, użyj [Makrodefinicja: Automatyczne rysowanie](Macro_Automatic_drawing/pl.md). 
 

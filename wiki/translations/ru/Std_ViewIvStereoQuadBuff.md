@@ -13,11 +13,11 @@ The **Std ViewIvStereoQuadBuff** command changes the active [3D view](3D_view.md
 
 ## Применение
 
-1.  Select the {{MenuCommand|View → Stereo → <img src="images/Std_ViewIvStereoQuadBuff.svg" width=16px> Stereo quad buffer}} option from the menu.
+1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoQuadBuff.svg" width=16px> Stereo quad buffer** option from the menu.
 
 ## Настройки
 
--   Расстояние между глаз может быть изменено в настройках: {{MenuCommand|Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима}}. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
+-   Расстояние между глаз может быть изменено в настройках: **Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима**. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
 
 ## Scripting
 

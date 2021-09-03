@@ -6,7 +6,7 @@ Questo è un esempio di [creazione di dialoghi](Dialog_creation/it.md) con [PySi
 
 In questo esempio, l\'intera interfaccia è definita in [Python](Python/it.md). Sebbene ciò sia possibile per interfacce di piccole dimensioni, per le interfacce più grandi si raccomanda di creare i file {{FileName|.ui}} tramite Qt Designer e caricarli nel programma. Vedere [Creazione di una interfaccia con dei file UI](Interface_creation_with_UI_files/it.md).
 
-## Finestra di dialogo per scrivere in un file {#finestra_di_dialogo_per_scrivere_in_un_file}
+## Finestra di dialogo per scrivere in un file 
 
 Codice completo: 
 ```python
@@ -43,7 +43,7 @@ else:                                                                         # 
 
 ```
 
-## Finestra di dialogo per leggere un file {#finestra_di_dialogo_per_leggere_un_file}
+## Finestra di dialogo per leggere un file 
 
 Codice completo: 
 ```python

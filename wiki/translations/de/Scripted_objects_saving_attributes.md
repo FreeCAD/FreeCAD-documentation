@@ -9,7 +9,7 @@
 
 Attribute der Klasse, die zur Erstellung des Objekts verwendet wurde, können ebenfalls gespeichert, d.h. \"serialisiert\" werden. Dies kann weiter durch die `__getstate__` und `__setstate__` Methoden der Klasse gesteuert werden.
 
-## Speichern aller Attribute {#speichern_aller_attribute}
+## Speichern aller Attribute 
 
 Standardmäßig werden in einer Objektklasse die Attribute aus dem `__dict__` Wörterbuch der Klasse gespeichert.
 
@@ -66,7 +66,7 @@ Wenn wir die Datei erneut öffnen, können wir das Wörterbuch der Klasse des Ob
 
 Wir sehen, dass alle Attribute, die in der Klasse mit `self` beginnen, gespeichert wurden. Diese können von unterschiedlichem Typ sein, einschließlich Zeichenfolge, Liste, Fließkommazahl und Wörterbuch. Das ursprüngliche Tupel für `self.color` wurde in eine Liste konvertiert, aber ansonsten wurden alle Attribute gleich geladen.
 
-## Speichern besonderer Attribute {#speichern_besonderer_attribute}
+## Speichern besonderer Attribute 
 
 Wir können eine Klasse ähnlich der ersten definieren, die bestimmte Attribute zum Speichern implementiert. 
 ```python
@@ -117,7 +117,7 @@ The original tuple for `self.color` was converted to a list, but otherwise the i
 
 ## Usage
 
-### Identifying the type {#identifying_the_type}
+### Identifying the type 
 
 Normally, [scripted objects](scripted_objects.md) should use [properties](property.md) to store information, as these are automatically restored when the document is opened.
 
@@ -141,7 +141,7 @@ class DraftObject:
 
 All objects have a `TypeId` property, but for [scripted objects](scripted_objects.md) this property is not useful, as it always refers to the parent C++ class, for example, [`Part::Part2DObjectPython`](Part_Part2DObject.md) or [`Part::FeaturePython`](Part_Feature.md). Therefore, having this additional `Proxy.Type` attribute in the class is useful to treat each object in a particular way.
 
-### Migrating the object {#migrating_the_object}
+### Migrating the object 
 
 Version information can be stored inside the class in order to verify the origin of an object.
 

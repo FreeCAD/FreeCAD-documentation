@@ -15,9 +15,9 @@ Der Befehl **Std AnsichtLinksDrehen** dreht die Kamera in der aktiven [3D Ansich
 ## Anwendung
 
 1.  Es gibt verschiedene Wege, den Befehl aufzurufen:
-    -   Wähle die {{MenuCommand|Ansicht → Standardansichten → <img src="images/Std_ViewRotateLeft.svg" width=16px> Links drehen}} Option aus dem Menü.
-    -   Wähle die {{MenuCommand|Standardansichten → <img src="images/Std_ViewRotateLeft.svg" width=16px> Links drehen}} Option aus dem Menü.
-    -   Wähle die {{MenuCommand|Standardansichten → <img src="images/Std_ViewRotateLeft.svg" width=16px> Links drehen}} aus dem [3D Ansicht](3D_view/de.md) Kontextmenü.
+    -   Wähle die **Ansicht → Standardansichten → <img src="images/Std_ViewRotateLeft.svg" width=16px> Links drehen** Option aus dem Menü.
+    -   Wähle die **Standardansichten → <img src="images/Std_ViewRotateLeft.svg" width=16px> Links drehen** Option aus dem Menü.
+    -   Wähle die **Standardansichten → <img src="images/Std_ViewRotateLeft.svg" width=16px> Links drehen** aus dem [3D Ansicht](3D_view/de.md) Kontextmenü.
     -   Verwende den Tastenkürzel: **Umschalten**+**Links**.
 
 ## Skripten

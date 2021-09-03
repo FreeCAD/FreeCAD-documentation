@@ -5,7 +5,7 @@ Questa è una lista estesa, ma non completa, delle funzioni (feature) già imple
 
 {{TOCright}}
 
-## Note di rilascio {#note_di_rilascio}
+## Note di rilascio 
 
 -   [Note di rilascio della versione 0.11](Release_notes_011/it.md) - Marzo 2011
 -   [Note di rilascio della versione 0.12](Release_notes_012/it.md) - Dicembre 2011
@@ -18,7 +18,7 @@ Questa è una lista estesa, ma non completa, delle funzioni (feature) già imple
 -   [Note di rilascio della versione 0.19](Release_notes_0.19/it.md) - Marzo 2021
 -   [Note di rilascio della versione 0.20](Release_notes_0.20/it.md) - TBD
 
-## Funzioni principali {#funzioni_principali}
+## Funzioni principali 
 
 
 <div class="mw-translate-fuzzy">
@@ -51,7 +51,7 @@ Questa è una lista estesa, ma non completa, delle funzioni (feature) già imple
 
 <div class="mw-translate-fuzzy">
 
-## Funzioni Generali {#funzioni_generali}
+## Funzioni Generali 
 
 
 </div>
@@ -118,13 +118,13 @@ Questa è una lista estesa, ma non completa, delle funzioni (feature) già imple
 
 -   **installatore MSI modulare**. L\'installatore di FreeCAD garantisce una installazione flessibile in ambienti Microsoft Windows®. Sono disponibili anche dei pacchetti specifici per Ubuntu.
 
-## Funzioni in fase di sviluppo {#funzioni_in_fase_di_sviluppo}
+## Funzioni in fase di sviluppo 
 
 -   ![](images/Feature-assembly.jpg ) Un modulo di [Assemblaggio](Assembly_project/it.md) che permetta di lavorare contemporaneamente su diverse forme, documenti, file e relazioni\...
 
 Questo modulo è attualmente in fase di progettazione.
 
-## Ambienti complementari {#ambienti_complementari}
+## Ambienti complementari 
 
 Alcuni utenti esperti hanno creato vari [ambienti complementari](external_workbenches/it.md) personalizzati.
 

@@ -51,7 +51,7 @@ Apoi evidențiați cele două blocuri ale arborelui și creați un obiect Boolea
 
 <div class="mw-translate-fuzzy">
 
-### Regiunile de plasă și ochiurile de plasă {#regiunile_de_plasă_și_ochiurile_de_plasă}
+### Regiunile de plasă și ochiurile de plasă 
 
 De la masa de lucru FEM vom crea un container de analiză. Aceasta va conține toate definițiile necesare pentru analiza CalculiX și rezultatele acesteia. Rețineți că acest container de analiză trebuie activat (faceți clic dreapta și selectați \"Activare analiză\") ori de câte ori reîncărcați fișierul sau după trecerea de la alte analize. Pentru a porni procesul de întindere, evidențiați CompoundFilter în Arborele Obiect și activați dialogul de plasare \"Mesh\> FEM mesh from shape by Gmsh\". Lăsați dialogul făcând clic pe OK.
 
@@ -79,7 +79,7 @@ Notă2: Dacă aveți dificultăți la selectarea \"CompoundFilter: Solid2\", est
 
 <div class="mw-translate-fuzzy">
 
-### Material Assignment {#material_assignment}
+### Material Assignment 
 
 
 </div>
@@ -101,7 +101,7 @@ Repetați procedura de mai sus pentru Core (\"CompoundFilter: Solid2\") cu ajuto
 
 <div class="mw-translate-fuzzy">
 
-### Sliding Support {#sliding_support}
+### Sliding Support 
 
 
 </div>
@@ -119,7 +119,7 @@ Pentru a crea o condiție \"Shear Simple\" pentru blocul compozit, deformările 
 
 <div class="mw-translate-fuzzy">
 
-### Fixed Nodes {#fixed_nodes}
+### Fixed Nodes 
 
 
 </div>
@@ -131,7 +131,7 @@ Pentru a preveni mișcarea rigidă a corpului în planul de alunecare, trebuie e
 
 <div class="mw-translate-fuzzy">
 
-### Forțe de forfecare {#forțe_de_forfecare}
+### Forțe de forfecare 
 
 Ultimul pas în definirea Analizei este aplicarea încărcărilor. Pentru a crea o condiție simplă de forfecare, se aplică un set de sarcini de forfecare, după cum se arată mai jos. Fiecare sarcină este aleasă de 1000 N și având în vedere direcțiile de aplicare, forța și momentul de echilibru sunt atinse pentru toate translațiile și gradele de libertate rotative. În FC acest lucru necesită adăugarea a patru obiecte FemConstraintForce (Model\> Constrângeri mecanice\> Forța de constrângere) - câte una pentru fiecare față. Cu prima casetă de dialog, apăsați butonul Adăugare referință și apoi selectați fața pe care se va aplica condiția de margine (Notă: aceasta este o secvență diferită față de cea cu FemConstraintDisplacement). Implicit, aceasta creează un set de forțe perpendiculare pe față (adică o forță normală). Pentru a schimba această forță la o forță de forfecare, apăsați butonul de direcție și selectați o margine cub care merge în direcția dorită. Dacă forța rezultată indică o direcție opusă a ceea ce este necesar, apoi selectați butonul radio pentru \"Direcția inversă\".
 
@@ -143,7 +143,7 @@ Ultimul pas în definirea Analizei este aplicarea încărcărilor. Pentru a crea
 
 <div class="mw-translate-fuzzy">
 
-### CalculiX Analysis {#calculix_analysis}
+### CalculiX Analysis 
 
 
 </div>
@@ -159,7 +159,7 @@ După aceea, analiza poate fi pornită apăsând butonul RunCalculiX. Dacă totu
 
 <div class="mw-translate-fuzzy">
 
-### CalculiX Results {#calculix_results}
+### CalculiX Results 
 
 
 </div>
@@ -183,7 +183,7 @@ Din rezultat este clar că miezul rămâne în mare parte nedeformat și ajută 
 
 <div class="mw-translate-fuzzy">
 
-### Further work {#further_work}
+### Further work 
 
 
 </div>

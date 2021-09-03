@@ -11,7 +11,7 @@ FreeCAD would not be what it is without the generous contributions of many peopl
 
 ### Development
 
-#### Project managers {#project_managers}
+#### Project managers 
 
 Lead developers of the FreeCAD project: 
 
@@ -21,7 +21,7 @@ Lead developers of the FreeCAD project:
 
 
 
-#### Main developers {#main_developers}
+#### Main developers 
 
 People who work regularly on the FreeCAD code (retrieved from <https://github.com/FreeCAD/FreeCAD/graphs/contributors>): 
 
@@ -51,7 +51,7 @@ People who work regularly on the FreeCAD code (retrieved from <https://github.co
 
 
 
-#### Other coders {#other_coders}
+#### Other coders 
 
 Other people who contributed code to the FreeCAD project: 
 
@@ -103,7 +103,7 @@ Companies which donated code, assets or developer time:
 
 
 
-### Forum moderators {#forum_moderators}
+### Forum moderators 
 
 People in charge of the [FreeCAD forum](http://forum.freecadweb.org) (retrieved from <http://forum.freecadweb.org/memberlist.php?mode=team>): 
 
@@ -155,7 +155,7 @@ People from the community who put a lot of efforts in helping the FreeCAD projec
 
 
 
-### Documentation writers {#documentation_writers}
+### Documentation writers 
 
 People who wrote the documentation on this [wiki](Main_Page.md): 
 
@@ -240,7 +240,7 @@ People who helped to translate the FreeCAD application (retrieved from <https://
 
 
 
-### Addons developers {#addons_developers}
+### Addons developers 
 
 Developers of FreeCAD addons (retrieved from <https://github.com/FreeCAD/FreeCAD-addons>): 
 

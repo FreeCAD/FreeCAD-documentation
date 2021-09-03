@@ -18,7 +18,7 @@ Tworzy prostą parametryczną sferę o parametrach położenie, kąt1, kąt2, k�
 1.  Przełącz się na środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Część](Part_Workbench/pl.md)
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Part_Sphere.svg" width=16px> Utwórz sferę** na pasku narzędzi.
-    -   Wybierz polecenie {{MenuCommand|Część → Bryła pierwotna → <img src="images/Part_Sphere.svg" width=16px> Sfera}} z paska menu.
+    -   Wybierz polecenie **Część → Bryła pierwotna → <img src="images/Part_Sphere.svg" width=16px> Sfera** z paska menu.
 
 **Wynik:** Sfera zostanie umieszczona w odniesieniu położenia (punkt 0,0,0) podczas tworzenia. Parametry kąta pozwalają na utworzenie części sfery zamiast pełnej sfery *(domyślnie są ustawione na 360°)*.
 

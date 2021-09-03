@@ -22,7 +22,7 @@ La commande Tube permet d\'insérer un tube dans le document actif. Le tube est 
 Pour créer un tube :
 
 -   appuyez sur le bouton **<img src="images/Part_Tube.svg" width=16px> Créer un tube** dans la barre d\'outils
--   utilisez le menu {{MenuCommand|Pièce → Primitives → Créer un tube}}
+-   utilisez le menu **Pièce → Primitives → Créer un tube**
 
 Pour éditer le tube
 

@@ -14,7 +14,7 @@ The **Std ViewBoxZoom** command zooms in on a user defined rectangular area, a b
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|View → Zoom → <img src="images/Std_ViewBoxZoom.svg" width=16px> Box zoom}} option from the menu.
+    -   Select the **View → Zoom → <img src="images/Std_ViewBoxZoom.svg" width=16px> Box zoom** option from the menu.
     -   Use the keyboard shortcut: **Ctrl**+**B**.
 2.  Drag a rectangle in the 3D view.
 

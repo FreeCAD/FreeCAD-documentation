@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Intégration continue {#intégration_continue}
+## Intégration continue 
 
 Actuellement, le dépôt FreeCAD sur GitHub déclenchera une construction sur les deux systèmes de CI ci-dessous. Avec ces systèmes, les principaux systèmes d\'exploitation sont couverts : Linux, MacOSX et Windows. Les CIs peuvent également être utilisés pour exécuter des [tests unitaires](Testing/fr.md).
 
@@ -22,7 +22,7 @@ Actuellement, le dépôt FreeCAD sur GitHub déclenchera une construction sur le
 
 \- Si vous ajoutez [skip ci] ou [ci skip] à un git commit, cela annulera la compilation du CI.
 
-### Liens pertinents {#liens_pertinents}
+### Liens pertinents 
 
 -   [LGTM](LGTM/fr.md)
 

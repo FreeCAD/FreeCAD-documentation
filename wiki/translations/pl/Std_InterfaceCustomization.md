@@ -16,8 +16,8 @@ Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [Qt](http://en.w
 
 1.  Polecenia dostępne w oknie dialogowym Dostosowywania zależą od aktywnych programów roboczych, które zostały załadowane w bieżącej sesji programu FreeCAD. Należy więc najpierw załadować wszystkie programy, do których chcemy mieć dostęp.
 2.  Istnieje kilka sposobów wywołania polecenia <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std: Dostosuj](Std_DlgCustomize/pl.md):
-    -   Wybierz polecenie z menu {{MenuCommand|Przybory → <img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj...}}.
-    -   Kliknij prawym przyciskiem myszy na obszarze paska narzędzi i wybierz z menu kontekstowego {{MenuCommand|<img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj...}}.
+    -   Wybierz polecenie z menu **Przybory → <img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj...**.
+    -   Kliknij prawym przyciskiem myszy na obszarze paska narzędzi i wybierz z menu kontekstowego **<img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj...**.
 3.  Otworzy się okno dialogowe Dostosuj\... Więcej informacji można znaleźć w rozdziale [Opcje](#Opcje.md).
 4.  Przycisk **Pomocy** nie działa w tym momencie.
 5.  Naciśnij przycisk **Zamknij**, aby zamknąć okno dialogowe.
@@ -32,7 +32,7 @@ W oknie dialogowym Dostosuj dostępne są następujące zakładki:
 
 Na tej zakładce można przeglądać dostępne polecenia.
 
-#### Przegląd poleceń {#przegląd_poleceń}
+#### Przegląd poleceń 
 
 1.  Wybierz kategorię komend w panelu *\'Kategoria* po lewej stronie. Niektóre kategorie odpowiadają wpisom w menu.
 2.  Narzędzia dostępne w wybranej kategorii są pokazane w panelu po prawej stronie.
@@ -47,7 +47,7 @@ Na tej zakładce można przeglądać dostępne polecenia.
 
 Na tej karcie można zdefiniować własne skróty klawiaturowe. W zakładce [Makrodefinicje](#Makrodefinicje.md) można zdefiniować skróty dla poleceń makro.
 
-#### Dodaj własny skrót {#dodaj_własny_skrót}
+#### Dodaj własny skrót 
 
 1.  Wybierz kategorię poleceń z listy rozwijanej **Kategoria**.
 2.  Wybierz polecenie z panelu **Komendy**.
@@ -57,17 +57,17 @@ Na tej karcie można zdefiniować własne skróty klawiaturowe. W zakładce [Mak
 6.  Naciśnij przycisk **Przypisz**, aby przypisać nowy skrót.
 7.  Naciśnij przycisk **Wyczyść** żeby usunąć wprowadzony skrót. Spowoduje to również usunięcie zawartości pola **Bieżący skrót**. Należy pamiętać, że domyślne skróty nie są usuwane na stałe. Zostaną one przywrócone po ponownym uruchomieniu FreeCAD.
 
-#### Usuń własny skrót {#usuń_własny_skrót}
+#### Usuń własny skrót 
 
 1.  Wybierz kategorię polecenia z listy rozwijanej **Kategoria**.
 2.  Wybierz polecenie z panelu **Polecenia**.
 3.  Naciśnij przycisk **Reset**.
 
-#### Usuń wszystkie własne skróty {#usuń_wszystkie_własne_skróty}
+#### Usuń wszystkie własne skróty 
 
 1.  Naciśnij przycisk **Zresetuj wszystko**
 
-#### Uwagi (Klawiatura) {#uwagi_klawiatura}
+#### Uwagi (Klawiatura) 
 
 -   Skróty działają tylko wtedy, gdy ich polecenia pojawiają się w standardowym menu lub w menu Środowiska pracy, które zostało załadowane w bieżącej sesji programu FreeCAD. Oraz gdy ich polecenia pojawiają się na widocznym pasku narzędzi.
 
@@ -76,75 +76,75 @@ Na tej karcie można zdefiniować własne skróty klawiaturowe. W zakładce [Mak
 
 [na początek strony](#top.md)
 
-### Środowiska pracy {#środowiska_pracy}
+### Środowiska pracy 
 
 ![](images/Std_DlgCustomize_tab_Workbenches.png ) *Zakładka Środowiska pracy*
 
 Na tej zakładce można zmienić listę [Wybór środowiska pracy](Std_Workbench/pl.md). Lista **Aktywowane stanowiska pracy** pokazuje stanowiska pracy, które pojawią się w selektorze Środowisk pracy
 
-#### Wyłączenie Środowiska pracy {#wyłączenie_środowiska_pracy}
+#### Wyłączenie Środowiska pracy 
 
 1.  Wybierz Środowisko pracy na liście **Włączone stanowiska pracy**.
 2.  Naciśnij przycisk **<img src="images/Button_left.svg" width=16px>**.
 3.  Środowisko pracy zostanie przeniesione na listę **Nieaktywne stanowiska pracy**.
 
-#### Ponowne włączenie Środowiska pracy {#ponowne_włączenie_środowiska_pracy}
+#### Ponowne włączenie Środowiska pracy 
 
 1.  Wybierz Środowisko pracy na liście **Wyłączone stanowiska pracy**.
 2.  Naciśnij przycisk **<img src="images/Button_right.svg" width=16px>**.
 3.  Środowisko pracy zostanie przeniesione na listę **Włączone Środowiska pracy**.
 
-#### Ponowne włączenie wszystkich Środowisk pracy {#ponowne_włączenie_wszystkich_środowisk_pracy}
+#### Ponowne włączenie wszystkich Środowisk pracy 
 
 1.  Naciśnij przycisk **<img src="images/Button_add_all.svg" width=16px>**.
 
-#### Zmiana pozycji Środowiska pracy {#zmiana_pozycji_środowiska_pracy}
+#### Zmiana pozycji Środowiska pracy 
 
 1.  Wybierz Środowisko pracy na liście **Włączone Środowiska pracy**.
 2.  Naciśnij przycisk **<img src="images/Button_up.svg" width=16px>** lub **<img src="images/Button_down.svg" width=16px>**.
 3.  Opcjonalnie powtarzaj to do momentu, aż Środowisko pracy znajdzie się we właściwej pozycji.
 
-#### Sortowanie Środowisk pracy w kolejności alfabetycznej {#sortowanie_środowisk_pracy_w_kolejności_alfabetycznej}
+#### Sortowanie Środowisk pracy w kolejności alfabetycznej 
 
 1.  Naciśnij przycisk **<img src="images/Button_sort.svg" width=16px>**.
 
 [na początek strony](#top.md)
 
-### Paski narzędzi {#paski_narzędzi}
+### Paski narzędzi 
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) *Zakładka Paski narzędzi*
 
 Na tej karcie można tworzyć i modyfikować własne paski narzędzi.
 
-#### Wybierz Środowisko pracy {#wybierz_środowisko_pracy}
+#### Wybierz Środowisko pracy 
 
 1.  Na liście rozwijanej po prawej stronie wybierz Środowisko pracy, którego własne paski narzędziowe chcesz zmodyfikować. Opcja {{Value|Global}} jest przeznaczona dla niestandardowych pasków narzędzi, które powinny być dostępne we wszystkich Środowiskach pracy.
 
-#### Tworzenie paska narzędzi {#tworzenie_paska_narzędzi}
+#### Tworzenie paska narzędzi 
 
 1.  Naciskaj przycisk **Nowy...**
 2.  Wpisz nazwę w otwierającym się oknie dialogowym.
 3.  Naciśnij przycisk **OK**.
 4.  W panelu po prawej stronie pojawi się nowy pasek narzędzi.
 
-#### Zmiana nazwy paska narzędzi {#zmiana_nazwy_paska_narzędzi}
+#### Zmiana nazwy paska narzędzi 
 
 1.  Wybierz pasek narzędzi w panelu po prawej stronie.
 2.  Wciśnij przycisk **Zmień nazwę...**.
 3.  Wprowadź nową nazwę w otwartym oknie dialogowym.
 4.  Naciśnij przycisk **OK**.
 
-#### Usuwanie paska narzędzi {#usuwanie_paska_narzędzi}
+#### Usuwanie paska narzędzi 
 
 1.  Wybierz pasek narzędzi w panelu po prawej stronie.
 2.  Wciśnij przycisk **Skasuj**.
 
-#### Wyłączenie paska narzędzi {#wyłączenie_paska_narzędzi}
+#### Wyłączenie paska narzędzi 
 
 1.  Usuń zaznaczenie pola wyboru z przodu nazwy paska narzędzi w panelu po prawej stronie.
 2.  Wyłączony pasek narzędzi będzie niewidoczny w interfejsie FreeCAD.
 
-#### Dodawanie polecenia {#dodawanie_polecenia}
+#### Dodawanie polecenia 
 
 1.  Wymagany jest co najmniej jeden niestandardowy pasek narzędzi. Zobacz [Tworzenie paska narzędzi](#Tworzenie_paska_narz.C4.99dzi.md).
 2.  Wybierz odpowiedni pasek narzędzi w panelu po prawej stronie. Jeśli nie zostanie wybrany żaden pasek narzędzi, polecenie zostanie dodane do pierwszego paska narzędzi na liście.
@@ -153,20 +153,20 @@ Na tej karcie można tworzyć i modyfikować własne paski narzędzi.
 5.  Lub wybierz \'\', aby dodać separator *(linię pomiędzy dwoma przyciskami paska narzędzi)*.
 6.  Naciśnij przycisk **<img src="images/Button_right.svg" width=16px>**.
 
-#### Usuwanie polecenia {#usuwanie_polecenia}
+#### Usuwanie polecenia 
 
 1.  W razie potrzeby, rozwiń pasek narzędzi w panelu po prawej stronie.
 2.  Wybierz polecenie.
 3.  Naciśnij przycisk **<img src="images/Button_left.svg" width=16px>**.
 
-#### Zmiana pozycji polecenia {#zmiana_pozycji_polecenia}
+#### Zmiana pozycji polecenia 
 
 1.  W razie potrzeby, rozwiń pasek narzędzi w panelu po prawej stronie.
 2.  Wybierz polecenie
 3.  Naciśnij przycisk **<img src="images/Button_up.svg" width=16px>** lub **<img src="images/Button_down.svg" width=16px>**.
 4.  Opcjonalnie powtarzaj to do momentu, aż polecenie znajdzie się we właściwej pozycji.
 
-#### Uwagi (Paski narzędzi) {#uwagi_paski_narzędzi}
+#### Uwagi (Paski narzędzi) 
 
 -   Paski narzędzi należące do aktualnego stanowiska pracy są natychmiast aktualizowane, ale po wyłączeniu/ ponownym włączeniu paska narzędzi konieczna jest zmiana stanowiska pracy (przełączenie na inne stanowisko pracy, a następnie ponowne jego włączenie).
 -   Do aktualizacji globalnych pasków narzędzi konieczna jest zmiana stanowiska pracy (jeżeli dodano lub usunięto polecenia) lub ponowny start (jeżeli zmieniono kolejność pasków narzędzi lub zmieniono nazwę paska narzędzi).
@@ -185,7 +185,7 @@ Jeśli pobierasz makro z <img alt="" src=images/Std_AddonMgr.svg  style="width:1
 
 Jeśli chcesz korzystać z makrodefinicji pobranej z innego źródła, będziesz musiał zainstalować ją ręcznie. Zobacz temat [Jak zainstalować makrodefinicje](How_to_install_macros/pl.md) aby uzyskać więcej informacji.
 
-#### Dodawanie makropolecenie {#dodawanie_makropolecenie}
+#### Dodawanie makropolecenie 
 
 1.  Na liście rozwijanej **Makro** wybierz makro.
 2.  Wprowadź **Tekst menu**. Będzie to nazwa używana do identyfikacji polecenia makra i pojawi się również na pasku narzędzi, jeśli nie będzie ikony.
@@ -202,12 +202,12 @@ Jeśli chcesz korzystać z makrodefinicji pobranej z innego źródła, będziesz
 9.  Polecenie nowej makrodefinicji pojawi się w panelu po lewej stronie.
 10. Polecenie utworzonej makrodefinicji można teraz wybrać na karcie [Paski narzędzi](#Paski_narzędzi.md).
 
-#### Usuwanie makropolecenia {#usuwanie_makropolecenia}
+#### Usuwanie makropolecenia 
 
 1.  Wybierz makropolecenie w panelu po prawej stronie.
 2.  Wciśnij przycisk **Skasuj**.
 
-#### Modyfikacja makropolecenia {#modyfikacja_makropolecenia}
+#### Modyfikacja makropolecenia 
 
 1.  Dwukrotnie kliknij na polecenie makra w panelu po lewej stronie.
 2.  Dokonaj wymaganych zmian. Zauważ, że nie można usunąć ikony, można ją tylko wymienić.
@@ -215,13 +215,13 @@ Jeśli chcesz korzystać z makrodefinicji pobranej z innego źródła, będziesz
 
 [na początek strony](#top.md)
 
-### Spaceball ruchy {#spaceball_ruchy}
+### Spaceball ruchy 
 
 Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz: [urządzenia wejściowe 3Dconnexion](3Dconnexion_input_devices.md).
 
 [na początek strony](#top.md)
 
-### Spaceball przyciski {#spaceball_przyciski}
+### Spaceball przyciski 
 
 Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz: [urządzenia wejściowe 3Dconnexion](3Dconnexion_input_devices.md).
 
@@ -247,7 +247,7 @@ Aby uzyskać więcej szczegółów na temat dostosowywania motywu, zobacz stron�
 
 Dodatki oferują jeszcze jeden sposób na dostosowanie interfejsu użytkownika. Poniżej znajduje się kilka dodatków stworzonych przez użytkowników w społeczności FreeCAD. Można je pobrać poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Menadżer dodatków](Std_AddonMgr/pl.md) *(uwaga: są one wymienione w zakładce Środowiska pracy)*.
 
-### Menu kostki nawigacyjnej {#menu_kostki_nawigacyjnej}
+### Menu kostki nawigacyjnej 
 
 -   repozytorium Github: <https://github.com/triplus/CubeMenu>
 
@@ -255,7 +255,7 @@ Dodatki oferują jeszcze jeden sposób na dostosowanie interfejsu użytkownika. 
 
 -   repozytorium Github: <https://github.com/triplus/Glass>
 
-### Zestawy ikon {#zestawy_ikon}
+### Zestawy ikon 
 
 -   repozytorium Github: <https://github.com/triplus/IconThemes>
 

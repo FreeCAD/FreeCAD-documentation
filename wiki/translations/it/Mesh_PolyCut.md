@@ -17,26 +17,26 @@ Il comando **Taglia la mesh** taglia intere facce da oggetti mesh.
 2.  Selezionare uno o più oggetti mesh.
 3.  Esistono diversi modi per richiamare il comando:
     -   Premere il pulsante **<img src="images/Mesh_PolyCut.svg" width=16px> [Taglia la mesh](Mesh_PolyCut/it.md)**.
-    -   Selezionare l\'opzione {{MenuCommand|Meshes → Taglio → <img src="images/Mesh_PolyCut.svg" width=16px> Taglia la mesh}} dal menu.
+    -   Selezionare l\'opzione **Meshes → Taglio → <img src="images/Mesh_PolyCut.svg" width=16px> Taglia la mesh** dal menu.
 4.  Definire un poligono selezionando dei punti nella vista 3D.
 5.  Selezionare un\'opzione dal menu contestuale della vista 3D:
     -   
-        {{MenuCommand|Interno}}
+        **Interno**
         
         : rimuove le facce che sono (parzialmente) all\'interno del poligono.
 
     -   
-        {{MenuCommand|Esterno}}
+        **Esterno**
         
         : rimuove le facce che sono completamente al di fuori del poligono.
 
     -   
-        {{MenuCommand|Dividi}}
+        **Dividi**
         
         : rimuove le facce che sono completamente esterne al poligono e crea un nuovo oggetto mesh che le contiene.
 
     -   
-        {{MenuCommand|Annulla}}
+        **Annulla**
         
         : annulla il comando.
 

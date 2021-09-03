@@ -24,7 +24,7 @@ Acest articol explică pas cu pas **how to compile FreeCAD on Windows**.
 
 Compiling FreeCAD on Windows requires several tools and libraries.
 
-### Programe necesare {#programe_necesare}
+### Programe necesare 
 
 -   [Git](http://git-scm.com/) Aici sunt câteva dintre alternative ca GitCola, Tortoise Git, și altele.
 -   [CMake](http://www.cmake.org/cmake/resources/software.html) versiunea 2.x.x sau Cmake 3.x.x
@@ -38,7 +38,7 @@ Compiling FreeCAD on Windows requires several tools and libraries.
 
 -   LibPack (also called FreeCADLibs). This is a single package containing all of the libraries necessary to compile FreeCAD on Windows. Download the version of the LibPack that corresponds to the version of FreeCAD you want to compile. To compile FreeCAD 0.19 or the latest development version 0.20, download the [LibPack for 0.19/0.20](https://github.com/apeltauer/FreeCAD/releases/tag/LibPack_12.5.2) (64-bit only). Extract the LibPack to a convenient location. (If your computer does not recognize the .7z extension, you should install the program [7-zip](https://www.7-zip.org).)  **Note**: It is highly recommended to compile FreeCAD with the compiler version the LibPack is designed for. For example, you might run into problems compiling FreeCAD 0.19 using MSVC 15 because the LibPack for 0.19 is designed to be built with MSVC 17.
 
-### Optional programs {#optional_programs}
+### Optional programs 
 
 -   A GUI frontend for Git. There are several frontends available, see [this list](https://en.wikipedia.org/wiki/Comparison_of_Git_GUIs). The main benefit of a frontend is that you don\'t have to learn the Git commands to get the source code of FreeCAD or to send patches to the GitHub repository of FreeCAD.
 
@@ -46,13 +46,13 @@ In the following we describe source code handling using the [TortoiseGit](https:
 
 -   [NSIS](http://sourceforge.net/projects/nsis/) is used to generate the FreeCAD Windows installer.
 
-### Codul sursă {#codul_sursă}
+### Codul sursă 
 
-#### Utilizați Git (de preferință) {#utilizați_git_de_preferință}
+#### Utilizați Git (de preferință) 
 
 Now you can get the source code of FreeCAD:
 
-#### Using a frontend {#using_a_frontend}
+#### Using a frontend 
 
 When using the [Git frontend](https://en.wikipedia.org/wiki/Comparison_of_Git_GUIs) TortoiseGit:
 
@@ -66,7 +66,7 @@ and click **OK**.
 
 The latest source code will be downloaded from the FreeCAD Git repository and the folder will be tracked by Git.
 
-#### Using the command line {#using_the_command_line}
+#### Using the command line 
 
 Pentru a crea o ramură de urmărire locală și pentru a descărca codul sursă, trebuie să deschideți un terminal (promp de comandă) și cd(change directory) în directorul pe care doriți să plasați codul sursă, apoi tastați:
 
@@ -89,7 +89,7 @@ Pentru cei care doresc să evite instalarea imensului Visual Studio pentru simpl
 
 As a free and OpenSource alternative IDE you can use [KDevelop](https://www.kdevelop.org/download). You can use KDevelop to modify and write C++ code but must use the command line to compile.
 
-### Configurarea căii de sistem {#configurarea_căii_de_sistem}
+### Configurarea căii de sistem 
 
 În interiorul căii dvs. de sistem, asigurați-vă că setați căile corecte la următoarele programe:
 
@@ -109,7 +109,7 @@ Optionally you can include the paths to some folders to the system PATH variable
 
 Pentru a adăuga la cale asitemului dvs:
 
-## Configurare cu CMake {#configurare_cu_cmake}
+## Configurare cu CMake 
 
 Once you have all of the necessary tools, libraries, and FreeCAD source code, you are ready to begin the configuration and compilation process. This process will proceed in five steps:
 
@@ -173,7 +173,7 @@ There should now be no errors. If you continue to encounter errors that you cann
 
 **Note:** When compiling FreeCAD 0.19, the CMake variable **BUILD\_ENABLE\_CXX\_STD** will be set to **C++14** while for FreeCAD 0.20 it will be set to **C++17**. This is because FreeCAD 0.20 requires at least the C++ language standard version 17. So when you compiled the last time FreeCAD 0.19 it is necessary to re-run CMake for FreeCAD 0.20 to change the C++ language standard.
 
-### Opțiuni pentru compilarea Proceselor {#opțiuni_pentru_compilarea_proceselor}
+### Opțiuni pentru compilarea Proceselor 
 
 
 <div class="mw-translate-fuzzy">
@@ -209,7 +209,7 @@ Iată descrierea unora dintre aceste switch-uri. Probabil că se vor schimba mul
 
 </div>
 
-## Compilarea FreeCAD {#compilarea_freecad}
+## Compilarea FreeCAD 
 
 În funcție de configurația actuală, procesul de construire a FreeCAD va fi ușor diferit. Acest lucru se datorează diferențelor dintre versiunile de software disponibile pentru fiecare sistem de operare.
 
@@ -218,12 +218,12 @@ Depending on your compiler, the process for building FreeCAD will be slightly di
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Building with Visual Studio 15 (2017) and 16 (2019) {#building_with_visual_studio_15_2017_and_16_2019}
+### Building with Visual Studio 15 (2017) and 16 (2019) 
 
 
 <div class="mw-collapsible-content">
 
-#### Release Build {#release_build}
+#### Release Build 
 
 1.  Start the Visual Studio IDE. This can either be done by pressing the button *Open Project* in the CMake GUI or by double-clicking on the file *FreeCAD.sln* that you find in your build folder.
 2.  In the toolbar of the MSVC IDE assure that you use for the first compilation *Release*.
@@ -237,7 +237,7 @@ If you don\'t get any errors you are done. **Congratulations!** You can exit MSV
 
 **Note:** FreeCAD 0.20 requires at least the C++ language standard version 17 but the 3rd-party component *flann* from the LibPack is not yet ready for this. Therefore you will get compilation errors for the target *ReverseEngineering*. To fix this, right-click on this target in the MSVC solution explorer and select in the context menu the last entry *Properties*. In the appearing dialog change the **C++ Language Standard** to **ISO C++14**. Finally build the target **ALL\_BUILD** again.
 
-#### Debug Build {#debug_build}
+#### Debug Build 
 
 For a debug build it is necessary that the Python is used that is included in the LibPack. To assure this:
 
@@ -259,7 +259,7 @@ This will now take quite a long time. If there were no compilation errors, you c
 
 This will start the debug build of FreeCAD and you can use the MSVC IDE to debug it.
 
-#### Video Resource {#video_resource}
+#### Video Resource 
 
 An English language tutorial that begins with configuration in CMake Gui and continues to the \Build\ command in Visual Studio 16 2019 is available unlisted on YouTube at [Tutorial: Build FreeCAD from source on Windows 10](https://youtu.be/s4pHvlDOSZQ).
 
@@ -275,7 +275,7 @@ An English language tutorial that begins with configuration in CMake Gui and con
 
 <div class="mw-translate-fuzzy">
 
-### Compilare cu Qt Creator {#compilare_cu_qt_creator}
+### Compilare cu Qt Creator 
 
 
 <div class="mw-collapsible-content">
@@ -286,7 +286,7 @@ An English language tutorial that begins with configuration in CMake Gui and con
 
 <div class="mw-collapsible-content">
 
-#### Installation and configuration of Qt Creator {#installation_and_configuration_of_qt_creator}
+#### Installation and configuration of Qt Creator 
 
 -   Download and install [Qt Creator](https://www.qt.io/offline-installers)
 -   Tools -\> Options -\> Text Editor -\> Behavior tab:
@@ -320,7 +320,7 @@ An English language tutorial that begins with configuration in CMake Gui and con
         -   Uncheck: Always build project before deploying it
         -   Uncheck: Always deploy project before running it
 
-#### Import project and Build {#import_project_and_build}
+#### Import project and Build 
 
 -   File -\> Open File or Project
 -   Open **CMakeLists.txt** which is in the top level of the source
@@ -352,7 +352,7 @@ Once complete, it can be run: There are 2 green triangles at the bottom left. On
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Command line build {#command_line_build}
+### Command line build 
 
 
 <div class="mw-collapsible-content">
@@ -364,7 +364,7 @@ Here an example how to build FreeCAD from the Command line:
 
 The steps how to compile from the command line depends on the compiler. For MSVC 2017 the steps are:
 
-1.  In Windows\' start menu go to {{MenuCommand|Visual Studio 2017 → Visual Studio Tools}} and choose **Developer Command Prompt for VS 2017**
+1.  In Windows\' start menu go to **Visual Studio 2017 → Visual Studio Tools** and choose **Developer Command Prompt for VS 2017**
 2.  Change to your build folder.
 3.  Execute the command
 
@@ -400,7 +400,7 @@ Instead of calling **compile-FC** with the option *install* you can also use *de
 
 </div>
 
-## Running and installing FreeCAD {#running_and_installing_freecad}
+## Running and installing FreeCAD 
 
 There are 2 methods to run the compiled FreeCAD:
 
@@ -418,16 +418,16 @@ For Method 1 you need to put the libraries into the *bin* folder of your build f
 4.  Search there for the variable option *FREECAD\_COPY\_PLUGINS\_BIN\_TO\_BUILD* and check it.
 5.  Click on **Configure**. At the end of the configuration CMake will automatically copy the necessary libraries from the LibPack folder.
 
-## Updating the build {#updating_the_build}
+## Updating the build 
 
 FreeCAD is very actively developed. Therefore its source code changes almost daily. New features are added and bugs are fixed. To benefit from these source code changes, you must rebuild your FreeCAD. This is done in two steps:
 
 1.  Updating the source code
 2.  Recompilation
 
-### Updating the source code {#updating_the_source_code}
+### Updating the source code 
 
-#### Using a frontend {#using_a_frontend_1}
+#### Using a frontend 
 
 When using the [Git frontend](https://en.wikipedia.org/wiki/Comparison_of_Git_GUIs) TortoiseGit:
 
@@ -436,7 +436,7 @@ When using the [Git frontend](https://en.wikipedia.org/wiki/Comparison_of_Git_GU
 
 Finally click **OK**.
 
-#### Using the command line {#using_the_command_line_1}
+#### Using the command line 
 
 Open a terminal (command prompt) and switch there to your source directory. Then type:
 
@@ -456,7 +456,7 @@ where *master* the the name of the main development branch. If you want to get c
 
 In order to join the FreeCAD development you should compile and install the following tools:
 
-### Qt Designer plugin {#qt_designer_plugin}
+### Qt Designer plugin 
 
 FreeCAD uses [Qt](https://en.wikipedia.org/wiki/Qt_(software)) as toolkit for its user interface. All dialogs are setup in UI-files that can be edited using the program [Qt Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html) that is part of any Qt installation and also included in the LibPack. FreeCAD has its own set of Qt widgets to provide special features like adding a unit to input fields and to set preferences properties.
 
@@ -470,9 +470,9 @@ To make Qt Designer aware of the FreeCAD widgets, you must
 -   If you use the LibPack: to the folder*\~\\FreeCADLibs\_12.5.2\_x64\_VC17\\bin\\designer*Since there will only be a *bin* folder and you must first create the *designer* subfolder.
 -   If you have a full Qt installation: you can choose between the folder*C:\\Qt\\5.15.2\\msvc2019\_64\\plugins\\designer*or*C:\\Qt\\5.15.2\\msvc2019\_64\\bin\\designer* (you must first create the *designer* subfolder.)(adapt the paths to your installation!).
 
-(Re)Start Qt Designer and check its menu {{MenuCommand|Help → Plugins}}. If the plugin **FreeCAD\_widgets.dll** is listed as being loaded, you can now design and change FreeCAD\'s .ui files. If not, you must [compile](#Compilation.md) the DLL by yourself.
+(Re)Start Qt Designer and check its menu **Help → Plugins**. If the plugin **FreeCAD\_widgets.dll** is listed as being loaded, you can now design and change FreeCAD\'s .ui files. If not, you must [compile](#Compilation.md) the DLL by yourself.
 
-If you prefer using [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator) instead of Qt Designer, the DLL must be placed in this folder:*C:\\Qt\\Qt5.15.2\\Tools\\QtCreator\\bin\\plugins\\designer*(Re)Start Qt Creator, switch to the mode **Design** and then check the menu {{MenuCommand|Tools → Form Editor → About Qt Designer Plugins}}. If the plugin **FreeCAD\_widgets.dll** is listed as being loaded, you can now design and change FreeCAD\'s .ui files. If not, you must [compile](#Compilation.md) the DLL by yourself.
+If you prefer using [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator) instead of Qt Designer, the DLL must be placed in this folder:*C:\\Qt\\Qt5.15.2\\Tools\\QtCreator\\bin\\plugins\\designer*(Re)Start Qt Creator, switch to the mode **Design** and then check the menu **Tools → Form Editor → About Qt Designer Plugins**. If the plugin **FreeCAD\_widgets.dll** is listed as being loaded, you can now design and change FreeCAD\'s .ui files. If not, you must [compile](#Compilation.md) the DLL by yourself.
 
 #### Compilation
 
@@ -486,11 +486,11 @@ The DLL cannot be loaded as plugin if it was compiled using another Qt version t
 6.  There is a window called *Solution Explorer*. Right-click there on **FreeCAD\_widgets** and then choose **Build**.
 7.  As result you should now have a **FreeCAD\_widgets.dll** in the folder *\~\\src\\Tools\\plugins\\widget\\release* that you can install as plugin as described above.
 
-### Thumbnail Provider {#thumbnail_provider}
+### Thumbnail Provider 
 
 FreeCAD has the feature to provide preview thumbnails for \*.FCStd files. That means that in the Windows file explorer \*.FCStd files are shown with a screenshot of the model it contains. To provide this feature, FreeCAD needs to have the file **FCStdThumbnail.dll** installed to Windows.
 
-#### Installation {#installation_1}
+#### Installation 
 
 The DLL is installed this way:
 
@@ -502,7 +502,7 @@ The DLL is installed this way:
 
 So check if it works, assure that in FreeCAD the preferences option **[Save thumbnail into project file when saving document](Preferences_Editor#Document.md)** is enabled and save a model. Then view in Windows Explorer the folder of the saved model using a symbol view. You should now see a screenshot of the model in the folder view.
 
-#### Compilation {#compilation_1}
+#### Compilation 
 
 To compile the FCStdThumbnail.dll
 
@@ -518,7 +518,7 @@ To compile the FCStdThumbnail.dll
 10. There is a window called *Solution Explorer*. Right-click there on **ALL\_BUILD** and then choose **Build**.
 11. As result you should now have a **FCStdThumbnail.dll** in the folder *\~\\src\\Tools\\thumbs\\ThumbnailProvider\\release* that you can install as described above.
 
-## Compiling OpenCASCADE {#compiling_opencascade}
+## Compiling OpenCASCADE 
 
 The standard Libpack comes with a version of OpenCASCADE that is suitable for general use. However, under some circumstances you may wish to compile against an alternate version of OpenCASCADE, such as one of their official releases, or a patched fork. Note that there is no guarantee that FreeCAD will work with all versions of OpenCASCADE, and using a non-Libpack version is for advanced users only. Note also that if you are using the Netgen library, it uses OpenCASCADE for some of its functionality and must be compiled against the same version of OpenCASCADE that you use when compiling FreeCAD.
 

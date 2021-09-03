@@ -30,7 +30,7 @@ These helpers work with **Part, App::Part and Body objects**. Each Tool can be *
 
 ------------------------------------------------------------------------
 
-## OLD References {#old_references}
+## OLD References 
 
 This macro covers the following constraints:
 

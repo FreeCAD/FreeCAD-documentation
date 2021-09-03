@@ -65,7 +65,7 @@ CAD绘图的传统方式继承于旧的[绘图板](http://en.wikipedia.org/wiki/
 
 </div>
 
-## Sketching Workflow {#sketching_workflow}
+## Sketching Workflow 
 
 ## 草图工作流程
 
@@ -464,7 +464,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
-#### Special constraints {#special_constraints}
+#### Special constraints 
 
 
 <div class="mw-translate-fuzzy">
@@ -482,7 +482,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
-#### Constraint tools {#constraint_tools}
+#### Constraint tools 
 
 The following tools can be used the change the effect of constraints:
 
@@ -590,7 +590,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Delete All Constraints](Sketcher_DeleteAllConstraints.md): Deletes all constraints from the sketch.
 
-### Sketcher B-spline tools {#sketcher_b_spline_tools}
+### Sketcher B-spline tools 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Show/hide B-spline degree](Sketcher_BSplineDegree.md)
 
@@ -612,7 +612,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)
 
-### Sketcher virtual space {#sketcher_virtual_space}
+### Sketcher virtual space 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch Virtual Space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
 

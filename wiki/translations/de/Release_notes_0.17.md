@@ -44,7 +44,7 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 <img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;">
 
-## Arbeitsbereich Arch {#arbeitsbereich_arch}
+## Arbeitsbereich Arch 
 
 -   Neues Werkzeug [Arch Schedule/de](Arch_Schedule/de.md): Diese Werkzeug wurde komplett überarbeitet und bietet nun einen viel flexibleren Weg, Daten aus dem Dokument in einer Tabelle zu sammeln. Es können verschiedene Arten von Abfragen, wie Zählen von Objekten eines bestimmten Typs oder Aufsummieren des Volumens einer bestimmten Kategorie von Objekten verwendet werden.
 
@@ -74,7 +74,7 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 -   Eine Ünterstützung für den Import des Formates [3DS](Arch_3DS.md) wurde hinzugefügt.
 
-## Arbeitsbereich Draft {#arbeitsbereich_draft}
+## Arbeitsbereich Draft 
 
 -   [Autogroup system](Draft_AutoGroup.md): Der Arbeitsbereich Draft offeriert nun eine Schaltfläche **auto-group** in der Hauptwerkzeugleiste. Alle neuen Draft- und Archobjekte werden automatisch in diese Gruppe platziert, wenn Auto-group aktiviert ist.
 
@@ -90,7 +90,7 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 <img alt="" src=images/Draft_Label_Preview.png  style="width:640px;">
 
-## Arbeitsbereich FEM {#arbeitsbereich_fem}
+## Arbeitsbereich FEM 
 
 
 <div class="mw-translate-fuzzy">
@@ -170,7 +170,7 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 <img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;">
 
-## Arbeitsbereich Part {#arbeitsbereich_part}
+## Arbeitsbereich Part 
 
 -   Der Open Cascade geometrische CAD-Kernel wird jetzt in der Version von 6.8.0 auf 7.2.0 angehoben (die aktuelle OCC-Version kann von der Plattform/Distribution abhängen). Diese Version enthält viele Fehlerkorrekturen in den Boolesche Operationen, dem Algorithmus zur Entfernung von unsichtbaren Linien und erlaubt neue Feature, die dem Arbeitsbereich Part hinzugefügt wurden.
 
@@ -190,7 +190,7 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 -   Der neue [Part-Container](Std_Part/de.md) kann verwendet werden um die meisten Typen von [Shapes](Glossary/de#Shape.md) zu gruppieren und sie als Einheit zu bewegen. Er enthält auch die Standardebenen und -achsen, an denen ebenfalls Objekte angeheftet werden können. Er wird die Basis für den zukünftigen Arbeitsbereich Assembly bilden, um eine Möglichkeit zu haben, Baugruppen im Raum zu bewegen. Er steht in allen Arbeitsbereichen zusammen mit [Group](Std_Group/de.md) in der Werkzeugleiste zur Verfügung.
 
-## Arbeitsbereich PartDesign {#arbeitsbereich_partdesign}
+## Arbeitsbereich PartDesign 
 
 Der Arbeitsbereich PartDesign erlebte massive Änderungen, die Frucht der gemeinsamen Anstrengungen von einer Vielzahl von Entwicklern über einen Zeitraum von 5 Jahren. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width:800px;">
 
@@ -202,7 +202,7 @@ Der Arbeitsbereich PartDesign erlebte massive Änderungen, die Frucht der gemein
 
 -   Neue automatische Umschaltung zwischen den Arbeitsbereichen PartDesign und Sketcher. Wenn eine neue Skizze innerhalb des Arbeitsbereiches PartDesign erstellt wird, schaltet die Benutzeroberfläche auf den Arbeitsbereich Skizze in den Editiermodus um, sobald die Ausrichtung der Skizze definiert wurde. Wenn die Skizze geschlossen wird, schaltet die Benutzeroberfläche zurück in den Arbeitsbereich PartDesign und stellt die vorherige Ansicht wieder her. Folglich wurden die Werkzeuge des Sketchers aus der Werkzeugleiste von PartDesign entfernt, um Platz zu schaffen für die neuen PartDesign Features.
 
-## Arbeitsbereich Path {#arbeitsbereich_path}
+## Arbeitsbereich Path 
 
 Der Arbeitsbereich Path wurde massiv überarbeitet in der Version 0.17. Die Überarbeitung resultierte in der Entfernung des alten Codes von HeeksCNC und den Ersatz der Python-Bibliothek für den Zugriff auf die Bibliothek libarea mit dem neuen Path-Area-Modul. Das Ergebnis war, dass die Operationen weit leistungsfähiger und schneller wurden mit einer deutlich vereinfachten Code-Basis.
 
@@ -226,7 +226,7 @@ Der Arbeitsbereich Path wurde massiv überarbeitet in der Version 0.17. Die Übe
 
 -   Dress-up Operationen können zum Verfeinern der Kernoperationen und für zusätzliche Komplexität verwendet werden. Dressups existieren für [\'dogbone\'](Path_DressupDogbone.md) Ecken, [holding tags](Path_DressupTag.md), [ramp entry](Path_DressupRampEntry.md), und [dragknife](Path_DressupDragKnife.md) \'corner actions\'
 
-## Arbeitsbereich Sketcher {#arbeitsbereich_sketcher}
+## Arbeitsbereich Sketcher 
 
 -   Skizzen können nun in vielfältiger Weise zugeordnet werden, nicht nur an flachen Flächen, wie es zurvor üblich war. Von besonderer Bedeutung ist das Ausrichten normal zu Kanten, das für das Erstellen von Profilen mit [sweeping](Part_Sweep/de.md) sehr hilfreich ist.
 
@@ -264,15 +264,15 @@ Der Arbeitsbereich Path wurde massiv überarbeitet in der Version 0.17. Die Übe
 
 -   Horizontale und vertikale Beschränkungen können benutzt werden, um ausgewählte Punkte auszurichten.
 
-## Arbeitsbereich Spreadsheet {#arbeitsbereich_spreadsheet}
+## Arbeitsbereich Spreadsheet 
 
 -   Ein Importfilter für Excel-Dateien wurde hinzugefügt.
 
-## Arbeitsbereich Surface {#arbeitsbereich_surface}
+## Arbeitsbereich Surface 
 
 -   Ein neuer Arbeitsbereich in v0.17, aktuell stehen in dem Arbeitsbereich Surface vier Funktionen für die Erstellung von Oberflächen zur Verfügung.
 
-## Arbeitsbereich TechDraw {#arbeitsbereich_techdraw}
+## Arbeitsbereich TechDraw 
 
 
 <div class="mw-translate-fuzzy">
@@ -290,7 +290,7 @@ Der Arbeitsbereich Path wurde massiv überarbeitet in der Version 0.17. Die Übe
 -   Das Bemaßen wird nun mit mehreren Bemaßungswerkzeugen unterstützt: horizontal, vertikal, Länge, Radius, Durchmesser, Winkel.
 -   Gestaltungswerkzeuge: Schraffur, Schraffur kompatibel zur Autodesk PAT Specifikation, Symbole, Bilder.
 
-## Zussätzliche Module {#zussätzliche_module}
+## Zussätzliche Module 
 
 Einige der neuen Module, die von der FreeCAD-Gemeinschaft geschaffen wurden.
 

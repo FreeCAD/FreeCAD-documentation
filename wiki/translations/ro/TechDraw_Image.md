@@ -21,7 +21,7 @@ The Image tool inserts a [bitmap](bitmap.md) image (PNG, TIFF, JPEG, etc.) from 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Apăsați butonul **<img src="images/Techdraw-image.png" width=24px> [Image](TechDraw_Image.md)
 **

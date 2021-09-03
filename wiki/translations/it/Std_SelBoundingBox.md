@@ -18,11 +18,11 @@ Il comando **Box di selezione** attiva o disattiva la modalità di evidenziazion
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_SelBoundingBox.svg" width=16px> [Std SelBoundingBox](Std_SelBoundingBox.md)** button.
-    -   Select the {{MenuCommand|View → <img src="images/Std_SelBoundingBox.svg" width=16px> Bounding box}} option from the menu.
+    -   Select the **View → <img src="images/Std_SelBoundingBox.svg" width=16px> Bounding box** option from the menu.
 
 ## Preferenze
 
-The related setting is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → View → ShowSelectionBoundingBox}}. It is a boolean value, the default is `False`.
+The related setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. It is a boolean value, the default is `False`.
 
 ## Script
 

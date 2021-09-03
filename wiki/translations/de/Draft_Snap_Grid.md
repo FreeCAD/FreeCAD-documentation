@@ -45,8 +45,8 @@ Diese Methode rastet am Schnittpunkt zweier Rasterlinien ein, wenn das Raster si
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
--   To use the grid select: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid}}. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Grid}}.
+-   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
+-   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 
 
 <div class="mw-translate-fuzzy">

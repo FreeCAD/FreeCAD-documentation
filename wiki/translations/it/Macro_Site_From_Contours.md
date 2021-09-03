@@ -19,7 +19,7 @@ Questa macro consente di selezionare una serie di oggetti contenenti i contorni,
 
 <img alt="" src=images/Macro_Site_From_Contour_Example.jpg  style="width:640px;">
 
-## Lo Script {#lo_script}
+## Lo Script 
 
 ToolBar Icon ![](images/Macro_Site_From_Contours.png )
 

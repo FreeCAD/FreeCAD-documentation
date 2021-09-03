@@ -15,13 +15,13 @@ La commande **Std Rafraîchir** recalcule le document actif. La commande est dé
 
 1.  Il existe plusieurs façons d\'appeler la commande Rafraîchir :
     -   Appuyez sur le bouton **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** dans la barre d\'outils
-    -   Sélectionnez l\'option {{MenuCommand|Edition → <img src="images/_Std_Refresh.svg" width=16px> Rafraîchir}} dans le menu.
+    -   Sélectionnez l\'option **Edition → <img src="images/_Std_Refresh.svg" width=16px> Rafraîchir** dans le menu.
     -   Appuyer sur le raccourci clavier **F5**
 
 ## Options
 
--   Pour forcer un recalcul, sélectionnez le document ou un ou plusieurs objets dans la [Vue en arborescence](Tree_view/fr.md), choisissez l\'option {{MenuCommand|<img src="images/Std_MarkToRecompute.svg" width=16px> Marquer pour recalculer}} dans le menu contextuel et appelez la commande.
--   Pour les objets, mais pas pour les documents, vous pouvez également choisir {{MenuCommand|Marquer pour recalculer}} dans le même menu contextuel ({{Version/fr|0.19}}).
+-   Pour forcer un recalcul, sélectionnez le document ou un ou plusieurs objets dans la [Vue en arborescence](Tree_view/fr.md), choisissez l\'option **<img src="images/Std_MarkToRecompute.svg" width=16px> Marquer pour recalculer** dans le menu contextuel et appelez la commande.
+-   Pour les objets, mais pas pour les documents, vous pouvez également choisir **Marquer pour recalculer** dans le même menu contextuel ({{Version/fr|0.19}}).
 
 ## Remarques
 

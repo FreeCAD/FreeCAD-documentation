@@ -23,10 +23,10 @@ L\'ambiente <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"
 
 <img alt="Screenshot" src=images/InspectionEx.png  style="width:500px;">
 
-## Flusso di lavoro previsto {#flusso_di_lavoro_previsto}
+## Flusso di lavoro previsto 
 
 -   Selezionare due forme da confrontare, preferibilmente che si intersechino tra loro.
--   Quindi utilizzare il menu {{MenuCommand|Ispezione → Ispezione visiva}}.
+-   Quindi utilizzare il menu **Ispezione → Ispezione visiva**.
 -   Si ottiene un\'immagine colorata che mostra lo scostamento tra le due forme.
 
 

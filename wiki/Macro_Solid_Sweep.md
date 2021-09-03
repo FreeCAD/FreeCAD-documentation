@@ -29,7 +29,7 @@ It should be noted that the resulting solid will **not** be parametric. If you d
 
 **Result:** A **Sweep** object will be created in the Project tree.
 
-## Supported 2D elements {#supported_2d_elements}
+## Supported 2D elements 
 
 -   Wires
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketches](Sketcher_Workbench.md)

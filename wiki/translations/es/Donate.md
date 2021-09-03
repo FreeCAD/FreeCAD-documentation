@@ -37,7 +37,7 @@ Ver otras formas de [ayuda al proyecto](Help_FreeCAD/es.md) (documentación, tra
 -   Puede que haya otros desarrolladores interesados en hacer un trabajo específico para el proyecto; si quieres acelerar el desarrollo de una idea o característica, considera la posibilidad de contratar a un desarrollador. Depende de ti construir una idea, discutirla en el foro y encontrar desarrolladores interesados en hacerla. Puedes ofrecer un trabajo en el [Subforo de ofertas de trabajo](https://forum.freecadweb.org/viewforum.php?f=31).
 -   Los trabajos de modelado también son bienvenidos. No todos los usuarios experimentados de FreeCAD son desarrolladores. Los usuarios experimentados pueden ayudar a migrar sus proyectos a FreeCAD, lo que contribuye a popularizar el software en las organizaciones. Ver [FreeCAD usado en producción](FreeCAD_used_in_production.md).
 
-## La situación {#la_situación}
+## La situación 
 
 Por el momento FreeCAD es un proyecto muy pequeño con un equipo limitado de desarrolladores. La mayoría de nosotros tenemos trabajos diarios, y trabajamos en FreeCAD durante nuestro tiempo libre. Tener más dinero no cambiaría esta situación significativamente. Sin embargo, algunos de nosotros tenemos un horario de trabajo más flexible donde el dinero puede marcar la diferencia.
 

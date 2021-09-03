@@ -1,4 +1,4 @@
-# Comandi per categorie {#comandi_per_categorie}
+# Comandi per categorie 
 
 
 {{TOCright}}
@@ -81,7 +81,7 @@ Inoltre è disponibile un elenco delle [Icone](Workbench_ICON/it.md) e dei [Puls
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### [Menu File](Std_File_Menu/it.md) {#menu_file}
+### [Menu File](Std_File_Menu/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -360,7 +360,7 @@ Obsolete
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### [Vista 3D](Std_View_3D/it.md) {#vista_3d}
+### [Vista 3D](Std_View_3D/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -413,7 +413,7 @@ Obsolete
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Arch_Wall.png  style="width:32px;"> [Ambiente Architettura](Arch_Workbench/it.md) {#arch_wall.png_ambiente_architettura}
+### <img alt="" src=images/Arch_Wall.png  style="width:32px;"> [Ambiente Architettura](Arch_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -455,7 +455,7 @@ Oltre agli strumenti del [Modulo Draft](ComandiPerCategorie/it#Modulo_Draft.md) 
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Assembly.png  style="width:16px;"> [Ambiente Assemblaggio](Assembly_project/it.md) {#workbench_assembly.png_ambiente_assemblaggio}
+### <img alt="" src=images/Workbench_Assembly.png  style="width:16px;"> [Ambiente Assemblaggio](Assembly_project/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -471,7 +471,7 @@ Oltre agli strumenti del [Modulo Draft](ComandiPerCategorie/it#Modulo_Draft.md) 
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Complete.svg  style="width:32px;"> [Ambiente Completo](Complete_Workbench/it.md) {#workbench_complete.svg_ambiente_completo}
+### <img alt="" src=images/Workbench_Complete.svg  style="width:32px;"> [Ambiente Completo](Complete_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -487,12 +487,12 @@ Riunisce una serie di comandi di ambienti specifici.
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Draft.png  style="width:32px;"> [Ambiente Draft](Draft_Workbench/it.md) {#workbench_draft.png_ambiente_draft}
+### <img alt="" src=images/Workbench_Draft.png  style="width:32px;"> [Ambiente Draft](Draft_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
 
-### Strumenti per disegnare oggetti {#strumenti_per_disegnare_oggetti}
+### Strumenti per disegnare oggetti 
 
 -   ![](images/Draft_Line.png ) [Linea](Draft_Line/it.md)
 -   ![](images/Draft_Wire.png ) [DWire](Draft_Wire/it.md) Polilinea
@@ -508,7 +508,7 @@ Riunisce una serie di comandi di ambienti specifici.
 -   <img alt="" src=images/Draft_ShapeString.png  style="width:32px;"> [ShapeString](Draft_ShapeString/it.md)
 -   <img alt="" src=images/Draft_Facebinder.png  style="width:32px;"> [Facebinder](Draft_Facebinder/it.md)
 
-### Strumenti per modificare gli oggetti {#strumenti_per_modificare_gli_oggetti}
+### Strumenti per modificare gli oggetti 
 
 -   ![](images/Draft_Move.png ) [Sposta](Draft_Move/it.md)
 -   ![](images/Draft_Rotate.png ) [Ruota](Draft_Rotate/it.md)
@@ -527,7 +527,7 @@ Riunisce una serie di comandi di ambienti specifici.
 -   <img alt="" src=images/Draft_Array.png  style="width:32px;"> [Schiera](Draft_Array/it.md)
 -   <img alt="" src=images/Draft_Clone.png  style="width:32px;"> [Clona](Draft_Clone/it.md)
 
-### Altri strumenti di Draft {#altri_strumenti_di_draft}
+### Altri strumenti di Draft 
 
 -   Strumenti di contesto
 -   Utilities
@@ -535,7 +535,7 @@ Riunisce una serie di comandi di ambienti specifici.
 -   [Strumenti polilinea](Draft_Wire/it.md)
 -   Snapping
 
-### Ulteriori funzioni per Draft {#ulteriori_funzioni_per_draft}
+### Ulteriori funzioni per Draft 
 
 -   [Autodesk .DXF](Draft_DXF/it.md)
 -   [SVG (come geometria)](Draft_SVG/it.md)
@@ -555,7 +555,7 @@ Riunisce una serie di comandi di ambienti specifici.
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Drawing.png  style="width:32px;"> [Ambiente Drawing - Disegno di Proiezioni](Drawing_Workbench/it.md) {#workbench_drawing.png_ambiente_drawing___disegno_di_proiezioni}
+### <img alt="" src=images/Workbench_Drawing.png  style="width:32px;"> [Ambiente Drawing - Disegno di Proiezioni](Drawing_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -582,7 +582,7 @@ Riunisce una serie di comandi di ambienti specifici.
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_FEM.png  style="width:32px;"> [Ambiente FEM](FEM_project/it.md) {#workbench_fem.png_ambiente_fem}
+### <img alt="" src=images/Workbench_FEM.png  style="width:32px;"> [Ambiente FEM](FEM_project/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -598,7 +598,7 @@ Riunisce una serie di comandi di ambienti specifici.
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Image.png  style="width:32px;"> [Ambiente Immagine](Workbench_Image/it.md) {#workbench_image.png_ambiente_immagine}
+### <img alt="" src=images/Workbench_Image.png  style="width:32px;"> [Ambiente Immagine](Workbench_Image/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -615,7 +615,7 @@ Riunisce una serie di comandi di ambienti specifici.
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### Ambiente Inspection {#ambiente_inspection}
+### Ambiente Inspection 
 
 
 <div class="mw-collapsible-content">
@@ -632,7 +632,7 @@ Riunisce una serie di comandi di ambienti specifici.
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Mesh.png  style="width:32px;"> [Ambiente Mesh](Mesh_Workbench/it.md) {#workbench_mesh.png_ambiente_mesh}
+### <img alt="" src=images/Workbench_Mesh.png  style="width:32px;"> [Ambiente Mesh](Mesh_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -677,7 +677,7 @@ Riunisce una serie di comandi di ambienti specifici.
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_OpenSCAD.png  style="width:32px;"> [Ambiente OpenSCAD](OpenSCAD_Workbench/it.md) {#workbench_openscad.png_ambiente_openscad}
+### <img alt="" src=images/Workbench_OpenSCAD.png  style="width:32px;"> [Ambiente OpenSCAD](OpenSCAD_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -709,7 +709,7 @@ Eliminato:
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Part.png  style="width:32px;"> [Ambiente Parte](Part_Workbench/it.md) {#workbench_part.png_ambiente_parte}
+### <img alt="" src=images/Workbench_Part.png  style="width:32px;"> [Ambiente Parte](Part_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -775,27 +775,27 @@ Eliminato:
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_PartDesign.png  style="width:32px;"> [Ambiente PartDesign](PartDesign_Workbench/it.md) {#workbench_partdesign.png_ambiente_partdesign}
+### <img alt="" src=images/Workbench_PartDesign.png  style="width:32px;"> [Ambiente PartDesign](PartDesign_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
 
 Oltre agli strumenti del [Ambiente Schizzo](ComandiPerCategorie/it#Modulo_Schizzo.md) sono attivi i seguenti strumenti:
 
-### Strumenti di costruzione {#strumenti_di_costruzione}
+### Strumenti di costruzione 
 
 -   <img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Estrusione](PartDesign_Pad/it.md)
 -   <img alt="" src=images/PartDesign_Pocket.png  style="width:32px;"> [Scavo](PartDesign_Pocket/it.md)
 -   <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Rivoluzione](PartDesign_Revolution/it.md)
 -   <img alt="" src=images/PartDesign_Groove.png  style="width:32px;"> [Scanalatura](PartDesign_Groove/it.md)
 
-### Strumenti di modifica {#strumenti_di_modifica}
+### Strumenti di modifica 
 
 -   <img alt="" src=images/PartDesign_Fillet.png  style="width:32px;"> [Raccordo](PartDesign_Fillet/it.md)
 -   <img alt="" src=images/PartDesign_Chamfer.png  style="width:32px;"> [Smusso](PartDesign_Chamfer/it.md)
 -   <img alt="" src=images/PartDesign_Draft.png  style="width:32px;"> [Sformo](PartDesign_Draft/it.md)
 
-### Strumenti di trasformazione {#strumenti_di_trasformazione}
+### Strumenti di trasformazione 
 
 -   <img alt="" src=images/PartDesign_Mirrored.png  style="width:32px;"> [Rifletti](PartDesign_Mirrored/it.md)
 -   <img alt="" src=images/PartDesign_LinearPattern.png  style="width:32px;"> [Schiera lineare](PartDesign_LinearPattern/it.md)
@@ -812,7 +812,7 @@ Oltre agli strumenti del [Ambiente Schizzo](ComandiPerCategorie/it#Modulo_Schizz
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### [Ambiente Grafico](Plot_Workbench/it.md) {#ambiente_grafico}
+### [Ambiente Grafico](Plot_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -834,7 +834,7 @@ Oltre agli strumenti del [Ambiente Schizzo](ComandiPerCategorie/it#Modulo_Schizz
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Points_Workbench.png  style="width:32px;"> [Ambiente Punti](Points_Workbench/it.md) {#points_workbench.png_ambiente_punti}
+### <img alt="" src=images/Points_Workbench.png  style="width:32px;"> [Ambiente Punti](Points_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -854,14 +854,14 @@ Oltre agli strumenti del [Ambiente Schizzo](ComandiPerCategorie/it#Modulo_Schizz
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [Modulo Ray Tracing](Raytracing_Workbench/it.md) {#workbench_raytracing.svg_modulo_ray_tracing}
+### <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [Modulo Ray Tracing](Raytracing_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
 
 Per ora, per tutti i comandi vedere il [Modulo Ray Tracing](Raytracing_Workbench/it.md)
 
-### Strumenti di progetto {#strumenti_di_progetto}
+### Strumenti di progetto 
 
 -   <img alt="" src=images/Raytracing_New.png  style="width:32px;"> [Nuovo progetto PovRay](Raytracing_New/it.md)
 -   <img alt="" src=images/Raytracing_Lux.png  style="width:32px;"> [Nuovo progetto LuxRender](Raytracing_Lux/it.md)
@@ -885,12 +885,12 @@ Per ora, per tutti i comandi vedere il [Modulo Ray Tracing](Raytracing_Workbench
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Robot.png  style="width:32px;"> [Ambiente Robot](Robot_Workbench/it.md) {#workbench_robot.png_ambiente_robot}
+### <img alt="" src=images/Workbench_Robot.png  style="width:32px;"> [Ambiente Robot](Robot_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
 
-### Gestione Robot {#gestione_robot}
+### Gestione Robot 
 
 -   <img alt="" src=images/Robot_CreateRobot.png  style="width:30px;"> [Inserisci un robot](Robot_CreateRobot/it.md)
 -   <img alt="" src=images/Robot_Simulate.png  style="width:30px;"> [Simula una traiettoria](Robot_Simulate/it.md)
@@ -898,9 +898,9 @@ Per ora, per tutti i comandi vedere il [Modulo Ray Tracing](Raytracing_Workbench
 -   <img alt="" src=images/Robot_SetHomePos.png  style="width:30px;"> [Imposta la posizione iniziale](Robot_SetHomePos/it.md)
 -   <img alt="" src=images/Robot_RestoreHomePos.png  style="width:30px;"> [Ripristina la posizione iniziale](Robot_RestoreHomePos/it.md)
 
-### Gestione Traiettorie {#gestione_traiettorie}
+### Gestione Traiettorie 
 
-#### strumenti non parametrici {#strumenti_non_parametrici}
+#### strumenti non parametrici 
 
 -   <img alt="" src=images/Robot_CreateTrajectory.png  style="width:30px;"> [Crea una traiettoria](Robot_CreateTrajectory/it.md)
 -   <img alt="" src=images/Robot_SetDefaultOrientation.png  style="width:30px;"> [Imposta l\'orientamento](Robot_SetDefaultOrientation/it.md)
@@ -908,7 +908,7 @@ Per ora, per tutti i comandi vedere il [Modulo Ray Tracing](Raytracing_Workbench
 -   <img alt="" src=images/Robot_InsertWaypoint.png  style="width:30px;"> [Inserisci la posizione](Robot_InsertWaypoint/it.md)
 -   <img alt="" src=images/Robot_InsertWaypointPre.png  style="width:30px;"> [Inserisci il punto](Robot_InsertWaypointPre/it.md)
 
-#### strumenti parametrici {#strumenti_parametrici}
+#### strumenti parametrici 
 
 -   <img alt="" src=images/Robot_Edge2Trac.png  style="width:30px;"> [Crea una traiettoria dagli spigoli](Robot_Edge2Trac/it.md)
 -   <img alt="" src=images/Robot_TrajectoryDressUp.png  style="width:30px;"> [Vesti una traiettoria](Robot_TrajectoryDressUp/it.md)
@@ -923,12 +923,12 @@ Per ora, per tutti i comandi vedere il [Modulo Ray Tracing](Raytracing_Workbench
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/FreeCAD-Ship-Ico.png  style="width:32px;"> [Ambiente Navale](FreeCADShip_Workbench/it.md) {#freecad_ship_ico.png_ambiente_navale}
+### <img alt="" src=images/FreeCAD-Ship-Ico.png  style="width:32px;"> [Ambiente Navale](FreeCADShip_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
 
-### Ship Design {#ship_design}
+### Ship Design 
 
 -   <img alt="Example ship geometries loader icon" src=images/FreeCAD-Ship-LoadIco.png  style="width:32px;"> FreeCAD-Ship-LoadIco
 -   <img alt="Ship creation tool" src=images/FreeCAD-Ship-Ico.png  style="width:32px;"> FreeCAD-Ship
@@ -952,7 +952,7 @@ Per ora, per tutti i comandi vedere il [Modulo Ray Tracing](Raytracing_Workbench
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Sketcher.png  style="width:32px;"> [Ambiente Schizzo](Sketcher_Workbench/it.md) {#workbench_sketcher.png_ambiente_schizzo}
+### <img alt="" src=images/Workbench_Sketcher.png  style="width:32px;"> [Ambiente Schizzo](Sketcher_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -988,7 +988,7 @@ Per ora, per tutti i comandi vedere il [Modulo Ray Tracing](Raytracing_Workbench
 -   <img alt="" src=images/Constraint_EqualLength.png  style="width:32px;"> [Uguaglianza](Sketcher_ConstrainEqual/it.md)
 -   <img alt="" src=images/Constraint_Symmetric.png  style="width:32px;"> [Simmetria](Sketcher_ConstrainSymmetric/it.md)
 
-### Altri strumenti {#altri_strumenti}
+### Altri strumenti 
 
 -   <img alt="" src=images/Sketcher_NewSketch.png‎‎  style="width:32px;"> [Nuovo schizzo](Sketcher_NewSketch/it.md)
 -   <img alt="" src=images/Sketcher_ViewSketch.png‎  style="width:32px;"> [Vista schizzo](Sketcher_ViewSketch/it.md)
@@ -1006,18 +1006,18 @@ Per ora, per tutti i comandi vedere il [Modulo Ray Tracing](Raytracing_Workbench
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### [Ambiente Foglio di calcolo](Spreadsheet_Workbench/it.md) {#ambiente_foglio_di_calcolo}
+### [Ambiente Foglio di calcolo](Spreadsheet_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
 
-### Strumenti {#strumenti_1}
+### Strumenti 
 
 -   <img alt="" src=images/Spreadsheet_Create.png  style="width:16px;"> [Crea foglio](Spreadsheet_Create/it.md)
 -   <img alt="" src=images/Spreadsheet_Controller.png  style="width:16px;"> [Controllo Cella](Spreadsheet_Controller/it.md)
 -   <img alt="" src=images/Spreadsheet_PropertyController.png  style="width:16px;"> [Property Controller](Spreadsheet_PropertyController/it.md)
 
-### Formato dei file {#formato_dei_file}
+### Formato dei file 
 
 -   [Comma-separated values (.CSV)](Spreadsheet_CSV/it.md)
 
@@ -1030,7 +1030,7 @@ Per ora, per tutti i comandi vedere il [Modulo Ray Tracing](Raytracing_Workbench
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Ambiente Start](Start_Workbench/it.md) {#workbench_start.svg_ambiente_start}
+### <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Ambiente Start](Start_Workbench/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -1067,7 +1067,7 @@ Per ora, per tutti i comandi vedere il [Modulo Ray Tracing](Raytracing_Workbench
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### Ambiente Test {#ambiente_test}
+### Ambiente Test 
 
 
 <div class="mw-collapsible-content">
@@ -1092,7 +1092,7 @@ Per ora, per tutti i comandi vedere il [Modulo Ray Tracing](Raytracing_Workbench
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Sito Web](Main_Page/it.md) {#workbench_web.svg_sito_web}
+### <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Sito Web](Main_Page/it.md) 
 
 
 <div class="mw-collapsible-content">
@@ -1171,7 +1171,7 @@ Per tutte le funzioni di ancoraggio vedere [Ancorare](Draft_Snap/it.md)
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### Sulla radice dell\'albero - ambiente Arch {#sulla_radice_dellalbero___ambiente_arch}
+### Sulla radice dell\'albero - ambiente Arch 
 
 
 <div class="mw-collapsible-content">
@@ -1202,7 +1202,7 @@ Per tutte le funzioni di ancoraggio vedere [Ancorare](Draft_Snap/it.md)
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### Sulla radice dell\'albero - ambienti vari {#sulla_radice_dellalbero___ambienti_vari}
+### Sulla radice dell\'albero - ambienti vari 
 
 
 <div class="mw-collapsible-content">
@@ -1219,7 +1219,7 @@ Per tutte le funzioni di ancoraggio vedere [Ancorare](Draft_Snap/it.md)
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### Su oggetto selezionato nell\'albero - secondo gli ambienti - secondo l\'oggetto {#su_oggetto_selezionato_nellalbero___secondo_gli_ambienti___secondo_loggetto}
+### Su oggetto selezionato nell\'albero - secondo gli ambienti - secondo l\'oggetto 
 
 
 <div class="mw-collapsible-content">
@@ -1272,7 +1272,7 @@ Oppure
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### Su oggetto selezionato nella vista {#su_oggetto_selezionato_nella_vista}
+### Su oggetto selezionato nella vista 
 
 
 <div class="mw-collapsible-content">
@@ -1335,7 +1335,7 @@ Oppure
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### Nell\'area di lavoro libera - secondo gli ambienti - secondo l\'oggetto {#nellarea_di_lavoro_libera___secondo_gli_ambienti___secondo_loggetto}
+### Nell\'area di lavoro libera - secondo gli ambienti - secondo l\'oggetto 
 
 
 <div class="mw-collapsible-content">
@@ -1389,7 +1389,7 @@ Oppure
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### Finestra Aspetto - Tutti gli ambienti {#finestra_aspetto___tutti_gli_ambienti}
+### Finestra Aspetto - Tutti gli ambienti 
 
 
 <div class="mw-collapsible-content">
@@ -1405,7 +1405,7 @@ Oppure
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### Finestra Trasforma - Oggetto Arch {#finestra_trasforma___oggetto_arch}
+### Finestra Trasforma - Oggetto Arch 
 
 
 <div class="mw-collapsible-content">
@@ -1421,7 +1421,7 @@ Oppure
 
 <div class="mw-collapsible mw-collapsed" data-expandtext=" &#x2193;" data-collapsetext="&#x2191;" style="width:100%; border-radius:6px; border:1px solid #000;">
 
-### Finestra Trasforma - Oggetto Parte, PartDesign, Arch, \... {#finestra_trasforma___oggetto_parte_partdesign_arch_...}
+### Finestra Trasforma - Oggetto Parte, PartDesign, Arch, \... 
 
 
 <div class="mw-collapsible-content">
@@ -1539,7 +1539,7 @@ Azione [Trasforma](Manipulator/it.md) del modulo Parte
 -   Dati
     -   [Posizionamento](Placement/it.md) e anche [Azioni di Posizionamento](Tasks_Placement/it.md)
 
-### Part Design {#part_design}
+### Part Design 
 
 -   Vista
     -   [Esempio](Property_editor/it.md)
@@ -1567,7 +1567,7 @@ Azione [Trasforma](Manipulator/it.md) del modulo Parte
 -   Dati
     -   \...
 
-### Reverse Engineering {#reverse_engineering}
+### Reverse Engineering 
 
 -   Vista
     -   \...
@@ -1595,7 +1595,7 @@ Azione [Trasforma](Manipulator/it.md) del modulo Parte
 -   Dati
     -   \...
 
-### Foglio di Calcolo {#foglio_di_calcolo}
+### Foglio di Calcolo 
 
 -   Vista
     -   \...

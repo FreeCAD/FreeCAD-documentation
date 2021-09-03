@@ -15,9 +15,9 @@ Der **Std AnsichtRechtsDrehen** Befehl dreht die Kamera in die aktive [3D Ansich
 ## Anwendung
 
 1.  Es gibt verschiedene Wege, den Befehl umzusetzen:
-    -   Wähle die {{MenuCommand|Ansicht → Standardansichten → <img src="images/Std_ViewRotateRight.svg" width=16px> Rechts drehen}} Option aus dem Menü.
-    -   Wähle die {{MenuCommand|Standardansichten → <img src="images/Std_ViewRotateRight.svg" width=16px> Rechts drehen}} aus dem Menü.
-    -   Wähle die {{MenuCommand|Standardansichten → <img src="images/Std_ViewRotateRight.svg" width=16px> Rechts drehen}} aus dem [3D Ansicht](3D_view/de.md) Kontextmenü.
+    -   Wähle die **Ansicht → Standardansichten → <img src="images/Std_ViewRotateRight.svg" width=16px> Rechts drehen** Option aus dem Menü.
+    -   Wähle die **Standardansichten → <img src="images/Std_ViewRotateRight.svg" width=16px> Rechts drehen** aus dem Menü.
+    -   Wähle die **Standardansichten → <img src="images/Std_ViewRotateRight.svg" width=16px> Rechts drehen** aus dem [3D Ansicht](3D_view/de.md) Kontextmenü.
     -   Verwende das Tastaturkürzel: **Shift**+**Rechts**.
 
 ## Skripten

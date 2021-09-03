@@ -17,7 +17,7 @@ Diese Makro-rote Spur (editierbar) um die BoundingBox 6 Faces mit 6 Rechtecken.
 <img alt="" src=images/Macro_BoundingBox_Tracing_00.png  style="width:480px;"> 
 *BoundingBox Tracing macro in action*
 
-## Verwenden Sie {#verwenden_sie}
+## Verwenden Sie 
 
 1.  Wählen Sie das Objekt
 2.  starten Sie das Makro

@@ -14,7 +14,7 @@
 
 ## Anwendung
 
-### Geometrische Grundelemente {#geometrische_grundelemente}
+### Geometrische Grundelemente 
 
 +--------------------------------------------------------------------------+------------------------------+
 | ![](images/PartLinePrimitivesOptions_it.png ) | Linie                        |

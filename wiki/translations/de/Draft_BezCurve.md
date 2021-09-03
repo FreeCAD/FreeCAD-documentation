@@ -25,8 +25,8 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 
 1.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_BezCurve.svg" width=16px> [Entwurf BezKurve](Draft_BezCurve/de.md)** Schaltfläche.
-    -   Wähle die {{MenuCommand|Entwurf → Bézier Werkzeuge → <img src="images/Draft_BezCurve.svg" width=16px> Bézier Kurve}} Option aus dem Menü.
-2.  Das {{MenuCommand|Bézier Kurve}} Aufgabenpaneel wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+    -   Wähle die **Entwurf → Bézier Werkzeuge → <img src="images/Draft_BezCurve.svg" width=16px> Bézier Kurve** Option aus dem Menü.
+2.  Das **Bézier Kurve** Aufgabenpaneel wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Nimm den ersten Punkt in der [3D Ansicht](3D_view/de.md) oder gib die Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
 4.  Nimm weitere Punkte in der [3D Ansicht](3D_view/de.md) oder gib die Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
 5.  Drücke **Esc** oder die **Schließen** Schaltfläche zum Beenden des Befehls.
@@ -36,10 +36,10 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geändert werden. Siehe [Entwurf Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die Standardtastenkürzel.
 
 -   Um die Koordinaten manuell einzugeben, gib die X, Y und Z Komponente ein und drücke nach jeder Eingabe **Eingabe**. Oder du kannst die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche drücken, wenn du die gewünschten Werte hast. Es ist ratsam, vor der Eingabe der Koordinaten, den Mauszeiger aus der [3D Ansicht](3D_view/de.md) zu bewegen.
--   Drücke **R** oder klicke auf das Kontrollkästchen {{MenuCommand|Relativ}}, um den relativen Modus einzuschalten. Wenn der relative Modus eingeschaltet ist, sind die Koordinaten relativ zum letzten Punkt, falls vorhanden, ansonsten relativ zum Ursprung des Koordinatensystems.
--   Drücke **G** oder klicke auf das Kontrollkästchen {{MenuCommand|Global}}, um den globalen Modus umzuschalten. Wenn der globale Modus eingeschaltet ist, sind die Koordinaten relativ zum globalen Koordinatensystem, ansonsten sind sie relativ zum Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). <small>(v0.20)</small> 
--   Drücke **L** oder klicke auf das Kontrollkästchen {{MenuCommand|Gefüllt}}, um den gefüllten Modus umzuschalten. Wenn der Füllmodus eingeschaltet ist, hat die erzeugte Kurve **Mache Fläche** auf `True` gesetzt und hat eine gefüllte Fläche, vorausgesetzt, sie ist geschlossen und schneidet sich nicht selbst. Beachte, dass eine sich selbst schneidende Kurve mit einer Fläche nicht richtig angezeigt wird, für eine solche Kurve muss **Mache Fläche** auf `False` gesetzt werden.
--   Drücke **T** oder klicke auf das Kontrollkästchen {{MenuCommand|Weiter}}, um den Fortsetzungsmodus umzuschalten. Wenn der Fortsetzungsmodus eingeschaltet ist, wird der Befehl nach Betätigung von **[16px](IMage:Draft_FinishLine.svg.md) Beenden** oder **<img src="images/Draft_CloseLine.svg" width=16px> Schließen**, oder nach dem Erstellen einer geschlossenen Kurve, durch fangen des ersten Punkts der Kurve, kannst du mit dem Erstellen von Kurven fortfahren.
+-   Drücke **R** oder klicke auf das Kontrollkästchen **Relativ**, um den relativen Modus einzuschalten. Wenn der relative Modus eingeschaltet ist, sind die Koordinaten relativ zum letzten Punkt, falls vorhanden, ansonsten relativ zum Ursprung des Koordinatensystems.
+-   Drücke **G** oder klicke auf das Kontrollkästchen **Global**, um den globalen Modus umzuschalten. Wenn der globale Modus eingeschaltet ist, sind die Koordinaten relativ zum globalen Koordinatensystem, ansonsten sind sie relativ zum Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). <small>(v0.20)</small> 
+-   Drücke **L** oder klicke auf das Kontrollkästchen **Gefüllt**, um den gefüllten Modus umzuschalten. Wenn der Füllmodus eingeschaltet ist, hat die erzeugte Kurve **Mache Fläche** auf `True` gesetzt und hat eine gefüllte Fläche, vorausgesetzt, sie ist geschlossen und schneidet sich nicht selbst. Beachte, dass eine sich selbst schneidende Kurve mit einer Fläche nicht richtig angezeigt wird, für eine solche Kurve muss **Mache Fläche** auf `False` gesetzt werden.
+-   Drücke **T** oder klicke auf das Kontrollkästchen **Weiter**, um den Fortsetzungsmodus umzuschalten. Wenn der Fortsetzungsmodus eingeschaltet ist, wird der Befehl nach Betätigung von **[16px](IMage:Draft_FinishLine.svg.md) Beenden** oder **<img src="images/Draft_CloseLine.svg" width=16px> Schließen**, oder nach dem Erstellen einer geschlossenen Kurve, durch fangen des ersten Punkts der Kurve, kannst du mit dem Erstellen von Kurven fortfahren.
 -   Drücke die **<img src="images/Draft_UndoLine.svg" width=16px> Rückgängig** Schaltfläche, um den letzten Punkt rückgängig zu machen. Das **Strg**+**Z** Tastaturkürzel funktioniert derzeit nicht.
 -   Drücke **A** oder die **<img src="images/Draft_FinishLine.svg" width=16px> Fertigstellen** Schaltfläche, um den Befehl zu beenden und die Kurve offen zu lassen.
 -   Drücke **O** oder die **<img src="images/Draft_CloseLine.svg" width=16px> Schließen** Schaltfläche, um den Befehl zu beenden und die Kurve zu schließen. Eine geschlossene Kurve kann auch durch Fangen am ersten Punkt der Kurve erstellt werden.
@@ -57,8 +57,8 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
--   Um die Anzahl der Dezimalstellen, die bei der Eingabe von Koordinaten verwendet werden: {{MenuCommand|Bearbeiten → Einstellungen... → Allgemein → Einheiten → Einheiteneinstellungen → Anzahl der Dezimalstellen}}.
--   Um den Anfangswert des Füllmodus zu ändern: {{MenuCommand|Bearbeiten → Einstellungen... → Entwurf → Allgemeine Einstellungen → Entwurf Werkzeuge Optionen → Objekte mit Flächen füllen, wann immer möglich}}. Ändern des Füllmodus in einem Aufgabenpaneel, wird diese Einstellung für die aktuelle FreeCAD Sitzung überschreiben.
+-   Um die Anzahl der Dezimalstellen, die bei der Eingabe von Koordinaten verwendet werden: **Bearbeiten → Einstellungen... → Allgemein → Einheiten → Einheiteneinstellungen → Anzahl der Dezimalstellen**.
+-   Um den Anfangswert des Füllmodus zu ändern: **Bearbeiten → Einstellungen... → Entwurf → Allgemeine Einstellungen → Entwurf Werkzeuge Optionen → Objekte mit Flächen füllen, wann immer möglich**. Ändern des Füllmodus in einem Aufgabenpaneel, wird diese Einstellung für die aktuelle FreeCAD Sitzung überschreiben.
 
 ## Eigenschaften
 

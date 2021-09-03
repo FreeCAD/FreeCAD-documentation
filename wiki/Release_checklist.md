@@ -6,7 +6,7 @@
 
 The aim of this page is to gather ideas and organize things so official releases of FreeCAD require less work, and therefore can happen more often. This topic is discussed on this [forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=6441).
 
-## General ideas {#general_ideas}
+## General ideas 
 
 -   The \"target release\" field of the [tracker](http://www.freecadweb.org/tracker) should be used more, even on bugs that are not assigned to anybody, to mark bugs that we find important to solve before a release, or features we are working on, so others are aware of \"how close\" we are to release. This appears on the [roadmap](http://freecadweb.org/tracker/roadmap_page.php).
 -   We should find a way to process the list below (A \"tickable\" list somewhere?)
@@ -20,11 +20,11 @@ The aim of this page is to gather ideas and organize things so official releases
     -   The documentation can be fully updated
     -   The release notes can be prepared/finished
 
-# Release management {#release_management}
+# Release management 
 
 Preparing FreeCAD for a release
 
-## Release Day - 3 weeks - Feature Freeze {#release_day___3_weeks___feature_freeze}
+## Release Day - 3 weeks - Feature Freeze 
 
 1.  Forum post announcing the feature freeze and asking for testing
 2.  Start changing the version number in the FreeCAD docs
@@ -37,29 +37,29 @@ Preparing FreeCAD for a release
     :   [Workbench\_KEY](Workbench_KEY.md)
     :   [Workbench\_ICON](Workbench_ICON.md)
 
-## Release Day - 2 weeks - String Freeze {#release_day___2_weeks___string_freeze}
+## Release Day - 2 weeks - String Freeze 
 
 1.  Update and commit new .ts files
 2.  Push translation files to Crowdin, use [Crowdin Scripts](Crowdin_Scripts.md)
 3.  Send a message to all FreeCAD translators about the deadline of the upcoming release \-- set the deadline for delivering the translations to e.g. \"Release Day -3 day\"
     -   To message all translators on Crowdin: Log in to Crowdin and make an announcement (TODO: add link here)
 
-## Release Day - 1 week {#release_day___1_week}
+## Release Day - 1 week 
 
 1.  Send the final version of the (short) release announcement to all translators, asking them to translate it into their languages \-- set the deadline for delivering the translations to e.g. \"Release Day -1 day\"
 
-## Release Day - 3 days {#release_day___3_days}
+## Release Day - 3 days 
 
 1.  Finish the release notes
 2.  Finish PR spiel for the forum and wiki/website.
 3.  Announce to all FC translators [(see Release t-2 weeks)]({{PAGENAME}}#Release_Day_-_2_weeks.md) that the deadline for their translations is about to pass
 
-## Release Day - 2 days {#release_day___2_days}
+## Release Day - 2 days 
 
 -   Update years in source files
 -   Update the python API doc pages - [yorik](User:Yorik.md)
 
-## Release Day - 1 day {#release_day___1_day}
+## Release Day - 1 day 
 
 -   Commit a new splash and about screen image, and update all versions in a number of source code locations:
 
@@ -87,9 +87,9 @@ Preparing FreeCAD for a release
 
 :\* TODO: relevant git commands
 
-## Release Day {#release_day}
+## Release Day 
 
-### Pre Release {#pre_release}
+### Pre Release 
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -222,7 +222,7 @@ Upload to SourceForge:
 
 1.  Pull Translations from Crowdin using the [Crowdin Scripts](Crowdin_Scripts.md) (which will pull all Crowdin maintained languages)
 
-### Post Release {#post_release}
+### Post Release 
 
 1.  Update the current version in the wiki
 
@@ -242,7 +242,7 @@ Upload to SourceForge:
     -   Check sourceforge
     -   Check [repology](https://repology.org/metapackage/freecad/badges) and track distros that haven\'t updated to the latest stable
 
-### After Specific releases {#after_specific_releases}
+### After Specific releases 
 
 1.  Things that have to be done / updated after a specific release (remove them as soon as they\'re done)
 
@@ -303,12 +303,12 @@ This is a raw list of sites and blogs that have at some point mentioned FreeCAD.
 
 <div class="mw-collapsible-content">
 
-### Social networks {#social_networks}
+### Social networks 
 
 -   <http://plus.google.com/107660967460246172334/posts>
 -   [yorik](User:Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
-### News Sites {#news_sites}
+### News Sites 
 
 -   <http://makezine.com/>
 -   <http://www.webupd8.org/>
@@ -321,7 +321,7 @@ This is a raw list of sites and blogs that have at some point mentioned FreeCAD.
 -   <http://www.inside3dp.com/>
 -   <http://diy3dprinting.blogspot.com/>
 
-### Other Sites {#other_sites}
+### Other Sites 
 
 -   <http://www.bld3r.com/>
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
@@ -352,7 +352,7 @@ This is a raw list of sites and blogs that have at some point mentioned FreeCAD.
 
 -   <http://www.geosaber.com.br/> (not sure how appropriate/relevant)
 
-### Spanish {#spanish_1}
+### Spanish 
 
 -   <http://www.iearobotics.com/blog/>
 

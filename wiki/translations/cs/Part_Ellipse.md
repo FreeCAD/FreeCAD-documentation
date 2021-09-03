@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-### Základní geometrické tvary {#základní_geometrické_tvary}
+### Základní geometrické tvary 
 
 +--------------------------------------------------------------------------------+---------------------------------+
 | ![](images/PartEllipsePrimitivesOptions_it.png ) | Elipsa                          |

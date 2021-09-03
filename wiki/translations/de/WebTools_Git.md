@@ -22,7 +22,8 @@ Git ist ein komplexes Werkzeug, so dass es sinnvoll ist, die Grundlagen vor der 
 
 1.  Stelle sicher, dass der [Berichtsansicht](Report_view/de.md) geöffnet ist, denn Git-meldungen werden dort angezeigt.
 2.  Speichere das aktuelle aktive Dokument und stelle sicher, dass sich die gespeicherte Datei innerhalb eines existierenden Git-Repository befindet. Es kann ein Unterverzeichnis sein.
-3.  Wähle das Menü {{MenuCommand|WebTools → <img src="images/WebTools_Git.svg" width=16px> [Commit mit Git](WebTools_Git/de.md)}}
+3.  Wähle das Menü **WebTools → <img src="images/WebTools_Git.svg" width=16px> [Commit mit Git](WebTools_Git/de.md)
+**
 4.  Dies öffnet ein [Aufgabenpaneel](Task_panel/de.md) in der [Combo Ansicht](Combo_view/de.md).
 
 ## Optionen
@@ -45,7 +46,7 @@ Git ist ein komplexes Werkzeug, so dass es sinnvoll ist, die Grundlagen vor der 
 -   Das Werkzeug kann bisher keine neuen Repositories anlegen. Ein existierendes lokales Repository muss bereits verfügbar sein (FreeCAD wird prüfen, ob die aktuelle Dokumentendatei in einem Repository ist).
 -   Das Werkzeug kann kein Branches ändern oder anlegen. Das muss manuell mit den Standard-Git-Werkzeugen getan werden.
 
-## Aktivieren eines \'lesbaren\' Diffs für FCStd-Dateien mit dem fcinfo-Utility {#aktivieren_eines_lesbaren_diffs_für_fcstd_dateien_mit_dem_fcinfo_utility}
+## Aktivieren eines \'lesbaren\' Diffs für FCStd-Dateien mit dem fcinfo-Utility 
 
 FreeCADs [Fcstd-Dateiformat](File_Format_FCStd/de.md) ist ein Zip-basiertes Binärformat, für das Git keine sauber lesbaren Diffs (Unterschiede) erstellen kann. Das bedeutet, dass Du nicht sehen kannst, was sich zwischen der einen und der anderen Version geändert hat und dass jede neue im Git-Repository gespeicherte Version eine vollständige Kopie der Datei ist.
 

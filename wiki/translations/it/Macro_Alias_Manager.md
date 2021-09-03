@@ -32,7 +32,7 @@ Le versioni più aggiornate della macro possono essere scaricate da GitHub: <htt
 
 \- pending -
 
-## The script {#the_script}
+## The script 
 
 ToolBar Icon <img alt="" src=images/Aliasmanager_icon.png  style="width:32px;">
 

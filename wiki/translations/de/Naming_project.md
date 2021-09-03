@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Diese Vorlage ist der Leitfaden für ein FreeCAD Entwicklungsprojekt. Sie folgt den Regeln des [Getting Things Done (GTD)](http://de.wikipedia.org/wiki/Getting_Things_Done#Methodology) Prozesses. Die Projekte sind im [Entwicklungsfahrplan](Development_roadmap/de.md) zusammengefasst.
 
-## Zweck und Prinzipien {#zweck_und_prinzipien}
+## Zweck und Prinzipien 
 
 Dies ist ein Entwicklungs- und Gestaltungsversuch zur Umsetzungung einer robusten topologischen Benennung in FreeCAD.
 
@@ -38,7 +38,7 @@ Vieles wurde diskutiert in der [\"Robust References\" Veröffentlichung](http://
 -   [Catia V5 Topology and Generic Naming](http://www.maruf.ca/files/caadoc/CAATopTechArticles/JournalMethodology.htm#Definition) and [Catia V5 Objectives of Generic Naming](http://www.maruf.ca/files/caadoc/CAAMmrTechArticles/CAAMmrGenericNaming.htm#Objectives%20of%20GN)
 -   [Topological naming in OCAF (Open CASCADE Application Framework)](https://www.opencascade.com/doc/occt-7.4.0/overview/html/occt_user_guides__ocaf.html#occt_ocaf_5_6)
 
-### Literatur & Aufsätze {#literatur_aufsätze}
+### Literatur & Aufsätze 
 
 -   J Kripac, \"A mechanism for persistently naming topological entities in history-based parametric solid modelsSymposion über Festkörpermodellierung und Anwendungen 1995, S.21-30\"
 
@@ -56,7 +56,7 @@ Vieles wurde diskutiert in der [\"Robust References\" Veröffentlichung](http://
 
 -   [Assembly Solving for Neutral Re-Imported Product Models Tahir A. Jauhar, Soonhung Han, Soonjo Kwon , p.108-123 , CAD Journal 2020, Volume 17 Number 1](http://www.cad-journal.net/files/vol_17/CAD_17(1)_2020_108-123.pdf)
 
-### Zusammenfassung der bisherigen Arbeit {#zusammenfassung_der_bisherigen_arbeit}
+### Zusammenfassung der bisherigen Arbeit 
 
 Mit Stand 13. Juni 2016 ist hier eine Zusammenfassung der Arbeiten, die für dieses Projekt geleistet wurden:
 
@@ -70,7 +70,7 @@ Mit Stand 13. Juni 2016 ist hier eine Zusammenfassung der Arbeiten, die für die
 
 ## Organisieren
 
-### Information über TNaming {#information_über_tnaming}
+### Information über TNaming 
 
 Siehe [hier](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNaming_Writeup.md) für einen anständigen Bericht über ezzieyguywufs github Repo. Hier sind einige Höhepunkte:
 
@@ -87,13 +87,13 @@ Siehe [hier](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNam
 -   Die TNaming\_Selector Klasse wird verwendet, um ein Feature \"auszuwählen\", das im TDF\_Data Baum verfolgt wird.
     -   ein \"ausgewähltes\" Feature ist eines, auf das der TNaming-Algorithmus von opencascade unabhängig von topologischen Änderungen einen konstanten Bezug auf
 
-## Nächste Aktionen {#nächste_aktionen}
+## Nächste Aktionen 
 
 -   Festlegung des Umfangs
 -   Python Testfälle
 -   Schnittstelle im Teil::TopoShape (+ Pythonbindung)
 
-### Nächste Schritte (ab 13. Juni 2016) {#nächste_schritte_ab_13._juni_2016}
+### Nächste Schritte (ab 13. Juni 2016) 
 
 1.  Ermittle, ob der opencascade TNaming Werkzeugsatz das Problem der topologischen Benennung in FreeCAD vollständig löst
     -   Was sind alle Belegstellen wo Topologische Benennung ein Problem ist?

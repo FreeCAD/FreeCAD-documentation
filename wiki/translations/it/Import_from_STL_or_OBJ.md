@@ -20,7 +20,7 @@ In questo tutorial ci occuperemo di come importare i file STL / OBJ in FreeCAD. 
 
 <div class="mw-translate-fuzzy">
 
-## Il modello {#il_modello}
+## Il modello 
 
 Per questo tutorial è possibile utilizzare un proprio file STL o creare un file demo in questo modo:
 
@@ -42,7 +42,7 @@ Per importare un file STL o OBJ in FreeCAD, creare un nuovo documento di FreeCAD
 
 <div class="mw-translate-fuzzy">
 
-## Pulizia e riparazione del file STL / OBJ per prepararlo all\'importazione {#pulizia_e_riparazione_del_file_stl_obj_per_prepararlo_allimportazione}
+## Pulizia e riparazione del file STL / OBJ per prepararlo all\'importazione 
 
 In genere, FreeCAD può importare qualsiasi file STL / OBJ. Ma il nostro obiettivo è quello di avere un solido che possa essere misurato e modificato (con l\'aggiunta di estrusioni, scavi, ecc ..). Per la conversione da mesh a solido si deve fare in modo che la mesh sia \"a tenuta stagna\", cioè senza buchi o non abbia altri errori.
 L\'obiettivo di FreeCAD non è quello di essere un buon modellatore di mesh, esso è stato progettato per essere un modellatore di solidi. FreeCAD ha alcune funzionalità per le operazioni su mesh negli ambienti Mesh e OpenSCAD (Alcune operazioni richiedono che OpenSCAD sia stato installato e configurato nelle preferenze di FreeCAD).
@@ -59,7 +59,7 @@ In questo tutorial si usa l\'ambiente Mesh incorporato in FreeCAD per pulire / r
 
 <div class="mw-translate-fuzzy">
 
-### Analisi e riparazione automatica {#analisi_e_riparazione_automatica}
+### Analisi e riparazione automatica 
 
 -   Aprire FreeCAD e il file FreeCAD campione contenente l\'oggetto mesh
 -   Passare nell\'ambiente Mesh
@@ -77,7 +77,7 @@ In questo tutorial si usa l\'ambiente Mesh incorporato in FreeCAD per pulire / r
 
 <div class="mw-translate-fuzzy">
 
-### Armonizzare le normali {#armonizzare_le_normali}
+### Armonizzare le normali 
 
 Per armonizzazione le normali di un oggetto mesh si può
 
@@ -92,7 +92,7 @@ Suggerimento: Scegliendo l\'oggetto mesh nella vista ad albero, andando alla sch
 
 <div class="mw-translate-fuzzy">
 
-### Chiudere i fori {#chiudere_i_fori}
+### Chiudere i fori 
 
 Inoltre è possibile chiudere manualmente i buchi nell\'oggetto mesh:
 
@@ -114,7 +114,7 @@ Un altro metodo di chiusura manuale dei fori in un oggetto mesh può essere:
 
 <div class="mw-translate-fuzzy">
 
-## Convertire la mesh in solido {#convertire_la_mesh_in_solido}
+## Convertire la mesh in solido 
 
 -   Passare nell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md)
 -   Accertarsi che l\'oggetto mesh sia selezionato nella vista ad albero, altrimenti selezionarlo

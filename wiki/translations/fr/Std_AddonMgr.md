@@ -20,7 +20,7 @@ En raison des modifications apportées à la plate-forme GitHub en 2020, le gest
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Outils → <img src="images/Std_AddonMgr.svg" width=16px> Gestionnaire d'Addon }} dans le menu.
+1.  Sélectionnez l\'option **Outils → <img src="images/Std_AddonMgr.svg" width=16px> Gestionnaire d'Addon ** dans le menu.
 2.  Si vous utilisez le gestionnaire d\'extensions pour la première fois, une boîte de dialogue s\'ouvrira pour vous avertir que les extensions du gestionnaire d\'extensions ne font pas officiellement partie de FreeCAD. Appuyez sur le bouton **OK** pour confirmer et continuer.
 3.  La boîte de dialogue Gestionnaire de modules complémentaires s\'ouvre. Pour plus d\'informations, voir [Options](#Options.md).
 4.  Le bouton **<img src="images/Button_valid.svg" width=16px> Tout mettre à jour** ne fonctionne pas pour le moment.
@@ -36,7 +36,7 @@ La boîte de dialogue Gestionnaire de modules complémentaires comporte deux ong
 1.  Sélectionnez un module complémentaire installé dans l\'onglet <img alt="" src=images/Folder.svg  style="width:16px;"> **Ateliers** ou dans l\'onglet <img alt="" src=images/Applications-python.svg  style="width:16px;"> **Macros**.
 2.  Appuyez sur le bouton **<img src="images/Delete.svg" width=16px> Désinstaller la sélection**.
 
-### Installer/mettre à jour {#installermettre_à_jour}
+### Installer/mettre à jour 
 
 1.  Sélectionnez un module complémentaire dans l\'onglet <img alt="" src=images/Folder.svg  style="width:16px;"> **Ateliers** ou dans l\'onglet <img alt="" src=images/Applications-python.svg  style="width:16px;"> **Macros**.
 2.  Appuyez sur le bouton **<img src="images/Edit_OK.svg" width=16px> Installer/mettre à jour la sélection**.
@@ -60,15 +60,15 @@ La boîte de dialogue Gestionnaire de modules complémentaires comporte deux ong
 -   Si le package [GitPython](https://github.com/gitpython-developers/GitPython) est installé sur votre ordinateur, le gestionnaire d\'extensions s\'en servira, ce qui accélérera les téléchargements.
 -   Vous pouvez également installer des modules complémentaires manuellement. Voir [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md) et [Comment installer des macros](How_to_install_macros/fr.md).
 
-## Informations pour les développeurs {#informations_pour_les_développeurs}
+## Informations pour les développeurs 
 
 Si vous avez développé un atelier ou une macro et souhaitez l\'inclure dans le gestionnaire des extensions, lisez la procédure à suivre dans les pages des dépôts ([FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) et [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). Si vous ajoutez votre macro à la [Liste des macros](Macros_recipes/fr.md), il n\'y a rien d\'autre à faire, elle sera automatiquement sélectionnée par le gestionnaire Addon Manager.
 
-### Ateliers Python {#ateliers_python}
+### Ateliers Python 
 
 Pour les ateliers Python, vous n\'avez besoin d\'aucune approbation spécifique pour ajouter votre atelier au Addon manager et, étant en dehors du code source de FreeCAD, vous pouvez choisir la licence de votre choix. Si vous demandez l'ajout de votre atelier dans la liste (nous n'ajouterons aucun nouveau atelier sans une demande de ses auteurs), soit en le demandant sur le forum, soit en créant une requête (\"issue\" en anglais) sur le site [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/), votre code restera sur votre propre dépôt git, nous l\'ajouterons simplement en tant que sous-module au dépôt [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/). Bien sûr, avant d\'ajouter votre atelier, nous allons l\'examiner et nous assurer qu\'il ne pose aucun problème potentiel.
 
-### Ateliers C++ {#ateliers_c}
+### Ateliers C++ 
 
 Si vous développez un atelier en C++, il ne peut pas être exécuté directement par les utilisateurs et doit d\'abord être compilé. Vous avez alors deux options, soit vous fournissez vous-même les versions pré-compilées de votre atelier pour les différents systèmes d\'exploitation, soit vous devez demander à ce que votre code soit fusionné dans le code source de FreeCAD. Pour cela, vous devez utiliser la licence LGPL (ou une licence entièrement compatible comme celle du MIT ou BSD) et présenter vos nouveaux outils à la communauté dans le [forum de FreeCAD](https://forum.freecadweb.org) pour être examiné. Une fois que votre code a été testé et approuvé, vous devez créer une nouvelle branche dans le dépôt FreeCAD, si ce n'est pas encore fait, y insérer votre code et ouvrir une demande de retrait (pull request) afin que votre branche soit fusionnée dans le dépôt principal.
 

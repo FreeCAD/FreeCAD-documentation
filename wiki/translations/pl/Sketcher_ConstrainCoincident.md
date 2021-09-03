@@ -23,12 +23,12 @@ Jak stwierdzono powyżej, narzędzie to przyjmuje dwa argumenty - oba są punkta
 1.  Po pierwsze, konieczne jest zaznaczenie dwóch różnych punktów. *(**Uwaga:** to nie zadziała, jeżeli na przykład spróbujemy wybrać punkt początkowy i punkt końcowy tej samej linii prostej. Wybranie punktów początkowych i końcowych łuku spowoduje utworzenie zamkniętego okręgu lub elipsy, ale ograniczy położenie szwu do tego punktu)*.
 2.  Podświetlenie elementu rysunku uzyskuje się poprzez umieszczenie na nim kursora myszki i kliknięcie lewym przyciskiem myszy.
 3.  Możliwe jest również zaznaczenie wszystkich elementów wewnątrz prostokąta poprzez kliknięcie i przeciągnięcie. Przy przeciąganiu od lewej do prawej (z dowolnym ruchem pionowym) zostaną podświetlone tylko kształty, które w całości mieszczą się w prostokącie; w drugim kierunku zostaną podświetlone wszystkie kształty, które przecinają się z prostokątem zaznaczenia. Można to wykorzystać do zaznaczenia tylko wierzchołków bez zaznaczania krawędzi, przeciągając mały prostokąt wokół niektórych wierzchołków od lewej do prawej, o ile nie ma krawędzi, które w całości mieszczą się w prostokącie.
-4.  Podświetlony element zmieni swój kolor na zielony. *(Kolor ten można dostosować do własnych potrzeb w {{MenuCommand|Edycja → Preferencje → Wyświetlanie → Kolory → Zaznaczanie}})*.
+4.  Podświetlony element zmieni swój kolor na zielony. *(Kolor ten można dostosować do własnych potrzeb w **Edycja → Preferencje → Wyświetlanie → Kolory → Zaznaczanie**)*.
 5.  Kolejne punkty mogą być podświetlone poprzez powtórzenie powyższych procedur. **Uwaga"** Nie trzeba przytrzymywać żadnego specjalnego klawisza, jak **Ctrl** aby uzyskać wielokrotny wybór pozycji na rysunku.
 6.  Po podświetleniu dwóch punktów, można wywołać komendę za pomocą kilku metod:
     -   Wciskając przycisk wiązania na pasku przyborów **<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md)**.
     -   Użycie skrótu klawiszy **C** przy pomocy klawiatury.
-    -   Użycie polecenia w górnym menu {{MenuCommand|Szkicownik → Wiązania szkicownika → Wiązanie zbieżności}}.
+    -   Użycie polecenia w górnym menu **Szkicownik → Wiązania szkicownika → Wiązanie zbieżności**.
 
 
 **Wynik:**
@@ -40,7 +40,7 @@ polecenie to spowoduje, że dwa punkty staną się *nałożone na siebie* i zost
 
 Aby uczynić dwa punkty zbieżnymi, FreeCAD musi z konieczności przenieść jeden *(lub oba)* z oryginalnych pozycji.
 
-## Alternatywy dla wiązania zbieżności {#alternatywy_dla_wiązania_zbieżności}
+## Alternatywy dla wiązania zbieżności 
 
 Dwa ograniczone elementy wiązania [zbieżności](Sketcher_ConstrainCoincident/pl.md) muszą być punktami początkowymi lub końcowymi wierzchołkami lub punktami środkowymi łuków, okręgów lub elips. Niektóre kombinacje, które nie są możliwe przy wiązaniu zbieżnym, można emulować przy użyciu innych wiązań:
 
@@ -51,7 +51,7 @@ Dwa ograniczone elementy wiązania [zbieżności](Sketcher_ConstrainCoincident/p
 -   Dwie krawędzie mogą być identyczne poprzez użycie dwóch wiązań <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [zbieżności](Sketcher_ConstrainCoincident/pl.md), po jednym dla każdej pary końców.
 -   Dwa okręgi można uczynić identycznymi za pomocą wiązania <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [zbieżności](Sketcher_ConstrainCoincident/pl.md), aby połączyć środki, i stosując wiązanie <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;">. [równości](Sketcher_ConstrainEqual/pl.md) w stosunku do ich krawędzi. W przypadku łuków, zapewni to, że oba łuki będą częścią tego samego okręgu, ale pozwoli im mieć różne punkty początkowe i końcowe.
 
-### Ogólne zasady tworzenia skryptów {#ogólne_zasady_tworzenia_skryptów}
+### Ogólne zasady tworzenia skryptów 
 
 Wiązanie może być utworzone zarówno przez [makrodefinicje](Macros/pl.md) jak i z konsoli [Python](Python.md) za pomocą następującego polecenia:
 

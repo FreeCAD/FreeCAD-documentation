@@ -28,7 +28,7 @@ Face să apară conținutul mai mic în vizualizarea 3D .
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 -   Go to **View → Zoom‏‎ → <img alt="" src=images/Zoom-out.svg  style="width:24px;"> Zoom Out** or press **Ctrl** + **-**.
 -   The view can also be zoomed out with the mouse scroll wheel.
@@ -42,7 +42,7 @@ Face să apară conținutul mai mic în vizualizarea 3D .
 
 ## Preferences
 
--   The zoom factor can be changed in the preferences: {{MenuCommand|Edit → Preferences... → Display → Navigation → Zoom step}}. This setting also affects scroll wheel zoom. See [Preferences Editor](Preferences_Editor#Navigation.md).
+-   The zoom factor can be changed in the preferences: **Edit → Preferences... → Display → Navigation → Zoom step**. This setting also affects scroll wheel zoom. See [Preferences Editor](Preferences_Editor#Navigation.md).
 
 ## Scripting
 

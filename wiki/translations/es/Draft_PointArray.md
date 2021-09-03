@@ -35,11 +35,11 @@ creados con el [Ambiente de Trabajo Borrador](Draft_Module/es.md) o [Ambien
 2.  Añade el objeto [punto compuesto](#Punto_compuesto.md) a la selección.
 3.  Hay varias formas de invocar el comando:
     -   Pulsar el **<img src="images/Draft_PointArray.svg" width=16px> [Borrador ArregloPunto](Draft_PointArray/es.md)**.
-    -   Seleccione la opción {{MenuCommand|Modificación → Herramientas de arreglo →<img src="images/Draft_PointArray.svg" width=16px> Arreglo de puntos}} en el menú.
+    -   Seleccione la opción **Modificación → Herramientas de arreglo →<img src="images/Draft_PointArray.svg" width=16px> Arreglo de puntos** en el menú.
 4.  Se crea el arreglo.
 5.  Opcionalmente cambia las [propiedades](#Propiedades.md) del arreglo en el [Editor de propiedades](property_editor/es.md).
 
-## Compuesto de puntos {#compuesto_de_puntos}
+## Compuesto de puntos 
 
 Un compuesto de puntos es un objeto que contiene uno o más puntos. Estos son los compuestos de puntos soportados y cómo se pueden crear:
 

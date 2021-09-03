@@ -17,7 +17,7 @@ L\'outil Dimension de Rayon ajoute une dimension de rayon à une vue. La cote pe
 <img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width:130px;"> 
 *Mesurer un cercle, indiquant le rayon*
 
-## Comment faire {#comment_faire}
+## Comment faire 
 
 1.  Sélectionnez un cercle ou un arc de cercle dans le dessin. (Remarquez que certains arcs qui semblent être circulaires sont en fait des ellipses ou des BSplines. Vous ne pouvez pas créer de cote de rayon dans ces cas-là)
 2.  Appuyez sur le bouton **<img src="images/TechDraw_Dimension_Radius.svg" width=16px> [Insérer une nouvelle cote de rayon](TechDraw_Dimension_Radius/fr.md)

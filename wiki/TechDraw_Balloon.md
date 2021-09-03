@@ -23,7 +23,7 @@ The Balloon tool can add balloons with leader line in a drawing.
 
 **Note:** The position of the balloon is relative to the View and uses the same scale factor as the View.
 
-## Using separators {#using_separators}
+## Using separators 
 
 When using a rectangle shape, separators can be added using \"\|\" in the text. For example \"AAA\|TEST\|111\" gives:
 

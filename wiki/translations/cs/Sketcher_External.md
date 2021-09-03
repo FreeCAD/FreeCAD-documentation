@@ -35,7 +35,7 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 -   Select an edge or a vertex that you want to link to in the sketch.
 -   Press Esc, or select another tool to stop importing geometry into the sketch.
 
-### Selection rules {#selection_rules}
+### Selection rules 
 
 -   Only edges and vertices from objects from same coordinate system are allowed.
 
@@ -52,7 +52,7 @@ Sketch doesn\'t have to be on any face in order to use this tool. Links directly
 
 <div class="mw-translate-fuzzy">
 
-### Jak zjistit jestli to prošlo {#jak_zjistit_jestli_to_prošlo}
+### Jak zjistit jestli to prošlo 
 
 Pokud je linka úspěšně přetažena změní se její barva na magenta. Pokud přetažena nebyla zůstává její barva zelená.
 
@@ -62,7 +62,7 @@ Pokud je linka úspěšně přetažena změní se její barva na magenta. Pokud 
 
 <div class="mw-translate-fuzzy">
 
-### Podobnost s Konstrukčními linkami {#podobnost_s_konstrukčními_linkami}
+### Podobnost s Konstrukčními linkami 
 
 Přetažené konstrukční linky v barvě magenta mohou být využity jak [Konstrukční linky](Sketcher_ConstructionMode/cs.md). Konstrukční linky jsou vnitřní linky náčrtu a používají se pouze pro vytváření konstrukce a ne pro pozdější operace s tělesem, jako je třeba vysunutí.
 
@@ -72,7 +72,7 @@ Přetažené konstrukční linky v barvě magenta mohou být využity jak [Konst
 
 <div class="mw-translate-fuzzy">
 
-### Dvě hlavní oblasti využití Přetažených linek {#dvě_hlavní_oblasti_využití_přetažených_linek}
+### Dvě hlavní oblasti využití Přetažených linek 
 
 
 </div>
@@ -96,7 +96,7 @@ Volba 1 je jednodušší volbou. Chcete-li udělat otvor na určitém místě ob
 
 <div class="mw-translate-fuzzy">
 
-### Záludné použití, Sneaky Usage, Dimension One Sketch Off Of Another {#záludné_použití_sneaky_usage_dimension_one_sketch_off_of_another}
+### Záludné použití, Sneaky Usage, Dimension One Sketch Off Of Another 
 
 One can use this to dimension one sketch off of another using the following order of operations:
 

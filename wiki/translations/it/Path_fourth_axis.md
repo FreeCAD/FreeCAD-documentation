@@ -34,7 +34,7 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 
 ## Utilizzo
 
-### Profile Faces {#profile_faces}
+### Profile Faces 
 
 -   Select the face(s) for the operation as normal
 -   Click on the Path Profile Faces icon to start the operation
@@ -44,7 +44,7 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 -   Recompute the operation
 -   Adjust start/final depths as needed. Final depth is coded to NOT go beyond the selected face used for the profile.
 
-### Pocket Shape {#pocket_shape}
+### Pocket Shape 
 
 -   Click on the Path Pocket Shape icon to start the operation.
 -   Click the OK to create the operation - no faces selected
@@ -56,7 +56,7 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 -   Change the other operation settings as desired.
 -   Click OK to save and apply the changes.
 
-## Risoluzione dei problemi {#risoluzione_dei_problemi}
+## Risoluzione dei problemi 
 
 -   There is an \"Inverse Angle\" property. You may have to toggle this to get correct paths for some of your faces.
 -   Set \"Enable Rotation\" to other than \'Off\' to profile faces perpendicularly that are not normal to Z-axis.

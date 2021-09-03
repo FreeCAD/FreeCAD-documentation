@@ -30,7 +30,7 @@ Go to <https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> and follow 
 -   Once installed, open workbench Pyramids-and-Polyhedrons
 -   Click on a part of your choice and adjust the parameters to your preferences.
 
-## Tutorials on youtube {#tutorials_on_youtube}
+## Tutorials on youtube 
 
 -   Pyramids use and possibilities : <https://youtu.be/H8IgmzpMpSg>
 -   More advanced, build a model of a geodesic dome : <https://youtu.be/FsYHYnVcVvI>

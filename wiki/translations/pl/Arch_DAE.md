@@ -6,7 +6,7 @@ Zauważ, że importowane obiekty będą obiektami [Siatki](Mesh_Workbench/pl.md)
 
 Funkcjonalność importu Collada w środowisku pracy Architektura zależy od [pycollada](http://pycollada.github.io/). Jeśli nie jest ona zainstalowana w twoim systemie, import/eksport Collady zostanie wyłączony.
 
-## Odnośniki internetowe {#odnośniki_internetowe}
+## Odnośniki internetowe 
 
 -   [Importowanie z programu Sketchup](Importing_From_Sketchup.md)
 

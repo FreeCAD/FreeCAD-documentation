@@ -13,7 +13,7 @@ La commande **Points Fusion** crée un nuage de points en combinant les points d
 ## Utilisation
 
 1.  Sélectionnez un objet de nuage de points unique.
-2.  Sélectionnez l\'option {{MenuCommand|Points → Fusionner les nuages de points}} dans le menu.
+2.  Sélectionnez l\'option **Points → Fusionner les nuages de points** dans le menu.
 
 ## Propriétés
 

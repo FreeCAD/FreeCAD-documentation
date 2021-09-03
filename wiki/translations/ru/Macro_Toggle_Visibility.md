@@ -16,7 +16,7 @@
     -   if no objects are selected then all objects are hidden
     -   if all objects are selected then all objects are made visible
 
-## How To Use {#how_to_use}
+## How To Use 
 
 Copy the macro and the icon in your folder macros and run (see [How to install macros](How_to_install_macros.md))
 

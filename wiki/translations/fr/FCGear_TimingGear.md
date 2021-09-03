@@ -23,7 +23,7 @@ Les engrenages de distribution sont connectés à une courroie de distribution o
 1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
 2.  Lancez la commande d\'une de ces manières:
     -   Appuyez sur le bouton <img alt="" src=images/FCGear_TimingGear.svg  style="width:22px;"> [Create a Timing gear](FCGear_WormGear/fr.md) dans la barre d\'outils.
-    -   Utilisez le {{MenuCommand|Gear Menu → Timing gear}}.
+    -   Utilisez le **Gear Menu → Timing gear**.
 3.  Modifier le paramètre d\'engrenage selon les conditions requises (voir **Propriétés → Données** ci-dessous).
 
 ## Propriétés
@@ -75,7 +75,7 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 Les limitations ne sont pas encore connues.
 
-## Formules utiles {#formules_utiles}
+## Formules utiles 
 
 -    **addendum diameter**= **pitch diameter** + 2 \* **module**
 

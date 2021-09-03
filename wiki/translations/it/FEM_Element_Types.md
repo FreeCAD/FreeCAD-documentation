@@ -4,7 +4,7 @@
 
 Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.extra.cea.fr/static/MED/web_med/logiciels/med-2.3.1/doc/html/modele_de_donnees.html#3>. modele de donnes\].
 
-## Elemento Segmento {#elemento_segmento}
+## Elemento Segmento 
 
 <img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
 
@@ -14,7 +14,7 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
 
   : Edges of Seg2 and Seg3
 
-## Elemento Triangolo {#elemento_triangolo}
+## Elemento Triangolo 
 
 <img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width:600px;">
 
@@ -44,7 +44,7 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
 
   : Face by Nodes of Tria6
 
-## Elemento Quadrangolo {#elemento_quadrangolo}
+## Elemento Quadrangolo 
 
 <img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
 
@@ -75,7 +75,7 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
 
   : Face by Nodes of Quad8
 
-## Elemento Tetraedro {#elemento_tetraedro}
+## Elemento Tetraedro 
 
 <img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width:600px;">
 
@@ -117,7 +117,7 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
 
   : Faces by Nodes of Tetra10
 
-## Elemento Esaedro {#elemento_esaedro}
+## Elemento Esaedro 
 
 <img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width:600px;">
 
@@ -171,7 +171,7 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
 
   : Faces by Nodes of Hexa20
 
-## Elemento Pentaedro (prisma) {#elemento_pentaedro_prisma}
+## Elemento Pentaedro (prisma) 
 
 <img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width:600px;">
 
@@ -219,7 +219,7 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
 
   : Faces by Nodes of Penta15
 
-## Elemento Piramide {#elemento_piramide}
+## Elemento Piramide 
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
 

@@ -36,7 +36,7 @@
 
 </div>
 
-## Common Arch component properties {#common_arch_component_properties}
+## Common Arch component properties 
 
 The Arch component object is also a base shared by all other Arch objects (**<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)**, **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)**, etc). Therefore some of its properties and behaviours are common to all Arch objects (except tools that don\'t produce solid objects, like **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch Section Plane](Arch_SectionPlane.md)** or **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)**):
 

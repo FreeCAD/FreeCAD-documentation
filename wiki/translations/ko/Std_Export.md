@@ -22,7 +22,7 @@
     -   같은 이유로 FreeCAD 0.18 이전 버전에서는 [개체 선택](Std_BoxSelection/ko.md) 명령을 사용하지 말아야 합니다.
 
 2.  이 명령을 실행하는 방법은 여러가지입니다:
-    -   메뉴에서 {{MenuCommand|파일 → <img src="images/Std_Export.svg" width=16px> 내보내기...}} 옵션을 선택합니다.
+    -   메뉴에서 **파일 → <img src="images/Std_Export.svg" width=16px> 내보내기...** 옵션을 선택합니다.
     -   단축키를 사용합니다: **Ctrl**+**E**.
 
 3.  대화 상자에서 알맞는 파일 형식을 선택합니다.
@@ -32,7 +32,7 @@
 5.  
     **저장**버튼을 누릅니다.
 
-## 선택 사항 {#선택_사항}
+## 선택 사항 
 
 -   명령을 중지하려면 **Esc** 키나 **취소** 버튼을 누릅니다.
 
@@ -41,11 +41,11 @@
 -   [메시 개체를](Mesh_Workbench/ko.md) 솔리드 파일 형식으로 내보내기 하려면 먼저 변환해야 합니다. [STL이나 OBJ 가져오기](Import_from_STL_or_OBJ.md) 자습서를 참조하십시오.
 -   일부 작업대에는 추가적인 내보내기 명령어가 있습니다. 참조: [가져오기 내보내기](Import_Export/ko.md).
 
-## 환경 설정 {#환경_설정}
+## 환경 설정 
 
 -   참조: [가져오기 내보내기 환경설정](Import_Export_Preferences/ko.md).
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: {{MenuCommand|도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   마지막으로 가져온 파일의 위치가 다음에 저장됩니다: {{MenuCommand|도구 → 파라미터 편집... → BaseApp → Preferences → General → FileExportFilter}}.
+-   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   마지막으로 가져온 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileExportFilter**.
 
 
 

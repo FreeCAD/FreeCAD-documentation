@@ -8,15 +8,15 @@
 
 ## Wprowadzenie
 
-Ekran preferencji środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) znajduje się w [Edytorze preferencji](Preferences_Editor/pl.md), {{MenuCommand|Edycja → Preferencje → Rysunek Techniczny}}.
+Ekran preferencji środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) znajduje się w [Edytorze preferencji](Preferences_Editor/pl.md), **Edycja → Preferencje → Rysunek Techniczny**.
 
 Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościami domyślnymi dla nowo tworzonych obiektów rysunku. Nie mają one żadnego wpływu na już istniejące obiekty.
 
-## Informacje ogólne {#informacje_ogólne}
+## Informacje ogólne 
 
 <img alt="Preferencje ogólne" src=images/TechDraw_PreferencesGeneral.png  style="width:350px;">
 
-#### Aktualizacje rysunków {#aktualizacje_rysunków}
+#### Aktualizacje rysunków 
 
 
 {{Version/pl|0.19}}
@@ -50,13 +50,13 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 
 <img alt="Preferencje dotyczące skali" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
 
-### Skala {#skala_1}
+### Skala 
 
 -   **Skala strony**: Domyślna skala dla nowych stron.
 -   **Wyświetl typ skali**: Domyślna skala dla nowych widoków.
 -   **Wyświetl niestandardową skalę**: Domyślna skala dla widoków, jeśli opcja **Wyświetl typ skali** jest ustawiona na **Niestandardowa**.
 
-### Dostosowanie rozmiaru {#dostosowanie_rozmiaru}
+### Dostosowanie rozmiaru 
 
 -   **Vertex Scale**: Rozmiar punktu [wierzchołka](Glossary#V.md). Mnożnik szerokości linii.
 -   **Center Mark Scale**: Rozmiar znaków środków. Mnożnik rozmiaru wierzchołka.
@@ -67,7 +67,7 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 
 <img alt="Preferencje wymiarów" src=images/TechDraw_PreferencesDimensions.png  style="width:350px;">
 
-### Wymiary {#wymiary_1}
+### Wymiary 
 
 -   **Standard i wygląd**: Norma stosowana dla wartości wymiarów. Różnica pomiędzy standardami przedstawiona jest na zdjęciu: ![\|500px\|Różnice pomiędzy wspieranymi normami. *([źródło ilustracji](images/https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))*](TechDraw_Dimension_standardization.png )
 
@@ -163,11 +163,11 @@ HLR oznacza \"usunięcie ukrytej linii\".
 -   **Max SVG kafelki kreskowania**: Limit płytek SVG o rozmiarze 64x64 pikseli stosowany do zakreskowania pojedynczej powierzchni. Przy dużych skalach można popełnić błąd przy wielu kafelkach SVG, wtedy należy zwiększyć limit kafelków.
 -   *Maksymalne segmenty linii kreskowania PAT*: Maksymalna liczba segmentów linii kreskowania stosowana przy kreskowaniu powierzchni o wzorze PAT.
 
-## Ustawienia ukryte {#ustawienia_ukryte}
+## Ustawienia ukryte 
 
 \'\'\'Uwaga: \'\'\' Od wersji **0.19** wszystkie ustawienia są dostępne w menu Preferencje. Poniższe informacje dotyczą tylko wersji FreeCAD starszych niż 0.19:
 
-Niektóre ustawienia preferencji są dostępne tylko poprzez [Edytor parametrów](Std_DlgParameter/pl.md), {{MenuCommand|Narzędzia → Edycja parametrów}}.
+Niektóre ustawienia preferencji są dostępne tylko poprzez [Edytor parametrów](Std_DlgParameter/pl.md), **Narzędzia → Edycja parametrów**.
 
 ### Preferencje/Mod/TechDraw/Dekoracje
 

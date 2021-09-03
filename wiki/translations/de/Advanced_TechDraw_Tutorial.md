@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -11,7 +11,7 @@
 |FCVersion=0.19.23300 oder höher
 }}
 
-## Zielsetzung in Kürze {#zielsetzung_in_kürze}
+## Zielsetzung in Kürze 
 
 Erstelle Punkte, Linien, Kreise, Bögen usw. in TechDraw Ansichten und/oder ganze \"kosmetische\" Zeichnungen mit absoluter Präzision, passend zu den Bemaßungswerkzeugen, mit denen der Arbeitsbereich ausgestattet ist, um konforme und detaillierte technische Zeichnungen zu erzeugen.
 
@@ -30,7 +30,7 @@ Dieses Tutorium führt den erfahrenen Anwender in die fortgeschrittene Nutzung v
 
 *Hinweis: Diese Ebenen können durch Überlappung/ Deckungsgleichheit von zwei Kanten unter Verwendung der booleschen Funktion von <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Part Vereinigen](Part_Fuse/de.md) zusammengefügt werden.* Die so geformten und entsprechend positionierten Ebenen (gemäß unseren Bestimmungen) werden als **Schneidklingen** verwendet <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part AuseinanderSchneiden](Part_SliceApart/de.md) zerschneiden unser 3D Objekt entsprechend der gewählten Flächenbestätigung in mehrere Teile.\'\'
 
-## Bevor du anfängst {#bevor_du_anfängst}
+## Bevor du anfängst 
 
 Die Arbeitsbereiche, mit denen die Zeichnungen der angehängten Beispiele erstellt werden, sind:
 \* <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Teil Arbeitsbereich](Part_Workbench/de.md)
@@ -40,7 +40,7 @@ Die Arbeitsbereiche, mit denen die Zeichnungen der angehängten Beispiele erstel
 -   <img alt="" src=images/Workfeature_workbench_icon.svg  style="width:24px;"> [Workfeature Arbeitsbereich](Workfeature_Workbench/de.md)
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md)
 
-## Die Aufgabe {#die_aufgabe}
+## Die Aufgabe 
 
 Stufen des Verfahrens:
 

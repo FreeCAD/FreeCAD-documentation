@@ -16,7 +16,7 @@ Les ateliers marqués avec <img alt="" src=images/AddonManager.svg  style="width
 
 Les ateliers marqués de <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> ne sont pas recommandés pour les versions récentes de FreeCAD. Ils sont obsolètes, non maintenus, remplacés par un atelier plus récent, ou peut-être qu\'ils ne fonctionnent pas avec Python 3 ou avec Qt5. Dans la plupart des cas, ils doivent être évités.
 
-## Ateliers d\'assemblage {#ateliers_dassemblage}
+## Ateliers d\'assemblage 
 
 Depuis FreeCAD 0.19, il n\'y a pas d\'atelier d\'assemblage officiel. Cependant, plusieurs outils externes ont été créés ou sont en cours de développement pour manipuler des objets afin de produire des assemblages.
 
@@ -130,7 +130,7 @@ Le tableau ci-dessous est organisé en rubriques, mais peut être réorganisé e
   <img alt="" src=images/EMWorkbench.svg  style="width:32px;">                                                                   [EM](EM_Workbench/fr.md)                                                       Simulation                     Il fournit une interface graphique pour différents solveurs par [FastFieldSolvers](http://www.fastfieldsolvers.com). Actuellement, il prend en charge le solveur d\'impédance magnéto-quastatique 3D FastHenry. La prise en charge du solveur 3D de capacité électrostatique FasterCap est en cours.                                                                                                                                                                                                                                                                                                                                                                                                                  FastFieldSolvers S.R.L.                               <https://github.com/ediloren/EM-Workbench-for-FreeCAD>                                <img alt="" src=images/AddonManager.svg  style="width:24px;">   
   <img alt="" src=images/FrontISTR.svg  style="width:32px;">                                                                       [FEM FrontISTR](FEM_FrontISTR_Workbench/fr.md)                                 Simulation                     Fournit une interface graphique pour [FrontISTR](https://www.frontistr.com), un programme open-source FEM à calcul en parallèle à grande échelle pour l\'analyse structurelle non linéaire.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           kinagaki                                              <https://github.com/FrontISTR/FEM_FrontISTR>                                                                                                 
 
-## Traduction d\'un atelier externe {#traduction_dun_atelier_externe}
+## Traduction d\'un atelier externe 
 
 Voir la page du wiki pour plus d\'informations [Traduction d\'un atelier externe](Translating_an_external_workbench/fr.md)
 

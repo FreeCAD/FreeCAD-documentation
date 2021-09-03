@@ -17,7 +17,7 @@ La commande <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> 
 1.  Sélectionnez éventuellement un ou plusieurs objets Draft ou [Sketcher Esquisses](Sketcher_NewSketch/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Draft2Sketch.svg" width=16px> [Conversion bidirectionnelle entre les objets Drafts et les esquisses](Draft_Draft2Sketch/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → <img src="images/Draft_Draft2Sketch.svg" width=16px> Draft vers Esquisse}} dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Draft2Sketch.svg" width=16px> Draft vers Esquisse** dans le menu.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 4.  Un nouvel objet est créé.
 

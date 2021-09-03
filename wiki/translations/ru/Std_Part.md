@@ -20,7 +20,7 @@ Although it is primarily intended for solid bodies, the Std Part can be used to 
 
 Do not confuse the **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Body](PartDesign_Body.md)** with the **[16px"> [Std Part](Std_Part.md)**. The first one is a specific object used in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), intended to model a [single contiguous solid](PartDesign_Body#Single_contiguous_solid.md) by means of [PartDesign Features](PartDesign_Feature.md). On the other hand, the [Std Part](Std_Part.md) is not used for modelling, just to arrange different objects in space, with the intention to create [assemblies](assembly.md).
 
-The **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the {{MenuCommand|structure toolbar}} that is available in all [workbenches](Workbenches.md). To group objects arbitrarily without considering their position, use **[16px"> [Std Group](Std_Group.md)**; this object does not affect the placements of the elements that it contains, it is essentially just a folder that is used to keep the [tree view](tree_view.md) organized.
+The **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](Workbenches.md). To group objects arbitrarily without considering their position, use **[16px"> [Std Group](Std_Group.md)**; this object does not affect the placements of the elements that it contains, it is essentially just a folder that is used to keep the [tree view](tree_view.md) organized.
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
@@ -36,7 +36,7 @@ The **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group
 ### Примечания
 
 -   As of v0.19, a given object can only belong to a single Part.
--   Double-click the Part in the [tree view](tree_view.md) or open the context menu (right-click) and select {{MenuCommand|Toggle active part}} to activate or deactivate the Part. If another Part is active, it will be deactivated. See [active status](Std_Part#Active_status.md) for more information.
+-   Double-click the Part in the [tree view](tree_view.md) or open the context menu (right-click) and select **Toggle active part** to activate or deactivate the Part. If another Part is active, it will be deactivated. See [active status](Std_Part#Active_status.md) for more information.
 
 ### Limitations
 
@@ -50,7 +50,7 @@ A [Std Part](Std_Part.md) is internally called [App Part](App_Part.md) (`App::Pa
 
 In addition to the properties described in [App GeoFeature](App_GeoFeature.md), the App Part class has some properties that help it manage information in the context of an assembly, for example, **Type**, **Id**, **License**, **LicenseURL**, **Color**, and **Group**.
 
-These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the {{MenuCommand|Show all}} command in the context menu of the [property editor](property_editor.md).
+These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
 ### Data
 
@@ -88,7 +88,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 -    **Group|LinkList**: a list of referenced objects. By default, it is empty {{value|[]}}.
 
-#### Hidden properties Data {#hidden_properties_data}
+#### Hidden properties Data 
 
 -    **Material|Map**: map with material properties. By default, it is empty {}.
 
@@ -123,7 +123,7 @@ The App Part only has the five properties of the basic [App FeaturePython](App_F
 
 -    **Visibility|Bool**: if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar in the keyboard.
 
-## Assembly concept {#assembly_concept}
+## Assembly concept 
 
 The Std Part is intended to be the basic building block to create assemblies. Unlike a [PartDesign Body](PartDesign_Body.md), an assembly is meant to be a collection of separate, distinguishable elements which are connected in some way in the physical world, for example, through pressure, screws, or glue.
 
@@ -138,16 +138,16 @@ Examples that could be Parts:
 
 In general terms, when importing a STEP file into the program, the main assembly and its sub-assemblies will be imported as Part containers, each of them containing a simple [Part Feature](Part_Feature.md).
 
-## Detailed explanation {#detailed_explanation}
+## Detailed explanation 
 
-### Active status {#active_status}
+### Active status 
 
-An open document can contain multiple Parts. An active Part will be displayed in the [tree view](Tree_view.md) with the background color specified by the {{MenuCommand|Active container}} value in the [preferences editor](Preferences_Editor#Colors.md) (by default, light blue). An active part will also be shown in bold text.
+An open document can contain multiple Parts. An active Part will be displayed in the [tree view](Tree_view.md) with the background color specified by the **Active container** value in the [preferences editor](Preferences_Editor#Colors.md) (by default, light blue). An active part will also be shown in bold text.
 
 To activate or de-activate a Part:
 
 -   Double click on it on the [tree view](Tree_view.md), or
--   Open the context menu (right click) and select {{MenuCommand|Toggle active part}}.
+-   Open the context menu (right click) and select **Toggle active part**.
 
 
 **Notes:**
@@ -180,7 +180,7 @@ the Origin is an [App Origin](App_Origin.md) object (`App::Origin` class), while
 
 all elements inside the Part are referenced to the Part\'s Origin which means that the Part can be moved and rotated in reference to the global coordinate system without affecting the placement of the elements inside.
 
-### Visibility Management {#visibility_management}
+### Visibility Management 
 
 The Part\'s visibility supersedes the visibility of any object it contains. If the Part is hidden, the objects it contains will be hidden as well, even if their individual **Visibility** property is set to `True`. If the Part is visible, then each object\'s **Visibility** determines whether the object is shown or not.
 

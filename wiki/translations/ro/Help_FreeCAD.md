@@ -16,7 +16,7 @@ Dacă vă place FreeCAD și doriți să ajutați în dezvoltarea sa, există mul
 
 <div class="mw-translate-fuzzy">
 
-### Lucrul la documentație {#lucrul_la_documentație}
+### Lucrul la documentație 
 
 Ajutați-ne să construim, să corectăm și să extindem această documentație. Corectați greșelile, extindeți sau corectați paginile care sunt neclare, creați pagini noi dacă lipsește un subiect etc. Contribuiția la wiki-ul FreeCAD este facilă, la [ WikiPages](WikiPages.md) puteți găsi instrucțiunile generale și ajutorul necesar pentru a demara. Pentru a edita wiki-ul, veți avea nevoie de un cont wiki cu permisiuni \"Editor\" (wiki-ul este protejat pentru a evita spam-ul). Puteți cere un cont la [on the forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830) sau la [IRC channel](irc://irc.freenode.net/freecad). Rețineți că este posibil ca în cazul canalului IRC, acesta să nu fie la fel de receptiv ca forumul.
 
@@ -36,7 +36,7 @@ care ar putea fi folosite pentru cine dorește.
 
 <div class="mw-translate-fuzzy">
 
-### Partajați cunoștințele dvs despre FreeCAD {#partajați_cunoștințele_dvs_despre_freecad}
+### Partajați cunoștințele dvs despre FreeCAD 
 
 Comunitatea utilizatorilor din jurul FreeCAD este încă mică, dar deja include mai mulți utilizatori avansați care fac o treabă foarte importantă în a arăta noilor veniți cum să utilizeze software-ul. Dacă începeți să vă simțiți confortabil cu FreeCAD, cunoștințele dvs. ar putea fi foarte valoroase pentru alții, și ați putea contribui dând o plus valoare importantă, cum ar fi:
 
@@ -60,7 +60,7 @@ The user community around FreeCAD is still small, but already includes several a
 
 <div class="mw-translate-fuzzy">
 
-### Traduceți FreeCAD {#traduceți_freecad}
+### Traduceți FreeCAD 
 
 Traduceți FreeCAD în propria dvs. limbă. Toate textele de text ale interfeței FreeCAD pot fi ușor traduse în alte limbi. Tot ce avem nevoie este cineva care știe acea altă limbă și este dispus să ajute! Toate traducerile se fac online la [Crowdin](http://crowdin.net/project/freecad).
 
@@ -74,7 +74,7 @@ Pentru detalii asupra traducerilor, a se vedea [Localisation](Localisation.md).
 
 <div class="mw-translate-fuzzy">
 
-### Traduceți documentația {#traduceți_documentația}
+### Traduceți documentația 
 
 Traducerea documentației este ușoară, wiki-ul FreeCAD acceptă un plugin de traducere care vă permite să traduceți pagina de bază engleză în alte limbi.
 
@@ -92,7 +92,7 @@ Apoi mergeți la [ WikiPages](WikiPages.md) pentru a vă familiariza cu stilul f
 
 <div class="mw-translate-fuzzy">
 
-### Ajutați-i pe alții să știe FreeCAD {#ajutați_i_pe_alții_să_știe_freecad}
+### Ajutați-i pe alții să știe FreeCAD 
 
 -   Discutați despre FreeCAD cu alte persoane care ar putea fi interesate
 -   Găsiți utilizări interesante pentru FreeCAD și documentați-le, de exemplu, cu capturi de ecran. FreeCAD este foarte recentă și mulți oameni încă nu văd ce pot face cu el. Dacă sunteți deja un fan FreeCAD, știți cu siguranță că ceva bun poate face FreeCAD. Ajutați-ne să arătăm asta altora!
@@ -114,7 +114,7 @@ Apoi mergeți la [ WikiPages](WikiPages.md) pentru a vă familiariza cu stilul f
 
 <div class="mw-translate-fuzzy">
 
-### Raportați bug-uri și cereți funcții interesante {#raportați_bug_uri_și_cereți_funcții_interesante}
+### Raportați bug-uri și cereți funcții interesante 
 
 ![](images/Bugreport-workflow.png ) Deși locul pentru a raporta bug-uri confirmate și pentru a sugera noi funcții este în cele din urmă \'\'\' [ FreeCAD Tracker](tracker.md) \'\'\', vă rugăm să postați întotdeauna rapoarte de erori și cereri de caracteristici mai întâi la forumul de ajutor. Pentru a salva timpul dezvoltatorilor (triajul și manipularea greu de înțeles a erorilor pot fi mari consumatoare de timp) și pentru a evita frustrările deoarece problema dvs. nu a fost tratată așa cum doriți, citiți următoarele:
 
@@ -144,7 +144,7 @@ Although the place to report confirmed bugs and suggest new features is eventual
 
 <div class="mw-translate-fuzzy">
 
-### Design artwork {#design_artwork}
+### Design artwork 
 
 Vedeți pagina [ Artwork](Artwork.md) pentru indicații despre proiectarea iconițelor pentru FreeCAD.
 

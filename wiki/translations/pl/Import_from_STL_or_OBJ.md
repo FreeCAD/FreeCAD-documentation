@@ -11,7 +11,7 @@
 
 W tym poradniku omówimy jak importować pliki STL/OBJ do programu FreeCAD. Ponieważ formaty STL/OBJ są opisane przez siatkę wielokątów i nie posiadają przypisanych konkretnych jednostek wielkości, FreeCAD przyjmuje, że wszystkie wartości podane w pliku są podane w mm. Jeśli jest inaczej, trzeba przeskalować model w aplikacji, w której został stworzony *(przed jego wyeksportowaniem)* lub przeskalować model w FreeCAD po jego zaimportowaniu i konwersji do bryły.
 
-## Przykładowy plik {#przykładowy_plik}
+## Przykładowy plik 
 
 Dla tego przykładu możesz użyć swojego pliku STL lub stworzyć plik demo w ten sposób:
 
@@ -27,7 +27,7 @@ Dla tego przykładu możesz użyć swojego pliku STL lub stworzyć plik demo w t
 
 Aby zaimportować plik STL lub OBJ, stwórz nowy dokument FreeCAD i wybierz ** File** → ** Import** z głównego menu.
 
-## Czyszczenie i naprawianie pliku STL/OBJ w celu przygotowania go do importu {#czyszczenie_i_naprawianie_pliku_stlobj_w_celu_przygotowania_go_do_importu}
+## Czyszczenie i naprawianie pliku STL/OBJ w celu przygotowania go do importu 
 
 FreeCAD może zaimportować każdy plik STL/OBJ. Ale naszym celem jest stworzenie bryły, która może być potem modyfikowana *(dodając wyciągnięcia lub kieszenie)*. Aby konwersja z siatki wielokątów do bryły się powiodła, musimy mieć pewność że siatka jest wodoszczelna *(nie zawiera dziur)* lub nie ma żadnych innych błędów.
 Warto pamiętać, że FreeCAD nie jest dobrym edytorem siatki wielokątów, jest on zaprojektowany do pracy z bryłami. FreeCAD ma pewne funkcje do operacji na siatce 3D w Środowisku pracy Mesh i OpenSCAD *(niektóre operacje wymagają zainstalowanego i skonfigurowanego OpenSCAD)*
@@ -38,7 +38,7 @@ Niektórzy użytkownicy lubią używać innych zewnętrznych narzędzi do napraw
 
 W tym poradniku użyjemy Środowiska pracy Mesh dostępnego standardowo w programie FreeCAD, do czyszczenia/naprawiania/weryfikowania naszego przykładowego pliku.
 
-### Automatyczne testowanie i naprawianie {#automatyczne_testowanie_i_naprawianie}
+### Automatyczne testowanie i naprawianie 
 
 -   Otwórz FreeCAD i przykładowy plik zawierający obiekt siatki.
 -   Zmień Środowisko pracy na Mesh.
@@ -50,7 +50,7 @@ W tym poradniku użyjemy Środowiska pracy Mesh dostępnego standardowo w progra
 -   Jeśli zostaną wykryte błędy, odpowiednie pola wyboru zostaną zaznaczone i będziesz mógł wybrać **Repair**.
 -   Kliknij **Close** aby zamknąć menu.
 
-### Porządkuj wektory normalne {#porządkuj_wektory_normalne}
+### Porządkuj wektory normalne 
 
 Porządkowanie wektorów normalnych *(harmonizing normals)* siatki obiektu może być robione przez:
 
@@ -59,7 +59,7 @@ Porządkowanie wektorów normalnych *(harmonizing normals)* siatki obiektu może
 
 Wskazówka: Wybierając obiekt siatkowy w widoku drzewa, przechodząc do zakładki widok w widoku właściwości i zmieniając oświetlenie z **Two Side** do **One Side** można zidentyfikować trójkąty z odwróconymi wektorami normalnymi. Jeśli wektor normlny jest skierowana w siatkę, trójkąt będzie pokazany na czarno.
 
-### Zaklejanie dziur {#zaklejanie_dziur}
+### Zaklejanie dziur 
 
 Możesz również ręcznie zakleić otwory w obiekcie mesh za pomocą:
 
@@ -75,7 +75,7 @@ Inna metoda ręcznego zaklejenia otworów w obiekcie mesh:
 -   Wybierz jedną z krawędzi otworu w widoku 3d
 -   kliknij prawym przyciskiem myszy na widoku 3d i wybierz ** Leave hole-filling mode** aby wyjść z tej komendy.
 
-## Konwersja siatki do bryły {#konwersja_siatki_do_bryły}
+## Konwersja siatki do bryły 
 
 -   przejdź do <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Środowiska roboczego Part](Part_Workbench/pl.md),
 -   upewnij się, że obiekt siatki jest zaznaczony w widoku drzewa, w przeciwnym razie zaznacz go,

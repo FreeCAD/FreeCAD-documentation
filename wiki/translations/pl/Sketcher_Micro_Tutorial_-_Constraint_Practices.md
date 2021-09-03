@@ -22,11 +22,11 @@ Istnieje ogólna zasada dotycząca wiązań szkicownika FreeCAD, im mniej jest *
 
 Lepiej jest używać **wiązania geometryczne** w miejsce wymiarowego, jeśli to możliwe. Ma to związek z wewnętrznym działaniem algorytmu wyliczającego wiązania Środowiska Sketcher.
 
-## Sposób postępowania {#sposób_postępowania}
+## Sposób postępowania 
 
-1\. Uruchom program FreeCAD, utwórz nowy pusty dokument przez menu {{MenuCommand|Plik → <img src=images/Std_New.svg style="width:16px"> [Nowy](Std_New.md)}}.
+1\. Uruchom program FreeCAD, utwórz nowy pusty dokument przez menu **Plik → <img src=images/Std_New.svg style="width:16px"> [Nowy](Std_New.md)**.
 
-:   1.1. Przełacz interfejs na Środowisko pracy [Sketcher](Sketcher_Workbench/pl.md) z [paska narzędzi Środowisko](Std_Workbench.md), lub menu {{MenuCommand|[Widok](Std_View_Menu/pl.md) → Środowisko → Sketcher}}.
+:   1.1. Przełacz interfejs na Środowisko pracy [Sketcher](Sketcher_Workbench/pl.md) z [paska narzędzi Środowisko](Std_Workbench.md), lub menu **[Widok](Std_View_Menu/pl.md) → Środowisko → Sketcher**.
 
 Kilka działań do zapamiętania:
 
@@ -34,7 +34,7 @@ Kilka działań do zapamiętania:
 -   Aby wyjść z trybu edycji szkicu, naciśnij przycisk **Zamknij** w [panelu zadań](task_panel.md), lub naciśnij dwukrotnie klawisz **Esc** na klawiaturze.
 -   Aby ponownie wejść w tryb edycji, kliknij dwukrotnie na obiekt szkicu w <img src=images/Sketcher_EditSketch.svg style="width:widoku drzewa](tree_view.md), lub wybierz go, a następnie kliknij na przycisk **[16px">. [Edycja szkicu](Sketcher_EditSketch.md)**.
 
-## Utwórz szkic {#utwórz_szkic}
+## Utwórz szkic 
 
 2\. Kliknij w przycisk **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [Utwórz nowy szkic](Sketcher_NewSketch.md)**.
 
@@ -44,9 +44,9 @@ Kilka działań do zapamiętania:
 
 **Uwaga:**
 
-w [panelu zadań](task_panel.md) rozwinąć sekcję {{MenuCommand|Edycja kontrolek}} i upewnić się, że opcja {{MenuCommand|Automatyczne wiązania}} jest wyłączona. Wyłącz również przyciąganie do siatki i ukryj siatkę.
+w [panelu zadań](task_panel.md) rozwinąć sekcję **Edycja kontrolek** i upewnić się, że opcja **Automatyczne wiązania** jest wyłączona. Wyłącz również przyciąganie do siatki i ukryj siatkę.
 
-## Podejście pierwsze: wiązania dotyczące danych {#podejście_pierwsze_wiązania_dotyczące_danych}
+## Podejście pierwsze: wiązania dotyczące danych 
 
 3\. Narysujemy całkowicie związany kwadrat, wyśrodkowany w punkcie początku układu współrzędnych.
 
@@ -67,11 +67,11 @@ w [panelu zadań](task_panel.md) rozwinąć sekcję {{MenuCommand|Edycja kontrol
 <img alt="" src=images/01b_Sk02_Sketcher_Rectangle_constrained_lengths_1.png  style="width:" height="400px;"> <img alt="" src=images/01c_Sk02_Sketcher_Rectangle_constrained_lengths_2.png  style="width:" height="400px;"> 
 *Z lewej: wiązania dotyczące wymiarów dla boków. Z prawej: dodatkowe wiązania odległości wewnętrznych.*
 
-Patrząc na sekcję {{MenuCommand|Wiązania}} w [Panelu zadań](task_panel/pl.md), widzimy, że istnieje zbyt wiele wiązań. Zaburzają one również widok szkicu. Wiązania te są również skomplikowane obliczeniowo dla solvera. Choć nie stanowi to problemu z prostym kształtem, to jednak może on stać się jednym z bardziej złożonych kształtów.
+Patrząc na sekcję **Wiązania** w [Panelu zadań](task_panel/pl.md), widzimy, że istnieje zbyt wiele wiązań. Zaburzają one również widok szkicu. Wiązania te są również skomplikowane obliczeniowo dla solvera. Choć nie stanowi to problemu z prostym kształtem, to jednak może on stać się jednym z bardziej złożonych kształtów.
 
-## Lepsza droga: wymiary i wiązania geometryczne {#lepsza_droga_wymiary_i_wiązania_geometryczne}
+## Lepsza droga: wymiary i wiązania geometryczne 
 
-4\. Narysujemy całkowicie związany kwadrat, wyśrodkowany w punkcie początku układu współrzędnych. Podczas tworzenia nowego szkicu, upewnij się, że opcja {{MenuCommand|Automatyczne wiązania}} jest wyłączona.
+4\. Narysujemy całkowicie związany kwadrat, wyśrodkowany w punkcie początku układu współrzędnych. Podczas tworzenia nowego szkicu, upewnij się, że opcja **Automatyczne wiązania** jest wyłączona.
 
 :   4.1. Kliknij na **<img src="images/Sketcher_CreatePolyline.svg" width=16px> [Utwórz polilinię ...](Sketcher_CreatePolyline/pl.md)**, a następnie wytycz cztery linie w ogólnym kształcie prostokąta, wokół punktu początku.
 :   4.2. Zaznacz jedna z linii poziomych, i kliknij na przycisk **<img src=images/Constraint_Horizontal.svg style="width:16px"> [Utwórz wiązanie poziome](‎Sketcher_ConstrainHorizontal/pl.md)**.
@@ -92,9 +92,9 @@ Patrząc na sekcję {{MenuCommand|Wiązania}} w [Panelu zadań](task_panel/pl.md
 
 W porównaniu do pierwszego, ten szkic jest związany znacznie lepiej. Poziome i pionowe wiązania geometryczne pozwalają nam na zastosowanie mniejszej liczby wiązań w układzie odniesienia. Dzięki czemu nasz szkic wygląda bardziej przejrzyście.
 
-## Schemat optymalny: przede wszystkim wiązania geometryczne {#schemat_optymalny_przede_wszystkim_wiązania_geometryczne}
+## Schemat optymalny: przede wszystkim wiązania geometryczne 
 
-5\. Narysujemy ten sam kwadrat, w pełni związany i wyśrodkowany w punkcie początku układu współrzędnych. Podczas tworzenia nowego szkicu, upewnij się, że opcja {{MenuCommand|Automatyczne wiązania}} jest wyłączona.
+5\. Narysujemy ten sam kwadrat, w pełni związany i wyśrodkowany w punkcie początku układu współrzędnych. Podczas tworzenia nowego szkicu, upewnij się, że opcja **Automatyczne wiązania** jest wyłączona.
 
 :   5.1. Kliknij na **<img src="images/Sketcher_CreatePolyline.svg" width=16px> [Utwórz polilinię ...](Sketcher_CreatePolyline/pl.md)**, a następnie wykreśl cztery linie w ogólnym kształcie prostokąta wokół punktu początku.
 :   5.2. Zaznacz jedna z linii poziomych, i kliknij na przycisk **<img src=images/Constraint_Horizontal.svg style="width:16px"> [Utwórz wiązanie poziome](‎Sketcher_ConstrainHorizontal.md)**.
@@ -118,7 +118,7 @@ W porównaniu do pierwszego, ten szkic jest związany znacznie lepiej. Poziome i
 
 Jest to najlepszy sposób na związanie tego szkicu, ponieważ użyliśmy tylko jednego wiązania danych *(wymiarowego)*.
 
-## Dodatkowe zasoby {#dodatkowe_zasoby}
+## Dodatkowe zasoby 
 
 -   [Poradnik: Podstawy dla Środowiska pracy Sketcher](Basic_Sketcher_Tutorial/pl.md)
 -   [Sketcher - powiązania](Sketcher_reference.md)

@@ -22,7 +22,7 @@
 ## Использование
 
 1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) object is created automatically with creation of an **![](images/)_[Analysis_container](FEM_Analysis.md)**. Or use the following alternatives:
-    -   Use {{MenuCommand|Solve → Solver CalculiX Standard}}
+    -   Use **Solve → Solver CalculiX Standard**
     -   Press **S** then **X** shortcut keys
 
 
@@ -40,7 +40,7 @@ By using **Edit .inp file** you can display and edit CalculiX input file manuall
 
 ## Свойства
 
-Default values can be set in the menu {{MenuCommand|Edit → Preferences → FEM → CalculiX}}
+Default values can be set in the menu **Edit → Preferences → FEM → CalculiX**
 
 -    **Analysis Type**:
 
@@ -92,7 +92,7 @@ Default values can be set in the menu {{MenuCommand|Edit → Preferences → FEM
 -    **Matrix Solver Type**: type of the solver to solve equation system inside FE analysis. It may significantly affect calculation speed and memory demands. Suitability depends on your FE model and available hardware
 
     -   default - automatically selects matrix solver depending on available solvers (probably it will be Spooles)
-    -   spooles - direct solver with support of multiple CPUs. Number of CPUs need to be set in {{MenuCommand|Edit → Preferences → FEM → CalculiX → Solver defaults → Number of CPU's to use}}.
+    -   spooles - direct solver with support of multiple CPUs. Number of CPUs need to be set in **Edit → Preferences → FEM → CalculiX → Solver defaults → Number of CPU's to use**.
     -   iterativescaling - iterative solver with least memory demands, suitable if model contains mostly 3D elements
     -   iterativecholesky - iterative solver with preconditioning with and with low memory demands, suitable if model contains mostly 3D elements
 

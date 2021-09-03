@@ -19,7 +19,7 @@ Acest instrument vă permite să plasați o vizualizarea [spreadsheet](Spreadshe
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

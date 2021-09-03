@@ -7,7 +7,7 @@
 
 ## Description
 
-This tool allows you to create a shaft from a table of values, and to analyse forces and moments. You can start the wizard from the Part Design menu {{MenuCommand|Part Design → <img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...}}.
+This tool allows you to create a shaft from a table of values, and to analyse forces and moments. You can start the wizard from the Part Design menu **Part Design → <img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...**.
 
 The wizard will start and show a default table, the corresponding shaft part and force/moment graphs.
 
@@ -44,7 +44,7 @@ To add a new shaft segment, right-click into the empty space to the right of the
 
 -   It is not possible to have adjacent shaft segments with the same diameter.
 
-## Planned functionality {#planned_functionality}
+## Planned functionality 
 
 -   Table-driven chamfers and rounds on the shaft edges
 -   Recognize a previously created shaft wizard part and initialize the table values from it

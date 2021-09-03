@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Créer un FEM Mesh {#créer_un_fem_mesh}
+## Créer un FEM Mesh 
 
 L\'analyse par éléments finis (FEA) est effectuée sur un maillage composé de multiples éléments triangulaires et quadrilatéraux qui subdivisent le corps d\'origine. Plus le maillage est raffiné, plus les résultats numériques seront précis, mais le temps de calcul sera également plus long. Un équilibre entre la taille du maillage, le temps de calcul et la précision des résultats est une caractéristique importante d\'une analyse par éléments finis bien définie.
 
@@ -27,18 +27,18 @@ Les outils [Gmsh](FEM_MeshGmshFromShape/fr.md) et [Netgen](FEM_MeshNetgenFromSha
 
 Auparavant, Netgen était inclus dans FreeCAD et pouvait être utilisé immédiatement. Maintenant, Netgen et Gmsh doivent être installés avant de pouvoir être utilisés par l\'[atelier FEM](FEM_Workbench/fr.md). Reportez-vous à [Installation FEM](FEM_Install/fr.md) pour les instructions.
 
-## Logiciels de maillage {#logiciels_de_maillage}
+## Logiciels de maillage 
 
 Les logiciels de maillage fonctionne sur des corps solides pouvant se présenter sous différents formats, comme Step et Brep. Ces programmes peuvent être utilisés indépendamment de FreeCAD et disposent généralement de nombreuses options pour contrôler les algorithmes de maillage, la taille des éléments et les conditions aux limites.
 
 L\'[atelier FEM](FEM_Workbench/fr.md) a développé des interfaces de communication simples pour utiliser Gmsh et Netgen directement dans FreeCAD. D\'autres programmes n\'ont pas d\'interface, mais cela pourrait changer à l\'avenir si la communauté suscite de l\'intérêt et si ces applications sont faciles à intégrer. Le logiciel de maillage peut être compilé et distribué avec FreeCAD seulement si sa licence est compatible avec les licences GPL2 ou LGPL2 ; sinon le programme doit être utilisé comme un binaire externe, comme Gmsh (GPL2).
 
-### Interface implémenté dans FreeCAD {#interface_implémenté_dans_freecad}
+### Interface implémenté dans FreeCAD 
 
 -   Gmsh : [site web principal](http://gmsh.info/), [dépôt du code](https://gitlab.onelab.info/gmsh/gmsh)
 -   Netgen : [site web principal](https://ngsolve.org/), [dépôt du code](https://github.com/NGSolve/netgen)
 
-### Sans interface dans FreeCAD {#sans_interface_dans_freecad}
+### Sans interface dans FreeCAD 
 
 -   ENigMA, [fil du forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=33048), [dépôt du code](https://github.com/bjaraujo/ENigMA)
 -   libMesh, [site web principal](http://libmesh.github.io/), [dépôt du code](https://github.com/libMesh/libmesh), [fil du forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=33621) ; c\'est un projet très actif seulement en C++
@@ -46,7 +46,7 @@ L\'[atelier FEM](FEM_Workbench/fr.md) a développé des interfaces de communicat
 -   SnappyHexMesh, [site web principal](https://openfoamwiki.net/index.php/SnappyHexMesh)
 -   Tetgen, [site web principal](http://wias-berlin.de/software/tetgen/)
 
-## Éléments de maillage dans FreeCAD {#éléments_de_maillage_dans_freecad}
+## Éléments de maillage dans FreeCAD 
 
 FreeCAD supporte différents types d\'éléments. L\'article suivant explique la différence qui existe entre eux et quand vous pouvez les utiliser : [Maillage de votre géométrie : quand utiliser les différents types d\'élément](https://www.comsol.com/blogs/meshing-your-geometry-various-element-types/).
 
@@ -59,41 +59,41 @@ but it's not readable or writable by fenics</p></td></tr><tr class="even"><td><p
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:20px;"> \"-\" signifie que la spécification de format ne supporte pas ce type d\'élément, et qu\'il ne sera pas accepté par FreeCAD.
 -   \"?\" signifie qu\'on ne sait pas si ce type d\'élément est supporté.
 
-## Types d\'éléments FEM {#types_déléments_fem}
+## Types d\'éléments FEM 
 
 Vous trouverez plus d\'informations sur les éléments et leur structure de données dans FreeCAD dans [Types d\'élément FEM](FEM_Element_Types/fr.md).
 
-### Les segments {#les_segments}
+### Les segments 
 
 <img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
 
-### Les triangles {#les_triangles}
+### Les triangles 
 
 <img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width:600px;">
 
-### Les quadrangles {#les_quadrangles}
+### Les quadrangles 
 
 <img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
 
-### Les tétraèdres {#les_tétraèdres}
+### Les tétraèdres 
 
 <img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width:600px;">
 
-### Les hexaèdres {#les_hexaèdres}
+### Les hexaèdres 
 
 <img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width:600px;">
 
-### Les pentaèdres (prismes) {#les_pentaèdres_prismes}
+### Les pentaèdres (prismes) 
 
 <img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width:600px;">
 
-### Les pyramides {#les_pyramides}
+### Les pyramides 
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
 
-## Les Scripts {#les_scripts}
+## Les Scripts 
 
-### Créez un maillage FEM totalement en python {#créez_un_maillage_fem_totalement_en_python}
+### Créez un maillage FEM totalement en python 
 
 
 **Voir aussi :**
@@ -112,7 +112,7 @@ App.ActiveDocument.Mesh_object.TypeId = Fem::FemMeshObject
                               .FemMesh.TypeId = Fem::FemMesh
 ```
 
-#### Création d\'un maillage avec un élément Tet-10 {#création_dun_maillage_avec_un_élément_tet_10}
+#### Création d\'un maillage avec un élément Tet-10 
 
 Créez un FemMesh vide, remplissez-le avec des nœuds, créez le volume et appelez enfin `Fem.show()` pour créer l\'objet du document avec le maillage correspondant.
 
@@ -161,7 +161,7 @@ obj_2.Placement.Base = FreeCAD.Vector(2, 0, 0)
 obj_2.FemMesh = a
 ```
 
-#### Propriétés visuelles {#propriétés_visuelles}
+#### Propriétés visuelles 
 
 Une fois qu\'un objet FemMesh a été créé avec `Fem.show()` , certaines de ses propriétés visuelles peuvent être modifiées en modifiant les différents attributs de son `ViewObject`. Cela peut être utile pour post-traiter le maillage après avoir obtenu une solution d\'éléments finis.
 
@@ -187,9 +187,9 @@ obj.ViewObject.NodeDisplacement = {1:FreeCAD.Vector(0,1,0), 2:FreeCAD.Vector(1,0
 obj.ViewObject.animate(2.0)
 ```
 
-## Exemples de script de chaque type d\'élément supporté {#exemples_de_script_de_chaque_type_délément_supporté}
+## Exemples de script de chaque type d\'élément supporté 
 
-### Poutre, ligne à 2 nœuds, seg2 (linéaire) {#poutre_ligne_à_2_nœuds_seg2_linéaire}
+### Poutre, ligne à 2 nœuds, seg2 (linéaire) 
 
 
 ```python
@@ -207,7 +207,7 @@ obj.Placement.Base = FreeCAD.Vector(0, 110, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-### Poutre, ligne à 3 nœuds, seg3 (quadratique) {#poutre_ligne_à_3_nœuds_seg3_quadratique}
+### Poutre, ligne à 3 nœuds, seg3 (quadratique) 
 
 
 ```python
@@ -226,7 +226,7 @@ obj.Placement.Base = FreeCAD.Vector(30, 110, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-### Coque, triangle à 3 nœuds, tria3 (linéaire) {#coque_triangle_à_3_nœuds_tria3_linéaire}
+### Coque, triangle à 3 nœuds, tria3 (linéaire) 
 
 
 ```python
@@ -263,7 +263,7 @@ obj.ViewObject.BackfaceCulling = False
 print(elemtria3.Faces)
 ```
 
-### Coque, triangle à 6 nœuds, tria6 (quadratique) {#coque_triangle_à_6_nœuds_tria6_quadratique}
+### Coque, triangle à 6 nœuds, tria6 (quadratique) 
 
 
 ```python
@@ -302,7 +302,7 @@ obj.ViewObject.BackfaceCulling = False
 print(elemtria6.Faces)
 ```
 
-### Coque, quadrilatère à 4 nœuds, quad4 (linéaire) {#coque_quadrilatère_à_4_nœuds_quad4_linéaire}
+### Coque, quadrilatère à 4 nœuds, quad4 (linéaire) 
 
 
 ```python
@@ -339,7 +339,7 @@ obj.ViewObject.BackfaceCulling = False
 print(elemquad4.Faces)
 ```
 
-### Coque, quadrilatère à 8 nœuds, quad8 (quadratique) {#coque_quadrilatère_à_8_nœuds_quad8_quadratique}
+### Coque, quadrilatère à 8 nœuds, quad8 (quadratique) 
 
 
 ```python
@@ -380,7 +380,7 @@ obj.ViewObject.BackfaceCulling = False
 print(elemquad8.Faces)
 ```
 
-### Volume, tétraèdre à 4 nœuds, tétra4 (linéaire) {#volume_tétraèdre_à_4_nœuds_tétra4_linéaire}
+### Volume, tétraèdre à 4 nœuds, tétra4 (linéaire) 
 
 
 ```python
@@ -415,7 +415,7 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elemtetra4.Volumes)
 ```
 
-### Volume, tétraèdre à 10 nœuds, tétra10 (quadratique) {#volume_tétraèdre_à_10_nœuds_tétra10_quadratique}
+### Volume, tétraèdre à 10 nœuds, tétra10 (quadratique) 
 
 
 ```python
@@ -458,7 +458,7 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elemtetra10.Volumes)
 ```
 
-### Volume, hexaèdre à 8 nœuds, hexa8 (linéaire) {#volume_hexaèdre_à_8_nœuds_hexa8_linéaire}
+### Volume, hexaèdre à 8 nœuds, hexa8 (linéaire) 
 
 
 ```python
@@ -497,7 +497,7 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elemhexa8.Volumes)
 ```
 
-### Volume, hexaèdre à 20 noeuds, hexa20 (quadratique) {#volume_hexaèdre_à_20_noeuds_hexa20_quadratique}
+### Volume, hexaèdre à 20 noeuds, hexa20 (quadratique) 
 
 
 ```python
@@ -551,7 +551,7 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elemhexa20.Volumes)
 ```
 
-### Volume, pentaèdre à 6 nœuds, penta6 (linéaire) {#volume_pentaèdre_à_6_nœuds_penta6_linéaire}
+### Volume, pentaèdre à 6 nœuds, penta6 (linéaire) 
 
 
 ```python
@@ -588,7 +588,7 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elempenta6.Volumes)
 ```
 
-### Volume, pentaèdre à 15 noeuds, penta15 (quadratique) {#volume_pentaèdre_à_15_noeuds_penta15_quadratique}
+### Volume, pentaèdre à 15 noeuds, penta15 (quadratique) 
 
 
 ```python
@@ -637,7 +637,7 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elempenta15.Volumes)
 ```
 
-### Volume, pyramide à 5 nœuds, pyra5 (linéaire) {#volume_pyramide_à_5_nœuds_pyra5_linéaire}
+### Volume, pyramide à 5 nœuds, pyra5 (linéaire) 
 
 
 ```python
@@ -673,7 +673,7 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elempyra5.Volumes)
 ```
 
-### Volume, pyramide à 13 nœuds, pyra13 (quadratique) {#volume_pyramide_à_13_nœuds_pyra13_quadratique}
+### Volume, pyramide à 13 nœuds, pyra13 (quadratique) 
 
 
 ```python
@@ -719,7 +719,7 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elempyra13.Volumes)
 ```
 
-## Exemples de script pour les groupes {#exemples_de_script_pour_les_groupes}
+## Exemples de script pour les groupes 
 
 Voir par exemple <https://forum.freecadweb.org/viewtopic.php?f=18&t=37304&start=20#p318823>
 

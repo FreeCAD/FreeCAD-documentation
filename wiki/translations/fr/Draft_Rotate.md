@@ -25,27 +25,27 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
 1.  Sélectionnez un ou plusieurs objets ou un ou plusieurs sous-éléments de [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Draft_Rotate.svg" width=16px> [Rotation des objets sélectionnés](Draft_Rotate/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → <img src="images/Draft_Rotate.svg" width=16px> Rotation}} dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Rotate.svg" width=16px> Rotation** dans le menu.
     -   Utilisez le raccourci clavier : **R** puis **O**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
-4.  Le panneau de tâches {{MenuCommand|Rotate}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-5.  Si des sous-éléments ont été sélectionnés : cochez la case {{MenuCommand|Modifier les sous-éléments}} pour activer le mode sous-élément.
+4.  Le panneau de tâches **Rotate** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+5.  Si des sous-éléments ont été sélectionnés : cochez la case **Modifier les sous-éléments** pour activer le mode sous-élément.
 6.  Choisissez le premier point, le centre de rotation, dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-7.  Choisissez le deuxième point dans la [Vue 3D](3D_view/fr.md) ou entrez un {{MenuCommand|Angle de base}}.
-8.  Choisissez le troisième point dans la [Vue 3D](3D_view/fr.md) ou entrez une {{MenuCommand|Rotation}}.
+7.  Choisissez le deuxième point dans la [Vue 3D](3D_view/fr.md) ou entrez un **Angle de base**.
+8.  Choisissez le troisième point dans la [Vue 3D](3D_view/fr.md) ou entrez une **Rotation**.
 
 ## Options
 
 Le raccourci clavier à caractère unique et les touches de modification mentionnées ici peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md).
 
 -   Pour saisir manuellement les coordonnées du centre de rotation, entrez les valeurs X, Y et Z,et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   La case à cocher {{MenuCommand|Relative}} n\'a aucune utilité pour cette commande.
--   Appuyez sur **G** ou cliquez sur la case {{MenuCommand|Global}} pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **T** ou cliquez sur la case {{MenuCommand|Continuer}} pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir été terminée. Ce mode n\'a vraiment de sens que si le mode copie est activé. En fonction de la préférence {{MenuCommand|Sélectionner les objets de base après la copie}}, soit les objets originaux sont sélectionnés pour le prochain appel de la commande, soit les copies créées en dernier. Voir [Préférences](#Préférences.md).
--   Appuyez sur **P** ou cliquez sur la case {{MenuCommand|Copie}} pour activer le mode copie. Si le mode de copie est activé, la commande créera des copies pivotées au lieu de faire pivoter les objets originaux.
--   Appuyez sur **D** ou cliquez sur la case {{MenuCommand|Modifier les sous-éléments}} pour basculer en mode sous-éléments. Si le mode sous-élément est activé, la commande utilisera les sous-éléments sélectionnés au lieu des objets entiers. Les sous-éléments doivent appartenir à [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
+-   La case à cocher **Relative** n\'a aucune utilité pour cette commande.
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir été terminée. Ce mode n\'a vraiment de sens que si le mode copie est activé. En fonction de la préférence **Sélectionner les objets de base après la copie**, soit les objets originaux sont sélectionnés pour le prochain appel de la commande, soit les copies créées en dernier. Voir [Préférences](#Préférences.md).
+-   Appuyez sur **P** ou cliquez sur la case **Copie** pour activer le mode copie. Si le mode de copie est activé, la commande créera des copies pivotées au lieu de faire pivoter les objets originaux.
+-   Appuyez sur **D** ou cliquez sur la case **Modifier les sous-éléments** pour basculer en mode sous-éléments. Si le mode sous-élément est activé, la commande utilisera les sous-éléments sélectionnés au lieu des objets entiers. Les sous-éléments doivent appartenir à [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
 -   Si le mode copie et le mode sous-élément sont tous deux activés, et que les bords de [Draft Polylignes](Draft_Wire/fr.md) sont sélectionnés, de nouveaux fils seront créés à partir de ces bords.
--   Si vous maintenez la touche **Alt** enfoncée après avoir saisi la {{MenuCommand|Angle de base}}, le mode de copie sera également activé. Lorsque vous maintenez la touche {KEY\|Alt} enfoncée, vous pouvez sélectionner plusieurs points pour la {{MenuCommand|Rotation}}. Relâchez **Alt** pour terminer la commande et voir les copies créées.
+-   Si vous maintenez la touche **Alt** enfoncée après avoir saisi la **Angle de base**, le mode de copie sera également activé. Lorsque vous maintenez la touche {KEY\|Alt} enfoncée, vous pouvez sélectionner plusieurs points pour la **Rotation**. Relâchez **Alt** pour terminer la commande et voir les copies créées.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
 
@@ -57,9 +57,9 @@ Le raccourci clavier à caractère unique et les touches de modification mention
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées et des angles : {{MenuCommand|Édition → Préférences... → Général → Unités → Réglages des unités → Nombre de décimales}}.
--   Pour stocker et réutiliser le même paramètre de mode de copie d\'une commande à l\'autre : {{MenuCommand|Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Mode de copie global}}.
--   Pour resélectionner les objets de base après avoir copié des objets : {{MenuCommand| Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie}}.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées et des angles : **Édition → Préférences... → Général → Unités → Réglages des unités → Nombre de décimales**.
+-   Pour stocker et réutiliser le même paramètre de mode de copie d\'une commande à l\'autre : **Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Mode de copie global**.
+-   Pour resélectionner les objets de base après avoir copié des objets : ** Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie**.
 
 ## Script
 

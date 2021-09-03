@@ -16,12 +16,12 @@ Il risolutore è in grado di eseguire calcoli lineari e non lineari, per problem
 
 CalculiX è progettato per funzionare su piattaforme Unix come Linux e Irix ma anche su MS-Windows. CalculiX è stato sviluppato dagli ingegneri di MTU Aero Engines, Monaco di Baviera, Germania, per assisterli nella progettazione di macchinari come le turbine a getto. Il software è attualmente rilasciato al pubblico secondo i termini della GPL versione 2.
 
-## Integration with FreeCAD {#integration_with_freecad}
+## Integration with FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-## Integrazione con FreeCAD {#integrazione_con_freecad}
+## Integrazione con FreeCAD 
 
 L\'interazione tra l\'ambiente [FEM](FEM_Workbench/it.md) e CalculiX avviene attraverso la scrittura e la lettura di file di testo. La sequenza delle operazioni è la seguente:
 
@@ -41,12 +41,12 @@ Lo strumento [FEM Control Solver](FEM_SolverControl/it.md) gestisce l'intero
 
 </div>
 
-## Preprocessing interface {#preprocessing_interface}
+## Preprocessing interface 
 
 
 <div class="mw-translate-fuzzy">
 
-## Interfaccia di Pre-processo {#interfaccia_di_pre_processo}
+## Interfaccia di Pre-processo 
 
 Il file di input che CalculiX utilizza può essere preparato e modificato prima dell\'avvio del solver. Le unità utilizzate nel file di input sono indipendenti dalle unità impostate in FreeCAD; sono sempre millimetri (mm) e Newton (N).
 
@@ -58,12 +58,12 @@ Il file di input che CalculiX utilizza può essere preparato e modificato prima 
 
 L\'interfaccia di CalculiX supporta i seguenti oggetti:
 
-### FEM Elements {#fem_elements}
+### FEM Elements 
 
 
 <div class="mw-translate-fuzzy">
 
-### Elementi FEM {#elementi_fem}
+### Elementi FEM 
 
 -   Tet4 and Tet10
 -   S3 and S6
@@ -100,12 +100,12 @@ L\'interfaccia di CalculiX supporta i seguenti oggetti:
 
 </div>
 
-## Postprocessing interface {#postprocessing_interface}
+## Postprocessing interface 
 
 
 <div class="mw-translate-fuzzy">
 
-## Interfaccia di post-processo {#interfaccia_di_post_processo}
+## Interfaccia di post-processo 
 
 L\'ambiente FEM può leggere lo stress risultante (Von Mises) e tutti gli spostamenti.
 

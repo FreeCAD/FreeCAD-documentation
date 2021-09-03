@@ -119,7 +119,7 @@ As explained in the [feature editing](feature_editing.md) page, a solution to th
 
  <img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width:" height="400px;"> 
 
-## Final remarks {#final_remarks}
+## Final remarks 
 
 Adding datum objects is more work for the user but ultimately produces more stable models that are less subject to the topological naming problem.
 

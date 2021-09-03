@@ -18,11 +18,11 @@ La fonction **Positionnement** peut être accessible de plusieurs façons:
 
 -   ou par le menu **Edition → Placement \...**.
 
-### Activer Placement dans la fenêtre Affichage {#activer_placement_dans_la_fenêtre_affichage}
+### Activer Placement dans la fenêtre Affichage 
 
 -   Cliquez sur une forme pour la sélectionner.
 -   Cliquez sur **Placement** (le titre, pas la petite flèche) et une ellipse **...** apparaît: <img alt="Tache\_Placement" src=images/Tache_Placement_01_fr_00.png  style="width:256px;">
--   Cliquez sur ce bouton et le {{MenuCommand|Dialogue de placement}} est affiché:
+-   Cliquez sur ce bouton et le **Dialogue de placement** est affiché:
 
 :   ![](images/Tache_Placement_en_02.png )
 
@@ -104,7 +104,7 @@ Les angles sont les **angles Tait-Bryan.** Si vous voulez plus d\'informations, 
 
 -   Le bouton ** Réinitialiser **, remet toutes les valeurs à **0,0,0**.
 
-## Liens et Exemple {#liens_et_exemple}
+## Liens et Exemple 
 
 Un exemple pratique de l\'utilisation de cette commande est dans le tutoriel [ Avion](Aeroplane/fr.md).
 

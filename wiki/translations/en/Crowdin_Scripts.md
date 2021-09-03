@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Managing Translations for FreeCAD {#managing_translations_for_freecad}
+## Managing Translations for FreeCAD 
 
 FreeCAD uses a 3rd party translation service called [Crowdin](https://crowdin.com/project/freecad) to manage translations.
 
@@ -35,7 +35,7 @@ The updatecrowdin.py script pushes changes to Crowdin (3rd party translation cro
 
 The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD/ directory.
 
-## To send latest strings to crowdin {#to_send_latest_strings_to_crowdin}
+## To send latest strings to crowdin 
 
 -   Only tested on linux
 -   You need a .credentials file in your /home/YourUser directory. That file is a simple text file containing only one line, which is the API key that you get on <https://crowdin.com/project/freecad/settings#api> (only for admins)
@@ -46,7 +46,7 @@ The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD
 -   cd ../.. (go back to the source code root folder)
 -   git checkout . (undo all the changes to the .ts files, no reason to commit them right now as they are still untranslated)
 
-## To merge latest translations from crowdin {#to_merge_latest_translations_from_crowdin}
+## To merge latest translations from crowdin 
 
 -   Only tested on linux
 -   You need a .credentials file in your /home/YourUser directory. That file is a simple text file containing only one line, which is the API key that you get on <https://crowdin.com/project/freecad/settings#api> (only for admins)
@@ -62,14 +62,14 @@ The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD
 -   if everything looks ok (git status), commit with git add . && git commit
 -   Create a PR on FreeCAD
 
-## To generate a translation file from the website {#to_generate_a_translation_file_from_the_website}
+## To generate a translation file from the website 
 
 -   Clone the homepage repository
 -   cd /path/to/FreeCAD-homepage
 -   xgettext \--from-code=UTF-8 -o lang/homepage.pot \*.php
 -   Update the \"homepage.po\" on crowdin website manually, using the lang/homepage.pot file
 
-## To update the translations of the website {#to_update_the_translations_of_the_website}
+## To update the translations of the website 
 
 -   Get the freecad.zip file either by downloading it from the crowdin website or following instructions above (python updatecrowdin.py download)
 -   cd /path/to/FreeCAD-homepage

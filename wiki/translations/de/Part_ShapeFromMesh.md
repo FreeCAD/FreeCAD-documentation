@@ -19,7 +19,7 @@ Die Umkehroperation ist **<img src=images/Mesh_FromPartShape.svg style="width:16
 ## Anwendung
 
 1.  Wähle das Netzobjekt in der [Baumansicht](tree_view/de.md) aus.
-2.  Gehe zum Menü, {{MenuCommand|Part → <img src=images/Part_ShapeFromMesh.svg style="width:16px"> Erzeuge Form aus Netz}}.
+2.  Gehe zum Menü, **Part → <img src=images/Part_ShapeFromMesh.svg style="width:16px"> Erzeuge Form aus Netz**.
 3.  Ein Aufklappmenü fragt nach der Toleranz für das Nähen der Form; der Standardwert ist {{Value|0.1}}.
 4.  Eine [Form](Shape/de.md) aus dem Netzobjekt wird als separates neues Objekt erstellt.
 

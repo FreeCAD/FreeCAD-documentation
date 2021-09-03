@@ -23,11 +23,11 @@ Notare che l\'altezza della somma Minkowski è l\'altezza del cilindro più l\'a
 
 </div>
 
-### Mathematical Definition {#mathematical_definition}
+### Mathematical Definition 
 
 Add each element of subset A to each element of subset B to get Minkowski sum.
 
-### Geometrical Definition {#geometrical_definition}
+### Geometrical Definition 
 
 Sweep element A along all boundaries of element B. Resulting space which is occupied by both elements is Minkowski sum.
 

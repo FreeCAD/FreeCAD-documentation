@@ -43,7 +43,7 @@ Für alle diese [Kicad](https://kicad-pcb.org/) Konzepte findet man im KicadStep
 
 ## Einrichtung
 
-KicadStepUp ist Teil der [externen Arbeitsbereiche](external_workbenches/de.md) und kann automatisch mit dem <img alt="" src=images/AddonManager.svg  style="width:24px;"> installiert werden. [FreeCAD Erweiterungsverwalter](Addon_Manager/de.md), der mit FreeCAD 0.17 mitgeliefert wird, unter dem Menüpunkt {{MenuCommand|Werkzeuge → Erweiterungsverwalter}} installiert werden.
+KicadStepUp ist Teil der [externen Arbeitsbereiche](external_workbenches/de.md) und kann automatisch mit dem <img alt="" src=images/AddonManager.svg  style="width:24px;"> installiert werden. [FreeCAD Erweiterungsverwalter](Addon_Manager/de.md), der mit FreeCAD 0.17 mitgeliefert wird, unter dem Menüpunkt **Werkzeuge → Erweiterungsverwalter** installiert werden.
 
 
 <div class="mw-translate-fuzzy">
@@ -59,12 +59,12 @@ KicadStepUp ist Teil der [externen Arbeitsbereiche](external_workbenches/de.md) 
 
 {{emphasis|In progress}}
 
-### General Approach {#general_approach}
+### General Approach 
 
 
 <div class="mw-translate-fuzzy">
 
-### Allgemeiner Ansatz {#allgemeiner_ansatz}
+### Allgemeiner Ansatz 
 
 Die Grundidee von KicadStepUp ist es, Daten zwischen den beiden Anwendungen zu synchronisieren. Für den Heimgebrauch hast du vielleicht FreeCAD und Kicad gleichzeitig geöffnet. Im professionellen Einsatz arbeitest du mit den gleichen Dateien (z.B. auf einem zentralen Server) und hast Spezialisten für mechanisches CAD (MCAD), die in FreeCAD arbeiten, und Elektronikexperten für elektrisches CAD (ECAD).
 
@@ -76,12 +76,12 @@ KicadStepUp wandelt Standard FreeCAD Dateien in Kicad Dateien um und umgekehrt. 
 Um die feinen Details des Arbeitsablaufs zu verstehen, ist es hilfreich zu wissen, dass die Unterschiede zwischen den beiden Programmen einige Schwierigkeiten für einen vollständigen Datenaustausch mit sich bringen.
 Ein Beispiel ist, dass der Skizzierer, der in Kicad verwendet wird, um den Umriss der Platine zu definieren, im Vergleich zum FreeCAD Skizzierer viel begrenzter ist, so dass der Inhalt des Modells nicht komplexer sein kann, als der Kicad Skizzierer verarbeiten kann. Aus der Sicht von FreeCAD bedeutet das, dass du möglicherweise Daten verlierst. KicadStepUp bietet Umgehungsmöglichkeiten, die möglicherweise schwieriger zu verstehen sind, wenn du nicht über diesen Hintergrund verfügst.
 
-### Basic Workflow {#basic_workflow}
+### Basic Workflow 
 
 
 <div class="mw-translate-fuzzy">
 
-### Grundlegender Arbeitsablauf {#grundlegender_arbeitsablauf}
+### Grundlegender Arbeitsablauf 
 
 Eine Zusammenarbeit kann mit einem neuen oder einem bestehenden Projekt begonnen werden. Wir betrachten hier ein neues Projekt, um die Dinge einfach zu halten:
 
@@ -153,7 +153,7 @@ Bitte schau den [kicad StepUp Spickzettel](https://github.com/easyw/kicadStepUpM
 -   Autor: Github: [\@easyw](https://github.com/easyw) \| FreeCAD Foren: [kicad StepUp: ECAD MCAD bidirektionale Zusammenarbeit](https://forum.freecadweb.org/viewtopic.php?f=24&t=14276)
 -   Quellcode auf GitHub: <https://github.com/easyw/kicadStepUpMod>
 
-## Nebenbemerkung zu Externen Arbeitsbereichen {#nebenbemerkung_zu_externen_arbeitsbereichen}
+## Nebenbemerkung zu Externen Arbeitsbereichen 
 
 FreeCAD Arbeitsbereiche sind einfach in [Python](Python/de.md) zu programmieren, daher gibt es viele Leute, die zusätzliche Arbeitsbereiche außerhalb der FreeCAD Hauptentwickler entwickeln.
 

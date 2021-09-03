@@ -24,7 +24,7 @@ Pipeline es un objeto de resultado, que crea una nueva representación gráfica 
 
 <div class="mw-translate-fuzzy">
 
-## Cómo usar {#cómo_usar}
+## Cómo usar 
 
 -   Necesita un objeto de resultado válido en {{KEY | <img src="images/_FEM_Analysis.png_" width= 24px> [Analysis container](FEM_Analysis/es.md)}}, como {{KEY | CalculiX_static_results}}.
 -   Seleccione el objeto de resultado

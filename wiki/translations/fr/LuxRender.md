@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-# Description {#description_1}
+# Description 
 
 [LuxRender](https://luxcorerender.org/history/) est l\'un des deux moteurs de rendu supportés par l\'[atelier Raytracing](Raytracing_Workbench/fr.md) avec [POV-Ray](POV-Ray/fr.md). En 2013, le projet a été redémarré pour devenir [LuxCoreRender](LuxCoreRender/fr.md), avec une réécriture majeure du code et des changements de compatibilité, le projet LuxRender a donc été abandonné. Officiellement, [LuxCoreRender](LuxCoreRender/fr.md) n\'est pas supporté par l\'[atelier Raytracing](Raytracing_Workbench/fr.md), bien qu\'il puisse être intéressant d\'essayer.
 
@@ -23,14 +23,14 @@
 
 # Installation
 
-## Raytracing Workbench {#raytracing_workbench}
+## Raytracing Workbench 
 
 
 <div class="mw-translate-fuzzy">
 
-# Installation {#installation_1}
+# Installation 
 
-## Atelier Raytracing {#atelier_raytracing}
+## Atelier Raytracing 
 
 
 {{VeryImportantMessage|L'[atelier Raytracing](Raytracing_Workbench/fr.md) a été remplacé par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Il ne doit pas être confondu avec [Le module de rendus](Render_project.md), arrêté et dépassé. Le Render Workbench peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau module devrait fondamentalement fonctionner de la même manière}}
@@ -40,12 +40,12 @@
 
 </div>
 
-### Stable Version {#stable_version}
+### Stable Version 
 
 
 <div class="mw-translate-fuzzy">
 
-### Version stable {#version_stable}
+### Version stable 
 
 La dernière version stable est [LuxRender 1.6 (2017-12-28)](https://github.com/LuxCoreRender/LuxCore/releases/tag/luxrender_v1.6).
 
@@ -57,7 +57,7 @@ La dernière version stable est [LuxRender 1.6 (2017-12-28)](https://github.com/
 
 <div class="mw-translate-fuzzy">
 
-#### Linux {#linux_1}
+#### Linux 
 
 ***Binaires compilés***
 
@@ -83,7 +83,7 @@ Définissez le chemin de l\'exécutable Luxrender pour qu\'il pointe vers votre 
 
 <div class="mw-translate-fuzzy">
 
-#### macOS {#macos_1}
+#### macOS 
 
 Utilisez l\'[installateur pour OSX officiel LuxRender 1.6](https://github.com/LuxCoreRender/LuxCore/releases/download/luxrender_v1.6/LuxRender_1.6_OSXIntel_64bit.dmg).
 
@@ -95,7 +95,7 @@ Utilisez l\'[installateur pour OSX officiel LuxRender 1.6](https://github.com/Lu
 
 <div class="mw-translate-fuzzy">
 
-#### Windows {#windows_1}
+#### Windows 
 
 Déterminez d\'abord si votre carte graphique supporte [OpenCL](https://fr.wikipedia.org/wiki/OpenCL) et si vous avez installé les pilotes graphiques nécessaires. Si c\'est le cas, téléchargez [Configuration de LuxRender 1.6 avec support OpenCL](https://github.com/LuxCoreRender/LuxCore/releases/download/luxrender_v1.6/LuxRender.1.6.x64.OpenCL.Setup.exe). Sinon, téléchargez [Configuration de LuxRender 1.6 sans support OpenCL](https://github.com/LuxCoreRender/LuxCore/releases/download/luxrender_v1.6/LuxRender.1.6.x64.NoOpenCL.Setup.exe), mais pensez à vous procurer une carte graphique plus récente ou à installer les logiciels nécessaires pour l\'activer sur votre ordinateur. Exécutez ensuite le programme d\'installation téléchargé et suivez les étapes proposées.
 
@@ -114,24 +114,24 @@ Après avoir installé LuxCoreRender, lancez FreeCAD, ouvrez [Réglage des préf
 
 Définissez le chemin de l\'exécutable de Luxrender pour qu\'il pointe vers votre installation de LuxRender, généralement c\'est *C:/Program Files/LuxRender/luxrender.exe* et appliquez.
 
-### Development Version {#development_version}
+### Development Version 
 
 
 <div class="mw-translate-fuzzy">
 
-### Version de développement {#version_de_développement}
+### Version de développement 
 
 Il n\'existe pas de version de développement de LuxRender, le développement ayant été arrêté au profit du reboot [LuxCoreRender](LuxCoreRender/fr.md).
 
 
 </div>
 
-## Render Workbench {#render_workbench}
+## Render Workbench 
 
 
 <div class="mw-translate-fuzzy">
 
-## Atelier Render {#atelier_render}
+## Atelier Render 
 
 L\'[Atelier Render](https://github.com/FreeCAD/FreeCAD-render) a abandonné la prise en charge de LuxRender, car il est dépassé. Il supporte à la place le redémarrage moderne [LuxCoreRender](LuxCoreRender/fr.md).
 

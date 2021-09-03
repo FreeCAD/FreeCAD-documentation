@@ -140,7 +140,7 @@ Attenzione: secondo le dimensioni dell\'immagine, il file del disegno può diven
 
 <div class="mw-translate-fuzzy">
 
-#### Mode 8 Bits {#mode_8_bits}
+#### Mode 8 Bits 
 
 Il valore iniziale dell\'operazione si adegua automaticamente alla funzione selezionata: 0 se l\'impostazione è su Nero (Black), oppure 255 o 20 se l\'impostazione è Bianco (White)
 
@@ -166,7 +166,7 @@ Il valore iniziale dell\'operazione si adegua automaticamente alla funzione sele
 
 <div class="mw-translate-fuzzy">
 
-#### Mode 32 Bits {#mode_32_bits}
+#### Mode 32 Bits 
 
 -    {{RadioButton|TRUE|Photo}}: Il modo Photo è attivato automaticamente quando viene rilevata una immagine di **32 bit**. (La procedura può essere lunga)
 
@@ -190,7 +190,7 @@ Il valore iniziale dell\'operazione si adegua automaticamente alla funzione sele
 
 <div class="mw-translate-fuzzy">
 
-#### Capping (10mm) {#capping_10mm}
+#### Capping (10mm) 
 
 -   Slider : Definisce l\'altezza della forma, l\'altezza viene visualizzata nel riquadro del titolo.
 

@@ -16,11 +16,11 @@ This macro creates a curve described by parametric equations x(t), y(t) and z(t)
 <img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
 *Example Epicycloid curve‎*
 
-## Original Script {#original_script}
+## Original Script 
 
 You can find the updated code (13/05/2015) on the following Github repository: [Get the code here!](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
 
-## Modified Script {#modified_script}
+## Modified Script 
 
 <img alt="Example Epicycloid curve‎" src=images/Macro_3D_Parametric_Curve00.png  style="width:600px;">
 

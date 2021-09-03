@@ -33,7 +33,7 @@ Jeder GuiBefehl muss ein Symbol haben. Wir verwenden das [Tango Symbolsatz](http
 
 Alle Symbole sollten im Format [SVG](SVG.md) mit einer Vektorbildanwendung, wie beispielsweise [Inkscape](http://inkscape.org), erstellt werden. Dies erleichtert die Übernahme von Änderungen und die Ableitung von Änderungen. zusätzliche Symbole im gleichen Anwendungsbereich.
 
-### Symbol Farbkodierungstabelle {#symbol_farbkodierungstabelle}
+### Symbol Farbkodierungstabelle 
 
 <img alt="" src=images/Colorchart.png  style="width:200px;">
 

@@ -14,7 +14,7 @@ Creates a FEM constraint for contact between 2 surfaces.
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintContact.svg" width=16px> [FEM ConstraintContact](FEM_ConstraintContact.md)** button.
-    -   Select the {{MenuCommand|Model → Mechanical Constraints → <img src="images/FEM_ConstraintContact.svg" width=16px> Constraint contact}} option from the menu.
+    -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintContact.svg" width=16px> Constraint contact** option from the menu.
 2.  Select the master face.
 3.  Select the slave face.
 4.  Enter a contact stiffness.
@@ -27,7 +27,7 @@ Creates a FEM constraint for contact between 2 surfaces.
 
 ## Notes
 
-### Tips for modeling {#tips_for_modeling}
+### Tips for modeling 
 
 -   from <https://forum.freecadweb.org/viewtopic.php?f=18&p=340874#p340494>
 -   Better use linear elements otherwise calculations are very time consuming

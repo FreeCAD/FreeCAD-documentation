@@ -21,7 +21,7 @@ The Duplicate Selection command is a short-cut for the Copy+Paste commands. It c
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  [ Select](Draft_Select.md) unul sau mai multe obiecte pentru a fi duplicate.
 2.  Deschideți meniul pe calea Edit → Duplicate Selection.
@@ -36,9 +36,11 @@ Pentru [ select](Draft_Select.md) mai multe obiecte:
 
 ### Exemplu
 
-Funcții selectate: ![](images/DuplicateSelection1.png ) {{Clear}}
+Funcții selectate: ![](images/DuplicateSelection1.png ) 
 
-Funcții duplicate: ![](images/DuplicateSelection2.png ) {{Clear}}
+
+Funcții duplicate: ![](images/DuplicateSelection2.png ) 
+
 
 După această operație, duplicatele nu se deosebesc de originale deoarece sunt plasate în aceeași poziție. [ Mișcați](Placement_/_en.md) un obiect sau ascundeți-l pentru a îl afișa în mod individual.
 
@@ -59,7 +61,7 @@ După această operație, duplicatele nu se deosebesc de originale deoarece sunt
 
 ## Preferences
 
--   Duplicate labels are allowed if {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels}} is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 
 ## Scripting
 

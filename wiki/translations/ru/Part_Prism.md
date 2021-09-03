@@ -17,7 +17,7 @@
 ## Применение
 
 1.  Откройте верстак **<img src="images/Workbench_Part.svg" width=16px> [Part(Деталь)](Part_Workbench/ru.md)**.
-2.  Нажмите на кнопку**<img src="images/Part_Primitives.svg" width=24px> [Примитивы](Part_Primitives/ru.md)**, или через главное меню {{MenuCommand|Деталь → [Создать примитивы](Part_Primitives.md) → Призма}}.
+2.  Нажмите на кнопку**<img src="images/Part_Primitives.svg" width=24px> [Примитивы](Part_Primitives/ru.md)**, или через главное меню **Деталь → [Создать примитивы](Part_Primitives.md) → Призма**.
 3.  Выбирите **Призма** в диалоге и установите параметры.
 
 The prism properties can later be edited, either in the [Property editor](Property_editor.md) or by double-clicking the prism in the [Tree view](Tree_view.md).

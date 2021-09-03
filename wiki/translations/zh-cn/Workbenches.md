@@ -89,7 +89,7 @@ The following workbenches are still included in the base installation for compat
 
 FreeCAD工作台很容易在[Python](http://www.python.org)中编程，所以很多人在FreeCAD代码库之外开发了额外的工作台。
 
-[外部工作台页面有一些关于其中的一些信息和教程](External_workbenches/zh-cn.md)，[FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons)项目旨在收集它们，并使其可以从FreeCAD中轻松安装。亦可用[Addon Manager进行安装](Addon_Manager.md)，它在菜单中的位置为{{MenuCommand|Tools → <img src="images/AddonManager.svg" width=24px> Addon manager}}。
+[外部工作台页面有一些关于其中的一些信息和教程](External_workbenches/zh-cn.md)，[FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons)项目旨在收集它们，并使其可以从FreeCAD中轻松安装。亦可用[Addon Manager进行安装](Addon_Manager.md)，它在菜单中的位置为**Tools → <img src="images/AddonManager.svg" width=24px> Addon manager**。
 
 新的工作台正在开发中，敬请期待！
 

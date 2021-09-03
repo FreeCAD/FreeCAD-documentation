@@ -18,13 +18,13 @@ Cuando se imprime en 3D, siempre hay que asegurarse de que esta pérdida de cali
 
 Abajo, supondremos que se cumplen los dos primeros criterios y que, a estas alturas, usted es capaz de producir objetos sólidos con dimensiones correctas. Ahora veremos cómo abordar el tercer punto.
 
-### Exportación a slicers {#exportación_a_slicers}
+### Exportación a slicers 
 
 Esta es la técnica más utilizada para impresión 3D. El objeto 3D se exporta a otro programa (el slicer) que generará el G-code del objeto, cortándolo en finas capas (de ahí el nombre), que reproducirán los movimientos que hará la impresora 3D. Como muchas de esas impresoras son de fabricación casera, suele haber pequeñas diferencias entre unas y otras. Estos programas suelen ofrecer posibilidades de configuración avanzadas que permiten adaptar la salida exactamente a las características de su impresora 3D.
 
 La impresión 3D real, sin embargo, es un tema demasiado amplio para este manual. Pero veremos cómo exportar y utilizar estos cortadores para comprobar que la salida es correcta.
 
-### Convertir objetos en mallas {#convertir_objetos_en_mallas}
+### Convertir objetos en mallas 
 
 Ninguno de los slicers, en este momento, tomará directamente la geometría sólida como la que producimos en FreeCAD. Así que tendremos que convertir cualquier objeto que queramos imprimir en 3D en una [Malla poligonal](https://es.wikipedia.org/wiki/Malla_poligonal) primero, que el slicer pueda abrir. Afortunadamente, así como convertir una malla en un sólido es una operación complicada, lo contrario, convertir un sólido en una malla, es muy sencillo. Lo único que debemos tener cuidado, es que es aquí donde se producirá la degradación que mencionamos anteriormente. Debemos comprobar que la degradación se mantiene dentro de unos límites aceptables.
 
@@ -52,7 +52,7 @@ Sin embargo, en la mayoría de los casos, los valores por defecto darán un resu
 
 Si no tienes una impresora 3D, suele ser muy fácil encontrar servicios comerciales que imprimen y te envían los objetos impresos por correo. Entre los más famosos están [Shapeways](http://www.shapeways.com/) y [Sculpteo](http://www.sculpteo.com/), pero normalmente encontrarás muchos otros en tu propia ciudad. En todas las ciudades importantes, hoy en día se encuentran [Fab labs](https://es.wikipedia.org/wiki/Fab_lab), que son talleres equipados con una serie de máquinas de fabricación en 3D, que casi siempre incluyen al menos una impresora 3D. Los Fab labs suelen ser espacios comunitarios, que te permitirán utilizar sus máquinas, de forma gratuita o de pago, dependiendo del Fab lab, pero también te enseñarán a utilizarlas y promoverán otras actividades en torno a la fabricación 3D.
 
-### Usando Slic3r {#usando_slic3r}
+### Usando Slic3r 
 
 [Slic3r](http://slic3r.org/) es una aplicación que convierte objetos STL en G-code que puede enviarse directamente a las impresoras 3D. Al igual que FreeCAD, es gratuito, de código abierto y funciona en Windows, Mac OS y Linux. Configurar correctamente las cosas para la impresión 3D es un proceso complicado, en el que debes tener un buen conocimiento de tu impresora 3D, por lo que no es muy útil generar el G-code antes de ir a imprimir (tu archivo de G-code podría no funcionar bien en otra impresora), pero de todos modos nos es útil para comprobar que nuestro archivo STL será imprimible sin problemas.
 
@@ -60,7 +60,7 @@ Este es nuestro archivo STL exportado abierto en Slic3r. Usando la pestaña **vi
 
 ![](images/Exercise_meshing_03.jpg )
 
-### Usando el complemento Cura {#usando_el_complemento_cura}
+### Usando el complemento Cura 
 
 [Cura](https://ultimaker.com/en/products/cura-software) es otra aplicación gratuita y de código abierto para Windows, Mac y Linux, mantenida por el fabricante de impresoras 3D [Ultimaker](https://ultimaker.com). Algunos usuarios de FreeCAD han creado un [Ambiente de trabajo Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin) que utiliza cura internamente. El Ambiente de trabajo Cura está disponible en el repositorio [FreeCAD complementos](https://github.com/FreeCAD/FreeCAD-addons). Para utilizar el Ambiente de trabajo Cura, también necesitas instalar el propio Cura, que no está incluido en el ambiente de trabajo.
 
@@ -77,7 +77,7 @@ Una vez que hayas instalado tanto Cura como el Ambiente de trabajo Cura, podrás
 
 -   El G-code generado también puede ser reimportado a FreeCAD (usando el preprocesador slic3r) para su comprobación.
 
-### Generación de G-code {#generación_de_g_code}
+### Generación de G-code 
 
 
 {{VeryImportantMessage|'''Aviso:''' Esta sección fue hecha para FreeCAD 0.16. Se han hecho cambios significativos en la creación de trayectorias. Por favor, consulta la documentación del [Ambiente de trabajo trayectorias](Path_Workbench/es.md) en general o el tutorial como [caminar trayectorias](Path_Walkthrough_for_the_Impatient/es.md)!}}

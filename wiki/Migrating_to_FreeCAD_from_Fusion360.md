@@ -4,7 +4,7 @@
 
 This page is intended for users who are interested in migrating to FreeCAD from the Fusion 360 world.
 
-## What do I do? {#what_do_i_do}
+## What do I do? 
 
 1.  The first thing that you want to do is to get your files out of proprietary formats and storage. Start by exporting your models from the cloud to your local machine.
     -   A popular method is using this [Fusion360 total exporter](https://github.com/Jnesselr/fusion-360-total-exporter) script.
@@ -35,7 +35,7 @@ Reference the [Glossary](Glossary.md) page in general but here is a short list o
 
 -   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) recommends installing HakanSeven12\'s [ModernUI Workbench](ModernUI_Workbench.md)
 
-## Learning Resources {#learning_resources}
+## Learning Resources 
 
 -   [Fusion360 to FreeCAD - Introduction](https://www.youtube.com/watch?v=_GxJkB23ZHM), video by Brodie Fairhall.
 -   [Fusion360 to FreeCAD - Part 2](https://www.youtube.com/watch?v=IESZD4QS3P8), video by Brodie Fairhall.
@@ -43,7 +43,7 @@ Reference the [Glossary](Glossary.md) page in general but here is a short list o
 -   [Beginners written tutorial: from first part to technical drawing.](https://github.com/macdroid53/LearningFreeCAD) by macdroid53.
 -   [An online resource for us regular FreeCAD users.](https://www.freecad.info/)
 
-## Comparison Videos {#comparison_videos}
+## Comparison Videos 
 
 -   [Model a compressor turbine in FreeCAD and Fusion360](https://www.youtube.com/watch?v=kirDbZd0dvI&feature=youtu.be)
 

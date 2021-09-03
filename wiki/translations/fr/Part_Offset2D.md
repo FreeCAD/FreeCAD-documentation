@@ -68,7 +68,7 @@ Un objet Décalage 2D paramétrique est crée. Les object originaux sont bascul�
 
 :   ![600px](images/Part_Offset2D_Fill.png)
 
-## Problèmes connus {#problèmes_connus}
+## Problèmes connus 
 
 -   La plupart des modes non par défaut ne fonctionnent qu\'avec OCC 7.0.0 ou ultérieur.
 

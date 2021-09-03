@@ -53,17 +53,17 @@ This tutorial uses the notation {{Value|(x, y, z)}} to denote the coordinates re
 
 </div>
 
-1\. Open FreeCAD, create a new empty document with {{MenuCommand|File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)}}.
+1\. Open FreeCAD, create a new empty document with **File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
 
-:   1.1. Switch to the <img src=images/Workbench_Draft.svg style="width:Draft Workbench](Draft_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu {{MenuCommand|View → Workbench → [16px"> Draft}}.
-:   1.2. Make sure you understand how to use the [property editor](property_editor.md), particularly the {{MenuCommand|Data}} and {{MenuCommand|View}} tabs to change the properties. When changing properties, you may have to do a **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** action to see the result in the [3D view](3D_view.md).
+:   1.1. Switch to the <img src=images/Workbench_Draft.svg style="width:Draft Workbench](Draft_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **View → Workbench → [16px"> Draft**.
+:   1.2. Make sure you understand how to use the [property editor](property_editor.md), particularly the **Data** and **View** tabs to change the properties. When changing properties, you may have to do a **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** action to see the result in the [3D view](3D_view.md).
 :   1.3. Since the Draft objects are planar shapes, they are better viewed from the top. Use **<img src=images/Std_ViewTop.svg style="width:16px"> [View top](Std_ViewTop.md)** to set the [3D view](3D_view.md).
 :   1.4. Although it is not used in this tutorial, the Draft grid is helpful to position geometrical elements. Use **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_ToggleGrid.svg style="width:SelectPlane](Draft_SelectPlane.md)** to set both the working plane and the grid, and then show and hide the grid with **[16px"> [Toggle grid](Draft_ToggleGrid.md)**.
 
 
 <div class="mw-translate-fuzzy">
 
-### Cum se procedează {#cum_se_procedează}
+### Cum se procedează 
 
 Este obligatoriu să vă asigurați că bara de instrumente **Ciornă Ancorare** (Draft Snap toolbar) va fi disponibilă pentru utilizare pe parcursul operaţiilor din acest îndrumător.
 
@@ -95,7 +95,7 @@ Rețineți că puteți modifica vizibilitatea **Grilei** din acest meniu, în ca
 
 <div class="mw-translate-fuzzy">
 
-#### Folosirea planelor {#folosirea_planelor}
+#### Folosirea planelor 
 
 Planele sunt folosite pentru a delimita efectul uneltelor din **Ciornă** la un anumit plan, evitând astfel problemele cu localizarea punctelor și curbelor în piesele complexe. Planele pot să se refere la axele sistemului de coordonate **(XY, YZ, \...)** sau pot să folosească o suprafață plană din document ca referință.
 
@@ -118,7 +118,7 @@ Before pressing the button, you can also change the value of the offset in milli
 
 <div class="mw-translate-fuzzy">
 
-##### Linii și Arce {#linii_și_arce}
+##### Linii și Arce 
 
 1.  Selectați ![](images/Draft_Arc.png ) [Arc](Draft_Arc.md).
 2.  Setați **centrul** la **(0, 0, 0)**.
@@ -151,7 +151,7 @@ Repetați procedeul pentru trasarea unui al doilea arc cu o rază de 25 mm. Cele
 <img alt="" src=images/01_Dr01_Draft_Arc_profile.png  style="width:" height="400px;"> 
 *Closed profile created by two arcs and two lines.*
 
-## Fusing or compounding {#fusing_or_compounding}
+## Fusing or compounding 
 
 
 <div class="mw-translate-fuzzy">
@@ -178,7 +178,7 @@ Acum avem mai multe curbe care descriu un profil, însă acesta nu este recunosc
 
 <div class="mw-translate-fuzzy">
 
-##### Plane, dreptunghiuri şi cercuri {#plane_dreptunghiuri_şi_cercuri}
+##### Plane, dreptunghiuri şi cercuri 
 
 1.  Daţi clic pe ![](images/Draft_Rectangle.png ) [Dreptunghi](Draft_Rectangle/ro.md)
 2.  Setaţi coordonatele primului punct la **(-100, -60, 0)**
@@ -191,7 +191,7 @@ Acum avem mai multe curbe care descriu un profil, însă acesta nu este recunosc
 
 :   7.1. Press **<img src=images/Draft_Rectangle.svg style="width:16px"> [Rectangle](Draft_Rectangle.md)**.
 :   7.2. Enter the values of the first point {{Value|(-100, -60, 0)}}, and press **Enter**.
-:   7.3. Make sure the {{MenuCommand|Relative}} option is unchecked, as we will use absolute units. You may press **R** in the keyboard to quickly toggle this option on and off.
+:   7.3. Make sure the **Relative** option is unchecked, as we will use absolute units. You may press **R** in the keyboard to quickly toggle this option on and off.
 :   7.4. Enter the values for the second point {{Value|(140, 90, 0)}}, and press **Enter**.
 
 
@@ -235,7 +235,7 @@ The rectangle, the circle, the polygon, and most other objects created with the 
 
 <div class="mw-translate-fuzzy">
 
-##### Matrici (tablouri) {#matrici_tablouri}
+##### Matrici (tablouri) 
 
 Matricile sunt folosite pentru a replica un obiect de mai multe ori pe o direcție, după o axă de rotație sau de-a lungul unei căi.
 
@@ -265,7 +265,7 @@ The array object shows copies of the object around the origin.
 
 <div class="mw-translate-fuzzy">
 
-#### Adăugaţi dimensiunile de cotare {#adăugaţi_dimensiunile_de_cotare}
+#### Adăugaţi dimensiunile de cotare 
 
 Dimensiunile de cotare necesită o utilizare constantă a **ancorării constrângerilor** pentru a selecta corect punctele pe care doriți să le folosiţi la dimensionare. Pentru a schimba selectarea punctelor posibile, se va utiliza bara de instrumente **Ancorare**.
 
@@ -304,7 +304,7 @@ Remember to adjust the **Font Size**, and other properties to see the dimension 
 
 <div class="mw-translate-fuzzy">
 
-#### Adnotări şi text {#adnotări_şi_text}
+#### Adnotări şi text 
 
 Între cele două, există doar o diferență de nuanţă : textul oferă un profil ce poate fi utilizat pentru a efectua modelări 3D.
 
@@ -347,7 +347,7 @@ To extrude letters and engrave them on to solids, see the [Draft ShapeString tut
 
 <div class="mw-translate-fuzzy">
 
-#### Crearea planşelor {#crearea_planşelor}
+#### Crearea planşelor 
 
 Pentru a realiza planşe, este necesară crearea unei pagini \'\'\'Desenare \'\'\' cu elementele pe care doriţi să le folosiţi. Vă rugăm să citiţi [Îndrumător pentru Desenare](Drawing_tutorial/ro.md) pentru o descriere detaliată.
 

@@ -30,7 +30,7 @@ Neue Werkzeuge mit grafischer Oberfläche zur Eingabe von Werten
 -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Arch Bewehrung Stützenbewehrung ZweiBinderSechsStützen](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md)
 -   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Arch Bewehrung BalkenBewehrung](Arch_Rebar_BeamReinforcement/de.md)
 
-## Externe Arbeitsbereiche {#externe_arbeitsbereiche}
+## Externe Arbeitsbereiche 
 
 FreeCAD Arbeitsbereiche sind einfach in [Python](Python/de.md) zu programmieren, daher gibt es viele Leute, die zusätzliche Arbeitsbereiche außerhalb der FreeCAD Hauptentwickler entwickeln.
 

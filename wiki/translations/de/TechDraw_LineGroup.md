@@ -20,7 +20,7 @@ Zum ändern der LinienGruppen-Definitionsdatei
 1.  Gehe auf den Einstellungsreiter *[Allgemein](TechDraw_Preferences/de#Allgemein.md)*.
 2.  Wähle im Feld **Linien Gruppen Datei** eine LinienGrupppen Definitionsdatei aus.
 
-### Anpassen von LinienGruppen {#anpassen_von_liniengruppen}
+### Anpassen von LinienGruppen 
 
 Wenn du Schreibberechtigung hast, kannst du `LineGroup.csv` bearbeiten, um deine eigenen LinienGruppen hinzuzufügen.
 
@@ -40,7 +40,7 @@ wobei `$INSTALL_DIR` das Verzeichnis ist, in dem FreeCAD installiert wurde, z.B.
 
 Du kannst deine bevorzugten Standardeinstellungen in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) angeben.
 
-## LinienGruppe Dateipfad {#liniengruppe_dateipfad}
+## LinienGruppe Dateipfad 
 
 -   **Windows**: `C:\Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
 -   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`

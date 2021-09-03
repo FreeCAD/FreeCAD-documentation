@@ -13,7 +13,7 @@ La commande **Std Afficher les objets** affiche tous les objets appartenant au d
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → Visibilité → <img src="images/Std_ShowObjects.svg" width=16px> Afficher tous les objets}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_ShowObjects.svg" width=16px> Afficher tous les objets** dans le menu.
 
 ## Remarques
 

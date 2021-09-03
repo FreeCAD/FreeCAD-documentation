@@ -28,7 +28,7 @@ L\'atelier TechDraw dispose de deux outils de hachurage:
 
 **Résultat:** La surface sera hachurée initialement en utilisant les valeurs par défaut. **Remarque**: modifiez les propriétés des hachures pour obtenir le motif souhaité.
 
-### Hachures à l\'aide d\'un fichier image {#hachures_à_laide_dun_fichier_image}
+### Hachures à l\'aide d\'un fichier image 
 
 <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Hachures à l\'aide d\'un fichier image](TechDraw_Hatch/fr.md) utilise des tuiles de base [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md) pour couvrir la face sélectionnée.
 
@@ -38,7 +38,7 @@ Tout fichier [bitmap](bitmap/fr.md) peut être utilisé (PNG, JPG, etc\...) comm
 
 Le fichier de motif de hachures par défaut peut être spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
-## Hachures géométriques {#hachures_géométriques}
+## Hachures géométriques 
 
 <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Hachures géométriques](TechDraw_GeometricHatch.md) forme un motif de lignes basé sur une spécification lue dans un fichier. Ce fichier est généralement **compatible avec le format AutoDesk® PAT largement utilisé**. Une petite sélection de modèles est incluse dans le fichier FCPAT.pat:
 
@@ -68,7 +68,7 @@ Le fichier de motif de hachures par défaut peut être spécifié dans les [Tech
 
 Vous pouvez ajouter vos propres modèles si vous avez l\'autorisation d\'écriture sur FCPAT.pat, ou vous pouvez créer votre propre fichier \*.pat et le pointer dans [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
-### Chemin du fichier PAT {#chemin_du_fichier_pat}
+### Chemin du fichier PAT 
 
 Le fichier `FCPAT.pat` peut être trouvé à l\'emplacement suivant :
 

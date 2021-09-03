@@ -31,7 +31,7 @@ Diese Werkzeuge sind gar keine Bestandteile des Arbeitsbereichs PartDesign. Sie 
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppe](Std_Group/de.md): fügt einen Gruppencontainer in das aktive Dokument ein, der es erlaubt, die Objekte in der [Baumansicht](Tree_view/de.md) zu ordnen.
 
-### Hilfswerkzeuge Part Design {#hilfswerkzeuge_part_design}
+### Hilfswerkzeuge Part Design 
 
 -   <img alt="" src=images/PartDesign_Body.png  style="width:32px;"> [Körper erstellen](PartDesign_Body/de.md): Erzeugen und aktivieren eines neuen [Körpers](Body/de.md).
 
@@ -43,7 +43,7 @@ in den [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md).
 
 -   <img alt="" src=images/Sketcher_MapSketch.png‎  style="width:32px;"> [Eine Skizze einer Fläche zuordnen](Sketcher_MapSketch/de.md): Ordnet eine Skizze einer zuvor ausgewählten Ebene oder einer Fläche des aktiven Körpers zu.
 
-### Modellierungswerkzeuge Part Design {#modellierungswerkzeuge_part_design}
+### Modellierungswerkzeuge Part Design 
 
 #### Bezugsswerkzeuge
 
@@ -63,7 +63,7 @@ Erzeugt ein lokales Koordinatensystem, das an der Bezugsgeometrie im aktiven Kö
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Klon erstellen](PartDesign_Clone/de.md): Erstellt einen Klon des ausgewählten Körpers.
 
-#### Additive Werkzeuge {#additive_werkzeuge}
+#### Additive Werkzeuge 
 
 Dies sind Werkzeuge zum Erstellen von Basisformelementen oder zum Hinzufügen von Material zu einem bestehenden Körper.
 
@@ -95,7 +95,7 @@ Dies sind Werkzeuge zum Erstellen von Basisformelementen oder zum Hinzufügen vo
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [zu addierender Keil](PartDesign_AdditiveWedge/de.md): Erstellt einen additiven Keil.
 
-#### Subtraktive Werkzeuge {#subtraktive_werkzeuge}
+#### Subtraktive Werkzeuge 
 
 Dies sind Werkzeuge, um Material von einem bestehenden Körper abzuziehen.
 
@@ -157,7 +157,7 @@ Diese Werkzeuge ermöglichen es, Kanten und Flächen nachzubearbeiten.
 
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Dicke](PartDesign_Thickness/de.md): erzeugt eine dicke Außenhaut aus dem aktiven Körper und öffnet ausgewählte Fläche(n).
 
-#### Boolesche Operationen {#boolesche_operationen}
+#### Boolesche Operationen 
 
 -   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Boolesche Operation](PartDesign_Boolean/de.md): importiert einen oder mehrere Körper oder PartDesign Klone in den aktiven Körper und führt eine Boolesche Operation aus.
 
@@ -173,7 +173,7 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Wellenauslegungsassistent](PartDesign_WizardShaft/de.md): Erzeugt eine Welle aus einer Wertetabelle und ermöglicht die Analyse von Kräften und Momenten. Die Welle wird mit einer umlaufenden Skizze erstellt, die bearbeitet werden kann.
 
-### Kontextmenü Elemente {#kontextmenü_elemente}
+### Kontextmenü Elemente 
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Spitze setzen](PartDesign_MoveTip/de.md): definiert die Spitze neu, das ist das Merkmal, das außerhalb des Körpers erscheint.
 
@@ -181,7 +181,7 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Objekt nach anderem Objekt verschieben](PartDesign_MoveFeatureInTree/de.md): ermöglicht eine Neuordnung des Körperbaums, indem die ausgewählte Skizze, Bezugsgeometrie oder das Formelement an eine andere Position in der Formelementliste verschoben wird.
 
-#### Mit dem Part Arbeitsbereich gemeinsam genutzte Elemente {#mit_dem_part_arbeitsbereich_gemeinsam_genutzte_elemente}
+#### Mit dem Part Arbeitsbereich gemeinsam genutzte Elemente 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aussehen](Std_SetAppearance/de.md): bestimmt das Aussehen des gesamten Teils (Farbtransparenz usw.).
 

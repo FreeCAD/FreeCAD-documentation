@@ -55,7 +55,7 @@ Questo strumento crea una nuova operazione Cavità 3D. Una tasca 3D tiene conto 
 
 ## Properties
 
-### Data Tab {#data_tab}
+### Data Tab 
 
 #### Base
 
@@ -174,7 +174,7 @@ Note: Rotation is not available for 3D Pocket as of 0.19.
 
 -    **Enable Rotation**: Enable rotation to gain access to pockets or areas not normal to Z axis.
 
-#### Start Point {#start_point}
+#### Start Point 
 
 -    **Start Point**: The custom start point for the path of this operation.
 

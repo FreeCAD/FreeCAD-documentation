@@ -22,11 +22,11 @@ The render module is designed to work with multiple render back ends, but curren
 
 A brief explanation of the parts in the Render Module:
 
-### Render Feature {#render_feature}
+### Render Feature 
 
 The Render Feature contains the information that will be passed to the Render such as camera and render settings, and materials and also what render plugin to use. This means you can create many different features with different materials, camera settings that are independent from each other. The feature also takes control over the rendering process.
 
-### Render Material {#render_material}
+### Render Material 
 
 Each Render Material is based on a Library Material which are stored in separate .XML files. These Render Materials can be assigned properties such as colour or shininess and other parameters. These materials are then attached to an object in the your document.
 
@@ -36,7 +36,7 @@ Each Render Material is based on a Library Material which are stored in separate
 
 {{VeryImportantMessage|To use the new Render Workbench, currently you must be able to compile from the developer's branch.}}
 
-### Using the Render Module: {#using_the_render_module}
+### Using the Render Module: 
 
 First checkout the following repository [raytracing](https://github.com/mrlukeparry/FreeCAD_sf_master/tree/raytracing) and checkout the \'render\' branch. Then ensure you can build this.
 
@@ -54,15 +54,15 @@ When you create a Render Feature it will store the current position and type of 
 
 You can set other render settings:
 
-#### Render Preset {#render_preset}
+#### Render Preset 
 
 Render Presets are specific to the render plugin that are used. They change the render process to improve the quality of the output or it the speed that the output is generated. With Lux Render, \'MLT Unbiased\' produces good quality results in reasonable time. \'Direct Lighting Preview\' produces a fast but low quality result.
 
-#### Render Template {#render_template}
+#### Render Template 
 
 Render Templates are currently specific to the render plugin. By selecting a template, it will generate a preset scene such as lighting, geometry with your parts inside it. Currently \'Lux Classic\' correctly works and produces satisfactory results. It will attempt to calculate the scene based on your camera position and the overall size of visible parts.
 
-### Start a Render {#start_a_render}
+### Start a Render 
 
 Once the feature\'s settings have been set. You can render the scene. For example this is the example scene. Any parts that are not visible in the document will not be included in the Render.
 
@@ -80,7 +80,7 @@ If the render process is successful, the output will be automatically shown. You
 
 ![](images/sceneOutput.png )
 
-### Unbiased Rendering {#unbiased_rendering}
+### Unbiased Rendering 
 
 Essentially the render program will simulate light rays \'bouncing\' through a scene. When this light hits a camera it will be visible in the output. Over time more rays hit the camera and an image builds up. At the beginning the image will look noisy where light hasn\'t reach the camera.
 
@@ -88,11 +88,11 @@ When you are happy with the output, press \'Stop Render\'. You may now save the 
 
 ![](images/unbiasedRendering.png )
 
-#### Render Speed {#render_speed}
+#### Render Speed 
 
 The render process are typically run on the CPU. The time taken for a satisfactory result, depends on the size of the output, the scene, the number and complexity of materials used, the lights and overall system performance. A quick preview for a simple part can take one minute, whilst a high quality output can taken several hours.
 
-### Attaching Materials {#attaching_materials}
+### Attaching Materials 
 
 Ensure you are currently in edit mode for the Render feature. Click the Add materials in the tool bar. A list of library materials will be shown in the task view.You can scroll through these by dragging the list or using the mousewheel
 

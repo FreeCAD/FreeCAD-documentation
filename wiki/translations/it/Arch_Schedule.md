@@ -28,7 +28,7 @@ Per una soluzione più generale, consultare il [Reporting Workbench](https://git
 
 </div>
 
-## Flusso di lavoro {#flusso_di_lavoro}
+## Flusso di lavoro 
 
 In primo luogo è necessario disporre di un modello. Ad esempio, qui c\'è un documento con una coppia di oggetti. Non è necessario che siano oggetti Arch, possono essere di qualsiasi tipo.
 
@@ -74,9 +74,9 @@ Facendo doppio clic sull\'oggetto Scheda, si ritorna al pannello delle Azioni e 
 
 Dall\'ambiente Spreadsheet il foglio di calcolo può quindi essere esportato normalmente in formato CSV.
 
-## Dynamic properties {#dynamic_properties}
+## Dynamic properties 
 
-It is possible to add your own properties to objects. These are called [Dynamic properties](Property_editor#Actions.md). If they have been added with the {{MenuCommand|Prefix group name}} option selected, their names will indeed start with the group name, but this prefix is not displayed in the [Property editor](Property_editor.md). Their names have this form: `NameOfGroup_NameOfProperty`. To reference them in a schedule this full name must be used.
+It is possible to add your own properties to objects. These are called [Dynamic properties](Property_editor#Actions.md). If they have been added with the **Prefix group name** option selected, their names will indeed start with the group name, but this prefix is not displayed in the [Property editor](Property_editor.md). Their names have this form: `NameOfGroup_NameOfProperty`. To reference them in a schedule this full name must be used.
 
 
 

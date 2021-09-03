@@ -27,7 +27,7 @@ Gdzie `$INSTALL_DIR` jest katalogiem, w którym zainstalowano FreeCAD, na przyk�
 /usr/share/freecad/Mod/TechDraw/Templates/HowToExample.svg
 ```
 
-## Tworzenie dokumentu bazowego {#tworzenie_dokumentu_bazowego}
+## Tworzenie dokumentu bazowego 
 
 1\. Otwórz nowy dokument w programie Inkscape.
 
@@ -44,7 +44,7 @@ Gdzie `$INSTALL_DIR` jest katalogiem, w którym zainstalowano FreeCAD, na przyk�
 
 Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz **<https://>\...**, nawet jeśli wiki jest obecnie osiągalne przez https. Ponieważ SVG jest formatem czytelnym dla człowieka, możesz także wpisać powyższą linię do pliku za pomocą edytora tekstu. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> *align=center|Inkscape: Edytor XML dodaje klauzulę przestrzeni nazw „freecad” do elementu <svg>* 
 
-## Tworzenie szablonu rysunku {#tworzenie_szablonu_rysunku}
+## Tworzenie szablonu rysunku 
 
 4\. Narysuj ramkę, numery stref, linie środkowe i inną geometrię.
 
@@ -56,7 +56,7 @@ Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz 
 
 8\. Masz teraz gotowe dzieło, które powinno wyglądać mniej więcej tak: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> *align=center|Inkscape: wstępny układ szablonu* 
 
-## Tworzenie pól do edycji {#tworzenie_pól_do_edycji}
+## Tworzenie pól do edycji 
 
 9\. Użyj edytora XML, aby dodać tag `freecad:editable`} do każdego edytowalnego elementu `<text>}.
 * Przypisać sensowną nazwę do każdego pola tekstowego, które można edytować.
@@ -78,7 +78,7 @@ Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz 
 
 
 12. Musimy go skurczyć.
-* {{MenuCommand|Edycja → Wybierz wszystko we wszystkich warstwach}} lub pole wyboru wybierz i zaznacz wszystkie.
+* **Edycja → Wybierz wszystko we wszystkich warstwach** lub pole wyboru wybierz i zaznacz wszystkie.
 * Dostosuj proporcje pola roboczego **W:** i **H:** do rozmiarów twojego dzieła w milimetrach.
 * Ustaw go na rozmiar strony pomniejszony o odpowiednie marginesy, na przykład **W: 250**, i **H: 200**.
 
@@ -90,12 +90,12 @@ Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz 
 
 15. Upewnij się, że wszystkie edytowalne teksty są ''rozgrupowane'' za pomocą klawiszy **Shift** + **Ctrl** + **g**.
 
-16. Zaznacz wszystko na swojej stronie, używając {{MenuCommand|Edycja → Wybierz wszystko}}, a następnie {{MenuCommand|Edycja → Kopiuj}} **Ctrl** + **C**''.
+16. Zaznacz wszystko na swojej stronie, używając **Edycja → Wybierz wszystko**, a następnie **Edycja → Kopiuj** **Ctrl** + **C**''.
 
-17. Następnie usuń bieżącą warstwę, {{MenuCommand|Warstwa → Usuń aktualną warstwę}}.
+17. Następnie usuń bieżącą warstwę, **Warstwa → Usuń aktualną warstwę**.
 : Uwaga: jeśli usunąłeś już warstwę (w Twoim panelu warstw nie ma żadnej listy warstw), ten krok nie jest wymagany. W tym przypadku należy zaznaczyć wszystko **Ctrl**+**A**, wyciąć zaznaczenie **Ctrl**+**X** i wkleić je przy pomocy polecenia w następnym kroku.
 
-18. Następnie wklej, {{MenuCommand|Edycja → Wklej tutaj}}.
+18. Następnie wklej, **Edycja → Wklej tutaj**.
 : Uwaga: To polecenie zapobiega zapisywaniu pozycji tekstowych w znacznikach transformacji. <u>Ważne jest, aby nie używać standardowej komendy wklejania.</u>
 
 19. Twój szablon powinien teraz wyglądać właściwie i nie powinien zawierać żadnych niepożądanych przekształceń.

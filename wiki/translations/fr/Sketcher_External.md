@@ -23,7 +23,7 @@ Attention, l\'utilisation de cet outil pour créer un lien vers une géométrie 
 -   Sélectionner une arête ou un sommet que vous voulez lier dans l\'esquisse.
 -   Appuyer sur **Échap** ou sélectionner un autre outil pour quitter l\'outil.
 
-### Règles de sélection {#règles_de_sélection}
+### Règles de sélection 
 
 -   Seuls les arêtes et les sommets des objets du même système de coordonnées sont autorisés.
 
@@ -37,21 +37,21 @@ Cela signifie que vous ne pouvez pas créer de lien vers Pocket avec cette esqui
 
 CIl n\'est pas nécessaire que l\'esquisse soit sur une face pour utiliser cet outil. Les liens directs entre les esquisses sont possibles et encouragés car ils sont plus fiables.
 
-### Comment savoir si tout a fonctionné {#comment_savoir_si_tout_a_fonctionné}
+### Comment savoir si tout a fonctionné 
 
 Une ligne de couleur (magenta par défaut) sera surimposée sur une arête si celle-ci est liée avec succès (les sommets seront rouges), et sera visible dans l\'esquisse seulement dans le mode d\'édition d\'esquisse.
 
-### Similarité des lignes de construction {#similarité_des_lignes_de_construction}
+### Similarité des lignes de construction 
 
 Les lignes de géométrie externe magenta sont semblables aux [lignes de construction](Sketcher_ToggleConstruction/fr.md) bleues sauf que les premières sont liées de façon paramétrique à un élément solide à laquelle l\'esquisse est attachée. Les lignes de construction sont des lignes de travail internes à l\'esquisse et seront uniquement utilisées pour la construction de la géométrie, et non pour les opérations sur le solide, comme les protrusions et les cavités.
 
-### Utilisation de géométrie externe dans l\'atelier PartDesign {#utilisation_de_géométrie_externe_dans_latelier_partdesign}
+### Utilisation de géométrie externe dans l\'atelier PartDesign 
 
 Pendant le travail dans PartDesign, l\'outil de géométrie externe est utilisé pour faciliter la mise en place d\'un élément solide de votre construction, par rapport à la construction de l\'étape précédente. L\'atelier PartDesign est destiné à la production d\'un seul solide, par conséquent, les esquisses créées avec la géométrie externe sont utilisés pour créer une nouvelle entité pour ce solide.
 
 L\'outil de géométrie externe peut, par exemple, être utilisé comme référence pour une contrainte utilisée pour positionner un trou dans un objet, à un emplacement spécifique relatif à une arête ou un sommet.
 
-### Utilisation de géométrie externe dans l\'atelier Part {#utilisation_de_géométrie_externe_dans_latelier_part}
+### Utilisation de géométrie externe dans l\'atelier Part 
 
 Vous pouvez utiliser n\'importe quelle géométrie Part située dans le système de coordonnées de l\'esquisse. Il est conseillé de lier à la première fonction possible, car cela forme un lien plus stable.
 

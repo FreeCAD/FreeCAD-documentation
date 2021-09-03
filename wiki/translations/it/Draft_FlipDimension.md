@@ -26,7 +26,7 @@ Questo strumento capovolge il testo della [Dimensione](Draft_Dimension/it.md) at
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più oggetti [Quotatura](Draft_Dimension/it.md)
-2.  Andare nel menu {{MenuCommand|Draft → Utilità → <img src="images/Draft_FlipDimension.png" width=16px> [Inverti la direzione](Draft_FlipDimension/it.md)}}.
+2.  Andare nel menu **Draft → Utilità → <img src="images/Draft_FlipDimension.png" width=16px> [Inverti la direzione](Draft_FlipDimension/it.md)**.
 
 
 </div>

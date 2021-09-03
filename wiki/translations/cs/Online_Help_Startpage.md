@@ -2,7 +2,7 @@
 
 ![150](images/Crystal_Clear_app_tutorials.png )
 
-## Vítejte v on-line helpu FreeCADu {#vítejte_v_on_line_helpu_freecadu}
+## Vítejte v on-line helpu FreeCADu 
 
 
 <div class="mw-translate-fuzzy">

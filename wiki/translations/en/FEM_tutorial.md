@@ -39,7 +39,7 @@ In this example a Cube is used as the study object, but models created in the Pa
 
 Now we have a model with which to work with.
 
-### Creating the Analysis {#creating_the_analysis}
+### Creating the Analysis 
 
 #### Netgen
 
@@ -60,7 +60,7 @@ The usage of psicofil\'s macro is recommended, and is used for this example.
 
 We have now meshed our object and are ready to add constraints and forces.
 
-### Constraints and Forces {#constraints_and_forces}
+### Constraints and Forces 
 
 1.  Hide the mesh from the Tree View.
 2.  Show the original model
@@ -73,14 +73,14 @@ We have now meshed our object and are ready to add constraints and forces.
 
 We now have established the restrictions and forces for our static study.
 
-### Final preparations {#final_preparations}
+### Final preparations 
 
 1.  Select <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> [Mechanical material\...](FEM_MaterialSolid.md) and choose Calculix as the material
 2.  Click **OK**
 
-### Running the Solver {#running_the_solver}
+### Running the Solver 
 
-#### Standard Procedure {#standard_procedure}
+#### Standard Procedure 
 
 1.  Select the solver object <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> contained in the 
 **Mechanical Analysis**
@@ -89,13 +89,13 @@ We now have established the restrictions and forces for our static study.
 4.  Select **Run Calculix**
 5.  Click **Close**
 
-#### Quick Procedure {#quick_procedure}
+#### Quick Procedure 
 
 1.  Select the solver object <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> contained in the 
 **Mechanical Analysis**
 2.  Click on <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Quick Analysis](FEM_SolverRun.md).
 
-### Analyzing Results {#analyzing_results}
+### Analyzing Results 
 
 1.  From the **Object Tree**, select the **Results** object
 2.  Select <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> [Show result](FEM_ResultShow.md)

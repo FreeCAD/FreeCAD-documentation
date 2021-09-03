@@ -10,7 +10,7 @@ Un proyecto de FreeCAD es en realidad un archivo zip que siempre contiene un arc
 
 </div>
 
-## Internals of .FCStd files {#internals_of_.fcstd_files}
+## Internals of .FCStd files 
 
 FCStd is a [ standard zip file containing one or more files](#Contents.md) in a [specific structure](#structure.md). As such, it is possible to unpack a {{FileName|.FCStd}} file using a regular zip decompression tool, but care needs to be taken while packing the contents of a {{FileName|.FCStd}} file. FreeCAD contains a \"Project Utility\" to re-pack {{FileName|.FCStd}} files, it\'s use is described in [Change the source of the file .FCStd](#Change_the_source_of_the_file_.FCStd.md) below.
 
@@ -18,7 +18,7 @@ FCStd is a [ standard zip file containing one or more files](#Contents.md) in a 
 
 This is the main {{FileName|.xml}} file describing all the objects inside a FreeCAD document, that is, only the geometric and parametric definition of the objects, not their visual representation. If FreeCAD is ran in console mode (without the GUI), only this {{FileName|Document.xml}} will be used.
 
-#### Example Document.xml {#example_document.xml}
+#### Example Document.xml 
 
 
 {{Code|lang=xml|code=
@@ -129,7 +129,7 @@ These are the [B-rep](wikipedia:Boundary_representation.md) shapes of all object
 
 These are the template svg files used in [TechDraw](TechDraw_Workbench.md) pages.
 
-### Typical structure {#typical_structure}
+### Typical structure 
 
 Structure of a typical {{FileName|.FCStd}} file. The extension can be changed to {{FileName|.zip}} to explore it like a normal directory. The {{FileName|Document.xml}} and {{FileName|GuiDocument.xml}} are at the root of the archive, together with any number of {{FileName|.brp}} (BREP) files. One subdirectory may hold the thumbnail, and another the SVG templates used by [TechDraw](TechDraw_Workbench.md).
 
@@ -146,7 +146,7 @@ Structure of a typical {{FileName|.FCStd}} file. The extension can be changed to
       :--MyPage.svg
       :--etc.
 
-## Embedding other files {#embedding_other_files}
+## Embedding other files 
 
 In order to embed other file types inside a FCStd file, you must first create a [scripted object](Scripted_objects.md) from the [Python console](Python_console.md), and give it an `App::PropertyFileIncluded` property.
 
@@ -160,7 +160,7 @@ custom_obj.addProperty("App::PropertyFileIncluded", "AttachedFile")
 
 See the forum thread, [PDF inside the project](https://forum.freecadweb.org/viewtopic.php?t=38201).
 
-## Change the source of the file .FCStd {#change_the_source_of_the_file_.fcstd}
+## Change the source of the file .FCStd 
 
 -   See [Std ProjectUtil](Std_ProjectUtil.md).
 

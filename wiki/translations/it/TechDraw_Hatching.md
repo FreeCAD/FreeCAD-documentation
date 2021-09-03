@@ -28,7 +28,7 @@ TechDraw ha due strumenti per il tratteggio:
 
 **Risultato:** La faccia verrà tratteggiata inizialmente usando i valori predefiniti. **Nota**: modificare le proprietà del tratteggio per ottenere il tratteggio desiderato.
 
-### Tratteggio da modello {#tratteggio_da_modello}
+### Tratteggio da modello 
 
 Il <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Tratteggio da modello](TechDraw_Hatch/it.md) utilizza delle tessere di base [SVG](SVG/it.md) o [bitmap](bitmap/it.md) per coprire la faccia selezionata.
 
@@ -44,7 +44,7 @@ I riempimenti di tratteggio predefiniti possono essere specificati nelle [Prefer
 
 </div>
 
-### Tratteggio geometrico {#tratteggio_geometrico}
+### Tratteggio geometrico 
 
 Il <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md) genera un modello di linee basato su una specifica letta da un file. Questo file è generalmente **compatibile con il formato PAT di AutoDesk® ampiamente utilizzato**. Una piccola selezione di modelli è inclusa nel file FCPAT.pat:
 
@@ -80,7 +80,7 @@ Se si dispone dell\'autorizzazione alla scrittura è possibile aggiungere i prop
 
 </div>
 
-### Percorso del file PAT {#percorso_del_file_pat}
+### Percorso del file PAT 
 
 Il file `FCPAT.pat` può essere trovato nel seguente percorso:
 

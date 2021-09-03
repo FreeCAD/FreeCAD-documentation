@@ -28,7 +28,7 @@ The **Points Export** command exports a point cloud to a file.
 ## Utilizzo
 
 1.  Selezionare i punti da esportare.
-2.  Cliccare su **<img src="images/Points_Export.svg" width=16px> [Esporta punti](Points_Export/it.md)** or use the menuoppure usare il menu {{MenuCommand|Punti → <img src="images/Points_Export.svg" width=16px> [Esporta punti](Points_Export/it.md)}}.
+2.  Cliccare su **<img src="images/Points_Export.svg" width=16px> [Esporta punti](Points_Export/it.md)** or use the menuoppure usare il menu **Punti → <img src="images/Points_Export.svg" width=16px> [Esporta punti](Points_Export/it.md)**.
 3.  Dare il nome al file e fare click su **Save**.
 
 

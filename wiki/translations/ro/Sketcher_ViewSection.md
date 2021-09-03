@@ -20,7 +20,7 @@ Instrumentul **View section** creează un plan de secțiune care ascunde tempora
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

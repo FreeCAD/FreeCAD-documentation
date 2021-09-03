@@ -15,7 +15,7 @@ Inserează un elipsoid substractiv în corpul activ. Forma lui este extrasă din
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

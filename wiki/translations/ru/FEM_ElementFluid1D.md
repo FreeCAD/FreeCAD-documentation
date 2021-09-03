@@ -19,7 +19,7 @@
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ElementFluid1D.svg" width=16px> [FEM ElementFluid1D](FEM_ElementFluid1D.md)** button.
-    -   Select the {{MenuCommand|Model → Element Geometry → <img src="images/FEM_ElementFluid1D.svg" width=16px> Fluid section for 1D flow}} option from the menu.
+    -   Select the **Model → Element Geometry → <img src="images/FEM_ElementFluid1D.svg" width=16px> Fluid section for 1D flow** option from the menu.
 2.  Select Fluid type: Liquid, Gas or Open Channel
 3.  Select Section type: Pipe Manning, Pipe Inlet etc.
 4.  Enter Section type parameters.

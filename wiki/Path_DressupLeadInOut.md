@@ -11,7 +11,7 @@
 ## Usage
 
 1.  
-    {{MenuCommand|Path → Path Dressup → Dogbone Lead In Out}}
+    **Path → Path Dressup → Dogbone Lead In Out**
     
 
 ## Options

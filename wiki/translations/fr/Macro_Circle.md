@@ -131,7 +131,7 @@ def circle(x=0.0,y=0.0,z=0.0,radius=0.0,diameter=0.0,circumference=0.0,area=0.0,
 
 }}
 
-## Memo sur le cercle {#memo_sur_le_cercle}
+## Memo sur le cercle 
 
 **Exemples de codes entrés**
 

@@ -18,9 +18,9 @@ Prima di poter avviare FCGear, è necessario installarlo (vedere come fare nel p
     *Il menu a discesa di FCGear*
     
 
-## Tipi di ingranaggi {#tipi_di_ingranaggi}
+## Tipi di ingranaggi 
 
-### Ingranaggio a spirale {#ingranaggio_a_spirale}
+### Ingranaggio a spirale 
 
 :   ![](images/Involute-Gear_example.png )
 :   
@@ -34,14 +34,14 @@ Prima di poter avviare FCGear, è necessario installarlo (vedere come fare nel p
     *Da sinistra a destra: ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi a doppia elica (vedere [Cremagliera](FCGear_InvoluteRack/it.md))*
     
 
-### Ingranaggio cicloidale {#ingranaggio_cicloidale}
+### Ingranaggio cicloidale 
 
 :   ![](images/Cycloid-Gear_example_1.png )
 :   
     *Da sinistra a destra: ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi a doppia elica (vedere [Ingranaggio cicloidale](FCGear_CycloideGear/it.md))*
     
 
-### Ingranaggio conico {#ingranaggio_conico}
+### Ingranaggio conico 
 
 
 <div class="mw-translate-fuzzy">
@@ -55,21 +55,21 @@ Prima di poter avviare FCGear, è necessario installarlo (vedere come fare nel p
 
 </div>
 
-### Vite senza fine {#vite_senza_fine}
+### Vite senza fine 
 
 :   ![](images/Worm-Gear_example.png )
 :   
     *Sopra: vite senza fine (vedere [Vite senza fine](FCGear_WormGear/it.md))*
     
 
-### Corona dentata {#corona_dentata}
+### Corona dentata 
 
 :   ![](images/Crown-Gear_example.png )
 :   
     *Sopra: corona dentata (vedere [Corona dentata](FCGear_CrownGear/it.md))*
     
 
-### Ingranaggio di distribuzione e Ingranaggio a lanterna {#ingranaggio_di_distribuzione_e_ingranaggio_a_lanterna}
+### Ingranaggio di distribuzione e Ingranaggio a lanterna 
 
 :   ![](images/Timing+Latern-gear_example.png )
 :   
@@ -84,7 +84,7 @@ Prima di poter avviare FCGear, è necessario installarlo (vedere come fare nel p
 
 ## Strumenti
 
-### Barra degli strumenti {#barra_degli_strumenti}
+### Barra degli strumenti 
 
 -   <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:32px;"> [Ingranaggio a spirale](FCGear_InvoluteGear/it.md) crea un ingranaggio a spirale
 -   <img alt="" src=images/FCGear_InvoluteRack.svg  style="width:32px;"> [Cremagliera](FCGear_InvoluteRack/it.md) crea una cremagliera
@@ -97,14 +97,15 @@ Prima di poter avviare FCGear, è necessario installarlo (vedere come fare nel p
 
 ## Installazione
 
-### Installazione automatica {#installazione_automatica}
+### Installazione automatica 
 
-Il metodo di installazione consigliato a partire dalla v0.17 è tramite il <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/it.md). Si trova in {{MenuCommand|Strumenti → Addon manager}}
+Il metodo di installazione consigliato a partire dalla v0.17 è tramite il <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/it.md). Si trova in 
+**Strumenti → Addon manager**
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:700px">
 
-### Installazione manuale {#installazione_manuale}
+### Installazione manuale 
 
 Se è necessario installare manualmente questo ambiente, vengono fornite le seguenti istruzioni per farlo:
 
@@ -147,7 +148,7 @@ Vedere sopra le istruzioni per Linux
 
 </div>
 
-## Link all\'ambiente Gear {#link_allambiente_gear}
+## Link all\'ambiente Gear 
 
 -   Workbench Wiki: <https://github.com/looooo/FCGear/wiki>
 -   FreeCAD Wiki: [Macro\_FCGear](http://www.freecadweb.org/wiki/index.php?title=Macro_FCGear) and [Bevel gear](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878)
@@ -157,7 +158,7 @@ Vedere sopra le istruzioni per Linux
 -   Files:
 -   Report bugs: Please report bugs at <https://github.com/looooo/FCGear/issues>
 
-## Altri link utili {#altri_link_utili}
+## Altri link utili 
 
 
 <div class="mw-translate-fuzzy">

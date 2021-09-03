@@ -34,12 +34,12 @@ Algoritmul pentru crearea acestor instrucțiuni în FreeCAD, în limbajul G-cod,
 
 </div>
 
-## General concepts {#general_concepts}
+## General concepts 
 
 
 <div class="mw-translate-fuzzy">
 
-## Concepte generale {#concepte_generale}
+## Concepte generale 
 
 Path Workbench generează G-Code care definește căile necesare pentru a mula Proiectul reprezentat de modelul 3D pe miezul țintă [https://www.freecadweb.org/wiki/Path\_scripting\#FreeCAD.27s\_internal\_GCode\_format the Path Job Operations FreeCAD G-Code dialect](https://www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format_the_Path_Job_Operations_FreeCAD_G-Code_dialect.md), care ulterior se traduce în dialectul corespunzător pentru controlerul CNC țintă prin selectarea postprocesorului adecvat.   Codul G este generat de directivele și operațiile conținute într-o traiectorie. Fluxul de lucru al joburilor le afișează în ordinea în care vor fi executate. Lista este populată prin adăugarea operațiunilor de deplasare, a traiectoriile suplimentare(Dressup), a comenzilor parțiale ale traiectorilor și a modificărilor de parcurs - din meniul Path sau prin butoanele GUI.
 
@@ -61,10 +61,10 @@ Path Workbench oferă un Manager de instrumente (Library, Tool-Table) și G-Code
 
 Path Workbench include dependențe externe:
 
-1.  Unitățile de măsură ale modelului FreeCAD 3D sunt definite în {{MenuCommand|Edit → Preference → General → Units tab's Units settings}}.. Configurația Postprocesorului definește unitățile finale de cod G.
-2.  Fișierul Macro al traiectorie, and Geometric toleranțe, sunt definite în {{MenuCommand|Edit → Preferences → Path → Job Preferences}} .
-3.  Culorile sunt definite in the {{MenuCommand|Edit → Preferences → Path → Path colors}} tab.
-4.  Parametrii Punților de susținere (Holding tag) sunt definite în {{MenuCommand|Edit → Preferences → Path → Dressups}} tab.
+1.  Unitățile de măsură ale modelului FreeCAD 3D sunt definite în **Edit → Preference → General → Units tab's Units settings**.. Configurația Postprocesorului definește unitățile finale de cod G.
+2.  Fișierul Macro al traiectorie, and Geometric toleranțe, sunt definite în **Edit → Preferences → Path → Job Preferences** .
+3.  Culorile sunt definite in the **Edit → Preferences → Path → Path colors** tab.
+4.  Parametrii Punților de susținere (Holding tag) sunt definite în **Edit → Preferences → Path → Dressups** tab.
 5.  Calitatea modelului 3D de bază acceptă cerințele Path WB, passes Check Geometry.
 
 
@@ -79,7 +79,7 @@ Some current limitations of which you should be aware are:
 -   Most operations in Path workbench will return paths based on a standard endmill tool/bit only, regardless of the tool/bit type assigned in a given tool controller with the exception of the **<img src="images/Path_Engrave.svg" width=24px> [Engrave](Path_Engrave.md)** and **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operations.
 -   The operations within the Path workbench are not aware of clamping mechanisms in use to secure the model to your machine. Consequently, please review and simulate the paths you generate prior to sending the code to your machine. If necessary, model your clamping mechanisms in FreeCAD in order to better inspect the paths generated. Look for possible collisions with clamps or other obstacles along the paths.
 
-## Unități de măsură {#unități_de_măsură}
+## Unități de măsură 
 
 Unitatea de măsură în Traiectorie poate crea confuzii. Există mai multe puncte de înțeles:
 
@@ -104,12 +104,12 @@ Căi de inspecție:
 
 1.  Dacă utilizați instrumentul Path Inspect pentru a vedea codul g, îl veți vedea în \'mm/s\' deoarece nu este post-procesat
 
-## Heights and depths {#heights_and_depths}
+## Heights and depths 
 
 
 <div class="mw-translate-fuzzy">
 
-## Comenzi pentru Traiectorie {#comenzi_pentru_traiectorie}
+## Comenzi pentru Traiectorie 
 
 
 </div>
@@ -121,7 +121,7 @@ Căi de inspecție:
 
 Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
 
-### Project Commands {#project_commands}
+### Project Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -155,7 +155,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### Tool Commands {#tool_commands}
+### Tool Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -187,7 +187,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
 
-### Basic Operations {#basic_operations}
+### Basic Operations 
 
 -   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Creates a profile operation of the entire model, or from one or more selected faces or edges. <small>(v0.19)</small> 
 
@@ -238,12 +238,12 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Traiectorie suplimentară {#traiectorie_suplimentară}
+### Traiectorie suplimentară 
 
 
 </div>
 
-### 3D Operations {#d_operations}
+### 3D Operations 
 
 
 <div class="mw-translate-fuzzy">
@@ -263,7 +263,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
-### Path Dressup {#path_dressup}
+### Path Dressup 
 
 -   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Boundary Dressup](Path_DressupPathBoundary.md): Adds a boundary dressup modification to a selected path.
 
@@ -310,7 +310,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Comenzi Speciale {#comenzi_speciale}
+### Comenzi Speciale 
 
 
 </div>
@@ -358,7 +358,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Modificarea Traiectoriei {#modificarea_traiectoriei}
+### Modificarea Traiectoriei 
 
 
 </div>
@@ -415,7 +415,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-## ToolBit architecture {#toolbit_architecture}
+## ToolBit architecture 
 
 Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
 

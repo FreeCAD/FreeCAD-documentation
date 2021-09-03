@@ -12,7 +12,7 @@ Wenn Du zu FreeCAD beitragen möchtest, [spende](donate/de.md) bitte und lies di
 
 Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Geschichte](History/de.md).
 
-## FreeCAD benutzen {#freecad_benutzen}
+## FreeCAD benutzen 
 
 ### Einleitung
 
@@ -28,7 +28,7 @@ Siehe auch:
 
 -   [Umstieg auf FreeCAD von Fusion360](Migrating_to_FreeCAD_from_Fusion360/de.md)
 
-### Grundlegende Anwendung {#grundlegende_anwendung}
+### Grundlegende Anwendung 
 
 -   [Benutzeroberfläche](Interface/de.md): Die FreeCAD Benutzeroberfläche besteht aus verschiedenen grafischen Elementen auf dem Bildschirm, darunter der [3D Ansicht](3D_view/de.md), der [Baumansicht](Tree_view/de.md), dem [Eigenschaftseditor](Property_editor/de.md), der [Aufgabenleiste](Task_panel/de.md) und der [Python Konsole](Python_console/de.md).
 -   [Mausnavigation](Mouse_navigation/de.md): die verschiedenen Arten der Verwendung der Maus oder des Trackpads zur Navigation in der 3D Ansicht.
@@ -93,7 +93,7 @@ Erfahrene Anwender haben verschiedene [Makros](macros/de.md) erstellt, um FreeCA
 
 Seit FreeCAD v0.17 können viele Makros mit Hilfe des [Addon-Managers](Std_AddonMgr/de.md) installiert werden. Eine Liste der Makros finden Sie auf der [Makro Rezepte](Macros_recipes/de.md)-Seite. Für eine manuelle Installation siehe [Wie Makros installiert werden](How_to_install_macros/de.md).
 
-### Externe Arbeitsbereiche {#externe_arbeitsbereiche}
+### Externe Arbeitsbereiche 
 
 Wenn viele Makros oder Funktionen gemeinsam entwickelt und in Symbolleisten und Menüs organisiert werden, können sie zu einem neuen Arbeitsbereich werden.
 
@@ -106,7 +106,7 @@ Seit FreeCAD 0.17 können viele Arbeitsbereiche mit dem [Erweiterungsverwalter](
 -   [Befehlsreferenz](List_of_Commands/de.md): Eine Liste aller verfügbaren FreeCAD-Befehle (aller Befehle, deren Wikiseite ins Deutsche übersetzt ist).
 -   [Commands Reference](List_of_Commands.md): Die vollständige Liste der verfügbaren FreeCAD-Befehle in Englisch.
 
-## Online Hilfe {#online_hilfe}
+## Online Hilfe 
 
 Dies ist die offizielle FreeCAD Online Hilfe. Bitte beachte, dass das gesamte Online Hilfesystem gegenwärtig überarbeitet wird. Sie wird verwendet, um eine .CHM Datei zu erzeugen, die mit den Binärpaketen von FreeCAD verteilt wird. Im Moment fasst die Online Hilfe einige der vollständigsten Abschnitte dieses Wikis zusammen.
 

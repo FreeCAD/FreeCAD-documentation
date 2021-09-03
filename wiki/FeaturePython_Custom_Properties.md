@@ -7,7 +7,7 @@ Properties are the true building stones of FeaturePython objects. Through them, 
 obj.supportedProperties()
 ``` You will get a list of available properties.
 
-##  Creating a FeaturePython object and adding a property to it {#creating_a_featurepython_object_and_adding_a_property_to_it}
+##  Creating a FeaturePython object and adding a property to it 
 
 This code will create an object with internal name 
 

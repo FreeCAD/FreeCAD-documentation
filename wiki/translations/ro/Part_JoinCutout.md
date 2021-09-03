@@ -29,7 +29,7 @@ The <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinC
 
 <div class="mw-translate-fuzzy">
 
-## How to use {#how_to_use}
+## How to use 
 
 1.  Select the base object first, then the object to define the cutout.
     The order of selection is important. It is enough to select one sub-shape of each object (e.g., faces).
@@ -51,7 +51,7 @@ A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original obje
 
 <div class="mw-translate-fuzzy">
 
-## Properties {#properties_1}
+## Properties 
 
 
 {{TitleProperty|Base}}
@@ -129,7 +129,7 @@ Algoritmii din spatele instrumentelor de conectare sunt destul de simple, iar î
 
 </div>
 
-## Programare-Script {#programare_script}
+## Programare-Script 
 
 Instrumentul Join poate fi utilizat în [macros](macros.md) și de la consola python utilizând umătoarea funcție: 
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout')```

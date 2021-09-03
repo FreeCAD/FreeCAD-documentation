@@ -110,7 +110,7 @@ Seit 2020 befinden sich folgende Werkzeugleisten in der Assembly3-Arbeitsumgebun
 
 </div>
 
-#### Hauptwerkzeugleiste für Beschränkungen {#hauptwerkzeugleiste_für_beschränkungen}
+#### Hauptwerkzeugleiste für Beschränkungen 
 
 :   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:28px;">
 
@@ -197,7 +197,7 @@ Seit 2020 befinden sich folgende Werkzeugleisten in der Assembly3-Arbeitsumgebun
 
 </div>
 
-#### Zusätzliche Beschränkungswerkzeugleisten {#zusätzliche_beschränkungswerkzeugleisten}
+#### Zusätzliche Beschränkungswerkzeugleisten 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
 
@@ -485,7 +485,7 @@ Wenn gewünscht, kann die Fixiereinschränkung <img alt="" src=images/Assembly_C
 
 [Zum Anfang](#top.md)
 
-### Hinzufügen eines Versatzes {#hinzufügen_eines_versatzes}
+### Hinzufügen eines Versatzes 
 
 Assembly3 bietet keinen Versatz mit den Beschränkungen, wie es der [A2plus Arbeitsbereich](A2plus_Workbench/de.md) oder andere CAD-Werkzeuge tun. Stattdessen bietet es ein allgemeineres und flexibleres System zum Hinzufügen von Versätzen, aber auch von Winkeln.
 
@@ -504,7 +504,7 @@ Beispiel:
 
 [Zum Anfang](#top.md)
 
-### Löse einen Löserfehler {#löse_einen_löserfehler}
+### Löse einen Löserfehler 
 
 Dies geschieht häufig, wenn Teile über-beschränkt sind, d.h. mehr als 6 Freiheitsgrade sind gesperrt.
 
@@ -514,7 +514,7 @@ Achtung: Da Assembly3 hinter den Kulissen versucht überbestimmte Teile auszugle
 
 [Zum Anfang](#top.md)
 
-### Ein Teil ersetzen oder einen Dateinamen umbenennen {#ein_teil_ersetzen_oder_einen_dateinamen_umbenennen}
+### Ein Teil ersetzen oder einen Dateinamen umbenennen 
 
 Wenn ein Teil entfernt oder ein Dateiname geändert wird, zerbricht die Baugruppe, sie kann nicht mehr gelöst werden und der Löser gibt die Meldung \"Widersprüchliche Beschränkungen\" aus. Der Löser markiert ungültige Elemente und Beschränkungen mit einem Fragezeichen im Baum.
 
@@ -553,7 +553,7 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 
 [Zum Anfang](#top.md)
 
-### Tipps & Tricks {#tipps_tricks}
+### Tipps & Tricks 
 
 -   Hierarchisch aufgebaute Zusammenbauten helfen dabei, Probleme des Gleichnungslösers zu vermeiden und das Modell schlank zu halten. Man kann eine Unterbaugruppe mit einem Klick einfrieren und so ohne Aufwand CPU-Resourcen einsparen (Im Kontextmenü des Baumes). Wenn ein Zusammenbau geladen wird, muss Assembly3 die externen Dateien der eingefrorenen Unterbaugruppen nicht öffnen, wodurch der Baum kompakt gehalten wird.
 -   Es ist sehr hilfreich, sich anzugewöhnen, Einschränkungen und Elemente zu benennen. Im Baum lässt es sich schnell durch Benutzung der **F2**-Taste erledigen. Sehr nützlich ist auch das Werkzeug zum Sortieren des Baumes, das man in der Hauptwerkzeugleiste findet. Ein Zusammenbau mit vollständig benannten Einschränkungen und Elementen ist für andere Leute sehr einfach zu verstehen, oder auch für einen selbst, wenn man sich ältere Modelle ansieht.

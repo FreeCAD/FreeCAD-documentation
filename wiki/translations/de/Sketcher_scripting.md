@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Erstellen einer Beschränkung mit Python {#erstellen_einer_beschränkung_mit_python}
+## Erstellen einer Beschränkung mit Python 
 
 Eine geometrische Beschränkung <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> und die spezielle <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [InterneAusrichtungsbeschränkungen](Sketcher_ConstrainInternalAlignment/de.md) können von Makros und von der Python Konsole aus durch Verwendung des folgenden Befehls erstellt werden:
 
@@ -141,7 +141,7 @@ Die <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;">
 
 Die <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Schloss](Sketcher_ConstrainLock/de.md) Beschränkung ist ein GUI Befehl, der eine <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontaler Abstand](Sketcher_ConstrainDistanceX/de.md) und eine <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertikaler Abstandsbeschränkung](Sketcher_ConstrainDistanceY/de.md) erzeugt, es ist keine eigene Beschränkung.
 
-## Identifizierung der Nummerierung einer Linie {#identifizierung_der_nummerierung_einer_linie}
+## Identifizierung der Nummerierung einer Linie 
 
 Ich habe drei Linien gezeichnet, wie in der folgenden Abbildung dargestellt.
 
@@ -161,7 +161,7 @@ Positive Zahlen bezeichnen Skizzenkanten (Geraden, Kreise, Kegel, B-Splines usw.
 
 -    `-n`bezeichnet die externe Geometrieelementnummer `n-3` (z. B. würde das externe Geometrieelement mit Index 0 in der reduzierten Liste `App.ActiveDocument.Sketch.ExternalGeometry` mit -3 bezeichnet, das folgende Element in der reduzierten Liste mit -4 usw.).
 
-## Identifizierung der Nummerierung der Abschnittsteile einer Linie {#identifizierung_der_nummerierung_der_abschnittsteile_einer_linie}
+## Identifizierung der Nummerierung der Abschnittsteile einer Linie 
 
 Um festzulegen, welcher Teil einer Linie von einer Beschränkung betroffen ist, kannst du die folgenden Werte verwendet werden:
 

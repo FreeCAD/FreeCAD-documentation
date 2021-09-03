@@ -37,7 +37,7 @@ A similar description of this process is described in a series of videos, [Rende
 
 *align=center|Deviation property of the bodies created in FreeCAD; the deviation needs to be small in order to export the parts with good resolution.*
 
-3\. Select the `Part`, then {{MenuCommand|File → Export}}, or press **Ctrl**+**E**, and export it as `Wavefront OBJ`.
+3\. Select the `Part`, then **File → Export**, or press **Ctrl**+**E**, and export it as `Wavefront OBJ`.
 
 Alternatively, the export can be done from the [Python](Python.md) console. Define a list of objects to be exported and use the exporting function with a file name.
 
@@ -71,7 +71,7 @@ importOBJ.export(objs, "/home/user/assembly.obj")
 
 ## Blender
 
-### Prepare the model {#prepare_the_model}
+### Prepare the model 
 
 4\. Open Blender. Change the `Timeline` panel into a `Python Console` (**Shift**+**F4**). This will help you to input commands and see the results. You may divide this panel, to keep the console on one side, and make the other division an `Info` panel; this will allow you to see the code of the actions as you click on the interface.
 
@@ -82,7 +82,7 @@ Make sure you are using the EEVEE renderer. In the `Properties` panel go to `Ren
 bpy.context.scene.render.engine = 'BLENDER_EEVEE'
 ```
 
-5\. Import the model file from the menu, {{MenuCommand|File → Import → Wavefront (.obj)}}.
+5\. Import the model file from the menu, **File → Import → Wavefront (.obj)**.
 
 Alternatively, importing can be done from the `Python Console`.
 
@@ -144,11 +144,11 @@ for obj in bpy.data.objects:
 
 *align=center|Assembly created in FreeCAD imported into Blender; the model was rotated and the units for the scene were adjusted to match the imported objects.*
 
-### Prepare the camera of the scene {#prepare_the_camera_of_the_scene}
+### Prepare the camera of the scene 
 
 8\. Set the camera in the right position.
 
-Adjust the viewport to look at the model in the desired orientation, then hit **Ctrl**+**Alt**+**0** (numerical pad), or use the menu {{MenuCommand|View → Align View → Align Active Camera to View}}.
+Adjust the viewport to look at the model in the desired orientation, then hit **Ctrl**+**Alt**+**0** (numerical pad), or use the menu **View → Align View → Align Active Camera to View**.
 
 8.1. If you don\'t see anything in the camera view, you may need to adjust the clipping. Selecting the camera in the `Outliner`, go to the `Properties` panel, then `Object Data`, then `Lens`, then set the `Clip End` to a large value, for example, `1E3 mm` or `1000 m`.
 
@@ -174,7 +174,7 @@ bpy.context.object.data.display_size = 20
 bpy.context.object.data.show_limits = True
 ```
 
-### Prepare the lighting of the scene {#prepare_the_lighting_of_the_scene}
+### Prepare the lighting of the scene 
 
 9\. Select the light in the `Outliner`, go to the `Properties` panel, then `Object Data`, then press on `Sun`, and set the `Strength` to `5.0`.
 
@@ -201,7 +201,7 @@ Press **F12** again to see a preliminary render of the model.
 
 *align=center|Render of the assembly in Blender with a Sun lamp added that emits parallel light rays with a fixed angle*
 
-### More setup: floor, global lighting, reflections, and soft shadows {#more_setup_floor_global_lighting_reflections_and_soft_shadows}
+### More setup: floor, global lighting, reflections, and soft shadows 
 
 10\. Add a floor plane. Press **Shift**+**A** then choose `Mesh`, `Plane`, and give it dimensions about 10 times larger than your model. This mesh object will serve as a floor plane or table top on which the model is standing. Also move the plane a bit down so that it does not intersect the model; `-1 mm` below the object is enough.
 
@@ -222,7 +222,7 @@ bpy.context.scene.eevee.use_ssr = True
 bpy.context.scene.eevee.use_soft_shadows = True
 ```
 
-### Set the materials of the objects {#set_the_materials_of_the_objects}
+### Set the materials of the objects 
 
 13\. Turn the `Python Console` panel into a `Shader Editor` panel (**Shift**+**F3**).
 
@@ -243,9 +243,9 @@ In general, metals are naturally smooth and therefore their roughness value is s
 
 Press **F12** to render the view through the camera and check the quality of the image.
 
-### Rendering and saving {#rendering_and_saving}
+### Rendering and saving 
 
-15\. If your model looks reasonably well with the EEVEE renderer you can already save the image by going to {{MenuCommand|Image → Save As}} or pressing **Shift**+**S** in the {{Incode|Image Editor}}.
+15\. If your model looks reasonably well with the EEVEE renderer you can already save the image by going to **Image → Save As** or pressing **Shift**+**S** in the {{Incode|Image Editor}}.
 
 <img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width:600px;">
 
@@ -267,14 +267,14 @@ For the `Viewport` a small number of samples, in the range of `32` to `128`, is 
 
 Press **F12** to render the final view through the camera. Depending on your graphics card (GPU) the image should take several more seconds, or minutes, to render with Cycles than with EEVEE, but the quality of the image should be better.
 
-17\. When you are satisfied with the quality of the rendering, in the `Image Editor` go to {{MenuCommand|Image → Save As}} or press **Shift**+**S**.
+17\. When you are satisfied with the quality of the rendering, in the `Image Editor` go to **Image → Save As** or press **Shift**+**S**.
 
 <img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width:600px;">
 
 
 *align=center|Rendered assembly produced with Blender Cycles; all options, materials, and lights that were used with EEVEE were kept for use with Cycles.*
 
-### Rendering from the command line {#rendering_from_the_command_line}
+### Rendering from the command line 
 
 18\. If the scene has been completely finished, you may wish to render from outside Blender, from the operating system\'s command line. This can be useful to batch render different scenes in a remote system. Both EEVEE and Cycles are supported.
 
@@ -290,7 +290,7 @@ blender -b assembly.blend -E CYCLES -o //assembly_CYCLES_#### -t 3 -F PNG -x 1 -
 
 This specifies that rendering should happen in the background with `-b`; the rendering engine is chosen with `-E`; the output filename is selected with `-o`; the double forward slash `//` indicates a path relative to the input file; the hash mark `#` is used to indicate the frame number, padded with zeroes if necessary, for example, `0001`; the number of CPU threads used in rendering is chosen with `-t 3`; the output file format is indicated with `-F`, and the `-x 1` option adds automatically the extension to the name; the final option is `-f 1` which indicates that only the first frame will be rendered, which is the normal case for a static scene; for animations use the `-a` switch to produce an image for each frame, which can then be assembled to produce a video file.
 
-## Importing plugin {#importing_plugin}
+## Importing plugin 
 
 Creating the intermediate Wavefront mesh (.obj) and then importing it into Blender will work in most situations. However, there is also the option of importing the FreeCAD file (.FCStd) directly into Blender by means of a plugin.
 
@@ -328,7 +328,7 @@ import sys
 sys.path.append("/usr/lib/freecad/lib/FreeCAD.so")
 ```
 
-## Final notes {#final_notes}
+## Final notes 
 
 EEVEE is not a physically accurate renderer, however its main strength is that it is a real time engine so it is able to produce quick renderings directly in the 3D viewport. In many cases these images have enough quality for final production, which means it is possible to obtain a good result in a very short time. In cases where complex light interactions are desired (reflections, refractions, volumetric light, and caustics) EEVEE is more limited, and requires some options and tricks to work around some of these limitations.
 

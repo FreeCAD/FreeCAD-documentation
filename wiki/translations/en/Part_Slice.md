@@ -36,7 +36,7 @@ The overall action of the tool is very similar to <img alt="" src=images/Part_Bo
     The order of selection is important. Compounds with self-intersections are not allowed (self-intersections sometimes can be accounted for by passing the compound through <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Part Boolean Fragments](Part_BooleanFragments.md))
 2.  Invoke the Part Slice command several ways:
     -   Press the <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Slice](Part_Slice.md) button in the Part toolbar
-    -   Use the {{MenuCommand|Part → Split → Slice to compound}} entry in the Part menu
+    -   Use the **Part → Split → Slice to compound** entry in the Part menu
 
 
 
@@ -45,7 +45,7 @@ The overall action of the tool is very similar to <img alt="" src=images/Part_Bo
 
 A Slice parametric object is created. Original objects are hidden, and the result of intersection is shown in [3D view](3D_view.md).
 
-### Tree structure of Slice {#tree_structure_of_slice}
+### Tree structure of Slice 
 
 The Slice command creates a sliced object. In the following example a cube is sliced by a face.
 
@@ -70,7 +70,7 @@ The slice is created and each piece of it is united in a Compound.
 
 ## Example
 
-### Creating a Puzzle {#creating_a_puzzle}
+### Creating a Puzzle 
 
 1.  Switch to <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md)
     -   Create a new sketch.
@@ -78,7 +78,7 @@ The slice is created and each piece of it is united in a Compound.
     -   Close the sketch.
         ![320px](images/slice_example_step1.png)
 2.  Switch to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part workbench](Part_Workbench.md).
-    -   Select the sketch, and pick {{MenuCommand|Part → Create face from sketch}} .
+    -   Select the sketch, and pick **Part → Create face from sketch** .
         ![320px](images/slice_example_step2.png)
 3.  Switch back to <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md)
     -   Create another sketch on the same plane.

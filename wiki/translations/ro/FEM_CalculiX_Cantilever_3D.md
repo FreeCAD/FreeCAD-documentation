@@ -48,17 +48,17 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 <div class="mw-translate-fuzzy">
 
-### Configurarea fișierului exemplu {#configurarea_fișierului_exemplu}
+### Configurarea fișierului exemplu 
 
 
 </div>
 
-### Load Start Workbench {#load_start_workbench}
+### Load Start Workbench 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Încarcă Atelierul Start Workbench {#încarcă_atelierul_start_workbench}
+#### Încarcă Atelierul Start Workbench 
 
 -   Start FreeCAD
 -   Atelierul Start Workbench trebuie încărcat
@@ -66,12 +66,12 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-### Load the example file {#load_the_example_file}
+### Load the example file 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Încărcați fișierul exemplu {#încărcați_fișierul_exemplu}
+#### Încărcați fișierul exemplu 
 
 -   Mergeți la proiectele de exemplu și faceți clic pe \"Încărcați un exemplu de analiză MEF\"
 -   Dacă din cauza unor operații ulterioare unele geometrii, constrângeri sau rezultate sunt rupte sau șterse doar repetați pașii de mai sus.
@@ -81,12 +81,12 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 <img alt="" src=images/FEM_example01_pic01.jpg  style="width:700px;">
 
-### Activate the analysis container {#activate_the_analysis_container}
+### Activate the analysis container 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Activați containerul de analiză {#activați_containerul_de_analiză}
+#### Activați containerul de analiză 
 
 -   Pentru a lucra cu o analiză, analiza trebuie activată.
 -   În vizualizarea copacului, faceți clic dreapta pe<img alt="" src=images/FEM_Analysis.png  style="width:32px;"> MechanicalAnalysis \--\> Activate analysis
@@ -96,12 +96,12 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 <img alt="" src=images/FEM_example01_pic02.jpg  style="width:700px;">
 
-### Analysis container and its objects {#analysis_container_and_its_objects}
+### Analysis container and its objects 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Container de analiză și obiectele sale {#container_de_analiză_și_obiectele_sale}
+#### Container de analiză și obiectele sale 
 
 -   Dacă analiza este activată, FreeCAD va schimba bancul de lucru curent cu FEM.
 -   Există cel puțin cele 5 obiecte necesare pentru a efectua o analiză mecanică statică.
@@ -118,12 +118,12 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-### Visualizing Results {#visualizing_results}
+### Visualizing Results 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Vizualizarea rezultatelor {#vizualizarea_rezultatelor}
+#### Vizualizarea rezultatelor 
 
 -   Asigurați-vă că analiza este activată.
 -   Asigurați-vă că analiza încă conține obiectul rezultat, dacă nu doar reîncărcați fișierul exemplu.
@@ -139,12 +139,12 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 <img alt="" src=images/FEM_example01_pic03.jpg  style="width:400px;">
 
-### Purging Results {#purging_results}
+### Purging Results 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Rezultate de curățare {#rezultate_de_curățare}
+#### Rezultate de curățare 
 
 -   Asigurați-vă că analiza este activată.
 -   Pentru a elimina rezultatele selectați în bara de instrumente pictogramă <img alt="" src=images/FEM_PurgeResults.png  style="width:32px;"> [Purge results](FEM_ResultsPurge.md)
@@ -152,12 +152,12 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-### Running the FEA {#running_the_fea}
+### Running the FEA 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Rularea FEA {#rularea_fea}
+#### Rularea FEA 
 
 -   În vizualizarea Tree, faceți dublu clic pe obiectul rezolvitor ![ 32px](images/_FEM_Solver.png ).
 -   În fereastra de sarcini a obiectului rezolvitor, asigurați-vă că este selectată analiza statică.
@@ -176,12 +176,12 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 <img alt="" src=images/FEM_example01_pic04.jpg  style="width:400px;">
 
-### Running the FEA the fast Way {#running_the_fea_the_fast_way}
+### Running the FEA the fast Way 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Rularea AEF pe calea rapidă {#rularea_aef_pe_calea_rapidă}
+#### Rularea AEF pe calea rapidă 
 
 -   În vizualizarea arborescentă selectați obiectul Solver ![ 32px](images/_FEM_Solver.png ) al analizei ![ 32px](images/_FEM_Analysis.png ).
 -   În bara de instrumente iconițe faceți clic pe <img alt="" src=images/FEM_RunCalculiXccx.png  style="width:32px;"> [Quick Analysis](FEM_SolverRun.md).
@@ -190,12 +190,12 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-### Changing Load Direction and Load Value {#changing_load_direction_and_load_value}
+### Changing Load Direction and Load Value 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Schimbarea direcției de încărcare și a valorii de încărcare {#schimbarea_direcției_de_încărcare_și_a_valorii_de_încărcare}
+#### Schimbarea direcției de încărcare și a valorii de încărcare 
 
 -   În vizualizarea arborescentă selectați obiectul mesh FEM ![ 32px](images/_FEM_Create.png ) și apăsați tasta spațiu.
 -   Vizibilitatea rețelei FEM va fi oprită. Modelul geometric este încă vizibil.
@@ -230,12 +230,12 @@ Deformarea în direcția x trebuie să fie de 19,05 mm.
 
 <img alt="" src=images/FEM_example01_pic06.jpg  style="width:400px;">
 
-## What next? {#what_next}
+## What next? 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Ce urmează? {#ce_urmează}
+#### Ce urmează? 
 
 -   Acum că ați terminat cu fluxul de lucru de bază pentru [FEM Module](FEM_Workbench.md).
 -   Sunteți pregătit acum să faceți al doilea [FEM tutorial](FEM_tutorial.md).

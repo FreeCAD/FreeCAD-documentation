@@ -18,7 +18,7 @@ The **View section** tool creates a section plane that temporarily hides any mat
 Several ways to invoke this command:
 
 -   Press the **<img src=images/Sketcher_ViewSection.svg style="width:16px"> [View section](Sketcher_ViewSection.md)** button to toggle between section and full view.
--   Use the {{MenuCommand|Sketch → View section}} from the dropdown menu.
+-   Use the **Sketch → View section** from the dropdown menu.
 
 
 

@@ -11,7 +11,7 @@ Dans cet exemple, l\'interface entière est définie en [Python](Python/fr.md). 
 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> *Deux méthodes générales pour créer des interfaces, en incluant l'interface dans le fichier Python, ou en utilisant des fichiers `.ui*.`
 
-## Construire une boîte de dialogue {#construire_une_boîte_de_dialogue}
+## Construire une boîte de dialogue 
 
 Dans les applications de CAO, bien concevoir une **UI** (interface utilisateur) est très important. Tout ce que l\'utilisateur fera, se fera à travers un outil de l\'interface: la lecture des boîtes de dialogue, appuyer sur les boutons, le choix entre les icônes, etc . Il est donc très important de réfléchir attentivement à la conception de votre boîte de dialogue, comment vous voulez que l\'utilisateur se comporter avec la boîte, et comment sera le flux de travail de votre action.
 
@@ -42,7 +42,7 @@ Lorsque vous l\'ouvrez, Qt Designer ressemble à ceci:
 
 ![](images/Qtdesigner-screenshot.jpg )
 
-## Création de la boîte de dialogue {#création_de_la_boîte_de_dialogue}
+## Création de la boîte de dialogue 
 
 Qt Designer est très simple à utiliser. Sur la barre de gauche, vous avez des éléments qui peuvent être glissés sur votre widget. Sur le côté droit, vous avez des panneaux de propriétés affichant toutes sortes de propriétés modifiables des éléments sélectionnés. Commencez donc par créer un nouveau widget.
 
@@ -61,7 +61,7 @@ Une dernière chose, nous allons renommer tous nos éléments avec des noms faci
 
 ![](images/Qtpropeditor.jpg )
 
-## Conversion de notre boîte de dialogue en code Python avec \"pyuic\" {#conversion_de_notre_boîte_de_dialogue_en_code_python_avec_pyuic}
+## Conversion de notre boîte de dialogue en code Python avec \"pyuic\" 
 
 Maintenant, nous allons sauver notre widget quelque part. Il sera sauvegardé dans un fichier **.Ui**, que nous allons facilement convertir en script Python avec **pyuic**.
 Dans windows, le programme est livré avec **pyuic pyqt** (à vérifier), sur Linux, vous aurez probablement besoin de l\'installer séparément à partir de votre gestionnaire de paquets (sur debian-systèmes basés sur, il fait partie du paquet pyqt4-dev-tools).
@@ -141,7 +141,7 @@ Donc, pour la fermer, nous pouvons (à part cliquer sur son icône, bien sûr) f
 d.hide()
 ```
 
-## Faire quelque chose avec notre boîte de dialogue {#faire_quelque_chose_avec_notre_boîte_de_dialogue}
+## Faire quelque chose avec notre boîte de dialogue 
 
 Maintenant que nous pouvons afficher et masquer notre boîte de dialogue, nous avons juste besoin d\'ajouter la dernière partie, pour en faire quelque chose !
 Si vous explorez un peu Qt Designer, vous découvrirez rapidement toute une section appelée \"**signaux et slots**\".
@@ -196,7 +196,7 @@ myDialog = mywidget.plane()
 ``` Voilà, c\'est tout \...
 Maintenant, vous pouvez essayer toutes sortes de choses, comme par exemple l\'insertion de votre widget dans l\'interface FreeCAD (voir la page [Code snippets](Code_snippets/fr.md)), ou, faire des outils personnalisés beaucoup plus avancés, en utilisant d\'autres éléments dans votre widget.
 
-## Le script complet {#le_script_complet}
+## Le script complet 
 
 Ceci est le script de référence complet: 
 ```python
@@ -271,7 +271,7 @@ class plane():
 
 ```
 
-## Plus d\'exemples {#plus_dexemples}
+## Plus d\'exemples 
 
 -   [Création d\'une boîte de dialogues avec différents widgets](Dialog_creation_with_various_widgets.md) avec `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton` et bien d\'autres.
 -   [Création d\'une boîte de dialogue lecture et écriture de fichiers](Dialog_creation_reading_and_writing_files/fr.md) with `QFileDialog`.
@@ -280,7 +280,7 @@ class plane():
 -   [Extraits d\'utilisation de PySide](PySide_usage_snippets/fr.md).
 -   [Macro Qt Example](Qt_Example/fr.md)
 
-## Liens pertinents {#liens_pertinents}
+## Liens pertinents 
 
 -   [Outils de création d\'interfaces](Manual:Creating_interface_tools/fr.md)
 -   [Création d\'une interface avec des fichiers UI](Interface_creation_with_UI_files/fr.md)

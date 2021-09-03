@@ -5,11 +5,11 @@
 
 This page holds different settings and parameters that you can use to fine-tune your FreeCAD installation or overcome problems.
 
-## Параметры опций {#параметры_опций}
+## Параметры опций 
 
-The FreeCAD [Preferences Editor](Preferences_Editor.md) under menu {{MenuCommand|Edit → Preferences}} is commonly used to set and manipulate the FreeCAD parameters table.
+The FreeCAD [Preferences Editor](Preferences_Editor.md) under menu **Edit → Preferences** is commonly used to set and manipulate the FreeCAD parameters table.
 
-However, it is also possible to access, modify and create parameters manually, using the [Parameter Editor](Std_DlgParameter.md) found under menu {{MenuCommand|Tools → Edit parameters}}.
+However, it is also possible to access, modify and create parameters manually, using the [Parameter Editor](Std_DlgParameter.md) found under menu **Tools → Edit parameters**.
 
 The list below shows parameters that are not accessible via the preferences editor, but that you can set manually (located in **BaseApp/Preferences**)
 
@@ -31,7 +31,7 @@ The list below shows parameters that are not accessible via the preferences edit
 -   **View/NavigationDebug** (boolean) : enables debug output of navigation styles (as of v0.19, only Gesture navigation style has something to say).
 -   **View/SavePicture** (string): Set to **FramebufferObject**, **PixelBuffer** or **CoinOffscreenRenderer** for different methods to produce images from the 3D view.
 
-### Имя файла по умолчанию при Экспорте {#имя_файла_по_умолчанию_при_экспорте}
+### Имя файла по умолчанию при Экспорте 
 
 -   **General/ExportDefaultFilenameMultiple** (string): Set the default filename to use when exporting multiple objects. Defaults to \"%F\".
 -   **General/ExportDefaultFilenameSingle** (string): Set the default filename to use when exporting a single object. Defaults to \"%F-%P-\".
@@ -46,28 +46,28 @@ Both of these options support the automatic insertion of various pieces of infor
 
 Any other characters are treated literally. If the resulting filename is illegal it will be changed on saving, with illegal characters replaced by the underscore (\_).
 
-## Связанные с Мышью {#связанные_с_мышью}
+## Связанные с Мышью 
 
 -   **General/ComboBoxWheelEventFilter** (boolean) : Set to `True` so widgets do not catch mouse wheel event and prevent scrollable areas to be scrolled.
 -   **View/GestureMoveThreshold** (integer) : the distance (px) mouse cursor has to move to enter rotation or pan modes of Gesture navigation style. Default is 5.
 -   **View/GestureRollFwdCommand**, **View/GestureRollBackCommand** (string) : commands to be executed by mouse button roll gestures of Gesture navigation style.
 -   **View/GestureTapHoldTimeout** (integer) : sets for how long to wait (in milliseconds) to enter pan mode in Gesture navigation style. It can be helpful to increase it if dragging geometry in sketcher is difficult. Default is 700.
 
-## Сочетания клавиш Клавиатуры {#сочетания_клавиш_клавиатуры}
+## Сочетания клавиш Клавиатуры 
 
-### Клавиша Escape {#клавиша_escape}
+### Клавиша Escape 
 
 -   **General/TasksKeyEsc** (boolean) : Create and set to `False` to disable the **ESC** key exiting the [Task panel](Task_panel.md) in all workbenches (that is if the task panel has focus). **Note:** Superceded by [Sketcher Preferences](Sketcher_Preferences#General.md).
 -   **Mod/Sketcher/ViewKeyEsc** (boolean) : Create and set to `False` to disable **ESC** key issues with pressing one to many times, when escaping sketcher geometry/constraints creation continue mode (see [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
 
-## Specific Workbenches {#specific_workbenches}
+## Specific Workbenches 
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:16px;"> [TechDraw Workbench](TechDraw_Workbench.md) has several hidden switches documented in [TechDraw Preferences](TechDraw_Preferences#Hidden_Settings.md).
 -   <img alt="" src=images/Workbench_Path.svg  style="width:16px;"> [Path Workbench](Path_Workbench.md) has a switch to enable experimental features documented in [Path experimental](Path_experimental.md).
 -   <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM Workbench](BIM_Workbench.md):
     -   **Mod/BIM/DefaultPageScale** (float): Default scaling for new TechDraw pages created from the BIM Workbench, in case the template doesn\'t contain any \"Scale\" or \"Scaling\" (text insensitive) editable text field.
 
-## Сопутствующая информация {#сопутствующая_информация}
+## Сопутствующая информация 
 
 -   [Parameter editor](Std_DlgParameter.md)
 -   [Preferences editor](Preferences_editor.md)

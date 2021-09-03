@@ -31,7 +31,7 @@ Per applicare il vincolo perpendicolare, si dovrebbe usare la seguente procedura
 
 <div class="mw-translate-fuzzy">
 
-### Tra due curve (perpendicolarità diretta) {#tra_due_curve_perpendicolarità_diretta}
+### Tra due curve (perpendicolarità diretta) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:600px;">
 
@@ -54,7 +54,7 @@ Diversamente dalla tangenza, per costruire il punto di ortogonalità è bene cre
 
 <div class="mw-translate-fuzzy">
 
-### Tra due punti finali (perpendicolarità punto con punto) {#tra_due_punti_finali_perpendicolarità_punto_con_punto}
+### Tra due punti finali (perpendicolarità punto con punto) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
 
@@ -72,7 +72,7 @@ In questo modo, i punti finali sono coincidenti, e la congiunzione avviene ad an
 
 <div class="mw-translate-fuzzy">
 
-### Tra una curva e un punto finale (perpendicolarità punto con curva) {#tra_una_curva_e_un_punto_finale_perpendicolarità_punto_con_curva}
+### Tra una curva e un punto finale (perpendicolarità punto con curva) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
 
@@ -90,7 +90,7 @@ In questo modo, il punto finale di una curva è vincolato a giacere sull\'altra 
 
 <div class="mw-translate-fuzzy">
 
-### Tra due curve nel punto (perpendicolarità nel punto) (v0.15) {#tra_due_curve_nel_punto_perpendicolarità_nel_punto_v0.15}
+### Tra due curve nel punto (perpendicolarità nel punto) (v0.15) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:600px;">
 

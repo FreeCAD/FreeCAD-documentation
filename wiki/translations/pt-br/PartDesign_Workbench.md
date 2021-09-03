@@ -33,9 +33,9 @@ Os corpos criados com PartDesign estão freqüentemente sujeitos ao [problema de
 
 ## Ferramentas
 
-As ferramentas de Projeto da Peça estão todas localizadas no menu {{MenuCommand|Part Design}} e na barra de ferramentas PartDesign que aparece quando você carrega a bancada de trabalho Part Design.
+As ferramentas de Projeto da Peça estão todas localizadas no menu **Part Design** e na barra de ferramentas PartDesign que aparece quando você carrega a bancada de trabalho Part Design.
 
-### Ferramentas de estrutura {#ferramentas_de_estrutura}
+### Ferramentas de estrutura 
 
 Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. Elas pertencem à [Base Padrão](Std_Base/pt-br.md) do sistema. Elas foram desenvolvidas na v0.17 com a intenção de serem úteis para organizar um modelo, e criar [montagens](Assembly/pt-br.md); como tal, elas são muito úteis quando se trabalha com corpos criados com esta bancada de trabalho.
 
@@ -43,7 +43,7 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Grupo](Std_Group/pt-br.md): adiciona um recipiente de Grupo no documento ativo, o que permite organizar os objetos no [vista em árvore](Tree_view/pt-br.md).
 
-### Ferramentas auxiliares de projeto de peças {#ferramentas_auxiliares_de_projeto_de_peças}
+### Ferramentas auxiliares de projeto de peças 
 
 -   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Criar corpo](PartDesign_Body/pt-br.md): cria um objeto [Corpo](Body/pt-br.md) no documento ativo e o torna ativo.
 
@@ -53,9 +53,9 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [ Aplique um esboço de um lado](Sketcher_MapSketch/pt-br.md): Mapeia um esboço para um plano previamente selecionado ou para uma face do corpo ativo.
 
-### Ferramentas de modelagem de projeto de peças {#ferramentas_de_modelagem_de_projeto_de_peças}
+### Ferramentas de modelagem de projeto de peças 
 
-#### Ferramentas de referência {#ferramentas_de_referência}
+#### Ferramentas de referência 
 
 -   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Criar um ponto de referência](PartDesign_Point/pt-br.md): cria um ponto de referência no corpo ativo.
 
@@ -71,7 +71,7 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Criar um clone](PartDesign_Clone/pt-br.md): cria um clone do corpo selecionado.
 
-#### Ferramentas aditivas {#ferramentas_aditivas}
+#### Ferramentas aditivas 
 
 Estas são ferramentas para criar características básicas ou adicionar material a um corpo sólido existente.
 
@@ -103,7 +103,7 @@ Estas são ferramentas para criar características básicas ou adicionar materia
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Cunha aditiva](PartDesign_AdditiveWedge/pt-br.md): cria uma cunha aditiva.
 
-#### Ferramentas subtrativas {#ferramentas_subtrativas}
+#### Ferramentas subtrativas 
 
 Estas são ferramentas para subtrair material de um corpo existente.
 
@@ -137,7 +137,7 @@ Estas são ferramentas para subtrair material de um corpo existente.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Cunha subtrativa](PartDesign_SubtractiveWedge/pt-br.md): adiciona uma cunha subtrativa ao corpo ativo.
 
-#### Ferramentas de transformação {#ferramentas_de_transformação}
+#### Ferramentas de transformação 
 
 Estas são ferramentas para transformar as características existentes. Elas permitirão que você escolha quais características transformar.
 
@@ -149,7 +149,7 @@ Estas são ferramentas para transformar as características existentes. Elas per
 
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Transformação múltipla](PartDesign_MultiTransform/pt-br.md): cria um padrão com qualquer combinação das outras transformações.
 
-#### Ferramentas de embelezamento {#ferramentas_de_embelezamento}
+#### Ferramentas de embelezamento 
 
 Estas ferramentas aplicam um tratamento às bordas ou faces selecionadas.
 
@@ -177,7 +177,7 @@ Algumas funcionalidades adicionais encontradas no menu Design da peça:
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Assistente de projeto do eixo](PartDesign_WizardShaft/pt-br.md): Gera um eixo a partir de uma tabela de valores e permite analisar forças e momentos. O eixo é feito com um esboço giratório que pode ser editado.
 
-### Itens do menu de contexto {#itens_do_menu_de_contexto}
+### Itens do menu de contexto 
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Designar como uma função resultante](PartDesign_MoveTip/pt-br.md): redefine a ponta, que é a característica exposta fora do Corpo.
 
@@ -185,7 +185,7 @@ Algumas funcionalidades adicionais encontradas no menu Design da peça:
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Mover objeto após outro objeto](PartDesign_MoveFeatureInTree/pt-br.md): permite reordenar a árvore do corpo movendo o esboço, a geometria dos dados ou a característica selecionada para outra posição na lista de características.
 
-#### Itens compartilhados com a bancada de trabalho da peça {#itens_compartilhados_com_a_bancada_de_trabalho_da_peça}
+#### Itens compartilhados com a bancada de trabalho da peça 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aparência](Std_SetAppearance/pt-br.md): determina a aparência de toda a peça (transparência de cores, etc.).
 

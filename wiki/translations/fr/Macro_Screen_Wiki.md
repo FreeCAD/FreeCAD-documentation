@@ -32,7 +32,7 @@ Macro spéciale pour le Wiki passionné. Cette macro permet d\'enregistrer la [v
 
 ## Utilisation
 
-### Images options {#images_options}
+### Images options 
 
 #### Definition
 
@@ -83,7 +83,7 @@ Macro spéciale pour le Wiki passionné. Cette macro permet d\'enregistrer la [v
     {{RadioButton|1024x768 (XGA)}}
     
 
-#### Format image {#format_image}
+#### Format image 
 
 1.  
     {{SpinBox|600 px}}Longueur (Default: 600 px)
@@ -99,7 +99,7 @@ Macro spéciale pour le Wiki passionné. Cette macro permet d\'enregistrer la [v
 2.  
     {{RadioButton|TRUE|Screen 3D}}: La vue 3D de FreeCAD
 
-#### BackGround Color {#background_color}
+#### BackGround Color 
 
 1.  
     {{RadioButton|TRUE|Current}}(Default)
@@ -145,9 +145,9 @@ Macro spéciale pour le Wiki passionné. Cette macro permet d\'enregistrer la [v
     1.  ![](images/Macro_Screen_Wiki_ToolBar_01.png )![](images/Macro_Screen_Wiki_ToolBar_02.png )![](images/Macro_Screen_Wiki_ToolBar_03.png )![](images/Macro_Screen_Wiki_ToolBar_04.png )
     2.  The button **[[Image:Macro_Screen_Wiki_ToolBar_04_6.png]]** Flip/Flop Y/N la mini Barre d\'outils ![](images/Macro_Screen_Wiki_ToolBar_Mini.png )
 
-### Rotation options {#rotation_options}
+### Rotation options 
 
-#### Rotation on {#rotation_on}
+#### Rotation on 
 
 1.  
     {{RadioButton|3D View}}w : Rotation de la vue 3D complète
@@ -171,7 +171,7 @@ Macro spéciale pour le Wiki passionné. Cette macro permet d\'enregistrer la [v
 
     :\* Pour utilisez cette option, sélectionnez d\'abord l\'objet, ensuite: la ligne guide. Si {{RadioButton|TRUE|{{ColoredText||#995500|'''D'''}}}} est coché et qu\'aucun fil n\'est sélectionné, la direction est `Vector(0, 0, 0)`
 
-#### Point Rotation BoundBox {#point_rotation_boundbox}
+#### Point Rotation BoundBox 
 
 1.  Object: Rotation sur le centre BoundBox de l\'objet sélectionné
 2.  Sub Object: Rotation sur le centre BoundBox du sous-objet sélectionné
@@ -212,7 +212,7 @@ Macro spéciale pour le Wiki passionné. Cette macro permet d\'enregistrer la [v
 3.  
     **+**: Augmentez la valeur de 10 degrés
 
-#### Command {#command_1}
+#### Command 
 
 -   Delay between 2 images
 

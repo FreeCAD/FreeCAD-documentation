@@ -13,7 +13,7 @@ En utilisant le module PySide depuis FreeCAD, vous avez un contrôle total sur s
 -   Ajouter ou masquer des éléments aux panneaux existants
 -   Changer, rediriger ou ajouter des connexions entre tous ces éléments
 
-## Créer une référence pour la fenêtre principale {#créer_une_référence_pour_la_fenêtre_principale}
+## Créer une référence pour la fenêtre principale 
 
 Si vous souhaitez travailler sur l\'interface FreeCAD, la toute première chose à faire est de créer une référence à la fenêtre principale de FreeCAD:
 
@@ -25,7 +25,7 @@ app = QtGui.qApp
 mw = FreeCADGui.getMainWindow()
 ```
 
-## Parcourir les Enfants de la fenêtre principale {#parcourir_les_enfants_de_la_fenêtre_principale}
+## Parcourir les Enfants de la fenêtre principale 
 
 Ensuite, vous pouvez par exemple parcourir tous les widgets de l\'interface:
 
@@ -37,7 +37,7 @@ for child in mw.children():
 
 Les widgets d\'une interface Qt sont généralement imbriqués dans des \"conteneurs\" widgets, de sorte que les enfants de notre fenêtre principale peuvent contenir d\'autres enfants. Selon le type de widget, vous pouvez faire énormément de choses. Vérifiez la documentation de l\'API pour voir ce qui est possible.
 
-## Ajouter un nouveau widget manuellement {#ajouter_un_nouveau_widget_manuellement}
+## Ajouter un nouveau widget manuellement 
 
 L\'ajout d\'un nouveau widget, par exemple un qdockWidget (qui peut être placé dans l\'un des panneaux latéraux de FreeCAD) est facile:
 
@@ -58,7 +58,7 @@ label.setGeometry(QtCore.QRect(2,50,200,24))  # sets its size
 label.setObjectName("myLabel") # sets its name, so it can be found by name
 ```
 
-## Ajouter un nouveau widget en créant un objet d\'interface utilisateur {#ajouter_un_nouveau_widget_en_créant_un_objet_dinterface_utilisateur}
+## Ajouter un nouveau widget en créant un objet d\'interface utilisateur 
 
 Mais une méthode préférée est de créer un objet d\'interface utilisateur qui effectuera toute la configuration de votre widget à la fois. Le gros avantage est qu\'un tel objet UI peut être [créé graphiquement](Dialog_creation/fr.md) avec le programme Qt Designer. Un objet typique généré par Qt Designer est comme ceci:
 
@@ -90,7 +90,7 @@ myNewFreeCADWidget.ui.setupUi(myNewFreeCADWidget) # setup the ui
 FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
 ```
 
-## Chargement de l\'interface utilisateur à partir d\'un fichier .ui Qt Designer {#chargement_de_linterface_utilisateur_à_partir_dun_fichier_.ui_qt_designer}
+## Chargement de l\'interface utilisateur à partir d\'un fichier .ui Qt Designer 
 
 La clé pour charger un fichier d\'interface utilisateur avec succès est d\'utiliser le chemin d\'accès complet au fichier. Par exemple, le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) le fait comme ceci:
 

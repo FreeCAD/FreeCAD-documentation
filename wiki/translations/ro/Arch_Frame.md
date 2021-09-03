@@ -35,7 +35,7 @@ Instrumentul de cadru/dulgherie este utilizat pentru a construi toate tipurile d
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -78,7 +78,7 @@ Instrumentul de cadru/dulgherie este utilizat pentru a construi toate tipurile d
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

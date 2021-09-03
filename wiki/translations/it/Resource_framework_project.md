@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Questo è il piano del progetto per la struttura delle risorse di FreeCAD come parte del [Piano di sviluppo](Development_roadmap/it.md).
 
-## Finalità e principi {#finalità_e_principi}
+## Finalità e principi 
 
 E\' un progetto di sviluppo del software finalizzato a implementare il [Product Data Management (PDM)](http://it.wikipedia.org/wiki/Product_Data_Management) (Gestore dei Dati di Prodotto). Si tratta di implementare le parti e i componenti necessari.
 
@@ -26,7 +26,7 @@ Le fasi dello sviluppo sono pianificate qui e sono monitorate nel sistema di ges
 
 ## Riflessioni
 
-### Cosa fanno gli altri {#cosa_fanno_gli_altri}
+### Cosa fanno gli altri 
 
 Ecco alcuni link su analoghi prodotti commerciali:
 
@@ -34,7 +34,7 @@ Ecco alcuni link su analoghi prodotti commerciali:
 -   Aras Corp. [Aras PLM Software](http://www.aras.com/) - Essi sembrano offrire soluzioni Open Source, può valer la pena di indagare ulteriormente \...
 -   [Catia V6](http://www.3ds.com/de/products/plm-v6/v6r2009x/#vid1)
 
-### Casi d\'uso {#casi_duso}
+### Casi d\'uso 
 
 *Fornito da Charles:*
 
@@ -48,7 +48,7 @@ Naturalmente ci saranno diversi tipi di persone che utilizzeranno questo softwar
 
 -   Progetto con una gerarchia più rigida - ci possono essere alcuni progetti in cui i gruppi di lavoro preferiscono questa soluzione, ma penso che questo sistema possa essere popolare solo all\'interno delle imprese.
 
-#### Il sito Web di Blendswap {#il_sito_web_di_blendswap}
+#### Il sito Web di Blendswap 
 
 [Blendswap](http://www.blendswap.com/) - secondo le sue stesse parole - è \'\' \"\... il luogo dove trovare e condividere i file di Blender con il mondo intero. Tu crei straordinari file di Blender, li condividi nel più grande archivio di modelli 3D open source realizzati con la straordinaria suite Open Source Blender 3D.\" \'\'
 
@@ -62,7 +62,7 @@ Blendswap è un esempio eccellente di un repositorio (archivio) **online**. Le s
 
 -   I modelli (file di Blender) arrivano con la licenza chiaramente dettagliata (questi dettagli si possono anche visualizzare velocemente, sono visibili nella miniatura, per mezzo di un logo Creative Commons).
 
-### Possibili sistemi di controllo di revisione {#possibili_sistemi_di_controllo_di_revisione}
+### Possibili sistemi di controllo di revisione 
 
 E\' solo un piccolo passo per pensare al controllo di revisione nello stesso modo in cui viene utilizzato nello sviluppo del software moderno. Ci sono fondamentalmente due diversi approcci a tale questione:
 
@@ -75,11 +75,11 @@ Anche se i \'Casi d\'uso\' richiedono un sistema di controllo di revisione distr
 
 In un progetto distribuito in internet è necessario che ogni documento riporti una licenza chiara. Questo è ancora più importante quando riguarda i cataloghi. Le Parti del Catalogo sono utilizzate in progetti (liberi e non liberi) e quindi c\'è bisogno di una licenza chiara per rendere chiaro il loro utilizzo. Dato che esistono diversi sistemi di licenza, consideriamo qui una serie di possibili licenze per i file di CAD:
 
-#### Creative Commons {#creative_commons}
+#### Creative Commons 
 
 Le licenze CC sono molto popolari per il materiale creativo, è possibile trovarne la descrizione qui: <http://creativecommons.org>
 
-#### ISO 16016 {#iso_16016}
+#### ISO 16016 
 
 fraganaut01 ci indica un altro sistema di licenze per CAD:
 
@@ -112,11 +112,11 @@ Questo ci porta al seguente scenario:
 
 Innanzitutto devono essere testate le diverse alternative di sistemi di controllo di revisione. Per avere elementi concreti su come si comportano con dati di CAD.
 
-### Disegno {#disegno_1}
+### Disegno 
 
 Una classe di disegno per la struttura delle risorse.
 
-## Azioni successive {#azioni_successive}
+## Azioni successive 
 
 -   Costruire i repository di prova sul server e su due macchine locali
 -   Provare i diversi casi d\'uso

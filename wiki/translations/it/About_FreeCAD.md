@@ -14,7 +14,7 @@ Inoltre, FreeCAD è [multi-piattaforma](http://en.wikipedia.org/wiki/Cross-platf
 
 Per ulteriori informazioni su FreeCAD, dare un\'occhiata alla [lista delle funzioni](Feature_list/it.md), alle ultime [note di rilascio](Feature_list/it#Note_di_rilascio.md), e all\'articolo [per iniziare](getting_started/it.md), o vedere alcuni [screenshots](screenshots/it.md).
 
-### Informazioni sul progetto FreeCAD {#informazioni_sul_progetto_freecad}
+### Informazioni sul progetto FreeCAD 
 
 Il progetto FreeCAD è stato avviato nel 2001, come descritto nella pagina [Storia di FreeCAD](history/it.md).
 

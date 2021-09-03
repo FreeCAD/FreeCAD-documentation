@@ -7,7 +7,7 @@
 
 Ako volite FreeCAD i ako želite možete pomoći u razvoju FreeCAD-a osim [direktne donacije](Donate/hr.md), postoji i više mogućnosti kako to možete ostvariti, čak i ako niste programer.
 
-### Radi na dokumentaciji {#radi_na_dokumentaciji}
+### Radi na dokumentaciji 
 
 
 <div class="mw-translate-fuzzy">
@@ -23,7 +23,7 @@ Par područja koja bi pozdravila vaš rad:
 -   U odjeljku [Vježbe](Tutorials/hr.md) potrebni su primjeri kako koristiti radne površine. Ako ste razvili nešto super s FreeCAD-om, zašto ne dokumentirati kako ste to učinili za potomstvo?
 -   Na FreeCAD [bugtracker](bugtracker/hr.md) postoje otvorene karte s oznakom [\"dokumentacija\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) koje bi mogli koristiti sa ljubavlju za stvaranjem uputstava.
 
-### Dijelite svoje znanje o FreeCAD-u {#dijelite_svoje_znanje_o_freecad_u}
+### Dijelite svoje znanje o FreeCAD-u 
 
 Zajednica korisnika oko FreeCAD-a je još uvijek mala, ali već uključuje nekoliko naprednih korisnika koji rade vrlo važan posao pokazujući pridošlicama kako koristiti softver. Ako se počnete osjećati ugodno s FreeCAD-om, vaše bi znanje moglo biti vrlo vrijedno za druge, a možda i vi doprinosi važnim sredstvima kao što su:
 
@@ -34,13 +34,13 @@ Zajednica korisnika oko FreeCAD-a je još uvijek mala, ali već uključuje nekol
 -   Pogledajte najnovije postove FreeCAD-a na [Reddit](https://www.reddit.com/search/?q=freecad&type=link&sort=new), [3dprinting.stackexchange](https://3dprinting.stackexchange.com/search?tab=newest&q=freecad), [StackOverflow](https://stackoverflow.com/search?q=freecad) \... Pokušajte odgovoriti na njih i sudjelujte u raspravama koje dijele vaše iskustvo i informacije.
 -   Budite prisutni na FreeCAD IRC kanalu ili [drugim grupama za chat](https://www.freecadweb.org/wiki/Help#Chat)
 
-### Prevedi FreeCAD {#prevedi_freecad}
+### Prevedi FreeCAD 
 
 Prevedite FreeCAD na svoj vlastiti jezik. Svi nizovi teksta FreeCAD sučelja mogu se lako prevesti na druge jezike. Trebamo samo nekoga tko zna te jezike i spreman je pomoći! Svi prijevodi se vrše putem Interneta na [Crowdin](http://crowdin.net/project/freecad).
 
 Za detalje prevođenja pogledaj [Localisation](Localisation/hr.md).
 
-### Prevedi dokumentaciju {#prevedi_dokumentaciju}
+### Prevedi dokumentaciju 
 
 Prevođenje je jednostavno, wiki FreeCAD podržava dodatak za prijevod koji vam omogućuje prevođenje osnovne stranice engleskog jezika na druge jezike.
 
@@ -50,7 +50,7 @@ Molimo vas budite sigurni da ste upoznati s osnovama wiki markiranja; pogledajte
 
 Zatim idite na [WikiPages](WikiPages.md) da se upoznate sa stilom koji se koristi u ovom wikiju, posebno kada je riječ o predlošcima.
 
-### Pomozite drugima da saznaju o FreeCAD-u {#pomozite_drugima_da_saznaju_o_freecad_u}
+### Pomozite drugima da saznaju o FreeCAD-u 
 
 -   Razgovarajte o FreeCAD-u s drugim ljudima koji bi mogli biti zainteresirani
 -   Pronađite zanimljive namjene za FreeCAD i dokumentujte to, na primjer, snimkama zaslona. FreeCAD je vrlo mlad i nema puno ljudi koji vide što mogu učiniti s njim. Ako ste već ljubitelj FreeCAD-a, sigurno znate neku zgodnu stvar koju FreeCAD može učiniti. Pomozite nam da to pokažemo drugima!
@@ -59,7 +59,7 @@ Zatim idite na [WikiPages](WikiPages.md) da se upoznate sa stilom koji se korist
 -   Doprinosi s datotekama, crtežima, itd. Još uvijek nam nedostaju dobri primjeri datoteka onoga što se može učiniti s FreeCAD-om
 -   Pomoć u promociji FreeCAD-a na GitHubu putem [\"Uloga\" i \"Gledanje\"](https://help.github.com/articles/be-social/#watch-a-project) [/ FreeCAD FreeCAD repozitorij](https://github.com/FreeCAD)
 
-## Prijavi greške i pitaj za zanimljive značajke {#prijavi_greške_i_pitaj_za_zanimljive_značajke}
+## Prijavi greške i pitaj za zanimljive značajke 
 
 ![](images/Bugreport-workflow.png )
 
@@ -75,7 +75,7 @@ Iako je mjesto za prijavljivanje potvrđenih grešaka i sugeriranje novih znača
 
 \\
 
-### Dizajnerska djela {#dizajnerska_djela}
+### Dizajnerska djela 
 
 
 <div class="mw-translate-fuzzy">

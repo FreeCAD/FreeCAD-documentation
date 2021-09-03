@@ -4,7 +4,7 @@
 
 This is an example of modifying the icon of a custom [viewprovider](Viewprovider.md), which are normally added to [scripted objects](scripted_objects.md).
 
-## Personalized icon in the combo view {#personalized_icon_in_the_combo_view}
+## Personalized icon in the combo view 
 
 Here an example to create an object with properties and icon personalised in ComboView
 

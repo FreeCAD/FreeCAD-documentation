@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 {{TutorialInfo
@@ -18,7 +18,7 @@
 
 ~~As the warning at the top of the page already indicates, this **tutorial will NOT WORK unless you compile a special highly experimental branch from FreeCAD source code** and is an introductory tutorial to modeling with the PartDesign workbench in FreeCAD **using Datum planes which are a feature that does not yet exist in most FreeCAD versions**.~~
 
-## Purpose in Brief {#purpose_in_brief}
+## Purpose in Brief 
 
 The purpose of the tutorial is to introduce you to two different work flows for creating a cast part with drafts and fillets. Depending on what other CAD programs you have been using, one or the other might be familiar to you. As a working example we will be modeling a simple bearing holder.
 
@@ -28,7 +28,7 @@ Obviously, to follow through this tutorial you must activate the PartDesign work
 
 ~~You can find my version of the part created by this tutorial [http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa here](http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_here.md).~~ *The file is no longer available, a new one will be provided at some later date*.
 
-## Design data {#design_data}
+## Design data 
 
 The holder should be able to hold a diameter 90mm bearing with a width of up to 33mm (e.g. DIN 630 type 2308). The bearing requires a shoulder height of at least 4.5mm in the holder (and on the shaft). The top part of the holder will be bolted to the bottom with two 12mm bolts. There should be a groove on both sides of the bearing able to hold a standard shaft sealing ring DIN 3760: 38x55x7 or 40x55x7 on one side, 50x68x8 on the other side.
 
@@ -53,7 +53,7 @@ For convenience, two further datum planes can be created to reflect the amount o
 
 It is advisable to give clear names to the skeleton geometry. Most of the time, you will want to turn off visibility for datum planes because they clutter up the screen, and if the planes have self-explanatory names you can just pick them by name instead of from the screen.
 
-## Твердотельная геометрия {#твердотельная_геометрия}
+## Твердотельная геометрия 
 
 <img alt="Sketch of the first pad" src=images/HolderTop1-4.jpg  style="width:400px;"> Now its time to start creating some real geometry. The sketch for the first pad is shown on the right. It is placed on the XY-plane. There are just three dimensions: The inner radius (22.5mm), the machining allowance (3mm) at the base as an offset to the XZ-plane and the distance from the datum plane representing the bolt axis (7mm). This means that if you later move the datum plane, the pad will automatically adjust its outer radius. Remember that before you can use the datum plane for dimensioning, you need to introduce it as external geometry to the sketcher.
 
@@ -74,14 +74,14 @@ After creating the sketches, pocket them: Symetrically 28mm for the bearing cut-
 Here again the skeleton planes come in useful. You will need the bolt axis plane and the bolt head plane as external geometry. Then, create a straight line for the rotation axis and make sure it is constrained to the bolt axis plane reference. Toggle it to be construction geometry. Then, sketch the rest of the contour. The important dimensions are the machining allowance at the top and bottom and the radius of 12mm: 7mm for the hole radius + 5mm wall thickness.
 <img alt="Finished geometry of the holder top (without draft and fillets)" src=images/HolderTop1-9.jpg  style="width:400px;"> Create a revolution feature from the sketch and then mirror it on the YZ-plane. This is all the solid geometry we need to model. The rest is draft and fillets.
 
-## Applying draft to the side faces {#applying_draft_to_the_side_faces}
+## Applying draft to the side faces 
 
 <img alt="The neutral plane for creating drafts" src=images/HolderTop1-10.jpg  style="width:400px;"> The next step is to apply drafts on all faces. Its important to consider the location of the neutral plane, that is, the plane which the face is \"rotated\" around. If we choose as neutral plane the bottom of the holder, then we will have a problem with the wall thickness in the top part of the holder. Therefore, we create a datum plane at an offset of 40mm from the XZ plane as a compromise between the top of the holder becoming to thin and the bottom becoming to wide.
 <img alt="Applying draft to the side faces of the holder" src=images/HolderTop1-11.jpg  style="width:400px;"> To put draft on a face, select this face and create the draft feature. You can then select more faces to apply the draft on. If you have a large part, it is advisable to draft only one face at a time. This means that if you change the geometry and a draft fails, only this one feature will fail, whereas if you put all faces in one draft feature, then the whole feature might fail because of one face failing. For a small part like the bearing holder, its sufficient to create two draft features: One for the four outside faces, and one for the inside faces.
 
 The dialog will force you to select a neutral plane before completing. You can leave the pull direction empty, in this case it will be normal to the neutral plane. Don\'t forget to set the draft angle to 2 degrees.
 
-## Filleting the holder {#filleting_the_holder}
+## Filleting the holder 
 
 <img alt="Fillet where the bolts will go" src=images/HolderTop1-13.jpg  style="width:400px;"> We can now fillet the part. The picture shows the first set of fillets. Start with the small circular fillets and make them 4mm radius. Even though 3mm would be enough as per specification of the part, a radius of 4mm means that after machining 1mm of the fillet is left, reducing the sharp edge produced by the machining. The large fillets are 6mm radius to help spread the force from the bolts into the rest of the part. It would be nice to make this radius even larger, but unfortunately OpenCascade can\'t handle overlapping fillets yet.
 
@@ -104,11 +104,11 @@ Before starting on the machining geometry, I like to place a datum point in the 
 To machine the bottom of the holder, just sketch a large rectangle on the XZ plane and pocket it. For the top, sketch a circle on the datum plane defining the bolt head location, and then mirror the pocket on the YZ plane. In the same way, create a pocket for the hole which the bolt will go through and mirror it. To machine the inside of the holder, create a sketch on the YZ plane and groove it.
 <img alt="Finished part" src=images/HolderTop1-1.jpg  style="width:400px;"> Once you have done the machining, you can have a nice visual effect by colouring all the machined faces so that you can see at one glance which parts are raw casting and which are machined after casting.
 
-## Final notes {#final_notes}
+## Final notes 
 
 We have modelled the bearing holder top with the dimensions it will have after casting. To create the casting mould, you need to apply shrinkage to your part because after casting, when the hot metal cools down, it will shrink by a few percent (depending on the material). Usually it is best to leave the application of shrinkage to the foundry making the part because they have the required special knowledge. They should also tell you if your part has problematic areas, e.g. very thick walls suddenly joining to very thin sections without a properly tapered section between them.
 
-## Part Two {#part_two}
+## Part Two 
 
 [PartDesign Bearingholder Tutorial II](PartDesign_Bearingholder_Tutorial_II.md)
 

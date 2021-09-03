@@ -38,12 +38,12 @@ Creare un modello
 
 ## Opzioni
 
-## Post Processing {#post_processing}
+## Post Processing 
 
 
 <div class="mw-translate-fuzzy">
 
-## Post Processore {#post_processore}
+## Post Processore 
 
 -   Selezione del postprocessore
 -   Argomenti del postprocessore
@@ -65,12 +65,12 @@ Creare un modello
 
 </div>
 
-## Setup Sheet {#setup_sheet}
+## Setup Sheet 
 
 
 <div class="mw-translate-fuzzy">
 
-## Impostazioni del foglio di lavorazione {#impostazioni_del_foglio_di_lavorazione}
+## Impostazioni del foglio di lavorazione 
 
 -   Profondità di lavorazione
 -   Profondità di passata
@@ -79,12 +79,12 @@ Creare un modello
 
 </div>
 
-## Tool controllers {#tool_controllers}
+## Tool controllers 
 
 
 <div class="mw-translate-fuzzy">
 
-## Controller dell\'utensile {#controller_dellutensile}
+## Controller dell\'utensile 
 
 -   Controller degli utensili selezionati.
 

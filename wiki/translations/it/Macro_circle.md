@@ -138,7 +138,7 @@ def circle(x=0.0,y=0.0,z=0.0,radius=0.0,diameter=0.0,circumference=0.0,area=0.0,
 
 }}
 
-## Promemoria sulle circonferenze {#promemoria_sulle_circonferenze}
+## Promemoria sulle circonferenze 
 
 **Esempi di codice**
 

@@ -38,31 +38,31 @@ The [Sketcher Workbench](Sketcher_Workbench.md) is used briefly to draw an auxil
 
 ## Setup
 
-1\. Open FreeCAD, create a new empty document with {{MenuCommand|File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)}}, and switch to the [Part Workbench](Part_Workbench.md).
+1\. Open FreeCAD, create a new empty document with **File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**, and switch to the [Part Workbench](Part_Workbench.md).
 
 :   1.1. Press the **<img src=images/Std_ViewIsometric.svg style="width:16px"> [View isometric](Std_ViewIsometric.md)** button, or press **0** in the numerical pad of your keyboard, to change the view to isometric to visualize the 3D solids better.
 :   1.2. Press the **<img src=images/Std_ViewFitAll.svg style="width:16px"> [View fit all](Std_ViewFitAll.md)** button whenever you add objects in order to pan and zoom the [3D view](3D_view.md) so that all elements are seen in the view.
 :   1.3. Hold **Ctrl** while you click to select multiple items. If you selected something wrong or want to de-select everything, just click on empty space in the [3D view](3D_view.md).
 
-## Create the basic shape {#create_the_basic_shape}
+## Create the basic shape 
 
 2\. Insert a primitive cube by clicking on **<img src="images/Part_Box.svg" width=16px> [Box](Part_Box.md)**.
 
 :   2.1. Select `Cube` in the [tree view](tree_view.md).
-:   2.2. Change the dimensions in the {{MenuCommand|Data}} tab of the [property editor](property_editor.md).
-:   2.3. Change {{MenuCommand|Width}} to `31 mm`.
+:   2.2. Change the dimensions in the **Data** tab of the [property editor](property_editor.md).
+:   2.3. Change **Width** to `31 mm`.
 
 3\. Create a chamfer.
 
 :   3.1. Select the upper edge (`Edge6`) on the front face of the `Cube` in the [3D view](3D_view.md).
 :   3.2. Press **<img src="images/Part_Chamfer.svg" width=16px> [Chamfer](Part_Chamfer.md)**.
-:   3.3. In the {{MenuCommand|Chamfer edges}} [task panel](task_panel.md) go to {{MenuCommand|Selection}}, choose {{MenuCommand|Select edges}}. As {{MenuCommand|Fillet type}} choose `Constant length`, then set {{MenuCommand|Length}} to `5 mm`.
+:   3.3. In the **Chamfer edges** [task panel](task_panel.md) go to **Selection**, choose **Select edges**. As **Fillet type** choose `Constant length`, then set **Length** to `5 mm`.
 :   3.4. Press **OK**. This will create a `Chamfer` object.
-:   3.5. In the [tree view](tree_view.md), select `Chamfer`, in the {{MenuCommand|View}} tab change the value of {{MenuCommand|Line Width}} to `2.0`.
+:   3.5. In the [tree view](tree_view.md), select `Chamfer`, in the **View** tab change the value of **Line Width** to `2.0`.
 
 ![](images/01_T04_Part_Cube_base_long.png ) *Base object created from a cube and a chamfer operation.*
 
-## Insert the ShapeString {#insert_the_shapestring}
+## Insert the ShapeString 
 
 4\. Switch to the [Draft Workbench](Draft_Workbench.md).
 
@@ -72,12 +72,12 @@ The [Sketcher Workbench](Sketcher_Workbench.md) is used briefly to draw an auxil
 5\. Insert the text \"FreeCAD\".
 
 :   5.1. Press on **<img src=images/Draft_ShapeString.svg style="width:16px"> [ShapeString](Draft_ShapeString.md)**.
-:   5.2. Change {{MenuCommand|X}} to `0 mm`.
-:   5.3. Change {{MenuCommand|Y}} to `0 mm`.
-:   5.4. Change {{MenuCommand|Z}} to `0 mm`.
+:   5.2. Change **X** to `0 mm`.
+:   5.3. Change **Y** to `0 mm`.
+:   5.4. Change **Z** to `0 mm`.
 :   5.5. Or press **Reset point**.
-:   5.6. Change {{MenuCommand|String}} to `FreeCAD`; change {{MenuCommand|Height}} to `5 mm`; change {{MenuCommand|Tracking}} to `0 mm`.
-:   5.7. Make sure {{MenuCommand|Font file}} points to a valid font, for example, `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf`. Press the ellipsis **...** to open the operating system\'s dialog to find a font.
+:   5.6. Change **String** to `FreeCAD`; change **Height** to `5 mm`; change **Tracking** to `0 mm`.
+:   5.7. Make sure **Font file** points to a valid font, for example, `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf`. Press the ellipsis **...** to open the operating system\'s dialog to find a font.
 
     :   
         **Note:**
@@ -85,25 +85,25 @@ The [Sketcher Workbench](Sketcher_Workbench.md) is used briefly to draw an auxil
         for more details about working with fonts please refer to the [Draft ShapeString Notes](Draft_ShapeString#Notes.md) section.
 :   5.8. Press **OK**. This will create a `ShapeString` object.
 :   5.9. Recompute the document by pressing **<img src=images/Std_Refresh.svg style="width:16px"> [Refresh](Std_Refresh.md)**.
-:   5.10. In the [tree view](tree_view.md), select `ShapeString`, in the {{MenuCommand|View}} tab change the value of {{MenuCommand|Line Width}} to `2.0`.
-:   5.11. In the [tree view](tree_view.md), select `Chamfer`, in the {{MenuCommand|View}} tab change the value of {{MenuCommand|Visibility}} to `false`, or press **Space** in the keyboard. This will hide the object, so you can see the `ShapeString` better.
+:   5.10. In the [tree view](tree_view.md), select `ShapeString`, in the **View** tab change the value of **Line Width** to `2.0`.
+:   5.11. In the [tree view](tree_view.md), select `Chamfer`, in the **View** tab change the value of **Visibility** to `false`, or press **Space** in the keyboard. This will hide the object, so you can see the `ShapeString` better.
 :   5.12. To see the ShapeString from above change the view by pressing **<img src=images/View-top.svg style="width:16px"> [Top (XY)](Std_ViewTop.md)**, or **2** in the keyboard.
 :   5.13. To restore the view to isometric, press **<img src=images/Std_ViewIsometric.svg style="width:16px"> [View isometric](Std_ViewIsometric.md)**, or **0** in the keyboard.
 
 ![](images/02_T04_Part_ShapeString.png ) *Text created as a ShapeString, that is, as a collection of edges in a plane.*
 
-## Create the solid 3D text {#create_the_solid_3d_text}
+## Create the solid 3D text 
 
 6\. Switch back to the [Part Workbench](Part_Workbench.md).
 
 :   6.1. In the <img src=images/Part_Extrude.svg style="width:tree view](tree_view.md), select `ShapeString`, then press **[16px"> [Extrude](Part_Extrude.md)**.
-:   6.2. In the {{MenuCommand|Extrude}} [task panel](task_panel.md) go to {{MenuCommand|Direction}}, choose {{MenuCommand|Along normal}}; in {{MenuCommand|Length}}, set {{MenuCommand|Along}} to `1 mm`; also tick the {{MenuCommand|Create solid}} option.
+:   6.2. In the **Extrude** [task panel](task_panel.md) go to **Direction**, choose **Along normal**; in **Length**, set **Along** to `1 mm`; also tick the **Create solid** option.
 :   6.3. Press **OK**. This will create an `Extrude` object.
-:   6.4. In the [tree view](tree_view.md), select `Extrude`, in the {{MenuCommand|View}} tab change the value of {{MenuCommand|Line Width}} to `2.0`.
+:   6.4. In the [tree view](tree_view.md), select `Extrude`, in the **View** tab change the value of **Line Width** to `2.0`.
 
 ![](images/03_T04_Part_ShapeString_Extrude.png ) *Text created as a ShapeString, and turned into a solid by extrusion.*
 
-## Insert auxiliary sketch for positioning {#insert_auxiliary_sketch_for_positioning}
+## Insert auxiliary sketch for positioning 
 
 Now we will draw a simple sketch that will be used as auxiliary geometry to position the ShapeString extrusion.
 
@@ -114,7 +114,7 @@ Now we will draw a simple sketch that will be used as auxiliary geometry to posi
 9\. In the [tree view](tree_view.md), select `Chamfer`, and press **Space** in the keyboard to make it visible.
 
 :   9.1. Choose the sloped face created by the chamfer operation (`Face3`).
-:   9.2. Click on **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [NewSketch](Sketcher_NewSketch.md)**. In the {{MenuCommand|Sketch attachment}} dialog, select `FlatFace`, and press **OK**.
+:   9.2. Click on **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [NewSketch](Sketcher_NewSketch.md)**. In the **Sketch attachment** dialog, select `FlatFace`, and press **OK**.
 :   9.3. The view should adjust automatically so that the camera is parallel to the selected face.
 :   9.4. Draw a horizontal line in a general position on top of the face. The length is not important; we are just interested in its position.
 :   9.5. Constrain the left endpoint to be `2.5 mm` away from the local X axis and from the local Y axis, using **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:ConstrainDistanceX](Sketcher_ConstrainDistanceX.md)** and **[16px"> [ConstrainDistanceY](Sketcher_ConstrainDistanceY.md)**.
@@ -127,21 +127,21 @@ Now we will draw a simple sketch that will be used as auxiliary geometry to posi
 <img alt="" src=images/05_T04_Part_ShapeString_support_sketch_3D.png  style="width:500px;"> 
 *Sketch line created on top of the solid face, to be used as reference guide for positioning the extruded text.*
 
-## Positioning the solid text in 3D space {#positioning_the_solid_text_in_3d_space}
+## Positioning the solid text in 3D space 
 
 10\. In the [tree view](tree_view.md), select `Extrude`, and press **Space** in the keyboard to make it visible.
 
-11\. In the [tree view](tree_view.md), select `Extrude`, in the {{MenuCommand|Data}} tab of the [property editor](property_editor.md), click on the {{MenuCommand|Placement}} value so the ellipsis button **...** appears on the right.
+11\. In the [tree view](tree_view.md), select `Extrude`, in the **Data** tab of the [property editor](property_editor.md), click on the **Placement** value so the ellipsis button **...** appears on the right.
 
-:   11.1. Tick the option {{MenuCommand|Apply incremental changes}}.
-:   11.2. Change the {{MenuCommand|Rotation}} to `Rotation axis with angle`; {{MenuCommand|Axis}} to `Z`, and {{MenuCommand|Angle}} to `90 deg`, then click on **Apply**. This will apply a rotation around the Z-axis, and will reset the {{MenuCommand|Angle}} field to zero.
-:   11.3. Change the {{MenuCommand|Rotation}} to `Rotation axis with angle`; {{MenuCommand|Axis}} to `Y`, and {{MenuCommand|Angle}} to `45 deg`, then click on **Apply**. This will apply a rotation around the Y-axis, and will reset the {{MenuCommand|Angle}} field to zero.
+:   11.1. Tick the option **Apply incremental changes**.
+:   11.2. Change the **Rotation** to `Rotation axis with angle`; **Axis** to `Z`, and **Angle** to `90 deg`, then click on **Apply**. This will apply a rotation around the Z-axis, and will reset the **Angle** field to zero.
+:   11.3. Change the **Rotation** to `Rotation axis with angle`; **Axis** to `Y`, and **Angle** to `45 deg`, then click on **Apply**. This will apply a rotation around the Y-axis, and will reset the **Angle** field to zero.
 :   11.4. Click on **OK** to close the dialog.
 
 12\. Switch again to the [Draft Workbench](Draft_Workbench.md).
 
-:   12.1. Switch to \"Wireframe\" draw style with {{MenuCommand|View → <img src=images/DrawStyleWireFrame.svg style="width:Draw style](Std_DrawStyle.md) → [16px"> Wireframe}}, or press the **<img src=images/DrawStyleWireFrame.svg style="width:16px"> [Wireframe](Std_DrawStyle.md)** button in the view toolbar. This will allow you to see the objects behind other objects.
-:   12.2. Make sure the <img src=images/Draft_Snap_Lock.svg style="width:Draft Snap](Draft_Snap.md) \"Snap to endpoint\" method is active. This can be done from the menu {{MenuCommand|Draft → Snapping → [16px"> <img src=images/Snap_Endpoint.svg style="width:Toggle On/Off](Draft_Snap_Lock.md)}}, and then {{MenuCommand| → [16px"> <img src=images/Draft_Snap_Lock.svg style="width:Endpoint](Draft_Snap_Endpoint.md)}}, or by pressing the **[16px"> <img src=images/Draft_Snap_Endpoint.svg style="width:ToggleSnap](Draft_Snap_Lock.md)** and **[16px"> [Snap endpoint](Draft_Snap_Endpoint.md)** buttons in the Snap toolbar.
+:   12.1. Switch to \"Wireframe\" draw style with **View → <img src=images/DrawStyleWireFrame.svg style="width:Draw style](Std_DrawStyle.md) → [16px"> Wireframe**, or press the **<img src=images/DrawStyleWireFrame.svg style="width:16px"> [Wireframe](Std_DrawStyle.md)** button in the view toolbar. This will allow you to see the objects behind other objects.
+:   12.2. Make sure the <img src=images/Draft_Snap_Lock.svg style="width:Draft Snap](Draft_Snap.md) \"Snap to endpoint\" method is active. This can be done from the menu **Draft → Snapping → [16px"> <img src=images/Snap_Endpoint.svg style="width:Toggle On/Off](Draft_Snap_Lock.md)**, and then ** → [16px"> <img src=images/Draft_Snap_Lock.svg style="width:Endpoint](Draft_Snap_Endpoint.md)**, or by pressing the **[16px"> <img src=images/Draft_Snap_Endpoint.svg style="width:ToggleSnap](Draft_Snap_Lock.md)** and **[16px"> [Snap endpoint](Draft_Snap_Endpoint.md)** buttons in the Snap toolbar.
 
 13\. In the [tree view](tree_view.md), select `Extrude`.
 
@@ -156,11 +156,11 @@ Now we will draw a simple sketch that will be used as auxiliary geometry to posi
 
 ![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) *Extruded ShapeString positioned in the `Fillet*.`
 
-## Creating engraved text {#creating_engraved_text}
+## Creating engraved text 
 
 14\. Switch back to the [Part Workbench](Part_Workbench.md).
 
-:   14.1. Switch to \"As is\" draw style with {{MenuCommand|View → <img src=images/DrawStyleAsIs.svg style="width:Draw style](Std_DrawStyle.md) → [16px"> As is}}, or press the **<img src=images/DrawStyleAsIs.svg style="width:16px"> [As is](Std_DrawStyle.md)** button in the view toolbar. This will show all objects with the normal shading and color.
+:   14.1. Switch to \"As is\" draw style with **View → <img src=images/DrawStyleAsIs.svg style="width:Draw style](Std_DrawStyle.md) → [16px"> As is**, or press the **<img src=images/DrawStyleAsIs.svg style="width:16px"> [As is](Std_DrawStyle.md)** button in the view toolbar. This will show all objects with the normal shading and color.
 :   14.2. In the [tree view](tree_view.md), select `Sketch`, and press **Space** in the keyboard to make it invisible.
 
 15\. In the [tree view](tree_view.md) select `Chamfer` first, and then `Extrude`.
@@ -168,11 +168,11 @@ Now we will draw a simple sketch that will be used as auxiliary geometry to posi
 :   15.1. Then press **<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create a `Cut` object. This is the final object.
 :   
     **Note:**the order in which you select the objects is important for the cut operation. The base object is selected first, and the subtracting object comes at the end.
-:   15.2. In the [tree view](tree_view.md), select `Cut`, in the {{MenuCommand|View}} tab change the value of {{MenuCommand|Line Width}} to `2.0`.
+:   15.2. In the [tree view](tree_view.md), select `Cut`, in the **View** tab change the value of **Line Width** to `2.0`.
 
 ![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) *Final model of a filleted cube, with carved text created from a ShapeString, Extrude, and boolean Cut operations.*
 
-## Engraving 3D text with the PartDesign Workbench {#engraving_3d_text_with_the_partdesign_workbench}
+## Engraving 3D text with the PartDesign Workbench 
 
 A similar process as described above can be done with the [PartDesign Workbench](PartDesign_Workbench.md).
 

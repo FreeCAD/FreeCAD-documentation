@@ -14,7 +14,7 @@ The [Arch Fence](Arch_Fence.md) is a object that builds a fence by repeating a s
 
 ## Usage
 
-### Creating from scratch {#creating_from_scratch}
+### Creating from scratch 
 
 1.  Use a workbench of your choice to create a single fence post and a single section.
 2.  Create the path the fence should follow using the [Sketcher Workbench](Sketcher_Workbench.md) or [Draft Workbench](Draft_Workbench.md).

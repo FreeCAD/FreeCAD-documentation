@@ -1,12 +1,12 @@
  <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> {{TOCright}}
 
-## Installation des drivers {#installation_des_drivers}
+## Installation des drivers 
 
 ### Linux
 
 FreeCAD prend en charge les drivers du projet [Spacenav](http://spacenav.sourceforge.net/). Il s\'agit d\'un projet visant à créer un pilote open-source, qui est compatible avec les pilotes propriétaires de 3Dconnexion.
 
-#### Installer à partir d\'un dépôt {#installer_à_partir_dun_dépôt}
+#### Installer à partir d\'un dépôt 
 
 ##### Ubuntu
 
@@ -72,7 +72,7 @@ apt-get install spacenavd libspnav-dev
 sudo zypper install spacenavd
 ```
 
-#### Compilation des sources Spacenav {#compilation_des_sources_spacenav}
+#### Compilation des sources Spacenav 
 
 Ceci est recommandé si votre distribution est une version obsolète.
 
@@ -175,7 +175,7 @@ Ceci est recommandé si votre distribution est une version obsolète.
 
 -   Suivez la même procédure pour compiler, et, installer **spnavcfg**. Lancez **spnavcfg** en tant que root, sinon, aucuns réglages ne seront sauvegardés !
 
-#### Démarrage de spacenavd en tant que service systemd au démarrage {#démarrage_de_spacenavd_en_tant_que_service_systemd_au_démarrage}
+#### Démarrage de spacenavd en tant que service systemd au démarrage 
 
 Si vous souhaitez démarrer spacenavd au démarrage en utilisant systemd, procédez comme suit :
 
@@ -186,7 +186,7 @@ Si vous souhaitez démarrer spacenavd au démarrage en utilisant systemd, procé
 
 Ceci n\'est nécessaire que pour l\'installation à partir de la source.
 
-#### Redémarrez spacenavd {#redémarrez_spacenavd}
+#### Redémarrez spacenavd 
 
 Si parfois navigator cesse de fonctionner, c\'est bon, redémarrez le pilote. Pour le redémarrer, aller au terminal, et, exécutez :
 
@@ -198,7 +198,7 @@ sudo /etc/init.d/spacenavd restart
 
 Après ceci, redémarrez FreeCAD. Sur certaines distributions, cela est nécessaire à chaque démarrage (boot).
 
-### Problèmes connus {#problèmes_connus}
+### Problèmes connus 
 
 Un utilisateur a signalé ce qui suit sur le [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327):
 
@@ -227,7 +227,7 @@ Les périphériques d\'entrée 3Dconnexion sont pris en charge sur OS X à condi
 
 Depuis la version 0.13, la souris 3D est prise en charge sous windows. Vous devez avoir les pilotes 3Dconnexion installés.
 
-#### Problème connu {#problème_connu}
+#### Problème connu 
 
 Il existe un problème en raison duquel 3Dconnexion envoie les événements de défilement en double à FreeCAD, ce qui provoque le saut de la vue. Réparer:
 
@@ -239,13 +239,13 @@ Il existe un problème en raison duquel 3Dconnexion envoie les événements de d
 
 ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
-## Mise en place de FreeCAD {#mise_en_place_de_freecad}
+## Mise en place de FreeCAD 
 
 Le support de la souris 3D a été effectué avec le projet **spnav** sur Linux, et, sur un très bas niveau sur Windows. Cela signifie qu\'il n\'y avait aucun support pour les paramètres d\'un tel périphérique, puisqu\'il n\'y a aucun bon support sur Linux, et, sur Windows, il a été substitué. C\'est pour cela, que deux pages supplémentaires ont été ajoutées à la boîte de dialogue \"Personnaliser\".
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
 
-### Spaceball Motion {#spaceball_motion}
+### Spaceball Motion 
 
 Dans cet onglet vous avez la possibilité de mettre en place certains paramètres de la souris dans l\'espace général.
 
@@ -265,13 +265,13 @@ Pour chaque axes, vous avez d\'autres possibilités de définition :
 -   Reverse - inverser le mouvement sur les axes
 -   Sensitivity - possibilité de définir la sensibilité du curseur
 
-### Spaceball Buttons {#spaceball_buttons}
+### Spaceball Buttons 
 
 Lorsque vous ouvrez cet onglet pour la première fois, il sera vide, et, non disponible. Pour l\'activer, vous devez appuyer sur un des boutons de votre space mouse. Une fois que vous l\'avez fait, la liste des boutons s\'affiche sur le côté gauche, et, la liste des commandes sera disponible sur le côté droit.
 
 Pour connecter certaines commandes à un bouton, sélectionnez le bouton sur le panneau de **gauche**, et, la commande sur le panneau de **droite**. Pour effacer la commande d\'un bouton, appuyez sur \"Clear\".
 
-## En relation {#en_relation}
+## En relation 
 
 -   Fil de discussion du forum [spacenav dans Windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
 -   Fil de discussion du forum [Confusion de l\'axe de la spacenav](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188).

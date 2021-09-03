@@ -20,7 +20,7 @@ La forma risultante è una raccolta di vertici o punti, che può essere utilizza
 ## Utilizzo
 
 1.  Selezionare l\'oggetto mesh.
-2.  Andare in {{MenuCommand|Part → <img src="images/Part_PointsFromMesh.svg" width=24px> Crea punti da mesh}}.
+2.  Andare in **Part → <img src="images/Part_PointsFromMesh.svg" width=24px> Crea punti da mesh**.
 3.  Viene creata una forma dall\'oggetto mesh come nuovo oggetto separato.
 
 Non è possibile fare alcuna analisi o validazione dell\'oggetto mesh. L\'analisi e la riparazione della mesh devono essere eseguite manualmente prima della conversione, se necessario. Strumenti adeguati sono disponibili nell\'ambiente <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh](Mesh_Workbench/it.md).

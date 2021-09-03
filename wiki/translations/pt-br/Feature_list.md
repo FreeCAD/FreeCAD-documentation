@@ -5,7 +5,7 @@ Esta é uma extensa, mas incompleta, lista de recursos que o FreeCAD disponibili
 
 {{TOCright}}
 
-## Notas de lançamento {#notas_de_lançamento}
+## Notas de lançamento 
 
 
 <div class="mw-translate-fuzzy">
@@ -24,7 +24,7 @@ Esta é uma extensa, mas incompleta, lista de recursos que o FreeCAD disponibili
 
 </div>
 
-## Recursos Principais {#recursos_principais}
+## Recursos Principais 
 
 
 <div class="mw-translate-fuzzy">
@@ -47,7 +47,7 @@ Esta é uma extensa, mas incompleta, lista de recursos que o FreeCAD disponibili
 
 <div class="mw-translate-fuzzy">
 
-## Recursos gerais: {#recursos_gerais}
+## Recursos gerais: 
 
 
 </div>
@@ -114,11 +114,11 @@ Esta é uma extensa, mas incompleta, lista de recursos que o FreeCAD disponibili
 
 -   **instalador MSI modular**. O instalador do FreeCAD permite instalações flexíveis em sistemas Windows. Os pacotes para sistemas Ubuntu também são mantidos.
 
-## Em desenvolvimento {#em_desenvolvimento}
+## Em desenvolvimento 
 
 -   ![](images/Feature-assembly.jpg ) Um módulo [ Assembly](Assembly_project/pt-br.md) que permite trabalhar com vários projetos, várias formas, vários documentos, vários arquivos, vários relacionamentos\... Este módulo está atualmente em estado de planejamento.
 
-## Bancadas de trabalho extra {#bancadas_de_trabalho_extra}
+## Bancadas de trabalho extra 
 
 Usuários avançados criaram várias [bancadas de trabalho externas](external_workbenches/pt-br.md) personalizadas.
 

@@ -25,7 +25,7 @@ The 2PointCenterLine tool adds a centerline between two Vertices (Points).
 
 To delete a Centerline, select it and use the toolbar button **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md)**.
 
-## Editing Centerlines {#editing_centerlines}
+## Editing Centerlines 
 
 Any of the centerline command buttons ( **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> [Add Centerline to Face(s)](TechDraw_FaceCenterLine.md)**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Add Centerline between 2 Lines](TechDraw_2LineCenterLine.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> Add Centerline between 2 Points**) can be used to edit any centerline.
 

@@ -27,7 +27,7 @@ L\'outil FaceCenterLine ajoute une ligne médiane à une ou plusieurs faces.
 
 Pour supprimer une ligne médiane, sélectionnez-la et utilisez le bouton de la barre d\'outils **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)**.
 
-## Modification des lignes centrales {#modification_des_lignes_centrales}
+## Modification des lignes centrales 
 
 N\'importe quel bouton de commande de ligne centrale (**<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Ajouter une ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Ajouter une ligne centrale entre 2 pointss](TechDraw_2PointCenterLine/fr.md)**) peut être utilisé pour éditer n\'importe quelle ligne centrale.
 

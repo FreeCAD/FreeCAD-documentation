@@ -13,9 +13,9 @@ Avec Scripting, nous entendons créer des objets topologiques à l\'aide de l\'i
 
 Malheureusement, les informations sur les scripts dans la documentation, et même dans ce wiki sont éparpillées et manquent d\'uniformité \"d\'écriture\" et la plupart d\'entre elles sont expliquées d\'une manière trop technique.
 
-## Vous ouvrir l\'appétit {#vous_ouvrir_lappétit}
+## Vous ouvrir l\'appétit 
 
-Le premier obstacle d\'une manière simple à la création de scripts est qu\'il n\'y a pas de moyen direct d\'accéder à l\'éditeur Python interne de FreeCAD via un élément de menu ou une icône dans la zone de la barre d\'outils, mais sachant que FreeCAD ouvre un fichier avec un `.py ` dans l\'éditeur Python interne, l\'astuce la plus simple est de créer dans votre éditeur de texte préféré, puis de l\'ouvrir avec la commande habituelle {{MenuCommand|Fichier → Ouvrir}}.
+Le premier obstacle d\'une manière simple à la création de scripts est qu\'il n\'y a pas de moyen direct d\'accéder à l\'éditeur Python interne de FreeCAD via un élément de menu ou une icône dans la zone de la barre d\'outils, mais sachant que FreeCAD ouvre un fichier avec un `.py ` dans l\'éditeur Python interne, l\'astuce la plus simple est de créer dans votre éditeur de texte préféré, puis de l\'ouvrir avec la commande habituelle **Fichier → Ouvrir**.
 
 Pour faire les choses d\'une manière polie, le fichier doit être écrit avec un certain ordre, l\'éditeur Python FreeCAD a une bonne \"Syntaxe HIghlighting\" qui manque dans de nombreux éditeurs simples comme le Notepad Windows ou certains éditeurs Linux de base, il suffit donc d\'écrire ces quelques lignes:
 
@@ -112,7 +112,7 @@ Vous verrez des choses magiques, un nouveau document est ouvert nommé \"Pippo\"
 
 ![Test Cube](images/Cubo.png )
 
-## Quelque chose en plus\... {#quelque_chose_en_plus...}
+## Quelque chose en plus\... 
 
 Pas trop étonnant? Oui, mais il faut commencer quelque part, on peut faire la même chose avec un [Cylindre](Part_Cylinder/fr.md), ajouter ces lignes de code après la méthode `cubo(` et avant la ligne `# objects definition`.
 

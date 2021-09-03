@@ -105,7 +105,7 @@ Um die Geometrie in eine gewöhnliche feste Form unserer Tanks umzuwandeln und u
 
 Wir können erstellte Kästen, die wir nicht mehr benötigen, löschen.
 
-### Generierung von Tankinstanzen {#generierung_von_tankinstanzen}
+### Generierung von Tankinstanzen 
 
 Wenn du [FreeCAD Schiffsmodul](Ship_Workbench/de.md) ein anderes Mal neu lädst, können wir ein Werkzeug zum Generieren von Tankinstanzen finden.
 
@@ -135,7 +135,7 @@ Ansicht erzeugter Gewichte.
 
 Die Abbildung zeigt unser Schiffsergebnis, das wir berechnen werden.
 
-### GZ Kurven Berechnung {#gz_kurven_berechnung}
+### GZ Kurven Berechnung 
 
 Der Schiffs Arbeitsbereich bietet ein Werkzeug zur einfachen Berechnung einer \'\'GZ\' Kurve.
 

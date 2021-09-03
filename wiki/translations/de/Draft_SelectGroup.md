@@ -18,7 +18,7 @@ Der Befehl arbeitet momentan nicht gut mit Ebenen und kann verwirrende Ergebniss
 
 <div class="mw-translate-fuzzy">
 
-## Anwendung {#anwendung_1}
+## Anwendung 
 
 1.  Wähle eine oder mehrere Gruppen in der Baumansicht
 2.  Drücke den **<img src="images/Draft_SelectGroup.png" width=16px> [Wähle Gruppe](Draft_SelectGroup/de.md)**-Button

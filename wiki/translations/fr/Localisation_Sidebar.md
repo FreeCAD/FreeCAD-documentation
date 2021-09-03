@@ -2,7 +2,7 @@
 
 La barre latérale est un outil de navigation important dans le monde wiki, voir [Manuel: Interface/Barre latérale](http://www.mediawiki.org/wiki/Manual:Interface/Sidebar/fr) pour plus d\'informations.
 
-## Traduire la barre latérale {#traduire_la_barre_latérale}
+## Traduire la barre latérale 
 
 La barre latérale est maintenant entièrement traduisible avec [l\'extension Traduction](http://www.mediawiki.org/wiki/Help:Extension:Translate), qui est disponible dans toutes les pages du wiki.
 
@@ -14,7 +14,7 @@ Vous pouvez aller à la page [Special:Translate/wiki-sidebar](Special:Translate/
 
 Il y a un bug avec la page de téléchargement. Vous ne pouvez pas rediriger le lien vers \"Download/fr\", ou \"Download/de\", etc. Au lieu de cela, le lien pointe vers la traduction de \"Download\" dans votre propre langue. La meilleure façon de traiter ce point est de créer cette nouvelle page et de rediriger celle-ci vers la bonne page. Plus d\'information à propos des redirections sur [Help:Editing](Help:Editing.md).
 
-## Remarques importantes {#remarques_importantes}
+## Remarques importantes 
 
 La plupart du temps, il y aura deux chaînes de caractères pour chaque item de la barre latérale.
 

@@ -55,7 +55,7 @@ Questo ambiente è facile da installare e aggiornare dal [Addon Manager](Addon_M
 
 </div>
 
-## Strumenti Frame {#strumenti_frame}
+## Strumenti Frame 
 
 
 <div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
@@ -227,7 +227,7 @@ Se le entità sono preselezionate prima di chiamare questo comando, la prima ent
 
 Strumento per regolare l\'angolo tra le travi di strutture. Per capire al meglio come funziona, fare riferimento al tutorial precedente.
 
-## Strumenti Pype {#strumenti_pype}
+## Strumenti Pype 
 
 
 <div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
@@ -543,7 +543,7 @@ Apre una finestra di dialogo per calcolare le perdite di carico attraverso le pa
     -   [Flamingo GitHub issue queue](https://github.com/oddtopus/flamingo/issues)
     -   [Dodo GitHub issue queue](https://github.com/oddtopus/dodo/issues)
 
-## Altri link utili {#altri_link_utili}
+## Altri link utili 
 
 
 <div class="mw-translate-fuzzy">
@@ -555,7 +555,7 @@ Apre una finestra di dialogo per calcolare le perdite di carico attraverso le pa
 
 </div>
 
-## Ambienti esterni {#ambienti_esterni}
+## Ambienti esterni 
 
 Gli ambienti di lavoro per FreeCAD sono facilmente programmabili in [Python](Python/it.md), quindi ci sono molte persone che stanno sviluppando degli ambienti aggiuntivi al di fuori del codice di base di FreeCAD.
 

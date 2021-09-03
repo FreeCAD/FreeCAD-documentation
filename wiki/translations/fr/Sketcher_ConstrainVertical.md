@@ -18,7 +18,7 @@ Permet de créér une contrainte de verticalité sur les lignes ou segments de p
 2.  Pour lancer la commande de contrainte verticale :
     -   Appuyez sur l\'icône **<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Contrainte verticale](Sketcher_ConstrainVertical/fr.md)**.
     -   Utilisez le raccourci clavier **V**
-    -   Utilisez l\'entrée {{MenuCommand|Sketch → Contraintes d'esquisse → Contraindre verticalement}} dans le menu déroulant Sketch
+    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → Contraindre verticalement** dans le menu déroulant Sketch
 3.  Alternativement, l\'outil peut être démarré sans sélection préalable et il attendra une sélection mais seules les lignes seront sélectionnables.
 4.  Faites un clic droit ou appuyez une fois sur **Echap** pour quitter l\'outil.
 

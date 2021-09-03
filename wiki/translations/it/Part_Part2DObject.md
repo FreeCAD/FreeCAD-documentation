@@ -33,7 +33,7 @@ Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono a
 
 Un [Part Part2DObject](Part_Part2DObject/it.md) (classe `Part::Part2DObject`) è derivato da una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`), pertanto condivide tutte le proprietà di quest\'ultimo.
 
-Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), Part Part2DObject ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando {{MenuCommand|Mostra tutto}} nel menu contestuale dell\'[editor delle proprietà](property_editor/it.md).
+Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), Part Part2DObject ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell\'[editor delle proprietà](property_editor/it.md).
 
 ### Dati
 
@@ -50,7 +50,7 @@ Le seguenti due proprietà sono normalmente nascoste. Diventano visibili una vol
 
 -    **Attachment Offset|Placement**: la posizione dell\'oggetto nella [vista 3D](3D_view/it.md), rispetto al posizionamento dell\'oggetto associato. Il posizionamento è definito da un punto `Base` (vettore), e una `Rotation` (asse e angolo). Vedere [Posizionamento](Placement/it.md).
 
-#### Proprietà dati nascoste {#proprietà_dati_nascoste}
+#### Proprietà dati nascoste 
 
 
 {{TitleProperty|Base}}
@@ -81,7 +81,7 @@ Le seguenti due proprietà sono normalmente nascoste. Diventano visibili una vol
 
 -    **Tight Grid|Bool**: se è `True` (default) la griglia locale è localizzata attorno all\'origine della forma, altrimenti si estende oltre.
 
-#### Proprietà vista nascoste {#proprietà_vista_nascoste}
+#### Proprietà vista nascoste 
 
 
 {{TitleProperty|Base}}

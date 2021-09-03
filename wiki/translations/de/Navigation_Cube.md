@@ -62,13 +62,13 @@ Wenn du auf eine der Ecken klickst, erhältst du eine axonometrische Ansicht von
 
 In unteren rechten Ecke des Navigationswürfels befindet sich ein kleiner Würfel. Der Typ der Ansicht (orthographic, perspektivisch oder isometrisch) kann in einem Menü geändert werden, wenn man auf diesen Würfel klickt. Damit wird auch die Ansicht auf die Fenstergröße angepasst.
 
-## Verschieben der Navigationswürfeldarstellung {#verschieben_der_navigationswürfeldarstellung}
+## Verschieben der Navigationswürfeldarstellung 
 
 Du kannst die gesamte Navigationswürfelkontrollstruktur an eine andere Stelle in der 3D Darstellung verschieben, indem du die Maus an einer beliebigen Stelle im Hauptnavigationswürfels drückst und ziehst. Die Struktur beginnt sich erst dann zu bewegen, wenn der Mauszeiger den Rand des Hauptnavigationswürfels hinter sich gelassen hat.
 
 ## Konfiguration
 
-Der Navigationswürfel ist konfigurierbar, einschließlich der Anpassung seiner Größe: {{MenuCommand|Bearbeiten → Einstellungen... → Anzeige → Navigation → Navigationswürfel}} {{Version/de|0.19}}.
+Der Navigationswürfel ist konfigurierbar, einschließlich der Anpassung seiner Größe: **Bearbeiten → Einstellungen... → Anzeige → Navigation → Navigationswürfel** {{Version/de|0.19}}.
 
 Für eine erweiterte Konfiguration beziehe dich auf das [WürfelMenü](Interface_Customization/de#CubeMenu.md) [externe Arbeitsbereiche](External_workbenches/de.md).
 

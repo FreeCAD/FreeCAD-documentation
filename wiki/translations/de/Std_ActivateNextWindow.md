@@ -15,12 +15,12 @@ Der **Std NächstesFensterAktivieren**-Befehl aktiviert das nächste Fenster im 
 
 1.  Der Hauptansichtsbereich muss wenigstens zwei Fenster enthalten.
 2.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Wähle die {{MenuCommand|Fenster → <img src="images/Std_ActivateNextWindow.svg" width=16px> Nächstes Fenster}}-Option aus dem Menü.
+    -   Wähle die **Fenster → <img src="images/Std_ActivateNextWindow.svg" width=16px> Nächstes Fenster**-Option aus dem Menü.
     -   Benutze den Tastaturkurzbefehl: **Strg**+**Tab**.
 
 ## Hinweise
 
-Fenster im Hauptansichtsbereich sind auch im {{MenuCommand|Fenster}}-Menü aufgeführt und können von dort aktiviert werden.
+Fenster im Hauptansichtsbereich sind auch im **Fenster**-Menü aufgeführt und können von dort aktiviert werden.
 
 
 

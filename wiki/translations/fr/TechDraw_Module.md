@@ -222,7 +222,7 @@ Les outils d\'annotation permettent de \"marquer\" un dessin avec des informatio
 
 </div>
 
-## Extension Package {#extension_package}
+## Extension Package 
 
 The Extension Package includes many useful tools to improve your TechDraw drawings.
 
@@ -235,7 +235,7 @@ The Extension Package includes many useful tools to improve your TechDraw drawin
 -   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_Extension_ThreadBoltSide.md): adds a symbolic thread at a side seen bolt. <small>(v0.20)</small> 
 -   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_Extension_ThreadBoltBottom.md): adds a symbolic thread at a bottom seen bolt. <small>(v0.20)</small> 
 
-## Fonctions additionnelles {#fonctions_additionnelles}
+## Fonctions additionnelles 
 
 -   [Groupes de lignes](TechDraw_LineGroup/fr.md) : pour contrôler l\'apparence de divers types de lignes.
 -   [Modèles](TechDraw_Templates/fr.md) : modèles par défaut définis pour les pages de dessin.

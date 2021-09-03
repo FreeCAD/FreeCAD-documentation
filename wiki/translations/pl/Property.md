@@ -6,7 +6,7 @@
 
 Właściwości odgrywają bardzo ważną rolę w FreeCAD. Ponieważ obiekty w FreeCAD są **parametryczne**, oznacza to, że ich zachowanie jest definiowane przez ich właściwości, i jak te właściwości są wykorzystywane jako dane wejściowe dla ich metod klasowych. Zobacz również [wskaźnik właściwości:\_InList\_ oraz\_OutList](PropertyLink:_InList_and_OutList/pl.md)
 
-## Wszystkie rodzaje właściwości {#wszystkie_rodzaje_właściwości}
+## Wszystkie rodzaje właściwości 
 
 Niestandardowe [obiekty skryptowe](scripted_objects.md) mogą używać dowolnych typów właściwości zdefiniowanych w systemie bazowym: 
 ```python
@@ -67,7 +67,7 @@ obj.addProperty("App::PropertyFloat", "Height")
 
 Wskazuje to obiekt o trzech właściwościach typu **Float**, nazwanych odpowiednio Długość, Szerokość i Wysokość.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Zobacz również:**
@@ -94,7 +94,7 @@ Niemniej jednak, właściwości **widoku** można również przypisać za pomoc�
 obj.ViewObject.addProperty("App::PropertyBool", "SuperVisibility", "Base", "Make the object glow")
 ```
 
-## Kod źródłowy {#kod_źródłowy}
+## Kod źródłowy 
 
 W kodzie źródłowym właściwości znajdują się w różnych plikach {{FileName|src/App/Property*}}.
 

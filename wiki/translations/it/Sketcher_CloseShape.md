@@ -14,7 +14,7 @@ Questo strumento può essere usato in Sketcher per chiudere un contorno selezion
 2.  Richiamare il comando in uno di questi modi:
     -   Cliccare sul pulsante **<img src=images/Sketcher_CloseShape.svg style="width:16px"> Chiudi la forma** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **Ctrl** + **Maiusc** + **S**.
-    -   Usare la voce {{MenuCommand|Sketch → Strumenti → <img src=images/Sketcher_CloseShape.svg style="width:16px"> Chiudi la forma}} dal menu principale.
+    -   Usare la voce **Sketch → Strumenti → <img src=images/Sketcher_CloseShape.svg style="width:16px"> Chiudi la forma** dal menu principale.
 
 ## Note
 

@@ -7,7 +7,7 @@
 
 FreeCAD может импортироваться как модуль [Python](Python/ru.md) в другие программы или в автономную консоль python, вместе со всеми модулями и компонентами. Можно даже импортировать пользовательский интерфейс FreeCAD как модуль python, но с [некоторыми ограничениями](Embedding_FreeCAD/ru#Caveats.md).
 
-## Использование FreeCAD без GUI {#использование_freecad_без_gui}
+## Использование FreeCAD без GUI 
 
 
 <div class="mw-translate-fuzzy">
@@ -119,7 +119,7 @@ sys.path.append(FREECADPATH)
 
 checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the GUI.
 
-## Использование FreeCAD с GUI {#использование_freecad_с_gui}
+## Использование FreeCAD с GUI 
 
 Начиная с версии 4.2, Qt обладает интегрирующей способностью встраивать Qt-GUI-зависящие плагины в не-Qt главные приложения и распространять как привязки к главному приложению.
 

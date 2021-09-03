@@ -53,10 +53,10 @@ This tutorial uses the notation {{Value|(x, y, z)}} to denote the coordinates re
 
 </div>
 
-1\. Open FreeCAD, create a new empty document with {{MenuCommand|File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)}}.
+1\. Open FreeCAD, create a new empty document with **File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
 
-:   1.1. Switch to the <img src=images/Workbench_Draft.svg style="width:Draft Workbench](Draft_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu {{MenuCommand|View → Workbench → [16px"> Draft}}.
-:   1.2. Make sure you understand how to use the [property editor](property_editor.md), particularly the {{MenuCommand|Data}} and {{MenuCommand|View}} tabs to change the properties. When changing properties, you may have to do a **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** action to see the result in the [3D view](3D_view.md).
+:   1.1. Switch to the <img src=images/Workbench_Draft.svg style="width:Draft Workbench](Draft_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **View → Workbench → [16px"> Draft**.
+:   1.2. Make sure you understand how to use the [property editor](property_editor.md), particularly the **Data** and **View** tabs to change the properties. When changing properties, you may have to do a **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** action to see the result in the [3D view](3D_view.md).
 :   1.3. Since the Draft objects are planar shapes, they are better viewed from the top. Use **<img src=images/Std_ViewTop.svg style="width:16px"> [View top](Std_ViewTop.md)** to set the [3D view](3D_view.md).
 :   1.4. Although it is not used in this tutorial, the Draft grid is helpful to position geometrical elements. Use **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_ToggleGrid.svg style="width:SelectPlane](Draft_SelectPlane.md)** to set both the working plane and the grid, and then show and hide the grid with **[16px"> [Toggle grid](Draft_ToggleGrid.md)**.
 
@@ -95,7 +95,7 @@ Note que você pode alterar a visibilidade da **Grelha** neste menu, no caso de 
 
 <div class="mw-translate-fuzzy">
 
-#### Usando Planos {#usando_planos}
+#### Usando Planos 
 
 Os planos são usados para restringir o comportamento das ferramentas Rascunho para um plano específico, evitando-se problemas com a localização de pontos e curvas em peças complexas. Os planos podem referenciar os eixos do sistema de coordenadas **(XY, YZ, \...)**, ou podem utilizar uma superfície plana no documento como referência.
 
@@ -118,7 +118,7 @@ Before pressing the button, you can also change the value of the offset in milli
 
 <div class="mw-translate-fuzzy">
 
-##### Linhas e arcos {#linhas_e_arcos}
+##### Linhas e arcos 
 
 1.  Seleccione ![](images/Draft_Arc.png ) [Arco](Draft_Arc.md).
 2.  Defina o \'\' centro\'\' em \'\' \'(0, 0, 0)\' \'\'
@@ -151,7 +151,7 @@ Repetir o mesmo procedimento para um segundo arco com um raio de 25 mm, as outra
 <img alt="" src=images/01_Dr01_Draft_Arc_profile.png  style="width:" height="400px;"> 
 *Closed profile created by two arcs and two lines.*
 
-## Fusing or compounding {#fusing_or_compounding}
+## Fusing or compounding 
 
 
 <div class="mw-translate-fuzzy">
@@ -178,7 +178,7 @@ Temos agora várias curvas que detalham um perfil, no entanto, ainda não é rec
 
 <div class="mw-translate-fuzzy">
 
-##### Planes, retângulos e círculos {#planes_retângulos_e_círculos}
+##### Planes, retângulos e círculos 
 
 1.  Clique ![](images/Draft_Rectangle.png ) [ Retângulo](Draft_Rectangle.md)
 2.  Defina o primeiro ponto \'\' \'(-100, -60, 0)\' \'\'
@@ -191,7 +191,7 @@ Temos agora várias curvas que detalham um perfil, no entanto, ainda não é rec
 
 :   7.1. Press **<img src=images/Draft_Rectangle.svg style="width:16px"> [Rectangle](Draft_Rectangle.md)**.
 :   7.2. Enter the values of the first point {{Value|(-100, -60, 0)}}, and press **Enter**.
-:   7.3. Make sure the {{MenuCommand|Relative}} option is unchecked, as we will use absolute units. You may press **R** in the keyboard to quickly toggle this option on and off.
+:   7.3. Make sure the **Relative** option is unchecked, as we will use absolute units. You may press **R** in the keyboard to quickly toggle this option on and off.
 :   7.4. Enter the values for the second point {{Value|(140, 90, 0)}}, and press **Enter**.
 
 
@@ -265,7 +265,7 @@ The array object shows copies of the object around the origin.
 
 <div class="mw-translate-fuzzy">
 
-#### Adicionando Dimensões {#adicionando_dimensões}
+#### Adicionando Dimensões 
 
 Dimensões requerem um uso constante de \'\' Restrições de agarramento \'\' \'\' para selecionar adequadamente os pontos que se deseja dimensionar. A \'\' \'da barra de ferramentas de agarramento\' \'\' é utilizado para alterar os pontos possíveis que podem ser seleccionados.
 
@@ -304,7 +304,7 @@ Remember to adjust the **Font Size**, and other properties to see the dimension 
 
 <div class="mw-translate-fuzzy">
 
-#### Anotações e Texto {#anotações_e_texto}
+#### Anotações e Texto 
 
 Existe uma pequena diferença entre os dois: só é possível usar o segundo como um perfil para executar operações 3D.
 
@@ -347,7 +347,7 @@ To extrude letters and engrave them on to solids, see the [Draft ShapeString tut
 
 <div class="mw-translate-fuzzy">
 
-#### Criando Blueprints {#criando_blueprints}
+#### Criando Blueprints 
 
 Para criar os modelos, é necessário criar um \'\' \'Desenho\' \'\' com os elementos que você deseja usar. Por favor, leia o [Drawing tutorial](Drawing_tutorial.md) para uma descrição detalhada.
 

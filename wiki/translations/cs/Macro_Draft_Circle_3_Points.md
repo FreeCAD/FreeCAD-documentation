@@ -102,7 +102,7 @@ else:
 
 }}
 
-## Vylepšená verze {#vylepšená_verze}
+## Vylepšená verze 
 
 Navíc k předcházejícímu makru, je tento příklad použit k vyrovnání kolmé kružnice ke každému tvaru ve výběru a je vybrán plán \"\'XY, YZ, XZ \' \' . Kružnice přebírá barvu od přiřazené osy bez ohledu na aktuálně vybranou barvu, a střed kružnice je vykreslen (volba O/N).
 
@@ -265,7 +265,7 @@ else:
 
 }}
 
-## Anaglyph (3D pohled) {#anaglyph_3d_pohled}
+## Anaglyph (3D pohled) 
 
 Zde je 3D pohled, který Vám umožňuje vidět 2 různé pozice pohledu použitím brýlí s filtry červené a cyan barvy <img alt="" src=images/Anaglyph_Tango.png  style="width:24px;">. Dívejte se střídavě levým a pravým okem abyste viděli pohledy samostatně.
 

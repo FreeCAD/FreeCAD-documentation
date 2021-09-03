@@ -51,7 +51,7 @@ This tolerance is also used by the **Find**/**Fix** process.
 
 通过选择\"Ignore construction geometry\"复选框在分析过程中忽略造型几何图形。
 
-### Invalid constraints {#invalid_constraints}
+### Invalid constraints 
 
 
 <div class="mw-translate-fuzzy">
@@ -67,7 +67,7 @@ For example, if there is a Circle-Line-Tangent constraint, but it references two
 
 It also does other checks, such as for empty links.
 
-### Degenerated geometry {#degenerated_geometry}
+### Degenerated geometry 
 
 Degenerated geometry can result from solver actions in a sketch.
 
@@ -75,7 +75,7 @@ For instance, if a line is forced to shorten to become almost a point.
 
 Other examples: a zero length line or zero radius circle/arc.
 
-### Reversed external geometry {#reversed_external_geometry}
+### Reversed external geometry 
 
 
 <div class="mw-translate-fuzzy">
@@ -87,7 +87,7 @@ Other examples: a zero length line or zero radius circle/arc.
 
 This process might be helpful if sketches with external-geometry fail to solve because of these changes.
 
-### Constraint orientation locking {#constraint_orientation_locking}
+### Constraint orientation locking 
 
 
 <div class="mw-translate-fuzzy">

@@ -98,7 +98,7 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 The [Bill Of Material](Arch_Rebar_BOM.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
-### Create Bill Of Material Spreadsheet {#create_bill_of_material_spreadsheet}
+### Create Bill Of Material Spreadsheet 
 
 
 ```python
@@ -273,7 +273,7 @@ BillOfMaterial_Spreadsheet.makeBillOfMaterial(
 
 ```
 
-### Create Bill Of Material SVG {#create_bill_of_material_svg}
+### Create Bill Of Material SVG 
 
 
 ```python
@@ -370,7 +370,7 @@ makeBillOfMaterialSVG(
 
 -    `return_svg_only`specifies if the `BOMContent` object is to be created or not. If `return_svg_only` is True, then neither `BOMContent` object is created nor SVG is written to `output_file`. And it returns the SVG element.
 
-#### Example {#example_1}
+#### Example 
 
 
 ```python

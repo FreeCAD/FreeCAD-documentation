@@ -12,11 +12,11 @@ The **Std ViewIvStereoRedGreen** command changes the active [3D view](3D_view.md
 
 ## Usage
 
-1.  Select the {{MenuCommand|View → Stereo → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stereo red/cyan}} option from the menu.
+1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stereo red/cyan** option from the menu.
 
 ## Preferences
 
--   The eye to eye distance can be changed in the preferences: {{MenuCommand|Edit → Preferences... → Display → 3D View → Eye to eye distance for stereo modes}}. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   The eye to eye distance can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Eye to eye distance for stereo modes**. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 ## Scripting
 

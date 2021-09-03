@@ -12,7 +12,7 @@ The **Std SaveCopy** command saves a copy of the active document under a new fil
 
 ## Usage
 
-1.  Select the {{MenuCommand|File → <img src="images/Std_SaveCopy.svg" width=16px> Save a Copy...}} option from the menu.
+1.  Select the **File → <img src="images/Std_SaveCopy.svg" width=16px> Save a Copy...** option from the menu.
 2.  Enter a filename in the dialog box.
 3.  Press the **Save** button.
 
@@ -22,7 +22,7 @@ The **Std SaveCopy** command saves a copy of the active document under a new fil
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 

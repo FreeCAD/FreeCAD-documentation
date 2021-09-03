@@ -12,7 +12,7 @@ Applica una velocità del flusso come condizione al contorno a un bordo in 2D o 
 
 <div class="mw-translate-fuzzy">
 
-1.  Cliccare su <img alt="" src=images/Fem-constraint-flow-velocity.svg  style="width:24px;"> o scegliere {{MenuCommand|Modello → Vincoli dei fluidi  →  **<img src="images/Fem-constraint-flow-velocity.svg" width=20px> Vincolo velocità del flusso**}} dal menu.
+1.  Cliccare su <img alt="" src=images/Fem-constraint-flow-velocity.svg  style="width:24px;"> o scegliere **Modello → Vincoli dei fluidi  →  **<img src="images/Fem-constraint-flow-velocity.svg" width=20px> Vincolo velocità del flusso**** dal menu.
 2.  Il [pannello delle azioni](task_panel/it.md) visualizzerà i menu per vincolare la velocità del flusso.
 
     :   ![](images/FEM-constraint-flow-velocity_task-panel.png )

@@ -10,7 +10,7 @@
 
 ## Predstavljanje
 
-The <img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> <img src=images/Part_Builder.svg style="width:Surface Workbench](Surface_Workbench.md) provides tools to create and modify simple [NURBS surfaces](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline). These tools have a similar functionality to the **[16px"> <img src=images/PartDesign_AdditiveLoft.svg style="width:Part Builder](Part_Builder.md)** tool when the {{MenuCommand|Face from edges}} option is used. However, unlike that tool, the tools of the Surface Workbench are parametric and provide additional options. In this respect, the tools in this workbench are similar to **[16px"> <img src=images/PartDesign_AdditivePipe.svg style="width:PartDesign AdditiveLoft](PartDesign_AdditiveLoft.md)** and **[16px"> [PartDesign AdditivePipe](PartDesign_AdditivePipe.md)**.
+The <img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> <img src=images/Part_Builder.svg style="width:Surface Workbench](Surface_Workbench.md) provides tools to create and modify simple [NURBS surfaces](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline). These tools have a similar functionality to the **[16px"> <img src=images/PartDesign_AdditiveLoft.svg style="width:Part Builder](Part_Builder.md)** tool when the **Face from edges** option is used. However, unlike that tool, the tools of the Surface Workbench are parametric and provide additional options. In this respect, the tools in this workbench are similar to **[16px"> <img src=images/PartDesign_AdditivePipe.svg style="width:PartDesign AdditiveLoft](PartDesign_AdditiveLoft.md)** and **[16px"> [PartDesign AdditivePipe](PartDesign_AdditivePipe.md)**.
 
 Some of the features provided are:
 

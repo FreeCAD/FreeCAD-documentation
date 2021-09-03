@@ -20,9 +20,9 @@ Le problème est que la taille physique d\'un écran reste la même (de 21 à 32
 
 Pour résoudre ce problème, Apple a introduit le \"HiDPI\", c\'est-à-dire la mise à l\'échelle de tous les éléments de l\'interface utilisateur en fonction de la taille de la police. La taille des polices est spécifiée en points, tandis que leur valeur en pixels est calculée à l\'aide de la DPI et du ratio de pixels du périphérique, qui est un facteur d\'échelle spécifié par un utilisateur dans les paramètres du système d\'exploitation. Dans le même temps, les images tramées sont rendues à leur taille réelle en pixels, de sorte que les pixels individuels sont moins visibles. Cela signifie que les images tramées sont fournies à une résolution plus élevée pour compenser leur taille sur un écran. Les graphiques vectoriels (éléments de l\'interface utilisateur) sont rendus en conséquence, à une résolution plus élevée.
 
-## Plan directeur {#plan_directeur}
+## Plan directeur 
 
-### Première partie {#première_partie}
+### Première partie 
 
 Objectif: nous assurer que nous tirons le meilleur parti du support Qt.
 
@@ -30,7 +30,7 @@ Objectif: nous assurer que nous tirons le meilleur parti du support Qt.
 -   Mettre à l\'échelle tous les curseurs et icônes (en les multipliant par devicePixelRatio) <https://github.com/FreeCAD/FreeCAD/pull/3712>.
 -   Rendre tous les vecteurs graphiques de pixels ou disponibles à différentes densités de pixels .
 
-### Deuxième partie {#deuxième_partie}
+### Deuxième partie 
 
 Objectif: nous assurer que la police système est correctement déterminée.
 
@@ -41,7 +41,7 @@ Objectif: nous assurer que la police système est correctement déterminée.
 -   Redimensionner la taille de la barre d\'outils/de l\'icône en fonction du nouveau paramètre expérimental
 -   Recueillir les commentaires des utilisateurs pour savoir si nous avons besoin de la taille de l\'icône de la barre d\'outils personnalisable
 
-### Troisième partie {#troisième_partie}
+### Troisième partie 
 
 Objectif: rendre la taille de tous les widgets de l\'interface utilisateur par rapport à la taille de la police
 
@@ -52,7 +52,7 @@ Objectif: rendre la taille de tous les widgets de l\'interface utilisateur par r
 -   S\'assurer que les versions qreal des API sont utilisées.
 -   Désactiver AA\_EnableHighDpiScaling.
 
-### Quatrième partie {#quatrième_partie}
+### Quatrième partie 
 
 Objectif: prendre en charge le redimensionnement lorsque la fenêtre est déplacée d\'un écran à un autre
 
@@ -61,11 +61,11 @@ Objectif: prendre en charge le redimensionnement lorsque la fenêtre est déplac
 
 ## Contexte
 
-### Résolution d\'affichage {#résolution_daffichage}
+### Résolution d\'affichage 
 
 <img alt="" src=images/Vector_Video_Standards8.svg  style="width:800px;">
 
-### Ratio de pixels de l\'appareil {#ratio_de_pixels_de_lappareil}
+### Ratio de pixels de l\'appareil 
 
 C\'est un concept bien connu des développeurs Web et Android. Mais pas tant pour les développeurs de bureau.
 
@@ -90,9 +90,9 @@ Mais la réalité est que si vous utilisez des graphiques matriciels, ils devien
 -   <https://stackoverflow.com/questions/8785643/what-exactly-is-device-pixel-ratio>
 -   <https://stackoverflow.com/questions/13911786/what-is-device-pixel-ratio-for>
 
-## Problème de test/démonstration {#problème_de_testdémonstration}
+## Problème de test/démonstration 
 
-### OS X {#os_x}
+### OS X 
 
 1.  Ouvrez \"Affichage\"
 2.  Choisissez \"Échelle\".
@@ -100,7 +100,7 @@ Mais la réalité est que si vous utilisez des graphiques matriciels, ils devien
 
 Vidéo: <https://www.youtube.com/watch?v=4U3eh_fMo4o>
 
-### Window X {#window_x}
+### Window X 
 
 Commandes utiles:
 
@@ -119,13 +119,13 @@ Commandes utiles:
       dimensions:    3840x2160 pixels (1016x572 millimeters)
       resolution:    96x96 dots per inch
 
-### Ubuntu (Shell GNOME) {#ubuntu_shell_gnome}
+### Ubuntu (Shell GNOME) 
 
 1.  Ouvrez «Moniteurs» (Paramètres\> Périphériques\> Écrans)
 2.  Sélectionnez la plus haute résolution disponible
 3.  Sélectionnez une mise à l\'échelle supérieure à 100%
 
-## Problèmes et solutions {#problèmes_et_solutions}
+## Problèmes et solutions 
 
 -   Images matricielles (curseurs, icônes)
 -   Polices (définies en pixels plutôt qu\'en points)
@@ -134,7 +134,7 @@ Commandes utiles:
 -   Distance d\'accrochage
 -   Distance de sélection (la zone chaude autour des objets sélectionnables)
 
-### Taille de la police {#taille_de_la_police}
+### Taille de la police 
 
 Les polices sont généralement vectorielles. Elles n\'ont donc pas besoin d\'une version de résolution plus élevée pour pouvoir être mis à l\'échelle (en pixels). Cependant, nous ne pouvons pas simplement augmenter chaque taille de police et l\'appeler un jour. Les gens sont habitués à la taille des polices en fonction de leur apparence sur papier. Et sur le papier, on sait que la police 72pt prend un pouce, et sur les écrans d\'autrefois, un pouce était égal à 96 pixels au niveau de zoom 1:1.
 
@@ -142,7 +142,7 @@ Ainsi, à mesure que les résolutions d\'affichage augmentent, les écrans peuve
 
 Pour résoudre ce problème, le système d\'exploitation a mis en œuvre ce qu\'il a appelé la mise à l\'échelle DPI (ou les paramètres de police DPI dans les temps anciens) ou la mise à l\'échelle haute résolution des écrans 4K récents. Les utilisateurs pourraient changer le DPI et bénéficier de beaucoup plus d\'espace en termes de pixels tout en gardant une taille de police confortable à lire.
 
-### Taille du curseur personnalisée {#taille_du_curseur_personnalisée}
+### Taille du curseur personnalisée 
 
 La taille du curseur est un peu difficile. Qt recommande d\'utiliser une taille d\'image codée en dur de 32x32. À partir de 5.x, il ne fournit aucune fonctionnalité pour s\'intégrer au système d\'exploitation et interroger la taille du pointeur de la souris. C\'est dommage car cela signifie que vous ne pouvez pas bénéficier des paramètres d\'accessibilité, où la taille du curseur peut être définie sur une valeur arbitrairement grande.
 
@@ -159,7 +159,7 @@ Compte tenu du facteur d\'échelle, cela signifie la taille de pixel physique de
 
 Qt ne fournit pas la fonctionnalité pour récupérer cette valeur. Nous devons donc le coder en dur ou fournir un paramètre utilisateur pour le modifier.
 
-## Fils du forum {#fils_du_forum}
+## Fils du forum 
 
 -   [Améliorer la prise en charge des écrans haute résolution](https://forum.freecadweb.org/viewtopic.php?t=34916) - prise en charge générale de Qt
 -   [Actualités: Qt 5.14 apporte un support HiDPI nettement meilleur](https://forum.freecadweb.org/viewtopic.php?t=39325) - support général de Qt
@@ -178,7 +178,7 @@ Qt ne fournit pas la fonctionnalité pour récupérer cette valeur. Nous devons 
 -   [Navigation cube scaling](https://forum.freecadweb.org/viewtopic.php?f=3&t=42835)
 -   [Navigation cube scaling 2](https://forum.freecadweb.org/viewtopic.php?p=450061#p450061)
 
-## Changements importants {#changements_importants}
+## Changements importants 
 
 -    {{commit|a14b99e77}}
     
@@ -213,11 +213,11 @@ Qt ne fournit pas la fonctionnalité pour récupérer cette valeur. Nous devons 
 -    {{commit|7dfeb801a}}
     
 
-## Problèmes de Bugtracker {#problèmes_de_bugtracker}
+## Problèmes de Bugtracker 
 
 -   Tickets marqués avec [HiDPI](https://tracker.freecadweb.org/search.php?tag_string=HiDPI)
 
-## Références externes {#références_externes}
+## Références externes 
 
 -   <https://doc.qt.io/qt-5/highdpi.html>
 -   <https://doc.qt.io/qt-5/scalability.html>

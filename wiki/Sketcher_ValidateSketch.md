@@ -20,14 +20,14 @@ The **Validate sketch** utility can be used to analyze and repair a sketch that 
     -   Use the keyboard shortcut: **Esc** (if enabled in the [Sketcher Preferences](Sketcher_Preferences#General.md)).
 2.  Select the sketch to be validated from the [Tree view](Tree_view.md) or by clicking on one of its edges in the [3D view](3D_view.md).
 3.  To open the validate sketch utility do one of the following:
-    -   Select the {{MenuCommand|Sketch → Validate sketch...}} option from the menu.
+    -   Select the **Sketch → Validate sketch...** option from the menu.
     -   Press the **<img src=images/Sketcher_ValidateSketch.svg style="width:16px"> [Validate sketch](Sketcher_ValidateSketch.md)** button (not available in the [PartDesign Workbench](PartDesign_Workbench.md)).
 4.  See [Options](#Options.md) below for the available operations.
 5.  Press the **Close** button when done.
 
 ## Options
 
-### Missing coincidences {#missing_coincidences}
+### Missing coincidences 
 
 Finds out missing coincidences for overlapping vertices, and adds them. Press the **Find** button; a pop up dialog will appear to report how many missing coincidences were found; they will be shown in the 3D view as yellow crosses. Press **OK** to close the dialog, then press the **Fix** button to add the missing coincidences.
 
@@ -39,7 +39,7 @@ This tolerance is also used by the **Find**/**Fix** process.
 
 Leave the \"Ignore construction geometry\" checkbox checked to disregard construction geometry in the analysis.
 
-### Invalid constraints {#invalid_constraints}
+### Invalid constraints 
 
 Checks for malformed constraints.
 
@@ -49,7 +49,7 @@ For example, if there is a Circle-Line-Tangent constraint, but it references two
 
 It also does other checks, such as for empty links.
 
-### Degenerated geometry {#degenerated_geometry}
+### Degenerated geometry 
 
 Degenerated geometry can result from solver actions in a sketch.
 
@@ -57,13 +57,13 @@ For instance, if a line is forced to shorten to become almost a point.
 
 Other examples: a zero length line or zero radius circle/arc.
 
-### Reversed external geometry {#reversed_external_geometry}
+### Reversed external geometry 
 
 Reversed external geometry can happen because the handling of reversed geometry was changed around revision 0.15.
 
 This process might be helpful if sketches with external-geometry fail to solve because of these changes.
 
-### Constraint orientation locking {#constraint_orientation_locking}
+### Constraint orientation locking 
 
 Tangent and perpendicular constraints are implemented (via-point).
 

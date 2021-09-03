@@ -19,7 +19,7 @@ Appose un point sur un autre objet tel qu\'une ligne, un arc ou un axe d\'esquis
 3.  Lancez l\'outil **Contraindre le point sur l\'objet** par de plusieurs méthodes:
     -   Appuyez sur le bouton **<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Contrainte point sur objet](Sketcher_ConstrainPointOnObject.md)** dans la barre d\'outils.
     -   Utilisez le raccourci clavier **Maj** + **O**.
-    -   Utilisez l\'entrée {{MenuCommand|Sketch → Contraintes d'esquisse → Contrainte point sur objet}}.
+    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → Contrainte point sur objet**.
 
 **Remarque :** l\'ordre dans lequel vous sélectionnez la ligne et le point n\'a pas d\'importance. Le point ira toujours à la ligne. En d\'autres termes, la ligne reste fixe.
 

@@ -24,7 +24,7 @@ Această comandă va plasa un obiect Proxy în document, plasat și aliniat la a
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Asigurați-vă că [ Planul de lucru](Draft_SelectPlane.md) este setat așa cum doriți.
 2.  Apăsați Draft -\> Utilities -\> **<img src="images/Draft_SetWorkingPlaneProxy.png" width=16px> [Create WP Proxy](Draft_SetWorkingPlaneProxy.md)
@@ -33,13 +33,13 @@ Această comandă va plasa un obiect Proxy în document, plasat și aliniat la a
 
 </div>
 
-## Context menu {#context_menu}
+## Context menu 
 
 For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu:
 
--    {{MenuCommand|<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position}}: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
 
--    {{MenuCommand|<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state}}: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
 
 ## Notes
 
@@ -98,7 +98,7 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 
 -    **Visibility Map|Map|Hidden**: specifies the visibility state of objects.
 
-## Script-Programare {#script_programare}
+## Script-Programare 
 
 Obiectele proxy de lucru de lucru pot fi ușor create în script și [macros](macros.md):
 

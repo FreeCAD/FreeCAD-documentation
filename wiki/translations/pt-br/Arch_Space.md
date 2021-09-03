@@ -21,7 +21,7 @@ The Space tool allows you to define an empty volume, either by basing it on a so
 2.  Invoke the Arch Space command using several methods:
     -   Pressing the **<img src="images/Arch_Space.svg" width=16px> [[Arch Space]]** button in the toolbar.
     -   Using the **S** then **P** keyboard keys
-    -   Using the {{MenuCommand|Arch → Space}} entry from the top menu
+    -   Using the **Arch → Space** entry from the top menu
 
 ### Limitações
 

@@ -15,7 +15,7 @@ The **Std Save** command saves the active document.
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_Save.svg" width=16px> [Std Save](Std_Save.md)** button.
-    -   Select the {{MenuCommand|File → <img src="images/Std_Save.svg" width=16px> Save}} option from the menu.
+    -   Select the **File → <img src="images/Std_Save.svg" width=16px> Save** option from the menu.
     -   Use the keyboard shortcut: **Ctrl**+**S**.
 2.  For new documents: enter a filename in the dialog box and press the **Save** button.
 
@@ -29,7 +29,7 @@ The **Std Save** command saves the active document.
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 

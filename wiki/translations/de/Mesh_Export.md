@@ -16,8 +16,8 @@ Der Befehl **Polygonnetz Exportieren** exportiert ein Polygonnetzobjekt in ein P
 1.  Wähle ein einzelnes Netzobjekt aus.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke den **<img src="images/Mesh_Export.svg" width=16px> [Polygonnetz Exportieren](Mesh_Export/de.md)**.
-    -   Wähle die {{MenuCommand|Polygonnetze → <img src="images/Mesh_Export.svg" width=16px> Polygonnetz exportieren...}} aus dem Menü.
-    -   Wähle die {{MenuCommand|<img src="images/Mesh_Export.svg" width=16px> Polygonnetz exportieren...}} aus dem Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D Ansicht](3D_view/de.md).
+    -   Wähle die **Polygonnetze → <img src="images/Mesh_Export.svg" width=16px> Polygonnetz exportieren...** aus dem Menü.
+    -   Wähle die **<img src="images/Mesh_Export.svg" width=16px> Polygonnetz exportieren...** aus dem Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D Ansicht](3D_view/de.md).
 3.  Wähle im Dialogfeld das richtige Dateiformat aus.
 4.  Gib einen Dateinamen ein. Wenn du im vorherigen Schritt die Option {{Value|Alle Dateien (*.*)}} gewählt hast und hier keine Dateierweiterung angibst, wird die Erweiterung {{FileName|.stl}} verwendet.
 5.  Drücke die **Speichern** Schaltfläche.
@@ -28,7 +28,7 @@ Es gibt einige [Exporteinstellungen verwandt mit Polygonnetzformaten](Import_Exp
 
 ## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: {{MenuCommand|Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath}}.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
 
 ## Skripten
 

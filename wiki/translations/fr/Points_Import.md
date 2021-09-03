@@ -16,7 +16,7 @@ La commande **Points Importer** importe un nuage de points à partir d\'un fichi
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton <img alt="" src=images/Points_Import.svg  style="width:16px;"> [Importer les points](Points_Import/fr.md).
-    -   Utilisez l\'option {{MenuCommand|Points → <img src="images/Points_Import.svg" width=16px> Importer des points...}} depuis le menu.
+    -   Utilisez l\'option **Points → <img src="images/Points_Import.svg" width=16px> Importer des points...** depuis le menu.
 2.  Sélectionnez le fichier de nuage de points.
 3.  Appuyez sur le bouton **Ouvrir**.
 
@@ -24,14 +24,14 @@ La commande **Points Importer** importe un nuage de points à partir d\'un fichi
 
 Voir [Points Conversion](Points_Convert/fr.md).
 
-## Format du fichier du nuage de points {#format_du_fichier_du_nuage_de_points}
+## Format du fichier du nuage de points 
 
 -   Un fichier de nuage de points doit avoir l\'extension {{FileName|.asc}}, {{FileName|.pcd}} ou {{FileName|.ply}}.
 -   Chaque ligne du fichier doit lister les coordonnées X, Y et Z d\'un point.
 -   Les coordonnées doivent être séparées par des espaces.
 -   Les coordonnées doivent utiliser un point décimal, pas une virgule décimale.
 
-## Exemple de fichier de nuage de points {#exemple_de_fichier_de_nuage_de_points}
+## Exemple de fichier de nuage de points 
 
 0 0 0
 1.4562 -7.2354 12.2367

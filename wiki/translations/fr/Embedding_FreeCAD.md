@@ -7,7 +7,7 @@
 
 FreeCAD peut être importé en tant que module [Python](Python/fr.md) dans d\'autres programmes ou dans une console Python autonome, avec tous ses modules et composants. Il est même possible d\'importer l\'interface utilisateur de FreeCAD en tant que module python mais avec certaines restrictions indiquées dans [Avertissements](#Avertissements.md).
 
-## Utilisation de FreeCAD sans interface graphique (GUI) {#utilisation_de_freecad_sans_interface_graphique_gui}
+## Utilisation de FreeCAD sans interface graphique (GUI) 
 
 La première application, directe, facile et utile que vous pouvez faire est d\'importer des documents FreeCAD dans votre programme. Dans l\'exemple suivant, nous allons importer **Part geometry** d\'un document FreeCAD dans [blender](http://www.blender.org). Voici le script complet. J\'espère que vous serez impressionné par sa simplicité: {{Code|lang=python|code=
 <nowiki>
@@ -92,7 +92,7 @@ Bien sûr ce script est très simple (en fait j\'ai fait un [Importateur FreeCAD
 
 Consultez [FreeCAD sans interface graphique](Headless_FreeCAD/fr.md) pour exécuter FreeCAD sans l\'interface graphique.
 
-## Utilisation de FreeCAD avec interface graphique (GUI) {#utilisation_de_freecad_avec_interface_graphique_gui}
+## Utilisation de FreeCAD avec interface graphique (GUI) 
 
 Depuis la version 4.2 de Qt, Qt a la capacité d\'intégrer des plugins **Qt-GUI** dépendants d\'applications hôtes non-Qt, et, de partager la boucle évènementielle de l\'hôte.
 
@@ -127,7 +127,7 @@ Puisque le module Python de FreeCAD est compilé à partir de C ++ (plutôt que 
 '2.7.13 (default, Dec 17 2016, 23:03:43) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
 ```
 
-## En relation {#en_relation}
+## En relation 
 
 -   [FreeCAD sans interface graphique](Headless_FreeCAD/fr.md)
 

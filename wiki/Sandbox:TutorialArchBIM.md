@@ -15,7 +15,7 @@
 -   [Barão de Jaceguaí, 1151 - Campo Belo, São Paulo-SP (Google)](https://www.google.com/maps/place/Vilanova+Artigas/@-23.62048,-46.6751798,3a,75y,163.84h,67.09t/data=!3m8!1e1!3m6!1sAF1QipOpcWfw3qit1I979azjBmYbIrUqv_cMe593_e69!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOpcWfw3qit1I979azjBmYbIrUqv_cMe593_e69%3Dw203-h100-k-no-pi-17.99819-ya18.417234-ro1.3375344-fo100!7i5376!8i2688!4m13!1m7!3m6!1s0x94ce509f4a47bb0f:0xd7dfecff13fd4b4!2sRua+Bar%C3%A3o+Jaceguai,+1151+-+Campo+Belo,+S%C3%A3o+Paulo+-+SP,+04606-000,+Brasil!3b1!8m2!3d-23.6205562!4d-46.6751216!3m4!1s0x94ce509f497a12cd:0xe62a63ce23f77686!8m2!3d-23.62048!4d-46.6751798) With 30 images
 -   [Completed Freecad model by Wilson, as above image](https://github.com/FreeCAD/Examples/blob/master/at2_Examples/ref/2dReferenceComplete.fcstd)
 
-## Goal of this document {#goal_of_this_document}
+## Goal of this document 
 
 Update original [Arch Tutorial](Arch_tutorial.md) by [Yorik van Havre](http://yorik.uncreated.net/) .
 
@@ -35,7 +35,7 @@ Currently this document is **WORK in Progress**
 
 ### Conventions
 
-#### Example Files {#example_files}
+#### Example Files 
 
 Reference Files used in this tutorial are named as:
 
@@ -97,7 +97,7 @@ At the time of writing, the [Arch Workbench](Arch_Workbench.md), as the rest of 
 
 -   [Units](Units.md) are being implemented in FreeCAD, which will allow you to work with any unit you wish (even imperial units, you guys from the USA can be eternally grateful for this to Jürgen, FreeCAD\'s godfather and dictator). But at the moment the implementation is not complete, and the Arch workbench still doesn\'t support them. You must consider it \"unit-less\". This tutorial uses **millimeters** as units.
 
-## Typical workflows {#typical_workflows}
+## Typical workflows 
 
 In this tutorial we focus on a BIM oriented approach of using FreeCad. We will use mostly three workbenches: [Arch Workbench](Arch_Workbench.md) and BIM, of course, but also Draft, whose tools are all included in Arch, so there is no need to switch workbenches, and Sketcher. Conveniently, You can create a custom toolbar in your Arch workbench, with Tools → Customize, and add the tools from the sketcher that you use often.
 
@@ -121,7 +121,7 @@ After that, our file can be opened quite efficiently in FreeCAD. Check the diffe
 
 This is how the file looks after being opened in FreeCAD. In this example, thickness of walls were changed, and a couple of doors that were imported with wrong X scale were flipped, with the [Draft Scaletool](Draft_Scale.md).
 
-## Preparing dwg / dxf Alternative text {#preparing_dwg_dxf_alternative_text}
+## Preparing dwg / dxf Alternative text 
 
 For editing and exporting to dxf there are various free tools available. Like said before, one of free tools out there that works fine is [https://www.3ds.com/products-services/draftsight-cad-software/ DraftSight by Dassault](https://www.3ds.com/products-services/draftsight-cad-software/_DraftSight_by_Dassault.md).
 
@@ -137,7 +137,7 @@ Example files produced at various levels of this tutorial will be placed on [Git
 
 *For dxf files, they are placed in a directory named ./ref/dxf below the project directory. If You want to skip this step, the imported dxf files can be found here.*
 
-### Plan View {#plan_view}
+### Plan View 
 
 Start with importing and placing the Plan View.
 
@@ -175,7 +175,7 @@ There are no set rules for how to organize Your work. Having said that, planning
 
 Most of the guidelines or rules proposed here, are common to any CAD system.
 
-### As a minimum {#as_a_minimum}
+### As a minimum 
 
 **A defined project zero / origin -- with local x,y,z coordinates 0,0,0 shall be defined and used throughout the project.**
 
@@ -195,7 +195,7 @@ When modeling any Architectural model, You will most certainly want to split int
 
 For reference we have made the assumption that global Y-axis equals North.
 
-### Defining the Arch Axis System {#defining_the_arch_axis_system}
+### Defining the Arch Axis System 
 
 We now want to make an [ArchAxisSystem](Arch_Axis/en.md) for reference when modeling our building. The result will look something like this:
 
@@ -223,7 +223,7 @@ We also observe that the Eastern Columns are tangent to East wall of Studio. Thi
 
 Will reduce the distance between axis 10 and 11. Will try with 3550mm.
 
-#### Arch axis X  {#arch_axis_x}
+#### Arch axis X  
 
 Now, let's make the Axis along global X: The Freecad Command is [Arch Axis ](Arch_Axis.md)
 
@@ -231,7 +231,7 @@ Now, let's make the Axis along global X: The Freecad Command is [Arch Axis ](Arc
 
 Image shows Data and labels Used.
 
-#### Arch Y-Axis {#arch_y_axis}
+#### Arch Y-Axis 
 
 <img alt="" src=images/At2_AxisYCreate.png  style="width:800px;">
 
@@ -241,7 +241,7 @@ Image shows Data and labels Used.
 
 Observe the 270deg rotation and offset of placement to get labels to get desired layout.
 
-#### Combining to Axis System {#combining_to_axis_system}
+#### Combining to Axis System 
 
 Arch [AxisSystem](Arch_AxisSystem.md) is used to combine the x and y Arch Axis into an Arch Axis system.
 
@@ -249,11 +249,11 @@ Arch [AxisSystem](Arch_AxisSystem.md) is used to combine the x and y Arch Axis i
 
 If You save Your AxisSystem to a file, without any other geometry, it does not seem to open as the first file. FreeCad simply Crashes. However, not such a big deal, because if You open another file containing geometry first, then You are able to open the file containing only the AxisSystem without any problem. Strange??
 
-#### Axis System Forum posts {#axis_system_forum_posts}
+#### Axis System Forum posts 
 
 -   [Arch Axis question](https://forum.freecadweb.org/viewtopic.php?f=23&t=30938)
 
-## Placing and rotating 2d Views {#placing_and_rotating_2d_views}
+## Placing and rotating 2d Views 
 
 In order to place 2d views in 3d, we need to prepare some helper objects. In FreeCad we have several ways we can set-up, store and name [Working Planes](Draft_SelectPlane.md) . We can name these and store them by using a [WorkingPlaneProxy object](Draft_WorkingPlaneProxy.md).
 
@@ -265,7 +265,7 @@ You should end up with something looking like this
 
 By placing and rotating the imported 2d view, You will have a good way of checking their consistency.
 
-## Adding reference planes {#adding_reference_planes}
+## Adding reference planes 
 
 ![](images/At2_Fixme.gif )FIXME needs documenting
 
@@ -349,7 +349,7 @@ So, how to organize? Believe the main differing factor is Structural / Non Struc
 
 [Curtain Walls](https://en.wikipedia.org/wiki/Curtain_wall_(architecture)) are always Non Structural
 
-#### Joining Wall segments {#joining_wall_segments}
+#### Joining Wall segments 
 
 All Arch objects have a great feature: you can add one to another. Doing that will unite their geometries, but they are still editable independently after. To add one of our crossing walls to the other, just select one, CTRL + select the other, and press the Arch Add tool:
 
@@ -368,7 +368,7 @@ First, by looking at our 2D drawings, we can see that the highest point of the r
 
 To raise the height of our walls, simply select all of them (don\'t forget the one we added to the other) in the tree view, and change the value of their \"height\" property.
 
-#### Studio Elevation {#studio_elevation}
+#### Studio Elevation 
 
 Before making our roof and cutting the walls, let\'s make the remaining objects that will need to be cut: The walls of the above studio, and the columns.
 
@@ -401,7 +401,7 @@ Finally, I changed the color of some walls to a brick-like color (so it\'s easie
 
 We will show two different approaches to creating the Subtraction Volume, one drawing on 3d SouthEleveation, second drawing on plan View, rotating and moving.
 
-#### Approach one {#approach_one}
+#### Approach one 
 
 In this Approach we will draw and extrude with correct 3d location
 
@@ -415,7 +415,7 @@ In this Approach we will draw and extrude with correct 3d location
 
 <img alt="" src=images/At_2RoofCut.png  style="width:800px;"> <img alt="" src=images/At2_RoofCut02.png  style="width:800px;">
 
-#### Approach Two {#approach_two}
+#### Approach Two 
 
 Now it is time to build our subtraction volume. The easiest way will be to draw its profile on top of the section view. Then, we will rotate it and place it at its correct position. See why I placed the sections and elevations like that before beginning? It will be very handy for drawing stuff there, then moving it to its correct position on the model.
 
@@ -433,7 +433,7 @@ Now all we need to do it to move the profile a bit closer to the model (set the 
 
 <img alt="" src=images/Arch_tutorial_11.jpg  style="width:800px;">
 
-#### Common to both approaches {#common_to_both_approaches}
+#### Common to both approaches 
 
 Now, here comes into action the contrary of the [Arch Add](Arch_Add.md) tool: [Arch Remove](Arch_Remove.md). As you might have guessed, it also makes an object a child of another, but its shape is subtracted from the host object, instead of being united. So now things are simple: Select the volume to subtract (I renamed it as \"Roof volume to subtract\" in the tree view so it is easy to spot), CTRL + select a wall, and press the [Arch Remove](Arch_Remove.md) button. You\'ll see that, after the subtraction happened, the volume to subtract disappeared from both the 3D view and the tree view. That is because it has been marked as child of the wall, and \"swallowed\" by that wall. Select the wall, expand it in the tree view, there is our volume.
 
@@ -452,7 +452,7 @@ Work flow note:
 
 It is probably a good Idea to store Your RoofCutVolume in a separate file for later
 
-### Bathroom Geometry {#bathroom_geometry}
+### Bathroom Geometry 
 
 ![](images/At2_Fixme.gif )FIXME
 
@@ -479,7 +479,7 @@ To start with, Create a [group](Std_Group.md) for Floors
 
 By setting our Group to FloorSlabs, we insure that what we create from now on will be located in this group. (if You forget this step, You can always Drag&Drop entities to this group later)
 
-### Modeling FloorSlabs {#modeling_floorslabs}
+### Modeling FloorSlabs 
 
 In practice the inner walls (non structural) will probably be placed above the FloorSlabs. For tutorial purposes, we will assume that all walls and columns penetrate the FloorSlabs
 
@@ -505,7 +505,7 @@ Remember that single lines are easier to edit than a dWire, so in many cases it 
 
 You Should now have something Like image above. **Observe** we have changed the Label to FloorSlab, and ifcRole to Slab (We don\'t want our floor to be exported as a Column)
 
-#### Cutting FloorSlabs {#cutting_floorslabs}
+#### Cutting FloorSlabs 
 
 ![](images/At2_Fixme.gif )FIXME Yorik, can You please confirm best practice. Cloning walls to be used for cutting objects does not work. Need to copy cutting objects before **<img src="images/Arch_Remove.svg" width=16px> '''Remove'''**?
 
@@ -541,7 +541,7 @@ We have Labeled the Columns according to the grid-lines the are placed on.
 
 Next Cut the columns going up to the roof, using the same procedure and cutting object as You used whe cutting the walls previously.
 
-### Making the roofs {#making_the_roofs}
+### Making the roofs 
 
 Starting With outer Beams
 
@@ -565,7 +565,7 @@ Tried using Part Boolean Cut For the roof canopy\...
 
 The cut results in error when exporting
 
-#### Roof Center Slab {#roof_center_slab}
+#### Roof Center Slab 
 
 Open at2\_ReferenceComplete ([can be downloaded from here](https://github.com/FreeCAD/Examples/blob/master/at2_Examples/ref/2dReferenceComplete.fcstd))
 
@@ -592,7 +592,7 @@ Some posts relating to issue and resolution
 -   [Tracker 2014-11-08 14:51 Issue identified](https://freecadweb.org/tracker/view.php?id=1820)
 -   [Remove component from draft or sketch](https://forum.freecadweb.org/viewtopic.php?f=23&t=8349)
 
-#### Mods to roof {#mods_to_roof}
+#### Mods to roof 
 
 **Correct supporting wall**
 
@@ -639,7 +639,7 @@ The two highlighted inner walls should probably extend to form the side walls of
 
 -   ![](images/At2_Fixme.gif )FIXME Yorik, is this Correct naming ?
 
-#### Adding Roof slabs {#adding_roof_slabs}
+#### Adding Roof slabs 
 
 It is tempting to the roof slabs by grabbing geometry from section A-A. Set working plane to front. ![](images/At2_Fixme.gif )FIXME needs image Draw geometry from section A-A.
 
@@ -653,9 +653,9 @@ I am wondering why we have the two different entity types, wire and dwire.
 -   dwire entity is easily editable at vertex level, wire entity is not
 -   ![](images/At2_Tip.png )It would be tempting to extrude symmetric elements like these slabs, with a symmetrical extrusion. This works fine in Freecad, but sadly this does not seem to export correctly if exporting to IFC
 
-#### Adding Dormer {#adding_dormer}
+#### Adding Dormer 
 
-### WokFeature Approach {#wokfeature_approach}
+### WokFeature Approach 
 
 Make a plane for the two half of the Roof using
 
@@ -679,7 +679,7 @@ Also:
 -   Planes created this way can be named as all other FC features
 -   Macro also contains Align View to Workplane feature
 
-#### IFC note {#ifc_note}
+#### IFC note 
 
 When Building part is exported to IFC, it creates 4xIFCproxyElements, and a parent Beam object
 
@@ -699,11 +699,11 @@ Inner or outer
 
 Inner or Outer
 
-## IFC and BIM {#ifc_and_bim}
+## IFC and BIM 
 
 [Building Information Modelling (BIM)](https://en.wikipedia.org/wiki/Building_information_modeling) is a very broad term that describes the process of creating a digital model of a building.
 
-### Planning {#planning_1}
+### Planning 
 
 BEP ( BIM Execution Plan)
 
@@ -711,13 +711,13 @@ All BIM projects should have a BEP ( BIM Execution Plan)
 
 As a minimum
 
-#### Common Origin {#common_origin}
+#### Common Origin 
 
 **Origin point, northing, and elevation**
 
 One of the simplest yet most critical aspects of good project coordination is the establishment of a common or shared base point for all BIM data to follow. It is also essential to have a common site base point as the data is used through the life-cycle of the building.
 
-### IFC Links {#ifc_links}
+### IFC Links 
 
 -   [IFC - Where it all started - The End of Babel - Part 1/2](https://www.youtube.com/watch?v=g_jmGQvr6dQ)
 -   [Planning and Standards by U.S. General Services Administration](https://www.gsa.gov/real-estate/design-construction/3d4d-building-information-modeling/bim-guidelines-for-revit/guidelines/technical-standards/bim-technical-standards-file-structure-and-organization)
@@ -729,25 +729,25 @@ One of the simplest yet most critical aspects of good project coordination is th
 -   [Designing Buildings Wiki](https://www.designingbuildings.co.uk/wiki/Industry_Foundation_Classes_IFC)
 -   [BuildingSmart schema after 2x3 TC1](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/)
 
-### IFC Collaboration {#ifc_collaboration}
+### IFC Collaboration 
 
 -   [Bimsync by Catenda (Norwegian company, dedicated to open standards)](https://home.bimsync.com/)
 -   [Open BIMserver](http://bimserver.org/)
 -   [Allplan BimPlus (a Nemetschek company)](https://www.allplan.com/products/allplan-bimplus/)
 
-#### Freecad BIM {#freecad_bim}
+#### Freecad BIM 
 
 -   [BIM hash on GitHub](https://github.com/OpeningDesign/FreeMVD_WorkFlow/blob/3b0cd9cbd2b7ea33b8ac580d8730478d42b692d6/BIM_Specifications.md)
 
-### IFC round tripping {#ifc_round_tripping}
+### IFC round tripping 
 
 Aim is to also test round tripping, exporting IFC from FreeCAD and importing same file for comparison.
 
-### BIM requirements by stakeholders {#bim_requirements_by_stakeholders}
+### BIM requirements by stakeholders 
 
 In the [UK](https://www.designingbuildings.co.uk/wiki/UK), the [Government Construction Strategy published in May 2011](https://www.designingbuildings.co.uk/wiki/Government_construction_strategy), stated that the [\'\...government](https://www.designingbuildings.co.uk/wiki/Government) will [require fully collaborative 3D BIM](https://www.designingbuildings.co.uk/wiki/Bim) (with all project and [asset](https://www.designingbuildings.co.uk/wiki/Asset) information, documentation and data being electronic) as a minimum by 2016\'. This represents a minimum requirement for [Level 2 BIM](https://www.designingbuildings.co.uk/wiki/Level_2_bim) on centrally-procured public projects.
 
-## Relevant Forum Posts {#relevant_forum_posts}
+## Relevant Forum Posts 
 
 Have started gathering some forum post that might be relevant for the TutorialArchBim
 
@@ -770,7 +770,7 @@ Have started gathering some forum post that might be relevant for the TutorialAr
 -   [Yorik lecture hackable FC](https://archive.fosdem.org/2015/schedule/event/freecad/attachments/slides/667/export/events/attachments/freecad/slides/667/freecad_fosdem15.pdf)
 -   [Very interesting presentation of FC and general views on OpenSource in Engineering by Joel Graff](https://forum.freecadweb.org/viewtopic.php?f=36&t=27169&p=263517#p263517)
 
-## General building terminology {#general_building_terminology}
+## General building terminology 
 
 -   [Roof terminology](https://eurolayasphaltandroofing.co.uk/roofing-terminology/)
 
@@ -784,7 +784,7 @@ This is where we have temporarily stored snippets of text, that maybe should be 
 
 These texts are all in a ![](images/At2_Fixme.gif )FIXME Comment State
 
-### Snapping Tools {#snapping_tools}
+### Snapping Tools 
 
 ![](images/At2_Fixme.gif )FIXME needs updating
 
@@ -800,7 +800,7 @@ The [Snap Tools](Draft_Snap.md) are one of Your best friends. However, remember 
 
 If You have struggled with this when learning FreeCAD, take some comfort in that You are not the only one
 
-### Customizing Arch WorkBench {#customizing_arch_workbench}
+### Customizing Arch WorkBench 
 
 This is an example \"customized\" Arch workbench:
 
@@ -818,15 +818,15 @@ make list of common abbreviations
 
 BEP \| BIM Execution Plan
 
-### References & Links {#references_links}
+### References & Links 
 
 Reference any input from users or outside sources
 
-### FCStd file {#fcstd_file}
+### FCStd file 
 
 \[File\_Format\_FCStd\| File FormatFCStd\]
 
-### Command line {#command_line}
+### Command line 
 
 command line interface
 
@@ -836,9 +836,9 @@ Code: Select all
 
 \--log-file arg
 
-### Document Draft Snippets {#document_draft_snippets}
+### Document Draft Snippets 
 
-### Customizing Arch WorkBench {#customizing_arch_workbench_1}
+### Customizing Arch WorkBench 
 
 [wiki styling](WikiPages.md)
 
@@ -850,9 +850,9 @@ Virtual Design and Construction seems to be the next Buzz word after BIM.
 
 [virtual Design and Construction in Skanska Norway](https://www.bi.no/globalassets/forskning/senter-for-byggenaringen/lc-arrangement/lcno-seminar-samlet-170614-pdf.pdf)
 
-## Annex B {#annex_b}
+## Annex B 
 
-### FreeCAD ifcOpenShell {#freecad_ifcopenshell}
+### FreeCAD ifcOpenShell 
 
 -   [Voids](https://forum.freecadweb.org/viewtopic.php?t=25491)
 -   [IFC installation](https://forum.freecadweb.org/viewtopic.php?f=4&t=12368)
@@ -867,7 +867,7 @@ import sys
  print(p)
 }}
 
-#### ifcOpenShell from ppa {#ifcopenshell_from_ppa}
+#### ifcOpenShell from ppa 
 
 
 {{Code|
@@ -875,7 +875,7 @@ sudo add-apt-repository ppa:freecad-community/ppa
 sudo apt-get update
 }}
 
-#### ifcOpenShell python unicode {#ifcopenshell_python_unicode}
+#### ifcOpenShell python unicode 
 
 
 {{Code|
@@ -883,7 +883,7 @@ ls -l /usr/lib/python2.7/sitecustomize.py
 lrwxrwxrwx 1 root root 31 sep.   4 07:46 /usr/lib/python2.7/sitecustomize.py -> /etc/python2.7/sitecustomize.py
 }}
 
-#### Build OCE {#build_oce}
+#### Build OCE 
 
 No success so far
 
@@ -907,9 +907,9 @@ $ make -j
 $ sudo make install
 }}
 
-### IFC openshell Linux {#ifc_openshell_linux}
+### IFC openshell Linux 
 
-#### Freecad syspath {#freecad_syspath}
+#### Freecad syspath 
 
 
 {{Code|
@@ -1008,7 +1008,7 @@ total size is 49,071,231  speedup is 2.54
 
 Ended up placing ifcopenshell in \... dist-packages
 
-## Annex B IFC and FreeCAD {#annex_b_ifc_and_freecad}
+## Annex B IFC and FreeCAD 
 
 This chapter looks at how FreeCAD entities come across as IFC entities based on using [IfcOpenShell](http://ifcopenshell.org/) as exporter, and following instructions in [Arch](Arch_Workbench.md) and [BIM](BIM_Workbench.md) workbenches
 
@@ -1016,7 +1016,7 @@ We start looking at basic objects like Wall and Structure.
 
 ### Wall
 
-## Annex D IFC PlusPlus {#annex_d_ifc_plusplus}
+## Annex D IFC PlusPlus 
 
 ### Installation
 
@@ -1041,7 +1041,7 @@ yorik wrote:
 
 Tried this script with Ubuntu 16.04 LTS, got all kinds of errors. Mostly Cmake wrong version. See [ifcPlusPlus](https://forum.freecadweb.org/viewtopic.php?f=23&t=30444)
 
-## Annex X {#annex_x}
+## Annex X 
 
 Freecad install directories on [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_(operating_system)) [Linux](https://en.wikipedia.org/wiki/Linux)
 
@@ -1058,7 +1058,7 @@ lrwxrwxrwx 1 root root  32 aug.  23 04:16 freecad-daily -> ../lib/freecad-daily/
 -rwxr-xr-x 1 root root 699 aug.  19 20:29 freecad-thumbnailer
 }}
 
-### Data directories FreeCad {#data_directories_freecad}
+### Data directories FreeCad 
 
 
 {{Code|
@@ -1268,7 +1268,7 @@ link to Mod {{Code|
 
 }}
 
-### Data directories FreeCad-Daily {#data_directories_freecad_daily}
+### Data directories FreeCad-Daily 
 
 
 {{Code|

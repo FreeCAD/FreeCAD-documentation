@@ -18,8 +18,8 @@ Der Befehl **Std Bodenansicht** wendet die Kamerasicht der aktiven [3D Ansicht](
 
 1.  Es gibt verschiedene Wege, den Befehl umzusetzen:
     -   Die **<img src="images/Std_ViewBottom.svg" width=16px> [Std Bodenansicht](Std_ViewFront/de.md)**-Schaltfläche betätigen.
-    -   Den Menüpunkt {{MenuCommand|Ansicht → Standardansichten → <img src="images/Std_ViewBottom.svg" width=16px> Bodenansicht}} aus dem Menü wählen.
-    -   Den Menüpunkt {{MenuCommand|Standardansichten → <img src="images/Std_ViewBottom.svg" width=16px> Bodenansicht}} aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
+    -   Den Menüpunkt **Ansicht → Standardansichten → <img src="images/Std_ViewBottom.svg" width=16px> Bodenansicht** aus dem Menü wählen.
+    -   Den Menüpunkt **Standardansichten → <img src="images/Std_ViewBottom.svg" width=16px> Bodenansicht** aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
     -   Mit dem Tastenkürzel: **5**.
 
 ## Skripten

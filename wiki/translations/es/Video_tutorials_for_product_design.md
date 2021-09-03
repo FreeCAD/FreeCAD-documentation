@@ -6,7 +6,7 @@ Los tutoriales que se enumeran aquí son los que tratan del diseño de productos
 
 Visite [tutoriales](tutorials/es.md) para obtener tutoriales escritos de alta calidad. Puedes encontrar una lista completa y sin clasificar de tutoriales en [:Category:Tutorials](:Category:Tutorials.md).
 
-## Diseño de productos {#diseño_de_productos}
+## Diseño de productos 
 
 Videos que pasan por el modelado de varios objetos sólidos usando ambientes de trabajo como <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/es.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/es.md), and <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/es.md)
 

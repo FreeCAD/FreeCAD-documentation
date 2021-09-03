@@ -39,7 +39,7 @@ Part se encuentra en la barra de herramientas Estructura que se muestra en todos
 
 </div>
 
-The **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the {{MenuCommand|structure toolbar}} that is available in all [workbenches](Workbenches.md). To group objects arbitrarily without considering their position, use **[16px"> [Std Group](Std_Group.md)**; this object does not affect the placements of the elements that it contains, it is essentially just a folder that is used to keep the [tree view](tree_view.md) organized.
+The **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](Workbenches.md). To group objects arbitrarily without considering their position, use **[16px"> [Std Group](Std_Group.md)**; this object does not affect the placements of the elements that it contains, it is essentially just a folder that is used to keep the [tree view](tree_view.md) organized.
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
@@ -49,7 +49,7 @@ The **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group
 
 <div class="mw-translate-fuzzy">
 
-## Como utilizar {#como_utilizar}
+## Como utilizar 
 
 
 </div>
@@ -68,7 +68,7 @@ The **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group
 ### Notes
 
 -   As of v0.19, a given object can only belong to a single Part.
--   Double-click the Part in the [tree view](tree_view.md) or open the context menu (right-click) and select {{MenuCommand|Toggle active part}} to activate or deactivate the Part. If another Part is active, it will be deactivated. See [active status](Std_Part#Active_status.md) for more information.
+-   Double-click the Part in the [tree view](tree_view.md) or open the context menu (right-click) and select **Toggle active part** to activate or deactivate the Part. If another Part is active, it will be deactivated. See [active status](Std_Part#Active_status.md) for more information.
 
 
 <div class="mw-translate-fuzzy">
@@ -95,7 +95,7 @@ A [Std Part](Std_Part.md) is internally called [App Part](App_Part.md) (`App::Pa
 
 In addition to the properties described in [App GeoFeature](App_GeoFeature.md), the App Part class has some properties that help it manage information in the context of an assembly, for example, **Type**, **Id**, **License**, **LicenseURL**, **Color**, and **Group**.
 
-These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the {{MenuCommand|Show all}} command in the context menu of the [property editor](property_editor.md).
+These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
 ### Data
 
@@ -120,7 +120,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 </div>
 
-#### Hidden properties Data {#hidden_properties_data}
+#### Hidden properties Data 
 
 -    **Material|Map**: map with material properties. By default, it is empty {}.
 
@@ -158,7 +158,7 @@ The App Part only has the five properties of the basic [App FeaturePython](App_F
 
 <div class="mw-translate-fuzzy">
 
-### Ejemplos de uso {#ejemplos_de_uso}
+### Ejemplos de uso 
 
 -   Como un contenedor de ensamblaje que agrupa los objetos que se fabricarán por separado, luego se pegarán o atornillarán, como una mesa de madera.
 -   Al importar un STEP ensamblado en FreeCAD, el ensamblaje principal y sus subconjuntos son contenedores Part.
@@ -180,24 +180,24 @@ Examples that could be Parts:
 
 In general terms, when importing a STEP file into the program, the main assembly and its sub-assemblies will be imported as Part containers, each of them containing a simple [Part Feature](Part_Feature.md).
 
-## Detailed explanation {#detailed_explanation}
+## Detailed explanation 
 
 
 <div class="mw-translate-fuzzy">
 
-### Estado activo {#estado_activo}
+### Estado activo 
 
 Un documento de FreeCAD puede contener varias Part. Solo una Part puede estar activa a la vez. Una Part activa se mostrará en el árbol con un color de fondo azul claro.
 
 
 </div>
 
-An open document can contain multiple Parts. An active Part will be displayed in the [tree view](Tree_view.md) with the background color specified by the {{MenuCommand|Active container}} value in the [preferences editor](Preferences_Editor#Colors.md) (by default, light blue). An active part will also be shown in bold text.
+An open document can contain multiple Parts. An active Part will be displayed in the [tree view](Tree_view.md) with the background color specified by the **Active container** value in the [preferences editor](Preferences_Editor#Colors.md) (by default, light blue). An active part will also be shown in bold text.
 
 To activate or de-activate a Part:
 
 -   Double click on it on the [tree view](Tree_view.md), or
--   Open the context menu (right click) and select {{MenuCommand|Toggle active part}}.
+-   Open the context menu (right click) and select **Toggle active part**.
 
 
 **Notes:**
@@ -241,7 +241,7 @@ all elements inside the Part are referenced to the Part\'s Origin which means th
 
 <div class="mw-translate-fuzzy">
 
-### Gestión de visibilidad {#gestión_de_visibilidad}
+### Gestión de visibilidad 
 
 La visibilidad de la Part reemplaza la visibilidad de cualquier objeto que contenga. Si la Part está oculta, los objetos que contiene también estarán ocultos, incluso si su visibilidad está establecida en verdadero. Múltiples objetos dentro de una Part pueden ser visibles a la vez.
 

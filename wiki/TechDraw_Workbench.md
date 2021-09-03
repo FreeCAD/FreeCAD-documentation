@@ -141,7 +141,7 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Add Welding Information to Leader](TechDraw_WeldSymbol.md): adds welding specifications to an existing leaderline. <small>(v0.19)</small> 
 
-## Extension Package {#extension_package}
+## Extension Package 
 
 The Extension Package includes many useful tools to improve your TechDraw drawings.
 
@@ -154,7 +154,7 @@ The Extension Package includes many useful tools to improve your TechDraw drawin
 -   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_Extension_ThreadBoltSide.md): adds a symbolic thread at a side seen bolt. <small>(v0.20)</small> 
 -   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_Extension_ThreadBoltBottom.md): adds a symbolic thread at a bottom seen bolt. <small>(v0.20)</small> 
 
-## Additional features {#additional_features}
+## Additional features 
 
 -   [Line Groups](TechDraw_LineGroup.md): to control the appearance of various types of lines.
 -   [Templates](TechDraw_Templates.md): the default templates defined for the drawing pages.

@@ -37,7 +37,7 @@ Si la documentación no está terminada utiliza la plantilla [Template:Unfinishe
 
 <div class="mw-translate-fuzzy">
 
-### Página de ayuda {#página_de_ayuda}
+### Página de ayuda 
 
 Todos los comandos de la interfaz gráfica de usuario deben tener una página de ayuda. La página de ayuda está alojada en la wiki de documentación de FreeCAD. El artículo tiene el mismo nombre que el comando de la interfaz gráfica de usuario. Por ejemplo [Draft ShapeString](Draft_ShapeString/es.md).
 
@@ -89,7 +89,7 @@ Preferiblemente todos los iconos serán dibujados en formato de Gráficos Vector
 
 </div>
 
-### Icons color coding chart {#icons_color_coding_chart}
+### Icons color coding chart 
 
 <img alt="" src=images/Colorchart.png  style="width:200px;">
 
@@ -98,7 +98,7 @@ We try as much as possible to respect this chart, so the color of the icons has 
 
 <div class="mw-translate-fuzzy">
 
-### Requerimientos de Calidad {#requerimientos_de_calidad}
+### Requerimientos de Calidad 
 
 Existen muchos comandos de la interfaz gráfica de usuario (operaciones) en FreeCAD que son experimentales o utilizados brevemente con propósitos de implementación. Estos comandos de la interfaz gráfica de usuario están la mayoría en los entornos de trabajo dedicados como los de Piezas, Mallas o Mecanizado (CAM). Para asegurar una buena experiencia al usuario se ha creado el entorno de trabajo *Completo*. Este es el entorno de trabajo de inicio por defecto de FreeCAD e incorpora todos los comandos de la interfaz gráfica de usuario que cumplan con ciertos **Requerimientos de Calidad** los cuales se describen aquí:
 

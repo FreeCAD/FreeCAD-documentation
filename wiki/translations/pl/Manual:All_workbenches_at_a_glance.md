@@ -78,7 +78,7 @@ The Sketcher Workbench contains tools to build and edit complex 2D objects, call
   <img alt="" src=images/Constraint_InternalAlignment.png  style="width:32px;"> [Internal alignment](Sketcher_ConstrainInternalAlignment.md)   Aligns selected elements to selected shape (e.g. a line to become major axis of an ellipse)                                                                 <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Map sketch](Sketcher_MapSketch.md)                                          Maps a sketch to the previously selected face of a solid
   <img alt="" src=images/Sketcher_MergeSketch.svg  style="width:32px;"> [Merge](Sketcher_MergeSketches.md)                                             Merge two or more sketches                                                                                                                                  <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Mirror](Sketcher_MirrorSketch.md)                                     Mirrors selected elements of a sketch
 
-### Part Design {#part_design}
+### Part Design 
 
 The Part Design Workbench contains advanced tools to build solid parts. It also contains all the tools from the sketcher. Since it can only produce solid shapes (the rule number one of Part Design), it is the main workbench to use when designing pieces (parts) to be manufactured or 3D-printed, as you will always obtain a printable object.
 
@@ -125,7 +125,7 @@ The Drawing Workbench handles the creation and manipulation of 2D drawing sheets
   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> [Symbol](Drawing_Symbol.md)                        Adds the contents of a SVG file as a symbol on the current drawing sheet   <img alt="" src=images/Drawing_DraftView.png  style="width:32px;"> [Draft view](Drawing_DraftView.md)       Inserts a special Draft view of the selected object in the current drawing sheet
   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Save](Drawing_Save.md)                                Saves the current sheet as a SVG file                                                                                                                                                          
 
-### Other built-in workbenches {#other_built_in_workbenches}
+### Other built-in workbenches 
 
 Although the above summarizes the most important tools of FreeCAD, many more workbenches are available, among them:
 
@@ -134,7 +134,7 @@ Although the above summarizes the most important tools of FreeCAD, many more wor
 -   The [Spreadsheet Workbench](Spreadsheet_Workbench.md) permits the creation and manipulation of spreadsheet data, that can be extracted from FreeCAD models. Spreadsheet cells can also be referenced in many areas of FreeCAD, allowing to use them as master data structures.
 -   The [FEM Workbench](FEM_Workbench.md) deals with [Finite Elements Analysis](https://en.wikipedia.org/wiki/Finite_element_method), and permits the performing of pre- and post-processing FEM calculations and to display the results graphically.
 
-### External workbenches {#external_workbenches}
+### External workbenches 
 
 A number of other very useful workbenches produced by FreeCAD community members also exist. Although they are not included in a standard FreeCAD installation,they are easy to install as plug-ins. They are all referenced in the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) repository. Among the most developed are:
 

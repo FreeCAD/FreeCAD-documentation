@@ -10,13 +10,13 @@
 
 Le [traqueur de bogues FreeCAD](https://www.freecadweb.org/tracker) est un endroit pour rapporter des bogues, soumettre des demandes de fonctionnalités, de correctifs, ou encore faire une demande de fusion de votre branche si vous développez avec Git. Le traqueur est divisé en plusieurs sections de travail, donc s\'il vous plait soyez rigoureux et remplissez votre demande dans la catégorie appropriée. En cas de doutes, laissez le dans la section \"FreeCAD\".
 
-## Flux de travail recommandé {#flux_de_travail_recommandé}
+## Flux de travail recommandé 
 
 ![](images/Bugreport-workflow.png )
 
 Comme vous pouvez le voir dans l\'organigramme présenté ci-dessus, avant de créer des tickets, prenez le temps de faire des recherches dans les forums et le traqueur de bogues pour vérifier si votre problème n\'est pas déjà référencé. Ceci afin d\'éviter de gaspiller un temps de travail \"au combien précieux\" pour les développeurs et les volontaires qui pourraient le consacrer davantage au développement de l\'application.
 
-## Signaler les bugs {#signaler_les_bugs}
+## Signaler les bugs 
 
 Si vous pensez que vous pourriez avoir trouvé un bogue (dysfonctionnement ou erreur), vous êtes invité de le signaler si vous avez suivi nos instructions pas à pas.
 
@@ -35,7 +35,7 @@ Si vous pensez que vous pourriez avoir trouvé un bogue (dysfonctionnement ou er
 -   Merci de déposer un rapport séparé pour chaque bug.
 -   Si votre bug provoque un crash dans FreeCAD et que vous êtes sur un système qui le supporte, vous pouvez essayer de lancer une **trace de debugage** et joindre cette trace au ticket. Cela peut permettre aux développeurs à gagner beaucoup de temps à identifier la source du crash. Voir [Debugging](Debugging/fr.md) pour plus de détails.
 
-## Demande de fonctionnalités {#demande_de_fonctionnalités}
+## Demande de fonctionnalités 
 
 Si vous souhaitez que quelque chose apparaisse dans FreeCAD qui ne soit pas encore implémenté,  ce n\'est pas un bug mais une demande de fonctionnalité.
 
@@ -48,7 +48,7 @@ Si vous souhaitez que quelque chose apparaisse dans FreeCAD qui ne soit pas enco
 
 ![Page de rapport de FreeCAD Bugtracker - utilisez le menu déroulant pour désigner correctement le ticket](images/MantisBT-setting-Feature-Request.jpg )
 
-## Soumettre un correctif (**patch**) {#soumettre_un_correctif_patch}
+## Soumettre un correctif (**patch**) 
 
 Dans le cas, où vous avez programmé une correction d\'un bug (**patch**), une extension ou autre chose qui peut être d\'utilité publique dans FreeCAD, créer un **patch** à l\'aide de l\'outil **Subversion diff tool** et de le soumettre sur **[mantis bug tracker](http://www.mantisbt.org/)** <img alt="" src=images/Mantis_logo_button.gif  style="width:64px;"> **et envoyez-le comme patch**.
 
@@ -61,15 +61,15 @@ Addendum ː Le développement de FreeCAD a basculé vers le modèle de développ
 
 **Remarque :** la communauté FreeCAD recommande de discuter au préalable de toute révision importante du code source afin de faire gagner du temps à tous.
 
-## Demande de fusion {#demande_de_fusion}
+## Demande de fusion 
 
 Si vous avez créé une branche git contenant les modifications que vous aimeriez voir fusionné dans le code FreeCAD, vous pouvez y demander que votre branche soit examinée et fusionnée si les développeurs FreeCAD sont OK avec elle. Vous devez d\'abord publier votre branche dans un dépôt git publique (github, bitbucket, sourceforge \...) et donner ensuite l\'URL de votre branche dans votre demande de fusion.
 
 Si vous avez créé une branche git contenant les modifications que vous souhaiteriez voir fusionnées dans le code FreeCAD, vous pouvez demander à ce que votre branche soit revue et fusionnée si les développeurs FreeCAD le souhaitent. Vous devez d\'abord publier votre branche dans un répertoire git public (github, gitlab, bitbucket, sourceforge, etc.), puis donner l\'URL de votre branche dans votre demande de fusion.
 
-## Trucs et astuces sous MantisBT {#trucs_et_astuces_sous_mantisbt}
+## Trucs et astuces sous MantisBT 
 
-### Le balisage de MantisBT {#le_balisage_de_mantisbt}
+### Le balisage de MantisBT 
 
 MantisBT (Mantis Bug Tracker) a son propre balisage.
 
@@ -95,7 +95,7 @@ MantisBT (Mantis Bug Tracker) a son propre balisage.
 
 <img alt="" src=images/mantisbt-colorized-code-example.jpg  style="width:600px;">
 
-### Le BBCode de MantisBT {#le_bbcode_de_mantisbt}
+### Le BBCode de MantisBT 
 
 En plus du [MantisBT Markup](Tracker/fr#MantisBT_Markup.md) ci-dessus, il est également possible d\'utiliser le format BBCode. Pour une liste complète, voir [BBCode plus plugin page](https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags). Voici une liste des tags BBCode supportés ː 
 [img][/img] - Images
@@ -137,13 +137,13 @@ En plus du [MantisBT Markup](Tracker/fr#MantisBT_Markup.md) ci-dessus, il est é
 
 <img alt="" src=images/mantisbt-source-integration-markup.jpg  style="width:600px;"> 
 
-## GitHub et MantisBT {#github_et_mantisbt}
+## GitHub et MantisBT 
 
 Le bugtracker de FreeCAD a un plug-in appelé [Source Integration](https://github.com/mantisbt-plugins/source-integration) qui lie essentiellement le référentiel FreeCAD GitHub à notre traqueur MantisBT. Cela facilite le suivi et l'association des commits git avec leurs tickets MantisBT respectifs. **Le plug-in Source Integration recherche dans les messages de git commit des mots-clés spécifiques afin d\'exécuter les actions suivantes :**
 
 **Remarque :**les mots-clés ci-dessous doivent être ajoutés au git commit message et non au sujet du PR.
 
-### Référencement à distance d\'un ticket {#référencement_à_distance_dun_ticket}
+### Référencement à distance d\'un ticket 
 
 L\'utilisation de ce modèle associera automatiquement un commit git à un ticket (**Remarque:** cela ne fermera pas le ticket.) Le format MantisBT reconnaîtra:
 
@@ -157,7 +157,7 @@ L\'utilisation de ce modèle associera automatiquement un commit git à un ticke
 Pour les curieux, voici le regex que MantisBT utilise pour cette opération:
 
 
-### Résolution à distance d\'un ticket {#résolution_à_distance_dun_ticket}
+### Résolution à distance d\'un ticket 
 
 -   fix \#1234
 -   fixed \#1234
@@ -173,7 +173,7 @@ Pour les curieux, voici le regex que MantisBT utilise pour cette opération:
 Pour les curieux, voici le regex que MantisBT utilise pour cette opération:
 
 
-## En relation {#en_relation}
+## En relation 
 
 -   [Tri des bogues](Bug_Triage/fr.md)
 -   [Source Code Management](Source_code_management/fr.md)

@@ -58,11 +58,11 @@ pq('sin(pi)')
 b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 ```
 
-## Unità di misura supportate {#unità_di_misura_supportate}
+## Unità di misura supportate 
 
 Un elenco completo di tutte le unità supportate [si trova quì](Expressions/it#Unità.md).
 
-## Finalità e principi: proposta di una estensione del sistema di gestione delle unità {#finalità_e_principi_proposta_di_una_estensione_del_sistema_di_gestione_delle_unità}
+## Finalità e principi: proposta di una estensione del sistema di gestione delle unità 
 
 Nelle sezioni successive, sviluppando il concetto di *sistema di unità*, si propone un sistema di gestione delle unità di misura attivato nel corso dell\'esecuzione di una istanza di FreeCAD. Definire tale nuovo concetto offre il vantaggio di lavorare più facilmente con tanti tipi di unità **fisiche**, quante si vuole, anche con quelle create dall\'utente, senza aumentare la complessità di gestione delle unità, né per l\'utente, né per gli sviluppatori di FreeCAD.
 
@@ -88,7 +88,7 @@ In questa sezione sono evidenziati i contesti (casi) di uso del sistema di gesti
 
 Essenzialmente sono considerati 2 contesti, come esempio.
 
-### Contesto 1: apertura di un file di dati {#contesto_1_apertura_di_un_file_di_dati}
+### Contesto 1: apertura di un file di dati 
 
 Questo caso probabilmente è quello più frequente. Si riceve un file contenente ad esempio un modello geometrico, o descrivente un materiale con un bel po\' di proprietà. Il modello geometrico è espresso in metri, oppure le proprietà del materiale sono espresse secondo il sistema internazionale di unità di misura.
 
@@ -98,27 +98,27 @@ Sei un esperto di modellazione di elementi finiti (FE modelling), e di solito la
 
 In questo contesto, la gestione delle unità è necessaria per scalare i dati da un sistema di unità iniziale definito nel file di input a un diverso sistema di unità definito dall\'utente.
 
-### Contesto 2: commutare il sistema di unità in fase di esecuzione {#contesto_2_commutare_il_sistema_di_unità_in_fase_di_esecuzione}
+### Contesto 2: commutare il sistema di unità in fase di esecuzione 
 
 In questo caso, si può essere allo stesso tempo, la persona che realizza un disegno, e anche chi gestirà la modellazione per elementi finiti. Analogamente al caso precedente, i sistemi di unità di misura per questi due lavori non sono gli stessi, ed è necessario cambiare il sistema di unità iniziale in quello preferito durante l\'esecuzione.
 
 ## Organizzazione
 
-### Logica di scalatura delle unità {#logica_di_scalatura_delle_unità}
+### Logica di scalatura delle unità 
 
 Nella sezione [Riflessioni](Units/it#Riflessioni.md) sono stati presentati due contesti in merito a quando si utilizza la scalatura delle unità. Devono essere evidenziati alcuni aspetti di questi due contesti.
 
 
 <div class="mw-translate-fuzzy">
 
-#### Coerenza di unità in tutta l\'istanza in esecuzione in FreeCAD {#coerenza_di_unità_in_tutta_listanza_in_esecuzione_in_freecad}
+#### Coerenza di unità in tutta l\'istanza in esecuzione in FreeCAD 
 
 Il sistema proposto si basa su un assunto primario: l\'utente sta lavorando in un sistema di unità coerenti. Ad esempio, questo significa che, se l\'utente esprime la lunghezza in millimetri, necessariamente le aree saranno espresse in termini di millimetri quadrati e non in metri quadrati. Questa è la **Ipotesi numero uno**.
 
 
 </div>
 
-#### Sistema di unità {#sistema_di_unità}
+#### Sistema di unità 
 
 In conseguenza della *Ipotesi numero uno*, è possibile e pertinente definire un sistema di unità. Un sistema di unità si applica a:
 
@@ -142,13 +142,13 @@ Ecco alcuni esempi di sistemi di unità.
 -   millimetro, kilogrammo, millisecondo, ampere, Kelvin, mole, candela
 -   \...
 
-#### Unità di base e derivate {#unità_di_base_e_derivate}
+#### Unità di base e derivate 
 
 Le Unità derivate sono create mediante la combinazione delle unità di base. Ad esempio, un\'accelerazione (m/s^2^) unisce contemporaneamente la lunghezza e il tempo. Un quadro interessante che presenta le relazioni tra le unità base e le unità derivate si può vedere in [questo documento](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf), anche esso del NIST.
 
 Grazie alla definizione del *sistema di unità*, l\'utente può lavorare con qualsiasi tipo di unità derivata, senza la necessità che gli sviluppatori di FreeCAD le prevedano prima.
 
-#### Simboli delle unità base e delle derivate {#simboli_delle_unità_base_e_delle_derivate}
+#### Simboli delle unità base e delle derivate 
 
 Secondo il [Sistema Internazionale delle unità di misura (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf), i simboli per specificare una unità sono ufficialmente approvati. Da questo possono essere evidenziate due conseguenze.
 
@@ -157,15 +157,15 @@ Secondo il [Sistema Internazionale delle unità di misura (SI)](http://physics.n
 
 Per superare queste limitazioni e rimanere flessibili, il sistema proposto privilegia l\'impiego di unità di grandezze (magnitudini) invece dei simboli di unità, che rimangono comunque disponibili per motivi di ergonomia.
 
-### Modello dei dati {#modello_dei_dati}
+### Modello dei dati 
 
 Sono presentati i tre oggetti principali del sistema di gestione di unità di misura , vale a dire l*\'unità*, il *dizionario delle unità* e il *sistema di unità*.
 
-#### Unità (unità di misura) {#unità_unità_di_misura}
+#### Unità (unità di misura) 
 
 Come premessa, è importante sottolineare che un oggetto *unità* di per sé indica solo una **dimensione** (grandezza fisica) come lunghezza, massa, tempo \... Esso non specifica una **grandezza** (unità di misura) come metro, millimetro, chilometri \... Questa ultima informazione è specificata attraverso il sistema di unità.
 
-##### Dimensione (Grandezza fisica) {#dimensione_grandezza_fisica}
+##### Dimensione (Grandezza fisica) 
 
 Stringa obbligatoria che indica la *dimensione* (grandezza fisica) dell\'unità. La *dimensione* delle 7 unità di base (le 7 grandezze fisiche di base) sono indicate di seguito (dalla [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)) (Guida per l\'uso del Sistema Internazionale di unità di misura).
 
@@ -179,7 +179,7 @@ Stringa obbligatoria che indica la *dimensione* (grandezza fisica) dell\'unità.
 
 L\'attributo *Dimension* permette di identificare l\'unità. Due unità non possono condividere la stessa *dimensione*.
 
-##### Firma (Identificazione della grandezza fisica) {#firma_identificazione_della_grandezza_fisica}
+##### Firma (Identificazione della grandezza fisica) 
 
 E\' un gruppo di 7 cifre intere obbligatorie (numero delle unità di misura di base) che definisce di quale unità si tratta. La firma delle 7 unità di base sono:
 
@@ -214,7 +214,7 @@ Ad esempio, la lista dei *simboli* della unità di misura di lunghezza, e le lor
 
 I *simboli* standard possono essere trovati sul [sito web del NIST](http://physics.nist.gov/cuu/Units/units.html) e da pag. 26 a pag. 23 e a pag. 32 (*tonnellata metrica o tonnellata*) di [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf).
 
-#### Dizionario delle unità {#dizionario_delle_unità}
+#### Dizionario delle unità 
 
 Tutte le unità di misura disponibili in FreeCAD, e anche quelle nuove create dall\'utente, devono essere conservate nel *dizionario delle unità*, che è un file XML (file di configurazione di FreeCAD), in modo da poter essere recuperate quando è necessario, ad esempio quando si realizza la scalatura delle unità.
 
@@ -222,7 +222,7 @@ Tutte le unità di misura disponibili in FreeCAD, e anche quelle nuove create da
 
 Insieme delle unità, contenute nel *dizionario delle unità*.
 
-#### Unit system {#unit_system}
+#### Unit system 
 
 Un *sistema di unità* è l\'oggetto che permette all\'utente di definire la *grandezza* dell\'unità corrente di ciascuna delle unità di base con cui si sta lavorando. Ad esempio, sapendo che l\'utente sta lavorando con i millimetri, le tonnellate e i secondi, grazie all\'utilizzo di un sistema di unità, FreeCAD può sapere che l\'energia è espressa in termini di milliJoule, la forza in termini di Newton, e la pressione in termini di MegaPascal. Quindi un sistema di unità è definito solo da un *nome* (ad esempio *Sistema di unità standard*) e da una *tabella di grandezza* specifica per ciascuna delle unità di base 7, che è la sua grandezza corrispondente.
 
@@ -236,13 +236,13 @@ Specificando la grandezza delle 7 unità di base si definisce un sistema di unit
 
 Ad esempio \[1e-03, 1e+03, 1, 1, 1, 1, 1\], significa millimetri, tonnellata, secondo, ampere, Kelvin, mole, candela
 
-#### API di gestione di unità {#api_di_gestione_di_unità}
+#### API di gestione di unità 
 
 E\' presentata solo la logica di alcuni metodi, per evidenziare alcune caratteristiche. Questi metodi potrebbero appartenere a un oggetto chiamato *Gestore di unità*.
 
-##### Verifica del dizionario delle unità {#verifica_del_dizionario_delle_unità}
+##### Verifica del dizionario delle unità 
 
-###### isValid - Validità {#isvalid___validità}
+###### isValid - Validità 
 
 Il dizionario delle unità può essere un file XML (file di configurazione di FreeCAD). Esso contiene la lista delle unità definite. Tale dizionario è necessario affinchè il sistema di gestione dell\'unità proposto funzioni.
 
@@ -254,13 +254,13 @@ Deve soddisfare alcune condizioni che devono essere controllate prima di attivar
 -   verificare che le *firme* di tutte le unità abbiano tutte la stessa dimensione
 -   verificare che per tutte le unità sia definito un *simbolo standard* (per cui la *grandezza* è 1)
 
-###### isCompatibleWithThisSignature - Compatibilità {#iscompatiblewiththissignature___compatibilità}
+###### isCompatibleWithThisSignature - Compatibilità 
 
 Un dizionario di unità definisce un insieme di unità e le loro grandezze note. Quando si gestisce una unità, è opportuno controllare che la sua firma sia compatibile con l\'insieme di unità registrate nel dizionario di unità, in modo da elaborarla. Questo controllo comprende:
 
 -   verificare che la lunghezza della *firma* da inserire sia della stessa dimensione delle *firme* del dizionario di unità
 
-##### Scalare le unità {#scalare_le_unità}
+##### Scalare le unità 
 
 ###### scaleUnitFromSymbolToSymbol
 
@@ -274,7 +274,7 @@ Conoscendo un valore, l\'unità iniziale tramite il suo simbolo e il sistema di 
 
 Conoscendo un valore, un sistema di unità iniziale, l\'unità di destinazione tramite il suo simbolo, scalare il valore.
 
-#### Le motivazioni per una tale gestione: esempio di applicazione {#le_motivazioni_per_una_tale_gestione_esempio_di_applicazione}
+#### Le motivazioni per una tale gestione: esempio di applicazione 
 
 Supponiamo di accingerci a creare un modello di elementi finiti. Per costruire il nostro modello, abbiamo bisogno della griglia (forma mesh), delle proprietà del materiale ed è necessario definire i parametri numerici. Considerando che possono esserci decine di proprietà dei materiali da gestire, espresse con diverse unità e a volte non sempre molto comuni, per l\'utente è importante dover solo indicare un sistema globale di unità, senza altre preoccupazioni.
 
@@ -295,7 +295,7 @@ Diventa così molto facile gestire un numero qualsiasi di unità con qualsiasi t
 
 <div class="mw-translate-fuzzy">
 
-## Prossime azioni {#prossime_azioni}
+## Prossime azioni 
 
 -   Implementing Quantity and Unit classes (mostly done)
 -   Implementing InputField as User front end (in progress)

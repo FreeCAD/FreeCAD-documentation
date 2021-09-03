@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Aktualne stabilne wersje {#aktualne_stabilne_wersje}
+## Aktualne stabilne wersje 
 
 Pierwsze wydanie **0.19.2** *(24291)* programu FreeCAD zostało opublikowane 2021-04-22. Aby dowiedzieć się o nowościach, zobacz [Informacje o wydaniu](Release_notes_0.19/pl.md).
 
@@ -16,18 +16,18 @@ Poprzednie wersje można pobrać ze strony [wydań](https://github.com/FreeCAD/F
 | [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD-0.19.2.7b5e18a-WIN-x64-installer1.exe) (includes installer) |   | [macOS](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD_0.19-24291-macOS-x86_64-conda.dmg) 64-bit |   | [AppImage](AppImage.md) 64-bit |
 +------------------------------------------------------------------------------------------------------------------------------------------+---+--------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------+
 
-### Uwagi dla użytkowników systemu Windows {#uwagi_dla_użytkowników_systemu_windows}
+### Uwagi dla użytkowników systemu Windows 
 
 -   Instalator wersji 32-bit *(x86)* obsługuje następujące wersje systemu Windows: 7/8/10.
 -   Instalator wersji 64-bit *(x64)* obsługuje następujące wersje systemu Windows: 7/8/10.
 -   Wersja portable *([64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD-0.19.2.7b5e18a-WIN-x64-portable1.7z))*, która nie wymaga instalacji, znajduje się na stronie wydania.
 -   Pakiet można również zainstalować za pomocą menedżera [Chocolatey](https://chocolatey.org/packages/freecad).
 
-### Uwagi dla użytkowników systemu Mac OS X {#uwagi_dla_użytkowników_systemu_mac_os_x}
+### Uwagi dla użytkowników systemu Mac OS X 
 
 Mac OS X 10.12 **Sierra** jest wersją wymaganą jako minimalna.
 
-### Uwagi dla użytkowników systemu GNU/Linux {#uwagi_dla_użytkowników_systemu_gnulinux}
+### Uwagi dla użytkowników systemu GNU/Linux 
 
 Większość dystrybucji nosi FreeCAD w swoich oficjalnych repozytoriach, jednak jeśli dystrybucja nie podąża za modelem kroczącego wydania, wersja, którą dostarczają, może być nieaktualna. Zamiast tego możesz pobrać powyższy AppImage, oznaczyć go jako wykonywalny i uruchomić go bez instalacji.
 
@@ -42,7 +42,7 @@ HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD_0.19-23756-Linu
 
 Więcej informacji na temat zmiennych środowiskowych FreeCAD można znaleźć na stronie [uruchomienie i konfiguracja](Start_up_and_Configuration/pl#Zmienne_.C5.9Brodowiskowe/pl.md).
 
-## Wersje rozwojowe {#wersje_rozwojowe}
+## Wersje rozwojowe 
 
 FreeCAD jest aktywnie rozwijany.
 
@@ -50,7 +50,7 @@ FreeCAD jest aktywnie rozwijany.
 -   Dla obserwowania rozwoju w MacOS i kompilacji Windows oraz kodu źródłowego, zobacz stronę [weekly builds](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds).
 -   Aby skompilować najnowszy kod źródłowy, proszę zobaczyć opis [kompilacji](Compiling/pl.md).
 
-## Dodatkowe moduły i makra {#dodatkowe_moduły_i_makra}
+## Dodatkowe moduły i makra 
 
 Społeczność FreeCAD dostarcza wiele dodatkowych modułów i makr. Od wersji *0.17* można je łatwo zainstalować z poziomu FreeCAD za pomocą narzędzia [Addon manager](Addon_Manager.md). <img alt="" src=images/AddonManager.svg  style="width:22px;">.
 

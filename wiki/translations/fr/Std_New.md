@@ -17,12 +17,12 @@ La commande **Std Nouveau** crée un nouveau document vide et en fait le documen
 1.  Lancez la commande de plusieurs manières:
     -   En appuyant sur le bouton **<img src="images/Std_New.svg" width=16px> [Std Nouveau](Std_New/fr.md)
 **
-2.  \* Sélectionnez l\'option {{MenuCommand|File → <img src="images/Std_New.svg" width=16px> Nouveau}} dans le menu.
+2.  \* Sélectionnez l\'option **File → <img src="images/Std_New.svg" width=16px> Nouveau** dans le menu.
 3.  \* Utilisez le raccourci clavier: **Ctrl**+**N**.
 
 ## Préférences
 
--   FreeCAD créera un nouveau document au démarrage si {{MenuCommand|Outils → Editer paramètres ... → BaseApp → Preferences → Document → CreateNewDoc}} est réglé sur `True`. Ce paramètre peut également être modifié dans les [Réglage des préférences](Preferences_Editor/fr#Document.md).
+-   FreeCAD créera un nouveau document au démarrage si **Outils → Editer paramètres ... → BaseApp → Preferences → Document → CreateNewDoc** est réglé sur `True`. Ce paramètre peut également être modifié dans les [Réglage des préférences](Preferences_Editor/fr#Document.md).
 -   Certaines propriétés du document: noms d\'auteur, nom de l\'entreprise et informations de licence, peuvent être prédéfinies dans [Réglage des préférences](Preferences_Editor/fr#Document.md).
 
 ## Propriétés

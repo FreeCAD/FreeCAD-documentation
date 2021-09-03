@@ -15,17 +15,17 @@ Nagranie wideo przedstawiające całą konstrukcję znajduje się tutaj: <https:
 
 *(każda sekcja ma swój własny podział Wideo poniżej)*
 
-## Nim zaczniesz {#nim_zaczniesz}
+## Nim zaczniesz 
 
 ## Zadanie
 
 W tym poradniku, za pomocą stanowiska roboczego Projekt Części utworzysz trójwymiarowy model bryłowy części pokazanej na [Rysunku](Drawing_Workbench/pl.md) poniżej. Podane są wszystkie wymiary niezbędne do wykonania tego zadania. Rozpoczniesz od stworzenia kształtu rdzenia z bazowego szkicu, a następnie zbudujesz go na tym kształcie, dodając coś, co jest znane jako Cechy. Cechy te albo dodadzą materiał do bryły, albo usuną materiał z bryły za pomocą dodatkowych szkiców i towarzyszących im operacji na cechach. Przewodnik ten nie będzie wykorzystywał wszystkich funkcji i narzędzi dostępnych w środowisku Part Design, ale powinien wykorzystywać je na tyle, aby dać użytkownikowi tego przewodnika solidne podstawy, na których będzie mógł budować swoją wiedzę i umiejętności.
 
-## Model detalu {#model_detalu}
+## Model detalu 
 
 ![](images/Tutorial_Drawing_Sheet.png )
 
-## Konstruowanie części {#konstruowanie_części}
+## Konstruowanie części 
 
 ### Rozpoczynamy
 
@@ -43,7 +43,7 @@ Wszystkie prace w środowisku Projekt Części rozpoczynają się od stworzenia 
 
 Po kliknięciu **OK**, FreeCAD automatycznie przełącza się do Środowiska pracy [Sketcher](Sketcher_Workbench/pl.md) i otwiera szkic w trybie edycji: ![](images/Tut17_sketcherempty.png )
 
-### Tworzenie szkicu {#tworzenie_szkicu}
+### Tworzenie szkicu 
 
 Następnie należy użyć narzędzia <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [polilinia](Sketcher_CreatePolyline/pl.md) i wykonać kształt mniej więcej taki jak na następnym obrazku. Nie musi być on idealny, ponieważ kształt końcowy jest wykonywany z użyciem wiązań. Kiedy już będziesz miał podstawowy kształt, zaczniemy wprowadzać wiązania. Jeśli miałeś włączoną opcję Automatyczne wiązania, niektóre z tych wiązań zostaną zastosowane natychmiast, jeśli nie, wykonaj następujące czynności. Ale najpierw upewnij się, że opuściłeś narzędzie polilinia, klikając prawym przyciskiem myszy lub dwukrotnie naciskając klawisz **ESC**. Kursor myszki powinien zmienić się z krzyżyka na standardowy kursor strzałki. \'\'(Nie naciskaj klawisza **ESC** po raz trzeci, gdyż inaczej wyjdziesz z trybu edycji szkicu. Jeśli tak się stanie, kliknij zakładkę **Model**, a następnie kliknij dwukrotnie element szkicu na drzewie lub w menu kontekstowym kliknij prawym przyciskiem myszy i wybierz *\'Edytuj szkic*).
 
@@ -59,7 +59,7 @@ W tym momencie powinieneś mieć w pełni związany szkic, na co wskazuje zmiana
 
 Poniżej znajduje się nagranie wideo z kroków użytych w tej części poradnika: <https://youtu.be/cUyPnCMeTgg>
 
-### Cechy charakterystyczne dla kieszeni i geometrii zewnętrznej {#cechy_charakterystyczne_dla_kieszeni_i_geometrii_zewnętrznej}
+### Cechy charakterystyczne dla kieszeni i geometrii zewnętrznej 
 
 Za pomocą myszki lub ikon widoku obróć model, aby zobaczyć jego tył. Gdy tylna strona części jest już widoczna, zaznacz ją klikając w sposób widoczny na następnym obrazku. <img alt="" src=images/PD_WB_Tutorial003.png ) Po wybraniu powierzchni, kliknij na ikonę nowego szkicu na pasku narzędzi lub z menu Part Design, co spowoduje mapowanie naszego kolejnego szkicu do tylnej powierzchni części. Teraz wybierz narzędzie ![](images/Sketcher_CreateRectangle.svg  style="width:32px;"> prostokąt i umieść prostokąt na tylnej ścianie części w podobny sposób, jak pokazano poniżej. Teraz wykonaj poniższe kroki, wiążąc szkic.
 
@@ -78,7 +78,7 @@ Aby wykonać kolejną operację, upewnij się, że w widoku drzewa modelu wybran
 
 Nagranie wideo z kroków użytych w tej części poradnika dostępne jest tutaj: <https://youtu.be/wiGXV9G7mrM>
 
-### Opcje wyciągnięcia i geometrii zewnętrznej {#opcje_wyciągnięcia_i_geometrii_zewnętrznej}
+### Opcje wyciągnięcia i geometrii zewnętrznej 
 
 Po obejrzeniu obróć widok z powrotem i ponownie wybierz tylną powierzchnię części i kliknij w tę ścianę, aby odwzorować następny szkic. ![](images/tut17_profilewithslotsrearplane.png ) Wybierz opcję **Nowy szkic** i utwórz nowy prostokąt w sposób podobny do tego, który jest pokazany na następnym obrazku poniżej. Następnie przejdź do dodania wiązań wymiarowych do prostokąta.
 
@@ -94,7 +94,7 @@ Następnie klikamy na funkcję **Wyciągnięcia** by następnie w oknie dialogow
 
 Poniżej znajduje się nagranie wideo z kroków użytych w tej części poradnika: <https://youtu.be/Ido1owp8ubc>
 
-### Opcje kieszeni i geometrii zewnętrznej {#opcje_kieszeni_i_geometrii_zewnętrznej}
+### Opcje kieszeni i geometrii zewnętrznej 
 
 W tym momencie poruszając się dookoła tej części, widzimy, że nasza część zaczyna wyglądać jak część na rysunku wymiarowym zamieszczonym na początku tego poradnika. Kiedy już będziesz miał widok od przodu, kliknij myszą na pochyloną ścianę, aby wybrać powierzchnię, której będziemy używać do kolejnego szkicu. ![](images/tut17_innerplane.png ) Tutaj użyjemy narzędzia **Utwórz prostokąt** i umieścimy prostokąt w naszym szkicu, a po jego wykonaniu zastosujemy następujące wiązania:
 
@@ -140,7 +140,7 @@ Poniżej znajduje się link do nagrania wideo z kroków użytych w tej części 
 
 Ten poradnik i twój model zostałty ukończone.
 
-## Dodatkowe zasoby {#dodatkowe_zasoby}
+## Dodatkowe zasoby 
 
 -   Plik projektu FreeCAD do porównania *(wykonany w wersji 0.17)* [Pobierz](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
 

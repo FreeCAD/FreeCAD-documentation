@@ -20,7 +20,7 @@ Si noti che un clone di un clone diventa una Copia di Sketcher. Se si desidera c
 ## Utilizzo
 
 1.  Selezionare l\'elemento dello schizzo che si desidera clonare.
-2.  Cliccare su **<img src=images/Sketcher_Clone.svg style="width:16px"> Clona** oppure scegliere {{MenuCommand|Sketch → Strumenti  → <img src=images/Sketcher_Clone.svg style="width:16px"> Clona}} dal menu principale.
+2.  Cliccare su **<img src=images/Sketcher_Clone.svg style="width:16px"> Clona** oppure scegliere **Sketch → Strumenti  → <img src=images/Sketcher_Clone.svg style="width:16px"> Clona** dal menu principale.
 3.  Posizionare il clone nella vista 3D.
 
 Per il clone non vengono aggiunti vincoli specifici.

@@ -26,22 +26,22 @@ The **Docked** menu option docks the active [3D view](3D_view.md) inside the mai
 
 1.  Activate an undocked 3D view.
 2.  There are several ways to invoke the option:
-    -   If there are no docked 3D views: select the {{MenuCommand|View → Document window → Docked}} option from the menu.
-    -   Select the {{MenuCommand|Document window → Docked}} option from the 3D view context menu.
+    -   If there are no docked 3D views: select the **View → Document window → Docked** option from the menu.
+    -   Select the **Document window → Docked** option from the 3D view context menu.
     -   Use the keyboard shortcut: **V** then **D**.
 
 ## Sganciata
 
-### Descrizione {#descrizione_1}
+### Descrizione 
 
 The **Undocked** menu option undocks the active [3D view](3D_view.md) from the main FreeCAD interface.
 
-### Utilizzo {#utilizzo_1}
+### Utilizzo 
 
 1.  Activate a docked 3D view.
 2.  There are several ways to invoke the option:
-    -   Select the {{MenuCommand|View → Document window → Undocked}} option from the menu.
-    -   Select the {{MenuCommand|Document window → Undocked}} option from the 3D view context menu.
+    -   Select the **View → Document window → Undocked** option from the menu.
+    -   Select the **Document window → Undocked** option from the 3D view context menu.
     -   Use the keyboard shortcut: **V** then **U**.
 
 ## Note

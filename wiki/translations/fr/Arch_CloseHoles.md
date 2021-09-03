@@ -14,7 +14,7 @@ Cet outil identifie les trous (séquence circulaire d\'arêtes ouvertes (edges))
 ## Utilisation
 
 1.  Sélectionnez un objet [Shape](Part_Workbench/fr.md).
-2.  Appuyez sur l\'entrée **<img src="images/Arch_CloseHoles.svg" width=16px> [Fermer les trous](Arch_CloseHoles/fr.md)** dans {{MenuCommand|Arch → Utilitaires → Fermer les trous}}.
+2.  Appuyez sur l\'entrée **<img src="images/Arch_CloseHoles.svg" width=16px> [Fermer les trous](Arch_CloseHoles/fr.md)** dans **Arch → Utilitaires → Fermer les trous**.
 
 ## Script
 

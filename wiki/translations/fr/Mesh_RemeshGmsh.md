@@ -18,8 +18,8 @@ La commande **Mesh Affinage** remet à nouveau un objet maillé en utilisant le 
 2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Affiner le maillage existant](Mesh_RemeshGmsh/fr.md)
 **
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Affinage...}} dans le menu.
-3.  Le panneau des tâches {{MenuCommand|Remaiilage par gmsh}} s\'ouvre.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Affinage...** dans le menu.
+3.  Le panneau des tâches **Remaiilage par gmsh** s\'ouvre.
 4.  Spécifiez les paramètres requis. Voir la [configuration du mailleur Gmsh](Mesh_FromPartShape/fr#Mailleur_Gmsh.md) de la commande [Mesh Tesselation](Mesh_FromPartShape/fr.md).
 5.  Appuyez sur le bouton **Apply** pour remailler l\'objet maillé.
 6.  Modifiez éventuellement un ou plusieurs paramètres et appuyez à nouveau sur le bouton **Apply** jusqu\'à ce que le nouveau maillage vous convienne.

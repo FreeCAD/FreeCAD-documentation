@@ -10,7 +10,7 @@
 
 Diese Seite zeigt dir, wie du einen neuen Arbeitsbereich zur FreeCAD Oberfläche hinzufügst. [Arbeitbereiche](Workbenches/de.md) sind Behälter für FreeCAD Befehle. Sie können in Python, in C++ oder in einer Mischung aus beidem programmiert werden, was den Vorteil hat, die Geschwindigkeit von C++ mit der Flexibilität von Python zu verbinden. In allen Fällen wird dein Arbeitsbereich jedoch durch einen Satz von zwei Python Dateien gestartet.
 
-## Die Arbeitsbereichsstruktur {#die_arbeitsbereichsstruktur}
+## Die Arbeitsbereichsstruktur 
 
 Du benötigst einen Ordner mit irgendeinem Namen den du magst, platziert im Benutzer Mod Verzeichnis, mit einer `Init.py` Datei und wahlweise, einer `InitGui.py` Datei. Die Init Datei wird immer ausgeführt wenn FreeCAD startet, und die `InitGui.py` Datei wird unmittelbar danach ausgeführt wird, aber nur, wenn FreeCAD im GUI Modus startet. Das ist alles, was FreeCAD braucht, um deinen Arbeitsbereich beim Start zu finden und ihn in seine Oberfläche aufzunehmen.
 
@@ -39,7 +39,7 @@ Innerhalb dieser Dateien kannst du tun, was immer du willst. Normalerweise werde
 Die hier beschriebene Struktur und der Dateiinhalt eines Arbeitsbereich sind der klassische Weg beim Anlegen eines Arbeitsbereichs. Man kann eine leichte Abwandlung in der Dateistruktur benutzen, wenn ein neuer Python-Arbeitsbereich erstellt werden soll; dieser alternative Weg kann am besten als \"namespaced workbench\" (Arbeitsbereich mit eigenem Namensraum) bezeichnet werden, wodurch die Möglichkeit eröffnet wird, pip zur Installation des neuen Arbeitsbereichs zu verwenden. Das Aussehen und die Struktur von hier gezeigten Arbeitsbereichen sind im globalen Namensraum von FreeCAD enthalten, während sich das alternative Aussehen und die Struktur des Arbeitsbereichs in einem dedizierten Namensraum befindet.
 Weitere Informationen zu dem Thema findest du unter [Verwandtes](Workbench_creation/de#Related.md).
 
-### C++ Arbeitsbereichsstruktur {#c_arbeitsbereichsstruktur}
+### C++ Arbeitsbereichsstruktur 
 
 Wenn du deinen Arbeitsbereich in Python programmieren willst, brauchst du keine besondere Vorsicht walten zu lassen und kannst einfach deine anderen Python Dateien zusammen mit deinen Init.py und InitGui.py Dateien unterbringen. Wenn du jedoch mit C++ arbeitest, solltest du größere Sorgfalt walten lassen und damit beginnen, eine grundlegende Regel von FreeCAD zu beachten: Die Trennung deines Arbeitsbereichs zwischen einem Anwendungsteil (der im Konsolenmodus laufen kann, ohne jedes GUI Element) und einem Gui Teil, der nur geladen wird, wenn FreeCAD mit seiner vollständigen GUI Umgebung läuft. Wenn du also einen C++ Arbeitsbereich verwendest, wirst du höchstwahrscheinlich zwei Module verwenden, eine Anwendung und eine Gui. Diese beiden Module müssen natürlich von Python aus aufrufbar sein. Jedes FreeCAD Modul (Anwendung oder Gui) besteht mindestens aus einer Modul Init Datei. Dies ist eine typische AppMyModuleGui.cpp Datei: 
 ```python
@@ -70,7 +70,7 @@ extern "C" {
 }
 ```
 
-### Die Init.py Datei {#die_init.py_datei}
+### Die Init.py Datei 
 
 
 {{code|code=
@@ -108,7 +108,7 @@ Du kannst jede beliebige Lizenz für deinen Arbeitsbereich wählen, aber sei dir
 
 Die `FreeCAD.addImportType()` und `addEXportType()` Funktionen ermöglichen es dir, den Namen und die Erweiterung eines Dateityps sowie ein für seinen Import verantwortliches Python-Modul anzugeben. Im obigen Beispiel wird ein `importOwn.py` Modul `.own` Dateien handhaben. Siehe [Codeschnipsel](Code_snippets/de.md) für weitere Beispiele.
 
-### Python Arbeitsbereiche {#python_arbeitsbereiche}
+### Python Arbeitsbereiche 
 
 Dies ist die InitGui.py Datei: 
 ```python
@@ -173,7 +173,7 @@ Hinzufügen deiner Einstellungsseite(n):
 -   In deinem Arbeitsbereich, z.B. innerhalb der InitGui Datei, innerhalb der Initialisierungsmethode (aber jeder andere Ort funktioniert auch), füge: FreeCADGui.addPreferencePage(\"/path/to/myUiFile.ui\",\"MyGroup\"), \"MyGroup\" als eine der Präferenzgruppen auf der linken Seite. FreeCAD sucht automatisch nach einer \"preferences-mygroup.svg\" Datei an den bekannten Speicherorten (die du mit FreeCADGui.addIconPath() erweitern kannst)
 -   Stelle sicher, dass die Methode addPreferencePage() nur einmal aufgerufen wird, andernfalls wird deine Vorzugsseite mehrmals hinzugefügt
 
-### C++ Arbeitsbereiche {#c_arbeitsbereiche}
+### C++ Arbeitsbereiche 
 
 Wenn du deinen Arbeitsbereich in C++ programmierst, wirst du wahrscheinlich die Arbeitsbereichsdefinition selbst auch in C++ programmieren (obwohl es nicht notwendig ist: du könntest auch nur die Werkzeuge in C++ programmieren und die Arbeitsbereichsdefinition in Python belassen). In diesem Fall, wird die Datei InitGui.py sehr einfach: Sie könnte nur eine Zeile enthalten: 
 ```pythonimport MyModuleGui``` wobei MyModule dein vollständiger C++ Arbeitsbereich ist, der die Befehle und Arbeitsbereichsdefinition einschließt.
@@ -199,15 +199,15 @@ namespace MyModuleGui {
 }
 ```
 
-#### Einstellungen {#einstellungen_1}
+#### Einstellungen 
 
 Du kannst auch eine Voreinstellungsseite für C++ Arbeitsbereiche hinzufügen. Die Schritte sind ähnlich wie die für Python.
 
-## FreeCAD Befehle {#freecad_befehle}
+## FreeCAD Befehle 
 
 FreeCAD Befehle sind die Grundbausteine der FreeCAD Oberfläche. Sie können als Knöpfe in Werkzeugleisten und als Einträge in Menüs erscheinen. Es handelt sich dabei immer um den selben Befehl. Ein Befehl ist einfach eine Python Klasse, die eine Reihe von vordefinierten Attributen und Funktionen enthält, wie der Befehlsname, das Symbol und der Code, der ausgeführt wird, wenn der Befehl aktiviert wird.
 
-### Python Befehlsdefinition {#python_befehlsdefinition}
+### Python Befehlsdefinition 
 
 
 ```python
@@ -232,7 +232,7 @@ class My_Command_Class():
 FreeCADGui.addCommand('My_Command',My_Command_Class())
 ```
 
-### C++ Befehlsdefinition {#c_befehlsdefinition}
+### C++ Befehlsdefinition 
 
 In ähnlicher Weise kannst du deine Befehle in C++ programmieren, normalerweise hast du eine Commands.cpp Datei in deinem Gui Modul. Dies ist eine typische Commands.cpp Datei: 
 ```pythonDEF_STD_CMD_A(CmdMyCommand);
@@ -272,7 +272,7 @@ void CreateMyModuleCommands(void)
 }
 ```
 
-## \"Kompilieren\" deiner Ressourcendatei {#kompilieren_deiner_ressourcendatei}
+## \"Kompilieren\" deiner Ressourcendatei 
 
 compileA2pResources.py aus dem A2Plus Arbeitsbereich:
 

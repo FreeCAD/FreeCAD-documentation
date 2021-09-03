@@ -18,9 +18,9 @@ Das **<img src="images/Draft_AnnotationStyleEditor.svg" width=24px> [Anmeldungss
 
 1.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Draft Anmerkungsstil-Editor](Draft_AnnotationStyleEditor/de.md)**-Schaltfläche.
-    -   Wähle die {{MenuCommand|Annotation → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Anmerkungs Stile...}}-Option aus dem Menü.
-2.  Die {{MenuCommand|Anmerkungsstil-Editor}}-Dialog-Box öffnet sich.
-3.  Wähle einen Stil aus der {{MenuCommand|Stil-Name}} Aufklappliste oder wähle {{Value|Neu hinzufügen...}}, um einen neuen Stil zu definieren.
+    -   Wähle die **Annotation → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Anmerkungs Stile...**-Option aus dem Menü.
+2.  Die **Anmerkungsstil-Editor**-Dialog-Box öffnet sich.
+3.  Wähle einen Stil aus der **Stil-Name** Aufklappliste oder wähle {{Value|Neu hinzufügen...}}, um einen neuen Stil zu definieren.
 4.  Passe wahlweise die Eigenschaften des Stils an.
 5.  Drücke wahlweise die **<img src=images/Accessories-text-editor.svg style="width:16px"> Umbenennen**-Schaltläche, um den Stil umzubenennen.
 6.  Drücke wahlweise die **<img src=images/Edit_Cancel.svg style="width:16px"> Löschen**-Schaltfläche, um den Stil zu löschen.

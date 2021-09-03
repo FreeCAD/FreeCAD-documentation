@@ -34,7 +34,7 @@ Les autres propriétés de cet objet sont celles liées à l\'apparence de son [
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets crées par script peuvent avoir.
 
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande {{MenuCommand|Show all}} dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
 
 ### Données
 
@@ -62,7 +62,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property
 
 -    {{PropertyData/fr|Label|String}}: le nom modifiable par l\'utilisateur de cet objet, c\'est une chaîne UTF8 arbitraire.
 
-##### Propriétés cachées de Données {#propriétés_cachées_de_données}
+##### Propriétés cachées de Données 
 
 
 {{TitleProperty|Base}}
@@ -114,7 +114,7 @@ La plupart des objets dans FreeCAD ont ce qu\'on appelle un \"fournisseur de vue
 
 -    {{PropertyView/fr|Visibility|Bool}}: s\'il est `True`, l\'objet apparaît dans la [vue 3D](3D_view/fr.md); sinon, il est invisible. Par défaut, cette propriété peut être activée et désactivée en appuyant sur la barre **Espace** du clavier.
 
-##### Propriétés cachées de Données {#propriétés_cachées_de_données_1}
+##### Propriétés cachées de Données 
 
 
 {{TitleProperty|Base}}

@@ -15,7 +15,7 @@ Po stažení souboru .msi (Microsoft Installer) jenom na něj dvojklikněte a sp
 
 Dále jsou další informace o technických volbách. Jestli se Vám zdají strašidelné, žádný problém! Většina uživatelů Windows nebude k instalaci FreeCADu potřebovat nic víc než nainstalovat .msi a **[ začít](Getting_started/cs.md)**!
 
-### Jednoduchá instalace s Microsoft Installerem {#jednoduchá_instalace_s_microsoft_installerem}
+### Jednoduchá instalace s Microsoft Installerem 
 
 Nejsnadnější způsob **instalace FreeCADu na Windows** je použít výše uvedný instaler. Tato stránka popisuje použití a vlastnosti *Microsoft Installeru* s dalšími instalačními volbami.
 
@@ -41,13 +41,13 @@ choco upgrade freecad
 
 to get the latest version available on Chocolatey repository. If there are any issues with the chocolatey package, you may contact maintainers on [this page](https://chocolatey.org/packages/freecad).
 
-### Instalace z příkazové řádky {#instalace_z_příkazové_řádky}
+### Instalace z příkazové řádky 
 
 Při použití příkazové utility *msiexec.exe* jsou dostupné další možnosti, jako jsou neinteraktivní instalace a administrátorská instalace.
 
 With the *msiexec.exe* command line utility, additional features such as non-interactive installation and administrative installation are available. See examples below.
 
-#### Neinteraktivní instalace {#neinteraktivní_instalace}
+#### Neinteraktivní instalace 
 
 z příkazové řádky
 
@@ -65,7 +65,7 @@ instalace může být iniciována programově. Dodatečné parametry mohou být 
 msiexec /i FreeCAD-2.5.msi TARGETDIR=R:\FreeCAD25
 ```
 
-#### Omezený uživatelský interface {#omezený_uživatelský_interface}
+#### Omezený uživatelský interface 
 
 Množství uživatelského interface, který je zobrazován instalerem může být řízeno volbou /q, hlavně:
 
@@ -84,7 +84,7 @@ The amount of user control permitted by the installer can be controlled with /q 
 
 </div>
 
-#### Cílový adresář {#cílový_adresář}
+#### Cílový adresář 
 
 Vlastnost TARGETDIR určuje základní adresář pro instalaci FreeCADu. Například jiný disk pro instalaci může být specifikován takto
 
@@ -97,7 +97,7 @@ TARGETDIR=R:\FreeCAD25
 
 Defaultní TARGETDIR je \[WindowsVolume\\Programm Files\\\]FreeCAD.
 
-#### Instalace pro všechny uživatele {#instalace_pro_všechny_uživatele}
+#### Instalace pro všechny uživatele 
 
 Přidání
 
@@ -110,7 +110,7 @@ ALLUSERS=1
 
 provede instalaci pro všechny uživatele. Standardně neinteraktivní instalace nainstaluje balíček právě jen pro aktuálního uživatele a interaktivní instalace nabízí dialog s přednastavením pro \"všechny uživatele\" pokud má aktuální uživatel dostatečná oprávnění.
 
-#### Výběr vlastností {#výběr_vlastností}
+#### Výběr vlastností 
 
 K dispozici je spousta možností vyběru k instalaci, reinstalaci nebo odstranění. Seznam možností pro FreeCAD instaler je
 
@@ -153,7 +153,7 @@ msiexec /x FreeCAD<version>.msi
 
 může být FreeCAD odinstalován. Pro odinstalaci není nutné mít dostupný MSI soubor; alternativně může být specifikován balíček nebo kód produktu. Kód produktu můžete nalézt, když se podíváte na vlastnosti odkazu Uninstal, který FreeCAd nainstaluje do startovního menu.
 
-### Administrátorská instalace {#administrátorská_instalace}
+### Administrátorská instalace 
 
 Pomocí
 
@@ -185,7 +185,7 @@ by mělo být v podstatě možné \"propagovat\" FreeCAD na počítači (s /ju n
 
 V současnosti instaler FreeCADu podporuje pouze propagaci ve startovním menu ale ne v odkazech.
 
-### Automatická instalace na skupině počítačů {#automatická_instalace_na_skupině_počítačů}
+### Automatická instalace na skupině počítačů 
 
 S Windows Group Policy je možné automaticky nainstalovat FreeCAD na skupinu počítačů. K tomu je potřeba udělat následující kroky:
 
@@ -215,7 +215,7 @@ With Windows Group Policy, it is possible to automatically install FreeCAD on a 
 
 Propagace Skupinové politiky typicky zabere nějaký čas - ke spolehlivému rozšíření balíčku by měly být restartovány všechny počítače.
 
-### Instalace na Linux použitím Crossover Office {#instalace_na_linux_použitím_crossover_office}
+### Instalace na Linux použitím Crossover Office 
 
 Na Linuxový systém můžete nainstalovat windowsovskou verzi FreeCADu použitím *CXOffice 5.0.1*. Spusťte *msiexec* z příkazového řádku CXOffice, předpokládá se, že instalační balíček je umístěn v \"softwarovém\" adresáři, který je namapován na disk \"Y:\":
 

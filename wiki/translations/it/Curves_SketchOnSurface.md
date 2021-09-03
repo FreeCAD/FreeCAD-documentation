@@ -24,14 +24,14 @@ This tool maps a sketch onto a face, like a label on a bottle. The sketch must b
     3.  Exit edit mode.
     4.  Select the sketch and activate SketchOnSurface by either:
         1.  Pressing on the <img alt="" src=images/Curves_SketchOnSurface.svg  style="width:24px;"> button
-        2.  Using the {{MenuCommand|Surfaces → Sketch on Surface}} entry in the Curves menu
+        2.  Using the **Surfaces → Sketch on Surface** entry in the Curves menu
 
     You have no sketch to map yet:
 
     1.  Select the target face in the [3D view](3D_view.md)
     2.  Activate SketchOnSurface by either:
         1.  Pressing on the <img alt="" src=images/Curves_SketchOnSurface.svg  style="width:24px;"> button
-        2.  Using the {{MenuCommand|Surfaces → Sketch on Surface}} entry in the Curves menu
+        2.  Using the **Surfaces → Sketch on Surface** entry in the Curves menu
 
         :   A \"Sketch on surface\" object appears in the [Combo view](Combo_view.md).
         :   Click on this object to make \"Mapped sketch\" appear below.

@@ -48,7 +48,7 @@ The following are pulled from:
 -   OpStartDepth - The value of the FinalDepth property
 -   OpToolDiameter - The value of the Tool Diameter property of the Tool Controller referenced by the operation.
 
-## SetupSheet Values {#setupsheet_values}
+## SetupSheet Values 
 
 Other values in the SetupSheet can be referenced directly:
 

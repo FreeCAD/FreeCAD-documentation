@@ -33,10 +33,10 @@ Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Co
 1.  Wähle optional ein oder mehrere Objekte aus.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_Mirror.svg" width=16px> [Entwurf Spiegeln](Draft_Mirror/de.md)** Schaltfläche.
-    -   Wählen die Option {{MenuCommand|Änderung → <img src="images/Draft_Mirror.svg" width=16px> Spiegeln}} aus dem Menü.
+    -   Wählen die Option **Änderung → <img src="images/Draft_Mirror.svg" width=16px> Spiegeln** aus dem Menü.
     -   Verwende das Tastaturkürzel: **M** und dann **I**.
 3.  Wenn du noch kein Objekt ausgewählt hast: Wähle ein Objekt in der [3D-Ansicht](3D_view/de.md).
-4.  Das Aufgabenfeld {{MenuCommand|Spiegeln}} öffnet sich. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+4.  Das Aufgabenfeld **Spiegeln** öffnet sich. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 5.  Wähle den ersten Punkt der Spiegelebene in der [3D-Ansicht](3D_view/de.md), oder gib die Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
 6.  Wähle den zweiten Punkt der Spiegelebene in der [3D Ansicht](3D_view/de.md), oder gib die Koordinaten ein und drücke die**<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
 7.  Die Spiegelebene wird durch die ausgewählten Punkte und die Normale der [Entwurf Arbeitsebene](Draft_SelectPlane/de.md) definiert.
@@ -46,10 +46,10 @@ Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Co
 The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the {{MenuCommand|Relative}} checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
--   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   The {{MenuCommand|Continue}} checkbox has no purpose for this command.
--   The {{MenuCommand|Modify subelements}} checkbox has no purpose for this command.
+-   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   The **Continue** checkbox has no purpose for this command.
+-   The **Modify subelements** checkbox has no purpose for this command.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
@@ -62,7 +62,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Eigenschaften
 

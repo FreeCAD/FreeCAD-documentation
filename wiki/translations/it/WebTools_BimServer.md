@@ -64,13 +64,13 @@ Per poter utilizzare questo comando, devono essere soddisfatte le seguenti condi
 
 </div>
 
-### Scaricare le revisioni {#scaricare_le_revisioni}
+### Scaricare le revisioni 
 
 -   La casella a discesa **Project** mostra i progetti disponibili memorizzati sul BIMServer. Sceglierne uno per vedere le versioni disponibili per quel progetto.
 -   Selezionare una revisione e fare clic su **Open** per scaricare il file IFC corrispondente a quella revisione e aprirlo in FreeCAD.
 -   Quando si preme il pulsante **Open**, si apre una finestra di dialogo che consentire di salvare il file IFC scaricato in una posizione a propria scelta, prima di aprirlo. Se si preme **Cancel**, il file viene invece salvato con un nome temporaneo nella directory temporanea del sistema.
 
-### Caricare le revisioni {#caricare_le_revisioni}
+### Caricare le revisioni 
 
 
 <div class="mw-translate-fuzzy">

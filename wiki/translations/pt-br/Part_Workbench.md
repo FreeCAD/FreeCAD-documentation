@@ -31,7 +31,7 @@ Os objetos das peças são mais complexos que os objetos de malha criados com a 
 
 ## Ferramentas
 
-As ferramentas estão localizadas no menu {{MenuCommand|Part}} ou no menu {{MenuCommand|Medida}}.
+As ferramentas estão localizadas no menu **Part** ou no menu **Medida**.
 
 ### Primitivas
 
@@ -69,7 +69,7 @@ Essas são ferramentas para criar objetos primitivos.
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Construtor de formas](Part_Builder/pt-br.md): Uma ferramenta para criar formas mais complexas a partir de diversas primitivas geométricas paramétricas.
 
-### Criação e modificação {#criação_e_modificação}
+### Criação e modificação 
 
 Estas são ferramentas para criar novos objetos e modificar os existentes.
 
@@ -151,7 +151,7 @@ Estas ferramentas realizam operações booleanas.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Alternar o Delta](Part_Measure_Toggle_Delta/pt-br.md): Mostra ou esconde medidas delta.
 
-### Outras ferramentas {#outras_ferramentas}
+### Outras ferramentas 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Importar](Part_Import/pt-br.md): Esta ferramenta te permite adicionar um arquivo \*.IGES, \*.STEP, \*.BREP ao documento.
 
@@ -177,7 +177,7 @@ Estas ferramentas realizam operações booleanas.
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Desnaturalização](Part_Defeaturing/pt-br.md): Remove recursos de um objeto.
 
-### Itens do menu de contexto {#itens_do_menu_de_contexto}
+### Itens do menu de contexto 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aparência](Std_SetAppearance/pt-br.md): Determina a aparência de um objeto inteiro (cor, transparência, etc.).
 

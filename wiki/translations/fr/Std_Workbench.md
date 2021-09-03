@@ -26,7 +26,7 @@ La commande **Std Atelier** active l\'un des [ateliers](Workbenches/fr.md) séle
 
 ## Préférences
 
--   L\'atelier de démarrage peut être modifié dans les préférences : {{MenuCommand|Edition → Préférences... → Général → Général → Démarrage}}. Voir [Réglage des préférences](Preferences_Editor/fr#G.C3.A9n.C3.A9ral.md).
+-   L\'atelier de démarrage peut être modifié dans les préférences : **Edition → Préférences... → Général → Général → Démarrage**. Voir [Réglage des préférences](Preferences_Editor/fr#G.C3.A9n.C3.A9ral.md).
 
 ## Script
 

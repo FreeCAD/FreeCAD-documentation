@@ -36,12 +36,12 @@ Este paso se denomina *postprocesamiento*; hay diferentes postprocesadores dispo
 
 </div>
 
-## General concepts {#general_concepts}
+## General concepts 
 
 
 <div class="mw-translate-fuzzy">
 
-## Conceptos generales {#conceptos_generales}
+## Conceptos generales 
 
 El ambiente de trabajo Trayectoria genera el codigo G definiendo las trayectorias requeridas para mecanizar el proyecto representado por el modelo 3D al mecanizado objetivo dentro del [el dialeto del código G de las operaciones de ruta de FreeCAD](Path_scripting#The_FreeCAD_Internal_GCode_Format/es.md), el cual luego es traducida al apropiado dialeto para el controlador CNC seleccionando el pos procesador apropiado. El código G generado de directivas y operaciones contenidas en el objecto trabajo. El flujo de trabajo lista estos en el orden que seran ejecutados. La lista esta poblada por operaciones agregar trayectorias, enmascarado de trayectorias, comandos parciales de trayectorias y modificacion de trayectorias del menu de trayectoria o botones GUI.
 
@@ -63,10 +63,10 @@ El banco de trabajo Trayectoria provee un administrador de herramientas (Bibliot
 
 Path Workbench tiene dependencias externas que incluyen:
 
-1.  Las unidades del modelo 3D de FreeCAD se definen en la {{MenuCommand|Editar → Preferencia → General → Configuración de unidades de la pestaña Unidades}}. La configuración del postprocesador define las unidades finales de código G.
-2.  La ruta del archivo de macros, y las tolerancias geométricas, se definen en la pestaña {{MenuCommand|Editar → Preferencias → Ruta → Preferencias de trabajo}} ficha.
-3.  Los colores se definen en la pestaña {{MenuCommand|Editar → Preferencias → Ruta → Colores de ruta}} ficha.
-4.  Los parámetros de etiqueta de retención se definen en la pestaña {{MenuCommand|Editar → Preferencias → Ruta → Adelantos}} ficha.
+1.  Las unidades del modelo 3D de FreeCAD se definen en la **Editar → Preferencia → General → Configuración de unidades de la pestaña Unidades**. La configuración del postprocesador define las unidades finales de código G.
+2.  La ruta del archivo de macros, y las tolerancias geométricas, se definen en la pestaña **Editar → Preferencias → Ruta → Preferencias de trabajo** ficha.
+3.  Los colores se definen en la pestaña **Editar → Preferencias → Ruta → Colores de ruta** ficha.
+4.  Los parámetros de etiqueta de retención se definen en la pestaña **Editar → Preferencias → Ruta → Adelantos** ficha.
 5.  Que la calidad del modelo 3D base soporte los requisitos del ambiente de trabajo Trayectoria, pasa a comprobar la geometría.
 
 
@@ -106,12 +106,12 @@ Inspección de Path:
 
 1.  Si usa la herramienta Path Inspect para ver el gcode, lo verá en \'mm / s\' porque no está siendo procesado
 
-## Heights and depths {#heights_and_depths}
+## Heights and depths 
 
 
 <div class="mw-translate-fuzzy">
 
-## Comandos de Trayectoria {#comandos_de_trayectoria}
+## Comandos de Trayectoria 
 
 Muchos de los comandos tienen varias alturas y profundidades: <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
 *Referencia visual para las propiedades de profundidad (ajustes)*
@@ -126,7 +126,7 @@ Muchos de los comandos tienen varias alturas y profundidades: <img alt="" src=im
 
 Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
 
-### Project Commands {#project_commands}
+### Project Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -160,7 +160,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### Tool Commands {#tool_commands}
+### Tool Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -192,7 +192,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
 
-### Basic Operations {#basic_operations}
+### Basic Operations 
 
 -   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Creates a profile operation of the entire model, or from one or more selected faces or edges. <small>(v0.19)</small> 
 
@@ -248,7 +248,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### 3D Operations {#d_operations}
+### 3D Operations 
 
 
 <div class="mw-translate-fuzzy">
@@ -271,7 +271,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Enmascarado Trajectoria {#enmascarado_trajectoria}
+### Enmascarado Trajectoria 
 
 
 </div>
@@ -321,7 +321,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Comandos parciales {#comandos_parciales}
+### Comandos parciales 
 
 
 </div>
@@ -369,7 +369,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Modificación de trayectoria {#modificación_de_trayectoria}
+### Modificación de trayectoria 
 
 
 </div>
@@ -426,7 +426,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-## ToolBit architecture {#toolbit_architecture}
+## ToolBit architecture 
 
 Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
 
@@ -462,7 +462,7 @@ El ambiente de trabajo comparte muchos conceptos con otros paquetes de programas
 
 </div>
 
-## Archivos de guión {#archivos_de_guión}
+## Archivos de guión 
 
 See [Path scripting](Path_scripting.md).
 

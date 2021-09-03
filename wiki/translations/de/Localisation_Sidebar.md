@@ -2,7 +2,7 @@
 
 Die Seitenleiste (sidebar) ist ein wichtiges Navigationswerkzeug, das [hier](https://www.mediawiki.org/wiki/Manual:Interface/Sidebar/de) dokumentiert ist.
 
-## Die Navigationsleiste übersetzen {#die_navigationsleiste_übersetzen}
+## Die Navigationsleiste übersetzen 
 
 Die Navigationsleiste ist nun vollständig übersetzbar mit der [Softwareerweiterung zur Übersetzung](http://www.mediawiki.org/wiki/Help:Extension:Translate) die für alle Wikiseiten verfügbar ist.
 
@@ -14,7 +14,7 @@ Um die Übersetzung zu beginnen, ist die Seite [Special:Translate/wiki-sidebar](
 
 Es gibt einen Fehler auf der Seite Herunterladen (download). Die Verknüpfung kann nicht zu \"Download/de\" (/fr, /es, \...) geändert werden. Stattdessen, zeigt die Verknüpfung auf die aktuelle Übersetzung von \"Herunterladen\" in Ihrer Sprache. Am Besten ist es dann eine neue Seite zu erstellen und darin die Verknüpfung richtig einzutragen. Mehr über die Umleitung der Verknüpfung, siehe[Help:Editing/de](Help:Editing/de.md).
 
-### Wichtige Anmerkungen {#wichtige_anmerkungen}
+### Wichtige Anmerkungen 
 
 Meistens gibt es zwei Texte für jeden Punkt im Menü.
 

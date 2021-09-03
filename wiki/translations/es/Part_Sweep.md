@@ -28,12 +28,12 @@ La herramienta Barrido del banco de trabajo Part es similar a la de <img alt="" 
 4.  Definir las opciones [Crear sólido](#Solid.md) y [Ángulo fijo](#Frenet.md).
 5.  Aceptar con el botón **OK**
 
-### Accepted geometry {#accepted_geometry}
+### Accepted geometry 
 
 
 <div class="mw-translate-fuzzy">
 
-### Geometría aceptada {#geometría_aceptada}
+### Geometría aceptada 
 
 -   **Perfiles**: Puede ser un punto (vértice), línea (arista), alambre o cara. Las aristas y los alambres pueden ser abiertos o cerrados. Hay varias [Limitaciones y complicaciones de perfil](Part_Sweep#Profile_limitations_and_complications.md), ver más abajo. Sin embargo, los perfiles pueden provenir de primitivas del banco de trabajo Part, operaciones del banco de trabajo Draft y de bocetos.
 
@@ -65,7 +65,7 @@ Si \"Solid\" es seleccionado como \"true\", FreeCAD crea un sólido, siempre y c
 
 <div class="mw-translate-fuzzy">
 
-### Frenet o Ángulo fijo {#frenet_o_ángulo_fijo}
+### Frenet o Ángulo fijo 
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;"> La propiedad \"Frenet\" controla la forma en que la orientación del perfil va cambiando según va siguiendo la trayectoria del barrido. Si \"Frenet\" es \"false\", la orientación del perfil se mantiene constante de punto a punto. La forma resultante tiene la mínima torsión posible. Sin embargo, Cuando un perfil genera un barrido a lo largo de una hélice, sufre como un deslizamiento que va desviando su orientación suavemente, va rotando siguiendo la hélice. Seleccionar la propiedad \"Frenet\" a true para evitar este tipo de deformaciones.
 
@@ -90,12 +90,12 @@ Si \"Frenet\" es \"true\" la orientación del perfil se computa en base a la cur
 
 </div>
 
-## Profile limitations and complications {#profile_limitations_and_complications}
+## Profile limitations and complications 
 
 
 <div class="mw-translate-fuzzy">
 
-## Limitaciones y complicaciones de perfil {#limitaciones_y_complicaciones_de_perfil}
+## Limitaciones y complicaciones de perfil 
 
 -   Un vértice o punto.
     -   Un vértice o un punto puede ser usado únicamente como primer o último perfil en la lista de perfiles.

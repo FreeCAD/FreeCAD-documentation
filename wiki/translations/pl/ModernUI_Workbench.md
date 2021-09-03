@@ -19,7 +19,7 @@
 -   Autor: Hakan Seven
 -   Kod źródłowy na portalu github: <https://github.com/HakanSeven12/Modern-UI>
 
-## Ograniczenia i rozwiązywanie problemów {#ograniczenia_i_rozwiązywanie_problemów}
+## Ograniczenia i rozwiązywanie problemów 
 
 -   Jeśli doświadczysz nieoczekiwanego zachowania, zawsze najpierw spróbuj odinstalować, a następnie zainstalować ponownie środowisko pracy Nowoczesny UI.
 -   Środowisko pracy jest testowane głównie z językiem angielskim i może wykazywać nieoczekiwane zachowanie w innych językach.
@@ -72,7 +72,7 @@ Szczegółowe instrukcje można znaleźć na [GitHub](https://github.com/HakanSe
 4.  Wykonaj makro.
 5.  Zrestartuj FreeCAD.
 
-## Odnośniki internetowe {#odnośniki_internetowe}
+## Odnośniki internetowe 
 
 -   Forum FreeCAD: <https://forum.freecadweb.org/viewtopic.php?f=34&t=44937>
 -   Zgłaszanie błędów: <https://github.com/HakanSeven12/Modern-UI>

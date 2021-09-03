@@ -57,7 +57,7 @@ Prvo preuzmite i instalirajte FreeCAD. Pogledaj [Preuzimanja](Download/hr.md) st
 
 </div>
 
-## Istraživanje sučelja {#istraživanje_sučelja}
+## Istraživanje sučelja 
 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
@@ -120,7 +120,7 @@ Start Centar omogućuje brzi prijelaz na uobičajene radne ploče, otvara uobič
 
 </div>
 
-## Navigacija u 3D prostoru {#navigacija_u_3d_prostoru}
+## Navigacija u 3D prostoru 
 
 
 <div class="mw-translate-fuzzy">
@@ -164,7 +164,7 @@ Korisnici koji koriste miš desnom rukom mogu naći ovu metodu lakšom od prve.
 
 Vi imate nekoliko pogleda koji su predefinirani (pogled odozgo, pogled sprijeda itd.) koji se nalaze u izborniku pregleda, a imate i brojevne prečice (**1**, **2**, itd\...). Sa klikom na objekt ili prazno područje sa desnom tipkom miša možete dobiti brzi pristup nekim osnovnim operacijama kao postavljanje pogleda, ili položaj objekta u stablu pregleda.
 
-## Prvi koraci sa FreeCAD-om {#prvi_koraci_sa_freecad_om}
+## Prvi koraci sa FreeCAD-om 
 
 Fokus FreeCAD-a vam je omogućiti izradu 3D preciznih 3D modela, strogu kontrolu nad tim modelima (mogućnost vraćanja u povijest modeliranja i izmjenu parametara) i na kraju izradu tih modela (putem 3D ispisa, CNC obrade ili čak gradilišta). Stoga se vrlo razlikuje od nekih drugih 3D aplikacija napravljenih u druge svrhe, poput animacijskog filma ili igranja. Njegova krivulja učenja može biti strma, posebno ako je ovo vaš prvi kontakt s 3D modeliranjem. Ako u nekom trenutku imate poteškoće, nemojte zaboraviti da će vas prijateljska zajednica korisnika na [FreeCAD forumu](http://forum.freecadweb.org/index.php) uspjeti pomoći u bilo kojem trenutku.
 
@@ -184,7 +184,7 @@ Radne ploče možete prebaciti u bilo koje vrijeme i također [Prilagodba sučel
 
 </div>
 
-## Rad sa radnim pločama Dizajniranje dijelova i Skiciraj {#rad_sa_radnim_pločama_dizajniranje_dijelova_i_skiciraj}
+## Rad sa radnim pločama Dizajniranje dijelova i Skiciraj 
 
 
 <div class="mw-translate-fuzzy">
@@ -220,7 +220,7 @@ Ti 2D oblici napravljeni pomoću Skiciraj puno se koriste na radnoj ploči PartD
 
 U bilo kojem trenutku možete odabrati originalne skice i modificirati ih ili promijeniti parametre ekstruzije padova ili džepnih operacija, što će ažurirati konačni objekt.
 
-## Rad s radnim pločama Nacrt i Arhitekt {#rad_s_radnim_pločama_nacrt_i_arhitekt}
+## Rad s radnim pločama Nacrt i Arhitekt 
 
 
 <div class="mw-translate-fuzzy">
@@ -262,7 +262,7 @@ Tipičan tijek rada s Arch ( Arhitekt) i Drafts (Nacrt)radnim pločama može bit
 
 Više informacija na stranici [Vježbe](Tutorials/hr.md).
 
-## Dodatci, Makronaredbe i Vanjske radne ploče {#dodatci_makronaredbe_i_vanjske_radne_ploče}
+## Dodatci, Makronaredbe i Vanjske radne ploče 
 
 Freecad, kao softver otvorenog koda, nudi mogućnost nadopune radnih ploča dodacima.
 
@@ -283,7 +283,7 @@ Postoje dvije vrste dodataka:
 
 I na kraju, jedna od najmoćnijih značajki FreeCAD-a je [skriptiranje](scripting/hr.md) okruženje. Iz integrirane python konzole (ili iz bilo koje druge vanjske Python skripte) možete dobiti pristup gotovo bilo kojem dijelu FreeCAD-a, stvoriti ili izmijeniti geometriju, modificirati reprezentaciju tih objekata na 3D sceni ili pristupiti i izmijeniti FreeCAD sučelje. Python skripti mogu se koristiti i u [makronaredbe](macros/hr.md), koje pružaju jednostavan način stvaranja prilagođenih naredbi.
 
-## Šta ima novoga {#šta_ima_novoga}
+## Šta ima novoga 
 
 -   Pogledajte [Bilješke distribucije](Feature_list/hr#Release_notes.md) za detaljnu listu značajki.
 

@@ -62,7 +62,7 @@ Das Makro [CartoucheFC](Macro_CartoucheFC/de.md) ermöglicht dir, ein benutzerde
 
 FreeCAD kommt mit einer Reihe von Standard-Templates, mehr darüber finden Sie auf der [Drawing templates](Drawing_templates.md)-Seite.
 
-## Erweiterung des Zeichenmoduls {#erweiterung_des_zeichenmoduls}
+## Erweiterung des Zeichenmoduls 
 
 Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite [Drawing Documentation/de](Drawing_Documentation/de.md) hinzugefügt. Dies soll helfen, die Funktionsweise des Zeichenmoduls schnell zu verstehen, so dass Programmierer schnell mit der Programmierung beginnen können.
 
@@ -70,7 +70,7 @@ Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite 
 
 [Zeichnung Tutorium](Drawing_tutorial/de.md)
 
-## Externe Verweise {#externe_verweise}
+## Externe Verweise 
 
 -   [Einführung in technische Zeichnung auf Youtube - von Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 

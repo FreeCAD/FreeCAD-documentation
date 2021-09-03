@@ -28,12 +28,12 @@ Vous pouvez en apprendre plus sur [FreeCAD-Ship ici](Ship_Workbench/fr.md)
 
 </div>
 
-## Charger la forme de base {#charger_la_forme_de_base}
+## Charger la forme de base 
 
 
 <div class="mw-translate-fuzzy">
 
-### Introduction {#introduction_1}
+### Introduction 
 
 FreeCAD-Ship utilise des **Entités Navires (Ship entities)** qui doivent être créées à partir de la forme de base. Cette forme doit être un solide, ou un ensemble de solides. Les pré-requis suivants doivent être respéctés:
 
@@ -57,7 +57,7 @@ Illustration des pré-requis pour la forme de base
 
 <div class="mw-translate-fuzzy">
 
-### Chargement de la géométrie de la série 60 {#chargement_de_la_géométrie_de_la_série_60}
+### Chargement de la géométrie de la série 60 
 
 Afin d\'aider les nouveaux utilisateurs, FreeCAD-Ship comprend un chargeur d\'exemples de géométries, avec le choix suivant:
 
@@ -90,7 +90,7 @@ En exécutant le menu (Ship design/Load an example ship geometry) une boîte de 
 
 </div>
 
-## Créer un objet navire {#créer_un_objet_navire}
+## Créer un objet navire 
 
 Pour créer un *objet navire* sélectionnez la forme de base et exécutez l\'outil de création de navire (Ship design/Create a new ship).
 
@@ -126,7 +126,7 @@ Les principales informations liées au navire doivent alors être saisies (FreeC
 
 </div>
 
-### Données du navire {#données_du_navire}
+### Données du navire 
 
 Les principales dimensions doivent être saisies ici:
 
@@ -187,7 +187,7 @@ Icône exemple de Navire.
 
 <div class="mw-translate-fuzzy">
 
-## Lignes de dessin {#lignes_de_dessin}
+## Lignes de dessin 
 
 FreeCAD-Ship fournit un outil qui facilite l\'obtention d\'un plan de lignes à partir du dessin des lignes de navire
 
@@ -219,7 +219,7 @@ Le dessin des lignes est un ensemble de lignes à partir de coupes de section da
 
 <div class="mw-translate-fuzzy">
 
-### Coupes transversales {#coupes_transversales}
+### Coupes transversales 
 
 Habituellement, il faut effectuer 21 sections transversales équidistantes entre perpendiculaires. Pour le faire, FreeCAD fournit un outil automatique pour le faire, il suffit de sélectionner le type de sections *\' Transversales **, aller à la zone** Créer automatiquement*\' et définir le nombres de sections **21** , puis appuyez sur **Créer des sections**.
 
@@ -258,7 +258,7 @@ Selon la complexité de la géométrie de la coque, l\'aperçu des sections peut
 
 <div class="mw-translate-fuzzy">
 
-### Coupes longitudinales {#coupes_longitudinales}
+### Coupes longitudinales 
 
 Deux coupes longitudinales doivent être ajoutées, alors sélectionnez le type de sections **Longitudinale**, allez dans la zone **Créer automatiquement** et définissez le nombres de sections **2** , puis appuyez sur \'\'\'Créer des sections \'\'\'. Le tableau des sections est rempli et l\'aperçu des sections est mis à jour.
 
@@ -268,7 +268,7 @@ Deux coupes longitudinales doivent être ajoutées, alors sélectionnez le type 
 
 <div class="mw-translate-fuzzy">
 
-### Lignes de Flottaison {#lignes_de_flottaison}
+### Lignes de Flottaison 
 
 6 lignes de flottaison entre la ligne de base et le traçage de conception doivent être ajoutées, sélectionnez alors le type de sections \'\' \'Waterlines\' \'\', accédez à la zone \'\' \'Créer automatiquement\' \'\' et définissez \'\' \'\' 5 \'\' \'(Z = 0 m ne sera pas considéré, ajoutez-le manuellement si vous en avez besoin), puis appuyez sur \'\' \'Créer des sections\' \'\'. Le tableau des sections est rempli et l\'aperçu des sections est mis à jour.
 
@@ -286,7 +286,7 @@ Plusieurs lignes d\'eau supplémentaires doivent être ajoutées:
 
 <div class="mw-translate-fuzzy">
 
-### Exécuter un Tracer {#exécuter_un_tracer}
+### Exécuter un Tracer 
 
 Sélectionnez **échelle 1: 100** et appuyez sur **Accepter** pour laisser l\'outil générer les sections 3D dans un nouvel objet.
 
@@ -324,7 +324,7 @@ Pour tracer ces sections, vous pouvez utiliser l\' [ Atelier de mise en plan de 
 
 <div class="mw-translate-fuzzy">
 
-## Courbe des zones transversales {#courbe_des_zones_transversales}
+## Courbe des zones transversales 
 
 Un paramètre hydrodynamique typique de conception de navire est la courbe des zones transversales, qui récupère certains indicateurs sur le comportement de la coque (résistance au remorquage, sécheresse, \...). FreeCAD-Ship fournit un outil simple pour effectuer une courbe de zones transversales.
 
@@ -352,7 +352,7 @@ Lorsque l\'outil est exécuté, une boîte de dialogue de tâche est affichée e
 
 <div class="mw-translate-fuzzy">
 
-### Données d\'entrée {#données_dentrée}
+### Données d\'entrée 
 
 Le dessin et et l\'orientation (angle de rotation de la Coque et \'\'bordure \'\', positif si le tirant arrière peut augmenter) doit être fourni. Plusieurs courbes de zones peuvent être effectuées, selon les situations de chargement du navire, mais deux parcelles typiques doivent être effectuées:
 
@@ -365,7 +365,7 @@ Le dessin et et l\'orientation (angle de rotation de la Coque et \'\'bordure \'\
 
 <div class="mw-translate-fuzzy">
 
-### Données de sortie {#données_de_sortie}
+### Données de sortie 
 
 Certaines données pertinentes sont affichées en temps réel:
 
@@ -445,7 +445,7 @@ Courbes Hydrostatiques.
 
 <div class="mw-translate-fuzzy">
 
-## Continuer à apprendre FreeCAD-Ship {#continuer_à_apprendre_freecad_ship}
+## Continuer à apprendre FreeCAD-Ship 
 
 Maintenant, vous êtes prêt à continuer à apprendre [Ship](Ship_Workbench/fr.md), [ Ici](FreeCAD-Ship_s60_tutorial_(II)/fr.md) se trouve le deuxième chapitre du bateau universitaire de l\'Iowa de la Série 60.
 

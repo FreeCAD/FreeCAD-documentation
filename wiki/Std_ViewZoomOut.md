@@ -14,7 +14,7 @@ The **Std ViewZoomOut** command zooms out in the active [3D view](3D_view.md).
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|View → Zoom → <img src="images/Std_ViewZoomOut.svg" width=16px> Zoom Out}} option from the menu.
+    -   Select the **View → Zoom → <img src="images/Std_ViewZoomOut.svg" width=16px> Zoom Out** option from the menu.
     -   Use the keyboard shortcut: **Ctrl**+**-**.
 
 ## Notes
@@ -23,7 +23,7 @@ The **Std ViewZoomOut** command zooms out in the active [3D view](3D_view.md).
 
 ## Preferences
 
--   The zoom factor can be changed in the preferences: {{MenuCommand|Edit → Preferences... → Display → Navigation → Zoom step}}. This setting also affects scroll wheel zoom. See [Preferences Editor](Preferences_Editor#Navigation.md).
+-   The zoom factor can be changed in the preferences: **Edit → Preferences... → Display → Navigation → Zoom step**. This setting also affects scroll wheel zoom. See [Preferences Editor](Preferences_Editor#Navigation.md).
 
 ## Scripting
 

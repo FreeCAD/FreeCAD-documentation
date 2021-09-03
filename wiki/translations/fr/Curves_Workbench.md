@@ -8,7 +8,8 @@ L\'atelier Curves est un [atelier externe](external_workbenches/fr.md) basé sur
 
 ## Installation
 
-Télécharger l\'atelier externe via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) <img alt="" src=images/AddonManager.svg  style="width:24px;"> {{MenuCommand|Outils → Gestionnaire d'Addon}}
+Télécharger l\'atelier externe via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) <img alt="" src=images/AddonManager.svg  style="width:24px;"> 
+**Outils → Gestionnaire d'Addon**
 
 ## Références
 

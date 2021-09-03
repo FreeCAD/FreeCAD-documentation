@@ -17,7 +17,7 @@ A screenshot of the 0.11 version
 -   The copy/paste mechanism has also been much improved, now allowing easy copy/pasting of objects between documents.
 -   The [Part Workbench](Part_Workbench.md) features new tools such as mirroring and edge fillets and chamfers.
 
-### Sketch and part design {#sketch_and_part_design}
+### Sketch and part design 
 
 -   The constraint solver of the [Sketcher Workbench](Sketcher_Workbench.md) has been totally rewritten and the Sketcher, even if still not complete, features already a good array of tools such as lines, rectangles, and constraints such as point coincidence, parallelism, fixed length or horizontal or vertical constraints.
 
@@ -27,13 +27,13 @@ A screenshot of the 0.11 version
 
 ![](images/Movie.png ) Examples: [Sketcher demo](http://www.youtube.com/watch?v=hvXupH5bA0E) • [PartDesign demo](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
 
-### Robot simulation {#robot_simulation}
+### Robot simulation 
 
 -   The [Robot Workbench](Robot_Workbench.md) has been extended with many GUI tools and is now fairly functional and allows you to easily simulate industrial robot movements
 
 ![](images/release011-robot.jpg )
 
-### 2D drafting {#d_drafting}
+### 2D drafting 
 
 -   Snapping has been greatly optimized and now works pretty fast, even on complex objects
 -   The \"Trim/Extend\" tool can now be called \"Trim/Extend/Extrude\", since it allows you to quickly extrude single faces, offering a convenient shortcut to the standard Part Extrude tool

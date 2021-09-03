@@ -22,7 +22,7 @@
 
 Se puede acceder a la mayoría de las herramientas de **Std Base** desde el [menú estándar](Standard_Menu/es.md). Las que sólo están disponibles a través de una barra de herramientas o de un menú contextual están listadas en [Herramientas adicionales](#Herramientas_adicionales.md).
 
-### Herramientas de menú estándar {#herramientas_de_menú_estándar}
+### Herramientas de menú estándar 
 
 El menú estándar se compone de 7 submenús. Cada submenú tiene una página dedicada. Basta con hacer clic en cualquiera de los nombres que aparecen a continuación.
 
@@ -44,7 +44,7 @@ El menú estándar se compone de 7 submenús. Cada submenú tiene una página de
 [Ayuda](Std_Help_Menu/es.md)
 }}
 
-### Herramientas adicionales {#herramientas_adicionales}
+### Herramientas adicionales 
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std Part](Std_Part.md): Creates a new part and makes it active.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std Group](Std_Group.md): Creates a new group.

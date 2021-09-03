@@ -17,7 +17,7 @@ Acest tutorial de bază de modelare vă va arăta cum să modelați un profil co
 
 </div>
 
-## Înainte de a începe {#înainte_de_a_începe}
+## Înainte de a începe 
 
 Rețineți că FreeCAD se află încă într-un stadiu incipient de dezvoltare, astfel încât este posibil să nu fiți la fel de productiv ca și cu o altă aplicație CAD și veți întâlni cu siguranță bug-uri sau veți experienta diverse accidente. FreeCAD are acum posibilitatea de a salva fișierele de rezervă. Numărul fișierelor de rezervă poate fi specificat în dialogul de preferințe. Nu ezitați să permiteți 2 sau 3 fișiere de rezervă până când știți cum să rezolvați problema cu FreeCAD.
 
@@ -26,7 +26,7 @@ Salvați-vă munca frecvent, din când în când, salvați-vă munca sub un nume
 
 <div class="mw-translate-fuzzy">
 
-## Tehnici de modelare Intro {#tehnici_de_modelare_intro}
+## Tehnici de modelare Intro 
 
 Prima tehnică (și de bază) a modelării solide este [Constructive Solid Geometry (CSG)](http://en.wikipedia.org/wiki/Constructive_solid_geometry). Lucrați cu forme primitive, cum ar putea fi cuburi, cilindri, sfere și conuri, pentru a vă construi forme geometrice prin combinarea lor, scăzând o formă de alta sau intersectându-le.Aceste instrumente fac parte din [Part Workbench](Part_Workbench.md). Puteți aplica, de asemenea, transformări pe forme, cum ar fi aplicarea rotunjimilor sau ;anfernului pe margini. Aceste instrumente sunt, de asemenea, în Atelierul [Part Workbench](Part_Workbench.md).
 
@@ -40,7 +40,7 @@ Deci, să începem prin încercarea de a face niște picioare de fier pentru o m
 
 <div class="mw-translate-fuzzy">
 
-## Prima metodă - By Constructive Solid Geometry {#prima_metodă___by_constructive_solid_geometry}
+## Prima metodă - By Constructive Solid Geometry 
 
 1.  Start cu Atelierul Piese [Part Workbench](Part_Workbench.md) ![](images/Switch_PartWorkbench.JPG ).
 2.  Dacă încă nu aveți deschis un nou document FreeCAD (caz în care cea mai mare parte a ferestrei FreeCAD arată cu gri), din meniul derulant, faceți clic pe File -\> New sau faceți clic pe<img alt="" src=images/Document-new.png  style="width:32px;"> **Create a new empty document** icon.
@@ -95,7 +95,7 @@ Apropo, putem adăuga rotunjiri la unghi astfel încât piesa pare mai realistă
 
 <div class="mw-translate-fuzzy">
 
-## a 2-a Metodă - Prin extruderea unui profil {#a_2_a_metodă___prin_extruderea_unui_profil}
+## a 2-a Metodă - Prin extruderea unui profil 
 
 Această metodă necesită pentru început începerea desenarea unui profil 2D. Trebuie să activați [Draft workbench](Draft_Workbench.md) ![](images/Switch_DraftWorkbench.JPG ).
 
@@ -104,7 +104,7 @@ Această metodă necesită pentru început începerea desenarea unui profil 2D. 
 
 </div>
 
-### Definirea planului de lucru {#definirea_planului_de_lucru}
+### Definirea planului de lucru 
 
 Prima dată trebuie să definim pe care plan [working plane](Draft_SelectPlane.md) desen 2D profilul nostru.
 
@@ -119,7 +119,7 @@ Prima dată trebuie să definim pe care plan [working plane](Draft_SelectPlane.m
 
 <div class="mw-translate-fuzzy">
 
-### Elaborarea profilului {#elaborarea_profilului}
+### Elaborarea profilului 
 
 1.  Select the <img alt="" src=images/Draft_Wire.png  style="width:32px;"> [DWire (multiple-point DraftWire)](Draft_Wire.md) tool.
 2.  Check the \"Relative\" and \"Filled\" boxes.
@@ -154,7 +154,7 @@ Apăsați tasta zero de pe tastatura numerică pentru a seta vederea axonometric
 
 <div class="mw-translate-fuzzy">
 
-### Extrudarea profilului {#extrudarea_profilului}
+### Extrudarea profilului 
 
 Activați atelierul Piese [Part Workbench](Part_Workbench.md) fie din selectorul de bara de lucru, fie din**View -\> Workbench -\> Part** menu.
 
@@ -183,7 +183,7 @@ Deși această metodă necesită mai puțină operațiune decât prima, aceasta 
 
 </div>
 
-### Notă cu privire la butonul de plan de lucru {#notă_cu_privire_la_butonul_de_plan_de_lucru}
+### Notă cu privire la butonul de plan de lucru 
 
 Eticheta de pe butonul dvs. poate fi diferită, în funcție de versiunea dvs. și de ceea ce ați făcut în prealabil. Eticheta cu buton poate citi: \"Top\", \"Front\", \"Side\", \"None\" sau o reprezentare a Vector ca de exemplu d(0.0,0.0,1.0). De asemenea, poate fi gol. De exemplu:
 

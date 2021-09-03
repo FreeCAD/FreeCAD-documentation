@@ -21,7 +21,7 @@ Open the 2 files below (Spring.FCMacro and Spring.FCStd) in FreeCAD with 2 scree
 
 <img alt="" src=images/Spring_02.png  style="width:300px;">
 
-## The File {#the_file}
+## The File 
 
 [Spring.FCStd](http://forum.freecadweb.org/download/file.php?id=7679)
 

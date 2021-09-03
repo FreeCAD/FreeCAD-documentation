@@ -10,11 +10,11 @@
 
 [Auswahlmethoden](Selection_methods/de.md) in FreeCAD ermöglichen das Auswählen von Objekten in der [FreeCAD-Oberfläche](Interface/de.md): z. B. [3D Ansicht](3D_view/de.md), [Baumansicht](Tree_view/de.md), [Auswahlansicht](Selection_view/de.md) und anderen Dialogen. Einige Auswahlmethoden sind Arbeitsbereich-spezifisch und in der jeweiligen Arbeitsbereich-Dokumentation dokumentiert.
 
-## 3D Ansicht {#d_ansicht}
+## 3D Ansicht 
 
 In der [3D Ansicht](3D_view/de.md) gibt es verschiedene Möglichkeiten, Objekte auszuwählen.
 
-### Einfache Auswahl {#einfache_auswahl}
+### Einfache Auswahl 
 
 
 <div class="mw-translate-fuzzy">
@@ -24,13 +24,13 @@ Die einfache Auswahl mit der Maus (standardmäßig Linksklick) und die Vorauswah
 
 </div>
 
-### Wiederholte Klicks {#wiederholte_klicks}
+### Wiederholte Klicks 
 
 Mit dem ersten Klick wird ein Unterelement (Punkt, Kante oder Fläche) des Objekts unter der Maus ausgewählt. Ein zweiter Klick wählt das gesamte Objekt aus. {{Version/de|0.18}}
 
 Der dritte Klick erweitert die Auswahl auf das Containerobjekt [Körper](PartDesign_Body/de.md), [Standard Teil](Std_Part/de.md) und andere. Weitere Klicks erweitern die Auswahl in der Containerkette. {{Version/de|0.19}}
 
-### Auswahl Befehle {#auswahl_befehle}
+### Auswahl Befehle 
 
 -   Um alle Objekte auszuwählen: [Std AllesAuswählen](Std_SelectAll/de.md).
 -   Um mehrere Hauptobjekte in einem Kasten auszuwählen: [Std KastenAuswahl](Std_BoxSelection/de.md).
@@ -42,11 +42,11 @@ In der [Auswahlansicht](Selection_view/de.md) werden die Namen der ausgewählten
 
 Sie erlaubt auch einige Aktionen wie [Std AnsichtAuswahlEinpassen](Std_ViewFitSelection/se.md), und das Senden des Objekts an die [Python Konsole](Python_console/de.md).
 
-### Objekt export {#objekt_export}
+### Objekt export 
 
 Dies sollte auf der [Auswahlansicht](selection_view/de.md) Seite stehen.\'\'
 
-Wähle ein beliebiges komplexes Objekt, z.B. einen [PartDesign Körper](PartDesign_Body/de.md) oder ein [Std Part](Std_Part/de.md), markiere dann in der [Auswahlansicht](selection_view/de.md) erneut das Objekt und drücke dann **Strg** + **C** auf der Tastatur, um den Dialog {{MenuCommand|Objektauswahl}} zu öffnen. Dies ermöglicht das Kopieren des ausgewählten Objekts zusammen mit allen oder nur einigen der abhängigen Objekte dieses Objekts. Für ein [Std Part](Std_Part/de.md) zum Beispiel umfassen die möglichen Objekte, die ausgewählt werden können, das [Std Part](Std_Part/de.md) selbst, aber auch seinen Ursprung, seine drei Basisachsen (XYZ) und seine drei Basisebenen (XY, YZ, XZ).
+Wähle ein beliebiges komplexes Objekt, z.B. einen [PartDesign Körper](PartDesign_Body/de.md) oder ein [Std Part](Std_Part/de.md), markiere dann in der [Auswahlansicht](selection_view/de.md) erneut das Objekt und drücke dann **Strg** + **C** auf der Tastatur, um den Dialog **Objektauswahl** zu öffnen. Dies ermöglicht das Kopieren des ausgewählten Objekts zusammen mit allen oder nur einigen der abhängigen Objekte dieses Objekts. Für ein [Std Part](Std_Part/de.md) zum Beispiel umfassen die möglichen Objekte, die ausgewählt werden können, das [Std Part](Std_Part/de.md) selbst, aber auch seinen Ursprung, seine drei Basisachsen (XYZ) und seine drei Basisebenen (XY, YZ, XZ).
 
 Nachdem **OK** drücken, werden die ausgewählten Objekte in den Speicher kopiert und können dann in das Dokument eingefügt werden, um nur diese Objekte zu duplizieren.
 

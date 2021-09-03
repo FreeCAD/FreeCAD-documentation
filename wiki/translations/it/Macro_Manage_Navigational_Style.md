@@ -26,7 +26,7 @@ Ci sono due brevi codici, ciascuno dei quali costituisce una macro indipendente.
 
 Fare clic sul pulsante della barra degli strumenti associato alle macro, o richiamarle dal menu Macro. Il modo di navigazione cambia, ma la loro esecuzione non è confermata da nulla di visibile.
 
-## Interfaccia utente {#interfaccia_utente}
+## Interfaccia utente 
 
 Non c\'è veramente nessuna interfaccia utente e neppure nessuna conferma che lo stile di navigazione è stato modificato. La conferma si ha quando, nella successiva manipolazione della vista, i movimenti del mouse sono interpretati nello stile di navigazione selezionato.
 

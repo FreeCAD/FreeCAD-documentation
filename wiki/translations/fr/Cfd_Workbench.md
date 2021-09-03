@@ -23,11 +23,11 @@ Description détaillée
 
 ## Installation
 
-### Installation Automatique {#installation_automatique}
+### Installation Automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-### Depuis GitHub {#depuis_github}
+### Depuis GitHub 
 
 Comment faire [ici](https://github.com/qingfengxia/Cfd)
 
@@ -43,7 +43,7 @@ Pour utiliser CFD pour FreeCAD
 
 **Instructions d\'installation Mac** (Depuis GitHub)
 
-## Liens avec l\'atelier CFD {#liens_avec_latelier_cfd}
+## Liens avec l\'atelier CFD 
 
 -   Atelier Wiki:
 -   Wiki FreeCAD:
@@ -53,7 +53,7 @@ Pour utiliser CFD pour FreeCAD
 -   Des dossiers:
 -   Signaler les bogues: veuillez signaler les bogues à
 
-## Autres liens intéressants {#autres_liens_intéressants}
+## Autres liens intéressants 
 
 -   [Liste des Macros](Macros_recipes/fr.md)
 

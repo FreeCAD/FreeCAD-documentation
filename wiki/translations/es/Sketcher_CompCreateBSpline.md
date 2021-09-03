@@ -11,7 +11,7 @@
 
 **Create a B-spline** is an icon button in the Sketcher geometries toolbar that groups tools to create a B-spline curve. Click on the down arrow to its right to expand the icons below it and select a tool.
 
-## Typos de B-splines {#typos_de_b_splines}
+## Typos de B-splines 
 
 -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Create B-spline](Sketcher_CreateBSpline.md): Draws a B-spline by its control points.
 -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Create periodic B-spline](Sketcher_CreatePeriodicBSpline.md): Draws a periodic, closed B-spline by its control points.

@@ -21,7 +21,7 @@ To produce complete non-parametric copies of the objects use **<img src="images/
 ## Применение
 
 1.  Select a vertex, edge, or face of an object for which you wish to make a copy.
-2.  Go to the menu {{MenuCommand|Part → Create a copy → <img src=images/Part_ElementCopy.svg style="width:16px"> [Create shape element copy](Part_ElementCopy.md)}}.
+2.  Go to the menu **Part → Create a copy → <img src=images/Part_ElementCopy.svg style="width:16px"> [Create shape element copy](Part_ElementCopy.md)**.
 
 ## Properties
 

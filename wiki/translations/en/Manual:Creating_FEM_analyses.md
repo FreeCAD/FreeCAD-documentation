@@ -12,11 +12,11 @@ Obtaining such simulation is done in FreeCAD with the [FEM Workbench](FEM_Workbe
 
 <img alt="" src=images/Exercise_fem_01.jpg  style="width:600px;">
 
-### Preparing FreeCAD {#preparing_freecad}
+### Preparing FreeCAD 
 
 The simulation itself is done by another piece of software, that is used by FreeCAD to obtain the results. As there are several interesting open source FEM simulation applications available, the [FEM Workbench](FEM_Workbench.md) allows you to choose between them. However, currently only [CalculiX](http://www.calculix.de/) is fully implemented. Another piece of software, called [NetGen](https://sourceforge.net/projects/netgen-mesher/), which is responsible for generating the subdivision mesh, is also required. Detailed instructions to install these two components are provided [in the FreeCAD documentation](FEM_Install.md).
 
-### Preparing the geometry {#preparing_the_geometry}
+### Preparing the geometry 
 
 We will start with the house we modeled in the [BIM modeling](Manual:BIM_modeling.md) chapter. However, some changes have to be made to make the model suitable for FEM calculations. This involves, basically, discarding the objects that we don\'t want to include in the calculation, such as the door and window, and joining all the remaining objects into one.
 
@@ -33,7 +33,7 @@ We will start with the house we modeled in the [BIM modeling](Manual:BIM_modelin
 
 :   <img alt="" src=images/Exercise_fem_03.jpg  style="width:600px;">
 
-### Creating the analysis {#creating_the_analysis}
+### Creating the analysis 
 
 -   We are now ready to start a FEM analysis. Let\'s switch to the [FEM Workbench](FEM_Workbench.md)
 -   Select the fused object

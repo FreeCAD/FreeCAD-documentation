@@ -64,7 +64,7 @@ Comanda \"DB\" \'\'\'creează o distribuție binară \'\'\' a arborelui sursă c
 
 Comanda \"DI\" \'\'\'creează o distribuție de instalare a arborelui sursă curent.
 
-### DistSetup {#distsetup_1}
+### DistSetup 
 
 Comanda \"DUI\" \'\'\'creează o distribuție de configurare utilizator a arborelui sursă curent.
 

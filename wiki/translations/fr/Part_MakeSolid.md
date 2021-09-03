@@ -16,7 +16,7 @@ Cette commande crée un objet solide à partir d\'un objet forme.
 ## Utilisation
 
 1.  Sélectionner l\'objet forme.
-2.  Choisir l\'option {{MenuCommand|Pièce → <img src="images/Part_MakeSolid.svg" width=16px> Convertir en solide}} à partir du menu.
+2.  Choisir l\'option **Pièce → <img src="images/Part_MakeSolid.svg" width=16px> Convertir en solide** à partir du menu.
 3.  Un nouvel objet solide est créé en tant que nouvel objet distinct.
 
 ## Limitations

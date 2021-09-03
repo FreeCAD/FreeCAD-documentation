@@ -23,14 +23,14 @@ Draft Dimensions can be displayed on a [TechDraw Workbench](TechDraw_Workbench.m
 
 See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-### Usage linear dimension {#usage_linear_dimension}
+### Usage linear dimension 
 
 1.  Optionally select a straight edge in the [3D view](3D_view.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the {{MenuCommand|Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension}} option from the menu.
+    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
     -   Use the keyboard shortcut: **D** then **I**.
-3.  The {{MenuCommand|Dimension}} task panel opens. See [Options](#Options.md) for more information.
+3.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 4.  If you have not yet selected an edge do one of the following:
     -   Press **E** or the **<img src="images/view-select.svg" width=16px> select edge** button and select a straight edge in the [3D view](3D_view.md).
     -   Hold down the **Alt** key, select a straight edge in the [3D view](3D_view.md) and release the **Alt** key.
@@ -47,14 +47,14 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
         -   Move the pointer to the left or right of the edge or points.
         -   Hold down the **Shift** key, move the pointer and pick a point in the [3D view](3D_view.md).
 
-### Usage radial dimension {#usage_radial_dimension}
+### Usage radial dimension 
 
 1.  Optionally select a circular edge in the [3D view](3D_view.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the {{MenuCommand|Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension}} option from the menu.
+    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
     -   Use the keyboard shortcut: **D** then **I**.
-3.  The {{MenuCommand|Dimension}} task panel opens. See [Options](#Options.md) for more information.
+3.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 4.  If you have not yet selected an edge do one of the following:
     -   Press **E** or the **<img src="images/view-select.svg" width=16px> select edge** button and select a circular edge in the [3D view](3D_view.md).
     -   Hold down the **Alt** key, select a circular edge in the [3D view](3D_view.md) and release the **Alt** key.
@@ -64,13 +64,13 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
     -   For a radial dimension:
         -   Hold down the **Shift** key and pick a point in the [3D view](3D_view.md).
 
-### Usage angular dimension {#usage_angular_dimension}
+### Usage angular dimension 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the {{MenuCommand|Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension}} option from the menu.
+    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
     -   Use the keyboard shortcut: **D** then **I**.
-2.  The {{MenuCommand|Dimension}} task panel opens. See [Options](#Options.md) for more information.
+2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
 5.  Depending on the edges and the picked point the displayed angle will be the acute (sharp) or obtuse (blunt) angle between the edges, or the angle of one of the edges with the horizontal. In some cases you may have to first add auxiliary geometry ([Draft Lines](Draft_Line.md) for example) to get a particular angle.
@@ -80,9 +80,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the {{MenuCommand|Relative}} checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the {{MenuCommand|Continue}} checkbox to toggle continue mode. This mode only works for linear dimensions. If continue mode is on, the command will restart after finishing, allowing you to continue creating dimensions. All subsequent dimensions will start from the final point of the previous dimension, and will use the same baseline as the first dimension. Note that edge selection is not possible for subsequent dimensions.
+-   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **T** or click the **Continue** checkbox to toggle continue mode. This mode only works for linear dimensions. If continue mode is on, the command will restart after finishing, allowing you to continue creating dimensions. All subsequent dimensions will start from the final point of the previous dimension, and will use the same baseline as the first dimension. Note that edge selection is not possible for subsequent dimensions.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the {{button|Close}} button to finish the command.
 
@@ -93,7 +93,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 1.  Select one or more [Std MeasureDistance](Std_MeasureDistance.md) objects.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the {{MenuCommand|Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension}} option from the menu.
+    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
     -   Use the keyboard shortcut: **D** then **I**.
 3.  Each selected object is replaced by a non-parametric linear Draft Dimension.
 
@@ -107,7 +107,7 @@ See also: [Property editor](Property_editor.md).
 
 A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated:
 
-### Data linear and radial dimension {#data_linear_and_radial_dimension}
+### Data linear and radial dimension 
 
 
 {{TitleProperty|Dimension}}
@@ -136,7 +136,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 -    **Diameter|Bool**: specifies if a radial dimension is displayed as a diameter dimension. If it changed the symbol used in **Override** must be updated manually (from {{Value|Ø}} to {{Value|R}} or vice versa). Not used for linear dimensions.
 
-### Data angular dimension {#data_angular_dimension}
+### Data angular dimension 
 
 
 {{TitleProperty|Angular dimension}}

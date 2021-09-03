@@ -13,7 +13,7 @@ Introduceți un elipsoid primitiv în Corpul activ ca o funcție de bază sau î
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

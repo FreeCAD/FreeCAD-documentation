@@ -149,7 +149,7 @@ Power users have written various [macros](macros.md) to enhance FreeCAD with mor
 
 Since FreeCAD 0.17, many macros can be installed using the [Addon Manager](Std_AddonMgr.md). For a list of the macros refer to the [Macros recipes](Macros_recipes.md) page. For manual installation see [How to install macros](How_to_install_macros.md).
 
-### External workbenches {#external_workbenches}
+### External workbenches 
 
 When many macros or functions are developed together, and are organized in toolbars and menus, they can become a new workbench.
 

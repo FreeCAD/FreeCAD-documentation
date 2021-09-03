@@ -9,7 +9,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Draft Basculer la grille** permet d\'activer ou de désactiver la grille. La grille ne peut être utilisée que si la préférence {{MenuCommand|Activer la grille}} est sélectionnée. Voir [Préférences](#Pr.C3.A9f.C3.A9rences.md).
+La commande <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Draft Basculer la grille** permet d\'activer ou de désactiver la grille. La grille ne peut être utilisée que si la préférence **Activer la grille** est sélectionnée. Voir [Préférences](#Pr.C3.A9f.C3.A9rences.md).
 
 Dans FreeCAD version 0.19 et 0.20 la grille est toujours affichée lorsqu\'une commande devient active et basculer la grille lorsqu\'une commande est active ne fonctionne pas.
 
@@ -27,8 +27,8 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 
 Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 
--   Pour utiliser la grille, sélectionnez : {{MenuCommand|Édition → Préférences... → Draft → Grille et aimantation → Grille → Activer la grille}}. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
--   D\'autres préférences de grille sont également disponibles : {{MenuCommand|Édition → Préférences... → Draft → Grille et aimantation → Grille}}.
+-   Pour utiliser la grille, sélectionnez : **Édition → Préférences... → Draft → Grille et aimantation → Grille → Activer la grille**. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
+-   D\'autres préférences de grille sont également disponibles : **Édition → Préférences... → Draft → Grille et aimantation → Grille**.
 
 
 

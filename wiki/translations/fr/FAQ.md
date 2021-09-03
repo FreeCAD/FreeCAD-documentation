@@ -9,11 +9,11 @@ Si vous avez un problème ou une question concernant FreeCAD, vérifiez ci desso
 
 ## Installation
 
-### Quel est le moyen le plus facile, pour installer FreeCAD sur mon système ? {#quel_est_le_moyen_le_plus_facile_pour_installer_freecad_sur_mon_système}
+### Quel est le moyen le plus facile, pour installer FreeCAD sur mon système ? 
 
 Si vous êtes sous Windows ou macOS, le moyen le plus simple est de vous rendre sur la page [Téléchargements](Download/fr.md), où vous trouverez plusieurs packages prêts à installer. Si vous êtes sur Debian, Fedora ou Ubuntu et d\'autres distributions, FreeCAD est déjà inclus dans les référentiels de logiciels standard et vous pouvez simplement l\'installer avec le gestionnaire de logiciels. Sur Ubuntu, l\'équipe FreeCAD maintient également ses propres [dépôts PPA](Installing_on_Linux/fr#PPA_stable.md). Pour plus de détails sur l\'installation, reportez-vous à la page d\'installation de votre système d\'exploitation ([Windows](Installing_on_Windows/fr.md), [Linux](Installing_on_Linux/fr.md) ou [Mac](Installing_on_Mac/fr.md)).
 
-### Quelles sont les conditions requises pour l\'exécution de FreeCAD ? {#quelles_sont_les_conditions_requises_pour_lexécution_de_freecad}
+### Quelles sont les conditions requises pour l\'exécution de FreeCAD ? 
 
 Contrairement à la plupart des logiciels de CAO 3D, FreeCAD peut fonctionner correctement sur les ordinateurs les plus modestes - il est connu pour fonctionner sur les processeurs Pentium IV et Intel Core2 Solo. Si votre ordinateur exécute un système d\'exploitation récent, il y a de fortes chances que FreeCAD s\'exécute. La seule condition préalable est que votre carte graphique ou chipset prenne en charge [OpenGL](https://fr.wikipedia.org/wiki/OpenGL), de préférence pas plus ancien que v2.0. En cas de problème, reportez-vous à la section [Dépannage](Frequently_asked_questions/fr#D.C3.A9pannage.md) de cette FAQ.
 
@@ -21,15 +21,15 @@ Contrairement à la plupart des logiciels de CAO 3D, FreeCAD peut fonctionner co
 
 Le noyau de modélisation géométrique sous-jacent de FreeCAD, la bibliothèque tierce [Technologie OpenCASCADE](https://fr.wikipedia.org/wiki/Open_CASCADE_Technology) (OCCT), [ne prend en charge que partiellement le multithreading pour le moment](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095). Voir la page [multithreading](Multithreading/fr.md) pour plus de détails.
 
-#### Pour les utilisateurs Mac {#pour_les_utilisateurs_mac}
+#### Pour les utilisateurs Mac 
 
 Seulement l\'architecture MacIntel est prise en charge. Il n\'y a aucune version disponible pour l\'architecture PowerPC.
 
-### Que faire si je veux compiler FreeCAD moi-même ? {#que_faire_si_je_veux_compiler_freecad_moi_même}
+### Que faire si je veux compiler FreeCAD moi-même ? 
 
 Le code source de FreeCAD est toujours disponible dans le répertoire du code source du projet. Compiler vous-même avec FreeCAD vous permet d'utiliser les dernières fonctionnalités en cours de développement mais nécessite quelques connaissances informatiques, bien que la procédure soit relativement simple. L\'accès au code source est expliqué [ici](Compile_on_Linux/fr#Obtenir_le_code_source.md) et ici des instructions détaillées pour la compilation sur [Windows](Compile_on_Windows/fr.md), [Linux](Compile_on_Linux/Unix/fr.md) et [macOS](Compile_on_MacOS/fr.md).
 
-### FreeCAD me signale que certains modules ou applications sont manquants {#freecad_me_signale_que_certains_modules_ou_applications_sont_manquants}
+### FreeCAD me signale que certains modules ou applications sont manquants 
 
 FreeCAD dépend de beaucoup de choses pour offrir toutes ses fonctionnalités. Tous les principaux composants requis sont généralement regroupés dans votre installation FreeCAD ou fournis par votre gestionnaire de packages, donc normalement vous n\'avez pas à vous inquiéter. Cependant, si vous avez installé FreeCAD à partir de sources non officielles ou compilé FreeCAD vous-même, une partie peut manquer, ce qui n\'est pas critique pour FreeCAD lui-même, mais peut entraîner l\'indisponibilité de certaines fonctionnalités. Certains formats de fichiers spécifiques tels que Collada ou DWG nécessitent également des composants supplémentaires, qui ne peuvent pas être regroupés dans FreeCAD, et doivent être installés par vous-même séparément.
 
@@ -37,17 +37,17 @@ Tous ces composants et la manière appropriée de les installer sont listés sur
 
 ## Dépannage
 
-### FreeCAD ne démarre pas du tout {#freecad_ne_démarre_pas_du_tout}
+### FreeCAD ne démarre pas du tout 
 
 Il peut y avoir de nombreuses raisons à cela, la plus probable est que certaines bibliothèques sont manquantes. Essayez de démarrer FreeCAD à partir d\'un terminal (saisir {{SystemInput|freecad}} après le prompt, {{SystemInput|FreeCAD}} sur certains systèmes) pour voir si un message d\'erreur apparaît. Lisez aussi le reste de cette FAQ car cela peut vous donner divers indices pour détecter la cause du problème. Si rien n\'y fait, parlez en sur le [forum](http://forum.freecadweb.org/), il y aura sûrement quelqu\'un qui pourra vous aider.
 
 Sur certains systèmes Windows XP plus anciens, vous pouvez recevoir un message d\'erreur comme celui-ci: **L'application ne peut pas démarrer, car la configuration côte à côte est incorrecte. La réinstallation de l'application peut résoudre le problème.** La raison de ce problème est que sur votre système, soit les bibliothèques d\'exécution CRT sont manquantes, soit la version installée est trop ancienne car FreeCAD était lié à une version plus récente. Dans ce cas, vous devez installer le **Microsoft Visual C++ Redistributable Package** que vous trouverez chez Microsoft. Voir aussi le [message de forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=1298&p=9961) correspondant.
 
-### FreeCAD démarre normalement, mais toutes les icônes ne sont pas affichées, certaines d\'entre elles sont remplacées par un \'X\' noir {#freecad_démarre_normalement_mais_toutes_les_icônes_ne_sont_pas_affichées_certaines_dentre_elles_sont_remplacées_par_un_x_noir}
+### FreeCAD démarre normalement, mais toutes les icônes ne sont pas affichées, certaines d\'entre elles sont remplacées par un \'X\' noir 
 
 Certaines parties de FreeCAD dépendent d\'un module Python externe appelé Pivy. Sous Windows, pivy est inclus dans l\'installation de FreeCAD. Sur les systèmes Debian/Ubuntu, le paquet python-pivy fait partie des dépôts de logiciels standard. Sur d\'autres systèmes, pour le moment, vous devrez peut-être compiler vous-même. Notez que bien que certains outils ne soient pas disponibles sans pivy, le reste de FreeCAD fonctionne normalement.
 
-### J\'ai des problèmes d\'affichage, la vue 3D ne se comporte pas correctement, il y a des résidus, trainées quand je bouge/fait pivoter la vue, etc. {#jai_des_problèmes_daffichage_la_vue_3d_ne_se_comporte_pas_correctement_il_y_a_des_résidus_trainées_quand_je_bougefait_pivoter_la_vue_etc.}
+### J\'ai des problèmes d\'affichage, la vue 3D ne se comporte pas correctement, il y a des résidus, trainées quand je bouge/fait pivoter la vue, etc. 
 
 FreeCAD dépend d\'OpenGL pour afficher le contenu 3D et nécessite donc un environnement OpenGL fonctionnel. Sur certains systèmes, OpenGL n\'est pas activé par défaut et vous devrez peut-être installer ou mettre à niveau vos pilotes graphiques. Ces problèmes surviennent le plus souvent sur les systèmes Linux ou sur les systèmes virtuels. Si vous utilisez un système Linux, essayez les étapes suivantes:
 
@@ -55,11 +55,11 @@ FreeCAD dépend d\'OpenGL pour afficher le contenu 3D et nécessite donc un envi
 -   tapez {{SystemInput|glxinfo}} dans une fenêtre de terminal, et vérifiez dans la sortie que Direct Rendering est réglé sur \"yes\" et que le fournisseur/moteur de rendu/version d\'OpenGL correspond à votre carte graphique.
 -   installez un autre logiciel basé sur OpenGL ([Blender](http://www.blender.org), par exemple) et vérifiez s\'il fonctionne et s\'affiche correctement.
 
-### FreeCAD plante au démarrage {#freecad_plante_au_démarrage}
+### FreeCAD plante au démarrage 
 
 Un plantage peut indiquer un bogue plus grave ou un problème dans votre configuration. La plupart des plantages au démarrage se produisent pour l\'une des deux raisons suivantes :
 
-#### Les pilotes OpenGL ne sont pas installés, ou ne fonctionnent pas correctement {#les_pilotes_opengl_ne_sont_pas_installés_ou_ne_fonctionnent_pas_correctement}
+#### Les pilotes OpenGL ne sont pas installés, ou ne fonctionnent pas correctement 
 
 C\'est une cause très courante du problème. Les symptômes sont simplement que FreeCAD se bloque au démarrage, ou chaque fois que vous ouvrez une vue 3D (par exemple en créant un nouveau document). Essayez de découvrir quelle est votre puce graphique, puis découvrez si elle prend en charge [OpenGL](https://fr.wikipedia.org/wiki/OpenGL) (les puces les plus récentes le font), puis trouvez le pilote approprié et installez-le. Un bon moyen de vérifier si OpenGL est disponible est d\'essayer d\'exécuter une autre application OpenGL telle que [blender](http://www.blender.org).
 
@@ -67,7 +67,7 @@ Et comme astuce générale pour obtenir plus d\'informations sur les plantages a
 
 Dans certains cas rares, vous pouvez avoir un pilote graphique installé qui ne correspond pas à votre carte graphique. Nous avons eu un cas où l\'ordinateur portable de l\'utilisateur avait un graphique Intel intégré, mais certains pilotes ATI ont été installés. [1](http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042) Après avoir supprimé les fichiers et réinstallé le pilote correct, FreeCAD a commencé à fonctionner.
 
-#### Certaines bibliothèques nécessaires à FreeCAD, ne sont pas présentes sur votre système, ou n\'ont pas été trouvées par FreeCAD {#certaines_bibliothèques_nécessaires_à_freecad_ne_sont_pas_présentes_sur_votre_système_ou_nont_pas_été_trouvées_par_freecad}
+#### Certaines bibliothèques nécessaires à FreeCAD, ne sont pas présentes sur votre système, ou n\'ont pas été trouvées par FreeCAD 
 
 Il peut y avoir deux possibilités à ce problème: soit une bibliothèque manque simplement, donc FreeCAD refusera de démarrer, soit la bibliothèque est là, mais il s\'agit d\'une version plus ancienne que celle attendue par FreeCAD, donc un crash se produira lorsque FreeCAD tente de utiliser une fonctionnalité manquante de cette bibliothèque. Un exemple courant est que lorsque Qt3 et Qt4 sont installés sur votre système, FreeCAD peut détecter Qt4 mais si votre installation Qt n\'est pas correctement configurée, certains morceaux de Qt3 peuvent encore être utilisés, provoquant des plantages.
 
@@ -79,11 +79,11 @@ Si tout semble correct, décrivez le problème sur le [forum](http://forum.freec
 -   dans gdb, tapez {{SystemInput|run}}
 -   après le plantage, tapez {{SystemInput|bt}} pour obtenir le backtrace, que vous pouvez inclure dans votre rapport de bogue.
 
-### FreeCAD se bloque après le démarrage {#freecad_se_bloque_après_le_démarrage}
+### FreeCAD se bloque après le démarrage 
 
 Au démarrage de FreeCAD, l\'interface graphique apparaît presque immédiatement mais l\'interface graphique est figée et le processeur est à environ 99%. Cela peut se produire sur le bureau KDE lors de l\'utilisation du thème Oxygen. C\'est un bogue dans le thème Oxygen et le choix d\'un autre thème devrait résoudre ce problème.
 
-### Plantage de FreeCAD à la création d\'un nouveau document ou à l\'ouverture d\'un fichier {#plantage_de_freecad_à_la_création_dun_nouveau_document_ou_à_louverture_dun_fichier}
+### Plantage de FreeCAD à la création d\'un nouveau document ou à l\'ouverture d\'un fichier 
 
 Si FreeCAD plante lors de la création d\'une nouvelle vue 3D, essayez de lancer FreeCAD à partir d\'un terminal. Si un message d\'erreur apparaît lors de la panne, mentionnant {{SystemOutput|Assertion Failed}} et un nom de composant commençant par \"So\" ({{SystemOutput|SoBase}}, {{SystemOutput|SoFieldContainer}}, etc.), les chances sont très élevées, surtout si vous êtes sous Linux, que FreeCAD essaie d\'utiliser deux versions différentes de la bibliothèque Coin, ce qui provoque le crash. Pour vérifier si tel est bien le problème, essayez ce qui suit:
 
@@ -95,21 +95,21 @@ Si FreeCAD plante lors de la création d\'une nouvelle vue 3D, essayez de lancer
 
 S\'il y a une différence, FreeCAD ou SoQt doivent être recompilés (mieux vaut recompiler celui qui utilise la version la plus ancienne de Coin). Le comportement normal est d\'essayer de contacter les personnes responsables de l\'empaquetage de SoQt ou de FreeCAD et de leur demander de bien vouloir envisager la recompilation. Si vous souhaitez entreprendre cette étape pour vous-même, et qu\'il n\'est pas possible de recompiler SoQt car il casse d\'autres applications sur votre système, vous pouvez forcer FreeCAD à compiler avec la version Coin requise avec {{SystemInput|<nowiki>./configure --with-coin=DIR</nowiki>}}. Mais vous devez vous assurer que le package de développement correct de cette version Coin est installé.
 
-### FreeCAD se bloque après Édition → Alignement {#freecad_se_bloque_après_édition_alignement}
+### FreeCAD se bloque après Édition → Alignement 
 
 Une erreur de segmentation se produit à {{SystemOutput|vbo_save_playback_vertex_list()}}. Cela signifie que l\'implémentation de VBO dans le pilote graphique est mauvaise. Afin d\'éviter la mise en cache des appels OpenGL, vous pouvez essayer de définir la variable d\'environnement {{SystemInput|<nowiki>IV_SEPARATOR_MAX_CACHES=0</nowiki>}} et redémarrer FreeCAD.
 
-### J\'ai des problèmes en cours d\'exécution de FreeCAD sur macOS {#jai_des_problèmes_en_cours_dexécution_de_freecad_sur_macos}
+### J\'ai des problèmes en cours d\'exécution de FreeCAD sur macOS 
 
 La plate-forme Mac est moins facile à prendre en charge que Windows ou Linux, car aucun des principaux développeurs n\'en possède une. Les packages macOS sont compilés par des utilisateurs FreeCAD volontaires, et ils peuvent parfois ne pas fonctionner correctement sur votre machine, en fonction de votre système. Votre meilleure chance est probablement de vous rendre sur les forums, de rechercher des fils liés à macOS et de discuter de votre problème là-bas ou de voir si quelqu\'un d\'autre a trouvé une solution.
 
-### Je ne peux pas modifier les valeurs numériques dans les panneaux de propriétés de FreeCAD {#je_ne_peux_pas_modifier_les_valeurs_numériques_dans_les_panneaux_de_propriétés_de_freecad}
+### Je ne peux pas modifier les valeurs numériques dans les panneaux de propriétés de FreeCAD 
 
 <img alt="language options" src=images/Jj62l.png  style="width:480px;">
 
 Vous avez probablement une mauvaise configuration des paramètres régionaux de Windows. Veuillez vérifier si vous avez le même symbole pour le séparateur décimal et le symbole de regroupement de chiffres dans vos paramètres régionaux. Si vous le faites, [adaptez vos paramètres système](http://forum.freecadweb.org/viewtopic.php?f=4&t=2655&p=20046#p20041) pour utiliser des caractères différents pour le symbole de regroupement de chiffres et le séparateur décimal. Notez qu\'il n\'est pas obligatoire d\'avoir un point comme séparateur décimal. Il est obligatoire d\'utiliser des symboles différents dans ces deux paramètres. 
 
-### FreeCAD fonctionnait normalement, et tout à coup, il ne fonctionne plus {#freecad_fonctionnait_normalement_et_tout_à_coup_il_ne_fonctionne_plus}
+### FreeCAD fonctionnait normalement, et tout à coup, il ne fonctionne plus 
 
 Cela peut également se produire si vous aviez une ancienne version de FreeCAD installée et que vous êtes passé à une version plus récente. Dans ce processus, les fichiers de configuration de FreeCAD ont peut-être été corrompus pour une raison quelconque, et maintenant FreeCAD ne peut plus les lire et ne parvient pas à démarrer. La solution consiste simplement à supprimer ces fichiers de configuration, afin que FreeCAD les recrée lors de la première exécution.
 
@@ -119,20 +119,20 @@ Cela peut également se produire si vous aviez une ancienne version de FreeCAD i
 
 FreeCAD devrait maintenant redémarrer normalement avec tous ses paramètres réinitialisés.
 
-Une [Macro findConfigFiles](Macro_findConfigFiles/fr.md) est disponible pour vous aider à localiser vos fichiers de configuration. Elle peut être installée en utilisant le Gestionnaire d\'Addon dans le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Macros → findConfigFiles}}. La macro trouvera votre dossier de fichier de configuration, le copiera dans le presse-papiers et ouvrira (si possible) cet emplacement avec votre navigateur de fichiers par défaut. Elle n\'effectue aucun changement sur vos fichiers ou paramètres.
+Une [Macro findConfigFiles](Macro_findConfigFiles/fr.md) est disponible pour vous aider à localiser vos fichiers de configuration. Elle peut être installée en utilisant le Gestionnaire d\'Addon dans le menu **Outils → Gestionnaire d'Addon → Macros → findConfigFiles**. La macro trouvera votre dossier de fichier de configuration, le copiera dans le presse-papiers et ouvrira (si possible) cet emplacement avec votre navigateur de fichiers par défaut. Elle n\'effectue aucun changement sur vos fichiers ou paramètres.
 
-## Utiliser FreeCAD {#utiliser_freecad}
+## Utiliser FreeCAD 
 
-### FreeCAD est-il vraiment gratuit? Même pour un usage commercial? {#freecad_est_il_vraiment_gratuit_même_pour_un_usage_commercial}
+### FreeCAD est-il vraiment gratuit? Même pour un usage commercial? 
 
 FreeCAD est un [logiciel open-source](https://fr.wikipedia.org/wiki/Open_source), gratuit non seulement pour votre utilisation personnelle ou pour tout travail commercial, mais aussi pour le distribuer, le modifier, ou même l\'utiliser dans une application à code source propriétaire. Pour résumer, vous êtes libre de faire (presque) tout ce que vous voulez avec lui. Lisez la page de la [licence](Licence/fr.md) pour plus de renseignements.
 
-### Comment puis-je faire pivoter la vue 3D ? {#comment_puis_je_faire_pivoter_la_vue_3d}
+### Comment puis-je faire pivoter la vue 3D ? 
 
 
 <center>
 
-Image:Style\_of\_navigation.png\|À partir du **bouton droit** de la souris Image:Style of navigation menu.png\|À partir du menu {{MenuCommand|Édition → Préférences →}}
+Image:Style\_of\_navigation.png\|À partir du **bouton droit** de la souris Image:Style of navigation menu.png\|À partir du menu **Édition → Préférences →**
 
 
 </center>
@@ -173,21 +173,21 @@ Avec cette méthode, le bouton central de la souris peut être relâché si vous
 Les utilisateurs qui utilisent la souris avec leur main droite peuvent trouver cette méthode plus facile que la première.
 }}
 
-### Que puis-je faire avec FreeCAD ? Où dois-je commencer ? {#que_puis_je_faire_avec_freecad_où_dois_je_commencer}
+### Que puis-je faire avec FreeCAD ? Où dois-je commencer ? 
 
 Dirigez-vous vers la page [Démarrer avec FreeCAD](Getting_started/fr.md) pour une description rapide des outils que vous pouvez utiliser. Il y a aussi une nouvelle section de [tutoriels](Tutorials/fr.md) contenant quelques ressources. La page [Documentation pour utilisateurs](User_hub/fr.md) contient des informations plus détaillées sur les différents ateliers de FreeCAD. Notez que FreeCAD est relativement jeune, et que son interface utilisateur est encore un peu dépouillée, et ne comporte pas de nombreux outils. Mais beaucoup de fonctionnalités avancées sont déjà à votre disposition à partir des [scripts Python](Power_users_hub/fr.md).
 
-### Y-a-il une documentation pour les nouveaux arrivants ? Comment puis-je apprendre à utiliser FreeCAD ? {#y_a_il_une_documentation_pour_les_nouveaux_arrivants_comment_puis_je_apprendre_à_utiliser_freecad}
+### Y-a-il une documentation pour les nouveaux arrivants ? Comment puis-je apprendre à utiliser FreeCAD ? 
 
 Il y a beaucoup de documentation répartie à différents endroits, à la fois sur et en dehors du site Web de FreeCAD. Vous souhaiterez peut-être commencer par la page [Démarrer avec FreeCAD](Getting_started/fr.md). La section [Tutoriels](Tutorials/fr.md) contient de nombreuses pages de tutoriels spécialisés pour vous aider à démarrer avec les différents ateliers. Le [Manuel : Introduction](Manual:Introduction/fr.md) est un guide utilisateur général et complet de FreeCAD. La section [Documentation pour utilisateurs](User_hub/fr.md) de ce wiki répertorie toutes les pages destinées aux utilisateurs finaux. Sur des sites externes comme [Youtube](https://www.youtube.com/results?search_query=freecad), vous trouverez également une foule de tutoriels vidéo créés par les utilisateurs. Et, last but not least, le [forum](https://forum.freecadweb.org) contient de nombreuses réponses aux questions posées par d\'autres nouveaux venus.
 
-### Je veux importer/exporter des données au format XYZ de/vers FreeCAD. Comment faire ? {#je_veux_importerexporter_des_données_au_format_xyz_devers_freecad._comment_faire}
+### Je veux importer/exporter des données au format XYZ de/vers FreeCAD. Comment faire ? 
 
 Référez vous à la page [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md). Peut-être que vos questions y trouveront une réponse.
 
-## Travailler avec la géométrie de Part {#travailler_avec_la_géométrie_de_part}
+## Travailler avec la géométrie de Part 
 
-### Comment puis-je extruder des formes dans des solides ? Je n\'ai pas le résultat attendu {#comment_puis_je_extruder_des_formes_dans_des_solides_je_nai_pas_le_résultat_attendu}
+### Comment puis-je extruder des formes dans des solides ? Je n\'ai pas le résultat attendu 
 
 En théorie, c\'est très simple : les lignes (ou les fils), une fois extrudés, forment des faces. Les faces une fois extrudées forment des solides. Si vous extrudez quelque chose et que le résultat n\'est pas un solide, alors ce quelque chose n\'était pas une face. Si vous avez des lignes et que vous voulez extruder un solide à partir de celles-ci, vous devez d\'abord sélectionner des lignes qui forment un périmètre fermé (sélectionnez plusieurs objets en appuyant sur **Ctrl**), les joindre en un fil ([Draft Mettre à niveau](Draft_Upgrade/fr.md)), puis faire une face à partir de ce fil (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> Outil Draft Mettre à niveau à nouveau). Et voilà, si tout s\'est bien passé, vous pouvez maintenant l\'extruder en un solide.
 
@@ -206,11 +206,11 @@ if shp.Wires:
 
 Le code ci-dessus récupère la forme d\'un objet, montre les faces et les fils de votre objet (le cas échéant) et, s\'il y a des fils, imprime si ces fils sont fermés. Si vous n\'avez pas de faces, vous n\'obtiendrez pas de solide. S\'il n\'y a pas de fil fermé, il ne deviendra pas une face. Si vous êtes intéressé, vous trouverez plus d\'informations sur ce que vous pouvez vérifier avec Python sur la page [Scripts pour création topologique](Topological_data_scripting/fr.md). Si vous ne pouvez pas joindre plusieurs lignes dans un fil, la cause la plus probable est que leurs extrémités ne se rencontrent pas, il doit y avoir de petits espaces entre (certains d\'entre eux). Là, j\'ai peur, mon expérience me dit que le moyen le plus rapide serait de redessiner un fil par-dessus.
 
-### Mes opérations booléennes échouent, ou donnent des résultats bizarres {#mes_opérations_booléennes_échouent_ou_donnent_des_résultats_bizarres}
+### Mes opérations booléennes échouent, ou donnent des résultats bizarres 
 
 Le noyau de modélisation géométrique [Open CASCADE](https://fr.wikipedia.org/wiki/Open_CASCADE_Technology) utilisé dans FreeCAD pour la géométrie Part, bien que probablement le meilleur noyau de géométrie open-source disponible, a ses défauts et ses limites. En effet les opérations booléennes (fusion, soustraction, intersection) ne sont pas ses meilleures caractéristiques et donnent souvent des résultats étranges. Il s\'agit d\'une limitation actuelle que nous n\'avons aucun moyen de résoudre à la fois, donc votre meilleur moyen est d\'essayer d\'obtenir le résultat souhaité en modélisant d\'une autre manière. Par exemple, les problèmes avec les primitives telles que le cylindre peuvent souvent être résolus en utilisant un cercle extrudé à la place. Les surfaces coplanaires entre les pièces peuvent causer des problèmes, ainsi que la tangence de surface. En règle générale, si une forme ne fonctionne pas, essayez de la remodeler d\'une manière différente. Dans 99% des cas, vous réussirez à obtenir le résultat souhaité.
 
-### Quand j\'exporte (ou visualise) mon modèle, les trous sont remplis {#quand_jexporte_ou_visualise_mon_modèle_les_trous_sont_remplis}
+### Quand j\'exporte (ou visualise) mon modèle, les trous sont remplis 
 
 Ne pas utiliser **Crtl** + **A** (Tout sélectionner) pour exporter toute l\'arborescence. Si le modèle n\'est qu\'un seul élément, essayez de ne sélectionner que l\'élément le plus récent (généralement le dernier) dans l\'arborescence.
 
@@ -218,7 +218,7 @@ Lors de la création d\'un modèle dans l\'[atelier Part Design](PartDesign_Work
 
 Pour activer ou désactiver la visibilité d\'un objet, sélectionnez-le dans l\'arborescence et appuyez sur la barre **Espace**. Habituellement tout les objets sauf le dernier élément de l\'arborescence seront grisés et donc non visibles dans la vue 3D.
 
-### Mes objets paramétriques se cassent lorsque je modifie leurs esquisses de base {#mes_objets_paramétriques_se_cassent_lorsque_je_modifie_leurs_esquisses_de_base}
+### Mes objets paramétriques se cassent lorsque je modifie leurs esquisses de base 
 
 Vous avez rencontré l\'(in)fameux problème de toponymie. Il s\'agit actuellement d\'un problème majeur dans FreeCAD pour les nouveaux arrivants. Il est présent partout dans FreeCAD, mais est plus important lors de l\'utilisation d\'[esquisses](Sketcher_Workbench/fr.md). L\'explication est simple: lors du recalcul d\'une esquisse, les entités géométriques (arêtes, faces \...) sont reconstruites dans un ordre différent, en fonction de la priorité des contraintes. Ils reçoivent alors un nom différent (Edge1, Edge2, Face1, Face2 \...). La plupart des opérations ultérieures dépendent de ces noms pour identifier le sous-composant sur lequel elles travaillent. Par conséquent, lorsque l\'esquisse est reconstruite, les fonctions basées sur de tels sous-composants peuvent soudainement changer leur géométrie de base et donner un résultat erroné.
 
@@ -228,9 +228,9 @@ C\'est un problème très difficile à surmonter (le [Projet de dénomination to
 -   Préférez d\'autres types d\'objets tels que [Part](Part_Workbench/fr.md) ou [Draft](Draft_Workbench/fr.md) lorsque cela est possible. Ces objets sont toujours construits de la même manière et, par conséquent, leurs composants géométriques suivent généralement le même ordre chaque fois qu\'ils sont reconstruits. Ils sont beaucoup moins sensibles aux problèmes de toponaming.
 -   Pour attacher d\'autres objets sur les faces d\'une géométrie basée sur une esquisse, préférez utiliser [Plan de référence](PartDesign_Plane/fr.md). Ces \"objets d\'aide\" invisibles ne dépendent pas de la géométrie de l\'esquisse et restent donc stables dans le temps.
 
-## Contribuer à FreeCAD {#contribuer_à_freecad}
+## Contribuer à FreeCAD 
 
-### FreeCAD est un excellent programme! Comment puis-je participer ? {#freecad_est_un_excellent_programme_comment_puis_je_participer}
+### FreeCAD est un excellent programme! Comment puis-je participer ? 
 
 Il existe de nombreuses façons d\'aider, même si vous n\'êtes pas programmeur. Voici quelques actions que vous pouvez effectuer:
 
@@ -245,31 +245,31 @@ Il existe de nombreuses façons d\'aider, même si vous n\'êtes pas programmeur
 -   Essayer de faire du codage en Python: vous n\'avez jamais programmé auparavant mais vous voulez essayer? Python est facile. Lisez notre [introduction à Python](Introduction_to_Python/fr.md), mais attention, vous risquez de devenir rapidement accro!
 -   Voir la page [Contribuer à FreeCAD](Help_FreeCAD/fr.md) pour plus de détails sur la manière de contribuer.
 
-### Comment puis-je obtenir les droits pour modifier le wiki ? {#comment_puis_je_obtenir_les_droits_pour_modifier_le_wiki}
+### Comment puis-je obtenir les droits pour modifier le wiki ? 
 
 Voir le paragraphe [Travailler sur la documentation](Help_FreeCAD/fr#Travailler_sur_la_documentation.md) pour plus de détails sur la manière de contribuer.
 
-### FreeCAD participe t\'il au Google Summer of Code ? {#freecad_participe_til_au_google_summer_of_code}
+### FreeCAD participe t\'il au Google Summer of Code ? 
 
 Oui. Depuis 2016 FreeCAD participe au Google Summer of Code. Lisez [Google Summer of Code 2020](Google_Summer_of_Code_2020.md) pour des informations sur la dernière édition, et [Google Summer Of Code 2016](http://forum.freecadweb.org/viewtopic.php?f=8&t=13838) pour l\'annonce originale sur le forum.
 
-### Je veux commencer à traduire le wiki dans ma propre langue. Que dois-je faire ? {#je_veux_commencer_à_traduire_le_wiki_dans_ma_propre_langue._que_dois_je_faire}
+### Je veux commencer à traduire le wiki dans ma propre langue. Que dois-je faire ? 
 
 Ce wiki héberge pas mal de contenu. Les informations les plus intéressantes et les plus à jour sont rassemblées dans le [manuel](Online_Help_Toc/fr.md).
 
 Voir le paragraphe de la page [Traduction de la documentation](Help_FreeCAD/fr#Traduire_la_documentation.md) pour plus de détails sur la façon de traduire le wiki.
 
-## Licence, copie et réutilisation {#licence_copie_et_réutilisation}
+## Licence, copie et réutilisation 
 
-### Dois-je payer quelque chose pour utiliser FreeCAD ? {#dois_je_payer_quelque_chose_pour_utiliser_freecad}
+### Dois-je payer quelque chose pour utiliser FreeCAD ? 
 
 Non. FreeCAD est totalement gratuit à utiliser, à télécharger, à redistribuer ou à modifier. Il s\'agit du [logiciel open-source](https://en.wikipedia.org/wiki/Open_source), publié sous les termes de la [Licence publique générale limitée GNU 2.1](https://fr.wikipedia.org/wiki/Licence_publique_g%C3%A9n%C3%A9rale_limit%C3%A9e_GNU), qui vous garantit ces libertés et, plus important encore, vous garantit que ces libertés ne vous seront jamais enlevées.
 
-### Puis-je réutiliser une partie de l\'artwork de FreeCAD ou des éléments du site web ? {#puis_je_réutiliser_une_partie_de_lartwork_de_freecad_ou_des_éléments_du_site_web}
+### Puis-je réutiliser une partie de l\'artwork de FreeCAD ou des éléments du site web ? 
 
 Bien sûr. Toutes les œuvres (icônes, bannières, etc ..) de FreeCAD sont sous licence LGPL, de même que le code source de FreeCAD. Aidez vous à partir de la [page Graphisme](Artwork/fr.md). Le site est un site standard MediaWiki, tous les éléments graphiques peuvent être librement réutilisés, et si vous êtes curieux de savoir comment modifier le logiciel MediaWiki comme nous l\'avons fait, regardez les pages spéciales Common **css et js**.
 
-### Puis-je réutiliser des morceaux de FreeCAD dans une autre application ? {#puis_je_réutiliser_des_morceaux_de_freecad_dans_une_autre_application}
+### Puis-je réutiliser des morceaux de FreeCAD dans une autre application ? 
 
 Oui, vous pouvez utiliser les composants essentiels de FreeCAD dans d'autres applications, dans la mesure où vous vous conformez aux conditions de la LGPL. Les bibliothèques tierces, [ateliers externe](External_workbenches/fr.md) et [macros](Macros/fr.md) peuvent être soumises à leurs propres conditions de licence, merci de consulter leurs auteurs. Plus de détails sur la page [licence](Licence/fr.md).
 

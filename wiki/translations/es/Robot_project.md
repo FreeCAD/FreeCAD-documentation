@@ -18,7 +18,7 @@ Este es el articulo de proyecto del proyecto de simulación de Robots. Sigue las
 
 </div>
 
-## Propósito y principios {#propósito_y_principios}
+## Propósito y principios 
 
 Este proyecto debería ofrecer las principales tecnologías para una simulación de robots realista en FreeCAD. En el primer paso su objetivo es el robot industrial estándar de 6 ejes.
 
@@ -28,12 +28,12 @@ Simulación del robot
 
 ![](images/Robot.jpg )
 
-## Tormenta de ideas {#tormenta_de_ideas}
+## Tormenta de ideas 
 
 
 <div class="mw-translate-fuzzy">
 
-### Bibliotecas en este campo {#bibliotecas_en_este_campo}
+### Bibliotecas en este campo 
 
 -   [OROCOS](http://www.orocos.org/) Bibliotecas para cinemática inversa
 -   [ROBOOP](http://www.cours.polymtl.ca/roboop/) cuyo objetivo es directamente la simulación de robots, pero parece que no está activo.
@@ -45,7 +45,7 @@ Simulación del robot
 
 <div class="mw-translate-fuzzy">
 
-### Estándares de comunicación {#estándares_de_comunicación}
+### Estándares de comunicación 
 
 -   [OPC UA](http://en.wikipedia.org/wiki/OPC_Unified_Architecture) para comunicarse con PLCs
 -   [RRS-II](http://www.ipk.fraunhofer.de/geschaeftsfelder/automatisierungstechnik/prozessautomatisierung-und-robotik/forschung-und-entwicklung/rrs-realistic-robot-simulation) estándar alemán para la comunicación de simulación de robots
@@ -53,7 +53,7 @@ Simulación del robot
 
 </div>
 
-### Mecanismos de comunicación {#mecanismos_de_comunicación}
+### Mecanismos de comunicación 
 
 
 <div class="mw-translate-fuzzy">
@@ -64,7 +64,7 @@ Simulación del robot
 
 </div>
 
-### Productos comerciales en este campo {#productos_comerciales_en_este_campo}
+### Productos comerciales en este campo 
 
 -   [Visual Components](http://www.visualcomponents.com/Solutions/Robot-Simulation)
 -   [Delmia](http://www.3ds.com/products/delmia/welcome/)
@@ -95,7 +95,7 @@ Simulación del robot
 -   Proceso y control de la célula de trabajo (planificado)
 -   Fabricación de película de animación (planificado)
 
-## Siguientes acciones {#siguientes_acciones}
+## Siguientes acciones 
 
 -   Gestión de la trayectoria y de los puntos de paso.
 

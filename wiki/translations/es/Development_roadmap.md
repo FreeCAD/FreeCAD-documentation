@@ -34,7 +34,7 @@ Esta sección ofrece un resumen de lo que está planeado y te ofrece la oportuni
   **[Artwork project](Artwork_project.md)**                                       A project to update logo and icons                                                                                                GUI                                                                 Current
                                                                                                                                                                                                                                                                                                 
 
-## Calendario de Versiones {#calendario_de_versiones}
+## Calendario de Versiones 
 
 Como en la mayoría de proyectos de [Software libre y de código abierto (FLOSS)](http://es.wikipedia.org/wiki/Software_libre_y_de_c%C3%B3digo_abierto) definir un calendario de versiones es muy complicado. No habrá fechas fijas y estará hecho cuando esté hecho (**\"It\'s done, when it\'s done!\"**)
 

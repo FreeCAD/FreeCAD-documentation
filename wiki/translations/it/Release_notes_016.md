@@ -9,7 +9,7 @@ Satnogs Rotator (https://satnogs.org/)
 
 </center>
 
-## In evidenza {#in_evidenza}
+## In evidenza 
 
 È stato introdotto il supporto **[Espressione](Expressions/it.md)**, che consente di definire le relazioni tra le proprietà degli oggetti sotto forma di formule. Il supporto espressione è un importante passo in avanti per creare dei modelli parametrici migliori con FreeCAD. Le espressioni offrono una interfaccia semplice per realizzare dei modelli controllati da fogli di calcolo.
 
@@ -25,7 +25,7 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 
 <img alt="" src=images/Multiple_material.jpg  style="width:700px;">
 
-## In generale {#in_generale}
+## In generale 
 
 -   Supporto per espressioni o formule
 -   Tre nuovi stili di navigazione: Gesture (con il supporto touchscreen per Windows), Maya, e OpenCascade.
@@ -34,12 +34,12 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 -   Nuove opzioni di salvataggio (Ripristina, Salva come copia)
 -   Nuova homepage
 
-## Ambiente Part {#ambiente_part}
+## Ambiente Part 
 
 -   Nuovi strumenti per congiungere oggetti con \"pareti\" (es. tubazioni): [Congiungi](Part_JoinConnect/it.md), [Incastra](Part_JoinEmbed/it.md) e [Asporta](Part_JoinCutout/it.md)
 -   Nuova funzionalità: creare una faccia parametrica da uno schizzo
 
-## Ambienti Part Design & Sketcher {#ambienti_part_design_sketcher}
+## Ambienti Part Design & Sketcher 
 
 -   Nuova funzionalità: Commutazione tra [Vincoli guida o di riferimento](Sketcher_ToggleDrivingConstraint/it.md) e definitivi
 -   Nuova funzionalità: Modalità di creazione Continua
@@ -49,11 +49,11 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 -   Nuove funzionalità: Strumenti per la duplicazione, la riflessione e la schiera rettangolare
 -   Supporto per l\'impiego di [espressioni o formule](Expressions/it.md) nei vincoli e nelle proprietà
 
-## Ambiente Spreadsheet {#ambiente_spreadsheet}
+## Ambiente Spreadsheet 
 
 -   Aggiunte le funzioni: round, trunc, ceil, e floor.
 
-## Ambiente Draft {#ambiente_draft}
+## Ambiente Draft 
 
 -   **Nuovo importatore DXF**: Ora l\'ambiente Draft è dotato di un nuovo importatore DXF, completamente scritto in C ++, ereditato da [HeeksCad](https://github.com/Heeks/heekscad), che non ha più bisogno di scaricare dei componenti esterni, ed è molto più veloce e in grado di caricare dei file DXF molto più grandi. Una opzione nelle preferenze per i file DXF permette di tornare al vecchio importatore, se questo è necessario.
 -   Il nuovo strumento **[Specchio](Draft_Mirror/it.md)** permette di riflettere gli oggetti nel modo Draft.
@@ -65,7 +65,7 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 
 <div class="mw-translate-fuzzy">
 
-## Ambiente Drawing {#ambiente_drawing}
+## Ambiente Drawing 
 
 -   Il nuovo strumento **[Vista foglio di calcolo](Drawing_SpreadsheetView/it.md)** permette di inserire un intervallo di celle di un [foglio di calcolo](Spreadsheet_Workbench/it.md) in una pagina di Drawing.
 
@@ -74,7 +74,7 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 
 <img alt="" src=images/Drawing_spreadsheetview.jpg  style="width:1024px;">
 
-## Ambiente Arch {#ambiente_arch}
+## Ambiente Arch 
 
 -   **[Supporto Materiali](Arch_SetMaterial/it.md)**: Ora gli oggetti Arch possono essere associati a un [materiale](material/it.md), che utilizza la struttura dei materiali interna a FreeCAD. I materiali sono condivisi con gli altri ambienti, e sono pienamente supportati nell\'importazione ed esportazione IFC.
 -   **[Piano di sezione](Arch_SectionPlane/it.md)**: Ora il piano di sezione può tagliare la vista 3D, e mostrare la sezione in tempo reale.
@@ -86,7 +86,7 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 -   Un nuovo strumento [Scheda](Arch_Schedule/it.md) di Arch permette di creare diversi tipi di schede da un modello BIM.
 -   Gli **attributi IFC** ora possono essere importati, modificati ed esportati. Essi sono fondamentalmente un oggetto foglio di calcolo collegato a un oggetto Arch.
 
-## Ambiente FEM {#ambiente_fem}
+## Ambiente FEM 
 
 -   Ora i comandi **GUI** di FEM hanno le scorciatoie da tastiera. È stato introdotto un dialogo delle preferenza per FEA. Il percorso per il binario di calculix è una delle impostazioni delle preferenze.
 -   Nel **contenitore GUI delle analisi** i componenti dell\'analisi usano drag & drop. Essi possono essere spostati dentro e fuori da un contenitore dell\'analisi. Poiché ora non vi è il supporto per analisi multiple, un membro può essere spostato anche in un\'altra analisi. In un\'analisi si possono creare dei vincoli multipli.
@@ -106,7 +106,7 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 -   **Macro GMSH** Uno sviluppo esterno interessante è la [Macro GMSH](Macro_GMSH/it.md) che rende possibile l\'uso di GMSH per il meshing. Molto utile per tutti coloro che non sono in grado di compilare FreeCAD con NetGen o per meshing shell or edge meshes.
 -   **Miglioramenti generali** Dato il suo consistente sviluppo, ci sono stati molti miglioramenti nel codice di base del modulo FEM.
 
-## Ambiente Path {#ambiente_path}
+## Ambiente Path 
 
 ![](images/Exercise_path_02.jpg )
 
@@ -120,7 +120,7 @@ Allo stato attuale, l\'ambiente permette di creare profili e tasche basate su un
 
 </div>
 
-## Moduli aggiuntivi {#moduli_aggiuntivi}
+## Moduli aggiuntivi 
 
 I membri della comunità hanno creato alcuni [ambienti aggiuntivi](https://github.com/FreeCAD/FreeCAD-addons). Questi ambienti sono facilmente inseribili in qualsiasi installazione di FreeCAD esistente. Tra di loro ci sono:
 

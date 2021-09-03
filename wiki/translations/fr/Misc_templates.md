@@ -9,29 +9,29 @@ Pour y accéder après avoir créé la page, cliquez sur la page dans **Vue comb
 Une macro est disponible pour chacun des cartouches les plus utilisés [modèle 1](Macro_CartoucheFC/fr.md) et [modèle 2](Macro_CartoucheFC_2/fr.md).
 Plusieurs attributs personnalisés peuvent être placés dans les feuilles. La liste des attributs pris en charge actuellement est disponible sur la page [Svg Namespace](Svg_Namespace/fr.md).
 
-### A3 paysage texte US complet avec convention EU {#a3_paysage_texte_us_complet_avec_convention_eu}
+### A3 paysage texte US complet avec convention EU 
 
 <img alt="A3 paysage texte US complet avec convention EU" src=images/A3_Landscape_US_Text_Complet_With_Convention_EU.svg  style="width:800px;">
 
-### A3 paysage texte US complet avec convention US {#a3_paysage_texte_us_complet_avec_convention_us}
+### A3 paysage texte US complet avec convention US 
 
 <img alt="A3 paysage texte US complet avec convention US" src=images/A3_Landscape_US_Text_Complet_With_Convention_US.svg  style="width:800px;">
 
-### A3 Landscape FR Texte Complet Sans Convention {#a3_landscape_fr_texte_complet_sans_convention}
+### A3 Landscape FR Texte Complet Sans Convention 
 
 <img alt="A3 paysage texte US complet sans convention" src=images/A3_Landscape_US_Text_Complet_Without_Convention.svg  style="width:800px;">
 
-### A4 paysage texte US complet avec convention EU {#a4_paysage_texte_us_complet_avec_convention_eu}
+### A4 paysage texte US complet avec convention EU 
 
 <img alt="A3 paysage texte US complet avec convention EU" src=images/A4_Landscape_US_Text_Complet_With_Convention_EU.svg  style="width:800px;">
 
-### A4 portrait texte US complet avec convention EU {#a4_portrait_texte_us_complet_avec_convention_eu}
+### A4 portrait texte US complet avec convention EU 
 
 <img alt="A4 portrait texte US complet avec convention EU" src=images/A4_Portrait_US_Text_Complet_With_Convention_EU.svg  style="width:400px;">
 
-### Les cartouches les plus utilisés dans FreeCAD {#les_cartouches_les_plus_utilisés_dans_freecad}
+### Les cartouches les plus utilisés dans FreeCAD 
 
-#### Convention EU US {#convention_eu_us}
+#### Convention EU US 
 
 Symboles utilisés pour définir la [projection](http://commons.wikimedia.org/wiki/File:Convention_placement_vues_dessin_technique.svg).
 
@@ -43,27 +43,27 @@ Symboles utilisés pour définir la [projection](http://commons.wikimedia.org/wi
 
 </center>
 
-#### Modèle de cartouche 1 {#modèle_de_cartouche_1}
+#### Modèle de cartouche 1 
 
 <img alt="Modèle de cartouche 1" src=images/Cartouche_01_FR.svg  style="width:400px;">
 
-#### Modèle de cartouche 2 {#modèle_de_cartouche_2}
+#### Modèle de cartouche 2 
 
 <img alt="Modèle de cartouche 2" src=images/Cartouche_02_FR.svg  style="width:400px;">
 
-#### Modèle de cartouche 3 {#modèle_de_cartouche_3}
+#### Modèle de cartouche 3 
 
 <img alt="Modèle de cartouche 3" src=images/Cartouche_03_FR.svg  style="width:400px;">
 
-#### Modèle de cartouche 4 {#modèle_de_cartouche_4}
+#### Modèle de cartouche 4 
 
 <img alt="Modèle de cartouche 4" src=images/Cartouche_04_FR.svg  style="width:400px;">
 
-### Rose des vents {#rose_des_vents}
+### Rose des vents 
 
 <img alt="Rose des vents" src=images/CompassRose.svg  style="width:200px;">
 
-### Modèles au format .FCStd {#modèles_au_format_.fcstd}
+### Modèles au format .FCStd 
 
 Les modèles sont complets et reçoivent un cartouche et une table (K à Z caché par défaut) et des symboles US (caché par défaut) et EU. Il vous suffit de cacher ou d\'effacer ce qui ne vous sert pas.
 
@@ -75,7 +75,7 @@ CompassRose\_2D [Rose\_des\_vents\_2D.FCStd](http://forum.freecadweb.org/downloa
 
 CompassRose\_3D [Rose\_des\_vents\_3D.FCStd](http://forum.freecadweb.org/download/file.php?id=6502)
 
-### Autres standards disponibles {#autres_standards_disponibles}
+### Autres standards disponibles 
 
 -   [Drawing Modèles](Drawing_templates/fr.md): Modèles standards de FreeCAD
 -   [Modèles Arch](Arch_templates/fr.md): Modèles au standard American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)

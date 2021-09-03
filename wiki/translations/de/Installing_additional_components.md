@@ -14,11 +14,11 @@ Nach dem installieren von FreeCAD für dein Betriebssystem ([Windows](Installing
 
 Die Offline Dokumentation wird nicht mit allen Installationsprogrammen ausgeliefert, sie ist jedoch als separates Paket verfügbar. Weitere Informationen findest du auf der Seite [Installieren von Hilfedateien](Installing_Helpfile/de.md).
 
-# Externe Arbeitsbereiche {#externe_arbeitsbereiche}
+# Externe Arbeitsbereiche 
 
 Abgesehen von den Standard [Arbeitsbereichen](workbenches/de.md), die mit FreeCAD gebündelt sind, gibt es eine große Sammlung nützlicher [externer Arbeitsbereiche](External_workbenches/de.md), erstellt von Gemeinschaftsmitgliedern.
 
-# Drittanbieter Software {#drittanbieter_software}
+# Drittanbieter Software 
 
 FreeCAD unterstützt von Haus aus einige Softwarepakete von Drittanbietern. In vielen Fällen brauchst du die Software nur zu installieren, und wenn FreeCAD neu gestartet wird, findet es sie automatisch und kann sie verwenden. Dieser Abschnitt soll eine Liste solcher Softwarepakete bereitstellen, zusammen mit einigen Informationen darüber, wo sie in FreeCAD verwendet werden und wo sie heruntergeladen werden können.
 
@@ -48,7 +48,7 @@ Die gesamte Software in diesem Abschnitt wird von den [Std Import](Std_Import/de
 
 [CADExchanger](https://cadexchanger.com) ist eine kommerzielle Anwendung zum Austausch von verschiedenen CAD Dateiformaten. Es gibt einen [externen Arbeitsbereich](https://github.com/yorikvanhavre/CADExchanger), um diese Anwendung in FreeCAD zu verwenden.
 
-### DXF Importeur {#dxf_importeur}
+### DXF Importeur 
 
 FreeCAD hat einen eigenen Importeur und Exporteur für DXF Dateien, programmiert in C++. Derzeit führen sie nicht alle Funktionen des DXF Formats aus. Für diese Funktionen sind der alte Python Importeer und Exporteur weiterhin verfügbar. Diese benötigen die [Draft-dxf-importer](https://github.com/yorikvanhavre/Draft-dxf-importer) Python Bibliothek. Siehe die [FreeCAD und DXF Import](FreeCAD_und_DXF_Import/de.md) Seite für weitere Informationen.
 
@@ -64,7 +64,7 @@ FreeCAD hat einen eigenen Importeur und Exporteur für DXF Dateien, programmiert
 
 Die Unterstützung für [LibreDWG](https://www.gnu.org/software/libredwg) ist noch experimentell. Wie der ODA Datei Konverter kann es DWG in DXF Dateien umwandeln, die FreeCAD dann importieren kann. Siehe die [FreeCAD und DWG Import](FreeCAD_und_DWG_Import/de.md) Seite für weitere Informationen.
 
-### ODA Datei Konverter {#oda_datei_konverter}
+### ODA Datei Konverter 
 
 Der [ODA Dateikonverter](https://www.opendesign.com/guestfiles/oda_file_converter) ist eine freie, Anwendung zum umwandeln zwischen verschiedenen Versionen von DWG und DXF Dateien. FreeCAD benötigt diesen Konverter, oder LibreDWG, um DWG Dateien zu importieren. Siehe die [FreeCAD and DWG Import](FreeCAD_and_DWG_Import/de.md) Seite für weitere Information.
 
@@ -86,7 +86,7 @@ Der [ODA Dateikonverter](https://www.opendesign.com/guestfiles/oda_file_converte
 
 [POV-Ray](https://www.povray.org) ist ein sehr bekannter Strahlenverfolger zur Bildsynthese von fotorealistischen Bildern. Er ist einer von zwei Bildsynthese Engines, die derzeit vom [Arbeitsbereich Strahlverfolgung](Raytracing_Workbench/de.md) unterstützt werden. Siehe die [POV-Ray](POV-Ray/de.md) Seite für weitere Informationen und Installationsanweisungen.
 
-## Finite Elemente {#finite_elemente}
+## Finite Elemente 
 
 ### CalculiX
 
@@ -112,7 +112,7 @@ Der [ODA Dateikonverter](https://www.opendesign.com/guestfiles/oda_file_converte
 
 [OpenFOAM](https://openfoam.org) ist eine große Sammlung von Bibliotheken für numerische Strömungsmechanik (engl.: Computational Fluid Dynamics) (CFD) Simulationen. OpenFOAM wird von [Cfd](Cfd_Workbench/de.md) und [CfdOF](https://github.com/jaheyns/CfdOF) [externe Arbeitsbereiche](external_workbenches/de.md) verwendet.
 
-# Verwandte Seiten {#verwandte_seiten}
+# Verwandte Seiten 
 
 -   [Import Export](Import_Export/de.md)
 -   [Import Export Einstellungen](Import_Export_Preferences/de.md)

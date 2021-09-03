@@ -11,7 +11,7 @@ The **Std MergeProjects** command adds the contents of a FreeCAD file into the a
 
 ## Usage
 
-1.  Select the {{MenuCommand|File → <img src="images/Std_MergeProjects.svg" width=16px> Merge project...}} option from the menu.
+1.  Select the **File → <img src="images/Std_MergeProjects.svg" width=16px> Merge project...** option from the menu.
 2.  Select a FreeCAD file in the dialog box.
 3.  Press the **Open** button.
 
@@ -26,8 +26,8 @@ The **Std MergeProjects** command adds the contents of a FreeCAD file into the a
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   Duplicate labels are allowed if {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels}} is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 
 
 

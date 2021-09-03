@@ -20,7 +20,7 @@ Lo strumento <img alt="" src=images/Part_Import.svg  style="width:16px;"> [Impor
 <div class="mw-translate-fuzzy">
 
 1.  Impostare le [Preferenze di importazione e esportazione](Import_Export_Preferences/it.md) nell\'[editor delle preferenze](Preferences_Editor/it.md).
-2.  Andare nel menu {{MenuCommand|Parte →  <img src=images/Part_Import.svg style="width:16px"> Importa CAD}}.
+2.  Andare nel menu **Parte →  <img src=images/Part_Import.svg style="width:16px"> Importa CAD**.
 3.  Selezionare il file da importare.
 
 

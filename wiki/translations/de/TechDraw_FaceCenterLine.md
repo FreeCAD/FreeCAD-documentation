@@ -24,7 +24,7 @@ Das Werkzeug fügt einer Fläche eine Mittellinie durch ihren Mittelpunkt zu.
 
 Um eine Mittellinie zu löschen, wähle sie aus und verwende die Werkzeugleistenschaltfläche **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Kosmetikobjekt entfernen](TechDraw_CosmeticEraser/de.md)**.
 
-## Bearbeite Mittellinien {#bearbeite_mittellinien}
+## Bearbeite Mittellinien 
 
 Alle Werkzeuge für Mittellinien (**<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Mittellinie zu Fläche(n) hinzufügen**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Mittellinie zwischen 2 Punkten hinzufügen](TechDraw_2PointCenterLine/de.md)**) können verwendet werden um Mittellinien zu ändern.
 

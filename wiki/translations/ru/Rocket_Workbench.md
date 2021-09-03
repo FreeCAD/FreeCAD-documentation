@@ -22,7 +22,7 @@ Parts are created by specifying parameters in the task dialog. No drawing is req
 
 This workbench can be installed from the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 
-## Getting Started {#getting_started}
+## Getting Started 
 
 TBD
 
@@ -44,7 +44,7 @@ Components created using the Rocket Workbench are essentially parts similar to w
 -   <img alt="" src=images/Rocket_Calculator.svg  style="width:32px;"> [Calculate Thrust To Weight](Rocket_Thrust_To_Weight_Calculator.md): Calculate the minimum average thrust required for a safe flight
 -   <img alt="" src=images/Rocket_Calculator.svg  style="width:32px;"> [Calculate Vent Hole Size](Rocket_Vent_Hole_Size_Calculator.md): Calculate the required vent hole size for barometric altimeters
 
-## Руководства и Обучение {#руководства_и_обучение}
+## Руководства и Обучение 
 
 [FreeCAD Rocket Workbench](https://youtube.com/playlist?list=PLIk8AsRj-ngQRr6uLD3DDJTBrLhJfF7eI) Tutorial Playlist on YouTube
 

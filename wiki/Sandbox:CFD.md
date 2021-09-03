@@ -22,11 +22,11 @@ Detailed description
 
 ## Installation
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 How to [here](https://github.com/qingfengxia/Cfd)
 
@@ -42,7 +42,7 @@ To use CFD for FreeCAD
 
 **Mac Installation Instructions** (From GitHub)
 
-## Links to CFD WB {#links_to_cfd_wb}
+## Links to CFD WB 
 
 -   Workbench Wiki:
 -   FreeCAD Wiki:
@@ -52,7 +52,7 @@ To use CFD for FreeCAD
 -   Files:
 -   Report bugs: Please report bugs at
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [Macros recipes](Macros_recipes.md)
 

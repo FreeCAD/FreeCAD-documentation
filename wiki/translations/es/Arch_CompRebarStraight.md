@@ -10,13 +10,13 @@
 
 El complemento de refuerzo aumenta el [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) proporcionando nuevas interfaces y preajustes para la creación de tipos de barras de refuerzo comunes para su uso con [Arquitectura Estructura](Arch_Structure/es.md). También está integrado en el ambiente de trabajo externo [BIM](BIM_Workbench/es.md).
 
-Las herramientas se pueden instalar con el [Gestor de complementos](Addon_Manager/es.md) a través del menú {{MenuCommand|Herramientas → Gestor de complementos → Refuerzo}}. Es necesario reiniciar FreeCAD para que las nuevas herramientas aparezcan bajo el botón Rebar Straight **<img src="images/Arch_CompRebarStraight.png" width=24px>**.
+Las herramientas se pueden instalar con el [Gestor de complementos](Addon_Manager/es.md) a través del menú **Herramientas → Gestor de complementos → Refuerzo**. Es necesario reiniciar FreeCAD para que las nuevas herramientas aparezcan bajo el botón Rebar Straight **<img src="images/Arch_CompRebarStraight.png" width=24px>**.
 
 Este complemento fue desarrollado durante el [Google Summer of Code](Google_Summer_of_Code.md) 2017, y está alojado en el repositorio de Github [FreeCAD-Reinforcement](https://github.com/amrit3701/FreeCAD-Reinforcement), que está separado del repositorio principal de FreeCAD.
 
 Back to [Workbenches](Workbenches#External_workbenches.md) / [External Workbenches](External_Workbenches#General.md)
 
-## Tipos de refuerzo {#tipos_de_refuerzo}
+## Tipos de refuerzo 
 
 -   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Straight Rebar](Arch_Rebar_Straight.md): Creates a Straight reinforcement bar in a selected structural element
 

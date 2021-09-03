@@ -15,7 +15,7 @@
 Ta makrodefinicja spłaszcza polilinie środowiska Rysunek Roboczy, które nie są płaskie na płaszczyźnie zdefiniowanej przez 3 punkty.
 Aby użyć tego makra, wybierz pierwsze 3 wierzchołki z pojedynczej [polilinii](Draft_Wire/pl.md) Rysunek Roboczy.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Ikonka paska narzędzi ![](images/Macro_FlattenWire3Points.png )
 

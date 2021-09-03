@@ -13,7 +13,7 @@
 
 Diese Seite bietet eine Sammlung von Hinweisen und kleinen Anleitungen zur Verwendung der <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md). Das Hinzufügen neuer Erkenntnisse und bewährter Verfahren ist erwünscht.
 
-### Mittenmarkierung aktivieren/deaktivieren {#mittenmarkierung_aktivierendeaktivieren}
+### Mittenmarkierung aktivieren/deaktivieren 
 
 Wenn die Mittenmarkierung deaktiviert sind, können Lochmittelpunkte und ähnliche Dinge nicht bemaßt werden. Die Mittenmarkierung werden als kleines Kreuz dargestellt.
 
@@ -22,23 +22,23 @@ Wenn die Mittenmarkierung deaktiviert sind, können Lochmittelpunkte und ähnlic
 
 *Hinweis* in diesem Reiter sind [Andere Einstellungen](TechDraw_View#Properties/de.md) für die Ansicht, die nützlich sein könnte.
 
-### Umschalten zwischen Ansichtsrahmen und Knotenpunkten {#umschalten_zwischen_ansichtsrahmen_und_knotenpunkten}
+### Umschalten zwischen Ansichtsrahmen und Knotenpunkten 
 
 Siehe [Hier](TechDraw_ToggleFrame/de.md) für das Ein- und Ausschalten und weitere Informationen.
 
-### Gekrümmte Kanten als Eingabe für lineare Abmessungen {#gekrümmte_kanten_als_eingabe_für_lineare_abmessungen}
+### Gekrümmte Kanten als Eingabe für lineare Abmessungen 
 
 Gekrümmte Kanten werden als Eingabe für lineare Abmessungen akzeptiert. Siehe diesen [Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=35&t=49719&start=30)
 
 <img alt="" src=images/CurvedEdgeLinearDims.png  style="width:256px;">
 
-### Metrische und zöllige Abmessungen gleichzeitig anzeigen {#metrische_und_zöllige_abmessungen_gleichzeitig_anzeigen}
+### Metrische und zöllige Abmessungen gleichzeitig anzeigen 
 
 Es ist möglich, gleichzeitig metrische und zöllige Dezimalmaße anzuzeigen. Siehe dies [Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=35&t=49711)
 
 <img alt="" src=images/Imperiale_decimale.png  style="width:256px;">
 
-### Bemaßung bei orientierten Bohrungen {#bemaßung_bei_orientierten_bohrungen}
+### Bemaßung bei orientierten Bohrungen 
 
 Zwei Anwendungsfälle. Siehe diesen [Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=35&t=49976).
 

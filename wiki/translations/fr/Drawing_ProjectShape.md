@@ -27,7 +27,7 @@ Cet outil crée une projection de l\'objet sélectionné (Source) dans la vue 3D
 |                                                      | Une objet de projection (**objectname\_proj**) sera ajouté au projet. Pour les projections ultérieures du même objet source, l\'objet de projection sera nommé **objectname\_projXXX**, où **xxx** est un nombre à trois chiffres. |
 +------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-### Modifier une projection existante {#modifier_une_projection_existante}
+### Modifier une projection existante 
 
 +----------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ![](images/_ProjectShapeOptions_it.png ) | Les paramètres de projection peuvent être modifiés dans l'éditeur de Propriété.                                                                                                                                               |

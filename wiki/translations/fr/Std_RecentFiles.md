@@ -14,7 +14,7 @@ L\'option de menu **Std Fichiers récents** affiche une liste des fichiers réce
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Fichier → Fichiers récents}} dans le menu pour afficher la liste des fichiers récents.
+1.  Sélectionnez l\'option **Fichier → Fichiers récents** dans le menu pour afficher la liste des fichiers récents.
 2.  Sélectionnez un fichier dans la liste pour l\'ouvrir.
 
 ## Options
@@ -23,8 +23,8 @@ L\'option de menu **Std Fichiers récents** affiche une liste des fichiers réce
 
 ## Préférences
 
--   Le nombre maximal de fichiers dans la liste des fichiers récents est déterminé par le paramètre {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → RecentFiles → RecentFiles}}. Ce paramètre peut également être modifié dans [Editeur de préférences](Preferences_Editor/fr#G.C3.A9n.C3.A9ral.md).
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   Le nombre maximal de fichiers dans la liste des fichiers récents est déterminé par le paramètre **Outils → Editer les paramètres... → BaseApp → Preferences → RecentFiles → RecentFiles**. Ce paramètre peut également être modifié dans [Editeur de préférences](Preferences_Editor/fr#G.C3.A9n.C3.A9ral.md).
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

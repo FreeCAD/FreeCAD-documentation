@@ -23,7 +23,7 @@ Copy the macro and paste in the console Python and anjoy
 
 To stop the animation tip : **animation.stop()**
 
-## The File {#the_file}
+## The File 
 
  [00\_assemblage\_total.fcstd](http://blog.passion-tarn-et-garonne.info/public/3D/pb-avec-freecad/00-assemblage-total.fcstd) 
 

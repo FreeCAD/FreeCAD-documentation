@@ -11,7 +11,7 @@ Instrumentul **Thickness** lucrează pe un corp solid și îl transformă într-
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -82,7 +82,7 @@ Apoi
 
 Resultat: ![](images/Brga-spessore.png )
 
-## Known Errors {#known_errors}
+## Known Errors 
 
 -   BRep\_API: command not done
 -   BRep\_Tool:: no parameter on edge

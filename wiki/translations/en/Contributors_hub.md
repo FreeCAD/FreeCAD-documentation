@@ -6,7 +6,7 @@ If you want to contribute to FreeCAD and use your energy to push this project fo
 
 This page is in construction, follow the progress on this [forum post](https://forum.freecadweb.org/viewtopic.php?f=21&t=21533). Any help would be appreciated : review, typo, writing. The main inspiration for this page is [this fedora page](https://fedoraproject.org/wiki/Join#People_Person).
 
-## People Person {#people_person}
+## People Person 
 
 If you like to help FreeCAD to go forward, one of the easiest way is to promote this project. FreeCAD needs ambassadors to reach a larger public. You can simply start talking about FreeCAD with your relatives and close friends. Also, don\'t hesitate to share a [video or a tutorial](https://forum.freecadweb.org/viewforum.php?f=36) in the social medias or your personal website. You can then explain the philosophy behind this FOSS (Free and Open Source Software) and/or demonstrate the possibilities of this CAD system (Computer-aided design).
 
@@ -14,12 +14,12 @@ If you want to get more involve, you can hold a stand or make a presentation lin
 
 Also, you can help other users in the [FreeCAD support page](https://forum.freecadweb.org/viewforum.php?f=3) getting along with the software. If you would like to help in the marketing, by for example elaborating a strategy, please get in contact with the designers of the project [via the forum](https://forum.freecadweb.org/viewforum.php?f=34).
 
-## Content Writer {#content_writer}
+## Content Writer 
 
 ## Translator
 
 ## Designer
 
-## FreeCAD Developer {#freecad_developer}
+## FreeCAD Developer 
 
-## Web Developer or Administrator {#web_developer_or_administrator}
+## Web Developer or Administrator 

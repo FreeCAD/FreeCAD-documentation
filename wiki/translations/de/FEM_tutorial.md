@@ -76,16 +76,16 @@ In diesem Beispiel wird ein Würfel als Studienobjekt verwendet, aber stattdesse
 
 Wir haben nun ein Modell, mit dem wir im Folgenden arbeiten können.
 
-### Creating the Analysis {#creating_the_analysis}
+### Creating the Analysis 
 
 #### Netgen
 
 
 <div class="mw-translate-fuzzy">
 
-### Erstellen der Analyse {#erstellen_der_analyse}
+### Erstellen der Analyse 
 
-#### Netgen {#netgen_1}
+#### Netgen 
 
 1.  Wähle das Modell
 2.  Klicke auf <img alt="" src=images/FEM_Analysis.png  style="width:16px;"> [Neue mechanische Analyse](FEM_Analysis/de.md) aus dem Menü, um eine Analyse aus dem ausgewählten Objekt zu erstellen
@@ -107,7 +107,7 @@ Du kannst auch ein Netz auf eine Mechanische Analyse ziehen und ablegen, die kei
 
 <div class="mw-translate-fuzzy">
 
-#### GMSH {#gmsh_1}
+#### GMSH 
 
 Die Verwendung des Makros von psicofil wird empfohlen und wird für dieses Beispiel verwendet.
 
@@ -121,12 +121,12 @@ Die Verwendung des Makros von psicofil wird empfohlen und wird für dieses Beisp
 
 Wir haben unser Objekt nun vernetzt und sind bereit, Beschränkungen und Kräfte hinzuzufügen.
 
-### Constraints and Forces {#constraints_and_forces}
+### Constraints and Forces 
 
 
 <div class="mw-translate-fuzzy">
 
-### Beschränkungen und Kräfte {#beschränkungen_und_kräfte}
+### Beschränkungen und Kräfte 
 
 1.  Blende das Netz in der Baumansicht aus.
 2.  Zeige das Originalmodell
@@ -142,12 +142,12 @@ Wir haben unser Objekt nun vernetzt und sind bereit, Beschränkungen und Kräfte
 
 Wir haben jetzt die Beschränkungen und Kräfte für unsere statische Studie festgelegt.
 
-### Final preparations {#final_preparations}
+### Final preparations 
 
 
 <div class="mw-translate-fuzzy">
 
-### Letzte Vorbereitungen {#letzte_vorbereitungen}
+### Letzte Vorbereitungen 
 
 1.  Wähle <img alt="" src=images/FEM_Material.png  style="width:16px;"> [Mechanisches Material\...](FEM_MaterialSolid/de.md) und wähle als Material Calculix
 2.  Klicke **OK**
@@ -155,14 +155,14 @@ Wir haben jetzt die Beschränkungen und Kräfte für unsere statische Studie fes
 
 </div>
 
-### Running the Solver {#running_the_solver}
+### Running the Solver 
 
-#### Standard Procedure {#standard_procedure}
+#### Standard Procedure 
 
 
 <div class="mw-translate-fuzzy">
 
-### Ausführen des Lösers {#ausführen_des_lösers}
+### Ausführen des Lösers 
 
 #### Standardverfahren
 
@@ -175,7 +175,7 @@ Wir haben jetzt die Beschränkungen und Kräfte für unsere statische Studie fes
 
 </div>
 
-#### Quick Procedure {#quick_procedure}
+#### Quick Procedure 
 
 
 <div class="mw-translate-fuzzy">
@@ -188,12 +188,12 @@ Wir haben jetzt die Beschränkungen und Kräfte für unsere statische Studie fes
 
 </div>
 
-### Analyzing Results {#analyzing_results}
+### Analyzing Results 
 
 
 <div class="mw-translate-fuzzy">
 
-### Ergebnisse analysieren {#ergebnisse_analysieren}
+### Ergebnisse analysieren 
 
 1.  Wähle aus dem **Objektbaum** das **Ergebnisse** Objekt
 2.  Wähle <img alt="" src=images/FEM_ShowResult.png  style="width:16px;"> [Ergebnis anzeigen](FEM_ResultShow/de.md)

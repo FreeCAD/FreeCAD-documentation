@@ -13,12 +13,12 @@ Ver [Coquizador CroquisObjeto](Sketcher_SketchObject/es.md) para más informaci�
 
 Hay dos maneras comunes de crear un Croquis: usando el [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) directamente, o a través del [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md).
 
-### Ambiente de Trabajo Croquizador {#ambiente_de_trabajo_croquizador}
+### Ambiente de Trabajo Croquizador 
 
 1.  Cambia al <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Ambiente de Trabajo Croquizador](Sketcher_Workbench/es.md).
 2.  Pulsa **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Croquizador NuevoCroquis](Sketcher_NewSketch/es.md)**.
 
-### Ambiente de Trabajo DiseñoPieza {#ambiente_de_trabajo_diseñopieza}
+### Ambiente de Trabajo DiseñoPieza 
 
 1.  Cambiar a la <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [Ambiente de Trabajo DiseñoPieza](PartDesign_Workbench/es.md).
 2.  Press **<img src=images/PartDesign_Body.svg style="width:16px"> [Cuerpo DiseñoPieza](PartDesign_Body/es.md)**.

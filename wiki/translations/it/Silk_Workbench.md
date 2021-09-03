@@ -10,7 +10,7 @@ Silk è un [ambiente complementare](External_workbenches/it.md) che crea superfi
 
 ## Installazione
 
-Si consiglia di installarlo tramite <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/it.md) che si trova sotto il menu {{MenuCommand|Strumenti → Addon Manager}}.
+Si consiglia di installarlo tramite <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/it.md) che si trova sotto il menu **Strumenti → Addon Manager**.
 
 ## Riferimenti
 

@@ -34,7 +34,7 @@ Ce tutoriel est destiné à présenter au lecteur le travail de base de [ l\'ate
 
 Pour réduire le temps nécessaire à ce tutoriel, il est obligatoire de regrouper des éléments similaires dans **Vue Arborescente** pour appliquer des opérations en même temps à plusieurs éléments.
 
-##### Regroupement d\' Éléments {#regroupement_d_éléments}
+##### Regroupement d\' Éléments 
 
 1.  Dans la **Vue Arborescente**, cliquez avec le bouton droit de la souris sur le nom du document. Dans ce cas **Sans nom** .
 2.  Sélectionnez **Créer un groupe**. Vous pouvez modifier le nom du groupe en double-cliquant sur le **Vue Arborescente**.
@@ -46,7 +46,7 @@ Créez les groupes suivants:
 -   Draft\_dimensions
 -   Draft\_annotations\_text
 
-#### Exemples de Dessin {#exemples_de_dessin}
+#### Exemples de Dessin 
 
 Les modèles sont la base de la création des dessins, vous pouvez utiliser les modèles fournis ou créer les vôtres.
 
@@ -59,7 +59,7 @@ Nous avons maintenant un dossier intitulé \'\' \'Page\' \'\' dans \'\' \'\' vue
 
 Les projections sont définies comme la représentation visuelle d\'un objet sur un plan spécifique. Elles déterminent les propriétés de l\'objet visible selon cette orientation spécifique.
 
-##### Projections orthographiques {#projections_orthographiques}
+##### Projections orthographiques 
 
 Celles-ci sont utilisées dans l\'atelier Ingénierie (en cours de développement)pour spécifier les propriétés d\'un objet qui sera usiné. Il existe deux normes communes: les projections \'\'\' Troisième Angle \'\'\' et \'\'\'Premier Angle \'\'\'.
 
@@ -72,7 +72,7 @@ Pour ce tutoriel, ces projections ne sont pas utilisées car nos objets n\'ont q
 
 Dans les onglets **Général** et **Axonométrique**, vous pouvez spécifier **emplacement**, **échelle** et **séparation** de chaque vue.
 
-##### Autres projections partielles {#autres_projections_partielles}
+##### Autres projections partielles 
 
 Il est possible de créer des vues personnalisées de l\'objet.
 
@@ -82,7 +82,7 @@ Il est possible de créer des vues personnalisées de l\'objet.
 
 Vous pouvez également modifier l\' **Échelle** et la **rotation** de la **Vue** dans l\'onglet **Données**. La même chose peut être faite pour les \'\'\'Projections Orthographiques \'\'\'.
 
-##### Projections Planche à Dessin {#projections_planche_à_dessin}
+##### Projections Planche à Dessin 
 
 La manière préférée d\'ajouter des éléments créés dans l\' *\' Atelier Planche à Dessin*\' c\'est avec un outil contenu dans l\' **Atelier Planche à Dessin** conçu spécifiquement pour cela. Avec cette procédure, il est possible d\'importer **Dimensions**, **Annotations**, **Shapestrings** et tout autre élément créé dans l\'Atelier **Planche à Dessin**.
 
@@ -94,7 +94,7 @@ La manière préférée d\'ajouter des éléments créés dans l\' *\' Atelier P
 
 Répétez pour chaque groupe et définissez les valeurs à celles indiquées ci-dessus.
 
-#### Exportation de votre travail {#exportation_de_votre_travail}
+#### Exportation de votre travail 
 
 FreeCAD prend en charge l\'exportation de fichiers SVG et PDF en fonction de vos **Dessins**
 
@@ -116,7 +116,7 @@ Nous avons terminé le travail de base pour [Atelier de mise en plan ](Drawing_M
 
 </div>
 
-## Lecture recommandée {#lecture_recommandée}
+## Lecture recommandée 
 
 
 <div class="mw-translate-fuzzy">

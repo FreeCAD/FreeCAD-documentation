@@ -36,11 +36,11 @@ Aufklappmenü
 
 ## Einrichtung
 
-### Automatische Einrichtung {#automatische_einrichtung}
+### Automatische Einrichtung 
 
 Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden.
 
-### Von GitHub {#von_github}
+### Von GitHub 
 
 **Voraussetzungen**
 
@@ -90,7 +90,7 @@ Sicherheit → Bearbeiten → Benutzer und markiere alle Kontrollkästchen unter
 
 **MacOS Installationsanweisungen** (von GitHub)
 
-## Verweise zum FreeCAD-PCB Arbeitsbereich {#verweise_zum_freecad_pcb_arbeitsbereich}
+## Verweise zum FreeCAD-PCB Arbeitsbereich 
 
 -   Arbeitsbereich Wiki: [Externe Arbeitsbereiche](https://wiki.freecadweb.org/External_workbenches/de)
 -   FreeCAD Wiki: [Wiki Hauptseite](https://wiki.freecadweb.org/Main_Page/de)
@@ -100,7 +100,7 @@ Sicherheit → Bearbeiten → Benutzer und markiere alle Kontrollkästchen unter
 -   Dateien: [PCB Bibliothek](https://github.com/marmni/FreeCAD-PCB-library)
 -   Fehler melden: Bitte melde Fehler unter <https://github.com/marmni/FreeCAD-PCB/issues>
 
-## Andere nützliche Verweise {#andere_nützliche_verweise}
+## Andere nützliche Verweise 
 
 -   [EaglePCB auf sourceforge](https://sourceforge.net/projects/eaglepcb2freecad/)
 -   [Makrorezepte](Macros_recipes/de.md)

@@ -17,39 +17,39 @@ Il comando **Sezioni** crea più sezioni trasversali tra gli oggetti mesh. Le se
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più oggetti mesh.
-2.  Selezionare l\'opzione {{MenuCommand|Mesh → Taglio → <img src="images/Mesh_CrossSections.svg" width=16px> Sezioni..}} dal menu.
-3.  Si apre il pannello delle azioni {{MenuCommand|Sezioni}}.
+2.  Selezionare l\'opzione **Mesh → Taglio → <img src="images/Mesh_CrossSections.svg" width=16px> Sezioni..** dal menu.
+3.  Si apre il pannello delle azioni **Sezioni**.
 4.  I piani che verranno utilizzati per creare le sezioni trasversali sono indicati nella [vista 3D](3D_view/it.md) e verranno aggiornati in base agli input del pannello delle azioni.
-5.  Selezionare il {{MenuCommand|Piano guida}}:
+5.  Selezionare il **Piano guida**:
     -   
-        {{MenuCommand|XY}}
+        **XY**
         
 
     -   
-        {{MenuCommand|XZ}}
+        **XZ**
         
 
     -   
-        {{MenuCommand|YZ}}
+        **YZ**
         
-6.  Specificare la {{MenuCommand|Posizione}} del piano guida dall\'origine. La posizione predefinita si basa sul centro del cuboide contenitore degli oggetti mesh selezionati. La scelta di un diverso {{MenuCommand|Piano guida}} o la selezione della casella di controllo {{MenuCommand|Sezioni}} reimposta la {{MenuCommand|Posizione}} a questo valore predefinito.
-7.  Se necessario, selezionare la casella di controllo {{MenuCommand|Sezioni}} per creare più sezioni trasversali:
+6.  Specificare la **Posizione** del piano guida dall\'origine. La posizione predefinita si basa sul centro del cuboide contenitore degli oggetti mesh selezionati. La scelta di un diverso **Piano guida** o la selezione della casella di controllo **Sezioni** reimposta la **Posizione** a questo valore predefinito.
+7.  Se necessario, selezionare la casella di controllo **Sezioni** per creare più sezioni trasversali:
     -   
-        {{MenuCommand|Su entrambi i lati}}
+        **Su entrambi i lati**
         
         : se selezionata, le sezioni trasversali vengono create su entrambi i lati del piano di guida.
 
     -   
-        {{MenuCommand|Numero di sezioni}}
+        **Numero di sezioni**
         
         : il numero di sezioni trasversali.
 
     -   
-        {{MenuCommand|Distanza}}
+        **Distanza**
         
-        : la distanza tra le sezioni trasversali. Il valore predefinito si basa sulle dimensioni del riquadro di delimitazione, sull\'opzione {{MenuCommand|Su entrambi i lati}} e sul valore di {{MenuCommand|Numero di sezioni}}. La modifica del valore di {{MenuCommand|Numero di sezioni}} reimposta la {{MenuCommand|Distanza}} a questo valore predefinito. La modifica dell\'opzione {{MenuCommand|Su entrambi i lati}} ricalcola la {{MenuCommand|Distanza}} ({{value|*2.0}} o {{value|*0.5}}). Notare che la casella di immissione potrebbe essere disattivata, ma il valore può essere effettivamente modificato.
+        : la distanza tra le sezioni trasversali. Il valore predefinito si basa sulle dimensioni del riquadro di delimitazione, sull\'opzione **Su entrambi i lati** e sul valore di **Numero di sezioni**. La modifica del valore di **Numero di sezioni** reimposta la **Distanza** a questo valore predefinito. La modifica dell\'opzione **Su entrambi i lati** ricalcola la **Distanza** ({{value|*2.0}} o {{value|*0.5}}). Notare che la casella di immissione potrebbe essere disattivata, ma il valore può essere effettivamente modificato.
 
-    -   Facoltativamente, selezionare la casella di controllo {{MenuCommand|Collega bordi se la distanza è inferiore a}} e specificare un valore.
+    -   Facoltativamente, selezionare la casella di controllo **Collega bordi se la distanza è inferiore a** e specificare un valore.
 8.  Premere il pulsante **Applica** per creare l\'insieme di sezioni trasversali.
 9.  Facoltativamente, modificare una o più impostazioni e creare set aggiuntivi di sezioni trasversali.
 10. Premere il pulsante **OK** o il pulsante **Annulla** per chiudere il pannello delle attività e terminare il comando.

@@ -13,7 +13,7 @@ Das [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)-Werkzeug erlaubt 
 
 Das [Arch Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
-Dieser Befehl ist Teil des [Verstärkung](Reinforcement_Workbench/de.md)-Arbeitsbereichs, der mit dem<img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon-Manager](Addon_Manager/de.md) über das Menü {{MenuCommand|Werkzeuge → Addon-Manager → Reinforcement}} installiert werden kann.
+Dieser Befehl ist Teil des [Verstärkung](Reinforcement_Workbench/de.md)-Arbeitsbereichs, der mit dem<img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon-Manager](Addon_Manager/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;"> *Ein Satz von bügelförmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)*-Objekt
 
@@ -102,7 +102,7 @@ Rebar = Stirrup.makeStirrup(20, 20, 20, 20, 20,
                             115, 4, 8, 2, True, 10, Structure, "Face6")
 ```
 
-### Anpassung des Bewehrungsstabs {#anpassung_des_bewehrungsstabs}
+### Anpassung des Bewehrungsstabs 
 
 Die Eigenschaften des Bewehrungsstabs lassen sich mit der folgenden Funktion verändern 
 ```python

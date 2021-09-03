@@ -25,7 +25,7 @@ It is mainly intended to be used with **<img src=images/Sketcher_CreateBSpline.s
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

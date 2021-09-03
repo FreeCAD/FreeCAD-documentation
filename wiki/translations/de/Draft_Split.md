@@ -22,7 +22,7 @@ Der <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Entwurf Teile
 
 \#\* Drücke die **<img src="images/Draft_Split.svg" width=16px> [Entwurf teilen](Draft_Split/de.md)**.
 
-\#\* Wähle die Option {{MenuCommand|Änderung → <img src="images/Draft_Split.svg" width=16px> Teilen}} aus dem Menü.
+\#\* Wähle die Option **Änderung → <img src="images/Draft_Split.svg" width=16px> Teilen** aus dem Menü.
 
 \#\* Verwende die Tastaturkürzel: **S** und dann **P**.
 

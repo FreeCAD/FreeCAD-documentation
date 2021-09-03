@@ -8,7 +8,7 @@ Versiones anteriores: [0.11](Release_notes_011/es.md)
 
 ![](images/FreeCAD_start_center.jpg )
 
-### Croquizador & Diseño de Piezas {#croquizador_diseño_de_piezas}
+### Croquizador & Diseño de Piezas 
 
 <img alt="" src=images/Rim_bling.png  style="width:800px;">
 
@@ -26,7 +26,7 @@ Versiones anteriores: [0.11](Release_notes_011/es.md)
 
 -   Incluido en el módulo de arquitectura está también una creciente colección de herramientas para facilitar el proceso de trabajo con objetos de malla a partir de otras aplicaciones como [Blender](http://www.blender.org). Los objetos de malla, si están bien modelados, pueden convertirse en formas simples de forma fácil y automática, y luego en objetos paramétricos del módulo de arquitectura.
 
-### Boceto 2D {#boceto_2d}
+### Boceto 2D 
 
 ![](images/Draft_taskview.jpg )
 

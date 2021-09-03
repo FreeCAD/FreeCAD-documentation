@@ -77,9 +77,9 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 
 -    **Wind Rose**: Mostra o nasconde il diagramma della rosa dei venti (richiede che la proprietà dati **File EPW** sia riempita e il modulo Ladybug Python sia installato (vedere sotto)
 
-## Tipico flusso di lavoro {#tipico_flusso_di_lavoro}
+## Tipico flusso di lavoro 
 
-Iniziare creando un oggetto che rappresenta il terreno. Deve essere una superficie aperta, non un solido. Per esempio, è facile per importare dati mesh, che possono essere trasformati in una Part Shape dal menu {{MenuCommand|Part → Crea Forma da Mesh}}. Poi, creare un oggetto Sito, e impostare la sua proprietà **Terrain** dalla Parte appena creata:
+Iniziare creando un oggetto che rappresenta il terreno. Deve essere una superficie aperta, non un solido. Per esempio, è facile per importare dati mesh, che possono essere trasformati in una Part Shape dal menu **Part → Crea Forma da Mesh**. Poi, creare un oggetto Sito, e impostare la sua proprietà **Terrain** dalla Parte appena creata:
 
 ![](images/Arch_site_example_01.jpg )
 
@@ -91,7 +91,7 @@ La geometria sito sarà ricalcolata e le proprietà aree, il perimetro e i volum
 
 ![](images/Arch_site_example_03.jpg )
 
-## Diagrammi solari e del vento {#diagrammi_solari_e_del_vento}
+## Diagrammi solari e del vento 
 
 Se nel proprio sistema è installato [Ladybug](https://www.ladybug.tools/ladybug.html), i [Siti](Arch_Site/it.md) di Arch possono visualizzare un diagramma solare o del vento. Per questo, le proprietà **Longitude**, **Latitude** e **Declination** (precedentemente era **North Deviation**) devono essere impostate correttamente, e la proprietà **Solar Diagram** o **Wind Rose** impostata su `True`. {{Version/it|0.17}} e {{Version/it|0.19}}
 
@@ -132,7 +132,7 @@ FreeCAD.ActiveDocument.recompute()
 FreeCAD.Gui.ActiveDocument.ActiveView.viewIsometric()
 ```
 
-### Diagramma solare {#diagramma_solare}
+### Diagramma solare 
 
 Se il modulo `pysolar` è presente, è possibile aggiungere al sito un diagramma solare. Impostare gli angoli di longitudine, latitudine e declinazione in modo appropriato, nonché una scala adeguata per le dimensioni del modello.
 
@@ -150,7 +150,7 @@ Site.ViewObject.SolarDiagramScale = 10000
 FreeCAD.ActiveDocument.recompute()
 ```
 
-### Diagramma solare indipendente dal sito {#diagramma_solare_indipendente_dal_sito}
+### Diagramma solare indipendente dal sito 
 
 Un diagramma solare può essere creato con la seguente funzione, indipendentemente da qualsiasi sito: 
 ```python

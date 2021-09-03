@@ -35,7 +35,7 @@ L\'objet Path Rainure est conçu pour faire partie d\'une <img alt="" src=images
 
 1.  Adjust the desired properties. Descriptions of available properties are found below.
 
-#### Usage Notes {#usage_notes}
+#### Usage Notes 
 
 
 <div class="mw-translate-fuzzy">
@@ -51,7 +51,7 @@ L\'objet Path Rainure est conçu pour faire partie d\'une <img alt="" src=images
 
 1.  Ajustez les propriétés souhaitées. Les descriptions des propriétés disponibles se trouvent ci-dessous.
 
-#### Notes d\'utilisation {#notes_dutilisation}
+#### Notes d\'utilisation 
 
 -   Tous les emplacements:
     -   Le début et la fin d\'un chemin d\'emplacement peuvent être étendus ou raccourcis. Utilisez les propriétés \Extend Path Start\ et \Extend Path End\.
@@ -187,7 +187,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Reverse Direction}}: activez cette option pour inverser la direction de coupe du chemin de la rainure.
 
-#### Point de départ {#point_de_départ}
+#### Point de départ 
 
 -    {{PropertyData/fr|Start Point}}: point de départ personnalisé pour le chemin de cette opération.
 
@@ -208,11 +208,11 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Use Start Point}}: Mis à True, si vous spécifiez manuellement un point de départ. Définissez le point de départ dans le champ Point de départ des données de propriété.
 
-## Présentation de l\'éditeur de fenêtre de tâches {#présentation_de_léditeur_de_fenêtre_de_tâches}
+## Présentation de l\'éditeur de fenêtre de tâches 
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-#### Géométrie de base {#géométrie_de_base}
+#### Géométrie de base 
 
 -   **Add**: ajoute les éléments sélectionnés qui devraient être la ou les bases du ou des chemins
 -   **Delete**: supprime les éléments sélectionnés dans la liste Géométrie de base.

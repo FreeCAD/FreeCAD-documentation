@@ -12,7 +12,7 @@
     -   Befasst sich mit den Fragen der Übersetzer innerhalb der Crowdin-Oberfläche. Bspw. wenn mehr Kontext benötigt wird oder wenn ein Fehler in der zu übersetzenden Passage ist oder falls über eine Übersetzung diskutiert wird, die akzeptiert bzw. der zugestimmt wurde, etc\...
     -   Meldet relevante Themen an Entwickler, die Änderungen am Quell-Code erfordern, etc\...
 
-### Zeichenketten Filterung {#zeichenketten_filterung}
+### Zeichenketten Filterung 
 
 <img alt="" src=images/Crowdin_Filter_Strings.png  style="width:300px;"> Das Filtern von Zeichenfolgen ist eine nützliche Eigenschaft von Korrekturlesern und Verwaltern. Sie bietet die Möglichkeit, viele Übersetzungszeichenfolgen effektiv zu sortieren, um z.B. nur Zeichenfolgen anzuzeigen, die als \"fehlende weitere Kontextinformationen\" oder \"falscher Quellzeichenfolge\" markiert wurden. Dieser Dienst, den die Übersetzer für FreeCAD erbringen, bietet eine zusätzliche Ebene von QA Tests. Viele Tippfehler, Grammatikprobleme und sogar Programmierfehler können durch die Prüfung von Übersetzungszeichenfolgen aufgedeckt werden. Und so markieren die Nutzer diese besagten problematischen Zeichenfolgen, damit wir darauf reagieren und sie schließlich \'beheben\' können.
 
@@ -24,13 +24,13 @@
 
 **Wichtiger Hinweis:** Bitte achte sorgfältig darauf, keine Fehler in Übersetzungszeichenfolgen einzuführen, die durch unsachgemäße Tastendrücke erzeugt wurden, die als Tastenkürzel gedacht waren.
 
-#### Häufig verwendete Abkürzungen {#häufig_verwendete_abkürzungen}
+#### Häufig verwendete Abkürzungen 
 
 -   Kopiere Quell-Übersetzung: **Alt**+**C**
 -   Speichere Übersetzung: **Ctrl**+**Enter**
 -   Übersetzung zustimmen: **Alt**+**L** (relevant für Korrektoren)
 
-### Entsprechende Seiten {#entsprechende_seiten}
+### Entsprechende Seiten 
 
 -   [Lokalisierung](Localisation/de.md)
 -   [Crowdin Skripte](Crowdin_Scripts/de.md)

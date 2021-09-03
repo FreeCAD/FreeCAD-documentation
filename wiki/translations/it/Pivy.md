@@ -31,7 +31,7 @@ from pivy import coin
 
 <div class="mw-translate-fuzzy">
 
-## Accesso e modifica del Grafo della scena (Scenegraph) {#accesso_e_modifica_del_grafo_della_scena_scenegraph}
+## Accesso e modifica del Grafo della scena (Scenegraph) 
 
 
 </div>
@@ -164,7 +164,7 @@ sg.removeChild(myCustomNode)
 
 <div class="mw-translate-fuzzy">
 
-## Utilizzo dei meccanismi di richiamo (callback) {#utilizzo_dei_meccanismi_di_richiamo_callback}
+## Utilizzo dei meccanismi di richiamo (callback) 
 
 
 </div>

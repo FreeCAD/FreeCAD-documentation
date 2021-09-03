@@ -22,7 +22,7 @@ erzeugt eine Kopie, die keine parametrische Historie hat; die Schritte und Arbei
 ## Anwendung
 
 1.  Wähle ein Objekt aus, für das Du eine Kopie erstellen möchtest.
-2.  Gehe zum Menü {{MenuCommand|Part → Erstelle eine Kopie → ![](images/)_[Einfache_Kopie_erstellen](Part_SimpleCopy/de.md)}}.
+2.  Gehe zum Menü **Part → Erstelle eine Kopie → ![](images/)_[Einfache_Kopie_erstellen](Part_SimpleCopy/de.md)**.
 
 ## Eigenschaften
 

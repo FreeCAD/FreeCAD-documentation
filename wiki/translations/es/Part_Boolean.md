@@ -46,7 +46,7 @@ See also Part → [Refine Shape](Part_RefineShape.md)
 
 </div>
 
-## Coplanar problems {#coplanar_problems}
+## Coplanar problems 
 
 The boolean operations are performed by the internal geometry kernel, [OpenCASCADE Technology](OpenCASCADE.md) (OCCT). This library sometimes has problems producing boolean results when the input objects share an edge or a face. To be sure the boolean operation is successful the recommendation is that the shapes intersect each other clearly; this means that in most cases, one shape should protrude or be larger in size than the other shape.
 

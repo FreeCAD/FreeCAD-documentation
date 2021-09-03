@@ -1,12 +1,12 @@
  <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> {{TOCright}}
 
-### Installare i driver {#installare_i_driver}
+### Installare i driver 
 
 #### Linux
 
 FreeCAD supporta i driver dal progetto [Spacenav](http://spacenav.sourceforge.net/). Si tratta di un progetto che mira a creare un driver open-source che sia compatibile con i driver proprietari di 3Dconnexion.
 
-#### Installare da repo {#installare_da_repo}
+#### Installare da repo 
 
 ##### Ubuntu
 
@@ -73,7 +73,7 @@ spacenav ha bisogno di queste autorizzazioni
 sudo zypper install spacenavd
 ```
 
-#### Compilare Spacenav dal codice sorgente {#compilare_spacenav_dal_codice_sorgente}
+#### Compilare Spacenav dal codice sorgente 
 
 Questo sistema è consigliato in quanto la propria distribuzione potrebbe fornire una versione non aggiornata.
 
@@ -203,7 +203,7 @@ Questo sistema è consigliato in quanto la propria distribuzione potrebbe fornir
 
 -   Seguire lo stesso procedimento per compilare e installare spnavcfg. Ricordarsi di eseguire spnavcfg come root, altrimenti non verrà salvata nessuna impostazione!
 
-#### Starting spacenavd as a systemd service at boot {#starting_spacenavd_as_a_systemd_service_at_boot}
+#### Starting spacenavd as a systemd service at boot 
 
 If you want to start spacenavd at boot using systemd, do the following:
 
@@ -214,7 +214,7 @@ If you want to start spacenavd at boot using systemd, do the following:
 
 This is only necessary for the installation from source.
 
-#### Riavviare spacenavd {#riavviare_spacenavd}
+#### Riavviare spacenavd 
 
 Se talvolta navigatore smette di funzionare, è bene riavviare il conducente. Per riavviarlo, andare al terminale ed eseguire:
 
@@ -226,7 +226,7 @@ sudo /etc/init.d/spacenavd restart
 
 Dopo avere riavviare FreeCAD. Su alcune distro è necessario a ogni avvio.
 
-### Problemi conosciuto {#problemi_conosciuto}
+### Problemi conosciuto 
 
 Un utente segnalato nel [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) ha visualizzato quanto segue:
 
@@ -255,7 +255,7 @@ Su OS X i dispositivi di input 3Dconnexion sono supportati, purché FreeCAD sia 
 
 A partire dalla versione 0.13, mouse 3D è supportato sotto windows. È necessario avere installato i driver appropriati, ma dato che il supporto è stato sviluppato su un livello inferiore, eseguirà l\'override le impostazioni che impostato nel pannello di controllo 3D Connexion. Tuttavia, la maggior parte di tali impostazioni è possibile impostare in strumenti \>\> finestra di dialogo Personalizza, sotto schede Spaceball.
 
-#### Problemi conosciuto {#problemi_conosciuto_1}
+#### Problemi conosciuto 
 
 C\'è un problema in cui 3Dconnexion invia eventi di scorrimento duplicati a FreeCAD, causando il salto della vista. Per risolverlo:
 
@@ -267,13 +267,13 @@ C\'è un problema in cui 3Dconnexion invia eventi di scorrimento duplicati a Fre
 
 ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
-## Setting up FreeCAD {#setting_up_freecad}
+## Setting up FreeCAD 
 
 Il supporto per il mouse 3D è stata fatta con il progetto spnav su Linux e su un livello molto basso su Windows. Questo significa che non c\'era alcun supporto per tutte le impostazioni per un dispositivo, dato che su Linux non c\'è nessun buon supporto per questo, e su Windows è sottoposto a override. Ecco perché due pagine supplementari sono stati aggiunti alla finestra di dialogo \"Personalizza\".
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
 
-### Spaceball Motion {#spaceball_motion}
+### Spaceball Motion 
 
 In questa scheda si avrà la possibilità di impostare alcune delle impostazioni del mouse spazio generale. Essi comprendono:
 
@@ -291,7 +291,7 @@ Oltre a ciò, per ogni assi avete possibilità di impostare:
 -   Reverse - Reverse movimento sugli assi
 -   Sensitivity - slider con possibilità di impostare la sensibilità
 
-### Spaceball Buttons {#spaceball_buttons}
+### Spaceball Buttons 
 
 Quando si apre questa scheda per la prima volta, sarà vuota e non disponibile. Per attivarlo, è necessario premere i pulsanti del mouse lo spazio. Dopo aver fatto, elenco di tasti apparirà sul lato sinistro, e l\'elenco dei comandi saranno disponibile sul lato destro.
 

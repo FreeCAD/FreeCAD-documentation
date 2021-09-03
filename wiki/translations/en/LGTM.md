@@ -9,13 +9,13 @@
 
 LGTM is well-suited as a code-analysis tool for developing FreeCAD Python workbenches and other small-to-mid-sized projects. This page provides an overview of how to get started using LGTM with a FreeCAD Python Workbench.
 
-## Getting Started {#getting_started}
+## Getting Started 
 
 Getting started with LGTM depends on the online version control platform you\'re using. The LGTM documentation for [automated code review](https://lgtm.com/help/lgtm/about-automated-code-review) provides a good overview of how to get LGTM integrated into your project for several platforms.
 
 In addition it\'s possible to do a wide range of in-depth analyses of code on LGTM, which is beyond the scope of this tutorial. You can read more about that in the LGTM documentation on [configuring code analysis](https://lgtm.com/help/lgtm/configuring-lgtm-analysis-project).
 
-## Getting Results {#getting_results}
+## Getting Results 
 
 Once you\'ve set up LGTM and provided access to your code repositories, analyses are typically done daily on the repository. So, pushed changes will not yeild results immediately. It is possible to have LGTM analyze pull requests when they are submitted, as described in the LGTM documentation.
 
@@ -23,7 +23,7 @@ Reviewing the results simply requires logging in to your LGTM dashboard and sele
 
 Probably, the most useful, immediate way to manage the results of your code analysis is simply filtering out files in your project that you don\'t want analyzed. That is, suppose you\'re developing new code that is incomplete, keeping around legacy code that is otherwise unused, or have a good deal of testing code that doesn\'t need analysis. LGTM provides [file classification](https://lgtm.com/help/lgtm/file-classification), an easy way to filter those files so they don\'t pollute your analysis results.
 
-### Creating a .lgtm.yml File {#creating_a_.lgtm.yml_file}
+### Creating a .lgtm.yml File 
 
 To enable file classification, first create a file named \".lgtm.yml\" in your projects top-most directory. Then, in that file, add some classifications.
 
@@ -54,7 +54,7 @@ Note that indent levels are important in LGTM. Incorrect indenting will result i
 
 Also, some classifications (like \'template\' and \'test\') are used by LGTM for queries and other analysis components. You may also define your own custom tags, which will filter code and provide additional queryable results.
 
-### Relevant Links {#relevant_links}
+### Relevant Links 
 
 -   [Continuous Integration](Continuous_Integration.md)
 -   LGTM [FreeCAD forum discussion thread](https://www.forum.freecadweb.org/viewtopic.php?f=10&t=40228)

@@ -2,9 +2,9 @@
 
 ## Description
 
-**Placement** (positionnement en français) est la manière dont FreeCAD spécifie l\'emplacement et la position (orientation) d\'un objet dans l\'espace. Le placement peut être spécifié sous plusieurs formes et manipulé via un [script](Python_scripting_tutorial/fr#Vecteurs_et_placements.md), l\'[Éditeur de propriétés](Property_editor/fr.md) ou en sélectionnant {{MenuCommand|Edition → Positionnement...}} pour ouvrir le [Panneau des tâches de placement](Std_Placement/fr.md).
+**Placement** (positionnement en français) est la manière dont FreeCAD spécifie l\'emplacement et la position (orientation) d\'un objet dans l\'espace. Le placement peut être spécifié sous plusieurs formes et manipulé via un [script](Python_scripting_tutorial/fr#Vecteurs_et_placements.md), l\'[Éditeur de propriétés](Property_editor/fr.md) ou en sélectionnant **Edition → Positionnement...** pour ouvrir le [Panneau des tâches de placement](Std_Placement/fr.md).
 
-### L\'accès aux propriétés de Placement {#laccès_aux_propriétés_de_placement}
+### L\'accès aux propriétés de Placement 
 
 Les attributs de la fonction Placement d\'un objet peuvent être accessibles et modifiables de 3 façons :
 
@@ -14,11 +14,11 @@ Les attributs de la fonction Placement d\'un objet peuvent être accessibles et 
 
 ![Panneau des tâches de placement](images/PlacementDialogv10.png ) 
 
-## Formes de Placement {#formes_de_placement}
+## Formes de Placement 
 
 Le placement est stocké en interne comme une position, et une rotation (axe de rotation et l\'angle d\'inclinaison sont transformé en un [quaternion](https://fr.wikipedia.org/wiki/Quaternions_et_rotation_dans_l'espace)). Bien qu\'il existe plusieurs modes de spécifications pour une rotation, par exemple avec un centre de rotation. De même, si un axe de rotation (1,1,1) est spécifié, il est normalisé et stocké dans le quaternion et apparaissant comme (0,58, 0,58, 0,58).
 
-### Angle, Axes et Position {#angle_axes_et_position}
+### Angle, Axes et Position 
 
 **Placement = \[Angle, Axis, Position\]**
 
@@ -37,7 +37,7 @@ Notez qu\'il est également possible de translater (déplacer) un objet le long 
 
 **Position = (x,y,z)** est un vecteur décrivant le point à partir duquel la géométrie de l\'objet sera calculée (en fait, une \"origine locale\" de l\'objet). Notez que dans les scripts, Placement.Base est utilisé pour désigner le composant Position d\'un emplacement. L\'éditeur de propriétés appelle cette valeur **Position** et le panneau des tâches Placement l\'appelle **Translation**.
 
-### Position avec Yaw, Pitch et Roll {#position_avec_yaw_pitch_et_roll}
+### Position avec Yaw, Pitch et Roll 
 
 ![Panneau des tâches de placement: {{ComboBox|Euler angles}} sélectionné](images/PlacementDialogv10b.png )  **Placement = \[Position, Yaw-Pitch-Roll\]**
 
@@ -83,7 +83,7 @@ La troisième forme de **Placement**, décrit la position de l\'objet et l\'orie
 
 
 
-## Boîte de dialogue Placement {#boîte_de_dialogue_placement}
+## Boîte de dialogue Placement 
 
 La boîte de dialogue placement est accessible par le menu **Edition**. Il est utilisé pour faire pivoter et positionner les objets avec précision. Il est également utilisé lorsque nous avons besoin de créer une esquisse sur un plan \"non standard\" ou changer l\'orientation d\'une esquisse dans un nouveau plan.
 
@@ -131,7 +131,7 @@ Rotation en utilisant Euler angles:
 
 <img alt="After Rotation" src=images/RotationEulerAfter.png  style="width:600px;"> Après Rotation 
 
-## Placement.Base Définition d\'un shape {#placement.base_définition_dun_shape}
+## Placement.Base Définition d\'un shape 
 
 La fonction placement n\'est pas le seul moyen de positionnement d\'une forme dans l\'espace. Notez la console Python dans cette image :
 
@@ -166,7 +166,7 @@ Les deux cubes ont la même valeur de Placement, mais sont à des emplacements d
 
 Les Vecteurs définissants le shape utilisent l\'attribut Placement.Base comme origine. Donc, si vous voulez déplacer une forme de 10 unités le long de l\'axe **X**, vous pouvez ajouter 10 à la coordonnées **X** de tous les sommets ou vous pouvez régler le Placement.Base à (10,0,0).
 
-## Utiliser \"Center\" pour contrôler l\'Axe de Rotation {#utiliser_center_pour_contrôler_laxe_de_rotation}
+## Utiliser \"Center\" pour contrôler l\'Axe de Rotation 
 
 Par défaut, l\'axe de rotation l\'axe x/y/z. C\'est une ligne parallèle à l\'axe sélectionné, passant par le point de référence (Placement.Base) de l\'objet qui doit être pivoté. Ceux ci peuvent être modifiés en utilisant les champs dans la boîte de dialogue Placement ou, dans les scripts, en utilisant le paramètre FreeCAD.Placement.
 
@@ -198,7 +198,7 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
-## Utilisation du placement dans les expressions {#utilisation_du_placement_dans_les_expressions}
+## Utilisation du placement dans les expressions 
 
 Dans les expressions, il est possible d\'utiliser les composants du placement par exemple pour accéder au composant x de l\'objet nommé \"Cube\": 
 ```python
@@ -231,7 +231,7 @@ Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous deve
 
 -   Le placement relatif des objets sera éventuellement traité dans l\'atelier Assembly.
 
-## En savoir plus {#en_savoir_plus}
+## En savoir plus 
 
 -   Ce tutoriel : [Aéroplane](Aeroplane/fr.md) traite largement des mécanismes de modifications de position d\'un objet.
 

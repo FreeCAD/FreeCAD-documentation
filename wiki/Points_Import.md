@@ -14,7 +14,7 @@ The **Points Import** command imports a point cloud from a file.
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Points_Import.svg" width=16px> [Points Import](Points_Import.md)** button.
-    -   Select the {{MenuCommand|Points → <img src="images/Points_Import.svg" width=16px> Import Points...}} option from the menu.
+    -   Select the **Points → <img src="images/Points_Import.svg" width=16px> Import Points...** option from the menu.
 2.  Select a point cloud file.
 3.  Press the **Open** button.
 
@@ -22,14 +22,14 @@ The **Points Import** command imports a point cloud from a file.
 
 See [Points Convert](Points_Convert.md).
 
-## Point cloud file format {#point_cloud_file_format}
+## Point cloud file format 
 
 -   A point cloud file must have the {{FileName|.asc}}, {{FileName|.pcd}} or {{FileName|.ply}} extension.
 -   Each line in the file must list the X, Y and Z coordinates of a point.
 -   The coordinates must be separated by spaces.
 -   The coordinates must use a decimal point, not a decimal comma.
 
-## Sample point cloud file {#sample_point_cloud_file}
+## Sample point cloud file 
 
 
 

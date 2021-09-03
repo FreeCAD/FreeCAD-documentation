@@ -17,7 +17,7 @@ Esta macro gira la vista actual para apuntar perpendicularmente a una cara selec
 
 <div class="mw-translate-fuzzy">
 
-## Cómo usar {#cómo_usar}
+## Cómo usar 
 
 1.  Seleccionar una cara en un objeto
 2.  Ejecutar la macro

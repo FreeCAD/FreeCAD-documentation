@@ -42,7 +42,7 @@ Le directory `Mod/` vengono scansionate ogni volta che viene avviato FreeCAD e g
 
 <div class="mw-translate-fuzzy">
 
-### Installazione a livello di sistema {#installazione_a_livello_di_sistema}
+### Installazione a livello di sistema 
 
 Gli ambienti installati in questo modo sono disponobili per tutti gli utenti. Secondo il sistema, può essere necessario avere i privilegi di amministratore o di superutente per accedere alla directory di installazione.
 
@@ -66,7 +66,7 @@ Copiare la cartella dell\'ambiente in `$INSTALL_DIR/Mod/`, dove `$INSTALL_DIR` �
 
 <div class="mw-translate-fuzzy">
 
-### Installazione per un singolo utente {#installazione_per_un_singolo_utente}
+### Installazione per un singolo utente 
 
 Gli ambienti installati in questo modo sono disponibili per un solo utente del sistema, ma non è necessario alcun privilegio di amministratore o di superutente.
 
@@ -84,12 +84,12 @@ Copiare la cartella dell\'ambiente in `$USER_DIR/Mod/`, dove `$USER_DIR` è la d
 -   Su Windows è `%APPDATA%\FreeCAD\Mod\`, che di solito è `C:\Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
 -   Su Mac OSX di solito è `/Users/username/Library/Preferences/FreeCAD/Mod/`. Un modo per accedere alla directory delle preferenze è utilizzare la voce di menu \"Finder\"
 
-{{MenuCommand|Go → Go to Folder}}, e inserire `~/Library/Preferences/FreeCAD`.
+**Go → Go to Folder**, e inserire `~/Library/Preferences/FreeCAD`.
 
 
 </div>
 
-### Informazioni aggiuntive {#informazioni_aggiuntive}
+### Informazioni aggiuntive 
 
 Ulteriori informazioni su come creare un ambiente di lavoro personalizzato si trovano in [Hub sviluppatori](Developer_hub/it.md) e in [Hub utenti avanzati](Power_users_hub/it.md).
 

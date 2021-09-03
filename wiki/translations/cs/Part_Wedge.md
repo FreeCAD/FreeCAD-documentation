@@ -10,7 +10,7 @@ Vytváří parametrický objekt Klín. Defaultně se za základnu považuje vět
 
 ## Usage
 
-### Defaultní rozměr a umístění {#defaultní_rozměr_a_umístění}
+### Defaultní rozměr a umístění 
 
 **Umístění:** Defaultně je základna v rovině XY a vrchol vznikne ve směru osy Z. Roh základny je v počátku 0,0,0.
 
@@ -30,7 +30,7 @@ Vytváří parametrický objekt Klín. Defaultně se za základnu považuje vět
 
 ![](images/PartWedgeProperty.png ) 
 
-### Vstupní parametry {#vstupní_parametry}
+### Vstupní parametry 
 
 +------------------------------------------------------------------+----------------------------------------------------------------------+
 | ![](images/PartWedgeProperty_Inputs.png ) | Při využití defaultního umístění jsou vstupní parametry následující: |
@@ -61,7 +61,7 @@ Vytváří parametrický objekt Klín. Defaultně se za základnu považuje vět
 |                                                                  |     : Top face Z axis span                                           |
 +------------------------------------------------------------------+----------------------------------------------------------------------+
 
-### More examples for wedges {#more_examples_for_wedges}
+### More examples for wedges 
 
 ![](images/Wedge_examples.png )
 

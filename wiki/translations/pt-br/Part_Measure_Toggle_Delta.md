@@ -13,7 +13,7 @@ This tool toggles the visibility of delta (green) measurements.
 
 1.  Invoke the command several ways:
     -   Press the **<img src=images/Part_Measure_Toggle_Delta.svg style="width:16px"> '''Toggle Delta'''** button.
-    -   Use the {{MenuCommand|Measure → Toggle Delta}}
+    -   Use the **Measure → Toggle Delta**
 
 
 

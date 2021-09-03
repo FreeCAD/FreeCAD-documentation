@@ -23,7 +23,7 @@ Bu eğitim, bir robot hücre kurulumunu simüle etmek için [Robot tezgahı](Rob
 
 </div>
 
-## Başlamadan önce {#başlamadan_önce}
+## Başlamadan önce 
 
 Bu eğitim, FreeCAD Sürüm 0.16.6703 veya daha üstü için yazılmıştır. Yani Bilgisayarınız da FreeCAD yoksa [İndir](Download/tr.md) sayfasına gidin ve kurulumu yapın.
 
@@ -38,7 +38,7 @@ Bu eğitimde [endüstriyel robotlar](http://en.wikipedia.org/wiki/Industrial_rob
 
 <div class="mw-translate-fuzzy">
 
-## Sahneyi ayarlama {#sahneyi_ayarlama}
+## Sahneyi ayarlama 
 
 1.  [Robot Tezgahı](Robot_Workbench/tr.md) bölümüne geçin
 2.  Üst menüden **Dosya** → {{KEY | Yeni}} Seçerek yeni bir belge oluşturun.
@@ -53,7 +53,7 @@ Bu eğitimde [endüstriyel robotlar](http://en.wikipedia.org/wiki/Industrial_rob
 
 <div class="mw-translate-fuzzy">
 
-## Bir yörüngeyi ayarlama {#bir_yörüngeyi_ayarlama}
+## Bir yörüngeyi ayarlama 
 
 1.  [Robot Tezgahı](Robot_Workbench/tr.md) bölümüne geçin
 2.  Ağaç görünümünde model sekmesini tıklayın
@@ -72,7 +72,7 @@ Bu eğitimde [endüstriyel robotlar](http://en.wikipedia.org/wiki/Industrial_rob
 
 <div class="mw-translate-fuzzy">
 
-## Robot hareketini simüle etme {#robot_hareketini_simüle_etme}
+## Robot hareketini simüle etme 
 
 1.  Ağaç görünümünde robotu ve yörüngeyi seçin
 

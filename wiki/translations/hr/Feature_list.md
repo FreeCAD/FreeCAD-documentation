@@ -17,7 +17,7 @@ Ovo je opsežan, ali ne potpun popis značajki koje FreeCAD provodi. Ako želite
 
 {{TOCright}}
 
-## Distribucijske bilješke {#distribucijske_bilješke}
+## Distribucijske bilješke 
 
 
 <div class="mw-translate-fuzzy">
@@ -35,7 +35,7 @@ Ovo je opsežan, ali ne potpun popis značajki koje FreeCAD provodi. Ako želite
 
 </div>
 
-## Ključne osobine {#ključne_osobine}
+## Ključne osobine 
 
 -   ![](images/Feature1.jpg ) A complete [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE)-based **geometry kernel** allowing complex 3D operations on complex shape types, with native support for concepts like [Boundary Representation](https://en.wikipedia.org/wiki/Boundary_representation) (BREP), [Non-uniform rational basis spline](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) (NURBS) curves and surfaces, a wide range of geometric entities, boolean operations and [fillets](https://en.wikipedia.org/wiki/Fillet_(mechanics)), and built-in support of [STEP](https://en.wikipedia.org/wiki/ISO_10303) and [IGES](https://en.wikipedia.org/wiki/IGES) formats 
 -   ![](images/Feature3.jpg ) A full **parametric model**. All FreeCAD objects are natively parametric, meaning their shape can be based on [properties](Property.md) or even depend on other objects. All changes are recalculated on demand, and recorded by an undo/redo stack. New object types can be added easily, and can even be [fully programmed in Python](Scripted_objects.md).
@@ -52,7 +52,7 @@ Ovo je opsežan, ali ne potpun popis značajki koje FreeCAD provodi. Ako želite
 
 <div class="mw-translate-fuzzy">
 
-## Osnovne Osobine: {#osnovne_osobine}
+## Osnovne Osobine: 
 
 
 </div>
@@ -107,11 +107,11 @@ Ovo je opsežan, ali ne potpun popis značajki koje FreeCAD provodi. Ako želite
 
 -   **modular MSI installer**. FreeCAD\'s installer allows flexible installations on Windows systems. Packages for Ubuntu systems are also maintained.
 
-## U razvoju {#u_razvoju}
+## U razvoju 
 
 -   ![](images/Feature-assembly.jpg ) Jedan [Sastavljanje](Assembly_project/hr.md) modul koji omogućuje rad s više projekata, više oblika, više dokumenata, više datoteka, više odnosa \... Ovaj je modul trenutno u stanju planiranja. 
 
-## Dodatni Radni Stolovi {#dodatni_radni_stolovi}
+## Dodatni Radni Stolovi 
 
 Napredni korisnici stvorili su razne prilagođene [vanjske radne površine](external_workbenches/hr.md).
 

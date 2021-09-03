@@ -21,7 +21,7 @@ Obwohl es vorläufig für Festkörper gedacht ist, kann \'Std Part\' zur Handhab
 
 Die **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **[16px"> [Std Part](Std_Part/de.md)**-Schaltfläche verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. Beim anderen wird [Standard Teil](Std_Part/de.md) nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte zur Erzeugung von [Baugruppen](assembly/de.md) im Raum zu positionieren.
 
-Das Werkzeug **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part/de.md)** wird nicht durch einen bestimmten Arbeitsbereich festgelegt, sondern durch das Grundsystem. Daher befindet es sich in der {{MenuCommand|structure toolbar}}, die es in allen [Arbeitsbereichen](Workbenches/de.md) gibt. Mit der Schaltfläche **[16px"> [Std Gruppe](Std_Group/de.md)** können Objekte in der Baumansicht frei gruppiert werden, ohne ihre Position zu berücksichtigen. Dieses Objekt beeinflußt die Positionen seiner Elemente nicht. Es ist im wesentlichen nur ein Ordner mit dem die [Baumansicht](tree_view/de.md) geordnet werden kann.
+Das Werkzeug **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part/de.md)** wird nicht durch einen bestimmten Arbeitsbereich festgelegt, sondern durch das Grundsystem. Daher befindet es sich in der **structure toolbar**, die es in allen [Arbeitsbereichen](Workbenches/de.md) gibt. Mit der Schaltfläche **[16px"> [Std Gruppe](Std_Group/de.md)** können Objekte in der Baumansicht frei gruppiert werden, ohne ihre Position zu berücksichtigen. Dieses Objekt beeinflußt die Positionen seiner Elemente nicht. Es ist im wesentlichen nur ein Ordner mit dem die [Baumansicht](tree_view/de.md) geordnet werden kann.
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
@@ -37,7 +37,7 @@ Das Werkzeug **<img src=images/Std_Part.svg style="width:16px"> <img src=images/
 ### Hinweise
 
 -   Ab Version v0.19 kann ein bestimmtes Objekt nur zu einer einzigen Baugruppe gehören.
--   Durch einen Doppelklick auf die Baugruppe in der [Baumansicht](tree_view/de.md) oder über das Kontextmenü mit einem Rechtsklick und der Wahl von {{MenuCommand|Toggle active part}} kann eine Baugruppe aktiviert oder deaktiviert werden. Ist eine andere Baugruppe aktiv, wird sie deaktiviert, siehe auch [Aktiver Status](Std_Part/de#Active_status.md)
+-   Durch einen Doppelklick auf die Baugruppe in der [Baumansicht](tree_view/de.md) oder über das Kontextmenü mit einem Rechtsklick und der Wahl von **Toggle active part** kann eine Baugruppe aktiviert oder deaktiviert werden. Ist eine andere Baugruppe aktiv, wird sie deaktiviert, siehe auch [Aktiver Status](Std_Part/de#Active_status.md)
 
 ### Grenzen
 
@@ -51,7 +51,7 @@ Ein [Std Teil](Std_Part/de.md) wird intern [App Part](App_Part.md)(`App::Part` K
 
 Zusätzlich zu den Eigenschaften, die in [App GeoFeature](App_GeoFeature.md) beschrieben sind, hat die \'App Part Klasse\' einige Eigenschaften, die helfen, Informationen im Zusammenhang mit dem Zusammenbau zu verwalten, z.B. **Type**, **Id**, **License**, **LicenseURL**, **Color** und **Group**.
 
-Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Verfügung. Versteckte Eigenschaften werden durch den Befehl {{MenuCommand|Alle anzeigen}} im Kontextmenü des [Eigenschaftseditors](property_editor/de.md) angezeigt.
+Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Verfügung. Versteckte Eigenschaften werden durch den Befehl **Alle anzeigen** im Kontextmenü des [Eigenschaftseditors](property_editor/de.md) angezeigt.
 
 ### Daten
 
@@ -89,7 +89,7 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 
 -    {{PropertyData/de|Gruppe|VerknüpfungListe}}: eine Liste der verknüpften Objekte. Standardmäßig ist sie leer {{value|[]}}.
 
-#### Ausgeblendete Dateneigenschaften {#ausgeblendete_dateneigenschaften}
+#### Ausgeblendete Dateneigenschaften 
 
 -    **Material|Map**: Karte mit Materialeigenschaften. Ein leerer Code {} ist vorgegeben.
 
@@ -124,7 +124,7 @@ Die Anwendung Teil hat nur die fünf Eigenschaften der grundlegenden Anwendung [
 
 -    **Sichtbarkeit|Bool**: ist es `True`, erscheint das Objekt in der [3D-Ansicht](3D_view.md). Sonst ist die Wahl \'unsichtbar\'. Diese Eigenschaft kann mit der **Leertaste** ein- und ausgeschaltet werden.
 
-## Konzept einer Zusammenstellung {#konzept_einer_zusammenstellung}
+## Konzept einer Zusammenstellung 
 
 \'Std Part\' stellt das grundlegende Fundament für eine Zusammenstellung dar. Anders als [PartDesign Körper](PartDesign_Body/de.md) soll eine Zusammenstellung eine Ansammlung von einzelnen, unterscheidbaren Elementen darstellen, die auf irgendeine Weise in der physischen Welt miteinander verbunden sind, z.B. durch Druck, Schrauben oder Klebstoff.
 
@@ -139,16 +139,16 @@ Beispiele, die eine Zusammenstellung sein können:
 
 Im Allgemeinen werden beim Importieren einer STEP-Datei in das Programm die Hauptbaugruppe und ihre Unterbaugruppen als Zusammenstellungsbehälter importiert, wobei jede von ihnen ein einfaches [Part Formelement](Part_Feature/de.md) enthält.
 
-## Detaillierte Beschreibung {#detaillierte_beschreibung}
+## Detaillierte Beschreibung 
 
-### Aktiver Status {#aktiver_status}
+### Aktiver Status 
 
-Ein geöffnetes Dokument kann mehrere Zusammenstellungen enthalten. Eine aktive Zusammenstellung wird in der [Baumansicht](Tree_view/de.md) mit einem im Menü {{MenuCommand|Aktiver Behälter}} angegebenen Wert zur Hintergrundfarbe angezeigt. Der Wert kann im [Voreinstellungseditor](Preferences_Editor/de#Farben.md) geändert werden. Der voreingestellte Wert ist hellblau. Eine aktive Zusammenstellung wird auch mit der Schrifteigenschaft \'fett\' angezeigt.
+Ein geöffnetes Dokument kann mehrere Zusammenstellungen enthalten. Eine aktive Zusammenstellung wird in der [Baumansicht](Tree_view/de.md) mit einem im Menü **Aktiver Behälter** angegebenen Wert zur Hintergrundfarbe angezeigt. Der Wert kann im [Voreinstellungseditor](Preferences_Editor/de#Farben.md) geändert werden. Der voreingestellte Wert ist hellblau. Eine aktive Zusammenstellung wird auch mit der Schrifteigenschaft \'fett\' angezeigt.
 
 Eine Zusammenstellung aktivieren oder deaktivieren:
 
 -   Doppelklick auf die Zusammenstellung in der [Baumansicht](Tree_view/de.md) oder
--   das Kontextmenü mit einem Rechtsklick öffnen und {{MenuCommand|Toggle active part}} wählen.
+-   das Kontextmenü mit einem Rechtsklick öffnen und **Toggle active part** wählen.
 
 
 **Hinweise:**

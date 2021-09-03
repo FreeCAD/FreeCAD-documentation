@@ -43,7 +43,7 @@ Oksuz daha basit bir metin elemanı eklemek için [Metin](Draft_Text/tr.md) kull
 
 </div>
 
-## Nasıl Kullanılır {#nasıl_kullanılır}
+## Nasıl Kullanılır 
 
 See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
@@ -143,7 +143,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
 
-## Etiket türleri {#etiket_türleri}
+## Etiket türleri 
 
 
 <div class="mw-translate-fuzzy">

@@ -51,7 +51,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-## Да Опознаем FreeCAD {#да_опознаем_freecad}
+## Да Опознаем FreeCAD 
 
 
 </div>
@@ -113,7 +113,7 @@ See also:
 
 </div>
 
-## Навигация в тримерното пространство {#навигация_в_тримерното_пространство}
+## Навигация в тримерното пространство 
 
 
 <div class="mw-translate-fuzzy">
@@ -183,7 +183,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 </div>
 
-## Първи стъпки с FreeCAD {#първи_стъпки_с_freecad}
+## Първи стъпки с FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -209,7 +209,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 </div>
 
-## Работа с работните пловоте за дезайн на елементи и скициране {#работа_с_работните_пловоте_за_дезайн_на_елементи_и_скициране}
+## Работа с работните пловоте за дезайн на елементи и скициране 
 
 
 <div class="mw-translate-fuzzy">
@@ -245,7 +245,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 Във всеки един момент може да изберете и промените оригиналната скица, или височината на издигнатия елемент(pad extrusion parameters), или дълбочината на дупката която сте създали. Вашите промени веднага ще бъдат отразени върху крайния обект.
 
-## Работния плот Draft и Архитектурния работен плот(Arch) {#работния_плот_draft_и_архитектурния_работен_плотarch}
+## Работния плот Draft и Архитектурния работен плот(Arch) 
 
 
 <div class="mw-translate-fuzzy">
@@ -323,7 +323,7 @@ There are two types of addons:
 
 <div class="mw-translate-fuzzy">
 
-## Какво Ново {#какво_ново}
+## Какво Ново 
 
 
 </div>

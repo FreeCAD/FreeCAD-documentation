@@ -26,9 +26,9 @@ Obiekty części są bardziej złożone niż obiekty siatkowe utworzone przy uż
 
 ### Narzędzia
 
-Wszystkie narzędzia zostały umieszczone w menu głównym środowiska pracy {{MenuCommand|Część}}, lub menu {{MenuCommand|Wymiarowanie}}.
+Wszystkie narzędzia zostały umieszczone w menu głównym środowiska pracy **Część**, lub menu **Wymiarowanie**.
 
-### Bryły pierwotne {#bryły_pierwotne}
+### Bryły pierwotne 
 
 Są to narzędzia do tworzenia obiektów o charakterze elementarnym.
 
@@ -64,7 +64,7 @@ Są to narzędzia do tworzenia obiektów o charakterze elementarnym.
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Builder](Part_Builder.md): tworzy kształty z różnych elementów pierwotnych.
 
-### Tworzenie i modyfikowanie obiektów {#tworzenie_i_modyfikowanie_obiektów}
+### Tworzenie i modyfikowanie obiektów 
 
 Są to narzędzia do tworzenia i modyfikacji istniejących obiektów.
 
@@ -100,7 +100,7 @@ Są to narzędzia do tworzenia i modyfikacji istniejących obiektów.
 
 -   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Przymocuj obiekt](Part_Attachment.md): jest to narzędzie służące do dołączania obiektu do innego obiektu.
 
-#### Narzędzia do przeprowadzania operacji logicznych {#narzędzia_do_przeprowadzania_operacji_logicznych}
+#### Narzędzia do przeprowadzania operacji logicznych 
 
 Narzędzia te wykonują operacje logiczne.
 
@@ -146,7 +146,7 @@ Narzędzia te wykonują operacje logiczne.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Przełącz deltę](Part_Measure_Toggle_Delta.md): narzędzie to przełącza widoczność pomiarów delta *(kolor zielony)*.
 
-### Pozostałe narzędzia {#pozostałe_narzędzia}
+### Pozostałe narzędzia 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Importuj CAD](Part_Import.md): narzędzie to umożliwia import pliku \*.IGES, \*.STEP, \*.BREP do bieżącego dokumentu.
 
@@ -172,7 +172,7 @@ Narzędzia te wykonują operacje logiczne.
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Usuń właściwość z kształtu](Part_Defeaturing.md): Usuwa cechy z danego obiektu.
 
-### Pozycje w menu kontekstowym {#pozycje_w_menu_kontekstowym}
+### Pozycje w menu kontekstowym 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Wygląd zewnętrzny](Std_SetAppearance.md): określa wygląd całej części *(przezroczystość, kolor itp.)*.
 
@@ -184,7 +184,7 @@ Narzędzia te wykonują operacje logiczne.
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Ustawienia import - eksport](Import_Export_Preferences/pl.md): preferencje dostępne przy imporcie z i eksporcie do różnych formatów plików.
 -   [Dostrajanie parametrów](Fine-tuning/pl.md): kilka dodatkowych parametrów, aby dostosować zachowanie środowiska pracy Część.
 
-### Tworzenie skryptów {#tworzenie_skryptów}
+### Tworzenie skryptów 
 
 Zobacz również: [skrypty dla środowiska Część](Part_scripting/pl.md)
 

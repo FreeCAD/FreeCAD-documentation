@@ -13,7 +13,7 @@ La commande **Std Enregistrer sous** enregistre le document actif sous un nouvea
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Fichier → <img src="images/Std_SaveAs.svg" width=16px> Enregistrer sous...}} dans le menu.
+1.  Sélectionnez l\'option **Fichier → <img src="images/Std_SaveAs.svg" width=16px> Enregistrer sous...** dans le menu.
 2.  Entrez un nom de fichier dans la boîte de dialogue.
 3.  Appuyez sur le bouton **Enregistrer**.
 
@@ -27,7 +27,7 @@ La commande **Std Enregistrer sous** enregistre le document actif sous un nouvea
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

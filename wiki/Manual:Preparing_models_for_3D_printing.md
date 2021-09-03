@@ -16,13 +16,13 @@ If you have been cautious while modeling, most of the difficulty you might encou
 
 Below, we will assume that the first two criteria are met, and that by now you are able to produce solid objects with correct dimensions. We will now see how to address the third point.
 
-### Exporting to slicers {#exporting_to_slicers}
+### Exporting to slicers 
 
 This is the technique most commonly used for 3D printing. The 3D object is exported to another program (the slicer) which will generate the G-code from the object, by slicing it into thin layers (hence the name), which will reproduce the movements that the 3D printer will do. Since many of those printers are home-built, there are often small differences from one to the other. These programs usually offer advanced configuration possibilities that allow you to tailor the output exactly for the features of your 3D printer.
 
 Actual 3D printing, however, is too vast a subject for this manual. But we will see how to export and use these slicers to check that the output is correct.
 
-### Converting objects to meshes {#converting_objects_to_meshes}
+### Converting objects to meshes 
 
 None of the slicers will, at this time, directly take the solid geometry as we produce in FreeCAD. So we will need to convert any object we want to 3D print into a [mesh](https://en.wikipedia.org/wiki/Polygon_mesh) first, that the slicer can open. Fortunately, as much as converting a mesh to a solid is a complicated operation, the contrary, converting a solid to a mesh, is very straightforward. All we need to be careful about, is that it is here that the degradation we mentioned above will occur. We need to check that the degradation stays within acceptable limits.
 
@@ -50,7 +50,7 @@ In most cases, though, the default values will give a satisfying result.
 
 If you don\'t own a 3D printer, it is usually very easy to find commercial services that will print and send you the printed objects by mail. Among the famous ones are [Shapeways](http://www.shapeways.com/) and [Sculpteo](http://www.sculpteo.com/), but you will usually find many others in your own city. In all major cities, you will nowadays find [Fab labs](https://en.wikipedia.org/wiki/Fab_lab), which are workshops equipped with a range of 3D manufacturing machines, almost always including at least one 3D printer. Fab labs are usually community spaces, that will let you use their machines, for a fee or for free depending on the Fab lab, but also teach you how to use them, and promote other activities around 3D manufacturing.
 
-### Using Slic3r {#using_slic3r}
+### Using Slic3r 
 
 [Slic3r](http://slic3r.org/) is an application that converts STL objects into G-code that can be sent directly to 3D printers. Like FreeCAD, it is free, open source and runs on Windows, Mac OS and Linux. Correctly configuring things for 3D printing is a complicated process, where you must have a good knowledge of your 3D printer, so it is not very useful to generate G-code before actually going to print (your G-code file might not work well on another printer), but it is useful for us anyway, to check that our STL file will be printable without problems.
 
@@ -58,7 +58,7 @@ This is our exported STL file opened in Slic3r. By using the **preview** tab, an
 
 ![](images/Exercise_meshing_03.jpg )
 
-### Using the Cura addon {#using_the_cura_addon}
+### Using the Cura addon 
 
 [Cura](https://ultimaker.com/en/products/cura-software) is another free and open source slicer application for Windows, Mac and Linux, maintained by the 3D printer maker [Ultimaker](https://ultimaker.com). Some FreeCAD users have created a [Cura Workbench](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin) that uses cura internally. The Cura Workbench is available from the [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons) repository. To use the Cura Workbench, you also need to install Cura itself, which is not included in the workbench.
 
@@ -75,7 +75,7 @@ Once you have installed both Cura and the Cura Workbench, you will be able to us
 
 -   The generated G-code can also be re-imported into FreeCAD (using the slic3r preprocessor) for checking.
 
-### Generating G-code {#generating_g_code}
+### Generating G-code 
 
 
 {{VeryImportantMessage|'''Warning:''' This section was made for FreeCAD 0.16. There have been made significant changes to the path creation. Please refer to the documentation of the [Path workbench](Path_Workbench.md) in general or the tutorial like [path walk-through](Path_Walkthrough_for_the_Impatient.md)!}}

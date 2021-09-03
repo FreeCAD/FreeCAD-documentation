@@ -10,7 +10,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-## Propósito y principios {#propósito_y_principios}
+## Propósito y principios 
 
 Para almacenar propiedades de materiales en una estructura de datos unificada, una de las intenciones es facilitar la recuperación de datos que pueden llevarse en diferentes contextos:
 
@@ -39,7 +39,7 @@ A través de este modelo de datos de materiales, se propone ofrecer una herramie
 
 Diferentes tipos de datos se necesitan manejar para describir un material. Un modelo de datos de materiales se propone más abajo. También se indican algunos ejemplos de los datos que se pueden almacenar con esta estructura.
 
-### Modelo de datos de materiales {#modelo_de_datos_de_materiales}
+### Modelo de datos de materiales 
 
 En adición al clásico atributo de \"cadena de texto\" como un nombre, y una familia, 3 diferentes tipos específicos de información se necesita manejar para describir un material en FreeCAD.
 
@@ -118,7 +118,7 @@ Abajo está propuesto el diccionario de propiedades estándar. Eres libre de añ
 
 Notes: \"Mean Lankford coefficient is representative of the anisotropy of a thin metal sheet.\" \"The Hardening coefficient is representative of the hardening capacity of a metal. It appears in Hollomon formula that can relates cumulated plastic strain to stress.\"
 
-##### Ejemplo 1: Coste por tonelada {#ejemplo_1_coste_por_tonelada}
+##### Ejemplo 1: Coste por tonelada 
 
 A first example is given below to show how a *Cost per tonne* property can be stored.
 
@@ -134,7 +134,7 @@ A first example is given below to show how a *Cost per tonne* property can be st
     -   meaning m\^(-3) (more details about unit & unit system specifications in [Units](Units.md) page)
 -   direction: not applicable
 
-##### Ejemplo 2: Límite de elasticidad {#ejemplo_2_límite_de_elasticidad}
+##### Ejemplo 2: Límite de elasticidad 
 
 A second example is given below to show how the *Yield strength* property can be stored.
 
@@ -151,7 +151,7 @@ A second example is given below to show how the *Yield strength* property can be
 -   direction: \[ 1, 0, 0\] in global coordinate system
     -   given a steel sheet, this means that the *Yield strength* given is expressed in *x* direction, that can be for instance the rolling direction
 
-##### Ejemplo 3: Endurecimiento por acritud {#ejemplo_3_endurecimiento_por_acritud}
+##### Ejemplo 3: Endurecimiento por acritud 
 
 A third example is given below to show how the *Strain hardening* property can be stored. This is a more complex example because *Strain hardening* is represented by a serie of curves. The curves represent the stress evolution with respect to plastic strain. 3 curves have been obtained at different strain rates. All curves have been obtained at room temperature.
 
@@ -178,7 +178,7 @@ A third example is given below to show how the *Strain hardening* property can b
     -   meaning Pa (more details about unit & unit system specifications in [Units](Units.md) page)
 -   direction: not applicable
 
-#### Composición química {#composición_química}
+#### Composición química 
 
 \[Yet to be filled up\]
 
@@ -190,19 +190,19 @@ A third example is given below to show how the *Strain hardening* property can b
 
 A string where the user can add its own comments about the material.
 
-### Aplicaciones del modelo de datos de materiales: Algunos ejemplos {#aplicaciones_del_modelo_de_datos_de_materiales_algunos_ejemplos}
+### Aplicaciones del modelo de datos de materiales: Algunos ejemplos 
 
-##### Ejemplo 1: Mampostería de ladrillos {#ejemplo_1_mampostería_de_ladrillos}
+##### Ejemplo 1: Mampostería de ladrillos 
 
-###### Nombre {#nombre_1}
+###### Nombre 
 
 Brick masonry
 
-###### Familia {#familia_1}
+###### Familia 
 
 ?string?
 
-###### Propiedades {#propiedades_1}
+###### Propiedades 
 
 -   *Weight*: 1kg/m³
 -   *Cost per cubic meter*: 1€/m³
@@ -213,15 +213,15 @@ Brick masonry
 -   *Fire resistance class*: ?string?
 -   *Thermal conductivity*: 1 W/mK
 
-###### Fabricante {#fabricante_1}
+###### Fabricante 
 
 ?string?
 
-###### URL {#url_1}
+###### URL 
 
 ?string?
 
-###### Notas {#notas_1}
+###### Notas 
 
 Notes about maintainance, special cares to be taken, etc\...
 
@@ -230,7 +230,7 @@ CSI/MasterFormat code (as there are several systems used in the industry which g
 
 <div class="mw-translate-fuzzy">
 
-## Siguientes acciones {#siguientes_acciones}
+## Siguientes acciones 
 
 -   Define a set of names for classical properties, that we can define in a dictionary (FreeCAD configuration file). These properties will most notably be re-used in other contexts like the FEM module.
 

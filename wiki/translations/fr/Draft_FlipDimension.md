@@ -15,8 +15,8 @@ La commande <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;">
 1.  Sélectionnez une ou plusieurs [Draft Dimensions](Draft_Dimension/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_FlipDimension.svg" width=16px> [Inverser la direction normale des cotes...](Draft_FlipDimension/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → <img src="images/Draft_FlipDimension.svg" width=16px> Inverser la direction de la cote}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_FlipDimension.svg" width=16px> Inverser la direction de la cote}} dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_FlipDimension.svg" width=16px> Inverser la direction de la cote** dans le menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_FlipDimension.svg" width=16px> Inverser la direction de la cote** dans le menu.
 
 ## Remarques
 

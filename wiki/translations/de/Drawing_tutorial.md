@@ -28,7 +28,7 @@ Dieses Tutorial soll den Leser in den Arbeitsbereich [Zeichnung](Drawing_Workben
 
 Um den Zeitaufwand für dieses Tutorial zu reduzieren, ist es zwingend erforderlich ähnliche Elemente im Modellbaum zu gruppieren, um eine Operation auf mehrere Elemente gleichzeitig anwenden zu können.
 
-#### Gruppieren von Elementen {#gruppieren_von_elementen}
+#### Gruppieren von Elementen 
 
 1.  Im **Modellbaum** einen Rechtsklick auf den Dokumentnamen (Standard: *Unbenannt*) ausführen.
 2.  Im dann sichtbaren Menü auf **Gruppe erstellen** klicken und die Gruppe bei Bedarf umbenennen (mit Doppelklick auf die Gruppe).
@@ -40,7 +40,7 @@ Erstellen Sie folgende Gruppen:
 -   Draft\_dimensions
 -   Draft\_annotations\_text
 
-#### Schablonen zeichnen {#schablonen_zeichnen}
+#### Schablonen zeichnen 
 
 Schablonen sind die Grundlage für das Erstellen von Zeichnungen, wobei entweder die mitgelieferten Schablonen oder selbst erstellte verwendet werden können.
 
@@ -52,7 +52,7 @@ Im Modellbaum ist nun ein neuer Ordner namens *Page* zu sehen. Darin werden alle
 
 Projektionen sind definiert als visuelle Repräsentation eines 3D-Objektes auf einer bestimmten Ebene. Es stellt die verschiedenen Eigenschaften des Objektes aus Sicht dieser Ebene dar.
 
-##### Orthografische Projektionen {#orthografische_projektionen}
+##### Orthografische Projektionen 
 
 Diese Art der Projektion wird in den Ingenieurwissenschaften genutzt, um bestimmte Eigenschaften des Objektes, z.B. Maße oder Winkel, vor der Herstellung festzulegen und darzustellen. Dabei gibt es zwei übliche Standards: *\' Dritter Winkel*\' und **Erster Winkel** Projektionen.
 
@@ -64,7 +64,7 @@ In diesem Tutorial werden diese beiden Standardprojektionen jedoch nicht verwend
 
 In den Tabs **Allgemein** und **Axonometrisch** können der Ort, die Skalierung und der Abstand der Darstellungen für jede Ansicht festgelegt werden.
 
-##### Andere Projektionen {#andere_projektionen}
+##### Andere Projektionen 
 
 Es ist auch möglich, eigene Ansichten des Objekts zu erstellen
 
@@ -86,7 +86,7 @@ Objekte die mittels des Arbeitsbereichs *Draft* erstellt wurden, sollten idealer
 
 Wiederholen Sie die letzten Schritte für jede Gruppe.
 
-#### Exportieren der Zeichnungen {#exportieren_der_zeichnungen}
+#### Exportieren der Zeichnungen 
 
 FreeCAD unterstützt den Export als SVG und PDF Dateien, basierend auf den eigenen Zeichnungen
 
@@ -102,7 +102,7 @@ FreeCAD unterstützt den Export als SVG und PDF Dateien, basierend auf den eigen
 
 Wir sind nun fertig mit dem grundlegenden Arbeitsablauf für den [Drawing-Arbeitsbereich](Drawing_Workbench/de.md).
 
-## Empfohlene Lektüre {#empfohlene_lektüre}
+## Empfohlene Lektüre 
 
 -   Um zu lernen, wie man eigene Vorlagen erstellt, siehe [Zeichnungsvorlage Anleitung](Drawing_Template_HowTo/de.md)
 -   Für weitere Informationen über die verfügbaren Werkzeuge siehe die Seite [Zeichnung-Arbeitsbereich](Drawing_Workbench/de.md)

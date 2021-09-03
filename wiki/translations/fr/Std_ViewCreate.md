@@ -15,11 +15,11 @@ La commande **Std Créer une nouvelle vue‏‎** crée une nouvelle [vue 3D](3D
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → <img src="images/Std_ViewCreate.svg" width=16px> Créer une nouvelle vue‏‎}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → <img src="images/Std_ViewCreate.svg" width=16px> Créer une nouvelle vue‏‎** dans le menu.
 
 ## Options
 
--   Sélectionnez l\'option {{MenuCommand|Fenêtre → Fenêtres en cascade}} ou {{MenuCommand|Fenêtre → Mosaïque}} dans le menu pour réorganiser les vues 3D.
+-   Sélectionnez l\'option **Fenêtre → Fenêtres en cascade** ou **Fenêtre → Mosaïque** dans le menu pour réorganiser les vues 3D.
 
 
 

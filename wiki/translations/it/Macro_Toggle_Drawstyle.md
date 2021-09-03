@@ -25,7 +25,7 @@ L\'installazione si realizza copiando i due codici nella appropriata directory d
 
 Selezionare un oggetto, quindi fare clic sul pulsante della barra degli strumenti associata, o richiamarle dal menu Macro. Lo stile dell\'oggetto selezionato si alterna tra i due Stili specificati nel codice della macro (vedere il codice sottostante). **Note**: La definizione degli stili è elencata nel codice. Modificando il codice (che è documentato nel codice della macro) l\'utente può selezionare i 2 stili che desidere avere alternabili.
 
-## Interfaccia utente {#interfaccia_utente}
+## Interfaccia utente 
 
 L\'oggetto selezionato viene ridisegnato nello stile specificato nella macro.
 

@@ -66,7 +66,7 @@ Zellausdrücke können Zahlen, Funktionen, Verweise auf andere Zellen und Verwei
 
 Referenzen zu Objekten im Modell werden unter [Referenzen auf CAD-Daten](#References_to_CAD-data/de.md) unten erklärt. Die Verwendung von Tabellenkalkulationszellenwerten zur Definition von Modelleigenschaften wird unter [Tabellenkalkulationsdaten in Ausdrücken](#Spreadsheet_data_in_Expressions/de.md) weiter unten erläutert. Weitere Besonderheiten zur Bildung von Ausdrücken findest du unter [Ausdrücke](Expressions/de.md).
 
-## Wechselwirkung zwischen Kalkulationstabellen und dem CAD Modell {#wechselwirkung_zwischen_kalkulationstabellen_und_dem_cad_modell}
+## Wechselwirkung zwischen Kalkulationstabellen und dem CAD Modell 
 
 Daten in den Zellen einer Kalkulationstabelle können in CAD Modellparameterausdrücken verwendet werden. So kann eine Tabellenkalkulationstabelle als Quelle für Parameterwerte verwendet werden, die im gesamten Modell verwendet werden, die Werte effektiv an einem Ort zu sammeln. Wenn Werte in der Kalkulationstabelle geändert werden, werden sie im ganzen Modell übertragen.
 
@@ -80,7 +80,7 @@ Die Beschriftung eines Kalkulationstabellenblatts wird bei der Erstellung automa
 
 FreeCAD prüft auf zyklische Abhängigkeiten. Siehe [Aktuelle Begrenzungen](Spreadsheet_Workbench/de#Aktuelle_Begrenzungen.md).
 
-### Referenzen auf CAD-Daten {#referenzen_auf_cad_daten}
+### Referenzen auf CAD-Daten 
 
 Wie oben angegeben, kann man in Kalkulationstabellenausdrücken auf Daten aus dem CAD Modell verweisen.
 
@@ -103,7 +103,7 @@ Die folgende Tabelle zeigt einige Beispiele unter der Annahme, dass das Modell �
   Beschriftung des Würfels                                      =MeinWürfel.Label                  String: MeinWürfel
   x-Koordinate des Massenschwerpunktes des Würfels              =MeinWürfel.Shape.CenterOfMass.x   x-Koordinate in mm ohne Einheiten
 
-### Kalkulationstabellendaten in Ausdrücken {#kalkulationstabellendaten_in_ausdrücken}
+### Kalkulationstabellendaten in Ausdrücken 
 
 Um Kalkulationstabellendaten in anderen Teilen von FreeCAD zu verwenden, wirst du normalerweise einen [Ausdruck](Expressions/de.md) erstellen, der sich auf die Kalkulationstabelle und die Zelle bezieht, die die Daten enthält, die du verwenden möchtest. Du kannst Kalkulationstabellen über den Namen oder die Beschriftung identifizieren, und du kannst die Zellen über die Position oder über einen Alias identifizieren. Die Autovervollständigung ist für alle Formen des Verweises verfügbar.
 
@@ -139,7 +139,7 @@ Du kannst zwar die Zeilen- und Spaltennummer in einem Ausdruck verwenden, um auf
 
 </div>
 
-### Komplexe Modelle und Neuberechnungen {#komplexe_modelle_und_neuberechnungen}
+### Komplexe Modelle und Neuberechnungen 
 
 Das Bearbeiten einer Kalkulationstabelle löst eine Neuberechnung des 3D Modells aus, auch wenn die Änderungen keine Auswirkungen auf das Modell haben. Bei einem komplexen Modell kann eine Neuberechnung sehr lange dauern, und nach jeder einzelnen Bearbeitung warten zu müssen, ist natürlich ziemlich lästig.
 
@@ -149,11 +149,11 @@ Es gibt drei Lösungen, um dies zu beheben:
 
 \#\* Klicke mit der rechten Maustaste in der [Baumansicht](Tree_view/de.md) <img alt="" src=images/Document.svg  style="width:24px;"> das Dokument, das die Tabelle enthält an.
 
-\#\* Wähle die Option {{MenuCommand|Überspringe Neuberechnen}} aus dem Kontextmenü.
+\#\* Wähle die Option **Überspringe Neuberechnen** aus dem Kontextmenü.
 
 \#\* Diese Lösung hat einen großen Nachteil. Neue Werte, die in die Tabelle eingegeben werden, werden nicht angezeigt, bis das Dokument neu berechnet wird. Stattdessen wird `#PENDING` angezeigt.
 
-\#\* Du kannst entweder manuell neu berechnen, indem du den Befehl [Std Aktualisieren](Std_Refresh/de.md) verwendest, oder du deaktivierst {{MenuCommand|Überspringe Neuberechnen}}, wenn du mit der Bearbeitung fertig bist.
+\#\* Du kannst entweder manuell neu berechnen, indem du den Befehl [Std Aktualisieren](Std_Refresh/de.md) verwendest, oder du deaktivierst **Überspringe Neuberechnen**, wenn du mit der Bearbeitung fertig bist.
 
 \#\* Verwende ein Makro, um Neuberechnungen während der Bearbeitung einer Kalkulationstabelle automatisch zu überspringen:
 
@@ -179,11 +179,11 @@ Eine dimensionslose Zahl kann im Zelleigenschaftendialog nicht in eine Zahl mit 
 
 Manchmal ist es notwendig, die Einheit von einer Zahl zu entfernen. Dies kann durch die Multiplikation einer 1 mit der reziproken Einheit erreicht werden.
 
-## Importieren und Exportieren {#importieren_und_exportieren}
+## Importieren und Exportieren 
 
-Tabellen können im CSV-Format[1](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) importiert und exportiert werden. Dieses Format kann von den meisten anderen Tabellenkalkulationsprogrammen wie Microsoft Excel oder LibreOffice Calc gelesen und geschrieben werden. Wenn Dateien nach FreeCAD importiert werden, muss das Trennzeichen, welches die Spalten trennt, das TAB-Zeichen sein. Dies kann üblicherweise in den Tabellenkalkulationsprogrammen vor dem Export eingestellt werden. Der Import einer CSV-Datei ist über das Menü {{MenuCommand|Spreadsheet → Kalkulationstabelle importieren}} oder durch einen Klick auf das Symbol <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;"> möglich. Diese Import-Funktion öffnet keine Excel-Dateien oder andere Tabellenkalkulationsformate.
+Tabellen können im CSV-Format[1](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) importiert und exportiert werden. Dieses Format kann von den meisten anderen Tabellenkalkulationsprogrammen wie Microsoft Excel oder LibreOffice Calc gelesen und geschrieben werden. Wenn Dateien nach FreeCAD importiert werden, muss das Trennzeichen, welches die Spalten trennt, das TAB-Zeichen sein. Dies kann üblicherweise in den Tabellenkalkulationsprogrammen vor dem Export eingestellt werden. Der Import einer CSV-Datei ist über das Menü **Spreadsheet → Kalkulationstabelle importieren** oder durch einen Klick auf das Symbol <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;"> möglich. Diese Import-Funktion öffnet keine Excel-Dateien oder andere Tabellenkalkulationsformate.
 
-Tabellen im Excelformat \"xlsx\" können über das Menü {{MenuCommand|Datei → Importieren...}} importiert werden. Exceltabellen können auch durch den Menübefehl {{MenuCommand|Datei → Öffnen...}} oder mit einem Klick auf das Symbol <img alt="" src=images/Document-open.svg  style="width:24px;"> geöffnet werden. In diesem Fall wird ein neues Dokument mit einer Tabelle erzeugt. Es werden die folgenden Funktionen unterstützt:
+Tabellen im Excelformat \"xlsx\" können über das Menü **Datei → Importieren...** importiert werden. Exceltabellen können auch durch den Menübefehl **Datei → Öffnen...** oder mit einem Klick auf das Symbol <img alt="" src=images/Document-open.svg  style="width:24px;"> geöffnet werden. In diesem Fall wird ein neues Dokument mit einer Tabelle erzeugt. Es werden die folgenden Funktionen unterstützt:
 
 -   alle Funktionen, die auch in der FreeCAD Tabellenblatt verfügbar sind. Andere Funktionen führen nach dem Import zu einem Fehler in der entsprechenden Zelle.
 -   Alias Namen für Zellen
@@ -195,13 +195,13 @@ Andere Funktionalität wird nicht in die FreeCAD Tabellenblätter importiert. De
 
 Um die erforderlichen Seiteneinstellungen für den Druck von FreeCAD-Tabellen einzurichten, werden diese in eine [TechDraw Tabellenansicht](TechDraw_SpreadsheetView/de.md) eingefügt.
 
-## Aktuelle Begrenzungen {#aktuelle_begrenzungen}
+## Aktuelle Begrenzungen 
 
 FreeCAD prüft auf zyklische Abhängigkeiten. Nach dem Entwurf endet diese Prüfung auf der Ebene des Tabellenkalkulationsobjekts. Infolgedessen solltest du keine Tabellenkalkulation haben, die beides enthält Zellen, deren Werte zur Angabe von Parametern für das Modell verwendet werden, und Zellen, deren Werte die Ausgabe aus dem Modell verwenden. Du kannst z.B. keine Zellen haben, die die Länge, Breite und Höhe eines Objekts festlegen, und eine weitere Zelle, die das Gesamtvolumen der resultierenden Form referenziert. Diese Einschränkung kann durch zwei Tabellenkalkulationen überwunden werden: eine, die als Datenquelle für die Eingabeparameter des Modells dient und die andere verwendet für Berechnungen auf der Grundlage der resultierenden Geometriedaten.
 
 Wenn Zellen kopiert werden, wird nur der Inhalt (Ausdruck/Wert) kopiert. Die oben beschriebenen [Zelleigenschaften](Spreadsheet_Workbench/de#Zelleigenschaften.md) werden nicht kopiert.
 
-## Grundlagen Skripterstellung {#grundlagen_skripterstellung}
+## Grundlagen Skripterstellung 
 
 
 ```python

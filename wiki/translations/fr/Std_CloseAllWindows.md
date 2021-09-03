@@ -13,7 +13,7 @@ La commande **Std Fermer tout** ferme toutes les fenêtres, fermant ainsi tous l
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Fichier  → <img src="images/Std_CloseAllWindows.svg" width=16px> Fermer tout}} dans le menu.
+1.  Sélectionnez l\'option **Fichier  → <img src="images/Std_CloseAllWindows.svg" width=16px> Fermer tout** dans le menu.
 2.  S\'il y a des documents non enregistrés, une boîte de dialogue vous demandera de les enregistrer:
     -   Appuyez sur le bouton **Enregistrer** pour enregistrer le document actif. Si nécessaire, entrez d\'abord un nom de fichier.
     -   Appuyez sur le bouton **Supprimer** pour supprimer le document actif et perdre toutes les modifications.
@@ -25,11 +25,11 @@ La commande **Std Fermer tout** ferme toutes les fenêtres, fermant ainsi tous l
 
 ## Remarques
 
--   Un document peut également être fermé en cliquant dessus avec le bouton droit de la souris dans la [vue en arborescence](tree_view/fr.md) et en sélectionnant {{MenuCommand|Fermer le document}} dans le menu contextuel.
+-   Un document peut également être fermé en cliquant dessus avec le bouton droit de la souris dans la [vue en arborescence](tree_view/fr.md) et en sélectionnant **Fermer le document** dans le menu contextuel.
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

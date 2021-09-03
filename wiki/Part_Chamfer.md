@@ -16,7 +16,7 @@ Chamfers the selected edge(s) of an object. A dialog allows you to choose which 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Part_Chamfer.svg" width=16px> Chamfer** button.
-    -   Select the {{MenuCommand|Part → Chamfer}} option from the menu.
+    -   Select the **Part → Chamfer** option from the menu.
 2.  Select the shape to chamfer from the dialog.
 3.  Select edges to chamfer by checking the corresponding box in the chamfer dialog or by selecting them on the model directly.
 4.  Edit chamfer parameters.

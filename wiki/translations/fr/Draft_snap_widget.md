@@ -22,7 +22,7 @@ Voir [Draft Aimantation](Draft_Snap/fr.md).
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Le widget aimantation de Draft est facultatif : {{MenuCommand|Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Barre d'état Draft → Widget d'aimantation Draft}}.
+-   Le widget aimantation de Draft est facultatif : **Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Barre d'état Draft → Widget d'aimantation Draft**.
 
 
 

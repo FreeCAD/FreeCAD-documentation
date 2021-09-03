@@ -22,7 +22,7 @@ O menu padrão dá acesso a ferramentas que podem ser usadas em todas as bancada
 [Ajuda](Std_Help_Menu/pt-br.md)
 }}
 
-## Sub-menus {#sub_menus}
+## Sub-menus 
 
 O menu padrão é composto por 7 submenus:
 

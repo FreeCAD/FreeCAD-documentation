@@ -19,9 +19,9 @@ The issue is that the physical size of a display remains the same (from 21 to 32
 
 To solve the issue, Apple introduced \"HiDPI\", that is scaling all the UI elements according to the font size. Font sizes are specified in points, while their pixel value is calculated using DPI and device pixel ratio which is a scale factor specified by a user in OS settings. At the same time, raster images are rendered at their true pixel size, so individual pixels are less noticeable. It means that raster images are provided at higher resolution to make up for their size on a screen. Vector graphics (UI elements) are rendered accordingly, at higher resolution.
 
-## Master plan {#master_plan}
+## Master plan 
 
-### Part one {#part_one}
+### Part one 
 
 Goal: Make sure that we make the most out of Qt support.
 
@@ -29,7 +29,7 @@ Goal: Make sure that we make the most out of Qt support.
 -   Scale all cursors and icons (multiplying them by devicePixelRatio) <https://github.com/FreeCAD/FreeCAD/pull/3712>
 -   Make all pixel graphics vector or available at various pixel density
 
-### Part two {#part_two}
+### Part two 
 
 Goal: Make sure that the system font is correctly determined.
 
@@ -40,7 +40,7 @@ Goal: Make sure that the system font is correctly determined.
 -   Rescale the toolbar/icon size according to the new experimental setting
 -   Gather user feedback whether we need the customizable toolbar icon size
 
-### Part three {#part_three}
+### Part three 
 
 Goal: Make all UI widgets size relative to the font size
 
@@ -51,7 +51,7 @@ Goal: Make all UI widgets size relative to the font size
 -   Make sure qreal versions of APIs are used.
 -   Turn off AA\_EnableHighDpiScaling
 
-### Part four {#part_four}
+### Part four 
 
 Goal: Support rescaling when the window is moved from one screen to another
 
@@ -60,11 +60,11 @@ Goal: Support rescaling when the window is moved from one screen to another
 
 ## Background
 
-### Display resolutions {#display_resolutions}
+### Display resolutions 
 
  <img alt="" src=images/Vector_Video_Standards8.svg  style="width:800px;"> 
 
-### Device pixel ratio {#device_pixel_ratio}
+### Device pixel ratio 
 
 It\'s a well-known concept for Web and Android developers. But not so much for desktop developers.
 
@@ -89,9 +89,9 @@ But the reality is that if you use raster graphics, it becomes pixelized, blurry
 -   <https://stackoverflow.com/questions/8785643/what-exactly-is-device-pixel-ratio>
 -   <https://stackoverflow.com/questions/13911786/what-is-device-pixel-ratio-for>
 
-## Issue testing/demonstration {#issue_testingdemonstration}
+## Issue testing/demonstration 
 
-### OS X {#os_x}
+### OS X 
 
 1.  Open \"Display\"
 2.  Choose \"Scaled\"
@@ -99,7 +99,7 @@ But the reality is that if you use raster graphics, it becomes pixelized, blurry
 
 Video: <https://www.youtube.com/watch?v=4U3eh_fMo4o>
 
-### X Window {#x_window}
+### X Window 
 
 Useful commands: 
 
@@ -120,13 +120,13 @@ Useful commands:
 
 
 
-### Ubuntu (GNOME Shell) {#ubuntu_gnome_shell}
+### Ubuntu (GNOME Shell) 
 
 1.  Open \"Displays\" (Settings \> Devices \> Displays)
 2.  Select the highest resolution available
 3.  Select scaling higher than 100%
 
-## Issues and solutions {#issues_and_solutions}
+## Issues and solutions 
 
 -   Raster images (cursors, icons)
 -   Fonts (defined in pixels rather than points)
@@ -135,7 +135,7 @@ Useful commands:
 -   Snap distance
 -   Selection distance (the hot area around selectable objects)
 
-### Font size {#font_size}
+### Font size 
 
 Fonts are usually vector. So they don\'t require a higher resolution version to be able to scale up (in pixels). However, we can\'t just increase every font size and call it a day. People are used to font sizes in relation to how they look on paper. And on paper, it is known that 72pt font takes one inch, and on displays of old days, an inch was equal to 96 pixels at 1:1 zoom level.
 
@@ -143,7 +143,7 @@ So, as display resolutions become higher, displays could fit more text lines of 
 
 To overcome this issue, OS implemented what it\'s called DPI scaling (or DPI font settings in the older days) or High-DPI scaling of the recent 4K displays. Users could change the DPI and benefit from much more real estate in terms of pixels while keeping a comfortable to read font size.
 
-### Custom cursor size {#custom_cursor_size}
+### Custom cursor size 
 
 The cursor size is kind of difficult. Qt recommends using a hardcoded image size of 32x32. As of 5.x it doesn\'t provide any functionality to integrate with OS and query the size of the mouse pointer. It\'s a shame since it means you can\'t benefit from accessibility settings, where cursor size can be set to an arbitrarily large value.
 
@@ -160,7 +160,7 @@ Taking into account the scale factor, it means the physical pixel size of 128.
 
 Qt doesn\'t provide the functionality to retrieve that value. So we have to either hard code it or provide a user setting to change that.
 
-## Forum threads {#forum_threads}
+## Forum threads 
 
 -   [Improve support of high DPI displays](https://forum.freecadweb.org/viewtopic.php?t=34916) - general Qt support
 -   [News: Qt 5.14 Is Bringing Significantly Better HiDPI Support](https://forum.freecadweb.org/viewtopic.php?t=39325) - general Qt support
@@ -179,7 +179,7 @@ Qt doesn\'t provide the functionality to retrieve that value. So we have to eith
 -   [Navigation cube scaling](https://forum.freecadweb.org/viewtopic.php?f=3&t=42835)
 -   [Navigation cube scaling 2](https://forum.freecadweb.org/viewtopic.php?p=450061#p450061)
 
-## Relevant changes {#relevant_changes}
+## Relevant changes 
 
 -    {{commit|a14b99e77}}
     
@@ -214,11 +214,11 @@ Qt doesn\'t provide the functionality to retrieve that value. So we have to eith
 -    {{commit|7dfeb801a}}
     
 
-## Bugtracker Issues {#bugtracker_issues}
+## Bugtracker Issues 
 
 -   Tickets tagged with [HiDPI](https://tracker.freecadweb.org/search.php?tag_string=HiDPI)
 
-## External references {#external_references}
+## External references 
 
 -   <https://doc.qt.io/qt-5/highdpi.html>
 -   <https://doc.qt.io/qt-5/scalability.html>

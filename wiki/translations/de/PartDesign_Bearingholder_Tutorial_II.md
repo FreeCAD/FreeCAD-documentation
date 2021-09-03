@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 {{TutorialInfo
@@ -26,7 +26,7 @@ Wie der Warnhinweis oben auf der Seite bereits andeutet, funktioniert dieses **T
 
 </div>
 
-## Purpose in Brief {#purpose_in_brief}
+## Purpose in Brief 
 
 The purpose of the tutorial is to introduce you to two different work flows for creating a cast part with drafts and fillets. Depending on what other CAD programs you have been using, one or the other might be familiar to you. As a working example we will be modeling a simple bearing holder.
 
@@ -42,11 +42,11 @@ Das Gehäuse sollte in der Lage sein, ein Lager mit einem Durchmesser von 90 mm 
 
 Das Gehäuse wird ein Sandguss mit einer Mindestwandstärke von 5 mm, einem Entformungswinkel von 2 Grad und einem minimalen Verrundungsradius von 3 mm sein.
 
-## Einrichten der Skelettgeometrie {#einrichten_der_skelettgeometrie}
+## Einrichten der Skelettgeometrie 
 
 ![Skizze der Skelettgeometrie\|thumb\|right\|400px](images/HolderTop2-2.png ) Erstelle im PartDesign Arbeitsbereich ein neues Teil. Benenne den standardmäßig erstellten Körper in Skeleton um. Dieser Körper ist wahrscheinlich bereits aktiviert, was du an der blauen Hintergrundfarbe im Formelementebaum erkennen kannst. Erstelle eine neue Skizze auf der YZ Ebene, die den Umriss der Welle, des Lagers und der Dichtungsringe enthält. Nachdem du die Skizze fertiggestellt hast, erstelle daraus ein Rotations Formelement. Dieses Skelettformelement wird später dazu verwendet, die reale Geometrie darauf zu beziehen. Das bedeutet, dass du, wenn du irgendwelche Bemaßungen ändern möchtest, nur die Bemaßungen des Skelettformelements anpassen musst, und der Rest des Teils wird entsprechend aktualisiert. ![Die Skelettgeometrie\|thumb\|right\|400px](images/HolderTop2-2-1.jpg )
 
-## Der Hauptkörper {#der_hauptkörper}
+## Der Hauptkörper 
 
 ![Skizze des ersten Polsters\|thumb\|right\|400px](images/HolderTop2-3.jpg ) Erstelle einen neuen Körper und mache ihn aktiv. Die Skizze für den ersten Block ist rechts abgebildet. Er wird auf einer Bezugsebene mit einem Versatz von 5 mm (Wandstärke) von der Skelettfläche platziert, die die Seite eines der tragenden Dichtungsringe markiert. Da alle wichtigen Maße vom Skelett abgenommen werden, gibt es nur drei Maße: Die Bearbeitungszugabe (3 mm) an der Basis als Versatz zur XY Ebene, die 5 mm Wanddicke vom Außendurchmesser des Skeletts und der Entformungswinkel von zwei Grad. Zwei erzeugen die 5mm Bemaßung, du musst zuerst den Außenkreis (Radius 45mm) der Skelettgeometrie als Außengeometrie im Skizzierer auswählen und dann eine tangential zu diesem Kreis und in einem Winkel von zwei Grad gebundene Konstruktionslinie einfügen.
 
@@ -57,7 +57,7 @@ Du fragst dich wahrscheinlich, warum sich am unteren Ende jedes Bogens dieses kl
 ![Neutrale Ebene für die Anwendung des Entwurfs\|thumb\|right\|400px](images/HolderTop2-7.jpg ) Jetzt ist es an der Zeit, Entwurf und Verrundungen zu erstellen. Das Entwurfsformelement erfordert eine neutrale Ebene, was bedeutet, dass die Geometrie, die von dieser Ebene geschnitten wird, an ihrem Platz bleibt, während der Rest der Fläche um den Entformungswinkel geneigt wird. Die Verwendung der Unterseite des Polsters für diesen Zweck ist keine gute Idee, da die Wandstärke im oberen Teil des Halters weniger als 5 mm betragen würde. Wir erstellen also zu diesem Zweck eine Bezugsebene, die um etwa 35 mm vom XY versetzt ist. Aktiviere den Skelettkörper und erzeuge die Ebene dort, denn wir werden sie brauchen, um den Entwurf auch auf andere Körper anzuwenden.
 ![Erster Körper mit Entwurf und Verrundungen\|thumb\|right\|400px](images/HolderTop2-8.jpg ) Das Bild rechts zeigt den fertigen ersten Körper mit Entwurf und applizierten Verrundungen. Beachte, dass die äusseren (konkaven) Kanten einen grösseren Verrundungsradius von 5mm haben, wiederum mit dem Ziel, eine gleichmässigere Wandstärke zu erzeugen (mehr als 5mm ist nicht möglich, da dann nach der Bearbeitung der Innenseite des Halters die Wandstärke weniger als 5mm betragen würde).
 
-## Hinzufügen der Körper für die Schrauben {#hinzufügen_der_körper_für_die_schrauben}
+## Hinzufügen der Körper für die Schrauben 
 
 ![Die Skizze für den Körper für die Schrauben\|thumb\|right\|400px](images/HolderTop2-13.jpg ) Die Schrauben benötigen zwei zylindrische Körper auf beiden Seiten des Hauptkörpers. Am besten ist es, den 2 Grad Entformungswinkel in die Skizze aufzunehmen. Ich habe versucht, einen Zylinder zu drehen und später einen Entwurf anzuwenden, aber nach dem Spiegeln passierten seltsame Dinge, und ich konnte keine Verrundungen anbringen, weil die Oberfläche irgendwie verzogen war.
 
@@ -66,7 +66,7 @@ Die Skizze ist so bemaßt, dass die Rotationsachse 12 mm Abstand zum Außendurch
 ![Der Körper für die Schrauben\|thumb\|right\|400px](images/HolderTop2-14.jpg ) Erstelle aus der Skizze eine Drehung und bringe an der Oberseite eine Verrundung von 4 mm an. Das bedeutet, dass nach dem Wegfräsen von 3 mm ein leichter Radius verbleibt, der hilft, eine scharfe Kante zu vermeiden, an der sich jemand beim Anziehen der Schraube in die Hand schneiden könnte.
 ![Der Hauptkörper mit den beiden Körpern für die Schrauben\|thumb\|right\|400px](images/HolderTop2-16.jpg ) Erstelle ein boolesches Formelement, um den Hauptkörper und den Schraubenkörper zu verschmelzen. Erstelle dann einen neuen Körper für die andere Seite. Dupliziere die Skizze der Drehung, verschiebe sie auf diesen Körper und erstelle den zweiten Körper für die Schrauben (das Spiegeln eines Körpers wird noch nicht unterstützt, so dass Sie den größten Teil davon neu ausführen müssen). Verschmelze dann auch diesen zweiten Körper mit dem Hauptkörper. Abschließend bringe eine große Verrundung an der Kante an, die durch die boolesche Verschmelzungsoperation erzeugt wurde. Die größte Verrundung, die ich erreichen konnte, war 4 mm.
 
-## Aushöhlung des Hauptkörpers {#aushöhlung_des_hauptkörpers}
+## Aushöhlung des Hauptkörpers 
 
 ![Das erste Polster des ausgeschnittenen Körpers im Inneren des Hauptkörpers\|thumb\|right\|300px](images/HolderTop2-9.jpg ) Wir werden nun an der Innenseite des Halters arbeiten und ihn aushöhlen, um Platz für die Lager- und Dichtungsringe zu schaffen. Dabei müssen wir natürlich die 3 mm Bearbeitungszugabe berücksichtigen. Da dieses Tutorial die Multi-körpermethode lehrt, werden wir die Innengeometrie als separaten Körper erstellen und dann mit einer boolschen Operation aus dem Hauptkörper herausschneiden.
 
@@ -79,7 +79,7 @@ Danach wollen wir zwei weitere Polster wie die letzten beiden erzeugen, um der W
 
 Das Rohteil ist nun fertiggestellt. So wird der Halter vor der Bearbeitung aussehen. Beachte, dass die Kante zwischen diesen beiden nicht verrundet werden kann, da die Form eine obere und eine untere Hälfte haben wird. Auch wenn du dieses Modell an eine Gießerei verschenkst, musst du darauf hinweisen, dass es die Abmessungen nach dem Gießen hat. Die Gießerei muss dann einen bestimmten Prozentsatz der Schrumpfung auf das Modell anwenden (das digitale Modell, das zur Herstellung der Form verwendet wird, muss größer gemacht werden, damit das Metall nach dem Gießen beim Abkühlen und Schrumpfen die richtige Größe hat).
 
-## Spanende Bearbeitung {#spanende_bearbeitung}
+## Spanende Bearbeitung 
 
 ![Skizze zum \"Bohren\" des Lochs für die Schrauben.\|thumb\|right\|400px](images/HolderTop2-17.jpg ) Um das Material für die Bearbeitung der Innenseite des Gehäuses zu entfernen, können wir sehr bequem den Skelettkörper selbst verwenden. Wenn du das nicht willst, weil dann das Skelett irgendwo tief im Baum versteckt wird, kannst du auch die Skizze des Skelett Umdrehungsformelements duplizieren und die Umdrehung in einem anderen Körper nachbilden. Dies ist jedoch nicht vollständig parametrisch, da die duplizierte Skizze unabhängig vom Original ist, so dass du an beiden arbeiten musst, wenn du eine Bemaßung änderst. Abhängige duplizierte Formelemente könnten in der Zukunft irgendwann unterstützt werden.
 
@@ -87,7 +87,7 @@ Für den Rest der soaneneden Bearbeitung erzeuge einen neuen Körper. Der Boden 
 ![Der Bearbeitungskörper\|thumb\|right\|400px](images/HolderTop2-18.jpg ) Du kannst die Umdrehung auf der YZ Achse spiegeln. Das Bild rechts zeigt den \"Bearbeitungs\" Körper. Natürlich sind die meisten Abmessungen der Polster und Umdrehungen nicht wichtig, solange es viele Überlappungen gibt.
 ![Der fertige Halter mit Bearbeitung\|thumb\|right\|400px](images/HolderTop2-19.jpg ) Erstelle schließlich eine boolesche Operation, um den bearbeitenden Körper aus dem Hauptkörper herauszuschneiden. Wenn du einen schönen visuellen Effekt wünschst, kannst du die bearbeiteten Flächen anders einfärben als den Rest des Werkstücks. Dies ist auch eine nützliche optische Rückmeldung, die dir anzeigt, ob du irgendwo vergessen hast, zu bearbeiten.
 
-## Teil Eins {#teil_eins}
+## Teil Eins 
 
 [PartDesign Lagergehäuse Tutorium I](PartDesign_Bearingholder_Tutorial_I/de.md)
 

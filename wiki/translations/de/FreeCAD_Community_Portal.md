@@ -2,7 +2,7 @@
 
 Dies ist der Ort, an dem du alle Arten von FreeCAD-bezogenen Sachen ablegen kannst! Wenn Du an etwas arbeitest, das mit FreeCAD zu tun hat, füge es bitte hier ein!
 
-## Orte, an denen FreeCAD im Netz erscheint {#orte_an_denen_freecad_im_netz_erscheint}
+## Orte, an denen FreeCAD im Netz erscheint 
 
 -   [Wikipedia](https://en.wikipedia.org/wiki/FreeCAD)
 -   [Softpedia](http://linux.softpedia.com/get/Multimedia/Graphics/FreeCAD-31097.shtml)
@@ -12,11 +12,11 @@ Dies ist der Ort, an dem du alle Arten von FreeCAD-bezogenen Sachen ablegen kann
 -   [Freshports](http://www.freshports.org/cad/freecad/)
 -   [Packman](http://packman.links2linux.de/package/2776)
 
-## FreeCAD bezogene Projekte {#freecad_bezogene_projekte}
+## FreeCAD bezogene Projekte 
 
 -   [Architekturarbeitsablauf](http://yorik.uncreated.net/guestblog.php?tag=freecad): Ein Beispiel, wie FreeCAD seinen vorbereitenden Platz in einem Arbeitsablauf in der Architektur haben kann\...
 
-## FreeCAD Gemeinschafts Erweiterungen {#freecad_gemeinschafts_erweiterungen}
+## FreeCAD Gemeinschafts Erweiterungen 
 
 Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Makros und Erweiterungen für FreeCAD. Ab v0.17 wurde der Erweiterungsverealter in den FreeCAD Kern implementiert und macht es äußerst einfach, von der Gemeinschaft genehmigte Erweiterungen zu installieren.
 
@@ -25,11 +25,11 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 
 ## Werbung
 
-### Soziale Netzwerke {#soziale_netzwerke}
+### Soziale Netzwerke 
 
 -   [yorik](User:Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
-### Nachrichten Webseiten {#nachrichten_webseiten}
+### Nachrichten Webseiten 
 
 -   <http://makezine.com/>
 -   <http://www.webupd8.org/>
@@ -42,7 +42,7 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 -   <http://www.inside3dp.com/>
 -   <http://diy3dprinting.blogspot.com/>
 
-### Andere Webseiten {#andere_webseiten}
+### Andere Webseiten 
 
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
 -   <http://forum.diigiit.com/>
@@ -75,11 +75,11 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 -   <http://wkupiesila.blogspot.com>
 -   <http://cadblog.pl>
 
-## Andere Ressourcen {#andere_ressourcen}
+## Andere Ressourcen 
 
 -   [Interessante Verweise](Interesting_links/de.md) enthält einige vielleicht nützliche Verweise zu anderen FLOSS Informationsquellen und Projekten in diesem Bereich.
 
-## Du auch! {#du_auch}
+## Du auch! 
 
 -   Sieh, was du mit [Hilf FreeCAD](Help_FreeCAD/de.md) machen kannst\...
 

@@ -28,7 +28,7 @@ Python Funktioner följer samma regler som alla FreeCAD funktioner: de är separ
 
 <div class="mw-translate-fuzzy">
 
-## Enkelt exempel {#enkelt_exempel}
+## Enkelt exempel 
 
 Följande exempel kan hittas i [src/Mod/TemplatePyMod/FeaturePython.py](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/TemplatePyMod/FeaturePython.py?view=markup) filen, tillsammans med flera andra exempel:
 
@@ -170,7 +170,7 @@ makeBox()
 
 ```
 
-### Things to note {#things_to_note}
+### Things to note 
 
 If your object relies on being recomputed as soon as it is created, you must do this manually in the `__init__` function as it is not called automatically. This example does not require it because the `onChanged` method of the `Box` class has the same effect as the `execute` function, but the examples below rely on being recomputed before anything is displayed in the 3D view. In the examples, this is done manually with `ActiveDocument.recompute()` but in more complex scenarios you need to decide where to recompute either the whole document or the FeaturePython object.
 
@@ -178,11 +178,11 @@ This example produces a number of exception stack traces in the report view wind
 
 An explanation of `__getstate__` and `__setstate__` is in the forum thread [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
-## Available methods {#available_methods}
+## Available methods 
 
 See [FeaturePython methods](FeaturePython_methods.md) for the complete reference.
 
-## Tillgängliga egenskaper {#tillgängliga_egenskaper}
+## Tillgängliga egenskaper 
 
 Egenskaper är PythonFunktion objektens sanna byggstenar. Genom dem, så kan användaren interagera och ändra objektet. Efter att ett nytt PythonFunktion objekt har skapats i ditt dokument ( a=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), så kan du få en lista på de tillgängliga egenskaperna genom att skriva:
 
@@ -300,7 +300,7 @@ A complete list of property attributes can be seen in the [PropertyStandard C++ 
 prop = (value, lower, upper, stepsize)
 ```
 
-## Property Type {#property_type}
+## Property Type 
 
 By default the properties can be updated. It is possible to make the properties read-only, for instance in the case one wants to show the result of a method. It is also possible to hide the property. The property type can be set using
 
@@ -340,7 +340,7 @@ You can find these different property types defined in the [source code C++ head
 
 <div class="mw-translate-fuzzy">
 
-## Andra mer komplexa exempel {#andra_mer_komplexa_exempel}
+## Andra mer komplexa exempel 
 
 Detta exempel använder sig av [Del Modulen](Part_Workbench/sv.md) för att skapa en oktahedron, sedan skapas dess coin representation med pivy.
 
@@ -549,7 +549,7 @@ ViewProviderOctahedron(a.ViewObject)
 
 <div class="mw-translate-fuzzy">
 
-## Göra objekt valbara {#göra_objekt_valbara}
+## Göra objekt valbara 
 
 Om du vill göra ditt objekt valbart, eller åtminstone en del av den, genom att klicka på den i vyn, så måste du inkludera dess geometri inuti en SoFCSelection nod. Om ditt objekt har en komplex representation, med widgetar, annoteringar, etc, så kanske du bara vill inkludera en del av den i en SoFCSelection. Allt som är en SoFCSelection skannas konstant av FreeCAD för att detektera val/förval, så det är vettigt att inte försöka överbelasta den med onödig skanning. Detta är vad du skulle göra för att inkludera en self.face från det ovan visade exemplet:
 
@@ -655,7 +655,7 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
-## Arbeta med enkla former {#arbeta_med_enkla_former}
+## Arbeta med enkla former 
 
 Om ditt parametriska objektbara resulterar i en form, så behöver du inte använda ett visarobjekt. Formen kommer att visas med hjälp av FreeCAD\'s standard form representation:
 
@@ -717,7 +717,7 @@ ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
 
-## Scenegraph Structure {#scenegraph_structure}
+## Scenegraph Structure 
 
 You may have noticed that the examples above construct their scenegraphs in slightly different ways. Some use `obj.addDisplayMode(node, "modename")` while others use `obj.SwitchNode.getChild(x).addChild(y)`.
 

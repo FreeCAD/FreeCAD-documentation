@@ -38,7 +38,7 @@ Descarga el instalador **graphviz-2.xx** de la página [Graphviz Download page](
 Puedes instalar graphviz usando [Homebrew](https://brew.sh/). (Mientras instalas Homebrew, no te pongas nervioso, si MacOS te pide que instales actualizaciones, por ejemplo, para las herramientas de línea de comandos de Xcode. Estas actualizaciones se realizan posteriormente por el proceso de instalación). 
 ```python
 brew install graphviz
-``` Esto instala los binarios de graphviz en /usr/local/bin. FreeCAD buscará allí por sí mismo. Si el programa no se encuentra allí se le pide que introduzca la ruta. Desgraciadamente no podemos navegar directamente hasta allí desde el diálogo de archivos que aparece desde {{MenuCommand|Herramientas → Gráfico dependencia...}}. Cuando te sale el diálogo de selección de archivos tienes dos posibilidades: Puedes utilizar la combinación de teclas Cmd+Shift+. que te mostrará todos los elementos ocultos. O bien utilizar las teclas Cmd+Shift+G para obtener un campo de entrada para la ruta. Entrar 
+``` Esto instala los binarios de graphviz en /usr/local/bin. FreeCAD buscará allí por sí mismo. Si el programa no se encuentra allí se le pide que introduzca la ruta. Desgraciadamente no podemos navegar directamente hasta allí desde el diálogo de archivos que aparece desde **Herramientas → Gráfico dependencia...**. Cuando te sale el diálogo de selección de archivos tienes dos posibilidades: Puedes utilizar la combinación de teclas Cmd+Shift+. que te mostrará todos los elementos ocultos. O bien utilizar las teclas Cmd+Shift+G para obtener un campo de entrada para la ruta. Entrar 
 ```python
 /usr/local/bin
 ``` y confirmar el campo de entrada y el diálogo de selección de archivos.
@@ -63,7 +63,7 @@ dot is /usr/local/bin/dot
 
 ## Utilización
 
-1.  Seleccione la opción {{MenuCommand|Hierramentas → <img src="images/Std_DependencyGraph.svg" width=16px> Gráfico dependencia...}} en el menú.
+1.  Seleccione la opción **Hierramentas → <img src="images/Std_DependencyGraph.svg" width=16px> Gráfico dependencia...** en el menú.
 2.  Se abre una nueva pestaña titulada **Gráfico dependencia** en la [Área de vista principal](Main_view_area/es.md).
 3.  Utilice la rueda de desplazamiento del ratón para acercarse o alejarse.
 4.  Utiliza los deslizadores de la parte inferior y de la derecha de la pantalla para desplazar la vista. Alternativamente ({{Version/es|0.19}}) mantenga pulsado el botón izquierdo del ratón y mueva el ratón.
@@ -73,11 +73,11 @@ dot is /usr/local/bin/dot
 Puede guardar un gráfico dependencia:
 
 1.  Asegúrese de que la ficha del gráfico dependencia está en primer plano.
-2.  Seleccione la opción {{MenuCommand|Archivo → [Guardar](Std_Save/es.md)}} o {{MenuCommand|Archivo → [Guardar como](Std_SaveAs.md)}} del menú.
+2.  Seleccione la opción **Archivo → [Guardar](Std_Save/es.md)** o **Archivo → [Guardar como](Std_SaveAs.md)** del menú.
 3.  Introduzca un nombre de archivo y seleccione el tipo de archivo (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg o \*.pdf).
 4.  Pulse el botón **Guardar**.
 
-## Principios generales {#principios_generales}
+## Principios generales 
 
 
 <div class="mw-translate-fuzzy">

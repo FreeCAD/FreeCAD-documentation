@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Selectați sistemul de operare {#selectați_sistemul_de_operare}
+## Selectați sistemul de operare 
 
 FreeCAD este cu adevarat o aplicație multi-platformă, dezvoltată folosind renumitul pachet [Qt](http://en.wikipedia.org/wiki/Qt_(framework)). Asta inseamna ca FreeCAD arata si se comporta la fel in Windows, Linux si Mac. Totusi, procedura de instalare difera usor pentru fiecare sistem de operare. Selectati mai jos sistemul de operare pentru mai multe detalii despre procedura de instalare.
 
@@ -29,11 +29,11 @@ FreeCAD este cu adevarat o aplicație multi-platformă, dezvoltată folosind ren
 
 </div>
 
-# Help files {#help_files}
+# Help files 
 
 The offline documentation is not shipped with all installers, but it is available as a separate package. See the [Installing Helpfile](Installing_Helpfile.md) page for more information.
 
-# External workbenches {#external_workbenches}
+# External workbenches 
 
 
 <div class="mw-translate-fuzzy">
@@ -46,7 +46,7 @@ The offline documentation is not shipped with all installers, but it is availabl
 
 <div class="mw-translate-fuzzy">
 
-## Software extern susținut de FreeCAD {#software_extern_susținut_de_freecad}
+## Software extern susținut de FreeCAD 
 
 FreeCAD suportă o mulțime de pachete software externe din cutie. Aceasta înseamnă că trebuie să instalați software-ul și acesta va fi disponibil automat, data viitoare când îl porniți. Nu este nevoie să-l recompilați. Această secțiune își propune să furnizeze o listă a tuturor acestor pachete software, împreună cu unele informații despre locul în care este folosit în FreeCAD și unde le puteți lua.
 
@@ -105,14 +105,14 @@ Programatorul Solid 3D CAD Modeller este un alt software CAD, bazat pe Geometrie
 
 [OpenSCAD](https://www.openscad.org) is a solid 3D modeller. The [OpenSCAD Workbench](OpenSCAD_Workbench.md) depends on this software and the [Mesh Workbench](Mesh_Workbench.md) uses it for its Boolean tools. It is also required for the import of SCAD files with the [Std Import](Std_Import.md) tool.
 
-## File formats {#file_formats}
+## File formats 
 
 All software in this section will be used by the [Std Import](Std_Import.md) or [Std Export](Std_Export.md) tools.
 
 
 <div class="mw-translate-fuzzy">
 
-### CAD Exchanger {#cad_exchanger}
+### CAD Exchanger 
 
 O aplicație de tip proprietate, cu sursă închisă, pentru schimbarea diferitelor formate de fișiere folosite în CAD. Puteți să-l utilizați pentru a converti proprietăți, formate proprietar într-un format accesibil prin FreeCAD. Pagina de pornire se află la adresa <https://cadexchanger.com/> unde puteți descărca o versiune de evaluare sau puteți achiziționa o licență pentru aplicație.
 
@@ -124,7 +124,7 @@ O aplicație de tip proprietate, cu sursă închisă, pentru schimbarea diferite
 
 <div class="mw-translate-fuzzy">
 
-### Importator DXF {#importator_dxf}
+### Importator DXF 
 
 FreeCAD are un importator și exportator nativ pentru fișierele DXF, programate în C ++. În prezent, acest importator nu implementează toate caracteristicile formatul DXF. Dacă vă bazați pe o caracteristică care nu este încă implementată, activați opțiunea {{MenuCommand | Edit-> Preferences-> Import-Export}} utilizând importatorul / exportatorul bazat pe python mai vechi. Apoi, puteți alege să lăsați FreeCAD să descarce automat fișierele necesare sau să le apucați de la <https://github.com/yorikvanhavre/Draft-dxf-importer>. Importatorul / exportatorul ales este folosit prin selectarea {{MenuCommand | File-> Import}} sau {{MenuCommand | File-> Export}} si alegerea formatului fisierului {{MenuCommand | AutoDesk DXF 2D}}.
 
@@ -156,7 +156,7 @@ Support for [LibreDWG](https://www.gnu.org/software/libredwg) is still experimen
 
 <div class="mw-translate-fuzzy">
 
-### ODA File Converter {#oda_file_converter}
+### ODA File Converter 
 
 Convertorul de fișiere ODA este o aplicație proprietară, închisă, binară și disponibilă în mod gratuit pentru a importa și a exporta formate de fișiere DWG și DXF. În FreeCAD se poate utiliza din meniurile {{MenuCommand | File-> Import}} și {{MenuCommand | File-> Export}} atunci când selectați tipul de fișier {{MenuCommand | AutoDesk DWG 2D}}. Se poate descărca de la <https://www.opendesign.com/guestfiles/oda_file_converter>.
 
@@ -199,14 +199,14 @@ POVRay este un cunoscut raytracer care poate face imagini fotorealiste. Acesta e
 
 [POV-Ray](https://www.povray.org) is a well-known ray-tracer which can render photo-realistic images. It is one of two render engines currently supported by the [Raytracing Workbench](Raytracing_Workbench.md). See the [POV-Ray](POV-Ray.md) page for more information and installation instructions.
 
-## Finite element {#finite_element}
+## Finite element 
 
 
 <div class="mw-translate-fuzzy">
 
 ### CalculiX
 
-CalculiX este o suită de două pachete de elemente finite. One, CalculiX GraphiX sau calculix-cgx, este un interfață GUI pentru a afișa rezultatele celui de-al doilea pachet, CalculiX CrunchiX, sau calculix-ccx, un solver FEM. Numai acesta din urmă este susținut de FreeCAD. Acesta poate fi accesat din [FEM Workbench](FEM_Workbench.md) prin {{MenuCommand|Solve-> Solver CalculiX}}. Există un solver standard și experimental susținut de FreeCAD. CalculiX poate fi descărcat de la <http://calculix.de>
+CalculiX este o suită de două pachete de elemente finite. One, CalculiX GraphiX sau calculix-cgx, este un interfață GUI pentru a afișa rezultatele celui de-al doilea pachet, CalculiX CrunchiX, sau calculix-ccx, un solver FEM. Numai acesta din urmă este susținut de FreeCAD. Acesta poate fi accesat din [FEM Workbench](FEM_Workbench.md) prin **Solve-> Solver CalculiX**. Există un solver standard și experimental susținut de FreeCAD. CalculiX poate fi descărcat de la <http://calculix.de>
 
 
 </div>
@@ -218,7 +218,7 @@ CalculiX este o suită de două pachete de elemente finite. One, CalculiX Graphi
 
 ### Gmsh
 
-Un generator automat 3D de elemente finite. Acesta poate fi folosit în FreeCAD din [FEM Workbench](FEM_Workbench.md) prin {{MenuCommand|Mesh-> FEM mesh form from gmsh}}. Pagina de pornire a gmsh este la <http://www.geuz.org/gmsh>
+Un generator automat 3D de elemente finite. Acesta poate fi folosit în FreeCAD din [FEM Workbench](FEM_Workbench.md) prin **Mesh-> FEM mesh form from gmsh**. Pagina de pornire a gmsh este la <http://www.geuz.org/gmsh>
 
 
 </div>
@@ -230,7 +230,7 @@ Un generator automat 3D de elemente finite. Acesta poate fi folosit în FreeCAD 
 
 ### Elmer
 
-Elmer este un software de simulare multifizic, care a fost deschis din 2005. În FreeCAD, modulele Grid și Solver pot fi utilizate de către [FEM Workbench](FEM_Workbench.md) prin {{MenuCommand|Solve->Solver Elmer}}. Pagina de start a proiectelor este la <https://www.elmerfem.org> și poate fi descărcată de la GitHub la <https://github.com/ElmerCSC/elmerfem/releases>.
+Elmer este un software de simulare multifizic, care a fost deschis din 2005. În FreeCAD, modulele Grid și Solver pot fi utilizate de către [FEM Workbench](FEM_Workbench.md) prin **Solve->Solver Elmer**. Pagina de start a proiectelor este la <https://www.elmerfem.org> și poate fi descărcată de la GitHub la <https://github.com/ElmerCSC/elmerfem/releases>.
 
 
 </div>
@@ -242,7 +242,7 @@ Elmer este un software de simulare multifizic, care a fost deschis din 2005. În
 
 ### FEniCS
 
-FEniCS este o platformă de calcul pentru rezolvarea ecuațiilor diferențiale cu derivate parțiale (PDE), care sunt utilizate pe scară largă în rezolvarea problemelor FEM. Ca atare, acesta poate fi utilizat de [FEM Workbench](FEM_Workbench.md). FreeCAD poate importa și exporta rețelele FEniCS prin {{MenuCommand|File-> Import}} și {{MenuCommand | File-> Export}} selectând formatul de fișier {{MenuCommand|FEM mesh fenics}}. Pagina de pornire a FEniCS este la <https://fenicsproject.org>.
+FEniCS este o platformă de calcul pentru rezolvarea ecuațiilor diferențiale cu derivate parțiale (PDE), care sunt utilizate pe scară largă în rezolvarea problemelor FEM. Ca atare, acesta poate fi utilizat de [FEM Workbench](FEM_Workbench.md). FreeCAD poate importa și exporta rețelele FEniCS prin **File-> Import** și {{MenuCommand | File-> Export}} selectând formatul de fișier **FEM mesh fenics**. Pagina de pornire a FEniCS este la <https://fenicsproject.org>.
 
 
 </div>
@@ -254,7 +254,7 @@ FEniCS este o platformă de calcul pentru rezolvarea ecuațiilor diferențiale c
 
 ### Z88
 
-Z88 este un alt program FEM, care conține un mesher, solver și convertoare, care poate fi folosit de [FEM Workbench](FEM_Workbench.md) al FreeCAD. Acesta poate fi accesat prin {{MenuCommand|Solve-Solver Z88}}. Z88 distribuie mai multe pachete, toate disponibile în mod liber, dar sunt surse închise. Cu toate acestea, Z88OS, publicat sub licență open source, este ceea ce este necesară în FreeCAD. Pagina principală este la <https://en.z88.de/>. Z88OS este, de asemenea, găzduit pe GitHub la <https://github.com/LSCAD/Z88OS> dacă doriți să îl compilați singur.
+Z88 este un alt program FEM, care conține un mesher, solver și convertoare, care poate fi folosit de [FEM Workbench](FEM_Workbench.md) al FreeCAD. Acesta poate fi accesat prin **Solve-Solver Z88**. Z88 distribuie mai multe pachete, toate disponibile în mod liber, dar sunt surse închise. Cu toate acestea, Z88OS, publicat sub licență open source, este ceea ce este necesară în FreeCAD. Pagina principală este la <https://en.z88.de/>. Z88OS este, de asemenea, găzduit pe GitHub la <https://github.com/LSCAD/Z88OS> dacă doriți să îl compilați singur.
 
 
 </div>
@@ -264,14 +264,14 @@ Z88 este un alt program FEM, care conține un mesher, solver și convertoare, ca
 
 <div class="mw-translate-fuzzy">
 
-O bibliotecă pentru exploatarea și manipularea câmpului (FOAM), care este necesară simulărilor de computational Fluid Dynamics (CFD). Ca atare, OpenFOAM este necesar de către [FEM Workbench](FEM_Workbench.md) al FreeCAD. Puteți accesa acest lucru prin intermediul submeniului {{MenuCommand|Model-> Fluid constraints}}. Proiectul se află la <https://openfoam.org>.
+O bibliotecă pentru exploatarea și manipularea câmpului (FOAM), care este necesară simulărilor de computational Fluid Dynamics (CFD). Ca atare, OpenFOAM este necesar de către [FEM Workbench](FEM_Workbench.md) al FreeCAD. Puteți accesa acest lucru prin intermediul submeniului **Model-> Fluid constraints**. Proiectul se află la <https://openfoam.org>.
 
 
 </div>
 
 [OpenFOAM](https://openfoam.org) is a large collection of libraries for computational fluid dynamics (CFD) simulations. OpenFOAM is used by the [Cfd](Cfd_Workbench.md) and [CfdOF](https://github.com/jaheyns/CfdOF) [external workbenches](external_workbenches.md).
 
-# Related pages {#related_pages}
+# Related pages 
 
 -   [Import Export](Import_Export.md)
 -   [Import Export Preferences](Import_Export_Preferences.md)

@@ -23,12 +23,12 @@ Comme indiqué ci-dessus, cet outil prend deux arguments - les deux, sont des po
 1.  Tout d\'abord, il est nécessaire de sélectionner deux points distincts. (**Remarque:** cela ne fonctionnera pas si, par exemple, vous essayez de sélectionner le point de départ et d\'arrivée de la même ligne droite; la sélection des points de départ et d\'arrivée d\'un arc produira un cercle fermé ou une ellipse mais contraindra l\'emplacement de la couture à être sur ce point).
 2.  La mise en évidence d\'un élément de dessin est obtenue en déplaçant la souris sur l\'élément et en cliquant sur le bouton gauche de la souris.
 3.  Il est également possible de mettre en évidence tous les éléments à l\'intérieur d\'un rectangle en cliquant et en faisant glisser. Lorsque vous faites glisser de gauche à droite (avec n\'importe quel mouvement vertical), seules les formes qui sont entièrement contenues dans le rectangle seront mises en surbrillance; dans l\'autre sens, toutes les formes qui se croisent avec le rectangle de sélection seront mises en évidence. Ceci peut être utilisé pour sélectionner uniquement les sommets sans sélectionner les arêtes, en faisant glisser un petit recangle autour de certains sommets de gauche à droite, tant qu\'il n\'y a pas d\'arêtes entièrement contenues dans le rectangle.
-4.  Un élément en surbrillance changera sa couleur en vert. (Cette couleur peut être personnalisée dans {{MenuCommand|Édition → Préférence → Affichage → Couleurs → Sélection}})
+4.  Un élément en surbrillance changera sa couleur en vert. (Cette couleur peut être personnalisée dans **Édition → Préférence → Affichage → Couleurs → Sélection**)
 5.  Les éléments suivants peuvent être mis en évidence en répétant les procédures ci-dessus. **Remarque:** il n\'est pas nécessaire de maintenir enfoncée une touche spéciale telle que **Ctrl** pour effectuer une sélection d\'éléments multiples dans un dessin.
 6.  Une fois que vous avez mis en évidence deux points, vous pouvez appeler la commande à l\'aide de plusieurs méthodes:
     -   En appuyant sur le bouton de contrainte **<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Sketcher Contrainte coïncidente](Sketcher_ConstrainCoincident/fr.md)** dans la barre d\'outils.
     -   Utilisation du raccourci clavier **C**.
-    -   Utilisation de l\'entrée {{MenuCommand|Sketch → Contraintes d'esquisse → Contrainte coïncidente}} dans le menu supérieur.
+    -   Utilisation de l\'entrée **Sketch → Contraintes d'esquisse → Contrainte coïncidente** dans le menu supérieur.
 
 
 **Resultat:**
@@ -40,7 +40,7 @@ la commande fera que les deux points deviendront *coïncidents* et seront rempla
 
 Pour que deux points coïncident, FreeCAD doit nécessairement déplacer un (ou les deux) des points d\'origine.
 
-## Alternatives à la contrainte de coïncidence {#alternatives_à_la_contrainte_de_coïncidence}
+## Alternatives à la contrainte de coïncidence 
 
 Les deux éléments contraints d\'une contrainte [Coincidente](Sketcher_ConstrainCoincident/fr.md) doivent être des points de départ ou des sommets de point finaux, ou des points centraux d\'arcs, de cercles ou d\'ellipses. Certaines combinaisons qui ne sont pas possibles avec une contrainte coïncidente peuvent être émulées à l\'aide d\'autres contraintes:
 

@@ -23,7 +23,7 @@ Acest instrument măsoară unghiul între două muchii drepte , două fațete pl
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

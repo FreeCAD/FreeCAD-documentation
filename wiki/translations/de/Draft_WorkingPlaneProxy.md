@@ -29,18 +29,18 @@ Dieser Befehl platziert ein Ebenen Proxy Objekt, ausgerichtet auf die aktuelle [
 <div class="mw-translate-fuzzy">
 
 1.  Stelle sicher, dass die [Arbeitsebene](Draft_SelectPlane/de.md) so eingestellt ist, wie Du willst.
-2.  Dann gehe zum Menü {{MenuCommand|Draft → Dienstprogramme → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Arbeitsebenen Proxy erstellen](Draft_WorkingPlaneProxy/de.md)}}.
+2.  Dann gehe zum Menü **Draft → Dienstprogramme → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Arbeitsebenen Proxy erstellen](Draft_WorkingPlaneProxy/de.md)**.
 
 
 </div>
 
-## Context menu {#context_menu}
+## Context menu 
 
 For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu:
 
--    {{MenuCommand|<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position}}: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
 
--    {{MenuCommand|<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state}}: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
 
 ## Notes
 

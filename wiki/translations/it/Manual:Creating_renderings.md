@@ -27,7 +27,7 @@ Dopo che POV-Ray o Luxrender sono installati, è necessario impostare il percors
 
 In questa schermata Preferenze si può anche impostare la dimensione desiderata dell\'immagine che si vuole produrre.
 
-### Rendering con PovRay {#rendering_con_povray}
+### Rendering con PovRay 
 
 Per la produrre il rendering con PovRay e LuxRender useremo il tavolo che abbiamo modellato nel capitolo [modellazione trdizionale](Manual:Traditional_modeling,_the_CSG_way/it.md).
 
@@ -69,7 +69,7 @@ Per la produrre il rendering con PovRay e LuxRender useremo il tavolo che abbiam
 
 ![](images/Exercise_raytracing_04.jpg )
 
-### Rendering con LuxRender {#rendering_con_luxrender}
+### Rendering con LuxRender 
 
 
 <div class="mw-translate-fuzzy">

@@ -16,7 +16,7 @@ Gli ambienti di lavoro contrassegnati con <img alt="" src=images/AddonManager.sv
 
 Ambienti contrassegnati con <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> non sono consigliati per le versioni recenti di FreeCAD. Questi sono obsoleti o non mantenuti o sostituiti da un ambiente più recente, o forse non funzionano con Python3 o con Qt5. Nella maggior parte dei casi dovrebbero essere evitati.
 
-## Ambienti di Assemblaggio {#ambienti_di_assemblaggio}
+## Ambienti di Assemblaggio 
 
 A partire da FreeCAD 0.19 non esiste un ambiente di lavoro di assemblaggio ufficiale. Tuttavia, sono stati creati o sviluppati diversi strumenti esterni per manipolare oggetti per la produzione di assiemi.
 
@@ -243,7 +243,7 @@ La tabella qui sotto è organizzata per argomenti, ma può essere riordinata cli
 
 \|}
 
-## Traduzione degli ambienti esterni {#traduzione_degli_ambienti_esterni}
+## Traduzione degli ambienti esterni 
 
 Per maggiori informazioni vedere la pagina wiki [Tradurre un ambiente esterno](Translating_an_external_workbench/it.md)
 

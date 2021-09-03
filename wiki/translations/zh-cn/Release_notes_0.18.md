@@ -30,14 +30,14 @@ FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Downloa
 ## 通用特性
 
 -   Redesigned Start center
--   The Document tree (Model tab) now offers 3 options for how all documents are displayed, with the option set from the menu {{MenuCommand|View → Document Tree}} :
+-   The Document tree (Model tab) now offers 3 options for how all documents are displayed, with the option set from the menu **View → Document Tree** :
     -   Single Document (Only display the currently active document)
     -   Multi Document (Display all documents as it used to be up to FreeCAD 0.17)
     -   Collapse/Expand (Expand the active document and collapse all others)
 -   When a task is active and requires user input, an icon showing a pencil now appears on the Tasks tab and disappears when the task is completed.
--   The 3D view now benefits from a new **[Navigation Cube](Navigation_Cube.md)** to quickly orientate the view. It also has a small menu to set the projection to orthographic or perspective, as well as to fit the content to the view. The placement of the navigation cube can be set in {{MenuCommand|Preferences → Display → 3D View}} and it can also be hidden.
+-   The 3D view now benefits from a new **[Navigation Cube](Navigation_Cube.md)** to quickly orientate the view. It also has a small menu to set the projection to orthographic or perspective, as well as to fit the content to the view. The placement of the navigation cube can be set in **Preferences → Display → 3D View** and it can also be hidden.
 -   Generic support for US Civil / Transportation Engineering units has been added. These units include ft, ft\^2, ft\^3, mph, and angles as degrees/minutes/seconds. These units allow for expression of feet in decimal form, as opposed to US Building, which forces fractions of inches.
--   It is now possible to specify a custom background image for FreeCAD\'s main window using the option [{{MenuCommand|Preferences → General → Enable tiled background}}](Preferences_Editor#General.md).
+-   It is now possible to specify a custom background image for FreeCAD\'s main window using the option [**Preferences → General → Enable tiled background**](Preferences_Editor#General.md).
 
 <File:Start> center 0.18 screenshot.jpg\|thumb\|left\|The redesigned Start center <File:FC018> Navigation Cube.png\|thumb\|left\|The navigation cube <File:FreeCAD> with background image.jpg\|thumb\|left\|FreeCAD with a custom background image
 
@@ -80,11 +80,11 @@ FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Downloa
 
 
 
-## FEM Workbench {#fem_workbench}
+## FEM Workbench 
 
 <img alt="The polished FEM material dialog" src=images/FEM-Material-dialog-018.png  style="width:300px;"> In 0.17 there where added tons of new features in FEM. Thus the main focus for FEM in 0.18 release of FreeCAD was not adding even more new features and tools, but make the existing ones more stable and fix as much as possible bugs. FEM got 470 commits during FreeCAD 0.18 development cycle [1](https://forum.freecadweb.org/viewtopic.php?f=10&t=13154&p=297292#p297110).
 
-### General Improvements on the code base {#general_improvements_on_the_code_base}
+### General Improvements on the code base 
 
 -   Tons of bug fixes.
 -   Code refactor and cleaning. Get rid of duplicate code.
@@ -116,12 +116,12 @@ The material handling was improved. It is now possible to use the global FreeCAD
 
 ## 路径工作台
 
-### General Improvements {#general_improvements}
+### General Improvements 
 
 -   Path can now correctly display gcode with ABC axis words
 -   Improvements to Tool editor -- Simplified edit for selective tool types
 
-### Job Improvements {#job_improvements}
+### Job Improvements 
 
 -   Jobs can now have multiple base objects
 -   Job container organisation has been improved
@@ -136,7 +136,7 @@ The material handling was improved. It is now possible to use the global FreeCAD
 -   RampEntry dressup now has a configurable start point
 -   PocketShape Operation can now \'use outline\'
 
-### Post Processors {#post_processors}
+### Post Processors 
 
 -   grbl\_post -- argument to suppress tool change commands
 -   grbl\_g81 post processor
@@ -150,9 +150,9 @@ The material handling was improved. It is now possible to use the global FreeCAD
 -   New **[Constrain Diameter](Sketcher_ConstrainDiameter.md)** tool added
 -   **DoF Finder** is a new utility to help find degrees of freedom. In the Solver messages widget in the Tasks panel, the traditional message *Under-constrained sketch with x degrees of freedom* now underlines the *x degrees* text in blue. Clicking on it will highlight in green, in the 3D view, the elements that are not fully constrained.
 -   **Sketcher Auto Remove Redundants** is a new checkbox in the Solver messages box. When enabled, it will prevent creation of redundant constraint when the user is sketching and applying constraints, and it will automatically delete the redundant constraints.
--   There is a new command to delete all constraints at once. It can be found in the menu {{MenuCommand|Sketch → Sketcher tools → Delete All Constraints}}.
--   New option in {{MenuCommand|Preferences → Sketcher → General → Hide base length units for supported unit systems}}. This hides the unit for dimensional constraints while in sketch editing mode.
--   Size of vertices (points) can now be set in {{MenuCommand|Preferences → Display → 3D View → Marker size}}.
+-   There is a new command to delete all constraints at once. It can be found in the menu **Sketch → Sketcher tools → Delete All Constraints**.
+-   New option in **Preferences → Sketcher → General → Hide base length units for supported unit systems**. This hides the unit for dimensional constraints while in sketch editing mode.
+-   Size of vertices (points) can now be set in **Preferences → Display → 3D View → Marker size**.
 -   New **[Move](Sketcher_Move.md)** command to move all selected geometry from the last selected point. It can be access under the Clone tool drop down.
 -   Added *Extended Information* checkbox to the Constraints list widget.
 
@@ -167,7 +167,7 @@ Relevant forum links:
 
 ## 曲面工作台
 
-## TechDraw Workbench {#techdraw_workbench}
+## TechDraw Workbench 
 
 The TechDraw Workbench received a number of additions and improvements for v0.18.
 
@@ -186,7 +186,7 @@ The TechDraw Workbench received a number of additions and improvements for v0.18
 -   keyboard zooming (Ctl+/-)
 -   support for DMS dimensions
 
-## Material Handling {#material_handling}
+## Material Handling 
 
 <img alt="A material card" src=images/Material-Card-018.png  style="width:300px;"> The material handling has been improved. It is now possible to create **material cards** for every material. The cards can contain all information, physical properties, architectural specification, web links, comments. etc. The cards are text files with the file suffix {{FileName|.FCMat}} and can be used for all workbenches of FreeCAD.
 

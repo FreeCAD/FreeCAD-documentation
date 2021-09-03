@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-### Prezentare generală {#prezentare_generală}
+### Prezentare generală 
 
 Acestea sunt biblioteci care nu sunt modificate în proiectul FreeCAD. Ele sunt practic utilizate ca o bibliotecă dinamică de legătură (\* .so sau \* .dll). Dacă este nevoie de schimbare, sau a wrapper class este necesar , atunci codul wrapper sau biblioteca modificată trebuie mutat în pachetul de bază FreeCAD. Bibliotecile folosite sunt:
 
@@ -242,7 +242,7 @@ Further information about Qt libraries and their programming documentation are a
 
 <div class="mw-translate-fuzzy">
 
-##### Shiboken and Pyside {#shiboken_and_pyside}
+##### Shiboken and Pyside 
 
 **Shiboken** (*Shi bō ken*, 死某剣)este generatorul de legare Python pe care îl utilizează Qt pentru Python pentru a crea modulul PySide, cu alte cuvinte, este sistemul pe care îl folosim pentru a expune API-ul Qt C ++ către Python.
 
@@ -382,7 +382,7 @@ For more information see [Ply homepage](https://www.dabeaz.com/ply/)
 
 <div class="mw-translate-fuzzy">
 
-#### Xerces-C++ {#xerces_c}
+#### Xerces-C++ 
 
 
 </div>
@@ -519,7 +519,7 @@ LibPack este un pachet convenabil cu toate bibliotecile de mai sus ambalate împ
 
 If you\'re working under Linux, you don\'t need the LibPack, as you can get the dependencies from your distribution\'s repositories as mentioned in the [compile on Linux](Compile_on_Linux.md) page.
 
-### FreeCAD 12.1.2 {#freecad_12.1.2}
+### FreeCAD 12.1.2 
 
 See the announcement in the forum: [New libpacks for Windows with Qt5.12, OCC7.3 and Python 3.6 by apeltauer](https://forum.freecadweb.org/viewtopic.php?f=4&t=35789)
 

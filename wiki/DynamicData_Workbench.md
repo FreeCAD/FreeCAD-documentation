@@ -24,7 +24,7 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For m
 -   Source code hosted on GitHub: [github.com](https://github.com/mwganson/DynamicData)
 -   Official complete [documentation](https://github.com/mwganson/DynamicData/blob/master/README.md)
 
-## External workbenches {#external_workbenches}
+## External workbenches 
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
 

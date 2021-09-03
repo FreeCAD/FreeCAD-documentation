@@ -32,7 +32,7 @@ Uwaga: Bieguny krzywej złożonej nie mogą być mieszane z innymi typami obiekt
 
 **Uwaga:** Narzędzie wiązania może być również uruchomione bez wcześniejszego zaznaczenia obiektu. Domyślnie polecenie będzie w trybie kontynuacji, aby utworzyć nowe wiązanie. Naciśnij prawy przycisk myszy lub klawisz **Esc** raz, aby zakończyć wykonywanie polecenia.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Diameter', ArcOrCircle, App.Units.Quantity('123.0 mm')))```

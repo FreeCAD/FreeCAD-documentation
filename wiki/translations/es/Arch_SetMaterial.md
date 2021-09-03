@@ -24,7 +24,7 @@ Las herramientas Material permiten agregar [materials](Material/es.md) al docume
 
 <div class="mw-translate-fuzzy">
 
-## Como utilizar {#como_utilizar}
+## Como utilizar 
 
 
 </div>
@@ -63,7 +63,7 @@ Las herramientas Material permiten agregar [materials](Material/es.md) al docume
 
 </div>
 
-## Relation to IFC {#relation_to_ifc}
+## Relation to IFC 
 
 This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 

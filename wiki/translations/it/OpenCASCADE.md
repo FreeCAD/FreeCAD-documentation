@@ -24,7 +24,7 @@ OpenCASCADE is a core component of FreeCAD, so if you get FreeCAD from one of th
 
 However, if you would like to develop applications that use OCCT, or would like to contribute C++ code to FreeCAD, then you need to install the development files of OCCT. In this case, the procedure is explained in [Compiling](Compiling.md) for each of the main systems, Linux, Windows, and MacOS.
 
-## Community edition {#community_edition}
+## Community edition 
 
 A \"community edition\" of OpenCASCADE, abbreviated OCE, was released in 2011, based on the official OpenCASCADE sources (OCCT) of version 6.5. In theory the community edition OCE should be compatible with the main version OCCT in most aspects, while having some additional code contributed by the community.
 
@@ -38,7 +38,7 @@ The Cas.CADE geometric kernel was originally closed source, but it became open s
 
 OpenCASCADE version 6.6 and earlier were governed by its own \"OCCT public license\", which made it not entirely \"free software\". This was solved with the release of OCCT 6.7 (2013), when it adopted the LGPL2 license.
 
-## OCCT geometric concepts {#occt_geometric_concepts}
+## OCCT geometric concepts 
 
 In OpenCascade terminology, we distinguish between geometric primitives and topological shapes. A geometric primitive can be a point, a line, a circle, a plane, etc. or even some more complex types like a B-Spline curve or a surface. A shape can be a vertex, an edge, a wire, a face, a solid or a compound of other shapes. The geometric primitives are not made to be directly displayed on the 3D scene, but rather to be used as building geometry for shapes. For example, an edge can be constructed from a line or from a portion of a circle.
 

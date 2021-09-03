@@ -18,9 +18,9 @@ L\'utilisation est assez simple :
 3.  Sélectionnez l\'<img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [atelier Fasteners](Fasteners_Workbench/fr.md) dans le [menu déroulant des ateliers](Std_Workbench/fr#Dans_le_menu_d.C3.A9roulant.md).
 4.  La [barre d\'outils](#Barre_d.27outils.md) appartenant à l\'atelier sera affichée.
 
-Utilisation simple : En cliquant sur l\'un des boutons de fixation, la fixation en question sera créée à l\'origine avec des propriétés par défaut. Pour modifier les propriétés d\'une fixation, sélectionnez-la et allez dans l\'onglet {{MenuCommand|Data}} de l\'[Éditeur de propriétés](Property_editor/fr.md).
+Utilisation simple : En cliquant sur l\'un des boutons de fixation, la fixation en question sera créée à l\'origine avec des propriétés par défaut. Pour modifier les propriétés d\'une fixation, sélectionnez-la et allez dans l\'onglet **Data** de l\'[Éditeur de propriétés](Property_editor/fr.md).
 
-## Problèmes connus {#problèmes_connus}
+## Problèmes connus 
 
 -   D\'autres problèmes/demandes de fonctionnalités sont disponibles dans la [file d\'attente GitHub des problèmes de l\'atelier Fasteners](https://github.com/shaise/FreeCAD_FastenersWB/issues?utf8=✓&q=is%3Aissue).
 
@@ -36,9 +36,9 @@ Utilisation simple : En cliquant sur l\'un des boutons de fixation, la fixation 
 
 Cet atelier peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
 
-## Barre d\'outils {#barre_doutils}
+## Barre d\'outils 
 
-L\'atelier Fasteners comporte deux barres d\'outils. La barre d\'outils {{MenuCommand|FS Screws}} contient de nombreux outils. Si nécessaire, elle peut être étendue en appuyant sur le bouton **&gt;&gt;**.
+L\'atelier Fasteners comporte deux barres d\'outils. La barre d\'outils **FS Screws** contient de nombreux outils. Si nécessaire, elle peut être étendue en appuyant sur le bouton **&gt;&gt;**.
 
 ![](images/Fasteners_toolbars.png ) *Les barres d'outils de l'atelier Fasteners*
 
@@ -80,7 +80,7 @@ Pour une description détaillée, voir [ici](http://theseger.com/projects/2015/0
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Change fastener parameters](Fasteners_ChangeParameters.md): change parameters of selected fasteners.
 
-### Fasteners PEM and PCB {#fasteners_pem_and_pcb}
+### Fasteners PEM and PCB 
 
 -   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> **PEM** Self clinching metric nut.
 
@@ -92,7 +92,7 @@ Pour une description détaillée, voir [ici](http://theseger.com/projects/2015/0
 
 -   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **PCB** Metric spacer.
 
-### Fasteners DIN, EN and ISO {#fasteners_din_en_and_iso}
+### Fasteners DIN, EN and ISO 
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Hexagon head screw. *Product grades A and B.*
@@ -191,7 +191,7 @@ Pour une description détaillée, voir [ici](http://theseger.com/projects/2015/0
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Nyloc nut.
 
-### Fasteners ASME {#fasteners_asme}
+### Fasteners ASME 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Hex head screw.
 
@@ -229,7 +229,7 @@ Pour une description détaillée, voir [ici](http://theseger.com/projects/2015/0
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN washer, wide series.
 
-### Fasteners miscellaneous {#fasteners_miscellaneous}
+### Fasteners miscellaneous 
 
 -   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Arbitrary length threaded rod for tapping holes (metric).
 
@@ -250,7 +250,7 @@ Pour une description détaillée, voir [ici](http://theseger.com/projects/2015/0
 -   <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:32px;"> 
 **Icône Fasteners**
 
-## Liens relatifs à l\'atelier {#liens_relatifs_à_latelier}
+## Liens relatifs à l\'atelier 
 
 -   Wiki de l\'atelier : <http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/>
 -   Wiki FreeCAD : <https://www.freecadweb.org/wiki/Fasteners_Workbench>
@@ -261,7 +261,7 @@ Pour une description détaillée, voir [ici](http://theseger.com/projects/2015/0
 -   Rapporter les bugs : SVP rapporter les bugs sur <https://github.com/shaise/FreeCAD_FastenersWB/issues>
 -   Installation : <http://theseger.com/projects/2015/06/fasteners-workbench-for-freecad/>
 
-## Autres liens {#autres_liens}
+## Autres liens 
 
 -   [Génération de trous pour vis à tête fraisée dans freecad (en)](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/)
 -   [BOLTS](https://github.com/jreinhardt/BOLTS): une librairie ouverte pour les spécifications techniques

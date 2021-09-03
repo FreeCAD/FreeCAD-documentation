@@ -14,7 +14,7 @@ Ten poradnik pokazuje, jak dostosować paski narzędzi do własnych potrzeb. Nar
 
 **1.** Znajdź menu Dostosuj
 
--   Kliknij w {{MenuCommand|Menu główne → Narzędzia → Dostosuj}},
+-   Kliknij w **Menu główne → Narzędzia → Dostosuj**,
 
 <img alt="Dostosuj" src=images/CustomizeToolBar_01.png  style="width:640px;"> 
 

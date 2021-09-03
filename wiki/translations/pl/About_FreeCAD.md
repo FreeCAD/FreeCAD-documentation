@@ -16,7 +16,7 @@ FreeCAD jest również [systemem wieloplatformowym](http://en.wikipedia.org/wiki
 
 Aby uzyskać więcej informacji na temat możliwości FreeCAD, spójrz na [listę funkcji](feature_list/pl.md), [najnowsze notatki o wydaniu](Feature_list#Release_notes/pl.md), oraz na artykuły [rozpoczęcie pracy](getting_started.md), lub zobacz więcej [FreeCAD w akcji - zrzuty ekranu](screenshots/pl.md).
 
-### O projekcie FreeCAD {#o_projekcie_freecad}
+### O projekcie FreeCAD 
 
 Projekt FreeCAD rozpoczęto już w **2001** roku, jak opisano na stronie [historia](history/pl.md).
 

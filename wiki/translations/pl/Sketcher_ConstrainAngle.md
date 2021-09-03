@@ -27,16 +27,16 @@ Aby zastosować wiązanie kąta, należy wykonać następujące czynności:
 2.  Wywołaj wiązanie za pomocą kilku metod:
     -   Wciskając przycisk **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Wiązanie kąta](Sketcher_ConstrainAngle.md)** na pasku narzędzi.
     -   Używając skrótu klawiaturowego **A**. *(**A** jest od **A**ngle)*.
-    -   Używając z menu głównego {{MenuCommand|Szkicownik → Wiązania szkicownika → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Wiązanie kąta}}
+    -   Używając z menu głównego **Szkicownik → Wiązania szkicownika → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Wiązanie kąta**
 3.  Zostanie wywołane okno dialogowe edycji danych.
 4.  Zmodyfikuj wartość kąta, jeśli to konieczne. Kąt może być wprowadzony jako wyrażenie, które zostanie obliczone i wynik zostanie zapisany.
 5.  Kliknij **OK**.
 
 Jak w przypadku każdego wiązania odniesienia, istnieje możliwość późniejszej zmiany wartości kąta poprzez dwukrotne kliknięcie na pozycji wiązania w liście wiązań lub oknie widoku 3d. Wprowadzenie ujemnej wartości spowoduje odwrócenie kierunku kąta.
 
-## Tryby wiązania {#tryby_wiązania}
+## Tryby wiązania 
 
-### Kąt nachylenia linii {#kąt_nachylenia_linii}
+### Kąt nachylenia linii 
 
 **Wybór zaakceptowany:** linia
 
@@ -44,7 +44,7 @@ Jak w przypadku każdego wiązania odniesienia, istnieje możliwość późniejs
 
 Wiązanie to określa kąt biegunowy kierunku linii. Jest to kąt pomiędzy linią a osią X szkicu.
 
-### Rozpiętość łuku *(v0.15)* {#rozpiętość_łuku_v0.15}
+### Rozpiętość łuku *(v0.15)* 
 
 **Wybór zaakceptowany:** łuk koła
 
@@ -52,7 +52,7 @@ Wiązanie to określa kąt biegunowy kierunku linii. Jest to kąt pomiędzy lini
 
 W tym trybie wiązanie ustala rozpiętość kątową łuku koła.
 
-### Pomiędzy liniami {#pomiędzy_liniami}
+### Pomiędzy liniami 
 
 **Wybór zaakceptowany:** linia + linia
 
@@ -60,7 +60,7 @@ W tym trybie wiązanie ustala rozpiętość kątową łuku koła.
 
 W tym trybie wiązanie ustawia kąt pomiędzy dwoma liniami. Nie jest wymagane, aby te linie się przecinały.
 
-### Między krzywymi na przecięciu *(kąt w punkcie) (v0.15)* {#między_krzywymi_na_przecięciu_kąt_w_punkcie_v0.15}
+### Między krzywymi na przecięciu *(kąt w punkcie) (v0.15)* 
 
 **Wybór zaakceptowany:** dowolna linia / krzywa + dowolna linia / krzywa + dowolny punkt
 
@@ -70,7 +70,7 @@ W tym trybie, kąt pomiędzy dwoma krzywymi jest związany w punkcie ich przeci�
 
 Aby wiązanie działało prawidłowo, punkt musi znajdować się na obu krzywych. Tak więc, w miarę wywoływania wiązania, punkt będzie automatycznie powiązany z obiema krzywymi *([wiązanie pomocnicze](Sketcher_helper_constraint.md) zostanie dodane, jeśli będzie to konieczne)*, a kąt pomiędzy krzywymi będzie powiązany w tym punkcie. Te [wiązania pomocnicze](Sketcher_helper_constraint.md) są zwykłymi wiązaniami regularnymi. Mogą być dodane ręcznie lub usunięte. Na przykładowym rysunku powyżej nie ma żadnych wiązań pomocniczych, ponieważ wybrany punkt jest już punktem przecięcia krzywych.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Ograniczenie kąta może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli Pyton za pomocą następujących narzędzi: 
 ```python

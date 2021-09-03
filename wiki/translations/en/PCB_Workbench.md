@@ -36,11 +36,11 @@ Drop down menu
 
 ## Installation
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 **Prerequisites**
 
@@ -90,7 +90,7 @@ Security → Edit → Users and mark all checkboxes under \'Allow\' option.
 
 **MacOS Installation Instructions** (From GitHub)
 
-## Links to FreeCAD-PCB WB {#links_to_freecad_pcb_wb}
+## Links to FreeCAD-PCB WB 
 
 -   Workbench Wiki: [External Workbenches](https://wiki.freecadweb.org/External_workbenches)
 -   FreeCAD Wiki: [Wiki Main Page](https://wiki.freecadweb.org/Main_Page)
@@ -100,7 +100,7 @@ Security → Edit → Users and mark all checkboxes under \'Allow\' option.
 -   Files: [PCB library](https://github.com/marmni/FreeCAD-PCB-library)
 -   Report bugs: Please report bugs at <https://github.com/marmni/FreeCAD-PCB/issues>
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [EaglePCB on sourceforge](https://sourceforge.net/projects/eaglepcb2freecad/)
 -   [Macros recipes](Macros_recipes.md)

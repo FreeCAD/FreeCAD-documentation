@@ -19,25 +19,25 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 -   A compatible version of FreeCAD designated in the tutorial overview.
 
-    :   Use the {{MenuCommand|Help → About FreeCAD}} to see the version of FreeCAD installed
+    :   Use the **Help → About FreeCAD** to see the version of FreeCAD installed
 -   No external software is needed for loading the example file, viewing the mesh and geometry as well as for visualizing the results.
 -   For rerunning the FEA the solver software CalculiX has to be installed on your computer. Probably the solver has been installed together with FreeCAD already. If the solver CalculiX is not installed see [FEM Install](FEM_Install.md).
 
-## Set up the example file {#set_up_the_example_file}
+## Set up the example file 
 
-### Load Start Workbench {#load_start_workbench}
+### Load Start Workbench 
 
 -   Start FreeCAD
 -   The Start Workbench should be loaded
 
-### Load the example file {#load_the_example_file}
+### Load the example file 
 
 -   Go to the example projects and click on \"Load an FEM analysis example\"
 -   If due to further operations some geometry, constraints or the results are broken or deleted just repeat the steps above.
 
 <img alt="" src=images/FEM_example01_pic01.jpg  style="width:700px;">
 
-### Activate the analysis container {#activate_the_analysis_container}
+### Activate the analysis container 
 
 -   To work with an analysis the analysis has to be activated.
 -   In the [tree view](Tree_view.md), right click on the <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> 
@@ -46,7 +46,7 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 <img alt="" src=images/FEM_example01_pic02.jpg  style="width:700px;">
 
-### Analysis container and its objects {#analysis_container_and_its_objects}
+### Analysis container and its objects 
 
 -   If the analysis is activated FreeCAD itself will change the current workbench to FEM.
 -   There are at least the 5 objects needed to make a static mechanical analysis.
@@ -60,7 +60,7 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 -   Since in the example here the results are included as well there is a sixth object, the results <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;">, elaborated on in the next paragraph.
 
-### Visualizing Results {#visualizing_results}
+### Visualizing Results 
 
 1.  Be sure the analysis is activated.
 2.  Be sure the analysis still contains the result object, if not just reload the example file.
@@ -72,12 +72,12 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 <img alt="" src=images/FEM_example01_pic03.jpg  style="width:400px;">
 
-### Purging Results {#purging_results}
+### Purging Results 
 
 1.  Be sure the analysis is activated.
 2.  To remove the results: select in the icon toolbar the <img alt="" src=images/FEM_ResultsPurge.svg  style="width:24px;"> [Purge results](FEM_ResultsPurge.md) button.
 
-### Running the FEA {#running_the_fea}
+### Running the FEA 
 
 -   In the [tree view](Tree_view.md) double click on the solver object <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
 -   In the [task panel](Task_panel.md) of the solver object make sure static analysis is selected.
@@ -91,13 +91,13 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 <img alt="" src=images/FEM_example01_pic04.jpg  style="width:400px;">
 
-### Running the FEA the fast Way {#running_the_fea_the_fast_way}
+### Running the FEA the fast Way 
 
 -   In tree view select the solver object <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> of the analysis <img alt="" src=images/FEM_Analysis.svg  style="width:24px;">.
 -   In the icon toolbar click on <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Quick Analysis](FEM_SolverRun.md).
 -   The Calculix input file will be written, CalculiX will be triggered and the result object should be created.
 
-### Changing Load Direction and Load Value {#changing_load_direction_and_load_value}
+### Changing Load Direction and Load Value 
 
 -   In the [tree view](Tree_view.md) select the FEM mesh object <img alt="" src=images/FEM_FEMMesh.svg  style="width:24px;"> and press the **Space** key.
     -   **Result:** The visibility of the FEM mesh will be turned off. The geometrical model is still visible.
@@ -118,7 +118,7 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 <img alt="" src=images/FEM_example01_pic06.jpg  style="width:400px;">
 
-## What next? {#what_next}
+## What next? 
 
 -   We are now finished with the basic workflow for the [FEM Workbench](FEM_Workbench.md).
 -   You are now prepared to do the second [FEM tutorial](FEM_tutorial.md).

@@ -21,11 +21,11 @@ Las principales características del Assembly3 Ambiente de trabajo son
 
 [inicio](#top.md)
 
-### Barras de herramientas {#barras_de_herramientas}
+### Barras de herramientas 
 
 A partir de 2020, el ambiente de trabajo Assembly3 cuenta con las siguientes barras de herramientas.
 
-#### Barra de herramientas principal {#barra_de_herramientas_principal}
+#### Barra de herramientas principal 
 
 :   <img alt="" src=images/Assembly3_ToolbarMain.png  style="width:700px;">
 
@@ -114,7 +114,7 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 
 <div class="mw-translate-fuzzy">
 
-#### Barra de herramientas de restricciones principales {#barra_de_herramientas_de_restricciones_principales}
+#### Barra de herramientas de restricciones principales 
 
 :   <img alt="" src=images/Assembly3_ToolbarConstraints_1.jpg  style="width:700px;">
 
@@ -210,7 +210,7 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 
 <div class="mw-translate-fuzzy">
 
-#### Barras Herramienta de restricciones adicionales {#barras_herramienta_de_restricciones_adicionales}
+#### Barras Herramienta de restricciones adicionales 
 
 :   <img alt="" src=images/Assembly3_ToolbarConstraints_2.jpg  style="width:700px;">
 
@@ -307,7 +307,7 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 
 <div class="mw-translate-fuzzy">
 
-#### Barra Herramienta de navegación {#barra_herramienta_de_navegación}
+#### Barra Herramienta de navegación 
 
 :   <img alt="" src=images/Assembly3_ToolbarNavigation.jpg  style="width:100px;">
 
@@ -338,7 +338,7 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 
 <div class="mw-translate-fuzzy">
 
-#### Barra Herramienta de medición {#barra_herramienta_de_medición}
+#### Barra Herramienta de medición 
 
 :   <img alt="" src=images/Assembly3_ToolbarMeasurement.jpg  style="width:150px;">
 
@@ -469,7 +469,7 @@ Since the AppImage only works for Linux, for Windows users at the moment the onl
 
 ## Instrucción
 
-### Get Started {#get_started}
+### Get Started 
 
 There are many ways to create an assembly with Assembly3. Here is the most simple one you can do.
 
@@ -524,7 +524,7 @@ If you like you can move the **Locked** constraint upwards in the tree. Use the 
 
 [top](#top.md)
 
-### Add an Offset {#add_an_offset}
+### Add an Offset 
 
 Assembly3 does not offer Offset with the constaints in the way the [A2plus Workbench](A2plus_Workbench.md) or other CAD tools do. Instead it offers a more general and flexible system to add offsets translations but also angles.
 
@@ -546,7 +546,7 @@ Example:
 
 <div class="mw-translate-fuzzy">
 
-### Resolver un fallo de solucionador {#resolver_un_fallo_de_solucionador}
+### Resolver un fallo de solucionador 
 
 Esto sucede a menudo cuando las piezas están restringidas en exceso, es decir, más de 6 DOF están bloqueados.
 
@@ -559,7 +559,7 @@ Note: as Assembly3 tries to compensate for over-constraint parts behind the scen
 
 [top](#top.md)
 
-### Replace a part or rename a filename {#replace_a_part_or_rename_a_filename}
+### Replace a part or rename a filename 
 
 When a part is removed or when a filename changes, the assembly breaks, it can not longer be solved and the solver will issue the message \"Inconsistent constraints\". The solver marks invalid Elements and Constrains with a question mark in the tree.
 
@@ -600,7 +600,7 @@ One way to solve this is to just delete all invalid constraints and elements, im
 
 [top](#top.md)
 
-### Tips & Tricks {#tips_tricks}
+### Tips & Tricks 
 
 -   Using hierarchical assemblies helps in avoiding solver issues and keeping you model fluid. You can freeze a subassembly with one click and save CPU resources easily (use the context menu in the tree). When loading an assembly Assembly3 does not need to open external files for frozen subassemblies which keeps the tree compact.
 -   Is very helpful to make it a habit to name the elements and constraints. Use the **F2** key to do this quickly in the tree. You will find the tree sorting tools in the main toolbar very useful. An assembly with fully named constraints and elements is very easy to understand for other people or for oneself when looking at an older file.

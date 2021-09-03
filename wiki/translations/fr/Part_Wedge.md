@@ -16,7 +16,7 @@ Crée un objet Pyramide tronquée paramétrique. Par défaut, cette pyramide tro
 
 ## Utilisation
 
-### Dimensions et placement par défaut {#dimensions_et_placement_par_défaut}
+### Dimensions et placement par défaut 
 
 **Placement:** L'orientation par défaut place la base sur le plan XZ et la face supérieure se situe dans la direction de l\'axe Y. L\'angle de la base est située par défaut aux coordonnées d\'origine 0,0,0.
 
@@ -36,7 +36,7 @@ Crée un objet Pyramide tronquée paramétrique. Par défaut, cette pyramide tro
 
 ![](images/PartWedgeProperty.png ) 
 
-### Entrées paramétriques {#entrées_paramétriques}
+### Entrées paramétriques 
 
 +------------------------------------------------------------------+--------------------------------------------------------------------+
 | ![](images/PartWedgeProperty_Inputs.png ) | Utilisation du placement par défaut, les entrées disponibles sont: |
@@ -67,7 +67,7 @@ Crée un objet Pyramide tronquée paramétrique. Par défaut, cette pyramide tro
 |                                                                  |     : Dimension de la face du dessus selon l\'axe Z                |
 +------------------------------------------------------------------+--------------------------------------------------------------------+
 
-### Autres exemples de pyramides tronquées {#autres_exemples_de_pyramides_tronquées}
+### Autres exemples de pyramides tronquées 
 
 ![](images/Wedge_examples.png )
 

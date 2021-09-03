@@ -14,8 +14,8 @@ La commande **Affichage Supprimer les mesures** efface les mesures de la [vue 3D
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Visibilité → <img src="images/View_Measure_Clear_All.svg" width=16px> Supprimer les mesures}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Measure → <img src="images/View_Measure_Clear_All.svg" width=16px> Supprimer les mesures}} dans le menu contextuel de la vue 3D.
+    -   Sélectionnez l\'option **Affichage → Visibilité → <img src="images/View_Measure_Clear_All.svg" width=16px> Supprimer les mesures** dans le menu.
+    -   Sélectionnez l\'option **Measure → <img src="images/View_Measure_Clear_All.svg" width=16px> Supprimer les mesures** dans le menu contextuel de la vue 3D.
 
 ## Remarques
 

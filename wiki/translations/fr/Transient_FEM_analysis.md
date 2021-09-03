@@ -12,22 +12,22 @@
 
 ## Contexte
 
-## Créer le modèle {#créer_le_modèle}
+## Créer le modèle 
 
 1.  À partir d\'un nouveau projet FreeCAD, nous construisons notre bande bimétallique dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md)
 2.  Dessinez un <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Cube](Part_Box/fr.md) Solid et renommez-le en `aluminium`.
 3.  Donnez-lui les dimensions 100 x 10 x 2 mm (longueur x largeur x hauteur).
 4.  Créez un deuxième [Cube](Part_Box/fr.md) \'Acier\' solide avec les mêmes dimensions
-5.  Décalez cette pièce de 2 mm le long de l\'axe Z (via {{MenuCommand|Placement → Position → z}}).
+5.  Décalez cette pièce de 2 mm le long de l\'axe Z (via **Placement → Position → z**).
 6.  Sélectionnez les deux solides (en utilisant la touche **Shift** + clic de souris) et créez <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Fragments booléens](Part_BooleanFragments/fr.md) à partir d\'eux
 7.  Renommez ces fragments booléens en `bimetal strip`
 8.  Dans l\'[Éditeur de propriétés](Property_editor/fr.md), nous changeons le mode de **Standard** à **CompSolid**. (Cela devrait également fonctionner en utilisant la commande [Part Composé](Part_Compound/fr.md) au lieu de <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Fragments booléens](Part_BooleanFragments/fr.md), cependant avec des formes croisées plus complexes, il pourrait y avoir des problèmes avec l\'analyse FEM plus tard. Donc, il vaut mieux s\'habituer à utiliser les fragments booléens en premier lieu.) Le résultat devrait ressembler à ceci:
 
 <img alt="" src=images/Transient_FEM_Bimetal_(1).JPG  style="width:700px;">
 
-## Préparation et exécution de l\'analyse FEM {#préparation_et_exécution_de_lanalyse_fem}
+## Préparation et exécution de l\'analyse FEM 
 
-### Affecter les matériaux {#affecter_les_matériaux}
+### Affecter les matériaux 
 
 Dans l'atelier FEM, nous créons une nouvelle <img alt="" src=images/FEM_Analysis.svg  style="width:20px;"> analyse et ajoutons un nouveau <img alt="" src=images/FEM_MaterialSolid.svg  style="width:20px;"> matériau à l\'analyse. Dans la fenêtre de tâches à venir, nous sélectionnons l\'un des alliages d\'aluminium prédéfinis. Sous \'geometry reference selector\' (sélecteur de référence de géométrie), nous affectons le matériau à la bande inférieure de notre modèle en définissant le mode de sélection sur \'solid\', en cliquant sur \'add\' et en sélectionnant une face ou un bord de la bande inférieure. Dans la vue liste, \'BooleanFragments:Solid1\' devrait apparaître.
 
@@ -35,7 +35,7 @@ Dans l'atelier FEM, nous créons une nouvelle <img alt="" src=images/FEM_Analysi
 
 Nous fermons la fenêtre de la tâche et répétons les étapes pour créer un deuxième matériau « acier » (carte de matériau \'CalculiX-Steel\') et l\'affecter à la bande supérieure (\'BooleanFragments:Solid2\').
 
-## Création du maillage {#création_du_maillage}
+## Création du maillage 
 
 Puisqu\'une analyse par éléments finis a évidemment besoin d\'éléments pour travailler, nous devons convertir notre modèle en un maillage. L\'atelier FEM propose deux outils de maillage: Netgen et GMSH. Nous allons faire ici avec Netgen: avec l\'objet booléen \'bimetal strip\' sélectionné, nous cliquons sur l\'<img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:20px;"> icône Netgen dans l\'atelier FEM. Dans la fenêtre de tâches suivante, nous devons faire différentes sélections, en partant du haut:
 
@@ -48,7 +48,7 @@ Un clic sur \'Appliquer\' lance le mailleur et - le temps dépendant de votre or
 
 <img alt="" src=images/Transient_FEM_Bimetal_(3).JPG  style="width:700px;">
 
-### Assigner des conditions aux limites {#assigner_des_conditions_aux_limites}
+### Assigner des conditions aux limites 
 
 Une analyse FEM n\'aboutirait à rien, car rien n\'influe encore sur notre modèle. Ajoutons donc un peu de température: choisissez la <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:20px;"> température initiale à partir de l'atelier FEM et réglez-la sur 300 K. Ici, aucune partie du modèle ne peut être sélectionnée, car ce réglage s'applique à l'ensemble du modèle.
 
@@ -60,7 +60,7 @@ Avant de pouvoir exécuter l\'analyse, une condition limite supplémentaire doit
 
 <img alt="" src=images/Transient_FEM_Bimetal_(5).JPG  style="width:700px;">
 
-### Lancer l\'analyse {#lancer_lanalyse}
+### Lancer l\'analyse 
 
 L\'analyse doit déjà contenir un objet de solveur \'[FEM Outils du solveur CalculixCxx](FEM_SolverCalculixCxxtools/fr.md)\'. Sinon, ajoutons en un en utilisant l\'icône <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:20px;"> du solveur dans la barre d'outils (il existe deux icônes identiques, le solveur expérimental devrait également fonctionner). L\'objet solveur a une liste de propriétés comme ci-dessous dans la section de gauche de la fenêtre. Ici, sélectionnons les options suivantes (laisser celles non mentionnées inchangées):
 
@@ -84,7 +84,7 @@ Dans FreeCAD, nous pouvons utiliser <img alt="" src=images/FEM_PostPipelineFromR
 
 -   [Exemple de fichier avec les résultats (10 MB)](https://drive.google.com/file/d/157aIdVpIyfpVW9WxL-ReGz0FIsQebH_q/view?usp=sharing)
 
-## Autre éxemple {#autre_éxemple}
+## Autre éxemple 
 
 -   [Exemple bimétallique analytique](https://forum.freecadweb.org/viewtopic.php?f=18&t=43040&start=10#p366664). L\'exemple analytique présenté dans le forum est inclus dans les exemples FreeCAD FEM. Il peut être démarré par Python à partir de femexamples.thermomech\_bimetall import setup setup()
 

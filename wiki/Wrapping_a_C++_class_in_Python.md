@@ -26,7 +26,7 @@ Edit the appropriate {{FileName|CMakeLists.txt}} file to add references to these
 -    `[YourClass]Py.h`
     
 
-## Class Description XML File {#class_description_xml_file}
+## Class Description XML File 
 
 The XML file `[YourClass]Py.xml` provides information about the functions and attributes that the Python class implements, as well as the user documentation for those items that displays in the FreeCAD [Python console](Python_console.md).
 

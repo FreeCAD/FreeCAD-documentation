@@ -19,10 +19,10 @@ La commande **Std Basculer la visibilité** bascule la visibilité des objets da
     -   Soyez prudent lorsque vous utilisez **Ctrl**+**A** pour sélectionner tous les objets dans l\'arborescence. Cela sélectionnera également les sous-éléments de [PartDesign Corps](PartDesign_Body/fr.md) et les objets utilisés par les [Part Opérations booléennes](Part_Boolean/fr.md). Dans la plupart des cas, ceux-ci doivent rester invisibles.
     -   Les objets utilisés pour les [Part Opérations booléennes](Part_Boolean/fr.md) sont également sélectionnés lorsque vous utilisez **Ctrl**+**A** dans une vue 3D.
 2.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Afficher → <img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Visibilité → <img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité}} dans le menu contextuel de l\'arborescence. Cette option n\'est pas disponible dans [Atelier PartDesign](PartDesign_Workbench/fr.md).
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité}} dans le menu contextuel de la vue 3D.
+    -   Sélectionnez l\'option **Afficher → <img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité** dans le menu.
+    -   Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité** dans le menu.
+    -   Sélectionnez l\'option **<img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité** dans le menu contextuel de l\'arborescence. Cette option n\'est pas disponible dans [Atelier PartDesign](PartDesign_Workbench/fr.md).
+    -   Sélectionnez l\'option **<img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité** dans le menu contextuel de la vue 3D.
     -   Utilisez le raccourci clavier: **Barre d'espace**.
 
 ## Remarques

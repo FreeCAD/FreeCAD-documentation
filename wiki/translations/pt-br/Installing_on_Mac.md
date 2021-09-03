@@ -30,7 +30,7 @@ Se houver algum problema com o HomeBrew Cask ou Fórmula, você pode relatá-lo 
 
 Esta página descreve o uso e as características do instalador do FreeCAD. Ela também inclui instruções de desinstalação. Uma vez instalado, você pode [começar a usar!](Getting_started/pt-br.md)
 
-## Instalação simples {#instalação_simples}
+## Instalação simples 
 
 O instalador FreeCAD é fornecido como um pacote de aplicativos (.app) incluído em um arquivo de imagem de disco.
 

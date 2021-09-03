@@ -19,7 +19,7 @@ Il comando **Unisci progetti** aggiunge il contenuto di un file FreeCAD nel docu
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare l\'opzione {{MenuCommand|File → Unisci progetti...}} dal menu.
+1.  Selezionare l\'opzione **File → Unisci progetti...** dal menu.
 2.  Selezionare un file FreeCAD nella finestra di dialogo.
 3.  Premere il pulsante **Apri**.
 
@@ -37,8 +37,8 @@ Il comando **Unisci progetti** aggiunge il contenuto di un file FreeCAD nel docu
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato è memorizzata in: {{MenuCommand|Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath}}.
--   Le etichette duplicate sono consentite se {{MenuCommand|Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → DuplicateLabels}} è impostato su `True`. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
+-   L\'ultima posizione del file utilizzato è memorizzata in: **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath**.
+-   Le etichette duplicate sono consentite se **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → DuplicateLabels** è impostato su `True`. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
 
 
 <div class="mw-translate-fuzzy">

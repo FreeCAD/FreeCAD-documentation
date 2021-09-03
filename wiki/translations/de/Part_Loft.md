@@ -50,7 +50,7 @@ Weitere Informationen, wie Profile miteinander verbunden werden, entnehme bitte 
 
 </div>
 
-## Begrenzungen und Schwierigkeiten {#begrenzungen_und_schwierigkeiten}
+## Begrenzungen und Schwierigkeiten 
 
 -   Ein Knoten oder Punkt
     -   Knoten oder Punkt darf nur als erstes und/oder letztes Profil in der Liste der Profile verwendet werden.
@@ -83,7 +83,7 @@ Weitere Informationen, wie Profile miteinander verbunden werden, entnehme bitte 
 -   Geschlossene Ausformungen
     -   Die Ergebnisse geschlossener Ausformungen können unerwartet sein - die Ausformung kann Verdrehungen oder Knicke entwickeln. Ausformen ist sehr empfindlich auf die Platzierung der Profile und die Komplexität der Kurven, die erforderlich sind, um die zugehörigen Knoten in allen Profilen zu verbinden.
 
-## Eine Beispiel Ausformung {#eine_beispiel_ausformung}
+## Eine Beispiel Ausformung 
 
 Das Ausformungswerkzeug befindet sich im Part Arbeitsbereich, Menü Formteil -\> Ausformung\.... oder über das Symbol in der Werkzeugleiste.
 
@@ -102,7 +102,7 @@ In den \"Aufgaben\" befinden sich zwei Listen: \"Knoten / Draht\" und \"freie Fo
 
 <div class="mw-translate-fuzzy">
 
-### Auswahl der Abschnitte {#auswahl_der_abschnitte}
+### Auswahl der Abschnitte 
 
 Im \"Knoten / Draht\" werden die verfügbaren Elemente angezeigt. Zwei Abschnitte müssen nach dem ersten in dieser Liste ausgewählt werden.
 
@@ -125,7 +125,7 @@ Die ausgewählten Einträge müssen vom gleichen Typ sein.
 
 Hinweis: Die aktiven/ausgewählten Einträge in der Liste werden im 3D-Bereich als aktiv/ausgewählt angezeigt.
 
-### Befehl vollständig {#befehl_vollständig}
+### Befehl vollständig 
 
 Wenn beide Abschnitte ausgewählt sind, kann der Befehl mit \"OK\" abgeschlossen werden.
 
@@ -147,7 +147,7 @@ Wenn tatsächlich ein Festkörper erstellt werden muss, verwende die Taste \"Fes
 
 Bei offenen Polylinien ist die Vorgehensweise die gleiche wie oben beschrieben.
 
-### Ändern der Auswahl der Abschnitte {#ändern_der_auswahl_der_abschnitte}
+### Ändern der Auswahl der Abschnitte 
 
 Wenn du die Auswahl der Abschnitte nach der Erstellung der Ausformung ändern möchtest, kannst du das Feld Abschnitte auf der Registerkarte Daten markieren und auf die erscheinende Schaltfläche Ellipse klicken. Die Liste aller auswählbaren Abschnitte erscheint, die aktuelle Auswahl wird hervorgehoben. Du kannst zusätzliche Abschnitte entfernen oder hinzufügen.
 

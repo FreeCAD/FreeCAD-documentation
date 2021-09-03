@@ -15,7 +15,7 @@ Crée une contrainte FEM de contact entre deux surfaces.
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintContact.svg" width=16px> [Constraint Contact](FEM_ConstraintContact/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Model → Contraintes mécaniques → <img src="images/FEM_ConstraintContact.svg" width=16px> Contrainte contact}} dans le menu.
+    -   Sélectionnez l\'option **Model → Contraintes mécaniques → <img src="images/FEM_ConstraintContact.svg" width=16px> Contrainte contact** dans le menu.
 2.  Sélectionnez la face principale.
 3.  Sélectionnez la face esclave.
 4.  Entrez une raideur de contact.
@@ -28,7 +28,7 @@ Crée une contrainte FEM de contact entre deux surfaces.
 
 ## Notes
 
-### Quelques astuces pour modéliser {#quelques_astuces_pour_modéliser}
+### Quelques astuces pour modéliser 
 
 -   à partir de <https://forum.freecadweb.org/viewtopic.php?f=18&p=340874#p340494>
 -   mieux utiliser les éléments linéaires, sinon les calculs prennent beaucoup de temps

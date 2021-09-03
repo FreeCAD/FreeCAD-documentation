@@ -11,7 +11,7 @@ Această comandă aplică o forță de valoare dată \[N\] la geometria țintei 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

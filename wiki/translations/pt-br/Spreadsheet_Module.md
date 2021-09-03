@@ -39,7 +39,7 @@ A <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [bancad
 
 Menu de contexto das linhas e colunas da planilha: clique com o botão direito do mouse no cabeçalho de uma linha ou coluna para inserir uma nova linha acima ou uma nova coluna à esquerda, ou para excluir a linha/coluna atual. Você também pode selecionar várias linhas ou colunas para excluí-las.<small>(v0.20)</small> Você também pode selecionar onde as novas linhas/colunas serão inseridas. Além disso, para inserir por exemplo 3 novas colunas de uma vez, selecione 3 colunas e use o menu contextual que agora se oferecerá para inserir 3 colunas.
 
-## Propriedades celulares {#propriedades_celulares}
+## Propriedades celulares 
 
 As propriedades de uma célula de planilha podem ser editadas com um clique com o botão direito do mouse sobre uma célula. As seguintes propriedades o diálogo aparece:
 
@@ -53,7 +53,7 @@ Conforme indicado pelas abas, as seguintes propriedades podem ser alteradas:
 -   Unidades: Unidades de exibição para esta célula. Por favor, leia a seção abaixo [Unidades](#Unidades.md).
 -   Pseudônimo: Defina um [pseudônimo](Spreadsheet_SetAlias/pt-br.md) para esta célula. Este apelido pode ser usado em fórmulas celulares e também em [expressões](Expressions/pt-br.md) gerais; veja a seção [Dados da planilha em expressões](#Dados_da_planilha_em_expressões.md) para mais informações.
 
-## Expressões celulares {#expressões_celulares}
+## Expressões celulares 
 
 Uma célula de planilha pode conter um texto ou uma expressão arbitrária. Tecnicamente, as expressões devem começar com um sinal igual a \'=\'. Entretanto, a planilha tenta ser inteligente; se você digitar o que parece ser uma expressão sem o sinal \'=\' principal, uma será adicionada automaticamente.
 
@@ -66,7 +66,7 @@ Nota: As expressões celulares são tratadas pelo FreeCAD como código de progra
 
 As referências a objetos no modelo são explicadas em [Referências a dados CAD](#References_to_CAD-data.md) abaixo. A utilização dos valores das células da planilha para definir as propriedades do modelo é explicada em [Dados da planilha em expressões](#Spreadsheet_data_in_expressions.md) abaixo. Para mais informações sobre as expressões e as funções disponíveis, veja [Expressões](Expressions/pt-br.md).
 
-## Interação entre as planilhas e o modelo CAD {#interação_entre_as_planilhas_e_o_modelo_cad}
+## Interação entre as planilhas e o modelo CAD 
 
 Os dados nas células de uma planilha podem ser usados nas expressões de parâmetros do modelo CAD. Assim, uma planilha pode ser usada como fonte para valores de parâmetros utilizados em todo o modelo, reunindo efetivamente os valores em um só lugar. Quando os valores são alterados na planilha, eles são propagados ao longo do modelo.
 
@@ -80,7 +80,7 @@ O rótulo de uma planilha é automaticamente definido com o nome da planilha no 
 
 Verificações FreeCAD para dependências cíclicas. Ver [Limitações atuais](#Limitações_atuais.md).
 
-### Referências a dados CAD {#referências_a_dados_cad}
+### Referências a dados CAD 
 
 Como indicado acima, é possível consultar os dados do modelo CAD em expressões de planilhas.
 
@@ -103,7 +103,7 @@ A tabela a seguir mostra alguns exemplos assumindo que o modelo tem uma caracter
   Rótulo do Cubo                                                      =MyCube.Label                  String: MyCube
   x-coordenada do centro de massa do Cubo                             =MyCube.Shape.CenterOfMass.x   x-coordenada em mm sem unidades
 
-### Dados da planilha em expressões {#dados_da_planilha_em_expressões}
+### Dados da planilha em expressões 
 
 Para usar os dados da planilha em outras partes do FreeCAD, você geralmente criará uma [Expressão](Expressions.md) que se refere à planilha e à célula que contém os dados que você deseja usar. Você pode identificar as planilhas por nome ou por etiqueta, e pode identificar as células por posição ou por pseudônimo. O auto-completamento está disponível para todas as formas de referência.
 
@@ -139,7 +139,7 @@ While you may use the row and column number in an expression to reference a cell
 
 </div>
 
-### Modelos complexos e recompilações {#modelos_complexos_e_recompilações}
+### Modelos complexos e recompilações 
 
 A edição de uma planilha irá desencadear uma recomputação do modelo 3D, mesmo que as mudanças não afetem o modelo. Para um modelo complexo, uma recomputação pode levar muito tempo, e ter que esperar após cada edição é, naturalmente, bastante irritante.
 
@@ -147,9 +147,9 @@ Há três soluções para lidar com isso:
 
 1.  Pular temporariamente as recomputas:
     -   Na [Vista em árvore](Tree_view/pt-br.md) clique com o botão direito do mouse sobre o <img alt="" src=images/Document.svg  style="width:24px;"> documento que contém a planilha de cálculo.
-    -   Selecione a opção {{MenuCommand|Skip recomputes}} no menu de contexto.
+    -   Selecione a opção **Skip recomputes** no menu de contexto.
     -   Há uma grande desvantagem para esta solução. Os novos valores inseridos na planilha não serão exibidos até que o documento seja recalculado. Em vez disso `#PENDENTE` é mostrado.
-    -   Você pode recalcular manualmente, usando o comando [Atualização](Std_Refresh.md), ou desabilitar a opção {{MenuCommand|Skip recomputes}} quando você terminar de editar.
+    -   Você pode recalcular manualmente, usando o comando [Atualização](Std_Refresh.md), ou desabilitar a opção **Skip recomputes** quando você terminar de editar.
 2.  Use uma macro para saltar automaticamente as recomputas durante a edição de uma planilha:
     -   Download e execução [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
     -   Esta solução economiza alguns passos em relação à primeira solução, mas também tem a desvantagem mencionada.
@@ -171,11 +171,11 @@ Um número sem dimensão não pode ser alterado para um número com uma unidade 
 
 Ocasionalmente, pode ser desejável se livrar de uma dimensão em uma expressão. Isto pode ser feito multiplicando por 1 com uma unidade recíproca.
 
-## Importação e exportação {#importação_e_exportação}
+## Importação e exportação 
 
-As folhas podem ser importadas e exportadas para o formato [csv](https://en.wikipedia.org/wiki/Comma-separated_values) que também pode ser lido e escrito pela maioria das outras aplicações de planilhas como o Microsoft Excel ou o LibreOffice Calc. Ao importar arquivos para o FreeCAD, o delimitador (o caractere que é usado para separar colunas) deve ser o caracter TAB (que pode ser definido ao exportar de outras aplicações). A importação de um arquivo CSV está disponível a partir do menu {{MenuCommand|Planilha → Importar Planilha}} ou clicando no ícone <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. Esta função de importação não abre arquivos Excel ou qualquer outro formato de planilha eletrônica.
+As folhas podem ser importadas e exportadas para o formato [csv](https://en.wikipedia.org/wiki/Comma-separated_values) que também pode ser lido e escrito pela maioria das outras aplicações de planilhas como o Microsoft Excel ou o LibreOffice Calc. Ao importar arquivos para o FreeCAD, o delimitador (o caractere que é usado para separar colunas) deve ser o caracter TAB (que pode ser definido ao exportar de outras aplicações). A importação de um arquivo CSV está disponível a partir do menu **Planilha → Importar Planilha** ou clicando no ícone <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. Esta função de importação não abre arquivos Excel ou qualquer outro formato de planilha eletrônica.
 
-Planilhas em formato Excel \"xlsx\" podem ser importadas através do menu {{MenuCommand|Arquivo → Import...}}. As planilhas do Excel também podem ser abertas clicando no menu {{MenuCommand|Arquivo → Abrir...}} ou clicando no ícone ou clicando no ícone <img alt="" src=images/Document-open.svg  style="width:24px;">. Nesses casos, é criado um novo documento com uma planilha dentro. As seguintes características são suportadas:
+Planilhas em formato Excel \"xlsx\" podem ser importadas através do menu **Arquivo → Import...**. As planilhas do Excel também podem ser abertas clicando no menu **Arquivo → Abrir...** ou clicando no ícone ou clicando no ícone <img alt="" src=images/Document-open.svg  style="width:24px;">. Nesses casos, é criado um novo documento com uma planilha dentro. As seguintes características são suportadas:
 
 -   todas as funções que também estão disponíveis na planilha do FreeCAD. Outras funções dão um erro na célula correspondente após a importação.
 -   Nomes de células
@@ -187,13 +187,13 @@ Outras funcionalidades não são importadas para a planilha do FreeCAD. O Excel-
 
 Para lidar com a configuração da página necessária para impressão, as planilhas do FreeCAD são impressas inserindo-as em [Visualizar planilha do TechDraw](TechDraw_SpreadsheetView/pt-br.md).
 
-## Limitações atuais {#limitações_atuais}
+## Limitações atuais 
 
 Verificações FreeCAD para dependências cíclicas. Por projeto, essa verificação pára no nível do objeto da planilha. Como conseqüência, não se deve ter uma planilha que contenha tanto células cujos valores são usados para especificar parâmetros para o modelo, quanto células cujos valores usam a saída do modelo. Por exemplo, você não pode ter células especificando o comprimento, largura e altura de um objeto, e outra célula que faz referência ao volume total da forma resultante. Esta restrição pode ser superada com duas planilhas: uma usada como fonte de dados para parâmetros de entrada no modelo e a outra usada para cálculos baseados nos dados geométricos resultantes.
 
 Quando as células são copiadas, somente o conteúdo (expressão/valor) é copiado. As [propriedades da célula](#Propriedades_celulares.md) descritas acima não são copiadas.
 
-## Noções básicas de script {#noções_básicas_de_script}
+## Noções básicas de script 
 
 
 ```python

@@ -224,7 +224,7 @@ Los instrumentos de anotación sirven para \"marcar\" un dibujo con información
 
 </div>
 
-## Características adicionales {#características_adicionales}
+## Características adicionales 
 
 -   [Grupos de líneas](TechDraw_LineGroup/es.md): para controlar la aparición de varios tipos de líneas.
 -   [Plantillas](TechDraw_Templates/es.md): las plantillas por defecto definidas para las páginas de dibujo.

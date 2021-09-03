@@ -16,17 +16,17 @@ The most common application is to change from one body diameter to another, such
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_Transition.svg" width=16px> [Transition](Rocket_Transition.md)** button.
-    -   Select the {{MenuCommand|Rocket → <img src="images/Rocket_Transition.svg" width=16px> Transition}} option from the menu.
+    -   Select the **Rocket → <img src="images/Rocket_Transition.svg" width=16px> Transition** option from the menu.
     -   Double click on a Transition object in the model view.
 2.  Set options and press **OK**.
 
 ## Options
 
-### Transition Types {#transition_types}
+### Transition Types 
 
 Transitions support all the shapes supported by Nose Cones, see [Nose Cone Options](Rocket_NoseCone#Options.md) for more details
 
-### Transition Styles {#transition_styles}
+### Transition Styles 
 
 Transitions support all the styles supported by Nose Cones, see [Nose Cone Options](Rocket_NoseCone#Options.md) for more details.
 
@@ -110,7 +110,7 @@ See also: [:Category:API](:Category:API.md) and [FreeCAD Scripting Basics](FreeC
 
 TBD
 
-## Tutorials and Learning {#tutorials_and_learning}
+## Tutorials and Learning 
 
 [Rocket Workbench Transitions](https://youtu.be/O5Ze4MYAHNA) Tutorial on YouTube
 

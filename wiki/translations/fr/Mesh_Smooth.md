@@ -21,41 +21,41 @@ La commande **Mesh Lissage** lisse les objets maillés en modifiant la position 
 3.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_Smoothing.svg" width=16px> [Lisse les maillages sélectionnés](Mesh_Smoothing/fr.md)
 **
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → <img src="images/Mesh_Smoothing.svg" width=16px> Lisser...}} dans le menu.
-4.  Le panneau des tâches {{MenuCommand|Smoothing}} s\'ouvre.
-5.  Si vous souhaitez uniquement lisser les zones sélectionnées: choisissez l\'option {{MenuCommand|Only selection}}:
-    -   Le panneau {{MenuCommand|Selection}} est ajouté au panneau des tâches.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Smoothing.svg" width=16px> Lisser...** dans le menu.
+4.  Le panneau des tâches **Smoothing** s\'ouvre.
+5.  Si vous souhaitez uniquement lisser les zones sélectionnées: choisissez l\'option **Only selection**:
+    -   Le panneau **Selection** est ajouté au panneau des tâches.
     -   Spécifiez les options de région:
         -   
-            {{MenuCommand|Respect only visible triangles}}
+            **Respect only visible triangles**
             
 
         -   
-            {{MenuCommand|Respect only triangles with normals facing screen}}
+            **Respect only triangles with normals facing screen**
             
     -   Appuyez sur le bouton **Add** et tout en maintenant le bouton gauche de la souris enfoncé, dessinez une région, une spline fermée, dans la [vue 3D](3D_view/fr.md). Les faces qui correspondent aux options de région et tombent (partiellement) à l\'intérieur de la région seront sélectionnées.
     -   Si vous le souhaitez, appuyez sur le bouton **Clear** pour effacer la sélection.
-6.  Sélectionnez le lissage {{MenuCommand|Method}}:
+6.  Sélectionnez le lissage **Method**:
     -   
-        {{MenuCommand|Taubin}}
+        **Taubin**
         
 
     -   
-        {{MenuCommand|Laplace}}
+        **Laplace**
         
-7.  Spécifiez le {{MenuCommand|Parameters}}:
+7.  Spécifiez le **Parameters**:
     -   
-        {{MenuCommand|Iterations}}
+        **Iterations**
         
         : plus ce nombre est élevé, plus le résultat final est lisse. La valeur a également un impact sur le temps de traitement total de la commande. Évitez les valeurs élevées si les objets maillés ont de nombreux points.
 
     -   
-        {{MenuCommand|λ}}
+        **λ**
         
         : la valeur doit être comprise dans la plage {{Value|0}} - {{Value|1}}.
 
     -   
-        {{MenuCommand|μ}}
+        **μ**
         
         : la valeur doit être comprise dans la plage {{Value|0}} - {{Value|1}}.
 8.  Appuyez sur le bouton **OK** pour terminer la commande.

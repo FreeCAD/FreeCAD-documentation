@@ -49,7 +49,7 @@ Es gibt zwei Ansätze zur Angabe von Produkt- und Herstellungsinformationen (PMI
   Mehrfache Dateien                                         Einzeldatenmodell
   Manuelle Synchronisierung zwischen CMM/CAM/CAI Software   Einzel Quelle der Wahrheit
 
-## Vorhandene Software {#vorhandene_software}
+## Vorhandene Software 
 
 -   [Hinzufügen von geometrischer Toleranz mit Funktionskontrollrahmen in AutoCAD](https://www.youtube.com/watch?v=C4c_kJtwtxc)
 -   [Arbeiten mit Zeichnungssymbolen in Fusion 360](https://www.youtube.com/watch?v=sVxuIgLgsKk)
@@ -57,7 +57,7 @@ Es gibt zwei Ansätze zur Angabe von Produkt- und Herstellungsinformationen (PMI
 -   [CATIA V5 - FUNKTIONELLE TOLERANZIERUNG & ANMERKUNG](https://www.youtube.com/watch?v=WQUjodi7Izs)
 -   [IntelligentesProfil GD&T Analyse Software](https://www.youtube.com/watch?v=0z7IoDiVYMY)
 
-## Bisherige Umsetzung {#bisherige_umsetzung}
+## Bisherige Umsetzung 
 
 -   [TechDraw Symbole SVG Dateien](https://github.com/FreeCAD/FreeCAD/commits/master/src/Mod/TechDraw/Symbols/gd-and-t)
 -   [GDT Arbeitsbereich](https://github.com/juanvanyo/FreeCAD-GDT)
@@ -74,7 +74,7 @@ Es gibt zwei Ansätze zur Angabe von Produkt- und Herstellungsinformationen (PMI
 -   [ISO 1101: 2017 Geometrische Tolerierungsnorm](https://forum.freecadweb.org/viewtopic.php?f=35&t=35887) - Ein Verweis auf die ISO 1101:2017 PDF file (2019)
 -   [Geometrische Dimensionierung & Tolerierung](https://forum.freecadweb.org/viewtopic.php?t=42426) - Entwickler, der Beiträge vorschlägt (2019)
 
-## Tutorien und Lernmaterialien zu GD&T {#tutorien_und_lernmaterialien_zu_gdt}
+## Tutorien und Lernmaterialien zu GD&T 
 
 -   [Kurze Einführung (Video)](https://www.youtube.com/watch?v=P5GT9ZSRYl0)
 -   [Wie präzise ist dieser Teil? Kennen Sie Ihre GD&T](https://hackaday.com/2018/10/04/how-precise-is-that-part-know-your-gdt/)

@@ -8,7 +8,7 @@ Es ist eine gute Idee, den einen oder den anderen zu verwenden, bis der Benutzer
 
 Lass uns über diese Auswirkungen sprechen.
 
-## Part Arbeitsbereich Konzepte {#part_arbeitsbereich_konzepte}
+## Part Arbeitsbereich Konzepte 
 
 Part Arbeitsbereich ist im Wesentlichen [CSG style modeling](Constructive_solid_geometry/de.md). Der Bediener kombiniert verschiedene Grundelemente, um am Ende eine Darstellung der gewünschten Form zu erhalten. (Tatsächlich geht Part Arbeitsbereich einen Schritt weiter als nur Grundelemente und erlaubt dem Anwender, eine Skizze+Extrudieren Ausführung (oder Skizze+Drehen, Austragen, Ausformen \...) zu verwenden, um auch zufällige Formen zu erstellen.) Wenn ein Grundelement oder eine Form erstellt wird, hat es keine Beziehung zu anderen erstellten Objekten (mit Ausnahme von Skizzen und deren Anhängen), es ist ein einzelner solitärer Körper.
 
@@ -18,7 +18,7 @@ This condition remains so, until, the operator uses some operation to combine th
 
 The take away is the single solitary solid bit and the combining them bit.
 
-## PartDesign Arbeitsbereich Konzepte {#partdesign_arbeitsbereich_konzepte}
+## PartDesign Arbeitsbereich Konzepte 
 
 Im PartDesign Arbeitsbereich wird das Körperobjekt direkt als einzelner, kumulativer Festkörper konstruiert.
 
@@ -48,7 +48,7 @@ If Tip on **Pad**, the pad can exist separately, but if Tip on **Cone**, the con
 
 (Another thing mentioned often is a Body ***MUST*** be a single contiguous solid. This means all geometry created by a feature in the Body *must* touch it\'s predecessor.)
 
-## Die Auswirkungen {#die_auswirkungen}
+## Die Auswirkungen 
 
 Although not recommended for newcomers, it is possible to combine tools from Part WB and PartDesign WB, provided you know what you are doing. For example :
 
@@ -58,7 +58,7 @@ In a sense, from a Part Workbench standpoint, the Body represents another primit
 
 And, it can get even more complicated. If you create a new Body and drag the result from the previous paragraph into it, a BaseObject is created. And you can go off an use the PartDesign Workbench tools on it.
 
-## Die Vorbehalte {#die_vorbehalte}
+## Die Vorbehalte 
 
 There is a caveat with the Tip and it\'s representation of the single solid in the Body. *If* the tip is a subtractive feature and is used in a dress up operation, for instance a Mirror, the Mirror is operating on the underlying feature (a pocket for example). Thus the cumulative solid is not mirrored, but the subtractive feature is. The result of this must create a single solid.
 

@@ -23,7 +23,7 @@ Funcția **![](images/)_[Intersection](Part_Common/fr.md)**, extrage partea com
 
 <div class="mw-translate-fuzzy">
 
-### Cum se folosește {#cum_se_folosește}
+### Cum se folosește 
 
 1.  Selectați două forme
 2.  Apăsați butonul **<img src="images/Part_Common.png" width=16px> '''Part Common'''**.
@@ -61,14 +61,14 @@ Les formes originales peuvent être effacées, pour ne conserver que le produit 
 </center>
 
 
-## Les outils Booléens {#les_outils_booléens}
+## Les outils Booléens 
 
 [text-top=Opérations\|32px\|link=Part\_Booleans/fr](Image:Part_Booleans.png.md)    [text-top=Soustraction\|32px\|link=Part\_Cut/fr](Image:Part_Cut.png.md)    [text-top=Union\|32px\|link=Part\_Union/fr](Image:Part_Union.png.md)    [text-top=Intersection\|32px\|link=Part\_Common/fr](Image:Part_Common.png.md)    [text-top=Coupe\|32px\|link=Part\_Section/fr](Image:Part_Section.png.md)   
 
 
 </div>
 
-### Intrări suportate {#intrări_suportate}
+### Intrări suportate 
 
 
 <div class="mw-translate-fuzzy">

@@ -17,7 +17,7 @@ The Box command from the [Part Workbench](Part_Workbench.md) inserts a parametri
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md)
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Part_Box.svg" width=16px> Cube** button in the toolbar.
-    -   Select the {{MenuCommand|Part → Primitives → <img src="images/Part_Box.svg" width=16px> Cube}} from the menu bar.
+    -   Select the **Part → Primitives → <img src="images/Part_Box.svg" width=16px> Cube** from the menu bar.
 
 **Result:** The default result is a box with an equal length, width and height of 10 mm. It is attached to the global xy-plane and one edge is coincident with the global z-axis.
 

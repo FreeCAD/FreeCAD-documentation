@@ -23,12 +23,12 @@ Der **<img src="images/Path_PostProcess.svg" width=16px> [Post Prozess](Path_Pos
 
 **Jede CNC Steuerung spricht einen spezifischen G-Code Dialekt, was einen Dialekt-korrekten Postprozessor erfordert, um die endgültige Ausgabe aus dem unabhängigen internen FreeCAD G-Code Dialekt zu übersetzen.**
 
-### Typical functions of the Postprocessor include {#typical_functions_of_the_postprocessor_include}
+### Typical functions of the Postprocessor include 
 
 
 <div class="mw-translate-fuzzy">
 
-### Typische Funktionen des Postprozessors schließen ein {#typische_funktionen_des_postprozessors_schließen_ein}
+### Typische Funktionen des Postprozessors schließen ein 
 
 -   Verwenden einer korrekten G-Code Dateierweiterung für die Auftragsausgabe.
 -   Auswahl der G-Code Befehle. CNC Steuerungen unterstützen typischerweise eine Teilmenge der verfügbaren G-Code Befehle. Die Obermenge der G-Code Befehle enthält leistungsfähige und spezialisierte Befehle, die sonst mit mehreren einfacheren Befehlen verarbeitet werden müssen. Postprozessoren werden geschrieben, um den besten G-Code für eine Operation auszuwählen, der auf dem Ziel verfügbar ist.
@@ -42,12 +42,12 @@ Der **<img src="images/Path_PostProcess.svg" width=16px> [Post Prozess](Path_Pos
 
 </div>
 
-### Postprocessor Customization {#postprocessor_customization}
+### Postprocessor Customization 
 
 
 <div class="mw-translate-fuzzy">
 
-### Postprozessor Anpassung {#postprozessor_anpassung}
+### Postprozessor Anpassung 
 
 Wenn du einen eigenen Postprozessor schreiben willst, wirf einen Blick auf die [Pfad Postprozessor Anpassung](Path_Postprocessor_Customization/de.md) Seite.
 

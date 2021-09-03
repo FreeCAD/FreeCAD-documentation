@@ -24,7 +24,7 @@ Conducta este un obiect rezultat, care creează o nouă reprezentare grafică a 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 -   Aveți nevoie de un obiect rezultat valid în {{KEY | [ 24px](FEM_Analysis.png .md) [ Container de analiză](FEM_Analysis_.md)}}, cum ar fi {{KEY | CalculiX_static_results}}.
 -   Selectați obiectul rezultat

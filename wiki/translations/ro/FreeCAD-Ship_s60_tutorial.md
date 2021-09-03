@@ -28,7 +28,7 @@ You can learn more about [FreeCAD-Ship here](Ship_Workbench.md)
 
 </div>
 
-## Loading geometry {#loading_geometry}
+## Loading geometry 
 
 
 <div class="mw-translate-fuzzy">
@@ -57,7 +57,7 @@ FreeCAD-Ship sign criteria
 
 <div class="mw-translate-fuzzy">
 
-### Se încarcă geometria Seriei 60 {#se_încarcă_geometria_seriei_60}
+### Se încarcă geometria Seriei 60 
 
 Pentru a ajuta noii utilizatori FreeCAD-Ship include un loader de exemple de geometrii, cu următoarele opțiuni:
 
@@ -98,7 +98,7 @@ Executarea instrumentului (Ship design/Load an example ship geometry) va afișa 
 
 </div>
 
-## Crează instanța navei {#crează_instanța_navei}
+## Crează instanța navei 
 
 Pentru a crea o instanță \'\' \'Ship\' \'\' selectați geometria s60 și executați instrumentul de creare a navei \'\' \'\' (Ship design/Create a new ship).
 
@@ -134,7 +134,7 @@ Trebuie introduse cele mai importante date despre nave (FreeCAD-Ship utilizează
 
 </div>
 
-### Date despre nava {#date_despre_nava}
+### Date despre nava 
 
 Dimensiunile principale trebuie introduse aici:
 
@@ -195,7 +195,7 @@ De aici mi departe, trebuie să avem **Ship** selectată înainte de a executa o
 
 <div class="mw-translate-fuzzy">
 
-## Lines drawing {#lines_drawing}
+## Lines drawing 
 
 FreeCAD-Ship furnizează un instrument care facilitează obținerea unui Line Plan de la desenul liniilor navei
 
@@ -226,7 +226,7 @@ Linia de desen este un set de linii din secțiuni tăiate în toate cele trei ax
 
 <div class="mw-translate-fuzzy">
 
-### Secțiuni transversale {#secțiuni_transversale}
+### Secțiuni transversale 
 
 De obicei, trebuie efectuate 21 de secțiuni transversale echidistante între perpendiculare. pentru a face acest lucru, FreeCAD oferă un instrument automat pentru a face acest lucru, pur și simplu selectați tipul de secțiune transversală, mergeți la caseta \"Creare automată\" și setați secțiunile \"21\" , apoi apăsați \'\' \'Creare secțiuni\' \'\'.
 
@@ -265,7 +265,7 @@ Tabelul secțiunilor este umplut, iar previzualizarea secțiunilor numit **Outli
 
 <div class="mw-translate-fuzzy">
 
-### Longitudinal cuts {#longitudinal_cuts}
+### Longitudinal cuts 
 
 Two longitudinal cuts must be added, so select **Longitudinal** type of sections, go to **Auto create** box and set **2** sections, then press **Create sections**. Sections table is filled, and sections preview updated.
 
@@ -275,7 +275,7 @@ Two longitudinal cuts must be added, so select **Longitudinal** type of sections
 
 <div class="mw-translate-fuzzy">
 
-### Linii de plutire {#linii_de_plutire}
+### Linii de plutire 
 
 6 Linii de plutire Trebuie să adăugați între linia de bază și schița de proiectare, deci selectați tipul secțiunilor \"Waterlines\" \"\", mergeți la caseta \"Creare automată\" și setați \"5\" (Z = 0 m nu va fi luată în considerare, adăugați-o manual dacă aveți nevoie de ea), apoi apăsați \'\' \'Creare secțiuni\' \'\'. Tabelul secțiunilor este umplut și previzualizarea secțiunilor este actualizată.
 
@@ -293,7 +293,7 @@ Câteva linii de plutire adiționale trebuie adăugate:
 
 <div class="mw-translate-fuzzy">
 
-### Perform plot {#perform_plot}
+### Perform plot 
 
 Select **1:100** scale and press **Accept** to let the tool to generate the 3D sections in a new object.
 
@@ -331,7 +331,7 @@ Outline draw plot.
 
 <div class="mw-translate-fuzzy">
 
-## Curba zonei transversale {#curba_zonei_transversale}
+## Curba zonei transversale 
 
 Un parametru tipic hidrodinamic de proiectare a navei este curba zonelor transversale, care recuperează câțiva indicatori despre comportamentul corpului (rezistența la remorcare, seakeeping \...). FreeCAD-Ship furnizează o unealtă simplă pentru a realiza curba zonelor transversale.
 
@@ -359,7 +359,7 @@ When tool is executed a task dialog is shown, and free surface prewied is create
 
 <div class="mw-translate-fuzzy">
 
-### Input data {#input_data}
+### Input data 
 
 Proiectarea și orientarea (unghiul de rotație a muchiei \"H\", pozitiv în cazul în care poate crește înălțimea bordului) trebuie furnizate. Este posibil să se efectueze mai multe curbe de zone, în funcție de situațiile de încărcare a navei, dar trebuie realizate două parcele tipice:
 
@@ -372,7 +372,7 @@ Proiectarea și orientarea (unghiul de rotație a muchiei \"H\", pozitiv în caz
 
 <div class="mw-translate-fuzzy">
 
-### Output data {#output_data}
+### Output data 
 
 Some relevant data is shown at real time:
 
@@ -452,7 +452,7 @@ Hydrostatics curves.
 
 <div class="mw-translate-fuzzy">
 
-## Continuă să înveți FreeCAD-Ship {#continuă_să_înveți_freecad_ship}
+## Continuă să înveți FreeCAD-Ship 
 
 Acum sunteți gata să continuați să învățați [ Ship](Ship_Workbench.md), [ aici](FreeCAD-Ship_s60_tutorial_(II).md) este al doilea capitol din seria 60 de la nava universitară din Iowa.
 

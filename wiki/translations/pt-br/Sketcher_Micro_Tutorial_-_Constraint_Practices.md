@@ -22,9 +22,9 @@ Existe uma regra geral para as restrições: quanto menor a quantidade de **rest
 
 ## Configuração
 
-1\. Abra o FreeCAD, crie um novo documento em branco com {{MenuCommand|Arquivo → <img src=images/Std_New.svg style="width:16px"> [Novo](Std_New.md)}}.
+1\. Abra o FreeCAD, crie um novo documento em branco com **Arquivo → <img src=images/Std_New.svg style="width:16px"> [Novo](Std_New.md)**.
 
-:   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu {{MenuCommand|[View](Std_View_Menu.md) → Workbench → Sketcher}}.
+:   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **[View](Std_View_Menu.md) → Workbench → Sketcher**.
 
 Some actions to remember:
 
@@ -32,7 +32,7 @@ Some actions to remember:
 -   To exit the sketch edit mode, press the **Close** button in the [task panel](task_panel.md), or press **Esc** twice in the keyboard.
 -   To enter again edit mode, double click on the sketch in the <img src=images/Sketcher_EditSketch.svg style="width:tree view](tree_view.md), or select it, and then click on **[16px"> [Edit sketch](Sketcher_EditSketch.md)**.
 
-## Crie um Esboço {#crie_um_esboço}
+## Crie um Esboço 
 
 2\. Click on **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [New sketch](Sketcher_NewSketch.md)**.
 
@@ -42,9 +42,9 @@ Some actions to remember:
 
 **Note:**
 
-in the [task panel](task_panel.md) expand the {{MenuCommand|Edit controls}} section, and make sure the {{MenuCommand|Auto constraints}} option is disabled. Also turn off the grid snap, and hide the grid.
+in the [task panel](task_panel.md) expand the **Edit controls** section, and make sure the **Auto constraints** option is disabled. Also turn off the grid snap, and hide the grid.
 
-## Primeira Abordagem: Restrições de Referência {#primeira_abordagem_restrições_de_referência}
+## Primeira Abordagem: Restrições de Referência 
 
 3\. We will draw a fully constrained square, centered at the origin.
 
@@ -65,11 +65,11 @@ in the [task panel](task_panel.md) expand the {{MenuCommand|Edit controls}} sect
 <img alt="" src=images/01b_Sk02_Sketcher_Rectangle_constrained_lengths_1.png  style="width:" height="400px;"> <img alt="" src=images/01c_Sk02_Sketcher_Rectangle_constrained_lengths_2.png  style="width:" height="400px;"> 
 *Left: datum constraints for the sides. Right: additional datum constraints for the interior distances.*
 
-Looking at the {{MenuCommand|Constraints}} section in the [task panel](task_panel.md), we see that the constraints are too many; they also clutter the view of the sketch. These constraints are also computationally intensive for the solver; while this is not an issue with a simple shape, it can become one with more complex shapes.
+Looking at the **Constraints** section in the [task panel](task_panel.md), we see that the constraints are too many; they also clutter the view of the sketch. These constraints are also computationally intensive for the solver; while this is not an issue with a simple shape, it can become one with more complex shapes.
 
-## Uma Maneira Melhor: Referência e Restrições Geométricas {#uma_maneira_melhor_referência_e_restrições_geométricas}
+## Uma Maneira Melhor: Referência e Restrições Geométricas 
 
-4\. We will draw the same square fully constrained, and centered at the origin. When you create the new sketch, make sure the {{MenuCommand|Auto constraints}} option is disabled.
+4\. We will draw the same square fully constrained, and centered at the origin. When you create the new sketch, make sure the **Auto constraints** option is disabled.
 
 :   4.1. Click on **<img src="images/Sketcher_CreatePolyline.svg‎‎" width=16px> [Create polyline](Sketcher_CreatePolyline.md)**, then trace four lines in the general shape of a rectangle around the origin.
 :   4.2. Select one horizontal line, and press **<img src=images/Constraint_Horizontal.svg style="width:16px"> [Horizontal](‎Sketcher_ConstrainHorizontal.md)**.
@@ -90,9 +90,9 @@ Looking at the {{MenuCommand|Constraints}} section in the [task panel](task_pane
 
 This is a better constrained sketch than the first one. The horizontal and vertical geometric constraints allow us to use fewer datum constraints, so our sketch looks less cluttered.
 
-## Esquema Ótimo: Principalmente Restrições Geométricas {#esquema_ótimo_principalmente_restrições_geométricas}
+## Esquema Ótimo: Principalmente Restrições Geométricas 
 
-5\. We will draw the same square fully constrained, and centered at the origin. When you create the new sketch, make sure the {{MenuCommand|Auto constraints}} option is disabled.
+5\. We will draw the same square fully constrained, and centered at the origin. When you create the new sketch, make sure the **Auto constraints** option is disabled.
 
 :   5.1. Click on **<img src="images/Sketcher_CreatePolyline.svg‎‎" width=16px> [Create polyline](Sketcher_CreatePolyline.md)**, then trace four lines in the general shape of a rectangle around the origin.
 :   5.2. Select one horizontal line, and press **<img src=images/Constraint_Horizontal.svg style="width:16px"> [Horizontal](‎Sketcher_ConstrainHorizontal.md)**.
@@ -116,7 +116,7 @@ This is a better constrained sketch than the first one. The horizontal and verti
 
 This is the best way to constrain this sketch, as we only used one datum (dimensional) constraint.
 
-## Recursos Adicionais {#recursos_adicionais}
+## Recursos Adicionais 
 
 -   [Basic Sketcher Tutorial](Basic_Sketcher_Tutorial.md)
 -   [Sketcher reference](Sketcher_reference.md)

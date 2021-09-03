@@ -19,7 +19,7 @@
 ## Utilisation
 
 1.  L\'objet <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> [FEM Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md) est créé automatiquement lors de la création d\'un **![](images/)_[Conteneur_d'analyse](FEM_Analysis/fr.md)**, ou utilisez les alternatives suivantes :
-    -   Utilisez {{MenuCommand|Solve → Solveur CalculiX Standard}}.
+    -   Utilisez **Solve → Solveur CalculiX Standard**.
     -   Appuyez sur les touches de raccourci **S** puis **X**.
 
 
@@ -38,7 +38,7 @@ En utilisant **Edit.inp file**, vous pouvez afficher et éditer le fichier d\'en
 
 ## Propriétés
 
-Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Edition → Préférences → FEM → CalculiX}}.
+Les valeurs par défaut peuvent être définies dans le menu **Edition → Préférences → FEM → CalculiX**.
 
 -    {{PropertyData/fr|Analysis Type}}:
 
@@ -91,7 +91,7 @@ Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Editi
 -    {{PropertyData/fr|Type de solveur matriciel}}: type du solveur permettant de résoudre le système d\'équation dans l\'analyse FE. Cela peut affecter de manière significative la vitesse de calcul et la mémoire requise. La pertinence dépend du modèle de votre FE et du matériel disponible.
 
     -   défaut - sélectionne automatiquement le solveur matriciel en fonction des solveurs disponibles (il s\'agira probablement de Spooles)
-    -   spooles - résolveur direct avec prise en charge de plusieurs processeurs. Le nombre de processeurs doit être défini dans {{MenuCommand|Edition → Préférences → FEM → CalculiX → Solver defaults → Number of CPU's to use}}.
+    -   spooles - résolveur direct avec prise en charge de plusieurs processeurs. Le nombre de processeurs doit être défini dans **Edition → Préférences → FEM → CalculiX → Solver defaults → Number of CPU's to use**.
     -   iterativescaling - solutionneur itératif nécessitant peu de mémoire, approprié si le modèle contient principalement des éléments 3D
     -   iterativecholesky - solutionneur itératif avec préconditionnement avec et avec de faibles besoins en mémoire, approprié si le modèle contient principalement des éléments 3D
 

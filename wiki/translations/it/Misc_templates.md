@@ -22,32 +22,32 @@ Nei modelli possono essere inseriti diversi attributi personalizzati. L\'elenco 
 
 <div class="mw-translate-fuzzy">
 
-### A3 Landscape IT Testo Completo con Convenzione EU.svg {#a3_landscape_it_testo_completo_con_convenzione_eu.svg}
+### A3 Landscape IT Testo Completo con Convenzione EU.svg 
 
 
 </div>
 
 <img alt="" src=images/A3_Landscape_IT_Text_Complet_With_convention_EU.svg  style="width:800px;">
 
-### A3 Landscape IT Testo Completo con Convenzione US {#a3_landscape_it_testo_completo_con_convenzione_us}
+### A3 Landscape IT Testo Completo con Convenzione US 
 
 <img alt="" src=images/A3_Landscape_IT_Text_Complet_With_convention_US.svg  style="width:800px;">
 
-### A3 Landscape IT Testo Completo Senza Convenzione {#a3_landscape_it_testo_completo_senza_convenzione}
+### A3 Landscape IT Testo Completo Senza Convenzione 
 
 <img alt="" src=images/A3_Landscape_IT_Text_Complet_Without_convention.svg  style="width:800px;">
 
-### A4 Orizzontale US {#a4_orizzontale_us}
+### A4 Orizzontale US 
 
 <img alt="A4\_Landscape US Text Complet With Convention EU" src=images/A4_Landscape_US_Text_Complet_With_Convention_EU.svg  style="width:800px;">
 
-### A4 Portrait US Text Complet With Convention EU {#a4_portrait_us_text_complet_with_convention_eu}
+### A4 Portrait US Text Complet With Convention EU 
 
 <img alt="A4\_Portrait US Text Complet With Convention EU" src=images/A4_Portrait_US_Text_Complet_With_Convention_EU.svg  style="width:400px;">
 
-### I cartigli più utilizzati nei modelli FreeCAD {#i_cartigli_più_utilizzati_nei_modelli_freecad}
+### I cartigli più utilizzati nei modelli FreeCAD 
 
-#### Convenzione EU US {#convenzione_eu_us}
+#### Convenzione EU US 
 
 Simboli utilizzati per definire un tipo di [proiezione](http://commons.wikimedia.org/wiki/File:Convention_placement_vues_dessin_technique.svg).
 
@@ -59,27 +59,27 @@ Simboli utilizzati per definire un tipo di [proiezione](http://commons.wikimedia
 
 </center>
 
-#### Cartiglio modello 1 {#cartiglio_modello_1}
+#### Cartiglio modello 1 
 
 <img alt="Cartiglio modello 01" src=images/Cartouche_01_IT.svg  style="width:400px;">
 
-#### Cartiglio modello 2 {#cartiglio_modello_2}
+#### Cartiglio modello 2 
 
 <img alt="Cartiglio modello 02" src=images/Cartouche_02_IT.svg  style="width:400px;">
 
-#### Cartiglio modello 3 {#cartiglio_modello_3}
+#### Cartiglio modello 3 
 
 <img alt="Cartiglio modello 03" src=images/Cartouche_03_IT.svg  style="width:400px;">
 
-#### Cartiglio modello 4 {#cartiglio_modello_4}
+#### Cartiglio modello 4 
 
 <img alt="Cartglio modello 04" src=images/Cartouche_04_IT.svg  style="width:400px;">
 
-### Rosa dei venti {#rosa_dei_venti}
+### Rosa dei venti 
 
 <img alt="CompassRose" src=images/CompassRose.svg  style="width:200px;">
 
-### Modelli in formato .FCStd format {#modelli_in_formato_.fcstd_format}
+### Modelli in formato .FCStd format 
 
 
 <div class="mw-translate-fuzzy">
@@ -97,7 +97,7 @@ CompassRose\_2D [CompassRose\_2D.FCStd](http://forum.freecadweb.org/download/fil
 
 CompassRose\_3D [CompassRose\_3D.FCStd](http://forum.freecadweb.org/download/file.php?id=6502)
 
-### Altri modelli standard disponibili {#altri_modelli_standard_disponibili}
+### Altri modelli standard disponibili 
 
 -   [Modelli Drawing](Drawing_templates/it.md): modelli default di FreeCAD
 -   [Modelli Arch](Arch_templates/it.md): modelli secondo lo standard [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute) del American National Standards Institute

@@ -22,7 +22,7 @@ Um ein Grundelement zu erstellen, entweder
 
 \#\* drücke die **<img src="images/Part_Primitives.svg" width=24px> '''Erstelle Grundelement'''** Schaltfläche in der Werkzeugleiste.
 
-\#\* wähle den {{{MenuCommand|Part → Grundelement erstellen...}}} in der Menüleiste.
+\#\* wähle den {**Part → Grundelement erstellen...**} in der Menüleiste.
 
 \#\* Wähle im erscheinenden Dialogfeld den Grundelementtyp, stelle seine Parameter und seinen Speicherort ein und drücke schließlich **Erstellen**. Der Dialog bleibt offen, so dass du anschließend weitere Grundelemente erstellen kannst.
 
@@ -39,7 +39,7 @@ Verwendung des [Eigenschaftseditors](Property_editor/de.md):
 1.  Wähle das Grundelement im Baum aus.
 2.  Bearbeite seine Eigenschaften in der Tabelle Eigenschaften.
 
-## Geometrische Grundelemente {#geometrische_grundelemente}
+## Geometrische Grundelemente 
 
 
 <div class="mw-translate-fuzzy">

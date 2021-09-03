@@ -23,15 +23,15 @@ Zobacz artykuł [Pomóż w rozwoju FreeCAD](Help_FreeCAD.md), aby dowiedzieć si
 
 Starsze uwagi na temat wydania FreeCAD można znaleźć na stronie [Lista funkcji](Feature_list/pl#Informacje_o_wydaniu.md).
 
-## Najważniejsze informacje {#najważniejsze_informacje}
+## Najważniejsze informacje 
 
-## Informacje ogólne {#informacje_ogólne}
+## Informacje ogólne 
 
-### Python 3 oraz Qt5 {#python_3_oraz_qt5}
+### Python 3 oraz Qt5 
 
-### Znane problemy {#znane_problemy}
+### Znane problemy 
 
-### W rozwoju {#w_rozwoju}
+### W rozwoju 
 
 Aby przeprowadzić [kompilację w systemie Windows](Compile_on_Windows/pl.md), dostępne są różne Libpacki *(wstępnie spakowane biblioteki)*:
 
@@ -41,9 +41,9 @@ Inne wiadomości dotyczące rozwoju:
 
 ### Dokumentacja
 
-### Znane problemy {#znane_problemy_1}
+### Znane problemy 
 
-## Interfejs użytkownika {#interfejs_użytkownika}
+## Interfejs użytkownika 
 
 +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ![](images/Navi_Cube_relnotes_0.20.gif ) | Kostka nawigacyjna została przerobiona, aby umożliwić korzystanie z tych nowych funkcji:                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -60,33 +60,33 @@ Inne wiadomości dotyczące rozwoju:
   ![](images/Improved_tooltips_relnotes_0.20.gif )   Tooltipy wyświetlają teraz nazwę polecenia w tytule, ułatwiając nowym użytkownikom szukanie pomocy. Na końcu podpowiedzi, pomiędzy nawiasami, użytkownik może również przeczytać *(Std\_WhatsThis)*, które dokładnie odpowiadają nazwie strony wiki. [dyskusja na Forum](https://forum.freecadweb.org/viewtopic.php?f=34&t=58747), [pull request \#4502](https://github.com/FreeCAD/FreeCAD/pull/4978).
   -------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Dalsze ulepszenia interfejsu użytkownika {#dalsze_ulepszenia_interfejsu_użytkownika}
+### Dalsze ulepszenia interfejsu użytkownika 
 
 -   Możliwe jest teraz przesuwanie widoku [dependency graph](Std_DependencyGraph.md) za pomocą myszy. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=34791), [pull request \#4638](https://github.com/FreeCAD/FreeCAD/pull/4638).
 -   Naprawiono błąd, który powodował, że korzystanie z urządzeń wyposażonych w pióro (np. z tabletu Wacom) było powolne do tego stopnia, że było całkowicie nieużyteczne. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=45046), [pull request \#4687](https://github.com/FreeCAD/FreeCAD/pull/4687).
 
-## Aplikacja::Łączenie i montaż {#aplikacjałączenie_i_montaż}
+## Aplikacja::Łączenie i montaż 
 
-## System podstawowy, App, baza i przestrzenie nazw GUI {#system_podstawowy_app_baza_i_przestrzenie_nazw_gui}
+## System podstawowy, App, baza i przestrzenie nazw GUI 
 
-## Menadżer dodatków {#menadżer_dodatków}
+## Menadżer dodatków 
 
-## Środowisko pracy Architektura {#środowisko_pracy_architektura}
+## Środowisko pracy Architektura 
 
-## Środowisko pracy Rysunek Roboczy {#środowisko_pracy_rysunek_roboczy}
+## Środowisko pracy Rysunek Roboczy 
 
-### Kolejne ulepszenia dla środowiska Rysunek Roboczy {#kolejne_ulepszenia_dla_środowiska_rysunek_roboczy}
+### Kolejne ulepszenia dla środowiska Rysunek Roboczy 
 
 -   Jest teraz możliwe odwrócenie [linii łamanej](Draft_Wire/pl.md) poprzez menu kontekstowe [edycja](Draft_Edit/pl.md). [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [pull request \#4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
 
-## Środowisko pracy MES {#środowisko_pracy_mes}
+## Środowisko pracy MES 
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   <img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature_relnotes_0.20.png  style="width:384px;">Efekt funkcji *Rozmiar siatki na podstawie krzywizny*, po lewej: ustawiona na 12, po prawej: wyłączona                 Pojawiła się nowa właściwość generatora siatki [Gmsh](FEM_MeshGmshFromShape/pl.md). Można określić liczbę elementów siatki na $2\pi$ razy promień krzywizny. Domyślnie jest to 12 i aby uzyskać drobniejszą siatkę na małych rogach lub otworach, wartość ta może być zwiększona dla lepszych rezultatów. Ta funkcja wymaga wersji Gmsh 4.8 lub nowszej. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=56401), [pull request \#4596](https://github.com/FreeCAD/FreeCAD/pull/4596)
   <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width:384px;">Efekt działania algorytmu rekombinacji; po lewej: przy użyciu *Simple*, po prawej: przy użyciu *Simple full-quad*.   FreeCAD pozwala teraz wybrać algorytm, jak również metodę rekombinacji siatki 3D dla generatora siatek [Gmsh](FEM_MeshGmshFromShape/pl.md). Więcej szczegółów na temat rekombinacji elementów siatki można znaleźć na tej stronie [Rekombinacja elementów](FEM_MeshGmshFromShape/pl#Rekombinacja_element.C3.B3w.md). [Pull request \#4706](https://github.com/FreeCAD/FreeCAD/pull/4706)
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Dalsze ulepszenia MES {#dalsze_ulepszenia_mes}
+### Dalsze ulepszenia MES 
 
 -   Kolejność elementów w generatorze siatek [Gmsh](FEM_MeshGmshFromShape/pl.md) może być zmieniona poprzez okno dialogowe siatki [PR \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660).
 -   Karty materiałowe mogą teraz zawierać wartości przewodności elektrycznej [PR \#4647](https://github.com/FreeCAD/FreeCAD/pull/4647).
@@ -96,39 +96,39 @@ Inne wiadomości dotyczące rozwoju:
 
 ## Import
 
-## Postępowanie z materiałami {#postępowanie_z_materiałami}
+## Postępowanie z materiałami 
 
-## Środowisko pracy Siatka {#środowisko_pracy_siatka}
+## Środowisko pracy Siatka 
 
-### Planowane ulepszenia {#planowane_ulepszenia}
+### Planowane ulepszenia 
 
-## Środowisko pracy OpenSCAD {#środowisko_pracy_openscad}
+## Środowisko pracy OpenSCAD 
 
 Ulepszono współdziałanie z OpenSCAD, dodając obsługę kilku operacji, których brakowało we wcześniejszych wersjach (wyciągnięcia liniowe z obrotem, wyciągnięcia obrotowe). Kilka operacji zostało zmodyfikowanych, aby zapewnić ulepszone odpowiedniki obiektów FreeCAD, szczególnie w przypadku skręconych wyciągnięć. Zmodyfikowano generowanie powierzchni z danych dyskretnych, aby uzyskać wyniki bardziej podobne do OpenSCAD, niż powierzchnie wielowypustowe.
 
-## Środowisko pracy Część {#środowisko_pracy_część}
+## Środowisko pracy Część 
 
-### Planowane ulepszenia {#planowane_ulepszenia_1}
+### Planowane ulepszenia 
 
 -   Okno dialogowe do edycji [walców](Part_Cylinder/pl.md) pozwala teraz na określenie kąta względem wektora normalnego wybranej płaszczyzny mocowania. W ten sposób można tworzyć przechylone walce. [Pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
 
-## Środowisko pracy Projekt Części {#środowisko_pracy_projekt_części}
+## Środowisko pracy Projekt Części 
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width:384px;">Efekt działania nowej opcji *Długość wzdłuż wektora normalnego szkicu*.Kliknij na obrazek, aby wyświetlić animację.   Pojawiła się nowa opcja dopasowywania określonej długości wzdłuż kierunku. Długość jest mierzona wzdłuż wektora normalnego szkicu lub wzdłuż kierunku niestandardowego. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=50466), [pull request \#3893](https://github.com/FreeCAD/FreeCAD/pull/3893)
   <img alt="" src=images/PartDesign_Cylinder_direction.png  style="width:384px;">                                                                                                                                                                                Okno dialogowe do edycji [walca](PartDesign_AdditiveCylinder/pl.md) *(addytywny i subtraktywny)* pozwala teraz na określenie kąta względem wektora normalnego wybranej płaszczyzny mocowania. W ten sposób można tworzyć skośne walce. [pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Planowane ulepszenia {#planowane_ulepszenia_2}
+### Planowane ulepszenia 
 
 -   Funkcja [Helisa](PartDesign_AdditiveHelix/pl.md) posiada nowy tryb **Wysokość - liczba obrotów - poszerzenie** do tworzenia płaskich spiral [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=19&t=56378) [PR \#4590](https://github.com/FreeCAD/FreeCAD/pull/4590)
 -   Funkcja [Koło łańcuchowe](PartDesign_Sprocket/pl.md) może teraz tworzyć również koła łańcuchowe zgodne z normami ISO [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525#p478369) [PR \#4478](https://github.com/FreeCAD/FreeCAD/pull/4478)
 
-## Środowisko pracy Path {#środowisko_pracy_path}
+## Środowisko pracy Path 
 
-## Środowisko pracy Render {#środowisko_pracy_render}
+## Środowisko pracy Render 
 
-## Środowisko pracy Szkicownik {#środowisko_pracy_szkicownik}
+## Środowisko pracy Szkicownik 
 
   --------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   <img alt="" src=images/SketcherSplitExample2_relnotes_0.20.png )                                                  Nowa funkcja do ![](images/Sketcher_Split.svg  style="width:24px;"> [rozdzielania](Sketcher_Split/pl.md) istniejących linii lub łuków. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=55412) [pull request \#4420](https://github.com/FreeCAD/FreeCAD/pull/4420)
@@ -138,57 +138,57 @@ Ulepszono współdziałanie z OpenSCAD, dodając obsługę kilku operacji, któr
   <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                          Nowe narzędzie ![](images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> [Usuń wyrównanie osi](Sketcher_RemoveAxesAlignment/pl.md) do usuwania wyrównania osi przy jednoczesnej próbie zachowania relacji wiązań zaznaczenia. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
   --------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Planowane ulepszenia {#planowane_ulepszenia_3}
+### Planowane ulepszenia 
 
 -   Zaktualizowana obsługa przycinania [Pull Request](https://github.com/FreeCAD/FreeCAD/pull/4330) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=54441) \<\-- Potrzebuje prezentacji ekranów
 -   Zachowanie funkcji <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> [rowek](Sketcher_CreateSlot/pl.md) uległo zmianie. Rowki mogą być teraz tworzone poprzez zdefiniowanie środka obu półokręgów. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4843) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
 -   Automatyzacja widoczności pozwala na otwarcie Szkicownika w [trybie przekroju](Sketcher_ViewSection/pl.md) po wejściu do trybu edycji. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4742) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=57056)
 -   Automatyzacja widoczności pozwala na wymuszenie pracy ujęcia widoku w [trybie ortogonalnym](Std_OrthographicCamera/pl.md) przy wejściu w tryb edycji. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4778) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=44747)
 
-### Poprawki błędów {#poprawki_błędów}
+### Poprawki błędów 
 
 -   Naprawiono opcję „Odniesienie" niedziałającą dla promienia/średnicy w czasie tworzenia [PR dla promienia](https://github.com/FreeCAD/FreeCAD/pull/4744) [4832 PR dla średnicy](https://github.com/FreeCAD/FreeCAD/pull/) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584)
 
-## Środowisko pracy Arkusz Kalkulacyjny {#środowisko_pracy_arkusz_kalkulacyjny}
+## Środowisko pracy Arkusz Kalkulacyjny 
 
 -   W menu kontekstowym wiersza / kolumny można teraz wybrać, w jakich pozycjach będą wstawiane nowe wiersze / kolumny. Ponadto, przy zaznaczeniu kilku wierszy / kolumn, menu kontekstowe wiersza / kolumny oferuje teraz możliwość wstawienia tylu nowych wierszy / kolumn, ile zostało zaznaczonych. [pull request \#4704](https://github.com/FreeCAD/FreeCAD/pull/4704).
 
-## Środowisko pracy Start {#środowisko_pracy_start}
+## Środowisko pracy Start 
 
-## Środowisko pracy Surface {#środowisko_pracy_surface}
+## Środowisko pracy Surface 
 
-## Środowisko pracy Rysunek Techniczny {#środowisko_pracy_rysunek_techniczny}
+## Środowisko pracy Rysunek Techniczny 
 
-### Kolejne ulepszenia dla środowiska Rysunek Techniczny {#kolejne_ulepszenia_dla_środowiska_rysunek_techniczny}
+### Kolejne ulepszenia dla środowiska Rysunek Techniczny 
 
-## Środowisko pracy Web {#środowisko_pracy_web}
+## Środowisko pracy Web 
 
-## Moduły dodatkowe {#moduły_dodatkowe}
+## Moduły dodatkowe 
 
-### Narzędzia do druku 3D {#narzędzia_do_druku_3d}
+### Narzędzia do druku 3D 
 
-### Środowisko pracy A2plus {#środowisko_pracy_a2plus}
+### Środowisko pracy A2plus 
 
-### Środowisko pracy Złożenie 3 {#środowisko_pracy_złożenie_3}
+### Środowisko pracy Złożenie 3 
 
-## Środowisko pracy Złożenie 4 {#środowisko_pracy_złożenie_4}
+## Środowisko pracy Złożenie 4 
 
-### Tekstury architektoniczne {#tekstury_architektoniczne}
+### Tekstury architektoniczne 
 
 ### BOLTSFC
 
-### Środowisko pracy CurvedShapes {#środowisko_pracy_curvedshapes}
+### Środowisko pracy CurvedShapes 
 
-### Środowisko pracy Dodo *(wcześniej Flamingo)* {#środowisko_pracy_dodo_wcześniej_flamingo}
+### Środowisko pracy Dodo *(wcześniej Flamingo)* 
 
-### Środowisko pracy Elementy Złączne {#środowisko_pracy_elementy_złączne}
+### Środowisko pracy Elementy Złączne 
 
-### Środowisko pracy MeshRemodel {#środowisko_pracy_meshremodel}
+### Środowisko pracy MeshRemodel 
 
-### Środowisko pracy MOOC {#środowisko_pracy_mooc}
+### Środowisko pracy MOOC 
 
-### NodeEditor *(PyFlow)* {#nodeeditor_pyflow}
+### NodeEditor *(PyFlow)* 
 
-### Trails PyTrails, Turns oraz pivy\_trackers i Geomatics {#trails_pytrails_turns_oraz_pivy_trackers_i_geomatics}
+### Trails PyTrails, Turns oraz pivy\_trackers i Geomatics 
 
 [Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)

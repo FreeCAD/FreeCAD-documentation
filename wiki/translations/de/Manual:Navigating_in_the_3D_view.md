@@ -6,7 +6,7 @@
 
 {{Manual:TOC/de}}
 
-### Ein Wort zum 3D Raum {#ein_wort_zum_3d_raum}
+### Ein Wort zum 3D Raum 
 
 Wenn dies dein erster Kontakt mit einer 3D Anwendung ist, musst du dich zuerst mit einigen Konzepten vertraut machen. Wenn nicht, kannst du diesen Abschnitt sicher überspringen.
 
@@ -20,7 +20,7 @@ Der Punkt, an dem sich die drei Achsen treffen, ist der Ursprung. Es ist der Pun
 
 Du kannst diese Szene aus jedem Winkel betrachten, als ob du eine Kamera in der Hand hättest. Diese Kamera kann nach links, rechts, oben und unten bewegt (schwenken), um das, worauf sie zeigt, gedreht (drehen) und näher an die Szene herangeführt oder von ihr entfernt werden (zoomen).
 
-### Die FreeCAD 3D Ansicht {#die_freecad_3d_ansicht}
+### Die FreeCAD 3D Ansicht 
 
 #### Mausnavigation
 
@@ -77,7 +77,7 @@ Alternativ sind einige Bedienelemente der Tastatur immer verfügbar, unabhängig
 
 Diese Steuerelemente sind auch über das [Menü Ansicht](Std_View_Menu/de.md) und einige über die Symbolleiste Ansicht verfügbar.
 
-##### Verwendung des Navigationsclusters {#verwendung_des_navigationsclusters}
+##### Verwendung des Navigationsclusters 
 
 In der Standardeinstellung befindet sich ein [Navigationscluster](Navigation_Cube/de.md) in der oberen rechten Ecke der 3D Anzeige. Dieser kann dazu verwendet werden, das angezeigte Objekt um einen festen Betrag zu drehen, die Anzeige auf eine von mehreren Standardansichten zurücksetzen, und den Anzeigemodus zu ändern.
 
@@ -93,7 +93,7 @@ Das Navigationscluster kann durch Ziehen an jede Stelle der 3D Anzeige verschobe
 
 Unten rechts im Cluster befindet sich ein kleinerer Mini Würfel, der ein Aufklappmenü aktiviert, mit dem du den Ansichtsmodus wechseln kannst.
 
-### Objekte anwählen {#objekte_anwählen}
+### Objekte anwählen 
 
 Objekte in der 3D Ansicht können je nach Navigationsmodus (oben beschrieben) durch Anklicken mit der entsprechenden Maustaste ausgewählt werden. Mit einem einzigen Klick werden das Objekt und eine seiner Unterkomponenten (Kante, Fläche, Knoten) ausgewählt. Ein Doppelklick wählt das Objekt und alle seine Unterkomponenten aus. Du kannst mehr als eine Unterkomponente oder sogar verschiedene Unterkomponenten von verschiedenen Objekten auswählen, indem du die STRG Taste drückst. Wenn Sie mit dem Auswahlknopf auf einen leeren Bereich der 3D Ansicht klicken, wird alles abgewählt.
 

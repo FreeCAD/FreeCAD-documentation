@@ -17,7 +17,7 @@ Atelierul PartDesign în FreeCAD v0.17 introduce noi instrumente și elemente ca
 
 <small>(v0.17)</small> 
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">

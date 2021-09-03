@@ -18,16 +18,16 @@ Con il comando **Utilità di progetto** è possibile estrarre i file da un file 
 
 ## Utilizzo
 
-### Estrarre un progetto {#estrarre_un_progetto}
+### Estrarre un progetto 
 
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare l\'opzione {{MenuCommand|Strumenti → Utilità di progetto...}} dal menu.
+1.  Selezionare l\'opzione **Strumenti → Utilità di progetto...** dal menu.
 2.  Viene visualizzata la finestra di dialogo Utilità di progetto.
-3.  Premere il pulsante **...** alla destra di {{MenuCommand|Estrai progetto → Sorgente}}.
+3.  Premere il pulsante **...** alla destra di **Estrai progetto → Sorgente**.
 4.  Selezionare il file {{FileName|*.FCStd}} che si vuole editare.
-5.  Premere il pulsante **...** alla destra di {{MenuCommand|Estrai progetto → Destinazione}}.
+5.  Premere il pulsante **...** alla destra di **Estrai progetto → Destinazione**.
 6.  Selezionare una cartella in cui estrarre il file del progetto. Si consiglia di selezionare una cartella vuota.
 7.  Premere il pulsante **Estrai**.
 8.  Premere il pulsante **Chiudi** per chiudere la finestra di dialogo.
@@ -35,7 +35,7 @@ Con il comando **Utilità di progetto** è possibile estrarre i file da un file 
 
 </div>
 
-### Modifiche manuali {#modifiche_manuali}
+### Modifiche manuali 
 
 
 <div class="mw-translate-fuzzy">
@@ -45,16 +45,16 @@ Con il comando **Utilità di progetto** è possibile estrarre i file da un file 
 
 </div>
 
-### Creare un progetto {#creare_un_progetto}
+### Creare un progetto 
 
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare l\'opzione {{MenuCommand|Strumenti → Utilità di progetto...}} dal menu.
+1.  Selezionare l\'opzione **Strumenti → Utilità di progetto...** dal menu.
 2.  Viene visualizzata la finestra di dialogo Utilità di progetto.
-3.  Premere il pulsante **...** alla destra di {{MenuCommand|Crea progetto → Sorgente}}.
+3.  Premere il pulsante **...** alla destra di **Crea progetto → Sorgente**.
 4.  Selezionare un file {{FileName|Document.xml}}. Il comando trova automaticamente tutti i file collegati.
-5.  Premere il pulsante **...** alla destra di {{MenuCommand|Crea progetto → Destinazione}}.
+5.  Premere il pulsante **...** alla destra di **Crea progetto → Destinazione**.
 6.  Selezionare una cartella in cui creare il nuovo file di progetto.
 7.  Premere il pulsante **Crea**.
 8.  Nella cartella selezionata viene creato un nuovo file di progetto {{FileName|project.fcstd}} con il nome stabilito. Non vi è alcun avviso se esiste già un file con quel nome.

@@ -22,11 +22,11 @@ Both commands can be used on 2D objects created with the [Draft Workbench](Draft
 2.  Add the [point compound](#Point_compound.md) object to the selection.
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_PointArray.svg" width=16px> [Draft PointArray](Draft_PointArray.md)** button.
-    -   Select the {{MenuCommand|Modification → Array tools → <img src="images/Draft_PointArray.svg" width=16px> Point array}} option from the menu.
+    -   Select the **Modification → Array tools → <img src="images/Draft_PointArray.svg" width=16px> Point array** option from the menu.
 4.  The array is created.
 5.  Optionally change the [properties](#Properties.md) of the array in the [Property editor](property_editor.md).
 
-## Point compound {#point_compound}
+## Point compound 
 
 A point compound is an object that contains one or more points. These are the supported point compounds and how they can be created:
 

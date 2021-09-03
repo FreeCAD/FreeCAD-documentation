@@ -15,8 +15,8 @@ The **Std Delete** command deletes selected objects.
 
 1.  Select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|Edit → <img src="images/Std_Delete.svg" width=16px> Delete}} option from the menu.
-    -   Select the {{MenuCommand|<img src="images/Std_Delete.svg" width=16px> Delete}} option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
+    -   Select the **Edit → <img src="images/Std_Delete.svg" width=16px> Delete** option from the menu.
+    -   Select the **<img src="images/Std_Delete.svg" width=16px> Delete** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **Del**.
 
 ## Scripting

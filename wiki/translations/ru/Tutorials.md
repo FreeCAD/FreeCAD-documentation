@@ -12,7 +12,7 @@
 
 Обратите внимание на версию FreeCAD, используемую в учебнике, поскольку некоторые учебники могут использовать старую версию программы. Хотя общий процесс моделирования все еще может работать, некоторые инструменты могут быть изменены.
 
-## Архитектура и BIM {#архитектура_и_bim}
+## Архитектура и BIM 
 
 <File:Arch> tutorial 00.jpg\|link=[Arch tutorial](Arch_tutorial.md)\|[Учебник по архитектурному модулю](Arch_tutorial/ru.md) (v0.14)
 Это основное введение в верстак Arch. Он обширный и демонстрирует типичный рабочий процесс, начиная с импорта плана в формате DXF и до построения объёмной модели. <File:Exercise> arch 01.jpg\|link=[Manual:BIM\_modeling](Manual:BIM_modeling.md)\|[Моделирование BIM](Manual:BIM_modeling/ru.md)
@@ -22,7 +22,7 @@
 Моделирование крышевой панели маленького домика, используя Sketcher, инструменты Window и Panel. <File:Arch_Wikihouse_01.jpg%7Clink=>[Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)\|[Моделирование в Wikihouse](Wikihouse_porting_tutorial/ru.md)
 Перемоделирование проекта WikiHouse с использованием эскизов и панелей, начиная с импорта сетки, созданной в SketchUp.
 
-## Моделирование деталей {#моделирование_деталей}
+## Моделирование деталей 
 
 FreeCAD предлагает два варианта рабочего процесса для моделирования деталей:
 
@@ -56,7 +56,7 @@ FreeCAD предлагает два варианта рабочего проце
 -   [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), моделирование полного шахматного набора в стиле Bauhaus modernist.
 -   [raspberrypilearning](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) хранилище (CC-BY 4.0) с прочими примерами.
 
-## Черчение и эскизирование {#черчение_и_эскизирование}
+## Черчение и эскизирование 
 
 Exercise cabin 01.jpg\|link=[Manual:Traditional 2D drafting/ru](Manual:Traditional_2D_drafting/ru.md)\|[Традиционное двумерное черчение](Manual:Traditional_2D_drafting/ru.md)
 Черчение планов линиями, ломанными, прямоугольниками, дугами, добавление штриховки, аннотаций и размеров. Экспорт результатов в DXF. 00\_Dr01\_Draft\_Tutorial\_final.png\|link=[Draft\_tutorial/ru](Draft_tutorial/ru.md)\|[Учебник Draft](Draft_tutorial/ru.md) (v0.19)
@@ -65,14 +65,14 @@ Exercise cabin 01.jpg\|link=[Manual:Traditional 2D drafting/ru](Manual:Tradition
 Это базовое введение в инструменты верстака Sketcher: конструктивный режим, линии, окружности, дуги, ограничения (равенство, вертикальности, горизонтальности, тангенциальности, расстояния, угла, радиуса). 03d\_Sk02\_Sketcher\_Rectangle\_constrained\_length.png\|link=[Sketcher\_Micro\_Tutorial\_-\_Constraint\_Practices/ru](Sketcher_Micro_Tutorial_-_Constraint_Practices/ru.md)\|[Практика по ограничениям Sketcher](Sketcher_Micro_Tutorial_-_Constraint_Practices/ru.md) (v0.19)
 Обучение эффективным ограничениям эскиза. Предпочтение геометрических ограничений перед численными ограничениями.
 
-## Технические чертежи {#технические_чертежи}
+## Технические чертежи 
 
 TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial/ru](Basic_TechDraw_Tutorial/ru.md)\|[Базовый учебник TechDraw](Basic_TechDraw_Tutorial/ru.md) (v0.17)
 Это необходимое введение в инструменты верстака TechDraw: страница, вид, масштаб, вертикальные и горизонтальные размеры, аннотации, projection groups, привязывание размеров к трёхмерному виду. <File:FCTemplateHow.png%7Clink=>[TechDraw\_TemplateHowTo/ru](TechDraw_TemplateHowTo/ru.md)\|[Создание шаблона страницы](TechDraw_TemplateHowTo/ru.md) (v0.17)
 Инструкция создания шаблона страницы в Inkscape для использования с верстаком TechDraw. Определение размера листа, рисование рамки листа, определение фиксированного текста и редактируемых полей. <File:AnHi1.png%7Clink=>[Measurement Of Angles On Holes/ru](Measurement_Of_Angles_On_Holes/ru.md)\|[Измерение углов в отверстиях](Measurement_Of_Angles_On_Holes/ru.md) (v0.19)
 Инструкции для добавления центральных линий и представление внутренних углов в отверстиях.
 
-## FEM (расчёт методом конечных элементов) {#fem_расчёт_методом_конечных_элементов}
+## FEM (расчёт методом конечных элементов) 
 
 FEM example01 pic00.jpg\|link=[FEM CalculiX Cantilever 3D/ru](FEM_CalculiX_Cantilever_3D/ru.md)\|[CalculiX cantilever FEM analysis](FEM_CalculiX_Cantilever_3D/ru.md) (v0.17)
 Этот пример включён в любую установку FreeCAD; он показывает базовый анализ вычислителем CalculiX FE. Вычищаем текущий результат, перезапускаем вычислитель, и смотрим в окне смещения и нагрузки деформированной сетки. FEM tutorial result.png\|link=[FEM tutorial/ru](FEM_tutorial/ru.md)\|[Простое введение в МКЭ](FEM_tutorial/ru.md) (v0.17)
@@ -81,13 +81,13 @@ FEM example01 pic00.jpg\|link=[FEM CalculiX Cantilever 3D/ru](FEM_CalculiX_Canti
 Оценка уровня армирования железобетона для предотвращения растрескивания при растяжении или сдвиге. FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview/ru](Post-Processing_of_FEM_Results_with_Paraview/ru.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview/ru.md) (v0.19)
 Этот учебник объясняет основы передачи данных из верстка FEM в Paraview и показывает некоторые опции и установки для показа данных.
 
-## ЧПУ и печать в 3D {#чпу_и_печать_в_3d}
+## ЧПУ и печать в 3D 
 
 Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient/ru](Path_Walkthrough_for_the_Impatient/ru.md)\|[Верстак Path для нетерпеливых](Path_Walkthrough_for_the_Impatient/ru.md)
 Это быстрое представление рабочего процесса верстака Path: создание работы, определение выхода, определение фрез, определение маршрутных операций, начало симуляции и генерация выходного файла с G-кодом. Exercise meshing 03.jpg\|link=[Manual:Preparing models for 3D printing](Manual:Preparing_models_for_3D_printing.md)\|[Подготовка модели к трёхмерной печати](Manual:Preparing_models_for_3D_printing/ru.md) (v0.16)
 Преобразование твердотельного объекта в сеточный через верстак Mesh, экспорт сетки в формат STL, и использование Slic3r для генерации G-кода. Либо использование для генерации G-кода верстаков Cura или Path.
 
-## Импорт и экспорт {#импорт_и_экспорт}
+## Импорт и экспорт 
 
 Dxf Importer Install 11.png\|link=[Dxf Importer Install/ru](Dxf_Importer_Install/ru.md)\|[Установка DXF importer](Dxf_Importer_Install/ru.md)
 Установка в вашей системе программы DXF importer для открытия файлов DXF и DWG с помощью FreeCAD.
@@ -103,7 +103,7 @@ Exercise raytracing 05.jpg\|link=[Manual:Creating renderings/ru](Manual:Creating
 
 <div class="mw-translate-fuzzy">
 
-## Верстак Robot {#верстак_robot}
+## Верстак Robot 
 
 
 </div>
@@ -140,7 +140,7 @@ Drawing\_tutorial\_result.png\|link=[Drawing tutorial/ru](Drawing_tutorial/ru.md
 Это базовое введение в инструменты верстака Drawing для создания рабочих чертежей. Exercise drawing 01.jpg\|link=[Manual:Generating 2D drawings/ru](Manual:Generating_2D_drawings/ru.md)\|[Генерация плоских чертежей](Manual:Generating_2D_drawings/ru.md) (v0.16)
 Генерация двумерных проекций ваших трёхмерных моделей, и добавление размеров.
 
-## Учебники - Полный список {#учебники___полный_список}
+## Учебники - Полный список 
 
 Здесь перечислены все учебники, которых нет в руководстве **независимо от их качества**. Если учебник имеется в [:Category:Tutorials](:Category:Tutorials.md), но нет в таблице, вставьте его сюда.
 

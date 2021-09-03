@@ -30,7 +30,7 @@ En primer lugar, descargue e instale FreeCAD. Consulte la página [Descargar](Do
 
 </div>
 
-## Explorando la interfaz {#explorando_la_interfaz}
+## Explorando la interfaz 
 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
@@ -68,7 +68,7 @@ Cuando comienzas FreeCAD por primera vez, se te presenta el centro de inicio. Es
 
 El centro de inicio te permite dirigirte rapidamente a uno de los ambientes de trabajo mas comunes, abre uno de los archivos recientes, u observa las ultimas noticias del mundo de FreeCAD. Puedes cambiar el banco de trabajo predeterminado dentro de [preferencias](Preferences_Editor/es.md).
 
-## Navegando en el espacio 3D {#navegando_en_el_espacio_3d}
+## Navegando en el espacio 3D 
 
 FreeCAD tiene tres diferentes [Modos de navegación](Mouse_navigation/es.md) disponibles, que se pueden establecer en las preferencias del diálogo de configuración o cambiar pulsando el botón derecho en la vista 3D. Para ver más detalles sobre los modos mira la página [Modos de navegación](Mouse_navigation/es.md). Para el modo de navegación por defecto **Navegación CAD**(Puedes cambiar rapidamente el actual modo de navegación dado clic derecho en un area vaci de la vista 3D):
 
@@ -108,7 +108,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 También tiene varias vistas preconfiguradas (vista superior, vista frontal, etc.) disponibles en el menú Ver, en la barra de herramientas Ver, y, por atajos numéricos (**1**, **2**, etc\...). Dado clic derecho sobre un objeto o sobre un area vacia de la vista 3D, tienes acceso directo a algunas operaciones comunes, tal como configurar una vista particular, o ubicar un objeto en la vista de árbol.
 
-## Primeros paso con FreeCAD {#primeros_paso_con_freecad}
+## Primeros paso con FreeCAD 
 
 El enfoque de FreeCAD es permitirte hacer modelos 3D de alta presición, para mantener un control ajustado sobre estos modelos(ser capaz de retroceder dentro del historial de modelado y cambiar parametros), y eventualmente construir estos modelos (impresion 3D, mecanizado CNC o incluso sitio de construción). Es por lo tanto muy diferente de algunas otras aplicaciones 3D hechas para otros propositos, tal como animacion o juegos. Su curva de aprendizaje puede ser doloroza, especialmente si este es tu primer contacto con modelado 3D. Si esta atorado en algun punto, no olvides que la amigable comunidad de usuarios en el [Foro de FreeCAD](http://forum.freecadweb.org/index.php) podrian sacarte en poco tiempo.
 
@@ -116,7 +116,7 @@ El ambiente de trabajo que empezaras a utilizar depende sobre el tipo de trabajo
 
 Tú puedes cambiar de ambiente de trabajo en el momento que quieras, y también [personalizar](Interface_Customization/es.md) tu Ambiente de trabajo favoritos agregando herramientas de otros Ambiente de trabajos.
 
-## Trabajando con el Ambiente de trabajo DiseñoPiezas y Ambiente de trabajo Croquizador {#trabajando_con_el_ambiente_de_trabajo_diseñopiezas_y_ambiente_de_trabajo_croquizador}
+## Trabajando con el Ambiente de trabajo DiseñoPiezas y Ambiente de trabajo Croquizador 
 
 El [Ambiente de trabajo diseño de parte](PartDesign_Workbench/es.md) esta especialmente hecho para hacer objetos complejos, iniciando a partir de simples formas, y agregando o removiendo piezas (que nosotros llamamos \"características\"),hasta que obtienes tu objeto final.Todas las características que tu apliques durante el proceso modelado seran almacenadas en una vista separada llamada [vista de árbol](Document_structure/es.md), el cual contiene los otros objetos de tu documento.Puedes pensar que los objetos de diseño de parte son como una sucesión de operaciones, cada una aplicada al resultado del que lo precede, formando una gran cadena. Dentro de la vista de árbol, puedes ver el objeto final, pero puedes expandirla y contraer todos los estados que lo preceden, y cambiar cualquiera de sus parámetros, el cual automáticamente actualiza el objeto final.
 
@@ -140,7 +140,7 @@ El cual te da un objeto como este:
 
 En cualquier momento, puedes seleccionar el origen del croquis y modificarlo, o cambiar los parametros de extrusión de la plataforma u operaciones de baciado, las cuales actualizarán el objeto final.
 
-## Trabajando con el Ambiente de trabajo Borrador y el Ambiente de trabajo Arquitectura {#trabajando_con_el_ambiente_de_trabajo_borrador_y_el_ambiente_de_trabajo_arquitectura}
+## Trabajando con el Ambiente de trabajo Borrador y el Ambiente de trabajo Arquitectura 
 
 El [Ambiente de trabajo Borrador](Draft_Workbench/es.md) y [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) se comportan un poco diferente que los otros bancos de trabajo de arriba, a pesar que ellos siguen las mismas reglas, las cuales son comunes de todo FreeCAD. En breve, mientras el Boceto y diseño de parte están hechas primeramente para diseñar piezas sencillas, borrador y arquitectura son hechos para facilitar tu trabajo cuando están trabajando con varios, objetos sencillos.
 
@@ -164,7 +164,7 @@ El cual te dará esto:
 
 Más en la [Tutorialespágina](Tutorials/es.md).
 
-## Complementos, Macro y Ambiente de trabajo Externos {#complementos_macro_y_ambiente_de_trabajo_externos}
+## Complementos, Macro y Ambiente de trabajo Externos 
 
 Freecad, como software de código abierto, ofrece la posibilidad de complementar sus ambiente de trabajo con complementos.
 
@@ -179,7 +179,7 @@ There are two types of addons:
 
 Y finalmente, una de las características más poderosas de FreeCAD es el entorno [scripting](scripting/es.md). Desde la consola python integrada (o desde cualquier otro script python externo), se puede acceder a casi cualquier parte de FreeCAD, crear o modificar la geometría, modificar la representación de esos objetos en la escena 3D o acceder y modificar la interfaz de FreeCAD. El script Python también se puede utilizar en [macros](macros/es.md), que proporcionan un método sencillo para crear comandos personalizados.
 
-## ¿Qué hay de nuevo {#qué_hay_de_nuevo}
+## ¿Qué hay de nuevo 
 
 -   Vea la [notas de lanzamiento](Feature_list/es#Release_notes.md) para la lista detallada de características.
 

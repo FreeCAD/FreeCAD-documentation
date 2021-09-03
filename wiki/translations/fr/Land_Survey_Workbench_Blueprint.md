@@ -15,7 +15,7 @@ If you are not involved with the development discussed here:<br>
 
 Cette page répertorie les exigences et la mise en œuvre d\'un nouvel établi utilisable dans le domaine de [Land Survey (Arpentage)](http://en.wikipedia.org/wiki/Land_survey). La page est un peu dépassée. Vous trouverez les dernières informations sur le fil de discussion: <http://forum.freecadweb.org/viewtopic.php?f=8&t=6973>
 
-## Selection rectangle {#selection_rectangle}
+## Selection rectangle 
 
 > Un nouveau mode souris peut être requis:
 >
@@ -37,7 +37,7 @@ Les blocs sont des objets qui se comportent dans la plupart des cas comme un seu
 
 > S\'il y a un Upgrade/Downgrade, cette fonctionnalité peut déjà être présente.
 
-### Attributs dynamiques {#attributs_dynamiques}
+### Attributs dynamiques 
 
 Variables. Composants du bloc qui peuvent être modifiés sans changer la définition du bloc. La position à l\'intérieur du bloc est l\'un de ces attributs.
 
@@ -49,11 +49,11 @@ Dans l\'arpentage, les points sont généralement associés à des nombres, à u
 
 > Les blocs avec des propriétés dynamiques devraient le faire.
 
-## Querry tools for 2 and a half system {#querry_tools_for_2_and_a_half_system}
+## Querry tools for 2 and a half system 
 
 La position plane est généralement découplée (en particulier dans les applications de cadastre) de la hauteur. Lorsque vous voulez connaître la distance entre deux points, vous voulez en fait connaître la distance en projection horizontale. Le plan horizontal est XY, Y pointant vers le nord. Z pointe vers le haut (altitude positive).
 
-## Format de texte enrichi ; Tableaux {#format_de_texte_enrichi_tableaux}
+## Format de texte enrichi ; Tableaux 
 
 Support général pour le [format de texte enrichi](https://fr.wikipedia.org/wiki/Rich_Text_Format).
 

@@ -23,37 +23,37 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Optionally select one or more objects, or one or more subelements of [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Scale.svg" width=16px> [Draft Scale](Draft_Scale.md)** button.
-    -   Select the {{MenuCommand|Modification → <img src="images/Draft_Scale.svg" width=16px> Scale}} option from the menu.
+    -   Select the **Modification → <img src="images/Draft_Scale.svg" width=16px> Scale** option from the menu.
     -   Use the keyboard shortcut: **S** then **C**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
-4.  The {{MenuCommand|Scale}} task panel opens. See [Options](#Options.md) for more information.
-5.  If subelements have been selected: check the {{MenuCommand|Modify subelements}} checkbox to switch on subelement mode.
+4.  The **Scale** task panel opens. See [Options](#Options.md) for more information.
+5.  If subelements have been selected: check the **Modify subelements** checkbox to switch on subelement mode.
 6.  Pick the base point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 7.  Enter the X, Y and Z scale factors.
 8.  Press **Enter** or the **OK** button to finish the command.
 
 ## Options
 
-### First task panel {#first_task_panel}
+### First task panel 
 
 The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
 -   To manually enter the coordinates for the base point enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   The {{MenuCommand|Relative}} checkbox has no purpose for this command.
--   Press **G** or click the {{MenuCommand|Global}} checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   The **Relative** checkbox has no purpose for this command.
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
 -   The remaining checkboxes in this task panel are ignore by the command.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press the **Close** button to abort the command.
 
-### Second task panel {#second_task_panel}
+### Second task panel 
 
 -   Enter the X, Y and Z factors to define the scaling. The values must be larger than zero.
--   Check the {{MenuCommand|Uniform scaling}} checkbox to lock the X, Y and Z factors to the same value. For this setting to take effect one of the scale factors has to be changed. Alternatively you can click in the inputbox with the desired scale and press **Enter** to finish the command.
--   If the {{MenuCommand|Working plane orientation}} checkbox is checked the scale factors are relative to the [working plane](Draft_SelectPlane.md) coordinate system, else they are relative to the global coordinate system.
--   If the {{MenuCommand|Copy}} checkbox is checked a scaled copy of the original object is created. This only works for Draft objects that have a **Points** property, such as [Draft Wires](Draft_Wire.md).
--   If the {{MenuCommand|Modify subelements}} checkbox is checked the command will use the selected subelements instead of the whole objects. The subelements must belong to [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
--   If the {{MenuCommand|Create a clone}} checkbox is checked scaled [clones](Draft_Clone.md) of the original objects are created. This works for all object types. For objects that are not Draft objects, or for Draft objects that do not have a **Points** property, this option **must** be selected.
--   Press the **Pick from/to points** button and pick two additional points in the [3D view](3D_view.md) to calculate the scale factors. This will automatically check the {{MenuCommand|Uniform scaling}} checkbox. The X, Y and Z scale factors will therefore be equal and will be set to the distance between the base point and the \'from\' point, divided by the distance between the base point and the \'to\' point.
+-   Check the **Uniform scaling** checkbox to lock the X, Y and Z factors to the same value. For this setting to take effect one of the scale factors has to be changed. Alternatively you can click in the inputbox with the desired scale and press **Enter** to finish the command.
+-   If the **Working plane orientation** checkbox is checked the scale factors are relative to the [working plane](Draft_SelectPlane.md) coordinate system, else they are relative to the global coordinate system.
+-   If the **Copy** checkbox is checked a scaled copy of the original object is created. This only works for Draft objects that have a **Points** property, such as [Draft Wires](Draft_Wire.md).
+-   If the **Modify subelements** checkbox is checked the command will use the selected subelements instead of the whole objects. The subelements must belong to [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
+-   If the **Create a clone** checkbox is checked scaled [clones](Draft_Clone.md) of the original objects are created. This works for all object types. For objects that are not Draft objects, or for Draft objects that do not have a **Points** property, this option **must** be selected.
+-   Press the **Pick from/to points** button and pick two additional points in the [3D view](3D_view.md) to calculate the scale factors. This will automatically check the **Uniform scaling** checkbox. The X, Y and Z scale factors will therefore be equal and will be set to the distance between the base point and the \'from\' point, divided by the distance between the base point and the \'to\' point.
 -   Press **Esc** or the **Cancel** button to abort the command.
 
 ## Notes
@@ -64,10 +64,10 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   To change the number of decimals used for the input of scale factors: {{MenuCommand|Edit → Preferences... → Draft → General settings → General Draft Settings → Internal precision level}}.
--   To store and reuse the same copy mode setting across commands: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode}}.
--   To reselect the base objects after copying objects: {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying}}.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of scale factors: **Edit → Preferences... → Draft → General settings → General Draft Settings → Internal precision level**.
+-   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
+-   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting
 

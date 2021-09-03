@@ -20,7 +20,7 @@ In this example, the entire interface is defined in [Python](Python.md). Althoug
 
 <div class="mw-translate-fuzzy">
 
-## Proiectarea dialogului {#proiectarea_dialogului}
+## Proiectarea dialogului 
 
 In aplicațiile CAD , proiectarea unei bune interfețe user UI (User Interface) este foarte importantă. Despre tot ce va face utilizatorul va fi prin intermediul unei interfețe: citirea casetelor de dialog, apăsarea butoanelor, alegerea între pictograme etc. De aceea este foarte important să vă gândiți cu atenție la ceea ce doriți să faceți, cum doriți să se comporte utilizatorul, și cum va fi fluxul de activități al acțiunii dvs.
 
@@ -69,7 +69,7 @@ Este vorba despre tot ce trebuie să facem în Qt Designer. Un ultim lucru, totu
 
 ![](images/Qtpropeditor.jpg )
 
-## Traducerea dialogului nostru în python {#traducerea_dialogului_nostru_în_python}
+## Traducerea dialogului nostru în python 
 
 Acum, hai să salvăm widget-ul undeva. Acesta va fi salvat ca un fișier .ui, pe care îl vom converti cu ușurință în scriptul python cu pyuic. Sub Windows, programul pyuic este livrat cu pyqt (pentru a fi verificat), sub Linux probabil că va trebui să îl instalați separat plecând de la managerul de pachete (pe sistemele bazate pe debian, face parte din pachetul pyqt4-dev-tools). Pentru a face conversia, va trebui să deschideți o fereastră de terminal (sau sub Windows o fereastră cu prompt de comandă ), să navigați la locul unde ați salvat fișierul .ui și să emiteți/tastați: 
 ```python
@@ -163,7 +163,7 @@ d.show()
 d.hide()
 ```
 
-## Hai să facem ceva cu fereastra noastră de dialog {#hai_să_facem_ceva_cu_fereastra_noastră_de_dialog}
+## Hai să facem ceva cu fereastra noastră de dialog 
 
 Acum, că putem afișa și ascunde fereasta noastră de dialog, trebuie doar să adăugăm o ultimă parte: Să faci ceva! Dacă explorați un pic designerul Qt, veți descoperi rapid o întreagă secțiune numită \"semnale și sloturi\". Practic, funcționează astfel: elementele de pe widget-urile dvs. (în terminologia Qt, aceste elemente sunt ele însele widget-uri) pot trimite semnale. Aceste semnale diferă în funcție de tipul de widget. De exemplu, un buton poate trimite un semnal atunci când este apăsat și când este eliberat. Aceste semnale pot fi conectate la sloturi, care pot fi funcționalități speciale ale altor widgeturi (de exemplu, un dialog are un slot \"închis\" la care puteți conecta semnalul de la un buton de închidere) sau pot fi funcții personalizate. Documentația [PyQt Reference Documentation](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html) afișează toate widgeturile qt, ce pot face ele și ce semnale pot trimite etc.
 
@@ -207,7 +207,7 @@ import mywidget
 myDialog = mywidget.plane()
 ``` Et voila \... Acum puteți încerca tot felul de lucruri, cum ar fi de exemplu inserarea widget-ului în interfața FreeCAD (consultați pagina [Code snippets](Code_snippets.md)) sau realizarea unor instrumente personalizate mult mai avansate, utilizând alte elemente pe widgetul tău.
 
-## Scriptul complet {#scriptul_complet}
+## Scriptul complet 
 
 Acesta este scriptul complet, pentru referințe: 
 ```python
@@ -285,7 +285,7 @@ class plane():
 
 <div class="mw-translate-fuzzy">
 
-## Crearea unui dialog cu butoane {#crearea_unui_dialog_cu_butoane}
+## Crearea unui dialog cu butoane 
 
 
 </div>
@@ -297,7 +297,7 @@ class plane():
 -   [PySide usage snippets](PySide_usage_snippets.md).
 -   [Qt Example](Qt_Example.md)
 
-## Relevant links {#relevant_links}
+## Relevant links 
 
 -   [Manual:Creating interface tools](Manual:Creating_interface_tools.md)
 -   [Interface creation with UI files](Interface_creation_with_UI_files.md)

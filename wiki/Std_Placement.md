@@ -15,7 +15,7 @@ The **Std Placement** command displays the Placement [task panel](Task_panel.md)
 ## Usage
 
 1.  Select a single object that has a **Placement** property in the [property editor](Property_editor.md).
-2.  Select the {{MenuCommand|Edit → Placement...}} option from the menu.
+2.  Select the **Edit → Placement...** option from the menu.
 3.  Change one or more of the translation and rotation parameters.
 4.  Do one of the following:
     -   Press the **OK** button to apply the changes and close the task panel.

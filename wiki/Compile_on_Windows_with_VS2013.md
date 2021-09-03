@@ -2,7 +2,7 @@
 
 ## **Prerequisites**
 
-### Windows Libpack {#windows_libpack}
+### Windows Libpack 
 
 FreeCAD is built upon a number of third party libraries. For the users convenience FreeCAD supplies Libpacks that contain all the necessary dependencies so you don\'t have to compile them yourself.
 
@@ -18,9 +18,9 @@ Extract the Libpack to a directory on your hard drive.
 
 You can download 7-zip if you need it here: <http://www.7-zip.org/>
 
-### Source Code {#source_code}
+### Source Code 
 
-#### Using Git(Preferred) {#using_gitpreferred}
+#### Using Git(Preferred) 
 
 Next you will need to install git to be able to download the source code. You can get Git here: <http://git-scm.com/downloads>
 
@@ -34,7 +34,7 @@ git clone <git://git.code.sf.net/p/free-cad/code> free-cad-code
 
 Now you have the source code and the tools you\'ll need to compile FreeCAD on Windows.
 
-#### Download Snapshot .zip(Alternate) {#download_snapshot_.zipalternate}
+#### Download Snapshot .zip(Alternate) 
 
 
 {{Note|Note:|This is Source Cade Snapshot not Development Snapshot pre-compiled binaries.
@@ -52,15 +52,15 @@ Next you will need Cmake, you can get it here: <http://www.cmake.org/download/>
 
 FreeCAD 0.15.xxxx master will configure and generate with Cmake 2.x.x or 3.x.x, you can download the latest version. Older versions of FreeCAD require Cmake 2.x.x You should choose the non-default option to add Cmake to your system PATH environment variable.
 
-### Visual Studio {#visual_studio}
+### Visual Studio 
 
 Lastly you will need the C-compiler. MS VS 12 2013 Community Edition Update 4 is Free for personal and Open Source Projects. It can be downloaded here:
 
 <http://www.visualstudio.com/en-us/news/vs2013-community-vs.aspx>
 
-## **Configuring and Generating with Cmake** {#configuring_and_generating_with_cmake}
+## **Configuring and Generating with Cmake** 
 
-### First Pass {#first_pass}
+### First Pass 
 
 Start the CMake GUI by double-clicking on the desktop icon created during installation.
 
@@ -81,7 +81,7 @@ FREECAD_USE_EXTERNAL_PIVY    (Check)
 FREECAD_USE_FREETYPE         (Check)
 ``` FREETYPE is optional. It is necessary to take advantage of the DRAFT Work Bench\'s Shape String functionality. Under normal situations it is a desirable option.
 
-### Configure and Generate {#configure_and_generate}
+### Configure and Generate 
 
 Click Configure again (There should be no errors)
 
@@ -95,7 +95,7 @@ Close Cmake
 
 You could put the Libpack in your system PATH environment variable. but you still are required to copy some files?
 
-## **Building with Visual Studio** {#building_with_visual_studio}
+## **Building with Visual Studio** 
 
 Start Visual Studio 12 2013 by clicking on the desktop icon created at installation.
 

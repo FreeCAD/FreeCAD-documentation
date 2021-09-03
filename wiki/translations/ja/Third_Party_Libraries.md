@@ -238,7 +238,7 @@ Qtのについて多くのことを伝える必要がないと思います。そ
 
 Further information about Qt libraries and their programming documentation are available at [Qt Documentation](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
 
-#### Shiboken2 and Pyside2 {#shiboken2_and_pyside2}
+#### Shiboken2 and Pyside2 
 
 Shiboken is the Python binding generator that Qt for Python uses to create the PySide module, in other words, it is the system that is used to expose the Qt C++ API to the Python language.
 
@@ -369,7 +369,7 @@ For more information see [Ply homepage](https://www.dabeaz.com/ply/)
 
 <div class="mw-translate-fuzzy">
 
-#### Xerces-C++ {#xerces_c}
+#### Xerces-C++ 
 
 
 </div>
@@ -482,7 +482,7 @@ LibPackは上記のすべてのライブラリを一緒に梱包した便利な�
 
 If you\'re working under Linux, you don\'t need the LibPack, as you can get the dependencies from your distribution\'s repositories as mentioned in the [compile on Linux](Compile_on_Linux.md) page.
 
-### FreeCAD 12.1.2 {#freecad_12.1.2}
+### FreeCAD 12.1.2 
 
 See the announcement in the forum: [New libpacks for Windows with Qt5.12, OCC7.3 and Python 3.6 by apeltauer](https://forum.freecadweb.org/viewtopic.php?f=4&t=35789)
 

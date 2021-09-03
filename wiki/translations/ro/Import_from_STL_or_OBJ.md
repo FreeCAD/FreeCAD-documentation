@@ -22,7 +22,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Piesa de model {#piesa_de_model}
+## Piesa de model 
 
 Pentru acest tutorial, puteți utiliza propriul fișier STL sau creați un fișier demo, făcând următoarele:
 
@@ -44,7 +44,7 @@ Pentru a importa un fișier STL sau OBJ în FreeCAD, creați un nou document Fre
 
 <div class="mw-translate-fuzzy">
 
-## Curățarea și repararea fișierului STL / OBJ pentru pregătirea importului {#curățarea_și_repararea_fișierului_stl_obj_pentru_pregătirea_importului}
+## Curățarea și repararea fișierului STL / OBJ pentru pregătirea importului 
 
 Practic, FreeCAD va importa orice fișier STL / OBJ. Dar scopul nostru este să avem un solid care să poată fi măsurat și modificat (adăugând blocuri / gauri \...etc). Pentru o conversie reușită de la plasă la solid, trebuie să ne asigurăm că plasa este \"impermeabilă\" (nu are găuri) sau nu are alte erori.
 Scopul FreeCAD nu este acela de a fi un modelator de plasă bun, el este conceput să fie un modelator de solide. FreeCAD are câteva funcții pentru operarea cu ochiuri de plasă într-un atelier Mesh și OpenSCAD Workshop (unele operații necesită instalarea și configurarea OpenSCAD în preferințele FreeCAD).
@@ -61,7 +61,7 @@ Unii utilizatori preferă să utilizeze software-ul terților pentru curățarea
 
 <div class="mw-translate-fuzzy">
 
-### Testarea automată și repararea {#testarea_automată_și_repararea}
+### Testarea automată și repararea 
 
 -   Deschideți FreeCAD și fișierul eșantion FreeCAD care conține obiectul mesh
 -   Comutați pe Atelierul Mesh
@@ -79,7 +79,7 @@ Unii utilizatori preferă să utilizeze software-ul terților pentru curățarea
 
 <div class="mw-translate-fuzzy">
 
-### Armonizarea normalelor {#armonizarea_normalelor}
+### Armonizarea normalelor 
 
 Armonizarea normalelor unui obiect de plasă se poate face prin
 
@@ -94,7 +94,7 @@ Sfat: Prin alegerea obiectului tip plasă din vizualizarea arborescentă, accesa
 
 <div class="mw-translate-fuzzy">
 
-### Închiderea găurilor {#închiderea_găurilor}
+### Închiderea găurilor 
 
 sau poate închide, de asemenea, ochii în obiectul mesh de
 
@@ -116,7 +116,7 @@ Another method of manually closing holes in your mesh object would be
 
 <div class="mw-translate-fuzzy">
 
-## Conversia plasei în solid {#conversia_plasei_în_solid}
+## Conversia plasei în solid 
 
 -   comutați pe Atelierul Part
 -   Asigurați-vă că obiectul mesh este în vizualizarea arborescentă, în caz contrar selectați-l
@@ -140,7 +140,7 @@ Deoarece solidul creat nu are istorie si nici funcții editabile (ca o copie sim
 
 <div class="mw-translate-fuzzy">
 
-## Legături utile {#legături_utile}
+## Legături utile 
 
 -   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
 

@@ -3,7 +3,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Экран настроек [верстака FEM](FEM_Workbench/ru.md) находится в общем [окне настроек](Preferences_Editor/ru.md) {{MenuCommand|Правка → Настройки → Fem}}
+Экран настроек [верстака FEM](FEM_Workbench/ru.md) находится в общем [окне настроек](Preferences_Editor/ru.md) **Правка → Настройки → Fem**
 
 
 </div>

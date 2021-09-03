@@ -26,7 +26,7 @@ Crea un semplice toro parametrico, con i parametri position, angle1, angle2, ang
 1.  Attivare l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md).
 2.  Richiamare il comando Toro in uno di questi modi:
     -   Premere il pulsante <img alt="" src=images/Part_Torus.svg  style="width:24px;">.
-    -   Usare {{MenuCommand|Part → Toro}} dal menu principale.
+    -   Usare **Part → Toro** dal menu principale.
 
 
 </div>

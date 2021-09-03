@@ -44,30 +44,30 @@ Zum Hinzufügen oder Entfernen von Formelementen zu einem bestehenden Muster:
 
 Bei der Erstellung eines Formelements Lineares Muster bietet der Dialog **LinearMuster Parameter** verschiedene Möglichkeiten die Richtung des Musters auszuwählen.
 
-#### Horizontale Skizzenachse {#horizontale_skizzenachse}
+#### Horizontale Skizzenachse 
 
 Verwendet die horizontale Skizzenachse für die Richtung.
 
-#### Vertikale Skizzenachse {#vertikale_skizzenachse}
+#### Vertikale Skizzenachse 
 
 Verwendet die vertikale Skizzenachse für die Richtung.
 
-#### Flächennormale Skizzenachse {#flächennormale_skizzenachse}
+#### Flächennormale Skizzenachse 
 
 
 {{VersionPlus/de|0.17}}
 
 Verwendet die Flächennormale Skizzenachse für die Richtung.
 
-#### Referenz auswählen\... {#referenz_auswählen...}
+#### Referenz auswählen\... 
 
 Ermöglicht entweder eine Bezugslinie (DatumLine) oder eine Kante eines Objekts oder eine Linie einer Skizze als Richtungsangabe zu verwenden.
 
-#### Angepasste Skizzenachse {#angepasste_skizzenachse}
+#### Angepasste Skizzenachse 
 
 Wenn die Skizze für das zu wiederholende Muster Konstruktionslinien besitzen, werden diese Konstruktionslinien in dem Dropdown-MenüI als jeweils spezielle Achsen aufgelistet. Die erste Konstruktionslinie wird im Menü als *Konstruktionslinie 1* aufgelistet.
 
-#### Basis (X/Y/Z) Achse {#basis_xyz_achse}
+#### Basis (X/Y/Z) Achse 
 
 
 {{VersionPlus/de|0.17}}

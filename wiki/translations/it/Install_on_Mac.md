@@ -62,7 +62,7 @@ Questa pagina descrive l\'uso e le caratteristiche del programma di installazion
 
 Terminata l\'installazione, è possibile [iniziare](Getting_started/it.md)!
 
-## Installazione semplice {#installazione_semplice}
+## Installazione semplice 
 
 L\'installatore di FreeCAD viene fornito come pacchetto di installazione (.app) incluso in un file di immagine disco.
 

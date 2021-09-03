@@ -11,7 +11,7 @@ Cuando pasas de un ambiente de trabajo a otro, las herramientas disponibles en l
 
 Tenga en cuenta que a veces se hace referencia a un Banco de trabajo como un *Módulo*. Sin embargo, los Bancos de trabajo y los Módulos son entidades diferentes. Un Módulo es cualquier extensión de FreeCAD, mientras que un Banco de trabajo es un tipo especial de Módulo con una configuración de interfaz gráfica de usuario (barras herramientas y menús).
 
-## Bancos de trabajo incorporados {#bancos_de_trabajo_incorporados}
+## Bancos de trabajo incorporados 
 
 Los siguientes bancos de trabajo se incluyen en cada instalación de FreeCAD:
 
@@ -73,11 +73,11 @@ Los siguientes ambientes de trabajo siguen incluidos en la instalación base por
 
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> El [Banco de trabajo de Dibujo](Drawing_Workbench/es.md) se utilizaba para la producción de dibujos técnicos, pero ahora ha quedado obsoleto. Todavía es necesario para leer archivos antiguos de FreeCAD que contengan objetos creados con este banco de trabajo. El [Banco de trabajo de DibujosTécnicos](TechDraw_Workbench/es.md) es su reemplazo más avanzado. {{Obsolete/es|0.17}}
 
-## Ambiente de trabajo externos {#ambiente_de_trabajo_externos}
+## Ambiente de trabajo externos 
 
 Los Ambientes de Trabajo de FreeCAD son fáciles de programar en [Python](Python/es.md), por lo que hay mucha gente desarrollando Ambientes de Trabajo adicionales fuera del área principal de desarrollo de FreeCAD.
 
-Los [Ambiente de trabajo externos](external_workbenches/es.md) página lista todo lo que se conoce en esta comunidad. La mayoría son fácilmente instalables desde dentro de FreeCAD, usando el [Gerente de Addon](Addon_Manager/es.md), que se encuentra en el menú {{MenuCommand|Herramientas → <img src="images/AddonManager.svg" width=24px> Gerente de Addon}}.
+Los [Ambiente de trabajo externos](external_workbenches/es.md) página lista todo lo que se conoce en esta comunidad. La mayoría son fácilmente instalables desde dentro de FreeCAD, usando el [Gerente de Addon](Addon_Manager/es.md), que se encuentra en el menú **Herramientas → <img src="images/AddonManager.svg" width=24px> Gerente de Addon**.
 
 Los nuevos Ambientes de Trabajo están siempre en desarrollo, ¡manténganse en sintonía!
 

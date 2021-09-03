@@ -46,30 +46,30 @@ Aby dodać lub usunąć elementy z istniejącego wzorca:
 
 Podczas tworzenia cech szyku liniowego, dialog \"Szyk liniowy parametry\" oferuje różne sposoby określania kierunku dla szyku.
 
-#### Pozioma oś szkicu {#pozioma_oś_szkicu}
+#### Pozioma oś szkicu 
 
 Używa poziomej osi szkicu jako kierunku dla wzorca.
 
-#### Pionowa oś szkicu {#pionowa_oś_szkicu}
+#### Pionowa oś szkicu 
 
 Używa pionowej osi szkicu jako kierunku dla wzorca.
 
-#### Oś normalna szkicu {#oś_normalna_szkicu}
+#### Oś normalna szkicu 
 
 
 {{VersionPlus/pl|0.17}}
 
 Używa normalnej osi szkicu jako kierunku.
 
-#### Wybierz odniesienie\... {#wybierz_odniesienie...}
+#### Wybierz odniesienie\... 
 
 Umożliwia wybranie linii odniesienia lub krawędzi obiektu lub linii szkicu do użycia jako kierunku dla wzorca.
 
-#### Niestandardowa oś szkicu {#niestandardowa_oś_szkicu}
+#### Niestandardowa oś szkicu 
 
 Jeżeli szkic definiujący element, który ma być użyty jako wzór, zawiera również linię *(lub linie)* konstrukcyjną, to lista rozwijana będzie zawierać jedną niestandardową oś szkicu dla każdej linii konstrukcyjnej. Pierwsza linia konstrukcyjna będzie oznaczona etykietą *Oś szkicu 0*.
 
-#### Oś bazowa *(X / Y / Z)* {#oś_bazowa_x_y_z}
+#### Oś bazowa *(X / Y / Z)* 
 
 
 {{VersionPlus/pl|0.17}}

@@ -53,7 +53,7 @@ Questo strumento può essere utilizzato su qualsiasi oggetto che abbia una [Part
 
 </div>
 
-## Point compound {#point_compound}
+## Point compound 
 
 
 <div class="mw-translate-fuzzy">

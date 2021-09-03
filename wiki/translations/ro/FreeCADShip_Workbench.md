@@ -15,9 +15,9 @@
 
 The FreeCAD <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Ship Workbench](Ship_Workbench.md) is used to create structures that are common to ships.
 
-## Scule și instrumente {#scule_și_instrumente}
+## Scule și instrumente 
 
-### Proiectarea Navelor {#proiectarea_navelor}
+### Proiectarea Navelor 
 
 
 <div class="mw-translate-fuzzy">

@@ -23,7 +23,7 @@ Acest instrument activează înregistrarea fișierului Plot în locația dorită
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 Selectați fila de plotare pe care doriți să o salvați și rulați acest instrument. Utilizați butonul de selectare a traiectoriei pentru a afișa un dialog de fișier în care puteți alege locul și formatul imaginii de ieșire.
 

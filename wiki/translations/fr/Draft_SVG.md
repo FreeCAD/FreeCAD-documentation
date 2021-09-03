@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -41,11 +41,11 @@ Les objets FreeCAD suivants peuvent être exportés:
 -   Textes
 -   Dimensions
 
-### Limitations {#limitations_1}
+### Limitations 
 
 SVG est un format 2D donc toutes les informations Z seront ignorées (tous les objets seront aplatis).
 
-## Gestion des unités {#gestion_des_unités}
+## Gestion des unités 
 
 Lors de l\'exportation, une unité utilisateur (px) équivaut à un millimètre.
 

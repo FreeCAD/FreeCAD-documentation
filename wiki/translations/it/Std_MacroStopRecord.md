@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questa funzione arresta la registrazione di una macro. La funzione è accessibile da {{MenuCommand|Macro → Interrompi la registrazione}}, oppure facendo dal pulsante **<img src=images/Std_DlgMacroStop.png style="width:16px"> Interrompi la registrazione** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
+Questa funzione arresta la registrazione di una macro. La funzione è accessibile da **Macro → Interrompi la registrazione**, oppure facendo dal pulsante **<img src=images/Std_DlgMacroStop.png style="width:16px"> Interrompi la registrazione** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
 
 
 </div>

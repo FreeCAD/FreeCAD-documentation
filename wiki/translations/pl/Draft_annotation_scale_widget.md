@@ -18,7 +18,7 @@ The **Draft annotation scale widget** (<small>(v0.19)</small> ) can be used to s
 2.  The scale menu opens.
 3.  Do one of the following:
     -   Select one of the standard scales.
-    -   Select the {{MenuCommand|custom}} option:
+    -   Select the **custom** option:
         -   In the dialog box that opens enter a custom scale using the {{Value|x:x}} or the {{Value|x<nowiki>=</nowiki>x}} format.
         -   Press **Enter** or the **OK** button.
 
@@ -28,8 +28,8 @@ The **Draft annotation scale widget** (<small>(v0.19)</small> ) can be used to s
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The Draft annotation scale widget is optional: {{MenuCommand|Edit → Preferences... → Draft → User interface settings → Draft Statusbar → Annotation scale widget}}.
--   To change the annotation scale without the widget: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DraftAnnotationScale}}. The scale is defined by a single number. For a scale of {{Value|1:50}} enter {{Value|0.02}}.
+-   The Draft annotation scale widget is optional: **Edit → Preferences... → Draft → User interface settings → Draft Statusbar → Annotation scale widget**.
+-   To change the annotation scale without the widget: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DraftAnnotationScale**. The scale is defined by a single number. For a scale of {{Value|1:50}} enter {{Value|0.02}}.
 
 ## Notes
 

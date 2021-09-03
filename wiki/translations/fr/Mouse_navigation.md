@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Vue d\'ensemble {#vue_densemble}
+## Vue d\'ensemble 
 
 La **navigation par la souris** dans FreeCAD décrit les commandes utilisées pour naviguer visuellement dans l\'espace 3D et interagir avec les objets affichés. FreeCAD prend en charge plusieurs styles de navigation à la souris. Le style de navigation par défaut est appelé \"CAD Navigation\" et est très simple et pratique, mais FreeCAD fournit également des styles de navigation alternatifs que vous pouvez choisir en fonction de vos préférences.
 
@@ -16,10 +16,10 @@ La gestuelle de la souris utilisée pour la manipulation d\'objets varie en fonc
 
 Il y a deux façons de changer le style de navigation :
 
--   Dans les [Préférences](Preferences_Editor/fr#Navigation.md) ; menu {{MenuCommand|Édition → Préférences → Affichage → Vue 3D → Navigation 3D}}.
--   En cliquant avec le bouton droit de la souris dans une zone vide de la vue 3D, puis en sélectionnant {{MenuCommand|Styles de navigation → ...}} dans le menu contextuel.
+-   Dans les [Préférences](Preferences_Editor/fr#Navigation.md) ; menu **Édition → Préférences → Affichage → Vue 3D → Navigation 3D**.
+-   En cliquant avec le bouton droit de la souris dans une zone vide de la vue 3D, puis en sélectionnant **Styles de navigation → ...** dans le menu contextuel.
 
-### Mode CAD (par défaut) {#mode_cad_par_défaut}
+### Mode CAD (par défaut) 
 
 C\'est le style de navigation par défaut. Il permet à l\'utilisateur un contrôle simple de la vue et ne nécessite pas l\'utilisation de touches du clavier, sauf pour effectuer des sélections multiples.
 
@@ -54,7 +54,7 @@ Avec cette méthode, le bouton central de la souris peut être relâché si vous
 Les utilisateurs qui utilisent la souris avec leur main droite peuvent trouver cette méthode plus facile que la première.
 }}
 
-### Mode OpenInventor {#mode_openinventor}
+### Mode OpenInventor 
 
 Le mode de navigation OpenInventor (anciennement Inventor) s\'inspire de [Open Inventor](https://fr.wikipedia.org/wiki/Inventor_(bibliothèque_logicielle)). Pour sélectionner des objets, vous devez maintenir la touche **Ctrl** enfoncée.
 
@@ -75,7 +75,7 @@ Alternativement : Maintenez le bouton central de la souris enfoncé, pressez ens
 |Rotate_view_text=Appuyez sur le bouton gauche de la souris, puis déplacez le pointeur.
 }}
 
-### Mode Blender {#mode_blender}
+### Mode Blender 
 
 Le style de navigation **Blender** a été modélisé d\'après [Blender](https://www.blender.org). Auparavant, il n\'y avait pas de panoramique uniquement à la souris ; il fallait toujours maintenir appuyé la touche **Maj**. Cela a changé en 2016, maintenant vous pouvez maintenir les boutons gauche et droit de la souris enfoncés. {{Blender Navigation
 |Select_name=Sélection
@@ -91,7 +91,7 @@ Vous pouvez également maintenir enfoncé les boutons gauche et droit de la sour
 |Rotate_view_text=Appuyez sur le bouton central de la souris, et déplacez le pointeur.
 }}
 
-### Mode Touchpad {#mode_touchpad}
+### Mode Touchpad 
 
 En mode Touchpad, le mouvement panoramique, le zoom et la rotation de vue nécessitent une touche modificatrice en plus du pavé tactile. {{Touchpad Navigation
 |Select_name=Sélection
@@ -111,7 +111,7 @@ En mode Touchpad, le mouvement panoramique, le zoom et la rotation de vue néces
 |Rotate_view_alt_text=Alternativement : Maintenez la touche **Maj** enfoncée ainsi que le bouton gauche, puis déplacez le pointeur.
 }}
 
-### Mode Gestuel {#mode_gestuel}
+### Mode Gestuel 
 
 Ce style de navigation a été adapté pour faciliter l\'utilisation avec un écran tactile et un stylet. Néanmoins il peut aussi être utilisé avec la souris, et est recommandé pour l\'utilisation d\'un Mac avec un pavé tactile. {{Gesture Navigation
 |Select_name=Sélection
@@ -137,10 +137,10 @@ Maintnez la touche **Alt** enfoncée si vous êtes dans [Sketcher](Sketcher_Work
 |Tilt_view_text=Maintenez les boutons gauche et droit de la souris enfoncés, et déplacer le pointeur latéralement.
 |Tilt_view_gesture_text=Faites pivoter la ligne imaginaire formée par deux points de contact.
 
-Dans la v0.18 ce mode est désactivé par défaut. Pour l'activer, allez dans {{MenuCommand|Édition → Préférences → Affichage}}, et décochez la case "Désactiver gestuelle de basculement écran tactile".
+Dans la v0.18 ce mode est désactivé par défaut. Pour l'activer, allez dans **Édition → Préférences → Affichage**, et décochez la case "Désactiver gestuelle de basculement écran tactile".
 }}
 
-### Mode Gestuelle-Maya {#mode_gestuelle_maya}
+### Mode Gestuelle-Maya 
 
 Dans le mode Gestuelle-Maya, le panoramique, le zoom et la rotation de la vue nécessitent la touche **Alt** et un bouton de la souris, par conséquent, une souris à trois boutons est requise. Il est également possible d\'utiliser des gestes car ce mode a été développé par rapport au [mode de navigation par gestes](#Mode_Gestuel.md). {{MayaGesture Navigation
 |Select_name=Sélection
@@ -156,7 +156,7 @@ Vous pouvez également utilisez la molette de la souris pour zoomer et dézoomer
 |Rotate_view_text=Maintenez la touche **Alt** et le bouton gauche de la souris enfoncés, puis déplacez le pointeur.
 }}
 
-### Mode Revit {#mode_revit}
+### Mode Revit 
 
 Ce style est introduit dans la version 0.18.
 
@@ -178,7 +178,7 @@ Vous pouvez également maintenir enfoncé les boutons gauche et droit de la sour
 Vous pouvez également maintenir enfoncé le bouton central de la souris, puis aussi le bouton droit, et déplacer le pointeur.
 }}
 
-### Mode OpenCascade {#mode_opencascade}
+### Mode OpenCascade 
 
 Ce style est introduit dans la version 0.18.
 
@@ -197,9 +197,9 @@ Vous pouvez également maintenir la touche **Ctrl** et le bouton gauche de la so
 |Rotate_view_text=Maintenez la touche **Ctrl** et le bouton droit de la souris enfoncés, puis déplacer le pointeur.
 }}
 
-## Sélectionner des objets {#sélectionner_des_objets}
+## Sélectionner des objets 
 
-### Sélection simple {#sélection_simple}
+### Sélection simple 
 
 Les objets peuvent être sélectionnés en cliquant avec le bouton gauche de la souris sur l\'objet, soit dans la [vue 3D](3D_view/fr.md), soit dans la [vue arborescente](tree_view/fr.md).
 
@@ -207,15 +207,15 @@ Les objets peuvent être sélectionnés en cliquant avec le bouton gauche de la 
 
 Un mécanisme de *présélection* permet de mettre les objets en surbrillance et d\'afficher des informations à leur sujet lorsque le curseur de la souris les survole. Si vous n\'aimez pas ce comportement, ou si vous avez un PC modeste, vous pouvez désactiver la présélection dans les préférences.
 
-## Manipulation d\'objets {#manipulation_dobjets}
+## Manipulation d\'objets 
 
 FreeCAD propose des [*manipulateurs*](Manipulator/fr.md) qui sont des poignées pouvant être utilisés pour modifier l\'apparence, la forme ou d\'autres paramètres d\'un objet.
 
-## Support matériel {#support_matériel}
+## Support matériel 
 
 FreeCAD supporte aussi quelques [périphériques d\'entrée 3D](3D_input_devices/fr.md).
 
-## Mac OS X {#mac_os_x}
+## Mac OS X 
 
 Récemment nous avons créé un [post sur le forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) des utilisateurs Mac pour qui ces combinaisons de touches et boutons de souris ne fonctionneraient pas comme prévu. Malheureusement, aucun des développeurs n\'est possesseur d\'un Mac, pas plus que les autres contributeurs réguliers. Nous avons besoin de votre aide pour déterminer les combinaisons de touches et boutons de souris fonctionnelles afin que nous puissions les renseigner sur ce wiki.
 

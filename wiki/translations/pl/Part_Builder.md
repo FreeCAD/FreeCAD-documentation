@@ -15,35 +15,35 @@ Narzędzie to służy do tworzenia bardziej złożonych kształtów z różnych 
 
 Narzędzie to może tworzyć następujące obiekty:
 
-### Krawędź z dwóch wierzchołków {#krawędź_z_dwóch_wierzchołków}
+### Krawędź z dwóch wierzchołków 
 
 1.  Wybierz dwa wierzchołki
 2.  Kliknij na przycisk **Utwórz**
 
 ![](images/Edge_from_verts-1.gif )
 
-### Polilinia z krawędzi {#polilinia_z_krawędzi}
+### Polilinia z krawędzi 
 
 1.  Wybierz zestaw sąsiadujących krawędzi w oknie [widoku 3D](3D_view/pl.md).
 2.  kliknij na przycisk **Utwórz**
 
 ![](images/Wire_from_edges-1.gif )
 
-### Ściana z wierzchołków {#ściana_z_wierzchołków}
+### Ściana z wierzchołków 
 
 1.  Wybierz wierzchołki wyznaczające granice ściany w oknie [widoku 3D](3D_view/pl.md).
 2.  Wybierz czy ściana ma być planarna
 3.  Kliknij na przycisk **Utwórz**
 4.  Obiekt zostanie utworzony w oknie [widoku 3D](3D_view/pl.md) i zostanie umieszczony na liście [widoku drzewa](Tree_view/pl.md).
 
-### Ściana z krawędzi {#ściana_z_krawędzi}
+### Ściana z krawędzi 
 
 1.  Wybierz zamknięty zbiór krawędzi wyznaczających granice ściany oknie [widoku 3D](3D_view/pl.md).
 2.  Wybierz czy ściana ma być planarna
 3.  Kliknij na przycisk **Utwórz**
 4.  Obiekt zostanie utworzony w oknie [widoku 3D](3D_view/pl.md) i zostanie umieszczony na liście [widoku drzewa](Tree_view/pl.md).
 
-### Powłoka ze ściany {#powłoka_ze_ściany}
+### Powłoka ze ściany 
 
 1.  Wybierz ściany w oknie [widoku 3D](3D_view/pl.md),
 2.  Wybierz czy kształt powinien być udoskonalony,
@@ -51,7 +51,7 @@ Narzędzie to może tworzyć następujące obiekty:
 4.  Kliknij na przycisk **Utwórz**,
 5.  Obiekt zostanie utworzony w oknie [widoku 3D](3D_view/pl.md) i zostanie umieszczony w [widoku drzewa](Tree_view/pl.md).
 
-### Bryła z powłoki {#bryła_z_powłoki}
+### Bryła z powłoki 
 
 1.  Wybierz czy kształt ma być udoskonalony.
 2.  Kliknij na przycisk **Utwórz**,

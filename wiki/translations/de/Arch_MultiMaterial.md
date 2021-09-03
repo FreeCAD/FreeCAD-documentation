@@ -41,7 +41,7 @@ Während der Erstellung oder Änderung eines MehrfachMaterials durch doppelklick
 -   When a multi-material contains layers with a thickness of zero, that thickness is considered variable. Arch objects that use the multi-material, such as Walls and Panels, will treat that accordingly, and give that layer the remaining space available given their own width or thickness.
 -   If you name the different components of a multi-material \"Frame\", \"Solid panel\", \"Glass panel\" or \"Louvre\", and apply that material to a window, the given materials will be applied to the corresponding window components.
 
-## Bezug zu IFC {#bezug_zu_ifc}
+## Bezug zu IFC 
 
 Dies entspricht in etwa einer Kombination aus [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) und [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 

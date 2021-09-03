@@ -12,7 +12,7 @@
 
 L\'outil [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List/fr.md) permet à l\'utilisateur de créer une nomenclature de façonnage des armatures.
 
-Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md), un [Atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md), un [Atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
 
@@ -89,7 +89,7 @@ Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench
 
 L\'outil [Nomenclature de façonnage des armatures](Reinforcement_Bar_Shape_Cut_List/fr.md) peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes :
 
-### Créer la forme d\'une armature en SVG {#créer_la_forme_dune_armature_en_svg}
+### Créer la forme d\'une armature en SVG 
 
 
 ```python
@@ -212,7 +212,7 @@ with open(output_file, "w", encoding="utf-8") as f:
 
 ```
 
-### Créer la nomenclature de façonnage d\'armatures en SVG {#créer_la_nomenclature_de_façonnage_darmatures_en_svg}
+### Créer la nomenclature de façonnage d\'armatures en SVG 
 
 
 ```python
@@ -293,7 +293,7 @@ getRebarShapeCutList(
 
 -    `output_file`spécifie le fichier de sortie pour écrire le SVG de la liste de coupe de forme d\'armature générée.
 
-#### Exemple {#exemple_1}
+#### Exemple 
 
 
 ```python

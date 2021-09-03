@@ -30,7 +30,7 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
 
 ## Utilisation
 
-### Préparation des formes à graver {#préparation_des_formes_à_graver}
+### Préparation des formes à graver 
 
 
 <div class="mw-translate-fuzzy">
@@ -39,7 +39,7 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
 -   Les fichiers SVG nécessitent un certain massage, à la fois dans l\'éditeur et dans le <img alt="" src=images/_Workbench_Draft.svg  style="width:24px;"> [Atelier Draft](Draft_Module/fr.md):
     -   Dans l\'éditeur (par exemple [inkscape](https://www.inkscape.org)): assurez-vous que le fichier ne contient que des chemins et que les chemins sont dissociés; assurez-vous qu\'il n\'y a pas de chemins auto-sécants, (dans inkscape) utilisez Chemin → Simplifier et union pour joindre les chemins qui se chevauchent.
     -   Basculez vers le <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Atelier Draft](Draft_Module/fr.md) dans la [liste déroulante d\'Ateliers](Std_Workbench/fr.md)
-    -   Importez le SVG en utilisant {{MenuCommand|Fichier → Importer → sélectionnez "SVG comme géométrie"}}
+    -   Importez le SVG en utilisant **Fichier → Importer → sélectionnez "SVG comme géométrie"**
     -   Le résultat devrait ressembler à ceci:
 
         :   ![](images/Svgimport.png )
@@ -54,11 +54,11 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
 -   -   Pour obtenir les faces 2D, [Path Vcarve](Path_Vcarve/fr.md) a besoin de:
         -   Pour les trajectoires sans trous:
             1.  Sélectionnez le chemin
-            2.  Choisissez {{MenuCommand|Modification → ![](images/)_[Mettre_à_niveau](Draft_Upgrade/fr.md)}}
-            3.  Suivi de {{MenuCommand|Modification → ![](images/)_[Rétrograder](Draft_Downgrade/fr.md)}}
+            2.  Choisissez **Modification → ![](images/)_[Mettre_à_niveau](Draft_Upgrade/fr.md)**
+            3.  Suivi de **Modification → ![](images/)_[Rétrograder](Draft_Downgrade/fr.md)**
         -   Pour les trajectoires sans trous:
             1.  Sélectionnez la trajectoire extérieure puis la trajectoire intérieur
-            2.  Choisissez {{MenuCommand|Modification → ![](images/)_[Rétrograder](Draft_Downgrade/fr.md)}} **deux fois**
+            2.  Choisissez **Modification → ![](images/)_[Rétrograder](Draft_Downgrade/fr.md)** **deux fois**
 
         :   Certaines trajectoires se comportent différemment, vous devrez donc peut-être jouer avec **<img src="images/Draft_Upgrade.svg" width=16px> Mettre à niveau** et **<img src="images/Draft_Downgrade.svg" width=16px> Rétrograder** jusqu\'à ce que vous obteniez quelque chose nommé: `Face<number>`
         :   Le résultat final devrait ressembler à ceci:
@@ -67,17 +67,17 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
 
 </div>
 
-### Create the Vcarve operation {#create_the_vcarve_operation}
+### Create the Vcarve operation 
 
 
 <div class="mw-translate-fuzzy">
 
-### Création de l\'opération Vcarve {#création_de_lopération_vcarve}
+### Création de l\'opération Vcarve 
 
 -   Passez à l\'**<img src=images/Workbench_Path.svg style="width:16px"> [atelier Path](Path_Workbench/fr.md)** dans le [menu déroulant des ateliers](Std_Workbench/fr.md)
 -   Ajoutez un travail, utilisez les objets nommés `Face<number>` (ou le ShapeString) comme base, ajoutez un contrôleur d\'outil v-bit, définissez les flux, les vitesses, etc.
 -   L\'opération ne prend en charge qu\'un seul objet (soit un seul objet Face, soit un ShapeString) donc pour chaque objet:
-    -   Sélectionnez {{MenuCommand|Path → <img src="images/Path_Vcarve.svg" width=24px> Vcarve}} dans le menu supérieur. Cela ouvre le panneau de configuration.
+    -   Sélectionnez **Path → <img src="images/Path_Vcarve.svg" width=24px> Vcarve** dans le menu supérieur. Cela ouvre le panneau de configuration.
     -   Ouvrez l\'onglet **Base Geometry** et ajoutez toutes les faces du ShapeString, ou la face d\'un seul objet Face obtenu ci-dessus
     -   Appuyez sur **Apply** et inspectez le chemin généré; si nécessaire, ajustez les paramètres de fonctionnement (le seuil peut être réglé plus haut dans la plupart des situations)
     -   Appuyez sur **OK** pour terminer
@@ -98,7 +98,7 @@ Vide
 
 <div class="mw-translate-fuzzy">
 
-#### Base {#base_1}
+#### Base 
 
 -    {{PropertyData/fr|Placement}}: -
 
@@ -127,12 +127,12 @@ Vide
 
 </div>
 
-#### Op Values {#op_values}
+#### Op Values 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Valeurs Op {#valeurs_op}
+#### Valeurs Op 
 
 -    {{PropertyData/fr|OpFinalDepth}}: -
 

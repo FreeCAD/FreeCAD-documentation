@@ -12,15 +12,15 @@ FreeCAD is first and foremost a 3D modeling tool. There are times, however, when
 4.  A \"Broken View\" is required to depict very large objects.
 5.  Conversion to Part Workbench 2D geometry. The Part Workbench was recently enhanced with a full suite of 2D geometry tools. These were not available when TechDraw was first coded. For future ease of maintenance, a single suite of 2D tools would be preferred.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  A more robust and capable TechDraw workbench
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 This work will provide an introduction to the FreeCAD code base and the use of supporting software such as OpenCascade and Qt.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -37,6 +37,6 @@ This work will provide an introduction to the FreeCAD code base and the use of s
 
 Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

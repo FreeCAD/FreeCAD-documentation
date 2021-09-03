@@ -17,7 +17,7 @@ Macro will copy the contents of the 3D view to the clipboard in image bitmap (BM
 
  
 
-## How To Use {#how_to_use}
+## How To Use 
 
 -   Run once to activate macro (the macro is loaded resident into the memory of the PC).
 -   Press **G** to grab the contents of the 3d view and copy them to the clipboard.

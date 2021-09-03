@@ -33,7 +33,7 @@ Currently the command points to [<https://www.freecadweb.org/wiki/User_hub>](htt
 
 </div>
 
-1.  Select the {{MenuCommand|Help → <img src="images/Std_FreeCADUserHub.svg" width=16px> Users documentation}} option from the menu.
+1.  Select the **Help → <img src="images/Std_FreeCADUserHub.svg" width=16px> Users documentation** option from the menu.
 
 
 

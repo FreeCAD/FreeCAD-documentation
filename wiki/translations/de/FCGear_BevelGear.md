@@ -23,7 +23,7 @@ Spiralförmige Kegelräder haben gekrümmte Zähne, die im Vergleich zu geraden 
 1.  Wechsle zur <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCZahnrad Arbeitsbereich](FCGear_Workbench/de.md).
 2.  Rufe den Befehl auf verschiedene Weise auf:
     -   Drücke die <img alt="" src=images/FCGear_BevelGear.svg  style="width:22px;"> [Erstellen eines Kegelzahnrads](FCGear_BevelGear/de.md) in der Werkzeugleiste.
-    -   Mit dem {{MenuCommand|Menü → Kegelradgetriebe}}.
+    -   Mit dem **Menü → Kegelradgetriebe**.
 3.  Ändere die Zahnradparameter auf die gewünschten Bedingungen (siehe **Eigenschaften → Daten** unten).
 
 ## Eigenschaften
@@ -84,7 +84,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 Begrenzungen sind noch nicht bekannt.
 
-## Hilfreiche Formeln {#hilfreiche_formeln}
+## Hilfreiche Formeln 
 
 -    **Teilkreisdurchmesser**= **Modul** \* **Zähne**
 

@@ -15,11 +15,11 @@
 
 ## 용법
 
-1.  메뉴에서 {{MenuCommand|보기 → <img src="images/Std_ViewCreate.svg" width=16px> 새 3D 보기 만들기}} 옵션을 선택합니다.
+1.  메뉴에서 **보기 → <img src="images/Std_ViewCreate.svg" width=16px> 새 3D 보기 만들기** 옵션을 선택합니다.
 
-## 선택 사항 {#선택_사항}
+## 선택 사항 
 
--   3D 보기를 재배열하려면 메뉴에서 {{MenuCommand|창 → 겹치게 배열}} 또는 {{MenuCommand|창 → 바둑판 배열}} 옵션을 선택하십시오.
+-   3D 보기를 재배열하려면 메뉴에서 **창 → 겹치게 배열** 또는 **창 → 바둑판 배열** 옵션을 선택하십시오.
 
 
 

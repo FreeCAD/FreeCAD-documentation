@@ -2,7 +2,7 @@
 
 Ecco alcuni screenshot che mostrano diverse parti di FreeCAD. Essi non sono ordinati cronologicamente, quindi le immagini possono differire dalla versione attuale. Si possono vedere altre schermate presentate dagli utenti di FreeCAD in [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) e in [\"Show your project here!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
 
-### La versione 0.17 {#la_versione_0.17}
+### La versione 0.17 
 
 <img alt="" src=images/6DPLEQ2.jpg  style="width:1024px;">
 
@@ -30,7 +30,7 @@ Ecco alcuni screenshot che mostrano diverse parti di FreeCAD. Essi non sono ordi
 
 <img alt="" src=images/freeCAD-guitar.jpg  style="width:1024px;">
 
-### La versione 0.16 {#la_versione_0.16}
+### La versione 0.16 
 
 <img alt="" src=images/Hhassey.png  style="width:1024px;">
 
@@ -44,7 +44,7 @@ Ecco alcuni screenshot che mostrano diverse parti di FreeCAD. Essi non sono ordi
 
 <img alt="" src=images/R_tec.jpeg  style="width:1024px;">
 
-### La versione 0.15 {#la_versione_0.15}
+### La versione 0.15 
 
 <img alt="" src=images/Obijuan.png  style="width:1024px;">
 
@@ -56,7 +56,7 @@ Ecco alcuni screenshot che mostrano diverse parti di FreeCAD. Essi non sono ordi
 
 <img alt="" src=images/Lou_papet.png  style="width:1024px;">
 
-### La versione 0.14 {#la_versione_0.14}
+### La versione 0.14 
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -88,21 +88,21 @@ Analisi di curvatura mesh dal modulo Mesh
 
 Esportazione in applicazioni esterne con le macro python
 
-### La versione 0.12 {#la_versione_0.12}
+### La versione 0.12 
 
 ![Assembly of multiple objects\|1024px](images/FreeCAD_aeroponic_system.jpg )
 
 ![A fully-constrained sketch revolved to create a bike rim section\|1024px](images/rim_bling.png )
 
-### La versione 0.11 {#la_versione_0.11}
+### La versione 0.11 
 
 <img alt="" src=images/FreeCAD011.png  style="width:1024px;">
 
-### La versione 0.10 {#la_versione_0.10}
+### La versione 0.10 
 
 ![](images/Freecad010.png )
 
-### La versione 0.9 {#la_versione_0.9}
+### La versione 0.9 
 
 ![](images/Freecad09.jpg )
 
@@ -116,19 +116,19 @@ Esportazione in applicazioni esterne con le macro python
 
 Uno screenshot che mostra l\'importazione in FreeCAD e il rendering di un modello STEP di gCAD
 
-### Dati STEP {#dati_step}
+### Dati STEP 
 
 <img alt="" src=images/TaskPanel.jpg  style="width:800px;">
 
 Con pinza di Robot caricata
 
-### Pinza di un robot {#pinza_di_un_robot}
+### Pinza di un robot 
 
 ![](images/FreeCAD_Screenshot.png )
 
 Su XP con Schenkel
 
-### Operazioni Booleane sulle Forme {#operazioni_booleane_sulle_forme}
+### Operazioni Booleane sulle Forme 
 
 <img alt="" src=images/Part_BooleanOperations.png  style="width:800px;">
 
@@ -146,7 +146,7 @@ FreeCAD su Windows Vista, con un modello IGES caricato da [Rexroth](http://www13
 
 È possibile personalizzare molti aspetti di FreeCAD!
 
-### Operazioni booleane su Mesh {#operazioni_booleane_su_mesh}
+### Operazioni booleane su Mesh 
 
 ![](images/Screenshot_mesh.jpg )
 
@@ -158,19 +158,19 @@ Operazioni booleane su oggetti Mesh in FreeCAD
 
 Blender ha uno [script](http://yorik.orgfree.com/guestblog.php?2009=105) per importare i file di FreeCAD.
 
-### Estrazione di disegni {#estrazione_di_disegni}
+### Estrazione di disegni 
 
 <img alt="" src=images/Drawing_extraction.png  style="width:800px;">
 
 Esportare parte di un modello 3D (STEP in this case) in formato SVG all\'interno della visualizzazione chiamata **Drawing Extraction**. Ciò totalmente parametrico, se cambia la porzione di modello, cambia anche la vista dello stesso.
 
-### FreeCAD vs. QCad {#freecad_vs._qcad}
+### FreeCAD vs. QCad 
 
 ![](images/Screenshot_qcad.jpg )
 
 Lo stesso file visualizzato in FreeCAD e qCAD.
 
-### FreeCAD vs. Inkscape {#freecad_vs._inkscape}
+### FreeCAD vs. Inkscape 
 
 ![](images/Screenshot_inkscape.jpg )
 
@@ -179,7 +179,7 @@ Lo stesso file visualizzato in FreeCAD e inkscape
 
 <div class="mw-translate-fuzzy">
 
-### Modulo Draft {#modulo_draft}
+### Modulo Draft 
 
 ![](images/Screenshot_draft.jpg )
 
@@ -200,25 +200,25 @@ FreeCAD ed il suo [modulo di disegno](Draft_Module/it.md) con un file dxf import
 
 La finestra delle preferenze
 
-### Su Ubuntu {#su_ubuntu}
+### Su Ubuntu 
 
 ![](images/Interface_screenshot.jpg )
 
 L\'interfaccia di FreeCAD al primo avvio su Ubuntu
 
-### Installer per Windows {#installer_per_windows}
+### Installer per Windows 
 
 ![](images/Screenshot_installer.jpg )
 
 Windows installer in funzione
 
-### Riga di comando {#riga_di_comando}
+### Riga di comando 
 
 ![](images/Screenshot_console.jpg )
 
 FreeCAD da riga di comando, senza interfaccia grafica
 
-### Salvare un\'immagine {#salvare_unimmagine}
+### Salvare un\'immagine 
 
 ![](images/Save_picture.png )
 

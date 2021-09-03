@@ -13,7 +13,7 @@ Inserează o sferă substractivă în Corpul activ. forma sa este scăzută din 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

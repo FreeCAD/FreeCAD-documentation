@@ -62,11 +62,11 @@ Die Höhe der Helix (Zentrum-Zentrum).
 
 Die Anzahl der Umdrehungen der Helix. Ergibt sich aus Höhe/Abstand zwischen den Umdrehungen.
 
-### Cone Angle {#cone_angle}
+### Cone Angle 
 
 Der Winkel mit dem der Radius der Helix zu- oder abnimmt. Zulässige Werte: \[-89°, +89°\].
 
-### Left handed {#left_handed}
+### Left handed 
 
 Wenn gewählt, ändert sich die Drehrichtung der Helix von der Voreinstellung \"im Uhrzeigersinn\" in \"gegen den Uhrzeigersinn\".
 
@@ -74,17 +74,17 @@ Wenn gewählt, ändert sich die Drehrichtung der Helix von der Voreinstellung \"
 
 Wenn gewählt wird die Achsenrichtung umgedreht.
 
-### Remove outside of profile {#remove_outside_of_profile}
+### Remove outside of profile 
 
 Wenn gewählt, ist das Ergebnis der Überschneidung des Profils mit dem bereits existierendem Körper.
 
-### Update view {#update_view}
+### Update view 
 
 Wenn gewählt, ändert sich die Ansicht bei jeder Parameteränderung automatisch.
 
 ## Einstellungen
 
-Eine subtraktive Helix, die sich nicht selbst überschneidet ist sichtbar, wenn {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Mod → PartDesign → SubtractiveHelixPreview}} auf `True` steht. Die Voreinstellung ist `True`. <small>(v0.20)</small> 
+Eine subtraktive Helix, die sich nicht selbst überschneidet ist sichtbar, wenn **Tools → Edit parameters... → BaseApp → Preferences → Mod → PartDesign → SubtractiveHelixPreview** auf `True` steht. Die Voreinstellung ist `True`. <small>(v0.20)</small> 
 
 ## Eigenschaften
 

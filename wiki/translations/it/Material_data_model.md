@@ -10,7 +10,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-## Finalità e principi {#finalità_e_principi}
+## Finalità e principi 
 
 Per memorizzare le proprietà dei materiali in una struttura di dati unificata. Uno degli scopi è quello di facilitare il recupero dei dati che può essere effettuato in diversi contesti:
 
@@ -39,7 +39,7 @@ Tramite questo modello di dati dei materiali, si propone di offrire uno strument
 
 Per descrivere un materiale devono essere gestiti diversi tipi di dati. Più avanti viene proposto un modello di dati dei materiali. Sono anche forniti alcuni esempi dei dati che possono essere memorizzati all\'interno di questa struttura.
 
-### Modello di dati dei materiali {#modello_di_dati_dei_materiali}
+### Modello di dati dei materiali 
 
 Oltre alle classiche \"stringhe\" di attributi quali il nome e la famiglia, per descrivere un materiale in FreeCAD, devono essere gestiti 3 diversi tipi specifici di informazioni.
 
@@ -119,7 +119,7 @@ Di seguito si propone il dizionario delle proprietà standard. Sentitevi liberi 
 
 Note: \"Il coefficiente Lankford è rappresentativo della anisotropia di un laminato metallico sottile, è chiamato anche valore Lankford, R-valore, o rapporto di deformazione plastica .\" \"Il coefficiente Hardening (Incrudimento) è rappresentativo della capacità di incrudimento di un metallo. Appare nella formula di Hollomon che mette in relazione la deformazione plastica cumulata con lo stress.\"
 
-##### Esempio 1: Costo per tonnellata {#esempio_1_costo_per_tonnellata}
+##### Esempio 1: Costo per tonnellata 
 
 Di seguito è riportato un primo esempio per mostrare come può essere memorizzata la proprietà *Cost per tonne* (Costo per tonnellata).
 
@@ -135,7 +135,7 @@ Di seguito è riportato un primo esempio per mostrare come può essere memorizza
     -   meaning m\^(-3) (maggiori dettagli sulle unità e sulle specifiche del sistema di unità nella pagina [Unità](Units/it.md))
 -   direction: not applicable
 
-##### Esempio 2: Limite di elasticità {#esempio_2_limite_di_elasticità}
+##### Esempio 2: Limite di elasticità 
 
 Sotto è riportato un secondo esempio per mostrare come può essere memorizzata la proprietà *Yield stress* (Limite di elasticità).
 
@@ -152,7 +152,7 @@ Sotto è riportato un secondo esempio per mostrare come può essere memorizzata 
 -   direction: \[ 1, 0, 0\] nel sistema di coordinate globale
     -   data una lastra di acciaio, questo significa che il limite di snervamento dato è espresso in direzione x, che può essere per esempio la direzione di rotolamento
 
-##### Esempio 3: Incrudimento {#esempio_3_incrudimento}
+##### Esempio 3: Incrudimento 
 
 Sotto è riportato un terzo esempio per mostrare come può essere memorizzata la proprietà *Strain hardening* (Incrudimento). Questo è un esempio più complesso perché l\'incrudimento è rappresentato da una serie di curve. Le curve rappresentano l\'evoluzione dello stress rispetto alla deformazione plastica. Sono state ottenute 3 curve con diverse velocità di deformazione. Tutte le curve sono state ottenute a temperatura ambiente.
 
@@ -179,7 +179,7 @@ Sotto è riportato un terzo esempio per mostrare come può essere memorizzata la
     -   significato di: Pa (maggiori dettagli sulle unità e sulle specifiche del sistema di unità nella pagina [Unità](Units/it.md))
 -   direction: not applicable
 
-#### Composizione chimica {#composizione_chimica}
+#### Composizione chimica 
 
 \[Yet to be filled up\]
 
@@ -191,19 +191,19 @@ Sotto è riportato un terzo esempio per mostrare come può essere memorizzata la
 
 Una stringa in cui l\'utente può aggiungere le proprie osservazioni sul materiale.
 
-### Applicazioni del modello di dati dei materiali: alcuni esempi {#applicazioni_del_modello_di_dati_dei_materiali_alcuni_esempi}
+### Applicazioni del modello di dati dei materiali: alcuni esempi 
 
-##### Esempio 1: Muratura in mattoni {#esempio_1_muratura_in_mattoni}
+##### Esempio 1: Muratura in mattoni 
 
-###### Nome {#nome_1}
+###### Nome 
 
 Brick masonry (Muratura in mattoni)
 
-###### Famiglia {#famiglia_1}
+###### Famiglia 
 
 ?stringa?
 
-###### Proprietà {#proprietà_1}
+###### Proprietà 
 
 -   *Weight*: 1kg/m³
 -   *Cost per cubic meter*: 1€/m³
@@ -214,21 +214,21 @@ Brick masonry (Muratura in mattoni)
 -   *Fire resistance class*: ?string?
 -   *Thermal conductivity*: 1 W/mK
 
-###### Produttore {#produttore_1}
+###### Produttore 
 
 ?stringa?
 
-###### URL {#url_1}
+###### URL 
 
 ?stringa?
 
-###### Note {#note_1}
+###### Note 
 
 Note sulla manutenzione, cura particolare da adottare, ecc ..
 
 Codice CSI/MasterFormat (dato che nel settore sono utilizzati diversi sistemi per dare a tutto il materiale un codice speciale, propongo di inserirlo nelle note, perché non mi sembra opportuno creare una proprietà specifica che non siamo in grado di nominare con precisione).
 
-## Azioni successive {#azioni_successive}
+## Azioni successive 
 
 -   Definire un set di nomi per le proprietà classiche, che possiamo definire in un dizionario (file di configurazione FreeCAD). Queste proprietà saranno soprattutto riutilizzate in altri contesti, quali il modulo FEM.
 

@@ -25,7 +25,7 @@ Python Funktionen folgen der gleichen Regel wie alle FreeCAD Funktionen: Sie sin
 
 </div>
 
-## Grundlegendes Beispiel {#grundlegendes_beispiel}
+## Grundlegendes Beispiel 
 
 Das folgende Beispiel ist zusammen mit einigen anderen Beispielen in der [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py) Datei zu finden: 
 ```python
@@ -162,7 +162,7 @@ makeBox()
 
 ```
 
-### Things to note {#things_to_note}
+### Things to note 
 
 If your object relies on being recomputed as soon as it is created, you must do this manually in the `__init__` function as it is not called automatically. This example does not require it because the `onChanged` method of the `Box` class has the same effect as the `execute` function, but the examples below rely on being recomputed before anything is displayed in the 3D view. In the examples, this is done manually with `ActiveDocument.recompute()` but in more complex scenarios you need to decide where to recompute either the whole document or the FeaturePython object.
 
@@ -170,11 +170,11 @@ This example produces a number of exception stack traces in the report view wind
 
 Eine Erklärung von `__getstate__` und `__setstate__` findest du im Forumsbeitrag [obj.Proxy.Type ist ein Verzeichnis, keine Zeichenfolge](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
-## Verfügbare Methoden {#verfügbare_methoden}
+## Verfügbare Methoden 
 
 Siehe [FunktionPython Methoden](FeaturePython_methods/de.md) für die vollständige Referenz.
 
-## Verfügbare Eigenschaften {#verfügbare_eigenschaften}
+## Verfügbare Eigenschaften 
 
 Eigenschaften sind die wahren Bausteine von FeaturePython-Gegenständen. Durch ist der Benutzer im Stande, mit einem Objekt zu interagieren und es zu ändern. Nach dem Erstellen eines neuen FeaturePython-Objekts in Ihrem Dokument( a=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), können eine Liste der verfügbaren Eigenschaften bekommen, indem Sie folgendes eingeben:
 
@@ -326,7 +326,7 @@ You can find these different property types defined in the [source code C++ head
 
 <div class="mw-translate-fuzzy">
 
-## Andere komplexere Beispiele {#andere_komplexere_beispiele}
+## Andere komplexere Beispiele 
 
 Dieses Beispiel macht vom [Part Modul](Part_Workbench/de.md) Gebrauch, um ein Oktaeder zu schaffen, erstellt dann seine coin Darstellung mit pivy.
 
@@ -532,7 +532,7 @@ Octahedron(a)
 ViewProviderOctahedron(a.ViewObject)
 ```
 
-## Objekte auswählbar machen {#objekte_auswählbar_machen}
+## Objekte auswählbar machen 
 
 Wenn du dein Objekt oder zumindest einen Teil davon durch Anklicken im Ansichtsfenster auswählbar machen möchtest, musst du seine coin Geometrie in einen SoFCSelection Knoten aufnehmen. Wenn dein Objekt eine komplexe Darstellung hat, mit Widgets, Anmerkungen usw., möchtest du vielleicht nur einen Teil davon in eine SoFCSelection einschließen. Alles, was eine SoFCSelection ist, wird von FreeCAD ständig gescannt, um Auswahl/Vorwahl zu erkennen, daher ist es sinnvoll, es nicht mit unnötigem Scannen zu überlasten.
 
@@ -635,7 +635,7 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
-## Arbeiten mit einfachen Formen {#arbeiten_mit_einfachen_formen}
+## Arbeiten mit einfachen Formen 
 
 Erstellen Sie einfach einen SoFCSelection Knoten, dann fügen Sie Ihre Geometrie-Knoten dazu hinzu, dann fügen Sie alles zu Ihrem Hauptknoten hinzu, anstatt Ihre Geometrie-Knoten direkt einzufügen. Die Form wird mittels der FreeCAD Standard-Form-Darstellung angezeigt:
 
@@ -697,7 +697,7 @@ ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
 
-## Szenegraph Struktur {#szenegraph_struktur}
+## Szenegraph Struktur 
 
 Du hast vielleicht bemerkt, dass die obigen Beispiele deine Szenengraphen auf leicht unterschiedliche Weise aufbauen. Einige verwenden `obj.addDisplayMode(node, "modename")`, während andere `obj.SwitchNode.getChild(x).addChild(y)` verwenden.
 
@@ -882,7 +882,7 @@ def makeMolecule():
 a,b = makeMolecule()
 ```
 
-## Weitere Informationen {#weitere_informationen}
+## Weitere Informationen 
 
 Weitere Seiten:
 

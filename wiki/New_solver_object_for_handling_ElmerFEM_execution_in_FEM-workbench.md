@@ -16,17 +16,17 @@ A new solver object has to be implemented based on existing objects. The executi
 6.  The evaluation of the simulation output in done in Paraview.
 7.  Basic GUI-elements have to be introduced to handle the externally provided solver-input-file for running the simulation with ElmerSolver.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  A easy to use solver-object and self-explaining dialogs for handling all external Elmer-related processes
 2.  Test runs ensuring the functionality
 3.  Documentation and tutorials for the workflow
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 Since the integration of external solvers is a huge area in constant evolution, the work done in this GSoC will only cover a small part of it. But if the bases are done right, extending them will be easy and could develop very far.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -38,6 +38,6 @@ Since the integration of external solvers is a huge area in constant evolution, 
 
 Easy
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

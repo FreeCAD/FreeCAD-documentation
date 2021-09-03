@@ -14,7 +14,7 @@ O servidor web é baseado no módulo Python [pydoc](https://docs.python.org/3.8/
 
 ## Utilização
 
-1.  Selecione o {{{MenuCommand|Ajuda → <img src="images/Std_PythonHelp.svg" width=16px> Documentação automática dos módulos python}}} no menu.
+1.  Selecione o {**Ajuda → <img src="images/Std_PythonHelp.svg" width=16px> Documentação automática dos módulos python**} no menu.
 2.  Clique em qualquer um dos links para ir para a documentação de uma classe ou função específica.
 
 

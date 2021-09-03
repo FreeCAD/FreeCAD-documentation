@@ -12,7 +12,7 @@ Il **Formato nativo dei file di FreeCAD** (FreeCAD Standard file format) {{FileN
 
 </div>
 
-## Contenuto di un file .FCStd {#contenuto_di_un_file_.fcstd}
+## Contenuto di un file .FCStd 
 
 FCStd è un [file zip standard contenente uno o più file](#Contenuto.md) in una [determinata struttura](#Struttura.md). Come tale, è possibile decomprimere un file {{FileName|.FCStd}} utilizzando un normale strumento di decompressione zip, mentre invece si deve stare attenti a impacchettare il contenuto di un file {{FileName|.FCStd}}. FreeCAD contiene una \"Project Utility\" per \'ripacchettare\' i file {{FileName|.FCStd}}, il suo uso è descritto nel paragrafo sootttostante [Modificare il codice sorgente del file .FCStd](#Modificare_il_codice_sorgente_del_file_.FCStd.md).
 
@@ -20,7 +20,7 @@ FCStd è un [file zip standard contenente uno o più file](#Contenuto.md) in una
 
 Questo è il file {{FileName|.xml}} principale che descrive tutti gli oggetti contenuti in un documento di FreeCAD. Descrive solo la definizione geometrica e parametrica degli oggetti, ma non la loro rappresentazione visiva. Se FreeCAD viene eseguito in modalità console (senza GUI), viene utilizzato solo questo {{FileName|Document.xml}}.
 
-#### Esempio di Document.xml {#esempio_di_document.xml}
+#### Esempio di Document.xml 
 
 
 {{Code|lang=xml|code=
@@ -143,7 +143,7 @@ Nella cartella Templates vengono memorizzati i file dei modelli svg utilizzati n
 
 </div>
 
-### Struttura tipica {#struttura_tipica}
+### Struttura tipica 
 
 Struttura di un tipico file {{FileName|.FCStd}}. L\'estensione può essere modificata in {{FileName|.zip}} per esplorarla come una normale directory. {{FileName|Document.xml}} e {{FileName|GuiDocument.xml}} si trovano nella radice dell\'archivio, insieme a tutti i file {{FileName|.brp}} (BREP). Una sottodirectory può contenere la miniatura e un\'altra i modelli SVG utilizzati da [TechDraw](TechDraw_Workbench/it.md).
 
@@ -160,7 +160,7 @@ Struttura di un tipico file {{FileName|.FCStd}}. L\'estensione può essere modif
       :--MyPage.svg
       :--etc.
 
-## Incorporare altri file {#incorporare_altri_file}
+## Incorporare altri file 
 
 
 <div class="mw-translate-fuzzy">
@@ -186,11 +186,11 @@ custom_obj.addProperty("App::PropertyFileIncluded", "AttachedFile")
 
 Vedere nel forum la discussione [PDF inside the project](https://forum.freecadweb.org/viewtopic.php?t=38201).
 
-## Modificare il codice sorgente del file .FCStd {#modificare_il_codice_sorgente_del_file_.fcstd}
+## Modificare il codice sorgente del file .FCStd 
 
 -   Vedere [Utilità di progetto](Std_ProjectUtil/it.md).
 
-## Altri link {#altri_link}
+## Altri link 
 
 Un utile programma convertitore: [ImageConv](ImageConv/it.md).
 

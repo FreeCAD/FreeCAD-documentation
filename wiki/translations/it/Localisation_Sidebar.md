@@ -2,7 +2,7 @@
 
 In un wiki, la sidebar (barra di navigazione laterale) è uno strumento molto importante, come documentato in [Manual:Interface/Sidebar](http://www.mediawiki.org/wiki/Manual:Interface/Sidebar).
 
-## Tradurre la sidebar {#tradurre_la_sidebar}
+## Tradurre la sidebar 
 
 Ora la barra laterale è pienamente traducibile con lo stesso [Strumento di traduzione](http://www.mediawiki.org/wiki/Help:Extension:Translate) utilizzabile per tutte le pagine del wiki.
 
@@ -16,7 +16,7 @@ C\'è un bug con la pagina Download. Non è possibile reindirizzare il link \"Do
 
 Il modo migliore per aggirare il problema è quello di creare questa nuova pagina e poi reindirizzarla alla pagina giusta. Per altre informazioni sul reindirizzamento vedere la pagina [Help:Editing](Help:Editing/it.md).
 
-## Note importanti {#note_importanti}
+## Note importanti 
 
 La maggior parte delle volte ci saranno due stringhe per ogni oggetto della barra laterale.
 

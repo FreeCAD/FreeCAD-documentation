@@ -27,7 +27,7 @@ To stop animation type :  \"**animation.stop()**\"
 
 
 
-## The File {#the_file}
+## The File 
 
  [crank\_simul.fcstd](http://forum.freecadweb.org/download/file.php?id=5954) 
 

@@ -11,7 +11,7 @@ Bu araç, model görünümünü çizim düzlemine dik olarak ayarlar. Kullanıc�
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 
 </div>

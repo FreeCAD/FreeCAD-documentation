@@ -1,6 +1,6 @@
  {{TutorialInfo/de|Topic=Modellierung|Level=Anfänger|Author=[EmmanuelG](User:EmmanuelG.md)|Time=1 Stunde|FCVersion=0.16 oder höher|Files=[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]}}
 
-## Ein alltägliches Problem {#ein_alltägliches_problem}
+## Ein alltägliches Problem 
 
 Elektrische Zahnbürsten kommen selten mit einem Ständer für die Köpfe, während Sie in einer Familie oftmals mehrere Köpfe sehen, die mit einem Gerät benutzt werden. Viele Leute, die ein gemeinsames Problem haben, führen zu einer Vielzahl von Lösungen, wie man u.a. auf Thingiverse sieht (200-800 Projekte befassen sich damit). Hier ist die erste Antwort und wie man sie entwirft.
 
@@ -8,13 +8,13 @@ Dieses Tutorial wird Sie durch die notwendigen Schritte führen, um das in der f
 
 ![](images/TBHS-model.png )
 
-## Erste Idee: Eine Platte {#erste_idee_eine_platte}
+## Erste Idee: Eine Platte 
 
 -   Auf der Startseite von FreeCAD wähle ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design*, oder erstelle ein neues Dokument und wähle den *Part Design* Arbeitsbereich.
 
 ![](images/TBHS-0.png )
 
-### Eine Skizze erstellen {#eine_skizze_erstellen}
+### Eine Skizze erstellen 
 
 -   Klicke auf <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [**Neue Skizze**](Sketcher_NewSketch.md), entweder aus dem kontextbezogenen Aufgabenmenü links oder aus der Werkzeugleiste oben oder aus dem Part Design Menü oben.
 
@@ -62,7 +62,7 @@ Eine unter-beschränkte Skizze lässt Raum für ungewollte Änderungen, wenn du 
 
 Du siehst jetzt nur noch das Quadrat, und das kontextbezogene Aufgabenmenü auf der linken Seite zeigt dir mehr Wahlmöglichkeiten als zuvor.
 
-### Erstellen eines Blocks {#erstellen_eines_blocks}
+### Erstellen eines Blocks 
 
 -   Klicke auf <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrisch** unter den Standardansichten, um besser sehen zu können, was passieren wird.
 -   Klicken auf <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Block**.
@@ -72,7 +72,7 @@ Du siehst jetzt nur noch das Quadrat, und das kontextbezogene Aufgabenmenü auf 
 
 Deine Skizze ist jetzt mit Rauminhalt !
 
-### Eine Skizze darauf erstellen {#eine_skizze_darauf_erstellen}
+### Eine Skizze darauf erstellen 
 
 -   Wähle die Oberseite
 
@@ -117,7 +117,7 @@ Diese Linien dienen als Referenz, um die Kreise zu positionieren.
 
 <img alt="" src=images/TBHS-15.JPG  style="width:800px;">
 
-### Einen Block erstellen {#einen_block_erstellen}
+### Einen Block erstellen 
 
 -   Klicke auf <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrisch** unter den Standardansichten, um besser sehen zu können, was passieren wird.
 -   Klicke auf <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Block**.
@@ -127,7 +127,7 @@ Diese Linien dienen als Referenz, um die Kreise zu positionieren.
 
 Du hast die Grundform, sie braucht nur noch den letzten Schliff.
 
-### Abrunden der Ecken {#abrunden_der_ecken}
+### Abrunden der Ecken 
 
 -   Halte **STRG** gedrückt und klicke auf die vertikale Kante an jeder Ecke, um die vier auszuwählen.
 
@@ -142,7 +142,7 @@ Zögere nicht, dir zu helfen, indem du den Anzeigemodus (gleich links neben der 
 
 Viel besser.
 
-### Es robuster machen {#es_robuster_machen}
+### Es robuster machen 
 
 Wir müssen Material an der Basis der Zylinder hinzufügen, um sie weniger anfällig für das Reißen zu machen. Aufgrund der Druckausrichtung werden diese kleinen Flächen an der Verbindungsstelle mit der Basis zerbrechlich sein.
 
@@ -155,7 +155,7 @@ Wir müssen Material an der Basis der Zylinder hinzufügen, um sie weniger anfä
 
 <img alt="" src=images/TBHS-20.JPG  style="width:800px;">
 
-### Die Kanten fasen {#die_kanten_fasen}
+### Die Kanten fasen 
 
 -   Wähle die Fläche unter der Basis aus, füge eine <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **Fase** von 0,5 mm hinzu
 
@@ -173,7 +173,7 @@ Die erste Plastikschicht wird oft ein wenig zu stark gequetscht, dies gleicht da
 
 Tadaa!
 
-## Als .STL exportieren {#als_.stl_exportieren}
+## Als .STL exportieren 
 
 -   Wähle in der Combo Ansicht auf der linken Seite die Baumansicht anstelle des kontextbezogenen Aufgabenmenüs und klicke auf das letzte Element (die Fase).
 
@@ -194,11 +194,11 @@ Keine Sorge, es ist oftmals notwendig, für eine Idee mehrere Überarbeitungen v
 
 In diesem zweiten Teil wirst du auch lernen, mehr Werkzeuge zu benutzen, wie die mächtige *Lineare Wiederholung*.
 
-## Zweite Idee: Ein Band {#zweite_idee_ein_band}
+## Zweite Idee: Ein Band 
 
 -   Erstelle ein neues Dokument und wähle den ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design* Arbeitsbereich.
 
-### Neue Skizze erstellen {#neue_skizze_erstellen}
+### Neue Skizze erstellen 
 
 -   Erstelle eine <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **Neue Skizze** auf der XY Ebene.
 
@@ -253,7 +253,7 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-8.JPG  style="width:800px;">
 
-### Erstellen eines Blocks {#erstellen_eines_blocks_1}
+### Erstellen eines Blocks 
 
 -   Klicken auf <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrisch** unter den Standardansichten, um besser sehen zu können, was passieren wird.
 -   Klicke auf <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Block**.
@@ -261,7 +261,7 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-9.JPG  style="width:800px;">
 
-### Eine Skizze darauf erstellen {#eine_skizze_darauf_erstellen_1}
+### Eine Skizze darauf erstellen 
 
 -   Wähle die Oberseite
 
@@ -307,7 +307,7 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-17.JPG  style="width:800px;">
 
-### Ein Loch erstellen {#ein_loch_erstellen}
+### Ein Loch erstellen 
 
 -   Klicke auf <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrisch** unter den Standardansichten, um besser zu sehen, was passieren wird.
 -   Klicke auf <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [**Tasche**](PartDesign_Pocket/de.md).
@@ -315,7 +315,7 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-18.JPG  style="width:800px;">
 
-### Lineare Wiederholung {#lineare_wiederholung}
+### Lineare Wiederholung 
 
 -   Wähle in der Combo Ansicht auf der linken Seite die Baumansicht anstelle des kontextbezogenen Aufgabenmenüs, klicke auf die Taschen Funktion.
 -   Klicke auf <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [**Lineares Muster**](PartDesign_LinearPattern/de.md).
@@ -323,7 +323,7 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-19.JPG  style="width:800px;">
 
-### Eine Skizze darauf erstellen {#eine_skizze_darauf_erstellen_2}
+### Eine Skizze darauf erstellen 
 
 -   Wähle die Innenseite
 
@@ -361,7 +361,7 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-26.JPG  style="width:800px;">
 
-### Erstellen eines Blocks {#erstellen_eines_blocks_2}
+### Erstellen eines Blocks 
 
 -   Klicke auf <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrisch** unter den Standardansichten, um besser sehen zu können, was passieren wird.
 -   Klicken auf <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Block**.
@@ -369,7 +369,7 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-27.JPG  style="width:800px;">
 
-### Lineare Wiederholung {#lineare_wiederholung_1}
+### Lineare Wiederholung 
 
 -   Wähle in der Combo Ansicht auf der linken Seite die Baumansicht anstelle des kontextbezogenen Aufgabenmenüs, klicke auf die Polster Funktion.
 -   Klicke <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [**Lineares Muster**](PartDesign_LinearPattern/de.md).
@@ -408,7 +408,7 @@ Fase = links / Entwurf = rechts
 
 Perfekt!
 
-## Als .STL exportieren {#als_.stl_exportieren_1}
+## Als .STL exportieren 
 
 -   Wähle in der Combo Ansicht auf der linken Seite die Baumansicht anstelle des kontextbezogenen Aufgabenmenüs und klicke auf das letzte Element (die Fase).
 

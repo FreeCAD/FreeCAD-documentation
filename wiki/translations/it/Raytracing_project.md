@@ -21,7 +21,7 @@ Questo è il progetto di sviluppo per l\'implementazione di un modulo Raytracing
 
 <div class="mw-translate-fuzzy">
 
-## Finalità e principi {#finalità_e_principi}
+## Finalità e principi 
 
 Lo scopo di questo progetto è quello di aggiornare il modulo di renderizzazione corrente <img alt="" src=images/Raytracing.png  style="width:16px;"> [Raytracing](Raytracing_Workbench/it.md) che ora utilizza [POV-Ray](http://www.povray.org/) (un renderizzatore parziale che dà risultati soddisfacenti) e permettere di utilizzare renderizzatori più moderni come [Lux Render](http://www.luxrender.net/en_GB/index), [Yafaray](http://www.yafaray.org/), [Indigo](http://www.indigorenderer.com/).
 
@@ -58,7 +58,7 @@ Il lavoro attuale è realizzato interamente da mrlukeparry sul suo ramo di rende
 
 Nell\'immagine precedente è visualizzata una Parte creata da uno Schizzo di PartDesign e poi renderizzata con il nuovo Modulo Render in fase di sviluppo in Lux Render. Lux Render permette di creare gradevoli effetti, come ad esempio la profondità di campo [DOF (Depth of Field)](http://wiki.blender.org/index.php/Doc:FR/2.4/Manual/Render/Camera/Depth_Of_Field), per migliorare il realismo.
 
-## Azioni successive {#azioni_successive}
+## Azioni successive 
 
 -   Creare l\'Astrazione per fornire l\'interfaccia ai renderizzatori (Fatto)
 -   Implementare una interfaccia per descrivere i materiali generici e collezionarli (Fatto)

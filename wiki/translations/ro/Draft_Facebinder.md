@@ -19,7 +19,7 @@ It can be used to create an extrusion from a collection of faces. This extrusion
 <img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;"> 
 *Facebinder created from the faces of walls*
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -67,7 +67,7 @@ A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) obje
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

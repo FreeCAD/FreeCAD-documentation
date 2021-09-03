@@ -60,7 +60,7 @@ Questa macro serve per ruotare lo schermo di un determinato angolo lungo l\'asse
 -   <img alt="" src=images/FCCamera_07.png  style="width:24px;"> **Reset.** : Ripristina tutti i valori.
 -   <img alt="" src=images/FCCamera_08.png  style="width:24px;"> **Quit.** : Esce da FCCamera.
 
-## Sezione Photo {#sezione_photo}
+## Sezione Photo 
 
 ![FCCamera](images/Macro_FCCamera_00b.png ) 
 
@@ -134,7 +134,7 @@ Scaricare la macro da Gist [**Macro FCCamera.FCMacro**](https://gist.github.com/
 
 ## Esempi
 
-### Come creare un foro inclinato {#come_creare_un_foro_inclinato}
+### Come creare un foro inclinato 
 
 
 <center>

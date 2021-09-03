@@ -11,19 +11,19 @@
 
 This tutorial introduces the new user to some of the tools and techniques used in the **<img src="images/Workbench_TechDraw.svg" width=24px> [Technical Drawing (TechDraw) Workbench](TechDraw_Workbench.md)**. This tutorial is not a complete and comprehensive guide to the TechDraw Workbench and many of the tools and capabilities are not covered. This tutorial will take user through the steps needed to produce technical drawings of the part from the [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md).
 
-## Before You Begin {#before_you_begin}
+## Before You Begin 
 
 Download the [sample file](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) from the Part Design tutorial.
 
-## The Task {#the_task}
+## The Task 
 
 In this tutorial, you will be using the TechDraw Workbench to create a 2D drawings of the 3D part below. We will create multiple Views of the part and add key dimensions. This Tutorial will not use every feature and tool available within the TechDraw Workbench, but should use enough to give the user of this tutorial a basic foundation upon which to build their knowledge and skills.
 
-## The Part {#the_part}
+## The Part 
 
  ![](images/Tut17_final_refined.png ) 
 
-## Creating a Drawing {#creating_a_drawing}
+## Creating a Drawing 
 
 ### Startup
 
@@ -31,7 +31,7 @@ In this tutorial, you will be using the TechDraw Workbench to create a 2D drawin
 -   First open the file containing our 3D part. Then make sure you are in the TechDraw Workbench.
 -   You will be selecting items in the Drawing window and/or the Combo panel. Selection in TechDraw works the same as in the 3D window. Items turn yellow when the cursor is in position to select them and turn green when selected. To select multiple items use the **Ctrl** key while clicking.
 
-### Views and Dimensions {#views_and_dimensions}
+### Views and Dimensions 
 
 All work in TechDraw begins with a Page. Pages are based on Templates and contain Views.
 
@@ -57,7 +57,7 @@ Better, but a little boring. Let\'s add some Dimensions.
 
 ![](images/TDTut_TopView2Dims.png )
 
-### Editable Text {#editable_text}
+### Editable Text 
 
 We should add some documentation to our drawing.
 
@@ -81,7 +81,7 @@ Before we leave this Page, let\'s see what it will look like when we print it.
 
 ![](images/TDTut_Toggle.png )
 
-### Multiple Views of a Single Part {#multiple_views_of_a_single_part}
+### Multiple Views of a Single Part 
 
 Let\'s create a multiview drawing using a different Template as a starting point. We\'ll be using the First Angle convention, but you can change to Third Angle if that is your local convention.
 
@@ -97,7 +97,7 @@ Let\'s create a multiview drawing using a different Template as a starting point
 1.  In the View labelled \"TopLeftFront\", select the two Vertices at the extreme ends of the front edge of the work piece.
 2.  Click on <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [TechDraw Dimension Length](TechDraw_Dimension_Length.md). Drag the dimension text away from the Body.
 
-### Linking Dimensions to 3D Model {#linking_dimensions_to_3d_model}
+### Linking Dimensions to 3D Model 
 
 Do you notice a problem with the dimension we just created?
 
@@ -111,7 +111,7 @@ From the first part of this tutorial, we know that the work piece is 53 mm wide,
 4.  In the dialog, move our dimension from the Available column to the Selected column. Press **OK**.
 5.  Return to Page001. Our dimension should now read the correct value of 53. (if you still see 43.27, you may need to press the **Recompute** button or drag the dimension value a bit until it changes.)
 
-## Going Further {#going_further}
+## Going Further 
 
 In this tutorial you have learned enough about TechDraw to produce a drawing like this one (by [NormandC](User:Normandc.md)). See Note 2.
 
@@ -124,7 +124,7 @@ There is much more functionality in TechDraw for you to explore - Section Views,
 1.  There is an excellent set of suggested preferences in this [Forum post](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189).
 2.  This drawing was produced in v0.18. It shows dimensions in the proper format for an isometric view. In v0.17 the extension lines will be perpendicular to the edge rather than aligned with the axes.
 
-## Additional Resources {#additional_resources}
+## Additional Resources 
 
 -   FreeCAD file of this exercise for comparison (made with 0.17) [Download](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 

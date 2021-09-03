@@ -13,12 +13,12 @@
 
 Существует два наиболее распространенных способа создания эскиза: непосредственно с помощью [верстака Sketcher](Sketcher_Workbench/ru.md) или через [верстак PartDesign](PartDesign_Workbench/ru.md).
 
-### Верстак Sketcher {#верстак_sketcher}
+### Верстак Sketcher 
 
 1.  Переключитесь на <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [верстак Sketcher](Sketcher_Workbench/ru.md).
 2.  Нажмите на **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Создать новый эскиз](Sketcher_NewSketch/ru.md)**.
 
-### Верстак PartDesign {#верстак_partdesign}
+### Верстак PartDesign 
 
 1.  Переключитесь на <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [Верстак PartDesign](PartDesign_Workbench/ru.md).
 2.  Нажмите на **<img src=images/PartDesign_Body.svg style="width:16px"> [Создать новое тело](PartDesign_Body/ru.md)**.

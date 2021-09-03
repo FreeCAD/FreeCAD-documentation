@@ -11,7 +11,7 @@ This tool splits a selected [Mesh](Mesh_Workbench.md) object into its separate c
 ## Usage
 
 1.  Select a mesh object.
-2.  Press the **<img src="images/Arch_SplitMesh.svg" width=16px> [Split Mesh](Arch_SplitMesh.md)** entry in {{MenuCommand|Arch → Utilities → Split Mesh}}.
+2.  Press the **<img src="images/Arch_SplitMesh.svg" width=16px> [Split Mesh](Arch_SplitMesh.md)** entry in **Arch → Utilities → Split Mesh**.
 
 ## Scripting
 

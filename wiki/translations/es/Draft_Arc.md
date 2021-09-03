@@ -77,8 +77,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
--   If the {{MenuCommand|Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available}} option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
+-   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 
@@ -101,7 +101,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 <div class="mw-translate-fuzzy">
 
-## Archivos de guión {#archivos_de_guión}
+## Archivos de guión 
 
 La herramienta circunferencia también se puede utilizar para crear arco en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente instrucción, con los argumentos adicionales dados:
 

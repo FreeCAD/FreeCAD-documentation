@@ -19,7 +19,7 @@ Il comando **Salva** salva il documento attivo.
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_Save.svg" width=16px> '''Salva'''**.
-    -   Selezionare l\'opzione {{MenuCommand|File → <img src="images/Std_Save.svg" width=16px> Salva}} dal menu.
+    -   Selezionare l\'opzione **File → <img src="images/Std_Save.svg" width=16px> Salva** dal menu.
     -   Usare la scorciatoia da tastiera: **Ctrl**+**S**.
 2.  Per i nuovi documenti: immettere un nome file nella finestra di dialogo e premere il pulsante **Salva**.
 
@@ -33,7 +33,7 @@ Il comando **Salva** salva il documento attivo.
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: {{MenuCommand|Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

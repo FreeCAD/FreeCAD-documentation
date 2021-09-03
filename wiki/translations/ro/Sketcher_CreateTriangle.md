@@ -13,7 +13,7 @@ Desenează un triunghi echilateral înscris într-un cerc . La pornirea instrume
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

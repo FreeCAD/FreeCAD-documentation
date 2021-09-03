@@ -15,7 +15,7 @@ If you are not involved with the development discussed here:<br>
 
 Această pagină enumeră cerințele și implementarea pentru un nou atelier de lucru utilizabil în domeniul [Land Survey](http://en.wikipedia.org/wiki/Land_survey). Pagina este puțin depășită. Găsiți cele mai recente informații pentru FreeCAD în această privință pe un subiect Enerm pe forum :<http://forum.freecadweb.org/viewtopic.php?f=8&t=6973>
 
-## Selecția Rectangulară {#selecția_rectangulară}
+## Selecția Rectangulară 
 
 > Este posibil să fie necesar un nou mod mouse:
 >
@@ -37,7 +37,7 @@ Blocurile sunt obiecte care se comportă în majoritatea cazurilor ca un singur 
 
 > Deoarece există o actualizare / downgrade, această funcție poate fi deja prezentă.
 
-### Atribute Dinamice {#atribute_dinamice}
+### Atribute Dinamice 
 
 Variabile. Componente ale blocului care pot fi modificate fără modificarea definiției blocului. Poziția în interiorul blocului este un astfel de atribut.
 
@@ -49,11 +49,11 @@ Variabile. Componente ale blocului care pot fi modificate fără modificarea def
 
 > Blocurile cu proprietăți dinamice ar trebui să o facă.
 
-## Querry tools for 2 and a half system {#querry_tools_for_2_and_a_half_system}
+## Querry tools for 2 and a half system 
 
 Poziția plană este de obicei decuplată (în special în aplicațiile de cadastru) de la înălțime.Când doriți să cunoașteți distanța dintre două puncte, doriți să aflați distanța în proiecția orizontală. Planul orizontal este XY, Y indicând spre nord. Z punctează în sus (altitudine pozitivă).
 
-## Rich text; Tabele {#rich_text_tabele}
+## Rich text; Tabele 
 
 Suport general pentru rich text.
 

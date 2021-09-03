@@ -18,17 +18,17 @@ Les axes du repère se composent de trois flèches représentant les axes positi
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → <img src="images/Std_AxisCross.svg" width=16px> Afficher les axes des coordonnées}} dans le menu.
+    -   Sélectionnez l\'option **Affichage → <img src="images/Std_AxisCross.svg" width=16px> Afficher les axes des coordonnées** dans le menu.
     -   Utilisez le raccourci clavier: **A** puis **C**.
 
 ## Remarques
 
--   FreeCAD peut afficher un indicateur de système de coordonnées plus petit dans le coin inférieur droit des vues 3D: {{MenuCommand|Edition → Préférences ... → Affichage → Vue 3D → Afficher le système de coordonnées dans le coin}}. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
+-   FreeCAD peut afficher un indicateur de système de coordonnées plus petit dans le coin inférieur droit des vues 3D: **Edition → Préférences ... → Affichage → Vue 3D → Afficher le système de coordonnées dans le coin**. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
 -   Le [Cube de navigation](Navigation_Cube/fr.md) comprend également un indicateur de système de coordonnées.
 
 ## Préférences
 
--   La valeur par défaut des axes du repère peut être modifiée dans les préférences: {{MenuCommand|Edition → Préférences... → Affichage → Vue 3D → Afficher la croix de l'axe par défaut}}. Voir [Réglage des préférences](Preferences_Editor/fr#Vue_3D.md). {{Version/fr|0.19}}
+-   La valeur par défaut des axes du repère peut être modifiée dans les préférences: **Edition → Préférences... → Affichage → Vue 3D → Afficher la croix de l'axe par défaut**. Voir [Réglage des préférences](Preferences_Editor/fr#Vue_3D.md). {{Version/fr|0.19}}
 
 ## Script
 

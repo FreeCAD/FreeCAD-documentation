@@ -16,7 +16,7 @@
 
 Most **Std Base** tools can be accessed from the [standard menu](Standard_Menu.md). Those that are only available via a toolbar or a context menu are listed under [Additional tools](#Additional_tools.md).
 
-### Standard menu tools {#standard_menu_tools}
+### Standard menu tools 
 
 The standard menu is composed of 7 sub-menus. Each sub-menu has a dedicated page. Just click on any of the names below.
 
@@ -38,7 +38,7 @@ The standard menu is composed of 7 sub-menus. Each sub-menu has a dedicated page
 [Help](Std_Help_Menu.md)
 }}
 
-### Additional tools {#additional_tools}
+### Additional tools 
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std Part](Std_Part.md): Creates a new part and makes it active.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std Group](Std_Group.md): Creates a new group.

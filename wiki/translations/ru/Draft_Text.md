@@ -40,7 +40,7 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-## Использование {#использование_1}
+## Использование 
 
 1.  Нажмите кнопку **<img src="images/Draft_Text.svg" width=16px> [Текст](Draft_Text/ru.md)
 **, или нажмите клавишу **T**, а затем**E**

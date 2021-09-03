@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Visão geral {#visão_geral}
+## Visão geral 
 
 O *Estilos de Navegação* do FreeCAD consiste nos comandos usados para navegar visualmente pelo espaço 3D e interagir com os objetos exibidos utilizando o mouse. O FreeCAD suporta múltiplos estilos de navegação. O estilo de navegação padrão é chamado de \"Navegação CAD\", e é muito simples e prático, mas o FreeCAD também oferece estilos alternativos de navegação que você pode escolher de acordo com suas preferências.
 
@@ -22,10 +22,10 @@ Os gestos do mouse usados para manipulação de objetos variam dependendo do est
 
 Existem duas maneiras de mudar o estilo de navegação:
 
--   No menu [Editor de Preferências](Preferences_Editor/pt-br#Navegação.md); menu {{MenuCommand|Editar → Preferências → Tela → Navegação → Navegação 3D}}.
--   Clicando com o botão direito do mouse no espaço vazio na Vista 3D e selecionando {{MenuCommand|Estilo de Navegação}} no menu de contexto.
+-   No menu [Editor de Preferências](Preferences_Editor/pt-br#Navegação.md); menu **Editar → Preferências → Tela → Navegação → Navegação 3D**.
+-   Clicando com o botão direito do mouse no espaço vazio na Vista 3D e selecionando **Estilo de Navegação** no menu de contexto.
 
-### Navegação CAD {#navegação_cad}
+### Navegação CAD 
 
 Este é o estilo de navegação padrão. Ele permite ao usuário um controle simples da visualização, e não requer o uso de teclas de teclado, exceto para fazer seleções múltiplas.
 
@@ -61,7 +61,7 @@ Com este método, o botão central do mouse pode ser solto depois que o botão d
 Os usuários que usam o mouse com a mão direita podem achar este método mais fácil do que o primeiro método.
 }}
 
-### Navegação OpenInventor {#navegação_openinventor}
+### Navegação OpenInventor 
 
 A navegação OpenInventor (antigo Inventor) foi modelada após [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Para selecionar objetos, você deve manter pressionada a tecla **Ctrl**.
 
@@ -81,7 +81,7 @@ Este modo não é baseado no Autodesk Inventor.
 Alternativamente, segure o botão central do mouse, depois pressione e segure o botão esquerdo do mouse, depois mova o ponteiro. |Rotate_view_text=Mantenha o botão esquerdo do mouse pressionado, depois mova o ponteiro.
 }}
 
-### Blender Navigation {#blender_navigation}
+### Blender Navigation 
 
 O estilo de navegação do Blender foi modelado após [Blender](https://www.blender.org). Anteriormente não havia como realizar movimento panorâmico usando apenas o mouse; sempre era necessário segurar a tecla **Shift**. Isto mudou em 2016, agora você pode segurar os botões esquerdo e direito do mouse para mover a janela de exibição. {{Blender Navigation
 |Select_name=Selecionar
@@ -97,7 +97,7 @@ Alternativamente, segure os botões esquerdo e direito do mouse, e então mova o
 |Rotate_view_text=Segure o botão do meio do mouse, depois mova o ponteiro.
 }}
 
-### Navegação Touchpad {#navegação_touchpad}
+### Navegação Touchpad 
 
 Na Navegação com touchpad, panorâmico, zoom e rotacionar vista requerem o pressionamento de tecla com o touchpad. {{Touchpad Navigation
 |Select_name=Selecionar
@@ -117,7 +117,7 @@ Na Navegação com touchpad, panorâmico, zoom e rotacionar vista requerem o pre
 |Rotate_view_alt_text=Alternativamente, segure **Shift** e o botão esquerdo, depois mova o ponteiro.
 }}
 
-### Navegação por gestos {#navegação_por_gestos}
+### Navegação por gestos 
 
 Este estilo foi introduzido na versão 0.16, e foi adaptado para uso com uma tela sensível ao toque e uma caneta. No entanto, também pode ser usado com um mouse, recomendado para uso quando se usa um Mac com trackpad. {{Gesture Navigation \|Select\_name=Selecionar \|Pan\_name=Pan(movimento panorâmico) \|Zoom\_name=Zoom \|Rotate\_view\_name=Rotacionar vista \|Tilt\_view\_name=Vista inclinada \|Select\_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar. \|Select\_gesture\_text=Toque para selecionar. \|Pan\_text=Segure o botão direito do mouse, depois mova o ponteiro. \|Pan\_gesture\_text=Arrastar com dois dedos.
 
@@ -127,7 +127,7 @@ Para definir o ponto de foco da câmera para rotação, clique em um ponto com o
 
 Segure **Alt** quando no [Sketcher](Sketcher_Workbench/pt-br.md). \|Tilt\_view\_text=Segure os botões esquerdo e direito do mouse, depois mova o ponteiro para o lado. \|Tilt\_view\_gesture\_text=Gire a linha imaginária formada por dois pontos de contato.
 
-Na v0.18 este método é desativado por padrão. Para ativar, vá para {{{MenuCommand|Editar → Preferências → Tela → Navegação → Navegação}}, e desmarque a caixa de seleção "Desabilitar gesto de inclinação da tela sensível ao toque".
+Na v0.18 este método é desativado por padrão. Para ativar, vá para {**Editar → Preferências → Tela → Navegação → Navegação**, e desmarque a caixa de seleção "Desabilitar gesto de inclinação da tela sensível ao toque".
 }}
 
 === Maya-Gesture Navigation ===

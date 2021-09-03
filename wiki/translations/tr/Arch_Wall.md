@@ -29,13 +29,13 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 ## Usage
 
-### Drawing a wall from scratch {#drawing_a_wall_from_scratch}
+### Drawing a wall from scratch 
 
 1.  Press the **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)** button, or press **W** then **A** keys.
 2.  Click a first point on the 3D view, or type coordinates.
 3.  Click a second point on the 3D view, or type coordinates.
 
-### Drawing a wall on top of a selected object {#drawing_a_wall_on_top_of_a_selected_object}
+### Drawing a wall on top of a selected object 
 
 1.  Select one or more base geometry objects (Draft object, sketch, etc)
 2.  Press the **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)** button, or press the **W** then **A** keys

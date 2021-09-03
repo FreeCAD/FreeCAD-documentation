@@ -10,7 +10,7 @@ Il comando **Vista in prospettiva** commuta la [vista 3D](3D_view/it.md) attiva 
 ## Utilizzo
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Selezionare l\'opzione {{MenuCommand|Visualizza → <img src="images/Std_PerspectiveCamera.svg" width=16px> Vista in prospettiva}} dal menu.
+    -   Selezionare l\'opzione **Visualizza → <img src="images/Std_PerspectiveCamera.svg" width=16px> Vista in prospettiva** dal menu.
     -   Usare la scorciatoia da tastiera: **V** e poi **P**.
 
 ## Note
@@ -19,7 +19,7 @@ Il comando **Vista in prospettiva** commuta la [vista 3D](3D_view/it.md) attiva 
 
 ## Preferenze
 
--   Il tipo di camera può essere modificato nelle preferenze: {{MenuCommand|Modifica → Preferenze... → Visualizzazione → Vista 3D → Tipo di camera}}. Il tipo selezionato verrà utilizzato per tutte le viste 3D di tutti i documenti aperti e anche per i nuovi documenti. Vedere in [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
+-   Il tipo di camera può essere modificato nelle preferenze: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Tipo di camera**. Il tipo selezionato verrà utilizzato per tutte le viste 3D di tutti i documenti aperti e anche per i nuovi documenti. Vedere in [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
 
 ## Script
 

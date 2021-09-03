@@ -4,7 +4,7 @@ Dans les notes suivantes, `"context"` doit être le nom de votre addon ou de vot
 
 **Remarque** : Voici un script tout-en-un qui automatise la procédure complète mentionnée ci-dessous (il est tout de même conseillé de lire la procédure pour savoir ce que le script doit faire) : <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>.
 
-## Préparer les sources {#préparer_les_sources}
+## Préparer les sources 
 
 ### Généralités
 
@@ -12,7 +12,7 @@ Dans les notes suivantes, `"context"` doit être le nom de votre addon ou de vot
 -   Seul le texte affiché pour l\'utilisateur dans l\'interface de FreeCAD doit être traduit. Le texte affiché uniquement dans la console Python ne doit pas être traduit.
 -   Le texte imprimé sur `FreeCAD.Console` apparaît dans la \"Vue Rapport\" et doit donc être traduit. La \"vue Rapport\" est différente depuis la console Python.
 
-### Dans chaque fichier Python .py {#dans_chaque_fichier_python_.py}
+### Dans chaque fichier Python .py 
 
 -   Dans chaque fichier où vous devez traduire du texte, vous devez définir une fonction `translate()`. Un moyen simple consiste à utiliser celui de [l\'atelier Draft](Draft_Workbench/fr.md) :
 
@@ -56,7 +56,7 @@ N\'utilisez pas votre propre `"context"` dans ce cas particulier. Conservez `"Ap
 
 -   Ne traduisez pas le texte des transactions de document effectuées avec `Document.openTransaction()`
 
-### Dans InitGui.py {#dans_initgui.py}
+### Dans InitGui.py 
 
 -   Ajoutez la ligne suivante, près du haut du fichier :
 
@@ -86,7 +86,7 @@ Le fichier `InitGui.py` n\'a pas d\'attribut **fichier**. Il est donc difficile 
 FreeCADGui.addLanguagePath(os.path.join(os.path.dirname(__file__), "translations"))
 ```
 
-### À l\'intérieur de chaque classe de commande de FreeCAD {#à_lintérieur_de_chaque_classe_de_commande_de_freecad}
+### À l\'intérieur de chaque classe de commande de FreeCAD 
 
 -   Ajoutez la ligne suivante, près du haut du fichier : 
 ```python
@@ -111,7 +111,7 @@ Où `"CommandName"` est le nom de la commande, défini par
 FreeCADGui.addCommand('CommandName',My_Command_Class())
 ```
 
-## Rassemblez toutes les chaînes de votre module {#rassemblez_toutes_les_chaînes_de_votre_module}
+## Rassemblez toutes les chaînes de votre module 
 
 -   Vous aurez besoin des outils `lupdate`, `lconvert`, `lrelease` et `pylupdate` installés sur votre système. Dans les distribution Linux, ils viennent généralement avec des paquets nommés `pyside-tools` ou `pyside2-tools`. Sur certains systèmes `lupdate` est nommé `lupdate4` ou `lupdate5` ou `lupdate-qt4`. Même chose pour les autres outils. Vous pouvez généralement utiliser la version qt4 ou qt5 à votre choix.
 -   Si vous avez des fichiers `.ui`, vous devez d'abord exécuter `lupdate` :
@@ -150,7 +150,7 @@ rm translations/pyfiles.ts
 rm translations/uifiles.ts
 ```
 
-## Envoyer le fichier .ts à une plateforme de traduction {#envoyer_le_fichier_.ts_à_une_plateforme_de_traduction}
+## Envoyer le fichier .ts à une plateforme de traduction 
 
 Il est temps de faire traduire votre fichier `.ts`. Vous pouvez choisir de créer un compte sur une plateforme de traduction publique telle que [Crowdin](https://crowdin.com/) ou [Transifex](https://www.transifex.com/), ou vous pouvez bénéficier de notre [compte FreeCAD existant sur Crowdin](https://crowdin.com/project/freecad-addons), qui compte déjà de nombreux utilisateurs et qui a donc plus de chance de faire traduire votre fichier rapidement par des personnes connaissant FreeCAD.
 
@@ -161,14 +161,14 @@ Si vous souhaitez héberger votre fichier sur le compte FreeCAD Crowdin, contact
 
 certaines plates-formes comme Crowdin peuvent s\'intégrer à GitHub et effectuer automatiquement tout le processus à partir des points 2, 3 et 4. Pour cela, vous ne pouvez pas utiliser le compte FreeCAD Crowdin ; vous devrez configurer vôtre propre compte.
 
-## Fusionner les traductions {#fusionner_les_traductions}
+## Fusionner les traductions 
 
 Une fois que votre fichier `.ts` a été traduit, même partiellement, vous pouvez télécharger les traductions à partir du site :
 
 -   Vous téléchargerez généralement un fichier `.zip` contenant un `.ts` par langue
 -   Placez tous les fichiers `.ts` traduits, ainsi que votre fichier `.ts` de base, dans le dossier `translations/`
 
-## Compiler les traductions {#compiler_les_traductions}
+## Compiler les traductions 
 
 Maintenant, lancez le programme `lrelease` sur chaque fichier que vous avez. 
 ```python
@@ -189,7 +189,7 @@ Vous devriez trouver un fichier `.qm` pour chaque fichier `.ts` traduit. Les fic
 
 C\'est tout ce dont vous avez besoin. Notez que certaines parties de votre atelier ne peuvent pas être traduites à la volée si vous décidez de changer de langue. Si tel est le cas, vous devrez redémarrer FreeCAD pour que la nouvelle langue prenne effet.
 
-## Tester les traductions {#tester_les_traductions}
+## Tester les traductions 
 
 1.  Basculez FreeCAD dans une langue que vous avez traduite (ex. Allemand)
 2.  Chargez la traduction dans FreeCAD, ex. `FreeCADGui.addTranslationPath("/path/to/the/folder/containing/qmfile")`
@@ -197,15 +197,15 @@ C\'est tout ce dont vous avez besoin. Notez que certaines parties de votre ateli
 
 Résultat : Cela devrait vous donner la traduction allemande. Si cela fonctionne bien, alors la configuration de base est correcte. Alors nous pouvons regarder autre chose. Par exemple, les noms des commandes devraient toujours utiliser un contexte spécial qui est le nom de la commande telle qu\'elle est enregistrée dans FreeCAD.
 
-### Remarques importantes {#remarques_importantes}
+### Remarques importantes 
 
 -   Assurez-vous que vous utilisez un \*contexte\* et une \*chaîne\* qui se trouvent réellement dans le fichier ts/qm bien sûr.
 
-## Références importantes {#références_importantes}
+## Références importantes 
 
 -   Pourquoi et comment traduire les fonctions `openCommand()` ([fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=55869))
 
-## Pages associées {#pages_associées}
+## Pages associées 
 
 -   [Ateliers externes](External_workbenches/fr.md)
 -   [Localisation](Localisation/fr.md)

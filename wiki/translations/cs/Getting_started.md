@@ -51,7 +51,7 @@ Nejprve (jestliže už to někdo neudělal) stáhněte a nainstalujte FreeCAD. P
 
 <div class="mw-translate-fuzzy">
 
-## Prozkoumání FreeCADu {#prozkoumání_freecadu}
+## Prozkoumání FreeCADu 
 
 
 </div>
@@ -113,7 +113,7 @@ Startovní centrum Vám umožňuje rychlý přechod do některé z nejužívaně
 
 </div>
 
-## Navigace ve 3D prostoru {#navigace_ve_3d_prostoru}
+## Navigace ve 3D prostoru 
 
 
 <div class="mw-translate-fuzzy">
@@ -183,7 +183,7 @@ Máte také přednastaveno několik pohledů (pohled shora, pohled zepředu, atd
 
 </div>
 
-## První kroky s FreeCADem {#první_kroky_s_freecadem}
+## První kroky s FreeCADem 
 
 
 <div class="mw-translate-fuzzy">
@@ -209,7 +209,7 @@ Pracovní plochy můžete přepínat kdykoliv a také můžete [uživatelsky nas
 
 </div>
 
-## Práce s pracovními plochami Návrh dílu a Náčrt {#práce_s_pracovními_plochami_návrh_dílu_a_náčrt}
+## Práce s pracovními plochami Návrh dílu a Náčrt 
 
 
 <div class="mw-translate-fuzzy">
@@ -245,7 +245,7 @@ Výsledkem je takovýto objekt:
 
 Kdykoliv můžete vybrat původní náčrty a modifikovat je nebo změnit parametry vysunutí operací Blok (Pad) a Kapsa (Pocket), což pak aktualizuje výsledný objekt.
 
-## Práce s pracovními plochami Kreslení a Architektura {#práce_s_pracovními_plochami_kreslení_a_architektura}
+## Práce s pracovními plochami Kreslení a Architektura 
 
 
 <div class="mw-translate-fuzzy">
@@ -323,7 +323,7 @@ A nakonec jedna z nejmocnějších vlastností FreeCADu je prostředí pro [skri
 
 <div class="mw-translate-fuzzy">
 
-## Co je nového {#co_je_nového}
+## Co je nového 
 
 
 </div>

@@ -21,7 +21,7 @@ The <img alt="" src=images/2D_ExtendLine.svg  style="width:24px;"> **Design456 T
 
 1.  Invoke the ExtendLine tool several ways:
     -   Press the <img alt="" src=images/2D_ExtendLine.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Design456_2Ddrawing → Extend Line}} entry in the Design456 menu
+    -   Use the **Design456_2Ddrawing → Extend Line** entry in the Design456 menu
 2.  
 
 ## Limitations

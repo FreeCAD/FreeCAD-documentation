@@ -15,7 +15,7 @@ FreeCAD è estendibile con il codice [Python](Python/it.md) che viene eseguito d
 
 Se si desidera contribuire con contenuti a queste pagine, richiedere un account wiki con autorizzazioni dell\'editor [nel forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) e leggere le [WikiPages](WikiPages.md) per le linee guida generali da seguire. Per gli altri modi di contribuire al progetto, vedere la pagina [Contribuire a FreeCAD](Help_FreeCAD/it.md).
 
-## Personalizzare FreeCAD {#personalizzare_freecad}
+## Personalizzare FreeCAD 
 
 -   [Personalizzare l\'interfaccia](Interface_Customization/it.md): Cominciando dall\'inizio: le barre degli strumenti e i tasti di scelta rapida
 -   [Operare con le Macro](Macros/it.md): Registrare semplicemente le operazioni che vengono ripetute spesso o creare il codice Python
@@ -23,7 +23,7 @@ Se si desidera contribuire con contenuti a queste pagine, richiedere un account 
 -   [Personalizzare la barra degli strumenti](Customize_Toolbars/it.md)
 -   [Installare ambienti aggiuntivi](Installing_more_workbenches/it.md)
 
-## Script in FreeCAD {#script_in_freecad}
+## Script in FreeCAD 
 
 ### General
 
@@ -49,24 +49,24 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
 -   I [Moduli builtin](Builtin_modules/it.md) sono i moduli principali di FreeCAD. Essi contengono gli strumenti per manipolare le configurazioni generali di FreeCAD, i documenti e il loro contenuto.
 -   La pagina [Creare un Ambiente di lavoro](Workbench_creation/it.md) spiega come creare un proprio ambiente di lavoro.
 
-#### Working with Meshes {#working_with_meshes}
+#### Working with Meshes 
 
 
 <div class="mw-translate-fuzzy">
 
-### Lavorare con Mesh {#lavorare_con_mesh}
+### Lavorare con Mesh 
 
 -   [Script per Mesh](Mesh_Scripting/it.md): Come interagire con il [Modulo Mesh](Mesh_Workbench/it.md)
 
 
 </div>
 
-#### Working with Parts {#working_with_parts}
+#### Working with Parts 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Lavorare con Parti {#lavorare_con_parti}
+#### Lavorare con Parti 
 
 -   [Il Modulo Parte](Part_Workbench/it.md): Come sono utilizzati gli strumenti e la struttura di [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE) in FreeCAD
 -   [Script di dati topologici](Topological_data_scripting/it.md): Come interagire con il Modulo Parte
@@ -76,12 +76,12 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
 
 </div>
 
-#### Accessing the Coin scenegraph {#accessing_the_coin_scenegraph}
+#### Accessing the Coin scenegraph 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Accedere alla scenografia di Coin {#accedere_alla_scenografia_di_coin}
+#### Accedere alla scenografia di Coin 
 
 -   [La grafica di scena di Coin/Inventor](Scenegraph/it.md): Come funziona la rappresentazione della scena in FreeCAD
 -   [Pivy](Pivy/it.md): Come accedere alla grafica della scena e come modificarla
@@ -89,12 +89,12 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
 
 </div>
 
-### Controlling the Qt interface {#controlling_the_qt_interface}
+### Controlling the Qt interface 
 
 
 <div class="mw-translate-fuzzy">
 
-### Controllare l\'interfaccia di Qt {#controllare_linterfaccia_di_qt}
+### Controllare l\'interfaccia di Qt 
 
 -   [PySide](PySide/it.md): Come accedere alla gestione dell\'interfaccia e modificare il suo contenuto
 -   [Using the FreeCAD GUI](Embedding_FreeCADGui.md) - [Utlizzare l\'interfaccia grafica utente di FreeCAD](Embedding_FreeCADGui/it.md) in una diversa applicazione Qt tramite PyQt
@@ -102,7 +102,7 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
 
 </div>
 
-### Lavorare con oggetti parametrici {#lavorare_con_oggetti_parametrici}
+### Lavorare con oggetti parametrici 
 
 -   [Script di oggetti](Scripted_objects/it.md): come realizzare oggetti con script Python al 100%.
     -   [Oggetti creati da script con parti associate](Scripted_objects_with_attachment/it.md): come rendere gli oggetti creati da script associabili ad altri oggetti.
@@ -126,13 +126,13 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
 
 </div>
 
-## Funzioni API {#funzioni_api}
+## Funzioni API 
 
 La documentazione completa di FreeCAD si trova in <http://www.freecadweb.org/api/> . Essa contiene le API C++ e Python, e non è ancora del tutto formattata, il che può essere fonte di confusione quando si cerca solo il codice Python. Una versione delle API più facile da esplorare si trova [in questa pagina in inglese](:Category:API.md) e [in questa in italiano](:Category:API/it.md). Ricordare che può essere incompleta in quanto viene aggiornata manualmente. Per informazioni più accurate, esplorare i moduli direttamente dalla console di FreeCAD.
 
 Relazionato: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
-## Modifiche avanzate {#modifiche_avanzate}
+## Modifiche avanzate 
 
 -   [Avvio e configurazione](Start_up_and_Configuration/it.md): Avvio e opzioni della riga di comando
 -   [Installare in Windows](Install_on_Windows/it.md): Utlizzando l\'installatore di Windows
@@ -140,7 +140,7 @@ Relazionato: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 -   [Marchiare e Personalizzare](Branding/it.md): Semplici modifiche che si possono apportare al codice sorgente per modificare alcuni aspetti del FreeCAD
 -   [Moduli extra in Python](Extra_python_modules/it.md) : Potenzia l\'interprete di Python in FreeCAD con questi moduli aggiuntivi!
 
-## Guide di Python {#guide_di_python}
+## Guide di Python 
 
 Questi sono buoni tutorial generici, non specifici per FreeCAD, che possono interessare chi è totalmente nuovo a Python.
 
@@ -181,7 +181,7 @@ I seguenti sono due riferimenti specifici di PyQt (non di PySide) che possono of
 
 </div>
 
-## Progetti della comunità {#progetti_della_comunità}
+## Progetti della comunità 
 
 Nel [Portale della comunità](FreeCAD_Community_Portal/it.md), è possibile trovare altri progetti basati su FreeCAD e gestiti dalla comunità degli utenti di FreeCAD. Quando si avvia un nuovo progetto con FreeCAD, ricordarsi di riferirlo nel Portale!
 

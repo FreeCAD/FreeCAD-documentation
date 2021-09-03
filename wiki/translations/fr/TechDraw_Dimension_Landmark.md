@@ -26,7 +26,8 @@ Dimension de repère se comporte généralement comme toute autre dimension.
 
 1.  Sélectionnez 2 objets Point dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
 2.  Sélectionnez également la vue à laquelle la dimension doit être ajoutée.
-3.  Appuyez sur le **<img src="images/Techdraw-landmarkdistance.svg" width=20px> [Insérer une dimension de repère](TechDraw_Dimension_Landmark/fr.md)** bouton ou {{MenuCommand|TechDraw → Dimensions → Insérer une dimension de repère}}
+3.  Appuyez sur le **<img src="images/Techdraw-landmarkdistance.svg" width=20px> [Insérer une dimension de repère](TechDraw_Dimension_Landmark/fr.md)
+** bouton ou **TechDraw → Dimensions → Insérer une dimension de repère**
 4.  Une dimension sera ajoutée à la vue. Le texte de cote peut être déplacé vers la position souhaitée.
 
 ## Limitations

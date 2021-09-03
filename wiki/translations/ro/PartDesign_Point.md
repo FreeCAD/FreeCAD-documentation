@@ -28,7 +28,7 @@ Un punct de referință atașat la o sferă care are un decalaj al atașamentulu
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

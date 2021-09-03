@@ -24,14 +24,14 @@ See the [Power users hub](Power_users_hub.md) to learn more about the [Python](P
 
 <div class="mw-translate-fuzzy">
 
-### Hur det fungerar {#hur_det_fungerar}
+### Hur det fungerar 
 
 Om du aktiverar konsolutmatning(Meny Redigera -\> Alternativ -\> Allmänt -\> Makro -\> Visa skriptkommandon i python konsolen), så kommer du se att varje aktion du gör i FreeCAD, , som att klicka på en knapp, genererar ett python kommando. Dessa kommandon är vad som kan spelas in i ett makro. Huvudverktyget för att göra makron är makroverktygslådan: ![](images/Macros_toolbar.jpg ). På den finns det 4 knappar: Spela in, stoppa inspelning, redigera och spela upp det nuvarande makrot.
 
 
 </div>
 
-Enable the console output in the menu {{MenuCommand|Edit → Preferences → General → Macro → Show scripts commands in python console}}. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +79,7 @@ Det är förstås inte så praktiskt att behöva ladda ett makro i redigeraren f
 
 </div>
 
-Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the {{MenuCommand|Tools → Customize}} menu.
+Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the **Tools → Customize** menu.
 
 ![](images/Macros_config.jpg )
 
@@ -96,7 +96,7 @@ See [Customize Toolbars](Customize_Toolbars.md) for a more detailed description.
 
 <div class="mw-translate-fuzzy">
 
-### Skapa makron utan inspelning {#skapa_makron_utan_inspelning}
+### Skapa makron utan inspelning 
 
 Du kan också direkt kopiera/klistra in python kod till ett makro, utan att behöva spela in aktioner i gränssnittet. Skapa bara ett nytt makro, redigera det, och klistra in din kod. Ditt makro sparas automatiskt när du stänger makroredigerings fönstret.
 
@@ -119,7 +119,7 @@ Besök [Makrorecept](Macros_recipes/sv.md) sidan för att hämta några användb
 
 There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https://github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
 
-## Additional information {#additional_information}
+## Additional information 
 
 -   [Automatically run macro at startup](Macro_at_Startup.md)
 -   [Installing more workbenches](Installing_more_workbenches.md)

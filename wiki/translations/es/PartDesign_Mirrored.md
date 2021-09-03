@@ -61,25 +61,25 @@ Para añadir o borrar operaciones de una simetría existente:
 
 Mientras se crea una operación de simetría, la ventana de diálogo de parámetros de simetría **Mirrored parameters** ofrece diferentes maneras de especificar un plano o línea de simetría.
 
-#### Eje horizontal del boceto {#eje_horizontal_del_boceto}
+#### Eje horizontal del boceto 
 
 Usa el eje horizontal del boceto como eje de simetría.
 
-#### Eje vertical del boceto {#eje_vertical_del_boceto}
+#### Eje vertical del boceto 
 
 Usa el eje vertical del boceto como eje de simetría.
 
-#### Seleccione referencia\... {#seleccione_referencia...}
+#### Seleccione referencia\... 
 
 Permite al usuario seleccionar un plano (como puede ser una cara o un objeto) para usarlo como plano de simetría.
 
-#### Eje del boceto personalizado {#eje_del_boceto_personalizado}
+#### Eje del boceto personalizado 
 
 Si el boceto que define la simetría a realizar contiene también una línea o líneas de construcción, la lista desplegable contendrá un eje de boceto personalizado por cada línea de construcción. La primera línea de construcción se llamará \'Línea de construcción 1\'. La imagen inferior es un ejemplo, con el boceto en modo edición, que muestra una línea de construcción contenida en el boceto y es usada como eje de Simetría.
 
 ![](images/PartDesign_Mirrored_axis_fromconstructionlines.jpg )
 
-#### Base plano (XY/XZ/YZ) {#base_plano_xyxzyz}
+#### Base plano (XY/XZ/YZ) 
 
 
 <div class="mw-translate-fuzzy">

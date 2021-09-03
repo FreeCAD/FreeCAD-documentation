@@ -83,7 +83,7 @@ Andere
 -   <img alt="" src=images/Animation_Icon2.png  style="width:32px;"> **Symbol2**:
 -   <img alt="" src=images/Animation_Icon3.png  style="width:32px;"> **Symbol3**:
 
-## Verweise zum Arbeitsbereich Animation {#verweise_zum_arbeitsbereich_animation}
+## Verweise zum Arbeitsbereich Animation 
 
 -   Arbeitsbereich Wiki: [www.freecadbuch.de](http://freecadbuch.de/doku.php?id=Animation%20Wokbench)
 -   FreeCAD Wiki:
@@ -93,7 +93,7 @@ Andere
 -   Dateien: [Beispiele](https://github.com/microelly2/Animation-WB-Examples)
 -   Fehler melden: Bitte melde Fehler unter [FreeCAD Forum](http://forum.freecadweb.org/index.php), oder unter [Animationsprobleme](https://github.com/microelly2/Animation/issues).
 
-## Andere nützliche Verweise {#andere_nützliche_verweise}
+## Andere nützliche Verweise 
 
 -   [ExplodierteAnimation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:ExplodedAnimation): FreeCAD Arbeitsbereich zum Erstellen von Explosionsansichten und Animationen von Baugruppen.
 -   [Baugruppe2](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Assembly2): Assembly Arbeitsbereich für FreeCAD mit Unterstützung für den Import von Teilen aus externen Dateien.

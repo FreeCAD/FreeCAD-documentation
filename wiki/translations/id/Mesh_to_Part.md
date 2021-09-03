@@ -3,7 +3,7 @@
 
 {{TOCright}}
 
-## Convert Part objects to meshes {#convert_part_objects_to_meshes}
+## Convert Part objects to meshes 
 
 Converting higher-level objects such as [Part](Part_Workbench.md) shapes to simpler objects such as [meshes](Mesh_Workbench.md) is a pretty straightforward operation where all faces of a Part object get triangulated. The result of that triangulation (tessellation) is then used to construct a mesh:
 
@@ -44,7 +44,7 @@ mesh.Mesh = MeshPart.meshFromShape(
         Relative=False)
 ```
 
-## Convert meshes to Part objects {#convert_meshes_to_part_objects}
+## Convert meshes to Part objects 
 
 Converting meshes to Part objects is a common operation. Very often you will receive 3D data in a mesh format. Meshes are quite practical for representing free-form geometry and big visual scenes, as they are very lightweight. But in FreeCAD we generally prefer higher-level objects, solids, that can carry much more information and allow for curved faces.
 

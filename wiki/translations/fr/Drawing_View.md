@@ -20,7 +20,7 @@ Un objet **View** est ajouté sous l\'objet **Page** dans l\'arborescence de pro
 
 Si seul l\'objet est sélectionné dans l\'arborescence du projet, la vue est ajoutée à la première page du projet. Si vous avez plusieurs pages dans votre projet, veuillez sélectionner l\'objet et la page à laquelle il devrait être ajouté. Cliquez ensuite sur l\'icône pour ajouter la vue à la page sélectionnée.
 
-### Modifier une vue existante {#modifier_une_vue_existante}
+### Modifier une vue existante 
 
 Dépliez l\'objet Page dans l\'arborescence de projet, puis sélectionnez la vue à modifier. Ses paramètres peuvent être édités dans l\'onglet Données de l\'Affichage des propriétés.
 
@@ -35,7 +35,7 @@ Dépliez l\'objet Page dans l\'arborescence de projet, puis sélectionnez la vue
 -   **Show Hidden Lines** : bascule la visibilité des lignes cachées en sélectionnant *True* (vrai) ou *False* (faux).
 -   **Show Smooth Lines** : bascule la visibilité des lignes douces en sélectionnant *True* (vrai) ou *False* (faux). Les lignes douces sont aussi appelées lignes de tangence ; il s\'agit de lignes de démarcation entre deux surfaces tangentes.
 
-### Assistant de mise en plan {#assistant_de_mise_en_plan}
+### Assistant de mise en plan 
 
 Vous pouvez utiliser un script afin de générer automatiquement une feuille de dessin avec des vues standard. Consultez la page [Macro vues automatiques](Macro_Automatic_drawing/fr.md).
 

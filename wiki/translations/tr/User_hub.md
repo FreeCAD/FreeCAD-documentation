@@ -12,7 +12,7 @@ If you\'d like to contribute to FreeCAD, please [donate](donate.md), and see the
 
 If you would like to know how FreeCAD started years ago visit the [History](History.md) page.
 
-## Using FreeCAD {#using_freecad}
+## Using FreeCAD 
 
 ### Introduction
 
@@ -28,7 +28,7 @@ See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
 
-### Basic application {#basic_application}
+### Basic application 
 
 -   [Interface](Interface.md): the FreeCAD interface is composed of various graphical elements on the screen, including the [3D view](3D_view.md), the [tree view](Tree_view.md), the [property editor](Property_editor.md), the [task panel](Task_panel.md), and the [Python console](Python_console.md).
 -   [Mouse navigation](Mouse_navigation.md): the different types of using the mouse or trackpad to navigate in the 3D view.
@@ -93,7 +93,7 @@ Power users have written various [macros](macros.md) to enhance FreeCAD with mor
 
 Since FreeCAD 0.17, many macros can be installed using the [Addon Manager](Std_AddonMgr.md). For a list of the macros refer to the [Macros recipes](Macros_recipes.md) page. For manual installation see [How to install macros](How_to_install_macros.md).
 
-### External workbenches {#external_workbenches}
+### External workbenches 
 
 When many macros or functions are developed together, and are organized in toolbars and menus, they can become a new workbench.
 
@@ -105,7 +105,7 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 -   [Commands Reference](List_of_Commands.md): A complete list of the available FreeCAD commands.
 
-## Online Help {#online_help}
+## Online Help 
 
 This is the official FreeCAD online help. Please note that the whole online help system is currently being reworked. It will be used to generate a .CHM file, that will be distributed with the binary packages of FreeCAD. At the moment the online help summarizes some of the most complete sections of this wiki.
 

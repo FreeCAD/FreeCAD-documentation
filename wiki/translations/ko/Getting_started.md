@@ -57,7 +57,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-## FreeCAD 탐험 {#freecad_탐험}
+## FreeCAD 탐험 
 
 
 </div>
@@ -113,7 +113,7 @@ FreeCAD를 처음 시작하면, start center에 있습니다. 여기는 버전 0
 
 The Start Center allows you to quickly jump to one of the most common workbenches, open one of the recent files, or see the latest news from the FreeCAD world. You can change the default workbench in the [preferences](Preferences_Editor.md).
 
-## 3D 공간 항해하기 {#d_공간_항해하기}
+## 3D 공간 항해하기 
 
 FreeCAD has several different [navigation modes](Mouse_navigation.md) available, that change the way you use your mouse to interact with the objects in the 3D view and the view itself. One of them is specifically made for [touchpads](Mouse_navigation#Touchpad_Navigation.md), where the middle mouse button is not used. The following table describes the default mode, called **CAD Navigation** (You can quickly change the current navigation mode by right-clicking on an empty area of the 3D view):
 
@@ -150,7 +150,7 @@ With this method the middle mouse button may be released after the right mouse b
 
 You also have several view presets (top view, front view, etc) available in the View menu, on the View toolbar, and by numeric shortcuts (**1**, **2**, etc\...). By right-clicking on an object or on an empty area of the 3D view, you have quick access to some common operations, such as setting a particular view, or locating an object in the Tree view.
 
-## FreeCAD와 함께하는 첫 단계 {#freecad와_함께하는_첫_단계}
+## FreeCAD와 함께하는 첫 단계 
 
 FreeCAD\'s focus is to allow you to make high-precision 3D models, to keep tight control over those models (being able to go back into modelling history and change parameters), and eventually to build those models (via 3D printing, CNC machining or even construction worksite). It is therefore very different from some other 3D applications made for other purposes, such as animation film or gaming. Its learning curve can be steep, especially if this is your first contact with 3D modeling. If you are struck at some point, don\'t forget that the friendly community of users on the [FreeCAD forum](http://forum.freecadweb.org/index.php) might be able to get you out in no time.
 
@@ -164,7 +164,7 @@ The workbench you will start using in FreeCAD depends on the type of job you nee
 
 </div>
 
-## PartDesign 및 Sketcher workbenches와 함께 일하기 {#partdesign_및_sketcher_workbenches와_함께_일하기}
+## PartDesign 및 Sketcher workbenches와 함께 일하기 
 
 The [PartDesign Workbench](PartDesign_Workbench.md) is made to build complex objects, starting from simple shapes, and adding or removing pieces (called \"features\"), until you get to your final object. All the features you applied during the modelling process are stored in a separate view called the [tree view](Document_structure.md), which also contains the other objects in your document. You can think of a PartDesign object as a succession of operations, each one applied to the result of the preceding one, forming one big chain. In the tree view, you see your final object, but you can expand it and retrieve all preceding states, and change any of their parameter, which automatically updates the final object.
 
@@ -188,7 +188,7 @@ Which gives you an object like this:
 
 At any moment, you can select the original sketches and modify them, or change the extrusion parameters of the pad or pocket operations, which will update the final object.
 
-## Working with the Draft and Arch workbenches {#working_with_the_draft_and_arch_workbenches}
+## Working with the Draft and Arch workbenches 
 
 The [Draft Workbench](Draft_Workbench.md) and [Arch Workbench](Arch_Workbench.md) behave a bit differently than the other workbenches above, although they follow the same rules, which are common to all of FreeCAD. In short, while the Sketcher and PartDesign are made primarily to design single pieces, Draft and Arch are made to ease your work when working with several, simpler objects.
 
@@ -235,7 +235,7 @@ There are two types of addons:
 1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
 2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
 
-## Scripting {#scripting_1}
+## Scripting 
 
 
 <div class="mw-translate-fuzzy">
@@ -245,7 +245,7 @@ There are two types of addons:
 
 </div>
 
-## 새로운 점 {#새로운_점}
+## 새로운 점 
 
 -   자세한 특징 목록은 [release notes를](Feature_list#Release_notes.md) 보세요.
 

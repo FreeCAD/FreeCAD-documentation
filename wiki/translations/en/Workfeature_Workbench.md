@@ -34,7 +34,7 @@ Tool utility to create
 
 ![](images/WorkFeature-menu-orizz.png )
 
-### Drop down menu {#drop_down_menu}
+### Drop down menu 
 
 ![](images/WorkFeature-dropdown_01.png )
 
@@ -46,11 +46,11 @@ Tool utility to create
 
 ## Installation
 
-### Automatic installation {#automatic_installation}
+### Automatic installation 
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub {#from_github}
+### From GitHub 
 
 **Prerequisites**
 
@@ -62,7 +62,7 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
 **Mac Installation Instructions**
 
-## Links to Animation WB {#links_to_animation_wb}
+## Links to Animation WB 
 
 -   Workbench Wiki:
 -   FreeCAD Wiki:
@@ -72,7 +72,7 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 -   Files:
 -   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php)
 
-## Other useful links {#other_useful_links}
+## Other useful links 
 
 -   [External workbenches](External_workbenches.md)
 

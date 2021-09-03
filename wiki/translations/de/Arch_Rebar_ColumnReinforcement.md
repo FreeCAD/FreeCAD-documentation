@@ -130,7 +130,7 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 Das Stützenverstärkungswerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole, durch Anwendung der folgenden Funktion verwendet werden:
 
-### Create Single Tie Four Rebars {#create_single_tie_four_rebars}
+### Create Single Tie Four Rebars 
 
 
 ```python
@@ -280,7 +280,7 @@ RebarGroup = SingleTie.makeSingleTieFourRebars(
 
 ```
 
-### Create Single Tie Multiple Rebars {#create_single_tie_multiple_rebars}
+### Create Single Tie Multiple Rebars 
 
 
 ```python
@@ -357,7 +357,7 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `sec_hook_extension`is a tuple (xdir\_hook\_extension, ydir\_hook\_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
 
-#### Beispiel {#beispiel_1}
+#### Beispiel 
 
 
 ```python
@@ -404,7 +404,7 @@ RebarGroup = SingleTieMultipleRebars.makeSingleTieMultipleRebars(
 
 ```
 
-### Bearbeitung von Einfach Anker Vier Bewehrungen {#bearbeitung_von_einfach_anker_vier_bewehrungen}
+### Bearbeitung von Einfach Anker Vier Bewehrungen 
 
 Du kannst die Eigenschaften der Anker und Bewehrungsstäbe mit der folgenden Funktion ändern
 
@@ -442,7 +442,7 @@ rebar_group = editSingleTieFourRebars(
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
-#### Beispiel {#beispiel_2}
+#### Beispiel 
 
 
 ```python
@@ -474,7 +474,7 @@ rebar_group = SingleTie.editSingleTieFourRebars(
 
 ```
 
-### Bearbeitung von Einfach Anker Mehrfach Bewehrungen {#bearbeitung_von_einfach_anker_mehrfach_bewehrungen}
+### Bearbeitung von Einfach Anker Mehrfach Bewehrungen 
 
 Du kannst die Eigenschaften der Anker und Bewehrungsstäbe mit der folgenden Funktion ändern
 
@@ -519,7 +519,7 @@ rebar_group = editSingleTieMultipleRebars(
 
 -    `structure`and `facename` may be omitted so that the reinforcement stays in the original structure.
 
-#### Beispiel {#beispiel_3}
+#### Beispiel 
 
 
 ```python

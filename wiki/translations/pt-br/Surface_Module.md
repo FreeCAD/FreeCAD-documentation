@@ -41,7 +41,7 @@ A bancada Superfície se integra com outras bancadas do FreeCAD. O exemplo acima
 
 The generated surface cannot be placed inside a **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Body](PartDesign_Body.md)**. However, the generated surface can be contained inside a **[16px"> <img src=images/PartDesign_Body.svg style="width:Std Part](Std_Part.md)** together with the associated **[16px"> <img src=images/Part_Builder.svg style="width:PartDesign Body](PartDesign_Body.md)** that holds the datum planes and sketches. The non-parametric **[16px"> [Part Builder](Part_Builder.md)** tool can then be used in order to create a [shell](Glossary#Shell.md) and finally a [solid](Glossary#Solid.md).
 
-## Ferramentas da bancada Superfície {#ferramentas_da_bancada_superfície}
+## Ferramentas da bancada Superfície 
 
 -   <img alt="" src=images/Filling.svg  style="width:32px;"> [Enchimento](Surface_Filling/pt-br.md): enche uma série de curvas limite com uma superfície. A superfície pode ser modificada pela adição de curvas de restrição e vértices. A superfície muda de forma para que a superfície passe pelos elementos de restrição adicionados.
 -   <img alt="" src=images/BSplineSurf.svg  style="width:32px;"> [Encher curvas limite](Surface_GeomFillSurface/pt-br.md): cria uma superfície a partir de duas, três ou quatro bordas limite. Três diferentes modos de enchimento estão disponíveis:alongar, Coons, Curvar.

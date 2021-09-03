@@ -29,7 +29,7 @@ Dacă în rezultat există doar un copil, rezultatul este copilul. Dacă există
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -38,7 +38,7 @@ Dacă în rezultat există doar un copil, rezultatul este copilul. Dacă există
 <div class="mw-translate-fuzzy">
 
 1.  Selectați obeictul feliat
-2.  Aplicați {{MenuCommand|Menu → Part → Compound → CompoundFilter}}
+2.  Aplicați **Menu → Part → Compound → CompoundFilter**
 3.  Selectați CompoundFilterObject în arborescență
 4.  In the properties tab set \"Filter Type\" to \"specific items\"
 5.  Set items to the elements you want to extract

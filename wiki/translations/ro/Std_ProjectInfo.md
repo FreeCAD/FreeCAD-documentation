@@ -39,7 +39,7 @@ Apoi, următoarele informații pot fi introduse într-o fereastră:
 
 </div>
 
-1.  Select the {{MenuCommand|File → <img src="images/Std_ProjectInfo.svg" width=16px> Project information...}} option from the menu.
+1.  Select the **File → <img src="images/Std_ProjectInfo.svg" width=16px> Project information...** option from the menu.
 2.  A dialog box with the following information pops up:
     -   **Name**: The name of the document. **Not editable**. Corresponds to the Label property of the document which can be changed in the [Property editor](Property_editor.md).
     -   **Path**: The full path of the file. Blank if the document has not been saved. **Not editable**.

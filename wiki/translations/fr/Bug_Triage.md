@@ -20,9 +20,9 @@
 
 Le triage des bogues est important pour organiser et hiérarchiser les bogues / fonctionnalités/correctifs par rapport à FreeCAD [Bug Tracker](Tracker/fr.md). Si cette tâche est négligée, un projet peut souffrir de ce qu\'on appelle \"Bugtracker Bloat\", qui consiste essentiellement en une accumulation et une décomposition de tickets négligés. Le triage aide également à identifier les tickets en double qui ont tendance à s\'accumuler, en particulier s\'il existe un problème non résolu de longue date que l\'équipe FC connaît mais ne dispose pas des ressources nécessaires, quelle qu\'en soit la raison.
 
-## Comment trier {#comment_trier}
+## Comment trier 
 
-### Statut du ticket {#statut_du_ticket}
+### Statut du ticket 
 
 #### Nouveau
 
@@ -73,7 +73,7 @@ Ces tickets ont été résolus mais pas encore fermés, probablement parce qu\'i
 
 ------------------------------------------------------------------------
 
-### Ticket Résolu {#ticket_résolu}
+### Ticket Résolu 
 
 #### Ouvert
 
@@ -83,7 +83,7 @@ Cela se passe d\'explication, tous les billets restent \"ouverts\" s\'ils resten
 
 Tickets a bien été fixé.
 
-#### Impossible de reproduire {#impossible_de_reproduire}
+#### Impossible de reproduire 
 
 Billets réputés non reproductibles
 
@@ -91,15 +91,15 @@ Billets réputés non reproductibles
 
 Billets qui sont ou ont un billet en double.
 
-#### Aucun changement requis {#aucun_changement_requis}
+#### Aucun changement requis 
 
 Billets où il a été vérifié qu\'aucune modification n\'est nécessaire.
 
-#### Ne résoudra pas {#ne_résoudra_pas}
+#### Ne résoudra pas 
 
 L'équipe FC a rejeté la demande de billet pour quelque raison que ce soit.
 
-#### Non réparable {#non_réparable}
+#### Non réparable 
 
 #### Rouvert
 
@@ -107,7 +107,7 @@ Les billets qui ont été fermés me sont ensuite rouverts pour une raison perti
 
 #### Suspendu
 
-### Priorité du ticket {#priorité_du_ticket}
+### Priorité du ticket 
 
 #### Immédiat
 
@@ -121,7 +121,7 @@ Les billets qui ont été fermés me sont ensuite rouverts pour une raison perti
 
 #### None
 
-### Sévérité du ticket {#sévérité_du_ticket}
+### Sévérité du ticket 
 
 #### Bloc
 
@@ -139,11 +139,11 @@ Les billets qui ont été fermés me sont ensuite rouverts pour une raison perti
 
 #### Fonctionnalité
 
-## Marquage des tickets {#marquage_des_tickets}
+## Marquage des tickets 
 
 Une méthodologie importante pour suivre les tickets par sujet/thème/catégorie. Il est important que les balises existantes soient utilisées pour baliser les problèmes avant que de nouvelles balises ne soient créées. Si des tags en double ou superflus sont créés, l'administrateur de suivi des bogues est responsable de les supprimer et, si possible, de recaler les tickets.
 
-## En relation {#en_relation}
+## En relation 
 
 [Traqueur de bogues](Tracker/fr.md)
 

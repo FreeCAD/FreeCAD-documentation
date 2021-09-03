@@ -40,7 +40,7 @@ Abhängig von der Auswahl werden einige Felder aktiviert oder bleiben deaktivier
 
 ![](images/PartDesign_Hole_parameters_de.png )
 
-### Gewinde und Größe {#gewinde_und_größe}
+### Gewinde und Größe 
 
 
 <div class="mw-translate-fuzzy">
@@ -103,7 +103,7 @@ Die ausgewählte Skizze muss einen oder mehrere Kreis(e) enthalten. Der Radius d
 
 </div>
 
-## Schnitttyp Definitionen {#schnitttyp_definitionen}
+## Schnitttyp Definitionen 
 
 Schnittarten (Schraubentypen) werden seit Version 0.19 in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) Dateien definiert. Es gibt einen Satz von Dateien, die mit FreeCAD verteilt werden, aber Benutzer können ihre eigenen Definitionen erstellen. Die Dateien werden in <UserAppDataDir>/PartDesign/Hole gesucht. Das `UserAppDataDir` kann durch Eingabe von `App.getUserAppDataDir()` in der [Python Konsole](Python_console/de.md) gefunden werden.
 

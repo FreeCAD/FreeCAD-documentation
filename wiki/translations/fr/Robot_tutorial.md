@@ -11,13 +11,13 @@ Ce tutoriel a pour but de vous apprendre à utiliser l\'[atelier de simulation d
 
 ![Visualiser la simulation](images/Robot_Tutorial_RobotSimulation.gif )
 
-## Avant de commencer {#avant_de_commencer}
+## Avant de commencer 
 
 Ce tutoriel est écrit pour FreeCAD version 0.11 R3977 ou ultérieure. Si vous n\'avez pas FreeCAD sur votre PC, allez à la [page de téléchargement](Download/fr.md) afin de l\'installer.
 
 Ce tutoriel vise l\'utilisation des [robots industriels](http://fr.wikipedia.org/wiki/Robotique_industrielle) et pas les robots mobiles ou de service (voir [ici](http://en.wikipedia.org/wiki/Robot#Modern_robots)).
 
-## Installation de la scène {#installation_de_la_scène}
+## Installation de la scène 
 
 1.  Cliquer sur [Robot Workbench](Robot_Workbench/fr.md)
 2.  Créer un nouveau document en choisissant **File** → **New** dans menu
@@ -26,7 +26,7 @@ Ce tutoriel vise l\'utilisation des [robots industriels](http://fr.wikipedia.org
 5.  Zoomer pour adapter tout en cliquant sur ![32px](images/view-zoom-all.png)
 6.  Sauvegarder votre fichier\...
 
-## Définir une trajectoire {#définir_une_trajectoire}
+## Définir une trajectoire 
 
 1.  Cliquer sur [Robot Worbench](Robot_Workbench/fr.md) Activer le modèle dans l\' arborescence
 2.  Créé une nouvelle trajectoire en cliquant sur <img alt="" src=images/Robot_CreateTrajectory.png  style="width:32px;">
@@ -38,7 +38,7 @@ Ce tutoriel vise l\'utilisation des [robots industriels](http://fr.wikipedia.org
 8.  Chaque point de la trajectoire est visible avec une croix jaune, tous les points de la trajectoire sont connectés avec des lignes oranges
 9.  Définir au moins trois points différents et les insérer dans la trajectoire
 
-## Simulation des mouvement du robot {#simulation_des_mouvement_du_robot}
+## Simulation des mouvement du robot 
 
 1.  Sélectionner robot et trajectoires dans l\'arborescence
 2.  Sélectionner la simulation en cliquant sur le bouton <img alt="" src=images/Robot_Simulate.png  style="width:32px;">

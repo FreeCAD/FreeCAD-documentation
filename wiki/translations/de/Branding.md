@@ -64,7 +64,7 @@ innerhalb der main()-Funktion. Liegt ein Bild in XPM-Format vor, kann es mit Hil
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Branding XML {#branding_xml}
+### Branding XML 
 
 In FreeCAD wird auch eine Branding-Methode unterstützt, ohne eine angepasste main() Function zu schreiben. Für diese Methode müssen Sie eine Datei namens {{FileName|branding.xml}} schreiben und diese im Installationsverzeichnis von FreeCAD ablegen. Hier ein Beispiel mit allen unterstützten Tags:
 

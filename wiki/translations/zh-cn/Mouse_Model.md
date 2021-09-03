@@ -58,7 +58,7 @@ FreeCAD的 *\'鼠标模式* 由用于在3D空间视觉导航并与显示对象�
 若用户惯用右手，便会发现此法较第一种方法更易使用。
 }}
 
-### Inventor 导航 {#inventor_导航}
+### Inventor 导航 
 
 在[Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor)（不要与Autodesk Inventor混淆）建模后的 Inventor 导航中，没有鼠标选择。为了选择对象，您必须按住{{KEY | CTRL}}键。
 
@@ -79,7 +79,7 @@ FreeCAD的 *\'鼠标模式* 由用于在3D空间视觉导航并与显示对象�
 |Rotate_view_text=按住鼠标左键，再移动鼠标指针。
 }}
 
-### Blender 导航 {#blender_导航}
+### Blender 导航 
 
 在 Blender 导航中，以[Blender](http://www.blender.org)为模型，没有单独的鼠标平移方式。为了平移视图，您必须按住{{KEY | SHIFT}}键。2016年发生了改变，现在，您可以同时按住鼠标左右两键来移动视图。 {{Blender Navigation
 |Select_name=选择对象
@@ -141,10 +141,10 @@ FreeCAD的 *\'鼠标模式* 由用于在3D空间视觉导航并与显示对象�
 |Tilt_view_text=按住鼠标左右两键，再向一侧移动鼠标指针。
 |Tilt_view_gesture_text=旋转两指间的假想线段。
 
-在v0.18版中，此方法默认禁用。若要开启，请依次选择{{MenuCommand|Edit → Preferences → Display}}，并反选"Disable touchscreen tilt gesture" 复选框。
+在v0.18版中，此方法默认禁用。若要开启，请依次选择**Edit → Preferences → Display**，并反选"Disable touchscreen tilt gesture" 复选框。
 }}
 
-### Maya 手势导航 {#maya_手势导航}
+### Maya 手势导航 
 
 
 <div class="mw-translate-fuzzy">
@@ -164,7 +164,7 @@ FreeCAD的 *\'鼠标模式* 由用于在3D空间视觉导航并与显示对象�
 |Rotate_view_text=按住**Alt**与鼠标左键，再移动鼠标指针。
 }}
 
-### Revit 导航 {#revit_导航}
+### Revit 导航 
 
 此导航风格在0.18版中引入。
 
@@ -223,7 +223,7 @@ FreeCAD提供了可用于修改对象外观，形状或其他参数的句柄["�
 
 FreeCAD 同样支持一些 [3D 输入设备](3D_input_devices/zh-cn.md).
 
-## Mac OS X 问题 {#mac_os_x_问题}
+## Mac OS X 问题 
 
 最近我们从[论坛](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0)的Mac用户那里得到报告，那些鼠标按键和按键组合不能像预期的那样工作。不幸的是，没有一个开发者拥有Mac，也不是其他的常规贡献者。我们需要您的帮助来确定哪些鼠标按键和按键组合起作用，以便我们可以更新此维基。
 

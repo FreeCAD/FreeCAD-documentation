@@ -30,7 +30,7 @@ Vedi anche:
 
 Per iniziare è necessario scaricare ed [installare](Installing/it.md) FreeCAD. Consultare la pagina ([Download/en](Download.md)) [Download/it](Download/it.md) per informazioni sulla versione corrente e sugli ultimi aggiornamenti e le istruzioni di installazione per il vostro sistema operativo ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) or [Mac](Installing_on_Mac.md)). Sono disponibili i file di installazione per Windows (.msi), Ubuntu & Debian (.deb), openSUSE (.rpm) e Mac OSX. FreeCAD è disponibile per l\'installazione dai gestori di pacchetti di molte altre distribuzioni Linux. È anche disponibile un eseguibile indipendente [AppImage](AppImage/it.md), che viene eseguito sui più recenti sistemi Linux a 64 bit Dato che FreeCAD è open-source, se siete avventurosi e volete vedere le ultime funzionalità che in questo momento sono in fase di sviluppo, potete anche prelevare il codice sorgente e [compilarlo](Compiling/it.md) ([en](Compiling.md)).
 
-## Interfaccia di FreeCAD {#interfaccia_di_freecad}
+## Interfaccia di FreeCAD 
 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
@@ -88,7 +88,7 @@ Lo Start Center permette di passare rapidamente a uno degli ambienti di lavoro p
 
 </div>
 
-## Navigare nello spazio 3D {#navigare_nello_spazio_3d}
+## Navigare nello spazio 3D 
 
 
 <div class="mw-translate-fuzzy">
@@ -133,7 +133,7 @@ Gli utenti che utilizzano il mouse con la mano destra potrebbero trovare questo 
 
 Inoltre, sono disponibili alcune viste preconfigurate (dall\'alto, laterale, frontale, ecc) accessibili dal menu Visualizza⁫ → Viste standard oppure tramite i pratici comandi veloci dei tasti numerici ( {{KEY/it|1}}, {{KEY/it|2}}, {{KEY/it|3}} etc\...). Facendo clic con il pulsante destro su un oggetto o un\'area vuota della vista 3D, si ha accesso rapido ad alcune operazioni comuni, come l\'impostazione di una vista particolare, o l\'individuazione di un oggetto nella vista ad albero.
 
-## Primi passi con FreeCAD {#primi_passi_con_freecad}
+## Primi passi con FreeCAD 
 
 L\'obiettivo di FreeCAD è quello di consentire di creare dei modelli 3D di alta precisione mantenendo uno stretto controllo sui modelli per essere in grado di tornare indietro nello storico della modellazione e di variare i parametri, e alla fine di costruire quei modelli (attraverso la stampa 3D, CNC o anche la costruzione in cantiere). È quindi molto diverso da alcune applicazioni 3D realizzate per altri scopi, come ad esempio per i film di animazione o per i giochi. La sua curva di apprendimento può essere ripida, specialmente se questo è il primo contatto con la modellazione 3D. Quando si rimane bloccati in un certo punto, ricordarsi che nel [FreeCAD forum](http://forum.freecadweb.org/index.php) c\'è una comunità amichevole di utenti può essere in grado di fornire un aiuto in breve tempo.
 
@@ -153,7 +153,7 @@ L\'ambiente di lavoro con cui iniziare a lavorare in FreeCAD dipende dal tipo di
 
 </div>
 
-## Lavorare con gli ambienti PartDesign e Sketcher {#lavorare_con_gli_ambienti_partdesign_e_sketcher}
+## Lavorare con gli ambienti PartDesign e Sketcher 
 
 
 <div class="mw-translate-fuzzy">
@@ -189,7 +189,7 @@ Si ottiene un oggetto simile a questo:
 
 In qualsiasi momento è possibile selezionare gli schizzi originali e modificarli oppure modificare i parametri delle operazioni di estrusione o di scavo, l\'oggetto finale viene automaticamente aggiornato.
 
-## Lavorare con gli ambienti Draft e Arch {#lavorare_con_gli_ambienti_draft_e_arch}
+## Lavorare con gli ambienti Draft e Arch 
 
 
 <div class="mw-translate-fuzzy">
@@ -231,7 +231,7 @@ Si ottiene un oggetto simile a questo:
 
 Maggiori informazioni si trovano nella sezione [Tutorial](Tutorials/it.md).
 
-## Addon, Macro e Ambienti esterni {#addon_macro_e_ambienti_esterni}
+## Addon, Macro e Ambienti esterni 
 
 FreeCAD, come software open source, offre la possibilità di integrare i propri ambienti di lavoro con componenti aggiuntivi.
 

@@ -9,16 +9,16 @@ FreeCAD relies on a large number of software packages and is available on most m
 1.  A clear picture of FreeCAD\'s dependencies as well as their dependencies is required. This is envisioned as a visual depiction (perhaps a directed graph) and an analysis of conflicting versions.
 2.  A plan for the partitioning of the FreeCAD functionality into manageable chunks along with smaller sets of dependencies is also required. It\'s desirable to identify interdependencies and not re-install them.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  A concrete/documented view of FreeCD\'s dependencies (and perhaps the trusted addons)
 2.  A reduction in manual effort when releasing new versions of FreeCAD
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 This work will provide experience in the packaging and distribution of multi-platform, cross-dependency software.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -31,6 +31,6 @@ This work will provide experience in the packaging and distribution of multi-pla
 
 Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

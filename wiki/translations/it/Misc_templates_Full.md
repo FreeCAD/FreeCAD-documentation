@@ -8,7 +8,7 @@ per Windows : \"C:\\Program Files\\FreeCAD 0.16\\data\\Mod\\Drawing\\Templates\"
 
 per Linux : \"\"
 
-## Modelli italiani {#modelli_italiani}
+## Modelli italiani 
 
 ### A3\_Landscape\_IT
 

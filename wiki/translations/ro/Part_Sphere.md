@@ -30,7 +30,7 @@ Creează o simplă sferă parametrică, cu parametrii de poziție, unghi1, unghi
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 În Atelierul [Part](Part_Workbench.md) click pe iconița sferă <img alt="" src=images/Part_Sphere.png  style="width:32px;">. Sfera va fi poziționată la origine (punctul 0,0,0) la crearea. Parametrii unghiului permit realizarea unei porțiuni de sferă în locul unei sfere complete (acestea sunt setate în mod implicit la 360 °).
 

@@ -288,6 +288,6 @@ alla fine della funzione \'initUI\'. I primi due argomenti (right-300, 0) (linea
         self.setGeometry(right-300, 0, 300, 150)
 ```
 
-## Pagina di discussione {#pagina_di_discussione}
+## Pagina di discussione 
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)

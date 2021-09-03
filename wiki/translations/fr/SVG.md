@@ -16,7 +16,7 @@ FreeCAD peut lire et exporter des graphiques SVG en utilisant la fonction [**Dra
 
 FreeCAD est principalement une application de modélisation 3D et ne dispose donc pas de nombreux outils de création de dessin 2D, qui sont pour la plupart inclus dans les ateliers <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md) et <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md). Pour créer des formes exclusivement en 2D et produire des fichiers SVG, il existe des programmes alternatifs tels que [Inkscape](https://fr.wikipedia.org/wiki/Inkscape).
 
-## En relation {#en_relation}
+## En relation 
 
 -   [Importer texte et géométrie depuis Inkscape](Import_text_and_geometry_from_Inkscape/fr.md)
 

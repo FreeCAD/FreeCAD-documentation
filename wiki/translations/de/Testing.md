@@ -78,7 +78,7 @@ Testfunktion hinzufügen
 
 Testfunktion hinzufügen
 
-### TestPartApp {#testpartapp_1}
+### TestPartApp 
 
 Path workbench test cases:
 
@@ -129,7 +129,7 @@ Testfunktion hinzufügen
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-### Beispiel 1 {#beispiel_1}
+### Beispiel 1 
 
 Innerhalb der Python-Konsole von FreeCAD kann das folgende Code-Format benutzt werden, um eingebaute Tests auszuführen. Ersetze den roten \"**TestFem**\"-Text im folgenden Code mit dem gewünschten Namen des Testmoduls.
 
@@ -149,9 +149,9 @@ r = unittest.TextTestRunner()
 r.run(suite)
 ```
 
-## Zusätzliche Quellen {#zusätzliche_quellen}
+## Zusätzliche Quellen 
 
-### Forum-Themen {#forum_themen}
+### Forum-Themen 
 
 -   [Support for running specific unit tests with \--run-test \#331](https://forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379) (Unterstützung für die Ausführung bestimmter Einheitentests mit \--run-test \#331)
 

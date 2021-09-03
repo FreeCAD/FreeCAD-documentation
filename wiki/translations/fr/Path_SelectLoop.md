@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Description {#description_1}
+## Description 
 
 La commande **<img src="images/Path_SelectLoop.svg" width=16px> [Path Finish Selecting Loop](Path_SelectLoop/fr.md)** complète une sélection d\'arêtes formant une boucle.
 
@@ -29,7 +29,7 @@ La commande **<img src="images/Path_SelectLoop.svg" width=16px> [Path Finish Sel
 2.  Appelez la commande Select Loop en utilisant plusieurs méthodes:
 3.  \* Appuyez sur le bouton **<img src="images/Path_SelectLoop.svg" width=24px>**.
 4.  \* Utilisation du raccourci clavier **P** puis **L**.
-5.  \* Utilisation de l\'entrée {{MenuCommand|Path  →  **<img src="images/Path_SelectLoop.svg" width=24px> [Finish Selecting Loop](Path_SelectLoop/fr.md)**}} dans le menu Path.
+5.  \* Utilisation de l\'entrée **Path  →  **<img src="images/Path_SelectLoop.svg" width=24px> [Finish Selecting Loop](Path_SelectLoop/fr.md)**** dans le menu Path.
 
 **RÉSULTAT:** Les arêtes restantes qui forment la boucle seront automatiquement sélectionnées. **Remarque: Cette fonction est également très utile dans d\'autres établis**.
 

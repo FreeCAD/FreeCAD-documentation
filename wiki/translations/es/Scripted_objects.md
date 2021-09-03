@@ -34,7 +34,7 @@ Las Funcionalidades Python siguen las mismas reglas que todas las Funcionalidade
 
 <div class="mw-translate-fuzzy">
 
-## Ejemplo básico {#ejemplo_básico}
+## Ejemplo básico 
 
 El ejemplo siguiente se puede encontrar en el archivo [src/Mod/TemplatePyMod/FeaturePython.py](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/TemplatePyMod/FeaturePython.py?view=markup) , junto con varios otros ejemplos:
 
@@ -176,7 +176,7 @@ makeBox()
 
 ```
 
-### Things to note {#things_to_note}
+### Things to note 
 
 If your object relies on being recomputed as soon as it is created, you must do this manually in the `__init__` function as it is not called automatically. This example does not require it because the `onChanged` method of the `Box` class has the same effect as the `execute` function, but the examples below rely on being recomputed before anything is displayed in the 3D view. In the examples, this is done manually with `ActiveDocument.recompute()` but in more complex scenarios you need to decide where to recompute either the whole document or the FeaturePython object.
 
@@ -184,11 +184,11 @@ This example produces a number of exception stack traces in the report view wind
 
 An explanation of `__getstate__` and `__setstate__` is in the forum thread [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
-## Available methods {#available_methods}
+## Available methods 
 
 See [FeaturePython methods](FeaturePython_methods.md) for the complete reference.
 
-## Propiedades disponibles {#propiedades_disponibles}
+## Propiedades disponibles 
 
 Las propiedades son las auténticas piedras de construcción de los objetos FeaturePython. A través de ellas, el usuario será capaz de interactuar y modificar su objeto. Después de crear un nuevo objeto FeaturePython en tu documento ( a=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), puedes obtener una lista de las propiedades disponibles escribiendo:
 
@@ -306,7 +306,7 @@ A complete list of property attributes can be seen in the [PropertyStandard C++ 
 prop = (value, lower, upper, stepsize)
 ```
 
-## Property Type {#property_type}
+## Property Type 
 
 By default the properties can be updated. It is possible to make the properties read-only, for instance in the case one wants to show the result of a method. It is also possible to hide the property. The property type can be set using
 
@@ -346,7 +346,7 @@ You can find these different property types defined in the [source code C++ head
 
 <div class="mw-translate-fuzzy">
 
-## Otro ejemplo más complejo {#otro_ejemplo_más_complejo}
+## Otro ejemplo más complejo 
 
 En este ejemplo se hace uso del [Módulo de Pieza](Part_Workbench/es.md) para crear un octaedro, a continuación, se crea su representación Coin con Pivy.
 
@@ -555,7 +555,7 @@ ViewProviderOctahedron(a.ViewObject)
 
 <div class="mw-translate-fuzzy">
 
-## Haciendo objetos seleccionables {#haciendo_objetos_seleccionables}
+## Haciendo objetos seleccionables 
 
 Si deseas hacer tu objeto seleccionable, o al menos parte de el, haciendo clic sobre el en el visor, debes incluir su geometría Coin dentro de un nodo SoFCSelection. Si el objeto tiene una representación compleja, con widgets, anotaciones, etc, puede que desees incluir sólo una parte de el en un SoFCSelection. Todo lo que es un SoFCSelection es constantemente explorado por FreeCAD para detectar selección/preselección, por lo que tiene sentido evitar sobrecargalo con innecesarias exploraciones. Esto es lo que se haría para incluir un self.face en el ejemplo anterior:
 
@@ -661,7 +661,7 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
-## Trabajar con formas simples {#trabajar_con_formas_simples}
+## Trabajar con formas simples 
 
 Si tu objeto paramétrico saca simplemente una forma, no es necesario utilizar un objeto proveedor de vista. La forma se mostrará en la representación de formas de FreeCAD:
 
@@ -723,7 +723,7 @@ ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
 
-## Scenegraph Structure {#scenegraph_structure}
+## Scenegraph Structure 
 
 You may have noticed that the examples above construct their scenegraphs in slightly different ways. Some use `obj.addDisplayMode(node, "modename")` while others use `obj.SwitchNode.getChild(x).addChild(y)`.
 

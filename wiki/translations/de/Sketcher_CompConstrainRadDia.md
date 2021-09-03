@@ -9,7 +9,7 @@
 
 **Beschränke einen Bogen oder Kreis** ist eine Symbolschaltfläche in der Skizzierer Beschränkungswerkzeugleiste, die Werkzeuge zum Beschränken eines Bogens oder Kreises gruppiert. Klicke auf den Abwärtspfeil auf der rechten Seite, um die darunter befindlichen Symbole zu erweitern und ein Werkzeug auszuwählen.
 
-## Beschränkungsarten für einen Bogen oder Kreis {#beschränkungsarten_für_einen_bogen_oder_kreis}
+## Beschränkungsarten für einen Bogen oder Kreis 
 
 -   <img alt="" src=images/Sketcher_ConstrainRadius.png  style="width:32px;"> [Beschränke Radius](Sketcher_ConstrainRadius/de.md) : Fixiere den Radius eines Kreises oder Bogens.
 -   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Beschränke Durchmesser](Sketcher_ConstrainDiameter/de.md) : Fixiere den Durchmesser eines Kreises oder Bogens.

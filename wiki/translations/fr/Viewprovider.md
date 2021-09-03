@@ -8,7 +8,7 @@ Elles complètent les [Objets définis par script](scripted_objects/fr.md). Alor
 
 Comme pour les propriétés de données, les propriétés de vue sont accessibles à partir de l\'[Éditeur de propriétés](Property_editor/fr.md).
 
-## Fournisseurs de vues Python {#fournisseurs_de_vues_python}
+## Fournisseurs de vues Python 
 
 Les classes viewproviders incluent généralement `ViewProvider` dans leur nom. Elles sont attribuées à l\'attribut `ViewObject` de l\'objet de base.
 
@@ -67,7 +67,7 @@ if App.GuiUp:
     view_custom.ViewProviderCustom(obj.ViewObject)
 ```
 
-## Icônes personnalisées {#icônes_personnalisées}
+## Icônes personnalisées 
 
 En implémentant la méthode `getIcon`, vous pouvez spécifier l\'icône qui sera affichée dans la [vue en arborescence](tree_view/fr.md) dans la partie supérieure de la [Vue Combinée](Combo_view/fr.md).
 

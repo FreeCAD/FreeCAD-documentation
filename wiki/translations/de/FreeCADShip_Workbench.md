@@ -9,7 +9,7 @@
 
 Der FreeCAD <img alt="" src=images/Workbench_Ship.svg  style="width:32px;">[Arbeitsbereich Schiff](Ship_Workbench/de.md) wird verwendet, um Strukturen zu erstellen, die für Schiffe üblich sind.
 
-## Die Werkzeuge {#die_werkzeuge}
+## Die Werkzeuge 
 
 ### Schiffskonstruktion
 

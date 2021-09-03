@@ -21,7 +21,7 @@ Questo strumento crea una proiezione dell\'oggetto selezionato, l\'oggetto sorge
 |                                                      | Nell\'albero del progetto viene aggiunto un oggetto **Nome\_proj**. Per le proiezioni successive, viene aggiunto un numero a tre cifre. |
 +------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 
-### Modificare una proiezione esistente {#modificare_una_proiezione_esistente}
+### Modificare una proiezione esistente 
 
 +--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ![](images/ProjectShapeOptions_it.png ) | I parametri della proiezione possono essere modificati nella scheda Dati della vista combinata.                                                                                                                            |

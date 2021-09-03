@@ -34,12 +34,12 @@ O fluxo de trabalho da bancada Path do FreeCAD Path cria essas instruções de m
 
 </div>
 
-## General concepts {#general_concepts}
+## General concepts 
 
 
 <div class="mw-translate-fuzzy">
 
-## Conceitos gerais {#conceitos_gerais}
+## Conceitos gerais 
 
 A bancada gera o G-Code que define os caminhos necessários para usinar o projeto representado pelo modelo 3D na fresadora alvo em [o caminho Tarefas de trabalho FreeCAD G- Dialeto de código](Path_scripting/pt-br#The_FreeCAD_Internal_GCode_Format.md), que é posteriormente traduzido para o dialeto apropriado para o controlador CNC de destino, selecionando o pós-processador apropriado.
 
@@ -105,12 +105,12 @@ Inspeção de caminho:
 
 1.  Se você usar a ferramenta Inspecionar Caminho para ver o G-Code, verá em \'mm/s\' porque não está sendo pós-processado.
 
-## Heights and depths {#heights_and_depths}
+## Heights and depths 
 
 
 <div class="mw-translate-fuzzy">
 
-## Comandos do Path {#comandos_do_path}
+## Comandos do Path 
 
 Muitos dos comandos têm várias alturas e profundidades: <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
 *Referência visual para propriedades de profundidade (configurações)*
@@ -125,7 +125,7 @@ Muitos dos comandos têm várias alturas e profundidades: <img alt="" src=images
 
 Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
 
-### Project Commands {#project_commands}
+### Project Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -159,7 +159,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### Tool Commands {#tool_commands}
+### Tool Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -200,7 +200,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Operações de Caminho Básico {#operações_de_caminho_básico}
+### Operações de Caminho Básico 
 
 
 </div>
@@ -277,7 +277,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### 3D Operations {#d_operations}
+### 3D Operations 
 
 
 <div class="mw-translate-fuzzy">
@@ -306,7 +306,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Otimização de percurso {#otimização_de_percurso}
+### Otimização de percurso 
 
 
 </div>
@@ -362,7 +362,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Comandos Parciais {#comandos_parciais}
+### Comandos Parciais 
 
 
 </div>
@@ -410,7 +410,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Modificações do Path {#modificações_do_path}
+### Modificações do Path 
 
 
 </div>
@@ -467,7 +467,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-## ToolBit architecture {#toolbit_architecture}
+## ToolBit architecture 
 
 Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
 

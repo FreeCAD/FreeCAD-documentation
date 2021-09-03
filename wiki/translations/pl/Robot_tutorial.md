@@ -13,13 +13,13 @@ W tym poradniku przedstawiono, jak korzystać z <img alt="" src=images/_Workbenc
 
 ![](images/Robot_Tutorial_RobotSimulation.gif ) *Efekt końcowy tego poradnika.*
 
-## Przed rozpoczęciem {#przed_rozpoczęciem}
+## Przed rozpoczęciem 
 
 Ten poradnik jest napisany dla FreeCAD w wersji 0.16.6703 lub wyższej. Więc jeśli nie masz programu FreeCAD na swoim komputerze przejdź do strony [pobierania](Download.md) i wykonaj instalację.
 
 Niniejszy poradnik jest skierowany do wykorzystania [Robotów przemysłowych](http://en.wikipedia.org/wiki/Industrial_robot) a nie robotów ruchomych lub usługowyych *(zobacz stronę Wikipedii [współczesne roboty](http://en.wikipedia.org/wiki/Robot#Modern_robots))*.
 
-## Przygotowanie sceny {#przygotowanie_sceny}
+## Przygotowanie sceny 
 
 1.  Włącz Środowisko pracy <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Robot](Robot_Workbench/pl.md).
 2.  Utwórz nowy dokument wybierając z menu głównego **Plik** → **Nowy**.
@@ -28,7 +28,7 @@ Niniejszy poradnik jest skierowany do wykorzystania [Robotów przemysłowych](ht
 5.  Przybliż, aby dopasować widok klikając na <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> przycisk [Dopasuj rozmiar do okna](Std_ViewFitAll.md).
 6.  Zapisz swój dokument\...
 
-## Ustalenie trajektorii ruchów {#ustalenie_trajektorii_ruchów}
+## Ustalenie trajektorii ruchów 
 
 1.  Włącz Środowisko pracy <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Robot](Robot_Workbench/pl.md).
 2.  Aktywuj zakładkę model w [widoku drzewa](tree_view/pl.md) klikając na nią.
@@ -41,7 +41,7 @@ Niniejszy poradnik jest skierowany do wykorzystania [Robotów przemysłowych](ht
 9.  Każdy punkt trasy jest oznaczony żółtym krzyżykiem, punkty trasy są połączone pomarańczową linią.
 10. Zdefiniuj co najmniej trzy różne punkty orientacyjne i wstaw je do toru ruchu.
 
-## Symulacja ruchów robota {#symulacja_ruchów_robota}
+## Symulacja ruchów robota 
 
 1.  Wybierz robota i zaprojektowaną trajektorię na [widoku drzewa](tree_view/pl.md).
 2.  Wybierz symulację, klikając na przycisk <img alt="" src=images/Robot_Simulate.svg  style="width:24px;"> [Symulacja robota](Robot_Simulate.md).

@@ -161,13 +161,13 @@ Image:Macro\_FCInfo\_04.png\|Dockée à droite, Image:Macro FCInfo 05.png\|ou à
 
 ## Options
 
-### Les unités utilisées {#les_unités_utilisées}
+### Les unités utilisées 
 
 #### Longueur :
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
-#### Degrés d\'angle : {#degrés_dangle}
+#### Degrés d\'angle : 
 
 1.  **degré décimal**, ex: 174.831872611°
 2.  degré minute seconde, ex: 174° 49\' 54.741401\'\'
@@ -189,7 +189,7 @@ Cliquez deux fois sur l\'image pour voir l\'animation (l\'image doit être en pl
 
 
 
-#### Unités de masse : {#unités_de_masse}
+#### Unités de masse : 
 
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
 lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct

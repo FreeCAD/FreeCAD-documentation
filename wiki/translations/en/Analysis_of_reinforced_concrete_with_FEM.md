@@ -21,11 +21,11 @@ If the required reinforcement ratio is not uniform over the full cross section t
 
 As a word of caution, it takes much more to design a safe and durable concrete structure than what the FEM work bench can currently provide. For example, the method does not calculate crack width (important for durability and functionality), accurate deformations (FEM results for concrete are simply linear-elastic) or take account of reinforcement anchoring requirements (causing an increase of required reinforcement ratios in anchoring zones). It also doesn't predict concrete crushing (although an indication of that can be obtained by plotting the Mohr Coulomb stress - see further), which could mean that the concrete fails before the reinforcement yields, causing brittle failure of the overall structure. These and other limitations mean that the FEM concrete functionality can only be used to assess conceptual designs, whereas detailed design decisions critical to safety and performance should be left to qualified professionals.
 
-## Model geometry, loads and supports {#model_geometry_loads_and_supports}
+## Model geometry, loads and supports 
 
 Although the FEM concrete routine does not have any additional requirements for geometry, loads and supports, it should be borne in mind that sharp corners and a support on an edge or vertex can introduce stress concentrations that will lead to extremely high and unrealistic reinforcement ratios at or near those locations.
 
-## Material Parameters {#material_parameters}
+## Material Parameters 
 
 FEM workbench has a special material object for reinforced materials, which combines a matrix material (e.g. concrete) and a reinforcement material (e.g.steel). For the analysis of reinforced concrete with FEM, the following parameters need to be specified, as a minimum:
 
@@ -46,7 +46,7 @@ Please note that three types of analysis are performed: 1) An elastic analysis u
 
 In the remainder of this article a few practical cases will be analysed to discuss application of the method.
 
-### Simply supported beam with uniform load {#simply_supported_beam_with_uniform_load}
+### Simply supported beam with uniform load 
 
 A 4.0x0.1x0.3m concrete beam is loaded by self weight and a 100kN (25kN/m) distributed load.
 
@@ -75,7 +75,7 @@ The Mohr Coulomb plot shows that beam is indeed prone to crushing on the compres
 
 Both the reinforcement ratio and Mohr Coulomb stress indicate that we have an issue and that we need to rethink our conceptual design. Potential solutions are to increase the beam dimensions or use pre-stressed concrete. Further details can be found in the following post: <https://forum.freecadweb.org/viewtopic.php?f=18&t=28821&start=10#p235003>
 
-### Beam with mid-span support {#beam_with_mid_span_support}
+### Beam with mid-span support 
 
 A 8.0x0.2x0.4m concrete beam is loaded by self weight and a 160kN (20kN/m) distributed load.
 
@@ -122,7 +122,7 @@ The reinforcement requirement found above agrees well with that obtained using t
 
 Finally, a Mohr Coulomb stress check should be performed to check potential crushing of the concrete. For this check, the characteristic compressive strength of concrete (25MPa) should be divided by an appropriate material factor (\>1.0).
 
-### Shear wall with uniform load {#shear_wall_with_uniform_load}
+### Shear wall with uniform load 
 
 A 4.0x2.0x0.15m wall is supported by two 0.5m wide columns. The wall is loaded by self weight and a 1.0MN distributed load at the top.
 
@@ -149,7 +149,7 @@ The above picture shows possible zones of constant reinforcement ratio for the d
 
 Finally, a review of the Mohr Coulomb stress shows that no concrete crushing is expected in the wall. <https://forum.freecadweb.org/viewtopic.php?f=18&t=28821&start=10#p234673>
 
-### Deep beam with opening {#deep_beam_with_opening}
+### Deep beam with opening 
 
 The FIB Practitioners\' Guide to Finite Element Modelling of Reinforced Concrete Structures contains a design example of a deep concrete beam with opening. The example is used in that report to demonstrate the \"Strut-and-Tie\" method. Here the results will be compared to those obtained with the FreeCAD FEM workbench.
 

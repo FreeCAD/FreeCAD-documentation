@@ -30,9 +30,9 @@ Per una descrizione più approfondita dello sketcher, leggere il [Manuale di rif
 
 ## Setup
 
-1\. Open FreeCAD, create a new empty document with {{MenuCommand|File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)}}.
+1\. Open FreeCAD, create a new empty document with **File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
 
-:   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu {{MenuCommand|[View](Std_View_Menu.md) → Workbench → Sketcher}}.
+:   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **[View](Std_View_Menu.md) → Workbench → Sketcher**.
 
 Some actions to remember:
 
@@ -40,7 +40,7 @@ Some actions to remember:
 -   To exit the sketch edit mode, press the **Close** button in the [task panel](task_panel.md), or press **Esc** twice in the keyboard.
 -   To enter again edit mode, double click on the sketch in the <img src=images/Sketcher_EditSketch.svg style="width:tree view](tree_view.md), or select it, and then click on **[16px"> [Edit sketch](Sketcher_EditSketch.md)**.
 
-## Creare uno schizzo {#creare_uno_schizzo}
+## Creare uno schizzo 
 
 2\. Click on **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [New sketch](Sketcher_NewSketch.md)**.
 
@@ -53,14 +53,14 @@ Siamo ora nella modalità di modifica dello schizzo. Al suo interno, è possibil
 
 **Nota:**
 
-la [vista ad albero](tree_view/it.md) passa alla [scheda azioni](task_panel/it.md); in questa interfaccia espandere la sezione {{MenuCommand|Modifica controlli}} e assicurarsi che l\'opzione {{MenuCommand|Vincoli automatici}} sia abilitata. Altre opzioni possono essere modificate inclusa la dimensione della griglia visibile e se si vuole agganciarla; in questo tutorial non ci agganceremo alla griglia e la nasconderemo anche. In altre sezioni della [scheda azioni](task_panel/it.md) si può anche vedere quali elementi geometrici e vincoli sono stati definiti.
+la [vista ad albero](tree_view/it.md) passa alla [scheda azioni](task_panel/it.md); in questa interfaccia espandere la sezione **Modifica controlli** e assicurarsi che l\'opzione **Vincoli automatici** sia abilitata. Altre opzioni possono essere modificate inclusa la dimensione della griglia visibile e se si vuole agganciarla; in questo tutorial non ci agganceremo alla griglia e la nasconderemo anche. In altre sezioni della [scheda azioni](task_panel/it.md) si può anche vedere quali elementi geometrici e vincoli sono stati definiti.
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
 
 
 *Upper part of the [task panel](task_panel.md) of the sketcher.*
 
-## La geometria di costruzione {#la_geometria_di_costruzione}
+## La geometria di costruzione 
 
 
 <div class="mw-translate-fuzzy">
@@ -85,22 +85,22 @@ up to this point the [line tool](Sketcher_CreateLine.md) is still active. This m
 
 do not press **Esc** a second time as this will exit the sketch edit mode. If you do this, re-enter the edit mode by double clicking on the sketch in the [tree view](tree_view.md).
 
-Take a look at the [task panel](task_panel.md) again. The {{MenuCommand|Solver messages}} section already indicates that the sketch is under-constrained, and it mentions the number of **degrees of freedom**.
+Take a look at the [task panel](task_panel.md) again. The **Solver messages** section already indicates that the sketch is under-constrained, and it mentions the number of **degrees of freedom**.
 
-Look at the {{MenuCommand|Constraints}} and {{MenuCommand|Elements}} sections to see the new listed constraints and lines. Once your sketches have many elements, it may be difficult to select them in the [3D view](3D_view.md), so you can use these lists to select the object that you wish exactly.
+Look at the **Constraints** and **Elements** sections to see the new listed constraints and lines. Once your sketches have many elements, it may be difficult to select them in the [3D view](3D_view.md), so you can use these lists to select the object that you wish exactly.
 
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
 
 *Construction lines forming a star shape with its center in the origin.*
 
-## La geometria reale {#la_geometria_reale}
+## La geometria reale 
 
 La geometria reale deve creare una forma chiusa se deve essere utilizzata come profilo che può essere estruso da strumenti come <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [Pad](PartDesign_Pad/it.md) di PartDesign.
 
 Make sure you are not in construction mode by clicking on **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction](Sketcher_ToggleConstruction.md)**, if you have not previously exited this mode.
 
-### Outer arcs {#outer_arcs}
+### Outer arcs 
 
 4\. Create a circle.
 
@@ -121,7 +121,7 @@ Make sure you are not in construction mode by clicking on **<img src=images/Sket
 
 *Circular arcs added at the endpoints of the construction lines. Also a central circle.*
 
-### Inner arcs {#inner_arcs}
+### Inner arcs 
 
 6\. Creare un arco tra ogni coppia degli archi O precedenti.
 
@@ -138,7 +138,7 @@ To summarize, the O-arcs should have their curvature pointing outwards, and thei
 
 ## Constraints
 
-Take a look at the [task panel](task_panel.md) again. Due to the new geometrical elements that we have drawn, the {{MenuCommand|Solver messages}} section indicates even more **degrees of freedom**. A **degree of freedom** (DOF) indicates a possible movement of one element. For example, a point can be moved both in horizontal and vertical directions, so it has two degrees of freedom. A line is defined by two points, therefore in total it has four degrees of freedom. If we fix one of those points, then the entire system has only two degrees of freedom available; if we additionally fix the horizontal movement of the remaining point, we only have one degree of freedom left; and if we also fix the vertical movement of this point, then the last degree of freedom disappears, and the line cannot move from its position any more.
+Take a look at the [task panel](task_panel.md) again. Due to the new geometrical elements that we have drawn, the **Solver messages** section indicates even more **degrees of freedom**. A **degree of freedom** (DOF) indicates a possible movement of one element. For example, a point can be moved both in horizontal and vertical directions, so it has two degrees of freedom. A line is defined by two points, therefore in total it has four degrees of freedom. If we fix one of those points, then the entire system has only two degrees of freedom available; if we additionally fix the horizontal movement of the remaining point, we only have one degree of freedom left; and if we also fix the vertical movement of this point, then the last degree of freedom disappears, and the line cannot move from its position any more.
 
 Finora quando abbiamo disegnato linee e curve, lo sketcher ha aggiunto per noi i vincoli automatici, quelli che mantengono le linee legate all\'origine e gli archi O legati alle linee di costruzione. Ma non abbiamo aggiunto altri vincoli espliciti in modo che le forme geometriche possano ancora essere spostate in molte direzioni. **I vincoli sono \"regole\" che ci dicono in quali condizioni un oggetto geometrico può muoversi e di quanto.** Sono usati per eliminare i gradi di libertà in modo che lo schizzo abbia una forma stabile. Se eliminiamo tutti i gradi di libertà, lo schizzo è **completamente vincolato** e ha una forma fissa, ovvero i suoi punti non possono spostarsi affatto. In generale, è una buona idea vincolare completamente gli schizzi perché ciò si riflette in modelli stabili.
 
@@ -148,9 +148,9 @@ There are two principal types of constraints:
 
 -    **Datum constraints**define characteristics of the shapes by specifying dimensions, for example, a numeric length or an angle.
 
-## I vincoli geometrici {#i_vincoli_geometrici}
+## I vincoli geometrici 
 
-### Equal length and radius {#equal_length_and_radius}
+### Equal length and radius 
 
 
 <div class="mw-translate-fuzzy">
@@ -224,11 +224,11 @@ A questo punto, il profilo è chiuso e può essere regolato con le dimensioni de
 
 *Sketch with tangential constraints applied to the arcs, which closes the shape.*
 
-## I vincoli di dati {#i_vincoli_di_dati}
+## I vincoli di dati 
 
 These constraints specify the numerical distances between two points, and angles between two lines.
 
-### Distances and angles {#distances_and_angles}
+### Distances and angles 
 
 
 <div class="mw-translate-fuzzy">
@@ -296,7 +296,7 @@ Alla fine si dovrebbe ottenere uno schizzo completamente vincolato. Questo può 
 
 *Left: fully constrained sketch with only the most important constraints showing. Right: solid extrusion produced with [PartDesign Pad](PartDesign_Pad.md).*
 
-## Additional information {#additional_information}
+## Additional information 
 
 For a more in depth description of the sketcher, visit the [Sketcher Workbench](Sketcher_Workbench.md) documentation and also read the [Sketcher reference](Sketcher_reference.md).
 

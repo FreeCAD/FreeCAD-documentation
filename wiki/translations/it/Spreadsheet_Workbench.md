@@ -39,7 +39,7 @@ L\'ambiente <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;
 
 -   menu contestuale delle righe e colonne del foglio di calcolo: cliccate con il tasto destro del mouse sull\'intestazione di una riga o colonna per inserire una nuova riga sopra o una nuova colonna a sinistra, o per cancellare la riga/colonna corrente. Si possono anche selezionare più righe o colonne al fine di cancellarle.{{Versione|0.20}} È anche possibile selezionare dove verranno inserite le nuove righe/colonne. Inoltre, per inserire ad esempio 3 nuove colonne in una volta sola, selezionate 3 colonne e usate il menu contestuale che vi offrirà ora di inserire 3 colonne.
 
-### Proprietà delle celle {#proprietà_delle_celle}
+### Proprietà delle celle 
 
 Le proprietà di una cella del foglio possono essere modificate con un clic destro su una cella. Si apre la seguente finestra:
 
@@ -53,7 +53,7 @@ Come indicato dalle schede, è possibile modificare le seguenti proprietà:
 -   Units: Mostra le unità di misura per questa cella. Per favore leggi la sezione [ Unità di misura](#Unità_di_misura.md) sottostante.
 -   Alias: Definisce un nome [alias](Spreadsheet_SetAlias/it.md) per questa cella. Questo alias può essere utilizzato nelle formule della cella e in generale anche nelle [espressioni](Expressions/it.md); per maggiori informazioni guarda la sezione [Espressioni nelle celle](#Espressioni_nelle_celle.md) .
 
-## Espressioni nelle celle {#espressioni_nelle_celle}
+## Espressioni nelle celle 
 
 Una cella del foglio di calcolo può contenere un testo arbitrario o un\'espressione. Tecnicamente, le espressioni devono iniziare con un segno \"=\" uguale. Tuttavia, il foglio elettronico tenta di essere intelligente; se si inserisce qualcosa che sembra un\'espressione senza il segno \'=\', lo aggiunge automaticamente.
 
@@ -66,7 +66,7 @@ Le espressioni inserite nelle celle sono trattate da FreeCAD come codice di prog
 
 I riferimenti agli oggetti nel modello sono spiegati in seguito in [Riferimento ai dati CAD](#Riferimento_ai_dati_CAD.md). L\'utilizzo dei valori delle celle del foglio di calcolo per definire le proprietà del modello è spiegato in seguito in [Dati del foglio di calcolo nelle espressioni](#Dati_dei_fogli_di_calcolo_nelle_espressioni.md). Per ulteriori informazioni sulle espressioni e sulle funzioni dipsonibili, consultare la pagina [Espressioni](Expressions/it.md).
 
-## Interazione tra fogli di calcolo e modello CAD {#interazione_tra_fogli_di_calcolo_e_modello_cad}
+## Interazione tra fogli di calcolo e modello CAD 
 
 I dati nelle celle di un foglio di calcolo possono essere utilizzati nelle espressioni dei parametri del modello CAD. Pertanto, un foglio di calcolo può essere utilizzato come origine per i valori dei parametri utilizzati in un modello, raccogliendo efficacemente i valori in un\'unica posizione. Quando i valori vengono modificati nel foglio di calcolo, le modifiche si propagano nel modello.
 
@@ -80,7 +80,7 @@ L\'etichetta di un foglio di calcolo viene automaticamente impostata sul nome de
 
 FreeCAD verifica le dipendenze cicliche. Vedere [Limitazioni attuali](Spreadsheet_Workbench/it#Limitazioni_attuali.md).
 
-### Riferimento ai dati CAD {#riferimento_ai_dati_cad}
+### Riferimento ai dati CAD 
 
 Come indicato sopra, è possibile fare riferimento ai dati del modello CAD nelle espressioni del foglio di calcolo.
 
@@ -103,7 +103,7 @@ La tabella seguente mostra alcuni esempi assumendo che il modello abbia una figu
   Etichetta del Cubo                          =MyCube.Label                    String: Cube
   coordinata x del centro di massa del Cubo   =MyCube.Shape.CenterOfMass.x     coordinata x in mm senza unità di misura
 
-### Dati dei fogli di calcolo nelle espressioni {#dati_dei_fogli_di_calcolo_nelle_espressioni}
+### Dati dei fogli di calcolo nelle espressioni 
 
 Per utilizzare i dati del foglio di calcolo in altre parti di FreeCAD, di solito creerai un [ Espressione](Expressions/it#Espressioni.md) che si riferisce al foglio di calcolo e alla cella che contiene i dati che desideri utilizzare. Puoi identificare i fogli di calcolo per nome o per etichetta e puoi identificare le celle per posizione o per alias. Il completamento automatico è disponibile per tutti i tipi di riferimento.
 
@@ -139,7 +139,7 @@ Sebbene sia possibile utilizzare il numero di riga e di colonna in un\'espressio
 
 </div>
 
-### Modelli complessi e ricalcoli {#modelli_complessi_e_ricalcoli}
+### Modelli complessi e ricalcoli 
 
 La modifica di un foglio di calcolo attiverà un ricalcolo del modello 3D, anche se le modifiche non influiscono sul modello. Per un modello complesso un ricalcolo può richiedere molto tempo e dover attendere dopo ogni singola modifica è ovviamente piuttosto fastidioso.
 
@@ -158,7 +158,7 @@ Ci sono tre soluzioni per affrontare questo problema:
     -   Lo svantaggio è che il modello non verrà ricalcolato automaticamente dopo le modifiche al foglio di calcolo.
     -   Nello scenario in cui apri prima il file \"foglio di calcolo\", modifichi uno o più valori e quindi apri il file \"modello\", non ci sarà alcuna indicazione che il modello debba essere ricalcolato. Tuttavia, se entrambi i file sono aperti, l\'icona [ Aggiorna](Std_Refresh/it.md) aggiornerà correttamente il file \"modello\" dopo le modifiche al file \"foglio di calcolo\".
 
-## Unità di misura {#unità_di_misura}
+## Unità di misura 
 
 Il foglio di calcolo ha il concetto dimensione (unità di misura) associata ai valori delle celle. Un numero inserito senza un\'unità associata non ha dimensione. L\'unità di misura deve essere immessa immediatamente dopo il valore numerico, senza spazio intermedio. Se un numero ha un\'unità di misura associata, quell\'unità sarà utilizzata in tutti i calcoli. Ad esempio, la moltiplicazione di due lunghezze con l\'unità mm fornisce un\'area con l\'unità in mm².
 
@@ -170,11 +170,11 @@ Un numero adimensionale non può essere modificato in un numero con un\'unità t
 
 Occasionalmente può essere desiderabile sbarazzarsi di una dimensione in un\'espressione. Questo può essere fatto moltiplicando per 1 con un\'unità reciproca.
 
-## Importazione ed esportazione {#importazione_ed_esportazione}
+## Importazione ed esportazione 
 
-I fogli possono essere importati ed esportati nel formato [csv](https://en.wikipedia.org/wiki/Comma-separated_values) che può anche essere letto e scritto da molte altre applicazioni di fogli di calcolo come Microsoft Excel o LibreOffice Calc. Durante l\'importazione dei file in FreeCAD, il delimitatore (il carattere che viene utilizzato per separare le colonne) deve essere il carattere di tabulazione (questo può essere impostato durante l\'esportazione da altre applicazioni). L\'importazione di un file CSV è disponibile tramite il menu {{MenuCommand|Spreadsheet → Import Spreadsheet}} o facendo clic sull\'icona <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. Questa funzione di importazione non apre file Excel o altri formati di fogli di calcolo.
+I fogli possono essere importati ed esportati nel formato [csv](https://en.wikipedia.org/wiki/Comma-separated_values) che può anche essere letto e scritto da molte altre applicazioni di fogli di calcolo come Microsoft Excel o LibreOffice Calc. Durante l\'importazione dei file in FreeCAD, il delimitatore (il carattere che viene utilizzato per separare le colonne) deve essere il carattere di tabulazione (questo può essere impostato durante l\'esportazione da altre applicazioni). L\'importazione di un file CSV è disponibile tramite il menu **Spreadsheet → Import Spreadsheet** o facendo clic sull\'icona <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. Questa funzione di importazione non apre file Excel o altri formati di fogli di calcolo.
 
-I fogli di calcolo in formato Excel \"xlsx\" possono essere importati in un documento FreeCAD tramite il menu {{MenuCommand|File → Importa...}}. I fogli di calcolo Excel possono anche essere aperti da FreeCAD facendo clic nel menu {{MenuCommand|File → Apri...}} o facendo clic sull\'icona <img alt="" src=images/Document-open.svg  style="width:24px;">. In questi casi si crea un nuovo documento con all\'interno un foglio di calcolo. Sono supportate le seguenti caratteristiche:
+I fogli di calcolo in formato Excel \"xlsx\" possono essere importati in un documento FreeCAD tramite il menu **File → Importa...**. I fogli di calcolo Excel possono anche essere aperti da FreeCAD facendo clic nel menu **File → Apri...** o facendo clic sull\'icona <img alt="" src=images/Document-open.svg  style="width:24px;">. In questi casi si crea un nuovo documento con all\'interno un foglio di calcolo. Sono supportate le seguenti caratteristiche:
 
 -   tutte le funzioni che sono disponibili anche nel foglio di calcolo FreeCAD. Le altre funzioni danno un errore nella cella corrispondente dopo l\'importazione.
 -   i nomi alias per le celle
@@ -186,13 +186,13 @@ Le altre funzionalità non vengono importate nel foglio di calcolo di FreeCAD. L
 
 Per gestire l\'impostazione della pagina necessaria per la stampa, i fogli di calcolo di FreeCAD vengono stampati inserendoli in una [ Vista foglio di calcolo di TechDraw](TechDraw_SpreadsheetView/it.md).
 
-## Limitazioni attuali {#limitazioni_attuali}
+## Limitazioni attuali 
 
 FreeCAD verifica le dipendenze cicliche. Per come è concepita, tale verifica si arresta al livello dell\'oggetto foglio di calcolo. Di conseguenza, non si dovrebbe avere un foglio di calcolo che contiene contemporaneamente le celle i cui valori sono utilizzati per specificare parametri nel modello e sia celle i cui valori utilizzano l\'output del modello. Ad esempio, non è possibile avere celle che specificano la lunghezza, la larghezza e l\'altezza di un oggetto e un\'altra cella che fa riferimento al volume totale della forma risultante. Questa limitazione può essere superata creando due fogli di calcolo: uno utilizzato come origine dati per i parametri di input per il modello e l\'altro usato per il risultato dei calcoli basati sui dati geometrici.
 
 Quando le celle vengono copiate, viene copiato solo il contenuto (espressione o valore). Le [Proprietà delle celle](Spreadsheet_Workbench/it#Proprietà_delle_celle.md) descritte sopra non sono copiate.
 
-## Script di base {#script_di_base}
+## Script di base 
 
 
 ```python

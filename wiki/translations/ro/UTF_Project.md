@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Acesta este planul proiectului pentru partea FreeCAD a [Development roadmap](Development_roadmap.md).
 
-## Scop și principii {#scop_și_principii}
+## Scop și principii 
 
 Pentru a îmbunătăți capabilitățile multi limbaj în FreeCAD prin implementarea suportului pentru caractere UTF în interiorul interfaței Coin3D .
 
@@ -27,7 +27,7 @@ Pentru a îmbunătăți capabilitățile multi limbaj în FreeCAD prin implement
 -   Migrază modulele pentru a utiliza noile noduri textuale.
 -   Testarea riguroasă
 
-## Viitoarele acțiuni {#viitoarele_acțiuni}
+## Viitoarele acțiuni 
 
 -   Implementarea clasei UTF String Handling Class **(WIP)**
 -   Manipularea fonturilor și a simbolurilor/glifurilor.

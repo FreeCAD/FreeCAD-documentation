@@ -25,22 +25,22 @@ L\'option de menu **Docked** place la [vue 3D](3D_view/fr.md) active dans l\'int
 
 1.  Activez une vue 3D non ancrée.
 2.  Il existe plusieurs façons d\'invoquer l\'option:
-    -   S\'il n\'y a pas de vues 3D ancrées: sélectionnez l\'option {{MenuCommand|Affichage → Fenêtre Document‏‎ → Dockée}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Fenêtre Document‏‎ → Dockée}} dans le menu contextuel de la vue 3D.
+    -   S\'il n\'y a pas de vues 3D ancrées: sélectionnez l\'option **Affichage → Fenêtre Document‏‎ → Dockée** dans le menu.
+    -   Sélectionnez l\'option **Fenêtre Document‏‎ → Dockée** dans le menu contextuel de la vue 3D.
     -   Utilisez le raccourci clavier: **V** puis **D**.
 
 ## Undocked
 
-### Description {#description_1}
+### Description 
 
 L\'option de menu **Undocked** sépare la [vue 3D](3D_view/fr.md) active de l\'interface principale de FreeCAD.
 
-### Utilisation {#utilisation_1}
+### Utilisation 
 
 1.  Activez une vue 3D ancrée.
 2.  Il existe plusieurs façons d\'invoquer l\'option:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Fenêtre Document‏‎ → Non dockée}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Fenêtre Document‏‎ → Non dockée}} dans le menu contextuel de la vue 3D.
+    -   Sélectionnez l\'option **Affichage → Fenêtre Document‏‎ → Non dockée** dans le menu.
+    -   Sélectionnez l\'option **Fenêtre Document‏‎ → Non dockée** dans le menu contextuel de la vue 3D.
     -   Utilisez le raccourci clavier: **V** puis **U**.
 
 ## Remarques

@@ -23,13 +23,14 @@ This macro creates parametric polyhedrons: tetrahedron, hexahedron, octahedron, 
 
 ## Installation
 
--   Use the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) to install the macro via {{MenuCommand|Tools → Addon Manager → Macros tab}}
+-   Use the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) to install the macro via 
+**Tools → Addon Manager → Macros tab**
 -   Choose `polyhedrons.py`
 -   Press **Install**
 
 ## Usage
 
--   Once installed, open {{MenuCommand|Macro → Macros}}.
+-   Once installed, open **Macro → Macros**.
 -   Click on `polyhedrons.py` and then click on the {{button|Execute}} button.
 -   In a popup you can select the type of polyhedron, and you can set the size of the radius or the length of the sides.
 -   Press **OK**

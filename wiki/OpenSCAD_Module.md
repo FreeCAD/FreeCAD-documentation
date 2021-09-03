@@ -34,7 +34,7 @@ The general installation in all platforms can be done from the Python package in
 pip3 install --user ply
 ```
 
-## OpenSCAD language and file format {#openscad_language_and_file_format}
+## OpenSCAD language and file format 
 
 The OpenSCAD language allows the use of variables and loops. It allows you to specify sub-modules to reuse geometry and code. This high degree of flexibility makes parsing very complex. Currently the OpenSCAD Workbench cannot handle the OpenSCAD language natively. Instead, if OpenSCAD is installed, it can be used to convert the input to the CSG format, which is a subset of the OpenSCAD language, and can be used as the input to OpenSCAD for further processing. During conversion all parametric behavior is lost, meaning that all variable names are discarded, loops expanded, and mathematical expressions evaluated.
 
@@ -70,7 +70,7 @@ OpenSCAD works internally on meshes. Some operations which are useful on meshes 
 
 When importing [DXF](DXF.md) set the Draft precision to a sensible amount as this will affect the detection of connected edges.
 
-If FreeCAD crashes when importing CSG, it is strongly recommended that you enable \"automatically check model after boolean operation\" in {{MenuCommand|Menu → Edit → Preferences → Part Design → Model setting}}.
+If FreeCAD crashes when importing CSG, it is strongly recommended that you enable \"automatically check model after boolean operation\" in **Menu → Edit → Preferences → Part Design → Model setting**.
 
 ## Tutorials
 

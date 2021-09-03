@@ -128,7 +128,7 @@ Button ![FCConvertLines](images/Macro_FCConvertLines_10.png )
 
  
 
-## The files to copy in your directory with the macro (10 files images) {#the_files_to_copy_in_your_directory_with_the_macro_10_files_images}
+## The files to copy in your directory with the macro (10 files images) 
 
 **The icon for the toolBar**  ![Macro\_FCConvertLines](images/Macro_FCConvertLines.png ) 
 

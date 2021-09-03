@@ -34,7 +34,7 @@ Planul de secțiune singur nu va crea nici o vizualizare a setului său de obiec
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -117,7 +117,7 @@ Planul de secțiune singur nu va crea nici o vizualizare a setului său de obiec
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

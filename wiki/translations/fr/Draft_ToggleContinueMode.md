@@ -12,9 +12,9 @@ La commande <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Utilitaires → <img src="images/Draft_ToggleContinueMode.svg" width=16px> Basculer le mode continuer }} dans le menu.
+1.  Sélectionnez l\'option **Utilitaires → <img src="images/Draft_ToggleContinueMode.svg" width=16px> Basculer le mode continuer ** dans le menu.
 2.  Lancez une commande qui supporte le mode continu, [Draft Ligne](Draft_Line/fr.md) ou [Arch Mur](Arch_Wall/fr.md) par exemple.
-3.  Pour activer le mode continu dans le panneau des tâches de la commande : appuyez sur **T** ou cliquez sur la case {{MenuCommand|Continuer}}.
+3.  Pour activer le mode continu dans le panneau des tâches de la commande : appuyez sur **T** ou cliquez sur la case **Continuer**.
 4.  Créez votre géométrie.
 5.  Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande et désactiver le mode continu.
 

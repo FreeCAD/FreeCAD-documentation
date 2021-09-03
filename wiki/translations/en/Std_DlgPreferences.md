@@ -12,7 +12,7 @@ The **Std DlgPreferences** command opens the [Preferences Editor](Preferences_Ed
 
 ## Usage
 
-1.  Select the {{MenuCommand|Edit → <img src="images/Std_DlgPreferences.svg" width=16px> Preferences...}} option from the menu.
+1.  Select the **Edit → <img src="images/Std_DlgPreferences.svg" width=16px> Preferences...** option from the menu.
 
 ## Notes
 

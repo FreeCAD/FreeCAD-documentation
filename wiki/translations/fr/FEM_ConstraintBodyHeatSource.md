@@ -15,7 +15,7 @@ Définit une température interne en W/kg (et non en J/m³).
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> [Créer une contrainte FEM de type source de chaleur pour un corps](FEM_ConstraintBodyHeatSource/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Model → Thermal Constraints → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Contrainte source de chaleur pour le corps}} dans le menu.
+    -   Sélectionnez l\'option **Model → Thermal Constraints → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Contrainte source de chaleur pour le corps** dans le menu.
 2.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez les objets auxquels la contrainte doit être appliquée, qui peuvent être des sommets (coins), des arêtes ou des faces.
 3.  Saisissez une valeur de chaleur spécifique à appliquer aux objets.
 

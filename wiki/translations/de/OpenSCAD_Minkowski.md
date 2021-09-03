@@ -14,11 +14,11 @@
 
 Applies a Minkowski sum to selected shapes.
 
-### Mathematische Definition {#mathematische_definition}
+### Mathematische Definition 
 
 Add each element of subset A to each element of subset B to get Minkowski sum.
 
-### Geometrische Definition {#geometrische_definition}
+### Geometrische Definition 
 
 Sweep element A along all boundaries of element B. Resulting space which is occupied by both elements is Minkowski sum.
 

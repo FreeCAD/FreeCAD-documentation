@@ -25,7 +25,7 @@ download MacroOverlap.py and save it in macro directory:
 
 
 
-## How to use: {#how_to_use}
+## How to use: 
 
 1.  Select three\* or more shapes to compute overlap between. You can also select a single compound containing the argument shapes.
 2.  In FreeCAD menu: Macro → Macros\... → double-click MacroOverlap.py . A new object will be created.

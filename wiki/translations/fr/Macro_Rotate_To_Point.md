@@ -27,7 +27,7 @@ Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit:
 
 ![Interface Rotate to point ](images/Macro_Rotate_To_Point_00.png ) 
 
-### Point de rotation {#point_de_rotation}
+### Point de rotation 
 
 :\*Boundbox Center: Sélectionnez la rotation du centre BoundBox à l\'axe
 
@@ -39,14 +39,14 @@ Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit:
 
 ::\*2: utilisez la touche **CTRL** pour choisir un objet supplémentaire
 
-### Axe de rotation {#axe_de_rotation}
+### Axe de rotation 
 
 -   -   Rotation(Z) Yaw: axe de lacet
     -   Rotation(Y) Pitch: axe de tanguage
     -   Rotation(X) Roll: axe de roulis
     -   Rotation(D) Direction: rotation autour de la ligne, bord sélectionné
 
-### Coordonnées du point cliqué {#coordonnées_du_point_cliqué}
+### Coordonnées du point cliqué 
 
 -   -   DoubleSpinBox: Coordinate X au clic de la souris (modifiable uniquement avec le mode \"Point Clicked\")
     -   DoubleSpinBox: Coordinate Y au clic de la souris (modifiable uniquement avec le mode \"Point Clicked\")

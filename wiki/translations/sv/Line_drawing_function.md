@@ -55,7 +55,7 @@ class line:
 
 {{Top}}
 
-## Detaljerad förklaring {#detaljerad_förklaring}
+## Detaljerad förklaring 
 
 
 ```python
@@ -284,7 +284,7 @@ Eftersom vi är klara med vår linje, låt oss ta bort vår återanropsmekanism,
 
 <div class="mw-translate-fuzzy">
 
-## Testa & använda skriptet {#testa_använda_skriptet}
+## Testa & använda skriptet 
 
 Låt oss nu spara vårt skript på någon plats där FreeCAD\'s python tolk kommer att hitta den. När moduler importerass, så kommer tolken att leta på följande platser: python\'s installationssökväg, FreeCAD bin katalogen, och alla FreeCAD modulkataloger. Så, den bästa lösningen är att skapa en ny katalog i en av FreeCAD\'s [Mod kataloger](Installing_more_workbenches/sv.md), och spara vårt skript i den. Låt oss till exempel skapa en \"MinaSkript\" katalog, och spara vårt skript som \"ovning.py\".
 
@@ -353,7 +353,7 @@ Klicka sedan på två olika ställen i 3D vyn, och bingo, där är vår linje! F
 
 <div class="mw-translate-fuzzy">
 
-## Registrera skriptet i FreeCAD\'s gränssnitt {#registrera_skriptet_i_freecads_gränssnitt}
+## Registrera skriptet i FreeCAD\'s gränssnitt 
 
 För att vårt nya linjeverktyg ska bli ännu häftigare, så borde det ha en knapp i gränssnittet, så vi inte behöver skriva allt det varje gång. Den lättaste vägen är att omvandla vår nya MinaSkript katalog till en full FreeCAD arbetsbänk. Det är lätt, allt som behövs är att lägga in en fil som kallas **InitGui.py** inuti din MinaSkript katalog. InitGui.py kommer att innehålla instruktioner för att skapa en ny arbetsbänk, och addera vårt nya verktyg till den. Förutom det så behöver vi ändra vår övningskod lite, så att line() verktyget igenkänns som ett officiellt FreeCAD kommando. Låt oss starta genom att göra en InitGui.py fil, och skriva följande kod i den:
 
@@ -445,7 +445,7 @@ Klart, nu behöver vi bara starta om FreeCAD och vi kommer att ha en ny snygg ar
 
 {{Top}}
 
-## Så du vill ha mer? {#så_du_vill_ha_mer}
+## Så du vill ha mer? 
 
 
 <div class="mw-translate-fuzzy">

@@ -51,7 +51,7 @@ Cette macro peut faire pivoter l\'écran dans un angle et axe défini et crée u
 -   <img alt="" src=images/FCCamera_07.png  style="width:24px;"> **Reset.** : Reset toutes les valeurs.
 -   <img alt="" src=images/FCCamera_08.png  style="width:24px;"> **Quit.** : Quitte FCCamera.
 
-## Section Photo {#section_photo}
+## Section Photo 
 
 ![FCCamera](images/Macro_FCCamera_00b.png ) 
 
@@ -127,7 +127,7 @@ Téléchargez la macro sur Gist [**Macro FCCamera.FCMacro**](https://gist.github
 
 ## Exemples
 
-### Comment créer un forage dans un angle défini {#comment_créer_un_forage_dans_un_angle_défini}
+### Comment créer un forage dans un angle défini 
 
 
 <center>

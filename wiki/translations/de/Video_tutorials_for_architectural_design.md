@@ -6,7 +6,7 @@ Die hier aufgeführten Tutorien befassen sich mit der Gestaltung von Räumen, H�
 
 Besuche [Tutorien](tutorials/de.md) für schriftliche Tutorien von hoher Qualität. Eine vollständige, unsortierte Liste der Tutorials findest Du unter [:Category:Tutorials](:Category:Tutorials.md).
 
-## Architektonische Gestaltung {#architektonische_gestaltung}
+## Architektonische Gestaltung 
 
 Videos, die die Modellierung von Räumen, Häusern, Bürogebäuden und ähnlichen Strukturen und das Zeichnen von Grundrissen unter Verwendung von Arbeitsbereichen wie <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf](Draft_Workbench/de.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md), und <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/de.md) durchlaufen.
 

@@ -32,19 +32,19 @@ Al crear una cajera, el cuadro de diálogo **Parámetros de la cajera** ofrece c
 
 Introduzca un valor numérico para la profundidad de la cajera. La dirección por defecto de la extrusión es hacia el interior del soporte. Las extrusiones se producen [normal](http://en.wikipedia.org/wiki/Surface_normal) respecto al plano de croquis que las define. No son posibles las cotas negativas. Utilice la opción **Invertida** en su lugar.
 
-### Al principio {#al_principio}
+### Al principio 
 
 La cajera se extruirá hasta la primera cara del soporte en la dirección de extrusión. En otras palabras, cortará a través de todo el material hasta llegar a un espacio vacío.
 
-### Por todo {#por_todo}
+### Por todo 
 
 La cajera cortará todo el material en la dirección de extrusión. Con la opción **Simétrico al plano** la cajera cortará todo el material en ambas direcciones.**Nota:** Por razones técnicas, **por todo** es en realidad una cajera de 10 metros de profundidad. Si necesitas cajeras más profundos, utiliza *Dimensión*.
 
-### Hasta la cara {#hasta_la_cara}
+### Hasta la cara 
 
 La cajera se extruirá hasta una cara del soporte que se puede elegir haciendo clic sobre ella.
 
-### Dos dimensiones {#dos_dimensiones}
+### Dos dimensiones 
 
 Permite introducir una segunda longitud en la que la cajera debe extenderse en sentido contrario (hacia el interior del soporte). De nuevo se puede cambiar marcando la opción **Invertida**. {{VersionPlus/es|0.17}}
 
@@ -53,7 +53,7 @@ Permite introducir una segunda longitud en la que la cajera debe extenderse en s
 -   Utiliza el tipo **Dimensión** o **Por todo** si es posible porque los otros tipos a veces dan problemas cuando se crea un patrón con ellos
 -   En otros casos, la operación de cajera tiene las mismas [limitaciones](PartDesign_Pad/es#Limitaciones.md) que la operación de pastilla.
 
-## Enlaces útiles {#enlaces_útiles}
+## Enlaces útiles 
 
 Un [ejemplo](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=10) con la práctica en el foro.
 

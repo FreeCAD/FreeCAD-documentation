@@ -1,6 +1,6 @@
  FreeCAD suporta unele dispozitive specializate de intrare, precum mouse-uri 3D. Acestea permit utilizatorului sa roteasca, translateze si mareasca obiectele in trei dimensiuni.
 
-## Dispozitive Suportate {#dispozitive_suportate}
+## Dispozitive Suportate 
 
 
 <div class="mw-translate-fuzzy">

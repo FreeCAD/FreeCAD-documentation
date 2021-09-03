@@ -14,7 +14,7 @@
 
 Ova makronaredba će korisniku pružiti dijalog koji će pružiti udaljenost između centara, broj strana i visinu i stvorit će prizmu temeljenu na apothemu ili inradiusu poligona. To može biti vrlo zgodno kada se zna samo udaljenost između stanova. Primjer za to bi bila šesterokutna zaliha plastike ili metala koju pružaju dobavljači. Većina dobavljača takve dionice definiraju prema udaljenosti između stanova. Ako netko koristi takve zalihe u svojim projektima, ovaj makro može uštedjeti u stvarnom vremenu.
 
-## Kako koristiti {#kako_koristiti}
+## Kako koristiti 
 
 Kopirajte Makro u svoj FreeCAD Makro direktorij. Zatim pokrenite makronaredbu iz dijaloškog okvira Izvrši makronaredbu ili stvorite prečac za upotrebu s prilagođene alatne trake.
 

@@ -53,7 +53,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-## 探索 FreeCAD {#探索_freecad}
+## 探索 FreeCAD 
 
 
 </div>
@@ -166,7 +166,7 @@ FreeCAD有几种不同的[导航模式可用](Mouse_Model/zh-cn.md)，改变了�
 
 </div>
 
-## 与 FreeCAD 的第一步 {#与_freecad_的第一步}
+## 与 FreeCAD 的第一步 
 
 
 <div class="mw-translate-fuzzy">
@@ -192,7 +192,7 @@ FreeCAD的重点是允许您制作高精度3D模型，以便对这些模型进�
 
 </div>
 
-## 在零件设计工作台和构图工作台 中工作 {#在零件设计工作台和构图工作台_中工作}
+## 在零件设计工作台和构图工作台 中工作 
 
 
 <div class="mw-translate-fuzzy">

@@ -21,7 +21,7 @@ când pornește instrumentul, indicatorul mouse-ului se schimbă într-o cruce a
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

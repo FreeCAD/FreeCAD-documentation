@@ -64,7 +64,7 @@ Sélectionner l\'esquisse, presser le bouton **F2** et le renommer \"BaseSketch\
 
 [En haut](#top.md)
 
-### Décalage de l\'ancrage {#décalage_de_lancrage}
+### Décalage de l\'ancrage 
 
 Si nous laissons l\'esquisse où elle est, l\'exemple serait trop facile, alors changeons la position de l\'esquisse en modifiant le décalage de son ancrage.
 
@@ -92,7 +92,7 @@ Il devrait rester deux degrés de liberté, à savoir la position par rapport à
 
 [En haut](#top.md)
 
-### Changer l\'ancrage {#changer_lancrage}
+### Changer l\'ancrage 
 
 Fermez l\'esquisse. Renommez l\'esquisse en l\'appelant \'IsoscelesSketch\'. L\'origine de l\'esquisse est le point qui sera attaché dans le futur. Il est donc important de choisir comment l\'esquisse est contrainte à l\'origine. L\'origine peut être considérée comme un crochet qui s\'ancre à la référence. Nous pouvons ajuster la position de l\'esquisse à l\'aide de décalages, mais il est préférable de faire un choix judicieux dès le départ.
 
@@ -148,7 +148,7 @@ Vous pouvez maintenant découper l\'esquisse.
 
 [En haut](#top.md)
 
-### Un pas plus loin {#un_pas_plus_loin}
+### Un pas plus loin 
 
 Créez l\'esquisse suivante, les dimensions doivent être des expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") et elle doit être contrainte à l\'origine au sommet adjacent à l\'hypoténuse et son côté le plus court. (Dans l\'esquisse vide, si vous connaissez la **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Copie carbone](Sketcher_CarbonCopy/fr.md)**, vous pouvez l\'utiliser pour faire une copie de l\'esquisse \'IsoscelesSketch\' et modifiez ses paramètres en conséquence.)
 
@@ -184,7 +184,7 @@ Vous pouvez maintenant effectuer une opération de poche sur l\'esquisse. Cette 
 
 [En haut](#top.md)
 
-### Manipulation de l\'ancrage {#manipulation_de_lancrage}
+### Manipulation de l\'ancrage 
 
 En général il vaut mieux positionner nos esquisses simplement avec des modes d\'ancrage. Mais il n\'est pas toujours possible de positionner les esquisses exactement là où nous en avons besoin sans modifier le mode d\'ancrage d\'une manière ou d\'une autre.
 
@@ -230,7 +230,7 @@ Alors validons et fermons le dialogue pour l\'instant.
 
 [En haut](#top.md)
 
-### Paramètre Map Path {#paramètre_map_path}
+### Paramètre Map Path 
 
 Sélectionnez FinalSketch et regardez dans la vue combinée, le volet des propriétés dans la section attachment, juste en dessous de la propriété Map Mode se trouve le paramètre Map Path.
 
@@ -248,7 +248,7 @@ Vous pouvez maintenant effectuer une opération de poche sur l\'esquisse. N\'oub
 
 [En haut](#top.md)
 
-### Un mode de sélection différent {#un_mode_de_sélection_différent}
+### Un mode de sélection différent 
 
 Jusqu\'à présent, nous avons vu comment positionner des esquisses avec des modes d\'attachement et des décalages, mais nous aurions pu utiliser des plans standard car le positionnement relatif était assez simple.
 
@@ -276,7 +276,7 @@ Confirmez et fermez la boîte de dialogue. Nous pouvons maintenant utiliser le p
 
 [En haut](#top.md)
 
-### Ancrage temporaire à un plan généré {#ancrage_temporaire_à_un_plan_généré}
+### Ancrage temporaire à un plan généré 
 
 Parfois, il est difficile de déterminer comment aligner l\'esquisse ou le plan de référence sur la face générée sans réellement s\'y attacher, ce qui, comme indiqué ci-dessus, peut être problématique. Une solution consiste à attacher à la géométrie générée, puis à modifier l\'ancrage à l\'un des plans de coordonnées. FreeCAD conservera intactes la position et l\'orientation existantes mais la référencera désormais à des plans stables, évitant ainsi les problèmes de renommage topologique. Cependant, le coût de cette opération est que le lien paramétrique avec la géométrie générée est perdu. Si le modèle sous-jacent est modifié, tout ne s\'effondrera pas comme cela arrive souvent lors de l\'ancrage à la géométrie générée mais l\'ancrage ne suivra pas les changements et devra être ajusté en répétant l\'astuce d\'ancrage temporaire.
 

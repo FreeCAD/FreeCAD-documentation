@@ -14,8 +14,8 @@ The **View Measure Clear All** command clears the active [3D view](3D_view.md)\'
 ## Utilizzo
 
 1.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|View → Visibility → <img src="images/View_Measure_Clear_All.svg" width=16px> Clear measurement}} option from the menu.
-    -   Select the {{MenuCommand|Measure → <img src="images/View_Measure_Clear_All.svg" width=16px> Clear measurement}} option from the 3D view context menu.
+    -   Select the **View → Visibility → <img src="images/View_Measure_Clear_All.svg" width=16px> Clear measurement** option from the menu.
+    -   Select the **Measure → <img src="images/View_Measure_Clear_All.svg" width=16px> Clear measurement** option from the 3D view context menu.
 
 ## Note
 

@@ -2,9 +2,9 @@
 
 Questa pagina può essere utilizzata per provare a marcare una pagina del wiki prima di modificare effettivamente una pagina reale. Sentitevi liberi di fare quello che volete!
 
-## **FreeCAD Quick Reference Cards** {#freecad_quick_reference_cards}
+## **FreeCAD Quick Reference Cards** 
 
-### File Menu - Alt+F {#file_menu___altf}
+### File Menu - Alt+F 
 
   Command                           Icon                                               Shortcut      Command                                Icon                                               Shortcut          Command                                     Icon                                                                     Shortcut
   --------------------------------- -------------------------------------------------- ---------- -- -------------------------------------- -------------------------------------------------- -------------- -- ------------------------------------------- ------------------------------------------------------------------------ ----------
@@ -12,7 +12,7 @@ Questa pagina può essere utilizzata per provare a marcare una pagina del wiki p
   [Save](Std_Save.md)       <img alt="" src=images/Std_Save.svg  style="width:32px;">       Ctrl+S        [Save as\...](Std_SaveAs.md)   <img alt="" src=images/Std_SaveAs.svg  style="width:32px;">   Ctrl+Shift+S      [Import](Std_Import.md)             <img alt="" src=images/Std_Import.svg  style="width:32px;">                         Ctrl+I
   [Export](Std_Export.md)   <img alt="" src=images/Std_Export.svg  style="width:32px;">   Ctrl+E        [Print](Std_Print.md)          <img alt="" src=images/Std_Print.svg  style="width:32px;">     Ctrl+P            [Exit](Std_Exit.md)                 <img alt="" src=images/Std_Quit.svg  style="width:32px;">                             Alt+F4
 
-### Edit Menu - Alt+E {#edit_menu___alte}
+### Edit Menu - Alt+E 
 
   Command                                        Icon                                                           Shortcut      Command                                        Icon                                                               Shortcut                                   Command                                    Icon                                                     Shortcut
   ---------------------------------------------- -------------------------------------------------------------- ---------- -- ---------------------------------------------- ------------------------------------------------------------------ --------------------------------------- -- ------------------------------------------ -------------------------------------------------------- --------------
@@ -21,7 +21,7 @@ Questa pagina può essere utilizzata per provare a marcare una pagina del wiki p
   [Box Selection](Std_BoxSelection.md)   <img alt="" src=images/Std_BoxSelection.svg  style="width:32px;">   Ctrl+B        [Select All](Std_SelectAll.md)         <img alt="" src=images/Std_SelectAll.svg  style="width:32px;">                                                        [Delete](Std_Delete.md)            <img alt="" src=images/Std_Delete.svg  style="width:32px;">         Del
   [Toggle Edit Mode](Std_Edit.md)        <img alt="" src=images/Std_Edit.svg  style="width:32px;">                                 [Preferences](Std_DlgPreferences.md)   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;">                                              [What\'s This](Std_WhatsThis.md)   <img alt="" src=images/Std_WhatsThis.svg  style="width:32px;">   Shift+F4
 
-### View Menu - Alt+V {#view_menu___altv}
+### View Menu - Alt+V 
 
   Command                                                  Icon                                                       Shortcut   Sub      Command                                                Icon                                                           Shortcut   Sub      Command                                                Icon   Shortcut   Sub
   -------------------------------------------------------- ---------------------------------------------------------- ---------- ----- -- ------------------------------------------------------ -------------------------------------------------------------- ---------- ----- -- ------------------------------------------------------ ------ ---------- -------------------------------------------
@@ -30,32 +30,32 @@ Questa pagina può essere utilizzata per provare a marcare una pagina del wiki p
   Toggle navigation/edit mode                              Icon                                                       Esc                 [Appearance\...](Std_SetAppearance.md)         Icon                                                           Ctrl+D              Toolbars                                               Icon   Alt+B      
   [Views](Std_Views.md)                            Icon                                                       Alt+W                                                                                                                                                                                                                                  
 
-#### View -\> Standard Views {#view___standard_views}
+#### View -\> Standard Views 
 
   Command     Icon                                                              Shortcut      Command   Icon                                                        Shortcut      Command   Icon                                                         Shortcut      Command   Icon                                                      Shortcut
   ----------- ----------------------------------------------------------------- ---------- -- --------- ----------------------------------------------------------- ---------- -- --------- ------------------------------------------------------------ ---------- -- --------- --------------------------------------------------------- ----------
   Axometric   [32px\|text-top=isometric](Image:View-isometric.svg.md)   0             Front     [32px\|text-top=front](Image:View-front.svg.md)     1             Top       [32px\|text-top=top](Image:View-top.svg.md)          2             Right     [32px\|text-top=right](Image:View-right.svg.md)   3
   Rear        [32px\|text-top=rear](Image:View-rear.svg.md)             4             Bottom    [32px\|text-top=bottom](Image:View-bottom.svg.md)   5             Left      [32px\|text-top=View-left](Image:View-left.svg.md)   6                                                                                 
 
-#### View -\> Freeze display {#view___freeze_display}
+#### View -\> Freeze display 
 
   Command       Icon   Shortcut
   ------------- ------ ----------
   Freeze View          Shift+F
 
-#### View -\> Zoom {#view___zoom}
+#### View -\> Zoom 
 
   Command   Icon                                                                Shortcut      Command    Icon                                                              Shortcut      Command                                  Icon                                                                     Shortcut
   --------- ------------------------------------------------------------------- ---------- -- ---------- ----------------------------------------------------------------- ---------- -- ---------------------------------------- ------------------------------------------------------------------------ ----------
   Zoom In   [32px\|text-top=View-zoom-in](File:Std_ViewZoomIn.svg.md)   Ctrl++        Zoom Out   [32px\|text-top=zoom-out](Image:Std_ViewZoomOut.svg.md)   Ctrl+-        [Box zoom](Std_ViewBoxZoom.md)   [32px\|text-top=View-zoom-border](File:Std_ViewBoxZoom.svg.md)   Ctrl+B
 
-#### View -\> Document window {#view___document_window}
+#### View -\> Document window 
 
   Command                                             Icon   Shortcut      Command                                               Icon   Shortcut
   --------------------------------------------------- ------ ---------- -- ----------------------------------------------------- ------ ----------
   [Docked](Std_ViewDockUndockFullscreen.md)   icon   D             [Undocked](Std_ViewDockUndockFullscreen.md)   icon   U
 
-### Macro Menu - Alt+M {#macro_menu___altm}
+### Macro Menu - Alt+M 
 
   Command                                            Icon                                                                 Shortcut      Command                                                  Icon                                                                 Shortcut      Command                                           Icon                                                                 Shortcut
   -------------------------------------------------- -------------------------------------------------------------------- ---------- -- -------------------------------------------------------- -------------------------------------------------------------------- ---------- -- ------------------------------------------------- -------------------------------------------------------------------- ----------
@@ -63,14 +63,14 @@ Questa pagina può essere utilizzata per provare a marcare una pagina del wiki p
   [Debug macro](Std_MacroStartDebug.md)      <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;">   F6            [Stop debugging](Std_MacroStopDebug.md)          <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;">     Shift+F6      [Step over](Std_MacroStepOver.md)                                                                              F10
   [Step into](Std_MacroStepInto.md)                                                                               F11           [Toggle breakpoint](Std_ToggleBreakpoint.md)                                                                          F9                                                                                                                                   
 
-### Windows Menu - Alt+W {#windows_menu___altw}
+### Windows Menu - Alt+W 
 
   Command         Icon                                                       Shortcut      Command    Icon                                                       Shortcut      Command   Icon                                                             Shortcut      Command   Icon                                                             Shortcut
   --------------- ---------------------------------------------------------- ---------- -- ---------- ---------------------------------------------------------- ---------- -- --------- ---------------------------------------------------------------- ---------- -- --------- ---------------------------------------------------------------- ----------
   Next            <img alt="" src=images/Std_WindowNext.svg  style="width:32px;">   Alt+X         Previous   <img alt="" src=images/Std_WindowPrev.svg  style="width:32px;">   Alt+V         Tile      <img alt="" src=images/Std_WindowTileVer.svg  style="width:32px;">   Alt+T         Cascade   <img alt="" src=images/Std_WindowCascade.svg  style="width:32px;">   Alt+C
   Arrange Icons                                                              Alt+I         Windows                                                               Alt+W                                                                                                                                                                             
 
-### Arch Menu - Alt+A {#arch_menu___alta}
+### Arch Menu - Alt+A 
 
   Command                                Icon                                                     Shortcut      Command                                         Icon                                                             Shortcut      Command                            Icon                                                 Shortcut      Command                            Icon                                                 Shortcut
   -------------------------------------- -------------------------------------------------------- ---------- -- ----------------------------------------------- ---------------------------------------------------------------- ---------- -- ---------------------------------- ---------------------------------------------------- ---------- -- ---------------------------------- ---------------------------------------------------- ----------

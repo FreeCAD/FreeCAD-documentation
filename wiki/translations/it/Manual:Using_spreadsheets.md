@@ -18,7 +18,7 @@ In FreeCAD, però, fogli di calcolo hanno un\'utilità aggiuntiva: le loro celle
 
 Nel seguente esempio, creeremo un paio di oggetti, recupereremo alcune delle loro proprietà in un foglio di calcolo, e quindi utilizzeremo il foglio di calcolo per guidare direttamente le proprietà di altri oggetti.
 
-### Leggere le proprietà {#leggere_le_proprietà}
+### Leggere le proprietà 
 
 
 <div class="mw-translate-fuzzy">
@@ -55,7 +55,7 @@ In FreeCAD, oltre a queste funzionalità comuni, ce n\'è una nuova interessante
 
 Nella pagina [L\'ambiente foglio di calcolo](Spreadsheet_Workbench/it.md) sono descritte più in dettaglio tutte le possibili operazioni e le funzioni disponibili nei fogli di calcolo.
 
-### Scrivere le proprietà {#scrivere_le_proprietà}
+### Scrivere le proprietà 
 
 Un altro uso molto interessante del foglio di calcolo in FreeCAD è quello di fare il contrario di quello che abbiamo fatto fino ad ora: invece di leggere i valori delle proprietà degli oggetti 3D, possiamo anche assegnare i valori a questi oggetti. Ricordate, però, una delle regole fondamentali di FreeCAD: le dipendenze circolari sono vietate. Pertanto, non possiamo usare lo stesso foglio per leggere **e** scrivere i valori di un oggetto 3D. Ciò renderebbe l\'oggetto dipendente dal foglio di calcolo, che a sua volta sarebbe dipendente dall\'oggetto. Creiamo invece un altro foglio di calcolo.
 

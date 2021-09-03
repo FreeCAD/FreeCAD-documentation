@@ -75,7 +75,7 @@ Instrumente pentru crearea și manipularea traiectoriilor. Există două tipuri,
 
 <div class="mw-translate-fuzzy">
 
-#### Traiectoriile Non Parametrice {#traiectoriile_non_parametrice}
+#### Traiectoriile Non Parametrice 
 
 -   <img alt="" src=images/Robot_CreateTrajectory.png  style="width:30px;"> [Creați o traiectorie](Robot_CreateTrajectory.md): Introduceți o traiectorie goală în scenă
 -   <img alt="" src=images/Robot_SetDefaultOrientation.png  style="width:30px;"> [Stabiliți orientarea implicită](Robot_SetDefaultOrientation.md): Definiți orientarea implicită a punctelor de trecere
@@ -89,7 +89,7 @@ Instrumente pentru crearea și manipularea traiectoriilor. Există două tipuri,
 
 <div class="mw-translate-fuzzy">
 
-#### Traiectorii Parametrice {#traiectorii_parametrice}
+#### Traiectorii Parametrice 
 
 -   <img alt="" src=images/Robot_Edge2Trac.png  style="width:30px;"> [Generează o traiectorie dintr-un set de muchii](Robot_Edge2Trac.md): Include un obiect nou ale cărui muchii vor forma o traiectorie
 -   <img alt="" src=images/Robot_TrajectoryDressUp.png  style="width:30px;"> [Traiectorie suplimentară(Dress-up)](Robot_TrajectoryDressUp.md): Creați o traiectorie suplimentară care va suprascrie anumite proprietăți ale traiectoriei inițiale

@@ -27,7 +27,7 @@ Um eine rechtwinklige Beschränkung anzuwenden, sollte man die folgenden Schritt
 -   Wähle zwei oder drei Elemente in der Skizze aus.
 -   Rufe die Beschränkung auf, durch anklicken des Symbols in der Werkzeugleiste, durch Auswahl des Menüelements oder durch Verwendung eines Tastaturkürzels.
 
-### Zwischen zwei Kurven (direkte Rechtwinkligkeit) {#zwischen_zwei_kurven_direkte_rechtwinkligkeit}
+### Zwischen zwei Kurven (direkte Rechtwinkligkeit) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:600px;">
 
@@ -42,7 +42,7 @@ Wenn die direkte Rechtwinkligkeit zwischen ausgewählten Kurven nicht unterstüt
 
 Anders als bei der Tangentialität ist es vollkommen in Ordnung, den Rechtwinkligkeitspunkt zu rekonstruieren, indem man einen Punkt erzeugt und ihn darauf beschränkt, auf beiden Kurven zu liegen (und damit den Punkt auf den Schnittpunkt beschränkt).
 
-### Zwischen zwei Endpunkten (Punkt-zu-Punkt Rechtwinkligkeit) {#zwischen_zwei_endpunkten_punkt_zu_punkt_rechtwinkligkeit}
+### Zwischen zwei Endpunkten (Punkt-zu-Punkt Rechtwinkligkeit) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
 
@@ -52,7 +52,7 @@ In diesem Modus werden die Endpunkte deckungsgleich gemacht, und die Verbindung 
 
 -   Endpunkt der Linie/des Bogens/Ellipsenbogens + Endpunkt der Linie/des Bogens/Ellipsenbogens (d.h. zwei Endpunkte von zwei beliebigen Kurven)
 
-### Zwischen Kurve und Endpunkt (Punkt-zu-Kurve Rechtwinkligkeit) {#zwischen_kurve_und_endpunkt_punkt_zu_kurve_rechtwinkligkeit}
+### Zwischen Kurve und Endpunkt (Punkt-zu-Kurve Rechtwinkligkeit) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
 
@@ -62,7 +62,7 @@ In diesem Modus wird ein Endpunkt einer Kurve beschränkt, so dass er auf der an
 
 -   Linie, Kreis, Kreisbogen, Ellipsenbogen + Endpunkt einer Linie / eines Kreises / eines Kreisbogens / eines Ellipsenbogens (im Allgemeinen jede Kurve + der Endpunkt irgend einer anderen Kurve)
 
-### Zwischen zwei Kurven am Punkt (Rechtwinklig-Durch-Punkt) (v0.15) {#zwischen_zwei_kurven_am_punkt_rechtwinklig_durch_punkt_v0.15}
+### Zwischen zwei Kurven am Punkt (Rechtwinklig-Durch-Punkt) (v0.15) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:600px;">
 

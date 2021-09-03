@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -9,17 +9,17 @@
 
 {{TOCright}}
 
-Les préférences de l\'[Atelier Draft](Draft_Workbench/fr.md) se trouvent dans [Réglage des préférences](Preferences_Editor/fr.md), dans le menu {{MenuCommand|Édition → Préférences → Draft}}.
+Les préférences de l\'[Atelier Draft](Draft_Workbench/fr.md) se trouvent dans [Réglage des préférences](Preferences_Editor/fr.md), dans le menu **Édition → Préférences → Draft**.
 
 Il y a quatre onglets : Paramètres généraux, Grille et capture, Paramètres visuels et Textes et dimensions.
 
-## Préférences générales {#préférences_générales}
+## Préférences générales 
 
 Les paramètres généraux vous permettent de définir certaines propriétés de base comme le [Plan de travail Draft](Draft_SelectPlane/fr.md), le nom et la couleur du [Mode de construction Draft](Draft_ToggleConstructionMode/fr.md), un préfixe à utiliser pour le [Clone Draft](Draft_Clone/fr.md) et la précision interne des calculs.
 
 ![](images/Preference_Draft_Tab_01.png )
 
-## Grille et accrochage {#grille_et_accrochage}
+## Grille et accrochage 
 
 Grille et accrochage vous permettent de définir les propriétés de **<img src="images/Draft_ToggleGrid.svg" width=16px> [affichage de la grille](Draft_ToggleGrid/fr.md)** qui peuvent être utilisées avec les méthodes d\'[Accrochage](Draft_Snap/fr.md).
 
@@ -40,7 +40,7 @@ Vous pouvez spécifier l\'espace entre chaque ligne de la grille, entre chaque l
 
 <div class="mw-translate-fuzzy">
 
-## Paramètres visuels {#paramètres_visuels}
+## Paramètres visuels 
 
 
 </div>
@@ -49,7 +49,7 @@ Les paramètres visuels vous permettent de spécifier la couleur et la largeur d
 
 ![](images/Preference_Draft_Tab_03.png )
 
-## Textes et dimensions {#textes_et_dimensions}
+## Textes et dimensions 
 
 Les textes et les dimensions vous permettent de définir les propriétés par défaut des outils [Texte Draft](Draft_Text/fr.md), [Cote Draft](Draft_Dimension/fr.md) et [Formes à partir texte Draft](Draft_ShapeString/fr.md) y compris la police et la taille par défaut, ainsi que le style et la taille des lignes de cote. Ces propriétés peuvent également être modifiées dans les objets texte eux-mêmes.
 

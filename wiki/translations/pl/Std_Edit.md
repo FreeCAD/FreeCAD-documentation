@@ -13,7 +13,7 @@ Polecenie **Std: Edycja** aktywuje lub dezaktywuje tryb edycji obiektu.
 ## Użycie
 
 1.  Jeśli żaden obiekt nie znajduje się w trybie edycji: wybierz pojedynczy obiekt.
-2.  Wybierz z menu {{MenuCommand|Edycja → <img src="images/Std_Edit.svg" width=16px> Przełącz tryb edycji}}.
+2.  Wybierz z menu **Edycja → <img src="images/Std_Edit.svg" width=16px> Przełącz tryb edycji**.
 3.  Aktywowany jest tryb edycji wybranego obiektu lub dezaktywowany dotychczasowy tryb edycji.
 
 ## Uwagi
@@ -23,7 +23,7 @@ Polecenie **Std: Edycja** aktywuje lub dezaktywuje tryb edycji obiektu.
 -   Funkcjonalność dostępna w trybie edycji zależy od typu obiektu.
 -   Tryb edycji można uruchomić również poprzez dwukrotne kliknięcie obiektu w [Widoku drzewa](Tree_view/pl.md).
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Zobacz również:**

@@ -6,7 +6,7 @@ This page explains the way the <img alt="" src=images/Workbench_PartDesign.svg  
 
 While the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) and other workbenches construct models by combining shapes together (see [Constructive solid geometry](Constructive_solid_geometry.md)), the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) workbench uses **[features](PartDesign_Feature.md)**. A [feature](https://en.wikipedia.org/wiki/Feature_recognition) is an operation that modifies the shape of a model.
 
-## Feature editing methodology {#feature_editing_methodology}
+## Feature editing methodology 
 
 The first feature is commonly called the **base feature**. As more features are added to the model, each feature takes the shape of the previous one and adds or removes matter, creating linear dependencies from one feature to the next. In effect, this methodology mimics a common manufacturing process: a block is cut on one side, then on another side, holes are added, then rounds, etc.
 
@@ -42,21 +42,21 @@ Only one body can be active in a document. The active body gets the new created 
 
 When a model requires multiple bodies, like the previous wooden chair example, the general purpose <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Part container](Std_Part.md) can be used to group them and move the whole as a unit.
 
-### Body visibility management {#body_visibility_management}
+### Body visibility management 
 
 A body will present by default its most recent feature to the outside. This feature is defined by default as the tip. A good analogy is the expression *the tip of the iceberg*: only the tip is visible above the water, most of the iceberg\'s mass (the other features) is hidden. As a new feature is added to the body, visibility of the previous feature is turned off, and the new feature becomes the tip.
 
 There can only be one feature visible at a time. It is possible to [toggle the visibility](Std_ToggleVisibility.md) of any feature in the body, by selecting it in the Model tree and pressing the **Spacebar**, in effect going back in the history of the body.
 
-### Početna točka tijela {#početna_točka_tijela}
+### Početna točka tijela 
 
 The body has an Origin which consists of reference planes (XY, XZ, YZ) and axes (X, Y, Z) that can be used by sketches and features. Sketches can be attached to Origin planes, and they no longer need to be mapped to planar faces for features based on them to be added or subtracted from the model.
 
-### Pomjeri i posloži objekte {#pomjeri_i_posloži_objekte}
+### Pomjeri i posloži objekte 
 
 It is possible to temporarily redefine the tip to a feature in the middle of the Body tree to insert new objects (features, sketches or datum geometry). It is also possible to reorder features under a Body, or to move them to a different Body. Select the object and right-click to get a contextual menu that will offer both options. The operation may be prevented if the object has dependencies in the source Body, such as being attached to a face. To move a sketch to another Body, it should not contain links to external geometry.
 
-### Difference with other CAD systems {#difference_with_other_cad_systems}
+### Difference with other CAD systems 
 
 A fundamental difference between FreeCAD and other programs, like Catia, is that FreeCAD doesn\'t allow you to have many disconnected solids in the same <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> **[PartDesign Body](PartDesign_Body.md)**. That is, a new feature should always be built on top of the previous one. Or said in a different way, the newer feature should \"touch\" the previous feature, so that both features are fused together and become a single solid. You cannot have \"floating\" solids.
 
@@ -65,7 +65,7 @@ A fundamental difference between FreeCAD and other programs, like Catia, is that
 
 *Difference between Catia and FreeCAD. Left: Catia allows disconnected bodies from the previous features of the body. In FreeCAD this causes an error; Right: the newer feature should always contact or intersect the previous feature so that it is fused to it, and becomes a single contiguous solid.*
 
-## Datum geometry {#datum_geometry}
+## Datum geometry 
 
 Datum geometry consists of custom planes, lines, points or externally linked shapes. They can be created for use as reference by sketches and features. There is a multitude of attachment possibilities for datum objects.
 
@@ -86,7 +86,7 @@ Even if not used for supporting sketches, datum objects are still helpful as vis
 
 *Difference between Catia and FreeCAD. Left: Catia allows disconnected bodies from the previous features of the body. In FreeCAD this causes an error; Right: the newer feature should always contact or intersect the previous feature, so that it is fused to it, and becomes a single contiguous solid. In this example, the new solid is based on a datum plane that is rotated around the Y axis.*
 
-## Cross-referencing {#cross_referencing}
+## Cross-referencing 
 
 It is possible to cross-reference elements from a body in another body via datums. For example the datum shape binder allows to copy over faces from a body as reference in another one. This should make it easy to build a box with fitting cover in two different bodies. FreeCAD helps you to avoid accidentally linking to other bodies by asking for confirmation of your intent.
 
@@ -96,7 +96,7 @@ Object attachment is not a specific PartDesign tool, but rather a Part utility i
 
 More info can be found in the [Attachment](Part_Attachment.md) page and the [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md).
 
-## Advice for creating stable models {#advice_for_creating_stable_models}
+## Advice for creating stable models 
 
 The idea of parametric modeling implies that you can change the values of certain parameters and subsequent steps are changed according to the new values. However, when severe changes are made, the model can break due to the [topological naming problem](topological_naming_problem.md) that is still unresolved in FreeCAD. Breakage can be minimized when you respect the following design principles:
 
@@ -119,23 +119,23 @@ The idea of parametric modeling implies that you can change the values of certai
 -   Use *dress ups*, like fillets and chamfers, as late in the feature tree as possible
 -   Note, using spreadsheets, dynamic data, master sketches, etc. generally produce more parametric models and help avoid the topological naming issue.
 
-## Body building workflow {#body_building_workflow}
+## Body building workflow 
 
 There are several workflows that are possible with the [PartDesign Workbench](PartDesign_Workbench.md). What should always be noticed is that all the features created inside a [PartDesign Body](PartDesign_Body.md) will be fused together to obtain the final object.
 
-### Different sketches {#different_sketches}
+### Different sketches 
 
 Sketches need to be supported by a plane. This plane can be one of the main planes (XY, XZ, or YZ) defined by the Origin of the Body. A sketch is either extruded into a positive solid (additive), with a tool like <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Pad](PartDesign_Pad.md), or into a negative solid (subtractive), with a tool like <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Pocket](PartDesign_Pocket.md). The first adds volume to the final shape of the body, while the latter cuts volume from the final shape. Any number of sketches and partial solids can be created in this way; the final shape (tip) is the result of fusing these operations together. Naturally, the Body can\'t consist of only subtractive operations, as the final shape should be a solid with a positive, non-zero volume.
 
 <img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
-### Sequential features {#sequential_features}
+### Sequential features 
 
 Sketches can be supported by the faces of previous solid operations. This may be necessary if you need to access a face that is only available after a certain feature has been created. However, this workflow isn\'t recommended since, if the original feature is modified, the following features in the sequence may break. This is the [topological naming problem](topological_naming_problem.md).
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 
-### Use of datum planes for support {#use_of_datum_planes_for_support}
+### Use of datum planes for support 
 
 Datum planes are useful to support the sketches. These auxiliary planes should be attached to the base planes of the body.
 

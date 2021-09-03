@@ -17,12 +17,12 @@ La commande **Mesh Suppression manuelle de composants** supprime des composants 
 2.  La commande utilise la couleur rouge pour marquer les composants sélectionnés. Pour les voir correctement:
     -   Le {{PropertyView/fr|Display Mode}} des objets maillés doit montrer des faces. Si nécessaire, utilisez la commande [Std Style de représentation](Std_DrawStyle/fr.md) pour remplacer cette propriété.
     -   La {{PropertyView/fr|Shape Color}} des objets maillés ne doit pas être rouge.
-3.  Sélectionnez l\'option {{MenuCommand|Maillages → <img src="images/Mesh_RemoveCompByHand.svg" width=16px> Supprimer manuellement des composants... }} dans le menu.
+3.  Sélectionnez l\'option **Maillages → <img src="images/Mesh_RemoveCompByHand.svg" width=16px> Supprimer manuellement des composants... ** dans le menu.
 4.  Le curseur se transforme en icône de main.
 5.  Sélectionnez les composants que vous souhaitez supprimer dans la [vue 3D](3D_view/fr.md).
-6.  Sélectionnez éventuellement {{MenuCommand|Effacer les faces sélectionnées}} dans le menu contextuel de la vue 3D pour désélectionner tous les composants.
-7.  Sélectionnez {{MenuCommand|Supprimer les faces sélectionnées}} dans le menu contextuel de la vue 3D pour supprimer les composants sélectionnés.
-8.  Sélectionnez {{MenuCommand|Quitter le mode de suppression}} dans le menu contextuel de la vue 3D pour terminer la commande.
+6.  Sélectionnez éventuellement **Effacer les faces sélectionnées** dans le menu contextuel de la vue 3D pour désélectionner tous les composants.
+7.  Sélectionnez **Supprimer les faces sélectionnées** dans le menu contextuel de la vue 3D pour supprimer les composants sélectionnés.
+8.  Sélectionnez **Quitter le mode de suppression** dans le menu contextuel de la vue 3D pour terminer la commande.
 
 
 

@@ -26,7 +26,7 @@ Pour installer ce Macro, mettez le code dans votre dossier a Macro et lancez le 
 
 Cliquez le bouton associé dans votre barre à outils ou exécuter le a partir de votre liste des Macros. Les fenêtres complémentaire de Python console, Report view et Combo view vont changer leur état de visible a caché ou inversement.
 
-## Interface Utilisateur {#interface_utilisateur}
+## Interface Utilisateur 
 
 Sur lancement du macro (par bouton ou a partir du liste des macros) les fenêtres complémentaire vont apparaître ou disparaître.
 

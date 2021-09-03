@@ -24,19 +24,19 @@ Bu araç seçili nesnelere geçerli çizgi ve yüz rengini ve çizgi stilini uyg
 
 This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
 
--    {{MenuCommand|Line color}}
+-    **Line color**
     
 
--    {{MenuCommand|Line width}}
+-    **Line width**
     
 
--    {{MenuCommand|Shape color}}
+-    **Shape color**
     
 
--    {{MenuCommand|Text size}}
+-    **Text size**
     
 
--    {{MenuCommand|Text color}}
+-    **Text color**
     
 
 ## Usage
@@ -44,14 +44,14 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 1.  İstediğiniz çizgi ve yüz renklerini ve çizgi genişliğini [Tepsi](Draft_Tray/tr.md) \'de ayarlayın
 
 2.  Bir veya birkaç nesne seçin.
 
 3.  
-    **<img src="images/Draft_Apply.svg" width=16px> [Stili uygula](Draft_Apply/tr.md)**veya sağ tıklayın ve {{MenuCommand|Araçlar → <img src="images/Draft_Apply.svg" width=16px> [Stili uygula](Draft_Apply/tr.md)}}yı seçin.
+    **<img src="images/Draft_Apply.svg" width=16px> [Stili uygula](Draft_Apply/tr.md)**veya sağ tıklayın ve **Araçlar → <img src="images/Draft_Apply.svg" width=16px> [Stili uygula](Draft_Apply/tr.md)**yı seçin.
 
 
 </div>

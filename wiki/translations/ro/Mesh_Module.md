@@ -49,7 +49,7 @@ Cu toate acestea, în domeniul rețelelor de inginerie există o mare limitare: 
 
 <div class="mw-translate-fuzzy">
 
-Modulul de plase are în prezent o interfață foarte simplă, toate funcțiile sale fiind grupate în intrarea din meniul {{MenuCommand|Mesh}}
+Modulul de plase are în prezent o interfață foarte simplă, toate funcțiile sale fiind grupate în intrarea din meniul **Mesh**
 
 
 </div>

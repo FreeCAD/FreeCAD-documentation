@@ -103,7 +103,7 @@ L\'ambiente Sketcher contiene gli strumenti per costruire e modificare gli ogget
 
 </div>
 
-### Part Design {#part_design}
+### Part Design 
 
 L\'ambiente Part Design contiene strumenti avanzati per costruire parti solide. Esso contiene inoltre tutti gli strumenti di Sketcher. Dato che può produrre solo forme solide (la regola numero uno di Parte Design), è il principale ambiente da utilizzare nella progettazione di pezzi (parti) da produrre come manufatti o stampare in 3D, poiché si ottengono sempre oggetti stampabili.
 
@@ -167,7 +167,7 @@ The Drawing Workbench handles the creation and manipulation of 2D drawing sheets
   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> [Simbolo](Drawing_Symbol/it.md)                          Aggiunge il contenuto di un file SVG come un simbolo sul foglio di disegno corrente   <img alt="" src=images/Drawing_DraftView.png  style="width:32px;"> [Vista di Draft](Drawing_DraftView/it.md)        Inserisce nel foglio di disegno corrente una speciale Vista di Draft dell\'oggetto selezionato
   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Salva](Drawing_Save/it.md)                                  Salva il foglio corrente in un file in formato SVG                                                                                                                                                                
 
-### Altri ambienti incorporati {#altri_ambienti_incorporati}
+### Altri ambienti incorporati 
 
 Quanto sopra riassume i più importanti strumenti di FreeCAD, ma sono disponibili molti altri ambienti di lavoro, tra i quali:
 
@@ -182,7 +182,7 @@ Quanto sopra riassume i più importanti strumenti di FreeCAD, ma sono disponibil
 
 </div>
 
-### Ambienti esterni {#ambienti_esterni}
+### Ambienti esterni 
 
 Esistono anche numerosi altri ambienti molto utili, prodotti dai membri della comunità FreeCAD. Anche se non sono inclusi in una installazione standard di FreeCAD, sono facili da installare come plug-in. Essi sono tutti referenziati nel repositorio [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons). Tra i più sviluppati ci sono:
 

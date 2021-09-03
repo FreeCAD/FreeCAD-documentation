@@ -55,7 +55,7 @@ See [FreeCAD palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpo
   How do I use the FreeCAD palette?                        Installing [the palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) is as easy as [copying it into your Inkscape palette folder](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
   -------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Grid and stroke width {#grid_and_stroke_width}
+## Grid and stroke width 
 
 
 **Obligatory**
@@ -74,7 +74,7 @@ Strokes should be no *thinner* than 2px, with rounded caps and corners in most c
 
   ------------------------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Why use this grid and stroke size?   For historical reasons, FreeCAD uses a 64x64 icon that then gets scaled down. Not ideal, but it adds character. As a result, keeping things aligned to a power of two grid with thicknesses that are powers of two helps to avoid or at least mitigate anti-aliasing issues upon re-scaling.
-  How do I comply with this?           If you are using Inkscape, go to {{MenuCommand|File → Document Properties}} and confirm the width, height and units of your page are correct. Then go to the {{MenuCommand|Grids}} tab, click **New**, set the units to `px`, `Spacing X` and `Spacing Y` to 1 and `Major grid line every` to 2.
+  How do I comply with this?           If you are using Inkscape, go to **File → Document Properties** and confirm the width, height and units of your page are correct. Then go to the **Grids** tab, click **New**, set the units to `px`, `Spacing X` and `Spacing Y` to 1 and `Major grid line every` to 2.
   ------------------------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Outline
@@ -122,23 +122,23 @@ As per Tango guidelines, if you\'re adding a gradient lighting effect, try to ma
   How do I comply with this?              Set the fill to be a linear or a radial gradient. In Inkscape this is available in the stroke and fill settings; with \"F2\" it is possible to move the nodes of the gradient around to make sure they are at the right angle.
   --------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Recommended recording format {#recommended_recording_format}
+## Recommended recording format 
 
 All icons should be created in [SVG](SVG.md) format with a vector image application, such as [Inkscape](http://inkscape.org). This makes it easier to apply changes and derive additional icons in the same application space.
 
 When committing icons to be used directly by FreeCAD (in a \*.qrc file), save them as \"Plain SVG\". This will reduce the icon size and save the disk and memory space.
 
-## Closing remarks {#closing_remarks}
+## Closing remarks 
 
 Remember: **SALCHO**, Stroke, Alignment, Lighting, Color, Highlight, Outline
 
 Here are some tips to check your work.
 
-### Checking size {#checking_size}
+### Checking size 
 
-Inkscape has a handy tool to check your icon at various sizes. Go to {{MenuCommand|View → Icon Preview...}} and it\'ll show you previews of your icon resized to 16, 24, 32 and 64 pixels.
+Inkscape has a handy tool to check your icon at various sizes. Go to **View → Icon Preview...** and it\'ll show you previews of your icon resized to 16, 24, 32 and 64 pixels.
 
-### Checking your outline {#checking_your_outline}
+### Checking your outline 
 
 1.  Put your icon on a big rectangle that is the same color as the darkest color in your icon.
 2.  Still looks OK? Great. Go to the next step. If not, adjust the highlight.
@@ -152,11 +152,11 @@ Inkscape has a handy tool to check your icon at various sizes. Go to {{MenuComma
   My icon is barely visible.   You have poor form contrast. Double check the outline and highlight, one of these is probably missing or improperly applied.
   ---------------------------- ------------------------------------------------------------------------------------------------------------------------------
 
-### Checking your contrast {#checking_your_contrast}
+### Checking your contrast 
 
 1.  Export your icon from SVG to a bitmap format, like `.png` or `.jpg`.
-2.  Load your bitmap in an image program, and change it to grayscale. For example, in GIMP you would go to {{MenuCommand|Image → Mode → Grayscale}}.
-3.  Inkscape allows you to convert the SVG directly to grayscale using {{MenuCommand|Extensions → Color → Grayscale}}.
+2.  Load your bitmap in an image program, and change it to grayscale. For example, in GIMP you would go to **Image → Mode → Grayscale**.
+3.  Inkscape allows you to convert the SVG directly to grayscale using **Extensions → Color → Grayscale**.
 4.  Can you still clearly make out any internal details? Great. The contrast is good.
 
 A grayscale image allows you to more easily identify problems in contrast, as only a mix of black and white is present. Testing grayscale images is also good for colorblind users. If they can see the details in a grayscale image, then the contrast of the fully colored image is probably good as well.

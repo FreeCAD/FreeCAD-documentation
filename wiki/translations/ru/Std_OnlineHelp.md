@@ -11,10 +11,10 @@ The **Std OnlineHelp** command opens the help documentation. To open the documen
 ## Применение
 
 1.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|Help → <img src="images/Std_OnlineHelp.svg" width=16px> Help}} option from the menu.
+    -   Select the **Help → <img src="images/Std_OnlineHelp.svg" width=16px> Help** option from the menu.
     -   Use the keyboard shortcut: **F1**.
 2.  The help documentation opens in a new window.
-3.  Topics can be selected from the {{MenuCommand|Contents}} tab or searched from the {{MenuCommand|Index}} tab.
+3.  Topics can be selected from the **Contents** tab or searched from the **Index** tab.
 
 ## Примечания
 

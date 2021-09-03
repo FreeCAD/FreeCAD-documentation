@@ -28,7 +28,7 @@ Pipeline is a result object, which creates a new graphical representation of FEM
 
 :\* Vector: If a property is a vector, you might restrict the data to an axis (X, Y, Z) or select Magnitude to use the vector value.
 
--   If you see no model in the graphical area, go to and enable {{MenuCommand|Edit → Preferences → Display → Rendering → Backlight color}}
+-   If you see no model in the graphical area, go to and enable **Edit → Preferences → Display → Rendering → Backlight color**
 -   If you double-click the scale, you can modify display properties.
 
 ![](images/SIMTUT_05.PNG )

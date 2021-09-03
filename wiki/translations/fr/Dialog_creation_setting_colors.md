@@ -6,7 +6,7 @@ Exemple de [création de boîte de dialogue](Dialog_creation/fr.md) avec [PySide
 
 Dans cet exemple, l\'interface entière est définie en [Python](Python/fr.md). Bien que cela soit possible pour les petites interfaces, pour les interfaces plus importantes, la recommandation est de charger les fichiers {{FileName|.ui}} créés directement dans le programme. Voir [Création d\'une interface avec des fichiers UI](Interface_creation_with_UI_files/fr.md) pour plus d\'informations.
 
-## Utilisez QColorDialog pour obtenir une couleur {#utilisez_qcolordialog_pour_obtenir_une_couleur}
+## Utilisez QColorDialog pour obtenir une couleur 
 
 Code complet: 
 ```python
@@ -32,7 +32,7 @@ if couleur.isValid():
 
 ```
 
-## Utilisez QColorDialog pour créer une palette de couleurs (standard et personnalisée) {#utilisez_qcolordialog_pour_créer_une_palette_de_couleurs_standard_et_personnalisée}
+## Utilisez QColorDialog pour créer une palette de couleurs (standard et personnalisée) 
 
 Cet exemple modifie la couleur standard et la couleur personnalisée avec le guide Tango FreeCAD.
 

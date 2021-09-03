@@ -14,7 +14,7 @@ FreeCAD ist außerdem vollständig [plattformunabhängig](http://de.wikipedia.or
 
 Weitere Informationen zu den Möglichkeiten von FreeCAD finden Sie auf unserer [Funktionsübersicht](Feature_list/de.md)-Seite, den [Versionshinweisen](Feature_list#Release_notes.md) oder der [Erste Schritte](Getting_started/de.md)-Seite oder gehen Sie direkt auf die Seite [Hinweise für Einsteiger](User_hub/de.md) oder schauen Sie sich die [Bildschirmfotos](screenshots/de.md) an.
 
-### Über das Projekt FreeCAD {#über_das_projekt_freecad}
+### Über das Projekt FreeCAD 
 
 Das Projekt FreeCAD wurde 2001 begonnen, dies ist auf der Seite [Geschichte](history/de.md) nachzulesen.
 

@@ -21,7 +21,7 @@ Acesta este proiectul de dezvoltare Freetad Raytracing. Aceasta respectă reguli
 
 <div class="mw-translate-fuzzy">
 
-## Scop și principii {#scop_și_principii}
+## Scop și principii 
 
 Acest proiect vizează actualizarea modulului actual de redare [ Raytracing](Raytracing_Workbench.md) care utilizează în prezent funcția rendray, care oferă rezultate satisfăcătoare și care permite utilizarea mai multor modemuri de redare moderne, cum ar fi rendererele Lux Render, Yafaray sau Indigo.
 
@@ -54,7 +54,7 @@ The generic inteface is currently being created and to test the integration [Lux
 
 Featured is a part that was creating using PartDesign/Sketcher then rendered using the new render workbench being developed in Lux Render. Lux Render allows nice effects such as DOF to be created to improve realism.
 
-## Next actions {#next_actions}
+## Next actions 
 
 -   Create the Abstraction to provide the interface between renderers **(Done)**
 -   Implement an interface for describing generic materials and collecting these **(Done)**

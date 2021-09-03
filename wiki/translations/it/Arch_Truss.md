@@ -24,7 +24,7 @@ Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://e
 
 ## Utilizzo
 
-### Creare da un oggetto selezionato {#creare_da_un_oggetto_selezionato}
+### Creare da un oggetto selezionato 
 
 
 <div class="mw-translate-fuzzy">
@@ -38,7 +38,7 @@ Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://e
 
 </div>
 
-### Creare dall\'inizio {#creare_dallinizio}
+### Creare dall\'inizio 
 
 
 <div class="mw-translate-fuzzy">

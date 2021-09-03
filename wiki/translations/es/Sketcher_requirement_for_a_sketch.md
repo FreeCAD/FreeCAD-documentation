@@ -9,7 +9,7 @@
 |FCVersion=
 }}
 
-## Requisito mínimo para un croquis {#requisito_mínimo_para_un_croquis}
+## Requisito mínimo para un croquis 
 
 La creación de un cuerpo en el espacio de trabajo DiseñoPieza ya es posible y *sólo* con la ayuda de una curva cerrada (perfil). La determinación completa de todas sus dimensiones y propiedades (*totalmente restringida*) aún no es necesaria.
 
@@ -25,7 +25,7 @@ Derecha: Curva cerrada en los cuatro lugares restantes (verde)*
 
 Sin embargo, el trabajo paramétrico consistente significa que el croquis está completamente determinado.
 
-## Definir un croquis por completo {#definir_un_croquis_por_completo}
+## Definir un croquis por completo 
 
 Incluso un croquis relativamente sencillo puede contener docenas de indeterminaciones (indicadas en la vista combinada como un número de \"grados de libertad\"). Eliminarlas juntas al final es una tarea relativamente confusa.
 

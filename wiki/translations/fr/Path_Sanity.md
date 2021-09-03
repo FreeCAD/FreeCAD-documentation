@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Description {#description_1}
+## Description 
 
 De nombreux utilisateurs de Path sont des amateurs et des bricoleurs. En tant que tels, ils utilisent leurs machines CNC pour exécuter [gcode](gcode.md) qu\'ils ont configuré et généré eux-mêmes. Ce n\'est pas le cas pour la plupart des utilisateurs professionnels/commerciaux. Dans les ateliers professionnels, différentes personnes sont responsables de la création du gcode (programmeurs CNC) à partir de ceux qui l\'exécutent sur les machines (opérateur CNC).
 
@@ -49,23 +49,23 @@ Les ateliers commerciaux créent souvent un \'manuel d\'installation\' qui docum
 
 </div>
 
-## À propos du rapport {#à_propos_du_rapport}
+## À propos du rapport 
 
 Autant que possible, le contenu est indépendant de FreeCAD. L\'opérateur CNC ne peut jamais utiliser FreeCAD, donc la terminologie propre à FreeCAD/Path prête à confusion. Le rapport comporte des sections distinctes et est formaté pour rendre la recherche des choses facile et prévisible.
 
-### Part Information {#part_information}
+### Part Information 
 
 Cette section donne un aperçu de ce qui est fait. Idéalement, l\'image doit montrer les objets de base. S\'il existe plusieurs objets de base, l\'image doit montrer comment ils s\'imbriquent.
 
-### Run Summary {#run_summary}
+### Run Summary 
 
 Donne une vue rapide des hauteurs minimales et maximales et des temps de fonctionnement.
 
-### Rough Stock {#rough_stock}
+### Rough Stock 
 
 Détaille l\'objet Stock de la Tâche (Job). C\'est un domaine dans lequel Path bénéficierait d\'une certaine amélioration. Une propriété matérielle rudimentaire pour le stock serait utile ici et pourrait également être utilisée pour aider à suggérer des alimentations/vitesses.
 
-### Tool Data {#tool_data}
+### Tool Data 
 
 
 <div class="mw-translate-fuzzy">
@@ -89,7 +89,7 @@ Donne des détails sur où et quand le gcode a été post-traité. Il indique é
 
 Liquide de refroidissement
 
-### Fixtures and Work-holding {#fixtures_and_work_holding}
+### Fixtures and Work-holding 
 
 Affiche les pièces dans le contexte de l\'enveloppe du stock et montre également l\'origine de la pièce.
 
@@ -112,7 +112,7 @@ Avertissements et erreurs détectés par [Path Rechercher des erreurs](Path_Sani
 
 </div>
 
-## Notez un ASCIIDOC et un Asciidoctor {#notez_un_asciidoc_et_un_asciidoctor}
+## Notez un ASCIIDOC et un Asciidoctor 
 
 Asciidoc est un format de balisage léger pour la création de notes, d\'articles, de livres, etc. Il est lisible par l\'homme et facilement traduit dans d\'autres formats.
 

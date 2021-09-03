@@ -63,7 +63,7 @@ Pliki IFC są eksportowane jako IFC2x3 lub IFC4 w zależności od wersji program
 
 Jeśli kształt eksportowanych obiektów opiera się na wyciskaniu lub operacji logicznej, operacja i komponenty zostaną poprawnie wyeksportowane do IFC. Jeśli nie, kształt obiektu jest eksportowany jako [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4x1/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm). Jeśli kształt zawiera krzywe, to będą one triangulowane. W przypadku IfcOpenShell v0.5 lub nowszych jest jednak dostępny serializer, który musi być włączony w preferencjach Import/Export → IFC. Jeśli opcja ta jest włączona, serializer może eksportować bardzo złożone obiekty krzywe, takie jak te oparte na NURBS, a tym samym unikać powierzchni triangulowanych. Jednak w momencie pisania tego tekstu niewiele innych aplikacji BIM obsługuje obiekty IFC NURBS, dlatego zaleca się trochę testów.
 
-## Informacje dodatkowe {#informacje_dodatkowe}
+## Informacje dodatkowe 
 
 -   [IfcOpenShell](IfcOpenShell.md), więcej informacji na temat instalacji tej biblioteki.
 

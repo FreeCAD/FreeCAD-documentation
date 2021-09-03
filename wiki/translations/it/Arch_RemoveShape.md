@@ -23,7 +23,7 @@ Questo strumento tenta di eliminare una forma cubica (un parallelepipedo) incorp
 ## Utilizzo
 
 1.  Selezionare un <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Muro](Arch_Wall/it.md) o una <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md).
-2.  Premere il pulsante **<img src="images/Arch_RemoveShape.svg" width=16px> [Rimuovi Forma](Arch_RemoveShape/it.md)** in {{MenuCommand|Arch → Utilità → Rimuovi Forma}}.
+2.  Premere il pulsante **<img src="images/Arch_RemoveShape.svg" width=16px> [Rimuovi Forma](Arch_RemoveShape/it.md)** in **Arch → Utilità → Rimuovi Forma**.
 
 ## Script
 

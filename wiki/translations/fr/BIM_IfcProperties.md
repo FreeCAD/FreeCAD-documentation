@@ -18,7 +18,7 @@ Les propriétés IFC peuvent être personnalisées, c\'est-à-dire que vous pouv
 
 Vous pouvez créer vos propres propriétés et jeux de propriétés et les attribuer à n\'importe quel objet. Il n\'y a aucune exigence dans le schéma IFC pour ajouter des Psets prédéfinis pour les types courants ou toute restriction pour ajouter des propriétés personnalisées. Il s\'agit d\'une décision laissée aux utilisateurs. Habituellement, lorsque vous travaillez en équipe, ces choses sont décidées en même temps que d\'autres exigences BIM pour vous assurer que tous les modèles BIM produits répondent aux mêmes exigences.
 
-### Définir vos propres jeux de propriétés {#définir_vos_propres_jeux_de_propriétés}
+### Définir vos propres jeux de propriétés 
 
 Les ensembles de propriétés disponibles prédéfinis dans la norme IFC sont stockés dans un fichier csv [fichier csv fourni avec FreeCAD](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/pset_definitions.csv). Vous pouvez également ajouter un fichier csv personnalisé avec vos propres jeux de propriétés. Ce fichier doit être nommé CustomPsets.csv et être placé dans \$USERAPPDATA/BIM.
 

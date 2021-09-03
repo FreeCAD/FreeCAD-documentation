@@ -16,7 +16,7 @@
 
 </div>
 
-## workbench 架構 {#workbench_架構}
+## workbench 架構 
 
 
 <div class="mw-translate-fuzzy">
@@ -50,7 +50,7 @@ The Mod directory should look like this:
 
 The structure and file content for a workbench described here is the classic way of creating a new workbench. One can use a slight variation in the structure of files when making a new Python workbench, that alternative way is best described as a \"namespaced workbench\", opening up the possibility to use pip to install the workbench. Both structures work, so it is more a question of preference when creating a new workbench. The style and structure for workbenches presented here are available in the global namespace of FreeCAD, whereas for the alternative style and structure the workbench resides in a dedicated namespace. For further readings on the topic see [Related](Workbench_creation#Related.md).
 
-### C++ workbench 架構 {#c_workbench_架構}
+### C++ workbench 架構 
 
 如果你打算要用Python來寫你的workbench程式碼，你只需要將其他Python檔案跟Init.py 和InitGui.py放在一起就好了，而不用再去煩惱其他事情。不過當你是使用C++來撰寫workbench的時候，你必須特別留意並且遵守FreeCAD的一個基本規則：你必須將你的workbench分成App(可以在命令列介面下執行而不需要任何圖形使用者介面)和Gui(只有在FreeCAD在圖形使用者介面下執行時才會被載入)兩個部份。 所以用C++撰寫workbench你幾乎就像是在開發兩個modules，也就是App和Gui這兩個。這兩個模組當然必須能被Python呼叫。任何 FreeCAD module(App或Gui)至少都包含一個module的init 檔。這是典型AppMyModuleGui.cpp檔 ： 
 ```python
@@ -81,7 +81,7 @@ extern "C" {
 }
 ```
 
-### Init.py 檔 {#init.py_檔}
+### Init.py 檔 
 
 
 {{code|code=
@@ -125,7 +125,7 @@ print("I am executing some stuff here when FreeCAD starts!")
 
 The `FreeCAD.addImportType()` and `addEXportType()` functions allow you to give the name and extension of a file type, and a Python module responsible for its import. In the example above, an `importOwn.py` module will handle `.own` files. See [Code snippets](Code_snippets.md) for more examples.
 
-### Python workbenches {#python_workbenches}
+### Python workbenches 
 
 This is the InitGui.py file: 
 ```python
@@ -190,7 +190,7 @@ Adding your preference page(s):
 -   In your workbench, for ex. inside the InitGui file, inside the Initialize method (but any other place works too), add: FreeCADGui.addPreferencePage(\"/path/to/myUiFile.ui\",\"MyGroup\"), \"MyGroup\" being one of the preferences groups on the left. FreeCAD will automatically look for a \"preferences-mygroup.svg\" file in its known locations (which you can extend with FreeCADGui.addIconPath())
 -   Make sure the addPreferencePage() method is called only once, otherwise your pref page will be added several times
 
-### C++ workbenches {#c_workbenches}
+### C++ workbenches 
 
 
 <div class="mw-translate-fuzzy">
@@ -240,11 +240,11 @@ namespace MyModuleGui {
 }
 ```
 
-#### Preferences {#preferences_1}
+#### Preferences 
 
 You can add a Preferences page for C++ workbenches too. The steps are similar to those for Python.
 
-## FreeCAD commands {#freecad_commands}
+## FreeCAD commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -254,7 +254,7 @@ FreeCAD commands 是FreeCAD interface的基本元素。他可以是一個工具�
 
 </div>
 
-### Python command definition {#python_command_definition}
+### Python command definition 
 
 
 ```python
@@ -279,7 +279,7 @@ class My_Command_Class():
 FreeCADGui.addCommand('My_Command',My_Command_Class())
 ```
 
-### C++ command definition {#c_command_definition}
+### C++ command definition 
 
 同樣地，你可以用C++編寫你的commands，通常會有一個Commands.cpp檔在你的Gui module。這是一個典型的Commands.cpp檔 
 ```pythonDEF_STD_CMD_A(CmdMyCommand);
@@ -319,7 +319,7 @@ void CreateMyModuleCommands(void)
 }
 ```
 
-## \"Compiling\" your resource file {#compiling_your_resource_file}
+## \"Compiling\" your resource file 
 
 compileA2pResources.py from the A2Plus workbench:
 

@@ -8,7 +8,7 @@ Starsze wersje: [0.11](Release_notes_011.md)
 
 ![](images/FreeCAD_start_center.jpg )
 
-### Sketcher i PartDesign {#sketcher_i_partdesign}
+### Sketcher i PartDesign 
 
 <img alt="" src=images/Rim_bling.png  style="width:800px;">
 
@@ -26,7 +26,7 @@ Starsze wersje: [0.11](Release_notes_011.md)
 
 -   W module Arch zawarto także rosnącą kolekcję narzędzi do łatwiejszej pracy z obiektami Siatki (Mesh) pobranymi z innego oprogramowania jak [Blender](http://www.blender.org). Siatki, jeśli są dobrze zamodelowane, mogą być łatwo i automatycznie zamienione w \"czyste\" kształty i potem w parametryczne obiekty Arch.
 
-### 2D Drafting {#d_drafting}
+### 2D Drafting 
 
 ![](images/Draft_taskview.jpg )
 

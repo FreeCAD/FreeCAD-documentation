@@ -41,7 +41,7 @@ Atelierul suprafețe este integrat cu alte atelierele FreeCAD. Exemplul de mai s
 
 Versiunea actuală a FreeCAD (v0.17) nu permite plasarea unor suprațfete în corpul din atelierul PartDesign . Dar suprafețele pot fi plasat în interiorul unei piese [Part](Std_Part/ro.md) împreună cu corpul care deține toate plaenel și schițele de referință. Piesa non parametrică [Part Shape builder](Part_Shapebuilder/ro.md) trebuie încă utilizată pentru a crea o [shell](Glossary/ro#Shell.md) și un solid regular [solid](Glossary/ro#Solid.md) dincol de suprafețe.
 
-## Instrumentul Surface {#instrumentul_surface}
+## Instrumentul Surface 
 
 -   <img alt="" src=images/Filling.svg  style="width:32px;"> [Filling\...](Surface_Filling/ro.md): umple o serie de curbe de graniță cu o suprafață. Suprafața poate fi modificată prin adăugarea curbelor de constrângeri și a vârfurilor. Suprafața își schimbă forma astfel încât suprafața să treacă prin elementele de constrângere adăugate.
 -   <img alt="" src=images/BSplineSurf.svg  style="width:32px;"> [Fill boundary curves](Surface_GeomFillSurface/ro.md):

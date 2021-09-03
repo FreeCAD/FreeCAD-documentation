@@ -24,21 +24,21 @@ Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_S
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Arc.svg" width=16px> [Tworzy różne rodzaje łuków ...](Draft_Arc/pl.md)**.
-    -   Wybierz z menu opcję {{MenuCommand|Kreślenie → Narzędzia łuku → <img src="images/Draft_Arc.svg" width=16px> Łuk}}.
-2.  Otworzy się panel zadań {{MenuCommand|Łuk}}. Zobacz rozdział [Opcje](#Opcje.md), aby uzyskać więcej informacji.
+    -   Wybierz z menu opcję **Kreślenie → Narzędzia łuku → <img src="images/Draft_Arc.svg" width=16px> Łuk**.
+2.  Otworzy się panel zadań **Łuk**. Zobacz rozdział [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 3.  Wybierz pierwszy punkt - środek łuku, w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
-4.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz wartość {{MenuCommand|Promienia}}.
-5.  Wybierz trzeci punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz wartość {{MenuCommand|Kąta rozpoczęcia}}.
-6.  Wybierz czwarty punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz wartość {{MenuCommand|Kąta otwarcia}}.
+4.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz wartość **Promienia**.
+5.  Wybierz trzeci punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz wartość **Kąta rozpoczęcia**.
+6.  Wybierz czwarty punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz wartość **Kąta otwarcia**.
 
 ## Opcje
 
 Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
 
 -   Aby ręcznie wprowadzić współrzędne środka, wprowadź składowe X, Y i Z, a następnie naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już wybrane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza okno [widoku 3D](3D_view.md).
--   Pole wyboru {{MenuCommand|Względnie}} nie ma zastosowania dla tego polecenia.
--   Naciśnij przycisk **G** lub kliknij pole wyboru {{MenuCommand|Globalnie}}, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
--   Naciśnij klawisz **T** lub kliknij na pole wyboru {{MenuCommand|Kontynuuj}}, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu pracy, pozwalając na dalsze tworzenie łuków.
+-   Pole wyboru **Względnie** nie ma zastosowania dla tego polecenia.
+-   Naciśnij przycisk **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij klawisz **T** lub kliknij na pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu pracy, pozwalając na dalsze tworzenie łuków.
 -   Wciśnij klawisz **S** by włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby zakończyć działanie polecenia.
 
@@ -50,14 +50,14 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
--   Aby zmienić ilość miejsc po przecinku używanych przy wprowadzaniu współrzędnych, promieni i kątów: {{MenuCommand|Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku}}.
--   Jeśli w oknie ustawień opcja {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe}} jest zaznaczona, polecenie utworzy [okrąg](Part_Circle/pl.md) środowiska Część, zamiast okręgu Rysunku Roboczego.
+-   Aby zmienić ilość miejsc po przecinku używanych przy wprowadzaniu współrzędnych, promieni i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
+-   Jeśli w oknie ustawień opcja **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe** jest zaznaczona, polecenie utworzy [okrąg](Part_Circle/pl.md) środowiska Część, zamiast okręgu Rysunku Roboczego.
 
 ## Właściwości
 
 Zobacz stronę [Rysunek Roboczy: Okrąg](Draft_Circle/pl#W.C5.82a.C5.9Bciwo.C5.9Bci.md).
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 

@@ -46,12 +46,12 @@ A **Bancada de trabalho FEM** teve toneladas de melhoramentos. Ela provou ser ut
 -   Novas opções de gravação (Reverter, salvar como copia)
 -   Nova página inicial
 
-## Bancada de trabalho Peças (Part) {#bancada_de_trabalho_peças_part}
+## Bancada de trabalho Peças (Part) 
 
 -   Novas ferramentas para unir objetos com paredes (e.g., tubos): [Connect](Part_JoinConnect.md), [Embed](Part_JoinEmbed.md) and [Cutout](Part_JoinCutout.md)
 -   Nova funcionalidade: Criar face a partir do esboço (sketch) (paramétrica)
 
-## Bancadas de trabalho Part Design & Sketcher {#bancadas_de_trabalho_part_design_sketcher}
+## Bancadas de trabalho Part Design & Sketcher 
 
 -   Novas funcionalidade: Alternar modo para [Reference/Driving constraints](Sketcher_ToggleDrivingConstraint.md)
 -   Novas funcionalidade: Modo de criação continua
@@ -61,11 +61,11 @@ A **Bancada de trabalho FEM** teve toneladas de melhoramentos. Ela provou ser ut
 -   Novas funcionalidade: Ferramenta para duplicação, simetria e matriz (array) retangular
 -   Suporte para [expressions/formulas](Expressions.md) em restrições e propriedades
 
-## Bancada de trabalho Folha de Cálculo {#bancada_de_trabalho_folha_de_cálculo}
+## Bancada de trabalho Folha de Cálculo 
 
 -   Added functions: round, trunc, ceil, and floor.
 
-## Draft Workbench {#draft_workbench}
+## Draft Workbench 
 
 -   **New DXF importer**: The Draft Workbench now features a brand-new DXF importer, fully coded in C++, inherited from [HeeksCad](https://github.com/Heeks/heekscad), which no longer needs to download external components, and is now much faster and able to load much larger DXF files. An option in the DXF preferences allows switching back to the old importer if needed.
 -   A new **[Mirror tool](Draft_Mirror.md)** allows doing mirroring of objects \"the Draft way\"
@@ -74,13 +74,13 @@ A **Bancada de trabalho FEM** teve toneladas de melhoramentos. Ela provou ser ut
 
 <img alt="" src=images/Draft_subdivisions.jpg  style="width:1024px;">
 
-## Drawing Workbench {#drawing_workbench}
+## Drawing Workbench 
 
 -   A new **[spreadsheet view](Drawing_SpreadsheetView.md)** tool allows placing a range of cells from a [spreadsheet](Spreadsheet_Workbench.md) on a Drawing page.
 
 <img alt="" src=images/Drawing_spreadsheetview.jpg  style="width:1024px;">
 
-## Arch Workbench {#arch_workbench}
+## Arch Workbench 
 
 -   **[Materials support](Arch_SetMaterial.md)**: Arch objects can now have a [material](material.md) attached, which uses FreeCAD\'s builtin materials framework. These materials are shared among other workbenches. These materials are fully supported by IFC import and export.
 -   The **[Section plane](Arch_SectionPlane.md)** can now do clipping of the 3D view, showing the section in realtime.
@@ -92,7 +92,7 @@ A **Bancada de trabalho FEM** teve toneladas de melhoramentos. Ela provou ser ut
 -   A new [Arch Schedule](Arch_Schedule.md) tool allows creating different kinds of schedules from a BIM model.
 -   **IFC attributes** can now be imported, edited and exported. This is basically a spreadsheet object attached to an Arch object.
 
-## FEM Workbench {#fem_workbench}
+## FEM Workbench 
 
 -   **GUI** FEM commands have keyboard short cuts now. A preference dialog for FEM was introduced. The binary path of CalculiX is one of the preference settings.
 -   **GUI analysis container** Analysis member uses drag & drop. They can be moved in and out of a analysis container. Since there is now support for multiple analysis, members can be moved into another analysis too. Multiple constraints can be created in an analysis.
@@ -112,7 +112,7 @@ A **Bancada de trabalho FEM** teve toneladas de melhoramentos. Ela provou ser ut
 -   **GMSH Macro** An interesting external developing is the [Macro\_GMSH](Macro_GMSH.md) which makes it possible to use GMSH for meshing. Very useful for all not able to compile FreeCAD with Netgen or for meshing shell- or edge meshes.
 -   **General Improvements** Due to the heavy development taking place, there have been tons of improvements on the code base of FEM module.
 
-## Path Workbench {#path_workbench}
+## Path Workbench 
 
 ![](images/Exercise_path_02.jpg )
 
@@ -120,7 +120,7 @@ A new [Path Workbench](Path_Workbench.md) has been added to FreeCAD. This workbe
 
 In its current state, the workbench allows creation of profiles and pockets around [Part](Part_Workbench.md)-based objects, creating complex paths by joining several partial paths, inspection and editing the g-code contents of paths, managing tooltable, and choosing between different pre-processing and post-processing scripts when importing and exporting G-code. It also already provides a complete [python API](Path_scripting.md).
 
-## Additional Modules {#additional_modules}
+## Additional Modules 
 
 A couple of new [addons workbenches](https://github.com/FreeCAD/FreeCAD-addons) have been created by community members. These workbenches are easily pluggable into an existing FreeCAD installation. Among them are:
 

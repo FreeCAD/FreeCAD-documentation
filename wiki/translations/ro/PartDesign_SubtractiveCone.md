@@ -15,7 +15,7 @@ Inserează un con subtractiv în Corpul Activ. Forma sa este extrasă din solidu
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

@@ -16,7 +16,7 @@ Der **Std Platzierung** Befehl zeigt die Platzierung [ Aufgabenkonsole](Task_pan
 ## Verwendung
 
 1.  Wähle ein einzelnes Objekt aus, das eine **Platzierung**seigenschaft im [Eigenschaftseditor](Property_editor/de.md) hat.
-2.  Wähle die {{MenuCommand|Bearbeiten → Platzierung...}} Option aus dem Menü.
+2.  Wähle die **Bearbeiten → Platzierung...** Option aus dem Menü.
 3.  Ändere einen oder mehrere der Translations- und Rotationsparameter.
 4.  Mache eins der folgenden:
     -   Drücke die **OK** Schaltfläche, um die Änderungen zu übernehmen und die Aufgabenkonsole zu schließen.

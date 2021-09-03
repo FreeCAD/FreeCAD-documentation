@@ -15,7 +15,7 @@ Der Befehl **Std Import** importiert Geometrie aus einem anderen Dateiformat in 
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Wähle die {{MenuCommand|Datei → <img src="images/Std_Import.svg" width=16px> Importieren...}} Option aus dem Menü.
+    -   Wähle die **Datei → <img src="images/Std_Import.svg" width=16px> Importieren...** Option aus dem Menü.
     -   Verwende das Tastaturkürzel: **Ctrl**+**I**.
 2.  Wähle optional das richtige Dateiformat im Dialogfeld.
 3.  Wähle eine Datei.
@@ -34,8 +34,8 @@ Der Befehl **Std Import** importiert Geometrie aus einem anderen Dateiformat in 
 ## Einstellungen
 
 -   Siehe: [Import Export Einstellungen](Import_Export_Preferences/de.md).
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: {{MenuCommand|Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Voreinstellungen → Allgemein → DateiÖffnenSpeichernPfad}}.
--   Der zuletzt verwendete Importfilter wird gespeichert: {{MenuCommand|Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Voreinstellungen → Allgemein → DateiImportFilter}}.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Voreinstellungen → Allgemein → DateiÖffnenSpeichernPfad**.
+-   Der zuletzt verwendete Importfilter wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Voreinstellungen → Allgemein → DateiImportFilter**.
 
 
 

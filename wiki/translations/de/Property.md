@@ -18,7 +18,7 @@ Eigenschaften spielen in FreeCAD eine sehr wichtige Rolle, da es konstruiert wur
 
 </div>
 
-## All property types {#all_property_types}
+## All property types 
 
 
 <div class="mw-translate-fuzzy">
@@ -114,7 +114,7 @@ Nevertheless, **View** properties can also be assigned using the view provider o
 obj.ViewObject.addProperty("App::PropertyBool", "SuperVisibility", "Base", "Make the object glow")
 ```
 
-## Source code {#source_code}
+## Source code 
 
 In the source code, properties are located in various {{FileName|src/App/Property*}} files.
 

@@ -12,41 +12,41 @@
 
 {{TOCright}}
 
-## Vista general {#vista_general}
+## Vista general 
 
 [Selection methods](Selection_methods.md) in FreeCAD allow picking objects in the [FreeCAD Interface](Interface.md): such as [3D view](3D_view.md), [tree view](Tree_view.md), [selection view](Selection_view.md), and other dialogs. Some selection methods are workbench specific and are documented in the particular workbench documentation.
 
-### Vista 3D {#vista_3d}
+### Vista 3D 
 
 In the [3D view](3D_view.md) there are various ways of selecting objects.
 
-### Selección simple {#selección_simple}
+### Selección simple 
 
 Simple selection with the mouse (by default left-click) and pre-selection (hover) are described in the [mouse navigation](Mouse_navigation.md) page.
 
-### Clices repetidos {#clices_repetidos}
+### Clices repetidos 
 
 The first click selects a sub-element (vertex, edge or face) of the object under the mouse. A second click selects the whole object. <small>(v0.18)</small> 
 
 The third click extends the selection to its container object ([PartDesign Body](PartDesign_Body.md), [Std Part](Std_Part.md), and others). Further clicks expand the selection up the container chain. <small>(v0.19)</small> 
 
-### Comandos de selección {#comandos_de_selección}
+### Comandos de selección 
 
 -   To select all objects: [Std SelectAll](Std_SelectAll.md).
 -   To box select multiple main objects: [Std BoxSelection](Std_BoxSelection.md).
 -   To box select multiple faces: [Std BoxElementSelection](Std_BoxElementSelection.md) or [Part BoxSelection](Part_BoxSelection.md).
 
-## Selection view {#selection_view}
+## Selection view 
 
 The [selection view](Selection_view.md) shows the names of the objects being selected, including their full name within an object, for example, `Unnamed#Body.Box001.Face17`.
 
 It also allows to perform some actions like [Std ViewFitSelection](Std_ViewFitSelection.md), and sending the object to the [Python console](Python_console.md).
 
-### Object export {#object_export}
+### Object export 
 
 *This should be in the [selection view](selection_view.md) page.*
 
-Select any complex object, for example, a [PartDesign Body](PartDesign_Body.md) or [Std Part](Std_Part.md), then in the [selection view](selection_view.md) select again the object, and then press **Ctrl** + **C** in the keyboard to open the {{MenuCommand|Object selection}} dialog. This allows copying the selected object together with all or only some of that object\'s dependency objects. For example, for a [Std Part](Std_Part.md) the possible objects to select include the [Std Part](Std_Part.md) itself, but also its Origin, its three base axes (XYZ), and its three base planes (XY, YZ, XZ).
+Select any complex object, for example, a [PartDesign Body](PartDesign_Body.md) or [Std Part](Std_Part.md), then in the [selection view](selection_view.md) select again the object, and then press **Ctrl** + **C** in the keyboard to open the **Object selection** dialog. This allows copying the selected object together with all or only some of that object\'s dependency objects. For example, for a [Std Part](Std_Part.md) the possible objects to select include the [Std Part](Std_Part.md) itself, but also its Origin, its three base axes (XYZ), and its three base planes (XY, YZ, XZ).
 
 After pressing **OK**, the selected objects are copied into memory, and then can be pasted in the document to duplicate these objects only.
 
@@ -55,7 +55,7 @@ After pressing **OK**, the selected objects are copied into memory, and then can
 
 *Object selection dialog that is launched from the [selection view](Selection_view.md).*
 
-## Tree view {#tree_view}
+## Tree view 
 
 In the [tree view](tree_view.md) items can be selected, or deselected, one at a time, by holding the **Ctrl** key and clicking with the mouse.
 

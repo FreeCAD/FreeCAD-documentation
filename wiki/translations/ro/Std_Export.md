@@ -21,7 +21,7 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 
 </div>
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -47,8 +47,8 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 ## Preferences
 
 -   See: [Import Export Preferences](Import_Export_Preferences.md).
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   The last used export filter is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileExportFilter}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used export filter is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileExportFilter**.
 
 
 

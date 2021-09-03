@@ -23,7 +23,7 @@ import Mesh
 
 <div class="mw-translate-fuzzy">
 
-### Creație și Încărcare {#creație_și_încărcare}
+### Creație și Încărcare 
 
 Pentru a crea un obiectr vid Plasă utilizați construcția standard:
 
@@ -145,7 +145,7 @@ doc.recompute()
 
 <div class="mw-translate-fuzzy">
 
-### Odds and Ends {#odds_and_ends}
+### Odds and Ends 
 
 O extensie (deși greu de folosit) de scripting Mesh sunt script-urile de testare a Mesh-Module. În această unitate se fac toate testele de compilare și sunt manipulate toate proprietățile și atributele. Cine are curaj îndeajuns, poate privi la [Unit Test module](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup).
 

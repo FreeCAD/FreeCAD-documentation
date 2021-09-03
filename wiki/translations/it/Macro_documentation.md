@@ -10,7 +10,7 @@ See [GuiCommand model](GuiCommand_model.md) and macro pages like [Macro Loft](Ma
 
 If a macro provides a well defined functionality, and is well documented, it could be included eventually as part of a new or an existing [workbench](Workbenches.md).
 
-## New macro page {#new_macro_page}
+## New macro page 
 
 Create a new page for the macro starting with the word `Macro_`, for example, `Macro_Excellent_Modification`. The link can be used without underscores as `<nowiki>[Macro Excellent Modification](Macro_Excellent_Modification.md)</nowiki>`, which results in [Macro Excellent Modification](Macro_Excellent_Modification.md); the spaces are automatically converted to underscores.
 
@@ -65,14 +65,14 @@ or use the `Translate` field
 <img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width:200px;"> 
 *[customize toolbars](How_to_install_macros]]_and_[[Customize_Toolbars.md) links in the infobox in each macro page*
 
-### Adding the macro documentation {#adding_the_macro_documentation}
+### Adding the macro documentation 
 
 -   Just like a [Gui Command](Gui_Command.md), explain what the macro does, its inputs, outputs, options, and limitations, if any.
 -   Include a personalized icon in [SVG](SVG.md) or PNG format for your macro so that other users can include it in a custom toolbar.
 -   Add one or more images to clarify the usage of your tool.
 -   If the macro performs a complex task, consider adding an animated GIF to showcase its capabilities. The GIF image should have a maximum size of 500 x 500 pixels; if the GIF is bigger, the animation may not work. Do not resize the GIF as the wiki will not play resized GIFs.
 -   Mention related macros and workbenches that complement the function of this tool.
--   Mention the version of FreeCAD used to create the macro. This information can be gathered from {{MenuCommand|Help → About FreeCAD → Copy to clipboard}}.
+-   Mention the version of FreeCAD used to create the macro. This information can be gathered from **Help → About FreeCAD → Copy to clipboard**.
 
 :   When this information is pasted, it looks like this
 
@@ -94,7 +94,7 @@ Locale: English/UnitedStates (en_US)
 
 Consider adding this information in a comment block inside the code of the macro.
 
-### Adding the macro code {#adding_the_macro_code}
+### Adding the macro code 
 
 Inside the **Script** section, use [Template:MacroCode](Template:MacroCode.md) to place the code of the macro in the page. This will create a block of text that uses monospace font, which will preserve the whitespace that is essential for [Python](Python.md).
 
@@ -148,7 +148,7 @@ __Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_
 
 Starting with FreeCAD 0.17, this information is used by the [Addon Manager](Std_AddonMgr.md), which downloads the macro from the [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
 
-### Adding macro code outside of the wiki {#adding_macro_code_outside_of_the_wiki}
+### Adding macro code outside of the wiki 
 
 If your macro is too big that it exceeds 64 KB, it won\'t be able to be hosted on the wiki. In this case, use [Template:Codeextralink](Template:Codeextralink.md) with a link to the raw web address of the code.
 
@@ -163,7 +163,7 @@ This template must be placed at the beginning of the macro page, in the **Descri
 
 {{ColoredParagraph|'''PS:''' In case upgrade in GitHub the path of the RAW code is modified not forgotten modify the link in the Codeextralink template.}}
 
-## Adding the new macro to the wiki repository {#adding_the_new_macro_to_the_wiki_repository}
+## Adding the new macro to the wiki repository 
 
 Use [Template:MacroLink](Template:MacroLink.md) to include a line in the appropriate category in [Macros recipes](Macros_recipes.md); create a new category if needed.
 
@@ -192,7 +192,7 @@ To localize this template, use the appropriate language link in the first argume
 </nowiki>
 }}
 
-## Adding the new macro to the central repository {#adding_the_new_macro_to_the_central_repository}
+## Adding the new macro to the central repository 
 
 To make a macro installable from the [Addon Manager](Addon_Manager.md) it should be included in the central [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
 

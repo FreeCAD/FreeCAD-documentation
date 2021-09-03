@@ -21,7 +21,7 @@
 -   Obraz jest importowany z zależnością 1 piksel na 1 milimetr.
 -   Zaleca się, aby importowany obraz miał rozsądną rozdzielczość.
 
-## Przepływ pracy {#przepływ_pracy}
+## Przepływ pracy 
 
 Głównym zastosowaniem tego środowiska pracy jest tworzenie bryły na podstawie konturów obrazu za pomocą narzędzi środowisk [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md).
 

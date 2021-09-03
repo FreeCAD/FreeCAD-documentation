@@ -6,7 +6,7 @@ The tutorials listed here are those that deal with designing rooms, houses, and 
 
 Visit [tutorials](tutorials.md) for high quality written tutorials. A complete, unsorted list of tutorials can be found in [:Category:Tutorials](:Category:Tutorials.md).
 
-## Architectural design {#architectural_design}
+## Architectural design 
 
 Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md), and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
 

@@ -17,11 +17,11 @@ Disegna una funzione descritta da una equazione parametrica x(t), y(t) e z(t). P
 <img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
 *Esempio di curva epicicloidale‎*
 
-## Script originale {#script_originale}
+## Script originale 
 
 Il codice aggiornato (13/05/2015) è disponibile nel Github repository: [Get the code here!](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
 
-## Script modificato {#script_modificato}
+## Script modificato 
 
 <img alt="Example Epicycloid curve‎" src=images/Macro_3D_Parametric_Curve00.png  style="width:600px;">
 

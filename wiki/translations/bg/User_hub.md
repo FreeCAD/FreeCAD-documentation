@@ -41,7 +41,7 @@
 
 \_\_NOTOC\_\_
 
-## Упътване за FreeCAD {#упътване_за_freecad}
+## Упътване за FreeCAD 
 
 
 </div>
@@ -67,7 +67,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-### Основна Употреба {#основна_употреба}
+### Основна Употреба 
 
 
 </div>
@@ -89,7 +89,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-### Работни Плотове {#работни_плотове}
+### Работни Плотове 
 
 
 </div>
@@ -159,7 +159,7 @@ Since FreeCAD 0.17, many macros can be installed using the [Addon Manager](Std_A
 
 <div class="mw-translate-fuzzy">
 
-### Външни Работни Плотове {#външни_работни_плотове}
+### Външни Работни Плотове 
 
 Напреднали потребители са обогатили FreeCAD с нови работни плотове които все още не са включени в самия FreeCAD, но лесно се добавят. За описания на достъпните външни работни плотове [вижте тук](External_workbenches.md). За инструкции за инсталация на тези допълнителни работни плотове вижте [How to install additional workbenches](How_to_install_additional_workbenches.md).
 
@@ -182,7 +182,7 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 </div>
 
-## Онлайн Помощ {#онлайн_помощ}
+## Онлайн Помощ 
 
 
 <div class="mw-translate-fuzzy">

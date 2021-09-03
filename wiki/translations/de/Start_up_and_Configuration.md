@@ -10,11 +10,11 @@
 
 Diese Seite zeigt die verschiedene Wege, FreeCAD zu starten, und die wichtigsten Konfigurationsmöglichkeiten.
 
-## FreeCAD von der Kommandozeile starten {#freecad_von_der_kommandozeile_starten}
+## FreeCAD von der Kommandozeile starten 
 
 FreeCAD kann ganz normal durch einen Doppelklick auf das Desktop Symbol oder durch Auswahl aus dem Startmenü gestartet werden, aber es kann auch direkt über die Befehlszeile gestartet werden. Dies erlaubt dir einige der Standard Startoptionen zu ändern.
 
-### Verwendung von Kommandozeilenoptionen ohne eine Befehlszeilen Shell {#verwendung_von_kommandozeilenoptionen_ohne_eine_befehlszeilen_shell}
+### Verwendung von Kommandozeilenoptionen ohne eine Befehlszeilen Shell 
 
 -   Unter Ubuntu kannst du ein Desktop Symbol erstellen und dessen Eigenschaften bearbeiten. Füge die Kommandozeilenoptionen durch Leerzeichen getrennt hinter dem Programmnamen in das Feld \"Befehl\" ein.
 -   Unter Windows erstelle einen Tastenkürzel und bearbeite die Eigenschaften. Füge die Befehlszeilenoptionen durch Leerzeichen getrennt in das Feld \"Ziel\" ein.
@@ -71,7 +71,7 @@ In der nachfolgenden Tabelle werden ausgewählte Optionen ausführlicher beschri
 
 Optionen können in zwei Formen geschrieben werden: `--long-option arg` und `--long-option<nowiki>=</nowiki>arg`.
 
-### Antwort und Konfigurationsdateien {#antwort_und_konfigurationsdateien}
+### Antwort und Konfigurationsdateien 
 
 FreeCAD kann einige dieser Optionen aus einer Konfigurationsdatei lesen. Diese Datei muss sich im bin Pfad befinden und den Namen {{FileName|FreeCAD.cfg}} tragen. Beachte, dass Optionen, die in der Kommandozeile angegeben werden, die Konfigurationsdatei aufheben!
 
@@ -87,7 +87,7 @@ oder:
 
     FreeCAD --response-file ResponseFile.txt
 
-### Versteckte Optionen {#versteckte_optionen}
+### Versteckte Optionen 
 
 Es gibt eine Reihe von Optionen, die nicht für den Benutzer sichtbar sind. Diese Optionen sind z.B. die X-Window-Parameter, die durch das Windows-System analysiert werden:
 
@@ -103,7 +103,7 @@ Es gibt eine Reihe von Optionen, die nicht für den Benutzer sichtbar sind. Dies
 -   \"-ncols\" - begrenzt die Anzahl der im Farbwürfel verwendeten Farben auf einer 8-Bit-Anzeige, wenn die Anwendung die QApplication::ManyColor-Angabe verwendet. Wenn die Anzahl 216 ist, dann wird ein 6x6x6-Farbwürfel (d.h. 6 Stufen für Rot, 6 Stufen für Grün und 6 Stufen für Blau); bei anderen Werten wird ein Quader annähernd zu einem 2x3x1-Quader verwendet.
 -   \"-cmap\" - führt dazu, dass die Anwendung eine eigene Farbpalette für eine 8-Bit-Anzeige installiert.
 
-### FreeCAD ohne grafische Benutzeroberfläche ausführen (kopflos) {#freecad_ohne_grafische_benutzeroberfläche_ausführen_kopflos}
+### FreeCAD ohne grafische Benutzeroberfläche ausführen (kopflos) 
 
 FreeCAD wird normalerweise mit zwei ausführbaren Dateien gebaut: eine GUI-fähige mit dem Namen {{FileName|FreeCAD}} oder {{FileName|freecad}}, und eine kopflose mit dem Namen {{FileName|FreeCADCmd}} oder {{FileName|freecadcmd}}. FreeCAD kann im Konsolenmodus mit dem Schalter `--console` verwendet werden (dies ist das Standardverhalten von {{FileName|FreeCADCmd}}):
 
@@ -113,7 +113,7 @@ Im Konsolenmodus wird keine grafische Benutzeroberfläche angezeigt, sondern ein
 
 Um mehr über den Konsolen- oder Headlessmodus zu erfahren, schaue dir [Headless FreeCAD](Headless_FreeCAD.md) an.
 
-### Ausführen von Modulen, Makros und Skripten {#ausführen_von_modulen_makros_und_skripten}
+### Ausführen von Modulen, Makros und Skripten 
 
 +-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Dateityp        | System           | Befehlszeilen Beispiel                                                                                                             |
@@ -177,7 +177,7 @@ FreeCAD benutzt [Qt](Third_Party_Libraries#Qt.md), das die Umgebungsvariable `HO
 
 FreeCad selbst berücksichtigt die Umgebungsvariable `HOME` nicht (weil es das Benutzerverzeichnis über eine untergeordnete System-API ermittelt). Benutze `FREECAD_USER_HOME` für diesen Zweck.
 
-### `TMPDIR` {#section_1}
+### `TMPDIR` 
 
 Das Standard-tmp-Verzeichnis ist {{FileName|/tmp/}}. Die Umgebungsvariable `TMPDIR` kann benutzt werden, um die Standardvorgabe zu überschreiben. (*Editor: Rangfolge?*).
 
@@ -211,7 +211,7 @@ Einige Bibliotheken müssen Systemumgebungsvariablen aufrufen. Manchmal, wenn es
 
 Bei jedem Start prüft FreeCAD seine Umgebung und die Kommandozeilenparameter. Es baut einen **Konfigurationssatz** auf, der das Wesentliche der Laufzeitinformationen enthält. Diese Informationen werden später verwendet, um den Ort zu bestimmen, an dem Benutzerdaten oder Protokolldateien gespeichert werden sollen. Sie sind auch für Postmortem Analysen sehr wichtig. Deshalb wird sie in der Protokolldatei gespeichert.
 
-### Benutzerbezogene Informationen {#benutzerbezogene_informationen}
+### Benutzerbezogene Informationen 
 
 +------------------+--------------------------------------------------------------+------------------------------------------------------------------------------+-----------------------------------------------------------------------+
 | Konfig.-Variable | Beschreibung                                                 | Beispiel Windows                                                             | Beispiel Posix (Linux)                                                |
@@ -288,13 +288,13 @@ Hinweis: Bei Linux-Distributionen kann es eine weitere Konfigurationsdatei geben
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+---------------------------------------+
 | PythonSearchPath | Enthält eine Liste von Pfaden, die Python Suchmodule. Dies ist beim Start und kann sich während der Ausführung ändern                                                                                                                                                                                                                                                  |                                           |                                       |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+---------------------------------------+
-| AppTempPath      | Pfad des temporären Verzeichnisses. Kann mit der Umgebungsvariablen `TMPDIR` oder mit der Option <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Parameter Editor](Std_DlgParameter/de.md): {{MenuCommand|Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → TempPfad}} |                                           |                        |
+| AppTempPath      | Pfad des temporären Verzeichnisses. Kann mit der Umgebungsvariablen `TMPDIR` oder mit der Option <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Parameter Editor](Std_DlgParameter/de.md): **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → TempPfad** |                                           |                        |
 |                  |                                                                                                                                                                                                                                                                                                                                                                        |                                           | {{FileName|/tmp/}}                    |
 |                  |                                                                                                                                                                                                                                                                                                                                                                        |                                           |                                    |
 |                  |                                                                                                                                                                                                                                                                                                                                                                        |                                           | (default)                             |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------+---------------------------------------+
 
-### Baubezogene Informationen {#baubezogene_informationen}
+### Baubezogene Informationen 
 
 Die folgende Tabelle zeigt die verfügbaren Informationen über die Bau Version. Das meiste davon stammt aus dem Subversion Repositorium. Dieses Zeug wird benötigt, um eine Version genau nachzubauen!
 
@@ -337,7 +337,7 @@ Diese Konfig Einträge beziehen sich auf den Markenmechanismus von FreeCAD. Sieh
 | HiddenDockWindow | Liste von Andockfenstern (getrennt durch Semikolon), die versteckt werden                                                                  | \"Property editor\"      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+
 
-### Abfrage der Konfiguration {#abfrage_der_konfiguration}
+### Abfrage der Konfiguration 
 
 **Aus der FreeCAD Python Konsole**
 
@@ -374,9 +374,9 @@ Bei Linux (bash shell) kannst du die folgenden Befehlszeile an deine Bedürfniss
  exit()
  EOF
 
-## FreeCAD vom Schreibtisch aus starten {#freecad_vom_schreibtisch_aus_starten}
+## FreeCAD vom Schreibtisch aus starten 
 
-### Linux: Erstellen einer zusätzlichen Startoption {#linux_erstellen_einer_zusätzlichen_startoption}
+### Linux: Erstellen einer zusätzlichen Startoption 
 
 Im folgenden wird angenommen, dass dein Desktop so konfiguriert ist, dass du von dort FreeCAD aufrufen kannst. Abhängig von deiner Linux-Distribution und deiner Desktop-Umgebung musst du ggf. die folgenden Schritte anpassen:
 
@@ -385,7 +385,7 @@ Im folgenden wird angenommen, dass dein Desktop so konfiguriert ist, dass du von
 3.  Öffne die Datei mit einem Texteditor und ändere, wie FreeCAD aufgerufen wird durch ändern der Zeile, die mit `Exec` beginnt.
 4.  Als Ergebnis gibt es einen zusätzlichen Eintrag in deinem Startmenü/Programmstart. Auf diese Weise kannst du mehrere FreeCAD-Einträge mit unterschiedliche Startoptionen haben.
 
-## FreeCAD von einem USB Wechseldatenträger starten {#freecad_von_einem_usb_wechseldatenträger_starten}
+## FreeCAD von einem USB Wechseldatenträger starten 
 
 
 {{Version/de|0.19}}

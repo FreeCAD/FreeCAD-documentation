@@ -31,7 +31,7 @@ from pivy import coin
 
 <div class="mw-translate-fuzzy">
 
-## Komma åt och ändra scengrafen {#komma_åt_och_ändra_scengrafen}
+## Komma åt och ändra scengrafen 
 
 
 </div>
@@ -162,7 +162,7 @@ sg.removeChild(myCustomNode)
 
 <div class="mw-translate-fuzzy">
 
-## Använda återanropsmekanismer {#använda_återanropsmekanismer}
+## Använda återanropsmekanismer 
 
 
 </div>

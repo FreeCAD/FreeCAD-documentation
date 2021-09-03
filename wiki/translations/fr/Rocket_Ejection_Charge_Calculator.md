@@ -39,7 +39,7 @@ Les essais au sol doivent commencer à l\'extrémité inférieure de la plage re
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Rocket_Calculator.svg" width=16px> [Ejection Charge Calculator](Rocket_Ejection_Charge_Calculator/fr.md)** .
-    -   Sélectionnez l\'option {{MenuCommand|Rocket → Calculatrices → <img src="images/Rocket_Calculator.svg" width=16px> Ejection Charge Calculator}} dans le menu.
+    -   Sélectionnez l\'option **Rocket → Calculatrices → <img src="images/Rocket_Calculator.svg" width=16px> Ejection Charge Calculator** dans le menu.
 2.  Saisissez le poids de votre fusée et les paramètres de votre parachute.
 
 ## Calculs

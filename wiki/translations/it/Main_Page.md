@@ -13,7 +13,7 @@ Questo è il wiki della documentazione di [FreeCAD](http://www.freecadweb.org). 
 
 <div class="mw-translate-fuzzy">
 
-## Hub utenti {#hub_utenti}
+## Hub utenti 
 
 
 </div>
@@ -24,9 +24,12 @@ Questo è il wiki della documentazione di [FreeCAD](http://www.freecadweb.org). 
 <img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Hub utenti](User_hub/it.md): Questa pagina contiene la documentazione utile per gli utenti di FreeCAD in generale: un elenco di tutti gli ambienti di lavoro, le istruzioni dettagliate su come installare e utilizzare l'applicazione FreeCAD, alcune esercitazioni e tutto ciò che serve per iniziare.
 
 
-{{Clear}}
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Hub utenti esperti](Power_users_hub/it.md): Questa pagina raccoglie la documentazione per gli utenti avanzati e per chi è interessato a scrivere script Python. Si trova anche un repository di macro, le istruzioni su come installarle e utilizzarle, e ulteriori informazioni sulla personalizzazione di FreeCAD per specifiche esigenze. {{Clear}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Hub sviluppatori](Developer_hub/it.md): Questa sezione contiene del materiale per gli sviluppatori: come compilare FreeCAD, come è strutturato il codice sorgente di FreeCAD e come navigare in esso, e come sviluppare nuovi ambienti di lavoro, o incorporare FreeCAD nella propria applicazione. {{Clear}}
+
+
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Hub utenti esperti](Power_users_hub/it.md): Questa pagina raccoglie la documentazione per gli utenti avanzati e per chi è interessato a scrivere script Python. Si trova anche un repository di macro, le istruzioni su come installarle e utilizzarle, e ulteriori informazioni sulla personalizzazione di FreeCAD per specifiche esigenze. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Hub sviluppatori](Developer_hub/it.md): Questa sezione contiene del materiale per gli sviluppatori: come compilare FreeCAD, come è strutturato il codice sorgente di FreeCAD e come navigare in esso, e come sviluppare nuovi ambienti di lavoro, o incorporare FreeCAD nella propria applicazione. 
+
 
 
 </div>
@@ -36,7 +39,8 @@ Questo è il wiki della documentazione di [FreeCAD](http://www.freecadweb.org). 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Il manuale di FreeCAD](Manual:Introduction/it.md) Il manuale di FreeCAD è un modo diverso, più lineare, per presentare gli articoli contenuti in questo wiki. È fatto per essere letto come un libro, e presentare gradualmente tante altre pagine degli hub di cui sopra. È anche disponibile una [versione ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). {{Clear}}
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Il manuale di FreeCAD](Manual:Introduction/it.md) Il manuale di FreeCAD è un modo diverso, più lineare, per presentare gli articoli contenuti in questo wiki. È fatto per essere letto come un libro, e presentare gradualmente tante altre pagine degli hub di cui sopra. È anche disponibile una [versione ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). 
+
 
 
 </div>
@@ -56,9 +60,9 @@ La seguente tabella elenca tutti gli articoli di questo wiki che costituiscono l
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
 +----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
-## Prendere parte al progetto {#prendere_parte_al_progetto}
+## Prendere parte al progetto 
 
-### Come partecipare {#come_partecipare}
+### Come partecipare 
 
 Se siete interessati ad aiutarci, nel progetto di FreeCAD rimane ancora molto lavoro da svolgere. I programmatori C++ o Python possono contribuire al suo sviluppo e chi non conosce i linguaggi di programmazione può fare molte altre cose, può, ad esempio,
 
@@ -70,7 +74,7 @@ Se siete interessati ad aiutarci, nel progetto di FreeCAD rimane ancora molto la
 
 La pagina [Contribuire](help_FreeCAD/it.md) descrive questo aspetto con maggiori dettagli. A partire dal 2016, FreeCAD partecipa anche al [Google Summer of Code](Google_Summer_of_Code.md). La pagina [Contributors hub](Contributors_hub/it.md) è un altro tentativo di raccogliere i modi possibili per contribuire al progetto FreeCAD.
 
-### Codice sorgente {#codice_sorgente}
+### Codice sorgente 
 
 
 <div class="mw-translate-fuzzy">

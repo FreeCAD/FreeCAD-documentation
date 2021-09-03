@@ -25,7 +25,7 @@ Narzędzie *\'Wyciągnięcie po ścieżce* środowiska pracy Część jest podob
 4.  Zdefiniuj opcje [Utwórz bryłę](#Utw.C3.B3rz_bry.C5.82.C4.99.md) i [Wektor\_Freneta](#Wektor_Freneta.md).
 5.  Kliknij w przycisk **OK**
 
-### Akceptowana geometria {#akceptowana_geometria}
+### Akceptowana geometria 
 
 -   **Profile**: mogą być punktem *(wierzchołkiem)*, linią *(krawędzią)*, konturem lub ścianą. Krawędzie i kontury mogą być otwarte lub zamknięte. Istnieją różne [profile ograniczenia i komplikacje](Part_Sweep/pl#Ograniczenia_i_komplikacje_profilu.md), zobacz poniżej, jednakże profile mogą pochodzić z elementów pierwotnych środowiska pracy Część, elementów środowiska pracy Rysunek Roboczy i Szkiców.
 
@@ -38,7 +38,7 @@ Narzędzie *\'Wyciągnięcie po ścieżce* środowiska pracy Część jest podob
 
 Jeśli opcja **Utwórz bryłę** jest *(wybrana)* ustawiona na wartość {{True}}, FreeCAD tworzy bryłę, pod warunkiem, że profile mają geometrię zamkniętą. Jeśli opcja jest ustawiona na wartość {{False/pl}}, program FreeCAD tworzy powierzchnię lub *(jeśli jest więcej niż jedna powierzchnia)* powłokę dla profili otwartych lub zamkniętych.
 
-### Wektor Freneta {#wektor_freneta}
+### Wektor Freneta 
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;">
 
@@ -50,7 +50,7 @@ Jeśli opcja **Wektor Freneta** ma wartość {{true}}, orientacja profilu jest o
 
 Opcja **Przejście** ustawia styl przejścia Przeciągania w miejscu połączenia na ścieżce, jeśli ścieżka nie definiuje przejścia w narożniku *(na przykład gdy ścieżka jest polilinią)*. Właściwość ta nie jest widoczna w oknie [Panelu zadań](Task_panel/pl.md) i można ją znaleźć we właściwościach po utworzeniu przeciągnięcia.
 
-## Ograniczenia i komplikacje profilu {#ograniczenia_i_komplikacje_profilu}
+## Ograniczenia i komplikacje profilu 
 
 -   Wierzchołek lub punkt
     -   Wierzchołek lub punkt może być użyty tylko jako pierwszy i / lub ostatni profil na liście profili.
@@ -80,7 +80,7 @@ Opcja **Przejście** ustawia styl przejścia Przeciągania w miejscu połączeni
             -   wielokąt foremny,
             -   płaszczyzna *(ściana)*.
 
-## Odnośniki internetowe {#odnośniki_internetowe}
+## Odnośniki internetowe 
 
 -   Ponieważ funkcja ta jest często używana do tworzenia gwintów dla śrub, powinieneś zobaczyć stronę [Przewodnik: Tworzenie gwintów](Thread_for_Screw_Tutorial/pl.md).
 

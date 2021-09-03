@@ -26,7 +26,7 @@ FreeCAD je potpuno više sistemski program [multi-platform](http://en.wikipedia.
 
 Za više informacija o mogućnostima FreeCAD-a pogledajte [Lista Osobina](Feature_list/hr.md), [Prvi koraci](Getting_started/hr.md) ili [Korisničko okruženje](User_hub/hr.md) članke, ili pogledajte [Slike zaslona](screenshots/hr.md).
 
-### O FreeCAD projektu {#o_freecad_projektu}
+### O FreeCAD projektu 
 
 FreeCAD projekt je pokrenut 2001 godine, Više se nalazi na stranici [history](history.md).
 

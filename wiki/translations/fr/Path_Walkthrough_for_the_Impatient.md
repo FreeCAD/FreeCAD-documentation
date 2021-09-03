@@ -14,7 +14,7 @@
 
 Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [atelier Path](Path_Workbench/fr.md) dérivé d\'un modèle 3D. Puis générer un G-Code correct pour dialoguer avec une fraiseuse CNC cible.
 
-## Le modèle 3D {#le_modèle_3d}
+## Le modèle 3D 
 
 1\. Le projet commence par un simple modèle FreeCAD conçu dans <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Part Design](PartDesign_Workbench/fr.md), un cube avec une poche rectangulaire,
 
@@ -26,13 +26,13 @@ Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Pa
 
 2\. Une fois le modèle 3D terminé, passez à l\'<img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [atelier Path Workbench](Path_Workbench/fr.md) via le [sélecteur d\'ateliers](Std_Workbench/fr.md) (menu déroulant)
 
-## La tâche {#la_tâche}
+## La tâche 
 
 3\. Maintenant, nous créons une [Path Tâche](Path_Job/fr.md) par l\'une des méthodes suivantes:
 
 -   Appuyez sur le bouton **![](images/)_[Tâche](Path_Job/fr.md)** dans la barre d\'outils.
 -   Utilisation du raccourci clavier **P** puis **F**.
--   En utilisant l\'entrée {{MenuCommand|Path → Tâche}} du menu supérieur.
+-   En utilisant l\'entrée **Path → Tâche** du menu supérieur.
 
 ![](images/Path-JobCreationDialog.png )
 
@@ -44,11 +44,11 @@ Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Pa
 
 4\. Cela ouvre une boîte de dialogue de création de tâche. Dans cette boîte de dialogue, cliquez sur **OK** pour accepter le corps comme modèle de base, sans modèle.
 
-### Configuration de la tâche {#configuration_de_la_tâche}
+### Configuration de la tâche 
 
 5\. La fenêtre de dialogue de la tâche s\'ouvre dans la fenêtre Tâche et la fenêtre de vue du modèle affiche le brut sous la forme de cube en filaire entourant le corps de base. L\'onglet Configuration est sélectionné.
 
-### Sortie de la tâche {#sortie_de_la_tâche}
+### Sortie de la tâche 
 
 6\. L\'onglet Sortie définit le chemin du fichier de sortie, le nom, l\'extension et le postprocesseur. Pour les utilisateurs avancés, les arguments du post-processeur peuvent être personnalisés (passez la souris pour afficher les info-bulles des arguments courants).
 
@@ -84,7 +84,7 @@ Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Pa
 
 Remarque: Pour un accès facile, tous les outils peuvent être prédéfinis et sélectionnés dans le <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:24px;">[Gestionnaire d\'outils (Tool manager)](Path_ToolLibraryEdit/fr.md).
 
-### Plan de travail {#plan_de_travail}
+### Plan de travail 
 
 L\'onglet Plan de travail (Workplan) est initialement affiché comme vide. Il est ensuite rempli par la séquence des opérations de tâche, des commandes Partial (Commandes particulières) et des Dressups (Habillages) de Path. L\'ordre de ces éléments est ordonné ici.
 
@@ -92,7 +92,7 @@ Cette arborescence apparaît après la configuration du travail une fois celui-c
 
 :   ![](images/Path-TreeWithJob.png )
 
-## Les opérations d\'usinage {#les_opérations_dusinage}
+## Les opérations d\'usinage 
 
 11\. Deux opérations seront ajoutées pour générer des parcours de fraisage pour ce travail d\'usinage. L\'opération [Profilage](Path_Profile/fr.md) crée un parcours d\'usinage autour de la boîte et l\'opération [Poche](Path_Pocket_Shape/fr.md) crée un parcours pour la poche intérieure.
 
@@ -114,7 +114,7 @@ Le résultat est un modèle avec deux parcours d\'usinage:
     *Ci-dessus: le résultat avec un modèle à deux trajectoires*
     
 
-## Vérification des parcours d\'usinage {#vérification_des_parcours_dusinage}
+## Vérification des parcours d\'usinage 
 
 Il existe deux manières de vérifier les parcours d\'usinage créés. Le G-code peut être inspecté, notamment en mettant en évidence les segments de parcours d\'usinage correspondants. Le processus de fraisage de la tâche d\'usinage peut également être simulé pour illustrer les parcours d'outil optimisés, nécessaires aux géométries d'outil pour fraiser le brut.
 
@@ -136,7 +136,7 @@ Réglez la vitesse et la précision et lancez la simulation avec le bouton de le
 
 Si vous souhaitez mettre fin à la simulation, cliquez sur le bouton **Annuler** pour supprimer le brut créé pour la simulation. Si vous cliquez sur **OK**, cet objet sera conservé dans votre travail.
 
-## Post-traiter la tâche {#post_traiter_la_tâche}
+## Post-traiter la tâche 
 
 La dernière étape pour générer le G-code pour la fraiseuse cible consiste à post-traiter la tâche. Cela envoie les G-codes dans un fichier pouvant être chargé sur le contrôleur de machine CNC cible. Pour appeler le post-processeur:
 

@@ -25,7 +25,7 @@ Ein einfaches Modell wird mit verschiedenen Ansichten gezeigt.
 
 *Beziehungen zwischen den im [Abhängigkeitsdiagramm](Std_DependencyGraph/de.md) gezeigten Objekten.*
 
-## Aktivieren der DAG Ansicht {#aktivieren_der_dag_ansicht}
+## Aktivieren der DAG Ansicht 
 
 Die DAG Ansicht wurde in 0.17 als eine experimentelles Funktion für Hauptanwender und Entwickler eingeführt, so dass sie komplexe Modelle fehlerbehandeln können; daher ist die DAG Ansicht nicht standardmäßig verfügbar.
 
@@ -36,7 +36,7 @@ Um diese Ansicht zu verwenden, verwende den [Parametereditor](Std_DlgParameter/d
 
 dann füge den Parameter `Enabled` vom Typ `Boolean` hinzu und setze ihn auf `True`.
 
-Restarte FreeCAD und aktiviere die DAG Ansicht: {{MenuCommand|{{StdMenu|[Ansicht](Std_View_Menu/de.md)}} → Konsolen → DAG Ansicht}}.
+Restarte FreeCAD und aktiviere die DAG Ansicht: **{{StdMenu|[Ansicht](Std_View_Menu/de.md)** → Konsolen → DAG Ansicht}}.
 
 Im [Parametereditor](Std_DlgParameter/de.md) kannst du auch einige Eigenschaften in der folgenden Untergruppe ändern
 

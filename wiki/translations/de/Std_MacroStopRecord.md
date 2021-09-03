@@ -21,7 +21,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Diese Funktion beendet die Aufzeichnung eines Makros. Es ist über {{MenuCommand|Makro → Makro anhalten}} erreichbar oder über den **<img src=images/Std_DlgMacroStop.png style="width:16px"> Beenden der Makroaufzeichnungssitzung** in der Makro Werkzeugleiste <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
+Diese Funktion beendet die Aufzeichnung eines Makros. Es ist über **Makro → Makro anhalten** erreichbar oder über den **<img src=images/Std_DlgMacroStop.png style="width:16px"> Beenden der Makroaufzeichnungssitzung** in der Makro Werkzeugleiste <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
 
 
 </div>

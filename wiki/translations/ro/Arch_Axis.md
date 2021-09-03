@@ -27,7 +27,7 @@ Instrumentul Axis vă permite să plasați o serie de axe în documentul curent.
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -71,7 +71,7 @@ Instrumentul Axis vă permite să plasați o serie de axe în documentul curent.
 
 </div>
 
-## Use as section mark {#use_as_section_mark}
+## Use as section mark 
 
 By setting the **Bubble Position** property to **Arrow left/right** or **Bar left/right**, the axis will display a filled arrow or bar instead of the bubble, so it can be used as a section mark. <small>(v0.20)</small> 
 

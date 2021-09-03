@@ -22,7 +22,7 @@ Objekt **Pohled** je vložen do objektu **Stránka** ve stromu projektu. Pro č�
 
 If only the object is selected in the Project Tree, the view is added to the first page of the project. If you have multiple pages in your project please select the object and the page it should be added to. Then click on the icon to add the view to the selected page.
 
-### Úpravy existujícího pohledu {#úpravy_existujícího_pohledu}
+### Úpravy existujícího pohledu 
 
 Ve stromu projektu rozbalíte složku objektu Stránka a vyberete pohled. Jeho parametry mohou být upravovány v záložce Data Pohledu.
 
@@ -37,7 +37,7 @@ Ve stromu projektu rozbalíte složku objektu Stránka a vyberete pohled. Jeho p
 -   **Zobraz skryté čáry**:  přepíná viditelnost skrytých čar výběrem hodnot *True* nebo *False*.
 -   **Zobraz Smooth Lines**: přepíná viditelnost smooth lines výběrem hodnot *True* nebo *False*. Smooth lines jsou také nazývány dotykové okraje. Tyto okraje indikují místa, kde jedne povrch přechází v druhý (dotýkají se).
 
-### Průvodce Pohledem {#průvodce_pohledem}
+### Průvodce Pohledem 
 
 K automatickému generování výkresů se standardními pohledy používejte [Automatické výkresové makro](Macro_Automatic_drawing/cs.md). 
 

@@ -16,7 +16,7 @@ Această comandă exporta [Job](Path_Job.md) selectat într-un fișier cu cod G.
 
 Fiecare controler CNC vorbește într-un dialect specific G-Cod, care necesită un Postprocesor corect pe dialect pentru a traduce ieșirea finală din dialectul agnostic intern al codului G FreeCAD.
 
-### Typical functions of the Postprocessor include {#typical_functions_of_the_postprocessor_include}
+### Typical functions of the Postprocessor include 
 
 
 <div class="mw-translate-fuzzy">
@@ -35,7 +35,7 @@ Funcțiile tipice ale postprocesorului includ:
 
 </div>
 
-### Postprocessor Customization {#postprocessor_customization}
+### Postprocessor Customization 
 
 
 <div class="mw-translate-fuzzy">

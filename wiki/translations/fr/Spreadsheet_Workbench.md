@@ -39,7 +39,7 @@ L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [ateli
 
 -   Menu contextuel des lignes et colonnes de la feuille de calcul : cliquez avec le bouton droit de la souris sur l\'en-tête d\'une ligne ou d\'une colonne pour insérer une nouvelle ligne au-dessus ou une nouvelle colonne à gauche ou pour supprimer la ligne/colonne actuelle. Vous pouvez également sélectionner plusieurs lignes ou colonnes pour les supprimer.{{Version/fr|0.20}} Vous pouvez également sélectionner là où les nouvelles lignes/colonnes seront insérées. De plus, pour insérer par exemple 3 nouvelles colonnes en une seule fois, sélectionnez 3 colonnes et utilisez le menu contextuel qui vous proposera désormais d\'insérer 3 colonnes.
 
-### Propriétés d\'une cellule {#propriétés_dune_cellule}
+### Propriétés d\'une cellule 
 
 Les propriétés d\'un cellule de feuille de calcul peuvent être éditées avec un clic-droit sur la cellule. La boîte de dialogue suivante apparaît :
 
@@ -53,7 +53,7 @@ Comme mentionné dans les onglets, les propriétés suivantes peuvent être chan
 -   Affichage unités:  affiche l\'unité de la cellule. Veuillez lire la section [Unités](#Unités.md) ci-dessous.
 -   Alias :  définit un [alias](Spreadsheet_SetAlias/fr.md) pour cette cellule. Cet alias peut être utilisé dans les formules de cellule et aussi dans les [expressions](Expressions/fr.md) générales; voir la section [Données de la feuille de calcul dans les expressions](#Donn.C3.A9es_de_la_feuille_de_calcul_dans_les_expressions.md) pour plus d\'informations.
 
-## Expressions dans les cellules {#expressions_dans_les_cellules}
+## Expressions dans les cellules 
 
 Une cellule de feuille de calcul peut contenir du texte arbitraire ou une expression. Techniquement, les expressions doivent commencer par un signe égal \'=\'. Cependant, le tableur tente d'être intelligent ; si vous entrez ce qui ressemble à une expression sans le signe \'=\', celui-ci sera ajouté automatiquement.
 
@@ -66,7 +66,7 @@ Les expressions cellulaires peuvent contenir des nombres, des fonctions, des ré
 
 Les références aux objets dans le modèle sont expliquées ci-dessous [Références aux données CAO](#R.C3.A9f.C3.A9rences_aux_donn.C3.A9es_CAO.md). L\'utilisation des valeurs de cellule de feuille de calcul pour définir les propriétés du modèle est expliquée ci-dessous [Données de la feuille de calcul dans les expressions](#Donn.C3.A9es_de_la_feuille_de_calcul_dans_les_expressions.md). Pour plus d\'informations sur les expressions et les fonctions disponibles, voir [Expressions](Expressions/fr.md).
 
-## Interaction entre les feuilles de calcul et le modèle de CAO {#interaction_entre_les_feuilles_de_calcul_et_le_modèle_de_cao}
+## Interaction entre les feuilles de calcul et le modèle de CAO 
 
 Les données contenues dans les cellules d\'une feuille de calcul peuvent être utilisées dans les expressions de paramètres de modèle de CAO. Ainsi, une feuille de calcul peut être utilisée comme source pour les valeurs de paramètres utilisées dans un modèle, regroupant efficacement les valeurs à un endroit. Lorsque les valeurs sont modifiées dans la feuille de calcul, elles sont propagées dans tout le modèle.
 
@@ -80,7 +80,7 @@ L\'étiquette d\'une feuille de calcul est automatiquement définie sur le nom d
 
 FreeCAD vérifie les dépendances cycliques. Voir [limitations courantes](Spreadsheet_Workbench/fr#Limitations_Courantes.md).
 
-### Références aux données CAO {#références_aux_données_cao}
+### Références aux données CAO 
 
 Comme indiqué ci-dessus, il est possible de référencer les données du modèle CAO dans des expressions de feuille de calcul.
 
@@ -103,7 +103,7 @@ Le tableau suivant montre quelques exemples en supposant que le modèle a une fo
   Nom du Cube                                             =MonCube.Label                    String: MonCube
   Coordonnée x du centre de gravité du Cube               =MonCube.Shape.CenterOfMass.x     Coordonnée x en mm sans unité
 
-### Données de la feuille de calcul dans les expressions {#données_de_la_feuille_de_calcul_dans_les_expressions}
+### Données de la feuille de calcul dans les expressions 
 
 Pour utiliser les données de la feuille de calcul dans d\'autres parties de FreeCAD, vous allez généralement créer une [Expression](Expressions/fr.md) qui fait référence à la feuille de calcul et à la cellule contenant les données que vous souhaitez utiliser. Vous pouvez identifier les feuilles de calcul par le nom ou par l\'étiquette, et vous pouvez identifier les cellules par leur position ou par leur alias. L\'autocomplétion est disponible pour toutes les formes de référencement.
 
@@ -139,7 +139,7 @@ Bien que vous puissiez utiliser le numéro de ligne et de colonne dans une expre
 
 </div>
 
-### Modèles complexes et recalculs {#modèles_complexes_et_recalculs}
+### Modèles complexes et recalculs 
 
 La modification d\'une feuille de calcul déclenchera un recalcul du modèle 3D, même si les modifications n\'affectent pas le modèle. Pour un modèle complexe, un recalcul peut prendre beaucoup de temps et devoir attendre après chaque édition est bien sûr assez ennuyeux.
 
@@ -149,11 +149,11 @@ Il existe trois solutions pour y remédier:
 
 \#\* Dans la [Vue en arborescence](Tree_view/fr.md), clic droit sur le document <img alt="" src=images/Document.svg  style="width:24px;"> qui contient la feuille de calcul.
 
-\#\* Sélectionnez l\'option {{MenuCommand|Skip recomputes}} dans le menu contextuel.
+\#\* Sélectionnez l\'option **Skip recomputes** dans le menu contextuel.
 
 \#\* Il y a un gros inconvénient à cette solution. Les nouvelles valeurs entrées dans la feuille de calcul ne seront pas affichées tant que le document n\'aura pas été recalculé. Au lieu de cela, `#PENDING` est affiché.
 
-\#\* Vous pouvez soit recalculer manuellement, en utilisant la commande [Std Rafraîchir](Std_Refresh/fr.md), soit désactiver {{MenuCommand|Skip recomputes}} lorsque vous avez terminé l\'édition.
+\#\* Vous pouvez soit recalculer manuellement, en utilisant la commande [Std Rafraîchir](Std_Refresh/fr.md), soit désactiver **Skip recomputes** lorsque vous avez terminé l\'édition.
 
 1.  Utilisez une macro pour ignorer automatiquement les recalculs lors de la modification d\'une feuille de calcul:
     -   Téléchargez et exécutez [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
@@ -176,11 +176,11 @@ Un nombre sans dimension ne peut pas être changé en nombre avec une unité dan
 
 Parfois, il peut être souhaitable de supprimer une dimension dans une expression. Cela peut être fait en multipliant par 1 avec une unité réciproque.
 
-## Importation et exportation {#importation_et_exportation}
+## Importation et exportation 
 
-Les feuilles de calculs peuvent être importées et exportées au format [​​csv](https://fr.wikipedia.org/wiki/Comma-separated_values) qui peut également être lu et écrit par la plupart des tableurs tels que Microsoft Excel ou LibreOffice Calc. Lors de l\'importation de fichiers dans FreeCAD, le délimiteur (le caractère utilisé pour séparer les colonnes) doit être le caractère TAB (ceci peut être défini lors de l\'exportation à partir d\'autres applications). L\'importation d\'un fichier CSV est disponible via le menu {{MenuCommand|Spreadsheet → Importer une feuille de calcul}} ou en cliquant sur l\'icône <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. Cette fonction d\'importation n\'ouvre pas les fichiers Excel ou tout autre format de tableur.
+Les feuilles de calculs peuvent être importées et exportées au format [​​csv](https://fr.wikipedia.org/wiki/Comma-separated_values) qui peut également être lu et écrit par la plupart des tableurs tels que Microsoft Excel ou LibreOffice Calc. Lors de l\'importation de fichiers dans FreeCAD, le délimiteur (le caractère utilisé pour séparer les colonnes) doit être le caractère TAB (ceci peut être défini lors de l\'exportation à partir d\'autres applications). L\'importation d\'un fichier CSV est disponible via le menu **Spreadsheet → Importer une feuille de calcul** ou en cliquant sur l\'icône <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. Cette fonction d\'importation n\'ouvre pas les fichiers Excel ou tout autre format de tableur.
 
-Les feuilles de calculs au format Excel \"xlsx\" peuvent être importées via le menu {{MenuCommand|Fichier → Importer...}} dans un document FreeCAD. Les feuilles de calculs Excel peuvent également être ouvertes par FreeCAD en cliquant dans le menu {{MenuCommand|Fichier → Ouvrir...}} ou en cliquant sur l\'icône <img alt="" src=images/Document-open.svg  style="width:24px;">. Dans ce cas un nouveau document avec une feuille de calcul à l\'intérieur est créé. Les fonctionnalités suivantes sont prises en charge :
+Les feuilles de calculs au format Excel \"xlsx\" peuvent être importées via le menu **Fichier → Importer...** dans un document FreeCAD. Les feuilles de calculs Excel peuvent également être ouvertes par FreeCAD en cliquant dans le menu **Fichier → Ouvrir...** ou en cliquant sur l\'icône <img alt="" src=images/Document-open.svg  style="width:24px;">. Dans ce cas un nouveau document avec une feuille de calcul à l\'intérieur est créé. Les fonctionnalités suivantes sont prises en charge :
 
 -   Toutes les fonctions qui sont également disponibles dans la feuille de calcul FreeCAD. D\'autres fonctions donnent une erreur dans la cellule correspondante après l\'importation.
 -   Noms d\'alias pour les cellules
@@ -192,13 +192,13 @@ Les autres fonctionnalités ne sont pas importées dans la feuille de calcul Fre
 
 Pour gérer la mise en page nécessaire à l\'impression, les feuilles de calcul FreeCAD sont imprimées en les insérant dans une [TechDraw Vue d\'un tableur](TechDraw_SpreadsheetView/fr.md).
 
-## Limitations courantes {#limitations_courantes}
+## Limitations courantes 
 
 FreeCAD vérifie les dépendances cycliques. De par sa conception, cette vérification s'arrête au niveau de l'objet feuille de calcul. Par conséquent, vous ne devriez pas avoir de feuille de calcul contenant à la fois des cellules dont les valeurs sont utilisées pour spécifier des paramètres pour le modèle et des cellules dont les valeurs utilisent la sortie du modèle. Par exemple, vous ne pouvez pas avoir de cellules spécifiant la longueur, la largeur et la hauteur d\'un objet, et une autre cellule qui référence le volume total de la forme obtenue. Cette restriction peut être surmontée en disposant de deux feuilles de calcul : l\'une utilisée comme source de données pour les paramètres d\'entrée du modèle et l\'autre pour les calculs basés sur les données géométriques résultantes.
 
 Lorsque les cellules sont copiées, seul le contenu (expression/valeur) est copié. Les [propriétés de cellule](Spreadsheet_Workbench/fr#Propriétés_de_Cellule.md) décrites ci-dessus ne sont pas copiées.
 
-## Scripts basiques {#scripts_basiques}
+## Scripts basiques 
 
 
 ```python

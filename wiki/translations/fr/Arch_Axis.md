@@ -49,7 +49,7 @@ L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)**
 
 -    {{PropertyView/fr|Show Labels}}: Active/désactive l\'affichage du textes des étiquettes
 
-## Utilisation comme marque de section {#utilisation_comme_marque_de_section}
+## Utilisation comme marque de section 
 
 En définissant la propriété **Bubble Position** à **Arrow left/right** ou **Bar left/right**, l\'axe affichera une flèche ou une barre remplie à la place de la bulle, afin qu\'elle puisse être utilisée comme marque de section. {{Version/fr|0.20}}
 

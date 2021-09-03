@@ -34,12 +34,12 @@ L\'ambiente Path di FreeCAD crea le istruzioni macchina con il seguente flusso d
 
 </div>
 
-## General concepts {#general_concepts}
+## General concepts 
 
 
 <div class="mw-translate-fuzzy">
 
-## Concetti generali {#concetti_generali}
+## Concetti generali 
 
 L\'ambiente Path genera un codice G che definisce i percorsi richiesti per fresare il progetto rappresentato dal modello 3D in codice interno, [il linguaggio usato da FreeCAD G-Code per le operazioni di lavoro di Path](Path_scripting#The_FreeCAD_Internal_GCode_Format/it.md), viene successivamente tradotto nel codice appropriato per il controller CNC di destinazione selezionando il post processore appropriato.
 
@@ -63,10 +63,10 @@ Path offre un Gestore degli utensili (Libreria, Tabella utensili), un ispettore 
 
 L\'ambiente Path ha delle dipendenze esterne tra cui:
 
-1.  Le unità del modello 3D di FreeCAD sono definite nelle impostazioni {{MenuCommand|Modifica → Preferenze ... → Generale → Unità di misura}}. La configurazione del postprocessore definisce le unità G-Code finali.
-2.  Il percorso del file macro e le tolleranze geometriche sono definiti nella scheda {{MenuCommand|Modifica → Preferenze ... → Path → Preferenze lavorazione}}.
-3.  I colori sono definiti in {{MenuCommand|Modifica → Preferenze ... → Path → Colori}}.
-4.  I parametri dei lembi di fermo pezzo (tag) sono definiti nella scheda {{MenuCommand|Modifica → Preferenze ... → Path → Ottimizzazione}}.
+1.  Le unità del modello 3D di FreeCAD sono definite nelle impostazioni **Modifica → Preferenze ... → Generale → Unità di misura**. La configurazione del postprocessore definisce le unità G-Code finali.
+2.  Il percorso del file macro e le tolleranze geometriche sono definiti nella scheda **Modifica → Preferenze ... → Path → Preferenze lavorazione**.
+3.  I colori sono definiti in **Modifica → Preferenze ... → Path → Colori**.
+4.  I parametri dei lembi di fermo pezzo (tag) sono definiti nella scheda **Modifica → Preferenze ... → Path → Ottimizzazione**.
 5.  Se la qualità del modello Base 3D supporta i requisiti di Path, supera la Verifica della geometria.
 
 
@@ -81,7 +81,7 @@ Alcune limitazioni attuali di cui dovreste essere consapevoli sono:
 -   La maggior parte delle operazioni in Path workbench restituirà percorsi basati solo su un utensile/bit standard, indipendentemente dal tipo di utensile/bit assegnato in un dato controllore di utensili, ad eccezione delle operazioni **<img src="images/Path_Engrave.svg" width=24px> [Incisione](Path_Engrave/it.md)** and **<img src="images/Path_3DSurface.svg" width=24px> [Safcciatura 3D](Path_3DSurface/it.md)**.
 -   Le operazioni all\'interno del Path workbench non sono a conoscenza dei meccanismi di bloccaggio in uso per fissare il modello alla vostra macchina. Di conseguenza, si prega di rivedere e simulare i percorsi generati prima di inviare il codice alla macchina. Se necessario, modella i tuoi meccanismi di serraggio in FreeCAD per controllare meglio i percorsi generati. Cercate le possibili collisioni con i morsetti o altri ostacoli lungo i percorsi.
 
-## Unità di misura {#unità_di_misura}
+## Unità di misura 
 
 La gestione delle unità di misura in Path può essere fonte di confusione. Ci sono alcuni punti da chiarire:
 
@@ -106,12 +106,12 @@ Ispezionare il codice:
 
 1.  Se si usa lo strumento Ispeziona il G-Code per vedere il codice, lo si vede in \'mm/s\' perché non è ancora stato post-elaborato.
 
-## Heights and depths {#heights_and_depths}
+## Heights and depths 
 
 
 <div class="mw-translate-fuzzy">
 
-## I comandi di Path {#i_comandi_di_path}
+## I comandi di Path 
 
 Molti comandi hanno varie altezze e profondità: <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
 *Riferimento visivo per le proprietà di profondità (impostazioni)*
@@ -126,7 +126,7 @@ Molti comandi hanno varie altezze e profondità: <img alt="" src=images/Path-Dep
 
 Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
 
-### Project Commands {#project_commands}
+### Project Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -160,7 +160,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### Tool Commands {#tool_commands}
+### Tool Commands 
 
 
 <div class="mw-translate-fuzzy">
@@ -201,7 +201,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Operazioni di base sul percorso {#operazioni_di_base_sul_percorso}
+### Operazioni di base sul percorso 
 
 
 </div>
@@ -278,7 +278,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-### 3D Operations {#d_operations}
+### 3D Operations 
 
 
 <div class="mw-translate-fuzzy">
@@ -307,7 +307,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Ottimizzazione del percorso {#ottimizzazione_del_percorso}
+### Ottimizzazione del percorso 
 
 
 </div>
@@ -363,7 +363,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Comandi parziali {#comandi_parziali}
+### Comandi parziali 
 
 
 </div>
@@ -411,7 +411,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
-### Modifica del percorso {#modifica_del_percorso}
+### Modifica del percorso 
 
 
 </div>
@@ -468,7 +468,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
-## ToolBit architecture {#toolbit_architecture}
+## ToolBit architecture 
 
 Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
 

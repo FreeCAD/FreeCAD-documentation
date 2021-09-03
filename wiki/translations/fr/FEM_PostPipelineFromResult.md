@@ -29,7 +29,7 @@ Pipeline est un objet de résultat qui crée une nouvelle représentation graphi
 
 :\* Vector: Si une propriété est un vecteur, vous pouvez limiter les données à un axe (X, Y, Z) ou sélectionner Magnitude pour utiliser la valeur du vecteur.
 
--   Si vous ne voyez aucun modèle dans la zone graphique, allez dans et activez {{MenuCommand|Edition → Préférences → Affichage → Rendu → Couleur du rétroéclairage}}.
+-   Si vous ne voyez aucun modèle dans la zone graphique, allez dans et activez **Edition → Préférences → Affichage → Rendu → Couleur du rétroéclairage**.
 -   Si vous double-cliquez sur l\'échelle, vous pouvez modifier les propriétés d\'affichage.
 
 ![](images/SIMTUT_05.PNG )

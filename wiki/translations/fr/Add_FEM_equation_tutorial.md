@@ -20,7 +20,7 @@ La tâche peut être divisée en quatre parties:
 -   La troisième étape consiste à ajouter la prise en compte de la nouvelle équation dans le solveur d\'Elmer.
 -   Après cela, l\'exportation d\'analyse sous Elmer doit être étendue pour prendre en charge le nouveau type d\'équation.
 
-## Ajout d\'un nouveau type d\'équation {#ajout_dun_nouveau_type_déquation}
+## Ajout d\'un nouveau type d\'équation 
 
 Dans cette étape, nous allons modifier le fichier suivant:
 
@@ -41,7 +41,7 @@ class FlowViewProxy(BaseViewProxy):
         return ":/icons/FEM_EquationFlow.svg"
 ```
 
-## L\'objet équation d\'Elmer {#lobjet_équation_delmer}
+## L\'objet équation d\'Elmer 
 
 Dans cette étape, nous allons modifier le fichier suivant:
 
@@ -63,14 +63,14 @@ Commençons par le module qui implémente l\'objet document. Il peut être copi�
 
 L\'équation de l\'écoulement dans Elmer est une équation potentiellement non linéaire. Cela signifie que nous allons focaliser notre travail sur `heat.py`.
 
-### Mots-clés {#mots_clés}
+### Mots-clés 
 
 -   Si la nouvelle équation ne supporte que les mots-clés pour les systèmes \"linéaires\", copiez le module {{Incode|femsolver/elmer/equations/elasticity.py}}.
 -   Si la nouvelle équation supporte les mots-clés pour les systèmes *linéaires* et *non linéaires*, copiez le module {{Incode|femsolver/elmer/equations/heat.py}}.
 
 L\'équation du flux dans Elmer est une équation potentiellement non linéaire. Cela signifie que nous allons baser notre travail sur {{Incode|heat.py}}.
 
-### Modification des fichiers {#modification_des_fichiers}
+### Modification des fichiers 
 
 Après avoir copié `heat.py` dans `flow.py`, ajustez
 
@@ -105,7 +105,7 @@ Enfin, il faut enregistrer une définition de **makeEquationStatcurrent** dans `
 
 Enfin et surtout, enregistrez le nouveau fichier de module (`flow.py`) dans les deux fichiers `src/Mod/Fem/CMakeLists.txt` comme décrit dans [Module d\'extension FEM](https://www.freecadweb.org/wiki/Extend_FEM_Module/fr). Les listes appropriées peuvent être facilement trouvées en recherchant les fichiers de modules d'équations existants d'Elmer.
 
-## Extension de l\'objet du solveur {#extension_de_lobjet_du_solveur}
+## Extension de l\'objet du solveur 
 
 Dans cette étape, nous allons modifier le fichier suivant:
 
@@ -130,7 +130,7 @@ _EQUATIONS = {
 }
 ```
 
-## Extension de l\'analyse à l\'export {#extension_de_lanalyse_à_lexport}
+## Extension de l\'analyse à l\'export 
 
 Dans cette étape, nous allons modifier le fichier suivant:
 
@@ -183,7 +183,7 @@ peut contrôler une série d\'autres méthodes détaillées. Notre équation de 
 
 Nous avons maintenant terminé la partie fonction de la nouvelle équation. Ensuite, nous allons connecter la nouvelle équation à travers l\'interface graphique.
 
-## Outil de l\'interface graphique pour créer une équation {#outil_de_linterface_graphique_pour_créer_une_équation}
+## Outil de l\'interface graphique pour créer une équation 
 
 Nous venons de créer une nouvelle classe d\'équation. Pour y accéder depuis l\'interface graphique FEM, nous devons créer un bouton et le lier à la nouvelle classe d\'équation. Voici un tutoriel : [Tutoriel Ajouter un bouton à la barre d\'outils FEM](Add_button_to_FEM_toolbar_tutorial/fr.md).
 

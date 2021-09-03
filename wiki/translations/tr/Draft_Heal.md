@@ -26,7 +26,7 @@ Bu komut, daha eski bir sürümde çalışması için eski bir FreeCAD sürümü
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 1.  Bir veya daha fazla sorunlu nesne seçin.
 

@@ -14,7 +14,7 @@ Creates an initial flow velocity constraint for a fluid flow analysis.
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> [FEM ConstraintInitialFlowVelocity](FEM_ConstraintInitialFlowVelocity.md)** button.
-    -   Select the {{MenuCommand|Model → Fluid Constraints → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Constraint initial flow velocity}} option from the menu.
+    -   Select the **Model → Fluid Constraints → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Constraint initial flow velocity** option from the menu.
 2.  Enter an initial flow velocity value for the analysis.
 3.  The value is entered as a combination of the 3 main cartesian vectors components (X,Y,Z).
 

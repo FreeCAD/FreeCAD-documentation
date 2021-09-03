@@ -15,7 +15,7 @@ The **MeshPart CreateFlatMesh** command creates a flat representation of a mesh 
 ## Usage
 
 1.  Select a single mesh object. The mesh must be \'unwrappable\'. For example, to unwrap a cylindrical mesh it must have open ends and an open seam. Also curved surfaces must have a relatively fine mesh. Use the [Mesh RemeshGmsh](Mesh_RemeshGmsh.md) command if necessary.
-2.  Select the {{MenuCommand|Meshes → <img src="images/MeshPart_CreateFlatMesh.svg" width=16px> Unwrap Mesh}} option from the menu.
+2.  Select the **Meshes → <img src="images/MeshPart_CreateFlatMesh.svg" width=16px> Unwrap Mesh** option from the menu.
 
 ## Properties
 

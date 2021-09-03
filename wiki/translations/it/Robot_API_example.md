@@ -13,7 +13,7 @@ from Part import *
 from FreeCAD import *
 ```
 
-### Roba di base per i robot {#roba_di_base_per_i_robot}
+### Roba di base per i robot 
 
 creare il robot. Se non si specifica un\'altra cinematica diventa un Puma 560 
 ```python
@@ -96,7 +96,7 @@ print t.Waypoints
 del rob,Start,t,l,w
 ```
 
-### Lavorare con gli oggetti del documento {#lavorare_con_gli_oggetti_del_documento}
+### Lavorare con gli oggetti del documento 
 
 Lavorare con gli oggetti del documento robot: creare prima un robot nel documento attivo 
 ```python
@@ -168,7 +168,7 @@ print App.activeDocument().Trajectory.Trajectory
 
 Da fare\.....
 
-### Esportare la traiettoria {#esportare_la_traiettoria}
+### Esportare la traiettoria 
 
 La traiettoria è esportata da Python. Ciò significa che per ogni tipo di cabina c\'è un post-processore modulo Python. Qui è descritto in dettaglio il post-processore Kuka 
 ```python

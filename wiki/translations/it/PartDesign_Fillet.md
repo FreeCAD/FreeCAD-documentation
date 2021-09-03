@@ -26,7 +26,7 @@ Questo strumento crea dei raccordi (arrotondamenti) sui bordi selezionati di un 
 -   Per una catena di spigoli tangenti l\'uno all\'altro, può essere selezionato un bordo singolo, il raccordo si propaga lungo la catena.
 -   Per modificare il raccordo dopo che la funzione è stata convalidata, fare doppio clic sull\'etichetta del Raccordo nella struttura del progetto, oppure fare clic destro su di esso e selezionare **Modifica Raccordo**.
 
-## Raccordo di PartDesign e Raccordo di Part {#raccordo_di_partdesign_e_raccordo_di_part}
+## Raccordo di PartDesign e Raccordo di Part 
 
 Il <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [Raccordo di PartDesign](PartDesign_Fillet/it.md) non deve essere confuso con il **<img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Raccordo di Part](Part_Fillet/it.md)**. Sebbene condividano lo stesso nome, non sono uguali e non vengono utilizzati allo stesso modo.
 
@@ -37,7 +37,7 @@ Ecco come differiscono l\'uno dall\'altro:
 -   Il raccordo di PartDesign offre un\'anteprima in tempo reale del raccordo applicato all\'oggetto prima di convalidare la funzione.
 -   Il raccordo di Parte supporta i raggi variabili (con un raggio iniziale e un raggio finale). Il raccordo di PartDesign no.
 
-## Problemi noti {#problemi_noti}
+## Problemi noti 
 
 Raccordi, smussi e altre funzionalità che operano su corpi solidi dipendono dal kernel OpenCASCADE Technology (OCCT) sottostante utilizzato da FreeCAD. Occasionalmente il kernel OCCT ha difficoltà nel gestire gli spigoli coincidenti, dove si incontrano due facce. In questo caso, FreeCAD potrebbe bloccarsi senza una spiegazione.
 
@@ -62,7 +62,7 @@ Per maggiori informazioni vedere le discussioni del forum :
 
 L\'utente è anche responsabile dell\'integrità del proprio modello. A seconda del modello, potrebbe essere impossibile eseguire un raccordo o uno smusso se il corpo non è abbastanza grande da supportare tale operazione. Ad esempio, non è possibile creare un raccordo da 10 mm se un bordo è separato di soli 5 mm dalla superficie successiva. In questo caso, il raggio massimo per un raccordo è 5 mm; tentare di usare un valore più grande può dare come risultato una forma che non può essere calcolata o anche un crash. Se l\'utilizzo del limite esatto di 5 mm non funziona, potrebbe essere possibile utilizzare un\'approssimazione molto ravvicinata, come 4.9999 mm, per ottenere lo stesso risultato visibile.
 
-### Denominazione topologica {#denominazione_topologica}
+### Denominazione topologica 
 
 I numeri che rappresentano i nomi dei bordi non sono completamente stabili, pertanto è consigliabile terminare il lavoro di modellazione principale del corpo solido prima di applicare funzioni come raccordi e smussi, altrimenti i bordi potrebbero cambiare nome e i bordi raccordati diventerebbero probabilmente non validi.
 

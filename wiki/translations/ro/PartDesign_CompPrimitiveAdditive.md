@@ -19,7 +19,7 @@ Creează o primitivă geometrică aditivă în Corpul activ ca primă funcție(o
 
 <div class="mw-translate-fuzzy">
 
-## Tipuri de primitive geometrice {#tipuri_de_primitive_geometrice}
+## Tipuri de primitive geometrice 
 
 -   <img alt="" src=images/PartDesign_AdditiveBox.png  style="width:32px;"> [Additive box](PartDesign_AdditiveBox.md)
 -   <img alt="" src=images/PartDesign_AdditiveCone.png  style="width:32px;"> [Additive cone](PartDesign_AdditiveCone.md)

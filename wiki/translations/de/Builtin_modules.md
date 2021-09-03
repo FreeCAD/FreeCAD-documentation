@@ -2,7 +2,7 @@
 
 Auf dieser Seite findest Du weiterführende Informationen über die eingebauten FreeCAD Module und welche Funktionen und Eigenschaften Dir zur Verfügung stehen. Diese Seite ist keine vollständige Liste aller Inhalte dieser Module, und aufgrund der schnellen Entwicklung von FreeCAD sind die hier vorgestellten Informationen vielleicht etwas veraltet, aber sie sollten Dir einen guten Überblick über die Möglichkeiten geben. Für eine vollständige Liste der Modulinhalte verwende die Funktion dir(module) im Interpreter. \_\_NOTOC\_\_
 
-## Nicht grafisch {#nicht_grafisch}
+## Nicht grafisch 
 
 -   [FreeCAD Programmierschnittstelle](FreeCAD_API/de.md)
 -   [Base API](Base_API/de.md)

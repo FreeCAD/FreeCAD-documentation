@@ -23,7 +23,7 @@ Această funcționalitate vă permite să creați ferestre noi de vizualizare 3D
 
 -   În fereastră selectați vizualizarea pe care doriți să o afișați
 
-### Alte Utilități {#alte_utilități}
+### Alte Utilități 
 
 ![ right](images/_ViewCreate3.png )
 
@@ -42,13 +42,13 @@ Această funcționalitate vă permite să creați ferestre noi de vizualizare 3D
 
 ![](images/ViewCreate1.png ) *The FreeCAD interface with multiple 3D views*
 
-## Utilizare {#utilizare_1}
+## Utilizare 
 
-1.  Select the {{MenuCommand|View → <img src="images/Std_ViewCreate.svg" width=16px> Create new view}} option from the menu.
+1.  Select the **View → <img src="images/Std_ViewCreate.svg" width=16px> Create new view** option from the menu.
 
 ## Options
 
--   Select the {{MenuCommand|Windows → Cascade}} or {{MenuCommand|Windows → Tile}} option from the menu to rearrange the 3D views.
+-   Select the **Windows → Cascade** or **Windows → Tile** option from the menu to rearrange the 3D views.
 
 
 

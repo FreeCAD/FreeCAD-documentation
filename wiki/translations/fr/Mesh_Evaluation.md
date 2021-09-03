@@ -18,25 +18,25 @@ La commande **Mesh Evaluation** évalue et répare un objet maillé.
 2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_Evaluation.svg" width=16px> [Ouvre une fenêtre permettant d'analyser et de réparer un maillage](Mesh_Evaluation/fr.md)
 **
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → Analyser → <img src="images/Mesh_Evaluation.svg" width=16px> Évaluer et réparer le maillage...}} dans le menu.
-3.  La boîte de dialogue {{MenuCommand|Évaluer et réparer un maillage}} s\'ouvre.
+    -   Sélectionnez l\'option **Maillages → Analyser → <img src="images/Mesh_Evaluation.svg" width=16px> Évaluer et réparer le maillage...** dans le menu.
+3.  La boîte de dialogue **Évaluer et réparer un maillage** s\'ouvre.
 4.  Appuyez éventuellement sur le bouton **Paramètres...** pour modifier les paramètres suivants:
     -   
-        {{MenuCommand|Recherche de points libres "non-manifolds"}}
+        **Recherche de points libres "non-manifolds"**
         
 
     -   
-        {{MenuCommand|Active la recherche de plis sur une surface}}
+        **Active la recherche de plis sur une surface**
         
 
     -   
-        {{MenuCommand|Considère uniquement les faces de surface nulle comme dégénérées}}
+        **Considère uniquement les faces de surface nulle comme dégénérées**
         
 5.  Si vous n\'avez pas encore sélectionné d\'objet maillé: sélectionnez-en un dans la liste déroulante en haut de la boîte de dialogue.
-6.  La boîte de dialogue contient 7 ou 8 options de test (si l\'option {{MenuCommand|Se replie sur la surface}} est activée).
+6.  La boîte de dialogue contient 7 ou 8 options de test (si l\'option **Se replie sur la surface** est activée).
 7.  N\'utilisez pas les cases à cocher, elles seront vérifiées automatiquement si des erreurs sont trouvées.
 8.  Appuyez sur l\'un des boutons **Analyser** pour démarrer un test.
-9.  Ou utilisez le bouton **Analyser** de l\'option {{MenuCommand|Tous les tests ensembles}} pour exécuter les 7 ou 8 tests ensemble.
+9.  Ou utilisez le bouton **Analyser** de l\'option **Tous les tests ensembles** pour exécuter les 7 ou 8 tests ensemble.
 10. Les erreurs seront indiquées dans la boîte de dialogue, ainsi que, avec des marqueurs jaunes et rouges, dans la [vue 3D](3D_view/fr.md).
 11. Appuyez éventuellement sur un ou plusieurs boutons **Réparer** pour réparer les erreurs trouvées.
 12. Appuyez éventuellement sur le bouton **Réinitialiser** pour réinitialiser tous les résultats de test. Cela réinitialisera la boîte de dialogue et supprimera les marqueurs colorés de la vue 3D. Si vous souhaitez répéter le même test ou exécuter tous les tests ensemble, il n\'est pas nécessaire de le faire.
@@ -50,9 +50,9 @@ La commande **Mesh Evaluation** évalue et répare un objet maillé.
 
 ## Préférences
 
--   Le paramètre {{MenuCommand|Rechercher de points libres non-manifolds}} est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → CheckNonManifoldPoints}}.
--   Le paramètre {{MenuCommand|Active la recherche de plis sur une surface}} est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → EnableFoldsCheck}}.
--   Le paramètre {{MenuCommand|Considère uniquement les faces de surface nulle comme dégénérées}} est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → StrictlyDegenerated}}.
+-   Le paramètre **Rechercher de points libres non-manifolds** est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → CheckNonManifoldPoints**.
+-   Le paramètre **Active la recherche de plis sur une surface** est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → EnableFoldsCheck**.
+-   Le paramètre **Considère uniquement les faces de surface nulle comme dégénérées** est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Evaluation → StrictlyDegenerated**.
 
 
 

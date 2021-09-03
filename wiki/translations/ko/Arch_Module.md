@@ -74,7 +74,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
     -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Material](Arch_MultiMaterial.md): Creates a multi-material and attributes it to selected objects, if any <small>(v0.17)</small> 
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Schedule](Arch_Schedule.md): Creates different types of schedules
 
-### 변형 도구 {#변형_도구}
+### 변형 도구 
 
 These are tools for modifying architectural objects.
 
@@ -107,7 +107,7 @@ These are additional tools to help you in specific tasks.
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferences](Arch_Preferences.md): preferences for the default appearance of walls, structures, rebars, windows, stairs, panels, pipes, grids and axes.
 
-### 파일 형식 {#파일_형식}
+### 파일 형식 
 
 -   [IFC](Arch_IFC.md): industry foundation classes
 -   [DAE](Arch_DAE.md): Collada mesh format

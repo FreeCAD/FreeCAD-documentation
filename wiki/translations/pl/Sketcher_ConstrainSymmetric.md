@@ -20,7 +20,7 @@ Wybierz dwa punkty *(wierzchołki)* oraz linię na szkicu. Wybrane punkty i pros
 
 <img alt="" src=images/SymmetricConstraint2.png  style="width:500px;">
 
-Kliknij na przycisk **<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [Utwórz wiązanie symetrii ...](Sketcher_ConstrainSymmetric/pl.md)** lub wybierz pozycję z menu {{MenuCommand|Szkic → Wiązana szkicownika → Wiązanie symetrii}}.
+Kliknij na przycisk **<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [Utwórz wiązanie symetrii ...](Sketcher_ConstrainSymmetric/pl.md)** lub wybierz pozycję z menu **Szkic → Wiązana szkicownika → Wiązanie symetrii**.
 
 Spowoduje to zastosowanie tego wiązania do wybranych elementów.
 
@@ -36,7 +36,7 @@ Przed wersją 0.19 (zobacz poprawkę [1](https://github.com/FreeCAD/FreeCAD/pull
 
 Zobacz tracker [issue \#4144](https://freecadweb.org/tracker/view.php?id=4144), oraz [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=39611).
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Dwa punkty i linia symetrii:
 

@@ -18,7 +18,7 @@ Dupa ce fișierul .msi (Microsoft Installer) a fost descarcat, doar faceți dubl
 
 Mai jos sunt descrise opțiunile de instalare. Daca pare complicat nu va ingrijorați! Cei mai mulți utilizatori nu vor avea nevoie de nimic mai mult decat fișierul de mai sus .msi și articolul **[ Primii pasi](Getting_started/ro.md)**!
 
-### Instalare Simpla Folosind Microsoft Installer {#instalare_simpla_folosind_microsoft_installer}
+### Instalare Simpla Folosind Microsoft Installer 
 
 Cea mai ușoară cale de **instalare a FreeCAD sub Windows** este de a folosi programul descărcabil de instalare de mai sus. Aceasta pagina descrie modul de folosire și funcționalitățile programului *Microsoft Installer* pentru a accesa mai multe opțiuni de instalare.
 
@@ -44,13 +44,13 @@ choco upgrade freecad
 
 to get the latest version available on Chocolatey repository. If there are any issues with the chocolatey package, you may contact maintainers on [this page](https://chocolatey.org/packages/freecad).
 
-### Instalare de la Consola de Comandă {#instalare_de_la_consola_de_comandă}
+### Instalare de la Consola de Comandă 
 
 Cu ajutorul utilitarului linie de comandă \"msiexec.exe\", sunt disponibile funcții suplimentare, cum ar fi instalarea non-interactivă și instalarea ca administrator. Vedeți exemplele de mai jos.
 
 With the *msiexec.exe* command line utility, additional features such as non-interactive installation and administrative installation are available. See examples below.
 
-#### Instalarea Automată {#instalarea_automată}
+#### Instalarea Automată 
 
 Folosind comanda:
 
@@ -68,7 +68,7 @@ instalarea poate fi inițiată programat. Parametrii suplimentari pot fi transmi
 msiexec /i FreeCAD-2.5.msi TARGETDIR=R:\FreeCAD25
 ```
 
-#### Interfața Limitată {#interfața_limitată}
+#### Interfața Limitată 
 
 Numărul de ferestre de dialog permise utilizatorului poate fi controlat cu grupul de optiuni /q, astfel:
 
@@ -90,7 +90,7 @@ The amount of user control permitted by the installer can be controlled with /q 
 
 </div>
 
-#### Directorul Țintă {#directorul_țintă}
+#### Directorul Țintă 
 
 Proprietatea TARGETDIR determină locația de instalare a FreeCAD. De exemplu o locație se specifică folosind
 
@@ -103,7 +103,7 @@ TARGETDIR=R:\FreeCAD25
 
 Implicit TARGETDIR este \[WindowsVolume\\Programm Files\\\]FreeCAD.
 
-#### Instalarea Pentru Toti Utilizatorii {#instalarea_pentru_toti_utilizatorii}
+#### Instalarea Pentru Toti Utilizatorii 
 
 Adaugand
 
@@ -116,7 +116,7 @@ ALLUSERS=1
 
 determină o instalare utilizabilă de către toți utilizatorii. În mod implicit, o instalare non-interactivă (/ i) face ca pachetul să poată fi utilizat numai de utilizatorul curent (cel care efectuează instalarea); o instalare interactivă prezintă un dialog care implică \"toți utilizatorii\" dacă utilizatorul care realizează instalarea are suficiente drepturi de administrare.
 
-#### Selectarea Caracteristicilor {#selectarea_caracteristicilor}
+#### Selectarea Caracteristicilor 
 
 Un numar de caracteristici pot fi alese pentru instalare, reinstalate sau indepartate. Cracteristicile ce pot fi selectate pentru FreeCAD sunt:
 
@@ -159,7 +159,7 @@ msiexec /x FreeCAD<version>.msi
 
 FreeCAD poate fi dezinstalat. Daca fisierul .msi nu este disponibil pachetul poate fi dezinstalat folosind codul prodsului sau pachetului. Codul produsului poate fi aflat exminand proprietatile scurtaturii Uninstall pe care FreeCAD o instaleaza in meniul Start.
 
-### Instalare în rețea {#instalare_în_rețea}
+### Instalare în rețea 
 
 Folosind
 
@@ -191,7 +191,7 @@ ar fi posibil, în principiu, sa \"publicam\" FreeCAD la un calculator (cu /ju l
 
 Instalatorul FreeCAD acceptă în prezent doar \"publicitate\" pentru intrări in meniul Start, nu și pentru comenzi rapide.
 
-### Instalare Automata pe un Grup de Calculatoare {#instalare_automata_pe_un_grup_de_calculatoare}
+### Instalare Automata pe un Grup de Calculatoare 
 
 Folosind Windows Group Policy este posibil sa se instaleze FreeCAD automat pe un grup de calculatoare. Pentru a face asta urmați următorii pași:
 
@@ -221,7 +221,7 @@ With Windows Group Policy, it is possible to automatically install FreeCAD on a 
 
 Acest mod de instalare durează ceva timp, de obicei. Pentru finalizarea instalării toate calculatoarele trebuiesc repornite.
 
-### Instalarea in Linux folosind Crossover Office {#instalarea_in_linux_folosind_crossover_office}
+### Instalarea in Linux folosind Crossover Office 
 
 Versiunea de FreeCAD pentru Windows poate fi instalată pe un sistem Linux folosind *CXOffice 5.0.1*. Rulați comanda *msiexec* de la linia de comandă CXOffice. Presupunând că pachetul de instalare se află în directorul \"soft\" pe discul \"Y:\":
 

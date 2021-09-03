@@ -17,7 +17,7 @@ FreeCAD, подобно многим современным приложения
 
 </div>
 
-## Встроенные верстаки {#встроенные_верстаки}
+## Встроенные верстаки 
 
 В комплекте с FreeCAD идут следующие верстаки:
 
@@ -65,7 +65,7 @@ FreeCAD, подобно многим современным приложения
 
 -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> The [Web Workbench](Web_Workbench.md) provides you with a browser window instead of the [3D view](3D_view.md) within FreeCAD.
 
-### Не рекомендуемые {#не_рекомендуемые}
+### Не рекомендуемые 
 
 The following workbenches are still included in the base installation for compatibility purposes, but they should no longer be used.
 
@@ -73,11 +73,11 @@ The following workbenches are still included in the base installation for compat
 
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> The [Drawing Workbench](Drawing_Workbench.md) was used for producing technical drawings but has now been deprecated. It is still needed to read old FreeCAD files that contain objects created with this workbench. The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement. {{Obsolete|0.17}}
 
-## Внешние верстаки {#внешние_верстаки}
+## Внешние верстаки 
 
 Верстаки FreeCAD легко программируются в [Python](Python/ru.md), поэтому многие разрабатывают дополнительные верстаки вне кодовой базы FreeCAD.
 
-Страница [внешние верстаки](External_workbenches/ru.md) перечисляет все известные сообществу. Большинство из них легко устанавливается из FreeCAD, используя [Addon Manager](Addon_Manager/ru.md) через меню {{MenuCommand|Инструменты → <img src="images/AddonManager.svg" width=24px> Addon manager}}.
+Страница [внешние верстаки](External_workbenches/ru.md) перечисляет все известные сообществу. Большинство из них легко устанавливается из FreeCAD, используя [Addon Manager](Addon_Manager/ru.md) через меню **Инструменты → <img src="images/AddonManager.svg" width=24px> Addon manager**.
 
 Новые верстаки всегда в разработке, следите за обновлениями!
 

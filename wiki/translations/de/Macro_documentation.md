@@ -10,7 +10,7 @@ Siehe [GuiBefehl Modell](GuiCommand_model/de.md) und Makroseiten wie [Makro Ausf
 
 Wenn ein Makro eine gut definierte Funktionalität bietet und gut dokumentiert ist, könnte es schließlich als Teil einer neuen oder eines bestehenden [Arbeitsbereichs](Workbenches/de.md) aufgenommen werden.
 
-## Neue Makroseite {#neue_makroseite}
+## Neue Makroseite 
 
 Erstelle eine neue Seite für das Makro, die mit dem Wort `Macro_` beginnt, zum Beispiel `Macro_Excellent_Modification`. Der Verweis kann ohne Unterstriche als `<nowiki>[Makro Excellent Modification](Macro_Excellent_Modification/de.md)</nowiki>` verwendet werden, was zu [Makro Ausgezeichnete Änderung](Macro_Excellent_Modification/de.md) führt; die Leerzeichen werden automatisch in Unterstriche umgewandelt.
 
@@ -65,14 +65,14 @@ oder verwende das `Translate` Feld
 <img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width:200px;"> 
 *[Wie Makros installieren](How_to_install_macros/de.md) und [Werkzeugleisten anpassen](Customize_Toolbars/de.md) Verweise in der Infobox auf jeder Makroseite*
 
-### Hinzufügen der Makrodokumentation {#hinzufügen_der_makrodokumentation}
+### Hinzufügen der Makrodokumentation 
 
 -   Wie bei einem [Gui Befehl](Gui_Command/de.md), erkläre was das Makro tut, seine Eingänge, Ausgänge, Optionen und Begrenzungen, falls vorhanden.
 -   Füge ein personalisiertes Symbol im Format [SVG](SVG/de.md) oder PNG für dein Makro ein, damit andere Benutzer es in eine benutzerdefinierte Werkzeugleiste einfügen können.
 -   Füge ein oder mehrere Bilder hinzu, um die Verwendung deines Werkzeugs zu verdeutlichen.
 -   Wenn das Makro eine komplexe Aufgabe erfüllt, solltest du in Erwägung ziehen, ein animiertes GIF hinzuzufügen, um seine Fähigkeiten zu demonstrieren. Das GIF Bild sollte eine maximale Größe von 500 x 500 Pixel haben; wenn das GIF größer ist, funktioniert die Animation möglicherweise nicht. Ändere die Größe des GIFs nicht, da das Wiki GIFs mit geänderter Größe nicht abspielen wird.
 -   Erwähne verwandte Makros und Arbeitsbereiche, die die Funktion dieses Werkzeugs ergänzen.
--   Erwähne die Version von FreeCAD, die zur Erstellung des Makros verwendet wurde. Diese Informationen können unter {{MenuCommand|Hilfe→ Über FreeCAD → In Zwischenablage kopieren}} entnommen werden.
+-   Erwähne die Version von FreeCAD, die zur Erstellung des Makros verwendet wurde. Diese Informationen können unter **Hilfe→ Über FreeCAD → In Zwischenablage kopieren** entnommen werden.
 
 :   Wenn diese Informationen eingefügt werden, sieht es folgendermaßen aus
 
@@ -94,7 +94,7 @@ Locale: English/UnitedStates (en_US)
 
 Ziehe in Betracht, diese Informationen in einem Kommentarblock innerhalb des Codes des Makros hinzuzufügen.
 
-### Hinzufügen des Makrocodes {#hinzufügen_des_makrocodes}
+### Hinzufügen des Makrocodes 
 
 Innerhalb des **Skript** Abschnitts verwende [Template:MacroCode](Template:MacroCode.md), um den Code des Makros in der Seite zu platzieren. Dadurch wird ein Textblock erstellt, der die Monospace Schriftart verwendet, wodurch der für [Python](Python/de.md) wichtige Weißraum erhalten bleibt.
 
@@ -148,7 +148,7 @@ __Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_
 
 Beginnend mit FreeCAD 0.17 werden diese Informationen vom [Erweiterungsverwalter](Std_AddonMgr/de.md) verwendet, der das Makro aus dem [FreeCAD-Makros](https://github.com/FreeCAD/FreeCAD-macros) Repositorium herunterlädt.
 
-### Hinzufügen von Makrocode außerhalb des Wikis {#hinzufügen_von_makrocode_außerhalb_des_wikis}
+### Hinzufügen von Makrocode außerhalb des Wikis 
 
 Wenn dein Makro zu groß ist, so dass es 64 KB überschreitet, kann es nicht im Wiki bereitgestellt werden. In diesem Fall verwende [Template:Codeextralink](Template:Codeextralink.md) mit einem Verweis auf die raw Web Adresse des Codes.
 
@@ -163,7 +163,7 @@ Diese Vorlage muss am Anfang der Makroseite im Abschnitt **Beschreibung** platzi
 
 {{ColoredParagraph|'''PS:''' Im Falle einer Aktualisierung in GitHub wird der Pfad des RAW Codes geändert, nicht vergessen, den Verweis in der Codeextralink Vorlage zu ändern.}}
 
-## Hinzufügen des neuen Makros zum Wiki Repositorium {#hinzufügen_des_neuen_makros_zum_wiki_repositorium}
+## Hinzufügen des neuen Makros zum Wiki Repositorium 
 
 Verwende [Template:MacroLink](Template:MacroLink.md) , um eine Zeile in die entsprechende Kategorie in [Makro Rezepte](Macros_recipes/de.md) einzuschließen; erstelle bei Bedarf eine neue Kategorie.
 
@@ -192,7 +192,7 @@ Um diese Vorlage zu lokalisieren, verwende den entsprechenden Sprachverweis im e
 </nowiki>
 }}
 
-## Hinzufügen des neuen Makros zum zentralen Repositorium {#hinzufügen_des_neuen_makros_zum_zentralen_repositorium}
+## Hinzufügen des neuen Makros zum zentralen Repositorium 
 
 Um ein Makro aus dem [Erweiterungsverwalter](Addon_Manager/de.md) installierbar zu machen, sollte es in das zentrale [FreeCAD-Makros](https://github.com/FreeCAD/FreeCAD-macros) Repositorium aufgenommen werden.
 

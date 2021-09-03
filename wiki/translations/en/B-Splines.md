@@ -30,7 +30,7 @@ OK. But at the bottom you don\'t need immediate support.
 
 So a curve with which you can connect two points tangentially to a reference point can be very useful for constructions. Bézier curves provide this feature.
 
-## Bézier curves {#bézier_curves}
+## Bézier curves 
 
 ### Derivation
 
@@ -75,7 +75,7 @@ In the above text you might already noticed some \"rules\" for Bézier curves:
 -   If you need $n$ turns, you need at least a $n+1$ degree Bézier curve.
 -   A Bézier curve always begins tangentially to the line between the startpoint and the first control point (and ends tangentially to the line between the last control point and the endpoint).
 
-## B-Splines {#b_splines}
+## B-Splines 
 
 ### Basics
 
@@ -107,7 +107,7 @@ As explained in the video, the basis polynomials are Bernstein polynomials. The 
 
 At every spline position $t$ the sum of polynomials is 1 (indicated by the orange line). At the start only the red polynomial has an influence since all other polynomials are there 0. At greater $t$ the spline is described by a linear combination of different basis polynomials. In the image above, every polynomial is greater than 1 for the whole range $0 < t < 1$. This is not necessarily the case. As shown in the video, the basis polynomials are basically only greater than 0 for a certain spline position range. The interval at which a basis polynomial is greater than 0 is described by the *knot vector*. If you are interested in learning about the knot vector, have a look at [this video](https://www.youtube.com/watch?v=ni5NNPCVvDY).
 
-### Non-uniform B-splines {#non_uniform_b_splines}
+### Non-uniform B-splines 
 
 A property of the Bernstein polynomials is that when looking at the different S-spline Bézier parts, the path length of every part is the same. (The path length is often called the *travel time*). As you can imagine, it can be useful to have B-splines whose Bézier parts have different path lengths. This can be achieved by weighting the different polynomials:
 
@@ -131,7 +131,7 @@ whereas
 $\quad
 R_{k, D}=\cfrac{B_{k,D}(u)w_k}{\sum_{l=1}^N B_{l,D}(t)w_l}$
 
-## B-splines in FreeCAD {#b_splines_in_freecad}
+## B-splines in FreeCAD 
 
 FreeCAD offers to create uniform or non-uniform B-splines of any degree in 2D via the [Sketcher workbench](Sketcher_Workbench.md).
 
@@ -147,13 +147,13 @@ To create periodic B-splines (B-splines that form a closed curve), use the toolb
 
 B-splines can also be generated out of existing sketch segments. To do this, select the elements and press the the toolbar button **<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convert Geometry to B-spline](Sketcher_BSplineApproximate.md)**.
 
-### Changing the Degree {#changing_the_degree}
+### Changing the Degree 
 
 To change the degree, select the B-spline and use either the toolbar button **<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> <img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:Increase B-spline degree](Sketcher_BSplineIncreaseDegree.md)** or **[24px"> [Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md)**.
 
 **Note:** Decreasing the degree cannot revert a prior increase of the degree, see the Wiki page [Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md) for an explanation.
 
-### Changing the Knot Multiplicity {#changing_the_knot_multiplicity}
+### Changing the Knot Multiplicity 
 
 The points where two Bézier curves are connected to form the B-spline are called knots. The knot multiplicity determines how the Bézier parts are connected, see the Wiki page [Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md) for details.
 
@@ -161,7 +161,7 @@ To change the knot multiplicity, use the toolbar buttons **<img src=images/Sketc
 
 **Note:** Creating two B-Splines that are connected to each other will not unite to a single new B-spline. So their connection point is not a knot. The only way to get a new knot in an existing B-spline is to decrease the degree. However, you may get many new knots. Thus the better choice is to redraw the B-spline with more control points.
 
-### Changing the Weight {#changing_the_weight}
+### Changing the Weight 
 
 Around every control point you see a dark yellow circle. Its radius sets the weight for the corresponding control point. By default all circles have the radius *1*. This is indicated with a radius constraint for the first control point circle.
 
@@ -179,7 +179,7 @@ In the dragging example you see that a high weight attracts the curve to the con
 
 When you look at the [creation function](#Non-uniform_B-splines.md) for non-uniform rational B-splines you see that a weight of zero would lead to a division by zero. Therefore you can only specify weights greater than zero.
 
-### Display Information {#display_information}
+### Display Information 
 
 Since the form of a B-spline does not tell much about its properties, FreeCAD offers [different tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) to display the properties:
 
@@ -216,7 +216,7 @@ At the moment (FreeCAD 0.19) there are some limitations when using splines you s
 3.  You cannot delete a control point. Also in this case you must redraw the spline
 4.  You cannot create an offset curve for a B-spline using the tool [Draft Offset](Draft_Offset.md).
 
-## Typical Use Cases {#typical_use_cases}
+## Typical Use Cases 
 
 According to the properties of B-splines, there are 3 main use cases:
 
@@ -234,7 +234,7 @@ To define the outer form it is advantageous to use a B-spline because when you c
 
 ![](images/Sketcher_spline-exmple-mixer-sketch.gif )
 
-### Continuity at Geometric Transitions {#continuity_at_geometric_transitions}
+### Continuity at Geometric Transitions 
 
 There are several cases where it is physically necessary to have a certain surface continuity at geometric transitions. Take for example the inner walls of a fluid channel. When you have a change in the diameter of the channel, you don\'t want to have an edge because edges would introduce turbulences. Therefore, like in the motivation example [above](#Motivation.md), one uses splines for this purpose.
 

@@ -51,7 +51,7 @@ Quando si crea o si modifica un multi-materiale facendo doppio clic sull\'albero
 -   Quando un multi-materiale contiene strati con uno spessore di zero, lo spessore è considerato variabile. Gli oggetti Arch che utilizzano il multi-materiale, come i muri e i pannelli, lo trattano di conseguenza e danno a tale strato lo spazio rimanente disponibile, data la propria larghezza o spessore.
 -   Se si nominano i diversi componenti di un multi-materiale \"Telaio\", \"Pannello solido\", \"Pannello vetro\" o \"Persiana\" e si applica quel materiale a una finestra, i materiali assegnati vengono applicati ai corrispondenti componenti della finestra.
 
-## Relazione con IFC {#relazione_con_ifc}
+## Relazione con IFC 
 
 
 <div class="mw-translate-fuzzy">

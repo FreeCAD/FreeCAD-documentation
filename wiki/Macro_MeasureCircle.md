@@ -16,7 +16,7 @@ This macro will report the computed radius and center of a circle given 3 vertic
 
  
 
-## How To Use {#how_to_use}
+## How To Use 
 
 Copy the macro in your macros\' folder and run (see [How to install macros](How_to_install_macros.md) for further details).
 

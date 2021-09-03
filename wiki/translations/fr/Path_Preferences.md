@@ -6,25 +6,25 @@
 
 {{TOCright}}
 
-## Vue d\'ensemble {#vue_densemble}
+## Vue d\'ensemble 
 
 L\'écran des [préférences du module Path](Path_Workbench/fr.md) se trouve dans la fenêtre [Préférences](Preferences_Editor/fr.md) (Menu Édition → Préférences → Path).
 
 Il existe trois onglets: Préférences de travail, Dressups et Couleurs de chemin.
 
-## Préférences des tâches {#préférences_des_tâches}
+## Préférences des tâches 
 
 Il y a trois sections: Général, Post-processeur et Configuration.
 
-### Job préférences → Général {#job_préférences_général}
+### Job préférences → Général 
 
 ![](images/Preference_Path_Tab_01_1.png )
 
-### Job préférences → Post processor {#job_préférences_post_processor}
+### Job préférences → Post processor 
 
 ![](images/Preference_Path_Tab_01_2.png )
 
-### Job Préférences → Setup {#job_préférences_setup}
+### Job Préférences → Setup 
 
 ![](images/Preference_Path_Tab_01_3.png )
 
@@ -32,7 +32,7 @@ Il y a trois sections: Général, Post-processeur et Configuration.
 
 ![](images/Preference_Path_Tab_02.png )
 
-## Path colors {#path_colors}
+## Path colors 
 
 ![](images/Preference_Path_Tab_03.png )
 

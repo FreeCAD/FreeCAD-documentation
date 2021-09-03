@@ -12,12 +12,12 @@ If you are not involved with the development discussed here:<br>
 
 Acest model este un ghid pentru dezvoltarea proiectului FreeCAD. El urmează regulile procesului [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology) . Proiectele sunt colectate în [Development roadmap](Development_roadmap.md).
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 
 <div class="mw-translate-fuzzy">
 
-## Scop și principii {#scop_și_principii}
+## Scop și principii 
 
 This is an development and design effort to implement a robust topological naming in FreeCAD.
 
@@ -48,7 +48,7 @@ More details about topological naming in **[Topological naming problem](Topologi
 
 <div class="mw-translate-fuzzy">
 
-## Brainstorming {#brainstorming_1}
+## Brainstorming 
 
 A lot was discussed in the [\"Robust Reference\" Post](http://forum.freecadweb.org/viewtopic.php?f=10&t=2656) of jrheinlaender.
 
@@ -66,7 +66,7 @@ A lot was discussed in the [\"Robust Reference\" Post](http://forum.freecadweb.o
 
 </div>
 
-### Literatură & Documente {#literatură_documente}
+### Literatură & Documente 
 
 
 <div class="mw-translate-fuzzy">
@@ -108,12 +108,12 @@ A lot was discussed in the [\"Robust Reference\" Post](http://forum.freecadweb.o
 
 -   [Assembly Solving for Neutral Re-Imported Product Models Tahir A. Jauhar, Soonhung Han, Soonjo Kwon , p.108-123 , CAD Journal 2020, Volume 17 Number 1](http://www.cad-journal.net/files/vol_17/CAD_17(1)_2020_108-123.pdf)
 
-### Summary of Work To-Date {#summary_of_work_to_date}
+### Summary of Work To-Date 
 
 
 <div class="mw-translate-fuzzy">
 
-### Sumarul lucrărilor la zi {#sumarul_lucrărilor_la_zi}
+### Sumarul lucrărilor la zi 
 
 As of June 13th, 2016, here is a summary of the work that has been done for this project:
 
@@ -134,14 +134,14 @@ As of June 13th, 2016, here is a summary of the work that has been done for this
 
 ## Organizing
 
-### Information about TNaming {#information_about_tnaming}
+### Information about TNaming 
 
 
 <div class="mw-translate-fuzzy">
 
 ## Organizareg
 
-### Informații despre TNaming {#informații_despre_tnaming}
+### Informații despre TNaming 
 
 Vezi [here](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNaming_Writeup.md) for a decent write-up on ezzieyguywuf\'s github repo. Aici sunt câteva aspecte importante:
 
@@ -167,12 +167,12 @@ Vezi [here](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNami
 
 </div>
 
-## Next actions {#next_actions}
+## Next actions 
 
 
 <div class="mw-translate-fuzzy">
 
-## Acțiuni Viitoare {#acțiuni_viitoare}
+## Acțiuni Viitoare 
 
 -   Defining the scope
 -   Python test cases
@@ -181,12 +181,12 @@ Vezi [here](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNami
 
 </div>
 
-### Next Steps (as of June 13th, 2016) {#next_steps_as_of_june_13th_2016}
+### Next Steps (as of June 13th, 2016) 
 
 
 <div class="mw-translate-fuzzy">
 
-### Foaia de drum (as of June 13th, 2016) {#foaia_de_drum_as_of_june_13th_2016}
+### Foaia de drum (as of June 13th, 2016) 
 
 1.  Determine if opencascade TNaming toolkit fully resolves Topological Naming issue in FreeCAD
     -   What are all instances where Topological Naming is a problem?

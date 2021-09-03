@@ -13,13 +13,13 @@ Dieses Tutorium soll dir beibringen, wie du den <img alt="" src=images/Workbench
 
 ![](images/Robot_Tutorial_RobotSimulation.gif ) *Endergebnis dieses Tutoriums*
 
-## Bevor du beginnst {#bevor_du_beginnst}
+## Bevor du beginnst 
 
 Dieses Tutorium wurde für FreeCAD 0.16.6703 oder höher geschrieben. Wenn du also FreeCAD nicht auf deinem Computer hast, gehe auf die [Herunterladen](Download/de.md) Seite und führe die Installation durch.
 
 Dieses Tutorium zielt auf die Verwendung von [Industrieroboter](http://en.wikipedia.org/wiki/Industrial_robot) ab und nicht mobile oder Serviceroboter (siehe Wikipedia Eintrag auf [moderne Roboter](http://en.wikipedia.org/wiki/Robot#Modern_robots)).
 
-## Einrichten der Szenerie {#einrichten_der_szenerie}
+## Einrichten der Szenerie 
 
 1.  Wechsle zum <img alt="" src=images/Workbench_Robot.svg  style="width:24px;">[Roboter Arbeitsbereich](Robot_Workbench/de.md)
 2.  Erstelle ein neues Dokument, durch auswählen **Datei** → ** Neu** im oberen Menü
@@ -28,7 +28,7 @@ Dieses Tutorium zielt auf die Verwendung von [Industrieroboter](http://en.wikipe
 5.  Zoom um alles anzupassen durch Klicken auf <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> [Alle anpassen](Std_ViewFitAll/de.md) Schaltfläche
 6.  Speichere deine Datei \...
 
-## Einstellen einer Bewegungsbahn {#einstellen_einer_bewegungsbahn}
+## Einstellen einer Bewegungsbahn 
 
 1.  Wechsle zum <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Roboter Arbeitsbereich](Robot_Workbench/de.md)
 2.  Aktiviere den Modell Reiter in der [Baumansicht](tree_view/de.md), durch Klicken darauf
@@ -44,7 +44,7 @@ klicken auf <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:24px;"
 1.  Jeder Weg-Punkt wird mit einem gelben Kreuz markiert und die gesamte Bewegungsbahn wird durch orange Linien dargestellt
 2.  Definiere mindestens drei verschiedene Wegpunkte und füge sie in die Bewegungsbahn ein
 
-## Simulieren der Roboter Bewegung {#simulieren_der_roboter_bewegung}
+## Simulieren der Roboter Bewegung 
 
 1.  Wähle den Roboter und die Bewegungsbahn in der [Baumansicht](tree_view/de.md)
 2.  Wähle die Simulation durch Klick auf <img alt="" src=images/Robot_Simulate.svg  style="width:24px;">[Roboter Simulieren](Robot_Simulate/de.md)

@@ -9,7 +9,7 @@
 
 </div>
 
-## Vista general de las páginas de scripts de Python {#vista_general_de_las_páginas_de_scripts_de_python}
+## Vista general de las páginas de scripts de Python 
 
 -   Páginas relacionadas con la pitón en el Manual:
     -   [Una introducción suave](Manual:A_gentle_introduction/es.md)

@@ -20,7 +20,7 @@ L\'outil <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Courb
 2.  Sélectionnez une surface unique dans la [vue 3D](3D_view/fr.md)
 3.  Pour appeler la commande, effectuez l\'une des opérations suivantes:
     -   Appuyez sur le bouton <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;">
-    -   Utilisez l\'entrée {{MenuCommand|Surfaces → IsoCurve}} dans le menu Curves
+    -   Utilisez l\'entrée **Surfaces → IsoCurve** dans le menu Curves
 4.  Un treillis orienté UV sur la surface est créé.
 5.  Modifiez `NumberU` ou/et `NumberV` pour obtenir plus de courbes.
 

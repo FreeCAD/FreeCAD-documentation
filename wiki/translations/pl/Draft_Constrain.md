@@ -14,7 +14,7 @@ Wiązania są dostępne z większością poleceń środowisk [Rysunek Roboczy](D
 
 ![](images/Draft_Constrain_taskpanel_example.png ) *Gdy kursor jest związany, panel zadań blokuje wartości, które nie są modyfikowane.*
 
-## Używanie wiązań poziomych i pionowych {#używanie_wiązań_poziomych_i_pionowych}
+## Używanie wiązań poziomych i pionowych 
 
 1.  Wybierz środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md) do utworzenia geometrii.
 2.  Wybierz pierwszy punkt. Wymagany jest poprzedni punkt.
@@ -27,7 +27,7 @@ Wiązania są dostępne z większością poleceń środowisk [Rysunek Roboczy](D
 7.  Jeśli polecenie jest nadal aktywne: opcjonalnie zwolnij klawisz **Shift**, aby wyłączyć blokadę.
 8.  Zawsze zwalniaj klawisz **Shift** po zakończeniu wykonywania polecenia.
 
-## Używanie wiązania X, Y, Z {#używanie_wiązania_x_y_z}
+## Używanie wiązania X, Y, Z 
 
 1.  Wybierz środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md) do utworzenia geometrii.
 2.  Wybierz pierwszy punkt. Wymagany jest poprzedni punkt.
@@ -48,8 +48,8 @@ Wiązania są dostępne z większością poleceń środowisk [Rysunek Roboczy](D
 
 Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
--   Domyślny klawisz {{MenuCommand|modyfikujący}}, **Shift**, można zmienić w menu: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Modyfikator ograniczania}}.
--   Skróty klawiszowe {{MenuCommand|X}}, {{MenuCommand|Y}} i {{MenuCommand|Z}} można zmienić: {{MenuCommand|Edycja → Preferencje → Rysunek Roboczy → Ustawienia interfejsu użytkownika → Skróty poleceń}}.
+-   Domyślny klawisz **modyfikujący**, **Shift**, można zmienić w menu: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Modyfikator ograniczania**.
+-   Skróty klawiszowe **X**, **Y** i **Z** można zmienić: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia interfejsu użytkownika → Skróty poleceń**.
 
 
 

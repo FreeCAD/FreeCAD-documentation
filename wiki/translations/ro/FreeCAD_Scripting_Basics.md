@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Programarea script Python in FreeCAD {#programarea_script_python_in_freecad}
+## Programarea script Python in FreeCAD 
 
 FreeCAD este construit de la zero pentru a fi controlat total de scripturile Python. Aproape toate componentele FreeCAD, cum ar fi interfața, conținutul scenelor și chiar reprezentarea acestui conținut în vizualizările 3D, sunt accesibile din interpretorul Python încorporat sau din propriile dvs. scripturi. Drept urmare, FreeCAD este probabil una dintre aplicațiile de inginerie cele mai profunde disponibile astăzi.
 
@@ -70,21 +70,21 @@ Dacă faceți clic dreapta în fereastra interpretului, aveți și alte câteva 
 
 <div class="mw-translate-fuzzy">
 
-### Python Help {#python_help}
+### Python Help 
 
 În meniul de ajutor al FreeCAD veți găsi o intrare intitulată \"Ajutor Python\", care va deschide o fereastră de browser care conține o documentație completă, generată în timp real, a tuturor modulelor Python disponibile pentru interpretorul FreeCAD, inclusiv modulele Python și FreeCAD încorporate , modulele instalate în sistem și modulele suplimentare FreeCAD. Documentația disponibilă depinde de efortul fiecărui dezvoltator de module în documentarea codului său, dar, de obicei, modulele Python au o reputație de a fi destul de bine documentate. Fereastra FreeCAD trebuie să rămână deschisă pentru ca acest sistem de documentare să funcționeze.
 
 
 </div>
 
-In the FreeCAD {{MenuCommand|Help}} menu, you\'ll find an entry labeled {{MenuCommand|Automatic python modules documentation}}, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry {{MenuCommand|Python scripting documentation}} will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section.
+In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python modules documentation**, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry **Python scripting documentation** will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section.
 
 [top](#top.md)
 
 
 <div class="mw-translate-fuzzy">
 
-## Module integrate {#module_integrate}
+## Module integrate 
 
 Deoarece FreeCAD este proiectat să ruleze fără o interfață grafică de utilizator (GUI), aproape toate funcționalitățile sale sunt separate în două grupuri: funcționalitatea Core, numită \"App\", și funcționalitatea GUI, numită \"Gui\". Deci, cele două module principale FreeCAD încorporate se numesc App și Gui. Aceste două module pot fi accesate, de asemenea, din scripturile din afara interpretului, prin numele \"FreeCAD\" și respectiv \"FreeCADGui\".
 
@@ -122,7 +122,7 @@ Afișarea întregului conținut al acestor module este o sarcină puțin contrap
 
 <div class="mw-translate-fuzzy">
 
-### Obiectele App și Gui {#obiectele_app_și_gui}
+### Obiectele App și Gui 
 
 Așa cum am spus, în FreeCAD, totul este separat între nucleu și reprezentare. Aceasta include și obiectele 3D. Puteți accesa definirea proprietăților obiectelor (numite funcții în FreeCAD) prin modulul App și modificați modul în care sunt reprezentate pe ecran prin modulul Gui. De exemplu, un cub are proprietăți care îl definesc (cum ar fi lățimea, lungimea, înălțimea) stocate într-un obiect App și proprietăți de reprezentare (cum ar fi culoarea fețetelor, modul de desenare) stocate într-un obiect Gui corespunzător.
 
@@ -206,7 +206,7 @@ Dacă nu aveți nici un GUI (de exemplul sunten în modul linie-de-comandă), ul
 
 <div class="mw-translate-fuzzy">
 
-### Obiectele Documentului {#obiectele_documentului}
+### Obiectele Documentului 
 
 În FreeCAD, toată munca dvs. se află în interiorul Documentelor. Un document conține geometria și poate fi salvat într-un fișier. Mai multe documente pot fi deschise în același timp. Documentul, ca geometria conținută în interior, are obiecte App și Gui. Obiectul App conține definițiile de geometrie reale, în timp ce obiectul Gui conține vederile diferite ale documentului. Puteți deschide mai multe ferestre, fiecare vizionând munca dvs. cu un alt factor de zoom sau unghi de vedere diferit. Aceste viziuni fac parte din obiectul Gui al documentului dvs.
 
@@ -260,7 +260,7 @@ myView = Gui.ActiveDocument.ActiveView
 
 <div class="mw-translate-fuzzy">
 
-## Utilizarea de module adiționale {#utilizarea_de_module_adiționale}
+## Utilizarea de module adiționale 
 
 Modulele FreeCAD și FreeCADGui sunt singurele responsabile pentru crearea și gestionarea obiectelor din documentul FreeCAD. Ele nu fac de fapt nimic, cum ar fi crearea sau modificarea geometriei. Aceasta deoarece această geometrie poate fi de mai multe tipuri și astfel este gestionată de module suplimentare, fiecare responsabil pentru gestionarea unui anumit tip de geometrie. De exemplu, [Part Workbench](Part_Workbench.md) utilizează kernelul OpenCascade și, prin urmare, este capabil să creeze și să manipuleze [B-rep](http://en.wikipedia.org/wiki/Boundary_representation) type geometry, ceea ce este construit pentru OpenCascade. Modul [Mesh Workbench](Mesh_Workbench.md) poate construi și modifica obiecte tip plase. În acest fel, FreeCAD este capabil să gestioneze o mare varietate de tipuri de obiecte, care pot coexista în același document, iar noi tipuri pot fi adăugate cu ușurință în viitor.
 
@@ -274,7 +274,7 @@ The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and man
 
 <div class="mw-translate-fuzzy">
 
-### Crearea obiectelor {#crearea_obiectelor}
+### Crearea obiectelor 
 
 Fiecare modul are propriul mod de a trata geometria sa, dar un lucru pe care, de obicei, pot să-l facă este să creeze obiecte în document. Dar documentul FreeCAD este, de asemenea, conștient de tipurile de obiecte disponibile furnizate de module:
 
@@ -337,7 +337,7 @@ Part.show(cube)
 
 <div class="mw-translate-fuzzy">
 
-### Modificarea obiectelor {#modificarea_obiectelor}
+### Modificarea obiectelor 
 
 Modificarea unui obiect este făcută în același mod:
 
@@ -366,7 +366,7 @@ myPart.Shape = biggercube
 
 <div class="mw-translate-fuzzy">
 
-### Interogarea obiectelor {#interogarea_obiectelor}
+### Interogarea obiectelor 
 
 Puteți să vă uitați mereu la tipul de obiect ca acesta:
 

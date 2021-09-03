@@ -8,7 +8,7 @@ It is also possible to direct modeling the model, when the history of operations
 
 The easiest way to use defeaturing is by using the [Defeaturing Workbench](Defeaturing_Workbench.md)
 
-## Code snippet {#code_snippet}
+## Code snippet 
 
 Defeaturing can also be used with python: 
 ```python

@@ -14,12 +14,12 @@ L\'outil [LShape Rebar](Arch_Rebar_LShape.md) permet à l\'utilisateur de créer
 
 L\'outil [LShape Rebar](Arch_Rebar_LShape/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
 *Quatre jeux de barres de renforcement en forme de L à l’intérieur d’une [Arch Structure](Arch_Structure/fr.md)*
 
-## Comment faire {#comment_faire}
+## Comment faire 
 
 1.  Sélectionnez n'importe quelle face d'un objet créé précédemment **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
 
@@ -119,7 +119,7 @@ Rebar2 = LShapeRebar.makeLShapeRebar(50, 50, 20, 20,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9) 
 ```
 
-### Édition de la barre d'armement {#édition_de_la_barre_darmement}
+### Édition de la barre d'armement 
 
 Vous pouvez changer les propriétés de la barre d'armement avec la fonction suivante. 
 ```python

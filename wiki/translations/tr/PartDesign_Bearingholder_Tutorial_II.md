@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 {{TutorialInfo
@@ -20,7 +20,7 @@ Please note that this version of FreeCAD is still in an early stage of developme
 
 ~~As the warning at the top of the page already indicates, this **tutorial will NOT WORK unless you compile a special highly experimental branch from FreeCAD source code** and is an introductory tutorial to modeling with the PartDesign workbench in FreeCAD **using Datum planes which are a feature that does not yet exist in most FreeCAD versions**.~~
 
-## Purpose in Brief {#purpose_in_brief}
+## Purpose in Brief 
 
 The purpose of the tutorial is to introduce you to two different work flows for creating a cast part with drafts and fillets. Depending on what other CAD programs you have been using, one or the other might be familiar to you. As a working example we will be modeling a simple bearing holder.
 
@@ -30,17 +30,17 @@ Obviously, to follow through this tutorial you must activate the PartDesign work
 
 ~~You can find my version of the part created in this tutorial [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 here](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_here.md)~~ *The file is no longer available, a new one will be provided at some later date*.
 
-## Veri Tasarımı {#veri_tasarımı}
+## Veri Tasarımı 
 
 The holder should be able to hold a diameter 90mm bearing with a width of up to 33mm (e.g. DIN 630 type 2308 which has an inside diameter of 40mm). The bearing requires a shoulder height of at least 4.5mm in the holder (and on the shaft). The top part of the holder will be bolted to the bottom with two 12mm bolts. The head of such a bolt will require at least 20mm diameter free space. There should be a groove on both sides of the bearing able to hold a standard shaft sealing ring DIN 3760: 38x55x7 or 40x55x7 on one side, 50x68x8 on the other side.
 
 The holder will be a sand cast with a minimum wall thickness of 5mm, a draft angle of 2 degrees, and a minimum fillet radius of 3mm.
 
-## Setting up the skeleton geometry {#setting_up_the_skeleton_geometry}
+## Setting up the skeleton geometry 
 
 ![Sketch of the skeleton geometry\|thumb\|right\|400px](images/HolderTop2-2.png ) Create a new part in the PartDesign workbench. Rename the Body that is created by default to Skeleton. This Body is probably activated already, which you can see by the blue background colour in the feature tree. Create a new sketch on the YZ plane containing the outline of the shaft, bearing and sealing rings. After finishing the sketch, make a revolution feature from it. This skeleton feature will later be used to reference the real geometry to it. This means that if you want to change any dimensions, all you need to do is adjust the skeleton feature\'s dimensions and the rest of the part will update accordingly. ![The skeleton geometry\|thumb\|right\|400px](images/HolderTop2-2-1.jpg )
 
-## The main body {#the_main_body}
+## The main body 
 
 ![Sketch of the first Pad\|thumb\|right\|400px](images/HolderTop2-3.jpg ) Create a new body and make it active. The sketch for the first pad is shown on the right. It is placed on a datum plane with an offset of 5mm (wall thickness) from the skeleton face marking the side of one of the bearing sealing rings. Because all the important dimensions are taken from the skeleton, there are just three dimensions: The machining allowance (3mm) at the base as an offset to the XY-plane, the 5mm wall thickness from the outer diameter of the skeleton, and the two degrees draft angle. Two create the 5mm dimension, you first need to select the outer circle (radius 45mm) of the skeleton geometry as external geometry in the sketcher, and then put in a construction line constrained tangential to this circle and at an angle of two degrees.
 
@@ -51,7 +51,7 @@ You are probably wondering why there is this small straight segment at the botto
 ![Neutral plane for applying draft\|thumb\|right\|400px](images/HolderTop2-7.jpg ) Now it\'s time to create draft and fillets. The draft feature requires a neutral plane, meaning that the geometry that is cut by this plane will remain in its place, while the rest of the face is tilted at the draft angle. Using the bottom of the Pad for this purpose for this is not a good idea, because the wall thickness in the top part of the holder would become less than 5mm. So we create a datum plane offset about 35mm from the XY for this purpose. Activate the Skeleton body and create the plane there, because we will need it for applying draft to other bodies, too.
 ![First body with draft and fillets\|thumb\|right\|400px](images/HolderTop2-8.jpg ) The picture on the right shows the finished first body with draft and fillets applied. Note that the outer (concave) edges have a larger fillet radius of 5mm, again with the purpose of creating a more uniform wall thickness (more than 5mm is not possible because then after machining the inside of the holder the wall thickness would become less than 5mm).
 
-## Adding the bodies for the bolts {#adding_the_bodies_for_the_bolts}
+## Adding the bodies for the bolts 
 
 ![The sketch for the body for the bolts\|thumb\|right\|400px](images/HolderTop2-13.jpg ) The bolts need two cylindrical bodies on both sides of the main Body. It is best to include the 2 degree draft angle in the sketch. I tried revolving a cylinder and later applying a draft, but weird things happened after mirroring it and I couldn\'t put fillets on it because the surface was warped somehow.
 
@@ -60,7 +60,7 @@ The sketch is dimensioned so that the rotation axis is 12mm distance to the oute
 ![The body for the bolts\|thumb\|right\|400px](images/HolderTop2-14.jpg ) Create a revolution from the sketch and apply a fillet of 4mm to the top. This means that after machining away 3mm, a slight radius will remain which helps to avoid a sharp edge where someone could cut their hand when tightening the bolt.
 ![The main body with the two bodies for the bolts\|thumb\|right\|400px](images/HolderTop2-16.jpg ) Create a boolean feature to fuse the main Body and the bolt body. Then create a new body for the other side. Duplicate the sketch of the revolution, move it to this body and create the second body for the bolts (mirroring a Body is not supported yet so you need to redo most of it). Then fuse this second body into the main Body as well. Finally, apply a large fillet on the edge created by the boolean fuse operation. The largest I could get was 4mm.
 
-## Hollowing out the main body {#hollowing_out_the_main_body}
+## Hollowing out the main body 
 
 ![The first Pad of the cut-out body inside the main body\|thumb\|right\|300px](images/HolderTop2-9.jpg ) We will now work on the inside of the holder and hollow it out to make space for the bearing and sealing rings. When doing this of course we need to keep in mind the 3mm machining allowance. Since this tutorial teaches the multi-body method, we will create the inside geometry as a separate body and then cut it out of the main body with a boolean operation.
 
@@ -81,7 +81,7 @@ For the rest of the machining, create a new Body. The bottom of the holder will 
 ![The machining Body\|thumb\|right\|400px](images/HolderTop2-18.jpg ) You can mirror the revolution on the YZ-axis. The picture on the right shows the \"machining\" Body. Of course, most of the dimensions of the Pads and Revolutions are not important as long as there is plenty of overlap.
 ![The finished Holder with machining\|thumb\|right\|400px](images/HolderTop2-19.jpg ) Finally, create a boolean operation to cut the machining Body out of the main Body. If you want a nice visual effect, you can colour the machined surfaces differently from the rest of the part. This is also a useful optical feedback showing you whether you forgot to machine somewhere.
 
-## Part One {#part_one}
+## Part One 
 
 [PartDesign Bearingholder Tutorial I](PartDesign_Bearingholder_Tutorial_I.md)
 

@@ -38,7 +38,7 @@ und einen Plan und eine Schnittansicht davon erstellen:
 <div class="mw-translate-fuzzy">
 
 -   Erstelle ein neues Dokument und wechsle zum [Architektur Arbeitsbereich](Arch_Module/de.md).
--   Öffne das Menü {{MenuCommand|Bearbeiten → Einstellungen → Entwurf → Gitter und Fang}} und setze:
+-   Öffne das Menü **Bearbeiten → Einstellungen → Entwurf → Gitter und Fang** und setze:
     -   **Hauptlinien alle** `10`.
     -   **Gitterabstand** `1000mm`, um ein auf einem Meter basierendes Raster zu haben, das für die Größe unseres Gebäudes geeignet ist.
     -   **Rastergröße** `100 Zeilen`.

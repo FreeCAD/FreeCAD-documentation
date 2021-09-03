@@ -36,7 +36,7 @@ If there are any issues with the HomeBrew Cask or Formula you may report them to
 
 Bu sayfada, FreeCAD yükleyicinin kullanımı ve özellikleri açıklanmaktadır. Ayrıca kaldırma talimatlarını içerir. Şimdi kuralım ve çalışmaya [başlayalım](Getting_started.md)!
 
-### Kolay Kurulum {#kolay_kurulum}
+### Kolay Kurulum 
 
 FreeCAD yükleyici, bir disk imaj dosyasına eklenmiş bir uygulama paketi (.app) olarak sağlanır.
 
@@ -48,7 +48,7 @@ Son sürüm yükleme dosyasını [İndirme sayfasından](Download.md) indirebili
 
 İşte bu kadar. FreeCAD\'i başlatmak için uygulamaya tıklayın. \"FreeCAD, kimliği belirsiz geliştiriciden olduğu için açılmıyor.\" Bu iletiye sahipseniz, Uygulama klasörünü açın ve uygulamaya sağ tıklayın, ardından uygulamayı açmak için aç ve kabul et seçeneğine tıklayın.
 
-### Uygulamayı Kaldırma {#uygulamayı_kaldırma}
+### Uygulamayı Kaldırma 
 
 Şu anda FreeCAD için bir kaldırıcı yok. FreeCAD\'i ve tüm yüklü bileşenleri tamamen kaldırmak için, aşağıdaki dosyaları ve klasörleri Çöp Kutusu\'na sürükleyin:
 

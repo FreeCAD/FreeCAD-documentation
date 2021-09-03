@@ -22,12 +22,12 @@ Per creare l\'immagine, non è necessario conoscere (o definire) il tipo di dati
 
 Una descrizione dettagliata delle informazioni Miba si può trovare in: <http://miba.juergen-riegel.net/>
 
-## Miba in FreeCAD {#miba_in_freecad}
+## Miba in FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-## Miba in FreeCAD {#miba_in_freecad_1}
+## Miba in FreeCAD 
 
 Quando si sceglie di salvare l\'immagine con un formato di file (JPG e PNG) che può contenere un commento è possibile decidere se scrivere un commento personale o inserire le informazioni MIBA nei Campi commento (default):
 
@@ -36,7 +36,7 @@ Quando si sceglie di salvare l\'immagine con un formato di file (JPG e PNG) che 
 
 <img alt="" src=images/Save_picture.png  style="width:600px;">
 
-## Produrre immagini Miba tramite script {#produrre_immagini_miba_tramite_script}
+## Produrre immagini Miba tramite script 
 
 
 ```python

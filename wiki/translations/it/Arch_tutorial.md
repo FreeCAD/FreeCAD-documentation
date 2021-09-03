@@ -111,7 +111,7 @@ In questo momento, però, l\'ambiente Arch, come il resto di FreeCAD, soffre di 
 
 </div>
 
-## Flussi di lavoro tipici {#flussi_di_lavoro_tipici}
+## Flussi di lavoro tipici 
 
 
 <div class="mw-translate-fuzzy">
@@ -149,7 +149,7 @@ Ecco come appare il file dopo essere stato aperto in FreeCAD. Con lo strumento [
 
 L\'[importatore DXF](Draft_DXF/it.md) (che si occupa anche dei file DWG, siccome quando si importano i file DWG, essi sono semplicemente convertiti prima in DXF ), raggruppa gli oggetti importati dai layer. In FreeCAD non ci sono i layer, ma ci sono i [gruppi](Std_Group/it.md). I gruppi offrono un modo simile per organizzare gli oggetti dei file, ma non hanno delle proprietà specifiche che applicano al loro contenuto, come fanno i layer di AutoCAD. I gruppi possono essere annidati all\'interno di altri gruppi, il che è molto comodo. La prima cosa che potremmo voler fare qui, è quella di creare un nuovo [gruppo](Std_Group/it.md) nella [vista albero](Document_structure/it.md), allora fare clic destro sull\'icona del documento, aggiungere un gruppo, fare clic destro su di esso, rinominarlo \"base 2D plans\" e poi trascinarvi dentro tutti gli altri oggetti.
 
-## Costruire i muri {#costruire_i_muri}
+## Costruire i muri 
 
 
 <div class="mw-translate-fuzzy">
@@ -219,7 +219,7 @@ Ora spostiamo i muri in orizzontale, nella loro posizione corretta. Dato che abb
 
 Infine, ho cambiato il colore di alcuni muri in un colore simil-mattone (così è più facile differenziarli), e fatto una piccola correzione. Siccome alcuni muri non vanno fino al tetto, ma si fermano ad una altezza di 2.60m, ho corretto la loro altezza.
 
-## Elevare la struttura {#elevare_la_struttura}
+## Elevare la struttura 
 
 Dato che dovremo tagliare i muri con un volume di sottrazione, vediamo se non ci sono altri oggetti che dovranno essere tagliati in quel modo. Ci sono, sono alcune delle colonne. Questa è una buona occasione per introdurre un secondo oggetto arch: la [Struttura](Arch_Structure/it.md). Gli oggetti Struttura si comportano più o meno come le pareti, ma non sono fatti per seguire una linea di base. Preferiscono lavorare su un profilo che viene estruso (lungo un contorno o anche no). Qualsiasi oggetto piatto può essere usato come profilo di una struttura, con un solo requisito: deve costituire una forma chiusa.
 
@@ -262,7 +262,7 @@ Ricordate che per [Aggiungi](Arch_Add/it.md) e [Rimuovi](Arch_Remove/it.md), l\'
 
 {{Note|Una nota sulle addizioni e sottrazioni|Gli oggetti Arch che supportano tali aggiunte e sottrazioni (tutti gli oggetti tranne gli aiuti "visivi" come gli assi) tengono traccia di tali oggetti tramite due proprietà, rispettivamente "Additions" e "Subtractions", che contengono un elenco di collegamenti agli altri oggetti da sottrarre o da aggiungere. Uno stesso oggetto può comparire in vari elenchi di diversi altri oggetti, come succede in questo caso per il volume di sottrazione. Ciascuno dei padri vorrebbe ingoiarlo nella vista ad albero, quindi di solito "vive" nell'ultimo. Per qualsiasi oggetto, si possono sempre modificare tali elenchi, facendo doppio clic su di esso nella vista ad albero, in modo che FreeCAD entri in modalità di modifica. Premendo il tasto ESC si esce dalla modalità di modifica.}}
 
-## Creare i tetti {#creare_i_tetti}
+## Creare i tetti 
 
 Ora, per completare la struttura, rimangono da creare il tetto e le piccole solette interne. Ancora una volta, il modo più semplice è quello di disegnare i loro profili sulla parte superiore della sezione, con lo strumento [Polilinea](Draft_Wire/it.md). Qui ho disegnato tre profili su uno sopra l\'altro (nell\'immagine qui sotto li ho spostati in modo che si possano vedere meglio). Quello verde sarà utilizzato per i bordi laterali del solaio di copertura, poi quello blu per le parti laterali, e quelli rossi per la parte centrale, che si trova sopra il blocco bagno:
 
@@ -282,17 +282,17 @@ Ora deve essere risolta un\'ultima cosa, c\'è una piccola soletta in bagno, che
 
 <img alt="" src=images/Arch_tutorial_16.jpg  style="width:1024px;">
 
-## Pavimenti, scale e camino {#pavimenti_scale_e_camino}
+## Pavimenti, scale e camino 
 
 Ora, la struttura è completa, dobbiamo solo più costruire alcuni piccoli oggetti.
 
-### Il camino {#il_camino}
+### Il camino 
 
 Cominciamo con il camino. Ora sapete già come funziona, vero? Disegnare un paio di [contorni](Draft_Wire/it.md) chiusi, spostarli fino alla loro giusta altezza con lo strumento [Sposta](Draft_Move/it.md), estruderli con lo strumento [Estendi](Draft_Trimex/it.md), trasformare il più grande in una [struttura](Arch_Structure/it.md), e sottrarre quelli più piccoli. Notate come il tubo del camino non è stato disegnato sulla vista in pianta, ma ho trovato la sua posizione trascinando le linee blu dalle viste in sezione.
 
 <img alt="" src=images/Arch_tutorial_17.jpg  style="width:1024px;">
 
-### I pavimenti {#i_pavimenti}
+### I pavimenti 
 
 I pavimenti non sono ben rappresentati nei disegni di base. Se si esaminano le sezioni, non è possibile sapere dove sono e quanto sono spesso le solette. Quindi io suppongo che i muri sono situati sopra ai blocchi della fondazione, alla quota 0.00, e che anche le solette di 15 centimetri di spessore sono posate su quei blocchi. Quindi i pavimenti non passano sotto ai muri, ma intorno a loro. Potremmo farli creando prima una grande lastra rettangolare poi sottraendo le pareti, ma ricordate, le operazioni di sottrazione ci sono costate. Meglio farlo in pezzi più piccoli, sarà \"più conveniente\" in termini di calcolo, e se lo facciamo in modo intelligente, stanza per stanza, questo sarà anche utile dopo per calcolare le aree del pavimento:
 
@@ -302,7 +302,7 @@ Una volta che i contorni sono disegnati, trasformarli semplicemente in [struttur
 
 <img alt="" src=images/Arch_tutorial_19.jpg  style="width:1024px;">
 
-### Le scale {#le_scale}
+### Le scale 
 
 Ora le scale. Conosciamo un nuovo strumento Arch, lo strumento [Scala](Arch_Stairs/it.md). Questo strumento è ancora in una fase molto precoce di sviluppo, al momento in cui sto scrivendo, quindi non aspettatevi troppo da lui, ma è già molto utile per rendere semplici le scale dritte. è importante sapere che l\'utensile scala è pensato per costruire scale da un pavimento piano fino ad un muro. In altre parole, se visto dall\'alto, l\'oggetto scale occupa esattamente lo spazio che occupa nella vista in pianta, quindi l\'ultimo scalino non viene disegnato (ma è ovviamente tenuto in conto nel calcolo altezze).
 
@@ -324,7 +324,7 @@ Non dimenticate inoltre di tagliare la colonna che attraversa le scale, perché 
 
 Bene! Tutto il duro lavoro difficile ormai è fatto, andiamo avanti con il lavoro molto difficile!
 
-## Porte e finestre {#porte_e_finestre}
+## Porte e finestre 
 
 Le [Finestre](Arch_Window/it.md) sono oggetti abbastanza complessi. Essi sono utilizzati per creare tutti i tipi di oggetti \"inseriti\", come finestre o porte. Sì, in FreeCAD, le porte sono solo un particolare tipo di finestra, e pensandoci bene, anche nella vita reale, o no? Lo strumento [Finestra](Arch_Window/it.md) attualmente può ancora essere un po\' difficile da usare, ma consideratelo un compromesso, siccome è stato costruito per la massima potenza. Con esso si può costruire quasi ogni tipo di finestra che riuscite ad immaginare. Ma appena lo strumento disporrà di ulteriori modelli predefiniti, la situazione migliorerà certamente.
 
@@ -338,7 +338,7 @@ Gli oggetti [Finestra](Arch_Window/it.md) funzionano così: Si basano su un dise
 
 In FreeCAD, ci sono due modi per creare tali oggetti: utilizzando un modello predefinito, o creando da zero il disegno della finestra. Qui vedremo entrambi i metodi. Ma ricordate che il metodo del modello predefinito non fa altro che creare, per voi, il disegno dell\'oggetto e definire le estrusioni necessarie.
 
-### Usare un modello predefinito {#usare_un_modello_predefinito}
+### Usare un modello predefinito 
 
 Quando si preme lo strumento [Finestra](Arch_Window/it.md) con nessun oggetto selezionato, siete invitati a scegliere un disegno 2D, o ad utilizzare uno dei preset. Usiamo il preset \"Simple Door\" per posizionare la porta d\'ingresso principale del nostro modello. Dategli una larghezza di 1 m, una altezza di 2.45m, uno spessore W1 di 0,15 m, e lasciate gli altri parametri a 0.05m. Quindi fate clic nell\'angolo in basso a sinistra del muro, e vedrete che viene creata la nuova porta:
 
@@ -352,7 +352,7 @@ A sinistra abbiamo una seconda porta, esattamente come questa. Invece di creare 
 
 Quindi ora tutto quello che dobbiamo fare è selezionare la porta, premere il tasto [Clona](Draft_Clone/it.md), poi spostare il clone nella posizione corretta con lo strumento [Sposta](Draft_Move/it.md).
 
-### Organizzare il modello {#organizzare_il_modello}
+### Organizzare il modello 
 
 <img alt="" src=images/Arch_tutorial_24.jpg  style="width:400px;">
 
@@ -385,7 +385,7 @@ Dopo uno sguardo più attento alla vista in prospetto, ho rilevato un altro erro
 
 Ora possiamo guardare alle cose veramente interessanti: come progettare le finestre personalizzate.
 
-### Creare delle finestre personalizzate {#creare_delle_finestre_personalizzate}
+### Creare delle finestre personalizzate 
 
 
 <div class="mw-translate-fuzzy">
@@ -429,7 +429,7 @@ L\'ultimo pezzo mancante è un segmento di muro che non appare nella vista in pi
 
 Pronto? Non proprio. Guardate l\'immagine qui sopra, abbiamo creato le porte con un telaio di 5cm, che ricordate era il valore di default del preset. Le altre finestre, però, hanno uno spessore del telaio di 2,5 centimetri. Questo deve essere risolto.
 
-### Modificare le finestre {#modificare_le_finestre}
+### Modificare le finestre 
 
 Abbiamo già visto come costruire e aggiornare i componenti della finestra, tramite la modalità di modifica della finestra, ma possiamo anche modificare il disegno a loro sottostante. Le finestre preimpostate non sono diverse da quelle personalizzate, ma semplicemente lo strumento [Finestra](Arch_Window/it.md) ha creato al nostro posto il disegno sottostante. Selezionare l\'oggetto door (l\'originale, non la copia, ricordiamoci che abbiamo fatto un clone), ed espanderlo nella vista ad albero. Ecco il nostro schizzo. Fare doppio clic su di esso per entrare in modalità di modifica.
 
@@ -447,7 +447,7 @@ Quando noi modifichiamo il nostro schizzo porta, possiamo constatare che è prod
 
 Ora basta modificare le distanze 5 cm tra la linea esterna e la linea interna, facendo doppio clic su di esse e cambiando il loro valore a 2,5 cm (Ricordate che al momento sto scrivendo questo, le unità non sono ancora pienamente funzionanti ). Appena clicchiamo sul pulsante \"OK\", la nostra porta (e il suo clone) vengono aggiornati.
 
-## Lavorare senza il supporto 2D {#lavorare_senza_il_supporto_2d}
+## Lavorare senza il supporto 2D 
 
 Fino ad ora il nostro lavoro è stato relativamente facile, perché avevamo i sottostanti disegni 2D su cui basare il nostro lavoro. Ma ora, dobbiamo costruire la facciata opposta e l\'atrio di vetro, e le cose diventano più complicate perché il disegno della facciata opposta ha un sacco di errori, non rappresenta l\'atrio, e noi non abbiamo il disegno per i muri interni dell\'atrio. Quindi dovremo inventare e crearci alcune cose da soli. Date uno sguardo a [reference pictures](http://www.pedrokok.com.br/2010/02/residencia-artigas-sao-paulo-sp/img_8265-533px/) per capire come sono fatte le cose. O fate come volete!
 
@@ -493,7 +493,7 @@ Dopo che la finestra viene ruotata e posizionata, l\'atrio è completo:
 
 <img alt="" src=images/Arch_tutorial_40.jpg  style="width:1024px;">
 
-## Modifiche e correzioni {#modifiche_e_correzioni}
+## Modifiche e correzioni 
 
 Ora, se guardiamo la nostra elevazione da dietro e lo confrontiamo con il piano, vediamo che ci sono alcune differenze che devono essere corrette. Vale a dire, le finestre delle camere sono più piccole di quanto sembravano all\'inizio e si deve allungare le pareti. Per correggere questo si deve tagliare i pavimenti:
 
@@ -528,7 +528,7 @@ Prima di iniziare ad esportare delle cose, è interessante fare una considerazio
 
 <img alt="" src=images/Arch_tutorial_44.jpg  style="width:1024px;">
 
-### Esportazione in IFC e altre applicazioni {#esportazione_in_ifc_e_altre_applicazioni}
+### Esportazione in IFC e altre applicazioni 
 
 <img alt="" src=images/Arch_tutorial_45.jpg  style="width:400px;">
 
@@ -563,7 +563,7 @@ Per un rendering veloce, l\'ambiente Raytracing può già fare un buon lavoro, c
 
 L\'ambiente Raytracing offre ancora un controllo molto limitato sui materiali, ma nei modelli sono definiti l\'illuminazione e gli ambienti che possono essere completamente personalizzati.
 
-### Disegni 2D {#disegni_2d}
+### Disegni 2D 
 
 Certamente l\'uso più importante di BIM è quello per produrre automaticamente i disegni 2D . In FreeCAD questo viene fatto con lo strumento [Piano di sezione](Arch_SectionPlane/it.md). Questo strumento consente di posizionare nella vista 3D un oggetto \"piano di sezione\" orientabile per produrre piante, sezioni e prospetti. I piani di sezione devono sapere quali oggetti devono considerare, quindi dopo averne creato uno, è necessario aggiungergli degli oggetti ad essa con lo strumento [Aggiungi](Arch_Add/it.md). È possibile aggiungere singoli oggetti, o, più comodamente, un gruppo, un piano o un intero edificio. Questo permette di cambiare facilmente la portata di un certo piano di sezione, aggiungendo o rimuovendo gli oggetti a/da quel gruppo. Qualsiasi modifica a questi oggetti si riflette nelle viste prodotte dal piano di sezione.
 
@@ -613,7 +613,7 @@ D\'altra parte, il risultato finale è più facile da manipolare, e dato che le 
 
 Nella immagine qui sopra, la geometria è l\'output diretto del piano di sezione, ma sono stati aggiunti alcuni altri oggetti di Draft, come le dimensioni e i poligoni tratteggiati, e da questi usando lo strumento [Drawing](Draft_Drawing/it.md) è stato prodotto un altro oggetto vista con la stessa scala e gli stessi valori di offset. In futuro, tali operazioni potranno essere effettuate direttamente sulla pagina di Drawing, lasciando il modello completamente pulito.
 
-### Estrarre le quantità {#estrarre_le_quantità}
+### Estrarre le quantità 
 
 
 <div class="mw-translate-fuzzy">

@@ -44,17 +44,17 @@ Si la forme est une ligne, la coordonnée sera le centre de la ligne.
 
 :   Crée le cercle dans la vue de droite sur la forme choisie, 1 ,2 ou 3
 
-### Alignement sur : {#alignement_sur}
+### Alignement sur : 
 
 **Forme 1, 2, 3**
 
 :   Les formes, dans l'ordre de leurs sélections.
 
-### Afficher le centre : {#afficher_le_centre}
+### Afficher le centre : 
 
 :   Si cette case est cochée, un point sur le centre du cercle construit sera créé
 
-### Associer les couleurs {#associer_les_couleurs}
+### Associer les couleurs 
 
 :   Si cette case est cochée, le cercle prendra la couleur de la vue concernée,
 

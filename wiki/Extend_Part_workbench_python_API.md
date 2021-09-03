@@ -14,18 +14,18 @@ The goal of this project is to provide wrappers for all relevant 2D geometry typ
 4.  Wrap further available 2D algorithms like intersection and projection to allow full featured working with the new geometry types
 5.  Extend the 3D API where needed to work with 2D types. This includes 3D geometry and topology, e.g. pcurves, projection and creation.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  Full 2D geometry API supporting all relevant geometry types, advanced creation and manipulation possibilities for 2D geometry as well as interoperability between 2D and 3D geometry and topology
 2.  Full Documentation of the API in the Python wrapper itself accessible in the code completion of the console
 3.  Documentation and usage examples in the Wiki
 4.  Test cases verifying the working of the new wrapper
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 When finished with the geometry API there is plenty of room in extending the topology API with advanced functionality and more algorithms. This involves API design, as many algorithms cannot be simply wrapped as functions. OpenCASCADE is very feature rich and creating an full-featured wrapper is a huge task.
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -37,6 +37,6 @@ When finished with the geometry API there is plenty of room in extending the top
 
 Easy
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

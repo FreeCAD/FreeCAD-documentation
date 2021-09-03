@@ -19,7 +19,7 @@ Actuellement non pris en charge dans FreeCAD.
 
 Depuis la version 0.19.23074 de FreeCAD, la commande [Std Exporter](Std_Export/fr.md) peut exporter au format gITF.
 
-### Solutions d\'exportation alternatives {#solutions_dexportation_alternatives}
+### Solutions d\'exportation alternatives 
 
 Pour les versions antérieures, ces solutions de contournement peuvent être utilisées:
 
@@ -34,7 +34,7 @@ cqparts.Assembly.importer('step')('myfile.stp').exporter('gltf')('myfile.gltf')
 
 Source: [fil du forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=31680&p=449977#p449977)
 
-## En relation {#en_relation}
+## En relation 
 
 -   [Import Export](Import_Export/fr.md)
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)

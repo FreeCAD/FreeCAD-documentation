@@ -28,12 +28,12 @@ In questo tutorial ci occuperemo di come esportare file STL / OBJ da FreeCAD. Da
 
 </div>
 
-## Sample part {#sample_part}
+## Sample part 
 
 
 <div class="mw-translate-fuzzy">
 
-## La parte modello {#la_parte_modello}
+## La parte modello 
 
 È possibile utilizzare un file di FreeCAD, ma si può anche creare velocemente un file di test con queste azioni:
 
@@ -49,12 +49,12 @@ In questo tutorial ci occuperemo di come esportare file STL / OBJ da FreeCAD. Da
 
 </div>
 
-## Export Method 1: Using \"File → Export\" {#export_method_1_using_file_export}
+## Export Method 1: Using \"File → Export\" 
 
 
 <div class="mw-translate-fuzzy">
 
-## Esportazione metodo 1: Usando \"File → Esporta\" {#esportazione_metodo_1_usando_file_esporta}
+## Esportazione metodo 1: Usando \"File → Esporta\" 
 
 -   Selezionare il solido da esportare nella vista ad albero.
 -   Scegliere ** File** → ** Export...** e impostare il tipo di file su \"STL mesh (\*.stl \*.ast)\".
@@ -63,12 +63,12 @@ In questo tutorial ci occuperemo di come esportare file STL / OBJ da FreeCAD. Da
 
 </div>
 
-## Export Method 2: Using the Mesh Workbench in FreeCAD {#export_method_2_using_the_mesh_workbench_in_freecad}
+## Export Method 2: Using the Mesh Workbench in FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-## Esportazione metodo 2: Usando l\'ambiente Mesh di FreeCAD {#esportazione_metodo_2_usando_lambiente_mesh_di_freecad}
+## Esportazione metodo 2: Usando l\'ambiente Mesh di FreeCAD 
 
 -   Passare all\'ambiente [Mesh](Mesh_Workbench/it.md).
 -   Selezionare il solido da rendere mesh, in vista ad albero
@@ -83,12 +83,12 @@ In questo tutorial ci occuperemo di come esportare file STL / OBJ da FreeCAD. Da
 
 </div>
 
-## Which Method to choose ? {#which_method_to_choose}
+## Which Method to choose ? 
 
 
 <div class="mw-translate-fuzzy">
 
-## Quale metodo scegliere? {#quale_metodo_scegliere}
+## Quale metodo scegliere? 
 
 -   Il metodo 2 deve essere quello preferito. Tra i motivi:
 -   Quando si vuole convertire più di un Corpo si possono usare gli strumenti di [Mesh](Mesh_Workbench/it.md). Ad esempio, è possibile fondere le mesh prima dell\'esportazione.

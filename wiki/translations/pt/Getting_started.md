@@ -51,7 +51,7 @@ Antes de mais (se ainda não o fez) transfira e instale o FreeCAD. Veja a págin
 
 <div class="mw-translate-fuzzy">
 
-## Explorando o FreeCAD {#explorando_o_freecad}
+## Explorando o FreeCAD 
 
 
 </div>
@@ -113,7 +113,7 @@ A página inicial do FreeCAD permite saltar rapidamente para uma das bancada de 
 
 </div>
 
-## Navegação no espaço 3D {#navegação_no_espaço_3d}
+## Navegação no espaço 3D 
 
 
 <div class="mw-translate-fuzzy">
@@ -180,7 +180,7 @@ Existem também diversas vistas predefinidas (vista de cima, vista de frente, et
 
 </div>
 
-## Primeiros passos com o FreeCAD {#primeiros_passos_com_o_freecad}
+## Primeiros passos com o FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -206,7 +206,7 @@ Pode alternar bancadas de trabalho a qualquer altura, e também [personalizar](I
 
 </div>
 
-## Trabalhar com as bancadas de trabalho PartDesign (desenho de peças) Sketcher (esboço) {#trabalhar_com_as_bancadas_de_trabalho_partdesign_desenho_de_peças_sketcher_esboço}
+## Trabalhar com as bancadas de trabalho PartDesign (desenho de peças) Sketcher (esboço) 
 
 
 <div class="mw-translate-fuzzy">
@@ -242,7 +242,7 @@ Obtendo um objeto como este:
 
 A qualquer altura, pode selecionar o sketch (esboço) original e modificá-lo, ou alterar os parâmetros de extrusão das operações \"pad\" ou \"pocket\", atualizando assim o objeto final.
 
-## Trabalhando com as bancadas de trabalho \"Draft\" (traço) e \"Arch\"(Arquitetura) {#trabalhando_com_as_bancadas_de_trabalho_draft_traço_e_archarquitetura}
+## Trabalhando com as bancadas de trabalho \"Draft\" (traço) e \"Arch\"(Arquitetura) 
 
 
 <div class="mw-translate-fuzzy">
@@ -293,7 +293,7 @@ Mais em[ Tuturials](Tutorials.md).
 
 <div class="mw-translate-fuzzy">
 
-## Programação (Scripting) {#programação_scripting}
+## Programação (Scripting) 
 
 
 </div>

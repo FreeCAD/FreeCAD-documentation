@@ -42,7 +42,7 @@ Atelierul Part oferă instrumente de bază pentru lucrul cu componente solide: p
 
 </div>
 
-### Desen 2 D {#desen_2_d}
+### Desen 2 D 
 
 Atelierul Desen 2D (Draft) oferă instrumente pentru a efectua sarcini de bază de desenare 2D CAD: linii, cercuri etc. și o serie de instrumente generice, cum ar fi mișcarea, rotirea sau scalarea. Acesta oferă, de asemenea, mai multe ajutoare de desen, cum ar fi grila și ancorarea. Este în principal destinat să deseneze liniile directoare pentru obiectele Arch, dar servește și ca \"briceag elvețian\" bun la toate în FreeCAD.
 
@@ -103,7 +103,7 @@ Sketcher Workbench conține instrumente pentru a construi și edita obiecte comp
 
 </div>
 
-### Proiectarea Pieselor {#proiectarea_pieselor}
+### Proiectarea Pieselor 
 
 Atelierul Piese(Part Design) conține instrumente avansate pentru a construi părți solide. Acesta conține, de asemenea, toate instrumentele de la sketcher. Deoarece nu poate produce decât forme solide (regula numărul unu al Part Design), este atelierul principal de utilizat la proiectarea pieselor (Parts) care urmează a fi fabricate sau imprimate 3D, deoarece veți obține întotdeauna un obiect imprimabil.
 
@@ -147,7 +147,7 @@ Atelierul Architectură (sau pe scurt Arch) furnizează la FreeCAD instrumente p
 
 </div>
 
-### Desen 3 D {#desen_3_d}
+### Desen 3 D 
 
 
 <div class="mw-translate-fuzzy">
@@ -167,7 +167,7 @@ The Drawing Workbench handles the creation and manipulation of 2D drawing sheets
   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> [Symbol](Drawing_Symbol.md)                        Adaugă conținutul unui fișier SVG ca simbol în foii curente de desen   <img alt="" src=images/Drawing_DraftView.png  style="width:32px;"> [Draft view](Drawing_DraftView.md)       Inserie o vizualizare grafică specială a obiectului selectat în foaia de desen curent
   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Save](Drawing_Save.md)                                Salvează foaia curentă ca fișier SVG                                                                                                                                                       
 
-### Alte ateliere integrate {#alte_ateliere_integrate}
+### Alte ateliere integrate 
 
 Rezumând cele de mai sus, cele mai importante instrumente ale FreeCAD, sunt disponibile mai multe ateliere de lucru, printre care:
 
@@ -193,7 +193,7 @@ permite crearea și manipularea datelor din foaia de calcul, care pot fi extrase
 
 </div>
 
-### Ateliere externe {#ateliere_externe}
+### Ateliere externe 
 
 Există, de asemenea, multe alte ateliere de lucru foarte folositoare produse de membrii comunității FreeCAD. Deși nu sunt incluse într-o instalare standard a FreeCAD, ele sunt ușor de instalat ca plugin-uri. Acestea sunt toate menționate în [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) repertoriu. Printre cele mai dezvoltate sunt:
 

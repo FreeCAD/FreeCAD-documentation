@@ -11,7 +11,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Досвід користувачів {#досвід_користувачів}
+## Досвід користувачів 
 
 
 </div>
@@ -35,9 +35,10 @@
 <img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual:Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
 
 
-{{Clear}}
 
-## Table of contents {#table_of_contents}
+
+
+## Table of contents 
 
 
 <div class="mw-translate-fuzzy">
@@ -60,7 +61,7 @@
 
 ## Долучитися
 
-### Як долучитися до проекту {#як_долучитися_до_проекту}
+### Як долучитися до проекту 
 
 
 <div class="mw-translate-fuzzy">
@@ -72,7 +73,7 @@
 
 The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
-### Сирцевий код {#сирцевий_код}
+### Сирцевий код 
 
 
 <div class="mw-translate-fuzzy">
@@ -82,7 +83,7 @@ FreeCAD може бути зібрано з використанням CMake. П
 
 </div>
 
-### Про розробку {#про_розробку}
+### Про розробку 
 
 
 <div class="mw-translate-fuzzy">

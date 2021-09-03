@@ -24,7 +24,7 @@ Acest instrument <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

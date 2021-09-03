@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -23,7 +23,7 @@ El borrador DXF es un módulo de software utilizado por el <img alt="" src=image
 
 ## Importación
 
-The importer has two modes, settable under {{MenuCommand|Edit → Preferences → Import/Export → DXF}}: One is built-in, C++-based and fast, the other is legacy, coded in Python, slower, and requires the installation of an add-on, but can sometimes handle some entities better and can create more refined FreeCAD objects. Both support all DXF versions starting from R12.
+The importer has two modes, settable under **Edit → Preferences → Import/Export → DXF**: One is built-in, C++-based and fast, the other is legacy, coded in Python, slower, and requires the installation of an add-on, but can sometimes handle some entities better and can create more refined FreeCAD objects. Both support all DXF versions starting from R12.
 
 Los objetos 3D dentro de un archivo DXF se almacenan bajo un blob binario ACIS/SAT, que por el momento no puede ser leído por FreeCAD. Sin embargo, entidades más sencillas como los 3DFACEs son soportados.
 

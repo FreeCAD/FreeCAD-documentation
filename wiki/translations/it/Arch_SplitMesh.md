@@ -26,7 +26,7 @@ Questo strumento suddivide un oggetto [Mesh](Mesh_Workbench/it.md) selezionato n
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un oggetto mesh.
-2.  Premere il pulsante **<img src="images/Arch_SplitMesh.svg" width=16px> [Dividi Mesh](Arch_SplitMesh/it.md)** in {{MenuCommand|Arch → Utilità → Dividi Mesh}}.
+2.  Premere il pulsante **<img src="images/Arch_SplitMesh.svg" width=16px> [Dividi Mesh](Arch_SplitMesh/it.md)** in **Arch → Utilità → Dividi Mesh**.
 
 
 </div>

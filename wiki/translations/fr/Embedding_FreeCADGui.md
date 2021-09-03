@@ -8,7 +8,7 @@ Mais, avec un peu de \"hacking\", il est possible d\'importer toute l\'interface
 
 Nous vous montrons ici, 3 méthodes différentes.
 
-## En utilisant directement le widget vue 3D de FreeCAD {#en_utilisant_directement_le_widget_vue_3d_de_freecad}
+## En utilisant directement le widget vue 3D de FreeCAD 
 
 Soyez conscient qu\'il y a d**\'énormes problèmes** dans cette approche. La gestion des événements **Qt** ne semble pas fonctionner (pourquoi ?? aucune idée !), et, si vous utilisez la vue 3D, du menu contextuel, l\'application se bloque. Une meilleure façon serait de créer votre propre vue 3D **SoQtExaminerViewer** ou **SoQtViewer** et \"pousser\" le contenu de la vue 3d de FreeCAD dans votre code, comme indiqué dans les sections ci-dessous.
 
@@ -94,7 +94,7 @@ ui.mdiArea.addSubWindow(v)
 my_mw.show()
 ```
 
-## Création d\'un examinateur \"soGui Examiner Viewer\" {#création_dun_examinateur_sogui_examiner_viewer}
+## Création d\'un examinateur \"soGui Examiner Viewer\" 
 
 Alternativement, vous pouvez également utiliser le module FreeCADGui pour extraire une représentation OpenInventor (Coin) des objets de votre scène puis utiliser ces données dans une visionneuse externe (votre application). Voici un moyen simple d\'obtenir la représentation 3D d\'un objet. 
 ```python
@@ -142,7 +142,7 @@ Ensuite, il vous suffit de lancer votre visualiseur :
 myViewer()
 ```
 
-## Utilisation d\'un module tiers {#utilisation_dun_module_tiers}
+## Utilisation d\'un module tiers 
 
 Au lieu d\'utiliser le visualiseur **Sogui**, vous pouvez aussi utiliser un module tiers plus moderne. C\'est probablement la meilleure des 3 solutions. 
 ```python
@@ -316,7 +316,7 @@ if __name__ == '__main__':
     main()
 ```
 
-## Sans exécuter le Gui de FreeCAD {#sans_exécuter_le_gui_de_freecad}
+## Sans exécuter le Gui de FreeCAD 
 
 A partir de FreeCAD rev2760, (2010, [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=203&start=20#p1226)), il est maintenant possible d\'obtenir la représentation des coin de n\'importe quel objet FreeCAD sans ouvrir la fenêtre principale. Il est donc extrêmement facile de mettre en œuvre son propre visualiseur et de rester transparent pour les mises à jour de FreeCAD. Après avoir importé `FreeCADGui`, vous devez le mettre à niveau avec la méthode `setupWithoutGUI()`, après quoi, vous pouvez utiliser tous les fournisseurs de vue de FreeCAD, pour obtenir les nœuds OpenInventor (Coin). 
 ```python
@@ -471,7 +471,7 @@ if __name__ == '__main__':
     main()
 ```
 
-## Informations supplémentaires {#informations_supplémentaires}
+## Informations supplémentaires 
 
 -   [Embedding a view to another (QT) application?](https://forum.freecadweb.org/viewtopic.php?f=8&t=203)
 -   [Using Gui functions without Gui.showMainWindow() in python script](https://forum.freecadweb.org/viewtopic.php?t=12575)

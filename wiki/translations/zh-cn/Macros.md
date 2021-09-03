@@ -34,12 +34,12 @@ Python脚本通常以`.py`作为扩展名，而FreeCAD中的宏则以`.FCMacro`�
 
 ## 如何工作
 
-在{{MenuCommand|Edit → Preferences → General → Macro → Show scripts commands in python console}}菜单中开启控制台输出。这时，您将看到在FreeCAD中所执行的每个动作（例如按下按钮）的对应Python命令都输出到了控制台中。这些命令都能记录到宏中。制作宏的主要工具为宏工具栏：![](images/Macros_toolbar.jpg )。其中有4个按钮：Record（记录）, stop recording（停止记录）, edit（编辑）以及执行当前的宏（play）。
+在**Edit → Preferences → General → Macro → Show scripts commands in python console**菜单中开启控制台输出。这时，您将看到在FreeCAD中所执行的每个动作（例如按下按钮）的对应Python命令都输出到了控制台中。这些命令都能记录到宏中。制作宏的主要工具为宏工具栏：![](images/Macros_toolbar.jpg )。其中有4个按钮：Record（记录）, stop recording（停止记录）, edit（编辑）以及执行当前的宏（play）。
 
 
 </div>
 
-Enable the console output in the menu {{MenuCommand|Edit → Preferences → General → Macro → Show scripts commands in python console}}. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 这个工具使用起来也十分方便：按下记录按钮，系统会让您给宏起个名，接下来让您来执行一些动作。待记录的动作执行完毕后，点击停止记录按钮，之前的动作就会被保存下来。随后即可利用编辑按钮来访问宏对话框。
 
@@ -64,12 +64,12 @@ Press the record button, give a name, let\'s say \"cylinder 10x10\", then, in th
 
 ## 自定义
 
-诚然，我们不可能为了使用宏而每次都将其先加载至编辑器中。FreeCAD提供了更便捷的方式令您使用宏，例如为之添加快捷键，或将它加入菜单作为其中的一个选项。只要创建好宏，一切有关的操作都可通过{{MenuCommand|Tools → Customize}}菜单来实现。
+诚然，我们不可能为了使用宏而每次都将其先加载至编辑器中。FreeCAD提供了更便捷的方式令您使用宏，例如为之添加快捷键，或将它加入菜单作为其中的一个选项。只要创建好宏，一切有关的操作都可通过**Tools → Customize**菜单来实现。
 
 
 </div>
 
-Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the {{MenuCommand|Tools → Customize}} menu.
+Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the **Tools → Customize** menu.
 
 ![](images/Macros_config.jpg )
 

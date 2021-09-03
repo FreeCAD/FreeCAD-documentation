@@ -23,7 +23,7 @@ Essentiellement, chaque objet dérivé d\'une [Mesh Feature](Mesh_Feature/fr.md)
 
 Étant donné que FreeCAD est principalement conçu pour être un modeleur solide, il est mieux adapté pour traiter les solides [Shapes](Shape/fr.md). Il peut importer et afficher des maillages dans la [vue 3D](3D_view/fr.md), mais pour les transformer ou créer une nouvelle géométrie, le maillage doit d\'abord être converti en [Shape](Shape/fr.md) (voir [Part ShapeFromMesh ](Part_ShapeFromMesh/fr.md)). Dans de nombreux cas, cette conversion n\'est pas automatique et nécessite de recréer la géométrie à l\'aide de techniques de modélisation solides, en utilisant les outils [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md).
 
-## Maillage par éléments finis {#maillage_par_éléments_finis}
+## Maillage par éléments finis 
 
 Dans FreeCAD, le mot \"[Mesh](Mesh/fr.md)\" peut également faire référence à un objet spécifique qui sera utilisé dans l\'analyse par éléments finis (FEA).
 
@@ -31,7 +31,7 @@ Lorsqu\'un objet avec un solide [Shape](Shape/fr.md) est utilisé dans [FEM Work
 
 Pour plus d\'informations, voir [Atelier FEM](FEM_Workbench/fr.md) et [FEM Mesh](FEM_Mesh/fr.md).
 
-## Plus d\'informations {#plus_dinformations}
+## Plus d\'informations 
 
 -   [Géométrie polygonale (maillage)](https://forum.freecadweb.org/viewtopic.php?f=8&t=47493)
 

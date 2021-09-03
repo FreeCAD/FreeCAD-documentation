@@ -71,7 +71,7 @@ With the properties **X** and **Y** you can change the horizontal and vertical p
 
 To get rid of a tolerance, change **Overtolerance** and **Undertolerance** to each zero.
 
-#### Formatting {#formatting_1}
+#### Formatting 
 
 The default font for new tolerances is the same than for dimensions. The default font size is specified by the [preferences](TechDraw_Preferences#Dimensions_2.md) setting **Tolerance Text Scale**. This scale is a factor of the font size used for the dimension.
 
@@ -79,11 +79,11 @@ The default number format for new tolerances is by default the same format than 
 
 You can also use your own text instead of a formatted number by checking the option **Arbitrary Tolerance Text** in the dimension dialog. Then the content of **Tolerance Format Specifier** will be used as tolerance text.
 
-## Geometrical Tolerancing {#geometrical_tolerancing}
+## Geometrical Tolerancing 
 
 Tolerances are created by using the [Balloon](TechDraw_Balloon.md) feature of TechDraw. Since for most features a frame is required, it is helpful to change in the [TechDraw preferences](TechDraw_Preferences#Annotation.md) the **Balloon Shape** to **Rectangle**.
 
-### Tolerance indicator {#tolerance_indicator}
+### Tolerance indicator 
 
 <img alt="Example of a toleranced rod. (The run-out already defines the straightness, it is only there as example.)" src=images/TechDraw_GD%26T-Toleranced-rod.png  style="width:280px;">
 
@@ -111,7 +111,7 @@ Datums in the GD&T sense of the meaning are surfaces your tolerance is relative 
 
 ![Example of a datum in a drawing](images/TechDraw_GD&T-Datum.png ) 
 
-### Symbol reference {#symbol_reference}
+### Symbol reference 
 
 As reference, here are lists of characters to be used for geometric tolerancing:
 

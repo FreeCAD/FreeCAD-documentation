@@ -18,7 +18,7 @@ Shows or hides the display of the **weights** for the control points of a B-spli
 
 1.  Select a B-spline and use the toolbar button **<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Show/Hide B-spline control point weight](Sketcher_BSplinePoleWeight.md)**.
 
-## Weight Explanation {#weight_explanation}
+## Weight Explanation 
 
 B-splines are basically a combination of [Bézier curves](B-Splines#B.C3.A9zier_curves.md) (nicely explained in [this](https://www.youtube.com/watch?v=bE1MrrqBAl8) and [this](https://www.youtube.com/watch?v=xXJylM2S72s) video).
 
@@ -48,7 +48,7 @@ A weight of zero would be a singularity in the equation to calculate the rationa
 <img alt="" src=images/sketcher_BSplineWeightZero.png  style="width:468px;"> 
 *Same B-spline with an almost zero weight control point*
 
-## Changing Weights {#changing_weights}
+## Changing Weights 
 
 How to change weights is described in [ this Wiki page](B-Splines#Changing_the_Weight.md).
 

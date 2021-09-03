@@ -18,7 +18,7 @@ Polecenie **Prostopadłościan** ze środowiska prazy [Część](Part_Part_Workb
 1.  Przełącz się na środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Część](Part_Workbench/pl.md)
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Part_Box.svg" width=16px> Utwórz prostopadłościan** na pasku narzędzi.
-    -   Wybierz polecenie {{MenuCommand|Część → Bryła pierwotna → <img src="images/Part_Box.svg" width=16px> Prostopadłościan}} z paska menu.
+    -   Wybierz polecenie **Część → Bryła pierwotna → <img src="images/Part_Box.svg" width=16px> Prostopadłościan** z paska menu.
 
 **Wynik:** Domyślnym wynikiem jest sześcian o długości, szerokości i wysokości, wynoszącej 10mm. Jest on dołączony do globalnej płaszczyzny XY, a jedna jego krawędź pokrywa się z globalną osią Z.
 
@@ -44,7 +44,7 @@ Właściwości sześcianu mogą być później korygowane w edytorze właściwo�
 
 ![Właściwości prostopadłościanu utworzonego w środowisku Część](images/Part_Box-Properties.jpg )
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Polecenie Prostopadłościan może być użyte przez [makrodefinicje](Macros/pl.md) i z konsoli środowiska Python za pomocą następującej funkcji: 
 ```python

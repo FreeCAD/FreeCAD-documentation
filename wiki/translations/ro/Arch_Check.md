@@ -22,7 +22,7 @@ Acest instrument verifică documentul curent sau obiectele selectate pentru obie
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -38,7 +38,7 @@ Acest instrument verifică documentul curent sau obiectele selectate pentru obie
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

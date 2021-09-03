@@ -35,13 +35,13 @@
 
 ![](images/Part_Offset_Tasks_it.png )
 
-### Modalità di allegato {#modalità_di_allegato}
+### Modalità di allegato 
 
 #### Disattivato
 
 Predefinito, nessun riferimento selezionato.
 
-#### Normale a bordo {#normale_a_bordo}
+#### Normale a bordo 
 
 L\'oggetto è reso perpendicolare al bordo. Riferimento facoltativo ad un vertice definisce la posizione.
 
@@ -51,7 +51,7 @@ L\'oggetto è reso perpendicolare al bordo. Riferimento facoltativo ad un vertic
 :   Bordo, Vertice
 :   Vertice, Bordo
 
-#### Allinea O-N-X {#allinea_o_n_x}
+#### Allinea O-N-X 
 
 Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento, poi allinea la sua normale e l\'asse del piano orizzontale verso il vertice/la linea.
 
@@ -64,7 +64,7 @@ Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento, p
 :   Vertice, Vertice
 :   Vertice, Bordo
 
-#### Allinea O-N-Y {#allinea_o_n_y}
+#### Allinea O-N-Y 
 
 Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento e allinea la sua normale e l\'asse verticale del piano verso il vertice/la linea.
 
@@ -77,7 +77,7 @@ Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento e 
 :   Vertice, Vertice
 :   Vertice, Bordo
 
-#### Allinea O-X-Y {#allinea_o_x_y}
+#### Allinea O-X-Y 
 
 Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento e allinea i suoi assi orizzontali e verticali del piano verso il vertice/la linea.
 
@@ -90,7 +90,7 @@ Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento e 
 :   Vertice, Vertice
 :   Vertice, Bordo
 
-#### Allinea O-X-N {#allinea_o_x_n}
+#### Allinea O-X-N 
 
 Fa corrispondere l\'origine dell\'oggetto con il primo vertice referenziato e allinea il suo asse del piano orizzontale e la normale al vertice/alla linea.
 
@@ -103,7 +103,7 @@ Fa corrispondere l\'origine dell\'oggetto con il primo vertice referenziato e al
 :   Vertice, Vertice
 :   Vertice, Bordo
 
-#### Allinea O-Y-N {#allinea_o_y_n}
+#### Allinea O-Y-N 
 
 Fa corrispondere l\'origine dell\'oggetto con il primo vertice referenziato e allinea il suo asse del piano verticale e la normale al vertice/alla linea.
 
@@ -116,7 +116,7 @@ Fa corrispondere l\'origine dell\'oggetto con il primo vertice referenziato e al
 :   Vertice, Vertice
 :   Vertice, Bordo
 
-#### Allinea O-Y-X {#allinea_o_y_x}
+#### Allinea O-Y-X 
 
 Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento e allinea i suoi assi del piano verticale e orizzontale verso il vertice/la linea.
 
@@ -129,7 +129,7 @@ Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento e 
 :   Vertice, Vertice
 :   Vertice, Bordo
 
-#### Traduci l\'origine {#traduci_lorigine}
+#### Traduci l\'origine 
 
 L\'origine dell\'oggetto è allineata al vertice corrispondente. L\'orientamento è controllato dalla proprietà [Posizionamento](Placement/it.md).
 
@@ -137,7 +137,7 @@ L\'origine dell\'oggetto è allineata al vertice corrispondente. L\'orientamento
 
 :   Vertice.
 
-#### XY dell\'oggetto {#xy_delloggetto}
+#### XY dell\'oggetto 
 
 Il piano è allineato al piano locale XY dell\'oggetto collegato.
 
@@ -145,7 +145,7 @@ Il piano è allineato al piano locale XY dell\'oggetto collegato.
 
 :   Qualsiasi, Conico.
 
-#### XZ dell\'oggetto {#xz_delloggetto}
+#### XZ dell\'oggetto 
 
 Il piano è allineato al piano locale XZ dell\'oggetto collegato.
 
@@ -153,7 +153,7 @@ Il piano è allineato al piano locale XZ dell\'oggetto collegato.
 
 :   Qualsiasi, Conico.
 
-#### YZ dell\'oggetto {#yz_delloggetto}
+#### YZ dell\'oggetto 
 
 Il piano è allineato al piano locale YZ dell\'oggetto collegato.
 
@@ -161,7 +161,7 @@ Il piano è allineato al piano locale YZ dell\'oggetto collegato.
 
 :   Qualsiasi, Conico.
 
-#### Piano della faccia {#piano_della_faccia}
+#### Piano della faccia 
 
 Il piano è allineato in modo da coincidere con la faccia planare.
 
@@ -169,7 +169,7 @@ Il piano è allineato in modo da coincidere con la faccia planare.
 
 :   Piano
 
-#### Tangente a superficie {#tangente_a_superficie}
+#### Tangente a superficie 
 
 Il piano è reso tangente alla superficie nel vertice.
 
@@ -178,7 +178,7 @@ Il piano è reso tangente alla superficie nel vertice.
 :   Faccia, Vertice
 :   Vertice, Faccia
 
-#### Frenet NB {#frenet_nb}
+#### Frenet NB 
 
 Il piano è impostato su assi normali-binormali (NB) dalle [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) nel punto del bordo della curva più vicino al vertice (o definito dalla proprietà MapPathParameter, se il vertice non è riferito). L\'origine dell\'oggetto viene traslata nel vertice se il vertice è il primo riferimento, o mantenuta sulla curva se il bordo è il primo riferimento. Questa modalità è simile a \"Normale a bordo\", eccetto che l\'asse X è ben definito.
 
@@ -189,7 +189,7 @@ Il piano è impostato su assi normali-binormali (NB) dalle [Frenet-Serret coordi
 :   Vertice, Curva
 :   <img alt="" src=images/Attacher_mode_FrenetNB.png  style="width:250px;">
 
-#### Frenet TN {#frenet_tn}
+#### Frenet TN 
 
 Il piano è impostato sugli assi tangente-normali (TN) dalle [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) nel punto del bordo della curva più vicino al vertice (o definito dalla proprietà MapPathParameter, se il vertice non è referenziato). L\'origine dello schizzo è traslata nel vertice se il vertice è il primo riferimento, o mantenuto alla curva se il bordo è il primo riferimento. In effetti, se la curva è planare, il piano dello schizzo è il piano della curva.
 
@@ -200,7 +200,7 @@ Il piano è impostato sugli assi tangente-normali (TN) dalle [Frenet-Serret coor
 :   Vertice, Curva
 :   <img alt="" src=images/Attacher_mode_FrenetTN.png  style="width:250px;">
 
-#### Frenet TB {#frenet_tb}
+#### Frenet TB 
 
 Il piano è impostato su assi tangenti-binormali (TB) dalle [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) nel punto del bordo della curva più vicino al vertice ( o definito dalla proprietà MapPathParameter, se il vertice non è referenziato). L\'origine dello schizzo è traslata nel vertice se il vertice è il primo riferimento, o mantenuto alla curva se il bordo è il primo riferimento.
 
@@ -224,7 +224,7 @@ Allinea al piano del cerchio osculatore di un bordo. Un riferimento opzionale ad
 :   Vertice, Curva
 :   Vertice, Cerchio
 
-#### Sezione di rivoluzione {#sezione_di_rivoluzione}
+#### Sezione di rivoluzione 
 
 Il piano è perpendicolare al bordo e l\'asse Y è abbinato all\'asse del cerchio osculatore. Un riferimento opzionale ad un vertice definisce dove.
 
@@ -237,7 +237,7 @@ Il piano è perpendicolare al bordo e l\'asse Y è abbinato all\'asse del cerchi
 :   Vertice, Curva
 :   Vertice, Cerchio
 
-#### Piano da 3 punti {#piano_da_3_punti}
+#### Piano da 3 punti 
 
 Allinea il piano XY attraverso tre vertici.
 
@@ -248,7 +248,7 @@ Allinea il piano XY attraverso tre vertici.
 :   Vertice, Linea
 :   Linea, Linea
 
-#### Normale a 3 punti {#normale_a_3_punti}
+#### Normale a 3 punti 
 
 Allinea il piano attraverso i primi due vertici e perpendicolare al piano che passa attraverso 3 vertici.
 
@@ -268,7 +268,7 @@ Modalità speciale per piegare i poliedri. Selezionare 4 bordi nell\'ordine: bor
 :   Linea, Linea, Linea, Linea
 :   ![ 250px](images/Attacher_mode_Folding.png )
 
-#### Inerzia 2-3 {#inerzia_2_3}
+#### Inerzia 2-3 
 
 L\'oggetto viene collegato a un piano che passa attraverso il secondo e il terzo asse principale di inerzia (passa attraverso il centro di massa).
 
@@ -279,7 +279,7 @@ L\'oggetto viene collegato a un piano che passa attraverso il secondo e il terzo
 :   Qualsiasi, Qualsiasi, Qualsiasi
 :   Qualsiasi, Qualsiasi, Qualsiasi, Qualsiasi
 
-### Allegato Spostamento {#allegato_spostamento}
+### Allegato Spostamento 
 
 Allegato Spostamento viene utilizzato per applicare uno spostamento lineare o rotatorio dall\'oggetto di riferimento. Ciò significa che gli spostamento sono relativi al sistema di coordinate \"locale\", non al sistema globale. Diventa attivo quando è stata selezionata una modalità di associazione diversa da \"Disattivato\".
 

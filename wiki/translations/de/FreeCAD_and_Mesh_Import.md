@@ -3,12 +3,12 @@
 
 {{TOCright}}
 
-## Post-Import {#post_import}
+## Post-Import 
 
 
 <div class="mw-translate-fuzzy">
 
-## Nach dem Import {#nach_dem_import}
+## Nach dem Import 
 
 Nach dem Import ist das Modell (für FreeCAD) nur eine Baugruppe von Flächen. Du möchtest das Modell vielleicht in eine Form konvertieren, die FreeCAD erkennt und die in FreeCAD geändert werden könnte.
 
@@ -35,12 +35,12 @@ Um dies zu tun:
 
 ## Fehler
 
-### \"cannot convert because shape is not a shell\" {#cannot_convert_because_shape_is_not_a_shell}
+### \"cannot convert because shape is not a shell\" 
 
 
 <div class="mw-translate-fuzzy">
 
-## \"kann nicht konvertieren, weil die Form keine Schale ist\" {#kann_nicht_konvertieren_weil_die_form_keine_schale_ist}
+## \"kann nicht konvertieren, weil die Form keine Schale ist\" 
 
 Nun, deine Schale scheint Fehler zu haben, vielleicht ist sie nicht geschlossen (hat Löcher). Da die Möglichkeiten des Mesh (Netz)-Arbeitsbereichs in FreeCAD derzeit etwas eingeschränkt sind, solltest du vielleicht versuchen, dein Modell mit Software von Drittanbietern zu untersuchen und zu reparieren. Danach kannst du versuchen, dein Modell erneut zu importieren und zu konvertieren.
 

@@ -18,7 +18,7 @@ Dieses Werkzeug kann verwendet werden, um im Skizzen Arbeitsbereich eine gewähl
 2.  Der Befehl kann auf verschiedene Weise aufgerufen werden:
     -   Drücke die **<img src=images/Sketcher_CloseShape.svg style="width:16px"> [Form schließen](Sketcher_CloseShape/de.md)** Schaltfläche
     -   Verwende die **Strg**+**Shift**+**S** Tastenkürzel.
-    -   Verwende die {{MenuCommand|Skizzierer→ Skizzierwerkzeuge → <img src=images/Sketcher_CloseShape.svg style="width:16px">  Form schließen}} Eingabe aus dem oberen Menü.
+    -   Verwende die **Skizzierer→ Skizzierwerkzeuge → <img src=images/Sketcher_CloseShape.svg style="width:16px">  Form schließen** Eingabe aus dem oberen Menü.
 
 ## Bemerkungen
 

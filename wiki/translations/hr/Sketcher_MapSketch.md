@@ -25,7 +25,7 @@ Please note that this tool is not used to create new sketches. It only maps, or 
 -   In the **Select sketch** dialog window that opens, select from the list the sketch to map to the face and click OK.
 -   The sketch is automatically opened in edit mode.
 
-## Use when repairing a broken model {#use_when_repairing_a_broken_model}
+## Use when repairing a broken model 
 
 Sketcher MapSketch is often used when repairing a broken model.
 

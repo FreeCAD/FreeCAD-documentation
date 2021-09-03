@@ -4,7 +4,7 @@
 
 L\'addon [Reinforcement](Reinforcement_Addon/it.md) potenzia [Arch](Arch_Workbench/it.md) fornendo nuove interfacce e preimpostazioni per la creazione di tipi di armature comuni da utilizzare con le [Strutture](Arch_Structure/it.md) di Arch.
 
-Gli strumenti possono essere installati con [Addon Manager](Addon_Manager/it.md) tramite il menu {{MenuCommand|Strumenti → Addon manager → Reinforcement}}. FreeCAD deve essere riavviato affinché i nuovi strumenti appaiano sotto il pulsante **<img src="images/Arch_Rebar.svg" width=16px> [Armatura](Arch_Rebar/it.md)**.
+Gli strumenti possono essere installati con [Addon Manager](Addon_Manager/it.md) tramite il menu **Strumenti → Addon manager → Reinforcement**. FreeCAD deve essere riavviato affinché i nuovi strumenti appaiano sotto il pulsante **<img src="images/Arch_Rebar.svg" width=16px> [Armatura](Arch_Rebar/it.md)**.
 
 Questo addon è stato sviluppato durante il [Google Summer of Code](Google_Summer_of_Code.md) 2017, ed è ospitato nel [FreeCAD-Reinforcement](https://github.com/amrit3701/FreeCAD-Reinforcement) Github repository, che è separato dal repository principale di FreeCAD.
 
@@ -30,7 +30,7 @@ Nuovi strumenti con interfaccia grafica per inserire i valori
 -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Rinforzo di colonna con 2 staffe e 6 barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md)
 -   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Rinforzo di trave](Arch_Rebar_BeamReinforcement/it.md)
 
-## Ambienti aggiuntivi {#ambienti_aggiuntivi}
+## Ambienti aggiuntivi 
 
 Gli ambienti di FreeCAD sono facili da programmare in [Python](Python/it.md), quindi ci sono molte persone che sviluppano ambienti aggiuntivi al di fuori degli sviluppatori principali di FreeCAD.
 

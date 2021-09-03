@@ -11,7 +11,7 @@ Il comando **Inverti le normali** inverte, capovolge, le normali degli oggetti m
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più oggetti mesh.
-2.  Scegliere l\'opzione {{MenuCommand|Meshes → <img src="images/Mesh_FlipNormals.svg" width=16px> Inverti le normali}} nel menu principale.
+2.  Scegliere l\'opzione **Meshes → <img src="images/Mesh_FlipNormals.svg" width=16px> Inverti le normali** nel menu principale.
 
 
 </div>

@@ -13,7 +13,7 @@
 
 <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Верстак Start](Start_Workbench/ru.md) на самом деле не является верстаком в полном смысле. Это просто страница \"приветствия\", которая отображается при открытии FreeCAD без пред загруженного документа.
 
-From this interface you can see useful information and jump to recently opened files, examples, the documentation, and latest news from the FreeCAD world. You can change how the Start Workbench behaves, or change the default workbench, in the [Preferences Editor](Preferences_Editor.md) in the menu {{MenuCommand|Edit → Preferences → Start}}.
+From this interface you can see useful information and jump to recently opened files, examples, the documentation, and latest news from the FreeCAD world. You can change how the Start Workbench behaves, or change the default workbench, in the [Preferences Editor](Preferences_Editor.md) in the menu **Edit → Preferences → Start**.
 
 <img alt="Вкладка документы, верстака Start" src=images/FreeCad_Start_0.18_documents.png  style="width:500px;">
 

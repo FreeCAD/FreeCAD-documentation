@@ -33,7 +33,7 @@ Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797],
     -   Les indices des faces qui partagent une arête avec la face sélectionnée.
     -   Les coordonnées des points de la face.
 7.  Sélectionnez éventuellement plus de faces.
-8.  Sélectionnez l\'option {{MenuCommand|Leave info mode}} dans le menu contextuel de la vue 3D pour terminer la commande.
+8.  Sélectionnez l\'option **Leave info mode** dans le menu contextuel de la vue 3D pour terminer la commande.
 
 
 

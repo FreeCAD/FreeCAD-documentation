@@ -20,9 +20,9 @@ Tnie *(odejmuje)* wybrane obiekty typu Część, przy czym ostatni jest odejmowa
 1.  Wybierz dwa kształty,
 2.  Wywołaj polecenie **Wytnij** na kilka sposobów:
     -   Naciśnij przycisk **![](images/) '''Wytnij'''** na pasku narzędziowym Funkcje logiczne,
-    -   Użyj pozycji z menu {{MenuCommand|Część → Funkcje logiczne → Wytnij}}.
+    -   Użyj pozycji z menu **Część → Funkcje logiczne → Wytnij**.
 
-### Obsługiwane dane wejściowe {#obsługiwane_dane_wejściowe}
+### Obsługiwane dane wejściowe 
 
 Obiekty wejściowe muszą być kształtami [OpenCascade](OpenCASCADE/pl.md). Przykłady: obiekty wykonane z użyciem Środowisk pracy Część, Projekt części, Szkicownik. Nie mogą to być siatki *(chyba że zostały zamienione na kształty)* - dla siatek, w środowisku pracy Siatka istnieją specyficzne narzędzia do przeprowadzania operacji logicznych.
 

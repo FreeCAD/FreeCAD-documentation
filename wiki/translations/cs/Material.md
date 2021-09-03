@@ -63,7 +63,7 @@ Existují některé dobré zdroje, které umožňují snadnější práci s mate
 
 </div>
 
-## Materiálová databáze {#materiálová_databáze}
+## Materiálová databáze 
 
 Máme-li implementován výše uvedný standard, bylo by nesmyslné ukládat všechny vlastnosti znovu a znovu do objektů. V zásadě můžeme vybudovat materiálovou databázi se jménem materiálu jako primárním klíčem. Takže pokud nemáte nějaké specální požadavky pro Váš materiál, jednoduše definujte např. Name=Steel a FreeCAD může načíst všechny vlastnosti z databáze. Všechny další vlastnosti, které přidáte nebo změníte, přepíší ty případně načtené z databáze se stejným jménem.
 
@@ -91,7 +91,7 @@ Modul by měl být implementován tak, aby mohl běžet ve FreeCADu nebo samosta
 
 <div class="mw-translate-fuzzy">
 
-## Souborový formát materiálové karty ve FreeCADu {#souborový_formát_materiálové_karty_ve_freecadu}
+## Souborový formát materiálové karty ve FreeCADu 
 
 Práce s materiáelm znamená často import/export materiálových definicí. Proto je potřebný souborový formát. Protože máme pouze tvar klíč/hodnota, můžeme snadno a jednoduče číst a zpracovávat souborový formát. Proto je vybrán formát [ini-file](http://en.wikipedia.org/wiki/INI_file). Je standardizován a jsou k dispozici parsery (čtou a zpracovávají data v souboru). Např. [Modul konfiguračního parseru v Pythonu](http://docs.python.org/2/library/configparser.html).
 
@@ -125,7 +125,7 @@ Color_Emissiv = 255,255,255
 
 </div>
 
-## Materiálové vlastnosti {#materiálové_vlastnosti}
+## Materiálové vlastnosti 
 
 Zde je popis dohodnutých materiálových vlastností. Můžete přidat podsekci pro materiálové vlastnosti je-li to obor kde jste experti.
 
@@ -196,7 +196,7 @@ Tento odstavec definuje materiálové vlastnosti, které se vztahují k vizuáln
 
 <div class="mw-translate-fuzzy">
 
-### Metoda konečných prvků (FEM) {#metoda_konečných_prvků_fem}
+### Metoda konečných prvků (FEM) 
 
 **Dodělat:** Vytvořit kolekci materiálových vlastností FEM.
 
@@ -211,7 +211,7 @@ Tento odstavec definuje materiálové vlastnosti, které se vztahují k vizuáln
 
   : Thermal properties
 
-### Architktura a BIM {#architktura_a_bim}
+### Architktura a BIM 
 
 
 <div class="mw-translate-fuzzy">

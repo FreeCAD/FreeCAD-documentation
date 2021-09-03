@@ -28,7 +28,7 @@ This wiki page is being used to track all Humanitarian based efforts reported an
     :   <https://www.tcd.ie/news_events/articles/trinity-researchers-build-open-source-ventilator-with-international-non-profit-consortium/>
     :   <https://github.com/librerespire/ventilator/tree/manjula/3D-Models/Version0.1>
 
-### Hospital Gear {#hospital_gear}
+### Hospital Gear 
 
 -   [Recreating a Libre/Open Source Otoscope in FreeCAD](https://forum.freecadweb.org/viewtopic.php?f=8&t=38643)
 -   [Roll to Prone](https://forum.freecadweb.org/viewtopic.php?f=8&t=45600) mechanism that turns hospital patients from a supine to prone position (helps with respiratory distress)

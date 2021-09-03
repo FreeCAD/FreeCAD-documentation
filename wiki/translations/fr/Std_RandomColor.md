@@ -14,8 +14,8 @@ La commande **Std Couleur aléatoire** applique une {{PropertyView/fr|Shape Colo
 
 1.  Sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → <img src="images/Std_RandomColor.svg" width=16px> Couleur aléatoire}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|<img src="images/Std_RandomColor.svg" width=16px> Couleur aléatoire}} dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) (voir la copie d\'écran) ou dans le menu contextuel de la [Vue 3D](3D_view/fr.md).
+    -   Sélectionnez l\'option **Affichage → <img src="images/Std_RandomColor.svg" width=16px> Couleur aléatoire** dans le menu.
+    -   Sélectionnez l\'option **<img src="images/Std_RandomColor.svg" width=16px> Couleur aléatoire** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) (voir la copie d\'écran) ou dans le menu contextuel de la [Vue 3D](3D_view/fr.md).
 
 ## Remarques
 

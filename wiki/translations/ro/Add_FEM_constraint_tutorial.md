@@ -38,7 +38,7 @@ Acest tutorial acoperă doar modul de implementare a constrângerilor în Python
 
 <div class="mw-translate-fuzzy">
 
-## Crearea Documentului Obiect {#crearea_documentului_obiect}
+## Crearea Documentului Obiect 
 
 
 </div>
@@ -144,7 +144,7 @@ def makeConstraintFlowVelocity(name="FlowVelocity"):
     return obj
 ```
 
-## Creează o camandă GUI {#creează_o_camandă_gui}
+## Creează o camandă GUI 
 
 În acest pas vom modifica următoarele fișiere:
 
@@ -210,7 +210,7 @@ Puneți o comandă în Gui/Workbench.cpp pentru a o adăuga în bara de instrume
 
 <div class="mw-translate-fuzzy">
 
-## Creara Task Panel {#creara_task_panel}
+## Creara Task Panel 
 
 
 </div>
@@ -338,7 +338,7 @@ class ViewProxy(FemConstraint.ViewProxy):
 
 <div class="mw-translate-fuzzy">
 
-## Extensia Elmer FEM solver Writer {#extensia_elmer_fem_solver_writer}
+## Extensia Elmer FEM solver Writer 
 
 
 </div>

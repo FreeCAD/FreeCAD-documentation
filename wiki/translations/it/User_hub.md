@@ -12,7 +12,7 @@ Se vuoi contribuire a FreeCAD, per favore [dona](donare.md), e vedi la pagina [A
 
 Se volete sapere come anni fa è iniziato lo sviluppo di FreeCAD visitate la pagina [History](History/it.md).
 
-## Utilizzare FreeCAD {#utilizzare_freecad}
+## Utilizzare FreeCAD 
 
 ### Introduzione
 
@@ -28,7 +28,7 @@ Vedi anche:
 
 -   [Migrare a FreeCAD da Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
 
-### Concetti base dell\'applicazione {#concetti_base_dellapplicazione}
+### Concetti base dell\'applicazione 
 
 
 <div class="mw-translate-fuzzy">
@@ -43,7 +43,7 @@ Vedi anche:
 
 </div>
 
-### Ambienti di lavoro {#ambienti_di_lavoro}
+### Ambienti di lavoro 
 
 
 <div class="mw-translate-fuzzy">
@@ -111,7 +111,7 @@ Da FreeCAD 0.17 molte macro possono essere installate usando [Addon Manager](Std
 
 </div>
 
-### Ambienti esterni {#ambienti_esterni}
+### Ambienti esterni 
 
 Quando molte macro o funzioni vengono sviluppate insieme e organizzate in barre degli strumenti e menu, possono diventare un nuovo ambiente di lavoro.
 
@@ -135,7 +135,7 @@ Da FreeCAD 0.17 molti ambienti possono essere installati usando [Addon Manager](
 
 </div>
 
-## Aiuto in linea {#aiuto_in_linea}
+## Aiuto in linea 
 
 Questa è la guida ufficiale di FreeCAD online. Si prega di notare che l\'intero sistema della Guida in linea è attualmente in rilavorazione. Sarà usata per generare un file .CHM, che verrà distribuito con i pacchetti binari di FreeCAD. Al momento la guida in linea riassume alcune delle sezioni più complete di questo wiki.
 

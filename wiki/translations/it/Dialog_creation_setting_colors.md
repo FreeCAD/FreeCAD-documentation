@@ -6,7 +6,7 @@ Questo è un esempio di [creazione di dialoghi](Dialog_creation/it.md) con [PySi
 
 In questo esempio, l\'intera interfaccia è definita in [Python](Python/it.md). Sebbene ciò sia possibile per interfacce di piccole dimensioni, per le interfacce più grandi si raccomanda di creare i file {{FileName|.ui}} tramite Qt Designer e caricarli nel programma. Vedere [Creazione di una interfaccia con dei file UI](Interface_creation_with_UI_files/it.md).
 
-## Usare QColorDialog per ottenere un colore {#usare_qcolordialog_per_ottenere_un_colore}
+## Usare QColorDialog per ottenere un colore 
 
 Codice completo: 
 ```python
@@ -32,7 +32,7 @@ if couleur.isValid():
 
 ```
 
-## Usare QColorDialog per creare una tavolozza di colori (standard e personalizzati) {#usare_qcolordialog_per_creare_una_tavolozza_di_colori_standard_e_personalizzati}
+## Usare QColorDialog per creare una tavolozza di colori (standard e personalizzati) 
 
 Questo esempio modifica il colore Standard e il colore Personalizza seguendo la guida di Tango FreeCAD.
 

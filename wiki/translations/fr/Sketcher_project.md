@@ -12,7 +12,7 @@ Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
 
 C\'est le projet d\'esquisse de **FreeCAD développement**. Il suit les règles de la \[<http://fr.wikipedia.org/wiki/Getting_Things_Done>\| Getting Things Done\] processus. Les projets sont collectées dans la [feuille de route de développement](Development_roadmap/fr.md).
 
-## Buts et principes {#buts_et_principes}
+## Buts et principes 
 
 Il s\'agit d\'un projet de développement logiciel, visant à mettre en œuvre et en fonction des capacités d\'esquisse et de contraintes. Sa mise en œuvre sur certains éléments **Gui** et la liaison à la résolution de contraintes.
 
@@ -32,7 +32,7 @@ Aller plus loin, sub-parts rigides d\'une esquisse pourraient être détectés e
 
 ## Organisation
 
-## Actions à venir {#actions_à_venir}
+## Actions à venir 
 
 Pour la 0.14:
 

@@ -1,6 +1,6 @@
   This page documents jcc242\'s understanding of the Drawing module. It includes files and features that he is currently working on and may not yet be in the master branch. The source for those files is on [his Github](https://github.com/jcc242/FreeCAD), but be careful as that is very unstable!
 
-## Base (Mod/Drawing) {#base_moddrawing}
+## Base (Mod/Drawing) 
 
 ### gdtsvg.py
 
@@ -122,11 +122,11 @@ Adds the icons to the toolbars and stuff.
 
 # Workflow
 
-## Program Flow {#program_flow}
+## Program Flow 
 
 CanvasView is the actual QGraphicsScene object and DrawingView processes a list of FeatureView that are linked by reference in /App/FeatureViewPage. DrawingView then chooses the appropriate QGraphicsItem class (QGraphicsItemViewPart or QGraphicsItemViewDimension) and then calls a function in CanvasView to create this and add it to the scene.
 
-## Adding commands to the Drawing Workbench {#adding_commands_to_the_drawing_workbench}
+## Adding commands to the Drawing Workbench 
 
 4 simple steps:
 

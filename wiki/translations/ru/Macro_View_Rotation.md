@@ -285,6 +285,6 @@ at the end of the function \'initUI\'. The first two arguments (right-300, 0) (l
         self.setGeometry(right-300, 0, 300, 150)
 ```
 
-## Страница обсуждения {#страница_обсуждения}
+## Страница обсуждения 
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)

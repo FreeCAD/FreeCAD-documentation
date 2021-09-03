@@ -26,7 +26,7 @@ Se desiderate contribuire alla stesura di documentazione e tutorial wiki, consul
 
 <div class="mw-translate-fuzzy">
 
-## Part Design {#part_design}
+## Part Design 
 
 
 </div>
@@ -53,7 +53,7 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 <div class="mw-translate-fuzzy">
 
-## Disegno tecnico {#disegno_tecnico}
+## Disegno tecnico 
 
 
 </div>
@@ -69,7 +69,7 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 -   [Introduction to the FreeCAD TechDraw Workbench](https://www.youtube.com/watch?v=TnYMfpdNQoo) by Glasson Design Studio. This is particularly aimed at woodworkers but can be used for general solids.
 
-## Computer-Aided Manufacturing (CAM) {#computer_aided_manufacturing_cam}
+## Computer-Aided Manufacturing (CAM) 
 
 
 <div class="mw-translate-fuzzy">
@@ -98,13 +98,13 @@ Una serie di video \"Render Solidworks and FreeCAD Models in Blender\", da Joko 
 
 </div>
 
-## Progettazione architettonica {#progettazione_architettonica}
+## Progettazione architettonica 
 
 Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md), and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
 
 Since there are many videos that deal with this topic, please visit [Video tutorials for architectural design](Video_tutorials_for_architectural_design.md).
 
-## Finite element (FEM) simulation {#finite_element_fem_simulation}
+## Finite element (FEM) simulation 
 
 -   [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Introduction](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16, and introduction that builds a simple structure of pillars and beams, and analyzes them with the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md), by Eklavya Self Learning Tutorials.
 
@@ -135,7 +135,7 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 <div class="mw-translate-fuzzy">
 
-## Video obsoleti {#video_obsoleti}
+## Video obsoleti 
 
 
 </div>

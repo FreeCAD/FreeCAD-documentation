@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Questa è la pianificazione del progetto per integrare un modulo [FEM](http://it.wikipedia.org/wiki/Metodo_degli_elementi_finiti) in FreeCAD come parte del [Piano di sviluppo](Development_roadmap/it.md).
 
-## Unità di misura {#unità_di_misura}
+## Unità di misura 
 
   Length   Time   Mass             Force            Pressure           Velocity   Density      Energy    Gravity
   -------- ------ ---------------- ---------------- ------------------ ---------- ------------ --------- ---------
@@ -37,13 +37,13 @@ Questa è la pianificazione del progetto per integrare un modulo [FEM](http://it
 
 ## Riflessioni
 
-### Potenziali Mesher {#potenziali_mesher}
+### Potenziali Mesher 
 
 <img alt="" src=images/Netgen.jpg  style="width:600px;">
 
 Vedere [Mesh FEM](FEM_Mesh/it.md)
 
-### Potenziali solutori {#potenziali_solutori}
+### Potenziali solutori 
 
 Vedere [Solutore FEM](FEM_Solver/it.md)
 

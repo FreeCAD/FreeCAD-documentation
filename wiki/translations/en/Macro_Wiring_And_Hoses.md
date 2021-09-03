@@ -45,7 +45,7 @@ The general workflow is
 
 As the data file which holds both the Nexi and Flow definition is text based it can be used in any text editor or by any other program wishing to access the data.
 
-### Navigation Modes {#navigation_modes}
+### Navigation Modes 
 
 As a large part of the work with these macros depends on manipulating the display of the model to place and verify the placement of point in 3-space, it is essential to be comfortable with the Navigational Modes of FreeCAD which are documented on the page [Mouse navigation](Mouse_navigation.md). Being able to rotate the model in 3-space and then perform operations on a stationary model are essential.
 
@@ -71,7 +71,7 @@ There are alternative ways to perform some of the tasks outlined below and perso
 
 and is waiting for cold water and electricity to be installed. For convenience of explanation all the electrical items are in yellow and the water in blue (aside from the 2 sinks).
 
-### Define Nexi {#define_nexi}
+### Define Nexi 
 
 The first step is one of creating points in 3-space (called \'nexi\' or \'nexus\" in the plural). These points will be used in the next step to define a flow. We create these points by clicking on (i.e. selecting) a surface and then supplying a name for the nexi. This description is of defining the nexi for the water flow.
 
@@ -97,7 +97,7 @@ The first step is one of creating points in 3-space (called \'nexi\' or \'nexus\
 
 Note: at any point you can merge an existing project so as to have a visual context
 
-### Define Flow {#define_flow}
+### Define Flow 
 
 Once nexi have been defined they can be used to define a flow. Our house now looks like this:
 
@@ -126,7 +126,7 @@ This is asking if you to select the nexi in the order you want them to create yo
 
 ![](images/Macro_Wiring_And_HosesFlowsOnly.jpg )
 
-### Editing Nexi and Flows {#editing_nexi_and_flows}
+### Editing Nexi and Flows 
 
 There are 3 different ways to edit nexi. As the flows are defined in terms of nexi, altering nexi will affect any flow which includes them. For the descriptive flow attributes like colour and name, there is one way to make edits.
 
@@ -138,7 +138,7 @@ So far in this example we have generated the following table:
 
 
 
-## User Interface {#user_interface}
+## User Interface 
 
 The user interface is a combination of custom screens along with standard parts of the FreeCAD GUI.
 
@@ -154,7 +154,7 @@ The user interface is a combination of custom screens along with standard parts 
 
 At present there aren\'t really any options for Wiring and Hoses.
 
-## Sample Files {#sample_files}
+## Sample Files 
 
 blah blah blah
 
@@ -162,11 +162,11 @@ blah blah blah
 
 blah blah blah
 
-## Known Problems {#known_problems}
+## Known Problems 
 
 blah blah blah
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 blah blah blah
 

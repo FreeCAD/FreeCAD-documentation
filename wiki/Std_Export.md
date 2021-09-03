@@ -20,7 +20,7 @@ The **Std Export** command exports selected objects to a different file format. 
     -   Do not use the [Std SelectAll](Std_SelectAll.md) command as it will also select sub-elements of PartDesign Bodies.
     -   For the same reason the [Std BoxSelection](Std_BoxSelection.md) command should be avoided in FreeCAD version 0.18 and earlier.
 2.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|File → <img src="images/Std_Export.svg" width=16px> Export...}} option from the menu.
+    -   Select the **File → <img src="images/Std_Export.svg" width=16px> Export...** option from the menu.
     -   Use the keyboard shortcut: **Ctrl**+**E**.
 3.  Select the correct file format in the dialog box.
 4.  Enter a filename.
@@ -38,8 +38,8 @@ The **Std Export** command exports selected objects to a different file format. 
 ## Preferences
 
 -   See: [Import Export Preferences](Import_Export_Preferences.md).
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   The last used export filter is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileExportFilter}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used export filter is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileExportFilter**.
 
 
 

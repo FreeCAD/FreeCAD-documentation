@@ -20,7 +20,7 @@ Le calcul est basé sur la règle empirique de 1/4\" de trou d\'aération pour c
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Rocket_Calculator.svg" width=16px> [Vent Hole Size Calculator](Rocket_Vent_Hole_Size_Calculator/fr.md)**.
-    -   Sélectionnez la {{MenuCommand|Rocket → Calculatrices → <img src="images/Rocket_Calculator.svg" width=16px> Vent Hole Size Calculator}} dans le menu.
+    -   Sélectionnez la **Rocket → Calculatrices → <img src="images/Rocket_Calculator.svg" width=16px> Vent Hole Size Calculator** dans le menu.
 2.  Saisissez les paramètres de votre compartiment électronique.
 
 ## Calculs

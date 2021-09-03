@@ -9,13 +9,13 @@ Cette page rassemble des informations sur les solveurs par éléments finis util
 
 Wikipedia [répertorie de nombreux packages logiciels d\'éléments finis](https://en.wikipedia.org/wiki/List_of_finite_element_software_packages). Une comparaison peut être trouvée sur [feacompare.com](https://feacompare.com/).
 
-### Solveurs disponibles dans diverses distributions Linux {#solveurs_disponibles_dans_diverses_distributions_linux}
+### Solveurs disponibles dans diverses distributions Linux 
 
 Le dépôt [FreeCAD-dependencies](https://github.com/luzpaz/FreeCAD-dependencies) suit les dépendances de FreeCAD sur de nombreuses distributions Linux. La page [FEM.md](https://github.com/luzpaz/FreeCAD-dependencies/blob/master/FC-Workbenches/FEM.md) examine les solveurs FEA open source pouvant être utilisés avec [atelier FEM](FEM_Workbench/fr.md). La page affiche la version d\'un solveur particulier dans le référentiel d\'une distribution Linux particulière. Cette information est utile pour savoir si un solveur est actuel ou obsolète et doit être mis à niveau.
 
 L\'information est également discutée sur le forum: [supported and not supported Solver](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326&start=10#p270325).
 
-## Solvers avec une interface dans FreeCAD {#solvers_avec_une_interface_dans_freecad}
+## Solvers avec une interface dans FreeCAD 
 
 Ces solveurs sont bien intégrés à FreeCAD, ce qui signifie qu'il est possible de configurer et d'exécuter un projet de simulation à partir de l'interface graphique et des boutons de FEM Workbench.
 
@@ -39,7 +39,7 @@ Voir les informations:
 
 Il existe deux versions, Z88OS est l\'édition open source, tandis que Z88Aurora est un logiciel gratuit et comprend une interface graphique et des méthodes de solution supplémentaires.
 
-## Solveurs implémentés comme ateliers externes {#solveurs_implémentés_comme_ateliers_externes}
+## Solveurs implémentés comme ateliers externes 
 
 Ces solveurs ne sont pas intégrés dans [atelier FEM](FEM_Workbench/fr.md) ce qui signifie qu\'ils ont besoin d\'une interface distincte pour configurer un projet de simulation. Ceci est réalisé par [macros](Macros/fr.md) ou [Ateliers externes](External_workbenches/fr.md).
 
@@ -68,7 +68,7 @@ DesignSPHysics est un atelier externe intégré à FreeCAD qui fournit une inter
 
 DesignSPHysics peut être installé via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-### FastHenry et FasterCap {#fasthenry_et_fastercap}
+### FastHenry et FasterCap 
 
 FastHenry et FasterCap sont des solveurs de champ de capacitif et de résistance-inductance développés par FastFieldSolvers: [site principal](https://www.fastfieldsolvers.com/default.asp), [page de téléchargement](https://www.fastfieldsolvers.com/download.htm) (code binaire et source), [forum](https://www.fastfieldsolvers.com/forum/).
 
@@ -95,7 +95,7 @@ L\'auteur considère que FreeCAD est une bonne plate-forme de prototypage permet
 
 fcFEM est présenté sous la forme d\'une bibliothèque python et d\'une macro. Vous pouvez le télécharger à partir du [dépôt de github](https://github.com/HarryvL/fcFEM). Il sera éventuellement disponible à partir du [gestionnaire d\'Addon](Std_AddonMgr/fr.md) ou sera distribué avec FreeCAD lui-même.
 
-## Implémentation en cours {#implémentation_en_cours}
+## Implémentation en cours 
 
 ### FEniCS
 
@@ -121,7 +121,7 @@ Jusqu\'à ce que l\'intégration du solveur soit terminée et que le nouveau cod
 -   <https://www.mbdyn.org/>
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=39165>
 
-## Solveurs non intégrés {#solveurs_non_intégrés}
+## Solveurs non intégrés 
 
 Les solveurs suivants n\'ont pas été intégrés à FreeCAD mais ils ont suscité un certain intérêt de la part de la communauté des utilisateurs. Si un développeur souhaite créer un pont de communication pour un solveur particulier, il ou elle doit consulter le [FEM subforum](https://forum.freecadweb.org/viewforum.php?f=18) pour obtenir des conseils et une assistance.
 
@@ -131,11 +131,11 @@ Les articles suivants sont peut-être obsolètes, mais les informations qu'ils c
 -   [Tutoriel pour ajouter des équations MEF](Add_FEM_Equation_Tutorial/fr.md)
 -   [Tutoriel pour ajouter des contraintes MEF](Add_FEM_Constraint_Tutorial/fr.md)
 
-### Agros2D et Hermes {#agros2d_et_hermes}
+### Agros2D et Hermes 
 
 [Agros2D](http://www.agros2d.org/) est un programme graphique multiplateforme conçu pour résoudre différents problèmes physiques. Il utilise les bibliothèques C ++ [Hermes](http://www.hpfem.org/hermes/) pour la résolution de systèmes d'équations aux dérivées différentielles non linéaires dépendantes du temps simples et complexes à l'aide d'une version générale de la méthode des éléments finis \[https : //en.wikipedia.org/wiki/Hp-FEM (hp-FEM)\]. Code principal [référentiel](https://github.com/hpfem/hermes) et [tutorials](https://github.com/hpfem/hermes-tutorial).
 
-### Code-Aster et Code-Saturne {#code_aster_et_code_saturne}
+### Code-Aster et Code-Saturne 
 
 [Code-Aster](https://www.code-aster.org/) est un solveur multiphysique à code source ouvert. Avec le pré-processeur Salomé-Meca, ils forment une plate-forme de simulation développée par EDF-GDF, le plus grand groupe énergétique français. Il s\'agissait d\'un des premiers packages dont l\'inclusion dans FreeCAD avait été envisagée: [FreeCAD et Code-Aster/Salome-Meca](https://forum.freecadweb.org/viewtopic.php?t=2839) (fil du forum).
 
@@ -153,7 +153,7 @@ Il a été suggéré dans les forums de procéder à une analyse des cadres en b
 
 [Test read data from Frame3DD file.](https://forum.freecadweb.org/viewtopic.php?f=24&t=19428) Sujet général du forum FEM. <https://forum.freecadweb.org/viewtopic.php?f=18&t=43389> .
 
-### Impact FEM {#impact_fem}
+### Impact FEM 
 
 -   <http://www.impact-fem.org/> (lien cassé)
 

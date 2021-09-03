@@ -1,6 +1,6 @@
 This is the place to put all kind of FreeCAD-related stuff! If you work on something FreeCAD-related, please include it here!
 
-## Places where FreeCAD appears on the net {#places_where_freecad_appears_on_the_net}
+## Places where FreeCAD appears on the net 
 
 -   [Wikipedia](http://en.wikipedia.org/wiki/FreeCAD_(software))
 -   [Softpedia](http://linux.softpedia.com/get/Multimedia/Graphics/FreeCAD-31097.shtml)
@@ -14,7 +14,7 @@ This is the place to put all kind of FreeCAD-related stuff! If you work on somet
 -   [RepRap](http://dev.forums.reprap.org/read.php?12,28611,28611)
 -   [Opennovation Repository](http://www.opennovation.org/ubuntu/)
 
-## FreeCAD-related projects {#freecad_related_projects}
+## FreeCAD-related projects 
 
 -   [FreeCAD repository](http://yorik.orgfree.com/scripts/FreeCAD-repository.html) and [Draft module roadmap](http://yorik.orgfree.com/scripts/FreeCAD-draft.html) on [Yorik](http://yorik.orgfree.com)\'s site. Yorik is working on the Draft module.
 -   [FreeCAD development page](http://ja.orgfree.com/freecad.htm) on [Jacques-Antoine](http://ja.orgfree.com/)\'s site. Jacques-Antoine is working on a new Fold module.
@@ -24,7 +24,7 @@ This is the place to put all kind of FreeCAD-related stuff! If you work on somet
 -   [David](David.md) is a very low cost 3D scanning system that can work with FreeCAD
 -   [Architecture workflow](http://yorik.orgfree.com/guestblog.php?2009=40) : An example of how FreeCAD can begin to have its preliminary place in an architecture workflow\...
 
-## Scripting, math, vectors, 3d resource & tutorials {#scripting_math_vectors_3d_resource_tutorials}
+## Scripting, math, vectors, 3d resource & tutorials 
 
 -   Yorik\'s [FreeCAD-related](http://delicious.com/yorik.vanhavre/freecad) bookmarks
 -   <http://www.sloan-home.co.uk/FreeCAD/Info/Info.html> a user-friendly \"Info\" module. See <http://forum.freecadweb.org/viewtopic.php?f=3&t=4036>
@@ -37,12 +37,12 @@ This is a raw list of sites and blogs that have at some point mentioned FreeCAD.
 
 Feel free to add more pages or assign one or more pages to yourself to take care of notifying them about a new release of FreeCAD.
 
-### Social networks {#social_networks}
+### Social networks 
 
 -   <http://plus.google.com/107660967460246172334/posts>
 -   [yorik](User:Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
-### News Sites {#news_sites}
+### News Sites 
 
 -   <http://makezine.com/>
 -   <http://www.webupd8.org/>
@@ -55,7 +55,7 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 -   <http://www.inside3dp.com/>
 -   <http://diy3dprinting.blogspot.com/>
 
-### Other Sites {#other_sites}
+### Other Sites 
 
 -   <http://www.bld3r.com/>
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
@@ -86,7 +86,7 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 
 -   <http://www.geosaber.com.br/> (not sure how appropriate/relevant)
 
-### Spanish {#spanish_1}
+### Spanish 
 
 -   <http://www.iearobotics.com/blog/>
 
@@ -105,11 +105,11 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 
 -   <http://www.lirui.name/post/208.html>
 
-## Other resources {#other_resources}
+## Other resources 
 
 -   [Interesting links](Interesting_links.md) contains some maybe useful links to other FLOSS resources and project in this area.
 
-## You too! {#you_too}
+## You too! 
 
 -   See what you can do to [Help FreeCAD](Help_FreeCAD.md)\...
 

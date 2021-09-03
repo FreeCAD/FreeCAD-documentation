@@ -70,14 +70,14 @@ Each Tool has a **Help Button** ![](images/Help-btn.png ) to get some useful tip
 
 ## Installation
 
-### Automatic Installation {#automatic_installation}
+### Automatic Installation 
 
-The recommended way to install the Manipulator Workbench is via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) under the {{MenuCommand|Tools → Addon Manager}} menu.
+The recommended way to install the Manipulator Workbench is via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) under the **Tools → Addon Manager** menu.
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:600px">
 
-### Manual Installation {#manual_installation}
+### Manual Installation 
 
 If a manual install is necessary please follow the following instructions:
 
@@ -112,7 +112,7 @@ git clone https://github.com/easyw/Manipulator Manipulator
 
 The workbench evolved out of the [Center Align Objects with Faces or Edges](Macro_Center_Align_Objects_with_Faces_or_Edges.md) macro
 
-## External workbenches {#external_workbenches}
+## External workbenches 
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
 

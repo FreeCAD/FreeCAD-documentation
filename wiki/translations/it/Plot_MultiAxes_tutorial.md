@@ -28,11 +28,11 @@ Nell\'immagine precedente si può vedere il risultato finale approssimativo di q
 -   Controllare la griglia e la legenda quando sono presenti più sistemi di assi.
 -   Riposizionare le etichette, i titoli e le legende.
 
-## Creare il grafico {#creare_il_grafico}
+## Creare il grafico 
 
 Come descritto nella [guida di base](Plot_Basic_tutorial/it.md), si usa la console Python o le macro per tracciare i dati, con la differenza che in questo caso i dati sono tracciati in due diversi sistemi di assi.
 
-### Creare i dati {#creare_i_dati}
+### Creare i dati 
 
 In questo esempio, vengono tracciate 3 funzioni: le due utilizzate nel [precedente tutorial](Plot_Basic_tutorial/it.md), e una nuova funzione polinomiale. Il polinomio ha bisogno di un nuovo sistema di assi in quanto il suo campo di variazione è diverso da tutti gli altri.
 I seguenti comandi creano i gruppi di dati necessari:
@@ -51,7 +51,7 @@ c = [math.cos(math.pi*2.0*tt) for tt in t]
 Dato che x varia tra 0 e 2, la funzione y varia tra 0 e 4, quindi provando a tracciare questa funzione con quelle trigonometriche, che variano invece tra 0 e 1, almeno una funzione verrà troncata o scalata male, perciò serve un grafico MultiAsse.
 In FreeCAD il grafico Multiasse è destinato a produrre un grafico con più assi, e non per produrre più grafici nello stesso documento.
 
-### Tracciare le funzioni, aggiungere nuovi assi {#tracciare_le_funzioni_aggiungere_nuovi_assi}
+### Tracciare le funzioni, aggiungere nuovi assi 
 
 In questo esempio la funzione polinomiale viene tracciata nel sistema di assi principali. Se tutti gli assi hanno stesse dimensioni non è rilevante in quali assi viene tracciata una funzione, ma se il grafico ha assi con dimensioni diverse, come in questo caso, gli assi principali devono essere quelli più grandi (perché hanno lo sfondo bianco).
 Per tracciare la prima curva basta lanciare i seguenti comandi:
@@ -76,9 +76,9 @@ Plot.plot(t,c,r"$\cos\left( 2 \pi t \right)$")
 
 Come si può vedere il grafico ha un pessimo aspetto, con le tacche degli assi sovrapposte, le curve dello stesso colore, ecc. Per risolvere questi problemi ora si passa a usare il modulo [Grafico](Plot_Module/it.md) di FreeCAD.
 
-## Configurare il grafico {#configurare_il_grafico}
+## Configurare il grafico 
 
-### Configurare gli assi {#configurare_gli_assi}
+### Configurare gli assi 
 
 Il modulo [Grafico](Plot_Module/it.md) di FreeCAD fornisce uno strumento per modificare le proprietà di ogni asse.
 
@@ -102,11 +102,11 @@ La prima cosa che si trova nello strumento degli assi è il selettore degli assi
 
 Nei cursori delle dimensioni, spostare a sinistra i cursori orizzontali e in basso quelli verticali per ridurre le dimensioni degli assi (cercare di emulare l\'esempio). Dopo impostare l\'allineamento degli assi, spostarli in alto a destra impostando un piccolo offset di due unità.
 
-### Configurare le serie {#configurare_le_serie}
+### Configurare le serie 
 
 Impostare le proprietà delle serie, come descritto nella [guida di base](Plot_Basic_tutorial/it.md).
 
-### Mostrare la griglia e la legenda {#mostrare_la_griglia_e_la_legenda}
+### Mostrare la griglia e la legenda 
 
 La griglia e legenda sono mostrate e nascoste con gli stessi strumenti utilizzati nel [tutorial precedente](Plot_Basic_tutorial/it.md), ma in questo caso il comportamento è un po\' diverso a causa della presenza di due diversi sistemi di assi.
 
@@ -114,7 +114,7 @@ Per quanto concerne le linee della griglia, è possibile visualizzarle indipende
 
 Per quanto riguarda la legenda, essa è unica per entrambi i sistemi di assi ed è possibile scegliere quali assi utlizzare per mostrarla, ma si consiglia vivamente di utilizzare i più grandi (0 in questo esempio) perché la posizione viene riferita alle coordinate di questi assi. Se adesso si visualizza la legenda si può osservare che è posizionata male, questo problema sarà risolto in seguito.
 
-### Definire le etichette degli assi {#definire_le_etichette_degli_assi}
+### Definire le etichette degli assi 
 
 È possibile impostare le etichette degli assi con lo stesso strumento utilizzato nella [guida di base](Plot_Basic_tutorial/it.md), con la differenza che ora ci sono più assi. Dal momento che le etichette degli assi sono una per ogni asse, non è una differenza significativa, ma il modulo [Grafico](Plot_Module/it.md) di FreeCAD consente anche di impostare un titolo per il sistema di assi. Ecco come impostare solo il titolo degli assi principali:
 
@@ -131,7 +131,7 @@ Per quanto riguarda la legenda, essa è unica per entrambi i sistemi di assi ed 
 
 Impostare inoltre 20 come fontsize per tutti, escluso il titolo che utilizza una dimensione di scrittura di 24. Come accaduto con la legenda, il titolo è posizionato male, interseca gli assi del secondo set, quindi ora bisogna risolvere entrambi i problemi.
 
-### Riposizionare gli elementi del grafico {#riposizionare_gli_elementi_del_grafico}
+### Riposizionare gli elementi del grafico 
 
 Il modulo [Grafico](Plot_Module/it.md) di FreeCAD fornisce uno strumento per impostare la posizione di alcuni elementi del grafico, come titoli, etichette o legenda.
 
@@ -156,7 +156,7 @@ Quando si esegue lo strumento viene visualizzato un elenco con tutti gli element
 
 <div class="mw-translate-fuzzy">
 
-## Salvare il grafico {#salvare_il_grafico}
+## Salvare il grafico 
 
 Ora è possibile salvare il lavoro. Consultare il [tutorial di base](Plot_Basic_tutorial/it.md) se non si ricorda come farlo.
 

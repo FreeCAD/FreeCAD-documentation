@@ -15,7 +15,7 @@ Le serveur Web est basé sur le module [pydoc](https://docs.python.org/3.8/libra
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Aide → <img src="images/Std_PythonHelp.svg" width=16px> Documentation automatique des modules python}} dans le menu.
+1.  Sélectionnez l\'option **Aide → <img src="images/Std_PythonHelp.svg" width=16px> Documentation automatique des modules python** dans le menu.
 2.  Cliquez sur l\'un des liens pour accéder à la documentation d\'une classe ou d\'une fonction spécifique.
 
 

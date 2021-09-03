@@ -4,7 +4,7 @@ Ccache (or "ccache") is a compiler cache. It speeds up recompilation by caching 
 
 ## Usage
 
-### Related Links {#related_links}
+### Related Links 
 
 -   [ccache website](https://ccache.dev/Official)
 -   [Compiling (Speeding up)](Compiling_(Speeding_up).md)

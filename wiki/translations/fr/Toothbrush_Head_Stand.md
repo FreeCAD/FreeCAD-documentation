@@ -1,6 +1,6 @@
  {{TutorialInfo/fr|Topic=Modélisation|Level=Débutant|Author=[EmmanuelG](User:EmmanuelG.md)|Time=1 heure|FCVersion=0.16 ou ultérieure|Files=[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]}}
 
-## Un problème de la vie courante {#un_problème_de_la_vie_courante}
+## Un problème de la vie courante 
 
 Les brosses à dents électriques viennent rarement avec une tête, tandis que dans une famille, vous verrez souvent plusieurs têtes utilisées avec un seul moteur. Beaucoup de personnes confrontées à un problème commun nous conduisent à une variété de solutions, comme vous pouvez le voir sur Thingiverse (200 à 800 projets sont liés à cela). Voici la première réponse et comment la concevoir.
 
@@ -8,13 +8,13 @@ Ce tutoriel vous guidera à travers les étapes nécessaires pour modéliser la 
 
 ![](images/TBHS-model.png )
 
-## Première idée: un plateau {#première_idée_un_plateau}
+## Première idée: un plateau 
 
 -   A partir de la page d\'accueil, sélectionnez ![](images/Workbench_PartDesign.svg‎‎ ) \"Part Design\" ou créez un nouveau document et sélectionnez l\'espace de travail \"Part Design\".
 
 ![](images/TBHS-0.png )
 
-### Créer une esquisse {#créer_une_esquisse}
+### Créer une esquisse 
 
 -   Cliquez sur le bouton <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [**Nouvelle esquisse**](Sketcher_NewSketch/fr.md). Soit à partir du menu de tâches contextuelles à gauche, soit de la barre d\'outils ci-dessus ou du menu Part Design en haut.
 
@@ -64,7 +64,7 @@ Un croquis sous-contraint peut laisser place à des changements non désirés, s
 
 Vous ne voyez maintenant que le carré et le menu contextuel de gauche vous montre plus d\'options qu\'avant.
 
-### Créer un volume (pad) {#créer_un_volume_pad}
+### Créer un volume (pad) 
 
 -   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonométrique** parmi les vues standard, pour mieux voir ce qui va se passer.
 -   Cliquez sur le bouton <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Protrusion**.
@@ -74,7 +74,7 @@ Vous ne voyez maintenant que le carré et le menu contextuel de gauche vous mont
 
 Votre carré est désormais un volume !
 
-### Créer un nouveau dessin sur une face {#créer_un_nouveau_dessin_sur_une_face}
+### Créer un nouveau dessin sur une face 
 
 -   Sélectionnez la face supérieure
 
@@ -119,7 +119,7 @@ Ces lignes seront les références pour positionner les cercles
 
 <img alt="" src=images/TBHS-15.JPG  style="width:800px;">
 
-### Créer un volume {#créer_un_volume}
+### Créer un volume 
 
 -   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrique** en vue standard, pour mieux voir ce qui se passe devant vos yeux ébahis.
 -   Cliquez sur le bouton <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Protrusion**.
@@ -129,7 +129,7 @@ Ces lignes seront les références pour positionner les cercles
 
 Vous avez la forme de base, juste une touche finale\....
 
-### Arrondir les coins {#arrondir_les_coins}
+### Arrondir les coins 
 
 -   Enfoncer la touche Ctrl **CTRL** et cliquez sur les quatre arrêtes verticales .
 
@@ -146,7 +146,7 @@ N\'hésitez pas à vous aider en changeant le mode d\'affichage Barres tâches (
 
 Encore mieux!
 
-### Rendre plus robuste {#rendre_plus_robuste}
+### Rendre plus robuste 
 
 Nous devons ajouter du matériaux à la base des cylindres pour les rendre moins cassants. En raison de l\'orientation de l\'impression, ces petites surfaces seront fragiles à la jonction avec la base.
 
@@ -159,7 +159,7 @@ Sélectionner les cercles à la bases des cylindres
 
 <img alt="" src=images/TBHS-20.JPG  style="width:800px;">
 
-### Chanfreiner les angles {#chanfreiner_les_angles}
+### Chanfreiner les angles 
 
 -   Sélectionnez la face inférieure de la base, additionner un chanfrein <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **chanfrein** de 0,5 mm (ça c\'est pour l\'esthétique).
 
@@ -179,7 +179,7 @@ Vous avez remarqué que nous avons changé plusieurs fois de mode de représenta
 
 Tadaam youp\' la boom !
 
-## Exporter en .STL {#exporter_en_.stl}
+## Exporter en .STL 
 
 -   Dans la vue combiner à gauche, dans l\'arborescence, cliquez sur la dernière opération **"Chanfrein"**.
 
@@ -202,11 +202,11 @@ Ne soyons pas étonnés d\'avoir de nouvelles idées Par exemple : avoir plus de
 
 Dans cette seconde version, nous allons utiliser d\'autres outils, par exemple \"Répétition linéaire\"
 
-## Seconde idée : une bande annulaire {#seconde_idée_une_bande_annulaire}
+## Seconde idée : une bande annulaire 
 
 -   Créez un nouveau document et sélectionnez ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design* workbench.
 
-### Créer un sketch {#créer_un_sketch}
+### Créer un sketch 
 
 -   Créer une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **Nouvelle esquisse** dans le plan XY.
 
@@ -256,7 +256,7 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 
 <img alt="" src=images/TBHS2-8.JPG  style="width:800px;">
 
-### Créer un volume {#créer_un_volume_1}
+### Créer un volume 
 
 -   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrique** de la barre d\'outils \"Vues, pour avoir un meilleur spectacle devant vos yeux émerveillés.
 -   Cliquez sur le bouton <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Protrusion**.
@@ -264,7 +264,7 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 
 <img alt="" src=images/TBHS2-9.JPG  style="width:800px;">
 
-### Créer un dessin par dessus {#créer_un_dessin_par_dessus}
+### Créer un dessin par dessus 
 
 -   Sélectionnez la face supérieure (seulement la face, pas tout le volume)
 
@@ -310,7 +310,7 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 
 <img alt="" src=images/TBHS2-17.JPG  style="width:800px;">
 
-### Créer le trou {#créer_le_trou}
+### Créer le trou 
 
 -   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrique** de la barre d\'outil \"Vues\", toujours pour une meilleur vision.
 -   Cliquez sur le bouton <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [**Cavité**](PartDesign_Pocket/fr.md).
@@ -318,7 +318,7 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 
 <img alt="" src=images/TBHS2-18.JPG  style="width:800px;"> Si vous sélectionnez \"à travers tout\", vous aurez un trou identique de chaque coté
 
-### Répétition linéaire {#répétition_linéaire}
+### Répétition linéaire 
 
 -   Dans l\'arborescence du tableau combiné à gauche, sélectionnez la dernière opération \"Pocket.
 -   Cliquez sur le bouton <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [**Répétition linéaire**](PartDesign_LinearPattern/fr.md).
@@ -326,7 +326,7 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 
 <img alt="" src=images/TBHS2-19.JPG  style="width:800px;">
 
-### Créer un sketch par dessus {#créer_un_sketch_par_dessus}
+### Créer un sketch par dessus 
 
 -   Sélectionnez la face inférieure
 
@@ -364,7 +364,7 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 
 <img alt="" src=images/TBHS2-26.JPG  style="width:800px;">
 
-### Créer une protrusion {#créer_une_protrusion}
+### Créer une protrusion 
 
 -   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometrique** parmi les vues standard, pour mieux voir la vue.
 -   Cliquez sur le bouton <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Protrusion**.
@@ -372,7 +372,7 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 
 <img alt="" src=images/TBHS2-27.JPG  style="width:800px;">
 
-### Répétition linéaire {#répétition_linéaire_1}
+### Répétition linéaire 
 
 -   Dans l\'arborescence à gauche, sélectionnez la dernière opération.
 -   Cliquez sur le bouton <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [**Répétition linéaire**](PartDesign_LinearPattern/fr.md)..
@@ -411,7 +411,7 @@ Chanfrein = à gauche/Draft = à droite
 
 Parfait !
 
-## Exportation en format .STL {#exportation_en_format_.stl}
+## Exportation en format .STL 
 
 -   Voir le premier exemple.
 

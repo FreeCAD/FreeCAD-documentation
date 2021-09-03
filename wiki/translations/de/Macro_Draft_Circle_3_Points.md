@@ -98,7 +98,7 @@ else:
 
 }}
 
-## Verbesserte Version {#verbesserte_version}
+## Verbesserte Version 
 
 Zusätzlich zu den vorherigen Features wird dieses Beispiel verwendet, um einen orthogonalen Kreis an jeder Form in der Auswahl auszurichten und den Plan **XY, YZ, XZ**zu wählen.
 Der Kreis nimmt die Farbe der Achse unabhängig von der aktuellen Farbe an, und der Mittelpunkt des Kreises wird gezeichnet (Option O/N).

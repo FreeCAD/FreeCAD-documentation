@@ -119,7 +119,7 @@ house.ifc
 
 13\. Viel Spaß an BIM mit FreeCAD!
 
-## Abschließende Gedanken {#abschließende_gedanken}
+## Abschließende Gedanken 
 
 Meine Meinung ist, dass FreeCAD selbst vorkompilierte Versionen von IfcOpenShell mit der Distribution gebündelt haben sollte, weil es eine totale Qual ist, es selbst zu bauen, und der durchschnittliche Benutzer wird es nicht tun (er weiß nicht, wie man GitHub kompiliert, verwaltet usw.), aber na ja, vielleicht in der Zukunft.
 

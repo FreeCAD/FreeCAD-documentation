@@ -23,7 +23,8 @@ The Landmark Dimension generally behaves like any other Dimension
 
 1.  Select 2 Point objects in the [tree view](Tree_view.md) or the [3D view](3D_view.md).
 2.  Select also the View to which the dimension is to be added.
-3.  Press the **<img src="images/Techdraw-landmarkdistance.svg" width=20px> [Dimension Landmark](TechDraw_Dimension_Landmark.md)** button or {{MenuCommand|TechDraw → Dimension Landmark}}
+3.  Press the **<img src="images/Techdraw-landmarkdistance.svg" width=20px> [Dimension Landmark](TechDraw_Dimension_Landmark.md)
+** button or **TechDraw → Dimension Landmark**
 4.  A dimension will be added to the View. The dimension text may be dragged to the desired position.
 
 ## Limitations

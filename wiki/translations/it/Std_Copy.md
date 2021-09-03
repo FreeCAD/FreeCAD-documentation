@@ -17,8 +17,8 @@ Il comando **Copia** pone gli oggetti selezionati negli \"appunti\" per un succe
 1.  Selezionare uno o più oggetti.
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_Copy.svg" width=16px> [Copia](Std_Copy/it.md)**.
-    -   Selezionare l\'opzione {{MenuCommand|Modifica → <img src="images/Std_Copy.svg" width=16px> Copia}} dal menu.
-    -   Selezionare l\'opzione {{MenuCommand|<img src="images/Std_Copy.svg" width=16px> Copia}} dal menu contestuale della [vista ad albero](Tree_view/it.md).
+    -   Selezionare l\'opzione **Modifica → <img src="images/Std_Copy.svg" width=16px> Copia** dal menu.
+    -   Selezionare l\'opzione **<img src="images/Std_Copy.svg" width=16px> Copia** dal menu contestuale della [vista ad albero](Tree_view/it.md).
     -   Usare la scorciatoia da tastiera: **Ctrl**+**C**.
 3.  Se gli oggetti hanno delle dipendenze che non sono state selezionate, una finestra di dialogo chiede di specificare quali devono essere incluse.
 

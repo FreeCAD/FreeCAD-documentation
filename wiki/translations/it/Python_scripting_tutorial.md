@@ -74,7 +74,7 @@ Questo vi farà risparmiare molti problemi!
 
 <div class="mw-translate-fuzzy">
 
-## Scrivere un codice Python {#scrivere_un_codice_python}
+## Scrivere un codice Python 
 
 In FreeCAD, ci sono due modi semplici per scrivere un codice Python: Tramite la console di Python (disponibile con Visualizza → Pannelli → Console Python) oppure tramite l\'editor delle Macro (Strumenti → Macro).
 
@@ -83,7 +83,7 @@ Nella console, si scrivono i comandi Python uno per uno (riga per riga), e quest
 
 </div>
 
-There are two ways to write Python code in FreeCAD. In the [Python console](Python_console.md) (select {{MenuCommand|View → Panels → Python console}} from the menu) or in the [Macro editor](Std_DlgMacroExecute.md) (select {{MenuCommand|Macro → Macros...}} from the menu). In the console you write Python commands one by one, executing them by pressing **Enter**, while macros can contain more complex code made up of several lines, executed only when the macro is executed.
+There are two ways to write Python code in FreeCAD. In the [Python console](Python_console.md) (select **View → Panels → Python console** from the menu) or in the [Macro editor](Std_DlgMacroExecute.md) (select **Macro → Macros...** from the menu). In the console you write Python commands one by one, executing them by pressing **Enter**, while macros can contain more complex code made up of several lines, executed only when the macro is executed.
 
 ![](images/Screenshot_pythoninterpreter.jpg )
 
@@ -108,7 +108,7 @@ In questo tutorial si utilizzeranno entrambi i metodi, sia il copia/incolla di o
 
 <div class="mw-translate-fuzzy">
 
-## Esplorare FreeCAD {#esplorare_freecad}
+## Esplorare FreeCAD 
 
 Iniziamo creando un nuovo documento vuoto:
 
@@ -253,7 +253,7 @@ Provate a cambiare le altre dimensioni del box.
 
 <div class="mw-translate-fuzzy">
 
-## Vettori e posizionamenti {#vettori_e_posizionamenti}
+## Vettori e posizionamenti 
 
 I [vettori](http://it.wikipedia.org/wiki/Vettore_%28matematica%29) sono un concetto fondamentale in qualsiasi applicazione 3D. Si tratta di un elenco di 3 numeri (x, y, z) che descrivono un punto o una posizione nello spazio 3D.
 
@@ -302,7 +302,7 @@ Prima di continuare, si devono vedere un paio di concetti importanti.
 
 <div class="mw-translate-fuzzy">
 
-## App e Gui {#app_e_gui}
+## App e Gui 
 
 FreeCAD è stato inizialmente creato per lavorare come applicazione a riga di comando, senza la sua attuale interfaccia utente. Di conseguenza, quasi tutto viene separato in una componente \"geometria\" e una componente \"vista\".
 
@@ -616,7 +616,7 @@ FreeCAD fornisce un semplice editor di testo (Macro → Macro → Crea) in cui �
 
 </div>
 
-Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor ({{MenuCommand|Macro → Macros... → Create}}) where you can write or paste scripts. Once the script is done, use {{MenuCommand|Tools → Customize... → Macros}} to define a button for it that can be added to toolbars.
+Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor (**Macro → Macros... → Create**) where you can write or paste scripts. Once the script is done, use **Tools → Customize... → Macros** to define a button for it that can be added to toolbars.
 
 
 <div class="mw-translate-fuzzy">

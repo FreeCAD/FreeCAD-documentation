@@ -35,7 +35,7 @@ Yakalama çoğu [ Taslak tezgahı](Draft_Module/tr.md) ve [ Mimari Tezgah](Arch_
 
 </div>
 
-## Snap tools {#snap_tools}
+## Snap tools 
 
 These tools are available in the Draft Snap toolbar and in the [Draft snap widget](Draft_snap_widget.md).
 
@@ -76,7 +76,7 @@ Note that circular edges do not have to be full circles.
 
 <div class="mw-translate-fuzzy">
 
-### Gelişmiş yapışma {#gelişmiş_yapışma}
+### Gelişmiş yapışma 
 
 
 </div>

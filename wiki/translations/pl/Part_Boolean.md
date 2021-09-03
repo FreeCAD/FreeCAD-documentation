@@ -17,7 +17,7 @@ Aby uzyskać szybszy dostęp do tych operacji, użyj **<img src=images/Part_Fuse
 
 *Okno dialogowe do wyboru obiektów i wykonywania na nich operacji logicznych.*
 
-## Jak używać {#jak_używać}
+## Jak używać 
 
 Patrz poszczególne polecenia:
 
@@ -37,9 +37,9 @@ Patrz poszczególne polecenia:
 **
     
 
-Patrz również menu {{MenuCommand|Part → Utwórz kopi → [Udoskonal kształt](Part_RefineShape/pl.md)}}.
+Patrz również menu **Part → Utwórz kopi → [Udoskonal kształt](Part_RefineShape/pl.md)**.
 
-## Problemy współpłaszczyznowe {#problemy_współpłaszczyznowe}
+## Problemy współpłaszczyznowe 
 
 Operacje typu logicznego są wykonywane przez wewnętrzne jądro geometrii, [technologię OpenCASCADE](OpenCASCADE.md) *(OCCT)*. Biblioteka ta czasami ma problemy z generowaniem wyników operacji logicznych, gdy obiekty wejściowe mają wspólne krawędzie lub powierzchnie. Aby być pewnym, że operacja logiczna zakończy się sukcesem, zaleca się, aby kształty przecinały się wyraźnie; oznacza to, że w większości przypadków jeden kształt powinien wystawać lub być większy od drugiego.
 

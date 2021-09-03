@@ -3,11 +3,11 @@
 
 <div class="mw-translate-fuzzy">
 
-## Celkový pohled {#celkový_pohled}
+## Celkový pohled 
 
 **Umístění** je vlastnost FreeCADu, která specifikuje místo a orientaci objektu v prostoru. Umístění může být specifikováno ve více formulářích a může být měněno pomocí [skriptů](Python_scripting_tutorial#Vectors_and_Placements.md) v poli vlastnosti nebo v dialogovém okně **Umístění** (menu **Úpravy**).
 
-### Přístup k atributům Umístění {#přístup_k_atributům_umístění}
+### Přístup k atributům Umístění 
 
 K atributům objektu Umístění lze přistupovat a modifikovat je 3 způsoby:
 
@@ -37,16 +37,16 @@ K atributům objektu Umístění lze přistupovat a modifikovat je 3 způsoby:
 
 ![Dialogové okno umístění](images/PlacementDialogv10.png ) 
 
-## Tvary zadání umístění {#tvary_zadání_umístění}
+## Tvary zadání umístění 
 
-### Úhel, Osa a Pozice {#úhel_osa_a_pozice}
+### Úhel, Osa a Pozice 
 
 **Umístění = \[Úhel, Osa, Pozice\]**
 
 
 </div>
 
-### Angle, Axis and Position {#angle_axis_and_position}
+### Angle, Axis and Position 
 
 **Placement = \[Angle, Axis, Position\]**
 
@@ -84,7 +84,7 @@ Note that it is also possible to translate (move) an object along this axis of r
 
 **Pozice = (x,y,z)** je vektor popisující souřadnice referenčního bodu objektu. Všimněte si, že ve skriptu Placement.Base je použit pro vyznačení komponenty pozice umístění. Editor vlastností zobrazuje tuto hodnotu jako \"Pozice\".
 
-### Pozice a Yaw, Pitch a Roll {#pozice_a_yaw_pitch_a_roll}
+### Pozice a Yaw, Pitch a Roll 
 
 **Umístění = \[Pozice, Yaw-Pitch-Roll\]**
 
@@ -146,7 +146,7 @@ App.Rotation(10,20,30) = Euler Angle
 ![](images/Tache_Placement_Roulis_fr_Mini.gif )**Roll** is rotation about the **X axis**, that is to say wing up and down.
 (The Roll angle is the **Thêta θ**). 
 
-### Matrix (matice) {#matrix_matice}
+### Matrix (matice) 
 
 **Umístění = Matrix**
 
@@ -174,7 +174,7 @@ Třetí tvar zadání **Umístění** popisuje pozici a orientaci objektu pomoc�
 
 
 
-## Dialogové okno umístění {#dialogové_okno_umístění}
+## Dialogové okno umístění 
 
 Dialogové okno umístění se spouští z menu **Úpravy**. Je využíváno pro přesné pootočení a posunutí objektů. Je využíváno také když je potřeba vytvořit náčrt v \"nestandardní\" rovině nebo změnit orientaci náčrtu v nové rovině.
 
@@ -231,7 +231,7 @@ Otočení s použitím Eulerových úhlů:
 
 <img alt="Po otočení" src=images/RotationEulerAfter.png  style="width:600px;"> Po otočení 
 
-## Placement.Base vs Shape Definition {#placement.base_vs_shape_definition}
+## Placement.Base vs Shape Definition 
 
 Umístění není jediný způsob pozicování objektů v prostoru. Všimněte si Pythonovské konzoly na tomto obrázku:
 
@@ -276,7 +276,7 @@ Obě kostky mají stejné umístění, ale různé místo! Je to kvůli tomu, ž
 
 Vrcholy (nebo Vektory), které definují objekt využívají atributy Placement.Base jako jejich počátek. Proto, když chcete posunout objekt o 10 jednotek podél osy **X**, můžete přidat 10 do souřadnic **X** všech vrcholů nebo můžete nastavit pozici umístění Placement.Position na (10,0,0).
 
-## Použití \"Středu\" pro nastavení řídící osy otáčení {#použití_středu_pro_nastavení_řídící_osy_otáčení}
+## Použití \"Středu\" pro nastavení řídící osy otáčení 
 
 Standardně osa otáčení není ve skutečnosti osa X/Y/Z. Je to paralelní přímka k vybrané ose, která ale prochází referenčním bodem (Placement.Base) objektu, který se bude otáčet. Může to být změněno použitím pole Střed v dialogovém okně Umístění nebo ve skriptu použitím parametru Center (Střed) konstruktoru FreeCAD.Placement.
 
@@ -309,7 +309,7 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
-## Using Placement in expressions {#using_placement_in_expressions}
+## Using Placement in expressions 
 
 In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\": 
 ```python

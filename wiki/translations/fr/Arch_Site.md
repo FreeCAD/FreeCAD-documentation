@@ -76,9 +76,9 @@
 
 -    {{PropertyView/fr|Wind Rose}}: Affiche ou masque le diagramme de la rose des vents (nécessite que la propriété de données **EPW File** soit remplie et que le module Python de Ladybug soit installé (voir ci-dessous)
 
-## Travail typique {#travail_typique}
+## Travail typique 
 
-Commencez par créer un objet qui représente votre terrain. Ce doit être une surface ouverte pas un solide. Par exemple, il est facile d\'importer des données de maillage, qui peuvent être transformées en une forme de pièce à partir du menu {{MenuCommand|Part → Créer une forme à partir d'un maillage}}. Créez ensuite un objet Site et définissez sa propriété {{PropertyData/fr|Terrain}} sur la pièce que nous venons de créer:
+Commencez par créer un objet qui représente votre terrain. Ce doit être une surface ouverte pas un solide. Par exemple, il est facile d\'importer des données de maillage, qui peuvent être transformées en une forme de pièce à partir du menu **Part → Créer une forme à partir d'un maillage**. Créez ensuite un objet Site et définissez sa propriété {{PropertyData/fr|Terrain}} sur la pièce que nous venons de créer:
 
 ![](images/Arch_site_example_01.jpg )
 
@@ -90,7 +90,7 @@ La géométrie du site est alors calculée, les surfaces les périmètres et vol
 
 ![](images/Arch_site_example_03.jpg )
 
-## Diagrammes solaires et éoliens {#diagrammes_solaires_et_éoliens}
+## Diagrammes solaires et éoliens 
 
 Si [Ladybug](https://www.ladybug.tools/ladybug.html) est installé, [Arch Site](Arch_Site/fr.md) peut afficher un diagramme solaire et/ou une rose des vents. Pour cela, les propriétés {{PropertyData/fr|Longitude}}, {{PropertyData/fr|Latitude}} et {{PropertyData/fr|NorthDeviation}} doivent être correctement définies et {{PropertyView/fr|SolarDiagram}} ou {{PropertyView/fr|Wind Rose}} activée `True`. Respectivement {{Version/fr|0.17}} et {{Version/fr|0.19}}
 
@@ -131,7 +131,7 @@ FreeCAD.ActiveDocument.recompute()
 FreeCAD.Gui.ActiveDocument.ActiveView.viewIsometric()
 ```
 
-### Diagramme solaire {#diagramme_solaire}
+### Diagramme solaire 
 
 Tant que le module `pysolar` est présent, un diagramme solaire peut être ajouté au site. Définissez les angles de longitude, de latitude et de déclinaison selon les besoins, ainsi qu\'une échelle adéquate pour la taille de votre modèle.
 
@@ -149,7 +149,7 @@ Site.ViewObject.SolarDiagramScale = 10000
 FreeCAD.ActiveDocument.recompute()
 ```
 
-### Diagramme solaire indépendant du site {#diagramme_solaire_indépendant_du_site}
+### Diagramme solaire indépendant du site 
 
 Solar diagram peut aussi être créé avec la fonction suivante 
 ```python

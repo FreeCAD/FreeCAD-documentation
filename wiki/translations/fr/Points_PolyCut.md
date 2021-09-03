@@ -16,21 +16,21 @@ La commande *Points Couper par polygone* coupe des points de nuages de points.
 2.  Sélectionnez un ou plusieurs nuages de points.
 3.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/_Points_PolyCut.svg" width=16px> [Points Couper un nuage de points](Points_PolyCut/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Points → <img src="images/Points_PolyCut.svg" width=16px> Couper un nuage de points}} dans le menu.
+    -   Sélectionnez l\'option **Points → <img src="images/Points_PolyCut.svg" width=16px> Couper un nuage de points** dans le menu.
 4.  Définissez un polygone dans la vue 3D.
 5.  Sélectionnez une option dans le menu contextuel de la vue 3D:
     -   
-        {{MenuCommand|Finish}}
+        **Finish**
         
         : supprime les points qui se trouvent à l\'intérieur du polygone et termine la commande.
 
     -   
-        {{MenuCommand|Clear}}
+        **Clear**
         
         : permet de définir un polygone différent.
 
     -   
-        {{MenuCommand|Cancel}}
+        **Cancel**
         
         : annule la commande.
 

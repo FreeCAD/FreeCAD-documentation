@@ -41,7 +41,7 @@ Il y a quelques bonnes ressources de matériaux accessibles facilement :
 -   [Units calculator](http://www.dimensionengine.com/) pour obtenir des informations sur les matériaux dans l\'unité nécessaire à FreeCAD.
 -   [<http://www.matweb.com/>](http://www.matweb.com/) [gratuit](http://matweb.com/reference/terms.aspx) base de données gratuite avec des milliers de caractéristiques de matériaux.
 
-## Base de données de matériaux {#base_de_données_de_matériaux}
+## Base de données de matériaux 
 
 Étant donné que la norme ci-dessus est appliquée, il serait stupide de stocker toutes les propriétés au niveau des objets. Fondamentalement, nous pouvons construire une Base de données de matériaux avec le nom comme clé principale. Donc si vous n\'avez pas de besoins spéciaux pour votre matériau, vous avez juste a définir par exemple Name=Steel et FreeCAD récupérera toutes les propriétés dans cette Base de données. Chaque propriété supplémentaire que vous définirez dans le plan se substituera à celui de la Base de données.
 
@@ -60,13 +60,13 @@ Pour le moment, je pense à une compilation d\'un mini-jeu de données avec un e
 
 Le module doit être implémenté et peut être exécuté dans FreeCAD ou rester seul en ligne de commande par le module Python (charte-matériau-propriété).
 
-## Le format de fichier de carte des matériaux FreeCAD {#le_format_de_fichier_de_carte_des_matériaux_freecad}
+## Le format de fichier de carte des matériaux FreeCAD 
 
 Travailler avec des matériaux signifie souvent importer / exporter des définitions de matériaux. Par conséquent, un format de fichier est nécessaire. Étant donné que nous n\'avons que la forme clé / valeur, nous pouvons utiliser un format de fichier simple et facile à lire et à analyser. C\'est pourquoi le format [ini-file](http://en.wikipedia.org/wiki/INI_file) est choisi. Is est standardisé et a déjà un analyseur disponible. Par exemple, le [module d\'analyseur de configuration en python](http://docs.python.org/2/library/configparser.html).
 
 Chaque définition de matière réside dans un fichier avec extension {{FileName|.FCMat}}. Certains de ces fichiers font partie du source de FreeCAD et sont compilés dans le fichier binaire. Il s\'agit de sauver des dépenses dans la distribution et l\'accès. Mais les fichiers peuvent aussi être placés et répartis à différents endroits pour accepter les autres définitions de matériaux non standards.
 
-### Exemples fichier .FCMat {#exemples_fichier_.fcmat}
+### Exemples fichier .FCMat 
 
 
 ```python
@@ -84,7 +84,7 @@ Chaque définition de matière réside dans un fichier avec extension {{FileName
  EmissiveColor = 255,255,255
 ```
 
-## Propriétés du matériau {#propriétés_du_matériau}
+## Propriétés du matériau 
 
 Voici maintenant la description des propriétés du matériau convenues. N\'hésitez pas à ajouter un paragraphe pour les propriétés de matériaux de votre champ d\'application.
 
@@ -150,7 +150,7 @@ Cette section définit les propriétés du matériau qui sont liées à l\'appar
 
   : Propriétés Thermiques
 
-### Architecture et BIM {#architecture_et_bim}
+### Architecture et BIM 
 
   Nom de la propriété   Description                                                                                                                                                                                                                                                                                                                                Unité/Type de donnée
   --------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ----------------------
@@ -165,7 +165,7 @@ Cette section définit les propriétés du matériau qui sont liées à l\'appar
 
   : Propriétés des matériaux utilisés dans la conception architecturale
 
-## A faire {#a_faire}
+## A faire 
 
 -   ajouter durabilité et propriétés LEED
 

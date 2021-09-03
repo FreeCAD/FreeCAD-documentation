@@ -18,7 +18,7 @@ The Tube command inserts a tube into the active document. The tube is geometrica
 To create a tube either:
 
 -   press the **<img src="images/Part_Tube.svg" width=16px> '''Tube'''** button in the toolbar
--   use the menu {{MenuCommand|Part → Primitives → Create tube}}
+-   use the menu **Part → Primitives → Create tube**
 
 To edit the tube
 

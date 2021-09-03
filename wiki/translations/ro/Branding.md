@@ -21,7 +21,7 @@ Acest articol descrie **Branding** al FreeCAD. Branding înseamnă să începeț
 
 <div class="mw-translate-fuzzy">
 
-### General {#general_1}
+### General 
 
 Majoritatea branding-ului se face în *\' MainCmd.cpp*\' sau \'\'\' MainGui.cpp \'\'\'. Aceste proiecte generează fișierele executabile ale FreeCAD. Pentru a crea propriul dvs. brand doar copiați proiectele Main sau MainGui și dați executabilului un nume propriu, de ex. FooApp.exe. Cele mai importante setări pentru un aspect nou pot fi făcute într-un singur loc în funcția principal (). Iată secțiunea de cod care controlează branding-ul:
 
@@ -92,12 +92,12 @@ Q_INIT_RESOURCE(FooApp);
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Branding XML {#branding_xml}
+### Branding XML 
 
 
 <div class="mw-translate-fuzzy">
 
-### Branding XML {#branding_xml_1}
+### Branding XML 
 
 În FreeCAD există și o metodă acceptată fără scrierea unei funcții principale personalizate (). Pentru această metodă trebuie să scrieți un nume de fișier numit branding.xml și să-l puneți în directorul de instalare al FreeCAD. Iată un exemplu cu toate etichetele acceptate:
 

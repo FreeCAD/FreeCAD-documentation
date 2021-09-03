@@ -19,7 +19,7 @@ Il comando **Ripristina** chiude il documento attivo e riapre l\'ultima versione
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare l\'opzione {{MenuCommand|File → Ripristina}} dal menu.
+1.  Selezionare l\'opzione **File → Ripristina** dal menu.
 2.  Premere il pulsante **Sì** nella finestra di dialogo per confermare che si desidera abbandonare tutte le modifiche fatte dopo l\'ultimo salvataggio del file.
 
 

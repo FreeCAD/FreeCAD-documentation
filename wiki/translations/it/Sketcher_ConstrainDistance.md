@@ -26,7 +26,7 @@ Il vincolo **Distanza** impone alla lunghezza di una linea, alla distanza perpen
 2.  Richiamare il comando in uno di questi modi:
     -   Cliccare sull\'icona **<img src=images/Sketcher_ConstrainDistance.png style="width:24px"> '''Distanza'''** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **Maiusc** + **D**.
-    -   Usare la voce {{MenuCommand|Sketch → Vincoli → Distanza}} dal menu principale.
+    -   Usare la voce **Sketch → Vincoli → Distanza** dal menu principale.
 3.  Si apre una finestra di dialogo per modificare o confermare il valore. Premere **OK** per confermare.
 
 

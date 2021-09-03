@@ -22,7 +22,7 @@ Vor Beginn sind folgende Dinge zu beachten :
 
 ## Anleitung
 
-### Das Makro vorbereiten {#das_makro_vorbereiten}
+### Das Makro vorbereiten 
 
 Im Allgemeinen wird es vorkommen, dass ein Makro nicht direkt mit einem Programmstart kompatibel ist und feinabgestimmt werden muss
 
@@ -74,7 +74,7 @@ Alle Makros zeigen generell eine ähnliche Struktur: Zuerst ein Import-, dann ei
 
 Falls die Funktion \'run()\' bereits im Makro existiert, kannst du jeden anderen geeigneten Namen verwenden. Nun ist das Makro bereits, um in den FreeCAD-Start integriert zu werden.
 
-### In FreeCAD Start integrieren {#in_freecad_start_integrieren}
+### In FreeCAD Start integrieren 
 
 
 <div class="mw-translate-fuzzy">
@@ -118,7 +118,7 @@ Wir sind durch. Dein Makro sollte beim nächsten FreeCAD Start automatisch ausge
 
 Beachte, dass, wenn das Originalmakro über den Erweiterungsverwalter heruntergeladen wurde, es bei der Aktualisierung überschrieben wird und du daher die Schritte hier erneut befolgen musst.
 
-## General Notes {#general_notes}
+## General Notes 
 
 -   In the example \'InitGui.py\' script above, the function named \'runStartupMacros()\' may be changed, so long as you also change the other four references to it, so they all match.
 -   This script will be run prior to the auto loading of your desired startup workbench in the FreeCAD Preferences, [Preferences\_Editor\#General\_settings](Preferences_Editor#General_settings.md).

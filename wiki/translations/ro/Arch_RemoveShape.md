@@ -19,7 +19,7 @@ Acest instrument încearcă să înlăture forma cubică interioară a unui [Arc
 
 </div>
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -33,7 +33,7 @@ Acest instrument încearcă să înlăture forma cubică interioară a unui [Arc
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

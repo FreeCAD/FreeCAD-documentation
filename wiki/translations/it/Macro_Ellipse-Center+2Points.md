@@ -16,7 +16,7 @@ Crea un\'ellisse selezionando tre punti, in questo ordine: centro, raggio maggio
 
 ![](images/EllipseCenter2Point.png )
 
-## Ultima versione {#ultima_versione}
+## Ultima versione 
 
 L\'ultima versione della macro si trova in [EllipseCenter2Points.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/EllipseCenter2Points.FCMacro) ma il modo più semplice per installare questa macro è attraverso il [Addon Manager](Addon_Manager/it.md).
 

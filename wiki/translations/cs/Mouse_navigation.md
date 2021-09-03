@@ -23,7 +23,7 @@ Jsou dva způsoby změny navigačního stylu:
 -   V sekci Display (Zobrazení) [Editoru Předvoleb](Preferences_Editor/cs.md), záložka *3D Pohled*;
 -   Kliknutím pravého tlačítka myši v prázdném prostoru v oblasti 3D pohledu a potom výběrem \"Navigačního stylu\" v kontextuálním menu.
 
-### CAD Navigace (default) {#cad_navigace_default}
+### CAD Navigace (default) 
 
 Je to defaultní navigační styl, který umožňuje uživateli jednoduchou kontrolu nad pohledem a nepožaduje používání klávesnice, kromě vícenásobného výběru. {{CAD Navigation/cs}} {{CAD Navigation
 |Select_name=Select
@@ -86,7 +86,7 @@ With this method the middle mouse button may be released after the right mouse b
 Users who use the mouse with their right hand may find this method easier than the first method.
 }}
 
-### Inventor Navigation (Tvůrčí navigace) {#inventor_navigation_tvůrčí_navigace}
+### Inventor Navigation (Tvůrčí navigace) 
 
 Tvůrčí navigace, vytvářená podle [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) (nezaměňovat s Autodesk Inventor), kde se nepoužívá pouze výběr myší. Při vybírání objektů musíte držet stisknutou klávesu **CTRL**. {{Inventor Navigation/cs}} {{OpenInventor Navigation
 |Select_name=Select
@@ -119,7 +119,7 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
-### Blender Navigation {#blender_navigation}
+### Blender Navigation 
 
 V Blender Navigaci, vytvářené podle [Blenderu](http://www.blender.org), není snímání (kamerou) pouze myší. Při snímání pohledu kamerou musíte držet klávesu **SHIFT**. {{Blender Navigation/cs}} {{Blender Navigation
 |Select_name=Select
@@ -137,7 +137,7 @@ Alternatively, hold both left and right mouse buttons, and then move the pointer
 
 Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold the middle mouse button, then move the pointer. }}
 
-### Touchpad Navigation {#touchpad_navigation}
+### Touchpad Navigation 
 
 V Touchpad Navigaci, bez snímání, zoomování, a otáčení pohledu, jsou pouze operace s myší (nebo touchpadem). {{Touchpad Navigation/cs}} {{Touchpad Navigation
 |Select_name=Select
@@ -157,7 +157,7 @@ V Touchpad Navigaci, bez snímání, zoomování, a otáčení pohledu, jsou pou
 |Rotate_view_alt_text=Alternatively, hold **Shift** and the left button, then move the pointer.
 }}
 
-### Gesture Navigation (v0.16) {#gesture_navigation_v0.16}
+### Gesture Navigation (v0.16) 
 
 This navigation style was tailored for usability with touchscreen and pen, but is very usable with mouse too. {{Gesture Navigation
 |Select_name=Select
@@ -183,7 +183,7 @@ Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md).
 |Tilt_view_text=Hold both left and right mouse buttons, and then move the pointer sideways. 
 |Tilt_view_gesture_text=Rotate the imaginary line formed by two touch points.
 
-On v0.18 this method is disabled by default. To enable, go to {{MenuCommand|Edit → Preferences → Display}}, and untick "Disable touchscreen tilt gesture" checkbox.
+On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick "Disable touchscreen tilt gesture" checkbox.
 }}
 
 Alternatively, tap and hold, then drag. This simulates the pan with the right mouse button. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Zoom\_gesture\_text=Drag two fingers (pinch) closer or farther apart. \|Rotate\_view\_text=Hold the left mouse button, then move the pointer. In [Sketcher](Sketcher_Workbench.md) and other edit modes, this behavior is disabled. Hold **Alt** when pressing the mouse button to enter rotation mode.
@@ -192,9 +192,9 @@ To set the camera\'s focus point for rotation, click a point with the middle mou
 
 Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt\_view\_text=Hold both left and right mouse buttons, then move the pointer sideways. \|Tilt\_view\_gesture\_text=Rotate the imaginary line formed by two touch points.
 
-On v0.18 this method is disabled by default. To enable, go to {{MenuCommand|Edit → Preferences → Display}}, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
+On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
 
-### Maya-Gesture Navigation {#maya_gesture_navigation}
+### Maya-Gesture Navigation 
 
 
 <div class="mw-translate-fuzzy">
@@ -218,7 +218,7 @@ Alternatively, use the mouse wheel to zoom in and out.
 
 Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold **Alt** and the left mouse button, then move the pointer. }}
 
-### Revit Navigation {#revit_navigation}
+### Revit Navigation 
 
 This style was introduced in version 0.18.
 
@@ -259,9 +259,9 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 |Rotate_view_text=Hold **Ctrl** and the right mouse button, then move the pointer.
 }}
 
-## Výběr objektu {#výběr_objektu}
+## Výběr objektu 
 
-### Jednoduchý výběr {#jednoduchý_výběr}
+### Jednoduchý výběr 
 
 Objekty mohou být vybírány kliknutím levým tlačítkem myši na objekt ve 3D-pohledu nebo výběrem objektu ve stromu pohledu.
 
@@ -269,15 +269,15 @@ Objekty mohou být vybírány kliknutím levým tlačítkem myši na objekt ve 3
 
 Je zde také možný mechanizmus*Předvýběru* který zvýrazňuje objekty a před výběrem zobrazuje informace o objektu při přechodu myší nad objektem. Pokud Vám takové chování nevyhovuje nebo pokud máte pomalý stroj, můžete v předvolbách přepnout Předvýběr na Off (Vypnuto).
 
-## Manipulace s objekty {#manipulace_s_objekty}
+## Manipulace s objekty 
 
 FreeCAD nabízí [*manipulátory*](Manipulator.md) což jsou ovladače, které mohou být použity pro modifikace vzhledu objektu, jeho tvaru nebo jiných parametrů.
 
-## Podpora hardwaru {#podpora_hardwaru}
+## Podpora hardwaru 
 
 FreeCAD také podporuje některé [3D vstupní zařízení](3D_input_devices/cs.md).
 
-## Mac OS X problémy {#mac_os_x_problémy}
+## Mac OS X problémy 
 
 Nedávno jsme dostali oznámení [na fóru](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) od uživatelů Mac, že uvedená tlačítka myši a kombinace kláves nefungují podle očekávání. Bohužel žádný z vývojářů nevlastní Mac a ani žádný zpravidelných spolupracovníků. Potřebujeme Vaši pomoc ke zjištění která tlačítka myši a klávesové kombinace mají uvedené problémy abychom mohli aktualizovat tuto stránku wiki.
 

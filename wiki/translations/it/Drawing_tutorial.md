@@ -34,7 +34,7 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 
 Per velocizzare questo tutorial, è necessario raggruppare gli elementi simili nella **Vista a albero** in modo da poter applicare le operazioni contemporaneamente a diversi elementi.
 
-##### Raggruppare gli elementi {#raggruppare_gli_elementi}
+##### Raggruppare gli elementi 
 
 1.  Nella **Vista a albero**, cliccare con il tasto destro sul nome del documento. In questo caso **Unnamed**.
 2.  Selezionare **Crea gruppo**. È possibile modificare il nome del gruppo di con un doppio clic su di esso nella **Vista a albero**.
@@ -46,7 +46,7 @@ Creare i seguenti gruppi:
 -   Draft\_dimensioni
 -   Draft\_annotazioni\_testi
 
-#### Modelli di squadrature {#modelli_di_squadrature}
+#### Modelli di squadrature 
 
 Le squadrature sono la base dei disegni, è possibile utilizzare uno dei modelli forniti oppure crearne una propria.
 
@@ -59,7 +59,7 @@ Ora nella **Vista ad albero** appare una nuova cartella chiamata **Pagina**. Que
 
 Le proiezioni sono definite come la rappresentazione visiva di un oggetto su un piano specifico, e mostrano le proprietà dell\'oggetto che sono visibili da uno specifico orientamento.
 
-##### Proiezioni ortografiche {#proiezioni_ortografiche}
+##### Proiezioni ortografiche 
 
 Queste proiezioni sono utilizzate in Ingegneria per specificare le proprietà di un oggetto che verrà lavorato. Ci sono due standard comuni: **Terzo angolo** e **Primo angolo**.
 
@@ -72,7 +72,7 @@ In questo tutorial, queste proiezioni non sono utilizzate perché i nostri ogget
 
 Nelle schede **Generale** e **Assonometria** si può specificare **posizione**, **scala** e **spaziatura** di ogni vista.
 
-##### Altre proiezioni della Parte {#altre_proiezioni_della_parte}
+##### Altre proiezioni della Parte 
 
 E\' possibile creare visualizzazioni personalizzate dell\'oggetto.
 
@@ -82,7 +82,7 @@ E\' possibile creare visualizzazioni personalizzate dell\'oggetto.
 
 Dalla tabella dei **Dati** si può anche modificare **posizione**, **scala** e **rotazione** della **Vista**, come per la **Proiezione ortografica**.
 
-##### Proiezioni di Draft {#proiezioni_di_draft}
+##### Proiezioni di Draft 
 
 Il modo migliore per aggiungere gli elementi creati nell\'ambiente **Draft** è quello di usare lo strumento di questo ambiente che è progettato specificamente per questo. Con questa procedura, è possibile importare **Dimensioni**, **Annotazioni**, **Forme-testo** e ogni altro elemento creato all\'interno di Draft.
 
@@ -94,7 +94,7 @@ Il modo migliore per aggiungere gli elementi creati nell\'ambiente **Draft** è 
 
 Ripetere l\'operazione per ogni gruppo e impostare i valori indicati sopra.
 
-#### Esportare il lavoro {#esportare_il_lavoro}
+#### Esportare il lavoro 
 
 FreeCAD supporta l\'esportazione di file SVG e PDF basati su **Drawing**
 
@@ -116,7 +116,7 @@ Il flusso di lavoro di base per l\'ambiente [Drawing](Drawing_Module/it.md) è c
 
 </div>
 
-## Letture consigliate {#letture_consigliate}
+## Letture consigliate 
 
 
 <div class="mw-translate-fuzzy">

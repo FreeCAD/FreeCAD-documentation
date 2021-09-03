@@ -11,7 +11,7 @@
 
 L\'exportation des modèles de travail fournit un mécanisme pratique pour enregistrer les définitions de travail couramment utilisées à partir d\'un travail existant. Cela facilite la configuration des futurs travaux, qui sont en grande partie similaires, en permettant l\'importation de modèles de travail pendant le processus de création de travail.
 
-L\'onglet {{MenuCommand|Édition → Préférences... → Path → Job Preferences, Defaults → Template}} définit le modèle par défaut.
+L\'onglet **Édition → Préférences... → Path → Job Preferences, Defaults → Template** définit le modèle par défaut.
 
 ## Usage
 
@@ -29,12 +29,12 @@ Créez un modèle
 
 ## Options
 
-## Post Processing {#post_processing}
+## Post Processing 
 
 
 <div class="mw-translate-fuzzy">
 
-## Post Processeur {#post_processeur}
+## Post Processeur 
 
 -   Postprocessor sélection
 -   Postprocessor arguments
@@ -48,7 +48,7 @@ Créez un modèle
 
 <div class="mw-translate-fuzzy">
 
-## Brut (matière) {#brut_matière}
+## Brut (matière) 
 
 -   Extent: Dimensions du brut
 -   Placement: Position du brut
@@ -56,12 +56,12 @@ Créez un modèle
 
 </div>
 
-## Setup Sheet {#setup_sheet}
+## Setup Sheet 
 
 
 <div class="mw-translate-fuzzy">
 
-## Feuille de calcul conditions de démarrage {#feuille_de_calcul_conditions_de_démarrage}
+## Feuille de calcul conditions de démarrage 
 
 -   Profondeur d\'usinage
 -   Profondeurs de passe
@@ -70,12 +70,12 @@ Créez un modèle
 
 </div>
 
-## Tool controllers {#tool_controllers}
+## Tool controllers 
 
 
 <div class="mw-translate-fuzzy">
 
-## Contrôleurs d\'outils {#contrôleurs_doutils}
+## Contrôleurs d\'outils 
 
 -   Contrôleurs d\'outils sélectionnés.
 

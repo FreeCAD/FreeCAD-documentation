@@ -12,7 +12,7 @@ Si quieres contribuir a FreeCAD, por favor [donar](donate/es.md), y mira la pág
 
 Si quieres saber cómo empezó FreeCAD hace años visita la página [History](History/es.md).
 
-## Utilizando FreeCAD {#utilizando_freecad}
+## Utilizando FreeCAD 
 
 ### Introducción
 
@@ -28,7 +28,7 @@ Ver también:
 
 -   [Migrar a FreeCAD desde Fusion360](Migrating_to_FreeCAD_from_Fusion360/es.md)
 
-### Aplicación basica {#aplicación_basica}
+### Aplicación basica 
 
 -   [Interfaz](Interface/es.md): la interfaz de FreeCAD se compone de varios elementos gráficos en la pantalla, incluyendo la [vista 3D](3D_view/es.md), la [vista de árbol](Tree_view/es.md), el [editor de propiedades](Property_editor/es.md), el [panel de tareas](Task_panel/es.md), y la [consola Python](Python_console/es.md).
 -   [Navegación con ratón](Mouse_navigation/es.md): los diferentes tipos de uso del ratón o trackpad para navegar en la vista 3D.
@@ -37,7 +37,7 @@ Ver también:
 -   [Editor de Preferencias](Preferences_Editor/es.md): el sistema que permite controlar muchas propiedades del sistema base y de los ambientes de trabajo individuales.
 -   [Formatos de archivo](Import_Export/es.md): los diferentes formatos de archivo que FreeCAD puede leer y escribir.
 
-### Ambientes de trabajo {#ambientes_de_trabajo}
+### Ambientes de trabajo 
 
 [Ambientes de trabajo](Workbenches/es.md) son colecciones de herramientas utilizadas para tareas específicas. Estos son los ambientes de trabajo base que se incluyen en cada instalación de FreeCAD:
 
@@ -93,7 +93,7 @@ Usuarios avanzados han escrito varios [macros](macros/es.md) para enriquecer Fre
 
 Desde FreeCAD 0.17, muchas macros pueden ser instaladas usando el [Gestor de complementos](Std_AddonMgr/es.md). Para una lista de las macros consulte la página [Recetas de macros](Macros_recipes/es.md). Para la instalación manual vea [Cómo instalar macros](How_to_install_macros/es.md).
 
-### Ambientes de trabajo externos {#ambientes_de_trabajo_externos}
+### Ambientes de trabajo externos 
 
 Cuando se desarrollan muchas macros o funciones juntas, y se organizan en barras de herramientas y menús, pueden convertirse en un nuevo ambiente de trabajo.
 
@@ -105,7 +105,7 @@ Desde FreeCAD 0.17, muchos ambientes de trabajo pueden ser instalados usando el 
 
 -   [Referencia de comandos](List_of_Commands/es.md): Una lista completa de los comandos disponibles de FreeCAD.
 
-## Ayuda en línea {#ayuda_en_línea}
+## Ayuda en línea 
 
 Esta es la ayuda en línea oficial de FreeCAD. Por favor ten en cuenta que el sistema de ayuda en línea entero está actualmente en construcción. Podrá ser utilizado para generar un archivo .CHM, que se distribuirá con los paquetes binarios de FreeCAD. De momento la ayuda en línea resume algunas de las secciones más completas de esta wiki.
 

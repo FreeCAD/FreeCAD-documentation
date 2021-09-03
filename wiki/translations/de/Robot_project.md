@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Dies ist der [Projektartikel](project/de.md) für das Roboter Projekt. Es folgt den Regeln des \[<http://en.wikipedia.org/wiki/Getting_Things_Done#GTD_methodology>\| Getting things done\] Prozesses. Die Projekte sind im [Entwicklungsfahrplan](Development_roadmap/de.md) zusammengefasst.
 
-## Zweck und Grundsätze {#zweck_und_grundsätze}
+## Zweck und Grundsätze 
 
 Dieses Projekt soll die grundlegenden Technologien für eine realistische Robotersimulation in FreeCAD festlegen. Im ersten Schritt zielt es auf den 6-achsigen Standard Industrieroboter ab.
 
@@ -24,24 +24,24 @@ Robotersimulation
 
 ## Ideenfindung
 
-### Bibliotheken im Feld {#bibliotheken_im_feld}
+### Bibliotheken im Feld 
 
 -   [OROCOS](http://www.orocos.org/) tragbare C++ Bibliotheken für fortgeschrittene Maschinen- und Robotersteuerung
 -   [ROBOOP](http://roboop.sourceforge.net/) Ein objektorientiertes Robotik Paket in C++
 -   [Beremiz](http://www.beremiz.org/) eine OpenSource SPS.
 
-### Normen für die Kommunikation {#normen_für_die_kommunikation}
+### Normen für die Kommunikation 
 
 -   [OPC UA](http://en.wikipedia.org/wiki/OPC_Unified_Architecture) ein Maschine zu Maschine Kommunikationsprotokoll für die industrielle Automatisierung (SPS)
 -   [1](https://www.ipk.fraunhofer.de/de/referenzen/realistic-robot-simulation.html) Deutsche Initiative zur Verbesserung der Genauigkeit von Robotersteuerungen und Optimierung von Offline-Roboterprogrammierung
 -   [Realistische Robotersimulation (RRS)](http://www.realistic-robot-simulation.org/) RRS-2, Schnittstelle zur virtuellen Robotersteuerung (VRC)
 
-### Middleware für die Kommunikation {#middleware_für_die_kommunikation}
+### Middleware für die Kommunikation 
 
 -   [D-Bus](http://en.wikipedia.org/wiki/D-Bus) einen Software Bus, eine Interprozesskommunikation (IPC) und einen Remote Procedure Call (RPC) Mechanismus, der die Kommunikation zwischen mehreren Computerprogrammen ermöglicht
 -   [CORBA](http://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture) ermöglicht die Zusammenarbeit zwischen Systemen mit unterschiedlichen Betriebssystemen, Programmiersprachen und Computerhardware
 
-### Kommerzielle Produkte in diesem Bereich {#kommerzielle_produkte_in_diesem_bereich}
+### Kommerzielle Produkte in diesem Bereich 
 
 -   [Visual Components](http://www.visualcomponents.com/Solutions/Robot-Simulation)
 -   [Delmia](http://www.3ds.com/products/delmia/welcome/)
@@ -67,7 +67,7 @@ Robotersimulation
 -   Prozess- und Arbeitszellensteuerung (geplant)
 -   Filmerstellung aus Simulation (geplant)
 
-## Nächste Schritte {#nächste_schritte}
+## Nächste Schritte 
 
 -   Trajektorien- und Wegpunktverwaltung.
 

@@ -2,7 +2,7 @@
 
 Here are a few screenshots showing different parts of FreeCAD. They are not ordered in any particular timeline, so the images may differ from your actual version. See more screenshots submitted by FreeCAD users on the [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) and on the [\"Show your project here!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
 
-### The 0.17 release {#the_0.17_release}
+### The 0.17 release 
 
 <img alt="" src=images/6DPLEQ2.jpg  style="width:1024px;">
 
@@ -30,7 +30,7 @@ Here are a few screenshots showing different parts of FreeCAD. They are not orde
 
 <img alt="" src=images/freeCAD-guitar.jpg  style="width:1024px;">
 
-### The 0.16 release {#the_0.16_release}
+### The 0.16 release 
 
 <img alt="" src=images/Hhassey.png  style="width:1024px;">
 
@@ -44,7 +44,7 @@ Here are a few screenshots showing different parts of FreeCAD. They are not orde
 
 <img alt="" src=images/R_tec.jpeg  style="width:1024px;">
 
-### The 0.15 release {#the_0.15_release}
+### The 0.15 release 
 
 <img alt="" src=images/Obijuan.png  style="width:1024px;">
 
@@ -56,7 +56,7 @@ Here are a few screenshots showing different parts of FreeCAD. They are not orde
 
 <img alt="" src=images/Lou_papet.png  style="width:1024px;">
 
-### The 0.14 release {#the_0.14_release}
+### The 0.14 release 
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -76,13 +76,13 @@ Mesh curvature analysis by the Mesh Workbench
 
 Export to external applications with python macros
 
-### The 0.12 release {#the_0.12_release}
+### The 0.12 release 
 
 ![Assembly of multiple objects\|1024px](images/FreeCAD_aeroponic_system.jpg )
 
 ![A fully-constrained sketch revolved to create a bike rim section\|1024px](images/rim_bling.png )
 
-### The 0.11 release {#the_0.11_release}
+### The 0.11 release 
 
 <img alt="" src=images/FreeCAD011.png  style="width:1024px;">
 
@@ -90,7 +90,7 @@ Export to external applications with python macros
 
 ![](images/Freecad010.png )
 
-### 0.9 versionen {#versionen_1}
+### 0.9 versionen 
 
 ![](images/Freecad09.jpg )
 
@@ -104,19 +104,19 @@ Export to external applications with python macros
 
 En skärmdump som visar FreeCAD import och rendering av en gCAD STEP modell
 
-### STEP data {#step_data}
+### STEP data 
 
 <img alt="" src=images/TaskPanel.jpg  style="width:800px;">
 
 Med laddat gripdon för robot
 
-### Robot gripper {#robot_gripper}
+### Robot gripper 
 
 ![](images/FreeCAD_Screenshot.png )
 
 på XP med Schenkel
 
-### Booleska operationer på Former {#booleska_operationer_på_former}
+### Booleska operationer på Former 
 
 <img alt="" src=images/Part_BooleanOperations.png  style="width:800px;">
 
@@ -134,7 +134,7 @@ FreeCAD på Windows Vista, med en IGES modell från [Rexroth](http://www13.bosch
 
 Du kan anpassa mycket i FreeCAD!
 
-### Boolean on Meshes {#boolean_on_meshes}
+### Boolean on Meshes 
 
 ![](images/Screenshot_mesh.jpg )
 
@@ -152,13 +152,13 @@ Blender har ett [skript](http://yorik.orgfree.com/guestblog.php?2009=105) för a
 
 Uttagande av en 3D del (i detta fallet STEP) till en SVG **Ritningsuttagande** Vy. Den är helt parametrisk, om delen förändras så uppdateras vyn.
 
-### FreeCAD mot QCad {#freecad_mot_qcad}
+### FreeCAD mot QCad 
 
 ![](images/Screenshot_qcad.jpg )
 
 En skärmdump som visar hur samma fil ser ut i FreeCAD och qCAD
 
-### FreeCAD mot Inkscape {#freecad_mot_inkscape}
+### FreeCAD mot Inkscape 
 
 ![](images/Screenshot_inkscape.jpg )
 
@@ -167,7 +167,7 @@ En skärmdump som visar hur samma fil ser ut i FreeCAD och inkscape
 
 <div class="mw-translate-fuzzy">
 
-### Skiss modulen {#skiss_modulen}
+### Skiss modulen 
 
 ![](images/Screenshot_draft.jpg )
 
@@ -188,7 +188,7 @@ Freecad med [skissmodulen](Draft_Workbench/sv.md) laddad och en importerad dxf r
 
 Skärmen för alternativinställningar
 
-### På Ubuntu {#på_ubuntu}
+### På Ubuntu 
 
 ![](images/Interface_screenshot.jpg )
 
@@ -197,7 +197,7 @@ FreeCAD gränssnittet när du startar den för första gången, på Ubuntu
 
 <div class="mw-translate-fuzzy">
 
-### Windows installeraren {#windows_installeraren}
+### Windows installeraren 
 
 ![](images/Screenshot_installer.jpg )
 
@@ -209,7 +209,7 @@ Windows installeraren i arbete
 
 <div class="mw-translate-fuzzy">
 
-### Konsol läge {#konsol_läge}
+### Konsol läge 
 
 ![](images/Screenshot_console.jpg )
 
@@ -218,7 +218,7 @@ Windows installeraren i arbete
 
 FreeCAD körs i konsolläge (utan gränssnitt)
 
-### Spara bild {#spara_bild}
+### Spara bild 
 
 ![](images/Save_picture.png )
 

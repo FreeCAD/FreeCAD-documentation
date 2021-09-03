@@ -19,19 +19,19 @@ El ambiente de trabajo Croquizador presenta \"restricciones\", que permiten que 
 
 *Un croquis completamente restringido‎*
 
-## Bases de croquizado con restricciones {#bases_de_croquizado_con_restricciones}
+## Bases de croquizado con restricciones 
 
 Para explicar como funciona el Croquizador, puede ser útil compararlo con el sistema de dibujo \"tradicional\".
 
-#### Dibujo tradicional {#dibujo_tradicional}
+#### Dibujo tradicional 
 
 El modo de dibujo tradicional es inherente a las antiguos [mesas de dibujo](http://es.wikipedia.org/wiki/Mesa_de_dibujo). [Las vistas (2D) ortogonales](http://es.wikipedia.org/wiki/Sistema_di%C3%A9drico) eran dibujadas manualmente y previstas para producir dibujos técnicos (también conocidos como planos detallados). Los objectos se dibujaban precisamente al tamaño o dimensión pretendida. Si querías dibujar una línea horizontal de longitud 100mm que comience en el (0,0), activabas la herramienta línea, pulsabas en la pantalla o introducías las coordenadas (0,0) para el primer punto, luego hacías un segundo clic o introducías las coordenadas del segundo punto en (100,0). O dibujabas la línea sin preocuparse de su posición, y la movías después. Cuando terminabas de dibujar geometría, le añadías cotas.
 
-#### Croquizar con restricciones {#croquizar_con_restricciones}
+#### Croquizar con restricciones 
 
 El **módulo de croquizado** se aleja de esta lógica. Los objetos no tienen porque dibujarse exactamente como se pretenden, porque serán definidos después por restricciones geométricas y dimensionales. Los objetos se pueden dibujar sin excesivo rigor, y mientras estén sin restringir se pueden modificar. Están en realidad \"flotando\" y se pueden mover, estirar, girar, escalar, etc. Esto ofrece una gran flexibilidad en el proceso de diseño.
 
-#### ¿Qué son las restricciones? {#qué_son_las_restricciones}
+#### ¿Qué son las restricciones? 
 
 Las restricciones se utilizan para limitar los grados de libertad de un objeto. Por ejemplo, una línea tiene 4 [grados de libertad](#Degrees_Of_Freedom.md) (en inglés Degrees Of Freedom, generalmente abreviado como \" DOF \"): Se puede mover horizontal o verticalmente, se puede estirar, y puede girarse.
 
@@ -41,7 +41,7 @@ Múltiples objetos pueden ser restringidos con respecto a otro. Dos líneas se p
 
 Existen dos tipos de restricciones: geométricas y dimensionales. Ambas son explicadas en la sección [\#Las herramientas](#Las_herramientas.md) más abajo.
 
-#### ¿Para qué no es bueno el entorno de croquizado? {#para_qué_no_es_bueno_el_entorno_de_croquizado}
+#### ¿Para qué no es bueno el entorno de croquizado? 
 
 El Croquizador no está pensado para producir planos detallados en 2D. Una vez que los croquis se utilizan para generar un sólido, son automáticamente ocultados. Las cotas son sólo visibles en el modo de edición del croquis.
 
@@ -53,7 +53,7 @@ Si sólo necesitas producir vistas 2D para imprimir, y no quieres crear modelos 
 
 </div>
 
-## Flujo de trabajo del Croquizado {#flujo_de_trabajo_del_croquizado}
+## Flujo de trabajo del Croquizado 
 
 Un croquis es siempre bidimensional (2D). Para crear un sólido, se crea un croquis con un perfil cerrado y posteriormente se extruye o se realiza una operación de revolución. De esta forma se añade la tercera dimensión y se crea un sólido tridimensional.
 
@@ -69,7 +69,7 @@ Una vez que un Bosquejo está totalmente restringido, las características del B
 
 </div>
 
-## Las herramientas {#las_herramientas}
+## Las herramientas 
 
 Todas las herramientas del Ambiente de Trabajo Croquiz se encuentran en el menú Boceto que aparece al cargar el Ambiente de Trabajo Croquiz.
 
@@ -99,7 +99,7 @@ Reflejar un boceto a lo largo del eje X, el eje Y o el origen.
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Detener la operación](Sketcher_StopOperation/es.md): cuando esté en el modo de edición, detenga la operación actual, ya sea el dibujo, la configuración de restricciones, etc.
 
-### Geometrías de croquis {#geometrías_de_croquis}
+### Geometrías de croquis 
 
 Estas son las herramientas para la creación de objetos.
 
@@ -175,11 +175,11 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Modo de construcción](Sketcher_ToggleConstruction/es.md): Cambia la geometría del boceto del modo de construcción. La geometría de la construcción se muestra en azul y se descarta fuera del modo de edición del boceto.
 
-### Restricciones de croquis {#restricciones_de_croquis}
+### Restricciones de croquis 
 
 Las restricciones son utilizadas para establecer reglas entre los elementos del croquis, y para bloquear el croquis a lo largo de los ejes verticales y horizontales. Algunas restricciones crean restricciones auxiliares adicionales [Restricciones auxiliares](Sketcher_helper_constraint/es.md)
 
-#### Restricciones geométricas {#restricciones_geométricas}
+#### Restricciones geométricas 
 
 Estas restricciones no están asociadas con datos numéricos.
 
@@ -203,7 +203,7 @@ Estas restricciones no están asociadas con datos numéricos.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Bloqueo](Sketcher_ConstrainBlock/es.md): bloquea el movimiento de un borde, es decir, impide que sus vértices cambien su posición actual. Debería ser particularmente útil para fijar la posición de las Líneas B. Ver el [Tema de foro Bloqueo de restricción](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
-#### Restricciones dimensionales {#restricciones_dimensionales}
+#### Restricciones dimensionales 
 
 Se trata de restricciones asociadas a los datos numéricos, para los cuales se pueden utilizar las [expresiones](Expressions/es.md). Los datos pueden ser tomados de una [hoja de cálculo](Spreadsheet_Workbench/es.md).
 
@@ -220,13 +220,13 @@ Se trata de restricciones asociadas a los datos numéricos, para los cuales se p
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam/es.md): Define automáticamente el radio/diámetro de un arco o círculo seleccionado (peso para un polo B-spline, diámetro para un círculo completo, radio para un arco) {{Version/es|0.20}}
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Ángulo](Sketcher_ConstrainAngle/es.md): Define el ángulo interno entre dos líneas seleccionadas.
 
-#### Restricciones especiales {#restricciones_especiales}
+#### Restricciones especiales 
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Ley de Snell](Sketcher_ConstrainSnellsLaw/es.md): restringe dos líneas para obedecer una ley de refracción para simular la luz que pasa a través de una interfaz.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Alineación interna](Sketcher_ConstrainInternalAlignment/es.md): Alinea los elementos seleccionados con la forma seleccionada (por ejemplo, una línea para convertirse en el eje principal de una elipse).
 
-#### Herramientas para las restricciones {#herramientas_para_las_restricciones}
+#### Herramientas para las restricciones 
 
 Las siguientes herramientas pueden utilizarse para cambiar el efecto de las restricciones:
 
@@ -234,7 +234,7 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activar/Desactivar restricción](Sketcher_ToggleActiveConstraint/es.md): Activar o desactivar una restricción ya colocada. {{Version/es|0.19}}
 
-### Herriamentas de croquis {#herriamentas_de_croquis}
+### Herriamentas de croquis 
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Selecciona los DOF del solucionador](Sketcher_SelectElementsWithDoFs/es.md): Resalta en verde la geometría con grados de libertad (DOFs), es decir, no totalmente restringida.
 
@@ -274,7 +274,7 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Eliminar todas las restricciones](Sketcher_DeleteAllConstraints/es.md): Elimina todas las restricciones del boceto.
 
-### Herramientas B-spline de Croquizador {#herramientas_b_spline_de_croquizador}
+### Herramientas B-spline de Croquizador 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Mostrar/ocultar el grado de B-spline](Sketcher_BSplineDegree/es.md)
 
@@ -296,7 +296,7 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Disminuir la multiplicidad de nudos](Sketcher_BSplineDecreaseKnotMultiplicity/es.md)
 
-### Espacio virtual del croquizador {#espacio_virtual_del_croquizador}
+### Espacio virtual del croquizador 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Cambiar el espacio virtual](Sketcher_SwitchVirtualSpace/es.md): Permite ocultar todas las restricciones de un boceto y hacerlas visibles de nuevo.
 
@@ -304,7 +304,7 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferencias](Sketcher_Preferences/es.md): Preferencias para el ambiente de trabajo *Croquis*.
 
-## Buenas practicas {#buenas_practicas}
+## Buenas practicas 
 
 Cada usuario de CAD desarrolla su propia forma de trabajar a lo largo del tiempo, pero hay algunos principios generales útiles a seguir.
 

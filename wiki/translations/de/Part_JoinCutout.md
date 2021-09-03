@@ -22,7 +22,7 @@ Das <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part Aussc
     Die Reihenfolge der Auswahl ist wichtig. Es reicht aus, nur eine Teilform jedes Objekts (z.B. Flächen) auszuwählen.
 2.  Der Part-Ausschnitt für Objekt-Befehl kann auf mehrere Arten aufgerufen werden:
     -   Drücken der <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part Ausschnitt für Objekt](Part_JoinCutout/de.md)-Schaltfläche in der Part-Werkzeugleiste
-    -   Benutzen des {{MenuCommand|Part → Verbinden → Ausschnitt für Objekt}}-Eintrag im Part-Menü
+    -   Benutzen des **Part → Verbinden → Ausschnitt für Objekt**-Eintrag im Part-Menü
 
 A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original objects are hidden, and the result of cutting is shown in [3D view](3D_view.md).
 

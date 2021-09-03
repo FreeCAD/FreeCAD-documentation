@@ -13,12 +13,12 @@ Zobacz opis [Sketcher: SketchObject](Sketcher_SketchObject.md), aby uzyskać wi�
 
 Istnieją dwa wspólne sposoby tworzenia szkicu: bezpośrednio za pomocą Środowiska pracy [Sketcher](Sketcher_Workbench/pl.md) lub za pomocą Środowiska pracy [PartDesign](PartDesign_Workbench/pl.md).
 
-### Środowisko pracy Sketcher {#środowisko_pracy_sketcher}
+### Środowisko pracy Sketcher 
 
 1.  Przełącz się na Środowisko pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/pl.md).
 2.  Naciśnij przycisk **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher: Utwórz nowy szkic](Sketcher_NewSketch/pl.md)**.
 
-### Środowisko pracy Part Design {#środowisko_pracy_part_design}
+### Środowisko pracy Part Design 
 
 1.  Przełącz się na Środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench.md).
 2.  Naciśnij przycisk **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign: Stwórz nową zawartość](PartDesign_Body/pl.md)**.

@@ -102,7 +102,7 @@ Optional.
 
 <div class="mw-translate-fuzzy">
 
-## Archivos de guión {#archivos_de_guión}
+## Archivos de guión 
 
 
 </div>
@@ -130,7 +130,7 @@ Model = Base.makeExampleCommandModel(FreeCAD.Data1, FreeCAD.Data2)
 
 <div class="mw-translate-fuzzy">
 
-## Otros (opcional) {#otros_opcional}
+## Otros (opcional) 
 
 !
 
@@ -139,7 +139,7 @@ Model = Base.makeExampleCommandModel(FreeCAD.Data1, FreeCAD.Data2)
 
 Optional.
 
-## Selectable block {#selectable_block}
+## Selectable block 
 
 
 <languages/>
@@ -180,8 +180,8 @@ Closing and opening translate tags should surround images, and other f
 
 # There are several ways to invoke the command: 
 #* Press the **<img src="images/Std_Open.svg" width=16px> [Base ExampleCommandModel](GuiCommand_model.md)** button. (''Editor note:'' This uses the [[Template:Button]] template, it is necessary to link to the command as shown in this example)
-#* Select the {{MenuCommand|Menu → Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command}} option from the menu. (''Editor note:'' This uses the [[Template:MenuCommand]] template)
-#* Select the {{MenuCommand|Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command}} option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu. (''Editor note:'' This also uses the [[Template:MenuCommand]] template, not all commands can be accessed from a context menu)
+#* Select the **Menu → Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command** option from the menu. (''Editor note:'' This uses the [[Template:MenuCommand]] template)
+#* Select the **Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu. (''Editor note:'' This also uses the [[Template:MenuCommand]] template, not all commands can be accessed from a context menu)
 #* Use the keyboard shortcut **F** then **C** or **Ctrl**+**Z**. (''Editor note:'' This uses the [[Template:KEY]] template, not all commands have a keyboard shortcut)
 # Detailed steps as needed. Some steps may need **Keyboard** presses while others may require using the mouse to click on a **Button**.
 # Other commands may need to be referenced/used. Consider linking to their wiki pages along with their icons **<img src="images/Draft_Line.svg" width=16px> [Draft Line](Draft_Line.md)** or **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Pad](PartDesign_Pad.md)**.

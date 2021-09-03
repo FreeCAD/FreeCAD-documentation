@@ -5,12 +5,12 @@
 
 Questa pagina contiene diversi riferimenti a impostazioni e parametri che è possibile utilizzare per ottimizzare l\'installazione di FreeCAD o superare i problemi.
 
-## Parametri di opzione {#parametri_di_opzione}
+## Parametri di opzione 
 
 
 <div class="mw-translate-fuzzy">
 
-Per impostare e manipolare la tabella dei parametri di FreeCAD normalmente si usa l\'[editor delle preferenze](Preferences_Editor/it.md) nel menu {{MenuCommand|Modifica → Preferenze}}.
+Per impostare e manipolare la tabella dei parametri di FreeCAD normalmente si usa l\'[editor delle preferenze](Preferences_Editor/it.md) nel menu **Modifica → Preferenze**.
 
 
 </div>
@@ -18,7 +18,7 @@ Per impostare e manipolare la tabella dei parametri di FreeCAD normalmente si us
 
 <div class="mw-translate-fuzzy">
 
-Tuttavia, è anche possibile accedere, modificare e creare i parametri manualmente, usando l\'[editore dei parametri](Std_DlgParameter/it.md) che si trova nel menu {{MenuCommand|Strumenti → Modifica parametri}}.
+Tuttavia, è anche possibile accedere, modificare e creare i parametri manualmente, usando l\'[editore dei parametri](Std_DlgParameter/it.md) che si trova nel menu **Strumenti → Modifica parametri**.
 
 
 </div>
@@ -54,7 +54,7 @@ L\'elenco seguente mostra i parametri che non sono accessibili tramite l\'editor
 
 </div>
 
-### Export Default Filename {#export_default_filename}
+### Export Default Filename 
 
 -   **General/ExportDefaultFilenameMultiple** (string): Set the default filename to use when exporting multiple objects. Defaults to \"%F\".
 -   **General/ExportDefaultFilenameSingle** (string): Set the default filename to use when exporting a single object. Defaults to \"%F-%P-\".
@@ -69,21 +69,21 @@ Both of these options support the automatic insertion of various pieces of infor
 
 Any other characters are treated literally. If the resulting filename is illegal it will be changed on saving, with illegal characters replaced by the underscore (\_).
 
-## Mouse related {#mouse_related}
+## Mouse related 
 
 -   **General/ComboBoxWheelEventFilter** (boolean) : Set to `True` so widgets do not catch mouse wheel event and prevent scrollable areas to be scrolled.
 -   **View/GestureMoveThreshold** (integer) : the distance (px) mouse cursor has to move to enter rotation or pan modes of Gesture navigation style. Default is 5.
 -   **View/GestureRollFwdCommand**, **View/GestureRollBackCommand** (string) : commands to be executed by mouse button roll gestures of Gesture navigation style.
 -   **View/GestureTapHoldTimeout** (integer) : sets for how long to wait (in milliseconds) to enter pan mode in Gesture navigation style. It can be helpful to increase it if dragging geometry in sketcher is difficult. Default is 700.
 
-## Keyboard Shortcuts {#keyboard_shortcuts}
+## Keyboard Shortcuts 
 
-### Escape Key {#escape_key}
+### Escape Key 
 
 -   **General/TasksKeyEsc** (boolean) : Create and set to `False` to disable the **ESC** key exiting the [Task panel](Task_panel.md) in all workbenches (that is if the task panel has focus). **Note:** Superceded by [Sketcher Preferences](Sketcher_Preferences#General.md).
 -   **Mod/Sketcher/ViewKeyEsc** (boolean) : Create and set to `False` to disable **ESC** key issues with pressing one to many times, when escaping sketcher geometry/constraints creation continue mode (see [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
 
-## Specific Workbenches {#specific_workbenches}
+## Specific Workbenches 
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:16px;"> [TechDraw Workbench](TechDraw_Workbench.md) has several hidden switches documented in [TechDraw Preferences](TechDraw_Preferences#Hidden_Settings.md).
 -   <img alt="" src=images/Workbench_Path.svg  style="width:16px;"> [Path Workbench](Path_Workbench.md) has a switch to enable experimental features documented in [Path experimental](Path_experimental.md).

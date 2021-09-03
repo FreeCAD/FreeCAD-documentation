@@ -46,13 +46,13 @@ Unelte pentru crearea, configurarea si exportul foilor de desen 2D
 
 Instrumentul [Draft View](Draft_Drawing.md) este utilizat în special pentru a plasa obiecte 2D Draft pe hârtie. Acesta are câteva capabilități adiționale și suportă obiecte specifice ca de ex: [Draft dimensions](Draft_Dimension.md).
 
-## Flux de lucru {#flux_de_lucru}
+## Flux de lucru 
 
 Documentul conține un obiect 3D (Schenkel) din care dorim să realizăm un desen. Prin urmare, este creată o \"pagină\". O pagină este instanțiată dintr-un șablon, de exemplu șablonul \"A3\_Landscape\". Șablonul este un document [SVG](SVG.md) care poate conține un cadru de pagină, un logo și alte elemente.
 
 În această pagină putem introduce una sau mai multe vizualizări. Fiecare vizualizare are o poziție pe pagină (Proprietăți X, Y), un factor de scară (Scala proprietății) și proprietăți suplimentare. De fiecare dată când pagina sau vizualizarea sau obiectul referință se modifică, pagina este regenerată și actualizarea paginii este actualizată.
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 În prezent, fluxul de lucru al interfeței grafice cu utilizatorul este foarte limitat, astfel încât API-ul de scripting este mai interesant.
 
@@ -64,7 +64,7 @@ Macrocomanda [CartoucheFC](Macro_CartoucheFC.md) vă permite să creați o caset
 
 FreeCAD este livrat împreună cu un set de șabloane implicite, dar puteți găsi mai multe în pagina [Drawing templates](Drawing_templates.md) .
 
-## Extensii la Atelierul de Desen 3D {#extensii_la_atelierul_de_desen_3d}
+## Extensii la Atelierul de Desen 3D 
 
 Unele note despre partea de programare a modulului de desen vor fi adăugate la pagina [Drawing Documentation](Drawing_Documentation.md) . Acest lucru va ajuta să intelegeți rapid modul în care funcționează modulul de desen, permițând programatorilor sa înceapă rapid programarea pentru aceasta.
 
@@ -72,7 +72,7 @@ Unele note despre partea de programare a modulului de desen vor fi adăugate la 
 
 -   [Drawing tutorial](Drawing_tutorial.md)
 
-## legături Externe {#legături_externe}
+## legături Externe 
 
 -   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 

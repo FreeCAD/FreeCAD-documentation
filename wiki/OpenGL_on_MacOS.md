@@ -1,4 +1,4 @@
-## Known Issue: Rendering problems on MacOS {#known_issue_rendering_problems_on_macos}
+## Known Issue: Rendering problems on MacOS 
 
 Qt 4, the [ GUI](wikipedia:Graphical_User_Interface.md) software library used by FreeCAD, has a known limitation that can result in some odd-looking behaviour on modern versions of MacOS when windows within FreeCAD overlap.
 

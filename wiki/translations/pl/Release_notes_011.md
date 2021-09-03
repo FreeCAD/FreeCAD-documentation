@@ -4,7 +4,7 @@ To jest podsumowanie najważniejszych zmian i nowych funkcji dostępnych w wydan
 
 Widok ekranu z wersji 0.11.
 
-### Informacje ogólne {#informacje_ogólne}
+### Informacje ogólne 
 
 -   [Projekt tłumaczenia FreeCAD](http://crowdin.net/project/freecad) otrzymał ogromną pomoc od wielu ludzi z całego świata i FreeCAD jest teraz dostępny w nie mniej niż 15 językach: Angielski, niemiecki, francuski, włoski, szwedzki, hiszpański, portugalski, rosyjski, ukraiński, norweski, afrikaans, fiński, chiński uproszczony, chorwacki i holenderski. A wiele więcej języków jest w trakcie opracowywania dla następnych wydań.
 
@@ -17,7 +17,7 @@ Widok ekranu z wersji 0.11.
 -   Mechanizm kopiuj / wklej został również znacznie ulepszony, umożliwiając teraz łatwe kopiowanie / wklejanie obiektów pomiędzy dokumentami.
 -   W środowisku pracy [Część](Part_Workbench/pl.md) pojawiły się nowe narzędzia, takie jak odbicie lustrzane oraz zaokrąglenia i sfazowania krawędzi.
 
-### Szkicownik i Projekt Części {#szkicownik_i_projekt_części}
+### Szkicownik i Projekt Części 
 
 -   Środowisko pracy do rozwiązywania wiązań [Szkicownik](Sketcher_Workbench/pl.md) został całkowicie przerobiony i nawet jeśli Szkicownik nie jest jeszcze kompletny, posiada już dobry zestaw narzędzi, takich jak linie, prostokąty i wiązania, takie jak zbieżność punktów, równoległość, stała długość lub ograniczenia poziome i pionowe.
 
@@ -27,13 +27,13 @@ Widok ekranu z wersji 0.11.
 
 ![](images/Movie.png ) Przykład: [demo Szkicownik](http://www.youtube.com/watch?v=hvXupH5bA0E) • [demo Projekt Części](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
 
-### Robot simulation {#robot_simulation}
+### Robot simulation 
 
 -   Środowisko pracy [Robot](Robot_Workbench/pl.md) zostało rozszerzone o wiele narzędzi GUI i jest obecnie dość funkcjonalne i pozwala na łatwe symulowanie ruchów robotów przemysłowych.
 
 ![](images/release011-robot.jpg )
 
-### Kreślenie 2D {#kreślenie_2d}
+### Kreślenie 2D 
 
 -   Przyciąganie zostało znacznie zoptymalizowane i teraz działa całkiem szybko, nawet na złożonych obiektach.
 -   Narzędzie \"Przytnij/wydłuż\" można teraz nazwać \" Przytnij/Wydłuż/Wyciągnij\", ponieważ pozwala ono na szybkie wyciągnięcie pojedynczych powierzchni, oferując wygodny skrót do standardowego narzędzia Wyciągnięcie środowiska Część.

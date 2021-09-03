@@ -24,7 +24,7 @@ Un usage courant de la primitive hélice est pour la <img src=images/PartDesign_
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
 2.  La boîte de dialogue Créer des primitives est accessible de plusieurs manières:
     -   En appuyant sur le bouton **<img src=images/Part_Primitives.svg style="width:16px"> [Création de primitives géométriques...](Part_Primitives/fr.md)** situé dans la barre d\'outils Pièce.
-    -   Utilisation de l\'entrée {{MenuCommand|Pièce → <img src=images/Part_Primitives.svg style="width:16px"> [Créer des primitives...](Part_Primitives/fr.md) → Hélice}} dans le menu Part.
+    -   Utilisation de l\'entrée **Pièce → <img src=images/Part_Primitives.svg style="width:16px"> [Créer des primitives...](Part_Primitives/fr.md) → Hélice** dans le menu Part.
 
 
 </div>

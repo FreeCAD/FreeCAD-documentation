@@ -67,7 +67,7 @@ Dann
 
 Resultat: ![](images/Brga-spessore.png )
 
-## Bekannte Probleme {#bekannte_probleme}
+## Bekannte Probleme 
 
 -   BRep\_API: command not done (Befehl nicht ausgeführt)
 -   BRep\_Tool:: no parameter on edge

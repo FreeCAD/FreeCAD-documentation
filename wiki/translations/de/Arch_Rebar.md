@@ -19,7 +19,7 @@ Bewehrungsobjekte basieren auf 2D Profilen wie [Entwurfsobjekten](Draft_Workbenc
 <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;"> 
 *Strukturobjekt mit zwei auf seinen Flächen gezeichneten Skizzen, die dann in zwei Sätze von Bewehrungsobjekten umgewandelt werden*
 
-## Verfügbare Erweiterung {#verfügbare_erweiterung}
+## Verfügbare Erweiterung 
 
 Das Bewehrungswerkzeug wird durch den [Bewehrung-Arbeitsbereich](Reinforcement_Workbench/de.md) erweitert, der über den [Erweiterungsverwalter](Addon_Manager/de.md) installiert wird. Die zusätzlich verfügbaren Bewehrungstypen der Erweiterung sind:
 

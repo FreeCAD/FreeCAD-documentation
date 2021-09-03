@@ -20,7 +20,7 @@ Wikipedia [lists many finite element software packages](https://en.wikipedia.org
 
 <div class="mw-translate-fuzzy">
 
-## Versiunea Solver în diferite distribuții Linux {#versiunea_solver_în_diferite_distribuții_linux}
+## Versiunea Solver în diferite distribuții Linux 
 
 -   See <https://github.com/luzpaz/FreeCAD-dependencies/blob/master/FC-Workbenches/FEM.md>
 
@@ -33,7 +33,7 @@ The [FreeCAD-dependencies](https://github.com/luzpaz/FreeCAD-dependencies) repos
 
 The information is also discussed in the forum: [supported and not supported Solver](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326&start=10#p270325).
 
-## Solvers with an interface in FreeCAD {#solvers_with_an_interface_in_freecad}
+## Solvers with an interface in FreeCAD 
 
 These solvers are well integrated into FreeCAD, which means that it\'s possible to set up and run a simulation project from the graphical interface and buttons in the FEM Workbench.
 
@@ -57,7 +57,7 @@ See the information:
 
 There are two versions, Z88OS is the open source edition, while Z88Aurora is freeware, and includes a graphical interface and additional solution methods.
 
-## Solvers implemented as external workbenches {#solvers_implemented_as_external_workbenches}
+## Solvers implemented as external workbenches 
 
 These solvers aren\'t integrated into the [FEM Workbench](FEM_Workbench.md), which means they need a separate interface to set up a simulation project. This is achieved through [macros](Macros.md) or [external workbenches](External_workbenches.md).
 
@@ -86,7 +86,7 @@ DesignSPHysics is an external workbench built into FreeCAD that provides a graph
 
 DesignSPHysics can be installed through the [AddonManager](Std_AddonMgr.md).
 
-### FastHenry and FasterCap {#fasthenry_and_fastercap}
+### FastHenry and FasterCap 
 
 FastHenry and FasterCap are inductance-resistance and capacitance field solvers developed by FastFieldSolvers: [main website](https://www.fastfieldsolvers.com/default.asp), [download page](https://www.fastfieldsolvers.com/download.htm) (binary and source code), [forum](https://www.fastfieldsolvers.com/forum/).
 
@@ -113,7 +113,7 @@ The author considers FreeCAD a good prototyping platform to quickly set up, test
 
 fcFEM is packaged as a python library and a macro, and can be downloaded from the [github repository](https://github.com/HarryvL/fcFEM). It will eventually be available from the [AddonManager](Std_AddonMgr.md), or will be distributed as part of FreeCAD itself.
 
-## Implementation in progress {#implementation_in_progress}
+## Implementation in progress 
 
 ### FEniCS
 
@@ -139,7 +139,7 @@ Until the solver integration is completed and the new code is merged into the ma
 -   <https://www.mbdyn.org/>
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=39165>
 
-## Solvers not integrated {#solvers_not_integrated}
+## Solvers not integrated 
 
 The following solvers have not been integrated into FreeCAD but they have garnered some interest by the user community. If a developer wishes to create a communication bridge for a particular solver, he or she should refer to the [FEM subforum](https://forum.freecadweb.org/viewforum.php?f=18) for advice and assistance.
 
@@ -149,11 +149,11 @@ The following articles may be outdated, but the information they contain may sti
 -   [Add FEM equation tutorial](Add_FEM_equation_tutorial.md)
 -   [Add FEM constraint tutorial](Add_FEM_constraint_tutorial.md)
 
-### Agros2D and Hermes {#agros2d_and_hermes}
+### Agros2D and Hermes 
 
 [Agros2D](http://www.agros2d.org/) is a multiplatform graphical program designed for solving different physical problems. Internally it uses the [Hermes](http://www.hpfem.org/hermes/) C++ libraries for the solution of simple and complex time-dependent nonlinear partial differential equation (PDE) systems using a general version of the finite element method [(hp-FEM)](https://en.wikipedia.org/wiki/Hp-FEM). Main code [repository](https://github.com/hpfem/hermes), and [tutorials](https://github.com/hpfem/hermes-tutorial).
 
-### Code-Aster and Code-Saturne {#code_aster_and_code_saturne}
+### Code-Aster and Code-Saturne 
 
 [Code-Aster](https://www.code-aster.org/) is an open source multiphysics solver; together with the Salomé-Meca pre-processor they form a simulation platform developed by EDF-GDF, France\'s biggest energy company. It was an early package considered for inclusion in FreeCAD: [FreeCAD and Code-Aster/Salome-Meca](https://forum.freecadweb.org/viewtopic.php?t=2839) (forum thread).
 
@@ -169,7 +169,7 @@ It was suggested in the forums to perform reinforced concrete frames analysis (b
 
 [Frame3DD](http://frame3dd.sourceforge.net/) is a software package for static and dynamic structural analysis of 2D and 3D frames and trusses, [main repository](https://github.com/pslack/frame3dd). A preliminary reader for input files was announced in the forums: [Test read data from Frame3DD file.](https://forum.freecadweb.org/viewtopic.php?f=24&t=19428) General forum topic in FEM <https://forum.freecadweb.org/viewtopic.php?f=18&t=43389> .
 
-### Impact FEM {#impact_fem}
+### Impact FEM 
 
 -   <http://www.impact-fem.org/> (broken link)
 

@@ -30,7 +30,7 @@ Siehe [Punkte Umwandeln](Points_Convert/de.md).
 -   Die Koordinaten müssen durch Leerzeichen getrennt sein.
 -   Die Koordinaten müssen einen Dezimalpunkt verwenden, kein Dezimalkomma.
 
-## Muster Punktewolkendatei {#muster_punktewolkendatei}
+## Muster Punktewolkendatei 
 
 0 0 0
 1.4562 -7.2354 12.2367

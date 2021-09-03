@@ -12,7 +12,7 @@ The **Std CloseAllWindows** command closes all windows, thereby closing all docu
 
 ## Usage
 
-1.  Select the {{MenuCommand|File → <img src="images/Std_CloseAllWindows.svg" width=16px> Close All}} option from the menu.
+1.  Select the **File → <img src="images/Std_CloseAllWindows.svg" width=16px> Close All** option from the menu.
 2.  If there are unsaved documents a dialog box will prompt you to save them:
     -   Press the **Save** button to save the active document. If required enter a filename first.
     -   Press the **Discard** button to discard the active document and lose all changes.
@@ -24,11 +24,11 @@ The **Std CloseAllWindows** command closes all windows, thereby closing all docu
 
 ## Notes
 
--   A document can also be closed by right-clicking it in the [Tree view](Tree_view.md) and selecting {{MenuCommand|Close document}} from the context menu.
+-   A document can also be closed by right-clicking it in the [Tree view](Tree_view.md) and selecting **Close document** from the context menu.
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 

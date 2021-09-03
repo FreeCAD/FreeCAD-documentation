@@ -18,8 +18,8 @@ La **Std Vue de dessus** place la caméra dans la [vue 3D](3D_view/fr.md) dans l
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_ViewTop.svg" width=16px> [Std Afficher la vue de dessus (2)](Std_ViewTop.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Vues standards → <img src="images/Std_ViewTop.svg" width=16px> Dessus}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Vues standard → <img src="images/Std_ViewTop.svg" width=16px> Dessus}} dans le menu contextuel de la [Vue 3](3D_view/fr.md).
+    -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewTop.svg" width=16px> Dessus** dans le menu.
+    -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewTop.svg" width=16px> Dessus** dans le menu contextuel de la [Vue 3](3D_view/fr.md).
     -   Utilisez le raccourci clavier: **2**.
 
 ## Script

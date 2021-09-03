@@ -40,7 +40,7 @@ To solve the issue, Apple introduced \"HiDPI\", that is scaling all the UI eleme
 
 ## Gesamtkonzept
 
-### Teil eins {#teil_eins}
+### Teil eins 
 
 Ziel: Sicherstellen, dass wir das Beste aus der Qt Unterstützung herausholen.
 
@@ -53,7 +53,7 @@ Ziel: Sicherstellen, dass wir das Beste aus der Qt Unterstützung herausholen.
 
 </div>
 
-### Teil zwei {#teil_zwei}
+### Teil zwei 
 
 Ziel: Sicherstellen, dass die Systemschriftart korrekt festgelegt ist.
 
@@ -64,7 +64,7 @@ Ziel: Sicherstellen, dass die Systemschriftart korrekt festgelegt ist.
 -   Skaliere die Werkzeugleiste/Symbolgröße entsprechend der neuen experimentellen Einstellung neu
 -   Sammle Anwender Rückmeldungen, ob wir die anpassbare Werkzeugleisten Symbolgröße benötigen
 
-### Teil drei {#teil_drei}
+### Teil drei 
 
 Ziel: Alle UI Widgets relativ zur Schriftgröße skalieren
 
@@ -75,7 +75,7 @@ Ziel: Alle UI Widgets relativ zur Schriftgröße skalieren
 -   Stelle sicher, dass qreal Versionen von APIs verwendet werden.
 -   Schalte AA\_EnableHighDpiScaling aus.
 
-### Teil vier {#teil_vier}
+### Teil vier 
 
 Ziel: Unterstützung der Neuskalierung beim Verschieben des Fensters von einem Bildschirm zum anderen
 
@@ -88,7 +88,7 @@ Ziel: Unterstützung der Neuskalierung beim Verschieben des Fensters von einem B
 
 <img alt="" src=images/Vector_Video_Standards8.svg  style="width:800px;">
 
-### Geräte Pixelverhältnis {#geräte_pixelverhältnis}
+### Geräte Pixelverhältnis 
 
 Es ist ein bekanntes Konzept für Web und Android Entwickler. Aber nicht so sehr für Desktop Entwickler.
 
@@ -115,7 +115,7 @@ Die Realität sieht jedoch so aus, dass Rastergrafiken verpixelt, verschwommen o
 
 ## Ausgabetesten/Vorführung
 
-### OS X {#os_x}
+### OS X 
 
 1.  \"Anzeige\" öffnen
 2.  Wähle \"Skaliert\".
@@ -123,7 +123,7 @@ Die Realität sieht jedoch so aus, dass Rastergrafiken verpixelt, verschwommen o
 
 Video: <https://www.youtube.com/watch?v=4U3eh_fMo4o>
 
-### X Window {#x_window}
+### X Window 
 
 Nützliche Befehle:
 
@@ -142,13 +142,13 @@ Nützliche Befehle:
       dimensions:    3840x2160 pixels (1016x572 millimeters)
       resolution:    96x96 dots per inch
 
-### Ubuntu (GNOME Shell) {#ubuntu_gnome_shell}
+### Ubuntu (GNOME Shell) 
 
 1.  \"Anzeigen\" öffnen (Einstellungen \> Geräte \> Anzeigen)
 2.  Wähle die höchste verfügbare Auflösung
 3.  Wähle Skalierung höher als 100%
 
-## Probleme und Lösungen {#probleme_und_lösungen}
+## Probleme und Lösungen 
 
 -   Rasterbilder (Mauszeiger, Symbole)
 -   Schriften (definiert in Pixeln statt in Punkten)
@@ -165,7 +165,7 @@ Wenn die Bildschirmauflösungen höher werden, könnten also mehr Textzeilen gle
 
 Um dieses Problem zu beheben, implementierte das Betriebssystem die so genannte DPI Skalierung (oder DPI Schrifteinstellungen in früheren Zeiten) oder High-DPI Skalierung der neuesten 4K Bildschirme. Die Benutzer konnten die DPI ändern und von viel mehr Platz in Bezug auf die Pixel profitieren, während gleichzeitig eine bequem lesbare Schriftgröße beibehalten wurde.
 
-### Benutzerdefinierte Mauszeiger Größe {#benutzerdefinierte_mauszeiger_größe}
+### Benutzerdefinierte Mauszeiger Größe 
 
 Die Mauszeigergröße ist etwas schwierig. Qt empfiehlt die Verwendung einer hartkodierten Bildgröße von 32x32. Ab 5.x bietet es keine Funktionalität zur Integration mit dem Betriebssystem und zur Abfrage der Größe des Mauszeigers. Das ist schade, da es bedeutet, dass du nicht von Zugänglichkeitseinstellungen profitieren kannst, bei denen die Mauszeigergröße auf einen beliebig großen Wert eingestellt werden kann.
 
@@ -204,7 +204,7 @@ Qt bietet nicht die Funktionalität, um diesen Wert abzurufen. Also müssen wir 
 
 </div>
 
-## Relevante Änderungen {#relevante_änderungen}
+## Relevante Änderungen 
 
 -    {{commit|a14b99e77}}
     
@@ -243,7 +243,7 @@ Qt bietet nicht die Funktionalität, um diesen Wert abzurufen. Also müssen wir 
 
 -   Tickets markiert mit [HiDPI](https://tracker.freecadweb.org/search.php?tag_string=HiDPI)
 
-## Externe Referenzen {#externe_referenzen}
+## Externe Referenzen 
 
 -   <https://doc.qt.io/qt-5/highdpi.html>
 -   <https://doc.qt.io/qt-5/scalability.html>

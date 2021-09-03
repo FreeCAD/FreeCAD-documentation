@@ -119,7 +119,7 @@ else:
 
 
 
-## Script 2 {#script_2}
+## Script 2 
 
 Toggle global display mode: 
 
@@ -175,7 +175,7 @@ else:
 
 
 
-## Script 3 {#script_3}
+## Script 3 
 
 Toggle selected object(s) display mode (changes visible only in global As is (located on View toolbar) display mode):
 

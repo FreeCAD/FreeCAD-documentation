@@ -12,7 +12,7 @@ Cette commande insère un chemin <img alt="" src=images/Path_3DPocket.svg  style
 
 ## Utilisation
 
-### Création d\'une Poche 3D {#création_dune_poche_3d}
+### Création d\'une Poche 3D 
 
 1.  Dans un travail, sélectionnez une ou plusieurs faces dans le modèle de travail à inclure comme géométrie de base.
 2.  Cliquez **<img src="images/Path_3DPocket.svg" width=16px> [Path Pocket 3D](Path_Pocket_3D/fr.md)** ou sélectionnez **Path** → **<img src="images/Path_3DPocket.svg" width=16px> [Poche 3D](Path_Pocket_3D/fr.md)** dans le menu supérieur.
@@ -40,16 +40,16 @@ Cette commande insère un chemin <img alt="" src=images/Path_3DPocket.svg  style
 
 ## Propriétés
 
-### Data Tab {#data_tab}
+### Data Tab 
 
 #### Base
 
 
 <div class="mw-translate-fuzzy">
 
-### Onglet Données {#onglet_données}
+### Onglet Données 
 
-#### Base {#base_1}
+#### Base 
 
 Remarque : Il est suggéré de ne pas modifier la propriété Placement des opérations de trajectoire. Déplacez ou faites plutôt pivoter le modèle d\'opération de trajectoire selon les besoins.
 
@@ -168,7 +168,7 @@ Remarque : Il est suggéré de ne pas modifier la propriété Placement des opé
 
 <div class="mw-translate-fuzzy">
 
-#### Rotation {#rotation_1}
+#### Rotation 
 
 Remarque : la rotation n\'est pas disponible pour 3D Pocket à partir de la version 0.19.
 
@@ -179,7 +179,7 @@ Remarque : la rotation n\'est pas disponible pour 3D Pocket à partir de la vers
 
 -    **Enable Rotation**: Enable rotation to gain access to pockets or areas not normal to Z axis.
 
-#### Point de départ {#point_de_départ}
+#### Point de départ 
 
 -    {{PropertyData/fr|Start Point}}: point de départ personnalisé pour le chemin de cette opération.
 

@@ -25,7 +25,7 @@ Il comando **Unisci** crea un nuovo oggetto mesh non parametrico, un [Mesh Featu
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare due o più oggetti mesh.
-2.  Selezionare l\'opzione {{MenuCommand|Mesh → <img src="images/Mesh_Merge.svg" width=16px> Unisci}} dal menu.
+2.  Selezionare l\'opzione **Mesh → <img src="images/Mesh_Merge.svg" width=16px> Unisci** dal menu.
 
 
 </div>

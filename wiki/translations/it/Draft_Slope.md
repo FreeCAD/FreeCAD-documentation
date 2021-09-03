@@ -38,7 +38,7 @@ Per una [Linea](Draft_Line/it.md) o una [Polilinea](Draft_Wire/it.md) selezionat
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più oggetti [Wire](Draft_Wire/it.md) o [Linea](Draft_Line/it.md)
-2.  Andare nel menu {{MenuCommand|Draft → Utilità → <img src="images/Draft_Slope.png" width=16px> [Imposta la pendenza](Draft_Slope/it.md)}}.
+2.  Andare nel menu **Draft → Utilità → <img src="images/Draft_Slope.png" width=16px> [Imposta la pendenza](Draft_Slope/it.md)**.
 3.  Impostare il valore di pendenza desiderato e premere il pulsante **OK**.
 
 

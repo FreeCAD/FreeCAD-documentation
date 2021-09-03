@@ -19,7 +19,7 @@ L\'outil **Vue en section** créé un plan de coupe qui masque temporairement la
 Plusieurs façons d\'appeler cette commande:
 
 -   Appuyez sur le bouton **<img src=images/Sketcher_ViewSection.svg style="width:16px"> [Vue section](Sketcher_ViewSection/fr.md)** pour basculer entre la section et la vue complète.
--   Faites {{MenuCommand|Sketch → Vue section}} dans le menu déroulant.
+-   Faites **Sketch → Vue section** dans le menu déroulant.
 
 
 

@@ -18,7 +18,7 @@ Crea una primitiva additiva nel corpo attivo come prima caratteristica o la fond
 
 <div class="mw-translate-fuzzy">
 
-## Tipi di primitive {#tipi_di_primitive}
+## Tipi di primitive 
 
 -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Cubo](PartDesign_AdditiveBox/it.md)
 -   <img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Cono](PartDesign_AdditiveCone/it.md)

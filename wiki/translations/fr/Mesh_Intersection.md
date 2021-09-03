@@ -21,7 +21,7 @@ La commande **Mesh Intersection** crée un nouvel objet maillé non paramétriqu
 2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_Intersection.svg" width=16px> [Intersection](Mesh_Intersection/fr.md)
 **
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → Opération booléenne → <img src="images/Mesh_Intersection.svg" width=16px> Intersection}} dans le menu.
+    -   Sélectionnez l\'option **Maillages → Opération booléenne → <img src="images/Mesh_Intersection.svg" width=16px> Intersection** dans le menu.
 
 ## Propriétés
 

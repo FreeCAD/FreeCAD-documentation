@@ -32,7 +32,7 @@ Vous devez ouvrir .Mod en mode administrateur et vous devez donner le
 
 -   Pour que FCGear fonctionne, il faut que \"numpy\" soit installé, numpy est installé d\'office depuis la version 0.15.4671 de FreeCAD, FCGear ne fonctionnera pas sur les anciennes versions de FreeCAD
 
-## Création d\'un engrenage {#création_dun_engrenage}
+## Création d\'un engrenage 
 
 -   sélectionnez l\'atelier gear
 -   cliquez sur le symbole gear

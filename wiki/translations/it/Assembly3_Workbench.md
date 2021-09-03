@@ -27,7 +27,7 @@ Le caratteristiche principali del banco da lavoro Assembly3 sono
 
 [Torna all\'inizio](#top.md)
 
-### Barre degli strumenti {#barre_degli_strumenti}
+### Barre degli strumenti 
 
 A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre degli strumenti.
 
@@ -252,7 +252,7 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 
 </div>
 
-#### Additional Constraints Toolbars {#additional_constraints_toolbars}
+#### Additional Constraints Toolbars 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
 
@@ -507,7 +507,7 @@ Dato che l\'AppImage funziona solo per Linux, per gli utenti Windows al momento 
 
 [Torna all\'inizio](#top.md)
 
-## Come fare {#come_fare}
+## Come fare 
 
 #### Cominciamo
 
@@ -620,7 +620,7 @@ Nota: tutti i nuovi file esterni devono essere salvati, chiusi e riaperti almeno
 
 [Torna all\'inizio](#top.md)
 
-#### Aggiungete un Offset {#aggiungete_un_offset}
+#### Aggiungete un Offset 
 
 Il montaggio3 non offre l\'Offset con i vincoli nel modo in cui lo fanno [A2plus Workbench](A2plus_Workbench.md) o altri strumenti CAD. Offre invece un sistema più generale e flessibile per aggiungere traslazioni offset ma anche angoli.
 
@@ -642,7 +642,7 @@ Test con altri assi o con i campi angolo/asse. Verificare anche che si ottenga l
 
 <div class="mw-translate-fuzzy">
 
-#### Risolvi un errore del risolutore {#risolvi_un_errore_del_risolutore}
+#### Risolvi un errore del risolutore 
 
 Questo accade spesso quando le parti sono eccessivamente vincolate, cioè più di 6 DOF sono bloccati.
 
@@ -655,7 +655,7 @@ Nota: poiché l\'Assemblaggio3 cerca di compensare le parti eccessivamente vinco
 
 [Torna all\'inizio](#top.md)
 
-### Sostituire una parte o rinominare un nome di file {#sostituire_una_parte_o_rinominare_un_nome_di_file}
+### Sostituire una parte o rinominare un nome di file 
 
 Quando una parte viene rimossa o quando un nome di file cambia, l\'assemblaggio si rompe, non può più essere risolto e il risolutore emetterà il messaggio \"Vincoli incoerenti\". Il risolutore contrassegnerà nell\'albero Elementi e Vincoli non validi con un punto interrogativo.
 
@@ -696,7 +696,7 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 
 [Torna all\'inizio](#top.md)
 
-### Consigli e suggerimenti {#consigli_e_suggerimenti}
+### Consigli e suggerimenti 
 
 -   L\'utilizzo di assemblaggi gerarchici aiuta ad evitare problemi di risoluzione e a mantenere il modello fluido. È possibile congelare un sottoassieme con un clic e risparmiare facilmente le risorse della CPU (utilizzare il menu contestuale nell\'albero). Quando si carica un assemblaggio l\'assieme3 non ha bisogno di aprire file esterni per i sottoinsiemi congelati, il che mantiene l\'albero compatto.
 -   È molto utile per abituarsi a dare un nome agli elementi e ai vincoli. Usare il tasto **F2** per farlo rapidamente nella struttura ad albero. Troverete molto utili gli strumenti di ordinamento dell\'albero nella barra degli strumenti principale. Un insieme con i vincoli e con elementi con nome completo è più facilmente comprensibile per le altre persone o per voi stessi quando guardate un file vecchio.

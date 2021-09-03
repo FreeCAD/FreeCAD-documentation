@@ -15,8 +15,8 @@ Il comando **Elimina** elimina gli oggetti selezionati.
 
 1.  Selezionare uno o più oggetti.
 2.  Esistono diversi modi per invocare il comando::
-    -   Selezionare l\'opzione {{MenuCommand|Modifica → <img src="images/Std_Delete.svg" width=16px> Elimina}} dal menu.
-    -   Selezionare l\'opzione {{MenuCommand|<img src="images/Std_Delete.svg" width=16px> Elimina}} nel menu contestuale della [vista ad albero](Tree_view/it.md) o della [vista 3D](3D_view/it.md).
+    -   Selezionare l\'opzione **Modifica → <img src="images/Std_Delete.svg" width=16px> Elimina** dal menu.
+    -   Selezionare l\'opzione **<img src="images/Std_Delete.svg" width=16px> Elimina** nel menu contestuale della [vista ad albero](Tree_view/it.md) o della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **Canc**.
 
 ## Script

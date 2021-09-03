@@ -15,7 +15,7 @@
 
 ## Utilización
 
-### Dialog-based workflow {#dialog_based_workflow}
+### Dialog-based workflow 
 
 1.  Press the **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
 2.  In the **Select feature** dialog, select a sketch to be used as base profile object and click **OK**.
@@ -24,7 +24,7 @@
 4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
 5.  Set options if needed and click **OK**.
 
-### Selection-based workflow {#selection_based_workflow}
+### Selection-based workflow 
 
 
 <small>(v0.19)</small> 
@@ -71,7 +71,7 @@
 -   Loft will be created in the order that cross sections were added
 -   If the sketch has inner geometry, i.e. the loft is supposed to have holes, then the order in which the sketch geometry is created should be the same for all sections: either start all sections with the inner geometry or start them all with the outer. Otherwise an invalid loft can be created where inner and outer walls cross.
 
-## Temas conocidos {#temas_conocidos}
+## Temas conocidos 
 
 -   Algunos modos de fallo convertirán la parte en negro
 

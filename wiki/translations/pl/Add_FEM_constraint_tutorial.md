@@ -23,7 +23,7 @@ This tutorial only covers how to implement constraints in python. In contrast to
 3.  **Create a task panel:** The task panel is necessary to allow the user to set the boundaries at which he wants to set the velocity constraint. It also makes entering the parameters a little more user friendly.
 4.  **Extend elmers writer:** Add support for the new constraint to Elmer by extending its sif file exporter.
 
-## Create document object {#create_document_object}
+## Create document object 
 
 In this step we are going to modify the following files:
 
@@ -108,7 +108,7 @@ def makeConstraintFlowVelocity(name="FlowVelocity"):
     return obj
 ```
 
-## Create GUI command {#create_gui_command}
+## Create GUI command 
 
 In this step we are going to modify the following files:
 
@@ -159,7 +159,7 @@ Add the new command file to the build system as decripted in [Extend FEM Module]
 
 Put the command into Gui/Workbench.cpp to add it to the toolbar and menu. Search for an existing constraint of the same category as the new one (e.g. Flow) copy-paste it and adjust the command id. This should be done two times. Once for the menu and again for the toolbar.
 
-## Create a task panel {#create_a_task_panel}
+## Create a task panel 
 
 In this step we are going to modify the following file:
 
@@ -281,7 +281,7 @@ class ViewProxy(FemConstraint.ViewProxy):
         return True
 ```
 
-## Extend Elmer\'s writer {#extend_elmers_writer}
+## Extend Elmer\'s writer 
 
 In this step we are going to modify the following file:
 

@@ -26,7 +26,7 @@ Acest tutorial are rolul de a introduce cititorul în fluxul de lucru de bază a
 
 ### Procedură
 
-#### Crearea de forma geometrice 3D {#crearea_de_forma_geometrice_3d}
+#### Crearea de forma geometrice 3D 
 
 Scopul Atelierului **PartDesign Workbench** este de a permite utilizatorului să creeze geometrie în spațiul 3D. Ca atare, este echipat cu instrumente pentru a face uz de schițe și a le converti în obiecte 3D.
 
@@ -71,7 +71,7 @@ Another way to create 3D geometry is with the <img alt="" src=images/PartDesign_
 
 </div>
 
-#### Caracteristici Subtractve {#caracteristici_subtractve}
+#### Caracteristici Subtractve 
 
 Vom începe prin a crea o schiță cu forma pe care dorim să o extragem.
 
@@ -116,7 +116,7 @@ Apoi, vom continua să aplicăm funcționalitatea**Pocket**.
 
 </div>
 
-#### Funcționalități ale Modeluluis {#funcționalități_ale_modeluluis}
+#### Funcționalități ale Modeluluis 
 
 Re apelați profilul extrudat care a fost creat la începutul tutorialului.
 

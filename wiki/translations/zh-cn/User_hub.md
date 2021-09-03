@@ -18,7 +18,7 @@
 
 如果你有兴趣了解FreeCAD的开发是怎么开始，多年来是怎么进行的，请访问[历史页面](History.md)。
 
-## FreeCAD 的使用 {#freecad_的使用}
+## FreeCAD 的使用 
 
 ## 简介
 

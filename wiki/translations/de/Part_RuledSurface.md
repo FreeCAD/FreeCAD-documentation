@@ -20,7 +20,7 @@ Erstelle Geregelte Oberfläche
 
 1.  Rufe den Befehl \"Geregelte Oberfläche\" auf mehrere Arten aufː
     -   Drücke die <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Part RuledSurface](Part_RuledSurface.md) Schaltfläche
-    -   Verwende den {{MenuCommand|Part → Geregelte Oberfläche}} Eintrag im Part Menü
+    -   Verwende den **Part → Geregelte Oberfläche** Eintrag im Part Menü
 
 
 <div class="mw-translate-fuzzy">

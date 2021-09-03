@@ -27,7 +27,7 @@ A worm can only be used with a worm wheel. This is called a worm drive. Like oth
 1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
 2.  Invoke the command several way:
     -   Press the <img alt="" src=images/FCGear_WormGear.svg  style="width:22px;"> [Create a Worm gear](FCGear_WormGear.md) button in the tool bar.
-    -   Using the {{MenuCommand|Gear Menu → Worm gear}}.
+    -   Using the **Gear Menu → Worm gear**.
 3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
 
 ## Properties
@@ -85,7 +85,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 Limitations are not known yet.
 
-## Useful formulas {#useful_formulas}
+## Useful formulas 
 
 -    **beta (lead angle)**= arctan (**module** \* **teeth** : **pitchdiameter (diameter)**)
 
@@ -95,7 +95,7 @@ Limitations are not known yet.
 
 -    **worm length**= 4,5 \* **module** \* **pi**
 
-## Worm wheel {#worm_wheel}
+## Worm wheel 
 
 The worm wheel must be designed manually. For this purpose **FCGear InvoluteGear** can be used for a simple construction. In any case, in-depth knowledge of the gear types is required.
 

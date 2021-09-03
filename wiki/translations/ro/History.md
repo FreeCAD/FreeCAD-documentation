@@ -42,7 +42,7 @@ Proiectul a fost anunțat publicului larg pe [OpenCascade Forum](http://www.open
 
 </div>
 
-### Werner Mayer {#werner_mayer}
+### Werner Mayer 
 
 Werner Mayer joined the project as soon as it was announced as an open source project (prior to the announcement the project was a private project of Jürgen). See this forum post from Werner in German: <https://forum.freecadweb.org/viewtopic.php?f=13&t=40235&start=10#p342330>
 
@@ -125,11 +125,11 @@ Version 0.12 released in January 2012 featured a more complete Sketcher workbenc
 
 </div>
 
-### Enlargement of core developer team {#enlargement_of_core_developer_team}
+### Enlargement of core developer team 
 
 In April 2019 the team of core developers was expanded: Jürgen, Werner and Yorik were joined by Abdullah, Bernd, sliptonic and WandererFan
 
-## Interesting Posts on the forum {#interesting_posts_on_the_forum}
+## Interesting Posts on the forum 
 
 -   about PartDesignNext and other design decisions: <https://forum.freecadweb.org/viewtopic.php?f=8&t=34923&start=130#p297074>
 -   about Forum history: <https://forum.freecadweb.org/viewtopic.php?f=8&t=7448&start=200#p287106>
@@ -141,7 +141,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 -   about FEM history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48646#p416389>
 -   about FEM mesher history: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48733#p417627>
 
-## Istoricul edițiilor {#istoricul_edițiilor}
+## Istoricul edițiilor 
 
 
 <div class="mw-translate-fuzzy">

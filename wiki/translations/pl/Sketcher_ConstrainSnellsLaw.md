@@ -41,7 +41,7 @@ Za pomocą przyboru **<img src=images/Sketcher_CreatePolyline.svg style="width:1
 -   Oba promienie mogą znajdować się po tej samej stronie powierzchni styku, spełniając równanie wiązania. Jest to fizyczny nonsens, chyba że stosunek n2/n1 wynosi 1,0, w którym to przypadku ograniczenie emuluje odbicie.
 -   Łuki okręgu i elipsy są również akceptowane jako promienie *(fizyczny nonsens)*.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Wiązanie może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli [Pyton](Python.md) za pomocą następującej funkcji: 
 ```python

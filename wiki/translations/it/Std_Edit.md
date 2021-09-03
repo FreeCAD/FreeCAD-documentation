@@ -13,7 +13,7 @@ Il comando **Std Edit** attiva o disattiva la modalità di modifica di un oggett
 ## Utilizzo
 
 1.  Se nessun oggetto è in modalità modifica: selezionare un singolo oggetto.
-2.  Selezionare l\'opzione {{MenuCommand|Modifica → <img src="images/Std_Edit.svg" width=16px> Attiva/disattiva la modalità modifica}} dal menu.
+2.  Selezionare l\'opzione **Modifica → <img src="images/Std_Edit.svg" width=16px> Attiva/disattiva la modalità modifica** dal menu.
 3.  La modalità di modifica dell\'oggetto selezionato viene attivata o disattivata.
 
 ## Note

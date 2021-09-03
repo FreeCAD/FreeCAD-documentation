@@ -23,17 +23,17 @@ Bauteilbibliothekwähler
 
 ## Einrichtung
 
-### Automatische Einrichtung {#automatische_einrichtung}
+### Automatische Einrichtung 
 
 Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden.
 
-### Von GitHub {#von_github}
+### Von GitHub 
 
 Anleitung [hier](https://github.com/FreeCAD/FreeCAD-library)
 
 Die Bibliothek ist ein einfacher Behälter für FreeCAD (.fcstd) und STEP (.stp) Dateien. Du kannst ihn überall herunterladen und deine Dateien in deine FreeCAD Projekte importieren. Innerhalb der Bibliothek befindet sich auch ein FreeCAD Makro (PartsLibrary.FCMacro), das du in deinem FreeCAD Makro Ordner ablegen kannst. Dieses Makro erstellt ein Browser Fenster innerhalb von FreeCAD, aus dem du die Teile einfach per Doppelklick hinzufügen kannst.
 
-## Verweise zum BauteilBibliothek Arbeitsbereich {#verweise_zum_bauteilbibliothek_arbeitsbereich}
+## Verweise zum BauteilBibliothek Arbeitsbereich 
 
 -   Arbeitsbereich Wiki:
 -   FreeCAD Wiki: [Makro Teilebibliothek](http://www.freecadweb.org/wiki/index.php?title=Macro_PartsLibrary)
@@ -44,7 +44,7 @@ Die Bibliothek ist ein einfacher Behälter für FreeCAD (.fcstd) und STEP (.stp)
 -   Teileliste, Autor und Standardisierungskörper: [Austausch deiner Modelle aus dem Makro](https://github.com/FreeCAD/FreeCAD-library#sharing-your-models-from-the-macro)
 -   Fehler berichten: Bitte melde Fehler unter <https://github.com/FreeCAD/FreeCAD-library/issues>
 
-## Andere nützliche Verweise {#andere_nützliche_verweise}
+## Andere nützliche Verweise 
 
 -   [Arbeitsbereich Schrauben](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts)
 -   [Arbeitsbereich Befestigungselemente](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners)

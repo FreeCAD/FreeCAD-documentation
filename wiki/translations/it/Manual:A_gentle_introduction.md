@@ -24,7 +24,7 @@ FreeCAD ha anche un [sistema di macro](Macros/it.md), che permette di registrare
 
 In questo capitolo, scopriremo molto in generale il linguaggio Python. Se siete interessati a saperne di più, il wiki della documentazione di FreeCAD ha una vasta sezione relativa alla [programmazione in Python](Power_users_hub/it.md).
 
-### Scrivere del codice Python {#scrivere_del_codice_python}
+### Scrivere del codice Python 
 
 Ci sono due semplici modi per scrivere del codice Python in FreeCAD: dalla console Python (menu **Visualizza -\> Pannelli -\> Console Python**), o dall\'editor delle Macro (menu **Strumenti -\> Macro -\> Nuova**). Nella console, si scrivono i comandi Python uno per uno, e essi vengono eseguiti quando si preme Invio, mentre la macro può contenere uno script più complesso fatto di diverse righe, e viene eseguita solo quando la macro viene lanciata dalla stessa finestra Macro.
 
@@ -32,7 +32,7 @@ In questo capitolo, si descrive come utilizzare entrambi i metodi, ma si consigl
 
 Se questa è la prima volta che si sta usando Python, prendere in considerazione la lettura di questa breve [introduzione a Python programming](Introduction_to_Python/it.md) prima di andare avanti, renderà più chiari i concetti di base di Python.
 
-### Manipolare gli oggetti di FreeCAD {#manipolare_gli_oggetti_di_freecad}
+### Manipolare gli oggetti di FreeCAD 
 
 Cominciamo creando un nuovo documento vuoto:
 
@@ -84,7 +84,7 @@ Provare esempio per accedere al colore della linea del box:
 
 box.ViewObject.LineColor 
 
-### Vettori e Posizionamento {#vettori_e_posizionamento}
+### Vettori e Posizionamento 
 
 I vettori sono un concetto fondamentale in qualsiasi applicazione 3D. Si tratta di un elenco di 3 numeri (x, y e z), che descrivono un punto o una posizione nello spazio 3D. Con i vettori si possono fare un sacco di cose, come addizioni, sottrazioni, proiezioni e molto altro ancora. In FreeCAD i vettori di lavorano in questo modo:
 

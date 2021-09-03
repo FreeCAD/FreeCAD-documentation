@@ -15,12 +15,12 @@ Se avete bisogno di ulteriori informazioni su come funzionano gli script in Free
 
 </div>
 
-### Vedere anche {#vedere_anche}
+### Vedere anche 
 
 -   [Script di Part](Part_scripting/it.md)
 -   [OpenCASCADE](OpenCASCADE/it.md)
 
-## Diagramma delle classi {#diagramma_delle_classi}
+## Diagramma delle classi 
 
 Questa è una panoramica delle classi [Linguaggio di Modellazione Unificato (UML)](http://it.wikipedia.org/wiki/Unified_Modeling_Language) più importanti del modulo Parte:
 
@@ -61,7 +61,7 @@ Sono disponibili i seguenti tipi di dati topologici:
 
 {{Top}}
 
-## Esempio: Creare una semplice topologia {#esempio_creare_una_semplice_topologia}
+## Esempio: Creare una semplice topologia 
 
 =
 
@@ -78,7 +78,7 @@ Creeremo ora una topologia tramite la costruzione della semplice geometria. Come
 
 {{Top}}
 
-### Creare la geometria {#creare_la_geometria}
+### Creare la geometria 
 
 
 <div class="mw-translate-fuzzy">
@@ -135,7 +135,7 @@ L2 = Part.LineSegment(V3, V4)
 
 {{Top}}
 
-### Unire tutto {#unire_tutto}
+### Unire tutto 
 
 
 <div class="mw-translate-fuzzy">
@@ -156,7 +156,7 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 <div class="mw-translate-fuzzy">
 
-#### Creare un prisma {#creare_un_prisma}
+#### Creare un prisma 
 
 Ora si può estrudere il contorno nella direzione voluta e creare una forma 3D reale:
 
@@ -174,7 +174,7 @@ P = W.extrude(Base.Vector(0, 0, 10))
 
 {{Top}}
 
-### Mostra tutto {#mostra_tutto}
+### Mostra tutto 
 
 
 ```python
@@ -184,7 +184,7 @@ Part.show(P)
 
 {{Top}}
 
-## Creare forme di base {#creare_forme_di_base}
+## Creare forme di base 
 
 
 <div class="mw-translate-fuzzy">
@@ -223,7 +223,7 @@ Per avere un elenco completo dei metodi disponibili con il modulo Parte consulta
 
 {{Top}}
 
-### Importare i moduli necessari {#importare_i_moduli_necessari}
+### Importare i moduli necessari 
 
 First we need to import the Part module so we can use its contents in Python. We\'ll also import the Base module from inside the FreeCAD module:
 
@@ -236,7 +236,7 @@ from FreeCAD import Base
 
 {{Top}}
 
-### Creare un vettore {#creare_un_vettore}
+### Creare un vettore 
 
 
 <div class="mw-translate-fuzzy">
@@ -269,7 +269,7 @@ print(myVertex.Point)
 
 {{Top}}
 
-#### Creare un bordo {#creare_un_bordo}
+#### Creare un bordo 
 
 Un bordo non è altro che una linea con due vertici:
 
@@ -303,7 +303,7 @@ edge.CenterOfMass
 
 {{Top}}
 
-### Mostrare la forma sullo schermo {#mostrare_la_forma_sullo_schermo}
+### Mostrare la forma sullo schermo 
 
 
 <div class="mw-translate-fuzzy">
@@ -329,7 +329,7 @@ La funzione show crea un oggetto nel nostro documento FreeCAD e gli assegna la f
 
 {{Top}}
 
-### Creare un contorno {#creare_un_contorno}
+### Creare un contorno 
 
 
 <div class="mw-translate-fuzzy">
@@ -379,7 +379,7 @@ wire2.isClosed()
 
 {{Top}}
 
-### Creare una faccia {#creare_una_faccia}
+### Creare una faccia 
 
 
 <div class="mw-translate-fuzzy">
@@ -407,7 +407,7 @@ sface.isValid()
 
 Solamente le facce hanno un\'area, non i contorni né i bordi. {{Top}}
 
-### Creare una circonferenza {#creare_una_circonferenza}
+### Creare una circonferenza 
 
 Un cerchio può essere creato in questo semplice modo:
 
@@ -453,7 +453,7 @@ degrees = math.degrees(radians)
 
 {{Top}}
 
-### Creare un arco attraverso dei punti {#creare_un_arco_attraverso_dei_punti}
+### Creare un arco attraverso dei punti 
 
 
 <div class="mw-translate-fuzzy">
@@ -492,7 +492,7 @@ arc = Part.Arc(circle,0,pi)
 
 Gli archi sono bordi validi, come le linee, quindi possono essere usati anche nei contorni. {{Top}}
 
-### Creare un poligono {#creare_un_poligono}
+### Creare un poligono 
 
 Un poligono è semplicemente un contorno composto da diversi bordi diritti. La funzione makePolygon prende una lista di punti e crea un contorno attraverso questi punti:
 
@@ -504,7 +504,7 @@ lshape_wire = Part.makePolygon([Base.Vector(0, 5, 0), Base.Vector(0, 0, 0), Base
 
 {{Top}}
 
-### Creare una curva di Bézier {#creare_una_curva_di_bézier}
+### Creare una curva di Bézier 
 
 Le curve di Bézier sono utilizzate per modellare delle curve *morbide* utilizzando una serie di Poles (punti) e weight (pesi) opzionali. La funzione sottostante crea una Part.BezierCurve da una serie di punti FreeCAD.Vector. (Notare che gli indici di pole e di weight partono da 1, non da 0.)
 
@@ -520,7 +520,7 @@ def makeBCurveEdge(Points):
 
 {{Top}}
 
-### Creare un piano {#creare_un_piano}
+### Creare un piano 
 
 
 <div class="mw-translate-fuzzy">
@@ -553,7 +553,7 @@ plane.BoundBox
 
 Nota: `makePlane()` accetta solo `Base.Vector()` per start\_pnt e dir\_normal e non tuple. {{Top}}
 
-### Creare una ellisse {#creare_una_ellisse}
+### Creare una ellisse 
 
 Per creare un\'ellisse ci sono diversi modi:
 
@@ -621,7 +621,7 @@ Part.show(eli.toShape())
 
 Per il costruttore Ellisse precedente abbiamo passato il centro, MajorRadius e MinorRadius. {{Top}}
 
-### Creare un toro {#creare_un_toro}
+### Creare un toro 
 
 
 <div class="mw-translate-fuzzy">
@@ -667,7 +667,7 @@ Il codice precedente creerà un semi toro; solo l\'ultimo parametro viene modifi
 
 {{Top}}
 
-### Creare un cubo o parallelepipedo {#creare_un_cubo_o_parallelepipedo}
+### Creare un cubo o parallelepipedo 
 
 Utilizzando `makeBox(length, width, height, [pnt, dir])`. Per impostazione predefinita pnt=Vector(0,0,0) e dir=Vector(0,0,1).
 
@@ -684,7 +684,7 @@ len(box.Vertexes)
 
 <div class="mw-translate-fuzzy">
 
-#### Creare una sfera {#creare_una_sfera}
+#### Creare una sfera 
 
 Utilizzando **makeSphere(radius,\[pnt, dir, angle1,angle2,angle3\])**. Per impostazione predefinita pnt=Vector(0,0,0), dir=Vector(0,0,1), angle1=-90, angle2=90 e angle3=360. angle1 e angle2 sono il minimo e il massimo in verticale della sfera, angle3 è il diametro della sfera stessa.
 
@@ -705,7 +705,7 @@ hemisphere = Part.makeSphere(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), -90
 
 <div class="mw-translate-fuzzy">
 
-#### Creare un cilindro {#creare_un_cilindro}
+#### Creare un cilindro 
 
 Utilizzando **makeCylinder(radius,height,\[pnt,dir,angle\])**. Per impostazione predefinita pnt=Vector(0,0,0),dir=Vector(0,0,1) e angle=360.
 
@@ -721,7 +721,7 @@ partCylinder = Part.makeCylinder(5, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0,
 
 <div class="mw-translate-fuzzy">
 
-#### Creare un cono {#creare_un_cono}
+#### Creare un cono 
 
 Utilizzando **makeCone(radius1,radius2,height,\[pnt,dir,angle\])**. Per impostazione predefinita pnt=Vector(0,0,0), dir=Vector(0,0,1) e angle=360.
 
@@ -737,7 +737,7 @@ semicone = Part.makeCone(10, 0, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0, 1),
 
 <div class="mw-translate-fuzzy">
 
-## Modificare delle forme {#modificare_delle_forme}
+## Modificare delle forme 
 
 Ci sono diversi modi per modificare le forme. Alcuni sono semplici operazioni di trasformazione come lo spostamento o la rotazione di forme, altri sono più complessi, come ad esempio unire e sottrarre una forma da un\'altra.
 
@@ -749,7 +749,7 @@ There are several ways to modify shapes. Some are simple transformation operatio
 
 <div class="mw-translate-fuzzy">
 
-### Operazioni di trasformazione {#operazioni_di_trasformazione}
+### Operazioni di trasformazione 
 
 
 </div>
@@ -757,7 +757,7 @@ There are several ways to modify shapes. Some are simple transformation operatio
 
 <div class="mw-translate-fuzzy">
 
-#### Traslare una forma {#traslare_una_forma}
+#### Traslare una forma 
 
 Traslare è l\'atto di spostare una forma da un luogo all\'altro. Qualsiasi forma (bordo, faccia, cubo, ecc ..) può essere traslata in questo modo:
 
@@ -784,7 +784,7 @@ Questo sposterà la forma \"myShape\" di 2 unità nella direzione dell\'asse x.
 
 <div class="mw-translate-fuzzy">
 
-#### Ruotare una forma {#ruotare_una_forma}
+#### Ruotare una forma 
 
 Per ruotare una forma, è necessario specificare il centro di rotazione, l\'asse e l\'angolo di rotazione:
 
@@ -799,7 +799,7 @@ myShape.rotate(Base.Vector(0, 0, 0),Base.Vector(0, 0, 1), 180)
 
 <div class="mw-translate-fuzzy">
 
-#### Trasformazioni generiche, con matrici {#trasformazioni_generiche_con_matrici}
+#### Trasformazioni generiche, con matrici 
 
 Una matrice è un modo molto conveniente per memorizzare le trasformazioni nel mondo 3D. In una matrice singola, è possibile impostare valori di traslazione, rotazione e scala da applicare ad un oggetto. Ad esempio:
 
@@ -848,7 +848,7 @@ myShape.transformGeometry(myMat)
 
 <div class="mw-translate-fuzzy">
 
-#### Scalare una forma {#scalare_una_forma}
+#### Scalare una forma 
 
 Scalare (ridimensionare) una forma è una delle operazioni più pericolose perché, a differenza della traslazione o della rotazione, il ridimensionamento non uniforme (con valori diversi per gli assi x, y, z) può modificare la struttura della forma. Ad esempio, la scalatura di un cerchio con un valore in orizzontale diverso da quello in verticale lo trasformerà in un ellisse, forma che matematicamente si comporta in modo molto diverso. Per il ridimensionamento, non possiamo usare transformShape, ma dobbiamo usare transformGeometry():
 
@@ -865,7 +865,7 @@ myShape=myShape.transformGeometry(myMat)
 
 <div class="mw-translate-fuzzy">
 
-### Operazioni Booleane {#operazioni_booleane}
+### Operazioni Booleane 
 
 
 </div>
@@ -981,7 +981,7 @@ cylinder = disc.extrude(Base.Vector(0, 0, 2))
 
 <div class="mw-translate-fuzzy">
 
-## Esplorare le forme {#esplorare_le_forme}
+## Esplorare le forme 
 
 Si può facilmente esplorare la struttura dei dati topologici:
 
@@ -1019,7 +1019,7 @@ Digitando le righe di cui sopra nell\'interprete Python, si otterrà una buona d
 
 <div class="mw-translate-fuzzy">
 
-### Analizzare i bordi {#analizzare_i_bordi}
+### Analizzare i bordi 
 
 Nel caso in cui il bordo è una curva arbitraria, è più probabile che si voglia fare una discretizzazione. In FreeCAD i bordi sono parametrizzati dalle loro lunghezze. Ciò significa che si può percorrere un bordo/curva con la sua lunghezza:
 
@@ -1061,7 +1061,7 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 <div class="mw-translate-fuzzy">
 
-### Utilizzare la selezione {#utilizzare_la_selezione}
+### Utilizzare la selezione 
 
 Qui ora vediamo come possiamo usare la selezione che l\'utente ha nel visualizzatore. Prima di tutto creiamo una scatola e la mostriamo nel visualizzatore:
 
@@ -1106,7 +1106,7 @@ print("Length of the selected edges: ", length)
 
 <div class="mw-translate-fuzzy">
 
-## Esempio completo: La bottiglia OCC {#esempio_completo_la_bottiglia_occ}
+## Esempio completo: La bottiglia OCC 
 
 Un esempio tipico si trova nella pagina [OpenCasCade Technology Tutorial](http://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html#sec1) che spiega come costruire una bottiglia. Questo è un buon esercizio anche per FreeCAD. In effetti, se si segue il nostro esempio qui sotto e la pagina di OCC contemporaneamente, si capisce bene come sono implementate le strutture di OCC in FreeCAD. Lo script completo è anche incluso nell\'installazione di FreeCAD (all\'interno della cartella Mod/Part) e può essere chiamato dall\'interprete python digitando:
 
@@ -1124,7 +1124,7 @@ Part.show(bottle)
 
 <div class="mw-translate-fuzzy">
 
-### Lo script completo {#lo_script_completo}
+### Lo script completo 
 
 Questo è lo script completo MakeBottle:
 
@@ -1182,7 +1182,7 @@ Part.show(el)
 
 <div class="mw-translate-fuzzy">
 
-### Spiegazione dettagliata {#spiegazione_dettagliata}
+### Spiegazione dettagliata 
 
 
 </div>
@@ -1337,7 +1337,7 @@ Part.show(el)
 
 <div class="mw-translate-fuzzy">
 
-## Cubo forato {#cubo_forato}
+## Cubo forato 
 
 Ecco un esempio completo della costruzione di una scatola perforata.
 
@@ -1408,7 +1408,7 @@ Part.show(cut_part)
 
 <div class="mw-translate-fuzzy">
 
-## Caricare e salvare {#caricare_e_salvare}
+## Caricare e salvare 
 
 Nel modulo Parte ci sono diversi modi per salvare il proprio lavoro. Naturalmente, è possibile salvare il documento in formato FreeCAD, ma è anche possibile salvare gli oggetti Parte direttamente nei comuni formati CAD, come ad esempio BREP, IGS, STEP e STL.
 

@@ -20,7 +20,7 @@ L\'outil **<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16p
 ## Utilisation
 
 1.  Sélectionnez une contrainte déjà placée, puis appuyez sur **<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Activer/désactiver la contrainte](Sketcher_ToggleActiveConstraint/fr.md)**.
-2.  Sinon, accédez au [Panneau des tâches](Task_panel/fr.md), à la section {{MenuCommand|Constraints}}, sélectionnez la contrainte, puis ouvrez le menu contextuel (clic droit) et sélectionnez {{MenuCommand|Deactivate}} .
+2.  Sinon, accédez au [Panneau des tâches](Task_panel/fr.md), à la section **Constraints**, sélectionnez la contrainte, puis ouvrez le menu contextuel (clic droit) et sélectionnez **Deactivate** .
 3.  Pour réactiver la contrainte, sélectionnez-la et appuyez à nouveau sur **<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Activer/désactiver la contrainte](Sketcher_ToggleActiveConstraint/fr.md)**.
 
 ## Exemples

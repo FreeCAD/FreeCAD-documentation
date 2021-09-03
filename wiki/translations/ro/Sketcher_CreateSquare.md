@@ -13,7 +13,7 @@ Draws a square inscribed in a construction geometry circle. When starting the to
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

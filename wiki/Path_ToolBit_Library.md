@@ -13,7 +13,7 @@ A tool library is a (JSON) file with a mapping of tool id to the path of the too
 
 Due to each tool being stored in its own file and the storage/organization of those files being quite flexible the importance of a tool library for organisational purposes is quite diminished. The user is free to organize their tools in whichever directory hierarchy they see fit and can also name them as best fits their use and organisation.
 
-## Toolbit IDs {#toolbit_ids}
+## Toolbit IDs 
 
 The Toolbit does not have an id of it\'s own. The id is a property of the library. When a toolbit is used to create a toolcontroller, the ID in the current library will become the default tool number in the controller. Of course, the tool number can be changed in the tool controller.
 
@@ -23,7 +23,7 @@ The Toolbit does not have an id of it\'s own. The id is a property of the librar
 
 A toolbit library can be exported to create a [LinuxCNC Tool Table](http://wiki.linuxcnc.org/cgi-bin/wiki.pl?ToolTable) (.tbl).
 
-## JSON Structure {#json_structure}
+## JSON Structure 
 
  {{Code|
 {

@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Visão geral {#visão_geral}
+## Visão geral 
 
 It is possible to define properties using mathematical expressions. In the GUI, spin boxes or input fields that are bound to properties contain a blue icon <img alt="" src=images/Sketcher_Expressions.png  style="width:24px;">. Clicking on the icon or typing the equal sign **&#61;** brings up the expression editor for that particular property.
 
@@ -12,13 +12,13 @@ Operators and functions are unit-aware, and require valid combinations of units,
 
 You can use [predefined constants](#Supported_constants.md) and [functions](#Supported_functions.md).
 
-### Function Arguments {#function_arguments}
+### Function Arguments 
 
 Multiple arguments to a function may be separated by either a semicolon followed by a space `, `. In the latter case, the comma is converted to a semicolon after entry. When a semicolon is used, no trailing space is necessary.
 
 Arguments may include references to cells in a spreadsheet. A cell reference consists of the cell\'s uppercase row letter followed by its column number, for example `A1`. A cell may also be referenced by using the cell\'s alias instead, for example `Spreadsheet.MyPartWidth`.
 
-### Referencing objects {#referencing_objects}
+### Referencing objects 
 
 You can reference an object by its **Name** or by its **Label**. In the case of a **Label**, it must be enclosed in double `<<` and `>>` symbols, such as `<<Label>>`.
 
@@ -29,7 +29,7 @@ To reference list objects, use `<<object_label>>.list[list_index]` or `object_na
 
 For more information about referencing objects, see [Reference to CAD\_data](#Reference_to_CAD_data.md).
 
-## Supported constants {#supported_constants}
+## Supported constants 
 
 The following constants are supported:
 
@@ -38,7 +38,7 @@ The following constants are supported:
   **e**      [Euler\'s number](https://en.wikipedia.org/wiki/E_(mathematical_constant))
   **pi**     [Pi](https://en.wikipedia.org/wiki/Pi)
 
-## Supported operators {#supported_operators}
+## Supported operators 
 
 The following operators are supported:
 
@@ -51,9 +51,9 @@ The following operators are supported:
   **%**      [Remainder](https://en.wikipedia.org/wiki/Remainder)
   **\^**     [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)
 
-## Supported functions {#supported_functions}
+## Supported functions 
 
-### General mathematical functions {#general_mathematical_functions}
+### General mathematical functions 
 
 The mathematical functions listed below are available.
 
@@ -94,7 +94,7 @@ These functions for rounding, truncation and remainder are supported:
   round(x)    [Rounding](https://en.wikipedia.org/wiki/Rounding) to the nearest integer                                                          all
   trunc(x)    [Truncation](https://en.wikipedia.org/wiki/Truncation) to the nearest integer in the direction of zero                             all
 
-### Statistical / aggregate functions {#statistical_aggregate_functions}
+### Statistical / aggregate functions 
 
 [Aggregate functions](https://en.wikipedia.org/wiki/Aggregate_function) take one or more arguments.
 Individual arguments to aggregate functions may consist of ranges of cells. A range of cells is expressed as two cell references separated by a colon {{Incode|:}}, for example {{Incode|average(B1:B8)}} or {{Incode|sum(A1:A4; B1:B4)}}. The cell references may also use cell aliases, for example {{Incode|average(StartTemp:EndTemp)}} <small>(v0.19)</small> .
@@ -110,21 +110,21 @@ These aggregate functions are supported:
   stddev(a; b; c; \...)    [Standard deviation](https://en.wikipedia.org/wiki/standard_deviation) of the values of the arguments                                all
   sum(a; b; c; \...)       [Sum](https://en.wikipedia.org/wiki/Summation) of the values of the arguments; typically used for cell ranges                        all
 
-### String manipulation {#string_manipulation}
+### String manipulation 
 
-#### String identification {#string_identification}
+#### String identification 
 
 Strings are identified in expressions by surrounding them with opening/closing double chevrons (as are labels).
 
 In following example, \"TEXT\" is recognized as a string : `<<TEXT>>`
 
-#### String concatenation {#string_concatenation}
+#### String concatenation 
 
 Strings can be concatenated using the \'+\' sign.
 
 Following example `<<MY>> + <<TEXT>>` will be concatenated to \"MYTEXT\".
 
-#### String formatting {#string_formatting}
+#### String formatting 
 
 String formatting is supported using the (old) %-style Python way.
 
@@ -136,7 +136,7 @@ A limitation is that only one %-specifier is allowed in string, thus you have to
 
 A FreeCAD sample file using string formatting is available [in the forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657)
 
-## Conditional expressions {#conditional_expressions}
+## Conditional expressions 
 
 Conditional expressions are of the form `condition ? resultTrue : resultFalse`. The condition is defined as an expression that evaluates to either `0` (false) or non-zero (true). Note that enclosing the conditional expression in parentheses is currently considered an error. {{VersionMinus|0.19}}
 
@@ -411,7 +411,7 @@ The following commonly used units are not yet supported:
   lx     [Lux](https://en.wikipedia.org/wiki/Lux)                                                                     not directly
   px     [Pixel](https://en.wikipedia.org/wiki/Pixel)                                                                 not directly
 
-## Invalid characters and names {#invalid_characters_and_names}
+## Invalid characters and names 
 
 The expression feature is very powerful but to achieve this power it has some limitations concerning some characters. To overcome this, FreeCAD offers to use labels and reference them instead of the object names. In labels you can use almost all special characters.
 
@@ -449,11 +449,11 @@ For example, the following name is valid: `<<Sketch>>.Constraints.T2üßµ@`. Wh
 
 Since shorter names (especially if they have only one or two characters) can easily result in invalid names, consider using longer names and/or establishing a suitable naming convention.
 
-### Cell aliases {#cell_aliases}
+### Cell aliases 
 
 For [spreadsheet cell aliases](Spreadsheet_SetAlias.md) only alphanumeric characters and underscores (`A` to `Z`, `a` to `z`, `0` to `9` and `_`) are allowed.
 
-## Reference to CAD data {#reference_to_cad_data}
+## Reference to CAD data 
 
 It is possible to use data from the model itself in an expression. To reference a property use`object.property`. If the property is a compound of fields, the individual fields can be accessed as `object.property.field`.
 
@@ -499,11 +499,11 @@ The following table shows some examples:
 |                                            |                                    |                                                                                                                                                                              |
 +--------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## Document-wide global variables {#document_wide_global_variables}
+## Document-wide global variables 
 
 There is no concept of global variables in FreeCAD at the moment. Instead, arbitrary variables can be defined as cells in a spreadsheet using the [Spreadsheet workbench](Spreadsheet_Workbench.md), and then be given a name using the alias property for the cell (right-click on cell). Then they can be accessed from any expression just as any other object property.
 
-## Cross-document linking {#cross_document_linking}
+## Cross-document linking 
 
 It is possible (with limitations) to define a Property of an object in your current document (\".FCstd\" file) by using an Expression to reference a Property of an object contained in a different document (\".FCstd\" file). For example, a cell in a spreadsheet or the **Length** of a Part Cube, etc. in one document can be defined by an Expression that references the X Placement value or another Property of an object contained in a different document.
 
@@ -519,7 +519,7 @@ Unfortunately, the integrated checker sometimes claims that a valid name doesn\'
 
 Of course, it\'s up to you to load the corresponding documents later when you want to change anything.
 
-## Known issues / remaining tasks {#known_issues_remaining_tasks}
+## Known issues / remaining tasks 
 
 -   The dependency graph is based on the relationship between document objects, not properties. This means that you cannot provide data to an object and query that same object for results. For example, even though there are no cyclic dependencies when the properties themselves are considered, you may not have an object which gets its dimensions from a spreadsheet and then display the volume of that object in the same spreadsheet. As a work-around use multiple spreadsheets, one to drive your model and the other for reporting.
 -   The expression parser does not handle parentheses well, and is unable to properly parse some expressions. For example: `<nowiki>=</nowiki> (A1 > A2) ? 1 : 0` results in an error, while `<nowiki>=</nowiki> A1 > A2 ? 1 : 0` is accepted. The expression `<nowiki>=</nowiki> 5 + ((A1>A2) ? 1 : 0)` cannot be entered in any form.

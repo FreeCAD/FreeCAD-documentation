@@ -20,7 +20,7 @@ Crée une surface réglée.
 
 1.  Lancez la commande Surface réglée de plusieurs façonsː
     -   Appuyez sur le bouton <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Créer un surface réglée à partir de\...](Part_RuledSurface/fr.md)
-    -   Utilisez l\'entrée {{MenuCommand|Pièce → Créer un surface réglée}} dans le menu Part
+    -   Utilisez l\'entrée **Pièce → Créer un surface réglée** dans le menu Part
 
 
 <div class="mw-translate-fuzzy">

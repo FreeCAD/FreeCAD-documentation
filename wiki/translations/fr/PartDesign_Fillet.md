@@ -23,7 +23,7 @@ Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'un objet.
 -   Pour une chaîne d\'arêtes tangentes les unes aux autres, une seule arête peut être sélectionnée. Le congé se propagera le long de la chaîne.
 -   Pour éditer le filet après la validation de la fonction, double-cliquez sur l\'étiquette du filet dans l\'arbre du projet ou cliquez dessus avec le bouton droit de la souris et sélectionnez **Editer le congé**.
 
-## PartDesign Congé versus Part Congé {#partdesign_congé_versus_part_congé}
+## PartDesign Congé versus Part Congé 
 
 <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Congé](PartDesign_Fillet/fr.md) ne doit pas être confondu avec **<img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Congé](Part_Fillet/fr.md)** de l\'[Atelier Part](Part_Workbench.md). Bien qu\'ils partagent le même nom, ils ne sont pas identiques et ne sont pas utilisés de la même manière.
 
@@ -34,7 +34,7 @@ Voici comment ils diffèrent les uns des autres:
 -   Le PartDesign Congé offre un aperçu en direct du congé appliqué à l\'objet avant de valider la fonction.
 -   Le Part Congé prend en charge des rayons variables (avec un rayon de départ et un rayon de fin). Le PartDesign Congé ne fonctionne pas.
 
-## Problèmes connus {#problèmes_connus}
+## Problèmes connus 
 
 Les congés, chanfreins et autres fonctionnalités opérant sur les corps solides dépendent du noyau OpenCASCADE Technology (OCCT) sous-jacent utilisé par FreeCAD. Le noyau OCCT a parfois du mal à gérer les arêtes vives qui coïncident, là où deux faces se rencontrent. Si tel est le cas, FreeCAD peut se bloquer sans explication.
 
@@ -59,7 +59,7 @@ Voir les discussions du forum pour plus d\'informations :
 
 L\'utilisateur est également responsable de l\'intégrité de son propre modèle. Selon le modèle, il peut être impossible d\'effectuer un congé ou un chanfrein si le corps n\'est pas assez grand pour supporter cette opération. Par exemple, il ne serait pas possible de créer un congé de 10 mm si un bord n\'est séparé que de 5 mm de la surface suivante. Dans ce cas, le rayon maximal pour un congé serait de 5 mm ; essayer d\'utiliser une valeur plus grande peut entraîner une forme qui ne calcule pas, voire un crash. Si l\'utilisation de la limite exacte de 5 mm ne fonctionne pas, il est possible d\'utiliser une approximation très proche, telle que 4,9999 mm, pour obtenir le même résultat visible.
 
-### Nom topologique {#nom_topologique}
+### Nom topologique 
 
 La numérotation des arêtes n\'est pas complètement stable. Il est donc conseillé de terminer la conception principale de votre corps solide avant d\'appliquer des fonctions telles que les congés et les chanfreins, sans quoi les arêtes risquent de changer de nom et les arêtes recevant un congé risquent de devenir invalides.
 

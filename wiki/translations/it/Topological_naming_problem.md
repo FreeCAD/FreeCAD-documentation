@@ -147,7 +147,7 @@ Come spiegato nella pagina [Editazione delle funzioni](feature_editing/it.md), u
 
 <img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width:" height="400px;">
 
-## Note finali {#note_finali}
+## Note finali 
 
 L\'aggiunta di oggetti di riferimento implica più lavoro per l\'utente, ma alla fine produce modelli più stabili che sono meno soggetti al problema di denominazione topologica.
 

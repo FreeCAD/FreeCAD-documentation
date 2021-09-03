@@ -23,7 +23,7 @@ Esta herramienta permite crear una conexión de esquina o de salida en T entre d
 
 </div>
 
-## Como utilizar {#como_utilizar}
+## Como utilizar 
 
 
 <div class="mw-translate-fuzzy">
@@ -39,7 +39,7 @@ Esta herramienta permite crear una conexión de esquina o de salida en T entre d
 
 -    {{PropertyData/es|Radius}}: El radio de curvatura de este conector
 
-## Flujo de trabajo típico {#flujo_de_trabajo_típico}
+## Flujo de trabajo típico 
 
 
 <div class="mw-translate-fuzzy">

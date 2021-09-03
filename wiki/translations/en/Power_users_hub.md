@@ -15,7 +15,7 @@ FreeCAD is extensible by [Python](Python.md) code that is run directly in the [P
 
 If you\'d like to contribute content to these pages, request a wiki account with editor permissions [in the forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), and read the [WikiPages](WikiPages.md) for the general guidelines that you should follow. For other ways to contribute with the project, see the [Help FreeCAD](Help_FreeCAD.md) page.
 
-## Customizing FreeCAD {#customizing_freecad}
+## Customizing FreeCAD 
 
 -   [Interface Customization](Interface_Customization.md): Starting with the beginning: Toolbars and shortcuts
 -   [Working with Macros](Macros.md): Easily record often repeated tasks or Python code
@@ -23,7 +23,7 @@ If you\'d like to contribute content to these pages, request a wiki account with
 -   [Customize Toolbars](Customize_Toolbars.md)
 -   [Installing more workbenches](Installing_more_workbenches.md)
 
-## Scripting in FreeCAD {#scripting_in_freecad}
+## Scripting in FreeCAD 
 
 ### General
 
@@ -41,28 +41,28 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 -   The [Builtin modules](Builtin_modules.md) are the principal FreeCAD modules. They contain tools for manipulating general FreeCAD configurations, documents and their contents.
 -   [Workbench creation](Workbench_creation.md) shows you how to create your own workbench
 
-#### Working with Meshes {#working_with_meshes}
+#### Working with Meshes 
 
 -   [Mesh Scripting](Mesh_Scripting.md): How to interact with the [Mesh Workbench](Mesh_Workbench.md)
 
-#### Working with Parts {#working_with_parts}
+#### Working with Parts 
 
 -   [The Part Workbench](Part_Workbench.md): How [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE) tools and structure is used in FreeCAD
 -   [Topological data scripting](Topological_data_scripting.md): How to interact with the Part Module
 -   [PythonOCC](PythonOCC.md): How to unleash the whole Open CASCADE power
 -   [Mesh to Part](Mesh_to_Part.md): Converting between object types
 
-#### Accessing the Coin scenegraph {#accessing_the_coin_scenegraph}
+#### Accessing the Coin scenegraph 
 
 -   [The Coin/Inventor scenegraph](Scenegraph.md): How the FreeCAD scene representation works
 -   [Pivy](Pivy.md): How to access and modify the scenegraph
 
-### Controlling the Qt interface {#controlling_the_qt_interface}
+### Controlling the Qt interface 
 
 -   [PySide](PySide.md): How to access the interface, and modify its contents
 -   [Using the FreeCAD GUI](Embedding_FreeCADGui.md) in another Qt application with PyQt
 
-### Working with parametric objects {#working_with_parametric_objects}
+### Working with parametric objects 
 
 -   [Scripted objects](Scripted_objects.md): how to make 100% Python-scripted objects.
     -   [Scripted objects with attachment](Scripted_objects_with_attachment.md): how to make scripted objects attachable to other objects.
@@ -78,13 +78,13 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 -   The [Draft Workbench](Draft_Workbench.md) adds basic 2d drawing functions to freecad. It is written entirely in Python, so it can be a good example if you want to write your own modules.
 -   [FreeCAD vector math library](FreeCAD_vector_math_library.md) : A couple of handy functions to manipulate FreeCAD vectors. This library is also included in the Draft module.
 
-## API Functions {#api_functions}
+## API Functions 
 
 The complete API documentation of FreeCAD is located at <http://www.freecadweb.org/api/> . It contains both C++ and Python APIs, and is not totally well formatted yet, which can be confusing when looking for python-only code. An easier to browse version can be found [here](:Category:API.md). Note that it can be incomplete, since it is updated manually. For more accurate information, browse the modules directly from FreeCAD\'s Python console.
 
 Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
-## Advanced modification {#advanced_modification}
+## Advanced modification 
 
 -   [Start up and Configuration](Start_up_and_Configuration.md): Startup and command line options
 -   [Installing on Windows](Installing_on_Windows.md): Using the windows installer
@@ -92,7 +92,7 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 -   [Branding](Branding.md): Simple modifications you can do to the source code to change some aspects of FreeCAD
 -   [Extra python modules](Extra_python_modules.md) : Extend the FreeCAD python interpreter with these powerful modules!
 
-## Python tutorials {#python_tutorials}
+## Python tutorials 
 
 These are good generic tutorials, not specific to FreeCAD, that might interest you if you are totally new to python.
 
@@ -122,7 +122,7 @@ The following two references are PyQt specific (not PySide) but may offer some i
 -   [High Level 3D Graphics Programming in Python](http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/) : Pivy example from Pycon 2004
 -   [Introducing Pivy into studierstube](https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [(Mirror)](https://www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42) : A paper that is not really a tutorial, but that illustrates well how Pivy works (requires an academic account)
 
-## Community projects {#community_projects}
+## Community projects 
 
 On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeCAD-based projects run by the FreeCAD users community. If you are starting a new FreeCAD project, be sure to list it there! We also have a page with things you can do if you would like to [Help FreeCAD](Help_FreeCAD.md).
 

@@ -17,7 +17,7 @@ La commande **Std Vue orthographique** fait passer la vision du mode actif [vue 
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → <img src="images/Std_OrthographicCamera.svg" width=16px> Vue orthographique}} dans le menu.
+    -   Sélectionnez l\'option **Affichage → <img src="images/Std_OrthographicCamera.svg" width=16px> Vue orthographique** dans le menu.
     -   Utilisez le raccourci clavier: **V** puis **O**.
 
 ## Remarques
@@ -26,7 +26,7 @@ La commande **Std Vue orthographique** fait passer la vision du mode actif [vue 
 
 ## Préférences
 
--   Le type de vue peut être modifié dans les préférences: {{MenuCommand|Edition → Préférences... → Affichage → Vue 3D → Type de caméra}}. Le type sélectionné sera utilisé pour toutes les vues 3D de tous les documents ouverts et également pour les nouveaux documents. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
+-   Le type de vue peut être modifié dans les préférences: **Edition → Préférences... → Affichage → Vue 3D → Type de caméra**. Le type sélectionné sera utilisé pour toutes les vues 3D de tous les documents ouverts et également pour les nouveaux documents. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
 
 ## Script
 

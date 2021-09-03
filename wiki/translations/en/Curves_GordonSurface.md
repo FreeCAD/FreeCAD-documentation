@@ -31,7 +31,7 @@ The <img alt="" src=images/Curves_GordonSurface.svg  style="width:24px;"> [Curve
 11. Continue to hold the Ctrl key and select the extent lines. (Yellow lines in the example above.)
 12. To invoke the command, do one of the following:
     -   Press the <img alt="" src=images/Curves_GordonSurface.svg  style="width:24px;"> button
-    -   Use the {{MenuCommand|Surfaces → Gordon surface}}
+    -   Use the **Surfaces → Gordon surface**
 
 ## Properties
 

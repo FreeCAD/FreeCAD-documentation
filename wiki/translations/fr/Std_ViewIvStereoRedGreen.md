@@ -13,11 +13,11 @@ La commande **Std Stéréo rouge cyan** change la [vue 3D](3D_view/fr.md) active
 
 ## Utilisation
 
-1.  Sélectionnez l\'option {{MenuCommand|Affichage → Stéréo → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stéréo rouge cyan}} dans le menu.
+1.  Sélectionnez l\'option **Affichage → Stéréo → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stéréo rouge cyan** dans le menu.
 
 ## Préférences
 
--   La distance entre les yeux peut être modifiée dans les préférences: {{MenuCommand|Édition → Préférences... → Affichage → Vue 3D → Eye to eye distance for stereo modes}}. Voir l\'[Editeur de préférences](Preferences_Editor#3D_View/fr.md).
+-   La distance entre les yeux peut être modifiée dans les préférences: **Édition → Préférences... → Affichage → Vue 3D → Eye to eye distance for stereo modes**. Voir l\'[Editeur de préférences](Preferences_Editor#3D_View/fr.md).
 
 ## Script
 

@@ -38,7 +38,7 @@ I modelli sono file [SVG](SVG/it.md) che possono essere creati e modificati al d
 
 </div>
 
-## Changing Template File {#changing_template_file}
+## Changing Template File 
 
 To change the template of a drawing
 
@@ -52,7 +52,7 @@ The new file will be opened directly.
 
 When you want to update a changed template file note that you have to load another file before you can select the same file again. This is because the selection of the same file is ignored.
 
-## Modelli personalizzati {#modelli_personalizzati}
+## Modelli personalizzati 
 
 In FreeCAD è incluso un numero limitato di modelli preformattati in vari formati di pagine standard. Questi si trovano in
 

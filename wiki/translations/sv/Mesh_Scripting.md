@@ -23,7 +23,7 @@ import Mesh
 
 <div class="mw-translate-fuzzy">
 
-### Skapande och laddning {#skapande_och_laddning}
+### Skapande och laddning 
 
 För att skapa ett tomt nätobjekt använd standardkonstruktören:
 

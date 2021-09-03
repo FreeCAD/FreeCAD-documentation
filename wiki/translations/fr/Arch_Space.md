@@ -25,7 +25,7 @@ L\'outil Espace vous permet de définir un volume vide, soit en le basant sur un
 2.  Lancez la commande Arch Espace en utilisant plusieurs méthodes:
     -   En appuyant sur le bouton **<img src="images/Arch_Space.svg" width=16px> [Crée un objet dans l'espace...](Arch_Space/fr.md)** dans la barre d\'outils.
     -   En utilisant les touches **S** puis **P**
-    -   En utilisant l\'entrée {{MenuCommand|Arch → Espace}} dans le menu supérieur
+    -   En utilisant l\'entrée **Arch → Espace** dans le menu supérieur
 
 ### Limites
 

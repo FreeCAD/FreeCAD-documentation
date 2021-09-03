@@ -16,7 +16,7 @@ Ad esempio, un bullone, una ranella e un dado sono tre corpi separati che, quand
 
 ## Utilizzo
 
-### Assemblaggio manuale {#assemblaggio_manuale}
+### Assemblaggio manuale 
 
 In termini generali, non c\'è bisogno di strumenti particolari per creare assemblaggi; è sufficiente avere diversi [corpi](Body/it.md) organizzati in qualche maniera.
 
@@ -36,7 +36,7 @@ Si può usare uno degli [ambienti complementari](External_workbenches/it.md) pse
 
 In generale, l\'oggetto <img alt="" src=images/Std_Part.svg  style="width:16px;"> [Parte](Std_Part/it.md) era progettato per servire come blocco costruttivo basilare per creare assemblaggi. Questo oggetto è usato per raggruppare insieme diversi [corpi](Body/it.md) e muoverli insieme come un\'unità, ovvero come un sotto-asseblaggio. Successivamente questo sotto-assemblaggio può essere posto vicino a un altro sotto-assemblaggio (o usato al suo interno) in modo da creare l\'assemblaggio finale.
 
-### Assemblaggio regolamentato {#assemblaggio_regolamentato}
+### Assemblaggio regolamentato 
 
 È possibile usare un ambiente dedicato all\'assemblaggio, come <img alt="" src=images/A2p_workbench.svg  style="width:16px;"> [A2plus](A2plus_Workbench/it.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench/it.md), o <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:16px;"> [Assembly4](Assembly4_Workbench/it.md). Si noti che [Assembly2](Assembly2_Workbench/it.md) non è mantenuto; il suo uso è fortemente sconsigliato per i nuovi modelli.
 

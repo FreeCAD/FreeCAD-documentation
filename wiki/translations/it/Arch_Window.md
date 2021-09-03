@@ -19,7 +19,7 @@ Tutte le informazioni applicabili alle [finestre](Arch_Window/it.md) si applican
 
 ## Utilizzo
 
-### Utilizzare i modelli preimpostati {#utilizzare_i_modelli_preimpostati}
+### Utilizzare i modelli preimpostati 
 
 1.  Premere il pulsante **<img src="images/Arch_Window.svg" width=16px> [Finestra](Arch_Window/it.md)** , oppure i tasti **W** e poi **I**.
 2.  Selezionare uno dei preset nella lista.
@@ -43,7 +43,7 @@ La `$ROOT_DIR` è la directory dell\'utente in cui sono archiviati la configuraz
 -   Su Windows di solito è `C:\Users\username\Application Data\FreeCAD\`
 -   Su Mac OSX di solito è `/Users/username/Library/Preferences/FreeCAD/`
 
-### Creare dall\'inizio {#creare_dallinizio}
+### Creare dall\'inizio 
 
 1.  Opzionalmente, selezionare una faccia sull\'oggetto Arch in cui si desidera inserire la finestra.
 2.  Passare nell\'ambiente [Sketcher](Sketcher_Workbench/it.md).
@@ -65,7 +65,7 @@ Sono disponibili i seguenti modelli preimpostati:
 
 Image:ParametersDoorGlass.svg\|Glass door Image:ParametersDoorSimple.svg\|Simple door Image:ParametersWindowDouble.svg\|Double-opening window Image:ParametersWindowFixed.svg\|Fixed window Image:ParametersWindowSimple.svg\|Single-opening window Image:ParametersWindowStash.svg\|Sash-opening window
 
-## Creare i componenti {#creare_i_componenti}
+## Creare i componenti 
 
 La finestra può includere 3 tipi di componenti: i pannelli, le cornici e le persiane.
 
@@ -115,7 +115,7 @@ Le porte e le finestre possono apparire parzialmente o completamente aperte nel 
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
 *Una porta che mostra da sinistra a destra  come lavorano le proprietà Symbol Plan, Symbol Elevation e Opening*
 
-## Defining window types {#defining_window_types}
+## Defining window types 
 
 Windows can also take advantage of other tools, specifically [PartDesign](PartDesign_Workbench.md) workflows, to define a type. A type is an object that defines the shape of the window. This is specially well suited to work with [App Parts](App_Part.md):
 
@@ -123,7 +123,7 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
 
 [Download the example file shown above](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
 
-### Example workflow {#example_workflow}
+### Example workflow 
 
 -   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part.md) or [PartDesign](PartDesign_Workbench.md) tools.
 -   For example, create a base rectangular sketch for your window, then a profile sketch for the frame, and create a [Part Sweep](Part_Sweep.md) to sweep the profile around the base sketch. Create a [Part Offset2D](Part_Offset2D.md) from the base sketch, then a [Part Extrude](Part_Extrude.md) to create the glass panel

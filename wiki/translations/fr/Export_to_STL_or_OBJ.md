@@ -13,7 +13,7 @@
 
 Dans ce tutoriel, nous allons découvrir comment exporter les fichiers de FreeCAD au formats STL/OBJ. Les formats de maillage STL/OBJ n\'ont aucune dimension. L\'exportation par FreeCAD supposera que l\'unité utilisée dans le modèle est exprimée en mm. Si cela n\'est pas le cas, vous devrez convertir votre projet en mm. Une façon de faire est d\'utiliser <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> [Draft Échelle](Draft_Scale/fr.md).
 
-## Faire un test {#faire_un_test}
+## Faire un test 
 
 Vous pouvez utiliser votre propre fichier FreeCAD, mais vous pouvez aussi créer un fichier test
 
@@ -26,13 +26,13 @@ Vous pouvez utiliser votre propre fichier FreeCAD, mais vous pouvez aussi créer
 -   Créer une fusion avec les deux éléments <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Part Union](Part_Fuse/fr.md)
 -   Sauvegarder votre fichier.
 
-## Méthode d\'exportation 1: Utilisation de \"Fichier → Exporter\" {#méthode_dexportation_1_utilisation_de_fichier_exporter}
+## Méthode d\'exportation 1: Utilisation de \"Fichier → Exporter\" 
 
 -   Sélectionnez le solide à exporter dans la vue arborescente.
 -   Choisissez **Fichier** → **Exporter...** et définissez le type de fichier sur \"STL mesh (\*.stl \*.ast)\".
 -   Entrez votre nom de fichier. L\'extension par défaut est \".stl\". Vous devez inclure l\'extension \".ast\" dans le nom du fichier pour générer un fichier .ast. Choisissez **Sauvegarder**.
 
-## Méthode d\'exportation 2: Utiliser l\'atelier Mesh dans FreeCAD {#méthode_dexportation_2_utiliser_latelier_mesh_dans_freecad}
+## Méthode d\'exportation 2: Utiliser l\'atelier Mesh dans FreeCAD 
 
 -   Basculez vers le <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Atelier Mesh](Mesh_Workbench/fr.md).
 -   Sélectionnez le solide à mailler dans la vue arborescente.
@@ -44,7 +44,7 @@ Vous pouvez utiliser votre propre fichier FreeCAD, mais vous pouvez aussi créer
 -   Le type de fichier par défaut est un \"Binary STL (\*.stl)\". Changez le type si vous le souhaitez.
 -   Choisissez **Sauvegarder**.
 
-## Quelle méthode choisir? {#quelle_méthode_choisir}
+## Quelle méthode choisir? 
 
 La méthode 2 doit être préférée. Parmi les raisons:
 

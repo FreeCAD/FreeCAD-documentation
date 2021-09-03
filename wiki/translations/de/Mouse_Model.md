@@ -19,7 +19,7 @@ Es gibt zwei Möglichkeiten, um den Navigationsstil zu ändern:
 -   Im [Voreinstellungseditor](Preferences_Editor/de#Navigation.md); Menü {{MenuCommand/de|Bearbeiten → Einstellungen → Anzeige → Navigation → 3D Navigation}}.
 -   Durch Rechtsklick in den leeren Bereich in der 3D Ansicht, dann Auswahl von {{MenuCommand/de|Navigationsstile}} im Kontextmenü.
 
-### CAD Navigation {#cad_navigation}
+### CAD Navigation 
 
 Dies ist der Standard Navigationsstil. Er ermöglicht dem Benutzer eine einfache Steuerung der Ansicht und erfordert keine Verwendung von Tastaturtasten, außer um Mehrfachauswahlen zu treffen.
 
@@ -54,7 +54,7 @@ Mit dieser Methode kann die mittlere Maustaste losgelassen werden, nachdem die r
 Anwender, die die Maus mit der rechten Hand benutzen, finden diese Methode möglicherweise einfacher als die erste Methode.
 }}
 
-### OpenInventor Navigation {#openinventor_navigation}
+### OpenInventor Navigation 
 
 Die OpenInventor Navigation (ehemals Inventor) wurde nach dem Vorbild von [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) gestaltet. Um Objekte auszuwählen, muss du die **Strg** Taste gedrückt halten.
 
@@ -75,7 +75,7 @@ Alternativ halte die mittlere Maustaste, dann drücke und halte die linke Mausta
 |Rotate_view_text=Halte die linke Maustaste, dann bewege den Mauszeiger.
 }}
 
-### Blender Navigation {#blender_navigation}
+### Blender Navigation 
 
 Der Blender Navigationsstil wurde nach [Blender](https://www.blender.org) gestaltet. Zuvor gab es kein reines Schwenken mit der Maus; es erforderte immer die **Shift** Taste gedrückt zu halten. Dies änderte sich 2016, jetzt kannst du zum Schwenken sowohl die linke als auch die rechte Maustaste gedrückt halten. {{Blender Navigation
 |Select_name=Auswählen
@@ -91,7 +91,7 @@ Alternativ kann auch die linke und rechte Maustaste gedrückt gehalten und der M
 |Rotate_view_text=Halte die mittlere Maustaste gedrückt und bewege den Mauszeiger.
 }}
 
-### Touchpad Navigation {#touchpad_navigation}
+### Touchpad Navigation 
 
 In der Touchpad-Navigation erfordern das Schwenken, Zoomen und Drehen der Ansicht eine Modifizierungstaste zusammen mit dem Touchpad. {{Touchpad Navigation
 |Select_name=Auswählen
@@ -137,10 +137,10 @@ Im [Skizzierer](Sketcher_Workbench/de.md) die **Alt**-Taste halten.
 |Tilt_view_text=Die linke und rechte Maustaste halten und den Mauszeiger seitwärts bewegen. 
 |Tilt_view_gesture_text=Die imaginäre Linie rotieren, die durch zwei Berührungspunkte gebildet wird.
 
-In der Version 0.18 ist diese Methode per Voreinstellung deaktiviert. Im {{MenuCommand|Bearbeiten → Einstellungen → Anzeige}}, das Häckchen bei "Deaktiviere die Touchscreen Neige Geste" entfernen, um sie zu aktivieren.
+In der Version 0.18 ist diese Methode per Voreinstellung deaktiviert. Im **Bearbeiten → Einstellungen → Anzeige**, das Häckchen bei "Deaktiviere die Touchscreen Neige Geste" entfernen, um sie zu aktivieren.
 }}
 
-### Maya-Gestennavigation {#maya_gestennavigation}
+### Maya-Gestennavigation 
 
 In der Maya-Gestennavigation werden Schwenken, Zoomen und Drehen durch Drücken der **ALT**- und einer Maustaste aktiviert. Daher wird eine 3-Tasten-Maus benötigt. Es ist auch möglich, Gesten zu verwenden, da dieser Modus über den [Gestennavigationsmodus](#Gestennavigation.md) entwickelt wurde. {{MayaGesture Navigation
 |Select_name=Auswählen
@@ -156,7 +156,7 @@ Oder mit dem Mausrad hinein- oder hinauszoomen.
 |Rotate_view_text=Die **Alt**-Taste und die linke Maustaste halten und den Mauszeiger bewegen.
 }}
 
-### Revit Navigation {#revit_navigation}
+### Revit Navigation 
 
 Dieser Stil wurde in Version 0.18 eingeführt.
 
@@ -197,9 +197,9 @@ Oder die **Strg**-Taste und die linke Maustaste halten und den Mauszeiger bewege
 |Rotate_view_text=Die **Strg**- und die rechte Maustaste drücken und den Mauszeiger bewegen.
 }}
 
-## Objekte anwählen {#objekte_anwählen}
+## Objekte anwählen 
 
-### Einfache Auswahl {#einfache_auswahl}
+### Einfache Auswahl 
 
 Objekte können mit einem Linksklick auf das Objekt in der [3D Ansicht](3D_view/de.md) oder durch die Auswahl in der [Baumansicht](tree_view/de.md) gewählt werden.
 
@@ -207,15 +207,15 @@ Objekte können mit einem Linksklick auf das Objekt in der [3D Ansicht](3D_view/
 
 Es gibt auch einen sogenannten \"Vorauswahl\"mechanismus, der Objekte hervorhebt und Informationen anzeigt bevor sie ausgewählt werden, wenn mit der Maus über das Objekt gefahren wird. Falls dieses Verhalten nicht gewünscht ist oder der Rechner langsam ist, können dies in den Einstellungen abgeschaltet werden.
 
-## Objekte Manipulieren {#objekte_manipulieren}
+## Objekte Manipulieren 
 
 FreeCAD bietet [*manipulators*](Manipulator/de.md), die benutzt werden können, um ein Objekt, oder aber seine Optische Erscheinung zu verändern. Ein einfaches Beispiel ist die Schnittebene- ;engl.
 
-## Hardware support {#hardware_support}
+## Hardware support 
 
 FreeCAD unterstützt auch einige [3D Eingabegeräte](3D_input_devices/de.md).
 
-## Mac OS X Probleme {#mac_os_x_probleme}
+## Mac OS X Probleme 
 
 Vor kurzem erhielten wir Berichte von Mac Anwendern [im Forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0), dass diese Maustaste und Tastenkombination nicht wie erwartet funktionieren. Leider besitzt keiner der Entwickler einen Mac, ebenso wenig wie die anderen regelmäßigen Mitwirkenden. Wir benötigen Eure Hilfe, um festzustellen, welche Maustasten und Tastenkombinationen funktionieren, damit wir dieses Wiki aktualisieren können.
 

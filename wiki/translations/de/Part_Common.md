@@ -19,7 +19,7 @@ Extrahiert den gemeinsamen Teil (Schnittmenge) zwischen ausgewählten Teilobjekt
 1.  Wähle zwei Formen
 2.  Drücke die **![](images/)_[Gemeinsam](Part_Common/de.md)** Schaltfläche.
 
-### Unterstützte Eingaben {#unterstützte_eingaben}
+### Unterstützte Eingaben 
 
 Eingabeobjekte müssen [OpenCascade ](OpenCascade/de.md) Formen sein. Beispiele: Dinge, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurde. Keine Polygonnetze (es sei denn, diese wurden in Formen konvertiert) - für Polygonnetze gibt es gesonderte boolesche Werkzeuge im Netzkonstruktionsarbeitsbereich.
 

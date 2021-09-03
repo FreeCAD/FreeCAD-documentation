@@ -25,12 +25,12 @@ As stated above, this tool takes two arguments - both are points.
 1.  First, it is necessary to highlight two distinct points. (**Note:** this will not work if, for example, you attempt to select the start and end point of the same straight line; selecting the start and end points of an arc will produce a closed circle or ellipse but will constrain the location of the seam to be on that point).
 2.  Highlighting of a drawing item is achieved by moving the mouse over the item and clicking the left-mouse-button.
 3.  It is also possible to highlight all items inside a rectangle by clicking and dragging. When dragging from left to right (with any vertical motion), only the shapes which are entirely contained within the rectangle will be highlighted; in the other direction all shapes which intersect with the selection rectangle will be highlighted. This can be used to select only the vertices without selecting the edges, by dragging a small recangle around some vertices from left to right, as long as there are no edges which are fully contained within the rectangle.
-4.  A highlighted item will change its color to green. (This color can be customized in {{MenuCommand|Editing → Preference → Display → Colors → Selection}})
+4.  A highlighted item will change its color to green. (This color can be customized in **Editing → Preference → Display → Colors → Selection**)
 5.  Subsequent items can be highlighted by repeating the above procedure(s). **Note:** it\'s unnecessary to hold-down any special key like **Ctrl** to achieve multiple item selection in a drawing.
 6.  Once you have two points highlighted, you can invoke the command using several methods:
     -   Pressing on the **<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Coinstrain coincident](Sketcher_ConstrainCoincident.md)** constraint button in the toolbar.
     -   Using the **C** keyboard shortcut.
-    -   Using the {{MenuCommand|Sketch → Sketcher constraints → Constrain coincident}} entry in the top menu.
+    -   Using the **Sketch → Sketcher constraints → Constrain coincident** entry in the top menu.
 
 
 **Result:**
@@ -42,7 +42,7 @@ the command will cause the two points to become *coincident* and be replaced by 
 
 In order to make two points coincident, FreeCAD must out of necessity move one (or both) of the original points.
 
-## Alternatives to Coincident constraint {#alternatives_to_coincident_constraint}
+## Alternatives to Coincident constraint 
 
 The two constrained items of a [Coincident](Sketcher_ConstrainCoincident.md) constraint must be start point or end point vertices, or center points of arcs, circles or ellipses. Some combinations which are not possible with a coincident constraint can be emulated using other constraints:
 

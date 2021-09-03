@@ -23,7 +23,7 @@ A **View** object is added to the **Page** object in the Project tree. For subse
 
 If only the object is selected in the Project Tree, the view is added to the first page of the project. If you have multiple pages in your project please select the object and the page it should be added to. Then click on the icon to add the view to the selected page.
 
-### Modify an existing view {#modify_an_existing_view}
+### Modify an existing view 
 
 Unfold the Page object in the Project tree, and select the View. Its parameters can be edited in the Property View Data tab.
 
@@ -38,7 +38,7 @@ Unfold the Page object in the Project tree, and select the View. Its parameters 
 -   **Show Hidden Lines**: toggles the hidden lines visibility on or off by selecting *True* or *False*.
 -   **Show Smooth Lines**: toggles the smooth lines visibility on or off by selecting *True* or *False*. Smooth lines are also called tangency edges. These edges indicate surface changes between tangent surfaces.
 
-### Drawing View Wizard {#drawing_view_wizard}
+### Drawing View Wizard 
 
 To generate a drawing sheet with standard views automatically, use the [Automatic drawing Macro](Macro_Automatic_drawing.md). 
 

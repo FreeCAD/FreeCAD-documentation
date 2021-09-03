@@ -24,7 +24,7 @@ Installation is comprised of copying the two code to the appropriate Macro direc
 
 Select an object, then click on the associated toolbar button, or invoke from the Macro menu. The Drawstyle of the slected object will toggle between the two drawstyles specified in the macro code (see code listing below). **Note**: The specification for each Drawstyle is listed in the code, by modifying the code (which is documented in the macro code) the user may select which 2 Drawstyles are toggled between.
 
-## User Interface {#user_interface}
+## User Interface 
 
 The selected object will be redrawn in the other drawstyle specified in the macro.
 

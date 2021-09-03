@@ -18,7 +18,7 @@ Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDra
 
 ![](images/Draft_Shape2DView_example.jpg ) *Projection of solid shapes onto the XY plane*
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -31,7 +31,7 @@ Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDra
 
 </div>
 
-## How to produce plans and sections with different linewidths {#how_to_produce_plans_and_sections_with_different_linewidths}
+## How to produce plans and sections with different linewidths 
 
 <img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 
@@ -82,7 +82,7 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

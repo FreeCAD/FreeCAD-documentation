@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Visão geral {#visão_geral}
+## Visão geral 
 
 
 <div class="mw-translate-fuzzy">
@@ -86,12 +86,12 @@ na função main(). Alternativamente, se você tiver uma imagem no formato XPM v
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Branding XML {#branding_xml}
+### Branding XML 
 
 
 <div class="mw-translate-fuzzy">
 
-### Branding XML {#branding_xml_1}
+### Branding XML 
 
 No FreeCAD há também outro método suportado que não utiliza uma função main() personalizada. Para este método você deve escrever um nome de arquivo chamado {{FileName|branding.xml}} e colocá-lo no diretório de instalação do FreeCAD. Aqui está um exemplo com todas as tags suportadas:
 

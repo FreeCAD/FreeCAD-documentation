@@ -35,7 +35,7 @@ The Path Slot object is made to be part of a <img alt="" src=images/Path_Job.svg
 
 1.  Adjust the desired properties. Descriptions of available properties are found below.
 
-#### Usage Notes {#usage_notes}
+#### Usage Notes 
 
 -   All slots:
     -   Both the beginning and end of a slot path can be extended or shortened. Use the \Extend Path Start\ and \Extend Path End\ properties.
@@ -168,7 +168,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Reverse Direction**: Enable to reverse the cut direction of the slot path.
 
-#### Start Point {#start_point}
+#### Start Point 
 
 -    **Start Point**: The custom start point for the path of this operation.
 
@@ -189,11 +189,11 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Use Start Point**: Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
 
-## Tasks Window Editor Layout {#tasks_window_editor_layout}
+## Tasks Window Editor Layout 
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Geometry {#base_geometry}
+#### Base Geometry 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: delete the selected item(s) in the Base Geometry list

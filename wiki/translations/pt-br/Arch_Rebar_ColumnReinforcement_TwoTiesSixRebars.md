@@ -13,7 +13,7 @@ The [Column Reinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTi
 
 The [Column Reinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width:400px;">
 
@@ -100,7 +100,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 The ColumnReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
-### Create Two Ties Six Rebars {#create_two_ties_six_rebars}
+### Create Two Ties Six Rebars 
 
 
 ```python
@@ -258,7 +258,7 @@ RebarGroup = TwoTiesSixRebars.makeTwoTiesSixRebars(
 
 ```
 
-### Edition of Two Ties Six Rebars {#edition_of_two_ties_six_rebars}
+### Edition of Two Ties Six Rebars 
 
 You can change the properties of the ties and rebars with the following function
 
@@ -297,7 +297,7 @@ rebar_group = editTwoTiesSixRebars(
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
-#### Exemplo {#exemplo_1}
+#### Exemplo 
 
 
 ```python

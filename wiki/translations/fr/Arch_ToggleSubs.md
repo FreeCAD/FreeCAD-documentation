@@ -28,13 +28,14 @@ Avec cet outil, les objets soustraits internes deviendront tous visibles ou masq
 ## Utilisation
 
 1.  Sélectionnez un objet Arch qui contient des soustractions
-2.  Sélectionnez menu {{MenuCommand|Arch → Utilitaires → <img src="images/Arch_ToggleSubcomponentDisplay‏‎.png" width=16px> [Afficher/Cacher les sous composants](Arch_ToggleSubs‏‎/fr.md)}}
+2.  Sélectionnez menu **Arch → Utilitaires → <img src="images/Arch_ToggleSubcomponentDisplay‏‎.png" width=16px> [Afficher/Cacher les sous composants](Arch_ToggleSubs‏‎/fr.md)
+**
 
 ## Options
 
-La couleur d\'un élément de soustraction peut suivre le style des éléments [Draft Construction](Draft_ToggleConstructionMode.md), en activant l\'option appropriée dans les [Arch Préférences](Arch_Preferences/fr.md), dans le menu {{MenuCommand|Edition → Préférences → Arch → Paramètres généraux → Appliquer le style de construction aux sous-composants}}.
+La couleur d\'un élément de soustraction peut suivre le style des éléments [Draft Construction](Draft_ToggleConstructionMode.md), en activant l\'option appropriée dans les [Arch Préférences](Arch_Preferences/fr.md), dans le menu **Edition → Préférences → Arch → Paramètres généraux → Appliquer le style de construction aux sous-composants**.
 
-Le style de [Draft Basculer en mode construction](Draft_ToggleConstructionMode/fr.md) peut être défini dans les [Draft Préférences](Draft_Preferences/fr.md) dans le menu {{MenuCommand|Préférences → Draft → Paramètres généraux}}.
+Le style de [Draft Basculer en mode construction](Draft_ToggleConstructionMode/fr.md) peut être défini dans les [Draft Préférences](Draft_Preferences/fr.md) dans le menu **Préférences → Draft → Paramètres généraux**.
 
 
 <div class="mw-translate-fuzzy">

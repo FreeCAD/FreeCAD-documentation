@@ -1,6 +1,6 @@
  {{TOCright}}
 
-## Vue d\'ensemble {#vue_densemble}
+## Vue d\'ensemble 
 
 Il est possible de définir des propriétés à l\'aide d\'expressions mathématiques. Dans l\'interface graphique, les zones de sélection numérique ou les champs de saisie liés aux propriétés contiennent une icône bleue <img alt="" src=images/Sketcher_Expressions.png  style="width:24px;">. Cliquez sur l\'icône ou tapez le signe égal **&#61;** pour ouvrir l\'éditeur d\'expression pour cette propriété particulière.
 
@@ -12,13 +12,13 @@ Les opérateurs et fonctions reconnaissent les unités de mesure et nécessitent
 
 Vous pouvez utiliser des [constantes prédéfinies](#Constantes_prises_en_charge.md) et des [fonctions](#Fonctions_support.C3.A9es.md).
 
-### Arguments de la fonction {#arguments_de_la_fonction}
+### Arguments de la fonction 
 
 Lorsqu\'une fonction prend plusieurs arguments, ceux-ci peuvent être séparés par un point-virgule suivie par un espace `, `. Dans ce derniers cas, la virgule est convertie en point-virgule après la saisie. Quand on utilise un point-virgule, il n\'est pas nécessaire de finir la ligne par un espace.
 
 Les arguments peuvent inclure des références à des cellules dans une feuille de calcul. Une référence de cellule se compose de la lettre en majuscule de la ligne de la cellule suivie de son numéro de colonne, par exemple `A1`. Une cellule peut également être référencée en utilisant l\'alias de la cellule, par exemple `Spreadsheet.MyPartWidth`.
 
-### Référencement d\'objets {#référencement_dobjets}
+### Référencement d\'objets 
 
 Vous pouvez faire référence à un objet par sa {{PropertyData/fr|Name}} ou sa {{PropertyData/fr|Label}}. Dans le cas d\'une {{PropertyData/fr|Label}}, vous devez l\'entourer de double symboles `<<` et `>>`, comme ceci `<<Label>>`.
 
@@ -29,7 +29,7 @@ Pour référencer des objets de liste, utilisez `<<object_label>>.list[list_inde
 
 Pour plus d\'informations sur le référencement des objets, voir [Référence aux données CAO](#R.C3.A9f.C3.A9rence_aux_donn.C3.A9es_CAO.md).
 
-## Constantes prises en charge {#constantes_prises_en_charge}
+## Constantes prises en charge 
 
 Les constantes suivantes sont supportées:
 
@@ -38,7 +38,7 @@ Les constantes suivantes sont supportées:
   **e**       [nombre d\'Euler](https://fr.wikipedia.org/wiki/E_(nombre))
   **pi**      [Pi](https://fr.wikipedia.org/wiki/Pi)
 
-## Opérateurs pris en charge {#opérateurs_pris_en_charge}
+## Opérateurs pris en charge 
 
 Les opérations suivantes sont supportées:
 
@@ -51,9 +51,9 @@ Les opérations suivantes sont supportées:
   **%**       [Reste](https://fr.wikipedia.org/wiki/Reste)
   **\^**      [Exponentiation](https://fr.wikipedia.org/wiki/Exponentiation)
 
-## Fonctions supportées {#fonctions_supportées}
+## Fonctions supportées 
 
-### Fonctions mathématiques générales {#fonctions_mathématiques_générales}
+### Fonctions mathématiques générales 
 
 Les fonctions mathématiques suivantes sont disponibles.
 
@@ -94,7 +94,7 @@ Ces fonctions d\'arrondi, de troncature et de reste sont supportées:
   round(x)    [Arrondi](https://fr.wikipedia.org/wiki/Arrondi_(math%C3%A9matiques)) au nombre entier le plus proche                                                                                       tout
   trunc(x)    [Troncature](https://fr.wikipedia.org/wiki/Troncature) au nombre entier le plus proche en direction de zéro                                                                                 tout
 
-### Statistiques et fonctions d\'agrégation {#statistiques_et_fonctions_dagrégation}
+### Statistiques et fonctions d\'agrégation 
 
 [Les fonctions d\'agrégation](https://fr.wikipedia.org/wiki/Fonction_d%27agr%C3%A9gation) prennent un ou plusieurs arguments.
 Les arguments individuels pour agréger les fonctions peuvent être constitués de plages de cellules. Une plage de cellules est exprimée sous la forme de deux références de cellule séparées par deux points {{Incode|:}}, par exemple {{Incode|average(B1:B8)}} ou {{Incode|sum(A1:A4; B1:B4)}}. Les références de cellule peuvent également utiliser des alias de cellule, par exemple {{Incode|average(StartTemp:EndTemp)}} {{Version/fr|0.19}}.
@@ -110,21 +110,21 @@ Les fonctions cumulatives supportées sont
   stddev(a; b; c; \...)    [Écart type](https://fr.wikipedia.org/wiki/%C3%89cart_type) des valeurs des arguments                                                            tout
   sum(a; b; c; \...)       [Somme](https://fr.wikipedia.org/wiki/Somme_(arithm%C3%A9tique)) des valeurs des arguments; généralement utilisé pour les plages de cellules     tout
 
-### Manipulation de chaînes de caractères {#manipulation_de_chaînes_de_caractères}
+### Manipulation de chaînes de caractères 
 
-#### Identification de la chaîne caractères {#identification_de_la_chaîne_caractères}
+#### Identification de la chaîne caractères 
 
 Les chaînes de caractères sont identifiées dans les expressions en les entourant de doubles chevrons ouvrants/fermants (comme les étiquettes).
 
 Dans l\'exemple suivant, \"TEXT\" est reconnu comme une chaîne de caractères : `<<TEXT>>`.
 
-#### Concaténation de chaînes de caractères {#concaténation_de_chaînes_de_caractères}
+#### Concaténation de chaînes de caractères 
 
 Les chaînes de caractères peuvent être concaténées à l\'aide du signe \'+\'.
 
 L\'exemple suivant `<<MY>> + <<TEXT>>` sera concaténé en \"MYTEXT\".
 
-#### Formatage des chaînes de caractères {#formatage_des_chaînes_de_caractères}
+#### Formatage des chaînes de caractères 
 
 Le formatage des chaînes de caractères est pris en charge en utilisant le (vieux) style % de Python.
 
@@ -136,7 +136,7 @@ Une limitation est qu\'un seul spécificateur % est autorisé dans une chaîne, 
 
 Un exemple de fichier FreeCAD utilisant le formatage des chaînes de caractères est disponible [dans le forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657).
 
-## Expressions conditionnelles {#expressions_conditionnelles}
+## Expressions conditionnelles 
 
 Les expressions conditionnelles sont de la forme `condition ? resultTrue : resultFalse`. (*condition ? résultat si VRAI : résultat si FAUX*). La condition est définie comme une expression dont le résultat est `0` (faux) ou différent de zéro (vrai). Remarquez que le fait de mettre l\'expression conditionnelle entre parenthèses est actuellement considéré comme une erreur. {{VersionMinus/fr|0.19}}
 
@@ -405,7 +405,7 @@ Les unités couramment utilisées suivantes ne sont pas encore prises en charge:
   lx      [Lux](https://fr.wikipedia.org/wiki/Lux_(unit%C3%A9))                                                                                       Pas directement
   px      [Pixel](https://fr.wikipedia.org/wiki/Pixel)                                                                                                Pas directement
 
-## Caractères et noms non valides {#caractères_et_noms_non_valides}
+## Caractères et noms non valides 
 
 La fonction expression est très puissante mais pour atteindre cette puissance, elle présente certaines limitations concernant certains caractères. Pour surmonter cela, FreeCAD propose d\'utiliser des étiquettes et de les référencer à la place des noms d\'objets. Dans les étiquettes, vous pouvez utiliser presque tous les caractères spéciaux.
 
@@ -443,11 +443,11 @@ Par exemple, le nom suivant est valide: `<<Sketch>>.Constraints.T2üßµ@`, alor
 
 **Remarque:** puisque des noms plus courts (surtout s\'ils n\'ont qu\'un ou deux caractères) peuvent facilement entraîner des noms invalides, envisagez d\'utiliser des noms plus longs et/ou d\'établir une convention de dénomination appropriée.
 
-### Cell aliases {#cell_aliases}
+### Cell aliases 
 
 For [spreadsheet cell aliases](Spreadsheet_SetAlias.md) only alphanumeric characters and underscores (`A` to `Z`, `a` to `z`, `0` to `9` and `_`) are allowed.
 
-## Référence aux données CAO {#référence_aux_données_cao}
+## Référence aux données CAO 
 
 Il est possible d\'utiliser les données du modèle lui-même dans une expression. Pour référencer une propriété, utilisez `object.property`. Si la propriété est un composé de champs, les champs individuels sont accessibles en tant que `object.property.field`.
 
@@ -493,11 +493,11 @@ Le tableau suivant montre quelques exemples :
 |                                                          |                                    |                                                                                                                                                                                                           |
 +----------------------------------------------------------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## Variables globales {#variables_globales}
+## Variables globales 
 
 Pour le moment il n\'y a pas de notion de variables globales dans FreeCAD. Mais des variables arbitraires peuvent être définies comme des cellules dans une feuille de calcul en utilisant [l\'atelier Spreadsheet](Spreadsheet_Workbench/fr.md), auquelles on aura donné un nom en utilisant l\'alias de la propriété pour la cellule utilisée (clic-droit dans la cellule). Ainsi, elles peuvent être accessibles à partir de toute expression comme toute autre propriété de l\'objet.
 
-## Liaison entre documents {#liaison_entre_documents}
+## Liaison entre documents 
 
 Il est possible (avec limitations) de définir une propriété d\'un objet dans votre document actuel (fichier \".FCstd\") en utilisant une expression pour référencer une propriété d\'un objet contenu dans un autre document (fichier \".FCstd\"). Par exemple, une cellule dans une feuille de calcul ou la {{PropertyData/fr|Length}} d\'un cube de pièce, etc. dans un document peut être définie par une expression faisant référence à la valeur de placement X ou à une autre propriété d\'un objet contenu dans un autre document.
 
@@ -514,7 +514,7 @@ Malheureusement, le vérificateur intégré suppose parfois qu'aucun nom valide 
 
 Bien sûr, vous pouvez charger les documents correspondants à tout moment pour y faire les modifications que vous voudrez.
 
-## Problèmes connus / tâches restantes {#problèmes_connus_tâches_restantes}
+## Problèmes connus / tâches restantes 
 
 -   Le graphe de dépendance est basé sur la relation entre les objets et le document, et non sur les propriétés. Cela signifie que vous ne pouvez pas renseigner et interroger le même objet, par exemple dans une feuille de calcul, même si il n\'y a pas de dépendance cyclique si l\'on considère seulement les propriétés, vous ne pouvez pas avoir d\'objet dont les dimensions proviennent de la feuille de calcul et calculer son volume dans la même feuille de calcul. Pour contourner le problème, utilisez plusieurs feuilles de calcul, l\'un pour contrôler votre modèle et l\'autre pour faire des rapports.
 -   L\'analyseur syntaxique d\'expressions ne gère pas bien les parenthèses et n\'est pas capable d\'analyser correctement certaines expressions. Par exemple : `<nowiki>=</nowiki> (A1 > A2) ? 1 : 0` donne une erreur, alors que `<nowiki>=</nowiki> A1 > A2 ? 1 : 0` est accepté. L\'expression `<nowiki>=</nowiki> 5 + ((A1>A2) ? 1 : 0)` va contrarier l\'analyseur syntaxique dans tous les cas.

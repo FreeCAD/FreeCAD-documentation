@@ -2,7 +2,7 @@
 
 This wiki page will document various aspect of running FreeCAD in the console without enabling the GUI (Graphical User Interface) or what is called \'headless\'.
 
-## Scenegraph Representation {#scenegraph_representation}
+## Scenegraph Representation 
 
 As it\'s not possible to create or access the [view provider](Viewprovider.md) in headless mode. What\'s possible is to load `FreeCADGui` in headless mode but there is no way to access the GUI document because it won\'t be created and consequently there exist no view providers.
 
@@ -25,7 +25,7 @@ view = Gui.subgraphFromObject(obj)
 
 ## Examples
 
-### Searching FreeCAD Modules {#searching_freecad_modules}
+### Searching FreeCAD Modules 
 
 1.  Open the terminal
 

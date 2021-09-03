@@ -95,7 +95,7 @@ The Spreadsheet workbench makes spreadsheets, think OpenOffice, Excel\.... Compa
 -   Example Files:
     -   **[workbench\_examples/SpreadSheet\_part.txt · master · Russell Hensel / FreeCadTest · GitLab](https://gitlab.com/russhensel/freecadtest/-/blob/master/workbench_examples/SpreadSheet_part.txt)** This is the link to the documentation \*.txt file ( which can be read directly on gitlab ), the FreeCad file has the same name, in the same directory, with the FCStd extension.
 
-# MeshDesign Workbench {#meshdesign_workbench}
+# MeshDesign Workbench 
 
 -   Overview:
 
@@ -112,11 +112,11 @@ This workbench can transform other FreeCad parts into meshes ( the sort of part 
 -   Example Files:
     -   **[Edit · FWE Mesh from Part · Wiki · Russell Hensel / FreeCadTest · GitLab](https://gitlab.com/russhensel/freecadtest/-/wikis/FWE-Mesh-from-Part/edit)** This is the link to the documentation \*.txt file ( which can be read directly on gitlab ), the FreeCad file has the same name, in the same directory, with the FCStd extension.
 
-# ManyMore WorkBenches to Go {#manymore_workbenches_to_go}
+# ManyMore WorkBenches to Go 
 
 -   This is a nontrivial effort, is there community interest to continue.
 
-# More General Links {#more_general_links}
+# More General Links 
 
 -   [Workbenches](Workbenches.md)
 

@@ -13,7 +13,7 @@ Desenează un pentagon înscris într-un cerc geometric. Când pornește instrum
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

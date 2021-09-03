@@ -47,7 +47,7 @@ gdzie `$INSTALL_DIR` to katalog, w którym zainstalowano FreeCAD, na przykład:
 
 -    **Hatch Scale**: Modyfikator rozmiaru wzoru kreskowania.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Zobacz również:**

@@ -14,22 +14,22 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Std DlgMacroExecute](Std_DlgMacroExecute.md)** button.
-    -   Select the {{MenuCommand|Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...}} option from the menu.
+    -   Select the **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...** option from the menu.
 2.  The Execute macro dialog box opens. See [Options](#Options.md).
 
 ## Опции
 
-### Пользовательские макросы {#пользовательские_макросы}
+### Пользовательские макросы 
 
 1.  The **User macros** tab lists the macros available in the **User macros location**.
 2.  Click a macro to select it.
 3.  The name of the selected macro will appear in the **Macro name** box.
 
-### Системные макросы {#системные_макросы}
+### Системные макросы 
 
 :   The **System macros** tab is not used at this time.
 
-### Расположение пользовательских макросов {#расположение_пользовательских_макросов}
+### Расположение пользовательских макросов 
 
 1.  Press the **...** button to change the user macros location.
 2.  Browse to a different folder and select it.
@@ -81,7 +81,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 3.  Enter a new name in the dialog box that pops up. You do not have to include the {{FileName|.FCMacro}} extension.
 4.  Press **Enter** or the **OK** button.
 
-### Панель инструментов {#панель_инструментов}
+### Панель инструментов 
 
 1.  Select the macro you want to add to a custom toolbar in the list.
 2.  Press the **Toolbar** button.
@@ -97,7 +97,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ## Настройки
 
--   The user macros location can also be changed in the preferences: {{MenuCommand|Edit → Preferences... → General → Macro → Macro path}}. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

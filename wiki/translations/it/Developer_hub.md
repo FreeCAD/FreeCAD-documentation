@@ -6,24 +6,24 @@ Questo è il posto giusto per contribuire allo sviluppo del software di FreeCAD.
 
 Queste pagine sono in fase iniziale di sviluppo. Se non è possibile trovare le informazioni cercate, o se da altre parti si trovano informazioni utili non collegate, si prega di lasciare un commento nella pagina delle [discussioni nel forum](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) in modo che qualcuno se ne possa occupare (oppure, modificare direttamente questa pagina).
 
-## Developer Documentation {#developer_documentation}
+## Developer Documentation 
 
 
 <div class="mw-translate-fuzzy">
 
-## Documentazione per gli sviluppatori {#documentazione_per_gli_sviluppatori}
+## Documentazione per gli sviluppatori 
 
 La documentazione per gli sviluppatori comprende le seguenti sezioni:
 
 
 </div>
 
-### Compiling FreeCAD {#compiling_freecad}
+### Compiling FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-### Fare da soli: Compilare FreeCAD {#fare_da_soli_compilare_freecad}
+### Fare da soli: Compilare FreeCAD 
 
 -   [Gestione del codice sorgente](Source_code_management/it.md)
 -   [Trovare assistenza](Tracker/it.md) per quando si ha un problema o si pensa di aver trovato un bug
@@ -50,12 +50,12 @@ Il [Packaging](Packaging/it.md) consiste nel prendere i binari compilati e i fil
 -   [Windows packaging](Windows_packaging.md)
 -   [MacOS packaging](MacOS_packaging.md)
 
-### Build Support Tools {#build_support_tools}
+### Build Support Tools 
 
 
 <div class="mw-translate-fuzzy">
 
-### Costruire strumenti di supporto {#costruire_strumenti_di_supporto}
+### Costruire strumenti di supporto 
 
 -   [Strumenti per costruire FreeCAD](FreeCAD_Build_Tool/it.md)
     -   [Aggiungere un modulo applicativo](Module_Creation/it.md) a FreeCAD
@@ -67,12 +67,12 @@ Il [Packaging](Packaging/it.md) consiste nel prendere i binari compilati e i fil
 
 </div>
 
-### Modifying FreeCAD {#modifying_freecad}
+### Modifying FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Modificare FreeCAD {#modificare_freecad}
+#### Modificare FreeCAD 
 
 -   Comprendere il [Codice sorgente di FreeCAD](The_FreeCAD_source_code/it.md)
 -   [Inviare patch](Tracker/it#Inviare_patch.md)
@@ -90,12 +90,12 @@ Il [Packaging](Packaging/it.md) consiste nel prendere i binari compilati e i fil
 
 -   [Traduzione di un ambiente esterno](Translating_an_external_workbench/it.md)
 
-### Module developer\'s guide {#module_developers_guide}
+### Module developer\'s guide 
 
 
 <div class="mw-translate-fuzzy">
 
-### Guida per gli sviluppatori del modulo {#guida_per_gli_sviluppatori_del_modulo}
+### Guida per gli sviluppatori del modulo 
 
 [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): Si tratta di un ebook in fase di scrittura su GitHub, si prega di creare una biforcazione e di inviare una richiesta di pull per contribuire.
 
@@ -117,9 +117,9 @@ Capitoli:
 
 L\'ultima anteprima del pdf può essere scaricata dalla [cartella dei pdf](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) di questo repo git
 
-### Moduli interni {#moduli_interni}
+### Moduli interni 
 
-#### Documentazione di OpenCascade {#documentazione_di_opencascade}
+#### Documentazione di OpenCascade 
 
 OpenCascade è una piattaforma di sviluppo software per la modellazione 3D di superfici e solidi, lo scambio di dati CAD e la visualizzazione, principalmente sotto forma di librerie C++.
 
@@ -128,7 +128,7 @@ OpenCascade è una piattaforma di sviluppo software per la modellazione 3D di su
 -   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
 -   [Il wiki di openCascade](http://opencascade.wikidot.com)
 
-#### Formato dei file {#formato_dei_file}
+#### Formato dei file 
 
 
 <div class="mw-translate-fuzzy">
@@ -138,7 +138,7 @@ OpenCascade è una piattaforma di sviluppo software per la modellazione 3D di su
 
 </div>
 
-#### Solutore di Sketcher {#solutore_di_sketcher}
+#### Solutore di Sketcher 
 
 -   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
 -   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
@@ -153,7 +153,7 @@ Lo sviluppo di una nuova architettura di risolutore potrebbe migliorare il modo 
 
 <div class="mw-translate-fuzzy">
 
-## Mappa delle fasi di sviluppo {#mappa_delle_fasi_di_sviluppo}
+## Mappa delle fasi di sviluppo 
 
 Anche se già utilizzabile in diverse parti, FreeCAD è solo all\'inizio di un lungo cammino nell\'ambiente del CAD.
 

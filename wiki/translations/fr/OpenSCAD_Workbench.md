@@ -40,7 +40,7 @@ L\'installation générale sur toutes les plates-formes peut être effectuée à
 pip3 install --user ply
 ```
 
-## Langage OpenSCAD et format de fichier {#langage_openscad_et_format_de_fichier}
+## Langage OpenSCAD et format de fichier 
 
 Le langage [OpenSCAD](http://www.openscad.org/) permet l\'utilisation de variables et de boucles. Il permet de spécifier les sous-modules pour réutiliser le code et les formes géométriques. Cette grande flexibilité, rend l\'analyse très complexe. Actuellement le module **OpenSCAD de FreeCAD** ne permet pas de gérer le langage OpenSCAD nativement. Au contraire, si **OpenSCAD** est installé, il est utilisé pour compiler l\'entrée dans un format de sortie nommé **CSG**. C\'est un sous-ensemble du langage d\'OpenSCAD et peut être utilisé comme entrée de **OpenSCAD** pour un traitement ultérieur. Cependant dans cette étape de la compilation, tous les comportements paramétriques sont perdus. Tous les noms de variables seront écartés, les boucles sont élargies et les expressions mathématiques sont évaluées.
 
@@ -76,7 +76,7 @@ OpenSCAD fonctionne en interne avec les maillages (mesh). Certaines opérations 
 
 Lors de l\'importation du fichier [DXF](DXF/fr.md), il faut définir la précision du projet à une valeur raisonnable, car cela aura une incidence sur la détection des arêtes connectées.
 
-Si FreeCAD se bloque lors de l\'importation de CSG, il est fortement recommandé d\'activer la case à cocher *Vérifier les modèles automatiquement après une opération booléenne* dans le menu {{MenuCommand|Édition → Préférences → Conception de pièces → Général → Paramètres de modèle}}
+Si FreeCAD se bloque lors de l\'importation de CSG, il est fortement recommandé d\'activer la case à cocher *Vérifier les modèles automatiquement après une opération booléenne* dans le menu **Édition → Préférences → Conception de pièces → Général → Paramètres de modèle**
 
 ## Tutoriels
 

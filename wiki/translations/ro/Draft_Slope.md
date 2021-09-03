@@ -24,7 +24,7 @@ Acest instrument permite setarea pantei (orizontală verticală) a filamentelor 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Selectați unul sau mai multe obiecte [ Wire](Draft_Wire.md) sau [ Line](Line_Line.md)
 2.  Selectați meniul Schiță → Utilitare → {{KEY | [ 16px](Imagine:_Proiect_Slope.png .md) [ Setați panta](Slope_proiect_.md)}}

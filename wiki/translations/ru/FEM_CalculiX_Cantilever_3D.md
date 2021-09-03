@@ -21,7 +21,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Введение {#введение_1}
+## Введение 
 
 Этот пример предназначен для того, чтобы показать, как выглядит простой анализ методом конечных элементов (МКЭ/FEA) в [верстаке FEM](FEM_Module/ru.md) в интерфейсе FreeCAD, и как можно визуализировать результаты. Показывается, как запустить (МКЭ) и как изменить значение нагрузки и направление нагрузки. Более того, поскольку файл примера предоставляется при любой установке FreeCAD, это полезная и простая проверка, позволяющая убедиться в правильности настройки верстака FEM.
 
@@ -35,24 +35,24 @@
 
 <div class="mw-translate-fuzzy">
 
-## Требования {#требования_1}
+## Требования 
 
 -   Совместимая версия FreeCAD, указанная в описании учебника.
--   Ипользуйте {{MenuCommand|Справка → О FreeCAD}} для просмотра версии установленного FreeCAD
+-   Ипользуйте **Справка → О FreeCAD** для просмотра версии установленного FreeCAD
 -   Не требуется никакого внешнего программного обеспечения для загрузки файла примера, просмотра сетки и геометрии, а также для визуализации результатов.
 -   Для повторного запуска FEA на вашем компьютере должно быть установлено программное обеспечение CalculiX. Возможно, решатель уже установлен вместе с FreeCAD. Если решатель CalculiX не установлен, см. [ FEM Install](FEM_Install.md).
 
 
 </div>
 
-## Настройка файла примера {#настройка_файла_примера}
+## Настройка файла примера 
 
-### Load Start Workbench {#load_start_workbench}
+### Load Start Workbench 
 
 
 <div class="mw-translate-fuzzy">
 
-### Загрузка верстака Start {#загрузка_верстака_start}
+### Загрузка верстака Start 
 
 -   Запустите FreeCAD
 -   Должен быть загружен верстак Start
@@ -60,12 +60,12 @@
 
 </div>
 
-### Load the example file {#load_the_example_file}
+### Load the example file 
 
 
 <div class="mw-translate-fuzzy">
 
-### Загрузить файл примера {#загрузить_файл_примера}
+### Загрузить файл примера 
 
 -   Перейдите к примерам проектов и нажмите «Загрузить пример анализа МКЭ».
 -   Если из-за дальнейших операций некоторая геометрия, ограничения или результаты будут нарушены или удалены, просто повторите шаги, описанные выше.
@@ -75,12 +75,12 @@
 
 <img alt="" src=images/FEM_example01_pic01.jpg  style="width:700px;">
 
-### Activate the analysis container {#activate_the_analysis_container}
+### Activate the analysis container 
 
 
 <div class="mw-translate-fuzzy">
 
-### Активировать контейнер анализа {#активировать_контейнер_анализа}
+### Активировать контейнер анализа 
 
 -   Для работы с анализом необходимо активировать анализ.
 -   В [древе проекта](tree_view/ru.md) щелкните правой кнопкой мыши <img alt="" src=images/FEM_Analysis.png  style="width:32px;"> MechanicalAnalysis → Активировать анализ
@@ -90,12 +90,12 @@
 
 <img alt="" src=images/FEM_example01_pic02.jpg  style="width:700px;">
 
-### Analysis container and its objects {#analysis_container_and_its_objects}
+### Analysis container and its objects 
 
 
 <div class="mw-translate-fuzzy">
 
-### Контейнер анализа и его объекты {#контейнер_анализа_и_его_объекты}
+### Контейнер анализа и его объекты 
 
 -   Если анализ активирован, FreeCAD сам изменит текущую рабочую среду на FEM.
 -   Для статического механического анализа необходимо как минимум 5 объектов.
@@ -112,12 +112,12 @@
 
 </div>
 
-### Visualizing Results {#visualizing_results}
+### Visualizing Results 
 
 
 <div class="mw-translate-fuzzy">
 
-### Визуализация результатов {#визуализация_результатов}
+### Визуализация результатов 
 
 -   Убедитесь, что анализ активирован.
 -   Убедитесь, что анализ все еще содержит объект результата, если нет, просто перезагрузите файл примера.
@@ -133,12 +133,12 @@
 
 <img alt="" src=images/FEM_example01_pic03.jpg  style="width:400px;">
 
-### Purging Results {#purging_results}
+### Purging Results 
 
 
 <div class="mw-translate-fuzzy">
 
-### Очистка Результатов {#очистка_результатов}
+### Очистка Результатов 
 
 -   Убедитесь, что анализ активирован.
 -   Чтобы удалить результаты, выберите значок на панели инструментов <img alt="" src=images/FEM_PurgeResults.png  style="width:32px;"> [Purge results](FEM_ResultsPurge/ru.md).
@@ -146,12 +146,12 @@
 
 </div>
 
-### Running the FEA {#running_the_fea}
+### Running the FEA 
 
 
 <div class="mw-translate-fuzzy">
 
-### Запуск анализа конечных элементов {#запуск_анализа_конечных_элементов}
+### Запуск анализа конечных элементов 
 
 -   Дважды щелкните объект решателя в [древе проекта](Tree_view/ru.md) <img alt="" src=images/FEM_Solver.png  style="width:32px;">.
 -   Убедитесь, что в [панели задач](task_panel/ru.md) объекта решателя выбран статический анализ.
@@ -168,12 +168,12 @@
 
 <img alt="" src=images/FEM_example01_pic04.jpg  style="width:400px;">
 
-### Running the FEA the fast Way {#running_the_fea_the_fast_way}
+### Running the FEA the fast Way 
 
 
 <div class="mw-translate-fuzzy">
 
-### Быстрый запуск конечноэлементного анализа {#быстрый_запуск_конечноэлементного_анализа}
+### Быстрый запуск конечноэлементного анализа 
 
 -   В древе проекта выберите объект решателя <img alt="" src=images/FEM_Solver.png  style="width:32px;"> анализа <img alt="" src=images/FEM_Analysis.png  style="width:32px;">.
 -   На панели инструментов значка щелкните <img alt="" src=images/FEM_RunCalculiXccx.png  style="width:32px;"> [Quick Analysis](FEM_SolverRun/ru.md).
@@ -182,12 +182,12 @@
 
 </div>
 
-### Changing Load Direction and Load Value {#changing_load_direction_and_load_value}
+### Changing Load Direction and Load Value 
 
 
 <div class="mw-translate-fuzzy">
 
-### Изменение направления и значения нагрузки {#изменение_направления_и_значения_нагрузки}
+### Изменение направления и значения нагрузки 
 
 -   В [древе проекта](tree_view/ru.md) выберите объект сетки FEM <img alt="" src=images/FEM_Create.png  style="width:32px;"> и нажмите клавишу **Space**.
     -   **Результат:** Видимость сетки FEM будет отключена. Геометрическая модель останется видна.
@@ -217,12 +217,12 @@
 
 <img alt="" src=images/FEM_example01_pic06.jpg  style="width:400px;">
 
-## Что дальше? {#что_дальше}
+## Что дальше? 
 
 
 <div class="mw-translate-fuzzy">
 
-## Что дальше? {#что_дальше_1}
+## Что дальше? 
 
 -   Теперь мы закончили с основным рабочим процессом для [верстака FEM](FEM_Module/ru.md).
 -   Теперь вы готовы проделать второй [учебник FEM](FEM_tutorial/ru.md).

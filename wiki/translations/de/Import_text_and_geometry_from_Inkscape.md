@@ -12,7 +12,7 @@
 Dieses Tutorium soll zeigen, wie Text oder Geometrie, die mit InkScape im svg-Format erstellt wurden, in FreeCAD importiert werden können.
 Für diese Bearbeitungen werden Inkscape 0.91 und FreeCAD 0.16.6704 unter Windows verwendet.
 
-## Allgemeine Tips zum Importieren aus inkscape {#allgemeine_tips_zum_importieren_aus_inkscape}
+## Allgemeine Tips zum Importieren aus inkscape 
 
 -   der svg-Import in FreeCAD kann eine svg Datei mit einer Auflösung von mehr als 45 dpi nicht verarbeiten, überprüfe daher die Einstellungen in inkscape
 -   wenn das Importieren von Pfadobjekten, die in der 3D Ansicht in FreeCAD erscheinen, nicht sehr glatt verläuft, kann es eine Frage der FreeCAD Einstellungen für die Formansicht sein.
@@ -32,7 +32,7 @@ Für diese Bearbeitungen werden Inkscape 0.91 und FreeCAD 0.16.6704 unter Window
 -   verwende Polster oder [Part](Part_Workbench/de.md) [Extrusionswerkzeug](Part_Extrude/de.md) auf den Flächen verwenden, um Volumenkörper zu erhalten
 -   Du kannst deine Objekte verschmelzen oder Verbund verwenden, je nachdem, was du für deine weitere Arbeit vorhast
 
-## Importieren von Geometrie aus InkScape {#importieren_von_geometrie_aus_inkscape}
+## Importieren von Geometrie aus InkScape 
 
 Da inkscape und FreeCAD unterschiedliche Ansätze zur Anwendung von Bemaßungen auf svg-Objekte zu haben scheinen, scheint der empfohlene Arbeitsablauf zu sein:
 

@@ -26,7 +26,7 @@ Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797],
 1.  It is advisable to enable the [Report view](Report_view.md). The command will display detailed information there.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_EvaluateFacet.svg" width=16px> [Mesh EvaluateFacet](Mesh_EvaluateFacet.md)** button.
-    -   Select the {{MenuCommand|Meshes → Analyze → <img src="images/Mesh_EvaluateFacet.svg" width=16px> Face info}} option from the menu.
+    -   Select the **Meshes → Analyze → <img src="images/Mesh_EvaluateFacet.svg" width=16px> Face info** option from the menu.
 3.  The cursor changes to a pipette icon.
 4.  Select a face of a mesh object.
 5.  Its index will be displayed in the [3D view](3D_view.md).
@@ -37,7 +37,7 @@ Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797],
     -   The indices of the faces that share an edge with the selected face.
     -   The coordinates of the face points.
 7.  Optionally select more faces.
-8.  Select the {{MenuCommand|Leave info mode}} option from the 3D view context menu to finish the command.
+8.  Select the **Leave info mode** option from the 3D view context menu to finish the command.
 
 
 

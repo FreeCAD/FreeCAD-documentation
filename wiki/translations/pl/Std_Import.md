@@ -14,7 +14,7 @@ The **Std Import** command imports geometry from a different file format into th
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|File → <img src="images/Std_Import.svg" width=16px> Import...}} option from the menu.
+    -   Select the **File → <img src="images/Std_Import.svg" width=16px> Import...** option from the menu.
     -   Use the keyboard shortcut: **Ctrl**+**I**.
 2.  Optionally select the correct file format in the dialog box.
 3.  Select a file.
@@ -33,8 +33,8 @@ The **Std Import** command imports geometry from a different file format into th
 ## Preferences
 
 -   See: [Import Export Preferences](Import_Export_Preferences.md).
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   The last used import filter is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileImportFilter}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used import filter is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileImportFilter**.
 
 
 

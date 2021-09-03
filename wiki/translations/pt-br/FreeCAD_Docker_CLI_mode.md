@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-## Visão geral {#visão_geral}
+## Visão geral 
 
 Docker image of FreeCAD compiled without GUI. This Docker image is especially for developers who only want to use FreeCAD in the command-line interface (CLI).
 
@@ -18,12 +18,12 @@ All of FreeCAD\'s dependencies are already installed, compatible with each other
 -   It gives better performance in terms of speed.
 -   No need to add FreeCAD paths to import it into Python.
 
-## Docker Repository {#docker_repository}
+## Docker Repository 
 
 -   Docker Hub: <https://hub.docker.com/r/amrit3701/freecad-cli>
 -   Github repository: <https://github.com/amrit3701/docker-freecad-cli>
 
-## Pré-requisitos {#pré_requisitos}
+## Pré-requisitos 
 
 -   3 GB of free storage
 -   Docker
@@ -37,9 +37,9 @@ All of FreeCAD\'s dependencies are already installed, compatible with each other
     docker run -it amrit3701/freecad-cli:lastest bash
     }}
 
-## Additional information {#additional_information}
+## Additional information 
 
-### Extend Docker image {#extend_docker_image}
+### Extend Docker image 
 
 You can also extend this Docker images to add additional dependencies for your project. For eg {{Code|lang=docker|code=
 
@@ -52,7 +52,7 @@ FROM amrit3701/freecad-cli:lastest
 # pip3.8 install <some_package>
 }}
 
-### Import FreeCAD in Python {#import_freecad_in_python}
+### Import FreeCAD in Python 
 
 After running Docker image, just run Python.
 
@@ -69,7 +69,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import Arch
 }}
 
-### Launch FreeCADCmd {#launch_freecadcmd}
+### Launch FreeCADCmd 
 
 To launch FreeCAD inside Docker image, just run FreeCADCmd command.
 

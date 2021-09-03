@@ -47,7 +47,7 @@ Estas son las herramientas para la creación, configuración y exportación de h
 
 La herramienta [Borrador boceto](Draft_Drawing/es.md) es utilizada para [ objetos boceto](Draft_Workbench/es.md). Tiene algunas capacidades adicionales sobre las herramientas de Dibujo, y soporta objetos específicos como [Dimensiones de borrador](Draft_Dimension/es.md).
 
-## Flujo de trabajo {#flujo_de_trabajo}
+## Flujo de trabajo 
 
 El documento contiene un objeto de forma 3D (pierna) del que queremos producir un dibujo. Por lo tanto, se crea una \"Página\". Una página es instanciada desde una plantilla, por ejemplo, la plantilla \"A3\_Landscape\". La plantilla es un documento [SVG](SVG/es.md) que puede contener un marco de página, un logotipo y otros elementos.
 
@@ -65,7 +65,7 @@ La macro [CartoucheFC](Macro_CartoucheFC/es.md) permite crear un cuadro de infor
 
 FreeCAD viene con un juego de plantillas básico, pero se pueden obtener más en la página [Drawing templates/es](Drawing_templates/es.md).
 
-## Ampliación del módulo dibujo {#ampliación_del_módulo_dibujo}
+## Ampliación del módulo dibujo 
 
 Some notes on the programming side of the drawing module will be added to the [Drawing Documentation](Drawing_Documentation.md) page. This is to help quickly understand how the drawing module works, enabling programmers to rapidly start programming for it.
 
@@ -73,7 +73,7 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 [Tutorial de dibujo](Drawing_tutorial/es.md)
 
-## Enlaces externos {#enlaces_externos}
+## Enlaces externos 
 
 -   [Introducción al dibujo mecánico en Youtube - por el Universo Normal](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 

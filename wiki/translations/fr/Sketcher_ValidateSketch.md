@@ -21,14 +21,14 @@ L\'utilitaire **Valider l\'esquisse** permet d\'analyser et de réparer une esqu
     -   Utilisez le raccourci clavier: **Echap** (si activé dans [Sketcher Préférences](Sketcher_Preferences/fr#G.C3.A9n.C3.A9ral.md)).
 2.  Sélectionnez l\'esquisse à valider dans la [Vue en arborescence](Tree_view/fr.md) ou en cliquant sur l\'une de ses arêtes dans la [Vue 3D](3D_view/fr.md).
 3.  Pour ouvrir l\'utilitaire de validation d\'esquisse, effectuez l\'une des opérations suivantes:
-    -   Sélectionnez l\'option {{MenuCommand|Sketch → Valider l'esquisse...}} dans le menu.
+    -   Sélectionnez l\'option **Sketch → Valider l'esquisse...** dans le menu.
     -   Appuyez sur le bouton **<img src=images/Sketcher_ValidateSketch.svg style="width:16px"> [Valider l'esquisse](Sketcher_ValidateSketch/fr.md)** (non disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md)).
 4.  Voir [Options](#Options.md) ci-dessous pour les opérations disponibles.
 5.  Appuyez sur le bouton **Fermer** lorsque vous avez terminé.
 
 ## Options
 
-### Coincidences perdues {#coincidences_perdues}
+### Coincidences perdues 
 
 Trouve les coïncidences manquantes pour les sommets qui se chevauchent et les ajoute. Appuyez sur le bouton **Rechercher**. une boîte de dialogue apparaîtra pour indiquer combien de coïncidences manquantes ont été trouvées ; elles seront affichées dans la vue 3D sous forme de croix jaunes. Appuyez sur **OK** pour fermer la boîte de dialogue, puis appuyez sur le bouton **Corriger** pour ajouter les coïncidences manquantes.
 
@@ -40,7 +40,7 @@ Cette tolérance est utilisée par le processus **Chercher**/**Réparer**.
 
 Laissez la case à cocher \"Ignorer la géométrie de construction\" cochée pour ignorer la géométrie de construction dans l\'analyse.
 
-### Contraintes non valides {#contraintes_non_valides}
+### Contraintes non valides 
 
 Vérifie les contraintes mal faites.
 
@@ -50,7 +50,7 @@ Par exemple, s\'il y a une contrainte Cercle-Ligne-Tangente mais qu\'elle fait r
 
 Il effectue également d\'autres contrôles, par exemple pour les liens vides.
 
-### Géométrie dégénérée {#géométrie_dégénérée}
+### Géométrie dégénérée 
 
 Une géométrie dégénérée peut résulter des actions du solveur dans une esquisse.
 
@@ -58,13 +58,13 @@ Par exemple, si une ligne est obligée de se raccourcir pour devenir presque un 
 
 Autres exemples: une ligne de longueur zéro ou un cercle/arc de rayon zéro.
 
-### Géométrie externe inversée {#géométrie_externe_inversée}
+### Géométrie externe inversée 
 
 Une géométrie externe inversée peut se produire parce que le traitement de la géométrie inversée a été modifié autour de la révision 0.15.
 
 Ce processus peut être utile si les esquisses à géométrie externe ne peuvent être résolues en raison de ces changements.
 
-### Contrainte de verrouillage d\'orientation {#contrainte_de_verrouillage_dorientation}
+### Contrainte de verrouillage d\'orientation 
 
 Les contraintes tangentes et perpendiculaires sont mises en œuvre (via-point).
 

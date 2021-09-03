@@ -16,7 +16,7 @@ Ten poradnik powinien służyć jako wprowadzenie do pracy z narzędziem [Mocowa
 
 Mocowanie jest narzędziem służącym do dołączania obiektu do innego. Łączy to właściwości umiejscowienia obu obiektów, dołączony obiekt będzie podążał za oryginalnym *(jeśli jego umiejscowienie zostanie zmienione)*. Skupiamy się na środowisku pracy Projekt Części i dołączaniu szkiców do innych szkiców, jest to zalecana metoda do tworzenia [*stabilnych*](Feature_editing/pl#Porady_dotycz.C4.85ce_tworzenia_stabilnych_modeli.md) modeli. Funkcjonalność została napisana dla v0.19, ale powinna działać dla każdej wersji 0.17 i późniejszych. Jednakże, niektóre szczegóły mogą się różnić. Oryginalny model został zaprojektowany przez Md. Aminul Islam i został pobrany stąd:-https://grabcad.com/library/50-cad-exercise-drawing-1
 
-## Wymagania wstępne {#wymagania_wstępne}
+## Wymagania wstępne 
 
 Przed przystąpieniem do wykonywania tego poradnika użytkownik powinien
 
@@ -32,7 +32,7 @@ Celem tego poradnika jest pokazanie, w jaki sposób można zbudować model poprz
 
 Chociaż możliwe jest użycie geometrii bryłowej ( wierzchołków, krawędzi i ścian) jako geometrii odniesienia, w interesie tego, co jest uważane za dobrą praktykę, ten poradnik powstrzyma się od tego. Zobacz stronę [Edycja cech](Feature_editing/pl.md) aby uzyskać więcej wyjaśnień.
 
-## Czynności wstępne {#czynności_wstępne}
+## Czynności wstępne 
 
 Zanim zaczniemy, sprawdźmy, jak powinniśmy podejść do budowy tego modelu.
 
@@ -64,7 +64,7 @@ Zaznacz szkic, naciśnij klawisz **F2** i zmień nazwę na \"BaseSketch\".
 
 [na początek strony](#top.md)
 
-### Odsunięcie dołączenia {#odsunięcie_dołączenia}
+### Odsunięcie dołączenia 
 
 Gdybyśmy pozostawili szkic tam, gdzie jest, przykład byłby zbyt prosty, więc zmieńmy położenie szkicu, zmieniając przesunięcie jego dołączenia.
 
@@ -92,7 +92,7 @@ Powinny pozostać dwa stopnie swobody, czyli położenie względem Odniesienie p
 
 [na początek strony](#top.md)
 
-### Zmiana dołączenia {#zmiana_dołączenia}
+### Zmiana dołączenia 
 
 Zamknij szkic. Zmień nazwę szkicu, nazywając go \"IsoscelesSketch\". Początek szkicu jest punktem, który zostanie dołączony w przyszłości, dlatego ważny jest wybór sposobu związania szkicu z Odniesieniem położenia. Odniesienie położenia można traktować jako haczyk, który łapie miejsce odniesienia. Możemy dostosować położenie szkicu za pomocą przesunięć, ale lepiej jest wybrać mądrze na początku.
 
@@ -148,7 +148,7 @@ Teraz można wprowadzić kieszeń do szkicu.
 
 [na początek strony](#top.md)
 
-### O krok dalej {#o_krok_dalej}
+### O krok dalej 
 
 Utwórz następny szkic, wymiary powinny być wyrażeniami *(\"**Sketch.Constraints.szerokość**\", \"**Sketch.Constraints.szerokość/2**\")* i powinien być związany z punktem odniesienia położenia w wierzchołku sąsiadującym z przeciwprostokątną i jej najkrótszym bokiem. *(Jeśli jesteś zaznajomiony z funkcją **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Kalka techniczna](Sketcher_CarbonCopy/pl.md)** możesz jej użyć, aby w pustym szkicu utworzyć kopię szkicu \"IsoscelesSketch\" i odpowiednio edytować jego parametry)*.
 
@@ -184,7 +184,7 @@ Możesz teraz wykonać kieszeń ze szkicu. Tym razem użyj opcji \"Symetrycznie 
 
 [na początek strony](#top.md)
 
-### Manipulowanie dołączeniem {#manipulowanie_dołączeniem}
+### Manipulowanie dołączeniem 
 
 Ogólnie rzecz biorąc, lepiej jest pozycjonować nasze szkice po prostu za pomocą trybów dołączania. Jednak nie zawsze jest możliwe pozycjonowanie szkiców dokładnie tam, gdzie chcemy, bez modyfikowania trybu dołączania w jakiś sposób.
 
@@ -230,7 +230,7 @@ Potwierdźmy więc i zakończmy na razie tą czynność zamykając okno dialogow
 
 [na początek strony](#top.md)
 
-### Mapowanie parametru ścieżki {#mapowanie_parametru_ścieżki}
+### Mapowanie parametru ścieżki 
 
 Wybierz FinalSketch i poszukaj w widoku połączonym, w panelu właściwości w sekcji dołączania, tuż pod właściwością Tryb Mapowania znajduje się parametr Ścieżka Mapy.
 
@@ -248,7 +248,7 @@ Możesz teraz wykonać kieszeń na szkicu. Nie zapomnij użyć opcji Symetryczni
 
 [na początek strony](#top.md)
 
-### Inny tryb wyboru {#inny_tryb_wyboru}
+### Inny tryb wyboru 
 
 Do tej pory widzieliśmy, jak pozycjonować szkice za pomocą trybów dołączania i odsunięć, ale mogliśmy użyć płaszczyzn standardowych, ponieważ pozycjonowanie względne było dość proste.
 
@@ -276,7 +276,7 @@ Potwierdź i zamknij okno dialogowe. Możemy teraz użyć płaszczyzny odniesien
 
 [na początek strony](#top.md)
 
-### Tymczasowe dołączenie do generowanej płaszczyzny {#tymczasowe_dołączenie_do_generowanej_płaszczyzny}
+### Tymczasowe dołączenie do generowanej płaszczyzny 
 
 Czasami trudno jest dowiedzieć się, jak wyrównać szkic lub płaszczyznę odniesienia do wygenerowanej powierzchni bez faktycznego dołączenia do niej, co, jak wspomniano powyżej, może być problematyczne. Jednym z rozwiązań jest dołączenie do wygenerowanej geometrii, a następnie zmiana dołączenia na jedną z płaszczyzn współrzędnych. FreeCAD zachowa istniejące położenie i orientację, ale teraz odniesie je do stabilnych płaszczyzn, unikając w ten sposób problemów ze zmianą nazwy topologicznej. Jednakże, kosztem tego jest utrata parametrycznego powiązania z wygenerowaną geometrią. Jeśli model bazowy ulegnie zmianie, nie rozpadnie się, jak to się często zdarza podczas dołączania do wygenerowanej geometrii, ale dołączenie nie będzie podążało za zmianami i będzie wymagało dostosowania poprzez powtórzenie sztuczki z tymczasowym dołączeniem.
 

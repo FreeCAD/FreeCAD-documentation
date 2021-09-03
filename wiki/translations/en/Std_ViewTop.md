@@ -17,8 +17,8 @@ The **Std ViewTop** command points the camera in the active [3D view](3D_view.md
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_ViewTop.svg" width=16px> [Std ViewTop](Std_ViewTop.md)** button.
-    -   Select the {{MenuCommand|View → Standard views → <img src="images/Std_ViewTop.svg" width=16px> Top}} option from the menu.
-    -   Select the {{MenuCommand|Standard views → <img src="images/Std_ViewTop.svg" width=16px> Top}} option from the [3D view](3D_view.md) context menu.
+    -   Select the **View → Standard views → <img src="images/Std_ViewTop.svg" width=16px> Top** option from the menu.
+    -   Select the **Standard views → <img src="images/Std_ViewTop.svg" width=16px> Top** option from the [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **2**.
 
 ## Scripting

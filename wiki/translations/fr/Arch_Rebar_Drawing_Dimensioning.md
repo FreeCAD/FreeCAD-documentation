@@ -12,7 +12,7 @@
 
 L\'outil [Dessins dimensions](Arch_Rebar_Drawing_Dimensioning/fr.md) permet à l\'utilisateur de créer un dessin d\'armatures et de leurs donner des dimensions.
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:800px;">
 
@@ -66,7 +66,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 L\'outil [Dimensionnement des dessins d\'armatures](Arch_Rebar_Drawing_Dimensioning/fr.md) peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes :
 
-### Créer un dessin et des dimensions d\'armatures {#créer_un_dessin_et_des_dimensions_darmatures}
+### Créer un dessin et des dimensions d\'armatures 
 
 
 ```python
@@ -359,9 +359,9 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 </div>
 
-# <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> Dessins des armatures {#arch_rebar_drawing.svg_dessins_des_armatures}
+# <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> Dessins des armatures 
 
-## Utilisation {#utilisation_1}
+## Utilisation 
 
 1\. Ouvrez le modèle FreeCAD contenant les barres d\'armature créées à l\'aide de [Addon Reinforcement](Reinforcement_Addon/fr.md).
 
@@ -375,7 +375,7 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
     makeStructuresReinforcementDrawing(view=view)
 ```
 
-## Objet ReinforcementDrawingView {#objet_reinforcementdrawingview}
+## Objet ReinforcementDrawingView 
 
 Un objet de la vue SVG Dessin des armatures.
 
@@ -429,7 +429,7 @@ Un objet de la vue SVG Dessin des armatures.
 
 -    **DimensionBottomOffset**: Le décalage inférieur pour chaque nouvel objet ReinforcementDimensioning.
 
-## Script {#script_1}
+## Script 
 
 
 **Voir aussi :**
@@ -438,9 +438,9 @@ Un objet de la vue SVG Dessin des armatures.
 
 Les fonctions dessins de Reinforcement peuvent être utilisées dans des [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant les fonctions suivantes :
 
-### Créer une vue de dessin de l\'armature {#créer_une_vue_de_dessin_de_larmature}
+### Créer une vue de dessin de l\'armature 
 
-#### Pour une structure {#pour_une_structure}
+#### Pour une structure 
 
 
 ```python
@@ -520,7 +520,7 @@ reinforcement_drawing_page = makeReinforcementDrawing(
 
 <div class="mw-collapsible toccolours mw-collapsed">
 
-##### Exemple {#exemple_1}
+##### Exemple 
 
 
 <div class="mw-collapsible-content">
@@ -596,7 +596,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 </div>
 
-#### Pour plusieurs structures {#pour_plusieurs_structures}
+#### Pour plusieurs structures 
 
 
 ```python
@@ -633,7 +633,7 @@ structure_drawing_page_dict = makeStructuresReinforcementDrawing(
 
 <div class="mw-collapsible toccolours mw-collapsed">
 
-##### Exemple {#exemple_2}
+##### Exemple 
 
 
 <div class="mw-collapsible-content">
@@ -735,9 +735,9 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 </div>
 
-# <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> Dimensions des armatures {#arch_rebar_dimensioning.svg_dimensions_des_armatures}
+# <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> Dimensions des armatures 
 
-## Utilisation {#utilisation_2}
+## Utilisation 
 
 1\. Ouvrez le modèle FreeCAD contenant les barres d\'armature créées à l\'aide de [Addon Reinforcement](Reinforcement_Addon/fr.md).
 
@@ -766,11 +766,11 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 ```
 
-## L\'objet ReinforcementDimensioning {#lobjet_reinforcementdimensioning}
+## L\'objet ReinforcementDimensioning 
 
 Un objet Rebar Vue Dimensionnement SVG.
 
-### Propriétés {#propriétés_1}
+### Propriétés 
 
 -    **ParentDrawingView**: l\'objet ReinforcementDrawingView parent contenant le dessin de l\'objet [Rebar](Arch_Rebar/fr.md).
 
@@ -832,7 +832,7 @@ Un objet Rebar Vue Dimensionnement SVG.
 
 -    **MultiRebar_TextPositionType**: Il spécifie le type de position de l\'étiquette de dimension, dans le cas où plusieurs armatures sont visibles. Il peut s\'agir de \"StartOfLine\", \"MidOfLine\" ou \"EndOfLine\". Il est utilisé uniquement lorsque **WayPointsType** est défini sur \"Automatique\".
 
-## Script {#script_2}
+## Script 
 
 
 **Voir aussi :**
@@ -841,7 +841,7 @@ Un objet Rebar Vue Dimensionnement SVG.
 
 Les fonctions dimensions de Reinforcement peuvent être utilisées dans des [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant les fonctions suivantes :
 
-### Créer un objet Reinforcement dimensionnement {#créer_un_objet_reinforcement_dimensionnement}
+### Créer un objet Reinforcement dimensionnement 
 
 
 ```python
@@ -935,7 +935,7 @@ dimension_object = makeReinforcementDimensioningObject(
 
 <div class="mw-collapsible toccolours mw-collapsed">
 
-##### Exemple {#exemple_3}
+##### Exemple 
 
 
 <div class="mw-collapsible-content">

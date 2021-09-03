@@ -151,7 +151,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## 与[PartDesign Pad的比较](PartDesign_Pad.md) {#与partdesign_pad的比较}
+## 与[PartDesign Pad的比较](PartDesign_Pad.md) 
 
 
 </div>

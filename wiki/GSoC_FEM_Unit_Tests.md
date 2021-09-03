@@ -14,13 +14,13 @@ The GSoC project aims to add a wide range of unit test for most of FreeCAD FEM G
 4.  Add unit tests for the GMSH API calls.
 5.  Start fixing bugs which will be found by all the new unit tests.
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 1.  Make FreeCAD FEM more robust for further code changes in the future.
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -32,6 +32,6 @@ The GSoC project aims to add a wide range of unit test for most of FreeCAD FEM G
 
 Easy-Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

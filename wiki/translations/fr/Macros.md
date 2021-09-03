@@ -17,7 +17,7 @@ Voyez la [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md)
 
 ## Fonctionnement
 
-Activez la sortie de la console dans le menu {{MenuCommand|Edition → Préférences → Général → Macro → Montrer les commandes du script dans la console Python}}. Vous verrez que dans FreeCAD, chaque action que vous effectuez, comme appuyer sur un bouton, génère une commande Python. Ces commandes sont ce qui peut être enregistré dans une macro. L\'outil principal pour créer des macros est la barre d\'outils des macros : ![](images/Macros_toolbar.jpg ). Vous y avez 4 boutons : Enregistrer, arrêter l\'enregistrement, éditer et lire la macro actuelle.
+Activez la sortie de la console dans le menu **Edition → Préférences → Général → Macro → Montrer les commandes du script dans la console Python**. Vous verrez que dans FreeCAD, chaque action que vous effectuez, comme appuyer sur un bouton, génère une commande Python. Ces commandes sont ce qui peut être enregistré dans une macro. L\'outil principal pour créer des macros est la barre d\'outils des macros : ![](images/Macros_toolbar.jpg ). Vous y avez 4 boutons : Enregistrer, arrêter l\'enregistrement, éditer et lire la macro actuelle.
 
 C\'est très simple à utiliser : appuyez sur le bouton d\'enregistrement, il vous sera demandé de donner un nom à votre macro, puis effectuez quelques actions. Lorsque vous avez terminé, cliquez sur le bouton Arrêter l\'enregistrement et vos actions seront enregistrées. Vous pouvez maintenant accéder à la boîte de dialogue de macro avec le bouton d\'édition.
 
@@ -31,7 +31,7 @@ Appuyez sur le bouton d\'enregistrement, donnez un nom, disons \"cylindre 10x10\
 
 ## Personnalisation
 
-Bien sûr il n\'est pas pratique de charger une macro dans l\'éditeur pour l\'utiliser. FreeCAD fournit de bien meilleures façons d\'utiliser votre macro, comme lui attribuer un raccourci clavier ou mettre une entrée dans le menu. Une fois votre macro créée, tout cela peut être fait via le menu {{MenuCommand|Outils → Personnaliser}}.
+Bien sûr il n\'est pas pratique de charger une macro dans l\'éditeur pour l\'utiliser. FreeCAD fournit de bien meilleures façons d\'utiliser votre macro, comme lui attribuer un raccourci clavier ou mettre une entrée dans le menu. Une fois votre macro créée, tout cela peut être fait via le menu **Outils → Personnaliser**.
 
 ![](images/Macros_config.jpg )
 
@@ -39,17 +39,17 @@ De cette façon vous pouvez faire de votre macro un véritable outil, comme n\'i
 
 Allez sur [Personnaliser la barre d\'outils](Customize_Toolbars/fr.md) pour une description plus complète.
 
-## Création de macros sans enregistrement {#création_de_macros_sans_enregistrement}
+## Création de macros sans enregistrement 
 
 Vous pouvez également copier / coller directement du code python dans une macro, sans enregistrer d\'action au niveau de l\'interface utilisateur (GUI). Créez simplement une nouvelle macro, modifiez-la et collez votre code. Vous pouvez ensuite enregistrer votre macro de la même manière que vous enregistrez un document FreeCAD. La prochaine fois que vous lancerez FreeCAD, la macro apparaîtra avec l\'intitulé \"Macros installées\" du menu Macro.
 
 Allez sur [Comment installer des Macros](How_to_install_macros/fr.md) pour une description plus détaillée.
 
-## Les dépôts de Macros {#les_dépôts_de_macros}
+## Les dépôts de Macros 
 
 Il existe deux emplacements principaux pour les macros. Le premier est le dépôts des macros officielles évalués par des pairs sur [GitHub](https://github.com/FreeCAD/FreeCAD-macros). La deuxième est la page [Liste des macros](Macros_recipes/fr.md) à partir de laquelle vous pouvez choisir des macros utiles à ajouter à votre installation FreeCAD. Les macros des deux référentiels peuvent être installées via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) directement depuis FreeCAD.
 
-## Informations supplémentaires {#informations_supplémentaires}
+## Informations supplémentaires 
 
 -   [Exécuter une macro au démarrage](Macro_at_Startup/fr.md)
 -   [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md)

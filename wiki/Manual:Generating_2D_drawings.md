@@ -75,7 +75,7 @@ We will now place dimensions and indications on our drawing. There are two ways 
 2.  Press the <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> Balloon button.
 3.  The cursor is now displayed as a balloon icon. Click on the page to place the balloon origin at the desired position.
 4.  The balloon bubble may be dragged to the desired position.
-5.  Change the balloon properties by double clicking the balloon label or the balloon object in the [tree view](Tree_view.md). This will open the Balloon Task dialog. Set the Value field to the desired text and change the Symbol drop-down menu selection to {{MenuCommand|None}}
+5.  Change the balloon properties by double clicking the balloon label or the balloon object in the [tree view](Tree_view.md). This will open the Balloon Task dialog. Set the Value field to the desired text and change the Symbol drop-down menu selection to **None**
 6.  Press **OK**
 7.  Repeat the operation for the second callout.
 
@@ -83,7 +83,7 @@ We will now place dimensions and indications on our drawing. There are two ways 
     -   Make sure that the View frames, labels, and vertices are visible. If not, hit the <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Toggle button.
     -   Edit the text in each section of the sheet title block by clicking on the small green square on the left side of the text.
 
-Our page can now be exported to SVG for further work in graphical applications like [Inkscape](http://www.inkscape.org) or to DXF. Select the page in the [tree view](Tree_view.md) and then select menu {{MenuCommand|File → Export}}. The DXF format is importable in almost all existing 2D CAD applications. TechDraw pages can also be directly printed or exported to PDF.
+Our page can now be exported to SVG for further work in graphical applications like [Inkscape](http://www.inkscape.org) or to DXF. Select the page in the [tree view](Tree_view.md) and then select menu **File → Export**. The DXF format is importable in almost all existing 2D CAD applications. TechDraw pages can also be directly printed or exported to PDF.
 
 **Downloads**
 

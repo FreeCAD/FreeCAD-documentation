@@ -79,7 +79,7 @@ Fournit des informations sur les coordonnées, la longueur et les angles en temp
 
 
 
-### Raccourcis clavier {#raccourcis_clavier}
+### Raccourcis clavier 
 
 ****SHIFT** + **Q****: Quitte la macro FCInfoToMouse. Lorsque vous quittez la macro, l\'annotation reste à l\'emplacement en cours du pointeur de la souris. Commencez à utiliser la souris normalement si vous voulez supprimer l\'annotation manuellement.
 

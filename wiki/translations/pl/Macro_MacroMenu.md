@@ -14,7 +14,7 @@
 
 Ten kod był częścią środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) i został usunięty [sprawa \#490](http://freecadweb.org/tracker/view.php?id=490).
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Ikonka paska narzędzi ![](images/Macro_MacroMenu.png )
 

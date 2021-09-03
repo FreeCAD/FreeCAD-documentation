@@ -29,18 +29,18 @@ Este comando colocará un objeto Proxy de Plano alineado con el actual [Plano tr
 <div class="mw-translate-fuzzy">
 
 1.  Asegúrate de que el [Plano trabajo](Draft_SelectPlane/es.md) está configurado como quieres.
-2.  A continuación, vaya al menú {{MenuCommand|Borrador → Utilidades → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Crear proxy de plano trabajo}}.
+2.  A continuación, vaya al menú **Borrador → Utilidades → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Crear proxy de plano trabajo**.
 
 
 </div>
 
-## Context menu {#context_menu}
+## Context menu 
 
 For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu:
 
--    {{MenuCommand|<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position}}: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
 
--    {{MenuCommand|<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state}}: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
 
 ## Notes
 

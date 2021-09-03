@@ -7,7 +7,7 @@
 
 FreeCAD può essere importato come modulo [Python](Python/it.md) in altri programmi o in una console autonoma di Python, insieme con tutti i suoi moduli e componenti. E\' anche possibile importare l\'interfaccia utente di FreeCAD come modulo Python, ma con alcune restrizioni indicate nelle [avvertenze](Embedding_FreeCAD/it#Avvertenze.md).
 
-## Utilizzare FreeCAD senza GUI {#utilizzare_freecad_senza_gui}
+## Utilizzare FreeCAD senza GUI 
 
 
 <div class="mw-translate-fuzzy">
@@ -119,7 +119,7 @@ Ovviamente questo script è molto semplice (in realtà ne ho fatto uno più avan
 
 checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the GUI.
 
-## Utilizzare FreeCAD con GUI {#utilizzare_freecad_con_gui}
+## Utilizzare FreeCAD con GUI 
 
 Dalla versione 4.2, Qt ha la capacità affascinante di incorporare i plug-in della GUI dipendenti da Qt in applicazioni ospite (host) non-Qt e condividere il ciclo di eventi dell\'ospite.
 

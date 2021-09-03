@@ -13,7 +13,7 @@ The [Helical Rebar](Arch_Rebar_Helical.md) tool allows the user to create a cont
 
 The [Helical Rebar](Arch_Rebar_Helical.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 
 
@@ -97,7 +97,7 @@ FreeCAD.ActiveDocument.recompute()
 Rebar = HelicalRebar.makeHelicalRebar(10, 50, 8, 50, 50, structure, "Face2")
 ```
 
-### Edition of the rebar {#edition_of_the_rebar}
+### Edition of the rebar 
 
 You can change the properties of the rebar with the following function
 

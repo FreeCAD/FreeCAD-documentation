@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
  
 
@@ -18,7 +18,7 @@ FreeCAD --- это, прежде всего, приложение для 3D-мо
 
 <img alt="Draft Workbench Example" src=images/Draft_Workbench_Example.png  style="width:400px;">
 
-## Черчение объектов {#черчение_объектов}
+## Черчение объектов 
 
 Эти инструменты предназначенные для создания объектов.
 
@@ -45,7 +45,7 @@ FreeCAD --- это, прежде всего, приложение для 3D-мо
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Label](Draft_Label/ru.md): помещает метку со стрелкой, указывающую на выбранный элемент. <small>(v0.17)</small> 
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation style editor](Draft_AnnotationStyleEditor/ru.md): Открывает редактор для изменения стиля аннотации этих объектов. <small>(v0.19)</small> 
 
-## Изменение объектов {#изменение_объектов}
+## Изменение объектов 
 
 Эти инструменты изменяют существующие объекты. Они работают на выбранных объектах, но если ни одного объекта не выбрано, вам будет предложено его выбрать.
 
@@ -83,13 +83,13 @@ FreeCAD --- это, прежде всего, приложение для 3D-мо
 
 -   <img alt="" src=images/Draft_Shape2DView.png  style="width:32px;"> [2D вид фигуры](Draft_Shape2DView/ru.md): создаёт двумерный объект, представляющий собой плоскую проекцию другого трёхмерного объекта.
 
-## Draft Tray {#draft_tray}
+## Draft Tray 
 
 Панель инструментов Draft появляется когда стартует верстак, и позволяет выбрать рабочую плоскость, вместе с некоторыми визуальными параметрами вроде цвета линии, цвета фигур, размера текста, ширина линии, и автоматической группы.
 
 ![](images/Draft_tray_default.png )
 
-Its tools are also available in the {{MenuCommand|Draft → Utilities}} menu:
+Its tools are also available in the **Draft → Utilities** menu:
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Выбор плоскости](Draft_SelectPlane/ru.md): устанавливает вашу рабочую плоскость для следующих операций из стандартного вида либо выбранной плоскости.
 -   <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:32px;"> [Переключить режим конструирования](Draft_ToggleConstructionMode/ru.md): включает и выключает режим конструирования в Draft.
@@ -102,19 +102,19 @@ Its tools are also available in the {{MenuCommand|Draft → Utilities}} menu:
 
 -   <img alt="" src=images/Draft_AutoGroup.svg  style="width:32px;"> [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
 
-## Draft annotation scale widget {#draft_annotation_scale_widget}
+## Draft annotation scale widget 
 
 With the [Draft annotation scale widget](Draft_annotation_scale_widget.md) the Draft annotation scale can be specified. <small>(v0.19)</small> 
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
-## Draft snap widget {#draft_snap_widget}
+## Draft snap widget 
 
 The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for the [Draft Snap toolbar](#Draft_snap_toolbar.md). <small>(v0.19)</small> 
 
 ![](images/Draft_snap_widget_button.png )
 
-## Панель инструментов привязки Draft {#панель_инструментов_привязки_draft}
+## Панель инструментов привязки Draft 
 
 Панель инструментов [Draft Snap](Draft_Snap/ru.md) позволяет выбрать текущий режим привязки. Его кнопка остаётся ненажатой при активности режима.
 
@@ -135,7 +135,7 @@ The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for 
 -   <img alt="" src=images/Snap_Dimensions.svg  style="width:32px;"> [Dimensions](Draft_Dimensions/ru.md): показывает временные размеры X и Y при привязке.
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle grid](Draft_ToggleGrid/ru.md): включает/выключает видимость сетки.
 
-## Сервисные инструменты {#сервисные_инструменты}
+## Сервисные инструменты 
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer/ru.md): создаёт слой в текущем документе, в который можно добавить объект, чтобы контролировать его видимость и цвет. Заменяет [VisGroup](Draft_VisGroup/ru.md). <small>(v0.19)</small> 
 -   <img alt="" src=images/Draft_VisGroup.svg  style="width:32px;"> [VisGroup](Draft_VisGroup/ru.md): создаёт в текущем документе VisGroup. {{Obsolete|0.19}}
@@ -146,14 +146,14 @@ The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to Construction group](Draft_AddConstruction/ru.md): добавляет выделенные объекты в конструкционную группу. <small>(v0.17)</small> 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal/ru.md): исправляет проблемный объект Draft, найденный в очень старом файле.
 
-## Меню Вспомогательные {#меню_вспомогательные}
+## Меню Вспомогательные 
 
-Дополнительные инструменты доступны из меню {{MenuCommand|Draft → Вспомогательные}}, или через контекстное меню по правому клику мыши, зависящее от выбранного объекта.
+Дополнительные инструменты доступны из меню **Draft → Вспомогательные**, или через контекстное меню по правому клику мыши, зависящее от выбранного объекта.
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Переключить режим продолжения](Draft_ToggleContinueMode/ru.md): включает и выключает режим продолжения
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Show snap bar](Draft_ShowSnapBar/ru.md): показывает или скрывает инструментальную панель [привязки](Draft_Snap/ru.md).
 
-## Дополнительные возможности {#дополнительные_возможности}
+## Дополнительные возможности 
 
 -   [Работа с координатами вручную](Draft_Coordinates/ru.md): позволяет вводить координаты вручную, вместо указания их на экране.
 -   [Геометрические ограничения](Draft_Constrain/ru.md): ограничивает указатель в горизонтальном или вертикальном перемещении относительно предыдущей точки.
@@ -162,23 +162,23 @@ The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for 
 -   [Construction Mode](Draft_ToggleConstructionMode/ru.md): позволяет создавать отдельную от остальной геометрию, просто включая или выключая этот режим.
 -   [Рабочая плоскость](Draft_SelectPlane/ru.md): позволяет задать плоскость в трёхмерном пространстве, где будут проводиться операции с плоскими фигурами
 
-## Tree view context menu {#tree_view_context_menu}
+## Tree view context menu 
 
 The following additional options are available in the [Tree view](Tree_view.md) context menu:
 
-### Selection options {#selection_options}
+### Selection options 
 
 If there is a selection the context menu contains one additional sub-menu:
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
-### Wire options {#wire_options}
+### Wire options 
 
 For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md) and [Draft BezCurve](Draft_BezCurve.md) this additional option is available:
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Flatten this wire: flattens the wire based on its internal geometry. This option currently does not work properly.
 
-### Layer container options {#layer_container_options}
+### Layer container options 
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
 
@@ -186,7 +186,7 @@ For a [Draft LayerContainer](Draft_Layer.md) these additional options are availa
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer.md): adds a new layer to the current document.
 
-### Layer options {#layer_options}
+### Layer options 
 
 For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
@@ -194,7 +194,7 @@ For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select layer contents](Draft_SelectGroup.md): selects the objects inside the selected layer.
 
-### Working plane proxy options {#working_plane_proxy_options}
+### Working plane proxy options 
 
 For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional options are available:
 
@@ -202,23 +202,23 @@ For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional opt
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Write objects state](Draft_WorkingPlaneProxy#Tree_view_context_menu.md): updates the visibility state of objects stored in the working plane proxy.
 
-## 3D view context menu {#d_view_context_menu}
+## 3D view context menu 
 
 The following additional options are available in the [3D view](3D_view.md) context menu:
 
-### No-selection options {#no_selection_options}
+### No-selection options 
 
 If there is no selection the context menu contains one additional sub-menu:
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
-### Selection options {#selection_options_1}
+### Selection options 
 
 If there is a selection the context menu contains two additional sub-menus:
 
--    {{MenuCommand|Draft}}: tools for [drawing objects](#Drawing_objects.md) and [modifying objects](#Modifying_objects.md).
+-    **Draft**: tools for [drawing objects](#Drawing_objects.md) and [modifying objects](#Modifying_objects.md).
 
--    {{MenuCommand|Utilities}}: a subset of the tools available in the main Draft Utilities menu.
+-    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
 ### Устаревшее
 
@@ -243,7 +243,7 @@ These [3D view](3D_view.md) context menu options are still available when the [D
 -   <img alt="" src=images/Preferences-draft.svg  style="width:32px;"> [Preferences](Draft_Preferences/ru.md): общие настройки для рабочей плоскости и инструментов черчения.
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import-Export Preferences](Import_Export_Preference/ru.md): настройки, доступные для импорта и экспорта в различные форматы файлов.
 
-## Форматы файлов {#форматы_файлов}
+## Форматы файлов 
 
 Эти функции предназначены для открытия, импорта или экспорта других форматов файлов. Открытие подразумевает открытие нового документа с содержимым файла, в то время как импортирование добавляет содержимое файла в текущий документ. Экспорт сохраняет выделенные объекты в файл. Если ничего не выбрано, будут экспортированы все объекты. Учитывайте, что задача модуля Draft - работа с плоскими объектами, так что процедуры импорта фокусируются на двумерных объектах, хотя форматы DXF и OCA так же поддерживают определения объектов в трёхмерном пространстве (объекты не обязательно плоские), они не импортируют объекты вроде сеток, трйхмерных поверхностей и так далее, а только линии, окружности, тексты или плоские фигуры. Ныне поддерживаемые форматы файлов: Верстак Draft позволяет FreeCAD импортировать и экспортировать следующие форматы файлов:
 
@@ -253,12 +253,12 @@ These [3D view](3D_view.md) context menu options are still available when the [D
 -   [формат Open Cad .OCA](Draft_OCA/ru.md): импорт и экспорт файлов OCA/GCAD, потенциально нового [формата файлов открытых САПР](http://groups.google.com/group/open_cad_format)
 -   [формат Airfoil Data .DAT](Draft_DAT/ru.md): импорт файлов DAT, описывающих [профили Airfoil](http://www.ae.illinois.edu/m-selig/ads/coord_database.html).
 
-### Установка импортёров {#установка_импортёров}
+### Установка импортёров 
 
 -   [FreeCAD and DWG Import](FreeCAD_and_DWG_Import/ru.md): импорт и экспорт файлов DWG
 -   [FreeCAD and DXF Import](FreeCAD_and_DXF_Import/ru.md): импорт и экспорт файлов DXF
 
-## Модульные тесты {#модульные_тесты}
+## Модульные тесты 
 
 
 **Смотри так же:**
@@ -270,7 +270,7 @@ These [3D view](3D_view.md) context menu options are still available when the [D
 freecad -t TestDraft
 ```
 
-## Написание сценариев {#написание_сценариев}
+## Написание сценариев 
 
 Инструменты модуля Draft могут использоваться в [макросах](macros/ru.md) и в консоли [Python](Python/ru.md), используя [программный интерфейс Draft](Draft_API/ru.md).
 

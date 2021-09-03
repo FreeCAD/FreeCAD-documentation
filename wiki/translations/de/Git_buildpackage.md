@@ -25,7 +25,7 @@ Location: ~/.pbuilderrc
 
 <https://gitlab.com/kkremitzki/dotfiles/blob/master/.pbuilderrc>
 
-##### pbuilderrc {#pbuilderrc_1}
+##### pbuilderrc 
 
 Location: ~/.pbuilderrc
 

@@ -12,7 +12,7 @@
 
 Crea una primitiva aditiva en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s). Si no existe ningún cuerpo en el documento, se creará uno automáticamente.
 
-## Tipos de Primitivas {#tipos_de_primitivas}
+## Tipos de Primitivas 
 
 -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Cubo Aditivo](PartDesign_AdditiveBox/es.md)
 -   <img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Cono Aditivo](PartDesign_AdditiveCone/es.md)

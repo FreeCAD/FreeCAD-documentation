@@ -11,7 +11,7 @@ Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD h
 
 {{TOCright}}
 
-## Release notes {#release_notes}
+## Release notes 
 
 -   [Release 0.11](Release_notes_0.11.md) - March 2011
 -   [Release 0.12](Release_notes_0.12.md) - December 2011
@@ -24,7 +24,7 @@ Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD h
 -   [Release 0.19](Release_notes_0.19.md) - March 2021
 -   [Release 0.20](Release_notes_0.20.md) - TBD
 
-## Allmäna funktioner {#allmäna_funktioner}
+## Allmäna funktioner 
 
 
 <div class="mw-translate-fuzzy">
@@ -47,7 +47,7 @@ Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD h
 
 <div class="mw-translate-fuzzy">
 
-## Allmänna funktioner {#allmänna_funktioner}
+## Allmänna funktioner 
 
 
 </div>
@@ -252,7 +252,7 @@ Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD h
 
 </div>
 
-## I utveckling {#i_utveckling}
+## I utveckling 
 
 
 <div class="mw-translate-fuzzy">
@@ -263,7 +263,7 @@ Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD h
 
 </div>
 
-## Extra Workbenches {#extra_workbenches}
+## Extra Workbenches 
 
 Power users have created various custom [external workbenches](external_workbenches.md).
 

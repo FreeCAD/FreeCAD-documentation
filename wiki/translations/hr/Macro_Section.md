@@ -27,7 +27,7 @@ preuzmite datoteku i spremite je u makro direktorij:
 
 <https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/Section/MacroSection.py>
 
-## Kako koristiti: {#kako_koristiti}
+## Kako koristiti: 
 
 1.  Odaberite dva oblika za izračun odjeljka
 2.  U FreeCAD izborniku: Makro → Makro \... → dvaput kliknite MacroSection.py. Stvorit će se novi objekt.

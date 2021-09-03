@@ -62,7 +62,7 @@ The macro [CartoucheFC](Macro_CartoucheFC.md) allows you to create a custom info
 
 FreeCAD comes bundled with a set of default templates, but you can find more on the [Drawing templates](Drawing_templates.md) page.
 
-## Extending the Drawing Module {#extending_the_drawing_module}
+## Extending the Drawing Module 
 
 Some notes on the programming side of the drawing module will be added to the [Drawing Documentation](Drawing_Documentation.md) page. This is to help quickly understand how the drawing module works, enabling programmers to rapidly start programming for it.
 
@@ -70,7 +70,7 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 -   [Drawing tutorial](Drawing_tutorial.md)
 
-## External links {#external_links}
+## External links 
 
 -   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 

@@ -14,7 +14,7 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_MeasureDistance.svg" width=16px> [Std MeasureDistance](Std_MeasureDistance.md)** button.
-    -   Select the {{MenuCommand|Tools → <img src="images/Std_MeasureDistance.svg" width=16px> Measure distance}} option from the menu.
+    -   Select the **Tools → <img src="images/Std_MeasureDistance.svg" width=16px> Measure distance** option from the menu.
 2.  Select the first dimension point anywhere on an object in the [3D view](3D_view.md).
 3.  Select the second dimension point anywhere on an object in the 3D view.
 4.  The selection order of the points can have an impact on the position of the dimension line.

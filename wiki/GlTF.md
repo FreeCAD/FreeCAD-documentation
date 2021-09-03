@@ -18,7 +18,7 @@ Currently not supported in FreeCAD.
 
 Since FreeCAD version 0.19.23074 the [Std Export](Std_Export.md) command can export to the gITF format.
 
-### Alternative export solutions {#alternative_export_solutions}
+### Alternative export solutions 
 
 For earlier versions these workarounds can be used:
 

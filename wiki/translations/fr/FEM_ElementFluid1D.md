@@ -15,7 +15,7 @@ Crée un élément de section fluide FEM pour les réseaux pneumatiques et hydra
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_ElementFluid1D.svg" width=16px> [Create a FEM fluid section for a 1D flow](FEM_ElementFluid1D/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Model → Element Geometry → <img src="images/FEM_ElementFluid1D.svg" width=16px> Section de fluide pour pour écoulement 1D}} dans le menu.
+    -   Sélectionnez l\'option **Model → Element Geometry → <img src="images/FEM_ElementFluid1D.svg" width=16px> Section de fluide pour pour écoulement 1D** dans le menu.
 2.  Sélectionnez le type de fluide: liquide, gaz ou canal ouvert
 3.  Sélectionnez le type de section: Pipe Manning, Pipe Inlet etc.
 4.  Entrez les paramètres du type de section.

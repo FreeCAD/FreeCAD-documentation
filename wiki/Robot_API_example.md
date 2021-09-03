@@ -13,7 +13,7 @@ from Part import *
 from FreeCAD import *
 ```
 
-### Basic robot stuff {#basic_robot_stuff}
+### Basic robot stuff 
 
 create the robot. If you do not specify another kinematic it becomes a Puma 560  
 ```python
@@ -80,7 +80,7 @@ print t.Waypoints
 del rob,Start,t,l,w
 ```
 
-### Working with the document objects {#working_with_the_document_objects}
+### Working with the document objects 
 
 Working with the robot document objects: first create a robot in the active document  
 ```python
@@ -144,7 +144,7 @@ print App.activeDocument().Trajectory.Trajectory
 
 To be done\.....
 
-### Exporting the trajectory {#exporting_the_trajectory}
+### Exporting the trajectory 
 
 The trajectory is exported by Python. That means for every control cabinet type there is a post-processor Python module. Here is in detail the Kuka post-processor described  
 ```python

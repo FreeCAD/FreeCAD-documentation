@@ -20,7 +20,7 @@ Se desiderate contribuire alla stesura di documentazione e tutorial wiki, consul
 
 Si prega di notare la versione di FreeCAD utilizzata nel tutorial in quanto alcuni tutorial potrebbero utilizzare una vecchia versione del programma. Sebbene il processo di modellazione generale possa ancora funzionare, alcuni strumenti potrebbero essere cambiati.
 
-## Architettura e BIM {#architettura_e_bim}
+## Architettura e BIM 
 
 <File:Arch> tutorial 00.jpg\|link=[Arch tutorial/it](Arch_tutorial/it.md)\|[Tutorial di Architettura](Arch_tutorial/it.md) (v0.14)
 Questo tutorial è una essenziale introduzione all\'ambiente Arch. È ampio e mostra un tipico flusso di lavoro, dall\'importazione di piani in formato DXF alla costruzione del modello 3D. <File:Exercise> arch 01.jpg\|link=[Manual:BIM\_modeling/it](Manual:BIM_modeling/it.md)\|[Modellazione BIM](Manual:BIM_modeling/it.md)
@@ -30,7 +30,7 @@ Come disegnare porte e finestre personalizzate usando Sketcher e regolare le lor
 Modellazione di un pannello per il tetto di una microhouse utilizzando Sketcher, lo strumento Finestra e lo strumento Pannello. <File:Arch_Wikihouse_01.jpg%7Clink=>[Wikihouse porting tutorial/it](Wikihouse_porting_tutorial/it.md)\|[Modellazione di WikiHouse](Wikihouse_porting_tutorial/it.md)
 Rimodellazione del progetto WikiHouse con schizzi e pannelli, a partire dall\'importazione di un modello mesh creato in SketchUp.
 
-## Modellazione di parti {#modellazione_di_parti}
+## Modellazione di parti 
 
 
 <div class="mw-translate-fuzzy">
@@ -68,7 +68,7 @@ The Raspberry Pi project has made simple tutorials that are easy to follow, part
 -   [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), model and entire chess set in Bauhaus modernist style.
 -   [raspberrypilearning](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) repository (CC-BY 4.0) with other examples.
 
-## Disegni e schizzi {#disegni_e_schizzi}
+## Disegni e schizzi 
 
 
 <div class="mw-translate-fuzzy">
@@ -82,7 +82,7 @@ Imparare a vincolare in modo efficace uno schizzo. Preferire i vincoli geometric
 
 </div>
 
-## Disegno tecnico {#disegno_tecnico}
+## Disegno tecnico 
 
 
 <div class="mw-translate-fuzzy">
@@ -108,13 +108,13 @@ Stimare il livello di rinforzo richiesto in una struttura in cemento per preveni
 
 </div>
 
-## CNC & Stampa 3D {#cnc_stampa_3d}
+## CNC & Stampa 3D 
 
 Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient/it](Path_Walkthrough_for_the_Impatient/it.md)\|[Guida a Path per impazienti](Path_Walkthrough_for_the_Impatient/it.md)
 Presentazione rapida del flusso di lavoro per Path: creare una lavorazione, definire l\'output, definire lo strumento di fresatura, definire le operazioni del percorso, avviare la simulazione e generare un file di output G-code. Exercise meshing 03.jpg\|link=[Manual:Preparing models for 3D printing/it](Manual:Preparing_models_for_3D_printing/it.md)\|[Preparare i modelli per la stampa 3D](Manual:Preparing_models_for_3D_printing/it.md) (v0.16)
 Convertire un oggetto solido in un oggetto mesh usando lambiente Mesh, esportare la mesh nel formato STL e usare Slic3r per preparare il codice G. In alternativa, utilizzare l\'ambiente Cura o Path per generare il codice G.
 
-## Importazione e esportazione {#importazione_e_esportazione}
+## Importazione e esportazione 
 
 Dxf Importer Install 11.png\|link=[Dxf Importer Install/it](Dxf_Importer_Install/it.md)\|[Installare l\'importatore DXF](Dxf_Importer_Install/it.md)
 Installare il programma di importazione DXF nel proprio sistema, in modo da poter aprire file DXF e DWG con FreeCAD.
@@ -130,7 +130,7 @@ Esportare i corpi da FreeCAD a Wavefront.obj, importare il file in Blender, impo
 
 <div class="mw-translate-fuzzy">
 
-## Ambiente Robot {#ambiente_robot}
+## Ambiente Robot 
 
 
 </div>
@@ -158,7 +158,7 @@ These are tutorials that are related to scripting or programming. They are geare
 -   [How to install macros](How_to_install_macros.md)
 -   [How to install additional workbenches](How_to_install_additional_workbenches.md)
 
-## Disegni tecnici {#disegni_tecnici}
+## Disegni tecnici 
 
 
 {{VeryImportantMessage|Lo sviluppo di [Drawing](Drawing_Workbench/it.md) si è fermato con FreeCAD 0.16. Al suo posto utilizzare [TechDraw](TechDraw_Workbench/it.md).}}
@@ -173,7 +173,7 @@ Generare le proiezioni 2D dei modelli 3D e aggiungere dimensioni.
 
 </div>
 
-## Tutorial - Elenco completo {#tutorial___elenco_completo}
+## Tutorial - Elenco completo 
 
 Qui sono elencati tutti i tutorial che non sono nel manuale **indipendentemente dalla loro qualità**. Se un tutorial è elencato in [:Category:Tutorials](:Category:Tutorials.md) e non in questa tabella, inseritelo.
 

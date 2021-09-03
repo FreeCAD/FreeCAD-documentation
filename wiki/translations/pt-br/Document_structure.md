@@ -14,7 +14,7 @@ Os objetos em um documento FreeCAD podem ser de diferentes tipos. Cada bancada d
 
 Se há pelo menos um documento aberto no FreeCAD, só pode haver um documento ativo. Este é o documento que é exibido na visualização 3D atual, o documento em que você está trabalhando.
 
-## Aplicação e interface do usuário {#aplicação_e_interface_do_usuário}
+## Aplicação e interface do usuário 
 
 Como a arquitetura do FreeCAD é totalmente modular, a interface gráfica ou o ambiente gráfico é separado da parte da aplicação. Isto também é válido para os documentos. Os documentos também são separados em duas partes: o documento de Aplicação, que contém os objetos, e o documento Exibir, que contém a representação em tela dos objetos.
 

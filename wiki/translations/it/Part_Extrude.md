@@ -74,7 +74,7 @@ La forma Estrusione è definita dai seguenti parametri, che dopo la sua creazion
 
 </div>
 
-## Finestra di dialogo delle azioni {#finestra_di_dialogo_delle_azioni}
+## Finestra di dialogo delle azioni 
 
 ![](images/Part_Extrude_dialog.png )
 
@@ -137,7 +137,7 @@ L\'estrusione con angolo rastremato non supporta i fori. Può anche dare risulta
 
 <div class="mw-translate-fuzzy">
 
-## Comparazione con il [Pad di PartDesign](PartDesign_Pad/it.md) {#comparazione_con_il_pad_di_partdesign}
+## Comparazione con il [Pad di PartDesign](PartDesign_Pad/it.md) 
 
 
 </div>

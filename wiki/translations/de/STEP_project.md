@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Diese Vorlage ist die Richtlinie für ein FreeCAD Entwicklungsprojekt. Es folgt den Regeln des Prozesses [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology). Die Projekte sind in der [Entwicklungsfahrplan](Development_roadmap/de.md) zusammengefasst.
 
-## Zweck und Prinzipien {#zweck_und_prinzipien}
+## Zweck und Prinzipien 
 
 Dies ist ein Entwicklungsprojekt, um eine fortgeschrittenere STEP i/o in FreeCAD zu finden, zu diskutieren und zu implementieren.
 
@@ -34,7 +34,7 @@ Zuerst müssen wir alle Informationen über die Angelegenheit zusammentragen
 
 <div class="mw-translate-fuzzy">
 
-### allgemeines STEP {#allgemeines_step}
+### allgemeines STEP 
 
 Die ISO 10303 (STEP) ist in diesem Bereich sehr wichtig. Sie ist die einzige gute standardisierte und breit diskutierte und anerkannte Definition der mir bekannten Produktstrukturen.
 
@@ -72,21 +72,21 @@ Hier einige Verweise mit Informationen:
 -   [Express Data Manager™](https://jotneit.no/component/content/article/32-products/109-express-datamanager-tm)
 -   [ppt presentation about Data Models for Engineering Data](https://www.dbse.ovgu.de/en/-p-594/_/dmea-04-data%20models.pdf)
 
-### Literature & Papers {#literature_papers}
+### Literature & Papers 
 
 -   [Florian Arnold, Gerd Podehl, \"Best of Both Worlds - A Mapping from EXPRESS-G to UML, 1998\"](https://kluedo.ub.uni-kl.de/frontdoor/deliver/index/docId/459/file/no_series_8.pdf)
 
 :   The paper introduces a mapping between EXPRESS-G and UML in order to define a linking bridge and bring the best of both worlds together. Feasibility of amapping is shown with representative examples; several problematic cases are discussed as well as possible solution
 
-### Open Source Tools {#open_source_tools}
+### Open Source Tools 
 
-#### Tools working with EXPRESS schemes {#tools_working_with_express_schemes}
+#### Tools working with EXPRESS schemes 
 
 -   [Express Engine Project](http://exp-engine.sourceforge.net/), an ANSI Common Lisp based project to support EXPRESS (ISO 10303-11) information model schema development and data population validation, EXPRESS-X (ISO 10303-14) map and view development and EXPRESS-X map and view execution environment
 
 -   [JSDAI](http://www.jsdai.net/), an Application Programming Interface (API) for reading, writing and runtime manipulation of object oriented data defined by an EXPRESS based data model.
 
-#### Tools generating C++ code from EXPRESS schemes {#tools_generating_c_code_from_express_schemes}
+#### Tools generating C++ code from EXPRESS schemes 
 
 -   [Stepcode github repository](https://github.com/stepcode/stepcode) STEPcode (formerly NIST\'s STEP Class Library) is used with IFC, STEP, and other standards that utilize the technologies of ISO10303 (STEP). It generates C++ and Python from EXPRESS (10303-11) schemas. The code is capable of reading and writing STEP Part 21 exchange files. It also utilizes Parts 22 and 23 (SDAI and its C++ binding).
 
@@ -95,7 +95,7 @@ Hier einige Verweise mit Informationen:
 
 <div class="mw-translate-fuzzy">
 
-### OCC step i/o Information {#occ_step_io_information}
+### OCC step i/o Information 
 
 -   [Dokumentation zum OCC step](http://dev.opencascade.org/doc/overview/html/user_guides__step.html)
 
@@ -104,7 +104,7 @@ Hier einige Verweise mit Informationen:
 
 ## Organisieren
 
-## Nächste Maßnahmen {#nächste_maßnahmen}
+## Nächste Maßnahmen 
 
 -   Sammeln von Informationen und Testen von OCC STEP Klassen
 

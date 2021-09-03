@@ -22,7 +22,7 @@ Avant de commencer, les points suivants doivent être pris en compte:
 
 ## Comment
 
-### Préparer la macro {#préparer_la_macro}
+### Préparer la macro 
 
 Généralement, il arrivera qu\'une macro ne soit pas directement compatible avec un lancement au démarrage et devra être ajustée
 
@@ -74,7 +74,7 @@ Toutes les macros présentent généralement une structure similaire avec une pr
 
 Bien sûr, si la fonction \"run()\" existe déjà dans la macro, vous pouvez choisir n\'importe quel autre nom commode. La macro est maintenant prête à être intégrée au démarrage de FreeCAD.
 
-### Intégration au démarrage de FreeCAD {#intégration_au_démarrage_de_freecad}
+### Intégration au démarrage de FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -118,7 +118,7 @@ Nous avons finis. Votre macro devrait s\'exécuter automatiquement au prochain l
 
 Notez que si la macro originale a été téléchargée via le gestionnaire d'addon, elle sera écrasée lors de la mise à jour et vous devrez donc à nouveau suivre les étapes décrites ici.
 
-## General Notes {#general_notes}
+## General Notes 
 
 -   In the example \'InitGui.py\' script above, the function named \'runStartupMacros()\' may be changed, so long as you also change the other four references to it, so they all match.
 -   This script will be run prior to the auto loading of your desired startup workbench in the FreeCAD Preferences, [Preferences\_Editor\#General\_settings](Preferences_Editor#General_settings.md).
@@ -132,7 +132,7 @@ Notez que si la macro originale a été téléchargée via le gestionnaire d'add
 -   In the above example, you may place the \'MacroStartup\' folder within the \'Mod\' folder of your FreeCAD root directory (whether installed version or portable version), or you may create a \'Mod\' folder along side the \'Macro\' folder in \'%USERPROFILE%\\AppData\\Roaming\\FreeCAD\\\', and place the \'MacroStartup\' folder there.
 -   From observation, the workbenches found within either \'Mod\' folder are loaded alphabetically. Those in the FreeCAD root \'Mod\' folder are loaded first, then FreeCAD scans the \'%USERPROFILE%\\AppData\\Roaming\\FreeCAD\\Mod\' folder for additional workbenches.
 
-## En relation {#en_relation}
+## En relation 
 
 
 <div class="mw-translate-fuzzy">

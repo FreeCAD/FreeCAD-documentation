@@ -64,8 +64,8 @@ See also: [Draft Snap](Draft_Snap.md).
 <div class="mw-translate-fuzzy">
 
 -   Premere **Reset point** per impostare il centro di rotazione sull\'origine {{Value|(0, 0, 0)}}.
--   Se la casella {{MenuCommand|Fuse}} è spuntata, gli oggetti risultanti nella serie saranno fusi in una singola forma, se si toccano o si intersecano.
--   Se la casella di controllo {{MenuCommand|Use Links}} è selezionata, gli oggetti risultanti nella serie saranno degli [App Links](App_Link/it.md) anziché semplici copie. Ciò migliora l\'utilizzo della memoria della serie, poiché l\'App Link riutilizza la [forma](Shape/it.md) dell\'oggetto originale e non crea nuove forme. Se si utilizza questa opzione, la casella di controllo {{MenuCommand|Fuse}} non ha alcun effetto.
+-   Se la casella **Fuse** è spuntata, gli oggetti risultanti nella serie saranno fusi in una singola forma, se si toccano o si intersecano.
+-   Se la casella di controllo **Use Links** è selezionata, gli oggetti risultanti nella serie saranno degli [App Links](App_Link/it.md) anziché semplici copie. Ciò migliora l\'utilizzo della memoria della serie, poiché l\'App Link riutilizza la [forma](Shape/it.md) dell\'oggetto originale e non crea nuove forme. Se si utilizza questa opzione, la casella di controllo **Fuse** non ha alcun effetto.
 -   Premere **Esc** o il pulsante **Annulla** per interrompere il comando corrente.
 
 
@@ -90,7 +90,7 @@ Note:
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and angles: {{MenuCommand|Edit → Preferences... → General → Units → Units settings → Number of decimals}}.
+-   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Proprietà
 
@@ -115,7 +115,7 @@ Vedere lo strumento **<img src="images/Draft_Array.svg" width=16px> [Serie ortog
 
 </div>
 
-### Parametric array {#parametric_array}
+### Parametric array 
 
 
 <div class="mw-translate-fuzzy">
@@ -176,7 +176,7 @@ array = Draft.make_polar_array(tri, 8, 270, center)
 doc.recompute()
 ```
 
-### Non-parametric array {#non_parametric_array}
+### Non-parametric array 
 
 To create a non-parametric polar array use the `array` method of the Draft module. This method returns `None`.
 

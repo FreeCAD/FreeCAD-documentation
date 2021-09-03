@@ -43,7 +43,7 @@ L\'installazione generale in tutte le piattaforme può essere eseguita dall\'ind
 pip3 install --user ply
 ```
 
-## Linguaggio e formato dei file OpenSCAD {#linguaggio_e_formato_dei_file_openscad}
+## Linguaggio e formato dei file OpenSCAD 
 
 Il linguaggio OpenSCAD consente l\'utilizzo di variabili e loop. Esso consente di specificare sotto-moduli per riutilizzare la geometria e il codice. Questo alto grado di flessibilità rende l\'analisi sintattica molto complessa. Attualmente il modulo OpenSCAD in FreeCAD non in grado di gestire il linguaggio nativo di OpenSCAD. Invece, se OpenSCAD è installato, può essere utilizzato per convertire l\'ingresso in un formato di output denominato \'CSG\'. È un sottoinsieme del linguaggio OpenSCAD e può essere utilizzato come ingresso di OpenSCAD per una ulteriore elaborazione.
 
@@ -85,7 +85,7 @@ Quando si importano [DXF](DXF/it.md) impostare la precisione del progetto a un v
 
 Per impostare la precisione nell\'ambiente Draft: *Modifica → Preferenze → Draft → Importa/Esporta → Opzioni del formato DXF → Segmento Spline massimo*
 
-Se FreeCAD va in crash durante l\'importazione CSG, si consiglia vivamente di attivare \'controllare automaticamente il modello dopo l\'operazione booleana\' in: {{MenuCommand|Modifica → Preferenze → Part Design → Impostazione del modello}}.
+Se FreeCAD va in crash durante l\'importazione CSG, si consiglia vivamente di attivare \'controllare automaticamente il modello dopo l\'operazione booleana\' in: **Modifica → Preferenze → Part Design → Impostazione del modello**.
 
 ## Tutorials
 

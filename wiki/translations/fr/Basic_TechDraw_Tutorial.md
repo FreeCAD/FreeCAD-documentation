@@ -11,19 +11,19 @@
 
 Ce didacticiel présente au nouvel utilisateur certains des outils et techniques utilisés dans l\'**<img src="images/Workbench_TechDraw.svg" width=24px> [atelier de dessin technique TechDraw](TechDraw_Workbench/fr.md)**. Ce didacticiel n\'est pas un guide complet de l\'atelier TechDraw et de nombreux outils et fonctionnalités ne sont pas couverts. Ce didacticiel vous guidera dans les étapes nécessaires à la réalisation des dessins techniques de la pièce du [Tutoriel d\'introduction à l\'atelier PartDesign](Basic_Part_Design_Tutorial_017/fr.md).
 
-## Avant de commencer {#avant_de_commencer}
+## Avant de commencer 
 
 Téléchargez le [fichier d\'exemple](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) du didacticiel Part Design.
 
-## La tâche {#la_tâche}
+## La tâche 
 
 Dans ce tutoriel, vous allez utiliser l\'atelier TechDraw pour créer des dessins 2D de la pièce 3D ci-dessous. Nous allons créer plusieurs vues de la pièce et ajouter des dimensions clés. Ce didacticiel n\'utilisera pas toutes les fonctionnalités et tous les outils disponibles dans l\'atelier TechDraw, mais devrait suffire à donner à l\'utilisateur de ce didacticiel les bases pour développer ses connaissances et ses compétences.
 
-## La pièce {#la_pièce}
+## La pièce 
 
 ![](images/Tut17_final_refined.png )
 
-## Créer un dessin {#créer_un_dessin}
+## Créer un dessin 
 
 ### Démarrage
 
@@ -31,7 +31,7 @@ Dans ce tutoriel, vous allez utiliser l\'atelier TechDraw pour créer des dessin
 -   Ouvrez d\'abord le fichier contenant notre pièce 3D. Ensuite, assurez-vous que vous êtes dans l\'atelier TechDraw.
 -   Vous allez sélectionner des éléments dans la fenêtre de dessin et / ou la vue combinée. La sélection dans TechDraw fonctionne de la même manière que dans la fenêtre 3D. Les éléments deviennent jaunes lorsque le curseur est en position pour les sélectionner et deviennent verts lorsqu\'ils sont sélectionnés. Pour sélectionner plusieurs éléments, utilisez la touche **Ctrl** tout en cliquant.
 
-### Vues et dimensions {#vues_et_dimensions}
+### Vues et dimensions 
 
 Tout le travail dans TechDraw commence par une page. Les pages sont basées sur des modèles et contiennent des vues.
 
@@ -57,7 +57,7 @@ C\'est mieux, mais un peu ennuyeux. Ajoutons quelques dimensions.
 
 ![](images/TDTut_TopView2Dims.png )
 
-### Texte éditable {#texte_éditable}
+### Texte éditable 
 
 Nous devrions ajouter de la documentation à notre dessin.
 
@@ -81,7 +81,7 @@ Avant de terminer cette Page, voyons à quoi elle ressemblera quand nous l\'impr
 
 ![](images/TDTut_Toggle.png )
 
-### Vues multiples d\'une pièce unique {#vues_multiples_dune_pièce_unique}
+### Vues multiples d\'une pièce unique 
 
 Créons un dessin à vues multiples en utilisant un modèle différent comme point de départ. Nous utiliserons la convention européenne, mais vous pouvez passer à la convention américaine si cela correspond à votre convention locale.
 
@@ -97,7 +97,7 @@ Créons un dessin à vues multiples en utilisant un modèle différent comme poi
 1.  Dans la vue intitulée \"TopLeftFront\", sélectionnez les deux sommets aux extrémités de l\'arête avant de la pièce.
 2.  Cliquez sur <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [TechDraw Longueur](TechDraw_Dimension_Length/fr.md). Faites glisser le texte de cote hors du corps.
 
-### Lier les dimensions au modèle 3D {#lier_les_dimensions_au_modèle_3d}
+### Lier les dimensions au modèle 3D 
 
 Avez-vous remarqué un problème avec la cote que nous venons de créer?
 
@@ -111,7 +111,7 @@ D\'après la première partie de ce tutoriel, nous savons que la pièce a 53 mm 
 4.  Dans la boîte de dialogue, déplacez notre cote de la colonne Disponible vers la colonne Sélectionnée. Appuyer sur **OK**.
 5.  Revenir à la Page001. Notre cote devrait maintenant lire la valeur correcte de 53. (si vous voyez toujours 43,27, vous devrez peut-être appuyer sur le bouton **Recalculer** ou faire glisser un peu la valeur de la cote jusqu\'à ce qu\'elle change).
 
-## Aller plus loin {#aller_plus_loin}
+## Aller plus loin 
 
 Dans ce tutoriel, vous avez suffisamment appris sur TechDraw pour produire un dessin comme celui-ci (par [NormandC](User:Normandc.md)). Voir la note 2.
 
@@ -124,7 +124,7 @@ Il y a beaucoup plus de fonctionnalités à explorer dans TechDraw: vues en coup
 1.  Il y a un excellent ensemble de préférences suggérées dans ce post [post du Forum](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189) (EN).
 2.  Ce dessin a été réalisé avec la v0.18. Il montre les cotes dans le format approprié pour une vue isométrique. Sous la v0.17, les lignes d\'extension seront perpendiculaires aux arêtes plutôt qu\'alignées avec les axes.
 
-## Ressources additionnelles {#ressources_additionnelles}
+## Ressources additionnelles 
 
 -   Le fichier FreeCAD de cet exercice pour comparaison (fait sous 0.17) [Télécharger](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 

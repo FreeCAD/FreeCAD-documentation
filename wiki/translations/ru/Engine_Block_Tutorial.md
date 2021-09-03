@@ -45,7 +45,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Эскизирование блока {#эскизирование_блока}
+## Эскизирование блока 
 
 Теперь начнём работу над реальной моделью. Мы начнём добавлением Box в качестве контура блока цилиндров. Для этого нам надо добавить в модель *деталь*, чтобы выбрать [Part Workbench](Part_Workbench.md), перейдите на Вид-\>Верстак-\>Part. Вы увидите, что после выбора верстака Вы получите другой набор кнопок верхнего тулбара. Пройдите через несколько других верстаков для знакомства с системой верстаков, а затем вернитесь в модуль деталей.
 
@@ -101,7 +101,7 @@
 
 <div class="mw-translate-fuzzy">
 
-### Первый цилиндр {#первый_цилиндр}
+### Первый цилиндр 
 
 Теперь мы вырежем первый цилиндр насквозь блока цилиндров. Для этого мы добавим цилиндр в модель с размером, который мы хотим просверлить и выполним двоичную операцию \"subtract\" вырезания материала из блока. Нажмите кнопку добавления цилиндра (<img alt="" src=images/Part_Cylinder.png  style="width:16px;">) для его создания, выделите его в древе проекта и установите ему следующие параметры:
 
@@ -124,14 +124,14 @@
 
 <div class="mw-translate-fuzzy">
 
-### Второй цилиндр {#второй_цилиндр}
+### Второй цилиндр 
 
 Можно сделать второй цилиндр так же как первый, но куда проще скопировать уже сделанное для первого, поскольку единственное отличие между ними в координате X. Для этого выберите *Цилиндр 1* в древе проекта и перейдите на*Правка-\>Дубликат*. Вы увидите новый цилиндр в древе проекта (сразу названный *Цилиндр 2*), но его не видно в трехмерном виде, поскольку он находится там же, где и первый цилиндр. Выберите *Цилиндр 2* в древе проекта и поменяйте его координату X на 100 mm. Как только Вы измените число в поле данных, Вы увидите как цилиндр переместился в трехмерном пространстве. Когда второй цилиндр будет правильно помещён, можно будет поглядеть, как он выглядит, выбрав *Заготовку* в древе проекта и нажав на клавиатуре *Пробел* чтобы скрыть его (скрытые объекты становятся в древе проекта серыми). Скройте все три объекта один за другим и затем сделайте их видимыми вновь.
 
 
 </div>
 
-### Высверливание цилиндров {#высверливание_цилиндров}
+### Высверливание цилиндров 
 
 <img alt="" src=images/_Engine_Block_Tutorial_-_Bored_Block.png  style="width:300px;">
 
@@ -143,13 +143,13 @@
 
 </div>
 
-### Ключевые преимущества параметрического моделирования {#ключевые_преимущества_параметрического_моделирования}
+### Ключевые преимущества параметрического моделирования 
 
 Теперь, когда оба наших цилиндра высверлены, мы можем уделить минутку, чтобы поглядеть преимущества этой системы. Допустим, на каком-нибудь этапе проектирования окажется, что цилиндры надо сделать чуть больше. Поскольку выполненные операции объединения и обрезания были зафиксированы в древе проекта, мы можем изменить размер цилиндров и FreeCAD просто переделает объединение и обрезание и придёт к новому размеру двигателя. Поиграйте с радиусом и позицией цилиндра и вернитесь к предыдущим параметрам перед возвращения к уроку.
 
 ## Картер
 
-### Заготовка и крышки подшипников {#заготовка_и_крышки_подшипников}
+### Заготовка и крышки подшипников 
 
 
 <div class="mw-translate-fuzzy">
@@ -189,7 +189,7 @@ Add another box called **Bearing carve**, give it the following properties, and 
 
 <div class="mw-translate-fuzzy">
 
-### Вырезание шейки вала {#вырезание_шейки_вала}
+### Вырезание шейки вала 
 
 Далее мы вырежем полукруглое пространство для коленчатого вала для установки в картер и пространство для вращения вала в картере. Мы начнём с цилиндра, но ориентация цилиндра по умолчанию вертикальная, нам же нужна горизонтальная. Это значит, что нам надо понять способ вращения цилиндра для его правильной ориентации в двигателе. Глядя на направляющим осям в правом нижнем углу пространственного окна, можно заметить, что коленчатый вал лежит вдоль положительной оси X. Это значит, что его надо повернуть с начальной позиции на 90 градусов вокруг оси, параллельной к оси Y. Это показывает нам, какие параметры надо ввести для цилиндра. создайте цилиндр под названием *Выемка коленвала* и установите для него следующие параметры (обратите внимание, что нам теперь надо указать параметры направления, кроме размеров, которые мы указывали для сверления цилиндров):
 
@@ -209,7 +209,7 @@ Add another box called **Bearing carve**, give it the following properties, and 
 
 </div>
 
-### Завершение картера {#завершение_картера}
+### Завершение картера 
 
 
 <div class="mw-translate-fuzzy">
@@ -232,14 +232,14 @@ Add another box called **Bearing carve**, give it the following properties, and 
 
 Справа можно видеть, на что похож итог. Древо проекта полностью раскрыто, так что видна вся иерархия двоичных операций создания устройства. Помните, что Вы можете пройти сквозь это древо и менять диаметр цилиндров, размер или позицию картера и так далее без переделывания всей модели с нуля. Мы можем продолжить вырезание картера, но пока этого достаточно. Далее мы посмотрим использование двумерного рисования для проектирования болтов и облегчения веса поршневого блока путём удаления лишнего металла из заготовки, который остался вокруг цилиндров.
 
-## Двумерное черчение конструкции прокладки головки цилиндров {#двумерное_черчение_конструкции_прокладки_головки_цилиндров}
+## Двумерное черчение конструкции прокладки головки цилиндров 
 
 For the head bolts and the shape of the engine block we will be using more boolean operations to \"carve\" away the parts of the block we don\'t want. However, if we stop to think about it, every head bolt is going to look the same, it will cut all the way down into the crankcase, the only thing different will be where on the top of the head it is located. This means we can simply \"draw\" the shape of the head gasket on the top of the engine, and then use that like a pattern to do the carving we want done.
 
 
 <div class="mw-translate-fuzzy">
 
-### Переход в режим двумерного черчения {#переход_в_режим_двумерного_черчения}
+### Переход в режим двумерного черчения 
 
 Для начала нам надо переключиться на верстак двумерного черчения, чтобы сделать это из режима детали, выберите *2D Drafting* из ниспадающего списка вверху, где теперь написано *Part*. Если не получается его обнаружить (не во всех верстаках он есть), можно выбрать верстак из меню *Вид-\>Верстак*. Хотя у нас двумерное черчение, мы выполняем его в трёхмерном пространстве, указывая FreeCAD, на какой плоскости должен проецироваться рисунок. После выбора верстака двумерного черчения прямо над верхним правым углом трёхмерного вида After you have selected the 2D Drafting workbench just above the top-right corner of the 3D view and click on the leftmost button which will say one of the following {none, top, front, size, or d(\..., \..., \...)}. Когда Вы его кликните, на левой стороне экрана появится текстовое поле для ввода смещения плоскости и 5 кнопок: XY, XZ, YZ, Вид и None. Первые три означают стандартные верхний, фронтальный и боковой вид, при нажатии на *Вид* будет использована плоскость, перпендикулярная направлению взгляда камеры (плоскость обзора камеры), а последняя не проецирует на плоскость и позволяет полностью определять координаты XYZ для каждой рисуемой точки. Нам надо установить смещение плоскости на 110 (введите и нажмите Enter), затем нажмите кнопку XY для выбора плоскости XY, расположенной на 110 mm выше нуля по оси Z, что соответствует верху блока цилиндров. Когда мы указали FreeCAD плоскость для рисования, мы готовы начать проектирование прокладки головки блока цилиндров.
 
@@ -248,7 +248,7 @@ For the head bolts and the shape of the engine block we will be using more boole
 
 The last thing to do is set up the 3D view. Even though all the drawings we produce will be projected into our defined 2D plane, we can look at the plane we are drawing on from any angle (including the other side of the plane so we draw \"backwards\"). Since we have told it the plane is the one co-planar to the top of the engine block, we should probably have the 3D view looking at that, or at least roughly in that direction. Press the 2 key on the number pad to look at the top view (notice that on the num pad, adjacent keys are opposite views so 1 and 4 are front-rear, 2 and 5 are top-bottom, and 3 and 6 are right-left). Once you are looking at the engine from the top down, you can center it by dragging the middle mouse button to pan the view. Finally, the 2D drafting mode will allow us to snap parts of the drawing to the corners of the engine block, the center of the cylinders, etc, in order to make this work best we should hide the crankcase so the drawings snap only to the part we are working on (press spacebar to show/hide the selected object).
 
-### Laying Out the Head Bolts {#laying_out_the_head_bolts}
+### Laying Out the Head Bolts 
 
 Now that the proper plane projection and view is set up we add 2d drawing elements in the same way we added primitives. Click the *Add Circle* button (<img alt="" src=images/Draft_Circle.svg  style="width:16px;">) and move your mouse around in the 3D view. You then need to tell FreeCAD the XY location for the center of the circle, and the radius, for both of these measurements you can either enter them with the mouse (following the instructions in the bottom left status bar), or you can type in the values in the text entry boxes that appear above the tree view. Go ahead and add a couple random circles on the top of the engine, as well as a few not on the engine, i.e. just out in the empty space surrounding your view of the engine. After you have done this, rotate the camera around the top of the engine block and look at the circles you drew, notice how they are \"flat\" in the plane we projected them into and this plane lines up with the top of the engine block; this will be important when we extrude the drawing to shape the engine. Now that you see how to add 2D elements you can delete the test circles you added and we will start entering the actual head layout. Note that if your circle disappears inside the engine block, your drawing projection plane is not properly set to XY mode, offset 110 mm.
 
@@ -271,7 +271,7 @@ Now that you see how to easily determine the coordinates of drawing elements you
 
 <div class="mw-translate-fuzzy">
 
-### Другая сторона блока {#другая_сторона_блока}
+### Другая сторона блока 
 
 Теперь, когда первые три болта помещены на одной стороне двигателя, требуются ещё три болта с противоположной стороны, что можно сделать тремя способами:
 
@@ -284,11 +284,11 @@ Now that you see how to easily determine the coordinates of drawing elements you
 
 Since you should already know how to do the first and second way, we will choose the third way for this example model. Each of the three methods has its own advantages and disadvantages, but a good operating rule is that simple models (like this one) probably should use the first or second methods, whereas models with lots of duplication and/or duplication of very complicated shapes/objects should probably use the third method.
 
-So even though it is a bit of overkill we will mirror these bolts as a demonstration. Switch back to the part workbench (note that you can always switch to the *Complete* workbench to see all the tools at once if you would rather not switch back and forth (deprecated since v0.17)) by going to {{MenuCommand|View → Workbench}}. Select the three bolt circles in the tree view, and then press the mirror button (<img alt="" src=images/Part_Mirror.svg  style="width:16px;">). Once you press the mirror button you should notice a new display called the *Combo view* pop up on in the pane underneath the Tree view. Many of the tools need additional input before they can run and the Combo view lets you enter these parameters. You can make the Combo view larger by dragging the divider line separating it from the Property view up or down. Select **Bolt 1** from the list on the Combo view and set the *mirror plane* to XZ, then press OK (do the same for bolts 2 and 3).
+So even though it is a bit of overkill we will mirror these bolts as a demonstration. Switch back to the part workbench (note that you can always switch to the *Complete* workbench to see all the tools at once if you would rather not switch back and forth (deprecated since v0.17)) by going to **View → Workbench**. Select the three bolt circles in the tree view, and then press the mirror button (<img alt="" src=images/Part_Mirror.svg  style="width:16px;">). Once you press the mirror button you should notice a new display called the *Combo view* pop up on in the pane underneath the Tree view. Many of the tools need additional input before they can run and the Combo view lets you enter these parameters. You can make the Combo view larger by dragging the divider line separating it from the Property view up or down. Select **Bolt 1** from the list on the Combo view and set the *mirror plane* to XZ, then press OK (do the same for bolts 2 and 3).
 
 At this point you should have a basic engine block with the cylinders bored out and the headbolt locations marked.
 
-### Cutting Down the Excess Billet Material from the Block {#cutting_down_the_excess_billet_material_from_the_block}
+### Cutting Down the Excess Billet Material from the Block 
 
 Now that we have holes marked out for headbolts (we could do the same thing for oil channels, water jackets, etc) we will want to \"trim\" the outside of the block billet down to a more suitable shape. This will make the engine lighter, allow it to cool more easily, mean less steel must be used to cast the block. Like the bolt pattern we will be laying out a 2 dimensional drawing outlining the shape we want on the finished product. We could draw the spline curve directly with the mouse, or use the hybrid approach like we used for the circles where we used the mouse to find approximate coordinates and then typed in the true values we wanted. A more interesting approach is to use the 2D drafting\'s *construction mode* to plot a few guide shapes to help us trace out a nice, symmetric, spline curve by snapping to our constructed guide shapes.
 
@@ -306,7 +306,7 @@ Now that we have our guide polygons in place we are ready to draw in the spline 
 
 The control points are not shown in that picture so I have added a second screenshot showing the finished spline in edit mode (click the *Edit mode* button to turn editing on or off for the selected object, make sure to turn it off when you are done editing it or just skip over this step if you are satisfied with your engine block shape). Also, note that there is a discontinuity on the leftmost edge of the spline curve, even though it is closed properly, this is a bug in the program behavior and is currently being fixed, as a result your spline curve may look slightly different if you are running a newer version of the software than is available at this time.
 
-### Выдавливание двумерного дизайна головок в объемную модель для завершения проекта {#выдавливание_двумерного_дизайна_головок_в_объемную_модель_для_завершения_проекта}
+### Выдавливание двумерного дизайна головок в объемную модель для завершения проекта 
 
 Now we are closing in on the final design of the engine. Return to the Part workbench and click the *Extrude sketch* button (<img alt="" src=images/Part_Extrude.svg  style="width:16px;">). In the combo box that pops up, use *CTRL+LeftClick* to select the 6 head bolts and the spline curve for extrusion. The default direction is the positive Z axis, we want the negative Z axis to extrude the head design \"down\" and into the engine block so set the direction to X=0, Y=0 and Z=-1, then type in 110 for the length (the height of the engine block). After you get all the values entered and click OK the circles for the bolts will be extruded downward to for cylinders and the spline will be extruded downward to produce a sort of cylinder with \"rippled\" edges. Select and hide the **Bored block** so you can see the extruded spline, then hide that object so you can see the 6 head bolt cylinders. You see that very sophisticated 3D shapes can be made by starting with a 2D drawing and extruding parts of it downward. We could even extrude different parts of the drawing by different amounts to do things like bore in bolt holes that just go part way through the block, but cut separate water jackets that go all the way through. At this point all your extruded objects are just named \"Extrude001\...\" so you will want to go through and name each of them so you can identify them in the next section (I will name mine *Head bolt bore 1* though *6* and name the spline **Extruded spline**, I suggest using the same names in your model as well). Now that you have your extruded shapes it is just a few boolean operations now to produce the final block design. Go through and show the major components (the *Bored block* and the *Crankcase*), and all your newly created extruded objects.
 

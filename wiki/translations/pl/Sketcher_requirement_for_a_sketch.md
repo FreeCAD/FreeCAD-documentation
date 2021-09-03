@@ -9,7 +9,7 @@
 |FCVersion= dowolna
 }}
 
-## Minimalne wymagania dotyczące szkicu {#minimalne_wymagania_dotyczące_szkicu}
+## Minimalne wymagania dotyczące szkicu 
 
 Tworzenie bryły w środowisku pracy Projekt części jest już możliwe i osiągalne \"tylko\" za pomocą krzywej zamkniętej *(profilu)*. Całkowite określenie wszystkich wymiarów i właściwości *(\"w pełni związane\")* nie jest jeszcze wymagane.
 
@@ -25,7 +25,7 @@ To, że krzywa zamknięta jest obecna, nie jest oczywiste i nie jest łatwe do r
 
 Jednak dzięki konsekwentnej pracy parametrycznej szkic jest całkowicie zdefiniowany.
 
-## Całkowite zdefiniowanie szkicu {#całkowite_zdefiniowanie_szkicu}
+## Całkowite zdefiniowanie szkicu 
 
 Nawet stosunkowo najprostszy szkic może zawierać dziesiątki nieoznaczoności *(oznaczonych w widoku połączonym)*. Wyeliminowanie ich razem na samym końcu jest stosunkowo skomplikowanym zadaniem.
 

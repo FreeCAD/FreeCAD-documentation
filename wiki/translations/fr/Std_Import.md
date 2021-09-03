@@ -34,8 +34,8 @@ La commande **Std Importer** importe la géométrie d\'un format de fichier diff
 ## Préférences
 
 -   Voir: [Préférences Import Export](Import_Export_Preferences/fr.md).
--   Le dernier emplacement de fichier utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   Le dernier filtre d\'importation utilisé est stocké: {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → General → FileImportFilter}}.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Le dernier filtre d\'importation utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileImportFilter**.
 
 
 

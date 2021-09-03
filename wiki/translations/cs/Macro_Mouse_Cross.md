@@ -200,7 +200,7 @@ except Exception:
 
 }}
 
-### Kurzory, které mohou být používány {#kurzory_které_mohou_být_používány}
+### Kurzory, které mohou být používány 
 
 ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor, SizeHorCursor SizeBDiagCursor, SizeFDiagCursor, SizeAllCursor, BlankCursor, SplitVCursor, SplitHCursor PointingHandCursor, ForbiddenCursor, OpenHandCursor, ClosedHandCursor, WhatsThisCursor, BusyCursor, BitmapCursor
 

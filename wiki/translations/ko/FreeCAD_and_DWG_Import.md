@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## 왜 DWG 파일을 FreeCAD 안으로 import 할 수 없나요? {#왜_dwg_파일을_freecad_안으로_import_할_수_없나요}
+## 왜 DWG 파일을 FreeCAD 안으로 import 할 수 없나요? 
 
 DWG 형식은 닫힌 소스 이진 파일 형식이며 FreeCAD에서 직접 지원하지 않습니다. It requires an external 3rd party file converter to first convert then import the conversion into FreeCAD for use.
 
@@ -20,7 +20,7 @@ Note that at this time, it is not possible to import 3D DWG in FreeCAD. 3D data 
 
 <div class="mw-translate-fuzzy">
 
-## DWG 파일을 import 하려면 필요한 것은? {#dwg_파일을_import_하려면_필요한_것은}
+## DWG 파일을 import 하려면 필요한 것은? 
 
 
 </div>
@@ -28,7 +28,7 @@ Note that at this time, it is not possible to import 3D DWG in FreeCAD. 3D data 
 
 <div class="mw-translate-fuzzy">
 
-### ODA Converter (formerly Teigha Converter) {#oda_converter_formerly_teigha_converter}
+### ODA Converter (formerly Teigha Converter) 
 
 -   홈페이지: <https://www.opendesign.com/guestfiles/oda_file_converter>
 -   라이선스: freeware
@@ -91,13 +91,13 @@ ODAFileConverter \"/home/dwg-data\" \"/home/dxf-data\" \"ACAD2010\" \"DXF\" \"0\
 **Example for Windows**
 \"C:\\Program Files\\ODA\\Teigha File Converter 3.08.2\\TeighaFileConverter.exe\" \"Path-To-Input-Directory\" \"Path-To-Output-Directory\" \"ACAD2010\" \"DXF\" \"0\" \"1\" \"Name-Of-A-Test-File.dwg\"
 
-### CADExchanger Workbench {#cadexchanger_workbench}
+### CADExchanger Workbench 
 
 Installing the CADExchanger Workbench allows for working with DWG files through integration with the paid commercial file converter product [CADExchanger](https://cadexchanger.com/). Just follow the instructions in the [GitHub repository](https://github.com/yorikvanhavre/CADExchanger). You can discuss this workbench on [its forum thread](https://forum.freecadweb.org/viewtopic.php?f=9&t=22227&p=462421).
 
 At the moment, the CADExchanger way is the only one that allows to work with 3D DWG files, by converting them to other 3D formats.
 
-## FreeCAD v0.19 and LibreDWG {#freecad_v0.19_and_libredwg}
+## FreeCAD v0.19 and LibreDWG 
 
 As from 0.19, FreeCAD doesn\'t need the ODA converter anymore and can use libreDWG directly. Be aware that, since libreDWG is a work-in-progress, depending on your file, the results might not be the same.
 
@@ -109,7 +109,7 @@ GNU LibreDWG is a free C library to handle DWG files. It aims to be a free repla
 
 ## Installation
 
-### AppImage releases {#appimage_releases}
+### AppImage releases 
 
 LibreDWG is included in v 0.19\_pre appimages[1](https://forum.freecadweb.org/viewtopic.php?f=8&t=39827&start=20#p372933)
 
@@ -117,7 +117,7 @@ LibreDWG is included in v 0.19\_pre appimages[1](https://forum.freecadweb.org/vi
 
 LibreDWG can be configured to work on Windows by downloading and unzipping the appropriate [pre-compiled windows binary](https://github.com/LibreDWG/libredwg/releases) and [adding the folder to your Windows versions system path](https://duckduckgo.com/?t=ffab&q=how+to+add+a+folder+to+your+windows+system+path).
 
-### Linux/Unix systems {#linuxunix_systems}
+### Linux/Unix systems 
 
 git clone [https://git.savannah.gnu.org/git/libredwg.git](https://git.savannah.gnu.org/git/libredwg.git)
 cd libredwg
@@ -152,23 +152,23 @@ Afterwards every \*.dwg file import should work properly.
 
 <div class="mw-translate-fuzzy">
 
-## 대안은 무엇인가요? {#대안은_무엇인가요}
+## 대안은 무엇인가요? 
 
 
 </div>
 
-### DoubleCAD XT {#doublecad_xt}
+### DoubleCAD XT 
 
 There is also DoubleCAD XT (https://www.turbocad.com/content/doublecad-xt-v5). The program is free for personal and commercial use. It requires a free sign-up to receive an activation code via E-Mail. This Program is windows-only. Note: it does not seem to have been updated for years.
 
-### NanoCAD 5.0 {#nanocad_5.0}
+### NanoCAD 5.0 
 
 There is also nanoCAD 5.0 (https://nanocad.com/products/nanoCAD/download/). The program is free for personal and commercial use. It requires a free sign-up to receive an activation code via E-Mail. This Program is windows-only.
 
 
 <div class="mw-translate-fuzzy">
 
-### AutoCAD 파일을 친근한 형식으로 내보내기 {#autocad_파일을_친근한_형식으로_내보내기}
+### AutoCAD 파일을 친근한 형식으로 내보내기 
 
 Exporting your AutoCAD files in a more FreeCAD friendly format, like DXF R12 or R14, SVG, and if version supports it, IGES. All are better alternatives to the DWG format when using FreeCAD.
 
@@ -179,12 +179,12 @@ Exporting your AutoCAD files in a more FreeCAD friendly format, like DXF R12 or 
 
 It is important to know that, contrarily to popular belief, there is no difference between the contents of a file saved in DWG or DXF formats, provided it is the same version (ex. DWG 2014 vs. DXF 2014). Both formats are maintained by Autodesk, and they both support exactly the same features. The difference is that DWG is closed (machine-encoded) while DXF is open.
 
-## 도우려면 무엇을 할 수 있나요? {#도우려면_무엇을_할_수_있나요}
+## 도우려면 무엇을 할 수 있나요? 
 
 
 <div class="mw-translate-fuzzy">
 
-### Promote the use of alternative formats {#promote_the_use_of_alternative_formats}
+### Promote the use of alternative formats 
 
 간단히 말해, DWG 형식의 작업을 수락하는 것을 중지합니다. 실제로, 이것은 종종 말하기보다 쉽습니다. 그러나 가능하면 언제든지 FreeCAD 사용자와 지지자들이 DWG 형식을 피하고 거부하는 것은 나쁜 관행은 아닙니다.
 
@@ -193,7 +193,7 @@ It is important to know that, contrarily to popular belief, there is no differen
 
 Simply put, stop accepting work done in DWG format. In practice, this is often easier said than done. Still, it would not be bad practice for users and supporters of FreeCAD to avoid and reject the DWG format whenever possible.
 
-### Use the LibreDWG library and file bug reports {#use_the_libredwg_library_and_file_bug_reports}
+### Use the LibreDWG library and file bug reports 
 
 In development version as mentioned above you can switch from the proprietary ODA Converter to the free software LibreDWG library for DWG (and DXF) files. Please do this and report any problems you encounter.
 

@@ -16,7 +16,7 @@ Il comando **Annulla** annulla l\'ultima azione.
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_Undo.svg" width=16px> Annulla**.
-    -   Selezionare l\'opzione {{MenuCommand|Modifica → <img src="images/Std_Undo.svg" width=16px> Annulla}} dal menu.
+    -   Selezionare l\'opzione **Modifica → <img src="images/Std_Undo.svg" width=16px> Annulla** dal menu.
     -   Usare la scorciatoia da tastiera: **Ctrl**+**Z**.
 
 ## Opzioni
@@ -31,8 +31,8 @@ Il comando **Annulla** annulla l\'ultima azione.
 
 ## Preferenze
 
--   La funzione Annulla o Ripristina può essere disabilitata impostando {{MenuCommand|Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → UsingUndo}} su `False`, ma questo non è raccomandato. Questa impostazione può anche essere modificata nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
--   Il numero massimo di passaggi di Annulla o Ripristina è controllato da {{MenuCommand|Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → MaxUndoSize}}. Questa impostazione può anche essere modificata nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
+-   La funzione Annulla o Ripristina può essere disabilitata impostando **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → UsingUndo** su `False`, ma questo non è raccomandato. Questa impostazione può anche essere modificata nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
+-   Il numero massimo di passaggi di Annulla o Ripristina è controllato da **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → MaxUndoSize**. Questa impostazione può anche essere modificata nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
 
 ## Script
 

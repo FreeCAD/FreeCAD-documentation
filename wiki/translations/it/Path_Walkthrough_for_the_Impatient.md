@@ -26,7 +26,7 @@ Ecco una dimostrazione che mostra la creazione di una lavorazione del WB Path da
 
 </div>
 
-## Il modello 3D {#il_modello_3d}
+## Il modello 3D 
 
 
 <div class="mw-translate-fuzzy">
@@ -63,7 +63,7 @@ Completato il Modello 3D, selezionare l\'ambiente Path.
 
 <div class="mw-translate-fuzzy">
 
-## La lavorazione {#la_lavorazione}
+## La lavorazione 
 
 Cliccare su <img alt="" src=images/Path-Job.png  style="width:32px;"> [Lavorazione](Path_Job/it.md) per crearne una.
 
@@ -86,7 +86,7 @@ Nella finestra di dialogo Crea lavorazione, fare clic su OK per accettare il Cor
 
 </div>
 
-### Impostazione della lavorazione {#impostazione_della_lavorazione}
+### Impostazione della lavorazione 
 
 
 <div class="mw-translate-fuzzy">
@@ -96,7 +96,7 @@ Nella tabella Azioni si apre la finestra Job Edit e la vista del modello mostra 
 
 </div>
 
-### Job Output {#job_output}
+### Job Output 
 
 
 <div class="mw-translate-fuzzy">
@@ -114,7 +114,7 @@ La scheda Output definisce il percorso del file di output, il suo nome e la sua 
 
 </div>
 
-### Job Tools {#job_tools}
+### Job Tools 
 
 
 <div class="mw-translate-fuzzy">
@@ -180,7 +180,7 @@ Per un facile accesso, tutti gli utensili possono essere predefiniti e seleziona
 
 </div>
 
-### Job Workplan {#job_workplan}
+### Job Workplan 
 
 
 <div class="mw-translate-fuzzy">
@@ -200,7 +200,7 @@ Questo è albero che viene mostrato dopo la configurazione della lavorazione dop
 
 </div>
 
-## Le operazioni del percorso {#le_operazioni_del_percorso}
+## Le operazioni del percorso 
 
 
 <div class="mw-translate-fuzzy">
@@ -252,7 +252,7 @@ Il risultato è un modello con due percorsi:
 
 </div>
 
-## Verificare i percorsi {#verificare_i_percorsi}
+## Verificare i percorsi 
 
 Esistono due modi per verificare i percorsi creati. Il codice G può essere ispezionato, inclusa l\'evidenziazione dei segmenti di percorso corrispondenti. Il processo di fresatura di Path Job può anche essere simulato per determinare i percorsi utensile ideali, richiesti dalle geometrie dell\'utensile per fresare il pezzo.
 
@@ -298,7 +298,7 @@ Se si desidera terminare la simulazione, fare clic sul pulsante Annulla per rimu
 
 </div>
 
-## Postelaborare la lavorazione {#postelaborare_la_lavorazione}
+## Postelaborare la lavorazione 
 
 Il passaggio finale per generare il G-Code per la fresatura è di postelaborare il la lavorazione. Questo produce i codici G in un file che può essere caricato nel controllore macchina CNC di destinazione. Per richiamare il postprocessore:
 

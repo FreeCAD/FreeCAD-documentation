@@ -15,7 +15,7 @@ The **Std ViewScreenShot** command opens a dialog box to create an image file, a
 
 ## Usage
 
-1.  Select the {{MenuCommand|Tools → <img src="images/Std_ViewScreenShot.svg" width=16px> Save picture...}} option from the menu.
+1.  Select the **Tools → <img src="images/Std_ViewScreenShot.svg" width=16px> Save picture...** option from the menu.
 2.  The Save picture dialog box opens.
 3.  Optionally press the **Extended** button to reveal an additional panel in the dialog box. For more information see [Options](#Options.md).
 4.  Optionally browse to the correct folder.
@@ -24,12 +24,12 @@ The **Std ViewScreenShot** command opens a dialog box to create an image file, a
 
 ## Options
 
-### Image dimensions {#image_dimensions}
+### Image dimensions 
 
 1.  Select a standard size from the **Standard sizes** dropdown list. Or specify the **Width** and **Height** for a custom size.
 2.  Optionally press an **Aspect ratio** button to set the width-to-height ratio of the image. If the **Width** input box has the focus the height of the image will change and vice versa.
 
-### Image properties {#image_properties}
+### Image properties 
 
 1.  Select an option from the **Background** dropdown list:
     -   
@@ -70,7 +70,7 @@ The **Std ViewScreenShot** command opens a dialog box to create an image file, a
         
         This method uses the same techniques as **Framebuffer (custom)**. It also supports anti-aliasing but has some limitations related to custom sizes and always uses the current background of the 3D view.
 
-### Image comment {#image_comment}
+### Image comment 
 
 1.  Select the {{RadioButton|TRUE|Insert MIBA}} option to add [MIBA](MIBA.md) information to the file. Not all image formats support this.
 2.  Or select the {{RadioButton|TRUE|Insert comment}} option and type a comment in the text field to embed a comment in the file. Not all image formats support this.
@@ -83,8 +83,8 @@ The **Std ViewScreenShot** command opens a dialog box to create an image file, a
 
 ## Preferences
 
--   The 3D view background can be changed in the preferences: {{MenuCommand|Edit → Preferences... → Display → Colors → Background color}}. See [Preferences Editor](Preferences_Editor#Colors.md).
--   To change the 3D view anti-aliasing: {{MenuCommand|Edit → Preferences... → Display → 3D view → Rendering → Anti-Aliasing}}. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   The 3D view background can be changed in the preferences: **Edit → Preferences... → Display → Colors → Background color**. See [Preferences Editor](Preferences_Editor#Colors.md).
+-   To change the 3D view anti-aliasing: **Edit → Preferences... → Display → 3D view → Rendering → Anti-Aliasing**. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 ## Scripting
 

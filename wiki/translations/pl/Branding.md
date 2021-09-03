@@ -6,11 +6,11 @@
 
 {{TOCright}}
 
-## Informacje ogólne {#informacje_ogólne}
+## Informacje ogólne 
 
 Ten artykuł opisuje \"Branding\" FreeCAD. Branding oznacza utworzenie własnej aplikacji w oparciu o FreeCAD. Może to być tylko twój własny program wykonywalny lub [ekran powitalny](Splash_screen/pl.md) do czasu opracowania pełnej modyfikacji. W oparciu o elastyczną architekturę FreeCAD można go łatwo wykorzystać jako bazę do stworzenia własnego programu specjalnego przeznaczenia.
 
-### Informacje ogólne {#informacje_ogólne_1}
+### Informacje ogólne 
 
 Przeważającą część pracy przeprowadza się w {{FileName|MainCmd.cpp}} lub {{FileName|MainGui.cpp}}. Projekty te generują pliki wykonywalne FreeCAD. Aby stworzyć własną markę, wystarczy skopiować projekty **Main** lub **MainGui** i nadać plikom wykonywalnym własną nazwę, np. {{FileName|FooApp.exe}}. Najważniejszych ustawienia dla nowego wyglądu można dokonać w jednym miejscu w funkcji **main()**. Oto fragment kodu sterujący brandingiem:
 
@@ -48,7 +48,7 @@ Pierwsza pozycja Config pozwala określić nazwę programu. Nie jest to nazwa pl
 
 Kolejne linie określają konkretne pozycje konfiguracji aplikacji FooApp. Opis konfiguracji i jej wpisów znajduje się w [Uruchomienie i konfiguracja](Start_up_and_Configuration.md).
 
-### Pliki obrazów {#pliki_obrazów}
+### Pliki obrazów 
 
 Wszystkie zasoby są zestawiane w FreeCAD przy użyciu [System zasobów Qt](http://qt-project.org/doc/qt-4.8/resources.html). Dlatego musisz zapisać plik {{FileName|.qrc}}, plik oparty na formacie XML, który wyświetla pliki obrazów na dysku, ale także każdy inny rodzaj plików zasobów. Aby załadować skompilowane zasoby wewnątrz aplikacji należy dodać linię:
 
@@ -64,7 +64,7 @@ do funkcji **main()**. Ewentualnie, jeśli posiadasz obraz w pliku XPM, możesz 
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Marka z XML {#marka_z_xml}
+### Marka z XML 
 
 W FreeCAD istnieje również metoda obsługiwana bez pisania niestandardowych funkcji main(). Dla tej metody musisz napisać nazwę pliku o nazwie {{FileName|branding.xml}} i umieścić go w katalogu instalacyjnym programu FreeCAD. Oto przykład z wszystkimi obsługiwanymi znacznikami:
 

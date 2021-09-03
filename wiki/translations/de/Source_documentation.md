@@ -27,9 +27,9 @@ Die Kompilierung der API Dokumentation folgt den gleichen allgemeinen Schritten 
 
 *Allgemeiner Arbeitsablauf zur Erstellung der Programmierdokumentation von FreeCAD. Die Pakete Doxygen und Graphviz müssen sich im System befinden, ebenso wie der FreeCAD Quellcode selbst. CMake konfiguriert das System so, dass mit einer einzigen make Anweisung die Dokumentation für das gesamte Projekt in vielen HTML Dateien mit Diagrammen zusammengefasst wird.*
 
-## Quelldokumentation erstellen {#quelldokumentation_erstellen}
+## Quelldokumentation erstellen 
 
-### Komplette Dokumentation {#komplette_dokumentation}
+### Komplette Dokumentation 
 
 Wenn du Doxygen installiert hast, ist es sehr einfach, die Dokumentation zu erstellen. Installiere auch [Graphviz](https://www.graphviz.org/), um Diagramme erstellen zu können, die die Beziehungen zwischen verschiedenen Klassen und Bibliotheken im FreeCAD Code zeigen. Graphviz wird auch von FreeCADs [Abhängigkeitsgraph](Std_DependencyGraph/de.md) verwendet, um die Beziehungen zwischen verschiedenen Objekten anzuzeigen. 
 ```python
@@ -66,7 +66,7 @@ xdg-open freecad-build/doc/SourceDocu/html/index.html
 
 Das `DevDoc` Ziel erzeugt eine beträchtliche Datenmenge, etwa 5 GB neue Dateien, insbesondere aufgrund der von Graphviz erstellten Diagramme.
 
-### Gekürzte Dokumentation {#gekürzte_dokumentation}
+### Gekürzte Dokumentation 
 
 Die komplette Dokumentation belegt etwa 3 GB Plattenplatz. Eine alternative, kleinere Version der Dokumentation, die nur ca. 600 MB benötigt, kann mit einem anderen Ziel erstellt werden. Dies ist die Version, die auf der [FreeCAD API Webseite](https://freecad.github.io/SourceDoc/) angezeigt wird. 
 ```python
@@ -100,14 +100,14 @@ git push
 
 <div class="mw-translate-fuzzy">
 
-## Andere Versionen {#andere_versionen}
+## Andere Versionen 
 
 [FreeCAD 0.12](http://free-cad.sf.net/SrcDocu/index.html) Dokumentation, die in Sourceforge untergebracht ist.
 
 
 </div>
 
-## Coin3D Dokumentation integrieren {#coin3d_dokumentation_integrieren}
+## Coin3D Dokumentation integrieren 
 
 Auf Unix Systemen ist es möglich, die Coin3D Quelldokumentation mit der von FreeCAD zu verknüpfen. Dies ermöglicht eine einfachere Navigation und vollständige Vererbungsdiagramme für Coin abgeleitete Klassen.
 
@@ -117,7 +117,7 @@ Auf Unix Systemen ist es möglich, die Coin3D Quelldokumentation mit der von Fre
 
 Wenn du das Dokumentationspaket für Coin nicht installierst, werden die Verknüpfungen generiert, um auf die Online Dokumentation unter [BitBucket](https://coin3d.bitbucket.io/Coin/) zuzugreifen. Dies geschieht, wenn eine Doxygen Kennzeichendatei zur Konfigurationszeit mit `wget` heruntergeladen werden kann.
 
-## Doxygen Anwenden {#doxygen_anwenden}
+## Doxygen Anwenden 
 
 Auf der Seite [Doxygen](Doxygen/de.md) findest du eine ausführliche Erklärung, wie man C++- und Python Quellcode kommentiert, damit er von Doxygen zur automatischen Erstellung der Dokumentation verarbeitet werden kann.
 

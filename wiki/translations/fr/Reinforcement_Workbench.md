@@ -19,11 +19,11 @@ Image:Arch\_Rebar\_Straight\_example.png\|[Armature droite](Arch_Rebar_Straight/
 
 ## Installation
 
-L\'atelier Reinforcement n\'est pas fourni avec le package FreeCAD par défaut mais peut être facilement installé via le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour l\'installer, {{MenuCommand|Outils → [Gestionnaire d'Addon](Std_AddonMgr/fr.md)}}. Le code de l\'atelier Reinforcement est [hébergé et développé sur github](https://github.com/amrit3701/FreeCAD-Reinforcement) et peut également être installé manuellement en le copiant dans le répertoire {{FileName|MOD}} de FreeCAD.
+L\'atelier Reinforcement n\'est pas fourni avec le package FreeCAD par défaut mais peut être facilement installé via le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour l\'installer, **Outils → [Gestionnaire d'Addon](Std_AddonMgr/fr.md)**. Le code de l\'atelier Reinforcement est [hébergé et développé sur github](https://github.com/amrit3701/FreeCAD-Reinforcement) et peut également être installé manuellement en le copiant dans le répertoire {{FileName|MOD}} de FreeCAD.
 
 ## Outils
 
-### Créer des armatures {#créer_des_armatures}
+### Créer des armatures 
 
 -   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Armature droite](Arch_Rebar_Straight/fr.md) : Crée une barre de ferraillage droite dans un élément de structure sélectionné.
 
@@ -49,7 +49,7 @@ L\'atelier Reinforcement n\'est pas fourni avec le package FreeCAD par défaut m
 
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Armature personnalisée](Arch_Rebar/fr.md) : Crée une barre de ferraillage personnalisée dans un élément de structure sélectionné à l\'aide d\'une esquisse.
 
-### Informations sur les armatures {#informations_sur_les_armatures}
+### Informations sur les armatures 
 
 -   <img alt="" src=images/Arch_Rebar_BOM.svg  style="width:32px;"> [Nomenclature armature](Arch_Rebar_BOM/fr.md) : Crée la nomenclature des armatures.
 

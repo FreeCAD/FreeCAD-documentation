@@ -30,9 +30,9 @@ Lo strumento esplode anche forme non composte nei loro costituenti di livello in
 
 1.  Invocare il comando Esplodi il composto in uno di questi modi:
     -   Premere sul pulsante <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> nella barra degli strumenti di Part
-    -   Usare {{MenuCommand|Parte → Composto → Esplodi il composto}} dal menu principale
+    -   Usare **Parte → Composto → Esplodi il composto** dal menu principale
 
-## Casi d\'uso {#casi_duso}
+## Casi d\'uso 
 
 
 <div class="mw-translate-fuzzy">

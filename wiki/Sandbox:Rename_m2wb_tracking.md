@@ -1,6 +1,6 @@
 \_\_NOTOC\_\_
 
-## Tracking page for wiki-renaming Module to Workbench - 2021 effort {#tracking_page_for_wiki_renaming_module_to_workbench___2021_effort}
+## Tracking page for wiki-renaming Module to Workbench - 2021 effort 
 
 +------------------------------------------------------------------------+----------------------------------------------------+
 | Page                                                                   | Languages                                          |
@@ -43,15 +43,15 @@
 | **[TechDraw](Special:WhatLinksHere/TechDraw_Module.md)**       | <img alt="" src=images/Edit_Cancel.svg  style="width:16px;"> |
 +------------------------------------------------------------------------+----------------------------------------------------+
 
-## Plot\_Module on hold {#plot_module_on_hold}
+## Plot\_Module on hold 
 
 The Plot\_Module is on hold for the moment.
 
-## Renaming pages currently not possible {#renaming_pages_currently_not_possible}
+## Renaming pages currently not possible 
 
 For some reason it is currently not possible to rename (move) pages. That is why the Part\_Module and the TechDraw\_Module pages still remain.
 
-## Under construction {#under_construction}
+## Under construction 
 
 The green background indicates links that have been fixed or that never existed.
 

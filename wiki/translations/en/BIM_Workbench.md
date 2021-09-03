@@ -22,7 +22,7 @@ The developers of Draft, Arch and BIM also collaborate with the greater [OSArch 
 
 ## Installing
 
-The BIM workbench is not bundled with the default FreeCAD package, but can easily be installed via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). Invoke it from {{MenuCommand|Tools → [Addons Manager](Std_AddonMgr.md)}}. The BIM workbench code is [hosted and developed on github](https://github.com/yorikvanhavre/BIM_Workbench) and can also be installed manually by copying it into FreeCAD\'s {{FileName|MOD}} directory.
+The BIM workbench is not bundled with the default FreeCAD package, but can easily be installed via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). Invoke it from **Tools → [Addons Manager](Std_AddonMgr.md)**. The BIM workbench code is [hosted and developed on github](https://github.com/yorikvanhavre/BIM_Workbench) and can also be installed manually by copying it into FreeCAD\'s {{FileName|MOD}} directory.
 
 **Note**
 
@@ -30,7 +30,7 @@ The BIM workbench is a work in progress, and will change often. Be sure to updat
 
 The tools listed below might also not all be present if your FreeCAD version is not fully up-to-date. The BIM workbench should however work seamlessly on all FreeCAD versions, it will only drop the tools not available.
 
-## Getting started {#getting_started}
+## Getting started 
 
 <img alt="" src=images/BIM_welcome_screen.png  style="width:800px;">
 
@@ -52,7 +52,7 @@ Additionally, if such [addons](External_workbenches.md) are installed, tools fro
 
 The BIM workbench also adds a series of items in the **status bar** of FreeCAD, and a couple of **context menu items**, accessible by right-clicking in the 3D view or in the tree view.
 
-### 2D drafting {#d_drafting}
+### 2D drafting 
 
 2D objects are commonly used as drafting aids, or to draw base lines and profiles to build BIM objects on. They can also be used to draw symbols and annotations in your model. Apart from sketches, that use their own coordinate system, 2D objects will be drawn on the current [working plane](Draft_SelectPlane.md).
 
@@ -85,7 +85,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Page](TechDraw_PageDefault.md): Creates a new [TechDraw](TechDraw_Workbench.md) page from a [SVG template](TechDraw_Templates.md)
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [View](TechDraw_ArchView.md): Inserts a view of a section plane on a page
 
-### 3D / BIM modeling {#d_bim_modeling}
+### 3D / BIM modeling 
 
 3D and BIM objects are the real-world elements that will compose your BIM project.
 
@@ -125,7 +125,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Shapebuilder](Part_Builder.md): A tool to create more complex shapes from various parametric geometric primitives
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Facebinder](Draft_Facebinder.md): Creates a new object from selected faces on existing objects
 
-### Modification tools {#modification_tools}
+### Modification tools 
 
 -   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Move](Draft_Move.md): Moves object(s) from one location to another
 -   <img alt="" src=images/BIM_Copy.png  style="width:32px;"> [Copy](BIM_Copy.md): Copies object(s) from one location to another
@@ -153,7 +153,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component
 
-### Management tools {#management_tools}
+### Management tools 
 
 -   <img alt="" src=images/BIM_Setup.png  style="width:32px;"> [BIM setup](BIM_Setup.md): Configures some of the FreeCAD preferences most commonly used for BIM
 -   <img alt="" src=images/BIM_Project.png  style="width:32px;"> [Project setup](BIM_Project.md): Allows to create some basic objects such as a [site](Arch_Site.md), a [building](Arch_Building.md) and [axes](Arch_Axis.md) by filling basic project information.
@@ -169,14 +169,14 @@ Annotations are visual help objects that can be placed inside your model. They c
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Preflight checks](BIM_Preflight.md): Perform different checks on your model before exporting to IFC
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation style editor](Draft_AnnotationStyleEditor.md): Manages annotation styles used by texts and dimensions
 
-## Tutorials and Learning {#tutorials_and_learning}
+## Tutorials and Learning 
 
 -   [Arch & BIM tutorials on this wiki](Tutorials#Architecture_and_BIM.md)
 -   [\"BIM with FreeCAD\" video series by Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD tutorials\" video series by Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" video series by Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
 
-## External workbenches {#external_workbenches}
+## External workbenches 
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
 

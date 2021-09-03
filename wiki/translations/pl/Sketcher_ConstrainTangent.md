@@ -29,7 +29,7 @@ Aby zastosować wiązanie styczności, należy wykonać następujące czynności
 -   Wybierz dwie lub trzy pozycje na szkicu.
 -   Wywołaj wiązanie, klikając jego ikonę na pasku narzędzi, wybierając element menu lub używając skrótu klawiaturowego.
 
-### Pomiędzy dwoma krzywymi *(bezpośrednia styczność)* {#pomiędzy_dwoma_krzywymi_bezpośrednia_styczność}
+### Pomiędzy dwoma krzywymi *(bezpośrednia styczność)* 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
 
@@ -44,7 +44,7 @@ Jeżeli bezpośrednia styczność pomiędzy wybranymi krzywymi nie jest obsługi
 
 Nie zaleca się rekonstrukcji punktu styczności poprzez tworzenie punktu i wiązanie go z ułożeniem na obu krzywych. Będzie to działać, ale zbieżność będzie znacznie wolniejsza, bardziej skokowa i będzie wymagała około dwa razy więcej iteracji do zbieżności niż normalnie. Użyj innych trybów tego wiązania, jeśli punkt styczności jest potrzebny.
 
-### Między dwoma punktami końcowymi (styczność punkt-punkt) {#między_dwoma_punktami_końcowymi_styczność_punkt_punkt}
+### Między dwoma punktami końcowymi (styczność punkt-punkt) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
@@ -54,7 +54,7 @@ W tym trybie punkty końcowe są zbieżne, a połączenie jest styczne *(C1 - g�
 
 -   punkt końcowy linii/łuku/łuku-ellipsy + punkt końcowy linii/łuku/łuku-ellipsy *(tj. dwa punkty końcowe dowolnych dwóch krzywych)*
 
-### Pomiędzy krzywą a punktem końcowym (styczność punkt - krzywa) {#pomiędzy_krzywą_a_punktem_końcowym_styczność_punkt___krzywa}
+### Pomiędzy krzywą a punktem końcowym (styczność punkt - krzywa) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
 
@@ -64,7 +64,7 @@ W tym trybie, punkt końcowy jednej krzywej jest związany z położeniem na dru
 
 -   linia, okrąg, łuk, elipsa, łuk elipsy + punkt końcowy linii/łuku/łuku elipsy *(tzn. każda krzywa + punkt końcowy każdej krzywej)*.
 
-### Między dwiema krzywymi w punkcie *(styczna do punktu) (v0.15)* {#między_dwiema_krzywymi_w_punkcie_styczna_do_punktu_v0.15}
+### Między dwiema krzywymi w punkcie *(styczna do punktu) (v0.15)* 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
 
@@ -82,7 +82,7 @@ W porównaniu z bezpośrednią stycznością, wiązanie to jest wolniejsze, poni
 
 Umiejscowienie punktu przed zastosowaniem wiązania jest wskazówką dla solwera, gdzie powinna znajdować się styczność. Z tym wiązaniem można związać dwie elipsy w dwóch miejscach, aby stykały się ze sobą.
 
-### Pomiędzy dwoma liniami *(współliniowe)* {#pomiędzy_dwoma_liniami_współliniowe}
+### Pomiędzy dwoma liniami *(współliniowe)* 
 
 <img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
 
@@ -90,7 +90,7 @@ Umiejscowienie punktu przed zastosowaniem wiązania jest wskazówką dla solwera
 
 -   dowolna linia / wierzchołek + dowolna linia / wierzchołek
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Wiązanie styczności może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji: 
 ```python

@@ -19,7 +19,7 @@
 
 The [Arch Straight Rebar](Arch_Rebar_Straight.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
 *Two sets of straight reinforcement bars inside an [[Arch Structure]]*
@@ -109,7 +109,7 @@ Rebar = makeStraightRebar(f_cover, coverAlong, rt_cover, lb_cover,
 
 Depending on the orientation of the rebar, the function can be called in two general ways by setting `coverAlong` appropriately.
 
-### The rebar is horizontal {#the_rebar_is_horizontal}
+### The rebar is horizontal 
 
 
 ```python
@@ -121,7 +121,7 @@ Rebar = makeStraightRebar(f_cover, ("Bottom Side", value), right_cover, left_cov
 
 -   In this case `rt_cover` refers to the `right_cover` offset, and `lb_cover` refers to the `left_cover` offset.
 
-### The rebar is vertical {#the_rebar_is_vertical}
+### The rebar is vertical 
 
 
 ```python
@@ -133,7 +133,7 @@ Rebar = makeStraightRebar(f_cover, ("Right Side", value), top_cover, bottom_cove
 
 -   In this case `rt_cover` refers to the `top_cover` offset, and `lb_cover` refers to the `bottom_cover` offset.
 
-### Example horizontal {#example_horizontal}
+### Example horizontal 
 
 
 ```python
@@ -152,7 +152,7 @@ Rebar2 = StraightRebar.makeStraightRebar(50, ("Bottom Side", 50), 100, 100,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
 
-### Example vertical {#example_vertical}
+### Example vertical 
 
 
 ```python
@@ -172,7 +172,7 @@ Rebar4 = StraightRebar.makeStraightRebar(50, ("Left Side", 50), 100, 100,
 Rebar4.ViewObject.ShapeColor = (0.0, 0.5, 0.5)
 ```
 
-### Edition of rebar {#edition_of_rebar}
+### Edition of rebar 
 
 You can change the properties of the rebar with the following function 
 ```python

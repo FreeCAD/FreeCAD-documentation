@@ -321,7 +321,7 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Add Welding Information to Leader](TechDraw_WeldSymbol.md): adds welding specifications to an existing leaderline. <small>(v0.19)</small> 
 
-## Caracteristici suplimentare {#caracteristici_suplimentare}
+## Caracteristici suplimentare 
 
 
 <div class="mw-translate-fuzzy">
@@ -333,14 +333,14 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 
 </div>
 
-## Setările de elecție {#setările_de_elecție}
+## Setările de elecție 
 
 -   <img alt="" src=images/Preferences-techdraw.svg  style="width:32px;"> [Preferences](TechDraw_Preferences.md): preferințele pentru valorile implicite ale paginii desenului, cum ar fi unghiul de proiectare, culori, dimensiunile textului și stilurile de linie.
 
 
 <div class="mw-translate-fuzzy">
 
-## Script-Programare {#script_programare}
+## Script-Programare 
 
 Instrumentele TechDraw pot fi utilizate în [macros](macros.md) și din consola [Python](Python.md) utilizând două API-uri.
 

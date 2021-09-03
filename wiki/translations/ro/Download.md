@@ -3,7 +3,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Varianta curentă stabilă {#varianta_curentă_stabilă}
+## Varianta curentă stabilă 
 
 
 </div>
@@ -37,7 +37,7 @@ Previous versions can be downloaded from the [releases](https://github.com/FreeC
 
 <div class="mw-translate-fuzzy">
 
-#### Note către utilizatorii de Windows {#note_către_utilizatorii_de_windows}
+#### Note către utilizatorii de Windows 
 
 -   The 32-Bit installer (x86) suportă următoarele versiune de Windows: 7/8/10.
 -   The 64-Bit installer (x64) suportă următoarele versiuni de Windows: 7/8/10.
@@ -48,7 +48,7 @@ Previous versions can be downloaded from the [releases](https://github.com/FreeC
 
 <div class="mw-translate-fuzzy">
 
-#### Note pentru utilizatorii de Mac OS X {#note_pentru_utilizatorii_de_mac_os_x}
+#### Note pentru utilizatorii de Mac OS X 
 
 Versiunea minim acceptată este Mac OS X 10.11 "El Capitan".
 
@@ -58,7 +58,7 @@ Versiunea minim acceptată este Mac OS X 10.11 "El Capitan".
 
 <div class="mw-translate-fuzzy">
 
-#### Note către utilizatorii de GNU/Linux {#note_către_utilizatorii_de_gnulinux}
+#### Note către utilizatorii de GNU/Linux 
 
 
 </div>
@@ -85,7 +85,7 @@ More information about FreeCAD\'s environment variables can be found on [the con
 
 <div class="mw-translate-fuzzy">
 
-### Versiuni în dezvoltare {#versiuni_în_dezvoltare}
+### Versiuni în dezvoltare 
 
 Dezvoltarea reeCAD-ului este întotdeauna activă! Doriți să verificați versiunea de dezvoltare 0.18? Pentru utilizatorii de Linux, verificați versiunea 0.18 [AppImage](AppImage.md).m Pentru MacOS, Windows și codul sursă, a se vedea pe pagina [FreeCAD releases](https://github.com/FreeCAD/FreeCAD/releases).
 
@@ -95,7 +95,7 @@ Dezvoltarea reeCAD-ului este întotdeauna activă! Doriți să verificați versi
 
 <div class="mw-translate-fuzzy">
 
-### Module și macro-uri suplimentare {#module_și_macro_uri_suplimentare}
+### Module și macro-uri suplimentare 
 
 
 </div>

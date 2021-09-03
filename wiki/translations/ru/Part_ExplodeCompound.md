@@ -25,9 +25,9 @@ The tool will also explode non-compound shapes into their lower-level constituen
 
 1.  Invoke the Part ExplodeCompound tool several ways:
     -   Pressing on the <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> button in the Part toolbar
-    -   Using the {{MenuCommand|Part → Compound → Explode compound}} entry in the Part menu
+    -   Using the **Part → Compound → Explode compound** entry in the Part menu
 
-## Use cases {#use_cases}
+## Use cases 
 
 -   Tweaking positions of shapes made by <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> [Draft OrthoArray](Draft_OrthoArray.md)
 -   Obtaining split pieces from result of <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Slice](Part_Slice.md) and <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Part Cut](Part_Cut.md)

@@ -45,7 +45,7 @@ Para empezar, abre FreeCAD, ve a *Archivo -\> Nuevo* para crear un nuevo documen
 
 <div class="mw-translate-fuzzy">
 
-## Definiendo el bloque {#definiendo_el_bloque}
+## Definiendo el bloque 
 
 Ahora empezaremos a trabajar en el modelo actual. Comenzaremos añadiendo un cubo para el contorno del bloque motor. Para ello necesitamos añadir una *pieza* al modelo, ve a Vista-\>Entorno-\>Pieza para seleccionar el [Módulo de Pieza](Part_Workbench/es.md). Observaras que después de seleccionar el entorno, tienes una configuración de barras de botones diferente en las barras de herramientas de arriba. Cambia a algunos de los otros entornos para familiarizarte con el sistema de entornos y luego vuelve al módulo de pieza.
 
@@ -55,7 +55,7 @@ Ahora empezaremos a trabajar en el modelo actual. Comenzaremos añadiendo un cub
 
 <div class="mw-translate-fuzzy">
 
-### El alojamiento {#el_alojamiento}
+### El alojamiento 
 
 En el módulo de pieza verás un puñado de iconos para crear objetos primitivos como cubos, esferas, conos, etc. Pulsa el icono del cubo (<img alt="" src=images/Part_Box.png  style="width:16px;">) para añadir un cubo a la escena. Cada una de las primitivas listada tiene un conjunto de parámetros que son definidos cuando se añade la primitiva. Si quieres puedes añadir un tipo de cada primitiva para ver como son. Las primitivas se pueden eliminar de la escena seleccionándolas y pulsando la tecla de suprimir. Existen dos modos de seleccionar objetos, puedes pulsar con el botón izquierdo del ratón en la vista 3D, o hacer clic sobre ellos en la vista en árbol. En ambos casos, manteniendo la tecla CTRL pulsada te permitirá seleccionar múltiples elementos. Puedes hacer un zoom en la vista 3D moviendo la rueda de tu ratón. Para encuadrar la vista pulsar el botón del medio y mover el ratón. Para girar la vista mantén presionado el botón central del ratón y sin soltarlo presiona el botón izquierdo y mueve el ratón. Tambien puedes hacer clic con el botón del medio en alguna parte de tu modelo 3D para hacer que la vista gire alrededor de dicho punto. También, los números 1-6 y el 0 te mostrarán carias vistas de la escena (planta, alzado, axonométrica, etc.). Dedica un minuto o dos habituándote con la manipulación de las vistas 3D.
 
@@ -101,7 +101,7 @@ Ahora que tienes el bloque motor dimensionado adecuadamente deberíamos darle un
 
 <div class="mw-translate-fuzzy">
 
-### El primer cilindro {#el_primer_cilindro}
+### El primer cilindro 
 
 Después tallaremos el primer cilindro a través de todo el bloque motor. Para ello añadiremos un cilindro al modelo con el tamaño que queramos abrir y haremos una operación booleana para \"restar\" el material del bloque. Pulsa el icono para añadir un cilindro (<img alt="" src=images/Part_Cylinder.png  style="width:16px;">) y luego selecciónalo y establece sus propiedades a las siguientes:
 
@@ -124,14 +124,14 @@ Una vez que las propiedades estén establecidas correctamente deberías ver las 
 
 <div class="mw-translate-fuzzy">
 
-### El segundo cilindro {#el_segundo_cilindro}
+### El segundo cilindro 
 
 Podríamos hacer el segundo cilindro del mismo modo, sin embargo es mucho más sencillo copiar el primer cilindro y cambiar la coordenada X de su ubicación. Para ello, selecciona el *Cilindro 1* y ve a *Editar -\> Duplicar selección*. Verás que el segundo cilindro aparece en la vista en árbol (llámalo *Cilindro 2*), pero no lo verás en la vista 3D ya que está ubicado en la misma posición que el primer cilindro. Ahora selecciona el *Cilindro 2* en la vista en árbol y cambia su coordenada X por 100 mm. Observarás que como se ha movido el cilindro en la vista 3D. Una vez que el segundo cilindro esté debidamente ubicado puedes verlo seleccionando el *Alojamiento* y pulsando la *barra espaciadora* para ocultarlo (Observa que los objetos ocultos están difuminados en la vista en árbol). Oculta los tres objetos uno a uno y luego vuelve a mostrarlos pulsando de nuevo la barra espaciadora al seleccionarlos en la vista en árbol.
 
 
 </div>
 
-### Tallando los cilindros {#tallando_los_cilindros}
+### Tallando los cilindros 
 
 <img alt="" src=images/_Engine_Block_Tutorial_-_Bored_Block.png  style="width:300px;">
 
@@ -143,13 +143,13 @@ Ahora que ambos cilindros están en su ubicación los utilizaremos para tallar e
 
 </div>
 
-### La ventaja clave del modelado paramétrico {#la_ventaja_clave_del_modelado_paramétrico}
+### La ventaja clave del modelado paramétrico 
 
 Ahora que hemos tallado los cilindros tomaremos un momento para ver una de las ventajas de este sistema. Supongamos que en algún punto de nuestro desarrollo, nos damos cuenta de que queremos los cilindros un poco mayores. Debido a que las operaciones se guardan y agrupan en la vista en árbol, podemos cambiar el tamaño de los cilindros y FreeCAD simplemente recalculará la unión y la diferencia. Prueba a modificar el radio y la posición de los dos cilindros y luego vuelve a dejarlos como se indicaba arriba.
 
-## El cárter {#el_cárter}
+## El cárter 
 
-### Alojamiento y tapas del acoplamiento {#alojamiento_y_tapas_del_acoplamiento}
+### Alojamiento y tapas del acoplamiento 
 
 
 <div class="mw-translate-fuzzy">
@@ -202,7 +202,7 @@ Renombra el corte resultante como *Cárter tallado*.
 
 <div class="mw-translate-fuzzy">
 
-### Tallando el alojamiento del eje {#tallando_el_alojamiento_del_eje}
+### Tallando el alojamiento del eje 
 
 Lo siguiente que haremos será un corte semicircular para situar el cigüeñal. Comenzaremos con un cilindro, pero la orientación por defecto del cilindro es vertical, y necesitamos uno horizontal. Esto significa que debemos enterarnos de como girar el cilindro para alinearlo correctamente con nuestro motor. Queremos el cigúeñal a lo largo del eje X, esto significa que desde su ubicación por defecto necesitamos girarlo 90º alrededor del eje Y. Crea un cilindro llamado *Tallado del Cigúeñal* y asignale estas propiedades (Observa que tenemos que especificar el parámetro de orientación además de las dimensiones y posición de los casos anteriores):
 
@@ -222,7 +222,7 @@ Corta el *Tallado del Cigúeñal* del *Cárter tallado* y renombralo como *Cárt
 
 </div>
 
-### Terminando el cárter {#terminando_el_cárter}
+### Terminando el cárter 
 
 
 <div class="mw-translate-fuzzy">
@@ -258,14 +258,14 @@ Para terminar cortaremos dos cubos para que las bielas de los pistones puedan pa
 
 A la derecha puedes ver el resultado final. Lo siguiente que haremos es utilizar el modo de croquizado para diseñar el patrón de pernos de fijación y eliminar gran parte del material que recubre los cilindros del bloque motor.
 
-## Croquizado 2D del diseño de la junta del bloque motor {#croquizado_2d_del_diseño_de_la_junta_del_bloque_motor}
+## Croquizado 2D del diseño de la junta del bloque motor 
 
 Para los pernos de fijación y la forma del bloque motor utilizaremos más operaciones booleanas para \"tallar\" la partes del bloque que no queremos.
 
 
 <div class="mw-translate-fuzzy">
 
-### Entrando al modo de croquizado 2De {#entrando_al_modo_de_croquizado_2de}
+### Entrando al modo de croquizado 2De 
 
 Lo primero que tenemos que hacer es cambiar al entorno de Croquizado 2D, seleccionando *Croquizado 2D* en la lista desplegable de la barra de herramientas superior, que actualmente dice *Pieza* o desde *Vista -\> Entornos*. Incluso aunque vamos a hacer un dibujo 2D seguiremos trabajando en la vista en 3D, diciéndole a FreeCAD en que plano vamos a trabajar. Después de activar el entorno de Croquizado 2D se mostrará la barra de comandos de croquis, a la derecha de ella se mostrarán varios iconos. Si pulsamos en el icono que está más a la izquierda nos permitirá especificar el plano de trabajo. Permite indicar una equidistancia y seleccionar algunos planos predefinidos: XY, XZ, YZ, Vista, y Ninguno. Los tres primeros son la planta, el alzado y el perfil, *Vista* utilizará el plano perpendicular a la dirección de la vista, y la última opción no proyectará sobre ningún plano dejando definir las completamente las coordenadas XYZ para cualquier punto. Seleccionamos la opción XY e indicamos un valor de 110 en el cuadro de texto de Equidistancia para trabajar en un plano paralelo al XY localizado a 110 mm de altura.
 
@@ -283,7 +283,7 @@ Aunque todo lo que dibujemos se proyectará sobre el plano de trabajo independie
 
 <div class="mw-translate-fuzzy">
 
-### Dibujando los pernos {#dibujando_los_pernos}
+### Dibujando los pernos 
 
 Selecciona el icono *Circunferencia* (<img alt="" src=images/Draft_Circle.png  style="width:16px;">). FreeCAD te preguntará por la ubicación del centro y por el radio. Puedes indicarlos con el ratón en el área gráfica o con el teclado. Añadir elementos croquizados con el ratón es más sencillo y rápido, pero no es muy preciso. Dibujaremos 3 circunferencias en las coordenadas y con los radios indicados a continuación.
 
@@ -309,7 +309,7 @@ Llama a estas circunferencias *Perno 1* *Perno 2* y *Perno 3*.
 
 <div class="mw-translate-fuzzy">
 
-### El otro lado del bloque {#el_otro_lado_del_bloque}
+### El otro lado del bloque 
 
 Ahora que los tres primeros pernos están situados de un lado del bloque motor, necesitamos otros tres del otro lado, hay tres formas de crearlos:
 
@@ -326,11 +326,11 @@ Como ya hemos visto las dos primeras opciones, vamos a utilizar la tercera. Volv
 
 Since you should already know how to do the first and second way, we will choose the third way for this example model. Each of the three methods has its own advantages and disadvantages, but a good operating rule is that simple models (like this one) probably should use the first or second methods, whereas models with lots of duplication and/or duplication of very complicated shapes/objects should probably use the third method.
 
-So even though it is a bit of overkill we will mirror these bolts as a demonstration. Switch back to the part workbench (note that you can always switch to the *Complete* workbench to see all the tools at once if you would rather not switch back and forth (deprecated since v0.17)) by going to {{MenuCommand|View → Workbench}}. Select the three bolt circles in the tree view, and then press the mirror button (<img alt="" src=images/Part_Mirror.svg  style="width:16px;">). Once you press the mirror button you should notice a new display called the *Combo view* pop up on in the pane underneath the Tree view. Many of the tools need additional input before they can run and the Combo view lets you enter these parameters. You can make the Combo view larger by dragging the divider line separating it from the Property view up or down. Select **Bolt 1** from the list on the Combo view and set the *mirror plane* to XZ, then press OK (do the same for bolts 2 and 3).
+So even though it is a bit of overkill we will mirror these bolts as a demonstration. Switch back to the part workbench (note that you can always switch to the *Complete* workbench to see all the tools at once if you would rather not switch back and forth (deprecated since v0.17)) by going to **View → Workbench**. Select the three bolt circles in the tree view, and then press the mirror button (<img alt="" src=images/Part_Mirror.svg  style="width:16px;">). Once you press the mirror button you should notice a new display called the *Combo view* pop up on in the pane underneath the Tree view. Many of the tools need additional input before they can run and the Combo view lets you enter these parameters. You can make the Combo view larger by dragging the divider line separating it from the Property view up or down. Select **Bolt 1** from the list on the Combo view and set the *mirror plane* to XZ, then press OK (do the same for bolts 2 and 3).
 
 At this point you should have a basic engine block with the cylinders bored out and the headbolt locations marked.
 
-### Eliminando el material excedente del bloque motor {#eliminando_el_material_excedente_del_bloque_motor}
+### Eliminando el material excedente del bloque motor 
 
 Ahora que tenemos los taladros marcados para los pernos queremos recortar la parte exterior del bloque con una forma más conveniente. Esto hará el motor más ligero, permitirá que se enfríe mejor y se utilizará menos material para fundir el bloque. Al igual que con el los pernos crearemos un croquis 2D con la forma exterior que deseamos para el producto final. Utilizaremos geometría constructiva 2D para servir como referencia al trazar una spline con la forma exterior del bloque.
 
@@ -360,7 +360,7 @@ Ahora dibujaremos una spline para definir el exterior del bloque motor. Como est
 
 The control points are not shown in that picture so I have added a second screenshot showing the finished spline in edit mode (click the *Edit mode* button to turn editing on or off for the selected object, make sure to turn it off when you are done editing it or just skip over this step if you are satisfied with your engine block shape). Also, note that there is a discontinuity on the leftmost edge of the spline curve, even though it is closed properly, this is a bug in the program behavior and is currently being fixed, as a result your spline curve may look slightly different if you are running a newer version of the software than is available at this time.
 
-### Extrusión del diseño 2D en el modelo 3D para finalizar el diseño {#extrusión_del_diseño_2d_en_el_modelo_3d_para_finalizar_el_diseño}
+### Extrusión del diseño 2D en el modelo 3D para finalizar el diseño 
 
 
 <div class="mw-translate-fuzzy">

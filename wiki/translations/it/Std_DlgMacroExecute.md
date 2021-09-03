@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibili tramite {{MenuCommand|Macro → Esegui la macro}}, oppure tramite il pulsante **<img src=images/Std_DlgMacroExecute.png style="width:16px"> Esegui la macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:" height="24px;">.
+Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibili tramite **Macro → Esegui la macro**, oppure tramite il pulsante **<img src=images/Std_DlgMacroExecute.png style="width:16px"> Esegui la macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:" height="24px;">.
 
 
 </div>
@@ -33,24 +33,24 @@ Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibi
 
 <div class="mw-translate-fuzzy">
 
-Quando si entra in {{MenuCommand|<img src=images/Std_DlgMacroExecuteDirect.png style="width:16px"> <img src=images/Std_DlgMacroExecute.png style="width:Editor della macro](Std_DlgMacroExecuteDirect/it.md)}}, il pulsante **[16px"> Esegui la macro** assume il colore verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:16px;">. Fare clic su questo pulsante per eseguire la macro.
+Quando si entra in **<img src=images/Std_DlgMacroExecuteDirect.png style="width:16px"> <img src=images/Std_DlgMacroExecute.png style="width:Editor della macro](Std_DlgMacroExecuteDirect/it.md)**, il pulsante **[16px"> Esegui la macro** assume il colore verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:16px;">. Fare clic su questo pulsante per eseguire la macro.
 
 
 </div>
 
 ## Options
 
-### User macros {#user_macros}
+### User macros 
 
 1.  The **User macros** tab lists the macros available in the **User macros location**.
 2.  Click a macro to select it.
 3.  The name of the selected macro will appear in the **Macro name** box.
 
-### System macros {#system_macros}
+### System macros 
 
 :   The **System macros** tab is not used at this time.
 
-### User macros location {#user_macros_location}
+### User macros location 
 
 1.  Press the **...** button to change the user macros location.
 2.  Browse to a different folder and select it.
@@ -118,7 +118,7 @@ Quando si entra in {{MenuCommand|<img src=images/Std_DlgMacroExecuteDirect.png s
 
 ## Preferences
 
--   The user macros location can also be changed in the preferences: {{MenuCommand|Edit → Preferences... → General → Macro → Macro path}}. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

@@ -25,7 +25,7 @@ Questo strumento crea un foglio di calcolo per memorizzare le proprietà [IFC](A
 2.  Richiamare il comando utilizzando uno di questi metodi:
     -   Premereil pulsante **<img src="images/Arch_Schedule.svg" width=16px> Crea un foglio di calcolo IFC** nella barra degli strumenti.
     -   Usare la scorciatoia da tastiera **I** **P**.
-    -   Usare la voce {{MenuCommand|Arch → Utilità → <img src="images/Arch_Schedule.svg" width=16px> Crea un foglio di calcolo IFC}} del menu principale.
+    -   Usare la voce **Arch → Utilità → <img src="images/Arch_Schedule.svg" width=16px> Crea un foglio di calcolo IFC** del menu principale.
 
 
 </div>

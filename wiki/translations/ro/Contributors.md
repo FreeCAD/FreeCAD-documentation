@@ -10,9 +10,9 @@
 
 FreeCAD n-ar fi ceea ce este fără contribuţia generoasă a mai multor persoane. Aici găsiţi o cuprindere a oamenilor şi companiilor care au contribuit la realizarea FreeCAD de-a lungul timpului. Pentru creditele cuvenite de sursele terţiare vedeţi pagina [Third Party Libraries/ro](Third_Party_Libraries/ro.md).
 
-### In lucru {#in_lucru}
+### In lucru 
 
-#### Conducătorii proiectului {#conducătorii_proiectului}
+#### Conducătorii proiectului 
 
 Dezvoltatorii de frunte ai proiectului FreeCAD
 
@@ -20,7 +20,7 @@ Dezvoltatorii de frunte ai proiectului FreeCAD
 -   [Werner Mayer](User:Wmayer.md)
 -   [Yorik van Havre](User:Yorikvanhavre.md)
 
-#### Principalii dezvoltatori {#principalii_dezvoltatori}
+#### Principalii dezvoltatori 
 
 Oamenii care contribuie în mod regulat la elaborarea codului FreeCAD (prezentaţi de <https://github.com/FreeCAD/FreeCAD/graphs/contributors>):
 
@@ -48,7 +48,7 @@ Oamenii care contribuie în mod regulat la elaborarea codului FreeCAD (prezenta�
 -   [Victor Titov (DeepSOIC)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
 -   [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375)
 
-#### Alţi codificatori {#alţi_codificatori}
+#### Alţi codificatori 
 
 Alte persoane care au contribuit la crearea programelor dim proiectul FreeCAD:
 
@@ -102,7 +102,7 @@ Companii care au donat cod sau din timpul dezvoltatorilor:
 -   [KiCad Services Corporation](https://www.kipro-pcb.com/)
 -   [OpeningDesign](https://openingdesign.com)
 
-### Modeeratori pe Forum {#modeeratori_pe_forum}
+### Modeeratori pe Forum 
 
 Persoane responsabile de [FreeCAD forum](http://forum.freecadweb.org) (preluat din <http://forum.freecadweb.org/memberlist.php?mode=team>):
 
@@ -150,7 +150,7 @@ Oameni din comunitate care au depus multe eforturi în a ajuta proiectul FreeCAD
 -   [triplus](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=782)
 -   [ulrich1a](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1928)
 
-### Documentation writers {#documentation_writers}
+### Documentation writers 
 
 Oamenii care au scris documentația despre asta [wiki](Main_Page.md):
 
@@ -231,7 +231,7 @@ Persoane care au ajutat la traducerea aplicației FreeCAD(preluat din <https://c
 -   [Николай Матвеев](User:Николай_Матвеев.md)
 -   [Федір](User:Федір.md)
 
-### Dezvoltatori de Addons {#dezvoltatori_de_addons}
+### Dezvoltatori de Addons 
 
 Dezvoltatori ai FreeCAD addons (preluat din <https://github.com/FreeCAD/FreeCAD-addons>):
 

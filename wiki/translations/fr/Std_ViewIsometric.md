@@ -18,8 +18,8 @@ La commande **Std Vue isométrique** réaligne la caméra dans la [vue 3D](3D_vi
 
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_ViewIsometric.svg" width=16px> [Choisir la vue isométrique (0)](Std_ViewIsometric/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Affichage → Vues standard → Axonometric → <img src="images/Std_ViewIsometric.svg" width=16px> Isométrique}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand|Vues standard → <img src="images/Std_ViewIsometric.svg" width=16px> Isométrique}} dans le menu contextuel de la [vue 3D](3D_view/fr.md).
+    -   Sélectionnez l\'option **Affichage → Vues standard → Axonometric → <img src="images/Std_ViewIsometric.svg" width=16px> Isométrique** dans le menu.
+    -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewIsometric.svg" width=16px> Isométrique** dans le menu contextuel de la [vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier: **0**.
 
 ## Remarques

@@ -41,7 +41,7 @@ A se vedea [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) pent
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Apăsați butonul **<img src="images/Arch_Stairs.png" width=16px> [[Arch Stairs]]
 ** button, sau apăsați testele **S**, **R**
@@ -106,7 +106,7 @@ Structure
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

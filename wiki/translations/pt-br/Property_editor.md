@@ -8,7 +8,7 @@
 
 ## Introdução
 
-O [editor de propriedades](property_editor/pt-br.md) aparece quando a guia {{MenuCommand|Model}} da [visão combinada](combo_view/pt-br.md) está ativa na [interface](interface/pt-br.md); ele permite gerenciar as propriedades publicamente expostas dos objetos de documento.
+O [editor de propriedades](property_editor/pt-br.md) aparece quando a guia **Model** da [visão combinada](combo_view/pt-br.md) está ativa na [interface](interface/pt-br.md); ele permite gerenciar as propriedades publicamente expostas dos objetos de documento.
 
 Geralmente, o editor de propriedade é destinado a lidar com apenas um objeto de cada vez. Os valores mostrados no editor de propriedade pertencem ao objeto selecionado do documento ativo. Apesar disso, algumas propriedades como cores, podem ser definidas para vários objetos selecionados. Se não houver elementos selecionados, o editor de propriedades estará vazio.
 
@@ -19,7 +19,7 @@ Nem todas as propriedades podem ser modificadas sempre; dependendo do status esp
 
 *Editor de propriedade vazia, quando nenhum objeto é selecionado.*
 
-## Tipos de propriedade {#tipos_de_propriedade}
+## Tipos de propriedade 
 
 Uma propriedade é uma informação como um número ou uma cadeia de texto que é anexada a um documento FreeCAD ou a um objeto no documento.
 
@@ -40,21 +40,21 @@ App::PropertyPlacement
 
 Objetos diferentes podem ter diferentes tipos de propriedade. No entanto, muitos objetos têm os mesmos tipos porque são derivados da mesma classe interna. Por exemplo, a maioria dos objetos que descrevem formas geométricas (linhas, círculos, retângulos, sólidos, peças importadas, etc.) tem a propriedade \"Colocação\" que define sua posição na [Vista 3D](3D_view/pt-br.md).
 
-## Propriedades de visualização e dados {#propriedades_de_visualização_e_dados}
+## Propriedades de visualização e dados 
 
 Há duas classes de propriedades funcionais acessíveis através de abas no editor de propriedades:
 
--   Propriedades da {{MenuCommand|Vista}} as propriedades relacionadas à aparência \"visual\" do objeto. As propriedades de visualização estão ligadas ao atributo **ViewProvider**(`ViewObject`) do objeto e só são acessíveis quando a interface gráfica do usuário (GUI) é carregada. Eles não são acessíveis quando se usa o FreeCAD no modo de console ou como biblioteca sem cabeça.
--   Propriedades dos {{MenuCommand|dados}} relativos aos parâmetros \"físicos\" do objeto. As propriedades dos {{MenuCommand|dados}}definem as características essenciais do objeto; elas sempre existem, mesmo quando o FreeCAD é usado no modo console ou como uma biblioteca. Isto significa que se você carregar um documento em modo console, você pode alterar o raio de um círculo ou o comprimento de uma linha, mesmo que não consiga ver o resultado na tela.
+-   Propriedades da **Vista** as propriedades relacionadas à aparência \"visual\" do objeto. As propriedades de visualização estão ligadas ao atributo **ViewProvider**(`ViewObject`) do objeto e só são acessíveis quando a interface gráfica do usuário (GUI) é carregada. Eles não são acessíveis quando se usa o FreeCAD no modo de console ou como biblioteca sem cabeça.
+-   Propriedades dos **dados** relativos aos parâmetros \"físicos\" do objeto. As propriedades dos **dados**definem as características essenciais do objeto; elas sempre existem, mesmo quando o FreeCAD é usado no modo console ou como uma biblioteca. Isto significa que se você carregar um documento em modo console, você pode alterar o raio de um círculo ou o comprimento de uma linha, mesmo que não consiga ver o resultado na tela.
 
-Por esta razão, as propriedades dos {{MenuCommand|dados}} são consideradas mais \"importantes\", uma vez que, na verdade, definem a geometria de uma forma. Por outro lado, as propriedades de {{MenuCommand|Vista}} são menos importantes porque afetam apenas a aparência da superfície da geometria. Por exemplo, um círculo com um raio de 10 mm é diferente de um círculo com um raio de 5 mm; a cor dos círculos (propriedade da aparência) não afeta sua forma, mas o raio (propriedade de dados). Em muitos casos, nesta documentação, a palavra \"Propriedade\" se refere a uma \"propriedade de dados\", não a uma \"propriedade de aparência\".
+Por esta razão, as propriedades dos **dados** são consideradas mais \"importantes\", uma vez que, na verdade, definem a geometria de uma forma. Por outro lado, as propriedades de **Vista** são menos importantes porque afetam apenas a aparência da superfície da geometria. Por exemplo, um círculo com um raio de 10 mm é diferente de um círculo com um raio de 5 mm; a cor dos círculos (propriedade da aparência) não afeta sua forma, mas o raio (propriedade de dados). Em muitos casos, nesta documentação, a palavra \"Propriedade\" se refere a uma \"propriedade de dados\", não a uma \"propriedade de aparência\".
 
-### Propriedades básicas {#propriedades_básicas}
+### Propriedades básicas 
 
 
 **Veja também: [Nome do objeto](Object_name/pt-br.md)**
 
-O mais básico [script de objeto](scripted_objects/pt-br.md) não exibe nenhuma propriedade de {{MenuCommand|Dados}} no editor de propriedade, exceto por seu atributo `Label`. O `Rótulo` é uma cadeia editável pelo usuário que identifica o objeto na [vista em árvore](tree_view.md). Por outro lado, o `Nome` de um objeto é um atributo interno que é atribuído ao objeto no momento de sua criação. Este atributo é somente de leitura, portanto não pode ser modificado, nem é exibido no editor de propriedade.
+O mais básico [script de objeto](scripted_objects/pt-br.md) não exibe nenhuma propriedade de **Dados** no editor de propriedade, exceto por seu atributo `Label`. O `Rótulo` é uma cadeia editável pelo usuário que identifica o objeto na [vista em árvore](tree_view.md). Por outro lado, o `Nome` de um objeto é um atributo interno que é atribuído ao objeto no momento de sua criação. Este atributo é somente de leitura, portanto não pode ser modificado, nem é exibido no editor de propriedade.
 
 Um objeto paramétrico básico é criado da seguinte forma
 
@@ -81,34 +81,34 @@ As ações na visão da propriedade foram implementadas em 0.19.
 
 Clicar com o botão direito do mouse em um espaço vazio na vista ou com uma propriedade selecionada mostra apenas um comando:
 
--    {{MenuCommand|Mostrar todos:}}se ativo, além das propriedades padrão que já aparecem, mostra todos os dados ocultos e exibe as propriedades nas respectivas abas.
+-    **Mostrar todos:**se ativo, além das propriedades padrão que já aparecem, mostra todos os dados ocultos e exibe as propriedades nas respectivas abas.
 
     -   Dados:\"Proxy\", \"Label2\", \"Expression Engine\", e \"Visibility\".
     -   Vista:\"Proxy\".
 
-Quando a opção {{MenuCommand|Mostrar todas}} está ativa, e uma propriedade é selecionada, mais ações estão disponíveis com um segundo clique do botão direito:
+Quando a opção **Mostrar todas** está ativa, e uma propriedade é selecionada, mais ações estão disponíveis com um segundo clique do botão direito:
 
--    {{MenuCommand|Mostrar todas}}: desabilita o comando {{MenuCommand|Mostrar todas}}, escondendo assim os dados adicionais e as propriedades de exibição.
+-    **Mostrar todas**: desabilita o comando **Mostrar todas**, escondendo assim os dados adicionais e as propriedades de exibição.
 
--    {{MenuCommand|Adicionar propriedade}}: Isto funciona tanto com objetos definidos em C++, quanto com [scripts de objetos](scripted_objects/pt-br.md) escritos em Python.
+-    **Adicionar propriedade**: Isto funciona tanto com objetos definidos em C++, quanto com [scripts de objetos](scripted_objects/pt-br.md) escritos em Python.
 
--    {{MenuCommand|Expressão...}}:chama o editor de fórmula, que permite o uso de [expressões](Expressions.md) no valor da propriedade.
+-    **Expressão...**:chama o editor de fórmula, que permite o uso de [expressões](Expressions.md) no valor da propriedade.
 
--    {{MenuCommand|Hidden}}: se ativo, define a propriedade como oculta, o que significa que ela só será exibida no editor da propriedade se {{MenuCommand|Mostrar todas}} está ativo.
+-    **Hidden**: se ativo, define a propriedade como oculta, o que significa que ela só será exibida no editor da propriedade se **Mostrar todas** está ativo.
 
--    {{MenuCommand|Output}}: se ativo, define a propriedade como uma saída.
+-    **Output**: se ativo, define a propriedade como uma saída.
 
--    {{MenuCommand|NoRecompute}}: se ativo, define a propriedade como não recalculada quando o documento é recalculado; isto é útil quando uma propriedade não deve ser afetada por outras atualizações.
+-    **NoRecompute**: se ativo, define a propriedade como não recalculada quando o documento é recalculado; isto é útil quando uma propriedade não deve ser afetada por outras atualizações.
 
--    {{MenuCommand|ReadOnly}}:se ativo, define a propriedade para somente leitura. Não será mais editável no editor da propriedade até que esta configuração seja desativada. A entrada do menu {{MenuCommand|Expressão...}} não está mais disponível. Nota: Ainda pode ser possível alterar o imóvel através de um diálogo que atualize o imóvel.
+-    **ReadOnly**:se ativo, define a propriedade para somente leitura. Não será mais editável no editor da propriedade até que esta configuração seja desativada. A entrada do menu **Expressão...** não está mais disponível. Nota: Ainda pode ser possível alterar o imóvel através de um diálogo que atualize o imóvel.
 
--    {{MenuCommand|Transient}}:se ativo, define a propriedade como transitória. O valor de uma propriedade transitória não é armazenado em um arquivo. Quando um arquivo é aberto, ele é instanciado com seu valor padrão.
+-    **Transient**:se ativo, define a propriedade como transitória. O valor de uma propriedade transitória não é armazenado em um arquivo. Quando um arquivo é aberto, ele é instanciado com seu valor padrão.
 
--    {{MenuCommand|Touched}}:se estiver ativo, ele é atingido e está pronto para ser recalculado.
+-    **Touched**:se estiver ativo, ele é atingido e está pronto para ser recalculado.
 
--    {{MenuCommand|EvalOnRestore}}: se estiver ativo, ele é avaliado quando o documento é restaurado.
+-    **EvalOnRestore**: se estiver ativo, ele é avaliado quando o documento é restaurado.
 
-## Exemplo de propriedades de um objeto PartDesign {#exemplo_de_propriedades_de_um_objeto_partdesign}
+## Exemplo de propriedades de um objeto PartDesign 
 
 Nesta seção mostramos algumas propriedades comuns visíveis para um [Corpo PartDesign](PartDesign_Body/pt-br.md) e uma [Função PartDesign](PartDesign_Feature/pt-br.md). As propriedades específicas de um objeto podem ser encontradas na página de documentação específica para esse objeto.
 
@@ -220,7 +220,7 @@ print(obj.CustomCamelProperty)
 
 ![](images/FreeCAD_Property_editor_Custom.png ) *Editor de propriedade mostrando as propriedades de dados de um  [PartDesign Body](PartDesign_Body/pt-br.md), com duas propriedades adicionais, "Custom" e "Custom Camel Property".*
 
-Da mesma forma, as propriedades {{MenuCommand|View}}são adicionadas, não ao objeto base, mas ao seu `ViewObject`.Então, segue-se que propriedades como **Angular Deflection**, **Bounding Box**, **Display Mode**, **Display Mode Body**, **Line Color**, e outros, podem ser examinados e alterados a partir no [console Python](Python_console/pt-br.md).
+Da mesma forma, as propriedades **View**são adicionadas, não ao objeto base, mas ao seu `ViewObject`.Então, segue-se que propriedades como **Angular Deflection**, **Bounding Box**, **Display Mode**, **Display Mode Body**, **Line Color**, e outros, podem ser examinados e alterados a partir no [console Python](Python_console/pt-br.md).
 
 
 ```python

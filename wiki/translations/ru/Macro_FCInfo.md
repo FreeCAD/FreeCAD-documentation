@@ -160,13 +160,13 @@ Image:Macro\_FCInfo\_04.png\|Docked to rigth, Image:Macro FCInfo 05.png\|or left
 
 ## Варианты
 
-### Используемая единица {#используемая_единица}
+### Используемая единица 
 
-#### Единица длины: {#единица_длины}
+#### Единица длины: 
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
-#### Угол градусов : {#угол_градусов}
+#### Угол градусов : 
 
 1.  **decimal degree**, ex: 174.831872611°
 2.  degree minute seconde, ex: 174° 49\' 54.741401\'\'
@@ -188,7 +188,7 @@ click twice to see the animation (the image must be in full screen)
 
 
 
-#### Единица измерения веса : {#единица_измерения_веса}
+#### Единица измерения веса : 
 
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
 lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct

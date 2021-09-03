@@ -15,8 +15,8 @@ Il comando **Visualizza tutto** adatta la camera in modo che tutti gli oggetti s
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_ViewFitAll.svg" width=16px> Visualizza tutto**.
-    -   Selezionare l\'opzione {{MenuCommand|Visualizza → Viste standard → <img src="images/Std_ViewFitAll.svg" width=16px> Visualizza tutto}} dal menu.
-    -   Selezionare l\'opzione {{MenuCommand|<img src="images/Std_ViewFitAll.svg" width=16px> Visualizza tutto}} dal menu contestuale della [vista 3D](3D_view/it.md).
+    -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewFitAll.svg" width=16px> Visualizza tutto** dal menu.
+    -   Selezionare l\'opzione **<img src="images/Std_ViewFitAll.svg" width=16px> Visualizza tutto** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **V** e poi **F**.
 
 ## Note

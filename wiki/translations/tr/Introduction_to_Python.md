@@ -902,7 +902,7 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 [top](#top.md)
 
-## FreeCAD ile Başlamak {#freecad_ile_başlamak}
+## FreeCAD ile Başlamak 
 
 
 <div class="mw-translate-fuzzy">

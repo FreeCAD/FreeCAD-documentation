@@ -14,7 +14,7 @@ Cet outil supprime tous les éléments de géométrie de l\'esquisse en cours d\
 
 ## Utilisation
 
-1.  Aller dans le menu {{MenuCommand|Sketch → Outils d'esquisse → <img src=images/Sketcher_DeleteAllGeometry.svg style="width:16px"> Supprimer tous les éléments de géométrie}}.
+1.  Aller dans le menu **Sketch → Outils d'esquisse → <img src=images/Sketcher_DeleteAllGeometry.svg style="width:16px"> Supprimer tous les éléments de géométrie**.
 2.  Répondre **Oui** au message pop up.
 
 

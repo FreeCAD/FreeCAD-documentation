@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Questo progetto è volto a implementare in FreeCAD un adeguato Sistema di Unità di misura. Esso segue le regole della metodologia \[<http://en.wikipedia.org/wiki/GTD#GTD_methodology>\| Getting things done\] (metodo per l\'organizzazione delle proprie azioni, per la gestione del tempo e dei progetti per \'fare in modo che le cose vengano fatte\'). I progetti sono raccolti nel [Piano di sviluppo](Development_roadmap/it.md) (Development roadmap).
 
-## Finalità e principi {#finalità_e_principi}
+## Finalità e principi 
 
 Questo è un progetto di sviluppo del software il cui scopo è di implementare in FreeCAD un ambiente per un Sistema di Unità di misura.
 
@@ -32,7 +32,7 @@ Inoltre molte delle informazioni che si trovano nell\'articolo [ Unità di misur
 
 ## Organizzazione
 
-### Aggiornare l\'analizzatore delle unità {#aggiornare_lanalizzatore_delle_unità}
+### Aggiornare l\'analizzatore delle unità 
 
 Aggiornare il parser (l\'analizzatore) per gestire e generare le firme come discusso nell\'articolo [ Unità di misura](Units/it.md).
 
@@ -47,7 +47,7 @@ Creare eventualmente un editor delle proprietà per le PropertyUntit.
 -   Aggiornare gli ambienti di lavoro per consentire di utilizzare la struttura Unità. Vorrei iniziare dagli ambienti Schizzo e PartDesign e proseguire in ordine \...
 -   Documentare questo processo di aggiornamento in modo che altri possono fare lo stesso lavoro con altri ambienti di lavoro \--[Yorikvanhavre](User:Yorikvanhavre.md) 13:13, 28 November 2011 (UTC)
 
-## Azioni successive {#azioni_successive}
+## Azioni successive 
 
 -   Aggiornare l\'analizzatore delle Unità (jriegel)
 

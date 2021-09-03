@@ -34,7 +34,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 *Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a solid object, and perform the actual solution of the finite element problem*
 
-## Menu: Model {#menu_model}
+## Menu: Model 
 
 -   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> [Analysis container](FEM_Analysis.md): Creates a new container for a mechanical analysis. If a solid is selected in the tree view before clicking on it, the meshing dialog will be opened next.
 
@@ -50,7 +50,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> [Material editor](Material_editor.md): Lets you open the material editor to edit materials.
 
-### Element Geometry {#element_geometry}
+### Element Geometry 
 
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Beam cross section](FEM_ElementGeometry1D.md): Used to define cross sections for beam elements.
 
@@ -60,17 +60,17 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Fluid section for 1D flow](FEM_ElementFluid1D.md): Creates a FEM fluid section element for pneumatic and hydraulic networks.
 
-### Electrostatic Constraints {#electrostatic_constraints}
+### Electrostatic Constraints 
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Constraint electrostatic potential](FEM_ConstraintElectrostaticPotential.md):
 
-### Fluid Constraints {#fluid_constraints}
+### Fluid Constraints 
 
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md): Used to define an initial flow velocity for the domain.
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md): Used to define a flow velocity as a boundary condition at an edge (2D) or face (3D).
 
-### Geometrical Constraints {#geometrical_constraints}
+### Geometrical Constraints 
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Constraint plane rotation](FEM_ConstraintPlaneRotation.md): Used to define a plane rotation constraint on a planar face.
 
@@ -78,7 +78,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Constraint transform](FEM_ConstraintTransform.md): Used to define a transform constraint on a face.
 
-### Mechanical Constraints {#mechanical_constraints}
+### Mechanical Constraints 
 
 -   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Constraint fixed](FEM_ConstraintFixed.md): Used to define a fixed constraint on point/edge/face(s).
 
@@ -94,7 +94,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight.md): Used to define a gravity acceleration acting on a model.
 
-### Thermal Constraints {#thermal_constraints}
+### Thermal Constraints 
 
 -   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature.md): Used to define the initial temperature of a body.
 
@@ -104,7 +104,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Constraint body heat source](FEM_ConstraintBodyHeatSource.md): Used to define an internally generated body heat.
 
-### Constraints without solver {#constraints_without_solver}
+### Constraints without solver 
 
 -   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary.md):
 
@@ -114,11 +114,11 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley.md): Used to define a pulley constraint.
 
-### Overwrite Constants {#overwrite_constants}
+### Overwrite Constants 
 
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md): <small>(v0.19)</small> 
 
-## Menu: Mesh {#menu_mesh}
+## Menu: Mesh 
 
 -   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [FEM mesh from shape by Netgen](FEM_MeshNetgenFromShape.md):
 
@@ -134,7 +134,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md): Convert the surface of a FEM mesh to a mesh.
 
-## Menu: Solve {#menu_solve}
+## Menu: Solve 
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md): Creates a new solver for this analysis. In most cases the solver is created together with the analysis.
 
@@ -160,7 +160,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_SolverRun.svg  style="width:32px;"> [Run solver calculations](FEM_SolverRun.md): Runs the selected solver of the active analysis.
 
-## Menu: Results {#menu_results}
+## Menu: Results 
 
 -   <img alt="" src=images/FEM_ResultsPurge.svg  style="width:32px;"> [Purge results](FEM_ResultsPurge.md): Deletes the results of the active analysis.
 
@@ -188,7 +188,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;">
     -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;">
 
-## Menu: Utilities {#menu_utilities}
+## Menu: Utilities 
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width:32px;"> [Clipping plane on face](FEM_ClippingPlaneAdd.md):
 
@@ -196,7 +196,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width:32px;"> [Open FEM examples](FEM_Examples.md): Open the GUI to access FEM examples.
 
-## Context Menu {#context_menu}
+## Context Menu 
 
 -   <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> [Clear FEM mesh](FEM_MeshClear.md): Deletes the mesh file from the FreeCAD file. Useful to make a FreeCAD file lighter.
 
@@ -246,7 +246,7 @@ Video tutorial 2: [FEM video for beginner](https://forum.freecadweb.org/viewtopi
 
 Many video tutorials: [anisim Open Source Engineering Software](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (in German)
 
-## Extending the FEM Workbench {#extending_the_fem_workbench}
+## Extending the FEM Workbench 
 
 The FEM Workbench is under constant development. An objective of the project is to find ways to easily interact with various FEM solvers, so that the end user can streamline the process of creating, meshing, simulating, and optimizing an engineering design problem, all within FreeCAD.
 
@@ -264,7 +264,7 @@ A developer\'s guide has been written to help power users in understanding the c
 -   [Early preview of ebook: Module developer\' guide to FreeCAD source](https://forum.freecadweb.org/viewtopic.php?t=17581) forum thread.
 -   [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) github repository.
 
-## Extending the FEM Workbench documentation {#extending_the_fem_workbench_documentation}
+## Extending the FEM Workbench documentation 
 
 -   More information regarding extending or missing FEM documentation can be found in the forum: [FEM documentation missing on the Wiki](https://forum.freecadweb.org/viewtopic.php?f=18&t=20823)
 

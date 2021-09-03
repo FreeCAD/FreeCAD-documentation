@@ -39,7 +39,7 @@ Ez az eszköz lehetővé teszi egy [\*.STL](https://en.wikipedia.org/wiki/STL_(f
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Properties
 

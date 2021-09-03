@@ -17,7 +17,7 @@ Remarque: le travail ci-dessous est présent dans la branche de développement d
 
 L\'outil [Dessin d\'armature](Arch_Rebar_Drawing/fr.md) permet à l\'utilisateur de créer un dessin d\'armatures.
 
-Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Drawing_example.svg  style="width:800px;">
 
@@ -38,7 +38,7 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
     makeStructuresReinforcementDrawing(view=view)
 ```
 
-## Objet ReinforcementDrawingView {#objet_reinforcementdrawingview}
+## Objet ReinforcementDrawingView 
 
 Un objet de la vue SVG Dessin des armatures.
 
@@ -101,9 +101,9 @@ Un objet de la vue SVG Dessin des armatures.
 
 L\'outil [Dessin d\'armature](Arch_Rebar_Drawing/fr.md) peut être utilisé dans [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
 
-### Créer une vue de dessin de l\'armature {#créer_une_vue_de_dessin_de_larmature}
+### Créer une vue de dessin de l\'armature 
 
-#### Pour une structure {#pour_une_structure}
+#### Pour une structure 
 
 
 ```python
@@ -251,7 +251,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
     )
 ```
 
-#### Pour plusieurs structures {#pour_plusieurs_structures}
+#### Pour plusieurs structures 
 
 
 ```python
@@ -285,7 +285,7 @@ structure_drawing_page_dict = makeStructuresReinforcementDrawing(
 
 -    `rebars_list`est la liste des objets d\'armature à inclure dans le dessin. S\'ils ne sont pas fournis, les objets d\'armature ayant Host dans structure\_list seront sélectionnés à partir du document actif.
 
-##### Exemple {#exemple_1}
+##### Exemple 
 
 
 ```python

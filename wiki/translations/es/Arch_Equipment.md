@@ -40,7 +40,7 @@ Cuando se utiliza el exportador Arch OBJ, todos los equipos que están en el mod
 
 <div class="mw-translate-fuzzy">
 
-## Como utilizar {#como_utilizar}
+## Como utilizar 
 
 
 </div>

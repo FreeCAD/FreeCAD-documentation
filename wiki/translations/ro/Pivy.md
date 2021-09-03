@@ -31,7 +31,7 @@ from pivy import coin
 
 <div class="mw-translate-fuzzy">
 
-## Accesarea și modificarea unui scene grafice 3D {#accesarea_și_modificarea_unui_scene_grafice_3d}
+## Accesarea și modificarea unui scene grafice 3D 
 
 
 </div>
@@ -162,7 +162,7 @@ sg.removeChild(myCustomNode)
 
 <div class="mw-translate-fuzzy">
 
-## Utilizarea mecanismului de trecere în argument a unei alte funcții {#utilizarea_mecanismului_de_trecere_în_argument_a_unei_alte_funcții}
+## Utilizarea mecanismului de trecere în argument a unei alte funcții 
 
 
 </div>

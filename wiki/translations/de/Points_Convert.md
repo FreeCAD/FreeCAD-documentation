@@ -21,14 +21,14 @@ Ein Formobjekt bezeichnet hier jedes Objekt mit einer **Form** Eigenschaft. Obje
 ## Anwendung
 
 1.  Wähle ein oder mehrere Objekte aus.
-2.  Wähle die Option {{MenuCommand|Punkte → On Punkte umwandeln...}} aus dem Menü.
-3.  Das Dialogfeld {{MenuCommand|Abstand}} wird geöffnet.
-4.  Gib den {{MenuCommand|Maximalabstand}} ein. Der Wert muss im Bereich {{Wert|0.05}} - Bereich von {{Wert|10.0}} liegen.
+2.  Wähle die Option **Punkte → On Punkte umwandeln...** aus dem Menü.
+3.  Das Dialogfeld **Abstand** wird geöffnet.
+4.  Gib den **Maximalabstand** ein. Der Wert muss im Bereich {{Wert|0.05}} - Bereich von {{Wert|10.0}} liegen.
 5.  Drücke die Schaltfläche **OK**, um das Dialogfeld zu schließen und den Befehl zu beenden.
 
 ## Eigenschaften
 
-Punktwolkenobjekte sind [App GeoFeature](App_GeoFeature/de.md) Objekte mit den folgenden zusätzlichen Eigenschaften. Wähle die Option {{MenuCommand|Alles anzeigen}} im Kontextmenü des [Eigenschaftseditors](Property_editor/de.md), um die ausgeblendeten Eigenschaften anzuzeigen.
+Punktwolkenobjekte sind [App GeoFeature](App_GeoFeature/de.md) Objekte mit den folgenden zusätzlichen Eigenschaften. Wähle die Option **Alles anzeigen** im Kontextmenü des [Eigenschaftseditors](Property_editor/de.md), um die ausgeblendeten Eigenschaften anzuzeigen.
 
 ### Daten
 
@@ -39,7 +39,7 @@ Punktwolkenobjekte sind [App GeoFeature](App_GeoFeature/de.md) Objekte mit den f
 
 -    **Breite|Integer**: die Anzahl der eindeutigen X Koordinaten in der Punktwolke. Diese Eigenschaft ist nur für Punktwolken verfügbar, die mit dem Befehl [Punkte strukturieren](Points_Structure/de.md) erstellt wurden.
 
-#### Versteckte Daten {#versteckte_daten}
+#### Versteckte Daten 
 
 
 {{TitleProperty|Base}}

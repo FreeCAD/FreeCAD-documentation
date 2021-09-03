@@ -27,7 +27,7 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 /usr/share/freecad/Mod/TechDraw/Templates/HowToExample.svg
 ```
 
-## Create base document {#create_base_document}
+## Create base document 
 
 1\. Open a new document in Inkscape.
 
@@ -44,7 +44,7 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 
 Note that your editable texts will *not* work if you use \"<https://>\...\", even though the wiki is reached via https these days. Since SVG is a human readable format you could also enter the line above into the file with a text editor. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> *align=center|Inkscape: XML Editor adding the "freecad" namespace clause to the <svg> item* 
 
-## Create template drawing {#create_template_drawing}
+## Create template drawing 
 
 4\. Draw outlines, zone numbers, center lines, and other geometry.
 
@@ -56,7 +56,7 @@ Note that your editable texts will *not* work if you use \"<https://>\...\", eve
 
 8\. You now have your finished artwork, that should look something like this: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> *align=center|Inkscape: tentative template layout* 
 
-## Create editable fields {#create_editable_fields}
+## Create editable fields 
 
 9\. Use the XML Editor to add a `freecad:editable` tag to each editable `<text>` item.
 
@@ -64,7 +64,7 @@ Note that your editable texts will *not* work if you use \"<https://>\...\", eve
 
 <img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> *align=center|Inkscape: XML Editor adding the "freecad:editable" property to the desired <text> item* 
 
-## Adjust size of the SVG {#adjust_size_of_the_svg}
+## Adjust size of the SVG 
 
 10\. Use the XML editor to adjust the `viewBox` attribute to match your page size in millimeters.
 
@@ -76,7 +76,7 @@ Note that your editable texts will *not* work if you use \"<https://>\...\", eve
 
 12\. We need to shrink it.
 
--    {{MenuCommand|Edit → Select All in All Layers}}, or box select and select all.
+-    **Edit → Select All in All Layers**, or box select and select all.
 
 -   Adjust the **W:** and **H:** spinboxes to match your artwork\'s size in millimeters.
 
@@ -86,17 +86,17 @@ Note that your editable texts will *not* work if you use \"<https://>\...\", eve
 
 14\. Your template should now look right, just like it did in the finished artwork picture above.
 
-## Remove transformans on the SVG {#remove_transformans_on_the_svg}
+## Remove transformans on the SVG 
 
 15\. Ensure that all your editable texts are \"ungrouped\" with **Shift**+**Ctrl**+**g**.
 
-16\. Select everything on your page, {{MenuCommand|Edit → Select All}}, and then {{MenuCommand|Edit → Copy}} (**Ctrl**+**c**).
+16\. Select everything on your page, **Edit → Select All**, and then **Edit → Copy** (**Ctrl**+**c**).
 
-17\. Then delete the current layer, {{MenuCommand|Layer → Delete Current Layer}}.
+17\. Then delete the current layer, **Layer → Delete Current Layer**.
 
 :   Note: if you deleted the layer already (in your layer panel is no layer listed) this step is not required. In that case you should select all (**Ctrl**+**a**), cut the selection (**Ctrl**+**x**) and paste it with the command in the next step.
 
-18\. Then paste, {{MenuCommand|Edit → Paste in Place}}.
+18\. Then paste, **Edit → Paste in Place**.
 
 :   **Note:** This command prevents that the text positions are stored in transform tags. It\'s important that you do not use the normal paste command!
 

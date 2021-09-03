@@ -32,7 +32,7 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 ## Utilizzo
 
 1.  Selezionare gli oggetti che si desidera organizzare.
-2.  Fare clic con il tasto destro e selezionare {{MenuCommand|Utilità → <img src="images/Draft_AddToGroup.svg" width=16px> [Aggiungi al gruppo...](Draft_AddToGroup/it.md)}}.
+2.  Fare clic con il tasto destro e selezionare **Utilità → <img src="images/Draft_AddToGroup.svg" width=16px> [Aggiungi al gruppo...](Draft_AddToGroup/it.md)**.
 3.  Selezionare il gruppo desiderato o fare clic su **Ungroup**.
 
 

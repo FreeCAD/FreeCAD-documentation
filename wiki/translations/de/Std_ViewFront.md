@@ -18,8 +18,8 @@ Der Befehl **Std Vorderansicht** wendet die Kamerasicht der aktiven [3D-Ansicht]
 
 1.  Es gibt verschiedene Wegen, den Befehl umzusetzen:
     -   Die **<img src="images/Std_ViewFront.svg" width=16px> [Std Vorderansicht](Std_ViewFront/de.md)**-Schaltfläche betätigen.
-    -   Den Menüpunkt {{MenuCommand|Ansicht → Standardansichten → <img src="images/Std_ViewFront.svg" width=16px> Vorderansicht}} aus dem Menü wählen.
-    -   Den Menüpunkt {{MenuCommand|Standardansichten → <img src="images/Std_ViewFront.svg" width=16px> Vorderansicht}} aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
+    -   Den Menüpunkt **Ansicht → Standardansichten → <img src="images/Std_ViewFront.svg" width=16px> Vorderansicht** aus dem Menü wählen.
+    -   Den Menüpunkt **Standardansichten → <img src="images/Std_ViewFront.svg" width=16px> Vorderansicht** aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
     -   Mit dem Tastenkürzel: **1**.
 
 ## Skripten

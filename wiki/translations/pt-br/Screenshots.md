@@ -2,7 +2,7 @@
 
 Aqui estão algumas screenshots mostrando diferentes partes do FreeCAD. Elas não estão ordenadas por uma linha de tempo em particular, portanto as imagens podem diferir de sua versão atual. Veja mais screenshots enviados por usuários do FreeCAD no [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) e no [\"Mostre seu projeto aqui!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
 
-### Na versão 0.17 {#na_versão_0.17}
+### Na versão 0.17 
 
 <img alt="" src=images/6DPLEQ2.jpg  style="width:1024px;">
 
@@ -30,7 +30,7 @@ Aqui estão algumas screenshots mostrando diferentes partes do FreeCAD. Elas nã
 
 <img alt="" src=images/freeCAD-guitar.jpg  style="width:1024px;">
 
-### Na versão 0.16 {#na_versão_0.16}
+### Na versão 0.16 
 
 <img alt="" src=images/Hhassey.png  style="width:1024px;">
 
@@ -44,7 +44,7 @@ Aqui estão algumas screenshots mostrando diferentes partes do FreeCAD. Elas nã
 
 <img alt="" src=images/R_tec.jpeg  style="width:1024px;">
 
-### Na versão 0.15 {#na_versão_0.15}
+### Na versão 0.15 
 
 <img alt="" src=images/Obijuan.png  style="width:1024px;">
 
@@ -56,7 +56,7 @@ Aqui estão algumas screenshots mostrando diferentes partes do FreeCAD. Elas nã
 
 <img alt="" src=images/Lou_papet.png  style="width:1024px;">
 
-### Na versão 0.14 {#na_versão_0.14}
+### Na versão 0.14 
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -88,21 +88,21 @@ Análise da curvatura da malha pelo módulo Mesh
 
 Exportação para aplicações externas com macros python
 
-### Na versão 0.12 {#na_versão_0.12}
+### Na versão 0.12 
 
 ![Montagem de múltiplos objetos\|1024px](images/FreeCAD_aeroponic_system.jpg )
 
 ![Um esboço totalmente restrito foi revolvido para criar uma seção de aro de bicicleta\|1024px](images/rim_bling.png )
 
-### Na versão 0.11 {#na_versão_0.11}
+### Na versão 0.11 
 
 <img alt="" src=images/FreeCAD011.png  style="width:1024px;">
 
-### Na versão 0.10 {#na_versão_0.10}
+### Na versão 0.10 
 
 ![](images/Freecad010.png )
 
-### Na versão 0.09 {#na_versão_0.09}
+### Na versão 0.09 
 
 ![](images/Freecad09.jpg )
 
@@ -116,13 +116,13 @@ Exportação para aplicações externas com macros python
 
 Uma captura de tela mostrando o FreeCAD importando e apresentando um modelo STEP do gCAD
 
-### Dados do STEP {#dados_do_step}
+### Dados do STEP 
 
 <img alt="" src=images/TaskPanel.jpg  style="width:800px;">
 
 Com garra robótica carregada
 
-### Garra de robô {#garra_de_robô}
+### Garra de robô 
 
 ![](images/FreeCAD_Screenshot.png )
 
@@ -144,7 +144,7 @@ FreeCAD no Windows Vista, com um modelo IGES de [Rexroth](http://www13.boschrexr
 
 Você pode personalizar muitos aspectos do FreeCAD!
 
-### Operações booleanas em malhas {#operações_booleanas_em_malhas}
+### Operações booleanas em malhas 
 
 Operações booleanas em malha no FreeCAD
 
@@ -154,19 +154,19 @@ Operações booleanas em malha no FreeCAD
 
 O Blender tem um [script](http://yorik.orgfree.com/guestblog.php?2009=105) para importar arquivos do FreeCAD.
 
-### Extração Drawing(desenhos) {#extração_drawingdesenhos}
+### Extração Drawing(desenhos) 
 
 <img alt="" src=images/Drawing_extraction.png  style="width:800px;">
 
 Extração de uma peça em 3D (STEP neste caso) para uma vista de desenho SVG. Isto é totalmente paramétrico, se a peça mudar, a visão será atualizada.
 
-### FreeCAD vs. QCad {#freecad_vs._qcad}
+### FreeCAD vs. QCad 
 
 ![](images/Screenshot_qcad.jpg )
 
 Esta captura de tela mostra como o mesmo arquivo é exibido pelo FreeCAD e qCAD.
 
-### FreeCAD vs. Inkscape {#freecad_vs._inkscape}
+### FreeCAD vs. Inkscape 
 
 ![](images/Screenshot_inkscape.jpg )
 
@@ -175,7 +175,7 @@ Esta captura de tela mostra como o mesmo arquivo é exibido pelo FreeCAD e pelo 
 
 <div class="mw-translate-fuzzy">
 
-### Módulo Draft {#módulo_draft}
+### Módulo Draft 
 
 ![](images/Screenshot_draft.jpg )
 
@@ -196,25 +196,25 @@ Freecad com o [módulo draft](Draft_Module/pt-br.md) carregado e um arquivo de d
 
 A tela de preferências
 
-### No Ubuntu {#no_ubuntu}
+### No Ubuntu 
 
 ![](images/Interface_screenshot.jpg )
 
 A 'interface' do FreeCAD quando é iniciada pela primeira vez, no Ubuntu
 
-### Instalador para Windows {#instalador_para_windows}
+### Instalador para Windows 
 
 ![](images/Screenshot_installer.jpg )
 
 Instalador do Windows em execução
 
-### Modo Console {#modo_console}
+### Modo Console 
 
 ![](images/Screenshot_console.jpg )
 
 FreeCAD rodando em modo console (sem interface gráfica)
 
-### Salvar imagem {#salvar_imagem}
+### Salvar imagem 
 
 ![](images/Save_picture.png )
 

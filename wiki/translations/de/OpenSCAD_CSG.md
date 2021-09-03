@@ -2,7 +2,7 @@
 
 ## Importieren
 
-### Unterstützte Elemente {#unterstützte_elemente}
+### Unterstützte Elemente 
 
 -   Grundelemente: Würfel, Kugel, Zylinder, Quadrat, Kreis, Polygon, Polyeder
 -   Boolesche Operationen: Vereinigung, Differenz, Schnittpunkt
@@ -11,7 +11,7 @@
 -   multmatrix
 -   Farbe
 
-### Nicht unterstützte Elemente {#nicht_unterstützte_elemente}
+### Nicht unterstützte Elemente 
 
 -   Projektion
 -   Oberfläche
@@ -20,7 +20,7 @@
 
 ## Exportieren
 
-### Unterstützte Elemente {#unterstützte_elemente_1}
+### Unterstützte Elemente 
 
 -   Grundelemente: Quader, Zylinder, Kegel, Torus
 -   boolesche Operationen: Schneiden, Verschmelzen, Gemeinsam

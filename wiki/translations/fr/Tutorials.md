@@ -14,7 +14,7 @@ Si vous souhaitez contribuer à la rédaction de la documentation et des tutorie
 
 Veuillez prêter attention à la version de FreeCAD utilisée dans le tutoriel, car certains tutoriels peuvent utiliser une ancienne version du programme. Bien que le processus de modélisation général puisse encore fonctionner, certains outils peuvent avoir changé.
 
-## Architecture et BIM {#architecture_et_bim}
+## Architecture et BIM 
 
 <File:Arch> tutorial 00.jpg\|link=[Arch tutorial/fr](Arch_tutorial/fr.md)\|[Tutoriel Arch](Arch_tutorial/fr.md) (v0.14)
 Ceci est l'introduction principale de l'atelier Arch. Il est complet et présente la procédure de travail typique, de l'importation de plans au format DXF destinés à la construction du modèle 3D. <File:Exercise> arch 01.jpg\|link=[Manual:BIM\_modeling/fr](Manual:BIM_modeling/fr.md)\|[modèle BIM](Manual:BIM_modeling/fr.md)
@@ -32,7 +32,7 @@ Modélisation d\'un panneau de toit de petite résidence à l\'aide des outils S
 <File:Arch_Wikihouse_01.jpg%7Clink=>[Wikihouse porting tutorial/fr](Wikihouse_porting_tutorial/fr.md)\|[Modélisation WikiHouse](Wikihouse_porting_tutorial/fr.md)
 Re-modélisation du projet WikiHouse à l\'aide d\'esquisses et de panneaux, en commençant par l\'importation d\'un modèle de maillage créé dans SketchUp.
 
-## Modélisation de pièces {#modélisation_de_pièces}
+## Modélisation de pièces 
 
 FreeCAD fournit deux flux de travail principaux pour modéliser des pièces :
 
@@ -78,7 +78,7 @@ Le projet Raspberry Pi propose de simples tutoriels faciles à suivre, en partic
 -   [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), modèle et jeu d\'échecs complet dans le style moderne Bauhaus.
 -   [raspberrypilearning](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) référentiel (CC-BY 4.0) avec d'autres exemples.
 
-## Dessin et esquisse {#dessin_et_esquisse}
+## Dessin et esquisse 
 
 Exercise cabin 01.jpg\|link=[Manual:Traditional 2D drafting/fr](Manual:Traditional_2D_drafting/fr.md)\|[Dessin 2D traditionnel](Manual:Traditional_2D_drafting/fr.md)
 Dessinez un plan d\'étage avec des lignes, des câbles, des rectangles, des arcs de cercle et ajoutez des motifs de hachure, des annotations et des dimensions. Exportez le résultat au format DXF.
@@ -95,7 +95,7 @@ Introduction aux outils de l'atelier Sketcher : mode de construction, ligne, cer
 03d\_Sk02\_Sketcher\_Rectangle\_constrained\_length.png\|link=[Sketcher\_Micro\_Tutorial\_-\_Constraint\_Practices/fr](Sketcher_Micro_Tutorial_-_Constraint_Practices/fr.md)\|[Sketcher: Pratique des constraintes](Sketcher_Micro_Tutorial_-_Constraint_Practices/fr.md) (v0.19)
 Apprenez à contraindre efficacement une esquisse. Préférez les contraintes géométriques aux contraintes dimensionnelles.
 
-## Dessin technique {#dessin_technique}
+## Dessin technique 
 
 TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial/fr](Basic_TechDraw_Tutorial/fr.md)\|[Tutoriel d\'introduction à TechDraw](Basic_TechDraw_Tutorial/fr.md) (v0.17)
 Ceci est l\'introduction essentielle aux outils de l\'atelier TechDraw: page, vue, échelle, cotes verticales et horizontales, annotations, groupes de projection, reliant les cotes à la vue 3D.
@@ -104,7 +104,7 @@ Ceci est l\'introduction essentielle aux outils de l\'atelier TechDraw: page, vu
 Instructions pour créer un modèle de page dans Inkscape pour l'utiliser avec l\'atelier TechDraw. Déterminez la taille de la feuille, tracez un cadre pour la page, définissez un texte fixe et des champs de texte modifiables. <File:AnHi1.png%7Clink=>[Measurement Of Angles On Holes/fr](Measurement_Of_Angles_On_Holes/fr.md)\|[Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_Holes/fr.md) (v0.19\_pre)
 Instructions pour ajouter des lignes médianes et des représentations angulaires ultérieures sur les trous.
 
-## MEF (FEM) {#mef_fem}
+## MEF (FEM) 
 
 FEM example01 pic00.jpg\|link=[FEM CalculiX Cantilever 3D/fr](FEM_CalculiX_Cantilever_3D/fr.md)\|[Exemple d\'analyse FEM](FEM_CalculiX_Cantilever_3D/fr.md) (v0.17)
 Exemple inclus dans l\'installation de FreeCAD : il présente une analyse de base avec le solveur CalculiX FEM. Purgez le résultat actuel, relancez le solveur et visualisez les déplacements et les contraintes dans le maillage déformé de la fenêtre.
@@ -121,7 +121,7 @@ Estimation du niveau de renforcement requis dans une structure en béton pour é
 FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing des résultats FEM avec Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
 Ce didacticiel explique les bases du transfert de données depuis l\'atelier FEM vers Paraview et affiche certaines des options et des paramètres d\'affichage des données.
 
-## CNC & impression 3D {#cnc_impression_3d}
+## CNC & impression 3D 
 
 Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient/fr](Path_Walkthrough_for_the_Impatient/fr.md)\|[L\'atelier Path pas à pas pour l\'impatient](Path_Walkthrough_for_the_Impatient/fr.md)
 Présentation rapide du flux de travail pour l\'atelier Path: créez un travail, définissez la sortie, définissez l\'outil de fraisage, définissez les opérations de tracé, démarrez la simulation et générez un fichier de sortie en G-code.
@@ -129,7 +129,7 @@ Présentation rapide du flux de travail pour l\'atelier Path: créez un travail,
 Exercise meshing 03.jpg\|link=[Manual:Preparing models for 3D printing/fr](Manual:Preparing_models_for_3D_printing/fr.md)\|[Préparer les modèles pour l\'impression 3D](Manual:Preparing_models_for_3D_printing/fr.md) (v0.16)
 Convertissez un objet solide en objet maillé à l'aide de l\'atelier Mesh, exportez le maillage au format STL et utilisez Slic3r pour préparer le code-G. Vous pouvez également utiliser l\'atelier Cura ou l\'atelier Path pour générer le code-G.
 
-## Import et export {#import_et_export}
+## Import et export 
 
 Dxf Importer Install 11.png\|link=[Dxf Importer Install/fr](Dxf_Importer_Install/fr.md)\|[Installation du module d\'importation DXF](Dxf_Importer_Install/fr.md)
 Installez le programme d\'import DXF sur votre système pour pouvoir ouvrir les fichiers DXF et DWG avec FreeCAD.
@@ -148,7 +148,7 @@ Travail en cours de développement: créer un projet, ajouter des objets, config
 07\_T03\_FreeCAD\_Blender\_EEVEE\_render.png\|link=[Tutorial\_Render\_with\_Blender](Tutorial_Render_with_Blender.md)\|[Rendu d\'un assemblage FreeCAD avec Blender](Tutorial_Render_with_Blender/fr.md) (v0.18)
 Exporter les corps de FreeCAD vers Blender, importer ensuite les fichiers dans Blender, installez un simple rayon de soleil, assignez des matériaux de base avec le shader Principle BSDF et produisez un rendu d\'image avec EEVEE et Cycles.
 
-## Atelier Robot {#atelier_robot}
+## Atelier Robot 
 
 
 {{VeryImportantMessage|Le développement de l'[atelier Robot](Robot_Workbench/fr.md) est actuellement abandonné. Veuillez vous renseigner sur notre forum pour toute nouvelle ou un atelier alternatif.}}
@@ -164,7 +164,7 @@ Dessinez des fonctions mathématiques simples dans Plot Workbench à l'aide des 
 Plot\_MultiAxes\_Example.png\|link=[Plot MultiAxes tutorial/fr](Plot_MultiAxes_tutorial/fr.md)\|[Didacticiel de traçage MultiAxes](Plot_MultiAxes_tutorial/fr.md)
 Déssinez un tracé plus compliqué dans l'atelier de traçage avec deux listes d'entrée différentes (X, T) et trois listes de sortie (Y1, Y2, Y3), puis créez deux jeux d'axes dans le même tracé et tracez la paire de listes (Y1 contre X, et Y2 et Y3 contre T); Définissez les étiquettes et la grille des axes, puis déplacez les légendes et le titre.
 
-## Création de scripts {#création_de_scripts}
+## Création de scripts 
 
 Ce sont des tutoriels qui sont liés à des scripts ou à la programmation. Ils s\'adressent à des utilisateurs plus expérimentés, qui connaissent déjà un peu le programme.
 
@@ -183,7 +183,7 @@ Introduction basique aux outils de l\'atelier Drawing pour la création de plans
 Exercise drawing 01.jpg\|link=[Manual:Generating 2D drawings/fr](Manual:Generating_2D_drawings/fr.md)\|[Génération de dessins 2D](Manual:Generating_2D_drawings/fr.md)(v0.16)
 Générez des projections 2D de vos modèles 3D et ajoutez des cotes.
 
-## Tutoriels - liste complète {#tutoriels___liste_complète}
+## Tutoriels - liste complète 
 
 Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quelle que soit leur qualité**. Si un didacticiel est répertorié dans [:Category:Tutorials](:Category:Tutorials.md) sans l\'être dans ce tableau, veuillez l\'insérer.
 

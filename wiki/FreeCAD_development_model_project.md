@@ -11,7 +11,7 @@ If you are not involved with the development discussed here:<br>
 
 This page is toward the transition of the FreeCAD code in a GIT repository and a more capable development model. It follows the rules of the \[<http://en.wikipedia.org/wiki/GTD#GTD_methodology>\| Getting things done\] process. The projects are collected in the [Development roadmap](Development_roadmap.md).
 
-## Purpose and principles {#purpose_and_principles}
+## Purpose and principles 
 
 This project aims to define a new development and governance model for FreeCAD. We come to point where one SVN repository is hard to govern. Working with patches is annoying and complicated for people willing to contribute code. To give everyone write access to the SVN repo dangerous. People can unintentional break something in the base system or force tasty decisions.
 
@@ -32,7 +32,7 @@ So I look at the Linux development process, which is maybe at the moment too big
         -   would give some collaterals in version numbering and ppa builds\....
 -   give write rights (push) to everyone interested in
 
-### Development mailing list {#development_mailing_list}
+### Development mailing list 
 
 The forum has its limitation, I would use the one or more mailing lists to manage branches and pull requests. That has advantages:
 
@@ -40,11 +40,11 @@ The forum has its limitation, I would use the one or more mailing lists to manag
 -   use powerful search of the mail client
 -   no restrictions in attachments and sizes
 
-### Clarify responsibilities {#clarify_responsibilities}
+### Clarify responsibilities 
 
 We will soon become more and more developers and user will have conflicting feature requests. We have to have structure and responsibilities to filter and decide such requests and incoming code.
 
-#### Step ups {#step_ups}
+#### Step ups 
 
 Adrian Przekwas:
 
@@ -63,7 +63,7 @@ Publicity: articles on [http://yorik.uncreated.net/guestblog.php](http://yori
 
 Decided rules and information goes to the [FreeCAD development model](FreeCAD_development_model.md) document.
 
-## Next actions {#next_actions}
+## Next actions 
 
  
 

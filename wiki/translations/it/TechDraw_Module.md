@@ -90,7 +90,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 -   <img alt="" src=images/TechDraw_Dimension_Landmark.svg  style="width:32px;"> [Quota da punti di riferimento](TechDraw_Dimension_Landmark/it.md): aggiunge una dimensione basata su punti di riferimento. {{Version/it|0.19}}
 
-## Importazione e Esportazione {#importazione_e_esportazione}
+## Importazione e Esportazione 
 
 Questi sono gli strumenti per esportare le pagine in altre applicazioni.
 
@@ -222,7 +222,7 @@ Gli strumenti di annotazione servono per \"commentare\" un disegno con informazi
 
 </div>
 
-## Ulteriori funzioni {#ulteriori_funzioni}
+## Ulteriori funzioni 
 
 -   [Gruppi di linee](TechDraw_LineGroup/it.md): si possono assegnare valori di default a vari tipi di linee.
 -   [Modelli di squadrature](TechDraw_Templates/it.md): i modelli predefiniti per le pagine di disegno di TechDraw.

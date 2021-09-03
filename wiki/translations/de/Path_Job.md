@@ -33,12 +33,12 @@ Das Auftrag Werkzeug erstellt ein neues Auftragsobjekt im aktiven Dokument. Das 
 
 \#\* Verwende das Tastaturkürzel **P** und dann **F**.
 
-\#\* Mit dem {{MenuCommand|Pfad → Auftrag}} Eintrag aus dem oberen Menü.
+\#\* Mit dem **Pfad → Auftrag** Eintrag aus dem oberen Menü.
 
 
 </div>
 
-Die Auftrags GUI hat fünf horizontal ausgerichtete Reiter: {{MenuCommand|Allgemein}}, {{MenuCommand|Ausgabe}}, {{MenuCommand|Einrichten}}, {{MenuCommand|Werkzeuge}}, und {{MenuCommand|Arbeitsplan}}. Der Benutzer kann jederzeit die Optionen **OK** oder **Abbrechen** innerhalb des Dialogs verwenden.
+Die Auftrags GUI hat fünf horizontal ausgerichtete Reiter: **Allgemein**, **Ausgabe**, **Einrichten**, **Werkzeuge**, und **Arbeitsplan**. Der Benutzer kann jederzeit die Optionen **OK** oder **Abbrechen** innerhalb des Dialogs verwenden.
 
 ## Allgemein
 

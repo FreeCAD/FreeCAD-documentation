@@ -26,7 +26,7 @@ Das 2PunkttKosmetikLinie Werkzeug fügt eine Kosmetiklinie zwischen zwei Knoten 
 
 Um eine Kosmetiklinie zu löschen, wähle sie aus und verwende die Werkzeugleistenschaltfläche **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Kosmetikobjekt entfernen](TechDraw_CosmeticEraser/de.md)**.
 
-## Kosmetik Linien bearbeiten {#kosmetik_linien_bearbeiten}
+## Kosmetik Linien bearbeiten 
 
 Zum Ändern der Endpunkte einer Kosmetiklinie, **<img src="images/TechDraw-line2points.svg" width=16px> Kosmetiklinie zwischen 2 Punkten hinzufügen
 **

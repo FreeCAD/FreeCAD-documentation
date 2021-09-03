@@ -6,7 +6,7 @@ Cette page explique la manière dont <img alt="" src=images/Workbench_PartDesign
 
 Alors que <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [l\'atelier Part](Part_Workbench/fr.md) et d\'autres ateliers FreeCAD construisent des modèles en combinant des formes(voir [Géométrie Solide Constructive **CSG**](Constructive_solid_geometry/fr.md)), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [l\'atelier PartDesign](PartDesign_Workbench/fr.md) utilise des **[fonctions](PartDesign_Feature/fr.md)**. Une [fonction](https://en.wikipedia.org/wiki/Feature_recognition) est une opération qui modifie la forme d\'un modèle.
 
-## Méthodologie d\'édition de fonctions {#méthodologie_dédition_de_fonctions}
+## Méthodologie d\'édition de fonctions 
 
 La première fonction est communément appelée la **fonction de base**. Au fur et à mesure que de nouvelles fonctions sont ajoutées au modèle, chaque fonction prends la forme de la fonction précédente et ajoute ou enlève de la matière, créant des dépendances directes d\'une fonction à la suivante. Cette méthodologie imite un procédé de fabrication typique : un bloc est coupé sur un côté, puis sur un autre côté, des trous sont percés, puis des congés appliqués, etc.
 
@@ -42,21 +42,21 @@ Un seul corps peut être actif dans un document. Le corps actif recevra les fonc
 
 Lorsqu\'un modèle nécessite plusieurs corps, comme la chaise de l\'exemple précédent, <img alt="" src=images/Std_Part.svg  style="width:24px;"> [le Part Conteneur](Std_Part/fr.md) d\'usage général peut être utilisé pour les grouper et les déplacer comme un tout.
 
-### Gestion de la visibilité du corps {#gestion_de_la_visibilité_du_corps}
+### Gestion de la visibilité du corps 
 
 Un corps expose à l\'extérieur par défaut la fonction la plus récente. Cette fonction est définie par défaut comme la fonction résultante. On peut utiliser l\'analogie de *la pointe de l\'iceberg* : seule la fonction résultante est visible hors de l\'eau, le reste de l\'iceberg (les autres fonctions) sont cachées. Lorsqu\'une nouvelle fonction est ajoutée au corps, la fonction précédente est automatiquement masquée, et la nouvelle fonction devient la fonction résultante.
 
 Il ne peut y avoir qu\'une seule [fonction visible](Std_ToggleVisibility/fr.md) à la fois. Il est possible de basculer la visibilité de toute fonction dans le corps, en la sélectionnant dans l\'arborescence Modèle et en appuyant sur la **barre espace**, ce qui a l\'effet de remonter dans l\'historique du corps.
 
-### Origine du corps {#origine_du_corps}
+### Origine du corps 
 
 Le corps possède une Origine qui comprend des plans de référence (XY, XZ, YZ) et des axes (X, Y, Z) qui peuvent être utilisés par des esquisses et des fonctions. Les esquisses peuvent être attachées à des plans de l\'Origine, et il n\'est plus nécessaire de les appliquer sur des faces planes pour que les fonctions basées sur celles-ci ajoutent ou enlèvent de la matière du modèle.
 
-### Déplacer et réordonner des objets {#déplacer_et_réordonner_des_objets}
+### Déplacer et réordonner des objets 
 
 Il est possible de redéfinir temporairement la fonction résultante sur une fonction au milieu de l\'arborescence du Corps pour insérer de nouveaux objets (fonctions, esquisses ou géométrie de référence). Il est également possible de réordonner les objets sous un Corps, ou les déplacer dans un autre Corps. Sélectionnez l\'objet et faites un clic droit pour faire apparaître le menu contextuel qui propose les deux options. L\'opération pourrait échouer si l\'objet a des dépendances au Corps source, comme être attaché à une face. Pour déplacer une esquisse vers un autre Corps, celle-ci ne devrait pas contenir de liens à des géométries externes.
 
-### Différence avec d\'autres systèmes CAO {#différence_avec_dautres_systèmes_cao}
+### Différence avec d\'autres systèmes CAO 
 
 Une différence fondamentale entre FreeCAD et d\'autres programmes, tels que Catia, est que FreeCAD ne vous permet pas d\'avoir plusieurs solides déconnectés dans le même <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> **[PartDesign Corps](PartDesign_Body/fr.md)**. C\'est-à-dire qu\'une nouvelle fonctionnalité doit toujours être construite sur la précédente. Autrement dit, la nouvelle fonctionnalité devrait \"toucher\" à la précédente, de sorte que les deux soient fusionnées et deviennent un seul solide. Vous ne pouvez pas avoir de solides \"flottants\".
 
@@ -65,7 +65,7 @@ Une différence fondamentale entre FreeCAD et d\'autres programmes, tels que Cat
 
 *Différence entre Catia et FreeCAD. A gauche: Catia permet aux corps d'être déconnectés des caractéristiques précédentes du corps. Dans FreeCAD, cela provoque une erreur. A droite: la nouvelle fonctionnalité doit toujours être en contact ou intersecter la précédente de sorte qu'elle soit fusionnée avec elle et devienne un corps unique.*
 
-## Géométries de référence {#géométries_de_référence}
+## Géométries de référence 
 
 Les géométries de référence consistent en des plans personnalisés, des droites, des points ou des formes liées de l\'extérieur du corps. Elles peuvent être créées afin de servir de référence à des esquisses et des fonctions. Il y a une multitude de possibilités d\'ancrage aux géométries de référence.
 
@@ -86,7 +86,7 @@ Même s\'ils ne sont pas utilisés pour supporter des esquisses, les objets de r
 
 *Différence entre Catia et FreeCAD. A gauche: Catia permet aux corps d'être déconnectés des caractéristiques précédentes du corps. Dans FreeCAD, cela provoque une erreur. A droite : la nouvelle fonctionnalité doit toujours être en contact ou intersecter la précédente, de sorte qu'elle soit fusionnée avec elle et devienne un corps unique. Dans cet exemple, le nouveau solide est basé sur un plan de référence qui tourne autour de l'axe des ordonnées.*
 
-## Référencement croisé {#référencement_croisé}
+## Référencement croisé 
 
 Il est possible de référencer des éléments d\'un corps à un autre à travers les géométries de référence. Par exemple, la forme liée permet de copier des faces d\'un corps comme référence dans un autre corps. Cela devrait permettre de construire facilement une boîte avec un couvercle adapté dans deux corps différents. FreeCAD vous aide à éviter de vous relier accidentellement à d\'autres corps en demandant une confirmation de votre intention.
 
@@ -96,7 +96,7 @@ L\'ancrage d\'objets n\'est pas un outil spécifique à PartDesign, mais plutôt
 
 Consulter la page [Part Ancrage](Part_Attachment/fr.md) pour plus d\'informations et [Tutoriel La base pour l\'ancrage](Basic_Attachment_Tutorial/fr.md).
 
-## Conseils pour la création de modèles robustes {#conseils_pour_la_création_de_modèles_robustes}
+## Conseils pour la création de modèles robustes 
 
 Le principe de conception paramétrique sous-tend que quand les valeurs de certains paramètres sont changées, les étapes subséquentes seront automatiquement mises à jour selon ces nouvelles valeurs. Toutefois, quand des changements importants sont apportés, le modèle peut casser en raison du problème de [problème de nommage topologique](topological_naming_problem.md) qui est toujours non résolu dans FreeCAD. Les brisures peuvent être minimisées en suivant les principes de conception suivants :
 
@@ -118,23 +118,23 @@ Le principe de conception paramétrique sous-tend que quand les valeurs de certa
 -   Utilisez des *finitions*, comme des filets et des chanfreins, aussi tard que possible dans l\'arbre des fonctionnalités
 -   Notez que l\'utilisation de feuilles de calcul, de données dynamiques, d\'esquisses principales etc\... produisent généralement des modèles plus paramétriques et permettent d\'éviter le problème de dénomination topologique.
 
-## Travail sur la construction du corps {#travail_sur_la_construction_du_corps}
+## Travail sur la construction du corps 
 
 Il existe plusieurs méthodes de travail possibles avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Ce qui doit toujours être retenu est que toutes les fonctionnalités créées dans un [PartDesign Corps](PartDesign_Body/fr.md) seront fusionnées pour obtenir l\'objet final.
 
-### Différentes esquisses {#différentes_esquisses}
+### Différentes esquisses 
 
 Les esquisses doivent être prises en charge par un plan. Ce plan peut être l\'un des plans principaux (XY, XZ ou YZ) définis par l\'origine du corps. Une esquisse est soit extrudée en un solide positif (additif), avec un outil tel que <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md), soit en un solide négatif (soustractif), avec un outil tel que <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md). Le premier ajoute du volume à la forme finale du corps, tandis que le dernier déduit le volume de la forme finale. Vous pouvez créer un nombre illimité d\'esquisses et de solides partiels. la forme finale (pointe) résulte de la fusion de ces opérations. Naturellement, le corps ne peut se composer que d'opérations soustractives, car la forme finale doit être un solide avec un volume positif non nul.
 
 <img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
-### Fonctions séquentielles {#fonctions_séquentielles}
+### Fonctions séquentielles 
 
 Les esquisses peuvent être supportées par les faces des opérations solides précédentes. Cela peut être nécessaire si vous avez besoin d\'accéder à une face disponible uniquement après la création d\'une certaine fonctionnalité. Cependant, ce flux de travail n\'est pas recommandé car, si la fonctionnalité d\'origine est modifiée, les fonctionnalités suivantes de la séquence pourraient être endommagées. C\'est un [Problème de dénomination topologique](Topological_naming_problem/fr.md).
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 
-### Utilisation des plans de travail comme supports {#utilisation_des_plans_de_travail_comme_supports}
+### Utilisation des plans de travail comme supports 
 
 Les plans de référence sont utiles pour soutenir les esquisses. Ces plans auxiliaires doivent être attachés aux plans de base du corps.
 
@@ -156,7 +156,7 @@ La page des [tutoriels](Tutorials/fr.md) fournit des exemples d\'utilisation de 
 -   [Tutoriel d\'introduction à l\'atelier PartDesign](Basic_Part_Design_Tutorial/fr.md)
 -   [Tutoriel La base de l\'ancrage](Basic_Attachment_Tutorial/fr.md)
 
-## En relation {#en_relation}
+## En relation 
 
 -   [Géométrie Solide Constructive](Constructive_solid_geometry/fr.md)
 

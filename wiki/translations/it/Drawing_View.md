@@ -13,7 +13,7 @@ Nell\'albero del progetto viene aggiunto un oggetto **View** sotto l\'oggetto **
 
 Se nella struttura ad albero del progetto viene selezionato solo l\'oggetto, la vista viene aggiunta alla prima pagina del progetto. Quando il progetto è composto da più pagine si deve selezionare l\'oggetto e la pagina in cui deve essere aggiunto, poi fare clic sull\'icona per aggiungere la vista alla pagina selezionata.
 
-### Modificare una vista esistente {#modificare_una_vista_esistente}
+### Modificare una vista esistente 
 
 Dispiegare l\'oggetto Page nella struttura del Progetto, quindi selezionare la vista da modificare. I suoi parametri possono essere modificati nella scheda Dati della finestra Proprietà di visualizzazione.
 
@@ -28,7 +28,7 @@ Dispiegare l\'oggetto Page nella struttura del Progetto, quindi selezionare la v
 -   **Show Hidden Lines** : commuta la visibilità delle nascosta linee selezionando *True* (vero) o *False* (falso).
 -   **Show Smooth Lines** : attiva o disattiva la lisciatura delle linee selezionando *True* (vero) o *False* (falso). Le linee morbide sono anche chiamate bordi di tangenza. Si tratta di linee di demarcazione tra due superfici tangenti.
 
-### Disegnare automaticamente una vista {#disegnare_automaticamente_una_vista}
+### Disegnare automaticamente una vista 
 
 Per generare automaticamente un foglio di disegno con viste standard, utilizzare la [Macro vista automatica](Macro_Automatic_drawing/it.md). 
 

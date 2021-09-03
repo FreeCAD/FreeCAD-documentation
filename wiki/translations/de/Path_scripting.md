@@ -28,7 +28,7 @@ Die Pfadobjekte von FreeCAD bestehen aus einer Folge von Bewegungsbefehlen. Eine
 >>> print p.toGCode()
 ```
 
-## Das FreeCAD interne GCode Format {#das_freecad_interne_gcode_format}
+## Das FreeCAD interne GCode Format 
 
 A preliminary concept is important to grasp. Most of the implementation below relies heavily on motion commands that have the same names as GCode commands, but aren\'t meant to be close to a particular controller\'s implementation. We chose names such as \'G0\' to represent \'rapid\' move or \'G1\' to represent \'feed\' move for performance (efficient file saving) and to minimize the work needed to translate to/from other GCode formats. Since the CNC world speaks thousands of GCode dialects, we chose to stick with a very simplified subset of it. You could describe FreeCAD\'s GCode format as a \"machine-agnostic\" form of GCode.
 
@@ -36,7 +36,7 @@ Inside .FCStd files, Path data is saved directly into that GCode form.
 
 All translations to/from dialects to FreeCAD GCode are done through pre and post scripts. That means that if you want to work with a machine that uses a specific LinuxCNC, Fanuc, Mitusubishi, or HAAS controller etc, you will have to use (or write if inexistant) a post processor for that particular control (see the \"Importing and exporting GCode\" section below).
 
-### GCode Referenz {#gcode_referenz}
+### GCode Referenz 
 
 The following rules and guidelines define the GCode subset used internally in FreeCAD:
 
@@ -61,7 +61,7 @@ The following rules and guidelines define the GCode subset used internally in Fr
 -   X, Y, or Z (and A, B, C) can be omitted. In this case, the previous X, Y or Z coordinates are maintained.
 -   Gcode commands other than the ones listed in the table below are supported, that is, they are saved inside the path data (as long as they comply to the rules above, of course), but they simply won\'t produce any visible result on screen. For example, you could add a G81 command, it will be stored, but not displayed.
 
-### Liste der aktuell unterstützten GCode Befehle {#liste_der_aktuell_unterstützten_gcode_befehle}
+### Liste der aktuell unterstützten GCode Befehle 
 
   Command         Description                                     Supported Arguments   Displayed
   --------------- ----------------------------------------------- --------------------- -----------
@@ -75,7 +75,7 @@ The following rules and guidelines define the GCode subset used internally in Fr
   G91             relative coordinates                                                  
   (Message)       comment                                                               
 
-## Das Befehlsobjekt {#das_befehlsobjekt}
+## Das Befehlsobjekt 
 
 The Command object represents a gcode command. It has three attributes: Name, Parameters and Placement, and two methods: toGCode() and setFromGCode(). Internally, it contains only a name and a dictionary of parameters. The rest (placement and gcode) is computed to/from this data.
 
@@ -138,7 +138,7 @@ Command G1 [ X:10 ]
 Command G1 [ X:10 Y:2 ]
 ```
 
-## Das Bahnobjekt {#das_bahnobjekt}
+## Das Bahnobjekt 
 
 The Path object holds a list of commands
 
@@ -194,7 +194,7 @@ As a shortcut, a Path object can also be created directly from a full GCode sequ
 Path [ size:2 length:2 ]
 ```
 
-## Die Bahn Funktion {#die_bahn_funktion}
+## Die Bahn Funktion 
 
 The Path feature is a FreeCAD document object, that holds a path, and represents it in the 3D view.
 
@@ -215,7 +215,7 @@ However, Path Compounds can make use of the Placement of their children (see bel
 
 <div class="mw-translate-fuzzy">
 
-## Die Werkzeug und Werkzeugtabellen Objekte {#die_werkzeug_und_werkzeugtabellen_objekte}
+## Die Werkzeug und Werkzeugtabellen Objekte 
 
 
 </div>
@@ -263,7 +263,7 @@ Tooltable containing 2 tools
 
 ## Funktionen
 
-### Die Pfad Verbund Funktion {#die_pfad_verbund_funktion}
+### Die Pfad Verbund Funktion 
 
 The aim of this feature is to gather one or more toolpaths and associate it (them) with a tooltable. The Compound feature also behaves like a standard FreeCAD group, so you can add or remove objects to/from it directly from the tree view. You can also reorder items by double-clicking the Compound object in the Tree view, and reorder its elements in the Task view that opens.
 
@@ -284,7 +284,7 @@ An important feature of Path Compounds is the possibility to take into account t
 
 Creating a compound with just one child path allows you therefore to turn the child path\'s Placement \"real\" (it affects the Path data).
 
-### Die Pfad Projekt Funktion {#die_pfad_projekt_funktion}
+### Die Pfad Projekt Funktion 
 
 The Path project is an extended kind of Compound, that has a couple of additional machine-related properties such as a tooltable. It is made mainly to be the main object type you\'ll want to export to gcode once your whole path setup is ready. The Project object is now coded in python, so its creation mechanism is a bit different:
 
@@ -306,7 +306,7 @@ The Path module also features a GUI tooltable editor that can be called from pyt
 >>> TooltableEditor.edit(o4)
 ```
 
-### Pfad aus Form holen {#pfad_aus_form_holen}
+### Pfad aus Form holen 
 
 Assign the shape of wire Part to a normal Path object, using Path.fronShape() script function (or more powerful Path.fronShapes()). By giving as parameter a wire Part object, its path will be automatically calculated from the shape. Note that in this case the placement is automatically set to the first point of the wire, and the object is therefore not movable anymore by changing its placement. To move it, the underlying shape itself must be moved.
 
@@ -326,11 +326,11 @@ Assign the shape of wire Part to a normal Path object, using Path.fronShape() sc
 >>> print(p.toGCode())
 ```
 
-### Python Funktionen {#python_funktionen}
+### Python Funktionen 
 
 Both Path::Feature and Path::FeatureShape features have a python version, respectively named Path::FeaturePython and Path::FeatureShapePython, that can be used in python code to create more advanced parametric objects derived from them.
 
-## Importieren und Exportieren von GCode {#importieren_und_exportieren_von_gcode}
+## Importieren und Exportieren von GCode 
 
 ### Ursprungsformat
 
@@ -363,7 +363,7 @@ myfile.close()
 
 If you need a different output, though, you will need to convert this agnostic GCode into a format suited for your machine. That is the job of post-processing scripts.
 
-### Verwendung von Vor- und Nachbearbeitungsskripten {#verwendung_von_vor__und_nachbearbeitungsskripten}
+### Verwendung von Vor- und Nachbearbeitungsskripten 
 
 If you have a gcode file written for a particular machine, which doesn\'t comply to the internal rules used by FreeCAD, described in the \"FreeCAD\'s internal GCode format\" section above, it might fail to import and/or render properly in the 3D view. To remedy to this, you must use a pre-processing script, which will convert from your machine-specific format to the FreeCAD format.
 
@@ -383,7 +383,7 @@ import example_post
 example_post.export (myObjectName,"/path/to/outputFile.ncc")
 ```
 
-### Schreiben von Verarbeitungsskripten {#schreiben_von_verarbeitungsskripten}
+### Schreiben von Verarbeitungsskripten 
 
 Pre- and post-processing scripts behave like other common FreeCAD imports/exporters. When choosing a pre/post processing script from the dialog, the import/export process will be redirected to the specified given script. Preprocessing scripts must contain at least the following methods open(filename) and insert(filename,docname). Postprocessing scripts need to implement export(objectslist,filename).
 
@@ -417,7 +417,7 @@ def open(filename):
 
 Pre- and post-processors work exactly the same way. They just do the contrary: The pre scripts convert from specific GCode to FreeCAD\'s \"agnostic\" GCode, while post scripts convert from FreeCAD\'s \"agnostic\" GCode to machine-specific GCode.
 
-## Hinzufügen aller Flächen eines FormZeichenfolge zur Liste der BasisFunktionen einer ProfilVonFlächen Operation {#hinzufügen_aller_flächen_eines_formzeichenfolge_zur_liste_der_basisfunktionen_einer_profilvonflächen_operation}
+## Hinzufügen aller Flächen eines FormZeichenfolge zur Liste der BasisFunktionen einer ProfilVonFlächen Operation 
 
 This example is based on a [discussion in the german forum](https://forum.freecadweb.org/viewtopic.php?f=13&t=33310&p=279991#p279959).
 
@@ -433,7 +433,7 @@ This example is based on a [discussion in the german forum](https://forum.freeca
 -   Create a Job using this solid as its BaseObject
 -   Create a ProfileFromFaces operation named \"Profile\_Faces\" with empty BaseGeometry.
 
-### Der Code {#der_code}
+### Der Code 
 
 The following code will then add all faces from ShapeString and create the paths:
 

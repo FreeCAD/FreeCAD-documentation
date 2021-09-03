@@ -4,7 +4,7 @@ Design456 is an external workbench that aims to provide a Direct Modeling soluti
 
 ## Introduction
 
-### FreeCAD GUI Widgets toolkit {#freecad_gui_widgets_toolkit}
+### FreeCAD GUI Widgets toolkit 
 
 In the effort of making new tools for direct modeling, a graphical user interface (GUI) is needed. A widget system is required to let the user interact with the [3D view](3D_view.md). Often FreeCAD implemented this interactive part as a [ViewProvider](Viewprovider.md). These ViewProviders are made for each tool and are specific for each tools.
 
@@ -14,7 +14,7 @@ This GUI toolkit will in the beginning try to produce different kind of primitiv
 
 As I am inspired totally by the simplicity of [FLTK GUI Toolkit](https://www.fltk.org/) used for making Windows/macOS/Linux GUI interfaces in cplusplus and other languages. The [Fr Widget](Fr_Widget.md) toolkit will be inspired by FLTK so understanding the toolkit shouldn\'t present much difficulty.
 
-##### Simple example showing a drawing {#simple_example_showing_a_drawing}
+##### Simple example showing a drawing 
 
 
 ```python
@@ -26,10 +26,10 @@ root = d.draw_circle()
 sg.addChild(root)
 ```
 
-### Installing the GUI toolkit {#installing_the_gui_toolkit}
+### Installing the GUI toolkit 
 
 The [Design456 Workbench](Design456_Workbench.md) is a prerequisite to be able to use this widget system. There is an option to specifically import the toolkit via python code, but Design456 Workbench is still required
 
-### [Fr\_Widget Basics](Fr_Widget_Basics.md) {#fr_widget_basics}
+### [Fr\_Widget Basics](Fr_Widget_Basics.md) 
 
-### [Fr\_Widget Common Widgets](Fr_Widget_Common_Widgets.md) {#fr_widget_common_widgets}
+### [Fr\_Widget Common Widgets](Fr_Widget_Common_Widgets.md) 

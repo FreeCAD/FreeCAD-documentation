@@ -29,7 +29,7 @@ Din versiunea 0.17, Panoul Arch poate fi de asemenea utilizat pentru a crea prof
 
 <img alt="" src=images/Arch_panel_wave.jpg  style="width:700px;">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -99,7 +99,7 @@ Din versiunea 0.17, Panoul Arch poate fi de asemenea utilizat pentru a crea prof
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>

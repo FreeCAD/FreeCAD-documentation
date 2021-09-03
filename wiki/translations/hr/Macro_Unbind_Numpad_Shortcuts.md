@@ -16,7 +16,7 @@ Kada unosite brojeve, a okvir za unos broja nije pravilno fokusiran, FreeCAD će
 
 Pogledajte nit na forumu [How to turn off (disable) Numpad navigation?](https://forum.freecadweb.org/viewtopic.php?f=3&t=26667)
 
-## Kako koristiti: {#kako_koristiti}
+## Kako koristiti: 
 
 1\. Copy-paste makro kod na Py konzolu FreeCAD-a.
 

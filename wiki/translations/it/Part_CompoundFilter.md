@@ -32,7 +32,7 @@ Se c\'è un solo figlio nel risultato, l\'output è il figlio. Se è presente pi
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare l\'oggetto affettato
-2.  Applicare {{MenuCommand|Menu → Parte → Composto → Filtra composto}}
+2.  Applicare **Menu → Parte → Composto → Filtra composto**
 3.  Selezionare il CompoundFilterObject nell\'albero
 4.  Nella scheda delle proprietà impostare \"Filter Type\" su \"specific items\"
 5.  Impostare le voci per gli elementi che si vuole estrarre

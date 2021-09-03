@@ -6,24 +6,24 @@
 
 These pages are in the early stage of development. If you can\'t find the information you are looking for, or have found useful information somewhere we have not linked to, then please leave a comment on the [forum](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) and someone will look into it (or, if you are feeling bold, why not edit this page directly!).
 
-## Developer Documentation {#developer_documentation}
+## Developer Documentation 
 
 
 <div class="mw-translate-fuzzy">
 
-## 개발자 문서 {#개발자_문서}
+## 개발자 문서 
 
 The developer documentation comprises the following sections:
 
 
 </div>
 
-### Compiling FreeCAD {#compiling_freecad}
+### Compiling FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-### 여러분 스스로: FreeCAD 컴파일 {#여러분_스스로_freecad_컴파일}
+### 여러분 스스로: FreeCAD 컴파일 
 
 -   [Source code management](Source_code_management.md)
 -   [Find assistance](Tracker.md) when you have a problem or think you may have found a bug
@@ -50,12 +50,12 @@ The developer documentation comprises the following sections:
 -   [Windows packaging](Windows_packaging.md)
 -   [MacOS packaging](MacOS_packaging.md)
 
-### Build Support Tools {#build_support_tools}
+### Build Support Tools 
 
 
 <div class="mw-translate-fuzzy">
 
-### 지원 도구 만들기 {#지원_도구_만들기}
+### 지원 도구 만들기 
 
 -   The [FreeCAD Build Tool](FreeCAD_Build_Tool.md)
     -   [Adding an application module](Module_Creation.md) to FreeCAD
@@ -67,12 +67,12 @@ The developer documentation comprises the following sections:
 
 </div>
 
-### Modifying FreeCAD {#modifying_freecad}
+### Modifying FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-### FreeCAD 바꾸기 {#freecad_바꾸기}
+### FreeCAD 바꾸기 
 
 -   Understanding [The FreeCAD source code](The_FreeCAD_source_code.md)
 -   [ Submitting patches](Tracker#Submitting_patches.md)
@@ -95,12 +95,12 @@ The developer documentation comprises the following sections:
 
 </div>
 
-### Module developer\'s guide {#module_developers_guide}
+### Module developer\'s guide 
 
 
 <div class="mw-translate-fuzzy">
 
-### 모둘 개발자 가이드 {#모둘_개발자_가이드}
+### 모둘 개발자 가이드 
 
 [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): This is an ebook under writing on github, please fork and send pull request to contribute.
 
@@ -127,7 +127,7 @@ Latest pdf preview can be downoaded from [pdf folder](https://github.com/qingfen
 
 <div class="mw-translate-fuzzy">
 
-### OpenCascade Documentation {#opencascade_documentation}
+### OpenCascade Documentation 
 
 
 </div>
@@ -139,11 +139,11 @@ OpenCascade is a software development platform for 3D surface and solid modeling
 -   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
 -   [The openCascade wiki](http://opencascade.wikidot.com) (currently containing ?? Chinese spam)
 
-#### File format {#file_format}
+#### File format 
 
 [File Format FCStd](File_Format_FCStd.md). The files created with FreeCAD are `.zip` files that include the [BREP](https://en.wikipedia.org/wiki/Boundary_representation) geometry, as well as XML data that describes the document.
 
-#### Sketcher solver {#sketcher_solver}
+#### Sketcher solver 
 
 -   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
 -   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).

@@ -55,7 +55,7 @@ Ver [FreeCAD paleta](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY
   ¿Cómo utilizo la paleta de FreeCAD?                        Instalar [la paleta](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) es tan fácil como [copiarla en su carpeta de paletas de Inkscape](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
   ---------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Rejilla y ancho del trazo {#rejilla_y_ancho_del_trazo}
+## Rejilla y ancho del trazo 
 
 
 **Obligatorio**
@@ -74,7 +74,7 @@ Los trazos no deben ser *más finos* que 2px, con tapas y esquinas redondeadas e
 
   ----------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ¿Por qué usar esta rejilla y tamaño de trazo?   Por razones históricas, FreeCAD utiliza un icono de 64x64 que luego se reduce. No es lo ideal, pero añade carácter. Como resultado, mantener las cosas alineadas a una rejilla de potencia de dos con espesores que son potencias de dos ayuda a evitar o al menos mitigar los problemas de anti-aliasing al re-escalar.
-  ¿Cómo puedo cumplir con esto?                   Si está usando Inkscape, vaya a {{MenuCommand|Archivo → Propiedades del documento}} y confirme que la anchura, la altura y las unidades de su página son correctas. Luego vaya a la pestaña {{MenuCommand|Rejillas}}, haga clic en **Nuevo**, establezca las unidades a `px`, `Distancia X` y `Distancia Y` a 1 y `Major grid line every` a 2.
+  ¿Cómo puedo cumplir con esto?                   Si está usando Inkscape, vaya a **Archivo → Propiedades del documento** y confirme que la anchura, la altura y las unidades de su página son correctas. Luego vaya a la pestaña **Rejillas**, haga clic en **Nuevo**, establezca las unidades a `px`, `Distancia X` y `Distancia Y` a 1 y `Major grid line every` a 2.
   ----------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contorno
@@ -122,23 +122,23 @@ Según las directrices de Tango, si está añadiendo un efecto de iluminación d
   ¿Cómo cumplir con esto?                                 Configure el relleno para que sea un gradiente lineal o radial. En Inkscape esto está disponible en los ajustes de trazo y relleno; con \"F2\" es posible mover los nodos del gradiente para asegurarse de que están en el ángulo correcto.
   ------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Formato de grabación recomendado {#formato_de_grabación_recomendado}
+## Formato de grabación recomendado 
 
 Todos los iconos deben crearse en formato [SVG](SVG/es.md) con una aplicación de imágenes vectoriales, como [Inkscape](http://inkscape.org). Esto facilita la aplicación de cambios y la derivación de iconos adicionales en el mismo espacio de la aplicación.
 
 Cuando se comprometan iconos para ser utilizados directamente por FreeCAD (en un archivo \*.qrc), guárdalos como \"Puro SVG\". Esto reducirá el tamaño del icono y ahorrará espacio en el disco y en la memoria.
 
-## Comentarios finales {#comentarios_finales}
+## Comentarios finales 
 
 Recuerda: **SALCHO**, Stroke, Alignment, Lighting, Color, Highlight, Outline
 
 Aquí tienes algunos consejos para comprobar tu trabajo.
 
-### Controlar el tamaño {#controlar_el_tamaño}
+### Controlar el tamaño 
 
-Inkscape tiene una práctica herramienta para comprobar su icono en varios tamaños. Vaya a {{MenuCommand|Ver → Vista de icono...}} y le mostrará vistas previas de su icono redimensionado a 16, 24, 32 y 64 píxeles.
+Inkscape tiene una práctica herramienta para comprobar su icono en varios tamaños. Vaya a **Ver → Vista de icono...** y le mostrará vistas previas de su icono redimensionado a 16, 24, 32 y 64 píxeles.
 
-### Comprobar su contorno {#comprobar_su_contorno}
+### Comprobar su contorno 
 
 1.  Pon tu icono en un rectángulo grande que sea del mismo color que el más oscuro de tu icono.
 2.  ¿Todavía se ve bien? Genial. Ve al siguiente paso. Si no, ajusta el resaltado.
@@ -152,11 +152,11 @@ Inkscape tiene una práctica herramienta para comprobar su icono en varios tama�
   Mi icono es apenas visible.   Tiene un contraste de forma pobre. Compruebe de nuevo el contorno y el resaltado, probablemente falte uno de ellos o esté mal aplicado.
   ----------------------------- -----------------------------------------------------------------------------------------------------------------------------------------
 
-### Comprobar el contraste {#comprobar_el_contraste}
+### Comprobar el contraste 
 
 1.  Exportar su icono de SVG a un formato de mapa de bits, como `.png` o `.jpg`.
-2.  Cargue su mapa de bits en un programa de imagen, y cámbielo a escala de grises. Por ejemplo, en GIMP iría a {{MenuCommand|Imagen → Modo → Escala de grises}}.
-3.  Inkscape le permite convertir el SVG directamente a escala de grises usando {{MenuCommand|Extensiones → Color → Escala de grises}}.
+2.  Cargue su mapa de bits en un programa de imagen, y cámbielo a escala de grises. Por ejemplo, en GIMP iría a **Imagen → Modo → Escala de grises**.
+3.  Inkscape le permite convertir el SVG directamente a escala de grises usando **Extensiones → Color → Escala de grises**.
 4.  ¿Todavía puede distinguir claramente algún detalle interno? Genial. El contraste es bueno.
 
 Una imagen en escala de grises permite identificar más fácilmente los problemas de contraste, ya que sólo hay una mezcla de blanco y negro. Probar imágenes en escala de grises también es bueno para los usuarios daltónicos. Si pueden ver los detalles de una imagen en escala de grises, es probable que el contraste de la imagen totalmente coloreada también sea bueno.

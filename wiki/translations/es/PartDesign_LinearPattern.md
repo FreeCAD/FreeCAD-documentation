@@ -44,30 +44,30 @@ Para añadir o borrar operaciones de un patrón existente:
 
 Mientras se crea una operación de repetición lineal, la ventana de diálogo de parámetros de repetición **Parámetros del PatrónLineal** ofrece diferentes maneras de especificar la dirección del patrón.
 
-#### Eje horizontal del croquis {#eje_horizontal_del_croquis}
+#### Eje horizontal del croquis 
 
 Usa el eje horizontal del boceto como dirección.
 
-#### Eje vertical del croquis {#eje_vertical_del_croquis}
+#### Eje vertical del croquis 
 
 Usa el eje vertical del boceto como dirección.
 
-#### Eje normal del croquis {#eje_normal_del_croquis}
+#### Eje normal del croquis 
 
 
 {{VersionPlus/es|0.17}}
 
 Usa el eje normal del croquis como dirección.
 
-#### Seleccione referencia\... {#seleccione_referencia...}
+#### Seleccione referencia\... 
 
 Permite al usuario seleccionar una Línea de referencia o una arista de un objeto, o una línea de un boceto para usarla como dirección.
 
-#### Eje del croquis personalizado {#eje_del_croquis_personalizado}
+#### Eje del croquis personalizado 
 
 Si el boceto que define la operación a copiar contiene también una línea o líneas de construcción, la lista desplegable contendrá un eje de boceto personalizado por cada línea de construcción. La primera línea de construcción se llamará \'Línea de construcción 1\'.
 
-#### Eje base (X/Y/Z) {#eje_base_xyz}
+#### Eje base (X/Y/Z) 
 
 
 {{Version/es|0.17 o posteriores}}

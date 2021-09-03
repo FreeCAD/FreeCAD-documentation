@@ -66,9 +66,9 @@ For a more in depth description of the sketcher, read the [Sketcher reference](S
 
 </div>
 
-1\. Open FreeCAD, create a new empty document with {{MenuCommand|File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)}}.
+1\. Open FreeCAD, create a new empty document with **File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
 
-:   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu {{MenuCommand|[View](Std_View_Menu.md) → Workbench → Sketcher}}.
+:   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **[View](Std_View_Menu.md) → Workbench → Sketcher**.
 
 Some actions to remember:
 
@@ -81,7 +81,7 @@ Some actions to remember:
 
 ### Procedură
 
-#### Crearea unei Sketch {#crearea_unei_sketch}
+#### Crearea unei Sketch 
 
 1.  Creați un nou document
 2.  Comutați la Sketcher Workbench utilizând meniul contextual **drop-down menu** sau făcând click pe **View menu \> Workbench \> Sketcher**.
@@ -122,9 +122,9 @@ In the **Combo View**, expand the option **Edit controls** and make sure **Autoc
 
 <div class="mw-translate-fuzzy">
 
-#### Creating geometry {#creating_geometry}
+#### Creating geometry 
 
-##### Sketcher construction geometry {#sketcher_construction_geometry}
+##### Sketcher construction geometry 
 
 Construction geometry is used as guides for the creation of complex profiles. To access it, we need to enable \'\'\'Construction mode \'\'\'.
 
@@ -154,9 +154,9 @@ up to this point the [line tool](Sketcher_CreateLine.md) is still active. This m
 
 do not press **Esc** a second time as this will exit the sketch edit mode. If you do this, re-enter the edit mode by double clicking on the sketch in the [tree view](tree_view.md).
 
-Take a look at the [task panel](task_panel.md) again. The {{MenuCommand|Solver messages}} section already indicates that the sketch is under-constrained, and it mentions the number of **degrees of freedom**.
+Take a look at the [task panel](task_panel.md) again. The **Solver messages** section already indicates that the sketch is under-constrained, and it mentions the number of **degrees of freedom**.
 
-Look at the {{MenuCommand|Constraints}} and {{MenuCommand|Elements}} sections to see the new listed constraints and lines. Once your sketches have many elements, it may be difficult to select them in the [3D view](3D_view.md), so you can use these lists to select the object that you wish exactly.
+Look at the **Constraints** and **Elements** sections to see the new listed constraints and lines. Once your sketches have many elements, it may be difficult to select them in the [3D view](3D_view.md), so you can use these lists to select the object that you wish exactly.
 
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
@@ -166,7 +166,7 @@ Look at the {{MenuCommand|Constraints}} and {{MenuCommand|Elements}} sections to
 
 <div class="mw-translate-fuzzy">
 
-##### Geometria Sketcher {#geometria_sketcher}
+##### Geometria Sketcher 
 
 Geometria Sketcher este folosită pentru a crea profilurile închise necesare pentru a efectua operații 3D în Atelierul**PartDesign** .
 
@@ -192,7 +192,7 @@ Geometria Sketcher este folosită pentru a crea profilurile închise necesare pe
 
 Make sure you are not in construction mode by clicking on **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction](Sketcher_ToggleConstruction.md)**, if you have not previously exited this mode.
 
-### Outer arcs {#outer_arcs}
+### Outer arcs 
 
 4\. Create a circle.
 
@@ -213,7 +213,7 @@ Make sure you are not in construction mode by clicking on **<img src=images/Sket
 
 *Circular arcs added at the endpoints of the construction lines. Also a central circle.*
 
-### Inner arcs {#inner_arcs}
+### Inner arcs 
 
 
 <div class="mw-translate-fuzzy">
@@ -232,7 +232,7 @@ To summarize, the O-arcs should have their curvature pointing outwards, and thei
 
 ## Constraints
 
-Take a look at the [task panel](task_panel.md) again. Due to the new geometrical elements that we have drawn, the {{MenuCommand|Solver messages}} section indicates even more **degrees of freedom**. A **degree of freedom** (DOF) indicates a possible movement of one element. For example, a point can be moved both in horizontal and vertical directions, so it has two degrees of freedom. A line is defined by two points, therefore in total it has four degrees of freedom. If we fix one of those points, then the entire system has only two degrees of freedom available; if we additionally fix the horizontal movement of the remaining point, we only have one degree of freedom left; and if we also fix the vertical movement of this point, then the last degree of freedom disappears, and the line cannot move from its position any more.
+Take a look at the [task panel](task_panel.md) again. Due to the new geometrical elements that we have drawn, the **Solver messages** section indicates even more **degrees of freedom**. A **degree of freedom** (DOF) indicates a possible movement of one element. For example, a point can be moved both in horizontal and vertical directions, so it has two degrees of freedom. A line is defined by two points, therefore in total it has four degrees of freedom. If we fix one of those points, then the entire system has only two degrees of freedom available; if we additionally fix the horizontal movement of the remaining point, we only have one degree of freedom left; and if we also fix the vertical movement of this point, then the last degree of freedom disappears, and the line cannot move from its position any more.
 
 
 <div class="mw-translate-fuzzy">
@@ -253,14 +253,14 @@ There are two principal types of constraints:
 
 <div class="mw-translate-fuzzy">
 
-##### Constrângeri Geometrice {#constrângeri_geometrice}
+##### Constrângeri Geometrice 
 
 Ele sunt folosite pentru a stabili relațiile dintre puncte și curbe fără a utiliza dimensiuni.
 
 
 </div>
 
-### Equal length and radius {#equal_length_and_radius}
+### Equal length and radius 
 
 
 <div class="mw-translate-fuzzy">
@@ -337,7 +337,7 @@ Până la acest pas, am creat un profil închis, care poate fi ajustat cu dimens
 
 <div class="mw-translate-fuzzy">
 
-##### Constrângeri de Referință {#constrângeri_de_referință}
+##### Constrângeri de Referință 
 
 Acestea sunt folosite pentru a specifica distanța dintre punctele dintr-o anumită direcție și dimensiunile curbelor.
 
@@ -346,7 +346,7 @@ Acestea sunt folosite pentru a specifica distanța dintre punctele dintr-o anumi
 
 These constraints specify the numerical distances between two points, and angles between two lines.
 
-### Distances and angles {#distances_and_angles}
+### Distances and angles 
 
 
 <div class="mw-translate-fuzzy">
@@ -423,7 +423,7 @@ Ar trebui să finalizați cu o schiță complet constrânsă. Aceasta poate fi c
 
 *Left: fully constrained sketch with only the most important constraints showing. Right: solid extrusion produced with [PartDesign Pad](PartDesign_Pad.md).*
 
-## Additional information {#additional_information}
+## Additional information 
 
 For a more in depth description of the sketcher, visit the [Sketcher Workbench](Sketcher_Workbench.md) documentation and also read the [Sketcher reference](Sketcher_reference.md).
 

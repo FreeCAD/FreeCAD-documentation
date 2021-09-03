@@ -24,7 +24,7 @@ The command currently does not work well with layers and can produce confusing r
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 1.  Ağaç görünümünde bir veya daha fazla grup seçin
 

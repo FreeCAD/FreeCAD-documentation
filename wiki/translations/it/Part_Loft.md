@@ -59,7 +59,7 @@ Per ulteriori informazioni su come sono uniti i profili, fare riferimento alla p
 
 <div class="mw-translate-fuzzy">
 
-## Limitazioni e complicazioni {#limitazioni_e_complicazioni}
+## Limitazioni e complicazioni 
 
 -   Un vertice o un punto
     -   vertice o punto possono essere utilizzati solo come primo e/o ultimo profilo nella lista dei profili.
@@ -101,7 +101,7 @@ Per ulteriori informazioni su come sono uniti i profili, fare riferimento alla p
 
 </div>
 
-## Un esempio di Loft {#un_esempio_di_loft}
+## Un esempio di Loft 
 
 Lo strumento Loft si trova nell\'ambiente Parte, menu Parte -\> Loft \... o tramite l\'icona nella barra degli strumenti.
 
@@ -120,7 +120,7 @@ Nella sezione \"Azioni\" della \"Vista Combinata\" ci sono due liste: \"Vertice/
 
 <div class="mw-translate-fuzzy">
 
-### Selezione delle sezioni {#selezione_delle_sezioni}
+### Selezione delle sezioni 
 
 In \"Vertice/Spigolo/\...\" vengono visualizzati tutti gli oggetti disponibili. In questo elenco devono essere selezionati due elementi, uno dopo l\'altro.
 
@@ -149,7 +149,7 @@ Suggerimento: le voci attive o selezionate nell\'elenco vengono visualizzati nel
 
 </div>
 
-### Completare il comando {#completare_il_comando}
+### Completare il comando 
 
 Se sono state selezionate entrambe le sezioni, il comando può essere completato cliccando su \"OK\".
 
@@ -171,7 +171,7 @@ Se invece si vuole effettivamente creare un solido, questo si può fare utilizza
 
 La procedura è analoga a quella descritta per le polilinee aperte.
 
-### Modifica della selezione delle sezioni {#modifica_della_selezione_delle_sezioni}
+### Modifica della selezione delle sezioni 
 
 Se si desidera modificare la selezione delle sezioni dopo la creazione del loft, è possibile selezionare il campo Sezioni nella scheda Dati e fare clic sul pulsante con i puntini di sospensione. Appare l\'elenco di tutte le sezioni selezionabili, e la selezione corrente viene evidenziata. Si può rimuovere o aggiungere ulteriori sezioni.
 

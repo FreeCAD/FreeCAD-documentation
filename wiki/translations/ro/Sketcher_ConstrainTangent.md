@@ -29,7 +29,7 @@ Tangent Constraint can also be used with two lines to make them colinear.
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 sunt patru moduri diferite în cae contrângerea poate fi aplicată:
 
@@ -46,7 +46,7 @@ Pentru a aplica constrângerile de tangență, trebuie să urmați pașii:
 -   Select two or three entities in the sketch.
 -   Invoke the constraint by clicking its icon on the toolbar, or selecting the menu item, or using keyboard shortcut.
 
-### Între două curbe (direct tangency) {#între_două_curbe_direct_tangency}
+### Între două curbe (direct tangency) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
 
@@ -61,7 +61,7 @@ Dacă nu este acceptată tangența directă între curbele selectate (de exemplu
 
 Nu se recomandă reconstruirea punctului de tangență prin crearea unui punct și constrângerea lui de a se afla pe ambele curbe. It will work, but the convergence will be seriously slower, jumpier, and will require about twice as many iterations to converge than normal. Use other modes of this constraint if the point of tangency is needed.
 
-### Între două puncte finale (point-to-point tangency) {#între_două_puncte_finale_point_to_point_tangency}
+### Între două puncte finale (point-to-point tangency) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
@@ -77,7 +77,7 @@ Nu se recomandă reconstruirea punctului de tangență prin crearea unui punct �
 
 -   endpoint of line/arc/arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., two endpoints of any two curves)
 
-### Între curbă și punct final (point-to-curve tangency) {#între_curbă_și_punct_final_point_to_curve_tangency}
+### Între curbă și punct final (point-to-curve tangency) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
 
@@ -87,7 +87,7 @@ Nu se recomandă reconstruirea punctului de tangență prin crearea unui punct �
 
 -   line, circle, arc, ellipse, arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., any curve + endpoint of any curve)
 
-### Între două curbe la punct (tangent-via-point) (v0.15) {#între_două_curbe_la_punct_tangent_via_point_v0.15}
+### Între două curbe la punct (tangent-via-point) (v0.15) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
 
@@ -111,7 +111,7 @@ Pentru ca constrângerea să funcționeze corect, punctul trebuie să fie pe amb
 
 Plasarea punctului înaintea aplicării constrângerii este o sugestie pentru rezolvitor pentru locul unde ar trebui să fie tangența. Cu această constrângere, se pot constrânge două elipse să se atingă reciproc în două locuri.
 
-### Between two lines (collinear) {#between_two_lines_collinear}
+### Between two lines (collinear) 
 
 <img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
 

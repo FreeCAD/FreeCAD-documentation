@@ -31,7 +31,7 @@ Crea un componente no paramétrico [ Arch](Arch_Workbench/es.md) de cualquier ob
 
 </div>
 
-## Propiedades de componentes Arch comunes {#propiedades_de_componentes_arch_comunes}
+## Propiedades de componentes Arch comunes 
 
 
 <div class="mw-translate-fuzzy">

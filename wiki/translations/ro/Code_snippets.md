@@ -18,7 +18,7 @@ Această pagină conține exemple, extrase, fragmente de cod Python de la FreeCA
 
 <div class="mw-translate-fuzzy">
 
-### Un fișier tipic InitGui.py {#un_fișier_tipic_initgui.py}
+### Un fișier tipic InitGui.py 
 
 Fiecare modul trebuie să conțină, pe lângă fișierul modulului principal, un fișier InitGui.py, responsabil pentru înserarea modulului GUI principal. Acesta este un exemplu simplu.
 
@@ -45,7 +45,7 @@ Gui.addWorkbench(ScriptWorkbench())
 
 <div class="mw-translate-fuzzy">
 
-### Un fișier modul tipic {#un_fișier_modul_tipic}
+### Un fișier modul tipic 
 
 Acesta este un exemplu al unui fișier modul principal, care conține tot ceea ce face modul dvs. Acesta este fișierul Scripts.py invocat în exemplul anterior. Puteți să aveți toate comenzile personalizate aici.
 
@@ -74,7 +74,7 @@ FreeCADGui.addCommand('Script_Cmd', ScriptCmd())
 
 <div class="mw-translate-fuzzy">
 
-### Importul unui nou tip de fișier {#importul_unui_nou_tip_de_fișier}
+### Importul unui nou tip de fișier 
 
 Efectuarea unui import pentru un nou tip de fișier în FreeCAD este ușoară. FreeCAD nu ia în considerare că importați orice date într-un document deschis, pentru că nu puteți deschide direct un nou tip de fișier. Deci, ceea ce trebuie să faceți este să adăugați noua extensie de fișiere în lista de extensii cunoscute a FreeCAD și să scrieți codul care va citi fișierul și va crea obiectele FreeCAD pe care le doriți:
 
@@ -111,7 +111,7 @@ FreeCAD.addExportType("Your new File Type (*.ext)","Export_Ext")
 
 <div class="mw-translate-fuzzy">
 
-### Adăugarea unei linii (segment) {#adăugarea_unei_linii_segment}
+### Adăugarea unei linii (segment) 
 
 O linie este definită doar de 2 puncte.
 
@@ -139,7 +139,7 @@ doc.recompute()
 
 <div class="mw-translate-fuzzy">
 
-### Adăugarea unui poligon {#adăugarea_unui_poligon}
+### Adăugarea unui poligon 
 
 Un poligon este pur și simplu un set de segmente de linie conectate (o polilinie în AutoCAD). Nu este obligatoriu să fie închisă.
 
@@ -173,7 +173,7 @@ doc.recompute()
 
 <div class="mw-translate-fuzzy">
 
-### Adăugarea și îndepărtarea unui obiect într-un grup {#adăugarea_și_îndepărtarea_unui_obiect_într_un_grup}
+### Adăugarea și îndepărtarea unui obiect într-un grup 
 
 
 </div>
@@ -192,7 +192,7 @@ Notă: Puteți chiar să adăugați un alt grup la un grup\... {{Top}}
 
 <div class="mw-translate-fuzzy">
 
-### Adăugarea unei plase {#adăugarea_unei_plase}
+### Adăugarea unei plase 
 
 
 </div>
@@ -229,7 +229,7 @@ me.Mesh=m
 
 <div class="mw-translate-fuzzy">
 
-### Adăugarea unui cerc sau a unui arc de cerc {#adăugarea_unui_cerc_sau_a_unui_arc_de_cerc}
+### Adăugarea unui cerc sau a unui arc de cerc 
 
 
 </div>
@@ -251,7 +251,7 @@ doc.recompute()
 
 <div class="mw-translate-fuzzy">
 
-### Accesarea și schimbarea reprezentării unui obiect {#accesarea_și_schimbarea_reprezentării_unui_obiect}
+### Accesarea și schimbarea reprezentării unui obiect 
 
 Fiecare obiect dintr-un document FreeCAD are un obiect vederii asociat, care stochează toți parametrii care definesc proprietățile obiectului, cum ar fi culoarea, lățimea liniei etc.
 
@@ -274,7 +274,7 @@ v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
 
 {{Top}}
 
-### Replace the form of mouse with one image {#replace_the_form_of_mouse_with_one_image}
+### Replace the form of mouse with one image 
 
 
 ```python
@@ -293,7 +293,7 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 {{Top}}
 
-### Replace the form of mouse with one image (cross) include {#replace_the_form_of_mouse_with_one_image_cross_include}
+### Replace the form of mouse with one image (cross) include 
 
 The image is created by Gimp exported in a .XPM file. Copy and use the code between the bracket **\"{\"** code to copy **\"}\"**
 
@@ -352,7 +352,7 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 {{Top}}
 
-### Observe camera change in the 3D viewer via Python {#observe_camera_change_in_the_3d_viewer_via_python}
+### Observe camera change in the 3D viewer via Python 
 
 This can be done adding a Node sensor to the camera. from pivy import coin
 
@@ -374,7 +374,7 @@ node_sensor.attach(camera_node)```
 
 <div class="mw-translate-fuzzy">
 
-### Observarea evenimentelor mouse-ului în vizualizatorul 3D via Python {#observarea_evenimentelor_mouse_ului_în_vizualizatorul_3d_via_python}
+### Observarea evenimentelor mouse-ului în vizualizatorul 3D via Python 
 
 Cadrul Inventor permite adăugarea unuia sau mai multor noduri de apel invers(callback) la scena grafică vizualizată. În mod implicit, în FreeCAD, un nod de apel invers este instalat per vizualizator(fereastra de afișare grafică), ceea ce permite adăugarea funcțiilor globale sau statice C ++. Metode de legarea adecvată sunt furnizate de Python, pentru a permite utilizarea acestei tehnici plecând de la codul Python.
 
@@ -458,7 +458,7 @@ pentru evenimente tip spaceball:
 
 <div class="mw-translate-fuzzy">
 
-### Afișați tastele apăsate și evenimentele comenzi {#afișați_tastele_apăsate_și_evenimentele_comenzi}
+### Afișați tastele apăsate și evenimentele comenzi 
 
 Această macrocomandă afișează în vizualizarea raportului tastele apăsate și comanda tuturor evenimentelor
 
@@ -493,7 +493,7 @@ c = v.addEventCallback("SoEvent",o.logPosition)
 
 <div class="mw-translate-fuzzy">
 
-### Manipularea de scene grafice în Python {#manipularea_de_scene_grafice_în_python}
+### Manipularea de scene grafice în Python 
 
 De asemenea, este posibil să se afișeze și să se schimbe scen în programul Python, cu modulul \"pivy\" - în combinație cu Coin.
 
@@ -525,7 +525,7 @@ node = type.createInstance()
 
 <div class="mw-translate-fuzzy">
 
-### Adăugarea și eliminarea obiectelor în / de la scena de grafică {#adăugarea_și_eliminarea_obiectelor_în_de_la_scena_de_grafică}
+### Adăugarea și eliminarea obiectelor în / de la scena de grafică 
 
 Adăugarea de noi noduri în scena grafică poate fi făcută astfel. Aveți grijă să adăugați mereu un SoSeparator pentru a conține proprietățile formei geometrice, coordonatele și informațiile despre material ale aceluiași obiect. Următorul exemplu adaugă o linie roșie de la (0,0,0) până la (10,0,0):
 
@@ -563,7 +563,7 @@ sg.removeChild(no)
 
 <div class="mw-translate-fuzzy">
 
-### Salvați sceneGraph cu o rotație într-o serie de 36 fișiere în axele X Y Z {#salvați_scenegraph_cu_o_rotație_într_o_serie_de_36_fișiere_în_axele_x_y_z}
+### Salvați sceneGraph cu o rotație într-o serie de 36 fișiere în axele X Y Z 
 
 
 </div>
@@ -661,7 +661,7 @@ for i in range(steps):
 
 <div class="mw-translate-fuzzy">
 
-### Adăugarea de widget-uri personalizate la interfață {#adăugarea_de_widget_uri_personalizate_la_interfață}
+### Adăugarea de widget-uri personalizate la interfață 
 
 Puteți crea widget-uri personalizate cu designerul Qt, le puteți transforma într-un script python și apoi le puteți încărca în interfața FreeCAD cu PySide.
 
@@ -707,7 +707,7 @@ FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the w
 
 <div class="mw-translate-fuzzy">
 
-### Adăugarea unui tab în vizualizarea Combo {#adăugarea_unui_tab_în_vizualizarea_combo}
+### Adăugarea unui tab în vizualizarea Combo 
 
 Următorul cod vă permite să adăugați o filă în FreeCAD ComboView, pe lângă filele \"Project\" și \"Tasks\". De asemenea, utilizează modulul uic pentru a încărca un fișier ui direct în acea filă.
 
@@ -756,7 +756,7 @@ tab2.show()
 
 {{Top}}
 
-### Activați sau dezactivați o fereastră {#activați_sau_dezactivați_o_fereastră}
+### Activați sau dezactivați o fereastră 
 
 This script give the ability to manipulate the UI from the [Python console](Python_console.md) to show/hide different components in the FreeCAD [interface](interface.md) such as:
 
@@ -799,7 +799,7 @@ dw.setVisible(True)        # True or False
 
 <div class="mw-translate-fuzzy">
 
-### Deschiderea unei pagini web personalizate {#deschiderea_unei_pagini_web_personalizate}
+### Deschiderea unei pagini web personalizate 
 
 
 </div>
@@ -816,7 +816,7 @@ WebGui.openBrowser("http://www.example.com")
 
 <div class="mw-translate-fuzzy">
 
-### Obținerea conținutului HTML al unei pagini Web deschise {#obținerea_conținutului_html_al_unei_pagini_web_deschise}
+### Obținerea conținutului HTML al unei pagini Web deschise 
 
 
 </div>
@@ -837,7 +837,7 @@ print( html)
 
 <div class="mw-translate-fuzzy">
 
-### Recuperați și utilizați coordonatele a 3 puncte sau obiecte selectate {#recuperați_și_utilizați_coordonatele_a_3_puncte_sau_obiecte_selectate}
+### Recuperați și utilizați coordonatele a 3 puncte sau obiecte selectate 
 
 
 </div>
@@ -872,7 +872,7 @@ else :
 
 {{Top}}
 
-### Listarea tuturor obeictelor {#listarea_tuturor_obeictelor}
+### Listarea tuturor obeictelor 
 
 
 ```python
@@ -899,7 +899,7 @@ for obj in objs:
 
 {{Top}}
 
-### Listează dimensiunile unui obiect, având în vedere numele acestuia {#listează_dimensiunile_unui_obiect_având_în_vedere_numele_acestuia}
+### Listează dimensiunile unui obiect, având în vedere numele acestuia 
 
 
 ```python
@@ -910,7 +910,7 @@ for edge in FreeCAD.ActiveDocument.MyObjectName.Shape.Edges: # replace "MyObject
 
 {{Top}}
 
-### Funcția rezidentă cu acțiunea clicului mouse-ului {#funcția_rezidentă_cu_acțiunea_clicului_mouse_ului}
+### Funcția rezidentă cu acțiunea clicului mouse-ului 
 
 Here with **SelObserver** on a object select
 
@@ -979,7 +979,7 @@ c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
 
 <div class="mw-translate-fuzzy">
 
-### căutarea și selecția tuturor elementelor de sub cursor {#căutarea_și_selecția_tuturor_elementelor_de_sub_cursor}
+### căutarea și selecția tuturor elementelor de sub cursor 
 
 
 </div>
@@ -1029,7 +1029,7 @@ mouse_over = view.addEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Lista componentelor unui obiect {#lista_componentelor_unui_obiect}
+### Lista componentelor unui obiect 
 
 This function list the components of an object and extracts:
 
@@ -1149,7 +1149,7 @@ detail()
 
 {{Top}}
 
-### Lista PropertiesList {#lista_propertieslist}
+### Lista PropertiesList 
 
 
 ```python
@@ -1167,7 +1167,7 @@ for p in op:
 
 <div class="mw-translate-fuzzy">
 
-### Adăugarea unei proprietăți \"Comentariu\" {#adăugarea_unei_proprietăți_comentariu}
+### Adăugarea unei proprietăți \"Comentariu\" 
 
 
 </div>
@@ -1186,7 +1186,7 @@ App.activeDocument().recompute()
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Căutarea și extracția datelor {#căutarea_și_extracția_datelor}
+### Căutarea și extracția datelor 
 
 Example de cautare și decodare a informației despre un obiect.
 
@@ -1480,7 +1480,7 @@ Draft.makePoint(vecteur)
 
 {{Top}}
 
-### Căutarea Manuală a unui element având eticheta sa {#căutarea_manuală_a_unui_element_având_eticheta_sa}
+### Căutarea Manuală a unui element având eticheta sa 
 
 
 ```python
@@ -1514,7 +1514,7 @@ App.Console.PrintMessage("Base.Angle   : "+str(FreeCAD.ActiveDocument.getObjects
 
 <div class="mw-translate-fuzzy">
 
-### Coordonate Carteziene {#coordonate_carteziene}
+### Coordonate Carteziene 
 
 
 </div>
@@ -1596,7 +1596,7 @@ Draft.makeWire(p2,closed=False,face=False,support=None)  # to see the difference
 
 {{Top}}
 
-### Selectați toate obiectele în document {#selectați_toate_obiectele_în_document}
+### Selectați toate obiectele în document 
 
 
 ```python
@@ -1614,7 +1614,7 @@ for obj in FreeCAD.ActiveDocument.Objects:
 
 <div class="mw-translate-fuzzy">
 
-### Selectarea fațetei unui obiect {#selectarea_fațetei_unui_obiect}
+### Selectarea fațetei unui obiect 
 
 
 </div>
@@ -1636,7 +1636,7 @@ s = Gui.Selection.getSelectionEx()
 
 {{Top}}
 
-### Get the normal vector of a face of an object by Name object and number Face (r.Q) {#get_the_normal_vector_of_a_face_of_an_object_by_name_object_and_number_face_r.q}
+### Get the normal vector of a face of an object by Name object and number Face (r.Q) 
 
 
 ```python
@@ -1662,7 +1662,7 @@ print("Rotation Q : ", r.Q)
 
 {{Top}}
 
-### Get the normal vector of a face of an object by Name object and number of Face {#get_the_normal_vector_of_a_face_of_an_object_by_name_object_and_number_of_face}
+### Get the normal vector of a face of an object by Name object and number of Face 
 
 
 ```python
@@ -1676,7 +1676,7 @@ print("Face"+str(numero_Face), " : ", normal)
 
 {{Top}}
 
-### Get the normal vector of an object selected and number of Face {#get_the_normal_vector_of_an_object_selected_and_number_of_face}
+### Get the normal vector of an object selected and number of Face 
 
 
 ```python
@@ -1696,7 +1696,7 @@ Gui.Selection.addSelection(selectionObjects[0],"Face"+str(numero_Face))
 
 <div class="mw-translate-fuzzy">
 
-### Determinarea vectorului normal() la o suprafață {#determinarea_vectorului_normal_la_o_suprafață}
+### Determinarea vectorului normal() la o suprafață 
 
 
 </div>
@@ -1725,7 +1725,7 @@ def normal(self):
 
 {{Top}}
 
-### Get the normal vector of a surface from a STL file {#get_the_normal_vector_of_a_surface_from_a_stl_file}
+### Get the normal vector of a surface from a STL file 
 
 
 ```python
@@ -1751,7 +1751,7 @@ Gui.ActiveDocument.ActiveView.removeEventCallbackPivy(coin.SoMouseButtonEvent.ge
 
 {{Top}}
 
-### Crearea unui obiect față de poziția Camerei foto {#crearea_unui_obiect_față_de_poziția_camerei_foto}
+### Crearea unui obiect față de poziția Camerei foto 
 
 
 ```python
@@ -1803,7 +1803,7 @@ rec = Draft.makeRectangle(length=10.0,height=10.0,placement=pl,face=False,suppor
 
 {{Top}}
 
-### Citirea și Scrierea unei Expresii {#citirea_și_scrierea_unei_expresii}
+### Citirea și Scrierea unei Expresii 
 
 
 ```python
@@ -1833,7 +1833,7 @@ for i in expressions:                                                      # lis
 
 {{Top}}
 
-### Create a Sketch on a Surface in PartDesign {#create_a_sketch_on_a_surface_in_partdesign}
+### Create a Sketch on a Surface in PartDesign 
 
 This snippet can be useful, if you want to create a sketch on a surface in PartDesign from inside a macro. Note, that body might be None, if no active body is selected and that the Selection might be empty.
 
@@ -1856,7 +1856,7 @@ App.ActiveDocument.recompute()
 
 {{Top}}
 
-### How to Simulate a Mouse Click at a given Coordinate {#how_to_simulate_a_mouse_click_at_a_given_coordinate}
+### How to Simulate a Mouse Click at a given Coordinate 
 
 The position is relative to the GL widget. See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=44008).
 
@@ -1898,7 +1898,7 @@ me = QtGui.QMouseEvent(QtCore.QEvent.MouseButtonRelease, QtCore.QPoint(coordX,co
 
 {{Top}}
 
-### How to create a face with holes using Python API {#how_to_create_a_face_with_holes_using_python_api}
+### How to create a face with holes using Python API 
 
 This snippet demonstrates how to create a face with internal holes through the Python API. See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=56308).
 

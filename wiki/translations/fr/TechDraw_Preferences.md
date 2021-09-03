@@ -14,7 +14,7 @@
 
 ## Introduction
 
-Les préférences pour l\'[Atelier TechDraw](TechDraw_Workbench/fr.md) se trouvent dans l\'[Editeur de préférences](Preferences_Editor/fr.md), {{MenuCommand|Edition → Préférences → TechDraw}}.
+Les préférences pour l\'[Atelier TechDraw](TechDraw_Workbench/fr.md) se trouvent dans l\'[Editeur de préférences](Preferences_Editor/fr.md), **Edition → Préférences → TechDraw**.
 
 Tous les paramètres de préférences avec des étiquettes \\ italiques\'\' sont des valeurs par défaut pour les nouveaux objets de dessin. Ils n\'ont aucun effet sur les objets existants.
 
@@ -22,7 +22,7 @@ Tous les paramètres de préférences avec des étiquettes \\ italiques\'\' sont
 
 <img alt="Préférences générales" src=images/TechDraw_PreferencesGeneral.png  style="width:350px;">
 
-### Mises à jour de dessin {#mises_à_jour_de_dessin}
+### Mises à jour de dessin 
 
 
 {{Version/fr|0.19}}
@@ -56,13 +56,13 @@ Tous les paramètres de préférences avec des étiquettes \\ italiques\'\' sont
 
 <img alt="Préférences d\'échelle" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
 
-### Échelle {#échelle_1}
+### Échelle 
 
 -   **Page Scale**: Échelle par défaut pour les nouvelles pages.
 -   **View Scale Type**: Échelle par défaut pour les nouvelles vues.
 -   **View Custom Scale**: Échelle par défaut pour les vues si **View Scale Type** est *Personnalisé*.
 
-### Size Adjustments {#size_adjustments}
+### Size Adjustments 
 
 -   **Vertex Scale**: échelle des points [vertex](Glossary/fr#V.md). Multiplicateur de largeur de ligne.
 -   **Center Mark Scale**: taille des marques centrales. Multiplicateur de taille de sommet.
@@ -73,7 +73,7 @@ Tous les paramètres de préférences avec des étiquettes \\ italiques\'\' sont
 
 <img alt="Préférences dimensions" src=images/TechDraw_PreferencesDimensions.png  style="width:350px;">
 
-### Dimensions {#dimensions_1}
+### Dimensions 
 
 -   **Standard and Style**: norme à utiliser pour les valeurs dimensionnelles. La différence entre les normes est indiquée dans l\'image: ![\|500px\|Différences entre les differentes normes prises en charge. ([Image source](images/https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png ).
 
@@ -169,11 +169,11 @@ HLR pour *hidden line removal* (suppression des lignes cachées).
 -   **Max SVG Hatch Tiles**: limite des tuiles SVG d\'une taille de 64x64 pixels utilisées pour hachurer une seule face. Pour les grandes échelles, on peut obtenir une erreur sur de nombreuses tuiles SVG, puis il faut augmenter la limite de tuiles.
 -   **Max PAT Hatch Segments**: nombre maximal de segments de hachures utilisés pour hachurer une face avec un motif PAT.
 
-## Paramètres cachés {#paramètres_cachés}
+## Paramètres cachés 
 
 **Remarque:** Depuis FreeCAD 0.19, tous les paramètres sont disponibles dans les boîtes de dialogue Préférences. Ce qui suit s\'applique uniquement aux versions de FreeCAD antérieures à 0,19:
 
-Certains paramètres de préférences ne sont accessibles que via [Std Editeur des paramètres](Std_DlgParameter/fr.md), {{MenuCommand|Outils → Éditer paramètres}}.
+Certains paramètres de préférences ne sont accessibles que via [Std Editeur des paramètres](Std_DlgParameter/fr.md), **Outils → Éditer paramètres**.
 
 ### Preferences/Mod/TechDraw/Decorations
 

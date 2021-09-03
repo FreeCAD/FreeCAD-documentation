@@ -12,7 +12,7 @@ Ako želite pridonijeti FreeCAD-u molimo [donirajte](donate.md), pogledajte stra
 
 Ako želite znati kako je FreeCAD započeo prije nekoliko godina, posjetite stranicu [Povijest](History/hr.md).
 
-## Koristi FreeCAD {#koristi_freecad}
+## Koristi FreeCAD 
 
 ## Predstavljanje
 
@@ -33,7 +33,7 @@ See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
 
-### Osnovna primjena {#osnovna_primjena}
+### Osnovna primjena 
 
 -   [Interface](Interface.md): the FreeCAD interface is composed of various graphical elements on the screen, including the [3D view](3D_view.md), the [tree view](Tree_view.md), the [property editor](Property_editor.md), the [task panel](Task_panel.md), and the [Python console](Python_console.md).
 -   [Mouse navigation](Mouse_navigation.md): the different types of using the mouse or trackpad to navigate in the 3D view.
@@ -42,7 +42,7 @@ See also:
 -   [Preferences Editor](Preferences_Editor.md): the system that allows you to control many properties of the base system and of the individual workbenches.
 -   [File formats](Import_Export.md): the different file formats that FreeCAD can read and write.
 
-### Radni stolovi {#radni_stolovi}
+### Radni stolovi 
 
 [Workbenches](Workbenches.md) are collections of tools used for specific tasks. These are the base workbenches bundled with every FreeCAD installation:
 
@@ -90,7 +90,7 @@ See also:
 
 -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> The [Web Workbench](Web_Workbench.md) provides you with a browser window instead of the [3D view](3D_view.md) within FreeCAD.
 
-### Makro naredbe {#makro_naredbe}
+### Makro naredbe 
 
 [Macros](Macros.md) are relatively small snippets of [Python](Python.md) code that perform a simple or a complex task that is not available in the base FreeCAD system.
 
@@ -98,7 +98,7 @@ Power users have written various [macros](macros.md) to enhance FreeCAD with mor
 
 Since FreeCAD 0.17, many macros can be installed using the [Addon Manager](Std_AddonMgr.md). For a list of the macros refer to the [Macros recipes](Macros_recipes.md) page. For manual installation see [How to install macros](How_to_install_macros.md).
 
-### External workbenches {#external_workbenches}
+### External workbenches 
 
 When many macros or functions are developed together, and are organized in toolbars and menus, they can become a new workbench.
 
@@ -116,7 +116,7 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 </div>
 
-## Online Pomoć {#online_pomoć}
+## Online Pomoć 
 
 This is the official FreeCAD online help. Please note that the whole online help system is currently being reworked. It will be used to generate a .CHM file, that will be distributed with the binary packages of FreeCAD. At the moment the online help summarizes some of the most complete sections of this wiki.
 

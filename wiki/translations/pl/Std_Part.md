@@ -21,7 +21,7 @@ Chociaż jest on przeznaczony głównie dla brył, Std: Część może być uży
 
 Nie należy mylić elementu **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Projekt Części: Zawartość](PartDesign_Body/pl.md)** z częścią **[16px"> [Std: Część](Std_Part/pl.md)**. Pierwszym z nich jest określony obiekt używany w środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), przeznaczony do modelowania [pojedynczej, ciągłej bryły](PartDesign_Body/pl#Single_contiguous_solid.md) za pomocą funkcji [właściwości](PartDesign_Feature.md). Z drugiej strony [Std: Część](Std_Part/pl.md) nie jest używana do modelowania, a jedynie do rozmieszczania różnych obiektów w przestrzeni z zamiarem tworzenia [złożeń](assembly.md).
 
-Narzędzie **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std: Część](Std_Part/pl.md)** nie jest zdefiniowane przez konkretne środowisko pracy, lecz przez system bazowy, a więc znajduje się na pasku {{MenuCommand|narzędzi struktury}}, który jest dostępny we wszystkich [Środowiskach pracy.](Workbenches/pl.md) Aby dowolnie grupować obiekty bez względu na ich położenie, należy użyć funkcji **[16px"> [Std: Group](Std_Group.md)**. Obiekt ten nie ma wpływu na rozmieszczenie elementów, które zawiera, w zasadzie jest to tylko folder, który jest używany do utrzymania widoku drzewa w sposób zorganizowany.
+Narzędzie **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std: Część](Std_Part/pl.md)** nie jest zdefiniowane przez konkretne środowisko pracy, lecz przez system bazowy, a więc znajduje się na pasku **narzędzi struktury**, który jest dostępny we wszystkich [Środowiskach pracy.](Workbenches/pl.md) Aby dowolnie grupować obiekty bez względu na ich położenie, należy użyć funkcji **[16px"> [Std: Group](Std_Group.md)**. Obiekt ten nie ma wpływu na rozmieszczenie elementów, które zawiera, w zasadzie jest to tylko folder, który jest używany do utrzymania widoku drzewa w sposób zorganizowany.
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
@@ -37,7 +37,7 @@ Narzędzie **<img src=images/Std_Part.svg style="width:16px"> <img src=images/St
 ## Uwagi
 
 -   Od wersji programu v0.19, dany obiekt może należeć tylko do jednej pozycji Części.
--   Kliknij dwukrotnie w pozycję Część w [widoku drzewa](Tree_view/pl.md) lub otwórz menu kontekstowe *(klikając prawym przyciskiem myszy)* i wybierz {{MenuCommand|Przełącz aktywność części}} aby uaktywnić lub dezaktywować wybraną Część. Jeśli aktywna jest inna część, jej aktywność zostanie wyłączona. Aby uzyskać więcej informacji, zobacz akapit [status aktywności](Std_Part/pl#Status_aktywności.md).
+-   Kliknij dwukrotnie w pozycję Część w [widoku drzewa](Tree_view/pl.md) lub otwórz menu kontekstowe *(klikając prawym przyciskiem myszy)* i wybierz **Przełącz aktywność części** aby uaktywnić lub dezaktywować wybraną Część. Jeśli aktywna jest inna część, jej aktywność zostanie wyłączona. Aby uzyskać więcej informacji, zobacz akapit [status aktywności](Std_Part/pl#Status_aktywności.md).
 
 ## Ograniczenia
 
@@ -51,7 +51,7 @@ Narzędzie **<img src=images/Std_Part.svg style="width:16px"> <img src=images/St
 
 Oprócz właściwości opisanych w [App: GeoFeature](App_GeoFeature.md), klasa App Part posiada pewne właściwości, które pomagają w zarządzaniu informacjami w kontekście zespołu, na przykład: **Typ**, **Id**, **Licencja**, **LicencjaURL**, **Kolor**, oraz **Grupa**.
 
-Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.md). Ukryte właściwości można wyświetlić za pomocą polecenia {{MenuCommand|Wyświetl wszystko}} w menu kontekstowym [edytora właściwości](Property_editor/pl.md).
+Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.md). Ukryte właściwości można wyświetlić za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym [edytora właściwości](Property_editor/pl.md).
 
 ### Dane
 
@@ -89,7 +89,7 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 -    **Grupa|LinkList**: lista obiektów, których dotyczą odniesienia. Domyślnie jest pusta {{value|[]}}.
 
-#### Dane Właściwości ukryte {#dane_właściwości_ukryte}
+#### Dane Właściwości ukryte 
 
 -    **Materiał|Map**: mapa z właściwościami materiałów. Domyślnie jest ona pusta {}.
 
@@ -124,7 +124,7 @@ App: Część ma tylko pięć podstawowych właściwości [App: FeaturePython](A
 
 -    **Widoczność|Bool**: Jeśli ustawiono wartość `True`, obiekt pojawia się w oknie [widoku 3D](3D_view/pl.md). W przeciwnym razie będzie niewidoczny. Domyślnie, właściwość ta, może być włączana i wyłączana, poprzez naciśnięcie klawisza **Spacja** na klawiaturze.
 
-## Koncepcja złożeń {#koncepcja_złożeń}
+## Koncepcja złożeń 
 
 Std: Część ma być podstawowym elementem konstrukcyjnym do tworzenia złożeń. W przeciwieństwie do [Projekt części: Zawartość](PartDesign_Body/pl.md), zespół ma być zbiorem oddzielnych, rozróżnialnych elementów, które są w jakiś sposób połączone w świecie fizycznym, na przykład za pomocą nacisku, śrub lub kleju.
 
@@ -139,16 +139,16 @@ Przykłady, które mogą być częściami:
 
 Ogólnie rzecz biorąc, podczas importowania pliku STEP do programu, główny zespół i jego podzespoły będą importowane jako kontenery części, a każdy z nich będzie zawierał podstawową [funkcjonalność części](Part_Feature/pl.md).
 
-## Szczegółowe wyjaśnienia {#szczegółowe_wyjaśnienia}
+## Szczegółowe wyjaśnienia 
 
-### Status aktywności {#status_aktywności}
+### Status aktywności 
 
-Otwarty dokument może zawierać wiele części. Aktywna Część zostanie wyświetlona w [widoku drzewa](Tree_view/pl.md) przy zastosowaniu koloru tła określonego w [edytorze preferencji](Preferences_Editor/pl#Kolory.md) przez wartość {{MenuCommand|Aktywny kontener}} *(domyślnie, jasnoniebieski)*. Etykieta aktywnej części zostanie również wyświetlona pogrubionym tekstem.
+Otwarty dokument może zawierać wiele części. Aktywna Część zostanie wyświetlona w [widoku drzewa](Tree_view/pl.md) przy zastosowaniu koloru tła określonego w [edytorze preferencji](Preferences_Editor/pl#Kolory.md) przez wartość **Aktywny kontener** *(domyślnie, jasnoniebieski)*. Etykieta aktywnej części zostanie również wyświetlona pogrubionym tekstem.
 
 Aby uaktywnić lub dezaktywować Część:
 
 -   Kliknij dwukrotnie na jej pozycję w [widoku drzewa](Tree_view/pl.md), lub
--   Otwórz menu kontekstowe *(klikając prawym przyciskiem myszy)* i wybierz {{MenuCommand|Przełącz aktywność części}}.
+-   Otwórz menu kontekstowe *(klikając prawym przyciskiem myszy)* i wybierz **Przełącz aktywność części**.
 
 
 **Uwagi:**
@@ -164,7 +164,7 @@ Aby uaktywnić lub dezaktywować Część:
 
 *Dokument z dwiema Częściami Std, wśród których aktywna jest druga część.*
 
-### Odniesienie położenia {#odniesienie_położenia}
+### Odniesienie położenia 
 
 Początek układu współrzędnych składa się z trzech standardowych osi *(X, Y, Z)* oraz trzech standardowych płaszczyzn *(XY, XZ i YZ)*. [Szkic](Sketch/pl.md) i inne obiekty mogą być dołączone do tych elementów w trakcie ich tworzenia.
 
@@ -183,7 +183,7 @@ Początek układu współrzędnych jest obiektem [App Origin](App_Origin.md) *(k
 
 Wszystkie elementy składowe Części są powiązane z jej początkiem, co oznacza, że Część może być przesuwana i obracana w odniesieniu do globalnego układu współrzędnych, bez wpływu na rozmieszczenie jej elementów składowych.
 
-### Zarządzanie wyświetlaniem {#zarządzanie_wyświetlaniem}
+### Zarządzanie wyświetlaniem 
 
 Parametr wyświetlania Części ma pierwszeństwo określania wyświetlania dowolnego obiektu, który zawiera. Jeśli wyświetlanie Części zostanie ukryte, to obiekty, które zawiera będą również ukryte, nawet jeśli ich indywidualna właściwość {{PropertyView/pl|Widoczność}} jest ustawiona na `True`. Jeśli Część jest widoczna, to właściwość każdego obiektu **Widoczność** określa, czy obiekt jest prezentowany na ekranie okna [widoku 3D](3D_view/pl.md) czy nie.
 
@@ -198,7 +198,7 @@ Obiekt [Std: Część](Std_Part/pl.md) jest formalnie instancją klasy `App::Par
 
 *Uproszczony schemat relacji między głównymi obiektami w programie. Klasa `App::Part* jest prostym kontenerem, który ma swoją pozycję w przestrzeni 3D i posiada zdefiniowany punkt początku w układzie współrzędnych ''(Origin)'', kontrolujący położenie zgrupowanych pod nim obiektów.`
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Zobacz również:**

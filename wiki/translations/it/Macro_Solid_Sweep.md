@@ -25,7 +25,7 @@ Nella seguente figura tutte le estrusioni sono realizzate utilizzando la stessa 
 
 <div class="mw-translate-fuzzy">
 
-## Come si usa {#come_si_usa}
+## Come si usa 
 
 -   Creare due elementi 2D del tipo indicato sotto, uno per la sezione e uno per la traiettoria.
 -   Selezionare, nella struttura del progetto o nella vista 3D, prima la traiettoria e poi il profilo. L\'ordine è importante!
@@ -38,7 +38,7 @@ Nella seguente figura tutte le estrusioni sono realizzate utilizzando la stessa 
 
 <div class="mw-translate-fuzzy">
 
-## Elementi 2D supportati {#elementi_2d_supportati}
+## Elementi 2D supportati 
 
 -   Contorni polilinee
 -   <img alt="" src=images/Sketcher_NewSketch.png  style="width:32px;"> [Schizzi](Sketcher_Workbench/it.md)
@@ -56,7 +56,7 @@ Nella seguente figura tutte le estrusioni sono realizzate utilizzando la stessa 
 -   Se il solido diventa contorto, modificare la macro e impostare il valore *isFrenet* a 0 (zero) e riprovare.
 -   Impostando nella macro la variabile *makeSolid* a 0 (zero) si produce un insieme di superfici con le estremità aperte.
 
-## La macro {#la_macro}
+## La macro 
 
 ToolBar Icon ![](images/Macro_Solid_Sweep.png )
 

@@ -4,7 +4,7 @@
 
 *Dein Geist durchläuft fünf Schritte, um praktisch jede Aufgabe zu erfüllen. Diese fünf Schritte sind:*\".
 
-## Zweck und Prinzipien {#zweck_und_prinzipien}
+## Zweck und Prinzipien 
 
 *Der erste Schritt im Modell besteht darin, \"Zweck und Prinzipien\" zu definieren. Denken an das letzte Mal, als du einen Familienurlaub gebucht hast. Es gibt immer einen Zweck für den Urlaub. Dies könnte eine wohlverdiente Pause von der Arbeit sein, um sich zu entspannen und Zeit mit deinem Ehepartner und deinen Kindern zu verbringen, oder einfach, um während deines Urlaubs eine bestimmte Touristenattraktion zu besuchen. Was auch immer der Grund sein mag, es wird einen Zweck und Prinzipien für deine Reise gegeben haben. Man steht nicht einfach eines Tages auf und fährt in den Urlaub, man setzt die erste Stufe des natürlichen Planungsmodells um, und das ist, einen Zweck für die Reise zu haben.*
 
@@ -20,7 +20,7 @@ Der zweite Schritt ist die \"Ergebnisvisionierung\". Wenn du einen Zweck und das
 
 \'\'Der nächste und vierte Schritt ist *Organisieren*. Sobald du deine Ideen für das Projekt, oder in diesem Fall den Urlaub, generiert hast, beginnst du mit der Organisation dieser Ideen. Vielleicht hast du z.B. darüber nachgedacht, welches Reisebüro du für die Buchung benutzen willst, oder ob du direkt buchen willst, wenn die Schwiegereltern in den Urlaub kommen wollen, um auch als Babysitter zu fungieren, usw. Dein Verstand sortiert und organisiert diese Gedanken normalerweise automatisch\'\'.
 
-## Nächste Aktionen {#nächste_aktionen}
+## Nächste Aktionen 
 
 \'\'Der letzte und fünfte Schritt besteht darin, *die nächsten Aktionen zu identifizieren und festzulegen*. Die GTD Methodik besagt, dass der beste Weg, eine Aufgabe zu erledigen, darin besteht, die nächsten Aktionen zu entscheiden und festzulegen. Wir erledigen keine Aufgaben, wir machen die nächsten Aktionen. Die beste Art und Weise, deinen Urlaub zu buchen, besteht also darin, die nächsten Aktionen zu bestimmen. Normalerweise handelt es sich dabei um Punkte wie die Suche nach dem Urlaubsort im Internet, die Überprüfung von Online Reisevergleichsseiten nach günstigen Flügen und Unterkünften, ein Anruf bei einem Reisebüro, um den Preis und die Empfehlung für den Urlaubsort zu erfahren. Nochmals, ich wäre überrascht, wenn sich jemand von euch die Zeit und Mühe nehmen würde, diese nächsten Aktionen aufzuschreiben, aber ich wäre auch überrascht, wenn jemand von euch diese nächsten Aktionen vergessen würde. Es ist schon komisch, wie unser Verstand eine großartige Art und Weise hat, sich an zugewiesene Projekte zu erinnern und mit Hilfe der Natürlichen Planungsmethode zu planen\'\'.
 

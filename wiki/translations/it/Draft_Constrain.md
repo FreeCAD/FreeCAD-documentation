@@ -39,7 +39,7 @@ Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_
 
 <div class="mw-translate-fuzzy">
 
-## Vincoli orizzontali e verticali {#vincoli_orizzontali_e_verticali}
+## Vincoli orizzontali e verticali 
 
 
 </div>
@@ -55,7 +55,7 @@ Tenere premuto il tasto **Maiusc** mentre si disegna per vincolare in orizzontal
 
 <div class="mw-translate-fuzzy">
 
-## Vincoli X, Y e Z {#vincoli_x_y_e_z}
+## Vincoli X, Y e Z 
 
 
 </div>
@@ -82,8 +82,8 @@ Alcuni strumenti, come [Offset](Draft_Offset/it.md) e [Tronca/Estendi](Draft_Tri
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The default {{MenuCommand|Constrain mod}} key, **Shift**, can be changed: {{MenuCommand|Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod}}.
--   The {{MenuCommand|X}}, {{MenuCommand|Y}} and {{MenuCommand|Z}} shortcuts can be changed: {{MenuCommand|Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts}}.
+-   The default **Constrain mod** key, **Shift**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod**.
+-   The **X**, **Y** and **Z** shortcuts can be changed: **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
 
 
 <div class="mw-translate-fuzzy">

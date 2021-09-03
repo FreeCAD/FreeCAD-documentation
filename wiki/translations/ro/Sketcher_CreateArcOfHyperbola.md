@@ -20,7 +20,7 @@ Acest instrument creează un arc de hiperbola definit prin centru, rază majoră
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

@@ -14,7 +14,7 @@
 1.  I diversi modi per richiamare il comando Mostra risultato:
     -   Premere il pulsante <img alt="" src=images/FEM_ShowResult.png  style="width:24px;">
     -   Usare la scorciatoia da tastiera **S** **R**
-    -   Usare {{MenuCommand|Risultati → Mostra i risultati}}
+    -   Usare **Risultati → Mostra i risultati**
 
 
 </div>

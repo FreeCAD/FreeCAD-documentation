@@ -21,7 +21,7 @@ Questa pagina contiene degli esempi di livello medio di gestione della GUI con [
 -   C\'è una serie di diverse sequenze di dichiarazioni per i widget, i segnali, i metodi, e ancora una volta nessuna è mai \"right\" o \"wrong\"
 -   Vale la pena di ricordare che PySide opera con le stringhe quando tratta gli input dell\'utente, e quello che appare sullo schermo come un numero è in realtà una rappresentazione testuale di un numero
 
-## Discussione del codice - Parte dichiarativa {#discussione_del_codice___parte_dichiarativa}
+## Discussione del codice - Parte dichiarativa 
 
 Questo \"programma di esempio\" è in realtà una grande definizione di classe, la definizione di una classe PySide GUI, e ha più di 150 righe di codice (inclusi i commenti). La classe e il suo comportamento non sono finalizzati a nulla, l\'unico scopo è quello di dimostrare le azioni GUI possibili e di presentare un codice che si spera possa essere utilizzato da altri utenti di FreeCAD.
 
@@ -31,14 +31,14 @@ La definizione di classe e le poche righe di codice richiamate sono descritti ne
 
 La maggior parte del resto di questa sezione descrive il contenuto della Class definition che compare alla fine di questa sezione. Prima si descrivono gli elementi dichiarativi che definiscono il funzionamento delle cose e come viene assemblata la GUI, poi si descrivono le sezioni operative (cioè il codice che viene eseguito quando si verificano le interazioni degli utenti). Questa finestra è basata sulla classe QDialog e quindi è modale, questo significa che non si può fare nessuna attività al di fuori della finestra mentre essa è aperta.
 
-### La dichiarazione Import {#la_dichiarazione_import}
+### La dichiarazione Import 
 
 La dichiarazione di importazione obbligatoria 
 ```python
 from PySide import QtGui, QtCore
 ``` Questa riga è meglio posizionarla all\'inizio del file Python.
 
-### La definizione della classe {#la_definizione_della_classe}
+### La definizione della classe 
 
 
 ```python
@@ -52,7 +52,7 @@ class ExampleModalGuiClass(QtGui.QDialog):
 
 È bene copiare esattamente questo codice e poi modificarlo. In sostanza, con questo codice stiamo sotto-classificando la classe QMainWindow di PySide. Adattando questo codice forse si vuole anche cambiare il nome della classe \"ExampleNonmodalGuiClass\" con uno più significativo, accertarsi di cambiarlo in entrambe le posizioni (ad esempio, le righe 1 e 4).
 
-### Ripristinare lo stato della finestra {#ripristinare_lo_stato_della_finestra}
+### Ripristinare lo stato della finestra 
 
 
 ```python
@@ -61,7 +61,7 @@ self.result = userCancelled
 
 Questo non è obbligatorio, ma è piuttosto una buona pratica di programmazione, questo imposta lo stato di default di ripristino per la finestra che sarà disponibile indipendentemente dalle azioni dell\'utente. Più avanti nel codice questo può essere modificato dal codice Python per indicare le diverse opzioni che l\'utente può aver selezionato.
 
-### Creare la finestra {#creare_la_finestra}
+### Creare la finestra 
 
 
 ```python
@@ -81,7 +81,7 @@ Ricordando che le dimensioni dello schermo sono misurate partendo dall\'angolo i
 
 Dopo viene impostato il titolo della finestra e la riga finale significa semplicemente che questa finestra non sarà mai oscurata da un\'altra finestra, se non si desidera questo, basta semplicemente inserire il carattere di commento Python (\'\#\') come primo carattere della riga.
 
-### Creare le etichette {#creare_le_etichette}
+### Creare le etichette 
 
 
 ```python
@@ -100,7 +100,7 @@ self.label4.move(20, 170)
 
 In PySide le etichette (label) servono a due scopi, per le etichette statiche (come suggerisce il nome), e per quelle di sola lettura (cioè di sola visualizzazione) dei campi di testo. Così possono essere comunicati all\'utente sia le istruzioni immutabili come \"Non premere il pulsante rosso\", sia i risultati dei calcoli dinamici come \"42\". La riga 2 dichiara un\'etichetta e imposta il suo valore iniziale (che in questo caso è vuoto). La riga 3 specifica il tipo di carattere. Si può specificare qualsiasi tipo di carattere disponibile nel sistema, se il font non è specificato viene utilizzato quello di default. In questo caso il carattere viene specificato come non proporzionale. Infine l\'etichetta viene spostata nella sua posizione della finestra - le sue coordinate specificano la sua posizione rispetto alla finestra, non allo schermo.
 
-### Creare una casella di controllo {#creare_una_casella_di_controllo}
+### Creare una casella di controllo 
 
 
 ```python
@@ -117,7 +117,7 @@ self.checkbox2.move(210,30)
 
 Le caselle di controllo (Checkbox) possono essere selezionate o deselezionate in qualsiasi combinazione (a differenza dei pulsanti di opzione). La riga 2 ne dichiara una e imposta il suo valore iniziale. La riga 3 specifica quale metodo viene eseguito quando si clicca sulla casella di controllo (in questo caso il metodo \'onCheckBox1\'). Se la riga 4 non non è stata commentata mettendo il carattere di commento Python (\'\#\') come primo carattere, essa viene eseguita e segna la casella di controllo come selezionata. Infine la riga 5 sposta la casella di controllo nella sua posizione.
 
-### Creare i pulsanti di opzione {#creare_i_pulsanti_di_opzione}
+### Creare i pulsanti di opzione 
 
 
 ```python
@@ -139,7 +139,7 @@ La creazione dei pulsanti di opzione (radioButton) è molto simile alla creazion
 
 </div>
 
-### Creare i menu a scomparsa {#creare_i_menu_a_scomparsa}
+### Creare i menu a scomparsa 
 
 
 ```python
@@ -162,7 +162,7 @@ self.popupItems1 = OrderedDict([("2","widget"),("pink","foobar"),("4","galopsis"
 self.popup1.addItems(self.popupItems1.keys())
 ``` Tornando al codice principale dell\'esempio per questa sezione, la riga 6 imposta la scelta predefinita, questa riga può essere omessa, il valore della scelta di default può anche essere caricato nell\'etichetta corrispondente. Infine la riga 8 stabilisce il posizionamento.
 
-### Creare i pulsanti - Parte 1 {#creare_i_pulsanti___parte_1}
+### Creare i pulsanti - Parte 1 
 
 
 ```python
@@ -175,7 +175,7 @@ pushButton1.move(210, 165)
 
 Il pulsante (button) e il suo nome sono creati nella riga 2. Il gestore del segnale per sapere quando questo pulsante viene cliccato è specificato nella riga 3. La riga 4 impedisce che il pulsante diventi il \'pulsante di default\' - il pulsante che viene cliccato se l\'utente preme semplicemente il tasto **Return**. Lo spostamento nella sua posizione conclude questo segmento di codice.
 
-### Creare un campo per inserire dei testi {#creare_un_campo_per_inserire_dei_testi}
+### Creare un campo per inserire dei testi 
 
 
 ```python
@@ -188,7 +188,7 @@ self.textInput.move(20, 220)
 
 Il QLineEdit è probabilmente il widget più comune per consentire all\'utente di inserire dei testi. Questa sezione di codice crea il campo (riga 2), imposta un valore iniziale (riga 3), imposta la lunghezza del campo (riga 4) e posiziona l\'oggetto (riga 5). In questo esempio, la sezione di codice successiva crea un menù contestuale per operare su di esso.
 
-### Creare un menu contestuale {#creare_un_menu_contestuale}
+### Creare un menu contestuale 
 
 
 ```python
@@ -221,7 +221,7 @@ Siccome la stessa azione viene eseguita con diversi valori, questo codice ha num
 
 Saltando alla riga 19 (la riga con \"self.textInput.setContextMenuPolicy\") viene creato un ActionsContextMenu, che è il titolare di tutti i singoli collegamenti di QAction tra la scelta dell\'utente e il codice da eseguire. Ogni widget può avere un solo menu contestuale (ovvero il menu associato al tasto destro del mouse), perciò la riga 19 definisce tale menu. Le 4 righe successive aggiungono i collegamenti creati all\'inizio di questa sezione di codice. L\'ordine è significativo, l\'utente vede le opzioni del menu nell\'ordine in cui vengono aggiunte. Notare che l\'opzione del menu 3 non è niente, il suo codice è nullo, ma nel menu contestuale serve a separare due gruppi di opzioni.
 
-### Creare un campo di input numerico {#creare_un_campo_di_input_numerico}
+### Creare un campo di input numerico 
 
 
 ```python
@@ -235,7 +235,7 @@ self.numericInput.move(250, 220)
 
 La creazione del campo di input numerico è simile a quella per l\'inserimento di testi vista in precedenza. Infatti il codice è identico ad eccezione delle righe 3 e 4. La riga 3 imposta la Mask (maschera) come definita da PySide, che in questo caso specifica fino a 3 cifre (che possono includere 0). Un elenco completo dei codici InputMask si trova in [QLineEdit InputMask](http://doc.qt.io/qt-5/qlineedit.html#inputMask-prop)
 
-### Creare i pulsanti - Parte 2 {#creare_i_pulsanti___parte_2}
+### Creare i pulsanti - Parte 2 
 
 
 ```python
@@ -252,7 +252,7 @@ okButton.move(260, 280)
 
 Entrambi i pulsanti sono creati con un nome (che apparirà come loro etichetta), sono associati ad un metodo che viene eseguito quando sono cliccati, e sono posizionati. L\'unica eccezione è la riga 4, che definisce il tasto \'Cancella\' come il pulsante di default - che significa che sarà \"cliccato\" se l\'utente preme il tasto **Return**.
 
-### Visualizzare la finestra {#visualizzare_la_finestra}
+### Visualizzare la finestra 
 
 
 ```python
@@ -262,7 +262,7 @@ self.show()
 
 C\'è una sola riga e provoca la visualizzazione della GUI dopo il setup.
 
-## Discussione del codice - Parte operativa {#discussione_del_codice___parte_operativa}
+## Discussione del codice - Parte operativa 
 
 Ora passiamo alla parte operativa della definizione della GUI, che è il codice che viene eseguito in risposta alle interazioni dell\'utente con l\'interfaccia grafica. L\'ordine dei gruppi di dichiarazione non è molto rilevante - con l\'avvertenza che le cose devono essere dichiarate prima di poter essere riferite. Alcuni mettono tutti i gestori di un certo tipo (ad esempio, i gestori dei pulsanti) in un gruppo, altri elencano i gestori in ordine alfabetico. Per specifiche applicazioni ci può essere un motivo correlato a un problema per raggruppare i gestori in un modo specifico.
 
@@ -270,7 +270,7 @@ Vi è un elevato grado di somiglianza tra i gestori. La maggior parte non ricevo
 
 Ci deve essere una corrispondenza 1 a 1 tra i gestori indicati nella sezione dichiarativa e i gestori dichiarati in questa sezione, la sezione operativa. Ci possono essere dei gestori aggiuntivi dichiarati che non vengono mai invocati, ma non ce ne deve essere nessuno mancante.
 
-### I gestori generici {#i_gestori_generici}
+### I gestori generici 
 
 In questo esempio di codice, dei gestori generici gestiscono i seguenti eventi:
 
@@ -293,7 +293,7 @@ def handlerName(self):
     lineOfCode2
 ``` La prima riga ha la parola chiave \"def\" seguita dal nome del gestore. Il nome del gestore deve corrispondere esattamente al nome dato nella sezione dichiarativa precedente. Il parametro \"self\", le parentesi tonde e i due punti finali sono fanno parte della sintassi standard. Once the first line is finished then there are no requirements of the following code, it is purely application specific.
 
-### La gestione dei menu a discesa {#la_gestione_dei_menu_a_discesa}
+### La gestione dei menu a discesa 
 
 
 ```python
@@ -302,7 +302,7 @@ def onPopup1(self, selectedText):
 
 Il gestore dei menù Pop-Up è uguale al gestore generico con l\'eccezione che viene passato un secondo parametro, il testo selezionato dall\'utente. Ricordare che tutto quello che è testo in arrivo dal menu pop-up, anche se l\'utente ha selezionato il numero 3, viene passato come stringa \"3\".
 
-### La gestione degli eventi del mouse {#la_gestione_degli_eventi_del_mouse}
+### La gestione degli eventi del mouse 
 
 
 ```python
@@ -323,7 +323,7 @@ Le coordinate X e Y di posizione del mouse quando viene premuto sono date dai ri
 
 Si può creare un riferimento a un widget con \"self.widgetName.underMouse()\", che restituisce `True` o `False` secondo se il cursore del mouse si trova sopra al widget \"widgetName\". Sebbene sia presentato nella stessa parte di codice il gestore \"underMouse()\" non è legato al gestore \"mousePressEvent\" e può essere utilizzato in qualsiasi momento.
 
-## Discussione del codice - Parte principale {#discussione_del_codice___parte_principale}
+## Discussione del codice - Parte principale 
 
 La maggior parte del codice si trova nella definizione della classe GUI, nella routine principale non ce nè molto. 
 ```python
@@ -348,7 +348,7 @@ if form.result==userOK:
 
 Le righe 4 e 6 utilizzano il campo del risultato per determinare l\'azione appropriata. Le ultime 4 righe mostrano semplicemente la copia dei dati nell\'oggetto GUI per le variabili locali alla procedura principale di esecuzione.
 
-## Esempio completo di codice Modale {#esempio_completo_di_codice_modale}
+## Esempio completo di codice Modale 
 
 Questo è il codice di esempio completo (sviluppato su FreeCAD v0.14): 
 ```python
@@ -555,20 +555,20 @@ if form.result==userOK:
 #
 ``` Il modo migliore di utilizzare questo codice è quello di copiarlo in un editor o in un file macro di FreeCAD e poi provarlo.
 
-## Discussione del codice - Esempio di codice non modale {#discussione_del_codice___esempio_di_codice_non_modale}
+## Discussione del codice - Esempio di codice non modale 
 
 Tutti i singoli widget dell\'esempio di finestra modale precedente possono essere trasferiti e utilizzati in una finestra non modale. La differenza principale è che la finestra non modale non impedisce all\'utente di interagire con altre finestre. Fondamentalmente, una finestra non modale è una finestra che può essere aperta e lasciata aperta per tutto il tempo necessario senza che essa ponga delle restrizioni sulle altre finestre dell\'applicazione. Tra i due tipi di finestre ci sono poche differenze di codice, che saranno evidenziate, quindi questo esempio di codice è abbastanza breve. Tutto ciò che è uguale al precedente esempio modale sarà omesso per mantenere breve questa panoramica. Questa è la schermata GUI non modale generata dalla Classe PySide:
 
 ![](images/PySideScreenSnapshot4.jpg )
 
-### La dichiarazione Import {#la_dichiarazione_import_1}
+### La dichiarazione Import 
 
 La dichiarazione di importazione obbligatoria 
 ```python
 from PySide import QtGui, QtCore
 ``` Questa riga è meglio posizionarla all\'inizio del file Python.
 
-### La definizione della classe {#la_definizione_della_classe_1}
+### La definizione della classe 
 
 
 ```python
@@ -582,7 +582,7 @@ class ExampleNonmodalGuiClass(QtGui.QMainWindow):
 
 È bene copiare esattamente questo codice e poi modificarlo. In sostanza, con questo codice stiamo sotto-classificando la classe QMainWindow di PySide. Adattando questo codice forse si vuole anche cambiare il nome della classe \"ExampleNonmodalGuiClass\" con uno più significativo, accertarsi di cambiarlo in entrambe le posizioni (ad esempio, le righe 1 e 4).
 
-### Creare la finestra {#creare_la_finestra_1}
+### Creare la finestra 
 
 
 ```python
@@ -596,7 +596,7 @@ self.setMouseTracking(True)
 
 Ovviamente le dimensioni della nostra finestra e il titolo sono diversi. La cosa principale da notare è l\'ultima riga che permette a PySide di sapere in tempo reale che cosa inviare come eventi di posizione del mouse. Notare che questi eventi non sono inviati quando il mouse si trova sopra un widget, ad esempio su un pulsante, dato che il widget cattura gli eventi.
 
-### La gestione degli eventi del mouse {#la_gestione_degli_eventi_del_mouse_1}
+### La gestione degli eventi del mouse 
 
 
 ```python
@@ -606,7 +606,7 @@ def mouseMoveEvent(self,event):
 
 Questo gestore riceve gli eventi di spostamento del mouse (Mouse Move) e ne visualizza la forma formattata. Provare cosa succede quando si trova sopra ai widget o all\'esterno della finestra.
 
-### Invocare la finestra {#invocare_la_finestra}
+### Invocare la finestra 
 
 
 ```python
@@ -615,7 +615,7 @@ form = ExampleNonmodalGuiClass()
 
 Richiamare la finestra è un\'altra area di differenza dall\'esempio precedente. Questa volta per invocare la GUI basta la riga 1.
 
-## Esempio completo di codice Non modale {#esempio_completo_di_codice_non_modale}
+## Esempio completo di codice Non modale 
 
 
 ```python
@@ -699,7 +699,7 @@ form = ExampleNonmodalGuiClass()
 #OCC version: 6.7.0
 ```
 
-## Argomenti aggiuntivi vari {#argomenti_aggiuntivi_vari}
+## Argomenti aggiuntivi vari 
 
 In merito alla gestione dello spazio sullo schermo in un ambiente GUI ci sono 3 concetti :
 
@@ -711,7 +711,7 @@ All\'interno del software tutto è misurato in pixel. PySide ha una funzione per
 
 Il telaio (Frame) è la dimensione di una finestra comprese le sue barre laterali, la barra superiore (eventualmente con un menu in essa) e la barra inferiore. La geometria (Geometry) è lo spazio contenuto all\'interno del telaio e quindi è sempre inferiore o uguale al telaio. A sua volta il telaio è sempre inferiore o uguale alla dimensione dello schermo disponibile.
 
-### Dimensioni dello spazio disponibile {#dimensioni_dello_spazio_disponibile}
+### Dimensioni dello spazio disponibile 
 
 
 ```python
@@ -727,7 +727,7 @@ Generalmente \"availableHeight\" deve essere inferiore a \"ScreenHeight\" di un 
 
 (Since Python 3.9 this warning appears when the above code is executed: **DeprecationWarning: QDesktopWidget.screenGeometry(int screen) const is deprecated**. A replacement seems to be needed from Python 3.10 onwards.)
 
-### Le dimensioni del telaio e della geometria {#le_dimensioni_del_telaio_e_della_geometria}
+### Le dimensioni del telaio e della geometria 
 
 
 ```python

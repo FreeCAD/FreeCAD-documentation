@@ -26,7 +26,7 @@ Toutes les informations applicables à une [fenêtre](Arch_Window.md) s\'appliqu
 
 ## Utilisation
 
-### Utilisation des préréglages {#utilisation_des_préréglages}
+### Utilisation des préréglages 
 
 1.  Appuyez sur le bouton **<img src="images/Arch_Window.svg" width=16px> [Crée une fenêtre...](Arch_Window/fr.md)** ou appuyez sur les touches **W** puis **I**.
 2.  Sélectionnez un des préréglages dans la liste.
@@ -51,7 +51,7 @@ Le dossier `$ROOT_DIR` est le répertoire de l\'utilisateur où la configuration
 -   L\'emplacement habituel dans Windows est `C:\Users\username\AppData\Roaming\FreeCAD`
 -   L\'emplacement habituel dans est `/Users/username/Library/Preferences/FreeCAD/`
 
-### Création à partir de zéro {#création_à_partir_de_zéro}
+### Création à partir de zéro 
 
 1.  Optionnellement, sélectionnez une face ou un objet Arch où vous devez insérer votre fenêtre.
 2.  Basculez vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
@@ -73,7 +73,7 @@ Les préréglages suivants sont disponibles :
 
 Image:ParametersDoorGlass.svg\|Porte de verre Image:ParametersDoorSimple.svg\|Simple porte Image:ParametersWindowDouble.svg\|Fenêtre à double ouvrant Image:ParametersWindowFixed.svg\|Fenêtre fixe Image:ParametersWindowSimple.svg\|Fenêtre simple ouverture Image:ParametersWindowStash.svg\|Fenêtre à ouverture verticale
 
-## Création de composants {#création_de_composants}
+## Création de composants 
 
 Arch Windows peut inclure trois types de composants : panneaux, cadres et grilles. Les panneaux et grilles sont constitués d\'un fil fermé, obtenu par extrusion, tandis que les armatures sont faites de 2 fils fermés ou plus, où chacune est extrudée, puis les plus petites sont soustraites des plus grandes. Vous pouvez accéder, créer, modifier et supprimer des composants d\'une fenêtre en mode d\'édition (double-cliquez sur la fenêtre dans la vue 3D). Les composants ont les propriétés suivantes :
 
@@ -110,7 +110,7 @@ Les portes et fenêtres peuvent apparaître partiellement ou entièrement ouvert
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
 *Porte indiquant le plan des symboles, leur élévation et les propriétés d'ouverture au travail*
 
-## Définition des types de fenêtres {#définition_des_types_de_fenêtres}
+## Définition des types de fenêtres 
 
 Les fenêtres peuvent également tirer parti d\'autres outils, notamment des processus de travail de [PartDesign](PartDesign_Workbench/fr.md), pour définir un type. Un type est un objet qui définit la forme de la fenêtre. Il est particulièrement bien adapté pour travailler avec [App Parts](App_Part/fr.md):
 
@@ -118,7 +118,7 @@ Les fenêtres peuvent également tirer parti d\'autres outils, notamment des pro
 
 [Téléchargez le fichier d\'exemple ci-dessus](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
 
-### Exemple de processus de travail {#exemple_de_processus_de_travail}
+### Exemple de processus de travail 
 
 -   Créez un objet de cadre de fenêtre, un panneau de verre et tout autre composant de fenêtre dont vous avez besoin, à l\'aide des outils [atelier Part](Part/fr.md) ou l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
 -   Par exemple, créez une esquisse rectangulaire de base pour votre fenêtre, puis une esquisse de profil pour le cadre et créez un [Part Balayage](Part_Sweep/fr.md) pour balayer le profil autour de l\'esquisse de base. Créez un [Part Décalage 2D](Part_Offset2D/fr.md) à partir de l\'esquisse de base, puis un [Part Extrusion](Part_Extrude/fr.md) pour créer le panneau de verre

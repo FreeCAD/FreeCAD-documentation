@@ -38,19 +38,19 @@ Offre 5 différentes façons de définir la longueur de la protrusion.
 
 Permet de saisir une valeur numérique pour la longueur de la protrusion. La direction par défaut de la protrusion est vers le haut du plan d\'esquisse, mais cela peut être changé en cochant la case **Inversé**. La protrusion s\'effectue [normale](http://fr.wikipedia.org/wiki/Normale_%C3%A0_une_surface) au plan de l\'esquisse. L\'option **Symétrique au plan** étendra la protrusion à la moitié de la longueur saisie de chaque côté du plan d\'esquisse. Les dimensions négatives ne sont pas permises, utilisez plutôt l\'option **Inversé**.
 
-#### Deux dimensions {#deux_dimensions}
+#### Deux dimensions 
 
 Permet de saisir une seconde valeur de longueur pour prolonger la protrusion dans la direction opposée (à travers le support). La direction peut également être changée avec l\'option **Inversé**.
 
-#### Au dernier {#au_dernier}
+#### Au dernier 
 
 La protrusion sera prolongée jusqu\'à la dernière face rencontrée dans la direction d\'extrusion. S\'il n\'y a aucun support rencontré, un message d\'erreur apparaîtra.
 
-#### Au premier {#au_premier}
+#### Au premier 
 
 La protrusion sera prolongée jusqu\'à la première face rencontrée dans la direction d\'extrusion. S\'il n\'y a aucun support rencontré, un message d\'erreur apparaîtra.
 
-#### Jusqu\'à la face {#jusquà_la_face}
+#### Jusqu\'à la face 
 
 La protrusion sera prolongée jusqu\'à la face sélectionnée du support. La face est sélectionnée en cliquant sur le bouton *Face*, puis en cliquant sur la face désirée dans la vue modèle. S\'il n\'y a aucun support, aucune sélection ne sera allouée.
 
@@ -58,22 +58,22 @@ La protrusion sera prolongée jusqu\'à la face sélectionnée du support. La fa
 
 Définit la longueur de la protrusion. Plusieurs unités peuvent être utilisées, indépendamment des préférences de l\'utilisateur (m, cm, mm, nm, ft ou \' pour pieds, in ou \" pour pouces).
 
-### Utiliser une direction personnalisée {#utiliser_une_direction_personnalisée}
+### Utiliser une direction personnalisée 
 
 
 {{Version/fr|0.19}}
 
 Si coché, la direction de la protrusion ne sera pas le vecteur normal de l\'esquisse mais le vecteur donné. La longueur de la protrusion est cependant réglée selon la direction normale du vecteur.
 
-### Longueur le long de la normale à l\'esquisse {#longueur_le_long_de_la_normale_à_lesquisse}
+### Longueur le long de la normale à l\'esquisse 
 
 Si cette case est cochée, la longueur de la protrusion est mesurée le long de la normale à l\'esquisse, sinon le long de la direction personnalisée. {{Version/fr|0.20}}
 
-### Décalage par rapport à la surface {#décalage_par_rapport_à_la_surface}
+### Décalage par rapport à la surface 
 
 Décalage de la surface dans laquelle la protrusion se terminera. Cette option n\'est disponible que lorsque le *Type* est soit *En dernier*, *En premier* ou *Jusqu\'à la face*.
 
-### Symétrique au plan {#symétrique_au_plan}
+### Symétrique au plan 
 
 Cocher la case pour prolonger la moitié de la longueur définie de chaque côté du plan d\'esquisse.
 

@@ -6,7 +6,7 @@
 
 Ma, con un po\' di hacking, è possibile importare prima l\'intera interfaccia di FreeCAD e poi spostare la vista 3D nella propria applicazione Qt. Qui sono descritti 3 metodi diversi.
 
-## Utilizzando direttamente il componente aggiuntivo (Widget) di FreeCAD per la vista 3D {#utilizzando_direttamente_il_componente_aggiuntivo_widget_di_freecad_per_la_vista_3d}
+## Utilizzando direttamente il componente aggiuntivo (Widget) di FreeCAD per la vista 3D 
 
 Tenete presente che con questo approccio ci sono molti problemi. L\'elaborazione di Qt sembra non funzionare (nessuna idea sul perché) e quando si utilizza il menu contestuale della vista 3D l\'applicazione si blocca. Un approccio migliore potrebbe essere quello di creare il proprio SoQtExaminerViewer o SoQtViewer della vista 3D e \"spingere\" il contenuto della vista FreeCAD 3D, come mostrato più avanti, nelle altre sezioni.
 
@@ -140,7 +140,7 @@ Poi basta eseguire il proprio visualizzatore:
 myViewer()
 ```
 
-## Utlizzando il modulo Quarter {#utlizzando_il_modulo_quarter}
+## Utlizzando il modulo Quarter 
 
 Invece di utilizzare il visualizzatore soGui, è possibile utilizzare il più moderno modulo Quarter. Delle tre soluzioni questa è probabilmente la migliore. 
 ```python
@@ -314,7 +314,7 @@ if __name__ == '__main__':
     main()
 ```
 
-## Senza avviare la GUI di FreeCAD {#senza_avviare_la_gui_di_freecad}
+## Senza avviare la GUI di FreeCAD 
 
 A partire da FreeCAD rev2760 (2010, [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=203&start=20#p1226)), è possibile avere la rappresentazione coin di qualsiasi oggetto di FreeCAD senza aprire la finestra principale. Questo rende estremamente facile implementare il proprio visualizzatore e avere FreeCAD aggiornato. Dopo aver importato il modulo FreeCADGui, è necessario attivarlo con il metodo `setupWithoutGUI()`, dopo di che è possibile utilizzare tutti i fornitori di viste di FreeCAD per ottenere i nodi OpenInventor (Coin). 
 ```python
@@ -469,7 +469,7 @@ if __name__ == '__main__':
     main()
 ```
 
-## Informazioni aggiuntive {#informazioni_aggiuntive}
+## Informazioni aggiuntive 
 
 -   [Embedding a view to another (QT) application?](https://forum.freecadweb.org/viewtopic.php?f=8&t=203)
 -   [Using Gui functions without Gui.showMainWindow() in python script](https://forum.freecadweb.org/viewtopic.php?t=12575)

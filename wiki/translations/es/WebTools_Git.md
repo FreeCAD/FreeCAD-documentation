@@ -57,7 +57,7 @@ GIT es una herramienta compleja, considera aprender lo basico de el antes de usa
 
 </div>
 
-## Enabling human-readable diffs for FCStd files with the fcinfo utility {#enabling_human_readable_diffs_for_fcstd_files_with_the_fcinfo_utility}
+## Enabling human-readable diffs for FCStd files with the fcinfo utility 
 
 FreeCAD\'s [Fcstd file format](File_Format_FCStd.md) is a zip-based binary format, for which Git cannot produce proper diffs. This means that you cannot see what has changed between one version and another, and also that each new version stored in the Git repository is a full copy of the file.
 

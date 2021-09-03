@@ -15,7 +15,7 @@ The **Std WhatsThis** command opens the help documentation for a specified comma
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_WhatsThis.svg" width=16px> [Std WhatsThis](Std_WhatsThis.md)** button.
-    -   Select the {{MenuCommand|Help → <img src="images/Std_WhatsThis.svg" width=16px> What's This?}} option from the menu.
+    -   Select the **Help → <img src="images/Std_WhatsThis.svg" width=16px> What's This?** option from the menu.
     -   Use the keyboard shortcut: **Shift**+**F1**.
 2.  Click on a toolbar button or on a menu option.
 3.  The help documentation for the selected command opens in a new window.

@@ -8,7 +8,7 @@ Această comandă vă permite să afișați o [ Drawing page](Drawing_Landscape_
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

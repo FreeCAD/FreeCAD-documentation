@@ -26,7 +26,7 @@ The inverse operation is **<img src=images/Mesh_FromPartShape.svg style="width:1
 ## Utilizzo
 
 1.  Selezionare un oggetto mesh.
-2.  Scegliere {{MenuCommand|Part → <img src="images/Part_ShapeFromMesh.svg" width=16px> Crea forma da mesh}} dal menu in alto.
+2.  Scegliere **Part → <img src="images/Part_ShapeFromMesh.svg" width=16px> Crea forma da mesh** dal menu in alto.
 3.  Un menu pop-up chiede di definire la tolleranza per la chiusura (valore di default: 0,1)
 4.  Dall\'oggetto mesh viene creato un nuovo oggetto forma indipendente.
 

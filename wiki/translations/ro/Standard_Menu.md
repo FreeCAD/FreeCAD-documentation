@@ -21,7 +21,7 @@ The standard menu gives access to tools that can be used in all workbenches. The
 
 </div>
 
-## Sub-menus {#sub_menus}
+## Sub-menus 
 
 The standard menu is composed of 7 sub-menus:
 

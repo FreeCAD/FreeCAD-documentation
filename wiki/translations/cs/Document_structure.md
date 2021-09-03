@@ -26,7 +26,7 @@ Objekty uvnitř dokumentu FreeCADu mohou být různých typů. Každá pracovní
 
 Jestliže je ve FreeCADu otevřen alespoň jeden dokument, potom je vždy jeden a pouze jeden aktivní dokument. Je to dokument, který je aktuálně zobrazen ve 3D pohledu, dokument na kterém právě pracujete.
 
-## Aplikace a uživatelské prostředí {#aplikace_a_uživatelské_prostředí}
+## Aplikace a uživatelské prostředí 
 
 
 <div class="mw-translate-fuzzy">

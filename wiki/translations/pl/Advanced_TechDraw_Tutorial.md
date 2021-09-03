@@ -1,5 +1,5 @@
 
-{{Page in progress}}
+
 
 
 
@@ -13,7 +13,7 @@
 |Files=brak
 }}
 
-## Krótko o celu {#krótko_o_celu}
+## Krótko o celu 
 
 Tworzenie punktów, linii, okręgów, łuków, itp. w widokach środowiska Rysunek Techniczny i / lub całych rysunkach \"kosmetycznych\" z absolutną precyzją, odpowiednią dla narzędzi wymiarujących, w które wyposażone jest środowisko pracy, w celu wygenerowania zgodnych i szczegółowych rysunków technicznych.
 
@@ -32,7 +32,7 @@ Ten poradnik wprowadza doświadczonego użytkownika do korzystania z zaawansowan
 
 **Uwaga:** Płaszczyzny te mogą być połączone przez nałożenie / zbieżność dwóch krawędzi przy użyciu funkcji logicznej <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Złączenie](Part_Fuse/pl.md) w środowisku **Część**. Tak powstałe i odpowiednio ustawione *(zgodnie z naszymi przepisami)* płaszczyzny posłużą jako **ostrza tnące** <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Pokroić na plasterki](Part_SliceApart/pl.md) właściwość w środowisku **Część**, tnąc nasz obiekt 3D na kilka części zgodnie z wybranym planarnym potwierdzeniem.
 
-## Nim zaczniesz {#nim_zaczniesz}
+## Nim zaczniesz 
 
 Do wykonania rysunków z załączonych przykładów użyto następujących środowisk pracy:
 \* <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md)
@@ -75,11 +75,11 @@ W nadziei, że będzie przydatne, dobra praca i dobre eksperymenty!
 
 ## Uwagi
 
-## Perspektywy na przyszłość {#perspektywy_na_przyszłość}
+## Perspektywy na przyszłość 
 
 Opisana ścieżka może jednak stanowić punkt wyjścia *(lub pomysł)* do napisania dodatkowego kodu automatyzującego system i zintegrowania go bezpośrednio ze środowiskiem Rysunek Roboczy za pomocą odpowiednich funkcji przycisków / poleceń.
 
-## Odnośniki internetowe {#odnośniki_internetowe}
+## Odnośniki internetowe 
 
 -   [Makrodefinicja: Właściwości użytkowe](https://wiki.freecadweb.org/Macro_WorkFeatures) witryna Wiki makrodefinicji
 -   [środowisko FreeCAD WorkFeature](https://github.com/Rentlau/WorkFeature-WB) Repozytorium kodu źródłowego

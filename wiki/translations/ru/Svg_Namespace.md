@@ -95,11 +95,11 @@ Defines the point of a [Draft Dimension](Draft_Dimension.md) object through whic
 
 Example: see [freecad:basepoint1](#freecad:basepoint1.md)
 
-### Example of code freecad:EditableText {#example_of_code_freecadeditabletext}
+### Example of code freecad:EditableText 
 
 This example is taken from a cartridge to a sheet [A3\_Landscape](Misc_templates#A3_Landscape_US_Text_Complet_With_Convention_US.md)
 
-#### 1 : Title without textedit {#title_without_textedit}
+#### 1 : Title without textedit 
 
 <img alt="" src=images/Svg_Namespace_01.png  style="width:300px;">
 
@@ -119,7 +119,7 @@ This example is taken from a cartridge to a sheet [A3\_Landscape](Misc_templates
          sodipodi:role="line">AUTHOR NAME :</tspan></text>
 
 
-#### 2 : Title with textedit {#title_with_textedit}
+#### 2 : Title with textedit 
 
 <img alt="" src=images/Svg_Namespace_02.png  style="width:300px;">
 
@@ -222,7 +222,7 @@ Example :
 -   **editable** = \"AuthorName\"
 -   replace by **freecad:editable** = \"AuthorName\"
 
-## Other attributes availlables {#other_attributes_availlables}
+## Other attributes availlables 
 
 See [Drawing templates](Drawing_templates.md)
 

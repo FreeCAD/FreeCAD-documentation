@@ -19,7 +19,7 @@ If there is only one child in the result, the output is the child. If there is m
 ## Usage
 
 1.  Select the sliced object
-2.  Apply {{MenuCommand|Part → Compound → CompoundFilter}}
+2.  Apply **Part → Compound → CompoundFilter**
 3.  Select the CompoundFilterObject in the tree
 4.  In the properties tab set \"Filter Type\" to \"specific items\"
 5.  Set items to the elements you want to extract

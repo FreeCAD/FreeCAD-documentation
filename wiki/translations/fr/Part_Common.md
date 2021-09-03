@@ -16,7 +16,7 @@ Extrait la partie commune (intersection) entre les objets Part sélectionnés. C
 1.  Sélectionnez deux formes
 2.  Cliquez sur le bouton **![](images/)_[Exécuter_une_intersection_entre_deux_formes](Part_Common/fr.md)**
 
-### Entrées supportées {#entrées_supportées}
+### Entrées supportées 
 
 L\'objet doit être un objet (forme) [OpenCascade](OpenCascade/fr.md). Exemples : les trucs faits avec un des ateliers Part, PartDesign, Sketcher. Pas de maillages (sauf s\'ils ont été convertis en formes) - pour les maillages, il existe des outils booléens spécifiques dans l\'atelier MeshDesign.
 

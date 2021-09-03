@@ -1,4 +1,4 @@
-# Notes de version 0.12 {#notes_de_version_0.12}
+# Notes de version 0.12 
 
 Ceci est un sommaire des changements les plus intéressants dans la plus récente version stable de FreeCAD. Voir [ici](http://www.freecadweb.org/tracker/changelog_page.php) pour une liste complète des changements.
 
@@ -12,7 +12,7 @@ Versions antérieures : [0.11](Release_notes_011.md)
 
 ![](images/FreeCAD_start_center.jpg )
 
-### Sketcher & PartDesign {#sketcher_partdesign}
+### Sketcher & PartDesign 
 
 <img alt="" src=images/Rim_bling.png  style="width:800px;">
 
@@ -30,7 +30,7 @@ Versions antérieures : [0.11](Release_notes_011.md)
 
 -   Également dans le module Arch, une collection grandissante d\'outils facilitant le travail sur des objets de maillage provenant d\'applications externes telles que [Blender](http://www.blender.org). Les objets de maillage, s\'ils sont bien modélisés, peuvent être facilement et automatiquement convertis en formes propres, puis en objets Arch paramétriques.
 
-### Planche à dessin (2D Draft) {#planche_à_dessin_2d_draft}
+### Planche à dessin (2D Draft) 
 
 ![](images/Draft_taskview.jpg )
 

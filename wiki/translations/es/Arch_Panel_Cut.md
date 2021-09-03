@@ -28,7 +28,7 @@ Esta herramienta crea, en el documento 3D, una vista 2D plana de un [Arch Panel]
 
 </div>
 
-## Como utilizar {#como_utilizar}
+## Como utilizar 
 
 
 <div class="mw-translate-fuzzy">

@@ -11,7 +11,7 @@ Konsola Pythona w FreeCAD obsługuje podstawowe kolorowanie składni, potrafi ro
 
 *Konsola Pythona pokazująca komunikaty, gdy FreeCAD właśnie się uruchamia.*
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 
 **Dla absolutnie początkujących, zobacz:**
@@ -55,23 +55,23 @@ Te wstępnie załadowane moduły i aliasy są dostępne tylko z konsoli Pythona 
 
 Kliknij prawym przyciskiem myszy na konsoli Pythona, aby wyświetlić kilka poleceń:
 
--    {{MenuCommand|Copy}}: Przechowuje zaznaczony tekst w schowku do późniejszego wklejenia. Funkcja jest wyłączona, jeśli nic nie jest zaznaczone.
+-    **Copy**: Przechowuje zaznaczony tekst w schowku do późniejszego wklejenia. Funkcja jest wyłączona, jeśli nic nie jest zaznaczone.
 
--    {{MenuCommand|Copy command}}: Przechowuje wybrane polecenie w schowku do późniejszego wklejenia. Funkcja jest wyłączona, jeśli nic nie jest zaznaczone.
+-    **Copy command**: Przechowuje wybrane polecenie w schowku do późniejszego wklejenia. Funkcja jest wyłączona, jeśli nic nie jest zaznaczone.
 
--    {{MenuCommand|Historia kopiowania}}: Skopiuj całą historię poleceń Pythona wprowadzonych w tej sesji.
+-    **Historia kopiowania**: Skopiuj całą historię poleceń Pythona wprowadzonych w tej sesji.
 
--    {{MenuCommand|Zapisz historię jako}}: Zapisuje całą historię poleceń Pythona wprowadzonych w tej sesji do pliku tekstowego.
+-    **Zapisz historię jako**: Zapisuje całą historię poleceń Pythona wprowadzonych w tej sesji do pliku tekstowego.
 
--    {{MenuCommand|Wklej}}: Wklej uprzednio skopiowany tekst ze schowka do konsoli Pythona.
+-    **Wklej**: Wklej uprzednio skopiowany tekst ze schowka do konsoli Pythona.
 
--    {{MenuCommand|Zaznacz wszystko}}: Zaznacza cały tekst w konsoli Pythona.
+-    **Zaznacz wszystko**: Zaznacza cały tekst w konsoli Pythona.
 
--    {{MenuCommand|Wyczyść konsolę}}: Usuwa wszystkie polecenia wprowadzone do konsoli Pythona. Jest to przydatne, gdy konsola Pythona jest pełna komunikatów i wcześniej wprowadzonych poleceń, które mogą rozpraszać podczas testowania nowej funkcji. Jest to tylko estetyczne, ponieważ polecenie to nie usuwa istniejących zmiennych ani nie usuwa zaimportowanych modułów w sesji.
+-    **Wyczyść konsolę**: Usuwa wszystkie polecenia wprowadzone do konsoli Pythona. Jest to przydatne, gdy konsola Pythona jest pełna komunikatów i wcześniej wprowadzonych poleceń, które mogą rozpraszać podczas testowania nowej funkcji. Jest to tylko estetyczne, ponieważ polecenie to nie usuwa istniejących zmiennych ani nie usuwa zaimportowanych modułów w sesji.
 
--    {{MenuCommand|Wstaw nazwę pliku}}: Otwiera okno dialogowe do wyszukiwania pliku w systemie, a następnie wstawia pełną ścieżkę do pliku. Jest to przydatne do testowania funkcji, które przetwarzają plik wejściowy, bez konieczności zapisywania całej nazwy w konsoli, co jest podatne na błędy. To polecenie nie uruchamia pliku i nie importuje go jako modułu Pythona, tylko zwraca pełną ścieżkę do tego pliku.
+-    **Wstaw nazwę pliku**: Otwiera okno dialogowe do wyszukiwania pliku w systemie, a następnie wstawia pełną ścieżkę do pliku. Jest to przydatne do testowania funkcji, które przetwarzają plik wejściowy, bez konieczności zapisywania całej nazwy w konsoli, co jest podatne na błędy. To polecenie nie uruchamia pliku i nie importuje go jako modułu Pythona, tylko zwraca pełną ścieżkę do tego pliku.
 
--    {{MenuCommand|Zawijanie linii}}: zawijaj bardzo długie linie, które przekraczają poziomy wymiar konsoli Pythona.
+-    **Zawijanie linii**: zawijaj bardzo długie linie, które przekraczają poziomy wymiar konsoli Pythona.
 
 ## Uwagi
 

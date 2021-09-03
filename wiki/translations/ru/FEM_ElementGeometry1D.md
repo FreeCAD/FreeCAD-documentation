@@ -19,7 +19,7 @@ ElementGeometry1D is used to define cross sections for beam elements. Currently 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [FEM ElementGeometry1D](FEM_ElementGeometry1D.md)** button.
-    -   Select the {{MenuCommand|Model → Element Geometry → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Beam cross section}} option from the menu.
+    -   Select the **Model → Element Geometry → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Beam cross section** option from the menu.
 2.  Choose the type of cross section and specify the necessary dimensions:
     -   Rectangular: width and height,
     -   Circular: diameter,

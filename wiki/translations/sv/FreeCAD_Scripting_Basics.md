@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Python skript i FreeCAD {#python_skript_i_freecad}
+## Python skript i FreeCAD 
 
 FreeCAD är byggt från grunden att helt och hållet kunna kontrolleras av python skript. Nästan alla delar av FreeCAD som gränssnittet, sceninnehållet, och även representationen av detta innehåll i 3d vyerna kan kommas åt från den inbyggda pythontolken eller från dina egna skript. Resultatet av detta är att FreeCAD troligen är en av de mest anpassningsbara konstruktionsapplikationerna som finns idag.
 
@@ -70,21 +70,21 @@ Genom att högerklicka i tolkfönstret, så har du flera andra alternativ, som a
 
 <div class="mw-translate-fuzzy">
 
-### Python Hjälp {#python_hjälp}
+### Python Hjälp 
 
 I FreeCAD Hjälpmenyn, så hittar du en menypunkt som heter \"Python hjälp\", vilken kommer att öppna ett webbfönster som innehåller en komplett, realtidsgenererad dokumentation över alla python moduler som finns tillgänglig för FreeCAD tolken, inklusive python inbyggda FreeCAD moduler, system-installerade moduler, och extra FreeCAD moduler. Den dokumentation som fills tillgänglig där beror på hur mycket arbete varje modulutvecklare lägger på att dokumentera sin kod, men vanligtvis her pythonmoduler ett rykte om sig att vara ganska väldokumenterade. Ditt FreeCAD fönster måste vara öppet för att detta dokumentationssystem ska fungera.
 
 
 </div>
 
-In the FreeCAD {{MenuCommand|Help}} menu, you\'ll find an entry labeled {{MenuCommand|Automatic python modules documentation}}, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry {{MenuCommand|Python scripting documentation}} will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section.
+In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python modules documentation**, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry **Python scripting documentation** will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section.
 
 [top](#top.md)
 
 
 <div class="mw-translate-fuzzy">
 
-## Inbyggda moduler {#inbyggda_moduler}
+## Inbyggda moduler 
 
 Eftersom FreeCAD är designat för att kunna köras utan ett grafiskt användargränssnitt, så är nästan all dess funktionalitet uppdelat i två grupper: Kärnfunktioner, benämnda App, och gränssnittsfunktioner, benämnda Gui. Så våra två inbyggda FreeCAD huvudmoduler kallas för App och Gui. Dessa två moduler kan även kommas åt av skript utanför tolken, genom de respektive namnen FreeCAD och FreeCADGui.
 
@@ -122,7 +122,7 @@ Att lista allt innehåll av dessa moduler är en lite improduktiv uppgift, efter
 
 <div class="mw-translate-fuzzy">
 
-### App och Gui objekten {#app_och_gui_objekten}
+### App och Gui objekten 
 
 Som vi sade, så är allt i FreeCAD uppdelat mellan kärna och representation. Detta inkluderar även 3D objekten. Du kan komma åt objektens definierande egenskaper (kallade features i FreeCAD) via App modulen, och ändra det sätt som de representeras på skärmen via Gui modulen. Till exempel, en kub har egenskaper som definierar den, som bredd, längd, höjd som sparas i ett App objekt, och representationsegenskaper, som ytfärg, ritläge, som lagras i ett motsvarande Gui objekt.
 
@@ -206,7 +206,7 @@ Om vi inte har något gränssnitt (vi är till exempel i kommandoradsläge), så
 
 <div class="mw-translate-fuzzy">
 
-### Dokument objekten {#dokument_objekten}
+### Dokument objekten 
 
 I FreeCAD så finns allt ditt arbete i Dokument. Ett dokument innehåller din geometri och kan sparas till en fil. Flera dokument kan öppnas samtidigt. Dokumentet, som geometrin som finns i den, har App och Gui objekt. App objekt innehåller dina geometridefinitioner, medan Gui objekt innehåller ditt dokuments olika vyer Du kan öppna flera fönster, där varje fönster visar ditt arbete med en annan zoomfaktor eller synvinkel. Dessa vyer är en del av Gui objektet i ditt dokument.
 
@@ -257,13 +257,13 @@ myView = Gui.ActiveDocument.ActiveView
 
 [top](#top.md)
 
-## Using additional modules {#using_additional_modules}
+## Using additional modules 
 
 The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the [Part Workbench](Part_Workbench.md), using the OpenCascade kernel, is able to create and manipulate [BRep](http://en.wikipedia.org/wiki/Boundary_representation) type geometry. Whereas the [Mesh Workbench](Mesh_Workbench.md) is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future.
 
 [top](#top.md)
 
-### Creating objects {#creating_objects}
+### Creating objects 
 
 Each module has its own way of dealing with geometry, but one thing they usually all can do is create objects in the document. But the FreeCAD document is also aware of the available object types provided by the modules:
 
@@ -300,7 +300,7 @@ Part.show(cube)
 
 [top](#top.md)
 
-### Modifying objects {#modifying_objects}
+### Modifying objects 
 
 Modifying an object is done in the same way:
 
@@ -321,7 +321,7 @@ myPart.Shape = biggercube
 
 [top](#top.md)
 
-### Querying objects {#querying_objects}
+### Querying objects 
 
 You can always look at the type of an object like this:
 

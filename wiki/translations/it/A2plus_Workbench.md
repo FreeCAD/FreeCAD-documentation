@@ -11,9 +11,9 @@ Questa documentazione descrive la versione A2plus **0.4.47 o più recente**.
 
 ## Installazione
 
-L\'ambiente A2plus è un componente aggiuntivo di FreeCAD. Può essere facilmente installato tramite il menu {{MenuCommand|Strumenti → [Addon Manager](Std_AddonMgr/it.md)}}. A2plus è in sviluppo attivo e riceve frequentemente nuove funzioni. Pertanto si dovrebbe aggiornarlo regolarmente usando sempre il menu {{MenuCommand|Strumenti → [Addon Manager](Std_AddonMgr/it.md)}}. Il codice A2plus è ospitato e sviluppato in [su GitHub](https://github.com/kbwbe/A2plus) e può anche essere installato manualmente copiandolo nella directory MOD di FreeCAD.
+L\'ambiente A2plus è un componente aggiuntivo di FreeCAD. Può essere facilmente installato tramite il menu **Strumenti → [Addon Manager](Std_AddonMgr/it.md)**. A2plus è in sviluppo attivo e riceve frequentemente nuove funzioni. Pertanto si dovrebbe aggiornarlo regolarmente usando sempre il menu **Strumenti → [Addon Manager](Std_AddonMgr/it.md)**. Il codice A2plus è ospitato e sviluppato in [su GitHub](https://github.com/kbwbe/A2plus) e può anche essere installato manualmente copiandolo nella directory MOD di FreeCAD.
 
-## Per iniziare {#per_iniziare}
+## Per iniziare 
 
 Passare sulla barra degli strumenti di A2plus in FreeCAD. Per creare un assieme, creare un nuovo file. All\'inizio questo file deve essere salvato. Si consiglia (ma non è necessario) di salvarlo nella stessa cartella delle parti che si desidera assemblare.
 
@@ -39,7 +39,7 @@ Per creare un vincolo tra le parti, tenere premuto il tasto **Ctrl** e seleziona
 
 Per i vincoli complessi tra le parti A2plus potrebbe non riuscire a risolvere i vincoli. Pertanto, dare un\'occhiata anche alla sezione [Risoluzione dei problemi](#Risoluzione_dei_problemi.md) per le strategie su come risolvere tali casi.
 
-### Tenere traccia {#tenere_traccia}
+### Tenere traccia 
 
 Più parti si aggiungono, più è importante mantenere la traccia. A2plus offre quindi questi strumenti per spostare e visualizzare le parti:
 
@@ -61,59 +61,59 @@ I vincoli possono essere disabilitati cambiando la loro [visibilità](Std_Toggle
 
 A2plus fornisce i seguenti vincoli:
 
-#### Punto su punto {#punto_su_punto}
+#### Punto su punto 
 
 Selezionare un [vertice](Glossary#Vertex.md) (punto) su ciascuna parte. Il pulsante della barra degli strumenti <img alt="" src=images/A2p_PointIdentity.svg  style="width:24px;"> aggiunge il vincolo {{Variable|pointIdentity}}. Rende i vertici coincidenti.
 
-#### Punto sul linea {#punto_sul_linea}
+#### Punto sul linea 
 
 Selezionare un [vertice](Glossary#Vertex.md) (punto), o [bordo](Glossary#Edge.md) circolare (seleziona il suo punto centrale), o una [faccia](Glossary#Face.md) sferica (seleziona anche il suo punto centrale) su una parte e un [bordo](Glossary#Edge.md) sull\'altra parte. Il pulsante <img alt="" src=images/A2p_PointOnLineConstraint.svg  style="width:24px;"> della barra degli strumenti aggiunge il vincolo {{Variable|pointOnLine}}. Posiziona il vertice sul bordo.
 
-#### Punto su piano {#punto_su_piano}
+#### Punto su piano 
 
 Selezionare un [vertice](Glossary#Vertex.md) (punto), o [bordo](Glossary#Edge.md) circolare (seleziona il suo punto centrale), o una [faccia](Glossary#Face.md) sferica (seleziona anche il suo punto centrale) su una parte e un piano sull\'altra parte. Il pulsante <img alt="" src=images/A2p_PointOnPlaneConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|pointOnPlane}}. La finestra di dialogo dei vincoli consente di specificare uno scostamento tra il punto e il piano. Questo offset può anche essere capovolto su entrambi i lati del piano. Se l\'offset è zero, il vincolo posiziona il punto sul piano.
 
-#### Sfera su sfera {#sfera_su_sfera}
+#### Sfera su sfera 
 
 Selezionare una [faccia](Glossary#Face.md) sferica o una [vertice](Glossary#Vertex.md) (punto) su entrambe le parti. Il pulsante <img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|sphereCenterIdent}}. Rende il centro delle sfere, o il centro della sfera e il vertice, o i vertici coincidenti.
 
-#### Bordo circolare sul bordo circolare {#bordo_circolare_sul_bordo_circolare}
+#### Bordo circolare sul bordo circolare 
 
 Selezionare un [bordo](Glossary#Edge.md) circolare su entrambe le parti. Il pulsante <img alt="" src=images/A2p_CircularEdgeConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|circularEdge}}. La finestra di dialogo dei vincoli consente di specificare un offset tra i bordi. Questo offset può anche essere invertito. È inoltre possibile impostare la direzione del vincolo e bloccare la rotazione delle parti. Se l\'offset è zero, il vincolo posiziona i bordi concentrici sullo stesso piano.
 
-#### Asse coincidente {#asse_coincidente}
+#### Asse coincidente 
 
 Selezionare una [faccia](Glossary#Face.md) cilindrica o un [bordo](Glossary#Edge.md) lineare su entrambe le parti. Il pulsante <img alt="" src=images/A2p_AxialConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|axisCoincident}}. La finestra di dialogo dei vincoli consente di specificare la direzione dell\'asse. La finestra di dialogo consente inoltre di bloccare la rotazione delle parti. Il vincolo rende coincidenti gli assi o le linee.
 
-#### Asse parallelo {#asse_parallelo}
+#### Asse parallelo 
 
 Selezionare una [faccia](Glossary#Face.md) cilindrica o un [bordo](Glossary#Edge.md) lineare su entrambe le parti. Il pulsante <img alt="" src=images/A2p_AxisParallelConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|axisParallel}}. La finestra di dialogo dei vincoli consente di specificare la direzione dell\'asse. Il vincolo rende paralleli gli assi o le linee.
 
-#### Asse su piano parallelo {#asse_su_piano_parallelo}
+#### Asse su piano parallelo 
 
 Selezionare una [faccia](Glossary#Face.md) cilindrica o un [bordo](Glossary#Edge.md) lineare su una parte e un piano sull\'altra parte. Il pulsante <img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|axisPlaneParallel}}. Il vincolo rende l\'asse o la linea paralleli al piano.
 
-#### Asse su piano normale {#asse_su_piano_normale}
+#### Asse su piano normale 
 
 Selezionare una [faccia](Glossary#Face.md) cilindrica o un [bordo](Glossary#Edge.md) lineare su una parte e un piano sull\'altra parte. Il pulsante <img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|axisPlaneNormal}}. Il vincolo rende l\'asse o la linea normale rispetto al piano.
 
-#### Asse su angolo piano {#asse_su_angolo_piano}
+#### Asse su angolo piano 
 
 Selezionare una [faccia](Glossary#Face.md) cilindrica o un [bordo](Glossary#Edge.md) lineare su una parte e un piano sull\'altra parte. Il pulsante <img alt="" src=images/A2p_AxisPlaneAngleConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|axisPlaneAngle}}. Il vincolo rende innanzitutto l\'asse parallelo al piano. Poi si può aggiustare l\'angolo dell\'asse nelle impostazioni di vincolo della finestra di dialogo che appare.
 
-#### Piano parallelo {#piano_parallelo}
+#### Piano parallelo 
 
 Selezionare un piano su entrambe le parti. Il pulsante della barra degli strumenti <img alt="" src=images/A2p_PlanesParallelConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|planesParallel}}. La finestra di dialogo dei vincoli consente di specificare la direzione del vincolo. Il vincolo rende paralleli i piani.
 
-#### Piano su piano {#piano_su_piano}
+#### Piano su piano 
 
 Selezionare un piano su entrambe le parti. Il pulsante della barra degli strumenti <img alt="" src=images/A2p_PlaneCoincidentConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|planeCoincident}}. La finestra di dialogo dei vincoli consente di specificare una direzione del vincolo e un offset tra i piani. Questo offset può anche essere capovolto. Se l\'offset è zero, il vincolo rende i piani coincidenti.
 
-#### Angolo tra i piani {#angolo_tra_i_piani}
+#### Angolo tra i piani 
 
 Selezionare un piano su entrambe le parti. Il pulsante <img alt="" src=images/A2p_AngleConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|angledPlanes}}. La finestra di dialogo dei vincoli consente di specificare un angolo tra i piani. Il vincolo rende i piani paralleli e imposta l\'angolo specificato.
 
-#### Coincidenza al centro di massa {#coincidenza_al_centro_di_massa}
+#### Coincidenza al centro di massa 
 
 Selezionare un [bordo](Glossary#Edge.md) chiuso o un piano su entrambe le parti. Il pulsante <img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;"> aggiunge il vincolo {{Variable|centerOfMass}}. La finestra di dialogo dei vincoli consente di specificare un offset tra i bordi o i piani. Questo offset può anche essere capovolto. È inoltre possibile impostare la direzione del vincolo e bloccare la rotazione delle parti. Se l\'offset è zero, il vincolo mette i bordi o i piani nello stesso piano.
 
@@ -121,7 +121,7 @@ Selezionare un [bordo](Glossary#Edge.md) chiuso o un piano su entrambe le parti.
 
 Un assieme può contenere altri assiemi. Vengono aggiunti come parti premendo il pulsante <img alt="" src=images/A2p_ImportPart.svg  style="width:24px;"> della barra degli strumenti e selezionando un file {{FileName|*.FCStd}} contenente un assemblaggio. Tali sottoassiemi possono anche essere modificati come parti utilizzando il pulsante <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">. Per fasi di assemblaggio più elevate, e in caso di modifiche, accertarsi di aggiornare l\'assieme tramite il pulsante <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
 
-## Gestione dei vincoli {#gestione_dei_vincoli}
+## Gestione dei vincoli 
 
 I vincoli che possono essere selezionati vengono visualizzati nella barra degli strumenti e nella finestra di dialogo *Constraint Tools* attivando i pulsanti corrispondenti. La finestra di dialogo *Constraint Tools* si apre tramite il pulsante <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">. È previsto che rimanga aperto per poter aggiungere rapidamente diversi vincoli all\'assieme.
 
@@ -135,7 +135,7 @@ Tutti i vincoli possono essere risolti in qualsiasi momento con il pulsante <img
 
 Il pulsante <img alt="" src=images/A2p_FlipConstraint.svg  style="width:24px;"> ha effetto sull\'ultimo vincolo aggiunto. Capovolge la direzione del vincolo.
 
-## Elenchi delle parti {#elenchi_delle_parti}
+## Elenchi delle parti 
 
 Per creare degli elenchi di parti di assiemi, le diverse parti dell\'assieme devono ottenere informazioni sulla parte che possano essere lette da A2plus. Questo viene fatto modificando la parte con il pulsante <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">. Nella parte aperta premere il pulsante <img alt="" src=images/A2p_PartsInfo.svg  style="width:24px;"> per creare un [foglio di calcolo](Spreadsheet_Workbench/it.md) con il nome *\#PARTINFO\#*.
 
@@ -157,9 +157,9 @@ Se si sono aggiornate delle informazioni sulla parte, è possibile aggiornare di
 
 Per i sottoassiemi è anche possibile creare un foglio di calcolo delle informazioni utilizzando il pulsante <img alt="" src=images/A2p_PartsInfo.svg  style="width:24px;">. Quando si crea o si aggiorna l\'elenco delle parti dell\'assieme principale, queste informazioni vengono utilizzate se si clicca su \"No\" alla domanda se si desidera ripetere l\'iterazione ricorsiva su tutti i sottoassiemi. Quindi le diverse parti non sono nell\'elenco delle parti ma solo nei sottoassiemi.
 
-## Funzioni speciali {#funzioni_speciali}
+## Funzioni speciali 
 
-### Struttura dell\'assemblaggio {#struttura_dellassemblaggio}
+### Struttura dell\'assemblaggio 
 
 
 <div class="mw-translate-fuzzy">
@@ -172,17 +172,17 @@ Il pulsante <img alt="" src=images/A2p_Treeview.svg  style="width:24px;"> crea u
 
 :   ![](images/A2p_Dependency-Tree.jpg )
 
-### Gradi di libertà {#gradi_di_libertà}
+### Gradi di libertà 
 
-Il pulsante <img alt="" src=images/A2p_DOFs.svg  style="width:24px;"> etichetta tutte le parti dell\'assieme con i loro gradi di libertà. Inoltre genera una lista con tutte le parti e le loro dipendenze. L\'elenco viene visualizzato nel widget di FreeCAD *Vista Report*. Se questo widget non è visibile, può essere mostrato facendo clic con il pulsante destro del mouse su una parte vuota dell\'area della barra degli strumenti di FreeCAD e quindi selezionandolo nel menu di scelta rapida visualizzato o con il menu {{MenuCommand|Visualizza → Pannelli → [Vista report](Report_view/it.md)}}.
+Il pulsante <img alt="" src=images/A2p_DOFs.svg  style="width:24px;"> etichetta tutte le parti dell\'assieme con i loro gradi di libertà. Inoltre genera una lista con tutte le parti e le loro dipendenze. L\'elenco viene visualizzato nel widget di FreeCAD *Vista Report*. Se questo widget non è visibile, può essere mostrato facendo clic con il pulsante destro del mouse su una parte vuota dell\'area della barra degli strumenti di FreeCAD e quindi selezionandolo nel menu di scelta rapida visualizzato o con il menu **Visualizza → Pannelli → [Vista report](Report_view/it.md)**.
 
 Le etichette dei gradi di libertà possono essere rimosse facendo nuovamente clic sul pulsante <img alt="" src=images/A2p_DOFs.svg  style="width:24px;">.
 
-### Etichette delle parti {#etichette_delle_parti}
+### Etichette delle parti 
 
 Il pulsante <img alt="" src=images/A2p_PartLabel.svg  style="width:24px;"> contrassegna nella vista 3D ogni parte dell\'assieme con il proprio nome. Le etichette delle parti possono essere rimosse facendo nuovamente clic sul pulsante <img alt="" src=images/A2p_PartLabel.svg  style="width:24px;">.
 
-### Forma dell\'intero assemblaggio {#forma_dellintero_assemblaggio}
+### Forma dell\'intero assemblaggio 
 
 
 <div class="mw-translate-fuzzy">
@@ -192,21 +192,21 @@ A volte è necessario avere l\'intero assemblaggio combinato in una unica forma.
 
 </div>
 
-### Convertire i percorsi assoluti in relativi {#convertire_i_percorsi_assoluti_in_relativi}
+### Convertire i percorsi assoluti in relativi 
 
-Con il menu {{MenuCommand|A2plus → Misc → <img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones}} si possono convertire i percorsi assoluti delle parti importate in quelli relativi.
+Con il menu **A2plus → Misc → <img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** si possono convertire i percorsi assoluti delle parti importate in quelli relativi.
 
 ## Preferenze
 
-Le preferenze di A2plus sono accessibili tramite il menu di FreeCAD {{MenuCommand|Modifica → [Preferenze](Preferences_Editor/it.md)}}, nella sezione *A2plus*. È possibile impostare le seguenti opzioni:
+Le preferenze di A2plus sono accessibili tramite il menu di FreeCAD **Modifica → [Preferenze](Preferences_Editor/it.md)**, nella sezione *A2plus*. È possibile impostare le seguenti opzioni:
 
-### Metodo di risoluzione predefinito {#metodo_di_risoluzione_predefinito}
+### Metodo di risoluzione predefinito 
 
 Use solving of partial systems : Il risolutore inizia con una parte che ha la proprietà **fixed Position** impostata su \"true\" e una parte vincolata ad essa. Tutte le altre parti non sono calcolate. Se è possibile trovare una soluzione, la successiva parte vincolata viene aggiunta e calcolata e così via.
 Use \"magnetic\" solver, solving all parts at once : Il risolutore cerca di spostare tutte le parti contemporaneamente in direzione di una parte che ha la proprietà **fixed Position** impostata su \"true\". Notare che nella maggior parte dei casi questo richiede più tempo per il calcolo di una soluzione.
 Force fixed position : Questo imposta per tutte le parti dell\'assieme la proprietà **fixed Position** su *true*. Quindi non viene praticamente eseguito nessun calcolo poiché tutte le parti sono sempre fissate nelle posizioni in cui sono state create.
 
-### Comportamento predefinito del risolutore {#comportamento_predefinito_del_risolutore}
+### Comportamento predefinito del risolutore 
 
 Solve automatically if a constraint property is changed : The solver will automatically be started. The same as turning on the toolbar button <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width:24px;">.
 
@@ -216,7 +216,7 @@ Solve automatically if a constraint property is changed : The solver will automa
 
 Solve automatically if a constraint property is changed : Il risolutore viene avviato automaticamente. Equivale ad attivare la funzione premendo il pulsante <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width:24px;">.
 
-### Comportamento durante l\'aggiornamento delle parti importate {#comportamento_durante_laggiornamento_delle_parti_importate}
+### Comportamento durante l\'aggiornamento delle parti importate 
 
 
 </div>
@@ -261,33 +261,33 @@ Questa funzione è utile per le [FEM](FEM_Module/it.md) o per la [stampa 3D](Man
 
 </div>
 
-### Impostazioni dell\'interfaccia utente {#impostazioni_dellinterfaccia_utente}
+### Impostazioni dell\'interfaccia utente 
 
 Show constraints in toolbar : Per risparmiare spazio, se questa opzione non viene utilizzata, i pulsanti della barra degli strumenti per i diversi vincoli non sono visibili. È comunque possibile impostare dei nuovi vincoli utilizzando la finestra di dialogo *Constraint Tools* (il pulsante <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">) della barra degli strumenti.
 Use native file manager of your OS : Se questa opzione è usata, viene visualizzato la finestra di dialogo dei file del proprio sistema operativo quando si selezionano i file per gli assemblaggi.
 
-### Archiviazione dei file {#archiviazione_dei_file}
+### Archiviazione dei file 
 
 Use relative paths for imported parts : Utilizza i percorsi dei file relativi ai file delle parti.
 Use absolute paths for imported parts : Utilizza i percorsi di file assoluti per i file delle parti.
 All files are in this project folder : Tutti i file del progetto devono trovarsi nella cartella specificata. Non importa se si trovano in sottocartelle di questa cartella. **Nota:** Nessun file può esistere più volte nella cartella (ad esempio in diverse sottocartelle).
 Questa opzione è utile per lavorare su macchine diverse perché in questo caso è sufficiente copiare la cartella del progetto.
 
-## Risoluzione dei problemi {#risoluzione_dei_problemi}
+## Risoluzione dei problemi 
 
 Prima o poi si incontrano dei problema che A2plus non può risolvere i vincoli che sono stati imposti. Per superare questo, ci sono diverse strategie:
 
-### Utilizzo dello strumento di ricerca dei conflitti {#utilizzo_dello_strumento_di_ricerca_dei_conflitti}
+### Utilizzo dello strumento di ricerca dei conflitti 
 
 Questo è il metodo più sicuro quando si hanno diversi vincoli perché questo strumento tenta di risolvere un vincolo dopo l\'altro finché non trova il vincolo in conflitto. Quindi si può continuare utilizzando altre strategie per risolvere il vincolo identificato. Lo strumento viene richiamato utilizzando il pulsante <img alt="" src=images/A2p_SearchConstraintConflicts.svg  style="width:24px;"> della barra degli strumenti.
 
-### Controllo della direzione dei vincoli {#controllo_della_direzione_dei_vincoli}
+### Controllo della direzione dei vincoli 
 
 Talvolta i vincoli sembrano essere coerentemente definiti, tuttavia non possono essere risolti. Un esempio: si supponga di avere un set di vincoli {{Variable|[planesParallel](A2plus_Workbench/it#Piano_parallelo.md)}} per due piani. Ora si vuole impostare per gli stessi piani il vincolo {{Variable|[planeCoincident](A2plus_Workbench/it#Piano_su_piano.md)}} e A2plus non può risolverlo. Questo succede perchè le direzioni dei vincoli di {{Variable|[planesParallel](A2plus_Workbench/it#Piano_parallelo.md)}} e di {{Variable|[planeCoincident](A2plus_Workbench/it#Piano_su_piano.md)}} sono diverse. Utilizzare la stessa direzione per entrambi i vincoli per risolvere questo problema.
 
 A2plus permette di controllare automaticamente la giusta direzione per **tutti** i vincoli dell\'assieme utilizzando il pulsante <img alt="" src=images/A2p_ReAdjustConstraints.svg  style="width:24px;"> della barra degli strumenti.
 
-### Eliminazione dei vincoli {#eliminazione_dei_vincoli}
+### Eliminazione dei vincoli 
 
 La maggior parte dei casi di vincoli irrisolvibili si verifica direttamente quando si aggiunge un nuovo vincolo. La soluzione è quindi eliminare il vincolo aggiunto per ultimo. A2plus lo propone anche.
 
@@ -295,33 +295,33 @@ A volte la strategia di cancellazione dei vincoli è l\'unica applicabile, ad es
 
 Quando si ottiene un assemblaggio che può essere risolto, aggiungere passo dopo passo i vincoli necessari.
 
-### Parti mobili {#parti_mobili}
+### Parti mobili 
 
 In alcuni casi, il risolutore necessita solo di valori di avvio migliori per risolvere i vincoli. Prendiamo ad esempio il caso che si abbia una parte asse e una parte ruota. Si aggiunge un vincolo {{Variable|axisCoincident }} e non si ottiene alcuna informazione che il risolutore abbia avuto esito negativo, ma le parti non vengono spostate di conseguenza e nel widget *Vista Report* di FreeCAD viene visualizzato \"*REACHED POS-ACCURACY :0.0*\". Una soluzione per questo è spostare le parti più vicino alla posizione che si desidera ottenere dal vincolo.
 
 **Nota:** Assicurarsi che almeno una parte del vincolo abbia la proprietà **fixed Position** impostata su *false*.
 
-### Impostazione della proprietà Tip - Entità finale {#impostazione_della_proprietà_tip___entità_finale}
+### Impostazione della proprietà Tip - Entità finale 
 
 Se dopo l\'importazione in un assieme di A2plus mancano alcune funzioni della parte, controllare la proprietà **[Tip - Entità finale](PartDesign_MoveTip/it.md)**.
 
-A2plus importa i corpi delle parti con tutte le loro funzioni fino alla funzione finale, la funzione Tip. Questo è sensato perché impostare la funzione finale su una determinata funzione significa che tutte le funzioni sottostanti la funzione finale non dovrebbero apparire nell\'entità finale. Quindi se in A2plus si perde una parte di funzioni, aprire la parte tramite il pulsante <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, selezionare un corpo e guardare la sua proprietà **Tip**. Se l\'entità finale non è nella funzione in cui la si desidera, fare clic con il pulsante destro del mouse sulla funzione in cui dovrebbe trovarsi e scegliere {{MenuCommand|<img src=images/PartDesign_MoveTip.png style="width:24px"> Set tip}}. Infine salvare la parte e ricaricare l\'assieme usando il pulsante <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
+A2plus importa i corpi delle parti con tutte le loro funzioni fino alla funzione finale, la funzione Tip. Questo è sensato perché impostare la funzione finale su una determinata funzione significa che tutte le funzioni sottostanti la funzione finale non dovrebbero apparire nell\'entità finale. Quindi se in A2plus si perde una parte di funzioni, aprire la parte tramite il pulsante <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, selezionare un corpo e guardare la sua proprietà **Tip**. Se l\'entità finale non è nella funzione in cui la si desidera, fare clic con il pulsante destro del mouse sulla funzione in cui dovrebbe trovarsi e scegliere **<img src=images/PartDesign_MoveTip.png style="width:24px"> Set tip**. Infine salvare la parte e ricaricare l\'assieme usando il pulsante <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
 
-### Riparare l\'albero dell\'assieme {#riparare_lalbero_dellassieme}
+### Riparare l\'albero dell\'assieme 
 
 Se non si riesce a trovare una ragione chiara per cui alcuni vincoli non possono essere risolti, si può provare a utilizzare il pulsante <img alt="" src=images/A2p_RepairTree.svg  style="width:24px;">. Questo risolve tutti i vincoli e li raggruppa di nuovo sotto le diverse parti.
 
-### Migrare vecchi assemblaggi A2plus {#migrare_vecchi_assemblaggi_a2plus}
+### Migrare vecchi assemblaggi A2plus 
 
-Assemblaggi creati con versioni di A2plus precedenti marzo 2019 non mostrano le icone corrette per le parti importate e hanno propietà obsolete. Questi assemblaggi devono essere migrati ad A2plus versione 0.4.35 o superiore usando il menù {{MenuCommand|A2plus → Misc → <img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts}}. Dopo aver fatto ciò, si può salvare e riaprire il file d\'assemblaggio.
+Assemblaggi creati con versioni di A2plus precedenti marzo 2019 non mostrano le icone corrette per le parti importate e hanno propietà obsolete. Questi assemblaggi devono essere migrati ad A2plus versione 0.4.35 o superiore usando il menù **A2plus → Misc → <img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts**. Dopo aver fatto ciò, si può salvare e riaprire il file d\'assemblaggio.
 
-### Evitare i caratteri accentati {#evitare_i_caratteri_accentati}
+### Evitare i caratteri accentati 
 
 **Questa strategia non è necessaria per Windows.**
 
 Su alcuni sistemi operativi si possono avere problemi se i nomi dei file o i percorsi dei file delle parti o dell\'assieme contengono caratteri accentati. Quindi evitare tali caratteri e tutti i caratteri speciali in generale.
 
-### Posizione di fissaggio {#posizione_di_fissaggio}
+### Posizione di fissaggio 
 
 **Questa strategia non è più necessaria per gli assemblaggi creati con A2plus 0.3.11 o successivi perché ora A2plus presenta un avvertimento per le posizioni fisse mancanti.**
 
@@ -331,11 +331,11 @@ In questi casi A2plus restituisce l\'informazione che la soluzione non è possib
 
 Pertanto, verificare che almeno una delle parti nell\'assieme abbia **fixed Position** impostata su \"true\". Quindi assicurarsi di impostare solo i vincoli su una parte che è in qualche modo collegata alla parte fissa. Per visualizzare queste dipendenze, vedere la sezione [Struttura dell\'assemblaggio](A2plus_Workbench/it#Struttura_dell.27assemblaggio.md).
 
-### Parti rotanti {#parti_rotanti}
+### Parti rotanti 
 
 **Questa strategia non è più necessaria per gli assiemi creati con A2plus 0.4.0 o successivi perché ora A2plus ruota le parti automaticamente un po\' in background per ottenere un angolo iniziale sufficiente per il risolutore.**
 
-Il risolutore spesso fallisce con il vincolo {{Variable|angledPlanes}} se i due piani selezionati hanno un angolo attuale di 0 ° o 180 °. (Le parti non vengono spostate di conseguenza e nel widget *Report* di FreeCAD si vede \"*REACHED POS-ACCURACY :0.0*\".) Una soluzione per questo è di ruotare una parte di alcuni gradi usando la funzione Trasforma di FreeCAD (fare clic con il tasto destro sulla parte nell\'albero del modello e selezionare {{MenuCommand|Transform}} nel menu di scelta rapida).
+Il risolutore spesso fallisce con il vincolo {{Variable|angledPlanes}} se i due piani selezionati hanno un angolo attuale di 0 ° o 180 °. (Le parti non vengono spostate di conseguenza e nel widget *Report* di FreeCAD si vede \"*REACHED POS-ACCURACY :0.0*\".) Una soluzione per questo è di ruotare una parte di alcuni gradi usando la funzione Trasforma di FreeCAD (fare clic con il tasto destro sulla parte nell\'albero del modello e selezionare **Transform** nel menu di scelta rapida).
 
 **Nota:** Assicurarsi che almeno una parte del vincolo abbia la proprietà **fixed Position** impostata su *false*.
 
@@ -373,7 +373,7 @@ A scripted animation works usually this way:
 
 It is also possible to change instead of a placement parameter a constraint, for example the distance between 2 planes.
 
-#### Simple Script Example {#simple_script_example}
+#### Simple Script Example 
 
 The simplest way to script an animation is a non-interactive animation that follows a defined movement. Here is an example: First download this assembly file: [A2p\_animated-example.FCStd](https://forum.freecadweb.org/download/file.php?id=97554) and also this Python script: [A2p\_animation-example-script.py](https://forum.freecadweb.org/download/file.php?id=97981).
 
@@ -445,7 +445,7 @@ This is the result of the example animation:
 
 ![](images/A2p_animated-example-result.gif )
 
-#### Interactive Script Example {#interactive_script_example}
+#### Interactive Script Example 
 
 The first script example demonstrated how to create an animation without any user feedback. For most applications you need to interact with the animation. For example the interesting issue in the example is to see how the driving pins cross the center groove of the wheel. To have a closer look you might present this detail to your colleagues or boss. Therefore you need an interactive solution.
 
@@ -619,7 +619,7 @@ The dialog defined in the script looks like this:
 
 ![](images/A2p_AnimationDialog.png )
 
-### Script Commands {#script_commands}
+### Script Commands 
 
 To understand the script syntax better, here is some command info: 
 ```python starWheel.Placement.Rotation.Angle = math.radians(angle)```

@@ -55,7 +55,7 @@ Para todos estos conceptos [Kicad](https://kicad-pcb.org/) se puede encontrar un
 
 ## Instalación
 
-KicadStepUp es parte de los [Ambientes de trabajo externos](external_workbenches/es.md), y puede instalarse automáticamente usando el <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestor de complementos de FreeCAD](Addon_Manager/es.md) que viene incluido con FreeCAD 0.17, en el menú {{MenuCommand|Herramientas → Gestor de complementos}}.
+KicadStepUp es parte de los [Ambientes de trabajo externos](external_workbenches/es.md), y puede instalarse automáticamente usando el <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestor de complementos de FreeCAD](Addon_Manager/es.md) que viene incluido con FreeCAD 0.17, en el menú **Herramientas → Gestor de complementos**.
 
 
 <div class="mw-translate-fuzzy">
@@ -71,7 +71,7 @@ KicadStepUp es parte de los [Ambientes de trabajo externos](external_workbenches
 
 {{emphasis|In progress}}
 
-### General Approach {#general_approach}
+### General Approach 
 
 The basic idea of KicadStepUp is to synchronise data between the two applications. For home use you might have open FreeCAD and Kicad at the same time. Professional use work on the same files (e.g. on a central server) and have specialists on mechanical CAD (MCAD) working in FreeCAD and electronics experts on electrical CAD (ECAD).
 
@@ -80,7 +80,7 @@ KicadStepUp will converts standard FreeCAD files to Kicad files and vise versa. 
 Undestanding the fine details of the workflow its helpful to note that the differences between the two programs impose some difficulties for a full data exchange.
 One example is that the Sketcher used in Kicad to define the board outline is much more limited compared to the FreeCAD Sketcher, so in order to synchronise back and forth the model content can not be more complex than the Kicad Sketcher can handle. From a FreeCAD point of view, that means you may loose data. KicadStepUp offers workarounds that might be more difficult to understand if you do not have this background.
 
-### Basic Workflow {#basic_workflow}
+### Basic Workflow 
 
 A a collaboration can be started with a new or an existing project. We consider here a new project to keep things simple:
 
@@ -149,7 +149,7 @@ Consulte la [kicadStepUp ficha de ayuda](https://github.com/easyw/kicadStepUpMod
 -   Autor: Github: [\@easyw](https://github.com/easyw) \| Foros de FreeCAD: [kicad StepUp: Colaboración bidireccional ECAD MCAD](https://forum.freecadweb.org/viewtopic.php?f=24&t=14276)
 -   Código fuente en GitHub: <https://github.com/easyw/kicadStepUpMod>
 
-## Nota al margen sobre los ambientes de trabajo externos {#nota_al_margen_sobre_los_ambientes_de_trabajo_externos}
+## Nota al margen sobre los ambientes de trabajo externos 
 
 Los ambientes de trabajo de FreeCAD son fáciles de programar en [Python](Python/es.md), por lo que hay mucha gente desarrollando ambientes de trabajo adicionales fuera de los desarrolladores principales de FreeCAD.
 

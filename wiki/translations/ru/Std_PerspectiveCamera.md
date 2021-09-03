@@ -17,7 +17,7 @@
 ## Применение
 
 1.  :Есть несколько способов вызвать команду:
-    -   Выберите в меню опцию {{MenuCommand|Вид → <img src="images/Std_PerspectiveCamera.svg" width=16px> Перспективная проекция}}.
+    -   Выберите в меню опцию **Вид → <img src="images/Std_PerspectiveCamera.svg" width=16px> Перспективная проекция**.
     -   Используйте клавиатурное сокращение: **V**, затем **P**.
 
 ## Примечания
@@ -26,7 +26,7 @@
 
 ## Настройки
 
--   The camera type can be changed in the preferences: {{MenuCommand|Edit → Preferences... → Display → 3D View → Camera type}}. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   The camera type can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 ## Scripting
 

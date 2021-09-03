@@ -20,7 +20,7 @@ Pokud je stisknuto tlačítko **SHIFT**, hodnota Delta začíná na souřadnici 
 
 Jedna možnost je možná, aby makro zůstalo rezidentní (nepřetržité), poté stiskněte **Q** pro opuštění makra a jedna možnost pro uložení počtu desetinných míst.
 
-## Jak používat {#jak_používat}
+## Jak používat 
 
 1.  Spusťte makro
 2.  Vyberte první bod ve 3D zobrazení

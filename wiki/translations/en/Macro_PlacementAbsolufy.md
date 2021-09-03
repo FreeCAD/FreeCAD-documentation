@@ -90,6 +90,6 @@ App.ActiveDocument.commitTransaction() #commit transaction
 
 -   Process the whole open document
 
-## Forum discussion {#forum_discussion}
+## Forum discussion 
 
 For any feedback (bug, feature request, comments, \...), please use this forum thread : [Preserving global position of Parts during export](https://forum.freecadweb.org/viewtopic.php?f=3&t=36869)

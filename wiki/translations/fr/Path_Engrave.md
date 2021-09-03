@@ -32,7 +32,7 @@ Vide
 
 <div class="mw-translate-fuzzy">
 
-#### Base {#base_1}
+#### Base 
 
 -    {{PropertyData/fr|Placement}}: -
 

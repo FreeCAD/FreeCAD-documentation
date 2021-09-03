@@ -21,11 +21,11 @@ Wenn das erforderliche Bewehrungsverhältnis über den gesamten Querschnitt nich
 
 Als ein Wort der Vorsicht sei gesagt, dass es für den Entwurf einer sicheren und dauerhaften Betonstruktur viel mehr braucht, als das, was die FEM Arbeitsbereich derzeit leisten kann. Die Methode berechnet beispielsweise keine Rissbreite (wichtig für Dauerhaftigkeit und Funktionalität), keine genauen Verformungen (FEM Ergebnisse für Beton sind einfach linear-elastisch) und berücksichtigt auch nicht die Anforderungen an die Bewehrungsverankerung (was zu einer Erhöhung der erforderlichen Bewehrungsverhältnisse in den Verankerungszonen führt). Es werden auch keine Betonquetschungen vorhergesagt (obwohl ein Hinweis darauf durch Auftragen der Mohr Coulomb Spannung erhalten werden kann - siehe weiter unten), was bedeuten könnte, dass der Beton versagt, bevor die Bewehrung nachgibt, was zu sprödem Versagen der Gesamtstruktur führt. Diese und andere Einschränkungen bedeuten, dass die FEM Betonfunktionalität nur zur Beurteilung von Konzeptentwürfen verwendet werden kann, während detaillierte Entwurfsentscheidungen, die für die Sicherheit und Leistung entscheidend sind, qualifizierten Fachleuten überlassen werden sollten.
 
-## Modellgeometrie, Lasten und Stützen {#modellgeometrie_lasten_und_stützen}
+## Modellgeometrie, Lasten und Stützen 
 
 Obwohl die FEM Betonroutine keine zusätzlichen Anforderungen an Geometrie, Lasten und Stützen stellt, ist zu bedenken, dass scharfe Ecken und eine Stütze an einer Kante oder einem Knoten Spannungskonzentrationen erzeugen können, die an oder in der Nähe dieser Stellen zu extrem hohen und unrealistischen Bewehrungsverhältnissen führen.
 
-## Werkstoff Parameter {#werkstoff_parameter}
+## Werkstoff Parameter 
 
 Der FEM Arbeitsbereich hat ein spezielles Materialobjekt für verstärkte Materialien, das ein Matrixmaterial (z.B. Beton) und ein Verstärkungsmaterial (z.B. Stahl) kombiniert. Für die Analyse von Stahlbeton mit der FEM müssen mindestens die folgenden Parameter angegeben werden:
 
@@ -46,7 +46,7 @@ Bitte beachte, dass drei Arten von Analysen durchgeführt werden: 1) Eine elasti
 
 Im weiteren Verlauf dieses Artikels werden einige praktische Fälle analysiert, um die Anwendung der Methode zu diskutieren.
 
-### Einfach gelagerter Träger mit gleichmäßiger Belastung {#einfach_gelagerter_träger_mit_gleichmäßiger_belastung}
+### Einfach gelagerter Träger mit gleichmäßiger Belastung 
 
 Ein 4,0x0,1x0,3 m langer Betonbalken wird durch Eigengewicht und eine verteilte Last von 100 kN (25 kN/m) belastet.
 
@@ -75,7 +75,7 @@ Das Mohr Coulomb Diagramm zeigt, dass der Balken tatsächlich anfällig für Que
 
 Sowohl das Verstärkungsverhältnis als auch die Mohr Coulomb Spannung deuten darauf hin, dass wir ein Problem haben und dass wir unseren konzeptionellen Entwurf überdenken müssen. Mögliche Lösungen sind die Vergrößerung der Balkenabmessungen oder die Verwendung von Spannbeton. Weitere Einzelheiten findest du im folgenden Beitrag: <https://forum.freecadweb.org/viewtopic.php?f=18&t=28821&start=10#p235003>
 
-### Träger mit Halbspannweitenstützen {#träger_mit_halbspannweitenstützen}
+### Träger mit Halbspannweitenstützen 
 
 Ein 8,0x0,2x0,4 m langer Betonbalken wird durch Eigengewicht und eine verteilte Last von 160 kN (20 kN/m) belastet.
 
@@ -122,7 +122,7 @@ Die oben gefundene Verstärkungsanforderung stimmt gut mit derjenigen überein, 
 
 Schließlich sollte ein Mohr Coulomb Spannungsnachweis durchgeführt werden, um eine potenzielle Quetschung des Betons zu überprüfen. Für diesen Nachweis sollte die charakteristische Druckfestigkeit des Betons (25MPa) durch einen geeigneten Materialfaktor (\>1,0) geteilt werden.
 
-### Scherwand mit gleichmäßiger Belastung {#scherwand_mit_gleichmäßiger_belastung}
+### Scherwand mit gleichmäßiger Belastung 
 
 Eine 4,0x2,0x0,15 m hohe Wand wird von zwei 0,5 m breiten Säulen getragen. Die Wand wird durch Eigengewicht und eine verteilte Last von 1,0 MN an der Oberseite belastet.
 
@@ -149,7 +149,7 @@ Das obige Bild zeigt mögliche Zonen mit konstantem Bewehrungsverhältnis für d
 
 Schließlich zeigt eine Überprüfung der Mohr Coulomb Spannung, dass keine Betonzertrümmerung in der Wand zu erwarten ist. <https://forum.freecadweb.org/viewtopic.php?f=18&t=28821&start=10#p234673>
 
-### Tiefer Träger mit Öffnung {#tiefer_träger_mit_öffnung}
+### Tiefer Träger mit Öffnung 
 
 Der FIB Praktiker Leitfaden für Finite Element Modellierung von Stahlbetonstrukturen enthält ein Konstruktionsbeispiel eines tiefen Betonbalkens mit Öffnung. Das Beispiel wird in diesem Bericht verwendet, um die \"Druckstab-und-Zugstab\" Methode zu demonstrieren. Hier werden die Ergebnisse mit denen verglichen, die mit der FreeCAD FEM Arbeitsbereich erzielt wurden.
 

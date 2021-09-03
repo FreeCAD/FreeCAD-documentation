@@ -48,7 +48,7 @@ The tools to create and manage the 6-Axis robots
 
 Tools to create and manipulate trajectories. There are two kinds, the parametric and non parametric ones.
 
-#### Non parametric trajectories {#non_parametric_trajectories}
+#### Non parametric trajectories 
 
 -   <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:30px;"> [Create a trajectory](Robot_CreateTrajectory.md): Inserts a new empty trajectory-object into the scene
 -   <img alt="" src=images/Robot_SetDefaultOrientation.svg  style="width:30px;"> [Set the default orientation](Robot_SetDefaultOrientation.md): Set the orientation way-points gets created by default
@@ -56,7 +56,7 @@ Tools to create and manipulate trajectories. There are two kinds, the parametric
 -   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:30px;"> [Insert a waypoint](Robot_InsertWaypoint.md): Insert a way-point from the current robot position into a trajectory
 -   <img alt="" src=images/Robot_InsertWaypointPre.svg  style="width:30px;"> [Insert a waypoint preselected](Robot_InsertWaypointPre.md): Insert a way-point from the current mouse position into a trajectory
 
-#### Parametric trajectories {#parametric_trajectories}
+#### Parametric trajectories 
 
 -   <img alt="" src=images/Robot_Edge2Trac.svg  style="width:30px;"> [Create a trajectory out of edges](Robot_Edge2Trac.md): Insert a new object which decompose edges to a trajectory
 -   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width:30px;"> [Dress-up a trajectory](Robot_TrajectoryDressUp.md): Lets you override one or more properties of a trajectory

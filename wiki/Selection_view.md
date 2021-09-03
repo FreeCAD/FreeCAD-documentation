@@ -11,7 +11,7 @@ A selection can be made by picking an object in the [3D view](3D_view.md) or in 
 
 *Selection view indicated by the number 5, in the standard [interface](interface.md).*
 
-## Selection of objects {#selection_of_objects}
+## Selection of objects 
 
 The tree view of this example has two [PartDesign Bodies](PartDesign_Body.md), with several features each, and a simple [Part Cone](Part_Cone.md). The tree is as follows.
 
@@ -46,7 +46,7 @@ Document#Body.Feature.Face (Feature_label)
 
 <img alt="" src=images/FreeCAD_Selection_view_many_objects_subelements.png  style="width:" height="286px;"> <img alt="" src=images/FreeCAD_Selection_view_many_objects_subelements_3D.png  style="width:" height="286px;">
 
-## Search bar {#search_bar}
+## Search bar 
 
 If you have many objects in your document and you cannot pick the one that you want from the [3D view](3D_view.md) or from the [tree view](tree_view.md), you can write the partial name of the object in the search field; it will search all names in the document, and show a list of those that partially match the text that you entered. When you find the object that you are looking for, you may click on it to select it.
 
@@ -54,21 +54,21 @@ If you have many objects in your document and you cannot pick the one that you w
 
 Right clicking on an element in the list brings up various commands.
 
--    {{MenuCommand|Select only}}: deselects everything, and selects only the parent object that contains the given element.
+-    **Select only**: deselects everything, and selects only the parent object that contains the given element.
 
--    {{MenuCommand|Deselect}}: completely removes the selection of all objects.
+-    **Deselect**: completely removes the selection of all objects.
 
--    {{MenuCommand|Zoom to fit}}: deselect everything, ans selects only the parent object that contains the given element. Moreover, the [3D view](3D_view.md) is panned and zoomed so that the parent object is centered on the screen. This is useful when selecting one object in the tree view, and then quickly focus the camera on it in the 3D view.
+-    **Zoom to fit**: deselect everything, ans selects only the parent object that contains the given element. Moreover, the [3D view](3D_view.md) is panned and zoomed so that the parent object is centered on the screen. This is useful when selecting one object in the tree view, and then quickly focus the camera on it in the 3D view.
 
--    {{MenuCommand|Go to selection}}: deselects everything, and selects only the the parent object that contains the selected element. In this case, the [tree view](tree_view.md) is adjusted and expanded to show exactly where the selected object is in the tree. This is useful when the objects in the 3D view are contained inside many container objects in the tree view, for example, [Std Parts](Std_Part.md), [Std Groups](Std_Group.md), [PartDesign Bodies](PartDesign_Body.md), [Arch BuildingParts](Arch_BuildingPart.md), and similar. When you have hundreds of bodies, it is easier to select the object in the 3D view, and then choose {{MenuCommand|Go to selection}}, to immediately locate the object in the tree view, and then proceed to edit its properties in the [Property editor](Property_editor.md).
+-    **Go to selection**: deselects everything, and selects only the the parent object that contains the selected element. In this case, the [tree view](tree_view.md) is adjusted and expanded to show exactly where the selected object is in the tree. This is useful when the objects in the 3D view are contained inside many container objects in the tree view, for example, [Std Parts](Std_Part.md), [Std Groups](Std_Group.md), [PartDesign Bodies](PartDesign_Body.md), [Arch BuildingParts](Arch_BuildingPart.md), and similar. When you have hundreds of bodies, it is easier to select the object in the 3D view, and then choose **Go to selection**, to immediately locate the object in the tree view, and then proceed to edit its properties in the [Property editor](Property_editor.md).
 
--    {{MenuCommand|Mark to recompute}}: marks the selected object as \"Touched\", meaning that its properties will be updated next time the document is [recomputed](Recompute.md).
+-    **Mark to recompute**: marks the selected object as \"Touched\", meaning that its properties will be updated next time the document is [recomputed](Recompute.md).
 
--    {{MenuCommand|To Python console}}: this creates a variable `obj` that holds a reference to the parent object. This is useful when writing scripts and testing commands in the [Python console](Python_console.md). Instead of using the full name of the object, it\'s easier to use the shorter and more compact name `obj`.
+-    **To Python console**: this creates a variable `obj` that holds a reference to the parent object. This is useful when writing scripts and testing commands in the [Python console](Python_console.md). Instead of using the full name of the object, it\'s easier to use the shorter and more compact name `obj`.
 
-## Picked object {#picked_object}
+## Picked object 
 
-Starting from v0.19, the {{MenuCommand|picked object list}} checkbox is available. If this is checked, a secondary list will appear showing all the sub-elements (vertices, edges, and faces) that could be selected by a single click, even those that are behind (hidden by) other objects.
+Starting from v0.19, the **picked object list** checkbox is available. If this is checked, a secondary list will appear showing all the sub-elements (vertices, edges, and faces) that could be selected by a single click, even those that are behind (hidden by) other objects.
 
 <img alt="" src=images/FreeCAD_Selection_view_pick_hidden.png  style="width:" height="300px;"> <img alt="" src=images/FreeCAD_Selection_view_pick_hidden_3D.png  style="width:" height="300px;">
 

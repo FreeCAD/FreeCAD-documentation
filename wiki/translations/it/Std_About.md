@@ -20,7 +20,8 @@ Informazioni su FreeCAD apre una finestra che mostra informazioni sul programma.
 
 </div>
 
-![](images/Help-About-Dropdown-screenshot.png ) *Activate the About dialog via {{MenuCommand|Help → <img src="images/Std_About.svg" width=16px> About FreeCAD*}}
+![](images/Help-About-Dropdown-screenshot.png ) *Activate the About dialog via **Help → <img src="images/Std_About.svg" width=16px> About FreeCAD
+***
 
 ![](images/Std_About_example.png )
 
@@ -48,7 +49,7 @@ Informazioni su FreeCAD apre una finestra che mostra informazioni sul programma.
 <div class="mw-translate-fuzzy">
 
 1.  Aprire il menu [Aiuto](Std_Help_Menu/it.md) → <img alt="" src=images/Std_About.svg  style="width:16px;"> [Informazioni su FreeCAD](Std_About/it.md).
-2.  Selezionare una delle schede, {{MenuCommand|Informazioni su}}, {{MenuCommand|Ringraziamenti}}, {{MenuCommand|Licenza}}, {{MenuCommand|Librarie}}.
+2.  Selezionare una delle schede, **Informazioni su**, **Ringraziamenti**, **Licenza**, **Librarie**.
 3.  Per ottenere informazioni utili alla risoluzione dei problemi, premere **Copia negli Appunti**, quindi incollare queste informazioni.
 4.  Premere **OK**, o il tasto **Esc** per chiudere la finestra.
 
@@ -58,7 +59,7 @@ Informazioni su FreeCAD apre una finestra che mostra informazioni sul programma.
 
 <div class="mw-translate-fuzzy">
 
-### Informazioni su {#informazioni_su}
+### Informazioni su 
 
 
 </div>

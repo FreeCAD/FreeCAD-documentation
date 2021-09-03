@@ -18,11 +18,11 @@ The function **Placement** can be accessed in several ways:
 
 -   or by the menu **Edit → Placement\...**.
 
-### Включение Расположения на комбо-панели {#включение_расположения_на_комбо_панели}
+### Включение Расположения на комбо-панели 
 
 -   Click a shape to select it.
 -   Click **Placement** (the title, not the little arrow), and a button with an ellipsis **...** appears: ![ 256px \| Tache\_Placement](images/_Tache_Placement_01_fr_00.png )
--   Click on the ellipsis, and the {{MenuCommand|Placement Dialog}} is displayed:
+-   Click on the ellipsis, and the **Placement Dialog** is displayed:
 
 :   ![](images/Tache_Placement_en_02.png )
 
@@ -107,7 +107,7 @@ Yaw, pitch and roll refer to the **attitude** of an object in 3D space. These te
 
 -   The {{KEY | Reset}} returns all values ​​to **0,0,0**.
 
-## Links and Example {#links_and_example}
+## Links and Example 
 
 A practical example of using this command is in the tutorial [ Aeroplane](Aeroplane.md).
 

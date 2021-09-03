@@ -41,12 +41,12 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
 
-### Desenarea unui zid de la zero {#desenarea_unui_zid_de_la_zero}
+### Desenarea unui zid de la zero 
 
 
 <div class="mw-translate-fuzzy">
@@ -58,7 +58,7 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 </div>
 
-### Desenarea unui zid deasupra unui obiect selectat {#desenarea_unui_zid_deasupra_unui_obiect_selectat}
+### Desenarea unui zid deasupra unui obiect selectat 
 
 
 <div class="mw-translate-fuzzy">

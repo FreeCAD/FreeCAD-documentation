@@ -24,7 +24,7 @@ A seconda delle selezioni effettuate, alcune opzioni potrebbero non essere dispo
 -   **Axis aligned right**: Scegli l\'asse rivolto a destra sul foglio di disegno. L\'asse rimanente sarà verticale sulla pagina.
 -   **Secondary views**: Scegliere le viste che si desidera creare. La vista principale si trova al centro delle caselle di controllo ed è orientata dalle opzioni {{Variable|View from}} e {{Variable|Axis aligned right}}. Vengono create delle viste secondarie per ogni casella selezionata.
 
-### Aspetti generali {#aspetti_generali}
+### Aspetti generali 
 
 
 <div class="mw-translate-fuzzy">

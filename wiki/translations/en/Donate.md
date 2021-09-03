@@ -31,7 +31,7 @@ See other ways to [help the project](Help_FreeCAD.md) (documentation, translatio
 -   There might be other developers interested in doing specific work for the project; if you would like to accelerate the development of an idea or feature, consider employing a developer. It\'s up to you to build up an idea, discuss it on the forum, and find developers interested in doing it. You can offer a job in the [Job offers subforum](https://forum.freecadweb.org/viewforum.php?f=31).
 -   Modelling jobs are also welcome. Not every experienced FreeCAD user is a developer. Experienced users can help you migrate your projects to FreeCAD, which contributes with popularizing the software in organizations. See [FreeCAD used in production](FreeCAD_used_in_production.md).
 
-## The situation {#the_situation}
+## The situation 
 
 At the moment FreeCAD is a very small project with a limited team of developers. Most of us have day jobs, and work on FreeCAD during our free time. Having more money would not change this situation significantly. However, some of us have a more flexible work schedule where money can make a difference.
 

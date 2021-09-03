@@ -6,11 +6,11 @@ Vous êtes ici à l\'endroit idéal pour vous documenter, si vous voulez contrib
 
 Ces pages sont au début de leurs développements. Si vous ne trouvez pas l\'information que vous recherchez, ou vous avez trouvé des informations utiles, et qui ne sont pas liées ici, alors s\'il vous plaît laissez un commentaire sur le [forum de discussion](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) et quelqu\'un s\'en occupera, (ou, pourquoi ne pas modifier vous même directement cette page, ou la documentation de FreeCAD !).
 
-## Documentation pour les développeurs {#documentation_pour_les_développeurs}
+## Documentation pour les développeurs 
 
 La documentation pour les développeurs comprend les sections suivantes :
 
-### Compiler FreeCAD {#compiler_freecad}
+### Compiler FreeCAD 
 
 -   [dépôt Github](https://github.com/FreeCAD/FreeCAD). Si vous êtes nouveau avec Git, lire [Gestion du code source](Source_code_management/fr.md)
 -   [Compiler avec Docker](Compile_on_Docker/fr.md)
@@ -35,7 +35,7 @@ Le [Packaging](Packaging.md) consiste à prendre les fichiers binaires compilés
 -   [Windows packaging](Windows_packaging.md)
 -   [MacOS packaging](MacOS_packaging.md)
 
-### Outils de support à la compilation {#outils_de_support_à_la_compilation}
+### Outils de support à la compilation 
 
 -   Les [outils de compilation de FreeCAD](FreeCAD_Build_Tool/fr.md)
     -   [Création d\'atelier](Workbench_creation/fr.md) dans FreeCAD
@@ -44,7 +44,7 @@ Le [Packaging](Packaging.md) consiste à prendre les fichiers binaires compilés
 -   [Compilation (accélération)](Compiling_(Speeding_up)/fr.md) FreeCAD
 -   [Intégration continue](Continuous_Integration/fr.md)
 
-### Modifier FreeCAD {#modifier_freecad}
+### Modifier FreeCAD 
 
 -   Compréhension du [code source de FreeCAD](The_FreeCAD_source_code/fr.md)
 -   [Soumettre des patchs](Tracker#Submitting_patches.md)
@@ -60,7 +60,7 @@ Le [Packaging](Packaging.md) consiste à prendre les fichiers binaires compilés
 
 -   [Traduction et ateliers externes](Translating_an_external_workbench/fr.md)
 
-### Le guide du développeur de module {#le_guide_du_développeur_de_module}
+### Le guide du développeur de module 
 
 [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) est un livre électronique en cours d\'écriture sur github, veuillez soumettre votre requête pour contribuer.
 
@@ -81,7 +81,7 @@ La dernière version pdf peut être téléchargée à partir de [pdf folder](htt
 
 ### Intégration
 
-#### Documentation OpenCascade {#documentation_opencascade}
+#### Documentation OpenCascade 
 
 OpenCascade est une plate-forme de développement logiciel pour la modélisation 3D de surfaces et de solides, l\'échange de données CAO et la visualisation, principalement sous la forme de bibliothèques C++.
 
@@ -90,11 +90,11 @@ OpenCascade est une plate-forme de développement logiciel pour la modélisation
 -   [Manuel de référence](https://dev.opencascade.org/doc/refman/html/index.html)
 -   [Le wiki openCascade](http://opencascade.wikidot.com) (contiendrait actuellement ?? du spam Chinois\...)
 
-#### Formats de fichiers {#formats_de_fichiers}
+#### Formats de fichiers 
 
 [File Format FCStd](File_Format_FCStd.md). Les fichiers créés avec FreeCAD sont des fichiers `.zip` contenant la géométrie [BREP](https://fr.wikipedia.org/wiki/B-Rep) ainsi que des données XML décrivent le document.
 
-#### Solveur Sketcher {#solveur_sketcher}
+#### Solveur Sketcher 
 
 -   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (fil de discussion), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) dans GitHub.
 -   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) dans le code source de FreeCAD ; Les fichiers importants sont [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) et [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
@@ -104,7 +104,7 @@ Le solveur Sketcher n'est pas parfait, car il existe des problèmes de précisio
 
 Le développement d\'une nouvelle architecture de solveur pourrait améliorer la façon dont le solveur est utilisé à la fois dans [l\'atelier Sketcher](Sketcher_Workbench/fr.md) et pour l\'assemblage de corps 3D. [Reimplementing constraint solver](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
-## Feuille de route {#feuille_de_route}
+## Feuille de route 
 
 FreeCAD, bien qu\'utilisable dans certains domaines, n\'est qu\'au début d\'un long chemin vers le grand public de la CAO. Il y a encore beaucoup à faire pour atteindre un état où nous pourrons rivaliser avec les logiciels commerciaux.
 

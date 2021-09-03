@@ -11,7 +11,7 @@ See <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Par
 
 ## Usage
 
-The Std Part tool is not defined by a particular workbench, but by the base system, thus it is found in the {{MenuCommand|structure toolbar}}, which is available in all [workbenches](Workbenches.md).
+The Std Part tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar**, which is available in all [workbenches](Workbenches.md).
 
 1.  Press the **<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** button. An empty Part is created and automatically becomes *[active](Std_Part#Active_status.md)*.
 

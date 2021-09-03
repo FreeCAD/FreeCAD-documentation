@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Este es el proyecto de desarrollo del croquizador de FreeCAD. Sigue las reglas de la metodología \[<http://en.wikipedia.org/wiki/GTD#GTD_methodology>\| Getting things done\]. Los proyectos son recopilados en el [mapa de desarrollo](Development_roadmap/es.md).
 
-## Propósito y principios {#propósito_y_principios}
+## Propósito y principios 
 
 Este es un proyecto de desarrollo de software cuya intención es implementar habilidades de restricciones en el croquizador. Trata de implementar algunos elementos de la interfaz gráfica de usuario GUI y vincularlos al solucionador de restricciones.
 
@@ -20,7 +20,7 @@ Los pasos de desarrollo están planificados aquí y son seguidos en el sistema d
 
 ## Resultado
 
-## Tormenta de ideas {#tormenta_de_ideas}
+## Tormenta de ideas 
 
 Para mejorar el rendimiento del solucionador del croquizador, puede realizarse un particionado basado en gráficos del sistema de restricciones. El conjunto de las restricciones y el conjunto de los parámetros desconocidos se puede presentar en un [grafo bipartito](http://es.wikipedia.org/wiki/Grafo_bipartito) con restricciones correspondiendo en los nodos de la izquierda y los parámetros desconocidos en los nodos de la derecha. **TERMINADO**
 
@@ -32,7 +32,7 @@ Dando un paso más, las subpiezas rígidas de un croquis podrían detectarse y r
 
 ## Organización
 
-## Siguientes acciones {#siguientes_acciones}
+## Siguientes acciones 
 
 For 0.14:
 

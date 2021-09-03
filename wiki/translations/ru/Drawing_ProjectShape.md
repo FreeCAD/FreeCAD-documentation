@@ -27,7 +27,7 @@ This tool creates a projection of the selected object (Source) in the 3D view.
 |                                                      | A projection object (**objectname\_proj**) will be added to the project. For subsequent projections of the same Source object, the projection object will be named **objectname\_projXXX**, where **XXX** is a three digit number. |
 +------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-### Edit an existing projection {#edit_an_existing_projection}
+### Edit an existing projection 
 
 +--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ![](images/ProjectShapeOptions_it.png ) | The projection parameters can be edited in the Property editor.                                                                                                                                                      |

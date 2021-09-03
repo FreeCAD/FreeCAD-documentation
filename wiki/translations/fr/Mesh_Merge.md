@@ -17,7 +17,7 @@ La commande **Mesh Fusionner** crée un nouvel objet maillé non paramétrique, 
 2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_Merge.svg" width=16px> [Fusionner les maillages sélectionnés](Mesh_Merge/fr.md)
 **
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → <img src="images/Mesh_Merge.svg" width=16px> Fusionner}} dans le menu.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Merge.svg" width=16px> Fusionner** dans le menu.
 
 ## Propriétés
 

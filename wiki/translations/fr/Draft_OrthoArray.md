@@ -22,8 +22,8 @@ La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draf
 1.  Sélectionner un objet au choix.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_OrthoArray.svg" width=16px> [Array](Draft_OrthoArray/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Modification → Outils de réseau → <img src="images/Draft_OrthoArray.svg" width=16px> Array}} dans le menu.
-3.  Le panneau de tâches {{MenuCommand|Réseau orthogonal}} s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+    -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_OrthoArray.svg" width=16px> Array** dans le menu.
+3.  Le panneau de tâches **Réseau orthogonal** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet.
 5.  Saisissez les paramètres requis dans le panneau des tâches.
 6.  Pour terminer la commande, effectuez l\'une des opérations suivantes :
@@ -33,13 +33,13 @@ La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draf
 
 ## Options
 
--   Entrez le {{MenuCommand|Nombre d'éléments}} pour les directions X, Y et Z. Ce nombre doit être au moins {{Value|1}} pour chaque direction. Ce nombre doit être au moins {{Value|1}} pour chaque direction.
--   Entrez dans le champ {{MenuCommand|Intervalles en X}} pour spécifier le déplacement des éléments dans la direction X. Pour un réseau rectangulaire, les intervalles Y et Z doivent être spécifiés. Pour un réseau rectangulaire, les valeurs Y et Z doivent être {{Value|0}}.
--   Entrez dans le champ {{MenuCommand|Intervalles en Y}} pour spécifier le déplacement des éléments dans la direction Y. Pour un tableau rectangulaire, les valeurs X et Z doivent être {{Value|0}}. Pour un réseau rectangulaire, les valeurs X et Z doivent être {{Value|0}}.
--   Entrez dans le champ {{MenuCommand|Intervalles en Z}} pour spécifier le déplacement des éléments dans la direction Z. Pour un tableau rectangulaire, les valeurs X et Z doivent être {{Value|0}}. Pour un réseau rectangulaire, les valeurs X et Y doivent être {{Value|0}}.
--   Appuyez sur le bouton {{MenuCommand|Réinitialiser X, Y ou Z}} pour réinitialiser le déplacement dans la direction donnée aux valeurs par défaut.
--   Si la case {{MenuCommand|Union}} est cochée, les éléments qui se chevauchent dans le réseau sont fusionnés. Cela ne fonctionne pas pour les réseaux de liens.
--   Si la case {{MenuCommand|Lier un réseau}} est cochée, un réseau de liens est créé au lieu d\'un réseau normal. Un réseau de liens est plus efficace car ses éléments sont des objets [App Link](App_Link/fr.md).
+-   Entrez le **Nombre d'éléments** pour les directions X, Y et Z. Ce nombre doit être au moins {{Value|1}} pour chaque direction. Ce nombre doit être au moins {{Value|1}} pour chaque direction.
+-   Entrez dans le champ **Intervalles en X** pour spécifier le déplacement des éléments dans la direction X. Pour un réseau rectangulaire, les intervalles Y et Z doivent être spécifiés. Pour un réseau rectangulaire, les valeurs Y et Z doivent être {{Value|0}}.
+-   Entrez dans le champ **Intervalles en Y** pour spécifier le déplacement des éléments dans la direction Y. Pour un tableau rectangulaire, les valeurs X et Z doivent être {{Value|0}}. Pour un réseau rectangulaire, les valeurs X et Z doivent être {{Value|0}}.
+-   Entrez dans le champ **Intervalles en Z** pour spécifier le déplacement des éléments dans la direction Z. Pour un tableau rectangulaire, les valeurs X et Z doivent être {{Value|0}}. Pour un réseau rectangulaire, les valeurs X et Y doivent être {{Value|0}}.
+-   Appuyez sur le bouton **Réinitialiser X, Y ou Z** pour réinitialiser le déplacement dans la direction donnée aux valeurs par défaut.
+-   Si la case **Union** est cochée, les éléments qui se chevauchent dans le réseau sont fusionnés. Cela ne fonctionne pas pour les réseaux de liens.
+-   Si la case **Lier un réseau** est cochée, un réseau de liens est créé au lieu d\'un réseau normal. Un réseau de liens est plus efficace car ses éléments sont des objets [App Link](App_Link/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande en cours.
 
 ## Remarques
@@ -51,7 +51,7 @@ La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draf
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : {{MenuCommand|Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales}}.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
 
 ## Propriétés
 
@@ -235,7 +235,7 @@ Les propriétés de ce groupe ne sont pas héritées par les réseaux de liens.
 
 Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-### Réseau paramétrique {#réseau_paramétrique}
+### Réseau paramétrique 
 
 Pour créer un réseau orthogonal paramétrique, utilisez la méthode `make_array` ({{Version/fr|0.19}}) de l\'atelier Draft. Cette méthode remplace la méthode dépréciée `makeArray`. La méthode `make_array` peut créer des Draft Réseaux orthogonaux, [Draft Réseaux polaires](Draft_PolarArray.md) et [Draft Réseaux cirucalires](Draft_CircularArray.md). Pour chaque type de réseau, un ou plusieurs wrappers sont disponibles.
 
@@ -311,7 +311,7 @@ array = Draft.make_ortho_array2d(rect, v_x, v_y, 3, 4)
 doc.recompute()
 ```
 
-### Réseau non paramétrique {#réseau_non_paramétrique}
+### Réseau non paramétrique 
 
 Pour créer un réseau orthogonal non-paramétrique, utilisez la méthode `array` de l\'atelier Draft. Cette méthode renvoie `None`.
 

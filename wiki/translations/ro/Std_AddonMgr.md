@@ -39,7 +39,7 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -47,8 +47,8 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 
 <div class="mw-translate-fuzzy">
 
--   Deschideți meniul de instrumente {{MenuCommand|Tools → Addon manager}}.
--   Pentru a instala un atelier sau o macro: derulați în jos lista și selectați atelierul de completare. O scurtă descriere a atelierului suplimentar va fi afișată sub listă, precum și link-ul către pagina complementară. Apoi apăsați butonul **Install/update** pentru a instala noul instrument. Pentru macro-uri, faceți clic pe tab-ul {{MenuCommand|Macros}} și repetați pașii.
+-   Deschideți meniul de instrumente **Tools → Addon manager**.
+-   Pentru a instala un atelier sau o macro: derulați în jos lista și selectați atelierul de completare. O scurtă descriere a atelierului suplimentar va fi afișată sub listă, precum și link-ul către pagina complementară. Apoi apăsați butonul **Install/update** pentru a instala noul instrument. Pentru macro-uri, faceți clic pe tab-ul **Macros** și repetați pașii.
 -   Pentru a elimina un atelier sau macro parcurgeți lista, selectați atelierul sau add-on și apăsați butonul **Install/update** .
 -   Pentru a actualiza un atelier sau macro parcurgeți, selectați plugin-ul și apăsați butonul **Install/update**.
 -   Pentru a verifica actualizările apăsați **<img src=images/Std_Refresh.png style="width:16px"> Refresh** Actulaizările disponibile vor fi raportatea în partea de jos a listei. Apăsați **<img src=images/Std_Refresh.png style="width:16px"> Refresh** pentru a instala odată toate actualizările
@@ -94,7 +94,7 @@ The Addon manager dialog box has two tabs on the left, one listing the available
 -   If the [GitPython](https://github.com/gitpython-developers/GitPython) package is installed on your computer the Addon manager will make use of it, making downloads faster.
 -   You can also install addons manually. See [How to install additional workbenches](How_to_install_additional_workbenches.md) and [How to install macros](How_to_install_macros.md).
 
-## Information for developers {#information_for_developers}
+## Information for developers 
 
 
 <div class="mw-translate-fuzzy">
@@ -104,7 +104,7 @@ Dacă ați dezvoltat un atelier de lucru sau o macrocomandă și doriți să îl
 
 </div>
 
-### Python workbenches {#python_workbenches}
+### Python workbenches 
 
 
 <div class="mw-translate-fuzzy">
@@ -114,7 +114,7 @@ Pentru atelierele de lucru python, nu aveți nevoie de aprobarea specifică pent
 
 </div>
 
-### C++ workbenches {#c_workbenches}
+### C++ workbenches 
 
 
 <div class="mw-translate-fuzzy">

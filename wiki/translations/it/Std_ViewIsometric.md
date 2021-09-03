@@ -18,8 +18,8 @@ Il comando **Vista isometrica** orienta la camera della [vista 3D](3D_view/it.md
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_ViewIsometric.svg" width=16px> Vista isometrica**.
-    -   Selezionare l\'opzione {{MenuCommand|Viste → Viste standard → Assonometra → <img src="images/Std_ViewIsometric.svg" width=16px> Isometrica}} dal menu.
-    -   Selezionare l\'opzione {{MenuCommand|Viste standard → <img src="images/Std_ViewIsometric.svg" width=16px> Isometrica}} dal menu contestuale della [vista 3D](3D_view/it.md).
+    -   Selezionare l\'opzione **Viste → Viste standard → Assonometra → <img src="images/Std_ViewIsometric.svg" width=16px> Isometrica** dal menu.
+    -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewIsometric.svg" width=16px> Isometrica** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **0**.
 
 ## Note

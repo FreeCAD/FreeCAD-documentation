@@ -8,7 +8,7 @@
 
 ## Usage
 
-### Základní geometrické tvary {#základní_geometrické_tvary}
+### Základní geometrické tvary 
 
 +--------------------------------------------------------------------------+---------------------------------+
 | ![](images/PartLinePrimitivesOptions_it.png ) | Přímka                          |

@@ -12,7 +12,7 @@
 
 L\'outil [Tableau des armatures](Reinforcement_Bar_Bending_Schedule/fr.md) permet à l\'utilisateur de créer la nomenclature de pliage des barres d\'armature.
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Reinforcement_Bar_Bending_Schedule_example.svg  style="width:1300px;">
 
@@ -97,7 +97,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 L\'outil [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule/fr.md) peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes :
 
-### Créer un Tableau d\'armatures {#créer_un_tableau_darmatures}
+### Créer un Tableau d\'armatures 
 
 
 ```python

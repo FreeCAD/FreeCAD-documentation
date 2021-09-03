@@ -11,7 +11,7 @@
 
 **Erzeugt ein regelmäßiges Polygon** ist eine Symbolschaltfläche in der Skizzengeometrien Werkzeugleiste , die Werkzeuge zur Erstellung eines regelmäßigen Polygons gruppiert. Klicke auf den Pfeil nach unten rechts, um die darunter liegenden Symbole aufzuklappen und ein Werkzeug auszuwählen.
 
-## Arten regelmäßiger Polygone {#arten_regelmäßiger_polygone}
+## Arten regelmäßiger Polygone 
 
 -   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Gleichseitiges Dreieck erstellen](Sketcher_CreateTriangle/de.md) : Zeichnet ein gleichseitiges Dreieck, indem zwei Punkte ausgewählt werden, die Mitte und eine Ecke.
 -   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> [Quadrat erstellen](Sketcher_CreateSquare/de.md) : Zeichnet ein Quadrat, indem zwei Punkte auswählt werden, die Mitte und eine Ecke.

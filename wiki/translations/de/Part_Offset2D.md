@@ -67,7 +67,7 @@ Ein parametrisches 2D Offset Objekt wird erstellt. Originalobjekte werden in den
 
 :   ![600px](images/Part_Offset2D_Fill.png)
 
-## Bekannte Probleme {#bekannte_probleme}
+## Bekannte Probleme 
 
 -   Die meisten nicht standardmäßigen Modi funktionieren nur mit OCC 7.0.0 oder höher.
 

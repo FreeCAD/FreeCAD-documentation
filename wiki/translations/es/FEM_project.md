@@ -35,12 +35,12 @@ Esta es la planificación del proyecto para la integración de CAE (FEM) en Free
 
   : **Units**
 
-## Tormenta de ideas {#tormenta_de_ideas}
+## Tormenta de ideas 
 
 
 <div class="mw-translate-fuzzy">
 
-### Aplicaciones de mallado potenciales {#aplicaciones_de_mallado_potenciales}
+### Aplicaciones de mallado potenciales 
 
 <img alt="" src=images/Netgen.jpg  style="width:300px;">
 
@@ -62,7 +62,7 @@ Algunas aplicaciones de mallado existentes
 
 <div class="mw-translate-fuzzy">
 
-### Solvers potenciales {#solvers_potenciales}
+### Solvers potenciales 
 
 Algunas aplicaciones de cálculo existente
 

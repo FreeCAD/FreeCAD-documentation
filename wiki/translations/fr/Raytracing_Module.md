@@ -26,7 +26,7 @@ L\'atelier Raytracing est essentiellement obsolète. Un nouveau développement e
 
 <div class="mw-translate-fuzzy">
 
-## Flux de travail classique {#flux_de_travail_classique}
+## Flux de travail classique 
 
 1.  Créez ou ouvrez un projet dans FreeCAD, ajouter quelques objets solides [Part](Part_Workbench/fr.md) ou [PartDesign](PartDesign_Workbench.md); le maillage n\'est actuellement pas pris en charge.
 2.  Créez un projet de Raytracing (povray ou luxrender)
@@ -43,7 +43,7 @@ L\'atelier Raytracing est essentiellement obsolète. Un nouveau développement e
 
 ## Outils
 
-### Outils de projet {#outils_de_projet}
+### Outils de projet 
 
 Ce sont les principaux outils d'exportation de votre travail 3D vers des rendus externes.
 
@@ -71,7 +71,7 @@ Ce sont des outils auxiliaires pour effectuer manuellement des tâches spécifiq
 -   [Tutoriel de base Lancer de rayon](Raytracing_tutorial/fr.md)
 -   [Tutoriel intermédiaire de base Lancer de rayon](Tutorial_FreeCAD_POV_ray/fr.md)
 
-## Création manuelle d\'un fichier povray {#création_manuelle_dun_fichier_povray}
+## Création manuelle d\'un fichier povray 
 
 Les outils utilitaires décrits ci-dessus vous permettent d\'exporter l\'affichage 3D actuel et tout son contenu dans un fichier [Povray](http://www.povray.org/). Tout d\'abord, vous devez charger ou créer vos données CAO et positionner l\'orientation de la vue 3D que vous le souhaitez. Puis choisissez \"Utilities → Export View\...\" dans le menu de raytracing.
 
@@ -106,7 +106,7 @@ Autres moteurs de rendu libres (pour implémentation à venir) :
 -   <http://www.kerkythea.net/>
 -   <http://www.artofillusion.org/>
 
-## Exportation vers Kerkythea {#exportation_vers_kerkythea}
+## Exportation vers Kerkythea 
 
 Bien que l\'exportation directe vers le format de fichier XML Kerkythea ne soit pas encore prise en charge, vous pouvez exporter vos objets en tant que fichiers de maillage (.obj), puis les importer dans Kerkythea.
 

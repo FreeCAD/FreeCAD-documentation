@@ -11,13 +11,13 @@
 
 This Basic Modeling Tutorial will show you how to model an iron angle. One thing to know is that FreeCAD is modular by design, and like for many other CAD software, there are always more than one way to do things. We will explore two methods here.
 
-## Before we begin {#before_we_begin}
+## Before we begin 
 
 Keep in mind that FreeCAD is still in an early stage of development, so you might not be as productive as with another CAD application, and you will certainly encounter bugs, or experience crashes. FreeCAD now has the ability to save backup files. The number of those backup files can be specified in the preferences dialog. Don\'t hesitate to allow 2 or 3 backup files until you know well how to deal with FreeCAD.
 
 Save your work often, from time to time save your work under a different name, so you have a \"safe\" copy to fall back to, and be prepared to the possibility that some commands might not give you the expected results.
 
-## Modeling Techniques Intro {#modeling_techniques_intro}
+## Modeling Techniques Intro 
 
 The first (and basic) technique of solid modeling is [Constructive Solid Geometry (CSG)](http://en.wikipedia.org/wiki/Constructive_solid_geometry). There is also a detailed explanation (in the context of FreeCAD) of [Constructive\_solid\_geometry](Constructive_solid_geometry.md) on the wiki. You work with primitive shapes like cubes, cylinders, spheres and cones to construct your geometry by combining them, subtracting one shape from the other, or intersecting them. These tools are part of the [Part Workbench](Part_Workbench.md). You can also apply transformations on shapes, like applying rounds or chamfers on edges. These tools are also in the [Part Workbench](Part_Workbench.md).
 
@@ -25,10 +25,10 @@ Then there are more advanced tools. You start by drawing a 2D profile which you\
 
 So let\'s start by trying to do some iron feet for a table with these 2 methods.
 
-## 1st Method - By Constructive Solid Geometry {#st_method___by_constructive_solid_geometry}
+## 1st Method - By Constructive Solid Geometry 
 
 1.  Start with the [Part Workbench](Part_Workbench.md) ![](images/Switch_PartWorkbench.JPG ).
-2.  If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click {{MenuCommand|File → New}} or click the <img alt="" src=images/Document-new.png  style="width:32px;"> **Create a new empty document** icon.
+2.  If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click **File → New** or click the <img alt="" src=images/Document-new.png  style="width:32px;"> **Create a new empty document** icon.
 3.  Click on the <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Box](Part_Box.md) button to create a box
 4.  Change its dimensions by selecting it either in the 3D space, or by clicking it in the Project tab to the left, then
 5.  Click on the Data tab at the bottom, and change values for Length, Width and Height to 50mm, 50 and 750 *(see Fig. 1.1)* **Note**: *back when these captures were taken, the properties were ordered differently, with Height being first*.
@@ -56,13 +56,13 @@ By the way, we can add rounds to the angle so it is more realistic, using the <i
 
 ![Fig. 1.6 The filleted edges](images/Tutorial-normand06.jpg )
 
-## 2nd Method - By extruding a profile {#nd_method___by_extruding_a_profile}
+## 2nd Method - By extruding a profile 
 
 This method requires that you start by drawing a 2D profile. You need to activate the [Draft workbench](Draft_Workbench.md) ![](images/Switch_DraftWorkbench.JPG ).
 
 -   If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click File → New or click the <img alt="" src=images/Document-new.png  style="width:32px;"> **Create a new empty document** icon.
 
-### Setting the working plane {#setting_the_working_plane}
+### Setting the working plane 
 
 First we need to define on which [working plane](Draft_SelectPlane.md) to draft our profile.
 
@@ -74,7 +74,7 @@ First we need to define on which [working plane](Draft_SelectPlane.md) to draft 
 4.  We will leave the *Offset* field at a value of zero.
 5.  Press the **XY** button to set the working plane to XY. This closes the Tasks panel or the expanded buttons. The \"Auto\" button will now be relabeled as \"Top\" to show it is the active plane.
 
-### Drafting the profile {#drafting_the_profile}
+### Drafting the profile 
 
 1.  Select the <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [DWire (multiple-point DraftWire)](Draft_Wire.md) tool.
 2.  Check the \"Relative\" and \"Filled\" boxes.
@@ -97,9 +97,9 @@ First we need to define on which [working plane](Draft_SelectPlane.md) to draft 
 
 Hit the **0** (zero) key on the numerical keypad to set the view to axonometric.
 
-### Extruding the profile {#extruding_the_profile}
+### Extruding the profile 
 
-Activate the <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part Workbench](Part_Workbench.md) either from the [workbench selector](Std_Workbench.md), or from the {{MenuCommand|[View](Std_View_Menu.md) → Workbench → Part}} menu.
+Activate the <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part Workbench](Part_Workbench.md) either from the [workbench selector](Std_Workbench.md), or from the **[View](Std_View_Menu.md) → Workbench → Part** menu.
 
 Click on the **<img src="images/Part_Extrude.svg" width=32px> [Extrude](Part_Extrude.md)** tool.
 
@@ -111,7 +111,7 @@ This method has a minor caveat compared to the other one: to edit the shape, you
 
 And there are a few other ways to do it too! I hope these two examples get you started. You\'ll sure hit some snags along the way (I did when I first learned FreeCAD, and I do have 3D CAD experience), but don\'t hesitate to ask questions on the [FreeCAD forum](https://forum.freecadweb.org)!
 
-### Note on Draft Working Plane Button {#note_on_draft_working_plane_button}
+### Note on Draft Working Plane Button 
 
 The label on your button may be different, depending on your version and also on what you were doing beforehand. The button label could read: \"Top\", \"Front\", \"Side\", \"None\" or a Vector representation such as d(0.0,0.0,1.0). It can also be blank. For example:
 

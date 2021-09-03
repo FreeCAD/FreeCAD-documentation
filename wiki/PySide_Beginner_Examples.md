@@ -18,7 +18,7 @@ This guide is a shortcut list for getting a PySide program working quickly under
 -   [PySide/PyQt Tutorial](http://www.pythoncentral.io/series/python-pyside-pyqt-tutorial/) at PythonCentral.io
 -   [PySide 1.0.7 Reference](http://srinikom.github.io/) at Srinikom.github.io (note this is a reference, not a tutorial)
 
-## Import statement {#import_statement}
+## Import statement 
 
 PySide is not loaded with Python by default, it must be requested prior to using it. The following command:  
 ```python
@@ -28,7 +28,7 @@ from PySide import QtGui
 
 The import statements are not repeated in the snippets below; it is assumed that it is done at the beginning in each case.
 
-## Simplest Example {#simplest_example}
+## Simplest Example 
 
 The simplest interaction with PySide is to present a message to the user which they can only accept:  
 ```python
@@ -39,7 +39,7 @@ reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 
 
 
-## Yes or No Query {#yes_or_no_query}
+## Yes or No Query 
 
 The next most simple interaction is to ask for a yes/no answer:  
 ```python
@@ -60,7 +60,7 @@ if reply == QtGui.QMessageBox.No:
 
 
 
-## Enter Text Query {#enter_text_query}
+## Enter Text Query 
 
 The next code snippet asks the user for a piece of text - note this can be any key on the keyboard really:  
 ```python
@@ -82,7 +82,7 @@ anInteger = int(userInput) # to convert to an integer from a string representati
 aFloat = float(userInput) # to convert to a float from a string representation
 ```
 
-## More Than 2 Buttons {#more_than_2_buttons}
+## More Than 2 Buttons 
 
 The final Beginner Level example is of how to build a dialog with an arbitrary number of buttons. This example is programmatically too complex to be invoked from a single Python statement so in some ways it should be on the next page which is PySide Medium examples. But on the other hand this is often all that is needed without getting into complex GUI definitions, so the code is placed at the end of the page of this Beginner PySide page rather than the beginning of the following Medium PySide page.  
 ```python

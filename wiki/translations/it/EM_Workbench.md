@@ -12,7 +12,7 @@ The ElectroMagnetic (EM) Workbench provides the CAD front-end interface to some 
 
 ## Installazione
 
-[EM](EM_Workbench/it.md) è un [ambiente esterno](external_workbenches/it.md), che può essere installato da <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md). Questo può essere fatto tramite il menu {{MenuCommand|Strumenti → Addon Manager}}.
+[EM](EM_Workbench/it.md) è un [ambiente esterno](external_workbenches/it.md), che può essere installato da <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md). Questo può essere fatto tramite il menu **Strumenti → Addon Manager**.
 
 I risolutori elettromagnetici FastHenry2 e FasterCap devono essere installati separatamente. I loro codici binari e i sorgenti sono liberamente disponibili in [FastFieldSolvers](https://www.fastfieldsolvers.com).
 
@@ -30,7 +30,7 @@ FasterCap is a powerful three- and two-dimensional capacitance extraction progra
 
 Knowledge of FasterCap is a pre-condition for the proficient usage of the ElectroMagnetic Workbench for FasterCap. We suggest you to read the original [FasterCap help file](https://www.fastfieldsolvers.com/documentation.htm) and play a bit with the sample files that are provided with the installation.
 
-## Strumenti di FastHenry {#strumenti_di_fasthenry}
+## Strumenti di FastHenry 
 
 Questi sono gli strumenti utilizzati per interfacciarsi con FastHenry:
 
@@ -45,7 +45,7 @@ Questi sono gli strumenti utilizzati per interfacciarsi con FastHenry:
 -   <img alt="" src=images/EM_FHSolver.svg  style="width:32px;"> [FHSolver](EM_FHSolver/it.md): Crea un oggetto FastHenry Solver
 -   <img alt="" src=images/EM_FHInputFile.svg  style="width:32px;"> [FHInputFIle](EM_FHInputFile/it.md): Crea un file FastHenry Input
 
-## Strumenti di FasterCap {#strumenti_di_fastercap}
+## Strumenti di FasterCap 
 
 At present, FasterCap is supported via some Macros in the {{FileName|Export_mesh.py}} file available in the [ElectroMagnetic Workbench GitHub source code](https://github.com/ediloren/EM-Workbench-for-FreeCAD).
 
@@ -64,7 +64,7 @@ Per le versioni beta di EM Workbench sono disponibili alcune esercitazioni video
 -   [FreeCAD ElectroMagnetic WorkBench tutorial: using the path object, part 1](https://www.youtube.com/watch?v=CRqDuEtbdds)
 -   [FreeCAD ElectroMagnetic WorkBench tutorial: using the path object, part 2](https://www.youtube.com/watch?v=slsLdLoF2OI)
 
-## External workbenches {#external_workbenches}
+## External workbenches 
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
 

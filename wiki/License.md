@@ -5,7 +5,7 @@
 
  
 
-## Licences used in FreeCAD {#licences_used_in_freecad}
+## Licences used in FreeCAD 
 
 FreeCAD uses two different licenses, one for the application itself, and one for the documentation:
 
@@ -15,23 +15,23 @@ FreeCAD uses two different licenses, one for the application itself, and one for
 
 See FreeCAD\'s [debian copyright file](https://github.com/FreeCAD/FreeCAD/blob/master/package/debian/copyright) for more details about the licenses used by the different open-source components used in FreeCAD
 
-## Impact of the licences {#impact_of_the_licences}
+## Impact of the licences 
 
 Below is a friendlier explanation of what the LGPL license means for you:
 
-#### All users {#all_users}
+#### All users 
 
 Anybody can download, use and redistribute FreeCAD free of charge, without any restriction. Your copy of FreeCAD is truly yours, as are the files you produce with FreeCAD. You will not be forced to update FreeCAD after a certain time, nor change your usage of FreeCAD. Using FreeCAD doesn\'t bind you to any kind of contract or obligation. The FreeCAD source code is public and can be inspected, so it is possible to verify that it doesn\'t do things without your knowledge such as sending your private data somewhere.
 
-#### Professional users {#professional_users}
+#### Professional users 
 
 FreeCAD can be used freely for any kind of purpose, being private, commercial or institutional. Any version of FreeCAD can be deployed and installed anywhere, any number of times. You can also modify and adapt FreeCAD for your own purposes without any restriction. However, you cannot make the FreeCAD developers liable for possible damage or business loss that could occur from using FreeCAD.
 
-#### Open-source software developers {#open_source_software_developers}
+#### Open-source software developers 
 
 You can use FreeCAD as a base to develop your own application, or simply extend it by creating new modules for it. If FreeCAD is embedded into your own application, you can choose either the GPL or the LGPL license, or any other license that is compatible with LGPL, to allow the use of your work in proprietary software or not. If you are developing a module to be used as an extension, and don\'t include any of the FreeCAD code in it, then you can choose any license you want. However, if you wish to see your module used as much as possible, it is a good idea to use the same LGPL license as FreeCAD itself, so parts of your code can be more easily reused in other future modules or even in FreeCAD itself.
 
-#### Closed-source software developers {#closed_source_software_developers}
+#### Closed-source software developers 
 
 You can use FreeCAD as a base for your own application, and are not forced to make your application open source. The LGPL license, however, ask for two basic things: 1) that you clearly inform your users that your application is using FreeCAD and that FreeCAD is LGPL-licensed, and 2) that you clearly separate your own application from the FreeCAD components. That is usually done by either dynamically linking to the FreeCAD components, so users are allowed to change it, or making the FreeCAD source code, along with the modifications you brought to it, available to your users. You will get support from the FreeCAD developers as long as it is not a \'one way street\'.
 
@@ -39,7 +39,7 @@ You can use FreeCAD as a base for your own application, and are not forced to ma
 
 The models and other files produced with FreeCAD are not subject to any license stated above, nor bound to any kind of restriction or ownership. Your files are truly yours. You can set the owner of the file and specify your own license terms for the files you produce inside FreeCAD, via menu File → Project Information.
 
-## Statement of the main developer {#statement_of_the_main_developer}
+## Statement of the main developer 
 
 I know that the discussion on the *\"right\"* licence for open source occupied a significant portion of internet bandwidth and so is here the reason why, in my opinion, FreeCAD should have this one.
 

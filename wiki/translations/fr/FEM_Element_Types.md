@@ -4,7 +4,7 @@
 
 Cette description est basée sur le format MED décrit dans \[<https://hammi.extra.cea.fr/static/MED/web_med/logiciels/med-2.3.1/doc/html/modele_de_donnees.html#3>. modèle de données\].
 
-## Les segments {#les_segments}
+## Les segments 
 
 <img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
 
@@ -14,7 +14,7 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
 
   : **Arêtes de Seg2 et Seg3**
 
-## Les triangles {#les_triangles}
+## Les triangles 
 
 <img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width:600px;">
 
@@ -44,7 +44,7 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
 
   : **Face par Noeud du Tria6**
 
-## Les quadrangles {#les_quadrangles}
+## Les quadrangles 
 
 <img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
 
@@ -75,7 +75,7 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
 
   : **Face par noeuds du Quad8**
 
-## Les tétraèdres {#les_tétraèdres}
+## Les tétraèdres 
 
 <img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width:600px;">
 
@@ -117,7 +117,7 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
 
   : **Faces par noeuds du Tetra10**
 
-## Les hexaèdres {#les_hexaèdres}
+## Les hexaèdres 
 
 <img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width:600px;">
 
@@ -171,7 +171,7 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
 
   : **Faces par noeud d\'Hexa20**
 
-## Les pentaèdres (prismes) {#les_pentaèdres_prismes}
+## Les pentaèdres (prismes) 
 
 <img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width:600px;">
 
@@ -219,7 +219,7 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
 
   : **Faces par noeuds du Penta15**
 
-## Les pyramides {#les_pyramides}
+## Les pyramides 
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
 

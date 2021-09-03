@@ -34,7 +34,7 @@ In FreeCAD i lettori DXF devono interpretare la geometria (ad esempio una forma 
 
 </div>
 
-## Metodi per importare i DXF in FreeCAD {#metodi_per_importare_i_dxf_in_freecad}
+## Metodi per importare i DXF in FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -54,7 +54,7 @@ Maggiori informazioni sono sulle pagine [Draft - File DXF](Draft_DXF/it.md) e [I
 
 Se state utilizzando la geometria importata per creare forme 3D in Part Design, provate a [Convalidare lo schizzo](Sketcher_ValidateSketch/it.md) dopo aver importato il DXF in uno schizzo.
 
-### Importatote DXF C++ {#importatote_dxf_c}
+### Importatote DXF C++ 
 
 
 <div class="mw-translate-fuzzy">
@@ -64,7 +64,7 @@ Questa implementazione è un\'implementazione veloce, ma ignora le funzioni che 
 
 </div>
 
-### Importatore DXF Python {#importatore_dxf_python}
+### Importatore DXF Python 
 
 
 <div class="mw-translate-fuzzy">
@@ -100,7 +100,7 @@ Dare uno sguardo al forum di FreeCAD o alla [Raccolta di macro](Macros_recipes/i
 
 </div>
 
-## Salvare in DXF {#salvare_in_dxf}
+## Salvare in DXF 
 
 
 <div class="mw-translate-fuzzy">

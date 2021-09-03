@@ -21,7 +21,7 @@ Verschiebt die ausgewählten Skizzenelemente von einem Punkt zum anderen, wobei 
 2.  Es gibt mehrere Wege zum Aufruf des Befehls:
     -   Drücke die **<img src=images/Sketcher_Move.svg style="width:16px"> [Verschieben](Sketcher_Move/de.md)** Taste in der Werkzeugleiste.
     -   Verwende die **Ctrl** + **M** Tastaturkürzel
-    -   Verwende die {{MenuCommand|Skizze → Skizzierer Werkzeuge → <img src=images/Sketcher_Move.svg style="width:16px"> Verschieben}} Einträge im Skizzierermenü
+    -   Verwende die **Skizze → Skizzierer Werkzeuge → <img src=images/Sketcher_Move.svg style="width:16px"> Verschieben** Einträge im Skizzierermenü
     -   Klicke auf einen Punkt oder eine Position im leeren Raum, um die Elemente an ihre neue Position zu verschieben. Die bestehenden Beschränkungen verschieben sich ebenfalls.
 3.  Wenn Du ein Element lösen und frei bewegen möchtest, lösche seine Sperrbeschränkungen und ziehe mit der Maus.
 

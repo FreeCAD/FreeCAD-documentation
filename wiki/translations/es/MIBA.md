@@ -14,12 +14,12 @@ Miba es un modo de embeber información sobre el espacio 3D en una imagen 2D. Es
 
 Una especificación detallada puedes encontrarla aquí: <http://miba.juergen-riegel.net/>
 
-## Miba in FreeCAD {#miba_in_freecad}
+## Miba in FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
 
-## Miba en FreeCAD {#miba_en_freecad}
+## Miba en FreeCAD 
 
 Si seleccionas un formato de archivo que tenga esta capacidad que hemos comentado (JPG y PNG) puedes escoger escribir un comentario o insertar la información MIBA en los campos de comentarios (por defecto):
 
@@ -28,7 +28,7 @@ Si seleccionas un formato de archivo que tenga esta capacidad que hemos comentad
 
 <img alt="" src=images/Save_picture.png  style="width:600px;">
 
-## Creación de imágenes Miba pictures por archivos de guión {#creación_de_imágenes_miba_pictures_por_archivos_de_guión}
+## Creación de imágenes Miba pictures por archivos de guión 
 
 
 ```python

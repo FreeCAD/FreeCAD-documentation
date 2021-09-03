@@ -23,15 +23,15 @@ The main window of the application can be roughly divided into 11 sections:
 10. The [Workbench selector](Std_Workbench.md), which itself is a toolbar
 11. The [standard menu](Standard_Menu.md)
 
-## Componentes de la interfaz {#componentes_de_la_interfaz}
+## Componentes de la interfaz 
 
 Like many pieces of software, FreeCAD includes a standard menu bar, and then a series of toolbars and panels where the user tools are found.
 
 ### Menús
 
-The [standard menus](Standard_Menu.md) are: {{StdMenu|[{{MenuCommand|File}}](Std_File_Menu.md)}}, {{StdMenu|[{{MenuCommand|Edit}}](Std_Edit_Menu.md)}}, {{StdMenu|[{{MenuCommand|View}}](Std_View_Menu.md)}}, {{StdMenu|[{{MenuCommand|Tools}}](Std_Tools_Menu.md)}}, {{StdMenu|[{{MenuCommand|Macro}}](Std_Macro_Menu.md)}}, {{StdMenu|[{{MenuCommand|Windows}}](Std_Windows_Menu.md)}}, {{StdMenu|[{{MenuCommand|Help}}](Std_Help_Menu.md)}}.
+The [standard menus](Standard_Menu.md) are: {{StdMenu|[**File**](Std_File_Menu.md)}}, {{StdMenu|[**Edit**](Std_Edit_Menu.md)}}, {{StdMenu|[**View**](Std_View_Menu.md)}}, {{StdMenu|[**Tools**](Std_Tools_Menu.md)}}, {{StdMenu|[**Macro**](Std_Macro_Menu.md)}}, {{StdMenu|[**Windows**](Std_Windows_Menu.md)}}, {{StdMenu|[**Help**](Std_Help_Menu.md)}}.
 
-### Barras de herramientas {#barras_de_herramientas}
+### Barras de herramientas 
 
 The standard toolbars that appear in the interface are:
 
@@ -41,7 +41,7 @@ The standard toolbars that appear in the interface are:
 -   View toolbar: tools to control how objects appear in the [3D view](3D_view.md).
 -   Structure toolbar: tools to organize objects in the document, and create links to additional documents.
 
-These can be turned on and off by right clicking on an empty space on one of the toolbars and choosing the desired element, or from the menu, {{MenuCommand|View → Toolbars}}.
+These can be turned on and off by right clicking on an empty space on one of the toolbars and choosing the desired element, or from the menu, **View → Toolbars**.
 
 ### Panels
 
@@ -58,9 +58,9 @@ The main panels that allow working with objects are:
 -   [Status bar](Status_bar.md): the bar that shows certain messages from the application, and that has the [mouse navigation](Mouse_Model.md) selector.
 -   [DAG view](DAG_view.md): an alternative to the [tree view](tree_view.md), which shows the relationships between different objects through a graph.
 
-With the exception of the 3D view, all can be turned on and off by right clicking on an empty space on one of the top toolbars and choosing the desired element, or from the menu, {{MenuCommand|View → Panels}}.
+With the exception of the 3D view, all can be turned on and off by right clicking on an empty space on one of the top toolbars and choosing the desired element, or from the menu, **View → Panels**.
 
-To activate and deactivate the status bar use the menu, {{MenuCommand|View → Status bar}}.
+To activate and deactivate the status bar use the menu, **View → Status bar**.
 
 ### Otros
 
@@ -73,7 +73,7 @@ Other useful interfaces and windows include:
 
 Toolbars can have more or fewer buttons, and custom toolbars can be created with a mix of different tools, and to store developed macros.
 
-These options are in the menu, {{MenuCommand|Tools → Customize}}. See [interface customization](Interface_Customization.md).
+These options are in the menu, **Tools → Customize**. See [interface customization](Interface_Customization.md).
 
 
 {{Interface navi

@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Этот проект план для интеграции МКЭ(Метод конечных элементов) в FreeCAD , является частью [Плана развития](Development_roadmap/ru.md).
 
-## Меры измерения {#меры_измерения}
+## Меры измерения 
 
   Length   Time   Mass             Force            Pressure           Velocity   Density      Energy    Gravity
   -------- ------ ---------------- ---------------- ------------------ ---------- ------------ --------- ---------
@@ -37,13 +37,13 @@ If you are not involved with the development discussed here:<br>
 
 ## Брейнсторминг
 
-### Потенциальные генераторы сеток {#потенциальные_генераторы_сеток}
+### Потенциальные генераторы сеток 
 
 <img alt="" src=images/Netgen.jpg  style="width:600px;">
 
 Смотрите [Сетки верстака FEM](FEM_Mesh/ru.md)
 
-### Потенциальные решатели {#потенциальные_решатели}
+### Потенциальные решатели 
 
 Смотрите [Решатели верстака FEM](FEM_Solver/ru.md)
 

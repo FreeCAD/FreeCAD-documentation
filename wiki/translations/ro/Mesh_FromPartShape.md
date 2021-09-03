@@ -109,98 +109,98 @@ Pentru fiecare opțiune principală puteți de asemenea să alegeți:
 
 </div>
 
--    {{MenuCommand|Fineness}}: select an options for the finesse of the mesh:
+-    **Fineness**: select an options for the finesse of the mesh:
 
     -   
-        {{MenuCommand|Very coarse}}
+        **Very coarse**
         
 
     -   
-        {{MenuCommand|Coarse}}
+        **Coarse**
         
 
     -   
-        {{MenuCommand|Moderate}}
+        **Moderate**
         
 
     -   
-        {{MenuCommand|Fine}}
+        **Fine**
         
 
     -   
-        {{MenuCommand|Very fine}}
+        **Very fine**
         
 
     -   
-        {{MenuCommand|User defined}}
+        **User defined**
         
         : for this option the following settings can be specified:
 
         -   
-            {{MenuCommand|Mesh size grading}}
+            **Mesh size grading**
             
             : a smaller value results in a finer mesh. The value must be in the {{Value|0.1}} - {{Value|1.0}} range.
 
         -   
-            {{MenuCommand|Element per edge}}
+            **Element per edge**
             
             : a larger value results in a finer mesh. The value must be in the {{Value|0.2}} - {{Value|10.0}} range.
 
         -   
-            {{MenuCommand|Element per curvature radius}}
+            **Element per curvature radius**
             
             : a larger value results in a finer mesh. The value must be in the {{Value|0.2}} - {{Value|10}} range.
 
--    {{MenuCommand|Optimize surface}}: if checked, the surface shape will be optimized.
+-    **Optimize surface**: if checked, the surface shape will be optimized.
 
--    {{MenuCommand|Second order elements}}: if checked, second order elements will be generated resulting in a finer mesh.
+-    **Second order elements**: if checked, second order elements will be generated resulting in a finer mesh.
 
--    {{MenuCommand|Quad dominated}}: if checked, the mesh will preferably use [quadrilateral faces](https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional).
+-    **Quad dominated**: if checked, the mesh will preferably use [quadrilateral faces](https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional).
 
-### Gmsh mesher {#gmsh_mesher}
+### Gmsh mesher 
 
 
 <small>(v0.19)</small> 
 
 For Linux users: the external [Gmsh](https://gmsh.info/) module is required.
 
--    {{MenuCommand|Meshing}}: select a meshing option:
+-    **Meshing**: select a meshing option:
 
     -   
-        {{MenuCommand|Automatic}}
+        **Automatic**
         
 
     -   
-        {{MenuCommand|Adaptive}}
+        **Adaptive**
         
 
     -   
-        {{MenuCommand|Delaunay}}
+        **Delaunay**
         
 
     -   
-        {{MenuCommand|Frontal}}
+        **Frontal**
         
 
     -   
-        {{MenuCommand|BAMG}}
+        **BAMG**
         
 
     -   
-        {{MenuCommand|Frontal Quad}}
+        **Frontal Quad**
         
 
     -   
-        {{MenuCommand|Parallelograms}}
+        **Parallelograms**
         
 
--    {{MenuCommand|Max. element size}}: a smaller value results in a finer mesh. Specify {{Value|0}} to have this size automatically determined.
+-    **Max. element size**: a smaller value results in a finer mesh. Specify {{Value|0}} to have this size automatically determined.
 
--    {{MenuCommand|Min. element size}}: a smaller value results in a finer mesh. The value should be smaller than the {{MenuCommand|Max. element size}}. Specify {{Value|0}} to have this size automatically determined.
+-    **Min. element size**: a smaller value results in a finer mesh. The value should be smaller than the **Max. element size**. Specify {{Value|0}} to have this size automatically determined.
 
--    {{MenuCommand|Angle}}: seems to be unsupported at this time.
+-    **Angle**: seems to be unsupported at this time.
 
--    {{MenuCommand|Path}}: press the **...** button and browse to the {{FileName|gmsh.exe}} path.
+-    **Path**: press the **...** button and browse to the {{FileName|gmsh.exe}} path.
 
 -   If the meshing process takes too long you can press the **Kill** button to abort it.
 
@@ -214,15 +214,15 @@ For Linux users: the external [Gmsh](https://gmsh.info/) module is required.
 
 ## Preferences
 
-### Standard mesher {#standard_mesher}
+### Standard mesher 
 
--   The {{MenuCommand|Surface deviation}} setting is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → LinearDeflection}}.
--   The {{MenuCommand|Angular deviation}} setting is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection}}.
--   The {{MenuCommand|Relative surface deviation}} setting is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection}}.
+-   The **Surface deviation** setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → LinearDeflection**.
+-   The **Angular deviation** setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection**.
+-   The **Relative surface deviation** setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection**.
 
-### Gmsh mesher {#gmsh_mesher_1}
+### Gmsh mesher 
 
--   The {{MenuCommand|Path}} is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → gmshExe}}.
+-   The **Path** is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → gmshExe**.
 
 ## Properties
 

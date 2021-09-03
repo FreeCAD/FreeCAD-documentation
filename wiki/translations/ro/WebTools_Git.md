@@ -26,7 +26,7 @@ Git este un instrument complex, înainte de a folosi acest instrument să ia în
 
 </div>
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 <div class="mw-translate-fuzzy">
@@ -77,7 +77,7 @@ Git este un instrument complex, înainte de a folosi acest instrument să ia în
 
 <div class="mw-translate-fuzzy">
 
-## Abilitarea citirii umane a fișierelor diff for FCStd {#abilitarea_citirii_umane_a_fișierelor_diff_for_fcstd}
+## Abilitarea citirii umane a fișierelor diff for FCStd 
 
 
 </div>

@@ -22,7 +22,7 @@ Der Befehl Rohr fügt ein Rohr in das aktive Dokument ein. Das Rohr wird geometr
 Um ein Rohr zu erstellen, entweder:
 
 -   drücke die **<img src="images/Part_Tube.svg" width=16px> '''Rohr'''** Taste in der Werkzeugleiste
--   verwende das Menü {{MenuCommand|Part → Grundkörper → Rohr erstellen}}
+-   verwende das Menü **Part → Grundkörper → Rohr erstellen**
 
 Um das Rohr zu bearbeiten
 

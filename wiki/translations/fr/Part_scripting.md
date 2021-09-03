@@ -11,12 +11,12 @@ L\'objet le plus simple pouvant être créé est une [Part Feature](Part_Feature
 
 Un autre objet simple utilisé dans les objets géométriques 2D est [Part2DObject](Part_Part2DObject/fr.md) qui constitue la base des [Sketcher SketchObject](Sketcher_SketchObject/fr.md) ([atelier Sketcher](Sketcher_Workbench/fr.md)) et la plupart des [éléments Draft](Draft_Workbench/fr.md).
 
-### Voir aussi {#voir_aussi}
+### Voir aussi 
 
 -   [Scripts pour création topologique](Topological_data_scripting/fr.md)
 -   [OpenCASCADE](OpenCASCADE/fr.md)
 
-## Script de test {#script_de_test}
+## Script de test 
 
 Testez la création de [Part Primitives](Part_Primitives/fr.md) avec un script. {{Version/fr|0.19}}
 

@@ -21,7 +21,7 @@ Când se afișează în modul 2D, textul [Draft dimensions](Draft_Dimension.md) 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se utilizează {#cum_se_utilizează}
+## Cum se utilizează 
 
 1.  Selectați unul sau mai multe obiecte [ dimension](Draft_Dimension.md)
 2.  Apăsați butonul **<img src="images/Draft_FlipDimension.png" width=16px> [Flip Dimension](Draft_FlipDimension.md)

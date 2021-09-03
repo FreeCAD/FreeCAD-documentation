@@ -19,7 +19,7 @@ Une primitive géométrique Cercle est disponible dans la boîte de dialogue Cr�
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md)
 2.  Il existe plusieurs façons d\'accéder à la boîte de dialogue Créer des primitives:
     -   Appuyez sur le bouton <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Création de primitives géométriques](Part_Primitives.md) situé dans la barre d\'outils Part
-    -   Utilisez la {{MenuCommand|Pièce → [Créer des primitives](Part_Primitives/fr.md) → Cercle}}
+    -   Utilisez la **Pièce → [Créer des primitives](Part_Primitives/fr.md) → Cercle**
 
 ## Propriétés
 

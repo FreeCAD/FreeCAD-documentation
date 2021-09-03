@@ -18,7 +18,7 @@ This tool is optimized for objects with flat faces (no curves). The correspondin
 ## Usage
 
 1.  Select a mesh object.
-2.  Press the **<img src="images/Arch_MeshToShape.svg" width=16px> [Mesh to Shape](Arch_MeshToShape.md)** entry in {{MenuCommand|Arch → Utilities → Mesh to Shape}}.
+2.  Press the **<img src="images/Arch_MeshToShape.svg" width=16px> [Mesh to Shape](Arch_MeshToShape.md)** entry in **Arch → Utilities → Mesh to Shape**.
 
 ## Properties
 

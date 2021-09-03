@@ -7,7 +7,7 @@ Eigenschaften sind die wahren Bausteine von PythonFunktions Objekten. Durch sie 
 obj.supportedProperties()
 ``` Du erhältst eine Liste der verfügbaren Eigenschaften.
 
-##  Erstellen eines FeaturePython Objekts und Hinzufügen einer Eigenschaft zu diesem {#erstellen_eines_featurepython_objekts_und_hinzufügen_einer_eigenschaft_zu_diesem}
+##  Erstellen eines FeaturePython Objekts und Hinzufügen einer Eigenschaft zu diesem 
 
 Dieser Code erstellt ein Objekt mit dem internen Namen `InternalObjectName` (automatisch umbenannt in `InternalObjectName001` und so weiter, wenn ein Objekt mit dem Namen `InternalObjectName` bereits existiert) und gibt ihm die benutzerfreundliche Bezeichnung `Benutzerfreundliche Bezeichnung` (diese Bezeichnung wird in der [Baumansicht](Tree_view/de.md) und der [Comboansicht](Combo_view/de.md) angezeigt. [Ausdrücke](Expressions/de.md) können mit `<<Benutzerfreundliches Etikett>>` auf dieses Objekt durch sein Etikett verweisen.
 

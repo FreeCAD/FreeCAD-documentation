@@ -17,7 +17,7 @@ Este Tutorial de Modelado Básico te mostrará cómo modelar un ángulo de hierr
 
 </div>
 
-## Antes de empezar {#antes_de_empezar}
+## Antes de empezar 
 
 Recuerda que FreeCAD aún está en un estado inicial de desarrollo, así que posiblemente no seas tan productivo como con otras aplicaciones de CAD, y encontrarás algunos errores, o experimentes algunos cuelgues de la aplicación. FreeCAD ahora dispone de la opción de realizar copias de respaldo. El numero de archivos de respaldo se puede especificar en el letrero de diálogo de Preferencias. No dudes en permitir 2 o 3 archivos de respaldo hasta que conozcas bien como trabajar con FreeCAD.
 
@@ -26,7 +26,7 @@ Guarda tu trabajo frecuentemente, de vez en cuando guarda tu trabajo con un nomb
 
 <div class="mw-translate-fuzzy">
 
-## Introducción a las técnicas de modelado {#introducción_a_las_técnicas_de_modelado}
+## Introducción a las técnicas de modelado 
 
 La primera (y básica) técnica de modelado sólido es la [Geometría constructiva de sólidos (CSG)](http://es.wikipedia.org/wiki/Geometr%C3%ADa_constructiva_de_s%C3%B3lidos). Trabajas principalmente con formas primitivas como cubos, cilindros, esferas y conos para construir tu geometría combinándolos, eliminando una forma de otra, o intersecándolas. Estas herramientas son parte del [Entorno de Pieza](Part_Workbench/es.md). También puedes aplicar transformaciones a las formas, como aplicar redondeos o chaflanes en las aristas. Estas herramientas pertenecen también al tools are also in the [Entorno de Pieza](Part_Workbench/es.md).
 
@@ -40,7 +40,7 @@ Así que vamos a comenzar tratando de hacer un pie de hierro para una mesa con e
 
 <div class="mw-translate-fuzzy">
 
-## Primer Método - Por Geometría constructiva de sólidos {#primer_método___por_geometría_constructiva_de_sólidos}
+## Primer Método - Por Geometría constructiva de sólidos 
 
 -   Empieza con el [Entorno de Pieza](Part_Workbench/es.md) (Menú **Vista \> Entorno \> Pieza**)
 -   Clic en el botón <img alt="" src=images/Part_Box.png  style="width:32px;"> [Cubo](Part_Box.md) para crear un Cubo
@@ -93,7 +93,7 @@ Por cierto, podemos añadir redondeos al ángulo para que parezca más real, uti
 
 <div class="mw-translate-fuzzy">
 
-## Segundo método - Extruyendo un croquis {#segundo_método___extruyendo_un_croquis}
+## Segundo método - Extruyendo un croquis 
 
 Este método requiere que comiences dibujando un perfil 2D. Necesitas activar el [Módulo de croquizado 2D](Draft_Module/es.md) (Menú **Vista \> Entorno \> Croquizado 2d**).
 

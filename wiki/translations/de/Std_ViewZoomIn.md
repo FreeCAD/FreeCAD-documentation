@@ -14,7 +14,7 @@ Der **Std Vergrößern**-Befehl vergrößert die Objekte in der aktiven [3D-Ansi
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Wähle die Option {{MenuCommand|Ansicht → Zoom‏‎ → <img src="images/Std_ViewZoomIn.svg" width=16px> Vergrößern}} aus dem Menü
+    -   Wähle die Option **Ansicht → Zoom‏‎ → <img src="images/Std_ViewZoomIn.svg" width=16px> Vergrößern** aus dem Menü
     -   Benutze den Tastaturkurzbefehl **Strg** + **+**.
 
 ## Hinweise
@@ -23,7 +23,7 @@ Der **Std Vergrößern**-Befehl vergrößert die Objekte in der aktiven [3D-Ansi
 
 ## Einstellungen
 
--   Der Zoomfaktor kann in den Einstellungen geändert werden: {{MenuCommand|Bearbeiten → Einstellungen... → Anzeigen → Navigation → Zoom-Schritt}}. Diese Einstellung beeinflusst auch den Mausrad-Zoom. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+-   Der Zoomfaktor kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeigen → Navigation → Zoom-Schritt**. Diese Einstellung beeinflusst auch den Mausrad-Zoom. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 
 ## Skripten
 

@@ -10,13 +10,13 @@
 
 For a finite elements analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses the program [Gmsh](https://en.wikipedia.org/wiki/Gmsh) (which needs to be installed on the system) for calculating the mesh.
 
-Gmsh is bundled with the FreeCAD installation binaries. Alternatively you can install it separately from FreeCAD and then use the menu {{MenuCommand|Edit → Preferences → FEM → Gmsh}} to set the path to the *gmsh.exe*.
+Gmsh is bundled with the FreeCAD installation binaries. Alternatively you can install it separately from FreeCAD and then use the menu **Edit → Preferences → FEM → Gmsh** to set the path to the *gmsh.exe*.
 
 ## Usage
 
 1.  Select the shape you want to analyze. For volume FEM this needs to be a solid or compsolid. A compsolid is necessary if your part is made from multiple materials. (A compsolid can be created with the [BooleanFragments](Part_BooleanFragments.md) command.)
     -   Press the **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md)** button.
-    -   Select the {{MenuCommand|Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM mesh from shape by Gmsh}} option from the menu.
+    -   Select the **Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM mesh from shape by Gmsh** option from the menu.
 2.  Optionally edit the minimal and maximal element size. (Autodetection works fine unless you apply complicated boundary conditions.)
 3.  Click the **Apply** button and wait for the computation of the mesh to complete
 4.  Close the task. You now should see a new FEMMeshGMSH object in your active analysis container.
@@ -78,7 +78,7 @@ After the mesh has been crated you can change its properties using the [property
 
 ## Notes
 
-### Nonpositive Jacobians {#nonpositive_jacobians}
+### Nonpositive Jacobians 
 
 When you get a meshing erro about nonpositive Jacobians, you can try out the following strategies:
 
@@ -87,7 +87,7 @@ When you get a meshing erro about nonpositive Jacobians, you can try out the fol
 -   Use a smaller element size by reducing the **Characteristic Length Max**.
 -   If solver ccxtools is used and the run button is used (not the task panel) the nodes of non positive jacobian elements will be green.
 
-### Mesh Growth {#mesh_growth}
+### Mesh Growth 
 
 At edges and small geometric entities the mesh has to be smaller than in areas without edges. So the mesh element size grows away from edges. The growing strategy of Gmsh is to grow between edges with different sizes. So the growing fails when an area has the same sized edges like for example this tube:
 
@@ -99,7 +99,7 @@ To enable a sensible mesh growing, you must in this case add an edge to the area
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width:400px;"> 
 *Sensible mesh growing due to the additional edge in the middle of the cylindrical aread*
 
-### Element Recombination {#element_recombination}
+### Element Recombination 
 
 Elements can be recombined in two ways, on the surface of objects so that triangles will be recombined into quadrangles if possible and in the volume of objects so that tetrahedra will be recombined into prisms, hexahedra or pyramids if possible. Thinking about the geometry, it becomes clear that the recombination result depends strongly on the geometry of the body and that recombining a 3D body only at the surface will mostly lead to strange results.
 

@@ -11,7 +11,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## Потребителски центрове {#потребителски_центрове}
+## Потребителски центрове 
 
 
 </div>
@@ -22,9 +22,12 @@
 <img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Users hub](User_hub/bg.md): Тази страница съдържа документация полезна за всички FreeCAD   потребители: списък на всички работни плотове, детайлни инструкции за това как да инсталирате и използвате FreeCAD програмата, уроци и всичко от което се нуждаете за да започнете.
 
 
-{{Clear}}
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub/bg.md): Тази страница съдържа информация за напреднали потребители и хора интересуващи се от писане на скриптове на python. Тук ще намерите и хранилище за макроси, инструкции как да ги инстралирате и ползвате, както и повече информация за персонализирането на FreeCAD за вашите специфични нужди. {{Clear}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Developers hub](Developer_hub/bg.md): Тази страница съдържа информация за разработчици: Как да компилирате FreeCAD самостоятелно, как програмния код на FreeCAD е структуриран и как да го навигирате, и как да разработите нови работни плотове, или да вградите FreeCAD в своите приложения. {{Clear}}
+
+
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub/bg.md): Тази страница съдържа информация за напреднали потребители и хора интересуващи се от писане на скриптове на python. Тук ще намерите и хранилище за макроси, инструкции как да ги инстралирате и ползвате, както и повече информация за персонализирането на FreeCAD за вашите специфични нужди. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Developers hub](Developer_hub/bg.md): Тази страница съдържа информация за разработчици: Как да компилирате FreeCAD самостоятелно, как програмния код на FreeCAD е структуриран и как да го навигирате, и как да разработите нови работни плотове, или да вградите FreeCAD в своите приложения. 
+
 
 
 </div>
@@ -34,7 +37,8 @@
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Ръководството на FreeCAD (на английски език)](Manual:Introduction.md) е друг, линеен начин да се представи информацията съдържана в тази документация. Направено е да бъде четено като книга и ще ви запознае постепенно със много други страници от горните центрове. [Електронна книга (pdf, също на английски език)](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) също е на разположение. {{Clear}}
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Ръководството на FreeCAD (на английски език)](Manual:Introduction.md) е друг, линеен начин да се представи информацията съдържана в тази документация. Направено е да бъде четено като книга и ще ви запознае постепенно със много други страници от горните центрове. [Електронна книга (pdf, също на английски език)](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) също е на разположение. 
+
 
 
 </div>
@@ -54,9 +58,9 @@
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
 +----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
-## Включете се {#включете_се}
+## Включете се 
 
-### Как да помогнем {#как_да_помогнем}
+### Как да помогнем 
 
 
 <div class="mw-translate-fuzzy">
@@ -68,7 +72,7 @@
 
 The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
-### Програмен код {#програмен_код}
+### Програмен код 
 
 
 <div class="mw-translate-fuzzy">
@@ -78,7 +82,7 @@ FreeCAD може да бъде компилиран на всички платф
 
 </div>
 
-### За разработката {#за_разработката}
+### За разработката 
 
 
 <div class="mw-translate-fuzzy">

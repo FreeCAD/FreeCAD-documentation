@@ -26,7 +26,7 @@ To change the LineGroups definition file
 1.  Go to the preferences tab *[General](TechDraw_Preferences#General.md)*.
 2.  Select in the field **Line Group File** a LineGroup definition file.
 
-### Personalizzare i gruppi di linee {#personalizzare_i_gruppi_di_linee}
+### Personalizzare i gruppi di linee 
 
 Se si hanno i permessi di scrittura si può modificare `LineGroup.csv` per aggiungere altri Gruppi di linee (LineGroup).
 
@@ -46,7 +46,7 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 È possibile specificare i valori predefiniti preferiti nelle [Preferenze di TechDraw](TechDraw_Preferences/it.md).
 
-## Prcorso del file LineGroup {#prcorso_del_file_linegroup}
+## Prcorso del file LineGroup 
 
 -   **Windows**: `C:\Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
 -   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`

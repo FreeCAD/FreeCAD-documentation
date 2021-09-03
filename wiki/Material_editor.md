@@ -20,10 +20,10 @@ The material editor can currently be accessed by either:
 
 1.  <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md)
     -   The <img alt="" src=images/Arch_SetMaterial.svg  style="width:16px;"> [Set Material](Arch_SetMaterial.md) button of the [New material](Arch_SetMaterial.md) creation panel of the [Arch Workbench](Arch_Workbench.md)
-    -   The menu {{MenuCommand|Arch → Set material...}} entry
+    -   The menu **Arch → Set material...** entry
 2.  <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md)
     -   The <img alt="" src=images/Arch_Material_Group.svg  style="width:16px;"> [Material editor](Material_editor.md) icon
-    -   The menu {{MenuCommand|Models → Material → Material editor}} entry
+    -   The menu **Models → Material → Material editor** entry
 3.  Via python (see [Scripting](#Scripting.md) section below)
 
 ## Options

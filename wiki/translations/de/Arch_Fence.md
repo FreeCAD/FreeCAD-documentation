@@ -15,7 +15,7 @@ Der [Arch Zaun](Arch_Fence/de.md) ist ein Objekt, das einen Zaun durch die Wiede
 
 ## Anwendung
 
-### Erzeugung von Grundauf {#erzeugung_von_grundauf}
+### Erzeugung von Grundauf 
 
 1.  Verwende einen Arbeitsbereich deiner Wahl, um einen einzelnen Zaunpfosten und einen einzelnen Abschnitt zu erstellen.
 2.  Erstelle den Pfad, dem der Zaun folgen soll, mit Hilfe des [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) oder [Entwurf Arbeitsbereich](Draft_Workbench/de.md).

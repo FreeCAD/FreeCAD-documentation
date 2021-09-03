@@ -23,7 +23,7 @@ The **Std Open** command opens a file. If the file is not a native FreeCAD file 
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_Open.svg" width=16px> [Std Open](Std_Open.md)** button.
-    -   Select the {{MenuCommand|File → <img src="images/Std_Open.svg" width=16px> Open...}} option from the menu.
+    -   Select the **File → <img src="images/Std_Open.svg" width=16px> Open...** option from the menu.
     -   Use the keyboard shortcut: **Ctrl**+**O**.
 2.  Optionally select the correct file format in the dialog box.
 3.  Select a file.
@@ -35,7 +35,7 @@ The **Std Open** command opens a file. If the file is not a native FreeCAD file 
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 

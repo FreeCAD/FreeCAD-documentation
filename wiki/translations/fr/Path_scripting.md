@@ -12,7 +12,7 @@ L\'atelier Path propose des outils pour importer, créer, manipuler et exporter 
 
 L\'atelier Path en est actuellement à ses débuts et n\'offre pas toutes les fonctions avancées de certaines alternatives commerciales. Cependant, l\'interface de script python facilite la modification ou le développement d\'outils plus puissants.
 
-## Démarrage rapide {#démarrage_rapide}
+## Démarrage rapide 
 
 Les objets Path de FreeCAD sont des commandes de séquences de déplacement. Voici une utilisation typique :
 
@@ -28,7 +28,7 @@ Les objets Path de FreeCAD sont des commandes de séquences de déplacement. Voi
 >>> print p.toGCode()
 ```
 
-## Le Format G-Code interne de FreeCAD {#le_format_g_code_interne_de_freecad}
+## Le Format G-Code interne de FreeCAD 
 
 Un concept préliminaire est important à appréhender. La plus grande partie de l\'implémentation ci-dessous est fortement liée aux commandes de déplacement qui ont les même noms que ceux de G-Code mais sans être proche d\'une implémentation spécifique à un contrôleur. Nous avons choisi des noms tels que « G0 » pour indiquer un mouvement « rapide » ou « G1 » pour un déplacement « d\'alimentation » pour la performance (sauvegarde de fichier efficace) et pour minimiser le travail de traduction de et vers les autres formats G-Code. Puisque le monde de la CNC utilise des milliers de dialectes G-Code, nous avons choisi de rester avec une partie simplifiée de ce code. On pourrait décrire le format G-Code de FreeCAD comme une forme indépendante des machines.
 
@@ -36,7 +36,7 @@ Les données Path sont sauvegardées directement sous cette forme de G-Code dans
 
 Toutes les traductions de et vers des dialectes G-Code FreeCAD sont réalisées par des scripts pre et post. Cela signifie que si vous voulez travailler avec une machine qui utilise un contrôleur spécifique tel que LinuxCNC, Fanuc, Mitusubishi, ou HAAS, etc., vous devrez utiliser (ou écrire s\'il n\'existe pas) un post-processeur pour ce contrôleur spécifique (allez voir la section « Importer et exporter du G-Code » ci-dessous).
 
-### Référence GCode {#référence_gcode}
+### Référence GCode 
 
 Les règles et les lignes directrices suivantes définissent le jeu de G-Code employé en interne dans FreeCAD:
 
@@ -61,7 +61,7 @@ Les règles et les lignes directrices suivantes définissent le jeu de G-Code em
 -   X, Y, ou Z (et A, B, C) peuvent être oubliés. Dans ce cas, les coordonnées X, Y ou Z précédentes sont gardées.
 -   Les commandes G-code autres que celles listées dans la table ci-dessous sont supportées, ceci étant, elles sont sauvegardées dans le path data (tant qu\'elles satisfont aux règles ci-dessus, bien sûr), mais elle ne produiront tout simplement pas de résultat visible à l\'écran. Par exemple, vous pouvez ajouter la commande G81, elle sera enregistrée mais pas affichée.
 
-### Liste des commandes G-Code actuellement acceptées {#liste_des_commandes_g_code_actuellement_acceptées}
+### Liste des commandes G-Code actuellement acceptées 
 
   Commande        Description                                                                  Arguments acceptés   Affiché
   --------------- ---------------------------------------------------------------------------- -------------------- ------------
@@ -75,7 +75,7 @@ Les règles et les lignes directrices suivantes définissent le jeu de G-Code em
   G91             coordonnées relatives                                                                             
   (Message)       commentaire                                                                                       
 
-## L\'objet Command {#lobjet_command}
+## L\'objet Command 
 
 L\'objet Command représente une commande gcode. Il a trois attributs: Nom, Paramètres et Placement, ainsi que deux méthodes: toGCode() et setFromGCode(). En interne, il ne contient qu\'un nom et un dictionnaire de paramètres. La suite (placement et gcode) est interprétée depuis/vers ces données.
 
@@ -138,7 +138,7 @@ Command G1 [ X:10 ]
 Command G1 [ X:10 Y:2 ]
 ```
 
-## L\'objet Path {#lobjet_path}
+## L\'objet Path 
 
 L\'objet Path contient une liste de commandes.
 
@@ -194,7 +194,7 @@ En simplifiant, un objet Path peut aussi être créé directement depuis une sé
 Path [ size:2 length:2 ]
 ```
 
-## Caractéristique de Path {#caractéristique_de_path}
+## Caractéristique de Path 
 
 Path est un objet document de FreeCAD, qui contient un chemin et le présente en une vue 3D.
 
@@ -215,7 +215,7 @@ Néanmoins, Path Compounds peut utiliser le Placement de ses enfants (voir ci-de
 
 <div class="mw-translate-fuzzy">
 
-## Objets Tool et Tooltable {#objets_tool_et_tooltable}
+## Objets Tool et Tooltable 
 
 **REMARQUE :** Ce type d\'utilisation des outils est déprécié à partir de la version officielle 0.19. Dans la version 0.19, le nouveau système d\'outils ToolBit a été mis en place pour remplacer cet ancien système. Par conséquent, le codage a changé par rapport à ce qui est représenté ci-dessous. Veuillez consulter la page [Path Outils](Path_Tools/fr.md) pour plus d\'informations.
 
@@ -265,7 +265,7 @@ Tooltable containing 2 tools
 
 ## Caractéristiques
 
-### Path Compound {#path_compound}
+### Path Compound 
 
 L\'objectif de cette fonction est d\'assembler un ou plusieurs chemins d\'outils et l\'(les) associer à une table d\'outils. La fonction Compound se comporte aussi comme un groupe standard FreeCAD dont vous pouvez y ajouter ou y enlever les objets directement depuis la vue arborescente. Vous pouvez aussi réordonner les items en double-cliquant sur l\'objet Compound de la vue arborescente et réordonner ses élements dans la vue de Taches qui s\'ouvre.
 
@@ -286,7 +286,7 @@ Une caractéristique importante de Path Compounds est la possibilité de prendre
 
 En créant un composant avec un seul sous-chemin, vous pouvez donc de rendre le Placement du sous-chemin « réel » (il affecte les données Path).
 
-### Path Project {#path_project}
+### Path Project 
 
 Le projet Path est une sorte d\'extension de Compound, qui possède quelques propriétés liées à la machine telle que tooltable. Il a principalement été créé pour être le type d\'objet à exporter en gcode une fois que la totalité de l\'initialisation du chemin est prête. L\'objet Project est maintenant codé en python, d\'où un mécanisme de création un peu différent:
 
@@ -308,7 +308,7 @@ Le module Path propose aussi un éditeur graphique de table d\'outils qui peut �
 >>> TooltableEditor.edit(o4)
 ```
 
-### Path Shape {#path_shape}
+### Path Shape 
 
 Attribuez la forme wire Part à un objet Path normal à l\'aide de le script Path.fronShape() (ou mieux encore avec Path.fronShapes()). En donnant comme paramètre un objet wire Part, son chemin sera automatiquement calculé à partir de la forme. Notez que dans ce cas, le placement est positionné automatiquement sur le premier point du fil et l\'objet n\'est donc plus déplaçable en changeant sa position. Pour le déplacer, la forme sous-jacente doit être bougée.
 
@@ -332,9 +332,9 @@ Attribuez la forme wire Part à un objet Path normal à l\'aide de le script Pat
 
 Les fonctions Path::Feature et Path::FeatureShape ont une version en python, appelées respectivement Path::FeaturePython et Path::FeatureShapePython, qui peuvent être utilisées pour créer des objets paramétriques dérivés plus avancés.
 
-## Importer et exporter du GCode {#importer_et_exporter_du_gcode}
+## Importer et exporter du GCode 
 
-### Format Natif {#format_natif}
+### Format Natif 
 
 Les fichiers G-Code peuvent être directement importés et exportés par l\'interface graphique, en utilisant les éléments du menu « open », « insert » ou « export ». Après la saisie du nom de fichier, une fenêtre de dialogue apparaît pour demander quel script de traitement doit être utilisé. Cela peut être fait depuis python:
 
@@ -365,7 +365,7 @@ myfile.close()
 
 Si vous avez besoin d\'une sortie adaptée, vous aurez alors besoin de convertir ce G-Code « indépendant » dans un format adapté à votre machine. C\'est le travail des scripts de post-traitement.
 
-### Utiliser les scripts de pre- et post-traitement {#utiliser_les_scripts_de_pre__et_post_traitement}
+### Utiliser les scripts de pre- et post-traitement 
 
 Si vous avez un fichier G-Code écrit pour une machine spécifique, qui ne respecte pas les règles internes utilisées de FreeCAD, décrites dans la section « format G-Code interne de FreeCAD » ci-dessus, il pourrait échouer à l\'import et/ou ne pas être correctement affiché en 3D. Pour y remédier, vous pouvez utiliser un scrit de pré-traitement qui convertira le format spécifique de votre machine vers celui de FreeCAD.
 
@@ -385,7 +385,7 @@ import example_post
 example_post.export (myObjectName,"/path/to/outputFile.ncc")
 ```
 
-### Écrire des scripts de traitement {#écrire_des_scripts_de_traitement}
+### Écrire des scripts de traitement 
 
 Les scripts de pré- et post-traitement se comportent comme d\'autres importateurs/exportateurs habituels de FreeCAD. Lors du choix d\'un script de pré/post traitement depuis l\'invite, le processus d\'import/export sera redirigé vers le script spécifique donné. Les scripts de pré-traitement doivent contenir au moins des méthodes open(filename) et insert(filename,docname). Les scripts de post-traitement doivent implémenter export(objectslist,filename).
 
@@ -419,7 +419,7 @@ def open(filename):
 
 Les pré- et post-traitements travaillent exactement de la même manière. Ils font simplement le contraire: les scripts pré convertissent un G-Code spécifique vers le G-Code de FreeCAD, alors que les scripts post convertissent le G-Code de FreeCAD vers un G-Code spécifique à une machine.
 
-## Ajout de toutes les faces d\'une ShapeString à la liste de BaseFeature d\'une opération ProfileFromFaces {#ajout_de_toutes_les_faces_dune_shapestring_à_la_liste_de_basefeature_dune_opération_profilefromfaces}
+## Ajout de toutes les faces d\'une ShapeString à la liste de BaseFeature d\'une opération ProfileFromFaces 
 
 Cet exemple est basé sur une [discussion sur le forum germanophone](https://forum.freecadweb.org/viewtopic.php?f=13&t=33310&p=279991#p279959).
 
@@ -435,7 +435,7 @@ Cet exemple est basé sur une [discussion sur le forum germanophone](https://for
 -   Créer un travail en utilisant ce solide comme son BaseObject
 -   Créez une opération ProfileFromFaces nommée \"Profile\_Faces\" avec une BaseGeometry vide.
 
-### Le code {#le_code}
+### Le code 
 
 Le code suivant va ensuite ajouter toutes les faces de ShapeString et créer les chemins:
 

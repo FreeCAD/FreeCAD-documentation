@@ -8,7 +8,7 @@ The solver is able to do linear and non-linear calculations, for static, dynamic
 
 CalculiX is designed to run on Unix platforms like Linux and Irix computers but also on MS-Windows. CalculiX was developed by engineers from MTU Aero Engines, Munich, Germany, to assist them in designing machinery such as jet turbines. The software is currently released to the public on the terms of the GPL version 2.
 
-## Integration with FreeCAD {#integration_with_freecad}
+## Integration with FreeCAD 
 
 Interaction between the [FEM Workbench](FEM_Workbench.md) and CalculiX is done through writing and reading text files. The sequence of operations is as follows:
 
@@ -19,7 +19,7 @@ Interaction between the [FEM Workbench](FEM_Workbench.md) and CalculiX is done t
 
 The [FEM Control Solver](FEM_SolverControl.md) tool manages the whole process. User interaction in the process is possible.
 
-## Preprocessing interface {#preprocessing_interface}
+## Preprocessing interface 
 
 The input file that CalculiX uses can be prepared and edited before the solver is started. The units used in the input file are independent of the units set in FreeCAD; they will always be millimeters (mm) and Newton (N).
 
@@ -28,7 +28,7 @@ The input file that CalculiX uses can be prepared and edited before the solver i
 
 The CalculiX interface supports the following objects:
 
-### FEM Elements {#fem_elements}
+### FEM Elements 
 
 -   Tet4 and Tet10
 -   S3 and S6
@@ -46,7 +46,7 @@ The CalculiX interface supports the following objects:
 -   One linear elastic isotropic material (uniformity in all directions)
 -   Multiple material use is in development
 
-## Postprocessing interface {#postprocessing_interface}
+## Postprocessing interface 
 
 The FEM Workbench loads CalculiX results to the result object which will contain:
 

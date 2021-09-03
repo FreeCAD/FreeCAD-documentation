@@ -24,7 +24,7 @@ Copies the selected sketch elements from one point to another, using the last se
 </div>
 
 1.  Select sketcher element for copy operation.
-2.  Click on the **<img src=images/Sketcher_Copy.svg style="width:16px"> <img src=images/Sketcher_Copy.svg style="width:Sketcher Copy](Sketcher_Copy.md)** button in the toolbar or choose {{MenuCommand|Sketch → Sketcher tools → [16px"> Copy}} from the Sketch menu.
+2.  Click on the **<img src=images/Sketcher_Copy.svg style="width:16px"> <img src=images/Sketcher_Copy.svg style="width:Sketcher Copy](Sketcher_Copy.md)** button in the toolbar or choose **Sketch → Sketcher tools → [16px"> Copy** from the Sketch menu.
 3.  Place copy in the [3D view](3D_view.md).
 
 No extra constraints are added.

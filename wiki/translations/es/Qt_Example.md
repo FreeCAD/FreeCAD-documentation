@@ -72,7 +72,7 @@ puedes crear un archivo convertuitopy.bat para automatizar el proceso \'\' 1:\'\
 
 *4:* monprojet.py su archivo es creado
 
-### Los iconos usados {#los_iconos_usados}
+### Los iconos usados 
 
 ![](images/MEpipe01.png ) ![](images/MEpipe02.png ) ![](images/MEPlan.png ) ![](images/MEPlanD.png ) ![](images/MEPlanF.png ) ![](images/MEPlanT.png ) ![](images/MEPlanI.png )
 

@@ -1155,7 +1155,7 @@ ui = Ui_MainWindow(MainWindow)
 MainWindow.show()
 }}
 
-## Ulteriori informazioni {#ulteriori_informazioni}
+## Ulteriori informazioni 
 
 I campi non hanno alcun limite di lunghezza, controllare il risultato nella tabella.
 

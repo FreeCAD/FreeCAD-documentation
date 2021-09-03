@@ -6,13 +6,13 @@ Miba is a way to embed information about the 3D space into a 2D image. This make
 
 A detailed specification you can find here: <http://miba.juergen-riegel.net/>
 
-## Miba in FreeCAD {#miba_in_freecad}
+## Miba in FreeCAD 
 
 If you choose a file format which has an comment ability ( JPG and PNG) you can choose to write a comment or insert the MIBA information in the comment fileds (default):
 
  <img alt="" src=images/Save_picture.png  style="width:600px;"> 
 
-## Making Miba pictures by script {#making_miba_pictures_by_script}
+## Making Miba pictures by script 
 
  
 ```python

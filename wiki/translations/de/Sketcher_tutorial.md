@@ -32,9 +32,9 @@ Für eine genauere Beschreibung des Skizzierers, lese die [Skizzierer Referenz](
 
 ## Einrichtung
 
-1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit {{MenuCommand|Datei → <img src=images/Std_New.svg style="width:16px"> [Neu](Std_New/de.md)}}.
+1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei → <img src=images/Std_New.svg style="width:16px"> [Neu](Std_New/de.md)**.
 
-:   1.1. Wechsle zum [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) über den [Arbeitsbereich Wähler](Std_Workbench/de.md) oder das Menü {{MenuCommand|[Ansicht](Std_View_Menu/de.md) → Arbeitsbereich → Skizzierer}}.
+:   1.1. Wechsle zum [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) über den [Arbeitsbereich Wähler](Std_Workbench/de.md) oder das Menü **[Ansicht](Std_View_Menu/de.md) → Arbeitsbereich → Skizzierer**.
 
 Einige Aktivitäten zum Erinnern:
 
@@ -42,7 +42,7 @@ Einige Aktivitäten zum Erinnern:
 -   Um den Skizzenbearbeitungsmodus zu verlassen, drücke die **Schließen** Schaltfläche im [Aufgabenpaneel](task_panel/de.md) oder drücke **Esc** zweimal auf der Tastatur.
 -   Um den Bearbeitungsmodus erneut aufzurufen, doppelklicke auf die Skizze in der <img src=images/Sketcher_EditSketch.svg style="width:Baumansicht](tree_view/de.md) oder wähle sie aus und klicke dann auf **[16px"> [Skizze bearbeiten](Sketcher_EditSketch/de.md)**.
 
-## Erstellen einer Skizze {#erstellen_einer_skizze}
+## Erstellen einer Skizze 
 
 2\. Klicke auf **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [Neue Skizze](Sketcher_NewSketch.md)**.
 
@@ -55,7 +55,7 @@ Wir befinden uns jetzt im Skizzenbearbeitungsmodus. Innerhalb dieses Modus könn
 
 **Hinweis:**
 
-Die [Baumansicht](tree_view/de.md) wechselt zum [Aufgabenpaneel](task_panel/de.md); in dieser Oberfläche erweitere den {{MenuCommand|Bedienelemente bearbeiten}} Abschnitt und stelle sicher, dass die {{MenuCommand|Auto Beschränkungen}} Option aktiviert ist. Andere Optionen können geändert werden, einschließlich der Größe des sichtbaren Gitters und der Frage, ob wir am Gitter einrasten wollen; in diesem Tutorium werden wir nicht am Gitter einrasten und wir werden es auch ausblenden. In anderen Abschnitten des [Aufgabenpaneel](task_panel/de.md) kannst du auch sehen, welche geometrischen Elemente und Beschränkungen definiert wurden.
+Die [Baumansicht](tree_view/de.md) wechselt zum [Aufgabenpaneel](task_panel/de.md); in dieser Oberfläche erweitere den **Bedienelemente bearbeiten** Abschnitt und stelle sicher, dass die **Auto Beschränkungen** Option aktiviert ist. Andere Optionen können geändert werden, einschließlich der Größe des sichtbaren Gitters und der Frage, ob wir am Gitter einrasten wollen; in diesem Tutorium werden wir nicht am Gitter einrasten und wir werden es auch ausblenden. In anderen Abschnitten des [Aufgabenpaneel](task_panel/de.md) kannst du auch sehen, welche geometrischen Elemente und Beschränkungen definiert wurden.
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
 
@@ -66,7 +66,7 @@ Die [Baumansicht](tree_view/de.md) wechselt zum [Aufgabenpaneel](task_panel/de.m
 
 3\. Die Konstruktionsgeometrie wird verwendet, um die Erstellung von \"echter\" Geometrie zu leiten. Die reale Geometrie wird außerhalb des Bearbeitungsmodus der Skizze angezeigt, während die Konstruktionsgeometrie nur innerhalb des Bearbeitungsmodus angezeigt wird. Daher kannst du so viel Konstruktionsgeometrie verwenden, wie du zum Erstellen von realen Formen benötigst.
 
-:   3.1. Klicke auf **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Konstruktion umschalten](Sketcher_ToggleConstruction/de.md)**. Jetzt werden geometrische Elemente im {{MenuCommand|Konstruktionsmodus}} gezeichnet.
+:   3.1. Klicke auf **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Konstruktion umschalten](Sketcher_ToggleConstruction/de.md)**. Jetzt werden geometrische Elemente im **Konstruktionsmodus** gezeichnet.
 :   3.2. Klicke auf **<img src="images/Sketcher_Line.svg" width=16px> [Linie Erstellen](Sketcher_CreateLine/de.md)**.
 :   3.3. Nähere dich dem **Ursprung** der Skizze, der Punkt sollte aufleuchten und in der Nähe deines Mauszeigers das <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [Deckungsgleiche Beschränkung](Sketcher_ConstrainCoincident/de.md) Symbol erscheinen.
 :   3.4. Klicke auf den Punkt und bewege dann den Zeiger, um eine neue Linie von diesem Punkt aus zu zeichnen. Bewege den Zeiger so, dass die Linie eine Länge von etwa {{Value|30 mm}} hat. Du musst in diesem Schritt nicht sehr genau sein; später werden wir die korrekte Abmessung einstellen.
@@ -83,22 +83,22 @@ bis zu diesem Punkt ist das [Linienwerkzeug](Sketcher_CreateLine/de.md) noch akt
 
 drücke nicht ein zweites Mal **Esc**, da dadurch der Skizzenbearbeitungsmodus verlassen wird. Wenn du dies tust, rufst du den Bearbeitungsmodus erneut auf, indem du in die [Baumansicht](tree_view/de.md) auf die Skizze doppelklickst.
 
-Wirf noch einmal einen Blick auf das [Aufgabenpaneel](task_panel/de.md). Der Abschnitt {{MenuCommand|Lösermeldungen}} weist bereits darauf hin, dass die Skizze unterbeschränkt ist, und erwähnt die Anzahl der **Freiheitsgrade**.
+Wirf noch einmal einen Blick auf das [Aufgabenpaneel](task_panel/de.md). Der Abschnitt **Lösermeldungen** weist bereits darauf hin, dass die Skizze unterbeschränkt ist, und erwähnt die Anzahl der **Freiheitsgrade**.
 
-Schaue dir die Abschnitte {{MenuCommand|Beschränkungen}} und {{MenuCommand|Elemente}} an, um die neu aufgelisteten Beschränkungen und Linien zu sehen. Wenn deine Skizzen viele Elemente enthalten, kann es schwierig sein, diese in der [3D Ansicht](3D_view/de.md) auszuwählen, so dass du diese Listen verwenden kannst, um genau das gewünschte Objekt auszuwählen.
+Schaue dir die Abschnitte **Beschränkungen** und **Elemente** an, um die neu aufgelisteten Beschränkungen und Linien zu sehen. Wenn deine Skizzen viele Elemente enthalten, kann es schwierig sein, diese in der [3D Ansicht](3D_view/de.md) auszuwählen, so dass du diese Listen verwenden kannst, um genau das gewünschte Objekt auszuwählen.
 
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
 
 *Konstruktionslinien, die eine Sternform mit dem Zentrum im Ursprung bilden.*
 
-## Reale Geometrie {#reale_geometrie}
+## Reale Geometrie 
 
 Die reale Geometrie muss eine geschlossene Form aufweisen, wenn sie als Profil verwendet werden soll, das mit Werkzeugen wie **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)** extrudiert werden kann.
 
 Vergewissere dich, dass du dich nicht im Konstruktionsmodus befindest, durch klicken auf **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Konstruktion umschalten](Sketcher_ToggleConstruction/de.md)**, wenn du diesen Modus zuvor noch nicht verlassen hast.
 
-### Äußere Bögen {#äußere_bögen}
+### Äußere Bögen 
 
 4\. Erstelle einen Kreis.
 
@@ -119,7 +119,7 @@ Vergewissere dich, dass du dich nicht im Konstruktionsmodus befindest, durch kli
 
 *Kreisbögen hinzugefügt an den Endpunkten der Konstruktionslinien. Ebenso ein zentraler Kreis.*
 
-### Innere Bögen {#innere_bögen}
+### Innere Bögen 
 
 6\. Erzeuge einen Bogen zwischen jedem Paar der vorherigen O-Bögen.
 
@@ -136,7 +136,7 @@ Zusammenfassend lässt sich sagen, dass die Krümmung der O-Bögen nach außen u
 
 ## Beschränkungen
 
-Wirf noch einmal einen Blick auf das [Aufgabenpaneel](task_panel/de.md). Aufgrund der neuen geometrischen Elemente, die wir gezeichnet haben, weist der {{MenuCommand|Lösermeldungen}} Abschnitt noch mehr **Freiheitsgrade** auf. Ein **Freiheitsgrad** (DOF) zeigt eine mögliche Bewegung eines Elements an. Beispielsweise kann ein Punkt sowohl in horizontaler als auch in vertikaler Richtung bewegt werden, so dass er zwei Freiheitsgrade hat. Eine Linie wird durch zwei Punkte definiert, daher hat sie insgesamt vier Freiheitsgrade. Wenn wir einen dieser Punkte fixieren, dann hat das gesamte System nur zwei Freiheitsgrade zur Verfügung; wenn wir zusätzlich die horizontale Bewegung des verbleibenden Punktes fixieren, dann haben wir nur noch einen Freiheitsgrad; und wenn wir auch die vertikale Bewegung dieses Punktes fixieren, dann verschwindet der letzte Freiheitsgrad, und die Linie kann sich nicht mehr von ihrer Position wegbewegen.
+Wirf noch einmal einen Blick auf das [Aufgabenpaneel](task_panel/de.md). Aufgrund der neuen geometrischen Elemente, die wir gezeichnet haben, weist der **Lösermeldungen** Abschnitt noch mehr **Freiheitsgrade** auf. Ein **Freiheitsgrad** (DOF) zeigt eine mögliche Bewegung eines Elements an. Beispielsweise kann ein Punkt sowohl in horizontaler als auch in vertikaler Richtung bewegt werden, so dass er zwei Freiheitsgrade hat. Eine Linie wird durch zwei Punkte definiert, daher hat sie insgesamt vier Freiheitsgrade. Wenn wir einen dieser Punkte fixieren, dann hat das gesamte System nur zwei Freiheitsgrade zur Verfügung; wenn wir zusätzlich die horizontale Bewegung des verbleibenden Punktes fixieren, dann haben wir nur noch einen Freiheitsgrad; und wenn wir auch die vertikale Bewegung dieses Punktes fixieren, dann verschwindet der letzte Freiheitsgrad, und die Linie kann sich nicht mehr von ihrer Position wegbewegen.
 
 Wenn wir bisher Linien und Kurven gezeichnet haben, hat der Skizzierer für uns automatische Beschränkungen hinzugefügt, die die Linien an den Ursprung und die O-Bögen an die Konstruktionslinien binden. Aber wir haben keine weiteren expliziten Beschränkungen hinzugefügt, so dass die geometrischen Formen immer noch in viele Richtungen bewegt werden können. **Beschränkungen sind \"Regeln\", die uns sagen, unter welchen Bedingungen sich ein geometrisches Objekt um wie viel bewegen kann.** Sie dienen dazu, die Freiheitsgrade zu eliminieren, damit die Skizze eine stabile Form erhält. Wenn wir alle Freiheitsgrade eliminieren, dann ist die Skizze **Vollständig Beschränkt** und hat eine feste Form, d.h. ihre Punkte können sich überhaupt nicht bewegen. Im Allgemeinen ist es eine gute Idee, Skizzen vollständig zu beschränken, da dies zu stabilen Modellen führt.
 
@@ -146,9 +146,9 @@ Es gibt zwei Haupttypen von Beschränkungen:
 
 -    **Bezugsbeschränkungen**definieren Merkmale der Formen durch Angabe von Abmessungen, z.B. eine numerische Länge oder einen Winkel.
 
-## Geometrische Beschränkungen {#geometrische_beschränkungen}
+## Geometrische Beschränkungen 
 
-### Gleiche Länge und gleicher Radius {#gleiche_länge_und_gleicher_radius}
+### Gleiche Länge und gleicher Radius 
 
 7\. Geometrisches Beschränken der Linien und Bögen.
 
@@ -215,7 +215,7 @@ Ab diesem Schritt haben wir nun ein geschlossenes Profil erstellt, da alle Böge
 
 Diese Beschränkungen geben die numerischen Abstände zwischen zwei Punkten und die Winkel zwischen zwei Linien an.
 
-### Abstände und Winkel {#abstände_und_winkel}
+### Abstände und Winkel 
 
 9\. Passe die Größe der Konstruktionslinien an.
 
@@ -277,7 +277,7 @@ Wir sollten am Ende eine völlig beschränkte Skizze erhalten. Dies kann bestät
 
 *Links: vollständig beschränkte Skizze, in der nur die wichtigsten Beschränkungen gezeigt werden. Rechts: Volumenextrusion erzeugt mit [PartDesign Polster](PartDesign_Pad/de.md).*
 
-## Zusätzliche Informationen {#zusätzliche_informationen}
+## Zusätzliche Informationen 
 
 Für eine eingehendere Beschreibung des Skizzierers besuche die [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) Dokumentation und lies auch die [Skizzierer Referenz](Sketcher_Referenz/de.md).
 

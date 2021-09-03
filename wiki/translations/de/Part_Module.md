@@ -25,7 +25,7 @@ Part Objekte sind komplexer als Polygonnetz Objekte, die mit dem [Arbeitsbereich
 
 ## Werkzeuge
 
-Die Werkzeuge befinden sich alle im {{MenuCommand|Part}} Menü oder dem {{MenuCommand|Messung}} Menü.
+Die Werkzeuge befinden sich alle im **Part** Menü oder dem **Messung** Menü.
 
 ### Grundelemente
 
@@ -63,7 +63,7 @@ Dies sind Werkzeuge zum Erstellen von Grundobjekten.
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Bauer](Part_Builder/de.md): Erzeugt Formen aus verschiedenen Grundelementen.
 
-### Erstellung und Änderung {#erstellung_und_änderung}
+### Erstellung und Änderung 
 
 Dies sind Werkzeuge zum Erstellen neuer und Ändern vorhandener Objekte.
 
@@ -148,7 +148,7 @@ Zerschneidet und teilt ein Objekt, indem er es mit anderen Objekten überschneid
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Delta umschalten](Part_Measure_Toggle_Delta/de.md) Zeigt oder blendet Delta Messungen aus.
 
-### Andere Werkzeuge {#andere_werkzeuge}
+### Andere Werkzeuge 
 
 -   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Import](Part_Import/de.md): Importiert aus \*.IGES, \*.STEP, oder \*.BREP Dateien.
 
@@ -174,7 +174,7 @@ Zerschneidet und teilt ein Objekt, indem er es mit anderen Objekten überschneid
 
 -   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Defeaturing](Part_Defeaturing/de.md): Entfernt Formelemente aus einem Objekt.
 
-### Kontextmenü Elemente {#kontextmenü_elemente}
+### Kontextmenü Elemente 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aussehen](Std_SetAppearance/de.md): Bestimmt das Aussehen des gesamten Objekts (Farbe, Transparenz usw.).
 

@@ -19,7 +19,7 @@ Pour couper d\'autres objets, vous pouvez utiliser la commande [Std Copier](Std_
 1.  Sélectionnez une ou plusieurs cellules dans la feuille de calcul.
 2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_Cut.svg" width=16px> [Std Couper](Std_Cut.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Edition → <img src="images/Std_Cut.svg" width=16px> Couper}} dans le menu.
+    -   Sélectionnez l\'option **Edition → <img src="images/Std_Cut.svg" width=16px> Couper** dans le menu.
 
 ## Remarques
 

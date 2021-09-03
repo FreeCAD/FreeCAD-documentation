@@ -26,7 +26,7 @@ La herramienta Dimensión Longitud añade una dimensión lineal a una Vista. La 
 
 To change the properties of a dimension object either double-clicking it in the drawing or in the [Tree view](Tree_view.md). This will open the dimension dialog:
 
-## Dimension dialog {#dimension_dialog}
+## Dimension dialog 
 
 The dimension dialog offers the following settings:
 
@@ -54,7 +54,7 @@ The dimension dialog offers the following settings:
 
 -   **Arbitrary Tolerance Text**: If checked, the tolerances are replaced by the content of the **OverTolerance Format Specifier** **UnderTolerance Format Specifier** fields.
 
-### Display Style {#display_style}
+### Display Style 
 
 -   **Flip Arrowheads**: Flips the direction in which the dimension line arrows are pointing. By default they are inside the dimension line/arc and pointing outwards.
 
@@ -224,7 +224,7 @@ Therefore, it is recommended that dimensions be added when the 3D model is no lo
 
 If you want to keep a TechDraw view with dimensions that won\'t break, you need to dimension an object that won\'t change.
 
--   Select the object that you want to project, then switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) and use {{MenuCommand|Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Create simple copy](Part_SimpleCopy.md)}}. This will create a single object that is not parametric, that is, no longer editable.
+-   Select the object that you want to project, then switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) and use **Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Create simple copy](Part_SimpleCopy.md)**. This will create a single object that is not parametric, that is, no longer editable.
 -   Select this copy, then use [TechDraw View](TechDraw_View.md), and add the desired dimensions.
 -   If the original 3D model is modified, the modifications won\'t affect the simple copy, nor the dimensions in the TechDraw view.
 

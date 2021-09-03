@@ -16,7 +16,7 @@ FreeCAD를 좋아하고 개발을 돕고 싶으면, 프로그래머가 아니라
 
 <div class="mw-translate-fuzzy">
 
-### 문서 작업 {#문서_작업}
+### 문서 작업 
 
 Help us to build, correct and extend this documentation. Correct mistakes, extend or correct pages that are unclear, create new pages if a topic is missing, etc. Contributing to the FreeCAD wiki is easy, at [WikiPages](WikiPages.md) you can find the general guidelines and the help needed to get you started. To edit the wiki, you will need a wiki account with \"Editor\" permissions (the wiki is write-protected to avoid spamming). You can ask for an account [on the forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830) or on the [IRC channel](irc://irc.freenode.net/freecad). Please note that the IRC channel may not be as responsive as the forum.
 
@@ -34,7 +34,7 @@ A couple of areas that would welcome your work:
 
 <div class="mw-translate-fuzzy">
 
-### FreeCAD 지식 공유 {#freecad_지식_공유}
+### FreeCAD 지식 공유 
 
 The users community around FreeCAD is still small, but already includes several advanced users who do a very important job in showing to newcomers how to use the software. If you begin to feel comfortable with FreeCAD, your knowledge could be very valuable to others, and you might contribute with important assets, like:
 
@@ -58,7 +58,7 @@ The user community around FreeCAD is still small, but already includes several a
 
 <div class="mw-translate-fuzzy">
 
-### FreeCAD 번역하기 {#freecad_번역하기}
+### FreeCAD 번역하기 
 
 FreeCAD를 여러분의 언어로 번역하세요. FreeCAD 인터페이스의 모든 텍스트 문자열은 다른 언어로 쉽게 번역할 수 있습니다. 우리가 필요한 것은, 다른 언어를 알고 도움을 줄 수있는 사람입니다! 모든 번역은 [Crowdin](http://crowdin.net/project/freecad)에서 온라인으로 합니다.
 
@@ -72,7 +72,7 @@ Translate FreeCAD to your own language. All text strings of the FreeCAD interfac
 
 <div class="mw-translate-fuzzy">
 
-### 문서 번역 {#문서_번역}
+### 문서 번역 
 
 번역은 쉬우며, FreeCAD 위키는 기본 영어를 다른 언어로 번역하는 것을 허용하는 플러그인을 지원합니다.
 
@@ -90,7 +90,7 @@ Then head to [WikiPages](WikiPages.md) to familiarize yourself with the style us
 
 <div class="mw-translate-fuzzy">
 
-### 다른 사람에게 FreeCAD 알리기 {#다른_사람에게_freecad_알리기}
+### 다른 사람에게 FreeCAD 알리기 
 
 -   FreeCAD에 대해 다른 사람에게 얘기하기
 -   Find interesting uses for FreeCAD, and document it, for example with screenshots. FreeCAD is very young, and not many people see what they can do with it. If you are a FreeCAD fan already, you surely know some cool thing FreeCAD can do. Help us to show that to others!
@@ -112,7 +112,7 @@ Then head to [WikiPages](WikiPages.md) to familiarize yourself with the style us
 
 <div class="mw-translate-fuzzy">
 
-### 버그 보고 및 특징 물어보기 {#버그_보고_및_특징_물어보기}
+### 버그 보고 및 특징 물어보기 
 
 ![](images/Bugreport-workflow.png ) Although the place to report confirmed bugs and suggest new features is eventually the **[FreeCAD Tracker](tracker.md)**, please always post bug reports and feature requests to the Help forum first. In order to save developers time (triaging and handling hard to understand bugs can be very time consuming), and avoid frustrations because your issue was not handled the way you would like, please read the following:
 
@@ -142,7 +142,7 @@ Although the place to report confirmed bugs and suggest new features is eventual
 
 <div class="mw-translate-fuzzy">
 
-### 디자인 아트워크 {#디자인_아트워크}
+### 디자인 아트워크 
 
 See the [Artwork](Artwork.md) page for guidelines about designing icons for FreeCAD.
 

@@ -26,11 +26,11 @@ In previous image you can see the result that we aproximately will obtain. Follo
 -   How to control grid/legend when several axes is present.
 -   How to edit labels, titles and legend positions.
 
-## Plotting data {#plotting_data}
+## Plotting data 
 
 As we did in [previous tutorial](Plot_Basic_tutorial.md) we will use the Python console or [macros](Macros.md) in order to plot the data, with the difference that in this case we will plot the data in two different axes.
 
-### Creating plot data {#creating_plot_data}
+### Creating plot data 
 
 In this example we will plot 3 functions, the two ones used in [previous tutorial](Plot_Basic_tutorial.md), and another polynomial one. The fact is that the polynomial one will need new axes due to the variation range is different from all others. Next commands will create data arrays for us:
 
@@ -47,7 +47,7 @@ c = [math.cos(math.pi*2.0*tt) for tt in t]
 
 As *x* moves from 0 to 2, *y* function has a maximum value of 4, so if we try to plot this function with trigonometrical ones, at least one function will be truncated or bad scaled, then we need a multiaxes plot. Multiaxes plot in FreeCAD is oriented to get a plot with multiple axes, not to get multiple plots in same document.
 
-### Drawing functions, adding new axes {#drawing_functions_adding_new_axes}
+### Drawing functions, adding new axes 
 
 We will draw polynomial function at main axes. If all your axes will have same size then is not relevant what function is ploted in what axes, but if your plot has axes with other size (as in this example), main axes must be the biggest one (because this axes have the white background). In order to do it we only need to launch a command
 
@@ -70,9 +70,9 @@ Plot.plot(t,c,r"$\cos\left( 2 \pi t \right)$")
 
 As you can see you plot has gone crazy, with axes ticks overlaped, curves of same color, etc. Now we needs to use [FreeCAD Plot module](Plot_Module.md) to fix this graph.
 
-## Configuring plot {#configuring_plot}
+## Configuring plot 
 
-### Configuring axes {#configuring_axes}
+### Configuring axes 
 
 [FreeCAD Plot module](Plot_Module.md) provides a tool in order to modify the properties of each axes.
 
@@ -90,11 +90,11 @@ The first thing that you can find in axes tool is the active axes selector. Sinc
 
 In the dimensions sliders, we will move left horizontal and bottom vertical sliders (try to emulate example) in order to reduce axes size. Then we can set the axes alignement, changing it to top and right, and setting and small offset of two units.
 
-### Configuring series {#configuring_series}
+### Configuring series 
 
 Set series properties as we did in [previous tutorial](Plot_Basic_tutorial.md).
 
-### Showing grid and legend {#showing_grid_and_legend}
+### Showing grid and legend 
 
 Grid and legend is shown and hide with the same tools that used in [previous tutorial](Plot_Basic_tutorial.md), but in this case the behaviour is a little bit different due to the presence of two different axes.
 
@@ -102,7 +102,7 @@ Regarding grid lines, you can show lines for each axes set, for example, if you 
 
 Regarding legend, the legend will be the same for both axes, so you can choose the axes that you want in order to show the legend, but is strongly recommended to use the biggest ones (0 in this example) because position will be refered to this axes coordinates. If you show the legend you can see that is really bad placed, we will fix this problem later.
 
-### Setting axes labels {#setting_axes_labels}
+### Setting axes labels 
 
 You can set axes labels with same tool used in [previous tutorial](Plot_Basic_tutorial.md), with the difference that now you have more axes. Since axes labels is ussually set as one per axis, is not a significant difference, but [FreeCAD Plot module](Plot_Module.md) allow you to set a title by axes too. In this case we only wants to set title to main axes, so set:
 
@@ -119,7 +119,7 @@ You can set axes labels with same tool used in [previous tutorial](Plot_Basic_tu
 
 Set also 20 to fontsize for all but title, that uses a fontsize of 24. As happens with legend, title is bad placed, interseting with second axes set, so we need to solve both problems.
 
-### Setting elements position {#setting_elements_position}
+### Setting elements position 
 
 [FreeCAD Plot module](Plot_Module.md) provides a tool in order to set the position of several plot elements, as titles, labels or legend.
 
@@ -135,6 +135,6 @@ Position editor icon.
 
 When you run the tool you see a list with all the editable elements. Title elements, as well as legend, can be moved in both directions, since axes labels can be moved only on the axes direction. Select title of axes 0 and move it to (0.24,1.01), then select legend and move it to a better position. You can increase legend labels fontsize too.
 
-## Saving plot {#saving_plot}
+## Saving plot 
 
 Now you can save your work. See [previous tutorial](Plot_Basic_tutorial.md) if you don\'t remember how to do it. {{Tutorials navi}} {{Plot Tools navi}} 

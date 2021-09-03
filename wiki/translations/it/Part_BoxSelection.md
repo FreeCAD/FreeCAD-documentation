@@ -18,7 +18,7 @@
 
 ## Utilizzo
 
-1.  Andare in {{MenuCommand|Part → <img src="images/Part_BoxSelection.svg" width=16px> Box di selezione}}.
+1.  Andare in **Part → <img src="images/Part_BoxSelection.svg" width=16px> Box di selezione**.
 2.  Fare clic e trascinare il puntatore nella finestra creando un rettangolo che tocchi una o più forme.
 
 ## Note

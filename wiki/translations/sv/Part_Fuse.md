@@ -21,9 +21,9 @@ Förenar flera valda Del objekt till ett objekt. Denna operation är helt parame
 1.  Select two or more shapes
 2.  There are several ways to invoke the command:
     -   Press the **![](images/) Part Fuse** button in the **Part tools** toolbar
-    -   Use the {{MenuCommand|Part → Boolean → Union}} entry in the Part menu
+    -   Use the **Part → Boolean → Union** entry in the Part menu
 
-## Supported inputs {#supported_inputs}
+## Supported inputs 
 
 Input objects must be [OpenCascade](OpenCascade.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 

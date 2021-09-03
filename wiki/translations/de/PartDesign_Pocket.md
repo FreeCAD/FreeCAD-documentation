@@ -36,15 +36,15 @@ Gib einen numerischen Wert für die Tiefe der Tasche ein. Die Standardrichtung f
 
 Die Tasche wird bis zur ersten Fläche des Trägers in Extrusionsrichtung extrudiert. Mit anderen Worten, sie wird durch das gesamte Material schneiden, bis sie eine leere Fläche erreicht.
 
-### Durch alles {#durch_alles}
+### Durch alles 
 
 Die Tasche schneidet durch das gesamte Material in Extrusionsrichtung. Mit der Option **Symmetrisch zur Ebene** schneidet die Tasche durch das gesamte Material in beiden Richtungen.**Hinweis:** Aus technischen Gründen ist **Durch alles** eigentlich eine 10 Meter tiefe Tasche. Wenn Sie tiefere Taschen benötigen, verwende *Abmessung*.
 
-### Bis zur Fläche {#bis_zur_fläche}
+### Bis zur Fläche 
 
 Die Tasche wird bis zu einer Fläche im Auflager extrudiert, die durch Anklicken ausgewählt werden kann.
 
-### Zwei Abmessungen {#zwei_abmessungen}
+### Zwei Abmessungen 
 
 Hier kann eine zweite Länge eingegeben werden, in der die Tasche in die entgegengesetzte Richtung (in das Auflager) ausfahren soll. Auch dies kann durch Anklicken der Option **Umgekehrt** geändert werden. <small>(v0.17)</small> 
 
@@ -53,7 +53,7 @@ Hier kann eine zweite Länge eingegeben werden, in der die Tasche in die entgege
 -   Verwende den Typ **Abmessung** oder **Durch alles**, wo immer möglich, da die anderen Typen manchmal Probleme beim Mustern verursachen.
 -   Ansonsten hat die Taschen Funktion die gleichen [Begrenzungen](PartDesign_Pad/de#Begrenzungen.md) wie die Polster Funktion.
 
-## Nützliche Verweise {#nützliche_verweise}
+## Nützliche Verweise 
 
 Ein [Beispiel](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=10) mit der Praxis im Forum.
 

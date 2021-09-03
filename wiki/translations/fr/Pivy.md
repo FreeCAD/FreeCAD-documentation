@@ -22,7 +22,7 @@ La bibliothèque Coin est divisée en plusieurs éléments, Coin lui-même pour 
 from pivy import coin
 ```
 
-## Graphe de scène {#graphe_de_scène}
+## Graphe de scène 
 
 Nous avons vu dans la page [Graphe de scène](Scenegraph/fr.md) comment une scène Coin typique est organisée. Tout ce qui apparaît dans une [vue 3D](3D_view/fr.md) est un Graphe de scène Coin organisée de la même manière. Nous avons un nœud racine et tous les objets à l\'écran sont ses enfants.
 
@@ -106,7 +106,7 @@ sg.removeChild(myCustomNode)
 
 [En haut](#top.md)
 
-## Rappels (callback) {#rappels_callback}
+## Rappels (callback) 
 
 Un [mécanisme de rappel](https://fr.wikipedia.org/wiki/Fonction_de_rappel) est un système qui permet à une bibliothèque, telle que notre bibliothèque Coin, de vous rappeler, c\'est-à-dire d\'appeler une certaine fonction depuis votre objet Python en cours d\'exécution. De cette façon, Coin peut vous informer qu\'un événement spécifique s\'est produit dans la scène. Coin peut regarder des choses très différentes, telles que la position de la souris, les clics sur les boutons de la souris, les touches du clavier enfoncées et bien d\'autres.
 
@@ -158,7 +158,7 @@ SoFile.getClassId()
 -   [Documentation du wiki Coin3D](https://github.com/coin3d/coin/wiki/Documentation), sur GitHub.
 -   [Documentation Coin3D](https://coin3d.github.io/Coin/html/), dernière documentation Doxygen générée automatiquement.
 
-### Plus ancien {#plus_ancien}
+### Plus ancien 
 
 Ces liens fournissent une documentation de référence pour Coin v3.x. Les différences avec la v4.x sont minimes, elles peuvent donc toujours être utiles.
 

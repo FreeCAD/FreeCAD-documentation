@@ -24,7 +24,7 @@
 -   Editing one or more dimensions.
 -   Using external geometry feature and using a reference plane to centre a hole.
 
-### Using [Part Design workbench](PartDesign_Workbench.md), tracing the sketch {#using_part_design_workbench_tracing_the_sketch}
+### Using [Part Design workbench](PartDesign_Workbench.md), tracing the sketch 
 
 Create a new document and switch to the **<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design workbench'''** using either the [workbench selector](Getting_started#Exploring_the_interface.md) (labelled 10 in the linked image) or by going to the *View → Workbench* menu. FreeCAD will start with toolbars at the top, the combo view to the left and the 3D view at the right.
 
@@ -123,7 +123,7 @@ Proceed in the same way with all the points.
 
 If your sketch is still not green, verify that all lines (but the slanted one) have either a <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal.md) or <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertical](Sketcher_ConstrainVertical.md) constraint, and add if necessary.
 
-### Using Pad and Pocket features {#using_pad_and_pocket_features}
+### Using Pad and Pocket features 
 
 Click on **Close** in the Tasks tab, at the top left corner. We automatically exit the Sketcher workbench, and the Part Design workbench is activated again. The Combo View switches back to the Model tab. If you left your *Body part1* expanded, you will see a new **Sketch** element below *Origin*, and nested under the Body.
 
@@ -157,7 +157,7 @@ Close the sketch; in the Model tree, a new **Sketch001** object has appeared bel
 
 Pocket is a feature called \"subtractive\", it removes material from our part, here in the form of a cylinder since the sketch is a circle. Set \"Through all\" to completely cut the part. Press **OK** to complete. In the Model tree, a new element labelled **Pocket** appears at the bottom of the Body part1, and claims Sketch001.
 
-### Changing color and transparency {#changing_color_and_transparency}
+### Changing color and transparency 
 
 It is possible to change the color of the part, it is often useful to distinguish a part among others. The transparency of the piece can also be modified, which is useful for visualizing its internals.
 
@@ -167,7 +167,7 @@ The hole is now visible inside the part. This is often useful for seeing the hid
 
 You can also vary \"Line Color\" and \"Line Width\" to change the line thickness and the color of the part outline.
 
-### Manually move the part {#manually_move_the_part}
+### Manually move the part 
 
 Go to the *View* menu and select *Toggle axis cross*. These are the absolute axes. You should see in the 3D view, the 3 axes X, Y, Z in red, green and blue. This landmark will help us to orient ourselves in space. This landmark is fixed and immutable, it is either the view that rotates or the object that rotates in this space.
 
@@ -185,7 +185,7 @@ Hold and drag the cones along the axes or the spheres to move the body in all di
 
 Validate. Then reset angles and coordinates to 0.
 
-### Displaying reference dimensions in the sketch {#displaying_reference_dimensions_in_the_sketch}
+### Displaying reference dimensions in the sketch 
 
 It may be useful to know the dimensions of some parts of the sketch, from the internal calculation of FreeCAD. It can be used just for reference, or use them later to set other dimensions for example.
 
@@ -199,7 +199,7 @@ We can see for example that the arc has a length of 20 since it\'s tangent with 
 
 We can also see that FreeCAD calculates the left face (50-50xTAN 30 °), as well as the distance dimension of the axis of the arc with the origin.
 
-### Editing one or more dimensions {#editing_one_or_more_dimensions}
+### Editing one or more dimensions 
 
 During modeling, you can vary the dimensions of the model. It\'s very simple: for the thickness of the piece, double-click Pad, then enter a new value, 40mm for example. In the lower part of the combo view, you can change this value as well. Validate, the shape of the object has changed.
 
@@ -207,7 +207,7 @@ Do the same for the total length of the piece: double-click on Sketch, then doub
 
 We can see that the piece was enlarged, but the hole is no longer centered in the middle of the top face. That\'s because it has been constrained to the sketch origin. Which does not necessarily correspond to what one would like, the hole should remain in the center, whatever the size of the face.
 
-### Center the hole {#center_the_hole}
+### Center the hole 
 
 **First method using external geometry.**
 

@@ -31,7 +31,7 @@ Caracteristicile Python respectă aceeași regulă ca toate funcțiile FreeCAD: 
 
 </div>
 
-## Exemplu de bază {#exemplu_de_bază}
+## Exemplu de bază 
 
 Următorul exemplu poate fi găsit in fișierul [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py), împreună cu alte exemple: 
 ```python
@@ -168,7 +168,7 @@ makeBox()
 
 ```
 
-### Things to note {#things_to_note}
+### Things to note 
 
 If your object relies on being recomputed as soon as it is created, you must do this manually in the `__init__` function as it is not called automatically. This example does not require it because the `onChanged` method of the `Box` class has the same effect as the `execute` function, but the examples below rely on being recomputed before anything is displayed in the 3D view. In the examples, this is done manually with `ActiveDocument.recompute()` but in more complex scenarios you need to decide where to recompute either the whole document or the FeaturePython object.
 
@@ -176,11 +176,11 @@ This example produces a number of exception stack traces in the report view wind
 
 An explanation of `__getstate__` and `__setstate__` is in the forum thread [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
-## Available methods {#available_methods}
+## Available methods 
 
 See [FeaturePython methods](FeaturePython_methods.md) for the complete reference.
 
-## Proprietăți disponibile {#proprietăți_disponibile}
+## Proprietăți disponibile 
 
 Proprietățile sunt adevăratele pietre de temelie ale obiectelor FeaturePython. Prin intermediul acestora, utilizatorul va putea să interacționeze și să vă modifice obiectul. După crearea unui nou obiect FeaturePython din documentul dvs. (obj = FreeCAD.ActiveDocument.addObject (\"App :: FeaturePython\", \"Box\")), puteți obține o listă a proprietăților disponibile prin emiterea:
 
@@ -298,7 +298,7 @@ A complete list of property attributes can be seen in the [PropertyStandard C++ 
 prop = (value, lower, upper, stepsize)
 ```
 
-## Tipuri de proprietăți {#tipuri_de_proprietăți}
+## Tipuri de proprietăți 
 
 Implicit proprietățile pot fi actualizate. Este posibil să se facă proprietățile numai pentru citire, de exemplu în cazul în care cineva dorește să afișeze rezultatul unei metode. De asemenea, este posibilă ascunderea proprietății. Tipul de proprietate poate fi setat utilizând
 
@@ -338,7 +338,7 @@ You can find these different property types defined in the [source code C++ head
 
 <div class="mw-translate-fuzzy">
 
-## Alte exemple mai complexe {#alte_exemple_mai_complexe}
+## Alte exemple mai complexe 
 
 Acest exemplu ne face să utilizăm [Part Workbench](Part_Workbench.md) pentru a crea un octahedron, apoi crează reprezentarea sa coin cu pivy.
 
@@ -547,7 +547,7 @@ ViewProviderOctahedron(a.ViewObject)
 
 <div class="mw-translate-fuzzy">
 
-## Crearea de obiecte selectabile {#crearea_de_obiecte_selectabile}
+## Crearea de obiecte selectabile 
 
 Dacă doriți să faceți obiectul selectabil sau cel puțin o parte a acestuia, făcând clic pe el în fereastra de vizualizare, trebuie să includeți forma geometriei sale în interiorul unui nod SoFCSelection. Dacă obiectul are o reprezentare complexă, cu widget-uri, adnotări etc., poate doriți să includeți doar o parte a acestuia într-o selecție SoFCSelecție. Tot ceea ce este un SoFCSelection este scanat constant de FreeCAD pentru a detecta selectia / preselectarea, deci ar fi bine să nu incercați a o supraincarca cu scanări inutile. Iată un exemplu de ceea ce ați face pentru a include o self.face din exemplul de mai sus :
 
@@ -653,7 +653,7 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
-## Lucrul cu forme simple {#lucrul_cu_forme_simple}
+## Lucrul cu forme simple 
 
 Dacă obiectul dvs. parametric emite doar o formă simplă, nu este necesar să utilizați un obiect furnizor de vizualizare(view provider object). Forma va fi afișată utilizând reprezentarea standard a formelor din FreeCAD:
 
@@ -715,7 +715,7 @@ ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 ```
 
-## Scenegraph Structure {#scenegraph_structure}
+## Scenegraph Structure 
 
 You may have noticed that the examples above construct their scenegraphs in slightly different ways. Some use `obj.addDisplayMode(node, "modename")` while others use `obj.SwitchNode.getChild(x).addChild(y)`.
 
@@ -903,7 +903,7 @@ a,b = makeMolecule()
 
 <div class="mw-translate-fuzzy">
 
-## Informație suplimentară {#informație_suplimentară}
+## Informație suplimentară 
 
 Există câteva subiecte foarte interesante pe forum despre obiectele script:
 

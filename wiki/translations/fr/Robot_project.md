@@ -12,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 Cet [projet d\'article](project/fr.md) est pour le projet Robot. Il suit les règles de la \[<http://fr.wikipedia.org/wiki/Getting_Things_Done>\| Getting things done\] processus. Les projets sont collectées dans la [feuille de route de développement](Development_roadmap/fr.md).
 
-## Buts et principles {#buts_et_principles}
+## Buts et principles 
 
 Ce projet devrait fixer les principales technologiques, pour une simulation réaliste de robot dans FreeCAD. Dans la première étape, il vise la norme robot industriel 6-axis.
 
@@ -24,24 +24,24 @@ Simulation de robot
 
 ## Réflexions
 
-### Librairies disponibles {#librairies_disponibles}
+### Librairies disponibles 
 
 -   [OROCOS](http://www.orocos.org/) bibliothèques C ++ portables pour un contrôle avancé des machines et des robots
 -   [ROBOOP](http://roboop.sourceforge.net/) Un package orienté objet robotique en C ++
 -   [Beremiz](http://www.beremiz.org/) un automate OpenSource PLC.
 
-### Standards de communications {#standards_de_communications}
+### Standards de communications 
 
 -   [OPC UA](http://en.wikipedia.org/wiki/OPC_Unified_Architecture) un protocole de communication machine à machine pour l\'automatisation industrielle (PLC)
 -   [1](https://www.ipk.fraunhofer.de/de/referenzen/realistic-robot-simulation.html) Initiative allemande pour améliorer la précision des contrôleurs de robots et optimiser la programmation des robots hors ligne
 -   [Realistic Robot Simulation (RRS)](http://www.realistic-robot-simulation.org/) RRS-2, interface de contrôleur de robot virtuel (VRC)
 
-### Middleware pour comunications {#middleware_pour_comunications}
+### Middleware pour comunications 
 
 -   [D-Bus](http://en.wikipedia.org/wiki/D-Bus) un bus logiciel, une communication inter-processus (IPC) et un mécanisme d\'appel de procédure à distance (RPC) qui permet la communication entre plusieurs programmes informatiques
 -   [CORBA](http://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture) permet la collaboration entre des systèmes sur différents systèmes d\'exploitation, langages de programmation et matériel informatique
 
-### Les produits Commerciaux dans le domaine {#les_produits_commerciaux_dans_le_domaine}
+### Les produits Commerciaux dans le domaine 
 
 -   [Visual Components](http://www.visualcomponents.com/Solutions/Robot-Simulation)
 -   [Delmia](http://www.3ds.com/products/delmia/welcome/)
@@ -67,7 +67,7 @@ Simulation de robot
 -   Processus et contrôle de cellule de travail (raboté).
 -   La réalisation de films sur la simulation (raboté).
 
-## Actions suivantes {#actions_suivantes}
+## Actions suivantes 
 
 -   Trajectoire, et gestion des points de cheminement.
 

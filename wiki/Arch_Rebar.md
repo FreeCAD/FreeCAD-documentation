@@ -18,7 +18,7 @@ Rebar objects are based on 2D profiles such as [Draft objects](Draft_Workbench.m
  <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;">  
 *Structural object with two sketches drawn on its faces, which are then turned into two sets of rebar objects*
 
-## Extension available {#extension_available}
+## Extension available 
 
 The Rebar tool is enhanced by the [Reinforcement Workbench](Reinforcement_Workbench.md), which is installed by the [Addon Manager](Addon_Manager.md). The additional rebar types available with the addon are:
 

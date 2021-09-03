@@ -161,13 +161,13 @@ Image:Macro\_FCInfo\_04.png\|Zakotveno vpravo, Image:Macro FCInfo 05.png\|nebo p
 
 ## Volby
 
-### Použité jednotky {#použité_jednotky}
+### Použité jednotky 
 
-#### Délková jednotka: {#délková_jednotka}
+#### Délková jednotka: 
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch(palec), link, foot(stopa), yard, perch, chain, furlong, mile, league, nautique.
 
-#### Úhlové stupně : {#úhlové_stupně}
+#### Úhlové stupně : 
 
 1.  **dekadické stupně**, např: 174.831872611°
 2.  stupně minuty vteřiny, např.: 174° 49\' 54.741401\'\'
@@ -189,7 +189,7 @@ click twice to see the animation (the image must be in full screen)
 
 
 
-#### Váhové jednotky : {#váhové_jednotky}
+#### Váhové jednotky : 
 
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
 lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct

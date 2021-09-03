@@ -26,7 +26,7 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 
 ### Procedimento
 
-#### Creare la geometria 3D {#creare_la_geometria_3d}
+#### Creare la geometria 3D 
 
 Lo scopo dell\'ambiente PartDesign è quello di consentire all\'utente di creare la geometria nello spazio 3D. Pertanto, esso è dotato degli strumenti adatti ad usare gli schizzi e a convertirli in oggetti 3D.
 
@@ -71,7 +71,7 @@ Un altro strumento per creare la geometria 3D è <img alt="" src=images/PartDesi
 
 </div>
 
-#### Funzioni sottrattive {#funzioni_sottrattive}
+#### Funzioni sottrattive 
 
 Iniziare creando un disegno con la forma da sottrarre.
 
@@ -116,7 +116,7 @@ Procedere applicando una funzione **Cavità**.
 
 </div>
 
-#### Le funzioni Serie {#le_funzioni_serie}
+#### Le funzioni Serie 
 
 Richiamare il profilo estruso che è stato creato all\'inizio del tutorial.
 

@@ -65,7 +65,7 @@
 
 -    **Nodes Offset**: specifies an optional offset between the centerline and the nodes line.
 
-### 3D-просмотр {#d_просмотр}
+### 3D-просмотр 
 
 -    **Nodes Type**: The type of structural nodes of this object, linear or area.
 
@@ -84,7 +84,7 @@ The **Switch L/H** button can be used to switch Length and Height values, and th
 <img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
 *Some presets for precast concrete structures*
 
-## Structural nodes {#structural_nodes}
+## Structural nodes 
 
 Structural objects also have the ability to display structural nodes. Structural nodes are a sequence of 3D points stored in a \"Nodes\" property. By switching the \"Show Nodes\" view property on/off, one can see the structural nodes of a structural element:
 

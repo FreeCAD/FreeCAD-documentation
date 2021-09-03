@@ -15,7 +15,7 @@ FreeCAD est extensible par du code [Python](Python/fr.md) qui est exécuté dire
 
 Si vous souhaitez contribuer au contenu de ces pages, demandez un compte wiki avec les droits d\'éditeur [dans le forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) et lisez les [Pages Wiki](WikiPages/fr.md) pour les directives générales que vous devez suivre. Pour d\'autres façons de contribuer au projet, consultez la page [Contribuer à FreeCAD](Help_FreeCAD/fr.md).
 
-## Personnaliser FreeCAD {#personnaliser_freecad}
+## Personnaliser FreeCAD 
 
 -   [Personnaliser l\'interface](Interface_Customization/fr.md) : Les fondamentaux : les barres d\'outils et les raccourcis claviers.
 -   [Travailler avec les macros](Macros/fr.md) : Enregistrer facilement les actions répétitives ou du code Python
@@ -23,7 +23,7 @@ Si vous souhaitez contribuer au contenu de ces pages, demandez un compte wiki av
 -   [Personnaliser la barre d\'outils](Customize_Toolbars/fr.md)
 -   [Installer plus d\'ateliers](Installing_more_workbenches/fr.md)
 
-## Scripts dans FreeCAD {#scripts_dans_freecad}
+## Scripts dans FreeCAD 
 
 ### General
 
@@ -49,24 +49,24 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 -   Les [modules intégrés](Builtin_modules/fr.md) sont les principaux modules de FreeCAD. Ils contiennent les outils pour manipuler les configurations générales de FreeCAD, les documents et leur contenu.
 -   [Création d\'Ateliers](Workbench_creation/fr.md) vous montre comment créer votre propre atelier.
 
-#### Working with Meshes {#working_with_meshes}
+#### Working with Meshes 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Travailler avec les maillages \"Mesh\" {#travailler_avec_les_maillages_mesh}
+#### Travailler avec les maillages \"Mesh\" 
 
 -   [Les scripts de maillage](Mesh_Scripting/fr.md) sont interactifs avec le [module maillage](Mesh_Workbench/fr.md)
 
 
 </div>
 
-#### Working with Parts {#working_with_parts}
+#### Working with Parts 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Travailler avec les géométries \"Parts\" {#travailler_avec_les_géométries_parts}
+#### Travailler avec les géométries \"Parts\" 
 
 -   Comment le [module géométrie \" Part \"](Part_Workbench/fr.md) utilise les outils et structures [Open CASCADE Technology](http://fr.wikipedia.org/wiki/Open_CASCADE) dans FreeCAD
 -   Les [scripts de données topologiques](Topological_data_scripting/fr.md) sont interactifs avec \" Part \"
@@ -76,12 +76,12 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 
 </div>
 
-#### Accessing the Coin scenegraph {#accessing_the_coin_scenegraph}
+#### Accessing the Coin scenegraph 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Accéder aux Scènes graphiques avec Coin {#accéder_aux_scènes_graphiques_avec_coin}
+#### Accéder aux Scènes graphiques avec Coin 
 
 -   [Scènes graphiques et Coin/Inventor](Scenegraph/fr.md) : Vous pouvez avec FreeCad représenter des scènes de travail grâce à [Coin3D](http://fr.wikipedia.org/wiki/Open_CASCADE_Technology)
 -   [Pivy](Pivy/fr.md) : permet d\'accéder et modifier la scène graphique (passerelle d\'accès à Coin)
@@ -89,12 +89,12 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 
 </div>
 
-### Controlling the Qt interface {#controlling_the_qt_interface}
+### Controlling the Qt interface 
 
 
 <div class="mw-translate-fuzzy">
 
-### Contrôler l\'interface avec Qt {#contrôler_linterface_avec_qt}
+### Contrôler l\'interface avec Qt 
 
 -   [PySide](PySide/fr.md) dispose des outils nécessaires pour construire, accéder et modifier le contenu d\'une interface utilisateur
 -   [Utilisez les modules graphiques FreeCAD](Embedding_FreeCADGui/fr.md) dans d\'autres applications Qt avec l\'aide de PyQt
@@ -102,7 +102,7 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 
 </div>
 
-### Travailler avec des objets paramétriques {#travailler_avec_des_objets_paramétriques}
+### Travailler avec des objets paramétriques 
 
 -   [Objets créés par script](Scripted_objects/fr.md) : comment créer des objets créés par script à 100% en Python.
     -   [Objets créés par script avec pièce jointe](Scripted_objects_with_attachment/fr.md) : comment rendre les objets créés par script attachables à d\'autres objets.
@@ -126,13 +126,13 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 
 </div>
 
-## Fonctions API {#fonctions_api}
+## Fonctions API 
 
 La documentation complète de l\'API de FreeCAD se trouve à l\'adresse <http://www.freecadweb.org/api/>. Elle contient à la fois les APIs C++ et Python, et n\'est pas encore parfaitement formatée, ce qui peut être déroutant si vous recherchez du code uniquement Python. Une version plus facile à parcourir peut être trouvée [ici](:Category:API/fr.md). Notez qu\'elle peut être incomplète, car elle est mise à jour manuellement. Pour des informations plus précises, parcourez les modules directement depuis la console Python de FreeCAD.
 
 En rapport : [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
-## Modifications avancées {#modifications_avancées}
+## Modifications avancées 
 
 -   [Démarrage et configuration](Start_up_and_Configuration/fr.md): démarrage et options en ligne de commande
 -   [Installation sous Windows](Installing_on_Windows/fr.md): utilisation de l\'installeur Windows
@@ -140,7 +140,7 @@ En rapport : [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 -   [Identification à la marque FreeCAD](Branding/fr.md): les modifications simples à effectuer sur le code source de FreeCAD pour construire votre propre application
 -   [Extension des modules Python](Extra_python_modules/fr.md): l'interpréteur Python de FreeCAD est facilement extensible par l\'ajout de nombreux modules !
 
-## Tutoriels pour Python {#tutoriels_pour_python}
+## Tutoriels pour Python 
 
 Voici une compilation de très bons tutoriels, pas forcement liés à FreeCAD, mais très intéressants si vous êtes totalement débutants en Python.
 
@@ -176,7 +176,7 @@ Les deux références suivantes sont spécifique à PyQt (pas PySide) mais peuve
 -   [Programmation graphique 3D de haut niveau en Python](http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/): exemple Pivy de Pycon 2004
 -   [Introducing Pivy into studierstube](https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [(Mirror)](https://www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42) : Un article qui n\'est pas vraiment un tutoriel mais qui illustre bien le fonctionnement de Pivy (nécessite un compte académique)
 
-## Projets communautaires {#projets_communautaires}
+## Projets communautaires 
 
 Sur le [Portail communautaire FreeCAD](FreeCAD_Community_Portal/fr.md), vous pouvez rechercher d\'autres projets basés sur FreeCAD et gérés par la communauté. Si vous avez commencé un nouveau projet FreeCAD, assurez vous de le signaler sur le [Community portal (page en anglais)](FreeCAD_Community_Portal.md) ! Si vous souhaitez participer au développement de FreeCAD vous pouvez visiter la page [Aider FreeCAD](Help_FreeCAD/fr.md) et voir ce que vous pouvez faire.
 

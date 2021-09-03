@@ -13,7 +13,7 @@
 
 Czasami łuki są przekształcane w krzywą złożoną, na przykład gdy zastosowano do nich operacje skalowania. To makro odtwarza z nich prawidłowe łuki. Przydatne przed eksportem do formatu DXF.
 
-## Tworzenie skryptów {#tworzenie_skryptów}
+## Tworzenie skryptów 
 
 Ikonka paska narzędzi ![](images/Macro_HealArcs.png ) **Macro\_HealArcs.FCMacro**
 

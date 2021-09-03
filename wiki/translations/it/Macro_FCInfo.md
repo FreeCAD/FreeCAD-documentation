@@ -161,7 +161,7 @@ Image:Macro\_FCInfo\_04.png\|La tabella dei dati può essere dislocata a destra,
 
 ## Opzioni
 
-### Unità di misura utilizzate {#unità_di_misura_utilizzate}
+### Unità di misura utilizzate 
 
 #### Lunghezza :
 

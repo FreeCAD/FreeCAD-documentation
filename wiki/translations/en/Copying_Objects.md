@@ -8,7 +8,7 @@ Like many other software FreeCAD also has the ability to copy/cut and paste obje
 
 Please consider that the copy-pasted objects are not dependent on the original. If You want dependant clones please use <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [ Draft Workbench\'s Clone](Draft_Clone.md) or <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;"> [ Part Design Workbench\'s Clone](PartDesign_Clone.md). If you need a dependant clone nor a parametric replica, you may also use <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [ Part Workbench\'s Simple Copy](Part_SimpleCopy.md). For patterned clones, please look into the [ Other Methods section](Copying_Objects#Other_Methods.md) of this page.
 
-## Copying Linked Objects {#copying_linked_objects}
+## Copying Linked Objects 
 
 [Document](Document_structure.md) objects may be linked to other objects (for example, a Pad feature is linked to its Sketch, and a Fusion feature is linked to its component objects). This means that some care must be exercised in selecting objects to copy.
 
@@ -16,11 +16,11 @@ If an object is selected without its children, those children are not automatica
 
 In general, recommended practice is to select all dependent objects when copying a parent object.
 
-## Finding and Positioning Pasted Object(s) {#finding_and_positioning_pasted_objects}
+## Finding and Positioning Pasted Object(s) 
 
 After the Copy/Paste operation, it may not be obvious where the new object(s) are located in the Document window. That is because the new object has the same [Placement](Placement.md) property as the original. Toggle the Visibility property (**Spacebar**) to hide the original. Then use the Placement dialog to move the copy to its correct position.
 
-## Other Methods {#other_methods}
+## Other Methods 
 
 Like most things in FreeCAD, there are many ways of making a copy. For more ideas, look at:
 

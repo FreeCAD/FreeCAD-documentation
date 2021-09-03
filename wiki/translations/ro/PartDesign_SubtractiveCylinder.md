@@ -15,7 +15,7 @@ Inserează un cilindru subtractiv în Corpul Activ. Forma sa este extrasă din s
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

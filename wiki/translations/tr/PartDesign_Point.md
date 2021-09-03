@@ -27,7 +27,7 @@ Z = 2\'de ek konumu olan bir küreye tutturulmuş bir referans noktası
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 
 </div>

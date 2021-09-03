@@ -21,7 +21,7 @@ As most of them require user interaction, FreeCAD commands are only available in
 
 Commands can be defined either in C++ or in Python.
 
-## Commands defined in C++ {#commands_defined_in_c}
+## Commands defined in C++ 
 
 Example of a C++ command definition, usually defined following the structure {{FileName|Mod/ModuleName/Gui/Command.cpp}}.
 
@@ -55,7 +55,7 @@ CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
-## Commands defined in Python {#commands_defined_in_python}
+## Commands defined in Python 
 
 Example of a Python command definition, it can be placed in a directory like  
 ```python

@@ -25,9 +25,9 @@ Compiling the API documentation follows the same general steps as compiling the 
 
 *General workflow to compile FreeCAD's programming documentation. The Doxygen and Graphviz packages must be in the system, as well as the FreeCAD source code itself. CMake configures the system so that with a single make instruction the documentation for the the entire project is compiled into many HTML files with diagrams.*
 
-## Сборка документации исходных кодов {#сборка_документации_исходных_кодов}
+## Сборка документации исходных кодов 
 
-### Complete documentation {#complete_documentation}
+### Complete documentation 
 
 Если у вас установлен Doxygen, то собрать документацию очень просто. Также установите [Graphviz](https://www.graphviz.org/), чтобы иметь возможность создавать диаграммы, показывающие отношения между различными классами и библиотеками в коде FreeCAD. Graphviz также используется FreeCAD [ графом зависимостей](Std_DependencyGraph.md) для отображения взаимосвязей между различными объектами. 
 ```python
@@ -64,7 +64,7 @@ xdg-open freecad-build/doc/SourceDocu/html/index.html
 
 The `DevDoc` target will generate a significant amount of data, around 5 GB of new files, particularly due to the diagrams created by Graphviz.
 
-### Reduced documentation {#reduced_documentation}
+### Reduced documentation 
 
 The complete documentation uses around 3Gb of disk space. An alternative, smaller version of the documentation which takes only around 600 MB can be generated with a different target. This is the version displayed on the [FreeCAD API website](https://freecad.github.io/SourceDoc/). 
 ```python
@@ -98,14 +98,14 @@ git push
 
 <div class="mw-translate-fuzzy">
 
-## Другие версии {#другие_версии}
+## Другие версии 
 
 [Документация FreeCAD 0.12](http://free-cad.sf.net/SrcDocu/index.html), размещенная на Sourceforge.
 
 
 </div>
 
-## Объединение с документацией Coin3D {#объединение_с_документацией_coin3d}
+## Объединение с документацией Coin3D 
 
 В системах UNIX возможно связать документацию исходников Coin3D с FreeCAD-овской. Это даёт упрощение навигации и завершение диаграммы наследования для классво, производных от Coin.
 
@@ -115,7 +115,7 @@ git push
 
 -   Если вы установили пакет документации Coin, ссылки будут сгенерированы для доступа онлайновой документации по адресу [BitBucket](https://coin3d.bitbucket.io/Coin/). Это произойдет, если файл тега Doxygen можно загрузить во время настройки с помощью `wget`.
 
-## Using Doxygen {#using_doxygen}
+## Using Doxygen 
 
 See the [Doxygen](Doxygen.md) page for an extensive explanation on how to comment C++ and Python source code so that it can be processed by Doxygen to automatically create the documentation.
 

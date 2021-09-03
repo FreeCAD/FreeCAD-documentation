@@ -19,7 +19,7 @@ To cut other objects you can use the [Std Copy](Std_Copy.md) command followed by
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>

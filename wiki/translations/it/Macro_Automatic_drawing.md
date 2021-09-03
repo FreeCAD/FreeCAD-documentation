@@ -38,7 +38,7 @@ Prima di lanciare la macro è necessario selezionare un oggetto.
 -   Funziona solo con un singolo oggetto (questa è una limitazione del Modulo Drawing)
 -   Richiede delle modifiche per farla funzionare secondo il [third-angle projection](http://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection) ovvero il [Sistema di rappresentazione americano](http://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection) utilizzato negli Stati Uniti e in Canada.
 
-## La macro {#la_macro}
+## La macro 
 
 ToolBar icon ![](images/Macro_Automatic_drawing.png )
 

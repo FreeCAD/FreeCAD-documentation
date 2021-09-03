@@ -26,7 +26,7 @@ Os objectos dentro de um documento FreeCAD pode ser de diferentes tipos. Cada ba
 
 Se houver pelo menos um documento aberto em FreeCAD, há sempre um e só um documento activo. Esse é o documento que aparece na visualização em 3D actual, o documento que você está trabalhando actualmente.
 
-## Aplicação e interface de usuário {#aplicação_e_interface_de_usuário}
+## Aplicação e interface de usuário 
 
 
 <div class="mw-translate-fuzzy">

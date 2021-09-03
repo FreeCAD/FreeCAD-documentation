@@ -17,7 +17,7 @@ Toto makro otočí aktuální pohled na bod kolmo na vybranou plochu existujíc�
 
 <div class="mw-translate-fuzzy">
 
-## Jak používat {#jak_používat}
+## Jak používat 
 
 1.  Vyberte objekt na objektu
 2.  Spusťte makro

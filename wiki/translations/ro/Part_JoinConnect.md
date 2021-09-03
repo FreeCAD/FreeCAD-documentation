@@ -29,7 +29,7 @@ Instrument de conectare pentru îmbinarea inerioarelor a două obiecte goale-tip
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 1.  Select objects to be connected.
     The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g., faces). You can also select a compound containing all the shapes to be connected, e.g. [Draft Array](Draft_Array.md).

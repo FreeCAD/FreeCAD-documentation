@@ -11,7 +11,7 @@ Site-ul Arch este un obiect special care combină proprietățile unui obiect st
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
@@ -97,7 +97,7 @@ Site-ul Arch este un obiect special care combină proprietățile unui obiect st
 
 -    **Wind Rose**: Shows or hides the wind rose diagram (requires the **EPW File** data property filled, and the Ladybug Python module installed (see below)
 
-## Typical workflow {#typical_workflow}
+## Typical workflow 
 
 
 <div class="mw-translate-fuzzy">
@@ -120,7 +120,7 @@ The site geometry will be recomputed and the areas, perimeter, and volumes prope
 
 <div class="mw-translate-fuzzy">
 
-## Solar diagram {#solar_diagram}
+## Solar diagram 
 
 
 </div>
@@ -140,7 +140,7 @@ If [pysolar](http://pysolar.org/) is installed on your system, Arch Sites can di
 
 <div class="mw-translate-fuzzy">
 
-## Scrip-Programare {#scrip_programare}
+## Scrip-Programare 
 
 
 </div>
@@ -183,7 +183,7 @@ FreeCAD.ActiveDocument.recompute()
 FreeCAD.Gui.ActiveDocument.ActiveView.viewIsometric()
 ```
 
-### Solar diagram {#solar_diagram_1}
+### Solar diagram 
 
 As long as the `pysolar` module is present, a solar diagram can be added to the site. Set the longitude, latitude and declination angles as appropriate, as well as an adequate scale for the size of your model.
 
@@ -201,7 +201,7 @@ Site.ViewObject.SolarDiagramScale = 10000
 FreeCAD.ActiveDocument.recompute()
 ```
 
-### Solar diagram independent of Site {#solar_diagram_independent_of_site}
+### Solar diagram independent of Site 
 
 
 <div class="mw-translate-fuzzy">

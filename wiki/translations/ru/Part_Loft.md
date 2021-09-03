@@ -26,7 +26,7 @@ For more info on how the profiles are joined together, refer [Part Loft Technica
 
 ![centre\|Part Loft. From three profiles which are two Part Circles and one Part Ellipse. Parameters are Solid \"True\" and Ruled \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
 
-## Limitations and complications {#limitations_and_complications}
+## Limitations and complications 
 
 -   A vertex or point
     -   vertex or point may only be used as the first and/or last profile in the list of profiles.
@@ -59,7 +59,7 @@ For more info on how the profiles are joined together, refer [Part Loft Technica
 -   Closed Lofts
     -   The results of closed lofts may be unexpected - the loft may develop twists or kinks. Lofting is very sensitive to the Placement of the profiles and the complexity of the curves required to connect the corresponding Vertices in all the profiles.
 
-## An example Loft {#an_example_loft}
+## An example Loft 
 
 The Loft tool is in the Part Workbench, menu Part -\> Loft\... or via the icon in the tool bar.
 
@@ -69,7 +69,7 @@ In the \"Tasks\" will be two lists: \"Available\" and \"Selected\".
 
 ![](images/Part_Loft_Liste3.png )
 
-### Selection of the sections {#selection_of_the_sections}
+### Selection of the sections 
 
 In the \"Available\" the available items are displayed. Two sections must be selected one after the first in this list.
 
@@ -83,7 +83,7 @@ The selected items must be of the same type.
 
 Tip: the active/selected items in the list are displayed in the 3D area as active/selected.
 
-### Command complete {#command_complete}
+### Command complete 
 
 If both sections are selected, the command can be completed with \"OK\".
 
@@ -99,7 +99,7 @@ If indeed a solid needs to be created, used the button \"Create Solid\" or after
 
 The procedure is the same as described above with open polylines.
 
-### Changing the selection of sections {#changing_the_selection_of_sections}
+### Changing the selection of sections 
 
 If you want to change the selection of the sections after creation of the loft, you can select the field Sections in the Data tab and click the occuring ellipsis button. The list of all selectable sections occurs, the current selection is highlighted. You can remove or add additional sections.
 

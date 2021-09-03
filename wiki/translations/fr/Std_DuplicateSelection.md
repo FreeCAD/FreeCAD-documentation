@@ -14,7 +14,7 @@ La commande **Std Dupliquer la sélection** duplique les objets dans le document
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets.
-2.  Sélectionnez l\'option {{MenuCommand|Edition → Dupliquer la sélection}} dans le menu.
+2.  Sélectionnez l\'option **Edition → Dupliquer la sélection** dans le menu.
 3.  Si les objets ont des dépendances qui n\'ont pas été sélectionnées, une boîte de dialogue vous demandera de spécifier ceux qui doivent être inclus.
 
 ## Remarques
@@ -23,7 +23,7 @@ La commande **Std Dupliquer la sélection** duplique les objets dans le document
 
 ## Préférences
 
--   Les étiquettes en double sont autorisées si {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Preferences → Document → DuplicateLabels}} est défini sur `True`. Ce paramètre peut également être modifié dans l\'[Editeur de préférences](Preferences_Editor/fr#Document.md).
+-   Les étiquettes en double sont autorisées si **Outils → Editer les paramètres... → BaseApp → Preferences → Document → DuplicateLabels** est défini sur `True`. Ce paramètre peut également être modifié dans l\'[Editeur de préférences](Preferences_Editor/fr#Document.md).
 
 ## Script
 

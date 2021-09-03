@@ -26,7 +26,7 @@
 <div class="mw-translate-fuzzy">
 
 -   Premere il pulsante **<img src=images/Part_Measure_Refresh.svg style="width:16px"> [Aggiorna](Part_Measure_Refresh/it.md)**.
--   In alternativa, andare nel menu, {{MenuCommand|Misure → <img src=images/Part_Measure_Refresh.svg style="width:16px"> Aggiorna}}.
+-   In alternativa, andare nel menu, **Misure → <img src=images/Part_Measure_Refresh.svg style="width:16px"> Aggiorna**.
 
 
 </div>

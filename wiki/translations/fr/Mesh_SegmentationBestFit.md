@@ -19,10 +19,10 @@ La commande **Mesh Segmentation adaptée** crée des segments de maillage sépar
 2.  Sélectionnez un seul objet maillé.
 3.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> [Créer des segments de maillage de surface ajustées](Mesh_SegmentationBestFit/fr.md)**.
-    -   Sélectionnez l\'option {{MenuCommand|Maillages → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Créer des segments de maillage de surfaces ajustées ...}} dans le menu.
-4.  Le panneau des tâches {{MenuCommand|Mesh Segmentation}} s\'ouvre.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Créer des segments de maillage de surfaces ajustées ...** dans le menu.
+4.  Le panneau des tâches **Mesh Segmentation** s\'ouvre.
 5.  Appuyez éventuellement sur l\'un des boutons **Parameters...** pour identifier les paramètres d\'une surface:
-    -   La boîte de dialogue {{MenuCommand|Surface fit}} s\'ouvre.
+    -   La boîte de dialogue **Surface fit** s\'ouvre.
     -   Sélectionnez une ou plusieurs faces appartenant à la surface:
         -   Appuyez sur le bouton **Region** et tout en maintenant le bouton gauche de la souris, dessinez une région, une spline fermée, dans la [vue 3D](3D_view.md). Les faces qui tombent (partiellement) à l\'intérieur de la région seront sélectionnées.
         -   Appuyez sur le bouton **Triangle** pour sélectionner des visages individuels.
@@ -31,18 +31,18 @@ La commande **Mesh Segmentation adaptée** crée des segments de maillage sépar
     -   Appuyez sur le bouton **OK** ou **Cancel** pour fermer la boîte de dialogue.
 6.  Sélectionnez le ou les types de surface pour lesquels vous souhaitez créer des segments de maillage:
     -   
-        {{MenuCommand|Plane}}
+        **Plane**
         
 
     -   
-        {{MenuCommand|Cylinder}}
+        **Cylinder**
         
 
     -   
-        {{MenuCommand|Sphere}}
+        **Sphere**
         
-7.  Spécifiez les valeurs de {{MenuCommand|Tolerance}}.
-8.  Spécifiez les valeurs {{MenuCommand|Minimum number of faces}}.
+7.  Spécifiez les valeurs de **Tolerance**.
+8.  Spécifiez les valeurs **Minimum number of faces**.
 9.  Appuyez sur le bouton **OK**.
 10. La commande créera un [groupe](Std_Group/fr.md) contenant des objets maillés séparés, chacun étant un segment de l\'objet maillé d\'origine.
 11. Si le groupe créé est vide, essayez à nouveau d\'utiliser la commande avec les paramètres modifiés.

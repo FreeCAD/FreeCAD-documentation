@@ -35,41 +35,41 @@ This tutorial uses the notation {{Value|(x, y, z)}} to denote the coordinates re
 
 ## Setup
 
-1\. Open FreeCAD, create a new empty document with {{MenuCommand|File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)}}.
+1\. Open FreeCAD, create a new empty document with **File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
 
-:   1.1. Switch to the <img src=images/Workbench_Draft.svg style="width:Draft Workbench](Draft_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu {{MenuCommand|View → Workbench → [16px"> Draft}}.
-:   1.2. Make sure you understand how to use the [property editor](property_editor.md), particularly the {{MenuCommand|Data}} and {{MenuCommand|View}} tabs to change the properties. When changing properties, you may have to do a **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** action to see the result in the [3D view](3D_view.md).
+:   1.1. Switch to the <img src=images/Workbench_Draft.svg style="width:Draft Workbench](Draft_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **View → Workbench → [16px"> Draft**.
+:   1.2. Make sure you understand how to use the [property editor](property_editor.md), particularly the **Data** and **View** tabs to change the properties. When changing properties, you may have to do a **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** action to see the result in the [3D view](3D_view.md).
 :   1.3. Since the Draft objects are planar shapes, they are better viewed from the top. Use **<img src=images/Std_ViewTop.svg style="width:16px"> [View top](Std_ViewTop.md)** to set the [3D view](3D_view.md).
 :   1.4. Although it is not used in this tutorial, the Draft grid is helpful to position geometrical elements. Use **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_ToggleGrid.svg style="width:SelectPlane](Draft_SelectPlane.md)** to set both the working plane and the grid, and then show and hide the grid with **[16px"> [Toggle grid](Draft_ToggleGrid.md)**.
 
-## Snap toolbar {#snap_toolbar}
+## Snap toolbar 
 
 2\. The [Draft Snap toolbar](Draft_Snap.md) is normally activated when you switch to the [Draft Workbench](Draft_Workbench.md).
 
-:   2.1. To make sure it is always there, go to the [Draft Preferences](Draft_Preferences.md), {{MenuCommand|Edit → Preferences → Draft → Grid and snapping tab}}.
+:   2.1. To make sure it is always there, go to the [Draft Preferences](Draft_Preferences.md), **Edit → Preferences → Draft → Grid and snapping tab**.
 :   2.2. Verify that the **Show Draft Snap toolbar** is active.
 
 You can also change the visibility and properties of the Draft grid in this same window.
 
-## Working planes {#working_planes}
+## Working planes 
 
 Most Draft objects are planar shapes so they are naturally based on a **working plane**. A working plane can be one of the main XY, XZ, and YZ global coordinate planes, or it can be a plane that is parallel to them with a positive or negative offset, or it can be a plane defined by the face of a solid object.
 
-3\. Press **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_SelectPlane.svg style="width:SelectPlane](Draft_SelectPlane.md)**, or go to the menu {{MenuCommand|Utilities → [16px"> [Select plane](Draft_SelectPlane.md)}}, to open the working plane [task panel](task_panel.md).
+3\. Press **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_SelectPlane.svg style="width:SelectPlane](Draft_SelectPlane.md)**, or go to the menu **Utilities → [16px"> [Select plane](Draft_SelectPlane.md)**, to open the working plane [task panel](task_panel.md).
 
 :   3.1. Press **<img src=images/Std_ViewTop.svg style="width:16px"> Top (XY)**.
 
 Before pressing the button, you can also change the value of the offset in millimeters, as well as the grid spacing, the main lines and snapping radius.
 
-## Lines and arcs {#lines_and_arcs}
+## Lines and arcs 
 
 4\. We will create arcs and lines.
 
 :   4.1. Press **<img src=images/Draft_Arc.svg style="width:16px"> [Arc](Draft_Arc.md)**.
-:   4.2. Set the {{MenuCommand|Center}} to {{Value|(0, 0, 0)}}, and press **Enter**.
-:   4.3. Set the {{MenuCommand|Radius}} to {{Value|30 mm}}, and press **Enter**.
-:   4.4. Set the {{MenuCommand|Start angle}} to {{Value|60.0°}}, and press **Enter**.
-:   4.5. Set the {{MenuCommand|Aperture angle}} to {{Value|60.0°}}, and press **Enter**.
+:   4.2. Set the **Center** to {{Value|(0, 0, 0)}}, and press **Enter**.
+:   4.3. Set the **Radius** to {{Value|30 mm}}, and press **Enter**.
+:   4.4. Set the **Start angle** to {{Value|60.0°}}, and press **Enter**.
+:   4.5. Set the **Aperture angle** to {{Value|60.0°}}, and press **Enter**.
 :   4.6. Repeat the same procedure for a second arc with a radius of {{Value|25 mm}}, the other properties are the same.
 
 5\. We will now create a closed profile by tying the arcs with lines.
@@ -82,7 +82,7 @@ Before pressing the button, you can also change the value of the offset in milli
 <img alt="" src=images/01_Dr01_Draft_Arc_profile.png  style="width:" height="400px;"> 
 *Closed profile created by two arcs and two lines.*
 
-## Fusing or compounding {#fusing_or_compounding}
+## Fusing or compounding 
 
 We now have several objects in the [tree view](tree_view.md) that form a closed profile. However, this profile is still composed of disconnected objects; each of them can be edited and moved independently of the others. It is possible to continue working with the elements in this way, but it is also possible to fuse them into a single object.
 
@@ -97,13 +97,13 @@ We now have several objects in the [tree view](tree_view.md) that form a closed 
 :   6b.1. Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md).
 :   6b.2. With these objects selected, click on **<img src=images/Part_Compound.svg style="width:16px"> [Part Compound](Part_Compound.md)**.
 
-## Rectangles, circles, and polygons {#rectangles_circles_and_polygons}
+## Rectangles, circles, and polygons 
 
 7\. We will draw a rectangular frame. (Switch back to the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [ Draft Workbench](Draft_Workbench.md).)
 
 :   7.1. Press **<img src=images/Draft_Rectangle.svg style="width:16px"> [Rectangle](Draft_Rectangle.md)**.
 :   7.2. Enter the values of the first point {{Value|(-100, -60, 0)}}, and press **Enter**.
-:   7.3. Make sure the {{MenuCommand|Relative}} option is unchecked, as we will use absolute units. You may press **R** in the keyboard to quickly toggle this option on and off.
+:   7.3. Make sure the **Relative** option is unchecked, as we will use absolute units. You may press **R** in the keyboard to quickly toggle this option on and off.
 :   7.4. Enter the values for the second point {{Value|(140, 90, 0)}}, and press **Enter**.
 
 A rectangle is created. Go in the [property editor](Property_editor.md) to change its properties. If you don\'t want the rectangle to create a face, set **Make Face** to `False`. If you want to make a face, but see only the wires of that object, keep **Make Face** to `True` but set the **Display Mode** to {{Value|Wireframe}}.
@@ -166,13 +166,13 @@ Remember to adjust the **Font Size**, and other properties to see the dimension 
 <img alt="" src=images/04_Dr01_Draft_Dimension.png  style="width:" height="400px;"> 
 *Dimensions that measure the vertical distance from the origin to the top of the circle, arcs, and polygon.*
 
-## Texts and ShapeStrings {#texts_and_shapestrings}
+## Texts and ShapeStrings 
 
 14\. Text objects are simple planar figures that are created in the [3D view](3D_view.md) but don\'t have an actual \"[shape](Shape.md)\" underneath. This means that they cannot be used in complex operations with shapes like extrusions or boolean operations.
 
 :   14.1. Press **<img src=images/Draft_Text.svg style="width:16px"> [Text](Draft_Text.md)**.
 :   14.2. Select the reference point in the <img src=images/Draft_Snap_Lock.svg style="width:3D view](3D_view.md). In the [Snap toolbar](Draft_Snap.md) make sure **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Toggle snap](Draft_Snap_Lock.md)** is active, and only **[16px"> [Midpoint](Draft_Snap_Midpoint.md)** as well. Move the pointer to the top edge of the highest arc, so that the <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Midpoint](Draft_Snap_Midpoint.md) icon appears; click to select this point.
-:   14.3. Enter the desired {{MenuCommand|Text}}, and press **Enter** once to start a new line; add more lines of text as needed.
+:   14.3. Enter the desired **Text**, and press **Enter** once to start a new line; add more lines of text as needed.
 :   14.4. When you are ready to finish with edition, press **Enter** twice.
 :   14.5. Select the text object in the [tree view](tree_view.md), and in the [property editor](Property_editor.md), change **Font Size** to {{Value|6 mm}}, and **Justification** to {{Value|Center}}.
 
@@ -180,7 +180,7 @@ Remember to adjust the **Font Size**, and other properties to see the dimension 
 
 :   15.1. Press **<img src=images/Draft_ShapeString.svg style="width:16px"> [ShapeString](Draft_ShapeString.md)**.
 :   15.2. Move the pointer to the desired location in the [3D view](3D_view.md) above the regular polygon, and click once. This will fix the base point for the ShapeString. The coordinates may be entered manually as well, for example, {{Value|(-20, 65, 0)}}.
-:   15.3. Enter the desired {{MenuCommand|String}}, and choose the desired {{MenuCommand|Height}}.
+:   15.3. Enter the desired **String**, and choose the desired **Height**.
 :   15.4. If there is no default font file, you must click on the ellipsis **...** to open a dialog window to choose the font location in the system.
 :   15.5. When a valid font file has been specified, you may proceed to click **OK** or press **Enter**.
 
@@ -189,7 +189,7 @@ Remember to adjust the **Font Size**, and other properties to see the dimension 
 
 To extrude letters and engrave them on to solids, see the [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md).
 
-## Creating technical drawings {#creating_technical_drawings}
+## Creating technical drawings 
 
 As it is now, the objects that we have created can be saved, exported to other formats like [SVG](SVG.md) or [DXF](DXF.md), or printed.
 
@@ -215,7 +215,7 @@ TechDraw works best with objects that have a [Part TopoShape](Part_TopoShape.md)
 
 Tools like **<img src=images/TechDraw_ActiveView.svg style="width:16px"> <img src=images/TechDraw_DraftView.svg style="width:TechDraw ActiveView](TechDraw_ActiveView.md)**, **[16px"> <img src=images/TechDraw_ArchView.svg style="width:TechDraw DraftView](TechDraw_DraftView.md)**, and **[16px"> [TechDraw ArchView](TechDraw_ArchView.md)** work by receiving an internal SVG image that is generated by internal Draft functions; therefore, TechDraw doesn\'t have much control about how these views are displayed. More integration of Draft and TechDraw is a work in progress.
 
-## Final remarks {#final_remarks}
+## Final remarks 
 
 The [Draft Workbench](Draft_Workbench.md) in many ways is similar to the [Sketcher Workbench](Sketcher_Workbench.md), as both are intended to produce 2D shapes. The main difference is in the way each workbench handles coordinate systems, and how the objects are positioned. In Draft, objects are freely positioned in the global coordinates system, usually snapping their points to a grid, or to other objects. In Sketcher, a \"[sketch object](Sketch.md)\" defines a local coordinate system which serves as the reference for all geometrical elements within that sketch. Moreover, the sketch relies on \"constraints\" to define the final position of its points.
 

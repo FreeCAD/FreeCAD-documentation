@@ -11,7 +11,7 @@ Derzeit sind nur zwei Komponenten des Bauingenieurwesens in FreeCAD vertreten:
 
 Die Bewehrungswerkzeuge sind derzeit Teil der [Arch Arbeitsbereichs](Arch_Workbench/de.md)
 
-## Verwandte Forumsbeiträge {#verwandte_forumsbeiträge}
+## Verwandte Forumsbeiträge 
 
 -   Implementierung von Funktionen im Bauingenieurwesen (Verkehrsingenieurwesen) [Beitrag](https://forum.freecadweb.org/viewtopic.php?f=8&t=22277).
 -   Bauingenieurwesen Konstruktionsfunktionen [Beitrag](https://forum.freecadweb.org/viewtopic.php?f=8&t=6973)
@@ -23,7 +23,7 @@ Die Bewehrungswerkzeuge sind derzeit Teil der [Arch Arbeitsbereichs](Arch_Workbe
 -   Fahrplan (Wortspiel nicht beabsichtigt)
 -   Aufpolieren dieser Wiki Seite
 
-## Verwandte Verweise {#verwandte_verweise}
+## Verwandte Verweise 
 
 -   [Externe Arbeitsbereiche](External_workbenches/de.md)
 -   [Arbeitsbereiche](Workbenches/de.md)

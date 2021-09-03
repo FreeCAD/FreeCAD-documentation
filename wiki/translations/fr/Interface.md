@@ -23,15 +23,15 @@ La fenêtre principale de l\'application peut être grossièrement divisée en 1
 10. L\'[atelier](Std_Workbench/fr.md) qui est lui-même une barre d\'outils
 11. Le [menu standard](Standard_Menu/fr.md)
 
-## Composants de l\'interface {#composants_de_linterface}
+## Composants de l\'interface 
 
 Comme de nombreux logiciels, FreeCAD comprend une barre de menus standard, puis une série de barres d'outils et de panneaux contenant les outils utilisateur.
 
 ### Menus
 
-Les [menus standard](Standard_Menu/fr.md) sont: {{StdMenu|[{{MenuCommand|Fichier}}](Std_File_Menu/fr.md)}}, {{StdMenu|[{{MenuCommand/fr|Edition}}](Std_Edit_Menu/fr.md)}}, {{StdMenu|[{{MenuCommand/fr|Affichage}}](Std_View_Menu/fr.md)}}, {{StdMenu|[{{MenuCommand|Outils}}](Std_Tools_Menu/fr.md)}}, {{StdMenu|[{{MenuCommand|Macro}}](Std_Macro_Menu/fr.md)}}, {{StdMenu|[{{MenuCommand|Fenêtre}}](Std_Windows_Menu/fr.md)}}, {{StdMenu|[{{MenuCommand|Aide}}](Std_Help_Menu/fr.md)}}.
+Les [menus standard](Standard_Menu/fr.md) sont: {{StdMenu|[**Fichier**](Std_File_Menu/fr.md)}}, {{StdMenu|[{{MenuCommand/fr|Edition}}](Std_Edit_Menu/fr.md)}}, {{StdMenu|[{{MenuCommand/fr|Affichage}}](Std_View_Menu/fr.md)}}, {{StdMenu|[**Outils**](Std_Tools_Menu/fr.md)}}, {{StdMenu|[**Macro**](Std_Macro_Menu/fr.md)}}, {{StdMenu|[**Fenêtre**](Std_Windows_Menu/fr.md)}}, {{StdMenu|[**Aide**](Std_Help_Menu/fr.md)}}.
 
-### Barres d\'outils {#barres_doutils}
+### Barres d\'outils 
 
 Les barres d\'outils standard qui apparaissent dans l\'interface sont:
 
@@ -41,7 +41,7 @@ Les barres d\'outils standard qui apparaissent dans l\'interface sont:
 -   Barre d'outils Vue: outils permettant de contrôler l'apparence des objets dans la [Vue 3D](3D_view/fr.md).
 -   Barre d\'outils Structure: outils pour organiser les objets dans le document et créer des liens vers des documents supplémentaires.
 
-Celles-ci peuvent être activées ou désactivées en cliquant avec le bouton droit de la souris sur un espace vide de l\'une des barres d\'outils et en choisissant l\'élément souhaité, ou dans le menu. {{MenuCommand|Affichage → Barres d'outils}}.
+Celles-ci peuvent être activées ou désactivées en cliquant avec le bouton droit de la souris sur un espace vide de l\'une des barres d\'outils et en choisissant l\'élément souhaité, ou dans le menu. **Affichage → Barres d'outils**.
 
 ### Panneaux
 
@@ -58,9 +58,9 @@ Les panneaux principaux permettant de travailler avec des objets sont:
 -   [Barre d\'état](Status_bar/fr.md): la barre qui montre certains messages de l\'application et qui a le sélecteur pour la [Navigation par la souris](Mouse_navigation/fr.md).
 -   [Vue DAG](DAG_view/fr.md): une alternative à la [Vue arborescence](Tree_view/fr.md), qui montre les relations entre différents objets graphiquement.
 
-À l\'exception de la vue 3D, tout peut être activé ou désactivé en cliquant avec le bouton droit de la souris sur un espace vide de l\'une des barres d\'outils supérieures et en choisissant l\'élément souhaité, ou dans le menu, {{MenuCommand|Affichage → Panneaux}}.
+À l\'exception de la vue 3D, tout peut être activé ou désactivé en cliquant avec le bouton droit de la souris sur un espace vide de l\'une des barres d\'outils supérieures et en choisissant l\'élément souhaité, ou dans le menu, **Affichage → Panneaux**.
 
-Pour activer et désactiver la barre d\'état utiliser le menu, {{MenuCommand|Affichage → Barre d'état}}.
+Pour activer et désactiver la barre d\'état utiliser le menu, **Affichage → Barre d'état**.
 
 ### Autre
 
@@ -73,7 +73,7 @@ Les autres interfaces et fenêtres utiles incluent:
 
 Les barres d'outils peuvent avoir plus ou moins de boutons, et des barres d'outils personnalisées peuvent être créées avec un mélange de différents outils et pour stocker des macros développées.
 
-Ces options sont dans le menu, {{MenuCommand|Outils → Personnaliser...}}. Voir [Personnalisation de l\'interface](Interface_Customization/fr.md).
+Ces options sont dans le menu, **Outils → Personnaliser...**. Voir [Personnalisation de l\'interface](Interface_Customization/fr.md).
 
 
 {{Interface navi

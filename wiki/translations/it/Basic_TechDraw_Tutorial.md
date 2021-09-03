@@ -10,7 +10,7 @@ Questo tutorial introduce il nuovo utente ad alcuni degli strumenti e delle tecn
 
 </div>
 
-## Prima di iniziare {#prima_di_iniziare}
+## Prima di iniziare 
 
 Scaricare il [file di esempio](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) dal tutorial di Part Design.
 
@@ -18,11 +18,11 @@ Scaricare il [file di esempio](https://github.com/FreeCAD/Examples/blob/master/B
 
 In questo tutorial, si utilizzerà TechDraw per creare i disegni 2D della parte 3D sottostante. Creeremo più viste della parte e aggiungeremo le dimensioni chiave. Questo tutorial non userà tutte le funzionalità e gli strumenti disponibili all\'interno di TechDraw, ma dovrebbe essere sufficiente per fornire all\'utente una base su cui costruire le proprie conoscenze e abilità.
 
-## La Parte {#la_parte}
+## La Parte 
 
 ![](images/Tut17_final_refined.png )
 
-## Creare un disegno {#creare_un_disegno}
+## Creare un disegno 
 
 ### Inizio
 
@@ -33,7 +33,7 @@ In questo tutorial, si utilizzerà TechDraw per creare i disegni 2D della parte 
 
 <div class="mw-translate-fuzzy">
 
-### Viste e dimensioni {#viste_e_dimensioni}
+### Viste e dimensioni 
 
 In TechDraw tutti i lavori iniziano con una Pagina. Le pagine sono basate sui modelli e contengono le viste.
 
@@ -74,7 +74,7 @@ Meglio, ma un po\' noioso. Aggiungiamo alcune dimensioni.
 
 ![](images/TDTut_TopView2Dims.png )
 
-### Testo editabile {#testo_editabile}
+### Testo editabile 
 
 Bisogna aggiungere della documentazione al disegno.
 
@@ -110,7 +110,7 @@ Prima di lasciare questa pagina, vediamo come sarà quando la stamperemo.
 
 ![](images/TDTut_Toggle.png )
 
-### Viste multiple di una singola parte {#viste_multiple_di_una_singola_parte}
+### Viste multiple di una singola parte 
 
 Creiamo un disegno a vista multipla utilizzando un modello diverso come punto di partenza. Useremo la convenzione del primo angolo, ma potete passare al terzo angolo se questa è la convenzione locale che volete utilizzare.
 
@@ -138,7 +138,7 @@ Creiamo un disegno a vista multipla utilizzando un modello diverso come punto di
 
 </div>
 
-### Collegare le quote al modello 3D {#collegare_le_quote_al_modello_3d}
+### Collegare le quote al modello 3D 
 
 Notate un problema con la dimensione che è appena stata creata?
 
@@ -158,7 +158,7 @@ Dalla prima parte di questo tutorial, sappiamo che il pezzo da lavorare è largo
 
 </div>
 
-## Andare avanti {#andare_avanti}
+## Andare avanti 
 
 In questo tutorial si dovrebbe aver imparato abbastanza su TechDraw per produrre un disegno come questo (by [NormandC](User:Normandc.md)). Vedere nota 2.
 
@@ -171,7 +171,7 @@ TechDraw offre molte altre funzionalità da esplorare: viste di sezione, viste d
 1.  C\'è un eccellente set di preferenze suggerite in questa [discussione nel Forum](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189).
 2.  Questo disegno è stato prodotto con la versione 0.18. Mostra le dimensioni nel formato corretto per una vista isometrica. Nella versione 0.17 le linee di estensione sono perpendicolari al bordo invece che allineate con gli assi.
 
-## Risorse aggiuntive {#risorse_aggiuntive}
+## Risorse aggiuntive 
 
 -   File FreeCAD di questo esercizio per il confronto (realizzato con 0.17) [Download](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 

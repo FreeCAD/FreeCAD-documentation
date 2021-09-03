@@ -19,7 +19,7 @@ Der <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Entwurf Verbin
 2.  Wähle zwei oder mehr [Entwurf Linien](Draft_Line/de.md) und/oder [Entwurf Drähte](Draft_Wire/de.md).
 3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_Join.svg" width=16px> [Entwurf_Verbinden](Draft_Join/de.md)** Schaltfläche.
-    -   Wähle die Option {{MenuCommand|Änderung → <img src="images/Draft_Join.svg" width=16px> Verbinden}} aus dem Menü.
+    -   Wähle die Option **Änderung → <img src="images/Draft_Join.svg" width=16px> Verbinden** aus dem Menü.
     -   Verwende das Tastaturkürzel: **J** dann **O**.
 
 ## Hinweise

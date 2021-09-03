@@ -30,7 +30,7 @@ Il est à noter que le solide généré ne sera **pas** paramétrique. Si vous d
 
 **Résultat:** un **Balayage** sera créé dans l\'arborescence du Projet.
 
-## Éléments 2D supportés {#éléments_2d_supportés}
+## Éléments 2D supportés 
 
 -   Filaires
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Esquisses](Sketcher_Workbench/fr.md)
@@ -45,7 +45,7 @@ Il est à noter que le solide généré ne sera **pas** paramétrique. Si vous d
 -   S\'il y a un nœud dans la forme résultante, modifiez la macro et changez la valeur *isFrenet* à 0 (zéro), puis essayez à nouveau.
 -   Réglez la variable *makeSolid* à 0 (zéro) pour obtenir une forme non solide faite de surfaces avec des extrémités ouvertes.
 
-## Le script {#le_script}
+## Le script 
 
 ToolBar Icon ![](images/Macro_Solid_Sweep.png )
 

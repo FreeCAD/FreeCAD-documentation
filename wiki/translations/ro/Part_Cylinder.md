@@ -25,11 +25,11 @@ Creează un simplu cilindru parametric, cu parametrii de poziție, unghi, rază 
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 În bara de lucru Atelierului [Part](Part_Workbench.md) faceți clic pe pictograma cilindrului ![ 32px](images/_Part_Cylinder.png ). Valoarea prestabilită este pentru poziționarea unui cilindru complet, centrul unei fețe circulare care coincide cu originea globală (punctul 0,0,0), cu o rază de 2 mm și o înălțime de 10 mm.
 
-### Prima metodă {#prima_metodă}
+### Prima metodă 
 
 Faceți clic direct pe butonul {{KEY/it|<img src="images/_Part_Cylinder.png" width=16px> Cilindru}} din bara de instrumente.
 
@@ -41,7 +41,7 @@ Creează un cilindru implicit cu o rază de 2 mm, înălțime de 10 mm și centr
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md)
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Part_Cylinder.svg" width=16px> Cylinder** button in the toolbar.
-    -   Select {{MenuCommand|Part → Primitives → <img src="images/Part_Cylinder.svg" width=16px> Cylinder}} entry from the top menu
+    -   Select **Part → Primitives → <img src="images/Part_Cylinder.svg" width=16px> Cylinder** entry from the top menu
 
 **Result:** The default result is a full cylinder with a radius of 2 mm and height of 10 mm, centered along the global z-axis and attached to the global xy-plane.
 

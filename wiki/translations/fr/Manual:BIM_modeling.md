@@ -23,7 +23,7 @@ et produire un plan et une vue en coupe de celui-ci :
 ![](images/Exercise_arch_02.jpg )
 
 -   Créez un nouveau document et passez à l'[atelier Arch](Arch_Workbench/fr.md).
--   Depuis le menu {{MenuCommand|Edition → Préférences → Draft → Grille et aimantation}} et réglez:
+-   Depuis le menu **Edition → Préférences → Draft → Grille et aimantation** et réglez:
     -   **Lignes principales toutes les** `10`.
     -   **Espacement de la grille** `1000mm` pour avoir une grille d\'un mètre, ce qui convient à la taille de notre bâtiment.
     -   **Taille de la grille** `100 lignes`.

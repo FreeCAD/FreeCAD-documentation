@@ -19,7 +19,7 @@ Affiche ou masque l\'affichage des **poids** pour les points de contrôle d\'une
 
 1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Afficher/masquer le poids du point de contrôle de la spline B](Sketcher_BSplinePoleWeight/fr.md)**.
 
-## Explication de poids {#explication_de_poids}
+## Explication de poids 
 
 Les B-splines sont essentiellement une combinaison de [courbes de Bézier](B-Splines/fr#Courbes_de_B.C3.A9zier.md) (bien expliqué dans ces vidéos [ici](https://www.youtube.com/watch?v=bE1MrrqBAl8) et [ici](https://www.youtube.com/watch?v=xXJylM2S72s)).
 
@@ -49,7 +49,7 @@ Un poids de zéro serait une singularité dans l\'équation pour calculer les co
 <img alt="" src=images/sketcher_BSplineWeightZero.png  style="width:468px;"> 
 *Même B-spline avec un point de contrôle de poids presque nul*
 
-## Changer de poids {#changer_de_poids}
+## Changer de poids 
 
 La façon de modifier les poids est décrite dans [cette page Wiki](B-Splines#Changing_the_Weight.md).
 

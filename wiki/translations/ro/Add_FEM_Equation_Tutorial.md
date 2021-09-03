@@ -16,7 +16,7 @@
 
 Sarcina poate fi împărțită în patru părți. Primul pas este de a face bancul de lucru FEM conștient de un nou tip de ecuație. Această etapă ar trebui efectuată numai dacă ecuația nu există în fluxul FreeCAD (spre deosebire de ecuația care există deja în FreeCAD, dar nu este suportată de solverul țintă). Al doilea pas este de a adăuga un obiect tip document concret la ecuația specifică a lui Elmer FEM Solver. Al treilea pas este să adăugăm sprijin pentru noua ecuație obiectului solver al lui Elmer. După ce analiza Elmer trebuie extinsă pentru a susține noul tip de ecuație.
 
-## Nou tip de Equation {#nou_tip_de_equation}
+## Nou tip de Equation 
 
 In this step we are going to modify the following file:
 
@@ -37,7 +37,7 @@ class FlowViewProxy(BaseViewProxy):
         return ":/icons/FEM_EquationFlow.svg"
 ```
 
-## Obiectul Elmers FEM Solver Equation {#obiectul_elmers_fem_solver_equation}
+## Obiectul Elmers FEM Solver Equation 
 
 În acest pas vom modifica următoarele fișiere:
 
@@ -61,7 +61,7 @@ Să începem cu modulul care implementează obiectul documentului. In poate fi c
 
 The flow equation in Elmer is a potentially non-linear equation. This means that we are going to base our work on {{Incode|heat.py}}.
 
-### Editing files {#editing_files}
+### Editing files 
 
 După copiere Heat.py to Flow.py adjust - argumentul de nume al funcției de creare a modulului, - atributul Type al clasei Proxy, - - clasele de bază ale proxy - ului și ale ViewProxy classes, - și proprietățile adăugate prin funcția obj.addProperty(..) de cele necesare ecuației.
 
@@ -91,7 +91,7 @@ Finally one has to register a **makeEquationFlow** definition in {{Incode|src/Mo
 
 Nu în ultimul rând, înregistrați noul fișier modul (Flow.py) în ambele fișiere CMakeLists.txt modul descris în [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Listele potrivite pot fi găsite prin căutarea fișierelor de module de ecuație existente ale lui Elmer FEM Solver.
 
-## Extinderea Obiectului Solver {#extinderea_obiectului_solver}
+## Extinderea Obiectului Solver 
 
 În acest pas vom modifica următorul fișier:
 
@@ -116,7 +116,7 @@ _EQUATIONS = {
 }
 ```
 
-## Extensia Analizei Export {#extensia_analizei_export}
+## Extensia Analizei Export 
 
 În acest pas vom modifica următorul fișier:
 
@@ -169,7 +169,7 @@ can control a series of other detailed methods. Our flow equation uses the follo
 
 We now finished the function part of the new equation. Next we\'ll connect the new equation through the GUI.
 
-## Gui tool to create an equation {#gui_tool_to_create_an_equation}
+## Gui tool to create an equation 
 
 We have just created a new equation class. To access it from the FEM GUI, we need to create a button and link it to the new equation class. Here is a tutorial: [Add button to FEM toolbar tutorial](Add_button_to_FEM_toolbar_tutorial.md).
 

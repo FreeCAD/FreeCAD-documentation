@@ -6,7 +6,7 @@
 
 {{Manual:TOC/es}}
 
-FreeCAD utiliza el [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) para dibujar y gestionar su interfaz. Este framework se utiliza en una amplia gama de aplicaciones, por lo que la interfaz de FreeCAD es muy clásica y no presenta ninguna dificultad especial para su comprensión. La mayoría de los botones son estándar y se encontrarán donde los esperas {{MenuCommand|Archivo → Abrir, Editar → Pegar, etc}}. Este es el aspecto de FreeCAD cuando lo abres por primera vez, justo después de la instalación, mostrando el centro de inicio:
+FreeCAD utiliza el [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) para dibujar y gestionar su interfaz. Este framework se utiliza en una amplia gama de aplicaciones, por lo que la interfaz de FreeCAD es muy clásica y no presenta ninguna dificultad especial para su comprensión. La mayoría de los botones son estándar y se encontrarán donde los esperas **Archivo → Abrir, Editar → Pegar, etc**. Este es el aspecto de FreeCAD cuando lo abres por primera vez, justo después de la instalación, mostrando el centro de inicio:
 
 ![](images/FreeCAD-v0-18-FirstStart.png )
 
@@ -16,7 +16,7 @@ Después de un tiempo, cuando estés más familiarizado con FreeCAD, puede que h
 
 ![](images/FreeCAD-v0-18-NewProject.png )
 
-### Ambientes de trabajo {#ambientes_de_trabajo}
+### Ambientes de trabajo 
 
 Observa que algunos de los iconos han cambiado entre las dos capturas de pantalla anteriores. Aquí es donde entra en juego el concepto más importante utilizado en la interfaz de FreeCAD: Las ambientes de trabajo.
 
@@ -30,7 +30,7 @@ Las ambientes de trabajo a menudo confunden a los nuevos usuarios, ya que no sie
 
 Más adelante en este manual, también encontrará una tabla que muestra el contenido de todos las ambientes de trabajo.
 
-### La interfaz {#la_interfaz}
+### La interfaz 
 
 Veamos mejor las diferentes partes de la interfaz:
 
@@ -38,7 +38,7 @@ Veamos mejor las diferentes partes de la interfaz:
 
 -   **La vista 3D** es el componente principal de la interfaz; es donde se dibujan y manipulan los objetos con los que se trabaja. Puede tener varias vistas del mismo documento (o de los mismos objetos), o varios documentos abiertos al mismo tiempo. Cada una de estas vistas puede desacoplarse individualmente de la ventana principal. Puede seleccionar objetos o partes de objetos haciendo clic en ellos, y puede desplazar, ampliar y girar la vista con los botones del ratón. Esto se explicará con más detalle en el próximo capítulo.
 
-Además del panel de vista 3D, están disponibles los siguientes paneles de información. Pueden hacerse visibles u ocultarse seleccionándolos desde {{MenuCommand|Ver → Paneles}}. . El nombre del panel aparece en la esquina superior izquierda del panel cuando se muestra:
+Además del panel de vista 3D, están disponibles los siguientes paneles de información. Pueden hacerse visibles u ocultarse seleccionándolos desde **Ver → Paneles**. . El nombre del panel aparece en la esquina superior izquierda del panel cuando se muestra:
 
 -   **La vista combinada** tiene dos pestañas:
     -   La pestaña Modelo le muestra el contenido y la estructura de su documento arriba y las propiedades (o parámetros) del objeto u objetos seleccionados abajo. Estas propiedades se dividen en dos categorías:
@@ -55,11 +55,11 @@ Además del panel de vista 3D, están disponibles los siguientes paneles de info
 
 ![](images/FreeCAD-v0-18-ExtrudeTask.png )
 
-### Personalización de la interfaz {#personalización_de_la_interfaz}
+### Personalización de la interfaz 
 
 La interfaz de FreeCAD es altamente personalizable. Todos los paneles y barras de herramientas pueden moverse a diferentes lugares o apilarse unos sobre otros. También pueden cerrarse y reabrirse cuando sea necesario desde el menú Ver o haciendo clic con el botón derecho en un área vacía de la interfaz. Sin embargo, hay muchas más opciones disponibles, como la creación de barras de herramientas personalizadas con herramientas de cualquiera de las ambientes de trabajo, o la asignación y modificación de atajos de teclado.
 
-Estas opciones de personalización avanzada están disponibles en el {{MenuCommand|Herramientas → Personalizar}}:
+Estas opciones de personalización avanzada están disponibles en el **Herramientas → Personalizar**:
 
 ![](images/FreeCAD-v0-18-CustomizeInterface.png )
 

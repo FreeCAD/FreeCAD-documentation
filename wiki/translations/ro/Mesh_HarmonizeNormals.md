@@ -38,7 +38,7 @@ Armonizați normalele plaselor sau ochiurilor selectate.
 </div>
 
 -   This command can produce a mesh with flipped normals. The [Mesh FlipNormals](Mesh_FlipNormals.md) command can be used to correct this.
--   For a clear indication of the orientation of the faces of mesh objects make sure the **Lighting** property of the mesh objects is set to {{Value|One side}}. The color of the back side of their faces will then depend on the backlight settings: {{MenuCommand|Edit → Preferences... → Display → 3D View → Backlight color - Intensity}}. See: [Preferences Editor](Preferences_Editor#3D_View.md).
+-   For a clear indication of the orientation of the faces of mesh objects make sure the **Lighting** property of the mesh objects is set to {{Value|One side}}. The color of the back side of their faces will then depend on the backlight settings: **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See: [Preferences Editor](Preferences_Editor#3D_View.md).
 
 
 

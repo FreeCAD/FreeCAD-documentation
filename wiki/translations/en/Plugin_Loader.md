@@ -19,7 +19,7 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 
 ## Usage
 
-1.  Select the {{MenuCommand|Tools → <img src="images/Std_AddonMgr.svg" width=16px> Addon manager}} option from the menu.
+1.  Select the **Tools → <img src="images/Std_AddonMgr.svg" width=16px> Addon manager** option from the menu.
 2.  If you are using the Addon manager for the first time, a dialog box will open warning you that the addons in the Addon manager are not officially part of FreeCAD. Press the **OK** button to confirm and continue.
 3.  The Addon manager dialog box opens. For more information see [Options](#Options.md).
 4.  The **<img src="images/Button_valid.svg" width=16px> Update all** button does not work at this time.
@@ -59,15 +59,15 @@ The Addon manager dialog box has two tabs on the left, one listing the available
 -   If the [GitPython](https://github.com/gitpython-developers/GitPython) package is installed on your computer the Addon manager will make use of it, making downloads faster.
 -   You can also install addons manually. See [How to install additional workbenches](How_to_install_additional_workbenches.md) and [How to install macros](How_to_install_macros.md).
 
-## Information for developers {#information_for_developers}
+## Information for developers 
 
 If you have developed a workbench or macro, and want to see it included in the Addon manager, read how to do so on the repository pages: ([FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) and [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). If you add your macro to the [Macros recipes](Macros_recipes.md) page, there is nothing else to do, it will automatically be picked up by the Addon manager.
 
-### Python workbenches {#python_workbenches}
+### Python workbenches 
 
 For python workbenches, you don\'t need any specific approval to have your workbench added to the Addon manager and, being outside the FreeCAD source code, you can choose the license you want. If you request for your workbench to be added to the list (we will not add any new workbench without a request from its authors), either by asking so on the forum or by opening an issue on the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) repository, your code will stay on your own git repository, we will just add it as a submodule to the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) repository. Of course, before adding your workbench, we will take a look at it and make sure there is nothing potentially problematic with it.
 
-### C++ workbenches {#c_workbenches}
+### C++ workbenches 
 
 If you develop a workbench in C++, it cannot be run directly by users and must be compiled first. You then have two options, either you provide precompiled versions of your workbench yourself, for the different operating systems, or you should request to have your code merged into the FreeCAD source code. For that, you should use the LGPL license (or a fully compatible license like MIT or BSD), and you must present your new tools to the community in the [FreeCAD forum](https://forum.freecadweb.org) for review. Once your code has been tested and approved, you should fork the FreeCAD repository, if not done yet, create a new branch, push your code to it, and open a pull request so that your branch is merged into the main repository.
 

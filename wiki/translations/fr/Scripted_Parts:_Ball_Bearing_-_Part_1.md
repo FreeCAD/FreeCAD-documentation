@@ -15,7 +15,7 @@ Le code produira un nouveau document FreeCAD avec 12 formes (anneau intérieur, 
 Cela ressemblera à ceci :
 <img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
 
-### Workflow ou flux de travail {#workflow_ou_flux_de_travail}
+### Workflow ou flux de travail 
 
 Le flux de travail est plus ou moins identique à la façon dont vous créeriez la pièce dans l\'atelier Part.
 Juste quelques petites differences.
@@ -33,7 +33,7 @@ Juste quelques petites differences.
 -   Définir la vue sur axonométrique
 -   Zoomez pour une vue d\'ensemble
 
-### Filetage des arrêtes {#filetage_des_arrêtes}
+### Filetage des arrêtes 
 
 Dans l\'atelier Part (pièce) en utilisant l\'interface graphique, vous sélectionneriez des chanfreins dans la vue 3D ou dans le menu pour les congés, puis appliquez les congés.
 Ici, nous sélectionnons toutes les arrêtes d\'une forme et appliquons des congés.

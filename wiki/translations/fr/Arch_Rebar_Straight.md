@@ -13,12 +13,12 @@ L\'outil [Armature droite](Arch_Rebar_Straight/fr.md) permet à l\'utilisateur d
 
 L\'outil [Straight Rebar](Arch_Rebar_Straight/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu {{MenuCommand|Outils → Gestionnaire d'Addon → Reinforcement}}.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
 *Deux jeux d'armatures droites à l'intérieur d'une [Structure](Arch_Structure/fr.md)*
 
-## Comment faire {#comment_faire}
+## Comment faire 
 
 1.  Sélectionnez n'importe quelle face d'un objet créé précédemment {{Button | <img src="images/_Arch_Structure.svg_" width= 16px> [Arch Structure](Arch_Structure/fr.md)}}.
 2.  Puis sélectionnez **<img src="images/Arch_Rebar_Straight.svg" width=16px> [Armature droite](Arch_Rebar_Straight/fr.md)** dans les outils pour barres d\'armature.
@@ -103,7 +103,7 @@ Rebar = makeStraightRebar(f_cover, coverAlong, rt_cover, lb_cover,
 
 En fonction de l\'orientation de la barre, la fonction peut être appelée de deux manières générales en définissant `coverAlong` de manière appropriée.
 
-### L\'armature est horizontale {#larmature_est_horizontale}
+### L\'armature est horizontale 
 
 
 ```python
@@ -115,7 +115,7 @@ Rebar = makeStraightRebar(f_cover, ("Bottom Side", value), right_cover, left_cov
 
 -   Dans ce cas, `rt_cover` fait référence à l\'offset `right_cover` et `lb_cover` à l\'attente `left_cover`.
 
-### L\'armature est verticale {#larmature_est_verticale}
+### L\'armature est verticale 
 
 
 ```python
@@ -127,7 +127,7 @@ Rebar = makeStraightRebar(f_cover, ("Right Side", value), top_cover, bottom_cove
 
 -   Dans ce cas, `rt_cover` fait référence à l\'offset `top_cover` et `lb_cover` à l\'offset `bottom_cover`.
 
-### Exemple horizontal {#exemple_horizontal}
+### Exemple horizontal 
 
 
 ```python
@@ -146,7 +146,7 @@ Rebar2 = StraightRebar.makeStraightRebar(50, ("Bottom Side", 50), 100, 100,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
 
-### Exemple vertical {#exemple_vertical}
+### Exemple vertical 
 
 
 ```python
@@ -166,7 +166,7 @@ Rebar4 = StraightRebar.makeStraightRebar(50, ("Left Side", 50), 100, 100,
 Rebar4.ViewObject.ShapeColor = (0.0, 0.5, 0.5)
 ```
 
-### Édition de la barre d'armement {#édition_de_la_barre_darmement}
+### Édition de la barre d'armement 
 
 Vous pouvez changer les propriétés de la barre d'armement avec la fonction suivante. 
 ```python

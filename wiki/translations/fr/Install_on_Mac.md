@@ -30,7 +30,7 @@ Si vous rencontrez des problèmes avec la formule HomeBrew Cask ou Formula, vous
 
 Cette page décrit comment installer FreeCAD. Elle inclue également les instructions de désinstallation. Une fois installé, vous pouvez [démarrer](Getting_started/fr.md) !
 
-## Installation simple {#installation_simple}
+## Installation simple 
 
 L\'installateur FreeCAD est fourni sous forme d\'application (.app) empaquetée dans un fichier d\'image disque.
 

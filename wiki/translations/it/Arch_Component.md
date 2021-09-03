@@ -34,7 +34,7 @@ Crea un componente [Arch](Arch_Workbench/it.md) non parametrico basato su un ogg
 
 </div>
 
-## Proprietà comuni dei componenti Arch {#proprietà_comuni_dei_componenti_arch}
+## Proprietà comuni dei componenti Arch 
 
 L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri oggetti Arch (<img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Muro](Arch_Wall/it.md), <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md), ecc). Pertanto alcune delle sue proprietà e comportamenti sono comuni a tutti gli oggetti Arch (tranne gli strumenti che non producono oggetti solidi, come <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Piano di sezione](Arch_SectionPlane/it.md) o <img alt="" src=images/Arch_Axis.svg  style="width:16px;"> [Assi](Arch_Axis/it.md)):
 

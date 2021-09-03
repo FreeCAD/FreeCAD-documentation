@@ -2,7 +2,7 @@
 
 The information provided is implementation specific, and may change. Current state is relevant to FreeCAD 0.15.4119, OCC version: 6.7.0.
 
-## Stages of the Loft creation {#stages_of_the_loft_creation}
+## Stages of the Loft creation 
 
 To explain the process of loft, it is convenient to divide it into stages:
 
@@ -10,7 +10,7 @@ To explain the process of loft, it is convenient to divide it into stages:
 2.  establish correspondence between segments
 3.  make the loft surface
 
-### Step 1. Making numbers of segment in profiles match {#step_1._making_numbers_of_segment_in_profiles_match}
+### Step 1. Making numbers of segment in profiles match 
 
 The Loft needs the number of segments to match in order to create surfaces between corresponding segments. If the numbers of segments match in all profiles, this step is skipped.
 
@@ -26,7 +26,7 @@ The operation is extended to all profiles, to yield the equal number of segments
   <img alt="The process of slicing profile2 (white crescent-like shape) to create joints corresponding to vertices of profile1 (purple pentagon). The inserted joints are marked by yellow arrows." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="The result of loft relevant to the picture on the left." src=images/Loft_crescent_pentagon.png  style="width:300px;">
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Step 2. Establishing correspondence between segments {#step_2._establishing_correspondence_between_segments}
+### Step 2. Establishing correspondence between segments 
 
 <img alt="Demonstration of Loft keeping the number of segments in profiles when they match. Note how 3 edges of the top square \"collapse\" into a small polygonal piece of the bottom profile." src=images/Loft_Number_of_verts_match.png  style="width:300px;"> In case numbers of segments in all profiles were not equal, slicing was done in Step 1, and the correspondence is trivial. In case numbers of segments in all profiles were equal, existing segments are used (see the picture), and this is when the correspondence must be established.
 
@@ -36,7 +36,7 @@ The correspondence between neighboring profiles is made independently. This mean
 
 Another thing to note is that when numbers of segments in profiles are equal, the resulting Loft is substantially more robust with respect to complex profiles, especially for non-convex ones.  
 
-### Step 3. Making the loft surface. {#step_3._making_the_loft_surface.}
+### Step 3. Making the loft surface. 
 
 <img alt="A spline interpolation curve (red) that follows the loft surface. The points to interpolate through are shown as red squares." src=images/Loft_B-spline.png  style="width:400px;"> If there are only two profiles, the surfaces created are ruled surfaces between corresponding segments of the profiles. Straight edges are created to connect corresponding vertices of the profiles.
 
@@ -51,14 +51,14 @@ The knotting method used is \"approximate chord length\". Approximate stands for
 
 Note that Loft has a \"Ruled\" property. If it is set to true, ruled surfaces are made between neighboring profiles even when there\'s more than one profile. That is, B-spline interpolation is replaced by piecewise linear interpolation.  
 
-## The essence {#the_essence}
+## The essence 
 
 -   The loft is doing B-spline interpolation between the provided profiles. The interpolation is switched to piecewise linear when \"Ruled\" property is set to true.
 -   When number of profiles exceeds 9, interpolation degree is dropped to 3. This switchover can substantially reduce wiggling.
 -   Matching the number of segments (aka number of vertices) in the profiles allows one to give the loft a slight twist, and typically permits using more complex profiles.
 -   When numbers of segments are not matched, it\'s best to keep the profiles to be representable by a proper r(phi) function in polar coordinates.
 
-## Additional remarks {#additional_remarks}
+## Additional remarks 
 
 -   It is not required that the profiles are parallel (see a picture below).
 -   For Loft, it is not required that the profiles are separated (see a picture below). They can be coplanar, but they should not intersect.

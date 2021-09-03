@@ -5,7 +5,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La [vista ad albero](tree_view/it.md) appare nella scheda {{MenuCommand|Modello}} della [vista combinata](combo_view/it.md); mostra tutti gli oggetti definiti dall\'utente che fanno parte di un documento di FreeCAD. La vista ad albero è una rappresentazione della [struttura del documento](document_structure/it.md) e indica quali informazioni vengono salvate sul disco.
+La [vista ad albero](tree_view/it.md) appare nella scheda **Modello** della [vista combinata](combo_view/it.md); mostra tutti gli oggetti definiti dall\'utente che fanno parte di un documento di FreeCAD. La vista ad albero è una rappresentazione della [struttura del documento](document_structure/it.md) e indica quali informazioni vengono salvate sul disco.
 
 
 </div>
@@ -23,7 +23,7 @@ Questi oggetti non devono necessariamente essere forme geometriche visibili nell
 
 *La vista ad albero che mostra vari elementi nel documento.*
 
-## Lavorare con la vista ad albero {#lavorare_con_la_vista_ad_albero}
+## Lavorare con la vista ad albero 
 
 
 <div class="mw-translate-fuzzy">
@@ -62,58 +62,58 @@ Poiché la vista ad albero elenca oggetti che possono essere visibili nella [vis
 
 All\'avvio dell\'applicazione, per impostazione predefinita è attivo l\'ambiente [Start](Start_Workbench/it.md) e non viene stato creato alcun documento, facendo clic con il tasto destro del mouse sulla [vista ad albero](tree_view/it.md) appare solo un comando:
 
--    {{MenuCommand|Expression actions}}: [Copia selezionati](Std_Expressions/it.md), [Copia il documentoattivo](Std_Expressions/it.md), [Copia tutti i documenti](Std_Expressions/it.md), Incolla. Questi comandi consentono di lavorare con vari documenti, ma sono disabilitati se non è presente alcun documento.
+-    **Expression actions**: [Copia selezionati](Std_Expressions/it.md), [Copia il documentoattivo](Std_Expressions/it.md), [Copia tutti i documenti](Std_Expressions/it.md), Incolla. Questi comandi consentono di lavorare con vari documenti, ma sono disabilitati se non è presente alcun documento.
 
 
 </div>
 
 Una volta creato un nuovo documento, diventano attivi i seguenti elementi:
 
--    {{MenuCommand|Expression actions}}: [Copia il documento attivo](Std_Expressions/it.md), [Copia tutti i documenti](Std_Expressions/it.md).
+-    **Expression actions**: [Copia il documento attivo](Std_Expressions/it.md), [Copia tutti i documenti](Std_Expressions/it.md).
 
 
 <div class="mw-translate-fuzzy">
 
 Inoltre, sono disponibili le azioni [Link](Std_LinkMake/it.md).
 
--    {{MenuCommand|Link actions}}: [Crea Link](Std_LinkMake/it.md).
+-    **Link actions**: [Crea Link](Std_LinkMake/it.md).
 
     -   
-        {{MenuCommand|Make Link group}}
+        **Make Link group**
         
         : [Gruppo semplice](Std_LinkMakeGroup/it.md), [Gruppo con link](Std_LinkMakeGroup/it.md), [Gruppo con link di trasformazione](Std_LinkMakeGroup/it.md).
 
 
 </div>
 
-### Selezione del documento {#selezione_del_documento}
+### Selezione del documento 
 
 
 <div class="mw-translate-fuzzy">
 
-Se si seleziona il documento attivo e si fa clic con il tasto destro, oltre a {{MenuCommand|Expression actions}} and {{MenuCommand|Azioni link}}, vengono visualizzati i seguenti comandi:
+Se si seleziona il documento attivo e si fa clic con il tasto destro, oltre a **Expression actions** and **Azioni link**, vengono visualizzati i seguenti comandi:
 
--    {{MenuCommand|Mostra gli elementi nascosti}}: se attivo, la vista ad albero mostra gli oggetti nascosti.
+-    **Mostra gli elementi nascosti**: se attivo, la vista ad albero mostra gli oggetti nascosti.
 
--    {{MenuCommand|Cerca}}: mostra un campo di input per cercare oggetti all\'interno del documento selezionato.
+-    **Cerca**: mostra un campo di input per cercare oggetti all\'interno del documento selezionato.
 
--    {{MenuCommand|Chiudi il documento}}: chiude il documento selezionato chiamando il metodo `closeDocument()` dell\'applicazione.
+-    **Chiudi il documento**: chiude il documento selezionato chiamando il metodo `closeDocument()` dell\'applicazione.
 
--    {{MenuCommand|Salta il ricalcolo}}: se attivo, gli oggetti del documento non vengono più [ricalcolati](recompute/it.md) automaticamente.
+-    **Salta il ricalcolo**: se attivo, gli oggetti del documento non vengono più [ricalcolati](recompute/it.md) automaticamente.
 
     -   
-        {{MenuCommand|Consenti il ricalcolo parziale}}
+        **Consenti il ricalcolo parziale**
         
         : se attivo, il documento consente il [ricalcolo](recompute/it.md) solo di alcuni oggetti.
 
--    {{MenuCommand|Segna da ricalcolare}}: contrassegna tutti gli oggetti del documento come toccati e pronti per il [ricalcolo](recompute/it.md).
+-    **Segna da ricalcolare**: contrassegna tutti gli oggetti del documento come toccati e pronti per il [ricalcolo](recompute/it.md).
 
--    {{MenuCommand|[Crea un gruppo](Std_Group/it.md)}}: crea un [gruppo](Std_Group/it.md) nel documento selezionato usando il metodo `addObject()` del documento.
+-    **[Crea un gruppo](Std_Group/it.md)**: crea un [gruppo](Std_Group/it.md) nel documento selezionato usando il metodo `addObject()` del documento.
 
 
 </div>
 
-### Selezione degli oggetti {#selezione_degli_oggetti}
+### Selezione degli oggetti 
 
 Una volta aggiunti gli oggetti al documento, oltre alle azioni precedenti, facendo clic con il tasto destro su una parte vuota della vista ad albero vengono mostrati dei comandi aggiuntivi; questi dipendono dal tipo di oggetto e dall\'ambiente attivo.
 
@@ -122,29 +122,29 @@ Una volta aggiunti gli oggetti al documento, oltre alle azioni precedenti, facen
 
 Ad esempio, con [Draft](Draft_Workbench/it.md) attivo, selezionare prima un oggetto, quindi fare clic con il tasto destro su un posto vuoto nella vista ad albero:
 
--    {{MenuCommand|[Attiva/disattiva la visibilità](Std_ToggleVisibility/it.md)}}: rende l\'oggetto visibile o invisibile nella [vista 3D](3D_view/it.md).
+-    **[Attiva/disattiva la visibilità](Std_ToggleVisibility/it.md)**: rende l\'oggetto visibile o invisibile nella [vista 3D](3D_view/it.md).
 
--    {{MenuCommand|[Mostra la selezione](Std_ShowSelection/it.md)}}: rende visibili gli oggetti selezionati.
+-    **[Mostra la selezione](Std_ShowSelection/it.md)**: rende visibili gli oggetti selezionati.
 
--    {{MenuCommand|[Nascondi la selezione](Std_HideSelection/it.md)}}: nasconde gli oggetti selezionati.
+-    **[Nascondi la selezione](Std_HideSelection/it.md)**: nasconde gli oggetti selezionati.
 
--    {{MenuCommand|[Attiva/disattiva la selezionabilità](Std_ToggleSelectability/it.md)}}: rende l\'oggetto non più selezionabile nella [Vista 3D](3D_view/it.md); usare di nuovo questo comando per annullarne l\'effetto. Imposta l\'attributo `Selectable` dell\'oggetto su `True` o `False`. Modificare la proprietà attivando **Selectable** nell\'[editor delle proprietà](property_editor/it.md).
+-    **[Attiva/disattiva la selezionabilità](Std_ToggleSelectability/it.md)**: rende l\'oggetto non più selezionabile nella [Vista 3D](3D_view/it.md); usare di nuovo questo comando per annullarne l\'effetto. Imposta l\'attributo `Selectable` dell\'oggetto su `True` o `False`. Modificare la proprietà attivando **Selectable** nell\'[editor delle proprietà](property_editor/it.md).
 
--    {{MenuCommand|[Seleziona tutte le istanze](Std_TreeSelectAllInstances/it.md)}}: seleziona tutte le istanze di questo oggetto nella vista ad albero.
+-    **[Seleziona tutte le istanze](Std_TreeSelectAllInstances/it.md)**: seleziona tutte le istanze di questo oggetto nella vista ad albero.
 
--    {{MenuCommand|[Aspetto](Std_SetAppearance/it.md)}}: avvia la finestra di dialogo per modificare il colore e le dimensioni di linee e vertici e il colore delle facce.
+-    **[Aspetto](Std_SetAppearance/it.md)**: avvia la finestra di dialogo per modificare il colore e le dimensioni di linee e vertici e il colore delle facce.
 
--    {{MenuCommand|[Colore casuale](Std_RandomColor/it.md)}}: assegna un colore casuale all\'oggetto. Imposta l\'attributo `ShapeColor` dell\'oggetto su una tupla `(r, g, b)` con un valore casuale compreso tra 0 e 1. Cambia la proprietà modificando **Shape Color** nell\'[editor delle proprietà](property_editor/it.md).
+-    **[Colore casuale](Std_RandomColor/it.md)**: assegna un colore casuale all\'oggetto. Imposta l\'attributo `ShapeColor` dell\'oggetto su una tupla `(r, g, b)` con un valore casuale compreso tra 0 e 1. Cambia la proprietà modificando **Shape Color** nell\'[editor delle proprietà](property_editor/it.md).
 
--    {{MenuCommand|[Taglia](Std_Cut/it.md)}}: disabilitato se il cli con il tasto destro non si avviene sull\'oggetto.
+-    **[Taglia](Std_Cut/it.md)**: disabilitato se il cli con il tasto destro non si avviene sull\'oggetto.
 
--    {{MenuCommand|[Copia](Std_Copy/it.md)}}: copia un oggetto in memoria.
+-    **[Copia](Std_Copy/it.md)**: copia un oggetto in memoria.
 
--    {{MenuCommand|[Incolla](Std_Paste/it.md)}}: incolla l\'oggetto copiato nel documento; la copia viene aggiunta alla fine della vista ad albero.
+-    **[Incolla](Std_Paste/it.md)**: incolla l\'oggetto copiato nel documento; la copia viene aggiunta alla fine della vista ad albero.
 
--    {{MenuCommand|[Elimina](Std_Delete/it.md)}}: rimuove l\'oggetto dal documento e dalla vista ad albero chiamando il metodo `removeObject()` del documento.
+-    **[Elimina](Std_Delete/it.md)**: rimuove l\'oggetto dal documento e dalla vista ad albero chiamando il metodo `removeObject()` del documento.
 
--    {{MenuCommand|Utilità}}: **(opzionale)** comandi contestuali aggiuntivi forniti da [Draft](Draft_Workbench/it.md).
+-    **Utilità**: **(opzionale)** comandi contestuali aggiuntivi forniti da [Draft](Draft_Workbench/it.md).
 
 
 </div>
@@ -154,46 +154,46 @@ Ad esempio, con [Draft](Draft_Workbench/it.md) attivo, selezionare prima un ogge
 
 Se si seleziona un oggetto, ad esempio una [ linea di Draft](Draft_Line/it.md) e si fa clic con il tasto destro nello stesso oggetto, possono essere disponibili comandi aggiuntivi:
 
--    {{MenuCommand|Trasforma}}: avvia il widget di trasformazione per spostare o ruotare l\'oggetto.
+-    **Trasforma**: avvia il widget di trasformazione per spostare o ruotare l\'oggetto.
 
--    {{MenuCommand|Imposta i colori}}: imposta i colori dell\'oggetto.
+-    **Imposta i colori**: imposta i colori dell\'oggetto.
 
--    {{MenuCommand|Appiattisci questo profilo}}: **(Draft)** comando specifico per una [linea di Draft](Draft_Line/it.md).
+-    **Appiattisci questo profilo**: **(Draft)** comando specifico per una [linea di Draft](Draft_Line/it.md).
 
--    {{MenuCommand|Nascondi l'elemento}}: se attivo, l\'oggetto selezionato viene impostato come nascosto.
+-    **Nascondi l'elemento**: se attivo, l\'oggetto selezionato viene impostato come nascosto.
 
--    {{MenuCommand|Segna da ricalcolare}}: contrassegna l\'oggetto selezionato come toccato e pronto per il [ricalcolo](recompute/it.md).
+-    **Segna da ricalcolare**: contrassegna l\'oggetto selezionato come toccato e pronto per il [ricalcolo](recompute/it.md).
 
--    {{MenuCommand|Ricalcola}}: ricalcola l\'oggetto selezionato.
+-    **Ricalcola**: ricalcola l\'oggetto selezionato.
 
--    {{MenuCommand|Rinomina}}: avvia la modifica del nome dell\'oggetto selezionato. Ciò consente di modificare l\'attributo `Label`, ma non l\'attributo `Name`, poiché quest\'ultimo è di sola lettura.
+-    **Rinomina**: avvia la modifica del nome dell\'oggetto selezionato. Ciò consente di modificare l\'attributo `Label`, ma non l\'attributo `Name`, poiché quest\'ultimo è di sola lettura.
 
 
 </div>
 
-## Overlay icons {#overlay_icons}
+## Overlay icons 
 
 One or more smaller overlay icons can be displayed on top of an object\'s default icon in the tree view. The available overlay icons and their meaning are listed below. <small>(v0.19)</small> 
 
-### ![](images/FreeCAD_Tree_view_recompute.png ) White check mark on blue background {#freecad_tree_view_recompute.png_white_check_mark_on_blue_background}
+### ![](images/FreeCAD_Tree_view_recompute.png ) White check mark on blue background 
 
 This indicates that the object has to be [recomputed](Std_Refresh.md), due to changes made to the model or because the user marked the object in the tree view context menu to be recomputed. In most cases recomputes are triggered automatically, but sometimes they are delayed for performance reasons.
 
-### ![](images/FreeCAD_Tree_view_tip.png ) White arrow on green background {#freecad_tree_view_tip.png_white_arrow_on_green_background}
+### ![](images/FreeCAD_Tree_view_tip.png ) White arrow on green background 
 
 This indicates the so called [Tip](PartDesign_Body#Tip.md) of a body. It is usually the last feature in a [PartDesign Body](PartDesign_Body.md) and represents the whole body to the world outside of the body, e.g. when the body is exported or used in [Part boolean](Part_Boolean.md) operations. The tip can be changed by the user.
 
-### ![](images/FreeCAD_Tree_view_unattached.png ) Purple chain link on white background {#freecad_tree_view_unattached.png_purple_chain_link_on_white_background}
+### ![](images/FreeCAD_Tree_view_unattached.png ) Purple chain link on white background 
 
 This is typically shown for [sketches](Sketch.md), geometric primitives, such as box, cylinder, etc. and [Datum](Datum.md) geometry. It indicates that the object is not attached to anything. It has no Attachment Offset and gets its position and alignment solely from its [Placement](Placement.md) property.
 
 There is a [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md) explaining how to handle such objects.
 
-### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Yellow X {#freecad_tree_view_notfullyconstrained.png_yellow_x}
+### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Yellow X 
 
 This is only used for [sketches](Sketch.md) and indicates that the sketch is not fully constrained. Inside of [Sketcher](Sketcher_Workbench.md) the number of remaining degrees of freedom is shown in the solver messages.
 
-### ![](images/FreeCAD_Tree_view_error.png ) White exclamation mark on red background {#freecad_tree_view_error.png_white_exclamation_mark_on_red_background}
+### ![](images/FreeCAD_Tree_view_error.png ) White exclamation mark on red background 
 
 This indicates that the object has an error that needs to be fixed. After recomputing the whole document a tooltip describing the error is shown when you hover the mouse over the object in the tree view. Note: All other objects depending on an object in such an error state will not be properly recomputed, thus they may still show some old state.
 

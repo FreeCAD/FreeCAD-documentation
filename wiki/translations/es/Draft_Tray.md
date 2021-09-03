@@ -20,7 +20,7 @@ La [Bandeja Borrador](Bandeja_Borrador.md) te permite cambiar rápidamente las p
 
 ![](images/Draft_tray_default.png ) *The Draft Tray*
 
-## Available tools {#available_tools}
+## Available tools 
 
 -   ![](images/Draft_tray_button_plane.png ) [Select Plane](Draft_SelectPlane.md): selects the current Draft working plane.
 

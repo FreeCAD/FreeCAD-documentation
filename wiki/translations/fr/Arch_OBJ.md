@@ -19,7 +19,7 @@ En plus de l\'exportateur standard FreeCAD **[.OBJ](http://fr.wikipedia.org/wiki
 
 </div>
 
-## Exporter sans GUI {#exporter_sans_gui}
+## Exporter sans GUI 
 
 L\'exportation sans l\'interface graphique est possible à partir de la ligne de commande, en utilisant uniquement l\'exportateur de l\'[atelier Mesh](Mesh_Workbench/fr.md).
 
@@ -48,7 +48,7 @@ for i in range(mesh.countSegments()):
 mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 ```
 
-## Plus d\'informations {#plus_dinformations}
+## Plus d\'informations 
 
 -   [Convertir STEP en Wavefront OBJ avec les couleurs des faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452)
 

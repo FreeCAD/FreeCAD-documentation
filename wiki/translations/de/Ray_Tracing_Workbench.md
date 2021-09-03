@@ -26,7 +26,7 @@ Die Arbeitsbereich Strahlverfolgung ist im Wesentlichen veraltet. Eine Neuentwic
 
 <div class="mw-translate-fuzzy">
 
-## Typischer Arbeitsablauf {#typischer_arbeitsablauf}
+## Typischer Arbeitsablauf 
 
 1.  Erstelle oder öffne ein FreeCAD Projekt, füge einige Festkörperobjekte hinzu ([Part-basiert](Part_Workbench/de.md) oder [PartDesign-basiert](PartDesign_Workbench/de.md)); Netze werden derzeit nicht unterstützt.
 2.  Erstelle ein Strahlverfolgungsobjekt (povray oder luxrender).
@@ -43,7 +43,7 @@ Die Arbeitsbereich Strahlverfolgung ist im Wesentlichen veraltet. Eine Neuentwic
 
 ## Werkzeuge
 
-### Projekt Werkzeuge {#projekt_werkzeuge}
+### Projekt Werkzeuge 
 
 Dies sind die wichtigsten Werkzeuge für den Export deiner 3D Arbeit in externe Renderer.
 
@@ -71,7 +71,7 @@ Dies sind Hilfswerkzeuge, um bestimmte Aufgaben manuell auszuführen.
 -   [Grundlegendes Strahlverfolgungstutorium](Raytracing_tutorial/de.md)
 -   [Mittleres Strahlverfolgungstutorium](Tutorial_FreeCAD_POV_ray/de.md)
 
-## Eine Povray Datei manuell erzeugen {#eine_povray_datei_manuell_erzeugen}
+## Eine Povray Datei manuell erzeugen 
 
 Mit den oben beschriebenen Hilfswerkzeugen kannst Du die aktuelle 3D Ansicht und ihren gesamten Inhalt in eine Datei [Povray](http://www.povray.org/) exportieren. Zuerst musst Du Deine CAD Daten laden oder erstellen und die Ausrichtung der 3D Ansicht nach Deinen Wünschen positionieren. Wähle dann \"Hilfsprogramme → Export Ansicht\....\" aus dem Menü Strahlverfolgung.
 
@@ -87,7 +87,7 @@ Siehe [Strahlverfolgungs API Beispiel](Raytracing_API_example/de.md) für Inform
 
 ## Verweise
 
-### POV-Ray {#pov_ray}
+### POV-Ray 
 
 -   [POV-Ray Seite in diesem Wiki](POV-Ray/de.md)
 -   <http://www.spiritone.com/~english/cyclopedia/>
@@ -99,14 +99,14 @@ Siehe [Strahlverfolgungs API Beispiel](Raytracing_API_example/de.md) für Inform
 -   [LuxRender Seite in diesem Wiki](LuxRender/de.md)
 -   <http://www.luxrender.net/>
 
-### Zukünftige zur Implementierung mögliche Renderer {#zukünftige_zur_implementierung_mögliche_renderer}
+### Zukünftige zur Implementierung mögliche Renderer 
 
 -   <http://www.yafaray.org/>
 -   <http://www.mitsuba-renderer.org/>
 -   <http://www.kerkythea.net/>
 -   <http://www.artofillusion.org/>
 
-## Export nach Kerkythea {#export_nach_kerkythea}
+## Export nach Kerkythea 
 
 Obwohl der direkte Export in das Kerkythea XML-Datei-Format noch nicht unterstützt wird, kannst Du deine Objekte als Netz Datei (.obj) exportieren und dann in Kerkythea importieren.
 

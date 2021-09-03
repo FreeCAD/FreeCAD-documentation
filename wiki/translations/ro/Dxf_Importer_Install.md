@@ -13,7 +13,7 @@
 
 Această pagină explică pas cu pas pas cu pas calea de urmat pentru a instala ansamblul de fișiere Draft-dxf-import yorikhavre pentru a începe uploadul de fișiere cu formatul DXF în FreeCAD și să importați cu ajutorul utilitarului teighafileconverter. Această instalare a fost făcută sub Windows Vista, dar în principiu sistemul poate funcționa și sub Linux
 
-### Primul pas: {#primul_pas}
+### Primul pas: 
 
 identificați folderul FreeCAD al macrocomenzii
 
@@ -55,7 +55,7 @@ Dacă aveți o versiune începând cu pachetul 0.15, puteți utiliza actualizare
 
 **7 :** Închideți FreeCAD
 
-### Al doilea pas: {#al_doilea_pas}
+### Al doilea pas: 
 
 Descărcați fișierele
 
@@ -121,7 +121,7 @@ import importDXF
 print importDXF.CURRENTDXFLIB
 ```
 
-### Al treilea pas {#al_treilea_pas}
+### Al treilea pas 
 
 Descărcați convertorul Teigha converter pentru a utiliza fișiere DWG
 
@@ -161,7 +161,7 @@ Descărcați convertorul Teigha converter pentru a utiliza fișiere DWG
 
 ![directory Teigha File Converter 4.00.1](images/Dxf_Importer_Install_20.png ) 
 
-### Al patrulea pas: {#al_patrulea_pas}
+### Al patrulea pas: 
 
 Utilizare Teigha. Teigha este un program complet și poate fi folosit fără FreeCAD
 

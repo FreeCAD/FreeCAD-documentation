@@ -20,16 +20,16 @@
 
 </div>
 
-**Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under {{MenuCommand|Edit → Preferences → General}}. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
+**Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under **Edit → Preferences → General**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
 
-## FreeCAD\'i çevirme de yardım {#freecadi_çevirme_de_yardım}
+## FreeCAD\'i çevirme de yardım 
 
 Kullanıcıların FreeCAD\'e katkıda bulunabilecekleri çok önemli şeylerden biri (örneğin programlama becerileri yoksa), farklı yönlerini (kaynak kodu, wiki, web sitesi, dokümantasyon vb.) Başka bir dile çevirmeye yardımcı olmaktır. İşte bunu yapmanın yolları
 
 
 <div class="mw-translate-fuzzy">
 
-## FreeCAD kaynak kodunu çevirin {#freecad_kaynak_kodunu_çevirin}
+## FreeCAD kaynak kodunu çevirin 
 
 FreeCAD, [Crowdin](https://crowdin.net) adlı üçüncü taraf işbirlikçi çevrimiçi çeviri sistemini kullanmaktadır. Crowdin, özel bir yazılımdır ancak FOSS(Free and Open Source Software, Ücretsiz ve açık kaynak yazılım) projelerine ücretsizdir. Aşağıda nasıl kullanılacağına ilişkin talimatlar verilmiştir:
 
@@ -61,11 +61,11 @@ It is proprietary software but free to FOSS projects. Below are instructions on 
 
 Details on how to use crowdin can be found on the [Crowdin Administration](Crowdin_Administration.md) page.
 
-## Translating external workbenches {#translating_external_workbenches}
+## Translating external workbenches 
 
 Visit [Translating an external workbench](Translating_an_external_workbench.md).
 
-## FreeCAD wiki\'sini çevirin {#freecad_wikisini_çevirin}
+## FreeCAD wiki\'sini çevirin 
 
 
 <div class="mw-translate-fuzzy">
@@ -91,7 +91,7 @@ Ayrıca, wiki işaretlemesi hakkında yeterli bilgiye sahip olmalı ve [WikiPage
 
 </div>
 
-### Mediawiki Çeviri Uzantısı {#mediawiki_çeviri_uzantısı}
+### Mediawiki Çeviri Uzantısı 
 
 Wiki SourceForge\'dan uzaklaştığında, [Yorik](User:Yorik.md), sayfaların çevrilmesini kolaylaştıran [MediaWiki\'nin Çeviri eklentisini](http://www.mediawiki.org/wiki/Help:Extension:Translate) kurdu. Çeviri uzantısının avantajları, sayfa başlığının artık çevrilebilmesi, çevirilerin kaydını tutması, orijinal sayfanın güncellendiğini bildirmesi ve çevirileri orijinal İngilizce sayfasıyla senkronize olarak tutmasıdır.
 
@@ -129,7 +129,7 @@ Yeni içerik eklerken, önce İngilizce sayfa oluşturulmalı, sonra başka bir 
 
 </div>
 
-### Önemli notlar {#önemli_notlar}
+### Önemli notlar 
 
 
 <div class="mw-translate-fuzzy">
@@ -154,14 +154,14 @@ Bir sayfayı yeni çeviri sistemine ilk kez çevirdiğinizde, eski \"manuel\" ç
 
 <div class="mw-translate-fuzzy">
 
-## FreeCAD belgelerini çevirin {#freecad_belgelerini_çevirin}
+## FreeCAD belgelerini çevirin 
 
 
 </div>
 
 As per general consensus, the reference page in the wiki is the English page, which should be created first. If you want to change or add content to a page, you should do it to the English page first, and only once the update is completed, port the modification to the translated page.
 
-### Eski çeviri talimatları {#eski_çeviri_talimatları}
+### Eski çeviri talimatları 
 
 
 <div class="mw-translate-fuzzy">
@@ -203,7 +203,7 @@ As per general consensus, the reference page in the wiki is the English page, wh
 
 <div class="mw-translate-fuzzy">
 
-## FreeCAD web sitesini çevirin {#freecad_web_sitesini_çevirin}
+## FreeCAD web sitesini çevirin 
 
 FreeCAD web sitesinin çevirisi şimdi [Crowdin](https://crowdin.com/translate/freecad/561/en-en) üzerinden yapılıyor. Dosya **homepage.po** olarak adlandırıldı.
 
@@ -215,7 +215,7 @@ Translation of the FreeCAD website is now done through [Crowdin](https://crowdin
 
 <div class="mw-translate-fuzzy">
 
-## Geliştirme - Yerelleştirme Ekleme {#geliştirme___yerelleştirme_ekleme}
+## Geliştirme - Yerelleştirme Ekleme 
 
 Bu bölüm, kodlarına yerelleştirme eklemek isteyen geliştiriciler içindir.
 
@@ -227,7 +227,7 @@ This section is for developers who want to add localisation to their code.
 
 <div class="mw-translate-fuzzy">
 
-### FreeCAD / master modüllerinizi çeviri için hazırlama {#freecad_master_modüllerinizi_çeviri_için_hazırlama}
+### FreeCAD / master modüllerinizi çeviri için hazırlama 
 
 Bunlar FreeCAD çeviri sürecinin parçalarıdır:
 
@@ -279,7 +279,7 @@ Bundan sonraki her şey bir geliştirici için otomatiktir. Yönetici metin dize
 
 <div class="mw-translate-fuzzy">
 
-### 3. parti modülünüzü veya makronuzu çeviri için hazırlama {#parti_modülünüzü_veya_makronuzu_çeviri_için_hazırlama}
+### 3. parti modülünüzü veya makronuzu çeviri için hazırlama 
 
 3\. parti modüller veya makrolar, işin bir kısmını kendiniz yapmanız dışında, aynı şekilde tercüme edilir. Bu [forum tartışma](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) ayrıntılarını açıklar.
 
@@ -293,7 +293,7 @@ Update: see [Translating an external workbench](Translating_an_external_workbenc
 
 <div class="mw-translate-fuzzy">
 
-### Eski modül çeviri teknikleri {#eski_modül_çeviri_teknikleri}
+### Eski modül çeviri teknikleri 
 
 [Yerelleştirme Eski Yöntemler](Localization_Older_Methods/tr.md), Qt Linguist, lupdate, lrelease, pylupdate4 gibi çeviri araçlarının kullanımını ayrıntılı olarak açıklar. Bunun çoğu artık FreeCAD / master modülleri için gerekli değildir, ancak 3. parti modülleri hazırlamak ve güncellemek için yardımcı olabilir.
 
@@ -305,7 +305,7 @@ Update: see [Translating an external workbench](Translating_an_external_workbenc
 
 <div class="mw-translate-fuzzy">
 
-## Crowdin Çeviri Güncellemelerini Otomatikleştirme {#crowdin_çeviri_güncellemelerini_otomatikleştirme}
+## Crowdin Çeviri Güncellemelerini Otomatikleştirme 
 
 Şu anda FreeCAD çalışanları, çevirileri alıp Crowdin\'e göndermek ve Github deposuna geri göndermek için Crowdin API\'sini [Crowdin Scripts](Crowdin_Scripts.md) üzerinden kullanıyorlar. Crowdin API, FreeCAD bakımcılarına projenin çeviri iş akışının özelliklerini otomatikleştirme yeteneği verir, daha fazla bilgi için [Crowdin API belgelerine](https://support.crowdin.com/api/api-integration-setup/) bakın.
 
@@ -317,7 +317,7 @@ Currently FreeCAD maintainers use the Crowdin API via [Crowdin Scripts](Crowdin_
 
 <div class="mw-translate-fuzzy">
 
-## İlgili Sayfalar {#ilgili_sayfalar}
+## İlgili Sayfalar 
 
 -   [Crowdin Yönetici](Crowdin_Administration/tr.md)
 -   [Crowdin Scriptleri](Crowdin_Scripts/tr.md)

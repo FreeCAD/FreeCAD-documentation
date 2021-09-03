@@ -8,7 +8,7 @@ Es una buena idea utilizar uno o el otro hasta que el usuario se sienta cómodo 
 
 Vamos a hablar de esas ramificaciones.
 
-## Conceptos del banco de trabajo Part {#conceptos_del_banco_de_trabajo_part}
+## Conceptos del banco de trabajo Part 
 
 El banco de trabajo Part es esencialmente un [Estilo de modelado CSG](Constructive_solid_geometry/es.md). El usuario combina varias primitivas para finalizar con una representación de la forma deseada. De hecho, el banco de trabajo Part va un paso más allá de sólo primitivas y permite al usuario realizar una operación de boceto+extrusión (o boceto+revolución, interpolación de secciones, barrido \...) para crear también formas aleatorias. Cuando cada primitiva o forma es creada, no tiene relación con otros objetos creados (excepto los bocetos y sus adjuntos), siendo un sólido único e independiente.
 
@@ -18,7 +18,7 @@ Esta condición permanece así hasta que el usuario utiliza alguna operación pa
 
 El resultado es, por una parte, un sólido único e independiente y por otra parte, la combinación de varios objetos.
 
-## Conceptos del banco de trabajo PartDesign {#conceptos_del_banco_de_trabajo_partdesign}
+## Conceptos del banco de trabajo PartDesign 
 
 En el banco de trabajo PartDesign el objeto Body (cuerpo) es contruído directamente como un sólido acumulativo único e independiente.
 

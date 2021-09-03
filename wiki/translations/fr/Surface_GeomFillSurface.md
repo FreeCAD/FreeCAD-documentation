@@ -37,7 +37,7 @@ une fois créée, il n\'est pas possible d\'appliquer des contraintes supplémen
 ## Options
 
 
-{{MenuCommand|Fill type}}
+**Fill type**
 
 : {{RadioButton|TRUE|Stretch}}, {{RadioButton|TRUE|Coons}} ou {{RadioButton|TRUE|Curved}}.
 
@@ -65,7 +65,7 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 -    {{PropertyView/fr|Control Points|Bool}}: la valeur par défaut est `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
 
-## Torsion de la surface {#torsion_de_la_surface}
+## Torsion de la surface 
 
 La forme de la surface dépend de la direction des arêtes choisies; si des arêtes sont sélectionnées et que le résultat est une surface qui \"se tord\" sur elle-même, l\'une des arêtes peut avoir besoin de sa liste de sommets dans l\'ordre inverse. Une surface qui se tord sur elle-même aura probablement des auto-intersections et sera donc une <img src=images/Part_CheckGeometry.svg style="width:forme](Part_TopoShape/fr.md) invalide. Ceci peut être vérifié avec **[16px"> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)**.
 

@@ -19,7 +19,7 @@ Dieses Werkzeug erzeugt Fasen an den ausgewählten Kanten eines Objekts. Im Proj
 
 <div class="mw-translate-fuzzy">
 
--   Wähle eine einzelne Kante, mehrere Kanten oder eine Fläche auf einem Objekt und starte dann das Werkzeug entweder durch Klicken auf die Schaltfläche **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Fase'''** oder über das Menü {{MenuCommand|PartDesign → Fase}}. Im Fall das du eine Fläche ausgewählt hast, werden alle ihre Kanten zum Anfasen berücksichtigt.
+-   Wähle eine einzelne Kante, mehrere Kanten oder eine Fläche auf einem Objekt und starte dann das Werkzeug entweder durch Klicken auf die Schaltfläche **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Fase'''** oder über das Menü **PartDesign → Fase**. Im Fall das du eine Fläche ausgewählt hast, werden alle ihre Kanten zum Anfasen berücksichtigt.
 -   Im erscheinenden [Aufgabenpaneel](Task_panel/de.md) kannst du die Fase auf 3 Arten definieren:
     -   **Gleicher Abstand**: Die Fasenkanten sind gleich weit von der Körperkante entfernt.
     -   **Zwei Abstände**: Die Abstände der Fasenkante zur Körperkante werden angegeben. Die Abstandsrichtung kann umgedreht werden. <small>(v0.19)</small> 
@@ -35,7 +35,7 @@ Dieses Werkzeug erzeugt Fasen an den ausgewählten Kanten eines Objekts. Im Proj
 
 </div>
 
-## PartDesign Fase vs. Part Fase {#partdesign_fase_vs._part_fase}
+## PartDesign Fase vs. Part Fase 
 
 **Die PartDesign Fase ist nicht zu verwechseln mit ihrem [Part Arbeitsbereich Gegenstück](Part_Chamfer/de.md)**. Obwohl sie das gleiche Symbol haben, sind sie nicht identisch und werden nicht auf die gleiche Weise verwendet. Der Hauptunterschied besteht darin, dass PartDesign Fase einen separaten Faseneintrag (gefolgt von einer fortlaufenden Nummer, falls bereits Fasen vorhanden sind) im Projektbaum für den aktuellen Körper erstellt. Die Part Fase wird zum Elternobjekt des Objekts, auf das sie angewendet wurde.
 

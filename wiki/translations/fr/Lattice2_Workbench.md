@@ -27,7 +27,7 @@ L\'un des grands objectifs de conception de l\'établi est d\'être aussi param�
 
 Detail des descriptions dans [Lattice2 Github wiki](https://github.com/DeepSOIC/Lattice2/wiki)
 
-### Barre d\'outils {#barre_doutils}
+### Barre d\'outils 
 
 ![](images/Lattice2-menu-orizz.png ) *Barre d'outils Lattice2*
 
@@ -115,11 +115,12 @@ Autre
 
 **Conditions préalables** Lattice2 WB nécessite FreeCAD\>= v0.16.5155.
 
-### Installation Automatique {#installation_automatique}
+### Installation Automatique 
 
-depuis v0.17, on peut utiliser le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) pour installer l\' <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> atelier Lattice2. Utilisez {{MenuCommand|Outils → Gestionnaire d'Addon}}
+depuis v0.17, on peut utiliser le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) pour installer l\' <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> atelier Lattice2. Utilisez 
+**Outils → Gestionnaire d'Addon**
 
-### Installation manuelle {#installation_manuelle}
+### Installation manuelle 
 
 -   Faites défiler vers le haut de la page et cliquez sur le bouton \'télécharger le zip\'
 -   Décompressez le contenu dans un dossier \"Lattice2\" créé dans \\Path\\to\\FreeCAD\\Mod et redémarrez FreeCAD.
@@ -135,7 +136,7 @@ Après avoir installé l\'atelier, il devrait apparaître en bas de la liste du 
 -   [Faire un pédalier](https://github.com/DeepSOIC/Lattice2/wiki/Cogset-Tutorial)
 -   [Modèles de fonctions dans l\'atelier Lattice2](https://www.youtube.com/watch?v=BXmeEGnhszo) par \@sliptonic
 
-## Liens vers Lattice2 WB {#liens_vers_lattice2_wb}
+## Liens vers Lattice2 WB 
 
 -   Wiki Lattice2: <https://github.com/DeepSOIC/Lattice2/wiki>
 -   Wiki FreeCAD: <https://www.freecadweb.org/wiki/Lattice2_Workbench>
@@ -143,7 +144,7 @@ Après avoir installé l\'atelier, il devrait apparaître en bas de la liste du 
 -   Galerie: <https://github.com/DeepSOIC/Lattice2/wiki/Gallery>
 -   Signaler les bogues: veuillez signaler les bogues sur <https://github.com/DeepSOIC/Lattice2/issues>
 
-## Autres liens intéressants {#autres_liens_intéressants}
+## Autres liens intéressants 
 
 -   [Atelier Lattice1 (obsolète)](https://github.com/DeepSOIC/Lattice)
 -   [Ateliers externes](External_workbenches/fr.md): Listes des ateliers de FreeCAD.

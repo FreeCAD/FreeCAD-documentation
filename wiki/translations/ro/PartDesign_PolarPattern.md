@@ -20,12 +20,12 @@ Instrumentul **PolarPattern** ia o funcție selectată ca intrare și creează p
 
 <div class="mw-translate-fuzzy">
 
-## Cum se folosește {#cum_se_folosește}
+## Cum se folosește 
 
 
 </div>
 
-#### To create a pattern {#to_create_a_pattern}
+#### To create a pattern 
 
 1.  (Optional) Select the feature (<small>(v0.19)</small>  or several features) to be patterned.
 2.  Press the **<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **PolarPattern** button.
@@ -36,7 +36,7 @@ Instrumentul **PolarPattern** ia o funcție selectată ca intrare și creează p
 6.  If you have several features in the pattern, their order can be important, see the image below.
 7.  Press **OK**.
 
-#### Ordering features {#ordering_features}
+#### Ordering features 
 
 ![](images/PartDesign_feature-order.gif ) *Effect of the feature order*
 
@@ -45,7 +45,7 @@ Instrumentul **PolarPattern** ia o funcție selectată ca intrare și creează p
 
 You can change the order by dragging the feature in the list and you will see the result immediately as preview.
 
-#### Adding features {#adding_features}
+#### Adding features 
 
 ###### v0.18
 
@@ -63,13 +63,13 @@ You can change the order by dragging the feature in the list and you will see th
 3.  Select in the tree the feature to be added.
 4.  Repeat to add other features.
 
-#### Removing features {#removing_features}
+#### Removing features 
 
 -   Right-click on the feature in the list and select *Remove*.
 
 or
 
-###### v0.18 {#v0.18_1}
+###### v0.18 
 
 1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md):
 2.  Switch to the Model tree;
@@ -78,7 +78,7 @@ or
 5.  Select the feature in the 3D view; it will have been removed from the list.
 6.  Repeat to remove other features.
 
-###### v0.19 {#v0.19_1}
+###### v0.19 
 
 1.  Press **Remove feature** to remove a feature from the list.
 2.  Switch to the Model tree;
@@ -93,37 +93,38 @@ or
 
 Atunci când se creează o caracteristică de model polar, dialogul \'Parametrii de tip polar\' oferă modalități diferite de a specifica axa de rotație a modelului.
 
-#### Axa Normalăa schiței {#axa_normalăa_schiței}
+#### Axa Normalăa schiței 
 
 O axă care este normală față de schiță și pornind de la originea schiței funcției utilizate este considerată ca axă pentru modelul polar.
 Direcția modelului poate fi inversată prin bifarea \'Direcție inversă\'.
 
-#### Axa orizontală a schiței {#axa_orizontală_a_schiței}
+#### Axa orizontală a schiței 
 
 Uses the horizontal axis of the sketch for axis.
 
-#### Axa verticală a schiței {#axa_verticală_a_schiței}
+#### Axa verticală a schiței 
 
 Uses the vertical axis of the sketch for axis.
 
-#### Schiță Axă Personalizată {#schiță_axă_personalizată}
+#### Schiță Axă Personalizată 
 
 Dacă schița care definește funcția care urmează să fie modelată conține, de asemenea, o linie de construcție (sau linii), atunci lista derulantă/contextuală va conține o axă de schiță personalizată pentru fiecare linie de construcție. Prima linie de construcție va fi etichetă \"Axă de schiță 0\".
 
-#### Baza (X/Y/Z) axa {#baza_xyz_axa}
+#### Baza (X/Y/Z) axa 
 
 
 <small>(v0.17)</small> 
 
 Select one of the Body Origin\'s standard axis (X, Y or Z) as axis.
 
-#### Selectare referințe\... {#selectare_referințe...}
+#### Selectare referințe\... 
 
 Allows you to select either a DatumLine or an edge of an object or a line of a sketch to use for axis.
 
-### Unghiuri și apariții {#unghiuri_și_apariții}
+### Unghiuri și apariții 
 
-Specifică unghiul care trebuie acoperit de model și numărul total de forme (inclusiv caracteristica originală). De exemplu, patru apariții la un unghi de 180 de grade ar da o distanță de 60 de grade între modele. Există o excepție: dacă unghiul este de 360 ​​de grade, deoarece prima și ultima apariție sunt identice, cele patru apariții vor fi distanțate la 90 de grade. {{Clear}}
+Specifică unghiul care trebuie acoperit de model și numărul total de forme (inclusiv caracteristica originală). De exemplu, patru apariții la un unghi de 180 de grade ar da o distanță de 60 de grade între modele. Există o excepție: dacă unghiul este de 360 ​​de grade, deoarece prima și ultima apariție sunt identice, cele patru apariții vor fi distanțate la 90 de grade. 
+
 
 ## Limite
 

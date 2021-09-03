@@ -11,7 +11,7 @@
 
 The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the {{MenuCommand|Tools → Addon manager → Reinforcement}} menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 In this example we will create Slab Reinforcement having U-Shape Rebars for both direction as shown in below figure.
 
@@ -41,7 +41,7 @@ In this example we will create Slab Reinforcement having U-Shape Rebars for both
 8\. Click **OK** or **Apply** or **Finish** to generate Slab reinforcement.
 9. Click **Cancel** to exit the dialog box.
 
-## Properties Used for Slab Reinforcement Having U-Shape Rebars {#properties_used_for_slab_reinforcement_having_u_shape_rebars}
+## Properties Used for Slab Reinforcement Having U-Shape Rebars 
 
 **Properties for Rebars in Parallel Direction to selected face:**
 
@@ -81,7 +81,7 @@ In this example we will create Slab Reinforcement having U-Shape Rebars for both
 
 The Slab Reinforcement tool can be used from the [Python](Python.md) console by using the following function:
 
-### Create Slab Reinforcement of U-Shape Rebars {#create_slab_reinforcement_of_u_shape_rebars}
+### Create Slab Reinforcement of U-Shape Rebars 
 
 To create Slab reinforcement U-Shape Rebars as shown in above figures you can use makeSlabReinforcement function as follows:- 
 ```python
@@ -177,7 +177,7 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **facename**: selected face of structure. Default is None
 
-### Edition of Slab Reinforcement having U-Shape Rebars {#edition_of_slab_reinforcement_having_u_shape_rebars}
+### Edition of Slab Reinforcement having U-Shape Rebars 
 
 You can change the properties of the Slab Reinforcement having U-Shape Rebars by using editSlabReinforcement function as follows:-
 

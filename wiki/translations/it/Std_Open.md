@@ -9,7 +9,7 @@ Il comando **Apri** apre un file. Se il file non è un file FreeCAD nativo (\*.F
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_Open.svg" width=16px> '''Apri'''**.
-    -   Selezionare l\'opzione {{MenuCommand|File → <img src="images/Std_Open.svg" width=16px> Apri...}} dal menu.
+    -   Selezionare l\'opzione **File → <img src="images/Std_Open.svg" width=16px> Apri...** dal menu.
     -   Usare la scorciatoia da tastiera: **Ctrl**+**O**.
 2.  Facoltativamente, selezionare il formato file corretto nella finestra di dialogo.
 3.  Selezionare un file.
@@ -21,7 +21,7 @@ Il comando **Apri** apre un file. Se il file non è un file FreeCAD nativo (\*.F
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in: {{MenuCommand|Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 

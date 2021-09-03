@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Din această interfață puteți vedea informații utile și puteți să accesați fișierele, exemplele, documentația și cele mai recente știri din lumea FreeCAD, deschise recent. Aveți posibilitatea să modificați modul în care se comportă Workbench Start sau să schimbați atelierul de lucru implicit în[Preferences Editor](Preferences_Editor.md) în meniul {{MenuCommand|Edit → Preferences → Start}}.
+Din această interfață puteți vedea informații utile și puteți să accesați fișierele, exemplele, documentația și cele mai recente știri din lumea FreeCAD, deschise recent. Aveți posibilitatea să modificați modul în care se comportă Workbench Start sau să schimbați atelierul de lucru implicit în[Preferences Editor](Preferences_Editor.md) în meniul **Edit → Preferences → Start**.
 
 
 </div>

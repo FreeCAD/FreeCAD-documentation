@@ -40,7 +40,7 @@ Adăugarea de noi constrângeri, ecuatții sau rezolvitori este în cea mai mare
 
 </div>
 
-## Build System (cmake) {#build_system_cmake}
+## Build System (cmake) 
 
 
 <div class="mw-translate-fuzzy">
@@ -91,7 +91,7 @@ SET(FemGuiViewProvider_SRCS
 )
 }}
 
-## Source Organization {#source_organization}
+## Source Organization 
 
 
 <div class="mw-translate-fuzzy">

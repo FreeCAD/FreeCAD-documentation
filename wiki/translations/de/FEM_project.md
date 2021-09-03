@@ -37,13 +37,13 @@ Dies ist der Projektplan für die FreeCAD FEM Integration im Rahmen der [Develop
 
 ## Ideenfindung
 
-### Potential meshers {#potential_meshers}
+### Potential meshers 
 
 <img alt="" src=images/Netgen.jpg  style="width:600px;">
 
 See [FEM Mesh](FEM_Mesh.md)
 
-### Potential solvers {#potential_solvers}
+### Potential solvers 
 
 See [FEM Solver](FEM_Solver.md)
 

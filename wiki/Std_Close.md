@@ -14,7 +14,7 @@ The **Std CloseActiveWindow** command closes the active window. To close a docum
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Select the {{MenuCommand|File → <img src="images/Std_CloseActiveWindow.svg" width=16px> Close}} option from the menu.
+    -   Select the **File → <img src="images/Std_CloseActiveWindow.svg" width=16px> Close** option from the menu.
     -   Use the keyboard shortcut: **Ctrl**+**F4**.
 2.  To close a document: repeat this for all windows belonging to it.
 3.  When closing the last window of a document that has not been saved, a dialog box will prompt you to save it:
@@ -28,11 +28,11 @@ The **Std CloseActiveWindow** command closes the active window. To close a docum
 ## Notes
 
 -   The command can only close [docked](Std_ViewDockUndockFullscreen.md) windows.
--   A document can also be closed by right-clicking it in the [Tree view](Tree_view.md) and selecting {{MenuCommand|Close document}} from the context menu.
+-   A document can also be closed by right-clicking it in the [Tree view](Tree_view.md) and selecting **Close document** from the context menu.
 
 ## Preferences
 
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Scripting
 

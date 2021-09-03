@@ -44,7 +44,7 @@ Par commodité, les outils Flamingo/Dodo sont groupés dans trois barres d\'outi
 
 Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
 
-## Outils Frame {#outils_frame}
+## Outils Frame 
 
 
 <div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
@@ -208,7 +208,7 @@ Si des entités sont présélectionnées avant d\'appeler cette commande, la pre
 
 Outil pour ajuster les poutres aux angles droits des encadrements. Pour comprendre au mieux son fonctionnement, reportez-vous au tutoriel précédent.
 
-## Outils Pype {#outils_pype}
+## Outils Pype 
 
 
 <div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
@@ -502,13 +502,13 @@ Ouvre une boîte de dialogue pour calculer les pertes de pression sur les pièce
     -   [File d\'attente de Flamingo GitHub](https://github.com/oddtopus/flamingo/issues)
     -   [File d\'attente de Dodo GitHub](https://github.com/oddtopus/dodo/issues)
 
-## Autres liens intéressants {#autres_liens_intéressants}
+## Autres liens intéressants 
 
 -   [Ateliers externes](External_workbenches/fr.md)
 -   [Macros](Macros_recipes/fr.md)
 -   [OSE-Piping-Workbench : pour créer des raccords de tuyauterie supplémentaires](https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench)
 
-## Ateliers externes {#ateliers_externes}
+## Ateliers externes 
 
 Les ateliers FreeCAD sont faciles à programmer en [Python](Python/fr.md), de ce fait de nombreuses personnes développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
 

@@ -37,8 +37,8 @@ Cuando se carga, el fichero es **incorporado** al proyecto actual (que debe esta
 ## Preferences
 
 -   See: [Import Export Preferences](Import_Export_Preferences.md).
--   The last used file location is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath}}.
--   The last used import filter is stored: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → FileImportFilter}}.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used import filter is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileImportFilter**.
 
 
 

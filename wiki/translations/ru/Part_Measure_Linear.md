@@ -22,7 +22,7 @@ This tool measures the distance between two selected topology elements (vertex, 
 1.  Select any combination of two elements: vertices, edges, faces
 2.  There are several ways to invoke the command:
     -   Press the **<img src=images/Part_Measure_Linear.svg style="width:16px"> '''Measure Linear'''** button.
-    -   Use the {{MenuCommand|Measure → Measure Linear}} entry in the top menu
+    -   Use the **Measure → Measure Linear** entry in the top menu
 3.  Alternatively the command can be launched without prior selection. A selection dialog then opens in the [Task panel](Task_panel.md). A Control widget also provides buttons to reset the selection, toggle the measurement display in the [3D view](3D_view.md), and clear all measurements.
 4.  Measurements are automatically discarded when closing the document.
 

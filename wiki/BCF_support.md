@@ -24,19 +24,19 @@ This project idea proposes to implement a BCF viewer for FreeCAD. The viewer wou
 -   Implement the different functions needed to interact with BCF files and data
 -   Implement a Graphical User Interface to these functions
 
-## Expected Outcome {#expected_outcome}
+## Expected Outcome 
 
 -   Documentation. Like all open-source projects, it is of uttermost importance to document a lot everything you do. This allows for other people to take on and extend your work more easily.
 -   A complete, working GUI application, that works as a plugin/addon inside FreeCAD.
 
-## Future Possibilities {#future_possibilities}
+## Future Possibilities 
 
 BCF use in the BIM industry is still at its infancy. One can think of many possible extensions, such as:
 
 -   Connecting with other (open-source) communication structures: forums, chat/messaging systems, etc\...
 -   Connecting with other issues tracking systems
 
-## Project Properties {#project_properties}
+## Project Properties 
 
 ### Skills
 
@@ -47,7 +47,7 @@ BCF use in the BIM industry is still at its infancy. One can think of many possi
 
 Medium
 
-### Additional Information {#additional_information}
+### Additional Information 
 
 -   Potential mentors: [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
 

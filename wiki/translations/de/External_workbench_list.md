@@ -16,7 +16,7 @@ Arbeitsbereiche, gekennzeichnet mit <img alt="" src=images/AddonManager.svg  sty
 
 Arbeitsbereiche, die mit <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> gekennzeichnet sind, werden für aktuelle Versionen von FreeCAD nicht empfohlen. Sie sind veraltet, werden nicht gewartet, sind durch einen neueren Arbeitsbereich ersetzt oder funktionieren vielleicht nicht mit Python 3 oder mit Qt5. In den meisten Fällen sollten sie vermieden werden.
 
-## Montage Arbeitsbereiche {#montage_arbeitsbereiche}
+## Montage Arbeitsbereiche 
 
 Ab FreeCAD 0.19 gibt es keinen offiziellen Zusammenbau Arbeitsbereich. Es wurden jedoch mehrere externe Werkzeuge erstellt oder befinden sich in der Entwicklung, um Objekte zur Erstellung von Baugruppen zu manipulieren.
 
@@ -130,7 +130,7 @@ Die folgende Tabelle ist nach Themen geordnet, kann aber durch Klicken auf eine 
   <img alt="" src=images/EMWorkbench.svg  style="width:32px;">                                                                   [EM](EM_Workbench.md)                                                               Simulation                          Er bietet eine grafische Oberfläche für verschiedene Löser von [FastFieldSolvers](http://www.fastfieldsolvers.com). Zur Zeit unterstützt es den 3D Magneto-quasistatischen Impedanz Löser FastHenry. Die Unterstützung für den elektrostatischen 3D Kapazitätslöser FasterCap ist in Bearbeitung.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               FastFieldSolvers S.R.L.                               <https://github.com/ediloren/EM-Workbench-for-FreeCAD>                                <img alt="" src=images/AddonManager.svg  style="width:24px;">   
   <img alt="" src=images/FrontISTR.svg  style="width:32px;">                                                                       [FEM FrontISTR](FEM_FrontISTR_Workbench.md)                                         Simulation                          Er bietet eine grafische Oberfläche für [FrontISTR](https://www.frontistr.com), ein umfangreiches Open-Source FEM Programm für nichtlineare Strukturanalyse.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    kinagaki                                              <https://github.com/FrontISTR/FEM_FrontISTR>                                                                                                 
 
-## Übersetzung externer Arbeitsbereiche {#übersetzung_externer_arbeitsbereiche}
+## Übersetzung externer Arbeitsbereiche 
 
 Weitere Informationen findest du auf der Wiki Seite [Übersetzen eines externen Arbeitsbereichs](Translating_an_external_workbench/de.md)
 

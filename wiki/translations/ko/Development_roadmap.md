@@ -33,7 +33,7 @@ This section gives an overview of what is planned and gives you the opportunity 
   **[Artwork project](Artwork_project.md)**                                       A project to update logo and icons                                                                                                GUI                                                                 Current
                                                                                                                                                                                                                                                                                                 
 
-## 릴리스 스케줄 {#릴리스_스케줄}
+## 릴리스 스케줄 
 
 Like in the most [FLOSS](http://en.wikipedia.org/wiki/FLOSS) projects a release schedule is very rough. There will be no fixed dates and **\"It\'s done, when it\'s done!\"**
 

@@ -11,7 +11,7 @@
 
 Ten poradnik ma za zadanie zapoznać nowego użytkownika z wybranymi narzędziami i technikami używanymi w środowisku pracy **<img src="images/Workbench_TechDraw.svg" width=24px> [Rysunek Techniczny](TechDraw_Workbench/pl.md)**. Ten poradnik nie jest kompletnym i wyczerpującym przewodnikiem po środowisku pracy Rysunek Techniczny i nie obejmuje wielu narzędzi i możliwości. Poradnik przeprowadzi użytkownika przez kroki niezbędne do wykonania rysunków technicznych części na przykładzie [Poradnika projektowania części - podstawy](Basic_Part_Design_Tutorial/pl.md).
 
-## Nim zaczniesz {#nim_zaczniesz}
+## Nim zaczniesz 
 
 Pobierz przykładowy [plik projektu](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) z poradnika dotyczącego projektowania części *(środowisko pracy Part)*.
 
@@ -19,11 +19,11 @@ Pobierz przykładowy [plik projektu](https://github.com/FreeCAD/Examples/blob/ma
 
 W tym poradniku będziesz używał Środowiska pracy **<img src="images/Workbench_TechDraw.svg" width=24px> [Rysunek techniczny](TechDraw_Workbench/pl.md)** do tworzenia rysunków 2D dla modelu 3D. Stworzymy wiele widoków detalu i dodamy kluczowe wymiary. Ten poradnik nie będzie wykorzystywał każdej funkcji i narzędzia dostępnego w ramach Środowiska pracy **<img src="images/Workbench_TechDraw.svg" width=24px> [Rysunek techniczny](TechDraw_Workbench/pl.md)**, ale powinien dostarczyć użytkownikowi niezbędnych podstaw do zbudowania jego wiedzy i umiejętności.
 
-## Model detalu {#model_detalu}
+## Model detalu 
 
 ![](images/Tut17_final_refined.png )
 
-## Tworzenie Rysunku {#tworzenie_rysunku}
+## Tworzenie Rysunku 
 
 ### Rozpoczynamy
 
@@ -31,7 +31,7 @@ W tym poradniku będziesz używał Środowiska pracy **<img src="images/Workbenc
 -   Otwórz najpierw plik zawierający nasz detal w 3D. Następnie upewnij się, że znajdujesz się w Środowisku pracy TechDraw.
 -   W oknie rysunku i/lub panelu widoku połączonego będziesz wybierał elementy. Zaznaczenie w Środowisku TechDraw działa tak samo jak w oknie widoku 3D. Elementy zmieniają kolor na żółty, gdy kursor znajduje się w pozycji umożliwiającej ich wybranie, i zmieniają kolor na zielony, gdy są wybrane. Aby wybrać wiele elementów, przytrzymaj klawisz klawiatury **Ctrl** podczas klikania.
 
-### Widoki i wymiarowanie {#widoki_i_wymiarowanie}
+### Widoki i wymiarowanie 
 
 Wszystkie prace w Środowisku **<img src="images/Workbench_TechDraw.svg" width=24px> [Rysunek Techniczny](TechDraw_Workbench/pl.md)** rozpoczynają się od utworzenia strony. Strony są oparte na Szablonach i zawierają widoki.
 
@@ -57,7 +57,7 @@ Wygląda lepiej, jednak widok wciąż pozostaje trochę nudny. Dodajmy więc kil
 
 ![](images/TDTut_TopView2Dims.png )
 
-### Pola tekstowe bloku dokumentacji {#pola_tekstowe_bloku_dokumentacji}
+### Pola tekstowe bloku dokumentacji 
 
 Powinniśmy dodać trochę informacji do naszego rysunku.
 
@@ -81,7 +81,7 @@ Zanim opuścimy tę stronę, zobaczmy, jak będzie wyglądać, gdy ją wydrukuje
 
 ![](images/TDTut_Toggle.png )
 
-### Wiele widoków detalu {#wiele_widoków_detalu}
+### Wiele widoków detalu 
 
 Stwórzmy rysunek wielu widoków używając innego szablonu jako punktu startowego. Będziemy używać konwencji **Kąta pierwszego**, ale możesz też przejść na **Kąt trzeci**, jeśli jest to twoja właściwa metoda.
 
@@ -97,7 +97,7 @@ Stwórzmy rysunek wielu widoków używając innego szablonu jako punktu startowe
 1.  W widoku oznaczonym jako **TopLeftFront**, wybierz dwa wierzchołki na skrajnych końcach przedniej krawędzi elementu.
 2.  Kliknij na narzędzie <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Wstaw nowy wymiar długości](TechDraw_Dimension_Length/pl.md). Przeciągnij tekst wymiarowy z dala od bryły.
 
-### Powiązanie wymiarów z modelem 3D {#powiązanie_wymiarów_z_modelem_3d}
+### Powiązanie wymiarów z modelem 3D 
 
 Czy widzisz problem z wymiarem, który właśnie powstał?
 
@@ -111,7 +111,7 @@ Od pierwszej części tego poradnika wiemy, że przedmiot posiada szerokość **
 4.  W oknie dialogowym, przenieś nasz wymiar z dostępnej kolumny do wybranej kolumny. Naciśnij przycisk **OK**.
 5.  Wróć na stronę001. Nasz wymiar powinien teraz odczytać prawidłową wartość 53. *(Jeśli nadal widzisz 43.27, może być konieczne wciśnięcie przycisku **Przelicz** lub trochę przesuń wartość wymiaru na rysunku, aż się zmieni)*.
 
-## Dalsze postępowanie {#dalsze_postępowanie}
+## Dalsze postępowanie 
 
 W tym samouczku nauczyłeś się wystarczająco dużo o Środowisku pracy **<img src="images/Workbench_TechDraw.svg" width=24px> [TechDraw](TechDraw_Workbench/pl.md)**, aby stworzyć taki rysunek *(autor: [NormandC](User:Normandc.md))*. Uwaga 2.
 
@@ -128,7 +128,7 @@ oferuje o wiele więcej funkcjonalności - widoki przekrojów, widoki szczegół
 1.  W tym [wpisie na forum](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189) znajduje się doskonały zestaw sugerowanych preferencji.
 2.  Ten rysunek został wykonany w wersji **0.18**. Pokazuje wymiary w odpowiednim formacie dla widoku izometrycznego. W wersji **0.17** linie pomocnicze będą prostopadłe do krawędzi, a nie wyrównane z osiami.
 
-## Dodatkowe zasoby {#dodatkowe_zasoby}
+## Dodatkowe zasoby 
 
 -   Plik FreeCAD tego ćwiczenia do porównania *(wykonany w wersji programu 0.17)* [Pobierz](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 

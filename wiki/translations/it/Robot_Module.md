@@ -48,7 +48,7 @@ Gli strumenti per creare e gestire i robot a 6 assi
 
 Strumenti per creare e modificare i percorsi. Ci sono due tipi di strumenti, quelli parametrici e quelli non parametrici.
 
-#### Traiettorie non parametriche {#traiettorie_non_parametriche}
+#### Traiettorie non parametriche 
 
 -   <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:30px;"> [Crea una traiettoria](Robot_CreateTrajectory/it.md): inserisce un nuovo oggetto traiettoria vuoto nella scena.
 -   <img alt="" src=images/Robot_SetDefaultOrientation.svg  style="width:30px;"> [Imposta l\'orientamento predefinito](Robot_SetDefaultOrientation/it.md): imposta il modo in cui vengono creati i punti di orientamento di default.
@@ -56,7 +56,7 @@ Strumenti per creare e modificare i percorsi. Ci sono due tipi di strumenti, que
 -   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:30px;"> [Inserisci un punto nella traiettoria](Robot_InsertWaypoint/it.md): inserisce il punto della posizione corrente del robot in una traiettoria.
 -   <img alt="" src=images/Robot_InsertWaypointPre.svg  style="width:30px;"> [Inserisci un punto preselezionato nella traiettoria](Robot_InsertWaypointPre/it.md): inserisce il punto della posizione corrente del mouse in una traiettoria.
 
-#### Traiettorie parametriche {#traiettorie_parametriche}
+#### Traiettorie parametriche 
 
 -   <img alt="" src=images/Robot_Edge2Trac.svg  style="width:30px;"> [Crea una traiettoria da un bordo](Robot_Edge2Trac/it.md): genera un percorso da un insieme di spigoli.
 -   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width:30px;"> [Vesti una traiettoria](Robot_TrajectoryDressUp/it.md): permette di modificare una o più proprietà di un percorso.

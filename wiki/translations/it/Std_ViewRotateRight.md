@@ -15,8 +15,8 @@ Il comando **Ruota a destra** ruota la camera nella [vista 3D](3D_view/it.md) at
 ## Utilizzo
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Selezionare l\'opzione {{MenuCommand|Visualizza → Viste standard → <img src="images/Std_ViewRotateRight.svg" width=16px> Ruota a destra}} dal menu.
-    -   Selezionare l\'opzione {{MenuCommand|Viste standard → <img src="images/Std_ViewRotateRight.svg" width=16px> Ruota a destra}} dal menu contestuale della [vista 3D](3D_view/it.md).
+    -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewRotateRight.svg" width=16px> Ruota a destra** dal menu.
+    -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewRotateRight.svg" width=16px> Ruota a destra** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **Maiusc**+**Destra**.
 
 ## Script

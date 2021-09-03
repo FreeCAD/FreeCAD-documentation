@@ -23,7 +23,7 @@ Rețineți că uneori un Workbench este denumit \"Modul\". Cu toate acestea, ate
 
 </div>
 
-## Ateliere încorporate {#ateliere_încorporate}
+## Ateliere încorporate 
 
 
 <div class="mw-translate-fuzzy">
@@ -85,7 +85,7 @@ The following workbenches are still included in the base installation for compat
 
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> The [Drawing Workbench](Drawing_Workbench.md) was used for producing technical drawings but has now been deprecated. It is still needed to read old FreeCAD files that contain objects created with this workbench. The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement. {{Obsolete|0.17}}
 
-## Ateliere externe {#ateliere_externe}
+## Ateliere externe 
 
 
 <div class="mw-translate-fuzzy">

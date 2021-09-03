@@ -46,7 +46,7 @@ Klonla aracı, [Taslak tezgahı](Draft_Workbench/tr.md) ile oluşturulan 2D şek
 
 <div class="mw-translate-fuzzy">
 
-## Nasıl kullanılır {#nasıl_kullanılır}
+## Nasıl kullanılır 
 
 1.  Klonlamak istediğiniz nesneyi seçin.
 

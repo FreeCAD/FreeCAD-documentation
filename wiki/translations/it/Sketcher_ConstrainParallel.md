@@ -43,7 +43,7 @@ Applicare il vincolo Parallela in uno di questi modi:
 
 -   Cliccare sull\'icona <img alt="" src=images/Constraint_Parallel.png  style="width:16px;"> nella barra degli strumenti dei vincoli di Sketcher
 -   Usare la scorciatoia da tastiera **Shift** + **P**.
--   Usare la voce {{MenuCommand|Sketch → Vincoli → Parallela}} dal menu principale.
+-   Usare la voce **Sketch → Vincoli → Parallela** dal menu principale.
 
 
 </div>

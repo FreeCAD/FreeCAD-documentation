@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-#### Descripción {#descripción_1}
+#### Descripción 
 
 La Restricción de Simetría restringe dos puntos seleccionados a ser simétricos con respecto a un eje dado. Los dos puntos seleccionados se restringen para situarse sobre la perpendicular al eje de simetría y situados a la misma distancia de este.
 

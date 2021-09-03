@@ -6,11 +6,11 @@
 
 {{TOCright}}
 
-## Premier test {#premier_test}
+## Premier test 
 
 Avant de passer à la douloureuse phase de débogage, utilisez l\'[Atelier test](Testing/fr.md) pour vérifier si les tests standards fonctionnent correctement. Si ce n\'est pas le cas, c\'est peut-être dû a une installation défectueuse.
 
-## Ligne de commande {#ligne_de_commande}
+## Ligne de commande 
 
 Le débogage de FreeCAD est supporté par quelques mécanismes internes. La version en ligne de commande de FreeCAD fournit des options d\'aide au débogage :
 
@@ -39,11 +39,11 @@ Configuration :
  -P [ --python-path ] arg     Autres chemins Python
  --single-instance            Autoriser à exécuter une seule instance de l'application
 
-## Générer un Backtrace {#générer_un_backtrace}
+## Générer un Backtrace 
 
 Si vous exécutez une version de FreeCAD à partir de l\'extrémité saillante de la courbe de développement, il se peut qu\'il se \"bloque\". Vous pouvez aider à résoudre ces problèmes en fournissant aux développeurs une \"backtrace\". Pour ce faire, vous devez exécuter une \"version de débogage\" du logiciel. \"Debug build\" est un paramètre qui est défini au moment de la compilation, donc vous devrez soit compiler vous-même FreeCAD, soit obtenir une version \"debug\" précompilée.
 
-### For Linux {#for_linux}
+### For Linux 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -102,7 +102,7 @@ Affiche également les valeurs des variables locales. Ceci peut être combiné a
 
 </div>
 
-### Pour macOS {#pour_macos}
+### Pour macOS 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -148,7 +148,7 @@ Cela va générer une longue liste de ce que le programme faisait quand il s\'es
 
 </div>
 
-## Liste des bibliothèques chargées par FreeCAD {#liste_des_bibliothèques_chargées_par_freecad}
+## Liste des bibliothèques chargées par FreeCAD 
 
 (Applicable à Linux et macOS)
 
@@ -167,7 +167,7 @@ Cela affiche une longue liste de ressources chargées. Ainsi, par exemple, si vo
 
 `lsof -p process_id &#124; grep Coin`
 
-## Débogage Python {#débogage_python}
+## Débogage Python 
 
 Pour une approche plus moderne du débogage de Python, consultez les articles suivants :
 
@@ -232,7 +232,7 @@ Draft.makeWire(points,closed=False,face=False,support=None)
 
 </div>
 
-### Code Visual Studio (VS Code) {#code_visual_studio_vs_code}
+### Code Visual Studio (VS Code) 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
@@ -268,7 +268,7 @@ ptvsd.enable_attach(address=('localhost', 5678), redirect_output=True)
 ptvsd.wait_for_attach()
 ```
 
--   Ajoutez une configuration de débogage dans le Code Visual Studio {{MenuCommand|Debug → Add Configurations…}}. Cela devrait ressembler à ceci :
+-   Ajoutez une configuration de débogage dans le Code Visual Studio **Debug → Add Configurations…**. Cela devrait ressembler à ceci :
 
 
 
@@ -321,7 +321,7 @@ print(sys.executable)
 
 </div>
 
-## Débogage d\'OpenCasCade {#débogage_dopencascade}
+## Débogage d\'OpenCasCade 
 
 Pour les développeurs qui ont besoin d\'approfondir le noyau d\'OpenCasCade, l\'utilisateur \@abdullah a créé un [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=47017) qui explique comment le faire.
 

@@ -28,7 +28,7 @@
 
 </div>
 
-### Standard menu tools {#standard_menu_tools}
+### Standard menu tools 
 
 
 <div class="mw-translate-fuzzy">
@@ -59,7 +59,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## 추가 도구 {#추가_도구}
+## 추가 도구 
 
 
 </div>

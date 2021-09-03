@@ -20,7 +20,7 @@ Der <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Entwurf H
 1.  Wähle optional ein oder mehrere Objekte aus.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_Downgrade.svg" width=16px> [Entwurf Herabstufen](Draft_Downgrade/de.md)**.
-    -   Wähle die Option {{MenuCommand|Änderung → <img src="images/Draft_Downgrade.svg" width=16px> Herabstufen}} aus dem Menü.
+    -   Wähle die Option **Änderung → <img src="images/Draft_Downgrade.svg" width=16px> Herabstufen** aus dem Menü.
     -   Verwende das Tastaturkürzel: **D** dann **N**.
 3.  Wenn du noch kein Objekt ausgewählt hast: Wähle ein Objekt in der [3D Ansicht](3D_view/de.md).
 

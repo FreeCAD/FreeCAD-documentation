@@ -23,7 +23,7 @@ L\'outil <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part 
     L\'ordre de sélection est important. Il suffit de sélectionner une sous-forme de chaque objet (par ex. des faces).
 2.  Appelez la commande Part Découpe de plusieurs manières :
     -   En appuyant sur le bouton <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part Découpe](Part_JoinCutout/fr.md) dans la barre d\'outils Part
-    -   Utilisation de l\'entrée {{MenuCommand|Pièce → Joindre → Découpe de l'objet}} dans le menu Part
+    -   Utilisation de l\'entrée **Pièce → Joindre → Découpe de l'objet** dans le menu Part
 
 Un objet Part JoinFeature est créé avec le mode défini sur \'Cutout\' (Découpe). Les objets originaux sont masqués et le résultat de la découpe est affiché dans la [vue 3D](3D_view/fr.md).
 
