@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150"
+   viewBox="0 0 396.87499 396.875"
+   height="150"
+   version="1.2"
+   id="svg3247"
+   sodipodi:docname="Std_PerspectiveCamera_example.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata3251">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>FreeCAD SVG Export</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="971"
+     id="namedview3249"
+     showgrid="true"
+     inkscape:zoom="5.16"
+     inkscape:cx="75"
+     inkscape:cy="75"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3"
+     units="px">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2692" />
+  </sodipodi:namedview>
+  <title
+     id="title815">FreeCAD SVG Export</title>
+  <desc
+     id="desc817">Drawing page: Page exported from FreeCAD document: Unnamed</desc>
+  <defs
+     id="defs819" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="new"
+     style="display:inline"
+     transform="translate(-687.75511,-1154.7011)">
+    <path
+       style="fill:#6e6e6e;fill-opacity:1;stroke:#000000;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1004.0536,1378.9444 46.5345,-41.3111 -0.3538,-111.4947 -48.3644,30.0435 z"
+       id="path6907"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#acacac;fill-opacity:1;stroke:#000000;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 891.29021,1362.2656 112.76339,16.6788 -2.1837,-122.7623 -116.822,-12.1564 z"
+       id="path6909"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#e1e1e1;fill-opacity:1;stroke:#000000;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 885.0479,1244.0257 116.822,12.1564 48.3644,-30.0435 -107.01739,-9.8148 z"
+       id="path6911"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#6e6e6e;fill-opacity:1;stroke:#000000;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 871.12382,1496.9541 74.76484,-66.3759 -4.98967,-136.5202 -79.24879,49.228 z"
+       id="path6913"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#acacac;fill-opacity:1;stroke:#000000;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 734.63439,1469.706 136.48943,27.2481 -9.47362,-153.6681 -142.42791,-20.2815 z"
+       id="path6915"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#e1e1e1;fill-opacity:1;stroke:#000000;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 719.22229,1323.0045 142.42791,20.2815 79.24879,-49.228 -128.46478,-15.4498 z"
+       id="path6917"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

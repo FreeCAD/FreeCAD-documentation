@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="209.7mm" height="94.47mm" version="1.1" viewBox="0 0 209.7 94.47" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<marker id="e" overflow="visible" orient="auto">
+			<path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+		</marker>
+		<marker id="c" overflow="visible" orient="auto">
+			<path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+		</marker>
+		<marker id="d" overflow="visible" orient="auto">
+			<path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+		</marker>
+		<marker id="g" overflow="visible" orient="auto">
+			<path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+		</marker>
+		<marker id="h" overflow="visible" orient="auto">
+			<path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+		</marker>
+		<marker id="i" overflow="visible" orient="auto">
+			<path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+		</marker>
+		<marker id="a" overflow="visible" orient="auto">
+			<path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+		</marker>
+		<marker id="b" overflow="visible" orient="auto">
+			<path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+		</marker>
+		<marker id="f" overflow="visible" orient="auto">
+			<path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+		</marker>
+		<marker id="k" overflow="visible" orient="auto">
+			<path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+		</marker>
+		<marker id="j" overflow="visible" orient="auto">
+			<path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+		</marker>
+	</defs>
+	<g transform="translate(1.49e-7 -4.436)">
+		<g stroke="#000" stroke-linecap="round">
+			<rect x=".25" y="19.21" width="196.4" height="49.17" rx="1.771" ry="1.771" fill="#80b3ee" stroke-width=".5"/>
+			<g stroke-width=".35">
+				<rect transform="translate(-15.81 -13.5)" x="19.06" y="64.03" width="15.59" height="6.425" rx="1.771" ry="1.771" fill="#c8cccf"/>
+				<rect transform="translate(-15.81 -13.5)" x="19.06" y="54.42" width="22.99" height="6.425" rx="1.771" ry="1.771" fill="#06ba39"/>
+				<rect transform="translate(-15.81 -13.5)" x="19.06" y="43.24" width="15.59" height="6.425" rx="1.771" ry="1.771" fill="#5f80ec"/>
+			</g>
+		</g>
+		<g fill="none" stroke="#000">
+			<path d="m18.81 54.14c8.181-0.2656 12.4-1.642 14.99-3.295" marker-end="url(#a)" stroke-dasharray="1.36981, 0.456604" stroke-width=".4566"/>
+			<path d="m19 32.94c8.836 0.1652 14.22 2.579 18.46 5.883" marker-end="url(#a)" stroke-dasharray="1.36981, 0.456604" stroke-width=".4566"/>
+			<path d="m26.41 44.13h5.249" marker-end="url(#i)" stroke-width=".3391"/>
+		</g>
+		<g font-family="sans-serif" font-size="3.969px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px">
+			<text transform="translate(-15.81 -13.5)" x="23.23469" y="47.717228" style="line-height:125%" xml:space="preserve"><tspan x="23.23469" y="47.717228" font-size="3.528px" stroke-width=".2646px">Part</tspan></text>
+			<text x="5.1399498" y="45.342388" style="line-height:125%" xml:space="preserve"><tspan x="5.1399498" y="45.342388" font-size="3.528px" stroke-width=".2646px">PartDesign</tspan></text>
+			<text transform="translate(-15.81 -13.5)" x="23.003008" y="68.558815" style="line-height:125%" xml:space="preserve"><tspan x="23.003008" y="68.558815" font-size="3.528px" stroke-width=".2646px">Arch</tspan></text>
+			<text x="31.315502" y="24.92964" style="line-height:125%" xml:space="preserve"><tspan x="31.315502" y="24.92964" stroke-width=".2646px">FreeCAD</tspan></text>
+		</g>
+		<path d="m10.57 13.67v15.01" fill="none" marker-end="url(#g)" stroke="#000" stroke-dasharray="1.50000007, 0.50000001" stroke-width=".5"/>
+		<rect x="2.841" y="4.674" width="29.31" height="8.755" rx="3.329" ry="1.745" fill="#fff939" stroke="#000" stroke-dasharray="1.42934, 1.42934" stroke-linecap="round" stroke-width=".4764"/>
+		<text x="4.3869267" y="10.121131" fill="#000000" font-family="sans-serif" font-size="3.671px" image-rendering="auto" letter-spacing="0px" stroke-width=".2448px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="4.3869267" y="10.121131" stroke-width=".2448px">Твёрдое тело</tspan></text>
+		<rect x="3.253" y="60.07" width="17.71" height="6.403" rx="2.012" ry="1.765" fill="#aad7dc" stroke="#000" stroke-dasharray="1.05, 1.05" stroke-linecap="round" stroke-width=".3549"/>
+		<text x="5.4369936" y="64.342323" fill="#000000" font-family="sans-serif" font-size="3.969px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="5.4369936" y="64.342323" font-size="3.528px" stroke-width=".2646px">Прочее</tspan></text>
+		<path d="m21.16 63.67c7.424-0.4643 18.55-3.283 23.72-12.17" fill="none" marker-end="url(#a)" stroke="#000" stroke-dasharray="1.36981, 0.456604" stroke-width=".4566"/>
+	</g>
+	<g transform="translate(-15.81 -17.93)">
+		<rect x="48.26" y="53.24" width="21.87" height="10.74" rx="2.484" ry="2.14" fill="#fff939" stroke="#000" stroke-linecap="round" stroke-width=".4557"/>
+		<rect x="73.48" y="35.73" width="135.9" height="39.73" rx="1.771" ry="1.771" fill="#ffc55c" stroke="#000" stroke-linecap="round" stroke-width=".5"/>
+		<text x="78.182144" y="41.644741" fill="#000000" font-family="sans-serif" font-size="3.969px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="78.182144" y="41.644741" stroke-width=".2646px">Верстак FEM</tspan></text>
+		<g transform="translate(-.2864 .2804)">
+			<text x="59.334717" y="57.425724" fill="#000000" font-family="sans-serif" font-size="3.596px" letter-spacing="0px" stroke-width=".2397px" text-align="center" text-anchor="middle" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="59.334717" y="57.425724" text-align="center">Твёрдое</tspan><tspan x="59.334717" y="61.920811" text-align="center">тело</tspan></text>
+		</g>
+		<rect x="79.25" y="45.81" width="33.6" height="23.83" rx="1.982" ry="1.769" fill="#ffc55c" stroke="#000" stroke-linecap="round" stroke-width=".3701"/>
+		<rect x="144.2" y="88.7" width="26.74" height="17.95" rx="1.771" ry="1.771" fill="#ff89ec" stroke="#000" stroke-linecap="round" stroke-width=".35"/>
+		<text x="80.593529" y="51.231152" fill="#000000" font-family="sans-serif" font-size="3.969px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="80.593529" y="51.231152">Анализ</tspan><tspan x="80.593529" y="56.192089">- материалы</tspan><tspan x="80.593529" y="61.153027">- ограничения</tspan><tspan x="80.593529" y="66.113968">- нагрузки</tspan></text>
+		<g stroke="#000">
+			<rect x="142.9" y="50.89" width="24.93" height="13.51" rx="2.866" ry="1.758" fill="#ff89ec" stroke-linecap="round" stroke-width=".4438"/>
+			<rect x="173.5" y="48.92" width="34.62" height="18.24" rx="1.92" ry="1.769" fill="#ffc55c" stroke-linecap="round" stroke-width=".3643"/>
+			<path d="m167.9 57.65h4.29" fill="none" marker-end="url(#b)"/>
+		</g>
+		<text x="174.99925" y="54.033924" fill="#000000" font-family="sans-serif" font-size="3.969px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="174.99925" y="54.033924">Результаты</tspan><tspan x="174.99925" y="58.994862">- отрисовка</tspan><tspan x="174.99925" y="63.955799">- визуализация</tspan></text>
+		<text x="146.07704" y="94.205017" fill="#000000" font-family="monospace" font-size="3.969px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="146.07704" y="94.205017"><tspan font-family="sans-serif">- </tspan>CalculiX</tspan><tspan x="146.07704" y="99.165955"><tspan font-family="sans-serif">- </tspan>Z88</tspan><tspan x="146.07704" y="104.12689"><tspan font-family="sans-serif">- </tspan>Elmer</tspan></text>
+		<g stroke="#000">
+			<path d="m112.8 57.72h6.131" fill="none" marker-end="url(#b)" stroke-width=".9117"/>
+			<rect x="120.4" y="50.84" width="15.78" height="13.61" rx="1.771" ry="1.771" fill="#ff8a5c" stroke-linecap="round" stroke-width=".35"/>
+			<rect x="117.5" y="88.7" width="21.7" height="13.61" rx="1.771" ry="1.771" fill="#ff8a5c" stroke-linecap="round" stroke-width=".35"/>
+			<path d="m136.4 57.65h5.031" fill="none" marker-end="url(#b)"/>
+			<rect x="77.1" y="90.91" width="28.84" height="8.773" rx="3.275" ry="1.749" fill="#fff939" stroke-dasharray="1.37509, 1.37509" stroke-linecap="round" stroke-width=".4732"/>
+			<path d="m106.2 95.52h10.23" fill="none" marker-end="url(#h)" stroke-dasharray="1.50000004, 0.50000001" stroke-width=".5"/>
+		</g>
+		<g letter-spacing="0px" word-spacing="0px">
+			<text x="122.16221" y="59.005703" font-family="sans-serif" font-size="3.969px" stroke-width=".2646px" style="line-height:125%" xml:space="preserve"><tspan x="122.16221" y="59.005703" dx="0 0" stroke-width=".2646px">Сетка</tspan></text>
+			<text x="118.82732" y="94.103233" font-family="monospace" font-size="3.969px" stroke-width=".2646px" style="line-height:125%" xml:space="preserve"><tspan x="118.82732" y="94.103233"><tspan font-family="sans-serif">- </tspan>Gmsh</tspan><tspan x="118.82732" y="99.064171"><tspan font-family="sans-serif">- </tspan>Netgen</tspan></text>
+			<text x="78.701378" y="96.433968" font-family="sans-serif" font-size="3.573px" stroke-width=".2382px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="78.701378" y="96.433968" stroke-width=".2382px">Твёрдое тело</tspan></text>
+		</g>
+		<g fill="none" stroke="#000">
+			<path d="m125.7 64.62v22.13" marker-end="url(#f)"/>
+			<path d="m131 88.54v-22.13" marker-end="url(#d)"/>
+			<g transform="translate(-.9519)">
+				<path d="m153.8 64.62v22.13" marker-end="url(#c)"/>
+				<path d="m159.1 88.54v-22.13" marker-end="url(#e)"/>
+			</g>
+		</g>
+		<text x="145.03069" y="58.831596" fill="#000000" font-family="sans-serif" font-size="3.969px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="145.03069" y="58.831596" stroke-width=".2646px">Решатель</tspan></text>
+		<path d="m70.35 57.63h7.055" fill="none" marker-end="url(#k)" stroke="#000" stroke-width=".8975"/>
+		<rect x="191.4" y="88.7" width="33.96" height="23.53" rx="1.771" ry="1.771" fill="#91f08c" stroke="#000" stroke-linecap="round" stroke-width=".35"/>
+		<text x="193.44398" y="94.116798" fill="#000000" font-family="sans-serif" font-size="3.969px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="193.44398" y="94.116798">Внешняя</tspan><tspan x="193.44398" y="99.077736">постобработка</tspan><tspan x="193.44398" y="104.03867">(<tspan font-family="monospace">paraview</tspan>)</tspan><tspan x="193.44398" y="108.99961"><tspan font-family="monospace">.vtk</tspan>, <tspan font-family="monospace">.vtu</tspan></tspan></text>
+		<path transform="translate(15.81 13.5)" d="m175.2 53.67c9.783 2.669 12.19 9.592 13.5 20.72" fill="none" marker-end="url(#j)" stroke="#000" stroke-dasharray="1.50000008, 0.50000003" stroke-width=".5"/>
+	</g>
+</svg>

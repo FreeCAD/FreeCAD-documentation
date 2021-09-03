@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="130mm"
+   height="85mm"
+   viewBox="0 0 130 85"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="CycloidGear_inner-outer-diameter_2.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.5752885"
+     inkscape:cx="245.66929"
+     inkscape:cy="160.62992"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="746"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Grafik"
+     style="display:inline"
+     transform="translate(0,-212)">
+    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.34999999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="path827"
+       sodipodi:type="arc"
+       sodipodi:cx="56.150761"
+       sodipodi:cy="286.25778"
+       sodipodi:rx="52.916664"
+       sodipodi:ry="52.916664"
+       sodipodi:start="3.0035449"
+       sodipodi:end="5.994823"
+       sodipodi:open="true"
+       d="M 3.7375175,293.53963 A 52.916664,52.916664 0 0 1 44.953942,234.53927 52.916664,52.916664 0 0 1 106.88254,271.20921" />
+    <path
+       d="m 90.663974,242.08196 a 9.4486742,9.4486675 0 0 1 -10.864294,-5.19548 9.4486742,9.4486675 0 0 1 3.062968,-11.64663 9.4486742,9.4486675 0 0 1 12.014621,0.82148 9.4486742,9.4486675 0 0 1 1.449231,11.95515"
+       sodipodi:open="true"
+       sodipodi:end="0.57031399"
+       sodipodi:start="1.3259179"
+       sodipodi:ry="9.4486675"
+       sodipodi:rx="9.4486742"
+       sodipodi:cy="232.91518"
+       sodipodi:cx="88.373253"
+       sodipodi:type="arc"
+       id="path829"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.34999999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.34999999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="path831"
+       sodipodi:type="arc"
+       sodipodi:cx="27.802574"
+       sodipodi:cy="268.11438"
+       sodipodi:rx="19.276049"
+       sodipodi:ry="19.276045"
+       sodipodi:start="0.92809742"
+       sodipodi:end="0.36601182"
+       sodipodi:open="true"
+       d="m 39.355829,283.54449 a 19.276049,19.276045 0 0 1 -25.213132,-1.82961 19.276049,19.276045 0 0 1 -1.719766,-25.22085 19.276049,19.276045 0 0 1 24.731393,-5.23523 19.276049,19.276045 0 0 1 8.647494,23.75437" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 47.173828,269.43785 c 7.654015,-13.60714 5.950135,-25.56698 8.787945,-35.90774 3.48098,-12.68442 23.34003,-15.59152 32.69494,-10.20536"
+       id="path835"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       sodipodi:nodetypes="cssc"
+       inkscape:connector-curvature="0"
+       id="path848"
+       d="m 47.173828,269.43785 c 7.654015,-13.60714 5.950135,-25.56698 8.787945,-35.90774 0.62869,-2.29091 1.79163,-4.2629 3.33044,-5.92469 6.98133,-7.5393 21.69917,-8.69404 29.3645,-4.28067"
+       style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Zahnrad"
+     transform="translate(0,-212)">
+    <path
+       id="path886"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 86.114413,249.7826 c -2.22582,-1.37381 -2.03375,-3.03141 -1.6136,-4.90499 0.40077,-1.78667 0.72746,-3.55434 0.92111,-5.32654 0.25802,-2.36156 -0.0981,-4.62306 -0.91775,-6.73435 l -4.49043,-1.57881 c -1.85817,1.29487 -3.41537,2.97305 -4.51875,5.07687 -0.82803,1.57879 -1.54297,3.22811 -2.20725,4.93444 -0.69658,1.78929 -1.46196,3.2721 -4.07563,3.17046 -2.46783,-0.86684 -2.63415,-2.52722 -2.62376,-4.4473 0.01,-1.83104 -0.0483,-3.6277 -0.23754,-5.40038 -0.25221,-2.36219 -1.08298,-4.49549 -2.33461,-6.38305 l -4.72399,-0.58353 c -1.53881,1.66179 -2.70175,3.63378 -3.33044,5.92469 -0.4718,1.71919 -0.81806,3.48313 -1.10266,5.29195 -0.29844,1.89677 -0.72953,3.50881 -3.304621,3.96763 -2.613671,0.10164 -3.379045,-1.38117 -4.075629,-3.17046 -0.664283,-1.70633 -1.37922,-3.35565 -2.207246,-4.93444 -1.10338,-2.10382 -2.660586,-3.782 -4.518755,-5.07687 l -4.490429,1.57881 c -0.819696,2.11129 -1.175774,4.37279 -0.917756,6.73435 0.193654,1.7722 0.520349,3.53987 0.921111,5.32654 0.420155,1.87358 0.612221,3.53118 -1.613591,4.90499"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccscccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Text"
+     transform="translate(0,-212)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="65.978142"
+       y="218.12758"
+       id="text892"><tspan
+         sodipodi:role="line"
+         id="tspan890"
+         x="65.978142"
+         y="218.12758"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">epicycloid</tspan></text>
+    <text
+       id="text896"
+       y="260.36639"
+       x="53.032459"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         y="260.36639"
+         x="53.032459"
+         id="tspan894"
+         sodipodi:role="line">hypocycloid</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="22.154961"
+       y="275.42358"
+       id="text900"><tspan
+         sodipodi:role="line"
+         id="tspan898"
+         x="22.154961"
+         y="275.42358"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">rolling</tspan><tspan
+         sodipodi:role="line"
+         x="22.154961"
+         y="280.27429"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan908">circle</tspan></text>
+    <text
+       id="text904"
+       y="230.63342"
+       x="95.860313"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332"
+         y="230.63342"
+         x="95.860313"
+         id="tspan902"
+         sodipodi:role="line">rolling</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332"
+         y="235.48412"
+         x="95.860313"
+         sodipodi:role="line"
+         id="tspan906">circle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="38.858356"
+       y="280.21014"
+       id="text912"><tspan
+         sodipodi:role="line"
+         id="tspan910"
+         x="38.858356"
+         y="280.21014"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">inner_diameter</tspan></text>
+    <text
+       id="text916"
+       y="242.03458"
+       x="91.775017"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         y="242.03458"
+         x="91.775017"
+         id="tspan914"
+         sodipodi:role="line">outer_diameter</tspan></text>
+  </g>
+</svg>
