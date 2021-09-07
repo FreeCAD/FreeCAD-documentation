@@ -35,37 +35,29 @@ Basic command-line usage:
 
     See bottom of file for available functions
 
-Basic Python usage:
--------------------
-
-    from migrate import MediaWiki
-    wiki = MediaWiki([url])
-    wiki.init() # do this the first time. You can interrupt and resume init() later
-    wiki.update() # do this next times
-
-Detailed Python usage:
-----------------------
+Python usage:
+-------------
 
 First time:
 
     from migrate import MediaWiki
-    wiki = MediaWiki(url="https://wiki.freecadweb.org")
+    wiki = MediaWiki()
     wiki.getPageNames() # not strictly needed, done automatically by next step
     wiki.getAllPages() # this writes to disk cache, so it can be interrupted/resumed
     wiki.writeAllPages() # write md files
     wiki.getAllImages() # fetches and saves all images
 
-You will get two json files a text cache and a revision set.
+You will get two json files: a text cache and a revision set.
 
 Next times:
 
     from migrate import MediaWiki
-    wiki = MediaWiki(url="https://wiki.freecadweb.org") # this loads filecache.json
+    wiki = MediaWiki() # this loads filecache.json
     oldrevisions = wiki.readRevisions() # this loads the latest revision set
     wiki.getPageNames() # this fetches new page names, if any
     newrevisions = wiki.getRevisions()
     wiki.updateRevisions(oldrevisions,newrevisions) # this writes to disk cache like getAllPages
-    wiki.writeAllPages() # write md files
+    wiki.writeAllPages() # write md files - overwrites everything
     wiki.getAllImages() # fetches and saves all images - existing ones are not overwritten
 """
 
@@ -76,6 +68,8 @@ import re
 import json
 import datetime
 import pypandoc
+
+unhandledTemplates = [] # holder for unhandled templates
 
 class MediaWiki:
 
@@ -102,32 +96,6 @@ class MediaWiki:
             os.mkdir(self.output)
         self.imagefolder = "images"
         self.translationfolder = "translations"
-
-    ### MAIN TOOLS
-
-
-    def init(self):
-
-        """init():
-        Performs an initial import of the pages and images.
-        If a cache already exists, it will be fully overwritten."""
-
-        self.getPageNames()
-        self.getAllPages()
-
-
-    def update(self):
-
-        """update():
-        Performs initial import if running for the first time,
-        or updates the contents if a cache already exists"""
-
-        if not self.pagecontents:
-            self.init()
-        oldrevisions = self.readRevisions()
-        self.getPageNames()
-        newrevisions = self.getRevisions()
-        self.updateRevisions(oldrevisions,newrevisions)
 
 
     ### UTILS
@@ -499,6 +467,8 @@ class MediaWiki:
         Imagepath indicates the location of images relative to this page
         (default = "images")"""
 
+        global unhandledTemplates
+
         result = mdtext
         flags = re.DOTALL|re.MULTILINE
         if not imagepath:
@@ -593,7 +563,14 @@ class MediaWiki:
             if template.strip("{").strip("}").strip() in unusedtemplates:
                 result = re.sub(template,"",result,flags=flags) # remove all remaining templates
             else:
-                print("WARNING: Unhandled template:",template)
+                #print("WARNING: Unhandled template:",template)
+                try:
+                    template = re.findall("{{(.*?)[|}]",template,flags=flags)[0].strip()
+                except:
+                    print("error in template:",template)
+                    sys.exit(1)
+                if not template in unhandledTemplates:
+                    unhandledTemplates.append(template)
 
         return result
 
@@ -652,6 +629,8 @@ class MediaWiki:
         If basepath is not given, file is written in the current dir.
         If overwrite is False, existing files are skipped"""
 
+        global unhandledTemplates
+
         errors = []
         count = 1
         if not basepath:
@@ -663,6 +642,8 @@ class MediaWiki:
                 errors.append(r)
             count += 1
         self.printProgress()
+        if unhandledTemplates:
+            print("unhandled templates: ",unhandledTemplates)
         return errors
 
 
@@ -673,19 +654,27 @@ class MediaWiki:
 
 def init():
 
-    """performs an initial import"""
+    """performs an initial import. Doesn't write anything to disk"""
 
     wiki = MediaWiki()
-    wiki.init()
+    wiki.getPageNames()
+    wiki.getAllPages()
     print("All done!")
 
 
 def update():
 
-    """performs a full update of the local contents from the wiki"""
+    """performs a full update of the local contents from the wiki, updates pages and images on disk"""
 
     wiki = MediaWiki()
-    wiki.update()
+    oldrevisions = wiki.readRevisions()
+    wiki.getPageNames()
+    if not wiki.pagecontents:
+        wiki.getAllPages()
+    newrevisions = wiki.getRevisions()
+    wiki.updateRevisions(oldrevisions,newrevisions)
+    wiki.writeAllPages()
+    wiki.getAllImages()
     print("All done!")
 
 
@@ -706,7 +695,7 @@ def test():
 
 def writepages():
 
-    """writes all pages to .md files"""
+    """writes all pages to disk, overwriting existing ones"""
 
     wiki = MediaWiki()
     #wiki.update()
@@ -715,14 +704,11 @@ def writepages():
 
 def writeimages():
 
-    """downloads and wrie images. Existing images are skipped"""
+    """downloads and write all images. Existing images are skipped"""
 
     wiki = MediaWiki()
     #wiki.update()
     wiki.getAllImages()
-
-
-
 
 
 
@@ -745,7 +731,7 @@ if __name__ == "__main__":
                     exit(0)
 
     # print help text
-    funcs = "    Available functions:\n"
+    funcs = "    Available functions:\n\n"
     for name in list(globals().keys()):
         if (name != "MediaWiki") and callable(globals()[name]):
             funcs += "    --" + name + " : " + globals()[name].__doc__ + "\n"
