@@ -136,7 +136,7 @@ class MediaWiki:
         if os.path.exists(self.cachefile):
             with open(self.cachefile) as jfile:
                 self.pagecontents = json.load(jfile)
-                self.pagenames = self.pagecontents.keys()
+                self.pagenames = list(self.pagecontents.keys())
                 self.pagecount = len(self.pagecontents)
 
 
@@ -194,8 +194,10 @@ class MediaWiki:
                     if data["continue"]["apcontinue"]:
                         apfrom = data["continue"]["apcontinue"]
                         count += 1
+            else:
+                break
         self.printProgress()
-        self.pagenames = pages
+        self.pagenames = list(pages)
         self.pagecount = len(self.pagenames)
         return pages
 
@@ -216,9 +218,15 @@ class MediaWiki:
         data = result.json()
         wikitext = data["parse"]["wikitext"]
         revision = data["parse"]["revid"]
+        if name.startswith("Category:"):
+            # add list of pages
+            cpages = self.getCategoryContents(name)
+            cpages = ["[["+p+"]], " for p in cpages]
+            cpages = "\n\n===Contents:===\n\n" + cpages
+            wikitext += cpages
         self.pagecontents[name] = wikitext
         return wikitext,revision
-
+            
 
     def getAllPages(self,pageset=None):
 
@@ -251,6 +259,79 @@ class MediaWiki:
             os.remove(revfile)
         self.writeRevisions(revisions)
         return revisions
+
+
+    def getCategories(self):
+        
+        """getCategories():
+        Returns a list of categories of the whole wiki.
+        Also stores the list in self.pagenames"""
+
+        categories = []
+        count = 1
+        acfrom = None
+        params = { "action": "query",
+                   "format": "json",
+                   "list": "allcategories",
+                   "aclimit": "500",
+                 }
+        while True:
+            if acfrom:
+                params["acfrom"] = acfrom
+            else:
+                if "acfrom" in params:
+                    break
+            result = self.session.get(url=self.url, params=params)
+            data = result.json()
+            categories.extend(["Category:"+c["*"] for c in data["query"]["allcategories"]])
+            acfrom = None
+            if "continue" in data:
+                if "accontinue" in data["continue"]:
+                    if data["continue"]["accontinue"]:
+                        acfrom = data["continue"]["accontinue"]
+                        count += 1
+            else:
+                break
+        self.pagenames.extend(categories)
+        return categories
+
+
+    def getCategoryContents(self,name):
+
+        """getCategoryContents():
+        Returns a list of pages that use the given category"""
+        
+        if not name.startswith("Category:"):
+            name = "Category:"+name
+        members = []
+        count = 1
+        cmfrom = None
+        params = { "action": "query",
+                   "format": "json",
+                   "list": "categorymembers",
+                   "cmtitle": name,
+                   "cmlimit": "5000",
+                 }
+        while True:
+            if cmfrom:
+                params["cmfrom"] = cmfrom
+            else:
+                if "cmfrom" in params:
+                    break
+            result = self.session.get(url=self.url, params=params)
+            data = result.json()
+            members.extend([m["title"] for m in data["query"]["categorymembers"]])
+            cmfrom = None
+            if "continue" in data:
+                print(data["continue"])
+                if "cmcontinue" in data["continue"]:
+                    if data["continue"]["cmcontinue"]:
+                        cmfrom = data["continue"]["cmcontinue"]
+                        count += 1
+            else:
+                break
+        return members
+
 
 
     ### IMAGE OPERATIONS
@@ -308,6 +389,8 @@ class MediaWiki:
                 if "aicontinue" in data["continue"]:
                     if data["continue"]["aicontinue"]:
                         aifrom = data["continue"]["aicontinue"]
+            else:
+                break
         self.printProgress()
         self.images = images
         self.imagecount = len(self.images.keys())
@@ -441,9 +524,9 @@ class MediaWiki:
     ### MARKDOWN OPERATIONS
 
 
-    def getMarkdown(self,wikitext,clean=True):
+    def getMarkdown(self,page,wikitext,clean=True):
 
-        """getMarkdown(wikitext,[clean]):
+        """getMarkdown(page,wikitext,[clean]):
         Returns a markdown version of a text in wiki format.
         If clean is false, raw pandoc output is returned"""
 
@@ -454,6 +537,7 @@ class MediaWiki:
         except:
             return None
         else:
+            result = "# "+page.replace("_"," ")+"\n\n"+result
             if clean:
                 return self.cleanMarkdown(result)
             else:
@@ -489,6 +573,8 @@ class MediaWiki:
         result = re.sub("{{Docnav.*?}}","",result,flags=flags)
         result = re.sub("{{Page in progress}}","",result,flags=flags)
         result = re.sub("{{\#translation\:}}","",result,flags=flags)
+        result = re.sub("{{\\\#translation\:}}","",result,flags=flags)
+        result = re.sub("{{UnfinishedDocu.*?}}","",result,flags=flags)
 
         # templates that get turned into bold text
         result = re.sub("{{Caption\|(.*?)}}",r"*\1*",result,flags=flags)
@@ -555,7 +641,7 @@ class MediaWiki:
         result = re.sub("\[(.*?)px\]\(File:(.*?)\.md\)",r'<img src='+imagepath+r'/\2 style="width:\1px">',result) # fix File: links
 
         # removing other leftovers
-        result = re.sub("\\_\\_NOTOC\\_\\_","",result,flags=flags) # removing __NOTOC__ entries
+        result = re.sub("\\\_\\\_NOTOC\\\_\\\_","",result,flags=flags) # removing __NOTOC__ entries
         result = re.sub("\{\#.*?\}","",result,flags=flags) # removing {#...} tags
 
         # removing all remaining templates
@@ -588,7 +674,7 @@ class MediaWiki:
         if not os.path.exists(basepath):
             print("base path",basepath,"does not exist")
             return page
-        result = self.getMarkdown(self.pagecontents[page],clean)
+        result = self.getMarkdown(page,self.pagecontents[page],clean)
         if not result:
             print("Error writing page:",page)
             return page
@@ -683,14 +769,17 @@ def test():
     """creates a couple of pages for testing"""
 
     w = MediaWiki()
+    w.writeMarkdown("Main_Page")
+    w.writeMarkdown("User_hub")
     w.writeMarkdown("Arch_Workbench")
+    w.writeMarkdown("BIM_Workbench")
     w.writeMarkdown("Arch_Wall")
     w.writeMarkdown("Draft_Line")
     w.writeMarkdown("Part_Extrude")
-    w.writeMarkdown("Arch_Workbench",basepath=os.path.dirname(__file__)+"/orig",clean=False)
-    w.writeMarkdown("Arch_Wall",basepath=os.path.dirname(__file__)+"/orig",clean=False)
-    w.writeMarkdown("Draft_Line",basepath=os.path.dirname(__file__)+"/orig",clean=False)
-    w.writeMarkdown("Part_Extrude",basepath=os.path.dirname(__file__)+"/orig",clean=False)
+    #w.writeMarkdown("Arch_Workbench",basepath=os.path.dirname(__file__)+"/orig",clean=False)
+    #w.writeMarkdown("Arch_Wall",basepath=os.path.dirname(__file__)+"/orig",clean=False)
+    #w.writeMarkdown("Draft_Line",basepath=os.path.dirname(__file__)+"/orig",clean=False)
+    #w.writeMarkdown("Part_Extrude",basepath=os.path.dirname(__file__)+"/orig",clean=False)
 
 
 def writepages():
